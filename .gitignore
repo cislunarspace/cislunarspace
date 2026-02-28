@@ -1,0 +1,94 @@
+# 编辑器
+.idea
+.vscode-test
+.tern-port
+
+# 操作系统
+.DS_Store
+
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 依赖管理
+node_modules/
+jspm_packages/
+web_modules/
+bower_components
+
+# 包管理锁文件
+yarn.lock
+.pnp.*
+
+# 环境变量
+.env
+.env.test
+
+# 构建输出
+dist
+/dist
+/.vuepress/dist
+out
+.next
+.nuxt
+build/Release
+
+# 缓存
+.temp
+.cache
+.parcel-cache
+.eslintcache
+.npm
+.yarn-integrity
+.fusebox/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+*.tsbuildinfo
+
+# 测试覆盖率
+coverage
+*.lcov
+.nyc_output
+lib-cov
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 诊断报告
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# 二进制文件
+*.tgz
+.node_repl_history
+
+# 特定框架
+# Gatsby
+.cache/
+# Nuxt
+.nuxt
+# VuePress
+.vuepress/dist
+# Next.js
+.next
+out
+
+# 服务器less
+.serverless/
+
+# 数据库
+.dynamodb/
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
