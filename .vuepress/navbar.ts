@@ -2,7 +2,35 @@ import {NavItem} from "vuepress/config";
 
 export default [
     {
-        text: "学习路线",
-        link: '/学习路线/'
+        text: "知识体系",
+        link: '/知识体系/'
+    },
+    {
+        text: "学习路径",
+        link: '/学习路径/'
+    },
+    {
+        text: "动力学",
+        link: '/动力学/'
+    },
+    {
+        text: "案例实践",
+        link: '/案例实践/'
+    },
+    {
+        text: "技术词典",
+        link: '/技术词典/'
+    },
+    {
+        text: "社区",
+        link: '/社区/'
+    },
+    {
+        text: "资源工具",
+        link: '/资源工具/'
+    },
+    {
+        text: "关于",
+        link: '/关于/'
     },
 ] as NavItem[];

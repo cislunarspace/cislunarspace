@@ -110,8 +110,9 @@ export default {
     shouldShowPageSidebar (){
         const { frontmatter } = this.$page
 
-        return (//false&&
-            !frontmatter.home
+        return (
+            false // 隐藏右侧边栏，只保留左侧导航
+            && !frontmatter.home
             && frontmatter.sidebar !== false
             && this.pageSidebarItems.length
         )

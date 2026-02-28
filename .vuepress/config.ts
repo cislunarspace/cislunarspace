@@ -5,12 +5,12 @@ import footer from "./footer";
 import extraSideBar from "./extraSideBar";
 
 const author = "天疆说";
-const domain = "https://gitee.com/cislunarspace/";
-const tags = ["地月空间", "航天", "入门"];
+const domain = "https://cislunarspace.cn";
+const tags = ["地月空间", "航天", "轨道动力学"];
 
 export default defineConfig({
-  title: "天疆说",
-  description: "贴心的编程学习路线，全面的编程知识百科",
+  title: "地月空间入门指南",
+  description: "系统掌握地月空间科学、技术与工程实践",
   head: [
     // 站点图标
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -20,7 +20,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "天疆说, 编程学习路线, 编程知识百科, Java, 编程导航, 前端, 开发, 编程分享, 项目, IT, 求职, 面经",
+          "地月空间，航天，轨道动力学，拉格朗日点，NRHO, 阿耳忒弥斯，月球探测，航天器轨道，CR3BP，GNC",
       },
     ],
     // 百度统计
