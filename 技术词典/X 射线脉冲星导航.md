@@ -1,4 +1,4 @@
-# X 射线脉冲星导航
+﻿# X 射线脉冲星导航
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)
 >
