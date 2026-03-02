@@ -1,10 +1,8 @@
 import {SidebarConfig4Multiple} from "vuepress/config";
 
-import roadmapSideBar from "./sidebars/roadmapSideBar";
 import knowledgeSideBar from "./sidebars/knowledgeSideBar";
 // @ts-ignore
 export default {
-    "/学习路径/": roadmapSideBar,
     "/知识体系/": knowledgeSideBar,
     "/动力学/": [
         "",
@@ -52,7 +50,6 @@ export default {
             title: "快速导航",
             children: [
                 "/知识体系/",
-                "/学习路径/",
                 "/动力学/",
                 "/案例实践/",
                 "/技术词典/",
