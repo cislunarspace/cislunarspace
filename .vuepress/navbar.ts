@@ -1,4 +1,4 @@
-import {NavItem} from "vuepress/config";
+import { NavItem } from "vuepress/config";
 
 export default [
     {
@@ -16,10 +16,6 @@ export default [
     {
         text: "技术词典",
         link: '/技术词典/'
-    },
-    {
-        text: "社区",
-        link: '/社区/'
     },
     {
         text: "资源工具",

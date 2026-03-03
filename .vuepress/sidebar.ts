@@ -1,4 +1,4 @@
-import {SidebarConfig4Multiple} from "vuepress/config";
+import { SidebarConfig4Multiple } from "vuepress/config";
 
 import knowledgeSideBar from "./sidebars/knowledgeSideBar";
 // @ts-ignore
@@ -13,10 +13,10 @@ export default {
     ],
     "/案例实践/": [
         "",
-        "CAPSTONE 任务",
-        "GRAIL-SMART-1 任务",
+        "CAPSTONE任务",
+        "GRAIL-SMART-1任务",
         "阿耳忒弥斯计划",
-        "LONEStar 实验",
+        "LONEStar实验",
     ],
     "/技术词典/": [
         "",
@@ -26,13 +26,6 @@ export default {
         "GNC 技术",
         "任务要素",
         "X 射线脉冲星导航",
-    ],
-    "/社区/": [
-        "",
-        "技术问答",
-        "项目协作",
-        "前沿追踪",
-        "职业发展",
     ],
     "/资源工具/": [
         "",
@@ -53,7 +46,6 @@ export default {
                 "/动力学/",
                 "/案例实践/",
                 "/技术词典/",
-                "/社区/",
                 "/资源工具/",
                 "/关于/",
             ]
