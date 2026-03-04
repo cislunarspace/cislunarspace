@@ -6,10 +6,6 @@ export default [
         link: '/知识体系/'
     },
     {
-        text: "动力学",
-        link: '/动力学/'
-    },
-    {
         text: "案例实践",
         link: '/案例实践/'
     },
