@@ -2,17 +2,17 @@
 home: true
 heroImage: /logo.png
 heroText: 地月空间入门指南
-tagline: 从地球到月球：系统掌握地月空间科学、技术与工程实践
+tagline: 系统掌握地月空间科学
 actionText: 开始学习 →
 actionLink: /地月空间是什么/
 features:
 - title: 系统全面
-  details: 涵盖地月空间科学、技术与工程实践的完整知识体系
+  details: 涵盖地月空间完整知识体系
 - title: 专业权威
-  details: 基于最新研究成果和工程实践，提供准确可靠的信息
+  details: 提供准确可靠的信息
 - title: 实用导向
-  details: 提供丰富的资源、工具和实际应用案例
-footer: MIT Licensed | Copyright © 2024-2025 天疆说
+  details: 提供丰富的资源、工具
+footer: Apache Licensed | Copyright © 天疆说
 ---
 
 ## 地月空间是什么？
@@ -27,7 +27,7 @@ footer: MIT Licensed | Copyright © 2024-2025 天疆说
 
 近年来，随着各国对月球探测和深空探索的重视，地月空间任务日益增多。从早期的阿波罗计划到现代的月球探测任务，再到未来的月球基地建设，地月空间已成为国际航天竞争与合作的新前沿。当前，美国、中国、俄罗斯、欧洲、日本、印度等国家和组织都在积极开展地月空间相关任务，包括月球探测、月球资源勘查、地月空间基础设施部署等。
 
-![地月空间示意图[2]](./Figures/地月空间示意图.png)
+![地月空间示意图[2]](Figures/地月空间示意图.png)
 图：地月空间示意图[2]
 
 ## 地月空间飞行器在什么轨道上运行？
