@@ -1,10 +1,19 @@
-# 地月空间入门指南
-
-> 从地球到月球：系统掌握地月空间科学、技术与工程实践
->
-> 作者：[天疆说](https://blog.csdn.net/qq_33254264?spm=1000.2115.3001.5343)
->
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+---
+home: true
+heroImage: /logo.png
+heroText: 地月空间入门指南
+tagline: 从地球到月球：系统掌握地月空间科学、技术与工程实践
+actionText: 开始学习 →
+actionLink: /地月空间是什么/
+features:
+- title: 系统全面
+  details: 涵盖地月空间科学、技术与工程实践的完整知识体系
+- title: 专业权威
+  details: 基于最新研究成果和工程实践，提供准确可靠的信息
+- title: 实用导向
+  details: 提供丰富的资源、工具和实际应用案例
+footer: MIT Licensed | Copyright © 2024-2025 天疆说
+---
 
 ## 地月空间是什么？
 
