@@ -3,15 +3,15 @@ home: true
 heroImage: /logo.png
 heroText: 地月空间入门指南
 tagline: 系统掌握地月空间科学
-actionText: 开始学习 →
+actionText: 开始学习
 actionLink: /地月空间是什么/
-features:
-- title: 系统全面
-  details: 涵盖地月空间完整知识体系
-- title: 专业权威
-  details: 提供准确可靠的信息
-- title: 实用导向
-  details: 提供丰富的资源、工具
+# features:
+# - title: 系统全面
+#   details: 涵盖地月空间完整知识体系
+# - title: 专业权威
+#   details: 提供准确可靠的信息
+# - title: 实用导向
+#   details: 提供丰富的资源、工具
 footer: Apache Licensed | Copyright © 天疆说
 ---
 
