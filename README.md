@@ -1,8 +1,5 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/地月空间-入门指南-0078D7?style=for-the-badge&logo=rocket&logoColor=white" alt="地月空间入门指南">
-<img src="https://img.shields.io/badge/航天-知识库-42b883?style=for-the-badge&logo=spacex&logoColor=white" alt="航天知识库">
-
 # 🚀 地月空间入门指南
 
 **系统掌握地月空间科学、技术与工程实践 · 开源知识库**
@@ -12,7 +9,6 @@
   <img src="https://img.shields.io/github/forks/cislunarspace/cislunarspace?style=flat-square&logo=github&label=Forks" alt="GitHub forks">
   <img src="https://img.shields.io/github/license/cislunarspace/cislunarspace?style=flat-square&logo=apache&label=License" alt="GitHub license">
   <img src="https://img.shields.io/website?down_message=维护中&style=flat-square&up_color=green&up_message=在线&url=https%3A%2F%2Fcislunarspace.cn&label=网站" alt="Website">
-  <img src="https://img.shields.io/badge/版本-1.0.0-blue?style=flat-square&logo=semver" alt="Version">
 </p>
 
 </div>
