@@ -20,6 +20,35 @@ wechatShare:
 
 欢迎通过 [Gitee 仓库](https://gitee.com/cislunarspace/cislunarspace/) 或 [Github 仓库](https://github.com/cislunarspace/cislunarspace/) 提交新的词条、修订建议或其他贡献，与我们一同完善这个地月空间入门知识库。
 
+<div style="text-align: center; margin: 40px 0;">
+  <a href="/what-is-cislunarspace/" class="start-learning-btn" style="
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3eaf7c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(62, 175, 124, 0.2);
+  ">
+    开始学习 →
+  </a>
+</div>
+
+<style>
+  .start-learning-btn:hover {
+    background-color: #2d9c6a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(62, 175, 124, 0.3);
+  }
+  .start-learning-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(62, 175, 124, 0.2);
+  }
+</style>
+
 ## 主要内容
 
 可点击绿色文本进入相关页面查看详细内容。
