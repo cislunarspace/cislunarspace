@@ -1,9 +1,9 @@
 import { SidebarConfig4Multiple } from "vuepress/config";
 
-// 全局侧边栏配置 - 在所有页面显示相同的导航结构
-const globalSidebar = [
+// 主侧边栏配置 - 用于主要页面
+const mainSidebar = [
     {
-        title: "地月空间是什么？",
+        title: "地月空间是什么",
         collapsable: true,
         children: [
             ["/what-is-cislunarspace/", "概述"],
@@ -12,14 +12,14 @@ const globalSidebar = [
         ]
     },
     {
-        title: "地月空间飞行器在什么轨道上运行？",
+        title: "地月空间飞行器运行轨道",
         collapsable: true,
         children: [
             ["/cislunar-orbits/", "概述"],
         ]
     },
     {
-        title: "地月空间科学研究前沿在哪里？",
+        title: "地月空间科学研究前沿",
         collapsable: true,
         children: [
             ["/research-frontiers/", "引言"],
@@ -29,48 +29,55 @@ const globalSidebar = [
             ["/research-frontiers/major-projects", "重大项目"],
         ]
     },
+];
+
+// 词典独立侧边栏
+const glossarySidebar = [
     {
         title: "地月空间术语词典",
-        collapsable: true,
+        collapsable: false,
         children: [
             ["/glossary/", "概述"],
             ["/glossary/cr3bp", "圆形限制性三体问题"],
             ["/glossary/xray-pulsar-navigation", "X射线脉冲星导航"],
         ]
-    },
+    }
+];
+
+// 资源与工具独立侧边栏
+const resourcesToolsSidebar = [
     {
         title: "资源与工具",
-        collapsable: true,
+        collapsable: false,
         children: [
-            ["/resources-tools/", "引言"],
-            ["/resources-tools/datasets", "数据集下载"],
-        ]
-    },
-    {
-        title: "关于本站",
-        collapsable: true,
-        children: [
-            ["/", "首页"],
+            ["/resources-tools/", "概述"],
+            ["/resources-tools/datasets", "数据集"],
         ]
     }
 ];
 
 // @ts-ignore
 export default {
-    // 所有页面都使用相同的全局侧边栏
-    "/": globalSidebar,
-    "/what-is-cislunarspace/": globalSidebar,
-    "/what-is-cislunarspace/environment": globalSidebar,
-    "/what-is-cislunarspace/references": globalSidebar,
-    "/cislunar-orbits/": globalSidebar,
-    "/research-frontiers/": globalSidebar,
-    "/research-frontiers/journals-conferences": globalSidebar,
-    "/research-frontiers/directions": globalSidebar,
-    "/research-frontiers/institutions": globalSidebar,
-    "/research-frontiers/major-projects": globalSidebar,
-    "/glossary/": globalSidebar,
-    "/glossary/cr3bp": globalSidebar,
-    "/glossary/xray-pulsar-navigation": globalSidebar,
-    "/resources-tools/": globalSidebar,
-    "/resources-tools/datasets": globalSidebar,
+    // 首页使用主侧边栏
+    "/": mainSidebar,
+    
+    // 主要页面使用主侧边栏
+    "/what-is-cislunarspace/": mainSidebar,
+    "/what-is-cislunarspace/environment": mainSidebar,
+    "/what-is-cislunarspace/references": mainSidebar,
+    "/cislunar-orbits/": mainSidebar,
+    "/research-frontiers/": mainSidebar,
+    "/research-frontiers/journals-conferences": mainSidebar,
+    "/research-frontiers/directions": mainSidebar,
+    "/research-frontiers/institutions": mainSidebar,
+    "/research-frontiers/major-projects": mainSidebar,
+    
+    // 词典页面使用独立的词典侧边栏
+    "/glossary/": glossarySidebar,
+    "/glossary/cr3bp": glossarySidebar,
+    "/glossary/xray-pulsar-navigation": glossarySidebar,
+    
+    // 资源与工具页面使用独立的资源与工具侧边栏
+    "/resources-tools/": resourcesToolsSidebar,
+    "/resources-tools/datasets": resourcesToolsSidebar,
 } as SidebarConfig4Multiple;
