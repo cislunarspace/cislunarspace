@@ -37,6 +37,21 @@ export default defineConfig({
         })();
       `,
     ],
+    // Google Analytics 4
+    [
+      "script",
+      { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-0PLJ56MK80" }
+    ],
+    [
+      "script",
+      {},
+      `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0PLJ56MK80');
+      `
+    ],
   ],
   // 监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
@@ -64,7 +79,7 @@ export default defineConfig({
     [
       "@vuepress/google-analytics",
       {
-        ga: "GTM-WVS9HM6W", // 补充自己的谷歌分析 ID，比如 UA-00000000-0
+        ga: "G-0PLJ56MK80", // Google Analytics 4 测量 ID
       },
     ],
     ["@vuepress/medium-zoom"],
