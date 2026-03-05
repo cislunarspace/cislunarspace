@@ -2,14 +2,11 @@
 layout: Page
 sidebar: /
 permalink: /what-is-cislunarspace/
-heroImage: /logo.png
-actionText: 继续学习
-actionLink: /what-is-cislunarspace/environment
 footer: Apache Licensed | 湘ICP备2026006405号-1
 wechatShare:
-	title: 地月空间入门指南 - 地月空间是什么？
-	desc: 地月空间定义、轨道、研究前沿、术语与工具资源一站式学习。
-	image: /logo.png
+  title: 地月空间是什么
+  desc: 地月空间定义、轨道、研究前沿、术语与工具资源一站式学习。
+  image: /logo.png
 ---
 
 # 地月空间是什么？
