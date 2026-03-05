@@ -2,7 +2,6 @@
 layout: Page
 sidebar: /
 permalink: /what-is-cislunarspace/
-footer: Apache Licensed | 湘ICP备2026006405号-1
 wechatShare:
   title: 地月空间是什么
   desc: 地月空间定义、轨道、研究前沿、术语与工具资源一站式学习。

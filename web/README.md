@@ -3,8 +3,6 @@ layout: Page
 sidebar: /
 permalink: /
 heroImage: /logo.png
-actionText: 开始学习
-actionLink: /what-is-cislunarspace/
 footer: Apache Licensed | 湘ICP备2026006405号-1
 ---
 
