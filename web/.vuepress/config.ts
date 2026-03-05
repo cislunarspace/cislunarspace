@@ -129,6 +129,15 @@ export default defineConfig({
     sidebar,
     lastUpdated: "最近更新",
 
+    // 微信分享卡片配置（需配合后端签名接口）
+    wechatShare: {
+      enabled: true,
+      signatureEndpoint: "https://www.cislunarspace.cn/api/wechat-signature",
+      defaultTitle: "地月空间入门指南",
+      defaultDesc: "系统掌握地月空间科学、技术与工程实践",
+      defaultImage: "/logo.png",
+    },
+
     // Gitee 仓库位置
     repo: "https://gitee.com/cislunarspace/cislunarspace",
     docsBranch: "master",

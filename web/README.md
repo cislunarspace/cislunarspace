@@ -14,6 +14,10 @@ actionLink: /what-is-cislunar-space/
 # - title: 实用导向
 #   details: 提供丰富的资源、工具
 footer: Apache Licensed | Copyright © 天疆说
+wechatShare:
+	title: 地月空间入门指南 | 从入门到实践
+	desc: 地月空间定义、轨道、研究前沿、术语与工具资源一站式学习。
+	image: /logo.png
 ---
 
 ## 地月空间是什么？
@@ -89,3 +93,52 @@ footer: Apache Licensed | Copyright © 天疆说
 ---
 
 持续完善中...
+
+## 微信分享卡片配置
+
+本站已支持微信 JS-SDK 分享卡片能力，可像公众号网页一样配置分享标题、描述和封面图。
+
+### 1. 站点级配置
+
+在 `web/.vuepress/config.ts` 的 `themeConfig.wechatShare` 中配置：
+
+- `enabled`: 是否开启
+- `signatureEndpoint`: 签名接口地址（必须可被线上页面访问）
+- `defaultTitle`: 默认分享标题
+- `defaultDesc`: 默认分享描述
+- `defaultImage`: 默认分享图片（建议使用绝对可访问路径，如 `/logo.png`）
+
+### 2. 页面级配置
+
+在任意 Markdown frontmatter 中使用：
+
+```yaml
+wechatShare:
+	title: 页面分享标题
+	desc: 页面分享描述
+	image: /your-share-image.png
+```
+
+### 3. 签名接口
+
+可参考示例文件：`web/.vuepress/wechat-signature-server.example.js`。
+
+接口约定：
+
+- `GET /api/wechat-signature?url=<当前页面完整URL>`
+- 返回 JSON：
+
+```json
+{
+	"appId": "wx1234567890",
+	"timestamp": 1710000000,
+	"nonceStr": "randomString",
+	"signature": "sha1signature"
+}
+```
+
+### 4. 注意事项
+
+- 微信签名使用的 `url` 必须与页面实际 URL（不含 hash）严格一致。
+- 公众号后台要配置 JS 接口安全域名。
+- 分享卡片在微信中可能有缓存，修改后建议更换参数或等待刷新。
