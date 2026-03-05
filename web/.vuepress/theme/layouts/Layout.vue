@@ -198,9 +198,8 @@ export default {
 
         if (!maxTextWidth) return
 
-        // 只用文字宽度，不加额外空间，最小宽度 160px，最大 520px
-        // 加上一些内边距和图标空间
-        const width = Math.min(Math.max(maxTextWidth + 32, 160), 520)
+        // 考虑左边栏链接的实际渲染：文字宽度 + 图标 + 内边距
+        const width = Math.min(Math.max(maxTextWidth + 10, 180), 550)
         document.documentElement.style.setProperty('--desktop-sidebar-width', `${width}px`)
 
         // Right TOC sidebar
@@ -215,9 +214,10 @@ export default {
             el.style.whiteSpace = originalWhiteSpace
           })
           if (maxTocWidth) {
-            // 只用文字宽度，不加额外空间，最小宽度 180px，最大 400px
-            // 加上一些内边距
-            const tocWidth = Math.min(Math.max(maxTocWidth + 24, 180), 400)
+            // 考虑TOC链接的实际渲染：文字宽度 + 缩进 + 内边距
+            // 每个层级缩进约 20px，最大考虑 4 级缩进
+            // 加上容器内边距和滚动条空间
+            const tocWidth = Math.min(Math.max(maxTocWidth + 60, 200), 450)
             document.documentElement.style.setProperty('--desktop-toc-width', `${tocWidth}px`)
           }
         }

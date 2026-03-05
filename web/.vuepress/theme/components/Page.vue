@@ -164,9 +164,10 @@ export default {
         box-sizing: border-box;
         padding-bottom: 20px;
         a
-          white-space: normal;
-          word-break: break-word;
-          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: block;
           max-width: 100%;
       & > ol
         margin-top: -8px;
