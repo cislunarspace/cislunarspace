@@ -4,6 +4,10 @@ sidebar: /
 permalink: /
 heroImage: /logo.png
 footer: Apache Licensed | 湘ICP备2026006405号-1
+wechatShare:
+  title: 地月空间入门指南
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
 ---
 
 # 关于本站

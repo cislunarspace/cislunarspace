@@ -1,5 +1,11 @@
 ---
+layout: Page
+sidebar: /
 permalink: /research-frontiers/
+wechatShare:
+  title: 地月空间研究前沿
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
 ---
 
 # 引言
