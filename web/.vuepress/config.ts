@@ -88,10 +88,12 @@ export default defineConfig({
       "seo",
       {
         siteTitle: (_, $site) => $site.title,
-        title: ($page) =>
-          $page.frontmatter.wechatShare?.title ||
-          $page.frontmatter.shareTitle ||
-          $page.title,
+        title: ($page) => {
+          const pageTitle = $page.frontmatter.wechatShare?.title ||
+            $page.frontmatter.shareTitle ||
+            $page.title;
+          return `地月空间入门指南 | ${pageTitle}`;
+        },
         description: ($page) =>
           $page.frontmatter.wechatShare?.desc ||
           $page.frontmatter.shareDesc ||
