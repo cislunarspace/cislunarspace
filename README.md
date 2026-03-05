@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/stars/cislunarspace/cislunarspace?style=flat-square&logo=github&label=Stars" alt="GitHub stars">
   <img src="https://img.shields.io/github/forks/cislunarspace/cislunarspace?style=flat-square&logo=github&label=Forks" alt="GitHub forks">
   <img src="https://img.shields.io/github/license/cislunarspace/cislunarspace?style=flat-square&logo=apache&label=License" alt="GitHub license">
-  <img src="https://img.shields.io/website?down_message=维护中&style=flat-square&up_color=green&up_message=在线&url=https%3A%2F%2Fcislunarspace.cn&label=网站" alt="Website">
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcislunarspace.cn&label=网站&style=flat-square&logo=internet-explorer&logoColor=white" alt="Website">
 </p>
 
 </div>
@@ -21,10 +21,10 @@
 
 | 模块 | 描述 | 状态 |
 |------|------|------|
-| **地月空间基础** | 地月空间定义、特征、任务开展情况等基础知识 | ✅ 已完成 |
-| **轨道动力学** | 地月空间飞行器轨道类型、特点及相关知识 | ✅ 已完成 |
+| **地月空间基础** | 地月空间定义、特征、任务开展情况等基础知识 | 🔄 更新中 |
+| **轨道动力学** | 地月空间飞行器轨道类型、特点及相关知识 | 🔄 更新中 |
 | **研究前沿** | 地月空间科学研究的前沿领域、热点问题 | 🔄 更新中 |
-| **术语词典** | 地月空间领域专业术语的权威释义 | ✅ 已完成 |
+| **术语词典** | 地月空间领域专业术语的权威释义 | 🔄 更新中 |
 | **资源工具** | 数据集、软件工具、代码库等实用资源 | 🔄 更新中 |
 
 ## 🚀 快速开始
@@ -78,7 +78,14 @@ npm run docs:dev
 
 我们热烈欢迎任何形式的贡献！地月空间知识的传播需要大家的共同努力。
 
-贡献类型包括：📝内容完善（修正错误、补充内容、优化表述）、✨新章节（添加新的知识模块或专题）、🌐翻译校对（中英文翻译、语言润色）、🐛问题反馈（报告错误、提出改进建议）、💡功能建议（提出新功能或优化建议）、🔧代码优化（改进网站功能、性能优化）。
+贡献类型包括：
+
+- 📝内容完善（修正错误、补充内容、优化表述）
+- ✨新章节（添加新的知识模块或专题）
+- 🌐翻译校对（中英文翻译、语言润色）
+- 🐛问题反馈（报告错误、提出改进建议）
+- 💡功能建议（提出新功能或优化建议）
+- 🔧代码优化（改进网站功能、性能优化）
 
 ### 🎯 贡献类型
 
@@ -127,11 +134,11 @@ graph LR
 ### 🌐 官方平台
 [![GitHub](https://img.shields.io/badge/GitHub-@cislunarspace-181717?style=for-the-badge&logo=github)](https://github.com/cislunarspace)
 [![Gitee](https://img.shields.io/badge/Gitee-地月空间-C71D23?style=for-the-badge&logo=gitee)](https://gitee.com/cislunarspace)
-[![Website](https://img.shields.io/badge/🌐-cislunarspace.cn-0078D7?style=for-the-badge&logo=internet-explorer)](https://cislunarspace.cn)
+[![Website](https://img.shields.io/badge/cislunarspace.cn-0078D7?style=for-the-badge&logo=internet-explorer)](https://cislunarspace.cn)
 
 ### 📧 联系邮箱
-[![Email](https://img.shields.io/badge/📧-contact@cislunarspace.cn-D14836?style=for-the-badge&logo=gmail)](mailto:ouyangjiahong22@nudt.edu.cn)
-[![Issues](https://img.shields.io/badge/📋-GitHub%20Issues-6CC644?style=for-the-badge&logo=github)](https://github.com/cislunarspace/cislunarspace/issues)
+[![Email](https://img.shields.io/badge/ouyangjiahong22@nudt.edu.cn-D14836?style=for-the-badge&logo=gmail)](mailto:ouyangjiahong22@nudt.edu.cn)
+[![Issues](https://img.shields.io/badge/GitHub%20Issues-6CC644?style=for-the-badge&logo=github)](https://github.com/cislunarspace/cislunarspace/issues)
 
 ### 📱 社交媒体
 *更多社交平台正在建设中...*
