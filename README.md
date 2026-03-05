@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/github/stars/cislunarspace/cislunarspace?style=flat-square&logo=github&label=Stars" alt="GitHub stars">
   <img src="https://img.shields.io/github/forks/cislunarspace/cislunarspace?style=flat-square&logo=github&label=Forks" alt="GitHub forks">
   <img src="https://img.shields.io/github/license/cislunarspace/cislunarspace?style=flat-square&logo=apache&label=License" alt="GitHub license">
-  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcislunarspace.cn&label=网站&style=flat-square&logo=internet-explorer&logoColor=white" alt="Website">
 </p>
 
 </div>
