@@ -112,8 +112,7 @@ export default {
         const { frontmatter } = this.$page
 
         return (
-            false // 隐藏右侧边栏，只保留左侧导航
-            && !frontmatter.home
+            !frontmatter.home
             && frontmatter.sidebar !== false
             && this.pageSidebarItems.length
         )
@@ -217,7 +216,7 @@ export default {
             // 考虑TOC链接的实际渲染：文字宽度 + 缩进 + 内边距
             // 每个层级缩进约 20px，最大考虑 4 级缩进
             // 加上容器内边距和滚动条空间
-            const tocWidth = Math.min(Math.max(maxTocWidth + 60, 200), 450)
+            const tocWidth = Math.min(Math.max(maxTocWidth + 100, 200), 450)
             document.documentElement.style.setProperty('--desktop-toc-width', `${tocWidth}px`)
           }
         }
