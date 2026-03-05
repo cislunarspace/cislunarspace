@@ -1,3 +1,7 @@
+---
+permalink: /resources-tools/
+---
+
 # 引言
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)

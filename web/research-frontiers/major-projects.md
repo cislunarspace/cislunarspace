@@ -1,4 +1,8 @@
-# 期刊会议
+---
+permalink: /research-frontiers/major-projects/
+---
+
+# 重大项目
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)
 >

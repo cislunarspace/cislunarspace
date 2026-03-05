@@ -3,7 +3,7 @@ import { NavItem } from "vuepress/config";
 export default [
     {
         text: "地月空间术语词典",
-        link: '/地月空间术语词典/'
+        link: '/glossary/'
     },
     {
         text: "卫星轨道仿真",
@@ -12,10 +12,10 @@ export default [
     },
     {
         text: "资源与工具",
-        link: '/资源与工具/'
+        link: '/resources-tools/'
     },
     {
         text: "关于本站",
-        link: '/关于本站/'
+        link: '/about/'
     },
 ] as NavItem[];

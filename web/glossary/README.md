@@ -1,3 +1,7 @@
+---
+permalink: /glossary/
+---
+
 # 技术术语词典
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)

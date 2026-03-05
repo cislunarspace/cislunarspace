@@ -1,3 +1,7 @@
+---
+permalink: /about/
+---
+
 # 关于本站
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)

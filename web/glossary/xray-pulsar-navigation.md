@@ -1,4 +1,8 @@
-﻿# X 射线脉冲星导航
+﻿---
+permalink: /glossary/xray-pulsar-navigation/
+---
+
+# X 射线脉冲星导航
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)
 >

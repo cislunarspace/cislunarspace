@@ -1,3 +1,7 @@
+---
+permalink: /resources-tools/datasets/
+---
+
 # 数据集下载
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)

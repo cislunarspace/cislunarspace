@@ -1,3 +1,7 @@
+---
+permalink: /glossary/cr3bp/
+---
+
 # 圆形限制性三体问题
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)

@@ -1,4 +1,8 @@
-# 研究方向
+---
+permalink: /research-frontiers/journals-conferences/
+---
+
+# 期刊会议
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)
 >

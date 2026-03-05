@@ -1,4 +1,8 @@
-# 研究机构和组织
+---
+permalink: /research-frontiers/directions/
+---
+
+# 研究方向
 
 > 本文作者：[天疆说](https://gitee.com/cislunarspace)
 >
