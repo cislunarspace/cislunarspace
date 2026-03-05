@@ -38,14 +38,24 @@ import PageSidebarToc from '@theme/components/PageSidebarToc.vue'
 export default {
   components: { PageEdit, PageNav, PageSidebarToc },
   props: ['sidebarItems', 'pageSidebarItems'],
-  mounted() {
-    console.log(this.$site,this, 'this.$site')
-  }
 }
 </script>
 
 <style lang="stylus">
 @require '../styles/wrapper.styl'
+
+:root
+  --desktop-sidebar-width 20rem
+
+@media (min-width: 960px)
+  .theme-container .sidebar
+    width var(--desktop-sidebar-width) !important
+
+  .theme-container .page
+    padding-left calc(var(--desktop-sidebar-width) + 1.5rem) !important
+
+  .theme-container.no-sidebar .page
+    padding-left 0 !important
 
 
 @media (max-width: 1435px)
@@ -58,36 +68,49 @@ export default {
 .content-page
   position relative
 .custom-content
+  max-width none !important
+  width 100%
+  margin 0 !important
   padding-right 16px !important
 .content
   display flex
-  justify-content space-around
+  align-items flex-start
+  justify-content flex-start
+  gap 1.5rem
   margin 0 auto
+  width 100%
+  padding 0 0.75rem
   li, a , p, span
     word-wrap break-word
+
+.content > div:first-child
+  flex 1 1 auto
+  min-width 0
+
 .theme-default-content
   margin 0 !important
 
 .page
   display block
   position relative
+  padding-right 1.25rem
   //height 100vw
   //width 100vw
   //overflow scroll
 .toc-container-sidebar
 
   order 2
-  width 100%
-  flex-grow 1
+  flex 0 0 auto
+  width var(--desktop-toc-width, 240px)
   //padding-left 32px
   display: block;
   position: relative;
   color $textColor
   //: calc(100vw - 460px);
   top: 80px;
-  max-width: 240px;
+  max-width: 32vw;
   background transparent
-  margin-right: 10px;
+  margin-right: 0;
   margin-left: 0;
   .on
     display: block;
@@ -106,7 +129,7 @@ export default {
       overflow-x: hidden;
       overflow-y: hidden;
       & > div:first-child
-        overflow-x scroll
+        overflow-x visible
         white-space: nowrap;
         text-overflow ellipsis
       hr
@@ -114,11 +137,14 @@ export default {
       .toc-box
         max-height:81vh;
         overflow-y: auto;
-        overflow-x: hidden;
-        width: 238px;
+        overflow-x: visible;
+        width: max-content;
+        min-width: 190px;
         padding-right: 16px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
+        a
+          white-space: nowrap
       & > ol
         margin-top: -8px;
         li
@@ -133,5 +159,17 @@ export default {
           margin-top: 0;
         & > ol > li
           padding-left: 15px;
+
+@media (max-width: $MQMobile)
+  .page
+    padding-right 0
+    padding-left 0 !important
+  .content
+    gap 0
+    padding 0 0.85rem
+  .custom-content
+    max-width 100% !important
+    padding-left 0 !important
+    padding-right 0 !important
 
 </style>
