@@ -76,7 +76,8 @@ export default {
 
   data () {
     return {
-      isSidebarOpen: false
+      isSidebarOpen: false,
+      resizeTimer: null
     }
   },
 
@@ -145,13 +146,73 @@ export default {
   },
 
   mounted () {
-    // console.log(config,this.pageSidebarItems, 'config')
+    this.updateDesktopSidebarWidth()
+    window.addEventListener('resize', this.handleResize)
+
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
+      this.$nextTick(() => this.updateDesktopSidebarWidth())
     })
   },
 
+  beforeDestroy () {
+    if (this.resizeTimer) {
+      clearTimeout(this.resizeTimer)
+      this.resizeTimer = null
+    }
+    window.removeEventListener('resize', this.handleResize)
+  },
+
   methods: {
+    handleResize () {
+      if (this.resizeTimer) {
+        clearTimeout(this.resizeTimer)
+      }
+      this.resizeTimer = setTimeout(() => {
+        this.updateDesktopSidebarWidth()
+      }, 120)
+    },
+
+    updateDesktopSidebarWidth () {
+      // Desktop only: keep left sidebar width based on longest title text.
+      if (window.innerWidth <= 959) {
+        document.documentElement.style.removeProperty('--desktop-sidebar-width')
+        document.documentElement.style.removeProperty('--desktop-toc-width')
+        return
+      }
+
+      this.$nextTick(() => {
+        const sidebar = document.querySelector('.theme-container .sidebar')
+        if (!sidebar) return
+
+        const nodes = sidebar.querySelectorAll('.sidebar-link, .group-label, .sidebar-heading')
+        let maxTextWidth = 0
+        nodes.forEach((el) => {
+          maxTextWidth = Math.max(maxTextWidth, el.scrollWidth)
+        })
+
+        if (!maxTextWidth) return
+
+        // 只用文字宽度，不加额外空间，最小宽度 160px，最大 520px
+        const width = Math.min(Math.max(maxTextWidth, 160), 520)
+        document.documentElement.style.setProperty('--desktop-sidebar-width', `${width}px`)
+
+        // Right TOC sidebar
+        const tocBox = document.querySelector('.toc-box')
+        if (tocBox) {
+          const links = tocBox.querySelectorAll('a')
+          let maxTocWidth = 0
+          links.forEach((el) => {
+            maxTocWidth = Math.max(maxTocWidth, el.scrollWidth)
+          })
+          if (maxTocWidth) {
+            const tocWidth = Math.min(Math.max(maxTocWidth + 48, 190), 400)
+            document.documentElement.style.setProperty('--desktop-toc-width', `${tocWidth}px`)
+          }
+        }
+      })
+    },
+
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
       this.$emit('toggle-sidebar', this.isSidebarOpen)
