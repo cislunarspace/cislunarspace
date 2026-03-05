@@ -6,16 +6,20 @@ const mainSidebar = [
         title: "地月空间是什么",
         collapsable: true,
         children: [
-            ["/what-is-cislunarspace/", "概述"],
-            ["/what-is-cislunarspace/environment", "空间环境特征"],
-            ["/what-is-cislunarspace/references", "参考文献"],
+            ["/what-is-cislunarspace/", "引言"],
+            ["/what-is-cislunarspace/environment", "地月空间环境"],
+            // ["/what-is-cislunarspace/military-application", "军事应用"]
         ]
     },
     {
         title: "地月空间飞行器运行轨道",
         collapsable: true,
         children: [
-            ["/cislunar-orbits/", "概述"],
+            ["/cislunar-orbits/", "引言"],
+            // ["/cislunar-orbits/transfer-orbit", "地月间转移轨道"],
+            // ["/cislunar-orbits/near-moon-orbit", "近月轨道"],
+            // ["/cislunar-orbits/collinear-libration-point-orbit", "共线平动点轨道"],
+            // ["/cislunar-orbits/triangular-libration-point-orbit", "三角平动点轨道"]
         ]
     },
     {
