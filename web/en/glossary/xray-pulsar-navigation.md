@@ -1,5 +1,5 @@
 ---
-permalink: /en/glossary/xray-pulsar-navigation/
+permalink: /glossary/xray-pulsar-navigation/
 ---
 
 # X-ray Pulsar Navigation

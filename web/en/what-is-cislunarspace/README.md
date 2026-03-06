@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /en/
-permalink: /en/what-is-cislunarspace/
+sidebar: /
+permalink: /what-is-cislunarspace/
 wechatShare:
   title: What Is Cislunar Space
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

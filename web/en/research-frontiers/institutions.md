@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /en/
-permalink: /en/research-frontiers/institutions/
+sidebar: /
+permalink: /research-frontiers/institutions/
 wechatShare:
   title: Cislunar Space Research Institutions
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

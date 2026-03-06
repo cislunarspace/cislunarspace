@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /en/
-permalink: /en/research-frontiers/major-projects/
+sidebar: /
+permalink: /research-frontiers/major-projects/
 wechatShare:
   title: Cislunar Space Major Projects
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

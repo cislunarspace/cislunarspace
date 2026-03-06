@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /en/
-permalink: /en/research-frontiers/
+sidebar: /
+permalink: /research-frontiers/
 wechatShare:
   title: Cislunar Space Research Frontiers
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

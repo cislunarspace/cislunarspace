@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /en/
-permalink: /en/what-is-cislunarspace/environment/
+sidebar: /
+permalink: /what-is-cislunarspace/environment/
 wechatShare:
   title: Cislunar Space Environment
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

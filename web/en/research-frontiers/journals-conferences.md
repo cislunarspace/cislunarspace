@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /en/
-permalink: /en/research-frontiers/journals-conferences/
+sidebar: /
+permalink: /research-frontiers/journals-conferences/
 wechatShare:
   title: Cislunar Space Journals & Conferences
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

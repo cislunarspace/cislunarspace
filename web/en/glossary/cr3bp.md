@@ -1,5 +1,5 @@
 ---
-permalink: /en/glossary/cr3bp/
+permalink: /glossary/cr3bp/
 ---
 
 # Circular Restricted Three-Body Problem

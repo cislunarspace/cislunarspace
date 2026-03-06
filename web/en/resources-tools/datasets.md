@@ -1,5 +1,5 @@
 ---
-permalink: /en/resources-tools/datasets/
+permalink: /resources-tools/datasets/
 ---
 
 # Dataset Downloads

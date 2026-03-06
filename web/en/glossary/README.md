@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /en/glossary/
-permalink: /en/glossary/
+sidebar: /glossary/
+permalink: /glossary/
 wechatShare:
   title: Cislunar Space Glossary
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
