@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Detection Test</title>
+    <script>
+        // 模拟语言检测脚本
+        (function () {
+            console.log('=== Language Detection Test ===');
+            console.log('Current path:', window.location.pathname);
+            console.log('Browser language:', navigator.language || navigator.userLanguage || '');
+
+            // 只在中文首页 "/" 触发，不影响其他页面
+            if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+                console.log('Not Chinese homepage, skipping...');
+                return;
+            }
+
+            // 如果已经在英文页面，不执行跳转
+            if (window.location.pathname.startsWith('/en/')) {
+                console.log('Already on English page, skipping...');
+                return;
+            }
+
+            // 如果用户手动选择过语言，不再自动跳转
+            try {
+                if (localStorage.getItem('cislunar-lang-chosen')) {
+                    console.log('User manually chose language:', localStorage.getItem('cislunar-lang-chosen'));
+                    return;
+                }
+            } catch (e) {
+                console.log('localStorage error:', e);
+            }
+
+            // 检测浏览器语言
+            var lang = navigator.language || navigator.userLanguage || '';
+            var browserLang = lang.toLowerCase();
+            console.log('Browser language (lowercase):', browserLang);
+
+            // 如果浏览器语言不是中文（包括zh-CN, zh-TW, zh-HK, zh-SG等），跳转到英文版
+            if (browserLang && !browserLang.startsWith('zh')) {
+                console.log('Browser language is not Chinese, should redirect to /en/');
+                try {
+                    localStorage.setItem('cislunar-lang-chosen', 'en');
+                    console.log('Set localStorage: cislunar-lang-chosen = en');
+                } catch (e) {
+                    console.log('localStorage set error:', e);
+                }
+                // 使用replace而不是assign，避免浏览器历史记录问题
+                // window.location.replace('/en/');
+                console.log('Would redirect to /en/');
+            } else {
+                console.log('Browser language is Chinese or empty, staying on Chinese page');
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    <h1>Language Detection Test Page</h1>
+    <p>Check the browser console for language detection results.</p>
+    <p>Current browser language: <span id="current-lang"></span></p>
+
+    <script>
+        document.getElementById('current-lang').textContent = navigator.language || navigator.userLanguage || 'Not detected';
+    </script>
+</body>
+
+</html>

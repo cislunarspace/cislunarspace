@@ -66,19 +66,33 @@ export default defineConfig({
         gtag('config', 'G-0PLJ56MK80');
       `
     ],
-    // 根据浏览器语言自动跳转（仅首页，仅首次访问）
+    // 根据浏览器语言自动跳转（仅中文首页，仅首次访问）
     [
       "script",
       {},
       `
         (function() {
-          // 只在首页 "/" 触发，不影响已在 /en/ 或子页面的用户
-          if (window.location.pathname !== '/') return;
+          // 只在中文首页 "/" 触发，不影响其他页面
+          if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
+          
+          // 如果已经在英文页面，不执行跳转
+          if (window.location.pathname.startsWith('/en/')) return;
+          
           // 如果用户手动选择过语言，不再自动跳转
-          try { if (localStorage.getItem('cislunar-lang-chosen')) return; } catch(e) {}
+          try { 
+            if (localStorage.getItem('cislunar-lang-chosen')) return; 
+          } catch(e) {}
+          
+          // 检测浏览器语言
           var lang = navigator.language || navigator.userLanguage || '';
-          if (lang && !lang.toLowerCase().startsWith('zh')) {
-            try { localStorage.setItem('cislunar-lang-chosen', 'en'); } catch(e) {}
+          var browserLang = lang.toLowerCase();
+          
+          // 如果浏览器语言不是中文（包括zh-CN, zh-TW, zh-HK, zh-SG等），跳转到英文版
+          if (browserLang && !browserLang.startsWith('zh')) {
+            try { 
+              localStorage.setItem('cislunar-lang-chosen', 'en'); 
+            } catch(e) {}
+            // 使用replace而不是assign，避免浏览器历史记录问题
             window.location.replace('/en/');
           }
         })();
