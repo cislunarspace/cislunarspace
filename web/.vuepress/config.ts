@@ -66,6 +66,24 @@ export default defineConfig({
         gtag('config', 'G-0PLJ56MK80');
       `
     ],
+    // 根据浏览器语言自动跳转（仅首页，仅首次访问）
+    [
+      "script",
+      {},
+      `
+        (function() {
+          // 只在首页 "/" 触发，不影响已在 /en/ 或子页面的用户
+          if (window.location.pathname !== '/') return;
+          // 如果用户手动选择过语言，不再自动跳转
+          try { if (localStorage.getItem('cislunar-lang-chosen')) return; } catch(e) {}
+          var lang = navigator.language || navigator.userLanguage || '';
+          if (lang && !lang.toLowerCase().startsWith('zh')) {
+            try { localStorage.setItem('cislunar-lang-chosen', 'en'); } catch(e) {}
+            window.location.replace('/en/');
+          }
+        })();
+      `
+    ],
   ],
   // 监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],

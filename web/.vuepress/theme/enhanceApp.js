@@ -179,6 +179,18 @@ async function configureWechatShare(siteData, route) {
 export default ({ router, siteData, isServer }) => {
   if (isServer) return;
 
+  // 记录用户手动切换语言，阻止后续自动跳转
+  router.afterEach((to, from) => {
+    try {
+      const fromEn = from.path.startsWith('/en/');
+      const toEn = to.path.startsWith('/en/');
+      // 如果用户从中文切到英文，或从英文切到中文，说明手动选择了语言
+      if (fromEn !== toEn) {
+        localStorage.setItem('cislunar-lang-chosen', toEn ? 'en' : 'zh');
+      }
+    } catch (e) { /* localStorage unavailable */ }
+  });
+
   const syncShare = async () => {
     try {
       await configureWechatShare(siteData, router.currentRoute);
