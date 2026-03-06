@@ -1,0 +1,639 @@
+<template>
+  <div class="ai-chat-container">
+    <div class="chat-messages" ref="messagesContainer">
+      <div v-if="messages.length === 0" class="chat-welcome">
+        <img src="/logo.png" alt="logo" class="welcome-logo" />
+        <h2>地月空间 AI 问答助手</h2>
+        <p>你好！我是地月空间入门指南的 AI 助手，可以回答关于地月空间、轨道动力学、航天器导航等方面的问题。</p>
+        <div class="suggested-questions">
+          <button
+            v-for="(q, i) in suggestedQuestions"
+            :key="i"
+            class="suggested-btn"
+            @click="sendSuggested(q)"
+          >{{ q }}</button>
+        </div>
+      </div>
+      <div
+        v-for="(msg, index) in messages"
+        :key="index"
+        :class="['chat-message', msg.role === 'user' ? 'user-message' : 'assistant-message']"
+      >
+        <div class="message-avatar">
+          <span v-if="msg.role === 'user'">🧑</span>
+          <span v-else>🤖</span>
+        </div>
+        <div class="message-content" v-html="renderMarkdown(msg.content)"></div>
+      </div>
+      <div v-if="isLoading" class="chat-message assistant-message">
+        <div class="message-avatar"><span>🤖</span></div>
+        <div class="message-content typing-indicator">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="chat-input-area">
+      <textarea
+        v-model="userInput"
+        @keydown.enter.exact="handleEnter"
+        placeholder="输入你的问题..."
+        rows="1"
+        ref="inputArea"
+        :disabled="isLoading"
+      ></textarea>
+      <button class="send-btn" @click="sendMessage" :disabled="isLoading || !userInput.trim()">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</template>
+
+<script>
+import { marked } from 'marked'
+import katex from 'katex'
+import 'katex/dist/katex.min.css'
+
+marked.setOptions({
+  breaks: true,
+  gfm: true
+})
+
+export default {
+  name: 'AiChat',
+  data() {
+    return {
+      userInput: '',
+      messages: [],
+      isLoading: false,
+      config: null,
+      suggestedQuestions: [
+        '什么是地月空间？',
+        'CR3BP 模型是什么？',
+        'NRHO 轨道有哪些特点？',
+        '拉格朗日点有什么用途？'
+      ]
+    }
+  },
+  async mounted() {
+    await this.loadConfig()
+  },
+  methods: {
+    async loadConfig() {
+      try {
+        const url = this.$withBase
+          ? this.$withBase('/ai-chat-config.json')
+          : '/ai-chat-config.json'
+        const res = await fetch(url)
+        if (!res.ok) {
+          console.error('AI chat config fetch failed:', res.status, res.statusText)
+          return
+        }
+        const text = await res.text()
+        try {
+          this.config = JSON.parse(text)
+        } catch (parseErr) {
+          console.error('AI chat config JSON parse error:', parseErr, 'Response:', text.slice(0, 200))
+        }
+      } catch (e) {
+        console.error('Failed to load AI chat config:', e)
+      }
+    },
+
+    renderMarkdown(text) {
+      if (!text) return ''
+      try {
+        // Protect LaTeX formulas from marked by replacing them with placeholders
+        const placeholders = []
+        let processed = text
+
+        // Block formulas: $$$$ ... $$$$ (quad dollar)
+        processed = processed.replace(/\$\$\$\$([\s\S]*?)\$\$\$\$/g, (_, tex) => {
+          const id = placeholders.length
+          try {
+            placeholders.push(katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }))
+          } catch (e) {
+            placeholders.push(`<span class="katex-error">${tex}</span>`)
+          }
+          return `%%LATEX_${id}%%`
+        })
+
+        // Block formulas: $$ ... $$
+        processed = processed.replace(/\$\$([\s\S]*?)\$\$/g, (_, tex) => {
+          const id = placeholders.length
+          try {
+            placeholders.push(katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }))
+          } catch (e) {
+            placeholders.push(`<span class="katex-error">${tex}</span>`)
+          }
+          return `%%LATEX_${id}%%`
+        })
+
+        // Block formulas: \[ ... \]
+        processed = processed.replace(/\\\[([\s\S]*?)\\\]/g, (_, tex) => {
+          const id = placeholders.length
+          try {
+            placeholders.push(katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }))
+          } catch (e) {
+            placeholders.push(`<span class="katex-error">${tex}</span>`)
+          }
+          return `%%LATEX_${id}%%`
+        })
+
+        // Inline formulas: \( ... \)
+        processed = processed.replace(/\\\(([\s\S]*?)\\\)/g, (_, tex) => {
+          const id = placeholders.length
+          try {
+            placeholders.push(katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false }))
+          } catch (e) {
+            placeholders.push(`<span class="katex-error">${tex}</span>`)
+          }
+          return `%%LATEX_${id}%%`
+        })
+
+        // Inline formulas: $ ... $ (single dollar, not preceded/followed by space+dollar)
+        processed = processed.replace(/(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)/g, (_, tex) => {
+          const id = placeholders.length
+          try {
+            placeholders.push(katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false }))
+          } catch (e) {
+            placeholders.push(`<span class="katex-error">${tex}</span>`)
+          }
+          return `%%LATEX_${id}%%`
+        })
+
+        // Run marked on the processed text
+        let html = marked(processed)
+
+        // Restore LaTeX placeholders
+        html = html.replace(/%%LATEX_(\d+)%%/g, (_, id) => placeholders[parseInt(id)])
+
+        return html
+      } catch (e) {
+        return text.replace(/\n/g, '<br>')
+      }
+    },
+
+    handleEnter(e) {
+      if (!e.shiftKey) {
+        e.preventDefault()
+        this.sendMessage()
+      }
+    },
+
+    sendSuggested(question) {
+      this.userInput = question
+      this.sendMessage()
+    },
+
+    async sendMessage() {
+      const text = this.userInput.trim()
+      if (!text || this.isLoading) return
+      if (!this.config) {
+        this.messages.push({
+          role: 'assistant',
+          content: '⚠️ AI 配置加载失败，请联系管理员检查 `/ai-chat-config.json` 配置文件。'
+        })
+        return
+      }
+
+      this.messages.push({ role: 'user', content: text })
+      this.userInput = ''
+      this.isLoading = true
+      this.scrollToBottom()
+
+      try {
+        const apiMessages = []
+
+        // System prompt from config
+        if (this.config.systemPrompt) {
+          apiMessages.push({ role: 'system', content: this.config.systemPrompt })
+        }
+
+        // Conversation history (last N turns to stay within context limits)
+        const maxHistory = this.config.maxHistoryTurns || 10
+        const recentMessages = this.messages.slice(-maxHistory * 2)
+        for (const msg of recentMessages) {
+          apiMessages.push({ role: msg.role, content: msg.content })
+        }
+
+        const requestBody = {
+          model: this.config.model,
+          messages: apiMessages,
+          temperature: this.config.temperature ?? 0.7,
+          stream: !!this.config.stream
+        }
+
+        const headers = {
+          'Content-Type': 'application/json'
+        }
+        if (this.config.apiKey) {
+          headers['Authorization'] = `Bearer ${this.config.apiKey}`
+        }
+
+        const response = await fetch(this.config.apiEndpoint, {
+          method: 'POST',
+          headers,
+          body: JSON.stringify(requestBody)
+        })
+
+        if (!response.ok) {
+          throw new Error(`API 请求失败: ${response.status} ${response.statusText}`)
+        }
+
+        if (this.config.stream && response.body) {
+          // Streaming response
+          this.messages.push({ role: 'assistant', content: '' })
+          const assistantIndex = this.messages.length - 1
+          const reader = response.body.getReader()
+          const decoder = new TextDecoder()
+          let buffer = ''
+
+          while (true) {
+            const { done, value } = await reader.read()
+            if (done) break
+            buffer += decoder.decode(value, { stream: true })
+            const lines = buffer.split('\n')
+            buffer = lines.pop() || ''
+
+            for (const line of lines) {
+              const trimmed = line.trim()
+              if (!trimmed || !trimmed.startsWith('data:')) continue
+              const data = trimmed.slice(5).trim()
+              if (data === '[DONE]') continue
+              try {
+                const parsed = JSON.parse(data)
+                const delta = parsed.choices?.[0]?.delta?.content
+                if (delta) {
+                  this.$set(this.messages, assistantIndex, {
+                    role: 'assistant',
+                    content: this.messages[assistantIndex].content + delta
+                  })
+                  this.scrollToBottom()
+                }
+              } catch (e) {
+                // skip unparseable chunks
+              }
+            }
+          }
+        } else {
+          // Non-streaming response
+          const data = await response.json()
+          const content = data.choices?.[0]?.message?.content || '抱歉，未获取到有效回复。'
+          this.messages.push({ role: 'assistant', content })
+        }
+      } catch (error) {
+        this.messages.push({
+          role: 'assistant',
+          content: `⚠️ 请求出错: ${error.message}`
+        })
+      } finally {
+        this.isLoading = false
+        this.scrollToBottom()
+      }
+    },
+
+    scrollToBottom() {
+      this.$nextTick(() => {
+        const container = this.$refs.messagesContainer
+        if (container) {
+          container.scrollTop = container.scrollHeight
+        }
+      })
+    }
+  }
+}
+</script>
+
+<style scoped>
+.ai-chat-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 8rem);
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+  scroll-behavior: smooth;
+}
+
+.chat-welcome {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #4a5568;
+}
+
+.welcome-logo {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
+.chat-welcome h2 {
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+  border-bottom: none;
+}
+
+.chat-welcome p {
+  color: #718096;
+  margin-bottom: 1.5rem;
+}
+
+.suggested-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.suggested-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 20px;
+  background: #f7fafc;
+  color: #4a5568;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.suggested-btn:hover {
+  background: #3eaf7c;
+  color: #fff;
+  border-color: #3eaf7c;
+}
+
+.chat-message {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.user-message {
+  flex-direction: row-reverse;
+}
+
+.message-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  background: #f0f0f0;
+}
+
+.user-message .message-avatar {
+  background: #3eaf7c;
+}
+
+.message-content {
+  max-width: 75%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.user-message .message-content {
+  background: #3eaf7c;
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+
+.assistant-message .message-content {
+  background: #f7fafc;
+  color: #2d3748;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #e2e8f0;
+}
+
+.message-content >>> h1,
+.message-content >>> h2,
+.message-content >>> h3,
+.message-content >>> h4 {
+  margin: 0.6rem 0 0.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  border-bottom: none;
+}
+
+.message-content >>> h1 { font-size: 1.3em; }
+.message-content >>> h2 { font-size: 1.15em; }
+.message-content >>> h3 { font-size: 1.05em; }
+
+.message-content >>> p {
+  margin: 0.4rem 0;
+}
+
+.message-content >>> ul,
+.message-content >>> ol {
+  padding-left: 1.5rem;
+  margin: 0.4rem 0;
+}
+
+.message-content >>> li {
+  margin: 0.15rem 0;
+}
+
+.message-content >>> blockquote {
+  margin: 0.5rem 0;
+  padding: 0.3rem 0.8rem;
+  border-left: 4px solid #3eaf7c;
+  background: #f0faf5;
+  color: #4a5568;
+}
+
+.message-content >>> pre {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.5rem 0;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.message-content >>> pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+}
+
+.message-content >>> code {
+  background: #edf2f7;
+  color: #e53e3e;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.message-content >>> table {
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.message-content >>> th,
+.message-content >>> td {
+  border: 1px solid #e2e8f0;
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+
+.message-content >>> th {
+  background: #f7fafc;
+  font-weight: 600;
+}
+
+.message-content >>> a {
+  color: #3eaf7c;
+  text-decoration: underline;
+}
+
+.message-content >>> hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 0.5rem 0;
+}
+
+.message-content >>> strong {
+  font-weight: 600;
+}
+
+.user-message .message-content >>> code {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+.user-message .message-content >>> a {
+  color: #fff;
+}
+
+.message-content >>> .katex-display {
+  margin: 0.5rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.message-content >>> .katex {
+  font-size: 1.05em;
+}
+
+.message-content >>> .katex-error {
+  color: #e53e3e;
+  font-family: monospace;
+  font-size: 0.85em;
+}
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0.75rem 1rem;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background: #a0aec0;
+  border-radius: 50%;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+.typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0s; }
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+
+.chat-input-area {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-top: 1px solid #e2e8f0;
+  background: #f7fafc;
+}
+
+.chat-input-area textarea {
+  flex: 1;
+  resize: none;
+  border: 1px solid #cbd5e0;
+  border-radius: 10px;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  font-family: inherit;
+  line-height: 1.5;
+  outline: none;
+  transition: border-color 0.2s;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.chat-input-area textarea:focus {
+  border-color: #3eaf7c;
+  box-shadow: 0 0 0 2px rgba(62, 175, 124, 0.15);
+}
+
+.send-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #3eaf7c;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+
+.send-btn:hover:not(:disabled) {
+  background: #2d9d6e;
+}
+
+.send-btn:disabled {
+  background: #cbd5e0;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .ai-chat-container {
+    height: calc(100vh - 6rem);
+    border-radius: 0;
+    border: none;
+  }
+  .message-content {
+    max-width: 85%;
+  }
+}
+</style>

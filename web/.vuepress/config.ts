@@ -55,6 +55,16 @@ export default defineConfig({
   ],
   // 监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
+  // 开发服务器代理（解决 AI API 跨域问题）
+  devServer: {
+    proxy: {
+      '/api/ai': {
+        target: 'https://api.deepseek.com',
+        changeOrigin: true,
+        pathRewrite: { '^/api/ai': '' },
+      },
+    },
+  },
   markdown: {
     // 开启代码块的行号
     lineNumbers: true,

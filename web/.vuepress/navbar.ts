@@ -15,6 +15,10 @@ export default [
         link: '/resources-tools/'
     },
     {
+        text: "AI问答",
+        link: '/ai-chat'
+    },
+    {
         text: "首页",
         link: '/'
     },
