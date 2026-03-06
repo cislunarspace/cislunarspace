@@ -1,10 +1,26 @@
 ---
 layout: Page
-sidebar: /
-permalink: /what-is-cislunarspace/
+sidebar: /en/
+permalink: /en/what-is-cislunarspace/
+title: Cislunar Space Definition and Strategic Value Analysis | Earth-Moon Gravitational Interaction Region
+description: In-depth analysis of cislunar space definition, scope, environmental characteristics and strategic value. Understand the basic concepts and importance of the Earth-Moon gravitational interaction region.
+keywords: cislunar space, cislunar space definition, cislunar environment, strategic value, lunar exploration, Earth-Moon system
+author: Tianjiang Shuo
+date: 2026-03-07
+lastUpdated: 2026-03-07
 wechatShare:
   title: What Is Cislunar Space
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  image: /logo.png
+og:
+  title: Cislunar Space Definition and Strategic Value Analysis | Earth-Moon Gravitational Interaction Region
+  description: In-depth analysis of cislunar space definition, scope, environmental characteristics and strategic value
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: Cislunar Space Definition and Strategic Value Analysis | Earth-Moon Gravitational Interaction Region
+  description: In-depth analysis of cislunar space definition, scope, environmental characteristics and strategic value
   image: /logo.png
 ---
 

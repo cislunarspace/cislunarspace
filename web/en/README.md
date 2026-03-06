@@ -1,4 +1,10 @@
 ---
+title: Comprehensive Cislunar Space Beginner's Guide | Research Frontiers, Terminology, Tools
+description: One-stop learning platform for cislunar space research frontiers, terminology definitions, tool resources, and practical applications. Lowering the learning barrier for cislunar space knowledge.
+keywords: cislunar space, beginner's guide, research frontiers, terminology, tools, Earth-Moon system, space exploration
+author: CislunarSpace
+date: 2026-03-07
+lastUpdated: 2026-03-07
 layout: Page
 sidebar: /
 permalink: /
@@ -7,6 +13,16 @@ footer: Apache Licensed | 湘ICP备2026006405号-1
 wechatShare:
   title: Cislunar Space Beginner's Guide
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  image: /logo.png
+og:
+  title: Comprehensive Cislunar Space Beginner's Guide | Research Frontiers, Terminology, Tools
+  description: One-stop learning platform for cislunar space research frontiers, terminology definitions, tool resources, and practical applications
+  image: /logo.png
+  type: website
+twitter:
+  card: summary_large_image
+  title: Comprehensive Cislunar Space Beginner's Guide | Research Frontiers, Terminology, Tools
+  description: One-stop learning platform for cislunar space research frontiers, terminology definitions, tool resources, and practical applications
   image: /logo.png
 ---
 

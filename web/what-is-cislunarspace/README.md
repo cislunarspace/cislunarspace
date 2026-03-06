@@ -2,13 +2,29 @@
 layout: Page
 sidebar: /
 permalink: /what-is-cislunarspace/
+title: 地月空间定义与战略价值解析 | 地球月球引力作用区域
+description: 深入解析地月空间的定义、范围、环境特征与战略价值，了解地球与月球引力作用区域的基本概念和重要性。
+keywords: 地月空间, 地月空间定义, 地月空间环境, 地月空间战略价值, 月球探测
+author: 天疆说
+date: 2026-03-07
+lastUpdated: 2026-03-07
 wechatShare:
   title: 地月空间是什么
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
+og:
+  title: 地月空间定义与战略价值解析 | 地球月球引力作用区域
+  description: 深入解析地月空间的定义、范围、环境特征与战略价值
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 地月空间定义与战略价值解析 | 地球月球引力作用区域
+  description: 深入解析地月空间的定义、范围、环境特征与战略价值
+  image: /logo.png
 ---
 
-# 1 引言
+# 引言
 
 ## 1.1 地月空间的定义
 

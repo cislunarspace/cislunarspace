@@ -1,4 +1,24 @@
 ---
+title: X-ray Pulsar Navigation Technology Explained | Autonomous Navigation for Deep Space Exploration
+description: In-depth analysis of X-ray pulsar navigation technology principles, system components, application advantages, and implementation methods in cislunar space exploration
+keywords: X-ray pulsar navigation, pulsar navigation, deep space exploration navigation, autonomous navigation technology, celestial navigation, cislunar space navigation
+author: CislunarSpace
+date: 2026-03-07
+lastUpdated: 2026-03-07
+wechatShare:
+  title: X-ray Pulsar Navigation Technology
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  image: /logo.png
+og:
+  title: X-ray Pulsar Navigation Technology Explained | Autonomous Navigation for Deep Space Exploration
+  description: In-depth analysis of X-ray pulsar navigation technology principles, system components, application advantages, and implementation methods in cislunar space exploration
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: X-ray Pulsar Navigation Technology Explained | Autonomous Navigation for Deep Space Exploration
+  description: In-depth analysis of X-ray pulsar navigation technology principles, system components, application advantages, and implementation methods in cislunar space exploration
+  image: /logo.png
 permalink: /glossary/xray-pulsar-navigation/
 ---
 

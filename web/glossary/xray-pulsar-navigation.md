@@ -1,4 +1,24 @@
 ﻿---
+title: X射线脉冲星导航技术详解 | 深空探测自主导航方法
+description: 深入解析X射线脉冲星导航技术原理、系统组成、应用优势及在地月空间探测中的实现方法
+keywords: X射线脉冲星导航, 脉冲星导航, 深空探测导航, 自主导航技术, 天文导航, 地月空间导航
+author: 天疆说
+date: 2026-03-07
+lastUpdated: 2026-03-07
+wechatShare:
+  title: X射线脉冲星导航技术
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: X射线脉冲星导航技术详解 | 深空探测自主导航方法
+  description: 深入解析X射线脉冲星导航技术原理、系统组成、应用优势及在地月空间探测中的实现方法
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: X射线脉冲星导航技术详解 | 深空探测自主导航方法
+  description: 深入解析X射线脉冲星导航技术原理、系统组成、应用优势及在地月空间探测中的实现方法
+  image: /logo.png
 permalink: /glossary/xray-pulsar-navigation/
 ---
 

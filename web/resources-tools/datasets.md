@@ -1,4 +1,24 @@
 ---
+title: 地月空间研究数据集资源大全 | 星历、轨道、环境数据下载
+description: 整理地月空间研究所需的核心数据集资源，包括JPL星历、轨道数据、环境模型、月球地形数据等，提供下载链接和使用指南
+keywords: 地月空间数据集, JPL星历, 轨道数据, 月球地形数据, 空间环境数据, 研究资源下载
+author: 天疆说
+date: 2026-03-07
+lastUpdated: 2026-03-07
+wechatShare:
+  title: 地月空间数据集资源
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: 地月空间研究数据集资源大全 | 星历、轨道、环境数据下载
+  description: 整理地月空间研究所需的核心数据集资源，包括JPL星历、轨道数据、环境模型、月球地形数据等，提供下载链接和使用指南
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 地月空间研究数据集资源大全 | 星历、轨道、环境数据下载
+  description: 整理地月空间研究所需的核心数据集资源，包括JPL星历、轨道数据、环境模型、月球地形数据等，提供下载链接和使用指南
+  image: /logo.png
 permalink: /resources-tools/datasets/
 ---
 

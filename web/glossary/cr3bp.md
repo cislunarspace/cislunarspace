@@ -1,4 +1,24 @@
 ---
+title: 圆形限制性三体问题(CR3BP)模型详解 | 地月空间动力学基础
+description: 详细解析圆形限制性三体问题(CR3BP)模型的定义、数学原理、在地月空间中的应用及航天器轨道设计方法
+keywords: 圆形限制性三体问题, CR3BP, 地月空间动力学, 平动点, 航天器轨道设计, 限制性三体问题
+author: 天疆说
+date: 2026-03-07
+lastUpdated: 2026-03-07
+wechatShare:
+  title: 圆形限制性三体问题(CR3BP)
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: 圆形限制性三体问题(CR3BP)模型详解 | 地月空间动力学基础
+  description: 详细解析圆形限制性三体问题(CR3BP)模型的定义、数学原理、在地月空间中的应用及航天器轨道设计方法
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 圆形限制性三体问题(CR3BP)模型详解 | 地月空间动力学基础
+  description: 详细解析圆形限制性三体问题(CR3BP)模型的定义、数学原理、在地月空间中的应用及航天器轨道设计方法
+  image: /logo.png
 permalink: /glossary/cr3bp/
 ---
 
