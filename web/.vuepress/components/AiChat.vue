@@ -264,6 +264,7 @@ export default {
       showHistory: false,
       historyList: [],
       currentSessionId: null,
+      abortController: null,
       suggestedQuestions: [
         '什么是地月空间？',
         'CR3BP 模型是什么？',
@@ -333,6 +334,12 @@ export default {
     },
 
     loadSession(id) {
+      // Abort any ongoing request
+      if (this.abortController) {
+        this.abortController.abort()
+        this.abortController = null
+      }
+      this.isLoading = false
       try {
         var raw = localStorage.getItem(id)
         if (raw) {
@@ -367,6 +374,12 @@ export default {
     },
 
     startNewChat() {
+      // Abort any ongoing streaming request
+      if (this.abortController) {
+        this.abortController.abort()
+        this.abortController = null
+      }
+      this.isLoading = false
       this.saveCurrentSession()
       this.createSession()
       this.showHistory = false
@@ -507,6 +520,11 @@ export default {
       this.isLoading = true
       this.scrollToBottom()
 
+      // Create abort controller for this request
+      this.abortController = new AbortController()
+      const signal = this.abortController.signal
+      const sessionId = this.currentSessionId
+
       try {
         const apiMessages = []
 
@@ -539,7 +557,8 @@ export default {
         const response = await fetch(this.config.apiEndpoint, {
           method: 'POST',
           headers,
-          body: JSON.stringify(requestBody)
+          body: JSON.stringify(requestBody),
+          signal
         })
 
         if (!response.ok) {
@@ -557,6 +576,11 @@ export default {
           while (true) {
             const { done, value } = await reader.read()
             if (done) break
+            // Stop writing if session has changed
+            if (this.currentSessionId !== sessionId) {
+              reader.cancel()
+              break
+            }
             buffer += decoder.decode(value, { stream: true })
             const lines = buffer.split('\n')
             buffer = lines.pop() || ''
@@ -584,16 +608,22 @@ export default {
         } else {
           // Non-streaming response
           const data = await response.json()
+          if (this.currentSessionId !== sessionId) return
           const content = data.choices?.[0]?.message?.content || '抱歉，未获取到有效回复。'
           this.messages.push({ role: 'assistant', content })
         }
       } catch (error) {
+        if (error.name === 'AbortError') return
+        if (this.currentSessionId !== sessionId) return
         this.messages.push({
           role: 'assistant',
           content: `⚠️ 请求出错: ${error.message}`
         })
       } finally {
-        this.isLoading = false
+        if (this.currentSessionId === sessionId) {
+          this.isLoading = false
+          this.abortController = null
+        }
         this.scrollToBottom()
       }
     },
