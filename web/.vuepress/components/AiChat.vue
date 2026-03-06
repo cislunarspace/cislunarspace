@@ -51,14 +51,114 @@
 </template>
 
 <script>
-import { marked } from 'marked'
 import katex from 'katex'
 import 'katex/dist/katex.min.css'
 
-marked.setOptions({
-  breaks: true,
-  gfm: true
-})
+function renderMd(text) {
+  // Split into blocks by double newline
+  var blocks = text.split(/\n{2,}/)
+  var html = []
+
+  for (var i = 0; i < blocks.length; i++) {
+    var block = blocks[i].trim()
+    if (!block) continue
+
+    // Code block
+    var codeMatch = block.match(/^```(\w*)\n?([\s\S]*?)```$/)
+    if (codeMatch) {
+      html.push('<pre><code class="language-' + escHtml(codeMatch[1]) + '">' + escHtml(codeMatch[2].trim()) + '</code></pre>')
+      continue
+    }
+
+    // Table
+    if (/^\|.+\|/.test(block) && block.indexOf('\n') !== -1) {
+      var tableLines = block.split('\n').filter(function(l) { return l.trim() })
+      if (tableLines.length >= 2 && /^\|[\s:|-]+\|$/.test(tableLines[1].trim())) {
+        var tableHtml = '<table>'
+        // header
+        var hCells = tableLines[0].split('|').filter(function(c) { return c.trim() !== '' })
+        tableHtml += '<thead><tr>'
+        for (var h = 0; h < hCells.length; h++) tableHtml += '<th>' + inlineMd(hCells[h].trim()) + '</th>'
+        tableHtml += '</tr></thead><tbody>'
+        for (var r = 2; r < tableLines.length; r++) {
+          var cells = tableLines[r].split('|').filter(function(c) { return c.trim() !== '' })
+          tableHtml += '<tr>'
+          for (var c = 0; c < cells.length; c++) tableHtml += '<td>' + inlineMd(cells[c].trim()) + '</td>'
+          tableHtml += '</tr>'
+        }
+        tableHtml += '</tbody></table>'
+        html.push(tableHtml)
+        continue
+      }
+    }
+
+    // Heading
+    var headMatch = block.match(/^(#{1,6})\s+(.+)$/)
+    if (headMatch) {
+      var level = headMatch[1].length
+      html.push('<h' + level + '>' + inlineMd(headMatch[2]) + '</h' + level + '>')
+      continue
+    }
+
+    // Blockquote
+    if (/^>\s/.test(block)) {
+      var bqContent = block.replace(/^>\s?/gm, '')
+      html.push('<blockquote>' + renderMd(bqContent) + '</blockquote>')
+      continue
+    }
+
+    // Horizontal rule
+    if (/^[-*_]{3,}$/.test(block)) {
+      html.push('<hr>')
+      continue
+    }
+
+    // Unordered list
+    if (/^[-*+]\s/.test(block)) {
+      var items = block.split(/\n(?=[-*+]\s)/)
+      html.push('<ul>')
+      for (var u = 0; u < items.length; u++) {
+        html.push('<li>' + inlineMd(items[u].replace(/^[-*+]\s/, '').trim()) + '</li>')
+      }
+      html.push('</ul>')
+      continue
+    }
+
+    // Ordered list
+    if (/^\d+\.\s/.test(block)) {
+      var oitems = block.split(/\n(?=\d+\.\s)/)
+      html.push('<ol>')
+      for (var o = 0; o < oitems.length; o++) {
+        html.push('<li>' + inlineMd(oitems[o].replace(/^\d+\.\s/, '').trim()) + '</li>')
+      }
+      html.push('</ol>')
+      continue
+    }
+
+    // Paragraph (handle lines within block)
+    html.push('<p>' + inlineMd(block).replace(/\n/g, '<br>') + '</p>')
+  }
+
+  return html.join('\n')
+}
+
+function inlineMd(text) {
+  // Inline code
+  text = text.replace(/`([^`]+)`/g, function(_, code) {
+    return '<code>' + escHtml(code) + '</code>'
+  })
+  // Bold
+  text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+  // Italic
+  text = text.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>')
+  // Links
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+  return text
+}
+
+function escHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+}
 
 export default {
   name: 'AiChat',
@@ -163,8 +263,8 @@ export default {
           return `%%LATEX_${id}%%`
         })
 
-        // Run marked on the processed text
-        let html = marked(processed)
+        // Run markdown renderer on the processed text
+        let html = renderMd(processed)
 
         // Restore LaTeX placeholders
         html = html.replace(/%%LATEX_(\d+)%%/g, (_, id) => placeholders[parseInt(id)])

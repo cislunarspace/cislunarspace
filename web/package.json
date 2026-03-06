@@ -21,7 +21,6 @@
     "vuepress-plugin-tags": "^1.0.2"
   },
   "dependencies": {
-    "marked": "^4.3.0",
     "mathjax": "^4.1.1",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-img-lazy": "^1.0.4"
