@@ -7,19 +7,19 @@ export default [
         target: '_blank'
     }, {
         text: "Cislunar Glossary",
-        link: '/glossary/'
+        link: '/en/glossary/'
     },
 
     {
         text: "Resources & Tools",
-        link: '/resources-tools/'
+        link: '/en/resources-tools/'
     },
     {
         text: "AI Q&A",
-        link: '/ai-chat'
+        link: '/en/ai-chat'
     },
     {
         text: "Home",
-        link: '/'
+        link: '/en/'
     },
 ] as NavItem[];
