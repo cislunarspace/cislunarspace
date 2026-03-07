@@ -24,7 +24,7 @@ twitter:
   image: /logo.png
 ---
 
-> 本文作者：[天疆说](https://gitee.com/cislunarspace)
+> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
