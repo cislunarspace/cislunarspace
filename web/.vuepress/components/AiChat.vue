@@ -347,18 +347,25 @@ export default {
   watch: {
     messages: {
       deep: true,
-      async handler(newMessages) {
+      async handler(newMessages, oldMessages) {
         this.saveCurrentSession()
         
-        // 异步渲染新消息
+        // 检测是否有新消息或消息内容变化
         newMessages.forEach(async (msg, index) => {
-          if (!this.renderedContent[index]) {
-            const html = await this.renderMarkdownAsync(msg.content)
-            this.$set(this.renderedContent, index, html)
+          const oldMsg = oldMessages && oldMessages[index]
+          const hasContentChanged = !oldMsg || oldMsg.content !== msg.content
+          
+          // 只有当内容变化时才重新渲染
+          if (hasContentChanged) {
+            // 对于流式内容，使用同步渲染以确保即时显示
+            if (msg.content && msg.content.length > 0) {
+              const html = this.renderMarkdownSync(msg.content)
+              this.$set(this.renderedContent, index, html)
+            }
           }
         })
         
-        // 清理旧的渲染缓存（保留最近50条）
+        // 清理旧的渲染缓存（保留最近 50 条）
         if (this.renderedContent.length > newMessages.length + 10) {
           this.renderedContent = this.renderedContent.slice(-50)
         }
@@ -894,23 +901,44 @@ Based on the website content and your own knowledge, answer user questions about
         }
 
         if (this.config.stream && response.body) {
-          // Streaming response
+          // Streaming response with improved error handling
+          console.log('[Stream] Starting stream processing...')
           this.messages.push({ role: 'assistant', content: '' })
           const assistantIndex = this.messages.length - 1
           const reader = response.body.getReader()
           const decoder = new TextDecoder('utf-8')
           let buffer = ''
-          let isFirstChunk = true
+          let accumulatedContent = ''
+          let chunkCount = 0
+          let lastUpdateTime = Date.now()
+          const STREAM_TIMEOUT = 30000 // 30 seconds timeout
 
           try {
+            // Setup timeout check
+            const timeoutCheck = setInterval(() => {
+              if (Date.now() - lastUpdateTime > STREAM_TIMEOUT && this.currentSessionId === sessionId) {
+                console.warn('Stream timeout detected, aborting...')
+                reader.cancel()
+                clearInterval(timeoutCheck)
+              }
+            }, 5000)
+
             while (true) {
               const { done, value } = await reader.read()
-              if (done) break
+              
+              if (done) {
+                console.log('Stream completed successfully')
+                break
+              }
+              
               // Stop writing if session has changed
               if (this.currentSessionId !== sessionId) {
+                console.log('Session changed, aborting stream')
                 reader.cancel()
                 break
               }
+              
+              lastUpdateTime = Date.now()
               buffer += decoder.decode(value, { stream: true })
               const lines = buffer.split('\n')
               buffer = lines.pop() || ''
@@ -922,53 +950,171 @@ Based on the website content and your own knowledge, answer user questions about
                 // Handle SSE format
                 if (trimmed.startsWith('data:')) {
                   const data = trimmed.slice(5).trim()
-                  if (data === '[DONE]') continue
+                  if (data === '[DONE]') {
+                    console.log('Received [DONE] signal')
+                    continue
+                  }
                   
                   try {
                     const parsed = JSON.parse(data)
+                    
+                    // Check for API errors
+                    if (parsed.error) {
+                      console.error('API error in stream:', parsed.error)
+                      throw new Error(parsed.error.message || 'API error')
+                    }
+                    
                     const delta = parsed.choices?.[0]?.delta?.content
                     if (delta) {
-                      // 确保内容被正确追加
-                      const currentContent = this.messages[assistantIndex].content
-                      this.messages[assistantIndex].content = currentContent + delta
-                      this.$forceUpdate() // 强制更新视图
-                      this.scrollToBottom()
+                      accumulatedContent += delta
+                      chunkCount++
                       
-                      // 如果是第一个chunk，稍微延迟以确保渲染
-                      if (isFirstChunk) {
-                        isFirstChunk = false
-                        await new Promise(resolve => setTimeout(resolve, 10))
+                      // Debug log
+                      if (chunkCount <= 5 || chunkCount % 10 === 0) {
+                        console.log(`[Stream] Chunk ${chunkCount}, content length: ${accumulatedContent.length}`)
                       }
+                      
+                      // Force Vue reactivity by replacing the entire message object
+                      const currentMsg = this.messages[assistantIndex]
+                      this.messages.splice(assistantIndex, 1, {
+                        role: currentMsg.role,
+                        content: accumulatedContent
+                      })
+                      
+                      // Scroll on every chunk for smooth UX
+                      this.$nextTick(() => {
+                        this.scrollToBottom()
+                      })
                     }
                   } catch (e) {
-                    console.warn('Failed to parse SSE chunk:', e, 'Data:', data)
+                    console.warn('Failed to parse SSE chunk:', e, 'Data:', data.slice(0, 100))
                   }
                 }
               }
             }
+            
+            // Process remaining buffer
+            if (buffer.trim()) {
+              const trimmed = buffer.trim()
+              if (trimmed.startsWith('data:')) {
+                const data = trimmed.slice(5).trim()
+                if (data !== '[DONE]') {
+                  try {
+                    const parsed = JSON.parse(data)
+                    const delta = parsed.choices?.[0]?.delta?.content
+                    if (delta) {
+                      accumulatedContent += delta
+                      // Force reactivity
+                      const currentMsg = this.messages[assistantIndex]
+                      this.messages.splice(assistantIndex, 1, {
+                        role: currentMsg.role,
+                        content: accumulatedContent
+                      })
+                    }
+                  } catch (e) {
+                    console.warn('Failed to parse final buffer:', e)
+                  }
+                }
+              }
+            }
+            
+            // Validate content received
+            if (accumulatedContent.length === 0) {
+              console.warn('No content received from stream')
+              const emptyMsg = this.messages[assistantIndex]
+              this.messages.splice(assistantIndex, 1, {
+                role: emptyMsg.role,
+                content: this.isEn 
+                  ? 'Sorry, no valid response received.' 
+                  : '抱歉，未获取到有效回复。'
+              })
+            }
+            
+            clearInterval(timeoutCheck)
+            
+            console.log(`[Stream] Completed: ${chunkCount} chunks, ${accumulatedContent.length} characters`)
+            
+          } catch (streamError) {
+            console.error('Stream processing error:', streamError)
+            if (this.currentSessionId === sessionId) {
+              // Keep received content if any
+              if (accumulatedContent.length > 0) {
+                const currentMsg = this.messages[assistantIndex]
+                this.messages.splice(assistantIndex, 1, {
+                  role: currentMsg.role,
+                  content: accumulatedContent + '\n\n[内容可能不完整，请重试]'
+                })
+              } else {
+                const errorMsg = this.messages[assistantIndex]
+                this.messages.splice(assistantIndex, 1, {
+                  role: errorMsg.role,
+                  content: this.isEn
+                    ? `⚠️ Stream error: ${streamError.message}`
+                    : `⚠️ 流式响应错误：${streamError.message}`
+                })
+              }
+            }
+            throw streamError
           } finally {
-            reader.cancel()
+            try {
+              reader.cancel()
+            } catch (e) {
+              // Ignore cancel errors
+            }
           }
         } else {
           // Non-streaming response
           const data = await response.json()
           if (this.currentSessionId !== sessionId) return
+          
+          // Check for API errors
+          if (data.error) {
+            throw new Error(data.error.message || 'API error')
+          }
+          
           const content = data.choices?.[0]?.message?.content || (this.isEn ? 'Sorry, no valid response received.' : '抱歉，未获取到有效回复。')
           this.messages.push({ role: 'assistant', content })
         }
       } catch (error) {
-        if (error.name === 'AbortError') return
-        if (this.currentSessionId !== sessionId) return
+        console.error('API request error:', error)
+        
+        if (error.name === 'AbortError') {
+          console.log('Request was aborted')
+          return
+        }
+        
+        if (this.currentSessionId !== sessionId) {
+          console.log('Session changed, ignoring error')
+          return
+        }
+        
+        // Detailed error messages
+        let errorMessage = ''
+        if (error.message.includes('Failed to fetch')) {
+          errorMessage = this.isEn
+            ? '⚠️ Cannot connect to AI service, please check your network connection.'
+            : '⚠️ 无法连接到 AI 服务，请检查网络连接或联系管理员。'
+        } else if (error.message.includes('timeout')) {
+          errorMessage = this.isEn
+            ? '⚠️ Request timeout, please try again.'
+            : '⚠️ 请求超时，请重试。'
+        } else {
+          errorMessage = this.isEn
+            ? `⚠️ Request error: ${error.message}`
+            : `⚠️ 请求出错：${error.message}`
+        }
+        
         this.messages.push({
           role: 'assistant',
-          content: this.isEn ? `⚠️ Request error: ${error.message}` : `⚠️ 请求出错: ${error.message}`
+          content: errorMessage
         })
       } finally {
         if (this.currentSessionId === sessionId) {
           this.isLoading = false
           this.abortController = null
+          // Ensure final scroll
+          this.scrollToBottom()
         }
-        this.scrollToBottom()
       }
     },
 
