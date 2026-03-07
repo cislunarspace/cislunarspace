@@ -214,9 +214,14 @@ export default {
           })
           if (maxTocWidth) {
             // 考虑TOC链接的实际渲染：文字宽度 + 缩进 + 内边距
-            // 每个层级缩进约 20px，最大考虑 4 级缩进
-            // 加上容器内边距和滚动条空间
-            const tocWidth = Math.min(Math.max(maxTocWidth + 100, 200), 450)
+            // 每个层级缩进约 20px，最大考虑 6 级缩进（支持 h4-h6 标题）
+            // 加上容器内边距（左右各16px）和滚动条空间（约20px）
+            // 四级标题缩进：0.8rem ≈ 12.8px，五级：1.6rem ≈ 25.6px，六级：2.4rem ≈ 38.4px
+            // 最大缩进考虑 2.4rem ≈ 38.4px，加上文字宽度和余量
+            const maxIndent = 40 // 六级标题的最大缩进
+            const padding = 32   // 左右内边距各16px
+            const scrollbar = 20 // 滚动条空间
+            const tocWidth = Math.min(Math.max(maxTocWidth + maxIndent + padding + scrollbar, 220), 500)
             document.documentElement.style.setProperty('--desktop-toc-width', `${tocWidth}px`)
           }
         }
