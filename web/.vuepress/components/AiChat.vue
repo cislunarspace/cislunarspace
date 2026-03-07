@@ -66,7 +66,7 @@
           <span v-if="msg.role === 'user'">🧑</span>
           <span v-else>🤖</span>
         </div>
-        <div class="message-content" v-html="renderedContent[index] || renderMarkdownSync(msg.content)"></div>
+        <div class="message-content" v-html="getRenderedContent(index, msg.content)"></div>
       </div>
       <div v-if="isLoading" class="chat-message assistant-message">
         <div class="message-avatar"><span>🤖</span></div>
@@ -96,6 +96,12 @@
 <script>
 import katex from 'katex'
 import 'katex/dist/katex.min.css'
+
+const HISTORY_INDEX_KEY = 'ai_chat_history_index_v2'
+const HISTORY_MAX_AGE = 30 * 24 * 60 * 60 * 1000
+const HISTORY_MAX_SESSIONS = 100
+const HISTORY_LIST_LIMIT = 50
+const STREAM_RENDER_INTERVAL = 48
 
 function renderMd(text) {
   var lines = text.split('\n')
@@ -243,7 +249,6 @@ function inlineMd(text) {
   text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
   // Italic
   text = text.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>')
-  // Links
   text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
   return text
 }
@@ -300,7 +305,11 @@ export default {
       abortController: null,
       suggestedQuestions: [],
       renderedContent: [], // 缓存渲染后的内容
-      renderTimeout: null // 防抖定时器
+      renderTimeout: null, // 防抖定时器
+      saveSessionTimer: null,
+      pendingHistoryRefresh: false,
+      streamRenderTimer: null,
+      pendingStreamRender: null
     }
   },
   computed: {
@@ -345,32 +354,6 @@ export default {
     }, 100)
   },
   watch: {
-    messages: {
-      deep: true,
-      async handler(newMessages, oldMessages) {
-        this.saveCurrentSession()
-        
-        // 检测是否有新消息或消息内容变化
-        newMessages.forEach(async (msg, index) => {
-          const oldMsg = oldMessages && oldMessages[index]
-          const hasContentChanged = !oldMsg || oldMsg.content !== msg.content
-          
-          // 只有当内容变化时才重新渲染
-          if (hasContentChanged) {
-            // 对于流式内容，使用同步渲染以确保即时显示
-            if (msg.content && msg.content.length > 0) {
-              const html = this.renderMarkdownSync(msg.content)
-              this.$set(this.renderedContent, index, html)
-            }
-          }
-        })
-        
-        // 清理旧的渲染缓存（保留最近 50 条）
-        if (this.renderedContent.length > newMessages.length + 10) {
-          this.renderedContent = this.renderedContent.slice(-50)
-        }
-      }
-    },
     isEn: {
       immediate: true,
       handler(newVal, oldVal) {
@@ -397,6 +380,10 @@ export default {
         }
       }
     }
+  },
+  beforeDestroy() {
+    this.flushPendingSessionSave()
+    this.clearPendingRenderWork()
   },
   methods: {
     // --- i18n helper ---
@@ -426,36 +413,111 @@ export default {
     createSession() {
       this.currentSessionId = 'chat_' + Date.now()
       this.messages = []
+      this.renderedContent = []
     },
 
-    saveCurrentSession() {
-      if (!this.currentSessionId || this.messages.length === 0) return
+    buildSessionSnapshot() {
+      if (!this.currentSessionId || this.messages.length === 0) return null
+
       var firstUserMsg = this.messages.find(function(m) { return m.role === 'user' })
       var title = firstUserMsg ? firstUserMsg.content.slice(0, 30) : (this.isEn ? 'New Chat' : '新对话')
-      var session = {
+
+      return {
         id: this.currentSessionId,
         title: title,
         messages: this.messages,
         time: Date.now(),
         count: this.messages.length
       }
+    },
+
+    saveCurrentSession(refreshHistory) {
+      var session = this.buildSessionSnapshot()
+      if (!session) return
+
       try {
         localStorage.setItem(this.currentSessionId, JSON.stringify(session))
-        this.loadHistoryList()
+        this.upsertHistoryItem(session, refreshHistory !== false)
       } catch (e) { /* localStorage full or unavailable */ }
     },
 
+    scheduleSessionSave(refreshHistory) {
+      this.pendingHistoryRefresh = this.pendingHistoryRefresh || !!refreshHistory
+
+      if (this.saveSessionTimer) {
+        clearTimeout(this.saveSessionTimer)
+      }
+
+      this.saveSessionTimer = setTimeout(() => {
+        this.flushPendingSessionSave()
+      }, 200)
+    },
+
+    flushPendingSessionSave() {
+      if (this.saveSessionTimer) {
+        clearTimeout(this.saveSessionTimer)
+        this.saveSessionTimer = null
+      }
+
+      var refreshHistory = this.pendingHistoryRefresh
+      this.pendingHistoryRefresh = false
+      this.saveCurrentSession(refreshHistory)
+    },
+
+    readHistoryIndex() {
+      try {
+        var raw = localStorage.getItem(HISTORY_INDEX_KEY)
+        if (!raw) return null
+
+        var parsed = JSON.parse(raw)
+        return Array.isArray(parsed) ? parsed : null
+      } catch (e) {
+        try {
+          localStorage.removeItem(HISTORY_INDEX_KEY)
+        } catch (err) { /* ignore */ }
+        return null
+      }
+    },
+
+    writeHistoryIndex(list) {
+      try {
+        localStorage.setItem(HISTORY_INDEX_KEY, JSON.stringify(list.slice(0, HISTORY_MAX_SESSIONS)))
+      } catch (e) { /* ignore */ }
+    },
+
+    upsertHistoryItem(session, updateVisibleList) {
+      var nextItem = {
+        id: session.id,
+        title: session.title,
+        time: session.time,
+        count: session.count
+      }
+
+      var currentList = this.readHistoryIndex() || []
+      var nextList = currentList.filter(function(item) { return item.id !== nextItem.id })
+      nextList.unshift(nextItem)
+      nextList.sort(function(a, b) { return b.time - a.time })
+      nextList = nextList.slice(0, HISTORY_MAX_SESSIONS)
+
+      this.writeHistoryIndex(nextList)
+
+      if (updateVisibleList) {
+        this.historyList = nextList.slice(0, HISTORY_LIST_LIMIT)
+      }
+    },
+
     loadHistoryList() {
+      var indexedList = this.readHistoryIndex()
+      if (indexedList) {
+        this.historyList = indexedList.slice(0, HISTORY_LIST_LIMIT)
+        return
+      }
+
       var list = []
       try {
-        // 限制最多检查100个键，避免遍历整个localStorage
-        var maxKeysToCheck = 100
-        var keysChecked = 0
-        
-        for (var i = 0; i < localStorage.length && keysChecked < maxKeysToCheck; i++) {
+        for (var i = 0; i < localStorage.length; i++) {
           var key = localStorage.key(i)
-          keysChecked++
-          
+
           if (key && key.indexOf('chat_') === 0) {
             var raw = localStorage.getItem(key)
             if (raw) {
@@ -477,45 +539,56 @@ export default {
       } catch (e) { /* ignore */ }
       
       list.sort(function(a, b) { return b.time - a.time })
-      
-      // 限制历史记录显示数量
-      this.historyList = list.slice(0, 50) // 最多显示50条
+
+      list = list.slice(0, HISTORY_MAX_SESSIONS)
+      this.writeHistoryIndex(list)
+      this.historyList = list.slice(0, HISTORY_LIST_LIMIT)
     },
     
     // 清理旧历史记录
     cleanupOldHistory() {
       try {
         const now = Date.now()
-        const maxAge = 30 * 24 * 60 * 60 * 1000 // 30天
-        const maxSessions = 100 // 最多保留100个会话
-        
-        const sessions = []
-        
-        // 收集所有会话
-        for (let i = 0; i < localStorage.length; i++) {
-          const key = localStorage.key(i)
-          if (key && key.indexOf('chat_') === 0) {
-            const raw = localStorage.getItem(key)
-            if (raw) {
-              try {
-                const session = JSON.parse(raw)
-                sessions.push({ key, time: session.time })
-              } catch (e) {
-                localStorage.removeItem(key) // 删除损坏的数据
+        let sessions = this.readHistoryIndex()
+
+        if (!sessions) {
+          sessions = []
+          for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i)
+            if (key && key.indexOf('chat_') === 0) {
+              const raw = localStorage.getItem(key)
+              if (raw) {
+                try {
+                  const session = JSON.parse(raw)
+                  sessions.push({
+                    id: session.id,
+                    title: session.title,
+                    time: session.time,
+                    count: session.count
+                  })
+                } catch (e) {
+                  localStorage.removeItem(key)
+                }
               }
             }
           }
         }
-        
-        // 按时间排序
+
         sessions.sort((a, b) => b.time - a.time)
-        
-        // 删除过期的会话
+
+        const retained = []
         sessions.forEach((session, index) => {
-          if (now - session.time > maxAge || index >= maxSessions) {
-            localStorage.removeItem(session.key)
+          if (!session || !session.id) return
+
+          if (now - session.time > HISTORY_MAX_AGE || index >= HISTORY_MAX_SESSIONS) {
+            localStorage.removeItem(session.id)
+            return
           }
+
+          retained.push(session)
         })
+
+        this.writeHistoryIndex(retained)
       } catch (e) { 
         console.warn('Failed to cleanup old history:', e)
       }
@@ -527,6 +600,8 @@ export default {
         this.abortController.abort()
         this.abortController = null
       }
+      this.flushPendingSessionSave()
+      this.clearPendingRenderWork()
       this.isLoading = false
       try {
         var raw = localStorage.getItem(id)
@@ -534,6 +609,7 @@ export default {
           var session = JSON.parse(raw)
           this.currentSessionId = session.id
           this.messages = session.messages || []
+          this.renderedContent = this.messages.map((msg) => this.renderMarkdownSync(msg.content))
           this.showHistory = false
           this.scrollToBottom()
         }
@@ -542,23 +618,33 @@ export default {
 
     deleteSession(id) {
       try { localStorage.removeItem(id) } catch (e) { /* ignore */ }
+      var nextHistory = (this.readHistoryIndex() || []).filter(function(item) { return item.id !== id })
+      this.writeHistoryIndex(nextHistory)
+      this.historyList = nextHistory.slice(0, HISTORY_LIST_LIMIT)
       if (this.currentSessionId === id) {
         this.createSession()
       }
-      this.loadHistoryList()
     },
 
     clearAllHistory() {
-      var keys = []
       try {
-        for (var i = 0; i < localStorage.length; i++) {
-          var key = localStorage.key(i)
-          if (key && key.indexOf('chat_') === 0) keys.push(key)
+        var indexedList = this.readHistoryIndex() || []
+
+        if (indexedList.length > 0) {
+          for (var i = 0; i < indexedList.length; i++) {
+            localStorage.removeItem(indexedList[i].id)
+          }
+        } else {
+          for (var j = localStorage.length - 1; j >= 0; j--) {
+            var key = localStorage.key(j)
+            if (key && key.indexOf('chat_') === 0) localStorage.removeItem(key)
+          }
         }
-        for (var k = 0; k < keys.length; k++) localStorage.removeItem(keys[k])
+
+        localStorage.removeItem(HISTORY_INDEX_KEY)
       } catch (e) { /* ignore */ }
       this.createSession()
-      this.loadHistoryList()
+      this.historyList = []
     },
 
     startNewChat() {
@@ -567,8 +653,10 @@ export default {
         this.abortController.abort()
         this.abortController = null
       }
+      this.saveCurrentSession(true)
+      this.flushPendingSessionSave()
+      this.clearPendingRenderWork()
       this.isLoading = false
-      this.saveCurrentSession()
       this.createSession()
       this.showHistory = false
       this.scrollToBottom()
@@ -828,6 +916,50 @@ Based on the website content and your own knowledge, answer user questions about
       return this.renderMarkdownSync(text)
     },
 
+    getRenderedContent(index, content) {
+      if (this.renderedContent[index] !== undefined) {
+        return this.renderedContent[index]
+      }
+
+      const html = this.renderMarkdownSync(content)
+      this.$set(this.renderedContent, index, html)
+      return html
+    },
+
+    setRenderedContentAt(index, content) {
+      this.$set(this.renderedContent, index, this.renderMarkdownSync(content || ''))
+    },
+
+    clearPendingRenderWork() {
+      if (this.streamRenderTimer) {
+        clearTimeout(this.streamRenderTimer)
+        this.streamRenderTimer = null
+      }
+
+      this.pendingStreamRender = null
+    },
+
+    scheduleStreamRender(index, content) {
+      this.pendingStreamRender = { index: index, content: content }
+
+      if (this.streamRenderTimer) return
+
+      this.streamRenderTimer = setTimeout(() => {
+        var pending = this.pendingStreamRender
+        this.pendingStreamRender = null
+        this.streamRenderTimer = null
+
+        if (!pending || !this.messages[pending.index]) return
+
+        this.setRenderedContentAt(pending.index, pending.content)
+        this.scrollToBottom('auto')
+
+        if (this.pendingStreamRender) {
+          this.scheduleStreamRender(this.pendingStreamRender.index, this.pendingStreamRender.content)
+        }
+      }, STREAM_RENDER_INTERVAL)
+    },
+
     handleEnter(e) {
       if (!e.shiftKey) {
         e.preventDefault()
@@ -854,6 +986,8 @@ Based on the website content and your own knowledge, answer user questions about
       }
 
       this.messages.push({ role: 'user', content: text })
+      this.setRenderedContentAt(this.messages.length - 1, text)
+      this.scheduleSessionSave(true)
       this.userInput = ''
       this.isLoading = true
       this.scrollToBottom()
@@ -905,6 +1039,7 @@ Based on the website content and your own knowledge, answer user questions about
           console.log('[Stream] Starting stream processing...')
           this.messages.push({ role: 'assistant', content: '' })
           const assistantIndex = this.messages.length - 1
+          this.$set(this.renderedContent, assistantIndex, '')
           const reader = response.body.getReader()
           const decoder = new TextDecoder('utf-8')
           let buffer = ''
@@ -912,10 +1047,11 @@ Based on the website content and your own knowledge, answer user questions about
           let chunkCount = 0
           let lastUpdateTime = Date.now()
           const STREAM_TIMEOUT = 30000 // 30 seconds timeout
+          let timeoutCheck = null
 
           try {
             // Setup timeout check
-            const timeoutCheck = setInterval(() => {
+            timeoutCheck = setInterval(() => {
               if (Date.now() - lastUpdateTime > STREAM_TIMEOUT && this.currentSessionId === sessionId) {
                 console.warn('Stream timeout detected, aborting...')
                 reader.cancel()
@@ -974,17 +1110,10 @@ Based on the website content and your own knowledge, answer user questions about
                         console.log(`[Stream] Chunk ${chunkCount}, content length: ${accumulatedContent.length}`)
                       }
                       
-                      // Force Vue reactivity by replacing the entire message object
-                      const currentMsg = this.messages[assistantIndex]
-                      this.messages.splice(assistantIndex, 1, {
-                        role: currentMsg.role,
-                        content: accumulatedContent
-                      })
-                      
-                      // Scroll on every chunk for smooth UX
-                      this.$nextTick(() => {
-                        this.scrollToBottom()
-                      })
+                      if (this.messages[assistantIndex]) {
+                        this.messages[assistantIndex].content = accumulatedContent
+                        this.scheduleStreamRender(assistantIndex, accumulatedContent)
+                      }
                     }
                   } catch (e) {
                     console.warn('Failed to parse SSE chunk:', e, 'Data:', data.slice(0, 100))
@@ -1004,12 +1133,9 @@ Based on the website content and your own knowledge, answer user questions about
                     const delta = parsed.choices?.[0]?.delta?.content
                     if (delta) {
                       accumulatedContent += delta
-                      // Force reactivity
-                      const currentMsg = this.messages[assistantIndex]
-                      this.messages.splice(assistantIndex, 1, {
-                        role: currentMsg.role,
-                        content: accumulatedContent
-                      })
+                      if (this.messages[assistantIndex]) {
+                        this.messages[assistantIndex].content = accumulatedContent
+                      }
                     }
                   } catch (e) {
                     console.warn('Failed to parse final buffer:', e)
@@ -1021,16 +1147,18 @@ Based on the website content and your own knowledge, answer user questions about
             // Validate content received
             if (accumulatedContent.length === 0) {
               console.warn('No content received from stream')
-              const emptyMsg = this.messages[assistantIndex]
-              this.messages.splice(assistantIndex, 1, {
-                role: emptyMsg.role,
-                content: this.isEn 
+              if (this.messages[assistantIndex]) {
+                this.messages[assistantIndex].content = this.isEn 
                   ? 'Sorry, no valid response received.' 
                   : '抱歉，未获取到有效回复。'
-              })
+              }
             }
-            
-            clearInterval(timeoutCheck)
+
+            if (this.messages[assistantIndex]) {
+              this.setRenderedContentAt(assistantIndex, this.messages[assistantIndex].content)
+            }
+
+            this.scheduleSessionSave(true)
             
             console.log(`[Stream] Completed: ${chunkCount} chunks, ${accumulatedContent.length} characters`)
             
@@ -1039,23 +1167,27 @@ Based on the website content and your own knowledge, answer user questions about
             if (this.currentSessionId === sessionId) {
               // Keep received content if any
               if (accumulatedContent.length > 0) {
-                const currentMsg = this.messages[assistantIndex]
-                this.messages.splice(assistantIndex, 1, {
-                  role: currentMsg.role,
-                  content: accumulatedContent + '\n\n[内容可能不完整，请重试]'
-                })
+                if (this.messages[assistantIndex]) {
+                  this.messages[assistantIndex].content = accumulatedContent + '\n\n[内容可能不完整，请重试]'
+                  this.setRenderedContentAt(assistantIndex, this.messages[assistantIndex].content)
+                }
               } else {
-                const errorMsg = this.messages[assistantIndex]
-                this.messages.splice(assistantIndex, 1, {
-                  role: errorMsg.role,
-                  content: this.isEn
+                if (this.messages[assistantIndex]) {
+                  this.messages[assistantIndex].content = this.isEn
                     ? `⚠️ Stream error: ${streamError.message}`
                     : `⚠️ 流式响应错误：${streamError.message}`
-                })
+                  this.setRenderedContentAt(assistantIndex, this.messages[assistantIndex].content)
+                }
               }
+
+              this.scheduleSessionSave(true)
             }
             throw streamError
           } finally {
+            if (timeoutCheck) {
+              clearInterval(timeoutCheck)
+            }
+
             try {
               reader.cancel()
             } catch (e) {
@@ -1074,6 +1206,8 @@ Based on the website content and your own knowledge, answer user questions about
           
           const content = data.choices?.[0]?.message?.content || (this.isEn ? 'Sorry, no valid response received.' : '抱歉，未获取到有效回复。')
           this.messages.push({ role: 'assistant', content })
+          this.setRenderedContentAt(this.messages.length - 1, content)
+          this.scheduleSessionSave(true)
         }
       } catch (error) {
         console.error('API request error:', error)
@@ -1108,6 +1242,8 @@ Based on the website content and your own knowledge, answer user questions about
           role: 'assistant',
           content: errorMessage
         })
+        this.setRenderedContentAt(this.messages.length - 1, errorMessage)
+        this.scheduleSessionSave(true)
       } finally {
         if (this.currentSessionId === sessionId) {
           this.isLoading = false
@@ -1118,14 +1254,13 @@ Based on the website content and your own knowledge, answer user questions about
       }
     },
 
-    scrollToBottom() {
+    scrollToBottom(behavior) {
       this.$nextTick(() => {
         const container = this.$refs.messagesContainer
         if (container) {
-          // 使用平滑滚动
           container.scrollTo({
             top: container.scrollHeight,
-            behavior: 'smooth'
+            behavior: behavior || 'smooth'
           })
         }
       })
