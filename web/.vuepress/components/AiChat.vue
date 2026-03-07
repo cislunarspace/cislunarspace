@@ -252,6 +252,40 @@ function escHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 }
 
+function normalizeApiEndpoint(rawEndpoint) {
+  if (typeof rawEndpoint !== 'string') return '/api/ai/v1/chat/completions'
+  const endpoint = rawEndpoint.trim()
+  if (!endpoint) return '/api/ai/v1/chat/completions'
+
+  if (/^https?:\/\//i.test(endpoint)) {
+    try {
+      const url = new URL(endpoint, window.location.origin)
+      if (url.origin === window.location.origin) {
+        return url.pathname + url.search + url.hash
+      }
+    } catch (e) {
+      console.warn('Ignoring invalid AI API endpoint:', endpoint)
+    }
+
+    console.warn('Ignoring cross-origin AI API endpoint. Use a same-origin server proxy instead.')
+    return '/api/ai/v1/chat/completions'
+  }
+
+  return endpoint.startsWith('/') ? endpoint : `/${endpoint}`
+}
+
+function sanitizeClientConfig(config) {
+  const nextConfig = Object.assign({}, config)
+
+  if (nextConfig.apiKey) {
+    console.warn('Ignoring client-side AI API key. Configure the secret on the server proxy instead.')
+    delete nextConfig.apiKey
+  }
+
+  nextConfig.apiEndpoint = normalizeApiEndpoint(nextConfig.apiEndpoint)
+  return nextConfig
+}
+
 export default {
   name: 'AiChat',
   data() {
@@ -470,7 +504,7 @@ export default {
         }
         const text = await res.text()
         try {
-          this.config = JSON.parse(text)
+          this.config = sanitizeClientConfig(JSON.parse(text))
           // Override system prompt based on language
           this.config.systemPrompt = this.getSystemPrompt()
         } catch (parseErr) {
@@ -693,9 +727,6 @@ Based on the website content and your own knowledge, answer user questions about
 
         const headers = {
           'Content-Type': 'application/json'
-        }
-        if (this.config.apiKey) {
-          headers['Authorization'] = `Bearer ${this.config.apiKey}`
         }
 
         const response = await fetch(this.config.apiEndpoint, {
