@@ -30,8 +30,8 @@ const mainSidebar = [
                 path: "/research-frontiers/institutions/",
                 collapsable: true,
                 children: [
-                    ["/research-frontiers/institutions/nudt", "国防科技大学空天科学学院"],
-                    ["/research-frontiers/institutions/npu", "西北工业大学航天学院"],
+                    ["/research-frontiers/institutions/nudt", "国防科技大学"],
+                    ["/research-frontiers/institutions/npu", "西北工业大学"],
                     ["/research-frontiers/institutions/seu", "航天工程大学"],
                     ["/research-frontiers/institutions/dfhscl", "航天东方红卫星有限公司"],
                     ["/research-frontiers/institutions/thu", "清华大学"],
