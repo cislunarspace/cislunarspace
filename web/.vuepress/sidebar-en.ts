@@ -1,5 +1,3 @@
-import { SidebarConfig } from "vuepress/config";
-
 // Main sidebar configuration (English)
 const mainSidebar = [
     {
@@ -56,7 +54,7 @@ const resourcesToolsSidebar = [
 ];
 
 // VuePress 1.x multi-sidebar config
-const sidebarConfigEn: SidebarConfig = {
+const sidebarConfigEn = {
     "/en/glossary/": glossarySidebar,
     "/en/resources-tools/": resourcesToolsSidebar,
     "/en/what-is-cislunarspace/": mainSidebar,

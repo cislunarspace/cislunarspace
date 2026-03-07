@@ -1,5 +1,3 @@
-import { SidebarConfig } from "vuepress/config";
-
 // 主侧边栏配置
 const mainSidebar = [
     {
@@ -82,7 +80,7 @@ const resourcesToolsSidebar = [
 
 // VuePress 1.x 多侧边栏配置
 // 注意：回退配置 '/' 应该放在最后
-const sidebarConfig: SidebarConfig = {
+const sidebarConfig = {
     // 词典页面使用独立的词典侧边栏
     "/glossary/": glossarySidebar,
     
