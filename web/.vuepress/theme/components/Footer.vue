@@ -46,6 +46,7 @@ export default {
   justify-content center
   background-color #f0f2f5
   flex-wrap wrap
+  box-sizing border-box
 .footer-item
   padding 0 1rem
 .footer-item a
@@ -59,11 +60,25 @@ export default {
   height 1.4rem
   margin-right 0.4rem
 .copy-right
-    width 100vw
+    width 100%
+    max-width 100%
     display flex
     justify-content center
+    flex-wrap wrap
     margin-top 1rem
+    padding 0 1rem
+    box-sizing border-box
     color #85858a
+    text-align center
+    line-height 1.6
 .copy-right .name
     margin-right 0.4rem
+
+@media (max-width: $MQMobile)
+  .footer
+    padding 1.5rem 1rem
+  .footer-item
+    padding 0.35rem 0.75rem
+  .copy-right .name
+    margin-right 0
 </style>

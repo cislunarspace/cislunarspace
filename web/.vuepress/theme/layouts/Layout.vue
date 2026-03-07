@@ -49,14 +49,12 @@
        :page-sidebar-items="pageSidebarItems"
        :sidebar-items="sidebarItems"
     >
-      <slot
-        name="page-sidebar-top"
-        #top
-      />
-      <slot
-        name="page-sidebar-bottom"
-        #bottom
-      />
+      <template #top>
+        <slot name="page-sidebar-top" />
+      </template>
+      <template #bottom>
+        <slot name="page-sidebar-bottom" />
+      </template>
     </PageSidebar>
   </div>
 </template>
@@ -77,7 +75,8 @@ export default {
   data () {
     return {
       isSidebarOpen: false,
-      resizeTimer: null
+      resizeTimer: null,
+      touchStart: null
     }
   },
 
@@ -146,11 +145,15 @@ export default {
 
   mounted () {
     this.updateDesktopSidebarWidth()
+    this.syncMobileSidebarState()
     window.addEventListener('resize', this.handleResize)
 
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
-      this.$nextTick(() => this.updateDesktopSidebarWidth())
+      this.$nextTick(() => {
+        this.updateDesktopSidebarWidth()
+        this.syncMobileSidebarState()
+      })
     })
   },
 
@@ -160,6 +163,7 @@ export default {
       this.resizeTimer = null
     }
     window.removeEventListener('resize', this.handleResize)
+    this.clearMobileSidebarState()
   },
 
   methods: {
@@ -169,7 +173,29 @@ export default {
       }
       this.resizeTimer = setTimeout(() => {
         this.updateDesktopSidebarWidth()
+        this.syncMobileSidebarState()
       }, 120)
+    },
+
+    syncMobileSidebarState () {
+      const isMobile = window.innerWidth <= 959
+      const shouldLockScroll = isMobile && this.isSidebarOpen
+
+      if (this.$el) {
+        this.$el.classList.toggle('mobile-sidebar-open', shouldLockScroll)
+      }
+      document.documentElement.classList.toggle('mobile-sidebar-open', shouldLockScroll)
+      document.body.classList.toggle('mobile-sidebar-open', shouldLockScroll)
+      document.body.style.overflow = shouldLockScroll ? 'hidden' : ''
+    },
+
+    clearMobileSidebarState () {
+      if (this.$el) {
+        this.$el.classList.remove('mobile-sidebar-open')
+      }
+      document.documentElement.classList.remove('mobile-sidebar-open')
+      document.body.classList.remove('mobile-sidebar-open')
+      document.body.style.overflow = ''
     },
 
     updateDesktopSidebarWidth () {
@@ -230,6 +256,7 @@ export default {
 
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+      this.syncMobileSidebarState()
       this.$emit('toggle-sidebar', this.isSidebarOpen)
     },
 
@@ -242,10 +269,17 @@ export default {
     },
 
     onTouchEnd (e) {
-      const dx = e.changedTouches[0].clientX - this.touchStart.x
-      const dy = e.changedTouches[0].clientY - this.touchStart.y
+      if (!this.touchStart) {
+        return
+      }
+
+      const { x, y } = this.touchStart
+      const dx = e.changedTouches[0].clientX - x
+      const dy = e.changedTouches[0].clientY - y
+      this.touchStart = null
+
       if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
-        if (dx > 0 && this.touchStart.x <= 80) {
+        if (dx > 0 && x <= 80) {
           this.toggleSidebar(true)
         } else {
           this.toggleSidebar(false)
@@ -255,3 +289,39 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+html, body
+  max-width 100%
+  overflow-x hidden
+
+.theme-container
+  width 100%
+  max-width 100%
+
+@media (max-width: 959px)
+  .theme-container .sidebar
+    width min(82vw, 20rem)
+    max-width calc(100vw - 2.5rem)
+    padding-bottom calc(2rem + env(safe-area-inset-bottom, 0px))
+    overscroll-behavior contain
+    -webkit-overflow-scrolling touch
+
+  .theme-container .sidebar .nav-links,
+  .theme-container .sidebar > .sidebar-links
+    max-width 100%
+
+  .theme-container .sidebar .sidebar-link,
+  .theme-container .sidebar .sidebar-heading,
+  .theme-container .sidebar .group-label
+    white-space normal
+    word-break break-word
+    line-height 1.5
+
+  .theme-container .sidebar .sidebar-links
+    padding-bottom 3rem
+
+  .theme-container.mobile-sidebar-open,
+  body.mobile-sidebar-open
+    overflow hidden
+</style>

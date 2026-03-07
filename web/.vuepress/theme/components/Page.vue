@@ -77,6 +77,7 @@ export default {
 .custom-content
   max-width none !important
   width 100%
+  min-width 0
   margin 0 !important
   padding-right 32px !important
 .content
@@ -86,6 +87,8 @@ export default {
   gap 5rem
   margin 0 auto
   width 100%
+  max-width 100%
+  box-sizing border-box
   padding 0 1.5rem
   li, a , p, span
     word-wrap break-word
@@ -93,6 +96,27 @@ export default {
 .content > div:first-child
   flex 1 1 auto
   min-width 0
+  max-width 100%
+
+.theme-default-content.custom-content img,
+.theme-default-content.custom-content video,
+.theme-default-content.custom-content canvas,
+.theme-default-content.custom-content svg,
+.theme-default-content.custom-content iframe,
+.theme-default-content.custom-content embed
+  max-width 100%
+
+.theme-default-content.custom-content img,
+.theme-default-content.custom-content video,
+.theme-default-content.custom-content canvas
+  height auto
+
+.theme-default-content.custom-content table,
+.theme-default-content.custom-content pre,
+.theme-default-content.custom-content div[class*="language-"]
+  max-width 100%
+  overflow-x auto
+  -webkit-overflow-scrolling touch
 
 .theme-default-content
   margin 0 !important
@@ -188,12 +212,18 @@ export default {
   .page
     padding-right 0
     padding-left 0 !important
+    width 100%
   .content
     gap 0
     padding 0 0.85rem
+    overflow-x hidden
   .custom-content
     max-width 100% !important
     padding-left 0 !important
     padding-right 0 !important
+  .theme-default-content.custom-content table,
+  .theme-default-content.custom-content pre,
+  .theme-default-content.custom-content div[class*="language-"]
+    font-size 0.92rem
 
 </style>

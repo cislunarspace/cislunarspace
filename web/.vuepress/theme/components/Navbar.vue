@@ -97,11 +97,18 @@ $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
 .navbar
-  width 100vw
+  width 100%
+  max-width 100%
+  box-sizing border-box
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
   a, span, img
     display inline-block
+  .home-link
+    display inline-flex
+    align-items center
+    min-width 0
+    max-width calc(100% - 4rem)
   .logo
     height $navbarHeight - 1.4rem
     min-width $navbarHeight - 1.4rem
@@ -128,13 +135,15 @@ $navbar-horizontal-padding = 1.5rem
 
 @media (max-width: $MQMobile)
   .navbar
-    padding-left 4rem
+    padding-left 3.75rem
+    padding-right 1rem
     .can-hide
       display none
     .links
-      padding-left 1.5rem
+      right 1rem
+      padding-left 0.75rem
     .site-name
-      width calc(100vw - 9.4rem)
+      max-width calc(100% - 0.5rem)
       overflow hidden
       white-space nowrap
       text-overflow ellipsis
