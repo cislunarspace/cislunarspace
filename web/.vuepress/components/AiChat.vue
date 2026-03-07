@@ -1,264 +1,72 @@
 <template>
   <div class="ai-chat-container">
-    <!-- Toolbar -->
     <div class="chat-toolbar">
       <div class="toolbar-title">{{ t('toolbarTitle') }}</div>
-      <div class="toolbar-actions">
-        <button class="toolbar-btn" @click="startNewChat" :title="t('newChat')">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M12 5v14M5 12h14"/>
-          </svg>
-          <span>{{ t('newChat') }}</span>
-        </button>
-        <button class="toolbar-btn" @click="showHistory = !showHistory" :title="t('history')">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
-          </svg>
-          <span>{{ t('history') }}</span>
-        </button>
-      </div>
+      <button class="toolbar-btn" @click="startNewChat" :disabled="isLoading">
+        {{ t('newChat') }}
+      </button>
     </div>
-    <!-- History panel -->
-    <div v-if="showHistory" class="history-panel">
-      <div class="history-header">
-        <h3>{{ t('historyTitle') }}</h3>
-        <button class="history-close-btn" @click="showHistory = false">&times;</button>
-      </div>
-      <div v-if="historyList.length === 0" class="history-empty">{{ t('noHistory') }}</div>
-      <div v-else class="history-list">
-        <div
-          v-for="(item, idx) in historyList"
-          :key="item.id"
-          :class="['history-item', currentSessionId === item.id ? 'history-item-active' : '']"
-          @click="loadSession(item.id)"
-        >
-          <div class="history-item-title">{{ item.title }}</div>
-          <div class="history-item-meta">
-            <span>{{ item.count }} {{ t('messages') }}</span>
-            <span>{{ formatTime(item.time) }}</span>
-          </div>
-          <button class="history-delete-btn" @click.stop="deleteSession(item.id)" :title="t('delete')">&times;</button>
-        </div>
-      </div>
-      <div v-if="historyList.length > 0" class="history-footer">
-        <button class="history-clear-btn" @click="clearAllHistory">{{ t('clearAll') }}</button>
-      </div>
-    </div>
+
     <div class="chat-messages" ref="messagesContainer">
       <div v-if="messages.length === 0" class="chat-welcome">
         <h2>{{ t('welcomeTitle') }}</h2>
         <p>{{ t('welcomeDesc') }}</p>
         <div class="suggested-questions">
           <button
-            v-for="(q, i) in suggestedQuestions"
-            :key="i"
+            v-for="(question, index) in suggestedQuestions"
+            :key="index"
             class="suggested-btn"
-            @click="sendSuggested(q)"
-          >{{ q }}</button>
+            @click="sendSuggested(question)"
+            :disabled="isLoading"
+          >
+            {{ question }}
+          </button>
         </div>
       </div>
+
       <div
-        v-for="(msg, index) in messages"
+        v-for="(message, index) in messages"
         :key="index"
-        :class="['chat-message', msg.role === 'user' ? 'user-message' : 'assistant-message']"
+        :class="['chat-message', message.role === 'user' ? 'user-message' : 'assistant-message']"
       >
-        <div class="message-avatar">
-          <span v-if="msg.role === 'user'">🧑</span>
-          <span v-else>🤖</span>
-        </div>
-        <div class="message-content" v-html="getRenderedContent(index, msg.content)"></div>
-      </div>
-      <div v-if="isLoading" class="chat-message assistant-message">
-        <div class="message-avatar"><span>🤖</span></div>
-        <div class="message-content typing-indicator">
-          <span></span><span></span><span></span>
+        <div class="message-avatar">{{ message.role === 'user' ? 'U' : 'AI' }}</div>
+        <div
+          v-if="message.role === 'assistant'"
+          class="message-content"
+          v-html="renderMessageHtml(message, index)"
+        ></div>
+        <div v-else class="message-content">
+          {{ getMessageText(message, index) }}
         </div>
       </div>
     </div>
+
     <div class="chat-input-area">
       <textarea
         v-model="userInput"
-        @keydown.enter.exact="handleEnter"
+        @keydown.enter.exact.prevent="sendMessage"
         :placeholder="t('inputPlaceholder')"
-        rows="1"
-        ref="inputArea"
-        :disabled="isLoading"
+        :disabled="isLoading || !config"
+        rows="3"
       ></textarea>
-      <button class="send-btn" @click="sendMessage" :disabled="isLoading || !userInput.trim()">
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-        </svg>
+      <button
+        class="send-btn"
+        @click="sendMessage"
+        :disabled="isLoading || !userInput.trim() || !config"
+      >
+        {{ t('send') }}
       </button>
     </div>
   </div>
 </template>
 
 <script>
-import katex from 'katex'
-import 'katex/dist/katex.min.css'
-
-const HISTORY_INDEX_KEY = 'ai_chat_history_index_v2'
-const HISTORY_MAX_AGE = 30 * 24 * 60 * 60 * 1000
-const HISTORY_MAX_SESSIONS = 100
-const HISTORY_LIST_LIMIT = 50
-const STREAM_RENDER_INTERVAL = 48
-
-function renderMd(text) {
-  var lines = text.split('\n')
-  var html = []
-  var i = 0
-
-  while (i < lines.length) {
-    var line = lines[i]
-
-    // Empty line — skip
-    if (line.trim() === '') {
-      i++
-      continue
-    }
-
-    // Code block (fenced)
-    if (/^```/.test(line.trim())) {
-      var lang = line.trim().replace(/^```/, '').trim()
-      var codeLines = []
-      i++
-      while (i < lines.length && !/^```\s*$/.test(lines[i].trim())) {
-        codeLines.push(lines[i])
-        i++
-      }
-      i++ // skip closing ```
-      html.push('<pre><code class="language-' + escHtml(lang) + '">' + escHtml(codeLines.join('\n')) + '</code></pre>')
-      continue
-    }
-
-    // Heading
-    var headMatch = line.match(/^(#{1,6})\s+(.+)$/)
-    if (headMatch) {
-      var level = headMatch[1].length
-      html.push('<h' + level + '>' + inlineMd(headMatch[2].trim()) + '</h' + level + '>')
-      i++
-      continue
-    }
-
-    // Horizontal rule
-    if (/^\s*([-*_])\s*\1\s*\1[\s\-*_]*$/.test(line)) {
-      html.push('<hr>')
-      i++
-      continue
-    }
-
-    // Table: collect consecutive lines starting with |
-    if (/^\|.+\|/.test(line.trim())) {
-      var tableLines = []
-      while (i < lines.length && /^\|.+\|/.test(lines[i].trim())) {
-        tableLines.push(lines[i].trim())
-        i++
-      }
-      if (tableLines.length >= 2 && /^[\s|:|-]+$/.test(tableLines[1])) {
-        var tableHtml = '<table>'
-        var hCells = tableLines[0].split('|').filter(function(c) { return c.trim() !== '' })
-        tableHtml += '<thead><tr>'
-        for (var h = 0; h < hCells.length; h++) tableHtml += '<th>' + inlineMd(hCells[h].trim()) + '</th>'
-        tableHtml += '</tr></thead><tbody>'
-        for (var r = 2; r < tableLines.length; r++) {
-          var cells = tableLines[r].split('|').filter(function(c) { return c.trim() !== '' })
-          tableHtml += '<tr>'
-          for (var c = 0; c < cells.length; c++) tableHtml += '<td>' + inlineMd(cells[c].trim()) + '</td>'
-          tableHtml += '</tr>'
-        }
-        tableHtml += '</tbody></table>'
-        html.push(tableHtml)
-      } else {
-        // Not a real table, treat as paragraphs
-        for (var t = 0; t < tableLines.length; t++) {
-          html.push('<p>' + inlineMd(tableLines[t]) + '</p>')
-        }
-      }
-      continue
-    }
-
-    // Blockquote: collect consecutive > lines
-    if (/^>\s?/.test(line)) {
-      var bqLines = []
-      while (i < lines.length && /^>\s?/.test(lines[i])) {
-        bqLines.push(lines[i].replace(/^>\s?/, ''))
-        i++
-      }
-      html.push('<blockquote>' + renderMd(bqLines.join('\n')) + '</blockquote>')
-      continue
-    }
-
-    // Unordered list: collect consecutive - / * / + items (with possible continuation lines)
-    if (/^\s*[-*+]\s/.test(line)) {
-      var ulItems = []
-      while (i < lines.length && /^\s*[-*+]\s/.test(lines[i])) {
-        ulItems.push(lines[i].replace(/^\s*[-*+]\s/, '').trim())
-        i++
-      }
-      html.push('<ul>')
-      for (var u = 0; u < ulItems.length; u++) {
-        html.push('<li>' + inlineMd(ulItems[u]) + '</li>')
-      }
-      html.push('</ul>')
-      continue
-    }
-
-    // Ordered list: collect consecutive numbered items
-    if (/^\s*\d+[.)]\s/.test(line)) {
-      var olItems = []
-      while (i < lines.length && /^\s*\d+[.)]\s/.test(lines[i])) {
-        olItems.push(lines[i].replace(/^\s*\d+[.)]\s/, '').trim())
-        i++
-      }
-      html.push('<ol>')
-      for (var o = 0; o < olItems.length; o++) {
-        html.push('<li>' + inlineMd(olItems[o]) + '</li>')
-      }
-      html.push('</ol>')
-      continue
-    }
-
-    // Paragraph: collect consecutive non-empty, non-special lines
-    var paraLines = []
-    while (i < lines.length && lines[i].trim() !== '' &&
-      !/^```/.test(lines[i].trim()) &&
-      !/^#{1,6}\s/.test(lines[i]) &&
-      !/^\|.+\|/.test(lines[i].trim()) &&
-      !/^>\s?/.test(lines[i]) &&
-      !/^\s*[-*+]\s/.test(lines[i]) &&
-      !/^\s*\d+[.)]\s/.test(lines[i]) &&
-      !/^\s*([-*_])\s*\1\s*\1[\s\-*_]*$/.test(lines[i])
-    ) {
-      paraLines.push(lines[i])
-      i++
-    }
-    if (paraLines.length > 0) {
-      html.push('<p>' + inlineMd(paraLines.join('<br>')) + '</p>')
-    }
-  }
-
-  return html.join('\n')
-}
-
-function inlineMd(text) {
-  // Inline code
-  text = text.replace(/`([^`]+)`/g, function(_, code) {
-    return '<code>' + escHtml(code) + '</code>'
-  })
-  // Bold
-  text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-  // Italic
-  text = text.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>')
-  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
-  return text
-}
-
-function escHtml(str) {
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
-}
+import sidebarConfig from '../sidebar.ts'
+import sidebarConfigEn from '../sidebar-en.ts'
 
 function normalizeApiEndpoint(rawEndpoint) {
   if (typeof rawEndpoint !== 'string') return '/api/ai/v1/chat/completions'
+
   const endpoint = rawEndpoint.trim()
   if (!endpoint) return '/api/ai/v1/chat/completions'
 
@@ -269,10 +77,9 @@ function normalizeApiEndpoint(rawEndpoint) {
         return url.pathname + url.search + url.hash
       }
     } catch (e) {
-      console.warn('Ignoring invalid AI API endpoint:', endpoint)
+      return '/api/ai/v1/chat/completions'
     }
 
-    console.warn('Ignoring cross-origin AI API endpoint. Use a same-origin server proxy instead.')
     return '/api/ai/v1/chat/completions'
   }
 
@@ -280,16 +87,97 @@ function normalizeApiEndpoint(rawEndpoint) {
 }
 
 function sanitizeClientConfig(config) {
-  const nextConfig = Object.assign({}, config)
-
-  if (nextConfig.apiKey) {
-    console.warn('Ignoring client-side AI API key. Configure the secret on the server proxy instead.')
-    delete nextConfig.apiKey
-  }
-
+  const nextConfig = Object.assign({}, config || {})
+  delete nextConfig.apiKey
   nextConfig.apiEndpoint = normalizeApiEndpoint(nextConfig.apiEndpoint)
   return nextConfig
 }
+
+function normalizeDocPath(path) {
+  if (typeof path !== 'string' || !path.trim()) return ''
+
+  const trimmed = path.trim()
+  if (/^https?:\/\//i.test(trimmed)) return trimmed
+  if (trimmed === '/') return trimmed
+  if (/[.#?]$/.test(trimmed)) return trimmed
+  return trimmed.endsWith('/') ? trimmed : `${trimmed}/`
+}
+
+function collectSidebarChildren(children, entries) {
+  if (!Array.isArray(children)) return
+
+  for (const child of children) {
+    if (Array.isArray(child) && child.length >= 2) {
+      const path = normalizeDocPath(child[0])
+      const title = child[1]
+      if (path && title) {
+        entries.push({ title, path })
+      }
+      continue
+    }
+
+    if (child && typeof child === 'object') {
+      const path = normalizeDocPath(child.path)
+      if (path && child.title) {
+        entries.push({ title: child.title, path })
+      }
+
+      collectSidebarChildren(child.children, entries)
+    }
+  }
+}
+
+function buildSidebarEntries(sidebarConfigObject) {
+  const rawEntries = []
+  const groups = Object.values(sidebarConfigObject || {})
+
+  for (const group of groups) {
+    if (Array.isArray(group)) {
+      collectSidebarChildren(group, rawEntries)
+    }
+  }
+
+  const uniqueEntries = []
+  const seen = new Set()
+
+  for (const entry of rawEntries) {
+    const key = `${entry.title}@@${entry.path}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    uniqueEntries.push(entry)
+  }
+
+  return uniqueEntries
+}
+
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+function renderLinkedHtml(text) {
+  let html = escapeHtml(text)
+
+  html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)\)/g, function(_, label, href) {
+    return `<a href="${href}" class="chat-link">${label}</a>`
+  })
+
+  html = html.replace(/(^|\s)(https?:\/\/[^\s<]+)/g, function(_, prefix, href) {
+    return `${prefix}<a href="${href}" class="chat-link">${href}</a>`
+  })
+
+  html = html.replace(/(^|\s)(\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)/g, function(_, prefix, href) {
+    return `${prefix}<a href="${href}" class="chat-link">${href}</a>`
+  })
+
+  return html.replace(/\n/g, '<br>')
+}
+
+const zhSidebarEntries = buildSidebarEntries(sidebarConfig)
+const enSidebarEntries = buildSidebarEntries(sidebarConfigEn)
 
 export default {
   name: 'AiChat',
@@ -299,21 +187,8 @@ export default {
       messages: [],
       isLoading: false,
       config: null,
-      showHistory: false,
-      historyList: [],
-      currentSessionId: null,
       abortController: null,
-      suggestedQuestions: [],
-      renderedContent: [], // 缓存渲染后的内容
-      renderTimeout: null, // 防抖定时器
-      saveSessionTimer: null,
-      pendingHistoryRefresh: false,
-      streamRenderTimer: null,
-      pendingStreamRender: null,
-      historyLoadTimer: null,
-      sessionLoadTimer: null,
-      pageShowHandler: null,
-      pageHideHandler: null
+      suggestedQuestions: []
     }
   },
   computed: {
@@ -322,65 +197,77 @@ export default {
     }
   },
   async mounted() {
-    // 先清理旧历史记录
-    this.cleanupOldHistory()
-
-    this.pageShowHandler = (event) => {
-      this.handlePageShow(event)
-    }
-    this.pageHideHandler = () => {
-      this.handlePageHide()
-    }
-
-    window.addEventListener('pageshow', this.pageShowHandler)
-    window.addEventListener('pagehide', this.pageHideHandler)
-    
-    // 立即加载建议问题（轻量级）
-    this.updateSuggestedQuestions(this.isEn)
-    
-    // 异步加载配置
+    this.updateSuggestedQuestions()
     await this.loadConfig()
-
-    this.scheduleInitialSessionLoad()
   },
   watch: {
-    isEn: {
-      immediate: true,
-      handler(newVal, oldVal) {
-        if (newVal !== oldVal) {
-          // Update suggested questions when language changes
-          this.updateSuggestedQuestions(newVal)
-          
-          // Update system prompt when language changes
-          if (this.config) {
-            this.config.systemPrompt = this.getSystemPrompt()
-          }
-        }
+    isEn() {
+      this.updateSuggestedQuestions()
+      if (this.config) {
+        this.config.systemPrompt = this.getSystemPrompt()
       }
     }
   },
   beforeDestroy() {
-    if (this.pageShowHandler) {
-      window.removeEventListener('pageshow', this.pageShowHandler)
-      this.pageShowHandler = null
-    }
-    if (this.pageHideHandler) {
-      window.removeEventListener('pagehide', this.pageHideHandler)
-      this.pageHideHandler = null
-    }
-    this.abortActiveRequest()
-    this.clearInitializationTimers()
-    this.flushPendingSessionSave()
-    this.clearPendingRenderWork()
+    this.abortRequest()
   },
   methods: {
-    updateSuggestedQuestions(isEn) {
-      this.suggestedQuestions = isEn
+    getMessageText(message, index) {
+      if (
+        message &&
+        message.role === 'assistant' &&
+        !message.content &&
+        this.isLoading &&
+        index === this.messages.length - 1
+      ) {
+        return this.t('thinking')
+      }
+
+      return message.content
+    },
+
+    renderMessageHtml(message, index) {
+      return renderLinkedHtml(this.getMessageText(message, index))
+    },
+
+    t(key) {
+      const strings = {
+        toolbarTitle: { zh: 'AI 问答助手', en: 'AI Chat Assistant' },
+        newChat: { zh: '新对话', en: 'New Chat' },
+        welcomeTitle: { zh: '地月空间 AI 问答助手', en: 'Cislunar Space AI Assistant' },
+        welcomeDesc: {
+          zh: '问答助手会根据你的问题，结合本站内容和相关知识进行回答。你可以尝试以下问题：',
+          en: 'This is a simplified stable chat page with only the core streaming Q&A flow.'
+        },
+        inputPlaceholder: { zh: '输入你的问题...', en: 'Type your question...' },
+        send: { zh: '发送', en: 'Send' },
+        thinking: { zh: '正在思考...', en: 'Thinking...' },
+        configError: {
+          zh: 'AI 配置加载失败，请检查 /ai-chat-config.json。',
+          en: 'AI configuration failed to load. Please check /ai-chat-config.json.'
+        },
+        emptyReply: {
+          zh: '抱歉，未获取到有效回复。',
+          en: 'Sorry, no valid response was received.'
+        },
+        networkError: {
+          zh: '请求失败，请检查网络或服务器代理配置。',
+          en: 'Request failed. Please check the network or server proxy configuration.'
+        }
+      }
+
+      const item = strings[key]
+      if (!item) return key
+      return this.isEn ? item.en : item.zh
+    },
+
+    updateSuggestedQuestions() {
+      this.suggestedQuestions = this.isEn
         ? [
             'What is cislunar space?',
             'What is the CR3BP model?',
             'What are the characteristics of NRHO orbits?',
-            'What are the uses of Lagrange points?'
+            'What are Lagrange points used for?'
           ]
         : [
             '什么是地月空间？',
@@ -390,953 +277,187 @@ export default {
           ]
     },
 
-    clearInitializationTimers() {
-      if (this.historyLoadTimer) {
-        clearTimeout(this.historyLoadTimer)
-        this.historyLoadTimer = null
-      }
-
-      if (this.sessionLoadTimer) {
-        clearTimeout(this.sessionLoadTimer)
-        this.sessionLoadTimer = null
-      }
-    },
-
-    scheduleInitialSessionLoad() {
-      this.clearInitializationTimers()
-
-      this.historyLoadTimer = setTimeout(() => {
-        this.historyLoadTimer = null
-        this.loadHistoryList()
-
-        this.sessionLoadTimer = setTimeout(() => {
-          this.sessionLoadTimer = null
-
-          if (this.currentSessionId && this.messages.length > 0) {
-            return
-          }
-
-          if (this.historyList.length > 0) {
-            this.loadSession(this.historyList[0].id)
-          } else if (!this.currentSessionId) {
-            this.createSession()
-          }
-        }, 100)
-      }, 100)
-    },
-
-    abortActiveRequest() {
-      if (this.abortController) {
-        this.abortController.abort()
-        this.abortController = null
-      }
-
-      this.isLoading = false
-    },
-
-    handlePageHide() {
-      this.abortActiveRequest()
-      this.flushPendingSessionSave()
-      this.clearPendingRenderWork()
-      this.clearInitializationTimers()
-    },
-
-    async handlePageShow(event) {
-      if (!event || !event.persisted) return
-
-      this.abortActiveRequest()
-      this.clearPendingRenderWork()
-
-      if (!this.config) {
-        await this.loadConfig()
-      }
-
-      if (!this.currentSessionId) {
-        this.scheduleInitialSessionLoad()
-        return
-      }
-
-      this.renderedContent = this.messages.map((msg) => this.renderMarkdownSync(msg.content))
-      this.scrollToBottom('auto')
-    },
-
-    // --- i18n helper ---
-    t(key) {
-      var strings = {
-        toolbarTitle: { zh: 'AI 问答助手', en: 'AI Chat Assistant' },
-        newChat: { zh: '新对话', en: 'New Chat' },
-        history: { zh: '历史记录', en: 'History' },
-        historyTitle: { zh: '历史对话', en: 'Chat History' },
-        noHistory: { zh: '暂无历史记录', en: 'No history yet' },
-        messages: { zh: '条消息', en: 'messages' },
-        delete: { zh: '删除', en: 'Delete' },
-        clearAll: { zh: '清空所有记录', en: 'Clear All' },
-        welcomeTitle: { zh: '地月空间 AI 问答助手', en: 'Cislunar Space AI Assistant' },
-        welcomeDesc: {
-          zh: '你好！我是地月空间入门指南的 AI 助手，可以回答关于地月空间、轨道动力学、航天器导航等方面的问题。',
-          en: 'Hello! I am the AI assistant for the Cislunar Space Beginner\'s Guide. I can answer questions about cislunar space, orbital dynamics, spacecraft navigation, and more.'
-        },
-        inputPlaceholder: { zh: '输入你的问题...', en: 'Type your question...' }
-      }
-      var item = strings[key]
-      if (!item) return key
-      return this.isEn ? item.en : item.zh
-    },
-
-    // --- Session / History ---
-    createSession() {
-      this.currentSessionId = 'chat_' + Date.now()
-      this.messages = []
-      this.renderedContent = []
-    },
-
-    buildSessionSnapshot() {
-      if (!this.currentSessionId || this.messages.length === 0) return null
-
-      var firstUserMsg = this.messages.find(function(m) { return m.role === 'user' })
-      var title = firstUserMsg ? firstUserMsg.content.slice(0, 30) : (this.isEn ? 'New Chat' : '新对话')
-
-      return {
-        id: this.currentSessionId,
-        title: title,
-        messages: this.messages,
-        time: Date.now(),
-        count: this.messages.length
-      }
-    },
-
-    saveCurrentSession(refreshHistory) {
-      var session = this.buildSessionSnapshot()
-      if (!session) return
-
-      try {
-        localStorage.setItem(this.currentSessionId, JSON.stringify(session))
-        this.upsertHistoryItem(session, refreshHistory !== false)
-      } catch (e) { /* localStorage full or unavailable */ }
-    },
-
-    scheduleSessionSave(refreshHistory) {
-      this.pendingHistoryRefresh = this.pendingHistoryRefresh || !!refreshHistory
-
-      if (this.saveSessionTimer) {
-        clearTimeout(this.saveSessionTimer)
-      }
-
-      this.saveSessionTimer = setTimeout(() => {
-        this.flushPendingSessionSave()
-      }, 200)
-    },
-
-    flushPendingSessionSave() {
-      if (this.saveSessionTimer) {
-        clearTimeout(this.saveSessionTimer)
-        this.saveSessionTimer = null
-      }
-
-      var refreshHistory = this.pendingHistoryRefresh
-      this.pendingHistoryRefresh = false
-      this.saveCurrentSession(refreshHistory)
-    },
-
-    readHistoryIndex() {
-      try {
-        var raw = localStorage.getItem(HISTORY_INDEX_KEY)
-        if (!raw) return null
-
-        var parsed = JSON.parse(raw)
-        return Array.isArray(parsed) ? parsed : null
-      } catch (e) {
-        try {
-          localStorage.removeItem(HISTORY_INDEX_KEY)
-        } catch (err) { /* ignore */ }
-        return null
-      }
-    },
-
-    writeHistoryIndex(list) {
-      try {
-        localStorage.setItem(HISTORY_INDEX_KEY, JSON.stringify(list.slice(0, HISTORY_MAX_SESSIONS)))
-      } catch (e) { /* ignore */ }
-    },
-
-    upsertHistoryItem(session, updateVisibleList) {
-      var nextItem = {
-        id: session.id,
-        title: session.title,
-        time: session.time,
-        count: session.count
-      }
-
-      var currentList = this.readHistoryIndex() || []
-      var nextList = currentList.filter(function(item) { return item.id !== nextItem.id })
-      nextList.unshift(nextItem)
-      nextList.sort(function(a, b) { return b.time - a.time })
-      nextList = nextList.slice(0, HISTORY_MAX_SESSIONS)
-
-      this.writeHistoryIndex(nextList)
-
-      if (updateVisibleList) {
-        this.historyList = nextList.slice(0, HISTORY_LIST_LIMIT)
-      }
-    },
-
-    loadHistoryList() {
-      var indexedList = this.readHistoryIndex()
-      if (indexedList) {
-        this.historyList = indexedList.slice(0, HISTORY_LIST_LIMIT)
-        return
-      }
-
-      var list = []
-      try {
-        for (var i = 0; i < localStorage.length; i++) {
-          var key = localStorage.key(i)
-
-          if (key && key.indexOf('chat_') === 0) {
-            var raw = localStorage.getItem(key)
-            if (raw) {
-              try {
-                var parsed = JSON.parse(raw)
-                list.push({ 
-                  id: parsed.id, 
-                  title: parsed.title, 
-                  time: parsed.time, 
-                  count: parsed.count 
-                })
-              } catch (e) {
-                // 解析失败，删除损坏的数据
-                localStorage.removeItem(key)
-              }
-            }
-          }
-        }
-      } catch (e) { /* ignore */ }
-      
-      list.sort(function(a, b) { return b.time - a.time })
-
-      list = list.slice(0, HISTORY_MAX_SESSIONS)
-      this.writeHistoryIndex(list)
-      this.historyList = list.slice(0, HISTORY_LIST_LIMIT)
-    },
-    
-    // 清理旧历史记录
-    cleanupOldHistory() {
-      try {
-        const now = Date.now()
-        let sessions = this.readHistoryIndex()
-
-        if (!sessions) {
-          sessions = []
-          for (let i = 0; i < localStorage.length; i++) {
-            const key = localStorage.key(i)
-            if (key && key.indexOf('chat_') === 0) {
-              const raw = localStorage.getItem(key)
-              if (raw) {
-                try {
-                  const session = JSON.parse(raw)
-                  sessions.push({
-                    id: session.id,
-                    title: session.title,
-                    time: session.time,
-                    count: session.count
-                  })
-                } catch (e) {
-                  localStorage.removeItem(key)
-                }
-              }
-            }
-          }
-        }
-
-        sessions.sort((a, b) => b.time - a.time)
-
-        const retained = []
-        sessions.forEach((session, index) => {
-          if (!session || !session.id) return
-
-          if (now - session.time > HISTORY_MAX_AGE || index >= HISTORY_MAX_SESSIONS) {
-            localStorage.removeItem(session.id)
-            return
-          }
-
-          retained.push(session)
-        })
-
-        this.writeHistoryIndex(retained)
-      } catch (e) { 
-        console.warn('Failed to cleanup old history:', e)
-      }
-    },
-
-    loadSession(id) {
-      // Abort any ongoing request
-      if (this.abortController) {
-        this.abortController.abort()
-        this.abortController = null
-      }
-      this.flushPendingSessionSave()
-      this.clearPendingRenderWork()
-      this.isLoading = false
-      try {
-        var raw = localStorage.getItem(id)
-        if (raw) {
-          var session = JSON.parse(raw)
-          this.currentSessionId = session.id
-          this.messages = session.messages || []
-          this.renderedContent = this.messages.map((msg) => this.renderMarkdownSync(msg.content))
-          this.showHistory = false
-          this.scrollToBottom()
-        }
-      } catch (e) { /* ignore */ }
-    },
-
-    deleteSession(id) {
-      try { localStorage.removeItem(id) } catch (e) { /* ignore */ }
-      var nextHistory = (this.readHistoryIndex() || []).filter(function(item) { return item.id !== id })
-      this.writeHistoryIndex(nextHistory)
-      this.historyList = nextHistory.slice(0, HISTORY_LIST_LIMIT)
-      if (this.currentSessionId === id) {
-        this.createSession()
-      }
-    },
-
-    clearAllHistory() {
-      try {
-        var indexedList = this.readHistoryIndex() || []
-
-        if (indexedList.length > 0) {
-          for (var i = 0; i < indexedList.length; i++) {
-            localStorage.removeItem(indexedList[i].id)
-          }
-        } else {
-          for (var j = localStorage.length - 1; j >= 0; j--) {
-            var key = localStorage.key(j)
-            if (key && key.indexOf('chat_') === 0) localStorage.removeItem(key)
-          }
-        }
-
-        localStorage.removeItem(HISTORY_INDEX_KEY)
-      } catch (e) { /* ignore */ }
-      this.createSession()
-      this.historyList = []
-    },
-
-    startNewChat() {
-      // Abort any ongoing streaming request
-      if (this.abortController) {
-        this.abortController.abort()
-        this.abortController = null
-      }
-      this.saveCurrentSession(true)
-      this.flushPendingSessionSave()
-      this.clearPendingRenderWork()
-      this.isLoading = false
-      this.createSession()
-      this.showHistory = false
-      this.scrollToBottom()
-    },
-
-    formatTime(ts) {
-      if (!ts) return ''
-      var d = new Date(ts)
-      var mm = d.getMonth() + 1
-      var dd = d.getDate()
-      var hh = d.getHours()
-      var mi = d.getMinutes()
-      return mm + '/' + dd + ' ' + (hh < 10 ? '0' : '') + hh + ':' + (mi < 10 ? '0' : '') + mi
-    },
-
-    // --- Config ---
     async loadConfig() {
-      // 检查内存缓存
-      if (window.__aiChatConfigCache) {
-        this.config = sanitizeClientConfig(window.__aiChatConfigCache)
-        this.config.systemPrompt = this.getSystemPrompt()
-        return
-      }
-      
-      // 检查sessionStorage缓存（页面会话期间有效）
       try {
-        const cached = sessionStorage.getItem('ai_chat_config')
-        if (cached) {
-          const config = JSON.parse(cached)
-          if (Date.now() - (config._timestamp || 0) < 5 * 60 * 1000) { // 5分钟缓存
-            this.config = sanitizeClientConfig(config)
-            this.config.systemPrompt = this.getSystemPrompt()
-            window.__aiChatConfigCache = config
-            return
-          }
+        const url = this.$withBase ? this.$withBase('/ai-chat-config.json') : '/ai-chat-config.json'
+        const response = await fetch(url, { cache: 'no-store' })
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`)
         }
-      } catch (e) { /* ignore */ }
-      
-      try {
-        const url = this.$withBase
-          ? this.$withBase('/ai-chat-config.json')
-          : '/ai-chat-config.json'
-        
-        const res = await fetch(url)
-        if (!res.ok) {
-          throw new Error(`HTTP ${res.status}`)
-        }
-        
-        const config = sanitizeClientConfig(await res.json())
-        
-        // 缓存配置
-        this.config = config
-        this.config.systemPrompt = this.getSystemPrompt()
-        
-        // 设置内存缓存
-        window.__aiChatConfigCache = config
-        
-        // 设置sessionStorage缓存（带时间戳）
-        try {
-          config._timestamp = Date.now()
-          sessionStorage.setItem('ai_chat_config', JSON.stringify(config))
-        } catch (e) { /* ignore */ }
-        
-      } catch (e) {
-        console.error('Failed to load AI chat config:', e)
-        this.showConfigError(`配置文件加载异常: ${e.message}`)
-      }
-    },
 
-    showConfigError(message) {
-      // 在聊天界面显示配置错误
-      this.messages.push({
-        role: 'assistant',
-        content: this.isEn
-          ? `⚠️ ${message}. Please contact the administrator to check the \`/ai-chat-config.json\` file.`
-          : `⚠️ ${message}，请联系管理员检查 \`/ai-chat-config.json\` 配置文件。`
-      })
+        this.config = sanitizeClientConfig(await response.json())
+        this.config.systemPrompt = this.getSystemPrompt()
+      } catch (error) {
+        this.config = null
+        this.messages = [{ role: 'assistant', content: `${this.t('configError')} ${error.message}` }]
+      }
     },
 
     getSystemPrompt() {
       if (this.isEn) {
-        return `You are the AI assistant for the "Cislunar Space Beginner's Guide" website (https://cislunarspace.cn/). The main content of the website includes:
+        const siteIndex = enSidebarEntries
+          .map((entry) => `- ${entry.title}: ${entry.path}`)
+          .join('\n')
 
-## Website Structure
-- Homepage: https://cislunarspace.cn/
-- English homepage: https://cislunarspace.cn/en/
-- What is Cislunar Space: https://cislunarspace.cn/en/what-is-cislunarspace/
-    - Cislunar Space Environment: https://cislunarspace.cn/en/what-is-cislunarspace/environment/
-- Cislunar Glossary: https://cislunarspace.cn/en/glossary/
-    - CR3BP (Circular Restricted Three-Body Problem): https://cislunarspace.cn/en/glossary/cr3bp/
-    - X-ray Pulsar Navigation: https://cislunarspace.cn/en/glossary/xray-pulsar-navigation/
-- Cislunar Orbits: https://cislunarspace.cn/en/cislunar-orbits/
-- Resources & Tools: https://cislunarspace.cn/en/resources-tools/
-    - Datasets: https://cislunarspace.cn/en/resources-tools/datasets/
-- Research Frontiers: https://cislunarspace.cn/en/research-frontiers/
-    - Research Directions: https://cislunarspace.cn/en/research-frontiers/directions/
-    - Research Institutions: https://cislunarspace.cn/en/research-frontiers/institutions/
-    - Journals & Conferences: https://cislunarspace.cn/en/research-frontiers/journals-conferences/
-    - Major Projects: https://cislunarspace.cn/en/research-frontiers/major-projects/
-
-## Your Responsibilities
-Based on the website content and your own knowledge, answer user questions about cislunar space, including but not limited to:
-- Definition, scope, and environmental characteristics of cislunar space
-- Orbital dynamics fundamentals (CR3BP, Lagrange points, NRHO, Halo orbits, etc.)
-- Spacecraft navigation and guidance (XNAV, pulsar navigation, etc.)
-- Lunar exploration missions and the Artemis program
-- Related research institutions, journals/conferences, and major engineering projects
-
-## Answer Requirements
-1. Use English to answer, with concise, accurate, and professional language
-2. Include relevant website page links in your answers for users to easily navigate to detailed content
-3. If a question goes beyond the website content, you can answer based on your knowledge, but indicate that this is not from the website
-4. For mathematical formulas, use LaTeX format (wrap inline formulas with $, wrap block-level formulas with $$)
-5. Make good use of Markdown formatting (headings, lists, tables, code blocks, etc.) to make answers well-structured
-6. Only cite pages that actually exist on this website. Prefer trailing-slash canonical URLs such as /en/glossary/cr3bp/ instead of .html links
-7. If the matching page does not exist, do not fabricate a URL. State that the answer is based on general knowledge and link only to the nearest existing section page when helpful`
-      } else {
-        return `你是“地月空间入门指南”网站（https://cislunarspace.cn/）的 AI 问答助手。该网站的主要内容包括：
-
-## 网站结构
-- 首页：https://cislunarspace.cn/
-- 什么是地月空间：https://cislunarspace.cn/what-is-cislunarspace/
-  - 地月空间环境：https://cislunarspace.cn/what-is-cislunarspace/environment/
-- 地月空间术语词典：https://cislunarspace.cn/glossary/
-  - CR3BP（圆型限制性三体问题）：https://cislunarspace.cn/glossary/cr3bp/
-  - X射线脉冲星导航：https://cislunarspace.cn/glossary/xray-pulsar-navigation/
-- 地月轨道：https://cislunarspace.cn/cislunar-orbits/
-- 资源与工具：https://cislunarspace.cn/resources-tools/
-  - 数据集：https://cislunarspace.cn/resources-tools/datasets/
-- 研究前沿：https://cislunarspace.cn/research-frontiers/
-  - 研究方向：https://cislunarspace.cn/research-frontiers/directions/
-  - 研究机构总览：https://cislunarspace.cn/research-frontiers/institutions/
-    - 国防科技大学：https://cislunarspace.cn/research-frontiers/institutions/nudt/
-    - 西北工业大学：https://cislunarspace.cn/research-frontiers/institutions/npu/
-    - 东南大学：https://cislunarspace.cn/research-frontiers/institutions/seu/
-    - 深空自主导航与控制工信部重点实验室：https://cislunarspace.cn/research-frontiers/institutions/dfhscl/
-  - 期刊与会议：https://cislunarspace.cn/research-frontiers/journals-conferences/
-  - 重大工程项目：https://cislunarspace.cn/research-frontiers/major-projects/
-
-## 你的职责
-基于网站内容和你自身知识，为用户解答关于地月空间（cislunar space）的相关问题，包括但不限于：
-- 地月空间的定义、范围与环境特征
-- 轨道动力学基础（CR3BP、拉格朗日点、NRHO、Halo 轨道等）
-- 航天器导航与制导（XNAV、脉冲星导航等）
-- 月球探测任务与阿耳忒弥斯计划
-- 相关研究机构、期刊会议和重大工程项目
-
-## 回答要求
-1. 使用中文回答，语言简洁、准确、专业
-2. 在回答中引用网站相关页面链接，方便用户跳转查看详细内容
-3. 如果问题超出网站内容范围，可以基于你的知识回答，但要说明这不是网站上的内容
-4. 对于数学公式，使用 LaTeX 格式（用 $ 包裹行内公式，用 $$ 包裹块级公式）
-5. 善用 Markdown 格式（标题、列表、表格、代码块等）使回答结构清晰
-6. 只引用本站真实存在的页面，优先使用带结尾斜杠的规范链接，不要输出 .html 链接
-7. 如果本站没有对应页面，不要编造网址；应明确说明该部分来自通用知识，并在合适时仅链接到最接近的现有栏目页`
-      }
-    },
-
-    // 异步渲染Markdown，带防抖
-    async renderMarkdownAsync(text) {
-      if (!text) return ''
-      
-      // 防抖：如果连续调用，只执行最后一次
-      if (this.renderTimeout) {
-        clearTimeout(this.renderTimeout)
-      }
-      
-      return new Promise((resolve) => {
-        this.renderTimeout = setTimeout(() => {
-          try {
-            const html = this.renderMarkdownSync(text)
-            resolve(html)
-          } catch (e) {
-            resolve(text.replace(/\n/g, '<br>'))
-          }
-        }, 30) // 30ms防抖延迟
-      })
-    },
-    
-    // 同步渲染Markdown（用于初始渲染）
-    renderMarkdownSync(text) {
-      if (!text) return ''
-      try {
-        // Protect LaTeX formulas from marked by replacing them with placeholders
-        const placeholders = []
-        let processed = text
-
-        // Block formulas: $$$$ ... $$$$ (quad dollar)
-        processed = processed.replace(/\$\$\$\$([\s\S]*?)\$\$\$\$/g, (_, tex) => {
-          const id = placeholders.length
-          try {
-            placeholders.push(katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }))
-          } catch (e) {
-            placeholders.push(`<span class="katex-error">${tex}</span>`)
-          }
-          return `%%LATEX_${id}%%`
-        })
-
-        // Block formulas: $$ ... $$
-        processed = processed.replace(/\$\$([\s\S]*?)\$\$/g, (_, tex) => {
-          const id = placeholders.length
-          try {
-            placeholders.push(katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }))
-          } catch (e) {
-            placeholders.push(`<span class="katex-error">${tex}</span>`)
-          }
-          return `%%LATEX_${id}%%`
-        })
-
-        // Block formulas: \[ ... \]
-        processed = processed.replace(/\\\[([\s\S]*?)\\\]/g, (_, tex) => {
-          const id = placeholders.length
-          try {
-            placeholders.push(katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }))
-          } catch (e) {
-            placeholders.push(`<span class="katex-error">${tex}</span>`)
-          }
-          return `%%LATEX_${id}%%`
-        })
-
-        // Inline formulas: \( ... \)
-        processed = processed.replace(/\\\(([\s\S]*?)\\\)/g, (_, tex) => {
-          const id = placeholders.length
-          try {
-            placeholders.push(katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false }))
-          } catch (e) {
-            placeholders.push(`<span class="katex-error">${tex}</span>`)
-          }
-          return `%%LATEX_${id}%%`
-        })
-
-        // Inline formulas: $ ... $ (single dollar, not preceded/followed by space+dollar)
-        processed = processed.replace(/(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)/g, (_, tex) => {
-          const id = placeholders.length
-          try {
-            placeholders.push(katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false }))
-          } catch (e) {
-            placeholders.push(`<span class="katex-error">${tex}</span>`)
-          }
-          return `%%LATEX_${id}%%`
-        })
-
-        // Run markdown renderer on the processed text
-        let html = renderMd(processed)
-
-        // Restore LaTeX placeholders
-        html = html.replace(/%%LATEX_(\d+)%%/g, (_, id) => placeholders[parseInt(id)])
-
-        return html
-      } catch (e) {
-        return text.replace(/\n/g, '<br>')
-      }
-    },
-    
-    // 兼容旧方法
-    renderMarkdown(text) {
-      return this.renderMarkdownSync(text)
-    },
-
-    getRenderedContent(index, content) {
-      if (this.renderedContent[index] !== undefined) {
-        return this.renderedContent[index]
+        return `You are the AI assistant for the Cislunar Space Beginner's Guide website. Answer in English, be concise and professional. When relevant, cite real website pages using clickable Markdown links such as [CR3BP](/en/glossary/cr3bp/). Only use pages from the site index below. If information is not from the site, say so clearly.\n\nSite index:\n${siteIndex}`
       }
 
-      const html = this.renderMarkdownSync(content)
-      this.$set(this.renderedContent, index, html)
-      return html
+      const siteIndex = zhSidebarEntries
+        .map((entry) => `- ${entry.title}: ${entry.path}`)
+        .join('\n')
+
+      return `你是地月空间入门指南网站的 AI 问答助手。请使用中文回答，保持简洁、准确、专业。引用本站内容时，请优先输出可点击的 Markdown 超链接，例如 [地月空间环境](/what-is-cislunarspace/environment/)。只能使用下面站点索引中真实存在的页面；如果内容不是来自本站，请明确说明。\n\n站点索引：\n${siteIndex}`
     },
 
-    setRenderedContentAt(index, content) {
-      this.$set(this.renderedContent, index, this.renderMarkdownSync(content || ''))
-    },
-
-    clearPendingRenderWork() {
-      if (this.streamRenderTimer) {
-        clearTimeout(this.streamRenderTimer)
-        this.streamRenderTimer = null
-      }
-
-      this.pendingStreamRender = null
-    },
-
-    scheduleStreamRender(index, content) {
-      this.pendingStreamRender = { index: index, content: content }
-
-      if (this.streamRenderTimer) return
-
-      this.streamRenderTimer = setTimeout(() => {
-        var pending = this.pendingStreamRender
-        this.pendingStreamRender = null
-        this.streamRenderTimer = null
-
-        if (!pending || !this.messages[pending.index]) return
-
-        this.setRenderedContentAt(pending.index, pending.content)
-        this.scrollToBottom('auto')
-
-        if (this.pendingStreamRender) {
-          this.scheduleStreamRender(this.pendingStreamRender.index, this.pendingStreamRender.content)
-        }
-      }, STREAM_RENDER_INTERVAL)
-    },
-
-    handleEnter(e) {
-      if (!e.shiftKey) {
-        e.preventDefault()
-        this.sendMessage()
-      }
+    startNewChat() {
+      this.abortRequest()
+      this.messages = []
+      this.userInput = ''
     },
 
     sendSuggested(question) {
+      if (this.isLoading) return
       this.userInput = question
       this.sendMessage()
     },
 
+    abortRequest() {
+      if (this.abortController) {
+        this.abortController.abort()
+        this.abortController = null
+      }
+      this.isLoading = false
+    },
+
     async sendMessage() {
       const text = this.userInput.trim()
-      if (!text || this.isLoading) return
-      if (!this.config) {
-        this.messages.push({
-          role: 'assistant',
-          content: this.isEn
-            ? '⚠️ AI configuration failed to load. Please contact the administrator to check the `/ai-chat-config.json` file.'
-            : '⚠️ AI 配置加载失败，请联系管理员检查 `/ai-chat-config.json` 配置文件。'
-        })
-        return
-      }
+      if (!text || this.isLoading || !this.config) return
 
       this.messages.push({ role: 'user', content: text })
-      this.setRenderedContentAt(this.messages.length - 1, text)
-      this.scheduleSessionSave(true)
       this.userInput = ''
       this.isLoading = true
       this.scrollToBottom()
 
-      // Create abort controller for this request
+      const assistantMessage = { role: 'assistant', content: '' }
+      this.messages.push(assistantMessage)
+
       this.abortController = new AbortController()
-      const signal = this.abortController.signal
-      const sessionId = this.currentSessionId
 
       try {
-        const apiMessages = []
+        const maxHistory = Number(this.config.maxHistoryTurns || 10)
+        const historyMessages = this.messages
+          .slice(0, -1)
+          .slice(-maxHistory * 2)
+          .map((message) => ({ role: message.role, content: message.content }))
 
-        // System prompt from config
-        if (this.config.systemPrompt) {
-          apiMessages.push({ role: 'system', content: this.config.systemPrompt })
-        }
-
-        // Conversation history (last N turns to stay within context limits)
-        const maxHistory = this.config.maxHistoryTurns || 10
-        const recentMessages = this.messages.slice(-maxHistory * 2)
-        for (const msg of recentMessages) {
-          apiMessages.push({ role: msg.role, content: msg.content })
-        }
-
-        const requestBody = {
+        const payload = {
           model: this.config.model,
-          messages: apiMessages,
-          temperature: this.config.temperature ?? 0.7,
-          stream: !!this.config.stream
-        }
-
-        const headers = {
-          'Content-Type': 'application/json'
+          messages: [
+            { role: 'system', content: this.config.systemPrompt },
+            ...historyMessages
+          ],
+          temperature: this.config.temperature == null ? 0.7 : this.config.temperature,
+          stream: true
         }
 
         const response = await fetch(this.config.apiEndpoint, {
           method: 'POST',
-          headers,
-          body: JSON.stringify(requestBody),
-          signal
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload),
+          signal: this.abortController.signal
         })
 
         if (!response.ok) {
-          throw new Error(this.isEn ? `API request failed: ${response.status} ${response.statusText}` : `API 请求失败: ${response.status} ${response.statusText}`)
+          throw new Error(`HTTP ${response.status} ${response.statusText}`)
         }
 
-        if (this.config.stream && response.body) {
-          // Streaming response with improved error handling
-          console.log('[Stream] Starting stream processing...')
-          this.messages.push({ role: 'assistant', content: '' })
-          const assistantIndex = this.messages.length - 1
-          this.$set(this.renderedContent, assistantIndex, '')
-          const reader = response.body.getReader()
-          const decoder = new TextDecoder('utf-8')
-          let buffer = ''
-          let accumulatedContent = ''
-          let chunkCount = 0
-          let lastUpdateTime = Date.now()
-          const STREAM_TIMEOUT = 30000 // 30 seconds timeout
-          let timeoutCheck = null
-
-          try {
-            // Setup timeout check
-            timeoutCheck = setInterval(() => {
-              if (Date.now() - lastUpdateTime > STREAM_TIMEOUT && this.currentSessionId === sessionId) {
-                console.warn('Stream timeout detected, aborting...')
-                reader.cancel()
-                clearInterval(timeoutCheck)
-              }
-            }, 5000)
-
-            while (true) {
-              const { done, value } = await reader.read()
-              
-              if (done) {
-                console.log('Stream completed successfully')
-                break
-              }
-              
-              // Stop writing if session has changed
-              if (this.currentSessionId !== sessionId) {
-                console.log('Session changed, aborting stream')
-                reader.cancel()
-                break
-              }
-              
-              lastUpdateTime = Date.now()
-              buffer += decoder.decode(value, { stream: true })
-              const lines = buffer.split('\n')
-              buffer = lines.pop() || ''
-
-              for (const line of lines) {
-                const trimmed = line.trim()
-                if (!trimmed) continue
-                
-                // Handle SSE format
-                if (trimmed.startsWith('data:')) {
-                  const data = trimmed.slice(5).trim()
-                  if (data === '[DONE]') {
-                    console.log('Received [DONE] signal')
-                    continue
-                  }
-                  
-                  try {
-                    const parsed = JSON.parse(data)
-                    
-                    // Check for API errors
-                    if (parsed.error) {
-                      console.error('API error in stream:', parsed.error)
-                      throw new Error(parsed.error.message || 'API error')
-                    }
-                    
-                    const delta = parsed.choices?.[0]?.delta?.content
-                    if (delta) {
-                      accumulatedContent += delta
-                      chunkCount++
-                      
-                      // Debug log
-                      if (chunkCount <= 5 || chunkCount % 10 === 0) {
-                        console.log(`[Stream] Chunk ${chunkCount}, content length: ${accumulatedContent.length}`)
-                      }
-                      
-                      if (this.messages[assistantIndex]) {
-                        this.messages[assistantIndex].content = accumulatedContent
-                        this.scheduleStreamRender(assistantIndex, accumulatedContent)
-                      }
-                    }
-                  } catch (e) {
-                    console.warn('Failed to parse SSE chunk:', e, 'Data:', data.slice(0, 100))
-                  }
-                }
-              }
-            }
-            
-            // Process remaining buffer
-            if (buffer.trim()) {
-              const trimmed = buffer.trim()
-              if (trimmed.startsWith('data:')) {
-                const data = trimmed.slice(5).trim()
-                if (data !== '[DONE]') {
-                  try {
-                    const parsed = JSON.parse(data)
-                    const delta = parsed.choices?.[0]?.delta?.content
-                    if (delta) {
-                      accumulatedContent += delta
-                      if (this.messages[assistantIndex]) {
-                        this.messages[assistantIndex].content = accumulatedContent
-                      }
-                    }
-                  } catch (e) {
-                    console.warn('Failed to parse final buffer:', e)
-                  }
-                }
-              }
-            }
-            
-            // Validate content received
-            if (accumulatedContent.length === 0) {
-              console.warn('No content received from stream')
-              if (this.messages[assistantIndex]) {
-                this.messages[assistantIndex].content = this.isEn 
-                  ? 'Sorry, no valid response received.' 
-                  : '抱歉，未获取到有效回复。'
-              }
-            }
-
-            if (this.messages[assistantIndex]) {
-              this.setRenderedContentAt(assistantIndex, this.messages[assistantIndex].content)
-            }
-
-            this.scheduleSessionSave(true)
-            
-            console.log(`[Stream] Completed: ${chunkCount} chunks, ${accumulatedContent.length} characters`)
-            
-          } catch (streamError) {
-            console.error('Stream processing error:', streamError)
-            if (this.currentSessionId === sessionId) {
-              // Keep received content if any
-              if (accumulatedContent.length > 0) {
-                if (this.messages[assistantIndex]) {
-                  this.messages[assistantIndex].content = accumulatedContent + '\n\n[内容可能不完整，请重试]'
-                  this.setRenderedContentAt(assistantIndex, this.messages[assistantIndex].content)
-                }
-              } else {
-                if (this.messages[assistantIndex]) {
-                  this.messages[assistantIndex].content = this.isEn
-                    ? `⚠️ Stream error: ${streamError.message}`
-                    : `⚠️ 流式响应错误：${streamError.message}`
-                  this.setRenderedContentAt(assistantIndex, this.messages[assistantIndex].content)
-                }
-              }
-
-              this.scheduleSessionSave(true)
-            }
-            throw streamError
-          } finally {
-            if (timeoutCheck) {
-              clearInterval(timeoutCheck)
-            }
-
-            try {
-              reader.cancel()
-            } catch (e) {
-              // Ignore cancel errors
-            }
-          }
+        if (response.body && response.body.getReader) {
+          await this.readStream(response.body.getReader(), assistantMessage)
         } else {
-          // Non-streaming response
           const data = await response.json()
-          if (this.currentSessionId !== sessionId) return
-          
-          // Check for API errors
-          if (data.error) {
-            throw new Error(data.error.message || 'API error')
-          }
-          
-          const content = data.choices?.[0]?.message?.content || (this.isEn ? 'Sorry, no valid response received.' : '抱歉，未获取到有效回复。')
-          this.messages.push({ role: 'assistant', content })
-          this.setRenderedContentAt(this.messages.length - 1, content)
-          this.scheduleSessionSave(true)
+          assistantMessage.content = data.choices?.[0]?.message?.content || this.t('emptyReply')
+        }
+
+        if (!assistantMessage.content.trim()) {
+          assistantMessage.content = this.t('emptyReply')
         }
       } catch (error) {
-        console.error('API request error:', error)
-        
         if (error.name === 'AbortError') {
-          console.log('Request was aborted')
+          this.messages.pop()
           return
         }
-        
-        if (this.currentSessionId !== sessionId) {
-          console.log('Session changed, ignoring error')
-          return
-        }
-        
-        // Detailed error messages
-        let errorMessage = ''
-        if (error.message.includes('Failed to fetch')) {
-          errorMessage = this.isEn
-            ? '⚠️ Cannot connect to AI service, please check your network connection.'
-            : '⚠️ 无法连接到 AI 服务，请检查网络连接或联系管理员。'
-        } else if (error.message.includes('timeout')) {
-          errorMessage = this.isEn
-            ? '⚠️ Request timeout, please try again.'
-            : '⚠️ 请求超时，请重试。'
-        } else {
-          errorMessage = this.isEn
-            ? `⚠️ Request error: ${error.message}`
-            : `⚠️ 请求出错：${error.message}`
-        }
-        
-        this.messages.push({
-          role: 'assistant',
-          content: errorMessage
-        })
-        this.setRenderedContentAt(this.messages.length - 1, errorMessage)
-        this.scheduleSessionSave(true)
+
+        assistantMessage.content = `${this.t('networkError')} ${error.message}`
       } finally {
-        if (this.currentSessionId === sessionId) {
-          this.isLoading = false
-          this.abortController = null
-          // Ensure final scroll
-          this.scrollToBottom()
+        this.isLoading = false
+        this.abortController = null
+        this.scrollToBottom()
+      }
+    },
+
+    async readStream(reader, assistantMessage) {
+      const decoder = new TextDecoder('utf-8')
+      let buffer = ''
+
+      while (true) {
+        const { done, value } = await reader.read()
+        if (done) break
+
+        buffer += decoder.decode(value, { stream: true })
+        const lines = buffer.split('\n')
+        buffer = lines.pop() || ''
+
+        for (const line of lines) {
+          const trimmed = line.trim()
+          if (!trimmed || !trimmed.startsWith('data:')) continue
+
+          const data = trimmed.slice(5).trim()
+          if (data === '[DONE]') continue
+
+          try {
+            const parsed = JSON.parse(data)
+            const delta = parsed.choices?.[0]?.delta?.content
+            if (delta) {
+              assistantMessage.content += delta
+              this.$forceUpdate()
+              this.scrollToBottom('auto')
+            }
+          } catch (error) {
+          }
         }
+      }
+
+      if (buffer.trim().startsWith('data:')) {
+        const data = buffer.trim().slice(5).trim()
+        if (data && data !== '[DONE]') {
+          try {
+            const parsed = JSON.parse(data)
+            const delta = parsed.choices?.[0]?.delta?.content
+            if (delta) {
+              assistantMessage.content += delta
+            }
+          } catch (error) {
+          }
+        }
+      }
+
+      try {
+        reader.cancel()
+      } catch (error) {
       }
     },
 
     scrollToBottom(behavior) {
       this.$nextTick(() => {
         const container = this.$refs.messagesContainer
-        if (container) {
-          container.scrollTo({
-            top: container.scrollHeight,
-            behavior: behavior || 'smooth'
-          })
-        }
+        if (!container) return
+
+        container.scrollTo({
+          top: container.scrollHeight,
+          behavior: behavior || 'smooth'
+        })
       })
     }
   }
@@ -1348,561 +469,187 @@ Based on the website content and your own knowledge, answer user questions about
   display: flex;
   flex-direction: column;
   height: calc(100vh - 8rem);
-  max-width: 900px;
+  max-width: 880px;
   margin: 0 auto;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   overflow: hidden;
-  background: #fff;
-  position: relative;
+  background: #ffffff;
 }
 
-/* Toolbar */
 .chat-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.6rem 1rem;
-  border-bottom: 1px solid #e2e8f0;
-  background: #fff;
-  flex-shrink: 0;
-}
-
-.toolbar-title {
-  font-weight: 600;
-  font-size: 1rem;
-  color: #2d3748;
-}
-
-.toolbar-actions {
-  display: flex;
-  gap: 0.4rem;
-}
-
-.toolbar-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.35rem 0.7rem;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  background: #fff;
-  color: #4a5568;
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.toolbar-btn:hover {
-  background: #f7fafc;
-  border-color: #3eaf7c;
-  color: #3eaf7c;
-}
-
-/* History panel */
-.history-panel {
-  position: absolute;
-  top: 44px;
-  right: 0;
-  width: 320px;
-  max-height: calc(100% - 44px);
-  background: #fff;
-  border-left: 1px solid #e2e8f0;
-  box-shadow: -4px 0 12px rgba(0,0,0,0.08);
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-.history-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 1rem;
   border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
 }
 
-.history-header h3 {
-  margin: 0;
-  font-size: 0.95rem;
-  color: #2d3748;
-  border-bottom: none;
+.toolbar-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
 }
 
-.history-close-btn {
-  border: none;
-  background: none;
-  font-size: 1.4rem;
+.toolbar-btn,
+.suggested-btn,
+.send-btn {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1f2937;
   cursor: pointer;
-  color: #a0aec0;
-  line-height: 1;
-  padding: 0 0.2rem;
+  transition: background 0.15s ease, border-color 0.15s ease;
 }
 
-.history-close-btn:hover {
-  color: #e53e3e;
+.toolbar-btn,
+.send-btn {
+  padding: 0.55rem 0.9rem;
 }
 
-.history-empty {
-  padding: 2rem 1rem;
-  text-align: center;
-  color: #a0aec0;
-  font-size: 0.9rem;
+.suggested-btn {
+  padding: 0.55rem 0.8rem;
+  text-align: left;
 }
 
-.history-list {
-  flex: 1;
-  overflow-y: auto;
-  padding: 0.5rem 0;
+.toolbar-btn:hover,
+.suggested-btn:hover,
+.send-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
 }
 
-.history-item {
-  padding: 0.6rem 1rem;
-  cursor: pointer;
-  transition: background 0.15s;
-  position: relative;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.history-item:hover {
-  background: #f7fafc;
-}
-
-.history-item-active {
-  background: #f0faf5;
-  border-left: 3px solid #3eaf7c;
-}
-
-.history-item-title {
-  font-size: 0.9rem;
-  color: #2d3748;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-right: 1.5rem;
-}
-
-.history-item-meta {
-  display: flex;
-  gap: 0.5rem;
-  font-size: 0.75rem;
-  color: #a0aec0;
-  margin-top: 0.2rem;
-}
-
-.history-delete-btn {
-  position: absolute;
-  right: 0.6rem;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none;
-  background: none;
-  font-size: 1.2rem;
-  color: #cbd5e0;
-  cursor: pointer;
-  opacity: 0;
-  transition: all 0.15s;
-  padding: 0 0.3rem;
-}
-
-.history-item:hover .history-delete-btn {
-  opacity: 1;
-}
-
-.history-delete-btn:hover {
-  color: #e53e3e;
-}
-
-.history-footer {
-  padding: 0.5rem 1rem;
-  border-top: 1px solid #e2e8f0;
-  text-align: center;
-}
-
-.history-clear-btn {
-  border: none;
-  background: none;
-  color: #e53e3e;
-  font-size: 0.85rem;
-  cursor: pointer;
-  padding: 0.3rem 0.6rem;
-}
-
-.history-clear-btn:hover {
-  text-decoration: underline;
+.toolbar-btn:disabled,
+.suggested-btn:disabled,
+.send-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
 }
 
 .chat-messages {
   flex: 1;
   overflow-y: auto;
-  padding: 1.5rem;
-  scroll-behavior: smooth;
+  padding: 1rem;
+  background: #ffffff;
 }
 
 .chat-welcome {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: #4a5568;
-}
-
-.welcome-logo {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 1rem;
+  padding: 2rem 0;
 }
 
 .chat-welcome h2 {
-  margin-bottom: 0.5rem;
-  color: #2d3748;
+  margin: 0 0 0.75rem;
   border-bottom: none;
 }
 
 .chat-welcome p {
-  color: #718096;
-  margin-bottom: 1.5rem;
+  margin: 0 0 1rem;
+  color: #475569;
 }
 
 .suggested-questions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-.suggested-btn {
-  padding: 0.5rem 1rem;
-  border: 1px solid #cbd5e0;
-  border-radius: 20px;
-  background: #f7fafc;
-  color: #4a5568;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.2s;
-}
-
-.suggested-btn:hover {
-  background: #3eaf7c;
-  color: #fff;
-  border-color: #3eaf7c;
+  display: grid;
+  gap: 0.75rem;
 }
 
 .chat-message {
   display: flex;
   gap: 0.75rem;
-  margin-bottom: 1.25rem;
-  animation: fadeIn 0.3s ease-in;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.user-message {
-  flex-direction: row-reverse;
+  margin-bottom: 1rem;
+  align-items: flex-start;
 }
 
 .message-avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+  flex: 0 0 auto;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1e3a8a;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
-  flex-shrink: 0;
-  background: #f0f0f0;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 .user-message .message-avatar {
-  background: #3eaf7c;
+  background: #dcfce7;
+  color: #166534;
 }
 
 .message-content {
-  max-width: 75%;
-  padding: 0.75rem 1rem;
+  flex: 1;
+  padding: 0.85rem 1rem;
   border-radius: 12px;
+  background: #f8fafc;
+  color: #111827;
   line-height: 1.6;
-  font-size: 0.95rem;
+  white-space: pre-wrap;
   word-break: break-word;
 }
 
 .user-message .message-content {
-  background: #3eaf7c;
-  color: #fff;
-  border-bottom-right-radius: 4px;
+  background: #ecfccb;
 }
 
-.assistant-message .message-content {
-  background: #f7fafc;
-  color: #2d3748;
-  border-bottom-left-radius: 4px;
-  border: 1px solid #e2e8f0;
-}
-
-.message-content >>> h1,
-.message-content >>> h2,
-.message-content >>> h3,
-.message-content >>> h4 {
-  margin: 0.6rem 0 0.3rem;
-  font-weight: 600;
-  line-height: 1.4;
-  border-bottom: none;
-}
-
-.message-content >>> h1 { font-size: 1.3em; }
-.message-content >>> h2 { font-size: 1.15em; }
-.message-content >>> h3 { font-size: 1.05em; }
-
-.message-content >>> p {
-  margin: 0.4rem 0;
-}
-
-.message-content >>> ul,
-.message-content >>> ol {
-  padding-left: 1.5rem;
-  margin: 0.4rem 0;
-}
-
-.message-content >>> li {
-  margin: 0.15rem 0;
-}
-
-.message-content >>> blockquote {
-  margin: 0.5rem 0;
-  padding: 0.3rem 0.8rem;
-  border-left: 4px solid #3eaf7c;
-  background: #f0faf5;
-  color: #4a5568;
-}
-
-.message-content >>> pre {
-  background: #1e1e1e;
-  color: #d4d4d4;
-  padding: 0.85rem 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  margin: 0.5rem 0;
-  font-size: 0.85em;
-  line-height: 1.5;
-}
-
-.message-content >>> pre code {
-  background: none;
-  color: inherit;
-  padding: 0;
-  border-radius: 0;
-  font-size: inherit;
-}
-
-.message-content >>> code {
-  background: #edf2f7;
-  color: #e53e3e;
-  padding: 0.15rem 0.4rem;
-  border-radius: 4px;
-  font-size: 0.85em;
-}
-
-.message-content >>> table {
-  border-collapse: collapse;
-  margin: 0.5rem 0;
-  width: 100%;
-  font-size: 0.9em;
-}
-
-.message-content >>> th,
-.message-content >>> td {
-  border: 1px solid #e2e8f0;
-  padding: 0.4rem 0.6rem;
-  text-align: left;
-}
-
-.message-content >>> th {
-  background: #f7fafc;
-  font-weight: 600;
-}
-
-.message-content >>> a {
-  color: #3eaf7c;
+.message-content ::v-deep a {
+  color: #2563eb;
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
-.message-content >>> hr {
-  border: none;
-  border-top: 1px solid #e2e8f0;
-  margin: 0.5rem 0;
-}
-
-.message-content >>> strong {
-  font-weight: 600;
-}
-
-.user-message .message-content >>> code {
-  background: rgba(255,255,255,0.2);
-  color: #fff;
-}
-
-.user-message .message-content >>> a {
-  color: #fff;
-}
-
-.message-content >>> .katex-display {
-  margin: 0.5rem 0;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.message-content >>> .katex {
-  font-size: 1.05em;
-}
-
-.message-content >>> .katex-error {
-  color: #e53e3e;
-  font-family: monospace;
-  font-size: 0.85em;
+.message-content ::v-deep a:hover {
+  color: #1d4ed8;
 }
 
 .typing-indicator {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  padding: 0.75rem 1rem;
-}
-
-.typing-indicator span {
-  width: 8px;
-  height: 8px;
-  background: #a0aec0;
-  border-radius: 50%;
-  animation: bounce 1.4s infinite ease-in-out both;
-}
-
-.typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
-.typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
-.typing-indicator span:nth-child(3) { animation-delay: 0s; }
-
-@keyframes bounce {
-  0%, 80%, 100% { transform: scale(0); }
-  40% { transform: scale(1); }
+  color: #64748b;
 }
 
 .chat-input-area {
   display: flex;
-  align-items: flex-end;
-  gap: 0.5rem;
+  gap: 0.75rem;
   padding: 1rem;
   border-top: 1px solid #e2e8f0;
-  background: #f7fafc;
+  background: #f8fafc;
 }
 
 .chat-input-area textarea {
   flex: 1;
   resize: none;
-  border: 1px solid #cbd5e0;
+  min-height: 4rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #cbd5e1;
   border-radius: 10px;
-  padding: 0.65rem 1rem;
-  font-size: 0.95rem;
-  font-family: inherit;
+  font: inherit;
   line-height: 1.5;
-  outline: none;
-  transition: border-color 0.2s;
-  max-height: 120px;
-  overflow-y: auto;
 }
 
 .chat-input-area textarea:focus {
-  border-color: #3eaf7c;
-  box-shadow: 0 0 0 2px rgba(62, 175, 124, 0.15);
+  outline: none;
+  border-color: #60a5fa;
 }
 
 .send-btn {
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 50%;
-  background: #3eaf7c;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.2s;
-  flex-shrink: 0;
-}
-
-.send-btn:hover:not(:disabled) {
-  background: #2d9d6e;
-}
-
-.send-btn:disabled {
-  background: #cbd5e0;
-  cursor: not-allowed;
+  align-self: flex-end;
 }
 
 @media (max-width: 768px) {
   .ai-chat-container {
     height: calc(100vh - 6rem);
     border-radius: 0;
-    border: none;
-  }
-  .message-content {
-    max-width: 85%;
-  }
-  .toolbar-btn span {
-    display: none;
-  }
-  .history-panel {
-    width: 100%;
     border-left: none;
+    border-right: none;
   }
-}
 
-/* 性能优化 */
-.chat-messages {
-  will-change: transform;
-  contain: content;
-}
-
-.history-item {
-  contain: layout style paint;
-}
-
-/* 减少不必要的动画 */
-@media (prefers-reduced-motion: reduce) {
-  .chat-messages {
-    scroll-behavior: auto;
+  .chat-input-area {
+    flex-direction: column;
   }
-  
-  .toolbar-btn,
-  .suggested-btn,
+
   .send-btn {
-    transition: none;
+    width: 100%;
   }
-}
-
-/* 滚动性能优化 */
-.chat-messages::-webkit-scrollbar {
-  width: 8px;
-}
-
-.chat-messages::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 4px;
-}
-
-.chat-messages::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 4px;
-}
-
-.chat-messages::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
-}
-
-/* 图片懒加载优化 */
-.message-content >>> img {
-  content-visibility: auto;
-  contain-intrinsic-size: 300px;
 }
 </style>
