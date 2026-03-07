@@ -497,22 +497,40 @@ export default {
         const url = this.$withBase
           ? this.$withBase('/ai-chat-config.json')
           : '/ai-chat-config.json'
+        console.log('AI chat config loading from:', url)
         const res = await fetch(url)
+        console.log('AI chat config fetch response:', res.status, res.statusText)
         if (!res.ok) {
-          console.error('AI chat config fetch failed:', res.status, res.statusText)
+          console.error('AI chat config fetch failed:', res.status, res.statusText, 'URL:', url)
+          // 显示更详细的错误信息
+          this.showConfigError(`配置文件加载失败: ${res.status} ${res.statusText}`)
           return
         }
         const text = await res.text()
+        console.log('AI chat config raw text length:', text.length)
         try {
           this.config = sanitizeClientConfig(JSON.parse(text))
+          console.log('AI chat config parsed successfully:', this.config)
           // Override system prompt based on language
           this.config.systemPrompt = this.getSystemPrompt()
         } catch (parseErr) {
           console.error('AI chat config JSON parse error:', parseErr, 'Response:', text.slice(0, 200))
+          this.showConfigError(`配置文件解析错误: ${parseErr.message}`)
         }
       } catch (e) {
         console.error('Failed to load AI chat config:', e)
+        this.showConfigError(`配置文件加载异常: ${e.message}`)
       }
+    },
+
+    showConfigError(message) {
+      // 在聊天界面显示配置错误
+      this.messages.push({
+        role: 'assistant',
+        content: this.isEn
+          ? `⚠️ ${message}. Please contact the administrator to check the \`/ai-chat-config.json\` file.`
+          : `⚠️ ${message}，请联系管理员检查 \`/ai-chat-config.json\` 配置文件。`
+      })
     },
 
     getSystemPrompt() {
