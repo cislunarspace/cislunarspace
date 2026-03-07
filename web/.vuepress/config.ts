@@ -25,6 +25,21 @@ export default defineConfig({
   },
   title: "地月空间入门指南",
   description: "系统掌握地月空间科学、技术与工程实践",
+  extendPageData($page) {
+    const frontmatter = $page.frontmatter || {};
+
+    if (typeof frontmatter.metaTitle !== "string") {
+      const explicitMetaTitle =
+        frontmatter.title ||
+        frontmatter.og?.title ||
+        frontmatter.shareTitle ||
+        $page.title;
+
+      if (typeof explicitMetaTitle === "string" && explicitMetaTitle.trim()) {
+        frontmatter.metaTitle = explicitMetaTitle.trim();
+      }
+    }
+  },
   head: [
     // 站点图标
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -145,10 +160,12 @@ export default defineConfig({
       {
         siteTitle: (_, $site) => $site.title,
         title: ($page) => {
-          const pageTitle = $page.frontmatter.wechatShare?.title ||
+          const pageTitle = $page.frontmatter.metaTitle ||
+            $page.frontmatter.og?.title ||
+            $page.frontmatter.title ||
             $page.frontmatter.shareTitle ||
             $page.title;
-          return `地月空间入门指南 | ${pageTitle}`;
+          return pageTitle;
         },
         description: ($page) =>
           $page.frontmatter.wechatShare?.desc ||

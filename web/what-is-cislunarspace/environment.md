@@ -9,7 +9,7 @@ author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
 wechatShare:
-  title: 地月空间环境
+  title: 地月空间环境特征
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
