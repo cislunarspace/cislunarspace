@@ -66,7 +66,7 @@
           <span v-if="msg.role === 'user'">🧑</span>
           <span v-else>🤖</span>
         </div>
-        <div class="message-content" v-html="renderMarkdown(msg.content)"></div>
+        <div class="message-content" v-html="renderedContent[index] || renderMarkdownSync(msg.content)"></div>
       </div>
       <div v-if="isLoading" class="chat-message assistant-message">
         <div class="message-avatar"><span>🤖</span></div>
@@ -298,7 +298,9 @@ export default {
       historyList: [],
       currentSessionId: null,
       abortController: null,
-      suggestedQuestions: []
+      suggestedQuestions: [],
+      renderedContent: [], // 缓存渲染后的内容
+      renderTimeout: null // 防抖定时器
     }
   },
   computed: {
@@ -345,8 +347,21 @@ export default {
   watch: {
     messages: {
       deep: true,
-      handler() {
+      async handler(newMessages) {
         this.saveCurrentSession()
+        
+        // 异步渲染新消息
+        newMessages.forEach(async (msg, index) => {
+          if (!this.renderedContent[index]) {
+            const html = await this.renderMarkdownAsync(msg.content)
+            this.$set(this.renderedContent, index, html)
+          }
+        })
+        
+        // 清理旧的渲染缓存（保留最近50条）
+        if (this.renderedContent.length > newMessages.length + 10) {
+          this.renderedContent = this.renderedContent.slice(-50)
+        }
       }
     },
     isEn: {
@@ -705,7 +720,29 @@ Based on the website content and your own knowledge, answer user questions about
       }
     },
 
-    renderMarkdown(text) {
+    // 异步渲染Markdown，带防抖
+    async renderMarkdownAsync(text) {
+      if (!text) return ''
+      
+      // 防抖：如果连续调用，只执行最后一次
+      if (this.renderTimeout) {
+        clearTimeout(this.renderTimeout)
+      }
+      
+      return new Promise((resolve) => {
+        this.renderTimeout = setTimeout(() => {
+          try {
+            const html = this.renderMarkdownSync(text)
+            resolve(html)
+          } catch (e) {
+            resolve(text.replace(/\n/g, '<br>'))
+          }
+        }, 30) // 30ms防抖延迟
+      })
+    },
+    
+    // 同步渲染Markdown（用于初始渲染）
+    renderMarkdownSync(text) {
       if (!text) return ''
       try {
         // Protect LaTeX formulas from marked by replacing them with placeholders
@@ -777,6 +814,11 @@ Based on the website content and your own knowledge, answer user questions about
       } catch (e) {
         return text.replace(/\n/g, '<br>')
       }
+    },
+    
+    // 兼容旧方法
+    renderMarkdown(text) {
+      return this.renderMarkdownSync(text)
     },
 
     handleEnter(e) {
@@ -1459,5 +1501,53 @@ Based on the website content and your own knowledge, answer user questions about
     width: 100%;
     border-left: none;
   }
+}
+
+/* 性能优化 */
+.chat-messages {
+  will-change: transform;
+  contain: content;
+}
+
+.history-item {
+  contain: layout style paint;
+}
+
+/* 减少不必要的动画 */
+@media (prefers-reduced-motion: reduce) {
+  .chat-messages {
+    scroll-behavior: auto;
+  }
+  
+  .toolbar-btn,
+  .suggested-btn,
+  .send-btn {
+    transition: none;
+  }
+}
+
+/* 滚动性能优化 */
+.chat-messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* 图片懒加载优化 */
+.message-content >>> img {
+  content-visibility: auto;
+  contain-intrinsic-size: 300px;
 }
 </style>
