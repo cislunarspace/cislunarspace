@@ -303,7 +303,7 @@ html, body
   .theme-container .sidebar
     width min(82vw, 20rem)
     max-width calc(100vw - 2.5rem)
-    padding-bottom calc(2rem + env(safe-area-inset-bottom, 0px))
+    padding-bottom calc(0.5rem + env(safe-area-inset-bottom, 0px))
     overscroll-behavior contain
     -webkit-overflow-scrolling touch
 
@@ -319,7 +319,7 @@ html, body
     line-height 1.5
 
   .theme-container .sidebar .sidebar-links
-    padding-bottom 3rem
+    padding-bottom 0.75rem
 
   .theme-container.mobile-sidebar-open,
   body.mobile-sidebar-open
