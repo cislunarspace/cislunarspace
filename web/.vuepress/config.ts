@@ -116,7 +116,7 @@ export default defineConfig({
   ],
   // 监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
-  // 开发服务器代理（解决 AI API 跨域问题）
+  // 开发服务器代理（仅本地开发使用；生产环境需在服务器侧单独配置反向代理）
   devServer: {
     proxy: {
       '/api/ai': {

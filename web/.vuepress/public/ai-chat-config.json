@@ -1,6 +1,5 @@
 {
   "apiEndpoint": "/api/ai/v1/chat/completions",
-  "apiKey": "",
   "model": "deepseek-chat",
   "temperature": 0.7,
   "stream": true,
