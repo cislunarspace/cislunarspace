@@ -19,6 +19,10 @@ export default [
         link: '/en/ai-chat'
     },
     {
+        text: "Forum",
+        link: '/en/forum'
+    },
+    {
         text: "Home",
         link: '/en/'
     },

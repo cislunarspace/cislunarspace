@@ -19,6 +19,10 @@ export default [
         link: '/ai-chat'
     },
     {
+        text: "论坛",
+        link: '/forum'
+    },
+    {
         text: "首页",
         link: '/'
     },

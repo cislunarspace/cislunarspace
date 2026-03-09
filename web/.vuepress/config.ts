@@ -123,6 +123,9 @@ export default defineConfig({
         target: 'https://api.deepseek.com',
         changeOrigin: true,
         pathRewrite: { '^/api/ai': '' },
+        headers: {
+          'Authorization': 'Bearer REDACTED'
+        }
       },
     },
   },
@@ -267,6 +270,7 @@ export default defineConfig({
     // Gitee 仓库位置
     repo: "https://gitee.com/cislunarspace/cislunarspace",
     docsBranch: "master",
+    docsDir: "web",
 
     // 编辑链接
     editLinks: true,
