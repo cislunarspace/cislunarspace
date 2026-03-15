@@ -21,7 +21,15 @@ const mainSidebar = [
         children: [
             ["/en/research-frontiers/", "Introduction"],
             ["/en/research-frontiers/directions", "Research Directions"],
-            ["/en/research-frontiers/institutions", "Research Institutions"],
+            {
+                title: "Research Institutions",
+                path: "/en/research-frontiers/institutions",
+                collapsable: true,
+                children: [
+                    ["/en/research-frontiers/institutions", "Introduction"],
+                    ["/en/research-frontiers/institutions/hit", "Harbin Institute of Technology"],
+                ]
+            },
             ["/en/research-frontiers/journals-conferences", "Journals & Conferences"],
             ["/en/research-frontiers/major-projects", "Major Projects"],
         ]
