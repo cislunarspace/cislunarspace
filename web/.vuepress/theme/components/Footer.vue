@@ -1,5 +1,6 @@
 <template>
     <main class="footer">
+        <div class="friend-links-title">友情链接</div>
         <div v-for="(item, index) in footerList" :key="index" class="footer-item">
             <a :href="item.href" target="_blank" rel="noopener noreferrer">
                 <img v-if="item.icon" :src="item.icon" alt="icon" class="item-icon" />
@@ -54,6 +55,14 @@ export default {
     justify-content center
     align-items center
     color #85858a
+
+.friend-links-title
+  width 100%
+  text-align center
+  font-size 0.9rem
+  color #999
+  margin-bottom 0.5rem
+  font-weight 500
 
 .item-icon
   width 1.4rem
