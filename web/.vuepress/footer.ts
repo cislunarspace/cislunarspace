@@ -4,9 +4,12 @@
 export default {
   friendLinks: [
     {
-      label: "站长 - 天疆说",
-      // icon: "/icon/user.svg",
-      href: "https://gitee.com/cislunarspace/",
+      label: "智慧学习助手 UStudy",
+      href: "https://ustudy.top/",
+    },
+    {
+      label: "航天任务工具箱 ATK",
+      href: "https://www.osredm.com/atknudt/atk/about",
     },
   ],
   copyright: {
