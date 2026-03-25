@@ -9,7 +9,7 @@ wechatShare:
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+>本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 # 引言
 
@@ -19,72 +19,16 @@ wechatShare:
 
 为实现研究落地，还需进行算法实现，这要求研究人员具备程序设计与编程能力。同时，借鉴开源代码至关重要。然而，根据观察，航空宇航科学与技术专业的本科生和研究生在学习过程中，普遍缺乏系统的程序设计与编程训练，对GitHub等平台上的开源代码学习与使用也不够熟悉。因此，该知识库还将提供高阶编程技巧，帮助研究人员提升编程能力，更好地开展地月空间相关的算法开发与应用。
 
-## 代码库
+## 工具与代码库
 
-### e2m2e
+| 工具 | 说明 |
+|------|------|
+| [e2m2e](./e2m2e/) | 地月空间转移轨道设计库 |
+| [scipy](./scipy/) | Python 科学计算库 |
+| [r2s2](./r2s2/) | 地月空间时空坐标转换库 |
 
-[e2m2e](https://gitee.com/cislunarspace/e2m2e)是一个基于圆型限制性三体问题（CR3BP）的Python库，专注于设计和分析地月空间转移轨道。
+## 数据资源
 
-如下是示例调用：
-```python
-import e2m2e
-
-# 1. 创建地月系统
-system = e2m2e.CR3BP_System.from_known_system("earth_moon")
-system.compute_libration_points()
-system.set_characteristic_scales(distance=384400, period=27.32 * 86400)
-
-print(f"地月系统: {system}")
-print(f"L1点: {system.L1}")
-print(f"L2点: {system.L2}")
-
-# 2. 创建动力学对象
-dynamics = e2m2e.CR3BP_Dynamics(system)
-
-# 3. 设计Lyapunov轨道（微分修正）
-dc = e2m2e.DifferentialCorrection(dynamics)
-dc.setup_2D_symmetric_x_fixed_x0(x0=system.L1[0] + 0.01)
-
-# 初始猜测
-initial_state = [system.L1[0] + 0.01, 0, 0, 0, 0.1, 0]
-orbit, result = dc.correct_orbit(initial_state, t_half=1.5)
-
-if orbit is not None:
-    print(f"Lyapunov轨道周期: {orbit.period:.4f}")
-
-    # 4. 可视化
-    viz = e2m2e.OrbitVisualizer(system)
-    viz.create_overview_plot(orbit)
-    viz.show()
-
-# 5. 轨道族延拓
-cont = e2m2e.Continuation(dc, param="x0", step=0.001)
-family = cont.natural_continuation(
-    seed_state=result['state'],
-    seed_t_half=result['t_half'],
-    n_orbits=20
-)
-
-# 6. 转移轨道设计
-transfer = e2m2e.EarthMoonTransfer(system, dynamics)
-# ... 设计具体的转移轨道
-```
-
-### scipy
-
-scipy是一个Python科学计算库，提供了大量的数值算法和工具，广泛应用于地月空间轨道设计与分析中。
-
-如下是安装命令：
-```cmd
-python -m pip install scipy
-```
-
-### r2s2
-
-r2s2是一个地月空间时空坐标转换库。
-
-如下是安装命令：
-```cmd
-python -m pip install r2s2
-```
-
+| 资源 | 说明 |
+|------|------|
+| [数据集](./datasets/) | JPL星历、月球重力场模型、空间环境参数等 |
