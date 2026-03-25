@@ -83,6 +83,9 @@ const resourcesToolsSidebar = [
         collapsable: false,
         children: [
             ["/resources-tools/", "引言"],
+            ["/resources-tools/e2m2e", "e2m2e"],
+            ["/resources-tools/scipy", "scipy"],
+            ["/resources-tools/r2s2", "r2s2"],
             ["/resources-tools/datasets", "数据集"],
         ]
     }
