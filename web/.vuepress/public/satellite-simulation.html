@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>卫星轨道仿真教学系统</title>
-  <script src="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js"></script>
-  <link href="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
-  <!-- <script src="Cesium/Cesium.js"></script>
-  <link href="Cesium/Widgets/widgets.css" rel="stylesheet"> -->
+  <!-- <script src="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css" rel="stylesheet"> -->
+  <script src="Cesium/Cesium.js"></script>
+  <link href="Cesium/Widgets/widgets.css" rel="stylesheet">
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
     :root{
       --bg-dark:#050c1a;--bg-panel:#081428;--bg-card:#0a1930;
       --bg-card-hover:#0d2040;--border:#1a3a6a;
       --blue:#00d4ff;--cyan:#00ffcc;--gold:#ffcc44;
-      --txt:#e8f4ff;--txt2:#7aa8cc;--txt3:#3a6080;
+      --txt:#e8f4ff;--txt2:#ffffff;--txt3:#3a6080;
       --glow-b:0 0 12px rgba(0,212,255,.5);
       --glow-c:0 0 12px rgba(0,255,204,.5);
       --pw:380px;
@@ -168,22 +168,19 @@
 <!-- 顶栏 -->
 <div id="topbar">
   <div class="logo">
-    <a href="/" style="color:inherit;text-decoration:none;display:flex;align-items:center;gap:10px">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-        <circle cx="12" cy="12" r="3"/>
-        <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(-30 12 12)" stroke-dasharray="3 2"/>
-        <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)"  stroke-dasharray="3 2"/>
-        <line x1="12" y1="2" x2="12" y2="22"/>
-      </svg>
-      卫星轨道仿真教学系统 &nbsp;|&nbsp; Satellite Orbit Simulation
-    </a>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <circle cx="12" cy="12" r="3"/>
+      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(-30 12 12)" stroke-dasharray="3 2"/>
+      <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)"  stroke-dasharray="3 2"/>
+      <line x1="12" y1="2" x2="12" y2="22"/>
+    </svg>
+    卫星轨道仿真教学系统 &nbsp;|&nbsp; Satellite Orbit Simulation
   </div>
   <div class="statusbar">
     <div style="display:flex;align-items:center;gap:6px"><div class="sdot"></div><span>实时解算</span></div>
     <span>坐标系: J2000 ECI</span>
     <span>摄动: J2</span>
     <div id="time-display">--</div>
-    <a href="/" style="color:var(--txt2);text-decoration:none;font-size:12px;padding:4px 8px;border:1px solid var(--border);border-radius:4px;transition:all 0.2s" onmouseover="this.style.color='var(--cyan)';this.style.borderColor='var(--cyan)'" onmouseout="this.style.color='var(--txt2)';this.style.borderColor='var(--border)'">返回主页</a>
   </div>
 </div>
 
@@ -193,7 +190,7 @@
   <!-- 左侧 -->
   <div id="left">
     <!-- 轨道卡片 -->
-    <div class="sec">
+    <!-- <div class="sec">
       <div class="sec-title">快速轨道切换</div>
       <div id="cards">
         <div class="card" data-k="frozen"    onclick="loadPreset('frozen')">
@@ -217,7 +214,7 @@
           <div class="cs">Geostationary Orbit</div><div class="ca">h≈35786km</div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- 参数滑块 -->
     <div id="pscroll">
@@ -228,7 +225,7 @@
           <div class="plabel">轨道高度 <span class="psym">h</span></div>
           <div class="pval" id="v-h">400 km</div>
         </div>
-        <input class="pslider" id="s-h" type="range" min="200" max="36000" value="400" step="10"
+        <input class="pslider" id="s-h" type="range" min="200" max="46000" value="400" step="10"
           oninput="onParam('h',this.value)">
         <div class="pdesc">近地点高度，影响轨道周期与速度</div>
       </div>
@@ -238,7 +235,7 @@
           <div class="plabel">半长轴 <span class="psym">a</span></div>
           <div class="pval" id="v-a">6778 km</div>
         </div>
-        <input class="pslider" id="s-a" type="range" min="6578" max="42378" value="6778" step="10"
+        <input class="pslider" id="s-a" type="range" min="6578" max="62164.1" value="6778" step="10"
           oninput="onParam('a',this.value)">
         <div class="pdesc">椭圆轨道长轴半径 a = R⊕ + h</div>
       </div>
@@ -295,7 +292,7 @@
     </div>
 
     <!-- 统计 -->
-    <div id="stats">
+    <!-- <div id="stats">
       <div class="sec-title" style="margin-bottom:10px">轨道参数推算</div>
       <div class="sgrid">
         <div class="si"><div class="sl">周期 T</div><div class="sv" id="st-T">--</div></div>
@@ -305,7 +302,7 @@
         <div class="si"><div class="sl">半短轴 b</div><div class="sv" id="st-b">--</div></div>
         <div class="si"><div class="sl">平均高度</div><div class="sv" id="st-h">--</div></div>
       </div>
-    </div>
+    </div> -->
 
     <!-- 时间控制 -->
     <div id="tctl">
@@ -330,7 +327,7 @@
         <div class="hrow"><span class="hk">经度 λ</span><span class="hv" id="h-lon">--</span></div>
         <div class="hrow"><span class="hk">纬度 φ</span><span class="hv" id="h-lat">--</span></div>
         <div class="hrow"><span class="hk">高度 h</span><span class="hv" id="h-alt">--</span></div>
-        <div class="hrow"><span class="hk">速度 |v|</span><span class="hv" id="h-spd">--</span></div>
+        <div class="hrow"><span class="hk">角速度</span><span class="hv" id="h-spd">--</span></div>
       </div>
       <div class="hcard">
         <div class="htitle">📐 ECI 坐标 (km)</div>
@@ -341,7 +338,7 @@
       <div class="hcard">
         <div class="htitle">🔭 轨道状态</div>
         <div class="hrow"><span class="hk">类型</span><span class="hv" id="h-type">LEO</span></div>
-        <div class="hrow"><span class="hk">倾角 i</span><span class="hv" id="h-inc">--</span></div>
+        <div class="hrow"><span class="hk">轨道周期</span><span class="hv" id="h-inc">--</span></div>
         <div class="hrow"><span class="hk">真近点角</span><span class="hv" id="h-nu">--</span></div>
         <div class="hrow"><span class="hk">仿真时刻</span><span class="hv" id="h-ep">--</span></div>
       </div>
@@ -472,7 +469,7 @@ function propagate(a,e,i,raan0,argp0,nu0, dt){
   const M1   = E2M(E0,e) + n*dt;
   const nu1  = E2nu(M2E(M1,e),e);
 
-  return { nu:nu1, raan:raan0+dO*dt, argp:argp0+dW*dt };
+  return { nu:nu1, raan:raan0+dO*dt, argp:argp0+dW*dt, a:a };
 }
 
 // ═══════════════════════════════════════════════
@@ -595,7 +592,7 @@ function initCesium(){
 function buildScene(){
   viewer.entities.removeAll();
   addEquatorRing();
-  addEclipticRing();
+  //addEclipticRing();
   addCoordAxes();
   addSunLine();
   addNadirLine();
@@ -1154,16 +1151,18 @@ function updateHUD(){
   const alt  = (r-RE)/1000;
   const spd  = Math.sqrt(vel[0]**2+vel[1]**2+vel[2]**2)/1000;
   const el   = currentElements();
+  const degr = Math.sqrt(GM/((el.a)**3))*R2D*3600;
+  const Ts = 2*Math.PI/Math.sqrt(GM/((el.a)**3))/3600;
   const nuDeg= ((el.nu*R2D)%360+360)%360;
 
   set('h-lon',  lon.toFixed(3)+'°');
   set('h-lat',  lat.toFixed(3)+'°');
   set('h-alt',  alt.toFixed(2)+' km');
-  set('h-spd',  spd.toFixed(4)+' km/s');
+  set('h-spd',  degr.toFixed(4)+'°/h');
   set('h-x',    (pos[0]/1000).toFixed(1)+' km');
   set('h-y',    (pos[1]/1000).toFixed(1)+' km');
   set('h-z',    (pos[2]/1000).toFixed(1)+' km');
-  set('h-inc',  (orb.i*R2D).toFixed(2)+'°');
+  set('h-inc',  Ts.toFixed(2)+'h');
   set('h-nu',   nuDeg.toFixed(2)+'°');
   set('h-ep',   fmtUTC(simTime));
   set('h-type', orbType());
