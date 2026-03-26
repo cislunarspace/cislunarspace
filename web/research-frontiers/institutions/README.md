@@ -34,6 +34,7 @@ twitter:
 
 - [国防科技大学空天科学学院](/research-frontiers/institutions/nudt/)
 - [西北工业大学航天学院](/research-frontiers/institutions/npu/)
+- [哈尔滨工业大学航天学院](/research-frontiers/institutions/hit/)
 - [航天工程大学](/research-frontiers/institutions/seu/)
 - [航天东方红卫星有限公司](/research-frontiers/institutions/dfhscl/)
 - [清华大学](/research-frontiers/institutions/thu/)

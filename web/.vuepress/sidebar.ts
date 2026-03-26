@@ -40,6 +40,7 @@ const mainSidebar = [
                 children: [
                     ["/research-frontiers/institutions/nudt", "国防科技大学"],
                     ["/research-frontiers/institutions/npu", "西北工业大学"],
+                    ["/research-frontiers/institutions/hit", "哈尔滨工业大学"],
                     ["/research-frontiers/institutions/seu", "航天工程大学"],
                     ["/research-frontiers/institutions/dfhscl", "航天东方红卫星有限公司"],
                     ["/research-frontiers/institutions/thu", "清华大学"],
@@ -82,9 +83,69 @@ const resourcesToolsSidebar = [
         collapsable: false,
         children: [
             ["/resources-tools/", "引言"],
+            ["/resources-tools/e2m2e", "e2m2e"],
+            ["/resources-tools/scipy", "scipy"],
+            ["/resources-tools/r2s2", "r2s2"],
             ["/resources-tools/datasets", "数据集"],
         ]
     }
+];
+
+// 蓝军研究独立侧边栏（结构同「地月空间科学研究前沿」：概述 + 分栏下概述与子主题）
+const blueTeamResearchSidebar = [
+    {
+        title: "蓝军研究",
+        collapsable: false,
+        children: [
+            ["/blue-team-research/", "概述"],
+            {
+                title: "条令条例与战略文件",
+                path: "/blue-team-research/doctrine-strategy/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/doctrine-strategy/", "概述"],
+                    ["/blue-team-research/doctrine-strategy/us-strategy-doctrine", "美军战略文件与条令体系"],
+                    ["/blue-team-research/doctrine-strategy/literature-index", "文献索引与摘录规范"],
+                    ["/blue-team-research/doctrine-strategy/terminology", "术语与缩写"],
+                ],
+            },
+            {
+                title: "装备与技术发展",
+                path: "/blue-team-research/equipment-tech/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/equipment-tech/", "概述"],
+                    ["/blue-team-research/equipment-tech/sda-programs", "太空发展局（SDA）与相关方案"],
+                    ["/blue-team-research/equipment-tech/spacex-role", "SpaceX 与产业参与"],
+                    ["/blue-team-research/equipment-tech/architecture-programs", "体系与项目跟踪"],
+                    ["/blue-team-research/equipment-tech/commercial-participation", "商业航天参与"],
+                ],
+            },
+            {
+                title: "作战应用与聚焦场景",
+                path: "/blue-team-research/operations-application/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/operations-application/", "概述"],
+                    ["/blue-team-research/operations-application/regional-conflicts", "地区冲突中的太空运用"],
+                    ["/blue-team-research/operations-application/orbital-confrontation", "轨道对抗聚焦"],
+                    ["/blue-team-research/operations-application/kill-chain-focus", "杀伤链闭环聚焦"],
+                    ["/blue-team-research/operations-application/scenario-analysis", "场景与证据链"],
+                    ["/blue-team-research/operations-application/crosswalk", "条令—能力—运用对照"],
+                ],
+            },
+            {
+                title: "资料共享与知识库",
+                path: "/blue-team-research/knowledge-rag/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/knowledge-rag/", "概述"],
+                    ["/blue-team-research/knowledge-rag/search-metadata", "检索与元数据"],
+                    ["/blue-team-research/knowledge-rag/rag-roadmap", "知识服务技术路线"],
+                ],
+            },
+        ],
+    },
 ];
 
 // VuePress 1.x 多侧边栏配置
@@ -95,6 +156,9 @@ const sidebarConfig = {
     
     // 资源与工具页面使用独立的资源与工具侧边栏
     "/resources-tools/": resourcesToolsSidebar,
+
+    // 蓝军研究
+    "/blue-team-research/": blueTeamResearchSidebar,
     
     // 主要页面使用主侧边栏
     "/what-is-cislunarspace/": mainSidebar,
