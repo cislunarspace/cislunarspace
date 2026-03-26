@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: 地月空间入门指南 | 体系与项目跟踪
+title: 蓝军研究 · 体系与项目跟踪
 description: 公开渠道可见的太空作战相关体系分层与型号项目时间线整理方法。
 permalink: /blue-team-research/equipment-tech/architecture-programs
 author: 天疆说

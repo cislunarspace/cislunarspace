@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Search & Metadata
+title: Blue Team Research · Search & Metadata
 description: "Metadata schema, search facets, and update rules."
 permalink: /en/blue-team-research/knowledge-rag/search-metadata
 author: 天疆说

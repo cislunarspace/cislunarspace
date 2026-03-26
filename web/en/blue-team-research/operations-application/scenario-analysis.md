@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Scenarios & Evidence
+title: Blue Team Research · Scenarios & Evidence
 description: "Scenario bounds, evidence layers, and handling contradictions."
 permalink: /en/blue-team-research/operations-application/scenario-analysis
 author: 天疆说

@@ -104,6 +104,7 @@ const blueTeamResearchSidebar = [
                 collapsable: true,
                 children: [
                     ["/blue-team-research/doctrine-strategy/", "概述"],
+                    ["/blue-team-research/doctrine-strategy/us-strategy-doctrine", "美军战略文件与条令体系"],
                     ["/blue-team-research/doctrine-strategy/literature-index", "文献索引与摘录规范"],
                     ["/blue-team-research/doctrine-strategy/terminology", "术语与缩写"],
                 ],
@@ -114,6 +115,8 @@ const blueTeamResearchSidebar = [
                 collapsable: true,
                 children: [
                     ["/blue-team-research/equipment-tech/", "概述"],
+                    ["/blue-team-research/equipment-tech/sda-programs", "太空发展局（SDA）与相关方案"],
+                    ["/blue-team-research/equipment-tech/spacex-role", "SpaceX 与产业参与"],
                     ["/blue-team-research/equipment-tech/architecture-programs", "体系与项目跟踪"],
                     ["/blue-team-research/equipment-tech/commercial-participation", "商业航天参与"],
                 ],
@@ -124,6 +127,9 @@ const blueTeamResearchSidebar = [
                 collapsable: true,
                 children: [
                     ["/blue-team-research/operations-application/", "概述"],
+                    ["/blue-team-research/operations-application/regional-conflicts", "地区冲突中的太空运用"],
+                    ["/blue-team-research/operations-application/orbital-confrontation", "轨道对抗聚焦"],
+                    ["/blue-team-research/operations-application/kill-chain-focus", "杀伤链闭环聚焦"],
                     ["/blue-team-research/operations-application/scenario-analysis", "场景与证据链"],
                     ["/blue-team-research/operations-application/crosswalk", "条令—能力—运用对照"],
                 ],

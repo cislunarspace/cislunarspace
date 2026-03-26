@@ -1,24 +1,24 @@
 ---
 layout: Page
 permalink: /en/blue-team-research/
-title: Cislunar Space Guide | Blue Team Research
+title: Blue Team Research
 description: "Blue team research: open-source indexes on doctrine, equipment, and operations."
 keywords: blue team research, doctrine, equipment, operations, knowledge base
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
 wechatShare:
-  title: Cislunar Space Guide | Blue Team Research
+  title: Blue Team Research
   desc: Blue team research module — open materials and structure.
   image: /logo.png
 og:
-  title: Cislunar Space Guide | Blue Team Research
+  title: Blue Team Research
   description: "Blue team research: open-source indexes on doctrine, equipment, and operations."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Space Guide | Blue Team Research
+  title: Blue Team Research
   description: "Blue team research: open-source indexes on doctrine, equipment, and operations."
   image: /logo.png
 ---
@@ -53,11 +53,11 @@ Blue team research provides an **intelligence and awareness foundation** alongsi
 
 | Track | Subject |
 |-------|---------|
-| Doctrine & strategy | Public strategy, doctrine, and policy-to-action links |
-| Equipment & technology | Architectures, programs, commercial participation (open sources) |
-| Operations | Public cases, exercises, or bounded scenarios (e.g. orbital confrontation, kill-chain segments) |
+| Doctrine & strategy | **U.S. strategy and doctrine**: actions grounded in doctrine; systematic review of public strategy and joint/service doctrine |
+| Equipment & technology | **Programs and technology**: e.g. SDA open plans, commercial roles (including SpaceX) from public sources |
+| Operations | **Employment in conflict**: e.g. open reporting on Ukraine and the Middle East; narrow to orbital confrontation or kill-chain segments when too broad |
 
-Topics must stay **bounded**; overscoped questions should be split so sources remain tractable.
+Topics must stay **bounded**; prefer one clear subtopic over sweeping surveys.
 
 ## Phased work
 

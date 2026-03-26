@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Knowledge Base & RAG
+title: Blue Team Research · Knowledge Base & RAG
 description: "Centralized materials, search, and planned knowledge services."
 permalink: /en/blue-team-research/knowledge-rag/
 author: 天疆说

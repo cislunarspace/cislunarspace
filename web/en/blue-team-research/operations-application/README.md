@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Operations & Scenarios
+title: Blue Team Research · Operations & Scenarios
 description: "Open-source analysis of space employment in conflict and exercises."
 permalink: /en/blue-team-research/operations-application/
 author: 天疆说
@@ -12,9 +12,7 @@ lastUpdated: 2026-03-26
 
 ## Content
 
-From open reporting and scholarly work, analyze how space capabilities are employed in conflict or exercises, including public discussion of support, ISR, communications, navigation, and counter-space topics.
-
-If scope is too wide, narrow to explicit scenarios, for example: public concepts on orbital confrontation; open description of one kill-chain segment; regional case studies with **public** sources only.
+From open reporting and scholarly work, analyze employment in conflict and exercises. Follow-on topics include **regional conflicts** (e.g. Ukraine, Middle East open reporting), **orbital confrontation**, and **kill-chain segments**—see linked subpages. If scope is too wide, narrow to one theater, one scenario, or one chain segment.
 
 ## Method
 

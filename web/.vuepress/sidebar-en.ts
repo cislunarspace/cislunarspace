@@ -74,6 +74,7 @@ const blueTeamResearchSidebar = [
                 collapsable: true,
                 children: [
                     ["/en/blue-team-research/doctrine-strategy/", "Overview"],
+                    ["/en/blue-team-research/doctrine-strategy/us-strategy-doctrine", "U.S. Strategy & Doctrine"],
                     ["/en/blue-team-research/doctrine-strategy/literature-index", "Literature Index & Extract Rules"],
                     ["/en/blue-team-research/doctrine-strategy/terminology", "Terms & Acronyms"],
                 ],
@@ -84,6 +85,8 @@ const blueTeamResearchSidebar = [
                 collapsable: true,
                 children: [
                     ["/en/blue-team-research/equipment-tech/", "Overview"],
+                    ["/en/blue-team-research/equipment-tech/sda-programs", "SDA & Related Programs"],
+                    ["/en/blue-team-research/equipment-tech/spacex-role", "SpaceX & Industry Roles"],
                     ["/en/blue-team-research/equipment-tech/architecture-programs", "Architectures & Programs"],
                     ["/en/blue-team-research/equipment-tech/commercial-participation", "Commercial Participation"],
                 ],
@@ -94,6 +97,9 @@ const blueTeamResearchSidebar = [
                 collapsable: true,
                 children: [
                     ["/en/blue-team-research/operations-application/", "Overview"],
+                    ["/en/blue-team-research/operations-application/regional-conflicts", "Space in Regional Conflicts"],
+                    ["/en/blue-team-research/operations-application/orbital-confrontation", "Orbital Confrontation Focus"],
+                    ["/en/blue-team-research/operations-application/kill-chain-focus", "Kill-Chain Focus"],
                     ["/en/blue-team-research/operations-application/scenario-analysis", "Scenarios & Evidence"],
                     ["/en/blue-team-research/operations-application/crosswalk", "Doctrine–Capability–Employment"],
                 ],

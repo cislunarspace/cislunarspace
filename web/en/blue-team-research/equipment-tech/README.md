@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Equipment & Technology
+title: Blue Team Research · Equipment & Technology
 description: "Architectures, programs, and industry roles from open sources."
 permalink: /en/blue-team-research/equipment-tech/
 author: 天疆说
@@ -12,7 +12,7 @@ lastUpdated: 2026-03-26
 
 ## Content
 
-Using **open** information only, this track documents space-related **architectures**, **programs**, **acquisition and deployment timelines**, and **commercial roles**, in verifiable form.
+Using **open** information only, this track documents space-related **architectures**, **programs**, **acquisition and deployment timelines**, and **commercial roles**, in verifiable form. Topic entry points: [SDA & related programs](./sda-programs), [SpaceX & industry roles](./spacex-role).
 
 ## Method
 

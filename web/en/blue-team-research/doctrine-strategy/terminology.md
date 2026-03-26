@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Terms & Acronyms
+title: Blue Team Research · Terms & Acronyms
 description: "Terms, acronyms, and suggested translations with cited sources."
 permalink: /en/blue-team-research/doctrine-strategy/terminology
 author: 天疆说
