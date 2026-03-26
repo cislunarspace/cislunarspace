@@ -91,6 +91,57 @@ const resourcesToolsSidebar = [
     }
 ];
 
+// 蓝军研究独立侧边栏（结构同「地月空间科学研究前沿」：概述 + 分栏下概述与子主题）
+const blueTeamResearchSidebar = [
+    {
+        title: "蓝军研究",
+        collapsable: false,
+        children: [
+            ["/blue-team-research/", "概述"],
+            {
+                title: "条令条例与战略文件",
+                path: "/blue-team-research/doctrine-strategy/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/doctrine-strategy/", "概述"],
+                    ["/blue-team-research/doctrine-strategy/literature-index", "文献索引与摘录规范"],
+                    ["/blue-team-research/doctrine-strategy/terminology", "术语与缩写"],
+                ],
+            },
+            {
+                title: "装备与技术发展",
+                path: "/blue-team-research/equipment-tech/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/equipment-tech/", "概述"],
+                    ["/blue-team-research/equipment-tech/architecture-programs", "体系与项目跟踪"],
+                    ["/blue-team-research/equipment-tech/commercial-participation", "商业航天参与"],
+                ],
+            },
+            {
+                title: "作战应用与聚焦场景",
+                path: "/blue-team-research/operations-application/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/operations-application/", "概述"],
+                    ["/blue-team-research/operations-application/scenario-analysis", "场景与证据链"],
+                    ["/blue-team-research/operations-application/crosswalk", "条令—能力—运用对照"],
+                ],
+            },
+            {
+                title: "资料共享与知识库",
+                path: "/blue-team-research/knowledge-rag/",
+                collapsable: true,
+                children: [
+                    ["/blue-team-research/knowledge-rag/", "概述"],
+                    ["/blue-team-research/knowledge-rag/search-metadata", "检索与元数据"],
+                    ["/blue-team-research/knowledge-rag/rag-roadmap", "知识服务技术路线"],
+                ],
+            },
+        ],
+    },
+];
+
 // VuePress 1.x 多侧边栏配置
 // 注意：回退配置 '/' 应该放在最后
 const sidebarConfig = {
@@ -99,6 +150,9 @@ const sidebarConfig = {
     
     // 资源与工具页面使用独立的资源与工具侧边栏
     "/resources-tools/": resourcesToolsSidebar,
+
+    // 蓝军研究
+    "/blue-team-research/": blueTeamResearchSidebar,
     
     // 主要页面使用主侧边栏
     "/what-is-cislunarspace/": mainSidebar,
