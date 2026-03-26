@@ -1,7 +1,7 @@
 ---
 layout: Page
-sidebar: /
-permalink: /research-frontiers/institutions/
+sidebar: /en/
+permalink: /en/research-frontiers/institutions/
 wechatShare:
   title: Cislunar Space Research Institutions
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
@@ -13,5 +13,9 @@ wechatShare:
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 # Introduction
+
+The institution pages currently available are:
+
+- [Harbin Institute of Technology](/en/research-frontiers/institutions/hit/)
 
 *More detailed content is under construction...*

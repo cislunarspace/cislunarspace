@@ -21,7 +21,15 @@ const mainSidebar = [
         children: [
             ["/en/research-frontiers/", "Introduction"],
             ["/en/research-frontiers/directions", "Research Directions"],
-            ["/en/research-frontiers/institutions", "Research Institutions"],
+            {
+                title: "Research Institutions",
+                path: "/en/research-frontiers/institutions",
+                collapsable: true,
+                children: [
+                    ["/en/research-frontiers/institutions", "Introduction"],
+                    ["/en/research-frontiers/institutions/hit", "Harbin Institute of Technology"],
+                ]
+            },
             ["/en/research-frontiers/journals-conferences", "Journals & Conferences"],
             ["/en/research-frontiers/major-projects", "Major Projects"],
         ]
@@ -53,10 +61,68 @@ const resourcesToolsSidebar = [
     }
 ];
 
+// Blue team research sidebar (English) — overview + nested groups like Research Frontiers
+const blueTeamResearchSidebar = [
+    {
+        title: "Blue Team Research",
+        collapsable: false,
+        children: [
+            ["/en/blue-team-research/", "Overview"],
+            {
+                title: "Doctrine & Strategy",
+                path: "/en/blue-team-research/doctrine-strategy/",
+                collapsable: true,
+                children: [
+                    ["/en/blue-team-research/doctrine-strategy/", "Overview"],
+                    ["/en/blue-team-research/doctrine-strategy/us-strategy-doctrine", "U.S. Strategy & Doctrine"],
+                    ["/en/blue-team-research/doctrine-strategy/literature-index", "Literature Index & Extract Rules"],
+                    ["/en/blue-team-research/doctrine-strategy/terminology", "Terms & Acronyms"],
+                ],
+            },
+            {
+                title: "Equipment & Technology",
+                path: "/en/blue-team-research/equipment-tech/",
+                collapsable: true,
+                children: [
+                    ["/en/blue-team-research/equipment-tech/", "Overview"],
+                    ["/en/blue-team-research/equipment-tech/sda-programs", "SDA & Related Programs"],
+                    ["/en/blue-team-research/equipment-tech/spacex-role", "SpaceX & Industry Roles"],
+                    ["/en/blue-team-research/equipment-tech/architecture-programs", "Architectures & Programs"],
+                    ["/en/blue-team-research/equipment-tech/commercial-participation", "Commercial Participation"],
+                ],
+            },
+            {
+                title: "Operations & Scenarios",
+                path: "/en/blue-team-research/operations-application/",
+                collapsable: true,
+                children: [
+                    ["/en/blue-team-research/operations-application/", "Overview"],
+                    ["/en/blue-team-research/operations-application/regional-conflicts", "Space in Regional Conflicts"],
+                    ["/en/blue-team-research/operations-application/orbital-confrontation", "Orbital Confrontation Focus"],
+                    ["/en/blue-team-research/operations-application/kill-chain-focus", "Kill-Chain Focus"],
+                    ["/en/blue-team-research/operations-application/scenario-analysis", "Scenarios & Evidence"],
+                    ["/en/blue-team-research/operations-application/crosswalk", "Doctrine–Capability–Employment"],
+                ],
+            },
+            {
+                title: "Knowledge Base & RAG",
+                path: "/en/blue-team-research/knowledge-rag/",
+                collapsable: true,
+                children: [
+                    ["/en/blue-team-research/knowledge-rag/", "Overview"],
+                    ["/en/blue-team-research/knowledge-rag/search-metadata", "Search & Metadata"],
+                    ["/en/blue-team-research/knowledge-rag/rag-roadmap", "Knowledge Services Roadmap"],
+                ],
+            },
+        ],
+    },
+];
+
 // VuePress 1.x multi-sidebar config
 const sidebarConfigEn = {
     "/en/glossary/": glossarySidebar,
     "/en/resources-tools/": resourcesToolsSidebar,
+    "/en/blue-team-research/": blueTeamResearchSidebar,
     "/en/what-is-cislunarspace/": mainSidebar,
     "/en/cislunar-orbits/": mainSidebar,
     "/en/research-frontiers/": mainSidebar,

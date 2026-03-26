@@ -15,6 +15,10 @@ export default [
         link: '/resources-tools/'
     },
     {
+        text: "蓝军研究",
+        link: '/blue-team-research/'
+    },
+    {
         text: "AI问答",
         link: '/ai-chat'
     },
