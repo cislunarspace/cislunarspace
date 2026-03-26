@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Doctrine & Strategy
+title: Blue Team Research · Doctrine & Strategy
 description: "Indexes and notes on public strategy, doctrine, and policy."
 permalink: /en/blue-team-research/doctrine-strategy/
 author: 天疆说
@@ -12,7 +12,7 @@ lastUpdated: 2026-03-26
 
 ## Content
 
-This track traces how adversary space operations, force development, and command relationships are described in **public** texts, linking doctrine, strategy, and policy for use by equipment and operations tracks.
+This track traces how adversary space operations, force development, and command relationships are described in **public** texts, linking doctrine, strategy, and policy for use by equipment and operations tracks. See [U.S. strategy & doctrine system](./us-strategy-doctrine) for the dedicated deep dive on doctrine-grounded action.
 
 ## Sources
 

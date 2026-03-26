@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Literature Index & Extract Rules
+title: Blue Team Research · Literature Index & Extract Rules
 description: "Public literature index fields, extract format, and version control."
 permalink: /en/blue-team-research/doctrine-strategy/literature-index
 author: 天疆说

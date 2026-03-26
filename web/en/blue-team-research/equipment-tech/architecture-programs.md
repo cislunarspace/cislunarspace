@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: Cislunar Space Guide | Architectures & Programs
+title: Blue Team Research · Architectures & Programs
 description: "Layering public space capabilities and program timelines."
 permalink: /en/blue-team-research/equipment-tech/architecture-programs
 author: 天疆说

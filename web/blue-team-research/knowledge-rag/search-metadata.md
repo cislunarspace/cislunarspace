@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: 地月空间入门指南 | 检索与元数据
+title: 蓝军研究 · 检索与元数据
 description: 全文检索字段、元数据规范与更新机制。
 permalink: /blue-team-research/knowledge-rag/search-metadata
 author: 天疆说
