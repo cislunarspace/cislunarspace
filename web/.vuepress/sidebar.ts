@@ -91,6 +91,26 @@ const resourcesToolsSidebar = [
     }
 ];
 
+// Space News 独立侧边栏（按年/月扩展时在此追加子链接）
+const spaceNewsSidebar = [
+    {
+        title: "Space News",
+        collapsable: false,
+        children: [
+            ["/space-news/", "首页"],
+            ["/space-news/archive", "按日期查阅"],
+            {
+                title: "2026",
+                path: "/space-news/2026/",
+                collapsable: true,
+                children: [
+                    ["/space-news/2026/03/", "2026年3月"],
+                ],
+            },
+        ],
+    },
+];
+
 // 蓝军研究独立侧边栏（结构同「地月空间科学研究前沿」：概述 + 分栏下概述与子主题）
 const blueTeamResearchSidebar = [
     {
@@ -159,6 +179,9 @@ const sidebarConfig = {
 
     // 蓝军研究
     "/blue-team-research/": blueTeamResearchSidebar,
+
+    // Space News
+    "/space-news/": spaceNewsSidebar,
     
     // 主要页面使用主侧边栏
     "/what-is-cislunarspace/": mainSidebar,

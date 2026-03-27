@@ -61,6 +61,26 @@ const resourcesToolsSidebar = [
     }
 ];
 
+// Space News sidebar (English) — add new months under the year group as you publish
+const spaceNewsSidebar = [
+    {
+        title: "Space News",
+        collapsable: false,
+        children: [
+            ["/en/space-news/", "Home"],
+            ["/en/space-news/archive", "Archive by date"],
+            {
+                title: "2026",
+                path: "/en/space-news/2026/",
+                collapsable: true,
+                children: [
+                    ["/en/space-news/2026/03/", "March 2026"],
+                ],
+            },
+        ],
+    },
+];
+
 // Blue team research sidebar (English) — overview + nested groups like Research Frontiers
 const blueTeamResearchSidebar = [
     {
@@ -123,6 +143,7 @@ const sidebarConfigEn = {
     "/en/glossary/": glossarySidebar,
     "/en/resources-tools/": resourcesToolsSidebar,
     "/en/blue-team-research/": blueTeamResearchSidebar,
+    "/en/space-news/": spaceNewsSidebar,
     "/en/what-is-cislunarspace/": mainSidebar,
     "/en/cislunar-orbits/": mainSidebar,
     "/en/research-frontiers/": mainSidebar,

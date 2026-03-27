@@ -19,6 +19,10 @@ export default [
         link: '/blue-team-research/'
     },
     {
+        text: "Space News",
+        link: '/space-news/'
+    },
+    {
         text: "AI问答",
         link: '/ai-chat'
     },
