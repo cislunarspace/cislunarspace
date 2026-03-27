@@ -1,4 +1,6 @@
 // Main sidebar configuration (English)
+const autoSidebar = require('./sidebar.auto.json');
+
 const mainSidebar = [
     {
         title: "What Is Cislunar Space",
@@ -61,34 +63,8 @@ const resourcesToolsSidebar = [
     }
 ];
 
-// Space News sidebar (English) — add new months under the year group as you publish
-const spaceNewsSidebar = [
-    {
-        title: "Space News",
-        collapsable: false,
-        children: [
-            ["/en/space-news/", "Home"],
-            ["/en/space-news/archive", "Archive by date"],
-            {
-                title: "2025",
-                path: "/en/space-news/2025/",
-                collapsable: true,
-                children: [
-                    ["/en/space-news/2025/03/", "March 2025"],
-                ],
-            },
-            {
-                title: "2026",
-                path: "/en/space-news/2026/",
-                collapsable: true,
-                children: [
-                    ["/en/space-news/2026/02/", "February 2026"],
-                    ["/en/space-news/2026/03/", "March 2026"],
-                ],
-            },
-        ],
-    },
-];
+// Space News sidebar (English) — dynamically generated
+const spaceNewsSidebar = autoSidebar.en;
 
 // Blue team research sidebar (English) — overview + nested groups like Research Frontiers
 const blueTeamResearchSidebar = [
