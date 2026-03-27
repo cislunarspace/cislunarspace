@@ -33,6 +33,10 @@ lastUpdated: 2026-03-27
 | Mar 24 | [Progress 94 cargo ship docks to the ISS for Expedition 74](./2026-03-24-roscosmos-progress-94-iss/) |
 | Mar 26 | [China launches Siwei Gaojing-2 05 & 06 satellites](./2026-03-26-china-siwei-gaojing-2-05-06/) |
 | Mar 26 | [SpaceX Starlink 17-17 launch from Vandenberg](./2026-03-26-spacex-starlink-vandenberg-17-17/) |
+| Mar 27 | [NASA Artemis II Crewed Lunar Mission Enters Final Week Countdown](./2026-03-27-artemis-2-one-week-away/) |
+| Mar 27 | [NASA Developing First Nuclear-Powered Interplanetary Spacecraft](./2026-03-27-nasa-nuclear-spacecraft/) |
+| Mar 27 | [ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron](./2026-03-27-esa-celeste-rocket-lab-launch-preview/) |
+| Mar 27 | [ESA Video: How Europe Will Power the Journey to the Moon and Back](./2026-03-27-esa-artemis-2-european-service-module/) |
 
 ---
 
