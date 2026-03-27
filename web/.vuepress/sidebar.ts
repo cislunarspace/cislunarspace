@@ -112,6 +112,7 @@ const spaceNewsSidebar = [
                 path: "/space-news/2026/",
                 collapsable: true,
                 children: [
+                    ["/space-news/2026/02/", "2026年2月"],
                     ["/space-news/2026/03/", "2026年3月"],
                 ],
             },
