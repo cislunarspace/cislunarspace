@@ -82,6 +82,7 @@ const spaceNewsSidebar = [
                 path: "/en/space-news/2026/",
                 collapsable: true,
                 children: [
+                    ["/en/space-news/2026/02/", "February 2026"],
                     ["/en/space-news/2026/03/", "March 2026"],
                 ],
             },
