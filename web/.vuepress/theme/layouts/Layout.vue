@@ -29,6 +29,22 @@
 
     <Home v-if="$page.frontmatter.home" />
 
+    <div
+      v-else-if="$page.frontmatter.layout === 'SpaceNewsHome'"
+      class="page space-news-layout-root"
+    >
+      <SpaceNewsHome />
+      <Footer />
+    </div>
+
+    <div
+      v-else-if="$page.frontmatter.layout === 'SpaceNewsArchive'"
+      class="page space-news-layout-root"
+    >
+      <SpaceNewsArchive />
+      <Footer />
+    </div>
+
     <Page
       v-else
       :sidebar-items="sidebarItems"
@@ -66,11 +82,13 @@ import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import PageSidebar from '@theme/components/ExtraSidebar.vue'
 import Footer from "@theme/components/Footer.vue";
+import SpaceNewsHome from '@theme/components/SpaceNewsHome.vue'
+import SpaceNewsArchive from '@theme/components/SpaceNewsArchive.vue'
 import { resolveSidebarItems, resolveHeaders } from '../util'
 
 
 export default {
-  components: { Home, Page, Sidebar, Navbar, PageSidebar, Footer },
+  components: { Home, Page, Sidebar, Navbar, PageSidebar, Footer, SpaceNewsHome, SpaceNewsArchive },
 
   data () {
     return {
@@ -109,6 +127,10 @@ export default {
 
     shouldShowPageSidebar (){
         const { frontmatter } = this.$page
+
+        if (frontmatter.layout === 'SpaceNewsHome' || frontmatter.layout === 'SpaceNewsArchive') {
+          return false
+        }
 
         return (
             !frontmatter.home
