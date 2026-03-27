@@ -1,0 +1,86 @@
+{
+  "zh": [
+    {
+      "title": "Space News",
+      "collapsable": false,
+      "children": [
+        [
+          "/space-news/",
+          "首页"
+        ],
+        [
+          "/space-news/archive",
+          "按日期查阅"
+        ],
+        {
+          "title": "2026",
+          "path": "/space-news/2026/",
+          "collapsable": true,
+          "children": [
+            [
+              "/space-news/2026/03/",
+              "2026年3月"
+            ],
+            [
+              "/space-news/2026/02/",
+              "2026年2月"
+            ]
+          ]
+        },
+        {
+          "title": "2025",
+          "path": "/space-news/2025/",
+          "collapsable": true,
+          "children": [
+            [
+              "/space-news/2025/03/",
+              "2025年3月"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "title": "Space News",
+      "collapsable": false,
+      "children": [
+        [
+          "/en/space-news/",
+          "Home"
+        ],
+        [
+          "/en/space-news/archive",
+          "Archive by date"
+        ],
+        {
+          "title": "2026",
+          "path": "/en/space-news/2026/",
+          "collapsable": true,
+          "children": [
+            [
+              "/en/space-news/2026/03/",
+              "March 2026"
+            ],
+            [
+              "/en/space-news/2026/02/",
+              "February 2026"
+            ]
+          ]
+        },
+        {
+          "title": "2025",
+          "path": "/en/space-news/2025/",
+          "collapsable": true,
+          "children": [
+            [
+              "/en/space-news/2025/03/",
+              "March 2025"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

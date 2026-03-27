@@ -1,4 +1,6 @@
 // 主侧边栏配置
+const autoSidebar = require('./sidebar.auto.json');
+
 const mainSidebar = [
     {
         title: "地月空间是什么",
@@ -91,34 +93,8 @@ const resourcesToolsSidebar = [
     }
 ];
 
-// Space News 独立侧边栏（按年/月扩展时在此追加子链接）
-const spaceNewsSidebar = [
-    {
-        title: "Space News",
-        collapsable: false,
-        children: [
-            ["/space-news/", "首页"],
-            ["/space-news/archive", "按日期查阅"],
-            {
-                title: "2025",
-                path: "/space-news/2025/",
-                collapsable: true,
-                children: [
-                    ["/space-news/2025/03/", "2025年3月"],
-                ],
-            },
-            {
-                title: "2026",
-                path: "/space-news/2026/",
-                collapsable: true,
-                children: [
-                    ["/space-news/2026/02/", "2026年2月"],
-                    ["/space-news/2026/03/", "2026年3月"],
-                ],
-            },
-        ],
-    },
-];
+// Space News 独立侧边栏（动态生成）
+const spaceNewsSidebar = autoSidebar.zh;
 
 // 蓝军研究独立侧边栏（结构同「地月空间科学研究前沿」：概述 + 分栏下概述与子主题）
 const blueTeamResearchSidebar = [

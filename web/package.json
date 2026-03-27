@@ -2,8 +2,9 @@
   "name": "cislunarspace",
   "version": "2.0.0",
   "scripts": {
-    "docs:dev": "vuepress dev . --host 0.0.0.0",
-    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build ."
+    "gen-sidebar": "node .vuepress/gen-sidebar.js",
+    "docs:dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
+    "docs:build": "npm run gen-sidebar && set NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build ."
   },
   "license": "MIT",
   "devDependencies": {
