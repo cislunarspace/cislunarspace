@@ -5,7 +5,7 @@ description: 公开战略、条令与政策文献之整理与索引。
 permalink: /blue-team-research/doctrine-strategy/
 author: 天疆说
 date: 2026-03-26
-lastUpdated: 2026-03-26
+lastUpdated: 2026-03-27
 ---
 
 # 条令条例与战略文件 · 概述
@@ -13,6 +13,8 @@ lastUpdated: 2026-03-26
 ## 研究内容
 
 本方向研究对手在公开文献中对太空作战、力量建设与指挥关系的表述，建立**条令—战略—政策**之间的文本线索，为装备与作战应用研究提供依据。专设 [美军战略文件与条令体系](./us-strategy-doctrine) 子题，落实「行动以条令为依据」的深挖要求。
+
+为方便离线阅读与对照，本站托管了美国太空军《条令文件 1》（Space Force Doctrine Document 1）系列公开 PDF 的镜像，**简介与下载链接**见 [美军战略文件与条令体系 · 公开条令资料](./us-strategy-doctrine#sfdd1)。
 
 ## 资料来源
 

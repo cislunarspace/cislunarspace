@@ -7,7 +7,7 @@ date: 2026-03-07
 lastUpdated: 2026-03-07
 layout: Page
 sidebar: /
-permalink: /research-frontiers/directions/
+permalink: /research-frontiers/directions/orbital-game/
 wechatShare:
   title: 地月空间研究方向与前沿热点 | 轨道博弈
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
