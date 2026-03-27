@@ -70,6 +70,14 @@ const spaceNewsSidebar = [
             ["/en/space-news/", "Home"],
             ["/en/space-news/archive", "Archive by date"],
             {
+                title: "2025",
+                path: "/en/space-news/2025/",
+                collapsable: true,
+                children: [
+                    ["/en/space-news/2025/03/", "March 2025"],
+                ],
+            },
+            {
                 title: "2026",
                 path: "/en/space-news/2026/",
                 collapsable: true,
