@@ -100,6 +100,14 @@ const spaceNewsSidebar = [
             ["/space-news/", "首页"],
             ["/space-news/archive", "按日期查阅"],
             {
+                title: "2025",
+                path: "/space-news/2025/",
+                collapsable: true,
+                children: [
+                    ["/space-news/2025/03/", "2025年3月"],
+                ],
+            },
+            {
                 title: "2026",
                 path: "/space-news/2026/",
                 collapsable: true,
