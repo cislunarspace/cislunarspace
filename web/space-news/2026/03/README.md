@@ -40,6 +40,8 @@ lastUpdated: 2026-03-27
 | 3-27 | [欧洲之力：Artemis II 任务「欧洲服务舱」详解视频发布](./2026-03-27-esa-artemis-2-european-service-module/) |
 | 3-27 | [我国成功发射试验三十三号卫星](./2026-03-27-china-shiyan-33/) |
 | 3-27 | [中欧联合研制的"微笑"卫星完成发射前准备，计划4月9日发射](./2026-03-27-china-esa-smile-satellite/) |
+| 3-28 | [NASA Artemis II 航天员乘组抵达肯尼迪航天中心](./2026-03-28-artemis-2-crew-arrive-ksc/) |
+| 3-28 | [NASA 航天员 Mike Fincke 披露 Crew-11 提前返航医学事件详情](./2026-03-28-mike-fincke-medical-event/) |
 | 3-28 | [ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启](./2026-03-28-celeste-rocket-lab-launch/) |
 
 ---
