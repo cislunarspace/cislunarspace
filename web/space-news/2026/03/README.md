@@ -33,10 +33,14 @@ lastUpdated: 2026-03-27
 | 3-24 | [进步 MS 货运飞船与空间站对接补给第 74 远征队](./2026-03-24-roscosmos-progress-94-iss/) |
 | 3-26 | [我国成功发射四维高景二号05、06星](./2026-03-26-china-siwei-gaojing-2-05-06/) |
 | 3-26 | [SpaceX 自范登堡发射 Starlink 17-17 任务](./2026-03-26-spacex-starlink-vandenberg-17-17/) |
+| 3-27 | [NASA Artemis II 航天服公布](./2026-03-27-artemis-2-crew-suits/) |
 | 3-27 | [NASA Artemis II 载人绕月任务进入最后一周倒计时](./2026-03-27-artemis-2-one-week-away/) |
 | 3-27 | [NASA 正在开发首个核动力星际飞船](./2026-03-27-nasa-nuclear-spacecraft/) |
 | 3-27 | [欧洲卫星导航增强系统首星即将发射——Rocket Lab 为 ESA 执行 Celeste 任务](./2026-03-27-esa-celeste-rocket-lab-launch-preview/) |
 | 3-27 | [欧洲之力：Artemis II 任务「欧洲服务舱」详解视频发布](./2026-03-27-esa-artemis-2-european-service-module/) |
+| 3-27 | [我国成功发射试验三十三号卫星](./2026-03-27-china-shiyan-33/) |
+| 3-27 | [中欧联合研制的"微笑"卫星完成发射前准备，计划4月9日发射](./2026-03-27-china-esa-smile-satellite/) |
+| 3-28 | [ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启](./2026-03-28-celeste-rocket-lab-launch/) |
 
 ---
 
