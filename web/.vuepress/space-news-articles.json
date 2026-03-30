@@ -1,0 +1,718 @@
+{
+  "zh": [
+    {
+      "relativePath": "space-news/2025/03/2025-03-26-china-tianlian-ii-04.md",
+      "path": "/space-news/2025/03/2025-03-26-china-tianlian-ii-04/",
+      "title": "我国成功发射天链二号04星",
+      "description": "3 月 26 日 23 时 55 分，长征三号乙运载火箭在西昌成功将天链二号04星送入预定轨道；长征系列第 565 次飞行。",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "space-news/2025/03/2025-03-26-cygnus-ng-22-canceled.md",
+      "path": "/space-news/2025/03/2025-03-26-cygnus-ng-22-canceled/",
+      "title": "NASA 与诺格取消 Cygnus NG-22 货运任务",
+      "description": "因加压货运舱在运输中受损，NASA 与诺斯洛普·格鲁曼取消原计划约 2025 年 6 月发射的 NG-22；下一艘 Cygnus（NG-23）不早于 2025 年秋。",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire.md",
+      "path": "/space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire/",
+      "title": "Rocket Lab 部署 OroraTech 野火监测卫星",
+      "description": "Electron 火箭自新西兰玛西亚将 8 颗 OTC-P1 卫星送入约 550 km 轨道，为德国 OroraTech 野火监测星座一期任务。",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "space-news/2025/03/2025-03-26-spacex-starlink-vandenberg.md",
+      "path": "/space-news/2025/03/2025-03-26-spacex-starlink-vandenberg/",
+      "title": "SpaceX 范登堡发射 Starlink 批次",
+      "description": "猎鹰 9 号自加利福尼亚范登堡太空军基地执行 Starlink 组网发射，一级海上回收。（媒体直播与报道）",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "space-news/2025/03/2025-03-27-nasa-spacex-crew-11.md",
+      "path": "/space-news/2025/03/2025-03-27-nasa-spacex-crew-11/",
+      "title": "NASA 公布 SpaceX Crew-11 乘组",
+      "description": "NASA 公布执行国际空间站轮换的 Crew-11 任务四名航天员名单，计划不早于 2025 年 7 月发射。",
+      "date": "2025-03-27",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/01/2026-01-blue-origin-pauses-tourism.md",
+      "path": "/space-news/2026/01/2026-01-blue-origin-pauses-tourism/",
+      "title": "Blue Origin 宣布暂停新谢泼德亚轨道旅游飞行",
+      "description": "2026 年 1 月，Blue Origin 宣布 New Shepard 亚轨道飞行器将暂停至少 2 年，将资源转向月球能力开发。",
+      "date": "2026-01-30",
+      "lastUpdated": "2026-01-30"
+    },
+    {
+      "relativePath": "space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss.md",
+      "path": "/space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss/",
+      "title": "NASA SpaceX Crew-12 载人飞船发射前往国际空间站",
+      "description": "2026 年 2 月 13 日，Crew-12 乘组乘猎鹰 9 号与龙飞船自佛罗里达州卡角 SLC-40 升空，前往国际空间站；为商业载人计划第 12 次轮换任务。",
+      "date": "2026-02-13",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight.md",
+      "path": "/space-news/2026/03/2026-03-13-china-long-march-8a maiden-flight/",
+      "title": "长征八号甲运载火箭首飞成功",
+      "description": "2026 年 3 月 13 日，长征八号甲运载火箭自海南商业航天发射场成功首飞，将卫星互联网低轨 20 组卫星送入轨道。",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-13-china-long-march-dual-launch.md",
+      "path": "/space-news/2026/03/2026-03-13-china-long-march-dual-launch/",
+      "title": "长征系列运载火箭三小时内两次发射成功",
+      "description": "2026 年 3 月 13 日，长征八号甲在海南商业发射场、长征二号丁在西昌卫星发射中心相继升空，分别部署卫星互联网低轨组与试验三十号 03、04 星。",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-13-china-shiyan-30-03-04.md",
+      "path": "/space-news/2026/03/2026-03-13-china-shiyan-30-03-04/",
+      "title": "试验三十号卫星03、04星发射成功",
+      "description": "2026 年 3 月 13 日，长征二号丁运载火箭自西昌卫星发射中心成功发射试验三十号卫星03、04星。",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-13-spacex-starlink-17-31.md",
+      "path": "/space-news/2026/03/2026-03-13-spacex-starlink-17-31/",
+      "title": "SpaceX 自范登堡发射 Starlink 17-31 任务",
+      "description": "2026 年 3 月 13 日，猎鹰 9 号自范登堡太空军基地执行 Starlink 17-31 任务，一级助推器 B1071 完成第 32 次飞行后在海上回收。",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-15-china-yaogan-50-02.md",
+      "path": "/space-news/2026/03/2026-03-15-china-yaogan-50-02/",
+      "title": "我国成功发射遥感五十号02星",
+      "description": "2026 年 3 月 15 日，长征六号改运载火箭在太原卫星发射中心成功将遥感五十号 02 星送入预定轨道；长征系列第 633 次飞行。",
+      "date": "2026-03-15",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-16-china-kuizhou-11-yao7.md",
+      "path": "/space-news/2026/03/2026-03-16-china-kuizhou-11-yao7/",
+      "title": "快舟十一号遥七运载火箭发射成功",
+      "description": "2026 年 3 月 16 日，快舟十一号遥七运载火箭自酒泉卫星发射中心成功发射，搭载 8 颗卫星。",
+      "date": "2026-03-16",
+      "lastUpdated": "2026-03-16"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-16-china-shenzhou-21-eva.md",
+      "path": "/space-news/2026/03/2026-03-16-china-shenzhou-21-eva/",
+      "title": "神舟二十一号航天员乘组完成第二次出舱活动",
+      "description": "2026 年 3 月 16 日，神舟二十一号航天员乘组在空间站机械臂和地面科技人员密切协同下完成第二次出舱活动。",
+      "date": "2026-03-16",
+      "lastUpdated": "2026-03-16"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-16-spacex-starlink-17-24.md",
+      "path": "/space-news/2026/03/2026-03-16-spacex-starlink-17-24/",
+      "title": "SpaceX 自范登堡发射 Starlink 17-24 任务",
+      "description": "2026 年 3 月 16 日，猎鹰 9 号自范登堡太空军基地执行 Starlink 17-24 任务，一级助推器 B1088 完成第 14 次飞行后在海上回收，SpaceX Starlink 在轨卫星突破 10,000 颗。",
+      "date": "2026-03-16",
+      "lastUpdated": "2026-03-16"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-17-spacex-starlink-10-46.md",
+      "path": "/space-news/2026/03/2026-03-17-spacex-starlink-10-46/",
+      "title": "SpaceX 自卡纳维拉尔角发射 Starlink 10-46 任务",
+      "description": "2026 年 3 月 17 日，猎鹰 9 号自卡纳维拉尔角太空军基地执行 Starlink 10-46 任务，一级助推器 B1090 完成第 11 次飞行后在海上回收。",
+      "date": "2026-03-17",
+      "lastUpdated": "2026-03-17"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-18-nasa-eva-94-iss.md",
+      "path": "/space-news/2026/03/2026-03-18-nasa-eva-94-iss/",
+      "title": "NASA 航天员完成 ISS US EVA 94 太空行走",
+      "description": "2026 年 3 月 18 日，NASA 航天员 Jessica Meir 和 Chris Williams 完成 ISS US EVA 94 太空行走，主要任务为准备安装 Roll-Out Solar Arrays (IROSA)。",
+      "date": "2026-03-18",
+      "lastUpdated": "2026-03-18"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-19-nasa-artemis-2-sls-rollout.md",
+      "path": "/space-news/2026/03/2026-03-19-nasa-artemis-2-sls-rollout/",
+      "title": "Artemis II 任务 SLS 火箭转往发射台",
+      "description": "2026 年 3 月 19 日，NASA 将 SLS 火箭从 Vehicle Assembly Building 转往发射台，准备执行首次载人绕月任务。",
+      "date": "2026-03-19",
+      "lastUpdated": "2026-03-19"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-19-spacex-starlink-10-33.md",
+      "path": "/space-news/2026/03/2026-03-19-spacex-starlink-10-33/",
+      "title": "SpaceX 自卡纳维拉尔角发射 Starlink 10-33 任务",
+      "description": "2026 年 3 月 19 日，猎鹰 9 号自卡纳维拉尔角太空军基地执行 Starlink 10-33 任务，一级助推器 B1077 完成第 27 次飞行后在海上回收。",
+      "date": "2026-03-19",
+      "lastUpdated": "2026-03-19"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-20-rocket-lab-strix.md",
+      "path": "/space-news/2026/03/2026-03-20-rocket-lab-strix/",
+      "title": "Rocket Lab 发射 Strix 地球观测雷达卫星",
+      "description": "2026 年 3 月 20 日，Electron 火箭自新西兰成功发射 Strix 卫星，为日本 Synspective 公司提供地球观测雷达数据。",
+      "date": "2026-03-20",
+      "lastUpdated": "2026-03-20"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-20-spacex-starlink-17-15.md",
+      "path": "/space-news/2026/03/2026-03-20-spacex-starlink-17-15/",
+      "title": "SpaceX 自范登堡发射 Starlink 17-15 任务",
+      "description": "2026 年 3 月 20 日，猎鹰 9 号自范登堡太空军基地执行 Starlink 17-15 任务，一级助推器 B1100 完成第 4 次飞行后在海上回收。",
+      "date": "2026-03-20",
+      "lastUpdated": "2026-03-20"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-22-spacex-starlink-10-62.md",
+      "path": "/space-news/2026/03/2026-03-22-spacex-starlink-10-62/",
+      "title": "SpaceX 自卡纳维拉尔角发射 Starlink 10-62 任务",
+      "description": "2026 年 3 月 22 日，猎鹰 9 号自卡纳维拉尔角太空军基地执行 Starlink 10-62 任务，一级助推器 B1078 完成第 27 次飞行后在海上回收。",
+      "date": "2026-03-22",
+      "lastUpdated": "2026-03-22"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-24-nasa-moon-base-plan.md",
+      "path": "/space-news/2026/03/2026-03-24-nasa-moon-base-plan/",
+      "title": "NASA 公布 200 亿美元月球基地计划",
+      "description": "2026 年 3 月 24 日，NASA 公布未来 7 年约 200 亿美元的月球基地计划，目标建立半永久性月球基地。",
+      "date": "2026-03-24",
+      "lastUpdated": "2026-03-24"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-24-roscosmos-progress-94-iss.md",
+      "path": "/space-news/2026/03/2026-03-24-roscosmos-progress-94-iss/",
+      "title": "进步 MS 货运飞船与空间站对接补给第 74 远征队",
+      "description": "2026 年 3 月 22 日进步 94 自拜科努尔发射，24 日对接国际空间站 Poisk 舱；因交会天线未完全展开，对接阶段曾使用 TORU 手动控制。",
+      "date": "2026-03-24",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-25-cavossa-commercial-space-en.md",
+      "path": "/space-news/2026-03-25-cavossa-commercial-space-en/",
+      "title": "Commercial Space Station Companies Push Back on NASA's New Plan at House Hearing",
+      "description": "Companies developing commercial space stations to replace the ISS told a House subcommittee they want NASA to 'stick with the plan' and not make changes that are 'sowing confusion' in the industry.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06.md",
+      "path": "/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06/",
+      "title": "我国成功发射四维高景二号05、06星",
+      "description": "2026 年 3 月 26 日 6 时 51 分，长征二号丁运载火箭在太原卫星发射中心成功将四维高景二号 05、06 星送入预定轨道；长征系列第 634 次发射。",
+      "date": "2026-03-26",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-26-spacex-starlink-vandenberg-17-17.md",
+      "path": "/space-news/2026/03/2026-03-26-spacex-starlink-vandenberg-17-17/",
+      "title": "SpaceX 自范登堡发射 Starlink 17-17 任务",
+      "description": "2026 年 3 月 26 日，猎鹰 9 号自加利福尼亚州范登堡太空军基地执行 Starlink 17-17 任务，一级助推器海上回收。",
+      "date": "2026-03-26",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-artemis-2-crew-suits-zh.md",
+      "path": "/space-news/2026-03-27-artemis-2-crew-suits-zh/",
+      "title": "NASA公布Artemis II任务航天服",
+      "description": "NASA公布了Artemis II任务中4名航天员将穿戴的Orion机组生存系统航天服。",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-artemis-2-one-week-away-zh.md",
+      "path": "/space-news/2026/03/2026-03-27-artemis-2-one-week-away/",
+      "title": "NASA Artemis II 载人绕月任务进入最后一周倒计时",
+      "description": "2026 年 3 月 27 日，距 NASA Artemis II 发射仅剩一周，各项准备工作进入最终阶段。本次任务将是自阿波罗时代以来人类首次重返月球轨道。",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-china-esa-smile-satellite-en.md",
+      "path": "/space-news/2026-03-27-china-esa-smile-satellite-en/",
+      "title": "China-Europe SMILE Satellite Completes Pre-Launch Preparations Ahead of April 9 Launch",
+      "description": "The China Academy of Sciences announced on March 26, 2026 that the China-ESA joint SMILE satellite has completed all pre-launch preparations at the Kourou Launch Center, scheduled for April 9 local time aboard Vega-C.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-china-esa-smile-satellite-zh.md",
+      "path": "/space-news/2026/03/2026-03-27-china-esa-smile-satellite/",
+      "title": "中欧联合研制的\"微笑\"卫星完成发射前准备，计划4月9日发射",
+      "description": "2026 年 3 月 26 日，中科院与欧洲空间局联合研制的太阳风—磁层相互作用全景成像卫星（ SMILE）在库鲁航天发射中心完成所有发射前准备工作，计划于当地时间 4 月 9 日发射升空。",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-28"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-china-shiyan-33-en.md",
+      "path": "/space-news/2026-03-27-china-shiyan-33-en/",
+      "title": "China Launches Shiyan-33 Satellite for Space Environment Testing",
+      "description": "China successfully launched the Shiyan-33 satellite on March 27, 2026, using a Long March 2C rocket with Yuanzheng-1S upper stage from Jiuquan Satellite Launch Center.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-china-shiyan-33-zh.md",
+      "path": "/space-news/2026/03/2026-03-27-china-shiyan-33/",
+      "title": "我国成功发射试验三十三号卫星",
+      "description": "2026 年 3 月 27 日，我国在酒泉卫星发射中心使用长征二号丙运载火箭/远征一号S上面级，成功将试验三十三号卫星发射升空，卫星顺利进入预定轨道。",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-28"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module-zh.md",
+      "path": "/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module/",
+      "title": "欧洲之力：Artemis II 任务「欧洲服务舱」详解视频发布",
+      "description": "2026 年 3 月 27 日，ESA 发布视频详解 Artemis II 任务核心——欧洲服务舱（European Service Module），阐释欧洲如何为人类重返月球提供推进、电力与生命保障。",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview-zh.md",
+      "path": "/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview/",
+      "title": "欧洲卫星导航增强系统首星即将发射——Rocket Lab 为 ESA 执行 Celeste 任务",
+      "description": "2026 年 3 月 27 日，ESA 宣布其首批 Celeste 卫星将于 3 月 28 日由 Rocket Lab Electron 火箭从新西兰发射，这是欧洲首个低轨卫星导航增强（LEO-PNT）任务。",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-en.md",
+      "path": "/space-news/2026-03-27-nasa-nuclear-spacecraft-en/",
+      "title": "NASA Developing First Nuclear-Powered Interplanetary Spacecraft",
+      "description": "NASA is working on the first nuclear-powered interplanetary spacecraft, marking a new era in deep space exploration capabilities.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-zh.md",
+      "path": "/space-news/2026-03-27-nasa-nuclear-spacecraft-zh/",
+      "title": "NASA正在开发首个核动力星际飞船",
+      "description": "NASA正在开发首个核动力星际飞船，标志着深空探索能力进入新时代。",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc-en.md",
+      "path": "/space-news/2026-03-28-artemis-2-crew-arrive-ksc-en/",
+      "title": "Artemis II Crew Arrives at Kennedy Space Center Ahead of Moon Mission",
+      "description": "The four Artemis II astronauts and their backups arrived at Kennedy Space Center on March 27, 2026, ahead of their historic flight around the Moon scheduled for April 1.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc-zh.md",
+      "path": "/space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc/",
+      "title": "NASA Artemis II 航天员乘组抵达肯尼迪航天中心",
+      "description": "2026 年 3 月 27 日，NASA Artemis II 四大航天员乘组及备份乘组抵达肯尼迪航天中心，执行历史性的绕月飞行任务，发射窗口暂定 4 月 1 日。",
+      "date": "2026-03-28",
+      "lastUpdated": "2026-03-28"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-28-celeste-rocket-lab-launch-en.md",
+      "path": "/space-news/2026-03-28-celeste-rocket-lab-launch-en/",
+      "title": "ESA's First Celeste Satellites Successfully Launched — Europe's LEO Navigation Augmentation Era Begins",
+      "description": "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard Rocket Lab's Electron rocket from New Zealand, marking the beginning of Europe's LEO-PNT era.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-28-celeste-rocket-lab-launch-zh.md",
+      "path": "/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch/",
+      "title": "ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启",
+      "description": "2026 年 3 月 28 日，ESA 首两颗 Celeste 卫星由 Rocket Lab Electron 火箭成功发射升空，欧洲低轨卫星导航增强（LEO-PNT）时代正式开启。",
+      "date": "2026-03-28",
+      "lastUpdated": "2026-03-28"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-28-mike-fincke-medical-event-en.md",
+      "path": "/space-news/2026-03-28-mike-fincke-medical-event-en/",
+      "title": "NASA Astronaut Mike Fincke Shares Details About Medical Event That Ended Crew-11 Mission Early",
+      "description": "NASA astronaut Mike Fincke has revealed more about the medical event that caused the Crew-11 mission to return to Earth more than a month ahead of schedule in January 2026.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-28-mike-fincke-medical-event-zh.md",
+      "path": "/space-news/2026/03/2026-03-28-mike-fincke-medical-event/",
+      "title": "NASA 航天员 Mike Fincke 披露 Crew-11 提前返航医学事件详情",
+      "description": "2026 年 3 月 28 日，NASA 航天员 Mike Fincke 首次披露了导致 Crew-11 任务提前一个多月返回地球的医学事件详情，表示事发前毫无预兆，持续约 20 分钟后自行缓解，但医生至今未查明原因。",
+      "date": "2026-03-28",
+      "lastUpdated": "2026-03-28"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events-en.md",
+      "path": "/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/",
+      "title": "Artemis II Crew Answers Media Questions as Launch Week Begins",
+      "description": "On March 29, 2026, the Artemis II crew answered reporters' questions from quarantine while NASA officials provided a mission status update, three days before the planned April 1 launch.",
+      "date": "2026-03-29",
+      "lastUpdated": "2026-03-29"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events-zh.md",
+      "path": "/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/",
+      "title": "Artemis II 乘组发射前接受媒体提问，三天后启程赴月",
+      "description": "2026 年 3 月 29 日，Artemis II 乘组在肯尼迪航天中心隔离设施中远程接受媒体提问，NASA 同步召开新闻发布会介绍任务状态，计划 4 月 1 日发射。",
+      "date": "2026-03-29",
+      "lastUpdated": "2026-03-29"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-30-artemis-2-final-preparations-en.md",
+      "path": "/space-news/2026/03/2026-03-30-artemis-2-final-preparations/",
+      "title": "Final Preparations Underway for Artemis II Moon Mission, 80% Go Weather Forecast",
+      "description": "NASA teams at Kennedy Space Center are making final preparations for the Artemis II launch countdown, with an 80% chance of favorable weather for the April 1 target.",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-03-30"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-30-artemis-2-final-preparations-zh.md",
+      "path": "/space-news/2026/03/2026-03-30-artemis-2-final-preparations/",
+      "title": "Artemis II 绕月任务进入最终准备阶段，发射日天气预报 80% 适宜发射",
+      "description": "NASA 肯尼迪航天中心团队正在进行 Artemis II 发射倒计时的最终准备工作，4 月 1 日发射当天天气预报显示 80% 适宜发射。",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-03-30"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-30-spacex-transporter-16-en.md",
+      "path": "/space-news/2026/03/2026-03-30-spacex-transporter-16/",
+      "title": "SpaceX Set to Launch 119 Payloads on Transporter-16 Rideshare Mission From Vandenberg",
+      "description": "On March 30, 2026, SpaceX's Falcon 9 will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads to orbit.",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-03-30"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-30-spacex-transporter-16-zh.md",
+      "path": "/space-news/2026/03/2026-03-30-spacex-transporter-16/",
+      "title": "SpaceX 将于 3 月 30 日执行 Transporter-16 拼车任务，从范登堡发射 119 个有效载荷",
+      "description": "2026 年 3 月 30 日，SpaceX 猎鹰 9 号火箭将从加利福尼亚州范登堡太空军基地执行 Transporter-16 拼车任务，携带 119 个有效载荷进入轨道。",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-03-30"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-en.md",
+      "path": "/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire/",
+      "title": "SpaceX Fires Up Next-Gen V3 Starship for First Time Ahead of April Launch",
+      "description": "SpaceX completed the first static fire test of its next-generation V3 Starship in March 2026, preparing for an April launch attempt.",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-03-30"
+    },
+    {
+      "relativePath": "space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-zh.md",
+      "path": "/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire/",
+      "title": "SpaceX 完成新一代 V3 版星舰静态点火测试，计划 4 月发射",
+      "description": "2026 年 3 月，SpaceX 完成了新一代 V3 版星舰的首次静态点火测试，为 4 月的发射任务做准备。",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-03-30"
+    },
+    {
+      "relativePath": "space-news/archive.md",
+      "path": "/space-news/archive",
+      "title": "按日期查阅 · Space News",
+      "description": "按年月分组的全部航天新闻条目索引。",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    }
+  ],
+  "en": [
+    {
+      "relativePath": "en/space-news/2025/03/2025-03-26-china-tianlian-ii-04.md",
+      "path": "/en/space-news/2025/03/2025-03-26-china-tianlian-ii-04/",
+      "title": "China launches Tianlian II-04 data-relay satellite",
+      "description": "Long March 3B lifts off from Xichang on March 26, 2025, placing the Tianlian II-04 GEO relay satellite into planned orbit; 565th Long March family flight.",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2025/03/2025-03-26-cygnus-ng-22-canceled.md",
+      "path": "/en/space-news/2025/03/2025-03-26-cygnus-ng-22-canceled/",
+      "title": "NASA and Northrop cancel Cygnus NG-22 cargo mission",
+      "description": "Pressurized cargo module damage in transit leads NASA and Northrop Grumman to drop the planned June Cygnus NG-22 ISS flight; NG-23 targeted no earlier than fall 2025.",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire.md",
+      "path": "/en/space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire/",
+      "title": "Rocket Lab launches eight OroraTech wildfire satellites",
+      "description": "Electron deploys eight OTC-P1 satellites for Germany’s OroraTech from New Zealand; Phase 1 of a planned larger constellation for wildfire monitoring.",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2025/03/2025-03-26-spacex-starlink-vandenberg.md",
+      "path": "/en/space-news/2025/03/2025-03-26-spacex-starlink-vandenberg/",
+      "title": "SpaceX Starlink launch from Vandenberg",
+      "description": "Falcon 9 lifts Starlink satellites from Vandenberg Space Force Base, California, with booster landing at sea (press coverage).",
+      "date": "2025-03-26",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2025/03/2025-03-27-nasa-spacex-crew-11.md",
+      "path": "/en/space-news/2025/03/2025-03-27-nasa-spacex-crew-11/",
+      "title": "NASA announces SpaceX Crew-11 crew assignments",
+      "description": "NASA names four crew members for the next SpaceX Crew Dragon rotation to the ISS, targeting launch no earlier than July 2025 (RELEASE 25-010).",
+      "date": "2025-03-27",
+      "lastUpdated": "2025-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/01/2026-01-blue-origin-pauses-tourism.md",
+      "path": "/en/space-news/2026/01/2026-01-blue-origin-pauses-tourism/",
+      "title": "Blue Origin pauses New Shepard suborbital tourism flights",
+      "description": "Blue Origin announces New Shepard suborbital flights to pause for at least 2 years, focusing on lunar capabilities development.",
+      "date": "2026-01-30",
+      "lastUpdated": "2026-01-30"
+    },
+    {
+      "relativePath": "en/space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss.md",
+      "path": "/en/space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss/",
+      "title": "NASA’s SpaceX Crew-12 launches to the International Space Station",
+      "description": "On Feb. 13, 2026, Crew-12 lifted off on a Falcon 9 and Dragon from Cape Canaveral SLC-40 for the 12th Commercial Crew rotation mission to the ISS.",
+      "date": "2026-02-13",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight.md",
+      "path": "/en/space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight/",
+      "title": "Long March 8A maiden flight success",
+      "description": "Long March 8A rocket makes successful maiden flight from Hainan Commercial Space Launch Site on March 13, 2026, delivering 20 satellite internet LEO satellites.",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-13-china-long-march-dual-launch.md",
+      "path": "/en/space-news/2026/03/2026-03-13-china-long-march-dual-launch/",
+      "title": "Two Long March launches within three hours in China",
+      "description": "On Mar. 13, 2026, Long March-8A lifted off from Hainan and Long March-2D from Xichang, deploying a LEO satellite internet batch and Shiyan 30C/30D satellites.",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-13-china-shiyan-30-03-04.md",
+      "path": "/en/space-news/2026/03/2026-03-13-china-shiyan-30-03-04/",
+      "title": "Shiyan-30 03 & 04 satellites launched",
+      "description": "Long March 2D rocket launches Shiyan-30 03 & 04 satellites from Xichang on March 13, 2026.",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-13-spacex-starlink-17-31.md",
+      "path": "/en/space-news/2026/03/2026-03-13-spacex-starlink-17-31/",
+      "title": "SpaceX Starlink 17-31 launch from Vandenberg",
+      "description": "Falcon 9 lifts 25 Starlink V2 Mini Optimized satellites from Vandenberg SFB on March 13, 2026; booster B1071 lands on OCISLY.",
+      "date": "2026-03-13",
+      "lastUpdated": "2026-03-13"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-15-china-yaogan-50-02.md",
+      "path": "/en/space-news/2026/03/2026-03-15-china-yaogan-50-02/",
+      "title": "China launches Yaogan-50 02 remote sensing satellite",
+      "description": "On Mar. 15, 2026, a modified Long March-6 lifted Yaogan-50 02 from Taiyuan; the flight was the 633rd mission of the Long March series.",
+      "date": "2026-03-15",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-16-china-kuizhou-11-yao7.md",
+      "path": "/en/space-news/2026/03/2026-03-16-china-kuizhou-11-yao7/",
+      "title": "Kuaizhou-11 Yaoyi-7 rocket launches with 8 satellites",
+      "description": "Kuaizhou-11 Yaoyi-7 rocket launches from Jiuquan on March 16, 2026, carrying 8 satellites including Juntian-1 04A and others.",
+      "date": "2026-03-16",
+      "lastUpdated": "2026-03-16"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-16-china-shenzhou-21-eva.md",
+      "path": "/en/space-news/2026/03/2026-03-16-china-shenzhou-21-eva/",
+      "title": "Shenzhou-21 crew completes second EVA",
+      "description": "Shenzhou-21 crew members Zhang Lu, Wu Fei, and Zhang Hongzhang complete second extravehicular activity on March 16, 2026.",
+      "date": "2026-03-16",
+      "lastUpdated": "2026-03-16"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-16-spacex-starlink-17-24.md",
+      "path": "/en/space-news/2026/03/2026-03-16-spacex-starlink-17-24/",
+      "title": "SpaceX Starlink 17-24 launch from Vandenberg",
+      "description": "Falcon 9 lifts 25 Starlink satellites from Vandenberg SFB on March 16, 2026; booster B1088 lands on OCISLY; SpaceX Starlink reaches 10,000 satellites in orbit.",
+      "date": "2026-03-16",
+      "lastUpdated": "2026-03-16"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-17-spacex-starlink-10-46.md",
+      "path": "/en/space-news/2026/03/2026-03-17-spacex-starlink-10-46/",
+      "title": "SpaceX Starlink 10-46 launch from Cape Canaveral",
+      "description": "Falcon 9 lifts 29 Starlink V2 Mini Optimized satellites from Cape Canaveral SFS on March 17, 2026; booster B1090 lands on ASOG.",
+      "date": "2026-03-17",
+      "lastUpdated": "2026-03-17"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-18-nasa-eva-94-iss.md",
+      "path": "/en/space-news/2026/03/2026-03-18-nasa-eva-94-iss/",
+      "title": "NASA astronauts complete ISS US EVA 94",
+      "description": "NASA astronauts Jessica Meir and Chris Williams complete US EVA 94 outside the ISS on March 18, 2026.",
+      "date": "2026-03-18",
+      "lastUpdated": "2026-03-18"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-19-nasa-artemis-2-sls-rollout.md",
+      "path": "/en/space-news/2026/03/2026-03-19-nasa-artemis-2-sls-rollout/",
+      "title": "Artemis II SLS rocket rolls out to launch pad",
+      "description": "NASA rolls SLS rocket from VAB to Pad 39B on March 19, 2026, ahead of first crewed lunar orbit mission planned for April.",
+      "date": "2026-03-19",
+      "lastUpdated": "2026-03-19"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-19-spacex-starlink-10-33.md",
+      "path": "/en/space-news/2026/03/2026-03-19-spacex-starlink-10-33/",
+      "title": "SpaceX Starlink 10-33 launch from Cape Canaveral",
+      "description": "Falcon 9 lifts 29 Starlink V2 Mini satellites from Cape Canaveral SFS on March 19, 2026; booster B1077 lands on JRTI.",
+      "date": "2026-03-19",
+      "lastUpdated": "2026-03-19"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-20-rocket-lab-strix.md",
+      "path": "/en/space-news/2026/03/2026-03-20-rocket-lab-strix/",
+      "title": "Rocket Lab launches Strix Earth observation radar satellite",
+      "description": "Electron rocket launches Strix satellite for Japan's Synspective from New Zealand on March 20, 2026.",
+      "date": "2026-03-20",
+      "lastUpdated": "2026-03-20"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-20-spacex-starlink-17-15.md",
+      "path": "/en/space-news/2026/03/2026-03-20-spacex-starlink-17-15/",
+      "title": "SpaceX Starlink 17-15 launch from Vandenberg",
+      "description": "Falcon 9 lifts 25 Starlink V2 Mini Optimized satellites from Vandenberg SFB on March 20, 2026; booster B1100 lands on OCISLY.",
+      "date": "2026-03-20",
+      "lastUpdated": "2026-03-20"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-22-spacex-starlink-10-62.md",
+      "path": "/en/space-news/2026/03/2026-03-22-spacex-starlink-10-62/",
+      "title": "SpaceX Starlink 10-62 launch from Cape Canaveral",
+      "description": "Falcon 9 lifts 29 Starlink V2 Mini Optimized satellites from Cape Canaveral SFS on March 22, 2026; booster B1078 lands on ASOG.",
+      "date": "2026-03-22",
+      "lastUpdated": "2026-03-22"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-24-nasa-moon-base-plan.md",
+      "path": "/en/space-news/2026/03/2026-03-24-nasa-moon-base-plan/",
+      "title": "NASA unveils $20 billion lunar base plan",
+      "description": "NASA announces $20 billion plan over seven years to establish semi-permanent lunar base on March 24, 2026.",
+      "date": "2026-03-24",
+      "lastUpdated": "2026-03-24"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-24-roscosmos-progress-94-iss.md",
+      "path": "/en/space-news/2026/03/2026-03-24-roscosmos-progress-94-iss/",
+      "title": "Progress 94 cargo ship docks to the ISS for Expedition 74",
+      "description": "Progress 94 launched from Baikonur on Mar. 22, 2026, and docked to the Poisk module on Mar. 24; TORU manual control was used after a KURS antenna failed to deploy.",
+      "date": "2026-03-24",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06.md",
+      "path": "/en/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06/",
+      "title": "China launches Siwei Gaojing-2 05 & 06 satellites",
+      "description": "Long March 2D lifts off from Taiyuan on March 26, 2026, placing two commercial radar Earth-observation satellites into orbit; 634th Long March family flight.",
+      "date": "2026-03-26",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-26-spacex-starlink-vandenberg-17-17.md",
+      "path": "/en/space-news/2026/03/2026-03-26-spacex-starlink-vandenberg-17-17/",
+      "title": "SpaceX Starlink 17-17 launch from Vandenberg",
+      "description": "Falcon 9 lifts 25 Starlink satellites from Vandenberg SFB on March 26, 2026; booster B1081 lands on OCISLY.",
+      "date": "2026-03-26",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-27-artemis-2-crew-suits-en.md",
+      "path": "/en/space-news/2026-03-27-artemis-2-crew-suits-en/",
+      "title": "NASA Unveils Artemis II Crew's Survival Suits",
+      "description": "NASA reveals the Orion Crew Survival System suits that the four Artemis II astronauts will wear for the first crewed lunar flight since Apollo.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-27-artemis-2-one-week-away-en.md",
+      "path": "/en/space-news/2026/03/2026-03-27-artemis-2-one-week-away/",
+      "title": "NASA Artemis II Crewed Lunar Mission Enters Final Week Countdown",
+      "description": "On March 27, 2026, NASA Artemis II is one week from launch — the first crewed lunar orbit flight since Apollo 17 in 1972.",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite-en.md",
+      "path": "/en/space-news/2026-03-27-china-esa-smile-satellite-en/",
+      "title": "China-EU Joint SMILE Satellite Completes Launch Preparations, Targeting April 9 Launch",
+      "description": "The China Academy of Sciences and ESA jointly announce that the SMILE (Solar wInd Magnetosphere Ionosphere Link Explorer) satellite has completed all pre-launch preparations at the Kourou Spaceport, with launch scheduled for April 9.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-27-china-shiyan-33-en.md",
+      "path": "/en/space-news/2026-03-27-china-shiyan-33-en/",
+      "title": "China Successfully Launches Shiyan-33 Satellite",
+      "description": "On March 27, 2026, China successfully launched the Shiyan-33 experimental satellite aboard a Long March 2C/Yuanzheng-1S rocket from the Jiuquan Satellite Launch Center.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module-en.md",
+      "path": "/en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module/",
+      "title": "How Europe Will Power the Journey to the Moon and Back - ESA Artemis II Service Module Video",
+      "description": "On March 27, 2026, ESA released a video explaining the European Service Module for Artemis II - providing propulsion, power, and life support for the crewed lunar orbit mission.",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview-en.md",
+      "path": "/en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview/",
+      "title": "ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron",
+      "description": "On March 27, 2026, ESA announced the first two Celeste satellites will launch on March 28 at 10:14 CET aboard a Rocket Lab Electron rocket from New Zealand — Europe's first LEO-PNT demonstration mission.",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-en.md",
+      "path": "/en/space-news/2026-03-27-nasa-nuclear-spacecraft-en/",
+      "title": "NASA Developing First Nuclear-Powered Interplanetary Spacecraft",
+      "description": "NASA is working on the first nuclear-powered interplanetary spacecraft, marking a new era in deep space exploration capabilities.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch-en.md",
+      "path": "/en/space-news/2026-03-28-celeste-rocket-lab-launch-en/",
+      "title": "ESA's First Celeste Satellites Successfully Launched — Europe's LEO-PNT Era Begins",
+      "description": "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard a Rocket Lab Electron rocket, marking the beginning of Europe's low-Earth-orbit satellite navigation augmentation era.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-30-spacex-transporter-16-en.md",
+      "path": "/en/space-news/2026-03-30-spacex-transporter-16-en/",
+      "title": "SpaceX Transporter-16 Rideshare Mission Set for March 30 Launch from Vandenberg",
+      "description": "On March 30, 2026, SpaceX's Falcon 9 rocket will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads into orbit.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-en.md",
+      "path": "/en/space-news/2026-03-30-spacex-v3-starship-static-fire-en/",
+      "title": "SpaceX Completes First Static Fire Test of Next-Gen V3 Starship Ahead of April Launch",
+      "description": "In March 2026, SpaceX successfully completed the first static fire test of the next-generation Starship Version 3, preparing for an April launch. This version will be the most powerful Starship yet.",
+      "date": null,
+      "lastUpdated": null
+    },
+    {
+      "relativePath": "en/space-news/archive.md",
+      "path": "/en/space-news/archive",
+      "title": "Archive · Space News",
+      "description": "All Space News posts grouped by year and month.",
+      "date": "2026-03-27",
+      "lastUpdated": "2026-03-27"
+    }
+  ]
+}
