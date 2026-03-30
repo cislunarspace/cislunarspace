@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Commercial Participation
 description: "Open information on launch, constellations, and services in support roles."
 permalink: /en/blue-team-research/equipment-tech/commercial-participation

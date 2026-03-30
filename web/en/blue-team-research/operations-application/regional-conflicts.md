@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Space in Regional Conflicts
 description: "Open reporting and analysis on space employment in Ukraine and Middle Eastern contexts."
 permalink: /en/blue-team-research/operations-application/regional-conflicts

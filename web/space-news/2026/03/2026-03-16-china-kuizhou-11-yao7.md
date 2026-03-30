@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 快舟十一号遥七运载火箭发射成功
 description: 2026 年 3 月 16 日，快舟十一号遥七运载火箭自酒泉卫星发射中心成功发射，搭载 8 颗卫星。
 permalink: /space-news/2026/03/2026-03-16-china-kuizhou-11-yao7/

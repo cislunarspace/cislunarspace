@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 杀伤链闭环聚焦
 description: 公开资料中对杀伤链（发现—锁定—跟踪—瞄准—交战—评估）在太空信息支援下的环节化梳理。
 permalink: /blue-team-research/operations-application/kill-chain-focus

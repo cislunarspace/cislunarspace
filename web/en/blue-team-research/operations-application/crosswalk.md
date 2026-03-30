@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Doctrine–Capability–Employment Crosswalk
 description: "Tabular cross-check between doctrine concepts, equipment, and observations."
 permalink: /en/blue-team-research/operations-application/crosswalk

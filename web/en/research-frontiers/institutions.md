@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /en/
 permalink: /en/research-frontiers/institutions/
 wechatShare:

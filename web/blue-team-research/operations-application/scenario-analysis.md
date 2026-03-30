@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 场景与证据链
 description: 作战应用场景界定、公开证据来源与矛盾点标注方法。
 permalink: /blue-team-research/operations-application/scenario-analysis

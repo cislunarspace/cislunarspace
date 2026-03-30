@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Terms & Acronyms
 description: "Terms, acronyms, and suggested translations with cited sources."
 permalink: /en/blue-team-research/doctrine-strategy/terminology

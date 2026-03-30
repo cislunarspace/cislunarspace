@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Kill-Chain Focus
 description: "Public material on kill-chain segments where space systems provide citable support."
 permalink: /en/blue-team-research/operations-application/kill-chain-focus

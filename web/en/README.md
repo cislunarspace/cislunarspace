@@ -5,7 +5,6 @@ keywords: cislunar space, beginner's guide, research frontiers, terminology, too
 author: CislunarSpace
 date: 2026-03-07
 lastUpdated: 2026-03-07
-layout: Page
 sidebar: /
 permalink: /
 heroImage: /logo.png

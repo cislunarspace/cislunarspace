@@ -5,7 +5,6 @@ keywords: AI问答, 地月空间, cislunar space, CR3BP, NRHO, 拉格朗日点, 
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
-layout: Page
 sidebar: false
 wechatShare:
   title: 地月空间入门指南 | AI问答
@@ -23,4 +22,4 @@ twitter:
   image: /logo.png
 ---
 
-<AiChat />
+<!-- AiChat - pending Vue 3 migration -->

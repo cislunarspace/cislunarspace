@@ -6,4 +6,4 @@ wechatShare:
   image: /logo.png
 ---
 
-<AiChat />
+<!-- AiChat - pending Vue 3 migration -->

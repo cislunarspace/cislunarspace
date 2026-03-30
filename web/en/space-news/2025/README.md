@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Space News · 2025 Archive
 description: Space news by month for 2025.
 permalink: /en/space-news/2025/

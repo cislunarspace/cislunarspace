@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Kuaizhou-11 Yaoyi-7 rocket launches with 8 satellites
 description: Kuaizhou-11 Yaoyi-7 rocket launches from Jiuquan on March 16, 2026, carrying 8 satellites including Juntian-1 04A and others.
 permalink: /en/space-news/2026/03/2026-03-16-china-kuizhou-11-yao7/

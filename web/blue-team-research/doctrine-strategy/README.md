@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 条令条例与战略文件
 description: 公开战略、条令与政策文献之整理与索引。
 permalink: /blue-team-research/doctrine-strategy/

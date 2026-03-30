@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 欧洲之力：Artemis II 任务「欧洲服务舱」详解视频发布
 description: 2026 年 3 月 27 日，ESA 发布视频详解 Artemis II 任务核心——欧洲服务舱（European Service Module），阐释欧洲如何为人类重返月球提供推进、电力与生命保障。
 permalink: /space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module/
@@ -12,9 +11,9 @@ lastUpdated: 2026-03-27
 
 **摘要：** 2026 年 3 月 27 日，ESA 发布专题视频 **「How Europe will power the journey to the Moon and back」**，详解 **Artemis II** 任务中由欧洲制造的 **European Service Module（欧洲服务舱，ESM）** 的关键作用——为猎户座飞船提供推进动力、电力供应与生命保障支持。
 
-![Artemis II 任务欧洲服务舱概念图（ESA）](./figures/2026-03-27-esa-artemis-2-european-service-module/esm-artemis-2-concept.jpg)
+<!-- ![Artemis II 任务欧洲服务舱概念图（ESA）](./figures/2026-03-27-esa-artemis-2-european-service-module/esm-artemis-2-concept.jpg) -->
 
-* Artemis II 任务中欧洲服务舱为猎户座飞船提供关键支持（来源：ESA）*
+<!-- * Artemis II 任务中欧洲服务舱为猎户座飞船提供关键支持（来源：ESA）* -->
 
 ## 欧洲服务舱的关键作用
 

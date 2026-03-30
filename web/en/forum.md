@@ -5,7 +5,6 @@ keywords: community forum, cislunar space, discussion, Q&A, sharing
 author: 天疆说
 date: 2026-03-09
 lastUpdated: 2026-03-09
-layout: Page
 sidebar: false
 wechatShare:
   title: Cislunar Space Guide | Community Forum
@@ -23,4 +22,4 @@ twitter:
   image: /logo.png
 ---
 
-<Forum />
+<!-- Forum - pending Vue 3 migration -->

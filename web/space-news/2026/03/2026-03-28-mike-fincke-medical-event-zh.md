@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: NASA 航天员 Mike Fincke 披露 Crew-11 提前返航医学事件详情
 description: 2026 年 3 月 28 日，NASA 航天员 Mike Fincke 首次披露了导致 Crew-11 任务提前一个多月返回地球的医学事件详情，表示事发前毫无预兆，持续约 20 分钟后自行缓解，但医生至今未查明原因。
 permalink: /space-news/2026/03/2026-03-28-mike-fincke-medical-event/
@@ -12,9 +11,9 @@ lastUpdated: 2026-03-28
 
 **摘要：** 2026 年 3 月 28 日，NASA 航天员 **Mike Fincke** 首次详细披露了导致 Crew-11 任务提前一个多月返回地球的医学事件。2026 年 1 月 7 日，即他与指令长 Zena Cardman 原定执行第 10 次出舱活动的前夜，Fincke 突然失语约 20 分钟，事后自行恢复且感觉良好，但经过多次医学检查，医生至今未能查明原因。
 
-![Crew-11 发射前合影](./figures/2026-03-28-mike-fincke-medical-event/crew-11-prelaunch.jpg)
+<!-- ![Crew-11 发射前合影](./figures/2026-03-28-mike-fincke-medical-event/crew-11-prelaunch.jpg) -->
 
-*Crew-11 发射前合影。从左至右：Oleg Platonov（俄罗斯联邦航天局，任务专家）、Mike Fincke（NASA，驾驶员）、Zena Cardman（NASA，指令长）、Kimiya Yui（JAXA，任务专家）。（来源：NASA/Robert Markowitz）*
+<!-- *Crew-11 发射前合影。从左至右：Oleg Platonov（俄罗斯联邦航天局，任务专家）、Mike Fincke（NASA，驾驶员）、Zena Cardman（NASA，指令长）、Kimiya Yui（JAXA，任务专家）。（来源：NASA/Robert Markowitz）* -->
 
 ## 事件经过
 

@@ -5,7 +5,6 @@ keywords: cislunar space research directions, research frontiers, hot topics, de
 author: CislunarSpace
 date: 2026-03-07
 lastUpdated: 2026-03-07
-layout: Page
 sidebar: /
 permalink: /research-frontiers/directions/
 wechatShare:

@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /
 permalink: /
 heroImage: /logo.png

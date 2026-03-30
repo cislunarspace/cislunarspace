@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 神舟二十一号航天员乘组完成第二次出舱活动
 description: 2026 年 3 月 16 日，神舟二十一号航天员乘组在空间站机械臂和地面科技人员密切协同下完成第二次出舱活动。
 permalink: /space-news/2026/03/2026-03-16-china-shenzhou-21-eva/

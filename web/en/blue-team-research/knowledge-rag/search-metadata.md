@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Search & Metadata
 description: "Metadata schema, search facets, and update rules."
 permalink: /en/blue-team-research/knowledge-rag/search-metadata

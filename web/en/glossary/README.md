@@ -5,7 +5,6 @@ keywords: cislunar space glossary, CR3BP, circular restricted three-body problem
 author: CislunarSpace
 date: 2026-03-08
 lastUpdated: 2026-03-08
-layout: Page
 sidebar: /glossary/
 permalink: /glossary/
 wechatShare:

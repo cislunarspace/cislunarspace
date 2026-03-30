@@ -1,5 +1,4 @@
 ---
-layout: Page
 permalink: /en/blue-team-research/
 title: Blue Team Research
 description: "Blue team research: open-source indexes on doctrine, equipment, and operations."

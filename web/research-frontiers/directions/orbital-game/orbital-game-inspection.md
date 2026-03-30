@@ -5,7 +5,6 @@ keywords: 地月空间, 轨道博弈, 非合作目标, 轨道检查, 博弈论, 
 author: Matrix Agent
 date: 2026-03-11
 lastUpdated: 2026-03-11
-layout: Page
 sidebar: /
 permalink: /research-frontiers/directions/orbital-game/orbital-game-inspection
 wechatShare:

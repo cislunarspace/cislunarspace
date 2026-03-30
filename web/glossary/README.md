@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /glossary/
 permalink: /glossary/
 title: 地月空间术语词典

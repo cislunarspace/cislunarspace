@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 轨道对抗聚焦
 description: 公开文献与政策讨论中的轨道对抗概念、能力要素与想定边界（收束子题）。
 permalink: /blue-team-research/operations-application/orbital-confrontation

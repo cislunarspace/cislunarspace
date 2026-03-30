@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 条令—能力—运用对照
 description: 将条令概念、装备能力与战场观察进行交叉对照的表格化方法。
 permalink: /blue-team-research/operations-application/crosswalk

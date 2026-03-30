@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 资料共享与知识库规划
 description: 资料集中管理与检索、知识服务及技术路线规划。
 permalink: /blue-team-research/knowledge-rag/

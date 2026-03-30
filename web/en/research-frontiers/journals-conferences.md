@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /
 permalink: /research-frontiers/journals-conferences/
 wechatShare:

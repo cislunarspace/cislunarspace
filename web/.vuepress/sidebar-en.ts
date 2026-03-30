@@ -1,138 +1,131 @@
-// Main sidebar configuration (English)
-const autoSidebar = require('./sidebar.auto.json');
+import type { SidebarConfig } from 'vuepress'
+import autoSidebar from './sidebar.auto.json' with { type: 'json' }
 
 const mainSidebar = [
-    {
-        title: "What Is Cislunar Space",
-        collapsable: true,
+  {
+    text: 'What Is Cislunar Space',
+    collapsible: true,
+    children: [
+      '/en/what-is-cislunarspace/',
+      '/en/what-is-cislunarspace/environment',
+    ],
+  },
+  {
+    text: 'Cislunar Spacecraft Orbits',
+    collapsible: true,
+    children: [
+      '/en/cislunar-orbits/',
+    ],
+  },
+  {
+    text: 'Research Frontiers',
+    collapsible: true,
+    children: [
+      '/en/research-frontiers/',
+      '/en/research-frontiers/directions',
+      {
+        text: 'Research Institutions',
+        link: '/en/research-frontiers/institutions',
+        collapsible: true,
         children: [
-            ["/en/what-is-cislunarspace/", "Introduction"],
-            ["/en/what-is-cislunarspace/environment", "Cislunar Space Environment"],
-        ]
-    },
-    {
-        title: "Cislunar Spacecraft Orbits",
-        collapsable: true,
-        children: [
-            ["/en/cislunar-orbits/", "Introduction"],
-        ]
-    },
-    {
-        title: "Research Frontiers",
-        collapsable: true,
-        children: [
-            ["/en/research-frontiers/", "Introduction"],
-            ["/en/research-frontiers/directions", "Research Directions"],
-            {
-                title: "Research Institutions",
-                path: "/en/research-frontiers/institutions",
-                collapsable: true,
-                children: [
-                    ["/en/research-frontiers/institutions", "Introduction"],
-                    ["/en/research-frontiers/institutions/hit", "Harbin Institute of Technology"],
-                ]
-            },
-            ["/en/research-frontiers/journals-conferences", "Journals & Conferences"],
-            ["/en/research-frontiers/major-projects", "Major Projects"],
-        ]
-    },
-];
-
-// Glossary sidebar (English)
-const glossarySidebar = [
-    {
-        title: "Cislunar Space Glossary",
-        collapsable: false,
-        children: [
-            ["/en/glossary/", "Overview"],
-            ["/en/glossary/cr3bp", "Circular Restricted Three-Body Problem"],
-            ["/en/glossary/xray-pulsar-navigation", "X-ray Pulsar Navigation"],
-        ]
-    }
-];
-
-// Resources & Tools sidebar (English)
-const resourcesToolsSidebar = [
-    {
-        title: "Resources & Tools",
-        collapsable: false,
-        children: [
-            ["/en/resources-tools/", "Overview"],
-            ["/en/resources-tools/datasets", "Datasets"],
-        ]
-    }
-];
-
-// Space News sidebar (English) — dynamically generated
-const spaceNewsSidebar = autoSidebar.en;
-
-// Blue team research sidebar (English) — overview + nested groups like Research Frontiers
-const blueTeamResearchSidebar = [
-    {
-        title: "Blue Team Research",
-        collapsable: false,
-        children: [
-            ["/en/blue-team-research/", "Overview"],
-            {
-                title: "Doctrine & Strategy",
-                path: "/en/blue-team-research/doctrine-strategy/",
-                collapsable: true,
-                children: [
-                    ["/en/blue-team-research/doctrine-strategy/", "Overview"],
-                    ["/en/blue-team-research/doctrine-strategy/us-strategy-doctrine", "U.S. Strategy & Doctrine"],
-                    ["/en/blue-team-research/doctrine-strategy/literature-index", "Literature Index & Extract Rules"],
-                    ["/en/blue-team-research/doctrine-strategy/terminology", "Terms & Acronyms"],
-                ],
-            },
-            {
-                title: "Equipment & Technology",
-                path: "/en/blue-team-research/equipment-tech/",
-                collapsable: true,
-                children: [
-                    ["/en/blue-team-research/equipment-tech/", "Overview"],
-                    ["/en/blue-team-research/equipment-tech/sda-programs", "SDA & Related Programs"],
-                    ["/en/blue-team-research/equipment-tech/spacex-role", "SpaceX & Industry Roles"],
-                    ["/en/blue-team-research/equipment-tech/architecture-programs", "Architectures & Programs"],
-                    ["/en/blue-team-research/equipment-tech/commercial-participation", "Commercial Participation"],
-                ],
-            },
-            {
-                title: "Operations & Scenarios",
-                path: "/en/blue-team-research/operations-application/",
-                collapsable: true,
-                children: [
-                    ["/en/blue-team-research/operations-application/", "Overview"],
-                    ["/en/blue-team-research/operations-application/regional-conflicts", "Space in Regional Conflicts"],
-                    ["/en/blue-team-research/operations-application/orbital-confrontation", "Orbital Confrontation Focus"],
-                    ["/en/blue-team-research/operations-application/kill-chain-focus", "Kill-Chain Focus"],
-                    ["/en/blue-team-research/operations-application/scenario-analysis", "Scenarios & Evidence"],
-                    ["/en/blue-team-research/operations-application/crosswalk", "Doctrine–Capability–Employment"],
-                ],
-            },
-            {
-                title: "Knowledge Base & RAG",
-                path: "/en/blue-team-research/knowledge-rag/",
-                collapsable: true,
-                children: [
-                    ["/en/blue-team-research/knowledge-rag/", "Overview"],
-                    ["/en/blue-team-research/knowledge-rag/search-metadata", "Search & Metadata"],
-                    ["/en/blue-team-research/knowledge-rag/rag-roadmap", "Knowledge Services Roadmap"],
-                ],
-            },
+          '/en/research-frontiers/institutions',
+          '/en/research-frontiers/institutions/hit',
         ],
-    },
-];
+      },
+      '/en/research-frontiers/journals-conferences',
+      '/en/research-frontiers/major-projects',
+    ],
+  },
+]
 
-// VuePress 1.x multi-sidebar config
-const sidebarConfigEn = {
-    "/en/glossary/": glossarySidebar,
-    "/en/resources-tools/": resourcesToolsSidebar,
-    "/en/blue-team-research/": blueTeamResearchSidebar,
-    "/en/space-news/": spaceNewsSidebar,
-    "/en/what-is-cislunarspace/": mainSidebar,
-    "/en/cislunar-orbits/": mainSidebar,
-    "/en/research-frontiers/": mainSidebar,
-    "/en/": mainSidebar,
-};
+const glossarySidebar = [
+  {
+    text: 'Cislunar Space Glossary',
+    collapsible: false,
+    children: [
+      '/en/glossary/',
+      '/en/glossary/cr3bp',
+      '/en/glossary/xray-pulsar-navigation',
+    ],
+  },
+]
 
-export default sidebarConfigEn;
+const resourcesToolsSidebar = [
+  {
+    text: 'Resources & Tools',
+    collapsible: false,
+    children: [
+      '/en/resources-tools/',
+      '/en/resources-tools/datasets',
+    ],
+  },
+]
+
+const spaceNewsSidebar = autoSidebar.en
+
+const blueTeamResearchSidebar = [
+  {
+    text: 'Blue Team Research',
+    collapsible: false,
+    children: [
+      '/en/blue-team-research/',
+      {
+        text: 'Doctrine & Strategy',
+        link: '/en/blue-team-research/doctrine-strategy/',
+        collapsible: true,
+        children: [
+          '/en/blue-team-research/doctrine-strategy/',
+          '/en/blue-team-research/doctrine-strategy/us-strategy-doctrine',
+          '/en/blue-team-research/doctrine-strategy/literature-index',
+          '/en/blue-team-research/doctrine-strategy/terminology',
+        ],
+      },
+      {
+        text: 'Equipment & Technology',
+        link: '/en/blue-team-research/equipment-tech/',
+        collapsible: true,
+        children: [
+          '/en/blue-team-research/equipment-tech/',
+          '/en/blue-team-research/equipment-tech/sda-programs',
+          '/en/blue-team-research/equipment-tech/spacex-role',
+          '/en/blue-team-research/equipment-tech/architecture-programs',
+          '/en/blue-team-research/equipment-tech/commercial-participation',
+        ],
+      },
+      {
+        text: 'Operations & Scenarios',
+        link: '/en/blue-team-research/operations-application/',
+        collapsible: true,
+        children: [
+          '/en/blue-team-research/operations-application/',
+          '/en/blue-team-research/operations-application/regional-conflicts',
+          '/en/blue-team-research/operations-application/orbital-confrontation',
+          '/en/blue-team-research/operations-application/kill-chain-focus',
+          '/en/blue-team-research/operations-application/scenario-analysis',
+          '/en/blue-team-research/operations-application/crosswalk',
+        ],
+      },
+      {
+        text: 'Knowledge Base & RAG',
+        link: '/en/blue-team-research/knowledge-rag/',
+        collapsible: true,
+        children: [
+          '/en/blue-team-research/knowledge-rag/',
+          '/en/blue-team-research/knowledge-rag/search-metadata',
+          '/en/blue-team-research/knowledge-rag/rag-roadmap',
+        ],
+      },
+    ],
+  },
+]
+
+export default <SidebarConfig>{
+  '/en/glossary/': glossarySidebar,
+  '/en/resources-tools/': resourcesToolsSidebar,
+  '/en/blue-team-research/': blueTeamResearchSidebar,
+  '/en/space-news/': spaceNewsSidebar,
+  '/en/what-is-cislunarspace/': mainSidebar,
+  '/en/cislunar-orbits/': mainSidebar,
+  '/en/research-frontiers/': mainSidebar,
+  '/en/': mainSidebar,
+}

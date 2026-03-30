@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Rocket Lab launches eight OroraTech wildfire satellites
 description: Electron deploys eight OTC-P1 satellites for Germany’s OroraTech from New Zealand; Phase 1 of a planned larger constellation for wildfire monitoring.
 permalink: /en/space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire/

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · SDA & Related Programs
 description: "Public information on the Space Development Agency layered architecture and milestones."
 permalink: /en/blue-team-research/equipment-tech/sda-programs

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Rocket Lab 部署 OroraTech 野火监测卫星
 description: Electron 火箭自新西兰玛西亚将 8 颗 OTC-P1 卫星送入约 550 km 轨道，为德国 OroraTech 野火监测星座一期任务。
 permalink: /space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire/

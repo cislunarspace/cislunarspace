@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 太空发展局（SDA）与相关方案
 description: 公开渠道可见的太空发展局（SDA）架构、层系规划与招标及里程碑信息。
 permalink: /blue-team-research/equipment-tech/sda-programs

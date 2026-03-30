@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Equipment & Technology
 description: "Architectures, programs, and industry roles from open sources."
 permalink: /en/blue-team-research/equipment-tech/

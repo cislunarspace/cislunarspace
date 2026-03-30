@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 我国成功发射天链二号04星
 description: 3 月 26 日 23 时 55 分，长征三号乙运载火箭在西昌成功将天链二号04星送入预定轨道；长征系列第 565 次飞行。
 permalink: /space-news/2025/03/2025-03-26-china-tianlian-ii-04/

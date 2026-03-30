@@ -5,7 +5,6 @@ keywords: 社区论坛, 地月空间, cislunar space, 讨论, 问答, 分享
 author: 天疆说
 date: 2026-03-09
 lastUpdated: 2026-03-09
-layout: Page
 sidebar: false
 wechatShare:
   title: 地月空间入门指南 | 社区论坛
@@ -23,4 +22,4 @@ twitter:
   image: /logo.png
 ---
 
-<Forum />
+<!-- Forum - pending Vue 3 migration -->

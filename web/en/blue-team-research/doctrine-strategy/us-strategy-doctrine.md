@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · U.S. Strategy & Doctrine System
 description: "Public U.S. strategy documents, doctrine architecture, and doctrine-to-action links."
 permalink: /en/blue-team-research/doctrine-strategy/us-strategy-doctrine

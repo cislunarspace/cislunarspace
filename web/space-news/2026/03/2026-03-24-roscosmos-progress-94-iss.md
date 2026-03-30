@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 进步 MS 货运飞船与空间站对接补给第 74 远征队
 description: 2026 年 3 月 22 日进步 94 自拜科努尔发射，24 日对接国际空间站 Poisk 舱；因交会天线未完全展开，对接阶段曾使用 TORU 手动控制。
 permalink: /space-news/2026/03/2026-03-24-roscosmos-progress-94-iss/

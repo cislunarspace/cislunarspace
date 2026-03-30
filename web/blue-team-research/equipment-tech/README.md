@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 装备与技术发展
 description: 太空装备体系、型号项目与产业参与（公开信息）。
 permalink: /blue-team-research/equipment-tech/

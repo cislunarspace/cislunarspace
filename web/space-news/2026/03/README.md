@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 航天动态 · 2026 年 3 月
 description: 2026 年 3 月航天新闻条目索引。
 permalink: /space-news/2026/03/
