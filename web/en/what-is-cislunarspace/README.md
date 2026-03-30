@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /en/
 permalink: /en/what-is-cislunarspace/
 title: Cislunar Space Definition and Strategic Value Analysis | Earth-Moon Gravitational Interaction Region

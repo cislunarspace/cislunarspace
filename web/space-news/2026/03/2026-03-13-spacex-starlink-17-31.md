@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: SpaceX 自范登堡发射 Starlink 17-31 任务
 description: 2026 年 3 月 13 日，猎鹰 9 号自范登堡太空军基地执行 Starlink 17-31 任务，一级助推器 B1071 完成第 32 次飞行后在海上回收。
 permalink: /space-news/2026/03/2026-03-13-spacex-starlink-17-31/

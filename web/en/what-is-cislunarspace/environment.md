@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /en/
 permalink: /en/what-is-cislunarspace/environment/
 title: Cislunar Space Environment Characteristics and Mission Impact Analysis

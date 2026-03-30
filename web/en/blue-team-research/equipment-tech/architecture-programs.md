@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Architectures & Programs
 description: "Layering public space capabilities and program timelines."
 permalink: /en/blue-team-research/equipment-tech/architecture-programs

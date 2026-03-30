@@ -13,9 +13,9 @@ related:
 
 On **March 30, 2026**, **SpaceX** is scheduled to launch the **Transporter-16** rideshare mission aboard a **Falcon 9** rocket from **Vandenberg Space Force Base in California**. The launch window is set for **6:20 AM ET (10:20 UTC)**, carrying **119 payloads** into orbit.
 
-![Falcon 9 rocket launch (SpaceX file photo, not this mission)](./figures/2026-03-30-spacex-transporter-16/01-falcon-9-launch.jpg)
+<!-- ![Falcon 9 rocket launch (SpaceX file photo, not this mission)](./figures/2026-03-30-spacex-transporter-16/01-falcon-9-launch.jpg) -->
 
-*Falcon 9 rocket launch (Credit: SpaceX)*
+<!-- *Falcon 9 rocket launch (Credit: SpaceX)* -->
 
 ## Mission Overview
 

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Knowledge Base & RAG
 description: "Centralized materials, search, and planned knowledge services."
 permalink: /en/blue-team-research/knowledge-rag/

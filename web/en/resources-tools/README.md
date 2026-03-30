@@ -1,5 +1,4 @@
 ---
-layout: Page
 permalink: /resources-tools/
 wechatShare:
   title: Cislunar Space Resources & Tools

@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /en/
 permalink: /en/research-frontiers/institutions/hit/
 title: Research Institutions in Cislunar Space | Harbin Institute of Technology

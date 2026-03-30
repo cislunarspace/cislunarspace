@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron
 description: On March 27, 2026, ESA announced the first two Celeste satellites will launch on March 28 at 10:14 CET aboard a Rocket Lab Electron rocket from New Zealand — Europe's first LEO-PNT demonstration mission.
 permalink: /en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview/
@@ -12,9 +11,9 @@ lastUpdated: 2026-03-27
 
 **Summary:** On **March 27, 2026**, ESA announced that the first two **Celeste** satellites will launch on **March 28 at 10:14 CET** aboard a **Rocket Lab Electron** rocket from the company's Māhia Launch Complex in New Zealand. This marks Europe's first **Low Earth Orbit Positioning, Navigation and Timing (LEO-PNT)** in-orbit demonstration mission, designed to augment the existing Galileo medium Earth orbit (MEO) constellation.
 
-![Artist impression of Celeste IOD-1 and IOD-2 on Electron's kick stage (ESA)](./figures/2026-03-27-esa-celeste-launch/celeste-iod-1-2-electron-artist-impression.jpg)
+<!-- ![Artist impression of Celeste IOD-1 and IOD-2 on Electron's kick stage (ESA)](./figures/2026-03-27-esa-celeste-launch/celeste-iod-1-2-electron-artist-impression.jpg) -->
 
-*Artist impression: The Celeste IOD-1 and IOD-2 satellites on Electron's kick stage (Credit: ESA)*
+<!-- *Artist impression: The Celeste IOD-1 and IOD-2 satellites on Electron's kick stage (Credit: ESA)* -->
 
 ## Background
 

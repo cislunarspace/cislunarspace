@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 作战应用与聚焦场景
 description: 公开战例、演习与限定场景下的太空能力运用分析。
 permalink: /blue-team-research/operations-application/

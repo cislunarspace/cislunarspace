@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Space News · January 2026
 description: 2026 年 1 月航天新闻条目索引。
 permalink: /space-news/2026/01/

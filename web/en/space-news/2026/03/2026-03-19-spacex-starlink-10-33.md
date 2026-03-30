@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: SpaceX Starlink 10-33 launch from Cape Canaveral
 description: Falcon 9 lifts 29 Starlink V2 Mini satellites from Cape Canaveral SFS on March 19, 2026; booster B1077 lands on JRTI.
 permalink: /en/space-news/2026/03/2026-03-19-spacex-starlink-10-33/

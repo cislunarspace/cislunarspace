@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 地区冲突中的太空运用
 description: 俄乌、中东等公开报道中学术与媒体对太空能力运用的可引用归纳（不涉及涉密判断）。
 permalink: /blue-team-research/operations-application/regional-conflicts

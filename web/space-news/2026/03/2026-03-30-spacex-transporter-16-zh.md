@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: SpaceX 将于 3 月 30 日执行 Transporter-16 拼车任务，从范登堡发射 119 个有效载荷
 description: 2026 年 3 月 30 日，SpaceX 猎鹰 9 号火箭将从加利福尼亚州范登堡太空军基地执行 Transporter-16 拼车任务，携带 119 个有效载荷进入轨道。
 permalink: /space-news/2026/03/2026-03-30-spacex-transporter-16/
@@ -18,9 +17,9 @@ related:
 
 **摘要：** 据 *Space.com* 报道，**2026 年 3 月 30 日**，**SpaceX** 将使用 **猎鹰 9 号** 火箭从 **加利福尼亚州范登堡太空军基地** 执行 **Transporter-16** 拼车发射任务，携带 **119 个**有效载荷进入轨道。发射窗口计划于美国东部时间 **6:20 AM**（约 **10:20 UTC**）开启。
 
-![猎鹰 9 号火箭发射示意图（SpaceX 资料图，非本次任务）](./figures/2026-03-30-spacex-transporter-16/01-falcon-9-launch.jpg)
+<!-- ![猎鹰 9 号火箭发射示意图（SpaceX 资料图，非本次任务）](./figures/2026-03-30-spacex-transporter-16/01-falcon-9-launch.jpg) -->
 
-*猎鹰 9 号火箭发射资料图（来源：SpaceX）*
+<!-- *猎鹰 9 号火箭发射资料图（来源：SpaceX）* -->
 
 ## 任务概述
 

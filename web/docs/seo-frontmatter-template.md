@@ -3,7 +3,6 @@
 ## 中文页面模板
 ```yaml
 ---
-layout: Page
 sidebar: /  # 或指定具体侧边栏路径
 permalink: /页面路径/
 title: 页面标题  # VuePress SEO插件会自动添加"地月空间入门指南 | "前缀
@@ -32,7 +31,6 @@ twitter:
 ## 英文页面模板
 ```yaml
 ---
-layout: Page
 sidebar: /en/  # 或指定具体侧边栏路径
 permalink: /en/页面路径/
 title: Page Title  # VuePress SEO插件会自动添加"Cislunar Space Beginner's Guide | "前缀

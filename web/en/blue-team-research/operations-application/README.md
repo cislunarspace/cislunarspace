@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Operations & Scenarios
 description: "Open-source analysis of space employment in conflict and exercises."
 permalink: /en/blue-team-research/operations-application/

@@ -1,16 +1,21 @@
-import { defineConfig } from "vuepress/config";
-import navbar from "./navbar";
-import navbarEn from "./navbar-en";
-import sidebar from "./sidebar";
-import sidebarEn from "./sidebar-en";
-import footer from "./footer";
-import extraSideBar from "./extraSideBar";
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import theme from './theme2/index.js'
+import navbar from './navbar.js'
+import navbarEn from './navbar-en.js'
+import sidebar from './sidebar.js'
+import sidebarEn from './sidebar-en.js'
 
-const author = "天疆说";
-const domain = "https://cislunarspace.cn";
-const tags = ["地月空间", "航天", "轨道动力学"];
+const domain = 'https://cislunarspace.cn'
+const tags = ['地月空间', '航天', '轨道动力学']
 
-export default defineConfig({
+export default defineUserConfig({
+  lang: 'zh-CN',
+  title: '地月空间入门指南',
+  description: '系统掌握地月空间科学、技术与工程实践',
+
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -19,267 +24,101 @@ export default defineConfig({
     },
     '/en/': {
       lang: 'en-US',
-      title: 'Cislunar Space Beginner\'s Guide',
+      title: "Cislunar Space Beginner's Guide",
       description: 'Systematically master cislunar space science, technology, and engineering practice',
     },
   },
-  title: "地月空间入门指南",
-  description: "系统掌握地月空间科学、技术与工程实践",
-  extendPageData($page) {
-    const frontmatter = $page.frontmatter || {};
 
-    if (typeof frontmatter.metaTitle !== "string") {
-      const explicitMetaTitle =
-        frontmatter.title ||
-        frontmatter.og?.title ||
-        frontmatter.shareTitle ||
-        $page.title;
-
-      if (typeof explicitMetaTitle === "string" && explicitMetaTitle.trim()) {
-        frontmatter.metaTitle = explicitMetaTitle.trim();
-      }
-    }
-  },
   head: [
-    // 站点图标
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-    // SEO
-    [
-      "meta",
-      {
-        name: "keywords",
-        content:
-          "地月空间，航天，轨道动力学，拉格朗日点，NRHO, 阿耳忒弥斯，月球探测，航天器轨道，CR3BP，GNC",
-      },
-    ],
-    // 百度统计
-    [
-      "script",
-      {},
-      `
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?2675818a983a3131404cee835018f016";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-      `,
-    ],
-    // Google Analytics 4
-    [
-      "script",
-      { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-0PLJ56MK80" }
-    ],
-    [
-      "script",
-      {},
-      `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-0PLJ56MK80');
-      `
-    ],
-    // 根据浏览器语言自动跳转（仅中文首页，仅首次访问）
-    [
-      "script",
-      {},
-      `
-        (function() {
-          // 只在中文首页 "/" 触发，不影响其他页面
-          if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
-          
-          // 如果已经在英文页面，不执行跳转
-          if (window.location.pathname.startsWith('/en/')) return;
-          
-          // 如果用户手动选择过语言，不再自动跳转
-          try { 
-            if (localStorage.getItem('cislunar-lang-chosen')) return; 
-          } catch(e) {}
-          
-          // 检测浏览器语言
-          var lang = navigator.language || navigator.userLanguage || '';
-          var browserLang = lang.toLowerCase();
-          
-          // 如果浏览器语言不是中文（包括zh-CN, zh-TW, zh-HK, zh-SG等），跳转到英文版
-          if (browserLang && !browserLang.startsWith('zh')) {
-            try { 
-              localStorage.setItem('cislunar-lang-chosen', 'en'); 
-            } catch(e) {}
-            // 使用replace而不是assign，避免浏览器历史记录问题
-            window.location.replace('/en/');
-          }
-        })();
-      `
-    ],
-  ],
-  // 监听文件变化，热更新
-  extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
-  // 开发服务器代理（仅本地开发使用；生产环境需在服务器侧单独配置反向代理）
-  devServer: {
-    proxy: {
-      '/api/ai': {
-        target: 'https://api.deepseek.com',
-        changeOrigin: true,
-        pathRewrite: { '^/api/ai': '' },
-        headers: {
-          'Authorization': 'Bearer sk-f5cdcdbb3b824e2997161414d272e2d9'
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', {
+      name: 'keywords',
+      content: '地月空间，航天，轨道动力学，拉格朗日点，NRHO, 阿耳忒弥斯，月球探测，航天器轨道，CR3BP，GNC',
+    }],
+    ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?2675818a983a3131404cee835018f016";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `],
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-0PLJ56MK80' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0PLJ56MK80');
+    `],
+    ['script', {}, `
+      (function() {
+        if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
+        if (window.location.pathname.startsWith('/en/')) return;
+        try {
+          if (localStorage.getItem('cislunar-lang-chosen')) return;
+        } catch(e) {}
+        var lang = navigator.language || navigator.userLanguage || '';
+        var browserLang = lang.toLowerCase();
+        if (browserLang && !browserLang.startsWith('zh')) {
+          try { localStorage.setItem('cislunar-lang-chosen', 'en'); } catch(e) {}
+          window.location.replace('/en/');
         }
+      })();
+    `],
+  ],
+
+  bundler: viteBundler({
+    viteOptions: {
+      server: {
+        proxy: {
+          '/api/ai': {
+            target: 'https://api.deepseek.com',
+            changeOrigin: true,
+            rewrite: (path) => path.replace(/^\/api\/ai/, ''),
+            headers: {
+              'Authorization': 'Bearer sk-f5cdcdbb3b824e2997161414d272e2d9',
+            },
+          },
+        },
       },
     },
-  },
+  }),
+
   markdown: {
-    // 开启代码块的行号
     lineNumbers: true,
-    // 支持 4 级以上的标题渲染
-    extractHeaders: ["h2", "h3", "h4", "h5", "h6"],
   },
-  // @ts-ignore
-  plugins: [
-    ["@vuepress/back-to-top"],
-    // latex 数学公式支持
-    [
-      "vuepress-plugin-mathjax",
-      {
-        target: "svg", // 输出格式：'svg' 或 'chtml'
-        macros: {
-          // 自定义宏，可选
-          "\\Z": "\\mathbb{Z}",
-        },
-      },
-    ],
-    // Google 分析
-    [
-      "@vuepress/google-analytics",
-      {
-        ga: "G-0PLJ56MK80", // Google Analytics 4 测量 ID
-      },
-    ],
-    ["@vuepress/medium-zoom"],
-    // https://github.com/lorisleiva/vuepress-plugin-seo
-    [
-      "seo",
-      {
-        siteTitle: (_, $site) => $site.title,
-        title: ($page) => {
-          const pageTitle = $page.frontmatter.metaTitle ||
-            $page.frontmatter.og?.title ||
-            $page.frontmatter.title ||
-            $page.frontmatter.shareTitle ||
-            $page.title;
-          return pageTitle;
-        },
-        description: ($page) =>
-          $page.frontmatter.wechatShare?.desc ||
-          $page.frontmatter.shareDesc ||
-          $page.frontmatter.description || $page.description,
-        author: (_, $site) => $site.themeConfig.author || author,
-        tags: ($page) => $page.frontmatter.tags || tags,
-        type: ($page) => "article",
-        url: (_, $site, path) =>
-          ($site.themeConfig.domain || domain || "") + path,
-        image: ($page, $site) => {
-          const siteDomain = ($site.themeConfig.domain || domain || "").replace(/\/$/, "");
-          const rawImage =
-            $page.frontmatter.wechatShare?.image ||
-            $page.frontmatter.shareImage ||
-            $page.frontmatter.image ||
-            "/logo.png";
 
-          if (/^https?:\/\//.test(rawImage)) {
-            return rawImage;
-          }
-
-          const normalizedPath = rawImage.startsWith("/") ? rawImage : `/${rawImage}`;
-          return `${siteDomain}${normalizedPath}`;
-        },
-        publishedAt: ($page) =>
-          $page.frontmatter.date && new Date($page.frontmatter.date),
-        modifiedAt: ($page) => $page.lastUpdated && new Date($page.lastUpdated),
-      },
-    ],
-    // https://github.com/ekoeryanto/vuepress-plugin-sitemap
-    [
-      "sitemap",
-      {
-        hostname: domain,
-      },
-    ],
-    // https://github.com/IOriens/vuepress-plugin-baidu-autopush
-    ["vuepress-plugin-baidu-autopush"],
-    // https://github.com/zq99299/vuepress-plugin/tree/master/vuepress-plugin-tags
-    ["vuepress-plugin-tags"],
-    // https://github.com/znicholasbrown/vuepress-plugin-code-copy
-    [
-      "vuepress-plugin-code-copy",
-      {
-        successText: "代码已复制",
-      },
-    ],
-    // https://github.com/webmasterish/vuepress-plugin-feed
-    [
-      "feed",
-      {
-        canonical_base: domain,
-        count: 10000,
-        // 需要自动推送的文档目录
-        posts_directories: [],
-      },
-    ],
-    // https://github.com/tolking/vuepress-plugin-img-lazy
-    ["img-lazy"],
-  ],
-  // 主题配置
-  themeConfig: {
-    logo: "/icon.ico",
-    domain,
-    nav: navbar,
+  theme: theme({
+    logo: '/icon.ico',
+    navbar,
     sidebar,
-    lastUpdated: "最近更新",
 
-    // i18n locales for theme
     locales: {
       '/': {
-        selectText: '语言',
-        label: '简体中文',
-        nav: navbar,
+        selectLanguageName: '简体中文',
+        navbar,
         sidebar,
-        lastUpdated: '最近更新',
+        lastUpdatedText: '最近更新',
         editLinkText: '完善页面',
       },
       '/en/': {
-        selectText: 'Languages',
-        label: 'English',
-        nav: navbarEn,
+        selectLanguageName: 'English',
+        navbar: navbarEn,
         sidebar: sidebarEn,
-        lastUpdated: 'Last Updated',
+        lastUpdatedText: 'Last Updated',
         editLinkText: 'Improve this page',
       },
     },
 
-    // 微信分享卡片配置（需配合后端签名接口）
-    wechatShare: {
-      enabled: true,
-      signatureEndpoint: "https://www.cislunarspace.cn/api/wechat-signature",
-      defaultTitle: "地月空间入门指南",
-      defaultDesc: "系统掌握地月空间科学、技术与工程实践",
-      defaultImage: "/logo.png",
-    },
+    repo: 'https://gitee.com/cislunarspace/cislunarspace',
+    docsBranch: 'master',
+    docsDir: 'web',
+    editLink: true,
+  }),
 
-    // Gitee 仓库位置
-    repo: "https://gitee.com/cislunarspace/cislunarspace",
-    docsBranch: "master",
-    docsDir: "web",
-
-    // 编辑链接
-    editLinks: true,
-    editLinkText: "完善页面",
-
-    // @ts-ignore
-    // 底部版权信息
-    footer,
-    // 额外右侧边栏
-    extraSideBar,
-  },
-});
+  plugins: [
+    googleAnalyticsPlugin({ id: 'G-0PLJ56MK80' }),
+    sitemapPlugin({ hostname: domain }),
+  ],
+})

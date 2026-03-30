@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Space News · February 2026
 description: Index of space news items published in February 2026.
 permalink: /en/space-news/2026/02/

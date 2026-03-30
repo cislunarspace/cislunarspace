@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Rocket Lab launches Strix Earth observation radar satellite
 description: Electron rocket launches Strix satellite for Japan's Synspective from New Zealand on March 20, 2026.
 permalink: /en/space-news/2026/03/2026-03-20-rocket-lab-strix/

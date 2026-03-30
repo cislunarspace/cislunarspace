@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 航天动态 · 2025 年归档
 description: 2025 年航天新闻与动态按月汇总入口。
 permalink: /space-news/2025/

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 知识服务技术路线
 description: 增强式问答、引用追溯与可选模型微调的分阶段规划。
 permalink: /blue-team-research/knowledge-rag/rag-roadmap

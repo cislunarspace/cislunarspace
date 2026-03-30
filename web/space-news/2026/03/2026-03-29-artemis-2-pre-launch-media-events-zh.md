@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Artemis II 乘组发射前接受媒体提问，三天后启程赴月
 description: 2026 年 3 月 29 日，Artemis II 乘组在肯尼迪航天中心隔离设施中远程接受媒体提问，NASA 同步召开新闻发布会介绍任务状态，计划 4 月 1 日发射。
 permalink: /space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/

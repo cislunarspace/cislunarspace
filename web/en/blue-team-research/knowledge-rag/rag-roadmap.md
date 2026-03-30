@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Knowledge Services Roadmap
 description: "Phased plan for RAG, citation traceability, and optional model tuning."
 permalink: /en/blue-team-research/knowledge-rag/rag-roadmap

@@ -13,9 +13,9 @@ related:
 
 In **March 2026**, **SpaceX** successfully completed the first static fire test of the next-generation **Starship Version 3 (V3)**, preparing for an **April launch**. This version will be the **most powerful Starship** to date.
 
-![Starship V3 test (SpaceX file photo)](./figures/2026-03-30-spacex-v3-starship-static-fire/01-starship-v3-test.jpg)
+<!-- ![Starship V3 test (SpaceX file photo)](./figures/2026-03-30-spacex-v3-starship-static-fire/01-starship-v3-test.jpg) -->
 
-*Starship V3 test file photo (Credit: SpaceX)*
+<!-- *Starship V3 test file photo (Credit: SpaceX)* -->
 
 ## V3 Version Highlights
 

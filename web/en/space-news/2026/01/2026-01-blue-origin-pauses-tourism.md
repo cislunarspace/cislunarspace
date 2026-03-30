@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Origin pauses New Shepard suborbital tourism flights
 description: Blue Origin announces New Shepard suborbital flights to pause for at least 2 years, focusing on lunar capabilities development.
 permalink: /en/space-news/2026/01/2026-01-blue-origin-pauses-tourism/

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 商业航天参与
 description: 公开信息中商业运载、星座及地面服务在太空作战支援中的角色归纳。
 permalink: /blue-team-research/equipment-tech/commercial-participation

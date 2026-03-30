@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Scenarios & Evidence
 description: "Scenario bounds, evidence layers, and handling contradictions."
 permalink: /en/blue-team-research/operations-application/scenario-analysis

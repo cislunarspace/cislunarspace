@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Rocket Lab 发射 Strix 地球观测雷达卫星
 description: 2026 年 3 月 20 日，Electron 火箭自新西兰成功发射 Strix 卫星，为日本 Synspective 公司提供地球观测雷达数据。
 permalink: /space-news/2026/03/2026-03-20-rocket-lab-strix/

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: NASA 公布 200 亿美元月球基地计划
 description: 2026 年 3 月 24 日，NASA 公布未来 7 年约 200 亿美元的月球基地计划，目标建立半永久性月球基地。
 permalink: /space-news/2026/03/2026-03-24-nasa-moon-base-plan/

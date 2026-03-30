@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 文献索引与摘录规范
 description: 条令战略方向下公开文献索引、摘录格式与版本记录要求。
 permalink: /blue-team-research/doctrine-strategy/literature-index

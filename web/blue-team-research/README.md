@@ -1,5 +1,4 @@
 ---
-layout: Page
 permalink: /blue-team-research/
 title: 蓝军研究
 description: 蓝军研究：基于公开资料的条令战略、装备技术与作战运用研究索引。

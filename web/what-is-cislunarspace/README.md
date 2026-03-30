@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /
 permalink: /what-is-cislunarspace/
 title: 地月空间是什么？

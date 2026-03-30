@@ -1,29 +1,30 @@
 {
   "name": "cislunarspace",
   "version": "2.0.0",
+  "type": "module",
   "scripts": {
     "gen-sidebar": "node .vuepress/gen-sidebar.js",
     "docs:dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
-    "docs:build": "npm run gen-sidebar && set NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build ."
+    "docs:build": "npm run gen-sidebar && vuepress build ."
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.9.10",
-    "@vuepress/plugin-google-analytics": "^1.9.10",
-    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "@vuepress/bundler-vite": "2.0.0-rc.27",
+    "@vuepress/plugin-back-to-top": "2.0.0-rc.126",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.126",
+    "@vuepress/plugin-medium-zoom": "2.0.0-rc.126",
+    "@vuepress/plugin-prismjs": "2.0.0-rc.126",
+    "@vuepress/plugin-register-components": "2.0.0-rc.126",
+    "@vuepress/plugin-sitemap": "2.0.0-rc.126",
+    "@vuepress/theme-default": "2.0.0-rc.126",
     "katex": "^0.16.33",
-    "markdown-it-texmath": "^1.0.0",
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-baidu-autopush": "^1.0.1",
-    "vuepress-plugin-feed": "^0.1.9",
-    "vuepress-plugin-mathjax": "^1.2.8",
-    "vuepress-plugin-seo": "^0.1.4",
-    "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-tags": "^1.0.2"
+    "markdown-it-katex": "^2.0.3",
+    "sass-embedded": "^1.87.0",
+    "vue": "^3.5.0",
+    "vuepress": "2.0.0-rc.27",
+    "vuepress-plugin-code-copy": "^1.0.6"
   },
   "dependencies": {
-    "mathjax": "^4.1.1",
-    "vuepress-plugin-code-copy": "^1.0.6",
-    "vuepress-plugin-img-lazy": "^1.0.4"
+    "lodash-es": "^4.17.21"
   }
 }

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: NASA and Northrop cancel Cygnus NG-22 cargo mission
 description: Pressurized cargo module damage in transit leads NASA and Northrop Grumman to drop the planned June Cygnus NG-22 ISS flight; NG-23 targeted no earlier than fall 2025.
 permalink: /en/space-news/2025/03/2025-03-26-cygnus-ng-22-canceled/

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Shenzhou-21 crew completes second EVA
 description: Shenzhou-21 crew members Zhang Lu, Wu Fei, and Zhang Hongzhang complete second extravehicular activity on March 16, 2026.
 permalink: /en/space-news/2026/03/2026-03-16-china-shenzhou-21-eva/

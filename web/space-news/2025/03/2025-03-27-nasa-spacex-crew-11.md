@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: NASA 公布 SpaceX Crew-11 乘组
 description: NASA 公布执行国际空间站轮换的 Crew-11 任务四名航天员名单，计划不早于 2025 年 7 月发射。
 permalink: /space-news/2025/03/2025-03-27-nasa-spacex-crew-11/

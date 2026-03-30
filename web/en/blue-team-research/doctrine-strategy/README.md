@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Doctrine & Strategy
 description: "Indexes and notes on public strategy, doctrine, and policy."
 permalink: /en/blue-team-research/doctrine-strategy/

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Space News · March 2025
 description: Index of space news items published in March 2025.
 permalink: /en/space-news/2025/03/

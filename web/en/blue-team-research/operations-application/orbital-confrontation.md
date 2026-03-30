@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · Orbital Confrontation Focus
 description: "Narrow topic: public discourse on orbital confrontation concepts and bounds."
 permalink: /en/blue-team-research/operations-application/orbital-confrontation

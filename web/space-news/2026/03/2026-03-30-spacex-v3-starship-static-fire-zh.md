@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: SpaceX 完成新一代 V3 版星舰静态点火测试，计划 4 月发射
 description: 2026 年 3 月，SpaceX 完成了新一代 V3 版星舰的首次静态点火测试，为 4 月的发射任务做准备。
 permalink: /space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire/
@@ -18,9 +17,9 @@ related:
 
 **摘要：** 据 *Space.com* 报道，**2026 年 3 月**，**SpaceX** 成功完成了新一代 **V3 版星舰（Starship Version 3）** 的首次静态点火测试，为 4 月的发射任务做好充分准备。这一版本是星舰的增强型，将成为迄今为止最强大的星舰版本。
 
-![星舰 V3 版本测试示意图（SpaceX 资料图）](./figures/2026-03-30-spacex-v3-starship-static-fire/01-starship-v3-test.jpg)
+<!-- ![星舰 V3 版本测试示意图（SpaceX 资料图）](./figures/2026-03-30-spacex-v3-starship-static-fire/01-starship-v3-test.jpg) -->
 
-*星舰 V3 版本测试资料图（来源：SpaceX）*
+<!-- *星舰 V3 版本测试资料图（来源：SpaceX）* -->
 
 ## V3 版本亮点
 

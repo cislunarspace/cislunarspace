@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: SpaceX 自卡纳维拉尔角发射 Starlink 10-46 任务
 description: 2026 年 3 月 17 日，猎鹰 9 号自卡纳维拉尔角太空军基地执行 Starlink 10-46 任务，一级助推器 B1090 完成第 11 次飞行后在海上回收。
 permalink: /space-news/2026/03/2026-03-17-spacex-starlink-10-46/

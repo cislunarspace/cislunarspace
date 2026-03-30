@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: Blue Team Research · SpaceX & Industry Roles
 description: "Open sources on launch, constellations, and government use of commercial providers including SpaceX."
 permalink: /en/blue-team-research/equipment-tech/spacex-role

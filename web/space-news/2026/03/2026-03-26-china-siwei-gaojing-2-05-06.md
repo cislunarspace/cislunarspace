@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 我国成功发射四维高景二号05、06星
 description: 2026 年 3 月 26 日 6 时 51 分，长征二号丁运载火箭在太原卫星发射中心成功将四维高景二号 05、06 星送入预定轨道；长征系列第 634 次发射。
 permalink: /space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06/

@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 术语与缩写
 description: 条令战略文献中常见术语、缩写及汉译对照表（持续增补）。
 permalink: /blue-team-research/doctrine-strategy/terminology

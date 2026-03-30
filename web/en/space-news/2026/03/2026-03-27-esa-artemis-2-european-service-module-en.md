@@ -1,7 +1,6 @@
 ---
-layout: Page
-title: "How Europe Will Power the Journey to the Moon and Back" — ESA Artemis II Service Module Video
-description: On March 27, 2026, ESA released a video explaining the European Service Module for Artemis II — providing propulsion, power, and life support for the crewed lunar orbit mission.
+title: "How Europe Will Power the Journey to the Moon and Back - ESA Artemis II Service Module Video"
+description: "On March 27, 2026, ESA released a video explaining the European Service Module for Artemis II - providing propulsion, power, and life support for the crewed lunar orbit mission."
 permalink: /en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module/
 author: 天疆说
 date: 2026-03-27
@@ -12,9 +11,9 @@ lastUpdated: 2026-03-27
 
 **Summary:** On **March 27, 2026**, ESA released a video titled **"How Europe will power the journey to the Moon and back"**, explaining the critical role of the **European Service Module (ESM)** in NASA's **Artemis II** mission — providing propulsion, power generation, and life support for the Orion spacecraft carrying four astronauts around the Moon.
 
-![European Service Module for Artemis II (ESA)](./figures/2026-03-27-esa-artemis-2-european-service-module/esm-artemis-2-concept.jpg)
+<!-- ![European Service Module for Artemis II (ESA)](./figures/2026-03-27-esa-artemis-2-european-service-module/esm-artemis-2-concept.jpg) -->
 
-*The European Service Module provides critical support to the Orion spacecraft on Artemis II (Credit: ESA)*
+<!-- *The European Service Module provides critical support to the Orion spacecraft on Artemis II (Credit: ESA)* -->
 
 ## The Role of the European Service Module
 

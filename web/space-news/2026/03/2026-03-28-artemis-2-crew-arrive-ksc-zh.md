@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: NASA Artemis II 航天员乘组抵达肯尼迪航天中心
 description: 2026 年 3 月 27 日，NASA Artemis II 四大航天员乘组及备份乘组抵达肯尼迪航天中心，执行历史性的绕月飞行任务，发射窗口暂定 4 月 1 日。
 permalink: /space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc/
@@ -16,9 +15,9 @@ lastUpdated: 2026-03-28
 
 NASA 的 Reid Wiseman（指令长）、Victor Glover（驾驶员）、Christina Koch（任务专家）及加拿大航天局的 Jeremy Hansen（任务专家），与备份航天员 NASA 的 Andre Douglas 和 CSA 的 Jenni Gibbons，一同从约翰逊航天中心出发，驾驶三架 T-38 喷气机于当日下午约 2:15（美国东部时间）降落在 KSC。乘组自 3 月 18 日起已进入 14 天隔离期。
 
-![Artemis II 乘组合影](./figures/2026-03-28-artemis-2-crew-arrive-ksc/artemis-2-crew-kim-shiflett.jpg)
+<!-- ![Artemis II 乘组合影](./figures/2026-03-28-artemis-2-crew-arrive-ksc/artemis-2-crew-kim-shiflett.jpg) -->
 
-*Artemis II 乘组与备份乘组在肯尼迪航天中心合影。从左至右：Jeremy Hansen（CSA）、Christina Koch（NASA）、Reid Wiseman（NASA，指令长）、Victor Glover（NASA，驾驶员）、Jenni Gibbons（CSA，备份）、Andre Douglas（NASA，备份）。（来源：NASA/Kim Shiflett）*
+<!-- *Artemis II 乘组与备份乘组在肯尼迪航天中心合影。从左至右：Jeremy Hansen（CSA）、Christina Koch（NASA）、Reid Wiseman（NASA，指令长）、Victor Glover（NASA，驾驶员）、Jenni Gibbons（CSA，备份）、Andre Douglas（NASA，备份）。（来源：NASA/Kim Shiflett）* -->
 
 迎接仪式由 NASA 局长贾里德·艾萨克曼、加拿大航天局局长 Lisa Campbell 以及 NASA 探索系统开发代理副 administrator Lori Glaze 主持。
 

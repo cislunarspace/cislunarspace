@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: 蓝军研究 · 美军战略文件与条令体系
 description: 基于公开资料的美军战略文件、条令体系及「行动—条令」关系梳理。
 permalink: /blue-team-research/doctrine-strategy/us-strategy-doctrine

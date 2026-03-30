@@ -1,5 +1,4 @@
 ---
-layout: Page
 sidebar: /
 permalink: /what-is-cislunarspace/environment/
 title: 地月空间环境特征
