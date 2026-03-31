@@ -1,5 +1,4 @@
 ---
-sidebar: /
 permalink: /what-is-cislunarspace/
 title: 地月空间是什么？
 description: 深入解析地月空间的定义、范围、环境特征与战略价值，了解地球与月球引力作用区域的基本概念和重要性。

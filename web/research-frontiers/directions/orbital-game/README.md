@@ -1,11 +1,10 @@
 ---
-title: 地月空间研究方向与前沿热点 | 轨道博弈
+title: 轨道博弈
 description: 分析地月空间研究的主要方向、前沿热点领域、关键技术挑战及未来发展趋势，为研究者提供方向指引
 keywords: 地月空间研究方向, 研究前沿, 热点领域, 发展趋势, 关键技术挑战, 未来展望
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
-sidebar: /
 permalink: /research-frontiers/directions/orbital-game/
 wechatShare:
   title: 地月空间研究方向与前沿热点 | 轨道博弈

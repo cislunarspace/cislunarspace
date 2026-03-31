@@ -1,11 +1,10 @@
 ---
-title: 地月空间重大工程项目盘点 | 国内外任务与技术验证
+title: 国内外任务与技术验证
 description: 盘点国内外地月空间重大工程项目、技术验证任务、科学探测计划及其关键技术成果
 keywords: 地月空间项目, 重大工程, 技术验证, 探测任务, 国内外项目, 关键技术
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
-sidebar: /
 permalink: /research-frontiers/major-projects/
 wechatShare:
   title: 地月空间重大工程项目

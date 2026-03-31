@@ -3,9 +3,8 @@
 ## 中文页面模板
 ```yaml
 ---
-sidebar: /  # 或指定具体侧边栏路径
 permalink: /页面路径/
-title: 页面标题  # VuePress SEO插件会自动添加"地月空间入门指南 | "前缀
+title: 页面标题  # 只写简洁的页面名，不要带栏目前缀
 description: 页面描述，150-160字符，包含关键词
 keywords: 关键词1, 关键词2, 关键词3
 author: 天疆说
@@ -31,9 +30,8 @@ twitter:
 ## 英文页面模板
 ```yaml
 ---
-sidebar: /en/  # 或指定具体侧边栏路径
 permalink: /en/页面路径/
-title: Page Title  # VuePress SEO插件会自动添加"Cislunar Space Beginner's Guide | "前缀
+title: Page Title  # 只写简洁的页面名，不要带栏目前缀
 description: Page description, 150-160 characters, include keywords
 keywords: keyword1, keyword2, keyword3
 author: Tianjiang Shuo
@@ -58,7 +56,7 @@ twitter:
 
 ## 关键SEO字段说明
 
-1. **title**: 页面标题，格式为"页面标题 - 网站名称"，长度50-60字符
+1. **title**: 页面标题，只写简洁的页面名（如"西北工业大学"），不要带栏目前缀（如"地月空间研究机构与团队盘点 | "），长标题放在 wechatShare.title 中
 2. **description**: 页面描述，150-160字符，包含主要关键词
 3. **keywords**: 关键词，3-5个，用逗号分隔
 4. **author**: 作者，增强权威性

@@ -1,7 +1,6 @@
 ---
-sidebar: /en/
 permalink: /en/research-frontiers/institutions/hit/
-title: Research Institutions in Cislunar Space | Harbin Institute of Technology
+title: Harbin Institute of Technology
 description: An overview of Harbin Institute of Technology's strengths, platforms, and representative research directions related to cislunar space.
 keywords: Harbin Institute of Technology, HIT, cislunar space, lunar exploration, deep space exploration, lunar navigation, lunar landing
 author: Mtrya

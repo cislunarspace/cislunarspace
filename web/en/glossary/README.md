@@ -1,12 +1,11 @@
 ---
-title: Cislunar Space Glossary | Core Terminology for Earth-Moon Space Research
+title: Cislunar Space Glossary
 description: Authoritative glossary of cislunar space terminology, covering core concepts such as CR3BP and X-ray pulsar navigation.
 keywords: cislunar space glossary, CR3BP, circular restricted three-body problem, X-ray pulsar navigation, cislunar terminology
 author: CislunarSpace
 date: 2026-03-08
 lastUpdated: 2026-03-08
-sidebar: /glossary/
-permalink: /glossary/
+permalink: /en/glossary/
 wechatShare:
   title: Cislunar Space Glossary
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

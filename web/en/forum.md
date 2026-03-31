@@ -1,5 +1,5 @@
 ---
-title: Cislunar Space Guide | Community Forum
+title: Community Forum
 description: Cislunar space community forum for discussing aerospace, orbital dynamics, and cislunar technologies.
 keywords: community forum, cislunar space, discussion, Q&A, sharing
 author: 天疆说
@@ -22,4 +22,4 @@ twitter:
   image: /logo.png
 ---
 
-<!-- Forum - pending Vue 3 migration -->
+<Forum />

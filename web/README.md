@@ -1,5 +1,4 @@
 ---
-sidebar: /
 permalink: /
 heroImage: /logo.png
 footer: Apache Licensed | 湘ICP备2026006405号-1
