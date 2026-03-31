@@ -1,5 +1,5 @@
 ---
-title: Comprehensive Cislunar Space Research Datasets | Ephemeris, Orbit, Environment Data Downloads
+title: Cislunar Space Research Datasets
 description: Collection of essential datasets for cislunar space research, including JPL ephemeris, orbital data, environment models, lunar terrain data, with download links and usage guides
 keywords: cislunar space datasets, JPL ephemeris, orbital data, lunar terrain data, space environment data, research resources download
 author: CislunarSpace
@@ -19,7 +19,7 @@ twitter:
   title: Comprehensive Cislunar Space Research Datasets | Ephemeris, Orbit, Environment Data Downloads
   description: Collection of essential datasets for cislunar space research, including JPL ephemeris, orbital data, environment models, lunar terrain data, with download links and usage guides
   image: /logo.png
-permalink: /resources-tools/datasets/
+permalink: /en/resources-tools/datasets/
 ---
 
 # Dataset Downloads

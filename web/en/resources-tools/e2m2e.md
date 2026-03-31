@@ -19,7 +19,7 @@ twitter:
   title: e2m2e - Cislunar Space Transfer Trajectory Design Library
   description: Python library for cislunar space transfer trajectory design based on CR3BP
   image: /logo.png
-permalink: /resources-tools/e2m2e/
+permalink: /en/resources-tools/e2m2e/
 ---
 
 # e2m2e — Earth to Moon, Moon to Earth

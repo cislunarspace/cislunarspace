@@ -1,11 +1,10 @@
 ---
-title: 地月空间研究机构与团队盘点 | 航天工程大学
+title: 航天工程大学
 description: 盘点国内外地月空间研究的主要机构、重点实验室、研究团队及其研究方向，为合作与交流提供参考
 keywords: 地月空间研究机构, 重点实验室, 研究团队, 国内外机构, 合作交流, 研究方向
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
-sidebar: /
 permalink: /research-frontiers/institutions/seu/
 wechatShare:
   title: 地月空间研究机构与团队盘点 | 航天工程大学

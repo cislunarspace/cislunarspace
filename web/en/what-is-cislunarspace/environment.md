@@ -1,7 +1,6 @@
 ---
-sidebar: /en/
 permalink: /en/what-is-cislunarspace/environment/
-title: Cislunar Space Environment Characteristics and Mission Impact Analysis
+title: Cislunar Space Environment
 description: Detailed analysis of cislunar space environment physical properties, dynamical characteristics, radiation environment and impacts on space missions. Reference for cislunar space mission design.
 keywords: cislunar space environment, space environment characteristics, cislunar radiation, space mission environment, lunar environment, mission impact
 author: Tianjiang Shuo

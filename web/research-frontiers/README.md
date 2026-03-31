@@ -1,5 +1,4 @@
 ---
-sidebar: /
 permalink: /research-frontiers/
 wechatShare:
   title: 地月空间研究前沿

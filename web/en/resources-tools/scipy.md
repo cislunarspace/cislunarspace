@@ -19,7 +19,7 @@ twitter:
   title: scipy - Python Scientific Computing Library
   description: scipy provides a wide range of numerical algorithms and tools
   image: /logo.png
-permalink: /resources-tools/scipy/
+permalink: /en/resources-tools/scipy/
 ---
 
 # scipy

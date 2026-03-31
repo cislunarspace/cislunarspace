@@ -1,5 +1,4 @@
 ---
-sidebar: /glossary/
 permalink: /glossary/
 title: 地月空间术语词典
 description: 地月空间领域专业术语权威释义，包含CR3BP、X射线脉冲星导航等核心概念，帮助准确理解地月空间相关术语。

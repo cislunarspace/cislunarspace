@@ -1,6 +1,5 @@
 ---
-sidebar: /
-permalink: /cislunar-orbits/
+permalink: /en/cislunar-orbits/
 wechatShare:
   title: Cislunar Space Orbits
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

@@ -1,5 +1,4 @@
 ---
-sidebar: /
 permalink: /what-is-cislunarspace/environment/
 title: 地月空间环境特征
 description: 详细解析地月空间环境的物理特性、动力学特征、辐射环境及对航天任务的影响，为地月空间任务设计提供参考。

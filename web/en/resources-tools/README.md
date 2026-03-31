@@ -1,5 +1,5 @@
 ---
-permalink: /resources-tools/
+permalink: /en/resources-tools/
 wechatShare:
   title: Cislunar Space Resources & Tools
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

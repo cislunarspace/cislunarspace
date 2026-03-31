@@ -1,5 +1,4 @@
 ---
-sidebar: /en/
 permalink: /en/research-frontiers/institutions/
 wechatShare:
   title: Cislunar Space Research Institutions
