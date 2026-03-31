@@ -4,8 +4,11 @@ import { watch } from 'vue'
 import Layout from './layouts/Layout.vue'
 import SpaceNewsHome from './layouts/SpaceNewsHome.vue'
 import SpaceNewsArchive from './layouts/SpaceNewsArchive.vue'
+import SpaceNewsArticle from './layouts/SpaceNewsArticle.vue'
 import Footer from './components/Footer.vue'
 import PageSidebar from './components/ExtraSidebar.vue'
+import AiChat from './components/AiChat.vue'
+import Forum from './components/Forum.vue'
 
 const WECHAT_SDK_SRC = 'https://res2.wx.qq.com/open/js/jweixin-1.6.0.js'
 let sdkLoadPromise: Promise<any> | null = null
@@ -84,10 +87,13 @@ export default defineClientConfig({
     Layout,
     SpaceNewsHome,
     SpaceNewsArchive,
+    SpaceNewsArticle,
   },
   enhance({ app }) {
     app.component('Footer', Footer)
     app.component('PageSidebar', PageSidebar)
+    app.component('AiChat', AiChat)
+    app.component('Forum', Forum)
   },
   setup() {
     const router = useRouter()

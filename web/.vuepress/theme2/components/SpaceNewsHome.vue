@@ -1,67 +1,93 @@
 <template>
-  <main class="space-news-home">
+  <main class="sn-home">
     <header class="sn-hero">
       <div class="sn-hero__inner">
-        <p class="sn-kicker">{{ labels.kicker }}</p>
-        <h1 class="sn-title">{{ labels.title }}</h1>
-        <p class="sn-lead">{{ labels.lead }}</p>
-        <nav class="sn-hero__nav">
-          <router-link class="sn-btn sn-btn--ghost" :to="archivePath">{{ labels.archive }}</router-link>
-        </nav>
+        <p class="sn-hero__kicker">{{ labels.kicker }}</p>
+        <h1 class="sn-hero__title">{{ labels.title }}</h1>
+        <p class="sn-hero__lead">{{ labels.lead }}</p>
       </div>
     </header>
 
-    <div class="sn-container">
-      <section v-if="featured" class="sn-featured">
-        <router-link :to="featured.path" class="sn-featured__card">
+    <div class="sn-body">
+      <div v-if="featured" class="sn-featured">
+        <router-link :to="featured.path" class="sn-featured__link">
+          <div class="sn-featured__img" :style="cardBg(featured)">
+            <span class="sn-cat-tag" :style="catStyle(featured.category)">{{ catLabel(featured.category) }}</span>
+          </div>
           <div class="sn-featured__body">
-            <time class="sn-date">{{ formatDate(featured) }}</time>
             <h2 class="sn-featured__headline">{{ featured.title }}</h2>
-            <p class="sn-featured__deck">{{ excerpt(featured) }}</p>
-            <span class="sn-readmore">{{ labels.readMore }} →</span>
+            <p class="sn-featured__deck">{{ featured.description }}</p>
+            <div class="sn-meta">
+              <span v-if="featured.author" class="sn-meta__author">{{ featured.author }}</span>
+              <span class="sn-meta__dot" v-if="featured.author && featured.date">&middot;</span>
+              <time v-if="featured.date" class="sn-meta__date">{{ formatDate(featured.date) }}</time>
+            </div>
           </div>
         </router-link>
-      </section>
+      </div>
 
       <section class="sn-section">
         <div class="sn-section__head">
           <h2 class="sn-section__title">{{ labels.latest }}</h2>
           <router-link class="sn-section__more" :to="archivePath">{{ labels.viewAll }}</router-link>
         </div>
-
-        <ul v-if="restItems.length" class="sn-grid">
-          <li v-for="item in restItems" :key="item.key" class="sn-grid__cell">
+        <ul class="sn-grid">
+          <li v-for="item in latestItems" :key="item.path" class="sn-grid__cell">
             <router-link :to="item.path" class="sn-card">
-              <time class="sn-date sn-card__date">{{ formatDate(item) }}</time>
-              <h3 class="sn-card__title">{{ item.title }}</h3>
-              <p class="sn-card__deck">{{ excerpt(item) }}</p>
+              <div class="sn-card__img" :style="cardBg(item)">
+                <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
+              </div>
+              <div class="sn-card__body">
+                <h3 class="sn-card__title">{{ item.title }}</h3>
+                <p class="sn-card__deck">{{ item.description }}</p>
+                <div class="sn-meta">
+                  <span v-if="item.author" class="sn-meta__author">{{ item.author }}</span>
+                  <span class="sn-meta__dot" v-if="item.author && item.date">&middot;</span>
+                  <time v-if="item.date" class="sn-meta__date">{{ formatDate(item.date) }}</time>
+                </div>
+              </div>
             </router-link>
           </li>
         </ul>
-
-        <div v-else-if="!featured" class="sn-empty">
-          <p>{{ labels.empty }}</p>
-          <p class="sn-empty__hint">{{ labels.emptyHint }}</p>
-          <router-link class="sn-btn sn-btn--primary" :to="archivePath">{{ labels.browseArchive }}</router-link>
-        </div>
       </section>
 
-      <footer class="sn-foot">
-        <p class="sn-foot__note">{{ labels.footnote }}</p>
-        <Content class="theme-default-content sn-foot__content" />
-      </footer>
+      <section v-for="sec in categorySections" :key="sec.key" class="sn-section">
+        <div class="sn-section__head">
+          <h2 class="sn-section__title">
+            <span class="sn-section__dot" :style="{ background: catColor(sec.key) }"></span>
+            {{ sec.label }}
+          </h2>
+          <router-link class="sn-section__more" :to="archivePath + '#' + sec.key">{{ labels.viewMore }}</router-link>
+        </div>
+        <ul class="sn-grid-snippet">
+          <li v-for="item in sec.items" :key="item.path">
+            <router-link :to="item.path" class="sn-snippet">
+              <span class="sn-cat-tag sn-cat-tag--sm" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
+              <div class="sn-snippet__text">
+                <h3 class="sn-snippet__title">{{ item.title }}</h3>
+                <div class="sn-meta">
+                  <span v-if="item.author" class="sn-meta__author">{{ item.author }}</span>
+                  <span class="sn-meta__dot" v-if="item.author && item.date">&middot;</span>
+                  <time v-if="item.date" class="sn-meta__date">{{ formatDate(item.date) }}</time>
+                </div>
+              </div>
+            </router-link>
+          </li>
+        </ul>
+      </section>
+
+      <Footer />
     </div>
   </main>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { usePageData, usePageFrontmatter } from '@vuepress/client'
-import { useThemeLocaleData } from '@vuepress/theme-default/lib/client/composables/index.js'
+import { usePage } from 'vuepress/client'
+import Footer from './Footer.vue'
+import articlesData from '../../space-news-articles.json'
 
-const page = usePageData()
-const frontmatter = usePageFrontmatter()
-
+const page = usePage()
 const isEn = computed(() => (page.value.path || '').startsWith('/en/'))
 
 const labels = computed(() =>
@@ -70,79 +96,97 @@ const labels = computed(() =>
         kicker: 'Cislunar Space',
         title: 'Space News',
         lead: 'Policy, launches, missions, and industry updates — sourced from public reporting.',
-        archive: 'Browse by date',
-        latest: 'Latest',
+        latest: 'Latest News',
         viewAll: 'Full archive →',
-        readMore: 'Read',
-        empty: 'No stories yet.',
-        emptyHint: 'Add Markdown under web/space-news/YYYY/MM/ (see archive page for structure).',
-        browseArchive: 'Open archive',
-        footnote: 'Editorial guidelines & folder layout appear below.',
+        viewMore: 'More →',
       }
     : {
         kicker: '地月空间入门指南',
         title: '航天动态',
         lead: '政策、发射、任务与产业动态摘录，均基于公开报道并可在正文中核对来源。',
-        archive: '按日期查阅',
         latest: '最新动态',
         viewAll: '全部存档 →',
-        readMore: '阅读全文',
-        empty: '暂无新闻稿。',
-        emptyHint: '在 web/space-news/年/月/ 下新增 Markdown 后即可在此自动展示。',
-        browseArchive: '打开存档页',
-        footnote: '栏目说明与撰稿约定见下方。',
+        viewMore: '更多 →',
       },
 )
 
 const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))
 
 interface ArticleItem {
-  key: string
   path: string
   title: string
-  frontmatter: any
+  description: string
+  date: string | null
   lastUpdated: string | null
+  author: string | null
+  category: string | null
+  image: string | null
+}
+
+const categoryMeta: Record<string, { zh: string; en: string; color: string }> = {
+  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
+  spacex: { zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' },
+  china: { zh: '中国航天', en: 'China Space', color: '#dc2626' },
+  nasa: { zh: 'NASA', en: 'NASA', color: '#2563eb' },
+  esa: { zh: 'ESA', en: 'ESA', color: '#0891b2' },
+  iss: { zh: '空间站', en: 'Space Station', color: '#7c3aed' },
+  launch: { zh: '发射', en: 'Launches', color: '#ea580c' },
+  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
+  science: { zh: '科学发现', en: 'Science', color: '#8b5cf6' },
+  policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
 }
 
 const articles = computed<ArticleItem[]>(() => {
-  const pages = (page.value as any).__pages || []
-  const sorted = pages
-    .filter((p: any) => isArticlePage(p))
-    .sort((a: any, b: any) => sortKey(b) - sortKey(a))
-  return sorted.map((p: any, i: number) => ({
-    key: p.path || String(i),
-    path: p.path,
-    title: (p.frontmatter && p.frontmatter.title) || p.title || 'Untitled',
-    frontmatter: p.frontmatter || {},
-    lastUpdated: p.lastUpdated,
-  }))
+  const list: ArticleItem[] = isEn.value ? (articlesData as any).en : (articlesData as any).zh
+  return [...list].sort((a, b) => {
+    const da = a.date ? new Date(a.date).getTime() : 0
+    const db = b.date ? new Date(b.date).getTime() : 0
+    return db - da
+  })
 })
 
 const featured = computed(() => articles.value[0] || null)
-const restItems = computed(() => articles.value.slice(1, 7))
+const latestItems = computed(() => articles.value.slice(1, 7))
 
-function isArticlePage(p: any) {
-  const rp = p.relativePath || ''
-  if (!rp || (p.frontmatter && p.frontmatter.draft === true)) return false
-  const base = isEn.value ? /^en\/space-news\/\d{4}\/\d{2}\// : /^space-news\/\d{4}\/\d{2}\//
-  if (!base.test(rp)) return false
-  if (/\/README\.md$/i.test(rp)) return false
-  return /\.md$/i.test(rp)
-}
-
-function sortKey(p: any) {
-  const fm = p.frontmatter || {}
-  const d = fm.date || fm.lastUpdated || p.lastUpdated
-  if (d) {
-    const t = new Date(d).getTime()
-    if (!Number.isNaN(t)) return t
+const categorySections = computed(() => {
+  const catOrder = ['artemis', 'spacex', 'china', 'nasa', 'esa', 'iss', 'launch', 'commercial', 'policy', 'science']
+  const sections: { key: string; label: string; items: ArticleItem[] }[] = []
+  for (const cat of catOrder) {
+    const items = articles.value.filter(a => a.category === cat).slice(0, 3)
+    if (!items.length) continue
+    const meta = categoryMeta[cat]
+    if (!meta) continue
+    sections.push({
+      key: cat,
+      label: isEn.value ? meta.en : meta.zh,
+      items,
+    })
   }
-  return 0
+  return sections
+})
+
+function catLabel(cat: string | null) {
+  if (!cat) return ''
+  return (categoryMeta[cat] || {})[isEn.value ? 'en' : 'zh'] || cat
 }
 
-function formatDate(p: ArticleItem) {
-  const fm = p.frontmatter || {}
-  const raw = fm.date || fm.lastUpdated || p.lastUpdated
+function catColor(cat: string | null) {
+  if (!cat) return '#64748b'
+  return (categoryMeta[cat] || {}).color || '#64748b'
+}
+
+function catStyle(cat: string | null) {
+  return { background: catColor(cat), color: '#fff' }
+}
+
+function cardBg(item: ArticleItem) {
+  if (item.image) {
+    return { backgroundImage: `url(${item.image})` }
+  }
+  return { background: `linear-gradient(135deg, ${catColor(item.category)} 0%, ${catColor(item.category)}99 100%)` }
+}
+
+function formatDate(raw: string | null) {
   if (!raw) return '—'
   const d = new Date(raw)
   if (Number.isNaN(d.getTime())) return String(raw)
@@ -150,53 +194,307 @@ function formatDate(p: ArticleItem) {
     ? d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
     : d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
 }
-
-function excerpt(p: ArticleItem) {
-  const fm = p.frontmatter || {}
-  if (fm.description) return fm.description
-  return isEn.value ? 'Open for details and sources.' : '点击查看要点与信息来源。'
-}
 </script>
 
 <style lang="scss" scoped>
-.space-news-home {
+.sn-home {
   width: 100%;
   min-height: 60vh;
   background: #f6f7f9;
-  padding-bottom: 2.5rem;
 }
+
 .sn-hero {
   background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 55%, #0c4a6e 100%);
   color: #fff;
   padding: 2.5rem 1.25rem 2.75rem;
-  margin-bottom: 0;
 }
-.sn-hero__inner { max-width: 960px; margin: 0 auto; }
-.sn-kicker { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; margin: 0 0 0.5rem; }
-.sn-title { font-size: clamp(1.75rem, 4vw, 2.35rem); font-weight: 800; line-height: 1.15; margin: 0 0 0.75rem; letter-spacing: -0.02em; }
-.sn-lead { font-size: 1.05rem; line-height: 1.55; opacity: 0.92; max-width: 40rem; margin: 0 0 1.25rem; }
-.sn-hero__nav { display: flex; flex-wrap: wrap; gap: 0.75rem; }
-.sn-btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.45rem 1rem; border-radius: 6px; font-size: 0.9rem; font-weight: 600; text-decoration: none; transition: background 0.15s, color 0.15s; }
-.sn-btn--ghost { border: 1px solid rgba(255, 255, 255, 0.45); color: #fff; &:hover { background: rgba(255, 255, 255, 0.12); } }
-.sn-btn--primary { background: #0ea5e9; color: #fff; border: none; &:hover { background: #0284c7; } }
-.sn-container { max-width: 1100px; margin: 0 auto; padding: 1.75rem 1.25rem 0; }
-.sn-featured { margin-top: -1.25rem; margin-bottom: 2rem; }
-.sn-featured__card { display: block; background: #fff; border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08); border: 1px solid rgba(15, 23, 42, 0.06); transition: transform 0.2s, box-shadow 0.2s; &:hover { transform: translateY(-2px); box-shadow: 0 12px 36px rgba(15, 23, 42, 0.12); } }
-.sn-featured__body { padding: 1.5rem 1.5rem 1.65rem; }
-.sn-featured__headline { font-size: clamp(1.35rem, 2.5vw, 1.75rem); font-weight: 700; line-height: 1.25; margin: 0.35rem 0 0.65rem; }
-.sn-featured__deck { font-size: 1rem; line-height: 1.55; color: #475569; margin: 0 0 1rem; }
-.sn-readmore { font-size: 0.9rem; font-weight: 600; color: #0284c7; }
-.sn-section__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0; }
-.sn-section__title { font-size: 1.15rem; font-weight: 700; margin: 0; color: #0f172a; }
-.sn-section__more { font-size: 0.875rem; font-weight: 600; color: #0284c7; text-decoration: none; white-space: nowrap; &:hover { text-decoration: underline; } }
-.sn-date { font-size: 0.8rem; color: #64748b; font-variant-numeric: tabular-nums; }
-.sn-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
-.sn-card { display: block; height: 100%; background: #fff; border-radius: 10px; padding: 1.1rem 1.15rem; text-decoration: none; color: inherit; border: 1px solid #e2e8f0; transition: border-color 0.15s, box-shadow 0.15s; &:hover { border-color: #bae6fd; box-shadow: 0 4px 16px rgba(14, 165, 233, 0.12); } }
-.sn-card__title { font-size: 1.05rem; font-weight: 650; line-height: 1.35; margin: 0.4rem 0 0.5rem; color: #0f172a; }
-.sn-card__deck { font-size: 0.875rem; line-height: 1.5; color: #64748b; margin: 0; }
-.sn-empty { background: #fff; border: 1px dashed #cbd5e1; border-radius: 10px; padding: 2rem 1.5rem; text-align: center; color: #475569; }
-.sn-empty__hint { font-size: 0.9rem; margin: 0.5rem 0 1.25rem; }
-.sn-foot { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; }
-.sn-foot__note { font-size: 0.85rem; color: #64748b; margin: 0 0 0.75rem; }
-.sn-foot__content { font-size: 0.9rem; color: #475569; max-width: none; }
+
+.sn-hero__inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sn-hero__kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin: 0 0 0.5rem;
+}
+
+.sn-hero__title {
+  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.sn-hero__lead {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  opacity: 0.92;
+  max-width: 40rem;
+  margin: 0;
+}
+
+.sn-body {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ---- Featured ---- */
+.sn-featured {
+  margin-top: -1.25rem;
+  margin-bottom: 2rem;
+}
+
+.sn-featured__link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+  }
+
+  @media (max-width: 719px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sn-featured__img {
+  min-height: 260px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.sn-featured__body {
+  padding: 1.5rem 1.5rem 1.65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sn-featured__headline {
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0.35rem 0 0.65rem;
+}
+
+.sn-featured__deck {
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #475569;
+  margin: 0 0 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---- Category tag ---- */
+.sn-cat-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.sn-cat-tag--sm {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.45rem;
+}
+
+/* ---- Meta ---- */
+.sn-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+
+.sn-meta__author {
+  font-weight: 500;
+}
+
+.sn-meta__dot {
+  opacity: 0.4;
+}
+
+/* ---- Section ---- */
+.sn-section {
+  margin-bottom: 2.5rem;
+}
+
+.sn-section__head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.sn-section__dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.sn-section__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sn-section__more {
+  margin-left: auto;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #0284c7;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* ---- Grid (latest) ---- */
+.sn-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.sn-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e2e8f0;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: #bae6fd;
+    box-shadow: 0 4px 16px rgba(14, 165, 233, 0.12);
+  }
+}
+
+.sn-card__img {
+  min-height: 140px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  padding: 0.75rem;
+}
+
+.sn-card__body {
+  padding: 0.85rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sn-card__title {
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 0 0 0.35rem;
+  color: #0f172a;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sn-card__deck {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #64748b;
+  margin: 0 0 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+/* ---- Snippet grid (category sections) ---- */
+.sn-grid-snippet {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.75rem;
+}
+
+.sn-snippet {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  background: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e2e8f0;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: #bae6fd;
+    box-shadow: 0 2px 8px rgba(14, 165, 233, 0.1);
+  }
+}
+
+.sn-snippet__text {
+  min-width: 0;
+}
+
+.sn-snippet__title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.2rem;
+  color: #0f172a;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 </style>

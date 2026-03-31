@@ -1,130 +1,194 @@
 <template>
-  <main class="space-news-archive">
+  <main class="sn-archive">
     <header class="sna-hero">
       <div class="sna-hero__inner">
-        <p class="sna-kicker">{{ labels.kicker }}</p>
-        <h1 class="sna-title">{{ labels.title }}</h1>
-        <p class="sna-lead">{{ labels.lead }}</p>
+        <p class="sna-hero__kicker">{{ labels.kicker }}</p>
+        <h1 class="sna-hero__title">{{ labels.title }}</h1>
+        <p class="sna-hero__lead">{{ labels.lead }}</p>
         <router-link class="sna-back" :to="homePath">← {{ labels.backHome }}</router-link>
       </div>
     </header>
 
-    <div class="sna-container">
-      <section v-for="group in groups" :key="group.key" class="sna-group">
+    <div class="sna-body">
+      <nav class="sna-filters">
+        <button
+          class="sna-filter-btn"
+          :class="{ active: activeFilter === 'all' }"
+          @click="activeFilter = 'all'"
+        >{{ labels.all }}</button>
+        <button
+          v-for="cat in usedCategories"
+          :key="cat.key"
+          class="sna-filter-btn"
+          :class="{ active: activeFilter === cat.key }"
+          :style="activeFilter === cat.key ? { background: cat.color, borderColor: cat.color, color: '#fff' } : {}"
+          @click="activeFilter = cat.key"
+        >{{ cat.label }}</button>
+      </nav>
+
+      <section v-for="group in filteredGroups" :key="group.key" :id="group.key" class="sna-group">
         <h2 class="sna-group__title">{{ group.label }}</h2>
-        <ul class="sna-list">
-          <li v-for="item in group.items" :key="item.key" class="sna-list__item">
-            <router-link :to="item.path" class="sna-list__link">
-              <time class="sna-time">{{ formatDate(item) }}</time>
-              <span class="sna-list__text">{{ item.title }}</span>
+        <ul class="sna-cards">
+          <li v-for="item in group.items" :key="item.path" class="sna-cards__cell">
+            <router-link :to="item.path" class="sna-card">
+              <div class="sna-card__img" :style="cardBg(item)">
+                <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
+              </div>
+              <div class="sna-card__body">
+                <h3 class="sna-card__title">{{ item.title }}</h3>
+                <p class="sna-card__deck">{{ item.description }}</p>
+                <div class="sn-meta">
+                  <span v-if="item.author" class="sn-meta__author">{{ item.author }}</span>
+                  <span class="sn-meta__dot" v-if="item.author && item.date">&middot;</span>
+                  <time v-if="item.date" class="sn-meta__date">{{ formatDate(item.date) }}</time>
+                </div>
+              </div>
             </router-link>
           </li>
         </ul>
       </section>
 
-      <div v-if="!groups.length" class="sna-empty">
+      <div v-if="!filteredGroups.length" class="sna-empty">
         <p>{{ labels.empty }}</p>
       </div>
-
-      <footer class="sna-foot">
-        <Content class="theme-default-content sna-foot__content" />
-      </footer>
     </div>
   </main>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { usePageData } from '@vuepress/client'
+import { computed, ref } from 'vue'
+import { usePage } from 'vuepress/client'
+import articlesData from '../../space-news-articles.json'
 
-const page = usePageData()
-
+const page = usePage()
 const isEn = computed(() => (page.value.path || '').startsWith('/en/'))
+const activeFilter = ref('all')
 
 const labels = computed(() =>
   isEn.value
     ? {
         kicker: 'Space News',
         title: 'Archive by date',
-        lead: 'All published items under space-news/YYYY/MM/, newest first within each month.',
+        lead: 'All published items, newest first within each month.',
         backHome: 'Back to Space News',
-        empty: 'No articles yet. Add Markdown files under web/space-news/YYYY/MM/.',
+        empty: 'No articles yet.',
+        all: 'All',
       }
     : {
         kicker: '航天动态',
         title: '按日期查阅',
-        lead: '以下为已发布的全部条目（路径 space-news/年/月/），按月分组，月内按日期倒序。',
+        lead: '以下为已发布的全部条目，按月分组，月内按日期倒序。',
         backHome: '返回航天动态首页',
-        empty: '暂无稿件。请在 web/space-news/年/月/ 下添加 Markdown 文件。',
+        empty: '暂无稿件。',
+        all: '全部',
       },
 )
 
 const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'))
 
 interface ArticleItem {
-  key: string
   path: string
   title: string
-  frontmatter: any
+  description: string
+  date: string | null
   lastUpdated: string | null
+  author: string | null
+  category: string | null
+  image: string | null
   relativePath: string
 }
 
-interface ArticleGroup {
-  key: string
-  y: number
-  m: number
-  label: string
-  items: ArticleItem[]
+const categoryMeta: Record<string, { zh: string; en: string; color: string }> = {
+  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
+  spacex: { zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' },
+  china: { zh: '中国航天', en: 'China Space', color: '#dc2626' },
+  nasa: { zh: 'NASA', en: 'NASA', color: '#2563eb' },
+  esa: { zh: 'ESA', en: 'ESA', color: '#0891b2' },
+  iss: { zh: '空间站', en: 'Space Station', color: '#7c3aed' },
+  launch: { zh: '发射', en: 'Launches', color: '#ea580c' },
+  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
+  science: { zh: '科学发现', en: 'Science', color: '#8b5cf6' },
+  policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
 }
 
 const articles = computed<ArticleItem[]>(() => {
-  const pages = (page.value as any).__pages || []
-  return pages
-    .filter((p: any) => isArticlePage(p))
-    .map((p: any, i: number) => ({
-      key: p.path || String(i),
-      path: p.path,
-      title: (p.frontmatter && p.frontmatter.title) || p.title || 'Untitled',
-      frontmatter: p.frontmatter || {},
-      lastUpdated: p.lastUpdated,
-      relativePath: p.relativePath || '',
-    }))
-    .sort((a: any, b: any) => sortKey(b) - sortKey(a))
+  const list: any[] = isEn.value ? (articlesData as any).en : (articlesData as any).zh
+  return [...list]
+    .map(a => ({ ...a }))
+    .sort((a, b) => {
+      const da = a.date ? new Date(a.date).getTime() : 0
+      const db = b.date ? new Date(b.date).getTime() : 0
+      return db - da
+    })
 })
+
+interface ArticleGroup {
+  key: string
+  label: string
+  items: ArticleItem[]
+}
 
 const groups = computed<ArticleGroup[]>(() => {
   const map = new Map<string, ArticleGroup>()
   for (const a of articles.value) {
     const ym = yearMonthFromPath(a.relativePath)
     if (!ym) continue
-    const key = `${ym.y}-${ym.m}`
+    const key = `${ym.y}-${String(ym.m).padStart(2, '0')}`
     if (!map.has(key)) {
       map.set(key, {
         key,
-        y: ym.y,
-        m: ym.m,
         label: formatMonthLabel(ym.y, ym.m),
         items: [],
       })
     }
     map.get(key)!.items.push(a)
   }
-  const list = Array.from(map.values())
-  list.sort((a, b) => {
-    if (a.y !== b.y) return b.y - a.y
-    return b.m - a.m
-  })
-  return list
+  return Array.from(map.values()).sort((a, b) => b.key.localeCompare(a.key))
 })
 
-function isArticlePage(p: any) {
-  const rp = p.relativePath || ''
-  if (!rp || (p.frontmatter && p.frontmatter.draft === true)) return false
-  const base = isEn.value ? /^en\/space-news\/\d{4}\/\d{2}\// : /^space-news\/\d{4}\/\d{2}\//
-  if (!base.test(rp)) return false
-  if (/\/README\.md$/i.test(rp)) return false
-  return /\.md$/i.test(rp)
+const filteredGroups = computed(() => {
+  if (activeFilter.value === 'all') return groups.value
+  return groups.value
+    .map(g => ({
+      ...g,
+      items: g.items.filter(a => a.category === activeFilter.value),
+    }))
+    .filter(g => g.items.length > 0)
+})
+
+const usedCategories = computed(() => {
+  const cats = new Set<string>()
+  for (const a of articles.value) {
+    if (a.category) cats.add(a.category)
+  }
+  const result: { key: string; label: string; color: string }[] = []
+  for (const cat of cats) {
+    const meta = categoryMeta[cat]
+    if (!meta) continue
+    result.push({ key: cat, label: isEn.value ? meta.en : meta.zh, color: meta.color })
+  }
+  return result
+})
+
+function catLabel(cat: string | null) {
+  if (!cat) return ''
+  return (categoryMeta[cat] || {})[isEn.value ? 'en' : 'zh'] || cat
+}
+
+function catColor(cat: string | null) {
+  if (!cat) return '#64748b'
+  return (categoryMeta[cat] || {}).color || '#64748b'
+}
+
+function catStyle(cat: string | null) {
+  return { background: catColor(cat), color: '#fff' }
+}
+
+function cardBg(item: ArticleItem) {
+  if (item.image) {
+    return { backgroundImage: `url(${item.image})` }
+  }
+  return { background: `linear-gradient(135deg, ${catColor(item.category)} 0%, ${catColor(item.category)}99 100%)` }
 }
 
 function yearMonthFromPath(rp: string) {
@@ -144,19 +208,7 @@ function formatMonthLabel(y: number, mo: number) {
   return `${y} 年 ${mo} 月`
 }
 
-function sortKey(p: any) {
-  const fm = p.frontmatter || {}
-  const d = fm.date || fm.lastUpdated || p.lastUpdated
-  if (d) {
-    const t = new Date(d).getTime()
-    if (!Number.isNaN(t)) return t
-  }
-  return 0
-}
-
-function formatDate(p: ArticleItem) {
-  const fm = p.frontmatter || {}
-  const raw = fm.date || fm.lastUpdated || p.lastUpdated
+function formatDate(raw: string | null) {
   if (!raw) return '—'
   const d = new Date(raw)
   if (Number.isNaN(d.getTime())) return String(raw)
@@ -167,22 +219,210 @@ function formatDate(p: ArticleItem) {
 </script>
 
 <style lang="scss" scoped>
-.space-news-archive { width: 100%; min-height: 60vh; background: #f6f7f9; padding-bottom: 2.5rem; }
-.sna-hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #fff; padding: 2rem 1.25rem 2.25rem; }
-.sna-hero__inner { max-width: 720px; margin: 0 auto; }
-.sna-kicker { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.8; margin: 0 0 0.35rem; }
-.sna-title { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; margin: 0 0 0.5rem; }
-.sna-lead { font-size: 0.95rem; line-height: 1.5; opacity: 0.9; margin: 0 0 1rem; }
-.sna-back { display: inline-block; font-size: 0.9rem; font-weight: 600; color: #7dd3fc; text-decoration: none; &:hover { text-decoration: underline; } }
-.sna-container { max-width: 720px; margin: 0 auto; padding: 1.75rem 1.25rem 0; }
-.sna-group { margin-bottom: 2rem; }
-.sna-group__title { font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 0.65rem; padding-bottom: 0.35rem; border-bottom: 2px solid #e2e8f0; }
-.sna-list { list-style: none; padding: 0; margin: 0; background: #fff; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; }
-.sna-list__item { border-bottom: 1px solid #f1f5f9; &:last-child { border-bottom: none; } }
-.sna-list__link { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1rem; padding: 0.75rem 1rem; text-decoration: none; color: #0f172a; &:hover { background: #f8fafc; } }
-.sna-time { flex: 0 0 auto; font-size: 0.8rem; color: #64748b; min-width: 6.5rem; font-variant-numeric: tabular-nums; }
-.sna-list__text { flex: 1 1 10rem; font-weight: 600; line-height: 1.4; }
-.sna-empty { background: #fff; border: 1px dashed #cbd5e1; border-radius: 8px; padding: 2rem; text-align: center; color: #64748b; }
-.sna-foot { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid #e2e8f0; }
-.sna-foot__content { font-size: 0.9rem; color: #475569; max-width: none; }
+.sn-archive {
+  width: 100%;
+  min-height: 60vh;
+  background: #f6f7f9;
+}
+
+.sna-hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #fff;
+  padding: 2rem 1.25rem 2.25rem;
+}
+
+.sna-hero__inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sna-hero__kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin: 0 0 0.35rem;
+}
+
+.sna-hero__title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+}
+
+.sna-hero__lead {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.9;
+  margin: 0 0 1rem;
+}
+
+.sna-back {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #7dd3fc;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.sna-body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.75rem 1.25rem 0;
+}
+
+/* ---- Filters ---- */
+.sna-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.sna-filter-btn {
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #475569;
+  transition: all 0.15s;
+
+  &:hover {
+    border-color: #94a3b8;
+  }
+
+  &.active {
+    background: #0f172a;
+    border-color: #0f172a;
+    color: #fff;
+  }
+}
+
+/* ---- Group ---- */
+.sna-group {
+  margin-bottom: 2.5rem;
+}
+
+.sna-group__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+/* ---- Cards grid ---- */
+.sna-cards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.sna-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e2e8f0;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: #bae6fd;
+    box-shadow: 0 4px 16px rgba(14, 165, 233, 0.12);
+  }
+}
+
+.sna-card__img {
+  min-height: 120px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  padding: 0.75rem;
+}
+
+.sna-card__body {
+  padding: 0.75rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sna-card__title {
+  font-size: 0.95rem;
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 0 0 0.35rem;
+  color: #0f172a;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sna-card__deck {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: #64748b;
+  margin: 0 0 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+/* ---- Category tag (shared with home) ---- */
+.sn-cat-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* ---- Meta (shared) ---- */
+.sn-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+
+.sn-meta__author {
+  font-weight: 500;
+}
+
+.sn-meta__dot {
+  opacity: 0.4;
+}
+
+/* ---- Empty ---- */
+.sna-empty {
+  background: #fff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  color: #64748b;
+}
 </style>

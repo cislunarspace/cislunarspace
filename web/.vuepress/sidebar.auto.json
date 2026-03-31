@@ -1,7 +1,7 @@
 {
   "zh": [
     {
-      "title": "Space News",
+      "text": "Space News",
       "collapsible": false,
       "children": [
         [
@@ -13,7 +13,7 @@
           "按日期查阅"
         ],
         {
-          "title": "2026",
+          "text": "2026",
           "link": "/space-news/2026/",
           "collapsible": true,
           "children": [
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "title": "2025",
+          "text": "2025",
           "link": "/space-news/2025/",
           "collapsible": true,
           "children": [
@@ -47,7 +47,7 @@
   ],
   "en": [
     {
-      "title": "Space News",
+      "text": "Space News",
       "collapsible": false,
       "children": [
         [
@@ -59,7 +59,7 @@
           "Archive by date"
         ],
         {
-          "title": "2026",
+          "text": "2026",
           "link": "/en/space-news/2026/",
           "collapsible": true,
           "children": [
@@ -78,7 +78,7 @@
           ]
         },
         {
-          "title": "2025",
+          "text": "2025",
           "link": "/en/space-news/2025/",
           "collapsible": true,
           "children": [
