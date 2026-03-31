@@ -13,6 +13,7 @@ related:
   - 2026-03-29-artemis-2-pre-launch-media-events
   - 2026-03-28-artemis-2-crew-arrive-ksc
   - 2026-03-27-artemis-2-one-week-away
+layout: SpaceNewsArticle
 ---
 
 # Artemis II 绕月任务进入最终准备阶段，发射日天气预报 80% 适宜发射

@@ -13,6 +13,7 @@ related:
   - 2026-03-28-artemis-2-crew-arrive-ksc
   - 2026-03-27-artemis-2-one-week-away
   - 2026-03-28-celeste-rocket-lab-launch
+layout: SpaceNewsArticle
 ---
 
 # Artemis II Crew Answers Media Questions as Launch Week Begins

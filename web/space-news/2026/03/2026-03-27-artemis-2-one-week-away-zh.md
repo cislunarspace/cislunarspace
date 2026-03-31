@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-27-artemis-2-one-week-away/
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-03-27
+category: artemis
+layout: SpaceNewsArticle
 ---
 
 # NASA Artemis II 载人绕月任务进入最后一周倒计时

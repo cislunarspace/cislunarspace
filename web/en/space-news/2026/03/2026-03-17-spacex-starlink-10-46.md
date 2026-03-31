@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-17-spacex-starlink-10-46/
 author: 天疆说
 date: 2026-03-17
 lastUpdated: 2026-03-17
+category: spacex
+layout: SpaceNewsArticle
 ---
 
 # SpaceX Starlink 10-46 launch from Cape Canaveral

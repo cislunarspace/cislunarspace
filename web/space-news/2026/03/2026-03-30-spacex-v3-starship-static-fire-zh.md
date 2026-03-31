@@ -11,6 +11,7 @@ category: spacex
 tags: [spacex, starship, V3, starship-v3, 超重助推器, 静态点火, 发射]
 related:
   - 2026-03-28-celeste-rocket-lab-launch
+layout: SpaceNewsArticle
 ---
 
 # SpaceX 完成新一代 V3 版星舰静态点火测试，计划 4 月发射

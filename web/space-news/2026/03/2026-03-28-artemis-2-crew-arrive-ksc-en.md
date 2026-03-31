@@ -10,6 +10,7 @@ tags: [artemis, artemis-2, NASA, 登月, 绕月, 发射]
 related:
   - 2026-03-27-artemis-2-one-week-away
   - 2026-03-27-nasa-nuclear-spacecraft
+layout: SpaceNewsArticle
 ---
 
 The four astronauts who will fly around the Moon as soon as next week and their backups arrived at Kennedy Space Center on March 27, 2026. Full of enthusiasm, they also conveyed that they know weather or other factors could delay the launch, but whenever it happens, they are ready.

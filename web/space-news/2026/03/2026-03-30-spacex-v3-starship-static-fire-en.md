@@ -11,6 +11,7 @@ category: spacex
 tags: [spacex, starship, V3, starship-v3, super-heavy, static-fire, launch]
 related:
   - 2026-03-28-celeste-rocket-lab-launch
+layout: SpaceNewsArticle
 ---
 
 # SpaceX Fires Up Next-Gen V3 Starship for First Time Ahead of April Launch

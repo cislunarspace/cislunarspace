@@ -9,6 +9,7 @@ category: iss
 tags: [NASA, ISS, Crew-11, Mike Fincke, medical, 国际空间站]
 related:
   - 2026-03-27-nasa-nuclear-spacecraft
+layout: SpaceNewsArticle
 ---
 
 NASA astronaut Mike Fincke is sharing more about the medical event that caused an early end to the Crew-11 mission aboard the International Space Station. In an interview with the Associated Press, he said it happened with no warning and passed quickly, but doctors still do not understand the cause.

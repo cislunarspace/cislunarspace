@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-24-roscosmos-progress-94-iss/
 author: 天疆说
 date: 2026-03-24
 lastUpdated: 2026-03-27
+category: iss
+layout: SpaceNewsArticle
 ---
 
 # 进步 MS 货运飞船与空间站对接补给第 74 远征队

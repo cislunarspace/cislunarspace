@@ -11,6 +11,7 @@ category: spacex
 tags: [spacex, falcon-9, transporter, rideshare,范登堡, 拼车, 发射, Starlink]
 related:
   - 2026-03-13-spacex-starlink-17-31
+layout: SpaceNewsArticle
 ---
 
 # SpaceX 将于 3 月 30 日执行 Transporter-16 拼车任务，从范登堡发射 119 个有效载荷

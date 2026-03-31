@@ -9,6 +9,7 @@ category: esa
 tags: [ESA, Rocket Lab, Celeste, LEO-PNT, Galileo, navigation, Electron]
 related:
   - 2026-03-27-esa-celeste-rocket-lab-launch-preview
+layout: SpaceNewsArticle
 ---
 
 On March 28, the European Space Agency (ESA) took a major step forward in strengthening Europe's ambition for more resilient satellite navigation, as the first two satellites of the Celeste in-orbit demonstration mission lifted off from New Zealand aboard Rocket Lab's Electron. Their mission is to begin testing a complementary low Earth orbit layer for Galileo.

@@ -9,6 +9,7 @@ category: nasa
 tags: [nasa, artemis, artemis-2, 航天服, orion, 载人航天]
 related:
   - 2026-03-27-artemis-2-one-week-away
+layout: SpaceNewsArticle
 ---
 
 NASA于3月27日公布了Artemis II任务中4名航天员将穿戴的Orion机组生存系统（Orion Crew Survival System）航天服。这套鲜艳的橙色航天服将在人类首次重返月球的Artemis II测试飞行中为航天员提供生命保障。

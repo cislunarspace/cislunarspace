@@ -9,6 +9,7 @@ category: china
 tags: [china, long-march, long-march-2c, yuanzheng-1s, shiyan-33, Jiuquan, launch, cnes]
 related:
   - 2026-03-13-china-shiyan-30-03-04
+layout: SpaceNewsArticle
 ---
 
 At **12:11 Beijing time on March 27, 2026**, China successfully launched the **Shiyan-33** satellite aboard a **Long March 2C/Yuanzheng-1S** rocket from the **Jiuquan Satellite Launch Center**. The satellite entered its preset orbit and the launch was declared a complete success. The mission marked the **635th flight of the Long March rocket series**.

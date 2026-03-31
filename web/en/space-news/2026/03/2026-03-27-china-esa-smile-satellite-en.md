@@ -9,6 +9,7 @@ category: china
 tags: [china, esa, smile, satellite, kourou, vega-c, space-weather, magnetosphere, eu-china-cooperation]
 related:
   - 2026-03-26-china-siwei-gaojing-2-05-06
+layout: SpaceNewsArticle
 ---
 
 On **March 26, 2026**, the Chinese Academy of Sciences announced that the **SMILE (Solar wInd Magnetosphere Ionosphere Link Explorer)** satellite — jointly developed by the Chinese Academy of Sciences and ESA — has completed all pre-launch preparations at the **Kourou Spaceport** in French Guiana. The satellite is scheduled for launch aboard a **Vega-C** rocket on **April 9, 2026** (local time).

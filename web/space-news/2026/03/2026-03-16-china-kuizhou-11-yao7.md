@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-16-china-kuizhou-11-yao7/
 author: 天疆说
 date: 2026-03-16
 lastUpdated: 2026-03-16
+category: china
+layout: SpaceNewsArticle
 ---
 
 # 快舟十一号遥七运载火箭发射成功

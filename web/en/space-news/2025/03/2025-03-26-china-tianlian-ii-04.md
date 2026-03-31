@@ -5,6 +5,8 @@ permalink: /en/space-news/2025/03/2025-03-26-china-tianlian-ii-04/
 author: 天疆说
 date: 2025-03-26
 lastUpdated: 2025-03-27
+category: china
+layout: SpaceNewsArticle
 ---
 
 # China launches Tianlian II-04 data-relay satellite

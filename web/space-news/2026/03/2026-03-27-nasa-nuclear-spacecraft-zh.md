@@ -9,6 +9,7 @@ category: nasa
 tags: [nasa, 核动力, 深空, 推进, 飞船]
 related:
   - 2026-03-27-artemis-2-one-week-away
+layout: SpaceNewsArticle
 ---
 
 NASA正在开发首个核动力星际飞船，这是深空探索技术的重大突破。这一新型推进系统可以实现更快的星际旅行，并支持更长时间的太阳系任务。

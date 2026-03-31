@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc/
 author: 天疆说
 date: 2026-03-28
 lastUpdated: 2026-03-28
+category: artemis
+layout: SpaceNewsArticle
 ---
 
 # NASA Artemis II 航天员乘组抵达肯尼迪航天中心

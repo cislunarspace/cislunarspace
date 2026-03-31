@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-20-spacex-starlink-17-15/
 author: 天疆说
 date: 2026-03-20
 lastUpdated: 2026-03-20
+category: spacex
+layout: SpaceNewsArticle
 ---
 
 # SpaceX Starlink 17-15 launch from Vandenberg

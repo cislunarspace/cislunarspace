@@ -5,6 +5,8 @@ permalink: /space-news/2026/01/2026-01-blue-origin-pauses-tourism/
 author: 天疆说
 date: 2026-01-30
 lastUpdated: 2026-01-30
+category: commercial
+layout: SpaceNewsArticle
 ---
 
 # Blue Origin 宣布暂停新谢泼德亚轨道旅游飞行

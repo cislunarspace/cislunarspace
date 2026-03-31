@@ -9,6 +9,7 @@ category: esa
 tags: [esa, rocket-lab, electron, celeste, leo-pnt, galileo, navigation, rocket-lab]
 related:
   - 2026-03-27-esa-celeste-rocket-lab-launch-preview
+layout: SpaceNewsArticle
 ---
 
 At **10:14 CET on March 28, 2026** (09:14 UTC), the first two satellites of ESA's **Celeste** mission lifted off aboard a **Rocket Lab Electron** rocket from the Māhia Launch Complex in New Zealand, successfully deploying into low Earth orbit. This launch marks the official start of Europe's first **Low Earth Orbit Positioning, Navigation and Timing (LEO-PNT)** in-orbit demonstration mission.

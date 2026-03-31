@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-20-spacex-starlink-17-15/
 author: 天疆说
 date: 2026-03-20
 lastUpdated: 2026-03-20
+category: spacex
+layout: SpaceNewsArticle
 ---
 
 # SpaceX 自范登堡发射 Starlink 17-15 任务

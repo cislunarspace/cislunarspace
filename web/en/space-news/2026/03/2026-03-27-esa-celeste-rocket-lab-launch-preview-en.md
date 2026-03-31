@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-previ
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-03-27
+category: esa
+layout: SpaceNewsArticle
 ---
 
 # ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron

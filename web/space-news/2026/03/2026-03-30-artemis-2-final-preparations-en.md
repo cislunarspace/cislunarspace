@@ -13,6 +13,7 @@ related:
   - 2026-03-29-artemis-2-pre-launch-media-events
   - 2026-03-28-artemis-2-crew-arrive-ksc
   - 2026-03-27-artemis-2-one-week-away
+layout: SpaceNewsArticle
 ---
 
 # Final Preparations Underway for Artemis II Moon Mission, 80% Go Weather Forecast

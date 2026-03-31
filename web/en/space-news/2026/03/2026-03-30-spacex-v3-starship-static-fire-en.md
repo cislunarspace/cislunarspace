@@ -9,6 +9,7 @@ category: spacex
 tags: [spacex, starship, V3, starship-v3, super-heavy, static-fire, launch]
 related:
   - 2026-03-28-celeste-rocket-lab-launch
+layout: SpaceNewsArticle
 ---
 
 In **March 2026**, **SpaceX** successfully completed the first static fire test of the next-generation **Starship Version 3 (V3)**, preparing for an **April launch**. This version will be the **most powerful Starship** to date.

@@ -9,6 +9,7 @@ category: nasa
 tags: [nasa, artemis, artemis-2, spacesuit, orion, human-spaceflight]
 related:
   - 2026-03-27-artemis-2-one-week-away
+layout: SpaceNewsArticle
 ---
 
 NASA has unveiled the Orion Crew Survival System suits that the four Artemis II astronauts will wear during their upcoming test flight around the Moon — the first crewed lunar mission since the Apollo era.

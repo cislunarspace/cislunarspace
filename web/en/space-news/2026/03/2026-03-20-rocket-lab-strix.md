@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-20-rocket-lab-strix/
 author: 天疆说
 date: 2026-03-20
 lastUpdated: 2026-03-20
+category: esa
+layout: SpaceNewsArticle
 ---
 
 # Rocket Lab launches Strix Earth observation radar satellite

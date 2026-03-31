@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-13-china-long-march-dual-launch/
 author: 天疆说
 date: 2026-03-13
 lastUpdated: 2026-03-27
+category: china
+layout: SpaceNewsArticle
 ---
 
 # Two Long March launches within three hours in China

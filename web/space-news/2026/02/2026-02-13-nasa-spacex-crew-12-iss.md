@@ -5,6 +5,8 @@ permalink: /space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss/
 author: 天疆说
 date: 2026-02-13
 lastUpdated: 2026-03-27
+category: spacex
+layout: SpaceNewsArticle
 ---
 
 # NASA SpaceX Crew-12 载人飞船发射前往国际空间站
