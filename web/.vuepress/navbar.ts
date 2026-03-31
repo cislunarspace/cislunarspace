@@ -3,7 +3,7 @@ import type { NavbarConfig } from 'vuepress'
 export default <NavbarConfig>[
   {
     text: '卫星轨道仿真教学平台',
-    link: '/satellite-simulation.html',
+    link: '/satellite-simulation/',
   },
   {
     text: '地月空间术语词典',
