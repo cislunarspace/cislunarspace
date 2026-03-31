@@ -9,6 +9,7 @@ category: commercial
 tags: [NASA, ISS, commercial space station, CLD, House, Congress, LEO]
 related:
   - 2026-03-24-nasa-moon-base-plan
+layout: SpaceNewsArticle
 ---
 
 Companies developing **Commercial LEO Destinations (CLDs)** to replace the International Space Station told a House subcommittee on March 25, 2026, that they want NASA to **"stick with the plan"** and not make changes that are **"sowing confusion"** in the industry.

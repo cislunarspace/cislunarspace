@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight/
 author: 天疆说
 date: 2026-03-13
 lastUpdated: 2026-03-13
+category: china
+layout: SpaceNewsArticle
 ---
 
 # Long March 8A maiden flight success

@@ -5,6 +5,8 @@ permalink: /en/space-news/2025/03/2025-03-26-cygnus-ng-22-canceled/
 author: 天疆说
 date: 2025-03-26
 lastUpdated: 2025-03-27
+category: iss
+layout: SpaceNewsArticle
 ---
 
 # NASA and Northrop cancel Cygnus NG-22 cargo mission

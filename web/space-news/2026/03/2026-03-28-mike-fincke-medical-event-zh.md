@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-28-mike-fincke-medical-event/
 author: 天疆说
 date: 2026-03-28
 lastUpdated: 2026-03-28
+category: iss
+layout: SpaceNewsArticle
 ---
 
 # NASA 航天员 Mike Fincke 披露 Crew-11 提前返航医学事件详情

@@ -9,6 +9,7 @@ category: nasa
 tags: [nasa, nuclear, deep-space, propulsion, spacecraft]
 related:
   - 2026-03-27-artemis-2-one-week-away
+layout: SpaceNewsArticle
 ---
 
 NASA is developing the first nuclear-powered interplanetary spacecraft, representing a significant leap forward in deep space exploration technology. This new propulsion system could enable faster travel to distant worlds and support longer-duration missions throughout the solar system.

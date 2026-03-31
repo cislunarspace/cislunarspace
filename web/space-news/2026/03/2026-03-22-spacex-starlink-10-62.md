@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-22-spacex-starlink-10-62/
 author: 天疆说
 date: 2026-03-22
 lastUpdated: 2026-03-22
+category: spacex
+layout: SpaceNewsArticle
 ---
 
 # SpaceX 自卡纳维拉尔角发射 Starlink 10-62 任务

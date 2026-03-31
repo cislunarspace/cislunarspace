@@ -5,6 +5,8 @@ permalink: /space-news/2025/03/2025-03-26-china-tianlian-ii-04/
 author: 天疆说
 date: 2025-03-26
 lastUpdated: 2025-03-27
+category: china
+layout: SpaceNewsArticle
 ---
 
 # 我国成功发射天链二号04星

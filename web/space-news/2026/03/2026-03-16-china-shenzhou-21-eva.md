@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-16-china-shenzhou-21-eva/
 author: 天疆说
 date: 2026-03-16
 lastUpdated: 2026-03-16
+category: china
+layout: SpaceNewsArticle
 ---
 
 # 神舟二十一号航天员乘组完成第二次出舱活动

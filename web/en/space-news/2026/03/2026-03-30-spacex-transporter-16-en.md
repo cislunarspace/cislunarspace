@@ -9,6 +9,7 @@ category: spacex
 tags: [spacex, falcon-9, transporter, rideshare, vandenberg, launch, starlink]
 related:
   - 2026-03-13-spacex-starlink-17-31
+layout: SpaceNewsArticle
 ---
 
 On **March 30, 2026**, **SpaceX** is scheduled to launch the **Transporter-16** rideshare mission aboard a **Falcon 9** rocket from **Vandenberg Space Force Base in California**. The launch window is set for **6:20 AM ET (10:20 UTC)**, carrying **119 payloads** into orbit.

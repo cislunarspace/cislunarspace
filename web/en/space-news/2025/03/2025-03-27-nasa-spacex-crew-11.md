@@ -5,6 +5,8 @@ permalink: /en/space-news/2025/03/2025-03-27-nasa-spacex-crew-11/
 author: 天疆说
 date: 2025-03-27
 lastUpdated: 2025-03-27
+category: spacex
+layout: SpaceNewsArticle
 ---
 
 # NASA announces SpaceX Crew-11 crew assignments

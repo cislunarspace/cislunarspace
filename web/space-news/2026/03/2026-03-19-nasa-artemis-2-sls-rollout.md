@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-19-nasa-artemis-2-sls-rollout/
 author: 天疆说
 date: 2026-03-19
 lastUpdated: 2026-03-19
+category: artemis
+layout: SpaceNewsArticle
 ---
 
 # Artemis II 任务 SLS 火箭转往发射台

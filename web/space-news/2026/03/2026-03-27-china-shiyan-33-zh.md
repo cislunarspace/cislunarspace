@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-27-china-shiyan-33/
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-03-28
+category: china
+layout: SpaceNewsArticle
 ---
 
 # 我国成功发射试验三十三号卫星

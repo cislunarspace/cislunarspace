@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-20-rocket-lab-strix/
 author: 天疆说
 date: 2026-03-20
 lastUpdated: 2026-03-20
+category: esa
+layout: SpaceNewsArticle
 ---
 
 # Rocket Lab 发射 Strix 地球观测雷达卫星

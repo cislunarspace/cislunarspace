@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-modu
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-03-27
+category: artemis
+layout: SpaceNewsArticle
 ---
 
 # "How Europe Will Power the Journey to the Moon and Back" — ESA Artemis II Service Module Video

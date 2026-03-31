@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-28-celeste-rocket-lab-launch/
 author: 天疆说
 date: 2026-03-28
 lastUpdated: 2026-03-28
+category: esa
+layout: SpaceNewsArticle
 ---
 
 # ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启

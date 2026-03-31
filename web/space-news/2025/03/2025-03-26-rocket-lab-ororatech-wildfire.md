@@ -5,6 +5,8 @@ permalink: /space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire/
 author: 天疆说
 date: 2025-03-26
 lastUpdated: 2025-03-27
+category: esa
+layout: SpaceNewsArticle
 ---
 
 # Rocket Lab 部署 OroraTech 野火监测卫星

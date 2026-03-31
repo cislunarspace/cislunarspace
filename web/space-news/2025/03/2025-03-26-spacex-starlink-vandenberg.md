@@ -5,6 +5,8 @@ permalink: /space-news/2025/03/2025-03-26-spacex-starlink-vandenberg/
 author: 天疆说
 date: 2025-03-26
 lastUpdated: 2025-03-27
+category: spacex
+layout: SpaceNewsArticle
 ---
 
 # SpaceX 范登堡发射 Starlink 批次

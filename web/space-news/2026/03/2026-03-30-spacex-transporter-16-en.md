@@ -11,6 +11,7 @@ category: spacex
 tags: [spacex, falcon-9, transporter, rideshare, vandenberg, launch, Starlink]
 related:
   - 2026-03-13-spacex-starlink-17-31
+layout: SpaceNewsArticle
 ---
 
 # SpaceX Set to Launch 119 Payloads on Transporter-16 Rideshare Mission From Vandenberg

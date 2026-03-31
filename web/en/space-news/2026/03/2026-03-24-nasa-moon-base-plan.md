@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-24-nasa-moon-base-plan/
 author: 天疆说
 date: 2026-03-24
 lastUpdated: 2026-03-24
+category: policy
+layout: SpaceNewsArticle
 ---
 
 # NASA unveils $20 billion lunar base plan

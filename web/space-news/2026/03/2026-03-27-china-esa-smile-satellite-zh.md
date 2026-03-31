@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-27-china-esa-smile-satellite/
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-03-28
+category: china
+layout: SpaceNewsArticle
 ---
 
 # 中欧联合研制的"微笑"卫星完成发射前准备，计划4月9日发射

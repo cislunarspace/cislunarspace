@@ -5,6 +5,8 @@ permalink: /space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview/
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-03-27
+category: esa
+layout: SpaceNewsArticle
 ---
 
 # 欧洲卫星导航增强系统首星即将发射——Rocket Lab 为 ESA 执行 Celeste 任务

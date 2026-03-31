@@ -5,6 +5,8 @@ permalink: /space-news/2025/03/2025-03-26-cygnus-ng-22-canceled/
 author: 天疆说
 date: 2025-03-26
 lastUpdated: 2025-03-27
+category: iss
+layout: SpaceNewsArticle
 ---
 
 # NASA 与诺格取消 Cygnus NG-22 货运任务

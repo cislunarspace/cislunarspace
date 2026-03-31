@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-16-china-shenzhou-21-eva/
 author: 天疆说
 date: 2026-03-16
 lastUpdated: 2026-03-16
+category: china
+layout: SpaceNewsArticle
 ---
 
 # Shenzhou-21 crew completes second EVA

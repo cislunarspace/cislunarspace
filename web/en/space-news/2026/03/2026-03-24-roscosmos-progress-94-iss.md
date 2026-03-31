@@ -5,6 +5,8 @@ permalink: /en/space-news/2026/03/2026-03-24-roscosmos-progress-94-iss/
 author: 天疆说
 date: 2026-03-24
 lastUpdated: 2026-03-27
+category: iss
+layout: SpaceNewsArticle
 ---
 
 # Progress 94 cargo ship docks to the ISS for Expedition 74
