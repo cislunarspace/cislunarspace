@@ -658,7 +658,7 @@
       "lastUpdated": "2026-04-02",
       "author": "天疆说",
       "category": "artemis",
-      "image": null
+      "image": "/space-news/2026/04/figures/2026-04-01-artemis-2-launch/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-02-artemis-2-tli-complete.md",
@@ -669,18 +669,18 @@
       "lastUpdated": "2026-04-03",
       "author": "天疆说",
       "category": "artemis",
-      "image": null
+      "image": "/space-news/2026/04/figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-02-artemis-2-tli-go.md",
       "path": "/space-news/2026/04/2026-04-02-artemis-2-tli-go/",
-      "title": "Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球",
-      "description": "NASA Artemis II 任务管理团队批准执行地月转移注入燃烧（TLI），猎户座飞船服务模块主发动机将点火 5 分 49 秒，将四名航天员送往月球——1972 年以来人类首次。",
+      "title": "Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上月球之旅",
+      "description": "NASA Artemis II 猎户座飞船于美东时间 19:49 成功完成地月转移注入燃烧，点火 5 分 50 秒，四名航天员正式踏上飞向月球的旅程——1972 年以来人类首次。月球科学团队已开始制定飞越观测计划。",
       "date": "2026-04-02",
-      "lastUpdated": "2026-04-02",
+      "lastUpdated": "2026-04-03",
       "author": "天疆说",
       "category": "artemis",
-      "image": null
+      "image": "/space-news/2026/04/figures/2026-04-02-artemis-2-tli-go/hero.jpg"
     },
     {
       "relativePath": "space-news/archive.md",
@@ -1100,7 +1100,7 @@
       "lastUpdated": "2026-04-02",
       "author": "天疆说",
       "category": "artemis",
-      "image": null
+      "image": "/en/space-news/2026/04/figures/2026-04-01-artemis-2-launch/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-02-artemis-2-tli-complete.md",
@@ -1111,18 +1111,18 @@
       "lastUpdated": "2026-04-03",
       "author": "天疆说",
       "category": "artemis",
-      "image": null
+      "image": "/en/space-news/2026/04/figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-02-artemis-2-tli-go.md",
       "path": "/en/space-news/2026/04/2026-04-02-artemis-2-tli-go/",
-      "title": "Artemis II Flight Day 2: Mission Team Approves Translunar Injection Burn, Orion Heads to the Moon",
-      "description": "NASA's Artemis II mission management team polled 'Go' for the translunar injection burn. Orion's service module engine will fire for 5 minutes and 49 seconds, sending four astronauts toward the Moon for the first time since 1972.",
+      "title": "Artemis II Flight Day 2: TLI Burn Complete, Orion Officially on Its Way to the Moon",
+      "description": "NASA's Orion spacecraft successfully completed the translunar injection burn at 7:49 PM EDT, firing for 5 minutes and 50 seconds. The four astronauts are now on a trajectory toward the Moon — the first time humans have left Earth orbit since 1972.",
       "date": "2026-04-02",
-      "lastUpdated": "2026-04-02",
+      "lastUpdated": "2026-04-03",
       "author": "天疆说",
       "category": "artemis",
-      "image": null
+      "image": "/en/space-news/2026/04/figures/2026-04-02-artemis-2-tli-go/hero.jpg"
     },
     {
       "relativePath": "en/space-news/archive.md",

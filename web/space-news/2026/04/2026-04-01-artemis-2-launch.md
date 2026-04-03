@@ -7,6 +7,7 @@ author: 天疆说
 date: 2026-04-01
 lastUpdated: 2026-04-02
 category: artemis
+image: ./figures/2026-04-01-artemis-2-launch/hero.jpg
 tags: [artemis, artemis-2, NASA, SLS, Orion, 月球, 载人航天, 绕月]
 related:
   - 2026-03-31-artemis-2-countdown-begins
@@ -15,6 +16,9 @@ related:
 ---
 
 # Artemis II 成功发射：人类 50 多年来首次载人绕月任务启航
+
+![Artemis II 任务 SLS 火箭从肯尼迪航天中心 39B 发射台升空](./figures/2026-04-01-artemis-2-launch/hero.jpg)
+*Credit: NASA（公共领域）*
 
 **摘要：** 据 *NASA* 报道，**2026 年 4 月 1 日** 美东时间 **18:35**（UTC 22:35），**NASA Artemis II** 任务从佛罗里达州**肯尼迪航天中心 39B 发射台**成功发射升空。这是 **SLS（太空发射系统）火箭** 和 **猎户座飞船** 的首次载人飞行，也是自 **1972 年阿波罗 17 号** 以来人类首次执行月球飞行任务。乘组由指令长 **Reid Wiseman**、飞行员 **Victor Glover**、任务专家 **Christina Koch**（均为 NASA 宇航员）和任务专家 **Jeremy Hansen**（加拿大航天局）组成。
 

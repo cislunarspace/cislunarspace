@@ -115,6 +115,13 @@ function collectArticles(baseDir, urlPrefix) {
         if (fm.draft === true) continue
         const relativePath = path.relative(path.join(__dirname, '..'), full).replace(/\\/g, '/')
         const pagePath = fm.permalink || (urlPrefix + entry.name.replace(/\.md$/i, '/'))
+        // Resolve relative image path to absolute URL based on md file location
+        let imageUrl = fm.image || null
+        if (imageUrl && imageUrl.startsWith('./')) {
+          const mdDir = '/' + path.relative(path.join(__dirname, '..'), dir).replace(/\\/g, '/') + '/'
+          imageUrl = mdDir + imageUrl.slice(2)
+        }
+
         articles.push({
           relativePath,
           path: pagePath,
@@ -124,7 +131,7 @@ function collectArticles(baseDir, urlPrefix) {
           lastUpdated: fm.lastUpdated || null,
           author: fm.author || null,
           category: fm.category || null,
-          image: fm.image || null,
+          image: imageUrl,
         })
       }
     }
