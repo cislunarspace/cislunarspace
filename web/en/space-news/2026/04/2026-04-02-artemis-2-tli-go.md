@@ -1,43 +1,55 @@
 ---
 layout: SpaceNewsArticle
-title: "Artemis II Flight Day 2: Mission Team Approves Translunar Injection Burn, Orion Heads to the Moon"
-description: "NASA's Artemis II mission management team polled 'Go' for the translunar injection burn. Orion's service module engine will fire for 5 minutes and 49 seconds, sending four astronauts toward the Moon for the first time since 1972."
+title: "Artemis II Flight Day 2: TLI Burn Complete, Orion Officially on Its Way to the Moon"
+description: "NASA's Orion spacecraft successfully completed the translunar injection burn at 7:49 PM EDT, firing for 5 minutes and 50 seconds. The four astronauts are now on a trajectory toward the Moon — the first time humans have left Earth orbit since 1972."
 permalink: /en/space-news/2026/04/2026-04-02-artemis-2-tli-go/
 author: 天疆说
 date: 2026-04-02
-lastUpdated: 2026-04-02
+lastUpdated: 2026-04-03
 category: artemis
+image: ./figures/2026-04-02-artemis-2-tli-go/hero.jpg
 tags: [artemis, artemis-2, NASA, Orion, TLI, moon, crewed-spaceflight]
 related:
   - 2026-04-01-artemis-2-launch
 ---
 
-# Artemis II Flight Day 2: Mission Team Approves Translunar Injection Burn, Orion Heads to the Moon
+# Artemis II Flight Day 2: TLI Burn Complete, Orion Officially on Its Way to the Moon
 
-**Summary:** According to *NASA*, the **Artemis II** mission management team has polled **"Go"** to proceed with the **Translunar Injection (TLI) burn**. Orion's service module main engine will ignite at **7:49 PM EDT** for **5 minutes and 49 seconds**, sending the spacecraft out of Earth orbit and toward the Moon — the first time humans have left Earth orbit since **Apollo 17 in 1972**.
+![View of Earth from Orion spacecraft](./figures/2026-04-02-artemis-2-tli-go/hero.jpg)
+*Credit: NASA (Public Domain)*
 
-## TLI Burn Details
+**Summary:** According to *NASA*, Orion's service module main engine ignited at **7:49 PM EDT** and fired for **5 minutes and 50 seconds**, successfully completing the **Translunar Injection (TLI) burn**. The four astronauts have left Earth orbit and are now on a trajectory toward the Moon — the first time humans have departed Earth orbit since **Apollo 17 in 1972**.
 
-- **Time**: 7:49 PM EDT (23:49 UTC), April 2, 2026
-- **Duration**: 5 minutes and 49 seconds
-- **Engine**: Orion service module main engine, producing up to **6,000 pounds** (~27 kN) of thrust
-- **Objective**: Accelerate Orion to escape velocity, leaving Earth orbit and entering a trans-lunar trajectory
+## TLI Burn Data
 
-## Crew Day 2 Activities
+- **Engine thrust**: Up to 6,000 pounds (~27 kN), enough to accelerate a car from 0 to 60 mph in about 2.7 seconds
+- **Spacecraft mass at burn**: Approximately 58,000 pounds
+- **Fuel consumed**: Approximately 1,000 pounds
+- **Result**: Orion successfully departed Earth orbit and entered a trans-lunar trajectory
 
-The crew was awakened at **2:35 PM EDT** to the song **"Green Light"** by John Legend and Andre 3000, played by the mission control team. Crew members began their first in-space exercise sessions using the spacecraft's **flywheel exercise device**, a critical tool for maintaining fitness during long-duration missions.
+## Crew Activities
 
-All spacecraft systems are operating nominally, and the crew is in good spirits.
+The crew conducted their first in-space exercise sessions using Orion's **flywheel exercise device**. Weighing just **30 pounds** and roughly the size of a carry-on suitcase, it can provide up to **400 pounds** of resistance for exercises including rowing, squats, and deadlifts. By comparison, ISS exercise equipment totals over 4,000 pounds across roughly 850 cubic feet.
 
-## Live Tracking
+Ground teams monitored the spacecraft's **air revitalization system** during exercise to assess the impact of crew physical activity on spacecraft attitude motion.
 
-- Live coverage available on NASA's YouTube channel
-- Real-time updates via @NASAArtemis on X, Facebook, and Instagram
-- Latest imagery on NASA's Artemis II Multimedia Resource Page
+The crew also successfully checked out the **AVATAR scientific payload**.
+
+## Communications Brief Interruption
+
+Engineers determined that a brief loss of two-way communications shortly after orbital insertion was caused by a ground configuration issue with the **Tracking and Data Relay Satellite (TDRS) system**. The issue was quickly resolved with no impact to mission operations.
+
+## Lunar Flyby Observation Plan
+
+The lunar science team has begun developing a **Lunar Targeting Plan** for the approximately **six-hour** lunar flyby expected on **Monday, April 6**:
+
+- Documenting craters, ancient lava flows, and cracks and ridges formed as the Moon's outer layer shifted over time
+- Helping scientists understand how the Moon and solar system formed
+- Observing a **solar eclipse** lasting nearly one hour toward the end of the flyby window — the Sun will be hidden behind the Moon from Orion's perspective
 
 ## Sources (original pages)
 
+- NASA: [Artemis II Flight Day 2: Orion Completes TLI Burn, Crew Begins Journey to the Moon](https://www.nasa.gov/blogs/missions/2026/04/02/artemis-ii-flight-day-2-orion-completes-tli-burn-crew-begins-journey-to-the-moon/)
 - NASA: [Artemis II Flight Day 2: Crew, Houston Poll 'Go' for Translunar Injection Burn](https://www.nasa.gov/blogs/missions/2026/04/02/artemis-ii-flight-day-2-crew-houston-poll-go-for-translunar-injection-burn/)
-- NASA: [Artemis II Flight Update: Perigee Raise Burn Complete](https://www.nasa.gov/blogs/missions/2026/04/02/artemis-ii-flight-update-perigee-raise-burn-complete/)
 
 ---

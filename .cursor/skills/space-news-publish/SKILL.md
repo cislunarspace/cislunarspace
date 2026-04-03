@@ -49,27 +49,81 @@ description: >-
 
 1. **确认范围**：用户指定的日期或「近 N 天」、是否中英文双语、是否合并同类简讯。
 2. **检索**：用联网搜索多关键词（中/英），优先 **政府/机构官网、通讯社、任务主承包商、主流航天垂直媒体**；避免论坛、匿名搬运为唯一来源。
-3. **核对**：至少一条 **可引用的原文 URL**；能打开则用 `fetch`/浏览器核对标题与日期；冲突则以机构稿为准。
-4. **撰写**：每条新闻一篇 md；**摘要** 3～6 句；**信息来源** 小节用 Markdown 列表列出 `[标题](https://...)`，勿抄袭长段落。
-5. **配图**：若原报道有公开可引用的图片（或机构图库明确允许使用的素材），**下载到本地**并写入正文；路径规则见 **「图片与 figures 目录」**。
+3. **核对**：至少一条 **可引用的原文 URL**；能打开则用 `fetch`/浏览器核对标题与日期；冲突则以机构稿为准。**同时识别原文中的高质量配图**，为下一步下载做准备。
+4. **下载配图**：从原文中识别 **1~3 张** 高质量、与新闻直接相关的图片，下载到本地 `figures/` 目录。详见下方 **「图片获取与处理」** 专节——**这是必做步骤，每篇稿件至少配一张图**。
+5. **撰写**：每条新闻一篇 md；**摘要** 3～6 句；**信息来源** 小节用 Markdown 列表列出 `[标题](https://...)`，勿抄袭长段落。正文中嵌入已下载的图片。
 6. **更新月度 README**：在当月 `README.md`（中文 + 英文）的表格中增加一行链到该文。
 7. **重新生成索引**：运行 `node web/.vuepress/gen-sidebar.js` 更新 sidebar 和 articles JSON。
 8. **构建**：在 `web/` 下执行 `npx vuepress build .`（必要时先清理损坏的 `@vuepress/core/.temp`）确认无报错。
 
-## 图片与 `figures` 目录（必须遵守）
+## 图片获取与处理（必做，每篇至少一张）
 
-- **位置**：与稿件 `YYYY-MM-DD-slug.md` 位于**同一月份目录**下，建子目录：
+**每篇稿件必须配图**——没有图片的稿件是不完整的。获取图片是标准工作流的一部分，不是可选项。
+
+### 图片来源优先级
+
+1. **NASA 官网 / NASA Image Library**（公共领域，可自由使用）— 最优先
+2. **ESA 官网**（通常允许注明出处后使用）
+3. **各国航天机构官方发布的新闻稿配图**（CNSA、JAXA、KASA 等，通常允许注明出处后使用）
+4. **SpaceX 官方 Flickr / X 账号发布的图片**（通常允许媒体使用）
+5. **Rocket Lab、Blue Origin 等公司官方发布的图片**
+6. **主流航天媒体（Spaceflight Now、Space News 等）文章配图**（需判断版权）
+
+### 获取流程
+
+1. **打开原文页面**，用 `fetch` 或浏览器抓取页面内容
+2. **识别图片 URL**：从页面 HTML 中提取 `<img>` 或 `<picture>` 标签中的图片地址，优先选择宽度 ≥ 1000px 的高分辨率版本
+3. **下载图片**：用 `curl -L -o <本地路径> <图片URL>` 下载到 `figures/` 目录
+4. **压缩（可选）**：如果图片超过 500KB，用 `cwebp` 或 `convert`（ImageMagick）压缩为 WebP/JPEG
+   ```bash
+   # WebP 压缩（推荐）
+   cwebp -q 80 input.jpg -o output.webp
+   # JPEG 压缩
+   convert input.jpg -quality 85 -resize '1200>' output.jpg
+   ```
+5. **英文版复用**：中文和英文稿件共用同一套图片文件，分别放在各自目录的 `figures/` 下（可以只下载一次后 `cp` 过去）
+
+### `figures` 目录结构
+
+- **位置**：与稿件 `YYYY-MM-DD-slug.md` 位于**同一月份目录**下
   - 中文：`web/space-news/YYYY/MM/figures/YYYY-MM-DD-slug/`
-  - 英文：`web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug/`（与中文 **同结构**；文件可相同，便于中英页面各自用相对路径解析）
-- **命名**：图片文件名用英文/拼音短名 + 序号，如 `01-launch.webp`、`hero.jpg`；避免中文文件名与空格。
-- **Markdown 引用**：使用**相对路径**（相对该 `.md` 文件），便于 VuePress 打包，例如：
-  ```markdown
-  ![长征三号乙发射现场（新华社配图，来源见下）](./figures/2025-03-26-china-tianlian-ii-04/01-launch.webp)
-  ```
-  英文稿中路径写法相同（`./figures/同一slug/...`），因英文 md 与中文在同一层级结构下。
-- **说明文字**：每张图下用一句 *斜体* 或单独一行标注 **版权/来源**（如 NASA image、新华社、机构新闻稿配图）；若版权不明或禁止转载，**不下载、仅用外链**：
-  `[![alt](https://原站图片URL)](https://原文链接)` 或正文中说明「配图见来源页面」。
-- **体积**：优先压缩为 WebP/JPEG；单张不宜过大（建议单文件不超过约 500KB，视仓库策略调整）。
+  - 英文：`web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug/`
+- **命名**：英文/拼音短名 + 序号，如 `hero.webp`、`01-launch.webp`、`02-crew.jpg`；避免中文文件名与空格
+- **首图（hero）**：第一张图命名为 `hero.webp` 或 `hero.jpg`，作为 frontmatter `image` 字段和首页卡片缩略图
+
+### Markdown 引用
+
+使用**相对路径**（相对该 `.md` 文件）：
+
+```markdown
+![猎户座飞船视角的地球（NASA 图像）](./figures/2026-04-01-artemis-2-launch/hero.webp)
+*Credit: NASA*
+```
+
+英文稿路径写法相同：
+```markdown
+![Earth seen from Orion spacecraft (NASA image)](./figures/2026-04-01-artemis-2-launch/hero.webp)
+*Credit: NASA*
+```
+
+### 版权标注
+
+每张图下方**必须**标注来源，格式：
+- 公共领域：`*Credit: NASA*` 或 `*图片来源：NASA（公共领域）*`
+- 需注明出处：`*Credit: ESA / Stephan Bidou*` 或 `*图片来源：ESA，已获授权*`
+- 版权不明：**不下载**，改用外链 `[查看配图](原文URL)`
+
+### 图片获取失败时的降级策略
+
+- 如果 `curl` 下载失败（403/404），尝试浏览器抓取
+- 如果浏览器也无法获取，在正文中使用外链指向原图：`[查看现场图片（来源页面）](原文URL)`
+- **不要留无图稿件**——至少用外链指向配图页面
+
+### 图片体积控制
+
+- 单张建议不超过 **500KB**
+- 优先使用 WebP 格式（同等质量体积更小）
+- 原图过大的用 `cwebp -q 80` 或 `convert -resize '1200>'` 压缩
 
 ## Frontmatter 模板（中文）
 

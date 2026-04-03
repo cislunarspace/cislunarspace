@@ -7,6 +7,7 @@ author: 天疆说
 date: 2026-04-02
 lastUpdated: 2026-04-03
 category: artemis
+image: ./figures/2026-04-02-artemis-2-tli-complete/hero.jpg
 tags: [artemis, artemis-2, NASA, Orion, TLI, moon, crewed-spaceflight]
 related:
   - 2026-04-02-artemis-2-tli-go
@@ -14,6 +15,9 @@ related:
 ---
 
 # Artemis II Flight Day 2: TLI Burn Complete, Orion Officially En Route to the Moon
+
+![View from Orion spacecraft during Artemis II mission](./figures/2026-04-02-artemis-2-tli-complete/hero.jpg)
+*Credit: NASA (Public Domain)*
 
 **Summary:** According to *NASA*, the **Artemis II** Orion spacecraft successfully completed the **Translunar Injection (TLI) burn** at **7:49 PM EDT**, with the main engine firing for **5 minutes and 50 seconds** and consuming approximately **1,000 pounds** of fuel. The spacecraft has left Earth orbit and is now on a trajectory toward the Moon — the first time humans have been en route to the Moon in **53 years**.
 
