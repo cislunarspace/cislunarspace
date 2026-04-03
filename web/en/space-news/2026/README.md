@@ -3,7 +3,7 @@ title: Space News · 2026 Archive
 description: Space news by month for 2026.
 author: 天疆说
 date: 2026-03-27
-lastUpdated: 2026-03-27
+lastUpdated: 2026-04-02
 ---
 
 # 2026 · Archive
@@ -12,3 +12,4 @@ lastUpdated: 2026-03-27
 |-------|------|
 | February | [February 2026](./02/) |
 | March | [March 2026](./03/) |
+| April | [April 2026](./04/) |

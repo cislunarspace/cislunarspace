@@ -650,6 +650,39 @@
       "image": null
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-01-artemis-2-launch.md",
+      "path": "/space-news/2026/04/2026-04-01-artemis-2-launch/",
+      "title": "Artemis II 成功发射：人类 50 多年来首次载人绕月任务启航",
+      "description": "NASA Artemis II 于 2026 年 4 月 1 日 18:35 EDT 从肯尼迪航天中心 39B 发射台成功升空，4 名航天员开启约 10 天的绕月飞行，这是自 1972 年阿波罗 17 号以来人类首次飞向月球。",
+      "date": "2026-04-01",
+      "lastUpdated": "2026-04-02",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-02-artemis-2-tli-complete.md",
+      "path": "/space-news/2026/04/2026-04-02-artemis-2-tli-complete/",
+      "title": "Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上奔月之旅",
+      "description": "NASA Artemis II 猎户座飞船于美东时间 19:49 成功完成地月转移注入燃烧，点火 5 分 50 秒，4 名航天员正式脱离地球轨道飞向月球。月球科学团队已开始制定飞越观测计划。",
+      "date": "2026-04-02",
+      "lastUpdated": "2026-04-03",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-02-artemis-2-tli-go.md",
+      "path": "/space-news/2026/04/2026-04-02-artemis-2-tli-go/",
+      "title": "Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球",
+      "description": "NASA Artemis II 任务管理团队批准执行地月转移注入燃烧（TLI），猎户座飞船服务模块主发动机将点火 5 分 49 秒，将四名航天员送往月球——1972 年以来人类首次。",
+      "date": "2026-04-02",
+      "lastUpdated": "2026-04-02",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": null
+    },
+    {
       "relativePath": "space-news/archive.md",
       "path": "/space-news/archive",
       "title": "按日期查阅 · Space News",
@@ -1056,6 +1089,39 @@
       "lastUpdated": null,
       "author": "天疆说",
       "category": "spacex",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-01-artemis-2-launch.md",
+      "path": "/en/space-news/2026/04/2026-04-01-artemis-2-launch/",
+      "title": "Artemis II Successfully Launches: First Crewed Lunar Mission in Over 50 Years",
+      "description": "NASA's Artemis II launched on April 1, 2026, at 6:35 PM EDT from Kennedy Space Center's Launch Pad 39B, sending four astronauts on an approximately 10-day journey around the Moon — the first crewed lunar flight since Apollo 17 in 1972.",
+      "date": "2026-04-01",
+      "lastUpdated": "2026-04-02",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-02-artemis-2-tli-complete.md",
+      "path": "/en/space-news/2026/04/2026-04-02-artemis-2-tli-complete/",
+      "title": "Artemis II Flight Day 2: TLI Burn Complete, Orion Officially En Route to the Moon",
+      "description": "NASA's Orion spacecraft successfully completed the translunar injection burn at 7:49 PM EDT, firing for 5 minutes and 50 seconds. The four astronauts are now on their way to the Moon for the first time in 53 years.",
+      "date": "2026-04-02",
+      "lastUpdated": "2026-04-03",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-02-artemis-2-tli-go.md",
+      "path": "/en/space-news/2026/04/2026-04-02-artemis-2-tli-go/",
+      "title": "Artemis II Flight Day 2: Mission Team Approves Translunar Injection Burn, Orion Heads to the Moon",
+      "description": "NASA's Artemis II mission management team polled 'Go' for the translunar injection burn. Orion's service module engine will fire for 5 minutes and 49 seconds, sending four astronauts toward the Moon for the first time since 1972.",
+      "date": "2026-04-02",
+      "lastUpdated": "2026-04-02",
+      "author": "天疆说",
+      "category": "artemis",
       "image": null
     },
     {

@@ -18,6 +18,10 @@
           "collapsible": true,
           "children": [
             [
+              "/space-news/2026/04/",
+              "2026年4月"
+            ],
+            [
               "/space-news/2026/03/",
               "2026年3月"
             ],
@@ -63,6 +67,10 @@
           "link": "/en/space-news/2026/",
           "collapsible": true,
           "children": [
+            [
+              "/en/space-news/2026/04/",
+              "April 2026"
+            ],
             [
               "/en/space-news/2026/03/",
               "March 2026"
