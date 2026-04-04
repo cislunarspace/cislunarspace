@@ -716,6 +716,17 @@
       "image": "/space-news/2026/04/figures/2026-04-04-artemis-2-flight-day-3/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-04-atlas-v-amazon-leo-la05.md",
+      "path": "/space-news/2026/04/2026-04-04-atlas-v-amazon-leo-la05/",
+      "title": "Atlas V 成功发射 Amazon Leo 第五批 29 颗卫星，柯伊伯星座加速组网",
+      "description": "ULA Atlas V 551 从卡纳维拉尔角成功发射 Amazon Leo LA-05 任务，将 29 颗柯伊伯星座卫星送入低地球轨道。",
+      "date": "2026-04-04",
+      "lastUpdated": "2026-04-04",
+      "author": "天疆说",
+      "category": "commercial",
+      "image": "/space-news/2026/04/figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-04-ng-crs24-preview.md",
       "path": "/space-news/2026/04/2026-04-04-ng-crs24-preview/",
       "title": "诺格 CRS-24 货运补给任务定于 4 月 8 日发射，将向 ISS 运送约 5000 公斤物资",
@@ -1200,6 +1211,17 @@
       "author": "天疆说",
       "category": "artemis",
       "image": "/en/space-news/2026/04/figures/2026-04-04-artemis-2-flight-day-3/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-04-atlas-v-amazon-leo-la05.md",
+      "path": "/en/space-news/2026/04/2026-04-04-atlas-v-amazon-leo-la05/",
+      "title": "Atlas V Launches 29 Amazon Leo Satellites on LA-05 Mission, Accelerating Constellation Buildout",
+      "description": "ULA Atlas V 551 successfully launched 29 Amazon Leo broadband internet satellites from Cape Canaveral SFS on the LA-05 mission.",
+      "date": "2026-04-04",
+      "lastUpdated": "2026-04-04",
+      "author": "天疆说",
+      "category": "commercial",
+      "image": "/en/space-news/2026/04/figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-04-ng-crs24-preview.md",
