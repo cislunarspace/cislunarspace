@@ -32,6 +32,11 @@ permalink: /glossary/nrho/
 
 近直线晕轨道（Near-Rectilinear Halo Orbit，NRHO）是地月共线平动点 $L_1$ 或 $L_2$ 附近 Halo 轨道族的一个子类。在会合坐标系中，当 Halo 轨道的垂直于地月轨道平面的振幅 $A_z$ 远大于面内振幅 $A_y$ 时，轨道形态从经典的"腰果形" Halo 轨道逐渐演变为近似直线的往复运动，即 NRHO。换言之，NRHO 对应于 Halo 轨道族中 $A_z/A_y$ 比值较大的极端成员。
 
+![地月 L1 北族和 L2 南族 Halo 轨道与 NRHO](/glossary/Figures/NRHO/地月L1北族和L2南族Halo轨道和NRHO.png)
+*地月 L1 北族和 L2 南族 Halo 轨道，其中极端构型即为 NRHO*
+
+
+
 ## 几何特征
 
 - **近月点高度极低**：通常低于 100 km
