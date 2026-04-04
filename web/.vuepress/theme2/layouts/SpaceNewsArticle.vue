@@ -20,6 +20,7 @@
     </template>
   </Layout>
   <PageToc />
+  <SidebarToggle />
 </template>
 
 <script setup lang="ts">
@@ -30,6 +31,7 @@ import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
 import PageToc from '../components/PageToc.vue'
 import ArticleHero from '../components/ArticleHero.vue'
+import SidebarToggle from '../components/SidebarToggle.vue'
 
 const page = usePage()
 const route = useRoute()
