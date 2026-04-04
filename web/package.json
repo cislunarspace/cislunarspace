@@ -5,7 +5,8 @@
   "scripts": {
     "gen-sidebar": "node .vuepress/gen-sidebar.js",
     "docs:dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
-    "docs:build": "npm run gen-sidebar && vuepress build ."
+    "docs:build": "npm run gen-sidebar && vuepress build . && npm run sync-figures",
+    "sync-figures": "node .vuepress/sync-figures.js"
   },
   "license": "MIT",
   "devDependencies": {
