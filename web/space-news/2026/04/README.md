@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-03
+lastUpdated: 2026-04-04
 ---
 
 # 2026 年 4 月
@@ -16,6 +16,10 @@ lastUpdated: 2026-04-03
 | 4-1 | [Artemis II 成功发射：人类 50 多年来首次载人绕月任务启航](./2026-04-01-artemis-2-launch/) |
 | 4-2 | [Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球](./2026-04-02-artemis-2-tli-go/) |
 | 4-2 | [Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上奔月之旅](./2026-04-02-artemis-2-tli-complete/) |
+| 4-3 | [天龙三号首飞成功：中国商业航天首款对标猎鹰 9 号的大运力火箭入轨](./2026-04-03-tianlong-3-maiden-flight/) |
+| 4-3 | [联盟-5（额尔齐斯）运载火箭首飞：俄罗斯新一代中型火箭从拜科努尔升空](./2026-04-03-soyuz-5-maiden-flight/) |
+| 4-4 | [Artemis II 飞行第三日：轨道修正取消，飞船精确奔赴月球](./2026-04-04-artemis-2-flight-day-3/) |
+| 4-4 | [诺格 CRS-24 货运补给任务定于 4 月 8 日发射，将向 ISS 运送约 5000 公斤物资](./2026-04-04-ng-crs24-preview/) |
 
 ---
 
