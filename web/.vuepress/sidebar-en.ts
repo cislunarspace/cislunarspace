@@ -44,8 +44,30 @@ const glossarySidebar = [
     collapsible: false,
     children: [
       '/en/glossary/',
-      '/en/glossary/cr3bp',
-      '/en/glossary/xray-pulsar-navigation',
+      {
+        text: 'Dynamics Models',
+        collapsible: true,
+        children: [
+          '/en/glossary/cr3bp',
+          '/en/glossary/qbcp',
+          '/en/glossary/ephemeris-model',
+        ],
+      },
+      {
+        text: 'Mission Orbits',
+        collapsible: true,
+        children: [
+          '/en/glossary/dro',
+          '/en/glossary/nrho',
+        ],
+      },
+      {
+        text: 'Navigation',
+        collapsible: true,
+        children: [
+          '/en/glossary/xray-pulsar-navigation',
+        ],
+      },
     ],
   },
 ]
