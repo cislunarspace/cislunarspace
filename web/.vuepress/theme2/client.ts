@@ -1,5 +1,6 @@
 import { defineClientConfig } from '@vuepress/client'
 import { useRouter } from 'vue-router'
+import { usePage } from 'vuepress/client'
 import { watch } from 'vue'
 import Layout from './layouts/Layout.vue'
 import SpaceNewsHome from './layouts/SpaceNewsHome.vue'
@@ -51,10 +52,43 @@ function toAbsoluteUrl(input: string) {
   return new URL(normalized, origin).toString()
 }
 
-async function configureWechatShare() {
+function resolveFrontmatterImage(image: string | undefined, routePath: string): string {
+  if (!image) return ''
+  if (/^https?:\/\//i.test(image)) return image
+  if (image.startsWith('/')) return image
+  if (image.startsWith('./')) {
+    const dir = routePath.replace(/[^/]+\/$/, '')
+    return dir + image.slice(2)
+  }
+  return ''
+}
+
+function setMeta(attr: string, key: string, content: string) {
+  let el = document.querySelector(`meta[${attr}="${key}"]`)
+  if (!el) {
+    el = document.createElement('meta')
+    el.setAttribute(attr, key)
+    document.head.appendChild(el)
+  }
+  el.setAttribute('content', content)
+}
+
+function updateOgMeta(title: string, desc: string, image: string, url: string) {
+  setMeta('property', 'og:title', title)
+  setMeta('property', 'og:description', desc)
+  setMeta('property', 'og:image', image)
+  setMeta('property', 'og:url', url)
+  setMeta('property', 'og:type', 'article')
+  setMeta('property', 'og:site_name', '地月空间入门指南')
+  setMeta('name', 'twitter:card', 'summary_large_image')
+  setMeta('name', 'twitter:title', title)
+  setMeta('name', 'twitter:image', image)
+}
+
+async function configureWechatShare(shareData: { title: string; desc: string; imgUrl: string; link: string }) {
   if (!isWechatBrowser()) return
-  const signatureEndpoint = 'https://www.cislunarspace.cn/api/wechat-signature'
-  const currentUrl = window.location.href.split('#')[0]
+  const signatureEndpoint = 'https://www.cislunarspace.cn/api/wechat-signatures'
+  const currentUrl = shareData.link
   const wx = await loadWechatSdk()
   if (!wx) return
   if (configuredUrl !== currentUrl) {
@@ -74,12 +108,12 @@ async function configureWechatShare() {
     await new Promise<void>((resolve) => { wx.ready(() => resolve()) })
     configuredUrl = currentUrl
   }
-  const title = document.title
-  const desc = (document.querySelector('meta[name="description"]') as HTMLMetaElement)?.content || ''
-  const imgUrl = toAbsoluteUrl('/logo.png')
-  const link = window.location.href.split('#')[0]
-  if (typeof wx.updateAppMessageShareData === 'function') wx.updateAppMessageShareData({ title, desc, link, imgUrl })
-  if (typeof wx.updateTimelineShareData === 'function') wx.updateTimelineShareData({ title, link, imgUrl })
+  if (typeof wx.updateAppMessageShareData === 'function') {
+    wx.updateAppMessageShareData(shareData)
+  }
+  if (typeof wx.updateTimelineShareData === 'function') {
+    wx.updateTimelineShareData({ title: shareData.title, link: shareData.link, imgUrl: shareData.imgUrl })
+  }
 }
 
 export default defineClientConfig({
@@ -97,7 +131,39 @@ export default defineClientConfig({
   },
   setup() {
     const router = useRouter()
-    configureWechatShare().catch(() => {})
+    const page = usePage()
+
+    function buildShareData() {
+      if (typeof window === 'undefined') return null
+      const fm = (page.value as any).frontmatter || {}
+      const routePath = router.currentRoute.value.path
+
+      let shareImage = toAbsoluteUrl('/logo.png')
+      const resolved = resolveFrontmatterImage(fm.image, routePath)
+      if (fm.wechatShare?.image) {
+        shareImage = toAbsoluteUrl(fm.wechatShare.image)
+      } else if (resolved) {
+        shareImage = toAbsoluteUrl(resolved)
+      }
+
+      const title = fm.wechatShare?.title || document.title
+      const desc = fm.wechatShare?.desc
+        || (document.querySelector('meta[name="description"]') as HTMLMetaElement)?.content
+        || ''
+      const link = window.location.href.split('#')[0]
+
+      return { title, desc, imgUrl: shareImage, link }
+    }
+
+    function setupShare() {
+      const data = buildShareData()
+      if (!data) return
+      configureWechatShare(data).catch(() => {})
+      updateOgMeta(data.title, data.desc, data.imgUrl, data.link)
+    }
+
+    setupShare()
+
     watch(() => router.currentRoute.value.path, (to, from) => {
       if (!from) return
       const fromEn = from.startsWith('/en/')
@@ -105,7 +171,7 @@ export default defineClientConfig({
       if (fromEn !== toEn) {
         try { localStorage.setItem('cislunar-lang-chosen', toEn ? 'en' : 'zh') } catch {}
       }
-      setTimeout(() => configureWechatShare().catch(() => {}), 0)
+      setTimeout(() => setupShare(), 0)
     })
   },
 })
