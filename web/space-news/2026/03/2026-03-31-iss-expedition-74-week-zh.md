@@ -8,6 +8,7 @@ lastUpdated: 2026-03-31
 source: NASA
 source_url: https://www.nasa.gov/blogs/spacestation/2026/03/30/crew-kicks-off-week-with-cargo-mission-training-and-spacewalk-cleanup/
 category: iss
+image: ./figures/2026-03-31-iss-expedition-74-week/hero.jpg
 tags: [ISS, 国际空间站, 第74远征队, Cygnus, 诺斯罗普·格鲁曼, 货运飞船, 太空行走, NASA, ESA]
 related:
   - 2026-03-18-nasa-eva-94-iss

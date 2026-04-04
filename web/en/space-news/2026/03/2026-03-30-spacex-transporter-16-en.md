@@ -6,6 +6,7 @@ author: 天疆说
 source: Space.com
 source_url: https://www.space.com/space-exploration/launches-spacecraft/spacex-transporter-16-rideshare-mission-launch
 category: spacex
+image: ./figures/2026-03-30-spacex-transporter-16-en/hero.jpg
 tags: [spacex, falcon-9, transporter, rideshare, vandenberg, launch, starlink]
 related:
   - 2026-03-13-spacex-starlink-17-31

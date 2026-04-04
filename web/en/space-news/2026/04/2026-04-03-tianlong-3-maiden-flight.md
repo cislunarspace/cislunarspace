@@ -12,7 +12,8 @@ tags: [Tianlong-3, Space Pioneer, commercial space, maiden flight, Qianfan, reus
 
 # Tianlong-3 Maiden Flight Success: China's First Falcon 9-Class Commercial Rocket Reaches Orbit
 
-[View launch imagery (Space Pioneer official site)](http://www.spacepioneer.cc)
+![Tianlong-3 Launch Vehicle (Space Pioneer official render)](http://www.spacepioneer.cc/_nuxt/img/NTL-3.2b1b695.png)
+*Image credit: Space Pioneer*
 
 **Summary:** On April 3, 2026 at 04:00 UTC, Space Pioneer's **Tianlong-3** liquid-fueled launch vehicle successfully completed its maiden flight from the **Jiuquan Satellite Launch Center**, deploying a batch of **Qianfan** constellation satellites into a **polar orbit**. As China's first commercial rocket with a low-Earth orbit capacity exceeding 17 tonnes — comparable to SpaceX's Falcon 9 — the Tianlong-3 marks a significant milestone in China's commercial space sector.
 

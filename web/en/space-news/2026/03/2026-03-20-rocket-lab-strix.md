@@ -6,6 +6,7 @@ author: 天疆说
 date: 2026-03-20
 lastUpdated: 2026-03-20
 category: esa
+image: ./figures/2026-03-20-rocket-lab-strix/hero.jpg
 layout: SpaceNewsArticle
 ---
 

@@ -6,6 +6,7 @@ author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-03-28
 category: china
+image: ./figures/2026-03-27-china-shiyan-33/hero.jpg
 layout: SpaceNewsArticle
 ---
 

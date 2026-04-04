@@ -6,6 +6,7 @@ author: 天疆说
 source: CNSA
 source_url: https://www.cnsa.gov.cn/n6758823/n6758838/c10736664/content.html
 category: china
+image: ./figures/2026-03-27-china-esa-smile-satellite-en/hero.jpg
 tags: [china, esa, smile, satellite, kourou, vega-c, space-weather, magnetosphere, eu-china-cooperation]
 related:
   - 2026-03-26-china-siwei-gaojing-2-05-06

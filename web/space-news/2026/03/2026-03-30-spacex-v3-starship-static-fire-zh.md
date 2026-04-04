@@ -8,6 +8,7 @@ lastUpdated: 2026-03-30
 source: Space.com
 source_url: https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-next-gen-v3-starship-for-1st-time-ahead-of-april-launch-photos
 category: spacex
+image: ./figures/2026-03-30-spacex-v3-starship-static-fire/hero.jpg
 tags: [spacex, starship, V3, starship-v3, 超重助推器, 静态点火, 发射]
 related:
   - 2026-03-28-celeste-rocket-lab-launch

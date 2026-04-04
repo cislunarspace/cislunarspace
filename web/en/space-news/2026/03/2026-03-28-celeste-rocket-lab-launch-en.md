@@ -6,6 +6,7 @@ author: 天疆说
 source: ESA
 source_url: https://www.esa.int/ESA_Multimedia/Videos/2026/03/Celeste_liftoff
 category: esa
+image: ./figures/2026-03-28-celeste-rocket-lab-launch-en/hero.jpg
 tags: [esa, rocket-lab, electron, celeste, leo-pnt, galileo, navigation, rocket-lab]
 related:
   - 2026-03-27-esa-celeste-rocket-lab-launch-preview

@@ -6,6 +6,7 @@ author: Monika Luabeya
 source: NASA
 source_url: https://www.nasa.gov/image-article/artemis-ii-crews-suits/
 category: nasa
+image: ./figures/2026-03-27-artemis-2-crew-suits-en/hero.jpg
 tags: [nasa, artemis, artemis-2, spacesuit, orion, human-spaceflight]
 related:
   - 2026-03-27-artemis-2-one-week-away

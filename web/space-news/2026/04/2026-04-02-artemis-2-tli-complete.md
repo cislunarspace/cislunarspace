@@ -10,7 +10,6 @@ category: artemis
 image: ./figures/2026-04-02-artemis-2-tli-complete/hero.jpg
 tags: [artemis, artemis-2, NASA, Orion, TLI, 月球, 载人航天]
 related:
-  - 2026-04-02-artemis-2-tli-go
   - 2026-04-01-artemis-2-launch
 ---
 
