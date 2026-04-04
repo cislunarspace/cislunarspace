@@ -20,6 +20,7 @@ lastUpdated: 2026-04-04
 | Apr 3 | [Soyuz-5 (Irtysh) Medium-Launch Vehicle Completes Maiden Flight from Baikonur](./2026-04-03-soyuz-5-maiden-flight/) |
 | Apr 4 | [Artemis II Flight Day 3: Trajectory Correction Cancelled, Spacecraft on Precise Path to the Moon](./2026-04-04-artemis-2-flight-day-3/) |
 | Apr 4 | [Northrop Grumman CRS-24 Resupply Mission Targeting April 8 Launch to ISS](./2026-04-04-ng-crs24-preview/) |
+| Apr 4 | [Atlas V Launches 29 Amazon Leo Satellites on LA-05 Mission](./2026-04-04-atlas-v-amazon-leo-la05/) |
 
 ---
 
