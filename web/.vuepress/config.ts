@@ -8,6 +8,14 @@ import navbarEn from './navbar-en.js'
 import sidebar from './sidebar.js'
 import sidebarEn from './sidebar-en.js'
 import ogMetaPlugin from './og-meta-plugin.js'
+import mk from 'markdown-it-katex'
+
+const katexPlugin = {
+  name: 'vuepress-plugin-katex',
+  extendsMarkdown: (md) => {
+    md.use(mk)
+  },
+}
 
 const domain = 'https://cislunarspace.cn'
 const tags = ['地月空间', '航天', '轨道动力学']
@@ -32,6 +40,7 @@ export default defineUserConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' }],
     ['meta', {
       name: 'keywords',
       content: '地月空间，航天，轨道动力学，拉格朗日点，NRHO, 阿耳忒弥斯，月球探测，航天器轨道，CR3BP，GNC',
@@ -119,6 +128,7 @@ export default defineUserConfig({
   }),
 
   plugins: [
+    katexPlugin,
     ogMetaPlugin,
     googleAnalyticsPlugin({ id: 'G-0PLJ56MK80' }),
     sitemapPlugin({ hostname: domain }),

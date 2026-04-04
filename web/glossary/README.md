@@ -1,24 +1,24 @@
 ---
 permalink: /glossary/
 title: 地月空间术语词典
-description: 地月空间领域专业术语权威释义，包含CR3BP、X射线脉冲星导航等核心概念，帮助准确理解地月空间相关术语。
-keywords: 地月空间术语, CR3BP, 圆形限制性三体问题, X射线脉冲星导航, 地月空间词典
+description: 地月空间领域专业术语权威释义，包含CR3BP、QBCP、星历模型、DRO、NRHO、X射线脉冲星导航等核心概念，帮助准确理解地月空间相关术语。
+keywords: 地月空间术语, CR3BP, QBCP, 星历模型, DRO, NRHO, 圆形限制性三体问题, X射线脉冲星导航, 地月空间词典
 author: 天疆说
 date: 2026-03-08
-lastUpdated: 2026-03-08
+lastUpdated: 2026-04-04
 wechatShare:
   title: 地月空间术语词典
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: 地月空间领域专业术语权威释义，包含动力学模型、任务轨道、导航技术等核心概念。
   image: /logo.png
 og:
   title: 地月空间术语词典
-  description: 地月空间领域专业术语权威释义，包含CR3BP、X射线脉冲星导航等核心概念
+  description: 地月空间领域专业术语权威释义，包含动力学模型、任务轨道、导航技术等核心概念
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 地月空间术语词典
-  description: 地月空间领域专业术语权威释义，包含CR3BP、X射线脉冲星导航等核心概念
+  description: 地月空间领域专业术语权威释义，包含动力学模型、任务轨道、导航技术等核心概念
   image: /logo.png
 ---
 
@@ -32,7 +32,7 @@ twitter:
 
 本词典旨在对地月空间领域的核心概念进行规范化整理，尽量提供简明、准确、可检索的基础解释，帮助读者在阅读文献、理解任务方案和使用相关工具时，快速把握术语的基本含义、常见缩写及其应用背景。
 
-当前条目数量仍在持续扩充中，现阶段优先整理在地月空间任务分析、轨道设计、导航定位等场景中高频出现的核心术语。后续将逐步补充平动点轨道、低能转移、深空自主导航、时空基准、探测任务体系等相关词条。
+当前条目数量仍在持续扩充中，现阶段优先整理在地月空间任务分析、轨道设计、导航定位等场景中高频出现的核心术语。后续将逐步补充平动点轨道、低能转移、深空自主导航、时空基准、探测任务体系等相关词条。目前已涵盖动力学模型（CR3BP、QBCP、星历模型）、任务轨道（DRO、NRHO）、导航技术（X射线脉冲星导航）等方向。
 
 ## 收录说明
 
@@ -47,7 +47,19 @@ twitter:
 
 ## 提纲
 
+### 动力学模型
+
 - [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [拟双圆四体问题（QBCP）](/glossary/qbcp/)
+- [星历模型（Ephemeris Model）](/glossary/ephemeris-model/)
+
+### 任务轨道
+
+- [远距离逆行轨道（DRO）](/glossary/dro/)
+- [近直线晕轨道（NRHO）](/glossary/nrho/)
+
+### 导航技术
+
 - [X射线脉冲星导航](/glossary/xray-pulsar-navigation/)
 
 ## 更新说明

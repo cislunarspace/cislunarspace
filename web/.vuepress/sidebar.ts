@@ -66,8 +66,30 @@ const glossarySidebar = [
     collapsible: false,
     children: [
       '/glossary/',
-      '/glossary/cr3bp',
-      '/glossary/xray-pulsar-navigation',
+      {
+        text: '动力学模型',
+        collapsible: true,
+        children: [
+          '/glossary/cr3bp',
+          '/glossary/qbcp',
+          '/glossary/ephemeris-model',
+        ],
+      },
+      {
+        text: '任务轨道',
+        collapsible: true,
+        children: [
+          '/glossary/dro',
+          '/glossary/nrho',
+        ],
+      },
+      {
+        text: '导航技术',
+        collapsible: true,
+        children: [
+          '/glossary/xray-pulsar-navigation',
+        ],
+      },
     ],
   },
 ]
