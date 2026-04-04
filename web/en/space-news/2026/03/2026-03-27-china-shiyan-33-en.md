@@ -6,6 +6,7 @@ author: 天疆说
 source: CNSA
 source_url: https://www.cnsa.gov.cn/n6758823/n6758838/c10736640/content.html
 category: china
+image: ./figures/2026-03-27-china-shiyan-33-en/hero.jpg
 tags: [china, long-march, long-march-2c, yuanzheng-1s, shiyan-33, Jiuquan, launch, cnes]
 related:
   - 2026-03-13-china-shiyan-30-03-04

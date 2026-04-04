@@ -6,6 +6,7 @@ author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-27
 category: china
+image: ./figures/2026-03-26-china-siwei-gaojing-2-05-06/hero.jpg
 layout: SpaceNewsArticle
 ---
 

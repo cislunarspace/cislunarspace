@@ -6,6 +6,7 @@ author: 天疆说
 date: 2026-03-24
 lastUpdated: 2026-03-24
 category: policy
+image: ./figures/2026-03-24-nasa-moon-base-plan/hero.jpg
 layout: SpaceNewsArticle
 ---
 

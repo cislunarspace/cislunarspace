@@ -6,6 +6,7 @@ author: 天疆说
 date: 2026-01-30
 lastUpdated: 2026-01-30
 category: commercial
+image: ./figures/2026-01-blue-origin-pauses-tourism/hero.jpg
 layout: SpaceNewsArticle
 ---
 

@@ -64,7 +64,7 @@
       "lastUpdated": "2026-01-30",
       "author": "天疆说",
       "category": "commercial",
-      "image": null
+      "image": "/space-news/2026/01/figures/2026-01-blue-origin-pauses-tourism/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss.md",
@@ -218,7 +218,7 @@
       "lastUpdated": "2026-03-20",
       "author": "天疆说",
       "category": "esa",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-20-rocket-lab-strix/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-20-spacex-starlink-17-15.md",
@@ -251,7 +251,7 @@
       "lastUpdated": "2026-03-24",
       "author": "天疆说",
       "category": "policy",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-24-nasa-moon-base-plan/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-24-roscosmos-progress-94-iss.md",
@@ -284,7 +284,7 @@
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
       "category": "china",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-26-china-siwei-gaojing-2-05-06/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-26-spacex-starlink-vandenberg-17-17.md",
@@ -306,7 +306,7 @@
       "lastUpdated": null,
       "author": "Monika Luabeya",
       "category": "nasa",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-27-artemis-2-crew-suits-zh/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-27-artemis-2-one-week-away-zh.md",
@@ -339,7 +339,7 @@
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
       "category": "china",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-27-china-esa-smile-satellite/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-27-china-shiyan-33-en.md",
@@ -361,7 +361,7 @@
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
       "category": "china",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-27-china-shiyan-33/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module-zh.md",
@@ -383,7 +383,7 @@
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
       "category": "esa",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-27-esa-celeste-rocket-lab-launch-preview/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-en.md",
@@ -405,7 +405,7 @@
       "lastUpdated": null,
       "author": "Keith Cooper",
       "category": "nasa",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-27-nasa-nuclear-spacecraft-zh/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc-en.md",
@@ -449,7 +449,7 @@
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
       "category": "esa",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-28-celeste-rocket-lab-launch-zh/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-28-mike-fincke-medical-event-en.md",
@@ -537,7 +537,7 @@
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
       "category": "spacex",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-30-spacex-transporter-16/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-en.md",
@@ -559,7 +559,7 @@
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
       "category": "spacex",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-30-spacex-v3-starship-static-fire/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-31-artemis-2-countdown-begins-en.md",
@@ -625,7 +625,7 @@
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
       "category": "iss",
-      "image": null
+      "image": "/space-news/2026/03/figures/2026-03-31-iss-expedition-74-week/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition-en.md",
@@ -670,17 +670,6 @@
       "author": "天疆说",
       "category": "artemis",
       "image": "/space-news/2026/04/figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
-    },
-    {
-      "relativePath": "space-news/2026/04/2026-04-02-artemis-2-tli-go.md",
-      "path": "/space-news/2026/04/2026-04-02-artemis-2-tli-go/",
-      "title": "Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上月球之旅",
-      "description": "NASA Artemis II 猎户座飞船于美东时间 19:49 成功完成地月转移注入燃烧，点火 5 分 50 秒，四名航天员正式踏上飞向月球的旅程——1972 年以来人类首次。月球科学团队已开始制定飞越观测计划。",
-      "date": "2026-04-02",
-      "lastUpdated": "2026-04-03",
-      "author": "天疆说",
-      "category": "artemis",
-      "image": "/space-news/2026/04/figures/2026-04-02-artemis-2-tli-go/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-03-soyuz-5-maiden-flight.md",
@@ -814,7 +803,7 @@
       "lastUpdated": "2026-01-30",
       "author": "天疆说",
       "category": "commercial",
-      "image": null
+      "image": "/en/space-news/2026/01/figures/2026-01-blue-origin-pauses-tourism/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss.md",
@@ -968,7 +957,7 @@
       "lastUpdated": "2026-03-20",
       "author": "天疆说",
       "category": "esa",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-20-rocket-lab-strix/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-20-spacex-starlink-17-15.md",
@@ -1001,7 +990,7 @@
       "lastUpdated": "2026-03-24",
       "author": "天疆说",
       "category": "policy",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-24-nasa-moon-base-plan/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-24-roscosmos-progress-94-iss.md",
@@ -1023,7 +1012,7 @@
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
       "category": "china",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-26-china-siwei-gaojing-2-05-06/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-26-spacex-starlink-vandenberg-17-17.md",
@@ -1045,7 +1034,7 @@
       "lastUpdated": null,
       "author": "Monika Luabeya",
       "category": "nasa",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-27-artemis-2-crew-suits-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-27-artemis-2-one-week-away-en.md",
@@ -1067,7 +1056,7 @@
       "lastUpdated": null,
       "author": "天疆说",
       "category": "china",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-27-china-esa-smile-satellite-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-27-china-shiyan-33-en.md",
@@ -1078,7 +1067,7 @@
       "lastUpdated": null,
       "author": "天疆说",
       "category": "china",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-27-china-shiyan-33-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module-en.md",
@@ -1100,7 +1089,7 @@
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
       "category": "esa",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-27-esa-celeste-rocket-lab-launch-preview-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-en.md",
@@ -1111,7 +1100,7 @@
       "lastUpdated": null,
       "author": "Keith Cooper",
       "category": "nasa",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-27-nasa-nuclear-spacecraft-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch-en.md",
@@ -1122,7 +1111,7 @@
       "lastUpdated": null,
       "author": "天疆说",
       "category": "esa",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-28-celeste-rocket-lab-launch-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-30-spacex-transporter-16-en.md",
@@ -1133,7 +1122,7 @@
       "lastUpdated": null,
       "author": "天疆说",
       "category": "spacex",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-30-spacex-transporter-16-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-en.md",
@@ -1144,7 +1133,7 @@
       "lastUpdated": null,
       "author": "天疆说",
       "category": "spacex",
-      "image": null
+      "image": "/en/space-news/2026/03/figures/2026-03-30-spacex-v3-starship-static-fire-en/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-01-artemis-2-launch.md",
@@ -1167,17 +1156,6 @@
       "author": "天疆说",
       "category": "artemis",
       "image": "/en/space-news/2026/04/figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
-    },
-    {
-      "relativePath": "en/space-news/2026/04/2026-04-02-artemis-2-tli-go.md",
-      "path": "/en/space-news/2026/04/2026-04-02-artemis-2-tli-go/",
-      "title": "Artemis II Flight Day 2: TLI Burn Complete, Orion Officially on Its Way to the Moon",
-      "description": "NASA's Orion spacecraft successfully completed the translunar injection burn at 7:49 PM EDT, firing for 5 minutes and 50 seconds. The four astronauts are now on a trajectory toward the Moon — the first time humans have left Earth orbit since 1972.",
-      "date": "2026-04-02",
-      "lastUpdated": "2026-04-03",
-      "author": "天疆说",
-      "category": "artemis",
-      "image": "/en/space-news/2026/04/figures/2026-04-02-artemis-2-tli-go/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-03-soyuz-5-maiden-flight.md",

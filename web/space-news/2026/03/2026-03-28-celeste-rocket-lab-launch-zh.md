@@ -6,6 +6,7 @@ author: 天疆说
 date: 2026-03-28
 lastUpdated: 2026-03-28
 category: esa
+image: ./figures/2026-03-28-celeste-rocket-lab-launch-zh/hero.jpg
 layout: SpaceNewsArticle
 ---
 
