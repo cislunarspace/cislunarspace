@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-04
+lastUpdated: 2026-04-05
 ---
 
 # 2026 年 4 月
@@ -21,6 +21,9 @@ lastUpdated: 2026-04-04
 | 4-4 | [Artemis II 飞行第三日：轨道修正取消，飞船精确奔赴月球](./2026-04-04-artemis-2-flight-day-3/) |
 | 4-4 | [诺格 CRS-24 货运补给任务定于 4 月 8 日发射，将向 ISS 运送约 5000 公斤物资](./2026-04-04-ng-crs24-preview/) |
 | 4-4 | [Atlas V 成功发射 Amazon Leo 第五批 29 颗卫星，柯伊伯星座加速组网](./2026-04-04-atlas-v-amazon-leo-la05/) |
+| 4-4 | [中欧联合「微笑」卫星完成发射前准备，4 月 9 日乘织女星-C 火箭升空](./2026-04-04-smile-launch-prep/) |
+| 4-5 | [Artemis II 飞行第四日：深空飞行与月球飞越准备，Glover 将手动操控 Orion](./2026-04-05-artemis-2-flight-day-4/) |
+| 4-4 | [神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑](./2026-04-04-shenzhou-21-eva/) |
 
 ---
 
