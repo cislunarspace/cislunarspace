@@ -26,6 +26,7 @@
     "vuepress-plugin-code-copy": "^1.0.6"
   },
   "dependencies": {
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "turndown": "^7.2.4"
   }
 }
