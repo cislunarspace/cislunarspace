@@ -59,12 +59,14 @@
           </h2>
           <router-link class="sn-section__more" :to="archivePath + '#' + sec.key">{{ labels.viewMore }}</router-link>
         </div>
-        <ul class="sn-grid-snippet">
-          <li v-for="item in sec.items" :key="item.path">
-            <router-link :to="item.path" class="sn-snippet">
-              <span class="sn-cat-tag sn-cat-tag--sm" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
-              <div class="sn-snippet__text">
-                <h3 class="sn-snippet__title">{{ item.title }}</h3>
+        <ul class="sn-grid">
+          <li v-for="item in sec.items" :key="item.path" class="sn-grid__cell">
+            <router-link :to="item.path" class="sn-card">
+              <div class="sn-card__img" :style="cardBg(item)">
+                <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
+              </div>
+              <div class="sn-card__body">
+                <h3 class="sn-card__title">{{ item.title }}</h3>
                 <div class="sn-meta">
                   <span v-if="item.author" class="sn-meta__author">{{ item.author }}</span>
                   <span class="sn-meta__dot" v-if="item.author && item.date">&middot;</span>
