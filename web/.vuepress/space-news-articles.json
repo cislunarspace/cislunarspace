@@ -696,8 +696,8 @@
     {
       "relativePath": "space-news/2026/04/2026-04-04-artemis-2-flight-day-3.md",
       "path": "/space-news/2026/04/2026-04-04-artemis-2-flight-day-3/",
-      "title": "Artemis II 飞行第三日：轨道修正取消，飞船精确奔赴月球",
-      "description": "Artemis II 飞行第三日，任务控制中心取消首次轨道修正点火，飞船轨迹精确，四人乘组将于 4 月 6 日飞越月球。",
+      "title": "Artemis II 飞行第三日：乘组已过半程奔赴月球，Christina Koch 从对接舱口目视月球",
+      "description": "Artemis II 任务已过半程，轨道修正取消，Christina Koch 从对接舱口看到月球，乘组正在为 4 月 6 日月球飞越做准备。",
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
@@ -725,6 +725,39 @@
       "author": "天疆说",
       "category": "iss",
       "image": "/space-news/2026/04/figures/2026-04-04-ng-crs24-preview/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-04-shenzhou-21-eva.md",
+      "path": "/space-news/2026/04/2026-04-04-shenzhou-21-eva/",
+      "title": "神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑",
+      "description": "张陆、武飞、张洪章三名航天员圆满完成第二次出舱活动，开展药代动力学实验、燃烧科学实验等系列任务，在轨即将满 150 天。",
+      "date": "2026-04-04",
+      "lastUpdated": "2026-04-04",
+      "author": "天疆说",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-04-smile-launch-prep.md",
+      "path": "/space-news/2026/04/2026-04-04-smile-launch-prep/",
+      "title": "中欧联合「微笑」卫星完成发射前准备，4 月 9 日乘织女星-C 火箭升空",
+      "description": "中国科学院与 ESA 联合研制的 SMILE 卫星已完成库鲁航天中心全部发射前准备，定于 4 月 9 日由 Vega-C 火箭发射升空，将首次实现地球磁层大尺度整体成像。",
+      "date": "2026-04-04",
+      "lastUpdated": "2026-04-04",
+      "author": "天疆说",
+      "category": "science",
+      "image": "/space-news/2026/04/figures/2026-04-04-smile-launch-prep/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-05-artemis-2-flight-day-4.md",
+      "path": "/space-news/2026/04/2026-04-05-artemis-2-flight-day-4/",
+      "title": "Artemis II 飞行第四日：深空飞行与月球飞越准备，Glover 将手动操控 Orion",
+      "description": "Artemis II 第四飞行日，乘组距地球约 16.9 万英里，Victor Glover 将手动操控 Orion 测试深空飞行性能，为 4 月 6 日月球飞越做最后准备。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": "/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.png"
     },
     {
       "relativePath": "space-news/archive.md",
@@ -1182,8 +1215,8 @@
     {
       "relativePath": "en/space-news/2026/04/2026-04-04-artemis-2-flight-day-3.md",
       "path": "/en/space-news/2026/04/2026-04-04-artemis-2-flight-day-3/",
-      "title": "Artemis II Flight Day 3: Trajectory Correction Cancelled, Spacecraft on Precise Path to the Moon",
-      "description": "On Flight Day 3 of Artemis II, NASA cancelled the first planned trajectory correction burn as Orion is already on a precise path for the April 6 lunar flyby.",
+      "title": "Artemis II Flight Day 3: Crew More Than Halfway to the Moon, Koch Sights Moon from Docking Hatch",
+      "description": "Artemis II is more than halfway to the Moon. The trajectory correction burn was cancelled, Christina Koch spotted the Moon from the docking hatch, and the crew is preparing for the April 6 lunar flyby.",
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
@@ -1211,6 +1244,39 @@
       "author": "天疆说",
       "category": "iss",
       "image": "/en/space-news/2026/04/figures/2026-04-04-ng-crs24-preview/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-04-shenzhou-21-eva.md",
+      "path": "/en/space-news/2026/04/2026-04-04-shenzhou-21-eva/",
+      "title": "Shenzhou-21 Crew Completes Second EVA, Approaching 150-Day On-Orbit Milestone",
+      "description": "Taikonauts Zhang Lu, Wu Fei, and Zhang Hongzhang have completed their second spacewalk and continue science experiments aboard the Tiangong space station, nearing 150 days in orbit.",
+      "date": "2026-04-04",
+      "lastUpdated": "2026-04-04",
+      "author": "天疆说",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-04-smile-launch-prep.md",
+      "path": "/en/space-news/2026/04/2026-04-04-smile-launch-prep/",
+      "title": "China-ESA SMILE Satellite Completes Launch Preparations, Set for April 9 Vega-C Liftoff",
+      "description": "The SMILE satellite, jointly developed by CAS and ESA, has completed all launch preparations at Kourou and is scheduled for launch on April 9 aboard a Vega-C rocket.",
+      "date": "2026-04-04",
+      "lastUpdated": "2026-04-04",
+      "author": "天疆说",
+      "category": "science",
+      "image": "/en/space-news/2026/04/figures/2026-04-04-smile-launch-prep/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-05-artemis-2-flight-day-4.md",
+      "path": "/en/space-news/2026/04/2026-04-05-artemis-2-flight-day-4/",
+      "title": "Artemis II Flight Day 4: Deep-Space Flying, Lunar Flyby Prep as Glover Takes Manual Control",
+      "description": "On Flight Day 4, the Artemis II crew is approximately 169,000 miles from Earth. Victor Glover will manually pilot Orion to test deep-space handling qualities, and the crew is preparing for Monday's lunar flyby.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": "/en/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.png"
     },
     {
       "relativePath": "en/space-news/archive.md",
