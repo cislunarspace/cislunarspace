@@ -7,6 +7,7 @@ import navbar from './navbar.js'
 import navbarEn from './navbar-en.js'
 import sidebar from './sidebar.js'
 import sidebarEn from './sidebar-en.js'
+import ogMetaPlugin from './og-meta-plugin.js'
 
 const domain = 'https://cislunarspace.cn'
 const tags = ['地月空间', '航天', '轨道动力学']
@@ -118,6 +119,7 @@ export default defineUserConfig({
   }),
 
   plugins: [
+    ogMetaPlugin,
     googleAnalyticsPlugin({ id: 'G-0PLJ56MK80' }),
     sitemapPlugin({ hostname: domain }),
   ],
