@@ -1,62 +1,131 @@
 <template>
-  <div class="ai-chat-container">
-    <div class="chat-toolbar">
-      <div class="toolbar-title">{{ t('toolbarTitle') }}</div>
-      <button class="toolbar-btn" @click="startNewChat" :disabled="isLoading">
-        {{ t('newChat') }}
-      </button>
-    </div>
-
-    <div class="chat-messages" ref="messagesContainer">
-      <div v-if="messages.length === 0" class="chat-welcome">
-        <h2>{{ t('welcomeTitle') }}</h2>
-        <p>{{ t('welcomeDesc') }}</p>
-        <div class="suggested-questions">
-          <button
-            v-for="(question, index) in suggestedQuestions"
-            :key="index"
-            class="suggested-btn"
-            @click="sendSuggested(question)"
-            :disabled="isLoading"
-          >
-            {{ question }}
+  <div :class="['ai-chat-root', { 'dark': isDark }]">
+    <aside :class="['chat-sidebar', { 'sidebar-open': sidebarOpen }]">
+      <div class="sidebar-header">
+        <button class="sidebar-new-btn" @click="startNewChat" :disabled="isLoading">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span>{{ t('newChat') }}</span>
+        </button>
+      </div>
+      <div class="sidebar-history">
+        <div v-if="chatHistory.length === 0" class="sidebar-empty">
+          {{ isEn ? 'No conversations yet' : '暂无对话记录' }}
+        </div>
+        <div
+          v-for="(chat, idx) in chatHistory"
+          :key="idx"
+          :class="['sidebar-item', { active: activeChatIndex === idx }]"
+          @click="switchChat(idx)"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span class="sidebar-item-title">{{ chat.title }}</span>
+          <button class="sidebar-item-delete" @click.stop="deleteChat(idx)" :title="isEn ? 'Delete' : '删除'">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
           </button>
         </div>
       </div>
+      <div class="sidebar-footer">
+        <button class="sidebar-icon-btn" @click="toggleTheme" :title="isDark ? (isEn ? 'Light mode' : '浅色模式') : (isEn ? 'Dark mode' : '深色模式')">
+          <svg v-if="isDark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </aside>
 
-      <div
-        v-for="(message, index) in messages"
-        :key="index"
-        :class="['chat-message', message.role === 'user' ? 'user-message' : 'assistant-message']"
-      >
-        <div class="message-avatar">{{ message.role === 'user' ? 'U' : 'AI' }}</div>
+    <div class="sidebar-overlay" v-if="sidebarOpen" @click="sidebarOpen = false"></div>
+
+    <main class="chat-main">
+      <header class="chat-header">
+        <button class="header-menu-btn" @click="sidebarOpen = !sidebarOpen" :title="isEn ? 'Menu' : '菜单'">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <h1 class="header-title">{{ t('toolbarTitle') }}</h1>
+        <div class="header-actions">
+          <button class="header-icon-btn" @click="toggleTheme" :title="isDark ? (isEn ? 'Light mode' : '浅色模式') : (isEn ? 'Dark mode' : '深色模式')">
+            <svg v-if="isDark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <button class="header-icon-btn" @click="startNewChat" :disabled="isLoading" :title="t('newChat')">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <div class="chat-messages" ref="messagesContainer">
+        <div v-if="messages.length === 0" class="chat-welcome">
+          <div class="welcome-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+          <h2 class="welcome-title">{{ t('welcomeTitle') }}</h2>
+          <p class="welcome-desc">{{ t('welcomeDesc') }}</p>
+          <div class="suggested-grid">
+            <button
+              v-for="(question, index) in suggestedQuestions"
+              :key="index"
+              class="suggested-card"
+              @click="sendSuggested(question)"
+              :disabled="isLoading"
+            >
+              <span class="suggested-card-text">{{ question }}</span>
+              <svg class="suggested-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </div>
+
         <div
-          v-if="message.role === 'assistant'"
-          class="message-content"
-          v-html="renderMessageHtml(message, index)"
-        ></div>
-        <div v-else class="message-content">
-          {{ getMessageText(message, index) }}
+          v-for="(message, index) in messages"
+          :key="index"
+          :class="['chat-message', message.role === 'user' ? 'user-message' : 'assistant-message']"
+        >
+          <div class="message-row">
+            <div v-if="message.role === 'assistant'" class="message-avatar assistant-avatar">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4v2H6a2 2 0 0 0-2 2v10h16V10a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4z"/><circle cx="9" cy="14" r="1" fill="currentColor"/><circle cx="15" cy="14" r="1" fill="currentColor"/></svg>
+            </div>
+            <div
+              v-if="message.role === 'assistant'"
+              class="message-content assistant-content"
+              v-html="renderMessageHtml(message, index)"
+            ></div>
+            <div v-else class="message-content user-content">
+              {{ getMessageText(message, index) }}
+            </div>
+            <div v-if="message.role === 'user'" class="message-avatar user-avatar">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+          </div>
+          <div
+            v-if="isLoading && message.role === 'assistant' && !message.content && index === messages.length - 1"
+            class="typing-dots"
+          >
+            <span></span><span></span><span></span>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="chat-input-area">
-      <textarea
-        v-model="userInput"
-        @keydown.enter.exact.prevent="sendMessage"
-        :placeholder="t('inputPlaceholder')"
-        :disabled="isLoading || !config"
-        rows="3"
-      ></textarea>
-      <button
-        class="send-btn"
-        @click="sendMessage"
-        :disabled="isLoading || !userInput.trim() || !config"
-      >
-        {{ t('send') }}
-      </button>
-    </div>
+      <div class="chat-input-wrapper">
+        <div class="chat-input-box">
+          <textarea
+            ref="inputRef"
+            v-model="userInput"
+            @keydown.enter.exact.prevent="sendMessage"
+            @input="autoResize"
+            :placeholder="t('inputPlaceholder')"
+            :disabled="isLoading || !config"
+            rows="1"
+            class="chat-textarea"
+          ></textarea>
+          <button
+            class="send-btn"
+            @click="sendMessage"
+            :disabled="isLoading || !userInput.trim() || !config"
+            :title="t('send')"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+        <p class="input-hint">{{ isEn ? 'AI may produce inaccurate information. Press Enter to send.' : 'AI 可能产生不准确的信息，按 Enter 发送' }}</p>
+      </div>
+    </main>
   </div>
 </template>
 
@@ -251,6 +320,42 @@ function renderLinkedHtml(text) {
 const zhSidebarEntries = buildSidebarEntries(sidebarConfig)
 const enSidebarEntries = buildSidebarEntries(sidebarConfigEn)
 
+const HISTORY_KEY = 'cislunar-chat-history'
+const THEME_KEY = 'cislunar-chat-theme'
+
+function loadChatHistory() {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY)
+    if (!raw) return []
+    const parsed = JSON.parse(raw)
+    if (!Array.isArray(parsed)) return []
+    return parsed
+  } catch {
+    return []
+  }
+}
+
+function saveChatHistory(history) {
+  try {
+    const toSave = history.slice(0, 30)
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(toSave))
+  } catch {}
+}
+
+function getSystemTheme() {
+  if (typeof window === 'undefined') return false
+  return window.matchMedia('(prefers-color-scheme: dark)').matches
+}
+
+function loadTheme() {
+  try {
+    const saved = localStorage.getItem(THEME_KEY)
+    if (saved === 'dark') return true
+    if (saved === 'light') return false
+  } catch {}
+  return getSystemTheme()
+}
+
 export default {
   name: 'AiChat',
   data() {
@@ -260,7 +365,11 @@ export default {
       isLoading: false,
       config: null,
       abortController: null,
-      suggestedQuestions: []
+      suggestedQuestions: [],
+      isDark: loadTheme(),
+      sidebarOpen: false,
+      chatHistory: loadChatHistory(),
+      activeChatIndex: -1
     }
   },
   computed: {
@@ -271,6 +380,7 @@ export default {
   async mounted() {
     this.updateSuggestedQuestions()
     await this.loadConfig()
+    this.applyTheme()
   },
   watch: {
     isEn() {
@@ -278,12 +388,80 @@ export default {
       if (this.config) {
         this.config.systemPrompt = this.getSystemPrompt()
       }
+    },
+    isDark() {
+      this.applyTheme()
     }
   },
   beforeUnmount() {
     this.abortRequest()
   },
   methods: {
+    applyTheme() {
+      document.documentElement.setAttribute('data-chat-theme', this.isDark ? 'dark' : 'light')
+    },
+
+    toggleTheme() {
+      this.isDark = !this.isDark
+      try {
+        localStorage.setItem(THEME_KEY, this.isDark ? 'dark' : 'light')
+      } catch {}
+    },
+
+    autoResize() {
+      this.$nextTick(() => {
+        const el = this.$refs.inputRef
+        if (!el) return
+        el.style.height = 'auto'
+        el.style.height = Math.min(el.scrollHeight, 200) + 'px'
+      })
+    },
+
+    getChatTitle(messages) {
+      const first = messages.find(m => m.role === 'user')
+      if (!first) return this.isEn ? 'New Chat' : '新对话'
+      const text = first.content.slice(0, 30)
+      return text.length < first.content.length ? text + '...' : text
+    },
+
+    saveCurrentChat() {
+      if (this.messages.length === 0) return
+
+      const title = this.getChatTitle(this.messages)
+      const entry = { title, messages: JSON.parse(JSON.stringify(this.messages)), timestamp: Date.now() }
+
+      if (this.activeChatIndex >= 0 && this.activeChatIndex < this.chatHistory.length) {
+        this.chatHistory[this.activeChatIndex] = entry
+      } else {
+        this.chatHistory.unshift(entry)
+        this.activeChatIndex = 0
+      }
+
+      this.chatHistory = this.chatHistory.filter(chat => chat.messages && chat.messages.length > 0)
+      saveChatHistory(this.chatHistory)
+    },
+
+    switchChat(idx) {
+      if (this.isLoading) return
+      this.saveCurrentChat()
+      if (idx >= 0 && idx < this.chatHistory.length) {
+        this.activeChatIndex = idx
+        this.messages = JSON.parse(JSON.stringify(this.chatHistory[idx].messages))
+      }
+      this.sidebarOpen = false
+    },
+
+    deleteChat(idx) {
+      this.chatHistory.splice(idx, 1)
+      if (this.activeChatIndex === idx) {
+        this.activeChatIndex = -1
+        this.messages = []
+      } else if (this.activeChatIndex > idx) {
+        this.activeChatIndex--
+      }
+      saveChatHistory(this.chatHistory)
+    },
+
     getMessageText(message, index) {
       if (
         message &&
@@ -292,14 +470,20 @@ export default {
         this.isLoading &&
         index === this.messages.length - 1
       ) {
-        return this.t('thinking')
+        return ''
       }
 
       return message.content
     },
 
     renderMessageHtml(message, index) {
-      return renderLinkedHtml(this.getMessageText(message, index))
+      const text = this.getMessageText(message, index)
+      if (!text && this.isLoading && index === this.messages.length - 1) return ''
+      const html = renderLinkedHtml(text || '')
+      if (this.isLoading && index === this.messages.length - 1 && text) {
+        return html + '<span class="cursor-blink">|</span>'
+      }
+      return html
     },
 
     t(key) {
@@ -308,8 +492,8 @@ export default {
         newChat: { zh: '新对话', en: 'New Chat' },
         welcomeTitle: { zh: '地月空间 AI 问答助手', en: 'Cislunar Space AI Assistant' },
         welcomeDesc: {
-          zh: '问答助手会根据你的问题，结合本站内容和相关知识进行回答。你可以尝试以下问题：',
-          en: 'This is a simplified stable chat page with only the core streaming Q&A flow.'
+          zh: '问答助手会根据你的问题，结合本站内容和相关知识进行回答',
+          en: 'Ask questions about cislunar space and get AI-powered answers based on this site'
         },
         inputPlaceholder: { zh: '输入你的问题...', en: 'Type your question...' },
         send: { zh: '发送', en: 'Send' },
@@ -382,9 +566,11 @@ export default {
     },
 
     startNewChat() {
+      this.saveCurrentChat()
       this.abortRequest()
       this.messages = []
       this.userInput = ''
+      this.activeChatIndex = -1
     },
 
     sendSuggested(question) {
@@ -409,6 +595,10 @@ export default {
       this.userInput = ''
       this.isLoading = true
       this.scrollToBottom()
+
+      if (this.$refs.inputRef) {
+        this.$refs.inputRef.style.height = 'auto'
+      }
 
       const assistantMessage = { role: 'assistant', content: '' }
       this.messages.push(assistantMessage)
@@ -465,6 +655,7 @@ export default {
       } finally {
         this.isLoading = false
         this.abortController = null
+        this.saveCurrentChat()
         this.scrollToBottom()
       }
     },
@@ -537,233 +728,739 @@ export default {
 </script>
 
 <style scoped>
-.ai-chat-container {
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 8rem);
-  max-width: 880px;
-  margin: 0 auto;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #ffffff;
+:root {
+  --chat-bg: #ffffff;
+  --chat-bg-secondary: #f7f7f8;
+  --chat-bg-tertiary: #ececf1;
+  --chat-border: #e5e5e5;
+  --chat-text: #374151;
+  --chat-text-primary: #111827;
+  --chat-text-secondary: #6b7280;
+  --chat-text-tertiary: #9ca3af;
+  --chat-accent: #2563eb;
+  --chat-accent-hover: #1d4ed8;
+  --chat-user-bubble: #2563eb;
+  --chat-user-text: #ffffff;
+  --chat-sidebar-bg: #f9fafb;
+  --chat-sidebar-hover: #f3f4f6;
+  --chat-sidebar-active: #e5e7eb;
+  --chat-input-bg: #ffffff;
+  --chat-input-border: #d1d5db;
+  --chat-input-focus: #2563eb;
+  --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --chat-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --chat-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+  --chat-radius-sm: 8px;
+  --chat-radius-md: 12px;
+  --chat-radius-lg: 16px;
+  --chat-radius-xl: 24px;
+  --chat-scrollbar-thumb: #c1c1c1;
+  --chat-scrollbar-track: transparent;
 }
 
-.chat-toolbar {
+.ai-chat-root.dark {
+  --chat-bg: #212121;
+  --chat-bg-secondary: #2f2f2f;
+  --chat-bg-tertiary: #383838;
+  --chat-border: #424242;
+  --chat-text: #d1d5db;
+  --chat-text-primary: #f3f4f6;
+  --chat-text-secondary: #9ca3af;
+  --chat-text-tertiary: #6b7280;
+  --chat-accent: #60a5fa;
+  --chat-accent-hover: #93bbfd;
+  --chat-user-bubble: #3b82f6;
+  --chat-user-text: #ffffff;
+  --chat-sidebar-bg: #171717;
+  --chat-sidebar-hover: #2a2a2a;
+  --chat-sidebar-active: #333333;
+  --chat-input-bg: #2f2f2f;
+  --chat-input-border: #424242;
+  --chat-input-focus: #60a5fa;
+  --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --chat-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --chat-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  --chat-scrollbar-thumb: #555;
+  --chat-scrollbar-track: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ai-chat-root {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  background: var(--chat-bg);
+  color: var(--chat-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  overflow: hidden;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.chat-sidebar {
+  width: 260px;
+  min-width: 260px;
+  background: var(--chat-sidebar-bg);
+  border-right: 1px solid var(--chat-border);
+  display: flex;
+  flex-direction: column;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.sidebar-header {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--chat-border);
+}
+
+.sidebar-new-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--chat-border);
+  border-radius: var(--chat-radius-sm);
+  background: transparent;
+  color: var(--chat-text-primary);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.15s ease;
+}
+
+.sidebar-new-btn:hover:not(:disabled) {
+  background: var(--chat-sidebar-hover);
+}
+
+.sidebar-new-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sidebar-history {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.sidebar-empty {
+  text-align: center;
+  color: var(--chat-text-tertiary);
+  font-size: 0.8125rem;
+  padding: 2rem 1rem;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.625rem;
+  border-radius: var(--chat-radius-sm);
+  cursor: pointer;
+  transition: background 0.15s ease;
+  color: var(--chat-text-secondary);
+  margin-bottom: 2px;
+}
+
+.sidebar-item:hover {
+  background: var(--chat-sidebar-hover);
+  color: var(--chat-text-primary);
+}
+
+.sidebar-item.active {
+  background: var(--chat-sidebar-active);
+  color: var(--chat-text-primary);
+}
+
+.sidebar-item-title {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.8125rem;
+}
+
+.sidebar-item-delete {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--chat-text-tertiary);
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.sidebar-item:hover .sidebar-item-delete {
+  display: flex;
+}
+
+.sidebar-item-delete:hover {
+  color: #ef4444;
+}
+
+.sidebar-footer {
+  padding: 0.75rem;
+  border-top: 1px solid var(--chat-border);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sidebar-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: var(--chat-radius-sm);
+  background: transparent;
+  color: var(--chat-text-secondary);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-icon-btn:hover {
+  background: var(--chat-sidebar-hover);
+  color: var(--chat-text-primary);
+}
+
+.sidebar-overlay {
+  display: none;
+}
+
+.chat-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: var(--chat-bg);
+  transition: background 0.3s ease;
+}
+
+.chat-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid #e2e8f0;
-  background: #f8fafc;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--chat-border);
+  min-height: 52px;
+  transition: border-color 0.3s ease;
 }
 
-.toolbar-title {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #1f2937;
-}
-
-.toolbar-btn,
-.suggested-btn,
-.send-btn {
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
-  background: #ffffff;
-  color: #1f2937;
+.header-menu-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: var(--chat-radius-sm);
+  background: transparent;
+  color: var(--chat-text-secondary);
   cursor: pointer;
-  transition: background 0.15s ease, border-color 0.15s ease;
+  transition: background 0.15s ease;
 }
 
-.toolbar-btn,
-.send-btn {
-  padding: 0.55rem 0.9rem;
+.header-menu-btn:hover {
+  background: var(--chat-sidebar-hover);
 }
 
-.suggested-btn {
-  padding: 0.55rem 0.8rem;
-  text-align: left;
+.header-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--chat-text-primary);
+  margin: 0;
+  border: none;
+  padding: 0;
 }
 
-.toolbar-btn:hover,
-.suggested-btn:hover,
-.send-btn:hover {
-  background: #f1f5f9;
-  border-color: #94a3b8;
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
-.toolbar-btn:disabled,
-.suggested-btn:disabled,
-.send-btn:disabled {
+.header-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: var(--chat-radius-sm);
+  background: transparent;
+  color: var(--chat-text-secondary);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.header-icon-btn:hover:not(:disabled) {
+  background: var(--chat-sidebar-hover);
+  color: var(--chat-text-primary);
+}
+
+.header-icon-btn:disabled {
+  opacity: 0.4;
   cursor: not-allowed;
-  opacity: 0.6;
 }
 
 .chat-messages {
   flex: 1;
   overflow-y: auto;
-  padding: 1rem;
-  background: #ffffff;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: var(--chat-scrollbar-track);
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background: var(--chat-scrollbar-thumb);
+  border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+  background: var(--chat-text-tertiary);
+}
+
+.sidebar-history::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-history::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-history::-webkit-scrollbar-thumb {
+  background: var(--chat-scrollbar-thumb);
+  border-radius: 2px;
 }
 
 .chat-welcome {
-  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem 2rem;
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeInUp 0.5s ease;
 }
 
-.chat-welcome h2 {
-  margin: 0 0 0.75rem;
-  border-bottom: none;
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-.chat-welcome p {
-  margin: 0 0 1rem;
-  color: #475569;
+.welcome-icon {
+  color: var(--chat-accent);
+  margin-bottom: 1.25rem;
+  opacity: 0.8;
 }
 
-.suggested-questions {
+.welcome-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--chat-text-primary);
+  margin: 0 0 0.5rem;
+  border: none;
+}
+
+.welcome-desc {
+  font-size: 0.9375rem;
+  color: var(--chat-text-secondary);
+  margin: 0 0 2rem;
+  line-height: 1.6;
+}
+
+.suggested-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 0.75rem;
+  width: 100%;
+}
+
+.suggested-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--chat-border);
+  border-radius: var(--chat-radius-md);
+  background: var(--chat-bg);
+  color: var(--chat-text);
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  transition: all 0.2s ease;
+  box-shadow: var(--chat-shadow-sm);
+}
+
+.suggested-card:hover:not(:disabled) {
+  background: var(--chat-bg-secondary);
+  border-color: var(--chat-accent);
+  box-shadow: var(--chat-shadow-md);
+}
+
+.suggested-card:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.suggested-card-text {
+  flex: 1;
+}
+
+.suggested-card-arrow {
+  flex-shrink: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  color: var(--chat-accent);
+}
+
+.suggested-card:hover .suggested-card-arrow {
+  opacity: 1;
+  transform: translateX(3px);
 }
 
 .chat-message {
+  padding: 1.5rem 0;
+  animation: messageIn 0.3s ease;
+}
+
+@keyframes messageIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.message-row {
   display: flex;
   gap: 0.75rem;
-  margin-bottom: 1rem;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
   align-items: flex-start;
 }
 
+.user-message {
+  background: transparent;
+}
+
+.assistant-message {
+  background: var(--chat-bg-secondary);
+  transition: background 0.3s ease;
+}
+
 .message-avatar {
-  flex: 0 0 auto;
-  width: 2.2rem;
-  height: 2.2rem;
-  border-radius: 999px;
-  background: #dbeafe;
-  color: #1e3a8a;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
-  font-weight: 700;
+  margin-top: 2px;
 }
 
-.user-message .message-avatar {
-  background: #dcfce7;
-  color: #166534;
+.assistant-avatar {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: #ffffff;
+}
+
+.user-avatar {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: #ffffff;
 }
 
 .message-content {
   flex: 1;
-  padding: 0.85rem 1rem;
-  border-radius: 12px;
-  background: #f8fafc;
-  color: #111827;
-  line-height: 1.6;
-  white-space: pre-wrap;
+  min-width: 0;
+  line-height: 1.7;
+  font-size: 0.9375rem;
   word-break: break-word;
 }
 
-.assistant-message .message-content {
+.user-content {
+  background: var(--chat-user-bubble);
+  color: var(--chat-user-text);
+  padding: 0.625rem 1rem;
+  border-radius: var(--chat-radius-lg) var(--chat-radius-lg) 4px var(--chat-radius-lg);
+  white-space: pre-wrap;
+}
+
+.assistant-content {
+  color: var(--chat-text-primary);
   white-space: normal;
 }
 
-.assistant-message .message-content :deep(p) {
+.assistant-content :deep(p) {
   margin: 0 0 0.75rem;
 }
 
-.assistant-message .message-content :deep(p:last-child) {
+.assistant-content :deep(p:last-child) {
   margin-bottom: 0;
 }
 
-.assistant-message .message-content :deep(h1),
-.assistant-message .message-content :deep(h2),
-.assistant-message .message-content :deep(h3),
-.assistant-message .message-content :deep(h4),
-.assistant-message .message-content :deep(h5),
-.assistant-message .message-content :deep(h6) {
-  margin: 0 0 0.75rem;
-  color: #0f172a;
+.assistant-content :deep(h1),
+.assistant-content :deep(h2),
+.assistant-content :deep(h3),
+.assistant-content :deep(h4),
+.assistant-content :deep(h5),
+.assistant-content :deep(h6) {
+  margin: 1rem 0 0.5rem;
+  color: var(--chat-text-primary);
   border-bottom: none;
   line-height: 1.35;
 }
 
-.assistant-message .message-content :deep(h1) { font-size: 1.4rem; }
-.assistant-message .message-content :deep(h2) { font-size: 1.25rem; }
-.assistant-message .message-content :deep(h3) { font-size: 1.1rem; }
+.assistant-content :deep(h1) { font-size: 1.4rem; }
+.assistant-content :deep(h2) { font-size: 1.25rem; }
+.assistant-content :deep(h3) { font-size: 1.1rem; }
 
-.assistant-message .message-content :deep(strong) {
+.assistant-content :deep(strong) {
   font-weight: 700;
+  color: var(--chat-text-primary);
 }
 
-.assistant-message .message-content :deep(em) {
+.assistant-content :deep(em) {
   font-style: italic;
 }
 
-.assistant-message .message-content :deep(.katex-display) {
+.assistant-content :deep(.katex-display) {
   margin: 0.85rem 0;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
-.user-message .message-content {
-  background: #ecfccb;
-}
-
-.message-content :deep(a) {
-  color: #2563eb;
-  text-decoration: underline;
+.assistant-content :deep(a),
+.user-content :deep(a) {
+  color: var(--chat-accent);
+  text-decoration: none;
   text-underline-offset: 2px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
 }
 
-.message-content :deep(a:hover) {
-  color: #1d4ed8;
+.assistant-content :deep(a:hover),
+.user-content :deep(a:hover) {
+  color: var(--chat-accent-hover);
+  border-bottom-color: var(--chat-accent-hover);
 }
 
-.typing-indicator {
-  color: #64748b;
+.assistant-content :deep(code) {
+  background: var(--chat-bg-tertiary);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
 }
 
-.chat-input-area {
-  display: flex;
-  gap: 0.75rem;
+.assistant-content :deep(pre) {
+  background: var(--chat-bg-tertiary);
+  border-radius: var(--chat-radius-sm);
   padding: 1rem;
-  border-top: 1px solid #e2e8f0;
-  background: #f8fafc;
+  overflow-x: auto;
+  margin: 0.75rem 0;
 }
 
-.chat-input-area textarea {
+.assistant-content :deep(pre code) {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+  color: var(--chat-accent);
+  font-weight: 100;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typing-dots {
+  display: flex;
+  gap: 4px;
+  padding: 0 1.5rem;
+  max-width: 768px;
+  margin: 0.5rem auto 0;
+  padding-left: calc(1.5rem + 32px + 0.75rem);
+}
+
+.typing-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--chat-text-tertiary);
+  animation: dotBounce 1.4s infinite ease-in-out;
+}
+
+.typing-dots span:nth-child(1) { animation-delay: 0s; }
+.typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+.typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes dotBounce {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+  40% { transform: scale(1); opacity: 1; }
+}
+
+.chat-input-wrapper {
+  padding: 0 1.5rem 1rem;
+  background: var(--chat-bg);
+  transition: background 0.3s ease;
+}
+
+.chat-input-box {
+  max-width: 768px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  gap: 0;
+  background: var(--chat-input-bg);
+  border: 1px solid var(--chat-input-border);
+  border-radius: var(--chat-radius-lg);
+  padding: 0.375rem 0.375rem 0.375rem 1rem;
+  box-shadow: var(--chat-shadow-md);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+
+.chat-input-box:focus-within {
+  border-color: var(--chat-input-focus);
+  box-shadow: var(--chat-shadow-md), 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.ai-chat-root.dark .chat-input-box:focus-within {
+  box-shadow: var(--chat-shadow-md), 0 0 0 2px rgba(96, 165, 250, 0.2);
+}
+
+.chat-textarea {
   flex: 1;
+  border: none;
+  outline: none;
   resize: none;
-  min-height: 4rem;
-  padding: 0.75rem 0.9rem;
-  border: 1px solid #cbd5e1;
-  border-radius: 10px;
-  font: inherit;
+  background: transparent;
+  color: var(--chat-text-primary);
+  font-size: 0.9375rem;
   line-height: 1.5;
+  padding: 0.5rem 0;
+  max-height: 200px;
+  font-family: inherit;
 }
 
-.chat-input-area textarea:focus {
-  outline: none;
-  border-color: #60a5fa;
+.chat-textarea::placeholder {
+  color: var(--chat-text-tertiary);
 }
 
 .send-btn {
-  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: var(--chat-accent);
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s ease, opacity 0.15s ease, transform 0.15s ease;
+}
+
+.send-btn:hover:not(:disabled) {
+  background: var(--chat-accent-hover);
+  transform: scale(1.05);
+}
+
+.send-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.input-hint {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--chat-text-tertiary);
+  margin: 0.5rem 0 0;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
-  .ai-chat-container {
-    height: calc(100vh - 6rem);
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
-  }
-
-  .chat-input-area {
-    flex-direction: column;
-  }
-
-  .send-btn {
+  .ai-chat-root {
+    height: 100vh;
+    margin: 0;
     width: 100%;
+  }
+
+  .chat-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    box-shadow: none;
+  }
+
+  .chat-sidebar.sidebar-open {
+    transform: translateX(0);
+    box-shadow: var(--chat-shadow-lg);
+  }
+
+  .sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    animation: fadeIn 0.2s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .header-menu-btn {
+    display: flex;
+  }
+
+  .header-actions .header-icon-btn:first-child {
+    display: none;
+  }
+
+  .suggested-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chat-welcome {
+    padding: 2rem 1rem 1rem;
+  }
+
+  .message-row {
+    padding: 0 1rem;
+  }
+
+  .chat-input-wrapper {
+    padding: 0 0.75rem 0.75rem;
+  }
+
+  .typing-dots {
+    padding-left: calc(1rem + 32px + 0.75rem);
   }
 }
 </style>

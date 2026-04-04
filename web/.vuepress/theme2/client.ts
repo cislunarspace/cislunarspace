@@ -6,6 +6,7 @@ import Layout from './layouts/Layout.vue'
 import SpaceNewsHome from './layouts/SpaceNewsHome.vue'
 import SpaceNewsArchive from './layouts/SpaceNewsArchive.vue'
 import SpaceNewsArticle from './layouts/SpaceNewsArticle.vue'
+import AiChatLayout from './layouts/AiChatLayout.vue'
 import Footer from './components/Footer.vue'
 import PageSidebar from './components/ExtraSidebar.vue'
 import AiChat from './components/AiChat.vue'
@@ -122,6 +123,7 @@ export default defineClientConfig({
     SpaceNewsHome,
     SpaceNewsArchive,
     SpaceNewsArticle,
+    AiChatLayout,
   },
   enhance({ app }) {
     app.component('Footer', Footer)
