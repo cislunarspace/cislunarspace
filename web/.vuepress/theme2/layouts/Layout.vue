@@ -18,6 +18,32 @@ import SidebarToggle from '../components/SidebarToggle.vue'
 </script>
 
 <style lang="scss">
+.katex-block {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.katex-block > .katex-display {
+  margin: 0;
+}
+
+.katex-display > .katex {
+  white-space: nowrap;
+  overflow-x: visible;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.katex-display .base {
+  flex-wrap: nowrap;
+}
+
 html.sidebar-hidden {
   --sidebar-width: 0;
 

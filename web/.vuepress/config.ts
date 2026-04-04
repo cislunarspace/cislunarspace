@@ -8,12 +8,12 @@ import navbarEn from './navbar-en.js'
 import sidebar from './sidebar.js'
 import sidebarEn from './sidebar-en.js'
 import ogMetaPlugin from './og-meta-plugin.js'
-import mk from 'markdown-it-katex'
+import mk from '@traptitech/markdown-it-katex'
 
 const katexPlugin = {
   name: 'vuepress-plugin-katex',
   extendsMarkdown: (md) => {
-    md.use(mk)
+    md.use(mk, { blockClass: 'math-block' })
   },
 }
 
