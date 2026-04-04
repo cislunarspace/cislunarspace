@@ -728,11 +728,11 @@ export default {
 </script>
 
 <style scoped>
-:root {
+.ai-chat-root {
   --chat-bg: #ffffff;
   --chat-bg-secondary: #f7f7f8;
   --chat-bg-tertiary: #ececf1;
-  --chat-border: #e5e5e5;
+  --chat-border: #c8cdd5;
   --chat-text: #374151;
   --chat-text-primary: #111827;
   --chat-text-secondary: #6b7280;
@@ -745,8 +745,9 @@ export default {
   --chat-sidebar-hover: #f3f4f6;
   --chat-sidebar-active: #e5e7eb;
   --chat-input-bg: #ffffff;
-  --chat-input-border: #d1d5db;
+  --chat-input-border: #c8cdd5;
   --chat-input-focus: #2563eb;
+  --chat-message-border: #dde1e7;
   --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --chat-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
   --chat-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
@@ -756,6 +757,13 @@ export default {
   --chat-radius-xl: 24px;
   --chat-scrollbar-thumb: #c1c1c1;
   --chat-scrollbar-track: transparent;
+  box-sizing: border-box;
+}
+
+.ai-chat-root *,
+.ai-chat-root *::before,
+.ai-chat-root *::after {
+  box-sizing: border-box;
 }
 
 .ai-chat-root.dark {
@@ -777,15 +785,12 @@ export default {
   --chat-input-bg: #2f2f2f;
   --chat-input-border: #424242;
   --chat-input-focus: #60a5fa;
+  --chat-message-border: #383838;
   --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --chat-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
   --chat-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
   --chat-scrollbar-thumb: #555;
   --chat-scrollbar-track: transparent;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .ai-chat-root {
@@ -1160,6 +1165,7 @@ export default {
 
 .assistant-message {
   background: var(--chat-bg-secondary);
+  border-bottom: 1px solid var(--chat-message-border);
   transition: background 0.3s ease;
 }
 
@@ -1321,7 +1327,8 @@ export default {
 .chat-input-wrapper {
   padding: 0 1.5rem 1rem;
   background: var(--chat-bg);
-  transition: background 0.3s ease;
+  border-top: 1px solid var(--chat-border);
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 .chat-input-box {
