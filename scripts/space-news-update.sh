@@ -23,6 +23,7 @@ openclaw agent --local --message "执行 Space News 定期更新。
 10. 如需新建月/年目录，同步更新年索引
 11. 运行 node web/.vuepress/gen-sidebar.js
 12. 运行构建验证：cd web && node -e \"const{spawn}=require('child_process');const p=spawn('node',['node_modules/vuepress/dist/cli.js','build','.'],{stdio:'pipe'});p.stdout.on('data',d=>process.stdout.write(d));p.stderr.on('data',d=>process.stderr.write(d));p.on('close',c=>{console.log('EXIT:',c);process.exit(c)});setTimeout(()=>{p.kill();process.exit(1)},180000)\"
-13. 汇报新增稿件数量
+13. 运行 node web/.vuepress/sync-figures.js（将 figures 图片同步到 dist/）
+14. 汇报新增稿件数量
 
 如果没有值得报道的新闻，简短说明即可。" 2>&1 | logger -t space-news-cron

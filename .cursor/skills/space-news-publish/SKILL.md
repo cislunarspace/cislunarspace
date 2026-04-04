@@ -220,12 +220,29 @@ image: ./figures/YYYY-MM-DD-slug/hero.jpg
 - **图片**：遵守原站版权与使用条款；优先使用 NASA/ESA 等标注为公共领域的素材；商业媒体配图无授权则不入库、仅链向原页。
 - **去重**：撰稿前检查当月目录是否已有同一事件稿件，避免重复。
 
+## 图片处理架构（重要！）
+
+**空间新闻首页卡片图片显示的关键路径：**
+
+1. 图片文件存放在 `web/space-news/YYYY/MM/figures/YYYY-MM-DD-slug/` 中（Markdown 中使用相对路径引用）
+2. `gen-sidebar.js` 将 frontmatter 中的相对 `image` 路径转为绝对 URL（如 `/space-news/2026/04/figures/.../hero.jpg`）写入 `space-news-articles.json`
+3. `SpaceNewsHome.vue` 的 `cardBg()` 函数使用 `background-image: url(...)` 加载图片
+4. **关键步骤**：VuePress 构建**不会**自动将 `figures/` 目录复制到 `dist/`。`npm run docs:build` 在 VuePress 构建后自动执行 `npm run sync-figures`（即 `node .vuepress/sync-figures.js`），将所有 `figures/` 文件复制到 `dist/` 对应路径
+
+**⚠️ 如果图片不显示，排查步骤：**
+1. 确认 `figures/` 目录中有实际的图片文件
+2. 确认 `npm run docs:build` 完整执行（包含 sync-figures 步骤）
+3. 确认 `space-news-articles.json` 中 image 字段为正确的绝对路径（非 `null`）
+
+**⚠️ 如果使用自定义构建命令（如自动化脚本），必须在 vuepress build 之后手动运行 `node web/.vuepress/sync-figures.js`，否则图片不会出现在 dist/ 中。**
+
 ## 相关代码（维护时查阅）
 
 - **门户首页**：`web/.vuepress/theme2/components/SpaceNewsHome.vue`（读取 articles JSON，按 category 分组展示）
 - **存档页**：`web/.vuepress/theme2/components/SpaceNewsArchive.vue`
 - **布局**：`web/.vuepress/theme2/layouts/SpaceNewsArticle.vue`（PageToc + Footer）
 - **索引生成**：`web/.vuepress/gen-sidebar.js`（生成 `sidebar.auto.json` + `space-news-articles.json`）
+- **图片同步**：`web/.vuepress/sync-figures.js`（构建后将 `figures/` 复制到 `dist/`，确保首页卡片图片可访问）
 - **侧边栏**：`web/.vuepress/sidebar.ts` / `sidebar-en.ts`（引用 `sidebar.auto.json`）
 - **分类定义**：`SpaceNewsHome.vue` 中的 `categoryMeta` 对象
 
