@@ -28,22 +28,41 @@ description: >-
 
 ## 新闻分类（category）
 
-稿件 frontmatter 中 **`category`** 字段用于门户首页分类展示。使用以下预定义值之一：
+稿件 frontmatter 中 **`category`** 字段用于门户首页分类展示。支持**多分类**——当一条新闻同时属于多个类别时，使用 YAML 数组格式。
+
+### 单分类格式
+
+```yaml
+category: spacex
+```
+
+### 多分类格式
+
+```yaml
+category: [spacex, commercial]
+```
+
+使用多分类的场景示例：
+- SpaceX IPO 新闻：`[spacex, commercial]`（既是 SpaceX 动态，也是商业航天新闻）
+- 中国空间站科学实验：`[china, science]`（既是中国航天，也是科学发现）
+- Artemis 任务中的 ESA 参与新闻：`[artemis, esa]`
+
+### 预定义分类值
 
 | category 值 | 中文标签 | 英文标签 | 适用范围 |
 |-------------|---------|---------|---------|
 | `artemis` | Artemis | Artemis | Artemis 计划相关任务 |
-| `spacex` | SpaceX | SpaceX | SpaceX 发射、Starship、Starlink |
+| `spacex` | SpaceX | SpaceX | SpaceX 发射、Starship、Starlink、公司动态 |
 | `china` | 中国航天 | China Space | 中国航天发射、航天工程 |
 | `nasa` | NASA | NASA | NASA 重大任务/计划（非 Artemis） |
 | `esa` | ESA | ESA | 欧洲航天局相关 |
 | `iss` | 空间站 | Space Station | ISS、天宫空间站运营 |
 | `launch` | 发射 | Launches | 其他商业/国际发射 |
-| `commercial` | 商业航天 | Commercial Space | 商业航天公司动态 |
+| `commercial` | 商业航天 | Commercial Space | 商业航天公司动态、投融资 |
 | `science` | 科学发现 | Science | 空间科学、天文发现 |
 | `policy` | 政策战略 | Policy & Strategy | 各国航天政策、预算、战略 |
 
-如不确定，优先选择最具体的分类。中国发射用 `china`，SpaceX 发射用 `spacex`，普通国际发射用 `launch`。
+如不确定，优先选择最具体的分类。中国发射用 `china`，SpaceX 发射用 `spacex`，普通国际发射用 `launch`。跨领域新闻使用多分类数组。
 
 ## 推荐工作流
 
@@ -60,20 +79,28 @@ description: >-
 
 **每篇稿件必须配图**——没有图片的稿件是不完整的。获取图片是标准工作流的一部分，不是可选项。
 
+### 图片来源原则（核心规则）
+
+**配图必须与新闻主题直接匹配，且优先从正文中引用的「信息来源」原文链接获取。**
+
+例如：如果新闻是「SpaceX 向 SEC 提交 IPO 申请」，配图应该从 Bloomberg、Reuters 等引用的原文报道中获取相关图片（如 SpaceX 公司总部、马斯克、SEC 相关等），**而不是**随便找一张 SpaceX 火箭发射的照片凑数。如果是发射新闻，则配图应该是该次发射的实拍照片。
+
 ### 图片来源优先级
 
-1. **NASA 官网 / NASA Image Library**（公共领域，可自由使用）— 最优先
-2. **ESA 官网**（通常允许注明出处后使用）
-3. **各国航天机构官方发布的新闻稿配图**（CNSA、JAXA、KASA 等，通常允许注明出处后使用）
-4. **SpaceX 官方 Flickr / X 账号发布的图片**（通常允许媒体使用）
-5. **Rocket Lab、Blue Origin 等公司官方发布的图片**
-6. **主流航天媒体（Spaceflight Now、Space News 等）文章配图**（需判断版权）
+1. **正文中引用的原文链接中的配图**（最优先——确保图文一致）— 从「信息来源」中列出的第一个或最权威的原文 URL 获取
+2. **NASA 官网 / NASA Image Library**（公共领域，可自由使用）
+3. **ESA 官网**（通常允许注明出处后使用）
+4. **各国航天机构官方发布的新闻稿配图**（CNSA、JAXA、KASA 等，通常允许注明出处后使用）
+5. **SpaceX 官方 Flickr / X 账号发布的图片**（通常允许媒体使用）
+6. **Rocket Lab、Blue Origin 等公司官方发布的图片**
+7. **主流航天媒体（Spaceflight Now、Space News 等）文章配图**（需判断版权）
 
 ### 获取流程
 
-1. **打开原文页面**，用 `fetch` 或浏览器抓取页面内容
-2. **识别图片 URL**：从页面 HTML 中提取 `<img>` 或 `<picture>` 标签中的图片地址，优先选择宽度 ≥ 1000px 的高分辨率版本
+1. **打开正文中引用的原文链接**（即「信息来源」小节中列出的 URL），用 `fetch` 或浏览器抓取页面内容
+2. **从原文页面中识别主图**：提取 `<img>` 或 `<picture>` 标签中的图片地址，优先选择：文章顶部 hero 图、宽度 ≥ 1000px 的高分辨率版本、与新闻主题最相关的图片
 3. **下载图片**：用 `curl -L -o <本地路径> <图片URL>` 下载到 `figures/` 目录
+4. **如果原文没有高质量图片**，再按「图片来源优先级」列表依次寻找替代来源
 4. **压缩（可选）**：如果图片超过 500KB，用 `cwebp` 或 `convert`（ImageMagick）压缩为 WebP/JPEG
    ```bash
    # WebP 压缩（推荐）
@@ -267,15 +294,21 @@ image: ./figures/YYYY-MM-DD-slug/hero.jpg
 10. 撰写中英双语稿件（中国新闻先写中文再译英文；国际新闻先写英文再译中文），遵循上方 frontmatter 模板和正文结构
 11. `category` 必须从「新闻分类」预定义列表选择；`layout` 固定 `SpaceNewsArticle`；英文稿 slug 与中文一致（无 `-en` 后缀），permalink 以 `/en/` 开头
 
-### 阶段三：索引与构建
+### 阶段三：索引与构建（⚠️ 关键步骤，不可跳过）
+
+**这一步是将新稿件呈现到首页卡片上的必要操作。跳过此步骤 = 新稿件只存在于磁盘上，不会出现在航天动态首页。**
 
 12. 更新当月 `README.md` 索引（中文 `web/space-news/YYYY/MM/README.md` + 英文 `web/en/space-news/YYYY/MM/README.md`）；如需新建年/月目录，同步更新年索引
 13. 运行构建流程：`cd web && npm run docs:build`（该命令依次执行 `gen-sidebar.js` → `vuepress build` → `sync-figures.js`）
+    - **`gen-sidebar.js`**：扫描所有 md 文件的 frontmatter，生成 `space-news-articles.json`——这是首页 `SpaceNewsHome.vue` 读取新闻列表的数据源。**不运行此脚本，新稿件不会出现在首页卡片中。**
+    - **`vuepress build`**：构建静态站点
+    - **`sync-figures.js`**：将 `figures/` 目录中的图片复制到 `dist/`，确保首页卡片图片可加载
+14. **验证**：确认 `space-news-articles.json` 中包含了本次新增的稿件条目（检查 `title` 和 `image` 字段是否正确）
 
 ### 阶段四：汇报
 
-14. 汇报本次更新结果：新增 N 条中文 / M 条英文稿件，并列出各稿件标题
-15. 如该周期内无值得报道的新闻，简短说明即可，不必硬凑
+15. 汇报本次更新结果：新增 N 条中文 / M 条英文稿件，并列出各稿件标题
+16. 如该周期内无值得报道的新闻，简短说明即可，不必硬凑
 
 ## 中英文平衡策略（必须遵守）
 

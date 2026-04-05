@@ -8,7 +8,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -19,7 +21,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -30,7 +34,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": null
     },
     {
@@ -41,7 +47,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -52,7 +60,9 @@
       "date": "2025-03-27",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -63,7 +73,9 @@
       "date": "2026-01-30",
       "lastUpdated": "2026-01-30",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": "/space-news/2026/01/figures/2026-01-blue-origin-pauses-tourism/hero.jpg"
     },
     {
@@ -74,7 +86,9 @@
       "date": "2026-02-13",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -85,7 +99,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -96,7 +112,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -107,7 +125,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -118,7 +138,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -129,7 +151,9 @@
       "date": "2026-03-15",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -140,7 +164,9 @@
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -151,7 +177,9 @@
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -162,7 +190,9 @@
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -173,7 +203,9 @@
       "date": "2026-03-17",
       "lastUpdated": "2026-03-17",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -184,7 +216,9 @@
       "date": "2026-03-18",
       "lastUpdated": "2026-03-18",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -195,7 +229,9 @@
       "date": "2026-03-19",
       "lastUpdated": "2026-03-19",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -206,7 +242,9 @@
       "date": "2026-03-19",
       "lastUpdated": "2026-03-19",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -217,7 +255,9 @@
       "date": "2026-03-20",
       "lastUpdated": "2026-03-20",
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-20-rocket-lab-strix/hero.jpg"
     },
     {
@@ -228,7 +268,9 @@
       "date": "2026-03-20",
       "lastUpdated": "2026-03-20",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -239,7 +281,9 @@
       "date": "2026-03-22",
       "lastUpdated": "2026-03-22",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -250,7 +294,9 @@
       "date": "2026-03-24",
       "lastUpdated": "2026-03-24",
       "author": "天疆说",
-      "category": "policy",
+      "category": [
+        "policy"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-24-nasa-moon-base-plan/hero.jpg"
     },
     {
@@ -261,7 +307,9 @@
       "date": "2026-03-24",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -272,7 +320,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "SpacePolicyOnline",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -283,7 +333,9 @@
       "date": "2026-03-26",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-26-china-siwei-gaojing-2-05-06/hero.jpg"
     },
     {
@@ -294,7 +346,9 @@
       "date": "2026-03-26",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -305,7 +359,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "Monika Luabeya",
-      "category": "nasa",
+      "category": [
+        "nasa"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-27-artemis-2-crew-suits-zh/hero.jpg"
     },
     {
@@ -316,7 +372,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -327,7 +385,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "CNSA / ESA",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -338,7 +398,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-27-china-esa-smile-satellite/hero.jpg"
     },
     {
@@ -349,7 +411,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "CNSA",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -360,7 +424,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-27-china-shiyan-33/hero.jpg"
     },
     {
@@ -371,7 +437,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -382,7 +450,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-27-esa-celeste-rocket-lab-launch-preview/hero.jpg"
     },
     {
@@ -393,7 +463,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "Keith Cooper",
-      "category": "nasa",
+      "category": [
+        "nasa"
+      ],
       "image": null
     },
     {
@@ -404,7 +476,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "Keith Cooper",
-      "category": "nasa",
+      "category": [
+        "nasa"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-27-nasa-nuclear-spacecraft-zh/hero.jpg"
     },
     {
@@ -415,7 +489,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "SpacePolicyOnline",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -426,7 +502,9 @@
       "date": "2026-03-28",
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -437,7 +515,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "ESA",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": null
     },
     {
@@ -448,7 +528,9 @@
       "date": "2026-03-28",
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-28-celeste-rocket-lab-launch-zh/hero.jpg"
     },
     {
@@ -459,7 +541,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "SpacePolicyOnline",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -470,7 +554,9 @@
       "date": "2026-03-28",
       "lastUpdated": "2026-03-28",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -481,7 +567,9 @@
       "date": "2026-03-29",
       "lastUpdated": "2026-03-29",
       "author": "SpacePolicyOnline",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -492,7 +580,9 @@
       "date": "2026-03-29",
       "lastUpdated": "2026-03-29",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -503,7 +593,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -514,7 +606,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -525,7 +619,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-30-lift-2-maiden-flight/hero.jpg"
     },
     {
@@ -536,7 +632,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -547,7 +645,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-30-spacex-transporter-16/hero.jpg"
     },
     {
@@ -558,7 +658,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -569,7 +671,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-30-spacex-v3-starship-static-fire/hero.jpg"
     },
     {
@@ -580,7 +684,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -591,7 +697,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -602,7 +710,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -613,7 +723,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -624,7 +736,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -635,7 +749,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": "/space-news/2026/03/figures/2026-03-31-iss-expedition-74-week/hero.jpg"
     },
     {
@@ -646,7 +762,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "commercial-space",
+      "category": [
+        "commercial-space"
+      ],
       "image": null
     },
     {
@@ -657,7 +775,9 @@
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
       "author": "天疆说",
-      "category": "commercial-space",
+      "category": [
+        "commercial-space"
+      ],
       "image": null
     },
     {
@@ -668,7 +788,9 @@
       "date": "2026-04-01",
       "lastUpdated": "2026-04-02",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-01-artemis-2-launch/hero.jpg"
     },
     {
@@ -679,7 +801,9 @@
       "date": "2026-04-02",
       "lastUpdated": "2026-04-03",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
     },
     {
@@ -690,8 +814,24 @@
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "launch",
+      "category": [
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-03-spacex-ipo-sec-filing.md",
+      "path": "/space-news/2026/04/2026-04-03-spacex-ipo-sec-filing/",
+      "title": "SpaceX 向 SEC 提交 IPO 申请，有望创下史上最大规模上市纪录",
+      "description": "马斯克旗下 SpaceX 已向美国证券交易委员会保密提交 IPO 注册文件，目标估值超过 1.75 万亿美元，融资规模最高可达 500 亿美元，有望超越沙特阿美成为史上最大 IPO。",
+      "date": "2026-04-03",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "spacex",
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-03-spacex-ipo-sec-filing/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-03-tianlong-3-maiden-flight.md",
@@ -701,7 +841,9 @@
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -712,7 +854,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-04-artemis-2-flight-day-3/hero.jpg"
     },
     {
@@ -723,7 +867,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg"
     },
     {
@@ -734,7 +880,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-04-ng-crs24-preview/hero.jpg"
     },
     {
@@ -745,7 +893,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-04-shenzhou-21-eva/hero.jpg"
     },
     {
@@ -756,7 +906,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "science",
+      "category": [
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-04-smile-launch-prep/hero.jpg"
     },
     {
@@ -767,7 +919,9 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.jpg"
     },
     {
@@ -778,7 +932,9 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "science",
+      "category": [
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg"
     },
     {
@@ -789,8 +945,38 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "science",
+      "category": [
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-05-ce5-soil-thermal/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-05-saudi-shams-satellite.md",
+      "path": "/space-news/2026/04/2026-04-05-saudi-shams-satellite/",
+      "title": "沙特\"沙姆斯\"卫星随 Artemis II 升空，开启首次国家级空间天气监测任务",
+      "description": "沙特航天局宣布自主研制的\"沙姆斯\"卫星已随 Artemis II 发射升空并建立通信，将在高椭圆轨道监测太阳活动与空间辐射。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "artemis",
+        "science"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-05-starship-v3-delay.md",
+      "path": "/space-news/2026/04/2026-04-05-starship-v3-delay/",
+      "title": "SpaceX 星舰 V3 首飞再推迟至五月，已是第三次延期",
+      "description": "马斯克宣布星舰 V3 首飞推迟 4-6 周，从四月延至五月初，这已是第三次延期。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "spacex",
+        "commercial"
+      ],
+      "image": null
     },
     {
       "relativePath": "space-news/archive.md",
@@ -813,7 +999,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -824,7 +1012,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -835,7 +1025,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": null
     },
     {
@@ -846,7 +1038,9 @@
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -857,7 +1051,9 @@
       "date": "2025-03-27",
       "lastUpdated": "2025-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -868,7 +1064,9 @@
       "date": "2026-01-30",
       "lastUpdated": "2026-01-30",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": "/en/space-news/2026/01/figures/2026-01-blue-origin-pauses-tourism/hero.jpg"
     },
     {
@@ -879,7 +1077,9 @@
       "date": "2026-02-13",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -890,7 +1090,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -901,7 +1103,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -912,7 +1116,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -923,7 +1129,9 @@
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -934,7 +1142,9 @@
       "date": "2026-03-15",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -945,7 +1155,9 @@
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -956,7 +1168,9 @@
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": null
     },
     {
@@ -967,7 +1181,9 @@
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -978,7 +1194,9 @@
       "date": "2026-03-17",
       "lastUpdated": "2026-03-17",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -989,7 +1207,9 @@
       "date": "2026-03-18",
       "lastUpdated": "2026-03-18",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -1000,7 +1220,9 @@
       "date": "2026-03-19",
       "lastUpdated": "2026-03-19",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -1011,7 +1233,9 @@
       "date": "2026-03-19",
       "lastUpdated": "2026-03-19",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -1022,7 +1246,9 @@
       "date": "2026-03-20",
       "lastUpdated": "2026-03-20",
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-20-rocket-lab-strix/hero.jpg"
     },
     {
@@ -1033,7 +1259,9 @@
       "date": "2026-03-20",
       "lastUpdated": "2026-03-20",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -1044,7 +1272,9 @@
       "date": "2026-03-22",
       "lastUpdated": "2026-03-22",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -1055,7 +1285,9 @@
       "date": "2026-03-24",
       "lastUpdated": "2026-03-24",
       "author": "天疆说",
-      "category": "policy",
+      "category": [
+        "policy"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-24-nasa-moon-base-plan/hero.jpg"
     },
     {
@@ -1066,7 +1298,9 @@
       "date": "2026-03-24",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": null
     },
     {
@@ -1077,7 +1311,9 @@
       "date": "2026-03-26",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-26-china-siwei-gaojing-2-05-06/hero.jpg"
     },
     {
@@ -1088,7 +1324,9 @@
       "date": "2026-03-26",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": null
     },
     {
@@ -1099,7 +1337,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "Monika Luabeya",
-      "category": "nasa",
+      "category": [
+        "nasa"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-27-artemis-2-crew-suits-en/hero.jpg"
     },
     {
@@ -1110,7 +1350,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -1121,7 +1363,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-27-china-esa-smile-satellite-en/hero.jpg"
     },
     {
@@ -1132,7 +1376,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-27-china-shiyan-33-en/hero.jpg"
     },
     {
@@ -1143,7 +1389,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -1154,7 +1402,9 @@
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-27-esa-celeste-rocket-lab-launch-preview-en/hero.jpg"
     },
     {
@@ -1165,7 +1415,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "Keith Cooper",
-      "category": "nasa",
+      "category": [
+        "nasa"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-27-nasa-nuclear-spacecraft-en/hero.jpg"
     },
     {
@@ -1176,7 +1428,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "天疆说",
-      "category": "esa",
+      "category": [
+        "esa"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-28-celeste-rocket-lab-launch-en/hero.jpg"
     },
     {
@@ -1187,7 +1441,9 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-30-lift-2-maiden-flight/hero.jpg"
     },
     {
@@ -1198,7 +1454,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-30-spacex-transporter-16-en/hero.jpg"
     },
     {
@@ -1209,7 +1467,9 @@
       "date": null,
       "lastUpdated": null,
       "author": "天疆说",
-      "category": "spacex",
+      "category": [
+        "spacex"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-30-spacex-v3-starship-static-fire-en/hero.jpg"
     },
     {
@@ -1220,7 +1480,9 @@
       "date": "2026-04-01",
       "lastUpdated": "2026-04-02",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-01-artemis-2-launch/hero.jpg"
     },
     {
@@ -1231,7 +1493,9 @@
       "date": "2026-04-02",
       "lastUpdated": "2026-04-03",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
     },
     {
@@ -1242,8 +1506,24 @@
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "launch",
+      "category": [
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-03-spacex-ipo-sec-filing.md",
+      "path": "/en/space-news/2026/04/2026-04-03-spacex-ipo-sec-filing/",
+      "title": "SpaceX Files Confidential IPO Registration with SEC, Targeting Record-Breaking Public Offering",
+      "description": "SpaceX has confidentially filed for an IPO with the SEC, aiming for a valuation exceeding $1.75 trillion and potentially raising up to $50 billion — which would surpass Saudi Aramco as the largest IPO in history.",
+      "date": "2026-04-03",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "spacex",
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-03-spacex-ipo-sec-filing/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-03-tianlong-3-maiden-flight.md",
@@ -1253,7 +1533,9 @@
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -1264,7 +1546,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-04-artemis-2-flight-day-3/hero.jpg"
     },
     {
@@ -1275,7 +1559,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "commercial",
+      "category": [
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg"
     },
     {
@@ -1286,7 +1572,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "iss",
+      "category": [
+        "iss"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-04-ng-crs24-preview/hero.jpg"
     },
     {
@@ -1297,7 +1585,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "china",
+      "category": [
+        "china"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-04-shenzhou-21-eva/hero.jpg"
     },
     {
@@ -1308,7 +1598,9 @@
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
       "author": "天疆说",
-      "category": "science",
+      "category": [
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-04-smile-launch-prep/hero.jpg"
     },
     {
@@ -1319,7 +1611,9 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "artemis",
+      "category": [
+        "artemis"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.jpg"
     },
     {
@@ -1330,7 +1624,9 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "science",
+      "category": [
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg"
     },
     {
@@ -1341,8 +1637,38 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": "science",
+      "category": [
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-05-ce5-soil-thermal/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-05-saudi-shams-satellite.md",
+      "path": "/en/space-news/2026/04/2026-04-05-saudi-shams-satellite/",
+      "title": "Saudi Arabia's 'Shams' Satellite Launches Aboard Artemis II on First National Space Weather Mission",
+      "description": "The Saudi-developed Shams satellite has established initial communication after launching on Artemis II, marking the kingdom's first national-level space weather monitoring mission.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "artemis",
+        "science"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-05-starship-v3-delay.md",
+      "path": "/en/space-news/2026/04/2026-04-05-starship-v3-delay/",
+      "title": "SpaceX Starship V3 First Flight Delayed to May — Third Consecutive Postponement",
+      "description": "Elon Musk announced Starship V3's maiden flight is delayed another 4-6 weeks, pushing from April to early May in the third delay this year.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "spacex",
+        "commercial"
+      ],
+      "image": null
     },
     {
       "relativePath": "en/space-news/archive.md",
