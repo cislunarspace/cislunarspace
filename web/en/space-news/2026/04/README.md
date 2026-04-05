@@ -18,6 +18,7 @@ lastUpdated: 2026-04-05
 | Apr 2 | [Artemis II Flight Day 2: TLI Burn Complete, Orion En Route to the Moon](./2026-04-02-artemis-2-tli-complete/) |
 | Apr 3 | [Tianlong-3 Maiden Flight Fails: China's Falcon 9-Class Commercial Rocket Loses Control After Liftoff](./2026-04-03-tianlong-3-maiden-flight/) |
 | Apr 3 | [Soyuz-5 (Irtysh) Medium-Launch Vehicle Flight Test from Baikonur](./2026-04-03-soyuz-5-maiden-flight/) |
+| Apr 3 | [SpaceX Files Confidential IPO Registration with SEC, Targeting Record-Breaking Public Offering](./2026-04-03-spacex-ipo-sec-filing/) |
 | Apr 4 | [Artemis II Flight Day 3: Trajectory Correction Cancelled, Spacecraft on Precise Path to the Moon](./2026-04-04-artemis-2-flight-day-3/) |
 | Apr 4 | [Northrop Grumman CRS-24 Resupply Mission Targeting April 8 Launch to ISS](./2026-04-04-ng-crs24-preview/) |
 | Apr 4 | [Atlas V Launches 29 Amazon Leo Satellites on LA-05 Mission](./2026-04-04-atlas-v-amazon-leo-la05/) |
@@ -25,6 +26,8 @@ lastUpdated: 2026-04-05
 | Apr 5 | [Artemis II Flight Day 4: Deep-Space Flying, Lunar Flyby Prep as Glover Takes Manual Control](./2026-04-05-artemis-2-flight-day-4/) |
 | Apr 5 | [Chang'e-4 Data Reveals 'Cosmic Ray Cavity' in Cislunar Space](./2026-04-05-ce4-cosmic-ray-cavity/) |
 | Apr 5 | [China Achieves First Precise Thermal Conductivity Measurement of Single Lunar Soil Particles](./2026-04-05-ce5-soil-thermal/) |
+| Apr 5 | [Saudi Arabia's 'Shams' Satellite Launches Aboard Artemis II on First National Space Weather Mission](./2026-04-05-saudi-shams-satellite/) |
+| Apr 5 | [SpaceX Starship V3 First Flight Delayed to May — Third Consecutive Postponement](./2026-04-05-starship-v3-delay/) |
 | Apr 4 | [Shenzhou-21 Crew Completes Second EVA, Approaching 150-Day On-Orbit Milestone](./2026-04-04-shenzhou-21-eva/) |
 
 ---

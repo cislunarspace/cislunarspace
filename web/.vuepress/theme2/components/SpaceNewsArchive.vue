@@ -93,7 +93,7 @@ interface ArticleItem {
   date: string | null
   lastUpdated: string | null
   author: string | null
-  category: string | null
+  category: string[] | null
   image: string | null
   relativePath: string
 }
@@ -114,7 +114,10 @@ const categoryMeta: Record<string, { zh: string; en: string; color: string }> = 
 const articles = computed<ArticleItem[]>(() => {
   const list: any[] = isEn.value ? (articlesData as any).en : (articlesData as any).zh
   return [...list]
-    .map(a => ({ ...a }))
+    .map(a => ({
+      ...a,
+      category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
+    }))
     .sort((a, b) => {
       const da = a.date ? new Date(a.date).getTime() : 0
       const db = b.date ? new Date(b.date).getTime() : 0
@@ -151,7 +154,7 @@ const filteredGroups = computed(() => {
   return groups.value
     .map(g => ({
       ...g,
-      items: g.items.filter(a => a.category === activeFilter.value),
+      items: g.items.filter(a => a.category?.includes(activeFilter.value!)),
     }))
     .filter(g => g.items.length > 0)
 })
@@ -159,7 +162,7 @@ const filteredGroups = computed(() => {
 const usedCategories = computed(() => {
   const cats = new Set<string>()
   for (const a of articles.value) {
-    if (a.category) cats.add(a.category)
+    if (a.category) for (const c of a.category) cats.add(c)
   }
   const result: { key: string; label: string; color: string }[] = []
   for (const cat of cats) {
@@ -170,18 +173,24 @@ const usedCategories = computed(() => {
   return result
 })
 
-function catLabel(cat: string | null) {
+function primaryCat(cats: string[] | null) {
+  return (cats && cats.length) ? cats[0] : null
+}
+
+function catLabel(cats: string[] | null) {
+  const cat = primaryCat(cats)
   if (!cat) return ''
   return (categoryMeta[cat] || {})[isEn.value ? 'en' : 'zh'] || cat
 }
 
-function catColor(cat: string | null) {
+function catColor(cats: string[] | null) {
+  const cat = primaryCat(cats)
   if (!cat) return '#64748b'
   return (categoryMeta[cat] || {}).color || '#64748b'
 }
 
-function catStyle(cat: string | null) {
-  return { background: catColor(cat), color: '#fff' }
+function catStyle(cats: string[] | null) {
+  return { background: catColor(cats), color: '#fff' }
 }
 
 function cardBg(item: ArticleItem) {

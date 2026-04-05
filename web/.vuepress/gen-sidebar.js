@@ -95,6 +95,9 @@ function parseFrontmatter(content) {
     }
     if (val === 'true') val = true
     else if (val === 'false') val = false
+    else if (val.startsWith('[') && val.endsWith(']')) {
+      val = val.slice(1, -1).split(',').map(s => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean)
+    }
     fm[key] = val
   }
   return fm
@@ -122,6 +125,11 @@ function collectArticles(baseDir, urlPrefix) {
           imageUrl = mdDir + imageUrl.slice(2)
         }
 
+        const rawCategory = fm.category || null
+        const categories = Array.isArray(rawCategory)
+          ? rawCategory
+          : rawCategory ? [rawCategory] : []
+
         articles.push({
           relativePath,
           path: pagePath,
@@ -130,7 +138,7 @@ function collectArticles(baseDir, urlPrefix) {
           date: fm.date || null,
           lastUpdated: fm.lastUpdated || null,
           author: fm.author || null,
-          category: fm.category || null,
+          category: categories.length ? categories : null,
           image: imageUrl,
         })
       }
