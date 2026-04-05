@@ -1,5 +1,5 @@
 ---
-title: 蓝军研究 | 美军作战条令体系研究
+title: 美军作战条令体系研究
 description: 美军作战条令体系的概述、内容、特点及局限。
 permalink: /blue-team-research/doctrine-strategy/us-doctrine-system
 author: 天疆说

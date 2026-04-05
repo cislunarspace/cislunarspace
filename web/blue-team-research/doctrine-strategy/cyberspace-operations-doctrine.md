@@ -1,5 +1,5 @@
 ---
-title: 蓝军研究 · 美军《网络空间作战联合条令》研究
+title: 美军《网络空间作战联合条令》研究
 description: 美军网络空间作战联合条令的总体情况、内容、特点及局限。
 permalink: /blue-team-research/doctrine-strategy/cyberspace-operations-doctrine
 author: 天疆说

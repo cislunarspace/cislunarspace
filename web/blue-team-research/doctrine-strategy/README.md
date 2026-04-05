@@ -1,5 +1,5 @@
 ---
-title: 蓝军研究 | 作战条令研究
+title: 作战条令研究
 description: 公开战略、条令与政策文献之整理与索引。
 permalink: /blue-team-research/doctrine-strategy/
 author: 天疆说
