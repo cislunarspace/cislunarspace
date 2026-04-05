@@ -255,3 +255,101 @@ image: ./figures/YYYY-MM-DD-slug/hero.jpg
 3. Starlink 等高频常规发射可合并为「本周 Starlink 发射汇总」而非逐条报道
 4. 如该周期内无值得报道的新闻，简短记录即可，不必硬凑
 5. 每次更新完毕后汇报：新增 N 条中文 / M 条英文稿件
+
+## 中英文平衡策略（必须遵守）
+
+**每次更新时，中英文新闻数量应大致相当。** 当前网站定位面向中文用户为主，中国航天新闻是核心内容，不应被国际新闻淹没。
+
+### 平衡规则
+
+1. **中国航天新闻优先搜索**：每次更新时，先搜索中国航天新闻（中文关键词），再搜索国际新闻
+2. **最低比例**：每次更新中，中国航天相关新闻（category 为 `china`、`iss` 中天宫相关）占比不应低于 30%
+3. **对等原则**：如果有 3 条国际新闻，至少应有 2 条中国航天新闻
+4. **中文原创，英文翻译**：所有新闻必须中英文双语发布，但中国航天新闻应先写中文版，再翻译英文版；国际新闻先写英文版，再翻译中文版
+
+### 具体执行方法
+
+搜索新闻时按以下顺序执行：
+
+1. 第一轮搜索：中国航天新闻（中文关键词：神舟、天宫、长征、嫦娥、天问、北斗、商业航天等）
+2. 第二轮搜索：国际重大新闻（英文关键词：Artemis、SpaceX、Starship、ESA 等）
+3. 第三轮搜索：其他值得报道的新闻
+4. 统计中国 vs 国际新闻比例，如中国新闻不足，回到第一轮补充
+
+## 航天新闻发布渠道全面指南
+
+### 中国航天新闻源
+
+| 来源 | 网址 | 内容 | 图片获取方式 |
+|------|------|------|-------------|
+| **国家航天局（CNSA）** | `https://www.cnsa.gov.cn/n6758823/n6758838/` | 要闻动态、政策公告 | HTML 中 `<img src="../../../n6758823/.../part/{id}.jpg">` → 拼接为 `https://www.cnsa.gov.cn/n6758823/.../part/{id}.jpg`，可直接 `curl -L` 下载 |
+| **中国载人航天工程办公室（CMSA）** | `http://www.cmse.gov.cn/` | 载人航天任务官方信息、航天员动态 | 页面图片可直接下载，URL 格式类似 CMSA 静态资源路径 |
+| **我们的太空（新媒体平台）** | 微信公众号、新华网合作 | 航天员在轨动态、科普 | CNSA 网站转载的文章底部标注"来源：我们的太空"，图片在 CNSA 页面中可获取 |
+| **中国航天科技集团（CASC）** | `http://www.spacechina.com/` | 长征火箭、卫星、重大工程 | 新闻页面有配图，可直接下载 |
+| **中国航天科工集团（CASIC）** | `http://www.casic.com.cn/` | 防务、快舟火箭等 | 新闻页面有配图 |
+| **新华社 / 央视网** | `https://www.news.cn/` `https://news.cctv.com/` | 权威中文新闻报道 | 新华社图片需注意版权，优先从 CNSA 获取同一事件的官方配图 |
+| **中国探月与深空探测网** | `http://www.clep.org.cn/` | 嫦娥、天问等深空探测任务 | 任务图片和科学数据 |
+| **北斗网** | `http://m.beidou.gov.cn/` | 北斗导航系统动态 | 新闻配图 |
+| **高分专项** | `https://www.cpeos.org.cn/` | 高分辨率对地观测 | 卫星图像、工程进展 |
+
+### 中国商业航天公司新闻源
+
+| 公司 | 主要火箭 | 新闻渠道 | 图片获取 |
+|------|---------|---------|---------|
+| **天兵科技（Space Pioneer）** | 天龙系列 | 微信公众号、微博 | 官方发布的高清图片通常可截图/保存 |
+| **蓝箭航天（LandSpace）** | 朱雀系列 | 微信公众号、官网 `https://www.landspace.com/` | 官网有高清配图 |
+| **星际荣耀（iSpace）** | 双曲线系列 | 微信公众号、微博 | 官方社交媒体发布 |
+| **星河动力（Galactic Energy）** | 谷神星系列 | 微信公众号 | 官方发布 |
+| **东方空间（Orienspace）** | 引力系列 | 微信公众号 | 官方发布 |
+| **中科宇航（CAS Space）** | 力箭系列 | 微信公众号 | 官方发布 |
+| **天兵科技/箭元科技等** | 各类 | 微信公众号、微博 | 通常发布在社交媒体 |
+
+**注意**：中国商业航天公司的新闻主要通过**微信公众号和微博**发布，官网更新频率较低。获取图片的方式：
+- 优先从公司官网获取（如有）
+- 微信公众号文章中的图片可以通过浏览器打开文章后下载
+- 微博图片 URL 格式通常为 `https://wx*.sinaimg.cn/large/{id}.jpg`，可直接 curl 下载
+- 如果无法下载，在正文中使用外链指向原始发布页面
+
+### 国际航天新闻源
+
+| 来源 | 网址 | 内容 | 图片获取方式 |
+|------|------|------|-------------|
+| **NASA 官网** | `https://www.nasa.gov/blogs/missions/` | 任务博客（Artemis、ISS 等） | `og:image` meta 标签中有高清图片 URL，通常在 `https://www.nasa.gov/wp-content/uploads/` 下，可直接 `curl -L` 下载；**公共领域，可自由使用** |
+| **NASA Image and Video Library** | `https://images.nasa.gov/` | NASA 历史图片库 | API：`https://images-api.nasa.gov/search?q=...`，返回 JSON 含图片 URL |
+| **ESA 官网** | `https://www.esa.int/` | 欧洲航天局新闻 | 图片 URL 在 `https://www.esa.int/var/esa/storage/images/` 下，可下载；注明出处即可 |
+| **SpaceX** | `https://www.flickr.com/photos/spacex/` `https://x.com/SpaceX` | 发射照片、任务更新 | Flickr 图片可直接下载（多尺寸可选）；X 上的图片 URL 格式 `https://pbs.twimg.com/media/{id}.jpg` |
+| **Rocket Lab** | `https://www.rocketlabusa.com/updates/` | Electron 发射、Photon 任务 | 官网 Update 页面有高清配图 |
+| **Blue Origin** | `https://www.blueorigin.com/news` | New Shepard/New Glenn 发射 | 新闻页面有配图 |
+| **ULA** | `https://www.ulalaunch.com/missions` | Atlas V、Vulcan 发射 | 任务页面有高清配图 |
+| **Arianespace** | `https://www.arianespace.com/mission-updates/` | Ariane、Vega 发射 | 任务更新页面有配图 |
+| **Spaceflight Now** | `https://spaceflightnow.com/` | 全球发射综合报道 | 文章配图需判断版权；优先从原始机构获取 |
+| **Space News** | `https://spacenews.com/` | 航天产业新闻 | 文章配图需判断版权 |
+| **NASASpaceflight.com** | `https://www.nasaspaceflight.com/` | 深度技术报道 | 论坛和文章配图 |
+| **JAXA** | `https://www.jaxa.jp/` | 日本航天任务 | 新闻配图可下载，注明出处 |
+| **KASA（韩国）** | `https://www.kasa.kr/` | 韩国航天 | 新闻配图 |
+| **ISRO** | `https://www.isro.gov.in/` | 印度航天任务 | 新闻配图可下载 |
+
+### 各网站图片下载方法速查
+
+| 网站 | HTML 中图片特征 | 下载命令 | 注意事项 |
+|------|---------------|---------|---------|
+| **NASA Blogs** | `<meta property="og:image">` 或 `<img>` 在文章内 | `curl -L -o hero.png "$URL"` | 公共领域，最自由 |
+| **CNSA** | `<img src="../../../n6758823/.../part/{id}.jpg">` | 拼接 `https://www.cnsa.gov.cn` + 相对路径，然后 `curl -L` | 注明"我们的太空 / 国家航天局" |
+| **ESA** | `<picture><source>` 或 `<img>` | 直接 `curl -L` | 注明 `Credit: ESA` |
+| **SpaceX Flickr** | `https://live.staticflickr.com/.../{id}_o.jpg`（原图） | `curl -L -o hero.jpg "$URL"` | Flickr 标注可商用 |
+| **SpaceX X** | `https://pbs.twimg.com/media/{id}?format=jpg&name=large` | `curl -L -o hero.jpg "$URL"` | 需注明来源 |
+| **Rocket Lab** | `<img>` in `.update-card` | `curl -L` | 注明来源 |
+| **CMSA** | `<img>` 相对路径 | 拼接完整 URL 后 `curl -L` | 注明来源 |
+| **微信公众号** | `<img data-src="https://mmbiz.qpic.cn/...">` | 浏览器打开后 `curl -L`，需带 Referer | 微信图片防盗链，可能需要特殊处理 |
+| **微博** | `https://wx*.sinaimg.cn/large/{id}.jpg` | `curl -L` | 通常可直接下载 |
+
+### 中国航天关键事件日历（定期发生的可预期新闻）
+
+| 事件 | 大致频率 | 搜索关键词 |
+|------|---------|-----------|
+| 长征系列发射 | 每月 3-5 次 | "长征 发射"、"CZ-* 发射" |
+| 神舟/天宫任务更新 | 在轨期间每周 | "神舟"、"天宫"、"出舱" |
+| 嫦娥/天问任务更新 | 按任务阶段 | "嫦娥"、"天问" |
+| 商业火箭首飞/新火箭 | 不定期 | "天龙"、"朱雀"、"双曲线"、"谷神星"、"引力"、"力箭" |
+| 航天政策/规划发布 | 每季度 | "航天白皮书"、"航天计划"、"商业航天政策" |
+| 北斗系统更新 | 不定期 | "北斗" |

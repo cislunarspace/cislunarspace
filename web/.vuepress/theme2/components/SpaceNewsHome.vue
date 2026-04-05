@@ -9,21 +9,30 @@
     </header>
 
     <div class="sn-body">
-      <div v-if="featured" class="sn-featured">
-        <router-link :to="featured.path" class="sn-featured__link">
-          <div class="sn-featured__img" :style="cardBg(featured)">
-            <span class="sn-cat-tag" :style="catStyle(featured.category)">{{ catLabel(featured.category) }}</span>
+      <div v-if="featuredList.length" class="sn-featured">
+        <router-link :to="featuredList[currentFeatured].path" class="sn-featured__link" :key="featuredList[currentFeatured].path">
+          <div class="sn-featured__img" :style="cardBg(featuredList[currentFeatured])">
+            <span class="sn-cat-tag" :style="catStyle(featuredList[currentFeatured].category)">{{ catLabel(featuredList[currentFeatured].category) }}</span>
           </div>
           <div class="sn-featured__body">
-            <h2 class="sn-featured__headline">{{ featured.title }}</h2>
-            <p class="sn-featured__deck">{{ featured.description }}</p>
+            <h2 class="sn-featured__headline">{{ featuredList[currentFeatured].title }}</h2>
+            <p class="sn-featured__deck">{{ featuredList[currentFeatured].description }}</p>
             <div class="sn-meta">
-              <span v-if="featured.author" class="sn-meta__author">{{ featured.author }}</span>
-              <span class="sn-meta__dot" v-if="featured.author && featured.date">&middot;</span>
-              <time v-if="featured.date" class="sn-meta__date">{{ formatDate(featured.date) }}</time>
+              <span v-if="featuredList[currentFeatured].author" class="sn-meta__author">{{ featuredList[currentFeatured].author }}</span>
+              <span class="sn-meta__dot" v-if="featuredList[currentFeatured].author && featuredList[currentFeatured].date">&middot;</span>
+              <time v-if="featuredList[currentFeatured].date" class="sn-meta__date">{{ formatDate(featuredList[currentFeatured].date) }}</time>
             </div>
           </div>
         </router-link>
+        <div v-if="featuredList.length > 1" class="sn-featured__dots">
+          <button
+            v-for="(_, i) in featuredList"
+            :key="i"
+            class="sn-featured__dot"
+            :class="{ active: i === currentFeatured }"
+            @click="currentFeatured = i; startCarousel()"
+          ></button>
+        </div>
       </div>
 
       <section class="sn-section">
@@ -84,7 +93,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref, onMounted, onBeforeUnmount, watch } from 'vue'
 import { usePage } from 'vuepress/client'
 import Footer from './Footer.vue'
 import articlesData from '../../space-news-articles.json'
@@ -147,8 +156,50 @@ const articles = computed<ArticleItem[]>(() => {
   })
 })
 
-const featured = computed(() => articles.value[0] || null)
-const latestItems = computed(() => articles.value.slice(1, 7))
+const featuredList = computed<ArticleItem[]>(() => {
+  const now = new Date()
+  const twoDaysAgo = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000)
+  return articles.value.filter(a => {
+    if (!a.date) return false
+    return new Date(a.date) >= twoDaysAgo
+  })
+})
+
+const currentFeatured = ref(0)
+let carouselTimer: ReturnType<typeof setInterval> | null = null
+
+function startCarousel() {
+  stopCarousel()
+  if (featuredList.value.length <= 1) return
+  carouselTimer = setInterval(() => {
+    currentFeatured.value = (currentFeatured.value + 1) % featuredList.value.length
+  }, 5000)
+}
+
+function stopCarousel() {
+  if (carouselTimer) {
+    clearInterval(carouselTimer)
+    carouselTimer = null
+  }
+}
+
+watch(featuredList, () => {
+  currentFeatured.value = 0
+  startCarousel()
+})
+
+onMounted(() => {
+  startCarousel()
+})
+
+onBeforeUnmount(() => {
+  stopCarousel()
+})
+
+const latestItems = computed(() => {
+  const featuredPaths = new Set(featuredList.value.map(f => f.path))
+  return articles.value.filter(a => !featuredPaths.has(a.path)).slice(0, 6)
+})
 
 const categorySections = computed(() => {
   const catOrder = ['artemis', 'spacex', 'china', 'nasa', 'esa', 'iss', 'launch', 'commercial', 'policy', 'science']
@@ -250,6 +301,34 @@ function formatDate(raw: string | null) {
 .sn-featured {
   margin-top: -1.25rem;
   margin-bottom: 2rem;
+  position: relative;
+}
+
+.sn-featured__dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 0.75rem;
+}
+
+.sn-featured__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: #cbd5e1;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+
+  &.active {
+    background: #0284c7;
+    transform: scale(1.25);
+  }
+
+  &:hover:not(.active) {
+    background: #94a3b8;
+  }
 }
 
 .sn-featured__link {
