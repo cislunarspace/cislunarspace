@@ -117,14 +117,14 @@ const blueTeamResearchSidebar = [
     children: [
       '/blue-team-research/',
       {
-        text: '条令条例与战略文件',
+        text: '作战条令研究',
         link: '/blue-team-research/doctrine-strategy/',
         collapsible: true,
         children: [
           '/blue-team-research/doctrine-strategy/',
-          '/blue-team-research/doctrine-strategy/us-strategy-doctrine',
-          '/blue-team-research/doctrine-strategy/literature-index',
-          '/blue-team-research/doctrine-strategy/terminology',
+          '/blue-team-research/doctrine-strategy/us-doctrine-system',
+          '/blue-team-research/doctrine-strategy/joint-warfighting-doctrine',
+          '/blue-team-research/doctrine-strategy/cyberspace-operations-doctrine',
         ],
       },
       {
