@@ -197,8 +197,7 @@ onBeforeUnmount(() => {
 })
 
 const latestItems = computed(() => {
-  const featuredPaths = new Set(featuredList.value.map(f => f.path))
-  return articles.value.filter(a => !featuredPaths.has(a.path)).slice(0, 6)
+  return articles.value.slice(0, 6)
 })
 
 const categorySections = computed(() => {
