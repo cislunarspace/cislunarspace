@@ -44,6 +44,7 @@ lastUpdated: 2026-04-02
 | 3-28 | [ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启](./2026-03-28-celeste-rocket-lab-launch/) |
 | 3-29 | [Artemis II 发射前媒体活动日程公布](./2026-03-29-artemis-2-pre-launch-media-events/) |
 | 3-30 | [Artemis II 任务最终准备工作就绪](./2026-03-30-artemis-2-final-preparations/) |
+| 3-30 | [力箭二号首飞成功：中国首款 CBC 构型火箭入轨，商业航天进入大运力时代](./2026-03-30-lift-2-maiden-flight/) |
 | 3-30 | [SpaceX Transporter-16 拼车任务发射](./2026-03-30-spacex-transporter-16/) |
 | 3-30 | [SpaceX V3 Starship 完成静态点火测试](./2026-03-30-spacex-v3-starship-static-fire/) |
 | 3-31 | [Artemis II 发射倒计时正式启动](./2026-03-31-artemis-2-countdown-begins/) |

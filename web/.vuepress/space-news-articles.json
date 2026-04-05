@@ -518,6 +518,17 @@
       "image": null
     },
     {
+      "relativePath": "space-news/2026/03/2026-03-30-lift-2-maiden-flight.md",
+      "path": "/space-news/2026/03/2026-03-30-lift-2-maiden-flight/",
+      "title": "力箭二号首飞成功：中国首款 CBC 构型火箭入轨，商业航天进入大运力时代",
+      "description": "中科宇航力箭二号遥一火箭成功首飞，一箭三星入轨。采用通用助推器核心构型，起飞重量625吨，将支撑低轨星座组网与低成本货运。",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "commercial",
+      "image": "/space-news/2026/03/figures/2026-03-30-lift-2-maiden-flight/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/03/2026-03-30-spacex-transporter-16-en.md",
       "path": "/space-news/2026/03/2026-03-30-spacex-transporter-16/",
       "title": "SpaceX Set to Launch 119 Payloads on Transporter-16 Rideshare Mission From Vandenberg",
@@ -1167,6 +1178,17 @@
       "author": "天疆说",
       "category": "esa",
       "image": "/en/space-news/2026/03/figures/2026-03-28-celeste-rocket-lab-launch-en/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-30-lift-2-maiden-flight.md",
+      "path": "/en/space-news/2026/03/2026-03-30-lift-2-maiden-flight/",
+      "title": "Lift-2 Maiden Flight Success: China's First CBC-Configuration Rocket Reaches Orbit",
+      "description": "CAS Space's Lift-2 rocket completed its maiden flight on March 30, 2026, deploying three satellites. The 625-ton vehicle is China's first Common Booster Core configuration launch vehicle.",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "commercial",
+      "image": "/en/space-news/2026/03/figures/2026-03-30-lift-2-maiden-flight/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-30-spacex-transporter-16-en.md",

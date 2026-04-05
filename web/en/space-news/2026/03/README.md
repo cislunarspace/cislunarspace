@@ -36,6 +36,7 @@ lastUpdated: 2026-03-27
 | Mar 27 | [NASA Developing First Nuclear-Powered Interplanetary Spacecraft](./2026-03-27-nasa-nuclear-spacecraft/) |
 | Mar 27 | [ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron](./2026-03-27-esa-celeste-rocket-lab-launch-preview/) |
 | Mar 27 | [ESA Video: How Europe Will Power the Journey to the Moon and Back](./2026-03-27-esa-artemis-2-european-service-module/) |
+| Mar 30 | [Lift-2 Maiden Flight Success: China's First CBC-Configuration Rocket Reaches Orbit](./2026-03-30-lift-2-maiden-flight/) |
 
 ---
 
