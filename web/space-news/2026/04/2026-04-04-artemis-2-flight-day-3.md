@@ -16,6 +16,7 @@ tags: [Artemis II, NASA, 月球, Orion, SLS]
 **摘要：** Artemis II 任务已飞行过半程。任务控制中心取消原计划的首轮出站轨道修正点火，飞船轨迹精确。NASA 宇航员 Christina Koch 报告已从 Orion 对接舱口看到月球——"我们所有人都不约而同地发出了惊叹……现在能从对接舱口看到月球，美极了。" 四人乘组正在为 4 月 6 日（美东时间）的月球飞越做准备，进行了舱内整理、医疗应急演练和深空应急通信测试。
 
 ![Artemis II 任务期间 Orion 飞船拍摄的画面](./figures/2026-04-04-artemis-2-flight-day-3/hero.jpg)
+
 *Credit: NASA*
 
 ## 任务进展

@@ -16,6 +16,7 @@ tags: [Atlas V, ULA, Amazon Leo, 柯伊伯, 商业航天, 卫星互联网]
 **摘要：** 联合发射联盟（ULA）Atlas V 551 火箭于美国东部时间 4 月 4 日凌晨 1:46 从卡纳维拉尔角天军站 SLC-41 工位升空，成功执行 Amazon Leo LA-05 任务，将 29 颗 Amazon Leo（前 Project Kuiper）宽带互联网卫星送入低地球轨道。这是 Amazon Leo 星座第五批发射，标志着亚马逊卫星互联网计划正在加速推进。
 
 ![Atlas V 551 火箭](./figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg)
+
 *Credit: ULA*
 
 ## 任务概况
