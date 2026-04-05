@@ -16,6 +16,7 @@ tags: [ISS, CRS-24, Northrop Grumman, SpaceX, Falcon 9, Cygnus]
 **摘要：** NASA 宣布，Northrop Grumman 第 24 次商业补给服务任务（CRS-24）计划不早于美东时间 4 月 8 日（星期三）上午 8:49 从卡纳维拉尔角 SLC-40 发射。Cygnus XL 飞船将由 SpaceX Falcon 9 火箭送入轨道，携带约 11000 磅（约 4990 公斤）科研设备与补给物资前往国际空间站。
 
 ![Cygnus 飞船接近国际空间站](./figures/2026-04-04-ng-crs24-preview/hero.jpg)
+
 *Credit: NASA*
 
 ## 任务概况
