@@ -28,6 +28,7 @@ lastUpdated: 2026-04-05
 | Apr 5 | [China Achieves First Precise Thermal Conductivity Measurement of Single Lunar Soil Particles](./2026-04-05-ce5-soil-thermal/) |
 | Apr 5 | [Saudi Arabia's 'Shams' Satellite Launches Aboard Artemis II on First National Space Weather Mission](./2026-04-05-saudi-shams-satellite/) |
 | Apr 5 | [SpaceX Starship V3 First Flight Delayed to May — Third Consecutive Postponement](./2026-04-05-starship-v3-delay/) |
+| Apr 5 | [Artemis II Orion Spacecraft Toilet Malfunction: Frozen Waste Line and Burning Smell En Route to Moon](./2026-04-05-artemis-2-orion-toilet-issue/) |
 | Apr 4 | [Shenzhou-21 Crew Completes Second EVA, Approaching 150-Day On-Orbit Milestone](./2026-04-04-shenzhou-21-eva/) |
 
 ---
