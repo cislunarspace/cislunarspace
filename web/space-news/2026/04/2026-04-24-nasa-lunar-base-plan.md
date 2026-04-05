@@ -1,7 +1,7 @@
 ---
 layout: SpaceNewsArticle
-title: "NASA暂停"月球门户"空间站计划，转向建设月球表面基地"
-description: "NASA宣布暂停原定的"月球门户"(Lunar Gateway)空间站计划，投入200亿美元在7年内分阶段建设月球南极附近永久表面基地，战略从"在月球轨道上修桥铺路"转变为"直接在月面建设基地"。"
+title: "NASA暂停「月球门户」空间站计划，转向建设月球表面基地"
+description: "NASA宣布暂停原定的「月球门户」(Lunar Gateway)空间站计划，投入200亿美元在7年内分阶段建设月球南极附近永久表面基地，战略从「在月球轨道上修桥铺路」转变为「直接在月面建设基地」。"
 permalink: /space-news/2026/04/2026-04-24-nasa-lunar-base-plan/
 author: 天疆说
 date: 2026-03-24
