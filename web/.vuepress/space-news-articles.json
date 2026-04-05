@@ -685,10 +685,10 @@
     {
       "relativePath": "space-news/2026/04/2026-04-03-soyuz-5-maiden-flight.md",
       "path": "/space-news/2026/04/2026-04-03-soyuz-5-maiden-flight/",
-      "title": "联盟-5（额尔齐斯）运载火箭首飞：俄罗斯新一代中型火箭从拜科努尔升空",
-      "description": "俄罗斯与哈萨克斯坦联合研制的新一代中型运载火箭联盟-5（额尔齐斯）于 4 月 3 日在拜科努尔航天发射场完成首次飞行测试，标志着俄罗斯火箭谱系更新迈出关键一步。",
+      "title": "联盟-5（额尔齐斯）运载火箭执行首飞测试：俄罗斯新一代中型火箭从拜科努尔发射",
+      "description": "俄罗斯与哈萨克斯坦联合研制的新一代中型运载火箭联盟-5（额尔齐斯）于 4 月 3 日在拜科努尔航天发射场执行首次飞行测试，发射结果待官方确认。",
       "date": "2026-04-03",
-      "lastUpdated": "2026-04-03",
+      "lastUpdated": "2026-04-05",
       "author": "天疆说",
       "category": "launch",
       "image": "/space-news/2026/04/figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg"
@@ -696,10 +696,10 @@
     {
       "relativePath": "space-news/2026/04/2026-04-03-tianlong-3-maiden-flight.md",
       "path": "/space-news/2026/04/2026-04-03-tianlong-3-maiden-flight/",
-      "title": "天龙三号首飞成功：中国商业航天首款对标猎鹰 9 号的大运力火箭入轨",
-      "description": "天兵科技天龙三号运载火箭于北京时间 4 月 3 日从酒泉成功首飞，将千帆组网卫星送入极地轨道，标志着中国商业航天迈入大运力可复用火箭时代。",
+      "title": "天龙三号首飞失利：中国商业航天大运力火箭首次飞行遭遇异常",
+      "description": "天兵科技天龙三号运载火箭于北京时间 4 月 3 日 12:17 从酒泉点火升空后飞行异常，首飞任务失利，具体原因正在排查。",
       "date": "2026-04-03",
-      "lastUpdated": "2026-04-03",
+      "lastUpdated": "2026-04-05",
       "author": "天疆说",
       "category": "commercial",
       "image": null
@@ -768,7 +768,7 @@
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
       "category": "artemis",
-      "image": "/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.png"
+      "image": "/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity.md",
@@ -1237,10 +1237,10 @@
     {
       "relativePath": "en/space-news/2026/04/2026-04-03-soyuz-5-maiden-flight.md",
       "path": "/en/space-news/2026/04/2026-04-03-soyuz-5-maiden-flight/",
-      "title": "Soyuz-5 (Irtysh) Medium-Launch Vehicle Completes Maiden Flight from Baikonur",
-      "description": "Russia's next-generation medium-class launch vehicle Soyuz-5, also known as Irtysh, completed its first test flight from Baikonur Cosmodrome on April 3, marking a key milestone in Russia's launch vehicle modernization.",
+      "title": "Soyuz-5 (Irtysh) Medium-Launch Vehicle Flight Test from Baikonur",
+      "description": "Russia's next-generation medium-class launch vehicle Soyuz-5, also known as Irtysh, conducted its first test flight from Baikonur Cosmodrome on April 3. Launch result pending official confirmation.",
       "date": "2026-04-03",
-      "lastUpdated": "2026-04-03",
+      "lastUpdated": "2026-04-05",
       "author": "天疆说",
       "category": "launch",
       "image": "/en/space-news/2026/04/figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg"
@@ -1248,10 +1248,10 @@
     {
       "relativePath": "en/space-news/2026/04/2026-04-03-tianlong-3-maiden-flight.md",
       "path": "/en/space-news/2026/04/2026-04-03-tianlong-3-maiden-flight/",
-      "title": "Tianlong-3 Maiden Flight Success: China's First Falcon 9-Class Commercial Rocket Reaches Orbit",
-      "description": "Space Pioneer's Tianlong-3 medium-lift launch vehicle successfully completed its maiden flight from Jiuquan, deploying Qianfan constellation satellites into polar orbit and marking China's entry into the large reusable rocket era.",
+      "title": "Tianlong-3 Maiden Flight Fails: China's Falcon 9-Class Commercial Rocket Loses Control After Liftoff",
+      "description": "Space Pioneer's Tianlong-3 rocket launched from Jiuquan on April 3 but experienced an anomaly ~33 seconds after liftoff, resulting in loss of the vehicle. The company has initiated a failure investigation.",
       "date": "2026-04-03",
-      "lastUpdated": "2026-04-03",
+      "lastUpdated": "2026-04-05",
       "author": "天疆说",
       "category": "commercial",
       "image": null
@@ -1320,7 +1320,7 @@
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
       "category": "artemis",
-      "image": "/en/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.png"
+      "image": "/en/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity.md",

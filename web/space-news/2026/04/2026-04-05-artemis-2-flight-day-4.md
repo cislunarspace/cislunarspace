@@ -7,7 +7,7 @@ author: 天疆说
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: artemis
-image: ./figures/2026-04-05-artemis-2-flight-day-4/hero.png
+image: ./figures/2026-04-05-artemis-2-flight-day-4/hero.jpg
 tags:
   - Artemis
   - NASA
@@ -19,7 +19,7 @@ tags:
 
 **摘要：** Artemis II 任务进入第四飞行日，四名航天员（NASA 的 Reid Wiseman、Victor Glover、Christina Koch 与加拿大航天局的 Jeremy Hansen）目前距地球约 169,000 英里，正在为 4 月 6 日的月球飞越做最后准备。今日 Victor Glover 将手动操控 Orion 飞船，测试其在深空环境中的操控性能；乘组还将复习科学团队分配的月球表面观测目标，并继续进行多项生物医学实验。
 
-![Artemis II 乘组在 Orion 飞船内进行媒体活动：Reid Wiseman（左一）、Jeremy Hansen（左二）、Christina Koch（右二）、Victor Glover（右一）](./figures/2026-04-05-artemis-2-flight-day-4/hero.png)
+![Artemis II 乘组在 Orion 飞船内进行媒体活动：Reid Wiseman（左一）、Jeremy Hansen（左二）、Christina Koch（右二）、Victor Glover（右一）](./figures/2026-04-05-artemis-2-flight-day-4/hero.jpg)
 *Credit: NASA*
 
 ## 深空手动操控测试
