@@ -978,6 +978,20 @@
       "image": "/space-news/2026/04/figures/2026-04-05-saudi-shams-satellite/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-05-shenzhou-21-five-months.md",
+      "path": "/space-news/2026/04/2026-04-05-shenzhou-21-five-months/",
+      "title": "神舟二十一号航天员在轨工作超五个月 空间站多项科学实验稳步推进",
+      "description": "神舟二十一号航天员乘组张陆、武飞、张洪章已在轨驻留超五个月，完成多项航天医学实验与站务管理任务。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "iss"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-05-shenzhou-21-five-months/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-05-starship-v3-delay.md",
       "path": "/space-news/2026/04/2026-04-05-starship-v3-delay/",
       "title": "SpaceX 星舰 V3 首飞再推迟至五月，已是第三次延期",
@@ -990,6 +1004,46 @@
         "commercial"
       ],
       "image": "/space-news/2026/04/figures/2026-04-05-starship-v3-delay/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-05-zhuque-3-reuse-test.md",
+      "path": "/space-news/2026/04/2026-04-05-zhuque-3-reuse-test/",
+      "title": "蓝箭航天张晓东：朱雀三号上半年冲刺回收复用，打造太空算力低成本\"班车\"",
+      "description": "蓝箭航天朱雀三号总设计师张晓东在2026太空算力产业大会上表示，2026年上半年遥二箭将再次开展回收试验，力争第四季度实现首次回收复用飞行。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-06-csc2026-announcement.md",
+      "path": "/space-news/2026/04/2026-04-06-csc2026-announcement/",
+      "title": "2026年中国航天大会（CSC2026）将于4月23-26日在成都市举办",
+      "description": "2026年中国航天大会以“七秩问天路 携手探九霄”为主题，将于2026年4月23-26日在成都市举办，广邀国内外航天领域知名专家、学者、管理者，共商航天高质量发展蓝图。",
+      "date": "2026-04-06",
+      "lastUpdated": "2026-04-06",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "policy"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-06-csc2026-announcement/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
+      "path": "/space-news/2026/04/2026-04-24-nasa-lunar-base-plan/",
+      "title": "NASA暂停\"月球门户\"空间站计划，转向建设月球表面基地",
+      "description": "NASA宣布暂停原定的\"月球门户\"(Lunar Gateway)空间站计划，投入200亿美元在7年内分阶段建设月球南极附近永久表面基地，战略从\"在月球轨道上修桥铺路\"转变为\"直接在月面建设基地\"。",
+      "date": "2026-03-24",
+      "lastUpdated": "2026-03-24",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": null
     },
     {
       "relativePath": "space-news/archive.md",
@@ -1683,6 +1737,20 @@
       "image": "/en/space-news/2026/04/figures/2026-04-05-saudi-shams-satellite/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-05-shenzhou-21-five-months.md",
+      "path": "/en/space-news/2026/04/2026-04-05-shenzhou-21-five-months/",
+      "title": "Shenzhou-21 Crew Surpasses Five Months in Orbit, Space Station Experiments Progress",
+      "description": "Shenzhou-21 crew members Zhang Lu, Wu Fei, and Zhang Hongzhang have been in orbit for over five months, completing multiple space medicine experiments and station maintenance tasks.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "iss"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-05-shenzhou-21-five-months/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-05-starship-v3-delay.md",
       "path": "/en/space-news/2026/04/2026-04-05-starship-v3-delay/",
       "title": "SpaceX Starship V3 First Flight Delayed to May — Third Consecutive Postponement",
@@ -1695,6 +1763,46 @@
         "commercial"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-05-starship-v3-delay/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-05-zhuque-3-reuse-test.md",
+      "path": "/en/space-news/2026/04/2026-04-05-zhuque-3-reuse-test/",
+      "title": "LandSpace's Zhang Xiaodong: Zhuque-3 to Sprint for Reuse Testing in First Half of 2026, Building Low-Cost 'Bus' for Space Computing",
+      "description": "At the 2026 Space Computing Industry Conference, Zhang Xiaodong, chief designer of LandSpace's reusable Zhuque-3 rocket, announced plans for recovery tests in H1 2026 and aiming for the first reusable flight by Q4 2026.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-06-csc2026-announcement.md",
+      "path": "/en/space-news/2026/04/2026-04-06-csc2026-announcement/",
+      "title": "2026 China Space Conference (CSC2026) to be Held in Chengdu on April 23-26",
+      "description": "The 2026 China Space Conference (CSC2026), themed 'Seventy Years Exploring the Heavens, Journeying the Nine Realms Together,' will be held in Chengdu from April 23-26, 2026, inviting renowned experts, scholars, and managers from domestic and international aerospace fields to discuss the blueprint for high-quality aerospace development.",
+      "date": "2026-04-06",
+      "lastUpdated": "2026-04-06",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "policy"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-06-csc2026-announcement/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
+      "path": "/en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan/",
+      "title": "NASA Suspends Lunar Gateway Space Station Plan, Shifts to Building Lunar Surface Base",
+      "description": "NASA announced the suspension of the planned Lunar Gateway space station, investing $20 billion over 7 years to build a permanent lunar surface base near the South Pole, shifting strategy from 'building bridges in lunar orbit' to 'directly establishing a base on the lunar surface'.",
+      "date": "2026-03-24",
+      "lastUpdated": "2026-03-24",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": null
     },
     {
       "relativePath": "en/space-news/archive.md",
