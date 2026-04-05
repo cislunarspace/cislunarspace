@@ -7,7 +7,7 @@ author: 天疆说
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: artemis
-image: ./figures/2026-04-05-artemis-2-flight-day-4/hero.png
+image: ./figures/2026-04-05-artemis-2-flight-day-4/hero.jpg
 tags:
   - Artemis
   - NASA
@@ -19,7 +19,7 @@ tags:
 
 **Summary:** Artemis II has entered its fourth flight day. The four astronauts — NASA's Reid Wiseman, Victor Glover, Christina Koch, and CSA astronaut Jeremy Hansen — are approximately 169,000 miles from Earth, preparing for the April 6 lunar flyby. Today, Victor Glover will take manual control of Orion to test its handling qualities in deep space. The crew will also review lunar surface observation targets assigned by NASA's science team and continue biomedical experiments.
 
-![The Artemis II crew during a live media event aboard Orion: Reid Wiseman (far left), Jeremy Hansen (center left), Christina Koch (center right), Victor Glover (right)](./figures/2026-04-05-artemis-2-flight-day-4/hero.png)
+![The Artemis II crew during a live media event aboard Orion: Reid Wiseman (far left), Jeremy Hansen (center left), Christina Koch (center right), Victor Glover (right)](./figures/2026-04-05-artemis-2-flight-day-4/hero.jpg)
 *Credit: NASA*
 
 ## Deep-Space Manual Piloting Test
