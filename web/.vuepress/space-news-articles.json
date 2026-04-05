@@ -760,6 +760,28 @@
       "image": "/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.png"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity.md",
+      "path": "/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity/",
+      "title": "嫦娥四号数据发现地月空间\"宇宙线空腔\"，为深空辐射防护提供新思路",
+      "description": "山东大学团队利用嫦娥四号三年观测数据，首次在月球轨道发现银河宇宙线通量显著降低的空间区域，突破传统认知。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "science",
+      "image": "/space-news/2026/04/figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-05-ce5-soil-thermal.md",
+      "path": "/space-news/2026/04/2026-04-05-ce5-soil-thermal/",
+      "title": "我国首次精准测定月壤单颗粒热导率，发现天然超绝热材料",
+      "description": "中科院联合团队首次实现嫦娥五号月壤单颗粒热导率精准测量，发现胶结物颗粒热导率低至约8 mW·m⁻¹·K⁻¹，媲美人造气凝胶。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "science",
+      "image": "/space-news/2026/04/figures/2026-04-05-ce5-soil-thermal/hero.jpg"
+    },
+    {
       "relativePath": "space-news/archive.md",
       "path": "/space-news/archive",
       "title": "按日期查阅 · Space News",
@@ -1277,6 +1299,28 @@
       "author": "天疆说",
       "category": "artemis",
       "image": "/en/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.png"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity.md",
+      "path": "/en/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity/",
+      "title": "Chang'e-4 Data Reveals 'Cosmic Ray Cavity' in Cislunar Space",
+      "description": "A Shandong University team discovers a significant reduction in galactic cosmic ray flux near lunar orbit using three years of Chang'e-4 data, offering new insights for deep space radiation protection.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "science",
+      "image": "/en/space-news/2026/04/figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-05-ce5-soil-thermal.md",
+      "path": "/en/space-news/2026/04/2026-04-05-ce5-soil-thermal/",
+      "title": "China Achieves First Precise Thermal Conductivity Measurement of Single Lunar Soil Particles",
+      "description": "A joint research team measured Chang'e-5 lunar soil single-particle thermal conductivity, discovering agglutinate particles with conductivity as low as ~8 mW·m⁻¹·K⁻¹, rivaling synthetic aerogels.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": "science",
+      "image": "/en/space-news/2026/04/figures/2026-04-05-ce5-soil-thermal/hero.jpg"
     },
     {
       "relativePath": "en/space-news/archive.md",

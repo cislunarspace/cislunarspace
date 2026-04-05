@@ -23,6 +23,8 @@ lastUpdated: 2026-04-05
 | Apr 4 | [Atlas V Launches 29 Amazon Leo Satellites on LA-05 Mission](./2026-04-04-atlas-v-amazon-leo-la05/) |
 | Apr 4 | [China-ESA SMILE Satellite Completes Launch Preparations, Set for April 9 Vega-C Liftoff](./2026-04-04-smile-launch-prep/) |
 | Apr 5 | [Artemis II Flight Day 4: Deep-Space Flying, Lunar Flyby Prep as Glover Takes Manual Control](./2026-04-05-artemis-2-flight-day-4/) |
+| Apr 5 | [Chang'e-4 Data Reveals 'Cosmic Ray Cavity' in Cislunar Space](./2026-04-05-ce4-cosmic-ray-cavity/) |
+| Apr 5 | [China Achieves First Precise Thermal Conductivity Measurement of Single Lunar Soil Particles](./2026-04-05-ce5-soil-thermal/) |
 | Apr 4 | [Shenzhou-21 Crew Completes Second EVA, Approaching 150-Day On-Orbit Milestone](./2026-04-04-shenzhou-21-eva/) |
 
 ---
