@@ -925,6 +925,19 @@
       "image": "/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-05-artemis-2-orion-toilet-issue.md",
+      "path": "/space-news/2026/04/2026-04-05-artemis-2-orion-toilet-issue/",
+      "title": "Artemis II 奔月途中遭遇 Orion 卫生间故障：废水管结冰与烧焦气味",
+      "description": "猎户座飞船在飞行第三日出现卫生间废水排放口结冰及烧焦气味问题，乘组暂时使用应急集尿袋，地面控制中心正制定除冰方案。",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-05-artemis-2-orion-toilet-issue/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity.md",
       "path": "/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity/",
       "title": "嫦娥四号数据发现地月空间\"宇宙线空腔\"，为深空辐射防护提供新思路",
@@ -953,8 +966,8 @@
     {
       "relativePath": "space-news/2026/04/2026-04-05-saudi-shams-satellite.md",
       "path": "/space-news/2026/04/2026-04-05-saudi-shams-satellite/",
-      "title": "沙特\"沙姆斯\"卫星随 Artemis II 升空，开启首次国家级空间天气监测任务",
-      "description": "沙特航天局宣布自主研制的\"沙姆斯\"卫星已随 Artemis II 发射升空并建立通信，将在高椭圆轨道监测太阳活动与空间辐射。",
+      "title": "沙特Shams卫星随Artemis II升空，开启首次国家级空间天气监测任务",
+      "description": "沙特沙姆斯卫星随Artemis II发射升空并建立通信,将在高椭圆轨道监测太阳活动与空间辐射",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
@@ -962,7 +975,7 @@
         "artemis",
         "science"
       ],
-      "image": null
+      "image": "/space-news/2026/04/figures/2026-04-05-saudi-shams-satellite/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-05-starship-v3-delay.md",
@@ -976,7 +989,7 @@
         "spacex",
         "commercial"
       ],
-      "image": null
+      "image": "/space-news/2026/04/figures/2026-04-05-starship-v3-delay/hero.jpg"
     },
     {
       "relativePath": "space-news/archive.md",
@@ -1617,6 +1630,19 @@
       "image": "/en/space-news/2026/04/figures/2026-04-05-artemis-2-flight-day-4/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-05-artemis-2-orion-toilet-issue.md",
+      "path": "/en/space-news/2026/04/2026-04-05-artemis-2-orion-toilet-issue/",
+      "title": "Artemis II Orion Spacecraft Toilet Malfunction: Frozen Waste Line and Burning Smell En Route to Moon",
+      "description": "Orion spacecraft experienced a burning odor and frozen waste vent on Flight Day 3 of Artemis II. Crew temporarily using emergency urine bags while ground control works on a de-icing plan.",
+      "date": "2026-04-05",
+      "lastUpdated": "2026-04-05",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-05-artemis-2-orion-toilet-issue/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity.md",
       "path": "/en/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity/",
       "title": "Chang'e-4 Data Reveals 'Cosmic Ray Cavity' in Cislunar Space",
@@ -1654,7 +1680,7 @@
         "artemis",
         "science"
       ],
-      "image": null
+      "image": "/en/space-news/2026/04/figures/2026-04-05-saudi-shams-satellite/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-05-starship-v3-delay.md",
@@ -1668,7 +1694,7 @@
         "spacex",
         "commercial"
       ],
-      "image": null
+      "image": "/en/space-news/2026/04/figures/2026-04-05-starship-v3-delay/hero.jpg"
     },
     {
       "relativePath": "en/space-news/archive.md",

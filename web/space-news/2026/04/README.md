@@ -28,6 +28,7 @@ lastUpdated: 2026-04-05
 | 4-5 | [我国首次精准测定月壤单颗粒热导率，发现天然超绝热材料](./2026-04-05-ce5-soil-thermal/) |
 | 4-5 | [沙特Shams卫星随Artemis II升空，开启首次国家级空间天气监测任务](./2026-04-05-saudi-shams-satellite/) |
 | 4-5 | [SpaceX 星舰 V3 首飞再推迟至五月，已是第三次延期](./2026-04-05-starship-v3-delay/) |
+| 4-5 | [Artemis II 奔月途中遭遇 Orion 卫生间故障：废水管结冰与烧焦气味](./2026-04-05-artemis-2-orion-toilet-issue/) |
 | 4-4 | [神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑](./2026-04-04-shenzhou-21-eva/) |
 
 ---
