@@ -317,7 +317,7 @@
       "path": "/space-news/2026-03-25-cavossa-commercial-space-en/",
       "title": "Commercial Space Station Companies Push Back on NASA's New Plan at House Hearing",
       "description": "Companies developing commercial space stations to replace the ISS told a House subcommittee they want NASA to 'stick with the plan' and not make changes that are 'sowing confusion' in the industry.",
-      "date": null,
+      "date": "2026-03-25",
       "lastUpdated": null,
       "author": "SpacePolicyOnline",
       "category": [
@@ -356,7 +356,7 @@
       "path": "/space-news/2026-03-27-artemis-2-crew-suits-zh/",
       "title": "NASA公布Artemis II任务航天服",
       "description": "NASA公布了Artemis II任务中4名航天员将穿戴的Orion机组生存系统航天服。",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "Monika Luabeya",
       "category": [
@@ -382,7 +382,7 @@
       "path": "/space-news/2026-03-27-china-esa-smile-satellite-en/",
       "title": "China-Europe SMILE Satellite Completes Pre-Launch Preparations Ahead of April 9 Launch",
       "description": "The China Academy of Sciences announced on March 26, 2026 that the China-ESA joint SMILE satellite has completed all pre-launch preparations at the Kourou Launch Center, scheduled for April 9 local time aboard Vega-C.",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "CNSA / ESA",
       "category": [
@@ -408,7 +408,7 @@
       "path": "/space-news/2026-03-27-china-shiyan-33-en/",
       "title": "China Launches Shiyan-33 Satellite for Space Environment Testing",
       "description": "China successfully launched the Shiyan-33 satellite on March 27, 2026, using a Long March 2C rocket with Yuanzheng-1S upper stage from Jiuquan Satellite Launch Center.",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "CNSA",
       "category": [
@@ -460,7 +460,7 @@
       "path": "/space-news/2026-03-27-nasa-nuclear-spacecraft-en/",
       "title": "NASA Developing First Nuclear-Powered Interplanetary Spacecraft",
       "description": "NASA is working on the first nuclear-powered interplanetary spacecraft, marking a new era in deep space exploration capabilities.",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "Keith Cooper",
       "category": [
@@ -473,7 +473,7 @@
       "path": "/space-news/2026-03-27-nasa-nuclear-spacecraft-zh/",
       "title": "NASA正在开发首个核动力星际飞船",
       "description": "NASA正在开发首个核动力星际飞船，标志着深空探索能力进入新时代。",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "Keith Cooper",
       "category": [
@@ -486,7 +486,7 @@
       "path": "/space-news/2026-03-28-artemis-2-crew-arrive-ksc-en/",
       "title": "Artemis II Crew Arrives at Kennedy Space Center Ahead of Moon Mission",
       "description": "The four Artemis II astronauts and their backups arrived at Kennedy Space Center on March 27, 2026, ahead of their historic flight around the Moon scheduled for April 1.",
-      "date": null,
+      "date": "2026-03-28",
       "lastUpdated": null,
       "author": "SpacePolicyOnline",
       "category": [
@@ -512,7 +512,7 @@
       "path": "/space-news/2026-03-28-celeste-rocket-lab-launch-en/",
       "title": "ESA's First Celeste Satellites Successfully Launched — Europe's LEO Navigation Augmentation Era Begins",
       "description": "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard Rocket Lab's Electron rocket from New Zealand, marking the beginning of Europe's LEO-PNT era.",
-      "date": null,
+      "date": "2026-03-28",
       "lastUpdated": null,
       "author": "ESA",
       "category": [
@@ -538,7 +538,7 @@
       "path": "/space-news/2026-03-28-mike-fincke-medical-event-en/",
       "title": "NASA Astronaut Mike Fincke Shares Details About Medical Event That Ended Crew-11 Mission Early",
       "description": "NASA astronaut Mike Fincke has revealed more about the medical event that caused the Crew-11 mission to return to Earth more than a month ahead of schedule in January 2026.",
-      "date": null,
+      "date": "2026-03-28",
       "lastUpdated": null,
       "author": "SpacePolicyOnline",
       "category": [
@@ -1037,8 +1037,8 @@
       "path": "/space-news/2026/04/2026-04-24-nasa-lunar-base-plan/",
       "title": "NASA暂停「月球门户」空间站计划，转向建设月球表面基地",
       "description": "NASA宣布暂停原定的「月球门户」(Lunar Gateway)空间站计划，投入200亿美元在7年内分阶段建设月球南极附近永久表面基地，战略从「在月球轨道上修桥铺路」转变为「直接在月面建设基地」。",
-      "date": "2026-03-24",
-      "lastUpdated": "2026-03-24",
+      "date": "2026-04-24",
+      "lastUpdated": "2026-04-24",
       "author": "天疆说",
       "category": [
         "artemis"
@@ -1401,7 +1401,7 @@
       "path": "/en/space-news/2026-03-27-artemis-2-crew-suits-en/",
       "title": "NASA Unveils Artemis II Crew's Survival Suits",
       "description": "NASA reveals the Orion Crew Survival System suits that the four Artemis II astronauts will wear for the first crewed lunar flight since Apollo.",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "Monika Luabeya",
       "category": [
@@ -1427,7 +1427,7 @@
       "path": "/en/space-news/2026-03-27-china-esa-smile-satellite-en/",
       "title": "China-EU Joint SMILE Satellite Completes Launch Preparations, Targeting April 9 Launch",
       "description": "The China Academy of Sciences and ESA jointly announce that the SMILE (Solar wInd Magnetosphere Ionosphere Link Explorer) satellite has completed all pre-launch preparations at the Kourou Spaceport, with launch scheduled for April 9.",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "天疆说",
       "category": [
@@ -1440,7 +1440,7 @@
       "path": "/en/space-news/2026-03-27-china-shiyan-33-en/",
       "title": "China Successfully Launches Shiyan-33 Satellite",
       "description": "On March 27, 2026, China successfully launched the Shiyan-33 experimental satellite aboard a Long March 2C/Yuanzheng-1S rocket from the Jiuquan Satellite Launch Center.",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "天疆说",
       "category": [
@@ -1479,7 +1479,7 @@
       "path": "/en/space-news/2026-03-27-nasa-nuclear-spacecraft-en/",
       "title": "NASA Developing First Nuclear-Powered Interplanetary Spacecraft",
       "description": "NASA is working on the first nuclear-powered interplanetary spacecraft, marking a new era in deep space exploration capabilities.",
-      "date": null,
+      "date": "2026-03-27",
       "lastUpdated": null,
       "author": "Keith Cooper",
       "category": [
@@ -1492,7 +1492,7 @@
       "path": "/en/space-news/2026-03-28-celeste-rocket-lab-launch-en/",
       "title": "ESA's First Celeste Satellites Successfully Launched — Europe's LEO-PNT Era Begins",
       "description": "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard a Rocket Lab Electron rocket, marking the beginning of Europe's low-Earth-orbit satellite navigation augmentation era.",
-      "date": null,
+      "date": "2026-03-28",
       "lastUpdated": null,
       "author": "天疆说",
       "category": [
@@ -1518,7 +1518,7 @@
       "path": "/en/space-news/2026-03-30-spacex-transporter-16-en/",
       "title": "SpaceX Transporter-16 Rideshare Mission Set for March 30 Launch from Vandenberg",
       "description": "On March 30, 2026, SpaceX's Falcon 9 rocket will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads into orbit.",
-      "date": null,
+      "date": "2026-03-30",
       "lastUpdated": null,
       "author": "天疆说",
       "category": [
@@ -1531,7 +1531,7 @@
       "path": "/en/space-news/2026-03-30-spacex-v3-starship-static-fire-en/",
       "title": "SpaceX Completes First Static Fire Test of Next-Gen V3 Starship Ahead of April Launch",
       "description": "In March 2026, SpaceX successfully completed the first static fire test of the next-generation Starship Version 3, preparing for an April launch. This version will be the most powerful Starship yet.",
-      "date": null,
+      "date": "2026-03-30",
       "lastUpdated": null,
       "author": "天疆说",
       "category": [
@@ -1796,8 +1796,8 @@
       "path": "/en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan/",
       "title": "NASA Suspends Lunar Gateway Space Station Plan, Shifts to Building Lunar Surface Base",
       "description": "NASA announced the suspension of the planned Lunar Gateway space station, investing $20 billion over 7 years to build a permanent lunar surface base near the South Pole, shifting strategy from 'building bridges in lunar orbit' to 'directly establishing a base on the lunar surface'.",
-      "date": "2026-03-24",
-      "lastUpdated": "2026-03-24",
+      "date": "2026-04-24",
+      "lastUpdated": "2026-04-24",
       "author": "天疆说",
       "category": [
         "artemis"

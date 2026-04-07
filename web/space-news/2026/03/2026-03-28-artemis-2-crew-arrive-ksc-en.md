@@ -1,7 +1,7 @@
 ---
 title: "Artemis II Crew Arrives at Kennedy Space Center Ahead of Moon Mission"
 description: "The four Artemis II astronauts and their backups arrived at Kennedy Space Center on March 27, 2026, ahead of their historic flight around the Moon scheduled for April 1."
-publish_date: 2026-03-28
+date: 2026-03-28
 author: SpacePolicyOnline
 source: SpacePolicyOnline.com
 source_url: https://spacepolicyonline.com/news/u-s-canadian-astronaut-crew-ready-for-flight-around-the-moon/

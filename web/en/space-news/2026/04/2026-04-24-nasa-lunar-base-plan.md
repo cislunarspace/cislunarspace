@@ -4,8 +4,8 @@ title: "NASA Suspends Lunar Gateway Space Station Plan, Shifts to Building Lunar
 description: "NASA announced the suspension of the planned Lunar Gateway space station, investing $20 billion over 7 years to build a permanent lunar surface base near the South Pole, shifting strategy from 'building bridges in lunar orbit' to 'directly establishing a base on the lunar surface'."
 permalink: /en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan/
 author: 天疆说
-date: 2026-03-24
-lastUpdated: 2026-03-24
+date: 2026-04-24
+lastUpdated: 2026-04-24
 category: artemis
 tags:
   - NASA

@@ -1,7 +1,7 @@
 ---
 title: "China Launches Shiyan-33 Satellite for Space Environment Testing"
 description: "China successfully launched the Shiyan-33 satellite on March 27, 2026, using a Long March 2C rocket with Yuanzheng-1S upper stage from Jiuquan Satellite Launch Center."
-publish_date: 2026-03-27
+date: 2026-03-27
 author: CNSA
 source: CNSA.gov.cn
 source_url: https://www.cnsa.gov.cn/n6758823/n6758838/c10736640/content.html

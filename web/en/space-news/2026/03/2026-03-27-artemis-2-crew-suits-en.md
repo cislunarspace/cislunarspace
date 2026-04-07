@@ -1,7 +1,7 @@
 ---
 title: "NASA Unveils Artemis II Crew's Survival Suits"
 description: "NASA reveals the Orion Crew Survival System suits that the four Artemis II astronauts will wear for the first crewed lunar flight since Apollo."
-publish_date: 2026-03-27
+date: 2026-03-27
 author: Monika Luabeya
 source: NASA
 source_url: https://www.nasa.gov/image-article/artemis-ii-crews-suits/

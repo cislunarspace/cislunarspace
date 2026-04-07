@@ -1,7 +1,7 @@
 ---
 title: "SpaceX Completes First Static Fire Test of Next-Gen V3 Starship Ahead of April Launch"
 description: "In March 2026, SpaceX successfully completed the first static fire test of the next-generation Starship Version 3, preparing for an April launch. This version will be the most powerful Starship yet."
-publish_date: 2026-03-30
+date: 2026-03-30
 author: 天疆说
 source: Space.com
 source_url: https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-next-gen-v3-starship-for-1st-time-ahead-of-april-launch-photos
