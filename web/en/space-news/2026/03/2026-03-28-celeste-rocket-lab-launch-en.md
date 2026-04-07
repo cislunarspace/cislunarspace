@@ -1,7 +1,7 @@
 ---
 title: "ESA's First Celeste Satellites Successfully Launched — Europe's LEO-PNT Era Begins"
 description: "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard a Rocket Lab Electron rocket, marking the beginning of Europe's low-Earth-orbit satellite navigation augmentation era."
-publish_date: 2026-03-28
+date: 2026-03-28
 author: 天疆说
 source: ESA
 source_url: https://www.esa.int/ESA_Multimedia/Videos/2026/03/Celeste_liftoff

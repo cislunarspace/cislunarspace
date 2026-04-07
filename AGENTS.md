@@ -1,128 +1,87 @@
-# AGENTS.md - Cislunarspace Workspace
+# AGENTS.md - Cislunarspace
 
-## Project Overview
+## What This Is
 
-VuePress 2 bilingual (Chinese/English) knowledge base about cislunar space. Published at https://cislunarspace.cn
+VuePress 2 bilingual (zh/en) knowledge base about cislunar space. Published at https://cislunarspace.cn via Nginx on the same machine.
 
-## Development Commands
+## Commands
 
-All commands run from `web/` directory:
+All from `web/`:
 
 ```bash
-cd web
-npm run docs:dev      # Dev server (auto-generates sidebar first)
-npm run docs:build    # Build: gen-sidebar → vuepress build → sync-figures
-npm run gen-sidebar   # Generate sidebar.auto.json + space-news-articles.json
-npm run sync-figures  # Copy figures/ to dist/ (required for image display)
+npm run docs:dev      # gen-sidebar → vuepress dev
+npm run docs:build    # gen-sidebar → vuepress build → sync-figures
+npm run gen-sidebar   # regenerates sidebar.auto.json + space-news-articles.json
+npm run sync-figures  # copies figures/ into dist/ (images won't display without this)
 ```
 
-**Node.js**: 18+ required (CI uses v22.22.2)
+Node 18+ required. CI and cron use v22.22.2.
 
 ## Architecture
 
 ```
-web/
-├── .vuepress/
-│   ├── config.ts              # Main VuePress config
-│   ├── gen-sidebar.js         # Auto-generates sidebar + articles JSON
-│   ├── sync-figures.js        # Copies figures/ to dist/
-│   ├── theme2/                # Custom theme (not default theme)
-│   ├── sidebar.auto.json      # Generated sidebar config
-│   └── space-news-articles.json # News data for homepage cards
-├── space-news/YYYY/MM/        # Chinese news articles
-├── en/space-news/YYYY/MM/     # English news articles
-└── en/                        # English site content (/en/ locale)
+web/.vuepress/
+├── config.ts               # Main config (locales, plugins, Vite bundler)
+├── sidebar.ts / sidebar-en.ts  # Manual sidebar sections + import sidebar.auto.json
+├── navbar.ts / navbar-en.ts    # Top nav
+├── gen-sidebar.js          # Scans space-news dirs → sidebar.auto.json + space-news-articles.json
+├── sync-figures.js         # Copies figures/ dirs from content into dist/
+├── og-meta-plugin.ts       # Injects OG meta from frontmatter
+├── theme2/                 # Custom theme (extends @vuepress/theme-default)
+│   ├── index.ts            # Overrides Layout.vue via alias
+│   ├── layouts/            # SpaceNewsArticle, SpaceNewsHome, SpaceNewsArchive, AiChatLayout
+│   └── components/         # SpaceNewsHome, SpaceNewsArchive, AiChat, etc.
+├── theme/                  # Legacy v1 theme — do NOT use
+├── components-v1/          # Legacy v1 components — do NOT use
+└── sidebar.auto.json       # GENERATED — do not edit
 ```
 
-## Key Patterns
+**Content dirs:** `space-news/YYYY/MM/` (zh), `en/space-news/YYYY/MM/` (en). Each has a `README.md` index.
 
-- **Sidebar is auto-generated**: Edit `gen-sidebar.js` logic, not sidebar files directly
-- **Space News images**: Must be in `figures/YYYY-MM-DD-slug/` relative to article, then synced to dist
-- **Bilingual content**: Same slug for CN/EN articles, EN permalink starts with `/en/`
-- **Custom theme**: Located at `web/.vuepress/theme2/`, not the default VuePress theme
+## Critical Build Order
 
-## Space News Automation
+`npm run docs:build` runs these in sequence. Never skip `sync-figures` — images won't appear in dist.
 
-- Cron job every 3 hours via `scripts/space-news-update.sh`
-- Uses `openclaw agent` with skill at `.cursor/skills/space-news-publish/SKILL.md`
-- Workflow: Search → Write bilingual articles → Download images → Update READMEs → `npm run docs:build`
+## Space News Conventions
 
-## Build Pipeline (Critical)
+- **Article path:** `space-news/YYYY/MM/YYYY-MM-DD-slug.md` (en mirror under `en/`)
+- **Same slug** for zh/en, no `-en` suffix
+- **Layout:** always `layout: SpaceNewsArticle`
+- **Images:** in `figures/YYYY-MM-DD-slug/` next to the `.md`, referenced as `./figures/...`
+- **Category:** single value or YAML array (`category: [spacex, commercial]`)
+- **Draft:** `draft: true` hides from homepage and sidebar
+- **New year/month:** create `README.md` index, then re-run `npm run gen-sidebar`
+- See `.cursor/skills/space-news-publish/SKILL.md` for full automation workflow
 
-For Space News or any content with images:
+## Sidebar Is Auto-Generated
 
-1. `npm run gen-sidebar` — generates JSON files for homepage
-2. `vuepress build` — builds static site
-3. `npm run sync-figures` — copies images to dist (WITHOUT THIS, IMAGES WON'T DISPLAY)
+`sidebar.ts` and `sidebar-en.ts` define manual sections (glossary, research, blue-team, etc.) and import `sidebar.auto.json` for Space News. **Never edit `sidebar.auto.json` directly** — edit `gen-sidebar.js` and re-run it.
 
-The `npm run docs:build` command runs all three in sequence.
+## Deployment
 
----
+Nginx serves from `web/.vuepress/dist/` with SPA fallback (`try_files $uri $uri/ /index.html`). Config at `web/deploy/nginx-ai-proxy.conf`. The `/api/ai/` path proxies to DeepSeek API.
 
-## OpenCode Session Guidelines
+## OpenCode Session Startup
 
-### First Run
+1. Read `SOUL.md` — identity
+2. Read `USER.md` — who you're helping
+3. Read `memory/YYYY-MM-DD.md` (today + yesterday)
+4. If main session: also read `MEMORY.md`
 
-If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it.
-
-### Session Startup
-
-Before doing anything else:
-
-1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
-
-Don't ask permission. Just do it.
-
-### Memory
-
-You wake up fresh each session. These files are your continuity:
-
-- **Daily notes:** `memory/YYYY-MM-DD.md` — raw logs
-- **Long-term:** `MEMORY.md` — curated memories
-
-### Red Lines
+## Red Lines
 
 - Don't exfiltrate private data. Ever.
 - Don't run destructive commands without asking.
-- `trash` > `rm` (recoverable beats gone forever)
+- `trash` > `rm`
 - When in doubt, ask.
+- **Ask first** before anything that leaves the machine (emails, tweets, posts).
 
-### External vs Internal
+## Heartbeats
 
-**Safe to do freely:** Read files, explore, organize, search web, work within workspace
+Read `HEARTBEAT.md` if it exists. Follow it strictly — don't infer from prior chats. Reply `HEARTBEAT_OK` if nothing needs attention.
 
-**Ask first:** Sending emails, tweets, public posts, anything that leaves the machine
+## Platform Formatting
 
-### Group Chats
-
-You have access to your human's stuff. That doesn't mean you _share_ their stuff. In groups, you're a participant — not their voice, not their proxy.
-
-**Respond when:** Directly mentioned, can add genuine value, correcting misinformation
-
-**Stay silent when:** Casual banter, someone already answered, response would just be "yeah" or "nice"
-
-### Heartbeats
-
-When you receive a heartbeat poll:
-
-1. Read `HEARTBEAT.md` if it exists
-2. Follow it strictly — don't infer or repeat old tasks from prior chats
-3. If nothing needs attention, reply `HEARTBEAT_OK`
-
-Use heartbeats productively: read/organize memory files, check git status, update docs, commit your own changes.
-
-### Tools
-
-Skills provide tools. Check `SKILL.md` when you need one. Keep local notes in `TOOLS.md`.
-
-**Platform Formatting:**
-- **Discord/WhatsApp:** No markdown tables — use bullet lists
-- **Discord links:** Wrap in `<>` to suppress embeds
-- **WhatsApp:** No headers — use **bold** or CAPS
-
----
-
-Make this file yours. Add conventions as you learn what works.
+- Discord/WhatsApp: no markdown tables — use bullets
+- Discord links: wrap in `<>` to suppress embeds
+- WhatsApp: no headers — use **bold** or CAPS

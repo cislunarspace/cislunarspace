@@ -1,7 +1,7 @@
 ---
 title: "NASA Developing First Nuclear-Powered Interplanetary Spacecraft"
 description: "NASA is working on the first nuclear-powered interplanetary spacecraft, marking a new era in deep space exploration capabilities."
-publish_date: 2026-03-27
+date: 2026-03-27
 author: Keith Cooper
 source: Space.com
 source_url: https://www.space.com/space-exploration/nasa-is-developing-the-1st-nuclear-powered-interplanetary-spacecraft-what-about-the-voyager-probes

@@ -374,7 +374,7 @@ export default {
   },
   computed: {
     isEn() {
-      return (this.$localePath || '/') === '/en/'
+      return (this.$routeLocale || '/') === '/en/'
     }
   },
   async mounted() {

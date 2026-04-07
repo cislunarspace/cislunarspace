@@ -49,16 +49,6 @@ const glossarySidebar = [
         collapsible: true,
         children: [
           '/en/glossary/cr3bp',
-          '/en/glossary/qbcp',
-          '/en/glossary/ephemeris-model',
-        ],
-      },
-      {
-        text: 'Mission Orbits',
-        collapsible: true,
-        children: [
-          '/en/glossary/dro',
-          '/en/glossary/nrho',
         ],
       },
       {

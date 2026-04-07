@@ -3,7 +3,7 @@ import type { NavbarConfig } from 'vuepress'
 export default <NavbarConfig>[
   {
     text: 'Satellite Orbit Simulation',
-    link: '/satellite-simulation/',
+    link: '/en/satellite-simulation/',
   },
   {
     text: 'Cislunar Glossary',

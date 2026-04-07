@@ -24,7 +24,7 @@ const props = defineProps<{
   imageUrl: string | null
   author?: string | null
   date?: string | null
-  category?: string | null
+  category?: string | string[] | null
   isEn?: boolean
 }>()
 
@@ -41,16 +41,21 @@ const categoryMeta: Record<string, { zh: string; en: string; color: string }> = 
   policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
 }
 
+const primaryCategory = computed(() => {
+  if (!props.category) return null
+  return Array.isArray(props.category) ? props.category[0] : props.category
+})
+
 const categoryLabel = computed(() => {
-  if (!props.category) return ''
-  const meta = categoryMeta[props.category]
-  if (!meta) return props.category
+  if (!primaryCategory.value) return ''
+  const meta = categoryMeta[primaryCategory.value]
+  if (!meta) return primaryCategory.value
   return props.isEn ? meta.en : meta.zh
 })
 
 const tagStyle = computed(() => {
-  const color = props.category
-    ? (categoryMeta[props.category]?.color || '#64748b')
+  const color = primaryCategory.value
+    ? (categoryMeta[primaryCategory.value]?.color || '#64748b')
     : '#64748b'
   return { background: color, color: '#fff' }
 })

@@ -1,7 +1,7 @@
 ---
 title: "China-Europe SMILE Satellite Completes Pre-Launch Preparations Ahead of April 9 Launch"
 description: "The China Academy of Sciences announced on March 26, 2026 that the China-ESA joint SMILE satellite has completed all pre-launch preparations at the Kourou Launch Center, scheduled for April 9 local time aboard Vega-C."
-publish_date: 2026-03-27
+date: 2026-03-27
 author: CNSA / ESA
 source: CNSA.gov.cn
 source_url: https://www.cnsa.gov.cn/n6758823/n6758838/c10736664/content.html

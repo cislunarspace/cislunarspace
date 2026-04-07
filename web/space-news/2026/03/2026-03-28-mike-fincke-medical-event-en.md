@@ -1,7 +1,7 @@
 ---
 title: "NASA Astronaut Mike Fincke Shares Details About Medical Event That Ended Crew-11 Mission Early"
 description: "NASA astronaut Mike Fincke has revealed more about the medical event that caused the Crew-11 mission to return to Earth more than a month ahead of schedule in January 2026."
-publish_date: 2026-03-28
+date: 2026-03-28
 author: SpacePolicyOnline
 source: SpacePolicyOnline.com
 source_url: https://spacepolicyonline.com/news/mike-fincke-shares-more-about-his-medical-event/

@@ -1,7 +1,7 @@
 ---
 title: "China-EU Joint SMILE Satellite Completes Launch Preparations, Targeting April 9 Launch"
 description: "The China Academy of Sciences and ESA jointly announce that the SMILE (Solar wInd Magnetosphere Ionosphere Link Explorer) satellite has completed all pre-launch preparations at the Kourou Spaceport, with launch scheduled for April 9."
-publish_date: 2026-03-27
+date: 2026-03-27
 author: 天疆说
 source: CNSA
 source_url: https://www.cnsa.gov.cn/n6758823/n6758838/c10736664/content.html

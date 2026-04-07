@@ -66,7 +66,7 @@ export default defineUserConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/icon.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' }],
     ['meta', {
       name: 'keywords',
@@ -114,7 +114,7 @@ export default defineUserConfig({
             changeOrigin: true,
             rewrite: (path) => path.replace(/^\/api\/ai/, ''),
             headers: {
-              'Authorization': 'Bearer sk-f5cdcdbb3b824e2997161414d272e2d9',
+              'Authorization': `Bearer ${process.env.DEEPSEEK_API_KEY || ''}`,
             },
           },
         },

@@ -1,7 +1,7 @@
 ---
 title: "Commercial Space Station Companies Push Back on NASA's New Plan at House Hearing"
 description: "Companies developing commercial space stations to replace the ISS told a House subcommittee they want NASA to 'stick with the plan' and not make changes that are 'sowing confusion' in the industry."
-publish_date: 2026-03-25
+date: 2026-03-25
 author: SpacePolicyOnline
 source: SpacePolicyOnline.com
 source_url: https://spacepolicyonline.com/news/cavossa-cld-companies-want-stability-not-a-new-plan/
