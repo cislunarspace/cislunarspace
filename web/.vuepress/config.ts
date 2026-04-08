@@ -81,13 +81,7 @@ export default defineUserConfig({
         s.parentNode.insertBefore(hm, s);
       })();
     `],
-    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-0PLJ56MK80' }],
-    ['script', {}, `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-0PLJ56MK80');
-    `],
+    // Google Analytics loaded via googleAnalyticsPlugin below, no manual script needed
     ['script', {}, `
       (function() {
         if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;

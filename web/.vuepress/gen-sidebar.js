@@ -85,11 +85,28 @@ function parseFrontmatter(content) {
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
   if (!match) return {}
   const fm = {}
-  for (const line of match[1].split('\n')) {
-    const m = line.match(/^(\w[\w-]*):\s*(.*)$/)
+  const lines = match[1].split('\n')
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^(\w[\w-]*):\s*(.*)$/)
     if (!m) continue
     const key = m[1]
     let val = m[2].trim()
+    if (val === '') {
+      // Check for multi-line list (e.g. `related:\n  - item1\n  - item2`)
+      const items = []
+      let j = i + 1
+      while (j < lines.length) {
+        const itemMatch = lines[j].match(/^\s+-\s+(.+)$/)
+        if (!itemMatch) break
+        items.push(itemMatch[1].trim().replace(/^['"]|['"]$/g, ''))
+        j++
+      }
+      if (items.length > 0) {
+        fm[key] = items
+        i = j - 1
+        continue
+      }
+    }
     if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
       val = val.slice(1, -1)
     }

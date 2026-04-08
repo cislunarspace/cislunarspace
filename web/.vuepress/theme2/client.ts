@@ -106,7 +106,10 @@ async function configureWechatShare(shareData: { title: string; desc: string; im
       signature: signatureData.signature,
       jsApiList: ['updateAppMessageShareData', 'updateTimelineShareData', 'onMenuShareTimeline', 'onMenuShareAppMessage'],
     })
-    await new Promise<void>((resolve) => { wx.ready(() => resolve()) })
+    await Promise.race([
+      new Promise<void>((resolve) => { wx.ready(resolve) }),
+      new Promise<void>((resolve) => setTimeout(resolve, 3000)),
+    ])
     configuredUrl = currentUrl
   }
   if (typeof wx.updateAppMessageShareData === 'function') {
