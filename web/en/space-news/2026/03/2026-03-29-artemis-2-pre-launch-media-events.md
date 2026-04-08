@@ -1,7 +1,7 @@
 ---
 title: "Artemis II Crew Answers Media Questions as Launch Week Begins"
 description: "On March 29, 2026, the Artemis II crew answered reporters' questions from quarantine while NASA officials provided a mission status update, three days before the planned April 1 launch."
-permalink: /space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/
+permalink: /en/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/
 author: SpacePolicyOnline
 date: 2026-03-29
 lastUpdated: 2026-03-29
