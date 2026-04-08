@@ -175,6 +175,10 @@ function startCarousel() {
   stopCarousel()
   if (featuredList.value.length <= 1) return
   carouselTimer = setInterval(() => {
+    if (featuredList.value.length === 0) {
+      stopCarousel()
+      return
+    }
     currentFeatured.value = (currentFeatured.value + 1) % featuredList.value.length
   }, 5000)
 }

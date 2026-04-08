@@ -6,7 +6,7 @@ const ogMetaPlugin = {
     if (!fm.title) return
 
     const head = (fm.head ??= [])
-    const base = 'https://www.cislunarspace.cn'
+    const base = 'https://cislunarspace.cn'
 
     const addMeta = (attrs: Record<string, string>) => {
       head.push(['meta', attrs])

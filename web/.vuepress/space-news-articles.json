@@ -93,7 +93,7 @@
     },
     {
       "relativePath": "space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight.md",
-      "path": "/space-news/2026/03/2026-03-13-china-long-march-8a maiden-flight/",
+      "path": "/space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight/",
       "title": "长征八号甲运载火箭首飞成功",
       "description": "2026 年 3 月 13 日，长征八号甲运载火箭自海南商业航天发射场成功首飞，将卫星互联网低轨 20 组卫星送入轨道。",
       "date": "2026-03-13",
@@ -313,19 +313,6 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-25-cavossa-commercial-space-en.md",
-      "path": "/space-news/2026-03-25-cavossa-commercial-space-en/",
-      "title": "Commercial Space Station Companies Push Back on NASA's New Plan at House Hearing",
-      "description": "Companies developing commercial space stations to replace the ISS told a House subcommittee they want NASA to 'stick with the plan' and not make changes that are 'sowing confusion' in the industry.",
-      "date": "2026-03-25",
-      "lastUpdated": null,
-      "author": "SpacePolicyOnline",
-      "category": [
-        "commercial"
-      ],
-      "image": null
-    },
-    {
       "relativePath": "space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06.md",
       "path": "/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06/",
       "title": "我国成功发射四维高景二号05、06星",
@@ -352,12 +339,12 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-27-artemis-2-crew-suits-zh.md",
-      "path": "/space-news/2026-03-27-artemis-2-crew-suits-zh/",
+      "relativePath": "space-news/2026/03/2026-03-27-artemis-2-crew-suits.md",
+      "path": "/space-news/2026/03/2026-03-27-artemis-2-crew-suits/",
       "title": "NASA公布Artemis II任务航天服",
       "description": "NASA公布了Artemis II任务中4名航天员将穿戴的Orion机组生存系统航天服。",
       "date": "2026-03-27",
-      "lastUpdated": null,
+      "lastUpdated": "2026-03-27",
       "author": "Monika Luabeya",
       "category": [
         "nasa"
@@ -365,7 +352,7 @@
       "image": "/space-news/2026/03/figures/2026-03-27-artemis-2-crew-suits-zh/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-27-artemis-2-one-week-away-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-27-artemis-2-one-week-away.md",
       "path": "/space-news/2026/03/2026-03-27-artemis-2-one-week-away/",
       "title": "NASA Artemis II 载人绕月任务进入最后一周倒计时",
       "description": "2026 年 3 月 27 日，距 NASA Artemis II 发射仅剩一周，各项准备工作进入最终阶段。本次任务将是自阿波罗时代以来人类首次重返月球轨道。",
@@ -378,20 +365,7 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-27-china-esa-smile-satellite-en.md",
-      "path": "/space-news/2026-03-27-china-esa-smile-satellite-en/",
-      "title": "China-Europe SMILE Satellite Completes Pre-Launch Preparations Ahead of April 9 Launch",
-      "description": "The China Academy of Sciences announced on March 26, 2026 that the China-ESA joint SMILE satellite has completed all pre-launch preparations at the Kourou Launch Center, scheduled for April 9 local time aboard Vega-C.",
-      "date": "2026-03-27",
-      "lastUpdated": null,
-      "author": "CNSA / ESA",
-      "category": [
-        "china"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-27-china-esa-smile-satellite-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-27-china-esa-smile-satellite.md",
       "path": "/space-news/2026/03/2026-03-27-china-esa-smile-satellite/",
       "title": "中欧联合研制的\"微笑\"卫星完成发射前准备，计划4月9日发射",
       "description": "2026 年 3 月 26 日，中科院与欧洲空间局联合研制的太阳风—磁层相互作用全景成像卫星（ SMILE）在库鲁航天发射中心完成所有发射前准备工作，计划于当地时间 4 月 9 日发射升空。",
@@ -404,20 +378,7 @@
       "image": "/space-news/2026/03/figures/2026-03-27-china-esa-smile-satellite/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-27-china-shiyan-33-en.md",
-      "path": "/space-news/2026-03-27-china-shiyan-33-en/",
-      "title": "China Launches Shiyan-33 Satellite for Space Environment Testing",
-      "description": "China successfully launched the Shiyan-33 satellite on March 27, 2026, using a Long March 2C rocket with Yuanzheng-1S upper stage from Jiuquan Satellite Launch Center.",
-      "date": "2026-03-27",
-      "lastUpdated": null,
-      "author": "CNSA",
-      "category": [
-        "china"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-27-china-shiyan-33-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-27-china-shiyan-33.md",
       "path": "/space-news/2026/03/2026-03-27-china-shiyan-33/",
       "title": "我国成功发射试验三十三号卫星",
       "description": "2026 年 3 月 27 日，我国在酒泉卫星发射中心使用长征二号丙运载火箭/远征一号S上面级，成功将试验三十三号卫星发射升空，卫星顺利进入预定轨道。",
@@ -430,7 +391,7 @@
       "image": "/space-news/2026/03/figures/2026-03-27-china-shiyan-33/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
       "path": "/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module/",
       "title": "欧洲之力：Artemis II 任务「欧洲服务舱」详解视频发布",
       "description": "2026 年 3 月 27 日，ESA 发布视频详解 Artemis II 任务核心——欧洲服务舱（European Service Module），阐释欧洲如何为人类重返月球提供推进、电力与生命保障。",
@@ -443,7 +404,7 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview.md",
       "path": "/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview/",
       "title": "欧洲卫星导航增强系统首星即将发射——Rocket Lab 为 ESA 执行 Celeste 任务",
       "description": "2026 年 3 月 27 日，ESA 宣布其首批 Celeste 卫星将于 3 月 28 日由 Rocket Lab Electron 火箭从新西兰发射，这是欧洲首个低轨卫星导航增强（LEO-PNT）任务。",
@@ -456,25 +417,12 @@
       "image": "/space-news/2026/03/figures/2026-03-27-esa-celeste-rocket-lab-launch-preview/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-en.md",
-      "path": "/space-news/2026-03-27-nasa-nuclear-spacecraft-en/",
-      "title": "NASA Developing First Nuclear-Powered Interplanetary Spacecraft",
-      "description": "NASA is working on the first nuclear-powered interplanetary spacecraft, marking a new era in deep space exploration capabilities.",
-      "date": "2026-03-27",
-      "lastUpdated": null,
-      "author": "Keith Cooper",
-      "category": [
-        "nasa"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-zh.md",
-      "path": "/space-news/2026-03-27-nasa-nuclear-spacecraft-zh/",
+      "relativePath": "space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft.md",
+      "path": "/space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft/",
       "title": "NASA正在开发首个核动力星际飞船",
       "description": "NASA正在开发首个核动力星际飞船，标志着深空探索能力进入新时代。",
       "date": "2026-03-27",
-      "lastUpdated": null,
+      "lastUpdated": "2026-03-27",
       "author": "Keith Cooper",
       "category": [
         "nasa"
@@ -482,20 +430,7 @@
       "image": "/space-news/2026/03/figures/2026-03-27-nasa-nuclear-spacecraft-zh/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc-en.md",
-      "path": "/space-news/2026-03-28-artemis-2-crew-arrive-ksc-en/",
-      "title": "Artemis II Crew Arrives at Kennedy Space Center Ahead of Moon Mission",
-      "description": "The four Artemis II astronauts and their backups arrived at Kennedy Space Center on March 27, 2026, ahead of their historic flight around the Moon scheduled for April 1.",
-      "date": "2026-03-28",
-      "lastUpdated": null,
-      "author": "SpacePolicyOnline",
-      "category": [
-        "artemis"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc.md",
       "path": "/space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc/",
       "title": "NASA Artemis II 航天员乘组抵达肯尼迪航天中心",
       "description": "2026 年 3 月 27 日，NASA Artemis II 四大航天员乘组及备份乘组抵达肯尼迪航天中心，执行历史性的绕月飞行任务，发射窗口暂定 4 月 1 日。",
@@ -508,20 +443,7 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-28-celeste-rocket-lab-launch-en.md",
-      "path": "/space-news/2026-03-28-celeste-rocket-lab-launch-en/",
-      "title": "ESA's First Celeste Satellites Successfully Launched — Europe's LEO Navigation Augmentation Era Begins",
-      "description": "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard Rocket Lab's Electron rocket from New Zealand, marking the beginning of Europe's LEO-PNT era.",
-      "date": "2026-03-28",
-      "lastUpdated": null,
-      "author": "ESA",
-      "category": [
-        "esa"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-28-celeste-rocket-lab-launch-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-28-celeste-rocket-lab-launch.md",
       "path": "/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch/",
       "title": "ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启",
       "description": "2026 年 3 月 28 日，ESA 首两颗 Celeste 卫星由 Rocket Lab Electron 火箭成功发射升空，欧洲低轨卫星导航增强（LEO-PNT）时代正式开启。",
@@ -534,20 +456,7 @@
       "image": "/space-news/2026/03/figures/2026-03-28-celeste-rocket-lab-launch-zh/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-28-mike-fincke-medical-event-en.md",
-      "path": "/space-news/2026-03-28-mike-fincke-medical-event-en/",
-      "title": "NASA Astronaut Mike Fincke Shares Details About Medical Event That Ended Crew-11 Mission Early",
-      "description": "NASA astronaut Mike Fincke has revealed more about the medical event that caused the Crew-11 mission to return to Earth more than a month ahead of schedule in January 2026.",
-      "date": "2026-03-28",
-      "lastUpdated": null,
-      "author": "SpacePolicyOnline",
-      "category": [
-        "iss"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-28-mike-fincke-medical-event-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-28-mike-fincke-medical-event.md",
       "path": "/space-news/2026/03/2026-03-28-mike-fincke-medical-event/",
       "title": "NASA 航天员 Mike Fincke 披露 Crew-11 提前返航医学事件详情",
       "description": "2026 年 3 月 28 日，NASA 航天员 Mike Fincke 首次披露了导致 Crew-11 任务提前一个多月返回地球的医学事件详情，表示事发前毫无预兆，持续约 20 分钟后自行缓解，但医生至今未查明原因。",
@@ -560,20 +469,7 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events-en.md",
-      "path": "/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/",
-      "title": "Artemis II Crew Answers Media Questions as Launch Week Begins",
-      "description": "On March 29, 2026, the Artemis II crew answered reporters' questions from quarantine while NASA officials provided a mission status update, three days before the planned April 1 launch.",
-      "date": "2026-03-29",
-      "lastUpdated": "2026-03-29",
-      "author": "SpacePolicyOnline",
-      "category": [
-        "artemis"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events.md",
       "path": "/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/",
       "title": "Artemis II 乘组发射前接受媒体提问，三天后启程赴月",
       "description": "2026 年 3 月 29 日，Artemis II 乘组在肯尼迪航天中心隔离设施中远程接受媒体提问，NASA 同步召开新闻发布会介绍任务状态，计划 4 月 1 日发射。",
@@ -586,20 +482,7 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-30-artemis-2-final-preparations-en.md",
-      "path": "/space-news/2026/03/2026-03-30-artemis-2-final-preparations/",
-      "title": "Final Preparations Underway for Artemis II Moon Mission, 80% Go Weather Forecast",
-      "description": "NASA teams at Kennedy Space Center are making final preparations for the Artemis II launch countdown, with an 80% chance of favorable weather for the April 1 target.",
-      "date": "2026-03-30",
-      "lastUpdated": "2026-03-30",
-      "author": "天疆说",
-      "category": [
-        "artemis"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-30-artemis-2-final-preparations-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-30-artemis-2-final-preparations.md",
       "path": "/space-news/2026/03/2026-03-30-artemis-2-final-preparations/",
       "title": "Artemis II 绕月任务进入最终准备阶段，发射日天气预报 80% 适宜发射",
       "description": "NASA 肯尼迪航天中心团队正在进行 Artemis II 发射倒计时的最终准备工作，4 月 1 日发射当天天气预报显示 80% 适宜发射。",
@@ -625,20 +508,7 @@
       "image": "/space-news/2026/03/figures/2026-03-30-lift-2-maiden-flight/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-30-spacex-transporter-16-en.md",
-      "path": "/space-news/2026/03/2026-03-30-spacex-transporter-16/",
-      "title": "SpaceX Set to Launch 119 Payloads on Transporter-16 Rideshare Mission From Vandenberg",
-      "description": "On March 30, 2026, SpaceX's Falcon 9 will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads to orbit.",
-      "date": "2026-03-30",
-      "lastUpdated": "2026-03-30",
-      "author": "天疆说",
-      "category": [
-        "spacex"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-30-spacex-transporter-16-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-30-spacex-transporter-16.md",
       "path": "/space-news/2026/03/2026-03-30-spacex-transporter-16/",
       "title": "SpaceX 将于 3 月 30 日执行 Transporter-16 拼车任务，从范登堡发射 119 个有效载荷",
       "description": "2026 年 3 月 30 日，SpaceX 猎鹰 9 号火箭将从加利福尼亚州范登堡太空军基地执行 Transporter-16 拼车任务，携带 119 个有效载荷进入轨道。",
@@ -651,20 +521,7 @@
       "image": "/space-news/2026/03/figures/2026-03-30-spacex-transporter-16/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-en.md",
-      "path": "/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire/",
-      "title": "SpaceX Fires Up Next-Gen V3 Starship for First Time Ahead of April Launch",
-      "description": "SpaceX completed the first static fire test of its next-generation V3 Starship in March 2026, preparing for an April launch attempt.",
-      "date": "2026-03-30",
-      "lastUpdated": "2026-03-30",
-      "author": "天疆说",
-      "category": [
-        "spacex"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire.md",
       "path": "/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire/",
       "title": "SpaceX 完成新一代 V3 版星舰静态点火测试，计划 4 月发射",
       "description": "2026 年 3 月，SpaceX 完成了新一代 V3 版星舰的首次静态点火测试，为 4 月的发射任务做准备。",
@@ -677,20 +534,7 @@
       "image": "/space-news/2026/03/figures/2026-03-30-spacex-v3-starship-static-fire/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-31-artemis-2-countdown-begins-en.md",
-      "path": "/space-news/2026/03/2026-03-31-artemis-2-countdown-begins/",
-      "title": "Artemis II Launch Countdown Officially Underway, T-2 Days to Historic Moon Mission",
-      "description": "NASA's Artemis II launch countdown has begun at Kennedy Space Center, with the clock ticking toward an April 1 target launch time of 6:24 p.m. EDT for the first crewed Moon mission in over 50 years.",
-      "date": "2026-03-31",
-      "lastUpdated": "2026-03-31",
-      "author": "天疆说",
-      "category": [
-        "artemis"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-31-artemis-2-countdown-begins-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-31-artemis-2-countdown-begins.md",
       "path": "/space-news/2026/03/2026-03-31-artemis-2-countdown-begins/",
       "title": "Artemis II 发射倒计时正式启动，距历史性绕月任务仅剩 2 天",
       "description": "NASA Artemis II 发射倒计时已在肯尼迪航天中心正式启动，倒计时时钟于美东时间 16:44 开始计时，目标发射时间为 4 月 1 日 18:24，这是 50 多年来首次载人月球任务。",
@@ -703,20 +547,7 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-31-artemis-2-solar-flare-en.md",
-      "path": "/space-news/2026/03/2026-03-31-artemis-2-solar-flare/",
-      "title": "X1.4 Solar Flare Poses No Threat to Artemis II Launch, NASA Confirms",
-      "description": "A massive X1.4-class solar flare erupted from the Sun on March 29, triggering radio blackouts over Asia and Australia, but NASA says space weather will not affect the Artemis II crewed Moon launch on April 1.",
-      "date": "2026-03-31",
-      "lastUpdated": "2026-03-31",
-      "author": "天疆说",
-      "category": [
-        "artemis"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-31-artemis-2-solar-flare-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-31-artemis-2-solar-flare.md",
       "path": "/space-news/2026/03/2026-03-31-artemis-2-solar-flare/",
       "title": "X1.4 级太阳耀斑对 Artemis II 发射无威胁，NASA 确认按计划进行",
       "description": "太阳在 3 月 29 日爆发 X1.4 级强烈耀斑，引发亚洲和澳大利亚无线电中断，但 NASA 确认不会影响 4 月 1 日 Artemis II 载人绕月任务发射。",
@@ -729,20 +560,7 @@
       "image": null
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-31-iss-expedition-74-week-en.md",
-      "path": "/space-news/2026/03/2026-03-31-iss-expedition-74-week/",
-      "title": "ISS Expedition 74 Crew Kicks Off Week With Cygnus Cargo Training and Spacewalk Cleanup",
-      "description": "Expedition 74 astronauts trained for the upcoming Northrop Grumman Cygnus XL cargo mission, serviced spacesuits from last week's EVA, and conducted emergency medical drills aboard the International Space Station.",
-      "date": "2026-03-31",
-      "lastUpdated": "2026-03-31",
-      "author": "天疆说",
-      "category": [
-        "iss"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-31-iss-expedition-74-week-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-31-iss-expedition-74-week.md",
       "path": "/space-news/2026/03/2026-03-31-iss-expedition-74-week/",
       "title": "国际空间站第 74 远征队乘组备战 Cygnus 货运任务并维护太空行走宇航服",
       "description": "第 74 远征队宇航员为诺斯罗普·格鲁曼 Cygnus XL 货运飞船的到来进行训练，维护上周太空行走使用的宇航服，并在国际空间站上开展紧急医疗演习。",
@@ -755,20 +573,7 @@
       "image": "/space-news/2026/03/figures/2026-03-31-iss-expedition-74-week/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition-en.md",
-      "path": "/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition/",
-      "title": "Rocket Lab Receives Regulatory Approval to Acquire Mynaric, Bringing Laser Communications In-House",
-      "description": "Rocket Lab has received German regulatory approval to acquire Mynaric AG, a leading provider of laser optical communications terminals. The deal is expected to close in April 2026.",
-      "date": "2026-03-31",
-      "lastUpdated": "2026-03-31",
-      "author": "天疆说",
-      "category": [
-        "commercial-space"
-      ],
-      "image": null
-    },
-    {
-      "relativePath": "space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition-zh.md",
+      "relativePath": "space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition.md",
       "path": "/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition/",
       "title": "Rocket Lab 获监管批准收购 Mynaric，激光通信技术将纳入内部体系",
       "description": "Rocket Lab 获得德国联邦经济事务与能源部监管批准，将收购激光光通信终端领先供应商 Mynaric AG，预计 2026 年 4 月完成交易，进一步强化卫星星座通信能力。",
@@ -1371,6 +1176,19 @@
       "image": null
     },
     {
+      "relativePath": "en/space-news/2026/03/2026-03-25-cavossa-commercial-space.md",
+      "path": "/en/space-news/2026-03-25-cavossa-commercial-space/",
+      "title": "Commercial Space Station Companies Push Back on NASA's New Plan at House Hearing",
+      "description": "Companies developing commercial space stations to replace the ISS told a House subcommittee they want NASA to 'stick with the plan' and not make changes that are 'sowing confusion' in the industry.",
+      "date": "2026-03-25",
+      "lastUpdated": null,
+      "author": "SpacePolicyOnline",
+      "category": [
+        "commercial"
+      ],
+      "image": null
+    },
+    {
       "relativePath": "en/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06.md",
       "path": "/en/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06/",
       "title": "China launches Siwei Gaojing-2 05 & 06 satellites",
@@ -1397,12 +1215,12 @@
       "image": null
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-27-artemis-2-crew-suits-en.md",
-      "path": "/en/space-news/2026-03-27-artemis-2-crew-suits-en/",
+      "relativePath": "en/space-news/2026/03/2026-03-27-artemis-2-crew-suits.md",
+      "path": "/en/space-news/2026/03/2026-03-27-artemis-2-crew-suits/",
       "title": "NASA Unveils Artemis II Crew's Survival Suits",
       "description": "NASA reveals the Orion Crew Survival System suits that the four Artemis II astronauts will wear for the first crewed lunar flight since Apollo.",
       "date": "2026-03-27",
-      "lastUpdated": null,
+      "lastUpdated": "2026-03-27",
       "author": "Monika Luabeya",
       "category": [
         "nasa"
@@ -1410,7 +1228,7 @@
       "image": "/en/space-news/2026/03/figures/2026-03-27-artemis-2-crew-suits-en/hero.jpg"
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-27-artemis-2-one-week-away-en.md",
+      "relativePath": "en/space-news/2026/03/2026-03-27-artemis-2-one-week-away.md",
       "path": "/en/space-news/2026/03/2026-03-27-artemis-2-one-week-away/",
       "title": "NASA Artemis II Crewed Lunar Mission Enters Final Week Countdown",
       "description": "On March 27, 2026, NASA Artemis II is one week from launch — the first crewed lunar orbit flight since Apollo 17 in 1972.",
@@ -1423,33 +1241,33 @@
       "image": null
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite-en.md",
-      "path": "/en/space-news/2026-03-27-china-esa-smile-satellite-en/",
-      "title": "China-EU Joint SMILE Satellite Completes Launch Preparations, Targeting April 9 Launch",
-      "description": "The China Academy of Sciences and ESA jointly announce that the SMILE (Solar wInd Magnetosphere Ionosphere Link Explorer) satellite has completed all pre-launch preparations at the Kourou Spaceport, with launch scheduled for April 9.",
+      "relativePath": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite.md",
+      "path": "/en/space-news/2026/03/2026-03-27-china-esa-smile-satellite/",
+      "title": "China-Europe SMILE Satellite Completes Pre-Launch Preparations Ahead of April 9 Launch",
+      "description": "The China Academy of Sciences announced on March 26, 2026 that the China-ESA joint SMILE satellite has completed all pre-launch preparations at the Kourou Launch Center, scheduled for April 9 local time aboard Vega-C.",
       "date": "2026-03-27",
-      "lastUpdated": null,
-      "author": "天疆说",
+      "lastUpdated": "2026-03-27",
+      "author": "CNSA / ESA",
       "category": [
         "china"
       ],
-      "image": "/en/space-news/2026/03/figures/2026-03-27-china-esa-smile-satellite-en/hero.jpg"
+      "image": null
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-27-china-shiyan-33-en.md",
-      "path": "/en/space-news/2026-03-27-china-shiyan-33-en/",
-      "title": "China Successfully Launches Shiyan-33 Satellite",
-      "description": "On March 27, 2026, China successfully launched the Shiyan-33 experimental satellite aboard a Long March 2C/Yuanzheng-1S rocket from the Jiuquan Satellite Launch Center.",
+      "relativePath": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+      "path": "/en/space-news/2026/03/2026-03-27-china-shiyan-33/",
+      "title": "China Launches Shiyan-33 Satellite for Space Environment Testing",
+      "description": "China successfully launched the Shiyan-33 satellite on March 27, 2026, using a Long March 2C rocket with Yuanzheng-1S upper stage from Jiuquan Satellite Launch Center.",
       "date": "2026-03-27",
-      "lastUpdated": null,
-      "author": "天疆说",
+      "lastUpdated": "2026-03-27",
+      "author": "CNSA",
       "category": [
         "china"
       ],
-      "image": "/en/space-news/2026/03/figures/2026-03-27-china-shiyan-33-en/hero.jpg"
+      "image": null
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module-en.md",
+      "relativePath": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
       "path": "/en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module/",
       "title": "How Europe Will Power the Journey to the Moon and Back - ESA Artemis II Service Module Video",
       "description": "On March 27, 2026, ESA released a video explaining the European Service Module for Artemis II - providing propulsion, power, and life support for the crewed lunar orbit mission.",
@@ -1462,7 +1280,7 @@
       "image": null
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview-en.md",
+      "relativePath": "en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview.md",
       "path": "/en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview/",
       "title": "ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron",
       "description": "On March 27, 2026, ESA announced the first two Celeste satellites will launch on March 28 at 10:14 CET aboard a Rocket Lab Electron rocket from New Zealand — Europe's first LEO-PNT demonstration mission.",
@@ -1475,30 +1293,82 @@
       "image": "/en/space-news/2026/03/figures/2026-03-27-esa-celeste-rocket-lab-launch-preview-en/hero.jpg"
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft-en.md",
-      "path": "/en/space-news/2026-03-27-nasa-nuclear-spacecraft-en/",
+      "relativePath": "en/space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft.md",
+      "path": "/en/space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft/",
       "title": "NASA Developing First Nuclear-Powered Interplanetary Spacecraft",
       "description": "NASA is working on the first nuclear-powered interplanetary spacecraft, marking a new era in deep space exploration capabilities.",
       "date": "2026-03-27",
-      "lastUpdated": null,
+      "lastUpdated": "2026-03-27",
       "author": "Keith Cooper",
       "category": [
         "nasa"
       ],
-      "image": "/en/space-news/2026/03/figures/2026-03-27-nasa-nuclear-spacecraft-en/hero.jpg"
+      "image": null
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch-en.md",
-      "path": "/en/space-news/2026-03-28-celeste-rocket-lab-launch-en/",
-      "title": "ESA's First Celeste Satellites Successfully Launched — Europe's LEO-PNT Era Begins",
-      "description": "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard a Rocket Lab Electron rocket, marking the beginning of Europe's low-Earth-orbit satellite navigation augmentation era.",
+      "relativePath": "en/space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc.md",
+      "path": "/en/space-news/2026-03-28-artemis-2-crew-arrive-ksc/",
+      "title": "Artemis II Crew Arrives at Kennedy Space Center Ahead of Moon Mission",
+      "description": "The four Artemis II astronauts and their backups arrived at Kennedy Space Center on March 27, 2026, ahead of their historic flight around the Moon scheduled for April 1.",
       "date": "2026-03-28",
       "lastUpdated": null,
-      "author": "天疆说",
+      "author": "SpacePolicyOnline",
+      "category": [
+        "artemis"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch.md",
+      "path": "/en/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch/",
+      "title": "ESA's First Celeste Satellites Successfully Launched — Europe's LEO Navigation Augmentation Era Begins",
+      "description": "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard Rocket Lab's Electron rocket from New Zealand, marking the beginning of Europe's LEO-PNT era.",
+      "date": "2026-03-28",
+      "lastUpdated": "2026-03-28",
+      "author": "ESA",
       "category": [
         "esa"
       ],
-      "image": "/en/space-news/2026/03/figures/2026-03-28-celeste-rocket-lab-launch-en/hero.jpg"
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-28-mike-fincke-medical-event.md",
+      "path": "/en/space-news/2026/03/2026-03-28-mike-fincke-medical-event/",
+      "title": "NASA Astronaut Mike Fincke Shares Details About Medical Event That Ended Crew-11 Mission Early",
+      "description": "NASA astronaut Mike Fincke has revealed more about the medical event that caused the Crew-11 mission to return to Earth more than a month ahead of schedule in January 2026.",
+      "date": "2026-03-28",
+      "lastUpdated": "2026-03-28",
+      "author": "SpacePolicyOnline",
+      "category": [
+        "iss"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events.md",
+      "path": "/en/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events/",
+      "title": "Artemis II Crew Answers Media Questions as Launch Week Begins",
+      "description": "On March 29, 2026, the Artemis II crew answered reporters' questions from quarantine while NASA officials provided a mission status update, three days before the planned April 1 launch.",
+      "date": "2026-03-29",
+      "lastUpdated": "2026-03-29",
+      "author": "SpacePolicyOnline",
+      "category": [
+        "artemis"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-30-artemis-2-final-preparations.md",
+      "path": "/en/space-news/2026/03/2026-03-30-artemis-2-final-preparations/",
+      "title": "Final Preparations Underway for Artemis II Moon Mission, 80% Go Weather Forecast",
+      "description": "NASA teams at Kennedy Space Center are making final preparations for the Artemis II launch countdown, with an 80% chance of favorable weather for the April 1 target.",
+      "date": "2026-03-30",
+      "lastUpdated": "2026-03-30",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": null
     },
     {
       "relativePath": "en/space-news/2026/03/2026-03-30-lift-2-maiden-flight.md",
@@ -1514,30 +1384,82 @@
       "image": "/en/space-news/2026/03/figures/2026-03-30-lift-2-maiden-flight/hero.jpg"
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-30-spacex-transporter-16-en.md",
-      "path": "/en/space-news/2026-03-30-spacex-transporter-16-en/",
-      "title": "SpaceX Transporter-16 Rideshare Mission Set for March 30 Launch from Vandenberg",
-      "description": "On March 30, 2026, SpaceX's Falcon 9 rocket will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads into orbit.",
+      "relativePath": "en/space-news/2026/03/2026-03-30-spacex-transporter-16.md",
+      "path": "/en/space-news/2026/03/2026-03-30-spacex-transporter-16/",
+      "title": "SpaceX Set to Launch 119 Payloads on Transporter-16 Rideshare Mission From Vandenberg",
+      "description": "On March 30, 2026, SpaceX's Falcon 9 will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads to orbit.",
       "date": "2026-03-30",
-      "lastUpdated": null,
+      "lastUpdated": "2026-03-30",
       "author": "天疆说",
       "category": [
         "spacex"
       ],
-      "image": "/en/space-news/2026/03/figures/2026-03-30-spacex-transporter-16-en/hero.jpg"
+      "image": null
     },
     {
-      "relativePath": "en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire-en.md",
-      "path": "/en/space-news/2026-03-30-spacex-v3-starship-static-fire-en/",
-      "title": "SpaceX Completes First Static Fire Test of Next-Gen V3 Starship Ahead of April Launch",
-      "description": "In March 2026, SpaceX successfully completed the first static fire test of the next-generation Starship Version 3, preparing for an April launch. This version will be the most powerful Starship yet.",
+      "relativePath": "en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire.md",
+      "path": "/en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire/",
+      "title": "SpaceX Fires Up Next-Gen V3 Starship for First Time Ahead of April Launch",
+      "description": "SpaceX completed the first static fire test of its next-generation V3 Starship in March 2026, preparing for an April launch attempt.",
       "date": "2026-03-30",
-      "lastUpdated": null,
+      "lastUpdated": "2026-03-30",
       "author": "天疆说",
       "category": [
         "spacex"
       ],
-      "image": "/en/space-news/2026/03/figures/2026-03-30-spacex-v3-starship-static-fire-en/hero.jpg"
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-31-artemis-2-countdown-begins.md",
+      "path": "/en/space-news/2026/03/2026-03-31-artemis-2-countdown-begins/",
+      "title": "Artemis II Launch Countdown Officially Underway, T-2 Days to Historic Moon Mission",
+      "description": "NASA's Artemis II launch countdown has begun at Kennedy Space Center, with the clock ticking toward an April 1 target launch time of 6:24 p.m. EDT for the first crewed Moon mission in over 50 years.",
+      "date": "2026-03-31",
+      "lastUpdated": "2026-03-31",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-31-artemis-2-solar-flare.md",
+      "path": "/en/space-news/2026/03/2026-03-31-artemis-2-solar-flare/",
+      "title": "X1.4 Solar Flare Poses No Threat to Artemis II Launch, NASA Confirms",
+      "description": "A massive X1.4-class solar flare erupted from the Sun on March 29, triggering radio blackouts over Asia and Australia, but NASA says space weather will not affect the Artemis II crewed Moon launch on April 1.",
+      "date": "2026-03-31",
+      "lastUpdated": "2026-03-31",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-31-iss-expedition-74-week.md",
+      "path": "/en/space-news/2026/03/2026-03-31-iss-expedition-74-week/",
+      "title": "ISS Expedition 74 Crew Kicks Off Week With Cygnus Cargo Training and Spacewalk Cleanup",
+      "description": "Expedition 74 astronauts trained for the upcoming Northrop Grumman Cygnus XL cargo mission, serviced spacesuits from last week's EVA, and conducted emergency medical drills aboard the International Space Station.",
+      "date": "2026-03-31",
+      "lastUpdated": "2026-03-31",
+      "author": "天疆说",
+      "category": [
+        "iss"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition.md",
+      "path": "/en/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition/",
+      "title": "Rocket Lab Receives Regulatory Approval to Acquire Mynaric, Bringing Laser Communications In-House",
+      "description": "Rocket Lab has received German regulatory approval to acquire Mynaric AG, a leading provider of laser optical communications terminals. The deal is expected to close in April 2026.",
+      "date": "2026-03-31",
+      "lastUpdated": "2026-03-31",
+      "author": "天疆说",
+      "category": [
+        "commercial-space"
+      ],
+      "image": null
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-01-artemis-2-launch.md",
