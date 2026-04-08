@@ -1,7 +1,7 @@
 ---
 title: "Rocket Lab Receives Regulatory Approval to Acquire Mynaric, Bringing Laser Communications In-House"
 description: "Rocket Lab has received German regulatory approval to acquire Mynaric AG, a leading provider of laser optical communications terminals. The deal is expected to close in April 2026."
-permalink: /space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition/
+permalink: /en/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition/
 author: 天疆说
 date: 2026-03-31
 lastUpdated: 2026-03-31

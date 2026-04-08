@@ -2,6 +2,8 @@
 title: "NASA正在开发首个核动力星际飞船"
 description: "NASA正在开发首个核动力星际飞船，标志着深空探索能力进入新时代。"
 date: 2026-03-27
+permalink: /space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft/
+lastUpdated: 2026-03-27
 author: Keith Cooper
 source: Space.com
 source_url: https://www.space.com/space-exploration/nasa-is-developing-the-1st-nuclear-powered-interplanetary-spacecraft-what-about-the-voyager-probes

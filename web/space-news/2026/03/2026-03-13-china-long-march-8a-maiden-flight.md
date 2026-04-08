@@ -1,7 +1,7 @@
 ---
 title: 长征八号甲运载火箭首飞成功
 description: 2026 年 3 月 13 日，长征八号甲运载火箭自海南商业航天发射场成功首飞，将卫星互联网低轨 20 组卫星送入轨道。
-permalink: /space-news/2026/03/2026-03-13-china-long-march-8a maiden-flight/
+permalink: /space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight/
 author: 天疆说
 date: 2026-03-13
 lastUpdated: 2026-03-13

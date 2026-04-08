@@ -2,6 +2,8 @@
 title: "NASA公布Artemis II任务航天服"
 description: "NASA公布了Artemis II任务中4名航天员将穿戴的Orion机组生存系统航天服。"
 date: 2026-03-27
+permalink: /space-news/2026/03/2026-03-27-artemis-2-crew-suits/
+lastUpdated: 2026-03-27
 author: Monika Luabeya
 source: NASA
 source_url: https://www.nasa.gov/image-article/artemis-ii-crews-suits/

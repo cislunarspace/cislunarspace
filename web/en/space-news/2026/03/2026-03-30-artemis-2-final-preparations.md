@@ -1,7 +1,7 @@
 ---
 title: "Final Preparations Underway for Artemis II Moon Mission, 80% Go Weather Forecast"
 description: "NASA teams at Kennedy Space Center are making final preparations for the Artemis II launch countdown, with an 80% chance of favorable weather for the April 1 target."
-permalink: /space-news/2026/03/2026-03-30-artemis-2-final-preparations/
+permalink: /en/space-news/2026/03/2026-03-30-artemis-2-final-preparations/
 author: 天疆说
 date: 2026-03-30
 lastUpdated: 2026-03-30
