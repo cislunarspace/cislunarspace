@@ -705,6 +705,87 @@
       "image": "/space-news/2026/04/figures/2026-04-06-csc2026-announcement/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-07-artemis-2-lunar-flyby.md",
+      "path": "/space-news/2026/04/2026-04-07-artemis-2-lunar-flyby/",
+      "title": "Artemis II 月球飞越完成：打破 Apollo 13 最远载人航天记录，距地球 406,771 公里",
+      "description": "Artemis II 乘组成功完成月球飞越，Orion 飞船以距月球表面约 6,500 公里的高度掠过月球背面，超越 Apollo 13 创下的载人航天最远距离记录，达 406,771 公里。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-07-hungary-husat.md",
+      "path": "/space-news/2026/04/2026-04-07-hungary-husat/",
+      "title": "匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT",
+      "description": "匈牙利与诺斯罗普·格鲁曼公司签署合同，建造其首颗国家地球静止轨道通信卫星 HUSAT，由匈牙利 4iG 集团和诺格联合开发，预计 2028 年发射。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-hungary-husat/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-07-isaacman-nasa-budget.md",
+      "path": "/space-news/2026/04/2026-04-07-isaacman-nasa-budget/",
+      "title": "NASA 局长 Isaacson 为大幅削减预算方案辩护，称将聚焦'大胆目标'",
+      "description": "NASA 局长 Jared Isaacman 在国会听证会上为特朗普政府提出的 NASA 预算削减方案辩护，该方案提议将 NASA 预算削减约 20%，科学项目首当其冲。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "nasa",
+        "policy"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-isaacman-nasa-budget/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-07-nasa-ml2-stop-work.md",
+      "path": "/space-news/2026/04/2026-04-07-nasa-ml2-stop-work/",
+      "title": "NASA 暂停 SLS 移动发射台 2（ML-2）建造工作，Artemis IV 及后续任务面临不确定性",
+      "description": "NASA 已通知承包商 Bechtel 停止 SLS Block 1B 移动发射台 2（ML-2）的建造工作，该项目已累计投入超过 10 亿美元但严重超支超期，影响 Artemis IV 及后续任务时间表。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "nasa"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-nasa-ml2-stop-work/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-07-starfish-funding.md",
+      "path": "/space-news/2026/04/2026-04-07-starfish-funding/",
+      "title": "Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter",
+      "description": "在轨服务初创公司 Starfish Space 完成超过 1 亿美元的新一轮融资，资金将用于推进其 Otter 在轨服务航天器的开发和首次任务。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-starfish-funding/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-09-smile-postponed.md",
+      "path": "/space-news/2026/04/2026-04-09-smile-postponed/",
+      "title": "中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定",
+      "description": "欧空局（ESA）宣布原定于 4 月 9 日由 Vega-C 火箭发射的中欧联合 SMILE 科学卫星因技术问题推迟，新发射日期待定。SMILE 由 ESA 和中国科学院联合研制，用于研究太阳风与地球磁层的相互作用。",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-09",
+      "author": "天疆说",
+      "category": [
+        "esa",
+        "china",
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-09-smile-postponed/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
       "path": "/space-news/2026-04-24-nasa-lunar-base-plan/",
       "title": "",
@@ -1442,6 +1523,87 @@
       "author": null,
       "category": null,
       "image": "/en/space-news/2026/04/figures/2026-04-06-csc2026-announcement/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-07-artemis-2-lunar-flyby.md",
+      "path": "/en/space-news/2026/04/2026-04-07-artemis-2-lunar-flyby/",
+      "title": "Artemis II Completes Lunar Flyby: Breaks Apollo 13 Distance Record at 406,771 km from Earth",
+      "description": "Artemis II crew successfully completed the lunar flyby, with Orion passing about 6,500 km above the Moon's far side and surpassing Apollo 13's crewed distance record at 406,771 km from Earth.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-07-hungary-husat.md",
+      "path": "/en/space-news/2026/04/2026-04-07-hungary-husat/",
+      "title": "Hungary Taps Northrop Grumman for First National GEO Communications Satellite HUSAT",
+      "description": "Hungary signed a contract with Northrop Grumman to build HUSAT, its first national geostationary communications satellite, developed jointly with Hungary's 4iG Group and targeting a 2028 launch.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-hungary-husat/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-07-isaacman-nasa-budget.md",
+      "path": "/en/space-news/2026/04/2026-04-07-isaacman-nasa-budget/",
+      "title": "NASA Administrator Isaacman Defends Steep Budget Cuts, Pledges Focus on 'Bold Goals'",
+      "description": "NASA Administrator Jared Isaacman defended the Trump administration's proposed ~20% budget cut to NASA during congressional hearings, arguing the agency will be more efficient and focus on bold exploration goals.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "nasa",
+        "policy"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-isaacman-nasa-budget/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-07-nasa-ml2-stop-work.md",
+      "path": "/en/space-news/2026/04/2026-04-07-nasa-ml2-stop-work/",
+      "title": "NASA Halts Work on SLS Mobile Launcher 2, Casting Doubt on Artemis IV and Beyond",
+      "description": "NASA has ordered a stop-work on Mobile Launcher 2 (ML-2) built by Bechtel, with the project exceeding $1 billion in spending amid massive cost overruns and delays, threatening the Artemis IV timeline.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "nasa"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-nasa-ml2-stop-work/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-07-starfish-funding.md",
+      "path": "/en/space-news/2026/04/2026-04-07-starfish-funding/",
+      "title": "Starfish Space Raises Over $100 Million to Advance Otter On-Orbit Servicing Vehicle",
+      "description": "In-orbit servicing startup Starfish Space closed a new funding round exceeding $100 million, aimed at accelerating development of its Otter servicing spacecraft and its first GEO mission.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-starfish-funding/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-09-smile-postponed.md",
+      "path": "/en/space-news/2026/04/2026-04-09-smile-postponed/",
+      "title": "China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC",
+      "description": "ESA announced the postponement of the SMILE science satellite launch, originally scheduled for April 9 on a Vega-C rocket, due to a technical issue with a subsystem component. A new launch date is yet to be determined.",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-09",
+      "author": "天疆说",
+      "category": [
+        "esa",
+        "china",
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-09-smile-postponed/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",

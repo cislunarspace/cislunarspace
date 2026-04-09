@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-06
+lastUpdated: 2026-04-09
 ---
 
 # April 2026
@@ -34,6 +34,12 @@ lastUpdated: 2026-04-06
 | Apr 5 | [Shenzhou-21 Crew Surpasses Five Months in Orbit, Space Station Experiments Progress](./2026-04-05-shenzhou-21-five-months/) |
 | Apr 6 | [2026 China Space Conference (CSC2026) to be Held in Chengdu on April 23-26](./2026-04-06-csc2026-announcement/) |
 | Apr 4 | [Shenzhou-21 Crew Completes Second EVA, Approaching 150-Day On-Orbit Milestone](./2026-04-04-shenzhou-21-eva/) |
+| Apr 7 | [Artemis II Completes Lunar Flyby: Breaks Apollo 13 Distance Record at 406,771 km from Earth](./2026-04-07-artemis-2-lunar-flyby/) |
+| Apr 7 | [NASA Halts Work on SLS Mobile Launcher 2, Casting Doubt on Artemis IV and Beyond](./2026-04-07-nasa-ml2-stop-work/) |
+| Apr 7 | [NASA Administrator Isaacman Defends Steep Budget Cuts, Pledges Focus on 'Bold Goals'](./2026-04-07-isaacman-nasa-budget/) |
+| Apr 7 | [Hungary Taps Northrop Grumman for First National GEO Communications Satellite HUSAT](./2026-04-07-hungary-husat/) |
+| Apr 7 | [Starfish Space Raises Over $100 Million to Advance Otter On-Orbit Servicing Vehicle](./2026-04-07-starfish-funding/) |
+| Apr 9 | [China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC](./2026-04-09-smile-postponed/) |
 
 ---
 
