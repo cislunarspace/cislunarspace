@@ -1,5 +1,5 @@
 import type { SidebarConfig } from 'vuepress'
-import autoSidebar from './sidebar.auto.json' with { type: 'json' }
+import autoSidebar from './sidebar.auto.json'
 
 const mainSidebar = [
   {
