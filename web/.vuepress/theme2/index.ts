@@ -11,4 +11,4 @@ export default ((options) => {
       '@theme/Layout.vue': path.resolve(__dirname, 'layouts/Layout.vue'),
     },
   }
-}) satisfies Theme
+}) as Theme
