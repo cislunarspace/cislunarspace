@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-06
+lastUpdated: 2026-04-09
 ---
 
 # 2026 年 4 月
@@ -34,6 +34,12 @@ lastUpdated: 2026-04-06
 | 4-5 | [神舟二十一号航天员在轨工作超五个月 空间站多项科学实验稳步推进](./2026-04-05-shenzhou-21-five-months/) |
 | 4-6 | [2026年中国航天大会（CSC2026）将于4月23-26日在成都市举办](./2026-04-06-csc2026-announcement/) |
 | 4-4 | [神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑](./2026-04-04-shenzhou-21-eva/) |
+| 4-7 | [Artemis II 月球飞越完成：打破 Apollo 13 最远载人航天记录，距地球 406,771 公里](./2026-04-07-artemis-2-lunar-flyby/) |
+| 4-7 | [NASA 暂停 SLS 移动发射台 2（ML-2）建造工作，Artemis IV 及后续任务面临不确定性](./2026-04-07-nasa-ml2-stop-work/) |
+| 4-7 | [NASA 局长 Isaacson 为大幅削减预算方案辩护，称将聚焦"大胆目标"](./2026-04-07-isaacman-nasa-budget/) |
+| 4-7 | [匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT](./2026-04-07-hungary-husat/) |
+| 4-7 | [Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter](./2026-04-07-starfish-funding/) |
+| 4-9 | [中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定](./2026-04-09-smile-postponed/) |
 
 ---
 
