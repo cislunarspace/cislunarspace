@@ -14,6 +14,7 @@ lastUpdated: 2026-04-09
 | 日期 | 标题 |
 |------|------|
 | 4-1 | [Artemis II 成功发射：人类 50 多年来首次载人绕月任务启航](./2026-04-01-artemis-2-launch/) |
+| 4-1 | [中国初创公司 Sustain Space 在轨验证柔性机械臂，推进在轨服务能力](./2026-04-01-china-robotic-arm/) |
 | 4-2 | [Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球](./2026-04-02-artemis-2-tli-go/) |
 | 4-2 | [Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上奔月之旅](./2026-04-02-artemis-2-tli-complete/) |
 | 4-3 | [天龙三号首飞失利：中国商业航天大运力火箭首次飞行遭遇异常](./2026-04-03-tianlong-3-maiden-flight/) |
@@ -39,7 +40,9 @@ lastUpdated: 2026-04-09
 | 4-7 | [NASA 局长 Isaacson 为大幅削减预算方案辩护，称将聚焦"大胆目标"](./2026-04-07-isaacman-nasa-budget/) |
 | 4-7 | [匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT](./2026-04-07-hungary-husat/) |
 | 4-7 | [Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter](./2026-04-07-starfish-funding/) |
+| 4-8 | [诺格 CRS-24 国际空间站货运任务再度延期，发射日期推迟至 4 月 11 日](./2026-04-08-ng-crs24-delay/) |
 | 4-9 | [中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定](./2026-04-09-smile-postponed/) |
+| 4-9 | [德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验](./2026-04-09-isar-spectrum/) |
 
 ---
 
