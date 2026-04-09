@@ -507,6 +507,19 @@
       "image": null
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-01-china-robotic-arm.md",
+      "path": "/space-news/2026/04/2026-04-01-china-robotic-arm/",
+      "title": "中国初创公司 Sustain Space 在轨验证柔性机械臂，推进在轨服务能力",
+      "description": "中国商业航天公司 Sustain Space 的 Xiyuan-0 卫星成功完成柔性机械臂在轨演示，验证了自主加注模拟、遥操作、视觉伺服和力控操作四种模式，标志着中国在商业在轨服务领域取得重要进展。",
+      "date": "2026-04-01",
+      "lastUpdated": "2026-04-01",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-01-china-robotic-arm/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-02-artemis-2-tli-complete.md",
       "path": "/space-news/2026-04-02-artemis-2-tli-complete/",
       "title": "",
@@ -769,6 +782,32 @@
         "commercial"
       ],
       "image": "/space-news/2026/04/figures/2026-04-07-starfish-funding/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-08-ng-crs24-delay.md",
+      "path": "/space-news/2026/04/2026-04-08-ng-crs24-delay/",
+      "title": "诺格 CRS-24 国际空间站货运任务再度延期，发射日期推迟至 4 月 11 日",
+      "description": "Northrop Grumman 第 24 次商业补给服务任务（NG-24）发射日期从原定的 4 月 8 日三度推迟至 4 月 11 日，Cygnus 货运飞船将携带超过 8,000 磅物资飞往国际空间站。",
+      "date": "2026-04-08",
+      "lastUpdated": "2026-04-08",
+      "author": "天疆说",
+      "category": [
+        "iss"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-08-ng-crs24-delay/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-09-isar-spectrum.md",
+      "path": "/space-news/2026/04/2026-04-09-isar-spectrum/",
+      "title": "德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验",
+      "description": "德国商业火箭公司 Isar Aerospace 计划于 4 月 9 日从挪威安岛航天中心发射 Spectrum 火箭执行第二次试飞，搭载 5 颗立方星和 1 个技术验证载荷，此前因天气和技术原因已三度推迟。",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-09",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-09-isar-spectrum/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-09-smile-postponed.md",
@@ -1327,6 +1366,19 @@
       "image": null
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-01-china-robotic-arm.md",
+      "path": "/en/space-news/2026/04/2026-04-01-china-robotic-arm/",
+      "title": "Chinese Startup Sustain Space Validates Flexible Robotic Arm On-Orbit, Advancing Servicing Capabilities",
+      "description": "Sustain Space's Xiyuan-0 satellite successfully completed on-orbit demonstrations of a flexible robotic arm, verifying four operation modes including autonomous refueling simulation, teleoperation, and force-controlled manipulation.",
+      "date": "2026-04-01",
+      "lastUpdated": "2026-04-01",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-01-china-robotic-arm/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-02-artemis-2-tli-complete.md",
       "path": "/en/space-news/2026-04-02-artemis-2-tli-complete/",
       "title": "",
@@ -1589,6 +1641,32 @@
         "commercial"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-07-starfish-funding/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-08-ng-crs24-delay.md",
+      "path": "/en/space-news/2026/04/2026-04-08-ng-crs24-delay/",
+      "title": "Northrop Grumman CRS-24 ISS Resupply Mission Delayed Again to April 11",
+      "description": "NG-24 launch has been postponed three times from its original April 8 date to NET April 11, 7:41 a.m. EDT. The Cygnus cargo spacecraft will carry over 8,000 lbs of science and supplies to the ISS.",
+      "date": "2026-04-08",
+      "lastUpdated": "2026-04-08",
+      "author": "天疆说",
+      "category": [
+        "iss"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-08-ng-crs24-delay/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-09-isar-spectrum.md",
+      "path": "/en/space-news/2026/04/2026-04-09-isar-spectrum/",
+      "title": "Isar Aerospace Spectrum Rocket Set for Second Test Flight, a Key Test for European Commercial Launch",
+      "description": "German launch startup Isar Aerospace plans to launch its Spectrum rocket on a second test flight from Norway's Andøya Spaceport on April 9, carrying 5 CubeSats and 1 technology payload, after three prior delays.",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-09",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-09-isar-spectrum/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-09-smile-postponed.md",

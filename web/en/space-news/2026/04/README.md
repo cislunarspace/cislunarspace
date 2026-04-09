@@ -14,6 +14,7 @@ lastUpdated: 2026-04-09
 | Date | Title |
 |------|-------|
 | Apr 1 | [Artemis II Successfully Launches: First Crewed Lunar Mission in Over 50 Years](./2026-04-01-artemis-2-launch/) |
+| Apr 1 | [Chinese Startup Sustain Space Validates Flexible Robotic Arm On-Orbit, Advancing Servicing Capabilities](./2026-04-01-china-robotic-arm/) |
 | Apr 2 | [Artemis II Flight Day 2: Mission Team Approves Translunar Injection Burn](./2026-04-02-artemis-2-tli-go/) |
 | Apr 2 | [Artemis II Flight Day 2: TLI Burn Complete, Orion En Route to the Moon](./2026-04-02-artemis-2-tli-complete/) |
 | Apr 3 | [Tianlong-3 Maiden Flight Fails: China's Falcon 9-Class Commercial Rocket Loses Control After Liftoff](./2026-04-03-tianlong-3-maiden-flight/) |
@@ -39,7 +40,9 @@ lastUpdated: 2026-04-09
 | Apr 7 | [NASA Administrator Isaacman Defends Steep Budget Cuts, Pledges Focus on 'Bold Goals'](./2026-04-07-isaacman-nasa-budget/) |
 | Apr 7 | [Hungary Taps Northrop Grumman for First National GEO Communications Satellite HUSAT](./2026-04-07-hungary-husat/) |
 | Apr 7 | [Starfish Space Raises Over $100 Million to Advance Otter On-Orbit Servicing Vehicle](./2026-04-07-starfish-funding/) |
+| Apr 8 | [Northrop Grumman CRS-24 ISS Resupply Mission Delayed Again to April 11](./2026-04-08-ng-crs24-delay/) |
 | Apr 9 | [China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC](./2026-04-09-smile-postponed/) |
+| Apr 9 | [Isar Aerospace Spectrum Rocket Set for Second Test Flight, a Key Test for European Commercial Launch](./2026-04-09-isar-spectrum/) |
 
 ---
 
