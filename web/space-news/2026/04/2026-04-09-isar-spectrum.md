@@ -7,7 +7,6 @@ author: 天疆说
 date: 2026-04-09
 lastUpdated: 2026-04-09
 category: commercial
-image: ./figures/2026-04-09-isar-spectrum/hero.jpg
 tags:
   - Isar Aerospace
   - Spectrum
