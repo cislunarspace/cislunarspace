@@ -291,6 +291,15 @@ function generateId() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
 }
 
+// Client-side password hashing (SHA-256). Not a substitute for server-side auth.
+async function hashPassword(password) {
+  const encoder = new TextEncoder()
+  const data = encoder.encode(password)
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data)
+  const hashArray = Array.from(new Uint8Array(hashBuffer))
+  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('')
+}
+
 function escapeHtml(text) {
   const div = document.createElement('div')
   div.appendChild(document.createTextNode(text))
@@ -318,7 +327,7 @@ export default {
   },
   computed: {
     lang() {
-      return this.$lang && this.$lang.startsWith('en') ? 'en' : 'zh'
+      return (typeof window !== 'undefined' && window.location.pathname.startsWith('/en/')) ? 'en' : 'zh'
     },
     categories() {
       return [
@@ -409,7 +418,7 @@ export default {
       } catch (e) { /* ignore */ }
     },
     // ---- 认证 ----
-    handleAuth() {
+    async handleAuth() {
       this.authError = ''
       const { username, password } = this.authForm
       if (!username.trim()) {
@@ -426,7 +435,8 @@ export default {
           this.authError = this.t('userExists')
           return
         }
-        users[username] = { password, createdAt: Date.now() }
+        const hashed = await hashPassword(password)
+        users[username] = { password: hashed, createdAt: Date.now() }
         this.saveUsers(users)
         this.currentUser = { id: generateId(), username, isGuest: false }
         this.saveUser()
@@ -437,7 +447,8 @@ export default {
           this.authError = this.t('userNotFound')
           return
         }
-        if (users[username].password !== password) {
+        const hashed = await hashPassword(password)
+        if (users[username].password !== hashed) {
           this.authError = this.t('wrongPassword')
           return
         }

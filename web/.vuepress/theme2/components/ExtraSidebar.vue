@@ -9,14 +9,14 @@
         @mouseout="hideToc($event)"
       >
         <img class="nozoom" :src="item.icon" width="24px" />
-        <span class="show-txt" v-html="item.title" />
+        <span class="show-txt">{{ item.title }}</span>
         <div class="toc-container">
           <div class="pos-box">
             <div class="icon-arrow"></div>
             <div class="scroll-box" style="text-align:center">
-              <span v-html="item.popoverTitle"></span>
+              <span class="popover-title">{{ item.popoverTitle }}</span>
               <img :src="item.popoverUrl" height="180px" style="margin:10px;" />
-              <span v-html="item.popoverDesc"></span>
+              <span>{{ item.popoverDesc }}</span>
             </div>
           </div>
         </div>
@@ -26,14 +26,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import extraSideBarConfig from '../../extraSideBar.js'
 
-const list = ref<any[]>([])
-
-onMounted(() => {
-  list.value = extraSideBarConfig
-})
+const list = ref(extraSideBarConfig)
 
 function showToc(event: MouseEvent) {
   ;(event.currentTarget as HTMLElement).className = 'option-box on'
@@ -128,5 +124,10 @@ function hideToc(event: MouseEvent) {
   .page-sidebar {
     display: none;
   }
+}
+
+.popover-title {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 </style>

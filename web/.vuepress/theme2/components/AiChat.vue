@@ -314,7 +314,31 @@ function renderLinkedHtml(text) {
     html.push(`<p>${renderInlineMarkdown(line, katexResult.placeholders)}</p>`)
   }
 
-  return html.join('')
+  return sanitizeGeneratedHtml(html.join(''))
+}
+
+// Strip dangerous attributes from AI-generated HTML to mitigate XSS
+function sanitizeGeneratedHtml(html) {
+  if (typeof window === 'undefined') return html
+  const template = document.createElement('template')
+  template.innerHTML = html
+  const walker = document.createTreeWalker(template.content, NodeFilter.SHOW_ELEMENT)
+  while (walker.nextNode()) {
+    const el = walker.currentNode
+    for (const attr of [...el.attributes]) {
+      const name = attr.name.toLowerCase()
+      if (name.startsWith('on') || name === 'srcdoc' || name === 'javascript:') {
+        el.removeAttribute(attr.name)
+      }
+      if (name === 'href' || name === 'src') {
+        const val = attr.value.trim().toLowerCase()
+        if (val.startsWith('javascript:') || val.startsWith('data:') || val.startsWith('vbscript:')) {
+          el.removeAttribute(attr.name)
+        }
+      }
+    }
+  }
+  return template.innerHTML
 }
 
 const zhSidebarEntries = buildSidebarEntries(sidebarConfig)
@@ -374,7 +398,7 @@ export default {
   },
   computed: {
     isEn() {
-      return (this.$routeLocale || '/') === '/en/'
+      return (typeof window !== 'undefined' && window.location.pathname.startsWith('/en/'))
     }
   },
   async mounted() {
@@ -535,7 +559,7 @@ export default {
 
     async loadConfig() {
       try {
-        const url = this.$withBase ? this.$withBase('/ai-chat-config.json') : '/ai-chat-config.json'
+        const url = '/ai-chat-config.json'
         const response = await fetch(url, { cache: 'no-store' })
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`)
@@ -684,7 +708,6 @@ export default {
             const delta = parsed.choices?.[0]?.delta?.content
             if (delta) {
               assistantMessage.content += delta
-              this.$forceUpdate()
               this.scrollToBottom('auto')
             }
           } catch (error) {

@@ -20,6 +20,7 @@
 import { ref, computed, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { usePage } from 'vuepress/client'
+import type { PageData } from '../utils/types'
 
 const route = useRoute()
 const page = usePage()
@@ -34,7 +35,7 @@ const show = computed(() => {
   const p = route.path
   if (p === '/' || p === '/en/' || p === '/en') return false
   if (p === '/ai-chat' || p === '/ai-chat/' || p === '/en/ai-chat' || p === '/en/ai-chat/') return false
-  const fm = (page.value as any).frontmatter || {}
+  const fm = (page.value as PageData).frontmatter || {}
   if (fm.home) return false
   return true
 })
@@ -48,7 +49,7 @@ function stripFrontmatter(raw: string): string {
 }
 
 async function copyPage() {
-  const fm = (page.value as any).frontmatter || {}
+  const fm = (page.value as PageData).frontmatter || {}
   const raw = fm.__rawContent || ''
   if (!raw) return
   const md = stripFrontmatter(raw)
@@ -59,7 +60,7 @@ async function copyPage() {
     if (timer) clearTimeout(timer)
     timer = setTimeout(() => { isCopied.value = false }, 2000)
   } catch (e) {
-    console.error('Copy failed:', e)
+    // Copy failed silently — user can manually select text
   }
 }
 

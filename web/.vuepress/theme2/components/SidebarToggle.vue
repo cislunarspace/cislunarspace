@@ -4,7 +4,7 @@
     class="sidebar-toggle-btn"
     :class="{ 'sidebar-hidden': isHidden }"
     @click="toggle"
-    :title="isHidden ? '显示侧边栏' : '隐藏侧边栏'"
+    :title="isHidden ? showLabel : hideLabel"
   >
     <svg v-if="!isHidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
       <path fill="currentColor" d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/>
@@ -18,9 +18,14 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
+import { useIsEn } from '../composables/useIsEn'
 
 const route = useRoute()
+const isEn = useIsEn()
 const isHidden = ref(false)
+
+const showLabel = computed(() => isEn.value ? 'Show sidebar' : '显示侧边栏')
+const hideLabel = computed(() => isEn.value ? 'Hide sidebar' : '隐藏侧边栏')
 
 const isAiChatPage = computed(() => {
   const p = route.path

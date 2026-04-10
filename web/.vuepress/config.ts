@@ -47,6 +47,10 @@ const rawContentPlugin = {
 const domain = 'https://cislunarspace.cn'
 const tags = ['地月空间', '航天', '轨道动力学']
 
+if (!process.env.DEEPSEEK_API_KEY && process.env.NODE_ENV !== 'production') {
+  console.warn('[config] DEEPSEEK_API_KEY not set — AI chat proxy will not work')
+}
+
 export default defineUserConfig({
   lang: 'zh-CN',
   title: '地月空间入门指南',
@@ -76,7 +80,7 @@ export default defineUserConfig({
       var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?2675818a983a3131404cee835018f016";
+        hm.src = "https://hm.baidu.com/hm.js?${process.env.BAIDU_ANALYTICS_ID || '2675818a983a3131404cee835018f016'}";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();

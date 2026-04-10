@@ -87,7 +87,7 @@ function parseFrontmatter(content) {
   const fm = {}
   const lines = match[1].split('\n')
   for (let i = 0; i < lines.length; i++) {
-    const m = lines[i].match(/^(\w[\w-]*):\s*(.*)$/)
+    const m = lines[i].match(/^([\w][\w.-]*):\s*(.*)$/)
     if (!m) continue
     const key = m[1]
     let val = m[2].trim()

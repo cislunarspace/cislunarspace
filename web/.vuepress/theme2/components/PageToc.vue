@@ -48,6 +48,7 @@ import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import { useRoute } from 'vuepress/client'
 import { onContentUpdated } from 'vuepress/client'
 import { usePage } from 'vuepress/client'
+import type { PageData } from '../utils/types'
 
 interface TocHeader {
   id: string
@@ -62,7 +63,7 @@ const activeId = ref('')
 const headerList = ref<TocHeader[]>([])
 
 const pageTitle = computed(() => {
-  return (page.value as any).title || ''
+  return (page.value as PageData).title || ''
 })
 
 function extractHeaders(): TocHeader[] {
@@ -128,6 +129,15 @@ function updateActive() {
   activeId.value = current
 }
 
+function refreshHeaders() {
+  headerList.value = extractHeaders()
+  if (route.hash) {
+    activeId.value = route.hash.replace('#', '')
+  } else {
+    updateActive()
+  }
+}
+
 let ticking = false
 function onScroll() {
   if (!ticking) {
@@ -141,14 +151,7 @@ function onScroll() {
 
 onMounted(() => {
   window.addEventListener('scroll', onScroll, { passive: true })
-  nextTick(() => {
-    headerList.value = extractHeaders()
-    if (route.hash) {
-      activeId.value = route.hash.replace('#', '')
-    } else {
-      updateActive()
-    }
-  })
+  nextTick(refreshHeaders)
 })
 
 onBeforeUnmount(() => {
@@ -157,29 +160,13 @@ onBeforeUnmount(() => {
 
 onContentUpdated((reason) => {
   if (reason !== 'beforeUnmount') {
-    setTimeout(() => {
-      headerList.value = extractHeaders()
-      if (route.hash) {
-        activeId.value = route.hash.replace('#', '')
-      } else {
-        updateActive()
-      }
-    }, 100)
+    setTimeout(refreshHeaders, 100)
   }
 })
 
 watch(
   () => route.path,
-  () => {
-    setTimeout(() => {
-      headerList.value = extractHeaders()
-      if (route.hash) {
-        activeId.value = route.hash.replace('#', '')
-      } else {
-        updateActive()
-      }
-    }, 200)
-  },
+  () => setTimeout(refreshHeaders, 200),
 )
 </script>
 

@@ -1,13 +1,13 @@
 <template>
   <main class="footer">
-    <div class="friend-links-title">友情链接</div>
+    <div class="friend-links-title">{{ isEn ? 'Related Links' : '友情链接' }}</div>
     <div v-for="(item, index) in footerList" :key="index" class="footer-item">
       <a :href="item.href" target="_blank" rel="noopener noreferrer">
         <span class="item-text">{{ item.label }}</span>
       </a>
     </div>
     <div class="copy-right">
-      <span class="name">{{ `${currentYear} 地月空间入门指南 &nbsp; |  &nbsp; ` }}</span>
+      <span class="name">{{ `${currentYear} ${isEn ? 'Cislunar Space Beginner\'s Guide' : '地月空间入门指南'} &nbsp; |  &nbsp; ` }}</span>
       <a :href="government.href" target="_blank" rel="noreferrer">
         {{ government.name }}
       </a>
@@ -16,18 +16,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
 import footerConfig from '../../footer.js'
+import { useIsEn } from '../composables/useIsEn'
 
-const footerList = ref<any[]>([])
-const government = ref<any>({})
-const currentYear = ref('')
-
-onMounted(() => {
-  footerList.value = footerConfig.friendLinks
-  government.value = footerConfig.copyright
-  currentYear.value = String(new Date().getFullYear())
-})
+const isEn = useIsEn()
+const footerList = footerConfig.friendLinks
+const government = footerConfig.copyright
+const currentYear = String(new Date().getFullYear())
 </script>
 
 <style lang="scss">
