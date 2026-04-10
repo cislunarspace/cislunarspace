@@ -13,7 +13,15 @@
       "mcp__web_reader__webReader",
       "mcp__ide__executeCode",
       "mcp__ide__getDiagnostics",
-      "mcp__4_5v_mcp__analyze_image"
+      "mcp__4_5v_mcp__analyze_image",
+      "WebFetch(domain:spaceflightnow.com)",
+      "WebFetch(domain:www.space.com)",
+      "WebFetch(domain:spacenews.com)",
+      "WebFetch(domain:www.nasaspaceflight.com)",
+      "WebFetch(domain:www.esa.int)",
+      "WebFetch(domain:www.reddit.com)",
+      "WebFetch(domain:www.nasa.gov)",
+      "WebFetch(domain:news.ycombinator.com)"
     ]
   }
 }
