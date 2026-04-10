@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Chang'e-4 Data Reveals 'Cosmic Ray Cavity' in Cislunar Space"
 description: "A Shandong University team discovers a significant reduction in galactic cosmic ray flux near lunar orbit using three years of Chang'e-4 data, offering new insights for deep space radiation protection."
 permalink: /en/space-news/2026/04/2026-04-05-ce4-cosmic-ray-cavity/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: science

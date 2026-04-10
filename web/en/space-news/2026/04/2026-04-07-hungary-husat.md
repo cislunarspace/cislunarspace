@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Hungary Taps Northrop Grumman for First National GEO Communications Satellite HUSAT"
 description: "Hungary signed a contract with Northrop Grumman to build HUSAT, its first national geostationary communications satellite, developed jointly with Hungary's 4iG Group and targeting a 2028 launch."
 permalink: /en/space-news/2026/04/2026-04-07-hungary-husat/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-07
 lastUpdated: 2026-04-07
 category: commercial

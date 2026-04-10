@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Starship V3 First Flight Delayed to May — Third Consecutive Postponement"
 description: "Elon Musk announced Starship V3's maiden flight is delayed another 4-6 weeks, pushing from April to early May in the third delay this year."
 permalink: /en/space-news/2026/04/2026-04-05-starship-v3-delay/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: [spacex, commercial]

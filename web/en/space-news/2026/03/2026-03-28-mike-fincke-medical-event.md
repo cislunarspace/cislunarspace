@@ -8,7 +8,7 @@ author: SpacePolicyOnline
 source: SpacePolicyOnline.com
 source_url: https://spacepolicyonline.com/news/mike-fincke-shares-more-about-his-medical-event/
 category: iss
-tags: [NASA, ISS, Crew-11, Mike Fincke, medical, 国际空间站]
+tags: [NASA, ISS, Crew-11, Mike Fincke, medical, International Space Station]
 related:
   - 2026-03-27-nasa-nuclear-spacecraft
 layout: SpaceNewsArticle

@@ -2,7 +2,7 @@
 title: "SpaceX Set to Launch 119 Payloads on Transporter-16 Rideshare Mission From Vandenberg"
 description: "On March 30, 2026, SpaceX's Falcon 9 will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads to orbit."
 permalink: /en/space-news/2026/03/2026-03-30-spacex-transporter-16/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-30
 lastUpdated: 2026-03-30
 source: Space.com

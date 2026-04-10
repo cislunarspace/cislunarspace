@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-21 Crew Surpasses Five Months in Orbit, Space Station Experiments Progress"
 description: "Shenzhou-21 crew members Zhang Lu, Wu Fei, and Zhang Hongzhang have been in orbit for over five months, completing multiple space medicine experiments and station maintenance tasks."
 permalink: /en/space-news/2026/04/2026-04-05-shenzhou-21-five-months/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: [china, iss]

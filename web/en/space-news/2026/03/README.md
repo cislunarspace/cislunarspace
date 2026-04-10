@@ -30,6 +30,7 @@ lastUpdated: 2026-03-27
 | Mar 22 | [SpaceX Starlink 10-62 launch from Cape Canaveral](./2026-03-22-spacex-starlink-10-62/) |
 | Mar 24 | [NASA unveils $20 billion lunar base plan](./2026-03-24-nasa-moon-base-plan/) |
 | Mar 24 | [Progress 94 cargo ship docks to the ISS for Expedition 74](./2026-03-24-roscosmos-progress-94-iss/) |
+| Mar 25 | [Commercial space station companies push back on NASA's new plan at House hearing](./2026-03-25-cavossa-commercial-space/) |
 | Mar 26 | [China launches Siwei Gaojing-2 05 & 06 satellites](./2026-03-26-china-siwei-gaojing-2-05-06/) |
 | Mar 26 | [SpaceX Starlink 17-17 launch from Vandenberg](./2026-03-26-spacex-starlink-vandenberg-17-17/) |
 | Mar 27 | [NASA Artemis II Crewed Lunar Mission Enters Final Week Countdown](./2026-03-27-artemis-2-one-week-away/) |

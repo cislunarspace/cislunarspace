@@ -2,7 +2,7 @@
 title: NASA Artemis II Crewed Lunar Mission Enters Final Week Countdown
 description: On March 27, 2026, NASA Artemis II is one week from launch — the first crewed lunar orbit flight since Apollo 17 in 1972.
 permalink: /en/space-news/2026/03/2026-03-27-artemis-2-one-week-away/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-27
 lastUpdated: 2026-03-27
 category: artemis

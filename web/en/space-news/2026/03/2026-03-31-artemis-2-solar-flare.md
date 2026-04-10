@@ -2,7 +2,7 @@
 title: "X1.4 Solar Flare Poses No Threat to Artemis II Launch, NASA Confirms"
 description: "A massive X1.4-class solar flare erupted from the Sun on March 29, triggering radio blackouts over Asia and Australia, but NASA says space weather will not affect the Artemis II crewed Moon launch on April 1."
 permalink: /en/space-news/2026/03/2026-03-31-artemis-2-solar-flare/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-31
 lastUpdated: 2026-03-31
 source: Space.com / NASA

@@ -7,7 +7,6 @@ author: 天疆说
 date: 2026-04-09
 lastUpdated: 2026-04-10
 category: [china, science]
-image:
 ---
 
 # 嫦娥七号探测器全部运抵文昌发射场，2026年下半年择机发射

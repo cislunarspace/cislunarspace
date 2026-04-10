@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Lift-2 Maiden Flight Success: China's First CBC-Configuration Rocket Reaches Orbit"
 description: "CAS Space's Lift-2 rocket completed its maiden flight on March 30, 2026, deploying three satellites. The 625-ton vehicle is China's first Common Booster Core configuration launch vehicle."
 permalink: /en/space-news/2026/03/2026-03-30-lift-2-maiden-flight/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-30
 lastUpdated: 2026-04-05
 category: commercial

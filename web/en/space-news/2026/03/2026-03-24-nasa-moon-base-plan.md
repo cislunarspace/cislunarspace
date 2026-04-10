@@ -2,7 +2,7 @@
 title: NASA unveils $20 billion lunar base plan
 description: NASA announces $20 billion plan over seven years to establish semi-permanent lunar base on March 24, 2026.
 permalink: /en/space-news/2026/03/2026-03-24-nasa-moon-base-plan/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-24
 lastUpdated: 2026-03-24
 category: policy

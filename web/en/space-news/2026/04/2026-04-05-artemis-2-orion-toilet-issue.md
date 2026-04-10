@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Artemis II Orion Spacecraft Toilet Malfunction: Frozen Waste Line and Burning Smell En Route to Moon"
 description: "Orion spacecraft experienced a burning odor and frozen waste vent on Flight Day 3 of Artemis II. Crew temporarily using emergency urine bags while ground control works on a de-icing plan."
 permalink: /en/space-news/2026/04/2026-04-05-artemis-2-orion-toilet-issue/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: artemis

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC"
 description: "ESA announced the postponement of the SMILE science satellite launch, originally scheduled for April 9 on a Vega-C rocket, due to a technical issue with a subsystem component. A new launch date is yet to be determined."
 permalink: /en/space-news/2026/04/2026-04-09-smile-postponed/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-09
 lastUpdated: 2026-04-09
 category:

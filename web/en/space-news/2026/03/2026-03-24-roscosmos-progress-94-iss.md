@@ -2,7 +2,7 @@
 title: Progress 94 cargo ship docks to the ISS for Expedition 74
 description: Progress 94 launched from Baikonur on Mar. 22, 2026, and docked to the Poisk module on Mar. 24; TORU manual control was used after a KURS antenna failed to deploy.
 permalink: /en/space-news/2026/03/2026-03-24-roscosmos-progress-94-iss/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-24
 lastUpdated: 2026-03-27
 category: iss

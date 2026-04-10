@@ -313,6 +313,19 @@
       "image": null
     },
     {
+      "relativePath": "space-news/2026/03/2026-03-25-cavossa-commercial-space.md",
+      "path": "/space-news/2026-03-25-cavossa-commercial-space/",
+      "title": "商业空间站企业在国会听证会上反击 NASA 新方案：要求'按原计划行事'",
+      "description": "正在开发商业空间站以替代国际空间站的企业在国会小组委员会听证会上表示，希望 NASA '坚持原有计划'，不要做出令行业'困惑'的调整。",
+      "date": "2026-03-25",
+      "lastUpdated": null,
+      "author": "Tianjiangshuo",
+      "category": [
+        "commercial"
+      ],
+      "image": null
+    },
+    {
       "relativePath": "space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06.md",
       "path": "/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06/",
       "title": "我国成功发射四维高景二号05、06星",
@@ -971,20 +984,6 @@
       "image": "/space-news/2026/04/figures/2026-04-10-artemis-2-return-trip/hero.jpg"
     },
     {
-      "relativePath": "space-news/2026/04/2026-04-10-artemis-ii-day9.md",
-      "path": "/space-news/2026/04/2026-04-10-artemis-ii-day9/",
-      "title": "NASA阿尔忒弥斯II任务进入第9天，完成第二次返回修正燃烧",
-      "description": "阿尔忒弥斯II号飞船成功进行第二次返回修正燃烧，宇航员距离地球越来越近，预计4月10日返回地球",
-      "date": "2026-04-10",
-      "lastUpdated": "2026-04-10",
-      "author": "天疆说",
-      "category": [
-        "artemis",
-        "nasa"
-      ],
-      "image": null
-    },
-    {
       "relativePath": "space-news/2026/04/2026-04-10-chang-e7-arrive.md",
       "path": "/space-news/2026/04/2026-04-10-chang-e7-arrive/",
       "title": "嫦娥七号探测器全部运抵文昌发射场，2026年下半年择机发射",
@@ -1072,7 +1071,7 @@
       "description": "Long March 3B lifts off from Xichang on March 26, 2025, placing the Tianlian II-04 GEO relay satellite into planned orbit; 565th Long March family flight.",
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1085,7 +1084,7 @@
       "description": "Pressurized cargo module damage in transit leads NASA and Northrop Grumman to drop the planned June Cygnus NG-22 ISS flight; NG-23 targeted no earlier than fall 2025.",
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "iss"
       ],
@@ -1098,7 +1097,7 @@
       "description": "Electron deploys eight OTC-P1 satellites for Germany’s OroraTech from New Zealand; Phase 1 of a planned larger constellation for wildfire monitoring.",
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "esa"
       ],
@@ -1111,7 +1110,7 @@
       "description": "Falcon 9 lifts Starlink satellites from Vandenberg Space Force Base, California, with booster landing at sea (press coverage).",
       "date": "2025-03-26",
       "lastUpdated": "2025-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1124,7 +1123,7 @@
       "description": "NASA names four crew members for the next SpaceX Crew Dragon rotation to the ISS, targeting launch no earlier than July 2025 (RELEASE 25-010).",
       "date": "2025-03-27",
       "lastUpdated": "2025-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1137,7 +1136,7 @@
       "description": "Blue Origin announces New Shepard suborbital flights to pause for at least 2 years, focusing on lunar capabilities development.",
       "date": "2026-01-30",
       "lastUpdated": "2026-01-30",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -1150,7 +1149,7 @@
       "description": "On Feb. 13, 2026, Crew-12 lifted off on a Falcon 9 and Dragon from Cape Canaveral SLC-40 for the 12th Commercial Crew rotation mission to the ISS.",
       "date": "2026-02-13",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1163,7 +1162,7 @@
       "description": "Long March 8A rocket makes successful maiden flight from Hainan Commercial Space Launch Site on March 13, 2026, delivering 20 satellite internet LEO satellites.",
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1176,7 +1175,7 @@
       "description": "On Mar. 13, 2026, Long March-8A lifted off from Hainan and Long March-2D from Xichang, deploying a LEO satellite internet batch and Shiyan 30C/30D satellites.",
       "date": "2026-03-13",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1189,7 +1188,7 @@
       "description": "Long March 2D rocket launches Shiyan-30 03 & 04 satellites from Xichang on March 13, 2026.",
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1202,7 +1201,7 @@
       "description": "Falcon 9 lifts 25 Starlink V2 Mini Optimized satellites from Vandenberg SFB on March 13, 2026; booster B1071 lands on OCISLY.",
       "date": "2026-03-13",
       "lastUpdated": "2026-03-13",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1215,7 +1214,7 @@
       "description": "On Mar. 15, 2026, a modified Long March-6 lifted Yaogan-50 02 from Taiyuan; the flight was the 633rd mission of the Long March series.",
       "date": "2026-03-15",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1228,7 +1227,7 @@
       "description": "Kuaizhou-11 Yaoyi-7 rocket launches from Jiuquan on March 16, 2026, carrying 8 satellites including Juntian-1 04A and others.",
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1241,7 +1240,7 @@
       "description": "Shenzhou-21 crew members Zhang Lu, Wu Fei, and Zhang Hongzhang complete second extravehicular activity on March 16, 2026.",
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1254,7 +1253,7 @@
       "description": "Falcon 9 lifts 25 Starlink satellites from Vandenberg SFB on March 16, 2026; booster B1088 lands on OCISLY; SpaceX Starlink reaches 10,000 satellites in orbit.",
       "date": "2026-03-16",
       "lastUpdated": "2026-03-16",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1267,7 +1266,7 @@
       "description": "Falcon 9 lifts 29 Starlink V2 Mini Optimized satellites from Cape Canaveral SFS on March 17, 2026; booster B1090 lands on ASOG.",
       "date": "2026-03-17",
       "lastUpdated": "2026-03-17",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1280,7 +1279,7 @@
       "description": "NASA astronauts Jessica Meir and Chris Williams complete US EVA 94 outside the ISS on March 18, 2026.",
       "date": "2026-03-18",
       "lastUpdated": "2026-03-18",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "iss"
       ],
@@ -1293,7 +1292,7 @@
       "description": "NASA rolls SLS rocket from VAB to Pad 39B on March 19, 2026, ahead of first crewed lunar orbit mission planned for April.",
       "date": "2026-03-19",
       "lastUpdated": "2026-03-19",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1306,7 +1305,7 @@
       "description": "Falcon 9 lifts 29 Starlink V2 Mini satellites from Cape Canaveral SFS on March 19, 2026; booster B1077 lands on JRTI.",
       "date": "2026-03-19",
       "lastUpdated": "2026-03-19",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1319,7 +1318,7 @@
       "description": "Electron rocket launches Strix satellite for Japan's Synspective from New Zealand on March 20, 2026.",
       "date": "2026-03-20",
       "lastUpdated": "2026-03-20",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "esa"
       ],
@@ -1332,7 +1331,7 @@
       "description": "Falcon 9 lifts 25 Starlink V2 Mini Optimized satellites from Vandenberg SFB on March 20, 2026; booster B1100 lands on OCISLY.",
       "date": "2026-03-20",
       "lastUpdated": "2026-03-20",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1345,7 +1344,7 @@
       "description": "Falcon 9 lifts 29 Starlink V2 Mini Optimized satellites from Cape Canaveral SFS on March 22, 2026; booster B1078 lands on ASOG.",
       "date": "2026-03-22",
       "lastUpdated": "2026-03-22",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1358,7 +1357,7 @@
       "description": "NASA announces $20 billion plan over seven years to establish semi-permanent lunar base on March 24, 2026.",
       "date": "2026-03-24",
       "lastUpdated": "2026-03-24",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "policy"
       ],
@@ -1371,7 +1370,7 @@
       "description": "Progress 94 launched from Baikonur on Mar. 22, 2026, and docked to the Poisk module on Mar. 24; TORU manual control was used after a KURS antenna failed to deploy.",
       "date": "2026-03-24",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "iss"
       ],
@@ -1397,7 +1396,7 @@
       "description": "Long March 2D lifts off from Taiyuan on March 26, 2026, placing two commercial radar Earth-observation satellites into orbit; 634th Long March family flight.",
       "date": "2026-03-26",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1410,7 +1409,7 @@
       "description": "Falcon 9 lifts 25 Starlink satellites from Vandenberg SFB on March 26, 2026; booster B1081 lands on OCISLY.",
       "date": "2026-03-26",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1436,7 +1435,7 @@
       "description": "On March 27, 2026, NASA Artemis II is one week from launch — the first crewed lunar orbit flight since Apollo 17 in 1972.",
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1475,7 +1474,7 @@
       "description": "On March 27, 2026, ESA released a video explaining the European Service Module for Artemis II - providing propulsion, power, and life support for the crewed lunar orbit mission.",
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1488,7 +1487,7 @@
       "description": "On March 27, 2026, ESA announced the first two Celeste satellites will launch on March 28 at 10:14 CET aboard a Rocket Lab Electron rocket from New Zealand — Europe's first LEO-PNT demonstration mission.",
       "date": "2026-03-27",
       "lastUpdated": "2026-03-27",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "esa"
       ],
@@ -1566,7 +1565,7 @@
       "description": "NASA teams at Kennedy Space Center are making final preparations for the Artemis II launch countdown, with an 80% chance of favorable weather for the April 1 target.",
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1579,7 +1578,7 @@
       "description": "CAS Space's Lift-2 rocket completed its maiden flight on March 30, 2026, deploying three satellites. The 625-ton vehicle is China's first Common Booster Core configuration launch vehicle.",
       "date": "2026-03-30",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -1592,7 +1591,7 @@
       "description": "On March 30, 2026, SpaceX's Falcon 9 will launch the Transporter-16 rideshare mission from Vandenberg Space Force Base, carrying 119 payloads to orbit.",
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1605,7 +1604,7 @@
       "description": "SpaceX completed the first static fire test of its next-generation V3 Starship in March 2026, preparing for an April launch attempt.",
       "date": "2026-03-30",
       "lastUpdated": "2026-03-30",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex"
       ],
@@ -1618,7 +1617,7 @@
       "description": "NASA's Artemis II launch countdown has begun at Kennedy Space Center, with the clock ticking toward an April 1 target launch time of 6:24 p.m. EDT for the first crewed Moon mission in over 50 years.",
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1631,7 +1630,7 @@
       "description": "A massive X1.4-class solar flare erupted from the Sun on March 29, triggering radio blackouts over Asia and Australia, but NASA says space weather will not affect the Artemis II crewed Moon launch on April 1.",
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1644,7 +1643,7 @@
       "description": "Expedition 74 astronauts trained for the upcoming Northrop Grumman Cygnus XL cargo mission, serviced spacesuits from last week's EVA, and conducted emergency medical drills aboard the International Space Station.",
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "iss"
       ],
@@ -1657,7 +1656,7 @@
       "description": "Rocket Lab has received German regulatory approval to acquire Mynaric AG, a leading provider of laser optical communications terminals. The deal is expected to close in April 2026.",
       "date": "2026-03-31",
       "lastUpdated": "2026-03-31",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial-space"
       ],
@@ -1670,7 +1669,7 @@
       "description": "NASA's Artemis II launched on April 1, 2026, at 6:35 PM EDT from Kennedy Space Center's Launch Pad 39B, sending four astronauts on an approximately 10-day journey around the Moon — the first crewed lunar flight since Apollo 17 in 1972.",
       "date": "2026-04-01",
       "lastUpdated": "2026-04-02",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1683,7 +1682,7 @@
       "description": "Sustain Space's Xiyuan-0 satellite successfully completed on-orbit demonstrations of a flexible robotic arm, verifying four operation modes including autonomous refueling simulation, teleoperation, and force-controlled manipulation.",
       "date": "2026-04-01",
       "lastUpdated": "2026-04-01",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1696,7 +1695,7 @@
       "description": "NASA's Orion spacecraft successfully completed the translunar injection burn at 7:49 PM EDT, firing for 5 minutes and 50 seconds. The four astronauts are now on their way to the Moon for the first time in 53 years.",
       "date": "2026-04-02",
       "lastUpdated": "2026-04-03",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1709,7 +1708,7 @@
       "description": "Russia's next-generation medium-class launch vehicle Soyuz-5, also known as Irtysh, conducted its first test flight from Baikonur Cosmodrome on April 3. Launch result pending official confirmation.",
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "launch"
       ],
@@ -1722,7 +1721,7 @@
       "description": "SpaceX has confidentially filed for an IPO with the SEC, aiming for a valuation exceeding $1.75 trillion and potentially raising up to $50 billion — which would surpass Saudi Aramco as the largest IPO in history.",
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex",
         "commercial"
@@ -1736,7 +1735,7 @@
       "description": "Space Pioneer's Tianlong-3 rocket launched from Jiuquan on April 3 but experienced an anomaly ~33 seconds after liftoff, resulting in loss of the vehicle. The company has initiated a failure investigation.",
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -1749,7 +1748,7 @@
       "description": "Artemis II is more than halfway to the Moon. The trajectory correction burn was cancelled, Christina Koch spotted the Moon from the docking hatch, and the crew is preparing for the April 6 lunar flyby.",
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1762,7 +1761,7 @@
       "description": "ULA Atlas V 551 successfully launched 29 Amazon Leo broadband internet satellites from Cape Canaveral SFS on the LA-05 mission.",
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -1775,7 +1774,7 @@
       "description": "NASA, Northrop Grumman, and SpaceX are targeting April 8 for the CRS-24 launch, delivering approximately 11,000 pounds of science and cargo to the International Space Station.",
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "iss"
       ],
@@ -1788,7 +1787,7 @@
       "description": "Taikonauts Zhang Lu, Wu Fei, and Zhang Hongzhang have completed their second spacewalk and continue science experiments aboard the Tiangong space station, nearing 150 days in orbit.",
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china"
       ],
@@ -1801,7 +1800,7 @@
       "description": "The SMILE satellite, jointly developed by CAS and ESA, has completed all launch preparations at Kourou and is scheduled for launch on April 9 aboard a Vega-C rocket.",
       "date": "2026-04-04",
       "lastUpdated": "2026-04-04",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "science"
       ],
@@ -1814,7 +1813,7 @@
       "description": "On Flight Day 4, the Artemis II crew is approximately 169,000 miles from Earth. Victor Glover will manually pilot Orion to test deep-space handling qualities, and the crew is preparing for Monday's lunar flyby.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1827,7 +1826,7 @@
       "description": "Orion spacecraft experienced a burning odor and frozen waste vent on Flight Day 3 of Artemis II. Crew temporarily using emergency urine bags while ground control works on a de-icing plan.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1840,7 +1839,7 @@
       "description": "A Shandong University team discovers a significant reduction in galactic cosmic ray flux near lunar orbit using three years of Chang'e-4 data, offering new insights for deep space radiation protection.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "science"
       ],
@@ -1853,7 +1852,7 @@
       "description": "A joint research team measured Chang'e-5 lunar soil single-particle thermal conductivity, discovering agglutinate particles with conductivity as low as ~8 mW·m⁻¹·K⁻¹, rivaling synthetic aerogels.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "science"
       ],
@@ -1866,7 +1865,7 @@
       "description": "The Saudi-developed Shams satellite has established initial communication after launching on Artemis II, marking the kingdom's first national-level space weather monitoring mission.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis",
         "science"
@@ -1880,7 +1879,7 @@
       "description": "Shenzhou-21 crew members Zhang Lu, Wu Fei, and Zhang Hongzhang have been in orbit for over five months, completing multiple space medicine experiments and station maintenance tasks.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china",
         "iss"
@@ -1894,7 +1893,7 @@
       "description": "Elon Musk announced Starship V3's maiden flight is delayed another 4-6 weeks, pushing from April to early May in the third delay this year.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "spacex",
         "commercial"
@@ -1908,7 +1907,7 @@
       "description": "At the 2026 Space Computing Industry Conference, Zhang Xiaodong, chief designer of LandSpace's reusable Zhuque-3 rocket, announced plans for recovery tests in H1 2026 and aiming for the first reusable flight by Q4 2026.",
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -1921,7 +1920,7 @@
       "description": "The 2026 China Space Conference (CSC2026), themed 'Seventy Years Exploring the Heavens, Journeying the Nine Realms Together,' will be held in Chengdu from April 23-26, 2026, inviting renowned experts, scholars, and managers from domestic and international aerospace fields to discuss the blueprint for high-quality aerospace development.",
       "date": "2026-04-06",
       "lastUpdated": "2026-04-06",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china",
         "policy"
@@ -1935,7 +1934,7 @@
       "description": "Artemis II crew successfully completed the lunar flyby, with Orion passing about 6,500 km above the Moon's far side and surpassing Apollo 13's crewed distance record at 406,771 km from Earth.",
       "date": "2026-04-07",
       "lastUpdated": "2026-04-07",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
@@ -1948,7 +1947,7 @@
       "description": "Hungary signed a contract with Northrop Grumman to build HUSAT, its first national geostationary communications satellite, developed jointly with Hungary's 4iG Group and targeting a 2028 launch.",
       "date": "2026-04-07",
       "lastUpdated": "2026-04-07",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -1961,7 +1960,7 @@
       "description": "NASA Administrator Jared Isaacman defended the Trump administration's proposed ~20% budget cut to NASA during congressional hearings, arguing the agency will be more efficient and focus on bold exploration goals.",
       "date": "2026-04-07",
       "lastUpdated": "2026-04-07",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "nasa",
         "policy"
@@ -1975,7 +1974,7 @@
       "description": "NASA has ordered a stop-work on Mobile Launcher 2 (ML-2) built by Bechtel, with the project exceeding $1 billion in spending amid massive cost overruns and delays, threatening the Artemis IV timeline.",
       "date": "2026-04-07",
       "lastUpdated": "2026-04-07",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "nasa"
       ],
@@ -1988,7 +1987,7 @@
       "description": "In-orbit servicing startup Starfish Space closed a new funding round exceeding $100 million, aimed at accelerating development of its Otter servicing spacecraft and its first GEO mission.",
       "date": "2026-04-07",
       "lastUpdated": "2026-04-07",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -2001,7 +2000,7 @@
       "description": "NG-24 launch has been postponed three times from its original April 8 date to NET April 11, 7:41 a.m. EDT. The Cygnus cargo spacecraft will carry over 8,000 lbs of science and supplies to the ISS.",
       "date": "2026-04-08",
       "lastUpdated": "2026-04-08",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "iss"
       ],
@@ -2014,7 +2013,7 @@
       "description": "German launch startup Isar Aerospace plans to launch its Spectrum rocket on a second test flight from Norway's Andøya Spaceport on April 9, carrying 5 CubeSats and 1 technology payload, after three prior delays.",
       "date": "2026-04-09",
       "lastUpdated": "2026-04-09",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -2027,7 +2026,7 @@
       "description": "ESA announced the postponement of the SMILE science satellite launch, originally scheduled for April 9 on a Vega-C rocket, due to a technical issue with a subsystem component. A new launch date is yet to be determined.",
       "date": "2026-04-09",
       "lastUpdated": "2026-04-09",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "esa",
         "china",
@@ -2042,25 +2041,11 @@
       "description": "Artemis II crew captured over 175 GB of images during lunar flyby; experimental laser comms payload returned 20 GB in 45 minutes. Splashdown set for April 10, 8:07 PM EDT off San Diego.",
       "date": "2026-04-10",
       "lastUpdated": "2026-04-10",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-10-artemis-2-return-trip/hero.jpg"
-    },
-    {
-      "relativePath": "en/space-news/2026/04/2026-04-10-artemis-ii-day9.md",
-      "path": "/en/space-news/2026/04/2026-04-10-artemis-ii-day9/",
-      "title": "NASA's Artemis II Mission Enters Day 9 with Second Return Correction Burn Complete",
-      "description": "Artemis II spacecraft successfully completed second return correction burn, crew more than halfway home, expected to return to Earth on April 10",
-      "date": "2026-04-10",
-      "lastUpdated": "2026-04-10",
-      "author": "天疆说",
-      "category": [
-        "artemis",
-        "nasa"
-      ],
-      "image": null
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-10-chang-e7-arrive.md",
@@ -2069,7 +2054,7 @@
       "description": "Chang'e 7 probe has safely arrived at Wenchang launch center, targeting breakthrough technologies for lunar south pole exploration",
       "date": "2026-04-09",
       "lastUpdated": "2026-04-10",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china",
         "science"
@@ -2083,7 +2068,7 @@
       "description": "China conducted two Long March launches this week, adding 18 satellites to the Thousand Sails constellation (126 total) and the 21st group to Guowang (168 operational satellites).",
       "date": "2026-04-10",
       "lastUpdated": "2026-04-10",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china",
         "commercial"
@@ -2097,7 +2082,7 @@
       "description": "ESA's Celeste satellite successfully broadcasts first navigation signal from low Earth orbit, marking a significant milestone for Europe's low-orbit navigation system.",
       "date": "2026-04-10",
       "lastUpdated": "2026-04-10",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "commercial"
       ],
@@ -2110,7 +2095,7 @@
       "description": "At 03:38 Beijing Time on April 9, 2026, Long March-6A YA-17 rocket successfully deployed 21 low-Earth orbit satellite internet satellites into the intended polar orbit.",
       "date": "2026-04-09",
       "lastUpdated": "2026-04-10",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "china",
         "launch"
@@ -2124,7 +2109,7 @@
       "description": "NASA announced the suspension of the planned Lunar Gateway space station, investing $20 billion over 7 years to build a permanent lunar surface base near the South Pole, shifting strategy from 'building bridges in lunar orbit' to 'directly establishing a base on the lunar surface'.",
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
-      "author": "天疆说",
+      "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],

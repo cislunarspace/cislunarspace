@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Files Confidential IPO Registration with SEC, Targeting Record-Breaking Public Offering"
 description: "SpaceX has confidentially filed for an IPO with the SEC, aiming for a valuation exceeding $1.75 trillion and potentially raising up to $50 billion — which would surpass Saudi Aramco as the largest IPO in history."
 permalink: /en/space-news/2026/04/2026-04-03-spacex-ipo-sec-filing/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-03
 lastUpdated: 2026-04-05
 category: [spacex, commercial]

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Artemis II Science Underway as Orion Begins Return Trip to Earth"
 description: "Artemis II crew captured over 175 GB of images during lunar flyby; experimental laser comms payload returned 20 GB in 45 minutes. Splashdown set for April 10, 8:07 PM EDT off San Diego."
 permalink: /en/space-news/2026/04/2026-04-10-artemis-2-return-trip/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-10
 lastUpdated: 2026-04-10
 category: artemis

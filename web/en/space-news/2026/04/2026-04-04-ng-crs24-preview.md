@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Northrop Grumman CRS-24 Resupply Mission Targeting April 8 Launch to ISS"
 description: "NASA, Northrop Grumman, and SpaceX are targeting April 8 for the CRS-24 launch, delivering approximately 11,000 pounds of science and cargo to the International Space Station."
 permalink: /en/space-news/2026/04/2026-04-04-ng-crs24-preview/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-04
 lastUpdated: 2026-04-04
 category: iss
