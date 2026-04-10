@@ -971,6 +971,34 @@
       "image": "/space-news/2026/04/figures/2026-04-10-artemis-2-return-trip/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-10-artemis-ii-day9.md",
+      "path": "/space-news/2026/04/2026-04-10-artemis-ii-day9/",
+      "title": "NASA阿尔忒弥斯II任务进入第9天，完成第二次返回修正燃烧",
+      "description": "阿尔忒弥斯II号飞船成功进行第二次返回修正燃烧，宇航员距离地球越来越近，预计4月10日返回地球",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "artemis",
+        "nasa"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-10-chang-e7-arrive.md",
+      "path": "/space-news/2026/04/2026-04-10-chang-e7-arrive/",
+      "title": "嫦娥七号探测器全部运抵文昌发射场，2026年下半年择机发射",
+      "description": "嫦娥七号探测器已安全运抵文昌航天发射场，将突破高精度月面软着陆等关键技术，对月球南极区域开展综合探测",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "science"
+      ],
+      "image": null
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-10-china-megaconstellation-launches.md",
       "path": "/space-news/2026/04/2026-04-10-china-megaconstellation-launches/",
       "title": "长征火箭连续发射：千帆星座新增 18 星、国网星座第 21 批入轨",
@@ -983,6 +1011,33 @@
         "commercial"
       ],
       "image": "/space-news/2026/04/figures/2026-04-10-china-megaconstellation-launches/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-10-esa-celeste.md",
+      "path": "/space-news/2026/04/2026-04-10-esa-celeste/",
+      "title": "欧洲航天局Celeste卫星成功广播首个导航信号，开启低轨导航新时代",
+      "description": "ESA的Celeste卫星成功从低地球轨道广播首个导航信号，标志着欧洲低轨导航系统建设的重要里程碑。",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-10-esa-celeste/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-10-long-march-6a-megaconstellation.md",
+      "path": "/space-news/2026/04/2026-04-10-long-march-6a-megaconstellation/",
+      "title": "长征六号甲首发巨型星座卫星，低轨21组卫星成功入轨",
+      "description": "北京时间2026年4月9日03:38，长征六号甲遥十七运载火箭成功将卫星互联网低轨21组卫星送入预定极地轨道。",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "launch"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-10-long-march-6a-megaconstellation/hero.webp"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
@@ -1994,6 +2049,34 @@
       "image": "/en/space-news/2026/04/figures/2026-04-10-artemis-2-return-trip/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-10-artemis-ii-day9.md",
+      "path": "/en/space-news/2026/04/2026-04-10-artemis-ii-day9/",
+      "title": "NASA's Artemis II Mission Enters Day 9 with Second Return Correction Burn Complete",
+      "description": "Artemis II spacecraft successfully completed second return correction burn, crew more than halfway home, expected to return to Earth on April 10",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "artemis",
+        "nasa"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-10-chang-e7-arrive.md",
+      "path": "/en/space-news/2026/04/2026-04-10-chang-e7-arrive/",
+      "title": "Chang'e 7 Probe Arrives at Wenchang Launch Center for Planned 2026 Launch",
+      "description": "Chang'e 7 probe has safely arrived at Wenchang launch center, targeting breakthrough technologies for lunar south pole exploration",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "science"
+      ],
+      "image": null
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-10-china-megaconstellation-launches.md",
       "path": "/en/space-news/2026/04/2026-04-10-china-megaconstellation-launches/",
       "title": "China Launches Long March Rockets for Thousand Sails and Guowang Megaconstellations",
@@ -2006,6 +2089,33 @@
         "commercial"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-10-china-megaconstellation-launches/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-10-esa-celeste.md",
+      "path": "/en/space-news/2026/04/2026-04-10-esa-celeste/",
+      "title": "ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Launching New LEO Navigation Era",
+      "description": "ESA's Celeste satellite successfully broadcasts first navigation signal from low Earth orbit, marking a significant milestone for Europe's low-orbit navigation system.",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-10-esa-celeste/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-10-long-march-6a-megaconstellation.md",
+      "path": "/en/space-news/2026/04/2026-04-10-long-march-6a-megaconstellation/",
+      "title": "Long March-6A Launches Mega Constellation Satellites, Successfully Deploys 21 Low-Earth Orbit Satellites",
+      "description": "At 03:38 Beijing Time on April 9, 2026, Long March-6A YA-17 rocket successfully deployed 21 low-Earth orbit satellite internet satellites into the intended polar orbit.",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "launch"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-10-long-march-6a-megaconstellation/hero.webp"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",

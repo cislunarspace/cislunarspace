@@ -45,6 +45,10 @@ lastUpdated: 2026-04-10
 | Apr 9 | [Isar Aerospace Spectrum Rocket Set for Second Test Flight, a Key Test for European Commercial Launch](./2026-04-09-isar-spectrum/) |
 | Apr 10 | [Artemis II Science Underway as Orion Begins Return Trip to Earth](./2026-04-10-artemis-2-return-trip/) |
 | Apr 10 | [China Launches Long March Rockets for Thousand Sails and Guowang Megaconstellations](./2026-04-10-china-megaconstellation-launches/) |
+| Apr 10 | [Long March-6A Launches Mega Constellation Satellites, Successfully Deploys 21 Low-Earth Orbit Satellites](./2026-04-10-long-march-6a-megaconstellation/) |
+| Apr 10 | [Chang'e 7 Probe Arrives at Wenchang Launch Center for Planned 2026 Launch](./2026-04-10-chang-e7-arrive/) |
+| Apr 10 | [NASA's Artemis II Mission Enters Day 9 with Second Return Correction Burn Complete](./2026-04-10-artemis-ii-day9/) |
+| Apr 10 | [ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Launching New LEO Navigation Era](./2026-04-10-esa-celeste/) |
 
 ---
 
