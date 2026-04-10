@@ -13,8 +13,9 @@ if (!fs.existsSync(distDir)) {
 }
 
 function syncFigures(sourceBase, destBase) {
-  if (!fs.existsSync(sourceBase)) return 0
+  if (!fs.existsSync(sourceBase)) return { count: 0, errors: 0 }
   let count = 0
+  let errors = 0
   function walk(dir) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const src = path.join(dir, entry.name)
@@ -31,8 +32,13 @@ function syncFigures(sourceBase, destBase) {
                 fs.mkdirSync(t, { recursive: true })
                 copyRecursive(s, t)
               } else {
-                fs.copyFileSync(s, t)
-                count++
+                try {
+                  fs.copyFileSync(s, t)
+                  count++
+                } catch (err) {
+                  console.warn(`  Failed to copy ${s}: ${err.message}`)
+                  errors++
+                }
               }
             }
           }
@@ -44,16 +50,20 @@ function syncFigures(sourceBase, destBase) {
     }
   }
   walk(sourceBase)
-  return count
+  return { count, errors }
 }
 
-const zhCount = syncFigures(
+const zhResult = syncFigures(
   path.join(webDir, 'space-news'),
   path.join(distDir, 'space-news'),
 )
-const enCount = syncFigures(
+const enResult = syncFigures(
   path.join(webDir, 'en/space-news'),
   path.join(distDir, 'en/space-news'),
 )
 
-console.log(`Synced ${zhCount + enCount} figure files to dist/ (${zhCount} zh, ${enCount} en)`)
+const totalErrors = zhResult.errors + enResult.errors
+console.log(`Synced ${zhResult.count + enResult.count} figure files to dist/ (${zhResult.count} zh, ${enResult.count} en)${totalErrors ? ` — ${totalErrors} errors` : ''}`)
+if (totalErrors > 0) {
+  process.exitCode = 1
+}

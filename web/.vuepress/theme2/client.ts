@@ -11,39 +11,52 @@ import Footer from './components/Footer.vue'
 import PageSidebar from './components/ExtraSidebar.vue'
 import AiChat from './components/AiChat.vue'
 import Forum from './components/Forum.vue'
+import type { WechatSdk, WechatSignature, PageData } from './utils/types'
 
 const WECHAT_SDK_SRC = 'https://res2.wx.qq.com/open/js/jweixin-1.6.0.js'
-let sdkLoadPromise: Promise<any> | null = null
+let sdkLoadPromise: Promise<WechatSdk> | null = null
 let configuredUrl = ''
 
 function isWechatBrowser() {
   return /micromessenger/i.test(window.navigator.userAgent || '')
 }
 
+function getWxSdk(): WechatSdk | undefined {
+  return (window as unknown as { wx?: WechatSdk }).wx
+}
+
 function loadWechatSdk() {
-  if ((window as any).wx) return Promise.resolve((window as any).wx)
+  const wx = getWxSdk()
+  if (wx) return Promise.resolve(wx)
   if (sdkLoadPromise) return sdkLoadPromise
-  sdkLoadPromise = new Promise((resolve, reject) => {
+  sdkLoadPromise = new Promise<WechatSdk>((resolve, reject) => {
     const script = document.createElement('script')
     script.src = WECHAT_SDK_SRC
     script.async = true
-    script.onload = () => resolve((window as any).wx)
+    script.onload = () => {
+      const sdk = getWxSdk()
+      if (sdk) resolve(sdk)
+      else reject(new Error('WeChat JS-SDK loaded but wx is undefined.'))
+    }
     script.onerror = () => reject(new Error('Failed to load WeChat JS-SDK.'))
     document.head.appendChild(script)
   })
   return sdkLoadPromise
 }
 
-function normalizeSignaturePayload(payload: any) {
-  const data = payload && payload.data ? payload.data : payload
-  if (!data) return null
-  const appId = data.appId || data.appid
+function normalizeSignaturePayload(payload: unknown): WechatSignature | null {
+  const raw = (payload as Record<string, unknown>)?.data ?? payload
+  if (!raw || typeof raw !== 'object') return null
+  const data = raw as Record<string, unknown>
+  const appId = (data.appId || data.appid) as string | undefined
   const timestamp = Number(data.timestamp)
-  const nonceStr = data.nonceStr || data.noncestr
-  const signature = data.signature
+  const nonceStr = (data.nonceStr || data.noncestr) as string | undefined
+  const signature = data.signature as string | undefined
   if (!appId || !timestamp || !nonceStr || !signature) return null
   return { appId, timestamp, nonceStr, signature }
 }
+
+import { resolveFrontmatterImage } from './utils/imageUrl'
 
 function toAbsoluteUrl(input: string) {
   if (!input) return ''
@@ -51,17 +64,6 @@ function toAbsoluteUrl(input: string) {
   const origin = window.location.origin
   const normalized = input.startsWith('/') ? input : `/${input}`
   return new URL(normalized, origin).toString()
-}
-
-function resolveFrontmatterImage(image: string | undefined, routePath: string): string {
-  if (!image) return ''
-  if (/^https?:\/\//i.test(image)) return image
-  if (image.startsWith('/')) return image
-  if (image.startsWith('./')) {
-    const dir = routePath.replace(/[^/]+\/$/, '')
-    return dir + image.slice(2)
-  }
-  return ''
 }
 
 function setMeta(attr: string, key: string, content: string) {
@@ -140,7 +142,7 @@ export default defineClientConfig({
 
     function buildShareData() {
       if (typeof window === 'undefined') return null
-      const fm = (page.value as any).frontmatter || {}
+      const fm = (page.value as PageData).frontmatter || {}
       const routePath = router.currentRoute.value.path
 
       let shareImage = toAbsoluteUrl('/logo.png')

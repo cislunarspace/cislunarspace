@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, watch, nextTick } from 'vue'
+import { computed } from 'vue'
 import { usePage } from 'vuepress/client'
 import { useRoute } from 'vue-router'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
@@ -32,42 +32,26 @@ import Footer from '../components/Footer.vue'
 import PageToc from '../components/PageToc.vue'
 import ArticleHero from '../components/ArticleHero.vue'
 import SidebarToggle from '../components/SidebarToggle.vue'
+import { resolveFrontmatterImage } from '../utils/imageUrl'
+import type { PageData } from '../utils/types'
 
 const page = usePage()
 const route = useRoute()
 
-const fm = computed(() => (page.value as any).frontmatter || {})
+const fm = computed(() => (page.value as PageData).frontmatter || {})
 const isEn = computed(() => (page.value.path || '').startsWith('/en/'))
 
-const heroImageUrl = computed(() => {
-  const img = fm.value.image
-  if (!img) return null
-  if (/^https?:\/\//i.test(img)) return img
-  if (img.startsWith('/')) return img
-  if (img.startsWith('./')) {
-    const dir = route.path.replace(/[^/]+\/$/, '')
-    return dir + img.slice(2)
-  }
-  return null
-})
+const heroImageUrl = computed(() => resolveFrontmatterImage(fm.value.image, route.path) || null)
 
 const newsHome = computed(() => isEn.value ? '/en/space-news/' : '/space-news/')
-
-function hideDefaultH1() {
-  nextTick(() => {
-    const el = document.querySelector('[vp-content] h1')
-    if (el) (el as HTMLElement).style.display = 'none'
-  })
-}
-
-onMounted(hideDefaultH1)
-
-watch(() => route.path, () => {
-  setTimeout(hideDefaultH1, 100)
-})
 </script>
 
 <style lang="scss">
+/* Hide default VuePress H1 on SpaceNewsArticle pages (ArticleHero provides the H1) */
+[vp-content] > h1:first-child {
+  display: none;
+}
+
 .article-back {
   max-width: 740px;
   margin: 0 auto;

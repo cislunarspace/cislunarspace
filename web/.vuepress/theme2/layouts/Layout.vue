@@ -11,17 +11,21 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { onMounted, onBeforeUnmount } from 'vue'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
 import PageSidebar from '../components/ExtraSidebar.vue'
 import PageToc from '../components/PageToc.vue'
 import SidebarToggle from '../components/SidebarToggle.vue'
 import CopyPageButton from '../components/CopyPageButton.vue'
-import { setupMathCopy } from '../composables/useMathCopy'
+import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy'
 
 onMounted(() => {
   setupMathCopy()
+})
+
+onBeforeUnmount(() => {
+  teardownMathCopy()
 })
 </script>
 

@@ -57,11 +57,12 @@
 
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { usePage } from 'vuepress/client'
 import articlesData from '../../space-news-articles.json'
+import { useIsEn } from '../composables/useIsEn'
+import { categoryMeta } from '../utils/categoryMeta'
+import type { ArticleItem, ArticlesData } from '../utils/types'
 
-const page = usePage()
-const isEn = computed(() => (page.value.path || '').startsWith('/en/'))
+const isEn = useIsEn()
 const activeFilter = ref('all')
 
 const labels = computed(() =>
@@ -86,33 +87,10 @@ const labels = computed(() =>
 
 const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'))
 
-interface ArticleItem {
-  path: string
-  title: string
-  description: string
-  date: string | null
-  lastUpdated: string | null
-  author: string | null
-  category: string[] | null
-  image: string | null
-  relativePath: string
-}
-
-const categoryMeta: Record<string, { zh: string; en: string; color: string }> = {
-  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
-  spacex: { zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' },
-  china: { zh: '中国航天', en: 'China Space', color: '#dc2626' },
-  nasa: { zh: 'NASA', en: 'NASA', color: '#2563eb' },
-  esa: { zh: 'ESA', en: 'ESA', color: '#0891b2' },
-  iss: { zh: '空间站', en: 'Space Station', color: '#7c3aed' },
-  launch: { zh: '发射', en: 'Launches', color: '#ea580c' },
-  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
-  science: { zh: '科学发现', en: 'Science', color: '#8b5cf6' },
-  policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
-}
+const data = articlesData as ArticlesData
 
 const articles = computed<ArticleItem[]>(() => {
-  const list: any[] = isEn.value ? (articlesData as any).en : (articlesData as any).zh
+  const list = isEn.value ? data.en : data.zh
   return [...list]
     .map(a => ({
       ...a,

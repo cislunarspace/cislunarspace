@@ -94,12 +94,13 @@
 
 <script setup lang="ts">
 import { computed, ref, onMounted, onBeforeUnmount, watch } from 'vue'
-import { usePage } from 'vuepress/client'
 import Footer from './Footer.vue'
 import articlesData from '../../space-news-articles.json'
+import { useIsEn } from '../composables/useIsEn'
+import { categoryMeta } from '../utils/categoryMeta'
+import type { ArticleItem, ArticlesData } from '../utils/types'
 
-const page = usePage()
-const isEn = computed(() => (page.value.path || '').startsWith('/en/'))
+const isEn = useIsEn()
 
 const labels = computed(() =>
   isEn.value
@@ -123,32 +124,10 @@ const labels = computed(() =>
 
 const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))
 
-interface ArticleItem {
-  path: string
-  title: string
-  description: string
-  date: string | null
-  lastUpdated: string | null
-  author: string | null
-  category: string[] | null
-  image: string | null
-}
-
-const categoryMeta: Record<string, { zh: string; en: string; color: string }> = {
-  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
-  spacex: { zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' },
-  china: { zh: '中国航天', en: 'China Space', color: '#dc2626' },
-  nasa: { zh: 'NASA', en: 'NASA', color: '#2563eb' },
-  esa: { zh: 'ESA', en: 'ESA', color: '#0891b2' },
-  iss: { zh: '空间站', en: 'Space Station', color: '#7c3aed' },
-  launch: { zh: '发射', en: 'Launches', color: '#ea580c' },
-  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
-  science: { zh: '科学发现', en: 'Science', color: '#8b5cf6' },
-  policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
-}
+const data = articlesData as ArticlesData
 
 const articles = computed<ArticleItem[]>(() => {
-  const list: ArticleItem[] = isEn.value ? (articlesData as any).en : (articlesData as any).zh
+  const list = isEn.value ? data.en : data.zh
   return [...list].map(a => ({
     ...a,
     category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
@@ -412,11 +391,6 @@ function formatDate(raw: string | null) {
   line-height: 1.4;
 }
 
-.sn-cat-tag--sm {
-  font-size: 0.65rem;
-  padding: 0.15rem 0.45rem;
-}
-
 /* ---- Meta ---- */
 .sn-meta {
   display: flex;
@@ -546,49 +520,5 @@ function formatDate(raw: string | null) {
   -webkit-box-orient: vertical;
   overflow: hidden;
   flex: 1;
-}
-
-/* ---- Snippet grid (category sections) ---- */
-.sn-grid-snippet {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 0.75rem;
-}
-
-.sn-snippet {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-  padding: 0.85rem 1rem;
-  background: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  color: inherit;
-  border: 1px solid #e2e8f0;
-  transition: border-color 0.15s, box-shadow 0.15s;
-
-  &:hover {
-    border-color: #bae6fd;
-    box-shadow: 0 2px 8px rgba(14, 165, 233, 0.1);
-  }
-}
-
-.sn-snippet__text {
-  min-width: 0;
-}
-
-.sn-snippet__title {
-  font-size: 0.9rem;
-  font-weight: 600;
-  line-height: 1.4;
-  margin: 0 0 0.2rem;
-  color: #0f172a;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 </style>
