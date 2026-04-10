@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-09
+lastUpdated: 2026-04-10
 ---
 
 # 2026 年 4 月
@@ -43,6 +43,8 @@ lastUpdated: 2026-04-09
 | 4-8 | [诺格 CRS-24 国际空间站货运任务再度延期，发射日期推迟至 4 月 11 日](./2026-04-08-ng-crs24-delay/) |
 | 4-9 | [中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定](./2026-04-09-smile-postponed/) |
 | 4-9 | [德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验](./2026-04-09-isar-spectrum/) |
+| 4-10 | [Artemis II 科学实验全面展开，猎户座飞船开始返航地球](./2026-04-10-artemis-2-return-trip/) |
+| 4-10 | [长征火箭连续发射：千帆星座新增 18 星、国网星座第 21 批入轨](./2026-04-10-china-megaconstellation-launches/) |
 
 ---
 

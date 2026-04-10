@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-09
+lastUpdated: 2026-04-10
 ---
 
 # April 2026
@@ -43,6 +43,8 @@ lastUpdated: 2026-04-09
 | Apr 8 | [Northrop Grumman CRS-24 ISS Resupply Mission Delayed Again to April 11](./2026-04-08-ng-crs24-delay/) |
 | Apr 9 | [China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC](./2026-04-09-smile-postponed/) |
 | Apr 9 | [Isar Aerospace Spectrum Rocket Set for Second Test Flight, a Key Test for European Commercial Launch](./2026-04-09-isar-spectrum/) |
+| Apr 10 | [Artemis II Science Underway as Orion Begins Return Trip to Earth](./2026-04-10-artemis-2-return-trip/) |
+| Apr 10 | [China Launches Long March Rockets for Thousand Sails and Guowang Megaconstellations](./2026-04-10-china-megaconstellation-launches/) |
 
 ---
 
