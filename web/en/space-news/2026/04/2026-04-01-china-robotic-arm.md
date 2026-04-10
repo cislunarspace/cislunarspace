@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Chinese Startup Sustain Space Validates Flexible Robotic Arm On-Orbit, Advancing Servicing Capabilities"
 description: "Sustain Space's Xiyuan-0 satellite successfully completed on-orbit demonstrations of a flexible robotic arm, verifying four operation modes including autonomous refueling simulation, teleoperation, and force-controlled manipulation."
 permalink: /en/space-news/2026/04/2026-04-01-china-robotic-arm/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-01
 lastUpdated: 2026-04-01
 category: china

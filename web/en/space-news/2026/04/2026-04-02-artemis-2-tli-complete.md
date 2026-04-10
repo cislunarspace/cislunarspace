@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Artemis II Flight Day 2: TLI Burn Complete, Orion Officially En Route to the Moon"
 description: "NASA's Orion spacecraft successfully completed the translunar injection burn at 7:49 PM EDT, firing for 5 minutes and 50 seconds. The four astronauts are now on their way to the Moon for the first time in 53 years."
 permalink: /en/space-news/2026/04/2026-04-02-artemis-2-tli-complete/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-02
 lastUpdated: 2026-04-03
 category: artemis

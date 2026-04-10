@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Isar Aerospace Spectrum Rocket Set for Second Test Flight, a Key Test for European Commercial Launch"
 description: "German launch startup Isar Aerospace plans to launch its Spectrum rocket on a second test flight from Norway's Andøya Spaceport on April 9, carrying 5 CubeSats and 1 technology payload, after three prior delays."
 permalink: /en/space-news/2026/04/2026-04-09-isar-spectrum/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-09
 lastUpdated: 2026-04-09
 category: commercial

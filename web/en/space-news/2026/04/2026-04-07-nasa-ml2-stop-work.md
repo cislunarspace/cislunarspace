@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Halts Work on SLS Mobile Launcher 2, Casting Doubt on Artemis IV and Beyond"
 description: "NASA has ordered a stop-work on Mobile Launcher 2 (ML-2) built by Bechtel, with the project exceeding $1 billion in spending amid massive cost overruns and delays, threatening the Artemis IV timeline."
 permalink: /en/space-news/2026/04/2026-04-07-nasa-ml2-stop-work/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-07
 lastUpdated: 2026-04-07
 category: nasa

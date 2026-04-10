@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Tianlong-3 Maiden Flight Fails: China's Falcon 9-Class Commercial Rocket Loses Control After Liftoff"
 description: "Space Pioneer's Tianlong-3 rocket launched from Jiuquan on April 3 but experienced an anomaly ~33 seconds after liftoff, resulting in loss of the vehicle. The company has initiated a failure investigation."
 permalink: /en/space-news/2026/04/2026-04-03-tianlong-3-maiden-flight/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-03
 lastUpdated: 2026-04-05
 category: commercial

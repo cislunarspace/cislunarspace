@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Artemis II Flight Day 4: Deep-Space Flying, Lunar Flyby Prep as Glover Takes Manual Control"
 description: "On Flight Day 4, the Artemis II crew is approximately 169,000 miles from Earth. Victor Glover will manually pilot Orion to test deep-space handling qualities, and the crew is preparing for Monday's lunar flyby."
 permalink: /en/space-news/2026/04/2026-04-05-artemis-2-flight-day-4/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: artemis

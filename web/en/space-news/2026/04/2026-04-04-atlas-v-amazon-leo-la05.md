@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Atlas V Launches 29 Amazon Leo Satellites on LA-05 Mission, Accelerating Constellation Buildout"
 description: "ULA Atlas V 551 successfully launched 29 Amazon Leo broadband internet satellites from Cape Canaveral SFS on the LA-05 mission."
 permalink: /en/space-news/2026/04/2026-04-04-atlas-v-amazon-leo-la05/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-04
 lastUpdated: 2026-04-04
 category: commercial

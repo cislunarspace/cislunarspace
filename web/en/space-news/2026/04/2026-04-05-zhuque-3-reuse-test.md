@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "LandSpace's Zhang Xiaodong: Zhuque-3 to Sprint for Reuse Testing in First Half of 2026, Building Low-Cost 'Bus' for Space Computing"
 description: "At the 2026 Space Computing Industry Conference, Zhang Xiaodong, chief designer of LandSpace's reusable Zhuque-3 rocket, announced plans for recovery tests in H1 2026 and aiming for the first reusable flight by Q4 2026."
 permalink: /en/space-news/2026/04/2026-04-05-zhuque-3-reuse-test/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-05
 lastUpdated: 2026-04-05
 category: commercial

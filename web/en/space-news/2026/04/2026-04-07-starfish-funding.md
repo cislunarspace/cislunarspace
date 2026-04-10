@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Starfish Space Raises Over $100 Million to Advance Otter On-Orbit Servicing Vehicle"
 description: "In-orbit servicing startup Starfish Space closed a new funding round exceeding $100 million, aimed at accelerating development of its Otter servicing spacecraft and its first GEO mission."
 permalink: /en/space-news/2026/04/2026-04-07-starfish-funding/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-04-07
 lastUpdated: 2026-04-07
 category: commercial

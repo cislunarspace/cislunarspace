@@ -2,7 +2,7 @@
 title: SpaceX Starlink 10-46 launch from Cape Canaveral
 description: Falcon 9 lifts 29 Starlink V2 Mini Optimized satellites from Cape Canaveral SFS on March 17, 2026; booster B1090 lands on ASOG.
 permalink: /en/space-news/2026/03/2026-03-17-spacex-starlink-10-46/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-17
 lastUpdated: 2026-03-17
 category: spacex

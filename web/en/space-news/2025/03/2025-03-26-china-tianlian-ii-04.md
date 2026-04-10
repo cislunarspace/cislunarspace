@@ -2,7 +2,7 @@
 title: China launches Tianlian II-04 data-relay satellite
 description: Long March 3B lifts off from Xichang on March 26, 2025, placing the Tianlian II-04 GEO relay satellite into planned orbit; 565th Long March family flight.
 permalink: /en/space-news/2025/03/2025-03-26-china-tianlian-ii-04/
-author: 天疆说
+author: Tianjiangshuo
 date: 2025-03-26
 lastUpdated: 2025-03-27
 category: china

@@ -2,7 +2,7 @@
 title: SpaceX Starlink 17-17 launch from Vandenberg
 description: Falcon 9 lifts 25 Starlink satellites from Vandenberg SFB on March 26, 2026; booster B1081 lands on OCISLY.
 permalink: /en/space-news/2026/03/2026-03-26-spacex-starlink-vandenberg-17-17/
-author: 天疆说
+author: Tianjiangshuo
 date: 2026-03-26
 lastUpdated: 2026-03-27
 category: spacex

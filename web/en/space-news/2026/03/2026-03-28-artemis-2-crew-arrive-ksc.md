@@ -6,7 +6,7 @@ author: SpacePolicyOnline
 source: SpacePolicyOnline.com
 source_url: https://spacepolicyonline.com/news/u-s-canadian-astronaut-crew-ready-for-flight-around-the-moon/
 category: artemis
-tags: [artemis, artemis-2, NASA, 登月, 绕月, 发射]
+tags: [artemis, artemis-2, NASA, lunar landing, lunar orbit, launch]
 related:
   - 2026-03-27-artemis-2-one-week-away
   - 2026-03-27-nasa-nuclear-spacecraft
