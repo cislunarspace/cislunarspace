@@ -73,7 +73,7 @@ category: [spacex, commercial]
 5. **撰写**：每条新闻一篇 md；**摘要** 3～6 句；**信息来源** 小节用 Markdown 列表列出 `[标题](https://...)`，勿抄袭长段落。正文中嵌入已下载的图片。
 6. **更新月度 README**：在当月 `README.md`（中文 + 英文）的表格中增加一行链到该文。
 7. **重新生成索引**：运行 `node web/.vuepress/gen-sidebar.js` 更新 sidebar 和 articles JSON。
-8. **构建**：在 `web/` 下执行 `npx vuepress build .`（必要时先清理损坏的 `@vuepress/core/.temp`）确认无报错。
+8. **构建**：在仓库根目录执行 `cd web && npm run docs:build`（该命令依次执行 gen-sidebar → vuepress build → sync-figures），确认无报错。
 
 ## 图片获取与处理（必做，每篇至少一张）
 
@@ -178,7 +178,7 @@ layout: SpaceNewsArticle
 title: "Short English title"
 description: "One-line summary"
 permalink: /en/space-news/YYYY/MM/YYYY-MM-DD-slug/
-author: 天疆说
+author: Tianjiangshuo
 date: YYYY-MM-DD
 lastUpdated: YYYY-MM-DD
 category: china
@@ -194,7 +194,7 @@ image: ./figures/YYYY-MM-DD-slug/hero.jpg
 | `title` | ✅ | 稿件标题 |
 | `description` | ✅ | 一句话摘要，首页卡片 + SEO 用 |
 | `permalink` | ✅ | 末尾带 `/`，中文以 `/space-news/` 开头，英文以 `/en/space-news/` 开头 |
-| `author` | ✅ | 固定 `天疆说` |
+| `author` | ✅ | 中文固定 `天疆说`，英文固定 `Tianjiangshuo` |
 | `date` | ✅ | 事件日期 `YYYY-MM-DD` |
 | `lastUpdated` | ✅ | 最后更新日期，初始同 `date` |
 | `category` | ✅ | 分类，见上方「新闻分类」表 |
@@ -273,42 +273,54 @@ image: ./figures/YYYY-MM-DD-slug/hero.jpg
 - **侧边栏**：`web/.vuepress/sidebar.ts` / `sidebar-en.ts`（引用 `sidebar.auto.json`）
 - **分类定义**：`SpaceNewsHome.vue` 中的 `categoryMeta` 对象
 
-## 自动化执行流程（cron / 定时任务）
+## 自动化执行流程（cron / 定时任务，每小时执行）
 
-当以自动化方式执行更新时，按以下步骤**严格顺序**执行。每一步依赖前一步的产出。
+当以自动化方式执行更新时，按以下步骤**严格顺序**执行。每一步依赖前一步的产出。由于每小时执行一次，单次更新通常只有 0~2 条新闻是正常的——不要为了凑数量而降低质量标准。
 
 ### 阶段一：检索与筛选
 
-1. **搜索中国航天新闻**（中文关键词：神舟、天宫、长征、嫦娥、天问、北斗、商业航天、天龙、朱雀、双曲线、谷神星、引力、力箭等），时间范围为最近一个更新周期
+1. **搜索中国航天新闻**（中文关键词：神舟、天宫、长征、嫦娥、天问、北斗、商业航天、天龙、朱雀、双曲线、谷神星、引力、力箭等），时间范围为最近一个更新周期（通常 1 小时）
 2. **搜索国际航天新闻**（英文关键词：Artemis、SpaceX、Starship、ESA、NASA、Rocket Lab 等），同一时间范围
 3. **搜索其他值得报道的新闻**（补充性搜索，覆盖前两轮未涉及的事件）
 4. 按重要程度排序：**重大任务里程碑 > 发射 > 政策/商业动态 > 常规发射**
 5. Starlink 等高频常规发射合并为一条汇总，不逐条报道
 6. 检查当月目录已有稿件，**去重**（同一事件不重复撰写）
 7. 统计中国 vs 国际新闻比例——中国航天新闻占比**不得低于 30%**；如不足，回到步骤 1 补充搜索
+8. **如果主要领域未搜到足够新闻（< 2 条），扩展搜索以下领域：**
+   - 深空探测进展（火星、小行星、深空探测器状态更新）
+   - 卫星运营与商业应用（通信卫星、遥感卫星、导航系统）
+   - 航天政策与预算（各国航天预算、法案、战略规划）
+   - 空间科学与天文发现（天文观测、物理学实验、宇宙学发现）
+   - 商业航天投融资（融资、并购、IPO、合作）
+   - 航天技术与创新（新材料、推进技术、在轨制造、太空 3D 打印）
+   - 太空碎片与轨道安全（碎片监测、碰撞预警、清理任务）
+   - 各国航天计划动态（印度 ISRO、日本 JAXA、韩国 KASA、阿联酋航天局等）
+   - 航天员与空间站（训练、健康研究、科普活动）
+   - 太空旅游与载人航天商业化
+9. **如果扩展搜索后仍无值得报道的新闻**，简短汇报即可，**不要硬凑内容**
 
 ### 阶段二：核对与撰稿
 
-8. 核实每条新闻的来源（优先机构官网、通讯社、主流航天媒体），确保每篇稿件至少有一条可引用的原文 URL
-9. 为每条新闻**下载配图**到 `figures/<slug>/`（每篇至少一张，详见「图片获取与处理」专节）
-10. 撰写中英双语稿件（中国新闻先写中文再译英文；国际新闻先写英文再译中文），遵循上方 frontmatter 模板和正文结构
-11. `category` 必须从「新闻分类」预定义列表选择；`layout` 固定 `SpaceNewsArticle`；英文稿 slug 与中文一致（无 `-en` 后缀），permalink 以 `/en/` 开头
+10. 核实每条新闻的来源（优先机构官网、通讯社、主流航天媒体），确保每篇稿件至少有一条可引用的原文 URL
+11. 为每条新闻**下载配图**到 `figures/<slug>/`（每篇至少一张，详见「图片获取与处理」专节）
+12. 撰写中英双语稿件（中国新闻先写中文再译英文；国际新闻先写英文再译中文），遵循上方 frontmatter 模板和正文结构
+13. `category` 必须从「新闻分类」预定义列表选择；`layout` 固定 `SpaceNewsArticle`；英文稿 slug 与中文一致（无 `-en` 后缀），permalink 以 `/en/` 开头
 
 ### 阶段三：索引与构建（⚠️ 关键步骤，不可跳过）
 
 **这一步是将新稿件呈现到首页卡片上的必要操作。跳过此步骤 = 新稿件只存在于磁盘上，不会出现在航天动态首页。**
 
-12. 更新当月 `README.md` 索引（中文 `web/space-news/YYYY/MM/README.md` + 英文 `web/en/space-news/YYYY/MM/README.md`）；如需新建年/月目录，同步更新年索引
-13. 运行构建流程：`cd web && npm run docs:build`（该命令依次执行 `gen-sidebar.js` → `vuepress build` → `sync-figures.js`）
+14. 更新当月 `README.md` 索引（中文 `web/space-news/YYYY/MM/README.md` + 英文 `web/en/space-news/YYYY/MM/README.md`）；如需新建年/月目录，同步更新年索引
+15. 运行构建流程：`cd web && npm run docs:build`（该命令依次执行 `gen-sidebar.js` → `vuepress build` → `sync-figures.js`）
     - **`gen-sidebar.js`**：扫描所有 md 文件的 frontmatter，生成 `space-news-articles.json`——这是首页 `SpaceNewsHome.vue` 读取新闻列表的数据源。**不运行此脚本，新稿件不会出现在首页卡片中。**
     - **`vuepress build`**：构建静态站点
     - **`sync-figures.js`**：将 `figures/` 目录中的图片复制到 `dist/`，确保首页卡片图片可加载
-14. **验证**：确认 `space-news-articles.json` 中包含了本次新增的稿件条目（检查 `title` 和 `image` 字段是否正确）
+16. **验证**：确认 `space-news-articles.json` 中包含了本次新增的稿件条目（检查 `title` 和 `image` 字段是否正确）
 
 ### 阶段四：汇报
 
-15. 汇报本次更新结果：新增 N 条中文 / M 条英文稿件，并列出各稿件标题
-16. 如该周期内无值得报道的新闻，简短说明即可，不必硬凑
+17. 汇报本次更新结果：新增 N 条中文 / M 条英文稿件，并列出各稿件标题
+18. 如该周期内无值得报道的新闻，简短说明即可，不必硬凑
 
 ## 中英文平衡策略（必须遵守）
 
