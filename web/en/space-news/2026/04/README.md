@@ -48,6 +48,8 @@ lastUpdated: 2026-04-10
 | Apr 10 | [Long March-6A Launches Mega Constellation Satellites, Successfully Deploys 21 Low-Earth Orbit Satellites](./2026-04-10-long-march-6a-megaconstellation/) |
 | Apr 10 | [Chang'e 7 Probe Arrives at Wenchang Launch Center for Planned 2026 Launch](./2026-04-10-chang-e7-arrive/) |
 | Apr 10 | [ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Launching New LEO Navigation Era](./2026-04-10-esa-celeste/) |
+| Apr 11 | [Artemis II Successful Splashdown: Historic Crewed Lunar Mission Completes](./2026-04-11-artemis-2-splashdown/) |
+| Apr 11 | [NASA Confident in Artemis II Heat Shield: Orion Spacecraft Thermal Protection System Ensures Safe Return](./2026-04-11-artemis-2-heat-shield/) |
 
 ---
 

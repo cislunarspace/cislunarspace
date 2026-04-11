@@ -877,6 +877,19 @@
       "image": "/space-news/2026/04/figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-07-artemis-ii-return-burn.md",
+      "path": "/space-news/2026/04/2026-04-07-artemis-ii-return-burn/",
+      "title": "NASA完成Artemis II首次返回修正燃烧，任务进展顺利",
+      "description": "NASA宣布Artemis II任务第7天成功完成首次返回修正燃烧，Orion飞船正在按计划返回地球，宇航员们正在进行各种飞行测试。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-11",
+      "author": "天疆说",
+      "category": [
+        "nasa"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-artemis-ii-return-burn/hero.png"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-07-hungary-husat.md",
       "path": "/space-news/2026/04/2026-04-07-hungary-husat/",
       "title": "匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT",
@@ -998,6 +1011,19 @@
       "image": null
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-10-chang-e7-wenchang.md",
+      "path": "/space-news/2026/04/2026-04-10-chang-e7-wenchang/",
+      "title": "嫦娥七号探测器已安全运抵文昌航天发射场，计划今年下半年发射",
+      "description": "嫦娥七号探测器已通过空陆联运方式全部安全运抵中国文昌航天发射场，计划今年下半年择机发射，将开展月球南极环境与资源勘查。",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-11",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-10-chang-e7-wenchang/hero.webp"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-10-china-megaconstellation-launches.md",
       "path": "/space-news/2026/04/2026-04-10-china-megaconstellation-launches/",
       "title": "长征火箭连续发射：千帆星座新增 18 星、国网星座第 21 批入轨",
@@ -1037,6 +1063,32 @@
         "launch"
       ],
       "image": "/space-news/2026/04/figures/2026-04-10-long-march-6a-megaconstellation/hero.webp"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-11-artemis-2-heat-shield.md",
+      "path": "/space-news/2026/04/2026-04-11-artemis-2-heat-shield/",
+      "title": "NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回",
+      "description": "NASA 确认 Artemis II 猎户座飞船热防护系统性能可靠，隔热罩可确保宇航员以每小时24,000英里速度再入大气层时的安全。",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-10",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-11-artemis-2-heat-shield/hero.webp"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-11-artemis-2-splashdown.md",
+      "path": "/space-news/2026/04/2026-04-11-artemis-2-splashdown/",
+      "title": "Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束",
+      "description": "NASA 宇航员 Reid Wiseman、Victor Glover、Christina Koch 和加拿大宇航员 Jeremy Hansen 成功完成历史性绕月任务，猎户座飞船在太平洋安全溅落。",
+      "date": "2026-04-11",
+      "lastUpdated": "2026-04-11",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-11-artemis-2-splashdown/hero.webp"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
@@ -1941,6 +1993,19 @@
       "image": "/en/space-news/2026/04/figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-07-artemis-ii-return-burn.md",
+      "path": "/en/space-news/2026/04/2026-04-07-artemis-ii-return-burn/",
+      "title": "NASA Completes First Return Correction Burn for Artemis II Mission, Progressing Smoothly",
+      "description": "NASA successfully completed the first return correction burn on Artemis II mission day 7, with Orion spacecraft adjusting return trajectory as astronauts conduct various flight tests.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-11",
+      "author": "Tianjiangshuo",
+      "category": [
+        "nasa"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-artemis-ii-return-burn/hero.png"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-07-hungary-husat.md",
       "path": "/en/space-news/2026/04/2026-04-07-hungary-husat/",
       "title": "Hungary Taps Northrop Grumman for First National GEO Communications Satellite HUSAT",
@@ -2062,6 +2127,19 @@
       "image": null
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-10-chang-e7-wenchang.md",
+      "path": "/en/space-news/2026/04/2026-04-10-chang-e7-wenchang/",
+      "title": "Chang'e-7 Spacecraft Arrives at Wenchang Launch Site, Planned for Launch in Second Half of 2026",
+      "description": "China's Chang'e-7 spacecraft has safely arrived at Wenchang Satellite Launch Center, scheduled for launch in the second half of 2026, conducting lunar south pole exploration and resource survey.",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-11",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-10-chang-e7-wenchang/hero.webp"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-10-china-megaconstellation-launches.md",
       "path": "/en/space-news/2026/04/2026-04-10-china-megaconstellation-launches/",
       "title": "China Launches Long March Rockets for Thousand Sails and Guowang Megaconstellations",
@@ -2101,6 +2179,32 @@
         "launch"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-10-long-march-6a-megaconstellation/hero.webp"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-11-artemis-2-heat-shield.md",
+      "path": "/en/space-news/2026/04/2026-04-11-artemis-2-heat-shield/",
+      "title": "NASA Confident in Artemis II Heat Shield: Orion Spacecraft Thermal Protection System Ensures Safe Return",
+      "description": "NASA confirms Artemis II Orion spacecraft heat shield performance reliable, thermal protection will guarantee crew safety during 24,000 mph atmospheric re-entry.",
+      "date": "2026-04-10",
+      "lastUpdated": "2026-04-10",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-11-artemis-2-heat-shield/hero.webp"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-11-artemis-2-splashdown.md",
+      "path": "/en/space-news/2026/04/2026-04-11-artemis-2-splashdown/",
+      "title": "Artemis II Successful Splashdown: Historic Crewed Lunar Mission Completes",
+      "description": "NASA astronauts Reid Wiseman, Victor Glover, Christina Koch and CSA astronaut Jeremy Hansen safely complete the first crewed lunar flyby in over 50 years, Orion spacecraft splashes down in Pacific Ocean.",
+      "date": "2026-04-11",
+      "lastUpdated": "2026-04-11",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-11-artemis-2-splashdown/hero.webp"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",

@@ -48,6 +48,9 @@ lastUpdated: 2026-04-10
 | 4-10 | [长征六号甲首发巨型星座卫星，低轨21组卫星成功入轨](./2026-04-10-long-march-6a-megaconstellation/) |
 | 4-10 | [嫦娥七号探测器全部运抵文昌发射场，2026年下半年择机发射](./2026-04-10-chang-e7-arrive/) |
 | 4-10 | [欧洲航天局Celeste卫星成功广播首个导航信号，开启低轨导航新时代](./2026-04-10-esa-celeste/) |
+| 4-11 | [Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束](./2026-04-11-artemis-2-splashdown/) |
+| 4-11 | [NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回](./2026-04-11-artemis-2-heat-shield/) |
+| 4-7 | [NASA完成Artemis II首次返回修正燃烧，任务进展顺利](./2026-04-07-artemis-ii-return-burn/) |
 
 ---
 
