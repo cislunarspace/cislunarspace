@@ -73,7 +73,7 @@ Nginx serves from `web/.vuepress/dist/` with SPA fallback. Config at `web/deploy
 ## Space News Automation
 
 - `scripts/space-news-update.sh` — triggered by system crontab every 3 hours
-- Full workflow documented in `.cursor/skills/space-news-publish/SKILL.md`
+- Full workflow documented in `scripts/space-news-publish/SKILL.md`
 - Adding a new year/month: create `README.md` index, then re-run `npm run gen-sidebar`
 
 ## Content Conventions
