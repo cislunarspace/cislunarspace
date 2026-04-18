@@ -3,6 +3,9 @@
 .vscode-test
 .tern-port
 
+# Worktrees
+.worktrees/
+
 # 操作系统
 .DS_Store
 
