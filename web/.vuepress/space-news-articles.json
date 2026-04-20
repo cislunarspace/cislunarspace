@@ -1091,6 +1091,113 @@
       "image": "/space-news/2026/04/figures/2026-04-11-artemis-2-splashdown/hero.webp"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-13-ng-crs24-cargo.md",
+      "path": "/space-news/2026/04/2026-04-13-ng-crs24-cargo/",
+      "title": "天鹅座XL货运飞船成功对接国际空间站",
+      "description": "诺格公司第二架天鹅座XL货运飞船成功与国际空间站对接，送去约5,800磅物资与科学实验设备，包括冷原子实验升级硬件。",
+      "date": "2026-04-13",
+      "lastUpdated": "2026-04-13",
+      "author": "天疆说",
+      "category": [
+        "iss",
+        "commercial"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-14-spacex-1000th-starlink.md",
+      "path": "/space-news/2026/04/2026-04-14-spacex-1000th-starlink/",
+      "title": "SpaceX 2026年已发射1000颗星链卫星",
+      "description": "SpaceX通过猎鹰9号火箭成功发射第1000颗星链卫星，这是该公司2026年第37次专用星链任务，全年累计已部署1,002颗星链卫星。",
+      "date": "2026-04-14",
+      "lastUpdated": "2026-04-14",
+      "author": "天疆说",
+      "category": [
+        "spacex",
+        "commercial"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-17-nasa-mobile-launcher-vab.md",
+      "path": "/space-news/2026/04/2026-04-17-nasa-mobile-launcher-vab/",
+      "title": "NASA移动发射平台进驻总装大楼，为Artemis III任务做准备",
+      "description": "NASA将Artemis II任务使用的移动发射平台运回肯尼迪航天中心总装大楼，开始为2027年Artemis III载人登月任务进行火箭堆叠准备工作。",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-17-nasa-mobile-launcher-vab/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-17-nasa-spherex-interstellar-ice.md",
+      "path": "/space-news/2026/04/2026-04-17-nasa-spherex-interstellar-ice/",
+      "title": "NASA SPHEREx探测器绘制银河系星际冰图谱",
+      "description": "NASA的SPHEREx探测器捕获了天鹅座X恒星形成区中水冰和有机分子的化学特征，揭示了宇宙中大部分水的来源和存储机制。",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "天疆说",
+      "category": [
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-19-new-glenn-ng-3.md",
+      "path": "/space-news/2026/04/2026-04-19-new-glenn-ng-3/",
+      "title": "蓝色起源新格伦火箭NG-3任务成功首飞",
+      "description": "蓝色起源公司第三枚新格伦火箭成功从卡纳维拉尔角发射，将AST SpaceMobile的BlueBird 7卫星送入低地球轨道，标志着蓝色起源实现首次助推器复用。",
+      "date": "2026-04-19",
+      "lastUpdated": "2026-04-19",
+      "author": "天疆说",
+      "category": [
+        "launch",
+        "commercial"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-19-spacex-600th-booster.md",
+      "path": "/space-news/2026/04/2026-04-19-spacex-600th-booster/",
+      "title": "SpaceX完成第600次猎鹰助推器着陆回收",
+      "description": "SpaceX在范登堡太空军基地使用猎鹰9号火箭执行星链17-22任务期间，成功完成第600次猎鹰助推器着陆里程碑，第191次在无人驾驶船上完成回收。",
+      "date": "2026-04-19",
+      "lastUpdated": "2026-04-19",
+      "author": "天疆说",
+      "category": [
+        "spacex"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-20-china-space-day-2026.md",
+      "path": "/space-news/2026/04/2026-04-20-china-space-day-2026/",
+      "title": "国家航天局发布2026年中国航天日活动信息",
+      "description": "2026年4月24日第11个中国航天日以「七秩问天路 携手探九霄」为主题，主场活动在四川成都举办，巴西担任主宾国。",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-20-china-space-day-2026/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-20-latvia-artemis-accords.md",
+      "path": "/space-news/2026/04/2026-04-20-latvia-artemis-accords/",
+      "title": "拉脱维亚将于4月20日签署《Artemis协定》",
+      "description": "2026年4月20日，拉脱维亚将在NASA总部举行仪式签署《Artemis协定》，成为该协定的第50余个签署国，进一步扩大了太空探索国际合作的阵营。",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-20-latvia-artemis-accords/hero.webp"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
       "path": "/space-news/2026/04/2026-04-24-nasa-lunar-base-plan/",
       "title": "NASA暂停「月球门户」空间站计划，转向建设月球表面基地",
@@ -2205,6 +2312,113 @@
         "artemis"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-11-artemis-2-splashdown/hero.webp"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-13-ng-crs24-cargo.md",
+      "path": "/en/space-news/2026/04/2026-04-13-ng-crs24-cargo/",
+      "title": "Cygnus XL Cargo Spacecraft Docks with ISS",
+      "description": "Northrop Grumman's second Cygnus XL cargo spacecraft successfully docked with the International Space Station, delivering approximately 5,800 pounds of supplies and scientific experiment equipment.",
+      "date": "2026-04-13",
+      "lastUpdated": "2026-04-13",
+      "author": "Tianjiangshuo",
+      "category": [
+        "iss",
+        "commercial"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-14-spacex-1000th-starlink.md",
+      "path": "/en/space-news/2026/04/2026-04-14-spacex-1000th-starlink/",
+      "title": "SpaceX Deploys 1,000th Starlink Satellite of 2026",
+      "description": "SpaceX successfully launched its 1,000th Starlink satellite of 2026 via Falcon 9, marking the company's 37th dedicated Starlink mission of the year with 1,002 total Starlink satellites deployed in 2026.",
+      "date": "2026-04-14",
+      "lastUpdated": "2026-04-14",
+      "author": "Tianjiangshuo",
+      "category": [
+        "spacex",
+        "commercial"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-17-nasa-mobile-launcher-vab.md",
+      "path": "/en/space-news/2026/04/2026-04-17-nasa-mobile-launcher-vab/",
+      "title": "NASA's Mobile Launcher Returns to VAB Ahead of Artemis III Mission",
+      "description": "NASA transported the Mobile Launcher 1 used in the Artemis II mission from Launch Pad 39B to the Vehicle Assembly Building at Kennedy Space Center, preparing for Artemis III crewed lunar landing operations.",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-17-nasa-mobile-launcher-vab/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-17-nasa-spherex-interstellar-ice.md",
+      "path": "/en/space-news/2026/04/2026-04-17-nasa-spherex-interstellar-ice/",
+      "title": "NASA's SPHEREx Observatory Maps Interstellar Ice in Milky Way",
+      "description": "NASA's SPHEREx mission has captured the chemical signatures of water ice and complex organic molecules in the Cygnus X star-forming region, providing new insights into the universe's water reservoirs and the chemistry of life.",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "Tianjiangshuo",
+      "category": [
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-19-new-glenn-ng-3.md",
+      "path": "/en/space-news/2026/04/2026-04-19-new-glenn-ng-3/",
+      "title": "Blue Origin New Glenn NG-3 Mission Success with First Booster Reuse",
+      "description": "Blue Origin successfully launched its third New Glenn rocket on NG-3 mission, carrying AST SpaceMobile's BlueBird 7 satellite to orbit while achieving the company's first booster reuse milestone.",
+      "date": "2026-04-19",
+      "lastUpdated": "2026-04-19",
+      "author": "Tianjiangshuo",
+      "category": [
+        "launch",
+        "commercial"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-19-spacex-600th-booster.md",
+      "path": "/en/space-news/2026/04/2026-04-19-spacex-600th-booster/",
+      "title": "SpaceX Completes 600th Falcon Booster Landing Milestone",
+      "description": "SpaceX successfully completed its 600th Falcon booster landing during the Starlink 17-22 mission from Vandenberg, with the 191st landing on drone ship Of Course I Still Love You.",
+      "date": "2026-04-19",
+      "lastUpdated": "2026-04-19",
+      "author": "Tianjiangshuo",
+      "category": [
+        "spacex"
+      ],
+      "image": "null"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-20-china-space-day-2026.md",
+      "path": "/en/space-news/2026/04/2026-04-20-china-space-day-2026/",
+      "title": "China Space Day 2026 Activities Announced",
+      "description": "The 11th China Space Day on April 24, 2026 coincides with the 70th anniversary of China's space industry and the 10th anniversary of the Space Day. The main event will be held in Chengdu, Sichuan, with Brazil as the guest of honor.",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-20-china-space-day-2026/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-20-latvia-artemis-accords.md",
+      "path": "/en/space-news/2026/04/2026-04-20-latvia-artemis-accords/",
+      "title": "Latvia to Sign Artemis Accords on April 20",
+      "description": "Latvia will sign the Artemis Accords at NASA Headquarters on April 20, 2026, becoming the 50th-plus signatory and further expanding the international space exploration cooperation framework.",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-20-latvia-artemis-accords/hero.webp"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",

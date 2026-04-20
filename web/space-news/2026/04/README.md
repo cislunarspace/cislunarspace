@@ -51,6 +51,14 @@ lastUpdated: 2026-04-10
 | 4-11 | [Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束](./2026-04-11-artemis-2-splashdown/) |
 | 4-11 | [NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回](./2026-04-11-artemis-2-heat-shield/) |
 | 4-7 | [NASA完成Artemis II首次返回修正燃烧，任务进展顺利](./2026-04-07-artemis-ii-return-burn/) |
+| 4-13 | [天鹅座XL货运飞船成功对接国际空间站](./2026-04-13-ng-crs24-cargo/) |
+| 4-14 | [SpaceX 2026年已发射1000颗星链卫星](./2026-04-14-spacex-1000th-starlink/) |
+| 4-17 | [NASA移动发射平台进驻总装大楼，为Artemis III任务做准备](./2026-04-17-nasa-mobile-launcher-vab/) |
+| 4-19 | [蓝色起源新格伦火箭NG-3任务成功首飞](./2026-04-19-new-glenn-ng-3/) |
+| 4-19 | [SpaceX完成第600次猎鹰助推器着陆回收](./2026-04-19-spacex-600th-booster/) |
+| 4-17 | [NASA SPHEREx探测器绘制银河系星际冰图谱](./2026-04-17-nasa-spherex-interstellar-ice/) |
+| 4-20 | [国家航天局发布2026年中国航天日活动信息](./2026-04-20-china-space-day-2026/) |
+| 4-20 | [拉脱维亚将于4月20日签署《Artemis协定》](./2026-04-20-latvia-artemis-accords/) |
 
 ---
 

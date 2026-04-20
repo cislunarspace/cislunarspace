@@ -50,6 +50,14 @@ lastUpdated: 2026-04-10
 | Apr 10 | [ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Launching New LEO Navigation Era](./2026-04-10-esa-celeste/) |
 | Apr 11 | [Artemis II Successful Splashdown: Historic Crewed Lunar Mission Completes](./2026-04-11-artemis-2-splashdown/) |
 | Apr 11 | [NASA Confident in Artemis II Heat Shield: Orion Spacecraft Thermal Protection System Ensures Safe Return](./2026-04-11-artemis-2-heat-shield/) |
+| Apr 13 | [Cygnus XL Cargo Spacecraft Docks with ISS](./2026-04-13-ng-crs24-cargo/) |
+| Apr 14 | [SpaceX Deploys 1,000th Starlink Satellite of 2026](./2026-04-14-spacex-1000th-starlink/) |
+| Apr 17 | [NASA's Mobile Launcher Returns to VAB Ahead of Artemis III Mission](./2026-04-17-nasa-mobile-launcher-vab/) |
+| Apr 19 | [Blue Origin New Glenn NG-3 Mission Success with First Booster Reuse](./2026-04-19-new-glenn-ng-3/) |
+| Apr 19 | [SpaceX Completes 600th Falcon Booster Landing Milestone](./2026-04-19-spacex-600th-booster/) |
+| Apr 17 | [NASA's SPHEREx Observatory Maps Interstellar Ice in Milky Way](./2026-04-17-nasa-spherex-interstellar-ice/) |
+| Apr 20 | [China Space Day 2026 Activities Announced](./2026-04-20-china-space-day-2026/) |
+| Apr 20 | [Latvia to Sign Artemis Accords on April 20](./2026-04-20-latvia-artemis-accords/) |
 
 ---
 
