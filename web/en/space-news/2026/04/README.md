@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-10
+lastUpdated: 2026-04-21
 ---
 
 # April 2026
@@ -50,14 +50,31 @@ lastUpdated: 2026-04-10
 | Apr 10 | [ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Launching New LEO Navigation Era](./2026-04-10-esa-celeste/) |
 | Apr 11 | [Artemis II Successful Splashdown: Historic Crewed Lunar Mission Completes](./2026-04-11-artemis-2-splashdown/) |
 | Apr 11 | [NASA Confident in Artemis II Heat Shield: Orion Spacecraft Thermal Protection System Ensures Safe Return](./2026-04-11-artemis-2-heat-shield/) |
+| Apr 7  | [China Manned Space Program Officially Releases Tianzhou 10 Mission Identifier](./2026-04-07-tianzhou-10-identifier/) |
+| Apr 13 | [Rocket Lab CSD Satellite Dispensers Successfully Deploy CubeSats on Artemis II](./2026-04-13-rocket-lab-csd-artemis-ii/) |
 | Apr 13 | [Cygnus XL Cargo Spacecraft Docks with ISS](./2026-04-13-ng-crs24-cargo/) |
 | Apr 14 | [SpaceX Deploys 1,000th Starlink Satellite of 2026](./2026-04-14-spacex-1000th-starlink/) |
+| Apr 15 | [NASA's Parker Solar Probe Finds Surprises in Solar Explosion](./2026-04-15-parker-solar-probe/) |
+| Apr 16 | [SOHO Coronagraph Captures Sungrazer Comet Disintegrating Near the Sun](./2026-04-16-soho-comet-disintegration/) |
+| Apr 17 | [China Launches High-Precision Greenhouse Gas Detection Satellite](./2026-04-17-greenhouse-gas-satellite/) |
+| Apr 17 | [Blue Origin New Glenn Orbital Insertion Deviation, AST BlueBird 7 Satellite to be Deorbited](./2026-04-17-bluebird-7-orbit/) |
+| Apr 17 | [NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating](./2026-04-17-voyager-1-instrument-shutdown/) |
+| Apr 17 | [Shenzhou 21 Crew Completes Third EVA, Commander Zhang Lu Sets New Record](./2026-04-17-shenzhou-21-eva3/) |
 | Apr 17 | [NASA's Mobile Launcher Returns to VAB Ahead of Artemis III Mission](./2026-04-17-nasa-mobile-launcher-vab/) |
 | Apr 19 | [Blue Origin New Glenn NG-3 Mission Success with First Booster Reuse](./2026-04-19-new-glenn-ng-3/) |
+| Apr 19 | [Blue Origin New Glenn Suffers First Launch Failure on BlueBird Block 2 Mission](./2026-04-19-new-glenn-bluebird-failure/) |
 | Apr 19 | [SpaceX Completes 600th Falcon Booster Landing Milestone](./2026-04-19-spacex-600th-booster/) |
 | Apr 17 | [NASA's SPHEREx Observatory Maps Interstellar Ice in Milky Way](./2026-04-17-nasa-spherex-interstellar-ice/) |
 | Apr 20 | [China Space Day 2026 Activities Announced](./2026-04-20-china-space-day-2026/) |
 | Apr 20 | [Latvia to Sign Artemis Accords on April 20](./2026-04-20-latvia-artemis-accords/) |
+| Apr 20 | [NASA's X-59 Quiet Supersonic Aircraft Completes Wheel-Up Flight Tests](./2026-04-20-nasa-x-59-wheels-up/) |
+| Apr 20 | [NASA Hubble Telescope Releases New Image of Trifid Nebula for 36th Launch Anniversary](./2026-04-20-hubble-trifid-nebula/) |
+| Apr 20 | [NASA Opens Media Accreditation for SpaceX CRS-34 Resupply Mission to ISS](./2026-04-20-nasa-crs-34-media/) |
+| Apr 20 | [NASA Releases Initial Artemis II Post-Flight Assessment: Orion Heat Shield Outperforms](./2026-04-20-artemis-ii-assessments/) |
+| Apr 20 | [NASA Rolls Out Artemis III SLS Core Stage for Moon Mission](./2026-04-20-artemis-iii-core-stage-rollout/) |
+| Apr 20 | [Latvia Signs Artemis Accords, Becomes 62nd Signatory](./2026-04-20-latvia-artemis-accords/) |
+| Apr 21 | [SpaceX GPS III SV10 Launch Preview: Tenth GPS III Satellite Ready for Liftoff](./2026-04-21-gps-iii-sv10/) |
+| Apr 22 | [Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Set for Launch](./2026-04-22-hasate-bubbles/) |
 
 ---
 

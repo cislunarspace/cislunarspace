@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-10
+lastUpdated: 2026-04-21
 ---
 
 # 2026 年 4 月
@@ -51,14 +51,32 @@ lastUpdated: 2026-04-10
 | 4-11 | [Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束](./2026-04-11-artemis-2-splashdown/) |
 | 4-11 | [NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回](./2026-04-11-artemis-2-heat-shield/) |
 | 4-7 | [NASA完成Artemis II首次返回修正燃烧，任务进展顺利](./2026-04-07-artemis-ii-return-burn/) |
+| 4-7  | [中国载人航天工程办公室正式发布天舟十号飞行任务标识](./2026-04-07-tianzhou-10-identifier/) |
+| 4-13 | [Rocket Lab卫星分离系统成功助力Artemis II立方星部署](./2026-04-13-rocket-lab-csd-artemis-ii/) |
 | 4-13 | [天鹅座XL货运飞船成功对接国际空间站](./2026-04-13-ng-crs24-cargo/) |
 | 4-14 | [SpaceX 2026年已发射1000颗星链卫星](./2026-04-14-spacex-1000th-starlink/) |
+| 4-15 | [帕克太阳探测器发现太阳爆发事件中的意外细节](./2026-04-15-parker-solar-probe/) |
+| 4-16 | [SOHO日冕仪观测到一颗掠日彗星在飞掠太阳时解体](./2026-04-16-soho-comet-disintegration/) |
+| 4-17 | [国家航天局召开商业航天安全监管会议：部署2026年重点任务，强化全链条监管](./2026-04-17-commercial-space-safety-meeting/) |
+| 4-17 | [高精度温室气体综合探测卫星成功发射](./2026-04-17-greenhouse-gas-satellite/) |
+| 4-17 | [蓝色起源新格伦火箭入轨偏差，AST BlueBird 7 卫星将受控离轨](./2026-04-17-bluebird-7-orbit/) |
+| 4-17 | [NASA关闭旅行者1号探测器一台仪器以维持运行](./2026-04-17-voyager-1-instrument-shutdown/) |
+| 4-17 | [神舟二十一号乘组圆满完成第三次出舱活动，张陆刷新个人出舱纪录](./2026-04-17-shenzhou-21-eva3/) |
 | 4-17 | [NASA移动发射平台进驻总装大楼，为Artemis III任务做准备](./2026-04-17-nasa-mobile-launcher-vab/) |
 | 4-19 | [蓝色起源新格伦火箭NG-3任务成功首飞](./2026-04-19-new-glenn-ng-3/) |
+| 4-19 | [蓝色起源新格伦火箭第四次发射失败，BlueBird Block 2卫星未能入轨](./2026-04-19-new-glenn-bluebird-failure/) |
 | 4-19 | [SpaceX完成第600次猎鹰助推器着陆回收](./2026-04-19-spacex-600th-booster/) |
 | 4-17 | [NASA SPHEREx探测器绘制银河系星际冰图谱](./2026-04-17-nasa-spherex-interstellar-ice/) |
 | 4-20 | [国家航天局发布2026年中国航天日活动信息](./2026-04-20-china-space-day-2026/) |
 | 4-20 | [拉脱维亚将于4月20日签署《Artemis协定》](./2026-04-20-latvia-artemis-accords/) |
+| 4-20 | [NASA X-59 静音超音速验证机完成滑行测试](./2026-04-20-nasa-x-59-wheels-up/) |
+| 4-20 | [NASA 哈勃望远镜发布三叶星云新图像庆祝发射36周年](./2026-04-20-hubble-trifid-nebula/) |
+| 4-20 | [NASA 开放 SpaceX CRS-34 货运任务媒体资质](./2026-04-20-nasa-crs-34-media/) |
+| 4-20 | [NASA发布Artemis II任务初期评估报告：猎户座隔热罩表现超预期](./2026-04-20-artemis-ii-assessments/) |
+| 4-20 | [NASA 展开 Artemis III SLS 火箭芯级，为2027年载人登月任务铺路](./2026-04-20-artemis-iii-core-stage-rollout/) |
+| 4-20 | [拉脱维亚签署《Artemis协定》，成为第62个签署国](./2026-04-20-latvia-artemis-accords/) |
+| 4-21 | [SpaceX GPS III SV10 发射预告：第十颗 GPS III 卫星即将升空](./2026-04-21-gps-iii-sv10/) |
+| 4-22 | [Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射](./2026-04-22-hasate-bubbles/) |
 
 ---
 

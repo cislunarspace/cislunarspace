@@ -943,6 +943,19 @@
       "image": "/space-news/2026/04/figures/2026-04-07-starfish-funding/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-07-tianzhou-10-identifier.md",
+      "path": "/space-news/2026/04/2026-04-07-tianzhou-10-identifier/",
+      "title": "中国载人航天工程办公室正式发布天舟十号飞行任务标识",
+      "description": "中国载人航天工程办公室正式发布天舟十号飞行任务标识，圆形设计寓意天地协同，金色渐变线条象征航天力量，计划于2026年执行。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-tianzhou-10-identifier/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-08-ng-crs24-delay.md",
       "path": "/space-news/2026/04/2026-04-08-ng-crs24-delay/",
       "title": "诺格 CRS-24 国际空间站货运任务再度延期，发射日期推迟至 4 月 11 日",
@@ -1105,6 +1118,20 @@
       "image": "null"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-13-rocket-lab-csd-artemis-ii.md",
+      "path": "/space-news/2026/04/2026-04-13-rocket-lab-csd-artemis-ii/",
+      "title": "Rocket Lab卫星分离系统成功助力Artemis II立方星部署",
+      "description": "Rocket Lab公司的 canisterized Satellite Dispensers（CSD）卫星分离系统在Artemis II任务中成功部署4颗立方星，包括韩国KASA的K-Rad Cube，运行轨道最高达4万公里。",
+      "date": "2026-04-13",
+      "lastUpdated": "2026-04-13",
+      "author": "天疆说",
+      "category": [
+        "commercial",
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/rocket-lab-csd-artemis-ii/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-14-spacex-1000th-starlink.md",
       "path": "/space-news/2026/04/2026-04-14-spacex-1000th-starlink/",
       "title": "SpaceX 2026年已发射1000颗星链卫星",
@@ -1117,6 +1144,73 @@
         "commercial"
       ],
       "image": "null"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-15-parker-solar-probe.md",
+      "path": "/space-news/2026/04/2026-04-15-parker-solar-probe/",
+      "title": "帕克太阳探测器发现太阳爆发事件中的意外细节",
+      "description": "NASA帕克太阳探测器在2022年飞掠太阳时，捕捉到磁重联事件的精细观测数据，发现质子和重离子的加速机制与理论预期不符。",
+      "date": "2026-04-15",
+      "lastUpdated": "2026-04-15",
+      "author": "天疆说",
+      "category": [
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-15-parker-solar-probe/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-16-soho-comet-disintegration.md",
+      "path": "/space-news/2026/04/2026-04-16-soho-comet-disintegration/",
+      "title": "SOHO日冕仪观测到一颗掠日彗星在飞掠太阳时解体",
+      "description": "2026年4月4日，一颗名为C/2026 A1（MAPS）的克鲁兹族掠日彗星在接近太阳时解体，SOHO日冕仪记录了其消失的全过程。",
+      "date": "2026-04-16",
+      "lastUpdated": "2026-04-16",
+      "author": "天疆说",
+      "category": [
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-16-soho-comet-disintegration/hero.png"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-17-bluebird-7-orbit.md",
+      "path": "/space-news/2026/04/2026-04-17-bluebird-7-orbit/",
+      "title": "蓝色起源新格伦火箭入轨偏差，AST BlueBird 7 卫星将受控离轨",
+      "description": "AST SpaceMobile 公司 BlueBird 7 卫星搭乘蓝色起源新格伦火箭发射，但因入轨轨道错误，将进行受控离轨处置。",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "天疆说",
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-17-bluebird-7-orbit/hero.png"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-17-commercial-space-safety-meeting.md",
+      "path": "/space-news/2026/04/2026-04-17-commercial-space-safety-meeting/",
+      "title": "国家航天局召开商业航天安全监管会议：部署2026年重点任务，强化全链条监管",
+      "description": "2026年4月14日，国家航天局在京召开商业航天安全监管会议，传达学习习近平总书记关于商业航天的重要指示批示，总结2025年工作并部署2026年重点任务。",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "天疆说",
+      "category": [
+        "china",
+        "policy"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-17-commercial-space-safety-meeting/hero.png"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-17-greenhouse-gas-satellite.md",
+      "path": "/space-news/2026/04/2026-04-17-greenhouse-gas-satellite/",
+      "title": "高精度温室气体综合探测卫星成功发射",
+      "description": "2026年4月17日12时10分，我国在酒泉卫星发射中心用长征四号丙运载火箭成功发射高精度温室气体综合探测卫星，卫星顺利进入预定轨道，发射任务取得圆满成功。",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-17-greenhouse-gas-satellite/hero.png"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-17-nasa-mobile-launcher-vab.md",
@@ -1143,6 +1237,46 @@
         "science"
       ],
       "image": "/space-news/2026/04/figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-17-shenzhou-21-eva3.md",
+      "path": "/space-news/2026/04/2026-04-17-shenzhou-21-eva3/",
+      "title": "神舟二十一号乘组圆满完成第三次出舱活动，张陆刷新个人出舱纪录",
+      "description": "神舟二十一号乘组航天员张陆、武飞、张洪章圆满完成第三次出舱活动，安装空间碎片防护装置并进行舱外设备设施巡检，张陆累计出舱次数已达7次。",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-17-shenzhou-21-eva3/hero.png"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-17-voyager-1-instrument-shutdown.md",
+      "path": "/space-news/2026/04/2026-04-17-voyager-1-instrument-shutdown/",
+      "title": "NASA关闭旅行者1号探测器一台仪器以维持运行",
+      "description": "NASA宣布关闭旅行者1号探测器上的低能带电粒子实验仪（LECP），以节省电力、延长这位人类首位星际探索者的使命寿命。",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "天疆说",
+      "category": [
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-19-new-glenn-bluebird-failure.md",
+      "path": "/space-news/2026/04/2026-04-19-new-glenn-bluebird-failure/",
+      "title": "蓝色起源新格伦火箭第四次发射失败，BlueBird Block 2卫星未能入轨",
+      "description": "2026年4月19日，蓝色起源公司新格伦火箭执行第四次发射任务，将AST SpaceMobile的BlueBird Block 2卫星送入轨道，但在飞行过程中遭遇异常，任务失利。这是新格伦火箭自2025年首飞以来的首次发射失败。",
+      "date": "2026-04-19",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-19-new-glenn-ng-3.md",
@@ -1172,6 +1306,32 @@
       "image": "null"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-20-artemis-ii-assessments.md",
+      "path": "/space-news/2026/04/2026-04-20-artemis-ii-assessments/",
+      "title": "NASA发布Artemis II任务初期评估报告：猎户座隔热罩表现超预期",
+      "description": "2026年4月20日，NASA发布Artemis II任务初期评估报告，显示猎户座飞船隔热罩在重返大气层时表现超预期，烧蚀损失行为较Artemis I显著减少，为2027年载人登月任务提供重要数据支撑。",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-20-artemis-ii-assessments/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-20-artemis-iii-core-stage-rollout.md",
+      "path": "/space-news/2026/04/2026-04-20-artemis-iii-core-stage-rollout/",
+      "title": "NASA 展开 Artemis III SLS 火箭芯级，为2027年载人登月任务铺路",
+      "description": "2026年4月20日，NASA将Artemis III任务使用的SLS火箭芯级从密谢角装配设施运出，经Pegasus驳船送往肯尼迪航天中心，标志着2027年载人登月任务取得关键进展。",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-20-artemis-iii-core-stage-rollout/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-20-china-space-day-2026.md",
       "path": "/space-news/2026/04/2026-04-20-china-space-day-2026/",
       "title": "国家航天局发布2026年中国航天日活动信息",
@@ -1185,17 +1345,82 @@
       "image": "/space-news/2026/04/figures/2026-04-20-china-space-day-2026/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-20-hubble-trifid-nebula.md",
+      "path": "/space-news/2026/04/2026-04-20-hubble-trifid-nebula/",
+      "title": "NASA 哈勃望远镜发布三叶星云新图像庆祝发射36周年",
+      "description": "NASA 哈勃太空望远镜在2026年4月24日迎来发射36周年，发布猎户座大星云中三叶星云的新图像，展示恒星形成区36年间的变化。",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-20-hubble-trifid-nebula/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-20-latvia-artemis-accords.md",
       "path": "/space-news/2026/04/2026-04-20-latvia-artemis-accords/",
-      "title": "拉脱维亚将于4月20日签署《Artemis协定》",
-      "description": "2026年4月20日，拉脱维亚将在NASA总部举行仪式签署《Artemis协定》，成为该协定的第50余个签署国，进一步扩大了太空探索国际合作的阵营。",
+      "title": "拉脱维亚签署《Artemis协定》，成为第62个签署国",
+      "description": "2026年4月20日，拉脱维亚教育科学部长Dace Melbārde在NASA总部签署《Artemis协定》，正式成为该协定的第62个签署国。NASA局长贾里德·艾萨克曼表示，欢迎拉脱维亚加入这一致力于透明、和平探索太空的联盟。",
       "date": "2026-04-20",
       "lastUpdated": "2026-04-20",
       "author": "天疆说",
       "category": [
         "artemis"
       ],
-      "image": "/space-news/2026/04/figures/2026-04-20-latvia-artemis-accords/hero.webp"
+      "image": "/space-news/2026/04/figures/2026-04-20-latvia-artemis-accords/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-20-nasa-crs-34-media.md",
+      "path": "/space-news/2026/04/2026-04-20-nasa-crs-34-media/",
+      "title": "NASA邀请媒体采访SpaceX第34次商业补给任务，计划5月12日发射",
+      "description": "NASA于2026年4月20日发布媒体咨询，邀请媒体采访SpaceX第34次商业补给服务（CRS-34）任务。该任务暂定于5月12日从卡纳维拉尔角40号发射复合体发射，向国际空间站运送超过5吨科学实验设备、补给和物资。",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "iss"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-20-nasa-crs-34-media/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-20-nasa-x-59-wheels-up.md",
+      "path": "/space-news/2026/04/2026-04-20-nasa-x-59-wheels-up/",
+      "title": "NASA X-59 静音超音速验证机完成滑行测试",
+      "description": "NASA X-59 Quietsupersonic 验证机于2026年4月14日在莫哈韦沙漠完成最高速飞行，实现从机轮触地到滑行起飞的过渡，为未来无声超音速飞行铺平道路。",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "天疆说",
+      "category": [
+        "nasa"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-20-nasa-x-59-wheels-up/hero.webp"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-21-gps-iii-sv10.md",
+      "path": "/space-news/2026/04/2026-04-21-gps-iii-sv10/",
+      "title": "SpaceX GPS III SV10 发射预告：第十颗 GPS III 卫星即将升空",
+      "description": "SpaceX 将于 2026 年 4 月 21 日使用 Falcon 9 火箭发射 GPS III SV10 卫星，这是美国 GPS III 星座升级计划的第十颗卫星，也是倒数第二颗 GPS III 卫星。",
+      "date": "2026-04-21",
+      "lastUpdated": "2026-04-21",
+      "author": "天疆说",
+      "category": [
+        "launch"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-21-gps-iii-sv10/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-22-hasate-bubbles.md",
+      "path": "/space-news/2026/04/2026-04-22-hasate-bubbles/",
+      "title": "Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射",
+      "description": "Rocket Lab 将于 2026 年 4 月 22 日使用 Electron 火箭执行 HASTE（Hypersonic Accelerator Suborbital Test Experiment）任务，携带 Bubbles 科学实验载荷从美国弗吉尼亚州瓦罗普斯飞行设施升空。",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-21",
+      "author": "天疆说",
+      "category": [
+        "launch"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-22-hasate-bubbles/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
@@ -2166,6 +2391,19 @@
       "image": "/en/space-news/2026/04/figures/2026-04-07-starfish-funding/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-07-tianzhou-10-identifier.md",
+      "path": "/en/space-news/2026/04/2026-04-07-tianzhou-10-identifier/",
+      "title": "China Manned Space Program Officially Releases Tianzhou 10 Mission Identifier",
+      "description": "The China Manned Space Engineering Office officially released the mission identifier for Tianzhou 10, featuring a circular design symbolizing harmony between heaven and Earth, with golden gradient lines representing aerospace power.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-tianzhou-10-identifier/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-08-ng-crs24-delay.md",
       "path": "/en/space-news/2026/04/2026-04-08-ng-crs24-delay/",
       "title": "Northrop Grumman CRS-24 ISS Resupply Mission Delayed Again to April 11",
@@ -2328,6 +2566,20 @@
       "image": "null"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-13-rocket-lab-csd-artemis-ii.md",
+      "path": "/en/space-news/2026/04/2026-04-13-rocket-lab-csd-artemis-ii/",
+      "title": "Rocket Lab CSD Satellite Dispensers Successfully Deploy CubeSats on Artemis II",
+      "description": "Rocket Lab's Canisterized Satellite Dispensers successfully deployed 4 CubeSats on NASA's Artemis II mission, including Korea's KASA K-Rad Cube, operating at altitudes up to 40,000 km.",
+      "date": "2026-04-13",
+      "lastUpdated": "2026-04-13",
+      "author": "Tianjiangshuo",
+      "category": [
+        "commercial",
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/rocket-lab-csd-artemis-ii/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-14-spacex-1000th-starlink.md",
       "path": "/en/space-news/2026/04/2026-04-14-spacex-1000th-starlink/",
       "title": "SpaceX Deploys 1,000th Starlink Satellite of 2026",
@@ -2340,6 +2592,59 @@
         "commercial"
       ],
       "image": "null"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-15-parker-solar-probe.md",
+      "path": "/en/space-news/2026/04/2026-04-15-parker-solar-probe/",
+      "title": "NASA's Parker Solar Probe Finds Surprises in Solar Explosion",
+      "description": "NASA's Parker Solar Probe captured unprecedented data on magnetic reconnection during a 2022 solar flyby, revealing that protons and heavy ions accelerate differently—contrary to theoretical predictions.",
+      "date": "2026-04-15",
+      "lastUpdated": "2026-04-15",
+      "author": "Tianjiangshuo",
+      "category": [
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-15-parker-solar-probe/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-16-soho-comet-disintegration.md",
+      "path": "/en/space-news/2026/04/2026-04-16-soho-comet-disintegration/",
+      "title": "SOHO Coronagraph Captures Sungrazer Comet Disintegrating Near the Sun",
+      "description": "On April 4, 2026, Comet C/2026 A1 (MAPS), a Kreutz sungrazing comet, disintegrated during its approach to the Sun, with NASA's and ESA's SOHO spacecraft capturing the event.",
+      "date": "2026-04-16",
+      "lastUpdated": "2026-04-16",
+      "author": "Tianjiangshuo",
+      "category": [
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-16-soho-comet-disintegration/hero.png"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-17-bluebird-7-orbit.md",
+      "path": "/en/space-news/2026/04/2026-04-17-bluebird-7-orbit/",
+      "title": "Giant BlueBird 7 Mobile Phone Satellite to Be Deorbited After Blue Origin New Glenn Places It in Wrong Orbit",
+      "description": "AST SpaceMobile's BlueBird 7 satellite, launched on Blue Origin's New Glenn rocket, was deployed into an incorrect orbit and will need to be deorbited.",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "Tianjiangshuo",
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-17-bluebird-7-orbit/hero.png"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-17-greenhouse-gas-satellite.md",
+      "path": "/en/space-news/2026/04/2026-04-17-greenhouse-gas-satellite/",
+      "title": "China Launches High-Precision Greenhouse Gas Detection Satellite on Long March-4C",
+      "description": "China successfully launched a high-precision greenhouse gas detection satellite from Jiuquan Satellite Launch Center using a Long March-4C rocket.",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-17-greenhouse-gas-satellite/hero.png"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-17-nasa-mobile-launcher-vab.md",
@@ -2366,6 +2671,46 @@
         "science"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-17-shenzhou-21-eva3.md",
+      "path": "/en/space-news/2026/04/2026-04-17-shenzhou-21-eva3/",
+      "title": "Shenzhou 21 Crew Completes Third EVA, Commander Zhang Lu Sets New Record",
+      "description": "Shenzhou 21 astronauts Zhang Lu, Wu Fei and Zhang Hongzhang successfully completed their third extravehicular activity, installing space debris shielding and inspecting external equipment, with Zhang Lu now holding China's record for most spacewalks.",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-17-shenzhou-21-eva3/hero.png"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-17-voyager-1-instrument-shutdown.md",
+      "path": "/en/space-news/2026/04/2026-04-17-voyager-1-instrument-shutdown/",
+      "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+      "description": "NASA announced the shutdown of the Low-energy Charged Particles experiment (LECP) aboard Voyager 1 to conserve power and extend the mission of humanity's first interstellar explorer.",
+      "date": "2026-04-17",
+      "lastUpdated": "2026-04-17",
+      "author": "Tianjiangshuo",
+      "category": [
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-19-new-glenn-bluebird-failure.md",
+      "path": "/en/space-news/2026/04/2026-04-19-new-glenn-bluebird-failure/",
+      "title": "Blue Origin New Glenn Suffers First Launch Failure on BlueBird Block 2 Mission",
+      "description": "On April 19, 2026, Blue Origin's New Glenn rocket experienced an anomaly during its fourth flight, failing to deliver the AST SpaceMobile BlueBird Block 2 satellite to orbit. This marked the first launch failure for the New Glenn vehicle since its maiden flight in January 2025.",
+      "date": "2026-04-19",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-19-new-glenn-ng-3.md",
@@ -2395,6 +2740,32 @@
       "image": "null"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-20-artemis-ii-assessments.md",
+      "path": "/en/space-news/2026/04/2026-04-20-artemis-ii-assessments/",
+      "title": "NASA Releases Initial Artemis II Post-Flight Assessment: Orion Heat Shield Outperforms Expectations",
+      "description": "On April 20, 2026, NASA released its initial post-flight assessment for the Artemis II mission, finding that Orion's heat shield performed better than expected with significantly reduced char loss compared to Artemis I, providing critical data for the planned 2027 crewed lunar landing.",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-20-artemis-ii-assessments/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-20-artemis-iii-core-stage-rollout.md",
+      "path": "/en/space-news/2026/04/2026-04-20-artemis-iii-core-stage-rollout/",
+      "title": "NASA Rolls Out Artemis III SLS Core Stage for Moon Mission",
+      "description": "NASA rolled out the SLS core stage for the Artemis III crewed Moon landing mission on April 20, 2026, transporting the 212-foot stage from Michoud Assembly Facility to Kennedy Space Center via Pegasus barge.",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-20-artemis-iii-core-stage-rollout/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-20-china-space-day-2026.md",
       "path": "/en/space-news/2026/04/2026-04-20-china-space-day-2026/",
       "title": "China Space Day 2026 Activities Announced",
@@ -2408,17 +2779,82 @@
       "image": "/en/space-news/2026/04/figures/2026-04-20-china-space-day-2026/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-20-hubble-trifid-nebula.md",
+      "path": "/en/space-news/2026/04/2026-04-20-hubble-trifid-nebula/",
+      "title": "NASA Hubble Telescope Releases New Image of Trifid Nebula for 36th Launch Anniversary",
+      "description": "NASA's Hubble Space Telescope released a new image of the Trifid Nebula on April 24, 2026, its 36th launch anniversary, capturing a star-forming region in the constellation Sagittarius with unprecedented detail.",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-20-hubble-trifid-nebula/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-20-latvia-artemis-accords.md",
       "path": "/en/space-news/2026/04/2026-04-20-latvia-artemis-accords/",
-      "title": "Latvia to Sign Artemis Accords on April 20",
-      "description": "Latvia will sign the Artemis Accords at NASA Headquarters on April 20, 2026, becoming the 50th-plus signatory and further expanding the international space exploration cooperation framework.",
+      "title": "Latvia Signs Artemis Accords, Becomes 62nd Signatory",
+      "description": "On April 20, 2026, Latvia's Minister for Education and Science Dace Melbārde signed the Artemis Accords at NASA Headquarters, officially becoming the 62nd signatory of the international space exploration cooperation framework.",
       "date": "2026-04-20",
       "lastUpdated": "2026-04-20",
       "author": "Tianjiangshuo",
       "category": [
         "artemis"
       ],
-      "image": "/en/space-news/2026/04/figures/2026-04-20-latvia-artemis-accords/hero.webp"
+      "image": "/en/space-news/2026/04/figures/2026-04-20-latvia-artemis-accords/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-20-nasa-crs-34-media.md",
+      "path": "/en/space-news/2026/04/2026-04-20-nasa-crs-34-media/",
+      "title": "NASA Invites Media to SpaceX's 34th Commercial Resupply Mission, Targeting May 12 Launch",
+      "description": "On April 20, 2026, NASA released a media advisory inviting media to cover SpaceX's 34th Commercial Resupply Services (CRS-34) mission, targeted for launch no earlier than May 12 from Cape Canaveral Space Force Station, delivering over 5 metric tons of science investigations, supplies, and equipment to the International Space Station.",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "iss"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-20-nasa-crs-34-media/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-20-nasa-x-59-wheels-up.md",
+      "path": "/en/space-news/2026/04/2026-04-20-nasa-x-59-wheels-up/",
+      "title": "NASA's X-59 Quiet Supersonic Aircraft Completes Wheel-Up Flight Tests",
+      "description": "NASA's X-59 quiet supersonic research aircraft completed its highest and fastest flights to date on April 14, 2026, marking a key transition from ground roll to wheels-up flight operations over the Mojave Desert.",
+      "date": "2026-04-20",
+      "lastUpdated": "2026-04-20",
+      "author": "Tianjiangshuo",
+      "category": [
+        "nasa"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-20-nasa-x-59-wheels-up/hero.webp"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-21-gps-iii-sv10.md",
+      "path": "/en/space-news/2026/04/2026-04-21-gps-iii-sv10/",
+      "title": "SpaceX GPS III SV10 Launch Preview: Tenth GPS III Satellite Ready for Liftoff",
+      "description": "SpaceX is set to launch GPS III SV10, the tenth satellite in the U.S. GPS III constellation upgrade program, aboard a Falcon 9 rocket from Cape Canaveral on April 21, 2026.",
+      "date": "2026-04-21",
+      "lastUpdated": "2026-04-21",
+      "author": "Tianjiangshuo",
+      "category": [
+        "launch"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-21-gps-iii-sv10/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-22-hasate-bubbles.md",
+      "path": "/en/space-news/2026/04/2026-04-22-hasate-bubbles/",
+      "title": "Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Set for Launch",
+      "description": "Rocket Lab is targeting April 22, 2026 at 00:00 UTC to launch the HASTE (Hypersonic Accelerator Suborbital Test Experiment) mission with the Bubbles scientific payload aboard an Electron rocket from Wallops Flight Facility, Virginia.",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-21",
+      "author": "Tianjiangshuo",
+      "category": [
+        "launch"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-22-hasate-bubbles/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
