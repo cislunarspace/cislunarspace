@@ -75,7 +75,7 @@ lastUpdated: 2026-04-21
 | 4-20 | [NASA发布Artemis II任务初期评估报告：猎户座隔热罩表现超预期](./2026-04-20-artemis-ii-assessments/) |
 | 4-20 | [NASA 展开 Artemis III SLS 火箭芯级，为2027年载人登月任务铺路](./2026-04-20-artemis-iii-core-stage-rollout/) |
 | 4-20 | [拉脱维亚签署《Artemis协定》，成为第62个签署国](./2026-04-20-latvia-artemis-accords/) |
-| 4-21 | [SpaceX GPS III SV10 发射预告：第十颗 GPS III 卫星即将升空](./2026-04-21-gps-iii-sv10/) |
+| 4-21 | [SpaceX 成功发射 GPS III SV10：最后一颗 GPS III 卫星入轨，Hedy Lamar 命名卫星正式升空](./2026-04-21-gps-iii-sv10/) |
 | 4-22 | [Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射](./2026-04-22-hasate-bubbles/) |
 
 ---

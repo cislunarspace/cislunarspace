@@ -81,7 +81,7 @@ wechatShare:
 
 欢迎通过 [GitHub](https://github.com/cislunarspace) 或 [Gitee](https://gitee.com/cislunarspace) 提交词条、修订建议，与我们一同完善地月空间知识库。
 
-→ [查看贡献指南](https://github.com/cislunarspace/cislunarspace/blob/master/CONTRIBUTORS.md)
+→ [查看贡献指南](https://github.com/cislunarspace/cislunarspace)
 
 <style>
   .module-grid {

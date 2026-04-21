@@ -73,7 +73,7 @@ lastUpdated: 2026-04-21
 | Apr 20 | [NASA Releases Initial Artemis II Post-Flight Assessment: Orion Heat Shield Outperforms](./2026-04-20-artemis-ii-assessments/) |
 | Apr 20 | [NASA Rolls Out Artemis III SLS Core Stage for Moon Mission](./2026-04-20-artemis-iii-core-stage-rollout/) |
 | Apr 20 | [Latvia Signs Artemis Accords, Becomes 62nd Signatory](./2026-04-20-latvia-artemis-accords/) |
-| Apr 21 | [SpaceX GPS III SV10 Launch Preview: Tenth GPS III Satellite Ready for Liftoff](./2026-04-21-gps-iii-sv10/) |
+| Apr 21 | [SpaceX Successfully Launches GPS III SV10: Final GPS III Satellite Reaches Orbit Named After Hedy Lamar](./2026-04-21-gps-iii-sv10/) |
 | Apr 22 | [Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Set for Launch](./2026-04-22-hasate-bubbles/) |
 
 ---
