@@ -1,4 +1,5 @@
 ---
+title: 地月空间入门指南
 permalink: /
 heroImage: /logo.png
 footer: Apache Licensed | 湘ICP备2026006405号-1
@@ -12,7 +13,7 @@ wechatShare:
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 > **本站致力于降低地月空间知识的学习门槛，所有内容均经过专业审核，力求准确、可靠、易于理解。**
 
@@ -80,7 +81,7 @@ wechatShare:
 
 欢迎通过 [GitHub](https://github.com/cislunarspace) 或 [Gitee](https://gitee.com/cislunarspace) 提交词条、修订建议，与我们一同完善地月空间知识库。
 
-→ 查看贡献指南
+→ [查看贡献指南](https://github.com/cislunarspace/cislunarspace/blob/master/CONTRIBUTORS.md)
 
 <style>
   .module-grid {
