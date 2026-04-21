@@ -12,11 +12,52 @@ wechatShare:
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+>本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 > **本站致力于降低地月空间知识的学习门槛，所有内容均经过专业审核，力求准确、可靠、易于理解。**
 
 欢迎通过 [Gitee 仓库](https://gitee.com/cislunarspace/cislunarspace/) 或 [Github 仓库](https://github.com/cislunarspace/cislunarspace/) 提交新的词条、修订建议或其他贡献，与我们一同完善这个地月空间入门知识库。
+
+## 主要模块
+
+<div class="module-grid">
+  <a href="/what-is-cislunarspace/" class="module-card">
+    <h3>地月空间是什么</h3>
+    <p>定义、特征及任务概况</p>
+  </a>
+  <a href="/cislunar-orbits/" class="module-card">
+    <h3>地月空间轨道</h3>
+    <p>轨道类型与设计方法</p>
+  </a>
+  <a href="/research-frontiers/" class="module-card">
+    <h3>研究前沿</h3>
+    <p>活跃研究方向与新兴课题</p>
+  </a>
+  <a href="/cislunar-glossary/" class="module-card">
+    <h3>术语词典</h3>
+    <p>专业术语权威释义</p>
+  </a>
+  <a href="/resources-tools/" class="module-card">
+    <h3>资源与工具</h3>
+    <p>数据集、开源代码与仿真平台</p>
+  </a>
+  <a href="/blue-team-research/" class="module-card">
+    <h3>蓝军研究</h3>
+    <p>基于公开资料的条令、装备与运用研究</p>
+  </a>
+  <a href="/space-news/" class="module-card">
+    <h3>Space News</h3>
+    <p>航天新闻中英双语追踪</p>
+  </a>
+  <a href="/satellite-simulation/" class="module-card">
+    <h3>卫星轨道仿真</h3>
+    <p>在线轨道仿真教学平台</p>
+  </a>
+  <a href="/ai-chat" class="module-card">
+    <h3>AI 问答</h3>
+    <p>AI 助手辅助学习</p>
+  </a>
+</div>
 
 <div style="text-align: center; margin: 40px 0;">
   <a href="/ai-chat" class="start-learning-btn" style="
@@ -35,7 +76,43 @@ wechatShare:
   </a>
 </div>
 
+## 参与贡献
+
+欢迎通过 [GitHub](https://github.com/cislunarspace) 或 [Gitee](https://gitee.com/cislunarspace) 提交词条、修订建议，与我们一同完善地月空间知识库。
+
+→ 查看贡献指南
+
 <style>
+  .module-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 30px 0;
+  }
+  .module-card {
+    display: block;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+  }
+  .module-card:hover {
+    border-color: #3eaf7c;
+    box-shadow: 0 4px 12px rgba(62, 175, 124, 0.15);
+    transform: translateY(-2px);
+  }
+  .module-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  .module-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
   .start-learning-btn:hover {
     background-color: #2d9c6a;
     transform: translateY(-2px);
@@ -46,23 +123,3 @@ wechatShare:
     box-shadow: 0 2px 4px rgba(62, 175, 124, 0.2);
   }
 </style>
-
-## 主要内容
-
-可点击绿色文本进入相关页面查看详细内容。
-
-本站主要内容包括：
-
-- [**地月空间是什么**](/what-is-cislunarspace)：介绍地月空间的定义、特征及任务开展情况等基础知识。在此部分，您将了解地月空间的概念、其与近地空间的差异，以及我国与国外在该领域开展的重点工作、推进中的工程项目，和探索过程中的有趣轶事。
-
-- [**地月空间飞行器运行轨道**](/cislunar-orbits)：介绍地月空间飞行器的轨道类型与特性。在此部分，您可直观理解飞行器在地月空间中的运行规律。
-
-- [**地月空间科学研究前沿**](/research-frontiers)：介绍地月空间科学研究的前沿领域与热点问题。您可选择感兴趣的方向，查阅相关书籍、期刊论文、会议论文、报告及预印本等文献资料。
-
-- [**地月空间术语词典**](/cislunar-glossary)：提供地月空间领域专业术语的权威释义，帮助读者准确理解概念。本部分支持通过网站上方搜索框查询术语，通常包含中文名称、英文全称及缩写，基本涵盖您所需的所有术语。
-
-- [**资源与工具**](/resources-tools)：提供地月空间研究所需的工具与资源，包括开源代码与仿真平台。本部分主要提供相关官网链接及部分配置方法的教程博客内容，不提供文献下载服务。
-
----
-
-持续完善中...
