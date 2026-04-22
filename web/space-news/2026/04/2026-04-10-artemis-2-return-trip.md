@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-10
 category: artemis
 image: ./figures/2026-04-10-artemis-2-return-trip/hero.jpg
+wechatShare:
+  title: "Artemis II 科学实验全面展开，猎户座飞船开始返航地球"
+  desc: "Artemis II 机组完成月球飞越后采集超 175 GB 图像数据，实验性激光通信载荷在 45 分钟内传回 20 GB，溅落定于北京时间 4 月 11 日上午。"
+  image: "./figures/2026-04-10-artemis-2-return-trip/hero.jpg"
 ---
 
 # Artemis II 科学实验全面展开，猎户座飞船开始返航地球

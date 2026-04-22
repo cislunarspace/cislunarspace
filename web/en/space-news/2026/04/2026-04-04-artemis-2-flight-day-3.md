@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: artemis
 image: ./figures/2026-04-04-artemis-2-flight-day-3/hero.jpg
 tags: [Artemis II, NASA, Moon, Orion, SLS]
+wechatShare:
+  title: "Artemis II Flight Day 3: Crew More Than Halfway to the Moon, Koch Sights Moon from Docking Hatch"
+  desc: "Artemis II is more than halfway to the Moon. The trajectory correction burn was cancelled, Christina Koch spotted the Moon from the docking hatch, and the crew is preparing for the April 6 lunar flyby."
+  image: "./figures/2026-04-04-artemis-2-flight-day-3/hero.jpg"
 ---
 
 # Artemis II Flight Day 3: Crew More Than Halfway to the Moon, Koch Sights Moon from Docking Hatch

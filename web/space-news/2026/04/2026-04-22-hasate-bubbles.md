@@ -14,6 +14,10 @@ tags:
   - HASTE
   - 亚轨道实验
   - 科学研究
+wechatShare:
+  title: "Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射"
+  desc: "Rocket Lab 将于 2026 年 4 月 22 日使用 Electron 火箭执行 HASTE（Hypersonic Accelerator Suborbital Test Experiment）任务，携带 Bubbles 科学实验载荷从美国弗吉尼亚州瓦罗普斯飞行设施升空。"
+  image: "./figures/2026-04-22-hasate-bubbles/hero.jpg"
 ---
 
 # Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射

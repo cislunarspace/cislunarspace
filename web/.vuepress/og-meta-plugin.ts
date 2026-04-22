@@ -7,22 +7,27 @@ const ogMetaPlugin = {
 
     const head = (fm.head ??= [])
     const base = 'https://cislunarspace.cn'
+    const siteName = page.path.startsWith('/en/') ? "Cislunar Space Beginner's Guide" : '地月空间入门指南'
+    const shareDesc = fm.description || fm.wechatShare?.desc
 
     const addMeta = (attrs: Record<string, string>) => {
       head.push(['meta', attrs])
     }
 
-    addMeta({ property: 'og:title', content: String(fm.title) })
+    const titleStr = String(fm.title)
+    addMeta({ property: 'og:title', content: titleStr })
 
-    if (fm.description) {
-      addMeta({ property: 'og:description', content: String(fm.description) })
+    if (shareDesc) {
+      const d = String(shareDesc)
+      addMeta({ property: 'og:description', content: d })
+      addMeta({ name: 'twitter:description', content: d })
     }
 
     addMeta({
       property: 'og:type',
       content: fm.layout === 'SpaceNewsArticle' ? 'article' : 'website',
     })
-    addMeta({ property: 'og:site_name', content: '地月空间入门指南' })
+    addMeta({ property: 'og:site_name', content: siteName })
     addMeta({ property: 'og:url', content: base + page.path })
 
     let imageUrl = `${base}/logo.png`
@@ -39,6 +44,7 @@ const ogMetaPlugin = {
     }
     addMeta({ property: 'og:image', content: imageUrl })
     addMeta({ name: 'twitter:card', content: 'summary_large_image' })
+    addMeta({ name: 'twitter:title', content: titleStr })
     addMeta({ name: 'twitter:image', content: imageUrl })
   },
 }

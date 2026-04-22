@@ -13,6 +13,10 @@ tags:
   - on-orbit servicing
   - robotic arm
   - commercial space
+wechatShare:
+  title: "Chinese Startup Sustain Space Validates Flexible Robotic Arm On-Orbit, Advancing Servicing Capabilities"
+  desc: "Sustain Space's Xiyuan-0 satellite successfully completed on-orbit demonstrations of a flexible robotic arm, verifying four operation modes including autonomous refueling simulation, teleoperation, and force-controlled …"
+  image: "./figures/2026-04-01-china-robotic-arm/hero.jpg"
 ---
 
 # Chinese Startup Sustain Space Validates Flexible Robotic Arm On-Orbit, Advancing Servicing Capabilities

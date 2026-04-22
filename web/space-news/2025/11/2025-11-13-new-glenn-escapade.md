@@ -7,6 +7,10 @@ author: 天疆说
 date: 2025-11-13
 lastUpdated: 2025-11-13
 category: commercial
+wechatShare:
+  title: "Blue Origin新格伦号首次执行任务"
+  desc: "2025年11月13日，Blue Origin新格伦号运载火箭从卡纳维拉尔角成功首飞，将NASA的EscaPADE探测器送入火星转移轨道。"
+  image: "/logo.png"
 ---
 
 # Blue Origin新格伦号首次执行任务

@@ -9,6 +9,10 @@ lastUpdated: 2026-04-05
 category: science
 image: ./figures/2026-04-05-ce5-soil-thermal/hero.jpg
 tags: [Chang'e-5, lunar soil, thermal conductivity, super-insulation, lunar science]
+wechatShare:
+  title: "China Achieves First Precise Thermal Conductivity Measurement of Single Lunar Soil Particles"
+  desc: "A joint research team measured Chang'e-5 lunar soil single-particle thermal conductivity, discovering agglutinate particles with conductivity as low as ~8 mW·m⁻¹·K⁻¹, rivaling synthetic aerogels."
+  image: "./figures/2026-04-05-ce5-soil-thermal/hero.jpg"
 ---
 
 # China Achieves First Precise Thermal Conductivity Measurement of Single Lunar Soil Particles

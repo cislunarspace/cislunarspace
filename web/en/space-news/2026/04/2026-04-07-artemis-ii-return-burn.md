@@ -8,6 +8,10 @@ date: 2026-04-07
 lastUpdated: 2026-04-11
 category: nasa
 image: ./figures/2026-04-07-artemis-ii-return-burn/hero.png
+wechatShare:
+  title: "NASA Completes First Return Correction Burn for Artemis II Mission, Progressing Smoothly"
+  desc: "NASA successfully completed the first return correction burn on Artemis II mission day 7, with Orion spacecraft adjusting return trajectory as astronauts conduct various flight tests."
+  image: "./figures/2026-04-07-artemis-ii-return-burn/hero.png"
 ---
 
 # NASA Completes First Return Correction Burn for Artemis II Mission, Progressing Smoothly

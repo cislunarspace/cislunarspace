@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/equipment-tech/spacex-role
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · SpaceX & Industry Roles"
+  desc: "Open sources on launch, constellations, and government use of commercial providers including SpaceX."
+  image: "/logo.png"
 ---
 
 # SpaceX & Industry Roles

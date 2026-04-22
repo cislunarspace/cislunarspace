@@ -8,6 +8,10 @@ date: 2026-04-05
 lastUpdated: 2026-04-05
 category: [spacex, commercial]
 image: ./figures/2026-04-05-starship-v3-delay/hero.jpg
+wechatShare:
+  title: "SpaceX 星舰 V3 首飞再推迟至五月，已是第三次延期"
+  desc: "马斯克宣布星舰 V3 首飞推迟 4-6 周，从四月延至五月初，这已是第三次延期。"
+  image: "./figures/2026-04-05-starship-v3-delay/hero.jpg"
 ---
 
 马斯克于 4 月 3 日在 X 平台宣布，**星舰（Starship）V3 的首次飞行将再次推迟 4-6 周**，预计从四月延至五月初。这是该任务第三次推迟：一月时称"6 周内首飞"，三月改为"4 周内"，如今又增加"4-6 周"。

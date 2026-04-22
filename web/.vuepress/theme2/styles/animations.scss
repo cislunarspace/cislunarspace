@@ -15,6 +15,20 @@
   transform: translateY(0);
 }
 
+/* Space News 首页/存档：略轻的纵向显现，与左侧栏水平位移动画同用 ease-out-expo，观感更一致 */
+.sn-home .scroll-reveal,
+.sn-archive .scroll-reveal {
+  transform: translateY(18px);
+  transition:
+    opacity 0.58s var(--ease-out-expo),
+    transform 0.58s var(--ease-out-expo);
+}
+
+.sn-home .scroll-reveal.revealed,
+.sn-archive .scroll-reveal.revealed {
+  transform: translateY(0);
+}
+
 .scroll-reveal-delay-1 { transition-delay: 0.08s; }
 .scroll-reveal-delay-2 { transition-delay: 0.16s; }
 .scroll-reveal-delay-3 { transition-delay: 0.24s; }

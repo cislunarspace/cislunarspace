@@ -1,4 +1,6 @@
 ---
+title: AI Q&A
+description: Use the AI assistant to quickly learn about cislunar space science, orbital dynamics, and aerospace technology.
 sidebar: false
 navbar: false
 editLink: false

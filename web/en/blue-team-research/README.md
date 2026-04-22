@@ -5,7 +5,7 @@ description: "Blue team research: open-source indexes on doctrine, equipment, an
 keywords: blue team research, doctrine, equipment, operations, knowledge base
 author: 天疆说
 date: 2026-03-26
-lastUpdated: 2026-03-26
+lastUpdated: 2026-04-22
 wechatShare:
   title: Blue Team Research
   desc: Blue team research module — open materials and structure.
@@ -68,4 +68,4 @@ Topics must stay **bounded**; prefer one clear subtopic over sweeping surveys.
 
 ## Navigation
 
-Each track has an **overview** plus **topic** pages—see the left sidebar. External discussion: [Forum](/en/forum).
+Each track has an **overview** plus **topic** pages—see the left sidebar. For cislunar **science and engineering** fundamentals, use [what is cislunar space](/en/what-is-cislunarspace/), [orbits](/en/cislunar-orbits/), and [research frontiers](/en/research-frontiers/). Community discussion: [Forum](/en/forum).

@@ -14,6 +14,10 @@ related:
   - 2026-03-29-artemis-2-pre-launch-media-events
   - 2026-03-28-artemis-2-crew-arrive-ksc
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Artemis II Launch Countdown Officially Underway, T-2 Days to Historic Moon Mission"
+  desc: "NASA's Artemis II launch countdown has begun at Kennedy Space Center, with the clock ticking toward an April 1 target launch time of 6:24 p.m. EDT for the first crewed Moon mission in over 50 years."
+  image: "/logo.png"
 ---
 
 # Artemis II Launch Countdown Officially Underway, T-2 Days to Historic Moon Mission

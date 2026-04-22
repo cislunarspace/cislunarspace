@@ -5,6 +5,10 @@ permalink: /en/space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
 lastUpdated: 2026-04-22
+wechatShare:
+  title: "Space News · April 2026"
+  desc: "April 2026 space news article index."
+  image: "/logo.png"
 ---
 
 # April 2026

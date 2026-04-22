@@ -7,6 +7,10 @@ author: Tianjiangshuo
 date: 2026-04-09
 lastUpdated: 2026-04-10
 category: [china, science]
+wechatShare:
+  title: "Chang'e 7 Probe Arrives at Wenchang Launch Center for Planned 2026 Launch"
+  desc: "Chang'e 7 probe has safely arrived at Wenchang launch center, targeting breakthrough technologies for lunar south pole exploration"
+  image: "/logo.png"
 ---
 
 # Chang'e 7 Probe Arrives at Wenchang Launch Center for Planned 2026 Launch

@@ -8,6 +8,10 @@ date: 2026-04-07
 lastUpdated: 2026-04-11
 category: nasa
 image: ./figures/2026-04-07-artemis-ii-return-burn/hero.png
+wechatShare:
+  title: "NASA完成Artemis II首次返回修正燃烧，任务进展顺利"
+  desc: "NASA宣布Artemis II任务第7天成功完成首次返回修正燃烧，Orion飞船正在按计划返回地球，宇航员们正在进行各种飞行测试。"
+  image: "./figures/2026-04-07-artemis-ii-return-burn/hero.png"
 ---
 
 # NASA完成Artemis II首次返回修正燃烧，任务进展顺利

@@ -14,6 +14,10 @@ related:
   - 2026-03-30-artemis-2-final-preparations
   - 2026-03-30-spacex-v3-starship-static-fire
 layout: SpaceNewsArticle
+wechatShare:
+  title: "X1.4 级太阳耀斑对 Artemis II 发射无威胁，NASA 确认按计划进行"
+  desc: "太阳在 3 月 29 日爆发 X1.4 级强烈耀斑，引发亚洲和澳大利亚无线电中断，但 NASA 确认不会影响 4 月 1 日 Artemis II 载人绕月任务发射。"
+  image: "/logo.png"
 ---
 
 # X1.4 级太阳耀斑对 Artemis II 发射无威胁，NASA 确认按计划进行

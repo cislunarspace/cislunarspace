@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/knowledge-rag/
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Knowledge Base & RAG"
+  desc: "Centralized materials, search, and planned knowledge services."
+  image: "/logo.png"
 ---
 
 # Knowledge Base & RAG · Overview

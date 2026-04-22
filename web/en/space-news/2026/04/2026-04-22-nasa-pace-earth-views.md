@@ -16,6 +16,10 @@ tags:
   - Atmosphere
   - Artemis
   - Phytoplankton
+wechatShare:
+  title: "NASA Releases New Earth Views from Artemis II Mission: Phytoplankton Blooms and Auroras Captured"
+  desc: "NASA releases new Earth imagery captured during the Artemis II lunar flyby, showing phytoplankton blooms off the Kamchatka Peninsula and auroras, showcasing Earth's dynamic ocean and atmosphere."
+  image: "./figures/2026-04-22-nasa-pace-earth-views/hero.jpg"
 ---
 
 # NASA Releases New Earth Views from Artemis II Mission: Phytoplankton Blooms and Auroras Captured

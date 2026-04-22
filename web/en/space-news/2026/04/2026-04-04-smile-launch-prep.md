@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: science
 image: ./figures/2026-04-04-smile-launch-prep/hero.jpg
 tags: [SMILE, ESA, CAS, magnetosphere imaging, Vega-C, Kourou]
+wechatShare:
+  title: "China-ESA SMILE Satellite Completes Launch Preparations, Set for April 9 Vega-C Liftoff"
+  desc: "The SMILE satellite, jointly developed by CAS and ESA, has completed all launch preparations at Kourou and is scheduled for launch on April 9 aboard a Vega-C rocket."
+  image: "./figures/2026-04-04-smile-launch-prep/hero.jpg"
 ---
 
 # China-ESA SMILE Satellite Completes Launch Preparations, Set for April 9 Vega-C Liftoff

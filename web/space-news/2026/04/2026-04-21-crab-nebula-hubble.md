@@ -8,6 +8,10 @@ date: 2026-04-21
 lastUpdated: 2026-04-21
 category: science
 image: ./figures/2026-04-21-crab-nebula-hubble/hero.webp
+wechatShare:
+  title: "NASA 哈勃望远镜发布蟹状星云新图像，庆祝发射36周年"
+  desc: "NASA 哈勃空间望远镜发布有史以来最详细的蟹状星云图像，揭示超新星遗迹以每小时340万英里的速度膨胀，多台望远镜联合观测开启新纪元。"
+  image: "./figures/2026-04-21-crab-nebula-hubble/hero.webp"
 ---
 
 # NASA 哈勃望远镜发布蟹状星云新图像，庆祝发射36周年

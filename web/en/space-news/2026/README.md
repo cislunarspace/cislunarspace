@@ -4,6 +4,10 @@ description: Space news by month for 2026.
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-04-02
+wechatShare:
+  title: "Space News · 2026 Archive"
+  desc: "Space news by month for 2026."
+  image: "/logo.png"
 ---
 
 # 2026 · Archive

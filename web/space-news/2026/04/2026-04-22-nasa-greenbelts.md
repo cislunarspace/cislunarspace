@@ -14,6 +14,10 @@ tags:
   - 地球观测
   - 城市绿带
   - 卫星影像
+wechatShare:
+  title: "NASA 发布华盛顿郊区绿色空间卫星影像：城市绿带与人类住区"
+  desc: "NASA Earth Observatory 发布由国际空间站宇航员拍摄的华盛顿郊区影像，展示马里兰州绿带镇及周边 Capital Beltway 沿线的绿色空间分布与城市规划。"
+  image: "./figures/2026-04-22-nasa-greenbelts/hero.jpg"
 ---
 
 # NASA 发布华盛顿郊区绿色空间卫星影像：城市绿带与人类住区

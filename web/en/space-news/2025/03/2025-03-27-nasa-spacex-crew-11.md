@@ -7,6 +7,10 @@ date: 2025-03-27
 lastUpdated: 2025-03-27
 category: spacex
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA announces SpaceX Crew-11 crew assignments"
+  desc: "NASA names four crew members for the next SpaceX Crew Dragon rotation to the ISS, targeting launch no earlier than July 2025 (RELEASE 25-010)."
+  image: "/logo.png"
 ---
 
 # NASA announces SpaceX Crew-11 crew assignments

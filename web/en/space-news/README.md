@@ -5,7 +5,7 @@ description: Space policy, launches, missions, and industry updates — portal h
 permalink: /en/space-news/
 author: 天疆说
 date: 2026-03-27
-lastUpdated: 2026-03-27
+lastUpdated: 2026-04-22
 wechatShare:
   title: Space News
   desc: Space news and briefs with dated archives.

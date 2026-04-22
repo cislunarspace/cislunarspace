@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-10
 category: [commercial]
 image: ./figures/2026-04-10-esa-celeste/hero.jpg
+wechatShare:
+  title: "ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Launching New LEO Navigation Era"
+  desc: "ESA's Celeste satellite successfully broadcasts first navigation signal from low Earth orbit, marking a significant milestone for Europe's low-orbit navigation system."
+  image: "./figures/2026-04-10-esa-celeste/hero.jpg"
 ---
 
 # ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Launching New LEO Navigation Era

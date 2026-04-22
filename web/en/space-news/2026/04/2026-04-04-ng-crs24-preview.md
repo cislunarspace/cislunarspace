@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: iss
 image: ./figures/2026-04-04-ng-crs24-preview/hero.jpg
 tags: [ISS, CRS-24, Northrop Grumman, SpaceX, Falcon 9, Cygnus]
+wechatShare:
+  title: "Northrop Grumman CRS-24 Resupply Mission Targeting April 8 Launch to ISS"
+  desc: "NASA, Northrop Grumman, and SpaceX are targeting April 8 for the CRS-24 launch, delivering approximately 11,000 pounds of science and cargo to the International Space Station."
+  image: "./figures/2026-04-04-ng-crs24-preview/hero.jpg"
 ---
 
 # Northrop Grumman CRS-24 Resupply Mission Targeting April 8 Launch to ISS

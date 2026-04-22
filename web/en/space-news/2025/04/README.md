@@ -5,6 +5,10 @@ permalink: /en/space-news/2025/04/
 author: Tianjiangshuo
 date: 2025-04-30
 lastUpdated: 2025-04-30
+wechatShare:
+  title: "Space News · April 2025"
+  desc: "April 2025 space news article index."
+  image: "/logo.png"
 ---
 
 # April 2025

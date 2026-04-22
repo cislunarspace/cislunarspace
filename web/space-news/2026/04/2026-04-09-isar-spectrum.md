@@ -12,6 +12,10 @@ tags:
   - Spectrum
   - 欧洲航天
   - 商业发射
+wechatShare:
+  title: "德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验"
+  desc: "德国商业火箭公司 Isar Aerospace 计划于 4 月 9 日从挪威安岛航天中心发射 Spectrum 火箭执行第二次试飞，搭载 5 颗立方星和 1 个技术验证载荷，此前因天气和技术原因已三度推迟。"
+  image: "/logo.png"
 ---
 
 # 德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验

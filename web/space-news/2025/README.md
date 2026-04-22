@@ -5,6 +5,10 @@ permalink: /space-news/2025/
 author: 天疆说
 date: 2025-12-31
 lastUpdated: 2025-12-31
+wechatShare:
+  title: "航天动态 · 2025 年归档"
+  desc: "2025 年航天新闻与动态按月汇总入口。"
+  image: "/logo.png"
 ---
 
 # 2025 年 · 归档索引

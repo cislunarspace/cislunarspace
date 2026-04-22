@@ -7,6 +7,10 @@ date: 2026-03-27
 lastUpdated: 2026-03-27
 category: artemis
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA Artemis II 载人绕月任务进入最后一周倒计时"
+  desc: "2026 年 3 月 27 日，距 NASA Artemis II 发射仅剩一周，各项准备工作进入最终阶段。本次任务将是自阿波罗时代以来人类首次重返月球轨道。"
+  image: "/logo.png"
 ---
 
 # NASA Artemis II 载人绕月任务进入最后一周倒计时

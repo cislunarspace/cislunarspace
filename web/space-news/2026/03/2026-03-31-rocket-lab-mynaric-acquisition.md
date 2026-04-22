@@ -13,6 +13,10 @@ related:
   - 2026-03-28-celeste-rocket-lab-launch
   - 2026-03-20-rocket-lab-strix
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Rocket Lab 获监管批准收购 Mynaric，激光通信技术将纳入内部体系"
+  desc: "Rocket Lab 获得德国联邦经济事务与能源部监管批准，将收购激光光通信终端领先供应商 Mynaric AG，预计 2026 年 4 月完成交易，进一步强化卫星星座通信能力。"
+  image: "/logo.png"
 ---
 
 # Rocket Lab 获监管批准收购 Mynaric，激光通信技术将纳入内部体系

@@ -15,6 +15,10 @@ tags:
   - 深空探测
   - 木星
   - 星际空间
+wechatShare:
+  title: "NASA关闭旅行者1号探测器一台仪器以维持运行"
+  desc: "NASA宣布关闭旅行者1号探测器上的低能带电粒子实验仪（LECP），以节省电力、延长这位人类首位星际探索者的使命寿命。"
+  image: "./figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg"
 ---
 
 # NASA关闭旅行者1号探测器一台仪器以维持运行

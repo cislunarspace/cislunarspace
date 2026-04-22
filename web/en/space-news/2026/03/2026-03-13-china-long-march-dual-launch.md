@@ -7,6 +7,10 @@ date: 2026-03-13
 lastUpdated: 2026-03-27
 category: china
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Two Long March launches within three hours in China"
+  desc: "On Mar. 13, 2026, Long March-8A lifted off from Hainan and Long March-2D from Xichang, deploying a LEO satellite internet batch and Shiyan 30C/30D satellites."
+  image: "/logo.png"
 ---
 
 # Two Long March launches within three hours in China

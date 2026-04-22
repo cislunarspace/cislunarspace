@@ -5,6 +5,10 @@ permalink: /blue-team-research/doctrine-strategy/us-doctrine-system
 author: 天疆说
 date: 2026-04-06
 lastUpdated: 2026-04-06
+wechatShare:
+  title: "美军作战条令体系研究"
+  desc: "美军作战条令体系的概述、内容、特点及局限。"
+  image: "/logo.png"
 ---
 
 > 以下内容整理自文献[1]

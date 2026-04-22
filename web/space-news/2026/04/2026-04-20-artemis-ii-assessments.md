@@ -16,6 +16,10 @@ tags:
   - SLS
   - 猎户座
   - 月球
+wechatShare:
+  title: "NASA发布Artemis II任务初期评估报告：猎户座隔热罩表现超预期"
+  desc: "2026年4月20日，NASA发布Artemis II任务初期评估报告，显示猎户座飞船隔热罩在重返大气层时表现超预期，烧蚀损失行为较Artemis I显著减少，为2027年载人登月任务提供重要数据支撑。"
+  image: "./figures/2026-04-20-artemis-ii-assessments/hero.jpg"
 ---
 
 # NASA发布Artemis II任务初期评估报告：猎户座隔热罩表现超预期

@@ -13,6 +13,10 @@ tags:
   - Northrop Grumman
   - 通信卫星
   - 商业航天
+wechatShare:
+  title: "匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT"
+  desc: "匈牙利与诺斯罗普·格鲁曼公司签署合同，建造其首颗国家地球静止轨道通信卫星 HUSAT，由匈牙利 4iG 集团和诺格联合开发，预计 2028 年发射。"
+  image: "./figures/2026-04-07-hungary-husat/hero.jpg"
 ---
 
 # 匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT

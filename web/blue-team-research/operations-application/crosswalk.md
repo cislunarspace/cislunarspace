@@ -5,6 +5,10 @@ permalink: /blue-team-research/operations-application/crosswalk
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 条令—能力—运用对照"
+  desc: "将条令概念、装备能力与战场观察进行交叉对照的表格化方法。"
+  image: "/logo.png"
 ---
 
 # 条令—能力—运用对照

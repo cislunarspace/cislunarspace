@@ -8,6 +8,10 @@ date: 2026-04-17
 lastUpdated: 2026-04-17
 category: [blue-origin, commercial]
 image: ./figures/2026-04-17-bluebird-7-orbit/hero.png
+wechatShare:
+  title: "Giant BlueBird 7 Mobile Phone Satellite to Be Deorbited After Blue Origin New Glenn Places It in Wrong Orbit"
+  desc: "AST SpaceMobile's BlueBird 7 satellite, launched on Blue Origin's New Glenn rocket, was deployed into an incorrect orbit and will need to be deorbited."
+  image: "./figures/2026-04-17-bluebird-7-orbit/hero.png"
 ---
 
 # Giant BlueBird 7 Mobile Phone Satellite to Be Deorbited After Blue Origin New Glenn Places It in Wrong Orbit

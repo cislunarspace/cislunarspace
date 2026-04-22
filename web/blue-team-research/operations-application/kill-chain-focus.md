@@ -5,6 +5,10 @@ permalink: /blue-team-research/operations-application/kill-chain-focus
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 杀伤链闭环聚焦"
+  desc: "公开资料中对杀伤链（发现—锁定—跟踪—瞄准—交战—评估）在太空信息支援下的环节化梳理。"
+  image: "/logo.png"
 ---
 
 # 杀伤链闭环聚焦

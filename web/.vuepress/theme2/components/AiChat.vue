@@ -100,7 +100,10 @@
                     :key="pi"
                     :class="['process-step', 'process-step--' + (ps.status || 'done')]"
                   >
-                    <span class="process-step-icon" aria-hidden="true" />
+                    <span class="process-step-icon" aria-hidden="true">
+                      <span class="process-step-dot"></span>
+                      <span class="process-step-check">✓</span>
+                    </span>
                     <div class="process-step-main">
                       <span class="process-step-text">{{ ps.label }}</span>
                       <span v-if="ps.detail" class="process-step-detail">{{ ps.detail }}</span>
@@ -116,24 +119,23 @@
                 <summary class="assistant-reasoning-summary">{{ t('reasoningTitle') }}</summary>
                 <div class="assistant-reasoning-body">{{ message.reasoning }}</div>
               </details>
-              <div
-                class="message-content assistant-content"
-                v-html="renderMessageHtml(message, index)"
-              ></div>
-              <div
-                v-if="isLoading && message.role === 'assistant' && !message.content && !message.reasoning && index === messages.length - 1"
-                class="typing-dots typing-dots--in-column"
-                role="status"
-              >
-                <span></span><span></span><span></span>
-              </div>
-              <div
-                v-else-if="isLoading && message.role === 'assistant' && (message.reasoning && !message.content) && index === messages.length - 1"
-                class="typing-dots typing-dots--in-column typing-dots--after-reasoning"
-                role="status"
-                :aria-label="t('answerStarting')"
-              >
-                <span></span><span></span><span></span>
+              <div class="message-content assistant-content">
+                <div v-html="renderMessageHtml(message, index)"></div>
+                <div
+                  v-if="isLoading && message.role === 'assistant' && !message.content && !message.reasoning && index === messages.length - 1"
+                  class="typing-dots"
+                  role="status"
+                >
+                  <span></span><span></span><span></span>
+                </div>
+                <div
+                  v-else-if="isLoading && message.role === 'assistant' && (message.reasoning && !message.content) && index === messages.length - 1"
+                  class="typing-dots typing-dots--after-reasoning"
+                  role="status"
+                  :aria-label="t('answerStarting')"
+                >
+                  <span></span><span></span><span></span>
+                </div>
               </div>
             </div>
             <div v-else class="message-content user-content">
@@ -543,7 +545,7 @@ export default {
     },
 
     deleteChat(idx) {
-      this.chatHistory.splice(idx, 1)
+      this.chatHistory = this.chatHistory.filter((_, i) => i !== idx)
       if (this.activeChatIndex === idx) {
         this.activeChatIndex = -1
         this.messages = []
@@ -1144,6 +1146,7 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
               this.scrollToBottom('auto')
             }
           } catch (error) {
+            console.warn('[AiChat] Failed to parse SSE line:', data.slice(0, 100), error)
           }
         }
       }
@@ -1162,6 +1165,7 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
               assistantMessage.content += delta.content
             }
           } catch (error) {
+            console.warn('[AiChat] Failed to parse buffered SSE data:', data.slice(0, 100), error)
           }
         }
       }
@@ -1169,6 +1173,7 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
       try {
         reader.cancel()
       } catch (error) {
+        console.warn('[AiChat] Failed to cancel stream reader:', error)
       }
     },
 
@@ -1735,7 +1740,7 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
   display: grid;
   grid-template-columns: 1.125rem minmax(0, 1fr);
   column-gap: 0.5rem;
-  align-items: start;
+  align-items: center;
   padding: 0.35rem 0;
   border-bottom: 1px solid var(--chat-border);
 }
@@ -1747,40 +1752,42 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
 
 .process-step-icon {
   grid-column: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.125rem;
+  height: 1.125rem;
+  box-sizing: border-box;
   flex-shrink: 0;
+  background: var(--chat-bg-tertiary);
+  border-radius: var(--chat-radius-sm);
+}
+
+.process-step-dot {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  margin-top: 0.4em;
-  box-sizing: border-box;
-  justify-self: center;
-  align-self: start;
+  background: var(--chat-text-tertiary);
 }
 
-.process-step--running .process-step-icon {
+.process-step-check {
+  display: none;
+  font-size: 0.7rem;
+  color: #10b981;
+  font-weight: 700;
+}
+
+.process-step--running .process-step-dot {
   background: var(--chat-accent);
   animation: processPulse 1s ease-in-out infinite;
 }
 
-.process-step--done .process-step-icon {
-  width: 1.125rem;
-  height: auto;
-  min-height: 1.125rem;
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0.22em;
-  background: none;
-  font-size: 0.75rem;
-  line-height: 1;
-  color: #10b981;
-  font-weight: 700;
-  animation: none;
+.process-step--done .process-step-dot {
+  display: none;
 }
 
-.process-step--done .process-step-icon::before {
-  content: '✓';
+.process-step--done .process-step-check {
+  display: block;
 }
 
 .process-step-main {
@@ -1845,11 +1852,6 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
   word-break: break-word;
   max-height: 20rem;
   overflow-y: auto;
-}
-
-.typing-dots--after-reasoning {
-  margin-top: 0.25rem;
-  padding-top: 0.25rem;
 }
 
 .user-message {
@@ -2004,11 +2006,16 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
 
 .typing-dots {
   display: flex;
-  gap: 4px;
-  padding: 0 1.5rem;
-  max-width: 768px;
-  margin: 0.5rem auto 0;
-  padding-left: calc(1.5rem + 32px + 0.75rem);
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+}
+
+.typing-dots--after-reasoning {
+  margin-top: 0.45rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid var(--chat-border);
 }
 
 .typing-dots span {
@@ -2170,10 +2177,6 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
 
   .chat-input-wrapper {
     padding: 0 0.75rem 0.75rem;
-  }
-
-  .typing-dots {
-    padding-left: calc(1rem + 32px + 0.75rem);
   }
 }
 </style>

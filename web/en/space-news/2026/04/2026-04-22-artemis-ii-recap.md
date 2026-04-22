@@ -14,6 +14,10 @@ tags:
   - Orion
   - SLS
   - Lunar exploration
+wechatShare:
+  title: "NASA Releases Artemis II Image and Video Recap: Key Mission Milestones"
+  desc: "NASA publishes a comprehensive image and video recap of the Artemis II mission, highlighting Orion spacecraft's journey since its April 1 launch, covering launch preparation through translunar injection."
+  image: "./figures/2026-04-22-artemis-ii-recap/hero.jpg"
 ---
 
 # NASA Releases Artemis II Image and Video Recap: Key Mission Milestones

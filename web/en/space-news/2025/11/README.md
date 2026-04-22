@@ -5,6 +5,10 @@ permalink: /en/space-news/2025/11/
 author: Tianjiangshuo
 date: 2025-11-30
 lastUpdated: 2025-11-30
+wechatShare:
+  title: "Space News · November 2025"
+  desc: "November 2025 space news article index."
+  image: "/logo.png"
 ---
 
 # November 2025

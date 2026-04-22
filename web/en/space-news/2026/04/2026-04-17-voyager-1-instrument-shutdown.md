@@ -15,6 +15,10 @@ tags:
   - Deep Space Exploration
   - Jupiter
   - Interstellar Space
+wechatShare:
+  title: "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating"
+  desc: "NASA announced the shutdown of the Low-energy Charged Particles experiment (LECP) aboard Voyager 1 to conserve power and extend the mission of humanity's first interstellar explorer."
+  image: "./figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg"
 ---
 
 # NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating

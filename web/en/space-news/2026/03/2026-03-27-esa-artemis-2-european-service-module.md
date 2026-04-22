@@ -7,6 +7,10 @@ date: 2026-03-27
 lastUpdated: 2026-03-27
 category: artemis
 layout: SpaceNewsArticle
+wechatShare:
+  title: "How Europe Will Power the Journey to the Moon and Back - ESA Artemis II Service Module Video"
+  desc: "On March 27, 2026, ESA released a video explaining the European Service Module for Artemis II - providing propulsion, power, and life support for the crewed lunar orbit mission."
+  image: "/logo.png"
 ---
 
 # "How Europe Will Power the Journey to the Moon and Back" — ESA Artemis II Service Module Video

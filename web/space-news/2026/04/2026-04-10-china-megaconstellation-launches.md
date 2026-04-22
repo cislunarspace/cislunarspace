@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-10
 category: [china, commercial]
 image: ./figures/2026-04-10-china-megaconstellation-launches/hero.jpg
+wechatShare:
+  title: "长征火箭连续发射：千帆星座新增 18 星、国网星座第 21 批入轨"
+  desc: "中国本周分别使用长征 8 号和长征 6A 火箭为千帆和国网巨型星座发射卫星，千帆在轨卫星达 126 颗，国网运行阶段卫星达 168 颗。"
+  image: "./figures/2026-04-10-china-megaconstellation-launches/hero.jpg"
 ---
 
 # 长征火箭连续发射：千帆星座新增 18 星、国网星座第 21 批入轨

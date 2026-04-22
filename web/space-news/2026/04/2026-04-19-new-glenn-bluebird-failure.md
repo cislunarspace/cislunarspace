@@ -8,6 +8,10 @@ date: 2026-04-19
 lastUpdated: 2026-04-20
 category: [blue-origin, commercial]
 image: ./figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg
+wechatShare:
+  title: "蓝色起源新格伦火箭第四次发射失败，BlueBird Block 2卫星未能入轨"
+  desc: "2026年4月19日，蓝色起源公司新格伦火箭执行第四次发射任务，将AST SpaceMobile的BlueBird Block 2卫星送入轨道，但在飞行过程中遭遇异常，任务失利。这是新格伦火箭自2025年首飞以来的首次发射失败。"
+  image: "./figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg"
 ---
 
 # 蓝色起源新格伦火箭第四次发射失败，BlueBird Block 2卫星未能入轨

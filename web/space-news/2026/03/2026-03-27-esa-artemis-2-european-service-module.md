@@ -7,6 +7,10 @@ date: 2026-03-27
 lastUpdated: 2026-03-27
 category: artemis
 layout: SpaceNewsArticle
+wechatShare:
+  title: "欧洲之力：Artemis II 任务「欧洲服务舱」详解视频发布"
+  desc: "2026 年 3 月 27 日，ESA 发布视频详解 Artemis II 任务核心——欧洲服务舱（European Service Module），阐释欧洲如何为人类重返月球提供推进、电力与生命保障。"
+  image: "/logo.png"
 ---
 
 # 欧洲之力：Artemis II 任务「欧洲服务舱」详解视频发布

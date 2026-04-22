@@ -5,6 +5,10 @@ permalink: /blue-team-research/equipment-tech/spacex-role
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · SpaceX 与产业参与"
+  desc: "公开信息中商业运载、星座及政府合同框架下 SpaceX 等企业的角色归纳。"
+  image: "/logo.png"
 ---
 
 # SpaceX 与产业参与

@@ -8,6 +8,10 @@ date: 2026-04-17
 lastUpdated: 2026-04-17
 category: china
 image: ./figures/2026-04-17-greenhouse-gas-satellite/hero.png
+wechatShare:
+  title: "高精度温室气体综合探测卫星成功发射"
+  desc: "2026年4月17日12时10分，我国在酒泉卫星发射中心用长征四号丙运载火箭成功发射高精度温室气体综合探测卫星，卫星顺利进入预定轨道，发射任务取得圆满成功。"
+  image: "./figures/2026-04-17-greenhouse-gas-satellite/hero.png"
 ---
 
 # 高精度温室气体综合探测卫星成功发射

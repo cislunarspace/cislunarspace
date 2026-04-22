@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/doctrine-strategy/terminology
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Terms & Acronyms"
+  desc: "Terms, acronyms, and suggested translations with cited sources."
+  image: "/logo.png"
 ---
 
 # Terms & Acronyms

@@ -8,6 +8,10 @@ lastUpdated: 2026-01-30
 category: commercial
 image: ./figures/2026-01-blue-origin-pauses-tourism/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Blue Origin 宣布暂停新谢泼德亚轨道旅游飞行"
+  desc: "2026 年 1 月，Blue Origin 宣布 New Shepard 亚轨道飞行器将暂停至少 2 年，将资源转向月球能力开发。"
+  image: "./figures/2026-01-blue-origin-pauses-tourism/hero.jpg"
 ---
 
 # Blue Origin 宣布暂停新谢泼德亚轨道旅游飞行

@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: iss
 image: ./figures/2026-04-04-ng-crs24-preview/hero.jpg
 tags: [ISS, CRS-24, Northrop Grumman, SpaceX, Falcon 9, Cygnus]
+wechatShare:
+  title: "诺格 CRS-24 货运补给任务定于 4 月 8 日发射，将向 ISS 运送约 5000 公斤物资"
+  desc: "NASA、诺斯罗普·格鲁曼与 SpaceX 联合执行 CRS-24 商业补给任务，Cygnus XL 飞船将搭载约 11000 磅科研设备与物资飞往国际空间站。"
+  image: "./figures/2026-04-04-ng-crs24-preview/hero.jpg"
 ---
 
 # 诺格 CRS-24 货运补给任务定于 4 月 8 日发射，将向 ISS 运送约 5000 公斤物资

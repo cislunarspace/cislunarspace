@@ -8,6 +8,10 @@ lastUpdated: 2026-03-27
 category: china
 image: ./figures/2026-03-26-china-siwei-gaojing-2-05-06/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "China launches Siwei Gaojing-2 05 & 06 satellites"
+  desc: "Long March 2D lifts off from Taiyuan on March 26, 2026, placing two commercial radar Earth-observation satellites into orbit; 634th Long March family flight."
+  image: "./figures/2026-03-26-china-siwei-gaojing-2-05-06/hero.jpg"
 ---
 
 # China launches Siwei Gaojing-2 05 & 06 satellites

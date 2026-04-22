@@ -8,6 +8,10 @@ date: 2026-04-19
 lastUpdated: 2026-04-19
 category: [launch, commercial]
 image: null
+wechatShare:
+  title: "蓝色起源新格伦火箭NG-3任务成功首飞"
+  desc: "蓝色起源公司第三枚新格伦火箭成功从卡纳维拉尔角发射，将AST SpaceMobile的BlueBird 7卫星送入低地球轨道，标志着蓝色起源实现首次助推器复用。"
+  image: "null"
 ---
 
 # 蓝色起源新格伦火箭NG-3任务成功首飞

@@ -12,6 +12,10 @@ tags: [China, ESA, SMILE, satellite, Vega-C, Kourou, solar wind]
 related:
   - 2026-03-27-china-shiyan-33
 layout: SpaceNewsArticle
+wechatShare:
+  title: "China-Europe SMILE Satellite Completes Pre-Launch Preparations Ahead of April 9 Launch"
+  desc: "The China Academy of Sciences announced on March 26, 2026 that the China-ESA joint SMILE satellite has completed all pre-launch preparations at the Kourou Launch Center, scheduled for April 9 local time aboard Vega-C."
+  image: "/logo.png"
 ---
 
 On **March 26, 2026**, the **Chinese Academy of Sciences** announced that the **SMILE satellite** (Solar wInd Magnetosphere Ionosphere Link Explorer), jointly developed by China and the **European Space Agency (ESA)**, has completed all pre-launch preparations at the **Kourou Launch Center** in French Guiana. The satellite is scheduled for launch on **April 9, 2026, local time** aboard a **Vega-C** rocket.

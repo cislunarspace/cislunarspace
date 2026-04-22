@@ -15,6 +15,10 @@ tags:
   - Sun
   - Magnetic Reconnection
   - Space Weather
+wechatShare:
+  title: "NASA's Parker Solar Probe Finds Surprises in Solar Explosion"
+  desc: "NASA's Parker Solar Probe captured unprecedented data on magnetic reconnection during a 2022 solar flyby, revealing that protons and heavy ions accelerate differently—contrary to theoretical predictions."
+  image: "./figures/2026-04-15-parker-solar-probe/hero.jpg"
 ---
 
 # NASA's Parker Solar Probe Finds Surprises in Solar Explosion

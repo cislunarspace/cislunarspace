@@ -15,6 +15,10 @@ tags:
   - Orion
   - SLS
   - Moon
+wechatShare:
+  title: "NASA Releases Initial Artemis II Post-Flight Assessment: Orion Heat Shield Outperforms Expectations"
+  desc: "On April 20, 2026, NASA released its initial post-flight assessment for the Artemis II mission, finding that Orion's heat shield performed better than expected with significantly reduced char loss compared to Artemis I,…"
+  image: "./figures/2026-04-20-artemis-ii-assessments/hero.jpg"
 ---
 
 # NASA Releases Initial Artemis II Post-Flight Assessment: Orion Heat Shield Outperforms Expectations

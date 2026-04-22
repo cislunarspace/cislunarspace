@@ -12,6 +12,10 @@ tags: [China, Long March, Shiyan, satellite, launch, Jiuquan]
 related:
   - 2026-03-27-china-esa-smile-satellite
 layout: SpaceNewsArticle
+wechatShare:
+  title: "China Launches Shiyan-33 Satellite for Space Environment Testing"
+  desc: "China successfully launched the Shiyan-33 satellite on March 27, 2026, using a Long March 2C rocket with Yuanzheng-1S upper stage from Jiuquan Satellite Launch Center."
+  image: "/logo.png"
 ---
 
 China successfully launched the **Shiyan-33** (试验三十三号) satellite on **March 27, 2026**, at **12:11 Beijing Time** from the **Jiuquan Satellite Launch Center** using a **Long March 2C/Yuanzheng-1S** rocket. The satellite was successfully placed into its preset orbit and the launch mission was a complete success.

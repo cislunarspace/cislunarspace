@@ -8,6 +8,10 @@ date: 2026-04-05
 lastUpdated: 2026-04-05
 category: [artemis, science]
 image: ./figures/2026-04-05-saudi-shams-satellite/hero.jpg
+wechatShare:
+  title: "沙特Shams卫星随Artemis II升空，开启首次国家级空间天气监测任务"
+  desc: "沙特沙姆斯卫星随Artemis II发射升空并建立通信,将在高椭圆轨道监测太阳活动与空间辐射"
+  image: "./figures/2026-04-05-saudi-shams-satellite/hero.jpg"
 ---
 
 沙特航天局于 4 月 4 日宣布,由沙特自主研制的 **"沙姆斯"(Shams)卫星** 已随 Artemis II 任务成功发射升空,并已建立初步通信链路。这是沙特阿拉伯首个国家级空间天气监测任务。

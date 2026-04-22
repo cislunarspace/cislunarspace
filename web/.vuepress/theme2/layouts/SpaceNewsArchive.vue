@@ -1,5 +1,5 @@
 <template>
-  <Layout class="sn-layout-wrapper">
+  <Layout class="sn-layout-wrapper sn-sn-portal">
     <template #page-bottom>
       <span />
     </template>

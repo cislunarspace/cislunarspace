@@ -14,6 +14,10 @@ tags:
   - Orion
   - 月球飞越
   - 载人航天
+wechatShare:
+  title: "Artemis II 月球飞越完成：打破 Apollo 13 最远载人航天记录，距地球 406,771 公里"
+  desc: "Artemis II 乘组成功完成月球飞越，Orion 飞船以距月球表面约 6,500 公里的高度掠过月球背面，超越 Apollo 13 创下的载人航天最远距离记录，达 406,771 公里。"
+  image: "./figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg"
 ---
 
 # Artemis II 月球飞越完成：打破 Apollo 13 最远载人航天记录，距地球 406,771 公里

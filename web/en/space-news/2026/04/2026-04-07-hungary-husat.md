@@ -13,6 +13,10 @@ tags:
   - Northrop Grumman
   - communications satellite
   - commercial space
+wechatShare:
+  title: "Hungary Taps Northrop Grumman for First National GEO Communications Satellite HUSAT"
+  desc: "Hungary signed a contract with Northrop Grumman to build HUSAT, its first national geostationary communications satellite, developed jointly with Hungary's 4iG Group and targeting a 2028 launch."
+  image: "./figures/2026-04-07-hungary-husat/hero.jpg"
 ---
 
 # Hungary Taps Northrop Grumman for First National GEO Communications Satellite HUSAT

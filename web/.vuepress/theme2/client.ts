@@ -12,6 +12,7 @@ import Footer from './components/Footer.vue'
 import PageSidebar from './components/ExtraSidebar.vue'
 import AiChat from './components/AiChat.vue'
 import Forum from './components/Forum.vue'
+import OrbitSimLab from './components/OrbitSimLab.vue'
 import type { WechatSdk, WechatSignature, PageData } from './utils/types'
 
 const WECHAT_SDK_SRC = 'https://res2.wx.qq.com/open/js/jweixin-1.6.0.js'
@@ -77,15 +78,18 @@ function setMeta(attr: string, key: string, content: string) {
   el.setAttribute('content', content)
 }
 
-function updateOgMeta(title: string, desc: string, image: string, url: string) {
+function updateOgMeta(title: string, desc: string, image: string, url: string, ogType: 'article' | 'website') {
+  const siteName = url.includes('/en/') ? "Cislunar Space Beginner's Guide" : '地月空间入门指南'
   setMeta('property', 'og:title', title)
   setMeta('property', 'og:description', desc)
   setMeta('property', 'og:image', image)
   setMeta('property', 'og:url', url)
-  setMeta('property', 'og:type', 'article')
-  setMeta('property', 'og:site_name', '地月空间入门指南')
+  setMeta('property', 'og:type', ogType)
+  setMeta('property', 'og:site_name', siteName)
   setMeta('name', 'twitter:card', 'summary_large_image')
   setMeta('name', 'twitter:title', title)
+  if (desc)
+    setMeta('name', 'twitter:description', desc)
   setMeta('name', 'twitter:image', image)
 }
 
@@ -136,6 +140,7 @@ export default defineClientConfig({
     app.component('PageSidebar', PageSidebar)
     app.component('AiChat', AiChat)
     app.component('Forum', Forum)
+    app.component('OrbitSimLab', OrbitSimLab)
   },
   setup() {
     const router = useRouter()
@@ -187,20 +192,22 @@ export default defineClientConfig({
         shareImage = toAbsoluteUrl(resolved)
       }
 
-      const title = fm.wechatShare?.title || document.title
+      const title = fm.wechatShare?.title || (fm.title as string | undefined) || document.title
       const desc = fm.wechatShare?.desc
+        || (fm.description as string | undefined)
         || (document.querySelector('meta[name="description"]') as HTMLMetaElement)?.content
         || ''
       const link = window.location.href.split('#')[0]
 
-      return { title, desc, imgUrl: shareImage, link }
+      return { title, desc, imgUrl: shareImage, link, fm }
     }
 
     function setupShare() {
       const data = buildShareData()
       if (!data) return
       configureWechatShare(data).catch(() => {})
-      updateOgMeta(data.title, data.desc, data.imgUrl, data.link)
+      const ogType = data.fm.layout === 'SpaceNewsArticle' ? 'article' : 'website'
+      updateOgMeta(data.title, data.desc, data.imgUrl, data.link, ogType)
     }
 
     setupShare()

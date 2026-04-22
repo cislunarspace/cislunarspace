@@ -13,6 +13,10 @@ related:
   - 2026-03-31-artemis-2-countdown-begins
   - 2026-03-30-artemis-2-final-preparations
   - 2026-03-28-artemis-2-crew-arrive-ksc
+wechatShare:
+  title: "Artemis II Successfully Launches: First Crewed Lunar Mission in Over 50 Years"
+  desc: "NASA's Artemis II launched on April 1, 2026, at 6:35 PM EDT from Kennedy Space Center's Launch Pad 39B, sending four astronauts on an approximately 10-day journey around the Moon — the first crewed lunar flight since Ap…"
+  image: "./figures/2026-04-01-artemis-2-launch/hero.jpg"
 ---
 
 # Artemis II Successfully Launches: First Crewed Lunar Mission in Over 50 Years

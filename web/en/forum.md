@@ -4,8 +4,10 @@ description: Cislunar space community forum for discussing aerospace, orbital dy
 keywords: community forum, cislunar space, discussion, Q&A, sharing
 author: 天疆说
 date: 2026-03-09
-lastUpdated: 2026-03-09
+lastUpdated: false
 sidebar: false
+editLink: false
+contributors: false
 wechatShare:
   title: Cislunar Space Guide | Community Forum
   desc: Community forum for cislunar space discussions.

@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/equipment-tech/architecture-programs
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Architectures & Programs"
+  desc: "Layering public space capabilities and program timelines."
+  image: "/logo.png"
 ---
 
 # Architectures & Programs

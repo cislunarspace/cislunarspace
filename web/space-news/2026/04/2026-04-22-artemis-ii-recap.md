@@ -14,6 +14,10 @@ tags:
   - Orion
   - 猎户座
   - 载人登月
+wechatShare:
+  title: "NASA 发布 Artemis II 任务图像与视频回顾：猎户座飞船有哪些精彩时刻"
+  desc: "NASA 发布 Artemis II 任务图像与视频综合回顾，展示2026年4月1日发射以来猎户座飞船的完整任务历程，从发射准备到地月转移轨道的精彩瞬间。"
+  image: "./figures/2026-04-22-artemis-ii-recap/hero.jpg"
 ---
 
 # NASA 发布 Artemis II 任务图像与视频回顾：猎户座飞船有哪些精彩时刻

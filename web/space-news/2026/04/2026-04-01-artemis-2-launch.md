@@ -13,6 +13,10 @@ related:
   - 2026-03-31-artemis-2-countdown-begins
   - 2026-03-30-artemis-2-final-preparations
   - 2026-03-28-artemis-2-crew-arrive-ksc
+wechatShare:
+  title: "Artemis II 成功发射：人类 50 多年来首次载人绕月任务启航"
+  desc: "NASA Artemis II 于 2026 年 4 月 1 日 18:35 EDT 从肯尼迪航天中心 39B 发射台成功升空，4 名航天员开启约 10 天的绕月飞行，这是自 1972 年阿波罗 17 号以来人类首次飞向月球。"
+  image: "./figures/2026-04-01-artemis-2-launch/hero.jpg"
 ---
 
 # Artemis II 成功发射：人类 50 多年来首次载人绕月任务启航

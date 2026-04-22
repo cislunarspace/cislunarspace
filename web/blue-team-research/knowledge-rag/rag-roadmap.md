@@ -5,6 +5,10 @@ permalink: /blue-team-research/knowledge-rag/rag-roadmap
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 知识服务技术路线"
+  desc: "增强式问答、引用追溯与可选模型微调的分阶段规划。"
+  image: "/logo.png"
 ---
 
 # 知识服务技术路线

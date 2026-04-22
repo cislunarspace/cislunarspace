@@ -8,6 +8,10 @@ date: 2026-04-21
 lastUpdated: 2026-04-21
 category: science
 image: ./figures/2026-04-21-curiosity-organics/hero.jpg
+wechatShare:
+  title: "Curiosity Rover Finds Most Diverse Collection of Organic Molecules Ever Discovered on Mars"
+  desc: "NASA's Curiosity Mars rover has discovered the greatest diversity of organic molecules ever found on Mars, including seven compounds detected for the first time on the Red Planet, in a rock sample drilled in 2020."
+  image: "./figures/2026-04-21-curiosity-organics/hero.jpg"
 ---
 
 # Curiosity Rover Finds Most Diverse Collection of Organic Molecules Ever Discovered on Mars

@@ -135,7 +135,7 @@ export default defineUserConfig({
   },
 
   theme: theme({
-    logo: '/icon.ico',
+    logo: '/logo.png',
     navbar,
     sidebar,
 

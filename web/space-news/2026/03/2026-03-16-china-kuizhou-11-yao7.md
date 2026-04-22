@@ -7,6 +7,10 @@ date: 2026-03-16
 lastUpdated: 2026-03-16
 category: china
 layout: SpaceNewsArticle
+wechatShare:
+  title: "快舟十一号遥七运载火箭发射成功"
+  desc: "2026 年 3 月 16 日，快舟十一号遥七运载火箭自酒泉卫星发射中心成功发射，搭载 8 颗卫星。"
+  image: "/logo.png"
 ---
 
 # 快舟十一号遥七运载火箭发射成功

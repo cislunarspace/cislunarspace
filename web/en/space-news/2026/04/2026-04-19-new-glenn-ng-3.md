@@ -8,6 +8,10 @@ date: 2026-04-19
 lastUpdated: 2026-04-19
 category: [launch, commercial]
 image: null
+wechatShare:
+  title: "Blue Origin New Glenn NG-3 Mission Success with First Booster Reuse"
+  desc: "Blue Origin successfully launched its third New Glenn rocket on NG-3 mission, carrying AST SpaceMobile's BlueBird 7 satellite to orbit while achieving the company's first booster reuse milestone."
+  image: "null"
 ---
 
 # Blue Origin New Glenn NG-3 Mission Success with First Booster Reuse

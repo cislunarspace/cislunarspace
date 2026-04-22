@@ -13,6 +13,10 @@ tags:
   - 拉脱维亚
   - NASA
   - 国际合作
+wechatShare:
+  title: "拉脱维亚签署《Artemis协定》，成为第62个签署国"
+  desc: "2026年4月20日，拉脱维亚教育科学部长Dace Melbārde在NASA总部签署《Artemis协定》，正式成为该协定的第62个签署国。NASA局长贾里德·艾萨克曼表示，欢迎拉脱维亚加入这一致力于透明、和平探索太空的联盟。"
+  image: "./figures/2026-04-20-latvia-artemis-accords/hero.jpg"
 ---
 
 # 拉脱维亚签署《Artemis协定》，成为第62个签署国

@@ -14,6 +14,10 @@ tags:
   - Artemis
   - 移动发射台
   - 基础设施
+wechatShare:
+  title: "NASA 暂停 SLS 移动发射台 2（ML-2）建造工作，Artemis IV 及后续任务面临不确定性"
+  desc: "NASA 已通知承包商 Bechtel 停止 SLS Block 1B 移动发射台 2（ML-2）的建造工作，该项目已累计投入超过 10 亿美元但严重超支超期，影响 Artemis IV 及后续任务时间表。"
+  image: "./figures/2026-04-07-nasa-ml2-stop-work/hero.jpg"
 ---
 
 # NASA 暂停 SLS 移动发射台 2（ML-2）建造工作，Artemis IV 及后续任务面临不确定性

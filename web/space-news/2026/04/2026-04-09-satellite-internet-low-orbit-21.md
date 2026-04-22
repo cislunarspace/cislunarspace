@@ -13,6 +13,10 @@ tags:
   - 卫星互联网
   - 低轨卫星
   - 太原卫星发射中心
+wechatShare:
+  title: "我国成功发射卫星互联网低轨 21 组卫星"
+  desc: "2026年4月9日凌晨，我国在太原卫星发射中心使用长征六号改运载火箭，成功将卫星互联网低轨21组卫星送入预定轨道，长征系列火箭实现第637次飞行。"
+  image: "./figures/2026-04-09-satellite-internet-low-orbit-21/satellite-internet-hero.jpg"
 ---
 
 # 我国成功发射卫星互联网低轨 21 组卫星

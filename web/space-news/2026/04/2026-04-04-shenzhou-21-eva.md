@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: china
 image: ./figures/2026-04-04-shenzhou-21-eva/hero.jpg
 tags: [神舟二十一号, 天宫空间站, 出舱活动, 航天员]
+wechatShare:
+  title: "神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑"
+  desc: "张陆、武飞、张洪章三名航天员圆满完成第二次出舱活动，开展药代动力学实验、燃烧科学实验等系列任务，在轨即将满 150 天。"
+  image: "./figures/2026-04-04-shenzhou-21-eva/hero.jpg"
 ---
 
 # 神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑

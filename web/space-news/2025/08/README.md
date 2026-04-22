@@ -5,6 +5,10 @@ permalink: /space-news/2025/08/
 author: 天疆说
 date: 2025-08-31
 lastUpdated: 2025-08-31
+wechatShare:
+  title: "航天动态 · 2025 年 8 月"
+  desc: "2025 年 8 月航天新闻条目索引。"
+  image: "/logo.png"
 ---
 
 # 2025 年 8 月

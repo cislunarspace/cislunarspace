@@ -13,6 +13,10 @@ related:
   - 2026-03-28-celeste-rocket-lab-launch
   - 2026-03-20-rocket-lab-strix
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Rocket Lab Receives Regulatory Approval to Acquire Mynaric, Bringing Laser Communications In-House"
+  desc: "Rocket Lab has received German regulatory approval to acquire Mynaric AG, a leading provider of laser optical communications terminals. The deal is expected to close in April 2026."
+  image: "/logo.png"
 ---
 
 # Rocket Lab Receives Regulatory Approval to Acquire Mynaric, Bringing Laser Communications In-House

@@ -13,6 +13,10 @@ tags: [nasa, artemis, artemis-2, spacesuit, orion, human-spaceflight]
 related:
   - 2026-03-27-artemis-2-one-week-away
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA Unveils Artemis II Crew's Survival Suits"
+  desc: "NASA reveals the Orion Crew Survival System suits that the four Artemis II astronauts will wear for the first crewed lunar flight since Apollo."
+  image: "./figures/2026-03-27-artemis-2-crew-suits-en/hero.jpg"
 ---
 
 NASA has unveiled the Orion Crew Survival System suits that the four Artemis II astronauts will wear during their upcoming test flight around the Moon — the first crewed lunar mission since the Apollo era.

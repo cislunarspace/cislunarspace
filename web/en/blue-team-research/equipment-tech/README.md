@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/equipment-tech/
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Equipment & Technology"
+  desc: "Architectures, programs, and industry roles from open sources."
+  image: "/logo.png"
 ---
 
 # Equipment & Technology · Overview

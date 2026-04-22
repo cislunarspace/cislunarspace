@@ -5,6 +5,10 @@ permalink: /en/space-news/2025/
 author: Tianjiangshuo
 date: 2025-12-31
 lastUpdated: 2025-12-31
+wechatShare:
+  title: "Space News · 2025 Archive"
+  desc: "Space news by month for 2025."
+  image: "/logo.png"
 ---
 
 # 2025 · Archive

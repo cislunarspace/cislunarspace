@@ -1,4 +1,6 @@
 ---
+title: Major cislunar and lunar exploration projects
+description: Overview of representative engineering missions and technology demos tied to cislunar space and lunar exploration.
 permalink: /en/research-frontiers/major-projects/
 wechatShare:
   title: Cislunar Space Major Projects

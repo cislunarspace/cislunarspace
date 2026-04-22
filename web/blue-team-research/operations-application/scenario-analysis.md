@@ -5,6 +5,10 @@ permalink: /blue-team-research/operations-application/scenario-analysis
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 场景与证据链"
+  desc: "作战应用场景界定、公开证据来源与矛盾点标注方法。"
+  image: "/logo.png"
 ---
 
 # 场景与证据链

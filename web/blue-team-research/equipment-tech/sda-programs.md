@@ -5,6 +5,10 @@ permalink: /blue-team-research/equipment-tech/sda-programs
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 太空发展局（SDA）与相关方案"
+  desc: "公开渠道可见的太空发展局（SDA）架构、层系规划与招标及里程碑信息。"
+  image: "/logo.png"
 ---
 
 # 太空发展局（SDA）与相关方案

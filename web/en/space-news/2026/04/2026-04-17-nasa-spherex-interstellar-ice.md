@@ -14,6 +14,10 @@ tags:
   - interstellar ice
   - Milky Way
   - water
+wechatShare:
+  title: "NASA's SPHEREx Observatory Maps Interstellar Ice in Milky Way"
+  desc: "NASA's SPHEREx mission has captured the chemical signatures of water ice and complex organic molecules in the Cygnus X star-forming region, providing new insights into the universe's water reservoirs and the chemistry o…"
+  image: "./figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg"
 ---
 
 # NASA's SPHEREx Observatory Maps Interstellar Ice in Milky Way

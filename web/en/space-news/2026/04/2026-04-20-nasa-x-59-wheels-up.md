@@ -8,6 +8,10 @@ date: 2026-04-20
 lastUpdated: 2026-04-20
 category: nasa
 image: ./figures/2026-04-20-nasa-x-59-wheels-up/hero.webp
+wechatShare:
+  title: "NASA's X-59 Quiet Supersonic Aircraft Completes Wheel-Up Flight Tests"
+  desc: "NASA's X-59 quiet supersonic research aircraft completed its highest and fastest flights to date on April 14, 2026, marking a key transition from ground roll to wheels-up flight operations over the Mojave Desert."
+  image: "./figures/2026-04-20-nasa-x-59-wheels-up/hero.webp"
 ---
 
 # NASA's X-59 Quiet Supersonic Aircraft Completes Wheel-Up Flight Tests

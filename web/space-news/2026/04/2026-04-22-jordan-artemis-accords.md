@@ -1,6 +1,6 @@
 ---
 layout: SpaceNewsArticle
-title: "约旦将于 4 月 23 日签署《阿 Artemis 协议》"
+title: "约旦将于 4 月 23 日签署《Artemis 协议》"
 description: "约旦哈希姆王国将于 4 月 23 日在 NASA 总部举行仪式，正式签署《 Artemis 协议》，成为第 50 余个签署国。"
 permalink: /space-news/2026/04/2026-04-22-jordan-artemis-accords/
 author: 天疆说
@@ -13,6 +13,10 @@ tags:
   - Artemis Accords
   - 约旦
   - NASA
+wechatShare:
+  title: "约旦将于 4 月 23 日签署《Artemis 协议》"
+  desc: "约旦哈希姆王国将于 4 月 23 日在 NASA 总部举行仪式，正式签署《 Artemis 协议》，成为第 50 余个签署国。"
+  image: "./figures/2026-04-22-jordan-artemis-accords/hero.jpg"
 ---
 
 # 约旦将于 4 月 23 日签署《 Artemis 协议》

@@ -7,6 +7,10 @@ date: 2026-03-28
 lastUpdated: 2026-03-28
 category: iss
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA 航天员 Mike Fincke 披露 Crew-11 提前返航医学事件详情"
+  desc: "2026 年 3 月 28 日，NASA 航天员 Mike Fincke 首次披露了导致 Crew-11 任务提前一个多月返回地球的医学事件详情，表示事发前毫无预兆，持续约 20 分钟后自行缓解，但医生至今未查明原因。"
+  image: "/logo.png"
 ---
 
 # NASA 航天员 Mike Fincke 披露 Crew-11 提前返航医学事件详情

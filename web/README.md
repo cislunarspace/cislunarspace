@@ -1,5 +1,6 @@
 ---
 title: 地月空间入门指南
+description: 地月空间研究前沿、术语定义与工具资源一站式学习。
 permalink: /
 heroImage: /logo.png
 footer: Apache Licensed | 湘ICP备2026006405号-1
@@ -17,44 +18,46 @@ wechatShare:
 
 > **本站致力于降低地月空间知识的学习门槛，所有内容均经过专业审核，力求准确、可靠、易于理解。**
 
-欢迎通过 [Gitee 仓库](https://gitee.com/cislunarspace/cislunarspace/) 或 [Github 仓库](https://github.com/cislunarspace/cislunarspace/) 提交新的词条、修订建议或其他贡献，与我们一同完善这个地月空间入门知识库。
+本站按「概念—轨道—前沿—术语—工具—拓展」组织内容：可先读 [地月空间是什么](/what-is-cislunarspace/) 建立整体图景，再按需查阅 [轨道](/cislunar-orbits/)、[研究前沿](/research-frontiers/) 与 [术语词典](/glossary/)；动手环节可使用 [资源与工具](/resources-tools/) 与 [卫星轨道仿真](/satellite-simulation/)。[航天动态](/space-news/) 提供基于公开报道的业界摘录，[AI 问答](/ai-chat) 便于带着问题检索全站要点。
+
+欢迎通过 [Gitee 仓库](https://gitee.com/cislunarspace/cislunarspace/) 或 [GitHub 仓库](https://github.com/cislunarspace/cislunarspace/) 提交词条、修订建议或其他贡献，与我们一同完善这座知识库。
 
 ## 主要模块
 
 <div class="module-grid">
-  <a href="/what-is-cislunarspace/" class="module-card">
+  <a href="/what-is-cislunarspace/" class="module-card module-card--what-is">
     <h3>地月空间是什么</h3>
-    <p>定义、特征及任务概况</p>
+    <p>定义、环境与战略背景</p>
   </a>
-  <a href="/cislunar-orbits/" class="module-card">
+  <a href="/cislunar-orbits/" class="module-card module-card--orbits">
     <h3>地月空间轨道</h3>
-    <p>轨道类型与设计方法</p>
+    <p>任务轨道族与动力学直觉</p>
   </a>
-  <a href="/research-frontiers/" class="module-card">
+  <a href="/research-frontiers/" class="module-card module-card--research">
     <h3>研究前沿</h3>
-    <p>活跃研究方向与新兴课题</p>
+    <p>方向、机构、期刊与重大项目</p>
   </a>
-  <a href="/cislunar-glossary/" class="module-card">
+  <a href="/glossary/" class="module-card module-card--glossary">
     <h3>术语词典</h3>
-    <p>专业术语权威释义</p>
+    <p>专业术语与缩写检索</p>
   </a>
-  <a href="/resources-tools/" class="module-card">
+  <a href="/resources-tools/" class="module-card module-card--resources">
     <h3>资源与工具</h3>
     <p>数据集、开源代码与仿真平台</p>
   </a>
-  <a href="/blue-team-research/" class="module-card">
+  <a href="/blue-team-research/" class="module-card module-card--blue-team">
     <h3>蓝军研究</h3>
     <p>基于公开资料的条令、装备与运用研究</p>
   </a>
-  <a href="/space-news/" class="module-card">
-    <h3>Space News</h3>
-    <p>航天新闻中英双语追踪</p>
+  <a href="/space-news/" class="module-card module-card--space-news">
+    <h3>航天动态</h3>
+    <p>政策、发射与任务摘录（中英）</p>
   </a>
-  <a href="/satellite-simulation/" class="module-card">
+  <a href="/satellite-simulation/" class="module-card module-card--simulation">
     <h3>卫星轨道仿真</h3>
     <p>在线轨道仿真教学平台</p>
   </a>
-  <a href="/ai-chat" class="module-card">
+  <a href="/ai-chat" class="module-card module-card--ai-chat">
     <h3>AI 问答</h3>
     <p>AI 助手辅助学习</p>
   </a>
@@ -71,63 +74,3 @@ wechatShare:
 欢迎通过 [GitHub](https://github.com/cislunarspace) 或 [Gitee](https://gitee.com/cislunarspace) 提交词条、修订建议，与我们一同完善地月空间知识库。
 
 → [查看贡献指南](https://github.com/cislunarspace/cislunarspace)
-
-<style>
-  .module-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 30px 0;
-  }
-  .module-card {
-    display: block;
-    padding: 20px;
-    border: 1px solid var(--vp-c-divider);
-    border-radius: 12px;
-    text-decoration: none;
-    color: inherit;
-    background: var(--vp-c-bg);
-    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
-                border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-  .module-card:hover {
-    border-color: var(--vp-c-accent);
-    box-shadow: 0 0 20px rgba(14, 165, 233, 0.25);
-    transform: translateY(-4px);
-  }
-  .module-card h3 {
-    margin: 0 0 8px 0;
-    font-size: 16px;
-    color: var(--vp-c-text);
-    transition: color 0.2s;
-  }
-  .module-card:hover h3 {
-    color: var(--vp-c-accent);
-  }
-  .module-card p {
-    margin: 0;
-    font-size: 14px;
-    color: var(--vp-c-text-subtle);
-  }
-  .start-learning-btn {
-    display: inline-block;
-    padding: 15px 30px;
-    background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%);
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
-  }
-  .start-learning-btn:hover {
-    transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 0 20px rgba(14, 165, 233, 0.25);
-  }
-  .start-learning-btn:active {
-    transform: translateY(-1px) scale(0.98);
-  }
-</style>

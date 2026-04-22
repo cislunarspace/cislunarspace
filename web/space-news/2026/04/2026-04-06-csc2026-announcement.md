@@ -8,6 +8,10 @@ date: 2026-04-06
 lastUpdated: 2026-04-06
 category: [china, policy]
 image: ./figures/2026-04-06-csc2026-announcement/hero.jpg
+wechatShare:
+  title: "2026年中国航天大会（CSC2026）将于4月23-26日在成都市举办"
+  desc: "2026年中国航天大会以“七秩问天路 携手探九霄”为主题，将于2026年4月23-26日在成都市举办，广邀国内外航天领域知名专家、学者、管理者，共商航天高质量发展蓝图。"
+  image: "./figures/2026-04-06-csc2026-announcement/hero.jpg"
 ---
 
 # 2026年中国航天大会（CSC2026）将于4月23-26日在成都市举办

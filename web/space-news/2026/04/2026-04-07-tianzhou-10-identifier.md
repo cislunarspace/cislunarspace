@@ -9,6 +9,10 @@ lastUpdated: 2026-04-07
 category: china
 image: ./figures/2026-04-07-tianzhou-10-identifier/hero.jpg
 tags: [天舟十号, 中国空间站, 货运飞船, 载人航天]
+wechatShare:
+  title: "中国载人航天工程办公室正式发布天舟十号飞行任务标识"
+  desc: "中国载人航天工程办公室正式发布天舟十号飞行任务标识，圆形设计寓意天地协同，金色渐变线条象征航天力量，计划于2026年执行。"
+  image: "./figures/2026-04-07-tianzhou-10-identifier/hero.jpg"
 ---
 
 # 中国载人航天工程办公室正式发布天舟十号飞行任务标识

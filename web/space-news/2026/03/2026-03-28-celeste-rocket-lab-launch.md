@@ -8,6 +8,10 @@ lastUpdated: 2026-03-28
 category: esa
 image: ./figures/2026-03-28-celeste-rocket-lab-launch-zh/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启"
+  desc: "2026 年 3 月 28 日，ESA 首两颗 Celeste 卫星由 Rocket Lab Electron 火箭成功发射升空，欧洲低轨卫星导航增强（LEO-PNT）时代正式开启。"
+  image: "./figures/2026-03-28-celeste-rocket-lab-launch-zh/hero.jpg"
 ---
 
 # ESA Celeste 卫星成功发射——欧洲低轨导航增强时代开启

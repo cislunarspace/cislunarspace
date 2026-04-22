@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-10
 category: [china, commercial]
 image: ./figures/2026-04-10-china-megaconstellation-launches/hero.jpg
+wechatShare:
+  title: "China Launches Long March Rockets for Thousand Sails and Guowang Megaconstellations"
+  desc: "China conducted two Long March launches this week, adding 18 satellites to the Thousand Sails constellation (126 total) and the 21st group to Guowang (168 operational satellites)."
+  image: "./figures/2026-04-10-china-megaconstellation-launches/hero.jpg"
 ---
 
 # China Launches Long March Rockets for Thousand Sails and Guowang Megaconstellations

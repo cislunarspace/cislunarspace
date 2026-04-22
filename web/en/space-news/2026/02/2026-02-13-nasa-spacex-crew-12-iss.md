@@ -7,6 +7,10 @@ date: 2026-02-13
 lastUpdated: 2026-03-27
 category: spacex
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA’s SpaceX Crew-12 launches to the International Space Station"
+  desc: "On Feb. 13, 2026, Crew-12 lifted off on a Falcon 9 and Dragon from Cape Canaveral SLC-40 for the 12th Commercial Crew rotation mission to the ISS."
+  image: "/logo.png"
 ---
 
 # NASA’s SpaceX Crew-12 launches to the International Space Station

@@ -8,6 +8,10 @@ date: 2026-04-09
 lastUpdated: 2026-04-10
 category: [china, launch]
 image: ./figures/2026-04-10-long-march-6a-megaconstellation/hero.webp
+wechatShare:
+  title: "长征六号甲首发巨型星座卫星，低轨21组卫星成功入轨"
+  desc: "北京时间2026年4月9日03:38，长征六号甲遥十七运载火箭成功将卫星互联网低轨21组卫星送入预定极地轨道。"
+  image: "./figures/2026-04-10-long-march-6a-megaconstellation/hero.webp"
 ---
 
 # 长征六号甲首发巨型星座卫星，低轨21组卫星成功入轨

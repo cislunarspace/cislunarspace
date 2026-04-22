@@ -5,6 +5,10 @@ permalink: /blue-team-research/equipment-tech/
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 装备与技术发展"
+  desc: "太空装备体系、型号项目与产业参与（公开信息）。"
+  image: "/logo.png"
 ---
 
 # 装备与技术发展 · 概述

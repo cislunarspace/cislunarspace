@@ -5,6 +5,10 @@ permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
 lastUpdated: 2026-04-22
+wechatShare:
+  title: "航天动态 · 2026 年 4 月"
+  desc: "2026 年 4 月航天新闻条目索引。"
+  image: "/logo.png"
 ---
 
 # 2026 年 4 月

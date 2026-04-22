@@ -7,6 +7,10 @@ author: 天疆说
 date: 2025-04-01
 lastUpdated: 2025-04-01
 category: spacex
+wechatShare:
+  title: "SpaceX Fram2任务创造历史"
+  desc: "2025年4月1日，SpaceX Fram2任务从肯尼迪航天中心成功发射，创造历史——这是人类首次有宇航员乘坐飞船进入极地轨道。"
+  image: "/logo.png"
 ---
 
 # SpaceX Fram2任务创造历史

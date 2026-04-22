@@ -7,6 +7,10 @@ author: 天疆说
 date: 2025-08-26
 lastUpdated: 2025-08-26
 category: spacex
+wechatShare:
+  title: "SpaceX星舰第十次飞行成功"
+  desc: "2025年8月26日，SpaceX星舰第十次综合测试飞行（IFT-10）成功完成，火箭成功实现受控着陆。"
+  image: "/logo.png"
 ---
 
 # SpaceX星舰第十次飞行成功

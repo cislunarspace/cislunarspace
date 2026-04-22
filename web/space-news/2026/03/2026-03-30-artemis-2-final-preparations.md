@@ -14,6 +14,10 @@ related:
   - 2026-03-28-artemis-2-crew-arrive-ksc
   - 2026-03-27-artemis-2-one-week-away
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Artemis II 绕月任务进入最终准备阶段，发射日天气预报 80% 适宜发射"
+  desc: "NASA 肯尼迪航天中心团队正在进行 Artemis II 发射倒计时的最终准备工作，4 月 1 日发射当天天气预报显示 80% 适宜发射。"
+  image: "/logo.png"
 ---
 
 # Artemis II 绕月任务进入最终准备阶段，发射日天气预报 80% 适宜发射

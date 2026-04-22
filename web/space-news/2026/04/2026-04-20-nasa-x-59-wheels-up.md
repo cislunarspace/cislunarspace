@@ -13,6 +13,10 @@ tags:
   - 静音超音速
   - NASA
   - Quesst
+wechatShare:
+  title: "NASA X-59 静音超音速验证机完成滑行测试"
+  desc: "NASA X-59 Quietsupersonic 验证机于2026年4月14日在莫哈韦沙漠完成最高速飞行，实现从机轮触地到滑行起飞的过渡，为未来无声超音速飞行铺平道路。"
+  image: "./figures/2026-04-20-nasa-x-59-wheels-up/hero.webp"
 ---
 
 # NASA X-59 静音超音速验证机完成滑行测试

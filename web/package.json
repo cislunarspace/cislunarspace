@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "lodash-es": "^4.17.21",
-    "turndown": "^7.2.4"
+    "turndown": "^7.2.4",
+    "xlsx": "^0.18.5"
   }
 }

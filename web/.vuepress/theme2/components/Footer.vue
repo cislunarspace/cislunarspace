@@ -6,11 +6,7 @@
         <!-- Branding Column -->
         <div class="footer-branding">
           <div class="footer-logo">
-            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <circle cx="12" cy="12" r="10"/>
-              <circle cx="12" cy="12" r="4"/>
-              <path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>
-            </svg>
+            <img src="/logo.png" :alt="branding.nameZh" class="logo-img" />
             <div class="logo-text">
               <span class="logo-name">{{ isEn ? branding.nameEn : branding.nameZh }}</span>
               <span class="logo-tagline">{{ isEn ? branding.taglineEn : branding.tagline }}</span>
@@ -85,13 +81,13 @@ const currentYear = String(new Date().getFullYear())
 
 <style lang="scss">
 .site-footer {
-  --footer-bg: #0a0a0f;
-  --footer-bg-gradient: linear-gradient(180deg, #0f0f14 0%, #0a0a0f 100%);
-  --footer-border: rgba(255, 255, 255, 0.08);
-  --footer-text: rgba(255, 255, 255, 0.7);
-  --footer-text-muted: rgba(255, 255, 255, 0.4);
-  --footer-accent: #e63946;
-  --footer-accent-hover: #ff4757;
+  --footer-bg: var(--vp-c-bg);
+  --footer-bg-gradient: linear-gradient(180deg, var(--vp-c-bg-alt) 0%, var(--vp-c-bg) 100%);
+  --footer-border: var(--vp-c-divider);
+  --footer-text: var(--vp-c-text-mute);
+  --footer-text-muted: var(--vp-c-text-subtle);
+  --footer-accent: var(--vp-c-accent);
+  --footer-accent-hover: var(--vp-c-accent-hover);
 
   background: var(--footer-bg);
   color: var(--footer-text);
@@ -125,10 +121,10 @@ const currentYear = String(new Date().getFullYear())
   gap: 0.875rem;
 }
 
-.logo-icon {
+.logo-img {
   width: 2.5rem;
   height: 2.5rem;
-  color: var(--footer-accent);
+  object-fit: contain;
   flex-shrink: 0;
 }
 
@@ -141,7 +137,7 @@ const currentYear = String(new Date().getFullYear())
 .logo-name {
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--vp-c-text);
   line-height: 1.3;
 }
 
@@ -185,7 +181,7 @@ const currentYear = String(new Date().getFullYear())
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #fff;
+  color: var(--vp-c-text);
   margin: 0;
 }
 
@@ -224,7 +220,7 @@ const currentYear = String(new Date().getFullYear())
   width: 2.25rem;
   height: 2.25rem;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--vp-c-control);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,12 +234,12 @@ const currentYear = String(new Date().getFullYear())
 
   &:hover {
     background: var(--footer-accent);
-    color: #fff;
+    color: var(--vp-c-text);
   }
 }
 
 .footer-utility {
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--vp-c-bg-elv);
   padding: 1.25rem 0;
 }
 

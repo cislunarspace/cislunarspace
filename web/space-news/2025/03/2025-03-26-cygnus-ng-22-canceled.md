@@ -7,6 +7,10 @@ date: 2025-03-26
 lastUpdated: 2025-03-27
 category: iss
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA 与诺格取消 Cygnus NG-22 货运任务"
+  desc: "因加压货运舱在运输中受损，NASA 与诺斯洛普·格鲁曼取消原计划约 2025 年 6 月发射的 NG-22；下一艘 Cygnus（NG-23）不早于 2025 年秋。"
+  image: "/logo.png"
 ---
 
 # NASA 与诺格取消 Cygnus NG-22 货运任务

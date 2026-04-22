@@ -4,7 +4,7 @@ description: Authoritative glossary of cislunar space terminology, covering core
 keywords: cislunar space glossary, CR3BP, circular restricted three-body problem, X-ray pulsar navigation, cislunar terminology
 author: CislunarSpace
 date: 2026-03-08
-lastUpdated: 2026-03-08
+lastUpdated: 2026-04-22
 permalink: /en/glossary/
 wechatShare:
   title: Cislunar Space Glossary
@@ -43,7 +43,7 @@ The number of entries is still growing. At the current stage, we prioritize high
 
 ## Reading Guide
 
-If you are new to the cislunar field, it is recommended to start with entries related to dynamics and navigation, then continue with the sections on what cislunar space is, spacecraft orbits, and resources and tools. If you are already working on a focused topic, this page can serve as a quick index for locating concepts and cross-checking terminology used in the literature.
+If you are new to the cislunar field, it is recommended to start with entries related to dynamics and navigation, then continue with the sections on what cislunar space is, spacecraft orbits, and resources and tools. If you are already working on a focused topic, this page can serve as a quick index for locating concepts and cross-checking terminology used in the literature. For topical hubs and program pointers, see [research frontiers](/en/research-frontiers/).
 
 ## Outline
 

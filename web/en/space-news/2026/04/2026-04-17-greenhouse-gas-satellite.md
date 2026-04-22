@@ -8,6 +8,10 @@ date: 2026-04-17
 lastUpdated: 2026-04-17
 category: china
 image: ./figures/2026-04-17-greenhouse-gas-satellite/hero.png
+wechatShare:
+  title: "China Launches High-Precision Greenhouse Gas Detection Satellite on Long March-4C"
+  desc: "China successfully launched a high-precision greenhouse gas detection satellite from Jiuquan Satellite Launch Center using a Long March-4C rocket."
+  image: "./figures/2026-04-17-greenhouse-gas-satellite/hero.png"
 ---
 
 # China Launches High-Precision Greenhouse Gas Detection Satellite on Long March-4C

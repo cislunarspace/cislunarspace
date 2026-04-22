@@ -15,6 +15,10 @@ tags:
   - 彗星
   - 克鲁兹族彗星
   - 太阳
+wechatShare:
+  title: "SOHO日冕仪观测到一颗掠日彗星在飞掠太阳时解体"
+  desc: "2026年4月4日，一颗名为C/2026 A1（MAPS）的克鲁兹族掠日彗星在接近太阳时解体，SOHO日冕仪记录了其消失的全过程。"
+  image: "./figures/2026-04-16-soho-comet-disintegration/hero.png"
 ---
 
 # SOHO日冕仪观测到一颗掠日彗星在飞掠太阳时解体

@@ -5,6 +5,10 @@ permalink: /space-news/2026/01/
 author: 天疆说
 date: 2026-01-30
 lastUpdated: 2026-01-30
+wechatShare:
+  title: "Space News · January 2026"
+  desc: "2026 年 1 月航天新闻条目索引。"
+  image: "/logo.png"
 ---
 
 # 2026 年 1 月

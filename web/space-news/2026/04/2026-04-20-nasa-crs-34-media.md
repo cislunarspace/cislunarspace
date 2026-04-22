@@ -15,6 +15,10 @@ tags:
   - 商业补给
   - Dragon
   - CRS-34
+wechatShare:
+  title: "NASA邀请媒体采访SpaceX第34次商业补给任务，计划5月12日发射"
+  desc: "NASA于2026年4月20日发布媒体咨询，邀请媒体采访SpaceX第34次商业补给服务（CRS-34）任务。该任务暂定于5月12日从卡纳维拉尔角40号发射复合体发射，向国际空间站运送超过5吨科学实验设备、补给和物资。"
+  image: "./figures/2026-04-20-nasa-crs-34-media/hero.jpg"
 ---
 
 # NASA邀请媒体采访SpaceX第34次商业补给任务，计划5月12日发射

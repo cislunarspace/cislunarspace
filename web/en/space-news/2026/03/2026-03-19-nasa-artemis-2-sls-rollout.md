@@ -7,6 +7,10 @@ date: 2026-03-19
 lastUpdated: 2026-03-19
 category: artemis
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Artemis II SLS rocket rolls out to launch pad"
+  desc: "NASA rolls SLS rocket from VAB to Pad 39B on March 19, 2026, ahead of first crewed lunar orbit mission planned for April."
+  image: "/logo.png"
 ---
 
 # Artemis II SLS rocket rolls out to launch pad

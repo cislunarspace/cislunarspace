@@ -17,6 +17,10 @@ tags:
   - 中科院
   - Vega-C
   - 科学卫星
+wechatShare:
+  title: "中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定"
+  desc: "欧空局（ESA）宣布原定于 4 月 9 日由 Vega-C 火箭发射的中欧联合 SMILE 科学卫星因技术问题推迟，新发射日期待定。SMILE 由 ESA 和中国科学院联合研制，用于研究太阳风与地球磁层的相互作用。"
+  image: "./figures/2026-04-09-smile-postponed/hero.jpg"
 ---
 
 # 中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定

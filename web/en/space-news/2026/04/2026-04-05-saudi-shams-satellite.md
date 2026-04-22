@@ -8,6 +8,10 @@ date: 2026-04-05
 lastUpdated: 2026-04-05
 category: [artemis, science]
 image: ./figures/2026-04-05-saudi-shams-satellite/hero.jpg
+wechatShare:
+  title: "Saudi Arabia's 'Shams' Satellite Launches Aboard Artemis II on First National Space Weather Mission"
+  desc: "The Saudi-developed Shams satellite has established initial communication after launching on Artemis II, marking the kingdom's first national-level space weather monitoring mission."
+  image: "./figures/2026-04-05-saudi-shams-satellite/hero.jpg"
 ---
 
 Saudi Space Agency announced on April 4 that the domestically developed **Shams satellite** has successfully launched aboard the Artemis II mission and established initial communication. This marks Saudi Arabia's first national-level space weather monitoring mission.

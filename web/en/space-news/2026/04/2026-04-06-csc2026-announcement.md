@@ -8,6 +8,10 @@ date: 2026-04-06
 lastUpdated: 2026-04-06
 category: [china, policy]
 image: ./figures/2026-04-06-csc2026-announcement/hero.jpg
+wechatShare:
+  title: "2026 China Space Conference (CSC2026) to be Held in Chengdu on April 23-26"
+  desc: "The 2026 China Space Conference (CSC2026), themed 'Seventy Years Exploring the Heavens, Journeying the Nine Realms Together,' will be held in Chengdu from April 23-26, 2026, inviting renowned experts, scholars, and mana…"
+  image: "./figures/2026-04-06-csc2026-announcement/hero.jpg"
 ---
 
 # 2026 China Space Conference (CSC2026) to be Held in Chengdu on April 23-26

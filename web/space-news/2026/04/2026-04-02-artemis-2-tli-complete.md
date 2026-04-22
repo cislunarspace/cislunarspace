@@ -11,6 +11,10 @@ image: ./figures/2026-04-02-artemis-2-tli-complete/hero.jpg
 tags: [artemis, artemis-2, NASA, Orion, TLI, 月球, 载人航天]
 related:
   - 2026-04-01-artemis-2-launch
+wechatShare:
+  title: "Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上奔月之旅"
+  desc: "NASA Artemis II 猎户座飞船于美东时间 19:49 成功完成地月转移注入燃烧，点火 5 分 50 秒，4 名航天员正式脱离地球轨道飞向月球。月球科学团队已开始制定飞越观测计划。"
+  image: "./figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
 ---
 
 # Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上奔月之旅

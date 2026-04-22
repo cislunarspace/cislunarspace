@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/operations-application/scenario-analysis
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Scenarios & Evidence"
+  desc: "Scenario bounds, evidence layers, and handling contradictions."
+  image: "/logo.png"
 ---
 
 # Scenarios & Evidence

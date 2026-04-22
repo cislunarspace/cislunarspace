@@ -7,6 +7,10 @@ date: 2026-03-13
 lastUpdated: 2026-03-13
 category: china
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Long March 8A maiden flight success"
+  desc: "Long March 8A rocket makes successful maiden flight from Hainan Commercial Space Launch Site on March 13, 2026, delivering 20 satellite internet LEO satellites."
+  image: "/logo.png"
 ---
 
 # Long March 8A maiden flight success

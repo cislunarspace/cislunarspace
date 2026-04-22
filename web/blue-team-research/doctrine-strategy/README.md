@@ -5,6 +5,10 @@ permalink: /blue-team-research/doctrine-strategy/
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-27
+wechatShare:
+  title: "作战条令研究"
+  desc: "公开战略、条令与政策文献之整理与索引。"
+  image: "/logo.png"
 ---
 
 # 作战条令研究

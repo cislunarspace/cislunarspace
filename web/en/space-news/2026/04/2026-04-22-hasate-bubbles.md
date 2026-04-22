@@ -14,6 +14,10 @@ tags:
   - HASTE
   - Suborbital Experiment
   - Scientific Research
+wechatShare:
+  title: "Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Set for Launch"
+  desc: "Rocket Lab is targeting April 22, 2026 at 00:00 UTC to launch the HASTE (Hypersonic Accelerator Suborbital Test Experiment) mission with the Bubbles scientific payload aboard an Electron rocket from Wallops Flight Facil…"
+  image: "./figures/2026-04-22-hasate-bubbles/hero.jpg"
 ---
 
 # Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Set for Launch

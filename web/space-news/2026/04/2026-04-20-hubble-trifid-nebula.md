@@ -14,6 +14,10 @@ tags:
   - 三叶星云
   - 天文
   - 星云
+wechatShare:
+  title: "NASA 哈勃望远镜发布三叶星云新图像庆祝发射36周年"
+  desc: "NASA 哈勃太空望远镜在2026年4月24日迎来发射36周年，发布猎户座大星云中三叶星云的新图像，展示恒星形成区36年间的变化。"
+  image: "./figures/2026-04-20-hubble-trifid-nebula/hero.jpg"
 ---
 
 # NASA 哈勃望远镜发布三叶星云新图像庆祝发射36周年

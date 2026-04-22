@@ -8,6 +8,10 @@ lastUpdated: 2026-03-28
 category: china
 image: ./figures/2026-03-27-china-shiyan-33/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "我国成功发射试验三十三号卫星"
+  desc: "2026 年 3 月 27 日，我国在酒泉卫星发射中心使用长征二号丙运载火箭/远征一号S上面级，成功将试验三十三号卫星发射升空，卫星顺利进入预定轨道。"
+  image: "./figures/2026-03-27-china-shiyan-33/hero.jpg"
 ---
 
 # 我国成功发射试验三十三号卫星

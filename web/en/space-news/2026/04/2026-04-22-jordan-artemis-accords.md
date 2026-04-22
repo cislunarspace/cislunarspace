@@ -13,6 +13,10 @@ tags:
   - Artemis Accords
   - Jordan
   - NASA
+wechatShare:
+  title: "Jordan to Sign Artemis Accords on April 23"
+  desc: "The Hashemite Kingdom of Jordan will sign the Artemis Accords during a ceremony at NASA Headquarters on April 23, becoming one of over 50 signatories."
+  image: "./figures/2026-04-22-jordan-artemis-accords/hero.jpg"
 ---
 
 # Jordan to Sign Artemis Accords on April 23

@@ -7,6 +7,10 @@ date: 2025-03-26
 lastUpdated: 2025-03-27
 category: spacex
 layout: SpaceNewsArticle
+wechatShare:
+  title: "SpaceX 范登堡发射 Starlink 批次"
+  desc: "猎鹰 9 号自加利福尼亚范登堡太空军基地执行 Starlink 组网发射，一级海上回收。（媒体直播与报道）"
+  image: "/logo.png"
 ---
 
 # SpaceX 范登堡发射 Starlink 批次

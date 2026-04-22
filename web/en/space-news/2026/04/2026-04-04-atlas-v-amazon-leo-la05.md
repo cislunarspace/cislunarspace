@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: commercial
 image: ./figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg
 tags: [Atlas V, ULA, Amazon Leo, Kuiper, Commercial Space, Satellite Internet]
+wechatShare:
+  title: "Atlas V Launches 29 Amazon Leo Satellites on LA-05 Mission, Accelerating Constellation Buildout"
+  desc: "ULA Atlas V 551 successfully launched 29 Amazon Leo broadband internet satellites from Cape Canaveral SFS on the LA-05 mission."
+  image: "./figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg"
 ---
 
 # Atlas V Launches 29 Amazon Leo Satellites on LA-05 Mission, Accelerating Constellation Buildout

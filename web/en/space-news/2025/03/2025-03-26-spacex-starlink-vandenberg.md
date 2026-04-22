@@ -7,6 +7,10 @@ date: 2025-03-26
 lastUpdated: 2025-03-27
 category: spacex
 layout: SpaceNewsArticle
+wechatShare:
+  title: "SpaceX Starlink launch from Vandenberg"
+  desc: "Falcon 9 lifts Starlink satellites from Vandenberg Space Force Base, California, with booster landing at sea (press coverage)."
+  image: "/logo.png"
 ---
 
 # SpaceX Starlink launch from Vandenberg

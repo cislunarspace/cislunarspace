@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-10
 category: [commercial]
 image: ./figures/2026-04-10-esa-celeste/hero.jpg
+wechatShare:
+  title: "欧洲航天局Celeste卫星成功广播首个导航信号，开启低轨导航新时代"
+  desc: "ESA的Celeste卫星成功从低地球轨道广播首个导航信号，标志着欧洲低轨导航系统建设的重要里程碑。"
+  image: "./figures/2026-04-10-esa-celeste/hero.jpg"
 ---
 
 # 欧洲航天局Celeste卫星成功广播首个导航信号，开启低轨导航新时代

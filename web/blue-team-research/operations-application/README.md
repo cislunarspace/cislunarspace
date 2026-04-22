@@ -5,6 +5,10 @@ permalink: /blue-team-research/operations-application/
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 作战应用与聚焦场景"
+  desc: "公开战例、演习与限定场景下的太空能力运用分析。"
+  image: "/logo.png"
 ---
 
 # 作战应用与聚焦场景 · 概述

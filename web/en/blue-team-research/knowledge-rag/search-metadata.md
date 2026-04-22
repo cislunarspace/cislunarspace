@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/knowledge-rag/search-metadata
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Search & Metadata"
+  desc: "Metadata schema, search facets, and update rules."
+  image: "/logo.png"
 ---
 
 # Search & Metadata

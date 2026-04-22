@@ -14,6 +14,10 @@ tags:
   - SLS
   - 芯级
   - 月球
+wechatShare:
+  title: "NASA 展开 Artemis III SLS 火箭芯级，为2027年载人登月任务铺路"
+  desc: "2026年4月20日，NASA将Artemis III任务使用的SLS火箭芯级从密谢角装配设施运出，经Pegasus驳船送往肯尼迪航天中心，标志着2027年载人登月任务取得关键进展。"
+  image: "./figures/2026-04-20-artemis-iii-core-stage-rollout/hero.jpg"
 ---
 
 # NASA 展开 Artemis III SLS 火箭芯级，为2027年载人登月任务铺路

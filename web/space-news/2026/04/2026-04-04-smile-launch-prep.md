@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: science
 image: ./figures/2026-04-04-smile-launch-prep/hero.jpg
 tags: [SMILE, ESA, 中科院, 磁层成像, Vega-C, 库鲁]
+wechatShare:
+  title: "中欧联合「微笑」卫星完成发射前准备，4 月 9 日乘织女星-C 火箭升空"
+  desc: "中国科学院与 ESA 联合研制的 SMILE 卫星已完成库鲁航天中心全部发射前准备，定于 4 月 9 日由 Vega-C 火箭发射升空，将首次实现地球磁层大尺度整体成像。"
+  image: "./figures/2026-04-04-smile-launch-prep/hero.jpg"
 ---
 
 # 中欧联合「微笑」卫星完成发射前准备，4 月 9 日乘织女星-C 火箭升空

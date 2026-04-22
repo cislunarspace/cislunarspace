@@ -7,6 +7,10 @@ date: 2026-03-28
 lastUpdated: 2026-03-28
 category: artemis
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA Artemis II 航天员乘组抵达肯尼迪航天中心"
+  desc: "2026 年 3 月 27 日，NASA Artemis II 四大航天员乘组及备份乘组抵达肯尼迪航天中心，执行历史性的绕月飞行任务，发射窗口暂定 4 月 1 日。"
+  image: "/logo.png"
 ---
 
 # NASA Artemis II 航天员乘组抵达肯尼迪航天中心

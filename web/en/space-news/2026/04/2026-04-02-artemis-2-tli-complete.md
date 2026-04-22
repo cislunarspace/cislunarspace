@@ -12,6 +12,10 @@ tags: [artemis, artemis-2, NASA, Orion, TLI, moon, crewed-spaceflight]
 related:
   - 2026-04-02-artemis-2-tli-go
   - 2026-04-01-artemis-2-launch
+wechatShare:
+  title: "Artemis II Flight Day 2: TLI Burn Complete, Orion Officially En Route to the Moon"
+  desc: "NASA's Orion spacecraft successfully completed the translunar injection burn at 7:49 PM EDT, firing for 5 minutes and 50 seconds. The four astronauts are now on their way to the Moon for the first time in 53 years."
+  image: "./figures/2026-04-02-artemis-2-tli-complete/hero.jpg"
 ---
 
 # Artemis II Flight Day 2: TLI Burn Complete, Orion Officially En Route to the Moon

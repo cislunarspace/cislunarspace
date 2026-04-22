@@ -8,6 +8,10 @@ date: 2026-04-05
 lastUpdated: 2026-04-05
 category: [china, iss]
 image: ./figures/2026-04-05-shenzhou-21-five-months/hero.jpg
+wechatShare:
+  title: "神舟二十一号航天员在轨工作超五个月 空间站多项科学实验稳步推进"
+  desc: "神舟二十一号航天员乘组张陆、武飞、张洪章已在轨驻留超五个月，完成多项航天医学实验与站务管理任务。"
+  image: "./figures/2026-04-05-shenzhou-21-five-months/hero.jpg"
 ---
 
 # 神舟二十一号航天员在轨工作超五个月 空间站多项科学实验稳步推进

@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: commercial
 image: ./figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg
 tags: [Atlas V, ULA, Amazon Leo, 柯伊伯, 商业航天, 卫星互联网]
+wechatShare:
+  title: "Atlas V 成功发射 Amazon Leo 第五批 29 颗卫星，柯伊伯星座加速组网"
+  desc: "ULA Atlas V 551 从卡纳维拉尔角成功发射 Amazon Leo LA-05 任务，将 29 颗柯伊伯星座卫星送入低地球轨道。"
+  image: "./figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg"
 ---
 
 # Atlas V 成功发射 Amazon Leo 第五批 29 颗卫星，柯伊伯星座加速组网

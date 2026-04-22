@@ -14,6 +14,10 @@ tags:
   - Earth Observation
   - Urban Green Belt
   - Satellite Imagery
+wechatShare:
+  title: "NASA Earth Observatory Releases Satellite Image of Green Spaces in Washington Suburbs"
+  desc: "NASA Earth Observatory publishes an astronaut photograph from the International Space Station showing the distribution of green spaces along the Capital Beltway in Maryland, including the historic planned community of G…"
+  image: "./figures/2026-04-22-nasa-greenbelts/hero.jpg"
 ---
 
 # NASA Earth Observatory Releases Satellite Image of Green Spaces in Washington Suburbs

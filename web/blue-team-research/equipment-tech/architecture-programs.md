@@ -5,6 +5,10 @@ permalink: /blue-team-research/equipment-tech/architecture-programs
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 体系与项目跟踪"
+  desc: "公开渠道可见的太空作战相关体系分层与型号项目时间线整理方法。"
+  image: "/logo.png"
 ---
 
 # 体系与项目跟踪

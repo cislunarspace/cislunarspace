@@ -17,6 +17,10 @@ tags:
   - CAS
   - Vega-C
   - science satellite
+wechatShare:
+  title: "China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC"
+  desc: "ESA announced the postponement of the SMILE science satellite launch, originally scheduled for April 9 on a Vega-C rocket, due to a technical issue with a subsystem component. A new launch date is yet to be determined."
+  image: "./figures/2026-04-09-smile-postponed/hero.jpg"
 ---
 
 # China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC

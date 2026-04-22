@@ -1,8 +1,11 @@
 ---
 permalink: /en/resources-tools/
+title: Resources & Tools
+description: Ephemerides, datasets, open-source orbit libraries, and programming notes—used together with the glossary and simulation lab.
+lastUpdated: 2026-04-22
 wechatShare:
   title: Cislunar Space Resources & Tools
-  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  desc: Data, code libraries, and dataset index.
   image: /logo.png
 ---
 
@@ -16,7 +19,14 @@ When studying and researching content related to cislunar space, the first chall
 
 Secondly, the acquisition and use of various tools also presents challenges. For example, cislunar orbit design and analysis require professional software such as STK and GMAT, which have a steep learning curve for beginners. Establishing a dedicated tool resource repository with download links, usage tutorials, and technical support helps researchers utilize these tools more efficiently.
 
-To translate research into practice, algorithm implementation is required, demanding programming and coding skills. At the same time, learning from open-source code is crucial. However, based on observation, undergraduate and graduate students in the field of Aeronautics, Astronautics, Science, and Technology generally lack systematic programming training and are unfamiliar with using open-source code on platforms like GitHub. Therefore, this knowledge base also provides advanced programming techniques to help researchers improve their coding skills and better carry out algorithm development and applications related to cislunar space.
+To translate research into practice, algorithm implementation is required, demanding programming and coding skills. At the same time, learning from open-source code is crucial. However, based on observation, undergraduate and graduate students in aerospace engineering often lack systematic programming training and are unfamiliar with open-source workflows on platforms such as GitHub. This section therefore also points to practical programming notes where available.
+
+## How this fits with the rest of the site
+
+- Context: [what is cislunar space](/en/what-is-cislunarspace/), [orbits](/en/cislunar-orbits/)
+- Terms: [glossary](/en/glossary/)
+- Hands-on: [orbit simulation lab](/en/satellite-simulation/)
+- Literature & programs: [research frontiers](/en/research-frontiers/)
 
 ## Tools & Code Libraries
 

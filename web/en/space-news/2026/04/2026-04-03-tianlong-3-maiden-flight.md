@@ -8,6 +8,10 @@ date: 2026-04-03
 lastUpdated: 2026-04-05
 category: commercial
 tags: [Tianlong-3, Space Pioneer, commercial space, launch failure, Qianfan, reusable rocket]
+wechatShare:
+  title: "Tianlong-3 Maiden Flight Fails: China's Falcon 9-Class Commercial Rocket Loses Control After Liftoff"
+  desc: "Space Pioneer's Tianlong-3 rocket launched from Jiuquan on April 3 but experienced an anomaly ~33 seconds after liftoff, resulting in loss of the vehicle. The company has initiated a failure investigation."
+  image: "/logo.png"
 ---
 
 # Tianlong-3 Maiden Flight Fails: China's Falcon 9-Class Commercial Rocket Loses Control After Liftoff

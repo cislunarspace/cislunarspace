@@ -13,6 +13,10 @@ tags:
   - 在轨服务
   - 机械臂
   - 商业航天
+wechatShare:
+  title: "中国初创公司 Sustain Space 在轨验证柔性机械臂，推进在轨服务能力"
+  desc: "中国商业航天公司 Sustain Space 的 Xiyuan-0 卫星成功完成柔性机械臂在轨演示，验证了自主加注模拟、遥操作、视觉伺服和力控操作四种模式，标志着中国在商业在轨服务领域取得重要进展。"
+  image: "./figures/2026-04-01-china-robotic-arm/hero.jpg"
 ---
 
 # 中国初创公司 Sustain Space 在轨验证柔性机械臂，推进在轨服务能力

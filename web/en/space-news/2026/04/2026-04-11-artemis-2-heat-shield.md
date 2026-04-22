@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-10
 category: artemis
 image: ./figures/2026-04-11-artemis-2-heat-shield/hero.webp
+wechatShare:
+  title: "NASA Confident in Artemis II Heat Shield: Orion Spacecraft Thermal Protection System Ensures Safe Return"
+  desc: "NASA confirms Artemis II Orion spacecraft heat shield performance reliable, thermal protection will guarantee crew safety during 24,000 mph atmospheric re-entry."
+  image: "./figures/2026-04-11-artemis-2-heat-shield/hero.webp"
 ---
 
 # NASA Confident in Artemis II Heat Shield: Orion Spacecraft Thermal Protection System Ensures Safe Return

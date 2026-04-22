@@ -2,9 +2,9 @@
   <main class="sn-archive">
     <header class="sna-hero">
       <div class="sna-hero__inner">
-        <p class="sna-hero__kicker">{{ labels.kicker }}</p>
-        <h1 class="sna-hero__title">{{ labels.title }}</h1>
-        <p class="sna-hero__lead">{{ labels.lead }}</p>
+        <p class="sna-hero__kicker scroll-reveal">{{ labels.kicker }}</p>
+        <h1 class="sna-hero__title scroll-reveal scroll-reveal-delay-1">{{ labels.title }}</h1>
+        <p class="sna-hero__lead scroll-reveal scroll-reveal-delay-2">{{ labels.lead }}</p>
         <router-link class="sna-back" :to="homePath">← {{ labels.backHome }}</router-link>
       </div>
     </header>
@@ -26,7 +26,7 @@
         >{{ cat.label }}</button>
       </nav>
 
-      <section v-for="group in filteredGroups" :key="group.key" :id="group.key" class="sna-group">
+      <section v-for="(group, gIdx) in filteredGroups" :key="group.key" :id="group.key" class="sna-group scroll-reveal" :class="`scroll-reveal-delay-${(gIdx % 3) + 1}`">
         <h2 class="sna-group__title">{{ group.label }}</h2>
         <ul class="sna-cards">
           <li v-for="item in group.items" :key="item.path" class="sna-cards__cell">

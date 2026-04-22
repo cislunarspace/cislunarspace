@@ -14,6 +14,10 @@ tags:
   - Orion
   - lunar flyby
   - crewed spaceflight
+wechatShare:
+  title: "Artemis II Completes Lunar Flyby: Breaks Apollo 13 Distance Record at 406,771 km from Earth"
+  desc: "Artemis II crew successfully completed the lunar flyby, with Orion passing about 6,500 km above the Moon's far side and surpassing Apollo 13's crewed distance record at 406,771 km from Earth."
+  image: "./figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg"
 ---
 
 # Artemis II Completes Lunar Flyby: Breaks Apollo 13 Distance Record at 406,771 km from Earth

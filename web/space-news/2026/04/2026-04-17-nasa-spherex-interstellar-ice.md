@@ -14,6 +14,10 @@ tags:
   - 星际冰
   - 银河系
   - 水
+wechatShare:
+  title: "NASA SPHEREx探测器绘制银河系星际冰图谱"
+  desc: "NASA的SPHEREx探测器捕获了天鹅座X恒星形成区中水冰和有机分子的化学特征，揭示了宇宙中大部分水的来源和存储机制。"
+  image: "./figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg"
 ---
 
 # NASA SPHEREx探测器绘制银河系星际冰图谱

@@ -5,6 +5,10 @@ permalink: /space-news/2026/03/
 author: 天疆说
 date: 2026-03-27
 lastUpdated: 2026-04-02
+wechatShare:
+  title: "航天动态 · 2026 年 3 月"
+  desc: "2026 年 3 月航天新闻条目索引。"
+  image: "/logo.png"
 ---
 
 # 2026 年 3 月

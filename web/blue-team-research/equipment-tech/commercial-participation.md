@@ -5,6 +5,10 @@ permalink: /blue-team-research/equipment-tech/commercial-participation
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 商业航天参与"
+  desc: "公开信息中商业运载、星座及地面服务在太空作战支援中的角色归纳。"
+  image: "/logo.png"
 ---
 
 # 商业航天参与

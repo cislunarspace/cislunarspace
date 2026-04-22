@@ -107,7 +107,7 @@ const labels = computed(() =>
     ? {
         kicker: 'Cislunar Space',
         title: 'Space News',
-        lead: 'Policy, launches, missions, and industry updates — sourced from public reporting.',
+        lead: 'Curated briefs on policy, launches, missions, and industry moves — every article cites public sources you can verify in-line.',
         latest: 'Latest News',
         viewAll: 'Full archive →',
         viewMore: 'More →',
@@ -115,7 +115,7 @@ const labels = computed(() =>
     : {
         kicker: '地月空间入门指南',
         title: '航天动态',
-        lead: '政策、发射、任务与产业动态摘录，均基于公开报道并可在正文中核对来源。',
+        lead: '政策、发射、任务与产业动态摘录：每条稿件均给出可核对的公开来源，便于回溯与延伸阅读。',
         latest: '最新动态',
         viewAll: '全部存档 →',
         viewMore: '更多 →',

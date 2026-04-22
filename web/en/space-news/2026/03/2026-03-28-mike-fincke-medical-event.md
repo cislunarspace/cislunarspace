@@ -12,6 +12,10 @@ tags: [NASA, ISS, Crew-11, Mike Fincke, medical, International Space Station]
 related:
   - 2026-03-27-nasa-nuclear-spacecraft
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA Astronaut Mike Fincke Shares Details About Medical Event That Ended Crew-11 Mission Early"
+  desc: "NASA astronaut Mike Fincke has revealed more about the medical event that caused the Crew-11 mission to return to Earth more than a month ahead of schedule in January 2026."
+  image: "/logo.png"
 ---
 
 NASA astronaut Mike Fincke is sharing more about the medical event that caused an early end to the Crew-11 mission aboard the International Space Station. In an interview with the Associated Press, he said it happened with no warning and passed quickly, but doctors still do not understand the cause.

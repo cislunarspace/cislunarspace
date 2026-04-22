@@ -9,6 +9,10 @@ lastUpdated: 2026-04-05
 category: science
 image: ./figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg
 tags: [嫦娥四号, 宇宙线, 辐射防护, 月球, 深空探测]
+wechatShare:
+  title: "嫦娥四号数据发现地月空间\"宇宙线空腔\"，为深空辐射防护提供新思路"
+  desc: "山东大学团队利用嫦娥四号三年观测数据，首次在月球轨道发现银河宇宙线通量显著降低的空间区域，突破传统认知。"
+  image: "./figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg"
 ---
 
 # 嫦娥四号数据发现地月空间"宇宙线空腔"，为深空辐射防护提供新思路

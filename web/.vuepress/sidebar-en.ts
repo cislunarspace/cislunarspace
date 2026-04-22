@@ -2,42 +2,47 @@ import type { SidebarConfig } from 'vuepress'
 import autoSidebar from './sidebar.auto.json'
 import { wayfindingEnGroup } from './sidebar-shared.js'
 
-const mainSidebarContent = [
-  {
-    text: 'What is cislunar space (environment & concepts)',
-    collapsible: false,
-    children: [
-      '/en/what-is-cislunarspace/',
-      '/en/what-is-cislunarspace/environment',
-    ],
-  },
-  {
-    text: 'Cislunar spacecraft orbits (mission trajectories)',
-    collapsible: false,
-    children: ['/en/cislunar-orbits/'],
-  },
-  {
-    text: 'Research frontiers (directions · institutions · programs)',
-    collapsible: false,
-    children: [
-      '/en/research-frontiers/',
-      '/en/research-frontiers/directions/',
-      {
-        text: 'Research institutions',
-        link: '/en/research-frontiers/institutions/',
-        collapsible: true,
-        children: [
-          '/en/research-frontiers/institutions/',
-          '/en/research-frontiers/institutions/hit',
-        ],
-      },
-      '/en/research-frontiers/journals-conferences',
-      '/en/research-frontiers/major-projects',
-    ],
-  },
-]
+const introSection = {
+  text: 'What is cislunar space (environment & concepts)',
+  collapsible: false,
+  children: [
+    '/en/what-is-cislunarspace/',
+    '/en/what-is-cislunarspace/environment',
+  ],
+}
 
-const mainSidebar = [wayfindingEnGroup, ...mainSidebarContent]
+const orbitsSection = {
+  text: 'Cislunar spacecraft orbits (mission trajectories)',
+  collapsible: false,
+  children: ['/en/cislunar-orbits/'],
+}
+
+const researchSection = {
+  text: 'Research frontiers (directions · institutions · programs)',
+  collapsible: false,
+  children: [
+    '/en/research-frontiers/',
+    '/en/research-frontiers/directions/',
+    {
+      text: 'Research institutions',
+      link: '/en/research-frontiers/institutions/',
+      collapsible: true,
+      children: [
+        '/en/research-frontiers/institutions/',
+        '/en/research-frontiers/institutions/hit',
+      ],
+    },
+    '/en/research-frontiers/journals-conferences',
+    '/en/research-frontiers/major-projects',
+  ],
+}
+
+/** Home: site map only, no per-section deep trees */
+const homeSidebar = [wayfindingEnGroup]
+
+const whatIsCislunarspaceSidebar = [wayfindingEnGroup, introSection]
+const cislunarOrbitsMainSidebar = [wayfindingEnGroup, orbitsSection]
+const researchFrontiersMainSidebar = [wayfindingEnGroup, researchSection]
 
 const glossarySidebar = [
   wayfindingEnGroup,
@@ -80,10 +85,9 @@ const spaceNewsSidebar = [wayfindingEnGroup, ...autoSidebar.en]
 const blueTeamResearchSidebar = [
   wayfindingEnGroup,
   {
-    text: 'Blue-team research (doctrine · tech · scenarios · RAG)',
+    text: 'Blue-team research',
     collapsible: false,
     children: [
-      '/en/blue-team-research/',
       {
         text: 'Doctrine & strategy',
         link: '/en/blue-team-research/doctrine-strategy/',
@@ -134,23 +138,14 @@ const blueTeamResearchSidebar = [
   },
 ]
 
-const satelliteSimulationSidebar = [
-  wayfindingEnGroup,
-  {
-    text: 'Satellite orbit simulation lab',
-    collapsible: false,
-    children: ['/en/satellite-simulation/'],
-  },
-]
-
 export default <SidebarConfig>{
   '/en/glossary/': glossarySidebar,
   '/en/resources-tools/': resourcesToolsSidebar,
   '/en/blue-team-research/': blueTeamResearchSidebar,
   '/en/space-news/': spaceNewsSidebar,
-  '/en/satellite-simulation/': satelliteSimulationSidebar,
-  '/en/what-is-cislunarspace/': mainSidebar,
-  '/en/cislunar-orbits/': mainSidebar,
-  '/en/research-frontiers/': mainSidebar,
-  '/en/': mainSidebar,
+  '/en/satellite-simulation/': false,
+  '/en/what-is-cislunarspace/': whatIsCislunarspaceSidebar,
+  '/en/cislunar-orbits/': cislunarOrbitsMainSidebar,
+  '/en/research-frontiers/': researchFrontiersMainSidebar,
+  '/en/': homeSidebar,
 }

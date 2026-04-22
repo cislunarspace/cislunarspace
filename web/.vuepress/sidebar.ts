@@ -2,64 +2,69 @@ import type { SidebarConfig } from 'vuepress'
 import autoSidebar from './sidebar.auto.json'
 import { wayfindingZhGroup } from './sidebar-shared.js'
 
-const mainSidebarContent = [
-  {
-    text: '地月空间是什么（环境与概念入门）',
-    collapsible: false,
-    children: [
-      '/what-is-cislunarspace/',
-      '/what-is-cislunarspace/environment',
-    ],
-  },
-  {
-    text: '地月空间飞行器运行轨道（任务轨道基础）',
-    collapsible: false,
-    children: ['/cislunar-orbits/'],
-  },
-  {
-    text: '地月空间科学研究前沿（方向 · 机构 · 项目）',
-    collapsible: false,
-    children: [
-      '/research-frontiers/',
-      {
-        text: '研究方向',
-        link: '/research-frontiers/directions/',
-        collapsible: true,
-        children: [
-          '/research-frontiers/directions/strategy',
-          '/research-frontiers/directions/low-energy-transfer',
-          '/research-frontiers/directions/orbit-characterization',
-          '/research-frontiers/directions/simulation-systems',
-          {
-            text: '地月空间轨道博弈',
-            link: '/research-frontiers/directions/orbital-game/',
-            collapsible: true,
-            children: [
-              '/research-frontiers/directions/orbital-game/orbital-game-inspection',
-            ],
-          },
-        ],
-      },
-      {
-        text: '研究机构和组织',
-        link: '/research-frontiers/institutions/',
-        collapsible: true,
-        children: [
-          '/research-frontiers/institutions/nudt',
-          '/research-frontiers/institutions/npu',
-          '/research-frontiers/institutions/hit',
-          '/research-frontiers/institutions/seu',
-          '/research-frontiers/institutions/dfhscl',
-          '/research-frontiers/institutions/thu',
-        ],
-      },
-      '/research-frontiers/journals-conferences',
-      '/research-frontiers/major-projects',
-    ],
-  },
-]
+const introSection = {
+  text: '地月空间是什么（环境与概念入门）',
+  collapsible: false,
+  children: [
+    '/what-is-cislunarspace/',
+    '/what-is-cislunarspace/environment',
+  ],
+}
 
-const mainSidebar = [wayfindingZhGroup, ...mainSidebarContent]
+const orbitsSection = {
+  text: '地月空间飞行器运行轨道（任务轨道基础）',
+  collapsible: false,
+  children: ['/cislunar-orbits/'],
+}
+
+const researchSection = {
+  text: '地月空间科学研究前沿（方向 · 机构 · 项目）',
+  collapsible: false,
+  children: [
+    '/research-frontiers/',
+    {
+      text: '研究方向',
+      link: '/research-frontiers/directions/',
+      collapsible: true,
+      children: [
+        '/research-frontiers/directions/strategy',
+        '/research-frontiers/directions/low-energy-transfer',
+        '/research-frontiers/directions/orbit-characterization',
+        '/research-frontiers/directions/simulation-systems',
+        {
+          text: '地月空间轨道博弈',
+          link: '/research-frontiers/directions/orbital-game/',
+          collapsible: true,
+          children: [
+            '/research-frontiers/directions/orbital-game/orbital-game-inspection',
+          ],
+        },
+      ],
+    },
+    {
+      text: '研究机构和组织',
+      link: '/research-frontiers/institutions/',
+      collapsible: true,
+      children: [
+        '/research-frontiers/institutions/nudt',
+        '/research-frontiers/institutions/npu',
+        '/research-frontiers/institutions/hit',
+        '/research-frontiers/institutions/seu',
+        '/research-frontiers/institutions/dfhscl',
+        '/research-frontiers/institutions/thu',
+      ],
+    },
+    '/research-frontiers/journals-conferences',
+    '/research-frontiers/major-projects',
+  ],
+}
+
+/** 首页：仅全站导览，不展开各栏目详细目录 */
+const homeSidebar = [wayfindingZhGroup]
+
+const whatIsCislunarspaceSidebar = [wayfindingZhGroup, introSection]
+const cislunarOrbitsMainSidebar = [wayfindingZhGroup, orbitsSection]
+const researchFrontiersMainSidebar = [wayfindingZhGroup, researchSection]
 
 const glossarySidebar = [
   wayfindingZhGroup,
@@ -111,10 +116,9 @@ const spaceNewsSidebar: SidebarConfig[''] = []
 const blueTeamResearchSidebar = [
   wayfindingZhGroup,
   {
-    text: '蓝军研究（条令 · 装备 · 场景 · 知识库）',
+    text: '蓝军研究',
     collapsible: false,
     children: [
-      '/blue-team-research/',
       {
         text: '作战条令研究',
         link: '/blue-team-research/doctrine-strategy/',
@@ -165,24 +169,16 @@ const blueTeamResearchSidebar = [
   },
 ]
 
-const satelliteSimulationSidebar = [
-  wayfindingZhGroup,
-  {
-    text: '卫星轨道仿真教学平台',
-    collapsible: false,
-    children: ['/satellite-simulation/'],
-  },
-]
-
 export default <SidebarConfig>{
   '/glossary/': glossarySidebar,
   '/resources-tools/': resourcesToolsSidebar,
   '/blue-team-research/': blueTeamResearchSidebar,
   '/space-news/': spaceNewsSidebar,
   '/en/space-news/': spaceNewsSidebar,
-  '/satellite-simulation/': satelliteSimulationSidebar,
-  '/what-is-cislunarspace/': mainSidebar,
-  '/cislunar-orbits/': mainSidebar,
-  '/research-frontiers/': mainSidebar,
-  '/': mainSidebar,
+  /** 全屏教学沙盘：不挂载目录型侧边栏（导航用顶栏即可） */
+  '/satellite-simulation/': false,
+  '/what-is-cislunarspace/': whatIsCislunarspaceSidebar,
+  '/cislunar-orbits/': cislunarOrbitsMainSidebar,
+  '/research-frontiers/': researchFrontiersMainSidebar,
+  '/': homeSidebar,
 }

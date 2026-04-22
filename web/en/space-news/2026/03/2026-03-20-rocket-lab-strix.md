@@ -8,6 +8,10 @@ lastUpdated: 2026-03-20
 category: esa
 image: ./figures/2026-03-20-rocket-lab-strix/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Rocket Lab launches Strix Earth observation radar satellite"
+  desc: "Electron rocket launches Strix satellite for Japan's Synspective from New Zealand on March 20, 2026."
+  image: "./figures/2026-03-20-rocket-lab-strix/hero.jpg"
 ---
 
 # Rocket Lab launches Strix Earth observation radar satellite

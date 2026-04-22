@@ -8,6 +8,10 @@ date: 2026-04-21
 lastUpdated: 2026-04-21
 category: science
 image: ./figures/2026-04-21-curiosity-organics/hero.jpg
+wechatShare:
+  title: "好奇号火星车发现火星史上最多样有机分子群"
+  desc: "NASA 好奇号火星车对 2020 年采集的岩石样本进行多年分析后，确认发现了火星有史以来最多样的有机分子群，其中包括 7 种首次在火星上检测到的化合物。"
+  image: "./figures/2026-04-21-curiosity-organics/hero.jpg"
 ---
 
 # 好奇号火星车发现火星史上最多样有机分子群

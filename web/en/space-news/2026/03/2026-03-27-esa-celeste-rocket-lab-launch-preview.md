@@ -8,6 +8,10 @@ lastUpdated: 2026-03-27
 category: esa
 image: ./figures/2026-03-27-esa-celeste-rocket-lab-launch-preview-en/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron"
+  desc: "On March 27, 2026, ESA announced the first two Celeste satellites will launch on March 28 at 10:14 CET aboard a Rocket Lab Electron rocket from New Zealand — Europe's first LEO-PNT demonstration mission."
+  image: "./figures/2026-03-27-esa-celeste-rocket-lab-launch-preview-en/hero.jpg"
 ---
 
 # ESA's First Celeste Satellites Set for Launch Aboard Rocket Lab Electron

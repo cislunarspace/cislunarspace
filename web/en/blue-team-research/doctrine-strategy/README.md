@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/doctrine-strategy/
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-27
+wechatShare:
+  title: "Blue Team Research · Doctrine & Strategy"
+  desc: "Indexes and notes on public strategy, doctrine, and policy."
+  image: "/logo.png"
 ---
 
 # Doctrine & Strategy · Overview

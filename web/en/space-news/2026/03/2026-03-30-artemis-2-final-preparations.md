@@ -14,6 +14,10 @@ related:
   - 2026-03-28-artemis-2-crew-arrive-ksc
   - 2026-03-27-artemis-2-one-week-away
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Final Preparations Underway for Artemis II Moon Mission, 80% Go Weather Forecast"
+  desc: "NASA teams at Kennedy Space Center are making final preparations for the Artemis II launch countdown, with an 80% chance of favorable weather for the April 1 target."
+  image: "/logo.png"
 ---
 
 # Final Preparations Underway for Artemis II Moon Mission, 80% Go Weather Forecast

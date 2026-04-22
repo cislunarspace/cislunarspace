@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/equipment-tech/commercial-participation
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Commercial Participation"
+  desc: "Open information on launch, constellations, and services in support roles."
+  image: "/logo.png"
 ---
 
 # Commercial Participation

@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-11
 category: china
 image: ./figures/2026-04-10-chang-e7-wenchang/hero.webp
+wechatShare:
+  title: "Chang'e-7 Spacecraft Arrives at Wenchang Launch Site, Planned for Launch in Second Half of 2026"
+  desc: "China's Chang'e-7 spacecraft has safely arrived at Wenchang Satellite Launch Center, scheduled for launch in the second half of 2026, conducting lunar south pole exploration and resource survey."
+  image: "./figures/2026-04-10-chang-e7-wenchang/hero.webp"
 ---
 
 # Chang'e-7 Spacecraft Arrives at Wenchang Launch Site, Planned for Launch in Second Half of 2026

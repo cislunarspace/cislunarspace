@@ -8,6 +8,10 @@ date: 2026-04-20
 lastUpdated: 2026-04-20
 category: science
 image: ./figures/2026-04-20-hubble-trifid-nebula/hero.jpg
+wechatShare:
+  title: "NASA Hubble Telescope Releases New Image of Trifid Nebula for 36th Launch Anniversary"
+  desc: "NASA's Hubble Space Telescope released a new image of the Trifid Nebula on April 24, 2026, its 36th launch anniversary, capturing a star-forming region in the constellation Sagittarius with unprecedented detail."
+  image: "./figures/2026-04-20-hubble-trifid-nebula/hero.jpg"
 ---
 
 # NASA Hubble Telescope Releases New Image of Trifid Nebula for 36th Launch Anniversary

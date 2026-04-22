@@ -15,6 +15,10 @@ tags:
   - budget
   - policy
   - Isaacman
+wechatShare:
+  title: "NASA Administrator Isaacman Defends Steep Budget Cuts, Pledges Focus on 'Bold Goals'"
+  desc: "NASA Administrator Jared Isaacman defended the Trump administration's proposed ~20% budget cut to NASA during congressional hearings, arguing the agency will be more efficient and focus on bold exploration goals."
+  image: "./figures/2026-04-07-isaacman-nasa-budget/hero.jpg"
 ---
 
 # NASA Administrator Isaacman Defends Steep Budget Cuts, Pledges Focus on 'Bold Goals'

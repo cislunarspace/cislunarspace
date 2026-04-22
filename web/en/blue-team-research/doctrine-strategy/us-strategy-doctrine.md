@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/doctrine-strategy/us-strategy-doctrine
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-27
+wechatShare:
+  title: "Blue Team Research · U.S. Strategy & Doctrine System"
+  desc: "Public U.S. strategy documents, doctrine architecture, and doctrine-to-action links."
+  image: "/logo.png"
 ---
 
 # U.S. Strategy & Doctrine System

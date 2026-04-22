@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: artemis
 image: ./figures/2026-04-04-artemis-2-flight-day-3/hero.jpg
 tags: [Artemis II, NASA, 月球, Orion, SLS]
+wechatShare:
+  title: "Artemis II 飞行第三日：乘组已过半程奔赴月球，Christina Koch 从对接舱口目视月球"
+  desc: "Artemis II 任务已过半程，轨道修正取消，Christina Koch 从对接舱口看到月球，乘组正在为 4 月 6 日月球飞越做准备。"
+  image: "./figures/2026-04-04-artemis-2-flight-day-3/hero.jpg"
 ---
 
 # Artemis II 飞行第三日：乘组已过半程奔赴月球，Christina Koch 从对接舱口目视月球

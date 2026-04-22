@@ -14,6 +14,10 @@ related:
   - 2026-03-27-artemis-2-one-week-away
   - 2026-03-28-celeste-rocket-lab-launch
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Artemis II 乘组发射前接受媒体提问，三天后启程赴月"
+  desc: "2026 年 3 月 29 日，Artemis II 乘组在肯尼迪航天中心隔离设施中远程接受媒体提问，NASA 同步召开新闻发布会介绍任务状态，计划 4 月 1 日发射。"
+  image: "/logo.png"
 ---
 
 # Artemis II 乘组发射前接受媒体提问，三天后启程赴月

@@ -5,6 +5,10 @@ permalink: /blue-team-research/operations-application/orbital-confrontation
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 轨道对抗聚焦"
+  desc: "公开文献与政策讨论中的轨道对抗概念、能力要素与想定边界（收束子题）。"
+  image: "/logo.png"
 ---
 
 # 轨道对抗聚焦

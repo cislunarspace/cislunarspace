@@ -8,6 +8,10 @@ date: 2026-04-17
 lastUpdated: 2026-04-17
 category: artemis
 image: ./figures/2026-04-17-nasa-mobile-launcher-vab/hero.jpg
+wechatShare:
+  title: "NASA移动发射平台进驻总装大楼，为Artemis III任务做准备"
+  desc: "NASA将Artemis II任务使用的移动发射平台运回肯尼迪航天中心总装大楼，开始为2027年Artemis III载人登月任务进行火箭堆叠准备工作。"
+  image: "./figures/2026-04-17-nasa-mobile-launcher-vab/hero.jpg"
 ---
 
 # NASA移动发射平台进驻总装大楼，为Artemis III任务做准备

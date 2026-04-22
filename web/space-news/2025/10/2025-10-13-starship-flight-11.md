@@ -7,6 +7,10 @@ author: 天疆说
 date: 2025-10-13
 lastUpdated: 2025-10-13
 category: spacex
+wechatShare:
+  title: "SpaceX星舰第十一次飞行成功"
+  desc: "2025年10月13日，SpaceX星舰第十一次综合测试飞行（IFT-11）成功完成，火箭及飞船均实现受控回收。"
+  image: "/logo.png"
 ---
 
 # SpaceX星舰第十一次飞行成功

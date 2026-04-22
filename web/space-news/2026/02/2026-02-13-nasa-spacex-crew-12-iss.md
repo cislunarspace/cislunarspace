@@ -7,6 +7,10 @@ date: 2026-02-13
 lastUpdated: 2026-03-27
 category: spacex
 layout: SpaceNewsArticle
+wechatShare:
+  title: "NASA SpaceX Crew-12 载人飞船发射前往国际空间站"
+  desc: "2026 年 2 月 13 日，Crew-12 乘组乘猎鹰 9 号与龙飞船自佛罗里达州卡角 SLC-40 升空，前往国际空间站；为商业载人计划第 12 次轮换任务。"
+  image: "/logo.png"
 ---
 
 # NASA SpaceX Crew-12 载人飞船发射前往国际空间站

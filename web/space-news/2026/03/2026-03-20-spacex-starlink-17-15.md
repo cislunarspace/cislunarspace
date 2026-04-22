@@ -7,6 +7,10 @@ date: 2026-03-20
 lastUpdated: 2026-03-20
 category: spacex
 layout: SpaceNewsArticle
+wechatShare:
+  title: "SpaceX 自范登堡发射 Starlink 17-15 任务"
+  desc: "2026 年 3 月 20 日，猎鹰 9 号自范登堡太空军基地执行 Starlink 17-15 任务，一级助推器 B1100 完成第 4 次飞行后在海上回收。"
+  image: "/logo.png"
 ---
 
 # SpaceX 自范登堡发射 Starlink 17-15 任务

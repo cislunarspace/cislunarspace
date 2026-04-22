@@ -118,7 +118,7 @@ onBeforeUnmount(() => {
   border-radius: 0 12px 12px 0;
   box-shadow: var(--shadow-md);
 
-  transition: left 0.4s var(--ease-out-expo),
+  transition: left var(--sn-sidebar-sync-duration) var(--ease-out-expo),
               background 0.25s var(--ease-smooth),
               color 0.25s var(--ease-smooth),
               box-shadow 0.3s var(--ease-smooth),

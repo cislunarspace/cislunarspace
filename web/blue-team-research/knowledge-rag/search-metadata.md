@@ -5,6 +5,10 @@ permalink: /blue-team-research/knowledge-rag/search-metadata
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 检索与元数据"
+  desc: "全文检索字段、元数据规范与更新机制。"
+  image: "/logo.png"
 ---
 
 # 检索与元数据

@@ -8,6 +8,10 @@ lastUpdated: 2026-03-27
 category: esa
 image: ./figures/2026-03-27-esa-celeste-rocket-lab-launch-preview/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "欧洲卫星导航增强系统首星即将发射——Rocket Lab 为 ESA 执行 Celeste 任务"
+  desc: "2026 年 3 月 27 日，ESA 宣布其首批 Celeste 卫星将于 3 月 28 日由 Rocket Lab Electron 火箭从新西兰发射，这是欧洲首个低轨卫星导航增强（LEO-PNT）任务。"
+  image: "./figures/2026-03-27-esa-celeste-rocket-lab-launch-preview/hero.jpg"
 ---
 
 # 欧洲卫星导航增强系统首星即将发射——Rocket Lab 为 ESA 执行 Celeste 任务

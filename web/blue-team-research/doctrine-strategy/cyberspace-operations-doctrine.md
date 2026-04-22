@@ -5,6 +5,10 @@ permalink: /blue-team-research/doctrine-strategy/cyberspace-operations-doctrine
 author: 天疆说
 date: 2026-04-06
 lastUpdated: 2026-04-06
+wechatShare:
+  title: "美军《网络空间作战联合条令》研究"
+  desc: "美军网络空间作战联合条令的总体情况、内容、特点及局限。"
+  image: "/logo.png"
 ---
 
 # 美军《网络空间作战联合条令》研究

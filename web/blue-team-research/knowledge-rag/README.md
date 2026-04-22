@@ -5,6 +5,10 @@ permalink: /blue-team-research/knowledge-rag/
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 资料共享与知识库规划"
+  desc: "资料集中管理与检索、知识服务及技术路线规划。"
+  image: "/logo.png"
 ---
 
 # 资料共享与知识库 · 概述

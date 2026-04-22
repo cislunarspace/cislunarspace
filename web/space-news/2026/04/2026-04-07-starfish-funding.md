@@ -13,6 +13,10 @@ tags:
   - 在轨服务
   - 融资
   - 商业航天
+wechatShare:
+  title: "Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter"
+  desc: "在轨服务初创公司 Starfish Space 完成超过 1 亿美元的新一轮融资，资金将用于推进其 Otter 在轨服务航天器的开发和首次任务。"
+  image: "./figures/2026-04-07-starfish-funding/hero.jpg"
 ---
 
 # Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter

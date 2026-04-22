@@ -7,6 +7,10 @@ date: 2026-03-16
 lastUpdated: 2026-03-16
 category: china
 layout: SpaceNewsArticle
+wechatShare:
+  title: "神舟二十一号航天员乘组完成第二次出舱活动"
+  desc: "2026 年 3 月 16 日，神舟二十一号航天员乘组在空间站机械臂和地面科技人员密切协同下完成第二次出舱活动。"
+  image: "/logo.png"
 ---
 
 # 神舟二十一号航天员乘组完成第二次出舱活动

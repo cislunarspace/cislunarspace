@@ -24,6 +24,8 @@ twitter:
 
 # 1 Introduction
 
+This section introduces the definition and strategic context of cislunar space, together with a dedicated page on the [cislunar environment](/en/what-is-cislunarspace/environment) (radiation, communications, and mission constraints). Next steps: [cislunar orbits](/en/cislunar-orbits/), [research frontiers](/en/research-frontiers/), and the [glossary](/en/glossary/).
+
 ## 1.1 Definition of Cislunar Space
 
 Cislunar space refers to the gravitational interaction zone between the Earth and the Moon beyond geostationary orbit. It extends from approximately 36,000 kilometers above the Earth's surface to about 500,000 kilometers, encompassing the Moon and the Earth-Moon libration point orbits. There are two main differences between cislunar space and near-Earth space: first, the distance scale is more than 10 times larger and the volumetric space is more than 1,000 times greater; second, due to the combined gravitational influence of both the Earth and the Moon, orbital motion evolves from the basic "two-body problem" to the complex "three-body problem," transforming the deterministic classical Keplerian orbits of near-Earth space into the unstable chaotic orbits of cislunar space. This fundamentally changes humanity's traditional understanding of orbital motion and determines the characteristics of aerospace activities in cislunar space [1].

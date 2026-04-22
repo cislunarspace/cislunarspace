@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/knowledge-rag/rag-roadmap
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Knowledge Services Roadmap"
+  desc: "Phased plan for RAG, citation traceability, and optional model tuning."
+  image: "/logo.png"
 ---
 
 # Knowledge Services Roadmap

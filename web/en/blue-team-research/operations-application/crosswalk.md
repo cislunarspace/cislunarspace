@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/operations-application/crosswalk
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Doctrine–Capability–Employment Crosswalk"
+  desc: "Tabular cross-check between doctrine concepts, equipment, and observations."
+  image: "/logo.png"
 ---
 
 # Doctrine–Capability–Employment Crosswalk

@@ -9,6 +9,10 @@ lastUpdated: 2026-04-05
 category: artemis
 image: ./figures/2026-04-05-artemis-2-orion-toilet-issue/hero.jpg
 tags: [Artemis, NASA, Orion, 卫生间, 太空生活]
+wechatShare:
+  title: "Artemis II 奔月途中遭遇 Orion 卫生间故障：废水管结冰与烧焦气味"
+  desc: "猎户座飞船在飞行第三日出现卫生间废水排放口结冰及烧焦气味问题，乘组暂时使用应急集尿袋，地面控制中心正制定除冰方案。"
+  image: "./figures/2026-04-05-artemis-2-orion-toilet-issue/hero.jpg"
 ---
 
 # Artemis II 奔月途中遭遇 Orion 卫生间故障：废水管结冰与烧焦气味

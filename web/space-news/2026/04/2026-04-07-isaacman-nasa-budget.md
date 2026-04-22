@@ -15,6 +15,10 @@ tags:
   - 预算
   - 政策
   - Isaacman
+wechatShare:
+  title: "NASA 局长 Isaacson 为大幅削减预算方案辩护，称将聚焦'大胆目标'"
+  desc: "NASA 局长 Jared Isaacman 在国会听证会上为特朗普政府提出的 NASA 预算削减方案辩护，该方案提议将 NASA 预算削减约 20%，科学项目首当其冲。"
+  image: "./figures/2026-04-07-isaacman-nasa-budget/hero.jpg"
 ---
 
 # NASA 局长 Isaacson 为大幅削减预算方案辩护，称将聚焦"大胆目标"

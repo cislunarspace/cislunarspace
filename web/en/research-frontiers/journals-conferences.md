@@ -1,4 +1,6 @@
 ---
+title: Journals & conferences
+description: Curated pointers to journals and conferences relevant to cislunar space, orbital mechanics, and exploration.
 permalink: /en/research-frontiers/journals-conferences/
 wechatShare:
   title: Cislunar Space Journals & Conferences

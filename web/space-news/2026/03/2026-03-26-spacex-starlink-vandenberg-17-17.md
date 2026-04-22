@@ -7,6 +7,10 @@ date: 2026-03-26
 lastUpdated: 2026-03-27
 category: spacex
 layout: SpaceNewsArticle
+wechatShare:
+  title: "SpaceX 自范登堡发射 Starlink 17-17 任务"
+  desc: "2026 年 3 月 26 日，猎鹰 9 号自加利福尼亚州范登堡太空军基地执行 Starlink 17-17 任务，一级助推器海上回收。"
+  image: "/logo.png"
 ---
 
 # SpaceX 自范登堡发射 Starlink 17-17 任务

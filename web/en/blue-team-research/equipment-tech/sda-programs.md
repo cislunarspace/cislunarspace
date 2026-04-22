@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/equipment-tech/sda-programs
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · SDA & Related Programs"
+  desc: "Public information on the Space Development Agency layered architecture and milestones."
+  image: "/logo.png"
 ---
 
 # SDA & Related Programs

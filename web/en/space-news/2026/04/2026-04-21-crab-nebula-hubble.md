@@ -8,6 +8,10 @@ date: 2026-04-21
 lastUpdated: 2026-04-21
 category: science
 image: ./figures/2026-04-21-crab-nebula-hubble/hero.webp
+wechatShare:
+  title: "NASA Hubble Releases Stunning New Image of the Crab Nebula on Its 36th Anniversary"
+  desc: "NASA's Hubble Space Telescope captures its most detailed image of the Crab Nebula supernova remnant, revealing filament expansion at 3.4 million miles per hour and a new era of multi-telescope observations."
+  image: "./figures/2026-04-21-crab-nebula-hubble/hero.webp"
 ---
 
 # NASA Hubble Releases Stunning New Image of the Crab Nebula on Its 36th Anniversary

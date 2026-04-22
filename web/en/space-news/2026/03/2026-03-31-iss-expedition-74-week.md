@@ -13,6 +13,10 @@ related:
   - 2026-03-18-nasa-eva-94-iss
   - 2026-03-24-roscosmos-progress-94-iss
 layout: SpaceNewsArticle
+wechatShare:
+  title: "ISS Expedition 74 Crew Kicks Off Week With Cygnus Cargo Training and Spacewalk Cleanup"
+  desc: "Expedition 74 astronauts trained for the upcoming Northrop Grumman Cygnus XL cargo mission, serviced spacesuits from last week's EVA, and conducted emergency medical drills aboard the International Space Station."
+  image: "/logo.png"
 ---
 
 # ISS Expedition 74 Crew Kicks Off Week With Cygnus Cargo Training and Spacewalk Cleanup

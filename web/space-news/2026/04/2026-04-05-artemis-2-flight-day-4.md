@@ -13,6 +13,10 @@ tags:
   - NASA
   - Orion
   - 月球飞越
+wechatShare:
+  title: "Artemis II 飞行第四日：深空飞行与月球飞越准备，Glover 将手动操控 Orion"
+  desc: "Artemis II 第四飞行日，乘组距地球约 16.9 万英里，Victor Glover 将手动操控 Orion 测试深空飞行性能，为 4 月 6 日月球飞越做最后准备。"
+  image: "./figures/2026-04-05-artemis-2-flight-day-4/hero.jpg"
 ---
 
 # Artemis II 飞行第四日：深空飞行与月球飞越准备，Glover 将手动操控 Orion

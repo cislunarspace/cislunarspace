@@ -8,6 +8,10 @@ date: 2026-04-17
 lastUpdated: 2026-04-17
 category: [blue-origin, commercial]
 image: ./figures/2026-04-17-bluebird-7-orbit/hero.png
+wechatShare:
+  title: "蓝色起源新格伦火箭入轨偏差，AST BlueBird 7 卫星将受控离轨"
+  desc: "AST SpaceMobile 公司 BlueBird 7 卫星搭乘蓝色起源新格伦火箭发射，但因入轨轨道错误，将进行受控离轨处置。"
+  image: "./figures/2026-04-17-bluebird-7-orbit/hero.png"
 ---
 
 # 蓝色起源新格伦火箭入轨偏差，AST BlueBird 7 卫星将受控离轨

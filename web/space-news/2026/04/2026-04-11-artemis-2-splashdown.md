@@ -8,6 +8,10 @@ date: 2026-04-11
 lastUpdated: 2026-04-11
 category: artemis
 image: ./figures/2026-04-11-artemis-2-splashdown/hero.webp
+wechatShare:
+  title: "Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束"
+  desc: "NASA 宇航员 Reid Wiseman、Victor Glover、Christina Koch 和加拿大宇航员 Jeremy Hansen 成功完成历史性绕月任务，猎户座飞船在太平洋安全溅落。"
+  image: "./figures/2026-04-11-artemis-2-splashdown/hero.webp"
 ---
 
 # Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束

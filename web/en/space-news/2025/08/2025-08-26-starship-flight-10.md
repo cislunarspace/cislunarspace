@@ -7,6 +7,10 @@ author: Tianjiangshuo
 date: 2025-08-26
 lastUpdated: 2025-08-26
 category: spacex
+wechatShare:
+  title: "SpaceX Starship Flight 10 Achieves Success"
+  desc: "On August 26, 2025, SpaceX's Starship Flight 10 (IFT-10) successfully completed all primary objectives, with the rocket achieving a controlled landing."
+  image: "/logo.png"
 ---
 
 # SpaceX Starship Flight 10 Achieves Success

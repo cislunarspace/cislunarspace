@@ -5,6 +5,10 @@ permalink: /space-news/2025/11/
 author: 天疆说
 date: 2025-11-30
 lastUpdated: 2025-11-30
+wechatShare:
+  title: "航天动态 · 2025 年 11 月"
+  desc: "2025 年 11 月航天新闻条目索引。"
+  image: "/logo.png"
 ---
 
 # 2025 年 11 月

@@ -5,6 +5,10 @@ permalink: /blue-team-research/operations-application/regional-conflicts
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "蓝军研究 · 地区冲突中的太空运用"
+  desc: "俄乌、中东等公开报道中学术与媒体对太空能力运用的可引用归纳（不涉及涉密判断）。"
+  image: "/logo.png"
 ---
 
 # 地区冲突中的太空运用

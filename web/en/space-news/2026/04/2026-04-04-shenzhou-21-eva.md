@@ -9,6 +9,10 @@ lastUpdated: 2026-04-04
 category: china
 image: ./figures/2026-04-04-shenzhou-21-eva/hero.jpg
 tags: [Shenzhou-21, Tiangong, EVA, taikonaut]
+wechatShare:
+  title: "Shenzhou-21 Crew Completes Second EVA, Approaching 150-Day On-Orbit Milestone"
+  desc: "Taikonauts Zhang Lu, Wu Fei, and Zhang Hongzhang have completed their second spacewalk and continue science experiments aboard the Tiangong space station, nearing 150 days in orbit."
+  image: "./figures/2026-04-04-shenzhou-21-eva/hero.jpg"
 ---
 
 # Shenzhou-21 Crew Completes Second EVA, Approaching 150-Day On-Orbit Milestone

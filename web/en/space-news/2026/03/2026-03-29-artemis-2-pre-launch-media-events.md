@@ -14,6 +14,10 @@ related:
   - 2026-03-27-artemis-2-one-week-away
   - 2026-03-28-celeste-rocket-lab-launch
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Artemis II Crew Answers Media Questions as Launch Week Begins"
+  desc: "On March 29, 2026, the Artemis II crew answered reporters' questions from quarantine while NASA officials provided a mission status update, three days before the planned April 1 launch."
+  image: "/logo.png"
 ---
 
 # Artemis II Crew Answers Media Questions as Launch Week Begins

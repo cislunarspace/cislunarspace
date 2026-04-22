@@ -14,6 +14,10 @@ related:
   - 2026-03-29-artemis-2-pre-launch-media-events
   - 2026-03-28-artemis-2-crew-arrive-ksc
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Artemis II 发射倒计时正式启动，距历史性绕月任务仅剩 2 天"
+  desc: "NASA Artemis II 发射倒计时已在肯尼迪航天中心正式启动，倒计时时钟于美东时间 16:44 开始计时，目标发射时间为 4 月 1 日 18:24，这是 50 多年来首次载人月球任务。"
+  image: "/logo.png"
 ---
 
 # Artemis II 发射倒计时正式启动，距历史性绕月任务仅剩 2 天

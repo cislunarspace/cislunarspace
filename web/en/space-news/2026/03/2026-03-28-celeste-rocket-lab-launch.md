@@ -12,6 +12,10 @@ tags: [ESA, Rocket Lab, Celeste, LEO-PNT, Galileo, navigation, Electron]
 related:
   - 2026-03-27-esa-celeste-rocket-lab-launch-preview
 layout: SpaceNewsArticle
+wechatShare:
+  title: "ESA's First Celeste Satellites Successfully Launched — Europe's LEO Navigation Augmentation Era Begins"
+  desc: "On March 28, 2026, ESA's first two Celeste satellites were successfully launched aboard Rocket Lab's Electron rocket from New Zealand, marking the beginning of Europe's LEO-PNT era."
+  image: "/logo.png"
 ---
 
 On March 28, the European Space Agency (ESA) took a major step forward in strengthening Europe's ambition for more resilient satellite navigation, as the first two satellites of the Celeste in-orbit demonstration mission lifted off from New Zealand aboard Rocket Lab's Electron. Their mission is to begin testing a complementary low Earth orbit layer for Galileo.

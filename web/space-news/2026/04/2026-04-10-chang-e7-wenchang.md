@@ -8,6 +8,10 @@ date: 2026-04-10
 lastUpdated: 2026-04-11
 category: china
 image: ./figures/2026-04-10-chang-e7-wenchang/hero.webp
+wechatShare:
+  title: "嫦娥七号探测器已安全运抵文昌航天发射场，计划今年下半年发射"
+  desc: "嫦娥七号探测器已通过空陆联运方式全部安全运抵中国文昌航天发射场，计划今年下半年择机发射，将开展月球南极环境与资源勘查。"
+  image: "./figures/2026-04-10-chang-e7-wenchang/hero.webp"
 ---
 
 # 嫦娥七号探测器已安全运抵文昌航天发射场，计划今年下半年发射

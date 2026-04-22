@@ -9,6 +9,10 @@ lastUpdated: 2026-04-05
 category: science
 image: ./figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg
 tags: [Chang'e-4, cosmic rays, radiation protection, Moon, deep space exploration]
+wechatShare:
+  title: "Chang'e-4 Data Reveals 'Cosmic Ray Cavity' in Cislunar Space"
+  desc: "A Shandong University team discovers a significant reduction in galactic cosmic ray flux near lunar orbit using three years of Chang'e-4 data, offering new insights for deep space radiation protection."
+  image: "./figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg"
 ---
 
 # Chang'e-4 Data Reveals 'Cosmic Ray Cavity' in Cislunar Space

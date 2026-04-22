@@ -8,6 +8,10 @@ lastUpdated: 2026-03-28
 category: china
 image: ./figures/2026-03-27-china-esa-smile-satellite/hero.jpg
 layout: SpaceNewsArticle
+wechatShare:
+  title: "中欧联合研制的\"微笑\"卫星完成发射前准备，计划4月9日发射"
+  desc: "2026 年 3 月 26 日，中科院与欧洲空间局联合研制的太阳风—磁层相互作用全景成像卫星（ SMILE）在库鲁航天发射中心完成所有发射前准备工作，计划于当地时间 4 月 9 日发射升空。"
+  image: "./figures/2026-03-27-china-esa-smile-satellite/hero.jpg"
 ---
 
 # 中欧联合研制的"微笑"卫星完成发射前准备，计划4月9日发射

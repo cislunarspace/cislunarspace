@@ -9,6 +9,10 @@ lastUpdated: 2026-04-05
 category: commercial
 image: ./figures/2026-03-30-lift-2-maiden-flight/hero.jpg
 tags: [力箭二号, 中科宇航, 商业航天, CBC构型, 首飞]
+wechatShare:
+  title: "力箭二号首飞成功：中国首款 CBC 构型火箭入轨，商业航天进入大运力时代"
+  desc: "中科宇航力箭二号遥一火箭成功首飞，一箭三星入轨。采用通用助推器核心构型，起飞重量625吨，将支撑低轨星座组网与低成本货运。"
+  image: "./figures/2026-03-30-lift-2-maiden-flight/hero.jpg"
 ---
 
 # 力箭二号首飞成功：中国首款 CBC 构型火箭入轨，商业航天进入大运力时代

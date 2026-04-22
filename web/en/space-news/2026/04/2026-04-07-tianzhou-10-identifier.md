@@ -9,6 +9,10 @@ lastUpdated: 2026-04-07
 category: china
 image: ./figures/2026-04-07-tianzhou-10-identifier/hero.jpg
 tags: [Tianzhou 10, Tiangong Space Station, Cargo Spacecraft, Manned Space]
+wechatShare:
+  title: "China Manned Space Program Officially Releases Tianzhou 10 Mission Identifier"
+  desc: "The China Manned Space Engineering Office officially released the mission identifier for Tianzhou 10, featuring a circular design symbolizing harmony between heaven and Earth, with golden gradient lines representing aer…"
+  image: "./figures/2026-04-07-tianzhou-10-identifier/hero.jpg"
 ---
 
 # China Manned Space Program Officially Releases Tianzhou 10 Mission Identifier

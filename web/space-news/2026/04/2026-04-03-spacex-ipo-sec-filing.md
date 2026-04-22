@@ -13,6 +13,10 @@ tags:
   - IPO
   - 商业航天
   - 星链
+wechatShare:
+  title: "SpaceX 向 SEC 提交 IPO 申请，有望创下史上最大规模上市纪录"
+  desc: "马斯克旗下 SpaceX 已向美国证券交易委员会保密提交 IPO 注册文件，目标估值超过 1.75 万亿美元，融资规模最高可达 500 亿美元，有望超越沙特阿美成为史上最大 IPO。"
+  image: "./figures/2026-04-03-spacex-ipo-sec-filing/hero.jpg"
 ---
 
 # SpaceX 向 SEC 提交 IPO 申请，有望创下史上最大规模上市纪录

@@ -1,14 +1,20 @@
 <template>
-  <Layout :class="{ 'sn-layout-wrapper': isSpaceNews }">
+  <Layout
+    :class="{
+      'sn-layout-wrapper': isSpaceNews,
+      'orbit-sim-layout': isOrbitSim,
+      'forum-layout': isForum,
+    }"
+  >
     <template #page-bottom>
-      <CopyPageButton />
+      <CopyPageButton v-if="!isForum" />
       <Footer />
     </template>
   </Layout>
   <SpaceNewsSidebar v-if="isSpaceNews" />
-  <PageSidebar />
-  <PageToc v-if="!isSpaceNews" />
-  <SidebarToggle />
+  <PageSidebar v-if="!isOrbitSim && !isForum" />
+  <PageToc v-if="!isSpaceNews && !isOrbitSim && !isForum" />
+  <SidebarToggle v-if="!isOrbitSim && !isForum" />
 </template>
 
 <style lang="scss">
@@ -28,7 +34,7 @@
 }
 
 .theme-container {
-  transition: padding-left 0.35s var(--ease-out-expo);
+  transition: padding-left var(--sn-sidebar-sync-duration) var(--ease-out-expo);
 }
 
 /* ---- 导航栏下拉菜单 ---- */
@@ -48,10 +54,75 @@
     display: none !important;
   }
 }
+
+/* ---- 轨道仿真页：隐藏 VuePress 左侧栏（含移动端抽屉占位），内容区全宽 ---- */
+.vp-theme-container.orbit-sim-layout .vp-sidebar {
+  display: none !important;
+}
+
+.vp-theme-container.orbit-sim-layout .vp-sidebar-mask {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+.vp-theme-container.orbit-sim-layout .vp-page {
+  padding-inline-start: 0 !important;
+}
+
+@media (max-width: 959px) {
+  .vp-theme-container.orbit-sim-layout.sidebar-open .vp-page {
+    padding-inline-start: 0 !important;
+  }
+}
+
+/* ---- 论坛页：隐藏 VuePress 左侧栏与移动端抽屉，正文区加宽 ---- */
+.vp-theme-container.forum-layout .vp-sidebar {
+  display: none !important;
+}
+
+.vp-theme-container.forum-layout .vp-sidebar-mask {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+.vp-theme-container.forum-layout .vp-toggle-sidebar-button {
+  display: none !important;
+}
+
+.vp-theme-container.forum-layout .vp-page {
+  padding-inline-start: 0 !important;
+}
+
+.vp-theme-container.forum-layout .vp-page [vp-content] {
+  max-width: min(1120px, 100%);
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 3vw, 2rem);
+  padding-block: 0.5rem 2rem;
+}
+
+/* 与 Forum 组件内标题重复，隐藏 Markdown 生成的页面 H1 */
+.vp-theme-container.forum-layout [vp-content] > h1:first-child {
+  display: none !important;
+}
+
+/* 不展示「完善页面 / 最近更新」等页脚元信息（与 frontmatter 双保险） */
+.vp-theme-container.forum-layout .vp-page-meta {
+  display: none !important;
+}
+
+.vp-theme-container.forum-layout .vp-page-nav {
+  display: none !important;
+}
+
+@media (max-width: 959px) {
+  .vp-theme-container.forum-layout.sidebar-open .vp-page {
+    padding-inline-start: 0 !important;
+  }
+}
 </style>
 
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, computed } from 'vue'
+import { onMounted, onBeforeUnmount, computed, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
@@ -61,6 +132,11 @@ import PageToc from '../components/PageToc.vue'
 import SidebarToggle from '../components/SidebarToggle.vue'
 import CopyPageButton from '../components/CopyPageButton.vue'
 import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy'
+import {
+  enhanceContentTables,
+  setupTableToolbar,
+  teardownTableToolbar,
+} from '../composables/useTableEnhance'
 
 const route = useRoute()
 const isSpaceNews = computed(() => {
@@ -68,12 +144,42 @@ const isSpaceNews = computed(() => {
   return p.startsWith('/space-news/') || p.startsWith('/en/space-news/')
 })
 
+/** 轨道仿真全屏页：不显示站点左侧栏、右侧工具条与侧栏切换钮 */
+const isOrbitSim = computed(() => {
+  const p = (route.path.replace(/\/$/, '') || '/').toLowerCase()
+  return p === '/satellite-simulation' || p === '/en/satellite-simulation'
+})
+
+/** 社区论坛：全宽内容、无侧栏与页面工具条，与轨道仿真页类似的留白策略 */
+const isForum = computed(() => {
+  const p = (route.path.replace(/\/$/, '') || '/').toLowerCase()
+  return p === '/forum' || p === '/en/forum'
+})
+
+function runTableEnhance() {
+  nextTick(() => {
+    requestAnimationFrame(() => {
+      enhanceContentTables()
+    })
+  })
+}
+
 onMounted(() => {
   setupMathCopy()
+  setupTableToolbar()
+  runTableEnhance()
 })
+
+watch(
+  () => route.path,
+  () => {
+    runTableEnhance()
+  },
+)
 
 onBeforeUnmount(() => {
   teardownMathCopy()
+  teardownTableToolbar()
 })
 </script>
 
@@ -166,11 +272,13 @@ onBeforeUnmount(() => {
     /* ---- 内容区域扩展 ---- */
     .vp-page {
       padding-inline-start: 0;
+      transition: padding-inline-start var(--sn-sidebar-sync-duration) var(--ease-out-expo);
     }
 
-    /* ---- 内容区在宽屏下增加呼吸空间 ---- */
+    /* ---- 侧栏收起：正文略增水平留白，仍随视口 clamp ---- */
     .vp-page [vp-content] {
-      padding-inline: 3rem;
+      padding-inline: clamp(1.25rem, 4vw, 3rem);
+      transition: padding-inline var(--sn-sidebar-sync-duration) var(--ease-out-expo);
     }
   }
 }

@@ -15,6 +15,10 @@ tags:
   - Commercial Resupply
   - Dragon
   - CRS-34
+wechatShare:
+  title: "NASA Invites Media to SpaceX's 34th Commercial Resupply Mission, Targeting May 12 Launch"
+  desc: "On April 20, 2026, NASA released a media advisory inviting media to cover SpaceX's 34th Commercial Resupply Services (CRS-34) mission, targeted for launch no earlier than May 12 from Cape Canaveral Space Force Station, …"
+  image: "./figures/2026-04-20-nasa-crs-34-media/hero.jpg"
 ---
 
 # NASA Invites Media to SpaceX's 34th Commercial Resupply Mission, Targeting May 12 Launch

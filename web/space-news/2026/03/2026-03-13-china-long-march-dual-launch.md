@@ -7,6 +7,10 @@ date: 2026-03-13
 lastUpdated: 2026-03-27
 category: china
 layout: SpaceNewsArticle
+wechatShare:
+  title: "长征系列运载火箭三小时内两次发射成功"
+  desc: "2026 年 3 月 13 日，长征八号甲在海南商业发射场、长征二号丁在西昌卫星发射中心相继升空，分别部署卫星互联网低轨组与试验三十号 03、04 星。"
+  image: "/logo.png"
 ---
 
 # 长征系列运载火箭三小时内两次发射成功

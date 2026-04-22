@@ -9,6 +9,10 @@ lastUpdated: 2026-04-05
 category: science
 image: ./figures/2026-04-05-ce5-soil-thermal/hero.jpg
 tags: [嫦娥五号, 月壤, 热导率, 超绝热材料, 月球科学]
+wechatShare:
+  title: "我国首次精准测定月壤单颗粒热导率，发现天然超绝热材料"
+  desc: "中科院联合团队首次实现嫦娥五号月壤单颗粒热导率精准测量，发现胶结物颗粒热导率低至约8 mW·m⁻¹·K⁻¹，媲美人造气凝胶。"
+  image: "./figures/2026-04-05-ce5-soil-thermal/hero.jpg"
 ---
 
 # 我国首次精准测定月壤单颗粒热导率，发现天然超绝热材料

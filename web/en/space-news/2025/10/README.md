@@ -5,6 +5,10 @@ permalink: /en/space-news/2025/10/
 author: Tianjiangshuo
 date: 2025-10-31
 lastUpdated: 2025-10-31
+wechatShare:
+  title: "Space News · October 2025"
+  desc: "October 2025 space news article index."
+  image: "/logo.png"
 ---
 
 # October 2025

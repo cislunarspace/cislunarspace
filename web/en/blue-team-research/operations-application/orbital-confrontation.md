@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/operations-application/orbital-confrontation
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Orbital Confrontation Focus"
+  desc: "Narrow topic: public discourse on orbital confrontation concepts and bounds."
+  image: "/logo.png"
 ---
 
 # Orbital Confrontation Focus

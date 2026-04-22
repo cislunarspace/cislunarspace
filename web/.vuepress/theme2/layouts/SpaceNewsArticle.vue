@@ -63,7 +63,7 @@ const newsHome = computed(() => isEn.value ? '/en/space-news/' : '/space-news/')
 }
 
 .article-back {
-  max-width: 740px;
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 1.5rem 2.5rem 0;
 

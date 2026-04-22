@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/operations-application/regional-conflicts
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Space in Regional Conflicts"
+  desc: "Open reporting and analysis on space employment in Ukraine and Middle Eastern contexts."
+  image: "/logo.png"
 ---
 
 # Space in Regional Conflicts

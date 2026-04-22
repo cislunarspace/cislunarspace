@@ -16,6 +16,10 @@ tags:
   - 大气
   - Artemis
   - 浮游植物
+wechatShare:
+  title: "NASA 发布 Artemis II 任务期间地球新影像：浮游植物与极光同框"
+  desc: "NASA 发布 Artemis II 绕月飞行期间拍摄的地球影像，捕捉堪察加半岛浮游植物水华与极光等壮观画面，展示地球海洋与大气层的动态之美。"
+  image: "./figures/2026-04-22-nasa-pace-earth-views/hero.jpg"
 ---
 
 # NASA 发布 Artemis II 任务期间地球新影像：浮游植物与极光同框

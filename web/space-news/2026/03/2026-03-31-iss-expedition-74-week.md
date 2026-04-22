@@ -14,6 +14,10 @@ related:
   - 2026-03-18-nasa-eva-94-iss
   - 2026-03-24-roscosmos-progress-94-iss
 layout: SpaceNewsArticle
+wechatShare:
+  title: "国际空间站第 74 远征队乘组备战 Cygnus 货运任务并维护太空行走宇航服"
+  desc: "第 74 远征队宇航员为诺斯罗普·格鲁曼 Cygnus XL 货运飞船的到来进行训练，维护上周太空行走使用的宇航服，并在国际空间站上开展紧急医疗演习。"
+  image: "./figures/2026-03-31-iss-expedition-74-week/hero.jpg"
 ---
 
 # 国际空间站第 74 远征队乘组备战 Cygnus 货运任务并维护太空行走宇航服

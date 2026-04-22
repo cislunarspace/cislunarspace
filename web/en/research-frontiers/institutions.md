@@ -1,4 +1,6 @@
 ---
+title: Cislunar space research institutions
+description: Index of institution pages covering universities and labs active in cislunar space research.
 permalink: /en/research-frontiers/institutions/
 wechatShare:
   title: Cislunar Space Research Institutions

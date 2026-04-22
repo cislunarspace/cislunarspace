@@ -8,6 +8,10 @@ date: 2026-04-11
 lastUpdated: 2026-04-11
 category: artemis
 image: ./figures/2026-04-11-artemis-2-splashdown/hero.webp
+wechatShare:
+  title: "Artemis II Successful Splashdown: Historic Crewed Lunar Mission Completes"
+  desc: "NASA astronauts Reid Wiseman, Victor Glover, Christina Koch and CSA astronaut Jeremy Hansen safely complete the first crewed lunar flyby in over 50 years, Orion spacecraft splashes down in Pacific Ocean."
+  image: "./figures/2026-04-11-artemis-2-splashdown/hero.webp"
 ---
 
 # Artemis II Successful Splashdown: Historic Crewed Lunar Mission Completes

@@ -5,6 +5,10 @@ permalink: /en/blue-team-research/operations-application/kill-chain-focus
 author: 天疆说
 date: 2026-03-26
 lastUpdated: 2026-03-26
+wechatShare:
+  title: "Blue Team Research · Kill-Chain Focus"
+  desc: "Public material on kill-chain segments where space systems provide citable support."
+  image: "/logo.png"
 ---
 
 # Kill-Chain Focus

@@ -7,6 +7,10 @@ author: 天疆说
 date: 2025-05-27
 lastUpdated: 2025-05-27
 category: spacex
+wechatShare:
+  title: "SpaceX星舰第九次飞行遭遇失利"
+  desc: "2025年5月27日，SpaceX星舰第九次飞行（IFT-9）在执行过程中遭遇失利，发射后未能完成预定任务目标。"
+  image: "/logo.png"
 ---
 
 # SpaceX星舰第九次飞行遭遇失利

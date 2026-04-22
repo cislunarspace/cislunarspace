@@ -1,10 +1,19 @@
 ---
-title: Satellite Orbit Simulation
+title: Satellite Orbit Simulation Lab
+description: Browser-based teaching lab for orbital elements and trajectory visualization—companion to the orbits hub and resources section.
+permalink: /en/satellite-simulation/
+lastUpdated: 2026-04-22
 sidebar: false
+wechatShare:
+  title: "Satellite Orbit Simulation Lab"
+  desc: "Browser-based teaching lab for orbital elements and trajectory visualization—companion to the orbits hub and resources section."
+  image: "/logo.png"
 ---
 
+This page hosts an **interactive orbit simulation** for building intuition about elements, path shape, and visualization scale. It is a teaching aid and **does not replace** mission-grade tools (full force models, tracking passes, and fuel optimization belong in dedicated software).
+
+Read [what is cislunar space](/en/what-is-cislunarspace/) and [cislunar orbits](/en/cislunar-orbits/) first; use [resources & tools](/en/resources-tools/) for datasets and libraries.
+
 <ClientOnly>
-<div style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#050c1a;">
-  <iframe src="/orbit-sim.html" style="width:100%;height:100%;border:none;"></iframe>
-</div>
+  <OrbitSimLab locale="en" />
 </ClientOnly>

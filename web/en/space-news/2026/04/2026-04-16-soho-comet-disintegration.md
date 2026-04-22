@@ -15,6 +15,10 @@ tags:
   - Comet
   - Kreutz Sungrazing Comets
   - Sun
+wechatShare:
+  title: "SOHO Coronagraph Captures Sungrazer Comet Disintegrating Near the Sun"
+  desc: "On April 4, 2026, Comet C/2026 A1 (MAPS), a Kreutz sungrazing comet, disintegrated during its approach to the Sun, with NASA's and ESA's SOHO spacecraft capturing the event."
+  image: "./figures/2026-04-16-soho-comet-disintegration/hero.png"
 ---
 
 # SOHO Coronagraph Captures Sungrazer Comet Disintegrating Near the Sun

@@ -7,6 +7,10 @@ date: 2026-03-19
 lastUpdated: 2026-03-19
 category: artemis
 layout: SpaceNewsArticle
+wechatShare:
+  title: "Artemis II 任务 SLS 火箭转往发射台"
+  desc: "2026 年 3 月 19 日，NASA 将 SLS 火箭从 Vehicle Assembly Building 转往发射台，准备执行首次载人绕月任务。"
+  image: "/logo.png"
 ---
 
 # Artemis II 任务 SLS 火箭转往发射台

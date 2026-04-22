@@ -9,4 +9,6 @@ export const categoryMeta: Record<string, { zh: string; en: string; color: strin
   commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
   science: { zh: '科学发现', en: 'Science', color: '#8b5cf6' },
   policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
+  'blue-origin': { zh: 'Blue Origin', en: 'Blue Origin', color: '#4338ca' },
+  'commercial-space': { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
 }
