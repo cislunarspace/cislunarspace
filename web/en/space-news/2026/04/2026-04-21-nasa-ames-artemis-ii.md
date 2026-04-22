@@ -1,57 +1,57 @@
 ---
 layout: SpaceNewsArticle
-title: "NASA Ames Provides Key Technologies for Artemis II Mission"
-description: "NASA's Ames Research Center supported Artemis II with heat shield sensors, SLS rocket strakes, and lunar science observations, ensuring crew safety during 5,000°F reentry and beyond."
+title: "What Are Ames' Contributions to Artemis II?"
+description: "NASA's Ames Research Center played key roles in the Artemis II mission, providing heat shield sensors, SLS rocket vibration analysis, crew science training, and mission assurance support."
 permalink: /en/space-news/2026/04/2026-04-21-nasa-ames-artemis-ii/
 author: Tianjiangshuo
 date: 2026-04-21
 lastUpdated: 2026-04-22
 category: artemis
-image: ./figures/2026-04-21-nasa-ames-artemis-ii/hero.webp
+image: ./figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg
 tags:
   - NASA
-  - Ames
-  - Artemis
+  - Ames Research Center
   - Artemis II
-  - Orion
+  - Orion Spacecraft
   - SLS
+  - Moon
 ---
 
-# NASA Ames Provides Key Technologies for Artemis II Mission
+# What Are Ames' Contributions to Artemis II?
 
-**Summary:** NASA's Ames Research Center in California's Silicon Valley played a critical role in the Artemis II mission, developing heat shield sensors, validating SLS rocket strakes through wind tunnel testing and supercomputer modeling, and guiding the crew through lunar observations. These contributions ensured astronaut safety during 5,000°F reentry and gathered unique data for future lunar exploration.
+**Summary:** On April 1, 2026, NASA conducted the Artemis II crewed lunar flyby mission—the first time humans traveled to lunar orbit in over 50 years. NASA's Ames Research Center made significant contributions across multiple technical areas, including heat shield sensor development, rocket vibration analysis, and crew science training.
 
-![Artemis II astronauts pose aboard USS John P. Murtha (NASA/Bill Ingalls)](./figures/2026-04-21-nasa-ames-artemis-ii/hero.webp)
+![Artemis II mission view from Orion spacecraft (NASA image)](./figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg)
+*Credit: NASA*
 
-*Credit: NASA / Bill Ingalls (Public Domain)*
+## Mission Overview
 
-## Heat Shield Sensors: Data for Atmospheric Reentry
+Artemis II was the first crewed test flight of NASA's Artemis program, launching on April 1, 2026. Four astronauts aboard the Orion spacecraft completed an approximately 10-day lunar flyby mission. The spacecraft splashed down safely in the Pacific Ocean on April 11, successfully achieving all mission objectives. Ames Research Center played important roles across multiple technical areas of this mission.
 
-During Artemis II, the Orion spacecraft reentered Earth's atmosphere at approximately 25,000 mph, with heat shield surface temperatures reaching 5,000 degrees Fahrenheit. Ames engineers developed a suite of sensors to provide real-time temperature and pressure data during reentry, providing critical information for mission safety assessment.
+## Heat Shield Sensor Development
 
-Ames also contributed to Orion's 3D-MAT compression pads, which connect the crew module to the service module. This technology maintains structural strength under extreme heat while providing thermal insulation for the spacecraft. Developed through NASA's Small Business Innovation Research / Small Business Technology Transfer (SBIR/STTR) program, 3D-MAT demonstrates how NASA innovations can impact human spaceflight and beyond.
+During the Artemis I mission, Orion's heat shield experienced more char loss than expected, caused by internal gas buildup during reentry. Ames engineers developed a suite of sensors to provide heat shield performance data during Artemis II reentry, including temperature and pressure information. The Ames team also contributed to analysis of potential abort scenarios to ensure mission safety.
 
-## SLS Rocket Strakes: Wind Tunnels and Supercomputers
+## SLS Rocket Vibration Analysis
 
-During Artemis I, the Space Launch System (SLS) rocket experienced higher-than-expected vibrations near the solid rocket booster attach points. The Ames team validated the solution—adding four strakes (thin, fin-like structures) to the SLS core stage—through supercomputer modeling and advanced wind tunnel testing using Unsteady Pressure Sensitive Paint and high-speed cameras.
+During Artemis I, the Space Launch System (SLS) rocket experienced higher-than-expected vibrations near the solid rocket booster attach points. The Ames Aerosciences team provided support in analysis and verification to help determine vibration causes and recommend improvements. The team also reviewed potential debris impacts and analyzed the impact of strengthening parts of the vehicle after larger-than-expected debris was observed during Artemis I.
 
-The team also analyzed larger-than-expected debris impacts observed during Artemis I and supported real-time aerodynamic data and debris analysis monitoring during launch operations.
+## Combining Wind Tunnel and Computational Testing
 
-## Lunar Science Observations: Training Astronaut Eyes
+Ames' collaboration between wind tunnel engineers, data visualization scientists, and software developers delivered a quick, cost-effective solution that combines physical testing with computational modeling, providing critical technical verification support for the Artemis II mission.
 
-As members of the Artemis II lunar science team, Ames scientists collaborated with flight operations at NASA's Johnson Space Center to guide the crew through lunar observations during the flyby. Key science objectives included studying lunar color, impact history, tectonic features, and future landing sites, as well as characterizing dynamic events such as impact flashes.
+## Crew Science Training
 
-Ames scientists spent several years training the Artemis II crew to use their eyes—remarkably sensitive instruments—to observe, describe, and interpret geologic variations in lunar features. A timeline of targeted observations built by the lunar science team guided the crew to describe and photograph specific lunar targets, including craters, volcanic formations, and surface colorations.
+Ames scientists were members of the Artemis II lunar science team, training the crew over several years to use their eyes—remarkably sensitive instruments—to observe, describe, and interpret lunar surface features on the far side of the Moon. Astronauts performed far-side observations during the mission, and this data will help plan future lunar exploration missions.
 
-## Mission Assurance: Software and Simulation Tools
+## Mission Assurance and Software Systems
 
-Ames supported mission assurance through its Mission and Fault Management team, which helps NASA anticipate and respond to potential problems through system testing, software verification, and simulation scenario testing. The Cross-Program Integrated Data Systems team at Ames developed a suite of software products to support flight readiness, risk assessment, and decision making.
+Ames' Mission and Fault Management team supported mission assurance, helping the agency anticipate and respond to potential problems by testing systems and verifying software. The Cross-Program Integrated Data Systems team at Ames developed a suite of software products to support flight readiness, risk assessment, and decision making up to the moment of launch.
 
-During Artemis II, Ames experts served as backup console operators and contributed to real-time analysis. Currently, Ames experts are heavily involved in post-flight data analysis assessing the performance of the Mission and Fault Management logic during the Artemis II flight.
+## Artemis II Mission Recap
 
----
+Artemis II was the first time astronauts traveled to lunar orbit since Apollo 17 in December 1972. The crew made observations on the far side of the Moon that will help prepare for future lunar exploration, then began a four-day journey home. The mission successfully demonstrated the systems and hardware needed for NASA's future crewed lunar landing missions, laying the foundation for Artemis III.
 
-## Sources (Original Pages)
+## Sources (original pages)
 
-- [What Are Ames' Contributions to Artemis II? - NASA](https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/)
-- [Artemis II Mission Milestones: An Image and Video Recap - NASA](https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/)
+- [What Are Ames' Contributions to Artemis II?](https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/)

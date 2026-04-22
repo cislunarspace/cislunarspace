@@ -1,57 +1,61 @@
 ---
 layout: SpaceNewsArticle
-title: "NASA Ames 为 Artemis II 任务的多项关键技术提供支撑"
-description: "NASA Ames 研究中心为 Artemis II 任务开发了隔热罩传感器、 SLS 火箭整流罩和猎户座飞船轨道计算等多项关键技术，确保宇航员安全返回地球。"
+title: "NASA 艾姆斯研究中心为 Artemis II 任务做出哪些贡献"
+description: "NASA 艾姆斯研究中心（Ames Research Center）在 Artemis II 任务中发挥了关键作用，涵盖猎户座飞船热防护传感器、 SLS 火箭振动分析、乘组科学训练等多个领域。"
 permalink: /space-news/2026/04/2026-04-21-nasa-ames-artemis-ii/
 author: 天疆说
 date: 2026-04-21
 lastUpdated: 2026-04-22
 category: artemis
-image: ./figures/2026-04-21-nasa-ames-artemis-ii/hero.webp
+image: ./figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg
 tags:
   - NASA
-  - Ames
-  - Artemis
+  - 艾姆斯研究中心
   - Artemis II
-  - 猎户座
+  - 猎户座飞船
   - SLS
+  - 月球
+wechatShare:
+  title: "NASA 艾姆斯研究中心为 Artemis II 任务做出哪些贡献"
+  desc: "NASA 艾姆斯研究中心在 Artemis II 任务中发挥了关键作用，涵盖猎户座飞船热防护传感器、SLS 火箭振动分析、乘组科学训练等多个领域。"
+  image: "./figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg"
 ---
 
-# NASA Ames 为 Artemis II 任务的多项关键技术提供支撑
+# NASA 艾姆斯研究中心为 Artemis II 任务做出哪些贡献
 
-**摘要：** NASA Ames 研究中心在 Artemis II 任务中发挥了关键作用，涵盖猎户座飞船隔热罩传感器研发、SLS 火箭整流罩空气动力学分析，以及月球飞越期间的科学观测指导等多个领域。这些技术保障了宇航员在 5,000 华氏度高温再入大气层时的安全，并为未来载人登月任务积累了宝贵数据。
+**摘要：** 2026 年 4 月 1 日，NASA 执行了 Artemis II 载人绕月飞行任务，这是 50 多年来人类首次重返月球轨道。NASA 艾姆斯研究中心（ Ames Research Center）为此次任务做出了多方面的重要贡献，包括热防护传感器研发、火箭振动分析、乘组科学训练等关键环节。
 
-![Artemis II 宇航员在奥克斯纳德号两栖攻击舰上合影（NASA/Bill Ingalls）](./figures/2026-04-21-nasa-ames-artemis-ii/hero.webp)
+![Artemis II 任务期间猎户座飞船视角（NASA 图像）](./figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg)
+*Credit: NASA*
 
-*Credit: NASA / Bill Ingalls（公共领域）*
+## 任务概述
 
-## 隔热罩传感器：再入大气的数据保障
+Artemis II 是 NASA Artemis 计划的首次载人试飞，2026 年 4 月 1 日发射，四名航天员搭乘猎户座飞船完成了为期约 10 天的绕月飞行。飞船于 4 月 11 日安全溅落太平洋，圆满完成预期目标。艾姆斯研究中心在该任务的多个技术环节发挥了重要作用。
 
-Artemis II 任务中，猎户座飞船以约 25,000 英里/小时的速度再入大气层，隔热罩表面温度高达 5,000 华氏度。Ames 工程师研发了一套传感器套件，在再入过程中实时测量隔热罩的温度和压力数据，为任务安全评估提供关键依据。
+## 热防护传感器研发
 
-此外，Ames 还参与了猎户座飞船 3D-MAT 压缩垫的研发，这种连接指令舱与服务舱的材料能在极端高温下保持结构强度，同时为飞船提供隔热保护。该技术由 NASA 小企业创新研究计划（SBIR/STTR）支持开发，展示了 NASA 技术转化至载人航天的能力。
+Artemis I 任务中，猎户座飞船的隔热罩烧蚀量超出预期，原因是再入大气层时舱内气体积累。艾姆斯工程师研发了一套传感器阵列，在 Artemis II 再入大气层期间提供热防护性能数据，包括温度和压力信息。艾姆斯团队还参与了潜在的发射中止场景分析，为任务安全提供保障。
 
-## SLS 火箭整流罩：风洞与超级计算机的协同验证
+## SLS 火箭振动分析
 
-Artemis I 任务中，SLS 火箭的固体助推器与芯级连接处出现了高于预期的振动。Ames 团队通过超级计算机模拟和先进风洞试验（包括非稳态压力敏感涂料和高速相机测试），验证了在 SLS 芯级添加四片整流罩这一解决方案的有效性。这些薄片状结构能改变气流、减少振动，显著提升 Artemis II 发射安全性。
+Artemis I 任务中，Space Launch System（SLS）火箭在固体助推器与芯级连接区域出现了高于预期的振动。艾姆斯气动团队支持了相关分析和验证工作，帮助确定振动原因并提出改进建议。团队还审查了潜在的碎片撞击问题，并在 Artemis I 观察到大于预期的碎片后，分析了火箭结构加强方案。
 
-团队还分析了 Artemis I 发射后观察到的较大碎片撞击问题，并支持了发射现场的空气动力学数据和碎片分析实时监测。
+## 计算与风洞测试融合
 
-## 月球科学观测：培训宇航员"眼睥"
+艾姆斯研究中心的风洞工程师、数据可视化科学家和软件开发人员团队协作，提供了结合物理测试与计算模型的快速、成本效益高的解决方案，为 Artemis II 任务的技术验证提供了重要支撑。
 
-作为 Artemis II 月球科学团队的成员，Ames 科学家与约翰逊航天中心任务控制团队合作，为宇航员提供月球飞越期间的科学观测指导。观测目标包括月球颜色、撞击历史、构造特征和未来着陆点选址，以及撞击闪光等动态事件。
+## 乘组科学训练
 
-Ames 科学家团队经过数年培训，教授宇航员使用肉眼——这一极其精密的仪器——观察、描述和解读月球特征。任务期间，科学团队预先制定的观测时间表引导宇航员对撞击坑、火山构造和表面颜色等特定目标进行详细记录。
+Artemis II 乘组的科学训练由 NASA 艾姆斯研究中心的科学家深度参与。团队多年来训练航天员使用其"眼睛"——这一极其灵敏的仪器——来观察、描述和理解月球远侧的地表特征。航天员在任务期间进行了月球远侧观测，这些数据将有助于未来月球探索任务的规划。
 
-## 任务保障：软件与仿真工具
+## 任务保障与软件系统
 
-Ames 的任务与故障管理团队通过系统测试、软件验证和仿真场景创建，支持 NASA 预测和应对潜在问题。跨项目综合数据系统团队开发了一套软件产品，支持飞行就绪状态评估、风险评估和发射决策。
+艾姆斯研究中心的任务与故障管理团队（Mission and Fault Management Team）支持任务保障工作，帮助 NASA 预测和应对潜在问题，测试系统并验证软件。跨项目综合数据系统团队（Cross-Program Integrated Data Systems）开发了一套软件产品，用于支持飞行就绪状态评估、风险决策，直至发射时刻。
 
-Artemis II 任务期间，Ames 专家担任备份飞控操作员并参与实时分析，帮助 NASA 快速响应意外情况。目前，Ames 专家正深度参与飞行后数据分析，评估任务保障逻辑的性能表现。
+## Artemis II 任务回顾
 
----
+Artemis II 是自阿波罗 17 号（1972 年 12 月）以来首次有航天员前往月球轨道的任务。航天员在月球远侧飞行时进行了观测，并开始了为期四天的返程之旅。任务成功展示了 NASA 实现未来载人登月所需系统和硬件的可靠性，为 Artemis III 载人登月任务奠定了基础。
 
 ## 信息来源（原文）
 
-- [What Are Ames' Contributions to Artemis II? - NASA](https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/)
-- [Artemis II Mission Milestones: An Image and Video Recap - NASA](https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/)
+- [What Are Ames' Contributions to Artemis II?](https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/)
