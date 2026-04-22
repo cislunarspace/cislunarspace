@@ -66,6 +66,162 @@
       "image": null
     },
     {
+      "relativePath": "space-news/2025/04/2025-04-01-spacex-fram2.md",
+      "path": "/space-news/2025/04/2025-04-01-spacex-fram2/",
+      "title": "SpaceX Fram2任务创造历史",
+      "description": "2025年4月1日，SpaceX Fram2任务从肯尼迪航天中心成功发射，创造历史——这是人类首次有宇航员乘坐飞船进入极地轨道。",
+      "date": "2025-04-01",
+      "lastUpdated": "2025-04-01",
+      "author": "天疆说",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/04/2025-04-24-shenzhou-20.md",
+      "path": "/space-news/2025/04/2025-04-24-shenzhou-20/",
+      "title": "神舟二十号载人飞船成功发射",
+      "description": "2025年4月24日，神舟二十号载人飞船在酒泉卫星发射中心成功发射，将神舟二十号航天员乘组送入太空，与天宫空间站对接。",
+      "date": "2025-04-24",
+      "lastUpdated": "2025-04-24",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2025/04/figures/2025-04-24-shenzhou-20/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2025/05/2025-05-27-starship-flight-9.md",
+      "path": "/space-news/2025/05/2025-05-27-starship-flight-9/",
+      "title": "SpaceX星舰第九次飞行遭遇失利",
+      "description": "2025年5月27日，SpaceX星舰第九次飞行（IFT-9）在执行过程中遭遇失利，发射后未能完成预定任务目标。",
+      "date": "2025-05-27",
+      "lastUpdated": "2025-05-27",
+      "author": "天疆说",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/05/2025-05-28-tianwen-2.md",
+      "path": "/space-news/2025/05/2025-05-28-tianwen-2/",
+      "title": "天问二号探测器成功发射",
+      "description": "2025年5月28日，天问二号探测器由长征三号乙运载火箭在西昌卫星发射中心成功发射，开启中国首次小行星采样返回任务。",
+      "date": "2025-05-28",
+      "lastUpdated": "2025-05-28",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2025/05/figures/2025-05-28-tianwen-2/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2025/07/2025-07-14-tianzhou-9.md",
+      "path": "/space-news/2025/07/2025-07-14-tianzhou-9/",
+      "title": "天舟九号货运飞船成功发射",
+      "description": "2025年7月14日，天舟九号货运飞船由长征七号运载火箭在中国文昌航天发射场成功发射，为天宫空间站送去补给物资。",
+      "date": "2025-07-14",
+      "lastUpdated": "2025-07-14",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/08/2025-08-01-spacex-crew-11.md",
+      "path": "/space-news/2025/08/2025-08-01-spacex-crew-11/",
+      "title": "SpaceX Crew-11载人飞船发射成功",
+      "description": "2025年8月1日，SpaceX Crew-11载人任务从肯尼迪航天中心成功发射，将4名宇航员送往国际空间站。",
+      "date": "2025-08-01",
+      "lastUpdated": "2025-08-01",
+      "author": "天疆说",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/08/2025-08-26-starship-flight-10.md",
+      "path": "/space-news/2025/08/2025-08-26-starship-flight-10/",
+      "title": "SpaceX星舰第十次飞行成功",
+      "description": "2025年8月26日，SpaceX星舰第十次综合测试飞行（IFT-10）成功完成，火箭成功实现受控着陆。",
+      "date": "2025-08-26",
+      "lastUpdated": "2025-08-26",
+      "author": "天疆说",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/10/2025-10-11-gravity-1.md",
+      "path": "/space-news/2025/10/2025-10-11-gravity-1/",
+      "title": "引力一号运载火箭首飞成功",
+      "description": "2025年10月11日，东方空间引力一号（Gravity-1）运载火箭在山东海阳近地轨道发射场首飞成功，将3颗卫星送入轨道，创造了中国民营运载火箭一次性发射卫星数量纪录。",
+      "date": "2025-10-11",
+      "lastUpdated": "2025-10-11",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/10/2025-10-13-starship-flight-11.md",
+      "path": "/space-news/2025/10/2025-10-13-starship-flight-11/",
+      "title": "SpaceX星舰第十一次飞行成功",
+      "description": "2025年10月13日，SpaceX星舰第十一次综合测试飞行（IFT-11）成功完成，火箭及飞船均实现受控回收。",
+      "date": "2025-10-13",
+      "lastUpdated": "2025-10-13",
+      "author": "天疆说",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/11/2025-11-13-new-glenn-escapade.md",
+      "path": "/space-news/2025/11/2025-11-13-new-glenn-escapade/",
+      "title": "Blue Origin新格伦号首次执行任务",
+      "description": "2025年11月13日，Blue Origin新格伦号运载火箭从卡纳维拉尔角成功首飞，将NASA的EscaPADE探测器送入火星转移轨道。",
+      "date": "2025-11-13",
+      "lastUpdated": "2025-11-13",
+      "author": "天疆说",
+      "category": [
+        "commercial"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/11/2025-11-25-shenzhou-22.md",
+      "path": "/space-news/2025/11/2025-11-25-shenzhou-22/",
+      "title": "神舟二十二号载人飞船成功发射",
+      "description": "2025年11月25日，神舟二十二号载人飞船在酒泉卫星发射中心成功发射，将新一批航天员送入太空，与天宫空间站对接。",
+      "date": "2025-11-25",
+      "lastUpdated": "2025-11-25",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2025/12/2025-12-03-zhuque-3.md",
+      "path": "/space-news/2025/12/2025-12-03-zhuque-3/",
+      "title": "朱雀三号运载火箭首飞成功",
+      "description": "2025年12月3日，蓝箭航天朱雀三号（Zhuque-3）运载火箭在酒泉卫星发射中心首飞成功，中国商业航天再获突破。",
+      "date": "2025-12-03",
+      "lastUpdated": "2025-12-03",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
       "relativePath": "space-news/2026/01/2026-01-blue-origin-pauses-tourism.md",
       "path": "/space-news/2026/01/2026-01-blue-origin-pauses-tourism/",
       "title": "Blue Origin 宣布暂停新谢泼德亚轨道旅游飞行",
@@ -1628,6 +1784,162 @@
       "author": "Tianjiangshuo",
       "category": [
         "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/04/2025-04-01-spacex-fram2.md",
+      "path": "/en/space-news/2025/04/2025-04-01-spacex-fram2/",
+      "title": "SpaceX Fram2 Mission Makes History",
+      "description": "On April 1, 2025, SpaceX's Fram2 mission successfully launched from Kennedy Space Center — the first time humans traveled to a polar orbit aboard a spacecraft.",
+      "date": "2025-04-01",
+      "lastUpdated": "2025-04-01",
+      "author": "Tianjiangshuo",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/04/2025-04-24-shenzhou-20.md",
+      "path": "/en/space-news/2025/04/2025-04-24-shenzhou-20/",
+      "title": "Shenzhou 20 Crewed Spacecraft Successfully Launched",
+      "description": "On April 24, 2025, China's Shenzhou 20 crewed spacecraft was successfully launched from the Jiuquan Satellite Launch Center, carrying astronauts to the Tiangong Space Station.",
+      "date": "2025-04-24",
+      "lastUpdated": "2025-04-24",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/05/2025-05-27-starship-flight-9.md",
+      "path": "/en/space-news/2025/05/2025-05-27-starship-flight-9/",
+      "title": "SpaceX Starship Flight 9 Experiences Setback",
+      "description": "On May 27, 2025, SpaceX's Starship Flight 9 (IFT-9) experienced an anomaly during flight and did not complete all planned mission objectives.",
+      "date": "2025-05-27",
+      "lastUpdated": "2025-05-27",
+      "author": "Tianjiangshuo",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/05/2025-05-28-tianwen-2.md",
+      "path": "/en/space-news/2025/05/2025-05-28-tianwen-2/",
+      "title": "Tianwen-2 Probe Successfully Launched",
+      "description": "On May 28, 2025, China's Tianwen-2 probe was successfully launched aboard a Long March 3B rocket from the Xichang Satellite Launch Center, beginning China's first asteroid sample return mission.",
+      "date": "2025-05-28",
+      "lastUpdated": "2025-05-28",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2025/05/figures/2025-05-28-tianwen-2/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2025/07/2025-07-14-tianzhou-9.md",
+      "path": "/en/space-news/2025/07/2025-07-14-tianzhou-9/",
+      "title": "Tianzhou-9 Cargo Spacecraft Successfully Launched",
+      "description": "On July 14, 2025, Tianzhou-9 cargo spacecraft was successfully launched aboard a Long March 7 rocket from the Wenchang Space Launch Site in China, delivering supplies to the Tiangong Space Station.",
+      "date": "2025-07-14",
+      "lastUpdated": "2025-07-14",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/08/2025-08-01-spacex-crew-11.md",
+      "path": "/en/space-news/2025/08/2025-08-01-spacex-crew-11/",
+      "title": "SpaceX Crew-11 Successfully Launched",
+      "description": "On August 1, 2025, SpaceX's Crew-11 mission successfully launched from Kennedy Space Center, carrying 4 astronauts to the International Space Station.",
+      "date": "2025-08-01",
+      "lastUpdated": "2025-08-01",
+      "author": "Tianjiangshuo",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/08/2025-08-26-starship-flight-10.md",
+      "path": "/en/space-news/2025/08/2025-08-26-starship-flight-10/",
+      "title": "SpaceX Starship Flight 10 Achieves Success",
+      "description": "On August 26, 2025, SpaceX's Starship Flight 10 (IFT-10) successfully completed all primary objectives, with the rocket achieving a controlled landing.",
+      "date": "2025-08-26",
+      "lastUpdated": "2025-08-26",
+      "author": "Tianjiangshuo",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/10/2025-10-11-gravity-1.md",
+      "path": "/en/space-news/2025/10/2025-10-11-gravity-1/",
+      "title": "Gravity-1 Rocket Achieves Maiden Flight Success",
+      "description": "On October 11, 2025, the Gravity-1 rocket developed by Orienspace successfully completed its maiden flight from a coastal launch site in Haiyang, Shandong Province, placing 3 satellites into orbit.",
+      "date": "2025-10-11",
+      "lastUpdated": "2025-10-11",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/10/2025-10-13-starship-flight-11.md",
+      "path": "/en/space-news/2025/10/2025-10-13-starship-flight-11/",
+      "title": "SpaceX Starship Flight 11 Achieves Success",
+      "description": "On October 13, 2025, SpaceX's Starship Flight 11 (IFT-11) successfully completed all primary objectives, with both the rocket and spacecraft achieving controlled recovery.",
+      "date": "2025-10-13",
+      "lastUpdated": "2025-10-13",
+      "author": "Tianjiangshuo",
+      "category": [
+        "spacex"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/11/2025-11-13-new-glenn-escapade.md",
+      "path": "/en/space-news/2025/11/2025-11-13-new-glenn-escapade/",
+      "title": "Blue Origin's New Glenn Completes First Mission",
+      "description": "On November 13, 2025, Blue Origin's New Glenn rocket successfully completed its first operational mission, launching NASA's EscaPADE Mars probe.",
+      "date": "2025-11-13",
+      "lastUpdated": "2025-11-13",
+      "author": "Tianjiangshuo",
+      "category": [
+        "commercial"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/11/2025-11-25-shenzhou-22.md",
+      "path": "/en/space-news/2025/11/2025-11-25-shenzhou-22/",
+      "title": "Shenzhou 22 Crewed Spacecraft Successfully Launched",
+      "description": "On November 25, 2025, China's Shenzhou 22 crewed spacecraft was successfully launched from the Jiuquan Satellite Launch Center, carrying a new crew of astronauts to the Tiangong Space Station.",
+      "date": "2025-11-25",
+      "lastUpdated": "2025-11-25",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2025/12/2025-12-03-zhuque-3.md",
+      "path": "/en/space-news/2025/12/2025-12-03-zhuque-3/",
+      "title": "Zhuque-3 Rocket Achieves Maiden Flight Success",
+      "description": "On December 3, 2025, LandSpace's Zhuque-3 rocket successfully completed its maiden flight from the Jiuquan Satellite Launch Center, marking another breakthrough in China's commercial space sector.",
+      "date": "2025-12-03",
+      "lastUpdated": "2025-12-03",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
       ],
       "image": null
     },
