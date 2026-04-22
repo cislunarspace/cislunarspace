@@ -1,18 +1,24 @@
 import type { SidebarConfig } from 'vuepress'
 import autoSidebar from './sidebar.auto.json'
+import { wayfindingZhGroup } from './sidebar-shared.js'
 
-const mainSidebar = [
+const mainSidebarContent = [
   {
-    text: '地月空间是什么',
-    collapsible: true,
+    text: '地月空间是什么（环境与概念入门）',
+    collapsible: false,
     children: [
       '/what-is-cislunarspace/',
       '/what-is-cislunarspace/environment',
     ],
   },
   {
-    text: '地月空间科学研究前沿',
-    collapsible: true,
+    text: '地月空间飞行器运行轨道（任务轨道基础）',
+    collapsible: false,
+    children: ['/cislunar-orbits/'],
+  },
+  {
+    text: '地月空间科学研究前沿（方向 · 机构 · 项目）',
+    collapsible: false,
     children: [
       '/research-frontiers/',
       {
@@ -51,18 +57,14 @@ const mainSidebar = [
       '/research-frontiers/major-projects',
     ],
   },
-  {
-    text: '地月空间飞行器运行轨道',
-    collapsible: true,
-    children: [
-      '/cislunar-orbits/',
-    ],
-  },
 ]
 
+const mainSidebar = [wayfindingZhGroup, ...mainSidebarContent]
+
 const glossarySidebar = [
+  wayfindingZhGroup,
   {
-    text: '地月空间术语词典',
+    text: '地月空间术语词典（定义与概念检索）',
     collapsible: false,
     children: [
       '/glossary/',
@@ -78,25 +80,21 @@ const glossarySidebar = [
       {
         text: '任务轨道',
         collapsible: true,
-        children: [
-          '/glossary/dro',
-          '/glossary/nrho',
-        ],
+        children: ['/glossary/dro', '/glossary/nrho'],
       },
       {
         text: '导航技术',
         collapsible: true,
-        children: [
-          '/glossary/xray-pulsar-navigation',
-        ],
+        children: ['/glossary/xray-pulsar-navigation'],
       },
     ],
   },
 ]
 
 const resourcesToolsSidebar = [
+  wayfindingZhGroup,
   {
-    text: '资源与工具',
+    text: '资源与工具（数据、代码与数据集）',
     collapsible: false,
     children: [
       '/resources-tools/',
@@ -108,11 +106,12 @@ const resourcesToolsSidebar = [
   },
 ]
 
-const spaceNewsSidebar = autoSidebar.zh
+const spaceNewsSidebar: SidebarConfig[''] = []
 
 const blueTeamResearchSidebar = [
+  wayfindingZhGroup,
   {
-    text: '蓝军研究',
+    text: '蓝军研究（条令 · 装备 · 场景 · 知识库）',
     collapsible: false,
     children: [
       '/blue-team-research/',
@@ -166,11 +165,22 @@ const blueTeamResearchSidebar = [
   },
 ]
 
+const satelliteSimulationSidebar = [
+  wayfindingZhGroup,
+  {
+    text: '卫星轨道仿真教学平台',
+    collapsible: false,
+    children: ['/satellite-simulation/'],
+  },
+]
+
 export default <SidebarConfig>{
   '/glossary/': glossarySidebar,
   '/resources-tools/': resourcesToolsSidebar,
   '/blue-team-research/': blueTeamResearchSidebar,
   '/space-news/': spaceNewsSidebar,
+  '/en/space-news/': spaceNewsSidebar,
+  '/satellite-simulation/': satelliteSimulationSidebar,
   '/what-is-cislunarspace/': mainSidebar,
   '/cislunar-orbits/': mainSidebar,
   '/research-frontiers/': mainSidebar,

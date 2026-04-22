@@ -1,24 +1,72 @@
 <template>
-  <Layout>
+  <Layout :class="{ 'sn-layout-wrapper': isSpaceNews }">
     <template #page-bottom>
       <CopyPageButton />
       <Footer />
     </template>
   </Layout>
+  <SpaceNewsSidebar v-if="isSpaceNews" />
   <PageSidebar />
-  <PageToc />
+  <PageToc v-if="!isSpaceNews" />
   <SidebarToggle />
 </template>
 
+<style lang="scss">
+/* ---- 页面切换淡入 ---- */
+.page {
+  animation: pageFadeIn 0.35s var(--ease-smooth);
+}
+
+@keyframes pageFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---- 侧边栏展开/收起 ---- */
+.sidebar-container {
+  transition: transform 0.35s var(--ease-out-expo), opacity 0.3s var(--ease-smooth) !important;
+}
+
+.theme-container {
+  transition: padding-left 0.35s var(--ease-out-expo);
+}
+
+/* ---- 导航栏下拉菜单 ---- */
+.nav-dropdown {
+  animation: dropdownIn 0.2s var(--ease-out-expo);
+}
+
+@keyframes dropdownIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---- Space News 页面：桌面端隐藏原生侧边栏 ---- */
+@media (min-width: 960px) {
+  .sn-layout-wrapper ~ .vp-sidebar,
+  .sn-layout-wrapper .vp-sidebar {
+    display: none !important;
+  }
+}
+</style>
+
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount } from 'vue'
+import { onMounted, onBeforeUnmount, computed } from 'vue'
+import { useRoute } from 'vue-router'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
+import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue'
 import PageSidebar from '../components/ExtraSidebar.vue'
 import PageToc from '../components/PageToc.vue'
 import SidebarToggle from '../components/SidebarToggle.vue'
 import CopyPageButton from '../components/CopyPageButton.vue'
 import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy'
+
+const route = useRoute()
+const isSpaceNews = computed(() => {
+  const p = route.path
+  return p.startsWith('/space-news/') || p.startsWith('/en/space-news/')
+})
 
 onMounted(() => {
   setupMathCopy()
@@ -46,12 +94,15 @@ onBeforeUnmount(() => {
   height: 28px;
   padding: 0;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   background: transparent;
   color: var(--c-text-lighter);
   cursor: pointer;
   opacity: 0;
-  transition: opacity 0.2s, color 0.2s, background 0.2s;
+  transition: opacity 0.25s var(--ease-smooth),
+              color 0.25s var(--ease-smooth),
+              background 0.25s var(--ease-smooth),
+              transform 0.2s var(--ease-smooth);
 }
 
 .math-block-wrapper:hover .math-copy-btn {
@@ -64,7 +115,8 @@ onBeforeUnmount(() => {
 }
 
 .math-copy-btn.copied {
-  color: #3eaf7c;
+  color: var(--c-brand);
+  transform: translateY(-50%) scale(1.1);
 }
 
 @media (max-width: 768px) {
@@ -99,18 +151,34 @@ onBeforeUnmount(() => {
   flex-wrap: nowrap;
 }
 
-html.sidebar-hidden {
-  --sidebar-width: 0;
+/* ============================================
+   桌面端侧边栏隐藏/显示（重构）
+   ============================================ */
+@media (min-width: 960px) {
+  html.sidebar-hidden {
+    /* ---- 侧边栏滑出 ---- */
+    .vp-sidebar {
+      transform: translateX(-100%);
+      opacity: 0;
+      pointer-events: none;
+    }
 
-  .sidebar-container,
-  .sidebar-mask {
-    transform: translateX(-100%);
-    opacity: 0;
-    pointer-events: none;
+    /* ---- 内容区域扩展 ---- */
+    .vp-page {
+      padding-inline-start: 0;
+    }
+
+    /* ---- 内容区在宽屏下增加呼吸空间 ---- */
+    .vp-page [vp-content] {
+      padding-inline: 3rem;
+    }
   }
+}
 
-  .theme-container {
-    padding-left: 0;
+/* ---- 移动端：禁止桌面端隐藏逻辑干扰 ---- */
+@media (max-width: 959px) {
+  .sidebar-toggle-btn {
+    display: none !important;
   }
 }
 </style>

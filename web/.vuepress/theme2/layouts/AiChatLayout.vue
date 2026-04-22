@@ -10,11 +10,11 @@
   inset: 0;
   z-index: 100;
   overflow: hidden;
-  background: #fff;
+  background: linear-gradient(165deg, #f0f9ff 0%, #f8fafc 38%, #ffffff 100%);
 }
 
 html[data-chat-theme="dark"] .ai-chat-layout {
-  background: #212121;
+  background: linear-gradient(165deg, #0c1222 0%, #0f172a 45%, #111827 100%);
 }
 
 .ai-chat-layout .theme-default-content,

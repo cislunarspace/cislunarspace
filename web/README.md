@@ -61,18 +61,7 @@ wechatShare:
 </div>
 
 <div style="text-align: center; margin: 40px 0;">
-  <a href="/ai-chat" class="start-learning-btn" style="
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #3eaf7c;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(62, 175, 124, 0.2);
-  ">
+  <a href="/ai-chat" class="start-learning-btn">
     开始AI问答 →
   </a>
 </div>
@@ -93,34 +82,52 @@ wechatShare:
   .module-card {
     display: block;
     padding: 20px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 12px;
     text-decoration: none;
     color: inherit;
-    transition: all 0.2s ease;
+    background: var(--vp-c-bg);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+                border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   }
   .module-card:hover {
-    border-color: #3eaf7c;
-    box-shadow: 0 4px 12px rgba(62, 175, 124, 0.15);
-    transform: translateY(-2px);
+    border-color: var(--vp-c-accent);
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.25);
+    transform: translateY(-4px);
   }
   .module-card h3 {
     margin: 0 0 8px 0;
     font-size: 16px;
-    color: #2c3e50;
+    color: var(--vp-c-text);
+    transition: color 0.2s;
+  }
+  .module-card:hover h3 {
+    color: var(--vp-c-accent);
   }
   .module-card p {
     margin: 0;
     font-size: 14px;
-    color: #666;
+    color: var(--vp-c-text-subtle);
+  }
+  .start-learning-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
   }
   .start-learning-btn:hover {
-    background-color: #2d9c6a;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(62, 175, 124, 0.3);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.25);
   }
   .start-learning-btn:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(62, 175, 124, 0.2);
+    transform: translateY(-1px) scale(0.98);
   }
 </style>

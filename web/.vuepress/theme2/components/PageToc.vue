@@ -187,12 +187,17 @@ watch(
 
 .page-toc-inner {
   padding: 16px;
-  border-left: 1px solid var(--c-border, #eaecef);
+  border-left: 2px solid var(--c-border, #eaecef);
   max-height: calc(100vh - var(--navbar-height, 3.6rem) - 4rem);
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+  scrollbar-color: var(--scrollbar-thumb, #cbd5e1) transparent;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-left-color: var(--c-brand);
+  }
 
   &::-webkit-scrollbar {
     width: 4px;
@@ -201,8 +206,11 @@ watch(
     background: transparent;
   }
   &::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: var(--scrollbar-thumb, #cbd5e1);
     border-radius: 2px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover, #94a3b8);
   }
 }
 
@@ -253,15 +261,21 @@ watch(
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  transition: color 0.2s;
+  transition: color 0.25s var(--ease-smooth), padding-left 0.25s var(--ease-out-expo);
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-left: -6px;
 
   &:hover {
-    color: var(--c-brand, #42b983);
+    color: var(--c-brand, #0ea5e9);
+    background: var(--c-accent-soft, rgba(14,165,233,0.06));
   }
 
   &.active {
-    color: var(--c-brand, #42b983);
+    color: var(--c-brand, #0ea5e9);
     font-weight: 600;
+    background: var(--c-accent-soft, rgba(14,165,233,0.06));
+    padding-left: 10px;
   }
 }
 

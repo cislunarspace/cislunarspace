@@ -1,10 +1,10 @@
 <template>
   <main class="sn-home">
-    <header class="sn-hero">
+    <header class="sn-hero star-bg">
       <div class="sn-hero__inner">
-        <p class="sn-hero__kicker">{{ labels.kicker }}</p>
-        <h1 class="sn-hero__title">{{ labels.title }}</h1>
-        <p class="sn-hero__lead">{{ labels.lead }}</p>
+        <p class="sn-hero__kicker scroll-reveal">{{ labels.kicker }}</p>
+        <h1 class="sn-hero__title scroll-reveal scroll-reveal-delay-1">{{ labels.title }}</h1>
+        <p class="sn-hero__lead scroll-reveal scroll-reveal-delay-2">{{ labels.lead }}</p>
       </div>
     </header>
 
@@ -35,13 +35,13 @@
         </div>
       </div>
 
-      <section class="sn-section">
+      <section class="sn-section scroll-reveal">
         <div class="sn-section__head">
           <h2 class="sn-section__title">{{ labels.latest }}</h2>
           <router-link class="sn-section__more" :to="archivePath">{{ labels.viewAll }}</router-link>
         </div>
         <ul class="sn-grid">
-          <li v-for="item in latestItems" :key="item.path" class="sn-grid__cell">
+          <li v-for="(item, idx) in latestItems" :key="item.path" class="sn-grid__cell scroll-reveal" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
                 <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
@@ -60,7 +60,7 @@
         </ul>
       </section>
 
-      <section v-for="sec in categorySections" :key="sec.key" class="sn-section">
+      <section v-for="(sec, secIdx) in categorySections" :key="sec.key" class="sn-section scroll-reveal" :class="`scroll-reveal-delay-${(secIdx % 2) + 1}`">
         <div class="sn-section__head">
           <h2 class="sn-section__title">
             <span class="sn-section__dot" :style="{ background: catColor(sec.key) }"></span>
@@ -69,7 +69,7 @@
           <router-link class="sn-section__more" :to="archivePath + '#' + sec.key">{{ labels.viewMore }}</router-link>
         </div>
         <ul class="sn-grid">
-          <li v-for="item in sec.items" :key="item.path" class="sn-grid__cell">
+          <li v-for="(item, idx) in sec.items" :key="item.path" class="sn-grid__cell scroll-reveal" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
                 <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
@@ -245,13 +245,14 @@ function formatDate(raw: string | null) {
 .sn-home {
   width: 100%;
   min-height: 60vh;
-  background: #f6f7f9;
+  background: var(--c-bg-light, #f6f7f9);
 }
 
 .sn-hero {
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 55%, #0c4a6e 100%);
+  background: linear-gradient(135deg, #0b1220 0%, #0f2847 40%, #0c4a6e 100%);
   color: #fff;
   padding: 2.5rem 1.25rem 2.75rem;
+  position: relative;
 }
 
 .sn-hero__inner {
@@ -261,9 +262,9 @@ function formatDate(raw: string | null) {
 
 .sn-hero__kicker {
   font-size: 0.75rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  opacity: 0.85;
+  opacity: 0.8;
   margin: 0 0 0.5rem;
 }
 
@@ -273,6 +274,7 @@ function formatDate(raw: string | null) {
   line-height: 1.15;
   margin: 0 0 0.75rem;
   letter-spacing: -0.02em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
 }
 
 .sn-hero__lead {
@@ -326,18 +328,19 @@ function formatDate(raw: string | null) {
 .sn-featured__link {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: #fff;
+  background: var(--c-bg, #fff);
   border-radius: 12px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
-  border: 1px solid rgba(15, 23, 42, 0.06);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--c-border);
+  transition: transform 0.35s var(--ease-out-expo),
+              box-shadow 0.35s var(--ease-out-expo);
 
   &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
   }
 
   @media (max-width: 719px) {
@@ -371,7 +374,7 @@ function formatDate(raw: string | null) {
 .sn-featured__deck {
   font-size: 1rem;
   line-height: 1.55;
-  color: #475569;
+  color: var(--c-text-light, #475569);
   margin: 0 0 1rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -397,7 +400,7 @@ function formatDate(raw: string | null) {
   align-items: center;
   gap: 0.35rem;
   font-size: 0.8rem;
-  color: #64748b;
+  color: var(--c-text-lighter, #64748b);
   margin-top: 0.25rem;
 }
 
@@ -420,7 +423,7 @@ function formatDate(raw: string | null) {
   gap: 0.5rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 2px solid var(--c-border, #e2e8f0);
 }
 
 .sn-section__dot {
@@ -435,7 +438,7 @@ function formatDate(raw: string | null) {
   font-size: 1.15rem;
   font-weight: 700;
   margin: 0;
-  color: #0f172a;
+  color: var(--c-text, #0f172a);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -445,12 +448,29 @@ function formatDate(raw: string | null) {
   margin-left: auto;
   font-size: 0.875rem;
   font-weight: 600;
-  color: #0284c7;
+  color: var(--c-brand, #0284c7);
   text-decoration: none;
   white-space: nowrap;
+  position: relative;
+  transition: color 0.2s;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1.5px;
+    background: var(--c-brand);
+    transition: width 0.3s var(--ease-out-expo);
+  }
 
   &:hover {
-    text-decoration: underline;
+    color: var(--c-brand-light);
+  }
+
+  &:hover::after {
+    width: 100%;
   }
 }
 
@@ -468,17 +488,20 @@ function formatDate(raw: string | null) {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: #fff;
+  background: var(--c-bg, #fff);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  border: 1px solid #e2e8f0;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  border: 1px solid var(--c-border, #e2e8f0);
+  transition: transform 0.35s var(--ease-out-expo),
+              border-color 0.25s var(--ease-smooth),
+              box-shadow 0.35s var(--ease-out-expo);
 
   &:hover {
-    border-color: #bae6fd;
-    box-shadow: 0 4px 16px rgba(14, 165, 233, 0.12);
+    border-color: var(--c-brand-light);
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-3px);
   }
 }
 
@@ -503,17 +526,22 @@ function formatDate(raw: string | null) {
   font-weight: 650;
   line-height: 1.35;
   margin: 0 0 0.35rem;
-  color: #0f172a;
+  color: var(--c-text, #0f172a);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  transition: color 0.2s;
+}
+
+.sn-card:hover .sn-card__title {
+  color: var(--c-brand);
 }
 
 .sn-card__deck {
   font-size: 0.85rem;
   line-height: 1.5;
-  color: #64748b;
+  color: var(--c-text-lighter, #64748b);
   margin: 0 0 0.5rem;
   display: -webkit-box;
   -webkit-line-clamp: 2;

@@ -1,7 +1,8 @@
 import { defineClientConfig } from '@vuepress/client'
 import { useRouter } from 'vue-router'
 import { usePage } from 'vuepress/client'
-import { watch } from 'vue'
+import { watch, onMounted } from 'vue'
+import './styles/index.scss'
 import Layout from './layouts/Layout.vue'
 import SpaceNewsHome from './layouts/SpaceNewsHome.vue'
 import SpaceNewsArchive from './layouts/SpaceNewsArchive.vue'
@@ -139,6 +140,39 @@ export default defineClientConfig({
   setup() {
     const router = useRouter()
     const page = usePage()
+
+    // ---- 滚动渐入动画 ----
+    onMounted(() => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed')
+              observer.unobserve(entry.target)
+            }
+          })
+        },
+        { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+      )
+
+      const initReveal = () => {
+        document.querySelectorAll('.scroll-reveal, .scroll-reveal-left, .scroll-reveal-right, .scroll-reveal-scale').forEach((el) => {
+          observer.observe(el)
+        })
+      }
+
+      initReveal()
+
+      // 路由切换后重新扫描
+      const disconnect = watch(() => router.currentRoute.value.path, () => {
+        setTimeout(initReveal, 300)
+      })
+
+      return () => {
+        disconnect()
+        observer.disconnect()
+      }
+    })
 
     function buildShareData() {
       if (typeof window === 'undefined') return null

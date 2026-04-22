@@ -1,34 +1,33 @@
 import type { SidebarConfig } from 'vuepress'
 import autoSidebar from './sidebar.auto.json'
+import { wayfindingEnGroup } from './sidebar-shared.js'
 
-const mainSidebar = [
+const mainSidebarContent = [
   {
-    text: 'What Is Cislunar Space',
-    collapsible: true,
+    text: 'What is cislunar space (environment & concepts)',
+    collapsible: false,
     children: [
       '/en/what-is-cislunarspace/',
       '/en/what-is-cislunarspace/environment',
     ],
   },
   {
-    text: 'Cislunar Spacecraft Orbits',
-    collapsible: true,
-    children: [
-      '/en/cislunar-orbits/',
-    ],
+    text: 'Cislunar spacecraft orbits (mission trajectories)',
+    collapsible: false,
+    children: ['/en/cislunar-orbits/'],
   },
   {
-    text: 'Research Frontiers',
-    collapsible: true,
+    text: 'Research frontiers (directions · institutions · programs)',
+    collapsible: false,
     children: [
       '/en/research-frontiers/',
-      '/en/research-frontiers/directions',
+      '/en/research-frontiers/directions/',
       {
-        text: 'Research Institutions',
-        link: '/en/research-frontiers/institutions',
+        text: 'Research institutions',
+        link: '/en/research-frontiers/institutions/',
         collapsible: true,
         children: [
-          '/en/research-frontiers/institutions',
+          '/en/research-frontiers/institutions/',
           '/en/research-frontiers/institutions/hit',
         ],
       },
@@ -38,51 +37,55 @@ const mainSidebar = [
   },
 ]
 
+const mainSidebar = [wayfindingEnGroup, ...mainSidebarContent]
+
 const glossarySidebar = [
+  wayfindingEnGroup,
   {
-    text: 'Cislunar Space Glossary',
+    text: 'Cislunar glossary (terms & definitions)',
     collapsible: false,
     children: [
       '/en/glossary/',
       {
-        text: 'Dynamics Models',
+        text: 'Dynamics models',
         collapsible: true,
-        children: [
-          '/en/glossary/cr3bp',
-        ],
+        children: ['/en/glossary/cr3bp'],
       },
       {
         text: 'Navigation',
         collapsible: true,
-        children: [
-          '/en/glossary/xray-pulsar-navigation',
-        ],
+        children: ['/en/glossary/xray-pulsar-navigation'],
       },
     ],
   },
 ]
 
 const resourcesToolsSidebar = [
+  wayfindingEnGroup,
   {
-    text: 'Resources & Tools',
+    text: 'Resources & tools (data, code & datasets)',
     collapsible: false,
     children: [
       '/en/resources-tools/',
+      '/en/resources-tools/e2m2e',
+      '/en/resources-tools/scipy',
+      '/en/resources-tools/r2s2',
       '/en/resources-tools/datasets',
     ],
   },
 ]
 
-const spaceNewsSidebar = autoSidebar.en
+const spaceNewsSidebar = [wayfindingEnGroup, ...autoSidebar.en]
 
 const blueTeamResearchSidebar = [
+  wayfindingEnGroup,
   {
-    text: 'Blue Team Research',
+    text: 'Blue-team research (doctrine · tech · scenarios · RAG)',
     collapsible: false,
     children: [
       '/en/blue-team-research/',
       {
-        text: 'Doctrine & Strategy',
+        text: 'Doctrine & strategy',
         link: '/en/blue-team-research/doctrine-strategy/',
         collapsible: true,
         children: [
@@ -93,7 +96,7 @@ const blueTeamResearchSidebar = [
         ],
       },
       {
-        text: 'Equipment & Technology',
+        text: 'Equipment & technology',
         link: '/en/blue-team-research/equipment-tech/',
         collapsible: true,
         children: [
@@ -105,7 +108,7 @@ const blueTeamResearchSidebar = [
         ],
       },
       {
-        text: 'Operations & Scenarios',
+        text: 'Operations & scenarios',
         link: '/en/blue-team-research/operations-application/',
         collapsible: true,
         children: [
@@ -118,7 +121,7 @@ const blueTeamResearchSidebar = [
         ],
       },
       {
-        text: 'Knowledge Base & RAG',
+        text: 'Knowledge base & RAG',
         link: '/en/blue-team-research/knowledge-rag/',
         collapsible: true,
         children: [
@@ -131,11 +134,21 @@ const blueTeamResearchSidebar = [
   },
 ]
 
+const satelliteSimulationSidebar = [
+  wayfindingEnGroup,
+  {
+    text: 'Satellite orbit simulation lab',
+    collapsible: false,
+    children: ['/en/satellite-simulation/'],
+  },
+]
+
 export default <SidebarConfig>{
   '/en/glossary/': glossarySidebar,
   '/en/resources-tools/': resourcesToolsSidebar,
   '/en/blue-team-research/': blueTeamResearchSidebar,
   '/en/space-news/': spaceNewsSidebar,
+  '/en/satellite-simulation/': satelliteSimulationSidebar,
   '/en/what-is-cislunarspace/': mainSidebar,
   '/en/cislunar-orbits/': mainSidebar,
   '/en/research-frontiers/': mainSidebar,

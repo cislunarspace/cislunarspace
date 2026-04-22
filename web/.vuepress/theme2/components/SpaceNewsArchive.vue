@@ -56,14 +56,25 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import articlesData from '../../space-news-articles.json'
 import { useIsEn } from '../composables/useIsEn'
 import { categoryMeta } from '../utils/categoryMeta'
 import type { ArticleItem, ArticlesData } from '../utils/types'
 
 const isEn = useIsEn()
+const route = useRoute()
 const activeFilter = ref('all')
+
+// 从 URL query 读取分类过滤
+watch(() => route.query.category, (cat) => {
+  if (cat && typeof cat === 'string') {
+    activeFilter.value = cat
+  } else {
+    activeFilter.value = 'all'
+  }
+}, { immediate: true })
 
 const labels = computed(() =>
   isEn.value

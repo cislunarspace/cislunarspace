@@ -1,9 +1,26 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { generateAiChatContext } from './gen-ai-chat-context.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
+// 分类元数据（与 theme2/utils/categoryMeta.ts 保持一致）
+const categoryMeta = {
+  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
+  spacex: { zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' },
+  china: { zh: '中国航天', en: 'China Space', color: '#dc2626' },
+  nasa: { zh: 'NASA', en: 'NASA', color: '#2563eb' },
+  esa: { zh: 'ESA', en: 'ESA', color: '#0891b2' },
+  iss: { zh: '空间站', en: 'Space Station', color: '#7c3aed' },
+  launch: { zh: '发射', en: 'Launches', color: '#ea580c' },
+  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
+  science: { zh: '科学发现', en: 'Science', color: '#8b5cf6' },
+  policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
+  'blue-origin': { zh: 'Blue Origin', en: 'Blue Origin', color: '#4338ca' },
+  'commercial-space': { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
+}
 
 function scanSpaceNewsDir(baseDir) {
   const years = []
@@ -45,8 +62,8 @@ const monthsEn = ['January', 'February', 'March', 'April', 'May', 'June', 'July'
 
 function buildZhSidebar() {
   const children = [
-    ['/space-news/', '首页'],
-    ['/space-news/archive', '按日期查阅'],
+    ['/space-news/', '门户首页（最新动态与摘要）'],
+    ['/space-news/archive', '按月存档（查阅全部条目）'],
   ]
   for (const { year, months } of zhYears) {
     children.push({
@@ -56,13 +73,13 @@ function buildZhSidebar() {
       children: months.map(m => [`/space-news/${year}/${String(m.month).padStart(2, '0')}/`, `${year}年${m.month}月`]),
     })
   }
-  return [{ text: 'Space News', collapsible: false, children }]
+  return [{ text: '航天动态（行业新闻与按月归档）', collapsible: false, children }]
 }
 
 function buildEnSidebar() {
   const children = [
-    ['/en/space-news/', 'Home'],
-    ['/en/space-news/archive', 'Archive by date'],
+    ['/en/space-news/', 'Portal (latest & highlights)'],
+    ['/en/space-news/archive', 'Monthly archive (all posts)'],
   ]
   for (const { year, months } of enYears) {
     children.push({
@@ -72,7 +89,7 @@ function buildEnSidebar() {
       children: months.map(m => [`/en/space-news/${year}/${String(m.month).padStart(2, '0')}/`, `${monthsEn[m.month - 1]} ${year}`]),
     })
   }
-  return [{ text: 'Space News', collapsible: false, children }]
+  return [{ text: 'Space news (industry & monthly archive)', collapsible: false, children }]
 }
 
 fs.writeFileSync(
@@ -180,3 +197,94 @@ fs.writeFileSync(
   JSON.stringify({ zh: zhArticles, en: enArticles }, null, 2),
 )
 console.log(`Generated space-news-articles.json (${zhArticles.length} zh, ${enArticles.length} en)`)
+
+// ============================================
+// 生成 Space News 自定义侧边栏数据
+// ============================================
+
+function buildSidebarData(articles, urlPrefix, lang) {
+  const isEn = lang === 'en'
+
+  // 1. 最新文章（最近 8 篇，按日期倒序）
+  const latest = [...articles]
+    .sort((a, b) => {
+      const da = a.date ? new Date(a.date).getTime() : 0
+      const db = b.date ? new Date(b.date).getTime() : 0
+      return db - da
+    })
+    .slice(0, 8)
+    .map(a => ({
+      title: a.title,
+      path: a.path,
+      date: a.date,
+      category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
+    }))
+
+  // 2. 分类统计（按文章数倒序，取前 10）
+  const catCount = {}
+  for (const a of articles) {
+    const cats = Array.isArray(a.category) ? a.category : a.category ? [a.category] : []
+    for (const c of cats) {
+      catCount[c] = (catCount[c] || 0) + 1
+    }
+  }
+  const categories = Object.entries(catCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 12)
+    .map(([key, count]) => {
+      const meta = categoryMeta[key] || { zh: key, en: key, color: '#64748b' }
+      return {
+        key,
+        label: isEn ? meta.en : meta.zh,
+        count,
+        color: meta.color,
+      }
+    })
+
+  // 3. 年月归档
+  const archiveMap = new Map()
+  for (const a of articles) {
+    if (!a.date) continue
+    const d = new Date(a.date)
+    const y = d.getFullYear()
+    const m = d.getMonth() + 1
+    const yk = String(y)
+    if (!archiveMap.has(yk)) archiveMap.set(yk, new Map())
+    const monthMap = archiveMap.get(yk)
+    if (!monthMap.has(m)) monthMap.set(m, { count: 0, path: `${urlPrefix}${yk}/${String(m).padStart(2, '0')}/` })
+    monthMap.get(m).count++
+  }
+  const archive = []
+  for (const [year, monthMap] of [...archiveMap.entries()].sort((a, b) => b[0].localeCompare(a[0]))) {
+    const months = []
+    for (const [month, info] of [...monthMap.entries()].sort((a, b) => b[0] - a[0])) {
+      months.push({
+        month,
+        label: isEn
+          ? new Date(parseInt(year), month - 1, 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
+          : `${year}年${month}月`,
+        path: info.path,
+        count: info.count,
+      })
+    }
+    archive.push({ year: parseInt(year), months })
+  }
+
+  // 4. 统计
+  const stats = { total: articles.length }
+
+  return { latest, categories, archive, stats }
+}
+
+const sidebarData = {
+  zh: buildSidebarData(zhArticles, '/space-news/', 'zh'),
+  en: buildSidebarData(enArticles, '/en/space-news/', 'en'),
+}
+
+fs.writeFileSync(
+  path.join(__dirname, 'space-news-sidebar-data.json'),
+  JSON.stringify(sidebarData, null, 2),
+)
+console.log('Generated space-news-sidebar-data.json')
+
+generateAiChatContext()

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="sn-article-layout">
     <template #page-top>
       <ArticleHero
         :title="fm.title"
@@ -19,6 +19,7 @@
       <Footer />
     </template>
   </Layout>
+  <SpaceNewsSidebar />
   <PageToc />
   <SidebarToggle />
 </template>
@@ -29,6 +30,7 @@ import { usePage } from 'vuepress/client'
 import { useRoute } from 'vue-router'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
+import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue'
 import PageToc from '../components/PageToc.vue'
 import ArticleHero from '../components/ArticleHero.vue'
 import SidebarToggle from '../components/SidebarToggle.vue'
@@ -50,6 +52,14 @@ const newsHome = computed(() => isEn.value ? '/en/space-news/' : '/space-news/')
 /* Hide default VuePress H1 on SpaceNewsArticle pages (ArticleHero provides the H1) */
 [vp-content] > h1:first-child {
   display: none;
+}
+
+/* 桌面端隐藏原生侧边栏，使用自定义 SpaceNewsSidebar；保留移动端导航菜单 */
+@media (min-width: 960px) {
+  .sn-article-layout ~ .vp-sidebar,
+  .sn-article-layout .vp-sidebar {
+    display: none !important;
+  }
 }
 
 .article-back {

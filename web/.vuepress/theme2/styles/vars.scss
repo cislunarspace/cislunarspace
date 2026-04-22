@@ -1,0 +1,97 @@
+// ============================================
+// 地月空间入门指南 — 全局配色变量
+// 覆盖 VuePress 2 默认主题变量为深空蓝主题
+// ============================================
+
+:root {
+  /* ---- NASA风格深色主题（红色强调）---- */
+  --vp-c-accent: #e63946;
+  --vp-c-accent-bg: #c1121f;
+  --vp-c-accent-hover: #ff6b6b;
+  --vp-c-accent-text: #ffffff;
+  --vp-c-accent-soft: rgb(230 57 70 / 15%);
+
+  /* ---- 深色背景 ---- */
+  --vp-c-bg: #0a0a0f;
+  --vp-c-bg-alt: #0f0f14;
+  --vp-c-bg-elv: #16161d;
+  --vp-sidebar-c-bg: #0a0a0f;
+
+  /* ---- 深色文字 ---- */
+  --vp-c-text: rgb(241 245 249 / 90%);
+  --vp-c-text-mute: rgb(241 245 249 / 65%);
+  --vp-c-text-subtle: rgb(241 245 249 / 45%);
+
+  /* ---- 深色边框 ---- */
+  --vp-c-divider: rgba(255, 255, 255, 0.08);
+  --vp-c-border: rgba(255, 255, 255, 0.12);
+  --vp-c-border-hard: rgba(255, 255, 255, 0.2);
+
+  /* ---- 阴影 ---- */
+  --vp-c-shadow: rgb(0 0 0 / 40%);
+
+  /* ---- 控件色 ---- */
+  --vp-c-control: rgb(230 57 70 / 10%);
+  --vp-c-control-hover: rgb(230 57 70 / 15%);
+  --vp-c-control-disabled: #2a2a35;
+
+  /* ---- VuePress 2 过渡 ---- */
+  --vp-t-color: 0.3s ease;
+  --vp-t-transform: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* ---- 自定义品牌变量（红色NASA风格）---- */
+  --c-brand: #e63946;
+  --c-brand-light: #ff6b6b;
+  --c-brand-dark: #c1121f;
+  --c-brand-rgb: 230, 57, 70;
+
+  /* ---- 深色文字 ---- */
+  --c-text: #f1f5f9;
+  --c-text-light: #cbd5e1;
+  --c-text-lighter: #94a3b8;
+  --c-text-quote: #64748b;
+
+  /* ---- 深色背景 ---- */
+  --c-bg: #0a0a0f;
+  --c-bg-light: #0f0f14;
+  --c-bg-lighter: #16161d;
+  --c-bg-navbar: rgba(10, 10, 15, 0.92);
+
+  /* ---- 深色边框 ---- */
+  --c-border: rgba(255, 255, 255, 0.08);
+  --c-border-dark: rgba(255, 255, 255, 0.12);
+
+  /* ---- 强调色 ---- */
+  --c-accent: #e63946;
+  --c-accent-soft: rgba(230, 57, 70, 0.12);
+  --c-accent-medium: rgba(230, 57, 70, 0.2);
+
+  /* ---- 阴影系统 ---- */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 48px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 24px rgba(230, 57, 70, 0.3);
+
+  /* ---- 缓动函数 ---- */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---- 导航栏 ---- */
+  --navbar-height: 3.6rem;
+  --navbar-bg: var(--c-bg-navbar);
+
+  /* ---- 滚动条 ---- */
+  --scrollbar-thumb: #2a2a35;
+  --scrollbar-thumb-hover: #3a3a45;
+
+  /* ---- 字体：正文华文中宋 + Times New Roman；标题黑体 + Arial ---- */
+  --font-family: '华文中宋', STZhongsong, 'Times New Roman', Times, serif;
+  --font-family-heading: '黑体', SimHei, 'Heiti SC', STHeiti, 'Microsoft YaHei', Arial, sans-serif;
+}
+
+/* ---- 深色模式（与默认:root一致）---- */
+[data-theme='dark'] {
+  /* NASA红色风格已在:root定义，此处保持一致 */
+}

@@ -33,4 +33,12 @@ export default <NavbarConfig>[
     text: 'Home',
     link: '/en/',
   },
+  {
+    text: 'Gitee',
+    link: 'https://gitee.com/cislunarspace/cislunarspace',
+  },
+  {
+    text: 'GitHub',
+    link: 'https://github.com/cislunarspace/cislunarspace',
+  },
 ]

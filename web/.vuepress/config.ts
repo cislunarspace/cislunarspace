@@ -2,6 +2,9 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import dotenv from 'dotenv'
+import path from 'path'
+import { fileURLToPath } from 'url'
 import theme from './theme2/index.js'
 import navbar from './navbar.js'
 import navbarEn from './navbar-en.js'
@@ -9,6 +12,11 @@ import sidebar from './sidebar.js'
 import sidebarEn from './sidebar-en.js'
 import ogMetaPlugin from './og-meta-plugin.js'
 import mk from '@traptitech/markdown-it-katex'
+
+const __configDir = path.dirname(fileURLToPath(import.meta.url))
+// web/.env、web/.env.local（后者覆盖，便于本机覆写而无需改 .env）
+dotenv.config({ path: path.resolve(__configDir, '../.env'), quiet: true })
+dotenv.config({ path: path.resolve(__configDir, '../.env.local'), override: true, quiet: true })
 
 const COPY_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`
 const CHECK_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`
@@ -48,7 +56,9 @@ const domain = 'https://cislunarspace.cn'
 const tags = ['地月空间', '航天', '轨道动力学']
 
 if (!process.env.DEEPSEEK_API_KEY && process.env.NODE_ENV !== 'production') {
-  console.warn('[config] DEEPSEEK_API_KEY not set — AI chat proxy will not work')
+  console.warn(
+    '[config] DEEPSEEK_API_KEY not set — 本地 /api/ai 代理将无法请求 DeepSeek。请复制 web/.env.example 为 web/.env 并填入密钥。'
+  )
 }
 
 export default defineUserConfig({
@@ -146,7 +156,8 @@ export default defineUserConfig({
       },
     },
 
-    repo: 'https://gitee.com/cislunarspace/cislunarspace',
+    repo: null,
+    docsRepo: 'https://gitee.com/cislunarspace/cislunarspace',
     docsBranch: 'master',
     docsDir: 'web',
     editLink: true,

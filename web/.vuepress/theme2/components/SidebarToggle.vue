@@ -2,21 +2,47 @@
   <button
     v-if="!isAiChatPage"
     class="sidebar-toggle-btn"
-    :class="{ 'sidebar-hidden': isHidden }"
+    :class="{ 'is-hidden': isHidden }"
     @click="toggle"
     :title="isHidden ? showLabel : hideLabel"
+    aria-label="toggle sidebar"
   >
-    <svg v-if="!isHidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-      <path fill="currentColor" d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/>
-    </svg>
-    <svg v-else xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-      <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
-    </svg>
+    <span class="sidebar-toggle-icon">
+      <svg
+        v-if="!isHidden"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="15 18 9 12 15 6" />
+      </svg>
+      <svg
+        v-else
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="9 18 15 12 9 6" />
+      </svg>
+    </span>
+    <span class="sidebar-toggle-tooltip">{{ isHidden ? showLabel : hideLabel }}</span>
   </button>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useIsEn } from '../composables/useIsEn'
 
@@ -24,8 +50,8 @@ const route = useRoute()
 const isEn = useIsEn()
 const isHidden = ref(false)
 
-const showLabel = computed(() => isEn.value ? 'Show sidebar' : '显示侧边栏')
-const hideLabel = computed(() => isEn.value ? 'Hide sidebar' : '隐藏侧边栏')
+const showLabel = computed(() => (isEn.value ? 'Expand sidebar' : '展开侧边栏'))
+const hideLabel = computed(() => (isEn.value ? 'Collapse sidebar' : '收起侧边栏'))
 
 const isAiChatPage = computed(() => {
   const p = route.path
@@ -40,6 +66,14 @@ function toggle() {
   } catch {}
 }
 
+function onKeyDown(e: KeyboardEvent) {
+  // Ctrl/Cmd + B 切换侧边栏
+  if ((e.ctrlKey || e.metaKey) && e.key === 'b') {
+    e.preventDefault()
+    toggle()
+  }
+}
+
 onMounted(() => {
   try {
     const saved = localStorage.getItem('sidebar-hidden')
@@ -48,42 +82,118 @@ onMounted(() => {
       document.documentElement.classList.add('sidebar-hidden')
     }
   } catch {}
+
+  window.addEventListener('keydown', onKeyDown)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', onKeyDown)
 })
 </script>
 
 <style lang="scss">
 .sidebar-toggle-btn {
   position: fixed;
-  left: var(--sidebar-width, 300px);
+  left: calc(var(--sidebar-width, 20rem) - 1px);
   top: 50%;
   transform: translateY(-50%);
-  z-index: 100;
-  width: 24px;
-  height: 48px;
+  z-index: 101;
+
+  width: 28px;
+  height: 56px;
+  padding: 0;
   border: none;
-  border-radius: 0 6px 6px 0;
-  background: var(--c-brand, #3eaf7c);
-  color: #fff;
-  cursor: pointer;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.7;
-  transition: opacity 0.2s, left 0.3s, background 0.2s;
 
-  &:hover {
-    opacity: 1;
-    background: var(--c-brand-light, #4abf8a);
+  background: var(--c-bg-navbar);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  color: var(--c-text-lighter);
+  cursor: pointer;
+
+  border-radius: 0 12px 12px 0;
+  box-shadow: var(--shadow-md);
+
+  transition: left 0.4s var(--ease-out-expo),
+              background 0.25s var(--ease-smooth),
+              color 0.25s var(--ease-smooth),
+              box-shadow 0.3s var(--ease-smooth),
+              transform 0.2s var(--ease-out-back);
+
+  .sidebar-toggle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s var(--ease-out-expo);
   }
 
-  &.sidebar-hidden {
+  /* ---- Tooltip ---- */
+  .sidebar-toggle-tooltip {
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%) scale(0.9);
+
+    background: var(--c-text);
+    color: var(--c-bg);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s var(--ease-out-expo);
+  }
+
+  .sidebar-toggle-tooltip::before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 5px solid transparent;
+    border-right-color: var(--c-text);
+  }
+
+  &:hover {
+    color: var(--c-brand);
+    background: var(--c-bg);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-50%) scale(1.08);
+
+    .sidebar-toggle-tooltip {
+      opacity: 1;
+      transform: translateY(-50%) scale(1);
+    }
+  }
+
+  &:active {
+    transform: translateY(-50%) scale(0.96);
+  }
+
+  /* ---- Sidebar hidden state ---- */
+  &.is-hidden {
     left: 0;
+    border-radius: 0 12px 12px 0;
+
+    .sidebar-toggle-icon {
+      transform: rotate(180deg);
+    }
   }
 }
 
-@media (max-width: 959px) {
-  .sidebar-toggle-btn {
-    display: none;
+/* ---- 当 sidebar 被用户主动隐藏后的额外微交互 ---- */
+html.sidebar-hidden .sidebar-toggle-btn {
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
   }
 }
 </style>

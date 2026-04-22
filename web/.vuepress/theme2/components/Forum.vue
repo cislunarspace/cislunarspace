@@ -574,7 +574,7 @@ export default {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: var(--font-family);
 }
 
 /* 顶部栏 */
@@ -588,7 +588,7 @@ export default {
 }
 .forum-topbar-left { display: flex; align-items: center; gap: 1rem; }
 .forum-topbar-right { display: flex; align-items: center; gap: 0.5rem; }
-.forum-title { font-size: 1.4rem; font-weight: 700; color: #1a1a2e; }
+.forum-title { font-family: var(--font-family-heading); font-size: 1.4rem; font-weight: 700; color: #1a1a2e; }
 .user-badge {
   display: inline-block;
   padding: 0.25rem 0.75rem;

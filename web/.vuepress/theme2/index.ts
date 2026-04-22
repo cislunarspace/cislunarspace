@@ -9,6 +9,7 @@ export default ((options) => {
     clientConfigFile: path.resolve(__dirname, 'client.ts'),
     alias: {
       '@theme/Layout.vue': path.resolve(__dirname, 'layouts/Layout.vue'),
+      '@theme/VPSidebar.vue': path.resolve(__dirname, 'components/VPSidebar.vue'),
     },
   }
 }) as Theme

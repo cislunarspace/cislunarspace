@@ -19,6 +19,8 @@ npm run sync-figures  # copy figures/ into dist/ (required for images to display
 
 Requires Node.js 18+ (CI and cron use v22.22.2).
 
+**Local AI chat (`/ai-chat`):** copy `web/.env.example` to `web/.env` and set `DEEPSEEK_API_KEY`. Vite dev proxies `/api/ai` → `https://api.deepseek.com` (see `web/.vuepress/config.ts`). Production uses Nginx (`web/deploy/nginx-ai-proxy.conf`).
+
 ## Architecture
 
 ### VuePress Config

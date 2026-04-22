@@ -50,7 +50,7 @@ function hideToc(event: MouseEvent) {
   right: 1.5rem;
   bottom: 0;
   box-sizing: border-box;
-  border-left: 0px solid #eaecef;
+  border-left: 0px solid var(--c-border);
 }
 
 .toc-container {
@@ -62,8 +62,11 @@ function hideToc(event: MouseEvent) {
   margin-right: 10px;
   margin-left: 0;
   width: 240px;
-  background: #fff;
-  border: 1px solid #eee;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  animation: dropdownIn 0.2s var(--ease-out-expo);
   .pos-box {
     position: relative;
     padding: 16px;
@@ -84,7 +87,7 @@ function hideToc(event: MouseEvent) {
   top: 70px !important;
   width: 44px;
   div.option-box:last-child {
-    border-top: 0px solid #eee;
+    border-top: 0px solid var(--c-border);
   }
   div.option-box.on {
     .toc-container {
@@ -98,19 +101,25 @@ function hideToc(event: MouseEvent) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #eee;
-    background-color: #fff;
+    border-bottom: 1px solid var(--c-border);
+    background-color: var(--c-bg);
     height: 60px;
     cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.2s var(--ease-out-back);
     .show-txt {
-      color: gray;
+      color: var(--c-text-lighter);
       margin-top: 3px;
       font-size: 11px;
+      transition: color 0.2s;
     }
   }
   div.option-box:hover {
-    color: white;
-    background: #eee;
+    color: var(--c-brand);
+    background: var(--c-accent-soft);
+    transform: translateY(-2px);
+    .show-txt {
+      color: var(--c-brand);
+    }
   }
 }
 

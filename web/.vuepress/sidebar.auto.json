@@ -1,16 +1,16 @@
 {
   "zh": [
     {
-      "text": "Space News",
+      "text": "航天动态（行业新闻与按月归档）",
       "collapsible": false,
       "children": [
         [
           "/space-news/",
-          "首页"
+          "门户首页（最新动态与摘要）"
         ],
         [
           "/space-news/archive",
-          "按日期查阅"
+          "按月存档（查阅全部条目）"
         ],
         {
           "text": "2026",
@@ -75,16 +75,16 @@
   ],
   "en": [
     {
-      "text": "Space News",
+      "text": "Space news (industry & monthly archive)",
       "collapsible": false,
       "children": [
         [
           "/en/space-news/",
-          "Home"
+          "Portal (latest & highlights)"
         ],
         [
           "/en/space-news/archive",
-          "Archive by date"
+          "Monthly archive (all posts)"
         ],
         {
           "text": "2026",

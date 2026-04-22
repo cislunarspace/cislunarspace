@@ -19,6 +19,7 @@
     "@vuepress/plugin-register-components": "2.0.0-rc.126",
     "@vuepress/plugin-sitemap": "2.0.0-rc.126",
     "@vuepress/theme-default": "2.0.0-rc.126",
+    "dotenv": "^17.4.2",
     "katex": "^0.16.33",
     "sass-embedded": "^1.87.0",
     "vue": "^3.5.0",

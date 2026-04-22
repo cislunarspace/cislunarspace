@@ -39,7 +39,10 @@
         <button class="header-menu-btn" @click="sidebarOpen = !sidebarOpen" :title="isEn ? 'Menu' : '菜单'">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
-        <h1 class="header-title">{{ t('toolbarTitle') }}</h1>
+        <h1 class="header-title">
+          <span v-if="isLoading && loadingPhase === 'router'" class="header-title-pulse">{{ t('routerPhase') }}</span>
+          <span v-else>{{ t('toolbarTitle') }}</span>
+        </h1>
         <div class="header-actions">
           <button class="header-icon-btn" @click="toggleTheme" :title="isDark ? (isEn ? 'Light mode' : '浅色模式') : (isEn ? 'Dark mode' : '深色模式')">
             <svg v-if="isDark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
@@ -53,8 +56,11 @@
 
       <div class="chat-messages" ref="messagesContainer">
         <div v-if="messages.length === 0" class="chat-welcome">
-          <div class="welcome-icon">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <p class="welcome-eyebrow">{{ t('welcomeEyebrow') }}</p>
+          <div class="welcome-icon-wrap">
+            <div class="welcome-icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </div>
           </div>
           <h2 class="welcome-title">{{ t('welcomeTitle') }}</h2>
           <p class="welcome-desc">{{ t('welcomeDesc') }}</p>
@@ -77,27 +83,65 @@
           :key="index"
           :class="['chat-message', message.role === 'user' ? 'user-message' : 'assistant-message']"
         >
-          <div class="message-row">
+          <div class="message-row" :class="{ 'is-assistant-stack': message.role === 'assistant' }">
             <div v-if="message.role === 'assistant'" class="message-avatar assistant-avatar">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4v2H6a2 2 0 0 0-2 2v10h16V10a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4z"/><circle cx="9" cy="14" r="1" fill="currentColor"/><circle cx="15" cy="14" r="1" fill="currentColor"/></svg>
             </div>
-            <div
-              v-if="message.role === 'assistant'"
-              class="message-content assistant-content"
-              v-html="renderMessageHtml(message, index)"
-            ></div>
+            <div v-if="message.role === 'assistant'" class="assistant-column">
+              <div
+                v-if="message.processSteps && message.processSteps.length"
+                class="assistant-process"
+                aria-label="process"
+              >
+                <p class="assistant-process-title">{{ t('processTitle') }}</p>
+                <ul class="assistant-process-list">
+                  <li
+                    v-for="(ps, pi) in message.processSteps"
+                    :key="pi"
+                    :class="['process-step', 'process-step--' + (ps.status || 'done')]"
+                  >
+                    <span class="process-step-icon" aria-hidden="true" />
+                    <div class="process-step-main">
+                      <span class="process-step-text">{{ ps.label }}</span>
+                      <span v-if="ps.detail" class="process-step-detail">{{ ps.detail }}</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <details
+                v-if="message.reasoning && String(message.reasoning).trim()"
+                class="assistant-reasoning"
+                :open="isLoading && index === messages.length - 1 && !getMessageText(message, index)"
+              >
+                <summary class="assistant-reasoning-summary">{{ t('reasoningTitle') }}</summary>
+                <div class="assistant-reasoning-body">{{ message.reasoning }}</div>
+              </details>
+              <div
+                class="message-content assistant-content"
+                v-html="renderMessageHtml(message, index)"
+              ></div>
+              <div
+                v-if="isLoading && message.role === 'assistant' && !message.content && !message.reasoning && index === messages.length - 1"
+                class="typing-dots typing-dots--in-column"
+                role="status"
+              >
+                <span></span><span></span><span></span>
+              </div>
+              <div
+                v-else-if="isLoading && message.role === 'assistant' && (message.reasoning && !message.content) && index === messages.length - 1"
+                class="typing-dots typing-dots--in-column typing-dots--after-reasoning"
+                role="status"
+                :aria-label="t('answerStarting')"
+              >
+                <span></span><span></span><span></span>
+              </div>
+            </div>
             <div v-else class="message-content user-content">
               {{ getMessageText(message, index) }}
             </div>
             <div v-if="message.role === 'user'" class="message-avatar user-avatar">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
             </div>
-          </div>
-          <div
-            v-if="isLoading && message.role === 'assistant' && !message.content && index === messages.length - 1"
-            class="typing-dots"
-          >
-            <span></span><span></span><span></span>
           </div>
         </div>
       </div>
@@ -162,6 +206,24 @@ function sanitizeClientConfig(config) {
   const nextConfig = Object.assign({}, config || {})
   delete nextConfig.apiKey
   nextConfig.apiEndpoint = normalizeApiEndpoint(nextConfig.apiEndpoint)
+  if (nextConfig.twoPhaseRetrieval === undefined) {
+    nextConfig.twoPhaseRetrieval = true
+  }
+  if (nextConfig.routerTemperature == null) {
+    nextConfig.routerTemperature = 0.2
+  }
+  if (nextConfig.twoPhaseContextCharBudget == null) {
+    nextConfig.twoPhaseContextCharBudget = 45000
+  }
+  if (nextConfig.routerMaxPaths == null) {
+    nextConfig.routerMaxPaths = 8
+  }
+  if (nextConfig.stream === undefined) {
+    nextConfig.stream = true
+  }
+  if (!nextConfig.routerModel) {
+    nextConfig.routerModel = nextConfig.model
+  }
   return nextConfig
 }
 
@@ -393,7 +455,12 @@ export default {
       isDark: loadTheme(),
       sidebarOpen: false,
       chatHistory: loadChatHistory(),
-      activeChatIndex: -1
+      activeChatIndex: -1,
+      siteIndex: { zh: [], en: [] },
+      siteContext: null,
+      contextLoadPromise: null,
+      useTwoPhase: false,
+      loadingPhase: ''
     }
   },
   computed: {
@@ -512,16 +579,26 @@ export default {
 
     t(key) {
       const strings = {
-        toolbarTitle: { zh: 'AI 问答助手', en: 'AI Chat Assistant' },
+        toolbarTitle: { zh: 'AI 问答', en: 'AI Chat' },
         newChat: { zh: '新对话', en: 'New Chat' },
-        welcomeTitle: { zh: '地月空间 AI 问答助手', en: 'Cislunar Space AI Assistant' },
+        welcomeEyebrow: { zh: '地月空间入门指南', en: "Cislunar Space Guide" },
+        welcomeTitle: { zh: '地月空间 AI 助手', en: 'Cislunar Space AI Assistant' },
         welcomeDesc: {
-          zh: '问答助手会根据你的问题，结合本站内容和相关知识进行回答',
-          en: 'Ask questions about cislunar space and get AI-powered answers based on this site'
+          zh: '将先在全站页面中定位相关条目，再基于正文节选与站点索引组织回答',
+          en: 'We first find relevant site pages, then answer using their excerpts and the site link index'
         },
         inputPlaceholder: { zh: '输入你的问题...', en: 'Type your question...' },
         send: { zh: '发送', en: 'Send' },
         thinking: { zh: '正在思考...', en: 'Thinking...' },
+        routerPhase: { zh: '正在匹配全站相关页面…', en: 'Matching site pages…' },
+        processTitle: { zh: '处理过程', en: 'Progress' },
+        reasoningTitle: { zh: '思考过程', en: 'Reasoning' },
+        answerStarting: { zh: '开始输出回答', en: 'Answer starting' },
+        stepNav: { zh: '全站导览，匹配相关页面', en: 'Site map: pick relevant pages' },
+        stepExcerpt: { zh: '载入相关页面正文节选', en: 'Load page text excerpts' },
+        stepAnswer: { zh: '整理并输出回答', en: 'Compose final answer' },
+        stepAnswerAlone: { zh: '正在请求模型并生成回答', en: 'Requesting model and generating' },
+        noStrongMatch: { zh: '未在地图中精确定位，将结合全站索引回答', en: 'No strong match; answering with full site index' },
         configError: {
           zh: 'AI 配置加载失败，请检查 /ai-chat-config.json。',
           en: 'AI configuration failed to load. Please check /ai-chat-config.json.'
@@ -567,26 +644,294 @@ export default {
 
         this.config = sanitizeClientConfig(await response.json())
         this.config.systemPrompt = this.getSystemPrompt()
+
+        try {
+          const idxRes = await fetch('/ai-chat-index.json', { cache: 'no-store' })
+          if (idxRes.ok) {
+            this.siteIndex = await idxRes.json()
+            this.useTwoPhase = this.config.twoPhaseRetrieval !== false
+          } else {
+            this.siteIndex = { zh: [], en: [] }
+            this.useTwoPhase = false
+          }
+        } catch (e) {
+          this.siteIndex = { zh: [], en: [] }
+          this.useTwoPhase = false
+        }
       } catch (error) {
         this.config = null
+        this.useTwoPhase = false
         this.messages = [{ role: 'assistant', content: `${this.t('configError')} ${error.message}` }]
       }
     },
 
-    getSystemPrompt() {
+    getSidebarIndexText() {
+      const entries = this.isEn ? enSidebarEntries : zhSidebarEntries
+      return entries.map((entry) => `- ${entry.title}: ${entry.path}`).join('\n')
+    },
+
+    getAnswerRulesBlock() {
       if (this.isEn) {
-        const siteIndex = enSidebarEntries
-          .map((entry) => `- ${entry.title}: ${entry.path}`)
-          .join('\n')
+        return `You are the AI assistant for the Cislunar Space Beginner's Guide (cislunar space). Answer in English: concise, accurate, and professional.
 
-        return `You are the AI assistant for the Cislunar Space Beginner's Guide website. Answer in English, be concise and professional. When relevant, cite real website pages using clickable Markdown links such as [CR3BP](/en/glossary/cr3bp/). Only use pages from the site index below. If information is not from the site, say so clearly.\n\nSite index:\n${siteIndex}`
+When "Relevant page excerpts" are provided in the system message, prioritize them to structure your answer. If they are insufficient, you may add general knowledge about cislunar orbits and missions, and clearly label what comes from the excerpts vs. your general knowledge.
+
+Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). Only link paths that exist in the site index supplied in the same message. Do not invent URLs. Use $...$ and $$...$$ for LaTeX. Prefer clear Markdown structure (headings, lists, tables).`
       }
+      return `你是地月空间入门指南网站的 AI 问答助手。请使用中文回答，保持简洁、准确、专业。
 
-      const siteIndex = zhSidebarEntries
-        .map((entry) => `- ${entry.title}: ${entry.path}`)
-        .join('\n')
+若系统消息中提供了「本站节选」，请优先依据节选组织回答；若节选不足，可补充航天与轨道力学方面的通用知识，并明确区分「摘自本站」与「通用知识」。
 
-      return `你是地月空间入门指南网站的 AI 问答助手。请使用中文回答，保持简洁、准确、专业。引用本站内容时，请优先输出可点击的 Markdown 超链接，例如 [地月空间环境](/what-is-cislunarspace/environment/)。只能使用下面站点索引中真实存在的页面；如果内容不是来自本站，请明确说明。\n\n站点索引：\n${siteIndex}`
+引用本站时请使用可点击的 Markdown 链接，例如 [地月空间环境](/what-is-cislunarspace/environment/)。同一消息中提供的「站点索引」所列路径均为真实页面，仅可链接其中存在的路径；不要编造 URL。数学公式使用 $ 与 $$ 与 LaTeX。回答结构清晰，适当使用标题与列表。`
+    },
+
+    getSystemPrompt() {
+      const index = this.getSidebarIndexText()
+      if (this.isEn) {
+        return `${this.getAnswerRulesBlock()}\n\nSite index (for valid links):\n${index}`
+      }
+      return `${this.getAnswerRulesBlock()}\n\n站点索引（用于核对可引用链接）：\n${index}`
+    },
+
+    getAnswerSystemWithRetrieved(excerptText) {
+      const index = this.getSidebarIndexText()
+      if (this.isEn) {
+        return `${this.getAnswerRulesBlock()}\n\n--- Relevant page excerpts (primary source) ---\n${excerptText}\n\n--- Site index (for additional valid links) ---\n${index}`
+      }
+      return `${this.getAnswerRulesBlock()}\n\n--- 本站节选（回答时优先依据以下内容） ---\n${excerptText}\n\n--- 站点索引（可引用链接列表） ---\n${index}`
+    },
+
+    async loadSiteContext() {
+      if (this.siteContext) {
+        return this.siteContext
+      }
+      if (this.contextLoadPromise) {
+        return this.contextLoadPromise
+      }
+      this.contextLoadPromise = fetch('/ai-chat-context.json', { cache: 'no-store' })
+        .then((r) => {
+          if (!r.ok) throw new Error(`HTTP ${r.status}`)
+          return r.json()
+        })
+        .then((data) => {
+          this.siteContext = data
+          return data
+        })
+        .catch(() => {
+          this.siteContext = { zh: {}, en: {} }
+          return this.siteContext
+        })
+        .finally(() => {
+          this.contextLoadPromise = null
+        })
+      return this.contextLoadPromise
+    },
+
+    buildSiteMapText(loc) {
+      const rows = this.siteIndex[loc] || []
+      return rows.map((r) => `${r.path}\t${r.title}`).join('\n')
+    },
+
+    getRouterSystemPrompt() {
+      const max = this.config && this.config.routerMaxPaths != null ? this.config.routerMaxPaths : 8
+      if (this.isEn) {
+        return `You are a site navigation and retrieval planner for the Cislunar Space Beginner's Guide. You ONLY choose page paths that appear in the site map; paths must match exactly (including trailing slash). Task: for the user question, pick between 3 and ${max} of the most relevant paths to answer it (fewer is OK if only a few apply). You may return an empty "paths" array if nothing in the map is relevant. Reply with ONE JSON object only, no other text, no markdown fences, like: {"paths":["/en/some-page/","/en/glossary/foo/"],"rationale":"one short sentence"}. "paths" is an array of strings. Do not fabricate paths.`
+      }
+      return `你是本站「全站导览与检索」模块。你只能从站点地图里出现的 path 中选择；path 必须与地图逐字一致（含尾部斜杠）。任务：根据用户问题，在地图中挑选约 3～${max} 个最相关的页面（若确实很少相关也可以更少）。若地图中无帮助，"paths" 用空数组。只输出一个 JSON 对象，不要其他文字、不要用 markdown 代码块，例如：{"paths":["/glossary/cr3bp/","/cislunar-orbits/"],"rationale":"一句话说明"}。"paths" 为字符串数组。不要编造不存在的 path。`
+    },
+
+    buildRouterUserMessage(historyMessages, currentText) {
+      const tail = historyMessages.slice(-6)
+      const parts = []
+      if (this.isEn) {
+        if (tail.length) {
+          parts.push('Recent messages (condensed for routing):')
+          for (const m of tail) {
+            const c = m.content && m.content.length > 500 ? m.content.slice(0, 500) + '…' : m.content
+            parts.push(`${m.role}: ${c}`)
+          }
+          parts.push('')
+        }
+        parts.push('Current user question:')
+        parts.push(currentText)
+      } else {
+        if (tail.length) {
+          parts.push('（以下为近期对话摘要，供理解指代，选页仍以当前问题为主）')
+          for (const m of tail) {
+            const c = m.content && m.content.length > 500 ? m.content.slice(0, 500) + '…' : m.content
+            parts.push(`${m.role}：${c}`)
+          }
+          parts.push('')
+        }
+        parts.push('当前用户问题：')
+        parts.push(currentText)
+      }
+      return parts.join('\n')
+    },
+
+    normalizePath(p) {
+      if (typeof p !== 'string' || !p.trim()) {
+        return null
+      }
+      let x = p.trim()
+      if (!x.startsWith('/')) {
+        x = `/${x}`
+      }
+      if (!x.endsWith('/')) {
+        x = `${x}/`
+      }
+      return x
+    },
+
+    normalizeAndValidatePaths(rawPaths, loc) {
+      const max = (this.config && this.config.routerMaxPaths) || 8
+      const map = (loc === 'en' ? this.siteIndex.en : this.siteIndex.zh) || []
+      const allowed = new Set(map.map((r) => r.path))
+      const out = []
+      if (!Array.isArray(rawPaths)) {
+        return out
+      }
+      for (const r of rawPaths) {
+        const p = this.normalizePath(r)
+        if (p && allowed.has(p) && out.indexOf(p) === -1) {
+          out.push(p)
+        }
+        if (out.length >= max) break
+      }
+      return out
+    },
+
+    parseRouterResponse(raw) {
+      if (typeof raw !== 'string' || !raw.trim()) {
+        return { paths: [] }
+      }
+      let s = raw.trim()
+      const fence = s.match(/```(?:json)?\s*([\s\S]*?)```/)
+      if (fence) {
+        s = fence[1].trim()
+      }
+      try {
+        const o = JSON.parse(s)
+        const arr = o.paths
+        if (Array.isArray(arr)) {
+          return { paths: arr }
+        }
+      } catch (e) {
+      }
+      return { paths: [] }
+    },
+
+    fallbackKeywordPaths(question, loc) {
+      const list = (this.siteIndex[loc] || [])
+      if (!list.length || !question) {
+        return []
+      }
+      const max = 4
+      const q = question.toLowerCase()
+      const terms = q.split(/[\s,，。、；!？?]+/).filter((x) => x.length > 1)
+      const scored = list
+        .map((item) => {
+          const hay = `${item.path} ${item.title}`.toLowerCase()
+          let s = 0
+          for (const t of terms) {
+            if (t.length > 1 && hay.includes(t)) {
+              s += 3
+            }
+          }
+          for (const ch of question) {
+            if (ch.trim() && hay.includes(String(ch).toLowerCase())) {
+              s += 0.2
+            }
+          }
+          return { p: item.path, s }
+        })
+        .filter((x) => x.s > 0)
+        .sort((a, b) => b.s - a.s)
+      return scored.slice(0, max).map((x) => x.p)
+    },
+
+    buildContextBlob(ctx, loc, paths) {
+      const bag = loc === 'en' ? ctx.en : ctx.zh
+      const budget = (this.config && this.config.twoPhaseContextCharBudget) || 45000
+      const parts = []
+      let used = 0
+      for (const p of paths) {
+        const rec = bag[p]
+        if (!rec) {
+          continue
+        }
+        const block = `--- ${p}\n# ${rec.title || p}\n\n${rec.text || ''}\n`
+        if (used + block.length > budget) {
+          const left = Math.max(0, budget - used - 50)
+          if (left < 200) {
+            break
+          }
+          parts.push(`${block.slice(0, left)}…\n[${this.isEn ? 'truncated' : '已截断'}]`)
+          break
+        }
+        used += block.length
+        parts.push(block)
+      }
+      return parts.length ? parts.join('\n') : null
+    },
+
+    pushProcessStep(assistantMessage, { label, detail = '' }) {
+      if (!assistantMessage.processSteps) {
+        assistantMessage.processSteps = []
+      }
+      for (const s of assistantMessage.processSteps) {
+        if (s.status === 'running') s.status = 'done'
+      }
+      assistantMessage.processSteps.push({ label, status: 'running', detail })
+    },
+
+    completeLastProcess(assistantMessage, detail) {
+      const s = assistantMessage.processSteps
+      if (!s || !s.length) return
+      const last = s[s.length - 1]
+      if (last.status === 'running') last.status = 'done'
+      if (detail != null && String(detail).length) {
+        last.detail = detail
+      }
+    },
+
+    finalizeAllProcessSteps(assistantMessage) {
+      if (!assistantMessage || !assistantMessage.processSteps) return
+      for (const step of assistantMessage.processSteps) {
+        if (step.status === 'running') step.status = 'done'
+      }
+    },
+
+    formatPathList(paths, loc) {
+      if (!Array.isArray(paths) || !paths.length) {
+        return ''
+      }
+      const rows = (this.siteIndex[loc] || []) 
+      const map = new Map(rows.map((r) => [r.path, r.title]))
+      return paths
+        .slice(0, 8)
+        .map((p) => map.get(p) || p)
+        .join(' · ')
+    },
+
+    async callChatJson(payload, signal) {
+      const res = await fetch(this.config.apiEndpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...payload,
+          stream: false
+        }),
+        signal
+      })
+      if (!res.ok) {
+        const t = await res.text()
+        throw new Error(`HTTP ${res.status} ${t}`)
+      }
+      const data = await res.json()
+      return data.choices && data.choices[0] && data.choices[0].message
+        ? data.choices[0].message.content
+        : ''
     },
 
     startNewChat() {
@@ -609,6 +954,7 @@ export default {
         this.abortController = null
       }
       this.isLoading = false
+      this.loadingPhase = ''
     },
 
     async sendMessage() {
@@ -618,13 +964,14 @@ export default {
       this.messages.push({ role: 'user', content: text })
       this.userInput = ''
       this.isLoading = true
+      this.loadingPhase = 'answer'
       this.scrollToBottom()
 
       if (this.$refs.inputRef) {
         this.$refs.inputRef.style.height = 'auto'
       }
 
-      const assistantMessage = { role: 'assistant', content: '' }
+      const assistantMessage = { role: 'assistant', content: '', reasoning: '', processSteps: [] }
       this.messages.push(assistantMessage)
 
       this.abortController = new AbortController()
@@ -636,14 +983,89 @@ export default {
           .slice(-maxHistory * 2)
           .map((message) => ({ role: message.role, content: message.content }))
 
+        let systemPrompt = this.getSystemPrompt()
+        let usedTwoPhase = false
+        const loc = this.isEn ? 'en' : 'zh'
+        const indexRows = this.siteIndex[loc] || []
+        if (
+          this.useTwoPhase &&
+          this.config.twoPhaseRetrieval !== false &&
+          indexRows.length
+        ) {
+          try {
+            this.loadingPhase = 'router'
+            this.pushProcessStep(assistantMessage, { label: this.t('stepNav') })
+            const mapText = this.buildSiteMapText(loc)
+            const routerUser = this.buildRouterUserMessage(historyMessages, text)
+            const routerBody = {
+              model: this.config.routerModel || this.config.model,
+              max_tokens: 800,
+              temperature: this.config.routerTemperature == null ? 0.2 : this.config.routerTemperature,
+              messages: [
+                { role: 'system', content: this.getRouterSystemPrompt() },
+                {
+                  role: 'user',
+                  content: `${this.isEn ? 'Site map: one line per row as path<tab>title' : '站点地图：每行 path<tab>title'}\n\n${mapText}\n\n---\n\n${routerUser}`
+                }
+              ]
+            }
+            const rawRouter = await this.callChatJson(routerBody, this.abortController.signal)
+            this.loadingPhase = 'answer'
+            let chosen = this.normalizeAndValidatePaths(
+              this.parseRouterResponse(rawRouter).paths,
+              loc
+            )
+            if (chosen.length === 0) {
+              chosen = this.fallbackKeywordPaths(text, loc)
+            }
+            if (chosen.length) {
+              this.completeLastProcess(assistantMessage, this.formatPathList(chosen, loc) || (this.isEn ? 'ok' : '已选'))
+              this.pushProcessStep(assistantMessage, { label: this.t('stepExcerpt') })
+              const ctx = await this.loadSiteContext()
+              const blob = this.buildContextBlob(ctx, loc, chosen)
+              this.completeLastProcess(
+                assistantMessage,
+                blob
+                  ? (this.isEn ? 'Excerpts loaded' : '已载入正文节选')
+                  : (this.isEn ? 'Falling back to site index' : '节选为空，改用全站索引')
+              )
+              if (blob) {
+                systemPrompt = this.getAnswerSystemWithRetrieved(blob)
+                usedTwoPhase = true
+              }
+            } else {
+              this.completeLastProcess(assistantMessage, this.t('noStrongMatch'))
+            }
+            this.pushProcessStep(assistantMessage, { label: this.t('stepAnswer') })
+          } catch (routerErr) {
+            this.loadingPhase = 'answer'
+            if (routerErr && routerErr.name === 'AbortError') {
+              this.messages.pop()
+              this.isLoading = false
+              this.loadingPhase = ''
+              this.abortController = null
+              return
+            }
+            if (assistantMessage.processSteps && assistantMessage.processSteps.length) {
+              this.completeLastProcess(assistantMessage, this.isEn ? 'error' : '导览未成功')
+            }
+            this.pushProcessStep(assistantMessage, { label: this.t('stepAnswer') })
+            systemPrompt = this.getSystemPrompt()
+          }
+        } else {
+          this.loadingPhase = 'answer'
+          this.pushProcessStep(assistantMessage, { label: this.t('stepAnswerAlone') })
+        }
+        if (!usedTwoPhase) {
+          systemPrompt = this.getSystemPrompt()
+        }
+
+        const useStream = this.config.stream !== false
         const payload = {
           model: this.config.model,
-          messages: [
-            { role: 'system', content: this.config.systemPrompt },
-            ...historyMessages
-          ],
+          messages: [{ role: 'system', content: systemPrompt }, ...historyMessages],
           temperature: this.config.temperature == null ? 0.7 : this.config.temperature,
-          stream: true
+          stream: useStream
         }
 
         const response = await fetch(this.config.apiEndpoint, {
@@ -659,11 +1081,15 @@ export default {
           throw new Error(`HTTP ${response.status} ${response.statusText}`)
         }
 
-        if (response.body && response.body.getReader) {
+        if (useStream && response.body && response.body.getReader) {
           await this.readStream(response.body.getReader(), assistantMessage)
         } else {
           const data = await response.json()
-          assistantMessage.content = data.choices?.[0]?.message?.content || this.t('emptyReply')
+          const msg = data.choices?.[0]?.message
+          assistantMessage.content = msg?.content || this.t('emptyReply')
+          if (msg?.reasoning_content) {
+            assistantMessage.reasoning = String(msg.reasoning_content)
+          }
         }
 
         if (!assistantMessage.content.trim()) {
@@ -677,7 +1103,9 @@ export default {
 
         assistantMessage.content = `${this.t('networkError')} ${error.message}`
       } finally {
+        this.finalizeAllProcessSteps(assistantMessage)
         this.isLoading = false
+        this.loadingPhase = ''
         this.abortController = null
         this.saveCurrentChat()
         this.scrollToBottom()
@@ -705,9 +1133,14 @@ export default {
 
           try {
             const parsed = JSON.parse(data)
-            const delta = parsed.choices?.[0]?.delta?.content
-            if (delta) {
-              assistantMessage.content += delta
+            const delta = parsed.choices?.[0]?.delta
+            if (delta && delta.reasoning_content) {
+              if (!assistantMessage.reasoning) assistantMessage.reasoning = ''
+              assistantMessage.reasoning += delta.reasoning_content
+              this.scrollToBottom('auto')
+            }
+            if (delta && delta.content) {
+              assistantMessage.content += delta.content
               this.scrollToBottom('auto')
             }
           } catch (error) {
@@ -720,9 +1153,13 @@ export default {
         if (data && data !== '[DONE]') {
           try {
             const parsed = JSON.parse(data)
-            const delta = parsed.choices?.[0]?.delta?.content
-            if (delta) {
-              assistantMessage.content += delta
+            const delta = parsed.choices?.[0]?.delta
+            if (delta && delta.reasoning_content) {
+              if (!assistantMessage.reasoning) assistantMessage.reasoning = ''
+              assistantMessage.reasoning += delta.reasoning_content
+            }
+            if (delta && delta.content) {
+              assistantMessage.content += delta.content
             }
           } catch (error) {
           }
@@ -752,33 +1189,37 @@ export default {
 
 <style scoped>
 .ai-chat-root {
-  --chat-bg: #ffffff;
-  --chat-bg-secondary: #f7f7f8;
-  --chat-bg-tertiary: #ececf1;
-  --chat-border: #c8cdd5;
-  --chat-text: #374151;
-  --chat-text-primary: #111827;
-  --chat-text-secondary: #6b7280;
-  --chat-text-tertiary: #9ca3af;
-  --chat-accent: #2563eb;
-  --chat-accent-hover: #1d4ed8;
-  --chat-user-bubble: #2563eb;
+  /* 与站点 vars.scss 深空青对齐 */
+  --chat-bg: transparent;
+  --chat-bg-secondary: #f0f9ff;
+  --chat-bg-tertiary: #e0f2fe;
+  --chat-surface: rgba(255, 255, 255, 0.88);
+  --chat-surface-2: #ffffff;
+  --chat-border: #e2e8f0;
+  --chat-text: #334155;
+  --chat-text-primary: #0f172a;
+  --chat-text-secondary: #64748b;
+  --chat-text-tertiary: #94a3b8;
+  --chat-accent: #0ea5e9;
+  --chat-accent-hover: #0284c7;
+  --chat-user-bubble: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
   --chat-user-text: #ffffff;
-  --chat-sidebar-bg: #f9fafb;
-  --chat-sidebar-hover: #f3f4f6;
-  --chat-sidebar-active: #e5e7eb;
-  --chat-input-bg: #ffffff;
-  --chat-input-border: #c8cdd5;
-  --chat-input-focus: #2563eb;
-  --chat-message-border: #dde1e7;
-  --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --chat-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  --chat-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+  --chat-sidebar-bg: rgba(248, 250, 252, 0.92);
+  --chat-sidebar-hover: rgba(14, 165, 233, 0.08);
+  --chat-sidebar-active: rgba(14, 165, 233, 0.14);
+  --chat-input-bg: rgba(255, 255, 255, 0.95);
+  --chat-input-border: #cbd5e1;
+  --chat-input-focus: #0ea5e9;
+  --chat-assistant-surface: rgba(241, 245, 249, 0.85);
+  --chat-shadow-sm: var(--shadow-sm, 0 1px 2px rgba(15, 23, 42, 0.05));
+  --chat-shadow-md: var(--shadow-md, 0 4px 12px rgba(15, 23, 42, 0.08));
+  --chat-shadow-lg: var(--shadow-lg, 0 12px 32px rgba(15, 23, 42, 0.1));
+  --chat-glow: 0 0 0 1px rgba(14, 165, 233, 0.12);
   --chat-radius-sm: 8px;
   --chat-radius-md: 12px;
   --chat-radius-lg: 16px;
-  --chat-radius-xl: 24px;
-  --chat-scrollbar-thumb: #c1c1c1;
+  --chat-radius-xl: 20px;
+  --chat-scrollbar-thumb: #cbd5e1;
   --chat-scrollbar-track: transparent;
   box-sizing: border-box;
 }
@@ -790,29 +1231,32 @@ export default {
 }
 
 .ai-chat-root.dark {
-  --chat-bg: #212121;
-  --chat-bg-secondary: #2f2f2f;
-  --chat-bg-tertiary: #383838;
-  --chat-border: #424242;
-  --chat-text: #d1d5db;
-  --chat-text-primary: #f3f4f6;
-  --chat-text-secondary: #9ca3af;
-  --chat-text-tertiary: #6b7280;
-  --chat-accent: #60a5fa;
-  --chat-accent-hover: #93bbfd;
-  --chat-user-bubble: #3b82f6;
+  --chat-bg: transparent;
+  --chat-bg-secondary: rgba(30, 41, 59, 0.5);
+  --chat-bg-tertiary: #334155;
+  --chat-surface: rgba(15, 23, 42, 0.75);
+  --chat-surface-2: #1e293b;
+  --chat-border: #334155;
+  --chat-text: #cbd5e1;
+  --chat-text-primary: #f1f5f9;
+  --chat-text-secondary: #94a3b8;
+  --chat-text-tertiary: #64748b;
+  --chat-accent: #38bdf8;
+  --chat-accent-hover: #7dd3fc;
+  --chat-user-bubble: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
   --chat-user-text: #ffffff;
-  --chat-sidebar-bg: #171717;
-  --chat-sidebar-hover: #2a2a2a;
-  --chat-sidebar-active: #333333;
-  --chat-input-bg: #2f2f2f;
-  --chat-input-border: #424242;
-  --chat-input-focus: #60a5fa;
-  --chat-message-border: #383838;
-  --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --chat-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-  --chat-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-  --chat-scrollbar-thumb: #555;
+  --chat-sidebar-bg: rgba(15, 23, 42, 0.88);
+  --chat-sidebar-hover: rgba(56, 189, 248, 0.1);
+  --chat-sidebar-active: rgba(56, 189, 248, 0.16);
+  --chat-input-bg: rgba(30, 41, 59, 0.95);
+  --chat-input-border: #475569;
+  --chat-input-focus: #38bdf8;
+  --chat-assistant-surface: rgba(30, 41, 59, 0.65);
+  --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --chat-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --chat-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
+  --chat-glow: 0 0 0 1px rgba(56, 189, 248, 0.2);
+  --chat-scrollbar-thumb: #475569;
   --chat-scrollbar-track: transparent;
 }
 
@@ -823,15 +1267,18 @@ export default {
   width: 100%;
   background: var(--chat-bg);
   color: var(--chat-text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
   overflow: hidden;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 .chat-sidebar {
-  width: 260px;
-  min-width: 260px;
+  width: 272px;
+  min-width: 272px;
   background: var(--chat-sidebar-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-right: 1px solid var(--chat-border);
   display: flex;
   flex-direction: column;
@@ -846,21 +1293,25 @@ export default {
 .sidebar-new-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   width: 100%;
-  padding: 0.6rem 0.75rem;
-  border: 1px solid var(--chat-border);
-  border-radius: var(--chat-radius-sm);
-  background: transparent;
-  color: var(--chat-text-primary);
+  padding: 0.65rem 0.9rem;
+  border: none;
+  border-radius: var(--chat-radius-md);
+  background: var(--chat-accent);
+  color: #fff;
   cursor: pointer;
   font-size: 0.875rem;
-  font-weight: 500;
-  transition: background 0.15s ease;
+  font-weight: 600;
+  font-family: var(--font-family-heading);
+  box-shadow: var(--chat-glow);
+  transition: background 0.2s ease, transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
 
 .sidebar-new-btn:hover:not(:disabled) {
-  background: var(--chat-sidebar-hover);
+  background: var(--chat-accent-hover);
+  transform: translateY(-1px);
 }
 
 .sidebar-new-btn:disabled {
@@ -973,10 +1424,13 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.25rem;
   border-bottom: 1px solid var(--chat-border);
-  min-height: 52px;
-  transition: border-color 0.3s ease;
+  min-height: 3.25rem;
+  background: var(--chat-surface);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: border-color 0.3s ease, background 0.3s ease;
 }
 
 .header-menu-btn {
@@ -998,12 +1452,27 @@ export default {
 }
 
 .header-title {
-  font-size: 0.9375rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--font-family-heading);
+  letter-spacing: 0.02em;
   color: var(--chat-text-primary);
   margin: 0;
   border: none;
   padding: 0;
+}
+
+.header-title-pulse {
+  color: var(--chat-accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  animation: routerPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes routerPulse {
+  0%,
+  100% { opacity: 0.9; }
+  50% { opacity: 0.5; }
 }
 
 .header-actions {
@@ -1078,11 +1547,11 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 2rem 2rem;
-  max-width: 680px;
+  padding: 3rem 1.5rem 2rem;
+  max-width: 720px;
   margin: 0 auto;
   text-align: center;
-  animation: fadeInUp 0.5s ease;
+  animation: fadeInUp 0.5s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
 
 @keyframes fadeInUp {
@@ -1090,18 +1559,56 @@ export default {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.welcome-icon {
+.welcome-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--chat-accent);
-  margin-bottom: 1.25rem;
-  opacity: 0.8;
+  margin: 0 0 1.25rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(14, 165, 233, 0.1);
+  border: 1px solid rgba(14, 165, 233, 0.22);
+  font-family: var(--font-family-heading);
+}
+
+.ai-chat-root.dark .welcome-eyebrow {
+  background: rgba(56, 189, 248, 0.12);
+  border-color: rgba(56, 189, 248, 0.25);
+}
+
+.welcome-icon-wrap {
+  margin-bottom: 1.35rem;
+}
+
+.welcome-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  color: var(--chat-accent);
+  background: linear-gradient(145deg, rgba(14, 165, 233, 0.12) 0%, rgba(2, 132, 199, 0.08) 100%);
+  box-shadow: var(--chat-glow), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+}
+
+.ai-chat-root.dark .welcome-icon {
+  background: linear-gradient(145deg, rgba(56, 189, 248, 0.15) 0%, rgba(2, 132, 199, 0.1) 100%);
+  box-shadow: var(--chat-glow);
+  border-color: rgba(56, 189, 248, 0.3);
 }
 
 .welcome-title {
-  font-size: 1.5rem;
+  font-size: clamp(1.35rem, 3.5vw, 1.75rem);
   font-weight: 700;
+  font-family: var(--font-family-heading);
   color: var(--chat-text-primary);
   margin: 0 0 0.5rem;
   border: none;
+  line-height: 1.3;
 }
 
 .welcome-desc {
@@ -1123,23 +1630,24 @@ export default {
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
-  padding: 0.875rem 1rem;
+  padding: 0.9rem 1.05rem;
   border: 1px solid var(--chat-border);
   border-radius: var(--chat-radius-md);
-  background: var(--chat-bg);
-  color: var(--chat-text);
+  background: var(--chat-surface-2);
+  color: var(--chat-text-primary);
   cursor: pointer;
   text-align: left;
   font-size: 0.8125rem;
-  line-height: 1.5;
-  transition: all 0.2s ease;
+  line-height: 1.55;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
   box-shadow: var(--chat-shadow-sm);
 }
 
 .suggested-card:hover:not(:disabled) {
-  background: var(--chat-bg-secondary);
+  background: var(--chat-surface-2);
   border-color: var(--chat-accent);
   box-shadow: var(--chat-shadow-md);
+  transform: translateY(-2px);
 }
 
 .suggested-card:disabled {
@@ -1164,8 +1672,8 @@ export default {
 }
 
 .chat-message {
-  padding: 1.5rem 0;
-  animation: messageIn 0.3s ease;
+  padding: 1.1rem 0;
+  animation: messageIn 0.35s var(--ease-smooth, cubic-bezier(0.4, 0, 0.2, 1));
 }
 
 @keyframes messageIn {
@@ -1182,14 +1690,174 @@ export default {
   align-items: flex-start;
 }
 
+.message-row.is-assistant-stack {
+  align-items: flex-start;
+}
+
+.assistant-column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.assistant-process {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 0.65rem 0.9rem;
+  border-radius: var(--chat-radius-md);
+  border: 1px solid var(--chat-border);
+  background: rgba(14, 165, 233, 0.06);
+  color: var(--chat-text-secondary);
+}
+
+.ai-chat-root.dark .assistant-process {
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.assistant-process-title {
+  margin: 0 0 0.45rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--chat-accent);
+}
+
+.assistant-process-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.process-step {
+  display: grid;
+  grid-template-columns: 1.125rem minmax(0, 1fr);
+  column-gap: 0.5rem;
+  align-items: start;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--chat-border);
+}
+
+.process-step:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.process-step-icon {
+  grid-column: 1;
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-top: 0.4em;
+  box-sizing: border-box;
+  justify-self: center;
+  align-self: start;
+}
+
+.process-step--running .process-step-icon {
+  background: var(--chat-accent);
+  animation: processPulse 1s ease-in-out infinite;
+}
+
+.process-step--done .process-step-icon {
+  width: 1.125rem;
+  height: auto;
+  min-height: 1.125rem;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.22em;
+  background: none;
+  font-size: 0.75rem;
+  line-height: 1;
+  color: #10b981;
+  font-weight: 700;
+  animation: none;
+}
+
+.process-step--done .process-step-icon::before {
+  content: '✓';
+}
+
+.process-step-main {
+  grid-column: 2;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.process-step-text {
+  color: var(--chat-text-primary);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.process-step--running .process-step-text {
+  color: var(--chat-accent);
+}
+
+.process-step-detail {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--chat-text-tertiary);
+  font-weight: 400;
+  word-break: break-word;
+}
+
+@keyframes processPulse {
+  0%,
+  100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.assistant-reasoning {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  border: 1px solid var(--chat-border);
+  border-radius: var(--chat-radius-md);
+  background: var(--chat-bg-secondary);
+  color: var(--chat-text-secondary);
+  overflow: hidden;
+}
+
+.assistant-reasoning-summary {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--chat-text-primary);
+  list-style: none;
+}
+
+.assistant-reasoning-summary::-webkit-details-marker {
+  display: none;
+}
+
+.assistant-reasoning-body {
+  margin: 0;
+  padding: 0.5rem 0.75rem 0.75rem;
+  border-top: 1px solid var(--chat-border);
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.typing-dots--after-reasoning {
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+}
+
 .user-message {
   background: transparent;
 }
 
 .assistant-message {
-  background: var(--chat-bg-secondary);
-  border-bottom: 1px solid var(--chat-message-border);
-  transition: background 0.3s ease;
+  background: transparent;
 }
 
 .message-avatar {
@@ -1204,13 +1872,20 @@ export default {
 }
 
 .assistant-avatar {
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
   color: #ffffff;
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.35);
+}
+
+.ai-chat-root.dark .assistant-avatar {
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 .user-avatar {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  background: var(--chat-user-bubble);
   color: #ffffff;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.35);
 }
 
 .message-content {
@@ -1224,14 +1899,20 @@ export default {
 .user-content {
   background: var(--chat-user-bubble);
   color: var(--chat-user-text);
-  padding: 0.625rem 1rem;
-  border-radius: var(--chat-radius-lg) var(--chat-radius-lg) 4px var(--chat-radius-lg);
+  padding: 0.65rem 1.05rem;
+  border-radius: var(--chat-radius-lg) var(--chat-radius-lg) 6px var(--chat-radius-lg);
   white-space: pre-wrap;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.2);
 }
 
 .assistant-content {
   color: var(--chat-text-primary);
   white-space: normal;
+  background: var(--chat-assistant-surface);
+  border: 1px solid var(--chat-border);
+  border-radius: 4px var(--chat-radius-lg) var(--chat-radius-lg) var(--chat-radius-lg);
+  padding: 0.75rem 1.05rem;
+  box-shadow: var(--chat-shadow-sm);
 }
 
 .assistant-content :deep(p) {
@@ -1348,8 +2029,10 @@ export default {
 }
 
 .chat-input-wrapper {
-  padding: 0 1.5rem 1rem;
-  background: var(--chat-bg);
+  padding: 0.75rem 1.5rem 1.1rem;
+  background: var(--chat-surface);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid var(--chat-border);
   transition: background 0.3s ease, border-color 0.3s ease;
 }
@@ -1370,11 +2053,11 @@ export default {
 
 .chat-input-box:focus-within {
   border-color: var(--chat-input-focus);
-  box-shadow: var(--chat-shadow-md), 0 0 0 2px rgba(37, 99, 235, 0.15);
+  box-shadow: var(--chat-shadow-md), 0 0 0 3px rgba(14, 165, 233, 0.18);
 }
 
 .ai-chat-root.dark .chat-input-box:focus-within {
-  box-shadow: var(--chat-shadow-md), 0 0 0 2px rgba(96, 165, 250, 0.2);
+  box-shadow: var(--chat-shadow-md), 0 0 0 3px rgba(56, 189, 248, 0.2);
 }
 
 .chat-textarea {
