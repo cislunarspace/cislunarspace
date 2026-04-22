@@ -94,6 +94,9 @@ wechatShare:
 | Apr 22 | [China's First Batch of International Astronauts Selected](./2026-04-22-foreign-astronaut-selection/) |
 | Apr 22 | [NASA at SXSW: Johnson Director Vanessa Wyche on Why Artemis Changes Everything](./2026-04-22-nasa-sxsw/) |
 | Apr 22 | [NASA Wins Two Webby Awards and Five People's Voice Awards at 30th Annual Ceremony](./2026-04-22-nasa-webby-awards/) |
+| Apr 22 | [Long March 4C Successfully Launches Atmospheric Monitoring Satellite](./2026-04-22-daqi-2-launch/) |
+| Apr 22 | [SpaceX Successfully Launches GPS III SV10 Satellite](./2026-04-22-gps-iii-sv10-launch/) |
+| Apr 22 | [Blue Origin's New Glenn Rocket Fails to Reach Orbit](./2026-04-22-new-glenn-failure/) |
 
 ---
 

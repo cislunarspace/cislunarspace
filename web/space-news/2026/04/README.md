@@ -96,6 +96,9 @@ wechatShare:
 | 4-22 | [中国载人航天工程首批外籍航天员选拔完成](./2026-04-22-foreign-astronaut-selection/) |
 | 4-22 | [NASA 约翰逊中心主任在 SXSW 阐述 Artemis 如何改变一切](./2026-04-22-nasa-sxsw/) |
 | 4-22 | [NASA 在第 30 届 Webby 奖评选中斩获两项大奖及五项人民之声奖](./2026-04-22-nasa-webby-awards/) |
+| 4-22 | [长征四号丙成功发射大气环境监测卫星](./2026-04-22-daqi-2-launch/) |
+| 4-22 | [SpaceX成功发射GPS III SV10卫星](./2026-04-22-gps-iii-sv10-launch/) |
+| 4-22 | [Blue Origin新格伦号火箭发射失败](./2026-04-22-new-glenn-failure/) |
 
 ---
 
