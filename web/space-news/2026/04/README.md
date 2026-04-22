@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-22
+lastUpdated: 2026-04-23
 wechatShare:
   title: "航天动态 · 2026 年 4 月"
   desc: "2026 年 4 月航天新闻条目索引。"
@@ -102,6 +102,8 @@ wechatShare:
 | 4-22 | [NASA 公布 Artemis II 任务拍摄的地球明暗界线影像](./2026-04-22-night-and-earth-day/) |
 | 4-22 | [NASA 地球观测卫星影像：华盛顿郊区绿带](./2026-04-22-belts-of-green/) |
 | 4-22 | [NASA Nancy Grace 罗马太空望远镜瞄准2026年9月初发射](./2026-04-22-roman-space-telescope/) |
+| 4-22 | [NASA波音777改装完成重返机队，先进空中实验室即将启用](./2026-04-22-nasa-777-aircraft/) |
+| 4-22 | [NASA宣布宇航员Anil Menon新闻发布会，预告即将执行的国际空间站任务](./2026-04-22-nasa-anil-menon/) |
 
 ---
 
