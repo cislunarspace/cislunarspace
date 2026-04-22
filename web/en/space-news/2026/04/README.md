@@ -89,6 +89,8 @@ wechatShare:
 | Apr 22 | [NASA Releases New Earth Views from Artemis II Mission: Phytoplankton Blooms and Auroras Captured](./2026-04-22-nasa-pace-earth-views/) |
 | Apr 22 | [NASA Earth Observatory Releases Satellite Image of Green Spaces in Washington Suburbs](./2026-04-22-nasa-greenbelts/) |
 | Apr 22 | [Curiosity Rover Sols 4867-4872: Exploring Antofagasta Crater and Selecting Next Drill Target](./2026-04-22-curiosity-sol-4867/) |
+| Apr 22 | [FAA Grounds Blue Origin's New Glenn After Launch Fails to Deliver Payload to Correct Orbit](./2026-04-22-faa-new-glenn-grounded/) |
+| Apr 22 | [2026 China Space Conference (CSC2026) to Open in Chengdu on April 23](./2026-04-22-csc2026-preview/) |
 
 ---
 

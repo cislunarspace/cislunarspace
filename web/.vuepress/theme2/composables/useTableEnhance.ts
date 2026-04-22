@@ -1,6 +1,14 @@
-const PAGE_CONTENT_ROOT = '.vp-page [vp-content]'
+/** 与 VPPage 结构一致；若未来主题调整类名，可再追加 fallback */
+const PAGE_CONTENT_QUERIES = [
+  '.vp-theme-container .vp-page [vp-content]',
+  '.vp-page [vp-content]',
+] as const
 
 let toolbarListenerAttached = false
+let tableDomObserver: MutationObserver | null = null
+let tableEnhanceObserverActive = false
+let enhanceDebounceT: ReturnType<typeof setTimeout> | null = null
+const ENHANCE_DEBOUNCE_MS = 48
 
 function isEnPath(): boolean {
   return (typeof window !== 'undefined' && window.location.pathname.startsWith('/en/'))
@@ -160,12 +168,25 @@ function wrapTable(table: HTMLTableElement, index0: number) {
   block.append(toolbar, sc)
 }
 
+function getContentRoots(): HTMLElement[] {
+  const seen = new Set<HTMLElement>()
+  for (const q of PAGE_CONTENT_QUERIES) {
+    document.querySelectorAll(q).forEach((el) => {
+      if (el instanceof HTMLElement) seen.add(el)
+    })
+  }
+  if (seen.size) return [...seen]
+  document.querySelectorAll('[vp-content]').forEach((el) => {
+    if (el instanceof HTMLElement && el.closest('.vp-theme-container')) seen.add(el)
+  })
+  return [...seen]
+}
+
 export function enhanceContentTables() {
-  const roots = document.querySelectorAll(PAGE_CONTENT_ROOT)
+  const roots = getContentRoots()
   if (!roots.length) return
   let globalIndex = 0
   roots.forEach((root) => {
-    if (!(root instanceof HTMLElement)) return
     const raw = Array.from(root.querySelectorAll('table')) as HTMLTableElement[]
     const toWrap = raw.filter((t) => !t.closest('.vp-table-block'))
     toWrap.forEach((table) => {
@@ -173,6 +194,57 @@ export function enhanceContentTables() {
       globalIndex += 1
     })
   })
+}
+
+function scheduleTableEnhanceDebounced() {
+  if (typeof window === 'undefined') return
+  if (enhanceDebounceT != null) clearTimeout(enhanceDebounceT)
+  enhanceDebounceT = setTimeout(() => {
+    enhanceDebounceT = null
+    enhanceContentTables()
+  }, ENHANCE_DEBOUNCE_MS)
+}
+
+/**
+ * Content 常略晚于路由/commit 才插入 DOM，单次 nextTick+RAF 会错过表格，需观察子树或延时补跑。
+ */
+export function startTableEnhanceObserver() {
+  if (
+    tableEnhanceObserverActive
+    || typeof window === 'undefined'
+    || typeof MutationObserver === 'undefined'
+  ) {
+    return
+  }
+  tableEnhanceObserverActive = true
+
+  const connect = () => {
+    if (tableDomObserver) return
+    const target =
+      document.querySelector('.vp-theme-container') || document.querySelector('main') || document.body
+    if (!target) return
+    tableDomObserver = new MutationObserver(() => {
+      scheduleTableEnhanceDebounced()
+    })
+    tableDomObserver.observe(target, { childList: true, subtree: true })
+    enhanceContentTables()
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', connect, { once: true })
+  } else {
+    connect()
+  }
+}
+
+export function stopTableEnhanceObserver() {
+  tableDomObserver?.disconnect()
+  tableDomObserver = null
+  tableEnhanceObserverActive = false
+  if (enhanceDebounceT != null) {
+    clearTimeout(enhanceDebounceT)
+    enhanceDebounceT = null
+  }
 }
 
 export function setupTableToolbar() {
@@ -186,4 +258,5 @@ export function teardownTableToolbar() {
     document.removeEventListener('click', onToolbarClick)
     toolbarListenerAttached = false
   }
+  stopTableEnhanceObserver()
 }

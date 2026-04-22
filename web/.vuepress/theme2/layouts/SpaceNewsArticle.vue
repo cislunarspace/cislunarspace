@@ -49,9 +49,9 @@ const newsHome = computed(() => isEn.value ? '/en/space-news/' : '/space-news/')
 </script>
 
 <style lang="scss">
-/* Hide default VuePress H1 on SpaceNewsArticle pages (ArticleHero provides the H1) */
-[vp-content] > h1:first-child {
-  display: none;
+/* 与 ArticleHero 重复：Markdown 首段 H1 不一定为 [vp-content] 的直接子节点，故不用 > */
+.vp-theme-container.sn-article-layout [vp-content] h1:first-of-type {
+  display: none !important;
 }
 
 /* 桌面端隐藏原生侧边栏，使用自定义 SpaceNewsSidebar；保留移动端导航菜单 */

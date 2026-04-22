@@ -294,6 +294,10 @@ function escapeHtml(text) {
     .replace(/"/g, '&quot;')
 }
 
+// 占位符用私有区字符包裹，避免 %%、_ 等与下划线斜体/其它 Markdown 规则冲突后无法还原（此前会出现 %%KATEX2%% 等残片）
+const KATEX_PLACEHOLDER_START = '\uE000K'
+const KATEX_PLACEHOLDER_END = '\uE001'
+
 function renderKatex(text) {
   const placeholders = []
   let nextText = String(text || '')
@@ -307,7 +311,7 @@ function renderKatex(text) {
       placeholders.push(escapeHtml(source))
     }
 
-    return `%%KATEX_${id}%%`
+    return `${KATEX_PLACEHOLDER_START}${id}${KATEX_PLACEHOLDER_END}`
   }
 
   nextText = nextText.replace(/\$\$([\s\S]+?)\$\$/g, function(_, source) {
@@ -335,6 +339,19 @@ function renderKatex(text) {
 function renderInlineMarkdown(text, placeholders) {
   let html = escapeHtml(text)
 
+  // 先展开数学占位符，再跑粗体/斜体/链接，避免 KATEX 下划线或 % 与 Markdown 规则相互破坏
+  html = html
+    .replace(/\uE000K(\d+)\uE001/g, function (_, id) {
+      return placeholders[Number(id)] || ''
+    })
+    .replace(/%%KATEX_(\d+)%%/g, function (_, id) {
+      return placeholders[Number(id)] || ''
+    })
+    // 少数情况下模型/残存文本会少写一个下划线
+    .replace(/%%KATEX(\d+)%%/g, function (_, id) {
+      return placeholders[Number(id)] || ''
+    })
+
   html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)\)/g, function(_, label, href) {
     return `<a href="${href}" class="chat-link">${label}</a>`
   })
@@ -351,31 +368,116 @@ function renderInlineMarkdown(text, placeholders) {
     return `${prefix}<a href="${href}" class="chat-link">${href}</a>`
   })
 
-  html = html.replace(/%%KATEX_(\d+)%%/g, function(_, id) {
-    return placeholders[Number(id)] || ''
+  return html
+}
+
+function splitTableRowCells(line) {
+  const t = String(line).trim()
+  if (!t.includes('|')) return []
+  const raw = t.startsWith('|') ? t : `|${t}`
+  const withEnd = raw.endsWith('|') ? raw : `${raw}|`
+  const segs = withEnd.split('|')
+  // 去掉因首尾 | 产生的空段
+  return segs.slice(1, -1).map(s => s.trim())
+}
+
+// GFM 表格分隔行：单元格无正文，仅由 :- 与至少一段横线组成
+function isTableAlignmentLine(line) {
+  const parts = splitTableRowCells(line)
+  if (parts.length < 1) return false
+  return parts.every(p => /^[:\-|\s]+$/.test(p) && /-/.test(p) && !/[0-9A-Za-z\u4e00-\u9fff]/.test(p))
+}
+
+function isProbableTableRowLine(line) {
+  const t = String(line).trim()
+  if (!t.includes('|')) return false
+  if (isTableAlignmentLine(t)) return false
+  return splitTableRowCells(t).length >= 1
+}
+
+function renderTableHtml(headerLine, bodyLines, placeholders) {
+  const headerCells = splitTableRowCells(headerLine)
+  if (headerCells.length === 0) return ''
+  const colCount = headerCells.length
+  const th = headerCells.map(c => `<th>${renderInlineMarkdown(c, placeholders)}</th>`).join('')
+
+  const trs = bodyLines.map(rowLine => {
+    let cells = splitTableRowCells(rowLine)
+    if (cells.length < colCount) {
+      while (cells.length < colCount) cells.push('')
+    } else if (cells.length > colCount) {
+      cells = cells.slice(0, colCount)
+    }
+    return `<tr>${cells.map(c => `<td>${renderInlineMarkdown(c, placeholders)}</td>`).join('')}</tr>`
   })
 
-  return html
+  return `<div class="chat-md-table-wrap"><table class="chat-md-table"><thead><tr>${th}</tr></thead><tbody>${trs.join('')}</tbody></table></div>`
 }
 
 function renderLinkedHtml(text) {
   const katexResult = renderKatex(text)
   const lines = katexResult.text.split('\n')
   const html = []
+  let i = 0
 
-  for (const line of lines) {
-    const trimmed = line.trim()
+  while (i < lines.length) {
+    const raw = lines[i]
+    const trimmed = String(raw).trim()
 
-    if (!trimmed) continue
+    if (!trimmed) {
+      i++
+      continue
+    }
+
+    // GFM 表格：表头行 + 分隔行 + 若干数据行（首行在分隔线之后必须仍是 | 行，否则视为假表头）
+    if (i + 1 < lines.length) {
+      const nextTrim = String(lines[i + 1]).trim()
+      if (isProbableTableRowLine(trimmed) && isTableAlignmentLine(nextTrim)) {
+        const firstData = i + 2 < lines.length ? String(lines[i + 2]).trim() : ''
+        const isRealTable = !firstData || isProbableTableRowLine(String(lines[i + 2]))
+        if (isRealTable) {
+          const body = []
+          let j = i + 2
+          while (j < lines.length) {
+            const rowT = String(lines[j]).trim()
+            if (!rowT) break
+            if (!isProbableTableRowLine(rowT)) break
+            body.push(rowT)
+            j++
+          }
+          html.push(renderTableHtml(trimmed, body, katexResult.placeholders))
+          i = j
+          continue
+        }
+      }
+    }
 
     const headingMatch = trimmed.match(/^(#{1,6})\s+(.+)$/)
     if (headingMatch) {
       const level = headingMatch[1].length
-      html.push(`<h${level}>${renderInlineMarkdown(headingMatch[2], katexResult.placeholders)}</h${level}>`)
+      html.push(
+        `<h${level}>${renderInlineMarkdown(headingMatch[2], katexResult.placeholders)}</h${level}>`
+      )
+      i++
       continue
     }
 
-    html.push(`<p>${renderInlineMarkdown(line, katexResult.placeholders)}</p>`)
+    if (trimmed.startsWith('>')) {
+      const bq = []
+      while (i < lines.length) {
+        const lt = String(lines[i]).trim()
+        if (!lt) break
+        if (!lt.startsWith('>')) break
+        bq.push(lt.replace(/^>\s?/, ''))
+        i++
+      }
+      const inner = bq.map(l => renderInlineMarkdown(l, katexResult.placeholders)).join('<br/>')
+      html.push(`<blockquote class="chat-md-blockquote">${inner}</blockquote>`)
+      continue
+    }
+
+    html.push(`<p>${renderInlineMarkdown(raw, katexResult.placeholders)}</p>`)
+    i++
   }
 
   return sanitizeGeneratedHtml(html.join(''))
@@ -1923,6 +2025,43 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
 
 .assistant-content :deep(p:last-child) {
   margin-bottom: 0;
+}
+
+.assistant-content :deep(.chat-md-blockquote) {
+  margin: 0.5rem 0 0.75rem;
+  padding: 0.4rem 0.75rem;
+  border-left: 3px solid var(--chat-accent, #0ea5e9);
+  color: var(--chat-text-secondary, #64748b);
+  background: var(--chat-bg-tertiary, rgba(148, 163, 184, 0.12));
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9em;
+}
+
+.assistant-content :deep(.chat-md-table-wrap) {
+  margin: 0.5rem 0 0.75rem;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.assistant-content :deep(.chat-md-table) {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.assistant-content :deep(.chat-md-table th),
+.assistant-content :deep(.chat-md-table td) {
+  border: 1px solid var(--chat-border, rgba(148, 163, 184, 0.4));
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.assistant-content :deep(.chat-md-table th) {
+  font-weight: 600;
+  background: var(--chat-bg-tertiary, rgba(148, 163, 184, 0.15));
 }
 
 .assistant-content :deep(h1),

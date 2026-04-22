@@ -1212,6 +1212,23 @@ function onResize() {
   --os-glass: blur(14px) saturate(1.2);
   --pw: min(440px, 100%);
   --os-top-offset: var(--navbar-height, 3.6rem);
+  /* 各边栏/分区标题：与全站侧栏一致，独立于正文 sans 栈 */
+  --os-panel-title-font: var(
+    --font-family-heading,
+    '黑体',
+    SimHei,
+    'Heiti SC',
+    STHeiti,
+    'Microsoft YaHei UI',
+    'Microsoft YaHei',
+    system-ui,
+    sans-serif
+  );
+  /* 画布上 HUD / 图例 / 快捷键提示：统一玻璃面板质感 */
+  --os-float-r: 14px;
+  --os-float-border: 1px solid rgba(148, 163, 184, 0.22);
+  --os-float-bg: linear-gradient(165deg, rgba(15, 23, 42, 0.9) 0%, rgba(3, 7, 18, 0.82) 100%);
+  --os-float-shadow: 0 14px 44px rgba(0, 0, 0, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   /* 等宽数字：优先系统自带，避免未加载的 Web 字体发虚 */
   --os-mono: ui-monospace, 'SF Mono', 'Menlo', 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', consolas, 'Liberation Mono', monospace;
 
@@ -1278,6 +1295,7 @@ function onResize() {
 }
 
 .ltxt {
+  font-family: var(--os-panel-title-font);
   font-size: 0.9375rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -1376,6 +1394,7 @@ function onResize() {
 }
 
 .os-brand-text__title {
+  font-family: var(--os-panel-title-font);
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -1478,6 +1497,7 @@ function onResize() {
 
 .sec-title {
   margin: 0 0 0.35rem;
+  font-family: var(--os-panel-title-font);
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1527,6 +1547,7 @@ function onResize() {
 }
 
 .os-assumptions__title {
+  font-family: var(--os-panel-title-font);
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--os-text);
@@ -1549,7 +1570,7 @@ function onResize() {
   padding: 0 0 0 1.1rem;
   font-size: 0.875rem;
   line-height: 1.65;
-  color: var(--os-faint);
+  color: var(--os-muted);
 }
 
 .os-assumptions__list li {
@@ -1577,6 +1598,7 @@ function onResize() {
 }
 
 .preset-block__label {
+  font-family: var(--os-panel-title-font);
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1632,6 +1654,7 @@ function onResize() {
 }
 
 .pch__title {
+  font-family: var(--os-panel-title-font);
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.35;
@@ -1677,6 +1700,7 @@ function onResize() {
 .os-param-group__title {
   margin: 0 0 0.5rem;
   padding-bottom: 0.35rem;
+  font-family: var(--os-panel-title-font);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -1719,7 +1743,7 @@ function onResize() {
 .plabel {
   font-size: 0.9375rem;
   font-weight: 600;
-  color: var(--os-muted);
+  color: var(--os-text);
 }
 
 .pval {
@@ -1727,7 +1751,7 @@ function onResize() {
   font-size: 1rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--os-accent-2);
+  color: var(--os-value-teal);
   text-align: right;
   white-space: nowrap;
 }
@@ -1822,6 +1846,7 @@ function onResize() {
 }
 
 .tctl__label {
+  font-family: var(--os-panel-title-font);
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1921,11 +1946,11 @@ function onResize() {
   min-width: 240px;
   max-width: min(308px, calc(100vw - 2rem));
   padding: 0.55rem 0;
-  border-radius: 16px;
-  background: linear-gradient(165deg, rgba(15, 23, 42, 0.88) 0%, rgba(3, 7, 18, 0.82) 100%);
-  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: var(--os-float-r);
+  background: var(--os-float-bg);
+  border: var(--os-float-border);
   backdrop-filter: var(--os-glass);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  box-shadow: var(--os-float-shadow);
 }
 
 .hud-section {
@@ -1934,6 +1959,7 @@ function onResize() {
 
 .hud-section__title {
   margin: 0 0 0.4rem;
+  font-family: var(--os-panel-title-font);
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1975,18 +2001,19 @@ function onResize() {
   bottom: 14px;
   right: 14px;
   padding: 0.6rem 0.7rem 0.5rem;
-  border-radius: 14px;
-  background: linear-gradient(165deg, rgba(15, 23, 42, 0.82) 0%, rgba(3, 7, 18, 0.78) 100%);
-  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: var(--os-float-r);
+  background: var(--os-float-bg);
+  border: var(--os-float-border);
   backdrop-filter: var(--os-glass);
   pointer-events: none;
   z-index: 50;
   max-width: min(272px, calc(100vw - 1.5rem));
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  box-shadow: var(--os-float-shadow);
 }
 
 .ltitle {
   margin: 0 0 0.4rem;
+  font-family: var(--os-panel-title-font);
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -2045,14 +2072,15 @@ function onResize() {
   bottom: 12px;
   left: 12px;
   max-width: min(420px, calc(100% - 24px));
-  padding: 0.45rem 0.65rem;
-  border-radius: 10px;
+  padding: 0.5rem 0.7rem;
+  border-radius: var(--os-float-r);
   font-size: 0.8125rem;
   line-height: 1.65;
   color: var(--os-muted);
-  background: rgba(3, 7, 18, 0.82);
-  border: 1px solid var(--os-border);
+  background: var(--os-float-bg);
+  border: var(--os-float-border);
   backdrop-filter: var(--os-glass);
+  box-shadow: var(--os-float-shadow);
   pointer-events: none;
   z-index: 50;
 }

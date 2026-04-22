@@ -10,7 +10,6 @@ export const wayfindingZhGroup = {
     { link: '/glossary/', text: '术语 · 定义与概念', children: [] },
     { link: '/resources-tools/', text: '工具 · 数据与代码', children: [] },
     { link: '/space-news/', text: '动态 · 航天新闻归档', children: [] },
-    { link: '/satellite-simulation/', text: '仿真 · 轨道教学平台', children: [] },
     { link: '/blue-team-research/', text: '专题 · 蓝军研究', children: [] },
   ],
 }
@@ -26,7 +25,6 @@ export const wayfindingEnGroup = {
     { link: '/en/glossary/', text: 'Glossary · terms & definitions', children: [] },
     { link: '/en/resources-tools/', text: 'Tools · data & code', children: [] },
     { link: '/en/space-news/', text: 'News · space industry archive', children: [] },
-    { link: '/en/satellite-simulation/', text: 'Simulation · teaching lab', children: [] },
     { link: '/en/blue-team-research/', text: 'Topic · blue-team research', children: [] },
   ],
 }

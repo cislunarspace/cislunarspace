@@ -123,6 +123,7 @@
 
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, computed, watch, nextTick } from 'vue'
+import { usePage } from 'vuepress/client'
 import { useRoute } from 'vue-router'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
@@ -135,10 +136,12 @@ import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy'
 import {
   enhanceContentTables,
   setupTableToolbar,
+  startTableEnhanceObserver,
   teardownTableToolbar,
 } from '../composables/useTableEnhance'
 
 const route = useRoute()
+const page = usePage()
 const isSpaceNews = computed(() => {
   const p = route.path
   return p.startsWith('/space-news/') || p.startsWith('/en/space-news/')
@@ -157,16 +160,21 @@ const isForum = computed(() => {
 })
 
 function runTableEnhance() {
+  const run = () => {
+    enhanceContentTables()
+  }
   nextTick(() => {
-    requestAnimationFrame(() => {
-      enhanceContentTables()
-    })
+    requestAnimationFrame(run)
   })
+  // 与 MutationObserver 互补：<Content> 偶发晚于本帧
+  setTimeout(run, 0)
+  setTimeout(run, 160)
 }
 
 onMounted(() => {
   setupMathCopy()
   setupTableToolbar()
+  startTableEnhanceObserver()
   runTableEnhance()
 })
 
@@ -175,6 +183,14 @@ watch(
   () => {
     runTableEnhance()
   },
+)
+
+watch(
+  () => (page.value as { path?: string } | null)?.path,
+  () => {
+    runTableEnhance()
+  },
+  { flush: 'post' },
 )
 
 onBeforeUnmount(() => {
