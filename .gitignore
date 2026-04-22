@@ -80,6 +80,11 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 .nuxt
 # VuePress
 .vuepress/dist
+.vuepress/sidebar.auto.json
+.vuepress/space-news-articles.json
+.vuepress/space-news-sidebar-data.json
+.vuepress/public/ai-chat-index.json
+.vuepress/public/ai-chat-context.json
 # Next.js
 .next
 out

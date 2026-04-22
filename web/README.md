@@ -12,10 +12,6 @@ wechatShare:
 
 # 关于本站
 
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
-
 > **本站致力于降低地月空间知识的学习门槛，所有内容均经过专业审核，力求准确、可靠、易于理解。**
 
 本站按「概念—轨道—前沿—术语—工具—拓展」组织内容：可先读 [地月空间是什么](/what-is-cislunarspace/) 建立整体图景，再按需查阅 [轨道](/cislunar-orbits/)、[研究前沿](/research-frontiers/) 与 [术语词典](/glossary/)；动手环节可使用 [资源与工具](/resources-tools/) 与 [卫星轨道仿真](/satellite-simulation/)。[航天动态](/space-news/) 提供基于公开报道的业界摘录，[AI 问答](/ai-chat) 便于带着问题检索全站要点。
@@ -72,5 +68,3 @@ wechatShare:
 ## 参与贡献
 
 欢迎通过 [GitHub](https://github.com/cislunarspace) 或 [Gitee](https://gitee.com/cislunarspace) 提交词条、修订建议，与我们一同完善地月空间知识库。
-
-→ [查看贡献指南](https://github.com/cislunarspace/cislunarspace)
