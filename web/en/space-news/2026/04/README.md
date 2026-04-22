@@ -83,6 +83,8 @@ lastUpdated: 2026-04-22
 | Apr 22 | [NASA Invests $16.3 Million to Support Small and Medium Space Enterprises](./2026-04-22-nasa-sbir-2026/) |
 | Apr 22 | [NASA Releases Artemis II Image and Video Recap: Key Mission Milestones](./2026-04-22-artemis-ii-recap/) |
 | Apr 22 | [NASA Releases New Earth Views from Artemis II Mission: Phytoplankton Blooms and Auroras Captured](./2026-04-22-nasa-pace-earth-views/) |
+| Apr 22 | [NASA Earth Observatory Releases Satellite Image of Green Spaces in Washington Suburbs](./2026-04-22-nasa-greenbelts/) |
+| Apr 22 | [Curiosity Rover Sols 4867-4872: Exploring Antofagasta Crater and Selecting Next Drill Target](./2026-04-22-curiosity-sol-4867/) |
 
 ---
 
