@@ -97,6 +97,8 @@ wechatShare:
 | Apr 22 | [Long March 4C Successfully Launches Atmospheric Monitoring Satellite](./2026-04-22-daqi-2-launch/) |
 | Apr 22 | [SpaceX Successfully Launches GPS III SV10 Satellite](./2026-04-22-gps-iii-sv10-launch/) |
 | Apr 22 | [Blue Origin's New Glenn Rocket Fails to Reach Orbit](./2026-04-22-new-glenn-failure/) |
+| Apr 22 | [NASA Releases Earth Day Image Captured by Artemis II Crew](./2026-04-22-night-and-earth-day/) |
+| Apr 22 | [NASA Earth Observatory Image: Green Belts in Washington Suburbs](./2026-04-22-belts-of-green/) |
 
 ---
 

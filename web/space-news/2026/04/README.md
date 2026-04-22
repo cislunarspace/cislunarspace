@@ -98,7 +98,9 @@ wechatShare:
 | 4-22 | [NASA 在第 30 届 Webby 奖评选中斩获两项大奖及五项人民之声奖](./2026-04-22-nasa-webby-awards/) |
 | 4-22 | [长征四号丙成功发射大气环境监测卫星](./2026-04-22-daqi-2-launch/) |
 | 4-22 | [SpaceX成功发射GPS III SV10卫星](./2026-04-22-gps-iii-sv10-launch/) |
-| 4-22 | [Blue Origin新格伦号火箭发射失败](./2026-04-22-new-glenn-failure/) |
+'| 4-22 | [Blue Origin新格伦号火箭发射失败](./2026-04-22-new-glenn-failure/) |
+| 4-22 | [NASA 公布 Artemis II 任务拍摄的地球明暗界线影像](./2026-04-22-night-and-earth-day/) |
+| 4-22 | [NASA 地球观测卫星影像：华盛顿郊区绿带](./2026-04-22-belts-of-green/) |
 
 ---
 
