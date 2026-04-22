@@ -930,6 +930,19 @@
       "image": "/space-news/2026/04/figures/2026-04-07-nasa-ml2-stop-work/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+      "path": "/space-news/2026/04/2026-04-07-qianfan-7th-batch/",
+      "title": "长征八号一箭十八星发射千帆星座第七批组网卫星",
+      "description": "2026年4月7日21时32分，长征八号运载火箭在海南商业航天发射场以一箭十八星方式将千帆星座第七批组网卫星送入预定轨道，发射取得圆满成功。",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-07-qianfan-7th-batch/qianfan-7-hero.png"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-07-starfish-funding.md",
       "path": "/space-news/2026/04/2026-04-07-starfish-funding/",
       "title": "Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter",
@@ -980,6 +993,19 @@
         "commercial"
       ],
       "image": null
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21.md",
+      "path": "/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21/",
+      "title": "我国成功发射卫星互联网低轨 21 组卫星",
+      "description": "2026年4月9日凌晨，我国在太原卫星发射中心使用长征六号改运载火箭，成功将卫星互联网低轨21组卫星送入预定轨道，长征系列火箭实现第637次飞行。",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-09",
+      "author": "天疆说",
+      "category": [
+        "china"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-09-satellite-internet-low-orbit-21/satellite-internet-hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-09-smile-postponed.md",
@@ -1188,16 +1214,15 @@
     {
       "relativePath": "space-news/2026/04/2026-04-17-commercial-space-safety-meeting.md",
       "path": "/space-news/2026/04/2026-04-17-commercial-space-safety-meeting/",
-      "title": "国家航天局召开商业航天安全监管会议：部署2026年重点任务，强化全链条监管",
-      "description": "2026年4月14日，国家航天局在京召开商业航天安全监管会议，传达学习习近平总书记关于商业航天的重要指示批示，总结2025年工作并部署2026年重点任务。",
+      "title": "商业航天安全监管会议在京召开：2026 年重点任务部署",
+      "description": "2026 年 4 月 14 日，国家航天局在京召开商业航天安全监管会议，传达学习习近平总书记关于商业航天的重要指示批示精神，总结 2025 年工作，部署 2026 年重点任务。",
       "date": "2026-04-17",
-      "lastUpdated": "2026-04-17",
+      "lastUpdated": "2026-04-21",
       "author": "天疆说",
       "category": [
-        "china",
         "policy"
       ],
-      "image": "/space-news/2026/04/figures/2026-04-17-commercial-space-safety-meeting/hero.png"
+      "image": "/space-news/2026/04/figures/2026-04-17-commercial-space-safety-meeting/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-17-greenhouse-gas-satellite.md",
@@ -1397,6 +1422,32 @@
       "image": "/space-news/2026/04/figures/2026-04-20-nasa-x-59-wheels-up/hero.webp"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-21-crab-nebula-hubble.md",
+      "path": "/space-news/2026/04/2026-04-21-crab-nebula-hubble/",
+      "title": "NASA 哈勃望远镜发布蟹状星云新图像，庆祝发射36周年",
+      "description": "NASA 哈勃空间望远镜发布有史以来最详细的蟹状星云图像，揭示超新星遗迹以每小时340万英里的速度膨胀，多台望远镜联合观测开启新纪元。",
+      "date": "2026-04-21",
+      "lastUpdated": "2026-04-21",
+      "author": "天疆说",
+      "category": [
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-21-crab-nebula-hubble/hero.webp"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-21-curiosity-organics.md",
+      "path": "/space-news/2026/04/2026-04-21-curiosity-organics/",
+      "title": "好奇号火星车发现火星史上最多样有机分子群",
+      "description": "NASA 好奇号火星车对 2020 年采集的岩石样本进行多年分析后，确认发现了火星有史以来最多样的有机分子群，其中包括 7 种首次在火星上检测到的化合物。",
+      "date": "2026-04-21",
+      "lastUpdated": "2026-04-21",
+      "author": "天疆说",
+      "category": [
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-21-curiosity-organics/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-21-gps-iii-sv10.md",
       "path": "/space-news/2026/04/2026-04-21-gps-iii-sv10/",
       "title": "SpaceX 成功发射 GPS III SV10：最后一颗 GPS III 卫星入轨，Hedy Lamar 命名卫星正式升空",
@@ -1410,6 +1461,19 @@
       "image": "/space-news/2026/04/figures/2026-04-21-gps-iii-sv10/hero.jpg"
     },
     {
+      "relativePath": "space-news/2026/04/2026-04-22-artemis-ii-recap.md",
+      "path": "/space-news/2026/04/2026-04-22-artemis-ii-recap/",
+      "title": "NASA 发布 Artemis II 任务图像与视频回顾：猎户座飞船有哪些精彩时刻",
+      "description": "NASA 发布 Artemis II 任务图像与视频综合回顾，展示2026年4月1日发射以来猎户座飞船的完整任务历程，从发射准备到地月转移轨道的精彩瞬间。",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-22-artemis-ii-recap/hero.jpg"
+    },
+    {
       "relativePath": "space-news/2026/04/2026-04-22-hasate-bubbles.md",
       "path": "/space-news/2026/04/2026-04-22-hasate-bubbles/",
       "title": "Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射",
@@ -1421,6 +1485,47 @@
         "launch"
       ],
       "image": "/space-news/2026/04/figures/2026-04-22-hasate-bubbles/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-22-jordan-artemis-accords.md",
+      "path": "/space-news/2026/04/2026-04-22-jordan-artemis-accords/",
+      "title": "约旦将于 4 月 23 日签署《阿 Artemis 协议》",
+      "description": "约旦哈希姆王国将于 4 月 23 日在 NASA 总部举行仪式，正式签署《 Artemis 协议》，成为第 50 余个签署国。",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "天疆说",
+      "category": [
+        "artemis"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-22-jordan-artemis-accords/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-22-nasa-pace-earth-views.md",
+      "path": "/space-news/2026/04/2026-04-22-nasa-pace-earth-views/",
+      "title": "NASA 发布 Artemis II 任务期间地球新影像：浮游植物与极光同框",
+      "description": "NASA 发布 Artemis II 绕月飞行期间拍摄的地球影像，捕捉堪察加半岛浮游植物水华与极光等壮观画面，展示地球海洋与大气层的动态之美。",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "天疆说",
+      "category": [
+        "nasa",
+        "science"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-22-nasa-pace-earth-views/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/04/2026-04-22-nasa-sbir-2026.md",
+      "path": "/space-news/2026/04/2026-04-22-nasa-sbir-2026/",
+      "title": "NASA 宣布投资 1630 万美元支持中小航天企业创新",
+      "description": "NASA 通过 SBIR/STTR 计划向 30 余家中小企业授予种子资金，支持月球探索、火星任务及地球应用技术创新。",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "天疆说",
+      "category": [
+        "nasa",
+        "commercial"
+      ],
+      "image": "/space-news/2026/04/figures/2026-04-22-nasa-sbir-2026/hero.jpg"
     },
     {
       "relativePath": "space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",
@@ -2378,6 +2483,19 @@
       "image": "/en/space-news/2026/04/figures/2026-04-07-nasa-ml2-stop-work/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+      "path": "/en/space-news/2026/04/2026-04-07-qianfan-7th-batch/",
+      "title": "Long March 8 Launches Qianfan Constellation Batch 7 with 18 Satellites",
+      "description": "On April 7, 2026 at 21:32 UTC, a Long March 8 rocket launched the seventh batch of 18 Qianfan LEO satellite internet constellation satellites from the Hainan Commercial Space Launch Site.",
+      "date": "2026-04-07",
+      "lastUpdated": "2026-04-07",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-07-qianfan-7th-batch/qianfan-7-hero.png"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-07-starfish-funding.md",
       "path": "/en/space-news/2026/04/2026-04-07-starfish-funding/",
       "title": "Starfish Space Raises Over $100 Million to Advance Otter On-Orbit Servicing Vehicle",
@@ -2428,6 +2546,19 @@
         "commercial"
       ],
       "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21.md",
+      "path": "/en/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21/",
+      "title": "China Launches 21 Satellite Internet LEO Satellites",
+      "description": "On April 9, 2026 at 03:38 UTC, China successfully launched a batch of 21 low-Earth-orbit satellites for its satellite internet constellation, using the Long March 6 Modified rocket from Taiyuan Satellite Launch Center.",
+      "date": "2026-04-09",
+      "lastUpdated": "2026-04-09",
+      "author": "Tianjiangshuo",
+      "category": [
+        "china"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-09-satellite-internet-low-orbit-21/satellite-internet-hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-09-smile-postponed.md",
@@ -2831,6 +2962,32 @@
       "image": "/en/space-news/2026/04/figures/2026-04-20-nasa-x-59-wheels-up/hero.webp"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-21-crab-nebula-hubble.md",
+      "path": "/en/space-news/2026/04/2026-04-21-crab-nebula-hubble/",
+      "title": "NASA Hubble Releases Stunning New Image of the Crab Nebula on Its 36th Anniversary",
+      "description": "NASA's Hubble Space Telescope captures its most detailed image of the Crab Nebula supernova remnant, revealing filament expansion at 3.4 million miles per hour and a new era of multi-telescope observations.",
+      "date": "2026-04-21",
+      "lastUpdated": "2026-04-21",
+      "author": "Tianjiangshuo",
+      "category": [
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-21-crab-nebula-hubble/hero.webp"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-21-curiosity-organics.md",
+      "path": "/en/space-news/2026/04/2026-04-21-curiosity-organics/",
+      "title": "Curiosity Rover Finds Most Diverse Collection of Organic Molecules Ever Discovered on Mars",
+      "description": "NASA's Curiosity Mars rover has discovered the greatest diversity of organic molecules ever found on Mars, including seven compounds detected for the first time on the Red Planet, in a rock sample drilled in 2020.",
+      "date": "2026-04-21",
+      "lastUpdated": "2026-04-21",
+      "author": "Tianjiangshuo",
+      "category": [
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-21-curiosity-organics/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-21-gps-iii-sv10.md",
       "path": "/en/space-news/2026/04/2026-04-21-gps-iii-sv10/",
       "title": "SpaceX Successfully Launches GPS III SV10: Final GPS III Satellite Reaches Orbit Named After Hedy Lamar",
@@ -2844,6 +3001,19 @@
       "image": "/en/space-news/2026/04/figures/2026-04-21-gps-iii-sv10/hero.jpg"
     },
     {
+      "relativePath": "en/space-news/2026/04/2026-04-22-artemis-ii-recap.md",
+      "path": "/en/space-news/2026/04/2026-04-22-artemis-ii-recap/",
+      "title": "NASA Releases Artemis II Image and Video Recap: Key Mission Milestones",
+      "description": "NASA publishes a comprehensive image and video recap of the Artemis II mission, highlighting Orion spacecraft's journey since its April 1 launch, covering launch preparation through translunar injection.",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-22-artemis-ii-recap/hero.jpg"
+    },
+    {
       "relativePath": "en/space-news/2026/04/2026-04-22-hasate-bubbles.md",
       "path": "/en/space-news/2026/04/2026-04-22-hasate-bubbles/",
       "title": "Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Set for Launch",
@@ -2855,6 +3025,47 @@
         "launch"
       ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-hasate-bubbles/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-22-jordan-artemis-accords.md",
+      "path": "/en/space-news/2026/04/2026-04-22-jordan-artemis-accords/",
+      "title": "Jordan to Sign Artemis Accords on April 23",
+      "description": "The Hashemite Kingdom of Jordan will sign the Artemis Accords during a ceremony at NASA Headquarters on April 23, becoming one of over 50 signatories.",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "Tianjiangshuo",
+      "category": [
+        "artemis"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-22-jordan-artemis-accords/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-22-nasa-pace-earth-views.md",
+      "path": "/en/space-news/2026/04/2026-04-22-nasa-pace-earth-views/",
+      "title": "NASA Releases New Earth Views from Artemis II Mission: Phytoplankton Blooms and Auroras Captured",
+      "description": "NASA releases new Earth imagery captured during the Artemis II lunar flyby, showing phytoplankton blooms off the Kamchatka Peninsula and auroras, showcasing Earth's dynamic ocean and atmosphere.",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "Tianjiangshuo",
+      "category": [
+        "nasa",
+        "science"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-22-nasa-pace-earth-views/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/04/2026-04-22-nasa-sbir-2026.md",
+      "path": "/en/space-news/2026/04/2026-04-22-nasa-sbir-2026/",
+      "title": "NASA Invests $16.3 Million to Support Small and Medium Space Enterprises",
+      "description": "NASA awards approximately $16.3 million in seed funding to over 30 small businesses through SBIR/STTR programs to develop innovative technologies for lunar exploration, Mars missions, and Earth applications.",
+      "date": "2026-04-22",
+      "lastUpdated": "2026-04-22",
+      "author": "Tianjiangshuo",
+      "category": [
+        "nasa",
+        "commercial"
+      ],
+      "image": "/en/space-news/2026/04/figures/2026-04-22-nasa-sbir-2026/hero.jpg"
     },
     {
       "relativePath": "en/space-news/2026/04/2026-04-24-nasa-lunar-base-plan.md",

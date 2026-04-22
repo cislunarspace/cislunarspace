@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-21
+lastUpdated: 2026-04-22
 ---
 
 # April 2026
@@ -42,6 +42,8 @@ lastUpdated: 2026-04-21
 | Apr 7 | [Starfish Space Raises Over $100 Million to Advance Otter On-Orbit Servicing Vehicle](./2026-04-07-starfish-funding/) |
 | Apr 8 | [Northrop Grumman CRS-24 ISS Resupply Mission Delayed Again to April 11](./2026-04-08-ng-crs24-delay/) |
 | Apr 9 | [China-ESA Joint SMILE Satellite Launch Postponed Due to Vega-C Technical Issue, New Date TBC](./2026-04-09-smile-postponed/) |
+| Apr 7 | [Long March 8 Launches Qianfan Constellation Batch 7 with 18 Satellites](./2026-04-07-qianfan-7th-batch/) |
+| Apr 9 | [China Successfully Launches 21 Satellite Internet LEO Satellites](./2026-04-09-satellite-internet-low-orbit-21/) |
 | Apr 9 | [Isar Aerospace Spectrum Rocket Set for Second Test Flight, a Key Test for European Commercial Launch](./2026-04-09-isar-spectrum/) |
 | Apr 10 | [Artemis II Science Underway as Orion Begins Return Trip to Earth](./2026-04-10-artemis-2-return-trip/) |
 | Apr 10 | [China Launches Long March Rockets for Thousand Sails and Guowang Megaconstellations](./2026-04-10-china-megaconstellation-launches/) |
@@ -74,7 +76,13 @@ lastUpdated: 2026-04-21
 | Apr 20 | [NASA Rolls Out Artemis III SLS Core Stage for Moon Mission](./2026-04-20-artemis-iii-core-stage-rollout/) |
 | Apr 20 | [Latvia Signs Artemis Accords, Becomes 62nd Signatory](./2026-04-20-latvia-artemis-accords/) |
 | Apr 21 | [SpaceX Successfully Launches GPS III SV10: Final GPS III Satellite Reaches Orbit Named After Hedy Lamar](./2026-04-21-gps-iii-sv10/) |
+| Apr 21 | [NASA's Curiosity Rover Finds Most Diverse Organic Molecules Ever on Mars](./2026-04-21-curiosity-organics/) |
+| Apr 21 | [NASA Hubble Releases Stunning New Image of the Crab Nebula on Its 36th Anniversary](./2026-04-21-crab-nebula-hubble/) |
 | Apr 22 | [Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Set for Launch](./2026-04-22-hasate-bubbles/) |
+| Apr 22 | [Jordan to Sign Artemis Accords on April 23](./2026-04-22-jordan-artemis-accords/) |
+| Apr 22 | [NASA Invests $16.3 Million to Support Small and Medium Space Enterprises](./2026-04-22-nasa-sbir-2026/) |
+| Apr 22 | [NASA Releases Artemis II Image and Video Recap: Key Mission Milestones](./2026-04-22-artemis-ii-recap/) |
+| Apr 22 | [NASA Releases New Earth Views from Artemis II Mission: Phytoplankton Blooms and Auroras Captured](./2026-04-22-nasa-pace-earth-views/) |
 
 ---
 

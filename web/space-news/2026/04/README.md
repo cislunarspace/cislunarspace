@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-21
+lastUpdated: 2026-04-22
 ---
 
 # 2026 年 4 月
@@ -41,7 +41,9 @@ lastUpdated: 2026-04-21
 | 4-7 | [匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT](./2026-04-07-hungary-husat/) |
 | 4-7 | [Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter](./2026-04-07-starfish-funding/) |
 | 4-8 | [诺格 CRS-24 国际空间站货运任务再度延期，发射日期推迟至 4 月 11 日](./2026-04-08-ng-crs24-delay/) |
+| 4-7 | [长征八号一箭十八星发射千帆星座第七批组网卫星](./2026-04-07-qianfan-7th-batch/) |
 | 4-9 | [中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定](./2026-04-09-smile-postponed/) |
+| 4-9 | [我国成功发射卫星互联网低轨 21 组卫星](./2026-04-09-satellite-internet-low-orbit-21/) |
 | 4-9 | [德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验](./2026-04-09-isar-spectrum/) |
 | 4-10 | [Artemis II 科学实验全面展开，猎户座飞船开始返航地球](./2026-04-10-artemis-2-return-trip/) |
 | 4-10 | [长征火箭连续发射：千帆星座新增 18 星、国网星座第 21 批入轨](./2026-04-10-china-megaconstellation-launches/) |
@@ -76,7 +78,13 @@ lastUpdated: 2026-04-21
 | 4-20 | [NASA 展开 Artemis III SLS 火箭芯级，为2027年载人登月任务铺路](./2026-04-20-artemis-iii-core-stage-rollout/) |
 | 4-20 | [拉脱维亚签署《Artemis协定》，成为第62个签署国](./2026-04-20-latvia-artemis-accords/) |
 | 4-21 | [SpaceX 成功发射 GPS III SV10：最后一颗 GPS III 卫星入轨，Hedy Lamar 命名卫星正式升空](./2026-04-21-gps-iii-sv10/) |
+| 4-21 | [好奇号火星车发现火星史上最多样有机分子群](./2026-04-21-curiosity-organics/) |
+| 4-21 | [NASA 哈勃望远镜发布蟹状星云新图像庆祝发射36周年](./2026-04-21-crab-nebula-hubble/) |
 | 4-22 | [Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射](./2026-04-22-hasate-bubbles/) |
+| 4-22 | [约旦将于 4 月 23 日签署《Artemis 协议》](./2026-04-22-jordan-artemis-accords/) |
+| 4-22 | [NASA 宣布投资 1630 万美元支持中小航天企业创新](./2026-04-22-nasa-sbir-2026/) |
+| 4-22 | [NASA 发布 Artemis II 任务图像与视频回顾：猎户座飞船有哪些精彩时刻](./2026-04-22-artemis-ii-recap/) |
+| 4-22 | [NASA 发布 Artemis II 任务期间地球新影像：浮游植物与极光同框](./2026-04-22-nasa-pace-earth-views/) |
 
 ---
 
