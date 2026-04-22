@@ -28,7 +28,6 @@ lastUpdated: 2026-03-27
 | Mar 20 | [SpaceX Starlink 17-15 launch from Vandenberg](./2026-03-20-spacex-starlink-17-15/) |
 | Mar 20 | [Rocket Lab launches Strix Earth observation radar satellite](./2026-03-20-rocket-lab-strix/) |
 | Mar 22 | [SpaceX Starlink 10-62 launch from Cape Canaveral](./2026-03-22-spacex-starlink-10-62/) |
-| Mar 24 | [NASA unveils $20 billion lunar base plan](./2026-03-24-nasa-moon-base-plan/) |
 | Mar 24 | [Progress 94 cargo ship docks to the ISS for Expedition 74](./2026-03-24-roscosmos-progress-94-iss/) |
 | Mar 25 | [Commercial space station companies push back on NASA's new plan at House hearing](./2026-03-25-cavossa-commercial-space/) |
 | Mar 26 | [China launches Siwei Gaojing-2 05 & 06 satellites](./2026-03-26-china-siwei-gaojing-2-05-06/) |

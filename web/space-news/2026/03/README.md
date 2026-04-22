@@ -28,7 +28,6 @@ lastUpdated: 2026-04-02
 | 3-20 | [SpaceX 自范登堡发射 Starlink 17-15 任务](./2026-03-20-spacex-starlink-17-15/) |
 | 3-20 | [Rocket Lab 发射 Strix 地球观测雷达卫星](./2026-03-20-rocket-lab-strix/) |
 | 3-22 | [SpaceX 自卡纳维拉尔角发射 Starlink 10-62 任务](./2026-03-22-spacex-starlink-10-62/) |
-| 3-24 | [NASA 公布 200 亿美元月球基地计划](./2026-03-24-nasa-moon-base-plan/) |
 | 3-24 | [进步 MS 货运飞船与空间站对接补给第 74 远征队](./2026-03-24-roscosmos-progress-94-iss/) |
 | 3-25 | [商业空间站企业在国会听证会上反击 NASA 新方案](./2026-03-25-cavossa-commercial-space/) |
 | 3-26 | [我国成功发射四维高景二号05、06星](./2026-03-26-china-siwei-gaojing-2-05-06/) |
