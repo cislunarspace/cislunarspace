@@ -29,7 +29,7 @@ lastUpdated: 2026-04-22
 | Apr 5 | [China Achieves First Precise Thermal Conductivity Measurement of Single Lunar Soil Particles](./2026-04-05-ce5-soil-thermal/) |
 | Apr 5 | [Saudi Arabia's 'Shams' Satellite Launches Aboard Artemis II on First National Space Weather Mission](./2026-04-05-saudi-shams-satellite/) |
 | Apr 5 | [SpaceX Starship V3 First Flight Delayed to May — Third Consecutive Postponement](./2026-04-05-starship-v3-delay/) |
-| Mar 24 | [NASA Suspends Lunar Gateway Space Station Plan, Shifts to Building Lunar Surface Base](./2026-04-24-nasa-lunar-base-plan/) |
+
 | Apr 5 | [LandSpace's Zhang Xiaodong: Zhuque-3 to Sprint for Reuse Testing in First Half of 2026](./2026-04-05-zhuque-3-reuse-test/) |
 | Apr 5 | [Artemis II Orion Spacecraft Toilet Malfunction: Frozen Waste Line and Burning Smell En Route to the Moon](./2026-04-05-artemis-2-orion-toilet-issue/) |
 | Apr 5 | [Shenzhou-21 Crew Surpasses Five Months in Orbit, Space Station Experiments Progress](./2026-04-05-shenzhou-21-five-months/) |
