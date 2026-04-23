@@ -75,10 +75,14 @@ NRHO 已成为当前地月空间任务的热门候选轨道：
 - **地月空间态势感知**：NRHO 凭借独特的轨道位置，适合部署中继通信和观测平台
 
 ## 相关概念
-
+## 相关概念
 - [远距离逆行轨道（DRO）](/glossary/dro/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
 - [星伞（Starshade）](/glossary/starshade/)
+- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
+- [中心流形（Central Manifold）](/glossary/central-manifold/)
+- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
+- [轨道辨识（Orbit Identification）](/glossary/orbit-identification/)
 - Halo 轨道
 - [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
 - 平动点（拉格朗日点）
@@ -90,3 +94,4 @@ NRHO 已成为当前地月空间任务的热门候选轨道：
 - Zimovan E M. Rectilinear halo orbits and their applications in cislunar space[D]. Purdue University, 2017.
 - Williams J, Whitley R. Targeting cislunar rectilinear halo orbits for spacecraft missions[C]. 2017.
 - 吴伟仁. 嫦娥4号月球背面软着陆任务设计[J]. 2017.
+- Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.

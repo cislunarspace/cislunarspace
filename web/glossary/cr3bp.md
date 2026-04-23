@@ -153,6 +153,11 @@ Zimovan (2017) 在 Purdue 大学的博士论文中系统总结了地月 L1/L2 NR
 - 空间椭圆限制性三体问题模型
 - Hill 三体问题（HTBP）：CRTBP 的特殊情况，坐标中心移至较小主天体
 - [拟双圆四体问题（QBCP）](/glossary/qbcp/)：在 CRTBP 基础上引入太阳摄动的自洽模型
+- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)：平动点邻域哈密顿量的正则变换与标准化方法
+- [中心流形（Central Manifold）](/glossary/central-manifold/)：平动点邻域相空间分解中的中心方向不变流形
+- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)：可积哈密顿系统的标准正则坐标
+- [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)：高维相空间降维可视化工具
+- [轨道辨识（Orbit Identification）](/glossary/orbit-identification/)：基于特征参数的平动点轨道识别方法
 
 ## 参考文献
 
@@ -160,3 +165,4 @@ Zimovan (2017) 在 Purdue 大学的博士论文中系统总结了地月 L1/L2 NR
 - 侯锡云. 平动点的动力学特征及其应用[M]. 2008.
 - 徐明. 基于平动点理论的航天器轨道动力学与控制研究[D]. 2008.
 - Zimovan E M. Characteristics and design strategies for near rectilinear halo orbits within the Earth-Moon system[D]. Purdue University, 2017.
+- Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.

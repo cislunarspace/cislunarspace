@@ -4,7 +4,7 @@ description: Authoritative glossary of cislunar space terminology, covering core
 keywords: cislunar space glossary, CR3BP, circular restricted three-body problem, X-ray pulsar navigation, cislunar terminology
 author: CislunarSpace
 date: 2026-03-08
-lastUpdated: 2026-04-22
+lastUpdated: 2026-04-23
 permalink: /en/glossary/
 wechatShare:
   title: Cislunar Space Glossary
@@ -41,21 +41,35 @@ The number of entries is still growing. At the current stage, we prioritize high
 - For terms with multiple translations or closely related meanings, clarification notes may be added in future revisions.
 - When a term is closely tied to mission design, orbit classes, or navigation methods, the entry may also include a short application context.
 
-## Reading Guide
+## Update Note
 
-If you are new to the cislunar field, it is recommended to start with entries related to dynamics and navigation, then continue with the sections on what cislunar space is, spacecraft orbits, and resources and tools. If you are already working on a focused topic, this page can serve as a quick index for locating concepts and cross-checking terminology used in the literature. For topical hubs and program pointers, see [research frontiers](/en/research-frontiers/).
+This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
+
+**2026-04-23 Update**: New entries added based on Qiao et al. (2025):
+- Birkhoff-Gustavson Normal Form
+- Central Manifold
+- Poincaré Section
+- Action-Angle Variables
+- Orbit Identification
 
 ## Outline
 
 ### Dynamical Models
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- Quasi-Bicircular Four-Body Problem (QBCP) *(see Chinese version)*
+- Ephemeris Model *(see Chinese version)*
+- [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
+- [Central Manifold](/en/glossary/central-manifold/)
+- [Action-Angle Variables](/en/glossary/action-angle/)
+- [Poincaré Section](/en/glossary/poincare-section/)
 
 ### Mission Orbits
 
 - [Distant Retrograde Orbit (DRO)](/en/glossary/dro/) *(see Chinese version)*
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/) *(see Chinese version)*
 - [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/eml-halo/)
+- [Orbit Identification](/en/glossary/orbit-identification/)
 
 ### Simulation Tools & Space Technology
 
