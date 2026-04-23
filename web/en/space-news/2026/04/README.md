@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-22
+lastUpdated: 2026-04-23
 wechatShare:
   title: "Space News · April 2026"
   desc: "April 2026 space news article index."
@@ -104,6 +104,7 @@ wechatShare:
 | Apr 22 | [NASA to Host News Conference with Astronaut Anil Menon on Upcoming ISS Mission](./2026-04-22-nasa-anil-menon/) |
 | Apr 23 | [China Space Conference 2026 (CSC2026) Opens in Chengdu](./2026-04-23-csc2026-opening/) |
 | Apr 23 | [NASA Earth Observatory: Seasonal Fires Shroud Northern Thailand](./2026-04-23-nasa-thailand-smoke/) |
+| Apr 23 | [Rocket Lab Completes 85th Mission and First Dedicated Launch for European Space Agency](./2026-04-23-rocket-lab-85th-mission/) |
 
 ---
 

@@ -106,6 +106,7 @@ wechatShare:
 | 4-22 | [NASA宣布宇航员Anil Menon新闻发布会，预告即将执行的国际空间站任务](./2026-04-22-nasa-anil-menon/) |
 | 4-23 | [2026年中国航天大会（CSC2026）在成都开幕](./2026-04-23-csc2026-opening/) |
 | 4-23 | [NASA 地球观测：季节性火灾笼罩泰国北部](./2026-04-23-nasa-thailand-smoke/) |
+| 4-23 | [Rocket Lab完成第85次发射暨首次为欧空局执行专用发射任务](./2026-04-23-rocket-lab-85th-mission/) |
 
 ---
 
