@@ -47,7 +47,23 @@ If you are new to the cislunar field, it is recommended to start with entries re
 
 ## Outline
 
+### Dynamical Models
+
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+
+### Mission Orbits
+
+- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/) *(see Chinese version)*
+- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/) *(see Chinese version)*
+- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/eml-halo/)
+
+### Simulation Tools & Space Technology
+
+- [Starshade](/en/glossary/starshade/)
+- EXOSIMS *(see Chinese version)*
+
+### Navigation Technology
+
 - [X-ray Pulsar Navigation](/en/glossary/xray-pulsar-navigation/)
 
 ## Update Note

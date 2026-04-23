@@ -4,7 +4,7 @@ description: 详细解析近直线晕轨道(NRHO)的定义、与Halo轨道的关
 keywords: 近直线晕轨道, NRHO, Near-Rectilinear Halo Orbit, Halo轨道, 地月平动点, L2点, 门户空间站, Gateway
 author: 天疆说
 date: 2026-04-04
-lastUpdated: 2026-04-04
+lastUpdated: 2026-04-23
 wechatShare:
   title: 近直线晕轨道(NRHO)
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -76,9 +76,11 @@ NRHO 已成为当前地月空间任务的热门候选轨道：
 
 ## 相关概念
 
-- 远距离逆行轨道（DRO）
+- [远距离逆行轨道（DRO）](/glossary/dro/)
+- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
+- [星伞（Starshade）](/glossary/starshade/)
 - Halo 轨道
-- 圆形限制性三体问题（CR3BP）
+- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
 - 平动点（拉格朗日点）
 - 星历模型
 - 不变流形
