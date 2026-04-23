@@ -103,7 +103,8 @@ wechatShare:
 | Apr 22 | [NASA's Modified Boeing 777 Returns to Fleet as Next-Generation Airborne Science Laboratory](./2026-04-22-nasa-777-aircraft/) |
 | Apr 22 | [NASA to Host News Conference with Astronaut Anil Menon on Upcoming ISS Mission](./2026-04-22-nasa-anil-menon/) |
 | Apr 23 | [China Space Conference 2026 (CSC2026) Opens in Chengdu](./2026-04-23-csc2026-opening/) |
+| Apr 23 | [NASA Earth Observatory: Seasonal Fires Shroud Northern Thailand](./2026-04-23-nasa-thailand-smoke/) |
 
 ---
 
-[← Back to 2026 Archive](../) · [← Back to Space News Home](../../)
+[← Back to 2026 Archive](../) · [← Back to Space News Home](../../]
