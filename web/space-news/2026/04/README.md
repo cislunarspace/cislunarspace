@@ -108,6 +108,8 @@ wechatShare:
 | 4-23 | [NASA 地球观测：季节性火灾笼罩泰国北部](./2026-04-23-nasa-thailand-smoke/) |
 | 4-23 | [Rocket Lab完成第85次发射暨首次为欧空局执行专用发射任务](./2026-04-23-rocket-lab-85th-mission/) |
 | 4-23 | [SpaceX完成星链17-14批次发射](./2026-04-23-starlink-group-17-14/) |
+| 4-22 | [Rocket Lab HASTE 成功发射高超声速测试任务](./2026-04-22-haste-bubbles/) |
+| 4-23 | [Rocket Lab 第85次任务携日本卫星升空](./2026-04-23-electron-kakushin-rising/) |
 
 ---
 

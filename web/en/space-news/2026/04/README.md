@@ -106,6 +106,8 @@ wechatShare:
 | Apr 23 | [NASA Earth Observatory: Seasonal Fires Shroud Northern Thailand](./2026-04-23-nasa-thailand-smoke/) |
 | Apr 23 | [Rocket Lab Completes 85th Mission and First Dedicated Launch for European Space Agency](./2026-04-23-rocket-lab-85th-mission/) |
 | Apr 23 | [SpaceX Launches Starlink Group 17-14 Mission](./2026-04-23-starlink-group-17-14/) |
+| Apr 22 | [Rocket Lab HASTE Successfully Launches Hypersonic Test Mission](./2026-04-22-haste-bubbles/) |
+| Apr 23 | [Rocket Lab 85th Mission Successfully Deploys JAXA Rideshare Satellites](./2026-04-23-electron-kakushin-rising/) |
 
 ---
 
