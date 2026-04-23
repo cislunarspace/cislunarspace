@@ -17,7 +17,7 @@ export default {
         { label: '首页', labelEn: 'Home', href: '/' },
         { label: '关于本站', labelEn: 'About', href: '/about' },
         { label: '航天动态', labelEn: 'Space News', href: '/space-news/' },
-        { label: ' Glossary', href: '/glossary/' },
+        { label: '术语表', labelEn: 'Glossary', href: '/glossary/' },
       ],
     },
     {

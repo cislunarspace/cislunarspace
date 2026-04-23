@@ -103,10 +103,7 @@ const data = articlesData as ArticlesData
 const articles = computed<ArticleItem[]>(() => {
   const list = isEn.value ? data.en : data.zh
   return [...list]
-    .map(a => ({
-      ...a,
-      category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
-    }))
+    .map(a => ({ ...a }))
     .sort((a, b) => {
       const da = a.date ? new Date(a.date).getTime() : 0
       const db = b.date ? new Date(b.date).getTime() : 0

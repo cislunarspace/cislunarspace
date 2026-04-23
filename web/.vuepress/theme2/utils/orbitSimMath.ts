@@ -84,11 +84,15 @@ export function E2M(E: number, e: number) {
 }
 
 export function M2E(M: number, e: number) {
+  const ec = Math.min(e, 0.95)
   let E = M
+  let prevD = Infinity
   for (let k = 0; k < 60; k++) {
-    const d = (M - E + e * Math.sin(E)) / (1 - e * Math.cos(E))
+    const d = (M - E + ec * Math.sin(E)) / (1 - ec * Math.cos(E))
     E += d
     if (Math.abs(d) < 1e-12) break
+    if (Math.abs(d) > Math.abs(prevD) * 2) break
+    prevD = d
   }
   return E
 }

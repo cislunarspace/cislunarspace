@@ -37,6 +37,9 @@ export interface ForumPost {
 }
 
 function generateId(): string {
+  if (typeof crypto !== 'undefined' && crypto.randomUUID) {
+    return crypto.randomUUID()
+  }
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
 }
 
@@ -49,10 +52,17 @@ export async function hashPassword(password: string): Promise<string> {
 }
 
 export function escapeHtml(text: string): string {
-  const div = document.createElement('div')
-  div.appendChild(document.createTextNode(text))
-  return div.innerHTML
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
 }
+
+const currentUser = ref<ForumUser | null>(null)
+const posts = ref<ForumPost[]>([])
+const likedPostIds = ref<string[]>([])
 
 export function useForum() {
   const route = useRoute()
@@ -61,16 +71,12 @@ export function useForum() {
   )
   const t = (key: string) => forumT(lang.value, key)
 
-  const currentUser = ref<ForumUser | null>(null)
-  const posts = ref<ForumPost[]>([])
-  const likedPostIds = ref<string[]>([])
-
   function loadUser() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY_USER)
       if (raw) currentUser.value = JSON.parse(raw) as ForumUser
-    } catch {
-      /* ignore */
+    } catch (e) {
+      console.warn('[Forum]', e)
     }
   }
 
@@ -81,8 +87,8 @@ export function useForum() {
       } else {
         localStorage.removeItem(STORAGE_KEY_USER)
       }
-    } catch {
-      /* ignore */
+    } catch (e) {
+      console.warn('[Forum]', e)
     }
   }
 
@@ -90,16 +96,16 @@ export function useForum() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY_POSTS)
       if (raw) posts.value = JSON.parse(raw) as ForumPost[]
-    } catch {
-      /* ignore */
+    } catch (e) {
+      console.warn('[Forum]', e)
     }
   }
 
   function savePosts() {
     try {
       localStorage.setItem(STORAGE_KEY_POSTS, JSON.stringify(posts.value))
-    } catch {
-      /* ignore */
+    } catch (e) {
+      console.warn('[Forum]', e)
     }
   }
 
@@ -110,16 +116,16 @@ export function useForum() {
         const arr = JSON.parse(raw) as string[]
         likedPostIds.value = [...new Set(Array.isArray(arr) ? arr : [])]
       }
-    } catch {
-      /* ignore */
+    } catch (e) {
+      console.warn('[Forum]', e)
     }
   }
 
   function saveLikes() {
     try {
       localStorage.setItem(STORAGE_KEY_LIKES, JSON.stringify(likedPostIds.value))
-    } catch {
-      /* ignore */
+    } catch (e) {
+      console.warn('[Forum]', e)
     }
   }
 
@@ -135,8 +141,8 @@ export function useForum() {
   function saveUsers(users: Record<string, { password: string; createdAt: number }>) {
     try {
       localStorage.setItem(STORAGE_KEY_USERS, JSON.stringify(users))
-    } catch {
-      /* ignore */
+    } catch (e) {
+      console.warn('[Forum]', e)
     }
   }
 
@@ -288,6 +294,7 @@ export function useForum() {
     return d.toLocaleDateString()
   }
 
+  /** SECURITY: escapeHtml MUST be applied before v-html rendering. Do not pass raw user content to v-html. */
   function renderContent(content: string): string {
     return escapeHtml(content).replace(/\n/g, '<br>')
   }

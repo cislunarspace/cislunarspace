@@ -63,7 +63,7 @@ function toggle() {
   document.documentElement.classList.toggle('sidebar-hidden', isHidden.value)
   try {
     localStorage.setItem('sidebar-hidden', String(isHidden.value))
-  } catch {}
+  } catch (e) { console.warn('[SidebarToggle]', e) }
 }
 
 function onKeyDown(e: KeyboardEvent) {

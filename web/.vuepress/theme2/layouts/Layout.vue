@@ -37,16 +37,6 @@
   transition: padding-left var(--sn-sidebar-sync-duration) var(--ease-out-expo);
 }
 
-/* ---- 导航栏下拉菜单 ---- */
-.nav-dropdown {
-  animation: dropdownIn 0.2s var(--ease-out-expo);
-}
-
-@keyframes dropdownIn {
-  from { opacity: 0; transform: translateY(-6px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
 /* ---- Space News 页面：桌面端隐藏原生侧边栏 ---- */
 @media (min-width: 960px) {
   .sn-layout-wrapper ~ .vp-sidebar,

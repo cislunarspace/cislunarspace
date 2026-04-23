@@ -529,7 +529,7 @@ function saveChatHistory(history) {
   try {
     const toSave = history.slice(0, 30)
     localStorage.setItem(HISTORY_KEY, JSON.stringify(toSave))
-  } catch {}
+  } catch (e) { console.warn('[AiChat] saveChatHistory', e) }
 }
 
 function getSystemTheme() {
@@ -542,7 +542,7 @@ function loadTheme() {
     const saved = localStorage.getItem(THEME_KEY)
     if (saved === 'dark') return true
     if (saved === 'light') return false
-  } catch {}
+  } catch (e) { console.warn('[AiChat] loadTheme', e) }
   return getSystemTheme()
 }
 
@@ -576,6 +576,12 @@ export default {
     this.updateSuggestedQuestions()
     await this.loadConfig()
     this.applyTheme()
+    this._onEscape = (e) => {
+      if (e.key === 'Escape' && this.sidebarOpen) {
+        this.sidebarOpen = false
+      }
+    }
+    window.addEventListener('keydown', this._onEscape)
   },
   watch: {
     isEn() {
@@ -590,6 +596,10 @@ export default {
   },
   beforeUnmount() {
     this.abortRequest()
+    if (this._onEscape) {
+      window.removeEventListener('keydown', this._onEscape)
+      this._onEscape = null
+    }
   },
   methods: {
     applyTheme() {
@@ -600,7 +610,7 @@ export default {
       this.isDark = !this.isDark
       try {
         localStorage.setItem(THEME_KEY, this.isDark ? 'dark' : 'light')
-      } catch {}
+      } catch (e) { console.warn('[AiChat] toggleTheme', e) }
     },
 
     autoResize() {
@@ -921,6 +931,7 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
           return { paths: arr }
         }
       } catch (e) {
+        console.warn('[AiChat] parseRouterResponse', e)
       }
       return { paths: [] }
     },

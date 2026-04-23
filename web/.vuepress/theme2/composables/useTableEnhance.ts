@@ -221,7 +221,8 @@ export function startTableEnhanceObserver() {
   const connect = () => {
     if (tableDomObserver) return
     const target =
-      document.querySelector('.vp-theme-container') || document.querySelector('main') || document.body
+      document.querySelector('.vp-theme-container') || document.querySelector('main')
+    if (!target) return
     if (!target) return
     tableDomObserver = new MutationObserver(() => {
       scheduleTableEnhanceDebounced()

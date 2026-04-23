@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import extraSideBarConfig from '../../extraSideBar.js'
+import extraSideBarConfig from '../../extraSideBar.ts'
 
 const list = ref(extraSideBarConfig)
 

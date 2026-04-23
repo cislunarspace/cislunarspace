@@ -1,26 +1,14 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { createRequire } from 'module'
 import { generateAiChatContext } from './gen-ai-chat-context.js'
+
+const require = createRequire(import.meta.url)
+const categoryMeta = require('./category-meta.json')
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-
-// 分类元数据（与 theme2/utils/categoryMeta.ts 保持一致）
-const categoryMeta = {
-  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
-  spacex: { zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' },
-  china: { zh: '中国航天', en: 'China Space', color: '#dc2626' },
-  nasa: { zh: 'NASA', en: 'NASA', color: '#2563eb' },
-  esa: { zh: 'ESA', en: 'ESA', color: '#0891b2' },
-  iss: { zh: '空间站', en: 'Space Station', color: '#7c3aed' },
-  launch: { zh: '发射', en: 'Launches', color: '#ea580c' },
-  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
-  science: { zh: '科学发现', en: 'Science', color: '#8b5cf6' },
-  policy: { zh: '政策战略', en: 'Policy & Strategy', color: '#ca8a04' },
-  'blue-origin': { zh: 'Blue Origin', en: 'Blue Origin', color: '#4338ca' },
-  'commercial-space': { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
-}
 
 function scanSpaceNewsDir(baseDir) {
   const years = []
@@ -98,6 +86,11 @@ fs.writeFileSync(
 )
 console.log('Generated sidebar.auto.json')
 
+/**
+ * Lightweight frontmatter parser. Handles flat key-value pairs and simple lists only.
+ * Does NOT support: nested objects, multi-line strings, YAML anchors, complex types.
+ * If frontmatter becomes more complex, switch to a proper YAML parser (e.g., gray-matter).
+ */
 function parseFrontmatter(content) {
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
   if (!match) return {}

@@ -32,9 +32,8 @@ const props = withDefaults(
 const CESIUM_JS = 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js'
 const CESIUM_CSS = 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css'
 
-/** 与历史 orbit-sim.html 一致，便于沿用 Ion 资源 */
-const CESIUM_ION_TOKEN =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3MjBhMDI3My1lMjRmLTRhN2QtODc5Yi02MGVhZmUzNDdjMzAiLCJpZCI6Mzk1NDEzLCJpYXQiOjE3NzIxOTg2NDN9.5aOJb2oLS3xJ-bbcRdTzznV5j9jDGvD_Ev-GF4eNc3A'
+/** 与历史 orbit-sim.html 一致，便于沿用 Ion 资源（从环境变量注入） */
+const CESIUM_ION_TOKEN: string = (import.meta as any).env?.VITE_CESIUM_ION_TOKEN ?? ''
 
 const rootEl = ref<HTMLElement | null>(null)
 const viewerEl = ref<HTMLElement | null>(null)
@@ -351,7 +350,8 @@ function setSpeed(s: number) {
 }
 
 function onKeydown(e: KeyboardEvent) {
-  if (e.target instanceof HTMLInputElement) return
+  const target = e.target as HTMLElement
+  if (target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target.isContentEditable) return
   switch (e.key) {
     case ' ':
       e.preventDefault()

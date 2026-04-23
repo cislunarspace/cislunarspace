@@ -217,7 +217,9 @@ export default defineClientConfig({
       const fromEn = from.startsWith('/en/')
       const toEn = to.startsWith('/en/')
       if (fromEn !== toEn) {
-        try { localStorage.setItem('cislunar-lang-chosen', toEn ? 'en' : 'zh') } catch {}
+        if (typeof window !== 'undefined') {
+          try { localStorage.setItem('cislunar-lang-chosen', toEn ? 'en' : 'zh') } catch {}
+        }
       }
       setTimeout(() => setupShare(), 0)
     })

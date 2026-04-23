@@ -25,7 +25,7 @@
           <h4 class="nav-col-title">{{ isEn ? section.titleEn : section.title }}</h4>
           <ul class="nav-links">
             <li v-for="(link, linkIdx) in section.links" :key="linkIdx">
-              <a :href="link.href" class="nav-link">{{ link.labelEn && !isEn ? link.labelEn : link.label }}</a>
+              <a :href="link.href" class="nav-link">{{ isEn && link.labelEn ? link.labelEn : link.label }}</a>
             </li>
           </ul>
         </div>
@@ -67,6 +67,7 @@
 
 <script setup lang="ts">
 import footerConfig from '../../footer'
+import { computed } from 'vue'
 import { useIsEn } from '../composables/useIsEn'
 
 const isEn = useIsEn()
@@ -76,7 +77,7 @@ const socials = footerConfig.social
 const friendLinks = footerConfig.friendLinks
 const copyright = footerConfig.copyright
 const githubLink = socials.find(s => s.icon === 'github') || { href: '#', label: 'GitHub' }
-const currentYear = String(new Date().getFullYear())
+const currentYear = computed(() => String(new Date().getFullYear()))
 </script>
 
 <style lang="scss">

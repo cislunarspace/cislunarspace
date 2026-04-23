@@ -112,7 +112,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useIsEn } from '../composables/useIsEn'
 import { categoryMeta } from '../utils/categoryMeta'
@@ -207,10 +207,17 @@ function syncHidden() {
   isHidden.value = document.documentElement.classList.contains('sidebar-hidden')
 }
 
+let classObserver: MutationObserver | null = null
+
 onMounted(() => {
   syncHidden()
-  const observer = new MutationObserver(syncHidden)
-  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
+  classObserver = new MutationObserver(syncHidden)
+  classObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
+})
+
+onBeforeUnmount(() => {
+  classObserver?.disconnect()
+  classObserver = null
 })
 
 </script>
