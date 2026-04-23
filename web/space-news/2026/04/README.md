@@ -110,6 +110,7 @@ wechatShare:
 | 4-23 | [SpaceX完成星链17-14批次发射](./2026-04-23-starlink-group-17-14/) |
 | 4-22 | [Rocket Lab HASTE 成功发射高超声速测试任务](./2026-04-22-haste-bubbles/) |
 | 4-23 | [Rocket Lab 第85次任务携日本卫星升空](./2026-04-23-electron-kakushin-rising/) |
+| 4-24 | [第11个中国航天日：七秩问天路 携手探九霄](./2026-04-24-china-space-day-2026-ceremony/) |
 
 ---
 

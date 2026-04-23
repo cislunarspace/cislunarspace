@@ -108,7 +108,8 @@ wechatShare:
 | Apr 23 | [SpaceX Launches Starlink Group 17-14 Mission](./2026-04-23-starlink-group-17-14/) |
 | Apr 22 | [Rocket Lab HASTE Successfully Launches Hypersonic Test Mission](./2026-04-22-haste-bubbles/) |
 | Apr 23 | [Rocket Lab 85th Mission Successfully Deploys JAXA Rideshare Satellites](./2026-04-23-electron-kakushin-rising/) |
+| Apr 24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |
 
 ---
 
-[← Back to 2026 Archive](../) · [← Back to Space News Home](../../]
+[← Back to 2026 Archive](../) · [← Back to Space News Home](../../)
