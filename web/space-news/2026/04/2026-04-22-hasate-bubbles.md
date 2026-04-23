@@ -1,11 +1,11 @@
 ---
 layout: SpaceNewsArticle
-title: "Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射"
-description: "Rocket Lab 将于 2026 年 4 月 22 日使用 Electron 火箭执行 HASTE（Hypersonic Accelerator Suborbital Test Experiment）任务，携带 Bubbles 科学实验载荷从美国弗吉尼亚州瓦罗普斯飞行设施升空。"
+title: "Rocket Lab HASTE 任务成功：Bubbles 科学实验载荷顺利完成亚轨道飞行"
+description: "Rocket Lab 于 2026 年 4 月 22 日使用 Electron 火箭执行 HASTE（Hypersonic Accelerator Suborbital Test Experiment）任务，携带 Bubbles 科学实验载荷从美国弗吉尼亚州瓦罗普斯飞行设施升空。"
 permalink: /space-news/2026/04/2026-04-22-hasate-bubbles/
 author: 天疆说
 date: 2026-04-22
-lastUpdated: 2026-04-21
+lastUpdated: 2026-04-23
 category: launch
 image: ./figures/2026-04-22-hasate-bubbles/hero.jpg
 tags:
@@ -15,14 +15,14 @@ tags:
   - 亚轨道实验
   - 科学研究
 wechatShare:
-  title: "Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射"
-  desc: "Rocket Lab 将于 2026 年 4 月 22 日使用 Electron 火箭执行 HASTE（Hypersonic Accelerator Suborbital Test Experiment）任务，携带 Bubbles 科学实验载荷从美国弗吉尼亚州瓦罗普斯飞行设施升空。"
+  title: "Rocket Lab HASTE 任务成功：Bubbles 科学实验载荷顺利完成亚轨道飞行"
+  desc: "Rocket Lab 于 2026 年 4 月 22 日使用 Electron 火箭执行 HASTE（Hypersonic Accelerator Suborbital Test Experiment）任务，携带 Bubbles 科学实验载荷从美国弗吉尼亚州瓦罗普斯飞行设施升空。"
   image: "./figures/2026-04-22-hasate-bubbles/hero.jpg"
 ---
 
-# Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射
+# Rocket Lab HASTE 任务成功：Bubbles 科学实验载荷顺利完成亚轨道飞行
 
-**摘要：** Rocket Lab 将于协调世界时（UTC）4 月 22 日 00:00（北京时间 4 月 22 日 08:00）使用 Electron 火箭执行 HASTE（Bubbles 任务编号）亚轨道飞行实验任务，从美国弗吉尼亚州瓦罗普斯飞行设施发射。HASTE 项目专注于高超声速加速器亚轨道测试，为科研机构和企业提供低成本、高频率的亚轨道飞行机会。
+**摘要：** Rocket Lab 于协调世界时（UTC）4 月 22 日 00:00（北京时间 4 月 22 日 08:00）使用 Electron 火箭执行 HASTE（Bubbles 任务编号）亚轨道飞行实验任务，从美国弗吉尼亚州瓦罗普斯飞行设施发射。HASTE 项目专注于高超声速加速器亚轨道测试，为科研机构和企业提供低成本、高频率的亚轨道飞行机会。
 
 ![Rocket Lab Electron 火箭（资料图）](./figures/2026-04-22-hasate-bubbles/hero.jpg)
 
