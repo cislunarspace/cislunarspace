@@ -102,6 +102,7 @@ wechatShare:
 | Apr 22 | [NASA Targets Early September for Roman Space Telescope Launch](./2026-04-22-roman-space-telescope/) |
 | Apr 22 | [NASA's Modified Boeing 777 Returns to Fleet as Next-Generation Airborne Science Laboratory](./2026-04-22-nasa-777-aircraft/) |
 | Apr 22 | [NASA to Host News Conference with Astronaut Anil Menon on Upcoming ISS Mission](./2026-04-22-nasa-anil-menon/) |
+| Apr 23 | [China Space Conference 2026 (CSC2026) Opens in Chengdu](./2026-04-23-csc2026-opening/) |
 
 ---
 

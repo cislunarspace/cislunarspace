@@ -144,7 +144,8 @@ function collectArticles(baseDir, urlPrefix) {
         const fm = parseFrontmatter(content)
         if (fm.draft === true) continue
         const relativePath = path.relative(path.join(__dirname, '..'), full).replace(/\\/g, '/')
-        const pagePath = fm.permalink || (urlPrefix + entry.name.replace(/\.md$/i, '/'))
+        const relFromBase = path.relative(baseDir, full).replace(/\\/g, '/')
+        const pagePath = fm.permalink || (urlPrefix + relFromBase.replace(/\.md$/i, '/'))
         // Resolve relative image path to absolute URL based on md file location
         let imageUrl = fm.image || null
         if (imageUrl && imageUrl.startsWith('./')) {

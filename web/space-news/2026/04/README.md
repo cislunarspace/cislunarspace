@@ -104,6 +104,7 @@ wechatShare:
 | 4-22 | [NASA Nancy Grace 罗马太空望远镜瞄准2026年9月初发射](./2026-04-22-roman-space-telescope/) |
 | 4-22 | [NASA波音777改装完成重返机队，先进空中实验室即将启用](./2026-04-22-nasa-777-aircraft/) |
 | 4-22 | [NASA宣布宇航员Anil Menon新闻发布会，预告即将执行的国际空间站任务](./2026-04-22-nasa-anil-menon/) |
+| 4-23 | [2026年中国航天大会（CSC2026）在成都开幕](./2026-04-23-csc2026-opening/) |
 
 ---
 
