@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 4-22 | [天瞳星座正式启动：国内首个220颗红外卫星组网规划发布](./2026-04-22-tiankong-constellation-launch/) |
 | 4-23 | [NASA 在国际空间站测试 IVGEN Mini 系统实现太空输液即时生产](./2026-04-23-nasa-ivgen-mini/) |
 | 4-23 | [NASA钱德拉X射线天文台发现年轻类太阳恒星X射线辐射意外偏低](./2026-04-23-nasa-chandra-stars-dim/) |
 | 4-22 | [英飞凌抗辐射半导体在 Artemis II 任务中通过太空验证](./2026-04-22-infineon-artemis-ii/) |
