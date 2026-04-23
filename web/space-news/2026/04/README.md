@@ -13,6 +13,13 @@ wechatShare:
 
 # 2026 年 4 月
 
+## 本月新增
+
+| 日期 | 标题 |
+|------|------|
+| 4-22 | [SpaceX 无人回收船 JRTI 完成第 156 次猎鹰火箭回收](./2026-04-22-jrti-final-flight/) |
+| 4-22 | [NASA 选择 SpaceX 猎鹰重型发射欧航局罗莎琳德·富兰克林号火星车](./2026-04-22-esa-falcon-heavy-rosalind/) |
+
 ## 本月条目
 
 | 日期 | 标题 |
@@ -28,6 +35,7 @@ wechatShare:
 | 4-4 | [诺格 CRS-24 货运补给任务定于 4 月 8 日发射，将向 ISS 运送约 5000 公斤物资](./2026-04-04-ng-crs24-preview/) |
 | 4-4 | [Atlas V 成功发射 Amazon Leo 第五批 29 颗卫星，柯伊伯星座加速组网](./2026-04-04-atlas-v-amazon-leo-la05/) |
 | 4-4 | [中欧联合「微笑」卫星完成发射前准备，4 月 9 日乘织女星-C 火箭升空](./2026-04-04-smile-launch-prep/) |
+| 4-4 | [神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑](./2026-04-04-shenzhou-21-eva/) |
 | 4-5 | [Artemis II 飞行第四日：深空飞行与月球飞越准备，Glover 将手动操控 Orion](./2026-04-05-artemis-2-flight-day-4/) |
 | 4-5 | [嫦娥四号数据发现地月空间「宇宙线空腔」，为深空辐射防护提供新思路](./2026-04-05-ce4-cosmic-ray-cavity/) |
 | 4-5 | [我国首次精准测定月壤单颗粒热导率，发现天然超绝热材料](./2026-04-05-ce5-soil-thermal/) |
@@ -37,14 +45,15 @@ wechatShare:
 | 4-5 | [Artemis II 奔月途中遭遇 Orion 卫生间故障：废水管结冰与烧焦气味](./2026-04-05-artemis-2-orion-toilet-issue/) |
 | 4-5 | [神舟二十一号航天员在轨工作超五个月 空间站多项科学实验稳步推进](./2026-04-05-shenzhou-21-five-months/) |
 | 4-6 | [2026年中国航天大会（CSC2026）将于4月23-26日在成都市举办](./2026-04-06-csc2026-announcement/) |
-| 4-4 | [神舟二十一号乘组完成第二次出舱，即将达成在轨 150 天里程碑](./2026-04-04-shenzhou-21-eva/) |
 | 4-7 | [Artemis II 月球飞越完成：打破 Apollo 13 最远载人航天记录，距地球 406,771 公里](./2026-04-07-artemis-2-lunar-flyby/) |
 | 4-7 | [NASA 暂停 SLS 移动发射台 2（ML-2）建造工作，Artemis IV 及后续任务面临不确定性](./2026-04-07-nasa-ml2-stop-work/) |
 | 4-7 | [NASA 局长 Isaacson 为大幅削减预算方案辩护，称将聚焦"大胆目标"](./2026-04-07-isaacman-nasa-budget/) |
 | 4-7 | [匈牙利选定诺格公司建造首颗国家地球静止轨道通信卫星 HUSAT](./2026-04-07-hungary-husat/) |
 | 4-7 | [Starfish Space 获超 1 亿美元融资，推进在轨服务航天器 Otter](./2026-04-07-starfish-funding/) |
-| 4-8 | [诺格 CRS-24 国际空间站货运任务再度延期，发射日期推迟至 4 月 11 日](./2026-04-08-ng-crs24-delay/) |
 | 4-7 | [长征八号一箭十八星发射千帆星座第七批组网卫星](./2026-04-07-qianfan-7th-batch/) |
+| 4-7 | [NASA完成Artemis II首次返回修正燃烧，任务进展顺利](./2026-04-07-artemis-ii-return-burn/) |
+| 4-7 | [中国载人航天工程办公室正式发布天舟十号飞行任务标识](./2026-04-07-tianzhou-10-identifier/) |
+| 4-8 | [诺格 CRS-24 国际空间站货运任务再度延期，发射日期推迟至 4 月 11 日](./2026-04-08-ng-crs24-delay/) |
 | 4-9 | [中欧联合 SMILE 卫星发射推迟：Vega-C 火箭子系统技术问题，新日期待定](./2026-04-09-smile-postponed/) |
 | 4-9 | [我国成功发射卫星互联网低轨 21 组卫星](./2026-04-09-satellite-internet-low-orbit-21/) |
 | 4-9 | [德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验](./2026-04-09-isar-spectrum/) |
@@ -55,8 +64,6 @@ wechatShare:
 | 4-10 | [欧洲航天局Celeste卫星成功广播首个导航信号，开启低轨导航新时代](./2026-04-10-esa-celeste/) |
 | 4-11 | [Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束](./2026-04-11-artemis-2-splashdown/) |
 | 4-11 | [NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回](./2026-04-11-artemis-2-heat-shield/) |
-| 4-7 | [NASA完成Artemis II首次返回修正燃烧，任务进展顺利](./2026-04-07-artemis-ii-return-burn/) |
-| 4-7  | [中国载人航天工程办公室正式发布天舟十号飞行任务标识](./2026-04-07-tianzhou-10-identifier/) |
 | 4-13 | [Rocket Lab卫星分离系统成功助力Artemis II立方星部署](./2026-04-13-rocket-lab-csd-artemis-ii/) |
 | 4-13 | [天鹅座XL货运飞船成功对接国际空间站](./2026-04-13-ng-crs24-cargo/) |
 | 4-14 | [SpaceX 2026年已发射1000颗星链卫星](./2026-04-14-spacex-1000th-starlink/) |
@@ -68,10 +75,10 @@ wechatShare:
 | 4-17 | [NASA关闭旅行者1号探测器一台仪器以维持运行](./2026-04-17-voyager-1-instrument-shutdown/) |
 | 4-17 | [神舟二十一号乘组圆满完成第三次出舱活动，张陆刷新个人出舱纪录](./2026-04-17-shenzhou-21-eva3/) |
 | 4-17 | [NASA移动发射平台进驻总装大楼，为Artemis III任务做准备](./2026-04-17-nasa-mobile-launcher-vab/) |
+| 4-17 | [NASA SPHEREx探测器绘制银河系星际冰图谱](./2026-04-17-nasa-spherex-interstellar-ice/) |
 | 4-19 | [蓝色起源新格伦火箭NG-3任务成功首飞](./2026-04-19-new-glenn-ng-3/) |
 | 4-19 | [蓝色起源新格伦火箭第四次发射失败，BlueBird Block 2卫星未能入轨](./2026-04-19-new-glenn-bluebird-failure/) |
 | 4-19 | [SpaceX完成第600次猎鹰助推器着陆回收](./2026-04-19-spacex-600th-booster/) |
-| 4-17 | [NASA SPHEREx探测器绘制银河系星际冰图谱](./2026-04-17-nasa-spherex-interstellar-ice/) |
 | 4-20 | [国家航天局发布2026年中国航天日活动信息](./2026-04-20-china-space-day-2026/) |
 | 4-20 | [拉脱维亚签署《Artemis协定》，成为第62个签署国](./2026-04-20-latvia-artemis-accords/) |
 | 4-20 | [NASA X-59 静音超音速验证机完成滑行测试](./2026-04-20-nasa-x-59-wheels-up/) |
@@ -104,11 +111,13 @@ wechatShare:
 | 4-22 | [NASA Nancy Grace 罗马太空望远镜瞄准2026年9月初发射](./2026-04-22-roman-space-telescope/) |
 | 4-22 | [NASA波音777改装完成重返机队，先进空中实验室即将启用](./2026-04-22-nasa-777-aircraft/) |
 | 4-22 | [NASA宣布宇航员Anil Menon新闻发布会，预告即将执行的国际空间站任务](./2026-04-22-nasa-anil-menon/) |
+| 4-22 | [Rocket Lab HASTE 成功发射高超声速测试任务](./2026-04-22-haste-bubbles/) |
+| 4-22 | [SpaceX 无人回收船 JRTI 完成第 156 次猎鹰火箭回收](./2026-04-22-jrti-final-flight/) |
+| 4-22 | [NASA 选择 SpaceX 猎鹰重型发射欧航局罗莎琳德·富兰克林号火星车](./2026-04-22-esa-falcon-heavy-rosalind/) |
 | 4-23 | [2026年中国航天大会（CSC2026）在成都开幕](./2026-04-23-csc2026-opening/) |
 | 4-23 | [NASA 地球观测：季节性火灾笼罩泰国北部](./2026-04-23-nasa-thailand-smoke/) |
 | 4-23 | [Rocket Lab完成第85次发射暨首次为欧空局执行专用发射任务](./2026-04-23-rocket-lab-85th-mission/) |
 | 4-23 | [SpaceX完成星链17-14批次发射](./2026-04-23-starlink-group-17-14/) |
-| 4-22 | [Rocket Lab HASTE 成功发射高超声速测试任务](./2026-04-22-haste-bubbles/) |
 | 4-23 | [Rocket Lab 第85次任务携日本卫星升空](./2026-04-23-electron-kakushin-rising/) |
 | 4-24 | [第11个中国航天日：七秩问天路 携手探九霄](./2026-04-24-china-space-day-2026-ceremony/) |
 
