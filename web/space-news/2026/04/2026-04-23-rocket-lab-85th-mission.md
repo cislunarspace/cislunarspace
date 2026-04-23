@@ -6,7 +6,7 @@ permalink: /space-news/2026/04/2026-04-23-rocket-lab-85th-mission/
 author: 天疆说
 date: 2026-04-23
 lastUpdated: 2026-04-23
-category: [spacex, commercial]
+category: [rocket-lab, commercial]
 image: ./figures/2026-04-23-rocket-lab-85th-mission/hero.jpg
 ---
 
