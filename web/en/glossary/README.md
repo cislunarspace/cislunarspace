@@ -4,7 +4,7 @@ description: Authoritative glossary of cislunar space terminology, covering core
 keywords: cislunar space glossary, CR3BP, circular restricted three-body problem, X-ray pulsar navigation, cislunar terminology
 author: CislunarSpace
 date: 2026-03-08
-lastUpdated: 2026-04-23
+lastUpdated: 2026-04-24
 permalink: /en/glossary/
 wechatShare:
   title: Cislunar Space Glossary
@@ -24,9 +24,11 @@ twitter:
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)
 >
+> Source: [CCTV News / Yangtze Evening News](https://finance.sina.com.cn/jjxw/2026-04-24/doc-inhvqfhn3315713.shtml)
+>
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
-# Introduction
+# Cislunar Space Glossary
 
 Research on cislunar space spans multiple areas, including orbital dynamics, guidance, navigation and control, deep-space mission design, and space environment modeling. Many terms are strongly interdisciplinary: the same concept may appear in textbooks, journal papers, project reports, and software documentation, often with slightly different wording or emphasis. For that reason, a concise and searchable glossary is especially useful for both beginners and active researchers.
 
@@ -40,17 +42,6 @@ The number of entries is still growing. At the current stage, we prioritize high
 - Entries are intended to include the Chinese term, English full name, common abbreviation, and a brief definition whenever applicable.
 - For terms with multiple translations or closely related meanings, clarification notes may be added in future revisions.
 - When a term is closely tied to mission design, orbit classes, or navigation methods, the entry may also include a short application context.
-
-## Update Note
-
-This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
-
-**2026-04-23 Update**: New entries added based on Qiao et al. (2025):
-- Birkhoff-Gustavson Normal Form
-- Central Manifold
-- Poincaré Section
-- Action-Angle Variables
-- Orbit Identification
 
 ## Outline
 
@@ -80,6 +71,22 @@ This page will continue to grow with new glossary entries and a more complete ta
 
 - [X-ray Pulsar Navigation](/en/glossary/xray-pulsar-navigation/)
 
+### Lunar Minerals
+
+- [Changeite-Mg (Magnesium Changeite)](/en/glossary/mg-changeite/)
+- [Changeite-Ce (Cerium Changeite)](/en/glossary/ce-changeite/)
+
 ## Update Note
 
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
+
+**2026-04-24 Update**: Two new lunar minerals discovered from Chang'e-5 sample research:
+- Changeite-Mg (Magnesium Changeite)
+- Changeite-Ce (Cerium Changeite)
+
+**2026-04-23 Update**: New entries added based on Qiao et al. (2025):
+- Birkhoff-Gustavson Normal Form
+- Central Manifold
+- Poincaré Section
+- Action-Angle Variables
+- Orbit Identification

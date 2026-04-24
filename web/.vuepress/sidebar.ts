@@ -93,6 +93,11 @@ const glossarySidebar = [
         collapsible: true,
         children: ['/glossary/xray-pulsar-navigation'],
       },
+      {
+        text: '月球矿物',
+        collapsible: true,
+        children: ['/glossary/mg-changeite', '/glossary/ce-changeite'],
+      },
     ],
   },
 ]

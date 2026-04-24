@@ -61,6 +61,11 @@ const glossarySidebar = [
         collapsible: true,
         children: ['/en/glossary/xray-pulsar-navigation'],
       },
+      {
+        text: 'Lunar minerals',
+        collapsible: true,
+        children: ['/en/glossary/mg-changeite', '/en/glossary/ce-changeite'],
+      },
     ],
   },
 ]
