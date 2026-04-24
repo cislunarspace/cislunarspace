@@ -17,6 +17,10 @@ wechatShare:
 
 | Date | Title |
 |------|-------|
+| 4-24 | [Tianwen-3 Mars Sample Return: Launch Planned for ~2028, Return with Samples by ~2031](./2026-04-24-tianwen-3-mars-sample-return/) |
+| 4-24 | [2026 Marks China's Commercial Space "Mass Production Era" with 100+ Launches Projected](./2026-04-24-commercial-space-mass-production/) |
+| 4-24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |
+| 3-30 | [CAS Space's Lijian-2 (Yao-1) Rocket Scores Maiden Flight Success, Places Three Satellites in Orbit](./2026-03-30-lijian-2-maiden-flight/) |
 | 4-22 | [Tiankong Constellation Officially Launched: China's First 220-Satellite Infrared Constellation Plan Unveiled](./2026-04-22-tiankong-constellation-launch/) |
 | 4-22 | [Infineon Radiation-Hardened Semiconductors Pass Space Validation on Artemis II Mission](./2026-04-22-infineon-artemis-ii/) |
 | 4-22 | [SpaceX Drone Ship JRTI Completes Final Falcon 9 Landing](./2026-04-22-jrti-final-flight/) |
