@@ -126,8 +126,10 @@ wechatShare:
 | 4-23 | [NASA 地球观测：季节性火灾笼罩泰国北部](./2026-04-23-nasa-thailand-smoke/) |
 | 4-23 | [Rocket Lab完成第85次发射暨首次为欧空局执行专用发射任务](./2026-04-23-rocket-lab-85th-mission/) |
 | 4-23 | [SpaceX完成星链17-14批次发射](./2026-04-23-starlink-group-17-14/) |
-| 4-23 | [Rocket Lab 第85次任务携日本卫星升空](./2026-04-23-electron-kakushin-rising/) |
+| 4-24 | [Rocket Lab 第85次任务携日本卫星升空](./2026-04-23-electron-kakushin-rising/) |
 | 4-24 | [第11个中国航天日：七秩问天路 携手探九霄](./2026-04-24-china-space-day-2026-ceremony/) |
+| 4-24 | [嫦娥七号将于年内发射，开启月球极区探测新篇章](./2026-04-24-chang-e7-launch/) |
+| 4-24 | [羲和二号向国际社会开放合作，携手探索太阳科学](./2026-04-24-xihe-2-intl-cooperation/) |
 
 ---
 

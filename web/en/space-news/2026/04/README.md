@@ -125,6 +125,8 @@ wechatShare:
 | 4-23 | [SpaceX Launches Starlink Group 17-14 Mission](./2026-04-23-starlink-group-17-14/) |
 | 4-23 | [Rocket Lab 85th Mission Successfully Deploys JAXA Rideshare Satellite](./2026-04-23-electron-kakushin-rising/) |
 | 4-24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |
+| 4-24 | [Chang'e-7 Lunar South Pole Mission to Launch This Year](./2026-04-24-chang-e7-launch/) |
+| 4-24 | [China Opens Xihe-2 Solar Observatory to International Cooperation](./2026-04-24-xihe-2-intl-cooperation/) |
 
 ---
 
