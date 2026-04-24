@@ -21,7 +21,12 @@
       "WebFetch(domain:www.esa.int)",
       "WebFetch(domain:www.reddit.com)",
       "WebFetch(domain:www.nasa.gov)",
-      "WebFetch(domain:news.ycombinator.com)"
+      "WebFetch(domain:news.ycombinator.com)",
+      "Bash(cp /home/ouyangjiahong/.claude/image-cache/03d686db-ea25-425c-8110-dcc0ffb43d4e/1.png /home/ouyangjiahong/codes/cislunarspace/web/space-news/2026/04/figures/2026-04-24-csc2026-10-challenges/hero.png)",
+      "Bash(cp /home/ouyangjiahong/.claude/image-cache/03d686db-ea25-425c-8110-dcc0ffb43d4e/2.jpeg /home/ouyangjiahong/codes/cislunarspace/web/space-news/2026/04/figures/2026-04-24-csc2026-10-challenges/01-spatiotemporal-reference.jpeg)",
+      "Bash(cp /home/ouyangjiahong/.claude/image-cache/03d686db-ea25-425c-8110-dcc0ffb43d4e/3.jpeg /home/ouyangjiahong/codes/cislunarspace/web/space-news/2026/04/figures/2026-04-24-csc2026-10-challenges/02-lunar-regolith-thermal.jpeg)",
+      "Bash(cp /home/ouyangjiahong/.claude/image-cache/03d686db-ea25-425c-8110-dcc0ffb43d4e/4.jpeg /home/ouyangjiahong/codes/cislunarspace/web/space-news/2026/04/figures/2026-04-24-csc2026-10-challenges/03-space-traffic.jpeg)",
+      "Bash(cp /home/ouyangjiahong/.claude/image-cache/03d686db-ea25-425c-8110-dcc0ffb43d4e/5.jpeg /home/ouyangjiahong/codes/cislunarspace/web/space-news/2026/04/figures/2026-04-24-csc2026-10-challenges/04-leo-constellation.jpeg)"
     ]
   }
 }

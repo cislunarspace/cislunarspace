@@ -2,7 +2,7 @@
 permalink: /glossary/
 title: 地月空间术语词典
 description: 地月空间领域专业术语权威释义，包含CR3BP、QBCP、星历模型、DRO、NRHO、X射线脉冲星导航等核心概念，帮助准确理解地月空间相关术语。
-keywords: 地月空间术语, CR3BP, QBCP, 星历模型, DRO, NRHO, 圆形限制性三体问题, X射线脉冲星导航, 地月空间词典
+keywords: 地月空间术语, CR3BP, QBCP, 星历模型, DRO, NRHO, POGO, NTP, 核热推进, 太空交通管控, 时空基准, X射线脉冲星导航, 地月空间词典
 author: 天疆说
 date: 2026-03-08
 lastUpdated: 2026-04-24
@@ -34,7 +34,7 @@ twitter:
 
 本词典旨在对地月空间领域的核心概念进行规范化整理，尽量提供简明、准确、可检索的基础解释，帮助读者在阅读文献、理解任务方案和使用相关工具时，快速把握术语的基本含义、常见缩写及其应用背景。
 
-当前条目数量仍在持续扩充中，现阶段优先整理在地月空间任务分析、轨道设计、导航定位等场景中高频出现的核心术语。后续将逐步补充平动点轨道、低能转移、深空自主导航、时空基准、探测任务体系等相关词条。目前已涵盖动力学模型（CR3BP、QBCP、星历模型）、任务轨道（DRO、NRHO）、导航技术（X射线脉冲星导航）等方向。
+当前条目数量仍在持续扩充中，现阶段优先整理在地月空间任务分析、轨道设计、导航定位等场景中高频出现的核心术语。后续将逐步补充平动点轨道、低能转移、深空自主导航、时空基准、探测任务体系等相关词条。目前已涵盖动力学模型（CR3BP、QBCP、星历模型）、任务轨道（DRO、NRHO）、导航技术（X射线脉冲星导航）、时空基准、推进技术（POGO、NTP）、空间运行（太空交通管控）、月球矿物等方向。
 
 ## 收录说明
 
@@ -80,9 +80,28 @@ twitter:
 - [镁嫦娥石（Changeite-Mg）](/glossary/mg-changeite/)
 - [铈嫦娥石（Changeite-Ce）](/glossary/ce-changeite/)
 
+### 时空基准
+
+- [地月空间时空基准（Cislunar Spatiotemporal Reference）](/glossary/cislunar-spatiotemporal-reference/)
+
+### 推进技术
+
+- [纵向耦合振动（POGO）](/glossary/pogo/)
+- [核热推进（NTP）](/glossary/nuclear-thermal-propulsion/)
+
+### 空间运行
+
+- [太空交通管控（STM）](/glossary/space-traffic-management/)
+
 ## 更新说明
 
 本页将随着站点内容建设持续补充新的术语条目与分类目录，逐步形成更完整的地月空间术语体系。
+
+**2026-04-24 更新（二）**：根据2026年中国航天大会发布的宇航领域十大科学问题和技术难题，新增以下术语：
+- 地月空间时空基准（Cislunar Spatiotemporal Reference）
+- 纵向耦合振动（POGO）
+- 核热推进（NTP）
+- 太空交通管控（STM）
 
 **2026-04-24 更新**：新增嫦娥五号月球样品研究最新成果中的两种月球新矿物：
 - 镁嫦娥石（Changeite-Mg）

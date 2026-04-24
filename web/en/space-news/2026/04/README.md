@@ -22,6 +22,7 @@ wechatShare:
 | 4-24 | [2026 Marks China's Commercial Space "Mass Production Era" with 100+ Launches Projected](./2026-04-24-commercial-space-mass-production/) |
 | 4-24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |
 | 4-23 | [NASA Announces SpaceX Crew-13 Mission Assignments](./2026-04-23-nasa-crew-13/) |
+| 4-23 | [2026 Space Art and Culture Forum Held in Chengdu](./2026-04-23-space-art-culture-forum/) |
 | 3-30 | [CAS Space's Lijian-2 (Yao-1) Rocket Scores Maiden Flight Success, Places Three Satellites in Orbit](./2026-03-30-lijian-2-maiden-flight/) |
 | 4-22 | [Tiankong Constellation Officially Launched: China's First 220-Satellite Infrared Constellation Plan Unveiled](./2026-04-22-tiankong-constellation-launch/) |
 | 4-22 | [Infineon Radiation-Hardened Semiconductors Pass Space Validation on Artemis II Mission](./2026-04-22-infineon-artemis-ii/) |
