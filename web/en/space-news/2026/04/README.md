@@ -21,6 +21,7 @@ wechatShare:
 | 4-24 | [Tianwen-3 Mars Sample Return: Launch Planned for ~2028, Return with Samples by ~2031](./2026-04-24-tianwen-3-mars-sample-return/) |
 | 4-24 | [2026 Marks China's Commercial Space "Mass Production Era" with 100+ Launches Projected](./2026-04-24-commercial-space-mass-production/) |
 | 4-24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |
+| 4-24 | [CNSA and SAMR Jointly Release Commercial Space Standard System (Version 1.0)](./2026-04-24-commercial-space-standard/) |
 | 4-23 | [NASA Announces SpaceX Crew-13 Mission Assignments](./2026-04-23-nasa-crew-13/) |
 | 4-23 | [2026 Space Art and Culture Forum Held in Chengdu](./2026-04-23-space-art-culture-forum/) |
 | 4-23 | [NASA Kennedy Prepares Facility for Roman Space Telescope Arrival](./2026-04-23-nasa-roman-telescope-kennedy/) |
