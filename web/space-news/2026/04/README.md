@@ -28,11 +28,15 @@ wechatShare:
 | 4-23 | [NASA发布LAVA航空软件助力美国航空航天工业](./2026-04-23-nasa-lava-software/) |
 | 3-30 | [力箭二号遥一运载火箭首飞成功，一箭三星送入预定轨道](./2026-03-30-lijian-2-maiden-flight/) |
 | 4-22 | [天瞳星座正式启动：国内首个220颗红外卫星组网规划发布](./2026-04-22-tiankong-constellation-launch/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-23 | [NASA 在国际空间站测试 IVGEN Mini 系统实现太空输液即时生产](./2026-04-23-nasa-ivgen-mini/) |
 | 4-23 | [NASA钱德拉X射线天文台发现年轻类太阳恒星X射线辐射意外偏低](./2026-04-23-nasa-chandra-stars-dim/) |
 | 4-22 | [英飞凌抗辐射半导体在 Artemis II 任务中通过太空验证](./2026-04-22-infineon-artemis-ii/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [SpaceX 无人回收船 JRTI 完成第 156 次猎鹰火箭回收](./2026-04-22-jrti-final-flight/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 选择 SpaceX 猎鹰重型发射欧航局罗莎琳德·富兰克林号火星车](./2026-04-22-esa-falcon-heavy-rosalind/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-23 | [俄罗斯安加拉-1.2 火箭成功发射军用卫星](./2026-04-23-angara-1-2-launch/) |
 
 ## 本月条目
@@ -106,28 +110,51 @@ wechatShare:
 | 4-21 | [好奇号火星车发现火星史上最多样有机分子群](./2026-04-21-curiosity-organics/) |
 | 4-21 | [NASA 哈勃望远镜发布蟹状星云新图像庆祝发射36周年](./2026-04-21-crab-nebula-hubble/) |
 | 4-22 | [Rocket Lab HASTE 任务预告：Bubbles 科学实验载荷即将发射](./2026-04-22-hasate-bubbles/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [约旦将于 4 月 23 日签署《Artemis 协议》](./2026-04-22-jordan-artemis-accords/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 宣布投资 1630 万美元支持中小航天企业创新](./2026-04-22-nasa-sbir-2026/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 发布 Artemis II 任务图像与视频回顾：猎户座飞船有哪些精彩时刻](./2026-04-22-artemis-ii-recap/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 发布 Artemis II 任务期间地球新影像：浮游植物与极光同框](./2026-04-22-nasa-pace-earth-views/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 发布华盛顿郊区绿色空间卫星影像：城市绿带与人类住区](./2026-04-22-nasa-greenbelts/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [好奇号火星车第 4867–4872 个任务日：安托法加斯塔陨石坑探索与下个钻探目标选址](./2026-04-22-curiosity-sol-4867/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [FAA在New Glenn发射事故后宣布停飞蓝色起源火箭](./2026-04-22-faa-new-glenn-grounded/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [2026年中国航天大会（CSC2026）将于4月23日在成都开幕](./2026-04-22-csc2026-preview/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [中国载人航天工程首批外籍航天员选拔完成](./2026-04-22-foreign-astronaut-selection/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 约翰逊中心主任在 SXSW 阐述 Artemis 如何改变一切](./2026-04-22-nasa-sxsw/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 在第 30 届 Webby 奖评选中斩获两项大奖及五项人民之声奖](./2026-04-22-nasa-webby-awards/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [长征四号丙成功发射大气环境监测卫星](./2026-04-22-daqi-2-launch/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [SpaceX成功发射GPS III SV10卫星](./2026-04-22-gps-iii-sv10-launch/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Blue Origin新格伦号火箭发射失败](./2026-04-22-new-glenn-failure/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 公布 Artemis II 任务拍摄的地球明暗界线影像](./2026-04-22-night-and-earth-day/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 地球观测卫星影像：华盛顿郊区绿带](./2026-04-22-belts-of-green/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Nancy Grace 罗马太空望远镜瞄准2026年9月初发射](./2026-04-22-roman-space-telescope/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA波音777改装完成重返机队，先进空中实验室即将启用](./2026-04-22-nasa-777-aircraft/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA宣布宇航员Anil Menon新闻发布会，预告即将执行的国际空间站任务](./2026-04-22-nasa-anil-menon/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Rocket Lab HASTE 成功发射高超声速测试任务](./2026-04-22-haste-bubbles/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [SpaceX 无人回收船 JRTI 完成第 156 次猎鹰火箭回收](./2026-04-22-jrti-final-flight/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA 选择 SpaceX 猎鹰重型发射欧航局罗莎琳德·富兰克林号火星车](./2026-04-22-esa-falcon-heavy-rosalind/) |
+| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-23 | [2026年中国航天大会（CSC2026）在成都开幕](./2026-04-23-csc2026-opening/) |
 | 4-23 | [NASA 地球观测：季节性火灾笼罩泰国北部](./2026-04-23-nasa-thailand-smoke/) |
 | 4-23 | [Rocket Lab完成第85次发射暨首次为欧空局执行专用发射任务](./2026-04-23-rocket-lab-85th-mission/) |

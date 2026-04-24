@@ -28,9 +28,13 @@ wechatShare:
 | 4-23 | [NASA Releases LAVA Aerodynamics Software to US Aerospace Industry](./2026-04-23-nasa-lava-software/) |
 | 3-30 | [CAS Space's Lijian-2 (Yao-1) Rocket Scores Maiden Flight Success, Places Three Satellites in Orbit](./2026-03-30-lijian-2-maiden-flight/) |
 | 4-22 | [Tiankong Constellation Officially Launched: China's First 220-Satellite Infrared Constellation Plan Unveiled](./2026-04-22-tiankong-constellation-launch/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Infineon Radiation-Hardened Semiconductors Pass Space Validation on Artemis II Mission](./2026-04-22-infineon-artemis-ii/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [SpaceX Drone Ship JRTI Completes Final Falcon 9 Landing](./2026-04-22-jrti-final-flight/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Selects SpaceX Falcon Heavy to Launch ESA Rosalind Franklin Mars Rover](./2026-04-22-esa-falcon-heavy-rosalind/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-23 | [Russia Successfully Launches Angara-1.2 Rocket with Military Satellite](./2026-04-23-angara-1-2-launch/) |
 
 ## All Articles
@@ -103,28 +107,51 @@ wechatShare:
 | 4-21 | [Curiosity Rover Finds Most Diverse Collection of Organic Molecules in Martian History](./2026-04-21-curiosity-organics/) |
 | 4-21 | [NASA Hubble Releases Stunning New Image of the Crab Nebula for 36th Launch Anniversary](./2026-04-21-crab-nebula-hubble/) |
 | 4-22 | [Rocket Lab HASTE Mission Preview: Bubbles Scientific Payload Ready for Launch](./2026-04-22-hasate-bubbles/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Jordan to Sign Artemis Accords on April 23](./2026-04-22-jordan-artemis-accords/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Invests $16.3 Million to Support Small and Medium Space Enterprises](./2026-04-22-nasa-sbir-2026/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Releases Artemis II Image and Video Recap: Key Mission Moments](./2026-04-22-artemis-ii-recap/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Releases New Earth Views from Artemis II Mission: Phytoplankton and Aurora Together](./2026-04-22-nasa-pace-earth-views/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Earth Observatory Releases Satellite Image of Green Spaces in Washington Suburbs: Urban Green Belts and Human Settlements](./2026-04-22-nasa-greenbelts/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Curiosity Rover Sols 4867-4872: Exploring Antofagasta Crater and Selecting Next Drilling Target](./2026-04-22-curiosity-sol-4867/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [FAA Grounds Blue Origin's New Glenn After Launch Fails to Deploy Satellite](./2026-04-22-faa-new-glenn-grounded/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [2026 China Space Conference (CSC2026) to Open in Chengdu on April 23](./2026-04-22-csc2026-preview/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [China's First Batch of International Astronauts Selected](./2026-04-22-foreign-astronaut-selection/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA at SXSW: Johnson Center Director Vanessa Wyche on Why Artemis Changes Everything](./2026-04-22-nasa-sxsw/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Wins Two Webby Awards and Five People's Voice Awards at 30th Annual Awards](./2026-04-22-nasa-webby-awards/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Long March 4C Successfully Launches Atmospheric Monitoring Satellite](./2026-04-22-daqi-2-launch/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [SpaceX Successfully Launches GPS III SV10 Satellite](./2026-04-22-gps-iii-sv10-launch/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Blue Origin's New Glenn Rocket Fails to Reach Orbit](./2026-04-22-new-glenn-failure/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Releases Earth Day Image Captured by Artemis II Crew](./2026-04-22-night-and-earth-day/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Earth Observatory Image: Green Belts in Washington Suburbs](./2026-04-22-belts-of-green/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Targets Early September for Roman Space Telescope Launch](./2026-04-22-roman-space-telescope/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA's Modified Boeing 777 Returns to Fleet as Next-Generation Airborne Science Laboratory](./2026-04-22-nasa-777-aircraft/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA to Host News Conference with Astronaut Anil Menon on Upcoming ISS Mission](./2026-04-22-nasa-anil-menon/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Rocket Lab HASTE Successfully Launches Hypersonic Test Mission](./2026-04-22-haste-bubbles/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [SpaceX Drone Ship JRTI Completes Final Falcon 9 Landing](./2026-04-22-jrti-final-flight/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [NASA Selects SpaceX Falcon Heavy to Launch ESA Rosalind Franklin Mars Rover](./2026-04-22-esa-falcon-heavy-rosalind/) |
+| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-23 | [China Space Conference 2026 (CSC2026) Opens in Chengdu](./2026-04-23-csc2026-opening/) |
 | 4-23 | [NASA Earth Observatory: Seasonal Fires Shroud Northern Thailand](./2026-04-23-nasa-thailand-smoke/) |
 | 4-23 | [Rocket Lab Completes 85th Mission and First Dedicated ESA Launch](./2026-04-23-rocket-lab-85th-mission/) |
