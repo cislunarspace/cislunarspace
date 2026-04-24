@@ -18,6 +18,8 @@ wechatShare:
 | Date | Title |
 |------|-------|
 | 4-24 | [Long March 2D Launch Successful](./2026-04-24-long-march-2d-launch/) |
+| 4-24 | [Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
+| 4-24 | [SpaceX Launches Final GPS III Satellite for U.S. Space Force](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
 | 4-24 | [Tianwen-3 Mars Sample Return: Launch Planned for ~2028, Return with Samples by ~2031](./2026-04-24-tianwen-3-mars-sample-return/) |
 | 4-24 | [2026 Marks China's Commercial Space "Mass Production Era" with 100+ Launches Projected](./2026-04-24-commercial-space-mass-production/) |
 | 4-24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |

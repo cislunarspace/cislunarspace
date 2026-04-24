@@ -17,7 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
-| 4-24 | [长征二号D运载火箭发射成功](./2026-04-24-long-march-2d-launch/) |
+| 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
+| 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
 | 4-24 | [天问三号计划2028年前后发射，2031年携火星样品返回地球](./2026-04-24-tianwen-3-mars-sample-return/) |
 | 4-24 | [2026年中国商业航天进入"量产元年"，全年发射有望破百次](./2026-04-24-commercial-space-mass-production/) |
 | 4-24 | [第11个中国航天日：七秩问天路 携手探九霄](./2026-04-24-china-space-day-2026-ceremony/) |
