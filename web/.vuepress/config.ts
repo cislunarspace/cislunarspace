@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import { searchPlugin } from '@vuepress/plugin-search'
 import dotenv from 'dotenv'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -170,5 +171,15 @@ export default defineUserConfig({
     ogMetaPlugin,
     googleAnalyticsPlugin({ id: 'G-0PLJ56MK80' }),
     sitemapPlugin({ hostname: domain }),
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索文档',
+        },
+        '/en/': {
+          placeholder: 'Search docs',
+        },
+      },
+    }),
   ],
 })
