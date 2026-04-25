@@ -19,6 +19,8 @@ wechatShare:
 |------|-------|
 | 4-25 | [China Discovers Two New Lunar Minerals in Chang'e-5 Samples — Magnesium and Cerium Chang'e Stones](./2026-04-25-chang-e5-new-minerals/) |
 | 4-25 | [Artemis II Crew Captures Milky Way Photo During Journey to the Moon](./2026-04-25-artemis-ii-milky-way/) |
+| 4-25 | [U.S. Space Force Awards $3.2B Contracts to SpaceX, Lockheed Martin and 10 Others for Golden Dome Space-Based Interceptors](./2026-04-25-golden-dome-interceptor/) |
+| 4-25 | [China's First Foreign Astronauts Arrive for Training at Astronaut Center](./2026-04-25-pakistani-astronauts-training/) |
 | 4-24 | [Long March 2D Launch Successful](./2026-04-24-long-march-2d-launch/) |
 | 4-24 | [Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX Launches Final GPS III Satellite for U.S. Space Force](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
