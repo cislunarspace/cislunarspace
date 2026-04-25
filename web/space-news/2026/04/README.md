@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-24
+lastUpdated: 2026-04-25
 wechatShare:
   title: "航天动态 · 2026 年 4 月"
   desc: "2026 年 4 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 4-25 | [嫦娥五号月壤发现镁嫦娥石与铈嫦娥石：我国科学家再次发现两种月球新矿物](./2026-04-25-chang-e5-new-minerals/) |
+| 4-25 | [Artemis II宇航员在奔月途中拍摄银河壮景](./2026-04-25-artemis-ii-milky-way/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
 | 4-24 | [天问三号计划2028年前后发射，2031年携火星样品返回地球](./2026-04-24-tianwen-3-mars-sample-return/) |
