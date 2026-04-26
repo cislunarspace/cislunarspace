@@ -34,7 +34,7 @@ A pulsar is a highly spinning neutron star. When a star with more than 1.4 solar
 
 The rotation axis and magnetic axis of a pulsar are misaligned, and the two magnetic poles can emit radiation beams. As the star rotates and a magnetic pole beam sweeps across the detector, the detector receives a pulse signal — much like a lighthouse guiding ships at sea. The long-term stability of pulsar rotational periods is outstanding; the long-term stability of certain millisecond pulsars can rival that of current atomic clocks. Pulsars that emit radiation in the X-ray band are called X-ray pulsars. X-rays are high-energy radiation that can be detected by compact instruments, but they cannot penetrate the dense atmosphere of the Earth, so they can only be observed in outer space [4].
 
-![Pulsar "Rotation" Model](./Figures/image.png)
+![Pulsar "Rotation" Model](../Figures/image.png)
 
 By establishing a timing phase model of pulsars at the Solar System Barycenter (SSB), the arrival time of any pulse at the SSB can be predicted. Meanwhile, by on-orbit processing of photon measurement data, the arrival time of that pulse at the spacecraft can also be obtained. The difference between the measured time and the predicted time reflects the projection of the spacecraft's position relative to the SSB along the pulsar direction. By processing measurement information from different directions, the position and time of the spacecraft can be estimated. By comparing the pulsar bearing measurements with the pulsar direction vectors in inertial space, the attitude of the spacecraft body frame relative to the inertial frame can be determined.
 
