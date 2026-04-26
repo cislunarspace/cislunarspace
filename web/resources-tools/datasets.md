@@ -1,10 +1,10 @@
 ---
 title: 星历、轨道、环境数据下载
 description: 整理地月空间研究所需的核心数据集资源，包括JPL星历、轨道数据、环境模型、月球地形数据等，提供下载链接和使用指南
-keywords: 地月空间数据集, JPL星历, 轨道数据, 月球地形数据, 空间环境数据, 研究资源下载
+keywords: 地月空间数据集, JPL星历, 轨道数据, 月球地形数据, 空间环境数据, 研究资源下载, DRO卫星
 author: 天疆说
 date: 2026-03-07
-lastUpdated: 2026-03-07
+lastUpdated: 2026-04-26
 wechatShare:
   title: 地月空间数据集资源
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -388,6 +388,25 @@ python process_spaceweather.py f107.txt
 - [SPICE工具包](https://naif.jpl.nasa.gov/naif/toolkit.html)
 - [HORIZONS系统](https://ssd.jpl.nasa.gov/horizons/)
 - [GMAT数据接口](https://github.com/NASA-AMMOS/GMAT/wiki/Data-Interfaces)
+
+---
+
+## 地月空间 DRO 卫星星座实测数据
+
+2025 年 4 月，中国科学院 A 类战略性先导专项"地月空间 DRO 探索研究"取得重大突破：DRO-A/B 两颗卫星成功入轨并与 DRO-L 卫星建立星间链路，标志着国际首个基于 DRO 的地月空间三星星座正式建成。任务三颗试验卫星在轨运行两年间，已完成多项国际首次技术验证：
+
+- **国际首次 DRO 低能入轨**：验证了航天器在 DRO 的稳定驻留能力
+- **低能耗机动转移**：天基测量定轨导航新原理验证
+- **117 万公里 K 频段星间链路**：建立跨度达 117 万公里的稳定星间通信
+- **全拉格朗日点巡访**：成为国际首个一次性完成地月空间全部拉格朗日点巡访的航天器
+
+相关实测轨道数据、星历和工程参数可参考中科院空间应用工程与技术中心发布的技术报告。
+
+### 数据来源
+
+- 中科院空间应用工程与技术中心：[https://www.csu.cas.cn/](https://www.csu.cas.cn/)
+- 中国探月工程数据：[http://www.clep.org.cn/](http://www.clep.org.cn/)
+- NASA JPL 地月空间任务数据：[https://ssd.jpl.nasa.gov/](https://ssd.jpl.nasa.gov/)
 
 ---
 

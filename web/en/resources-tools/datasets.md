@@ -4,7 +4,7 @@ description: Collection of essential datasets for cislunar space research, inclu
 keywords: cislunar space datasets, JPL ephemeris, orbital data, lunar terrain data, space environment data, research resources download
 author: CislunarSpace
 date: 2026-03-07
-lastUpdated: 2026-03-07
+lastUpdated: 2026-04-26
 wechatShare:
   title: Cislunar Space Dataset Resources
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
@@ -392,3 +392,20 @@ python process_spaceweather.py f107.txt
 ---
 
 *For more datasets and updates, please follow the latest developments on this site...*
+
+## Cislunar DRO Satellite Constellation Mission Data
+
+In April 2025, China's CAS Strategic Priority Program "Cislunar Space DRO Exploration Research" achieved a major breakthrough: the DRO-A/B satellites successfully entered orbit and established inter-satellite links with the DRO-L satellite, marking the world's first international DRO-based cislunar three-satellite constellation. Over two years of in-orbit operation, the mission has completed multiple world-first technology demonstrations:
+
+- **World's First DRO Low-Energy Orbit Entry**: Validated spacecraft stable station-keeping capability in DRO
+- **Low-Energy Maneuver Transfer**: New principles of space-based measurement, orbit determination and navigation verified
+- **1.17 Million km K-Band Inter-Satellite Link**: Established stable cross-link communication spanning 1.17 million km
+- **Complete Lagrange Point Tour**: Became the world's first spacecraft to visit all cislunar Lagrange points in a single mission
+
+Related real-flight orbit data, ephemerides and engineering parameters are available through technical reports published by the CAS Center of Space Utilization.
+
+### Data Sources
+
+- CAS Center of Space Utilization: [https://www.csu.cas.cn/](https://www.csu.cas.cn/)
+- China Lunar Exploration Program Data: [http://www.clep.org.cn/](http://www.clep.org.cn/)
+- NASA JPL Cislunar Mission Data: [https://ssd.jpl.nasa.gov/](https://ssd.jpl.nasa.gov/)
