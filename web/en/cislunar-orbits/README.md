@@ -4,7 +4,7 @@ description: Overview of cislunar mission orbit families—transfers, lunar orbi
 keywords: cislunar orbits, transfer orbit, NRHO, DRO, libration point, CR3BP
 author: CislunarSpace
 date: 2026-03-07
-lastUpdated: 2026-04-22
+lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/
 wechatShare:
   title: Cislunar Space Orbits
@@ -47,6 +47,21 @@ Spacecraft in cislunar space are poorly approximated by a single Keplerian cente
 
 Detailed design needs ephemerides, force models, and program constraints. See [resources & tools](/en/resources-tools/) for datasets and libraries, and the [orbit simulation lab](/en/satellite-simulation/) for interactive experiments.
 
+
+## Deep Dives: Three Key Topics
+
+### NRHO (Near-Rectilinear Halo Orbit)
+
+NRHO (Near-Rectilinear Halo Orbit) is a class of periodic orbits near the Earth-Moon libration points, named for their elongated "near-linear" appearance in the rotating frame. These orbits offer favorable communication visibility to the lunar south pole and require relatively low delta-v to reach the lunar surface, making them the preferred operational orbit for NASA's Lunar Gateway station in the Artemis program. NRHOs are solutions to the restricted three-body problem—they are not asymptotically stable and require periodic station-keeping—but their dynamical properties have been validated by numerous missions and remain a hot research topic in cislunar operations.
+
+### DRO (Distant Retrograde Orbit)
+
+DRO (Distant Retrograde Orbit) refers to quasi-periodic orbits that are retrograde in the rotating frame and located at considerable distances from the Earth-Moon barycenter. Compared to NRHOs, DROs are farther from the Moon, demand less station-keeping, and serve well as long-duration parking orbits or deep-space mission outposts. Their forgiving dynamical structure makes DROs attractive for demonstrating multi-body transfer concepts and for studying chaos and orbital stability in cislunar space.
+
+### Earth-Moon Transfer Orbits
+
+Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and lunar orbit or the Moon's sphere of influence. Common transfer strategies include Hohmann transfers, low-energy transfers (Lunar Transfer Orbit, LTO), and the increasingly studied multi-body gravity-assist transfers. Each approach trades off propellant, transfer time, and launch window flexibility—fast transfers consume more fuel, while low-energy transfers can take months but require much less delta-v. Mission planners weigh these factors against schedule, launch vehicle capacity, and tracking coverage to select the best fit.
+
 ## Suggested reading order
 
 1. [What is cislunar space](/en/what-is-cislunarspace/) and the [environment](/en/what-is-cislunarspace/environment) page.
@@ -54,3 +69,7 @@ Detailed design needs ephemerides, force models, and program constraints. See [r
 3. [Research frontiers](/en/research-frontiers/) for active topics and references.
 
 *Deep-dive articles and worked examples are expanding—contributions via the repository are welcome.*
+
+## Simulation Lab
+
+Explore the dynamical characteristics of various orbit classes interactively in the [Satellite Orbit Simulation Lab](/en/satellite-simulation/).
