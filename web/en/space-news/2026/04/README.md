@@ -21,7 +21,8 @@ wechatShare:
 | 4-25 | [Artemis II Crew Captures Milky Way Photo During Journey to the Moon](./2026-04-25-artemis-ii-milky-way/) |
 | 4-25 | [U.S. Space Force Awards $3.2B Contracts to SpaceX, Lockheed Martin and 10 Others for Golden Dome Space-Based Interceptors](./2026-04-25-golden-dome-interceptor/) |
 | 4-25 | [China's First Foreign Astronauts Arrive for Training at Astronaut Center](./2026-04-25-pakistani-astronauts-training/) |
-| 4-24 | [Long March 2D Launch Successful](./2026-04-24-long-march-2d-launch/) |
+| 4-25 | [Weiguang Qihang Unveils World's First All-Carbon Fiber Launch Vehicle at CSC2026](./2026-04-25-weiguang-carbon-fiber-rocket/) |
+| 4-24 | [China Launches Satellite Internet Technology Test Satellites via Long March 2D](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX Launches Final GPS III Satellite for U.S. Space Force](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
 | 4-24 | [Tianwen-3 Mars Sample Return: Launch Planned for ~2028, Return with Samples by ~2031](./2026-04-24-tianwen-3-mars-sample-return/) |

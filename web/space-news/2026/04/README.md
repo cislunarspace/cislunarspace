@@ -21,6 +21,8 @@ wechatShare:
 | 4-25 | [Artemis II宇航员在奔月途中拍摄银河壮景](./2026-04-25-artemis-ii-milky-way/) |
 | 4-25 | [SpaceX、洛克希德·马丁等12家公司赢得美国「金穹顶」天基拦截器合同](./2026-04-25-golden-dome-interceptor/) |
 | 4-25 | [中国首批外籍航天员来华参加训练，两名巴基斯坦航天员入驻航天员中心](./2026-04-25-pakistani-astronauts-training/) |
+| 4-25 | [微光启航携「微光一号」亮相CSC2026，全球首款全碳纤维运载火箭引关注](./2026-04-25-weiguang-carbon-fiber-rocket/) |
+| 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
 | 4-24 | [天问三号计划2028年前后发射，2031年携火星样品返回地球](./2026-04-24-tianwen-3-mars-sample-return/) |
