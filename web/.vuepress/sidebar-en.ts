@@ -99,14 +99,47 @@ const glossarySidebar = [
 const resourcesToolsSidebar = [
   wayfindingEnGroup,
   {
-    text: 'Resources & tools (data, code & datasets)',
+    text: 'Resources & Tools (Data, Code & Datasets)',
     collapsible: false,
     children: [
       '/en/resources-tools/',
-      '/en/resources-tools/e2m2e',
-      '/en/resources-tools/scipy',
-      '/en/resources-tools/r2s2',
-      '/en/resources-tools/datasets',
+      {
+        text: 'Simulation Software',
+        collapsible: true,
+        children: [
+          '/en/resources-tools/gmat',
+          '/en/resources-tools/stk',
+        ],
+      },
+      {
+        text: 'Core Algorithm Libraries',
+        collapsible: true,
+        children: [
+          '/en/resources-tools/e2m2e',
+          '/en/resources-tools/scipy',
+          '/en/resources-tools/r2s2',
+          '/en/resources-tools/orekit',
+          '/en/resources-tools/poliastro',
+          '/en/resources-tools/basilisk',
+          '/en/resources-tools/pykep',
+        ],
+      },
+      {
+        text: 'Data Resources',
+        collapsible: true,
+        children: [
+          '/en/resources-tools/datasets',
+        ],
+      },
+      {
+        text: 'AI & Cloud Platforms',
+        collapsible: true,
+        children: [
+          '/en/resources-tools/digital-lunar',
+          '/en/resources-tools/llm',
+          '/en/resources-tools/naoc-data',
+        ],
+      },
     ],
   },
 ]
