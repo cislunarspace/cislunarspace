@@ -180,6 +180,58 @@ const glossarySidebar = [
           '/glossary/other/cislunar-navigation-prospects',
         ],
       },
+      {
+        text: '机构和组织',
+        collapsible: true,
+        children: [
+          '/glossary/organizations/anduril',
+          '/glossary/organizations/booz-allen-hamilton',
+          '/glossary/organizations/general-dynamics-mission-systems',
+          '/glossary/organizations/gitai-usa',
+          '/glossary/organizations/lockheed-martin',
+          '/glossary/organizations/northrop-grumman',
+          '/glossary/organizations/quindar',
+          '/glossary/organizations/raytheon',
+          '/glossary/organizations/sci-tec',
+          '/glossary/organizations/spacex',
+          '/glossary/organizations/true-anomaly',
+          '/glossary/organizations/turion-space',
+        ],
+      },
+    ],
+  },
+]
+
+const backgroundSidebar = [
+  wayfindingZhGroup,
+  {
+    text: '背景知识（基础理论 · 数学工具）',
+    collapsible: false,
+    children: [
+      '/background/',
+      {
+        text: '数学工具',
+        collapsible: true,
+        children: [
+          '/background/math/shooting-method',
+          '/background/math/continuation',
+          '/background/math/symplectic-integrator',
+        ],
+      },
+      {
+        text: '天体力学基础',
+        collapsible: true,
+        children: [
+          '/background/mechanics/perturbation',
+        ],
+      },
+      {
+        text: '控制与优化',
+        collapsible: true,
+        children: [
+          '/background/control/optimal-control',
+        ],
+      },
     ],
   },
 ]
@@ -294,6 +346,7 @@ const blueTeamResearchSidebar = [
 
 export default <SidebarConfig>{
   '/glossary/': glossarySidebar,
+  '/background/': backgroundSidebar,
   '/resources-tools/': resourcesToolsSidebar,
   '/blue-team-research/': blueTeamResearchSidebar,
   '/space-news/': spaceNewsSidebar,
