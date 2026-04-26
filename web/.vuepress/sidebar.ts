@@ -152,10 +152,43 @@ const resourcesToolsSidebar = [
     collapsible: false,
     children: [
       '/resources-tools/',
-      '/resources-tools/e2m2e',
-      '/resources-tools/scipy',
-      '/resources-tools/r2s2',
-      '/resources-tools/datasets',
+      {
+        text: '仿真软件',
+        collapsible: true,
+        children: [
+          '/resources-tools/gmat',
+          '/resources-tools/stk',
+        ],
+      },
+      {
+        text: '核心算法库',
+        collapsible: true,
+        children: [
+          '/resources-tools/e2m2e',
+          '/resources-tools/scipy',
+          '/resources-tools/r2s2',
+          '/resources-tools/orekit',
+          '/resources-tools/poliastro',
+          '/resources-tools/basilisk',
+          '/resources-tools/pykep',
+        ],
+      },
+      {
+        text: '数据资源',
+        collapsible: true,
+        children: [
+          '/resources-tools/datasets',
+        ],
+      },
+      {
+        text: 'AI与云平台',
+        collapsible: true,
+        children: [
+          '/resources-tools/digital-lunar',
+          '/resources-tools/llm',
+          '/resources-tools/naoc-data',
+        ],
+      },
     ],
   },
 ]
