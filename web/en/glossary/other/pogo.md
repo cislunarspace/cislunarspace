@@ -1,6 +1,6 @@
 ---
 title: Longitudinal Coupling Vibration (POGO)
-description: Detailed analysis of Longitudinal Coupling Vibration (POGO): definition, generation mechanism, effects on liquid rockets, suppression techniques, with particular focus on full-flight-profile POGO suppression for multi-engine parallel reusable rockets
+description: "Detailed analysis of Longitudinal Coupling Vibration (POGO): definition, generation mechanism, effects on liquid rockets, suppression techniques, with particular focus on full-flight-profile POGO suppression for multi-engine parallel reusable rockets"
 keywords: POGO vibration, longitudinal coupling vibration, liquid rocket, multi-engine parallel, reusable rocket, propellant feed system, stability control
 author: Tianjiang Talk
 date: 2026-04-24
