@@ -131,6 +131,58 @@ const glossarySidebar = [
           '/en/glossary/other/starshade',
         ],
       },
+      {
+        text: 'Organizations',
+        collapsible: true,
+        children: [
+          '/en/glossary/organizations/anduril',
+          '/en/glossary/organizations/booz-allen-hamilton',
+          '/en/glossary/organizations/general-dynamics-mission-systems',
+          '/en/glossary/organizations/gitai-usa',
+          '/en/glossary/organizations/lockheed-martin',
+          '/en/glossary/organizations/northrop-grumman',
+          '/en/glossary/organizations/quindar',
+          '/en/glossary/organizations/raytheon',
+          '/en/glossary/organizations/sci-tec',
+          '/en/glossary/organizations/spacex',
+          '/en/glossary/organizations/true-anomaly',
+          '/en/glossary/organizations/turion-space',
+        ],
+      },
+    ],
+  },
+]
+
+const backgroundSidebarEn = [
+  wayfindingEnGroup,
+  {
+    text: 'Background Knowledge (Fundamentals & Math Tools)',
+    collapsible: false,
+    children: [
+      '/en/background/',
+      {
+        text: 'Math Tools',
+        collapsible: true,
+        children: [
+          '/en/background/math/shooting-method',
+          '/en/background/math/continuation',
+          '/en/background/math/symplectic-integrator',
+        ],
+      },
+      {
+        text: 'Celestial Mechanics',
+        collapsible: true,
+        children: [
+          '/en/background/mechanics/perturbation',
+        ],
+      },
+      {
+        text: 'Control & Optimization',
+        collapsible: true,
+        children: [
+          '/en/background/control/optimal-control',
+        ],
+      },
     ],
   },
 ]
@@ -247,6 +299,7 @@ export default <SidebarConfig>{
   '/en/glossary/': glossarySidebar,
   '/en/resources-tools/': resourcesToolsSidebar,
   '/en/blue-team-research/': blueTeamResearchSidebar,
+  '/en/background/': backgroundSidebarEn,
   '/en/space-news/': spaceNewsSidebar,
   '/en/satellite-simulation/': false,
   '/en/what-is-cislunarspace/': whatIsCislunarspaceSidebar,
