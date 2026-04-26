@@ -34,7 +34,7 @@ twitter:
 
 本词典旨在对地月空间领域的核心概念进行规范化整理，尽量提供简明、准确、可检索的基础解释，帮助读者在阅读文献、理解任务方案和使用相关工具时，快速把握术语的基本含义、常见缩写及其应用背景。
 
-当前条目数量仍在持续扩充中，现阶段优先整理在地月空间任务分析、轨道设计、导航定位等场景中高频出现的核心术语。后续将逐步补充平动点轨道、低能转移、深空自主导航、时空基准、探测任务体系等相关词条。目前已涵盖动力学模型（CR3BP、QBCP、星历模型）、任务轨道（DRO、NRHO）、导航技术（X射线脉冲星导航）、时空基准、推进技术（POGO、NTP）、空间运行（太空交通管控）、月球矿物等方向。
+当前条目数量仍在持续扩充中，现阶段优先整理在地月空间任务分析、轨道设计、导航定位等场景中高频出现的核心术语。后续将逐步补充平动点轨道、低能转移、深空自主导航、时空基准、探测任务体系等相关词条。目前已涵盖动力学模型（CR3BP、QBCP、星历模型）、任务轨道（DRO、NRHO）、导航技术（X射线脉冲星导航）、时空基准、推进技术（POGO、NTP）、空间运行（太空交通管控）、月球矿物、相关机构与组织等方向。
 
 ## 收录说明
 
@@ -88,6 +88,21 @@ twitter:
 - [纵向耦合振动（POGO）](/glossary/pogo/)
 - [核热推进（NTP）](/glossary/nuclear-thermal-propulsion/)
 - [太空交通管控（STM）](/glossary/space-traffic-management/)
+
+### 机构和组织
+
+- [安杜里尔工业公司（Anduril）](/glossary/organizations/anduril/)
+- [博思艾伦汉密尔顿公司（BAH）](/glossary/organizations/booz-allen-hamilton/)
+- [通用动力任务系统公司（GDMS）](/glossary/organizations/general-dynamics-mission-systems/)
+- [GITAI美国公司（GITAI USA）](/glossary/organizations/gitai-usa/)
+- [洛克希德·马丁公司（Lockheed Martin）](/glossary/organizations/lockheed-martin/)
+- [诺斯罗普·格鲁曼公司（Northrop Grumman）](/glossary/organizations/northrop-grumman/)
+- [Quindar公司](/glossary/organizations/quindar/)
+- [雷神导弹与防务公司（Raytheon）](/glossary/organizations/raytheon/)
+- [Sci-Tec公司](/glossary/organizations/sci-tec/)
+- [SpaceX公司](/glossary/organizations/spacex/)
+- [True Anomaly公司](/glossary/organizations/true-anomaly/)
+- [Turion Space公司](/glossary/organizations/turion-space/)
 
 ## 更新说明
 

@@ -71,6 +71,21 @@ The number of entries is still growing. At the current stage, we prioritize high
 
 - [Starshade](/en/glossary/starshade/)
 
+### Organizations
+
+- [Anduril Industries](/en/glossary/organizations/anduril/)
+- [Booz Allen Hamilton (BAH)](/en/glossary/organizations/booz-allen-hamilton/)
+- [General Dynamics Mission Systems (GDMS)](/en/glossary/organizations/general-dynamics-mission-systems/)
+- [GITAI USA](/en/glossary/organizations/gitai-usa/)
+- [Lockheed Martin](/en/glossary/organizations/lockheed-martin/)
+- [Northrop Grumman](/en/glossary/organizations/northrop-grumman/)
+- [Quindar](/en/glossary/organizations/quindar/)
+- [Raytheon Missiles & Defense](/en/glossary/organizations/raytheon/)
+- [Sci-Tec](/en/glossary/organizations/sci-tec/)
+- [SpaceX](/en/glossary/organizations/spacex/)
+- [True Anomaly](/en/glossary/organizations/true-anomaly/)
+- [Turion Space](/en/glossary/organizations/turion-space/)
+
 ## Update Note
 
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
