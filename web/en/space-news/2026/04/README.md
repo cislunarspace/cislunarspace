@@ -26,7 +26,9 @@ wechatShare:
 | 4-26 | [Artemis II Crew Captures Stunning 'Earthset' Image — Moon's Far Side Visible as Earth Descends Toward Lunar Surface](./2026-04-26-artemis-ii-earthset/) |
 | 4-26 | [Russia Launches Progress MS-34 Cargo Spacecraft to ISS](./2026-04-26-progress-ms-34-launch/) |
 | 4-26 | [Nayuta Space Unveils Qianniao-R Rocket with Parachute Landing System — China's First Commercial Rocket with Parachute Recovery](./2026-04-26-qianniao-r-dongniao/) |
+| 4-26 | [China Achieves Record 92 Space Launches in 2025, Commercial Sector Accounts for Over 50%](./2026-04-26-china-2025-launch-stats/) |
 | 4-27 | [China's Space Computing Push: Why Is 'Space Computing' Superior to 'Ground Computing'?](./2026-04-27-space-computing/) |
+| 4-26 | [Galaxy Aerospace Celebrates 8th Anniversary as China's First Commercial Space Unicorn](./2026-04-26-galaxy-8year/) |
 | 4-24 | [China Launches Satellite Internet Technology Test Satellites via Long March 2D](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX Launches Final GPS III Satellite for U.S. Space Force](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
