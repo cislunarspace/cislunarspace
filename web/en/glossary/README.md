@@ -48,8 +48,6 @@ The number of entries is still growing. At the current stage, we prioritize high
 ### Dynamical Models
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
-- Quasi-Bicircular Four-Body Problem (QBCP) *(see Chinese version)*
-- Ephemeris Model *(see Chinese version)*
 - [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
 - [Central Manifold](/en/glossary/central-manifold/)
 - [Action-Angle Variables](/en/glossary/action-angle/)
@@ -57,17 +55,10 @@ The number of entries is still growing. At the current stage, we prioritize high
 
 ### Mission Orbits
 
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/) *(see Chinese version)*
-- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/) *(see Chinese version)*
 - [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/eml-halo/)
 - [Orbit Identification](/en/glossary/orbit-identification/)
 
-### Simulation Tools & Space Technology
-
-- [Starshade](/en/glossary/starshade/)
-- EXOSIMS *(see Chinese version)*
-
-### Navigation Technology
+### Navigation
 
 - [X-ray Pulsar Navigation](/en/glossary/xray-pulsar-navigation/)
 
@@ -75,6 +66,10 @@ The number of entries is still growing. At the current stage, we prioritize high
 
 - [Changeite-Mg (Magnesium Changeite)](/en/glossary/mg-changeite/)
 - [Changeite-Ce (Cerium Changeite)](/en/glossary/ce-changeite/)
+
+### Other
+
+- [Starshade](/en/glossary/starshade/)
 
 ## Update Note
 
