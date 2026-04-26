@@ -39,6 +39,8 @@ wechatShare:
 | 4-24 | [第11个中国航天日：七秩问天路 携手探九霄](./2026-04-24-china-space-day-2026-ceremony/) |
 | 4-24 | [国家航天局、市场监管总局联合发布《商业航天标准体系（1.0版）》](./2026-04-24-commercial-space-standard/) |
 | 4-24 | [哈勃太空望远镜发布三叶星云新图像，纪念发射36周年](./2026-04-24-hubble-trifid-nebula/) |
+| 4-24 | [NASA 航天员将在国际空间站回答密苏里州学生提问](./2026-04-24-nasa-missouri-students/) |
+| 4-24 | [NASA 大学创新联盟迎来十周年：推动航空领域突破性创新](./2026-04-24-nasa-university-innovation-aeronautics/) |
 | 4-23 | [NASA约翰逊航天中心两位领导人获国家太空俱乐部表彰](./2026-04-23-nasa-johnson-leaders/) |
 | 4-23 | [NASA公布SpaceX Crew-13任务航天员名单](./2026-04-23-nasa-crew-13/) |
 | 4-23 | [2026航天文化艺术论坛在成都举办](./2026-04-23-space-art-culture-forum/) |

@@ -39,6 +39,8 @@ wechatShare:
 | 4-24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |
 | 4-24 | [CNSA and SAMR Jointly Release Commercial Space Standard System (Version 1.0)](./2026-04-24-commercial-space-standard/) |
 | 4-24 | [Hubble Space Telescope Releases New Image of Trifid Nebula, Marking 36th Launch Anniversary](./2026-04-24-hubble-trifid-nebula/) |
+| 4-24 | [NASA Astronauts to Answer Questions from Missouri Students from Space Station](./2026-04-24-nasa-missouri-students/) |
+| 4-24 | [NASA's University Leadership Initiative Celebrates a Decade of Breakthrough Aviation Innovation](./2026-04-24-nasa-university-innovation-aeronautics/) |
 | 4-23 | [NASA Johnson Leaders Honored by National Space Club & Foundation](./2026-04-23-nasa-johnson-leaders/) |
 | 4-23 | [NASA Announces SpaceX Crew-13 Mission Assignments](./2026-04-23-nasa-crew-13/) |
 | 4-23 | [2026 Space Art and Culture Forum Held in Chengdu](./2026-04-23-space-art-culture-forum/) |
