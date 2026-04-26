@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-25
+lastUpdated: 2026-04-26
 wechatShare:
   title: "航天动态 · 2026 年 4 月"
   desc: "2026 年 4 月航天新闻条目索引。"
@@ -23,6 +23,8 @@ wechatShare:
 | 4-25 | [中国首批外籍航天员来华参加训练，两名巴基斯坦航天员入驻航天员中心](./2026-04-25-pakistani-astronauts-training/) |
 | 4-25 | [长征六号运载火箭成功发射巴基斯坦PRSC-EO3卫星](./2026-04-25-pakistan-prsc-eo3-launch/) |
 | 4-25 | [微光启航携「微光一号」亮相CSC2026，全球首款全碳纤维运载火箭引关注](./2026-04-25-weiguang-carbon-fiber-rocket/) |
+| 4-26 | [Artemis II 宇航员在奔月途中拍摄地球「落」向月表的壮丽影像](./2026-04-26-artemis-ii-earthset/) |
+| 4-26 | [千亿航天公布「乾象-R」火箭气动减速回收方案，中国商业航天首款翼伞着陆产品](./2026-04-26-qianniao-r-dongniao/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
