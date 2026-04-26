@@ -54,17 +54,43 @@ const glossarySidebar = [
       {
         text: 'Dynamics models',
         collapsible: true,
-        children: ['/en/glossary/cr3bp'],
+        children: [
+          '/en/glossary/dynamics/cr3bp',
+          '/en/glossary/dynamics/birkhoff-gustavson',
+          '/en/glossary/dynamics/central-manifold',
+          '/en/glossary/dynamics/action-angle',
+          '/en/glossary/dynamics/poincare-section',
+        ],
+      },
+      {
+        text: 'Mission orbits',
+        collapsible: true,
+        children: [
+          '/en/glossary/orbits/eml-halo',
+          '/en/glossary/orbits/orbit-identification',
+        ],
       },
       {
         text: 'Navigation',
         collapsible: true,
-        children: ['/en/glossary/xray-pulsar-navigation'],
+        children: [
+          '/en/glossary/navigation/xray-pulsar-navigation',
+        ],
       },
       {
         text: 'Lunar minerals',
         collapsible: true,
-        children: ['/en/glossary/mg-changeite', '/en/glossary/ce-changeite'],
+        children: [
+          '/en/glossary/minerals/mg-changeite',
+          '/en/glossary/minerals/ce-changeite',
+        ],
+      },
+      {
+        text: 'Other',
+        collapsible: true,
+        children: [
+          '/en/glossary/other/starshade',
+        ],
       },
     ],
   },
