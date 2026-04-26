@@ -1,6 +1,6 @@
 ---
 title: DRO (Distant Retrograde Orbit)
-description: Overview of DRO (Distant Retrograde Orbit): definition, dynamical background, comparison with NRHO, and primary mission applications.
+description: "Overview of DRO (Distant Retrograde Orbit): definition, dynamical background, comparison with NRHO, and primary mission applications."
 keywords: DRO, Distant Retrograde Orbit, CR3BP, cislunar space
 author: CislunarSpace
 date: 2026-04-26

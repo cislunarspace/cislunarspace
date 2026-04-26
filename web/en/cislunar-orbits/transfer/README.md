@@ -1,6 +1,6 @@
 ---
 title: Earth-Moon Transfer Orbit
-description: Overview of Earth-Moon transfer orbits: classification, energy budget, time vs. fuel tradeoffs, and rendezvous design with NRHO and DRO.
+description: "Overview of Earth-Moon transfer orbits: classification, energy budget, time vs. fuel tradeoffs, and rendezvous design with NRHO and DRO."
 keywords: Earth-Moon transfer orbit, TLI, ballistic capture, transfer corridor, launch window, energy budget
 author: CislunarSpace
 date: 2026-04-26

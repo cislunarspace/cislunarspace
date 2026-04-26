@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-26
+lastUpdated: 2026-04-27
 wechatShare:
   title: "航天动态 · 2026 年 4 月"
   desc: "2026 年 4 月航天新闻条目索引。"
@@ -26,6 +26,7 @@ wechatShare:
 | 4-26 | [Artemis II 宇航员在奔月途中拍摄地球「落」向月表的壮丽影像](./2026-04-26-artemis-ii-earthset/) |
 | 4-26 | [俄罗斯进步MS-34货运飞船发射升空](./2026-04-26-progress-ms-34-launch/) |
 | 4-26 | [千亿航天公布「乾象-R」火箭气动减速回收方案，中国商业航天首款翼伞着陆产品](./2026-04-26-qianniao-r-dongniao/) |
+| 4-27 | [我国布局太空算力！"天算"为何优于"地算"？](./2026-04-27-space-computing/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |

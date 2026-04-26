@@ -1,6 +1,6 @@
 ---
 title: NRHO Design Parameters
-description: Typical design parameters for NRHO orbits: period, amplitude, inclination constraints, initial condition selection, and sensitivity analysis.
+description: "Typical design parameters for NRHO orbits: period, amplitude, inclination constraints, initial condition selection, and sensitivity analysis."
 keywords: NRHO design, design parameters, pseudo-arclength continuation, initial conditions, CRTBP
 author: CislunarSpace
 date: 2026-04-26

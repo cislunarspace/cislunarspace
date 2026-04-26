@@ -1,6 +1,6 @@
 ---
 title: NRHO (Near-Rectilinear Halo Orbit)
-description: Overview of NRHO (Near-Rectilinear Halo Orbit): definition, dynamical characteristics, orbit family classification, and engineering applications.
+description: "Overview of NRHO (Near-Rectilinear Halo Orbit): definition, dynamical characteristics, orbit family classification, and engineering applications."
 keywords: NRHO, Near-Rectilinear Halo Orbit, L1 NRHO, L2 NRHO, halo orbit, CR3BP
 author: CislunarSpace
 date: 2026-04-26

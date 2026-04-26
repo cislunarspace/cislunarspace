@@ -2,7 +2,7 @@
 permalink: /resources-tools/
 title: 地月空间资源与工具
 description: 仿真软件、核心算法库、数据资源和 AI/云平台工具索引。
-lastUpdated: 2026-04-26
+lastUpdated: 2026-04-27
 wechatShare:
   title: 地月空间资源与工具
   desc: 数据、代码库与数据集索引。
@@ -11,7 +11,7 @@ wechatShare:
 
 # 地月空间资源与工具
 
-> 本栏目收录地月空间领域的仿真软件、核心算法库、数据资源和 AI/云平台工具。
+> 本栏目收录地月空间领域的仿真软件、核心算法库、数据资源与可视化工具。
 
 ## 仿真软件
 
@@ -21,6 +21,8 @@ wechatShare:
 |------|------|
 | [GMAT](./gmat/) | NASA 开源通用任务分析工具 |
 | [STK](./stk/) | AGI（Ansys）商业仿真平台 |
+| [ATK](./atk/) | 国防科大国产航天任务工具箱（4.0） |
+| [Cesium](./cesium/) | 开源三维地球可视化引擎 |
 
 ## 核心算法库
 
