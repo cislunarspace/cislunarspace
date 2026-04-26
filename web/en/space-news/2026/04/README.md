@@ -29,6 +29,7 @@ wechatShare:
 | 4-26 | [China Achieves Record 92 Space Launches in 2025, Commercial Sector Accounts for Over 50%](./2026-04-26-china-2025-launch-stats/) |
 | 4-27 | [China's Space Computing Push: Why Is 'Space Computing' Superior to 'Ground Computing'?](./2026-04-27-space-computing/) |
 | 4-26 | [Galaxy Aerospace Celebrates 8th Anniversary as China's First Commercial Space Unicorn](./2026-04-26-galaxy-8year/) |
+| 4-26 | [SpaceX Completes 50th Falcon 9 Launch of 2026](./2026-04-26-spacex-50th-falcon-9-launch/) |
 | 4-24 | [China Launches Satellite Internet Technology Test Satellites via Long March 2D](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX Launches Final GPS III Satellite for U.S. Space Force](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |

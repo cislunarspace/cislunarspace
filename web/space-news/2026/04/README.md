@@ -29,6 +29,7 @@ wechatShare:
 | 4-26 | [2025年中国航天发射92次创历史新高，商业航天占比超五成](./2026-04-26-china-2025-launch-stats/) |
 | 4-27 | [我国布局太空算力！"天算"为何优于"地算"？](./2026-04-27-space-computing/) |
 | 4-26 | [银河航天八年追「星」路：从零起步到商业航天第一家独角兽](./2026-04-26-galaxy-8year/) |
+| 4-26 | [SpaceX完成2026年第50次猎鹰9号发射](./2026-04-26-spacex-50th-falcon-9-launch/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
