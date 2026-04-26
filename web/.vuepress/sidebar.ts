@@ -15,7 +15,46 @@ const introSection = {
 const orbitsSection = {
   text: '地月空间飞行器运行轨道（任务轨道基础）',
   collapsible: false,
-  children: ['/cislunar-orbits/'],
+  children: [
+    '/cislunar-orbits/',
+    {
+      text: 'NRHO（近直线晕轨道）',
+      link: '/cislunar-orbits/nrho/',
+      collapsible: true,
+      children: [
+        '/cislunar-orbits/nrho/',
+        '/cislunar-orbits/nrho/l1-nrho',
+        '/cislunar-orbits/nrho/l2-nrho',
+        '/cislunar-orbits/nrho/stability-maintenance',
+        '/cislunar-orbits/nrho/gateway-cases',
+        '/cislunar-orbits/nrho/design-parameters',
+      ],
+    },
+    {
+      text: 'DRO（远距离逆行轨道）',
+      link: '/cislunar-orbits/dro/',
+      collapsible: true,
+      children: [
+        '/cislunar-orbits/dro/',
+        '/cislunar-orbits/dro/mechanics',
+        '/cislunar-orbits/dro/family-classification',
+        '/cislunar-orbits/dro/applications',
+        '/cislunar-orbits/dro/design-method',
+      ],
+    },
+    {
+      text: '地月转移轨道',
+      link: '/cislunar-orbits/transfer/',
+      collapsible: true,
+      children: [
+        '/cislunar-orbits/transfer/',
+        '/cislunar-orbits/transfer/tli-overview',
+        '/cislunar-orbits/transfer/ballistic-capture',
+        '/cislunar-orbits/transfer/corridor-design',
+        '/cislunar-orbits/transfer/launch-windows',
+      ],
+    },
+  ],
 }
 
 const researchSection = {
@@ -158,6 +197,8 @@ const resourcesToolsSidebar = [
         children: [
           '/resources-tools/gmat',
           '/resources-tools/stk',
+          '/resources-tools/atk',
+          '/resources-tools/cesium',
         ],
       },
       {

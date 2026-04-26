@@ -14,7 +14,46 @@ const introSection = {
 const orbitsSection = {
   text: 'Cislunar spacecraft orbits (mission trajectories)',
   collapsible: false,
-  children: ['/en/cislunar-orbits/'],
+  children: [
+    '/en/cislunar-orbits/',
+    {
+      text: 'NRHO (Near-Rectilinear Halo Orbit)',
+      link: '/en/cislunar-orbits/nrho/',
+      collapsible: true,
+      children: [
+        '/en/cislunar-orbits/nrho/',
+        '/en/cislunar-orbits/nrho/l1-nrho',
+        '/en/cislunar-orbits/nrho/l2-nrho',
+        '/en/cislunar-orbits/nrho/stability-maintenance',
+        '/en/cislunar-orbits/nrho/gateway-cases',
+        '/en/cislunar-orbits/nrho/design-parameters',
+      ],
+    },
+    {
+      text: 'DRO (Distant Retrograde Orbit)',
+      link: '/en/cislunar-orbits/dro/',
+      collapsible: true,
+      children: [
+        '/en/cislunar-orbits/dro/',
+        '/en/cislunar-orbits/dro/mechanics',
+        '/en/cislunar-orbits/dro/family-classification',
+        '/en/cislunar-orbits/dro/applications',
+        '/en/cislunar-orbits/dro/design-method',
+      ],
+    },
+    {
+      text: 'Earth-Moon Transfer Orbits',
+      link: '/en/cislunar-orbits/transfer/',
+      collapsible: true,
+      children: [
+        '/en/cislunar-orbits/transfer/',
+        '/en/cislunar-orbits/transfer/tli-overview',
+        '/en/cislunar-orbits/transfer/ballistic-capture',
+        '/en/cislunar-orbits/transfer/corridor-design',
+        '/en/cislunar-orbits/transfer/launch-windows',
+      ],
+    },
+  ],
 }
 
 const researchSection = {
@@ -109,6 +148,8 @@ const resourcesToolsSidebar = [
         children: [
           '/en/resources-tools/gmat',
           '/en/resources-tools/stk',
+          '/en/resources-tools/atk',
+          '/en/resources-tools/cesium',
         ],
       },
       {
