@@ -24,6 +24,7 @@ wechatShare:
 | 4-25 | [长征六号运载火箭成功发射巴基斯坦PRSC-EO3卫星](./2026-04-25-pakistan-prsc-eo3-launch/) |
 | 4-25 | [微光启航携「微光一号」亮相CSC2026，全球首款全碳纤维运载火箭引关注](./2026-04-25-weiguang-carbon-fiber-rocket/) |
 | 4-26 | [Artemis II 宇航员在奔月途中拍摄地球「落」向月表的壮丽影像](./2026-04-26-artemis-ii-earthset/) |
+| 4-26 | [俄罗斯进步MS-34货运飞船发射升空](./2026-04-26-progress-ms-34-launch/) |
 | 4-26 | [千亿航天公布「乾象-R」火箭气动减速回收方案，中国商业航天首款翼伞着陆产品](./2026-04-26-qianniao-r-dongniao/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
@@ -89,11 +90,11 @@ wechatShare:
 | 4-9 | [德国 Isar Aerospace Spectrum 火箭即将执行第二次试飞，欧洲商业发射迎来关键考验](./2026-04-09-isar-spectrum/) |
 | 4-10 | [Artemis II 科学实验全面展开，猎户座飞船开始返航地球](./2026-04-10-artemis-2-return-trip/) |
 | 4-10 | [长征火箭连续发射：千帆星座新增 18 星、国网星座第 21 批入轨](./2026-04-10-china-megaconstellation-launches/) |
-| 4-10 | [长征六号甲首发巨型星座卫星，低轨21组卫星成功入轨](./2026-04-10-long-march-6a-megaconstellation/) |
-| 4-10 | [嫦娥七号探测器全部运抵文昌发射场，2026年下半年择机发射](./2026-04-10-chang-e7-arrive/) |
+| 4-10 | [长征六号甲首发巨型星座卫星，低轨21组卫星成功入轨](./2026-04-09-long-march-6a-megaconstellation/) |
+| 4-10 | [嫦娥七号探测器全部运抵文昌发射场，2026年下半年择机发射](./2026-04-09-chang-e7-arrive/) |
 | 4-10 | [欧洲航天局Celeste卫星成功广播首个导航信号，开启低轨导航新时代](./2026-04-10-esa-celeste/) |
 | 4-11 | [Artemis II 成功溅落：50 多年来首次载人绕月任务圆满结束](./2026-04-11-artemis-2-splashdown/) |
-| 4-11 | [NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回](./2026-04-11-artemis-2-heat-shield/) |
+| 4-11 | [NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回](./2026-04-10-artemis-2-heat-shield/) |
 | 4-13 | [Rocket Lab卫星分离系统成功助力Artemis II立方星部署](./2026-04-13-rocket-lab-csd-artemis-ii/) |
 | 4-13 | [天鹅座XL货运飞船成功对接国际空间站](./2026-04-13-ng-crs24-cargo/) |
 | 4-14 | [SpaceX 2026年已发射1000颗星链卫星](./2026-04-14-spacex-1000th-starlink/) |

@@ -24,6 +24,7 @@ wechatShare:
 | 4-25 | [China Launches Pakistan's PRSC-EO3 Satellite on Long March 6 Rocket](./2026-04-25-pakistan-prsc-eo3-launch/) |
 | 4-25 | [Weiguang Qihang Unveils World's First All-Carbon Fiber Launch Vehicle at CSC2026](./2026-04-25-weiguang-carbon-fiber-rocket/) |
 | 4-26 | [Artemis II Crew Captures Stunning 'Earthset' Image — Moon's Far Side Visible as Earth Descends Toward Lunar Surface](./2026-04-26-artemis-ii-earthset/) |
+| 4-26 | [Russia Launches Progress MS-34 Cargo Spacecraft to ISS](./2026-04-26-progress-ms-34-launch/) |
 | 4-26 | [Nayuta Space Unveils Qianniao-R Rocket with Parachute Landing System — China's First Commercial Rocket with Parachute Recovery](./2026-04-26-qianniao-r-dongniao/) |
 | 4-24 | [China Launches Satellite Internet Technology Test Satellites via Long March 2D](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
@@ -86,11 +87,11 @@ wechatShare:
 | 4-9 | [German Isar Aerospace Spectrum Rocket Set for Second Test Flight, Critical Test for European Commercial Launch](./2026-04-09-isar-spectrum/) |
 | 4-10 | [Artemis II Science Experiments Underway as Orion Begins Return Trip to Earth](./2026-04-10-artemis-2-return-trip/) |
 | 4-10 | [Long March Rockets Consecutively Launch: 18 More Sats for Thousand Sails, 21st Batch for GuoWang Constellation](./2026-04-10-china-megaconstellation-launches/) |
-| 4-10 | [Long March-6A Successfully Launches Mega Constellation Satellites](./2026-04-10-long-march-6a-megaconstellation/) |
-| 4-10 | [Chang'e-7 Probe Components Arrive at Wenchang Launch Site for Planned Second Half 2026 Launch](./2026-04-10-chang-e7-arrive/) |
+| 4-10 | [Long March-6A Successfully Launches Mega Constellation Satellites](./2026-04-09-long-march-6a-megaconstellation/) |
+| 4-10 | [Chang'e-7 Probe Components Arrive at Wenchang Launch Site for Planned Second Half 2026 Launch](./2026-04-09-chang-e7-arrive/) |
 | 4-10 | [ESA's Celeste Satellite Successfully Broadcasts First Navigation Signal, Opening Low-Earth Navigation New Era](./2026-04-10-esa-celeste/) |
 | 4-11 | [Artemis II Successful Splashdown: Historic Crewed Lunar Mission Concludes After 50+ Years](./2026-04-11-artemis-2-splashdown/) |
-| 4-11 | [NASA Confident in Artemis II Heat Shield: Orion Thermal Protection Will Ensure Astronaut Safety](./2026-04-11-artemis-2-heat-shield/) |
+| 4-11 | [NASA Confident in Artemis II Heat Shield: Orion Thermal Protection Will Ensure Astronaut Safety](./2026-04-10-artemis-2-heat-shield/) |
 | 4-13 | [Rocket Lab CSD Satellite Dispensers Successfully Deploy CubeSats from Artemis II](./2026-04-13-rocket-lab-csd-artemis-ii/) |
 | 4-13 | [Cygnus XL Cargo Spacecraft Successfully Docks with International Space Station](./2026-04-13-ng-crs24-cargo/) |
 | 4-14 | [SpaceX Deploys 1,000th Starlink Satellite of 2026](./2026-04-14-spacex-1000th-starlink/) |
