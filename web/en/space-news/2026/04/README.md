@@ -17,6 +17,8 @@ wechatShare:
 
 | Date | Title |
 |------|-------|
+| 4-27 | [SpaceX Scrubs Falcon Heavy Launch of Final ViaSat-3 Satellite Due to Poor Weather](./2026-04-27-spacex-viasat-3-scrub/) |
+| 4-27 | [NASA Invites Public to Join Citizen Science: Everyone Can Be Part of Space Exploration](./2026-04-27-nasa-citizen-science-thrive/) |
 | 4-25 | [China Discovers Two New Lunar Minerals in Chang'e-5 Samples — Magnesium and Cerium Chang'e Stones](./2026-04-25-chang-e5-new-minerals/) |
 | 4-25 | [Artemis II Crew Captures Milky Way Photo During Journey to the Moon](./2026-04-25-artemis-ii-milky-way/) |
 | 4-25 | [U.S. Space Force Awards $3.2B Contracts to SpaceX, Lockheed Martin and 10 Others for Golden Dome Space-Based Interceptors](./2026-04-25-golden-dome-interceptor/) |
