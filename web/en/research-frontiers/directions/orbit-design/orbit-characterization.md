@@ -5,7 +5,6 @@ keywords: cislunar orbit parameterization, libration point orbits, object catalo
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-04-27
-permalink: /research-frontiers/directions/orbit-characterization/
 ---
 
 > Author: [天疆说](https://blog.csdn.net/qq_33254264)
