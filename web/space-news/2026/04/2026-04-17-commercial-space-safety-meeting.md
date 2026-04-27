@@ -2,7 +2,6 @@
 layout: SpaceNewsArticle
 title: "商业航天安全监管会议在京召开：2026 年重点任务部署"
 description: "2026 年 4 月 14 日，国家航天局在京召开商业航天安全监管会议，传达学习习近平总书记关于商业航天的重要指示批示精神，总结 2025 年工作，部署 2026 年重点任务。"
-permalink: /space-news/2026/04/2026-04-17-commercial-space-safety-meeting/
 author: 天疆说
 date: 2026-04-17
 lastUpdated: 2026-04-21
