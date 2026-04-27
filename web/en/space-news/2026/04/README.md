@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: Tianjiangshuo
 date: 2026-04-01
-lastUpdated: 2026-04-27
+lastUpdated: 2026-04-28
 wechatShare:
   title: "Space News · April 2026"
   desc: "April 2026 space news article index."
@@ -33,6 +33,8 @@ wechatShare:
 | 4-27 | [NASA Develops Space IV Technology: IVGEN Mini Converts Drinking Water to Intravenous Fluid On Demand](./2026-04-27-nasa-ivgen-space/) |
 | 4-27 | [Rocket Lab Completes Spacecraft Commissioning for NASA's ESCAPADE Mars Mission](./2026-04-27-rocket-lab-escapade-mars/) |
 | 4-27 | [Rocket Lab Secures $190M HASTE Contract for 20 Hypersonic Test Flights](./2026-04-27-rocket-lab-haste-190m-contract/) |
+| 4-27 | [NASA's X-59 Supersonic Test Aircraft Unveils 'Freedom 250' Livery to Celebrate America's 250th Anniversary](./2026-04-27-nasa-x-59-freedom-250-logo/) |
+| 4-24 | [China's Space Program: 70 Years of Historic Achievements and the Path to Becoming a Space Power](./2026-04-24-china-space-day-overview/) |
 | 4-27 | [Rocket Lab Solar Technology Powers NASA's Artemis II Orion Spacecraft](./2026-04-27-rocket-lab-solar-artemis-ii/) |
 | 4-27 | [Artemis II Astronauts Observe Lunar Meteoroid Impacts During Mission](./2026-04-27-artemis-ii-lunar-flash/) |
 | 4-26 | [Galaxy Aerospace Celebrates 8th Anniversary as China's First Commercial Space Unicorn](./2026-04-26-galaxy-8year/) |
