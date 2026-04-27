@@ -173,6 +173,7 @@ const glossarySidebar = [
           '/en/glossary/dynamics/central-manifold',
           '/en/glossary/dynamics/action-angle',
           '/en/glossary/dynamics/poincare-section',
+          '/en/glossary/dynamics/clohessy-wiltshire',
         ],
       },
       {
@@ -203,6 +204,11 @@ const glossarySidebar = [
         collapsible: true,
         children: [
           '/en/glossary/other/starshade',
+          '/en/glossary/other/noncooperative-target',
+          '/en/glossary/other/spacecraft-intention-recognition',
+          '/en/glossary/other/chain-of-thought-prompting',
+          '/en/glossary/other/lora-low-rank-adaptation',
+          '/en/glossary/other/prompt-tuning',
         ],
       },
       {

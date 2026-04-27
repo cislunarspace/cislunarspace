@@ -55,6 +55,7 @@ twitter:
 - [中心流形（Central Manifold）](/glossary/central-manifold/)
 - [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
 - [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)
+- [CW方程（Clohessy-Wiltshire）](/glossary/clohessy-wiltshire/)
 
 ### 任务轨道
 
@@ -85,6 +86,11 @@ twitter:
 - [纵向耦合振动（POGO）](/glossary/pogo/)
 - [核热推进（NTP）](/glossary/nuclear-thermal-propulsion/)
 - [太空交通管控（STM）](/glossary/space-traffic-management/)
+- [非合作目标（Noncooperative Target）](/glossary/noncooperative-target/)
+- [航天器意图识别（Spacecraft Intention Recognition）](/glossary/spacecraft-intention-recognition/)
+- [思维链提示（CoT）](/glossary/chain-of-thought-prompting/)
+- [低秩适配（LoRA）](/glossary/lora-low-rank-adaptation/)
+- [提示调优（P-tuning）](/glossary/prompt-tuning/)
 
 ### 机构和组织
 
@@ -104,6 +110,14 @@ twitter:
 ## 更新说明
 
 本页将随着站点内容建设持续补充新的术语条目与分类目录，逐步形成更完整的地月空间术语体系。
+
+**2026-04-27 更新**：根据Jing等(2025)关于基于大语言模型的航天器意图识别论文，新增以下术语：
+- CW方程（Clohessy-Wiltshire）
+- 非合作目标（Noncooperative Target）
+- 航天器意图识别（Spacecraft Intention Recognition）
+- 思维链提示（CoT）
+- 低秩适配（LoRA）
+- 提示调优（P-tuning）
 
 **2026-04-24 更新（二）**：根据2026年中国航天大会发布的宇航领域十大科学问题和技术难题，新增以下术语：
 - 地月空间时空基准（Cislunar Spatiotemporal Reference）

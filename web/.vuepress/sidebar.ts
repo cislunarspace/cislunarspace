@@ -193,6 +193,7 @@ const glossarySidebar = [
           '/glossary/dynamics/birkhoff-gustavson',
           '/glossary/dynamics/central-manifold',
           '/glossary/dynamics/poincare-section',
+          '/glossary/dynamics/clohessy-wiltshire',
         ],
       },
       {
@@ -247,6 +248,11 @@ const glossarySidebar = [
           '/glossary/other/starshade',
           '/glossary/other/nuclear-thermal-propulsion',
           '/glossary/other/cislunar-navigation-prospects',
+          '/glossary/other/noncooperative-target',
+          '/glossary/other/spacecraft-intention-recognition',
+          '/glossary/other/chain-of-thought-prompting',
+          '/glossary/other/lora-low-rank-adaptation',
+          '/glossary/other/prompt-tuning',
         ],
       },
       {

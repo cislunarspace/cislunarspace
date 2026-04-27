@@ -49,6 +49,7 @@ The number of entries is still growing. At the current stage, we prioritize high
 - [Central Manifold](/en/glossary/central-manifold/)
 - [Action-Angle Variables](/en/glossary/action-angle/)
 - [Poincaré Section](/en/glossary/poincare-section/)
+- [Clohessy-Wiltshire (CW) Equation](/en/glossary/clohessy-wiltshire/)
 
 ### Mission Orbits
 
@@ -67,6 +68,11 @@ The number of entries is still growing. At the current stage, we prioritize high
 ### Other
 
 - [Starshade](/en/glossary/starshade/)
+- [Noncooperative Target](/en/glossary/noncooperative-target/)
+- [Spacecraft Intention Recognition](/en/glossary/spacecraft-intention-recognition/)
+- [Chain-of-Thought (CoT) Prompting](/en/glossary/chain-of-thought-prompting/)
+- [Low-Rank Adaptation (LoRA)](/en/glossary/lora-low-rank-adaptation/)
+- [Prompt Tuning (P-tuning)](/en/glossary/prompt-tuning/)
 
 ### Organizations
 
@@ -86,6 +92,14 @@ The number of entries is still growing. At the current stage, we prioritize high
 ## Update Note
 
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
+
+**2026-04-27 Update**: New entries based on Jing et al. (2025) on LLM-based spacecraft intention recognition:
+- Clohessy-Wiltshire (CW) Equation
+- Noncooperative Target
+- Spacecraft Intention Recognition
+- Chain-of-Thought (CoT) Prompting
+- Low-Rank Adaptation (LoRA)
+- Prompt Tuning (P-tuning)
 
 **2026-04-24 Update**: Two new lunar minerals discovered from Chang'e-5 sample research:
 - Changeite-Mg (Magnesium Changeite)
