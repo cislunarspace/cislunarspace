@@ -31,6 +31,8 @@ wechatShare:
 | 4-27 | [NASA 开发太空输液技术：IVGEN Mini 可将饮用水实时转化为静脉输液](./2026-04-27-nasa-ivgen-space/) |
 | 4-27 | [Rocket Lab 完成 NASA ESCAPADE 火星任务双星调试](./2026-04-27-rocket-lab-escapade-mars/) |
 | 4-27 | [Rocket Lab 获签 1.9 亿美元 HASTE 火箭合同：增购 20 发高超声速测试飞行](./2026-04-27-rocket-lab-haste-190m-contract/) |
+| 4-27 | [Rocket Lab 太阳能技术为 Artemis II 猎户座飞船提供动力](./2026-04-27-rocket-lab-solar-artemis-ii/) |
+| 4-27 | [Artemis II 航天员在任务期间观测月球撞击闪光](./2026-04-27-artemis-ii-lunar-flash/) |
 | 4-26 | [银河航天八年追「星」路：从零起步到商业航天第一家独角兽](./2026-04-26-galaxy-8year/) |
 | 4-26 | [SpaceX完成2026年第50次猎鹰9号发射](./2026-04-26-spacex-50th-falcon-9-launch/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |

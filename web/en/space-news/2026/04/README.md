@@ -31,6 +31,8 @@ wechatShare:
 | 4-27 | [NASA Develops Space IV Technology: IVGEN Mini Converts Drinking Water to Intravenous Fluid On Demand](./2026-04-27-nasa-ivgen-space/) |
 | 4-27 | [Rocket Lab Completes Spacecraft Commissioning for NASA's ESCAPADE Mars Mission](./2026-04-27-rocket-lab-escapade-mars/) |
 | 4-27 | [Rocket Lab Secures $190M HASTE Contract for 20 Hypersonic Test Flights](./2026-04-27-rocket-lab-haste-190m-contract/) |
+| 4-27 | [Rocket Lab Solar Technology Powers NASA's Artemis II Orion Spacecraft](./2026-04-27-rocket-lab-solar-artemis-ii/) |
+| 4-27 | [Artemis II Astronauts Observe Lunar Meteoroid Impacts During Mission](./2026-04-27-artemis-ii-lunar-flash/) |
 | 4-26 | [Galaxy Aerospace Celebrates 8th Anniversary as China's First Commercial Space Unicorn](./2026-04-26-galaxy-8year/) |
 | 4-26 | [SpaceX Completes 50th Falcon 9 Launch of 2026](./2026-04-26-spacex-50th-falcon-9-launch/) |
 | 4-24 | [China Launches Satellite Internet Technology Test Satellites via Long March 2D](./2026-04-24-satellite-internet-test-satellite/) |
