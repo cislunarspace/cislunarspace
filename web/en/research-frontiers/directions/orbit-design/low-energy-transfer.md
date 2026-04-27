@@ -5,7 +5,6 @@ keywords: cislunar low-energy transfer, Halo orbits, Lissajous orbits, orbit des
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-04-27
-permalink: /research-frontiers/directions/low-energy-transfer/
 ---
 
 > Author: [天疆说](https://blog.csdn.net/qq_33254264)
