@@ -1,28 +1,36 @@
 ---
 layout: SpaceNewsArticle
 title: "NASA Johnson Leaders Honored by National Space Club & Foundation"
-description: "NASA Johnson Space Center Director Vanessa Wyche attended the 69th Annual Robert H. Goddard Memorial Dinner, where Orion Program Manager Howard Hu received the Norman L. Baker Astronautics Engineer Award and ISS Program Manager Dana Weigel received the Eagle Manned Mission Award."
+description: "Two leaders from NASA's Johnson Space Center were recognized at the 69th Annual Robert H. Goddard Memorial Dinner, with Orion Program Manager Howard Hu receiving the Norman L. Baker Astronautics Engineer Award."
 permalink: /en/space-news/2026/04/2026-04-23-nasa-johnson-leaders/
 author: Tianjiangshuo
 date: 2026-04-23
-lastUpdated: 2026-04-24
+lastUpdated: 2026-04-23
 category: nasa
 image: ./figures/2026-04-23-nasa-johnson-leaders/hero.jpg
 ---
 
 # NASA Johnson Leaders Honored by National Space Club & Foundation
 
-**Summary:** On April 23, 2026, two distinguished leaders from NASA's Johnson Space Center — Orion Program Manager Howard Hu and International Space Station Program Manager Dana Weigel — were honored at the 69th Annual Robert H. Goddard Memorial Dinner at the Washington Hilton, receiving the National Space Club & Foundation's prestigious 2026 awards for their exceptional contributions to human space exploration.
+**Summary:** On March 13, 2026, the National Space Club & Foundation announced its 2026 award recipients at the 69th Annual Robert H. Goddard Memorial Dinner in Washington, D.C. Two dedicated leaders from NASA's Johnson Space Center were recognized for their contributions to human spaceflight. Orion Program Manager Howard Hu received the Norman L. Baker Astronautics Engineer Award for sustained technical contributions to multiple human spaceflight efforts.
 
-![NASA Johnson Space Center award recipients Howard Hu and Dana Weigel (NASA image)](./figures/2026-04-23-nasa-johnson-leaders/hero.jpg)
-*Credit: NASA*
+![2026 award recipients at the 69th Annual Robert H. Goddard Memorial Dinner](./figures/2026-04-23-nasa-johnson-leaders/hero.jpg)
+*Credit: National Space Club & Foundation*
 
-Howard Hu received the **Norman L. Baker Astronautics Engineer Award** for sustained technical contributions to multiple human spaceflight efforts. Hu has led the design, development, production, and operations of NASA's Orion spacecraft — the vehicle for Artemis missions to the Moon — since its inception. He previously served as deputy program manager, manager of the Avionics, Power, and Software Office, and deputy manager of the Vehicle Integration Office. On April 1, 2026, the Artemis II mission successfully launched with NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA astronaut Jeremy Hansen aboard, completing a 10-day lunar flyby and traveling a record-breaking 252,756 miles from Earth.
+## Award Details
 
-Dana Weigel received the **Eagle Manned Mission Award**. As ISS Program Manager, she leads development, integration, and operations for the International Space Station, which celebrated 25 years of continuous human habitation on November 2, 2025. Weigel previously served as deputy chief of the Flight Director Office, where she led the Extravehicular Activity Recovery Team following a major in-flight spacewalk anomaly. She also served as a NASA flight director for STS-123.
+The 69th Annual Robert H. Goddard Memorial Dinner was held on March 13, 2026, in Washington, D.C. The National Space Club & Foundation uses this occasion to recognize individuals and teams who have made outstanding contributions to America's space program.
 
-The 69th Annual Robert H. Goddard Memorial Dinner is one of the most prestigious honor ceremonies in the U.S. aerospace community.
+**Howard Hu**, as NASA's Orion Program Manager, is responsible for the design, development, production, and operations of Orion—the spacecraft at the heart of NASA's Artemis lunar missions. The Orion spacecraft is a key component of NASA's Artemis program, designed to carry astronauts to the Moon and eventually to Mars. Hu was honored with the Norman L. Baker Astronautics Engineer Award for his sustained technical contributions to multiple human spaceflight efforts.
 
-## Sources (original articles)
+Another leader from Johnson Space Center was also recognized at the same event.
 
-- [Johnson Leaders Honored by National Space Club & Foundation](https://www.nasa.gov/centers-and-facilities/johnson/johnson-leaders-honored-by-national-space-club-foundation/)
+## Background
+
+The Robert H. Goddard Memorial Award, established by the National Space Club & Foundation to honor Dr. Robert H. Goddard—the father of American rocketry—recognizes individuals who have made outstanding contributions to the U.S. space program. This award carries significant prestige in the aerospace community, with past recipients being prominent leaders and engineers in the field.
+
+Howard Hu's recognition reflects the broad industry acknowledgment of NASA's achievements in the Artemis program and highlights Johnson Space Center's central role in human space exploration.
+
+## Sources (original pages)
+
+- [Johnson Leaders Honored by National Space Club & Foundation - NASA](https://www.nasa.gov/centers-and-facilities/johnson/johnson-leaders-honored-by-national-space-club-foundation/)

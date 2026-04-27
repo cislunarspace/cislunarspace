@@ -1,26 +1,38 @@
 ---
 layout: SpaceNewsArticle
-title: "NASA I Am Artemis: Peter Rossoni, Artemis II Optical Communications Flight Manager"
-description: "NASA's I Am Artemis series profiles Peter Rossoni, Artemis II Optical Communications System Flight Manager, whose childhood fascination with Apollo launches led him to develop laser communications for NASA's Artemis II mission."
+title: "I Am Artemis: Peter Rossoni and Orion's Optical Communications System"
+description: "NASA's Artemis II mission flight manager Peter Rossoni grew up watching Apollo launches with his family and now leads the optical communications system for the Orion spacecraft on humanity's return to the Moon."
 permalink: /en/space-news/2026/04/2026-04-27-peter-rossoni-artemis/
 author: Tianjiangshuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
-category: [nasa, artemis]
+category: artemis
 image: ./figures/2026-04-27-peter-rossoni-artemis/hero.jpg
 ---
 
-# NASA I Am Artemis: Peter Rossoni, Artemis II Optical Communications Flight Manager
+# I Am Artemis: Peter Rossoni and Orion's Optical Communications System
 
-**Summary:** On April 24, 2026, NASA released an I Am Artemis profile featuring Peter Rossoni, Optical Communications System Flight Manager for the Artemis II mission. As a child, Rossoni watched Apollo missions launch with his family. That passion for space ultimately led him to develop laser communications technology at NASA, and in April 2026, he became a key figure enabling communications as astronauts journeyed around the Moon aboard Orion during the Artemis II test flight.
+**Summary:** Peter Rossoni watched the Apollo missions launch with his family as a child. In April 2026, he became part of NASA's Artemis II mission, serving as the flight manager for the Orion Artemis II Optical Communications System, playing a key role in humanity's historic return to the Moon.
 
-![Peter Rossoni working in an optical lab at MIT Lincoln Laboratory (NASA image)](./figures/2026-04-27-peter-rossoni-artemis/hero.jpg)
-*Credit: NASA*
+![Peter Rossoni working in an optical lab at MIT Lincoln Laboratory](./figures/2026-04-27-peter-rossoni-artemis/hero.jpg)
+*Credit: MIT-LL / Kendall Murphy*
 
-Rossoni's path to NASA began following his parents' footsteps into science. That foundation eventually led him to laser communications and NASA's Artemis II test flight. At NASA's Goddard Space Flight Center, Rossoni works within the Space Communications & Navigation Program, developing the optical communications systems that will enable high-bandwidth data transmission between the Orion spacecraft and Earth during the Artemis II mission.
+## From Apollo to Artemis
 
-Artemis II is NASA's first crewed flight test of the Artemis program, carrying four astronauts on a lunar flyby mission before returning to Earth. The optical communications technology managed by Rossoni represents a significant advancement over traditional radio frequency communications, providing higher data rates essential for future deep space exploration missions.
+Peter Rossoni's path to NASA began as he followed his parents' footsteps into science. That foundation eventually led him to laser communications and NASA's Artemis II test flight. As a child, he watched the Apollo missions launch with his family, inspiring a lifelong passion for space exploration.
+
+## Optical Communications System Flight Manager
+
+As the flight manager for the Orion Artemis II Optical Communications System, Rossoni is responsible for ensuring seamless communication between astronauts journeying to the Moon and ground teams. Laser communication technology offers significantly higher data transmission rates compared to traditional radio frequency communications, making it a critical advancement for future deep space missions.
+
+During the Artemis II mission in April 2026, Rossoni and his team ensured that communication systems remained optimal throughout the entire process—from rocket launch to the astronauts completing their lunar flyby.
+
+## Mission Background
+
+Artemis II is the first crewed lunar mission in over 50 years. Every system aboard depends on reliable communication—the communication system is the lifeline connecting astronauts with Mission Control.
+
+Rossoni stated: "Being part of humanity's return to the Moon is a tremendous honor and responsibility. Every data transmission is critical to mission success and the safety of our astronauts."
 
 ## Sources (original pages)
 
-- [NASA I Am Artemis: Peter Rossoni](https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-peter-rossoni/)
+- [I Am Artemis: Peter Rossoni - NASA](https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-peter-rossoni/)
