@@ -61,13 +61,78 @@ const researchSection = {
   collapsible: false,
   children: [
     '/en/research-frontiers/',
-    '/en/research-frontiers/directions/',
+    {
+      text: 'Research directions',
+      link: '/en/research-frontiers/directions/',
+      collapsible: true,
+      children: [
+        {
+          text: 'Orbit Design & Optimization',
+          link: '/en/research-frontiers/directions/orbit-design/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Navigation & Orbit Determination',
+          link: '/en/research-frontiers/directions/navigation/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Space Situational Awareness',
+          link: '/en/research-frontiers/directions/ssa/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Communication & Information Network',
+          link: '/en/research-frontiers/directions/communication/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Spatiotemporal Reference & Measurement',
+          link: '/en/research-frontiers/directions/reference-frame/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Space Transportation System',
+          link: '/en/research-frontiers/directions/transportation/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Formation Flying',
+          link: '/en/research-frontiers/directions/formation-flying/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Security & Governance',
+          link: '/en/research-frontiers/directions/security-governance/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Infrastructure & Economy',
+          link: '/en/research-frontiers/directions/infrastructure/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: 'Simulation Systems',
+          link: '/en/research-frontiers/directions/simulation/',
+          collapsible: true,
+          children: [],
+        },
+      ],
+    },
     {
       text: 'Research institutions',
       link: '/en/research-frontiers/institutions/',
       collapsible: true,
       children: [
-        '/en/research-frontiers/institutions/',
         '/en/research-frontiers/institutions/hit',
       ],
     },
