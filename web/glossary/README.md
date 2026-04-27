@@ -24,8 +24,6 @@ twitter:
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 来源：[央视新闻/扬子晚报](https://finance.sina.com.cn/jjxw/2026-04-24/doc-inhvqfhn3315713.shtml)
->
 >本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 # 地月空间术语词典
