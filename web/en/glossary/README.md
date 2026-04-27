@@ -23,9 +23,6 @@ twitter:
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)
->
-> Source: [CCTV News / Yangtze Evening News](https://finance.sina.com.cn/jjxw/2026-04-24/doc-inhvqfhn3315713.shtml)
->
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 # Cislunar Space Glossary
