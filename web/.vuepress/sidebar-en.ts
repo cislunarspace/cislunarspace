@@ -70,7 +70,10 @@ const researchSection = {
           text: 'Orbit Design & Optimization',
           link: '/en/research-frontiers/directions/orbit-design/',
           collapsible: true,
-          children: [],
+          children: [
+            '/en/research-frontiers/directions/orbit-design/low-energy-transfer',
+            '/en/research-frontiers/directions/orbit-design/orbit-characterization',
+          ],
         },
         {
           text: 'Navigation & Orbit Determination',
