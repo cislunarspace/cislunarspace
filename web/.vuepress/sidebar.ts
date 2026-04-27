@@ -67,16 +67,79 @@ const researchSection = {
       link: '/research-frontiers/directions/',
       collapsible: true,
       children: [
-        '/research-frontiers/directions/strategy',
-        '/research-frontiers/directions/low-energy-transfer',
-        '/research-frontiers/directions/orbit-characterization',
-        '/research-frontiers/directions/simulation-systems',
         {
-          text: '地月空间轨道博弈',
-          link: '/research-frontiers/directions/orbital-game/',
+          text: '轨道设计与优化',
+          link: '/research-frontiers/directions/orbit-design/',
           collapsible: true,
           children: [
-            '/research-frontiers/directions/orbital-game/orbital-game-inspection',
+            '/research-frontiers/directions/orbit-design/low-energy-transfer',
+            '/research-frontiers/directions/orbit-design/orbit-characterization',
+          ],
+        },
+        {
+          text: '导航与定轨',
+          link: '/research-frontiers/directions/navigation/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: '空间态势感知',
+          link: '/research-frontiers/directions/ssa/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: '通信与信息网络',
+          link: '/research-frontiers/directions/communication/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: '时空基准与测量',
+          link: '/research-frontiers/directions/reference-frame/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: '航天运输体系',
+          link: '/research-frontiers/directions/transportation/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: '编队飞行',
+          link: '/research-frontiers/directions/formation-flying/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: '安全与治理',
+          link: '/research-frontiers/directions/security-governance/',
+          collapsible: true,
+          children: [
+            '/research-frontiers/directions/security-governance/strategy',
+            {
+              text: '地月空间轨道博弈',
+              link: '/research-frontiers/directions/security-governance/orbital-game/',
+              collapsible: true,
+              children: [
+                '/research-frontiers/directions/security-governance/orbital-game/orbital-game-inspection',
+              ],
+            },
+          ],
+        },
+        {
+          text: '基础设施与经济',
+          link: '/research-frontiers/directions/infrastructure/',
+          collapsible: true,
+          children: [],
+        },
+        {
+          text: '仿真系统',
+          link: '/research-frontiers/directions/simulation/',
+          collapsible: true,
+          children: [
+            '/research-frontiers/directions/simulation/simulation-systems',
           ],
         },
       ],
