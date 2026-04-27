@@ -95,6 +95,12 @@ const glossarySidebar = [
         collapsible: true,
         children: [
           '/en/glossary/dynamics/cr3bp',
+          '/en/glossary/dynamics/cr3bp-lt',
+          '/en/glossary/dynamics/a2ppo',
+          '/en/glossary/dynamics/curriculum-learning',
+          '/en/glossary/dynamics/lt-transfer-mdp',
+          '/en/glossary/dynamics/gae',
+          '/en/glossary/dynamics/direct-collocation',
           '/en/glossary/dynamics/birkhoff-gustavson',
           '/en/glossary/dynamics/central-manifold',
           '/en/glossary/dynamics/action-angle',

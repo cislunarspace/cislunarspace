@@ -1,10 +1,10 @@
 ---
 title: 地月L1/L2晕轨道(EML1/EML2 Halo Orbit)
 description: 详细解析地月L1和L2点晕轨道的定义、动力学特性、稳定性分析及其在星伞任务和技术演示中的应用
-keywords: 地月L1晕轨道, 地月L2晕轨道, EML1, EML2, Halo Orbit, 星伞任务, 地月空间轨道, 平动点轨道
+keywords: 地月L1晕轨道, 地月L2晕轨道, EML1, EML2, Halo Orbit, 星伞任务, 地月空间轨道, 平动点轨道, A2PPO, 低推力转移
 author: 天疆说
 date: 2026-04-23
-lastUpdated: 2026-04-23
+lastUpdated: 2026-04-27
 wechatShare:
   title: 地月L1/L2晕轨道
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -106,10 +106,20 @@ Genszler et al. (2026) 研究了将望远镜部署在 EML1/EML2 晕轨道进行*
 2. **微分修正算法**（Differential Correction）
 3. 在 CR3BP 模型中使用 **ode113**（MATLAB）进行动力学传播
 
+## 在 A2PPO 低推力转移研究中的应用
+
+Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了 L₂ 晕轨道之间的自主低推力转移[[5]]()：
+
+- **S1 场景**：两条不同能量级 L₂ 南晕轨道之间的转移（$C_J: 3.1211 \rightarrow 3.0698$，周期从 14.55 天缩短至 13.81 天），转移时间 4.95 天，消耗 2.08 kg 推进剂
+- **S4 场景**：在极低推力（$T_{\max} = 0.01$ N）条件下的多圈晕轨道转移（~33.6 天），消耗 0.97 kg 推进剂
+
+晕轨道的混沌特性使得传统优化方法难以收敛，而 A2PPO 能够在无需初始猜测的条件下自主学习高效转移策略。在 S4 场景中，A2PPO 显著优于 SAC 基线（37.37 天 / 1.06 kg）。
+
 ## 相关概念
 
 - [近直线晕轨道（NRHO）](/glossary/nrho/)
 - [远距离逆行轨道（DRO）](/glossary/dro/)
+- [A2PPO（注意力增强近端策略优化）](/glossary/a2ppo/)
 - [地月平动点](/glossary/eml-halo/)（注意：本文即为此概念详情）
 - [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
 - [星伞（Starshade）](/glossary/starshade/)
@@ -123,3 +133,4 @@ Genszler et al. (2026) 研究了将望远镜部署在 EML1/EML2 晕轨道进行*
 - Zimovan E M. Characteristics and design strategies for near rectilinear halo orbits within the Earth-Moon system[D]. Purdue University, 2017.
 - Folta D C, Pavlak T A, Haapala A F, et al. Preliminary design considerations for access and operations in Earth-Moon L1/L2 orbits[C]. AAS/AIAA Spaceflight Mechanics Meeting, 2013.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. IEEE Aerospace Conference, 2016.
+- [[5]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

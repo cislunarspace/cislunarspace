@@ -118,6 +118,12 @@ const glossarySidebar = [
         collapsible: true,
         children: [
           '/glossary/dynamics/cr3bp',
+          '/glossary/dynamics/cr3bp-lt',
+          '/glossary/dynamics/a2ppo',
+          '/glossary/dynamics/curriculum-learning',
+          '/glossary/dynamics/lt-transfer-mdp',
+          '/glossary/dynamics/gae',
+          '/glossary/dynamics/direct-collocation',
           '/glossary/dynamics/qbcp',
           '/glossary/dynamics/ephemeris-model',
           '/glossary/dynamics/action-angle',

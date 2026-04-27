@@ -1,10 +1,10 @@
 ---
 title: 近直线晕轨道(NRHO)
 description: 详细解析近直线晕轨道(NRHO)的定义、与Halo轨道的关系、共振特性、稳定性分析及其在地月空间任务中的应用
-keywords: 近直线晕轨道, NRHO, Near-Rectilinear Halo Orbit, Halo轨道, 地月平动点, L2点, 门户空间站, Gateway
+keywords: 近直线晕轨道, NRHO, Near-Rectilinear Halo Orbit, Halo轨道, 地月平动点, L2点, 门户空间站, Gateway, A2PPO, 低推力转移
 author: 天疆说
 date: 2026-04-04
-lastUpdated: 2026-04-23
+lastUpdated: 2026-04-27
 wechatShare:
   title: 近直线晕轨道(NRHO)
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
@@ -74,10 +74,21 @@ NRHO 已成为当前地月空间任务的热门候选轨道：
 - **NASA"门户"空间站（Gateway）**：计划部署于 $L_2$ 点南族 9:2 共振 NRHO
 - **地月空间态势感知**：NRHO 凭借独特的轨道位置，适合部署中继通信和观测平台
 
-## 相关概念
+## 在 A2PPO 低推力转移研究中的应用
+
+Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了从 L₂ 晕轨道到 NRHO 的自主低推力转移（S2 场景）[[5]]()：
+
+- **出发轨道**：L₂ 南晕轨道（$C_J \approx 3.1211$，周期 14.55 天）
+- **目标轨道**：L₂ 南 NRHO（$C_J \approx 3.0395$，周期 6.99 天）
+- **转移结果**：8.38 天，消耗 5.00 kg 推进剂
+- **转移特性**：形成月球借力飞行（lunar flyby）几何结构
+
+NRHO 与晕轨道之间的转移需要显著的能量变化（$C_J$ 变化约 0.08），是低推力轨迹优化中的高难度场景。A2PPO 能够在无需初始猜测的条件下自主学习高效转移策略。
+
 ## 相关概念
 - [远距离逆行轨道（DRO）](/glossary/dro/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
+- [A2PPO（注意力增强近端策略优化）](/glossary/a2ppo/)
 - [星伞（Starshade）](/glossary/starshade/)
 - [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
 - [中心流形（Central Manifold）](/glossary/central-manifold/)
@@ -95,3 +106,4 @@ NRHO 已成为当前地月空间任务的热门候选轨道：
 - Williams J, Whitley R. Targeting cislunar rectilinear halo orbits for spacecraft missions[C]. 2017.
 - 吴伟仁. 嫦娥4号月球背面软着陆任务设计[J]. 2017.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
+- [[5]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
