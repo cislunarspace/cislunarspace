@@ -37,6 +37,8 @@ wechatShare:
 | 4-27 | [Artemis II 航天员在任务期间观测月球撞击闪光](./2026-04-27-artemis-ii-lunar-flash/) |
 | 4-26 | [银河航天八年追「星」路：从零起步到商业航天第一家独角兽](./2026-04-26-galaxy-8year/) |
 | 4-26 | [SpaceX完成2026年第50次猎鹰9号发射](./2026-04-26-spacex-50th-falcon-9-launch/) |
+| 4-26 | [中国航天公益形象大使进校园活动走进四川大学](./2026-04-26-space-public-welfare-ambassador-sichuan-university/) |
+| 4-27 | [NASA 好奇号与毅力号火星车同时发布 360 度全景图：揭示红色星球两侧亿年地貌](./2026-04-27-nasa-mars-panoramas/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
