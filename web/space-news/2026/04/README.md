@@ -50,6 +50,7 @@ wechatShare:
 | 4-23 | [NASA开发太空静脉输液技术为深空任务做准备](./2026-04-23-nasa-iv-fluid-space/) |
 | 4-23 | [NASA发布LAVA航空软件助力美国航空航天工业](./2026-04-23-nasa-lava-software/) |
 | 3-30 | [力箭二号遥一运载火箭首飞成功，一箭三星送入预定轨道](./2026-03-30-lijian-2-maiden-flight/) |
+| 4-9 | [iQPS再签三发Electron发射合同：深化与Rocket Lab多年合作伙伴关系](./2026-04-09-rocket-lab-iqps-three-launches/) |
 | 4-22 | [天瞳星座正式启动：国内首个220颗红外卫星组网规划发布](./2026-04-22-tiankong-constellation-launch/) |
 | 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-23 | [NASA 在国际空间站测试 IVGEN Mini 系统实现太空输液即时生产](./2026-04-23-nasa-ivgen-mini/) |

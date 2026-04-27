@@ -50,6 +50,7 @@ wechatShare:
 | 4-23 | [NASA Develops Space IV Fluid Technology for Deep Space Missions](./2026-04-23-nasa-iv-fluid-space/) |
 | 4-23 | [NASA Releases LAVA Aerodynamics Software to US Aerospace Industry](./2026-04-23-nasa-lava-software/) |
 | 3-30 | [CAS Space's Lijian-2 (Yao-1) Rocket Scores Maiden Flight Success, Places Three Satellites in Orbit](./2026-03-30-lijian-2-maiden-flight/) |
+| 4-9 | [iQPS Books Three Additional Electron Launches, Deepening Multi-Year Partnership with Rocket Lab](./2026-04-09-rocket-lab-iqps-three-launches/) |
 | 4-22 | [Tiankong Constellation Officially Launched: China's First 220-Satellite Infrared Constellation Plan Unveiled](./2026-04-22-tiankong-constellation-launch/) |
 | 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Infineon Radiation-Hardened Semiconductors Pass Space Validation on Artemis II Mission](./2026-04-22-infineon-artemis-ii/) |
