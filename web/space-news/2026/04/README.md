@@ -27,10 +27,12 @@ wechatShare:
 | 4-26 | [俄罗斯进步MS-34货运飞船发射升空](./2026-04-26-progress-ms-34-launch/) |
 | 4-26 | [千亿航天公布「乾象-R」火箭气动减速回收方案，中国商业航天首款翼伞着陆产品](./2026-04-26-qianniao-r-dongniao/) |
 | 4-26 | [2025年中国航天发射92次创历史新高，商业航天占比超五成](./2026-04-26-china-2025-launch-stats/) |
-|| 4-27 | [NASA I Am Artemis：彼得·罗索尼，Artemis II 任务光通信系统飞行主管](./2026-04-27-peter-rossoni-artemis/) |
-|| 4-27 | [NASA 开发太空输液技术：IVGEN Mini 可将饮用水实时转化为静脉输液](./2026-04-27-nasa-ivgen-space/) |
-|| 4-26 | [银河航天八年追「星」路：从零起步到商业航天第一家独角兽](./2026-04-26-galaxy-8year/) |
-|| 4-26 | [SpaceX完成2026年第50次猎鹰9号发射](./2026-04-26-spacex-50th-falcon-9-launch/) |
+| 4-27 | [NASA I Am Artemis：彼得·罗索尼，Artemis II 任务光通信系统飞行主管](./2026-04-27-peter-rossoni-artemis/) |
+| 4-27 | [NASA 开发太空输液技术：IVGEN Mini 可将饮用水实时转化为静脉输液](./2026-04-27-nasa-ivgen-space/) |
+| 4-27 | [Rocket Lab 完成 NASA ESCAPADE 火星任务双星调试](./2026-04-27-rocket-lab-escapade-mars/) |
+| 4-27 | [Rocket Lab 获签 1.9 亿美元 HASTE 火箭合同：增购 20 发高超声速测试飞行](./2026-04-27-rocket-lab-haste-190m-contract/) |
+| 4-26 | [银河航天八年追「星」路：从零起步到商业航天第一家独角兽](./2026-04-26-galaxy-8year/) |
+| 4-26 | [SpaceX完成2026年第50次猎鹰9号发射](./2026-04-26-spacex-50th-falcon-9-launch/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
 | 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
