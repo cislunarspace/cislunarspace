@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 4-27 | [太空金属增材制造技术在轻舟试验飞船完成演示验证](./2026-04-27-space-metal-3d-printing/) |
+| 4-23 | [NASA「蜻蜓」旋翼机进入最终组装与测试阶段](./2026-04-23-nasa-dragonfly-rotorcraft-tested/) |
 | 4-27 | [SpaceX 因天气原因取消 Falcon Heavy 发射，ViaSat-3 最后一颗卫星推迟上天](./2026-04-27-spacex-viasat-3-scrub/) |
 | 4-28 | [长征十号乙运载火箭成功首飞，全球首创海上网系回收技术验证](./2026-04-28-changzheng-10yi-maiden-flight/) |
 | 4-27 | [NASA 公民科学项目邀请公众参与：人人皆可成为太空探索的一份子](./2026-04-27-nasa-citizen-science-thrive/) |
