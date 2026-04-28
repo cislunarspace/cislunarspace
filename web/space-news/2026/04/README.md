@@ -19,6 +19,8 @@ wechatShare:
 |------|------|
 | 4-28 | [中科宇航力箭二号超级工厂全面竣工，批量化生产线正式投产](./2026-04-28-cas-space-lijian-2-super-factory/) |
 | 4-28 | [长征二号F火箭应急发射团队荣获「中国青年五四奖章集体」](./2026-04-28-changzheng-2f-emergency-team-award/) |
+| 4-28 | [风云四号微波星: 十五五规划全球首颗静止轨道微波大气探测卫星，2026年前后发射](./2026-04-28-fengyun-4-microwave-satellite/) |
+| 4-28 | [ULA Atlas V 成功发射29颗亚马逊Kuiper互联网卫星](./2026-04-28-ula-atlas-v-kuiper-29-satellites/) |
 | 4-27 | [太空金属增材制造技术在轻舟试验飞船完成演示验证](./2026-04-27-space-metal-3d-printing/) |
 | 4-23 | [NASA「蜻蜓」旋翼机进入最终组装与测试阶段](./2026-04-23-nasa-dragonfly-rotorcraft-tested/) |
 | 4-27 | [SpaceX 因天气原因取消 Falcon Heavy 发射，ViaSat-3 最后一颗卫星推迟上天](./2026-04-27-spacex-viasat-3-scrub/) |
