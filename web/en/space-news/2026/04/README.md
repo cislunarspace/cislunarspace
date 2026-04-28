@@ -21,6 +21,7 @@ wechatShare:
 | 4-23 | [NASA's Dragonfly Rotorcraft Enters Final Assembly and Testing Phase](./2026-04-23-nasa-dragonfly-rotorcraft-tested/) |
 | 4-27 | [SpaceX Scrubs Falcon Heavy Launch of Final ViaSat-3 Satellite Due to Poor Weather](./2026-04-27-spacex-viasat-3-scrub/) |
 | 4-28 | [Long March 10B Successfully Completes Maiden Flight, Validates World's First Sea-Based Net Recovery Technology](./2026-04-28-changzheng-10yi-maiden-flight/) |
+| 4-28 | [China (Beijing) Space Science Center Opens, Marking New Landmark for Science-Tourism Integration](./2026-04-28-beijing-space-science-center/) |
 | 4-27 | [NASA Invites Public to Join Citizen Science: Everyone Can Be Part of Space Exploration](./2026-04-27-nasa-citizen-science-thrive/) |
 | 4-25 | [China Discovers Two New Lunar Minerals in Chang'e-5 Samples — Magnesium and Cerium Chang'e Stones](./2026-04-25-chang-e5-new-minerals/) |
 | 4-25 | [Artemis II Crew Captures Milky Way Photo During Journey to the Moon](./2026-04-25-artemis-ii-milky-way/) |

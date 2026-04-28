@@ -21,6 +21,7 @@ wechatShare:
 | 4-23 | [NASA「蜻蜓」旋翼机进入最终组装与测试阶段](./2026-04-23-nasa-dragonfly-rotorcraft-tested/) |
 | 4-27 | [SpaceX 因天气原因取消 Falcon Heavy 发射，ViaSat-3 最后一颗卫星推迟上天](./2026-04-27-spacex-viasat-3-scrub/) |
 | 4-28 | [长征十号乙运载火箭成功首飞，全球首创海上网系回收技术验证](./2026-04-28-changzheng-10yi-maiden-flight/) |
+| 4-28 | [中国（北京）航天科学中心正式开馆，打造北京「科文商旅」融合新地标](./2026-04-28-beijing-space-science-center/) |
 | 4-27 | [NASA 公民科学项目邀请公众参与：人人皆可成为太空探索的一份子](./2026-04-27-nasa-citizen-science-thrive/) |
 | 4-25 | [嫦娥五号月壤发现镁嫦娥石与铈嫦娥石：我国科学家再次发现两种月球新矿物](./2026-04-25-chang-e5-new-minerals/) |
 | 4-25 | [Artemis II宇航员在奔月途中拍摄银河壮景](./2026-04-25-artemis-ii-milky-way/) |
