@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: Tianjiangshuo
 date: 2026-04-01
-lastUpdated: 2026-04-28
+lastUpdated: 2026-04-29
 wechatShare:
   title: "Space News · April 2026"
   desc: "April 2026 space news article index."
@@ -17,6 +17,8 @@ wechatShare:
 
 | Date | Title |
 |-------|-------|
+| 4-29 | [Shenzhou-23 Mission Entering Final Preparations as Jiuquan Launch Site Ramps Up](./2026-04-29-shenzhou-23-preparation/) |
+| 4-29 | [Academician Ma Weiming Proposes Electromagnetic Launch Track on Qinghai-Tibet Plateau](./2026-04-29-ma-weiming-em-launch-concept/) |
 | 4-28 | [CAS Space's Lijian-2 Super Factory Fully Completed, Mass Production Line Officially Commissioned](./2026-04-28-cas-space-lijian-2-super-factory/) |
 | 4-28 | [Long March 2F Emergency Launch Team Honored with China Youth May 4 Medal Collective Award](./2026-04-28-changzheng-2f-emergency-team-award/) |
 | 4-28 | [China to Launch World's First GEO Microwave Atmospheric Sounding Satellite](./2026-04-28-fengyun-4-microwave-satellite/) |

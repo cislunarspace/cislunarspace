@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-28
+lastUpdated: 2026-04-29
 wechatShare:
   title: "航天动态 · 2026 年 4 月"
   desc: "2026 年 4 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 4-29 | [神舟二十三号进入发射倒计时，酒泉发射场全面备战](./2026-04-29-shenzhou-23-preparation/) |
+| 4-29 | [马伟明院士提出青藏高原电磁发射轨道构想，或将颠覆传统航天发射方式](./2026-04-29-ma-weiming-em-launch-concept/) |
 | 4-28 | [中科宇航力箭二号超级工厂全面竣工，批量化生产线正式投产](./2026-04-28-cas-space-lijian-2-super-factory/) |
 | 4-28 | [长征二号F火箭应急发射团队荣获「中国青年五四奖章集体」](./2026-04-28-changzheng-2f-emergency-team-award/) |
 | 4-28 | [风云四号微波星: 十五五规划全球首颗静止轨道微波大气探测卫星，2026年前后发射](./2026-04-28-fengyun-4-microwave-satellite/) |
