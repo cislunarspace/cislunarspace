@@ -16,7 +16,9 @@ wechatShare:
 ## New This Month
 
 | Date | Title |
-|------|-------|
+|-------|-------|
+| 4-28 | [CAS Space's Lijian-2 Super Factory Fully Completed, Mass Production Line Officially Commissioned](./2026-04-28-cas-space-lijian-2-super-factory/) |
+| 4-28 | [Long March 2F Emergency Launch Team Honored with China Youth May 4 Medal Collective Award](./2026-04-28-changzheng-2f-emergency-team-award/) |
 | 4-27 | [Space Metal 3D Printing Technology Demonstrated on Chinese Test Spaceship](./2026-04-27-space-metal-3d-printing/) |
 | 4-23 | [NASA's Dragonfly Rotorcraft Enters Final Assembly and Testing Phase](./2026-04-23-nasa-dragonfly-rotorcraft-tested/) |
 | 4-27 | [SpaceX Scrubs Falcon Heavy Launch of Final ViaSat-3 Satellite Due to Poor Weather](./2026-04-27-spacex-viasat-3-scrub/) |
