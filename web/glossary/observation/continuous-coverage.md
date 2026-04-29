@@ -78,7 +78,11 @@ $$\theta = 2 \cdot \arcsin\left(\frac{r_{moon}}{l_1}\right)$$
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [地月空间态势感知](/glossary/doctrine/cislunar-space-situational-awareness/)
+- [持久探测走廊（PDC）](/glossary/doctrine/persistent-detection-corridor/)
+- [帕累托最优（Pareto Optimality）](/glossary/dynamics/pareto-optimal/)
 
 ## 参考文献
 
 - 陈昱桔. 面向地月空间态势感知的DRO轨道设计与控制研究[D]. 2024.
+- Klonowski M, Holzinger M J, Owens-Fahrner N. Optimal Cislunar Architecture Design Using Monte Carlo Tree Search Methods[J]. The Journal of the Astronautical Sciences, 2023.
+- Klonowski M. Cislunar Space Situational Awareness Architecture Design and Analysis[D]. University of Colorado Boulder, 2025.

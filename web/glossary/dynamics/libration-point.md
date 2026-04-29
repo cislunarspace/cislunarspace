@@ -83,3 +83,4 @@ $$x = \frac{1}{2} - \mu, \quad y = \pm \frac{\sqrt{3}}{2}$$
 
 - Szebehely V. Theory of orbits: the restricted problem of three bodies[M]. Academic Press, 1968.
 - 陈昱桔. 面向地月空间态势感知的DRO轨道设计与控制研究[D]. 2024.
+- Klonowski M. Cislunar Space Situational Awareness Architecture Design and Analysis[D]. University of Colorado Boulder, 2025.

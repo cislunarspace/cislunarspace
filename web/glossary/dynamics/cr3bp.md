@@ -182,3 +182,4 @@ CR3BP 是地月空间轨道设计的基础模型，可有效研究平动点附�
 - 徐明. 基于平动点理论的航天器轨道动力学与控制研究[D]. 2008.
 - Zimovan E M. Characteristics and design strategies for near rectilinear halo orbits within the Earth-Moon system[D]. Purdue University, 2017.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
+- Klonowski M. Cislunar Space Situational Awareness Architecture Design and Analysis[D]. University of Colorado Boulder, 2025.

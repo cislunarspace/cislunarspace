@@ -69,9 +69,17 @@ DRO 轨道因其良好的稳定性、足够的高度和绕月飞行特性，是�
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [连续覆盖率](/glossary/observation/continuous-coverage/)
 - [Artemis 计划](/glossary/programs/artemis/)
+- [帕累托最优（Pareto Optimality）](/glossary/dynamics/pareto-optimal/)
+- [多目标蒙特卡洛树搜索（MO-MCTS）](/glossary/dynamics/mo-mcts/)
+- [持久探测走廊（PDC）](/glossary/doctrine/persistent-detection-corridor/)
+- [韧性地图（Resilience Map）](/glossary/doctrine/resilience-map/)
+- [可达集（Reachable Set）](/glossary/dynamics/reachable-set/)
 
 ## 参考文献
 
 - 兰顺正. 美军要构建"地月空间安全"[J]. 世界知识, 2022.
 - 张蕊, 何慧东, 朱贵伟. 美国地月空间安全研究进展综述[J]. 航天器工程, 2024.
 - 陈昱桔. 面向地月空间态势感知的DRO轨道设计与控制研究[D]. 2024.
+- Klonowski M. Cislunar Space Situational Awareness Architecture Design and Analysis[D]. University of Colorado Boulder, 2025.
+- Klonowski M, Holzinger M J, Owens-Fahrner N. Optimal Cislunar Architecture Design Using Monte Carlo Tree Search Methods[J]. The Journal of the Astronautical Sciences, 2023.
+- Klonowski M, Owens-Fahrner N, Heidrich C, et al. Cislunar space domain awareness architecture design and analysis for cooperative agents[J]. The Journal of the Astronautical Sciences, 2024.
