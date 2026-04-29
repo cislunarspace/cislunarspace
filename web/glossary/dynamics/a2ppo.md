@@ -20,11 +20,16 @@ permalink: /glossary/dynamics/a2ppo/
 
 # A2PPO（注意力增强近端策略优化）
 
-> Attention-Augmented Proximal Policy Optimization
+> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
+>
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+> 校对记录：
+> 1. 2026年4月29日：
 
 ## 定义
 
-A2PPO 是一种面向地月空间低推力轨迹优化的深度强化学习（Deep Reinforcement Learning, DRL）框架，由 Ul Haq、Dai、Du 等人于 2026 年提出。其核心创新在于将**方向交叉注意力机制**（directional cross-attention mechanism）集成到标准 PPO（Proximal Policy Optimization）算法的 Actor-Critic 架构中，使策略网络能够选择性关注 Critic 网络认为对未来价值重要的状态特征，从而提升混沌多体动力学环境中的学习稳定性和样本效率。
+A2PPO （Attention-Augmented Proximal Policy Optimization）是一种面向地月空间低推力轨迹优化的深度强化学习（Deep Reinforcement Learning, DRL）框架，由 Ul Haq、Dai、Du 等人于 2026 年提出。其核心创新在于将**方向交叉注意力机制**（directional cross-attention mechanism）集成到标准 PPO（Proximal Policy Optimization）算法的 Actor-Critic 架构中，使策略网络能够选择性关注 Critic 网络认为对未来价值重要的状态特征，从而提升混沌多体动力学环境中的学习稳定性和样本效率。
 
 ## 算法架构
 
@@ -40,7 +45,7 @@ A2PPO 的前向传播流程如下：
 
 ### 关键设计：方向性
 
-A2PPO 采用** Critic → Actor** 的不对称方向交叉注意力设计：策略表示以值函数的评估信号为条件，而 Critic 保持与 Actor 探索噪声的解耦。这种设计在消融实验中优于自注意力变体，显著提升了训练稳定性。
+A2PPO 采用**Critic → Actor** 的不对称方向交叉注意力设计：策略表示以值函数的评估信号为条件，而 Critic 保持与 Actor 探索噪声的解耦。这种设计在消融实验中优于自注意力变体，显著提升了训练稳定性。
 
 ### PPO 损失函数
 
@@ -114,4 +119,4 @@ A2PPO 在地月空间低推力轨迹优化中展现出无需初始猜测即可�
 
 ## 参考文献
 
-- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning. Aerospace Science and Technology, 2026.
+[1] Ul Haq I, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026, 171: 111673.
