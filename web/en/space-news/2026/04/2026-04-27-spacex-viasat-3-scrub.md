@@ -1,44 +1,48 @@
 ---
 layout: SpaceNewsArticle
-title: "SpaceX Scrubs Falcon Heavy Launch of Final ViaSat-3 Satellite Due to Poor Weather"
-description: "SpaceX called off the launch of the final ViaSat-3 communications satellite aboard a Falcon Heavy rocket on April 27 due to unfavorable weather conditions at Kennedy Space Center, marking the first Falcon Heavy flight in over a year and a half."
+title: "SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Satellite, ~1 Tbps Capacity Sets Global Record"
+description: "After a weather-related scrub, SpaceX successfully launched the ViaSat-3 Flight 3 communications satellite on a Falcon Heavy rocket on April 28, marking the Heavy's first flight in 18 months."
 permalink: /en/space-news/2026/04/2026-04-27-spacex-viasat-3-scrub/
 author: Tianjiangshuo
-date: 2026-04-27
-lastUpdated: 2026-04-27
+date: 2026-04-29
+lastUpdated: 2026-04-29
 category: [spacex, launch]
 image: ./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg
 ---
 
-# SpaceX Scrubs Falcon Heavy Launch of Final ViaSat-3 Satellite Due to Poor Weather
+# SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Satellite, ~1 Tbps Capacity Sets Global Record
 
-**Summary:** SpaceX was standing down from launching its first Falcon Heavy rocket in more than a year and a half due to poor weather on Monday, April 27. The mission was to deploy the ViaSat-3 Flight 3 communications satellite—the final satellite in Viasat's third-generation broadband constellation—into a geosynchronous transfer orbit. A new launch date has not yet been announced.
+**Summary:** After a weather-related scrub on April 27, SpaceX successfully launched the ViaSat-3 Flight 3 communications satellite aboard a Falcon Heavy rocket from NASA's Kennedy Space Center on April 28 (UTC). This marks the Falcon Heavy's first mission since late 2024, and ViaSat-3 F3 — the final satellite in the ViaSat-3 constellation — maintains the record for the world's highest-capacity communications satellite at approximately 1 Tbps.
 
-![SpaceX scrubs Falcon Heavy ViaSat-3 launch](./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg)
+![Falcon Heavy stands at Kennedy Space Center Launch Complex 39A (Spaceflight Now)](./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg)
 *Credit: Spaceflight Now*
 
 ## Mission Overview
 
-The mission was planned to lift off from NASA's Kennedy Space Center, with the triple-booster Falcon Heavy sending the 6-metric-ton ViaSat-3 Flight 3 communications satellite to a geosynchronous transfer orbit. After separation from the rocket's upper stage, the satellite would use its own propulsion system to reach geostationary orbit.
+The Falcon Heavy lifted off from Launch Complex 39A at NASA's Kennedy Space Center, delivering the ViaSat-3 Flight 3 communications satellite to a geostationary transfer orbit (GTO). This was the 12th flight of a Falcon Heavy, and the rocket's first launch since late 2024.
 
-Mission details:
+Mission profile:
 
-- **Vehicle:** Falcon Heavy (first flight in over 18 months)
-- **Payload:** ViaSat-3 Flight 3 (third and final satellite in Viasat's third-generation constellation)
-- **Target Orbit:** Geostationary Transfer Orbit (GTO)
-- **Launch Site:** NASA's Kennedy Space Center
-- **Booster Recovery:** Planned land recovery of two side boosters at Cape Canaveral Space Force Station
+- **Vehicle:** Falcon Heavy (first flight in approximately 18 months)
+- **Payload:** ViaSat-3 Flight 3 (the third and final satellite in the ViaSat-3 series)
+- **Target orbit:** Geostationary transfer orbit (GTO); satellite will use its electric propulsion to reach geostationary orbit (GEO)
+- **Launch site:** NASA's Kennedy Space Center, LC-39A
+- **Booster recovery:** Side boosters (B1075 and B1072) landed vertically for reuse; core booster B1098 expended in the Atlantic Ocean
 
-## Weather and Technical Status
+## From Weather Scrub to Successful Launch
 
-SpaceX called off the mission at 10:48 a.m. EDT (1448 UTC) on April 27, citing poor weather conditions at the launch site. This was the final attempt within the launch window, and a new launch date is expected to be announced soon.
+The original launch attempt on April 27 (UTC) was cancelled due to lightning activity and tornado warnings near the launch complex. SpaceX activated a backup window and successfully completed the launch on April 28. Dave Abrahamian, mission director at Viasat, previously stated: "This really is the end of an era for us. We have been working on this project for more than a decade."
 
-Viasat's Dave Abrahamian said prior to the scrub: "It's kind of the end of an era. We've been working this program for over 10 years now." The ViaSat-3 constellation is designed to provide high-speed broadband internet services across the Americas, with Flight 1 and Flight 2 having launched in May 2023 and May 2024 respectively.
+The ViaSat-3 constellation is designed to provide high-speed broadband internet service to the Americas. The first two satellites (Flights 1 and 2) were launched in May 2023 and May 2024, respectively.
+
+## ViaSat-3 F3: World's Highest-Capacity Communications Satellite
+
+ViaSat-3 F3 was built by Boeing using the 702MP+ satellite platform with a fully electric propulsion system. The satellite has a launch mass of approximately 6 tonnes with a solar wing span of 44 meters — one of the largest solar arrays ever deployed in space. With a communications capacity of approximately 1 Tbps (125 GB/s), ViaSat-3 F3 holds the record for the world's highest-capacity communications satellite in orbit. It has a design life of 15 years and will provide high-speed broadband service to the Americas.
 
 ## Background: Falcon Heavy Returns
 
-This mission would have marked Falcon Heavy's return to flight after a hiatus of over a year and a half. The Falcon Heavy is SpaceX's most powerful operational rocket, consisting of three first-stage boosters based on the Falcon 9. Its two side boosters are designed for vertical landing and reuse. The rocket serves a wide range of commercial, government, and deep-space missions.
+Falcon Heavy is SpaceX's most powerful rocket, consisting of three Falcon 9 first-stage boosters mounted together. Its two side boosters are capable of vertical landing and reuse. The rocket is widely used for commercial communications satellites, government payloads, and deep space missions. This launch kicks off a busy period for Falcon Heavy, with subsequent missions including the ESA Rosalind Franklin Mars rover.
 
 ## Sources (original pages)
 
-- [SpaceX scrubs Falcon Heavy launch of final ViaSat-3 satellite due to poor weather](https://spaceflightnow.com/2026/04/27/live-coverage-spacex-to-launch-final-viasat-3-satellite-on-falcon-heavy-rocket/)
+- [Spaceflight Now: Falcon Heavy ViaSat-3 F3 Launch Coverage](https://spaceflightnow.com/2026/04/27/live-coverage-spacex-to-launch-final-viasat-3-satellite-on-falcon-heavy-rocket/)

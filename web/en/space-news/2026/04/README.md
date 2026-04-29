@@ -29,7 +29,7 @@ wechatShare:
 | 4-28 | [ULA Atlas V Successfully Launches 29 Amazon Kuiper Internet Satellites](./2026-04-28-ula-atlas-v-kuiper-29-satellites/) |
 | 4-27 | [Space Metal 3D Printing Technology Demonstrated on Chinese Test Spaceship](./2026-04-27-space-metal-3d-printing/) |
 | 4-23 | [NASA's Dragonfly Rotorcraft Enters Final Assembly and Testing Phase](./2026-04-23-nasa-dragonfly-rotorcraft-tested/) |
-| 4-27 | [SpaceX Scrubs Falcon Heavy Launch of Final ViaSat-3 Satellite Due to Poor Weather](./2026-04-27-spacex-viasat-3-scrub/) |
+| 4-29 | [SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Satellite, ~1 Tbps Capacity Sets Global Record](./2026-04-27-spacex-viasat-3-scrub/) |
 | 4-28 | [Long March 10B Successfully Completes Maiden Flight, Validates World's First Sea-Based Net Recovery Technology](./2026-04-28-changzheng-10yi-maiden-flight/) |
 | 4-28 | [China (Beijing) Space Science Center Opens, Marking New Landmark for Science-Tourism Integration](./2026-04-28-beijing-space-science-center/) |
 | 4-27 | [NASA Invites Public to Join Citizen Science: Everyone Can Be Part of Space Exploration](./2026-04-27-nasa-citizen-science-thrive/) |
