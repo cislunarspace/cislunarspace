@@ -48,7 +48,7 @@ SUPARCO stated that this will be an important milestone for Pakistan's space ind
 
 ## Sources
 
-- [People's Daily: First Batch of Foreign Astronauts Arrive in China for Training](http://paper.people.com.cn/rmrb/pc/content/202604/25/content_30153037.html)
+- [People's Daily: First Batch of Foreign Astronauts Arrive in China for Training](https://paper.people.com.cn/rmrb/pc/content/202604/25/content_30153037.html)
 - [CCTV News: First Batch of Foreign Astronauts Arrive in China for Training](https://www.toutiao.com/article/7632499072347390470/)
 - [Global Times: Pakistani Astronauts Begin Training in China](https://www.toutiao.com/article/7632456416304972330/)
-- [China.org.cn: First Batch of Foreign Astronauts Arrive in China for Training](http://www.china.org.cn/2026-04/24/content_118462217.shtml)
+- [China.org.cn: First Batch of Foreign Astronauts Arrive in China for Training](https://www.china.org.cn/2026-04/24/content_118462217.shtml)

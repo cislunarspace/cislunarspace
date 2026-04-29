@@ -59,4 +59,4 @@ image: ./figures/2026-04-24-chang-e7-launch/hero.jpg
 
 - [IT之家：嫦娥七号将于年内发射](https://www.ithome.com/0/942/856.htm)
 - [新华网：嫦娥七号将于年内发射](https://www.news.cn/)
-- [国家航天局官网](http://www.cnsa.gov.cn/)
+- [国家航天局官网](https://www.cnsa.gov.cn/)

@@ -67,4 +67,4 @@ Xihe-2 is China's next-generation solar observation satellite following Xihe-1:
 
 - [Chuan Guan News: Xihe-2 International Cooperation Announcement](https://cbgc.scol.com.cn/news/7527288)
 - [TMT Post: Xihe-2 International Cooperation Announcement](https://www.tmtpost.com/nictation/7965391.html)
-- [China National Space Administration](http://www.cnsa.gov.cn/)
+- [China National Space Administration](https://www.cnsa.gov.cn/)

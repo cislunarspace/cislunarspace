@@ -37,4 +37,4 @@ The successful launch of the Shams satellite represents a major milestone for Sa
 
 Saudi Arabia has been steadily increasing its space investments in recent years — from remote sensing satellites to crewed spaceflight, and now space weather monitoring — progressively building a comprehensive space capability portfolio.
 
-*Sources: [DoNews](https://www.donews.com/news/detail/8/6499049.html), [Yunnan News](http://news.yunnan.cn/system/2026/04/05/033951816.shtml)*
+*Sources: [DoNews](https://www.donews.com/news/detail/8/6499049.html), [Yunnan News](https://news.yunnan.cn/system/2026/04/05/033951816.shtml)*

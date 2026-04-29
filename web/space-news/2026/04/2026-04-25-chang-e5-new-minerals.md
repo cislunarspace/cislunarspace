@@ -60,7 +60,7 @@ image: ./figures/2026-04-25-chang-e5-new-minerals/hero.png
 
 ## 信息来源（原文）
 
-- [新华网：我国科学家发现两种月球新矿物镁嫦娥石、铈嫦娥石](http://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260424_2926941.shtml)
-- [中国新闻网：我国科学家发现两种月球新矿物镁嫦娥石、铈嫦娥石](http://www.chinanews.com.cn/gn/2026/04-24/10609806.shtml)
+- [新华网：我国科学家发现两种月球新矿物镁嫦娥石、铈嫦娥石](https://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260424_2926941.shtml)
+- [中国新闻网：我国科学家发现两种月球新矿物镁嫦娥石、铈嫦娥石](https://www.chinanews.com.cn/gn/2026/04-24/10609806.shtml)
 - [新华社：铈嫦娥石发现解读](https://new.qq.com/rain/a/20260424A06G4S00)
-- [国家航天局官网](http://www.cnsa.gov.cn/)
+- [国家航天局官网](https://www.cnsa.gov.cn/)

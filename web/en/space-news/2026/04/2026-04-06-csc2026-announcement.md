@@ -25,7 +25,7 @@ wechatShare:
 
 - [Notice on Holding the 2026 China Space Conference - Tencent News](https://new.qq.com/rain/a/20260406A01UZ600)
 - [Notice on Holding the 2026 China Space Conference (CSC2026) - QQ News](https://so.html5.qq.com/page/real/search_news?docid=70000021_85569d2dbea45252)
-- [China National Space Administration](http://www.cnsa.gov.cn/)
+- [China National Space Administration](https://www.cnsa.gov.cn/)
 
 > This report is based on the official notice released by the Chinese Society of Astronautics on April 6, 2026.
 

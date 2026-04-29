@@ -67,4 +67,4 @@ image: ./figures/2026-04-24-xihe-2-intl-cooperation/hero.jpg
 
 - [川观新闻：羲和二号国际合作机遇公告发布](https://cbgc.scol.com.cn/news/7527288)
 - [钛媒体：羲和二号国际合作机遇公告发布](https://www.tmtpost.com/nictation/7965391.html)
-- [国家航天局官网](http://www.cnsa.gov.cn/)
+- [国家航天局官网](https://www.cnsa.gov.cn/)

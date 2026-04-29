@@ -60,7 +60,7 @@ The discovery of these two minerals is significant for several reasons:
 
 ## Sources (original pages)
 
-- [China Economic Net: China discovers two new lunar minerals](http://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260424_2926941.shtml)
-- [Chinanews: China discovers two new lunar minerals](http://www.chinanews.com.cn/gn/2026/04-24/10609806.shtml)
+- [China Economic Net: China discovers two new lunar minerals](https://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260424_2926941.shtml)
+- [Chinanews: China discovers two new lunar minerals](https://www.chinanews.com.cn/gn/2026/04-24/10609806.shtml)
 - [Xinhua: Interview on cerium Chang'e stone discovery](https://new.qq.com/rain/a/20260424A06G4S00)
-- [CNSA Official Website](http://www.cnsa.gov.cn/)
+- [CNSA Official Website](https://www.cnsa.gov.cn/)

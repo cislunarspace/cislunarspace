@@ -43,8 +43,8 @@ On the international cooperation front, the Sino-European SMILE (Solar wind Magn
 
 ## Sources (original pages)
 
-- [National Bureau of Statistics: China Completes 92 Orbital Launches in 2025 - People's Daily](http://paper.people.com.cn/rmrb/pc/content/202604/26/content_30153121.html)
-- [National Bureau of Statistics: China Completes 92 Orbital Launches in 2025 - China Youth Net](http://news.youth.cn/gn/202604/t20260426_16628240.htm)
+- [National Bureau of Statistics: China Completes 92 Orbital Launches in 2025 - People's Daily](https://paper.people.com.cn/rmrb/pc/content/202604/26/content_30153121.html)
+- [National Bureau of Statistics: China Completes 92 Orbital Launches in 2025 - China Youth Net](https://news.youth.cn/gn/202604/t20260426_16628240.htm)
 - [China Achieves Record 92 Space Launches in 2025 - Tencent News](https://so.html5.qq.com/page/real/search_news?docid=70000021_1796958766032052)
 - [China Targets ~140 Launches in 2026; Commercial Space Booms - Tencent News](https://so.html5.qq.com/page/real/search_news?docid=70000021_81869cd2d7f49352)
 - [China Completes 92 Orbital Launches in 2025 with 50 Commercial - CINIC](https://www.cinic.org.cn/zgzz/xw/1625452.html)

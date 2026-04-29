@@ -57,5 +57,5 @@ The Lift-2 will support LEO communication satellite constellation deployment, lo
 ## Sources
 
 - [Lift-2 maiden flight success — QQ News](https://new.qq.com/rain/a/20260330A089AY00)
-- [Lift-2 kicks off 2026 commercial space "intensive launch period" — East Money](http://finance.eastmoney.com/a/202604023693170812.html)
+- [Lift-2 kicks off 2026 commercial space "intensive launch period" — East Money](https://finance.eastmoney.com/a/202604023693170812.html)
 - [CAS Space details Lift-2 capabilities — QQ News](https://so.html5.qq.com/page/real/search_news?docid=70000021_22369ca73a649752)

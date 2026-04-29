@@ -140,6 +140,7 @@ export default defineUserConfig({
     logo: '/logo.png',
     navbar,
     sidebar,
+    sidebarDepth: 0,
 
     locales: {
       '/': {

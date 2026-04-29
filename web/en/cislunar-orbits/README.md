@@ -65,7 +65,7 @@ Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and l
 ## Suggested reading order
 
 1. [What is cislunar space](/en/what-is-cislunarspace/) and the [environment](/en/what-is-cislunarspace/environment) page.
-2. [Glossary](/en/glossary/) for abbreviations (e.g. [CR3BP](/en/glossary/cr3bp/)).
+2. [Glossary](/en/glossary/) for abbreviations (e.g. [CR3BP](/en/glossary/dynamics/cr3bp/)).
 3. [Research frontiers](/en/research-frontiers/) for active topics and references.
 
 *Deep-dive articles and worked examples are expanding—contributions via the repository are welcome.*

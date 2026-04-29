@@ -37,7 +37,7 @@ image: ./figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg
 
 ## 信息来源（原文）
 
-- [人民网：我国成功发射巴基斯坦PRSC-EO3卫星](http://finance.people.com.cn/n1/2026/0425/c1004-40708684.html)
+- [人民网：我国成功发射巴基斯坦PRSC-EO3卫星](https://finance.people.com.cn/n1/2026/0425/c1004-40708684.html)
 - [新华网：我国成功发射巴基斯坦PRSC-EO3卫星](https://www.sohu.com/a/1014674215_121443915)
 - [澎湃新闻：我国成功发射巴基斯坦PRSC-EO3卫星](https://www.thepaper.cn/newsDetail_forward_33056226)
-- [中新社：我国成功发射巴基斯坦PRSC-EO3卫星](http://news.10jqka.com.cn/20260425/c676282301.shtml)
+- [中新社：我国成功发射巴基斯坦PRSC-EO3卫星](https://news.10jqka.com.cn/20260425/c676282301.shtml)

@@ -23,7 +23,7 @@ wechatShare:
 
 ## Sources (original pages)
 
-- China Daily: [China launches Long March-8A Y1 rocket, deploys satellite group](http://www.chinadaily.com.cn/a/202603/13/WS69b37950a310d6866eb3da94.html)
-- Xinhua (English): [China launches Long March-8A Y1 rocket, deploys satellite group](http://english.news.cn/20260313/5a3c7600a11c4911887556bae09b201b/c.html)
-- Xinhua (Chinese): [长征二号丁运载火箭成功发射试验三十号卫星03、04星](http://www.news.cn/20260313/d55db087e2ca4aba86ed25f99635f953/c.html)
+- China Daily: [China launches Long March-8A Y1 rocket, deploys satellite group](https://www.chinadaily.com.cn/a/202603/13/WS69b37950a310d6866eb3da94.html)
+- Xinhua (English): [China launches Long March-8A Y1 rocket, deploys satellite group](https://english.news.cn/20260313/5a3c7600a11c4911887556bae09b201b/c.html)
+- Xinhua (Chinese): [长征二号丁运载火箭成功发射试验三十号卫星03、04星](https://www.news.cn/20260313/d55db087e2ca4aba86ed25f99635f953/c.html)
 - Illustration (Wikimedia Commons, not this mission): [File:Long March 3B launching Chinasat-9.jpg](https://commons.wikimedia.org/wiki/File:Long_March_3B_launching_Chinasat-9.jpg)

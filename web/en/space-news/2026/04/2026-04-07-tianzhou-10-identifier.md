@@ -38,4 +38,4 @@ The Tianzhou series of cargo spacecraft is a critical component of China's Tiang
 
 ## Sources (original pages)
 
-- [Tianzhou 10 Flight Mission Identifier Released - CMSA](http://www.cmse.gov.cn/xwzx/202604/t20260407_57375.html)
+- [Tianzhou 10 Flight Mission Identifier Released - CMSA](https://www.cmse.gov.cn/xwzx/202604/t20260407_57375.html)

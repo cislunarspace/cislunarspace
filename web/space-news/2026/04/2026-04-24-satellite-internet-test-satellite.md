@@ -58,5 +58,5 @@ wechatShare:
 
 - [我国成功发射卫星互联网技术试验卫星（澎湃新闻）](https://m.thepaper.cn/newsDetail_forward_33046068)
 - [一箭四星！长征二号丁火箭成功发射卫星互联网技术试验卫星（澎湃新闻）](https://www.thepaper.cn/newsDetail_forward_33046180)
-- [我国成功发射卫星互联网技术试验卫星（新华网）](http://www.xinhuanet.com/2026-04/24/content_402323.htm)
-- [我国成功发射卫星互联网技术试验卫星（中国青年网）](http://picture.youth.cn/qtdb/202604/t20260424_16626549.htm)
+- [我国成功发射卫星互联网技术试验卫星（新华网）](https://www.xinhuanet.com/2026-04/24/content_402323.htm)
+- [我国成功发射卫星互联网技术试验卫星（中国青年网）](https://picture.youth.cn/qtdb/202604/t20260424_16626549.htm)

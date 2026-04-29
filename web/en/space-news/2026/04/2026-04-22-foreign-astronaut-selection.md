@@ -29,6 +29,6 @@ wechatShare:
 
 ## Sources (original pages)
 
-- [China's First Batch of International Astronauts Selection Completed](http://www.cmse.gov.cn/xwzx/202604/t20260422_57417.html)
+- [China's First Batch of International Astronauts Selection Completed](https://www.cmse.gov.cn/xwzx/202604/t20260422_57417.html)
 
 > Official release from the China Manned Space Agency, April 22, 2026.

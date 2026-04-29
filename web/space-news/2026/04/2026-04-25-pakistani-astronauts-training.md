@@ -48,7 +48,7 @@ image: ./figures/2026-04-25-pakistani-astronauts-training/hero.jpg
 
 ## 信息来源
 
-- [人民日报：首批外籍航天员来华参加训练](http://paper.people.com.cn/rmrb/pc/content/202604/25/content_30153037.html)
+- [人民日报：首批外籍航天员来华参加训练](https://paper.people.com.cn/rmrb/pc/content/202604/25/content_30153037.html)
 - [央视新闻：首批外籍航天员来华参加训练](https://www.toutiao.com/article/7632499072347390470/)
 - [环球时报：圆飞天梦！巴基斯坦航天员来华训练](https://www.toutiao.com/article/7632456416304972330/)
-- [中国网：首批外籍航天员来华参加训练](http://news.china.com.cn/2026-04/24/content_118461741.shtml)
+- [中国网：首批外籍航天员来华参加训练](https://news.china.com.cn/2026-04/24/content_118461741.shtml)

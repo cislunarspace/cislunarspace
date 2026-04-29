@@ -78,4 +78,4 @@ Enthusiasts can also use open-source tools such as **Firefly Aerospace's** trans
 
 ## Simulation Experiments
 
-You can set different TLI launch timings in the [Satellite Orbit Simulation Laboratory](/satellite-simulation/) to observe changes in transfer trajectories and arrival points.
+You can set different TLI launch timings in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe changes in transfer trajectories and arrival points.

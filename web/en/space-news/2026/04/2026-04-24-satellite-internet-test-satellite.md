@@ -57,4 +57,4 @@ The Long March 2D rocket is developed by the Eighth Academy of China Aerospace S
 
 - [China successfully launches satellite internet technology test satellites (The Paper)](https://m.thepaper.cn/newsDetail_forward_33046068)
 - [Long March 2D successfully launches four satellites (The Paper)](https://www.thepaper.cn/newsDetail_forward_33046180)
-- [China successfully launches satellite internet technology test satellites (Xinhua)](http://www.xinhuanet.com/2026-04/24/content_402323.htm)
+- [China successfully launches satellite internet technology test satellites (Xinhua)](https://www.xinhuanet.com/2026-04/24/content_402323.htm)

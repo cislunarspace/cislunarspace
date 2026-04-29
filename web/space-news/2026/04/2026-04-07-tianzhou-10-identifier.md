@@ -38,4 +38,4 @@ wechatShare:
 
 ## 信息来源（原文）
 
-- [天舟十号飞行任务标识发布 - 中国载人航天工程网](http://www.cmse.gov.cn/xwzx/202604/t20260407_57375.html)
+- [天舟十号飞行任务标识发布 - 中国载人航天工程网](https://www.cmse.gov.cn/xwzx/202604/t20260407_57375.html)

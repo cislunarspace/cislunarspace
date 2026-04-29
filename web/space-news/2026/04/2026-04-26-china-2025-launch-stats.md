@@ -43,8 +43,8 @@ image: ./figures/2026-04-26-china-2025-launch-stats/hero.jpg
 
 ## 信息来源（原文）
 
-- [国家统计局：2025年我国完成92次宇航发射 - 人民网](http://paper.people.com.cn/rmrb/pc/content/202604/26/content_30153121.html)
-- [国家统计局：2025年我国完成92次宇航发射 - 中国青年网](http://news.youth.cn/gn/202604/t20260426_16628240.htm)
+- [国家统计局：2025年我国完成92次宇航发射 - 人民网](https://paper.people.com.cn/rmrb/pc/content/202604/26/content_30153121.html)
+- [国家统计局：2025年我国完成92次宇航发射 - 中国青年网](https://news.youth.cn/gn/202604/t20260426_16628240.htm)
 - [2025年中国航天发射次数达92次创历史新高 - 腾讯新闻](https://so.html5.qq.com/page/real/search_news?docid=70000021_1796958766032052)
 - [中国2026年瞄准140次发射！商业航天狂飙突进 - 腾讯新闻](https://so.html5.qq.com/page/real/search_news?docid=70000021_81869cd2d7f49352)
 - [我国2025年完成92次宇航发射其中商业航天发射50次 - 中国产业经济信息网](https://www.cinic.org.cn/zgzz/xw/1625452.html)

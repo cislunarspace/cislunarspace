@@ -25,7 +25,7 @@ wechatShare:
 
 - [关于举办2026年中国航天大会的通知 - 腾讯新闻](https://new.qq.com/rain/a/20260406A01UZ600)
 - [关于举办2026年中国航天大会(CSC2026)的通知 - QQ新闻](https://so.html5.qq.com/page/real/search_news?docid=70000021_85569d2dbea45252)
-- [国家航天局](http://www.cnsa.gov.cn/)
+- [国家航天局](https://www.cnsa.gov.cn/)
 
 > 本报道基于中国宇航学会2026年4月6日发布的官方通知整理。
 

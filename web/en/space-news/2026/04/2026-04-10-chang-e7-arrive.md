@@ -21,7 +21,7 @@ wechatShare:
 ## Sources (original pages)
 
 - [Chang'e 7 probe arrives at Wenchang launch center for planned 2026 launch - Tencent News](https://new.qq.com/rain/a/20260410A06R3A00)
-- [China Manned Space Engineering Office official releases](http://www.cmse.gov.cn/)
+- [China Manned Space Engineering Office official releases](https://www.cmse.gov.cn/)
 
 > The safe arrival of the Chang'e 7 probe marks significant progress in China's lunar exploration program, laying a solid foundation for future crewed lunar missions.
 

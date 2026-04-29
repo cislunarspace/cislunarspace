@@ -14,3 +14,7 @@ openclaw agent --local --message "执行 Space News 定期更新。
 完成后汇报新增稿件数量。
 
 如果没有值得报道的新闻，简短说明即可。" 2>&1 | logger -t space-news-cron
+
+# 无论如何都要跑完整构建（包含 sync-figures），确保图片同步到 dist/
+cd "$WORKDIR/web" || exit 1
+npm run docs:build 2>&1 | logger -t space-news-build

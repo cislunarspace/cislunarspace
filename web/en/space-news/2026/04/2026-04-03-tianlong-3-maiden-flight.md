@@ -16,7 +16,7 @@ wechatShare:
 
 # Tianlong-3 Maiden Flight Fails: China's Falcon 9-Class Commercial Rocket Loses Control After Liftoff
 
-![Tianlong-3 Launch Vehicle (Space Pioneer official render)](http://www.spacepioneer.cc/_nuxt/img/NTL-3.2b1b695.png)
+![Tianlong-3 Launch Vehicle (Space Pioneer official render)](https://www.spacepioneer.cc/_nuxt/img/NTL-3.2b1b695.png)
 *Image credit: Space Pioneer*
 
 **Summary:** On April 3, 2026 at 04:17 UTC (12:17 Beijing Time), Space Pioneer's **Tianlong-3** liquid-fueled launch vehicle lifted off from the **Dongfeng Commercial Aerospace Innovation Zone** (Jiuquan Satellite Launch Center). However, approximately 33 seconds into flight, an anomaly was detected in the first-stage engine section, causing the vehicle to lose attitude control. The mission team terminated the flight, and the maiden flight ended in **failure**. Space Pioneer issued a statement apologizing to partners and confirming that a failure investigation and corrective action program is underway.
@@ -64,7 +64,7 @@ Dubbed "China's Falcon 9," Tianlong-3 was the country's first commercial rocket 
 
 ## Sources (original pages)
 
-- [Space Pioneer statement on Tianlong-3 maiden flight — EastMoney](http://finance.eastmoney.com/a/202604033695001747.html)
+- [Space Pioneer statement on Tianlong-3 maiden flight — EastMoney](https://finance.eastmoney.com/a/202604033695001747.html)
 - [China's commercial Tianlong-3 rocket fails on debut launch — SpaceNews](https://spacenews.com/chinas-commercial-tianlong-3-rocket-fails-on-debut-launch/)
 - [Tianlong-3 Demo Flight — RocketLaunch.org](https://rocketlaunch.org/)
 - [Tianlong-3 — Wikipedia](https://en.wikipedia.org/wiki/Tianlong-3)

@@ -37,7 +37,7 @@ Pakistani media gave significant attention to this launch. Pakistan's The Nation
 
 ## Sources (original articles)
 
-- [People's Daily: China Successfully Launches Pakistan's PRSC-EO3 Satellite](http://finance.people.com.cn/n1/2026/0425/c1004-40708684.html)
+- [People's Daily: China Successfully Launches Pakistan's PRSC-EO3 Satellite](https://finance.people.com.cn/n1/2026/0425/c1004-40708684.html)
 - [Xinhua News: China Successfully Launches Pakistan's PRSC-EO3 Satellite](https://www.sohu.com/a/1014674215_121443915)
 - [The Paper: China Successfully Launches Pakistan's PRSC-EO3 Satellite](https://www.thepaper.cn/newsDetail_forward_33056226)
-- [China News Service: China Successfully Launches Pakistan's PRSC-EO3 Satellite](http://news.10jqka.com.cn/20260425/c676282301.shtml)
+- [China News Service: China Successfully Launches Pakistan's PRSC-EO3 Satellite](https://news.10jqka.com.cn/20260425/c676282301.shtml)

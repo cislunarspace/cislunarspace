@@ -52,4 +52,4 @@ The primary application value of L2 NRHO lies in its ability to provide continuo
 
 ## Simulation Experiments
 
-You can set L2 NRHO initial conditions in the [Satellite Orbit Simulation Laboratory](/satellite-simulation/) to compare orbital characteristics with L1 NRHO.
+You can set L2 NRHO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to compare orbital characteristics with L1 NRHO.

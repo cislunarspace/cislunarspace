@@ -37,4 +37,4 @@ wechatShare:
 
 沙特近年来持续加大太空投入,从遥感卫星到载人航天飞行,再到如今的空间天气监测,正逐步构建完整的太空能力体系。
 
-*参考来源:[DoNews](https://www.donews.com/news/detail/8/6499049.html)、[云南网](http://news.yunnan.cn/system/2026/04/05/033951816.shtml)*
+*参考来源:[DoNews](https://www.donews.com/news/detail/8/6499049.html)、[云南网](https://news.yunnan.cn/system/2026/04/05/033951816.shtml)*

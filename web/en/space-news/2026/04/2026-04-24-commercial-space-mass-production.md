@@ -58,7 +58,7 @@ Key commercial rocket models include: Lijian-2 (CAS Space), Zhuque-3 (Blue Arrow
 
 ## Sources (original pages)
 
-- [Recoverable Technology Breakthrough Imminent, Supply Chain Restructuring Key to Cost Reduction in Commercial Space](http://news.hexun.com/2026-04-24/224050788.html) (Hexun)
+- [Recoverable Technology Breakthrough Imminent, Supply Chain Restructuring Key to Cost Reduction in Commercial Space](https://news.hexun.com/2026-04-24/224050788.html) (Hexun)
 - [Commercial Space Enterprise Capitalization Accelerates, Supply Chain Restructuring Key to Cost Reduction](https://finance.sina.com.cn/stock/t/2026-04-24/doc-inhvpusq4989327.shtml) (Sina Finance)
 - [Lijian-2 Fires the Starting Gun: 2026 China Commercial Space Enters "密集发射期"](https://m.cls.cn/detail/2333058) (Wall Street CN)
 - [China Targets 140 Launches in 2026! Commercial Space Surges](https://new.qq.com/rain/a/20260401A076KI00) (Beijing News)
