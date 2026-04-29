@@ -77,6 +77,7 @@ The number of entries is still growing. At the current stage, we prioritize high
 ### Navigation
 
 - [X-ray Pulsar Navigation](/en/glossary/navigation/xray-pulsar-navigation/)
+- [Positioning, Navigation and Timing (PNT)](/en/glossary/navigation/pnt/)
 
 ### Lunar Minerals
 
@@ -94,6 +95,8 @@ The number of entries is still growing. At the current stage, we prioritize high
 
 ### Organizations
 
+- [Korea Aerospace Administration (KASA)](/en/glossary/organizations/kasa/)
+- [Danuri Lunar Orbiter](/en/glossary/organizations/danuri/)
 - [Anduril Industries](/en/glossary/organizations/anduril/)
 - [Booz Allen Hamilton (BAH)](/en/glossary/organizations/booz-allen-hamilton/)
 - [General Dynamics Mission Systems (GDMS)](/en/glossary/organizations/general-dynamics-mission-systems/)
@@ -106,6 +109,15 @@ The number of entries is still growing. At the current stage, we prioritize high
 - [SpaceX](/en/glossary/organizations/spacex/)
 - [True Anomaly](/en/glossary/organizations/true-anomaly/)
 - [Turion Space](/en/glossary/organizations/turion-space/)
+
+### Space Transportation
+
+- [Reusable Launch Vehicle](/en/glossary/fundamentals/reusable-launch-vehicle/)
+- [Orbital Transfer Vehicle (OTV)](/en/glossary/fundamentals/orbital-transfer-vehicle/)
+- [Very Low Earth Orbit (VLEO)](/en/glossary/fundamentals/vleo/)
+- [Lunar Lander](/en/glossary/fundamentals/lunar-lander/)
+- [Korea Multi-Purpose Satellite (KOMPSAT)](/en/glossary/fundamentals/kompsat/)
+- [In-situ Resource Utilization (ISRU)](/en/glossary/fundamentals/isru/)
 
 ### Military Space Doctrine
 
@@ -171,6 +183,11 @@ The number of entries is still growing. At the current stage, we prioritize high
 ## Update Note
 
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
+
+**2026-04-29 Update (V)**: New entries based on KASA *Space Transportation / Satellite / Space Science Exploration Strategic Plan* (2024):
+- Organizations: Korea Aerospace Administration (KASA), Danuri Lunar Orbiter
+- Space Transportation: Reusable Launch Vehicle, Orbital Transfer Vehicle (OTV), Very Low Earth Orbit (VLEO), Lunar Lander, Korea Multi-Purpose Satellite (KOMPSAT), In-situ Resource Utilization (ISRU)
+- Navigation: Positioning, Navigation and Timing (PNT)
 
 **2026-04-29 Update (IV)**: New "Satellite Communication & TT&C" section with 6 entries based on Duan et al. (2026) on full-time cislunar communication using BeiDou satellites:
 - BeiDou Satellite System

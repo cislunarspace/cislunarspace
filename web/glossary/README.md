@@ -77,6 +77,7 @@ twitter:
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
+- [超低地球轨道（VLEO）](/glossary/fundamentals/vleo/)
 - [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)
 - [拟周期轨道（Quasi-Periodic Orbit）](/glossary/orbits/quasi-periodic-orbit/)
 - [共振轨道（Resonance Orbit）](/glossary/orbits/resonance-orbit/)
@@ -86,6 +87,9 @@ twitter:
 
 - [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
 - [地月空间时空基准（Cislunar Spatiotemporal Reference）](/glossary/navigation/cislunar-spatiotemporal-reference/)
+- [定位导航授时（PNT）](/glossary/navigation/pnt/)
+- [GPS辅助地球增强导航系统（GAGAN）](/glossary/navigation/gagan/)
+- [印度区域导航卫星系统（IRNSS）](/glossary/navigation/irnss/)
 
 ### 月球矿物
 
@@ -95,6 +99,9 @@ twitter:
 ### 项目与任务
 
 - [阿尔忒弥斯计划（Artemis）](/glossary/programs/artemis/)
+- [月球着陆器（Lunar Lander）](/glossary/fundamentals/lunar-lander/)
+- [原位资源利用（ISRU）](/glossary/fundamentals/isru/)
+- [韩国多用途卫星（KOMPSAT）](/glossary/fundamentals/kompsat/)
 - [LuGRE 实验](/glossary/programs/lugre/)
 
 ### 其他技术
@@ -109,9 +116,14 @@ twitter:
 - [思维链提示（CoT）](/glossary/other/chain-of-thought-prompting/)
 - [低秩适配（LoRA）](/glossary/other/lora-low-rank-adaptation/)
 - [提示调优（P-tuning）](/glossary/other/prompt-tuning/)
+- [极地轨道卫星运载火箭（PSLV）](/glossary/other/pslv/)
+- [地球同步轨道卫星运载火箭（GSLV）](/glossary/other/gslv/)
+- [印度卫星（INSat）](/glossary/other/insat/)
 
 ### 机构和组织
 
+- [韩国航空宇宙厅（KASA）](/glossary/organizations/kasa/)
+- [Danuri月球轨道器](/glossary/organizations/danuri/)
 - [安杜里尔工业公司（Anduril）](/glossary/organizations/anduril/)
 - [博思艾伦汉密尔顿公司（BAH）](/glossary/organizations/booz-allen-hamilton/)
 - [通用动力任务系统公司（GDMS）](/glossary/organizations/general-dynamics-mission-systems/)
@@ -124,6 +136,8 @@ twitter:
 - [SpaceX公司](/glossary/organizations/spacex/)
 - [True Anomaly公司](/glossary/organizations/true-anomaly-company/)
 - [Turion Space公司](/glossary/organizations/turion-space/)
+- [印度空间研究组织（ISRO）](/glossary/organizations/isro/)
+- [斯里哈里科塔航天发射场（SDSC-SHAR）](/glossary/organizations/sriharikota/)
 
 ### 军事太空条令
 
@@ -147,6 +161,11 @@ twitter:
 - [作战测试与训练基础设施（OTTI）](/glossary/doctrine/otti/)
 - [金穹（Golden Dome）](/glossary/doctrine/golden-dome/)
 - [地月空间态势感知（Cislunar Space Situational Awareness）](/glossary/doctrine/cislunar-space-situational-awareness/)
+- [反卫星试验（ASAT）](/glossary/doctrine/asat/)
+- [定向能武器（DEW）](/glossary/doctrine/directed-energy-weapon/)
+- [动能武器（Kinetic Weapon）](/glossary/doctrine/kinetic-weapon/)
+- [制天权（Space Superiority）](/glossary/doctrine/space-superiority/)
+- [军民一体化（Civil-Military Integration）](/glossary/doctrine/civil-military-integration/)
 
 ### 天文观测技术
 
@@ -189,6 +208,19 @@ twitter:
 ## 更新说明
 
 本页将随着站点内容建设持续补充新的术语条目与分类目录，逐步形成更完整的地月空间术语体系。
+
+**2026-04-29 更新（六）**：根据丰松江等(2021)《印度航天力量发展与战略重点探析》论文，新增 12 个术语：
+- 机构与组织：印度空间研究组织（ISRO）、斯里哈里科塔航天发射场（SDSC-SHAR）
+- 导航技术与系统：GPS辅助地球增强导航系统（GAGAN）、印度区域导航卫星系统（IRNSS）
+- 其他技术：极地轨道卫星运载火箭（PSLV）、地球同步轨道卫星运载火箭（GSLV）、印度卫星（INSat）
+- 军事太空条令：反卫星试验（ASAT）、定向能武器（DEW）、动能武器、制天权、军民一体化
+
+**2026-04-29 更新（五）**：根据KASA《Space Transportation / Satellite / Space Science Exploration Strategic Plan》(2024)战略文件，新增 9 个术语：
+- 机构与组织：韩国航空宇宙厅（KASA）、Danuri月球轨道器
+- 航天运输与发射：可重复使用运载火箭（Reusable Launch Vehicle）、轨道转移飞行器（OTV）
+- 任务轨道：超低地球轨道（VLEO）
+- 项目与任务：月球着陆器（Lunar Lander）、原位资源利用（ISRU）、韩国多用途卫星（KOMPSAT）
+- 导航技术与系统：定位导航授时（PNT）
 
 **2026-04-29 更新（四）**：根据段志慧等(2026)关于基于北斗卫星系统的地月空间全时通信论文，新增「卫星通信与测控」分类，共 6 个术语：
 - 北斗卫星系统（BeiDou Satellite System）
