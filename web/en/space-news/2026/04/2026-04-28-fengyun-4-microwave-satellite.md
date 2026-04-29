@@ -45,4 +45,4 @@ Beyond the Fengyun-4 Microwave Satellite, China's 15th Five-Year Plan meteorolog
 
 - [Sohu: Fengyun-4 Microwave Satellite coverage](https://www.sohu.com/a/1015592522_121284943)
 - [Tencent News: China to launch world's first GEO microwave atmospheric satellite](https://new.qq.com/rain/a/20260428A03GJB00)
-- [10jqka: 15th Five-Year Plan new satellite programs](http://field.10jqka.com.cn/20260428/c676336694.shtml)
+- [10jqka: 15th Five-Year Plan new satellite programs](https://field.10jqka.com.cn/20260428/c676336694.shtml)

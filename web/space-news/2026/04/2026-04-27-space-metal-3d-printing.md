@@ -28,6 +28,6 @@ image: ./figures/2026-04-27-space-metal-3d-printing/hero.jpg
 ## 信息来源（原文）
 
 - [太空金属3D打印技术在轨完成演示验证（腾讯新闻）](https://new.qq.com/rain/a/20260428A01XF100)
-- [我国太空金属增材制造技术取得突破（中国经济网）](http://tech.ce.cn/yw/202604/t20260428_2933561.shtml)
+- [我国太空金属增材制造技术取得突破（中国经济网）](https://tech.ce.cn/yw/202604/t20260428_2933561.shtml)
 - [中国科研团队完成太空金属3D打印技术在轻舟试验飞船演示验证（腾讯网）](https://so.html5.qq.com/page/real/search_news?docid=70000021_91469ef48e446752)
-- [太空金属增材制造技术在轻舟试验飞船完成演示验证（和讯网）](http://stock.10jqka.com.cn/20260427/c676317871.shtml)
+- [太空金属增材制造技术在轻舟试验飞船完成演示验证（和讯网）](https://stock.10jqka.com.cn/20260427/c676317871.shtml)

@@ -28,5 +28,5 @@ The Qingzhou test spaceship, independently developed by the Chinese Academy of S
 ## Sources (original pages)
 
 - [Space Metal 3D Printing Technology Completes On-Orbit Demonstration (Tencent News)](https://new.qq.com/rain/a/20260428A01XF100)
-- [China's Space Metal Additive Manufacturing Technology Achieves Breakthrough (CE.cn)](http://tech.ce.cn/yw/202604/t20260428_2933561.shtml)
+- [China's Space Metal Additive Manufacturing Technology Achieves Breakthrough (CE.cn)](https://tech.ce.cn/yw/202604/t20260428_2933561.shtml)
 - [Chinese Research Team Completes Space Metal 3D Printing Technology Demonstration on Qingzhou Spaceship (Tencent)](https://so.html5.qq.com/page/real/search_news?docid=70000021_91469ef48e446752)

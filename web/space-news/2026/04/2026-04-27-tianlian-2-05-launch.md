@@ -29,4 +29,4 @@ image: ./figures/2026-04-27-tianlian-2-05-launch/hero.jpg
 
 - [我国成功发射天链二号05星（新华网）](https://www.news.cn/tech/20250428/628a0a39d0f649548f219465fef5e679/c.html)
 - [我国成功发射天链二号05星（今日头条）](https://www.toutiao.com/w/1830624625433604/)
-- [天链二号05星发射成功（央广网）](http://www.cnr.cn/js2014/htkj/20250428/t20250428_527151456.shtml)
+- [天链二号05星发射成功（央广网）](https://www.cnr.cn/js2014/htkj/20250428/t20250428_527151456.shtml)

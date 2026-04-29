@@ -29,4 +29,4 @@ The Long March 3B rocket used for this launch was developed by the China Academy
 
 - [China Successfully Launches Tianlian 2-05 Satellite (Xinhua)](https://www.news.cn/tech/20250428/628a0a39d0f649548f219465fef5e679/c.html)
 - [Tianlian 2-05 Launch Report (Toutiao)](https://www.toutiao.com/w/1830624625433604/)
-- [Tianlian 2-05 Satellite Launch Success (CNR)](http://www.cnr.cn/js2014/htkj/20250428/t20250428_527151456.shtml)
+- [Tianlian 2-05 Satellite Launch Success (CNR)](https://www.cnr.cn/js2014/htkj/20250428/t20250428_527151456.shtml)

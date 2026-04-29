@@ -43,6 +43,6 @@ ULA 是亚马逊 Kuiper 星座发射服务的主要提供商之一，合同金�
 
 ## 信息来源（原文）
 
-- [舜网：亚马逊低地轨道卫星计划又一批卫星发射升空](http://news.e23.cn/guonei/2026-04-28/2026042800285.html)
+- [舜网：亚马逊低地轨道卫星计划又一批卫星发射升空](https://news.e23.cn/guonei/2026-04-28/2026042800285.html)
 - [Via Satellite: Amazon Project Kuiper Deployment Begins With First ULA Launch](https://www.satellitetoday.com/launch/2025/04/28/amazon-project-kuiper-deployment-begins-with-first-ula-launch/)
 - [Arianespace: OK VA268 Amazon Leo LE-02](https://arianespace.com/)

@@ -38,5 +38,5 @@ image: ./figures/2026-04-28-changzheng-2f-emergency-team-award/hero.jpg
 ## 信息来源（原文）
 
 - [腾讯新闻：长二F火箭应急发射团队荣获「中国青年五四奖章集体」](https://new.qq.com/rain/a/20260428A01QNR00)
-- [新华网：2026年度中国青年五四奖章暨新时代青年先锋奖评选结果揭晓](http://www.news.cn/government/20260427/6f15eac9a02847f582479e3f0022fa6c/c.html)
+- [新华网：2026年度中国青年五四奖章暨新时代青年先锋奖评选结果揭晓](https://www.news.cn/government/20260427/6f15eac9a02847f582479e3f0022fa6c/c.html)
 - [腾讯新闻：北京多名个人和集体获授2026年度中国青年五四奖章](https://new.qq.com/rain/a/20260427A07KK400)

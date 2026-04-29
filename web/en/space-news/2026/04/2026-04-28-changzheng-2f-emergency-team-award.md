@@ -38,5 +38,5 @@ The team has also undertaken the development of launch vehicle support for previ
 ## Sources (original pages)
 
 - [Tencent News: Long March 2F Emergency Launch Team Honored with China Youth May 4 Medal Collective](https://new.qq.com/rain/a/20260428A01QNR00)
-- [Xinhua News: 2026 China Youth May 4 Medal and New Era Youth Pioneer Award Results Announced](http://www.news.cn/government/20260427/6f15eac9a02847f582479e3f0022fa6c/c.html)
+- [Xinhua News: 2026 China Youth May 4 Medal and New Era Youth Pioneer Award Results Announced](https://www.news.cn/government/20260427/6f15eac9a02847f582479e3f0022fa6c/c.html)
 - [Tencent News: Beijing Individuals and Collectives Honored with 2026 China Youth May 4 Medals](https://new.qq.com/rain/a/20260427A07KK400)

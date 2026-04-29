@@ -45,4 +45,4 @@ image: ./figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg
 
 - [国新网：风云四号微波星相关新闻](https://www.sohu.com/a/1015592522_121284943)
 - [腾讯新闻：十五五我国将发射全球首颗静止轨道微波大气探测卫星](https://new.qq.com/rain/a/20260428A03GJB00)
-- [同花顺：十五五新型卫星规划](http://field.10jqka.com.cn/20260428/c676336694.shtml)
+- [同花顺：十五五新型卫星规划](https://field.10jqka.com.cn/20260428/c676336694.shtml)
