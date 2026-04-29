@@ -27,6 +27,8 @@ permalink: /glossary/dynamics/cr3bp/
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+>
+> 校对时间：2026年4月29日
 
 ## 定义
 
@@ -57,6 +59,7 @@ CR3BP 中常采用一套归一化单位（Canonical Units），使得问题求�
 归一化后，CR3BP 的引力参数 $\GM_1 = 1 - \mu$、$\GM_2 = \mu$，两主天体绕公共质心的公转角速度 $\omega = 1$，轨道周期 $T = 2\pi$ TU。在这套单位制下，轨道周期、稳定性分析等量均以归一化单位表示，便于不同系统间的轨道特性对比。
 
 ![地月会合坐标系示意图](/glossary/Figures/CRTBP/地月会合坐标系.png)
+
 *地月会合坐标系：以两个主天体的公共质心为原点，x轴沿 P₁→P₂ 方向，z轴垂直于地月轨道平面*
 
 
@@ -127,9 +130,9 @@ $$\Delta \mathbf{x}_f = \boldsymbol{\Phi} \cdot \Delta \mathbf{x}_0$$
 
 通过对 $\Delta \mathbf{x}_0$ 的选择使 $\Delta \mathbf{x}_f$ 在指定方向上归零，逐步收敛至满足周期条件的轨道。
 
-### 延续法（Continuation）
+### 延拓法（Continuation）
 
-单一打靶往往难以收敛，需配合**弧长延续法**（Arc-length Continuation）逐步接近目标振幅。典型步骤：
+单一打靶往往难以收敛，需配合**弧长延拓法**（Arc-length Continuation）逐步接近目标振幅。典型步骤：
 
 1. 从已知周期解（如 $A_z = 0$ 的平面 Lyapunov 轨道）出发
 2. 逐步增大 $A_z$ 振幅，每步以打靶-修正求解新轨道
@@ -147,7 +150,7 @@ Zimovan (2017) 在 Purdue 大学的博士论文中系统总结了地月 L1/L2 NR
 ## 核心要素
 
 ### 数学定义
-CR3BP 在地月会合坐标系下的动力学方程包含引力项、科里奥利力项和离心力项，质量参数 $\mu = m_2/(m_1 + m_2)$ 描述系统的质量分布。归一化后引力参数 $\GM_1 = 1 - \mu$、$\GM_2 = \mu$，公转角速度 $\omega = 1$。
+CR3BP 在地月会合坐标系下的动力学方程包含引力项、科里奥利力项和离心力项，质量参数 $\mu = m_2/(m_1 + m_2)$ 描述系统的质量分布。归一化后引力参数 $GM_1 = 1 - \mu$、$GM_2 = \mu$，公转角速度 $\omega = 1$。
 
 ### 关键性质
 CR3BP 存在五个平动点（三个共线、两个三角），Jacobi 常数 $C = 2\Omega - v^2$ 是唯一守恒量。零速度曲面的拓扑结构随 $C$ 值变化，限制了航天器的可达区域。
@@ -177,9 +180,14 @@ CR3BP 是地月空间轨道设计的基础模型，可有效研究平动点附�
 
 ## 参考文献
 
-- 张仁勇. 限制性三体问题周期轨道研究综述[J]. 2022.
-- 侯锡云. 平动点的动力学特征及其应用[M]. 2008.
-- 徐明. 基于平动点理论的航天器轨道动力学与控制研究[D]. 2008.
-- Zimovan E M. Characteristics and design strategies for near rectilinear halo orbits within the Earth-Moon system[D]. Purdue University, 2017.
-- Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
-- Klonowski M. Cislunar Space Situational Awareness Architecture Design and Analysis[D]. University of Colorado Boulder, 2025.
+[1] Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025: 103869-103896.
+
+[2] Klonowski M. Cislunar Space Situational Awareness Architecture Design and Analysis[D]. University of Colorado, 2025.
+
+[3] Zimovan E M. Characteristics and design strategies for near rectilinear halo orbits within the Earth-moon system[D]. Purdue University, 2017.
+
+[4] 张仁勇. 深空探测小推力低能转移轨道设计方法研究[D]. 西安: 西北工业大学, 2015.
+
+[5] 徐明. 基于平动点理论的航天器轨道动力学与控制研究[D]. 北京: 北京航空航天大学, 2008.
+
+[6] 侯锡云. 平动点的动力学特征及其应用[D]. 南京: 南京大学, 2008.
