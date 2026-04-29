@@ -50,4 +50,4 @@ image: ./figures/2026-04-29-tianhe-core-module-5th-anniversary/hero.jpg
 
 - [天和核心舱在轨稳定运行五周年 成果一览（我们的太空）](https://www.toutiao.com/article/7634032414745952831/)
 - [天和核心舱在轨运行五周年，中国空间站成果丰硕（DoNews）](https://www.donews.com/news/detail/8/6535526.html)
-- [瞄准2030年前登月目标！中国载人登月主要飞行产品研制进展顺利（搜狐）](http://www.sohu.com/a/1016154451_114760)
+- [瞄准2030年前登月目标！中国载人登月主要飞行产品研制进展顺利（搜狐）](https://www.sohu.com/a/1016154451_114760)

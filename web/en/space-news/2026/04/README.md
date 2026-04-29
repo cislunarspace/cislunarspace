@@ -17,6 +17,7 @@ wechatShare:
 
 | Date | Title |
 |-------|-------|
+| 4-29 | [SpaceX Falcon Heavy to Launch ViaSat-3 F3 Tonight, Returning to Flight After 18 Months](./2026-04-29-falcon-heavy-viasat-3-f3-launch/) |
 | 4-29 | [NASA Administrator Confirms: SpaceX Starship and Blue Origin Blue Moon Lunar Landers Not Ready Until Late 2027](./2026-04-29-artemis-hls-starship-blue-origin-delay/) |
 | 4-29 | [Shenzhou-23 Mission Entering Final Preparations as Jiuquan Launch Site Ramps Up](./2026-04-29-shenzhou-23-preparation/) |
 | 4-29 | [China's Commercial Space Sector Enters Era of Large-Scale Production as Recoverable Rocket Verification Window Opens](./2026-04-29-commercial-recoverable-rocket-window/) |
