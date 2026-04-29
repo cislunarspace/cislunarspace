@@ -514,6 +514,7 @@ const HISTORY_KEY = 'cislunar-chat-history'
 const THEME_KEY = 'cislunar-chat-theme'
 
 function loadChatHistory() {
+  if (typeof window === 'undefined') return []
   try {
     const raw = localStorage.getItem(HISTORY_KEY)
     if (!raw) return []
@@ -538,6 +539,7 @@ function getSystemTheme() {
 }
 
 function loadTheme() {
+  if (typeof window === 'undefined') return false
   try {
     const saved = localStorage.getItem(THEME_KEY)
     if (saved === 'dark') return true
