@@ -19,7 +19,7 @@ twitter:
   title: Birkhoff-Gustavson标准型详解 | 哈密顿系统正则变换
   description: 详细解析Birkhoff-Gustavson标准型的定义、在哈密顿系统正则变换中的应用，以及在地月空间平动点轨道参数化中的作用
   image: /logo.png
-permalink: /glossary/birkhoff-gustavson/
+permalink: /glossary/dynamics/birkhoff-gustavson/
 ---
 
 # Birkhoff-Gustavson标准型
@@ -101,10 +101,10 @@ Qiao et al. (2025) 的方法在此基础上引入了**中心流形理论**，将
 
 ## 相关概念
 
-- [中心流形（Central Manifold）](/glossary/central-manifold/)
-- [正则变换（Canonical Transformation）](/glossary/canonical-transformation/)
-- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
-- [圆型限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
+
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
+- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 李变换（Lie Transformation）
 - 哈密顿系统（Hamiltonian System）
 - Poincaré 截面（Poincaré Section）

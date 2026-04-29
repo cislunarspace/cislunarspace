@@ -15,7 +15,7 @@ twitter:
   title: Spacecraft Intention Recognition | Space Security
   description: Inferring the purpose of a target spacecraft from its orbital behavior and environmental context
   image: /logo.png
-permalink: /en/glossary/spacecraft-intention-recognition/
+permalink: /en/glossary/other/spacecraft-intention-recognition/
 ---
 
 # Spacecraft Intention Recognition
@@ -118,12 +118,12 @@ Fine-tuned models improved accuracy by 58.66%–83.94% over base models, though 
 
 ## Related Concepts
 
-- [Noncooperative Target](/en/glossary/noncooperative-target/)
-- [Clohessy-Wiltshire (CW) Equation](/en/glossary/clohessy-wiltshire/)
-- [Chain-of-Thought (CoT) Prompting](/en/glossary/chain-of-thought-prompting/)
-- [Low-Rank Adaptation (LoRA)](/en/glossary/lora-low-rank-adaptation/)
-- [Prompt Tuning (P-tuning)](/en/glossary/prompt-tuning/)
-- [Space Traffic Management (STM)](/en/glossary/space-traffic-management/)
+- [Noncooperative Target](/en/glossary/other/noncooperative-target/)
+- [Clohessy-Wiltshire (CW) Equation](/en/glossary/dynamics/clohessy-wiltshire/)
+- [Chain-of-Thought (CoT) Prompting](/en/glossary/other/chain-of-thought-prompting/)
+- [Low-Rank Adaptation (LoRA)](/en/glossary/other/lora-low-rank-adaptation/)
+- [Prompt Tuning (P-tuning)](/en/glossary/other/prompt-tuning/)
+- [Space Traffic Management (STM)](/en/glossary/other/space-traffic-management/)
 
 ## References
 

@@ -1,6 +1,8 @@
 ---
 title: NAOC Lunar & Planetary Data Distribution System
 description: Chinese Academy of Sciences National Astronomical Observatory lunar and planetary science data portal
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## Overview

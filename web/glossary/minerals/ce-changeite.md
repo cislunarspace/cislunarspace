@@ -19,7 +19,7 @@ twitter:
   title: 铈嫦娥石 | 地月空间术语词典
   description: 嫦娥五号月球样品中发现的新矿物——铈嫦娥石的详细解析
   image: /logo.png
-permalink: /glossary/ce-changeite/
+permalink: /glossary/minerals/ce-changeite/
 ---
 
 # 铈嫦娥石
@@ -57,7 +57,7 @@ permalink: /glossary/ce-changeite/
 
 ## 相关概念
 
-- [镁嫦娥石（Changeite-Mg）](/glossary/mg-changeite/)
+- [镁嫦娥石（Changeite-Mg）](/glossary/minerals/mg-changeite/)
 - [嫦娥石（Changeite）](/glossary/changeite/)
 - 嫦娥五号
 - 月球矿物学

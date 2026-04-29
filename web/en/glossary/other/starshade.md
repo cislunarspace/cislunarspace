@@ -19,7 +19,7 @@ twitter:
   title: Starshade - Starlight Suppression for Exoplanet Direct Imaging
   description: Detailed explanation of Starshade technology, formation flying with telescopes, and applications in cislunar space
   image: /logo.png
-permalink: /en/glossary/starshade/
+permalink: /en/glossary/other/starshade/
 ---
 
 # Starshade
@@ -87,10 +87,10 @@ Key finding: With a $\Delta v$ budget of 20 m/s, the separation distance must de
 
 ## Related Concepts
 
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)
-- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/eml-halo/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
+- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Direct Imaging of Exoplanets
 - Formation Flying
 

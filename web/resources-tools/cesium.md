@@ -1,6 +1,8 @@
 ---
 title: Cesium
 description: 开源 WebGL 三维地球可视化引擎，支持卫星轨道可视化和时空数据展示
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## 简介

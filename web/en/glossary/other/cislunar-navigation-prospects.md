@@ -19,7 +19,7 @@ twitter:
   title: Cislunar Navigation Prospects | Cislunar Navigation Technology Trends
   description: Analysis of the evolution of cislunar navigation technology from ground-based systems to multi-spacecraft constellation networks and multi-source fusion architectures
   image: /logo.png
-permalink: /en/glossary/cislunar-navigation-prospects/
+permalink: /en/glossary/other/cislunar-navigation-prospects/
 ---
 
 # Cislunar Navigation Prospects
@@ -80,12 +80,12 @@ Taking cislunar hybrid navigation as the core development direction, achieving r
 
 ## Related Concepts
 
-- [GNSS Weak-Signal Navigation](/en/glossary/gnss-weak-signal-navigation/)
-- [Earth-Moon Hybrid Navigation](/en/glossary/earth-moon-hybrid-navigation/)
-- [Lunar Navigation Constellation](/en/glossary/lunar-navigation-constellation/)
-- [Inter-Satellite Link Navigation](/en/glossary/inter-satellite-link-navigation/)
-- [X-ray Pulsar Navigation](/en/glossary/xray-pulsar-navigation/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
+- [GNSS Weak-Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
+- [Earth-Moon Hybrid Navigation](/en/glossary/navigation/earth-moon-hybrid-navigation/)
+- [Lunar Navigation Constellation](/en/glossary/navigation/lunar-navigation-constellation/)
+- [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
+- [X-ray Pulsar Navigation](/en/glossary/navigation/xray-pulsar-navigation/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 
 ## References
 

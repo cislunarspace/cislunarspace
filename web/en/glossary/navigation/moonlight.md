@@ -55,10 +55,10 @@ The Moonlight Initiative is an important representative of the "establishing lun
 
 ## Related Concepts
 
-- [Lunar Navigation Constellation](/en/glossary/lunar-navigation-constellation/)
-- [LunaNet](/en/glossary/lunanet/)
-- [Artemis Program](/en/glossary/artemis/)
-- [LuGRE Experiment](/en/glossary/lugre/)
+- [Lunar Navigation Constellation](/en/glossary/navigation/lunar-navigation-constellation/)
+- [LunaNet](/en/glossary/navigation/lunanet/)
+- [Artemis Program](/en/glossary/programs/artemis/)
+- [LuGRE Experiment](/en/glossary/programs/lugre/)
 - Galileo Satellite Navigation System
 
 ## References

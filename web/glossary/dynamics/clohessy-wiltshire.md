@@ -15,7 +15,7 @@ twitter:
   title: CW方程（Clohessy-Wiltshire方程）| 相对轨道动力学
   description: 描述航天器间相对轨道运动的线性化方程组，广泛用于交会对接与编队飞行
   image: /logo.png
-permalink: /glossary/clohessy-wiltshire/
+permalink: /glossary/dynamics/clohessy-wiltshire/
 ---
 
 # CW方程（Clohessy-Wiltshire方程）
@@ -98,9 +98,9 @@ CW方程与圆形限制性三体问题（CR3BP）都涉及相对运动的描述�
 
 ## 相关概念
 
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
-- [航天器意图识别](/glossary/spacecraft-intention-recognition/)
-- [非合作目标](/glossary/noncooperative-target/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [航天器意图识别](/glossary/other/spacecraft-intention-recognition/)
+- [非合作目标](/glossary/other/noncooperative-target/)
 
 ## 参考文献
 

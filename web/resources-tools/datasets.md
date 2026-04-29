@@ -7,7 +7,7 @@ date: 2026-03-07
 lastUpdated: 2026-04-26
 wechatShare:
   title: 地月空间数据集资源
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: JPL星历、月球重力场模型、空间环境参数等核心数据集下载与使用指南。
   image: /logo.png
 og:
   title: 地月空间研究数据集资源大全 | 星历、轨道、环境数据下载

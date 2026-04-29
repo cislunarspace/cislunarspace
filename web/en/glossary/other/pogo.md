@@ -19,7 +19,7 @@ twitter:
   title: Longitudinal Coupling Vibration (POGO) | Liquid Rocket Dynamics
   description: "Detailed analysis of POGO: definition, generation mechanism, effects on liquid rockets, and suppression techniques"
   image: /logo.png
-permalink: /en/glossary/pogo/
+permalink: /en/glossary/other/pogo/
 ---
 
 # Longitudinal Coupling Vibration (POGO)
@@ -65,7 +65,7 @@ Reusable rockets introduce new complexity to POGO suppression:
 
 ## Related Concepts
 
-- [Nuclear Thermal Propulsion (NTP)](/en/glossary/nuclear-thermal-propulsion/)
+- [Nuclear Thermal Propulsion (NTP)](/en/glossary/other/nuclear-thermal-propulsion/)
 
 ## References
 

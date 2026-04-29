@@ -44,9 +44,9 @@ Tiandu-1 verified the feasibility of achieving high-precision laser measurement 
 
 ## Related Concepts
 
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Inter-Satellite Link Navigation](/en/glossary/inter-satellite-link-navigation/)
-- [Earth-Moon Hybrid Navigation](/en/glossary/earth-moon-hybrid-navigation/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
+- [Earth-Moon Hybrid Navigation](/en/glossary/navigation/earth-moon-hybrid-navigation/)
 
 ## References
 

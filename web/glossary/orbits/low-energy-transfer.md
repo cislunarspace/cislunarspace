@@ -78,7 +78,7 @@ permalink: /glossary/orbits/low-energy-transfer/
 - **未来交通体系**：低能量转移将构成未来地月空间交通体系的重要组成部分
 
 ## 相关概念
-- [不变流形（Invariant Manifold）](/glossary/invariant-manifold/)
+
 - [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
 - [弹道捕获轨道（Ballistic Capture Orbit）](/glossary/orbits/ballistic-capture/)
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)

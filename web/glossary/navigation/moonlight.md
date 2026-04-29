@@ -19,7 +19,7 @@ twitter:
   title: 月光计划详解 | ESA月球导航星座
   description: 解析欧洲航天局推进的独立月球导航星座计划，由5颗卫星组成，为月球探索提供通信导航服务
   image: /logo.png
-permalink: /glossary/moonlight/
+permalink: /glossary/navigation/moonlight/
 ---
 
 # 月光计划
@@ -55,10 +55,10 @@ permalink: /glossary/moonlight/
 
 ## 相关概念
 
-- [月球导航星座](/glossary/lunar-navigation-constellation/)
-- [LunaNet](/glossary/lunanet/)
-- [阿尔忒弥斯计划](/glossary/artemis/)
-- [LuGRE 实验](/glossary/lugre/)
+- [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
+- [LunaNet](/glossary/navigation/lunanet/)
+- [阿尔忒弥斯计划](/glossary/programs/artemis/)
+- [LuGRE 实验](/glossary/programs/lugre/)
 - 伽利略卫星导航系统
 
 ## 参考文献

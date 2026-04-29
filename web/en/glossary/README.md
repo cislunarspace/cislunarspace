@@ -44,35 +44,53 @@ The number of entries is still growing. At the current stage, we prioritize high
 
 ### Dynamical Models
 
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
-- [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
-- [Central Manifold](/en/glossary/central-manifold/)
-- [Action-Angle Variables](/en/glossary/action-angle/)
-- [Poincaré Section](/en/glossary/poincare-section/)
-- [Clohessy-Wiltshire (CW) Equation](/en/glossary/clohessy-wiltshire/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
+- [Central Manifold](/en/glossary/dynamics/central-manifold/)
+- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
+- [Poincaré Section](/en/glossary/dynamics/poincare-section/)
+- [Clohessy-Wiltshire (CW) Equation](/en/glossary/dynamics/clohessy-wiltshire/)
+- [Libration Point (Equilibrium Point)](/en/glossary/dynamics/libration-point/)
+- [Jacobi Constant (Jacobi Integral)](/en/glossary/dynamics/jacobi-integral/)
+- [State Transition Matrix (STM)](/en/glossary/dynamics/state-transition-matrix/)
+- [Monodromy Matrix](/en/glossary/dynamics/monodromy-matrix/)
+- [Stability Index](/en/glossary/dynamics/stability-index/)
+- [Chaos Effect](/en/glossary/dynamics/chaos-effect/)
+- [Two-Level Differential Correction Method](/en/glossary/dynamics/two-level-differential-correction/)
+- [Shooting Method](/en/glossary/dynamics/shooting-method/)
+- [Continuation Method (Parameter Continuation)](/en/glossary/dynamics/continuation-method/)
+- [Patch Point (Splicing Point)](/en/glossary/dynamics/patch-point/)
+- [Targeting Method](/en/glossary/dynamics/targeting-method/)
+- [Dynamic Target Method](/en/glossary/dynamics/dynamic-target-method/)
+- [Initial Value Optimization](/en/glossary/dynamics/initial-value-optimization/)
+- [Solar Radiation Pressure (SRP)](/en/glossary/dynamics/solar-radiation-pressure/)
+- [Differential Evolution (DE) Algorithm](/en/glossary/dynamics/differential-evolution/)
 
 ### Mission Orbits
 
-- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/eml-halo/)
-- [Orbit Identification](/en/glossary/orbit-identification/)
+- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
+- [Orbit Identification](/en/glossary/orbits/orbit-identification/)
+- [Quasi-Periodic Orbit](/en/glossary/orbits/quasi-periodic-orbit/)
+- [Resonance Orbit](/en/glossary/orbits/resonance-orbit/)
+- [Orbit Keeping (Station-Keeping)](/en/glossary/orbits/orbit-keeping/)
 
 ### Navigation
 
-- [X-ray Pulsar Navigation](/en/glossary/xray-pulsar-navigation/)
+- [X-ray Pulsar Navigation](/en/glossary/navigation/xray-pulsar-navigation/)
 
 ### Lunar Minerals
 
-- [Changeite-Mg (Magnesium Changeite)](/en/glossary/mg-changeite/)
-- [Changeite-Ce (Cerium Changeite)](/en/glossary/ce-changeite/)
+- [Changeite-Mg (Magnesium Changeite)](/en/glossary/minerals/mg-changeite/)
+- [Changeite-Ce (Cerium Changeite)](/en/glossary/minerals/ce-changeite/)
 
 ### Other
 
-- [Starshade](/en/glossary/starshade/)
-- [Noncooperative Target](/en/glossary/noncooperative-target/)
-- [Spacecraft Intention Recognition](/en/glossary/spacecraft-intention-recognition/)
-- [Chain-of-Thought (CoT) Prompting](/en/glossary/chain-of-thought-prompting/)
-- [Low-Rank Adaptation (LoRA)](/en/glossary/lora-low-rank-adaptation/)
-- [Prompt Tuning (P-tuning)](/en/glossary/prompt-tuning/)
+- [Starshade](/en/glossary/other/starshade/)
+- [Noncooperative Target](/en/glossary/other/noncooperative-target/)
+- [Spacecraft Intention Recognition](/en/glossary/other/spacecraft-intention-recognition/)
+- [Chain-of-Thought (CoT) Prompting](/en/glossary/other/chain-of-thought-prompting/)
+- [Low-Rank Adaptation (LoRA)](/en/glossary/other/lora-low-rank-adaptation/)
+- [Prompt Tuning (P-tuning)](/en/glossary/other/prompt-tuning/)
 
 ### Organizations
 
@@ -110,6 +128,7 @@ The number of entries is still growing. At the current stage, we prioritize high
 - [Resilient/Disaggregated Architecture](/en/glossary/doctrine/resilient-architecture/)
 - [Operational Test and Training Infrastructure (OTTI)](/en/glossary/doctrine/otti/)
 - [Golden Dome](/en/glossary/doctrine/golden-dome/)
+- [Cislunar Space Situational Awareness](/en/glossary/doctrine/cislunar-space-situational-awareness/)
 
 ### Observation Techniques
 
@@ -127,10 +146,46 @@ The number of entries is still growing. At the current stage, we prioritize high
 - [Background Star Elimination](/en/glossary/observation/background-star-elimination/)
 - [Segmentation Map](/en/glossary/observation/segmentation-map/)
 - [Hot Pixel](/en/glossary/observation/hot-pixel/)
+- [Continuous Coverage (CP)](/en/glossary/observation/continuous-coverage/)
+
+### DRO Orbit Design and Control
+
+- [Impulse Thrust](/en/glossary/other/impulse-thrust/)
+- [Floquet Mode Method](/en/glossary/other/floquet-mode/)
+- [Solar Constant (S₀)](/en/glossary/other/solar-constant/)
+- [Reflection Coefficient (C_R)](/en/glossary/other/reflection-coefficient/)
+- [Insertion Error](/en/glossary/other/insertion-error/)
+- [Navigation Error](/en/glossary/other/navigation-error/)
+- [Actuator Error](/en/glossary/other/actuator-error/)
+- [Period-Doubling Bifurcation](/en/glossary/other/period-doubling-bifurcation/)
+
+### Satellite Communication & TT&C
+
+- [BeiDou Satellite System](/en/glossary/communication/beidou-satellite-system/)
+- [Inter-Satellite Link (ISL)](/en/glossary/communication/inter-satellite-link/)
+- [All-Time Seamless Communication](/en/glossary/communication/all-time-seamless-communication/)
+- [Constellation Networking](/en/glossary/communication/constellation-networking/)
+- [Microwave Link](/en/glossary/communication/microwave-link/)
+- [Laser-Microwave Communication](/en/glossary/communication/laser-microwave-communication/)
 
 ## Update Note
 
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
+
+**2026-04-29 Update (IV)**: New "Satellite Communication & TT&C" section with 6 entries based on Duan et al. (2026) on full-time cislunar communication using BeiDou satellites:
+- BeiDou Satellite System
+- Inter-Satellite Link (ISL)
+- All-Time Seamless Communication
+- Constellation Networking
+- Microwave Link
+- Laser-Microwave Communication
+
+**2026-04-29 Update (III)**: 29 new entries based on Chen Yuju (2024) dissertation on DRO orbit design and control for cislunar space situational awareness:
+- Dynamical Models: Libration Point, Jacobi Constant, State Transition Matrix, Monodromy Matrix, Stability Index, Chaos Effect, Two-Level Differential Correction, Shooting Method, Continuation Method, Patch Point, Targeting Method, Dynamic Target Method, Initial Value Optimization, Solar Radiation Pressure, Differential Evolution
+- Mission Orbits: Quasi-Periodic Orbit, Resonance Orbit, Orbit Keeping
+- Military Doctrine: Cislunar Space Situational Awareness
+- Observation Techniques: Continuous Coverage
+- DRO Orbit Design and Control: Impulse Thrust, Floquet Mode, Solar Constant, Reflection Coefficient, Insertion Error, Navigation Error, Actuator Error, Period-Doubling Bifurcation
 
 **2026-04-29 Update (II)**: New "Observation Techniques" section with 14 entries based on Sun et al. (2026) on optical survey for cislunar moving objects:
 - Image Stacking, Shift-and-Add (SAA), Synthetic Tracking, Sidereal Tracking

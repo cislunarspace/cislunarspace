@@ -19,7 +19,7 @@ twitter:
   title: 星伞（Starshade）详解 | 系外行星直接成像的遮光技术
   description: 详细解析星伞的定义、工作原理、在地月空间任务中的应用，以及与望远镜的编队飞行构型
   image: /logo.png
-permalink: /glossary/starshade/
+permalink: /glossary/other/starshade/
 ---
 
 # 星伞
@@ -89,10 +89,10 @@ Genszler et al. (2026) 研究了在地月空间轨道上部署星伞技术演示
 
 ## 相关概念
 
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [近直线晕轨道（NRHO）](/glossary/nrho/)
-- [地月 L1/L2 晕轨道](/glossary/eml-halo/)
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [地月 L1/L2 晕轨道](/glossary/orbits/eml-halo/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 系外行星直接成像（Direct Imaging）
 - 编队飞行（Formation Flying）
 

@@ -15,14 +15,14 @@ twitter:
   title: 低推力转移的MDP formulation
   description: 将地月空间低推力轨道转移问题形式化为有限horizon马尔可夫决策过程
   image: /logo.png
-permalink: /glossary/lt-transfer-mdp/
+permalink: /glossary/dynamics/lt-transfer-mdp/
 ---
 
 # 低推力转移的马尔可夫决策过程（MDP）formulation
 
 ## 定义
 
-在 A2PPO 等深度强化学习框架中，地月空间低推力轨道转移问题被形式化为有限horizon马尔可夫决策过程（MDP），定义为元组 $(S, A, p, R, \gamma)$，其中 $S$ 为状态空间，$A$ 为动作空间，$p(s'|s,a)$ 为状态转移概率，$R$ 为奖励函数，$\gamma \in [0,1]$ 为折扣因子[[1]]()。
+在 A2PPO 等深度强化学习框架中，地月空间低推力轨道转移问题被形式化为有限horizon马尔可夫决策过程（MDP），定义为元组 $(S, A, p, R, \gamma)$，其中 $S$ 为状态空间，$A$ 为动作空间，$p(s'|s,a)$ 为状态转移概率，$R$ 为奖励函数，$\gamma \in [0,1]$ 为折扣因子。
 
 ## 状态空间设计
 
@@ -117,4 +117,4 @@ $$
 
 ## 参考文献
 
-- [[1]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

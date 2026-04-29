@@ -15,7 +15,7 @@ twitter:
   title: Clohessy-Wiltshire (CW) Equation | Relative Orbital Dynamics
   description: Linearized equations of relative orbital motion between two spacecraft, used in rendezvous and formation flying
   image: /logo.png
-permalink: /en/glossary/clohessy-wiltshire/
+permalink: /en/glossary/dynamics/clohessy-wiltshire/
 ---
 
 # Clohessy-Wiltshire (CW) Equation
@@ -98,9 +98,9 @@ In cislunar missions, CW equations are used for relative motion analysis near sp
 
 ## Related Concepts
 
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
-- [Spacecraft Intention Recognition](/en/glossary/spacecraft-intention-recognition/)
-- [Noncooperative Target](/en/glossary/noncooperative-target/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [Spacecraft Intention Recognition](/en/glossary/other/spacecraft-intention-recognition/)
+- [Noncooperative Target](/en/glossary/other/noncooperative-target/)
 
 ## References
 

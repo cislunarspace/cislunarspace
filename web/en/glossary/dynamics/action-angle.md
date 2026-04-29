@@ -97,11 +97,11 @@ This shows that under action-angle variables, the motion on the central manifold
 
 ## Related Concepts
 
-- [Central Manifold](/en/glossary/central-manifold/)
-- [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
-- [Poincare Section](/en/glossary/poincare-section/)
-- [Canonical Transformation](/en/glossary/canonical-transformation/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Central Manifold](/en/glossary/dynamics/central-manifold/)
+- [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
+- [Poincare Section](/en/glossary/dynamics/poincare-section/)
+
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Invariant Torus
 - Integrable System
 

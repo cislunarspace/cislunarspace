@@ -47,10 +47,10 @@ LunaNet has technical cooperation and competition relationships with ESA's Moonl
 
 ## Related Concepts
 
-- [Artemis Program](/en/glossary/artemis/)
-- [Moonlight Initiative](/en/glossary/moonlight/)
-- [Lunar Navigation Constellation](/en/glossary/lunar-navigation-constellation/)
-- [Earth GNSS Weak Signal Navigation](/en/glossary/gnss-weak-signal-navigation/)
+- [Artemis Program](/en/glossary/programs/artemis/)
+- [Moonlight Initiative](/en/glossary/navigation/moonlight/)
+- [Lunar Navigation Constellation](/en/glossary/navigation/lunar-navigation-constellation/)
+- [Earth GNSS Weak Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
 
 ## References
 

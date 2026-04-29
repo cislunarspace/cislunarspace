@@ -19,7 +19,7 @@ twitter:
   title: DRO三星座详解 | 全球首个地月空间三星星座
   description: 解析中国2025年4月成功部署的全球首个基于远距离逆行轨道的地月空间三星星座，实现DRO低能耗入轨与K频段星间链路验证
   image: /logo.png
-permalink: /glossary/dro-constellation/
+permalink: /glossary/orbits/dro-constellation/
 ---
 
 # DRO 三星座
@@ -52,11 +52,11 @@ DRO 三星星座为大规模地月空间开发利用开辟了新路径，基于�
 
 ## 相关概念
 
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [星间链路导航](/glossary/inter-satellite-link-navigation/)
-- [天都一号](/glossary/tiandu-1/)
-- [地月混合导航](/glossary/earth-moon-hybrid-navigation/)
-- [鹊桥中继卫星](/glossary/queqiao/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
+- [天都一号](/glossary/navigation/tiandu-1/)
+- [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
+
 
 ## 参考文献
 

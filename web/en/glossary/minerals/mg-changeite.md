@@ -19,7 +19,7 @@ twitter:
   title: Changeite-Mg | Cislunar Space Glossary
   description: Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples
   image: /logo.png
-permalink: /en/glossary/mg-changeite/
+permalink: /en/glossary/minerals/mg-changeite/
 ---
 
 # Changeite-Mg (Magnesium Changeite)
@@ -55,8 +55,8 @@ The discovery of Changeite-Mg holds the following scientific value:
 
 ## Related Concepts
 
-- [Changeite-Ce (Cerium Changeite)](/en/glossary/ce-changeite/)
-- [Changeite](/en/glossary/changeite/)
+- [Changeite-Ce (Cerium Changeite)](/en/glossary/minerals/ce-changeite/)
+
 - Chang'e-5
 - Lunar mineralogy
 - Lunar basalt

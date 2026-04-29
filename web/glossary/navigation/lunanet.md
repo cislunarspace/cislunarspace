@@ -19,7 +19,7 @@ twitter:
   title: 月球网LunaNet详解 | 月球通信导航架构
   description: 解析美国主导的月球通信导航一体化架构规划，为登月航天员及探测车提供高精度空间位置信息服务
   image: /logo.png
-permalink: /glossary/lunanet/
+permalink: /glossary/navigation/lunanet/
 ---
 
 # 月球网（LunaNet）
@@ -47,10 +47,10 @@ LunaNet 与 ESA 的月光计划（Moonlight）、日本的 LNSS 在技术上存�
 
 ## 相关概念
 
-- [阿尔忒弥斯计划](/glossary/artemis/)
-- [月光计划](/glossary/moonlight/)
-- [月球导航星座](/glossary/lunar-navigation-constellation/)
-- [地球 GNSS 弱信号导航](/glossary/gnss-weak-signal-navigation/)
+- [阿尔忒弥斯计划](/glossary/programs/artemis/)
+- [月光计划](/glossary/navigation/moonlight/)
+- [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
+- [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
 
 ## 参考文献
 

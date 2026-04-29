@@ -19,7 +19,7 @@ twitter:
   title: 中心流形详解 | CR3BP平动点轨道参数化
   description: 详细解析中心流形理论在CR3BP平动点轨道参数化中的作用，以及双曲方向与中心方向的解耦方法
   image: /logo.png
-permalink: /glossary/central-manifold/
+permalink: /glossary/dynamics/central-manifold/
 ---
 
 # 中心流形
@@ -117,11 +117,11 @@ Qiao et al. (2025) 利用中心流形理论建立了地月空间共线平动点�
 
 ## 相关概念
 
-- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
-- [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)
-- [正则变换（Canonical Transformation）](/glossary/canonical-transformation/)
-- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
-- [圆型限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
+- [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
+
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
+- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 双曲不变流形（Hyperbolic Invariant Manifold）
 - 稳定/不稳定流形（Stable/Unstable Manifold）
 - Halo 轨道（Lissajous 轨道）

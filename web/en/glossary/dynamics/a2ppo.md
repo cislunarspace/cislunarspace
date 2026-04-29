@@ -15,14 +15,14 @@ twitter:
   title: A2PPO (Attention-Augmented Proximal Policy Optimization)
   description: A deep reinforcement learning framework integrating directional cross-attention into Actor-Critic policies
   image: /logo.png
-permalink: /en/glossary/a2ppo/
+permalink: /en/glossary/dynamics/a2ppo/
 ---
 
 # A2PPO (Attention-Augmented Proximal Policy Optimization)
 
 ## Definition
 
-A2PPO is a Deep Reinforcement Learning (DRL) framework for low-thrust trajectory optimization in cislunar space, proposed by Ul Haq, Dai, Du et al. in 2026[[1]](). Its core innovation lies in integrating a **directional cross-attention mechanism** into the Actor-Critic architecture of the standard PPO (Proximal Policy Optimization) algorithm, enabling the policy network to selectively attend to state features that the Critic network deems important for future value, thereby improving learning stability and sample efficiency in chaotic multi-body dynamical environments.
+A2PPO is a Deep Reinforcement Learning (DRL) framework for low-thrust trajectory optimization in cislunar space, proposed by Ul Haq, Dai, Du et al. in 2026. Its core innovation lies in integrating a **directional cross-attention mechanism** into the Actor-Critic architecture of the standard PPO (Proximal Policy Optimization) algorithm, enabling the policy network to selectively attend to state features that the Critic network deems important for future value, thereby improving learning stability and sample efficiency in chaotic multi-body dynamical environments.
 
 ## Algorithm Architecture
 
@@ -83,10 +83,10 @@ Without any initial guess, A2PPO autonomously learns trajectories highly consist
 - **Standard PPO**: A2PPO adds a directional cross-attention module on top of standard PPO, with both training convergence speed and final reward significantly outperforming Vanilla PPO
 - **SAC (Soft Actor-Critic)**: As a comparison baseline, A2PPO wins with shorter time and less fuel in multi-revolution transfer scenarios
 - **GTrXL**: Another Transformer-enhanced RL method; A2PPO's cross-attention mechanism differs, focusing on Actor-Critic feature fusion
-- [Generalized Advantage Estimation (GAE)](/en/glossary/gae/): A key component for advantage function estimation in A2PPO
-- [Curriculum Learning](/en/glossary/curriculum-learning/): The progressive training strategy employed by A2PPO
-- [Low-Thrust Transfer MDP](/en/glossary/lt-transfer-mdp/): The problem formulation framework for A2PPO
+- [Generalized Advantage Estimation (GAE)](/en/glossary/dynamics/gae/): A key component for advantage function estimation in A2PPO
+- [Curriculum Learning](/en/glossary/dynamics/curriculum-learning/): The progressive training strategy employed by A2PPO
+- [Low-Thrust Transfer MDP](/en/glossary/dynamics/lt-transfer-mdp/): The problem formulation framework for A2PPO
 
 ## References
 
-- [[1]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning. Aerospace Science and Technology, 2026.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning. Aerospace Science and Technology, 2026.

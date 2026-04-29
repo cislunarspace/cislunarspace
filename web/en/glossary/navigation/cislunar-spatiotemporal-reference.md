@@ -65,12 +65,12 @@ The application of the spatiotemporal reference depends on precise transfer and 
 
 ## Related Concepts
 
-- [Ephemeris Model](/en/glossary/ephemeris-model/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
-- [Quasi-Bicircular Four-Body Problem (QBCP)](/en/glossary/qbcp/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Near Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)
-- [Earth-Moon L1/L2 Halo Orbit](/en/glossary/eml-halo/)
+- [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [Quasi-Bicircular Four-Body Problem (QBCP)](/en/glossary/dynamics/qbcp/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Near Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
+- [Earth-Moon L1/L2 Halo Orbit](/en/glossary/orbits/eml-halo/)
 
 ## References
 

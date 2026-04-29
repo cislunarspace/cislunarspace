@@ -19,7 +19,7 @@ twitter:
   title: 阿尔忒弥斯计划详解 | NASA载人登月项目
   description: 解析NASA主导的载人航天项目，旨在将宇航员送上月球并建立长期探索机制，包括Artemis I/II/III任务规划
   image: /logo.png
-permalink: /glossary/artemis/
+permalink: /glossary/programs/artemis/
 ---
 
 # 阿尔忒弥斯计划
@@ -46,11 +46,11 @@ permalink: /glossary/artemis/
 
 ## 相关概念
 
-- [LuGRE 实验](/glossary/lugre/)
-- [月光计划](/glossary/moonlight/)
-- [LunaNet](/glossary/lunanet/)
-- [月球导航星座](/glossary/lunar-navigation-constellation/)
-- [地球 GNSS 弱信号导航](/glossary/gnss-weak-signal-navigation/)
+- [LuGRE 实验](/glossary/programs/lugre/)
+- [月光计划](/glossary/navigation/moonlight/)
+- [LunaNet](/glossary/navigation/lunanet/)
+- [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
+- [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
 
 ## 参考文献
 

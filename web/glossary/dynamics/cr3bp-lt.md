@@ -15,7 +15,7 @@ twitter:
   title: 低推力增强圆形限制性三体问题（CR3BP-LT）
   description: 标准CR3BP模型加入了低推力加速度项的扩展
   image: /logo.png
-permalink: /glossary/cr3bp-lt/
+permalink: /glossary/dynamics/cr3bp-lt/
 ---
 
 # 低推力增强圆形限制性三体问题（CR3BP-LT）
@@ -24,7 +24,7 @@ permalink: /glossary/cr3bp-lt/
 
 ## 定义
 
-CR3BP-LT 是标准圆形限制性三体问题（Circular Restricted Three-Body Problem, CR3BP）的扩展，通过在 spacecraft 的运动方程中加入连续低推力加速度项，用以研究电推进、离子推进等低推力推进系统的轨道转移问题[[1]]()。该模型由 Ul Haq 等人在 2026 年的 A2PPO 研究中正式提出并系统应用。
+CR3BP-LT 是标准圆形限制性三体问题（Circular Restricted Three-Body Problem, CR3BP）的扩展，通过在 spacecraft 的运动方程中加入连续低推力加速度项，用以研究电推进、离子推进等低推力推进系统的轨道转移问题。该模型由 Ul Haq 等人在 2026 年的 A2PPO 研究中正式提出并系统应用。
 
 ## 动力学方程
 
@@ -80,5 +80,5 @@ CR3BP-LT 模型是 A2PPO 等深度强化学习方法用于低推力轨迹优化�
 
 ## 参考文献
 
-- [[1]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
-- [[2]]() Du C, Song L, Zhang J, et al. A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem[J]. Aerospace Science and Technology, 2024.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Du C, Song L, Zhang J, et al. A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem[J]. Aerospace Science and Technology, 2024.

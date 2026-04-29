@@ -16,6 +16,16 @@ description: 地月空间航天器编队飞行的动力学、控制与应用
 - DRO 编队设计
 - 编队自主导航
 
+# 地月空间望远镜-星冕仪编队飞行
+
+星冕仪（starshade）是地月空间编队飞行技术的一个新兴应用场景。星冕仪本质上是一个巨大的人工"花朵"状遮挡器，和望远镜编队飞行，沿视线方向遮挡恒星的光芒，同时让来自侧向的系外行星光线通过，从而实现高对比度直接成像。该技术尚未在实际任务中使用，技术验证是当前研究重点。
+
+## 代表性文献
+
+[1] Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. Acta Astronautica, 2026, 244: 445-455.
+
+> 本文系统勘测了地月空间三类典型轨道（DRO、EML1 晕轨道、EML2 晕轨道）上望远镜-星冕仪编队飞行的可行性。研究表明：120,000 km 分离距离下，最小 slew Δv 达 216.55 m/s，比日地 L2 晕轨道大三个数量级，主因是地月系统差分引力加速度比日地系统大约 180 倍。地月空间 full science mission 不可行，但 60 m/s 以内、3 次 slew 的技术验证任务是现实目标。星冕仪-starshade 的 GitHub 仓库（EXOSIMS）中包含了光压摄动的具体实现代码，可供参考。
+
 ## 子方向导航
 
 *待添加*

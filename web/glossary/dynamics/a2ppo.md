@@ -15,7 +15,7 @@ twitter:
   title: A2PPO（注意力增强近端策略优化）
   description: 一种将方向交叉注意力机制集成到Actor-Critic策略中的深度强化学习框架
   image: /logo.png
-permalink: /glossary/a2ppo/
+permalink: /glossary/dynamics/a2ppo/
 ---
 
 # A2PPO（注意力增强近端策略优化）
@@ -24,7 +24,7 @@ permalink: /glossary/a2ppo/
 
 ## 定义
 
-A2PPO 是一种面向地月空间低推力轨迹优化的深度强化学习（Deep Reinforcement Learning, DRL）框架，由 Ul Haq、Dai、Du 等人于 2026 年提出[[1]]()。其核心创新在于将**方向交叉注意力机制**（directional cross-attention mechanism）集成到标准 PPO（Proximal Policy Optimization）算法的 Actor-Critic 架构中，使策略网络能够选择性关注 Critic 网络认为对未来价值重要的状态特征，从而提升混沌多体动力学环境中的学习稳定性和样本效率。
+A2PPO 是一种面向地月空间低推力轨迹优化的深度强化学习（Deep Reinforcement Learning, DRL）框架，由 Ul Haq、Dai、Du 等人于 2026 年提出。其核心创新在于将**方向交叉注意力机制**（directional cross-attention mechanism）集成到标准 PPO（Proximal Policy Optimization）算法的 Actor-Critic 架构中，使策略网络能够选择性关注 Critic 网络认为对未来价值重要的状态特征，从而提升混沌多体动力学环境中的学习稳定性和样本效率。
 
 ## 算法架构
 
@@ -85,10 +85,10 @@ A2PPO 在无任何初始猜测的条件下，自主学习到的轨迹与直接�
 - **标准 PPO**：A2PPO 在标准 PPO 基础上增加了方向交叉注意力模块，训练收敛速度和最终奖励均显著优于 Vanilla PPO
 - **SAC（Soft Actor-Critic）**：作为对比基线，A2PPO 在多圈转移场景中以更短的时间和更少的燃料胜出
 - **GTrXL**：另一种 Transformer 增强的 RL 方法，A2PPO 的交叉注意力机制与其不同，专注于 Actor-Critic 间的特征融合
-- [广义优势估计（GAE）](/glossary/gae/)：A2PPO 中用于优势函数估计的关键组件
-- [课程学习（Curriculum Learning）](/glossary/curriculum-learning/)：A2PPO 采用的渐进式训练策略
-- [低推力转移 MDP](/glossary/lt-transfer-mdp/)：A2PPO 的问题形式化框架
+- [广义优势估计（GAE）](/glossary/dynamics/gae/)：A2PPO 中用于优势函数估计的关键组件
+- [课程学习（Curriculum Learning）](/glossary/dynamics/curriculum-learning/)：A2PPO 采用的渐进式训练策略
+- [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)：A2PPO 的问题形式化框架
 
 ## 参考文献
 
-- [[1]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning. Aerospace Science and Technology, 2026.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning. Aerospace Science and Technology, 2026.

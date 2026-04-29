@@ -19,7 +19,7 @@ twitter:
   title: 地月L1/L2晕轨道详解 | 平动点晕轨道在星伞任务中的应用
   description: 详细解析地月L1和L2点晕轨道的定义、动力学特性、稳定性分析及其在星伞任务和技术演示中的应用
   image: /logo.png
-permalink: /glossary/eml-halo/
+permalink: /glossary/orbits/eml-halo/
 ---
 
 # 地月 L1/L2 晕轨道
@@ -108,7 +108,7 @@ Genszler et al. (2026) 研究了将望远镜部署在 EML1/EML2 晕轨道进行*
 
 ## 在 A2PPO 低推力转移研究中的应用
 
-Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了 L₂ 晕轨道之间的自主低推力转移[[5]]()：
+Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了 L₂ 晕轨道之间的自主低推力转移：
 
 - **S1 场景**：两条不同能量级 L₂ 南晕轨道之间的转移（$C_J: 3.1211 \rightarrow 3.0698$，周期从 14.55 天缩短至 13.81 天），转移时间 4.95 天，消耗 2.08 kg 推进剂
 - **S4 场景**：在极低推力（$T_{\max} = 0.01$ N）条件下的多圈晕轨道转移（~33.6 天），消耗 0.97 kg 推进剂
@@ -117,12 +117,12 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 
 ## 相关概念
 
-- [近直线晕轨道（NRHO）](/glossary/nrho/)
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [A2PPO（注意力增强近端策略优化）](/glossary/a2ppo/)
-- [地月平动点](/glossary/eml-halo/)（注意：本文即为此概念详情）
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
-- [星伞（Starshade）](/glossary/starshade/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
+- [地月平动点](/glossary/orbits/eml-halo/)（注意：本文即为此概念详情）
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [星伞（Starshade）](/glossary/other/starshade/)
 - 微分修正（Differential Correction）
 - 打靶法（Shooting Method）
 
@@ -133,4 +133,4 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 - Zimovan E M. Characteristics and design strategies for near rectilinear halo orbits within the Earth-Moon system[D]. Purdue University, 2017.
 - Folta D C, Pavlak T A, Haapala A F, et al. Preliminary design considerations for access and operations in Earth-Moon L1/L2 orbits[C]. AAS/AIAA Spaceflight Mechanics Meeting, 2013.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. IEEE Aerospace Conference, 2016.
-- [[5]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

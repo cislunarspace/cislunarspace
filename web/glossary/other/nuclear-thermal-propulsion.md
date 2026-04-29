@@ -19,7 +19,7 @@ twitter:
   title: 核热推进(NTP)详解 | 深空推进技术
   description: 详细解析核热推进的基本原理、固体堆芯与液体堆芯的技术差异，及其在载人深空探测中的应用前景
   image: /logo.png
-permalink: /glossary/nuclear-thermal-propulsion/
+permalink: /glossary/other/nuclear-thermal-propulsion/
 ---
 
 # 核热推进（NTP）
@@ -70,7 +70,7 @@ permalink: /glossary/nuclear-thermal-propulsion/
 
 ## 相关概念
 
-- [纵向耦合振动（POGO）](/glossary/pogo/)
+- [纵向耦合振动（POGO）](/glossary/other/pogo/)
 
 ## 参考文献
 

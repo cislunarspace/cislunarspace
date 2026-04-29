@@ -15,7 +15,7 @@ twitter:
   title: 提示调优（P-tuning）| 大模型高效微调
   description: 通过可学习的软提示token实现参数高效的大模型微调
   image: /logo.png
-permalink: /glossary/prompt-tuning/
+permalink: /glossary/other/prompt-tuning/
 ---
 
 # 提示调优（Prompt Tuning / P-tuning）
@@ -83,9 +83,9 @@ $$
 
 ## 相关概念
 
-- [低秩适配（LoRA）](/glossary/lora-low-rank-adaptation/)
-- [思维链提示（CoT）](/glossary/chain-of-thought-prompting/)
-- [航天器意图识别](/glossary/spacecraft-intention-recognition/)
+- [低秩适配（LoRA）](/glossary/other/lora-low-rank-adaptation/)
+- [思维链提示（CoT）](/glossary/other/chain-of-thought-prompting/)
+- [航天器意图识别](/glossary/other/spacecraft-intention-recognition/)
 
 ## 参考文献
 

@@ -19,7 +19,7 @@ twitter:
   title: 拟双圆四体问题 QBCP 模型详解 - 地月空间高精度动力学模型
   description: 详细解析拟双圆四体问题 QBCP 模型的定义、哈密顿函数、在地月空间中的应用及其与CRTBP的关系
   image: /logo.png
-permalink: /glossary/qbcp/
+permalink: /glossary/dynamics/qbcp/
 ---
 
 # 拟双圆四体问题
@@ -72,9 +72,9 @@ QBCP 为从简化模型向高精度星历模型的过渡提供了良好的中间
 
 ## 相关概念
 
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 双圆限制性问题（BCP）
-- [星历模型](/glossary/ephemeris-model/)
+- [星历模型](/glossary/dynamics/ephemeris-model/)
 - 同伦法
 
 ## 参考文献

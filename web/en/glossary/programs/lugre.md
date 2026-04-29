@@ -46,9 +46,9 @@ The LuGRE experiment demonstrates the engineering feasibility of GNSS weak-signa
 
 ## Related Concepts
 
-- [Earth GNSS Weak-Signal Navigation](/en/glossary/gnss-weak-signal-navigation/)
+- [Earth GNSS Weak-Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
 - [Artemis Program](/en/glossary/programs/artemis/)
-- [Moonlight Program](/en/glossary/moonlight/)
+- [Moonlight Program](/en/glossary/navigation/moonlight/)
 
 ## References
 

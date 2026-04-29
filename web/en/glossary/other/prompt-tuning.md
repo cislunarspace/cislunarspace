@@ -15,7 +15,7 @@ twitter:
   title: Prompt Tuning (P-tuning) | Efficient LLM Fine-Tuning
   description: Parameter-efficient LLM fine-tuning via learnable soft prompt tokens
   image: /logo.png
-permalink: /en/glossary/prompt-tuning/
+permalink: /en/glossary/other/prompt-tuning/
 ---
 
 # Prompt Tuning (P-tuning)
@@ -83,9 +83,9 @@ In the study by Jing et al. (2025), P-tuning V2 was used to fine-tune the ChatGL
 
 ## Related Concepts
 
-- [Low-Rank Adaptation (LoRA)](/en/glossary/lora-low-rank-adaptation/)
-- [Chain-of-Thought (CoT) Prompting](/en/glossary/chain-of-thought-prompting/)
-- [Spacecraft Intention Recognition](/en/glossary/spacecraft-intention-recognition/)
+- [Low-Rank Adaptation (LoRA)](/en/glossary/other/lora-low-rank-adaptation/)
+- [Chain-of-Thought (CoT) Prompting](/en/glossary/other/chain-of-thought-prompting/)
+- [Spacecraft Intention Recognition](/en/glossary/other/spacecraft-intention-recognition/)
 
 ## References
 

@@ -19,7 +19,7 @@ twitter:
   title: Nuclear Thermal Propulsion (NTP) | Deep Space Propulsion Technology
   description: Detailed analysis of NTP fundamentals, technical differences between solid-core and liquid-core designs, and its application prospects in crewed deep space exploration
   image: /logo.png
-permalink: /en/glossary/nuclear-thermal-propulsion/
+permalink: /en/glossary/other/nuclear-thermal-propulsion/
 ---
 
 # Nuclear Thermal Propulsion (NTP)
@@ -70,7 +70,7 @@ Key technical challenges of the liquid core approach include:
 
 ## Related Concepts
 
-- [POGO (Longitudinal Coupling Vibration)](/en/glossary/pogo/)
+- [POGO (Longitudinal Coupling Vibration)](/en/glossary/other/pogo/)
 
 ## References
 

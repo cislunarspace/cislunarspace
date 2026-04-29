@@ -19,7 +19,7 @@ twitter:
   title: 纵向耦合振动(POGO)详解 | 液体火箭动力学
   description: 详细解析纵向耦合振动(POGO)的定义、产生机理、对液体火箭的影响规律及抑制技术
   image: /logo.png
-permalink: /glossary/pogo/
+permalink: /glossary/other/pogo/
 ---
 
 # 纵向耦合振动（POGO）
@@ -65,7 +65,7 @@ POGO 振动的闭环耦合环节通常由以下四个环节构成：
 
 ## 相关概念
 
-- [核热推进（Nuclear Thermal Propulsion）](/glossary/nuclear-thermal-propulsion/)
+- [核热推进（Nuclear Thermal Propulsion）](/glossary/other/nuclear-thermal-propulsion/)
 
 ## 参考文献
 

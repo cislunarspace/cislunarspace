@@ -19,7 +19,7 @@ twitter:
   title: 天都一号详解 | 地月空间激光测距突破
   description: 解析中国通导技术试验卫星天都一号首次在日间完成地月空间激光测距的突破性成果
   image: /logo.png
-permalink: /glossary/tiandu-1/
+permalink: /glossary/navigation/tiandu-1/
 ---
 
 # 天都一号
@@ -44,9 +44,9 @@ permalink: /glossary/tiandu-1/
 
 ## 相关概念
 
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [星间链路导航](/glossary/inter-satellite-link-navigation/)
-- [地月混合导航](/glossary/earth-moon-hybrid-navigation/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
+- [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
 
 ## 参考文献
 

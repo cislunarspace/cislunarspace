@@ -1,6 +1,8 @@
 ---
 title: Cesium
 description: Open-source WebGL 3D globe visualization engine for satellite orbit visualization and geospatial data
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## Overview

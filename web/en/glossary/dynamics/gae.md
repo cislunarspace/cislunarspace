@@ -15,14 +15,14 @@ twitter:
   title: Generalized Advantage Estimation (GAE)
   description: A method balancing bias and variance for advantage function estimation in RL
   image: /logo.png
-permalink: /en/glossary/gae/
+permalink: /en/glossary/dynamics/gae/
 ---
 
 # Generalized Advantage Estimation (GAE)
 
 ## Definition
 
-Generalized Advantage Estimation (GAE) is a bias-variance balancing technique for estimating the advantage function in reinforcement learning, proposed by Schulman et al. in 2015[[1]](). GAE provides low-variance but nearly unbiased advantage estimates for policy gradient algorithms (such as PPO and A2PPO) by computing exponentially weighted averages of multiple temporal difference (TD) residuals.
+Generalized Advantage Estimation (GAE) is a bias-variance balancing technique for estimating the advantage function in reinforcement learning, proposed by Schulman et al. in 2015. GAE provides low-variance but nearly unbiased advantage estimates for policy gradient algorithms (such as PPO and A2PPO) by computing exponentially weighted averages of multiple temporal difference (TD) residuals.
 
 ## Background: Advantage Function and TD Residuals
 
@@ -62,7 +62,7 @@ where $d_t$ is the termination signal ($d_t=1$ indicates episode termination at 
 
 ## Application in A2PPO
 
-In the A2PPO algorithm, GAE is used for advantage estimation with the following hyperparameter settings[[2]]():
+In the A2PPO algorithm, GAE is used for advantage estimation with the following hyperparameter settings:
 
 | Parameter | Value | Meaning |
 |:---|:---:|:---|
@@ -77,10 +77,10 @@ GAE's variance control stems from its finite memory property: distant future TD 
 
 ## Related Concepts
 
-- [A2PPO (Attention-Augmented PPO)](/en/glossary/a2ppo/): The application framework for GAE in cislunar trajectory optimization
-- [Low-Thrust Transfer MDP](/en/glossary/lt-transfer-mdp/): The RL problem formulation that GAE serves
+- [A2PPO (Attention-Augmented PPO)](/en/glossary/dynamics/a2ppo/): The application framework for GAE in cislunar trajectory optimization
+- [Low-Thrust Transfer MDP](/en/glossary/dynamics/lt-transfer-mdp/): The RL problem formulation that GAE serves
 
 ## References
 
-- [[1]]() Schulman J, Moritz P, Levine S, et al. High-dimensional continuous control using generalized advantage estimation[J]. arXiv:1512.04455, 2015.
-- [[2]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Schulman J, Moritz P, Levine S, et al. High-dimensional continuous control using generalized advantage estimation[J]. arXiv:1512.04455, 2015.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

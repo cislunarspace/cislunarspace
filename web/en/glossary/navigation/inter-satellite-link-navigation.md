@@ -60,10 +60,10 @@ Inter-Satellite Link Navigation serves as an important supplementary means for E
 
 ## Related Concepts
 
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Earth GNSS Weak Signal Navigation](/en/glossary/gnss-weak-signal-navigation/)
-- [Earth-Moon Hybrid Navigation](/en/glossary/earth-moon-hybrid-navigation/)
-- [Lunar Navigation Constellation](/en/glossary/lunar-navigation-constellation/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Earth GNSS Weak Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
+- [Earth-Moon Hybrid Navigation](/en/glossary/navigation/earth-moon-hybrid-navigation/)
+- [Lunar Navigation Constellation](/en/glossary/navigation/lunar-navigation-constellation/)
 - BeiDou Satellite Navigation System
 
 ## References

@@ -19,7 +19,7 @@ twitter:
   title: Circular Restricted Three-Body Problem (CR3BP) Model Explained | Cislunar Space Dynamics Fundamentals
   description: Detailed explanation of the Circular Restricted Three-Body Problem (CR3BP) model definition, mathematical principles, applications in cislunar space, and spacecraft trajectory design methods
   image: /logo.png
-permalink: /en/glossary/cr3bp/
+permalink: /en/glossary/dynamics/cr3bp/
 ---
 
 # Circular Restricted Three-Body Problem

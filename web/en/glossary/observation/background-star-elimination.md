@@ -77,7 +77,7 @@ For cislunar observation, background star elimination faces several unique chall
 
 - [Segmentation Map](/en/glossary/observation/segmentation-map/)
 - [Image Registration](/en/glossary/observation/image-registration/)
-- [Stacking Search Algorithm](/en/glossary/observation/stacking-search-algorithm/)
+
 - [Cislunar Moving Objects](/en/glossary/observation/cislunar-moving-objects/)
 - [Hot Pixel](/en/glossary/observation/hot-pixel/)
 

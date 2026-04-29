@@ -15,14 +15,14 @@ twitter:
   title: 直接配点法（Direct Collocation）
   description: 将连续最优控制问题离散化为NLP进行求解的轨迹优化方法
   image: /logo.png
-permalink: /glossary/direct-collocation/
+permalink: /glossary/dynamics/direct-collocation/
 ---
 
 # 直接配点法（Direct Collocation）
 
 ## 定义
 
-直接配点法（Direct Collocation）是一类将最优控制问题（OCP）直接离散化为非线性规划问题（NLP）进行数值求解的方法[[1]]()。与间接法（indirect method）需要解析推导共状态（costate）的一阶最优性条件不同，直接法通过**配点**（collocation）方式同时离散化状态和控制变量，将无限维连续最优控制问题转化为有限维的 NLP，是当前航天器轨迹优化领域最广泛使用的数值方法之一。
+直接配点法（Direct Collocation）是一类将最优控制问题（OCP）直接离散化为非线性规划问题（NLP）进行数值求解的方法。与间接法（indirect method）需要解析推导共状态（costate）的一阶最优性条件不同，直接法通过**配点**（collocation）方式同时离散化状态和控制变量，将无限维连续最优控制问题转化为有限维的 NLP，是当前航天器轨迹优化领域最广泛使用的数值方法之一。
 
 ## 基本原理
 
@@ -36,7 +36,7 @@ permalink: /glossary/direct-collocation/
 
 ### Hermite-Simpson 配点
 
-A2PPO 研究中采用的直接配点实现使用 Hermite-Simpson 配点格式[[2]]()：
+A2PPO 研究中采用的直接配点实现使用 Hermite-Simpson 配点格式：
 
 - 在每个子区间 $[t_i, t_{i+1}]$ 上，用三次 Hermite 多项式插值状态
 - 在区间中点 $t_{i+1/2}$ 处施加动力学缺陷约束（defect constraint）
@@ -44,7 +44,7 @@ A2PPO 研究中采用的直接配点实现使用 Hermite-Simpson 配点格式[[2
 
 ## 与 A2PPO 的对比
 
-Ul Haq 等人（2026）将 A2PPO 策略产生的轨迹作为直接配点法的初始猜测，验证了两者在四个场景中的一致性[[2]]()：
+Ul Haq 等人（2026）将 A2PPO 策略产生的轨迹作为直接配点法的初始猜测，验证了两者在四个场景中的一致性：
 
 | 场景 | A2PPO ToF (天) | 直接配点 ToF (天) | A2PPO 燃料 (kg) | 直接配点燃料 (kg) |
 |:---|:---:|:---:|:---:|:---:|
@@ -80,6 +80,6 @@ A2PPO 则可在训练后实时推理，提供近即时的轨迹解。
 
 ## 参考文献
 
-- [[1]]() Betts J T. Survey of numerical methods for trajectory optimization[J]. Journal of Guidance, Control, and Dynamics, 1998.
-- [[2]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
-- [[3]]() Hargraves C R, Paris S W. Direct trajectory optimization using nonlinear programming and collocation[J]. Journal of Guidance, Control, and Dynamics, 1987.
+- Betts J T. Survey of numerical methods for trajectory optimization[J]. Journal of Guidance, Control, and Dynamics, 1998.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Hargraves C R, Paris S W. Direct trajectory optimization using nonlinear programming and collocation[J]. Journal of Guidance, Control, and Dynamics, 1987.

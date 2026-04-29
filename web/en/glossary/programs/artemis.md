@@ -47,10 +47,10 @@ The Artemis program creates urgent demand for cislunar space navigation technolo
 ## Related Concepts
 
 - [LuGRE Experiment](/en/glossary/programs/lugre/)
-- [Moonlight Program](/en/glossary/moonlight/)
-- [LunaNet](/en/glossary/lunanet/)
-- [Lunar Navigation Constellation](/en/glossary/lunar-navigation-constellation/)
-- [Earth GNSS Weak-Signal Navigation](/en/glossary/gnss-weak-signal-navigation/)
+- [Moonlight Program](/en/glossary/navigation/moonlight/)
+- [LunaNet](/en/glossary/navigation/lunanet/)
+- [Lunar Navigation Constellation](/en/glossary/navigation/lunar-navigation-constellation/)
+- [Earth GNSS Weak-Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
 
 ## References
 

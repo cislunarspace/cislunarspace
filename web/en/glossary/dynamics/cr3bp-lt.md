@@ -15,14 +15,14 @@ twitter:
   title: CR3BP with Low-Thrust (CR3BP-LT)
   description: An extension of the standard CR3BP model with low-thrust acceleration terms
   image: /logo.png
-permalink: /en/glossary/cr3bp-lt/
+permalink: /en/glossary/dynamics/cr3bp-lt/
 ---
 
 # CR3BP with Low-Thrust (CR3BP-LT)
 
 ## Definition
 
-CR3BP-LT is an extension of the standard Circular Restricted Three-Body Problem (CR3BP) that adds continuous low-thrust acceleration terms to the spacecraft's equations of motion, used for studying orbit transfer problems with electric propulsion, ion propulsion, and other low-thrust propulsion systems[[1]](). This model was formally proposed and systematically applied in the A2PPO research by Ul Haq et al. in 2026.
+CR3BP-LT is an extension of the standard Circular Restricted Three-Body Problem (CR3BP) that adds continuous low-thrust acceleration terms to the spacecraft's equations of motion, used for studying orbit transfer problems with electric propulsion, ion propulsion, and other low-thrust propulsion systems. This model was formally proposed and systematically applied in the A2PPO research by Ul Haq et al. in 2026.
 
 ## Equations of Motion
 
@@ -78,5 +78,5 @@ The CR3BP-LT model is the core environment for deep reinforcement learning metho
 
 ## References
 
-- [[1]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
-- [[2]]() Du C, Song L, Zhang J, et al. A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem[J]. Aerospace Science and Technology, 2024.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Du C, Song L, Zhang J, et al. A novel calculation method for low-thrust transfer trajectories in the Earth-Moon restricted three-body problem[J]. Aerospace Science and Technology, 2024.

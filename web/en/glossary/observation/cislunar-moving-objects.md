@@ -76,7 +76,7 @@ This method maintains high detection sensitivity while effectively handling the 
 
 - [Lunar Glare Zone](/en/glossary/observation/lunar-glare-zone/)
 - [Image Registration](/en/glossary/observation/image-registration/)
-- [Stacking Search Algorithm](/en/glossary/observation/stacking-search-algorithm/)
+
 - [Background Star Elimination](/en/glossary/observation/background-star-elimination/)
 - [Hot Pixel](/en/glossary/observation/hot-pixel/)
 

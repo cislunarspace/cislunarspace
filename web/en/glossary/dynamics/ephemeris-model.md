@@ -75,7 +75,7 @@ $$
 To perform orbit correction and optimization, the State Transition Matrix (STM) needs to be computed. Linearizing the equations of motion yields the variational equations:
 
 $$
-\dot{\boldsymbol{\Phi}}(t, t_0) = \mathbf{A}(t)\boldsymbol{\Phi}}(t, t_0), \quad \boldsymbol{\Phi}}(t_0, t_0) = \mathbf{I}_{6\times6}
+\dot{\boldsymbol{\Phi}}(t, t_0) = \mathbf{A}(t)\boldsymbol{\Phi}(t, t_0), \quad \boldsymbol{\Phi}(t_0, t_0) = \mathbf{I}_{6\times6}
 $$
 
 where $\mathbf{A}(t)$ is the Jacobian matrix of the dynamics equations with respect to the state. In numerical implementation, the 6-dimensional state vector and the 36 elements of the $6\times6$ state transition matrix are concatenated into a 42-dimensional augmented state vector, integrated simultaneously with the equations of motion.

@@ -19,7 +19,7 @@ twitter:
   title: 地月空间时空基准详解 | 地月空间核心概念
   description: 详细解析地月空间时空基准的定义、构建方法、溯源与传递机制，及其在深空探测和月球开发中的应用价值
   image: /logo.png
-permalink: /glossary/cislunar-spatiotemporal-reference/
+permalink: /glossary/navigation/cislunar-spatiotemporal-reference/
 ---
 
 # 地月空间时空基准
@@ -65,12 +65,12 @@ permalink: /glossary/cislunar-spatiotemporal-reference/
 
 ## 相关概念
 
-- [星历模型（Ephemeris Model）](/glossary/ephemeris-model/)
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
-- [拟双圆四体问题（QBCP）](/glossary/qbcp/)
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [近直线晕轨道（NRHO）](/glossary/nrho/)
-- [地月 L1/L2 晕轨道](/glossary/eml-halo/)
+- [星历模型（Ephemeris Model）](/glossary/dynamics/ephemeris-model/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [拟双圆四体问题（QBCP）](/glossary/dynamics/qbcp/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [地月 L1/L2 晕轨道](/glossary/orbits/eml-halo/)
 
 ## 参考文献
 

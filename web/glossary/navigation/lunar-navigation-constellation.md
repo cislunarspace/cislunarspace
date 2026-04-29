@@ -19,7 +19,7 @@ twitter:
   title: 月球导航星座详解 | 地月空间导航基础设施
   description: 解析为实现全月面全天时导航而部署的专用卫星系统，包括国际规划、中国方案及关键技术挑战
   image: /logo.png
-permalink: /glossary/lunar-navigation-constellation/
+permalink: /glossary/navigation/lunar-navigation-constellation/
 ---
 
 # 月球导航星座
@@ -66,8 +66,8 @@ permalink: /glossary/lunar-navigation-constellation/
 
 ## 相关概念
 
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [地球 GNSS 弱信号导航](/glossary/gnss-weak-signal-navigation/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
 - 地月混合导航
 - 星间链路导航
 - 鹊桥中继卫星

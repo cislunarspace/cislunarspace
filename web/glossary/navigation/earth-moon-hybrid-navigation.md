@@ -19,7 +19,7 @@ twitter:
   title: 地月混合导航详解 | 地月空间复合导航架构
   description: 解析融合地球GNSS广域覆盖与月球增强系统高精度的复合导航架构与"粗定位+精定位"技术路径
   image: /logo.png
-permalink: /glossary/earth-moon-hybrid-navigation/
+permalink: /glossary/navigation/earth-moon-hybrid-navigation/
 ---
 
 # 地月混合导航
@@ -62,11 +62,11 @@ permalink: /glossary/earth-moon-hybrid-navigation/
 
 ## 相关概念
 
-- [地球 GNSS 弱信号导航](/glossary/gnss-weak-signal-navigation/)
-- [月球导航星座](/glossary/lunar-navigation-constellation/)
-- [星间链路导航](/glossary/inter-satellite-link-navigation/)
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
+- [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
+- [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
 
 ## 参考文献
 

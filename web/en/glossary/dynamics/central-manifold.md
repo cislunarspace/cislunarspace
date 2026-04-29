@@ -117,11 +117,11 @@ Qiao et al. (2025) used central manifold theory to establish a six-dimensional c
 
 ## Related Concepts
 
-- [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
-- [Poincare Section](/en/glossary/poincare-section/)
-- [Canonical Transformation](/en/glossary/canonical-transformation/)
-- [Action-Angle Variables](/en/glossary/action-angle/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
+- [Poincare Section](/en/glossary/dynamics/poincare-section/)
+
+- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Hyperbolic Invariant Manifold
 - Stable/Unstable Manifold
 - Halo Orbit (Lissajous Orbit)

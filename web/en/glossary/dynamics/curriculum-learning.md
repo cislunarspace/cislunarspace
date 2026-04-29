@@ -15,20 +15,20 @@ twitter:
   title: Curriculum Learning
   description: A progressive simple-to-complex training strategy in reinforcement learning
   image: /logo.png
-permalink: /en/glossary/curriculum-learning/
+permalink: /en/glossary/dynamics/curriculum-learning/
 ---
 
 # Curriculum Learning
 
 ## Definition
 
-Curriculum Learning (CL) is a machine learning training strategy whose core idea is to have models learn from **simple samples progressively transitioning to complex samples**, mimicking the "step-by-step" process in human education[[1]](). In reinforcement learning (RL), CL helps agents achieve stable convergence in complex high-dimensional continuous control problems by designing a series of progressively more difficult task curricula.
+Curriculum Learning (CL) is a machine learning training strategy whose core idea is to have models learn from **simple samples progressively transitioning to complex samples**, mimicking the "step-by-step" process in human education. In reinforcement learning (RL), CL helps agents achieve stable convergence in complex high-dimensional continuous control problems by designing a series of progressively more difficult task curricula.
 
 Curriculum learning is particularly important in high-difficulty, long-horizon cislunar low-thrust trajectory optimization: direct training on the final difficulty level often fails to converge due to sparse rewards and chaotic dynamics, while curriculum learning reduces initial task difficulty to allow the agent to gradually build understanding of the problem.
 
 ## Application in A2PPO
 
-Ul Haq et al. (2026) applied curriculum learning to the A2PPO framework for cislunar low-thrust trajectory optimization[[2]](), implementing curriculum design through progressive tightening of success thresholds:
+Ul Haq et al. (2026) applied curriculum learning to the A2PPO framework for cislunar low-thrust trajectory optimization, implementing curriculum design through progressive tightening of success thresholds:
 
 ### Curriculum Structure
 
@@ -69,11 +69,11 @@ Curriculum learning training curves exhibit a characteristic "staircase" pattern
 
 ## Related Concepts
 
-- [A2PPO (Attention-Augmented PPO)](/en/glossary/a2ppo/): The framework applying curriculum learning
-- [Low-Thrust Transfer MDP]((/en/glossary/lt-transfer-mdp/): The RL problem formulation that curriculum learning serves
-- [Generalized Advantage Estimation (GAE)](/en/glossary/gae/): Advantage estimation method used with curriculum learning
+- [A2PPO (Attention-Augmented PPO)](/en/glossary/dynamics/a2ppo/): The framework applying curriculum learning
+- [Low-Thrust Transfer MDP](/en/glossary/dynamics/lt-transfer-mdp/): The RL problem formulation that curriculum learning serves
+- [Generalized Advantage Estimation (GAE)](/en/glossary/dynamics/gae/): Advantage estimation method used with curriculum learning
 
 ## References
 
-- [[1]]() Bengio Y, Louradour J, Collobert R, et al. Curriculum learning[C]. International Conference on Machine Learning, 2009.
-- [[2]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Bengio Y, Louradour J, Collobert R, et al. Curriculum learning[C]. International Conference on Machine Learning, 2009.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

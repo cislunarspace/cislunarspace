@@ -19,7 +19,7 @@ twitter:
   title: 庞加莱截面详解 | 平动点轨道分布可视化
   description: 详细解析Poincaré截面的定义、在平动点轨道可视化中的应用，以及如何利用Poincaré截面区分Lyapunov、Halo、Lissajous等轨道族
   image: /logo.png
-permalink: /glossary/poincare-section/
+permalink: /glossary/dynamics/poincare-section/
 ---
 
 # 庞加莱截面
@@ -91,10 +91,10 @@ Qiao et al. (2025) 将 Poincaré 截面发展为平动点轨道**分布地图**�
 
 ## 相关概念
 
-- [中心流形（Central Manifold）](/glossary/central-manifold/)
-- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
-- [轨道辨识（Orbit Identification）](/glossary/orbit-identification/)
-- [圆型限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
+- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)
+- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 不变环面（Invariant Torus）
 - 分叉（Bifurcation）
 - 准周期轨道（Quasi-periodic Orbit）

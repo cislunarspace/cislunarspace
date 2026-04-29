@@ -19,7 +19,7 @@ twitter:
   title: 地月空间导航发展展望 | 地月空间导航技术趋势
   description: 解析地月空间导航技术从地基向多星座协同组网、多源融合体系的演进趋势，以及国际合作与深空延伸路径
   image: /logo.png
-permalink: /glossary/cislunar-navigation-prospects/
+permalink: /glossary/other/cislunar-navigation-prospects/
 ---
 
 # 地月空间导航发展展望
@@ -80,12 +80,12 @@ permalink: /glossary/cislunar-navigation-prospects/
 
 ## 相关概念
 
-- [地球 GNSS 弱信号导航](/glossary/gnss-weak-signal-navigation/)
-- [地月混合导航](/glossary/earth-moon-hybrid-navigation/)
-- [月球导航星座](/glossary/lunar-navigation-constellation/)
-- [星间链路导航](/glossary/inter-satellite-link-navigation/)
-- [X射线脉冲星导航](/glossary/xray-pulsar-navigation/)
-- [远距离逆行轨道（DRO）](/glossary/dro/)
+- [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
+- [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
+- [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
+- [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 
 ## 参考文献
 

@@ -1,6 +1,8 @@
 ---
 title: Lunar Science Multimodal LLM V2.0
 description: AI multimodal large model for lunar crater recognition and analysis
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## Overview

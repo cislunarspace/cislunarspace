@@ -82,13 +82,13 @@ With excellent long-term stability (requiring no or only minimal orbital maneuve
 NASA's Lunar Reconnaissance Orbiter (LRO) mission has validated the application value of DROs in lunar exploration. Recent research has shown that non-planar DROs with $z$-direction amplitude can avoid solar eclipses, further improving observer effectiveness.
 
 ## Related Concepts
-- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)
-- [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/eml-halo/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
-- [Ephemeris Model](/en/glossary/ephemeris-model/)
-- [Starshade](/en/glossary/starshade/)
-- [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
-- [Poincaré Section](/en/glossary/poincare-section/)
+- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
+- [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
+- [Starshade](/en/glossary/other/starshade/)
+- [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
+- [Poincaré Section](/en/glossary/dynamics/poincare-section/)
 - Resonance orbit
 - Quasi-periodic orbit
 

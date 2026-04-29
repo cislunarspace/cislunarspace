@@ -82,7 +82,7 @@ The effectiveness of segmentation map masking depends on the SExtractor detectio
 
 - [Background Star Elimination](/en/glossary/observation/background-star-elimination/)
 - [Image Registration](/en/glossary/observation/image-registration/)
-- [Stacking Search Algorithm](/en/glossary/observation/stacking-search-algorithm/)
+
 - [Hot Pixel](/en/glossary/observation/hot-pixel/)
 
 ## References

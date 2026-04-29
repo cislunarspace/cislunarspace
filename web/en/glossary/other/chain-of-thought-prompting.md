@@ -15,7 +15,7 @@ twitter:
   title: Chain-of-Thought (CoT) Prompting | LLM Reasoning Enhancement
   description: A prompting technique that guides LLMs to output intermediate reasoning steps, improving complex reasoning performance
   image: /logo.png
-permalink: /en/glossary/chain-of-thought-prompting/
+permalink: /en/glossary/other/chain-of-thought-prompting/
 ---
 
 # Chain-of-Thought (CoT) Prompting
@@ -73,9 +73,9 @@ In the study by Jing et al. (2025), CoT was used to enhance LLM reasoning capabi
 
 ## Related Concepts
 
-- [Prompt Tuning (P-tuning)](/en/glossary/prompt-tuning/)
-- [Spacecraft Intention Recognition](/en/glossary/spacecraft-intention-recognition/)
-- [Low-Rank Adaptation (LoRA)](/en/glossary/lora-low-rank-adaptation/)
+- [Prompt Tuning (P-tuning)](/en/glossary/other/prompt-tuning/)
+- [Spacecraft Intention Recognition](/en/glossary/other/spacecraft-intention-recognition/)
+- [Low-Rank Adaptation (LoRA)](/en/glossary/other/lora-low-rank-adaptation/)
 
 ## References
 

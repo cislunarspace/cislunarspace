@@ -81,7 +81,7 @@ NASA 月球门户（Gateway）空间站选择 NRHO 作为参考轨道，与全�
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
-- [不变流形（Invariant Manifold）](/glossary/invariant-manifold/)
+
 
 ## 参考文献
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025.

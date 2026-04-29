@@ -19,7 +19,7 @@ twitter:
   title: 近直线晕轨道(NRHO)详解 | 地月空间站候选轨道
   description: 详细解析近直线晕轨道(NRHO)的定义、与Halo轨道的关系、共振特性、稳定性分析及其在地月空间任务中的应用
   image: /logo.png
-permalink: /glossary/nrho/
+permalink: /glossary/orbits/nrho/
 ---
 
 # 近直线晕轨道
@@ -76,7 +76,7 @@ NRHO 已成为当前地月空间任务的热门候选轨道：
 
 ## 在 A2PPO 低推力转移研究中的应用
 
-Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了从 L₂ 晕轨道到 NRHO 的自主低推力转移（S2 场景）[[5]]()：
+Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了从 L₂ 晕轨道到 NRHO 的自主低推力转移（S2 场景）：
 
 - **出发轨道**：L₂ 南晕轨道（$C_J \approx 3.1211$，周期 14.55 天）
 - **目标轨道**：L₂ 南 NRHO（$C_J \approx 3.0395$，周期 6.99 天）
@@ -86,16 +86,16 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 NRHO 与晕轨道之间的转移需要显著的能量变化（$C_J$ 变化约 0.08），是低推力轨迹优化中的高难度场景。A2PPO 能够在无需初始猜测的条件下自主学习高效转移策略。
 
 ## 相关概念
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
-- [A2PPO（注意力增强近端策略优化）](/glossary/a2ppo/)
-- [星伞（Starshade）](/glossary/starshade/)
-- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
-- [中心流形（Central Manifold）](/glossary/central-manifold/)
-- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
-- [轨道辨识（Orbit Identification）](/glossary/orbit-identification/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
+- [星伞（Starshade）](/glossary/other/starshade/)
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
+- [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
+- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)
 - Halo 轨道
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 平动点（拉格朗日点）
 - 星历模型
 - 不变流形
@@ -106,4 +106,4 @@ NRHO 与晕轨道之间的转移需要显著的能量变化（$C_J$ 变化约 0.
 - Williams J, Whitley R. Targeting cislunar rectilinear halo orbits for spacecraft missions[C]. 2017.
 - 吴伟仁. 嫦娥4号月球背面软着陆任务设计[J]. 2017.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
-- [[5]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

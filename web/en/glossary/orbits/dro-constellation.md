@@ -52,10 +52,10 @@ The DRO constellation opens new pathways for large-scale development and utiliza
 
 ## Related Concepts
 
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Inter-Satellite Link Navigation](/en/glossary/inter-satellite-link-navigation/)
-- [Tianandu-1](/en/glossary/tiandu-1/)
-- [Earth-Moon Hybrid Navigation](/en/glossary/earth-moon-hybrid-navigation/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
+- [Tianandu-1](/en/glossary/navigation/tiandu-1/)
+- [Earth-Moon Hybrid Navigation](/en/glossary/navigation/earth-moon-hybrid-navigation/)
 - [Queqiao Relay Satellite](/en/glossary/queqiao/)
 
 ## References

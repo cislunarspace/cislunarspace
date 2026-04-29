@@ -15,7 +15,7 @@ twitter:
   title: 思维链提示（CoT）| 大语言模型推理增强
   description: 引导LLM输出中间推理步骤的提示技术，显著提升复杂推理任务表现
   image: /logo.png
-permalink: /glossary/chain-of-thought-prompting/
+permalink: /glossary/other/chain-of-thought-prompting/
 ---
 
 # 思维链提示（Chain-of-Thought Prompting）
@@ -73,9 +73,9 @@ CoT的工作方式是通过在提示中提供包含显式推理链的少量示�
 
 ## 相关概念
 
-- [提示调优（P-tuning）](/glossary/prompt-tuning/)
-- [航天器意图识别](/glossary/spacecraft-intention-recognition/)
-- [低秩适配（LoRA）](/glossary/lora-low-rank-adaptation/)
+- [提示调优（P-tuning）](/glossary/other/prompt-tuning/)
+- [航天器意图识别](/glossary/other/spacecraft-intention-recognition/)
+- [低秩适配（LoRA）](/glossary/other/lora-low-rank-adaptation/)
 
 ## 参考文献
 

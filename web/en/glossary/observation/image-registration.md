@@ -81,7 +81,7 @@ Registration accuracy directly affects the performance of subsequent processing 
 ## Related Concepts
 
 - [Background Star Elimination](/en/glossary/observation/background-star-elimination/)
-- [Stacking Search Algorithm](/en/glossary/observation/stacking-search-algorithm/)
+
 - [Cislunar Moving Objects](/en/glossary/observation/cislunar-moving-objects/)
 - [Hot Pixel](/en/glossary/observation/hot-pixel/)
 

@@ -19,7 +19,7 @@ twitter:
   title: EXOSIMS Exoplanet Direct Imaging Mission Simulation Software
   description: Detailed analysis of EXOSIMS capabilities, architecture, application in starshade mission design, and dynamic model integration methods
   image: /logo.png
-permalink: /en/glossary/exosims/
+permalink: /en/glossary/other/exosims/
 ---
 
 # EXOSIMS
@@ -113,10 +113,10 @@ EXOSIMS is open-source software hosted on GitHub:
 
 ## Related Concepts
 
-- [Starshade](/en/glossary/starshade/)
-- [Earth-Moon L1/L2 Halo Orbits](/en/glossary/eml-halo/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Starshade](/en/glossary/other/starshade/)
+- [Earth-Moon L1/L2 Halo Orbits](/en/glossary/orbits/eml-halo/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Exoplanet Direct Imaging
 - Formation Flying
 

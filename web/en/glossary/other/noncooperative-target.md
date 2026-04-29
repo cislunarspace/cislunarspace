@@ -15,7 +15,7 @@ twitter:
   title: Noncooperative Target | Space Security
   description: Space objects that do not share intent or trajectory information, a core subject of space security research
   image: /logo.png
-permalink: /en/glossary/noncooperative-target/
+permalink: /en/glossary/other/noncooperative-target/
 ---
 
 # Noncooperative Target
@@ -68,9 +68,9 @@ Jing et al. (2025) proposed an LLM-based framework for noncooperative target int
 
 ## Related Concepts
 
-- [Spacecraft Intention Recognition](/en/glossary/spacecraft-intention-recognition/)
-- [Clohessy-Wiltshire (CW) Equation](/en/glossary/clohessy-wiltshire/)
-- [Space Traffic Management (STM)](/en/glossary/space-traffic-management/)
+- [Spacecraft Intention Recognition](/en/glossary/other/spacecraft-intention-recognition/)
+- [Clohessy-Wiltshire (CW) Equation](/en/glossary/dynamics/clohessy-wiltshire/)
+- [Space Traffic Management (STM)](/en/glossary/other/space-traffic-management/)
 
 ## References
 

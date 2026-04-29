@@ -1,6 +1,8 @@
 ---
 title: poliastro
 description: Pure Python astrodynamics library (archived — read-only maintenance)
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## Overview

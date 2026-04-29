@@ -19,7 +19,7 @@ twitter:
   title: 太空交通管控(STM)详解 | 空间安全与治理
   description: 详细解析太空交通管控的概念、关键技术领域及其在日益拥挤的轨道环境中的重要性
   image: /logo.png
-permalink: /glossary/space-traffic-management/
+permalink: /glossary/other/space-traffic-management/
 ---
 
 # 太空交通管控（STM）
@@ -70,9 +70,9 @@ SSA 是 STM 的感知层，负责探测、跟踪和编目轨道上的空间物�
 
 ## 相关概念
 
-- [地月空间时空基准](/glossary/cislunar-spatiotemporal-reference/)
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [近直线晕轨道（NRHO）](/glossary/nrho/)
+- [地月空间时空基准](/glossary/navigation/cislunar-spatiotemporal-reference/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 
 ## 参考文献
 

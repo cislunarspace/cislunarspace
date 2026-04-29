@@ -15,7 +15,7 @@ twitter:
   title: 航天器意图识别（Spacecraft Intention Recognition）| 空间安全
   description: 通过观测目标航天器的轨道行为和环境条件推断其目的或任务的技术
   image: /logo.png
-permalink: /glossary/spacecraft-intention-recognition/
+permalink: /glossary/other/spacecraft-intention-recognition/
 ---
 
 # 航天器意图识别（Spacecraft Intention Recognition）
@@ -118,12 +118,12 @@ Jing等（2025年）提出了一种基于大语言模型（LLM）的航天器意
 
 ## 相关概念
 
-- [非合作目标](/glossary/noncooperative-target/)
-- [CW方程（Clohessy-Wiltshire）](/glossary/clohessy-wiltshire/)
-- [思维链提示（CoT）](/glossary/chain-of-thought-prompting/)
-- [低秩适配（LoRA）](/glossary/lora-low-rank-adaptation/)
-- [提示调优（P-tuning）](/glossary/prompt-tuning/)
-- [太空交通管控（STM）](/glossary/space-traffic-management/)
+- [非合作目标](/glossary/other/noncooperative-target/)
+- [CW方程（Clohessy-Wiltshire）](/glossary/dynamics/clohessy-wiltshire/)
+- [思维链提示（CoT）](/glossary/other/chain-of-thought-prompting/)
+- [低秩适配（LoRA）](/glossary/other/lora-low-rank-adaptation/)
+- [提示调优（P-tuning）](/glossary/other/prompt-tuning/)
+- [太空交通管控（STM）](/glossary/other/space-traffic-management/)
 
 ## 参考文献
 

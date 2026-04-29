@@ -19,7 +19,7 @@ twitter:
   title: Poincaré Section | Libration Point Orbit Distribution Visualization
   description: Detailed explanation of the Poincaré Section and its application in visualizing cislunar libration point orbit families
   image: /logo.png
-permalink: /en/glossary/poincare-section/
+permalink: /en/glossary/dynamics/poincare-section/
 ---
 
 # Poincaré Section
@@ -89,10 +89,10 @@ This method bypasses the difficulties of direct numerical integration in chaotic
 
 ## Related Concepts
 
-- [Central Manifold](/en/glossary/central-manifold/)
-- [Action-Angle Variables](/en/glossary/action-angle/)
-- [Orbit Identification](/en/glossary/orbit-identification/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Central Manifold](/en/glossary/dynamics/central-manifold/)
+- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
+- [Orbit Identification](/en/glossary/orbits/orbit-identification/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Invariant Torus
 - Bifurcation
 - Quasi-periodic Orbit

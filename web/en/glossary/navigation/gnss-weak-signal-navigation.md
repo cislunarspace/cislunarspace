@@ -66,10 +66,10 @@ GNSS weak signal navigation is the lowest-cost and fastest-deploying path among 
 
 ## Related Concepts
 
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Near Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)
-- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/eml-halo/)
-- [X-ray Pulsar Navigation](/en/glossary/xray-pulsar-navigation/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Near Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
+- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
+- [X-ray Pulsar Navigation](/en/glossary/navigation/xray-pulsar-navigation/)
 - Earth-Moon Hybrid Navigation
 - Lunar Navigation Constellation
 - Inter-Satellite Link Navigation

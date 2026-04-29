@@ -4,7 +4,7 @@ description: 汇总地月空间低能转移轨道设计与应用方向的代表�
 keywords: 地月空间低能转移轨道, 低能转移, Halo轨道, Lissajous轨道, 轨道设计
 author: 天疆说
 date: 2026-03-07
-lastUpdated: 2026-04-27
+lastUpdated: '2026-04-28'
 permalink: /research-frontiers/directions/low-energy-transfer/
 wechatShare:
   title: 地月空间低能转移轨道研究
@@ -64,6 +64,10 @@ twitter:
 [1] 乔琛远, 杨乐平. 地月L1点低能转移轨道设计与优化[J]. 系统工程与电子技术, 2024, 46(10): 3519-3527.
 
 [2] 余会昌, 代洪华, 张继烨, 等. 基于Lissajous中转站的低能转移轨道设计与应用[J]. 西北工业大学学报, 2025, 43(2): 212-221.
+
+[3] 朱彦伟, 蒋昕玙, 陈昱桔, 等. 星历模型下基于多重打靶拼接的长期近直线晕轨道设计方法[J]. 中国空间科学技术（中英文）, 2026: 1-11.
+
+[4] Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. Acta Astronautica, 2026, 244: 445-455.
 
 ---
 

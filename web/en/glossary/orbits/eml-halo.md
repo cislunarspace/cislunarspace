@@ -19,7 +19,7 @@ twitter:
   title: Earth-Moon L1/L2 Halo Orbits - Dynamics and Starshade Applications
   description: Detailed explanation of Earth-Moon L1 and L2 Halo Orbits including dynamics, stability, station-keeping, and applications in Starshade missions
   image: /logo.png
-permalink: /en/glossary/eml-halo/
+permalink: /en/glossary/orbits/eml-halo/
 ---
 
 # Earth-Moon L1/L2 Halo Orbit
@@ -78,10 +78,10 @@ Initial conditions for Halo orbits are generated using:
 
 ## Related Concepts
 
-- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
-- [Starshade](/en/glossary/starshade/)
+- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [Starshade](/en/glossary/other/starshade/)
 - Lagrange Point
 - Formation Flying
 

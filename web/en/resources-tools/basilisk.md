@@ -1,6 +1,8 @@
 ---
 title: Basilisk
 description: JPL open-source spacecraft dynamics simulation framework, C++ core with Python interface
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## Overview

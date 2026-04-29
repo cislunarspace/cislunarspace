@@ -19,7 +19,7 @@ twitter:
   title: 作用角变量详解 | Hamilton系统可积性
   description: 详细解析作用角变量的定义、在可积Hamilton系统中的作用，以及在地月空间平动点轨道特征参数化中的具体应用
   image: /logo.png
-permalink: /glossary/action-angle/
+permalink: /glossary/dynamics/action-angle/
 ---
 
 # 作用角变量
@@ -97,11 +97,11 @@ $$H_{CM} = H_2(I_2, I_3) + H_N(I_2, I_3, \theta_2, \theta_3)$$
 
 ## 相关概念
 
-- [中心流形（Central Manifold）](/glossary/central-manifold/)
-- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
-- [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)
-- [正则变换（Canonical Transformation）](/glossary/canonical-transformation/)
-- [圆型限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
+- [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
+
+- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 不变环面（Invariant Torus）
 - 可积系统（Integrable System）
 

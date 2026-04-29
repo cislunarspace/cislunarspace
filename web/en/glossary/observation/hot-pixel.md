@@ -84,7 +84,7 @@ Sun et al. (2026) schedule hot pixel removal before the stacking search algorith
 
 - [Image Registration](/en/glossary/observation/image-registration/)
 - [Background Star Elimination](/en/glossary/observation/background-star-elimination/)
-- [Stacking Search Algorithm](/en/glossary/observation/stacking-search-algorithm/)
+
 - [Cislunar Moving Objects](/en/glossary/observation/cislunar-moving-objects/)
 - [Segmentation Map](/en/glossary/observation/segmentation-map/)
 

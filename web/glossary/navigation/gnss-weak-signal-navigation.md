@@ -19,7 +19,7 @@ twitter:
   title: 地球GNSS弱信号导航详解 | 地月空间导航技术路径
   description: 解析利用地球GNSS卫星旁瓣信号实现地月空间导航的技术原理、关键技术、性能局限与发展路径
   image: /logo.png
-permalink: /glossary/gnss-weak-signal-navigation/
+permalink: /glossary/navigation/gnss-weak-signal-navigation/
 ---
 
 # 地球 GNSS 弱信号导航
@@ -66,10 +66,10 @@ GNSS 弱信号导航是四大导航方案中成本最低、部署最快的路径
 
 ## 相关概念
 
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [近直线晕轨道（NRHO）](/glossary/nrho/)
-- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
-- [X射线脉冲星导航](/glossary/xray-pulsar-navigation/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
+- [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
 - 地月混合导航
 - 月球导航星座
 - 星间链路导航

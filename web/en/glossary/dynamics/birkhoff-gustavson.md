@@ -101,10 +101,10 @@ In Qiao et al. (2025), Birkhoff-Gustavson Normal Form combined with central mani
 
 ## Related Concepts
 
-- [Central Manifold](/en/glossary/central-manifold/)
-- [Canonical Transformation](/en/glossary/canonical-transformation/)
-- [Action-Angle Variables](/en/glossary/action-angle/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Central Manifold](/en/glossary/dynamics/central-manifold/)
+
+- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Lie Transformation
 - Hamiltonian System
 - Poincare Section

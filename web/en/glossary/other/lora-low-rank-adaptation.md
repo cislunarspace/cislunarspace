@@ -15,7 +15,7 @@ twitter:
   title: Low-Rank Adaptation (LoRA) | Efficient LLM Fine-Tuning
   description: Parameter-efficient LLM fine-tuning via low-rank matrix decomposition
   image: /logo.png
-permalink: /en/glossary/lora-low-rank-adaptation/
+permalink: /en/glossary/other/lora-low-rank-adaptation/
 ---
 
 # Low-Rank Adaptation (LoRA)
@@ -88,9 +88,9 @@ In the study by Jing et al. (2025), LoRA was used to fine-tune the ChatGLM3-6B m
 
 ## Related Concepts
 
-- [Prompt Tuning (P-tuning)](/en/glossary/prompt-tuning/)
-- [Chain-of-Thought (CoT) Prompting](/en/glossary/chain-of-thought-prompting/)
-- [Spacecraft Intention Recognition](/en/glossary/spacecraft-intention-recognition/)
+- [Prompt Tuning (P-tuning)](/en/glossary/other/prompt-tuning/)
+- [Chain-of-Thought (CoT) Prompting](/en/glossary/other/chain-of-thought-prompting/)
+- [Spacecraft Intention Recognition](/en/glossary/other/spacecraft-intention-recognition/)
 
 ## References
 

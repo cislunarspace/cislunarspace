@@ -19,7 +19,7 @@ twitter:
   title: 星历模型 Ephemeris Model 详解 - 地月空间高精度轨道动力学
   description: 详细解析星历模型的定义、N体动力学方程、在地月空间轨道设计中的应用，以及与CRTBP等简化模型的关系
   image: /logo.png
-permalink: /glossary/ephemeris-model/
+permalink: /glossary/dynamics/ephemeris-model/
 ---
 
 # 星历模型

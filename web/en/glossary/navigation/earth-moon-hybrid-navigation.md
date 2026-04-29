@@ -62,11 +62,11 @@ Earth-Moon Hybrid Navigation is the optimal primary solution for crewed lunar la
 
 ## Related Concepts
 
-- [Earth GNSS Weak Signal Navigation](/en/glossary/gnss-weak-signal-navigation/)
-- [Lunar Navigation Constellation](/en/glossary/lunar-navigation-constellation/)
-- [Inter-Satellite Link Navigation](/en/glossary/inter-satellite-link-navigation/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/eml-halo/)
+- [Earth GNSS Weak Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
+- [Lunar Navigation Constellation](/en/glossary/navigation/lunar-navigation-constellation/)
+- [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
 
 ## References
 

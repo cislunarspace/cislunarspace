@@ -7,7 +7,7 @@ date: 2026-03-07
 lastUpdated: 2026-04-26
 wechatShare:
   title: Cislunar Space Dataset Resources
-  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  desc: JPL ephemerides, lunar gravity field models, space environment parameters — download and usage guide.
   image: /logo.png
 og:
   title: Comprehensive Cislunar Space Research Datasets | Ephemeris, Orbit, Environment Data Downloads

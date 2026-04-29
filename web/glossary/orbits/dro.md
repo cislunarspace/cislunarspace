@@ -19,7 +19,7 @@ twitter:
   title: 远距离逆行轨道(DRO)详解 | 地月空间关键任务轨道
   description: 详细解析远距离逆行轨道(DRO)的定义、动力学特性、共振关系、稳定性分析及其在地月空间中的应用
   image: /logo.png
-permalink: /glossary/dro/
+permalink: /glossary/orbits/dro/
 ---
 
 # 远距离逆行轨道
@@ -84,7 +84,7 @@ NASA 的月球轨道器（LRO）任务已验证了 DRO 在月球探测中的应�
 
 ## 在 A2PPO 低推力转移研究中的应用
 
-Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了从 L₂ NRHO 到月球 DRO 的自主低推力转移（S3 场景）[[4]]()：
+Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法研究了从 L₂ NRHO 到月球 DRO 的自主低推力转移（S3 场景）：
 
 - **出发轨道**：L₂ 南 NRHO（$C_J \approx 3.0395$，周期 6.99 天）
 - **目标轨道**：月球 DRO（$C_J \approx 2.9981$，周期 6.95 天）
@@ -94,14 +94,14 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 NRHO 与 DRO 之间的转移设计是低推力轨迹优化中的难题：两种轨道位于不同的动力学通道之间，不存在简单的流形连接路径。A2PPO 在无需初始猜测的情况下，自主学习到了与直接配点法高度一致（7.63 天 / 5.11 kg）的转移轨迹。
 
 ## 相关概念
-- [近直线晕轨道（NRHO）](/glossary/nrho/)
-- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
-- [星历模型](/glossary/ephemeris-model/)
-- [A2PPO（注意力增强近端策略优化）](/glossary/a2ppo/)
-- [星伞（Starshade）](/glossary/starshade/)
-- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
-- [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [星历模型](/glossary/dynamics/ephemeris-model/)
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
+- [星伞（Starshade）](/glossary/other/starshade/)
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
+- [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
 - 共振轨道
 - 拟周期轨道
 
@@ -112,4 +112,4 @@ NRHO 与 DRO 之间的转移设计是低推力轨迹优化中的难题：两种�
 - 陈昱桔. 面向地月空间态势感知的DRO轨道设计与控制研究[D]. 2024.
 - Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. 2026.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
-- [[4]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

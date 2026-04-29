@@ -19,7 +19,7 @@ twitter:
   title: 轨道辨识详解 | 地月空间态势感知
   description: 详细解析地月空间轨道辨识的定义、与传统数值积分方法的对比、基于特征参数的辨识流程，以及对观测弧段和观测误差的鲁棒性
   image: /logo.png
-permalink: /glossary/orbit-identification/
+permalink: /glossary/navigation/orbit-identification/
 ---
 
 # 轨道辨识
@@ -121,11 +121,11 @@ Qiao et al. (2025) 对影响轨道辨识的两大因素进行了系统性分析�
 
 ## 相关概念
 
-- [中心流形（Central Manifold）](/glossary/central-manifold/)
-- [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)
-- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
-- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
-- [圆型限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
+- [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
+- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 地月空间态势感知（Cislunar Space Situational Awareness）
 - 参考轨道（Reference Orbit）
 - 非合作目标（Non-cooperative Target）

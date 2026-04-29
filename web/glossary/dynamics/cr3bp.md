@@ -19,7 +19,7 @@ twitter:
   title: 圆形限制性三体问题 CR3BP 模型详解 - 地月空间动力学基础
   description: 详细解析圆形限制性三体问题 CR3BP 模型的定义、数学原理、在地月空间中的应用及航天器轨道设计方法
   image: /logo.png
-permalink: /glossary/cr3bp/
+permalink: /glossary/dynamics/cr3bp/
 ---
 
 # 圆形限制性三体问题
@@ -152,12 +152,12 @@ Zimovan (2017) 在 Purdue 大学的博士论文中系统总结了地月 L1/L2 NR
 - 平面椭圆限制性三体问题模型
 - 空间椭圆限制性三体问题模型
 - Hill 三体问题（HTBP）：CRTBP 的特殊情况，坐标中心移至较小主天体
-- [拟双圆四体问题（QBCP）](/glossary/qbcp/)：在 CRTBP 基础上引入太阳摄动的自洽模型
-- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)：平动点邻域哈密顿量的正则变换与标准化方法
-- [中心流形（Central Manifold）](/glossary/central-manifold/)：平动点邻域相空间分解中的中心方向不变流形
-- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)：可积哈密顿系统的标准正则坐标
-- [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)：高维相空间降维可视化工具
-- [轨道辨识（Orbit Identification）](/glossary/orbit-identification/)：基于特征参数的平动点轨道识别方法
+- [拟双圆四体问题（QBCP）](/glossary/dynamics/qbcp/)：在 CRTBP 基础上引入太阳摄动的自洽模型
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)：平动点邻域哈密顿量的正则变换与标准化方法
+- [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)：平动点邻域相空间分解中的中心方向不变流形
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)：可积哈密顿系统的标准正则坐标
+- [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)：高维相空间降维可视化工具
+- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)：基于特征参数的平动点轨道识别方法
 
 ## 参考文献
 

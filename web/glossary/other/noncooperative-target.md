@@ -15,7 +15,7 @@ twitter:
   title: 非合作目标（Noncooperative Target）| 空间安全
   description: 不与操作航天器共享意图或轨迹信息的空间物体，是空间安全研究的核心对象
   image: /logo.png
-permalink: /glossary/noncooperative-target/
+permalink: /glossary/other/noncooperative-target/
 ---
 
 # 非合作目标（Noncooperative Target）
@@ -68,9 +68,9 @@ Jing等（2025年）提出了基于LLM的非合作目标意图识别框架，将
 
 ## 相关概念
 
-- [航天器意图识别](/glossary/spacecraft-intention-recognition/)
-- [CW方程（Clohessy-Wiltshire）](/glossary/clohessy-wiltshire/)
-- [太空交通管控（STM）](/glossary/space-traffic-management/)
+- [航天器意图识别](/glossary/other/spacecraft-intention-recognition/)
+- [CW方程（Clohessy-Wiltshire）](/glossary/dynamics/clohessy-wiltshire/)
+- [太空交通管控（STM）](/glossary/other/space-traffic-management/)
 
 ## 参考文献
 

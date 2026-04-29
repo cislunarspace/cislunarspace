@@ -1,6 +1,8 @@
 ---
 title: 月球科学多模态大模型 V2.0
 description: 月球陨石坑识别等任务的 AI 多模态大模型
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## 简介

@@ -19,7 +19,7 @@ twitter:
   title: EXOSIMS 系外行星直接成像任务仿真软件详解
   description: 详细解析EXOSIMS的功能、架构、在星伞任务设计中的应用，以及动力学模型集成方法
   image: /logo.png
-permalink: /glossary/exosims/
+permalink: /glossary/other/exosims/
 ---
 
 # EXOSIMS
@@ -113,10 +113,10 @@ EXOSIMS 是开源软件，托管于 GitHub：
 
 ## 相关概念
 
-- [星伞（Starshade）](/glossary/starshade/)
-- [地月 L1/L2 晕轨道](/glossary/eml-halo/)
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
+- [星伞（Starshade）](/glossary/other/starshade/)
+- [地月 L1/L2 晕轨道](/glossary/orbits/eml-halo/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 系外行星直接成像（Direct Imaging）
 - 编队飞行（Formation Flying）
 

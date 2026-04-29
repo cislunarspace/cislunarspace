@@ -15,20 +15,20 @@ twitter:
   title: 课程学习（Curriculum Learning）
   description: 强化学习中从简单到复杂的渐进式训练策略
   image: /logo.png
-permalink: /glossary/curriculum-learning/
+permalink: /glossary/dynamics/curriculum-learning/
 ---
 
 # 课程学习（Curriculum Learning）
 
 ## 定义
 
-课程学习（Curriculum Learning，CL）是一种机器学习训练策略，其核心思想是让模型从**简单样本逐步过渡到复杂样本**进行学习，模拟人类教育中"循序渐进"的过程[[1]]()。在强化学习（RL）领域，CL 通过设计一系列难度递增的任务课程（curriculum），帮助 Agent 在复杂的高维连续控制问题中实现稳定收敛。
+课程学习（Curriculum Learning，CL）是一种机器学习训练策略，其核心思想是让模型从**简单样本逐步过渡到复杂样本**进行学习，模拟人类教育中"循序渐进"的过程。在强化学习（RL）领域，CL 通过设计一系列难度递增的任务课程（curriculum），帮助 Agent 在复杂的高维连续控制问题中实现稳定收敛。
 
 课程学习在高难度、长horizon的地月空间低推力轨迹优化中尤为重要：直接对最终难度任务进行训练往往因稀疏奖励和混沌动力学而难以收敛，课程学习通过降低初期任务难度使 Agent 逐步建立对问题的理解。
 
 ## 在 A2PPO 中的应用
 
-Ul Haq 等人（2026）将课程学习应用于 A2PPO 框架的地月空间低推力轨迹优化任务[[2]]()，通过渐进收紧成功阈值来实现课程设计：
+Ul Haq 等人（2026）将课程学习应用于 A2PPO 框架的地月空间低推力轨迹优化任务，通过渐进收紧成功阈值来实现课程设计：
 
 ### 课程结构
 
@@ -69,11 +69,11 @@ $$
 
 ## 相关概念
 
-- [A2PPO（注意力增强近端策略优化）](/glossary/a2ppo/)：课程学习的应用框架
-- [低推力转移 MDP](/glossary/lt-transfer-mdp/)：课程学习所服务的强化学习问题形式化
-- [广义优势估计（GAE）](/glossary/gae/)：与课程学习配合的优势估计方法
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)：课程学习的应用框架
+- [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)：课程学习所服务的强化学习问题形式化
+- [广义优势估计（GAE）](/glossary/dynamics/gae/)：与课程学习配合的优势估计方法
 
 ## 参考文献
 
-- [[1]]() Bengio Y, Louradour J, Collobert R, et al. Curriculum learning[C]. International Conference on Machine Learning, 2009.
-- [[2]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Bengio Y, Louradour J, Collobert R, et al. Curriculum learning[C]. International Conference on Machine Learning, 2009.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

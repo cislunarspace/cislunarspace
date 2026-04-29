@@ -15,14 +15,14 @@ twitter:
   title: Low-Thrust Transfer MDP Formulation
   description: Formulating cislunar low-thrust orbit transfer as a finite-horizon MDP
   image: /logo.png
-permalink: /en/glossary/lt-transfer-mdp/
+permalink: /en/glossary/dynamics/lt-transfer-mdp/
 ---
 
 # Low-Thrust Transfer MDP Formulation
 
 ## Definition
 
-In deep reinforcement learning frameworks such as A2PPO, the cislunar low-thrust orbit transfer problem is formulated as a finite-horizon Markov Decision Process (MDP), defined as the tuple $(S, A, p, R, \gamma)$, where $S$ is the state space, $A$ is the action space, $p(s'|s,a)$ is the state transition probability, $R$ is the reward function, and $\gamma \in [0,1]$ is the discount factor[[1]]().
+In deep reinforcement learning frameworks such as A2PPO, the cislunar low-thrust orbit transfer problem is formulated as a finite-horizon Markov Decision Process (MDP), defined as the tuple $(S, A, p, R, \gamma)$, where $S$ is the state space, $A$ is the action space, $p(s'|s,a)$ is the state transition probability, $R$ is the reward function, and $\gamma \in [0,1]$ is the discount factor.
 
 ## State Space Design
 
@@ -117,4 +117,4 @@ Numerical integration uses an adaptive Runge-Kutta 4(5) integrator (relative tol
 
 ## References
 
-- [[1]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

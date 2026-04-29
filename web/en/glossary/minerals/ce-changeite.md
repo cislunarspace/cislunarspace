@@ -19,7 +19,7 @@ twitter:
   title: Changeite-Ce | Cislunar Space Glossary
   description: Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples
   image: /logo.png
-permalink: /en/glossary/ce-changeite/
+permalink: /en/glossary/minerals/ce-changeite/
 ---
 
 # Changeite-Ce (Cerium Changeite)
@@ -57,8 +57,8 @@ Changeite-Ce belongs to the same **calcium rare-earth phosphate mineral** family
 
 ## Related Concepts
 
-- [Changeite-Mg (Magnesium Changeite)](/en/glossary/mg-changeite/)
-- [Changeite](/en/glossary/changeite/)
+- [Changeite-Mg (Magnesium Changeite)](/en/glossary/minerals/mg-changeite/)
+
 - Chang'e-5
 - Lunar mineralogy
 - Light rare earth elements

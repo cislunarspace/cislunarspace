@@ -1,6 +1,8 @@
 ---
 title: 数字月球云平台
 description: 中国科学院月球探测数据云平台
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## 简介

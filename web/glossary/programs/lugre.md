@@ -19,7 +19,7 @@ twitter:
   title: LuGRE实验详解 | 首次月球表面接收地球GNSS信号
   description: 解析NASA与意大利空间局联合开展的月球全球导航卫星系统接收器实验，首次实现月球表面接收地球GNSS信号
   image: /logo.png
-permalink: /glossary/lugre/
+permalink: /glossary/programs/lugre/
 ---
 
 # LuGRE 实验
@@ -46,9 +46,9 @@ LuGRE 实验证明了 GNSS 弱信号导航在月球表面的工程可行性，�
 
 ## 相关概念
 
-- [地球 GNSS 弱信号导航](/glossary/gnss-weak-signal-navigation/)
-- [阿尔忒弥斯计划](/glossary/artemis/)
-- [月光计划](/glossary/moonlight/)
+- [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
+- [阿尔忒弥斯计划](/glossary/programs/artemis/)
+- [月光计划](/glossary/navigation/moonlight/)
 
 ## 参考文献
 

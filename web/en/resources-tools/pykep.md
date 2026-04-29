@@ -1,6 +1,8 @@
 ---
 title: pykep
 description: ESA interplanetary trajectory design library based on Galbio and related algorithms
+date: 2026-04-26
+lastUpdated: 2026-04-26
 ---
 
 ## Overview

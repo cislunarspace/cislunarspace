@@ -19,7 +19,7 @@ twitter:
   title: Orbit Identification | Cislunar Space Situational Awareness
   description: Detailed explanation of orbit identification in cislunar space — identifying reference orbits from observed spacecraft state sequences
   image: /logo.png
-permalink: /en/glossary/orbit-identification/
+permalink: /en/glossary/orbits/orbit-identification/
 ---
 
 # Orbit Identification
@@ -119,11 +119,11 @@ This method provides a **non-iteration-through-long-numerical-integration** appr
 
 ## Related Concepts
 
-- [Central Manifold](/en/glossary/central-manifold/)
-- [Poincaré Section](/en/glossary/poincare-section/)
-- [Action-Angle Variables](/en/glossary/action-angle/)
-- [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Central Manifold](/en/glossary/dynamics/central-manifold/)
+- [Poincaré Section](/en/glossary/dynamics/poincare-section/)
+- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
+- [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Cislunar Space Situational Awareness
 - Reference Orbit
 - Non-cooperative Target

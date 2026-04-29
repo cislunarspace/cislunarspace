@@ -15,7 +15,7 @@ twitter:
   title: 广义优势估计（GAE）
   description: 强化学习中平衡方差与偏差的优势函数估计方法
   image: /logo.png
-permalink: /glossary/gae/
+permalink: /glossary/dynamics/gae/
 ---
 
 # 广义优势估计（GAE）
@@ -24,7 +24,7 @@ permalink: /glossary/gae/
 
 ## 定义
 
-广义优势估计（Generalized Advantage Estimation，GAE）是强化学习中一种用于估计优势函数（advantage function）的偏差-方差平衡技术，由 Schulman 等人在 2015 年提出[[1]]()。GAE 通过对多个时间差分（TD）残差进行指数加权平均，为策略梯度算法（如 PPO、A2PPO）提供低方差但几乎无偏的优势估计。
+广义优势估计（Generalized Advantage Estimation，GAE）是强化学习中一种用于估计优势函数（advantage function）的偏差-方差平衡技术，由 Schulman 等人在 2015 年提出。GAE 通过对多个时间差分（TD）残差进行指数加权平均，为策略梯度算法（如 PPO、A2PPO）提供低方差但几乎无偏的优势估计。
 
 ## 背景：优势函数与 TD 残差
 
@@ -64,7 +64,7 @@ $$
 
 ## 在 A2PPO 中的应用
 
-在 A2PPO 算法中，GAE 用于优势估计，其超参数设置[[2]]()为：
+在 A2PPO 算法中，GAE 用于优势估计，其超参数设置为：
 
 | 参数 | 值 | 含义 |
 |:---|:---:|:---|
@@ -79,10 +79,10 @@ GAE 的方差控制来源于其有限记忆特性：远处未来的 TD 残差以
 
 ## 相关概念
 
-- [A2PPO（注意力增强近端策略优化）](/glossary/a2ppo/)：GAE 在地月空间轨迹优化中的应用框架
-- [低推力转移 MDP](/glossary/lt-transfer-mdp/)：GAE 所服务的强化学习问题形式化
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)：GAE 在地月空间轨迹优化中的应用框架
+- [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)：GAE 所服务的强化学习问题形式化
 
 ## 参考文献
 
-- [[1]]() Schulman J, Moritz P, Levine S, et al. High-dimensional continuous control using generalized advantage estimation[J]. arXiv:1512.04455, 2015.
-- [[2]]() Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Schulman J, Moritz P, Levine S, et al. High-dimensional continuous control using generalized advantage estimation[J]. arXiv:1512.04455, 2015.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

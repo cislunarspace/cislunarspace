@@ -48,49 +48,67 @@ twitter:
 
 ### 动力学与数学基础
 
-- [圆形限制性三体问题（CR3BP）](/glossary/cr3bp/)
-- [拟双圆四体问题（QBCP）](/glossary/qbcp/)
-- [星历模型（Ephemeris Model）](/glossary/ephemeris-model/)
-- [Birkhoff-Gustavson 标准型](/glossary/birkhoff-gustavson/)
-- [中心流形（Central Manifold）](/glossary/central-manifold/)
-- [作用角变量（Action-Angle Variables）](/glossary/action-angle/)
-- [Poincaré 截面（Poincaré Section）](/glossary/poincare-section/)
-- [CW方程（Clohessy-Wiltshire）](/glossary/clohessy-wiltshire/)
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [拟双圆四体问题（QBCP）](/glossary/dynamics/qbcp/)
+- [星历模型（Ephemeris Model）](/glossary/dynamics/ephemeris-model/)
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
+- [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
+- [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
+- [CW方程（Clohessy-Wiltshire）](/glossary/dynamics/clohessy-wiltshire/)
+- [平动点（Libration Point）](/glossary/dynamics/libration-point/)
+- [Jacobi 积分（Jacobi Constant）](/glossary/dynamics/jacobi-integral/)
+- [状态转移矩阵（STM）](/glossary/dynamics/state-transition-matrix/)
+- [单值矩阵（Monodromy Matrix）](/glossary/dynamics/monodromy-matrix/)
+- [稳定性指数（Stability Index）](/glossary/dynamics/stability-index/)
+- [混沌效应（Chaos Effect）](/glossary/dynamics/chaos-effect/)
+- [二级微分修正法（Two-Level Differential Correction）](/glossary/dynamics/two-level-differential-correction/)
+- [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
+- [延拓法（Continuation Method）](/glossary/dynamics/continuation-method/)
+- [拼接点（Patch Point）](/glossary/dynamics/patch-point/)
+- [靶点法（Targeting Method）](/glossary/dynamics/targeting-method/)
+- [动态靶点法（Dynamic Target Method）](/glossary/dynamics/dynamic-target-method/)
+- [初值优化（Initial Value Optimization）](/glossary/dynamics/initial-value-optimization/)
+- [太阳辐射压（SRP）](/glossary/dynamics/solar-radiation-pressure/)
+- [差分进化算法（DE）](/glossary/dynamics/differential-evolution/)
 
 ### 任务轨道
 
-- [远距离逆行轨道（DRO）](/glossary/dro/)
-- [近直线晕轨道（NRHO）](/glossary/nrho/)
-- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/eml-halo/)
-- [轨道辨识（Orbit Identification）](/glossary/orbit-identification/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
+- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)
+- [拟周期轨道（Quasi-Periodic Orbit）](/glossary/orbits/quasi-periodic-orbit/)
+- [共振轨道（Resonance Orbit）](/glossary/orbits/resonance-orbit/)
+- [轨道保持（Orbit Keeping）](/glossary/orbits/orbit-keeping/)
 
 ### 导航技术与系统
 
-- [X射线脉冲星导航](/glossary/xray-pulsar-navigation/)
-- [地月空间时空基准（Cislunar Spatiotemporal Reference）](/glossary/cislunar-spatiotemporal-reference/)
+- [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
+- [地月空间时空基准（Cislunar Spatiotemporal Reference）](/glossary/navigation/cislunar-spatiotemporal-reference/)
 
 ### 月球矿物
 
-- [镁嫦娥石（Changeite-Mg）](/glossary/mg-changeite/)
-- [铈嫦娥石（Changeite-Ce）](/glossary/ce-changeite/)
+- [镁嫦娥石（Changeite-Mg）](/glossary/minerals/mg-changeite/)
+- [铈嫦娥石（Changeite-Ce）](/glossary/minerals/ce-changeite/)
 
 ### 项目与任务
 
-- [阿尔忒弥斯计划（Artemis）](/glossary/artemis/)
-- [LuGRE 实验](/glossary/lugre/)
+- [阿尔忒弥斯计划（Artemis）](/glossary/programs/artemis/)
+- [LuGRE 实验](/glossary/programs/lugre/)
 
 ### 其他技术
 
-- [星伞（Starshade）](/glossary/starshade/)
-- [EXOSIMS](/glossary/exosims/)
-- [纵向耦合振动（POGO）](/glossary/pogo/)
-- [核热推进（NTP）](/glossary/nuclear-thermal-propulsion/)
-- [太空交通管控（STM）](/glossary/space-traffic-management/)
-- [非合作目标（Noncooperative Target）](/glossary/noncooperative-target/)
-- [航天器意图识别（Spacecraft Intention Recognition）](/glossary/spacecraft-intention-recognition/)
-- [思维链提示（CoT）](/glossary/chain-of-thought-prompting/)
-- [低秩适配（LoRA）](/glossary/lora-low-rank-adaptation/)
-- [提示调优（P-tuning）](/glossary/prompt-tuning/)
+- [星伞（Starshade）](/glossary/other/starshade/)
+- [EXOSIMS](/glossary/other/exosims/)
+- [纵向耦合振动（POGO）](/glossary/other/pogo/)
+- [核热推进（NTP）](/glossary/other/nuclear-thermal-propulsion/)
+- [太空交通管控（STM）](/glossary/other/space-traffic-management/)
+- [非合作目标（Noncooperative Target）](/glossary/other/noncooperative-target/)
+- [航天器意图识别（Spacecraft Intention Recognition）](/glossary/other/spacecraft-intention-recognition/)
+- [思维链提示（CoT）](/glossary/other/chain-of-thought-prompting/)
+- [低秩适配（LoRA）](/glossary/other/lora-low-rank-adaptation/)
+- [提示调优（P-tuning）](/glossary/other/prompt-tuning/)
 
 ### 机构和组织
 
@@ -128,6 +146,7 @@ twitter:
 - [弹性分散式架构（Resilient/Disaggregated Architecture）](/glossary/doctrine/resilient-architecture/)
 - [作战测试与训练基础设施（OTTI）](/glossary/doctrine/otti/)
 - [金穹（Golden Dome）](/glossary/doctrine/golden-dome/)
+- [地月空间态势感知（Cislunar Space Situational Awareness）](/glossary/doctrine/cislunar-space-situational-awareness/)
 
 ### 天文观测技术
 
@@ -145,10 +164,46 @@ twitter:
 - [背景恒星消除（Background Star Elimination）](/glossary/observation/background-star-elimination/)
 - [分割图（Segmentation Map）](/glossary/observation/segmentation-map/)
 - [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
+- [连续覆盖率（CP）](/glossary/observation/continuous-coverage/)
+
+### DRO 轨道设计与控制
+
+- [脉冲推力（Impulse Thrust）](/glossary/other/impulse-thrust/)
+- [Floquet 模态法（Floquet Mode Method）](/glossary/other/floquet-mode/)
+- [太阳常数（Solar Constant）](/glossary/other/solar-constant/)
+- [反射系数（Reflection Coefficient）](/glossary/other/reflection-coefficient/)
+- [入轨误差（Insertion Error）](/glossary/other/insertion-error/)
+- [导航误差（Navigation Error）](/glossary/other/navigation-error/)
+- [执行机构误差（Actuator Error）](/glossary/other/actuator-error/)
+- [倍周期分岔（Period-Doubling Bifurcation）](/glossary/other/period-doubling-bifurcation/)
+
+### 卫星通信与测控
+
+- [北斗卫星系统（BeiDou Satellite System）](/glossary/communication/beidou-satellite-system/)
+- [星间链路（Inter-Satellite Link）](/glossary/communication/inter-satellite-link/)
+- [全时无缝通信（All-Time Seamless Communication）](/glossary/communication/all-time-seamless-communication/)
+- [星座组网（Constellation Networking）](/glossary/communication/constellation-networking/)
+- [微波链路（Microwave Link）](/glossary/communication/microwave-link/)
+- [激光微波通信（Laser-Microwave Communication）](/glossary/communication/laser-microwave-communication/)
 
 ## 更新说明
 
 本页将随着站点内容建设持续补充新的术语条目与分类目录，逐步形成更完整的地月空间术语体系。
+
+**2026-04-29 更新（四）**：根据段志慧等(2026)关于基于北斗卫星系统的地月空间全时通信论文，新增「卫星通信与测控」分类，共 6 个术语：
+- 北斗卫星系统（BeiDou Satellite System）
+- 星间链路（Inter-Satellite Link）
+- 全时无缝通信（All-Time Seamless Communication）
+- 星座组网（Constellation Networking）
+- 微波链路（Microwave Link）
+- 激光微波通信（Laser-Microwave Communication）
+
+**2026-04-29 更新（三）**：根据陈昱桔(2024)关于面向地月空间态势感知的DRO轨道设计与控制研究论文，新增 29 个术语：
+- 动力学与数学基础：平动点、Jacobi积分、状态转移矩阵、单值矩阵、稳定性指数、混沌效应、二级微分修正法、打靶法、延拓法、拼接点、靶点法、动态靶点法、初值优化、太阳辐射压、差分进化算法
+- 任务轨道：拟周期轨道、共振轨道、轨道保持
+- 军事太空条令：地月空间态势感知
+- 天文观测技术：连续覆盖率
+- DRO轨道设计与控制：脉冲推力、Floquet模态法、太阳常数、反射系数、入轨误差、导航误差、执行机构误差、倍周期分岔
 
 **2026-04-29 更新（二）**：根据Sun等(2026)关于地月空间移动天体光学巡天论文，新增「天文观测技术」分类，共 14 个术语：
 - 图像叠加（Image Stacking）、移位叠加（SAA）、合成跟踪（Synthetic Tracking）、恒星跟踪（Sidereal Tracking）

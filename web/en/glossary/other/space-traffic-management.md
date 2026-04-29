@@ -19,7 +19,7 @@ twitter:
   title: Space Traffic Management (STM) | Space Security and Governance
   description: Detailed analysis of STM concepts, key technical domains, and its importance in an increasingly congested orbital environment
   image: /logo.png
-permalink: /en/glossary/space-traffic-management/
+permalink: /en/glossary/other/space-traffic-management/
 ---
 
 # Space Traffic Management (STM)
@@ -70,9 +70,9 @@ In scenarios where large constellations are densely deployed, researchers have p
 
 ## Related Concepts
 
-- [Cislunar Space-Time Reference](/en/glossary/cislunar-spatiotemporal-reference/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)
+- [Cislunar Space-Time Reference](/en/glossary/navigation/cislunar-spatiotemporal-reference/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 
 ## References
 

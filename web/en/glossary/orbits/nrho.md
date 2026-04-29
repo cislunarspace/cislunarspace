@@ -75,15 +75,15 @@ NRHOs have become a popular candidate orbit for current cislunar space missions:
 - **Cislunar space situation awareness**: NRHOs, with their unique orbital position, are well-suited for deploying relay communications and observation platforms
 
 ## Related Concepts
-- [Distant Retrograde Orbit (DRO)](/en/glossary/dro/)
-- [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/eml-halo/)
-- [Starshade](/en/glossary/starshade/)
-- [Birkhoff-Gustavson Normal Form](/en/glossary/birkhoff-gustavson/)
-- [Central Manifold](/en/glossary/central-manifold/)
-- [Action-Angle Variables](/en/glossary/action-angle/)
-- [Orbit Identification](/en/glossary/orbit-identification/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
+- [Starshade](/en/glossary/other/starshade/)
+- [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
+- [Central Manifold](/en/glossary/dynamics/central-manifold/)
+- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
+- [Orbit Identification](/en/glossary/orbits/orbit-identification/)
 - Halo orbit
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/cr3bp/)
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Libration point (Lagrangian point)
 - Ephemeris model
 - Invariant manifold
