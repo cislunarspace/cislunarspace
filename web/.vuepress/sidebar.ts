@@ -318,6 +318,13 @@ const glossarySidebar = [
           '/glossary/dynamics/state-transition-matrix',
           '/glossary/dynamics/targeting-method',
           '/glossary/dynamics/two-level-differential-correction',
+          '/glossary/dynamics/batch-deployment',
+          '/glossary/dynamics/state-dependent-tsp',
+          '/glossary/dynamics/q-law',
+          '/glossary/dynamics/mass-discontinuity',
+          '/glossary/dynamics/equinoctial-elements',
+          '/glossary/dynamics/dynamic-programming',
+          '/glossary/dynamics/coasting-arc',
         ],
       },
       {
@@ -346,6 +353,7 @@ const glossarySidebar = [
           '/glossary/orbits/orbit-keeping',
           '/glossary/orbits/quasi-periodic-orbit',
           '/glossary/orbits/resonance-orbit',
+          '/glossary/orbits/hub-and-spoke',
         ],
       },
       {
@@ -410,6 +418,7 @@ const glossarySidebar = [
           '/glossary/other/period-doubling-bifurcation',
           '/glossary/other/reflection-coefficient',
           '/glossary/other/solar-constant',
+          '/glossary/other/orbital-residence-platform',
         ],
       },
       {

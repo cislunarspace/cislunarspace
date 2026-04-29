@@ -193,6 +193,13 @@ const glossarySidebar = [
           '/en/glossary/dynamics/stability-set',
           '/en/glossary/dynamics/backward-stability-set',
           '/en/glossary/dynamics/capture-set',
+          '/en/glossary/dynamics/batch-deployment',
+          '/en/glossary/dynamics/state-dependent-tsp',
+          '/en/glossary/dynamics/q-law',
+          '/en/glossary/dynamics/mass-discontinuity',
+          '/en/glossary/dynamics/equinoctial-elements',
+          '/en/glossary/dynamics/dynamic-programming',
+          '/en/glossary/dynamics/coasting-arc',
         ],
       },
       {
@@ -219,6 +226,7 @@ const glossarySidebar = [
           '/en/glossary/orbits/ballistic-capture',
           '/en/glossary/orbits/low-energy-transfer',
           '/en/glossary/orbits/full-lunar-coverage',
+          '/en/glossary/orbits/hub-and-spoke',
         ],
       },
       {
@@ -254,6 +262,7 @@ const glossarySidebar = [
           '/en/glossary/other/weak-stability-boundary',
           '/en/glossary/other/libration-point',
           '/en/glossary/other/orbit-insertion',
+          '/en/glossary/other/orbital-residence-platform',
         ],
       },
       {

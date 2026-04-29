@@ -61,8 +61,6 @@ permalink: /glossary/fundamentals/orbital-transfer-vehicle/
 - **在轨服务OTV**：执行在轨加注、维修等任务
 - **地月空间OTV**：支持地月空间的轨道转移任务
 
-## 应用场景
-
 ### 卫星星座部署
 
 OTV可大幅加速卫星星座的部署：
@@ -77,6 +75,15 @@ OTV是GEO卫星部署的重要手段：
 - 将有效载荷从GTO转移至GEO
 - 延长卫星寿命（节省推进剂用于轨道保持）
 - 支持GEO卫星的在轨维修和升级
+
+### 中高轨小卫星批量部署
+
+胡敏等（2026）提出采用OTV执行中高轨小卫星批量部署任务，构建了"中心辐射式"部署架构：
+
+- **架构特点**：OTV作为"太空巴士"，与在轨驻留平台共轨驻留，从平台出发完成一批小卫星部署后必须返回平台补加工质、实施维护
+- **质量阶跃特性**：每次小卫星分离后OTV总质量发生离散下降，直接影响后续轨道转移成本，需精确建模
+- **任务规划挑战**：本质上是多目标交汇问题（Multi-target Rendezvous, MTRP），具有NP-hard属性，离散的卫星访问序列与连续的转移轨迹需深度耦合优化
+- **求解方法**：采用"轨迹优化+序列规划"的部分解耦两阶段方法，上层将问题建模为状态依赖旅行商问题（SDTSP），下层采用Q-law控制律离线生成状态依赖转移成本矩阵
 
 ### 地月空间运输
 
@@ -106,9 +113,16 @@ KASA在其战略计划中明确提出发展OTV，计划分三阶段：2024-2025�
 - [霍曼转移（Hohmann Transfer）](/glossary/fundamentals/hohmann-transfer/)
 - [特征速度（Characteristic Velocity）](/glossary/fundamentals/characteristic-velocity/)
 - [轨道机动（Orbital Maneuver）](/glossary/fundamentals/orbital-maneuver/)
+- [批量部署（Batch Deployment）](/glossary/dynamics/batch-deployment/)
+- [状态依赖旅行商问题（SDTSP）](/glossary/dynamics/state-dependent-tsp/)
+- [Q-law控制律](/glossary/dynamics/q-law/)
+- [质量阶跃（Mass Discontinuity）](/glossary/dynamics/mass-discontinuity/)
+- [中心辐射式（Hub-and-spoke）](/glossary/orbits/hub-and-spoke/)
+- [在轨驻留平台（Orbital Residence Platform）](/glossary/other/orbital-residence-platform/)
 
 ## 参考文献
 
 - KASA, "Space Transportation Strategic Plan", 2024.
 - Euroconsult, "Satellite to be Built & Launched", 2022.
 - Firefly Aerospace, "Alpha OTV Development", 2024.
+- 胡敏, 肖金伟, 张天天, 陶雪峰. 面向中高轨小卫星批量部署的轨道转移飞行器任务规划[J]. 航天器工程, 2026, 25(3): 634-646.

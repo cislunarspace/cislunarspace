@@ -54,6 +54,9 @@ twitter:
 - [爱因斯坦等效原理（Einstein Equivalence Principle, EEP）](/glossary/fundamentals/einstein-equivalence-principle/)
 - [阿伦偏差（Allan Deviation, ADEV）](/glossary/fundamentals/allan-deviation/)
 - [引力位（Gravitational Potential）](/glossary/fundamentals/gravitational-potential/)
+- [平流层飞艇（Stratospheric Airship）](/glossary/fundamentals/stratospheric-airship/)
+- [临近空间（Near-space）](/glossary/fundamentals/near-space/)
+- [高空飞艇（High Altitude Airship, HAA）](/glossary/fundamentals/high-altitude-airship/)
 
 ### 动力学与数学基础
 
@@ -74,6 +77,8 @@ twitter:
 - [二级微分修正法（Two-Level Differential Correction）](/glossary/dynamics/two-level-differential-correction/)
 - [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
 - [延拓法（Continuation Method）](/glossary/dynamics/continuation-method/)
+- [伪弧长延拓法（Pseudo-Arclength Continuation）](/glossary/dynamics/pseudo-arclength-continuation/)
+- [Lindstedt-Poincare法](/glossary/dynamics/lindstedt-poincare/)
 - [拼接点（Patch Point）](/glossary/dynamics/patch-point/)
 - [靶点法（Targeting Method）](/glossary/dynamics/targeting-method/)
 - [动态靶点法（Dynamic Target Method）](/glossary/dynamics/dynamic-target-method/)
@@ -84,6 +89,30 @@ twitter:
 - [航天器追逃博弈（Spacecraft Pursuit-Evasion Game）](/glossary/dynamics/pursuit-evasion-game/)
 - [零控脱靶量（Zero-Effort Miss）](/glossary/dynamics/zero-effort-miss/)
 - [鞍点策略（Saddle-Point Strategy）](/glossary/dynamics/saddle-point-strategy/)
+- [改进的基准轨迹靶点法（Improved Baseline Control-Point Method）](/glossary/dynamics/improved-baseline-control-point/)
+- [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
+- [J2000地心赤道惯性坐标系](/glossary/dynamics/j2000-coordinate/)
+- [地心瞬时会合坐标系（GRC）](/glossary/dynamics/grc/)
+- [L2点瞬时会合坐标系（LRC）](/glossary/dynamics/lrc/)
+- [质心会合坐标系（Barycentric Synodic）](/glossary/dynamics/barycentric-synodic/)
+- [平动点飞行器轨道坐标系](/glossary/dynamics/libration-spacecraft-orbital-coordinate/)
+- [平动点飞行器本体坐标系](/glossary/dynamics/libration-spacecraft-body-coordinate/)
+- [区域驻留控制（Regional Station-keeping Control）](/glossary/dynamics/regional-station-keeping/)
+- [滑模控制（Sliding Mode Control）](/glossary/dynamics/sliding-mode-control/)
+- [反步滑模控制（Backstepping Sliding Mode Control）](/glossary/dynamics/backstepping-sliding-mode-control/)
+- [模糊反步控制（Fuzzy Backstepping Control）](/glossary/dynamics/fuzzy-backstepping-control/)
+- [深度强化学习（Deep Reinforcement Learning）](/glossary/dynamics/deep-reinforcement-learning/)
+- [六自由度运动方程（Six-DOF Motion Equations）](/glossary/dynamics/six-dof-motion-equations/)
+- [Newton-Euler方程（Newton-Euler Equations）](/glossary/dynamics/newton-euler-equations/)
+- [热力学模型（Thermodynamic Model）](/glossary/dynamics/thermodynamic-model/)
+- [两节点模型（Two-node Model）](/glossary/dynamics/two-node-model/)
+- [七节点模型（Seven-node Model）](/glossary/dynamics/seven-node-model/)
+- [热力耦合模型（Thermo-mechanical Coupling Model）](/glossary/dynamics/thermo-mechanical-coupling/)
+- [浮重失衡（Buoyancy-weight Imbalance）](/glossary/dynamics/buoyancy-weight-imbalance/)
+- [静升力（Static Lift）](/glossary/dynamics/static-lift/)
+- [变分模态分解（Variational Mode Decomposition, VMD）](/glossary/dynamics/variational-mode-decomposition/)
+- [粒子群优化（Particle Swarm Optimization, PSO）](/glossary/dynamics/particle-swarm-optimization/)
+- [高斯过程回归（Gaussian Process Regression, GPR）](/glossary/dynamics/gaussian-process-regression/)
 
 ### 任务轨道
 
@@ -103,6 +132,12 @@ twitter:
 - [定位导航授时（PNT）](/glossary/navigation/pnt/)
 - [GPS辅助地球增强导航系统（GAGAN）](/glossary/navigation/gagan/)
 - [印度区域导航卫星系统（IRNSS）](/glossary/navigation/irnss/)
+- [自主导航（Autonomous Navigation）](/glossary/navigation/autonomous-navigation/)
+- [日地月信息自主导航（SEM Navigation）](/glossary/navigation/sem-autonomous-navigation/)
+- [可观测性（Observability）](/glossary/navigation/observability/)
+- [扩展卡尔曼滤波（EKF）](/glossary/navigation/extended-kalman-filter/)
+- [高度调控（Altitude Regulation）](/glossary/navigation/altitude-regulation/)
+- [航迹规划（Trajectory Planning）](/glossary/navigation/trajectory-planning/)
 
 ### 月球矿物
 
@@ -155,7 +190,6 @@ twitter:
 
 ### 军事太空条令
 
-- [太空优势（Space Superiority）](/glossary/doctrine/space-superiority/)
 - [竞争性耐力（Competitive Endurance）](/glossary/doctrine/competitive-endurance/)
 - [DOTMLPF-P 条令框架](/glossary/doctrine/dotmlpf-p/)
 - [任务式指挥（Mission Command）](/glossary/doctrine/mission-command/)
@@ -198,6 +232,10 @@ twitter:
 - [分割图（Segmentation Map）](/glossary/observation/segmentation-map/)
 - [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
 - [连续覆盖率（CP）](/glossary/observation/continuous-coverage/)
+- [准零风层（Quasi-zero Wind Layer）](/glossary/observation/quasi-zero-wind-layer/)
+- [纬向风（Zonal Wind）](/glossary/observation/zonal-wind/)
+- [太阳辐射（Solar Radiation）](/glossary/observation/solar-radiation/)
+- [地球反照（Earth Albedo）](/glossary/observation/earth-albedo/)
 
 ### DRO 轨道设计与控制
 
@@ -300,3 +338,46 @@ twitter:
 **2026-04-29 更新（八）**：根据张乘铭(2021)《航天器追逃博弈制导策略研究》论文，新增5个术语：
 - 动力学与数学基础：微分对策（Differential Games）、航天器追逃博弈（Spacecraft Pursuit-Evasion Game）、零控脱靶量（Zero-Effort Miss）、鞍点策略（Saddle-Point Strategy）
 - 其他技术：追逃防（Pursuit-Evasion-Defense Game）
+
+**2026-04-29 更新（九）**：根据钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》论文，新增5个术语：
+- 导航技术与系统：自主导航（Autonomous Navigation）、日地月信息自主导航（SEM Navigation）、可观测性（Observability）、扩展卡尔曼滤波（EKF）
+- 动力学与数学基础：改进的基准轨迹靶点法（Improved Baseline Control-Point Method）
+
+**2026-04-29 更新（十）**：根据钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》论文，新增13个动力学与坐标系统术语：
+- 坐标系：J2000地心赤道惯性坐标系、地心瞬时会合坐标系（GRC）、L2点瞬时会合坐标系（LRC）、质心会合坐标系、平动点飞行器轨道坐标系、平动点飞行器本体坐标系
+- 动力学方法：不不变流形（Invariant Manifold）、Lindstedt-Poincare法、伪弧长延拓法
+
+**2026-04-29 更新（十一）**：根据《平流层飞艇长航时区域驻留控制关键技术研究综述》论文，新增25个平流层飞艇与临近空间技术术语：
+
+基础概念：
+- 平流层飞艇（Stratospheric Airship）
+- 临近空间（Near-space）
+- 高空飞艇（HAA, High Altitude Airship）
+
+动力学与控制：
+- 区域驻留控制（Regional Station-keeping Control）
+- 滑模控制（Sliding Mode Control）
+- 反步滑模控制（Backstepping Sliding Mode Control）
+- 模糊反步控制（Fuzzy Backstepping Control）
+- 深度强化学习（Deep Reinforcement Learning, DRL）
+- 六自由度运动方程（Six-DOF Motion Equations）
+- Newton-Euler方程（Newton-Euler Equations）
+- 热力学模型（Thermodynamic Model）
+- 两节点模型（Two-node Model）
+- 七节点模型（Seven-node Model）
+- 热力耦合模型（Thermo-mechanical Coupling Model）
+- 浮重失衡（Buoyancy-weight Imbalance）
+- 静升力（Static Lift）
+- 变分模态分解（VMD）
+- 粒子群优化（PSO）
+- 高斯过程回归（GPR）
+
+观测与环境：
+- 准零风层（Quasi-zero Wind Layer）
+- 纬向风（Zonal Wind）
+- 太阳辐射（Solar Radiation）
+- 地球反照（Earth Albedo）
+
+导航技术：
+- 高度调控（Altitude Regulation）
+- 航迹规划（Trajectory Planning）
