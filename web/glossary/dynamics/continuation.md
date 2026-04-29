@@ -28,6 +28,9 @@ permalink: /glossary/dynamics/continuation/
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
+> 校对记录：
+> 1. 2026年4月29日：纠正了参考文献错误
+
 ## 定义
 
 延拓（Continuation）是轨道力学和非线性动力学中一种重要的数值方法，其基本思想是：从一条已知的轨道解出发，通过逐步改变某个系统参数（如轨道周期、近月点高度、能量积分值、振幅等），利用上一步的解作为下一步的初始猜测，求解相邻的轨道解。通过这种方式，可以系统地探索一族轨道随参数变化的演化规律，绘制出完整的轨道族图谱。
@@ -119,7 +122,10 @@ $$\left\|\frac{d\mathbf{x}}{ds}\right\|^2 + \left(\frac{d\lambda}{ds}\right)^2 =
 
 ## 参考文献
 
-- 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 北京航空航天大学学报, 2026.
-- Doedel E J, et al. AUTO-07P: Continuation and bifurcation software for ordinary differential equations[M]. Concordia University, 2007.
-- Parker T S, Chua L O. Practical Numerical Algorithms for Chaotic Systems[M]. Springer, 1989.
-- Lara M, et al. Continuation techniques for the computation of periodic orbits in the restricted three-body problem[C]. AAS/AIAA Astrodynamics Specialist Conference, 2012.
+[1] 魏赞, 石玉, 张晨, 等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 北京航空航天大学学报, 2026: 1-16.
+
+[2] Parker T S, Chua L. Practical numerical algorithms for chaotic systems[M]. Springer Science & Business Media, 2012.
+
+[3] Doedel E, Champneys A, Fairgrieve T, et al. Continuation and bifurcation software for ordinary differential equations[J]. FTP from Pub/doedel/auto, 1997, 39.
+
+[4] Broucke R A. Periodic orbits in the restricted three body problem with Earth-moon masses[R]. 1968.
