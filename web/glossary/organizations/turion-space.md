@@ -80,6 +80,42 @@ Turion Space 的技术与地月空间有以下关联：
 - 太空态势感知: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 - 远距离逆行轨道: [/glossary/orbits/dro/](/glossary/orbits/dro/)
 
+## 定义
+
+Turion Space 是一家美国太空技术初创公司，专注于太空碎片清除、轨道转移和太空态势感知领域，其核心产品 DROID 卫星平台可执行轨道会合、碎片抓取和轨道转移任务。
+
+## 核心要素
+
+### 公司概况
+
+- **业务领域**：太空碎片清除、轨道转移、太空态势感知
+- **核心产品**：DROID（Dirty ROtating Instrument for Debris Observation and elimination）
+- **首次验证**：2024 年成功发射 DROID.002 卫星
+- **市场定位**：在轨服务市场的重要参与者
+
+### 核心业务
+
+- **DROID 轨道转移平台**：通用轨道转移和碎片处理平台
+- **轨道会合与接近操作（RPO）**：精确轨道机动，自主接近目标
+- **碎片清除**：机械抓取或网捕方式将碎片拖离原轨道
+- **SSA 数据服务**：在轨状态监测和碰撞预警
+
+### 地月空间关联
+
+- 碎片清除技术经适应性改进可应用于地月空间
+- 在轨检测和轨道服务可支持月球门户等高价值资产
+- DROID 轨道会合能力是地月空间在轨服务的技术基础
+
+## 应用价值
+
+Turion Space 的技术与地月空间直接相关，随着地月空间活动增加，碎片积累将日益突出。其 DROID 平台展示的轨道会合和碎片处理能力，经过适应性改进后可服务于地月空间的碎片清除、价值卫星维护和轨道服务需求。
+
+## 相关概念
+
+- [轨道博弈](/research-frontiers/directions/orbital-game/)
+- [太空态势感知](/glossary/other/space-traffic-management/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+
 ## 参考文献
 
 - Turion Space 官网: https://turionspace.com

@@ -78,6 +78,29 @@ A2PPO 则可在训练后实时推理，提供近即时的轨迹解。
 - **SNOPT**：序列二次规划求解器
 - **CasADi**：符号计算框架，便于构建 NLP 并调用上述求解器
 
+## 核心要素
+
+### 数学定义
+直接配点法将转移区间 $[0, t_f]$ 划分为 $N$ 个子区间，在配点处同时离散化状态和控制变量，将连续最优控制问题转化为有限维非线性规划问题（NLP）。
+
+### 关键性质
+Hermite-Simpson 配点格式用三次多项式插值状态，在区间中点施加动力学缺陷约束，精度为三阶。直接法无需解析推导共状态方程，对初始猜测较鲁棒。
+
+### 数值方法
+NLP 通常使用 Ipopt（内点法）或 SNOPT（序列二次规划）求解器，CasADi 框架便于构建 NLP 并调用求解器。
+
+## 应用价值
+
+直接配点法是当前航天器轨迹优化领域最广泛使用的数值方法之一，可用于低推力转移轨迹设计、多圈轨道转移优化等场景。结合深度强化学习提供的初始猜测，可显著提高求解效率和燃料最优性。
+
+## 相关概念
+
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
+- [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
+- [状态转移矩阵（State Transition Matrix, STM）](/glossary/dynamics/state-transition-matrix/)
+- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+
+
 ## 参考文献
 
 - Betts J T. Survey of numerical methods for trajectory optimization[J]. Journal of Guidance, Control, and Dynamics, 1998.

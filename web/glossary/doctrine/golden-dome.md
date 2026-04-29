@@ -93,3 +93,7 @@ Golden Dome 对地月空间防御具有潜在的深远影响：
 
 - United States Space Force. Space Force Vector 2025. 2025.
 - United States Space Force. Spacepower: Doctrine for Space Forces. 2020.
+
+## 应用价值
+
+Golden Dome推进的天基太空控制与综合防御技术对地月空间防御具有重要应用价值。其天基传感器和监视技术可用于构建地月空间态势感知网络，实现对地月空间的全面监视。Golden Dome的综合防御系统架构可扩展至月球轨道和拉格朗日点的防御需求，为地月空间关键基础设施提供多层次防护能力，支撑太空军在地月空间的技术优势。

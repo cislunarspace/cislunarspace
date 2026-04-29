@@ -95,3 +95,7 @@ permalink: /glossary/doctrine/counterspace-operations/
 - United States Space Force. Space Force Vector 2025. 2025.
 - United States Space Force. Space Doctrine Publication 4-0: Sustainment. 2020.
 - Secure World Foundation. Global Counterspace Capabilities: An Open Source Assessment. 2024.
+
+## 应用价值
+
+反空间作战能力是维护太空优势和保护联合部队的关键手段。在地月空间扩展的背景下，反空间作战面临高轨目标探测困难、远距离通信延迟和碎片环境长期影响等新挑战。发展精确可控的非动能反空间技术，对于在地月空间实施负责任的反空间行动、保护关键太空基础设施以及维护太空环境可持续性具有重要战略意义。

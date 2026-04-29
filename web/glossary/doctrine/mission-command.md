@@ -90,3 +90,7 @@ permalink: /glossary/doctrine/mission-command/
 
 - United States Space Force. *Space Force Vector 2025*. 2025.
 - United States Army. *ADP 6-0: Mission Command: Command and Control of Army Forces*. 2019.
+
+## 应用价值
+
+任务式指挥在地月空间作战中具有特殊的应用价值。由于地月距离导致的通信延迟（约1.3秒单向），集中式指挥难以满足实时决策需求，任务式指挥的去中心化执行理念成为地月空间作战的必然选择。通过赋予前线作战人员充分的自主决策权，任务式指挥确保地月空间任务在通信受限条件下仍能高效执行，同时其信任与赋权文化有助于培养具备独立判断能力的地月空间作战人才。

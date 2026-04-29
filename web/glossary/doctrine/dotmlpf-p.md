@@ -128,3 +128,7 @@ DOTMLPF-P 框架在太空军中的应用贯穿于力量设计、力量发展、�
 
 - United States Space Force. *Space Force Vector 2025*. 2025.
 - Joint Chiefs of Staff. *Manual for the Operation of the Joint Capabilities Integration and Development System (JCIDS)*. 2018.
+
+## 应用价值
+
+DOTMLPF-P框架为太空军地月空间能力建设提供了系统性分析工具。在地月空间领域，该框架确保条令更新、组织优化、训练改进、装备发展、领导力培养、人员管理和设施建设等八个维度协调推进，避免能力发展的片面性。通过DOTMLPF-P框架的全面审视，太空军能够识别地月空间作战能力差距，制定针对性的弥补方案，加速地月空间作战能力的形成。

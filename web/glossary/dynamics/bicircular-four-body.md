@@ -87,3 +87,7 @@ $$\ddot{\mathbf{r}} + 2\boldsymbol{\omega}_1 \times \dot{\mathbf{r}} + \boldsymb
 - Simó C, Gómez G, Llibre J, et al. Station keeping of a quasi-periodic halo orbit using invariant manifolds[C]. 2nd International Symposium on Spacecraft Flight Dynamics, 1986.
 - Gómez G, Llibre J, Martínez R, et al. Dynamics and Mission Design Near Libration Point Orbits — Vol. 1: Fundamentals[M]. World Scientific, 2001.
 - 刘林, 胡松杰, 王歆. 航天器轨道理论: 地月空间探测轨道设计[M]. 国防工业出版社, 2006.
+
+## 应用价值
+
+双圆四体模型为分析太阳引力对地月轨道的摄动影响提供了实用的近似工具。在地月空间任务设计中，该模型可用于评估太阳引力对平动点轨道稳定性的影响，为初始轨道构型设计提供定性参考。尽管存在非自洽性限制，双圆四体模型在短时间内仍具有较好的近似精度，是精确星历模型设计前进行快速参数扫描和概念验证的有效工具。

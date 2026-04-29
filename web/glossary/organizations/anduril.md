@@ -77,6 +77,41 @@ permalink: /glossary/organizations/anduril/
 - 太空态势感知: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 - 轨道博弈: [/research-frontiers/directions/orbital-game/](/research-frontiers/directions/orbital-game/)
 
+## 定义
+
+安杜里尔工业公司（Anduril Industries）是一家美国国防技术公司，专注于太空防御、轨道机器人和软件定义作战网络，为美国军方提供卫星平台、姿态控制系统及太空态势感知能力。
+
+## 核心要素
+
+### 公司概况
+
+- **成立时间**：2017 年
+- **总部**：加利福尼亚州欧文
+- **创始人**：Palmer Luckey（Oculus 创始人）
+- **定位**：以商业软件模式快速迭代武器系统的国防科技公司
+
+### 核心业务
+
+- **卫星平台与姿态控制**：高精度 ADCS 硬件解决方案
+- **轨道机器人**：rover 型在轨维修与碎片清除系统
+- **Lattice 平台**：AI 驱动的多域作战指控系统，支持太空态势感知
+- **Prometheus 发动机**：3D 打印可复用火箭发动机
+
+### 地月空间关联
+
+- 碎片清除与在轨维修技术可扩展至地月空间
+- Lattice 平台数据融合能力可用于地月空间交通管控
+- 可复用推进技术是未来地月货运系统的基础能力
+
+## 应用价值
+
+安杜里尔通过其轨道机器人和软件定义网络技术，为地月空间的碎片清除、在轨维修和态势感知提供商业化解决方案。其快速迭代的开发模式和 AI 驱动的指控系统，有望降低地月空间运维成本并提升安全管控能力。
+
+## 相关概念
+
+- [太空态势感知](/glossary/other/space-traffic-management/)
+- [轨道博弈](/research-frontiers/directions/orbital-game/)
+
 ## 参考文献
 
 - Anduril Industries 官网: https://www.anduril.com

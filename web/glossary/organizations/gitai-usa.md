@@ -78,6 +78,41 @@ GITAI 是与地月空间直接相关的最重要的商业公司之一：
 - 轨道博弈: [/research-frontiers/directions/orbital-game/](/research-frontiers/directions/orbital-game/)
 - 太空交通管理: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 
+## 定义
+
+GITAI 是一家日本太空机器人公司，在美国设有 GITAI USA Inc. 子公司，专注于开发太空专用机械臂和移动机器人，旨在通过机器人技术大幅降低太空作业成本，使在轨服务和月球开发在经济上可行。
+
+## 核心要素
+
+### 公司概况
+
+- **成立时间**：2016 年（日本东京）
+- **美国总部**：加利福尼亚州
+- **使命**：通过太空机器人技术降低太空作业人力成本
+- **支持机构**：JAXA、MDA SHIELD IDIQ 供应商
+
+### 核心业务
+
+- **太空机械臂**：6 自由度冗余双机械臂系统，支持远程操控和自主作业
+- **月球车**：月面移动作业平台，支持自主导航
+- **在轨服务**：碎片清除和航天器在轨维修
+- **JAXA 合同**：为载人月球车提供机械臂系统
+
+### 地月空间关联
+
+- JAXA 合同意味着机械臂将出现在月球南极区域
+- 在轨服务能力可扩展至地月空间失效卫星维护和碎片清除
+- 太空机器人规模化应用是地月经济开发的关键使能技术
+
+## 应用价值
+
+GITAI 是与地月空间直接相关的最重要的商业公司之一，其太空机器人技术可将单次在轨作业成本降低一到两个数量级。JAXA 载人月球车机械臂合同使其技术直接服务于月球表面人类活动，是月球基础设施建设的重要参与者。
+
+## 相关概念
+
+- [轨道博弈](/research-frontiers/directions/orbital-game/)
+- [太空态势感知](/glossary/other/space-traffic-management/)
+
 ## 参考文献
 
 - GITAI 官网: https://www.gitai.space

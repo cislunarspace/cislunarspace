@@ -92,3 +92,7 @@ Hill模型的适用范围和局限性包括：
 - Hill G W. Researches in the lunar theory[J]. American Journal of Mathematics, 1878, 1(1): 5-26.
 - Brown E W. An introductory treatise on the lunar theory[M]. Cambridge University Press, 1896.
 - Szebehely V. Theory of Orbits: The Restricted Problem of Three Bodies[M]. Academic Press, 1967.
+
+## 应用价值
+
+Hill三体模型为分析航天器在月球等第二主天体附近的运动提供了简化的动力学描述。其线性化假设使得部分轨道问题可以获得解析解，便于快速评估轨道稳定性和设计初步轨道方案。Hill-Brown月球运动理论在月球探测任务的初步设计阶段具有重要参考价值，可与更精确的数值模型配合使用，在保证计算效率的同时满足任务设计的精度需求。

@@ -85,6 +85,41 @@ permalink: /glossary/organizations/northrop-grumman/
 - 近直线晕轨道: [/glossary/orbits/nrho/](/glossary/orbits/nrho/)
 - 远距离逆行轨道: [/glossary/orbits/dro/](/glossary/orbits/dro/)
 
+## 定义
+
+诺斯罗普·格鲁曼公司（Northrop Grumman Corporation）是美国第三大国防承包商，在航空航天、导弹防御、电子战和太空系统领域具有深厚积累，是天鹅座货运飞船、Next Gen OPIR 导弹预警卫星和月球门户对接系统的核心供应商。
+
+## 核心要素
+
+### 公司概况
+
+- **成立时间**：1994 年合并（诺斯罗普 1939 年 + 格鲁曼 1930 年）
+- **总部**：弗吉尼亚州福尔斯彻奇
+- **规模**：美国第三大国防承包商
+- **核心领域**：航空航天、导弹防御、电子战、网络空间
+
+### 核心业务
+
+- **天鹅座货运飞船**：ISS 商业补给，已完成 20+ 次任务
+- **Next Gen OPIR**：下一代过顶持久红外导弹预警卫星
+- **月球门户组件**：代达罗斯对接系统和 Ka 波段通信模块
+- **卫星系统**：军事通信卫星和导弹预警卫星
+
+### 地月空间关联
+
+- 天鹅座飞船能力可扩展至地月空间后勤补给
+- Next Gen OPIR 从 GEO 监视地月空间导弹和威胁目标
+- 对接和通信技术是月球门户运行的技术基础
+
+## 应用价值
+
+诺斯罗普·格鲁曼在地月空间领域的重要性体现在后勤运输、态势感知和基础设施三个维度。其天鹅座飞船可支持地月 L1 或 NRHO 前哨站补给，代达罗斯对接系统和通信模块是月球门户运行的关键接口。
+
+## 相关概念
+
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+
 ## 参考文献
 
 - Northrop Grumman 官网: https://www.northropgrumman.com

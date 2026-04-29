@@ -78,6 +78,29 @@ CR3BP-LT 模型是 A2PPO 等深度强化学习方法用于低推力轨迹优化�
 2. **引入了连续推力控制**——通过无量纲推力向量 $u$ 实现连续加速/减速
 3. **保持了计算可负担性**——相比高保真 Ephemeris 模型，CR3BP-LT 可支持大规模 RL 训练所需的百万次积分
 
+## 核心要素
+
+### 数学定义
+CR3BP-LT 在标准 CR3BP 运动方程基础上加入连续低推力加速度项 $\frac{\tilde{T}_{\max}}{\tilde{m}} u$，质量演化服从齐奥尔科夫斯基火箭方程 $\dot{\tilde{m}} = -\frac{\tilde{T}_{\max}}{\tilde{c}} \|u\|$，推力控制向量满足 $\|u\| \leq 1$。
+
+### 关键性质
+CR3BP-LT 在无推力时退化为标准 CR3BP，Jacobi 常数重新守恒。连续低推力打破能量守恒，使转移轨迹可自由设计，但引入质量变化增加了系统维度和非线性。
+
+### 数值方法
+轨迹优化采用直接配点法或强化学习方法。数值积分需同时求解位置、速度和质量方程，计算成本高于标准 CR3BP。
+
+## 应用价值
+
+CR3BP-LT 模型是深度强化学习方法（如 A2PPO）用于低推力轨迹优化的核心环境，保留了三体动力学的混沌特性和流形结构，同时引入连续推力控制，支持电推进、离子推进等低推力系统的地月空间转移轨迹设计。
+
+## 相关概念
+
+- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
+- [直接配点法（Direct Collocation）](/glossary/dynamics/direct-collocation/)
+- [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)
+
+
 ## 参考文献
 
 - Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

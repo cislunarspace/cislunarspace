@@ -104,3 +104,7 @@ $$\mathbf{x}(\theta) = \sum_{k=-N}^{N} \mathbf{c}_k e^{ik\theta}$$
 - Gómez G, Mondelo J M. The dynamics around the collinear equilibrium points of the RTBP[J]. Physica D, 2001, 157(4): 283-321.
 - Jorba A. Numerical computation of the normal behaviour of invariant curves of n-dimensional maps[J]. Nonlinearity, 2001, 14(5): 943-976.
 - Masdemont J J. High-order expansions of invariant manifolds of libration point orbits with applications to mission design[J]. Dynamics of Continuous, Discrete and Impulsive Systems, 2005, 12(1): 1-16.
+
+## 应用价值
+
+频闪映射为地月平动点附近的拟周期轨道设计提供了高效的计算工具。通过将连续时间动力学简化为离散映射下的不变曲线问题，频闪映射结合Fourier级数参数化和类牛顿法迭代，能够高效地计算Lissajous等拟周期轨道。该方法还支持拟周期轨道族的系统性探索和稳定性分析，为地月空间通信中继、科学观测等任务的轨道设计提供技术支撑。

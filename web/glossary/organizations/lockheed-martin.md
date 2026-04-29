@@ -87,6 +87,43 @@ permalink: /glossary/organizations/lockheed-martin/
 - 近直线晕轨道: [/glossary/orbits/nrho/](/glossary/orbits/nrho/)
 - 阿尔忒弥斯计划: [/research-frontiers/directions/orbital-game/artemis/](/research-frontiers/directions/orbital-game/artemis/)
 
+## 定义
+
+洛克希德·马丁公司（Lockheed Martin Corporation）是全球最大的国防承包商之一，业务涵盖航空、航天、导弹、火控和旋转翼飞机五大领域，是 NASA 猎户座飞船、月球门户 HALO 模块和 DRACO 核热推进项目的核心承包商。
+
+## 核心要素
+
+### 公司概况
+
+- **成立时间**：1995 年合并（洛克希德 1912 年 + 马丁·玛丽埃塔 1913 年）
+- **总部**：马里兰州贝塞斯达
+- **规模**：全球最大国防承包商之一
+- **核心客户**：NASA、美国太空军、国防部
+
+### 核心业务
+
+- **猎户座载人飞船**：阿尔忒弥斯计划唯一地月空间载人航天器
+- **月球门户 HALO 模块**：门户空间站首个居住舱段
+- **DRACO 核热推进**：DARPA/NASA 联合核热火箭飞行演示（目标 2027 年）
+- **GPS III 卫星**：第三代 GPS 卫星主要制造商
+
+### 地月空间关联
+
+- 猎户座是目前唯一能执行地月空间载人飞行和返回的航天器
+- HALO 模块是月球门户商业和国际合作的核心节点
+- DRACO 项目将根本改变地月空间运输效率
+- GPS III 精度提升改善地月空间定位能力
+
+## 应用价值
+
+洛克希德·马丁是地月空间任务体系中最核心的承包商之一，从载人飞船、空间站模块到核热推进技术全面覆盖。DRACO 项目若成功将使地月转移时间从数天缩短到一天以内，根本改变地月空间的运输效率和任务规划模式。
+
+## 相关概念
+
+- [核热推进](/glossary/other/nuclear-thermal-propulsion/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
+- [阿尔忒弥斯计划](/glossary/programs/artemis/)
+
 ## 参考文献
 
 - Lockheed Martin 官网: https://www.lockheedmartin.com

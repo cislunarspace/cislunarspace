@@ -77,6 +77,41 @@ Quindar 在地月空间领域的市场定位相对细分：
 - 地月空间导航展望: [/glossary/other/cislunar-navigation-prospects/](/glossary/other/cislunar-navigation-prospects/)
 - 太空交通管理: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 
+## 定义
+
+Quindar 是一家美国航空航天技术公司，专注于卫星遥测、跟踪与控制（TT&C）地面站系统及相关软件平台的开发，为 NASA 和商业卫星运营商提供从硬件设备到软件解决方案的完整地面站产品线。
+
+## 核心要素
+
+### 公司概况
+
+- **业务领域**：卫星 TT&C 地面站系统
+- **客户群体**：NASA、商业卫星运营商
+- **产品线**：从硬件天线到运营管理软件的完整地面站方案
+- **市场定位**：地面段细分市场专业供应商
+
+### 核心业务
+
+- **TT&C 地面站天线**：S、C、X、Ku、Ka 等多频段卫星跟踪与通信天线
+- **卫星运营管理软件**：健康监测、轨道控制、遥测数据处理
+- **发射跟踪系统**：火箭发射过程遥测接收与跟踪支持
+- **深空通信研发**：面向地月空间通信的地面站升级
+
+### 地月空间关联
+
+- TT&C 地面站网络为地月转移航天器提供遥测和上行指令支持
+- 商业地面站网络为地月转移提供覆盖冗余
+- 深空通信地面站升级应对地月空间信号衰减挑战
+
+## 应用价值
+
+Quindar 在地月空间领域的市场定位相对细分但不可或缺，其 TT&C 设备是地面段基础设施的组成部分。随着地月空间任务增加，高灵敏度深空通信地面站的需求将持续增长，Quindar 的技术升级方向与这一趋势高度契合。
+
+## 相关概念
+
+- [地月空间导航展望](/glossary/other/cislunar-navigation-prospects/)
+- [太空态势感知](/glossary/other/space-traffic-management/)
+
 ## 参考文献
 
 - NASA Space Communications and Navigation (SCaN), "Commercial ground station providers", 2024.

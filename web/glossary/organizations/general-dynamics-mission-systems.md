@@ -77,6 +77,41 @@ GDMS 在地月空间领域的贡献主要体现在基础设施层面：
 - 太空态势感知: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 - 地月空间导航展望: [/glossary/other/cislunar-navigation-prospects/](/glossary/other/cislunar-navigation-prospects/)
 
+## 定义
+
+通用动力任务系统公司（General Dynamics Mission Systems）是通用动力公司的子公司，专注于国防和情报市场的任务系统集成，为美国太空发展署、海军和陆军提供太空架构地面系统、通信系统和情报处理平台。
+
+## 核心要素
+
+### 公司概况
+
+- **总部**：亚利桑那州斯科茨代尔
+- **母公司**：通用动力公司（General Dynamics Corporation）
+- **前身**：通用动力高级信息系统公司（GD-AIS），2012 年更名
+- **核心领域**：国防与情报市场任务系统集成
+
+### 核心业务
+
+- **太空架构地面系统**：NDSA 地面数据处理和传输
+- **卫星通信地面站**：多频段卫星通信地面站，支持 Q/V 波段
+- **情报处理系统**：SIGINT 和 IMINT 数据处理，集成 AI/ML 能力
+- **网络安全方案**：抗网络攻击和安全通信
+
+### 地月空间关联
+
+- 卫星地面站技术是地月空间通信网络的重要组成部分
+- 情报处理平台可处理地月空间物体跟踪数据
+- 高频段卫通技术可支持地月间大容量数据传输
+
+## 应用价值
+
+通用动力任务系统公司在地月空间领域的贡献主要体现在基础设施层面，其卫星地面站技术、高频段通信系统和安全通信方案是构建地月空间通信骨干网络和态势感知数据处理平台的关键支撑。
+
+## 相关概念
+
+- [太空态势感知](/glossary/other/space-traffic-management/)
+- [地月空间导航展望](/glossary/other/cislunar-navigation-prospects/)
+
 ## 参考文献
 
 - General Dynamics Mission Systems 官网: https://www.gd.com

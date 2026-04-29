@@ -81,6 +81,41 @@ True Anomaly 在地月空间领域的关联主要体现在防御态势感知层�
 - 轨道博弈: [/research-frontiers/directions/orbital-game/](/research-frontiers/directions/orbital-game/)
 - 太空态势感知: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 
+## 定义
+
+True Anomaly 是一家美国太空防御技术初创公司，专注于太空领域态势感知和轨道接近操作，其核心产品 Jackal 自主轨道飞行器可执行近距离观测、成像和情报收集任务，是美国太空军战术响应空间（TacRS）的重要供应商。
+
+## 核心要素
+
+### 公司概况
+
+- **成立时间**：约 2020 年
+- **总部**：科罗拉多州
+- **定位**：唯一专注于太空防御领域的私营公司
+- **融资**：2024 年 12 月完成 1 亿美元融资
+
+### 核心业务
+
+- **Jackal 自主轨道飞行器**：太空域态势感知和轨道接近操作卫星平台
+- **战术响应空间（TacRS）**：从任务分配到发射数天至数周内完成
+- **GravityWorks 地面运营中心**：太空任务地面控制与数据分析
+- **多星协同系统**：多卫星协同感知和任务规划
+
+### 地月空间关联
+
+- 轨道接近和成像技术可扩展至地月空间太空物体跟踪
+- 轨道接近和机动能力可用于地月空间轨道对抗
+- TacRS 快速响应理念对地月空间高价值资产保护具有重要意义
+
+## 应用价值
+
+True Anomaly 在地月空间领域的关联主要体现在防御态势感知层面，其 Jackal 平台的轨道接近和成像技术经过改进后可应用于地月空间的太空物体跟踪，填补目前的地月空间态势感知能力空白，快速响应架构对高价值资产保护具有战略意义。
+
+## 相关概念
+
+- [轨道博弈](/research-frontiers/directions/orbital-game/)
+- [太空态势感知](/glossary/other/space-traffic-management/)
+
 ## 参考文献
 
 - True Anomaly 官网: https://www.trueanomaly.space

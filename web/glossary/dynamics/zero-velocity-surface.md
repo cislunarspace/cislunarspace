@@ -80,3 +80,7 @@ $$C = 2U(x, y, z) - (\dot{x}^2 + \dot{y}^2 + \dot{z}^2)$$
 - Szebehely V. Theory of Orbits: The Restricted Problem of Three Bodies[M]. Academic Press, 1967.
 - Koon W S, Lo M W, Marsden J E, et al. Dynamical Systems, the Three-Body Problem and Space Mission Design[M]. 2011.
 - 刘林, 胡松杰, 王歆. 航天器轨道理论: 地月空间探测轨道设计[M]. 国防工业出版社, 2006.
+
+## 应用价值
+
+零速度曲面为地月空间轨道设计提供了直观的几何约束分析工具。通过雅可比常数与曲面形态的关系，设计者能够快速判断转移轨道的能量可行性，识别可达区域与禁飞区，并估算转移所需的最小能量预算。零速度曲面在平动点处的开口还揭示了地月转移和深空探测的关键通道，为地月空间任务的轨道方案选择和能量优化提供几何层面的决策支持。

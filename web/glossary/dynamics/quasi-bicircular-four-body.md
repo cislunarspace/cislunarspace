@@ -98,3 +98,7 @@ QBCP在地月低能量转移设计中的应用：
 - Andreu M A. The quasi-bicircular problem[D]. University of Barcelona, 1998.
 - Simó C, Gómez G, Llibre J, et al. Dynamics and mission design near libration point orbits — Vol. 3: Advanced methods for collinear points[M]. World Scientific, 2001.
 - Gómez G, Mondelo J M. The dynamics around the collinear equilibrium points of the RTBP[J]. Physica D, 2001, 157(4): 283-321.
+
+## 应用价值
+
+拟双圆四体模型为地月低能量转移轨道设计提供了自洽的四体动力学框架。基于QBCP的不变流形分析，设计者能够利用地月L1和L2点的稳定与不稳定流形设计从地球轨道到月球轨道的低能量转移通道，显著节省燃料消耗。QBCP还支持地月平动点附近的周期轨道和拟周期轨道设计，为月球背面通信中继、科学观测等任务提供轨道方案参考。

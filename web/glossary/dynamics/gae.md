@@ -77,6 +77,22 @@ $$
 
 GAE 的方差控制来源于其有限记忆特性：远处未来的 TD 残差以 $(\gamma\lambda)^k$ 指数衰减。更重要的是，GAE 的方差与 $\lambda$ 成正相关——增大 $\lambda$ 会增加估计的偏差但减少方差，因为更多依赖实际累积回报。
 
+## 核心要素
+
+### 数学定义
+GAE 通过对多个 TD 残差进行指数加权平均估计优势函数：$\hat{A}_t^{\text{GAE}(\lambda, \gamma)} = \sum_{k=0}^{\infty} (\gamma\lambda)^{k} \delta_{t+k}$，其中 $\delta_t = r_t + \gamma V(s_{t+1}) - V(s_t)$。
+
+### 关键性质
+参数 $\lambda \in [0,1]$ 控制偏差-方差权衡：$\lambda = 0$ 退化为一步 TD（低方差、高偏差），$\lambda = 1$ 类似于 $n$ 步回报（低偏差、高方差）。
+
+### 数值方法
+使用递归形式 $\hat{A}_t = \delta_t + \gamma\lambda(1-d_t)\hat{A}_{t+1}$ 计算，其中 $d_t$ 为终止信号。A2PPO 中 $\gamma = 0.99$、$\lambda = 0.915$。
+
+## 应用价值
+
+GAE 是 PPO 等策略梯度算法的关键组件，为地月空间低推力轨迹优化提供了稳定的优势估计。在 A2PPO 中，GAE 与注意力机制的结合显著提升了训练稳定性。
+
+
 ## 相关概念
 
 - [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)：GAE 在地月空间轨迹优化中的应用框架

@@ -92,3 +92,7 @@ Li等将逆向稳定集思想应用于火星高轨道的捕获，主要贡献包
 - García F, Gómez G. A note on weak stability boundaries[J]. Celestial Mechanics and Dynamical Astronomy, 2007, 97(2): 87-100.
 - Li M, Zheng J, et al. Low-energy capture options for high Mars orbits[J]. Celestial Mechanics and Dynamical Astronomy, 2018.
 - Belbruno E. Capture Dynamics and Chaotic Motions in Celestial Mechanics[M]. Princeton University Press, 2004.
+
+## 应用价值
+
+逆向稳定集为地月空间低能量捕获轨道设计提供了关键的理论工具。通过正向与逆向稳定集的双向分析框架，设计者能够系统地识别弹道捕获的可行参数空间，为月球探测任务规划燃料效率最优的转移轨道。逆向稳定集方法还可应用于火星等行星的高轨道捕获任务设计，显著降低深空探测的燃料需求，支撑地月空间及更远距离的低成本探索活动。

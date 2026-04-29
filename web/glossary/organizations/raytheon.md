@@ -81,6 +81,41 @@ RTX 集团还与洛克希德·马丁共同持有标枪合资公司（Javelin Joi
 - 太空交通管理: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 - 核热推进: [/glossary/other/nuclear-thermal-propulsion/](/glossary/other/nuclear-thermal-propulsion/)
 
+## 定义
+
+雷神导弹与防务公司（Raytheon Missiles & Defense）是 RTX 集团的子公司，是全球最大的导弹和导弹防御系统供应商之一，产品涵盖空空导弹、弹道导弹防御系统、精确制导武器和导弹预警传感器。
+
+## 核心要素
+
+### 公司概况
+
+- **母公司**：RTX 集团（原雷神技术公司）
+- **核心领域**：导弹和导弹防御系统
+- **全球地位**：全球最大导弹和导弹防御系统供应商之一
+- **主要客户**：美国导弹防御局、海军、陆军
+
+### 核心业务
+
+- **SM-3 拦截弹**：海基中段拦截弹，SM-3 Block IIA 可拦截 ICBM
+- **THAAD 系统**：末段高空区域防御系统
+- **AN/TPY-2 雷达**：X 波段有源相控阵火控雷达
+- **宙斯盾战斗系统**：与洛克希德·马丁联合开发的海基 BMD 核心
+
+### 地月空间关联
+
+- SM-3 Block IIA 拦截高度延伸至 MEO，具备拦截地月转移轨道目标潜力
+- AN/TPY-2 和天基红外传感器网络是地月空间态势感知数据来源
+- 红外传感器技术可探测地月空间高温目标（如火箭发动机羽流）
+
+## 应用价值
+
+雷神导弹与防务公司与地月空间的关联主要体现在防御维度，其中段拦截能力扩展、导弹预警网络和红外传感器技术为地月空间军事态势感知和防御提供关键支撑能力。
+
+## 相关概念
+
+- [太空态势感知](/glossary/other/space-traffic-management/)
+- [核热推进](/glossary/other/nuclear-thermal-propulsion/)
+
 ## 参考文献
 
 - RTX Corporation 官网: https://www.rtx.com

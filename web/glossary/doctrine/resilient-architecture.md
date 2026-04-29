@@ -104,3 +104,7 @@ permalink: /glossary/doctrine/resilient-architecture/
 - United States Space Force. Space Force Vector 2025. 2025.
 - RAND Corporation. Resilient Space Systems: A Framework for Assessment. 2023.
 - Aerospace Corporation. Disaggregated Space Architectures: Design and Assessment. 2022.
+
+## 应用价值
+
+弹性分散式架构对地月空间基础设施建设具有深远的指导意义。地月空间的广阔范围和长距离特征天然适合分散式部署，通过在不同地月空间位置部署冗余的通信中继、导航增强和态势感知节点，可有效提高系统的整体韧性和抗毁能力。弹性分散式架构还为商业航天力量参与地月空间建设提供了框架，小型卫星星座和快速发射服务是实现地月空间架构分散化的重要支撑。

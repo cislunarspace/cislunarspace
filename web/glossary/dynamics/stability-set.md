@@ -94,3 +94,7 @@ $$\mathcal{S} = \{ \mathbf{x}_0 : \|\phi(t, \mathbf{x}_0)\| \leq R_{\max}, \quad
 - García F, Gómez G. A note on weak stability boundaries[J]. Celestial Mechanics and Dynamical Astronomy, 2007, 97(2): 87-100.
 - Belbruno E. Capture Dynamics and Chaotic Motions in Celestial Mechanics[M]. Princeton University Press, 2004.
 - Topputo F, Vasile M, Bernelli-Zazzera F. Low energy interplanetary transfers exploiting invariant manifolds of the restricted three-body problem[J]. Journal of the Astronautical Sciences, 2005, 53(4): 353-372.
+
+## 应用价值
+
+稳定集为地月空间低能量轨道设计提供了精细的理论框架。通过分析稳定集的拓扑结构，设计者能够筛选出具有长期稳定性的初始条件，识别弹道捕获的参数窗口，并制定基于稳定集边界的轨道保持策略。稳定集与弱稳定边界理论的结合，为月球探测任务的低能量转移轨道设计和轨道稳定性评估提供了重要的理论支撑。

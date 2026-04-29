@@ -57,6 +57,31 @@ permalink: /glossary/orbits/quasi-periodic-orbit/
 - [二级微分修正法](/glossary/dynamics/two-level-differential-correction/)
 - [庞加莱截面](/glossary/dynamics/poincare-section/)
 
+## 核心要素
+
+### 轨道定义
+
+拟周期轨道是在多摄动环境下轨道不再保持严格闭合，但在有限区域内缠绕的轨道形态。其轨迹不闭合但整体形态保持稳定，表现为在标称周期轨道附近的准周期振荡。
+
+### 动力学特性
+
+- **闭合性**：不闭合，但在有限区域内缠绕
+- **模型依赖**：星历模型（高精度）下的实际轨道形态
+- **每圈差异**：每圈略有差异，但整体形态稳定
+- **z 方向振幅**：CR3BP 下的平面轨道在星历模型中产生 z 方向振幅
+
+### 设计方法
+
+- **二级微分修正法**：将 CR3BP 下的周期轨道转换至星历模型
+- **参考轨道保持**：在拟周期轨道附近进行轨道维持
+- **长期传播**：可持续 1 年以上的拟周期 DRO 轨道设计
+
+
+## 应用价值
+
+拟周期轨道是星历模型等真实力学环境下的实际轨道形态，理解拟周期轨道特性对于地月空间任务的轨道设计、轨道预报和轨道控制具有重要意义。DRO 在星历模型中的拟周期特性使其成为长期稳定驻留的理想选择。
+
+
 ## 参考文献
 
 - Farquhar R W, Kamel A A. Quasi-periodic orbits about the translunar libration point[J]. Celestial Mechanics, 1973.

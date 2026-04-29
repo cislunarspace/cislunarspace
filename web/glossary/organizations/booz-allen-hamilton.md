@@ -81,6 +81,40 @@ BAH 在美国太空军的数字化转型中发挥重要作用：
 - 太空交通管理: [/glossary/other/space-traffic-management/](/glossary/other/space-traffic-management/)
 - 地月空间导航展望: [/glossary/other/cislunar-navigation-prospects/](/glossary/other/cislunar-navigation-prospects/)
 
+## 定义
+
+博思艾伦汉密尔顿公司（Booz Allen Hamilton）是一家美国管理咨询与技术服务商，为美国太空军、NASA 和国防部提供太空态势感知、数字化转型和导航架构研究支持。
+
+## 核心要素
+
+### 公司概况
+
+- **成立时间**：1914 年
+- **总部**：弗吉尼亚州麦克莱恩
+- **规模**：美国国防部和太空军主要 IT 与咨询服务供应商
+- **核心能力**：软件工程、数据分析、系统集成
+
+### 核心业务
+
+- **太空态势感知（SSA）**：JpOC 系统维护、太空物体跟踪数据融合平台
+- **地月空间导航支持**：GNSS 弱信号接收器可行性研究、LunaNet 系统集成
+- **数字化太空军建设**：IT 基础设施、云平台、网络安全评估
+
+### 地月空间关联
+
+- 参与 NASA 地月空间导航架构研究和 LunaNet 项目
+- SSA 系统可扩展至地月空间物体跟踪和编目
+- 太空交通管理数据标准研究将影响地月空间运行规则
+
+## 应用价值
+
+博思艾伦在地月空间领域的角色主要是基础设施和软件服务，其在 GNSS 弱信号导航和 LunaNet 项目中的参与使其处于地月导航架构研究前沿，SSA 领域积累的系统可扩展至地月空间态势感知。
+
+## 相关概念
+
+- [太空态势感知](/glossary/other/space-traffic-management/)
+- [地月空间导航展望](/glossary/other/cislunar-navigation-prospects/)
+
 ## 参考文献
 
 - Booz Allen Hamilton 官网: https://www.boozallen.com

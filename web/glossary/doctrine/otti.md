@@ -103,3 +103,7 @@ OTTI 对地月空间作战准备具有重要意义：
 
 - United States Space Force. Space Force Vector 2025. 2025.
 - United States Space Force. SPACFORGEN: The Space Force Generation Model. 2024.
+
+## 应用价值
+
+OTTI为地月空间作战准备提供了关键的训练和测试基础设施。通过高保真仿真环境，OTTI能够模拟地月空间特有的远距离通信延迟、复杂引力环境和新型威胁场景，使太空作战人员在安全可控的条件下积累实战经验。OTTI还支持地月空间新型通信、导航和监视系统的端到端测试与验证，加速新技术从实验室到作战部署的转化进程。

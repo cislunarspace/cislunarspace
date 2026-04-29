@@ -85,3 +85,7 @@ permalink: /glossary/doctrine/competitive-endurance/
 ## 参考文献
 
 - United States Space Force. *Space Force Vector 2025*. 2025.
+
+## 应用价值
+
+竞争性耐力理论为太空军在地月空间的长期竞争提供了战略指导框架。在地月空间活动日益增多的背景下，该理论的三个核心原则——避免作战突袭、拒止先发优势和负责任反太空作战——直接适用于地月空间态势感知、资产防护和太空交通管理等领域。竞争性耐力还指导太空军通过DOTMLPF-P框架全面提升地月空间作战能力，确保在地月空间竞争中保持持久优势。

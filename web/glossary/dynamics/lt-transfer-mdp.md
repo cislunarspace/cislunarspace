@@ -115,6 +115,29 @@ $$
 
 数值积分采用自适应 Runge-Kutta 4(5) 积分器（相对容差 $10^{-9}$，绝对容差 $10^{-12}$）。
 
+## 核心要素
+
+### 数学定义
+MDP 定义为元组 $(S, A, p, R, \gamma)$，状态空间 $S \subset \mathbb{R}^{16}$ 包含航天器绝对状态和相对目标轨道的偏差信息，动作空间 $A \subset [-1,1]^3$ 采用球坐标参数化推力方向和大小。
+
+### 关键性质
+奖励函数结合势能塑形、时间燃料代价和安全约束，终端奖励区分成功插入（+1000）、月球碰撞/燃料耗尽（-1000）和超时（0）三种情况。月球安全约束在 $\|\mathbf{r}_t - \mathbf{r}_M\| < \beta R_M$ 时施加惩罚。
+
+### 数值方法
+状态转移由 CR3BP-LT 常微分方程描述，数值积分采用自适应 Runge-Kutta 4(5) 积分器（相对容差 $10^{-9}$）。
+
+## 应用价值
+
+低推力转移 MDP 形式化为深度强化学习框架（如 A2PPO）提供了标准的问题描述，使 Agent 能够在 CR3BP-LT 环境中自主学习低推力轨道转移策略，无需人工设计初始猜测。
+
+## 相关概念
+
+- [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
+- [广义优势估计（GAE）](/glossary/dynamics/gae/)
+- [课程学习（Curriculum Learning）](/glossary/dynamics/curriculum-learning/)
+- [低推力增强圆形限制性三体问题（CR3BP-LT）](/glossary/dynamics/cr3bp-lt/)
+
+
 ## 参考文献
 
 - Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.

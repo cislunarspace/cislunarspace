@@ -101,3 +101,7 @@ $$\mathcal{C} = \{ \mathbf{x}_0 : \phi(t, \mathbf{x}_0) \in \mathcal{B}_{\text{c
 - Hyeraci N, Topputo F. The role of true anomaly in ballistic capture[J]. Celestial Mechanics and Dynamical Astronomy, 2010, 108(2): 169-183.
 - Topputo F. On optimal two-impulse Earth–Moon transfers in a four-body model[J]. Celestial Mechanics and Dynamical Astronomy, 2013, 117(3): 279-313.
 - Belbruno E. Capture Dynamics and Chaotic Motions in Celestial Mechanics[M]. Princeton University Press, 2004.
+
+## 应用价值
+
+捕获集为地月空间和行星际低能量轨道设计提供了系统的参数空间分析方法。通过捕获集分析，设计者能够在相空间中快速识别满足弹道捕获条件的可行参数范围，优化发射窗口规划和轨道方案选择。捕获集对偏心率敏感性的研究还有助于理解不同天体系统中弹道捕获轨道的丰富程度，为月球、火星等目标的低成本捕获任务设计提供理论支撑。

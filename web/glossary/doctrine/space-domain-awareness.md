@@ -91,3 +91,7 @@ SDA 在《太空军矢量 2025》中处于"首要准则"（Tenet 1: Avoid Operat
 
 - United States Space Force. Space Force Vector 2025. 2025.
 - United States Space Force. Space Doctrine Publication 3-0: Space Operations. 2020.
+
+## 应用价值
+
+空间域感知是地月空间安全运营的基础能力。随着地月空间航天器密度持续增加，SDA需要将监视范围扩展至月球轨道、地月转移轨道和拉格朗日点等远距离区域。全面的地月空间域感知能力不仅对太空交通安全至关重要，还为反空间作战预警、太空碎片规避和空间交通管理提供决策支持，是确保地月空间活动可持续发展的关键使能能力。

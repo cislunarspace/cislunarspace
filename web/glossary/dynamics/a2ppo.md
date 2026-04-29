@@ -89,6 +89,29 @@ A2PPO 在无任何初始猜测的条件下，自主学习到的轨迹与直接�
 - [课程学习（Curriculum Learning）](/glossary/dynamics/curriculum-learning/)：A2PPO 采用的渐进式训练策略
 - [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)：A2PPO 的问题形式化框架
 
+## 核心要素
+
+### 方向交叉注意力机制
+A2PPO 采用 Critic → Actor 的不对称交叉注意力设计，Actor 令牌作为 Query，Critic 令牌作为 Key 和 Value，通过多头注意力进行特征融合。这种方向性设计使策略网络能够选择性关注 Critic 评估认为对未来价值重要的状态特征。
+
+### 复合损失函数
+A2PPO 优化策略裁剪损失、价值函数误差和策略熵正则化的加权组合，通过 GAE 进行优势估计，平衡探索与利用。
+
+### 课程学习训练
+采用渐进式课程学习策略，从宽松的终端位置/速度容忍度逐步收紧至精确阈值，避免混沌动力学环境中的初期不稳定性。
+
+## 应用价值
+
+A2PPO 在地月空间低推力轨迹优化中展现出无需初始猜测即可自主学习的能力，其训练后的策略可近实时推理，适合在线轨迹规划。在多圈转移场景中，A2PPO 显著优于 SAC 基线，并对推力衰减和初始状态扰动具有鲁棒性，为复杂地月空间任务提供了新的自主轨迹设计范式。
+
+## 相关概念
+
+- [广义优势估计（GAE）](/glossary/dynamics/gae/)
+- [课程学习（Curriculum Learning）](/glossary/dynamics/curriculum-learning/)
+- [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)
+- [直接配点法（Direct Collocation）](/glossary/dynamics/direct-collocation/)
+
+
 ## 参考文献
 
 - Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning. Aerospace Science and Technology, 2026.
