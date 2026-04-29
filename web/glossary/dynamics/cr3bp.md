@@ -28,7 +28,9 @@ permalink: /glossary/dynamics/cr3bp/
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 >
-> 校对时间：2026年4月29日
+
+> 校对记录：
+> 1. 2026年4月29日：纠正圆形限制性三体问题词条中的公式错误和参考文献引用错误
 
 ## 定义
 
