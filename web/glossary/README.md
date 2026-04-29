@@ -46,6 +46,15 @@ twitter:
 
 ## 提纲
 
+### 基础物理与技术
+
+- [引力红移（Gravitational Redshift）](/glossary/fundamentals/gravitational-redshift/)
+- [被动氢原子钟（Passive Hydrogen Maser, PHM）](/glossary/fundamentals/passive-hydrogen-maser/)
+- [双向单程测距（Dual One-Way Ranging, DOWR）](/glossary/fundamentals/dual-one-way-ranging/)
+- [爱因斯坦等效原理（Einstein Equivalence Principle, EEP）](/glossary/fundamentals/einstein-equivalence-principle/)
+- [阿伦偏差（Allan Deviation, ADEV）](/glossary/fundamentals/allan-deviation/)
+- [引力位（Gravitational Potential）](/glossary/fundamentals/gravitational-potential/)
+
 ### 动力学与数学基础
 
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
@@ -208,6 +217,13 @@ twitter:
 ## 更新说明
 
 本页将随着站点内容建设持续补充新的术语条目与分类目录，逐步形成更完整的地月空间术语体系。
+
+**2026-04-29 更新（七）**：根据Li等(2026)《Gravitational redshift test in a lunar distant retrograde orbit using a compact hydrogen maser》论文，新增5个基本物理与时间频率技术术语：
+- 引力红移（Gravitational Redshift）
+- 被动氢原子钟（Passive Hydrogen Maser, PHM）
+- 双向单程测距（Dual One-Way Ranging, DOWR）
+- 爱因斯坦等效原理（Einstein Equivalence Principle, EEP）
+- 阿伦偏差（Allan Deviation, ADEV）
 
 **2026-04-29 更新（六）**：根据丰松江等(2021)《印度航天力量发展与战略重点探析》论文，新增 12 个术语：
 - 机构与组织：印度空间研究组织（ISRO）、斯里哈里科塔航天发射场（SDSC-SHAR）

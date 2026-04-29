@@ -42,6 +42,14 @@ The number of entries is still growing. At the current stage, we prioritize high
 
 ## Outline
 
+### Fundamental Physics & Time-Frequency
+
+- [Gravitational Redshift](/en/glossary/fundamentals/gravitational-redshift/)
+- [Passive Hydrogen Maser (PHM)](/en/glossary/fundamentals/passive-hydrogen-maser/)
+- [Dual One-Way Ranging (DOWR)](/en/glossary/fundamentals/dual-one-way-ranging/)
+- [Einstein Equivalence Principle (EEP)](/en/glossary/fundamentals/einstein-equivalence-principle/)
+- [Allan Deviation (ADEV)](/en/glossary/fundamentals/allan-deviation/)
+
 ### Dynamical Models
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
@@ -183,6 +191,13 @@ The number of entries is still growing. At the current stage, we prioritize high
 ## Update Note
 
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
+
+**2026-04-29 Update (VI)**: New entries based on Li et al. (2026) *Gravitational redshift test in a lunar distant retrograde orbit using a compact hydrogen maser*:
+- Gravitational Redshift
+- Passive Hydrogen Maser (PHM)
+- Dual One-Way Ranging (DOWR)
+- Einstein Equivalence Principle (EEP)
+- Allan Deviation (ADEV)
 
 **2026-04-29 Update (V)**: New entries based on KASA *Space Transportation / Satellite / Space Science Exploration Strategic Plan* (2024):
 - Organizations: Korea Aerospace Administration (KASA), Danuri Lunar Orbiter
