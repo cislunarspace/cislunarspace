@@ -26,9 +26,10 @@ permalink: /glossary/dynamics/central-manifold/
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本文编辑来源：Qiao et al. (2025) "Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points"
->
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+> 校对记录：
+> 1. 2026年4月29日：纠正了central-manifold词条的参考文献引用错误，修改了作者信息
 
 ## 定义
 
@@ -144,6 +145,8 @@ CR3BP 共线平动点的线性化哈密顿量具有鞍×中心×中心结构，�
 
 ## 参考文献
 
-- Arnol'd V I. Mathematical methods of classical mechanics[M]. Springer, 1989.
-- Jorba À, Masdemont J. Dynamics in the center manifold of the collinear points of the restricted three body problem[J]. Phys D, 1999, 132(1-2): 189-213.
-- Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
+[1] Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025: 103869-103896.
+
+[2] Arnol’d V I. Mathematical methods of classical mechanics[M]. Springer Science & Business Media, 2013.
+
+[3] Jorba À, Masdemont J. Dynamics in the center manifold of the collinear points of the restricted three body problem[J]. Physica D: Nonlinear Phenomena, 1999, 132(1-2): 189-213.

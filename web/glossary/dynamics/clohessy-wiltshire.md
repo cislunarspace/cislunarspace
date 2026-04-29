@@ -24,6 +24,9 @@ permalink: /glossary/dynamics/clohessy-wiltshire/
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
+> 校对记录：
+> 1. 2026年4月29日：纠正了参考文献引用错误
+
 ## 定义
 
 CW方程（Clohessy-Wiltshire方程），又称Hill-Clohessy-Wiltshire（HCW）方程，是一组描述两个航天器在近圆参考轨道附近相对运动的线性化动力学方程。该方程组以目标航天器的轨道坐标系（LVLH，Local Vertical Local Horizontal）为参考，将追踪航天器相对于目标航天器的运动分解为轨道面内（径向和沿迹方向）和轨道面外（法向）三个分量。
@@ -120,7 +123,12 @@ CW 方程是交会对接、编队飞行和近距离操作的理论基础，广�
 
 ## 参考文献
 
-- Clohessy W H, Wiltshire R S. Terminal guidance system for satellite rendezvous[J]. Journal of the Aerospace Sciences, 1960, 27(9): 653-658.
-- Hill G W. Researches in the lunar theory[J]. American Journal of Mathematics, 1878, 1(1): 5-26.
-- Curtis H D. Orbital Mechanics for Engineering Students[M]. 4th ed. Butterworth-Heinemann, 2020.
-- Jing H, Sun Q, Dang Z, Wang H. Intention Recognition of Space Noncooperative Targets Using Large Language Models. Space Sci. Technol. 2025;5:0271.
+[1] Jing H, Sun Q, Dang Z, et al. Intention recognition of space noncooperative targets using large language models[J]. Space: Science & Technology, 2025, 5: 0271.
+
+[2] 张进, 朱阅訸. 空间多目标交会轨道设计与优化方法[M]. 1 版. 化学工业出版社, 2024.
+
+[3] Curtis H D. Orbital mechanics for engineering students[M]. 1. ed., reprinted. Amsterdam Heidelberg: Elsevier Butterworth Heinemann, 2008.
+
+[4] Clohessy W, Wiltshire R. Terminal guidance system for satellite rendezvous[J]. Journal of the Aerospace Sciences, 1960, 27(9): 653-658.
+
+[5] Hill G W. Researches in the lunar theory[J]. American Journal of Mathematics, 1878, 1(3): 245-263.
