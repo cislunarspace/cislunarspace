@@ -25,7 +25,7 @@ permalink: /glossary/dynamics/cr3bp-lt/
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 > 校对记录：
-> 1. 2026年4月29日：
+> 1. 2026年4月29日：纠低推力增强圆形限制性三体问题词条的参考文献引用错误和公式错误，删去了啰嗦的内容。
 
 ## 定义
 

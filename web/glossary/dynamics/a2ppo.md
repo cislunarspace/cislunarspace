@@ -25,7 +25,7 @@ permalink: /glossary/dynamics/a2ppo/
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 > 校对记录：
-> 1. 2026年4月29日：
+> 1. 2026年4月29日：纠正了a2ppo词条的参考文献引用错误，补充了作者信息，修正了一处格式错误。
 
 ## 定义
 
