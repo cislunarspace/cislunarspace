@@ -1,37 +1,34 @@
 ---
 title: Cislunar Space Beginner's Guide
-description: One-stop learning platform for cislunar space research frontiers, terminology definitions, tool resources, and practical applications. Lowering the learning barrier for cislunar space knowledge.
-keywords: cislunar space, beginner's guide, research frontiers, terminology, tools, Earth-Moon system, space exploration
+description: One-stop learning platform for cislunar space science, mission orbits, research frontiers, glossary (incl. military space doctrine), background theory, tools, and space news.
+keywords: cislunar space, beginner's guide, research frontiers, terminology, military space doctrine, space superiority, orbital dynamics, glossary, space news, satellite simulation
 author: CislunarSpace
 date: 2026-03-07
-lastUpdated: 2026-04-22
+lastUpdated: 2026-04-29
 heroImage: /logo.png
 footer: Apache Licensed | 湘ICP备2026006405号-1
 wechatShare:
   title: Cislunar Space Beginner's Guide
-  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  desc: One-stop learning platform for cislunar space science, glossary, military doctrine, and space news.
   image: /logo.png
 og:
-  title: Comprehensive Cislunar Space Beginner's Guide | Research Frontiers, Terminology, Tools
-  description: One-stop learning platform for cislunar space research frontiers, terminology definitions, tool resources, and practical applications
+  title: Cislunar Space Beginner's Guide | Glossary, Doctrine, Research Frontiers
+  description: One-stop learning platform for cislunar space science, mission orbits, research frontiers, glossary (incl. military space doctrine), and tools.
   image: /logo.png
   type: website
 twitter:
   card: summary_large_image
-  title: Comprehensive Cislunar Space Beginner's Guide | Research Frontiers, Terminology, Tools
-  description: One-stop learning platform for cislunar space research frontiers, terminology definitions, tool resources, and practical applications
+  title: Cislunar Space Beginner's Guide | Glossary, Doctrine, Research Frontiers
+  description: One-stop learning platform for cislunar space science, mission orbits, research frontiers, glossary (incl. military space doctrine), and tools.
   image: /logo.png
+permalink: /en/
 ---
 
 # About This Site
 
-> Author: [CislunarSpace](https://gitee.com/cislunarspace)
->
-> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
-
 > **This site is dedicated to lowering the learning barrier for cislunar space knowledge. All content has been professionally reviewed to ensure accuracy, reliability, and ease of understanding.**
 
-Content is organized from **concepts → orbits → research → glossary → tools → extensions**. Start with [What Is Cislunar Space](/en/what-is-cislunarspace/) for the big picture, then explore [orbits](/en/cislunar-orbits/), [research frontiers](/en/research-frontiers/), and the [glossary](/en/glossary/) as needed. For hands-on work, use [resources & tools](/en/resources-tools/) and the [orbit simulation lab](/en/satellite-simulation/). [Space News](/en/space-news/) summarizes public reporting on policy, launches, and missions; [AI Q&A](/en/ai-chat) helps you query key ideas across the site.
+Content is organized from **concepts → orbits → research → glossary → tools → extensions**. Start with [What Is Cislunar Space](/en/what-is-cislunarspace/) for the big picture, then explore [orbits](/en/cislunar-orbits/), [research frontiers](/en/research-frontiers/), and the [glossary](/en/glossary/) as needed. The glossary now covers dynamical models, mission orbits, navigation, lunar minerals, organizations, and [military space doctrine](/en/glossary/doctrine/space-superiority/) with 19 entries from the USSF *Space Force Vector 2025*. [Background knowledge](/en/background/) provides introductory material on orbital mechanics, mathematical foundations, and control theory. For hands-on work, use [resources & tools](/en/resources-tools/) and the [orbit simulation lab](/en/satellite-simulation/). [Space News](/en/space-news/) summarizes public reporting on policy, launches, and missions; [AI Q&A](/en/ai-chat) helps you query key ideas across the site.
 
 You are welcome to submit entries, revisions, or other contributions via the [Gitee](https://gitee.com/cislunarspace/cislunarspace/) or [GitHub](https://github.com/cislunarspace/cislunarspace/) repository.
 
@@ -52,7 +49,11 @@ You are welcome to submit entries, revisions, or other contributions via the [Gi
   </a>
   <a href="/en/glossary/" class="module-card module-card--glossary">
     <h3>Glossary</h3>
-    <p>Terms, abbreviations, and definitions</p>
+    <p>Terms & definitions · incl. military doctrine</p>
+  </a>
+  <a href="/en/background/" class="module-card module-card--background">
+    <h3>Background knowledge</h3>
+    <p>Orbital mechanics, math foundations, and control</p>
   </a>
   <a href="/en/resources-tools/" class="module-card module-card--resources">
     <h3>Resources & tools</h3>
@@ -73,6 +74,10 @@ You are welcome to submit entries, revisions, or other contributions via the [Gi
   <a href="/en/ai-chat" class="module-card module-card--ai-chat">
     <h3>AI Q&A</h3>
     <p>Assistant for learning with site context</p>
+  </a>
+  <a href="/en/forum" class="module-card module-card--forum">
+    <h3>Forum</h3>
+    <p>Discussion and feedback</p>
   </a>
 </div>
 

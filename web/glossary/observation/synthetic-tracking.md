@@ -1,0 +1,80 @@
+---
+title: 合成跟踪（Synthetic Tracking）
+description: 合成跟踪是移位叠加技术的计算增强实现，能够近实时地盲搜发现和跟踪暗弱快速移动的近地小行星
+keywords: 合成跟踪, Synthetic Tracking, 近地小行星, NEA, 盲搜, 实时检测, 移位叠加, 地月空间巡天
+author: 天疆说
+date: 2026-04-29
+lastUpdated: 2026-04-29
+wechatShare:
+  title: 合成跟踪（Synthetic Tracking）
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: 合成跟踪（Synthetic Tracking）详解 | 近地小行星实时检测技术
+  description: 合成跟踪是移位叠加技术的计算增强实现，能够近实时地盲搜发现和跟踪暗弱快速移动的近地小行星
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 合成跟踪（Synthetic Tracking）详解 | 近地小行星实时检测技术
+  description: 合成跟踪是移位叠加技术的计算增强实现，能够近实时地盲搜发现和跟踪暗弱快速移动的近地小行星
+  image: /logo.png
+permalink: /glossary/observation/synthetic-tracking/
+---
+
+# 合成跟踪（Synthetic Tracking）
+
+> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
+>
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+## 定义
+
+合成跟踪（Synthetic Tracking）是移位叠加（Shift-and-Add, SAA）技术的一种计算增强实现。该技术通过优化算法和计算流程，实现了对暗弱、快速移动的近地小行星（NEA）的近实时盲搜发现与跟踪能力。与传统 SAA 相比，合成跟踪在保持信噪比增益的同时，大幅提升了处理速度，使得"发现与跟踪同步进行"成为可能。
+
+## 核心原理
+
+### 从 SAA 到合成跟踪的演进
+
+合成跟踪技术建立在 SAA 方法的基础之上。传统 SAA 需要对大量可能的 $(dx, dy)$ 位移组合逐一尝试，计算量巨大。合成跟踪通过以下优化实现了计算效率的显著提升：
+
+- **算法优化**：改进位移叠加的计算流程，减少冗余计算
+- **并行化处理**：利用现代计算架构实现多组位移假设的并行计算
+- **实时流水线**：构建从图像采集到目标检测的近实时处理流水线
+
+### "发现即跟踪"能力
+
+合成跟踪技术的核心突破在于实现了"发现即跟踪"（find and track simultaneously）的能力：
+
+- **传统方法的局限**：传统巡天观测中，发现和跟踪通常分两步进行——先在单帧或简单叠加帧中发现候选目标，再安排后续观测进行跟踪确认
+- **合成跟踪的优势**：通过在宽视场范围内对大量位移假设进行快速扫描，合成跟踪可以在一次处理中同时完成目标的发现和初步跟踪，大大缩短了从发现到确认的时间窗口
+
+### 盲搜模式
+
+合成跟踪支持宽视场盲搜（wide blind search）模式：
+
+- **无需先验信息**：不需要预先知道目标的位置或运动参数
+- **大范围扫描**：在视场内系统性地搜索各种可能的运动方向和速度
+- **高灵敏度**：利用图像叠加的信噪比增益，可以探测到极暗弱的天体
+
+## 在地月空间观测中的应用
+
+合成跟踪技术在近地小行星和地月空间天体的巡天观测中具有重要应用价值。该技术的代表性成果之一是成功探测到星等约 25 等的近地小行星图像，这在传统单帧观测中几乎不可能实现。
+
+Sun 等人（2026）的研究指出，合成跟踪技术使观测者能够几乎实时地发现和跟踪暗弱且快速移动的近地小行星。在地月空间观测背景下，该技术的优势尤为突出：
+
+- **暗弱目标探测**：地月空间中的碎片、小型天体等目标通常极其微弱，需要利用合成跟踪的高信噪比增益才能探测到
+- **快速运动目标**：近地天体的运动速度较快，传统的长曝光方法会导致目标拖尾，而合成跟踪通过短曝光多帧叠加的方式避免了这一问题
+- **巡天效率**：盲搜模式使得无需预先指定观测目标，可以高效地对天区进行系统性搜索
+
+该技术的成功应用为地月空间态势感知提供了重要的技术手段，有助于发现和编目更多的地月空间移动天体。
+
+## 相关概念
+
+- [图像叠加（Image Stacking）](/glossary/observation/image-stacking/)
+- [移位叠加（Shift-and-Add, SAA）](/glossary/observation/shift-and-add/)
+- [恒星跟踪（Sidereal Tracking）](/glossary/observation/sidereal-tracking/)
+
+## 参考文献
+
+- Sun, R., Zhang, Q., Yu, S., et al. Optical Survey for Cislunar Moving Objects Using Image Stacking. AJ, 2026.

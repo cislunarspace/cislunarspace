@@ -4,7 +4,7 @@ description: Authoritative glossary of cislunar space terminology, covering core
 keywords: cislunar space glossary, CR3BP, circular restricted three-body problem, X-ray pulsar navigation, cislunar terminology
 author: CislunarSpace
 date: 2026-03-08
-lastUpdated: 2026-04-24
+lastUpdated: 2026-04-29
 permalink: /en/glossary/
 wechatShare:
   title: Cislunar Space Glossary
@@ -89,9 +89,62 @@ The number of entries is still growing. At the current stage, we prioritize high
 - [True Anomaly](/en/glossary/organizations/true-anomaly/)
 - [Turion Space](/en/glossary/organizations/turion-space/)
 
+### Military Space Doctrine
+
+- [Space Superiority](/en/glossary/doctrine/space-superiority/)
+- [Competitive Endurance](/en/glossary/doctrine/competitive-endurance/)
+- [DOTMLPF-P Framework](/en/glossary/doctrine/dotmlpf-p/)
+- [Mission Command](/en/glossary/doctrine/mission-command/)
+- [Force Design](/en/glossary/doctrine/force-design/)
+- [Force Development](/en/glossary/doctrine/force-development/)
+- [Force Generation](/en/glossary/doctrine/force-generation/)
+- [Force Employment](/en/glossary/doctrine/force-employment/)
+- [Space Force Generation Process (SPAFORGEN)](/en/glossary/doctrine/spaforgen/)
+- [Mission Delta (MD)](/en/glossary/doctrine/mission-delta/)
+- [System Delta (SYD)](/en/glossary/doctrine/system-delta/)
+- [Space Mission Task Force (SMTF)](/en/glossary/doctrine/space-mission-task-force/)
+- [Commander, Space Forces (COMSPACEFOR)](/en/glossary/doctrine/comspacefor/)
+- [Component Field Commands](/en/glossary/doctrine/component-field-commands/)
+- [Space Domain Awareness (SDA)](/en/glossary/doctrine/space-domain-awareness/)
+- [Counterspace Operations](/en/glossary/doctrine/counterspace-operations/)
+- [Resilient/Disaggregated Architecture](/en/glossary/doctrine/resilient-architecture/)
+- [Operational Test and Training Infrastructure (OTTI)](/en/glossary/doctrine/otti/)
+- [Golden Dome](/en/glossary/doctrine/golden-dome/)
+
+### Observation Techniques
+
+- [Image Stacking](/en/glossary/observation/image-stacking/)
+- [Shift-and-Add (SAA)](/en/glossary/observation/shift-and-add/)
+- [Synthetic Tracking](/en/glossary/observation/synthetic-tracking/)
+- [Sidereal Tracking](/en/glossary/observation/sidereal-tracking/)
+- [Signal-to-Noise Ratio (SNR)](/en/glossary/observation/signal-to-noise-ratio/)
+- [Astrometry](/en/glossary/observation/astrometry/)
+- [Source Extraction](/en/glossary/observation/source-extraction/)
+- [Ephemeris Correlation](/en/glossary/observation/ephemeris-correlation/)
+- [Cislunar Moving Objects](/en/glossary/observation/cislunar-moving-objects/)
+- [Lunar Glare Zone](/en/glossary/observation/lunar-glare-zone/)
+- [Image Registration](/en/glossary/observation/image-registration/)
+- [Background Star Elimination](/en/glossary/observation/background-star-elimination/)
+- [Segmentation Map](/en/glossary/observation/segmentation-map/)
+- [Hot Pixel](/en/glossary/observation/hot-pixel/)
+
 ## Update Note
 
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
+
+**2026-04-29 Update (II)**: New "Observation Techniques" section with 14 entries based on Sun et al. (2026) on optical survey for cislunar moving objects:
+- Image Stacking, Shift-and-Add (SAA), Synthetic Tracking, Sidereal Tracking
+- Signal-to-Noise Ratio (SNR), Astrometry, Source Extraction, Ephemeris Correlation
+- Cislunar Moving Objects, Lunar Glare Zone
+- Image Registration, Background Star Elimination, Segmentation Map, Hot Pixel
+
+**2026-04-29 Update**: New "Military Space Doctrine" section with 19 entries based on the USSF *Space Force Vector 2025* doctrine document:
+- Space Superiority, Competitive Endurance
+- DOTMLPF-P Framework, Mission Command
+- Force Design, Force Development, Force Generation, Force Employment
+- SPAFORGEN, Mission Delta, System Delta
+- SMTF, COMSPACEFOR, Component Field Commands
+- Space Domain Awareness, Counterspace Operations, Resilient Architecture, OTTI, Golden Dome
 
 **2026-04-27 Update**: New entries based on Jing et al. (2025) on LLM-based spacecraft intention recognition:
 - Clohessy-Wiltshire (CW) Equation

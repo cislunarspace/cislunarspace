@@ -1,0 +1,90 @@
+---
+title: 图像配准（Image Registration）
+description: 详细解析图像配准的定义、核心算法、亚像素对齐技术及其在地月空间移动天体观测中的应用
+keywords: 图像配准, Image Registration, 天体测量, 亚像素对齐, 帧间偏移, 旋转校正, 光学巡天
+author: 天疆说
+date: 2026-04-29
+lastUpdated: 2026-04-29
+wechatShare:
+  title: 图像配准
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: 图像配准详解 | Image Registration
+  description: 详细解析图像配准的定义、核心算法、亚像素对齐技术及其在地月空间移动天体观测中的应用
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 图像配准详解 | Image Registration
+  description: 详细解析图像配准的定义、核心算法、亚像素对齐技术及其在地月空间移动天体观测中的应用
+  image: /logo.png
+permalink: /glossary/observation/image-registration/
+---
+
+# 图像配准（Image Registration）
+
+> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
+>
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+## 定义
+
+图像配准（Image Registration）是将连续拍摄的天文图像帧进行精确对齐的过程，使得背景恒星在各帧之间保持一致的像素位置。图像配准是天文图像处理流水线中的关键步骤，为后续的背景恒星消除和移动目标检测奠定基础。
+
+## 核心原理
+
+### 天体测量解算
+
+图像配准的第一步是对每帧图像进行天体测量解算（astrometric solution），即建立像素坐标与天球坐标之间的映射关系。通过识别图像中的已知恒星，可以确定图像的旋转、平移和畸变参数。
+
+### 帧间偏移估计
+
+"基于天体测量解算结果和识别出的背景恒星，估计帧间偏移量。"帧间偏移量分为两个分量：
+
+- **平移分量 $(S_x, S_y)$**：图像在 $x$ 和 $y$ 方向上的像素偏移
+- **旋转分量**：图像绕光轴的旋转角度
+
+"对于使用相同望远镜和观测策略获取的连续帧，帧间偏移量并不显著。通常小于几个像素。"这意味着在短时间间隔内，图像配准所需的校正量很小，有利于实现高精度对齐。
+
+### 亚像素插值
+
+为实现亚像素级别的对齐精度，需要使用插值算法对像素值进行重采样。常用的插值方法包括：
+
+| 插值方法 | 特点 |
+|:---|:---|
+| 线性插值 | 计算速度快，精度适中 |
+| 三次多项式插值 | 精度较高，计算量适中 |
+| 三次样条插值 | 精度最高，计算量较大 |
+
+## 实现流程
+
+完整的图像配准流程通常包括：
+
+1. **源检测**：在每帧图像中检测恒星源
+2. **源匹配**：将不同帧中的恒星源进行交叉匹配
+3. **变换估计**：根据匹配的恒星对计算帧间变换参数
+4. **图像重采样**：使用插值算法将图像对齐到参考帧
+
+## 在地月空间观测中的应用
+
+在地月空间移动天体的光学巡天中，图像配准是整个图像处理流水线的基础环节。Sun 等人（2026）指出，精确的图像配准是实现背景恒星消除和叠加搜索算法（SAA）的前提条件。
+
+对于地月空间观测，图像配准面临一些特殊挑战：
+
+- **快速运动天体**：目标本身的运动可能干扰配准算法，需要在配准时排除异常值
+- **密集星场**：银河平面附近的密集星场增加了源匹配的复杂度
+- **大气折射**：不同仰角观测时大气折射效应不同，需要进行修正
+
+配准精度直接影响后续处理步骤的效果：配准误差会导致恒星残留（影响 SAA 效率）或引入伪信号（增加虚警率）。
+
+## 相关概念
+
+- [背景恒星消除（Background Star Elimination）](/glossary/observation/background-star-elimination/)
+- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/stacking-search-algorithm/)
+- [地月空间移动天体（Cislunar Moving Objects）](/glossary/observation/cislunar-moving-objects/)
+- [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
+
+## 参考文献
+
+- Sun, R., Zhang, Q., Yu, S., et al. Optical Survey for Cislunar Moving Objects Using Image Stacking. AJ, 2026.

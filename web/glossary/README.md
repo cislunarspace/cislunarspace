@@ -5,7 +5,7 @@ description: 地月空间领域专业术语权威释义，包含CR3BP、QBCP、�
 keywords: 地月空间术语, CR3BP, QBCP, 星历模型, DRO, NRHO, POGO, NTP, 核热推进, 太空交通管控, 时空基准, X射线脉冲星导航, 地月空间词典
 author: 天疆说
 date: 2026-03-08
-lastUpdated: 2026-04-24
+lastUpdated: 2026-04-29
 wechatShare:
   title: 地月空间术语词典
   desc: 地月空间领域专业术语权威释义，包含动力学模型、任务轨道、导航技术等核心概念。
@@ -107,9 +107,62 @@ twitter:
 - [True Anomaly公司](/glossary/organizations/true-anomaly/)
 - [Turion Space公司](/glossary/organizations/turion-space/)
 
+### 军事太空条令
+
+- [太空优势（Space Superiority）](/glossary/doctrine/space-superiority/)
+- [竞争性耐力（Competitive Endurance）](/glossary/doctrine/competitive-endurance/)
+- [DOTMLPF-P 条令框架](/glossary/doctrine/dotmlpf-p/)
+- [任务式指挥（Mission Command）](/glossary/doctrine/mission-command/)
+- [力量设计（Force Design）](/glossary/doctrine/force-design/)
+- [力量发展（Force Development）](/glossary/doctrine/force-development/)
+- [力量生成（Force Generation）](/glossary/doctrine/force-generation/)
+- [力量运用（Force Employment）](/glossary/doctrine/force-employment/)
+- [太空军生成模型（SPAFORGEN）](/glossary/doctrine/spaforgen/)
+- [任务三角洲（Mission Delta）](/glossary/doctrine/mission-delta/)
+- [系统三角洲（System Delta）](/glossary/doctrine/system-delta/)
+- [太空任务特遣队（SMTF）](/glossary/doctrine/space-mission-task-force/)
+- [太空部队指挥官（COMSPACEFOR）](/glossary/doctrine/comspacefor/)
+- [军种组成司令部（Component Field Commands）](/glossary/doctrine/component-field-commands/)
+- [空间域感知（Space Domain Awareness）](/glossary/doctrine/space-domain-awareness/)
+- [反空间作战（Counterspace Operations）](/glossary/doctrine/counterspace-operations/)
+- [弹性分散式架构（Resilient/Disaggregated Architecture）](/glossary/doctrine/resilient-architecture/)
+- [作战测试与训练基础设施（OTTI）](/glossary/doctrine/otti/)
+- [金穹（Golden Dome）](/glossary/doctrine/golden-dome/)
+
+### 天文观测技术
+
+- [图像叠加（Image Stacking）](/glossary/observation/image-stacking/)
+- [移位叠加（Shift-and-Add, SAA）](/glossary/observation/shift-and-add/)
+- [合成跟踪（Synthetic Tracking）](/glossary/observation/synthetic-tracking/)
+- [恒星跟踪（Sidereal Tracking）](/glossary/observation/sidereal-tracking/)
+- [信噪比（SNR）](/glossary/observation/signal-to-noise-ratio/)
+- [天体测量（Astrometry）](/glossary/observation/astrometry/)
+- [源提取（Source Extraction）](/glossary/observation/source-extraction/)
+- [星历关联（Ephemeris Correlation）](/glossary/observation/ephemeris-correlation/)
+- [地月空间移动天体（Cislunar Moving Objects）](/glossary/observation/cislunar-moving-objects/)
+- [月球眩光区（Lunar Glare Zone）](/glossary/observation/lunar-glare-zone/)
+- [图像配准（Image Registration）](/glossary/observation/image-registration/)
+- [背景恒星消除（Background Star Elimination）](/glossary/observation/background-star-elimination/)
+- [分割图（Segmentation Map）](/glossary/observation/segmentation-map/)
+- [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
+
 ## 更新说明
 
 本页将随着站点内容建设持续补充新的术语条目与分类目录，逐步形成更完整的地月空间术语体系。
+
+**2026-04-29 更新（二）**：根据Sun等(2026)关于地月空间移动天体光学巡天论文，新增「天文观测技术」分类，共 14 个术语：
+- 图像叠加（Image Stacking）、移位叠加（SAA）、合成跟踪（Synthetic Tracking）、恒星跟踪（Sidereal Tracking）
+- 信噪比（SNR）、天体测量（Astrometry）、源提取（Source Extraction）、星历关联（Ephemeris Correlation）
+- 地月空间移动天体（Cislunar Moving Objects）、月球眩光区（Lunar Glare Zone）
+- 图像配准（Image Registration）、背景恒星消除、分割图（Segmentation Map）、热像素（Hot Pixel）
+
+**2026-04-29 更新**：根据美国太空军《Space Force Vector 2025》条令文件，新增「军事太空条令」分类，共 19 个术语：
+- 太空优势（Space Superiority）、竞争性耐力（Competitive Endurance）
+- DOTMLPF-P 条令框架、任务式指挥（Mission Command）
+- 力量设计（Force Design）、力量发展（Force Development）、力量生成（Force Generation）、力量运用（Force Employment）
+- 太空军生成模型（SPAFORGEN）、任务三角洲（Mission Delta）、系统三角洲（System Delta）
+- 太空任务特遣队（SMTF）、太空部队指挥官（COMSPACEFOR）、军种组成司令部（Component Field Commands）
+- 空间域感知（SDA）、反空间作战（Counterspace Operations）、弹性分散式架构、OTTI、金穹（Golden Dome）
 
 **2026-04-27 更新**：根据Jing等(2025)关于基于大语言模型的航天器意图识别论文，新增以下术语：
 - CW方程（Clohessy-Wiltshire）

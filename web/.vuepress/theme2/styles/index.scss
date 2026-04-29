@@ -634,7 +634,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ---- 首页模块卡片 ---- */
 .module-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin: 30px 0;
 }
@@ -703,6 +703,8 @@ h1, h2, h3, h4, h5, h6 {
 .module-card--space-news { --module-card-bg: url("/home-modules/space-news.jpg"); }
 .module-card--simulation { --module-card-bg: url("/home-modules/simulation.jpg"); }
 .module-card--ai-chat { --module-card-bg: url("/home-modules/ai-chat.jpg"); }
+.module-card--background { --module-card-bg: url("/home-modules/background.jpg"); }
+.module-card--forum { --module-card-bg: url("/home-modules/forum.jpg"); }
 
 .module-card h3 {
   position: relative;
