@@ -76,7 +76,7 @@ Sun 等人（2026）针对地月空间移动天体的光学巡天需求，提出
 
 - [月球眩光区（Lunar Glare Zone）](/glossary/observation/lunar-glare-zone/)
 - [图像配准（Image Registration）](/glossary/observation/image-registration/)
-- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/stacking-search-algorithm/)
+- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/image-stacking/)
 - [背景恒星消除（Background Star Elimination）](/glossary/observation/background-star-elimination/)
 - [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
 

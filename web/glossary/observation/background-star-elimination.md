@@ -77,7 +77,7 @@ permalink: /glossary/observation/background-star-elimination/
 
 - [分割图（Segmentation Map）](/glossary/observation/segmentation-map/)
 - [图像配准（Image Registration）](/glossary/observation/image-registration/)
-- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/stacking-search-algorithm/)
+- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/image-stacking/)
 - [地月空间移动天体（Cislunar Moving Objects）](/glossary/observation/cislunar-moving-objects/)
 - [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
 

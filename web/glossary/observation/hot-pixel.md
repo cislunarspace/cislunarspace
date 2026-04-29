@@ -84,7 +84,7 @@ Sun 等人（2026）将热像素去除安排在叠加搜索算法之前，确保
 
 - [图像配准（Image Registration）](/glossary/observation/image-registration/)
 - [背景恒星消除（Background Star Elimination）](/glossary/observation/background-star-elimination/)
-- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/stacking-search-algorithm/)
+- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/image-stacking/)
 - [地月空间移动天体（Cislunar Moving Objects）](/glossary/observation/cislunar-moving-objects/)
 - [分割图（Segmentation Map）](/glossary/observation/segmentation-map/)
 

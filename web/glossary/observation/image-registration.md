@@ -81,7 +81,7 @@ permalink: /glossary/observation/image-registration/
 ## 相关概念
 
 - [背景恒星消除（Background Star Elimination）](/glossary/observation/background-star-elimination/)
-- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/stacking-search-algorithm/)
+- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/image-stacking/)
 - [地月空间移动天体（Cislunar Moving Objects）](/glossary/observation/cislunar-moving-objects/)
 - [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
 

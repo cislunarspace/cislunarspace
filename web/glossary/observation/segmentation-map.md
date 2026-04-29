@@ -82,7 +82,7 @@ SExtractor（Bertin & Arnouts, 1996）是天文图像处理领域广泛使用的
 
 - [背景恒星消除（Background Star Elimination）](/glossary/observation/background-star-elimination/)
 - [图像配准（Image Registration）](/glossary/observation/image-registration/)
-- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/stacking-search-algorithm/)
+- [叠加搜索算法（Stacking Search Algorithm）](/glossary/observation/image-stacking/)
 - [热像素（Hot Pixel）](/glossary/observation/hot-pixel/)
 
 ## 参考文献
