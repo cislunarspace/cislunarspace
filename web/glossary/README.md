@@ -80,6 +80,10 @@ twitter:
 - [初值优化（Initial Value Optimization）](/glossary/dynamics/initial-value-optimization/)
 - [太阳辐射压（SRP）](/glossary/dynamics/solar-radiation-pressure/)
 - [差分进化算法（DE）](/glossary/dynamics/differential-evolution/)
+- [微分对策（Differential Games）](/glossary/dynamics/differential-games/)
+- [航天器追逃博弈（Spacecraft Pursuit-Evasion Game）](/glossary/dynamics/pursuit-evasion-game/)
+- [零控脱靶量（Zero-Effort Miss）](/glossary/dynamics/zero-effort-miss/)
+- [鞍点策略（Saddle-Point Strategy）](/glossary/dynamics/saddle-point-strategy/)
 
 ### 任务轨道
 
@@ -128,6 +132,7 @@ twitter:
 - [极地轨道卫星运载火箭（PSLV）](/glossary/other/pslv/)
 - [地球同步轨道卫星运载火箭（GSLV）](/glossary/other/gslv/)
 - [印度卫星（INSat）](/glossary/other/insat/)
+- [追逃防（Pursuit-Evasion-Defense Game）](/glossary/other/pursuit-evasion-defense/)
 
 ### 机构和组织
 
@@ -291,3 +296,7 @@ twitter:
 - 庞加莱截面（Poincaré Section）
 - 作用角变量（Action-Angle Variables）
 - 轨道辨识（Orbit Identification）
+
+**2026-04-29 更新（八）**：根据张乘铭(2021)《航天器追逃博弈制导策略研究》论文，新增5个术语：
+- 动力学与数学基础：微分对策（Differential Games）、航天器追逃博弈（Spacecraft Pursuit-Evasion Game）、零控脱靶量（Zero-Effort Miss）、鞍点策略（Saddle-Point Strategy）
+- 其他技术：追逃防（Pursuit-Evasion-Defense Game）
