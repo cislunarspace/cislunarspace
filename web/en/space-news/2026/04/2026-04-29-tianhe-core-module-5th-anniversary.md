@@ -51,4 +51,4 @@ China's manned space program is advancing steadily, with the goal of achieving C
 
 - [Tianhe Core Module 5th Anniversary Results Overview (Our Space)](https://www.toutiao.com/article/7634032414745952831/)
 - [Tianhe Core Module 5th Anniversary, China's Space Station Achievements Abundant (DoNews)](https://www.donews.com/news/detail/8/6535526.html)
-- [Targeting 2030 for Lunar Landing! China's Manned Lunar Program Progressing Smoothly (Sohu)](http://www.sohu.com/a/1016154451_114760)
+- [Targeting 2030 for Lunar Landing! China's Manned Lunar Program Progressing Smoothly (Sohu)](https://www.sohu.com/a/1016154451_114760)

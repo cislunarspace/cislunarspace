@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 4-29 | [SpaceX猎鹰重型火箭今晚发射ViaSat-3 F3通信卫星，时隔18个月重返发射台](./2026-04-29-falcon-heavy-viasat-3-f3-launch/) |
 | 4-29 | [NASA局长确认：SpaceX登月器和Blue Origin蓝月登月器最早2027年底就绪](./2026-04-29-artemis-hls-starship-blue-origin-delay/) |
 | 4-29 | [神舟二十三号进入发射倒计时，酒泉发射场全面备战](./2026-04-29-shenzhou-23-preparation/) |
 | 4-29 | [可回收火箭密集验证窗口开启，商业航天产业链迈入规模化量产元年](./2026-04-29-commercial-recoverable-rocket-window/) |
