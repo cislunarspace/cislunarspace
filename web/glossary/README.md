@@ -122,7 +122,7 @@ twitter:
 - [雷神导弹与防务公司（Raytheon）](/glossary/organizations/raytheon/)
 - [Sci-Tec公司](/glossary/organizations/sci-tec/)
 - [SpaceX公司](/glossary/organizations/spacex/)
-- [True Anomaly公司](/glossary/organizations/true-anomaly/)
+- [True Anomaly公司](/glossary/organizations/true-anomaly-company/)
 - [Turion Space公司](/glossary/organizations/turion-space/)
 
 ### 军事太空条令

@@ -19,7 +19,7 @@ twitter:
   title: True Anomaly公司
   description: 介绍True Anomaly公司的Jackal卫星和太空防御技术
   image: /logo.png
-permalink: /glossary/organizations/true-anomaly/
+permalink: /glossary/organizations/true-anomaly-company/
 ---
 
 # True Anomaly公司
