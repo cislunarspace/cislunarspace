@@ -23,6 +23,7 @@ wechatShare:
 | 4-29 | [China's Commercial Space Sector Enters Era of Large-Scale Production as Recoverable Rocket Verification Window Opens](./2026-04-29-commercial-recoverable-rocket-window/) |
 | 4-29 | [Academician Ma Weiming Proposes Electromagnetic Launch Track on Qinghai-Tibet Plateau](./2026-04-29-ma-weiming-em-launch-concept/) |
 | 4-29 | [Tianhe Core Module Marks Five Years of Stable Operation, China's Space Station Yields Rich Scientific Returns](./2026-04-29-tianhe-core-module-5th-anniversary/) |
+| 4-29 | [NASA and Boeing Modify Commercial Crew Contract: Starliner-1 Converted to Cargo-Only Mission](./2026-04-29-starliner-1-cargo-only/) |
 | 4-28 | [FutureX Unveils FX Series Commercial Spacecraft for Satellite Deployment and Orbital Services](./2026-04-28-futurex-fx-spacecraft/) |
 | 4-28 | [CAS Space's Lijian-2 Super Factory Fully Completed, Mass Production Line Officially Commissioned](./2026-04-28-cas-space-lijian-2-super-factory/) |
 | 4-28 | [Long March 2F Emergency Launch Team Honored with China Youth May 4 Medal Collective Award](./2026-04-28-changzheng-2f-emergency-team-award/) |
