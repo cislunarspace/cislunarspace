@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { webpackBundler } from '@vuepress/bundler-webpack'
+import { createProxyMiddleware } from 'http-proxy-middleware'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 import { searchPlugin } from '@vuepress/plugin-search'
@@ -115,20 +116,28 @@ export default defineUserConfig({
     `],
   ],
 
-  bundler: viteBundler({
-    viteOptions: {
-      server: {
-        proxy: {
-          '/api/ai': {
-            target: 'https://api.deepseek.com',
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/api\/ai/, ''),
-            headers: {
-              'Authorization': `Bearer ${process.env.DEEPSEEK_API_KEY || ''}`,
+  bundler: webpackBundler({
+    chainWebpack: (config) => {
+      config.parallelism(1)
+    },
+    devServerSetupMiddlewares: (middlewares, devServer) => {
+      devServer.app?.use(
+        '/api/ai',
+        createProxyMiddleware({
+          target: 'https://api.deepseek.com',
+          changeOrigin: true,
+          pathRewrite: { '^/api/ai': '' },
+          on: {
+            proxyReq: (proxyReq) => {
+              proxyReq.setHeader(
+                'Authorization',
+                `Bearer ${process.env.DEEPSEEK_API_KEY || ''}`
+              )
             },
           },
-        },
-      },
+        })
+      )
+      return middlewares
     },
   }),
 
