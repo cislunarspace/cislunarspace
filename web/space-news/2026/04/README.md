@@ -31,9 +31,8 @@ wechatShare:
 | 4-28 | [长征二号F火箭应急发射团队荣获「中国青年五四奖章集体」](./2026-04-28-changzheng-2f-emergency-team-award/) |
 | 4-28 | [风云四号微波星: 十五五规划全球首颗静止轨道微波大气探测卫星，2026年前后发射](./2026-04-28-fengyun-4-microwave-satellite/) |
 | 4-28 | [ULA Atlas V 成功发射29颗亚马逊Kuiper互联网卫星](./2026-04-28-ula-atlas-v-kuiper-29-satellites/) |
+| 4-27 | [天链二号05星成功发射升空](./2026-04-27-tianlian-2-05-launch/) |
 | 4-27 | [太空金属增材制造技术在轻舟试验飞船完成演示验证](./2026-04-27-space-metal-3d-printing/) |
-| 4-23 | [NASA「蜻蜓」旋翼机进入最终组装与测试阶段](./2026-04-23-nasa-dragonfly-rotorcraft-tested/) |
-| 4-29 | [SpaceX 猎鹰重型成功发射 ViaSat-3 F3 卫星，约一 Tbps 容量创全球高通量通信卫星新高](./2026-04-27-spacex-viasat-3-scrub/) |
 | 4-28 | [长征十号乙运载火箭成功首飞，全球首创海上网系回收技术验证](./2026-04-28-changzheng-10yi-maiden-flight/) |
 | 4-28 | [中国（北京）航天科学中心正式开馆，打造北京「科文商旅」融合新地标](./2026-04-28-beijing-space-science-center/) |
 | 4-27 | [NASA 公民科学项目邀请公众参与：人人皆可成为太空探索的一份子](./2026-04-27-nasa-citizen-science-thrive/) |
@@ -94,7 +93,7 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 4-1 | [中国初创公司 Sustain Space 在轨验证柔性机械臂，推进在轨服务能力](./2026-04-01-china-robotic-arm/) |
-|| 4-2 | [Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球](./2026-04-02-artemis-2-tli-go/) |
+| 4-2 | [Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球](./2026-04-02-artemis-2-tli-go/) |
 | 4-2 | [Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球](./2026-04-02-artemis-2-tli-go/) |
 | 4-2 | [Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上奔月之旅](./2026-04-02-artemis-2-tli-complete/) |
 | 4-3 | [天龙三号首飞失利：中国商业航天大运力火箭首次飞行遭遇异常](./2026-04-03-tianlong-3-maiden-flight/) |

@@ -1,28 +1,21 @@
 ---
 layout: SpaceNewsArticle
-title: "SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3, Dual Boosters Land After 18-Month Hiatus"
-description: "In the early hours of April 30, 2026 (Beijing time), SpaceX's Falcon Heavy successfully launched the ViaSat-3 F3 high-throughput communications satellite, with both side boosters landing at ground zones and the satellite entering geostationary transfer orbit."
+title: "SpaceX Falcon Heavy Successfully Launches Viasat-3 F3 Satellite"
+description: "SpaceX's Falcon Heavy rocket conducted its 12th flight mission, successfully delivering the Viasat-3 ultra-high-throughput communications satellite to orbit, marking the rocket's first mission since late 2024."
 permalink: /en/space-news/2026/04/2026-04-29-falcon-heavy-viasat-3-f3-launch/
 author: Tianjiangshuo
 date: 2026-04-29
-lastUpdated: 2026-04-30
+lastUpdated: 2026-04-29
 category: [spacex, launch]
 image: ./figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg
 ---
 
-# SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3, Dual Boosters Land After 18-Month Hiatus
+# SpaceX Falcon Heavy Successfully Launches Viasat-3 F3 Satellite
 
-**Summary:** In the early hours of April 30, 2026 (Beijing time, or April 29 ET), SpaceX's Falcon Heavy successfully launched the ViaSat-3 F3 high-throughput communications satellite from Kennedy Space Center, delivering the final ViaSat-3 series satellite to geostationary transfer orbit. Both side boosters successfully landed at ground landing zones, while the center core was expendably impacted in the Atlantic Ocean due to orbital inclination constraints. This marked the Falcon Heavy's return to flight after an 18-month gap and its 12th mission overall.
+**Summary:** On April 29, 2026 (Beijing Time), SpaceX's Falcon Heavy rocket conducted its 12th flight mission since 2018, successfully placing the Viasat-3 F3 ultra-high-throughput communications satellite into orbit. The 27 Merlin engines of the three Falcon boosters ignited at 10:13 AM Eastern Time (14:13 UTC), lifting the vehicle from Launch Complex 39A at NASA's Kennedy Space Center.
 
-![Falcon Heavy launch, rocket ascending](./figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg)
-*Credit: DoNews / On-site coverage*
-
-ViaSat-3 F3 is the third and final satellite in Viasat's ViaSat-3 series of high-throughput communications satellites. The first two spacecraft cover the Americas and Europe/Africa/Middle East respectively. The ViaSat-3 constellation uses Ka-band design and is capable of delivering over 1 Tbps per satellite, providing high-speed, flexible broadband internet services globally. The satellite is built on Boeing's 702MP+ platform, features an all-electric propulsion system, weighs approximately 6.4 tonnes, and has a design life exceeding 15 years.
-
-The launch took place from Kennedy Space Center Launch Complex 39A, with ignition at 10:13 AM ET (14:13 UTC) on April 29. The 27 Merlin engines on the three Falcon boosters roared to life simultaneously, marking the Falcon Heavy's return to flight after an 18-month absence. Approximately 8 minutes after liftoff, the two side boosters touched down in succession at Landing Zones 2 and 40, successfully recovered; the center core was expendably impacted in the Atlantic Ocean due to orbital inclination constraints. The mission was declared a complete success.
+![Falcon Heavy launch scene (qqpublic)](./figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg)
 
 ## Sources (original pages)
 
-- [DoNews: Falcon Heavy Successfully Launches ViaSat-3 F3](https://www.donews.com/news/detail/8/6537028.html)
-- [Xinhua: SpaceX Falcon Heavy Launches Communications Satellite](https://www.toutiao.com/article/7634248862017847851/)
-- [Tencent: Falcon Heavy Returns After 18 Months](https://new.qq.com/rain/a/20260430A01D6S00)
+- [Tencent News: "Falcon Heavy Returns After 18 Months for 12th Flight" (April 30, 2026)](https://so.html5.qq.com/page/real/search_news?docid=70000021_54669f2889c05252)
