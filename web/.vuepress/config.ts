@@ -14,6 +14,7 @@ import sidebar from './sidebar.js'
 import sidebarEn from './sidebar-en.js'
 import ogMetaPlugin from './og-meta-plugin.js'
 import mk from '@traptitech/markdown-it-katex'
+import express from 'express'
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url))
 // web/.env、web/.env.local（后者覆盖，便于本机覆写而无需改 .env）
@@ -139,6 +140,10 @@ export default defineUserConfig({
       )
     },
     devServerSetupMiddlewares: (middlewares, devServer) => {
+      // Serve content files (figures, images) from the source directory
+      // so that /space-news/.../hero.jpg resolves during dev.
+      devServer.app?.use(express.static(path.resolve(__configDir, '..')))
+      // AI chat proxy
       devServer.app?.use(
         '/api/ai',
         createProxyMiddleware({
