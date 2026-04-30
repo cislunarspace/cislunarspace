@@ -4,7 +4,7 @@ description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
 author: Tianjiangshuo
 date: 2026-04-01
-lastUpdated: 2026-04-29
+lastUpdated: 2026-04-30
 wechatShare:
   title: "Space News · April 2026"
   desc: "April 2026 space news article index."
@@ -17,6 +17,7 @@ wechatShare:
 
 | Date | Title |
 |-------|-------|
+| 4-30 | [DAMPE Satellite Discovers Cosmic Ray 'Bump' Structure, Revealing Charge-Dependent Acceleration Limit](./2026-04-30-wukong-cosmic-ray-discovery/) |
 | 4-30 | [LandSpace Zhuque-3 Yao-2 Rocket Enters Factory Departure Phase, Targeting Q2 Launch](./2026-04-30-zhuque-3-yao2-leaves-factory/) |
 | 4-29 | [SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3, Dual Boosters Land After 18-Month Hiatus](./2026-04-29-falcon-heavy-viasat-3-f3-launch/) |
 | 4-29 | [NASA Administrator Confirms: SpaceX Starship and Blue Origin Blue Moon Lunar Landers Not Ready Until Late 2027](./2026-04-29-artemis-hls-starship-blue-origin-delay/) |

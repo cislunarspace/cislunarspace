@@ -4,7 +4,7 @@ description: 2026 年 4 月航天新闻条目索引。
 permalink: /space-news/2026/04/
 author: 天疆说
 date: 2026-04-01
-lastUpdated: 2026-04-29
+lastUpdated: 2026-04-30
 wechatShare:
   title: "航天动态 · 2026 年 4 月"
   desc: "2026 年 4 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 4-30 | [「悟空」号发现宇宙射线能谱「鼓包」结构，揭示电荷依赖的加速极限规律](./2026-04-30-wukong-cosmic-ray-discovery/) |
 | 4-30 | [蓝箭航天朱雀三号遥二火箭正式进入出厂阶段，稳步冲刺二季度发射](./2026-04-30-zhuque-3-yao2-leaves-factory/) |
 | 4-29 | [SpaceX猎鹰重型火箭成功发射ViaSat-3 F3通信卫星，双助推器精准回收](./2026-04-29-falcon-heavy-viasat-3-f3-launch/) |
 | 4-29 | [NASA局长确认：SpaceX登月器和Blue Origin蓝月登月器最早2027年底就绪](./2026-04-29-artemis-hls-starship-blue-origin-delay/) |
