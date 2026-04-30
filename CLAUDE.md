@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Cislunar Space Beginner's Guide** (地月空间入门指南) — an open-source bilingual (zh/en) knowledge base about cislunar space science, technology, and engineering. Published at https://cislunarspace.cn. Built with VuePress 2 + Vue 3 + Vite.
+**Cislunar Space Beginner's Guide** (地月空间入门指南) — an open-source bilingual (zh/en) knowledge base about cislunar space science, technology, and engineering. Published at https://cislunarspace.cn. Built with VuePress 2 + Vue 3 + Webpack.
 
 ## Commands
 
@@ -19,13 +19,13 @@ npm run sync-figures  # copy figures/ into dist/ (required for images to display
 
 Requires Node.js 18+ (CI and cron use v22.22.2).
 
-**Local AI chat (`/ai-chat`):** copy `web/.env.example` to `web/.env` and set `DEEPSEEK_API_KEY`. Vite dev proxies `/api/ai` → `https://api.deepseek.com` (see `web/.vuepress/config.ts`). Production uses Nginx (`web/deploy/nginx-ai-proxy.conf`).
+**Local AI chat (`/ai-chat`):** copy `web/.env.example` to `web/.env` and set `DEEPSEEK_API_KEY`. Webpack dev server proxies `/api/ai` → `https://api.deepseek.com` (see `web/.vuepress/config.ts`). Production uses Nginx (`web/deploy/nginx-ai-proxy.conf`).
 
 ## Architecture
 
 ### VuePress Config
 
-- `web/.vuepress/config.ts` — main config (locales, plugins, Vite bundler, KaTeX, proxy to DeepSeek API at `/api/ai`)
+- `web/.vuepress/config.ts` — main config (locales, plugins, Webpack bundler, KaTeX, proxy to DeepSeek API at `/api/ai`)
 - `web/.vuepress/navbar.ts` / `navbar-en.ts` — top navigation
 - `web/.vuepress/sidebar.ts` / `sidebar-en.ts` — manual sidebar sections, imports `sidebar.auto.json` for Space News
 
