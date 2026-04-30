@@ -1,7 +1,7 @@
 ---
 layout: SpaceNewsArticle
-title: "ULA Atlas V Successfully Launches 29 Amazon Kuiper Internet Satellites"
-description: "United Launch Alliance's Atlas V rocket successfully delivered 29 Amazon Project Kuiper internet satellites to low Earth orbit on April 27, marking another major milestone in the Kuiper constellation deployment."
+title: "ULA Atlas V Launches 29 Amazon Kuiper Internet Satellites"
+description: "United Launch Alliance's Atlas V rocket successfully placed 29 Amazon Project Kuiper internet satellites into low Earth orbit on April 27, marking another milestone in the Kuiper constellation deployment."
 permalink: /en/space-news/2026/04/2026-04-28-ula-atlas-v-kuiper-29-satellites/
 author: Tianjiangshuo
 date: 2026-04-28
@@ -10,39 +10,39 @@ category: [launch, commercial]
 image: ./figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg
 ---
 
-# ULA Atlas V Successfully Launches 29 Amazon Kuiper Internet Satellites
+# ULA Atlas V Launches 29 Amazon Kuiper Internet Satellites
 
-**Summary:** United Launch Alliance's Atlas V 551 rocket successfully deployed 29 Amazon Project Kuiper internet satellites to low Earth orbit on April 27 at 8:53 PM EDT (1253 UTC April 28). ULA confirmed satellite deployment. This was one of the largest single Kuiper launches to date as Amazon races to catch up with SpaceX's Starlink.
+**Summary:** United Launch Alliance's Atlas V 551 rocket successfully placed 29 Amazon Project Kuiper internet satellites into low Earth orbit on April 27 at 20:53 EDT (08:53 Beijing Time April 28). This was one of the largest single-launch satellite deployment missions for the Kuiper constellation to date, as Amazon accelerates its competition with SpaceX's Starlink.
 
 ![ULA Atlas V launches Kuiper satellites](./figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg)
 *Credit: United Launch Alliance*
 
-## Mission Overview
+## Launch Overview
 
-The Kuiper mission launched on an Atlas V 551 configuration (5 solid rocket boosters + 2 LOX/RP-1 engines) from Space Launch Complex-41 at Cape Canaveral Space Force Station. All 29 satellites were deployed to low Earth orbit approximately 13 minutes after liftoff.
+The mission, designated Kuiper, used an Atlas V 551 configuration (5 solid rocket boosters + 2 liquid oxygen/kerosene engines). The rocket lifted off from Space Launch Complex-41 at Cape Canaveral Space Force Station, deploying all 29 satellites to low Earth orbit approximately 13 minutes after liftoff.
 
 Mission profile:
 
 - **Rocket:** Atlas V 551
-- **Payload:** 29 Amazon Project Kuiper satellites
+- **Payload:** 29 Amazon Project Kuiper satellites (Kuiper Constellation Batch 2)
 - **Target orbit:** Low Earth Orbit (LEO)
-- **Launch site:** Cape Canaveral LC-41
-- **Launch time:** April 27, 20:53 EDT (April 28, 08:53 CST)
+- **Launch site:** Cape Canaveral SFS LC-41
+- **Launch time:** April 27, 20:53 EDT (April 28, 08:53 Beijing Time)
 
 ## Kuiper Constellation Deployment Progress
 
-Amazon's Project Kuiper plans to deploy over 3,200 low Earth orbit broadband satellites to compete with SpaceX's Starlink for global satellite internet market share. The FCC requires Amazon to have half of the constellation launched by July 2026.
+Amazon's Project Kuiper plans to deploy over 3,200 low-Earth-orbit broadband satellites to compete with SpaceX's Starlink in the global satellite internet market. The FCC requires Amazon to complete launching half of its satellites by July 2026.
 
-This launch follows ULA's Kuiper-1 mission in April 2025 (27 satellites) and represents the largest single Kuiper launch to date. According to Kuiper's website, the company plans to execute multiple launches per week through 2025-2026 to meet FCC deadlines.
+Previously, ULA launched the Kuiper-1 mission (27 satellites) in April 2025 using an Atlas V 551. This mission was the largest single-launch deployment for the Kuiper constellation to date. According to Kuiper's official website, the plan is to execute multiple launches per week during 2025-2026 to meet FCC deployment milestones.
 
-European launch provider Arianespace is also scheduled to launch another batch of 32 Kuiper satellites aboard an Ariane 64 from French Guiana later this week.
+Additionally, Arianespace's Ariane 64 rocket is scheduled to launch 32 Kuiper satellites later this week from the Guiana Space Centre in French Guiana.
 
-## Background: ULA and Amazon
+## Background: ULA and Amazon Partnership
 
-ULA is one of the primary launch providers for Amazon's Kuiper constellation, with a reported multi-billion dollar contract. Atlas V and Vulcan Centaur rockets will handle the majority of Kuiper launches. As Vulcan Centaur becomes operational, Kuiper launch cadence is expected to increase further.
+ULA is one of the primary launch service providers for Amazon's Kuiper constellation, with a contract reportedly worth billions of dollars. Both ULA's Atlas V and Vulcan Centaur rockets will handle the majority of Kuiper launches. As Vulcan Centaur gradually enters service, the Kuiper launch tempo is expected to increase further.
 
 ## Sources (original pages)
 
-- [舜网: Amazon Kuiper LEO satellites launch](https://news.e23.cn/guonei/2026-04-28/2026042800285.html)
+- [舜网：亚马逊低地轨道卫星计划又一批卫星发射升空](https://news.e23.cn/guonei/2026-04-28/2026042800285.html)
 - [Via Satellite: Amazon Project Kuiper Deployment Begins With First ULA Launch](https://www.satellitetoday.com/launch/2025/04/28/amazon-project-kuiper-deployment-begins-with-first-ula-launch/)
 - [Arianespace: OK VA268 Amazon Leo LE-02](https://arianespace.com/)
