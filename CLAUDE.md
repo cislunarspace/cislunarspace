@@ -83,3 +83,17 @@ Nginx serves from `web/.vuepress/dist/` with SPA fallback. Config at `web/deploy
 - Sidebar sections for glossary, research, blue-team are defined manually in `sidebar.ts` / `sidebar-en.ts`
 - Blue-team research has four sub-sections: doctrine-strategy, equipment-tech, operations-application, knowledge-rag
 - Math rendering uses KaTeX via `@traptitech/markdown-it-katex`
+
+## Agent skills
+
+### Issue tracker
+
+Issues tracked in GitHub (github.com/cislunarspace/cislunarspace) via `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Using default label vocabulary: needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout. One `CONTEXT.md` + `docs/adr/` at repo root. See `docs/agents/domain.md`.
