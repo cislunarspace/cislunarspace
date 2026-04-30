@@ -26,6 +26,7 @@ wechatShare:
 | 4-29 | [天和核心舱在轨稳定运行五周年，中国空间站成果丰硕](./2026-04-29-tianhe-core-module-5th-anniversary/) |
 | 4-29 | [中国空间站将迎「二次扩容」，从「T」字形迈向「十」字形](./2026-04-29-css-t-shape-expansion/) |
 | 4-29 | [NASA与波音修改商业载人合同：Starliner-1 改为纯货运任务](./2026-04-29-starliner-1-cargo-only/) |
+| 4-29 | [商业卫星公司微纳星空完成IPO辅导验收，卫星制造独角兽加速登陆资本市场](./2026-04-29-microstar-ipo/) |
 | 4-28 | [未来宇航发布FX锋行系列商业飞行器，聚焦卫星组网与在轨服务](./2026-04-28-futurex-fx-spacecraft/) |
 | 4-28 | [中科宇航力箭二号超级工厂全面竣工，批量化生产线正式投产](./2026-04-28-cas-space-lijian-2-super-factory/) |
 | 4-28 | [长征二号F火箭应急发射团队荣获「中国青年五四奖章集体」](./2026-04-28-changzheng-2f-emergency-team-award/) |
