@@ -17,6 +17,7 @@ wechatShare:
 
 | Date | Title |
 |-------|-------|
+| 4-30 | [Dahang Yueqian Raises 500M RMB, Accelerating China's First Tower-Catch Reusable Rocket](./2026-04-30-dahang-yueqian-500m-funding/) |
 | 4-30 | [DAMPE Satellite Discovers Cosmic Ray 'Bump' Structure, Revealing Charge-Dependent Acceleration Limit](./2026-04-30-wukong-cosmic-ray-discovery/) |
 | 4-30 | [LandSpace Zhuque-3 Yao-2 Rocket Enters Factory Departure Phase, Targeting Q2 Launch](./2026-04-30-zhuque-3-yao2-leaves-factory/) |
 | 4-29 | [SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3, Dual Boosters Land After 18-Month Hiatus](./2026-04-29-falcon-heavy-viasat-3-f3-launch/) |
