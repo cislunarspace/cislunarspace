@@ -5,7 +5,7 @@
   "scripts": {
     "gen-sidebar": "node .vuepress/gen-sidebar.js",
     "docs:dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
-    "docs:build": "npm run gen-sidebar && NODE_OPTIONS='--max-old-space-size=3072' vuepress build . && npm run sync-figures",
+    "docs:build": "npm run gen-sidebar && NODE_OPTIONS='--max-old-space-size=8192' vuepress build . && npm run sync-figures",
     "sync-figures": "node .vuepress/sync-figures.js"
   },
   "license": "MIT",
@@ -24,6 +24,7 @@
     "dotenv": "^17.4.2",
     "katex": "^0.16.33",
     "sass-embedded": "^1.87.0",
+    "sass-loader": "^16.0.7",
     "vue": "^3.5.0",
     "vuepress": "2.0.0-rc.27",
     "vuepress-plugin-code-copy": "^1.0.6"

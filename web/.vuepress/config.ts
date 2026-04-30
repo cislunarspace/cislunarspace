@@ -119,6 +119,24 @@ export default defineUserConfig({
   bundler: webpackBundler({
     chainWebpack: (config) => {
       config.parallelism(1)
+      // Raise esbuild target to support modern syntax (destructuring, etc.)
+      // The "ts" rule is always created; the "js" rule is only created in
+      // production non-evergreen builds. Safely tap only existing rules.
+      for (const ruleName of ['ts', 'js']) {
+        const rule = config.module.rule(ruleName)
+        if (rule.uses.has('esbuild-loader')) {
+          rule.use('esbuild-loader').tap((options: any) => ({
+            ...options,
+            target: 'esnext',
+          }))
+        }
+      }
+      // Map absolute /home-modules/ paths to the public directory so
+      // css-loader can resolve url("/home-modules/xxx.jpg") references.
+      config.resolve.alias.set(
+        '/home-modules',
+        path.resolve(__configDir, 'public/home-modules')
+      )
     },
     devServerSetupMiddlewares: (middlewares, devServer) => {
       devServer.app?.use(

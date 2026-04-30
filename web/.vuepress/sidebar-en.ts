@@ -1,4 +1,4 @@
-import type { SidebarConfig } from 'vuepress'
+// SidebarConfig type import removed: esbuild does not support angle-bracket assertions
 import autoSidebar from './sidebar.auto.json'
 import { wayfindingEnGroup } from './sidebar-shared.js'
 
@@ -486,7 +486,7 @@ const blueTeamResearchSidebar = [
   },
 ]
 
-export default <SidebarConfig>{
+export default {
   '/en/glossary/': glossarySidebar,
   '/en/resources-tools/': resourcesToolsSidebar,
   '/en/blue-team-research/': blueTeamResearchSidebar,
