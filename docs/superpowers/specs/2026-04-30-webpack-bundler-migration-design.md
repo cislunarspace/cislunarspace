@@ -40,10 +40,10 @@ Switch from `@vuepress/bundler-vite` to `@vuepress/bundler-webpack`. Webpack pro
 
 ```diff
 - "docs:build": "npm run gen-sidebar && vuepress build . && npm run sync-figures",
-+ "docs:build": "npm run gen-sidebar && NODE_OPTIONS='--max-old-space-size=3072' vuepress build . && npm run sync-figures",
++ "docs:build": "npm run gen-sidebar && NODE_OPTIONS='--max-old-space-size=8192' vuepress build . && npm run sync-figures",
 ```
 
-3072MB heap limit as safety net above 945MB physical + swap.
+8192MB heap limit (3072MB was insufficient; 8192MB required with `parallelism(1)` for 1216 pages).
 
 ### 3. Config Changes (`config.ts`)
 
