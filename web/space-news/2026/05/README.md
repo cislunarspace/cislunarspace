@@ -16,7 +16,9 @@ wechatShare:
 ## 本月新增
 
 | 日期 | 标题 |
-|------|------|
+||------|------|
+| 5-01 | [SpaceX 招股书披露星舰项目累计投入超150亿美元](./2026-05-01-spacex-starship-15b-spending/) |
+| 5-01 | [天和核心舱在轨五周年 中国空间站启动二次扩容计划](./2026-05-01-tianhe-core-5th-anniversary/) |
 | 4-30 | [上海商业航天海上发射公司成立，五家国央企联合构建全产业链闭环](./2026-05-01-shanghai-offshore-launch-company/) |
 | 4-30 | [阿里安6火箭成功发射亚马逊第二批LEO卫星，3天内完成两次发射](./2026-05-01-amazon-leo-second-batch-launch/) |
 | 4-29 | [SpaceX猎鹰重型火箭成功发射ViaSat-3 F3通信卫星，时隔18个月重返发射台](./2026-05-01-falcon-heavy-viasat-3-f3-launch/) |
