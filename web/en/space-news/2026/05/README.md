@@ -24,3 +24,4 @@ lastUpdated: 2026-05-01
 | 2026-04-20 | [Blue Origin New Glenn NG-3 Mission Fails as Upper Stage Anomaly Sends BlueBird 7 to Wrong Orbit](./2026-05-01-new-glenn-ng3-failure/) | Blue Origin, Launches, Commercial Space |
 | 2026-04-20 | [SpaceX Falcon 9 Completes 600th Booster Recovery, Reusability Enters Maturity Phase](./2026-05-01-spacex-600th-recovery/) | SpaceX, Launches |
 | 2026-05-01 | [Shenzhou-21 Crew Celebrates May Day in Space, Return Planned for May](./2026-05-01-shenzhou-21-500day-return/) | China Space, Space Station |
+| 2026-05-01 | [Hainan Commercial Spaceport Phase II Enters Final Sprint, Launch Pad 3 Over 80% Complete](./2026-05-01-hainan-commercial-spaceport-phase2/) | China Space, Commercial Space |
