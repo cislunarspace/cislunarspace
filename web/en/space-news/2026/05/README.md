@@ -10,6 +10,8 @@ lastUpdated: 2026-05-01
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-01 | [Artemis III Core Stage Arrives at Kennedy, SLS Rocket Enters Final Assembly Phase](./2026-05-01-artemis-3-core-stage-arrives-ksc/) | Artemis |
+| 2026-05-01 | [First Foreign Astronauts Announced: Two Pakistani Astronauts Begin Training at China's Space Program](./2026-05-01-pakistan-astronauts-china-training/) | China Space, Space Station |
 | 2026-05-01 | [Dahang Yuetqian Raises 500 Million RMB in New Funding Round to Accelerate Reusable Rocket Development](./2026-05-01-dahang-yueqian-500m-funding/) | China Space, Commercial Space |
 | 2026-05-01 | [Russia Conducts First Launch of Soyuz-5 Rocket from Baikonur](./2026-05-01-soyuz-5-maiden-launch/) | Launches |
 | 2026-05-01 | [China's Wukong Satellite Reveals Key Mechanism of Cosmic Ray Acceleration](./2026-05-01-wukong-cosmic-ray-mechanism/) | China Space, Science |
