@@ -31,6 +31,7 @@ wechatShare:
 | 4-20 | [蓝色起源新格伦火箭第三次发射失利，第二级异常导致BlueBird 7卫星未入预定轨道](./2026-05-01-new-glenn-ng3-failure/) |
 | 4-20 | [SpaceX猎鹰火箭完成第600次回收，可重复使用技术进入成熟期](./2026-05-01-spacex-600th-recovery/) |
 | 5-01 | [神舟二十一号乘组太空迎五一，计划5月返回东风着陆场](./2026-05-01-shenzhou-21-500day-return/) |
+| 5-02 | [蓝色起源启动「新格伦」火箭Quattro第二级升级项目，9x4超级重型构型最快明年亮相](./2026-05-02-blue-origin-quattro-upgrade/) |
 | 5-02 | [NASA罗曼空间望远镜组装完成，计划9月发射](./2026-05-02-nasa-roman-telescope/) |
 | 5-02 | [ESA太空骑行器全尺寸试验模型完成组装](./2026-05-02-esa-space-rider/) |
 | 5-01 | [海南商业航天发射场二期建设进入冲刺阶段，3号工位进度超80%](./2026-05-01-hainan-commercial-spaceport-phase2/) |
