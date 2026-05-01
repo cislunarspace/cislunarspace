@@ -10,6 +10,7 @@ lastUpdated: 2026-05-01
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-04-30 | [Five SOEs Jointly Establish Offshore Launch Company, Completing Shanghai Commercial Space Value Chain](./2026-05-01-shanghai-offshore-launch-company/) |
 | 2026-04-30 | [Arianespace Ariane 64 Launches Second Batch of Amazon LEO Satellites, Two Launches in Three Days](./2026-05-01-amazon-leo-second-batch-launch/) | Launches, Commercial Space |
 | 2026-04-29 | [SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Communications Satellite After 18-Month Hiatus](./2026-05-01-falcon-heavy-viasat-3-f3-launch/) | SpaceX, Launches |
 | 2026-04-28 | [Long March 10-Yi Rocket Successful Maiden Flight, Tests World's First Marine Flexible Net Recovery Technology](./2026-05-01-changzheng-10-yi-maiden-launch/) | China Space, Launches |
