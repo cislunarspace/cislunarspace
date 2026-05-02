@@ -31,6 +31,9 @@ yarn.lock
 .env
 .env.test
 
+# 本地部署脚本（含服务器配置）
+scripts/space-news-update.sh
+
 # 构建输出
 dist
 /dist
