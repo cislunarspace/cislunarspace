@@ -85,7 +85,6 @@ export default defineUserConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', href: '/icon.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' }],
     ['meta', {
       name: 'keywords',

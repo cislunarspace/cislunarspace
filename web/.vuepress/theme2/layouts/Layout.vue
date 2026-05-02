@@ -114,6 +114,7 @@
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
+import { usePage } from 'vuepress/client'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
 import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue'
@@ -131,6 +132,7 @@ import {
 import { useLayoutType, useIsLayout, LayoutTypes } from '../composables/useLayoutType'
 
 const route = useRoute()
+const page = usePage()
 
 const pageLayout = useLayoutType()
 const isSpaceNews = useIsLayout([LayoutTypes.SpaceNewsHome, LayoutTypes.SpaceNewsArticle, LayoutTypes.SpaceNewsArchive])
