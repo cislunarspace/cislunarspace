@@ -1,4 +1,5 @@
 import { defineClientConfig } from '@vuepress/client'
+import { LayoutTypes } from './utils/layout-types'
 import { useRouter } from 'vue-router'
 import { usePage } from 'vuepress/client'
 import { watch } from 'vue'
@@ -77,7 +78,7 @@ export default defineClientConfig({
       const data = buildShareData()
       if (!data) return
       configureWechatShare(data).catch(() => {})
-      const ogType = data.fm.layout === 'SpaceNewsArticle' ? 'article' : 'website'
+      const ogType = data.fm.layout === LayoutTypes.SpaceNewsArticle ? 'article' : 'website'
       updateOgMeta(data.title, data.desc, data.imgUrl, data.link, ogType)
     }
 

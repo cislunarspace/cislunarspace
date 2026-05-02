@@ -9,27 +9,55 @@ export interface MarkdownFile {
   body: string
 }
 
-const EXCLUDED_DIRS = new Set(['node_modules', 'figures', 'dist', '.vuepress'])
+export const DEFAULT_EXCLUDED = new Set(['node_modules', 'dist', '.vuepress'])
+
+export interface FileSystemWalkerOptions {
+  excludedDirs?: Set<string>
+  onFile?: (absPath: string, relPath: string) => void
+  onEnterDir?: (absPath: string, relPath: string) => boolean | void  // return false to skip recursion
+  onExitDir?: (absPath: string, relPath: string) => void
+}
+
+export function walkDir(
+  root: string,
+  {
+    excludedDirs = DEFAULT_EXCLUDED,
+    onFile,
+    onEnterDir,
+    onExitDir,
+  }: FileSystemWalkerOptions,
+  relRoot = '',
+): void {
+  for (const entry of fs.readdirSync(root, { withFileTypes: true })) {
+    if (entry.name.startsWith('.')) continue
+    const abs = path.join(root, entry.name)
+    const rel = relRoot ? `${relRoot}/${entry.name}` : entry.name
+    if (entry.isDirectory()) {
+      if (excludedDirs.has(entry.name)) continue
+      const descend = onEnterDir?.(abs, rel) !== false
+      if (descend) walkDir(abs, { excludedDirs, onFile, onEnterDir, onExitDir }, rel)
+      onExitDir?.(abs, rel)
+    } else {
+      onFile?.(abs, rel)
+    }
+  }
+}
 
 export function walkSiteMarkdown(webRoot: string): MarkdownFile[] {
   const result: MarkdownFile[] = []
 
-  function walk(dir: string): void {
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      if (entry.name.startsWith('.')) continue
-      const full = path.join(dir, entry.name)
-      if (entry.isDirectory()) {
-        if (EXCLUDED_DIRS.has(entry.name)) continue
-        walk(full)
-      } else if (/\.md$/i.test(entry.name)) {
-        const content = fs.readFileSync(full, 'utf-8')
+  walkDir(
+    webRoot,
+    {
+      excludedDirs: DEFAULT_EXCLUDED,
+      onFile: (abs, rel) => {
+        if (!/\.md$/i.test(abs)) return
+        const content = fs.readFileSync(abs, 'utf-8')
         const { frontmatter, body } = parseFrontmatterAndBody(content)
-        const relPath = path.relative(webRoot, full).replace(/\\/g, '/')
-        result.push({ absPath: full, relPath, frontmatter, body })
-      }
-    }
-  }
+        result.push({ absPath: abs, relPath: rel, frontmatter, body })
+      },
+    },
+  )
 
-  walk(webRoot)
   return result
 }

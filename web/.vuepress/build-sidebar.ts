@@ -1,140 +1,38 @@
 /**
- * Unified sidebar builder — single source of truth for both locales.
+ * Sidebar orchestrator — thin coordinator between intake modules.
  *
  * Generates:
  * 1. VuePress sidebar configs (zh/en)
  * 2. Hierarchical AI chat index (zh/en)
  * 3. Translation gap report
+ *
+ * All heavy logic lives in intakes/. This file wires them together and
+ * re-exports for backward compatibility with gen-sidebar.ts and config.ts.
  */
-import fs from 'fs'
 import path from 'path'
+import fs from 'fs'
 import { fileURLToPath } from 'url'
-import { glossaryCategories, type GlossaryCategoryMeta } from './glossary-meta.js'
+import { glossaryCategories } from './glossary-meta.js'
 import { sidebarSections, type SidebarSection, type SidebarEntry } from './sidebar-data.js'
-import { type MarkdownFile } from './utils/markdown-walker.js'
+import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.js'
+import type { VueSidebarItem } from './sidebar-intake.js'
+
+import { buildGlossaryScan } from './intakes/glossary-intake.js'
+import { buildWayfindingIntake } from './intakes/wayfinding-intake.js'
+import { buildChatIndexIntake as buildChatIndex } from './intakes/chat-index-intake.js'
+import { buildTranslationGapIntake as getTranslationGapReport } from './intakes/translation-gap-intake.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const webRoot = path.join(__dirname, '..')
 
-// ── Types ──
+// ── Re-exports for backward compatibility ────────────────────────────────────
 
-interface VueSidebarItem {
-  text: string
-  link?: string
-  collapsible?: boolean
-  children?: Array<string | VueSidebarItem>
-}
+export { buildGlossaryScan }
+export { buildChatIndex }
+export { getTranslationGapReport }
 
-interface ChatIndexEntry {
-  path: string
-  title: string
-}
-
-interface ChatIndexCategory {
-  category: string
-  entries: ChatIndexEntry[]
-}
-
-interface TranslationGap {
-  category: string
-  slug: string
-  zhTitle: string
-}
-
-export interface GlossaryScanEntry {
-  slug: string
-  title: string
-  path: string
-  category: GlossaryCategoryMeta
-}
-
-export interface GlossaryScan {
-  zh: { entries: GlossaryScanEntry[]; missing: TranslationGap[] }
-  en: { entries: GlossaryScanEntry[] }
-}
-
-// ── Glossary scan (pure transform on pre-walked files) ──
-
-export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
-  const isReadme = (f: MarkdownFile) => path.basename(f.relPath).startsWith('README')
-
-  const zhFiles = files.filter(f => f.relPath.startsWith('glossary/') && !isReadme(f))
-  const enFiles = files.filter(f => f.relPath.startsWith('en/glossary/') && !isReadme(f))
-
-  const enRelPaths = new Set(enFiles.map(f => f.relPath))
-
-  const zhEntries: GlossaryScanEntry[] = []
-  const missing: TranslationGap[] = []
-
-  for (const file of zhFiles.sort((a, b) => a.relPath.localeCompare(b.relPath))) {
-    // relPath: "glossary/<categorySlug>/<slug>.md"
-    const parts = file.relPath.split('/')
-    if (parts.length !== 3) continue
-    const [, categorySlug, filename] = parts
-    const slug = filename.replace(/\.md$/i, '')
-    const category = glossaryCategories.find(c => c.slug === categorySlug)
-    if (!category) continue
-
-    const title = (file.frontmatter.title && String(file.frontmatter.title)) || slug
-    zhEntries.push({ slug, title, path: `/glossary/${categorySlug}/${slug}/`, category })
-
-    if (!enRelPaths.has(`en/glossary/${categorySlug}/${filename}`)) {
-      missing.push({ category: category.label.zh, slug, zhTitle: title })
-    }
-  }
-
-  const enEntries: GlossaryScanEntry[] = []
-
-  for (const file of enFiles.sort((a, b) => a.relPath.localeCompare(b.relPath))) {
-    // relPath: "en/glossary/<categorySlug>/<slug>.md"
-    const parts = file.relPath.split('/')
-    if (parts.length !== 4) continue
-    const [, , categorySlug, filename] = parts
-    const slug = filename.replace(/\.md$/i, '')
-    const category = glossaryCategories.find(c => c.slug === categorySlug)
-    if (!category) continue
-
-    const title = (file.frontmatter.title && String(file.frontmatter.title)) || slug
-    enEntries.push({ slug, title, path: `/en/glossary/${categorySlug}/${slug}/`, category })
-  }
-
-  return { zh: { entries: zhEntries, missing }, en: { entries: enEntries } }
-}
-
-// ── Wayfinding groups ──
-
-function buildWayfindingGroup(locale: 'zh' | 'en') {
-  const items = locale === 'en'
-    ? [
-        { link: '/en/', text: 'Home (overview)', children: [] as string[] },
-        { link: '/en/what-is-cislunarspace/', text: 'Intro · what is cislunar space', children: [] as string[] },
-        { link: '/en/cislunar-orbits/', text: 'Orbits · spacecraft trajectories', children: [] as string[] },
-        { link: '/en/research-frontiers/', text: 'Frontiers · directions & labs', children: [] as string[] },
-        { link: '/en/glossary/', text: 'Glossary · terms & definitions', children: [] as string[] },
-        { link: '/en/resources-tools/', text: 'Tools · data & code', children: [] as string[] },
-        { link: '/en/space-news/', text: 'News · space industry archive', children: [] as string[] },
-        { link: '/en/blue-team-research/', text: 'Topic · blue-team research', children: [] as string[] },
-      ]
-    : [
-        { link: '/', text: '首页（知识总览）', children: [] as string[] },
-        { link: '/what-is-cislunarspace/', text: '入门 · 地月空间是什么', children: [] as string[] },
-        { link: '/cislunar-orbits/', text: '轨道 · 飞行器运行轨道', children: [] as string[] },
-        { link: '/research-frontiers/', text: '前沿 · 科研方向与机构', children: [] as string[] },
-        { link: '/glossary/', text: '术语 · 定义与概念', children: [] as string[] },
-        { link: '/resources-tools/', text: '工具 · 数据与代码', children: [] as string[] },
-        { link: '/space-news/', text: '动态 · 航天新闻归档', children: [] as string[] },
-        { link: '/blue-team-research/', text: '专题 · 蓝军研究', children: [] as string[] },
-      ]
-
-  return {
-    text: locale === 'en' ? 'Site map' : '全站导览',
-    collapsible: false,
-    children: items,
-  }
-}
-
-// ── Non-glossary section builder ──
+// ── Section sidebar builder (kept local — pure orchestrator machinery) ────────
 
 function buildSectionChildren(
   children: SidebarEntry[],
@@ -201,62 +99,84 @@ function buildSectionSidebar(section: SidebarSection, locale: 'zh' | 'en'): VueS
   }
 }
 
-// ── Main builder: sidebar configs ──
+// ── Glossary sidebar ──────────────────────────────────────────────────────────
 
-export function buildSidebarConfigs(scan: GlossaryScan): { zh: Record<string, any>; en: Record<string, any> } {
-  const wayfindingZh = buildWayfindingGroup('zh')
-  const wayfindingEn = buildWayfindingGroup('en')
+function buildGlossarySidebar(
+  scan: ReturnType<typeof buildGlossaryScan>,
+  locale: 'zh' | 'en',
+): VueSidebarItem {
+  const prefix = locale === 'en' ? '/en' : ''
+  const entries = locale === 'en' ? scan.en.entries : scan.zh.entries
+
+  const byCategory = new Map<string, Array<{ slug: string; title: string; path: string }>>()
+  for (const entry of entries) {
+    const catSlug = entry.category.slug
+    if (!byCategory.has(catSlug)) byCategory.set(catSlug, [])
+    byCategory.get(catSlug)!.push(entry)
+  }
+
+  if (locale === 'en') {
+    for (const gap of scan.zh.missing) {
+      const catMeta = glossaryCategories.find(c => c.label.zh === gap.category)
+      if (!catMeta) continue
+      const enCatEntries = byCategory.get(catMeta.slug) || []
+      if (!enCatEntries.some(e => e.slug === gap.slug)) {
+        enCatEntries.push({
+          slug: gap.slug,
+          title: `${gap.zhTitle} (needs translation)`,
+          path: `/en/glossary/${catMeta.slug}/${gap.slug}/`,
+        })
+        byCategory.set(catMeta.slug, enCatEntries)
+      }
+    }
+  }
+
+  const glossaryLabel = locale === 'en'
+    ? 'Cislunar glossary (terms & definitions)'
+    : '地月空间术语词典（定义与概念检索）'
+
+  const categoryChildren: Array<string | VueSidebarItem> = [`${prefix}/glossary/`]
+
+  for (const catMeta of glossaryCategories) {
+    const catEntries = byCategory.get(catMeta.slug) || []
+    if (catEntries.length === 0) continue
+    categoryChildren.push({
+      text: catMeta.label[locale],
+      collapsible: true,
+      children: catEntries.map(e => e.path),
+    })
+  }
+
+  return { text: glossaryLabel, collapsible: false, children: categoryChildren }
+}
+
+// ── Main builder ──────────────────────────────────────────────────────────────
+
+export function buildSidebarConfigs(
+  scan?: ReturnType<typeof buildGlossaryScan>,
+): { zh: Record<string, any>; en: Record<string, any> } {
+  // If scan not provided, read the pre-generated file (written by gen-sidebar.ts).
+  // Fall back to live scan only when the pre-generated file is missing
+  // (e.g., fresh clone before first gen-sidebar run).
+  const effectiveScan = scan ?? (() => {
+    const preGenPath = path.join(__dirname, 'sidebar-glossary.auto.json')
+    if (fs.existsSync(preGenPath)) {
+      try {
+        return JSON.parse(fs.readFileSync(preGenPath, 'utf-8'))
+      } catch {
+        // corrupt file — fall through to live scan
+      }
+    }
+    console.warn('[build-sidebar] sidebar-glossary.auto.json not found, falling back to live scan')
+    return buildGlossaryScan(walkSiteMarkdown(webRoot))
+  })()
+
+  const wayfinding = buildWayfindingIntake()
 
   const autoSidebarPath = path.join(__dirname, 'sidebar.auto.json')
   let autoSidebar: { zh: any[]; en: any[] } = { zh: [], en: [] }
   if (fs.existsSync(autoSidebarPath)) {
     autoSidebar = JSON.parse(fs.readFileSync(autoSidebarPath, 'utf-8'))
-  }
-
-  function buildGlossarySidebar(locale: 'zh' | 'en'): VueSidebarItem {
-    const prefix = locale === 'en' ? '/en' : ''
-    const entries = locale === 'en' ? scan.en.entries : scan.zh.entries
-
-    const byCategory = new Map<string, Array<{ slug: string; title: string; path: string }>>()
-    for (const entry of entries) {
-      const catSlug = entry.category.slug
-      if (!byCategory.has(catSlug)) byCategory.set(catSlug, [])
-      byCategory.get(catSlug)!.push(entry)
-    }
-
-    if (locale === 'en') {
-      for (const gap of scan.zh.missing) {
-        const catMeta = glossaryCategories.find(c => c.label.zh === gap.category)
-        if (!catMeta) continue
-        const enCatEntries = byCategory.get(catMeta.slug) || []
-        if (!enCatEntries.some(e => e.slug === gap.slug)) {
-          enCatEntries.push({
-            slug: gap.slug,
-            title: `${gap.zhTitle} (needs translation)`,
-            path: `/en/glossary/${catMeta.slug}/${gap.slug}/`,
-          })
-          byCategory.set(catMeta.slug, enCatEntries)
-        }
-      }
-    }
-
-    const glossaryLabel = locale === 'en'
-      ? 'Cislunar glossary (terms & definitions)'
-      : '地月空间术语词典（定义与概念检索）'
-
-    const categoryChildren: Array<string | VueSidebarItem> = [`${prefix}/glossary/`]
-
-    for (const catMeta of glossaryCategories) {
-      const catEntries = byCategory.get(catMeta.slug) || []
-      if (catEntries.length === 0) continue
-      categoryChildren.push({
-        text: catMeta.label[locale],
-        collapsible: true,
-        children: catEntries.map(e => e.path),
-      })
-    }
-
-    return { text: glossaryLabel, collapsible: false, children: categoryChildren }
   }
 
   const sectionSidebars: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {}
@@ -267,116 +187,35 @@ export function buildSidebarConfigs(scan: GlossaryScan): { zh: Record<string, an
     }
   }
 
+  const glossaryZh = buildGlossarySidebar(effectiveScan, 'zh')
+  const glossaryEn = buildGlossarySidebar(effectiveScan, 'en')
+
   const zhConfig: Record<string, any> = {
-    '/': [wayfindingZh],
-    '/what-is-cislunarspace/': [wayfindingZh, sectionSidebars['what-is-cislunarspace'].zh],
-    '/cislunar-orbits/': [wayfindingZh, sectionSidebars['cislunar-orbits'].zh],
-    '/research-frontiers/': [wayfindingZh, sectionSidebars['research-frontiers'].zh],
-    '/glossary/': [wayfindingZh, buildGlossarySidebar('zh')],
-    '/background/': [wayfindingZh, sectionSidebars['background'].zh],
-    '/resources-tools/': [wayfindingZh, sectionSidebars['resources-tools'].zh],
-    '/blue-team-research/': [wayfindingZh, sectionSidebars['blue-team-research'].zh],
-    '/space-news/': [wayfindingZh, ...autoSidebar.zh],
-    '/en/space-news/': [wayfindingZh, ...autoSidebar.zh],
+    '/': [wayfinding.zh],
+    '/what-is-cislunarspace/': [wayfinding.zh, sectionSidebars['what-is-cislunarspace'].zh],
+    '/cislunar-orbits/': [wayfinding.zh, sectionSidebars['cislunar-orbits'].zh],
+    '/research-frontiers/': [wayfinding.zh, sectionSidebars['research-frontiers'].zh],
+    '/glossary/': [wayfinding.zh, glossaryZh],
+    '/background/': [wayfinding.zh, sectionSidebars['background'].zh],
+    '/resources-tools/': [wayfinding.zh, sectionSidebars['resources-tools'].zh],
+    '/blue-team-research/': [wayfinding.zh, sectionSidebars['blue-team-research'].zh],
+    '/space-news/': [wayfinding.zh, ...autoSidebar.zh],
+    '/en/space-news/': [wayfinding.zh, ...autoSidebar.zh],
     '/satellite-simulation/': false,
   }
 
   const enConfig: Record<string, any> = {
-    '/en/': [wayfindingEn],
-    '/en/what-is-cislunarspace/': [wayfindingEn, sectionSidebars['what-is-cislunarspace'].en],
-    '/en/cislunar-orbits/': [wayfindingEn, sectionSidebars['cislunar-orbits'].en],
-    '/en/research-frontiers/': [wayfindingEn, sectionSidebars['research-frontiers'].en],
-    '/en/glossary/': [wayfindingEn, buildGlossarySidebar('en')],
-    '/en/background/': [wayfindingEn, sectionSidebars['background'].en],
-    '/en/resources-tools/': [wayfindingEn, sectionSidebars['resources-tools'].en],
-    '/en/blue-team-research/': [wayfindingEn, sectionSidebars['blue-team-research'].en],
-    '/en/space-news/': [wayfindingEn, ...autoSidebar.en],
+    '/en/': [wayfinding.en],
+    '/en/what-is-cislunarspace/': [wayfinding.en, sectionSidebars['what-is-cislunarspace'].en],
+    '/en/cislunar-orbits/': [wayfinding.en, sectionSidebars['cislunar-orbits'].en],
+    '/en/research-frontiers/': [wayfinding.en, sectionSidebars['research-frontiers'].en],
+    '/en/glossary/': [wayfinding.en, glossaryEn],
+    '/en/background/': [wayfinding.en, sectionSidebars['background'].en],
+    '/en/resources-tools/': [wayfinding.en, sectionSidebars['resources-tools'].en],
+    '/en/blue-team-research/': [wayfinding.en, sectionSidebars['blue-team-research'].en],
+    '/en/space-news/': [wayfinding.en, ...autoSidebar.en],
     '/en/satellite-simulation/': false,
   }
 
   return { zh: zhConfig, en: enConfig }
-}
-
-// ── Chat index builder ──
-
-export function buildChatIndex(scan: GlossaryScan): { zh: ChatIndexCategory[]; en: ChatIndexCategory[] } {
-  function buildLocaleIndex(locale: 'zh' | 'en'): ChatIndexCategory[] {
-    const categories: ChatIndexCategory[] = []
-    const prefix = locale === 'en' ? '/en' : ''
-    const entries = locale === 'en' ? scan.en.entries : scan.zh.entries
-
-    const byCategory = new Map<string, ChatIndexEntry[]>()
-    for (const entry of entries) {
-      const catLabel = entry.category.label[locale]
-      if (!byCategory.has(catLabel)) byCategory.set(catLabel, [])
-      byCategory.get(catLabel)!.push({ path: entry.path, title: entry.title })
-    }
-
-    if (locale === 'en') {
-      for (const gap of scan.zh.missing) {
-        const catMeta = glossaryCategories.find(c => c.label.zh === gap.category)
-        if (!catMeta) continue
-        const catLabel = catMeta.label.en
-        const existing = byCategory.get(catLabel) || []
-        const gapPath = `/en/glossary/${catMeta.slug}/${gap.slug}/`
-        if (!existing.some(e => e.path === gapPath)) {
-          existing.push({ path: gapPath, title: `${gap.zhTitle} (needs translation)` })
-          byCategory.set(catLabel, existing)
-        }
-      }
-    }
-
-    for (const catMeta of glossaryCategories) {
-      const catLabel = catMeta.label[locale]
-      const catEntries = byCategory.get(catLabel) || []
-      if (catEntries.length > 0) {
-        categories.push({ category: catLabel, entries: catEntries })
-      }
-    }
-
-    for (const section of sidebarSections) {
-      const sectionEntries: ChatIndexEntry[] = []
-      const sectionPath = `${prefix}/${section.slug}/`
-      sectionEntries.push({ path: sectionPath, title: section.label[locale] })
-
-      function collectPaths(children: SidebarEntry[], basePath: string) {
-        for (const entry of children) {
-          if (entry.locales && !entry.locales.includes(locale)) continue
-          if (entry.slug === undefined) {
-            if (entry.children) collectPaths(entry.children, basePath)
-            continue
-          }
-          if (entry.slug === '') continue
-          const entryPath = `${basePath}${entry.slug}/`
-          sectionEntries.push({ path: entryPath, title: entry.label[locale] })
-          if (entry.children) collectPaths(entry.children, entryPath)
-        }
-      }
-
-      const childrenSource = section.childrenByLocale
-        ? section.childrenByLocale[locale]
-        : section.children
-      collectPaths(childrenSource, sectionPath)
-
-      categories.push({ category: section.label[locale], entries: sectionEntries })
-    }
-
-    return categories
-  }
-
-  return {
-    zh: buildLocaleIndex('zh'),
-    en: buildLocaleIndex('en'),
-  }
-}
-
-// ── Translation gap report ──
-
-export function getTranslationGapReport(scan: GlossaryScan): { total: number; byCategory: Map<string, number>; gaps: TranslationGap[] } {
-  const { missing } = scan.zh
-  const byCategory = new Map<string, number>()
-  for (const gap of missing) {
-    byCategory.set(gap.category, (byCategory.get(gap.category) || 0) + 1)
-  }
-  return { total: missing.length, byCategory, gaps: missing }
 }

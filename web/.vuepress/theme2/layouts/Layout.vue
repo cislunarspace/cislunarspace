@@ -129,6 +129,7 @@ import {
   startTableEnhanceObserver,
   teardownTableToolbar,
 } from '../composables/useTableEnhance'
+import { LayoutTypes } from '../utils/layout-types'
 
 const route = useRoute()
 const page = usePage()
@@ -137,12 +138,14 @@ const pageLayout = computed(() => String(page.value.frontmatter?.layout || ''))
 
 const isSpaceNews = computed(() => {
   const layout = pageLayout.value
-  return layout === 'SpaceNewsHome' || layout === 'SpaceNewsArticle' || layout === 'SpaceNewsArchive'
+  return layout === LayoutTypes.SpaceNewsHome
+    || layout === LayoutTypes.SpaceNewsArticle
+    || layout === LayoutTypes.SpaceNewsArchive
 })
 
-const isOrbitSim = computed(() => pageLayout.value === 'OrbitSimLab')
+const isOrbitSim = computed(() => pageLayout.value === LayoutTypes.OrbitSimLab)
 
-const isForum = computed(() => pageLayout.value === 'Forum')
+const isForum = computed(() => pageLayout.value === LayoutTypes.Forum)
 
 function runTableEnhance() {
   const run = () => {
