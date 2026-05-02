@@ -1,6 +1,5 @@
 import { defineUserConfig } from 'vuepress'
-import { webpackBundler } from '@vuepress/bundler-webpack'
-import { createProxyMiddleware } from 'http-proxy-middleware'
+import { viteBundler } from '@vuepress/bundler-vite'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 import { searchPlugin } from '@vuepress/plugin-search'
@@ -14,7 +13,6 @@ import sidebar from './sidebar.js'
 import sidebarEn from './sidebar-en.js'
 import ogMetaPlugin from './og-meta-plugin.js'
 import mk from '@traptitech/markdown-it-katex'
-import express from 'express'
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url))
 // web/.env、web/.env.local（后者覆盖，便于本机覆写而无需改 .env）
@@ -117,50 +115,25 @@ export default defineUserConfig({
     `],
   ],
 
-  bundler: webpackBundler({
-    chainWebpack: (config) => {
-      config.parallelism(1)
-      // Raise esbuild target to support modern syntax (destructuring, etc.)
-      // The "ts" rule is always created; the "js" rule is only created in
-      // production non-evergreen builds. Safely tap only existing rules.
-      for (const ruleName of ['ts', 'js']) {
-        const rule = config.module.rule(ruleName)
-        if (rule.uses.has('esbuild-loader')) {
-          rule.use('esbuild-loader').tap((options: any) => ({
-            ...options,
-            target: 'esnext',
-          }))
-        }
-      }
-      // Map absolute /home-modules/ paths to the public directory so
-      // css-loader can resolve url("/home-modules/xxx.jpg") references.
-      config.resolve.alias.set(
-        '/home-modules',
-        path.resolve(__configDir, 'public/home-modules')
-      )
-    },
-    devServerSetupMiddlewares: (middlewares, devServer) => {
-      // Serve content files (figures, images) from the source directory
-      // so that /space-news/.../hero.jpg resolves during dev.
-      devServer.app?.use(express.static(path.resolve(__configDir, '..')))
-      // AI chat proxy
-      devServer.app?.use(
-        '/api/ai',
-        createProxyMiddleware({
-          target: 'https://api.deepseek.com',
-          changeOrigin: true,
-          pathRewrite: { '^/api/ai': '' },
-          on: {
-            proxyReq: (proxyReq) => {
-              proxyReq.setHeader(
-                'Authorization',
-                `Bearer ${process.env.DEEPSEEK_API_KEY || ''}`
-              )
+  bundler: viteBundler({
+    viteOptions: {
+      server: {
+        proxy: {
+          '/api/ai': {
+            target: 'https://api.deepseek.com',
+            changeOrigin: true,
+            rewrite: (p) => p.replace(/^\/api\/ai/, ''),
+            configure: (proxy) => {
+              proxy.on('proxyReq', (proxyReq) => {
+                proxyReq.setHeader(
+                  'Authorization',
+                  `Bearer ${process.env.DEEPSEEK_API_KEY || ''}`
+                )
+              })
             },
           },
-        })
-      )
-      return middlewares
+        },
+      },
     },
   }),
 
