@@ -132,22 +132,17 @@ import {
 
 const route = useRoute()
 const page = usePage()
+
+const pageLayout = computed(() => String(page.value.frontmatter?.layout || ''))
+
 const isSpaceNews = computed(() => {
-  const p = route.path
-  return p.startsWith('/space-news/') || p.startsWith('/en/space-news/')
+  const layout = pageLayout.value
+  return layout === 'SpaceNewsHome' || layout === 'SpaceNewsArticle' || layout === 'SpaceNewsArchive'
 })
 
-/** 轨道仿真全屏页：不显示站点左侧栏、右侧工具条与侧栏切换钮 */
-const isOrbitSim = computed(() => {
-  const p = (route.path.replace(/\/$/, '') || '/').toLowerCase()
-  return p === '/satellite-simulation' || p === '/en/satellite-simulation'
-})
+const isOrbitSim = computed(() => pageLayout.value === 'OrbitSimLab')
 
-/** 社区论坛：全宽内容、无侧栏与页面工具条，与轨道仿真页类似的留白策略 */
-const isForum = computed(() => {
-  const p = (route.path.replace(/\/$/, '') || '/').toLowerCase()
-  return p === '/forum' || p === '/en/forum'
-})
+const isForum = computed(() => pageLayout.value === 'Forum')
 
 function runTableEnhance() {
   const run = () => {

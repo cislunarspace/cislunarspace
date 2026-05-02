@@ -1,3 +1,7 @@
+import type { Frontmatter } from '../../utils/frontmatter-parser'
+
+export type { Frontmatter }
+
 export interface ArticleItem {
   path: string
   title: string
@@ -29,27 +33,8 @@ export interface WechatSdk {
   updateTimelineShareData?: (data: Record<string, string>) => void
 }
 
-export interface PageFrontmatter {
-  title?: string
-  description?: string
-  image?: string
-  author?: string
-  date?: string
-  category?: string | string[]
-  layout?: string
-  home?: boolean
-  draft?: boolean
-  wechatShare?: {
-    title?: string
-    desc?: string
-    image?: string
-  }
-  __rawContent?: string
-  [key: string]: unknown
-}
-
 export interface PageData {
   title?: string
   path?: string
-  frontmatter?: PageFrontmatter
+  frontmatter?: Frontmatter
 }

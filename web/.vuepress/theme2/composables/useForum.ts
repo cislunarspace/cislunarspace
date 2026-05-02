@@ -2,6 +2,7 @@ import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import type { ForumLang } from '../utils/forumI18n'
 import { forumT } from '../utils/forumI18n'
+import { escapeHtml } from '../utils/html'
 
 const STORAGE_KEY_POSTS = 'cislunar-forum-posts'
 const STORAGE_KEY_USER = 'cislunar-forum-user'
@@ -51,20 +52,10 @@ export async function hashPassword(password: string): Promise<string> {
   return hashArray.map((b) => b.toString(16).padStart(2, '0')).join('')
 }
 
-export function escapeHtml(text: string): string {
-  return text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
-}
-
-const currentUser = ref<ForumUser | null>(null)
-const posts = ref<ForumPost[]>([])
-const likedPostIds = ref<string[]>([])
-
 export function useForum() {
+  const currentUser = ref<ForumUser | null>(null)
+  const posts = ref<ForumPost[]>([])
+  const likedPostIds = ref<string[]>([])
   const route = useRoute()
   const lang = computed<ForumLang>(() =>
     route.path.startsWith('/en/') ? 'en' : 'zh',
@@ -315,10 +306,7 @@ export function useForum() {
     t,
     currentUser,
     posts,
-    likedPostIds,
     postCategories,
-    loadUser,
-    saveUser,
     handleAuth,
     enterAsGuest,
     logout,

@@ -64,13 +64,15 @@ export interface RouteResult {
   rationale?: string
 }
 
+export type ProcessStepKey = 'stepNav' | 'stepExcerpt' | 'stepAnswer' | 'stepAnswerAlone'
+export type ErrorKey = 'noStrongMatch' | 'emptyReply' | 'networkError'
+
 export interface RouteCallbacks {
   onPathsChosen(paths: string[]): void
   onExcerptsLoaded(excerptText: string | null): void
   onChunk(delta: SseDelta): void
   onComplete(content: string, reasoning: string): void
-  onError(message: string): void
-  onProcessStep(label: string, detail?: string): void
-  onProcessStepComplete(label: string, detail?: string): void
-  t(key: string): string
+  onError(errorKey: ErrorKey, details?: string): void
+  onProcessStep(stepKey: ProcessStepKey, detail?: string): void
+  onProcessStepComplete(stepKey: ProcessStepKey, detail?: string): void
 }

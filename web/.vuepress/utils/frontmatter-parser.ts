@@ -21,6 +21,13 @@ export interface Frontmatter {
   permalink?: string
   image?: string
   related?: string[]
+  layout?: string
+  home?: boolean
+  wechatShare?: {
+    title?: string
+    desc?: string
+    image?: string
+  }
   [key: string]: unknown
 }
 

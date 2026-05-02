@@ -1,12 +1,12 @@
 import { describe, it, expect } from 'vitest'
 import {
-  escapeHtml,
   renderKatex,
   renderInlineMarkdown,
   renderTableHtml,
   renderLinkedHtml,
   sanitizeGeneratedHtml,
 } from './markdown-renderer'
+import { escapeHtml } from './html'
 
 describe('escapeHtml', () => {
   it('escapes & < > "', () => {

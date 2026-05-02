@@ -4,6 +4,7 @@ description: 地月空间社区论坛，分享讨论航天、轨道动力学、�
 keywords: 社区论坛, 地月空间, cislunar space, 讨论, 问答, 分享
 author: 天疆说
 date: 2026-03-09
+layout: Forum
 lastUpdated: false
 sidebar: false
 editLink: false
