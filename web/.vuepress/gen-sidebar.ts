@@ -292,7 +292,13 @@ console.log(
 const gapReport = getTranslationGapReport(glossaryScan)
 if (gapReport.total > 0) {
   console.log(`\n📋 Glossary translation gaps: ${gapReport.total} entries missing English translations`)
-  for (const [cat, count] of gapReport.byCategory) {
+  for (const [cat, count] of Object.entries(gapReport.byCategory)) {
     console.log(`   ${cat}: ${count} missing`)
   }
 }
+
+fs.writeFileSync(
+  path.join(__dirname, 'sidebar-glossary.auto.json'),
+  JSON.stringify(glossaryScan, null, 2),
+)
+console.log('Generated sidebar-glossary.auto.json')

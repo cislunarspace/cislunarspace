@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { walkDir, DEFAULT_EXCLUDED } from './utils/markdown-walker.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -16,40 +17,38 @@ function syncFigures(sourceBase, destBase) {
   if (!fs.existsSync(sourceBase)) return { count: 0, errors: 0 }
   let count = 0
   let errors = 0
-  function walk(dir) {
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      const src = path.join(dir, entry.name)
-      if (entry.isDirectory()) {
-        if (entry.name === 'figures') {
-          const rel = path.relative(sourceBase, src)
-          const dest = path.join(destBase, rel)
-          fs.mkdirSync(dest, { recursive: true })
-          function copyRecursive(d, target) {
-            for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-              const s = path.join(d, e.name)
-              const t = path.join(target, e.name)
-              if (e.isDirectory()) {
-                fs.mkdirSync(t, { recursive: true })
-                copyRecursive(s, t)
-              } else {
-                try {
-                  fs.copyFileSync(s, t)
-                  count++
-                } catch (err) {
-                  console.warn(`  Failed to copy ${s}: ${err.message}`)
-                  errors++
-                }
-              }
-            }
-          }
-          copyRecursive(src, dest)
-        } else {
-          walk(src)
+
+  function copyRecursive(src, dest) {
+    fs.mkdirSync(dest, { recursive: true })
+    for (const e of fs.readdirSync(src, { withFileTypes: true })) {
+      const s = path.join(src, e.name)
+      const t = path.join(dest, e.name)
+      if (e.isDirectory()) {
+        copyRecursive(s, t)
+      } else {
+        try {
+          fs.copyFileSync(s, t)
+          count++
+        } catch (err) {
+          console.warn(`  Failed to copy ${s}: ${err.message}`)
+          errors++
         }
       }
     }
   }
-  walk(sourceBase)
+
+  walkDir(sourceBase, {
+    excludedDirs: DEFAULT_EXCLUDED,
+    onEnterDir: (abs, rel) => {
+      if (path.basename(abs) === 'figures') {
+        const dest = path.join(destBase, rel)
+        copyRecursive(abs, dest)
+        return false  // skip recursing into figures — already copied
+      }
+      return true
+    },
+  })
+
   return { count, errors }
 }
 

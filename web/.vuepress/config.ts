@@ -9,15 +9,14 @@ import { fileURLToPath } from 'url'
 import theme from './theme2/index.js'
 import navbar from './navbar.js'
 import navbarEn from './navbar-en.js'
-import { buildSidebarConfigs, buildGlossaryScan } from './build-sidebar.js'
-import { walkSiteMarkdown } from './utils/markdown-walker.js'
+import { buildSidebarConfigs } from './build-sidebar.js'
 import ogMetaPlugin from './og-meta-plugin.js'
 
 import mk from '@traptitech/markdown-it-katex'
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url))
 const webRoot = path.join(__configDir, '..')
-const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs(buildGlossaryScan(walkSiteMarkdown(webRoot)))
+const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs()
 
 // web/.env、web/.env.local（后者覆盖，便于本机覆写而无需改 .env）
 dotenv.config({ path: path.resolve(__configDir, '../.env'), quiet: true })
