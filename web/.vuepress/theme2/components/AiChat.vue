@@ -176,122 +176,14 @@
 </template>
 
 <script>
-import sidebarConfig from '../../sidebar.ts'
-import sidebarConfigEn from '../../sidebar-en.ts'
-
 import {
   escapeHtml,
   renderKatex,
   renderInlineMarkdown,
   renderLinkedHtml,
 } from '../utils/markdown-renderer'
-
-function normalizeApiEndpoint(rawEndpoint) {
-  if (typeof rawEndpoint !== 'string') return '/api/ai/v1/chat/completions'
-
-  const endpoint = rawEndpoint.trim()
-  if (!endpoint) return '/api/ai/v1/chat/completions'
-
-  if (/^https?:\/\//i.test(endpoint)) {
-    try {
-      const url = new URL(endpoint, window.location.origin)
-      if (url.origin === window.location.origin) {
-        return url.pathname + url.search + url.hash
-      }
-    } catch (e) {
-      return '/api/ai/v1/chat/completions'
-    }
-
-    return '/api/ai/v1/chat/completions'
-  }
-
-  return endpoint.startsWith('/') ? endpoint : `/${endpoint}`
-}
-
-function sanitizeClientConfig(config) {
-  const nextConfig = Object.assign({}, config || {})
-  delete nextConfig.apiKey
-  nextConfig.apiEndpoint = normalizeApiEndpoint(nextConfig.apiEndpoint)
-  if (nextConfig.twoPhaseRetrieval === undefined) {
-    nextConfig.twoPhaseRetrieval = true
-  }
-  if (nextConfig.routerTemperature == null) {
-    nextConfig.routerTemperature = 0.2
-  }
-  if (nextConfig.twoPhaseContextCharBudget == null) {
-    nextConfig.twoPhaseContextCharBudget = 45000
-  }
-  if (nextConfig.routerMaxPaths == null) {
-    nextConfig.routerMaxPaths = 8
-  }
-  if (nextConfig.stream === undefined) {
-    nextConfig.stream = true
-  }
-  if (!nextConfig.routerModel) {
-    nextConfig.routerModel = nextConfig.model
-  }
-  return nextConfig
-}
-
-function normalizeDocPath(path) {
-  if (typeof path !== 'string' || !path.trim()) return ''
-
-  const trimmed = path.trim()
-  if (/^https?:\/\//i.test(trimmed)) return trimmed
-  if (trimmed === '/') return trimmed
-  if (/[.#?]$/.test(trimmed)) return trimmed
-  return trimmed.endsWith('/') ? trimmed : `${trimmed}/`
-}
-
-function collectSidebarChildren(children, entries) {
-  if (!Array.isArray(children)) return
-
-  for (const child of children) {
-    if (Array.isArray(child) && child.length >= 2) {
-      const path = normalizeDocPath(child[0])
-      const title = child[1]
-      if (path && title) {
-        entries.push({ title, path })
-      }
-      continue
-    }
-
-    if (child && typeof child === 'object') {
-      const path = normalizeDocPath(child.path)
-      if (path && child.title) {
-        entries.push({ title: child.title, path })
-      }
-
-      collectSidebarChildren(child.children, entries)
-    }
-  }
-}
-
-function buildSidebarEntries(sidebarConfigObject) {
-  const rawEntries = []
-  const groups = Object.values(sidebarConfigObject || {})
-
-  for (const group of groups) {
-    if (Array.isArray(group)) {
-      collectSidebarChildren(group, rawEntries)
-    }
-  }
-
-  const uniqueEntries = []
-  const seen = new Set()
-
-  for (const entry of rawEntries) {
-    const key = `${entry.title}@@${entry.path}`
-    if (seen.has(key)) continue
-    seen.add(key)
-    uniqueEntries.push(entry)
-  }
-
-  return uniqueEntries
-}
-
-const zhSidebarEntries = buildSidebarEntries(sidebarConfig)
-const enSidebarEntries = buildSidebarEntries(sidebarConfigEn)
+import { ChatSession } from '../utils/chat-session'
+import { sanitizeClientConfig } from '../utils/chat-config'
 
 const HISTORY_KEY = 'cislunar-chat-history'
 const THEME_KEY = 'cislunar-chat-theme'
@@ -371,9 +263,6 @@ export default {
   watch: {
     isEn() {
       this.updateSuggestedQuestions()
-      if (this.config) {
-        this.config.systemPrompt = this.getSystemPrompt()
-      }
     },
     isDark() {
       this.applyTheme()
@@ -416,17 +305,14 @@ export default {
 
     saveCurrentChat() {
       if (this.messages.length === 0) return
-
       const title = this.getChatTitle(this.messages)
       const entry = { title, messages: JSON.parse(JSON.stringify(this.messages)), timestamp: Date.now() }
-
       if (this.activeChatIndex >= 0 && this.activeChatIndex < this.chatHistory.length) {
         this.chatHistory[this.activeChatIndex] = entry
       } else {
         this.chatHistory.unshift(entry)
         this.activeChatIndex = 0
       }
-
       this.chatHistory = this.chatHistory.filter(chat => chat.messages && chat.messages.length > 0)
       saveChatHistory(this.chatHistory)
     },
@@ -453,16 +339,9 @@ export default {
     },
 
     getMessageText(message, index) {
-      if (
-        message &&
-        message.role === 'assistant' &&
-        !message.content &&
-        this.isLoading &&
-        index === this.messages.length - 1
-      ) {
+      if (message && message.role === 'assistant' && !message.content && this.isLoading && index === this.messages.length - 1) {
         return ''
       }
-
       return message.content
     },
 
@@ -480,7 +359,7 @@ export default {
       const strings = {
         toolbarTitle: { zh: 'AI 问答', en: 'AI Chat' },
         newChat: { zh: '新对话', en: 'New Chat' },
-        welcomeEyebrow: { zh: '地月空间入门指南', en: "Cislunar Space Guide" },
+        welcomeEyebrow: { zh: '地月空间入门指南', en: 'Cislunar Space Guide' },
         welcomeTitle: { zh: '地月空间 AI 助手', en: 'Cislunar Space AI Assistant' },
         welcomeDesc: {
           zh: '将先在全站页面中定位相关条目，再基于正文节选与站点索引组织回答',
@@ -511,7 +390,6 @@ export default {
           en: 'Request failed. Please check the network or server proxy configuration.'
         }
       }
-
       const item = strings[key]
       if (!item) return key
       return this.isEn ? item.en : item.zh
@@ -519,31 +397,16 @@ export default {
 
     updateSuggestedQuestions() {
       this.suggestedQuestions = this.isEn
-        ? [
-            'What is cislunar space?',
-            'What is the CR3BP model?',
-            'What are the characteristics of NRHO orbits?',
-            'What are Lagrange points used for?'
-          ]
-        : [
-            '什么是地月空间？',
-            'CR3BP 模型是什么？',
-            '有谁在研究地月空间？',
-            '地月空间研究前沿是什么？'
-          ]
+        ? ['What is cislunar space?', 'What is the CR3BP model?', 'What are the characteristics of NRHO orbits?', 'What are Lagrange points used for?']
+        : ['什么是地月空间？', 'CR3BP 模型是什么？', '有谁在研究地月空间？', '地月空间研究前沿是什么？']
     },
 
     async loadConfig() {
       try {
         const url = '/ai-chat-config.json'
         const response = await fetch(url, { cache: 'no-store' })
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`)
-        }
-
+        if (!response.ok) throw new Error(`HTTP ${response.status}`)
         this.config = sanitizeClientConfig(await response.json())
-        this.config.systemPrompt = this.getSystemPrompt()
-
         try {
           const idxRes = await fetch('/ai-chat-index.json', { cache: 'no-store' })
           if (idxRes.ok) {
@@ -562,276 +425,6 @@ export default {
         this.useTwoPhase = false
         this.messages = [{ role: 'assistant', content: `${this.t('configError')} ${error.message}` }]
       }
-    },
-
-    getSidebarIndexText() {
-      const entries = this.isEn ? enSidebarEntries : zhSidebarEntries
-      return entries.map((entry) => `- ${entry.title}: ${entry.path}`).join('\n')
-    },
-
-    getAnswerRulesBlock() {
-      if (this.isEn) {
-        return `You are the AI assistant for the Cislunar Space Beginner's Guide (cislunar space). Answer in English: concise, accurate, and professional.
-
-When "Relevant page excerpts" are provided in the system message, prioritize them to structure your answer. If they are insufficient, you may add general knowledge about cislunar orbits and missions, and clearly label what comes from the excerpts vs. your general knowledge.
-
-Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). Only link paths that exist in the site index supplied in the same message. Do not invent URLs. Use $...$ and $$...$$ for LaTeX. Prefer clear Markdown structure (headings, lists, tables).`
-      }
-      return `你是地月空间入门指南网站的 AI 问答助手。请使用中文回答，保持简洁、准确、专业。
-
-若系统消息中提供了「本站节选」，请优先依据节选组织回答；若节选不足，可补充航天与轨道力学方面的通用知识，并明确区分「摘自本站」与「通用知识」。
-
-引用本站时请使用可点击的 Markdown 链接，例如 [地月空间环境](/what-is-cislunarspace/environment/)。同一消息中提供的「站点索引」所列路径均为真实页面，仅可链接其中存在的路径；不要编造 URL。数学公式使用 $ 与 $$ 与 LaTeX。回答结构清晰，适当使用标题与列表。`
-    },
-
-    getSystemPrompt() {
-      const index = this.getSidebarIndexText()
-      if (this.isEn) {
-        return `${this.getAnswerRulesBlock()}\n\nSite index (for valid links):\n${index}`
-      }
-      return `${this.getAnswerRulesBlock()}\n\n站点索引（用于核对可引用链接）：\n${index}`
-    },
-
-    getAnswerSystemWithRetrieved(excerptText) {
-      const index = this.getSidebarIndexText()
-      if (this.isEn) {
-        return `${this.getAnswerRulesBlock()}\n\n--- Relevant page excerpts (primary source) ---\n${excerptText}\n\n--- Site index (for additional valid links) ---\n${index}`
-      }
-      return `${this.getAnswerRulesBlock()}\n\n--- 本站节选（回答时优先依据以下内容） ---\n${excerptText}\n\n--- 站点索引（可引用链接列表） ---\n${index}`
-    },
-
-    async loadSiteContext() {
-      if (this.siteContext) {
-        return this.siteContext
-      }
-      if (this.contextLoadPromise) {
-        return this.contextLoadPromise
-      }
-      this.contextLoadPromise = fetch('/ai-chat-context.json', { cache: 'no-store' })
-        .then((r) => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`)
-          return r.json()
-        })
-        .then((data) => {
-          this.siteContext = data
-          return data
-        })
-        .catch(() => {
-          this.siteContext = { zh: {}, en: {} }
-          return this.siteContext
-        })
-        .finally(() => {
-          this.contextLoadPromise = null
-        })
-      return this.contextLoadPromise
-    },
-
-    buildSiteMapText(loc) {
-      const rows = this.siteIndex[loc] || []
-      return rows.map((r) => `${r.path}\t${r.title}`).join('\n')
-    },
-
-    getRouterSystemPrompt() {
-      const max = this.config && this.config.routerMaxPaths != null ? this.config.routerMaxPaths : 8
-      if (this.isEn) {
-        return `You are a site navigation and retrieval planner for the Cislunar Space Beginner's Guide. You ONLY choose page paths that appear in the site map; paths must match exactly (including trailing slash). Task: for the user question, pick between 3 and ${max} of the most relevant paths to answer it (fewer is OK if only a few apply). You may return an empty "paths" array if nothing in the map is relevant. Reply with ONE JSON object only, no other text, no markdown fences, like: {"paths":["/en/some-page/","/en/glossary/foo/"],"rationale":"one short sentence"}. "paths" is an array of strings. Do not fabricate paths.`
-      }
-      return `你是本站「全站导览与检索」模块。你只能从站点地图里出现的 path 中选择；path 必须与地图逐字一致（含尾部斜杠）。任务：根据用户问题，在地图中挑选约 3～${max} 个最相关的页面（若确实很少相关也可以更少）。若地图中无帮助，"paths" 用空数组。只输出一个 JSON 对象，不要其他文字、不要用 markdown 代码块，例如：{"paths":["/glossary/cr3bp/","/cislunar-orbits/"],"rationale":"一句话说明"}。"paths" 为字符串数组。不要编造不存在的 path。`
-    },
-
-    buildRouterUserMessage(historyMessages, currentText) {
-      const tail = historyMessages.slice(-6)
-      const parts = []
-      if (this.isEn) {
-        if (tail.length) {
-          parts.push('Recent messages (condensed for routing):')
-          for (const m of tail) {
-            const c = m.content && m.content.length > 500 ? m.content.slice(0, 500) + '…' : m.content
-            parts.push(`${m.role}: ${c}`)
-          }
-          parts.push('')
-        }
-        parts.push('Current user question:')
-        parts.push(currentText)
-      } else {
-        if (tail.length) {
-          parts.push('（以下为近期对话摘要，供理解指代，选页仍以当前问题为主）')
-          for (const m of tail) {
-            const c = m.content && m.content.length > 500 ? m.content.slice(0, 500) + '…' : m.content
-            parts.push(`${m.role}：${c}`)
-          }
-          parts.push('')
-        }
-        parts.push('当前用户问题：')
-        parts.push(currentText)
-      }
-      return parts.join('\n')
-    },
-
-    normalizePath(p) {
-      if (typeof p !== 'string' || !p.trim()) {
-        return null
-      }
-      let x = p.trim()
-      if (!x.startsWith('/')) {
-        x = `/${x}`
-      }
-      if (!x.endsWith('/')) {
-        x = `${x}/`
-      }
-      return x
-    },
-
-    normalizeAndValidatePaths(rawPaths, loc) {
-      const max = (this.config && this.config.routerMaxPaths) || 8
-      const map = (loc === 'en' ? this.siteIndex.en : this.siteIndex.zh) || []
-      const allowed = new Set(map.map((r) => r.path))
-      const out = []
-      if (!Array.isArray(rawPaths)) {
-        return out
-      }
-      for (const r of rawPaths) {
-        const p = this.normalizePath(r)
-        if (p && allowed.has(p) && out.indexOf(p) === -1) {
-          out.push(p)
-        }
-        if (out.length >= max) break
-      }
-      return out
-    },
-
-    parseRouterResponse(raw) {
-      if (typeof raw !== 'string' || !raw.trim()) {
-        return { paths: [] }
-      }
-      let s = raw.trim()
-      const fence = s.match(/```(?:json)?\s*([\s\S]*?)```/)
-      if (fence) {
-        s = fence[1].trim()
-      }
-      try {
-        const o = JSON.parse(s)
-        const arr = o.paths
-        if (Array.isArray(arr)) {
-          return { paths: arr }
-        }
-      } catch (e) {
-        console.warn('[AiChat] parseRouterResponse', e)
-      }
-      return { paths: [] }
-    },
-
-    fallbackKeywordPaths(question, loc) {
-      const list = (this.siteIndex[loc] || [])
-      if (!list.length || !question) {
-        return []
-      }
-      const max = 4
-      const q = question.toLowerCase()
-      const terms = q.split(/[\s,，。、；!？?]+/).filter((x) => x.length > 1)
-      const scored = list
-        .map((item) => {
-          const hay = `${item.path} ${item.title}`.toLowerCase()
-          let s = 0
-          for (const t of terms) {
-            if (t.length > 1 && hay.includes(t)) {
-              s += 3
-            }
-          }
-          for (const ch of question) {
-            if (ch.trim() && hay.includes(String(ch).toLowerCase())) {
-              s += 0.2
-            }
-          }
-          return { p: item.path, s }
-        })
-        .filter((x) => x.s > 0)
-        .sort((a, b) => b.s - a.s)
-      return scored.slice(0, max).map((x) => x.p)
-    },
-
-    buildContextBlob(ctx, loc, paths) {
-      const bag = loc === 'en' ? ctx.en : ctx.zh
-      const budget = (this.config && this.config.twoPhaseContextCharBudget) || 45000
-      const parts = []
-      let used = 0
-      for (const p of paths) {
-        const rec = bag[p]
-        if (!rec) {
-          continue
-        }
-        const block = `--- ${p}\n# ${rec.title || p}\n\n${rec.text || ''}\n`
-        if (used + block.length > budget) {
-          const left = Math.max(0, budget - used - 50)
-          if (left < 200) {
-            break
-          }
-          parts.push(`${block.slice(0, left)}…\n[${this.isEn ? 'truncated' : '已截断'}]`)
-          break
-        }
-        used += block.length
-        parts.push(block)
-      }
-      return parts.length ? parts.join('\n') : null
-    },
-
-    pushProcessStep(assistantMessage, { label, detail = '' }) {
-      if (!assistantMessage.processSteps) {
-        assistantMessage.processSteps = []
-      }
-      for (const s of assistantMessage.processSteps) {
-        if (s.status === 'running') s.status = 'done'
-      }
-      assistantMessage.processSteps.push({ label, status: 'running', detail })
-    },
-
-    completeLastProcess(assistantMessage, detail) {
-      const s = assistantMessage.processSteps
-      if (!s || !s.length) return
-      const last = s[s.length - 1]
-      if (last.status === 'running') last.status = 'done'
-      if (detail != null && String(detail).length) {
-        last.detail = detail
-      }
-    },
-
-    finalizeAllProcessSteps(assistantMessage) {
-      if (!assistantMessage || !assistantMessage.processSteps) return
-      for (const step of assistantMessage.processSteps) {
-        if (step.status === 'running') step.status = 'done'
-      }
-    },
-
-    formatPathList(paths, loc) {
-      if (!Array.isArray(paths) || !paths.length) {
-        return ''
-      }
-      const rows = (this.siteIndex[loc] || []) 
-      const map = new Map(rows.map((r) => [r.path, r.title]))
-      return paths
-        .slice(0, 8)
-        .map((p) => map.get(p) || p)
-        .join(' · ')
-    },
-
-    async callChatJson(payload, signal) {
-      const res = await fetch(this.config.apiEndpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...payload,
-          stream: false
-        }),
-        signal
-      })
-      if (!res.ok) {
-        const t = await res.text()
-        throw new Error(`HTTP ${res.status} ${t}`)
-      }
-      const data = await res.json()
-      return data.choices && data.choices[0] && data.choices[0].message
-        ? data.choices[0].message.content
-        : ''
     },
 
     startNewChat() {
@@ -873,137 +466,66 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
 
       const assistantMessage = { role: 'assistant', content: '', reasoning: '', processSteps: [] }
       this.messages.push(assistantMessage)
-
       this.abortController = new AbortController()
 
       try {
         const maxHistory = Number(this.config.maxHistoryTurns || 10)
-        const historyMessages = this.messages
-          .slice(0, -1)
-          .slice(-maxHistory * 2)
-          .map((message) => ({ role: message.role, content: message.content }))
+        const historyMessages = this.messages.slice(0, -1).slice(-maxHistory * 2)
 
-        let systemPrompt = this.getSystemPrompt()
-        let usedTwoPhase = false
-        const loc = this.isEn ? 'en' : 'zh'
-        const indexRows = this.siteIndex[loc] || []
-        if (
-          this.useTwoPhase &&
-          this.config.twoPhaseRetrieval !== false &&
-          indexRows.length
-        ) {
-          try {
-            this.loadingPhase = 'router'
-            this.pushProcessStep(assistantMessage, { label: this.t('stepNav') })
-            const mapText = this.buildSiteMapText(loc)
-            const routerUser = this.buildRouterUserMessage(historyMessages, text)
-            const routerBody = {
-              model: this.config.routerModel || this.config.model,
-              max_tokens: 800,
-              temperature: this.config.routerTemperature == null ? 0.2 : this.config.routerTemperature,
-              messages: [
-                { role: 'system', content: this.getRouterSystemPrompt() },
-                {
-                  role: 'user',
-                  content: `${this.isEn ? 'Site map: one line per row as path<tab>title' : '站点地图：每行 path<tab>title'}\n\n${mapText}\n\n---\n\n${routerUser}`
-                }
-              ]
-            }
-            const rawRouter = await this.callChatJson(routerBody, this.abortController.signal)
-            this.loadingPhase = 'answer'
-            let chosen = this.normalizeAndValidatePaths(
-              this.parseRouterResponse(rawRouter).paths,
-              loc
-            )
-            if (chosen.length === 0) {
-              chosen = this.fallbackKeywordPaths(text, loc)
-            }
-            if (chosen.length) {
-              this.completeLastProcess(assistantMessage, this.formatPathList(chosen, loc) || (this.isEn ? 'ok' : '已选'))
-              this.pushProcessStep(assistantMessage, { label: this.t('stepExcerpt') })
-              const ctx = await this.loadSiteContext()
-              const blob = this.buildContextBlob(ctx, loc, chosen)
-              this.completeLastProcess(
-                assistantMessage,
-                blob
-                  ? (this.isEn ? 'Excerpts loaded' : '已载入正文节选')
-                  : (this.isEn ? 'Falling back to site index' : '节选为空，改用全站索引')
-              )
-              if (blob) {
-                systemPrompt = this.getAnswerSystemWithRetrieved(blob)
-                usedTwoPhase = true
-              }
-            } else {
-              this.completeLastProcess(assistantMessage, this.t('noStrongMatch'))
-            }
-            this.pushProcessStep(assistantMessage, { label: this.t('stepAnswer') })
-          } catch (routerErr) {
-            this.loadingPhase = 'answer'
-            if (routerErr && routerErr.name === 'AbortError') {
-              this.messages.pop()
-              this.isLoading = false
-              this.loadingPhase = ''
-              this.abortController = null
-              return
-            }
-            if (assistantMessage.processSteps && assistantMessage.processSteps.length) {
-              this.completeLastProcess(assistantMessage, this.isEn ? 'error' : '导览未成功')
-            }
-            this.pushProcessStep(assistantMessage, { label: this.t('stepAnswer') })
-            systemPrompt = this.getSystemPrompt()
-          }
-        } else {
-          this.loadingPhase = 'answer'
-          this.pushProcessStep(assistantMessage, { label: this.t('stepAnswerAlone') })
-        }
-        if (!usedTwoPhase) {
-          systemPrompt = this.getSystemPrompt()
-        }
+        const session = new ChatSession(this.config, this.isEn ? 'en' : 'zh', this.siteIndex)
 
-        const useStream = this.config.stream !== false
-        const payload = {
-          model: this.config.model,
-          messages: [{ role: 'system', content: systemPrompt }, ...historyMessages],
-          temperature: this.config.temperature == null ? 0.7 : this.config.temperature,
-          stream: useStream
-        }
-
-        const response = await fetch(this.config.apiEndpoint, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
+        await session.route(text, historyMessages, {
+          onPathsChosen: (paths) => {
+            // paths chosen by router — step already marked in session
           },
-          body: JSON.stringify(payload),
-          signal: this.abortController.signal
-        })
-
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status} ${response.statusText}`)
-        }
-
-        if (useStream && response.body && response.body.getReader) {
-          await this.readStream(response.body.getReader(), assistantMessage)
-        } else {
-          const data = await response.json()
-          const msg = data.choices?.[0]?.message
-          assistantMessage.content = msg?.content || this.t('emptyReply')
-          if (msg?.reasoning_content) {
-            assistantMessage.reasoning = String(msg.reasoning_content)
-          }
-        }
-
-        if (!assistantMessage.content.trim()) {
-          assistantMessage.content = this.t('emptyReply')
-        }
+          onExcerptsLoaded: (excerptText) => {
+            // excerpts loaded — step already marked in session
+          },
+          onChunk: (delta) => {
+            if (delta.reasoning_content !== undefined) {
+              assistantMessage.reasoning = delta.reasoning_content
+            }
+            if (delta.content !== undefined) {
+              assistantMessage.content = delta.content
+            }
+            this.scrollToBottom('auto')
+          },
+          onComplete: (content, reasoning) => {
+            assistantMessage.content = content
+            if (reasoning) assistantMessage.reasoning = reasoning
+          },
+          onError: (message) => {
+            assistantMessage.content = message
+          },
+          onProcessStep: (label, detail) => {
+            if (!assistantMessage.processSteps) assistantMessage.processSteps = []
+            for (const s of assistantMessage.processSteps) {
+              if (s.status === 'running') s.status = 'done'
+            }
+            assistantMessage.processSteps.push({ label, status: 'running', detail: detail || '' })
+          },
+          onProcessStepComplete: (label, detail) => {
+            const s = assistantMessage.processSteps
+            if (!s || !s.length) return
+            const last = s[s.length - 1]
+            if (last.status === 'running') last.status = 'done'
+            if (detail != null && String(detail).length) last.detail = detail
+          },
+          t: (key) => this.t(key),
+        }, this.abortController.signal)
       } catch (error) {
         if (error.name === 'AbortError') {
           this.messages.pop()
           return
         }
-
         assistantMessage.content = `${this.t('networkError')} ${error.message}`
       } finally {
-        this.finalizeAllProcessSteps(assistantMessage)
+        const steps = assistantMessage.processSteps
+        if (steps) {
+          for (const step of steps) {
+            if (step.status === 'running') step.status = 'done'
+          }
+        }
         this.isLoading = false
         this.loadingPhase = ''
         this.abortController = null
@@ -1012,83 +534,17 @@ Use clickable Markdown links for this site, e.g. [CR3BP](/en/glossary/cr3bp/). O
       }
     },
 
-    async readStream(reader, assistantMessage) {
-      const decoder = new TextDecoder('utf-8')
-      let buffer = ''
-
-      while (true) {
-        const { done, value } = await reader.read()
-        if (done) break
-
-        buffer += decoder.decode(value, { stream: true })
-        const lines = buffer.split('\n')
-        buffer = lines.pop() || ''
-
-        for (const line of lines) {
-          const trimmed = line.trim()
-          if (!trimmed || !trimmed.startsWith('data:')) continue
-
-          const data = trimmed.slice(5).trim()
-          if (data === '[DONE]') continue
-
-          try {
-            const parsed = JSON.parse(data)
-            const delta = parsed.choices?.[0]?.delta
-            if (delta && delta.reasoning_content) {
-              if (!assistantMessage.reasoning) assistantMessage.reasoning = ''
-              assistantMessage.reasoning += delta.reasoning_content
-              this.scrollToBottom('auto')
-            }
-            if (delta && delta.content) {
-              assistantMessage.content += delta.content
-              this.scrollToBottom('auto')
-            }
-          } catch (error) {
-            console.warn('[AiChat] Failed to parse SSE line:', data.slice(0, 100), error)
-          }
-        }
-      }
-
-      if (buffer.trim().startsWith('data:')) {
-        const data = buffer.trim().slice(5).trim()
-        if (data && data !== '[DONE]') {
-          try {
-            const parsed = JSON.parse(data)
-            const delta = parsed.choices?.[0]?.delta
-            if (delta && delta.reasoning_content) {
-              if (!assistantMessage.reasoning) assistantMessage.reasoning = ''
-              assistantMessage.reasoning += delta.reasoning_content
-            }
-            if (delta && delta.content) {
-              assistantMessage.content += delta.content
-            }
-          } catch (error) {
-            console.warn('[AiChat] Failed to parse buffered SSE data:', data.slice(0, 100), error)
-          }
-        }
-      }
-
-      try {
-        reader.cancel()
-      } catch (error) {
-        console.warn('[AiChat] Failed to cancel stream reader:', error)
-      }
-    },
-
     scrollToBottom(behavior) {
       this.$nextTick(() => {
         const container = this.$refs.messagesContainer
         if (!container) return
-
-        container.scrollTo({
-          top: container.scrollHeight,
-          behavior: behavior || 'smooth'
-        })
+        container.scrollTo({ top: container.scrollHeight, behavior: behavior || 'smooth' })
       })
     }
   }
 }
 </script>
+
 
 <style scoped>
 .ai-chat-root {
