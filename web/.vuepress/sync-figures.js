@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { walkDir, DEFAULT_EXCLUDED } from './utils/markdown-walker.js'
+import { walkDir, DEFAULT_EXCLUDED } from './utils/markdown-walker.ts'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)

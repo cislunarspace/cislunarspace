@@ -2,9 +2,9 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { createRequire } from 'module'
-import { generateAiChatContext } from './gen-ai-chat-context.js'
-import { buildChatIndex, getTranslationGapReport, buildGlossaryScan } from './build-sidebar.js'
-import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.js'
+import { generateAiChatContext } from './gen-ai-chat-context.ts'
+import { buildChatIndex, getTranslationGapReport, buildGlossaryScan } from './build-sidebar.ts'
+import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.ts'
 
 const require = createRequire(import.meta.url)
 const categoryMeta: Record<string, { zh: string; en: string; color: string }> = require('./category-meta.json')

@@ -6,8 +6,8 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { type Frontmatter } from './utils/frontmatter-parser.js'
-import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.js'
+import { type Frontmatter } from './utils/frontmatter-parser.ts'
+import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.ts'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
