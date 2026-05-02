@@ -2,7 +2,7 @@
   <div :class="['ai-chat-root', { 'dark': isDark }]">
     <aside :class="['chat-sidebar', { 'sidebar-open': sidebarOpen }]">
       <div class="sidebar-header">
-        <button class="sidebar-new-btn" @click="startNewChat" :disabled="isLoading">
+        <button class="sidebar-new-btn" @click="handleStartNewChat" :disabled="isLoading">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           <span>{{ t('newChat') }}</span>
         </button>
@@ -15,11 +15,11 @@
           v-for="(chat, idx) in chatHistory"
           :key="idx"
           :class="['sidebar-item', { active: activeChatIndex === idx }]"
-          @click="switchChat(idx)"
+          @click="handleSwitchChat(idx)"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
           <span class="sidebar-item-title">{{ chat.title }}</span>
-          <button class="sidebar-item-delete" @click.stop="deleteChat(idx)" :title="isEn ? 'Delete' : '删除'">
+          <button class="sidebar-item-delete" @click.stop="handleDeleteChat(idx)" :title="isEn ? 'Delete' : '删除'">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
           </button>
         </div>
@@ -48,7 +48,7 @@
             <svg v-if="isDark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
             <svg v-else width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
           </button>
-          <button class="header-icon-btn" @click="startNewChat" :disabled="isLoading" :title="t('newChat')">
+          <button class="header-icon-btn" @click="handleStartNewChat" :disabled="isLoading" :title="t('newChat')">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
           </button>
         </div>
@@ -102,7 +102,7 @@
                   >
                     <span class="process-step-icon" aria-hidden="true">
                       <span class="process-step-dot"></span>
-                      <span class="process-step-check">✓</span>
+                      <span class="process-step-check">&#10003;</span>
                     </span>
                     <div class="process-step-main">
                       <span class="process-step-text">{{ ps.label }}</span>
@@ -175,7 +175,8 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
+import { ref, computed, watch, nextTick, onMounted, onBeforeUnmount } from 'vue'
 import {
   escapeHtml,
   renderKatex,
@@ -184,1390 +185,298 @@ import {
 } from '../utils/markdown-renderer'
 import { ChatSession } from '../utils/chat-session'
 import { sanitizeClientConfig } from '../utils/chat-config'
+import { useChatI18n } from './composables/useChatI18n'
+import { useChatHistory } from './composables/useChatHistory'
+import type { Message, ProcessStep, SseDelta } from '../utils/chat-types'
 
-const HISTORY_KEY = 'cislunar-chat-history'
+// --- Template refs ---
+const inputRef = ref<HTMLTextAreaElement | null>(null)
+const messagesContainer = ref<HTMLDivElement | null>(null)
+
+// --- State ---
+const userInput = ref('')
+const messages = ref<Message[]>([])
+const isLoading = ref(false)
+const config = ref<ReturnType<typeof sanitizeClientConfig> | null>(null)
+const abortController = ref<AbortController | null>(null)
+const suggestedQuestions = ref<string[]>([])
+const sidebarOpen = ref(false)
+const siteIndex = ref<{ zh: unknown[]; en: unknown[] }>({ zh: [], en: [] })
+const loadingPhase = ref('')
+
+// --- Computed ---
+const isEn = computed(() => typeof window !== 'undefined' && window.location.pathname.startsWith('/en/'))
+
+// --- i18n ---
+const { t } = useChatI18n(() => isEn.value)
+
+// --- Chat history ---
+const {
+  chatHistory,
+  activeChatIndex,
+  saveCurrentChat: saveCurrentChatRaw,
+  switchChat: switchChatRaw,
+  deleteChat: deleteChatRaw,
+  startNewChat: startNewChatRaw,
+} = useChatHistory()
+
+function saveCurrentChat() {
+  saveCurrentChatRaw(messages.value, isEn.value)
+}
+
+// --- Theme (inline) ---
 const THEME_KEY = 'cislunar-chat-theme'
+const isDark = ref(false)
 
-function loadChatHistory() {
-  if (typeof window === 'undefined') return []
-  try {
-    const raw = localStorage.getItem(HISTORY_KEY)
-    if (!raw) return []
-    const parsed = JSON.parse(raw)
-    if (!Array.isArray(parsed)) return []
-    return parsed
-  } catch {
-    return []
-  }
-}
-
-function saveChatHistory(history) {
-  try {
-    const toSave = history.slice(0, 30)
-    localStorage.setItem(HISTORY_KEY, JSON.stringify(toSave))
-  } catch (e) { console.warn('[AiChat] saveChatHistory', e) }
-}
-
-function getSystemTheme() {
+function getSystemTheme(): boolean {
   if (typeof window === 'undefined') return false
   return window.matchMedia('(prefers-color-scheme: dark)').matches
 }
 
-function loadTheme() {
+function loadTheme(): boolean {
   if (typeof window === 'undefined') return false
   try {
     const saved = localStorage.getItem(THEME_KEY)
     if (saved === 'dark') return true
     if (saved === 'light') return false
-  } catch (e) { console.warn('[AiChat] loadTheme', e) }
+  } catch (e) {
+    console.warn('[AiChat] loadTheme', e)
+  }
   return getSystemTheme()
 }
 
-export default {
-  name: 'AiChat',
-  data() {
-    return {
-      userInput: '',
-      messages: [],
-      isLoading: false,
-      config: null,
-      abortController: null,
-      suggestedQuestions: [],
-      isDark: loadTheme(),
-      sidebarOpen: false,
-      chatHistory: loadChatHistory(),
-      activeChatIndex: -1,
-      siteIndex: { zh: [], en: [] },
-      siteContext: null,
-      contextLoadPromise: null,
-      useTwoPhase: false,
-      loadingPhase: ''
-    }
-  },
-  computed: {
-    isEn() {
-      return (typeof window !== 'undefined' && window.location.pathname.startsWith('/en/'))
-    }
-  },
-  async mounted() {
-    this.updateSuggestedQuestions()
-    await this.loadConfig()
-    this.applyTheme()
-    this._onEscape = (e) => {
-      if (e.key === 'Escape' && this.sidebarOpen) {
-        this.sidebarOpen = false
-      }
-    }
-    window.addEventListener('keydown', this._onEscape)
-  },
-  watch: {
-    isEn() {
-      this.updateSuggestedQuestions()
-    },
-    isDark() {
-      this.applyTheme()
-    }
-  },
-  beforeUnmount() {
-    this.abortRequest()
-    if (this._onEscape) {
-      window.removeEventListener('keydown', this._onEscape)
-      this._onEscape = null
-    }
-  },
-  methods: {
-    applyTheme() {
-      document.documentElement.setAttribute('data-chat-theme', this.isDark ? 'dark' : 'light')
-    },
+function applyTheme() {
+  document.documentElement.setAttribute('data-chat-theme', isDark.value ? 'dark' : 'light')
+}
 
-    toggleTheme() {
-      this.isDark = !this.isDark
-      try {
-        localStorage.setItem(THEME_KEY, this.isDark ? 'dark' : 'light')
-      } catch (e) { console.warn('[AiChat] toggleTheme', e) }
-    },
-
-    autoResize() {
-      this.$nextTick(() => {
-        const el = this.$refs.inputRef
-        if (!el) return
-        el.style.height = 'auto'
-        el.style.height = Math.min(el.scrollHeight, 200) + 'px'
-      })
-    },
-
-    getChatTitle(messages) {
-      const first = messages.find(m => m.role === 'user')
-      if (!first) return this.isEn ? 'New Chat' : '新对话'
-      const text = first.content.slice(0, 30)
-      return text.length < first.content.length ? text + '...' : text
-    },
-
-    saveCurrentChat() {
-      if (this.messages.length === 0) return
-      const title = this.getChatTitle(this.messages)
-      const entry = { title, messages: JSON.parse(JSON.stringify(this.messages)), timestamp: Date.now() }
-      if (this.activeChatIndex >= 0 && this.activeChatIndex < this.chatHistory.length) {
-        this.chatHistory[this.activeChatIndex] = entry
-      } else {
-        this.chatHistory.unshift(entry)
-        this.activeChatIndex = 0
-      }
-      this.chatHistory = this.chatHistory.filter(chat => chat.messages && chat.messages.length > 0)
-      saveChatHistory(this.chatHistory)
-    },
-
-    switchChat(idx) {
-      if (this.isLoading) return
-      this.saveCurrentChat()
-      if (idx >= 0 && idx < this.chatHistory.length) {
-        this.activeChatIndex = idx
-        this.messages = JSON.parse(JSON.stringify(this.chatHistory[idx].messages))
-      }
-      this.sidebarOpen = false
-    },
-
-    deleteChat(idx) {
-      this.chatHistory = this.chatHistory.filter((_, i) => i !== idx)
-      if (this.activeChatIndex === idx) {
-        this.activeChatIndex = -1
-        this.messages = []
-      } else if (this.activeChatIndex > idx) {
-        this.activeChatIndex--
-      }
-      saveChatHistory(this.chatHistory)
-    },
-
-    getMessageText(message, index) {
-      if (message && message.role === 'assistant' && !message.content && this.isLoading && index === this.messages.length - 1) {
-        return ''
-      }
-      return message.content
-    },
-
-    renderMessageHtml(message, index) {
-      const text = this.getMessageText(message, index)
-      if (!text && this.isLoading && index === this.messages.length - 1) return ''
-      const html = renderLinkedHtml(text || '')
-      if (this.isLoading && index === this.messages.length - 1 && text) {
-        return html + '<span class="cursor-blink">|</span>'
-      }
-      return html
-    },
-
-    t(key) {
-      const strings = {
-        toolbarTitle: { zh: 'AI 问答', en: 'AI Chat' },
-        newChat: { zh: '新对话', en: 'New Chat' },
-        welcomeEyebrow: { zh: '地月空间入门指南', en: 'Cislunar Space Guide' },
-        welcomeTitle: { zh: '地月空间 AI 助手', en: 'Cislunar Space AI Assistant' },
-        welcomeDesc: {
-          zh: '将先在全站页面中定位相关条目，再基于正文节选与站点索引组织回答',
-          en: 'We first find relevant site pages, then answer using their excerpts and the site link index'
-        },
-        inputPlaceholder: { zh: '输入你的问题...', en: 'Type your question...' },
-        send: { zh: '发送', en: 'Send' },
-        thinking: { zh: '正在思考...', en: 'Thinking...' },
-        routerPhase: { zh: '正在匹配全站相关页面…', en: 'Matching site pages…' },
-        processTitle: { zh: '处理过程', en: 'Progress' },
-        reasoningTitle: { zh: '思考过程', en: 'Reasoning' },
-        answerStarting: { zh: '开始输出回答', en: 'Answer starting' },
-        stepNav: { zh: '全站导览，匹配相关页面', en: 'Site map: pick relevant pages' },
-        stepExcerpt: { zh: '载入相关页面正文节选', en: 'Load page text excerpts' },
-        stepAnswer: { zh: '整理并输出回答', en: 'Compose final answer' },
-        stepAnswerAlone: { zh: '正在请求模型并生成回答', en: 'Requesting model and generating' },
-        noStrongMatch: { zh: '未在地图中精确定位，将结合全站索引回答', en: 'No strong match; answering with full site index' },
-        configError: {
-          zh: 'AI 配置加载失败，请检查 /ai-chat-config.json。',
-          en: 'AI configuration failed to load. Please check /ai-chat-config.json.'
-        },
-        emptyReply: {
-          zh: '抱歉，未获取到有效回复。',
-          en: 'Sorry, no valid response was received.'
-        },
-        networkError: {
-          zh: '请求失败，请检查网络或服务器代理配置。',
-          en: 'Request failed. Please check the network or server proxy configuration.'
-        }
-      }
-      const item = strings[key]
-      if (!item) return key
-      return this.isEn ? item.en : item.zh
-    },
-
-    updateSuggestedQuestions() {
-      this.suggestedQuestions = this.isEn
-        ? ['What is cislunar space?', 'What is the CR3BP model?', 'What are the characteristics of NRHO orbits?', 'What are Lagrange points used for?']
-        : ['什么是地月空间？', 'CR3BP 模型是什么？', '有谁在研究地月空间？', '地月空间研究前沿是什么？']
-    },
-
-    async loadConfig() {
-      try {
-        const url = '/ai-chat-config.json'
-        const response = await fetch(url, { cache: 'no-store' })
-        if (!response.ok) throw new Error(`HTTP ${response.status}`)
-        this.config = sanitizeClientConfig(await response.json())
-        try {
-          const idxRes = await fetch('/ai-chat-index.json', { cache: 'no-store' })
-          if (idxRes.ok) {
-            this.siteIndex = await idxRes.json()
-            this.useTwoPhase = this.config.twoPhaseRetrieval !== false
-          } else {
-            this.siteIndex = { zh: [], en: [] }
-            this.useTwoPhase = false
-          }
-        } catch (e) {
-          this.siteIndex = { zh: [], en: [] }
-          this.useTwoPhase = false
-        }
-      } catch (error) {
-        this.config = null
-        this.useTwoPhase = false
-        this.messages = [{ role: 'assistant', content: `${this.t('configError')} ${error.message}` }]
-      }
-    },
-
-    startNewChat() {
-      this.saveCurrentChat()
-      this.abortRequest()
-      this.messages = []
-      this.userInput = ''
-      this.activeChatIndex = -1
-    },
-
-    sendSuggested(question) {
-      if (this.isLoading) return
-      this.userInput = question
-      this.sendMessage()
-    },
-
-    abortRequest() {
-      if (this.abortController) {
-        this.abortController.abort()
-        this.abortController = null
-      }
-      this.isLoading = false
-      this.loadingPhase = ''
-    },
-
-    async sendMessage() {
-      const text = this.userInput.trim()
-      if (!text || this.isLoading || !this.config) return
-
-      this.messages.push({ role: 'user', content: text })
-      this.userInput = ''
-      this.isLoading = true
-      this.loadingPhase = 'answer'
-      this.scrollToBottom()
-
-      if (this.$refs.inputRef) {
-        this.$refs.inputRef.style.height = 'auto'
-      }
-
-      const assistantMessage = { role: 'assistant', content: '', reasoning: '', processSteps: [] }
-      this.messages.push(assistantMessage)
-      this.abortController = new AbortController()
-
-      try {
-        const maxHistory = Number(this.config.maxHistoryTurns || 10)
-        const historyMessages = this.messages.slice(0, -1).slice(-maxHistory * 2)
-
-        const session = new ChatSession(this.config, this.isEn ? 'en' : 'zh', this.siteIndex)
-
-        await session.route(text, historyMessages, {
-          onPathsChosen: (paths) => {
-            // paths chosen by router — step already marked in session
-          },
-          onExcerptsLoaded: (excerptText) => {
-            // excerpts loaded — step already marked in session
-          },
-          onChunk: (delta) => {
-            if (delta.reasoning_content !== undefined) {
-              assistantMessage.reasoning = delta.reasoning_content
-            }
-            if (delta.content !== undefined) {
-              assistantMessage.content = delta.content
-            }
-            this.scrollToBottom('auto')
-          },
-          onComplete: (content, reasoning) => {
-            assistantMessage.content = content
-            if (reasoning) assistantMessage.reasoning = reasoning
-          },
-          onError: (message) => {
-            assistantMessage.content = message
-          },
-          onProcessStep: (label, detail) => {
-            if (!assistantMessage.processSteps) assistantMessage.processSteps = []
-            for (const s of assistantMessage.processSteps) {
-              if (s.status === 'running') s.status = 'done'
-            }
-            assistantMessage.processSteps.push({ label, status: 'running', detail: detail || '' })
-          },
-          onProcessStepComplete: (label, detail) => {
-            const s = assistantMessage.processSteps
-            if (!s || !s.length) return
-            const last = s[s.length - 1]
-            if (last.status === 'running') last.status = 'done'
-            if (detail != null && String(detail).length) last.detail = detail
-          },
-          t: (key) => this.t(key),
-        }, this.abortController.signal)
-      } catch (error) {
-        if (error.name === 'AbortError') {
-          this.messages.pop()
-          return
-        }
-        assistantMessage.content = `${this.t('networkError')} ${error.message}`
-      } finally {
-        const steps = assistantMessage.processSteps
-        if (steps) {
-          for (const step of steps) {
-            if (step.status === 'running') step.status = 'done'
-          }
-        }
-        this.isLoading = false
-        this.loadingPhase = ''
-        this.abortController = null
-        this.saveCurrentChat()
-        this.scrollToBottom()
-      }
-    },
-
-    scrollToBottom(behavior) {
-      this.$nextTick(() => {
-        const container = this.$refs.messagesContainer
-        if (!container) return
-        container.scrollTo({ top: container.scrollHeight, behavior: behavior || 'smooth' })
-      })
-    }
+function toggleTheme() {
+  isDark.value = !isDark.value
+  try {
+    localStorage.setItem(THEME_KEY, isDark.value ? 'dark' : 'light')
+  } catch (e) {
+    console.warn('[AiChat] toggleTheme', e)
   }
 }
+
+// --- UI helpers ---
+function autoResize() {
+  nextTick(() => {
+    const el = inputRef.value
+    if (!el) return
+    el.style.height = 'auto'
+    el.style.height = Math.min(el.scrollHeight, 200) + 'px'
+  })
+}
+
+function getMessageText(message: Message, index: number): string {
+  if (message && message.role === 'assistant' && !message.content && isLoading.value && index === messages.value.length - 1) {
+    return ''
+  }
+  return message.content
+}
+
+function renderMessageHtml(message: Message, index: number): string {
+  const text = getMessageText(message, index)
+  if (!text && isLoading.value && index === messages.value.length - 1) return ''
+  const html = renderLinkedHtml(text || '')
+  if (isLoading.value && index === messages.value.length - 1 && text) {
+    return html + '<span class="cursor-blink">|</span>'
+  }
+  return html
+}
+
+function updateSuggestedQuestions() {
+  suggestedQuestions.value = isEn.value
+    ? ['What is cislunar space?', 'What is the CR3BP model?', 'What are the characteristics of NRHO orbits?', 'What are Lagrange points used for?']
+    : ['什么是地月空间？', 'CR3BP 模型是什么？', '有谁在研究地月空间？', '地月空间研究前沿是什么？']
+}
+
+function scrollToBottom(behavior?: ScrollBehavior) {
+  nextTick(() => {
+    const container = messagesContainer.value
+    if (!container) return
+    container.scrollTo({ top: container.scrollHeight, behavior: behavior || 'smooth' })
+  })
+}
+
+// --- Config loading ---
+async function loadConfig() {
+  try {
+    const url = '/ai-chat-config.json'
+    const response = await fetch(url, { cache: 'no-store' })
+    if (!response.ok) throw new Error(`HTTP ${response.status}`)
+    config.value = sanitizeClientConfig(await response.json())
+    try {
+      const idxRes = await fetch('/ai-chat-index.json', { cache: 'no-store' })
+      if (idxRes.ok) {
+        siteIndex.value = await idxRes.json()
+      } else {
+        siteIndex.value = { zh: [], en: [] }
+      }
+    } catch {
+      siteIndex.value = { zh: [], en: [] }
+    }
+  } catch (error) {
+    config.value = null
+    siteIndex.value = { zh: [], en: [] }
+    messages.value = [{ role: 'assistant', content: `${t('configError')} ${(error as Error).message}` }]
+  }
+}
+
+// --- Request control ---
+function abortRequest() {
+  if (abortController.value) {
+    abortController.value.abort()
+    abortController.value = null
+  }
+  isLoading.value = false
+  loadingPhase.value = ''
+}
+
+// --- Chat actions ---
+function handleStartNewChat() {
+  startNewChatRaw(messages.value, isEn.value)
+  abortRequest()
+  messages.value = []
+  userInput.value = ''
+}
+
+function handleSwitchChat(idx: number) {
+  if (isLoading.value) return
+  const restored = switchChatRaw(idx, messages.value, isEn.value)
+  if (restored) {
+    messages.value = restored
+  }
+  sidebarOpen.value = false
+}
+
+function handleDeleteChat(idx: number) {
+  deleteChatRaw(idx)
+  if (activeChatIndex.value === -1) {
+    messages.value = []
+  }
+}
+
+function sendSuggested(question: string) {
+  if (isLoading.value) return
+  userInput.value = question
+  sendMessage()
+}
+
+// --- Main send loop ---
+async function sendMessage() {
+  const text = userInput.value.trim()
+  if (!text || isLoading.value || !config.value) return
+
+  messages.value = [...messages.value, { role: 'user', content: text }]
+  userInput.value = ''
+  isLoading.value = true
+  loadingPhase.value = 'answer'
+  scrollToBottom()
+
+  if (inputRef.value) {
+    inputRef.value.style.height = 'auto'
+  }
+
+  const assistantMessage: Message = { role: 'assistant', content: '', reasoning: '', processSteps: [] }
+  messages.value = [...messages.value, assistantMessage]
+  abortController.value = new AbortController()
+
+  try {
+    const maxHistory = Number(config.value.maxHistoryTurns || 10)
+    const historyMessages = messages.value.slice(0, -1).slice(-maxHistory * 2)
+
+    const session = new ChatSession(config.value, isEn.value ? 'en' : 'zh', siteIndex.value as any)
+
+    await session.route(text, historyMessages, {
+      onPathsChosen: () => {},
+      onExcerptsLoaded: () => {},
+      onChunk: (delta: SseDelta) => {
+        if (delta.reasoning_content !== undefined) {
+          assistantMessage.reasoning = delta.reasoning_content
+        }
+        if (delta.content !== undefined) {
+          assistantMessage.content = delta.content
+        }
+        scrollToBottom('auto')
+      },
+      onComplete: (content: string, reasoning: string) => {
+        assistantMessage.content = content
+        if (reasoning) assistantMessage.reasoning = reasoning
+      },
+      onError: (message: string) => {
+        assistantMessage.content = message
+      },
+      onProcessStep: (label: string, detail?: string) => {
+        if (!assistantMessage.processSteps) assistantMessage.processSteps = []
+        for (const s of assistantMessage.processSteps) {
+          if (s.status === 'running') s.status = 'done'
+        }
+        assistantMessage.processSteps.push({ label, status: 'running', detail: detail || '' })
+      },
+      onProcessStepComplete: (label: string, detail?: string) => {
+        const steps = assistantMessage.processSteps
+        if (!steps || !steps.length) return
+        const last = steps[steps.length - 1]
+        if (last.status === 'running') last.status = 'done'
+        if (detail != null && String(detail).length) last.detail = detail
+      },
+      t: (key: string) => t(key),
+    }, abortController.value.signal)
+  } catch (error) {
+    if ((error as Error).name === 'AbortError') {
+      messages.value = messages.value.slice(0, -1)
+      return
+    }
+    assistantMessage.content = `${t('networkError')} ${(error as Error).message}`
+  } finally {
+    const steps = assistantMessage.processSteps
+    if (steps) {
+      for (const step of steps) {
+        if (step.status === 'running') step.status = 'done'
+      }
+    }
+    isLoading.value = false
+    loadingPhase.value = ''
+    abortController.value = null
+    saveCurrentChat()
+    scrollToBottom()
+  }
+}
+
+// --- Lifecycle ---
+let onEscapeHandler: ((e: KeyboardEvent) => void) | null = null
+
+onMounted(async () => {
+  isDark.value = loadTheme()
+  updateSuggestedQuestions()
+  await loadConfig()
+  applyTheme()
+  onEscapeHandler = (e: KeyboardEvent) => {
+    if (e.key === 'Escape' && sidebarOpen.value) {
+      sidebarOpen.value = false
+    }
+  }
+  window.addEventListener('keydown', onEscapeHandler)
+})
+
+watch(isEn, () => {
+  updateSuggestedQuestions()
+})
+
+watch(isDark, () => {
+  applyTheme()
+})
+
+onBeforeUnmount(() => {
+  abortRequest()
+  if (onEscapeHandler) {
+    window.removeEventListener('keydown', onEscapeHandler)
+    onEscapeHandler = null
+  }
+})
 </script>
 
-
-<style scoped>
-.ai-chat-root {
-  /* 与站点 vars.scss 深空青对齐 */
-  --chat-bg: transparent;
-  --chat-bg-secondary: #f0f9ff;
-  --chat-bg-tertiary: #e0f2fe;
-  --chat-surface: rgba(255, 255, 255, 0.88);
-  --chat-surface-2: #ffffff;
-  --chat-border: #e2e8f0;
-  --chat-text: #334155;
-  --chat-text-primary: #0f172a;
-  --chat-text-secondary: #64748b;
-  --chat-text-tertiary: #94a3b8;
-  --chat-accent: #0ea5e9;
-  --chat-accent-hover: #0284c7;
-  --chat-user-bubble: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
-  --chat-user-text: #ffffff;
-  --chat-sidebar-bg: rgba(248, 250, 252, 0.92);
-  --chat-sidebar-hover: rgba(14, 165, 233, 0.08);
-  --chat-sidebar-active: rgba(14, 165, 233, 0.14);
-  --chat-input-bg: rgba(255, 255, 255, 0.95);
-  --chat-input-border: #cbd5e1;
-  --chat-input-focus: #0ea5e9;
-  --chat-assistant-surface: rgba(241, 245, 249, 0.85);
-  --chat-shadow-sm: var(--shadow-sm, 0 1px 2px rgba(15, 23, 42, 0.05));
-  --chat-shadow-md: var(--shadow-md, 0 4px 12px rgba(15, 23, 42, 0.08));
-  --chat-shadow-lg: var(--shadow-lg, 0 12px 32px rgba(15, 23, 42, 0.1));
-  --chat-glow: 0 0 0 1px rgba(14, 165, 233, 0.12);
-  --chat-radius-sm: 8px;
-  --chat-radius-md: 12px;
-  --chat-radius-lg: 16px;
-  --chat-radius-xl: 20px;
-  --chat-scrollbar-thumb: #cbd5e1;
-  --chat-scrollbar-track: transparent;
-  box-sizing: border-box;
-}
-
-.ai-chat-root *,
-.ai-chat-root *::before,
-.ai-chat-root *::after {
-  box-sizing: border-box;
-}
-
-.ai-chat-root.dark {
-  --chat-bg: transparent;
-  --chat-bg-secondary: rgba(30, 41, 59, 0.5);
-  --chat-bg-tertiary: #334155;
-  --chat-surface: rgba(15, 23, 42, 0.75);
-  --chat-surface-2: #1e293b;
-  --chat-border: #334155;
-  --chat-text: #cbd5e1;
-  --chat-text-primary: #f1f5f9;
-  --chat-text-secondary: #94a3b8;
-  --chat-text-tertiary: #64748b;
-  --chat-accent: #38bdf8;
-  --chat-accent-hover: #7dd3fc;
-  --chat-user-bubble: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
-  --chat-user-text: #ffffff;
-  --chat-sidebar-bg: rgba(15, 23, 42, 0.88);
-  --chat-sidebar-hover: rgba(56, 189, 248, 0.1);
-  --chat-sidebar-active: rgba(56, 189, 248, 0.16);
-  --chat-input-bg: rgba(30, 41, 59, 0.95);
-  --chat-input-border: #475569;
-  --chat-input-focus: #38bdf8;
-  --chat-assistant-surface: rgba(30, 41, 59, 0.65);
-  --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
-  --chat-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35);
-  --chat-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
-  --chat-glow: 0 0 0 1px rgba(56, 189, 248, 0.2);
-  --chat-scrollbar-thumb: #475569;
-  --chat-scrollbar-track: transparent;
-}
-
-.ai-chat-root {
-  display: flex;
-  height: 100vh;
-  margin: 0;
-  width: 100%;
-  background: var(--chat-bg);
-  color: var(--chat-text);
-  font-family: var(--font-family);
-  -webkit-font-smoothing: antialiased;
-  overflow: hidden;
-  transition: background 0.3s ease, color 0.3s ease;
-}
-
-.chat-sidebar {
-  width: 272px;
-  min-width: 272px;
-  background: var(--chat-sidebar-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-right: 1px solid var(--chat-border);
-  display: flex;
-  flex-direction: column;
-  transition: background 0.3s ease, border-color 0.3s ease;
-}
-
-.sidebar-header {
-  padding: 0.75rem;
-  border-bottom: 1px solid var(--chat-border);
-}
-
-.sidebar-new-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  width: 100%;
-  padding: 0.65rem 0.9rem;
-  border: none;
-  border-radius: var(--chat-radius-md);
-  background: var(--chat-accent);
-  color: #fff;
-  cursor: pointer;
-  font-size: 0.875rem;
-  font-weight: 600;
-  font-family: var(--font-family-heading);
-  box-shadow: var(--chat-glow);
-  transition: background 0.2s ease, transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
-}
-
-.sidebar-new-btn:hover:not(:disabled) {
-  background: var(--chat-accent-hover);
-  transform: translateY(-1px);
-}
-
-.sidebar-new-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.sidebar-history {
-  flex: 1;
-  overflow-y: auto;
-  padding: 0.5rem;
-}
-
-.sidebar-empty {
-  text-align: center;
-  color: var(--chat-text-tertiary);
-  font-size: 0.8125rem;
-  padding: 2rem 1rem;
-}
-
-.sidebar-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.625rem;
-  border-radius: var(--chat-radius-sm);
-  cursor: pointer;
-  transition: background 0.15s ease;
-  color: var(--chat-text-secondary);
-  margin-bottom: 2px;
-}
-
-.sidebar-item:hover {
-  background: var(--chat-sidebar-hover);
-  color: var(--chat-text-primary);
-}
-
-.sidebar-item.active {
-  background: var(--chat-sidebar-active);
-  color: var(--chat-text-primary);
-}
-
-.sidebar-item-title {
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 0.8125rem;
-}
-
-.sidebar-item-delete {
-  display: none;
-  background: none;
-  border: none;
-  color: var(--chat-text-tertiary);
-  cursor: pointer;
-  padding: 2px;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-
-.sidebar-item:hover .sidebar-item-delete {
-  display: flex;
-}
-
-.sidebar-item-delete:hover {
-  color: #ef4444;
-}
-
-.sidebar-footer {
-  padding: 0.75rem;
-  border-top: 1px solid var(--chat-border);
-  display: flex;
-  gap: 0.5rem;
-}
-
-.sidebar-icon-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: none;
-  border-radius: var(--chat-radius-sm);
-  background: transparent;
-  color: var(--chat-text-secondary);
-  cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
-}
-
-.sidebar-icon-btn:hover {
-  background: var(--chat-sidebar-hover);
-  color: var(--chat-text-primary);
-}
-
-.sidebar-overlay {
-  display: none;
-}
-
-.chat-main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  background: var(--chat-bg);
-  transition: background 0.3s ease;
-}
-
-.chat-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.6rem 1.25rem;
-  border-bottom: 1px solid var(--chat-border);
-  min-height: 3.25rem;
-  background: var(--chat-surface);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  transition: border-color 0.3s ease, background 0.3s ease;
-}
-
-.header-menu-btn {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: none;
-  border-radius: var(--chat-radius-sm);
-  background: transparent;
-  color: var(--chat-text-secondary);
-  cursor: pointer;
-  transition: background 0.15s ease;
-}
-
-.header-menu-btn:hover {
-  background: var(--chat-sidebar-hover);
-}
-
-.header-title {
-  font-size: 1rem;
-  font-weight: 700;
-  font-family: var(--font-family-heading);
-  letter-spacing: 0.02em;
-  color: var(--chat-text-primary);
-  margin: 0;
-  border: none;
-  padding: 0;
-}
-
-.header-title-pulse {
-  color: var(--chat-accent);
-  font-weight: 600;
-  font-size: 0.9rem;
-  animation: routerPulse 1.2s ease-in-out infinite;
-}
-
-@keyframes routerPulse {
-  0%,
-  100% { opacity: 0.9; }
-  50% { opacity: 0.5; }
-}
-
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.header-icon-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: none;
-  border-radius: var(--chat-radius-sm);
-  background: transparent;
-  color: var(--chat-text-secondary);
-  cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
-}
-
-.header-icon-btn:hover:not(:disabled) {
-  background: var(--chat-sidebar-hover);
-  color: var(--chat-text-primary);
-}
-
-.header-icon-btn:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-
-.chat-messages {
-  flex: 1;
-  overflow-y: auto;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
-.chat-messages::-webkit-scrollbar {
-  width: 6px;
-}
-
-.chat-messages::-webkit-scrollbar-track {
-  background: var(--chat-scrollbar-track);
-}
-
-.chat-messages::-webkit-scrollbar-thumb {
-  background: var(--chat-scrollbar-thumb);
-  border-radius: 3px;
-}
-
-.chat-messages::-webkit-scrollbar-thumb:hover {
-  background: var(--chat-text-tertiary);
-}
-
-.sidebar-history::-webkit-scrollbar {
-  width: 4px;
-}
-
-.sidebar-history::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.sidebar-history::-webkit-scrollbar-thumb {
-  background: var(--chat-scrollbar-thumb);
-  border-radius: 2px;
-}
-
-.chat-welcome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem 1.5rem 2rem;
-  max-width: 720px;
-  margin: 0 auto;
-  text-align: center;
-  animation: fadeInUp 0.5s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
-}
-
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(16px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.welcome-eyebrow {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--chat-accent);
-  margin: 0 0 1.25rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
-  background: rgba(14, 165, 233, 0.1);
-  border: 1px solid rgba(14, 165, 233, 0.22);
-  font-family: var(--font-family-heading);
-}
-
-.ai-chat-root.dark .welcome-eyebrow {
-  background: rgba(56, 189, 248, 0.12);
-  border-color: rgba(56, 189, 248, 0.25);
-}
-
-.welcome-icon-wrap {
-  margin-bottom: 1.35rem;
-}
-
-.welcome-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 50%;
-  color: var(--chat-accent);
-  background: linear-gradient(145deg, rgba(14, 165, 233, 0.12) 0%, rgba(2, 132, 199, 0.08) 100%);
-  box-shadow: var(--chat-glow), inset 0 1px 0 rgba(255, 255, 255, 0.45);
-  border: 1px solid rgba(14, 165, 233, 0.2);
-}
-
-.ai-chat-root.dark .welcome-icon {
-  background: linear-gradient(145deg, rgba(56, 189, 248, 0.15) 0%, rgba(2, 132, 199, 0.1) 100%);
-  box-shadow: var(--chat-glow);
-  border-color: rgba(56, 189, 248, 0.3);
-}
-
-.welcome-title {
-  font-size: clamp(1.35rem, 3.5vw, 1.75rem);
-  font-weight: 700;
-  font-family: var(--font-family-heading);
-  color: var(--chat-text-primary);
-  margin: 0 0 0.5rem;
-  border: none;
-  line-height: 1.3;
-}
-
-.welcome-desc {
-  font-size: 0.9375rem;
-  color: var(--chat-text-secondary);
-  margin: 0 0 2rem;
-  line-height: 1.6;
-}
-
-.suggested-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.75rem;
-  width: 100%;
-}
-
-.suggested-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-  padding: 0.9rem 1.05rem;
-  border: 1px solid var(--chat-border);
-  border-radius: var(--chat-radius-md);
-  background: var(--chat-surface-2);
-  color: var(--chat-text-primary);
-  cursor: pointer;
-  text-align: left;
-  font-size: 0.8125rem;
-  line-height: 1.55;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
-  box-shadow: var(--chat-shadow-sm);
-}
-
-.suggested-card:hover:not(:disabled) {
-  background: var(--chat-surface-2);
-  border-color: var(--chat-accent);
-  box-shadow: var(--chat-shadow-md);
-  transform: translateY(-2px);
-}
-
-.suggested-card:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.suggested-card-text {
-  flex: 1;
-}
-
-.suggested-card-arrow {
-  flex-shrink: 0;
-  opacity: 0;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  color: var(--chat-accent);
-}
-
-.suggested-card:hover .suggested-card-arrow {
-  opacity: 1;
-  transform: translateX(3px);
-}
-
-.chat-message {
-  padding: 1.1rem 0;
-  animation: messageIn 0.35s var(--ease-smooth, cubic-bezier(0.4, 0, 0.2, 1));
-}
-
-@keyframes messageIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.message-row {
-  display: flex;
-  gap: 0.75rem;
-  max-width: 768px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  align-items: flex-start;
-}
-
-.message-row.is-assistant-stack {
-  align-items: flex-start;
-}
-
-.assistant-column {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.assistant-process {
-  font-size: 0.8rem;
-  line-height: 1.5;
-  padding: 0.65rem 0.9rem;
-  border-radius: var(--chat-radius-md);
-  border: 1px solid var(--chat-border);
-  background: rgba(14, 165, 233, 0.06);
-  color: var(--chat-text-secondary);
-}
-
-.ai-chat-root.dark .assistant-process {
-  background: rgba(56, 189, 248, 0.08);
-}
-
-.assistant-process-title {
-  margin: 0 0 0.45rem;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--chat-accent);
-}
-
-.assistant-process-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.process-step {
-  display: grid;
-  grid-template-columns: 1.125rem minmax(0, 1fr);
-  column-gap: 0.5rem;
-  align-items: center;
-  padding: 0.35rem 0;
-  border-bottom: 1px solid var(--chat-border);
-}
-
-.process-step:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.process-step-icon {
-  grid-column: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.125rem;
-  height: 1.125rem;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  background: var(--chat-bg-tertiary);
-  border-radius: var(--chat-radius-sm);
-}
-
-.process-step-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--chat-text-tertiary);
-}
-
-.process-step-check {
-  display: none;
-  font-size: 0.7rem;
-  color: #10b981;
-  font-weight: 700;
-}
-
-.process-step--running .process-step-dot {
-  background: var(--chat-accent);
-  animation: processPulse 1s ease-in-out infinite;
-}
-
-.process-step--done .process-step-dot {
-  display: none;
-}
-
-.process-step--done .process-step-check {
-  display: block;
-}
-
-.process-step-main {
-  grid-column: 2;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-}
-
-.process-step-text {
-  color: var(--chat-text-primary);
-  font-weight: 500;
-  line-height: 1.45;
-}
-
-.process-step--running .process-step-text {
-  color: var(--chat-accent);
-}
-
-.process-step-detail {
-  font-size: 0.75rem;
-  line-height: 1.4;
-  color: var(--chat-text-tertiary);
-  font-weight: 400;
-  word-break: break-word;
-}
-
-@keyframes processPulse {
-  0%,
-  100% { opacity: 1; }
-  50% { opacity: 0.4; }
-}
-
-.assistant-reasoning {
-  font-size: 0.85rem;
-  line-height: 1.6;
-  border: 1px solid var(--chat-border);
-  border-radius: var(--chat-radius-md);
-  background: var(--chat-bg-secondary);
-  color: var(--chat-text-secondary);
-  overflow: hidden;
-}
-
-.assistant-reasoning-summary {
-  padding: 0.5rem 0.75rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: var(--chat-text-primary);
-  list-style: none;
-}
-
-.assistant-reasoning-summary::-webkit-details-marker {
-  display: none;
-}
-
-.assistant-reasoning-body {
-  margin: 0;
-  padding: 0.5rem 0.75rem 0.75rem;
-  border-top: 1px solid var(--chat-border);
-  white-space: pre-wrap;
-  word-break: break-word;
-  max-height: 20rem;
-  overflow-y: auto;
-}
-
-.user-message {
-  background: transparent;
-}
-
-.assistant-message {
-  background: transparent;
-}
-
-.message-avatar {
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2px;
-}
-
-.assistant-avatar {
-  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
-  color: #ffffff;
-  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.35);
-}
-
-.ai-chat-root.dark .assistant-avatar {
-  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
-}
-
-.user-avatar {
-  background: var(--chat-user-bubble);
-  color: #ffffff;
-  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.35);
-}
-
-.message-content {
-  flex: 1;
-  min-width: 0;
-  line-height: 1.7;
-  font-size: 0.9375rem;
-  word-break: break-word;
-}
-
-.user-content {
-  background: var(--chat-user-bubble);
-  color: var(--chat-user-text);
-  padding: 0.65rem 1.05rem;
-  border-radius: var(--chat-radius-lg) var(--chat-radius-lg) 6px var(--chat-radius-lg);
-  white-space: pre-wrap;
-  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.2);
-}
-
-.assistant-content {
-  color: var(--chat-text-primary);
-  white-space: normal;
-  background: var(--chat-assistant-surface);
-  border: 1px solid var(--chat-border);
-  border-radius: 4px var(--chat-radius-lg) var(--chat-radius-lg) var(--chat-radius-lg);
-  padding: 0.75rem 1.05rem;
-  box-shadow: var(--chat-shadow-sm);
-}
-
-.assistant-content :deep(p) {
-  margin: 0 0 0.75rem;
-}
-
-.assistant-content :deep(p:last-child) {
-  margin-bottom: 0;
-}
-
-.assistant-content :deep(.chat-md-blockquote) {
-  margin: 0.5rem 0 0.75rem;
-  padding: 0.4rem 0.75rem;
-  border-left: 3px solid var(--chat-accent, #0ea5e9);
-  color: var(--chat-text-secondary, #64748b);
-  background: var(--chat-bg-tertiary, rgba(148, 163, 184, 0.12));
-  border-radius: 0 4px 4px 0;
-  font-size: 0.9em;
-}
-
-.assistant-content :deep(.chat-md-table-wrap) {
-  margin: 0.5rem 0 0.75rem;
-  max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.assistant-content :deep(.chat-md-table) {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9em;
-  line-height: 1.5;
-}
-
-.assistant-content :deep(.chat-md-table th),
-.assistant-content :deep(.chat-md-table td) {
-  border: 1px solid var(--chat-border, rgba(148, 163, 184, 0.4));
-  padding: 0.4rem 0.6rem;
-  text-align: left;
-  vertical-align: top;
-}
-
-.assistant-content :deep(.chat-md-table th) {
-  font-weight: 600;
-  background: var(--chat-bg-tertiary, rgba(148, 163, 184, 0.15));
-}
-
-.assistant-content :deep(h1),
-.assistant-content :deep(h2),
-.assistant-content :deep(h3),
-.assistant-content :deep(h4),
-.assistant-content :deep(h5),
-.assistant-content :deep(h6) {
-  margin: 1rem 0 0.5rem;
-  color: var(--chat-text-primary);
-  border-bottom: none;
-  line-height: 1.35;
-}
-
-.assistant-content :deep(h1) { font-size: 1.4rem; }
-.assistant-content :deep(h2) { font-size: 1.25rem; }
-.assistant-content :deep(h3) { font-size: 1.1rem; }
-
-.assistant-content :deep(strong) {
-  font-weight: 700;
-  color: var(--chat-text-primary);
-}
-
-.assistant-content :deep(em) {
-  font-style: italic;
-}
-
-.assistant-content :deep(.katex-display) {
-  margin: 0.85rem 0;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.assistant-content :deep(a),
-.user-content :deep(a) {
-  color: var(--chat-accent);
-  text-decoration: none;
-  text-underline-offset: 2px;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.15s ease;
-}
-
-.assistant-content :deep(a:hover),
-.user-content :deep(a:hover) {
-  color: var(--chat-accent-hover);
-  border-bottom-color: var(--chat-accent-hover);
-}
-
-.assistant-content :deep(code) {
-  background: var(--chat-bg-tertiary);
-  padding: 0.15em 0.4em;
-  border-radius: 4px;
-  font-size: 0.85em;
-  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-}
-
-.assistant-content :deep(pre) {
-  background: var(--chat-bg-tertiary);
-  border-radius: var(--chat-radius-sm);
-  padding: 1rem;
-  overflow-x: auto;
-  margin: 0.75rem 0;
-}
-
-.assistant-content :deep(pre code) {
-  background: none;
-  padding: 0;
-  border-radius: 0;
-}
-
-.cursor-blink {
-  animation: blink 1s step-end infinite;
-  color: var(--chat-accent);
-  font-weight: 100;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-.typing-dots {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  flex-wrap: nowrap;
-  box-sizing: border-box;
-}
-
-.typing-dots--after-reasoning {
-  margin-top: 0.45rem;
-  padding-top: 0.45rem;
-  border-top: 1px solid var(--chat-border);
-}
-
-.typing-dots span {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--chat-text-tertiary);
-  animation: dotBounce 1.4s infinite ease-in-out;
-}
-
-.typing-dots span:nth-child(1) { animation-delay: 0s; }
-.typing-dots span:nth-child(2) { animation-delay: 0.2s; }
-.typing-dots span:nth-child(3) { animation-delay: 0.4s; }
-
-@keyframes dotBounce {
-  0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
-  40% { transform: scale(1); opacity: 1; }
-}
-
-.chat-input-wrapper {
-  padding: 0.75rem 1.5rem 1.1rem;
-  background: var(--chat-surface);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-top: 1px solid var(--chat-border);
-  transition: background 0.3s ease, border-color 0.3s ease;
-}
-
-.chat-input-box {
-  max-width: 768px;
-  margin: 0 auto;
-  display: flex;
-  align-items: flex-end;
-  gap: 0;
-  background: var(--chat-input-bg);
-  border: 1px solid var(--chat-input-border);
-  border-radius: var(--chat-radius-lg);
-  padding: 0.375rem 0.375rem 0.375rem 1rem;
-  box-shadow: var(--chat-shadow-md);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
-}
-
-.chat-input-box:focus-within {
-  border-color: var(--chat-input-focus);
-  box-shadow: var(--chat-shadow-md), 0 0 0 3px rgba(14, 165, 233, 0.18);
-}
-
-.ai-chat-root.dark .chat-input-box:focus-within {
-  box-shadow: var(--chat-shadow-md), 0 0 0 3px rgba(56, 189, 248, 0.2);
-}
-
-.chat-textarea {
-  flex: 1;
-  border: none;
-  outline: none;
-  resize: none;
-  background: transparent;
-  color: var(--chat-text-primary);
-  font-size: 0.9375rem;
-  line-height: 1.5;
-  padding: 0.5rem 0;
-  max-height: 200px;
-  font-family: inherit;
-}
-
-.chat-textarea::placeholder {
-  color: var(--chat-text-tertiary);
-}
-
-.send-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: none;
-  border-radius: 50%;
-  background: var(--chat-accent);
-  color: #ffffff;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: background 0.15s ease, opacity 0.15s ease, transform 0.15s ease;
-}
-
-.send-btn:hover:not(:disabled) {
-  background: var(--chat-accent-hover);
-  transform: scale(1.05);
-}
-
-.send-btn:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
-
-.input-hint {
-  text-align: center;
-  font-size: 0.75rem;
-  color: var(--chat-text-tertiary);
-  margin: 0.5rem 0 0;
-  padding: 0;
-}
-
-@media (max-width: 768px) {
-  .ai-chat-root {
-    height: 100vh;
-    margin: 0;
-    width: 100%;
-  }
-
-  .chat-sidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1000;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease;
-    box-shadow: none;
-  }
-
-  .chat-sidebar.sidebar-open {
-    transform: translateX(0);
-    box-shadow: var(--chat-shadow-lg);
-  }
-
-  .sidebar-overlay {
-    display: block;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 999;
-    animation: fadeIn 0.2s ease;
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-
-  .header-menu-btn {
-    display: flex;
-  }
-
-  .header-actions .header-icon-btn:first-child {
-    display: none;
-  }
-
-  .suggested-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .chat-welcome {
-    padding: 2rem 1rem 1rem;
-  }
-
-  .message-row {
-    padding: 0 1rem;
-  }
-
-  .chat-input-wrapper {
-    padding: 0 0.75rem 0.75rem;
-  }
-}
+<style scoped lang="scss">
+@use '../styles/ai-chat';
 </style>
