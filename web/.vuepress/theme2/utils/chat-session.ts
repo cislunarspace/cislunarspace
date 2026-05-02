@@ -17,7 +17,6 @@ import {
   buildRouterUserMessage,
   buildSiteMapText,
   buildSystemPrompt,
-  fallbackKeywordPaths,
   flattenCategories,
   formatPathList,
   normalizeAndValidatePaths,
@@ -31,6 +30,8 @@ import type {
   RouteCallbacks,
   SiteContext,
 } from './chat-types'
+import type { Router, RouterCallbacks } from './chat-engine-seams'
+import { keywordRouter } from './chat-engine-seams'
 
 export class ChatSession {
   private readonly cfg: NormalizedConfig
@@ -72,6 +73,85 @@ export class ChatSession {
     return this.contextLoadPromise
   }
 
+  /** The LLM-based router adapter — satisfies the Router interface. */
+  private createLLMRouter(): Router {
+    return {
+      route: async ({ question, history, siteIndex, flatIndex, config, locale, callbacks }) => {
+        const loc = locale
+        const categories = siteIndex[loc] || []
+        const indexRows = flatIndex
+        const indexText = categories
+          .map((cat) => {
+            const entries = cat.entries.map((e) => `- ${e.title}: ${e.path}`).join('\n')
+            return `### ${cat.category}\n${entries}`
+          })
+          .join('\n')
+
+        const mapText = buildSiteMapText(categories)
+        const routerUser = buildRouterUserMessage(history, question, loc)
+        const maxPaths = config.routerMaxPaths ?? 8
+
+        callbacks.onProcessStep('stepNav')
+
+        let rawRouter: string
+        try {
+          rawRouter = await this.callChatJson(
+            {
+              model: config.routerModel || config.model,
+              max_tokens: 800,
+              temperature: config.routerTemperature ?? 0.2,
+              messages: [
+                { role: 'system', content: buildRouterSystemPrompt(loc, maxPaths) },
+                {
+                  role: 'user',
+                  content:
+                    `${loc === 'en' ? 'Site map: one line per row as path<tab>title' : '站点地图：每行 path<tab>title'}\n\n${mapText}\n\n---\n\n${routerUser}`,
+                },
+              ],
+              stream: false,
+            }
+          )
+        } catch (err) {
+          callbacks.onProcessStepComplete('stepNav', loc === 'en' ? 'error' : '导览未成功')
+          return keywordRouter({ question, flatIndex, config, callbacks })
+        }
+
+        let chosen = normalizeAndValidatePaths(
+          parseRouterResponse(rawRouter).paths,
+          new Set(indexRows.map((r) => r.path)),
+          maxPaths
+        )
+
+        if (!chosen.length) {
+          return keywordRouter({ question, flatIndex, config, callbacks })
+        }
+
+        callbacks.onProcessStepComplete(
+          'stepNav',
+          formatPathList(chosen, indexRows) || (loc === 'en' ? 'ok' : '已选')
+        )
+        callbacks.onProcessStep('stepExcerpt')
+
+        const ctx = await this.loadSiteContext()
+        const blob = buildContextBlob(
+          ctx,
+          loc,
+          chosen,
+          config.twoPhaseContextCharBudget ?? 45000,
+          loc === 'en'
+        )
+
+        callbacks.onExcerptsLoaded(blob)
+
+        const systemPrompt = blob
+          ? buildAnswerSystemWithRetrieved(buildAnswerRulesBlock(loc), blob, indexText, loc)
+          : buildSystemPrompt(buildAnswerRulesBlock(loc), indexText, loc)
+
+        return { paths: chosen, context: ctx, usedTwoPhase: !!blob, systemPrompt }
+      },
+    }
+  }
+
   /** The main two-phase sendMessage loop. */
   async route(
     question: string,
@@ -84,7 +164,6 @@ export class ChatSession {
     const indexRows = this.flatIndex
     const rules = buildAnswerRulesBlock(loc)
 
-    // Build index text for prompts (from hierarchical categories)
     const indexText = categories
       .map((cat) => {
         const entries = cat.entries.map((e) => `- ${e.title}: ${e.path}`).join('\n')
@@ -92,72 +171,32 @@ export class ChatSession {
       })
       .join('\n')
 
-    let systemPrompt = buildSystemPrompt(rules, indexText, loc)
+    // Narrow RouteCallbacks down to RouterCallbacks
+    const routerCallbacks: RouterCallbacks = {
+      onPathsChosen: (paths) => callbacks.onProcessStepComplete('stepNav', formatPathList(paths, indexRows) || (loc === 'en' ? 'ok' : '已选')),
+      onExcerptsLoaded: (text) => callbacks.onExcerptsLoaded(text),
+      onProcessStep: (key, detail) => callbacks.onProcessStep(key, detail),
+      onProcessStepComplete: (key, detail) => callbacks.onProcessStepComplete(key, detail),
+    }
+
+    let systemPrompt: string
     let usedTwoPhase = false
 
-    // Phase 1: two-phase retrieval
+    // Phase 1: routing
     if (this.cfg.twoPhaseRetrieval !== false && indexRows.length) {
+      const router = this.createLLMRouter()
       try {
-        const mapText = buildSiteMapText(categories)
-        const routerUser = buildRouterUserMessage(history, question, loc)
-        const maxPaths = this.cfg.routerMaxPaths ?? 8
-
-        callbacks.onProcessStep('stepNav')
-
-        const rawRouter = await this.callChatJson(
-          {
-            model: this.cfg.routerModel || this.cfg.model,
-            max_tokens: 800,
-            temperature: this.cfg.routerTemperature ?? 0.2,
-            messages: [
-              { role: 'system', content: buildRouterSystemPrompt(loc, maxPaths) },
-              {
-                role: 'user',
-                content:
-                  `${loc === 'en' ? 'Site map: one line per row as path<tab>title' : '站点地图：每行 path<tab>title'}\n\n${mapText}\n\n---\n\n${routerUser}`,
-              },
-            ],
-            stream: false,
-          },
-          signal
-        )
-
-        let chosen = normalizeAndValidatePaths(
-          parseRouterResponse(rawRouter).paths,
-          new Set(indexRows.map((r) => r.path)),
-          maxPaths
-        )
-
-        if (!chosen.length) {
-          chosen = fallbackKeywordPaths(question, indexRows, 4)
-        }
-
-        if (chosen.length) {
-          callbacks.onProcessStepComplete(
-            'stepNav',
-            formatPathList(chosen, indexRows) || (loc === 'en' ? 'ok' : '已选')
-          )
-          callbacks.onProcessStep('stepExcerpt')
-
-          const ctx = await this.loadSiteContext()
-          const blob = buildContextBlob(
-            ctx,
-            loc,
-            chosen,
-            this.cfg.twoPhaseContextCharBudget ?? 45000,
-            loc === 'en'
-          )
-
-          callbacks.onExcerptsLoaded(blob)
-
-          if (blob) {
-            systemPrompt = buildAnswerSystemWithRetrieved(rules, blob, indexText, loc)
-            usedTwoPhase = true
-          }
-        } else {
-          callbacks.onProcessStepComplete('stepNav', '')
-        }
-        callbacks.onProcessStep('stepAnswer')
+        const result = await router.route({
+          question,
+          history,
+          siteIndex: this.siteIndex,
+          flatIndex: indexRows,
+          config: this.cfg,
+          locale: loc,
+          callbacks: routerCallbacks,
+        })
+        systemPrompt = result.systemPrompt || buildSystemPrompt(rules, indexText, loc)
+        usedTwoPhase = result.usedTwoPhase
       } catch (err) {
         if (err instanceof Error && err.name === 'AbortError') throw err
         callbacks.onProcessStepComplete('stepNav', loc === 'en' ? 'error' : '导览未成功')
@@ -166,6 +205,7 @@ export class ChatSession {
       }
     } else {
       callbacks.onProcessStep('stepAnswerAlone')
+      systemPrompt = buildSystemPrompt(rules, indexText, loc)
     }
 
     if (!usedTwoPhase) {

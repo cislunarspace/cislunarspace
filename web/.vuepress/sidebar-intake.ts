@@ -57,11 +57,6 @@ export interface GlossaryIntake {
   missing: TranslationGap[]
 }
 
-export interface SpaceNewsSidebarIntake {
-  zh: VueSidebarItem[]
-  en: VueSidebarItem[]
-}
-
 export interface ChatIndexIntake {
   zh: ChatIndexCategory[]
   en: ChatIndexCategory[]

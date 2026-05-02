@@ -285,7 +285,10 @@ export function useForum() {
     return d.toLocaleDateString()
   }
 
-  /** SECURITY: escapeHtml MUST be applied before v-html rendering. Do not pass raw user content to v-html. */
+  /**
+   * Converts raw text to HTML-safe content suitable for v-html.
+   * escapeHtml is applied internally — do NOT call escapeHtml on the result.
+   */
   function renderContent(content: string): string {
     return escapeHtml(content).replace(/\n/g, '<br>')
   }
