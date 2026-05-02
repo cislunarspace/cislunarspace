@@ -28,6 +28,7 @@ lastUpdated: 2026-05-01
 | 2026-05-02 | [Blue Origin Unveils Quattro Upgrade for New Glenn: 9x4 Super Heavy Configuration to Debut Next Year](./2026-05-02-blue-origin-quattro-upgrade/) | Blue Origin |
 | 2026-05-02 | [NASA's Nancy Grace Roman Space Telescope Completes Assembly, Set for September Launch](./2026-05-02-nasa-roman-telescope/) | Science |
 | 2026-05-02 | [ESA Completes First Full-Size Space Rider Test Model Assembly](./2026-05-02-esa-space-rider/) | ESA |
+| 2026-05-02 | [CNSA Hosts Commercial Space High-Quality Development Enterprise Roundtable](./2026-05-02-cnsa-commercial-space-meeting/) | China Space, Policy |
 | 2026-05-01 | [NASA Kennedy Space Center Director Janet Petro Announces Retirement Plans](./2026-05-01-nasa-kennedy-director-retirement/) | NASA |
 | 2026-05-01 | [NASA Artemis II Crew Rings Nasdaq Closing Bell](./2026-05-01-artemis-ii-nasdaq-closing-bell/) | Artemis |
 | 2026-05-01 | [Hainan Commercial Spaceport Phase II Enters Final Sprint, Launch Pad 3 Over 80% Complete](./2026-05-01-hainan-commercial-spaceport-phase2/) | China Space, Commercial Space |
