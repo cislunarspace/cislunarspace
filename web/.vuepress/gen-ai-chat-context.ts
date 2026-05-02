@@ -6,6 +6,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { parseFrontmatterAndBody, type Frontmatter } from './utils/frontmatter-parser.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -13,47 +14,7 @@ const webRoot = path.join(__dirname, '..')
 
 const MAX_TEXT_PER_PAGE = 14000
 
-function parseFrontmatterAndBody(content) {
-  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
-  if (!match) {
-    return { fm: {}, body: content }
-  }
-  const fm = {}
-  const lines = match[1].split('\n')
-  for (let i = 0; i < lines.length; i++) {
-    const m = lines[i].match(/^([\w][\w.-]*):\s*(.*)$/)
-    if (!m) continue
-    const key = m[1]
-    let val = m[2].trim()
-    if (val === '') {
-      const items = []
-      let j = i + 1
-      while (j < lines.length) {
-        const itemMatch = lines[j].match(/^\s+-\s+(.+)$/)
-        if (!itemMatch) break
-        items.push(itemMatch[1].trim().replace(/^['"]|['"]$/g, ''))
-        j++
-      }
-      if (items.length > 0) {
-        fm[key] = items
-        i = j - 1
-        continue
-      }
-    }
-    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
-      val = val.slice(1, -1)
-    }
-    if (val === 'true') val = true
-    else if (val === 'false') val = false
-    else if (val.startsWith('[') && val.endsWith(']')) {
-      val = val.slice(1, -1).split(',').map(s => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean)
-    }
-    fm[key] = val
-  }
-  return { fm, body: content.slice(match[0].length) }
-}
-
-function markdownToPlain(body) {
+function markdownToPlain(body: string): string {
   let s = String(body)
   s = s.replace(/```[\s\S]*?```/g, '\n')
   s = s.replace(/`([^`]+)`/g, '$1')
@@ -73,7 +34,7 @@ function markdownToPlain(body) {
   return s.replace(/\s+\n/g, '\n').trim()
 }
 
-function fileToUrlPath(relFromWeb, fm) {
+function fileToUrlPath(relFromWeb: string, fm: Frontmatter): string {
   if (fm.permalink) {
     let p = String(fm.permalink).trim()
     if (!p.startsWith('/')) p = `/${p}`
@@ -91,9 +52,9 @@ function fileToUrlPath(relFromWeb, fm) {
   return `/${noMd}/`
 }
 
-function collectMarkdownFiles() {
-  const out = []
-  function walk(dir) {
+function collectMarkdownFiles(): string[] {
+  const out: string[] = []
+  function walk(dir: string): void {
     for (const name of fs.readdirSync(dir, { withFileTypes: true })) {
       if (name.name.startsWith('.')) continue
       const full = path.join(dir, name.name)
@@ -110,21 +71,21 @@ function collectMarkdownFiles() {
   return out
 }
 
-export function generateAiChatContext() {
-  const zh = {}
-  const en = {}
-  const indexZh = []
-  const indexEn = []
+export function generateAiChatContext(): void {
+  const zh: Record<string, { title: string; text: string }> = {}
+  const en: Record<string, { title: string; text: string }> = {}
+  const indexZh: Array<{ path: string; title: string }> = []
+  const indexEn: Array<{ path: string; title: string }> = []
 
   for (const abs of collectMarkdownFiles()) {
     const rel = path.relative(webRoot, abs).replace(/\\/g, '/')
     const content = fs.readFileSync(abs, 'utf-8')
-    const { fm, body } = parseFrontmatterAndBody(content)
-    if (fm.draft === true) continue
+    const { frontmatter, body } = parseFrontmatterAndBody(content)
+    if (frontmatter.draft === true) continue
     if (rel.startsWith('.vuepress/')) continue
 
-    const pagePath = fileToUrlPath(rel, fm)
-    const title = (fm.title && String(fm.title)) || pagePath
+    const pagePath = fileToUrlPath(rel, frontmatter)
+    const title = (frontmatter.title && String(frontmatter.title)) || pagePath
     const text = markdownToPlain(body).slice(0, MAX_TEXT_PER_PAGE) || ''
     const rec = { title, text: text || '(无正文)' }
     const isEn = rel.toLowerCase().startsWith('en/')
