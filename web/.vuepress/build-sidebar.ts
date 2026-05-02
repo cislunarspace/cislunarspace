@@ -12,15 +12,15 @@
 import path from 'path'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
-import { glossaryCategories } from './glossary-meta.js'
-import { sidebarSections, type SidebarSection, type SidebarEntry } from './sidebar-data.js'
-import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.js'
-import type { VueSidebarItem } from './sidebar-intake.js'
+import { glossaryCategories } from './glossary-meta.ts'
+import { sidebarSections, type SidebarSection, type SidebarEntry } from './sidebar-data.ts'
+import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.ts'
+import type { VueSidebarItem } from './sidebar-intake.ts'
 
-import { buildGlossaryScan } from './intakes/glossary-intake.js'
-import { buildWayfindingIntake } from './intakes/wayfinding-intake.js'
-import { buildChatIndexIntake as buildChatIndex } from './intakes/chat-index-intake.js'
-import { buildTranslationGapIntake as getTranslationGapReport } from './intakes/translation-gap-intake.js'
+import { buildGlossaryScan } from './intakes/glossary-intake.ts'
+import { buildWayfindingIntake } from './intakes/wayfinding-intake.ts'
+import { buildChatIndexIntake as buildChatIndex } from './intakes/chat-index-intake.ts'
+import { buildTranslationGapIntake as getTranslationGapReport } from './intakes/translation-gap-intake.ts'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)

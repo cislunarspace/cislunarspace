@@ -3,8 +3,8 @@
  * All cross-module types live here so intake modules can reference each other
  * without import cycles.
  */
-import type { GlossaryCategoryMeta } from './glossary-meta.js'
-import type { SidebarSection, SidebarEntry } from './sidebar-data.js'
+import type { GlossaryCategoryMeta } from './glossary-meta.ts'
+import type { SidebarSection, SidebarEntry } from './sidebar-data.ts'
 
 // ── Primitive types ───────────────────────────────────────────────────────────
 
