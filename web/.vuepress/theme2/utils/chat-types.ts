@@ -26,6 +26,16 @@ export interface SiteIndex {
   en: IndexRow[]
 }
 
+export interface ChatIndexCategory {
+  category: string
+  entries: IndexRow[]
+}
+
+export interface HierarchicalSiteIndex {
+  zh: ChatIndexCategory[]
+  en: ChatIndexCategory[]
+}
+
 export interface SiteContext {
   zh: Record<string, { title: string; text: string }>
   en: Record<string, { title: string; text: string }>

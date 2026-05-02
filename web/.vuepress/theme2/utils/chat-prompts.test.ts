@@ -14,7 +14,7 @@ import {
   formatPathList,
   parseSseLine,
 } from './chat-prompts'
-import type { IndexRow, SiteContext } from './chat-types'
+import type { ChatIndexCategory, IndexRow, SiteContext } from './chat-types'
 
 describe('buildAnswerRulesBlock', () => {
   it('returns English rules for en locale', () => {
@@ -121,12 +121,25 @@ describe('buildRouterUserMessage', () => {
 })
 
 describe('buildSiteMapText', () => {
-  it('formats rows as path<tab>title', () => {
-    const rows: IndexRow[] = [
-      { path: '/foo/', title: 'Foo' },
-      { path: '/bar/', title: 'Bar' },
+  it('formats categories as grouped path<tab>title', () => {
+    const categories: ChatIndexCategory[] = [
+      {
+        category: 'Category A',
+        entries: [
+          { path: '/foo/', title: 'Foo' },
+          { path: '/bar/', title: 'Bar' },
+        ],
+      },
+      {
+        category: 'Category B',
+        entries: [
+          { path: '/baz/', title: 'Baz' },
+        ],
+      },
     ]
-    expect(buildSiteMapText(rows)).toBe('/foo/\tFoo\n/bar/\tBar')
+    expect(buildSiteMapText(categories)).toBe(
+      '## Category A\n- /foo/\tFoo\n- /bar/\tBar\n\n## Category B\n- /baz/\tBaz'
+    )
   })
 
   it('returns empty string for empty array', () => {
