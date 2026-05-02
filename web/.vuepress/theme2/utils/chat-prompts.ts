@@ -2,7 +2,7 @@
  * Pure functions for building LLM prompts and parsing LLM responses.
  * No side effects, no Vue, no network calls.
  */
-import type { IndexRow, SiteContext, SseDelta } from './chat-types'
+import type { ChatIndexCategory, IndexRow, SiteContext, SseDelta } from './chat-types'
 
 export function buildAnswerRulesBlock(locale: 'zh' | 'en'): string {
   if (locale === 'en') {
@@ -91,8 +91,26 @@ export function buildRouterUserMessage(
   return parts.join('\n')
 }
 
-export function buildSiteMapText(indexRows: IndexRow[]): string {
-  return (indexRows || []).map((r) => `${r.path}\t${r.title}`).join('\n')
+export function buildSiteMapText(categories: ChatIndexCategory[]): string {
+  if (!categories?.length) return ''
+  const parts: string[] = []
+  for (const cat of categories) {
+    parts.push(`## ${cat.category}`)
+    for (const entry of cat.entries) {
+      parts.push(`- ${entry.path}\t${entry.title}`)
+    }
+    parts.push('')
+  }
+  return parts.join('\n').trim()
+}
+
+/** Flatten hierarchical categories into a flat IndexRow array. */
+export function flattenCategories(categories: ChatIndexCategory[]): IndexRow[] {
+  const rows: IndexRow[] = []
+  for (const cat of categories) {
+    rows.push(...cat.entries)
+  }
+  return rows
 }
 
 export function buildContextBlob(

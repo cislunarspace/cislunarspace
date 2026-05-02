@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url'
 import { createRequire } from 'module'
 import { parseFrontmatter, type Frontmatter } from './utils/frontmatter-parser.js'
 import { generateAiChatContext } from './gen-ai-chat-context.js'
+import { buildChatIndex, getTranslationGapReport } from './build-sidebar.js'
 
 const require = createRequire(import.meta.url)
 const categoryMeta: Record<string, { zh: string; en: string; color: string }> = require('./category-meta.json')
@@ -293,4 +294,25 @@ fs.writeFileSync(
 )
 console.log('Generated space-news-sidebar-data.json')
 
+// Generate ai-chat-context.json (full page text for retrieval)
 generateAiChatContext()
+
+// Generate hierarchical ai-chat-index.json (replaces flat version from generateAiChatContext)
+const chatIndex = buildChatIndex()
+const chatIndexPath = path.join(__dirname, 'public', 'ai-chat-index.json')
+if (!fs.existsSync(path.dirname(chatIndexPath))) {
+  fs.mkdirSync(path.dirname(chatIndexPath), { recursive: true })
+}
+fs.writeFileSync(chatIndexPath, JSON.stringify(chatIndex))
+console.log(
+  `Generated hierarchical ai-chat-index.json (${chatIndex.zh.length} zh categories, ${chatIndex.en.length} en categories)`,
+)
+
+// Report translation gaps
+const gapReport = getTranslationGapReport()
+if (gapReport.total > 0) {
+  console.log(`\n📋 Glossary translation gaps: ${gapReport.total} entries missing English translations`)
+  for (const [cat, count] of gapReport.byCategory) {
+    console.log(`   ${cat}: ${count} missing`)
+  }
+}

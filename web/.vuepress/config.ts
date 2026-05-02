@@ -9,9 +9,10 @@ import { fileURLToPath } from 'url'
 import theme from './theme2/index.js'
 import navbar from './navbar.js'
 import navbarEn from './navbar-en.js'
-import sidebar from './sidebar.js'
-import sidebarEn from './sidebar-en.js'
+import { buildSidebarConfigs } from './build-sidebar.js'
 import ogMetaPlugin from './og-meta-plugin.js'
+
+const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs()
 import mk from '@traptitech/markdown-it-katex'
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url))

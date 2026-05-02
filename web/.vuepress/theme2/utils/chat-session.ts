@@ -18,29 +18,33 @@ import {
   buildSiteMapText,
   buildSystemPrompt,
   fallbackKeywordPaths,
+  flattenCategories,
   formatPathList,
   normalizeAndValidatePaths,
   parseRouterResponse,
 } from './chat-prompts'
 import type {
+  HierarchicalSiteIndex,
+  IndexRow,
   Message,
   NormalizedConfig,
   RouteCallbacks,
   SiteContext,
-  SiteIndex,
 } from './chat-types'
 
 export class ChatSession {
   private readonly cfg: NormalizedConfig
   private readonly locale: 'zh' | 'en'
-  private readonly siteIndex: SiteIndex
+  private readonly siteIndex: HierarchicalSiteIndex
+  private readonly flatIndex: IndexRow[]
   private siteContext: SiteContext | null = null
   private contextLoadPromise: Promise<SiteContext> | null = null
 
-  constructor(cfg: NormalizedConfig, locale: 'zh' | 'en', siteIndex: SiteIndex) {
+  constructor(cfg: NormalizedConfig, locale: 'zh' | 'en', siteIndex: HierarchicalSiteIndex) {
     this.cfg = cfg
     this.locale = locale
     this.siteIndex = siteIndex
+    this.flatIndex = flattenCategories(siteIndex[locale] || [])
   }
 
   /** Load the site context JSON (with in-memory cache). */
@@ -76,13 +80,16 @@ export class ChatSession {
     signal: AbortSignal
   ): Promise<void> {
     const loc = this.locale
-    const indexRows = this.siteIndex[loc] || []
+    const categories = this.siteIndex[loc] || []
+    const indexRows = this.flatIndex
     const rules = buildAnswerRulesBlock(loc)
 
-    // Build index text for prompts
-    const sidebarEntries = this.buildSidebarEntries()
-    const indexText = sidebarEntries
-      .map((e) => `- ${e.title}: ${e.path}`)
+    // Build index text for prompts (from hierarchical categories)
+    const indexText = categories
+      .map((cat) => {
+        const entries = cat.entries.map((e) => `- ${e.title}: ${e.path}`).join('\n')
+        return `### ${cat.category}\n${entries}`
+      })
       .join('\n')
 
     let systemPrompt = buildSystemPrompt(rules, indexText, loc)
@@ -91,7 +98,7 @@ export class ChatSession {
     // Phase 1: two-phase retrieval
     if (this.cfg.twoPhaseRetrieval !== false && indexRows.length) {
       try {
-        const mapText = buildSiteMapText(indexRows)
+        const mapText = buildSiteMapText(categories)
         const routerUser = buildRouterUserMessage(history, question, loc)
         const maxPaths = this.cfg.routerMaxPaths ?? 8
 
@@ -237,8 +244,4 @@ export class ChatSession {
     return data.choices?.[0]?.message?.content || ''
   }
 
-  private buildSidebarEntries(): Array<{ title: string; path: string }> {
-    // Imported at module level from AiChat — populated from sidebar.ts
-    return []
-  }
 }
