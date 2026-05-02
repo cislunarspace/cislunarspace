@@ -2,25 +2,17 @@
 /**
  * 卫星轨道仿真教学平台（由原 public/orbit-sim.html 迁入 Vue，轨道力学见 utils/orbitSimMath.ts）
  */
-import { computed, nextTick, onBeforeUnmount, onMounted, reactive, ref } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import {
   D2R,
-  GM,
-  RE,
-  R2D,
-  applyPreset,
   currentECI,
-  currentElements,
-  eci2ecef,
-  fmtUTC,
   getGAST,
   kep2eci,
-  orbTypeLabel,
   sunECI,
-  type OrbElements,
   type PresetKey,
   PRESETS,
 } from '../utils/orbitSimMath'
+import { useOrbitSim } from '../composables/useOrbitSim'
 
 const props = withDefaults(
   defineProps<{
@@ -40,44 +32,12 @@ const viewerEl = ref<HTMLElement | null>(null)
 const maskVisible = ref(true)
 const maskError = ref<string | null>(null)
 
-const orb = reactive<OrbElements>({
-  a: 6778000,
-  e: 0,
-  i: 51.6 * D2R,
-  raan: 0,
-  argp: 0,
-  nu: 0,
-})
+const sim = useOrbitSim(props.locale)
+const { orb, simTime, simSpeed, isPaused, simElapsed, activePresetKey, hud, syncVal, speedLabel, pauseLabel, topTime } = sim
 
-const simTime = ref(new Date())
-const simSpeed = ref(1)
-const isPaused = ref(false)
-let lastWall = 0
-const simEpoch0 = ref(new Date())
-const simElapsed = ref(0)
-
-const hud = reactive({
-  lon: '--',
-  lat: '--',
-  alt: '--',
-  spd: '--',
-  x: '--',
-  y: '--',
-  z: '--',
-  type: 'LEO',
-  inc: '--',
-  nu: '--',
-  ep: '--',
-})
-
-const topTime = ref('--')
-const speedLabel = ref('1×')
-const pauseLabel = ref('⏸ 暂停')
 const toastMsg = ref('')
 let toastTimer: ReturnType<typeof setTimeout> | null = null
-
-/** 与快捷键 1–5 对应的预设高亮 */
-const activePresetKey = ref<PresetKey | null>(null)
+let lastWall = 0
 
 let viewer: any = null
 let CesiumRef: any = null
@@ -214,35 +174,6 @@ function toast(msg: string) {
   }, 3500)
 }
 
-function updateHUD() {
-  const { pos, vel } = currentECI(orb, simElapsed.value)
-  const ecef = eci2ecef(pos, simTime.value)
-  const r = Math.sqrt(ecef[0] ** 2 + ecef[1] ** 2 + ecef[2] ** 2)
-  const lat = Math.asin(ecef[2] / r) * R2D
-  const lon = Math.atan2(ecef[1], ecef[0]) * R2D
-  const alt = (r - RE) / 1000
-  const el = currentElements(orb, simElapsed.value)
-  const degr = Math.sqrt(GM / el.a ** 3) * R2D * 3600
-  const Ts = (2 * Math.PI) / Math.sqrt(GM / el.a ** 3) / 3600
-  const nuDeg = ((el.nu * R2D) % 360 + 360) % 360
-
-  hud.lon = `${lon.toFixed(3)}°`
-  hud.lat = `${lat.toFixed(3)}°`
-  hud.alt = `${alt.toFixed(2)} km`
-  hud.spd = `${degr.toFixed(4)}°/h`
-  hud.x = `${(pos[0] / 1000).toFixed(1)} km`
-  hud.y = `${(pos[1] / 1000).toFixed(1)} km`
-  hud.z = `${(pos[2] / 1000).toFixed(1)} km`
-  hud.inc = `${Ts.toFixed(2)}h`
-  hud.nu = `${nuDeg.toFixed(2)}°`
-  hud.ep = fmtUTC(simTime.value)
-  hud.type = orbTypeLabel(orb)
-}
-
-function updateTopbar() {
-  topTime.value = `UTC  ${fmtUTC(simTime.value)}`
-}
-
 function updateSliders() {
   const root = rootEl.value
   if (!root) return
@@ -253,70 +184,11 @@ function updateSliders() {
   })
 }
 
-function onParam(key: string, raw: string) {
-  const v = parseFloat(raw)
-  simElapsed.value = 0
-  simEpoch0.value = new Date()
-  activePresetKey.value = null
-
-  switch (key) {
-    case 'h':
-      orb.a = RE + v * 1000
-      syncVal.value.a = orb.a / 1000
-      break
-    case 'a':
-      orb.a = v * 1000
-      syncVal.value.h = Math.min(46000, Math.max(200, (orb.a - RE) / 1000))
-      break
-    case 'e':
-      orb.e = v
-      break
-    case 'i':
-      orb.i = v * D2R
-      break
-    case 'raan':
-      orb.raan = v * D2R
-      break
-    case 'argp':
-      orb.argp = v * D2R
-      break
-    case 'nu':
-      orb.nu = v * D2R
-      break
-  }
+function loadPresetWithToast(name: PresetKey) {
+  const desc = sim.loadPreset(name)
+  toast(desc)
+  sim.syncAllSlidersFromOrb()
   updateSliders()
-}
-
-function syncAllSlidersFromOrb() {
-  const h = (orb.a - RE) / 1000
-  syncVal.value.h = Math.min(46000, Math.max(200, h))
-  syncVal.value.a = orb.a / 1000
-  syncVal.value.e = orb.e
-  syncVal.value.i = orb.i * R2D
-  syncVal.value.raan = orb.raan * R2D
-  syncVal.value.argp = orb.argp * R2D
-  syncVal.value.nu = orb.nu * R2D
-  updateSliders()
-}
-
-/** 与 range 控件双向绑定的数值（km / deg / 无量纲） */
-const syncVal = ref({
-  h: 400,
-  a: 6778,
-  e: 0,
-  i: 51.6,
-  raan: 0,
-  argp: 0,
-  nu: 0,
-})
-
-function loadPreset(name: PresetKey) {
-  applyPreset(orb, name)
-  activePresetKey.value = name
-  simElapsed.value = 0
-  simEpoch0.value = new Date()
-  syncAllSlidersFromOrb()
-  toast(PRESETS[name].desc)
 
   if (viewer && CesiumRef) {
     const Cesium = CesiumRef
@@ -333,20 +205,14 @@ function loadPreset(name: PresetKey) {
   rebuildScene()
 }
 
-function togglePause() {
-  isPaused.value = !isPaused.value
-  pauseLabel.value = isPaused.value ? (props.locale === 'en' ? '▶ Resume' : '▶ 继续') : '⏸ 暂停'
+function togglePauseWithUpdate() {
+  sim.togglePause()
   if (!isPaused.value) lastWall = performance.now()
 }
 
-function setSpeed(s: number) {
-  simSpeed.value = s
-  speedLabel.value = `${s}×`
-  if (isPaused.value) {
-    isPaused.value = false
-    lastWall = performance.now()
-    pauseLabel.value = '⏸ 暂停'
-  }
+function setSpeedWithUpdate(s: number) {
+  sim.setSpeed(s)
+  if (!isPaused.value) lastWall = performance.now()
 }
 
 function onKeydown(e: KeyboardEvent) {
@@ -355,34 +221,33 @@ function onKeydown(e: KeyboardEvent) {
   switch (e.key) {
     case ' ':
       e.preventDefault()
-      togglePause()
+      togglePauseWithUpdate()
       break
     case '1':
-      loadPreset('leo')
+      loadPresetWithToast('leo')
       break
     case '2':
-      loadPreset('sso')
+      loadPresetWithToast('sso')
       break
     case '3':
-      loadPreset('frozen')
+      loadPresetWithToast('frozen')
       break
     case '4':
-      loadPreset('repeating')
+      loadPresetWithToast('repeating')
       break
     case '5':
-      loadPreset('geo')
+      loadPresetWithToast('geo')
       break
     case '+':
     case '=':
-      setSpeed(simSpeed.value * 2)
+      setSpeedWithUpdate(simSpeed.value * 2)
       break
     case '-':
-      setSpeed(Math.max(simSpeed.value / 2, 0.25))
+      setSpeedWithUpdate(Math.max(simSpeed.value / 2, 0.25))
       break
     case 'r':
     case 'R':
-      simElapsed.value = 0
-      simEpoch0.value = new Date()
+      sim.resetClock()
       toast(ui.value.resetClock)
       break
   }
@@ -795,14 +660,8 @@ function startLoop() {
     const wall = (now - lastWall) / 1000
     lastWall = now
 
-    if (!isPaused.value) {
-      simElapsed.value += wall * simSpeed.value
-      simTime.value = new Date(simEpoch0.value.getTime() + simElapsed.value * 1000)
-    }
-
+    sim.tick(wall)
     rotateGlobeToECI(simTime.value)
-    updateHUD()
-    updateTopbar()
     updateSliders()
     rafId = requestAnimationFrame(loop)
   }
@@ -977,7 +836,7 @@ function onResize() {
                 class="pch"
                 :class="{ 'pch--active': activePresetKey === p.key }"
                 :title="p.subtitle ? `${p.title} — ${p.subtitle}` : p.title"
-                @click="loadPreset(p.key)"
+                @click="loadPresetWithToast(p.key)"
               >
                 <span class="pch__title">{{ p.title }}</span>
                 <span class="pch__subtitle">{{ p.subtitle }}</span>
@@ -1001,7 +860,7 @@ function onResize() {
                   min="200"
                   max="46000"
                   step="10"
-                  @input="onParam('h', String(syncVal.h))"
+                  @input="sim.onParam('h', String(syncVal.h)); updateSliders()"
                 >
                 <p class="pdesc">{{ ui.labels.h.desc }}</p>
               </div>
@@ -1017,7 +876,7 @@ function onResize() {
                   min="6578"
                   max="62164.1"
                   step="10"
-                  @input="onParam('a', String(syncVal.a))"
+                  @input="sim.onParam('a', String(syncVal.a)); updateSliders()"
                 >
                 <p class="pdesc">{{ ui.labels.a.desc }}</p>
               </div>
@@ -1033,7 +892,7 @@ function onResize() {
                   min="0"
                   max="0.85"
                   step="0.001"
-                  @input="onParam('e', String(syncVal.e))"
+                  @input="sim.onParam('e', String(syncVal.e)); updateSliders()"
                 >
                 <p class="pdesc">{{ ui.labels.e.desc }}</p>
               </div>
@@ -1053,7 +912,7 @@ function onResize() {
                   min="0"
                   max="180"
                   step="0.1"
-                  @input="onParam('i', String(syncVal.i))"
+                  @input="sim.onParam('i', String(syncVal.i)); updateSliders()"
                 >
                 <p class="pdesc">{{ ui.labels.i.desc }}</p>
               </div>
@@ -1069,7 +928,7 @@ function onResize() {
                   min="0"
                   max="360"
                   step="0.5"
-                  @input="onParam('raan', String(syncVal.raan))"
+                  @input="sim.onParam('raan', String(syncVal.raan)); updateSliders()"
                 >
                 <p class="pdesc">{{ ui.labels.raan.desc }}</p>
               </div>
@@ -1085,7 +944,7 @@ function onResize() {
                   min="0"
                   max="360"
                   step="0.5"
-                  @input="onParam('argp', String(syncVal.argp))"
+                  @input="sim.onParam('argp', String(syncVal.argp)); updateSliders()"
                 >
                 <p class="pdesc">{{ ui.labels.argp.desc }}</p>
               </div>
@@ -1105,7 +964,7 @@ function onResize() {
                   min="0"
                   max="360"
                   step="0.5"
-                  @input="onParam('nu', String(syncVal.nu))"
+                  @input="sim.onParam('nu', String(syncVal.nu)); updateSliders()"
                 >
                 <p class="pdesc">{{ ui.labels.nu.desc }}</p>
               </div>
@@ -1116,17 +975,17 @@ function onResize() {
         <div class="tctl">
           <div class="tctl__row tctl__row--primary">
             <span class="tctl__label">{{ ui.timeTitle }}</span>
-            <button type="button" class="tbtn tbtn--primary" :class="{ 'tbtn--paused': isPaused }" @click="togglePause">
+            <button type="button" class="tbtn tbtn--primary" :class="{ 'tbtn--paused': isPaused }" @click="togglePauseWithUpdate">
               {{ pauseLabel }}
             </button>
             <div class="tctl__speedpill">{{ speedLabel }}</div>
           </div>
           <div class="tctl__row tctl__row--rates" role="group" :aria-label="locale === 'en' ? 'Time rate' : '时间速率'">
-            <button type="button" class="tbtn tbtn--ghost" @click="setSpeed(0.5)">½×</button>
-            <button type="button" class="tbtn tbtn--ghost" @click="setSpeed(1)">1×</button>
-            <button type="button" class="tbtn tbtn--ghost" @click="setSpeed(10)">10×</button>
-            <button type="button" class="tbtn tbtn--ghost" @click="setSpeed(60)">60×</button>
-            <button type="button" class="tbtn tbtn--ghost" @click="setSpeed(300)">300×</button>
+            <button type="button" class="tbtn tbtn--ghost" @click="setSpeedWithUpdate(0.5)">½×</button>
+            <button type="button" class="tbtn tbtn--ghost" @click="setSpeedWithUpdate(1)">1×</button>
+            <button type="button" class="tbtn tbtn--ghost" @click="setSpeedWithUpdate(10)">10×</button>
+            <button type="button" class="tbtn tbtn--ghost" @click="setSpeedWithUpdate(60)">60×</button>
+            <button type="button" class="tbtn tbtn--ghost" @click="setSpeedWithUpdate(300)">300×</button>
           </div>
         </div>
       </aside>

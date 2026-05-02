@@ -8,6 +8,7 @@
  * `sanitizeGeneratedHtml`, which requires a DOM environment.
  */
 import katex from 'katex'
+import { escapeHtml } from './html'
 
 // Unicode Private Use Area characters used as KaTeX placeholder delimiters.
 // Chosen to avoid collision with any valid Unicode character in model output.
@@ -21,17 +22,6 @@ export interface KatexRenderResult {
 
 export interface RenderOptions {
   locale?: 'zh' | 'en'
-}
-
-/**
- * Escape HTML special characters.
- */
-export function escapeHtml(text: string): string {
-  return String(text)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
 }
 
 /**

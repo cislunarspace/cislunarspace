@@ -102,7 +102,7 @@ export class ChatSession {
         const routerUser = buildRouterUserMessage(history, question, loc)
         const maxPaths = this.cfg.routerMaxPaths ?? 8
 
-        callbacks.onProcessStep(callbacks.t('stepNav'))
+        callbacks.onProcessStep('stepNav')
 
         const rawRouter = await this.callChatJson(
           {
@@ -134,10 +134,10 @@ export class ChatSession {
 
         if (chosen.length) {
           callbacks.onProcessStepComplete(
-            callbacks.t('stepNav'),
+            'stepNav',
             formatPathList(chosen, indexRows) || (loc === 'en' ? 'ok' : '已选')
           )
-          callbacks.onProcessStep(callbacks.t('stepExcerpt'))
+          callbacks.onProcessStep('stepExcerpt')
 
           const ctx = await this.loadSiteContext()
           const blob = buildContextBlob(
@@ -155,17 +155,17 @@ export class ChatSession {
             usedTwoPhase = true
           }
         } else {
-          callbacks.onProcessStepComplete(callbacks.t('stepNav'), callbacks.t('noStrongMatch'))
+          callbacks.onProcessStepComplete('stepNav', '')
         }
-        callbacks.onProcessStep(callbacks.t('stepAnswer'))
+        callbacks.onProcessStep('stepAnswer')
       } catch (err) {
         if (err instanceof Error && err.name === 'AbortError') throw err
-        callbacks.onProcessStepComplete(callbacks.t('stepNav'), loc === 'en' ? 'error' : '导览未成功')
-        callbacks.onProcessStep(callbacks.t('stepAnswer'))
+        callbacks.onProcessStepComplete('stepNav', loc === 'en' ? 'error' : '导览未成功')
+        callbacks.onProcessStep('stepAnswer')
         systemPrompt = buildSystemPrompt(rules, indexText, loc)
       }
     } else {
-      callbacks.onProcessStep(callbacks.t('stepAnswerAlone'))
+      callbacks.onProcessStep('stepAnswerAlone')
     }
 
     if (!usedTwoPhase) {
@@ -210,10 +210,10 @@ export class ChatSession {
             callbacks.onChunk({ reasoning_content: reasoning, content })
           },
           onComplete: () => {
-            callbacks.onComplete(content.trim() || callbacks.t('emptyReply'), reasoning)
+            callbacks.onComplete(content.trim() || '', reasoning)
           },
           onError: (e) => {
-            callbacks.onError(e.message)
+            callbacks.onError('networkError', e.message)
           },
         })
       } else {
@@ -221,11 +221,11 @@ export class ChatSession {
         const msg = data.choices?.[0]?.message
         const content = msg?.content || ''
         const reasoning = msg?.reasoning_content ? String(msg.reasoning_content) : ''
-        callbacks.onComplete(content.trim() || callbacks.t('emptyReply'), reasoning)
+        callbacks.onComplete(content.trim() || '', reasoning)
       }
     } catch (err) {
       if (err instanceof Error && err.name === 'AbortError') throw err
-      callbacks.onError(`${callbacks.t('networkError')} ${err instanceof Error ? err.message : String(err)}`)
+      callbacks.onError('networkError', err instanceof Error ? err.message : String(err))
     }
   }
 

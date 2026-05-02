@@ -2,15 +2,21 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { createRequire } from 'module'
-import { parseFrontmatter, type Frontmatter } from './utils/frontmatter-parser.js'
 import { generateAiChatContext } from './gen-ai-chat-context.js'
-import { buildChatIndex, getTranslationGapReport } from './build-sidebar.js'
+import { buildChatIndex, getTranslationGapReport, buildGlossaryScan } from './build-sidebar.js'
+import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.js'
 
 const require = createRequire(import.meta.url)
 const categoryMeta: Record<string, { zh: string; en: string; color: string }> = require('./category-meta.json')
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const webRoot = path.join(__dirname, '..')
+
+// Single filesystem walk — all downstream consumers filter from this result.
+const allFiles = walkSiteMarkdown(webRoot)
+
+// ── Space News directory scan (structure only, not content) ──
 
 interface MonthDir {
   month: number
@@ -55,8 +61,8 @@ function scanSpaceNewsDir(baseDir: string): YearDir[] {
   return years
 }
 
-const zhYears = scanSpaceNewsDir(path.join(__dirname, '../space-news'))
-const enYears = scanSpaceNewsDir(path.join(__dirname, '../en/space-news'))
+const zhYears = scanSpaceNewsDir(path.join(webRoot, 'space-news'))
+const enYears = scanSpaceNewsDir(path.join(webRoot, 'en/space-news'))
 
 const monthsEn = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
@@ -98,6 +104,8 @@ fs.writeFileSync(
 )
 console.log('Generated sidebar.auto.json')
 
+// ── Article collection (filter + transform from allFiles) ──
+
 interface Article {
   relativePath: string
   path: string
@@ -110,61 +118,46 @@ interface Article {
   image: string | null
 }
 
-function collectArticles(baseDir: string, urlPrefix: string): Article[] {
-  const articles: Article[] = []
-  if (!fs.existsSync(baseDir)) return articles
+function filesToArticles(files: MarkdownFile[], relPathPrefix: string, urlPrefix: string): Article[] {
+  return files
+    .filter(f => {
+      const filename = path.basename(f.relPath)
+      return f.relPath.startsWith(relPathPrefix) &&
+             !filename.startsWith('README') &&
+             f.frontmatter.draft !== true
+    })
+    .map(f => {
+      const relFromBase = f.relPath.slice(relPathPrefix.length)
+      const pagePath = (f.frontmatter.permalink as string | undefined) ||
+                       (urlPrefix + relFromBase.replace(/\.md$/i, '/'))
 
-  function walk(dir: string): void {
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      const full = path.join(dir, entry.name)
-      if (entry.isDirectory()) {
-        walk(full)
-      } else if (/\.md$/i.test(entry.name) && !/^README/i.test(entry.name)) {
-        const content = fs.readFileSync(full, 'utf-8')
-        const fm = parseFrontmatter(content)
-        if (fm.draft === true) continue
-        const relativePath = path.relative(path.join(__dirname, '..'), full).replace(/\\/g, '/')
-        const relFromBase = path.relative(baseDir, full).replace(/\\/g, '/')
-        const pagePath = fm.permalink || (urlPrefix + relFromBase.replace(/\.md$/i, '/'))
-        // Resolve relative image path to absolute URL based on md file location
-        let imageUrl: string | null = fm.image || null
-        if (imageUrl && imageUrl.startsWith('./')) {
-          const mdDir = '/' + path.relative(path.join(__dirname, '..'), dir).replace(/\\/g, '/') + '/'
-          imageUrl = mdDir + imageUrl.slice(2)
-        }
-
-        const rawCategory = fm.category || null
-        const categories = Array.isArray(rawCategory)
-          ? rawCategory
-          : rawCategory ? [rawCategory as string] : []
-
-        articles.push({
-          relativePath,
-          path: pagePath,
-          title: fm.title || '',
-          description: fm.description || '',
-          date: fm.date || null,
-          lastUpdated: fm.lastUpdated || null,
-          author: fm.author || null,
-          category: categories.length ? categories : null,
-          image: imageUrl,
-        })
+      let imageUrl: string | null = (f.frontmatter.image as string | undefined) || null
+      if (imageUrl && imageUrl.startsWith('./')) {
+        const mdDir = '/' + f.relPath.replace(/\/[^/]+$/, '') + '/'
+        imageUrl = mdDir + imageUrl.slice(2)
       }
-    }
-  }
 
-  walk(baseDir)
-  return articles
+      const rawCategory = f.frontmatter.category || null
+      const categories = Array.isArray(rawCategory)
+        ? rawCategory
+        : rawCategory ? [rawCategory as string] : []
+
+      return {
+        relativePath: f.relPath,
+        path: pagePath,
+        title: (f.frontmatter.title as string | undefined) || '',
+        description: (f.frontmatter.description as string | undefined) || '',
+        date: (f.frontmatter.date as string | undefined) || null,
+        lastUpdated: (f.frontmatter.lastUpdated as string | undefined) || null,
+        author: (f.frontmatter.author as string | undefined) || null,
+        category: categories.length ? categories : null,
+        image: imageUrl,
+      }
+    })
 }
 
-const zhArticles = collectArticles(
-  path.join(__dirname, '../space-news'),
-  '/space-news/',
-)
-const enArticles = collectArticles(
-  path.join(__dirname, '../en/space-news'),
-  '/en/space-news/',
-)
+const zhArticles = filesToArticles(allFiles, 'space-news/', '/space-news/')
+const enArticles = filesToArticles(allFiles, 'en/space-news/', '/en/space-news/')
 
 fs.writeFileSync(
   path.join(__dirname, 'space-news-articles.json'),
@@ -172,9 +165,7 @@ fs.writeFileSync(
 )
 console.log(`Generated space-news-articles.json (${zhArticles.length} zh, ${enArticles.length} en)`)
 
-// ============================================
-// 生成 Space News 自定义侧边栏数据
-// ============================================
+// ── Space News sidebar data ──
 
 interface SidebarLatestItem {
   title: string
@@ -212,7 +203,6 @@ interface SidebarData {
 function buildSidebarData(articles: Article[], urlPrefix: string, lang: string): SidebarData {
   const isEn = lang === 'en'
 
-  // 1. 最新文章（最近 8 篇，按日期倒序）
   const latest: SidebarLatestItem[] = [...articles]
     .sort((a, b) => {
       const da = a.date ? new Date(a.date).getTime() : 0
@@ -227,7 +217,6 @@ function buildSidebarData(articles: Article[], urlPrefix: string, lang: string):
       category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
     }))
 
-  // 2. 分类统计（按文章数倒序，取前 10）
   const catCount: Record<string, number> = {}
   for (const a of articles) {
     const cats = Array.isArray(a.category) ? a.category : a.category ? [a.category] : []
@@ -240,15 +229,9 @@ function buildSidebarData(articles: Article[], urlPrefix: string, lang: string):
     .slice(0, 12)
     .map(([key, count]) => {
       const meta = categoryMeta[key] || { zh: key, en: key, color: '#64748b' }
-      return {
-        key,
-        label: isEn ? meta.en : meta.zh,
-        count,
-        color: meta.color,
-      }
+      return { key, label: isEn ? meta.en : meta.zh, count, color: meta.color }
     })
 
-  // 3. 年月归档
   const archiveMap = new Map<string, Map<number, { count: number; path: string }>>()
   for (const a of articles) {
     if (!a.date) continue
@@ -277,10 +260,7 @@ function buildSidebarData(articles: Article[], urlPrefix: string, lang: string):
     archive.push({ year: parseInt(year), months })
   }
 
-  // 4. 统计
-  const stats = { total: articles.length }
-
-  return { latest, categories, archive, stats }
+  return { latest, categories, archive, stats: { total: articles.length } }
 }
 
 const sidebarData = {
@@ -294,11 +274,12 @@ fs.writeFileSync(
 )
 console.log('Generated space-news-sidebar-data.json')
 
-// Generate ai-chat-context.json (full page text for retrieval)
-generateAiChatContext()
+// ── AI chat artifacts ──
 
-// Generate hierarchical ai-chat-index.json (replaces flat version from generateAiChatContext)
-const chatIndex = buildChatIndex()
+generateAiChatContext(allFiles)
+
+const glossaryScan = buildGlossaryScan(allFiles)
+const chatIndex = buildChatIndex(glossaryScan)
 const chatIndexPath = path.join(__dirname, 'public', 'ai-chat-index.json')
 if (!fs.existsSync(path.dirname(chatIndexPath))) {
   fs.mkdirSync(path.dirname(chatIndexPath), { recursive: true })
@@ -308,8 +289,7 @@ console.log(
   `Generated hierarchical ai-chat-index.json (${chatIndex.zh.length} zh categories, ${chatIndex.en.length} en categories)`,
 )
 
-// Report translation gaps
-const gapReport = getTranslationGapReport()
+const gapReport = getTranslationGapReport(glossaryScan)
 if (gapReport.total > 0) {
   console.log(`\n📋 Glossary translation gaps: ${gapReport.total} entries missing English translations`)
   for (const [cat, count] of gapReport.byCategory) {

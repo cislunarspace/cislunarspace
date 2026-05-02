@@ -187,7 +187,7 @@ import { ChatSession } from '../utils/chat-session'
 import { sanitizeClientConfig } from '../utils/chat-config'
 import { useChatI18n } from './composables/useChatI18n'
 import { useChatHistory } from './composables/useChatHistory'
-import type { Message, ProcessStep, SseDelta } from '../utils/chat-types'
+import type { Message, ProcessStep, SseDelta, ProcessStepKey, ErrorKey } from '../utils/chat-types'
 
 // --- Template refs ---
 const inputRef = ref<HTMLTextAreaElement | null>(null)
@@ -401,27 +401,27 @@ async function sendMessage() {
         scrollToBottom('auto')
       },
       onComplete: (content: string, reasoning: string) => {
-        assistantMessage.content = content
+        const finalContent = content || t('emptyReply')
+        assistantMessage.content = finalContent
         if (reasoning) assistantMessage.reasoning = reasoning
       },
-      onError: (message: string) => {
-        assistantMessage.content = message
+      onError: (errorKey: ErrorKey, details?: string) => {
+        assistantMessage.content = t(errorKey) + (details ? ` ${details}` : '')
       },
-      onProcessStep: (label: string, detail?: string) => {
+      onProcessStep: (stepKey: ProcessStepKey, detail?: string) => {
         if (!assistantMessage.processSteps) assistantMessage.processSteps = []
         for (const s of assistantMessage.processSteps) {
           if (s.status === 'running') s.status = 'done'
         }
-        assistantMessage.processSteps.push({ label, status: 'running', detail: detail || '' })
+        assistantMessage.processSteps.push({ label: t(stepKey), status: 'running', detail: detail || '' })
       },
-      onProcessStepComplete: (label: string, detail?: string) => {
+      onProcessStepComplete: (stepKey: ProcessStepKey, detail?: string) => {
         const steps = assistantMessage.processSteps
         if (!steps || !steps.length) return
         const last = steps[steps.length - 1]
         if (last.status === 'running') last.status = 'done'
         if (detail != null && String(detail).length) last.detail = detail
       },
-      t: (key: string) => t(key),
     }, abortController.value.signal)
   } catch (error) {
     if ((error as Error).name === 'AbortError') {

@@ -6,7 +6,8 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { parseFrontmatterAndBody, type Frontmatter } from './utils/frontmatter-parser.js'
+import { type Frontmatter } from './utils/frontmatter-parser.js'
+import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -52,43 +53,20 @@ function fileToUrlPath(relFromWeb: string, fm: Frontmatter): string {
   return `/${noMd}/`
 }
 
-function collectMarkdownFiles(): string[] {
-  const out: string[] = []
-  function walk(dir: string): void {
-    for (const name of fs.readdirSync(dir, { withFileTypes: true })) {
-      if (name.name.startsWith('.')) continue
-      const full = path.join(dir, name.name)
-      if (name.isDirectory()) {
-        if (name.name === 'node_modules' || name.name === 'figures' || name.name === 'dist') continue
-        if (name.name === '.vuepress') continue
-        walk(full)
-      } else if (/\.md$/i.test(name.name)) {
-        out.push(full)
-      }
-    }
-  }
-  walk(webRoot)
-  return out
-}
-
-export function generateAiChatContext(): void {
+export function generateAiChatContext(files: MarkdownFile[]): void {
   const zh: Record<string, { title: string; text: string }> = {}
   const en: Record<string, { title: string; text: string }> = {}
   const indexZh: Array<{ path: string; title: string }> = []
   const indexEn: Array<{ path: string; title: string }> = []
 
-  for (const abs of collectMarkdownFiles()) {
-    const rel = path.relative(webRoot, abs).replace(/\\/g, '/')
-    const content = fs.readFileSync(abs, 'utf-8')
-    const { frontmatter, body } = parseFrontmatterAndBody(content)
+  for (const { relPath, frontmatter, body } of files) {
     if (frontmatter.draft === true) continue
-    if (rel.startsWith('.vuepress/')) continue
 
-    const pagePath = fileToUrlPath(rel, frontmatter)
+    const pagePath = fileToUrlPath(relPath, frontmatter)
     const title = (frontmatter.title && String(frontmatter.title)) || pagePath
     const text = markdownToPlain(body).slice(0, MAX_TEXT_PER_PAGE) || ''
     const rec = { title, text: text || '(无正文)' }
-    const isEn = rel.toLowerCase().startsWith('en/')
+    const isEn = relPath.toLowerCase().startsWith('en/')
 
     if (isEn) {
       if (!en[pagePath]) {
@@ -123,5 +101,5 @@ export function generateAiChatContext(): void {
 const isMain =
   process.argv[1] && path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1])
 if (isMain) {
-  generateAiChatContext()
+  generateAiChatContext(walkSiteMarkdown(webRoot))
 }
