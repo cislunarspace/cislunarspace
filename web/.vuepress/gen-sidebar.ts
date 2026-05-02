@@ -4,7 +4,8 @@ import { fileURLToPath } from 'url'
 import { createRequire } from 'module'
 import { generateAiChatContext } from './gen-ai-chat-context.ts'
 import { buildChatIndex, getTranslationGapReport, buildGlossaryScan } from './build-sidebar.ts'
-import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.ts'
+import { walkSiteMarkdown } from './utils/markdown-walker.ts'
+import { filesToArticles, buildSidebarData } from './sidebar-transforms.ts'
 
 const require = createRequire(import.meta.url)
 const categoryMeta: Record<string, { zh: string; en: string; color: string }> = require('./category-meta.json')
@@ -106,56 +107,6 @@ console.log('Generated sidebar.auto.json')
 
 // ── Article collection (filter + transform from allFiles) ──
 
-interface Article {
-  relativePath: string
-  path: string
-  title: string
-  description: string
-  date: string | null
-  lastUpdated: string | null
-  author: string | null
-  category: string[] | null
-  image: string | null
-}
-
-function filesToArticles(files: MarkdownFile[], relPathPrefix: string, urlPrefix: string): Article[] {
-  return files
-    .filter(f => {
-      const filename = path.basename(f.relPath)
-      return f.relPath.startsWith(relPathPrefix) &&
-             !filename.startsWith('README') &&
-             f.frontmatter.draft !== true
-    })
-    .map(f => {
-      const relFromBase = f.relPath.slice(relPathPrefix.length)
-      const pagePath = (f.frontmatter.permalink as string | undefined) ||
-                       (urlPrefix + relFromBase.replace(/\.md$/i, '/'))
-
-      let imageUrl: string | null = (f.frontmatter.image as string | undefined) || null
-      if (imageUrl && imageUrl.startsWith('./')) {
-        const mdDir = '/' + f.relPath.replace(/\/[^/]+$/, '') + '/'
-        imageUrl = mdDir + imageUrl.slice(2)
-      }
-
-      const rawCategory = f.frontmatter.category || null
-      const categories = Array.isArray(rawCategory)
-        ? rawCategory
-        : rawCategory ? [rawCategory as string] : []
-
-      return {
-        relativePath: f.relPath,
-        path: pagePath,
-        title: (f.frontmatter.title as string | undefined) || '',
-        description: (f.frontmatter.description as string | undefined) || '',
-        date: (f.frontmatter.date as string | undefined) || null,
-        lastUpdated: (f.frontmatter.lastUpdated as string | undefined) || null,
-        author: (f.frontmatter.author as string | undefined) || null,
-        category: categories.length ? categories : null,
-        image: imageUrl,
-      }
-    })
-}
-
 const zhArticles = filesToArticles(allFiles, 'space-news/', '/space-news/')
 const enArticles = filesToArticles(allFiles, 'en/space-news/', '/en/space-news/')
 
@@ -167,105 +118,9 @@ console.log(`Generated space-news-articles.json (${zhArticles.length} zh, ${enAr
 
 // ── Space News sidebar data ──
 
-interface SidebarLatestItem {
-  title: string
-  path: string
-  date: string | null
-  category: string[] | null
-}
-
-interface SidebarCategory {
-  key: string
-  label: string
-  count: number
-  color: string
-}
-
-interface SidebarMonth {
-  month: number
-  label: string
-  path: string
-  count: number
-}
-
-interface SidebarYear {
-  year: number
-  months: SidebarMonth[]
-}
-
-interface SidebarData {
-  latest: SidebarLatestItem[]
-  categories: SidebarCategory[]
-  archive: SidebarYear[]
-  stats: { total: number }
-}
-
-function buildSidebarData(articles: Article[], urlPrefix: string, lang: string): SidebarData {
-  const isEn = lang === 'en'
-
-  const latest: SidebarLatestItem[] = [...articles]
-    .sort((a, b) => {
-      const da = a.date ? new Date(a.date).getTime() : 0
-      const db = b.date ? new Date(b.date).getTime() : 0
-      return db - da
-    })
-    .slice(0, 8)
-    .map(a => ({
-      title: a.title,
-      path: a.path,
-      date: a.date,
-      category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
-    }))
-
-  const catCount: Record<string, number> = {}
-  for (const a of articles) {
-    const cats = Array.isArray(a.category) ? a.category : a.category ? [a.category] : []
-    for (const c of cats) {
-      catCount[c] = (catCount[c] || 0) + 1
-    }
-  }
-  const categories: SidebarCategory[] = Object.entries(catCount)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 12)
-    .map(([key, count]) => {
-      const meta = categoryMeta[key] || { zh: key, en: key, color: '#64748b' }
-      return { key, label: isEn ? meta.en : meta.zh, count, color: meta.color }
-    })
-
-  const archiveMap = new Map<string, Map<number, { count: number; path: string }>>()
-  for (const a of articles) {
-    if (!a.date) continue
-    const d = new Date(a.date)
-    const y = d.getFullYear()
-    const m = d.getMonth() + 1
-    const yk = String(y)
-    if (!archiveMap.has(yk)) archiveMap.set(yk, new Map())
-    const monthMap = archiveMap.get(yk)!
-    if (!monthMap.has(m)) monthMap.set(m, { count: 0, path: `${urlPrefix}${yk}/${String(m).padStart(2, '0')}/` })
-    monthMap.get(m)!.count++
-  }
-  const archive: SidebarYear[] = []
-  for (const [year, monthMap] of [...archiveMap.entries()].sort((a, b) => b[0].localeCompare(a[0]))) {
-    const months: SidebarMonth[] = []
-    for (const [month, info] of [...monthMap.entries()].sort((a, b) => b[0] - a[0])) {
-      months.push({
-        month,
-        label: isEn
-          ? new Date(parseInt(year), month - 1, 1).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
-          : `${year}年${month}月`,
-        path: info.path,
-        count: info.count,
-      })
-    }
-    archive.push({ year: parseInt(year), months })
-  }
-
-  return { latest, categories, archive, stats: { total: articles.length } }
-}
-
 const sidebarData = {
-  zh: buildSidebarData(zhArticles, '/space-news/', 'zh'),
-  en: buildSidebarData(enArticles, '/en/space-news/', 'en'),
+  zh: buildSidebarData(zhArticles, '/space-news/', 'zh', categoryMeta),
+  en: buildSidebarData(enArticles, '/en/space-news/', 'en', categoryMeta),
 }
 
 fs.writeFileSync(

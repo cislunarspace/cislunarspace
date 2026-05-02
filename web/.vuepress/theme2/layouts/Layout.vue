@@ -112,8 +112,7 @@
 </style>
 
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, computed, watch, nextTick } from 'vue'
-import { usePage } from 'vuepress/client'
+import { onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
@@ -129,23 +128,14 @@ import {
   startTableEnhanceObserver,
   teardownTableToolbar,
 } from '../composables/useTableEnhance'
-import { LayoutTypes } from '../utils/layout-types'
+import { useLayoutType, useIsLayout, LayoutTypes } from '../composables/useLayoutType'
 
 const route = useRoute()
-const page = usePage()
 
-const pageLayout = computed(() => String(page.value.frontmatter?.layout || ''))
-
-const isSpaceNews = computed(() => {
-  const layout = pageLayout.value
-  return layout === LayoutTypes.SpaceNewsHome
-    || layout === LayoutTypes.SpaceNewsArticle
-    || layout === LayoutTypes.SpaceNewsArchive
-})
-
-const isOrbitSim = computed(() => pageLayout.value === LayoutTypes.OrbitSimLab)
-
-const isForum = computed(() => pageLayout.value === LayoutTypes.Forum)
+const pageLayout = useLayoutType()
+const isSpaceNews = useIsLayout([LayoutTypes.SpaceNewsHome, LayoutTypes.SpaceNewsArticle, LayoutTypes.SpaceNewsArchive])
+const isOrbitSim = useIsLayout(LayoutTypes.OrbitSimLab)
+const isForum = useIsLayout(LayoutTypes.Forum)
 
 function runTableEnhance() {
   const run = () => {
