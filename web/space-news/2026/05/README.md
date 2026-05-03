@@ -39,8 +39,10 @@ wechatShare:
 | 5-02 | [ESA太空骑行器全尺寸试验模型完成组装](./2026-05-02-esa-space-rider/) |
 | 5-02 | [国家航天局召开商业航天高质量发展企业圆桌会议](./2026-05-02-cnsa-commercial-space-meeting/) |
 | 5-02 | [SpaceX IPO注册文件曝光：星舰项目累计投入超150亿美元](./2026-05-02-spacex-starship-150b-ipo/) |
-|| 5-03 | [神舟二十三号发射在即：航天员在轨超500天，商业航天再添新动态](./2026-05-03-shenzhou-23-launch-preparations/) |
-|| 5-03 | [巴基斯坦航天员身穿中国航天服照片曝光："飞天"舱内服帅气亮相](./2026-05-03-pakistan-astronauts-chinese-space-suits/) |
+| 5-03 | [神舟二十三号发射在即：航天员在轨超500天，商业航天再添新动态](./2026-05-03-shenzhou-23-launch-preparations/) |
+| 5-03 | [巴基斯坦航天员身着中国飞天舱内航天服亮相，中巴携手叩问苍穹](./2026-05-03-pakistan-astronauts-chinese-space-suits/) |
+| 5-03 | [SpaceX全舰队火箭回收突破600次，累计节省成本约168亿美元](./2026-05-03-spacex-607-recoveries-cost-savings/) |
+| 5-03 | [海南商业航天发射场二期加速冲刺：3号工位进度超80%，年发射能力瞄准60发](./2026-05-03-hainan-commercial-spaceport-phase2-progress/) |
 | 5-01 | [NASA肯尼迪航天中心主任珍妮特·佩特罗宣布退休计划](./2026-05-01-nasa-kennedy-director-retirement/) |
 | 5-01 | [NASA阿尔忒弥斯2号航天员敲响纳斯达克收市钟](./2026-05-01-artemis-ii-nasdaq-closing-bell/) |
 | 5-01 | [海南商业航天发射场二期建设进入冲刺阶段，3号工位进度超80%](./2026-05-01-hainan-commercial-spaceport-phase2/) |
