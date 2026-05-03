@@ -35,7 +35,7 @@ wechatShare:
 | 5-03 | [神舟二十三号发射在即：航天员在轨超500天，商业航天再添新动态](./2026-05-03-shenzhou-23-launch-preparations/) |
 | 5-03 | [SpaceX全舰队火箭回收突破600次，累计节省成本约168亿美元](./2026-05-03-spacex-607-recoveries-cost-savings/) |
 | 5-03 | [80名德州居民起诉SpaceX火箭音爆损害房屋，索赔数百万美元](./2026-05-03-spacex-texas-sonic-boom-lawsuit/) |
-| 5-03 | [特朗普新财年预算提议削减NASA 24%，SLS/猎户座项目面临取消](./2026-05-03-trump-nasa-budget-cuts/) |
+| 5-03 | [SpaceX猎鹰九号成功发射韩国CAS500-2地球观测卫星](./2026-05-03-cas500-2-falcon-9-vandenberg-launch/) | SpaceX, Launch, Commercial |
 | 5-02 | [SpaceX 猎鹰9号废弃上面级撞击月球：8月5日预计撞击爱因斯坦环形山，太空碎片管理敲响警钟](./2026-05-02-falcon9-derelict-moon-impact/) |
 | 5-02 | [蓝色起源启动「新格伦」火箭Quattro第二级升级项目，9x4超级重型构型最快明年亮相](./2026-05-02-blue-origin-quattro-upgrade/) |
 | 5-02 | [NASA罗曼空间望远镜组装完成，计划9月发射](./2026-05-02-nasa-roman-telescope/) |
