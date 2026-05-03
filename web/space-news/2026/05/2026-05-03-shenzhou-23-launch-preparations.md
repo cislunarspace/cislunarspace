@@ -7,15 +7,11 @@ author: 天疆说
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: [china, human-spaceflight, commercial-space]
-image: ./figures/2026-05-03-shenzhou-23-launch-preparations/hero.png
 ---
 
 # 神舟二十三号发射在即：SpaceX猎鹰重型执行任务，商业航天再添新动态
 
 **摘要：** 2026年5月3日，中国载人航天工程传来多项最新进展。神舟二十一号指令长张陆在轨累计时间已超过500天，刷新中国航天员在轨纪录，计划于本月返回地球。与此同时，神舟二十三号载人飞船各项发射准备工作进入最后冲刺阶段，发射场工位与塔架建设传来新消息。此外，SpaceX使用猎鹰重型火箭成功执行ViaSat-3 F3通信卫星发射任务，全球商业航天持续保持活跃态势。
-
-![神舟飞船与长征二号F运载火箭对接示意图](./figures/2026-05-03-shenzhou-23-launch-preparations/hero.png)
-*图为长征二号F火箭发射前的雄姿，来源：载人航天工程办公室*
 
 ## 神舟二十一号：航天员张陆在轨超500天，本月即将返回
 

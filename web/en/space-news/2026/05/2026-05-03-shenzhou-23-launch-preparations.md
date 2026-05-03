@@ -7,7 +7,6 @@ author: Tianjiangshuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: [china, human-spaceflight, commercial-space]
-image: ./figures/2026-05-03-shenzhou-23-launch-preparations/hero.png
 ---
 
 # Shenzhou-23 Countdown: China's Space Station Crew Milestone, Global Launch Updates

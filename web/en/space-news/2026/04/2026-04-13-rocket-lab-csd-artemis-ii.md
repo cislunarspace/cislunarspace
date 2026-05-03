@@ -7,7 +7,6 @@ author: Tianjiangshuo
 date: 2026-04-13
 lastUpdated: 2026-04-13
 category: [commercial, artemis]
-image: ./figures/rocket-lab-csd-artemis-ii/hero.jpg
 tags: [Rocket Lab, CSD, CubeSat, Artemis II, NASA, KASA]
 wechatShare:
   title: "Rocket Lab CSD Satellite Dispensers Successfully Deploy CubeSats on Artemis II"
@@ -19,7 +18,6 @@ wechatShare:
 
 **Summary:** On April 13, 2026, Rocket Lab announced that its Canisterized Satellite Dispensers (CSD) played a critical role in NASA's Artemis II mission, successfully deploying 4 CubeSats into high Earth orbit at altitudes reaching up to 40,000 km. The CubeSats were released approximately 5 hours after the SLS rocket's upper stage separated from the Orion spacecraft, providing crucial technology demonstrations for future lunar and deep space exploration missions.
 
-![SLS upper stage separating from Orion spacecraft on Artemis II mission with Rocket Lab CSD visible (NASA image)](./figures/rocket-lab-csd-artemis-ii/hero.jpg)
 *Credit: NASA*
 
 ## Mission Details
