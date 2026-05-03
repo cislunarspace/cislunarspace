@@ -7,20 +7,16 @@ author: 天疆说
 date: 2026-04-13
 lastUpdated: 2026-04-13
 category: [commercial, artemis]
-image: ./figures/rocket-lab-csd-artemis-ii/hero.jpg
 tags: [Rocket Lab, CSD, CubeSat, Artemis II, NASA, KASA]
 wechatShare:
   title: "Rocket Lab卫星分离系统成功助力Artemis II立方星部署"
   desc: "Rocket Lab公司的 canisterized Satellite Dispensers（CSD）卫星分离系统在Artemis II任务中成功部署4颗立方星，包括韩国KASA的K-Rad Cube，运行轨道最高达4万公里。"
-  image: "./figures/rocket-lab-csd-artemis-ii/hero.jpg"
 ---
 
 # Rocket Lab卫星分离系统成功助力Artemis II立方星部署
 
 **摘要：** 2026年4月13日，Rocket Lab公司宣布，其 canisterized Satellite Dispensers（CSD）卫星分离系统在Artemis II任务中发挥了关键作用，成功将4颗立方星部署至高地球轨道，最高运行高度达4万公里。这些立方星在SLS火箭上面级与猎户座飞船分离后约5小时部署，为未来月球及深空探测任务提供了重要的技术验证。
 
-![Artemis II任务中SLS上面级与猎户座飞船分离（Rocket Lab CSD部署其中）（NASA图片）](./figures/rocket-lab-csd-artemis-ii/hero.jpg)
-*图片来源：NASA*
 
 ## 任务详情
 
