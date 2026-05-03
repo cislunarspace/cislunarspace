@@ -4538,133 +4538,13 @@
       },
       {
         "category": "动力学与数学基础",
-        "slug": "a-star-search",
-        "zhTitle": "A*搜索算法（A* Search）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "bang-bang-control",
-        "zhTitle": "Bang-bang控制（Bang-bang Control）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "barycentric-synodic",
-        "zhTitle": "质心会合坐标系（Barycentric Synodic Coordinate System）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "batch-deployment",
-        "zhTitle": "批量部署（Batch Deployment）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "co-state-normalization",
-        "zhTitle": "协态归一化（Co-state Normalization）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "coasting-arc",
-        "zhTitle": "滑行弧（Coasting Arc）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "cooperative-agent",
-        "zhTitle": "合作代理（Cooperative Agent, CA）"
-      },
-      {
-        "category": "动力学与数学基础",
         "slug": "ddpg",
         "zhTitle": "深度确定性策略梯度（Deep Deterministic Policy Gradient, DDPG）"
       },
       {
         "category": "动力学与数学基础",
-        "slug": "differential-games",
-        "zhTitle": "微分对策（Differential Games）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "dynamic-programming",
-        "zhTitle": "动态规划（Dynamic Programming）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "equinoctial-elements",
-        "zhTitle": "春分点轨道根数（Equinoctial Orbital Elements）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "grc",
-        "zhTitle": "地心瞬时会合坐标系（Geocentric Rotating Coordinate System, GRC）"
-      },
-      {
-        "category": "动力学与数学基础",
         "slug": "hcpso",
         "zhTitle": "混合聚类粒子群优化（Hybrid Cluster Particle Swarm Optimization, HCPSO）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "heteroclinic-orbit-transfer",
-        "zhTitle": "异宿轨道转移（Heteroclinic Orbit Transfer）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "homotopy-method",
-        "zhTitle": "同伦法（Homotopy Method）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "improved-baseline-control-point",
-        "zhTitle": "改进的基准轨迹靶点法（Improved Baseline Control-Point Method）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "invariant-manifold",
-        "zhTitle": "不变流形（Invariant Manifold）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "j2000-coordinate",
-        "zhTitle": "地心赤道惯性坐标系（J2000 Geocentric Equatorial Coordinate System）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "k-means",
-        "zhTitle": "K-Means聚类（K-Means Clustering）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "k-medoids",
-        "zhTitle": "K-Medoids聚类（K-Medoids Clustering）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "kdtrees",
-        "zhTitle": "K维树（KD-Tree）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "libration-spacecraft-body-coordinate",
-        "zhTitle": "平动点飞行器本体坐标系（Libration Point Spacecraft Body Coordinate System）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "libration-spacecraft-orbital-coordinate",
-        "zhTitle": "平动点飞行器轨道坐标系（Libration Point Spacecraft Orbital Coordinate System）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "lindstedt-poincare",
-        "zhTitle": "Lindstedt-Poincare法（Lindstedt-Poincare Method）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "lrc",
-        "zhTitle": "L2点瞬时会合坐标系（L2-centered Rotating Coordinate System, LRC）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "mass-discontinuity",
-        "zhTitle": "质量阶跃（Mass Discontinuity）"
       },
       {
         "category": "动力学与数学基础",
@@ -5649,6 +5529,19 @@
         }
       },
       {
+        "slug": "a-star-search",
+        "title": "A* Search Algorithm (A* Search)",
+        "path": "/en/glossary/dynamics/a-star-search/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
         "slug": "a2ppo",
         "title": "A2PPO (Attention-Augmented Proximal Policy Optimization)",
         "path": "/en/glossary/dynamics/a2ppo/",
@@ -5691,6 +5584,45 @@
         "slug": "backward-stability-set",
         "title": "Backward Stability Set",
         "path": "/en/glossary/dynamics/backward-stability-set/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "bang-bang-control",
+        "title": "Bang-bang Control (Bang-bang Control)",
+        "path": "/en/glossary/dynamics/bang-bang-control/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "barycentric-synodic",
+        "title": "Barycentric Synodic Coordinate System",
+        "path": "/en/glossary/dynamics/barycentric-synodic/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "batch-deployment",
+        "title": "Batch Deployment (Batch Deployment)",
+        "path": "/en/glossary/dynamics/batch-deployment/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5792,6 +5724,32 @@
         }
       },
       {
+        "slug": "co-state-normalization",
+        "title": "Co-state Normalization (Co-state Normalization)",
+        "path": "/en/glossary/dynamics/co-state-normalization/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "coasting-arc",
+        "title": "Coasting Arc (Coasting Arc)",
+        "path": "/en/glossary/dynamics/coasting-arc/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
         "slug": "continuation-method",
         "title": "Continuation Method (Parameter Continuation)",
         "path": "/en/glossary/dynamics/continuation-method/",
@@ -5808,6 +5766,19 @@
         "slug": "continuation",
         "title": "Continuation (延拓)",
         "path": "/en/glossary/dynamics/continuation/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "cooperative-agent",
+        "title": "Cooperative Agent (CA)",
+        "path": "/en/glossary/dynamics/cooperative-agent/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5896,9 +5867,35 @@
         }
       },
       {
+        "slug": "differential-games",
+        "title": "Differential Games (Differential Games)",
+        "path": "/en/glossary/dynamics/differential-games/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
         "slug": "direct-collocation",
         "title": "Direct Collocation",
         "path": "/en/glossary/dynamics/direct-collocation/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "dynamic-programming",
+        "title": "Dynamic Programming (Dynamic Programming)",
+        "path": "/en/glossary/dynamics/dynamic-programming/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5925,6 +5922,19 @@
         "slug": "ephemeris-model",
         "title": "Ephemeris Model",
         "path": "/en/glossary/dynamics/ephemeris-model/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "equinoctial-elements",
+        "title": "Equinoctial Orbital Elements (Equinoctial Orbital Elements)",
+        "path": "/en/glossary/dynamics/equinoctial-elements/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5974,9 +5984,61 @@
         }
       },
       {
+        "slug": "grc",
+        "title": "Geocentric Rotating Coordinate System (GRC)",
+        "path": "/en/glossary/dynamics/grc/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "heteroclinic-orbit-transfer",
+        "title": "Heteroclinic Orbit Transfer (Heteroclinic Orbit Transfer)",
+        "path": "/en/glossary/dynamics/heteroclinic-orbit-transfer/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
         "slug": "hill-three-body",
         "title": "Hill Three-Body Problem",
         "path": "/en/glossary/dynamics/hill-three-body/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "homotopy-method",
+        "title": "Homotopy Method (Homotopy Method)",
+        "path": "/en/glossary/dynamics/homotopy-method/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "improved-baseline-control-point",
+        "title": "Improved Baseline Control-Point Method (Improved Baseline Control-Point Method)",
+        "path": "/en/glossary/dynamics/improved-baseline-control-point/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -6013,9 +6075,74 @@
         }
       },
       {
+        "slug": "invariant-manifold",
+        "title": "Invariant Manifold (Invariant Manifold)",
+        "path": "/en/glossary/dynamics/invariant-manifold/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "j2000-coordinate",
+        "title": "J2000 Geocentric Equatorial Coordinate System (J2000 Geocentric Equatorial Coordinate System)",
+        "path": "/en/glossary/dynamics/j2000-coordinate/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
         "slug": "jacobi-integral",
         "title": "Jacobi Constant (Jacobi Integral)",
         "path": "/en/glossary/dynamics/jacobi-integral/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "k-means",
+        "title": "K-Means Clustering (K-Means Clustering)",
+        "path": "/en/glossary/dynamics/k-means/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "k-medoids",
+        "title": "K-Medoids Clustering (K-Medoids Clustering)",
+        "path": "/en/glossary/dynamics/k-medoids/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "kdtrees",
+        "title": "KD-Tree (KD-Tree)",
+        "path": "/en/glossary/dynamics/kdtrees/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -6039,9 +6166,74 @@
         }
       },
       {
+        "slug": "libration-spacecraft-body-coordinate",
+        "title": "Libration Point Spacecraft Body Coordinate System (Libration Point Spacecraft Body Coordinate System)",
+        "path": "/en/glossary/dynamics/libration-spacecraft-body-coordinate/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "libration-spacecraft-orbital-coordinate",
+        "title": "Libration Point Spacecraft Orbital Coordinate System (Libration Point Spacecraft Orbital Coordinate System)",
+        "path": "/en/glossary/dynamics/libration-spacecraft-orbital-coordinate/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "lindstedt-poincare",
+        "title": "Lindstedt-Poincare Method (Lindstedt-Poincare Method)",
+        "path": "/en/glossary/dynamics/lindstedt-poincare/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "lrc",
+        "title": "L2-centered Rotating Coordinate System (L2-centered Rotating Coordinate System, LRC)",
+        "path": "/en/glossary/dynamics/lrc/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
         "slug": "lt-transfer-mdp",
         "title": "Low-Thrust Transfer MDP Formulation",
         "path": "/en/glossary/dynamics/lt-transfer-mdp/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & Math"
+          },
+          "order": 2
+        }
+      },
+      {
+        "slug": "mass-discontinuity",
+        "title": "Mass Discontinuity (Mass Discontinuity)",
+        "path": "/en/glossary/dynamics/mass-discontinuity/",
         "category": {
           "slug": "dynamics",
           "label": {
