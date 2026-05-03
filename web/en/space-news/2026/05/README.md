@@ -18,6 +18,7 @@ lastUpdated: 2026-05-01
 | 2026-04-28 | [Long March 10-Yi Rocket Successful Maiden Flight, Tests World's First Marine Flexible Net Recovery Technology](./2026-05-01-changzheng-10-yi-maiden-launch/) | China Space, Launches |
 | 2026-05-01 | [Artemis III Core Stage Arrives at Kennedy, SLS Rocket Enters Final Assembly Phase](./2026-05-01-artemis-3-core-stage-arrives-ksc/) | Artemis |
 | 2026-05-01 | [First Foreign Astronauts Announced: Two Pakistani Astronauts Begin Training at China's Space Program](./2026-05-01-pakistan-astronauts-china-training/) | China Space, Space Station |
+| 2026-05-03 | [Pakistani Astronauts Debut in Chinese Feitian Spacesuits, First Photos Released](./2026-05-03-pakistan-astronauts-chinese-space-suits/) | China Space, Space Station |
 | 2026-05-01 | [Dahang Yuetqian Raises 500 Million RMB in New Funding Round to Accelerate Reusable Rocket Development](./2026-05-01-dahang-yueqian-500m-funding/) | China Space, Commercial Space |
 | 2026-05-01 | [Russia Conducts First Launch of Soyuz-5 Rocket from Baikonur](./2026-05-01-soyuz-5-maiden-launch/) | Launches |
 | 2026-05-01 | [China's Wukong Satellite Reveals Key Mechanism of Cosmic Ray Acceleration](./2026-05-01-wukong-cosmic-ray-mechanism/) | China Space, Science |
@@ -30,6 +31,7 @@ lastUpdated: 2026-05-01
 | 2026-05-02 | [ESA Completes First Full-Size Space Rider Test Model Assembly](./2026-05-02-esa-space-rider/) | ESA |
 | 2026-05-02 | [CNSA Hosts Commercial Space High-Quality Development Enterprise Roundtable](./2026-05-02-cnsa-commercial-space-meeting/) | China Space, Policy |
 | 2026-05-02 | [SpaceX IPO Filing Reveals Over $15B Invested in Starship, $1.75T Valuation](./2026-05-02-spacex-starship-150b-ipo/) | SpaceX, Commercial Space |
+| 2026-05-03 | [Trump Administration Proposes 24% NASA Budget Cut, Largest Single-Year Reduction in Agency History](./2026-05-03-trump-nasa-budget-cuts/) | NASA, Space Policy |
 | 2026-05-03 | [Shenzhou-23 Countdown: Commander Zhang Lu Surpasses 500 Days in Orbit, Launch Imminent](./2026-05-03-shenzhou-23-launch-preparations/) | China Space, Space Station |
 | 2026-05-01 | [NASA Kennedy Space Center Director Janet Petro Announces Retirement Plans](./2026-05-01-nasa-kennedy-director-retirement/) | NASA |
 | 2026-05-01 | [NASA Artemis II Crew Rings Nasdaq Closing Bell](./2026-05-01-artemis-ii-nasdaq-closing-bell/) | Artemis |
