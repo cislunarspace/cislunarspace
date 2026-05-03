@@ -35,6 +35,7 @@ lastUpdated: 2026-05-01
 | 2026-05-03 | [Shenzhou-23 Countdown: Commander Zhang Lu Surpasses 500 Days in Orbit, Launch Imminent](./2026-05-03-shenzhou-23-launch-preparations/) | China Space, Space Station |
 | 2026-05-03 | [SpaceX Fleet Surpasses 600 Rocket Recoveries, Saving Approximately $16.8 Billion in Costs](./2026-05-03-spacex-607-recoveries-cost-savings/) | SpaceX |
 | 2026-05-03 | [Hainan Commercial Spaceport Phase II Accelerates: No. 3 Pad 80%+ Complete, Targeting 60 Annual Launches](./2026-05-03-hainan-commercial-spaceport-phase2-progress/) | China Space, Commercial Space |
+| 2026-05-03 | [80 Texas Residents Sue SpaceX Over Rocket Sonic Boom Property Damage, Seeking Millions in Compensation](./2026-05-03-spacex-texas-sonic-boom-lawsuit/) | SpaceX |
 | 2026-05-01 | [NASA Kennedy Space Center Director Janet Petro Announces Retirement Plans](./2026-05-01-nasa-kennedy-director-retirement/) | NASA |
 | 2026-05-01 | [NASA Artemis II Crew Rings Nasdaq Closing Bell](./2026-05-01-artemis-ii-nasdaq-closing-bell/) | Artemis |
 | 2026-05-01 | [Hainan Commercial Spaceport Phase II Enters Final Sprint, Launch Pad 3 Over 80% Complete](./2026-05-01-hainan-commercial-spaceport-phase2/) | China Space, Commercial Space |

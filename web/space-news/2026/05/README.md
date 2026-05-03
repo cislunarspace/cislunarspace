@@ -43,6 +43,7 @@ wechatShare:
 | 5-03 | [巴基斯坦航天员身着中国飞天舱内航天服亮相，中巴携手叩问苍穹](./2026-05-03-pakistan-astronauts-chinese-space-suits/) |
 | 5-03 | [SpaceX全舰队火箭回收突破600次，累计节省成本约168亿美元](./2026-05-03-spacex-607-recoveries-cost-savings/) |
 | 5-03 | [海南商业航天发射场二期加速冲刺：3号工位进度超80%，年发射能力瞄准60发](./2026-05-03-hainan-commercial-spaceport-phase2-progress/) |
+| 5-03 | [80名德州居民起诉SpaceX火箭音爆损害房屋，索赔数百万美元](./2026-05-03-spacex-texas-sonic-boom-lawsuit/) |
 | 5-01 | [NASA肯尼迪航天中心主任珍妮特·佩特罗宣布退休计划](./2026-05-01-nasa-kennedy-director-retirement/) |
 | 5-01 | [NASA阿尔忒弥斯2号航天员敲响纳斯达克收市钟](./2026-05-01-artemis-ii-nasdaq-closing-bell/) |
 | 5-01 | [海南商业航天发射场二期建设进入冲刺阶段，3号工位进度超80%](./2026-05-01-hainan-commercial-spaceport-phase2/) |
