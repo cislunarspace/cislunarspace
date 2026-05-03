@@ -30,6 +30,7 @@ lastUpdated: 2026-05-01
 | 2026-05-02 | [ESA Completes First Full-Size Space Rider Test Model Assembly](./2026-05-02-esa-space-rider/) | ESA |
 | 2026-05-02 | [CNSA Hosts Commercial Space High-Quality Development Enterprise Roundtable](./2026-05-02-cnsa-commercial-space-meeting/) | China Space, Policy |
 | 2026-05-02 | [SpaceX IPO Filing Reveals Over $15B Invested in Starship, $1.75T Valuation](./2026-05-02-spacex-starship-150b-ipo/) | SpaceX, Commercial Space |
+| 2026-05-03 | [Shenzhou-23 Countdown: Commander Zhang Lu Surpasses 500 Days in Orbit, Launch Imminent](./2026-05-03-shenzhou-23-launch-preparations/) | China Space, Space Station |
 | 2026-05-01 | [NASA Kennedy Space Center Director Janet Petro Announces Retirement Plans](./2026-05-01-nasa-kennedy-director-retirement/) | NASA |
 | 2026-05-01 | [NASA Artemis II Crew Rings Nasdaq Closing Bell](./2026-05-01-artemis-ii-nasdaq-closing-bell/) | Artemis |
 | 2026-05-01 | [Hainan Commercial Spaceport Phase II Enters Final Sprint, Launch Pad 3 Over 80% Complete](./2026-05-01-hainan-commercial-spaceport-phase2/) | China Space, Commercial Space |
