@@ -15,6 +15,8 @@ lastUpdated: 2026-05-05
 | 2026-05-04 | [Malta Becomes 65th Artemis Accords Signatory, Joining NASA's Lunar Coalition](./2026-05-04-malta-artemis-accords/) | Artemis |
 | 2026-05-04 | [Ireland Becomes 66th Artemis Accords Signatory, Joining NASA's Lunar Coalition](./2026-05-04-ireland-artemis-accords/) | Artemis |
 | 2026-05-04 | [NASA's LAGEOS-1 Celebrates 50 Years in Earth Orbit: A Legacy of Geodynamic Science](./2026-05-04-nasa-lageos-50th-anniversary/) | NASA |
+| 2026-05-04 | [Lockheed Martin Joins Firefly Aerospace and Seagate Space for Offshore Launch Collaboration](./2026-05-04-lockheed-firefly-offshore-launch/) | Commercial Space |
+
 
 | 2026-05-04 | [NASA Fosters Lunar Resource-Seeking Technologies for Sustainable Deep Space Exploration](./2026-05-04-nasa-lunar-resource-technologies/) | NASA |
 
