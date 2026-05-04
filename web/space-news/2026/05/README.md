@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-04
+lastUpdated: 2026-05-05
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -21,6 +21,7 @@ wechatShare:
 | 5-04 | [富士康二代低轨卫星成功发射，珍珠1A/1B进入预定轨道](./2026-05-04-foxconn-pearl-leo-satellite-launch/) |
 | 5-04 | [韦布望远镜首次直接研究系外行星表面：发现黑暗灼热岩石](./2026-05-04-jwst-exoplanet-surface/) |
 | 5-04 | [马耳他签署《阿尔忒弥斯协定》，成为第65个签约国](./2026-05-04-malta-artemis-accords/) |
+| 5-04 | [爱尔兰签署《阿尔忒弥斯协定》，成为第66个签约国](./2026-05-04-ireland-artemis-accords/) |
 | 5-04 | [NASA LAGEOS-1卫星在轨50年：最古老的人类航天器仍在服役](./2026-05-04-nasa-lageos-50th-anniversary/) |
 
 | 5-04 | [NASA推进月球资源提取技术研发，为可持续深空探测铺路](./2026-05-04-nasa-lunar-resource-technologies/) |

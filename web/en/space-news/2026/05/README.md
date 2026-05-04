@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-04
+lastUpdated: 2026-05-05
 ---
 
 # May 2026 · Space News
@@ -13,6 +13,7 @@ lastUpdated: 2026-05-04
 | 2026-05-04 | [Blue Origin's Blue Moon Mark 1 Completes NASA Thermal Vacuum Testing](./2026-05-04-blue-origin-mk1-vacuum-testing/) | Blue Origin |
 | 2026-05-04 | [JWST Makes First Direct Observation of an Exoplanet Surface: A Dark, Hot, Barren Rock](./2026-05-04-jwst-exoplanet-surface/) | Science |
 | 2026-05-04 | [Malta Becomes 65th Artemis Accords Signatory, Joining NASA's Lunar Coalition](./2026-05-04-malta-artemis-accords/) | Artemis |
+| 2026-05-04 | [Ireland Becomes 66th Artemis Accords Signatory, Joining NASA's Lunar Coalition](./2026-05-04-ireland-artemis-accords/) | Artemis |
 | 2026-05-04 | [NASA's LAGEOS-1 Celebrates 50 Years in Earth Orbit: A Legacy of Geodynamic Science](./2026-05-04-nasa-lageos-50th-anniversary/) | NASA |
 
 | 2026-05-04 | [NASA Fosters Lunar Resource-Seeking Technologies for Sustainable Deep Space Exploration](./2026-05-04-nasa-lunar-resource-technologies/) | NASA |
