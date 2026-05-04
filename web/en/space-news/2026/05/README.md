@@ -11,6 +11,7 @@ lastUpdated: 2026-05-04
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-04 | [Blue Origin's Blue Moon Mark 1 Completes NASA Thermal Vacuum Testing](./2026-05-04-blue-origin-mk1-vacuum-testing/) | Blue Origin |
+| 2026-05-04 | [JWST Makes First Direct Observation of an Exoplanet Surface: A Dark, Hot, Barren Rock](./2026-05-04-jwst-exoplanet-surface/) | Science |
 | 2026-05-04 | [Foxconn's Second-Generation LEO Satellites Successfully Launched, PEARL-1A and PEARL-1B Enter Predetermined Orbits](./2026-05-04-foxconn-pearl-leo-satellite-launch/) | Commercial Space |
 | 2026-05-03 | [Shenzhou-21 Crew Marks Six Months on China's Space Station, Brain-Computer Experiments Advance](./2026-05-03-shenzhou-21-six-months-station/) | China Space, Space Station |
 | 2026-05-03 | [Dahang Yaqian Raises 500M RMB Series A to Accelerate China's First Tower-Capture Reusable Rocket](./2026-05-03-dahang-yueqian-500m-funding/) | China Space, Commercial Space |
