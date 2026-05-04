@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-01
+lastUpdated: 2026-05-04
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -18,6 +18,8 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 5-04 | [富士康二代低轨卫星成功发射，珍珠1A/1B进入预定轨道](./2026-05-04-foxconn-pearl-leo-satellite-launch/) |
+| 5-03 | [神舟二十一号乘组在轨六个月，脑电测试等科学实验有序推进](./2026-05-03-shenzhou-21-six-months-station/) |
+| 5-03 | [大航跃迁完成5亿元A轮融资，加速首款塔架回收火箭「跃迁一号」研制](./2026-05-03-dahang-yueqian-500m-funding/) |
 | 5-03 | [SpaceX猎鹰九号成功发射韩国CAS500-2地球观测卫星](./2026-05-03-cas500-2-falcon-9-vandenberg-launch/) |
 | 5-03 | [SpaceX全舰队火箭回收突破600次，累计节省成本约168亿美元](./2026-05-03-spacex-607-recoveries-cost-savings/) |
 | 5-03 | [巴基斯坦航天员首次穿中国飞天舱内服亮相](./2026-05-03-pakistan-astronauts-chinese-space-suits/) |
