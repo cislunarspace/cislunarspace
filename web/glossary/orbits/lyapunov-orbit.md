@@ -1,7 +1,7 @@
 ---
 title: Lyapunov 轨道（Lyapunov Orbit）
-description: 详细解析Lyapunov轨道的定义、平面周期特性、与Halo轨道的关系及其在平动点动力学研究中的基础作用
-keywords: Lyapunov轨道, Lyapunov Orbit, 平动点, 平面周期轨道, Halo轨道, 三体问题, 轨道动力学
+description: 详细解析Lyapunov轨道的定义、平面周期特性、L1/L2/L3分类、与Halo轨道的关系及其在平动点动力学研究中的基础作用
+keywords: Lyapunov轨道, Lyapunov Orbit, 平动点, L1, L2, L3, 平面周期轨道, Halo轨道, 三体问题, 轨道动力学
 author: 天疆说
 date: 2026-04-29
 lastUpdated: 2026-04-29
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Lyapunov 轨道（Lyapunov Orbit）详解 | 平动点平面周期轨道
-  description: 详细解析Lyapunov轨道的定义、平面周期特性、与Halo轨道的关系及其在平动点动力学研究中的基础作用
+  description: 详细解析Lyapunov轨道的定义、平面周期特性、L1/L2/L3分类、与Halo轨道的关系及其在平动点动力学研究中的基础作用
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Lyapunov 轨道（Lyapunov Orbit）详解 | 平动点平面周期轨道
-  description: 详细解析Lyapunov轨道的定义、平面周期特性、与Halo轨道的关系及其在平动点动力学研究中的基础作用
+  description: 详细解析Lyapunov轨道的定义、平面周期特性、L1/L2/L3分类、与Halo轨道的关系及其在平动点动力学研究中的基础作用
   image: /logo.png
 permalink: /glossary/orbits/lyapunov-orbit/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/lyapunov-orbit/
 
 ## 定义
 
-Lyapunov 轨道（Lyapunov Orbit）是**位于平动点附近平面内的周期轨道族**，以俄国数学家亚历山大·李雅普诺夫（Aleksandr Lyapunov）命名。Lyapunov 轨道是 Halo 轨道在平面内的对应——当 Halo 轨道的 $z$ 方向振幅趋于零时，三维的 Halo 轨道退化为平面内的 Lyapunov 轨道。Lyapunov 轨道是研究平动点动力学的基础轨道，为理解更复杂的三维轨道提供了理论起点。
+Lyapunov 轨道（Lyapunov Orbit）是**位于平动点附近平面内的周期轨道族**，以俄国数学家亚历山大·李雅普诺夫（Aleksandr Lyapunov）命名。Lyapunov 轨道是 Halo 轨道在平面内的对应——当 Halo 轨道的 $z$ 方向振幅趋于零时，三维的 Halo 轨道退化为平面内的 Lyapunov 轨道。Lyapunov 轨道是研究平动点动力学的基础轨道，为理解更复杂的三维轨道提供了理论起点。Lyapunov 轨道与 Halo 轨道、垂直轨道、轴向轨道等同属平动点轨道（LPO）家族。
 
 ## 核心要素
 
@@ -44,6 +44,28 @@ Lyapunov 轨道在 CR3BP 框架下的关键特性包括：
 - **轨道形状**：在平动点附近呈近椭圆形，随着振幅增大逐渐变形，远离平动点的一侧可能变得尖锐或扭曲
 
 Lyapunov 轨道族通过 $x$ 轴上的初始位移 $x_0$（相对于平动点）参数化。当 $x_0$ 较小时，轨道接近线性化的简谐振荡；随着 $x_0$ 增大，非线性效应显著，轨道形状从椭圆逐渐偏离。
+
+### Lyapunov 轨道的分类
+
+根据地月系统中的平动点位置，Lyapunov 轨道可分为以下族：
+
+| 轨道族 | 所属平动点 | 特征 |
+|:---|:---|:---|
+| Ly1（Lyapunov L1） | L1 | 位于地月连线之间 |
+| Ly2（Lyapunov L2） | L2 | 位于月球背向地球一侧 |
+| Ly3（Lyapunov L3） | L3 | 位于地球背向月球一侧 |
+
+### 轨道参数特征
+
+以地月系统为例，Lyapunov 轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
+
+| 轨道族 | Jacobi 常数范围 | 周期范围（天） | 稳定性指数 |
+|:---|:---|:---|:---|
+| Ly1 | 约 3.188 ~ 2.124 | 中等 | 较高 |
+| Ly2 | 约 3.172 ~ 2.881 | 中等 | 较高 |
+| Ly3 | 约 2.5 | 较长 | 中等 |
+
+L1 和 L2 Lyapunov 轨道的 Jacobi 常数范围是地月空间轨道比较和选择中的重要参考基准。许多其他轨道族（如 DRO、DPO、轴向轨道等）的 Jacobi 常数若与 Lyapunov 轨道范围重叠，则暗示存在低成本的转移通道。
 
 ### Lyapunov 轨道的线性化分析
 
@@ -82,14 +104,19 @@ Lyapunov 轨道在理论研究和实际任务中均具有价值：
 - **不变流形分析**：Lyapunov 轨道的稳定和不稳定流形构成了平动点附近低能量转移通道的骨架
 - **低能量转移设计**：利用 Lyapunov 轨道的不变流形，可设计连接不同平动点区域的低能量转移轨道
 - **Poincaré 截面分析**：Lyapunov 轨道常作为 Poincaré 截面中的参考轨道，用于分析相空间的全局结构
+- **任务设计参考**：在 Guzzetti 等人提出的动态目录框架中，L1/L2 Lyapunov 轨道的 Jacobi 常数范围是评估其他轨道族可及性的重要基准
 - **教学与入门**：作为平动点轨道族中最简单的周期轨道，Lyapunov 轨道是轨道力学教学的理想起点
 
 ## 相关概念
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
+- [垂直轨道（Vertical Orbit）](/glossary/orbits/vertical-orbit/)
+- [轴向轨道（Axial Orbit）](/glossary/orbits/axial-orbit/)
+- [蝴蝶轨道（Butterfly Orbit）](/glossary/orbits/butterfly-orbit/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Szebehely V. Theory of Orbits: The Restricted Problem of Three Bodies[M]. Academic Press, 1967.
 - Gomez G, Masdemont J, Simo C. Quasihalo orbits associated with libration points[J]. Journal of the Astronautical Sciences, 1998.
+- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
