@@ -20,6 +20,7 @@ wechatShare:
 | 5-04 | [蓝色起源Blue Moon Mark 1登月器完成NASA热真空测试](./2026-05-04-blue-origin-mk1-vacuum-testing/) |
 | 5-04 | [富士康二代低轨卫星成功发射，珍珠1A/1B进入预定轨道](./2026-05-04-foxconn-pearl-leo-satellite-launch/) |
 | 5-04 | [韦布望远镜首次直接研究系外行星表面：发现黑暗灼热岩石](./2026-05-04-jwst-exoplanet-surface/) |
+| 5-04 | [马耳他签署《阿尔忒弥斯协定》，成为第65个签约国](./2026-05-04-malta-artemis-accords/) |
 | 5-03 | [神舟二十一号乘组在轨六个月，脑电测试等科学实验有序推进](./2026-05-03-shenzhou-21-six-months-station/) |
 | 5-03 | [大航跃迁完成5亿元A轮融资，加速首款塔架回收火箭「跃迁一号」研制](./2026-05-03-dahang-yueqian-500m-funding/) |
 | 5-03 | [SpaceX猎鹰九号成功发射韩国CAS500-2地球观测卫星](./2026-05-03-cas500-2-falcon-9-vandenberg-launch/) |
