@@ -1,7 +1,7 @@
 ---
 title: 远距离逆行轨道(DRO)
-description: 详细解析远距离逆行轨道(DRO)的定义、动力学特性、共振关系、稳定性分析及其在地月空间中的应用
-keywords: 远距离逆行轨道, DRO, Distant Retrograde Orbit, 地月空间轨道, 共振轨道, 轨道稳定性, 轨道设计, A2PPO, 低推力转移
+description: 详细解析远距离逆行轨道(DRO)的定义、动力学特性、共振关系、稳定性分析、操作成本及其在地月空间中的应用
+keywords: 远距离逆行轨道, DRO, Distant Retrograde Orbit, 地月空间轨道, 共振轨道, 轨道稳定性, 轨道设计, A2PPO, 低推力转移, 轨道维持
 author: 天疆说
 date: 2026-04-04
 lastUpdated: 2026-04-27
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 远距离逆行轨道(DRO)详解 | 地月空间关键任务轨道
-  description: 详细解析远距离逆行轨道(DRO)的定义、动力学特性、共振关系、稳定性分析及其在地月空间中的应用
+  description: 详细解析远距离逆行轨道(DRO)的定义、动力学特性、共振关系、稳定性分析、操作成本及其在地月空间中的应用
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 远距离逆行轨道(DRO)详解 | 地月空间关键任务轨道
-  description: 详细解析远距离逆行轨道(DRO)的定义、动力学特性、共振关系、稳定性分析及其在地月空间中的应用
+  description: 详细解析远距离逆行轨道(DRO)的定义、动力学特性、共振关系、稳定性分析、操作成本及其在地月空间中的应用
   image: /logo.png
 permalink: /glossary/orbits/dro/
 ---
@@ -30,18 +30,13 @@ permalink: /glossary/orbits/dro/
 
 ## 定义
 
-远距离逆行轨道（Distant Retrograde Orbit，DRO）是圆形限制性三体问题（CRTBP）中一类环绕月球的**稳定周期轨道**。在会合坐标系中，DRO 的运行方向与月球绕地球公转方向相反，因此称为"逆行"轨道。
-
+远距离逆行轨道（Distant Retrograde Orbit，DRO）是圆形限制性三体问题（CRTBP）中一类环绕月球的**稳定周期轨道**。在会合坐标系中，DRO 的运行方向与月球绕地球公转方向相反，因此称为"逆行"轨道。DRO 属于月心轨道（Moon-Centered Orbits）家族，与 DPO（远距离顺行轨道）、LoPO（低顺行轨道）共同构成了地月空间月心周期轨道的主要类别。
 
 ![DRO 轨道示意图](/glossary/Figures/DRO/DRO示意图.png)
 *DRO 在地月会合坐标系中的轨道形态*
 
-
-
 ![质心旋转坐标系及 DRO 轨道示意图](/glossary/Figures/DRO/质心旋转坐标系及DRO轨道示意图.png)
 *DRO 在质心旋转坐标系中的几何构型*
-
-
 
 ## 几何特征
 
@@ -67,9 +62,40 @@ DRO 存在与月球公转周期的共振关系。当 DRO 的轨道周期 $T$ 与
 
 在 CRTBP 中，DRO 关于 $x$ 轴具有动力学对称性：轨道在穿越 $x$ 轴时，仅存在 $y$ 方向速度分量 $\dot{y}_0$，而 $y$ 方向位置和 $x$、$z$ 方向速度均为零。这一对称性使得只需在 $x$ 轴上选取初始点，以 $\dot{y}_0$ 和周期 $T$ 为自由变量，通过半周期积分后校核轨道是否返回 $x$ 轴，即可迭代收敛至闭合的周期轨道。
 
+## 轨道参数特征
+
+以地月系统为例，DRO 轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
+
+| 参数 | 范围 |
+|:---|:---|
+| Jacobi 常数 | 1.4352 ~ 3.0180（均值 2.1184） |
+| 轨道周期 | 5.87 ~ 27.38 天（均值 24.63 天） |
+| 稳定性指数 | 1.0000 ~ 1.0002（均值 1.0001） |
+
+DRO 的稳定性指数极其接近 1.0，表明该轨道族具有卓越的长期稳定性，是地月空间中极少数天然稳定的周期轨道之一。
+
 ## 在星历模型中的表现
 
 在星历模型等多摄动环境下，由于天体位置随时间变化，DRO 不再保持严格周期性，而演变为在有限区域内缠绕的**准周期轨道**（Quasi-periodic Orbit），其轨迹不闭合，但整体形态保持稳定。
+
+## 操作成本分析
+
+### 从 LEO 的轨道插入
+
+从 300 km 高度的 LEO 出发，到达 DRO 的典型转移方案包括：
+
+- **直接双脉冲转移**：仅包含两次脉冲机动——一次从 LEO 出发，一次插入 DRO。直接转移的飞行时间约为 5.4 ~ 7.2 天
+- **月球借力三脉冲转移**：在 200 km 月球近地点距离处增加一次中途机动，利用月球引力辅助降低总 $\Delta V$ 成本
+
+Guzzetti 等人的研究表明，DRO 的直接插入 $\Delta V$（$\Delta V_{POI}$）在所有平动点轨道和月心轨道中属于较低水平，平均约为数百 m/s 量级。这使得 DRO 成为从 LEO 可达性较好的地月空间轨道之一。
+
+### 轨道维持成本
+
+DRO 的轨道维持成本极低：
+
+- 基于 Monte Carlo 仿真的长期维持策略评估显示，DRO 的年平均速度增量需求仅为数 m/s 量级
+- 维持机动通常在 $x$ 轴或 $xOy$ 平面穿越处实施，这些位置便于实际操作且成本接近全局最优
+- DRO 的卓越稳定性意味着即使存在初始状态误差（位置 1 km，速度 1 cm/s 标准差）和机动执行误差（1% 标准差），轨道仍能在较长时间内保持良好特性
 
 ## 应用价值
 
@@ -81,6 +107,13 @@ DRO 凭借其出色的长期稳定性（无需或仅需极少量轨道机动即�
 - **物资储备与战略驻留**
 
 NASA 的月球轨道器（LRO）任务已验证了 DRO 在月球探测中的应用价值。近年有学者提出，具备 $z$ 方向振幅的非平面 DRO 可规避日食，进一步提升观测器效能。
+
+在 Guzzetti 等人提出的动态目录框架中，DRO 被列为月球附近长期空间基础设施的优选候选轨道，主要优势包括：
+
+- **有利的几何构型**：靠近月球，便于支持月球表面操作和通信
+- **低维持成本**：卓越的稳定性使得轨道维持预算极小
+- **低插入成本**：从 LEO 的直接转移 $\Delta V$ 较低
+- **可及性**：飞行时间适中（约 5.4 ~ 7.2 天），适合载人任务
 
 ## 在 A2PPO 低推力转移研究中的应用
 
@@ -96,6 +129,8 @@ NRHO 与 DRO 之间的转移设计是低推力轨迹优化中的难题：两种�
 ## 相关概念
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
+- [远距离顺行轨道（DPO）](/glossary/orbits/dpo/)
+- [低顺行轨道（LoPO）](/glossary/orbits/lopo/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [星历模型](/glossary/dynamics/ephemeris-model/)
 - [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
@@ -124,7 +159,6 @@ NRHO 与 DRO 之间的转移设计是低推力轨迹优化中的难题：两种�
 - **延拓方法**：从 1:1 共振小振幅 DRO 延拓至高阶共振大振幅 DRO
 - **星历模型转换**：通过二级微分修正法将 CR3BP 轨道转换至星历模型
 
-
 ## 参考文献
 
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. 2016.
@@ -133,3 +167,5 @@ NRHO 与 DRO 之间的转移设计是低推力轨迹优化中的难题：两种�
 - Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. 2026.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
 - Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
+- Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.

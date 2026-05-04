@@ -1,7 +1,7 @@
 ---
 title: Halo 轨道（Halo Orbit）
-description: 详细解析Halo轨道的定义、动力学特性、在平动点附近的三维周期运动及其在地月空间任务中的应用
-keywords: Halo轨道, Halo Orbit, 平动点, L1点, L2点, 三体问题, 地月空间, Gateway, 轨道设计
+description: 详细解析Halo轨道的定义、动力学特性、在平动点附近的三维周期运动、L1/L2/L3分类及其在地月空间任务中的应用
+keywords: Halo轨道, Halo Orbit, 平动点, L1点, L2点, L3点, 三体问题, 地月空间, Gateway, 轨道设计
 author: 天疆说
 date: 2026-04-29
 lastUpdated: 2026-04-29
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Halo 轨道（Halo Orbit）详解 | 平动点三维周期轨道
-  description: 详细解析Halo轨道的定义、动力学特性、在平动点附近的三维周期运动及其在地月空间任务中的应用
+  description: 详细解析Halo轨道的定义、动力学特性、在平动点附近的三维周期运动、L1/L2/L3分类及其在地月空间任务中的应用
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Halo 轨道（Halo Orbit）详解 | 平动点三维周期轨道
-  description: 详细解析Halo轨道的定义、动力学特性、在平动点附近的三维周期运动及其在地月空间任务中的应用
+  description: 详细解析Halo轨道的定义、动力学特性、在平动点附近的三维周期运动、L1/L2/L3分类及其在地月空间任务中的应用
   image: /logo.png
 permalink: /glossary/orbits/halo-orbit/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/halo-orbit/
 
 ## 定义
 
-Halo 轨道（Halo Orbit）是**环绕平动点的三维周期轨道**，在会合坐标系中呈光环状（Halo 意为"光环"）。Halo 轨道是圆形限制性三体问题（CR3BP）中的一类精确周期解，主要存在于地月系统的 L1、L2 和 L3 平动点附近。其中，地月 L2 点附近的 Halo 轨道在当前深空探测中应用最为广泛。
+Halo 轨道（Halo Orbit）是**环绕平动点的三维周期轨道**，在会合坐标系中呈光环状（Halo 意为"光环"）。Halo 轨道是圆形限制性三体问题（CR3BP）中的一类精确周期解，主要存在于地月系统的 L1、L2 和 L3 平动点附近。其中，地月 L2 点附近的 Halo 轨道在当前深空探测中应用最为广泛。Halo 轨道与 Lyapunov 轨道、垂直轨道、轴向轨道、蝴蝶轨道等同属平动点轨道（LPO）家族。
 
 ## 核心要素
 
@@ -49,6 +49,28 @@ $$T \approx T_0 + \alpha A_z^2$$
 
 其中 $T_0$ 为平动点附近线性化运动的固有周期，$\alpha$ 为与系统参数相关的系数。
 
+### Halo 轨道的分类
+
+根据地月系统中的平动点位置，Halo 轨道可分为以下族：
+
+| 轨道族 | 所属平动点 | 特征 |
+|:---|:---|:---|
+| H1（Halo L1） | L1 | 位于地月连线之间，周期约 7.8 ~ 13.6 天 |
+| H2（Halo L2） | L2 | 位于月球背向地球一侧，周期约 4.0 ~ 14.8 天 |
+| H3（Halo L3） | L3 | 位于地球背向月球一侧，周期约 22.6 ~ 27.1 天 |
+
+### 轨道参数特征
+
+以地月系统为例，Halo 轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
+
+| 轨道族 | Jacobi 常数范围 | 周期范围（天） | 稳定性指数范围 |
+|:---|:---|:---|:---|
+| H1 | -1.0159 ~ 3.1743 | 7.83 ~ 13.56 | 1.0 ~ 1180.5 |
+| H2 | 3.0152 ~ 3.1519 | 4.00 ~ 14.83 | 1.0 ~ 603.9 |
+| H3 | 1.0519 ~ 2.4221 | 22.57 ~ 27.09 | 1.0 ~ 1.38 |
+
+H1 和 H2 Halo 轨道的 Jacobi 常数覆盖范围较宽，其中 H1 的 Jacobi 常数可从负值延伸至 3.17 以上，表明该族包含从极高能量到中等能量的多种轨道。H2 Halo 轨道的周期最短可至 4.0 天，适合快速轨道操作任务。
+
 ### Halo 轨道的线性近似
 
 在平动点附近，CR3BP 的运动方程可线性化。对于共线平动点（L1、L2、L3），线性化后的运动在平面内有两个实特征值（对应稳定/不稳定流形）和一对共轭虚特征值（对应周期振荡），在 $z$ 方向也有一对共轭虚特征值。Halo 轨道的存在条件是平面内和 $z$ 方向的振荡频率满足共振关系：
@@ -64,6 +86,7 @@ Richardson（1980）利用 Lindstedt-Poincaré 方法推导了 Halo 轨道的三
 - 航天器在 Halo 轨道上运行时需要定期进行轨道维持机动（Station-Keeping）
 - 维持控制策略通常基于 Floquet 理论，消除沿不稳定流形增长的分量
 - L2 Halo 轨道的典型维持速度增量约为每年数 m/s 量级
+- H3 Halo 轨道由于 L3 平动点距离地月系统质心较远，部分成员表现出接近稳定的特性（稳定性指数接近 1.0）
 
 ### 近直线晕轨道（NRHO）
 
@@ -77,15 +100,20 @@ Halo 轨道在地月空间任务中具有核心应用价值：
 - **中继通信**：L2 Halo 轨道可为月球背面提供持续通信中继
 - **科学观测**：Halo 轨道提供独特的观测几何，适合空间科学和天文观测
 - **深空探测跳板**：Halo 轨道可作为向更远深空转移的中转轨道
+- **长期基础设施选址**：在 Guzzetti 等人提出的动态目录分析中，L1/L2 Halo 轨道因其适中的周期和稳定性特征被列为月球附近长期基础设施的候选轨道族
 
 ## 相关概念
 - [地月 L1/L2 Halo 轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
+- [垂直轨道（Vertical Orbit）](/glossary/orbits/vertical-orbit/)
+- [轴向轨道（Axial Orbit）](/glossary/orbits/axial-orbit/)
+- [蝴蝶轨道（Butterfly Orbit）](/glossary/orbits/butterfly-orbit/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Farquhar R W. The utilization of halo orbits in advanced lunar operations[R]. NASA, 1971.
+- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025.
