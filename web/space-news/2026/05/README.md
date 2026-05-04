@@ -30,7 +30,7 @@ wechatShare:
 | 5-01 | [「悟空」号卫星新发现揭示宇宙线加速机制关键原理](./2026-05-01-wukong-cosmic-ray-mechanism/) |
 | 5-03 | [特朗普新财年预算提议削减NASA 24%，SLS/猎户座项目面临取消](./2026-05-03-trump-nasa-budget-cuts/) |
 | 5-03 | [SpaceX 拟推史上最大 IPO，估值达 1.75 万亿美元](./2026-05-03-spacex-apex-ipo/) |
-| 5-03 | [巴基斯坦航天员首次穿中国飞天舱内服亮相](./2026-05-03-pakistani-astronauts-chinese-spacesuits/) |
+| 5-03 | [巴基斯坦航天员首次穿中国飞天舱内服亮相](./2026-05-03-pakistan-astronauts-chinese-space-suits/) |
 | 5-03 | [海南商业航天发射场二期加速冲刺，3号工位进度超 80%](./2026-05-03-hainan-commercial-spaceport-phase2-progress/) |
 | 5-03 | [神舟二十三号发射在即：航天员在轨超500天，商业航天再添新动态](./2026-05-03-shenzhou-23-launch-preparations/) |
 | 5-03 | [SpaceX全舰队火箭回收突破600次，累计节省成本约168亿美元](./2026-05-03-spacex-607-recoveries-cost-savings/) |
