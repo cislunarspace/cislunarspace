@@ -38,6 +38,7 @@ lastUpdated: 2026-05-01
 | 2026-05-03 | [80 Texas Residents Sue SpaceX Over Rocket Sonic Boom Property Damage, Seeking Millions in Compensation](./2026-05-03-spacex-texas-sonic-boom-lawsuit/) | SpaceX |
 | 2026-05-03 | [SpaceX Falcon 9 Launches CAS500-2 Korean Earth Observation Satellite from Vandenberg](./2026-05-03-cas500-2-falcon-9-vandenberg-launch/) | SpaceX, Launch, Commercial |
 | 2026-05-03 | [Trump Administration Proposes 24% NASA Budget Cut, Largest Single-Year Reduction in Agency History](./2026-05-03-trump-nasa-budget-cuts/) | NASA, Space Policy |
+| 2026-05-03 | [Foxconn's Second-Generation LEO Satellites Successfully Launched, PEARL-1A and PEARL-1B Enter Predetermined Orbits](./2026-05-04-foxconn-pearl-leo-satellite-launch/) | Commercial Space |
 | 2026-05-01 | [NASA Kennedy Space Center Director Janet Petro Announces Retirement Plans](./2026-05-01-nasa-kennedy-director-retirement/) | NASA |
 | 2026-05-01 | [NASA Artemis II Crew Rings Nasdaq Closing Bell](./2026-05-01-artemis-ii-nasdaq-closing-bell/) | Artemis |
 | 2026-05-01 | [Hainan Commercial Spaceport Phase II Enters Final Sprint, Launch Pad 3 Over 80% Complete](./2026-05-01-hainan-commercial-spaceport-phase2/) | China Space, Commercial Space |
