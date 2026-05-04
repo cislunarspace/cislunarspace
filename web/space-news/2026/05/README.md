@@ -23,6 +23,8 @@ wechatShare:
 | 5-04 | [马耳他签署《阿尔忒弥斯协定》，成为第65个签约国](./2026-05-04-malta-artemis-accords/) |
 | 5-04 | [爱尔兰签署《阿尔忒弥斯协定》，成为第66个签约国](./2026-05-04-ireland-artemis-accords/) |
 | 5-04 | [NASA LAGEOS-1卫星在轨50年：最古老的人类航天器仍在服役](./2026-05-04-nasa-lageos-50th-anniversary/) |
+| 5-04 | [洛马与萤火虫航空、雪狮太空合作推进海上发射计划](./2026-05-04-lockheed-firefly-offshore-launch/) |
+
 
 | 5-04 | [NASA推进月球资源提取技术研发，为可持续深空探测铺路](./2026-05-04-nasa-lunar-resource-technologies/) |
 
