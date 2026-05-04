@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-04 | [蓝色起源Blue Moon Mark 1登月器完成NASA热真空测试](./2026-05-04-blue-origin-mk1-vacuum-testing/) |
 | 5-04 | [富士康二代低轨卫星成功发射，珍珠1A/1B进入预定轨道](./2026-05-04-foxconn-pearl-leo-satellite-launch/) |
 | 5-03 | [神舟二十一号乘组在轨六个月，脑电测试等科学实验有序推进](./2026-05-03-shenzhou-21-six-months-station/) |
 | 5-03 | [大航跃迁完成5亿元A轮融资，加速首款塔架回收火箭「跃迁一号」研制](./2026-05-03-dahang-yueqian-500m-funding/) |
