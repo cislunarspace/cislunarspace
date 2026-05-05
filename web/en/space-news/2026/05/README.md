@@ -19,6 +19,7 @@ lastUpdated: 2026-05-05
 | 2026-05-04 | [NASA's LAGEOS-1 Celebrates 50 Years in Earth Orbit: A Legacy of Geodynamic Science](./2026-05-04-nasa-lageos-50th-anniversary/) | NASA |
 | 2026-05-04 | [Lockheed Martin Joins Firefly Aerospace and Seagate Space for Offshore Launch Collaboration](./2026-05-04-lockheed-firefly-offshore-launch/) | Commercial Space |
 | 2026-05-04 | [NASA Fosters Lunar Resource-Seeking Technologies for Sustainable Deep Space Exploration](./2026-05-04-nasa-lunar-resource-technologies/) | NASA |
+| 2026-05-04 | [Planetary Society CEO Slams NASA Budget Proposal as 'Horrible Threat to Our Future' in Space](./2026-05-04-planetary-society-nasa-budget-response/) | Policy |
 | 2026-05-03 | [Shenzhou-21 Crew Marks Six Months on China's Space Station, Brain-Computer Experiments Advance](./2026-05-03-shenzhou-21-six-months-station/) | China Space, Space Station |
 | 2026-05-03 | [Dahang Yaqian Raises 500M RMB Series A to Accelerate China's First Tower-Capture Reusable Rocket](./2026-05-03-dahang-yueqian-500m-funding/) | China Space, Commercial Space |
 | 2026-05-03 | [SpaceX Falcon 9 Launches CAS500-2 Korean Earth Observation Satellite from Vandenberg](./2026-05-03-cas500-2-falcon-9-vandenberg-launch/) | SpaceX, Launch, Commercial |
