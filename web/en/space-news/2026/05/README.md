@@ -12,6 +12,7 @@ lastUpdated: 2026-05-05
 |------|-------|----------|
 | 2026-05-05 | [NASA's Revised Moon Plan: Can Crewed Landing Happen in 2028?](./2026-05-05-nasa-artemis-2028-moon-landing/) | Artemis |
 | 2026-05-05 | [NASA's New Ion Thruster Passes 120-Kilowatt Test, Advancing Crewed Mars Missions](./2026-05-05-nasa-mpd-ion-thruster/) | Science |
+| 2026-05-05 | [Former NASA Administrator Jim Bridenstine Named CEO of Quantum Space](./2026-05-05-quantum-space-bridenstine-ceo/) | Policy |
 | 2026-05-04 | [Blue Origin's Blue Moon Mark 1 Completes NASA Thermal Vacuum Testing](./2026-05-04-blue-origin-mk1-vacuum-testing/) | Blue Origin |
 | 2026-05-04 | [Foxconn's Second-Generation LEO Satellites Successfully Launched, PEARL-1A and PEARL-1B Enter Predetermined Orbits](./2026-05-04-foxconn-pearl-leo-satellite-launch/) | Commercial Space |
 | 2026-05-04 | [JWST Makes First Direct Observation of an Exoplanet Surface: A Dark, Hot, Barren Rock](./2026-05-04-jwst-exoplanet-surface/) | Science |
