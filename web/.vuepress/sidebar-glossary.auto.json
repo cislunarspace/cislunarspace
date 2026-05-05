@@ -3564,6 +3564,19 @@
         }
       },
       {
+        "slug": "axial-orbit",
+        "title": "轴向轨道（Axial Orbit）",
+        "path": "/glossary/orbits/axial-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 3
+        }
+      },
+      {
         "slug": "ballistic-capture",
         "title": "弹道捕获轨道（Ballistic Capture Orbit）",
         "path": "/glossary/orbits/ballistic-capture/",
@@ -3577,9 +3590,35 @@
         }
       },
       {
+        "slug": "butterfly-orbit",
+        "title": "蝴蝶轨道（Butterfly Orbit）",
+        "path": "/glossary/orbits/butterfly-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 3
+        }
+      },
+      {
         "slug": "cycler-trajectory",
         "title": "循环轨道（Cycler Trajectory）",
         "path": "/glossary/orbits/cycler-trajectory/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 3
+        }
+      },
+      {
+        "slug": "dpo",
+        "title": "远距离顺行轨道（DPO）",
+        "path": "/glossary/orbits/dpo/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -3668,6 +3707,19 @@
         }
       },
       {
+        "slug": "horseshoe-orbit",
+        "title": "马蹄轨道（Horseshoe Orbit）",
+        "path": "/glossary/orbits/horseshoe-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 3
+        }
+      },
+      {
         "slug": "hub-and-spoke",
         "title": "中心辐射式（Hub-and-spoke）",
         "path": "/glossary/orbits/hub-and-spoke/",
@@ -3684,6 +3736,19 @@
         "slug": "lissajous-orbit",
         "title": "Lissajous 轨道（Lissajous Orbit）",
         "path": "/glossary/orbits/lissajous-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 3
+        }
+      },
+      {
+        "slug": "lopo",
+        "title": "低顺行轨道（LoPO）",
+        "path": "/glossary/orbits/lopo/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -3866,6 +3931,19 @@
         "slug": "transfer-orbit",
         "title": "转移轨道（Transfer Orbit）",
         "path": "/glossary/orbits/transfer-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 3
+        }
+      },
+      {
+        "slug": "vertical-orbit",
+        "title": "垂直轨道（Vertical Orbit）",
+        "path": "/glossary/orbits/vertical-orbit/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -5123,8 +5201,33 @@
       },
       {
         "category": "任务轨道",
+        "slug": "axial-orbit",
+        "zhTitle": "轴向轨道（Axial Orbit）"
+      },
+      {
+        "category": "任务轨道",
+        "slug": "butterfly-orbit",
+        "zhTitle": "蝴蝶轨道（Butterfly Orbit）"
+      },
+      {
+        "category": "任务轨道",
+        "slug": "dpo",
+        "zhTitle": "远距离顺行轨道（DPO）"
+      },
+      {
+        "category": "任务轨道",
+        "slug": "horseshoe-orbit",
+        "zhTitle": "马蹄轨道（Horseshoe Orbit）"
+      },
+      {
+        "category": "任务轨道",
         "slug": "hub-and-spoke",
         "zhTitle": "中心辐射式（Hub-and-spoke）"
+      },
+      {
+        "category": "任务轨道",
+        "slug": "lopo",
+        "zhTitle": "低顺行轨道（LoPO）"
       },
       {
         "category": "任务轨道",
@@ -5135,6 +5238,11 @@
         "category": "任务轨道",
         "slug": "primary-impulse-transfer",
         "zhTitle": "一次冲量轨道转移（Primary Impulse Orbit Transfer）"
+      },
+      {
+        "category": "任务轨道",
+        "slug": "vertical-orbit",
+        "zhTitle": "垂直轨道（Vertical Orbit）"
       },
       {
         "category": "机构和组织",
