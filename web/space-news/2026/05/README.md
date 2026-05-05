@@ -20,6 +20,7 @@ wechatShare:
 | 5-05 | [NASA公布新版登月计划：2028年载人着陆能否实现？](./2026-05-05-nasa-artemis-2028-moon-landing/) |
 | 5-05 | [NASA新型离子推进器通过120千瓦测试，载人火星任务新突破](./2026-05-05-nasa-mpd-ion-thruster/) |
 | 5-05 | [前NASA局长吉姆·布里登斯廷出任量子空间公司CEO](./2026-05-05-quantum-space-bridenstine-ceo/) |
+| 5-05 | [美澳两家私企合作，2027年推出商业太空碎片清除服务](./2026-05-05-space-debris-removal-draas/) |
 | 5-04 | [蓝色起源Blue Moon Mark 1登月器完成NASA热真空测试](./2026-05-04-blue-origin-mk1-vacuum-testing/) |
 | 5-04 | [富士康二代低轨卫星成功发射，珍珠1A/1B进入预定轨道](./2026-05-04-foxconn-pearl-leo-satellite-launch/) |
 | 5-04 | [韦布望远镜首次直接研究系外行星表面：发现黑暗灼热岩石](./2026-05-04-jwst-exoplanet-surface/) |
