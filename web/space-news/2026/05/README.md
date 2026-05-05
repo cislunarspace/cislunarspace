@@ -26,6 +26,7 @@ wechatShare:
 | 5-04 | [NASA LAGEOS-1卫星在轨50年：最古老的人类航天器仍在服役](./2026-05-04-nasa-lageos-50th-anniversary/) |
 | 5-04 | [洛马与萤火虫航空、雪狮太空合作推进海上发射计划](./2026-05-04-lockheed-firefly-offshore-launch/) |
 | 5-04 | [NASA推进月球资源提取技术研发，为可持续深空探测铺路](./2026-05-04-nasa-lunar-resource-technologies/) |
+| 5-04 | [行星学会新任CEO谴责NASA预算提案，称其为「太空未来的可怕威胁」](./2026-05-04-planetary-society-nasa-budget-response/) |
 | 5-03 | [神舟二十一号乘组在轨六个月，脑电测试等科学实验有序推进](./2026-05-03-shenzhou-21-six-months-station/) |
 | 5-03 | [大航跃迁完成5亿元A轮融资，加速首款塔架回收火箭「跃迁一号」研制](./2026-05-03-dahang-yueqian-500m-funding/) |
 | 5-03 | [SpaceX猎鹰九号成功发射韩国CAS500-2地球观测卫星](./2026-05-03-cas500-2-falcon-9-vandenberg-launch/) |
