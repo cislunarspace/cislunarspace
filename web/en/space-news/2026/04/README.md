@@ -47,6 +47,7 @@ wechatShare:
 | 4-25 | [China's First Foreign Astronauts Arrive for Training at Astronaut Center](./2026-04-25-pakistani-astronauts-training/) |
 | 4-25 | [China Launches Pakistan's PRSC-EO3 Satellite on Long March 6 Rocket](./2026-04-25-pakistan-prsc-eo3-launch/) |
 | 4-25 | [Weiguang Qihang Unveils World's First All-Carbon Fiber Launch Vehicle at CSC2026](./2026-04-25-weiguang-carbon-fiber-rocket/) |
+| 4-25 | [2026 China Aerospace Conference Main Forum Opens in Chengdu](./2026-04-25-csc2026-main-forum/) |
 | 4-26 | [Artemis II Crew Captures Stunning 'Earthset' Image — Moon's Far Side Visible as Earth Descends Toward Lunar Surface](./2026-04-26-artemis-ii-earthset/) |
 | 4-26 | [Russia Launches Progress MS-34 Cargo Spacecraft to ISS](./2026-04-26-progress-ms-34-launch/) |
 | 4-26 | [Nayuta Space Unveils Qianniao-R Rocket with Parachute Landing System — China's First Commercial Rocket with Parachute Recovery](./2026-04-26-qianniao-r-dongniao/) |
