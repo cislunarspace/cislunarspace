@@ -10,17 +10,15 @@ lastUpdated: 2026-05-05
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-05 | [NASA's Revised Moon Plan: Can Crewed Landing Happen in 2028?](./2026-05-05-nasa-artemis-2028-moon-landing/) | Artemis |
 | 2026-05-04 | [Blue Origin's Blue Moon Mark 1 Completes NASA Thermal Vacuum Testing](./2026-05-04-blue-origin-mk1-vacuum-testing/) | Blue Origin |
+| 2026-05-04 | [Foxconn's Second-Generation LEO Satellites Successfully Launched, PEARL-1A and PEARL-1B Enter Predetermined Orbits](./2026-05-04-foxconn-pearl-leo-satellite-launch/) | Commercial Space |
 | 2026-05-04 | [JWST Makes First Direct Observation of an Exoplanet Surface: A Dark, Hot, Barren Rock](./2026-05-04-jwst-exoplanet-surface/) | Science |
 | 2026-05-04 | [Malta Becomes 65th Artemis Accords Signatory, Joining NASA's Lunar Coalition](./2026-05-04-malta-artemis-accords/) | Artemis |
 | 2026-05-04 | [Ireland Becomes 66th Artemis Accords Signatory, Joining NASA's Lunar Coalition](./2026-05-04-ireland-artemis-accords/) | Artemis |
 | 2026-05-04 | [NASA's LAGEOS-1 Celebrates 50 Years in Earth Orbit: A Legacy of Geodynamic Science](./2026-05-04-nasa-lageos-50th-anniversary/) | NASA |
 | 2026-05-04 | [Lockheed Martin Joins Firefly Aerospace and Seagate Space for Offshore Launch Collaboration](./2026-05-04-lockheed-firefly-offshore-launch/) | Commercial Space |
-
-
 | 2026-05-04 | [NASA Fosters Lunar Resource-Seeking Technologies for Sustainable Deep Space Exploration](./2026-05-04-nasa-lunar-resource-technologies/) | NASA |
-
-| 2026-05-04 | [Foxconn's Second-Generation LEO Satellites Successfully Launched, PEARL-1A and PEARL-1B Enter Predetermined Orbits](./2026-05-04-foxconn-pearl-leo-satellite-launch/) | Commercial Space |
 | 2026-05-03 | [Shenzhou-21 Crew Marks Six Months on China's Space Station, Brain-Computer Experiments Advance](./2026-05-03-shenzhou-21-six-months-station/) | China Space, Space Station |
 | 2026-05-03 | [Dahang Yaqian Raises 500M RMB Series A to Accelerate China's First Tower-Capture Reusable Rocket](./2026-05-03-dahang-yueqian-500m-funding/) | China Space, Commercial Space |
 | 2026-05-03 | [SpaceX Falcon 9 Launches CAS500-2 Korean Earth Observation Satellite from Vandenberg](./2026-05-03-cas500-2-falcon-9-vandenberg-launch/) | SpaceX, Launch, Commercial |
