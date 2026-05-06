@@ -3,13 +3,14 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-05
+lastUpdated: 2026-05-06
 ---
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-05 | [SpaceX Falcon 9 Launches Starlink 17-29 Mission from Vandenberg](./2026-05-05-spacex-vandenberg-starlink-17-29/) | SpaceX, Launch |
 | 2026-05-05 | [NASA Releases 12,000 Photos from Artemis II Mission, Showcasing Pre-Launch Preparations](./2026-05-05-nasa-artemis-ii-photos/) | Artemis |
 | 2026-05-05 | [NASA's Revised Moon Plan: Can Crewed Landing Happen in 2028?](./2026-05-05-nasa-artemis-2028-moon-landing/) | Artemis |
 | 2026-05-05 | [NASA's New Ion Thruster Passes 120-Kilowatt Test, Advancing Crewed Mars Missions](./2026-05-05-nasa-mpd-ion-thruster/) | Science |
