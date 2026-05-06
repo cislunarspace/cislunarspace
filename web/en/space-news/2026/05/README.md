@@ -10,6 +10,7 @@ lastUpdated: 2026-05-05
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-05 | [NASA Releases 12,000 Photos from Artemis II Mission, Showcasing Pre-Launch Preparations](./2026-05-05-nasa-artemis-ii-photos/) | Artemis |
 | 2026-05-05 | [NASA's Revised Moon Plan: Can Crewed Landing Happen in 2028?](./2026-05-05-nasa-artemis-2028-moon-landing/) | Artemis |
 | 2026-05-05 | [NASA's New Ion Thruster Passes 120-Kilowatt Test, Advancing Crewed Mars Missions](./2026-05-05-nasa-mpd-ion-thruster/) | Science |
 | 2026-05-05 | [Former NASA Administrator Jim Bridenstine Named CEO of Quantum Space](./2026-05-05-quantum-space-bridenstine-ceo/) | Policy |
