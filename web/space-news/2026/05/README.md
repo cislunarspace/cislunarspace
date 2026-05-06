@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-05 | [NASA公布Artemis II任务12000张照片，展示人类绕月飞行前准备工作](./2026-05-05-nasa-artemis-ii-photos/) |
 | 5-05 | [NASA公布新版登月计划：2028年载人着陆能否实现？](./2026-05-05-nasa-artemis-2028-moon-landing/) |
 | 5-05 | [NASA新型离子推进器通过120千瓦测试，载人火星任务新突破](./2026-05-05-nasa-mpd-ion-thruster/) |
 | 5-05 | [前NASA局长吉姆·布里登斯廷出任量子空间公司CEO](./2026-05-05-quantum-space-bridenstine-ceo/) |
