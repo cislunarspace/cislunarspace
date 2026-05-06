@@ -13,6 +13,7 @@ lastUpdated: 2026-05-06
 | 2026-05-06 | [Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station](./2026-05-06-tianzhou-9-undocking/) | China Space |
 | 2026-05-06 | [NASA's Roman Space Telescope Set to Revolutionize Hunt for Elusive Neutron Stars](./2026-05-06-nasa-roman-neutron-stars/) | NASA |
 | 2026-05-06 | [New NASA Technology Simulates Extreme Cold of the Lunar Night](./2026-05-06-nasa-lunar-night-tech/) | NASA |
+| 2026-05-06 | [Solar Activity Causes Space Junk to Crash to Earth Faster](./2026-05-06-solar-activity-orbital-decay/) | Science |
 | 2026-05-05 | [SpaceX Falcon 9 Launches Starlink 17-29 Mission from Vandenberg](./2026-05-05-spacex-vandenberg-starlink-17-29/) | SpaceX, Launch |
 | 2026-05-05 | [NASA Releases 12,000 Photos from Artemis II Mission, Showcasing Pre-Launch Preparations](./2026-05-05-nasa-artemis-ii-photos/) | Artemis |
 | 2026-05-05 | [NASA's Revised Moon Plan: Can Crewed Landing Happen in 2028?](./2026-05-05-nasa-artemis-2028-moon-landing/) | Artemis |
