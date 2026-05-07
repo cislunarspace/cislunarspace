@@ -11,6 +11,7 @@ lastUpdated: 2026-05-07
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
+| 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
 | 2026-05-07 | [Tianzhou-9 Cargo Spacecraft Completes Controlled Reentry, Mission Ends](./2026-05-07-tianzhou-9-reentry/) | China Space |
 | 2026-05-06 | [Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station](./2026-05-06-tianzhou-9-undocking/) | China Space |
 | 2026-05-06 | [NASA's Roman Space Telescope Set to Revolutionize Hunt for Elusive Neutron Stars](./2026-05-06-nasa-roman-neutron-stars/) | NASA |
