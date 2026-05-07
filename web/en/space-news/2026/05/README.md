@@ -14,6 +14,9 @@ lastUpdated: 2026-05-07
 | 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
 | 2026-05-07 | [Tianzhou-9 Cargo Spacecraft Completes Controlled Reentry, Mission Ends](./2026-05-07-tianzhou-9-reentry/) | China Space |
 | 2026-05-07 | [Artemis 2 Launch Draws Nearly 350,000 Visitors to Florida Space Coast](./2026-05-07-artemis-2-space-coast-economy/) | Artemis |
+| 2026-05-07 | [Paraguay Signs Artemis Accords, Becomes 67th Signatory](./2026-05-07-paraguay-artemis-accords/) | Artemis |
+| 2026-05-07 | [Blue Origin Blue Moon Mark 2 Crew Cabin Mockup Arrives at NASA Johnson](./2026-05-07-lunar-lander-training-cabin/) | Artemis |
+| 2026-05-07 | [NASA CHAPEA Mission 2 Crew Marks 200 Days in Mars Habitat Simulation](./2026-05-07-mars-simulation-200days/) | Science |
 | 2026-05-06 | [China's Astronaut Center Recruits Volunteers for 60-Day Bed Rest Study](./2026-05-06-dixing-bed-rest-volunteer/) | China Space |
 | 2026-05-06 | [Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station](./2026-05-06-tianzhou-9-undocking/) | China Space |
 | 2026-05-06 | [NASA's Roman Space Telescope Set to Revolutionize Hunt for Elusive Neutron Stars](./2026-05-06-nasa-roman-neutron-stars/) | NASA |
