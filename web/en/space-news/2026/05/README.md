@@ -23,6 +23,7 @@ lastUpdated: 2026-05-07
 | 2026-05-06 | [Blue Origin Revamps Employee Incentive Plan Amid SpaceX IPO Threat](./2026-05-06-blue-origin-employee-incentive-plan/) | Blue Origin, Commercial |
 | 2026-05-06 | [ISS Zvezda Module Cracking Remains Unresolved](./2026-05-06-iss-module-cracking/) | ISS |
 | 2026-05-06 | [Blue Origin Targets 60 New Glenn Upper Stages Per Year by 2028](./2026-05-06-blue-origin-60-rockets-year/) | Blue Origin |
+| 2026-05-07 | [NASA Next-Gen Mars Helicopter Rotor Blades Break Sound Barrier in Key Test](./2026-05-07-nasa-mars-helicopter-rotor-mach1/) |
 | 2026-05-05 | [SpaceX Falcon 9 Launches Starlink 17-29 Mission from Vandenberg](./2026-05-05-spacex-vandenberg-starlink-17-29/) | SpaceX, Launch |
 | 2026-05-05 | [NASA Releases 12,000 Photos from Artemis II Mission, Showcasing Pre-Launch Preparations](./2026-05-05-nasa-artemis-ii-photos/) | Artemis |
 | 2026-05-05 | [NASA's Revised Moon Plan: Can Crewed Landing Happen in 2028?](./2026-05-05-nasa-artemis-2028-moon-landing/) | Artemis |
