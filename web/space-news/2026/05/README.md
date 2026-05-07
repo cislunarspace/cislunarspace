@@ -18,6 +18,7 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 5-07 | [欧空局「太空骑士」热防护系统通过极端测试](./2026-05-07-esa-space-rider-thermal-protection/) |
+| 5-07 | [NASA资助SNAPPY立方星发射，开启太阳中微子探测新路径](./2026-05-07-snappy-cubesat-launch/) |
 | 5-07 | [天舟九号货运飞船受控再入大气层，使命圆满结束](./2026-05-07-tianzhou-9-reentry/) |
 | 5-06 | [天舟九号货运飞船顺利撤离空间站组合体](./2026-05-06-tianzhou-9-undocking/) |
 | 5-06 | [NASA罗曼太空望远镜将革新对神秘中子星的搜寻](./2026-05-06-nasa-roman-neutron-stars/) |
