@@ -16,6 +16,7 @@ lastUpdated: 2026-05-07
 | 2026-05-06 | [NASA's Roman Space Telescope Set to Revolutionize Hunt for Elusive Neutron Stars](./2026-05-06-nasa-roman-neutron-stars/) | NASA |
 | 2026-05-06 | [New NASA Technology Simulates Extreme Cold of the Lunar Night](./2026-05-06-nasa-lunar-night-tech/) | NASA |
 | 2026-05-06 | [Solar Activity Causes Space Junk to Crash to Earth Faster](./2026-05-06-solar-activity-orbital-decay/) | Science |
+| 2026-05-06 | [JWST Reveals Exoplanet Odd Couple That Migrated Inward Together](./2026-05-06-exoplanet-survival/) | Science |
 | 2026-05-06 | [Blue Origin Revamps Employee Incentive Plan Amid SpaceX IPO Threat](./2026-05-06-blue-origin-employee-incentive-plan/) | Blue Origin, Commercial |
 | 2026-05-06 | [ISS Zvezda Module Cracking Remains Unresolved](./2026-05-06-iss-module-cracking/) | ISS |
 | 2026-05-06 | [Blue Origin Targets 60 New Glenn Upper Stages Per Year by 2028](./2026-05-06-blue-origin-60-rockets-year/) | Blue Origin |

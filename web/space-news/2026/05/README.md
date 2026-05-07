@@ -23,6 +23,7 @@ wechatShare:
 | 5-06 | [NASA罗曼太空望远镜将革新对神秘中子星的搜寻](./2026-05-06-nasa-roman-neutron-stars/) |
 | 5-06 | [NASA新技术可模拟月球夜极端低温环境](./2026-05-06-nasa-lunar-night-tech/) |
 | 5-06 | [太阳活动加剧导致太空碎片更快坠入大气层](./2026-05-06-solar-activity-orbital-decay/) |
+| 5-06 | [韦布望远镜发现奇特行星系统：迷你海王星与热木星「携手」内迁](./2026-05-06-exoplanet-survival/) |
 | 5-06 | [蓝色起源调整员工激励机制应对SpaceX上市冲击](./2026-05-06-blue-origin-employee-incentive-plan/) |
 | 5-06 | [国际空间站曙光号服务舱裂纹问题悬而未决](./2026-05-06-iss-module-cracking/) |
 | 5-06 | [蓝色起源公布新格伦火箭年产60台上目标](./2026-05-06-blue-origin-60-rockets-year/) |
