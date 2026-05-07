@@ -28,6 +28,8 @@ wechatShare:
 | 5-06 | [蓝色起源调整员工激励机制应对SpaceX上市冲击](./2026-05-06-blue-origin-employee-incentive-plan/) |
 | 5-06 | [国际空间站曙光号服务舱裂纹问题悬而未决](./2026-05-06-iss-module-cracking/) |
 | 5-06 | [蓝色起源公布新格伦火箭年产60台上目标](./2026-05-06-blue-origin-60-rockets-year/) |
+| 5-06 | [中国航天员中心招募「地星三号」卧床实验志愿者 最高补助7万元](./2026-05-06-dixing-bed-rest-volunteer/) |
+| 5-07 | [Artemis 2发射带动佛罗里达太空海岸近35万人观礼](./2026-05-07-artemis-2-space-coast-economy/) |
 | 5-05 | [SpaceX猎鹰九号范登堡发射第17-29批Starlink卫星](./2026-05-05-spacex-vandenberg-starlink-17-29/) |
 | 5-05 | [NASA公布Artemis II任务12000张照片，展示人类绕月飞行前准备工作](./2026-05-05-nasa-artemis-ii-photos/) |
 | 5-05 | [NASA公布新版登月计划：2028年载人着陆能否实现？](./2026-05-05-nasa-artemis-2028-moon-landing/) |
