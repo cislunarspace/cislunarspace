@@ -13,6 +13,8 @@ lastUpdated: 2026-05-07
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
 | 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
 | 2026-05-07 | [Tianzhou-9 Cargo Spacecraft Completes Controlled Reentry, Mission Ends](./2026-05-07-tianzhou-9-reentry/) | China Space |
+| 2026-05-07 | [Artemis 2 Launch Draws Nearly 350,000 Visitors to Florida Space Coast](./2026-05-07-artemis-2-space-coast-economy/) | Artemis |
+| 2026-05-06 | [China's Astronaut Center Recruits Volunteers for 60-Day Bed Rest Study](./2026-05-06-dixing-bed-rest-volunteer/) | China Space |
 | 2026-05-06 | [Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station](./2026-05-06-tianzhou-9-undocking/) | China Space |
 | 2026-05-06 | [NASA's Roman Space Telescope Set to Revolutionize Hunt for Elusive Neutron Stars](./2026-05-06-nasa-roman-neutron-stars/) | NASA |
 | 2026-05-06 | [New NASA Technology Simulates Extreme Cold of the Lunar Night](./2026-05-06-nasa-lunar-night-tech/) | NASA |
