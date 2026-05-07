@@ -24,6 +24,8 @@ wechatShare:
 | 5-06 | [NASA新技术可模拟月球夜极端低温环境](./2026-05-06-nasa-lunar-night-tech/) |
 | 5-06 | [太阳活动加剧导致太空碎片更快坠入大气层](./2026-05-06-solar-activity-orbital-decay/) |
 | 5-06 | [蓝色起源调整员工激励机制应对SpaceX上市冲击](./2026-05-06-blue-origin-employee-incentive-plan/) |
+| 5-06 | [国际空间站曙光号服务舱裂纹问题悬而未决](./2026-05-06-iss-module-cracking/) |
+| 5-06 | [蓝色起源公布新格伦火箭年产60台上目标](./2026-05-06-blue-origin-60-rockets-year/) |
 | 5-05 | [SpaceX猎鹰九号范登堡发射第17-29批Starlink卫星](./2026-05-05-spacex-vandenberg-starlink-17-29/) |
 | 5-05 | [NASA公布Artemis II任务12000张照片，展示人类绕月飞行前准备工作](./2026-05-05-nasa-artemis-ii-photos/) |
 | 5-05 | [NASA公布新版登月计划：2028年载人着陆能否实现？](./2026-05-05-nasa-artemis-2028-moon-landing/) |
