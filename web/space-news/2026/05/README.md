@@ -20,6 +20,7 @@ wechatShare:
 | 5-08 | [Artemis 2航天员在月球远侧目击撞击闪光，人类航天员首次直接观测太空撞击事件](./2026-05-08-artemis-2-far-side-flashes/) |
 | 5-08 | [天舟十号船箭组合体垂直转运至发射区，将于近日择机发射](./2026-05-08-tianzhou-10-vertical-transfer/) |
 | 5-08 | [NASA好奇号火星车被一块27斤岩石「劫持」6天](./2026-05-08-curiosity-mars-rock/) |
+| 5-08 | [NASA成功测试可再生燃料电池系统，为月球基地提供可持续能源存储](./2026-05-08-nasa-fuel-cell-moon/) |
 | 5-07 | [Rocket Lab签署五发Neutron火箭合同，2026年末首飞目标不变](./2026-05-07-rocket-lab-five-launch-neutron-deal/) |
 | 5-07 | [工信部批复天启星座开展卫星物联网业务商用试验，我国首个相关领域商用试点落地](./2026-05-07-tianqi-satellite-iot-commercial-trial/) |
 | 5-07 | [欧空局「太空骑士」热防护系统通过极端测试](./2026-05-07-esa-space-rider-thermal-protection/) |
@@ -37,6 +38,7 @@ wechatShare:
 | 5-07 | [NASA下一代火星直升机旋翼突破音障 超音速飞行测试取得关键进展](./2026-05-07-nasa-mars-helicopter-rotor-mach1/) |
 | 5-07 | [研究称月球最大撞击盆地由「斩首」小行星形成，Artemis宇航员着陆点或在附近](./2026-05-07-south-pole-aitken-asteroid-study/) |
 | 5-07 | [Artemis 2发射带动佛罗里达太空海岸近35万人观礼](./2026-05-07-artemis-2-space-coast-economy/) |
+| 5-07 | [SpaceX完成星舰V3超级重型助推器33机全时全推力静态点火测试，目标5月15日首飞](./2026-05-07-spacex-starship-v3-static-fire/) |
 | 5-07 | [巴拉圭签署《阿尔忒弥斯协定》，成为第67个缔约方](./2026-05-07-paraguay-artemis-accords/) |
 | 5-07 | [蓝色起源Blue Moon Mark 2登月舱全尺寸模型运抵NASA约翰逊中心](./2026-05-07-lunar-lander-training-cabin/) |
 | 5-07 | [NASA CHAPEA任务二号宇航员团队在火星模拟栖息地度过200天](./2026-05-07-mars-simulation-200days/) |
