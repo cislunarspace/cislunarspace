@@ -13,6 +13,7 @@ lastUpdated: 2026-05-08
 | 2026-05-08 | [Artemis 2 Crew Witnesses Impact Flashes on the Far Side of the Moon](./2026-05-08-artemis-2-far-side-flashes/) | Artemis |
 | 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10-vertical-transfer/) | China Space |
 | 2026-05-08 | [NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days](./2026-05-08-curiosity-mars-rock/) | NASA |
+| 2026-05-08 | [NASA Tests Regenerative Fuel Cell System for Sustainable Energy Storage on the Moon](./2026-05-08-nasa-fuel-cell-moon/) | NASA |
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
 | 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
 | 2026-05-07 | [Tianzhou-9 Cargo Spacecraft Completes Controlled Reentry, Mission Ends](./2026-05-07-tianzhou-9-reentry/) | China Space |
@@ -24,6 +25,7 @@ lastUpdated: 2026-05-08
 | 2026-05-07 | [NASA CHAPEA Mission 2 Crew Marks 200 Days in Mars Habitat Simulation](./2026-05-07-mars-simulation-200days/) | Science |
 | 2026-05-07 | [NASA Next-Gen Mars Helicopter Rotor Blades Break Sound Barrier in Key Test](./2026-05-07-nasa-mars-helicopter-rotor-mach1/) | NASA |
 | 2026-05-07 | [New Study Reveals Moon's Largest Impact Basin Formed by 'Decapitated' Asteroid](./2026-05-07-south-pole-aitken-asteroid-study/) | Science |
+| 2026-05-07 | [SpaceX Static-Fires 33-Engine Starship V3 Super Heavy Booster Ahead of May 15 Launch](./2026-05-07-spacex-starship-v3-static-fire/) | SpaceX |
 | 2026-05-06 | [China's Astronaut Center Recruits Volunteers for 60-Day Bed Rest Study](./2026-05-06-dixing-bed-rest-volunteer/) | China Space |
 | 2026-05-06 | [Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station](./2026-05-06-tianzhou-9-undocking/) | China Space |
 | 2026-05-06 | [NASA's Roman Space Telescope Set to Revolutionize Hunt for Elusive Neutron Stars](./2026-05-06-nasa-roman-neutron-stars/) | NASA |
