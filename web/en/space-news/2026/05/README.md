@@ -22,6 +22,7 @@ lastUpdated: 2026-05-08
 | 2026-05-07 | [Blue Origin Blue Moon Mark 2 Crew Cabin Mockup Arrives at NASA Johnson](./2026-05-07-lunar-lander-training-cabin/) | Artemis |
 | 2026-05-07 | [NASA CHAPEA Mission 2 Crew Marks 200 Days in Mars Habitat Simulation](./2026-05-07-mars-simulation-200days/) | Science |
 | 2026-05-07 | [NASA Next-Gen Mars Helicopter Rotor Blades Break Sound Barrier in Key Test](./2026-05-07-nasa-mars-helicopter-rotor-mach1/) | NASA |
+| 2026-05-07 | [New Study Reveals Moon's Largest Impact Basin Formed by 'Decapitated' Asteroid](./2026-05-07-south-pole-aitken-asteroid-study/) | Science |
 | 2026-05-06 | [China's Astronaut Center Recruits Volunteers for 60-Day Bed Rest Study](./2026-05-06-dixing-bed-rest-volunteer/) | China Space |
 | 2026-05-06 | [Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station](./2026-05-06-tianzhou-9-undocking/) | China Space |
 | 2026-05-06 | [NASA's Roman Space Telescope Set to Revolutionize Hunt for Elusive Neutron Stars](./2026-05-06-nasa-roman-neutron-stars/) | NASA |
