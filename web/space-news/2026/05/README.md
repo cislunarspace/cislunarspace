@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-08 | [Artemis 2航天员在月球远侧目击撞击闪光，人类航天员首次直接观测太空撞击事件](./2026-05-08-artemis-2-far-side-flashes/) |
 | 5-08 | [天舟十号船箭组合体垂直转运至发射区，将于近日择机发射](./2026-05-08-tianzhou-10-vertical-transfer/) |
 | 5-08 | [NASA好奇号火星车被一块27斤岩石「劫持」6天](./2026-05-08-curiosity-mars-rock/) |
 | 5-07 | [Rocket Lab签署五发Neutron火箭合同，2026年末首飞目标不变](./2026-05-07-rocket-lab-five-launch-neutron-deal/) |
@@ -34,7 +35,7 @@ wechatShare:
 | 5-06 | [蓝色起源公布新格伦火箭年产60台上目标](./2026-05-06-blue-origin-60-rockets-year/) |
 | 5-06 | [中国航天员中心招募「地星三号」卧床实验志愿者 最高补助7万元](./2026-05-06-dixing-bed-rest-volunteer/) |
 | 5-07 | [NASA下一代火星直升机旋翼突破音障 超音速飞行测试取得关键进展](./2026-05-07-nasa-mars-helicopter-rotor-mach1/) |
-| 5-07 | [研究称月球最大撞击盆地由「斩首」小行星形成，Artemis宇航员着陆点或在附近](./2026-05-07-south-pole-aitken-asteroid-study/) | |
+| 5-07 | [研究称月球最大撞击盆地由「斩首」小行星形成，Artemis宇航员着陆点或在附近](./2026-05-07-south-pole-aitken-asteroid-study/) |
 | 5-07 | [Artemis 2发射带动佛罗里达太空海岸近35万人观礼](./2026-05-07-artemis-2-space-coast-economy/) |
 | 5-07 | [巴拉圭签署《阿尔忒弥斯协定》，成为第67个缔约方](./2026-05-07-paraguay-artemis-accords/) |
 | 5-07 | [蓝色起源Blue Moon Mark 2登月舱全尺寸模型运抵NASA约翰逊中心](./2026-05-07-lunar-lander-training-cabin/) |

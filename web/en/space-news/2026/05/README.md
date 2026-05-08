@@ -10,6 +10,7 @@ lastUpdated: 2026-05-08
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-08 | [Artemis 2 Crew Witnesses Impact Flashes on the Far Side of the Moon](./2026-05-08-artemis-2-far-side-flashes/) | Artemis |
 | 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10-vertical-transfer/) | China Space |
 | 2026-05-08 | [NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days](./2026-05-08-curiosity-mars-rock/) | NASA |
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
@@ -80,5 +81,7 @@ lastUpdated: 2026-05-08
 | 2026-04-28 | [Long March 10-Yi Rocket Successful Maiden Flight, Tests World's First Marine Flexible Net Recovery Technology](./2026-05-01-changzheng-10-yi-maiden-launch/) | China Space, Launches |
 | 2026-04-20 | [Blue Origin New Glenn NG-3 Mission Fails as Upper Stage Anomaly Sends BlueBird 7 to Wrong Orbit](./2026-05-01-new-glenn-ng3-failure/) | Blue Origin, Launches, Commercial Space |
 | 2026-04-20 | [SpaceX Falcon 9 Completes 600th Booster Recovery, Reusability Enters Maturity Phase](./2026-05-01-spacex-600th-recovery/) | SpaceX, Launches |
+
+---
 
 [← Back to 2026 Archive](../) · [← Back to Space News](../../)
