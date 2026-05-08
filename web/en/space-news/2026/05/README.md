@@ -3,13 +3,15 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-07
+lastUpdated: 2026-05-08
 ---
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10-vertical-transfer/) | China Space |
+| 2026-05-08 | [NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days](./2026-05-08-curiosity-mars-rock/) | NASA |
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
 | 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
 | 2026-05-07 | [Tianzhou-9 Cargo Spacecraft Completes Controlled Reentry, Mission Ends](./2026-05-07-tianzhou-9-reentry/) | China Space |

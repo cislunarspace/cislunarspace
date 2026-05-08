@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-07
+lastUpdated: 2026-05-08
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-08 | [天舟十号船箭组合体垂直转运至发射区，将于近日择机发射](./2026-05-08-tianzhou-10-vertical-transfer/) |
+| 5-08 | [NASA好奇号火星车被一块27斤岩石「劫持」6天](./2026-05-08-curiosity-mars-rock/) |
 | 5-07 | [Rocket Lab签署五发Neutron火箭合同，2026年末首飞目标不变](./2026-05-07-rocket-lab-five-launch-neutron-deal/) |
 | 5-07 | [工信部批复天启星座开展卫星物联网业务商用试验，我国首个相关领域商用试点落地](./2026-05-07-tianqi-satellite-iot-commercial-trial/) |
 | 5-07 | [欧空局「太空骑士」热防护系统通过极端测试](./2026-05-07-esa-space-rider-thermal-protection/) |
