@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-07 | [Rocket Lab签署五发Neutron火箭合同，2026年末首飞目标不变](./2026-05-07-rocket-lab-five-launch-neutron-deal/) |
+| 5-07 | [工信部批复天启星座开展卫星物联网业务商用试验，我国首个相关领域商用试点落地](./2026-05-07-tianqi-satellite-iot-commercial-trial/) |
 | 5-07 | [欧空局「太空骑士」热防护系统通过极端测试](./2026-05-07-esa-space-rider-thermal-protection/) |
 | 5-07 | [NASA资助SNAPPY立方星发射，开启太阳中微子探测新路径](./2026-05-07-snappy-cubesat-launch/) |
 | 5-07 | [天舟九号货运飞船受控再入大气层，使命圆满结束](./2026-05-07-tianzhou-9-reentry/) |
