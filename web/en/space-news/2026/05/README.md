@@ -14,6 +14,8 @@ lastUpdated: 2026-05-08
 | 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10-vertical-transfer/) | China Space |
 | 2026-05-08 | [NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days](./2026-05-08-curiosity-mars-rock/) | NASA |
 | 2026-05-08 | [NASA Tests Regenerative Fuel Cell System for Sustainable Energy Storage on the Moon](./2026-05-08-nasa-fuel-cell-moon/) | NASA |
+| 2026-05-08 | [Blue Origin's Endurance Lander Completes NASA Center Tests, Targeting Late 2027 Launch](./2026-05-08-blue-origin-mk1-nasa-testing/) | Blue Origin |
+| 2026-05-08 | [Machine Learning Discovers Over 10,000 Candidate Exoplanets in NASA Survey Data](./2026-05-08-exoplanets-tess-10000-candidates/) | Science |
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
 | 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
 | 2026-05-07 | [Tianzhou-9 Cargo Spacecraft Completes Controlled Reentry, Mission Ends](./2026-05-07-tianzhou-9-reentry/) | China Space |
