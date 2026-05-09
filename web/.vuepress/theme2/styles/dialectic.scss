@@ -1,0 +1,746 @@
+// Dialectic component styles
+// Visual identity: parchment, scholarly, serif typography, deep earth tones
+
+$dialectic-bg: #f5f0e8;
+$dialectic-bg-secondary: #faf7f2;
+$dialectic-surface: #fffbf0;
+$dialectic-border: #d7ccc8;
+$dialectic-text: #3e2723;
+$dialectic-text-secondary: #6d4c41;
+$dialectic-text-tertiary: #8d6e63;
+$dialectic-accent: #6d4c41;
+$dialectic-accent-hover: #5d4037;
+$dialectic-shadow: 0 4px 24px rgba(62, 39, 35, 0.12);
+$dialectic-radius-sm: 8px;
+$dialectic-radius-md: 12px;
+$dialectic-radius-lg: 16px;
+
+// Dark theme variables
+$dialectic-dark-bg: #1a1510;
+$dialectic-dark-bg-secondary: #201c14;
+$dialectic-dark-surface: #2a2318;
+$dialectic-dark-border: #3d3428;
+$dialectic-dark-text: #e8ddd0;
+$dialectic-dark-text-secondary: #c4b49a;
+$dialectic-dark-text-tertiary: #8a7a65;
+$dialectic-dark-accent: #c4a882;
+$dialectic-dark-accent-hover: #d4b892;
+
+.dialectic-root {
+  --dialectic-bg: #{$dialectic-bg};
+  --dialectic-bg-secondary: #{$dialectic-bg-secondary};
+  --dialectic-surface: #{$dialectic-surface};
+  --dialectic-border: #{$dialectic-border};
+  --dialectic-text: #{$dialectic-text};
+  --dialectic-text-secondary: #{$dialectic-text-secondary};
+  --dialectic-text-tertiary: #{$dialectic-text-tertiary};
+  --dialectic-accent: #{$dialectic-accent};
+  --dialectic-accent-hover: #{$dialectic-accent-hover};
+  --dialectic-radius-sm: #{$dialectic-radius-sm};
+  --dialectic-radius-md: #{$dialectic-radius-md};
+  --dialectic-radius-lg: #{$dialectic-radius-lg};
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--dialectic-bg);
+  color: var(--dialectic-text);
+  font-family: "Songti SC", "SimSun", "Noto Serif SC", Georgia, serif;
+  overflow: hidden;
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  &.dark {
+    --dialectic-bg: #{$dialectic-dark-bg};
+    --dialectic-bg-secondary: #{$dialectic-dark-bg-secondary};
+    --dialectic-surface: #{$dialectic-dark-surface};
+    --dialectic-border: #{$dialectic-dark-border};
+    --dialectic-text: #{$dialectic-dark-text};
+    --dialectic-text-secondary: #{$dialectic-dark-text-secondary};
+    --dialectic-text-tertiary: #{$dialectic-dark-text-tertiary};
+    --dialectic-accent: #{$dialectic-dark-accent};
+    --dialectic-accent-hover: #{$dialectic-dark-accent-hover};
+  }
+}
+
+// ===========================
+// 首页视图
+// ===========================
+.view-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem;
+  overflow-y: auto;
+
+  .home-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .home-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    color: var(--dialectic-text);
+    margin: 0 0 0.5rem;
+  }
+
+  .home-subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    color: var(--dialectic-text-secondary);
+    letter-spacing: 0.2em;
+    margin: 0;
+  }
+
+  .home-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .history-section {
+    width: 100%;
+    max-width: 560px;
+    padding: 0 1rem;
+
+    .history-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding: 0 0.5rem;
+    }
+
+    .history-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: var(--dialectic-text);
+      letter-spacing: 0.15em;
+    }
+  }
+
+  .report-list {
+    background: var(--dialectic-surface);
+    border: 1px solid var(--dialectic-border);
+    border-radius: var(--dialectic-radius-lg);
+    overflow: hidden;
+  }
+
+  .report-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    border-bottom: 1px solid var(--dialectic-border);
+    cursor: pointer;
+    transition: background 0.2s;
+
+    &:last-child { border-bottom: none; }
+    &:hover { background: rgba(109, 76, 65, 0.06); }
+
+    .report-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .report-name {
+      font-size: 1rem;
+      color: var(--dialectic-text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 0.25rem;
+    }
+
+    .report-date {
+      font-size: 0.85rem;
+      color: var(--dialectic-text-tertiary);
+    }
+  }
+
+  .history-empty {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--dialectic-text-tertiary);
+    font-size: 0.95rem;
+  }
+}
+
+// ===========================
+// 报告阅读视图
+// ===========================
+.view-report {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+
+  .report-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--dialectic-border);
+    background: var(--dialectic-surface);
+    flex-shrink: 0;
+  }
+
+  .report-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .report-text {
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: 1rem;
+    line-height: 1.9;
+    color: var(--dialectic-text);
+    margin: 0;
+    font-family: "Songti SC", "SimSun", "Noto Serif SC", Georgia, serif;
+  }
+
+  .report-not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 1rem;
+    color: var(--dialectic-text-tertiary);
+  }
+}
+
+// ===========================
+// 辩证流程视图
+// ===========================
+.view-dialectic {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  background: var(--dialectic-surface);
+  border-bottom: 1px solid var(--dialectic-border);
+  flex-shrink: 0;
+}
+
+.progress-track {
+  position: relative;
+  height: 40px;
+  background: var(--dialectic-surface);
+  border-bottom: 1px solid var(--dialectic-border);
+  flex-shrink: 0;
+  overflow: hidden;
+
+  .progress-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #8d6e63 0%, #a1887f 100%);
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @for $i from 0 through 8 {
+    .progress-step-#{$i} {
+      width: calc((#{$i + 1} / 9) * 100%);
+    }
+  }
+
+  .progress-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 0.85rem;
+    color: var(--dialectic-text-secondary);
+    letter-spacing: 0.05em;
+    font-family: "Songti SC", "SimSun", serif;
+  }
+}
+
+.card-container {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+}
+
+.step-card {
+  width: 100%;
+  max-width: 680px;
+  background: var(--dialectic-surface);
+  border: 1px solid var(--dialectic-border);
+  border-radius: var(--dialectic-radius-lg);
+  box-shadow: var(--dialectic-shadow);
+  overflow: hidden;
+
+  &.card-enter {
+    animation: cardEnter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+@keyframes cardEnter {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--dialectic-border);
+  background: rgba(109, 76, 65, 0.04);
+
+  .step-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--dialectic-text-tertiary);
+    line-height: 1;
+    font-family: Georgia, serif;
+  }
+
+  .step-title {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: var(--dialectic-text);
+    letter-spacing: 0.15em;
+  }
+}
+
+.card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .guide-text {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--dialectic-text-secondary);
+    margin: 0;
+    white-space: pre-wrap;
+  }
+}
+
+.input-textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--dialectic-border);
+  border-radius: var(--dialectic-radius-md);
+  background: #fffdf8;
+  color: var(--dialectic-text);
+  font-size: 0.95rem;
+  font-family: "Songti SC", "SimSun", "Noto Serif SC", Georgia, serif;
+  line-height: 1.8;
+  resize: vertical;
+  transition: border-color 0.2s;
+
+  &:focus {
+    outline: none;
+    border-color: var(--dialectic-accent);
+  }
+
+  &.half {
+    min-height: 100px;
+  }
+
+  &::placeholder {
+    color: var(--dialectic-text-tertiary);
+  }
+}
+
+.template-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(109, 76, 65, 0.08);
+  border: 1px solid rgba(109, 76, 65, 0.2);
+  border-radius: var(--dialectic-radius-md);
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: var(--dialectic-text-secondary);
+  transition: background 0.2s;
+
+  &:hover {
+    background: rgba(109, 76, 65, 0.14);
+  }
+}
+
+.placeholder-hint {
+  padding: 0.75rem 1rem;
+  color: var(--dialectic-text-tertiary);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.ai-bar {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--dialectic-border);
+}
+
+.ai-loading {
+  font-size: 0.88rem;
+  color: var(--dialectic-text-tertiary);
+  padding: 0.5rem 0;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .radio-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--dialectic-border);
+    border-radius: var(--dialectic-radius-md);
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    font-size: 0.95rem;
+    color: var(--dialectic-text);
+
+    input[type="radio"] {
+      accent-color: var(--dialectic-accent);
+      width: 16px;
+      height: 16px;
+    }
+
+    &:hover {
+      background: rgba(109, 76, 65, 0.05);
+    }
+
+    &:has(input:checked) {
+      border-color: var(--dialectic-accent);
+      background: rgba(109, 76, 65, 0.06);
+    }
+  }
+}
+
+.dual-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .box-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--dialectic-text-secondary);
+    letter-spacing: 0.1em;
+    padding-left: 0.25rem;
+  }
+}
+
+.ai-response-box {
+  background: rgba(109, 76, 65, 0.04);
+  border: 1px solid var(--dialectic-border);
+  border-radius: var(--dialectic-radius-md);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 400px;
+  overflow-y: auto;
+
+  .ai-reasoning-wrap {
+    .ai-reasoning-title {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: var(--dialectic-text-tertiary);
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+    }
+
+    .ai-reasoning-body {
+      font-size: 0.88rem;
+      color: var(--dialectic-text-secondary);
+      line-height: 1.7;
+      white-space: pre-wrap;
+    }
+  }
+
+  .ai-content {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--dialectic-text);
+    white-space: pre-wrap;
+  }
+
+  .ai-actions-inline {
+    display: flex;
+    gap: 0.75rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--dialectic-border);
+  }
+}
+
+.card-footer {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--dialectic-border);
+  background: rgba(109, 76, 65, 0.03);
+}
+
+// ===========================
+// 报告加载遮罩
+// ===========================
+.report-loading-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(245, 240, 232, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+
+  .loading-card {
+    background: var(--dialectic-surface);
+    border: 1px solid var(--dialectic-border);
+    border-radius: var(--dialectic-radius-lg);
+    padding: 2rem 2.5rem;
+    text-align: center;
+    box-shadow: var(--dialectic-shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .loading-hint {
+    font-size: 0.88rem;
+    color: var(--dialectic-text-tertiary);
+    margin: 0;
+  }
+}
+
+// ===========================
+// 通用按钮
+// ===========================
+.btn-primary {
+  background: var(--dialectic-accent);
+  color: #fffbf0;
+  font-size: 1.05rem;
+  letter-spacing: 0.2em;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  border-radius: var(--dialectic-radius-md);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s, transform 0.1s;
+
+  &:hover { background: var(--dialectic-accent-hover); }
+  &:active { transform: scale(0.98); }
+  &:disabled { opacity: 0.5; cursor: not-allowed; }
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--dialectic-accent);
+  font-size: 0.95rem;
+  letter-spacing: 0.1em;
+  padding: 0.6rem 1.5rem;
+  border: 1.5px solid var(--dialectic-accent);
+  border-radius: var(--dialectic-radius-md);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s;
+
+  &:hover { background: rgba(109, 76, 65, 0.08); }
+}
+
+.btn-text {
+  background: none;
+  border: none;
+  color: var(--dialectic-text-tertiary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  font-family: "Songti SC", "SimSun", serif;
+
+  &:hover { color: var(--dialectic-accent); }
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  color: var(--dialectic-text-tertiary);
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  font-family: "Songti SC", "SimSun", serif;
+
+  &:hover { color: #c0392b; }
+}
+
+.btn-home {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: none;
+  color: var(--dialectic-text-secondary);
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--dialectic-radius-sm);
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s;
+
+  &:hover { background: rgba(109, 76, 65, 0.08); }
+}
+
+.btn-back {
+  background: none;
+  border: none;
+  color: var(--dialectic-text-secondary);
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--dialectic-radius-sm);
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s;
+
+  &:hover { background: rgba(109, 76, 65, 0.08); }
+}
+
+.btn-primary-sm {
+  background: var(--dialectic-accent);
+  color: #fffbf0;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: var(--dialectic-radius-sm);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s;
+
+  &:hover { background: var(--dialectic-accent-hover); }
+}
+
+.btn-secondary-sm {
+  background: transparent;
+  color: var(--dialectic-accent);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  padding: 0.4rem 1rem;
+  border: 1.5px solid var(--dialectic-border);
+  border-radius: var(--dialectic-radius-sm);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s;
+
+  &:hover { background: rgba(109, 76, 65, 0.08); }
+}
+
+.btn-prev {
+  background: transparent;
+  color: var(--dialectic-text-secondary);
+  font-size: 0.95rem;
+  letter-spacing: 0.1em;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid var(--dialectic-border);
+  border-radius: var(--dialectic-radius-md);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s, border-color 0.2s;
+
+  &:hover {
+    background: rgba(109, 76, 65, 0.06);
+    border-color: var(--dialectic-text-tertiary);
+  }
+}
+
+.btn-submit {
+  flex: 1;
+  background: var(--dialectic-accent);
+  color: #fffbf0;
+  font-size: 0.95rem;
+  letter-spacing: 0.15em;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: var(--dialectic-radius-md);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s, transform 0.1s;
+
+  &:hover { background: var(--dialectic-accent-hover); }
+  &:active { transform: scale(0.99); }
+}
+
+.btn-prev-sm {
+  background: transparent;
+  color: var(--dialectic-text-secondary);
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--dialectic-border);
+  border-radius: var(--dialectic-radius-sm);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s;
+
+  &:hover { background: rgba(109, 76, 65, 0.06); }
+}
+
+.btn-submit-sm {
+  background: var(--dialectic-accent);
+  color: #fffbf0;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border: none;
+  border-radius: var(--dialectic-radius-sm);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s;
+
+  &:hover { background: var(--dialectic-accent-hover); }
+}
+
+.ai-assist-btn {
+  background: transparent;
+  color: var(--dialectic-accent);
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--dialectic-border);
+  border-radius: var(--dialectic-radius-md);
+  cursor: pointer;
+  font-family: "Songti SC", "SimSun", serif;
+  transition: background 0.2s, border-color 0.2s;
+
+  &:hover {
+    background: rgba(109, 76, 65, 0.08);
+    border-color: var(--dialectic-text-tertiary);
+  }
+}
