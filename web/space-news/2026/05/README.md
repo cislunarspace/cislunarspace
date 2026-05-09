@@ -25,6 +25,7 @@ wechatShare:
 | 5-08 | [天舟十号船箭组合体垂直转运至发射区，将于近日择机发射](./2026-05-08-tianzhou-10-vertical-transfer/) |
 | 5-09 | [NASA旅行者号姊妹探测器功率告急，「大爆炸」机动计划延寿](./2026-05-09-voyager-probes-power/) |
 | 5-08 | [NASA与工业界联合推进高性能航天计算芯片研发](./2026-05-08-nasa-spaceflight-computing/) |
+| 5-09 | [Artemis 2指令长与天文摄影师联手 拍出月球背面首批真实色彩照片](./2026-05-09-artemis-2-moon-photos/) |
 | 5-08 | [NASA好奇号火星车被一块27斤岩石「劫持」6天](./2026-05-08-curiosity-mars-rock/) |
 | 5-08 | [NASA成功测试可再生燃料电池系统，为月球基地提供可持续能源存储](./2026-05-08-nasa-fuel-cell-moon/) |
 | 5-08 | [蓝色起源月球着陆器MK1完成NASA中心测试，瞄准2027年末发射](./2026-05-08-blue-origin-mk1-nasa-testing/) |
