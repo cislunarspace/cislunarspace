@@ -12,6 +12,8 @@ lastUpdated: 2026-05-09
 |------|-------|----------|
 | 2026-05-09 | [Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos](./2026-05-09-pentagon-ufo-declassify/) | Policy |
 | 2026-05-09 | [NASA Swift Observatory Rescue Mission Passes Key Testing Milestone](./2026-05-09-nasa-swift-rescue/) | NASA |
+| 2026-05-09 | [Artemis 2 Orion Spacecraft Shows Off Charred Heat Shield in First Public Appearance After Moon Mission](./2026-05-09-artemis-2-orion-hull/) | Artemis |
+| 2026-05-09 | [China's Space Cloud Initiative Unites 100+ Organizations for Integrated Satellite Services](./2026-05-09-china-space-cloud-ecosystem/) | China Space |
 | 2026-05-08 | [Artemis 2 Crew Witnesses Impact Flashes on the Far Side of the Moon](./2026-05-08-artemis-2-far-side-flashes/) | Artemis |
 | 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10-vertical-transfer/) | China Space |
 | 2026-05-08 | [NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days](./2026-05-08-curiosity-mars-rock/) | NASA |
