@@ -19,6 +19,7 @@ wechatShare:
 |------|------|
 | 5-09 | [五角大楼公布首批UFO解密文件，近30段机密视频公开](./2026-05-09-pentagon-ufo-declassify/) |
 | 5-09 | [NASA紧急救援Swift天文台通过关键测试，2026年末执行轨道救援](./2026-05-09-nasa-swift-rescue/) |
+| 5-09 | [Artemis 2猎户座飞船返回地球后首次亮相，隔热罩烧蚀痕迹清晰可见](./2026-05-09-artemis-2-orion-hull/) |
 | 5-08 | [Artemis 2航天员在月球远侧目击撞击闪光，人类航天员首次直接观测太空撞击事件](./2026-05-08-artemis-2-far-side-flashes/) |
 | 5-08 | [天舟十号船箭组合体垂直转运至发射区，将于近日择机发射](./2026-05-08-tianzhou-10-vertical-transfer/) |
 | 5-08 | [NASA好奇号火星车被一块27斤岩石「劫持」6天](./2026-05-08-curiosity-mars-rock/) |
