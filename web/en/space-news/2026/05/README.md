@@ -19,6 +19,7 @@ lastUpdated: 2026-05-09
 | 2026-05-08 | [Blue Origin's Endurance Lander Completes NASA Center Tests, Targeting Late 2027 Launch](./2026-05-08-blue-origin-mk1-nasa-testing/) | Blue Origin |
 | 2026-05-08 | [Machine Learning Discovers Over 10,000 Candidate Exoplanets in NASA Survey Data](./2026-05-08-exoplanets-tess-10000-candidates/) | Science |
 | 2026-05-08 | [NASA, Industry Partner to Advance High Performance Spaceflight Computing](./2026-05-08-nasa-spaceflight-computing/) | nasa |
+| 2026-05-08 | [Black Holes or Neutron Stars Slamming into Wolf-Rayet Stars May Explain Mysterious Blue Flashes](./2026-05-08-lfbort-black-hole-wolf-rayet/) | Science |
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
 | 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
 | 2026-05-07 | [Tianzhou-9 Cargo Spacecraft Completes Controlled Reentry, Mission Ends](./2026-05-07-tianzhou-9-reentry/) | China Space |

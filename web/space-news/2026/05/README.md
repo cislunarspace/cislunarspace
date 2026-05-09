@@ -26,6 +26,7 @@ wechatShare:
 | 5-08 | [蓝色起源月球着陆器MK1完成NASA中心测试，瞄准2027年末发射](./2026-05-08-blue-origin-mk1-nasa-testing/) |
 | 5-08 | [科学家借助机器学习从NASA数据中发现超过10000颗候选系外行星](./2026-05-08-exoplanets-tess-10000-candidates/) |
 | 5-08 | [NASA与工业界联合推进高性能航天计算芯片研发](./2026-05-08-nasa-spaceflight-computing/) |
+| 5-08 | [黑洞或中子星撞击沃尔夫-拉叶星，或可解释宇宙最神秘蓝色爆炸](./2026-05-08-lfbort-black-hole-wolf-rayet/) |
 | 5-07 | [Rocket Lab签署五发Neutron火箭合同，2026年末首飞目标不变](./2026-05-07-rocket-lab-five-launch-neutron-deal/) |
 | 5-07 | [工信部批复天启星座开展卫星物联网业务商用试验，我国首个相关领域商用试点落地](./2026-05-07-tianqi-satellite-iot-commercial-trial/) |
 | 5-07 | [欧空局「太空骑士」热防护系统通过极端测试](./2026-05-07-esa-space-rider-thermal-protection/) |
