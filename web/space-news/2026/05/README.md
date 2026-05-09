@@ -23,10 +23,11 @@ wechatShare:
 | 5-09 | [中国百余家单位联合倡议共建「太空云」生态，推动天基信息服务智能化](./2026-05-09-china-space-cloud-ecosystem/) |
 | 5-08 | [Artemis 2航天员在月球远侧目击撞击闪光，人类航天员首次直接观测太空撞击事件](./2026-05-08-artemis-2-far-side-flashes/) |
 | 5-08 | [天舟十号船箭组合体垂直转运至发射区，将于近日择机发射](./2026-05-08-tianzhou-10-vertical-transfer/) |
+| 5-09 | [NASA旅行者号姊妹探测器功率告急，「大爆炸」机动计划延寿](./2026-05-09-voyager-probes-power/) |
+| 5-08 | [NASA与工业界联合推进高性能航天计算芯片研发](./2026-05-08-nasa-spaceflight-computing/) |
 | 5-08 | [NASA好奇号火星车被一块27斤岩石「劫持」6天](./2026-05-08-curiosity-mars-rock/) |
 | 5-08 | [NASA成功测试可再生燃料电池系统，为月球基地提供可持续能源存储](./2026-05-08-nasa-fuel-cell-moon/) |
 | 5-08 | [蓝色起源月球着陆器MK1完成NASA中心测试，瞄准2027年末发射](./2026-05-08-blue-origin-mk1-nasa-testing/) |
-| 5-08 | [科学家借助机器学习从NASA数据中发现超过10000颗候选系外行星](./2026-05-08-exoplanets-tess-10000-candidates/) |
 | 5-08 | [NASA与工业界联合推进高性能航天计算芯片研发](./2026-05-08-nasa-spaceflight-computing/) |
 | 5-08 | [黑洞或中子星撞击沃尔夫-拉叶星，或可解释宇宙最神秘蓝色爆炸](./2026-05-08-lfbort-black-hole-wolf-rayet/) |
 | 5-07 | [Rocket Lab签署五发Neutron火箭合同，2026年末首飞目标不变](./2026-05-07-rocket-lab-five-launch-neutron-deal/) |
