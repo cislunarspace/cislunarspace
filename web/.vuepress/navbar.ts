@@ -2,8 +2,11 @@ import type { NavbarConfig } from 'vuepress'
 
 export default <NavbarConfig>[
   {
-    text: '卫星轨道仿真教学平台',
-    link: '/satellite-simulation/',
+    text: '探究工具',
+    children: [
+      { text: '卫星轨道仿真教学平台', link: '/satellite-simulation/' },
+      { text: '史学思辨', link: '/dialectic' },
+    ],
   },
   {
     text: '地月空间术语词典',

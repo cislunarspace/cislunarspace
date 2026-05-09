@@ -2,8 +2,11 @@ import type { NavbarConfig } from 'vuepress'
 
 export default <NavbarConfig>[
   {
-    text: 'Satellite Orbit Simulation',
-    link: '/en/satellite-simulation/',
+    text: 'Inquiry Tools',
+    children: [
+      { text: 'Satellite Orbit Simulation', link: '/en/satellite-simulation/' },
+      { text: 'Historical Inquiry', link: '/dialectic' },
+    ],
   },
   {
     text: 'Cislunar Glossary',
