@@ -66,6 +66,8 @@ $$\mathbf{M}(T) \mathbf{v} = \lambda \mathbf{v}$$
 
 其中 $\mathbf{M}(T)$ 为单周期状态转移矩阵，$\lambda$ 为 Floquet 乘数。稳定轨道的 Floquet 乘数位于单位圆上（$|\lambda| = 1$），不稳定轨道则存在 $|\lambda| > 1$ 的乘数。
 
+上述方法适用于 CR3BP 模型下的单圈周期轨道计算。对于真实星历模型（如 JPL DE430）下的多圈 NRHO 计算，需采用多次打靶法并配合特殊的连接点选取策略，详见 [多圈 NRHO 星历模型计算](./ephemeris-computation/)。
+
 ## 敏感性分析
 
 ### 质量比不确定性的影响

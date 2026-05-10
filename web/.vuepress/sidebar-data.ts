@@ -46,6 +46,7 @@ export const sidebarSections: SidebarSection[] = [
           { slug: '', label: { zh: '', en: '' } },
           { slug: 'l1-nrho', label: { zh: 'L1-NRHO', en: 'L1-NRHO' } },
           { slug: 'l2-nrho', label: { zh: 'L2-NRHO', en: 'L2-NRHO' } },
+          { slug: 'ephemeris-computation', label: { zh: '多圈星历计算', en: 'Ephemeris multi-rev computation' } },
           { slug: 'stability-maintenance', label: { zh: '稳定性保持', en: 'Stability maintenance' } },
           { slug: 'gateway-cases', label: { zh: 'Gateway 案例', en: 'Gateway cases' } },
           { slug: 'design-parameters', label: { zh: '设计参数', en: 'Design parameters' } },
