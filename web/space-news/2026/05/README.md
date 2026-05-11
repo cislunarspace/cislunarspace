@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-11
+lastUpdated: 2026-05-12
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-12 | [天舟十号67件科研产品助力空间站：41项科学实验覆盖四大领域](./2026-05-12-tianzhou-10-science-payloads/) |
 | 5-11 | [天舟十号货运飞船发射取得圆满成功](./2026-05-11-tianzhou-10-launch/) |
 | 5-12 | [卫星图像揭示俄罗斯舍维留奇火山内部热量融化积雪](./2026-05-12-shiveluch-volcano-satellite/) |
 | 5-11 | [天舟十号货运飞船与空间站组合体完成交会对接](./2026-05-11-tianzhou-10-docking/) |
