@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-09
+lastUpdated: 2026-05-11
 ---
 
 # May 2026 · Space News
@@ -14,6 +14,7 @@ lastUpdated: 2026-05-09
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
 | 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
+| 2026-05-11 | [NASA Lunar Scientists Train Artemis 2 Astronauts in Specialized Lunar Observation Techniques](./2026-05-11-artemis-2-astronauts-lunar-training/) | Artemis |
 | 2026-05-09 | [Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos](./2026-05-09-pentagon-ufo-declassify/) | Policy |
 | 2026-05-09 | [NASA Swift Observatory Rescue Mission Passes Key Testing Milestone](./2026-05-09-nasa-swift-rescue/) | NASA |
 | 2026-05-09 | [Artemis 2 Orion Spacecraft Shows Off Charred Heat Shield in First Public Appearance After Moon Mission](./2026-05-09-artemis-2-orion-hull/) | Artemis |
