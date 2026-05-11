@@ -3,9 +3,15 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { createRequire } from 'module'
 import { generateAiChatContext } from './gen-ai-chat-context.ts'
-import { buildChatIndex, getTranslationGapReport, buildGlossaryScan } from './build-sidebar.ts'
 import { walkSiteMarkdown } from './utils/markdown-walker.ts'
 import { filesToArticles, buildSidebarData } from './sidebar-transforms.ts'
+import { glossaryCategories } from './glossary-meta.ts'
+import { sidebarSections, type SidebarSection, type SidebarEntry } from './sidebar-data.ts'
+import type { VueSidebarItem } from './sidebar-intake.ts'
+import { buildGlossaryScan } from './intakes/glossary-intake.ts'
+import { buildWayfindingIntake } from './intakes/wayfinding-intake.ts'
+import { buildChatIndexIntake as buildChatIndex } from './intakes/chat-index-intake.ts'
+import { buildTranslationGapIntake as getTranslationGapReport } from './intakes/translation-gap-intake.ts'
 
 const require = createRequire(import.meta.url)
 const categoryMeta: Record<string, { zh: string; en: string; color: string }> = require('./category-meta.json')
@@ -13,6 +19,180 @@ const categoryMeta: Record<string, { zh: string; en: string; color: string }> = 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const webRoot = path.join(__dirname, '..')
+
+// ── Re-exports for backward compatibility ────────────────────────────────────
+
+export { buildGlossaryScan }
+export { buildChatIndex }
+export { getTranslationGapReport }
+
+// ── Sidebar builder helpers (moved from build-sidebar.ts) ──────────────────
+
+function buildSectionChildren(
+  children: SidebarEntry[],
+  basePath: string,
+  locale: 'zh' | 'en',
+): Array<string | VueSidebarItem> {
+  const result: Array<string | VueSidebarItem> = []
+
+  for (const child of children) {
+    if (child.locales && !child.locales.includes(locale)) continue
+
+    const label = child.label[locale]
+
+    if (child.slug === undefined) {
+      const builtChildren = child.children ? buildSectionChildren(child.children, basePath, locale) : []
+      result.push({
+        text: label,
+        collapsible: child.collapsible ?? true,
+        children: builtChildren,
+      })
+      continue
+    }
+
+    if (child.slug === '') {
+      result.push(`${basePath}`)
+      continue
+    }
+
+    const childPath = `${basePath}${child.slug}/`
+
+    if (child.children && child.children.length > 0) {
+      const builtChildren = buildSectionChildren(child.children, childPath, locale)
+      result.push({
+        text: label,
+        link: childPath,
+        collapsible: child.collapsible ?? true,
+        children: builtChildren,
+      })
+    } else {
+      result.push(childPath)
+    }
+  }
+
+  return result
+}
+
+function buildSectionSidebar(section: SidebarSection, locale: 'zh' | 'en'): VueSidebarItem {
+  const prefix = locale === 'en' ? '/en/' : '/'
+  const basePath = `${prefix}${section.slug}/`
+
+  const childrenSource = section.childrenByLocale
+    ? section.childrenByLocale[locale]
+    : section.children
+
+  const children: Array<string | VueSidebarItem> = [
+    basePath,
+    ...buildSectionChildren(childrenSource, basePath, locale),
+  ]
+
+  return {
+    text: section.label[locale],
+    collapsible: false,
+    children,
+  }
+}
+
+function buildGlossarySidebar(
+  scan: ReturnType<typeof buildGlossaryScan>,
+  locale: 'zh' | 'en',
+): VueSidebarItem {
+  const prefix = locale === 'en' ? '/en' : ''
+  const entries = locale === 'en' ? scan.en.entries : scan.zh.entries
+
+  const byCategory = new Map<string, Array<{ slug: string; title: string; path: string }>>()
+  for (const entry of entries) {
+    const catSlug = entry.category.slug
+    if (!byCategory.has(catSlug)) byCategory.set(catSlug, [])
+    byCategory.get(catSlug)!.push(entry)
+  }
+
+  if (locale === 'en') {
+    for (const gap of scan.zh.missing) {
+      const catMeta = glossaryCategories.find(c => c.label.zh === gap.category)
+      if (!catMeta) continue
+      const enCatEntries = byCategory.get(catMeta.slug) || []
+      if (!enCatEntries.some(e => e.slug === gap.slug)) {
+        enCatEntries.push({
+          slug: gap.slug,
+          title: `${gap.zhTitle} (needs translation)`,
+          path: `/en/glossary/${catMeta.slug}/${gap.slug}/`,
+        })
+        byCategory.set(catMeta.slug, enCatEntries)
+      }
+    }
+  }
+
+  const glossaryLabel = locale === 'en'
+    ? 'Cislunar glossary (terms & definitions)'
+    : '地月空间术语词典（定义与概念检索）'
+
+  const categoryChildren: Array<string | VueSidebarItem> = [`${prefix}/glossary/`]
+
+  for (const catMeta of glossaryCategories) {
+    const catEntries = byCategory.get(catMeta.slug) || []
+    if (catEntries.length === 0) continue
+    categoryChildren.push({
+      text: catMeta.label[locale],
+      collapsible: true,
+      children: catEntries.map(e => e.path),
+    })
+  }
+
+  return { text: glossaryLabel, collapsible: false, children: categoryChildren }
+}
+
+// ── Main orchestrator (no JSON file fallback) ─────────────────────────────────
+
+export function buildSidebarConfigs(
+  scan?: ReturnType<typeof buildGlossaryScan>,
+): { zh: Record<string, any>; en: Record<string, any> } {
+  const effectiveScan = scan ?? buildGlossaryScan(walkSiteMarkdown(webRoot))
+
+  const wayfinding = buildWayfindingIntake()
+
+  const sectionSidebars: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {}
+  for (const section of sidebarSections) {
+    sectionSidebars[section.slug] = {
+      zh: buildSectionSidebar(section, 'zh'),
+      en: buildSectionSidebar(section, 'en'),
+    }
+  }
+
+  const glossaryZh = buildGlossarySidebar(effectiveScan, 'zh')
+  const glossaryEn = buildGlossarySidebar(effectiveScan, 'en')
+
+  const zhConfig: Record<string, any> = {
+    '/': [wayfinding.zh],
+    '/what-is-cislunarspace/': [wayfinding.zh, sectionSidebars['what-is-cislunarspace'].zh],
+    '/cislunar-orbits/': [wayfinding.zh, sectionSidebars['cislunar-orbits'].zh],
+    '/research-frontiers/': [wayfinding.zh, sectionSidebars['research-frontiers'].zh],
+    '/glossary/': [wayfinding.zh, glossaryZh],
+    '/background/': [wayfinding.zh, sectionSidebars['background'].zh],
+    '/resources-tools/': [wayfinding.zh, sectionSidebars['resources-tools'].zh],
+    '/blue-team-research/': [wayfinding.zh, sectionSidebars['blue-team-research'].zh],
+    '/space-news/': [wayfinding.zh],
+    '/en/space-news/': [wayfinding.zh],
+    '/satellite-simulation/': false,
+  }
+
+  const enConfig: Record<string, any> = {
+    '/en/': [wayfinding.en],
+    '/en/what-is-cislunarspace/': [wayfinding.en, sectionSidebars['what-is-cislunarspace'].en],
+    '/en/cislunar-orbits/': [wayfinding.en, sectionSidebars['cislunar-orbits'].en],
+    '/en/research-frontiers/': [wayfinding.en, sectionSidebars['research-frontiers'].en],
+    '/en/glossary/': [wayfinding.en, glossaryEn],
+    '/en/background/': [wayfinding.en, sectionSidebars['background'].en],
+    '/en/resources-tools/': [wayfinding.en, sectionSidebars['resources-tools'].en],
+    '/en/blue-team-research/': [wayfinding.en, sectionSidebars['blue-team-research'].en],
+    '/en/space-news/': [wayfinding.en],
+    '/en/satellite-simulation/': false,
+  }
+
+  return { zh: zhConfig, en: enConfig }
+}
+
+// ── Entry point: generate all artifacts ────────────────────────────────────────
 
 // Single filesystem walk — all downstream consumers filter from this result.
 const allFiles = walkSiteMarkdown(webRoot)

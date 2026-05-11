@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url'
 import theme from './theme2/index.js'
 import navbar from './navbar.ts'
 import navbarEn from './navbar-en.ts'
-import { buildSidebarConfigs } from './build-sidebar.ts'
+import { buildSidebarConfigs } from './gen-sidebar.ts'
 import ogMetaPlugin from './og-meta-plugin.ts'
 
 import mk from '@traptitech/markdown-it-katex'
