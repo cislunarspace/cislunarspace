@@ -16,6 +16,7 @@ lastUpdated: 2026-05-11
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
 | 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
 | 2026-05-11 | [NASA Lunar Scientists Train Artemis 2 Astronauts in Specialized Lunar Observation Techniques](./2026-05-11-artemis-2-astronauts-lunar-training/) | Artemis |
+| 2026-05-11 | [Tianzhou-10 Sets 12-Month Space Station Docking Record, China Enters Annual Resupply Mode](./2026-05-11-tianzhou-10-twelve-month-record/) | China Space |
 | 2026-05-09 | [Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos](./2026-05-09-pentagon-ufo-declassify/) | Policy |
 | 2026-05-09 | [NASA Swift Observatory Rescue Mission Passes Key Testing Milestone](./2026-05-09-nasa-swift-rescue/) | NASA |
 | 2026-05-09 | [Artemis 2 Orion Spacecraft Shows Off Charred Heat Shield in First Public Appearance After Moon Mission](./2026-05-09-artemis-2-orion-hull/) | Artemis |
@@ -23,7 +24,7 @@ lastUpdated: 2026-05-11
 | 2026-05-09 | [NASA Voyager Probes Power Dwindling; 'Big Bang' Maneuver Planned to Extend Mission Life](./2026-05-09-voyager-probes-power/) | Science |
 | 2026-05-09 | [Artemis 2 Commander, Astrophotographer Team Up for First-Ever True-Color Photos of the Moon's Far Side](./2026-05-09-artemis-2-moon-photos/) |
 | 2026-05-08 | [Artemis 2 Crew Witnesses Impact Flashes on the Far Side of the Moon](./2026-05-08-artemis-2-far-side-flashes/) | Artemis |
-| 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10-vertical-transfer/) | China Space |
+| 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10vertical-transfer/) | China Space |
 | 2026-05-08 | [NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days](./2026-05-08-curiosity-mars-rock/) | NASA |
 | 2026-05-08 | [NASA Tests Regenerative Fuel Cell System for Sustainable Energy Storage on the Moon](./2026-05-08-nasa-fuel-cell-moon/) | NASA |
 | 2026-05-08 | [Blue Origin's Endurance Lander Completes NASA Center Tests, Targeting Late 2027 Launch](./2026-05-08-blue-origin-mk1-nasa-testing/) | Blue Origin |
