@@ -11,6 +11,7 @@ lastUpdated: 2026-05-11
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Launches Successfully](./2026-05-11-tianzhou-10-launch/) | China Space |
+| 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
 | 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
