@@ -1,12 +1,14 @@
 import fs from 'fs'
 import path from 'path'
-import { parseFrontmatterAndBody, type Frontmatter } from './frontmatter-parser.js'
 
+/**
+ * Represents a markdown file with raw content.
+ * Consumers are responsible for calling parseFrontmatterAndBody() if needed.
+ */
 export interface MarkdownFile {
   absPath: string
   relPath: string   // relative to webRoot, forward slashes
-  frontmatter: Frontmatter
-  body: string
+  content: string   // raw markdown content (not parsed)
 }
 
 export const DEFAULT_EXCLUDED = new Set(['node_modules', 'dist', '.vuepress'])
@@ -53,8 +55,7 @@ export function walkSiteMarkdown(webRoot: string): MarkdownFile[] {
       onFile: (abs, rel) => {
         if (!/\.md$/i.test(abs)) return
         const content = fs.readFileSync(abs, 'utf-8')
-        const { frontmatter, body } = parseFrontmatterAndBody(content)
-        result.push({ absPath: abs, relPath: rel, frontmatter, body })
+        result.push({ absPath: abs, relPath: rel, content })
       },
     },
   )
