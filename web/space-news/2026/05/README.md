@@ -25,6 +25,8 @@ wechatShare:
 | 5-11 | [太阳爆发M5.7级耀斑并伴随日冕物质抛射](./2026-05-11-solar-flare-m57-cme/) |
 | 5-11 | [韦布望远镜新图像揭示星团如何重塑星系](./2026-05-11-jwst-star-clusters-galaxies/) |
 | 5-11 | [NASA月球科学家训练 Artemis 2 航天员"用不同眼睛看月球"](./2026-05-11-artemis-2-astronauts-lunar-training/) |
+| 5-11 | [SpaceX 在范登堡发射 NRO 侦察卫星组网第13批任务](./2026-05-11-nrol-172-falcon-9-vandenberg/) |
+| 5-11 | [Artemis III SLS 火箭核心级抵达肯尼迪航天中心进入总装阶段](./2026-05-11-artemis-3-sls-core-stage-arrives-ksc/) |
 | 5-09 | [五角大楼公布首批UFO解密文件，近30段机密视频公开](./2026-05-09-pentagon-ufo-declassify/) |
 | 5-09 | [NASA紧急救援Swift天文台通过关键测试，2026年末执行轨道救援](./2026-05-09-nasa-swift-rescue/) |
 | 5-09 | [Artemis 2猎户座飞船返回地球后首次亮相，隔热罩烧蚀痕迹清晰可见](./2026-05-09-artemis-2-orion-hull/) |
