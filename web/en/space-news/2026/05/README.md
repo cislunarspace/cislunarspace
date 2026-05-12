@@ -18,6 +18,8 @@ lastUpdated: 2026-05-12
 | 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
 | 2026-05-11 | [NASA Lunar Scientists Train Artemis 2 Astronauts in Specialized Lunar Observation Techniques](./2026-05-11-artemis-2-astronauts-lunar-training/) | Artemis |
 | 2026-05-11 | [Tianzhou-10 Sets 12-Month Space Station Docking Record, China Enters Annual Resupply Mode](./2026-05-11-tianzhou-10-twelve-month-record/) | China Space |
+| 2026-05-11 | [SpaceX Launches NRO Reconnaissance Satellite Constellation Batch 13 from Vandenberg](./2026-05-11-nrol-172-falcon-9-vandenberg/) | SpaceX |
+| 2026-05-11 | [Artemis III SLS Core Stage Arrives at Kennedy Space Center for Final Assembly](./2026-05-11-artemis-3-sls-core-stage-arrives-ksc/) | Artemis |
 | 2026-05-09 | [Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos](./2026-05-09-pentagon-ufo-declassify/) | Policy |
 | 2026-05-09 | [NASA Swift Observatory Rescue Mission Passes Key Testing Milestone](./2026-05-09-nasa-swift-rescue/) | NASA |
 | 2026-05-09 | [Artemis 2 Orion Spacecraft Shows Off Charred Heat Shield in First Public Appearance After Moon Mission](./2026-05-09-artemis-2-orion-hull/) | Artemis |
