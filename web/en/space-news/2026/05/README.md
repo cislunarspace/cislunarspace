@@ -15,6 +15,7 @@ lastUpdated: 2026-05-12
 | 2026-05-12 | [SpaceX Completes First Starship V3 Wet Checkout...](./2026-05-12-starship-v3-wet-checkout/) |
 | 2026-05-12 | [China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station](./2026-05-12-tianzhou-10-space-gym/) |
 | 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
+| 2026-05-12 | [China Launches Qianfan-09 Polar Orbit Satellites on Long March 6 Modified Rocket](./2026-05-12-qianfan-09-long-march-6-modified/) | China Space |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
 | 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
