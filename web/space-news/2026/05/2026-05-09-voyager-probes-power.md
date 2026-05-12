@@ -7,7 +7,6 @@ author: 天疆说
 date: 2026-05-09
 lastUpdated: 2026-05-09
 category: science
-image: ./figures/2026-05-09-voyager-power/hero.jpg
 ---
 
 # NASA旅行者号姊妹探测器功率告急 「大爆炸」机动计划延寿
