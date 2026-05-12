@@ -18,6 +18,8 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 5-12 | [天舟十号67件科研产品助力空间站：41项科学实验覆盖四大领域](./2026-05-12-tianzhou-10-science-payloads/) |
+| 5-12 | [美国星链电力公司获6500万美元融资：太空能源互联网起步](./2026-05-12-star-catcher-series-a/) |
+| 5-12 | [NASA毅力号火星车在火星西部前沿拍摄自拍全景图](./2026-05-12-perseverance-mars-selfie/) |
 | 5-12 | [NASA HPSC芯片进入测试阶段：算力提升100倍，支撑Artemis及火星任务](./2026-05-12-nasa-hpsc-processor-testing/) |
 | 5-11 | [天舟十号货运飞船发射取得圆满成功](./2026-05-11-tianzhou-10-launch/) |
 | 5-12 | [SpaceX完成星舰V3全箭燃料加注...](./2026-05-12-starship-v3-wet-checkout/) |
