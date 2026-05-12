@@ -11,6 +11,8 @@ lastUpdated: 2026-05-13
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-12 | [Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station](./2026-05-12-tianzhou-10-science-payloads/) | China Space |
+| 2026-05-12 | [Star Catcher Raises $65 Million Series A to Build World's First Space Power Grid](./2026-05-12-star-catcher-series-a/) | Commercial |
+| 2026-05-12 | [NASA Perseverance Rover Snaps New Selfie at Mars' Western Frontier](./2026-05-12-perseverance-mars-selfie/) | Science |
 | 2026-05-12 | [NASA's Next-Gen Space Processor Enters Testing: 100x Computing Power for Moon and Mars Missions](./2026-05-12-nasa-hpsc-processor-testing/) | NASA |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Launches Successfully](./2026-05-11-tianzhou-10-launch/) | China Space |
 | 2026-05-12 | [SpaceX Completes First Starship V3 Wet Checkout...](./2026-05-12-starship-v3-wet-checkout/) |
