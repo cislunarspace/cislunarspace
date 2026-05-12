@@ -12,6 +12,7 @@ lastUpdated: 2026-05-12
 |------|-------|----------|
 | 2026-05-12 | [Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station](./2026-05-12-tianzhou-10-science-payloads/) | China Space |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Launches Successfully](./2026-05-11-tianzhou-10-launch/) | China Space |
+| 2026-05-12 | [China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station](./2026-05-12-tianzhou-10-space-gym/) |
 | 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
