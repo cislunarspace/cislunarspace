@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-12
+lastUpdated: 2026-05-13
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -18,6 +18,7 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 5-12 | [天舟十号67件科研产品助力空间站：41项科学实验覆盖四大领域](./2026-05-12-tianzhou-10-science-payloads/) |
+| 5-12 | [NASA HPSC芯片进入测试阶段：算力提升100倍，支撑Artemis及火星任务](./2026-05-12-nasa-hpsc-processor-testing/) |
 | 5-11 | [天舟十号货运飞船发射取得圆满成功](./2026-05-11-tianzhou-10-launch/) |
 | 5-12 | [SpaceX完成星舰V3全箭燃料加注...](./2026-05-12-starship-v3-wet-checkout/) |
 | 5-12 | [天舟十号给「天宫」送去新型跑步机：太空健身房升级换代](./2026-05-12-tianzhou-10-space-gym/) |
