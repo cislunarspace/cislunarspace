@@ -1,12 +1,5 @@
 /**
- * ChatEngine seams — the swappable interfaces behind ChatSession.
- *
- * Two seams:
- * - Router: selects relevant content paths from the site index
- * - Answerer: generates the answer from selected paths and context
- *
- * Having two adapters at each seam means the seam is real (per the "two adapters = a real seam" rule).
- * The default adapters are LLMCallRouter and StreamingAnswerer (current inline behavior).
+ * Swappable seams behind ChatSession.
  */
 import type {
   NormalizedConfig,
@@ -16,20 +9,12 @@ import type {
   SiteContext,
 } from './chat-types'
 
-// ── Routing result ─────────────────────────────────────────────────────────────
-
 export interface RoutingResult {
-  /** Chosen content paths from the site index. */
   paths: string[]
-  /** Full site context (needed by the UI to show excerpt indicators). */
   context: SiteContext | null
-  /** Whether two-phase retrieval was used (vs. single-phase fallback). */
   usedTwoPhase: boolean
-  /** System prompt for the answer phase — includes context blob if usedTwoPhase. */
   systemPrompt: string
 }
-
-// ── Router seam ───────────────────────────────────────────────────────────────
 
 export interface RouterCallbacks {
   onPathsChosen(paths: string[]): void
@@ -47,10 +32,24 @@ export interface Router {
     config: NormalizedConfig
     locale: 'zh' | 'en'
     callbacks: RouterCallbacks
+    signal: AbortSignal
   }): Promise<RoutingResult>
 }
 
-// ── Keyword router (fallback) ──────────────────────────────────────────────────
+export interface ChatTransport {
+  completeJson(endpoint: string, payload: Record<string, unknown>, signal: AbortSignal): Promise<unknown>
+  completeStream(endpoint: string, payload: Record<string, unknown>, signal: AbortSignal): Promise<ReadableStreamDefaultReader<Uint8Array> | null>
+}
+
+export interface ContextLoader {
+  loadSiteContext(signal: AbortSignal): Promise<SiteContext>
+}
+
+export interface ChatSessionDeps {
+  router?: Router
+  transport?: ChatTransport
+  contextLoader?: ContextLoader
+}
 
 export function keywordRouter(params: {
   question: string
@@ -66,13 +65,13 @@ export function keywordRouter(params: {
     paths,
     context: null,
     usedTwoPhase: false,
-    systemPrompt: '', // filled in by ChatSession after routing
+    systemPrompt: '',
   })
 }
 
 function fallbackKeywordPaths(question: string, indexRows: IndexRow[], max: number): string[] {
   const q = question.toLowerCase()
-  const scored = indexRows.map(row => {
+  const scored = indexRows.map((row) => {
     const title = row.title.toLowerCase()
     const path = row.path.toLowerCase()
     let score = 0
@@ -82,5 +81,5 @@ function fallbackKeywordPaths(question: string, indexRows: IndexRow[], max: numb
     }
     return { path: row.path, score }
   })
-  return scored.filter(x => x.score > 0).sort((a, b) => b.score - a.score).slice(0, max).map(x => x.path)
+  return scored.filter((x) => x.score > 0).sort((a, b) => b.score - a.score).slice(0, max).map((x) => x.path)
 }
