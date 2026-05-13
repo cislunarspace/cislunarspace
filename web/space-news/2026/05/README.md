@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-13
+lastUpdated: 2026-05-14
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,11 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-13 | [世界首次：人工胚胎样本在中国空间站进入太空实验阶段](./2026-05-13-tianzhou-10-artificial-embryo/) |
+| 5-13 | [蓝色起源Blue Moon Mark 2登月舱模拟器进驻NASA约翰逊中心](./2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/) |
+| 5-13 | [天照粒子与宇宙射线起源：60年谜团或破解](./2026-05-13-cosmic-rays-amaterasu-particle-origin/) |
+| 5-13 | [NASA公布阿尔忒弥斯三号任务初步计划：2027年在近地轨道测试交会对接](./2026-05-13-nasa-artemis-3-plans/) |
+| 5-13 | [谷歌与SpaceX洽谈在轨数据中心发射合作：双方可能在太空算力领域形成競合关系](./2026-05-13-google-spacex-orbital-data-center/) |
 | 5-12 | [天舟十号67件科研产品助力空间站：41项科学实验覆盖四大领域](./2026-05-12-tianzhou-10-science-payloads/) |
 | 5-12 | [美国星链电力公司获6500万美元融资：太空能源互联网起步](./2026-05-12-star-catcher-series-a/) |
 | 5-12 | [NASA毅力号火星车在火星西部前沿拍摄自拍全景图](./2026-05-12-perseverance-mars-selfie/) |
@@ -28,6 +33,9 @@ wechatShare:
 | 5-12 | [卫星图像揭示俄罗斯舍维留奇火山内部热量融化积雪](./2026-05-12-shiveluch-volcano-satellite/) |
 | 5-12 | [长征六号改成功发射千帆极轨09组卫星](./2026-05-12-qianfan-09-long-march-6-modified/) |
 | 5-12 | [新研究称天王星与海王星大气层主要由岩石构成：冰巨星传统认知或被颠覆](./2026-05-12-uranus-neptune-ice-giants/) |
+| 5-12 | [美国太空军发布军官职业发展路径图](./2026-05-12-us-space-force-officer-career-path/) |
+| 5-12 | [NASA与SpaceX因天气原因取消CRS-34发射，目标5月13日再次尝试](./2026-05-12-crs-34-scrub-weather/) |
+| 5-13 | [美国会预算办公室估算「金穹」计划20年耗资1.2万亿美元](./2026-05-13-golden-dome-cbo-cost/) |
 | 5-13 | [美国Cowboy Space获2.75亿美元融资：计划在地球轨道部署AI数据中心](./2026-05-13-cowboy-space-orbital-ai-data-centers/) |
 | 5-11 | [天舟十号货运飞船与空间站组合体完成交会对接](./2026-05-11-tianzhou-10-docking/) |
 | 5-11 | [天舟十号将创造12个月在轨停靠纪录，中国空间站补给迈入「年度模式」](./2026-05-11-tianzhou-10-twelve-month-record/) |
