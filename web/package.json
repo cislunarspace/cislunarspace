@@ -5,7 +5,7 @@
   "scripts": {
     "gen-sidebar": "tsx .vuepress/gen-sidebar.ts",
     "docs:dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
-    "docs:build": "npm run gen-sidebar && NODE_OPTIONS='--max-old-space-size=8192' vuepress build . && npm run sync-figures",
+    "docs:build": "npm run gen-sidebar && node --max-old-space-size=8192 ./node_modules/vuepress/bin/vuepress.js build . && npm run sync-figures",
     "sync-figures": "tsx .vuepress/sync-figures.js",
     "test": "vitest run",
     "test:watch": "vitest"
