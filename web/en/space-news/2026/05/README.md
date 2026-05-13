@@ -3,13 +3,17 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-13
+lastUpdated: 2026-05-14
 ---
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-13 | [World First: Artificial Human Embryos Enter Space Experiment Phase on China's Space Station](./2026-05-13-tianzhou-10-artificial-embryo/) | China Space |
+| 2026-05-13 | [Blue Origin's Blue Moon Lander Mockup Assembled at NASA JSC for Artemis Training](./2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/) | Artemis |
+| 2026-05-13 | [Amaterasu Particle and Cosmic Ray Origins: 60-Year Mystery May Be Solved](./2026-05-13-cosmic-rays-amaterasu-particle-origin/) | Science |
+| 2026-05-13 | [NASA Outlines Preliminary Artemis III Plans: 2027 Earth Orbit Rendezvous Test](./2026-05-13-nasa-artemis-3-plans/) | Artemis |
 | 2026-05-12 | [Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station](./2026-05-12-tianzhou-10-science-payloads/) | China Space |
 | 2026-05-12 | [Star Catcher Raises $65 Million Series A to Build World's First Space Power Grid](./2026-05-12-star-catcher-series-a/) | Commercial |
 | 2026-05-12 | [NASA Perseverance Rover Snaps New Selfie at Mars' Western Frontier](./2026-05-12-perseverance-mars-selfie/) | Science |
@@ -21,6 +25,10 @@ lastUpdated: 2026-05-13
 | 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
 | 2026-05-12 | [China Launches Qianfan-09 Polar Orbit Satellites on Long March 6 Modified Rocket](./2026-05-12-qianfan-09-long-march-6-modified/) | China Space |
 | 2026-05-12 | [New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification](./2026-05-12-uranus-neptune-ice-giants/) |
+| 2026-05-12 | [US Space Force Releases Officer Career Development Path Document](./2026-05-12-us-space-force-officer-career-path/) | Policy & Strategy |
+| 2026-05-12 | [NASA, SpaceX Scrub CRS-34 Launch Due to Poor Weather, Target May 13](./2026-05-12-crs-34-scrub-weather/) | SpaceX |
+| 2026-05-13 | [CBO Estimates US Golden Dome Missile Defense Could Cost $1.2 Trillion Over 20 Years](./2026-05-13-golden-dome-cbo-cost/) |
+| 2026-05-13 | [Google in Talks with SpaceX Over Orbital Data Center Launch Deal](./2026-05-13-google-spacex-orbital-data-center/) | Commercial Space |
 | 2026-05-13 | [Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit](./2026-05-13-cowboy-space-orbital-ai-data-centers/) | Commercial |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
