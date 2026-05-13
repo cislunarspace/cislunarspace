@@ -19,6 +19,7 @@ lastUpdated: 2026-05-13
 | 2026-05-12 | [China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station](./2026-05-12-tianzhou-10-space-gym/) |
 | 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
 | 2026-05-12 | [China Launches Qianfan-09 Polar Orbit Satellites on Long March 6 Modified Rocket](./2026-05-12-qianfan-09-long-march-6-modified/) | China Space |
+| 2026-05-12 | [New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification](./2026-05-12-uranus-neptune-ice-giants/) |
 | 2026-05-13 | [Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit](./2026-05-13-cowboy-space-orbital-ai-data-centers/) | Commercial |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
