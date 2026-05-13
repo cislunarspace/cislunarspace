@@ -16,7 +16,6 @@ lastUpdated: 2026-05-13
 | 2026-05-12 | [NASA's Next-Gen Space Processor Enters Testing: 100x Computing Power for Moon and Mars Missions](./2026-05-12-nasa-hpsc-processor-testing/) | NASA |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Launches Successfully](./2026-05-11-tianzhou-10-launch/) | China Space |
 | 2026-05-12 | [SpaceX Completes First Starship V3 Wet Checkout...](./2026-05-12-starship-v3-wet-checkout/) |
-| 2026-05-12 | [SpaceX Fuels Up Full Starship V3 Stack for the First Time: Launch Window Targets May 19 from Pad 2](./2026-05-13-starship-v3-first-fueling/) | SpaceX |
 | 2026-05-12 | [SpaceX Targets May 19 for Starship V3 Debut from Launch Pad 2](./2026-05-13-starship-v3-launch-pad-2-may-19/) | SpaceX |
 | 2026-05-12 | [China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station](./2026-05-12-tianzhou-10-space-gym/) |
 | 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
