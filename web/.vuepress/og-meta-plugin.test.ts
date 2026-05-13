@@ -23,6 +23,11 @@ describe('ogMetaPlugin', () => {
     return entry?.[1]?.content
   }
 
+  const getNamedMetaContent = (head: any[], name: string) => {
+    const entry = head.find(([tag, attrs]) => tag === 'meta' && attrs.name === name)
+    return entry?.[1]?.content
+  }
+
   describe('relative image path resolution', () => {
     test('resolves ./figures/ image path for path with trailing slash', () => {
       const page = createMockPage('/space-news/2026/05/2026-05-11-article/', {
@@ -75,5 +80,35 @@ describe('ogMetaPlugin', () => {
       const head = captureHead(page)
       expect(getMetaContent(head, 'og:image')).toBe('https://cislunarspace.cn/logo.png')
     })
+  })
+
+  test('applies WeChat share fields to OG and Twitter tags', () => {
+    const page = createMockPage('/space-news/2026/05/article/', {
+      title: 'Article title',
+      description: 'Article description',
+      image: './figures/hero.jpg',
+      wechatShare: {
+        title: 'WeChat title',
+        desc: 'WeChat description',
+        image: './figures/wechat.jpg',
+      },
+    })
+    const head = captureHead(page)
+
+    expect(getMetaContent(head, 'og:title')).toBe('WeChat title')
+    expect(getNamedMetaContent(head, 'twitter:title')).toBe('WeChat title')
+    expect(getMetaContent(head, 'og:description')).toBe('WeChat description')
+    expect(getNamedMetaContent(head, 'twitter:description')).toBe('WeChat description')
+    expect(getMetaContent(head, 'og:image')).toBe(
+      'https://cislunarspace.cn/space-news/2026/05/figures/wechat.jpg'
+    )
+  })
+
+  test('uses locale-specific site names', () => {
+    const zhHead = captureHead(createMockPage('/space-news/2026/05/article/'))
+    const enHead = captureHead(createMockPage('/en/space-news/2026/05/article/'))
+
+    expect(getMetaContent(zhHead, 'og:site_name')).toBe('地月空间入门指南')
+    expect(getMetaContent(enHead, 'og:site_name')).toBe("Cislunar Space Beginner's Guide")
   })
 })

@@ -1,5 +1,4 @@
 import { defineClientConfig } from '@vuepress/client'
-import { LayoutTypes } from './utils/layout-types'
 import { useRouter } from 'vue-router'
 import { usePage } from 'vuepress/client'
 import { watch } from 'vue'
@@ -17,19 +16,11 @@ import Dialectic from './components/Dialectic.vue'
 import Forum from './components/Forum.vue'
 import OrbitSimLab from './components/OrbitSimLab.vue'
 import type { PageData } from './utils/types'
-import { resolveFrontmatterImage } from './utils/imageUrl'
+import { normalizePageMetadata } from '../page-metadata'
 import { configureWechatShare } from './composables/useWechatShare'
 import { updateOgMeta } from './composables/useOgMeta'
 import { useScrollReveal } from './composables/useScrollReveal'
 import { useLocalePersistence } from './composables/useLocalePersistence'
-
-function toAbsoluteUrl(input: string) {
-  if (!input) return ''
-  if (/^https?:\/\//i.test(input)) return input
-  const origin = window.location.origin
-  const normalized = input.startsWith('/') ? input : `/${input}`
-  return new URL(normalized, origin).toString()
-}
 
 export default defineClientConfig({
   layouts: {
@@ -58,32 +49,30 @@ export default defineClientConfig({
     function buildShareData() {
       if (typeof window === 'undefined') return null
       const fm = (page.value as PageData).frontmatter || {}
-      const routePath = router.currentRoute.value.path
-
-      let shareImage = toAbsoluteUrl('/logo.png')
-      const resolved = resolveFrontmatterImage(fm.image, routePath)
-      if (fm.wechatShare?.image) {
-        shareImage = toAbsoluteUrl(fm.wechatShare.image)
-      } else if (resolved) {
-        shareImage = toAbsoluteUrl(resolved)
-      }
-
-      const title = fm.wechatShare?.title || (fm.title as string | undefined) || document.title
-      const desc = fm.wechatShare?.desc
-        || (fm.description as string | undefined)
-        || (document.querySelector('meta[name="description"]') as HTMLMetaElement)?.content
-        || ''
       const link = window.location.href.split('#')[0]
+      const metadata = normalizePageMetadata({
+        path: router.currentRoute.value.path,
+        frontmatter: fm,
+        siteBaseUrl: window.location.origin,
+        pageUrl: link,
+        fallbackTitle: document.title,
+        fallbackDescription: (document.querySelector('meta[name="description"]') as HTMLMetaElement)?.content || '',
+      })
 
-      return { title, desc, imgUrl: shareImage, link, fm }
+      return {
+        title: metadata.share.title,
+        desc: metadata.share.description,
+        imgUrl: metadata.share.image,
+        link: metadata.share.url,
+        type: metadata.type,
+      }
     }
 
     function setupShare() {
       const data = buildShareData()
       if (!data) return
       configureWechatShare(data).catch(() => {})
-      const ogType = data.fm.layout === LayoutTypes.SpaceNewsArticle ? 'article' : 'website'
-      updateOgMeta(data.title, data.desc, data.imgUrl, data.link, ogType)
+      updateOgMeta(data.title, data.desc, data.imgUrl, data.link, data.type)
     }
 
     setupShare()
