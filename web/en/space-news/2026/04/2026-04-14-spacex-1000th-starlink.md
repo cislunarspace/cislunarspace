@@ -7,7 +7,7 @@ author: Tianjiangshuo
 date: 2026-04-14
 lastUpdated: 2026-04-14
 category: [spacex, commercial]
-image: null
+image: ./figures/2026-04-14-spacex-1000th-starlink/hero.jpg
 wechatShare:
   title: "SpaceX Deploys 1,000th Starlink Satellite of 2026"
   desc: "SpaceX successfully launched its 1,000th Starlink satellite of 2026 via Falcon 9, marking the company's 37th dedicated Starlink mission of the year with 1,002 total Starlink satellites deployed in 2026."

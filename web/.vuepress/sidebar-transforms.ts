@@ -3,6 +3,7 @@
  * These functions have no side effects — given the same inputs, they always return the same outputs.
  */
 import path from 'path'
+import { parseFrontmatterAndBody } from './utils/frontmatter-parser'
 import type {
   Article,
   SidebarLatestItem,
@@ -10,7 +11,7 @@ import type {
   SidebarMonth,
   SidebarYear,
   SidebarData,
-} from './gen-sidebar-types'
+} from './sidebar-types'
 import type { MarkdownFile } from './utils/markdown-walker'
 
 const categoryMetaDefault = { zh: '', en: '', color: '#64748b' }
@@ -23,25 +24,27 @@ export function filesToArticles(
   return files
     .filter(f => {
       const filename = path.basename(f.relPath)
+      const { frontmatter } = parseFrontmatterAndBody(f.content)
       return (
         f.relPath.startsWith(relPathPrefix) &&
         !filename.startsWith('README') &&
-        f.frontmatter.draft !== true
+        frontmatter.draft !== true
       )
     })
     .map(f => {
+      const { frontmatter } = parseFrontmatterAndBody(f.content)
       const relFromBase = f.relPath.slice(relPathPrefix.length)
       const pagePath =
-        (f.frontmatter.permalink as string | undefined) ||
+        (frontmatter.permalink as string | undefined) ||
         urlPrefix + relFromBase.replace(/\.md$/i, '/')
 
-      let imageUrl: string | null = (f.frontmatter.image as string | undefined) || null
+      let imageUrl: string | null = (frontmatter.image as string | undefined) || null
       if (imageUrl && imageUrl.startsWith('./')) {
         const mdDir = '/' + f.relPath.replace(/\/[^/]+$/, '') + '/'
         imageUrl = mdDir + imageUrl.slice(2)
       }
 
-      const rawCategory = f.frontmatter.category || null
+      const rawCategory = frontmatter.category || null
       const categories = Array.isArray(rawCategory)
         ? rawCategory
         : rawCategory ? [rawCategory as string] : []
@@ -49,11 +52,11 @@ export function filesToArticles(
       return {
         relativePath: f.relPath,
         path: pagePath,
-        title: (f.frontmatter.title as string | undefined) || '',
-        description: (f.frontmatter.description as string | undefined) || '',
-        date: (f.frontmatter.date as string | undefined) || null,
-        lastUpdated: (f.frontmatter.lastUpdated as string | undefined) || null,
-        author: (f.frontmatter.author as string | undefined) || null,
+        title: (frontmatter.title as string | undefined) || '',
+        description: (frontmatter.description as string | undefined) || '',
+        date: (frontmatter.date as string | undefined) || null,
+        lastUpdated: (frontmatter.lastUpdated as string | undefined) || null,
+        author: (frontmatter.author as string | undefined) || null,
         category: categories.length ? categories : null,
         image: imageUrl,
       }

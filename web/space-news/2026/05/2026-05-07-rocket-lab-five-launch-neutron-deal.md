@@ -7,7 +7,6 @@ author: 天疆说
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: rocket-lab
-image: ./figures/rocket-lab-five-launch-neutron-deal/hero.jpg
 ---
 
 # Rocket Lab签署五发Neutron火箭合同 2026年末首飞目标不变

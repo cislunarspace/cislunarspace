@@ -6,7 +6,7 @@ import { describe, it, expect } from 'vitest'
 import path from 'path'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
-import type { Article, SidebarLatestItem, SidebarCategory, SidebarMonth, SidebarYear, SidebarData } from './gen-sidebar-types'
+import type { Article, SidebarLatestItem, SidebarCategory, SidebarMonth, SidebarYear, SidebarData } from './sidebar-types'
 import { filesToArticles, buildSidebarData } from './sidebar-transforms'
 
 // We'll import the functions we need to test.
@@ -15,16 +15,29 @@ import { filesToArticles, buildSidebarData } from './sidebar-transforms'
 
 // ── Mock MarkdownFile factory ──────────────────────────────────────────────────
 
+/**
+ * Helper to create a MarkdownFile with frontmatter.
+ * The content string is what parseFrontmatterAndBody expects.
+ */
 function makeMarkdownFile(partial: {
   relPath?: string
   frontmatter?: Record<string, unknown>
-  body?: string
 }) {
+  const fm = partial.frontmatter ?? {}
+  const fmLines = Object.entries(fm).map(([k, v]) => {
+    if (Array.isArray(v)) {
+      return `${k}:\n${v.map(item => `  - ${item}`).join('\n')}`
+    }
+    return `${k}: ${v}`
+  })
+  const content = fmLines.length > 0
+    ? `---\n${fmLines.join('\n')}\n---\n\n# Body`
+    : '# Just content'
+
   return {
     absPath: `/web/${partial.relPath ?? 'test.md'}`,
     relPath: partial.relPath ?? 'test.md',
-    frontmatter: partial.frontmatter ?? {},
-    body: partial.body ?? '',
+    content,
   }
 }
 

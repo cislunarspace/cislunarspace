@@ -3,17 +3,40 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-09
+lastUpdated: 2026-05-13
 ---
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-12 | [Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station](./2026-05-12-tianzhou-10-science-payloads/) | China Space |
+| 2026-05-12 | [Star Catcher Raises $65 Million Series A to Build World's First Space Power Grid](./2026-05-12-star-catcher-series-a/) | Commercial |
+| 2026-05-12 | [NASA Perseverance Rover Snaps New Selfie at Mars' Western Frontier](./2026-05-12-perseverance-mars-selfie/) | Science |
+| 2026-05-12 | [NASA's Next-Gen Space Processor Enters Testing: 100x Computing Power for Moon and Mars Missions](./2026-05-12-nasa-hpsc-processor-testing/) | NASA |
+| 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Launches Successfully](./2026-05-11-tianzhou-10-launch/) | China Space |
+| 2026-05-12 | [SpaceX Completes First Starship V3 Wet Checkout...](./2026-05-12-starship-v3-wet-checkout/) |
+| 2026-05-12 | [SpaceX Fuels Up Full Starship V3 Stack for the First Time: Launch Window Targets May 19 from Pad 2](./2026-05-13-starship-v3-first-fueling/) | SpaceX |
+| 2026-05-12 | [SpaceX Targets May 19 for Starship V3 Debut from Launch Pad 2](./2026-05-13-starship-v3-launch-pad-2-may-19/) | SpaceX |
+| 2026-05-12 | [China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station](./2026-05-12-tianzhou-10-space-gym/) |
+| 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
+| 2026-05-12 | [China Launches Qianfan-09 Polar Orbit Satellites on Long March 6 Modified Rocket](./2026-05-12-qianfan-09-long-march-6-modified/) | China Space |
+| 2026-05-12 | [New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification](./2026-05-12-uranus-neptune-ice-giants/) |
+| 2026-05-13 | [Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit](./2026-05-13-cowboy-space-orbital-ai-data-centers/) | Commercial |
+| 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
+| 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
+| 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
+| 2026-05-11 | [NASA Lunar Scientists Train Artemis 2 Astronauts in Specialized Lunar Observation Techniques](./2026-05-11-artemis-2-astronauts-lunar-training/) | Artemis |
+| 2026-05-11 | [Tianzhou-10 Sets 12-Month Space Station Docking Record, China Enters Annual Resupply Mode](./2026-05-11-tianzhou-10-twelve-month-record/) | China Space |
+| 2026-05-11 | [China Unveils Shenzhou-23 Crewed Mission Badge: Circular Emblem Blends Tradition and Modernity](./2026-05-11-shenzhou-23-mission-badge/) | China Space |
+| 2026-05-11 | [SpaceX Launches NRO Reconnaissance Satellite Constellation Batch 13 from Vandenberg](./2026-05-11-nrol-172-falcon-9-vandenberg/) | SpaceX |
+| 2026-05-11 | [Artemis III SLS Core Stage Arrives at Kennedy Space Center for Final Assembly](./2026-05-11-artemis-3-sls-core-stage-arrives-ksc/) | Artemis |
 | 2026-05-09 | [Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos](./2026-05-09-pentagon-ufo-declassify/) | Policy |
 | 2026-05-09 | [NASA Swift Observatory Rescue Mission Passes Key Testing Milestone](./2026-05-09-nasa-swift-rescue/) | NASA |
 | 2026-05-09 | [Artemis 2 Orion Spacecraft Shows Off Charred Heat Shield in First Public Appearance After Moon Mission](./2026-05-09-artemis-2-orion-hull/) | Artemis |
 | 2026-05-09 | [China's Space Cloud Initiative Unites 100+ Organizations for Integrated Satellite Services](./2026-05-09-china-space-cloud-ecosystem/) | China Space |
+| 2026-05-09 | [NASA Voyager Probes Power Dwindling; 'Big Bang' Maneuver Planned to Extend Mission Life](./2026-05-09-voyager-probes-power/) | Science |
+| 2026-05-09 | [Artemis 2 Commander, Astrophotographer Team Up for First-Ever True-Color Photos of the Moon's Far Side](./2026-05-09-artemis-2-moon-photos/) | Artemis |
 | 2026-05-08 | [Artemis 2 Crew Witnesses Impact Flashes on the Far Side of the Moon](./2026-05-08-artemis-2-far-side-flashes/) | Artemis |
 | 2026-05-08 | [Tianzhou-10 Cargo Spacecraft Vertical Transfer Completed, Launch Imminent](./2026-05-08-tianzhou-10-vertical-transfer/) | China Space |
 | 2026-05-08 | [NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days](./2026-05-08-curiosity-mars-rock/) | NASA |

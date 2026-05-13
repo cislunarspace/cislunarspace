@@ -2,9 +2,10 @@
  * GlossaryIntake — pure transform from MarkdownFile[] to GlossaryScan.
  */
 import path from 'path'
-import { glossaryCategories } from '../glossary-meta.js'
+import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.js'
+import { categoryRegistry } from '../glossary-meta.js'
 import type { MarkdownFile } from '../utils/markdown-walker.js'
-import type { GlossaryScan, TranslationGap } from '../sidebar-intake.js'
+import type { GlossaryScan, TranslationGap } from '../sidebar-types.js'
 
 export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
   const isReadme = (f: MarkdownFile) => path.basename(f.relPath).startsWith('README')
@@ -22,10 +23,11 @@ export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
     if (parts.length !== 3) continue
     const [, categorySlug, filename] = parts
     const slug = filename.replace(/\.md$/i, '')
-    const category = glossaryCategories.find(c => c.slug === categorySlug)
+    const category = categoryRegistry.getBySlug(categorySlug)
     if (!category) continue
 
-    const title = (file.frontmatter.title && String(file.frontmatter.title)) || slug
+    const { frontmatter } = parseFrontmatterAndBody(file.content)
+    const title = (frontmatter.title && String(frontmatter.title)) || slug
     zhEntries.push({ slug, title, path: `/glossary/${categorySlug}/${slug}/`, category })
 
     if (!enRelPaths.has(`en/glossary/${categorySlug}/${filename}`)) {
@@ -40,10 +42,11 @@ export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
     if (parts.length !== 4) continue
     const [, , categorySlug, filename] = parts
     const slug = filename.replace(/\.md$/i, '')
-    const category = glossaryCategories.find(c => c.slug === categorySlug)
+    const category = categoryRegistry.getBySlug(categorySlug)
     if (!category) continue
 
-    const title = (file.frontmatter.title && String(file.frontmatter.title)) || slug
+    const { frontmatter } = parseFrontmatterAndBody(file.content)
+    const title = (frontmatter.title && String(frontmatter.title)) || slug
     enEntries.push({ slug, title, path: `/en/glossary/${categorySlug}/${slug}/`, category })
   }
 

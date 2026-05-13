@@ -1,7 +1,7 @@
 /**
  * WayfindingIntake — hardcoded site-map tree builder.
  */
-import type { VueSidebarItem } from '../sidebar-intake.js'
+import type { VueSidebarItem } from '../sidebar-types.js'
 
 export function buildWayfindingIntake(): { zh: VueSidebarItem; en: VueSidebarItem } {
   const enItems: Array<{ link: string; text: string; children: string[] }> = [

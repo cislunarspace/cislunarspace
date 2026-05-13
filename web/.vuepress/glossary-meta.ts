@@ -9,6 +9,26 @@ export interface GlossaryCategoryMeta {
   order: number
 }
 
+export class GlossaryCategoryRegistry {
+  private bySlug: Map<string, GlossaryCategoryMeta>
+  private byLabelZh: Map<string, GlossaryCategoryMeta>
+  private byLabelEn: Map<string, GlossaryCategoryMeta>
+
+  constructor(categories: GlossaryCategoryMeta[]) {
+    this.bySlug = new Map(categories.map(c => [c.slug, c]))
+    this.byLabelZh = new Map(categories.map(c => [c.label.zh, c]))
+    this.byLabelEn = new Map(categories.map(c => [c.label.en, c]))
+  }
+
+  getBySlug(slug: string): GlossaryCategoryMeta | undefined {
+    return this.bySlug.get(slug)
+  }
+
+  getByLabel(label: string, locale: 'zh' | 'en' = 'zh'): GlossaryCategoryMeta | undefined {
+    return locale === 'zh' ? this.byLabelZh.get(label) : this.byLabelEn.get(label)
+  }
+}
+
 export const glossaryCategories: GlossaryCategoryMeta[] = [
   { slug: 'fundamentals', label: { zh: '基础概念', en: 'Fundamentals' }, order: 1 },
   { slug: 'dynamics', label: { zh: '动力学与数学基础', en: 'Dynamics & Math' }, order: 2 },
@@ -22,3 +42,5 @@ export const glossaryCategories: GlossaryCategoryMeta[] = [
   { slug: 'observation', label: { zh: '天文观测技术', en: 'Observation techniques' }, order: 10 },
   { slug: 'communication', label: { zh: '卫星通信与测控', en: 'Satellite Communication & TT&C' }, order: 11 },
 ]
+
+export const categoryRegistry = new GlossaryCategoryRegistry(glossaryCategories)
