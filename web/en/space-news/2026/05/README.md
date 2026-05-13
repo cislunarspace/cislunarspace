@@ -16,6 +16,7 @@ lastUpdated: 2026-05-13
 | 2026-05-12 | [NASA's Next-Gen Space Processor Enters Testing: 100x Computing Power for Moon and Mars Missions](./2026-05-12-nasa-hpsc-processor-testing/) | NASA |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Launches Successfully](./2026-05-11-tianzhou-10-launch/) | China Space |
 | 2026-05-12 | [SpaceX Completes First Starship V3 Wet Checkout...](./2026-05-12-starship-v3-wet-checkout/) |
+| 2026-05-12 | [SpaceX Fuels Up Full Starship V3 Stack for the First Time: Launch Window Targets May 19 from Pad 2](./2026-05-13-starship-v3-first-fueling/) | SpaceX |
 | 2026-05-12 | [SpaceX Targets May 19 for Starship V3 Debut from Launch Pad 2](./2026-05-13-starship-v3-launch-pad-2-may-19/) | SpaceX |
 | 2026-05-12 | [China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station](./2026-05-12-tianzhou-10-space-gym/) |
 | 2026-05-12 | [Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out](./2026-05-12-shiveluch-volcano-satellite/) | Science |
@@ -27,6 +28,7 @@ lastUpdated: 2026-05-13
 | 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
 | 2026-05-11 | [NASA Lunar Scientists Train Artemis 2 Astronauts in Specialized Lunar Observation Techniques](./2026-05-11-artemis-2-astronauts-lunar-training/) | Artemis |
 | 2026-05-11 | [Tianzhou-10 Sets 12-Month Space Station Docking Record, China Enters Annual Resupply Mode](./2026-05-11-tianzhou-10-twelve-month-record/) | China Space |
+| 2026-05-11 | [China Unveils Shenzhou-23 Crewed Mission Badge: Circular Emblem Blends Tradition and Modernity](./2026-05-11-shenzhou-23-mission-badge/) | China Space |
 | 2026-05-11 | [SpaceX Launches NRO Reconnaissance Satellite Constellation Batch 13 from Vandenberg](./2026-05-11-nrol-172-falcon-9-vandenberg/) | SpaceX |
 | 2026-05-11 | [Artemis III SLS Core Stage Arrives at Kennedy Space Center for Final Assembly](./2026-05-11-artemis-3-sls-core-stage-arrives-ksc/) | Artemis |
 | 2026-05-09 | [Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos](./2026-05-09-pentagon-ufo-declassify/) | Policy |

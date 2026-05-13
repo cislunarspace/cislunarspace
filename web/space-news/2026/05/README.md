@@ -23,6 +23,7 @@ wechatShare:
 | 5-12 | [NASA HPSC芯片进入测试阶段：算力提升100倍，支撑Artemis及火星任务](./2026-05-12-nasa-hpsc-processor-testing/) |
 | 5-11 | [天舟十号货运飞船发射取得圆满成功](./2026-05-11-tianzhou-10-launch/) |
 | 5-12 | [SpaceX完成星舰V3全箭燃料加注...](./2026-05-12-starship-v3-wet-checkout/) |
+| 5-12 | [SpaceX完成星舰V3全箭叠装与燃料加注：首飞进入倒计时，5月19日2号发射台升空](./2026-05-13-starship-v3-first-fueling/) |
 | 5-12 | [SpaceX公布星舰V3首飞新节点：5月19日从2号发射台升空](./2026-05-13-starship-v3-launch-pad-2-may-19/) |
 | 5-12 | [天舟十号给「天宫」送去新型跑步机：太空健身房升级换代](./2026-05-12-tianzhou-10-space-gym/) |
 | 5-12 | [卫星图像揭示俄罗斯舍维留奇火山内部热量融化积雪](./2026-05-12-shiveluch-volcano-satellite/) |
@@ -34,6 +35,7 @@ wechatShare:
 | 5-11 | [太阳爆发M5.7级耀斑并伴随日冕物质抛射](./2026-05-11-solar-flare-m57-cme/) |
 | 5-11 | [韦布望远镜新图像揭示星团如何重塑星系](./2026-05-11-jwst-star-clusters-galaxies/) |
 | 5-11 | [NASA月球科学家训练 Artemis 2 航天员"用不同眼睛看月球"](./2026-05-11-artemis-2-astronauts-lunar-training/) |
+| 5-11 | [神舟二十三号载人飞行任务标识发布：圆形徽章融合传统与现代](./2026-05-11-shenzhou-23-mission-badge/) |
 | 5-11 | [SpaceX 在范登堡发射 NRO 侦察卫星组网第13批任务](./2026-05-11-nrol-172-falcon-9-vandenberg/) |
 | 5-11 | [Artemis III SLS 火箭核心级抵达肯尼迪航天中心进入总装阶段](./2026-05-11-artemis-3-sls-core-stage-arrives-ksc/) |
 | 5-09 | [五角大楼公布首批UFO解密文件，近30段机密视频公开](./2026-05-09-pentagon-ufo-declassify/) |
