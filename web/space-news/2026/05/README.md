@@ -32,6 +32,7 @@ wechatShare:
 | 5-12 | [新研究称天王星与海王星大气层主要由岩石构成：冰巨星传统认知或被颠覆](./2026-05-12-uranus-neptune-ice-giants/) |
 | 5-12 | [美国太空军发布军官职业发展路径图](./2026-05-12-us-space-force-officer-career-path/) |
 | 5-12 | [NASA与SpaceX因天气原因取消CRS-34发射，目标5月13日再次尝试](./2026-05-12-crs-34-scrub-weather/) |
+| 5-13 | [美国会预算办公室估算「金穹」计划20年耗资1.2万亿美元](./2026-05-13-golden-dome-cbo-cost/) |
 | 5-13 | [美国Cowboy Space获2.75亿美元融资：计划在地球轨道部署AI数据中心](./2026-05-13-cowboy-space-orbital-ai-data-centers/) |
 | 5-11 | [天舟十号货运飞船与空间站组合体完成交会对接](./2026-05-11-tianzhou-10-docking/) |
 | 5-11 | [天舟十号将创造12个月在轨停靠纪录，中国空间站补给迈入「年度模式」](./2026-05-11-tianzhou-10-twelve-month-record/) |

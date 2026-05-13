@@ -24,6 +24,7 @@ lastUpdated: 2026-05-13
 | 2026-05-12 | [New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification](./2026-05-12-uranus-neptune-ice-giants/) |
 | 2026-05-12 | [US Space Force Releases Officer Career Development Path Document](./2026-05-12-us-space-force-officer-career-path/) | Policy & Strategy |
 | 2026-05-12 | [NASA, SpaceX Scrub CRS-34 Launch Due to Poor Weather, Target May 13](./2026-05-12-crs-34-scrub-weather/) | SpaceX |
+| 2026-05-13 | [CBO Estimates US Golden Dome Missile Defense Could Cost $1.2 Trillion Over 20 Years](./2026-05-13-golden-dome-cbo-cost/) |
 | 2026-05-13 | [Google in Talks with SpaceX Over Orbital Data Center Launch Deal](./2026-05-13-google-spacex-orbital-data-center/) | Commercial Space |
 | 2026-05-13 | [Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit](./2026-05-13-cowboy-space-orbital-ai-data-centers/) | Commercial |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
