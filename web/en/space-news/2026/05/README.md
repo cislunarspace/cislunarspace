@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-13
+lastUpdated: 2026-05-14
 ---
 
 # May 2026 · Space News
@@ -11,6 +11,7 @@ lastUpdated: 2026-05-13
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-13 | [World First: Artificial Human Embryos Enter Space Experiment Phase on China's Space Station](./2026-05-13-tianzhou-10-artificial-embryo/) | China Space |
+| 2026-05-13 | [NASA Outlines Preliminary Artemis III Plans: 2027 Earth Orbit Rendezvous Test](./2026-05-13-nasa-artemis-3-plans/) | Artemis |
 | 2026-05-12 | [Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station](./2026-05-12-tianzhou-10-science-payloads/) | China Space |
 | 2026-05-12 | [Star Catcher Raises $65 Million Series A to Build World's First Space Power Grid](./2026-05-12-star-catcher-series-a/) | Commercial |
 | 2026-05-12 | [NASA Perseverance Rover Snaps New Selfie at Mars' Western Frontier](./2026-05-12-perseverance-mars-selfie/) | Science |

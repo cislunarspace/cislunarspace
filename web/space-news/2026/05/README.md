@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-13
+lastUpdated: 2026-05-14
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -18,6 +18,7 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 5-13 | [世界首次：人工胚胎样本在中国空间站进入太空实验阶段](./2026-05-13-tianzhou-10-artificial-embryo/) |
+| 5-13 | [NASA公布阿尔忒弥斯三号任务初步计划：2027年在近地轨道测试交会对接](./2026-05-13-nasa-artemis-3-plans/) |
 | 5-13 | [谷歌与SpaceX洽谈在轨数据中心发射合作：双方可能在太空算力领域形成競合关系](./2026-05-13-google-spacex-orbital-data-center/) |
 | 5-12 | [天舟十号67件科研产品助力空间站：41项科学实验覆盖四大领域](./2026-05-12-tianzhou-10-science-payloads/) |
 | 5-12 | [美国星链电力公司获6500万美元融资：太空能源互联网起步](./2026-05-12-star-catcher-series-a/) |
