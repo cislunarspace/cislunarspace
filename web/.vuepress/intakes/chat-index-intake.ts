@@ -1,10 +1,10 @@
 /**
  * ChatIndexIntake — builds hierarchical AI chat index from GlossaryScan.
  */
-import { glossaryCategories } from '../glossary-meta.js'
+import { glossaryCategories, categoryRegistry } from '../glossary-meta.js'
 import { sidebarSections, type SidebarEntry } from '../sidebar-data.js'
-import type { GlossaryScan } from '../sidebar-intake.js'
-import type { ChatIndexCategory, ChatIndexEntry } from '../sidebar-intake.js'
+import type { GlossaryScan } from '../sidebar-types.js'
+import type { ChatIndexCategory, ChatIndexEntry } from '../sidebar-types.js'
 
 export function buildChatIndexIntake(scan: GlossaryScan): { zh: ChatIndexCategory[]; en: ChatIndexCategory[] } {
   function buildLocaleIndex(locale: 'zh' | 'en'): ChatIndexCategory[] {
@@ -21,7 +21,7 @@ export function buildChatIndexIntake(scan: GlossaryScan): { zh: ChatIndexCategor
 
     if (locale === 'en') {
       for (const gap of scan.zh.missing) {
-        const catMeta = glossaryCategories.find(c => c.label.zh === gap.category)
+        const catMeta = categoryRegistry.getByLabel(gap.category, 'zh')
         if (!catMeta) continue
         const catLabel = catMeta.label.en
         const existing = byCategory.get(catLabel) || []

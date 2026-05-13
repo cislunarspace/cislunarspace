@@ -36,7 +36,7 @@ const ogMetaPlugin = {
       if (img.startsWith('http')) {
         imageUrl = img
       } else if (img.startsWith('./')) {
-        const dir = page.path.replace(/[^/]+\/$/, '')
+        const dir = page.path.replace(/[^/]+\/?$/, '')
         imageUrl = base + dir + img.slice(2)
       } else if (img.startsWith('/')) {
         imageUrl = base + img

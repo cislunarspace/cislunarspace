@@ -7,7 +7,7 @@ author: 天疆说
 date: 2026-04-14
 lastUpdated: 2026-04-14
 category: [spacex, commercial]
-image: null
+image: ./figures/2026-04-14-spacex-1000th-starlink/hero.jpg
 wechatShare:
   title: "SpaceX 2026年已发射1000颗星链卫星"
   desc: "SpaceX通过猎鹰9号火箭成功发射第1000颗星链卫星，这是该公司2026年第37次专用星链任务，全年累计已部署1,002颗星链卫星。"

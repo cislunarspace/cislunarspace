@@ -6,34 +6,15 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { type Frontmatter } from './utils/frontmatter-parser.ts'
+import { parseFrontmatterAndBody, type Frontmatter } from './utils/frontmatter-parser.ts'
 import { walkSiteMarkdown, type MarkdownFile } from './utils/markdown-walker.ts'
+import { markdownToPlain } from './utils/markdown-to-plain.ts'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const webRoot = path.join(__dirname, '..')
 
 const MAX_TEXT_PER_PAGE = 14000
-
-function markdownToPlain(body: string): string {
-  let s = String(body)
-  s = s.replace(/```[\s\S]*?```/g, '\n')
-  s = s.replace(/`([^`]+)`/g, '$1')
-  s = s.replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
-  s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1')
-  s = s.replace(/\$\$[\s\S]+?\$\$/g, ' ')
-  s = s.replace(/\\[\[\(][\s\S]+?\\[\]\)]/g, ' ')
-  s = s.replace(/^#{1,6}\s+/gm, '')
-  s = s.replace(/\*\*([^*]+)\*\*/g, '$1')
-  s = s.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1$2')
-  s = s.replace(/^>\s?/gm, '')
-  s = s.replace(/^\s*[-*+]\s+/gm, '• ')
-  s = s.replace(/^\s*\d+\.\s+/gm, '')
-  s = s.replace(/<\/[^>]+>/g, '\n')
-  s = s.replace(/<[^>]+>/g, ' ')
-  s = s.replace(/\n{3,}/g, '\n\n')
-  return s.replace(/\s+\n/g, '\n').trim()
-}
 
 function fileToUrlPath(relFromWeb: string, fm: Frontmatter): string {
   if (fm.permalink) {
@@ -59,14 +40,15 @@ export function generateAiChatContext(files: MarkdownFile[]): void {
   const indexZh: Array<{ path: string; title: string }> = []
   const indexEn: Array<{ path: string; title: string }> = []
 
-  for (const { relPath, frontmatter, body } of files) {
+  for (const file of files) {
+    const { frontmatter, body } = parseFrontmatterAndBody(file.content)
     if (frontmatter.draft === true) continue
 
-    const pagePath = fileToUrlPath(relPath, frontmatter)
+    const pagePath = fileToUrlPath(file.relPath, frontmatter)
     const title = (frontmatter.title && String(frontmatter.title)) || pagePath
     const text = markdownToPlain(body).slice(0, MAX_TEXT_PER_PAGE) || ''
     const rec = { title, text: text || '(无正文)' }
-    const isEn = relPath.toLowerCase().startsWith('en/')
+    const isEn = file.relPath.toLowerCase().startsWith('en/')
 
     if (isEn) {
       if (!en[pagePath]) {
