@@ -23,7 +23,6 @@ wechatShare:
 | 5-12 | [NASA HPSC芯片进入测试阶段：算力提升100倍，支撑Artemis及火星任务](./2026-05-12-nasa-hpsc-processor-testing/) |
 | 5-11 | [天舟十号货运飞船发射取得圆满成功](./2026-05-11-tianzhou-10-launch/) |
 | 5-12 | [SpaceX完成星舰V3全箭燃料加注...](./2026-05-12-starship-v3-wet-checkout/) |
-| 5-12 | [SpaceX完成星舰V3全箭叠装与燃料加注：首飞进入倒计时，5月19日2号发射台升空](./2026-05-13-starship-v3-first-fueling/) |
 | 5-12 | [SpaceX公布星舰V3首飞新节点：5月19日从2号发射台升空](./2026-05-13-starship-v3-launch-pad-2-may-19/) |
 | 5-12 | [天舟十号给「天宫」送去新型跑步机：太空健身房升级换代](./2026-05-12-tianzhou-10-space-gym/) |
 | 5-12 | [卫星图像揭示俄罗斯舍维留奇火山内部热量融化积雪](./2026-05-12-shiveluch-volcano-satellite/) |
