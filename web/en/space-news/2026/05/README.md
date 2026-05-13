@@ -10,6 +10,7 @@ lastUpdated: 2026-05-14
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-14 | [Laser Detection Technique Reveals Environmental Impact of Falling Space Debris](./2026-05-14-space-debris-laser-detection/) | Science |
 | 2026-05-13 | [World First: Artificial Human Embryos Enter Space Experiment Phase on China's Space Station](./2026-05-13-tianzhou-10-artificial-embryo/) | China Space |
 | 2026-05-13 | [Blue Origin's Blue Moon Lander Mockup Assembled at NASA JSC for Artemis Training](./2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/) | Artemis |
 | 2026-05-13 | [Amaterasu Particle and Cosmic Ray Origins: 60-Year Mystery May Be Solved](./2026-05-13-cosmic-rays-amaterasu-particle-origin/) | Science |
