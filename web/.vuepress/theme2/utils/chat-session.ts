@@ -1,13 +1,3 @@
-/**
- * ChatSession — the stateful two-phase retrieval engine.
- *
- * Encapsulates the full sendMessage logic extracted from AiChat.vue.
- * The Vue component provides RouteCallbacks to receive events and
- * update its own reactive state.
- *
- * All network calls go through this class; swapping the HTTP adapter
- * only requires changing callChatJson.
- */
 import { decodeStream } from './chat-stream'
 import {
   buildAnswerRulesBlock,
@@ -30,7 +20,7 @@ import type {
   RouteCallbacks,
   SiteContext,
 } from './chat-types'
-import type { Router, RouterCallbacks } from './chat-engine-seams'
+import type { ChatSessionDeps, ChatTransport, ContextLoader, Router, RouterCallbacks } from './chat-engine-seams'
 import { keywordRouter } from './chat-engine-seams'
 
 export class ChatSession {
@@ -38,45 +28,58 @@ export class ChatSession {
   private readonly locale: 'zh' | 'en'
   private readonly siteIndex: HierarchicalSiteIndex
   private readonly flatIndex: IndexRow[]
+  private readonly router: Router
+  private readonly transport: ChatTransport
+  private readonly contextLoader: ContextLoader
   private siteContext: SiteContext | null = null
   private contextLoadPromise: Promise<SiteContext> | null = null
 
-  constructor(cfg: NormalizedConfig, locale: 'zh' | 'en', siteIndex: HierarchicalSiteIndex) {
+  constructor(cfg: NormalizedConfig, locale: 'zh' | 'en', siteIndex: HierarchicalSiteIndex, deps: ChatSessionDeps = {}) {
     this.cfg = cfg
     this.locale = locale
     this.siteIndex = siteIndex
     this.flatIndex = flattenCategories(siteIndex[locale] || [])
+    this.transport = deps.transport ?? this.createFetchTransport()
+    this.contextLoader = deps.contextLoader ?? this.createFetchContextLoader()
+    this.router = deps.router ?? this.createLLMRouter()
   }
 
-  /** Load the site context JSON (with in-memory cache). */
-  async loadSiteContext(): Promise<SiteContext> {
-    if (this.siteContext) return this.siteContext
-    if (this.contextLoadPromise) return this.contextLoadPromise
-
-    this.contextLoadPromise = fetch('/ai-chat-context.json', { cache: 'no-store' })
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`)
-        return r.json() as Promise<SiteContext>
-      })
-      .then((data) => {
-        this.siteContext = data
-        return data
-      })
-      .catch(() => {
-        this.siteContext = { zh: {}, en: {} }
-        return this.siteContext!
-      })
-      .finally(() => {
-        this.contextLoadPromise = null
-      })
-
-    return this.contextLoadPromise
+  async loadSiteContext(signal: AbortSignal = new AbortController().signal): Promise<SiteContext> {
+    return this.contextLoader.loadSiteContext(signal)
   }
 
-  /** The LLM-based router adapter — satisfies the Router interface. */
+  private createFetchContextLoader(): ContextLoader {
+    return {
+      loadSiteContext: async (signal) => {
+        if (this.siteContext) return this.siteContext
+        if (this.contextLoadPromise) return this.contextLoadPromise
+
+        this.contextLoadPromise = fetch('/ai-chat-context.json', { cache: 'no-store', signal })
+          .then((r) => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`)
+            return r.json() as Promise<SiteContext>
+          })
+          .then((data) => {
+            this.siteContext = data
+            return data
+          })
+          .catch((err) => {
+            if (err instanceof Error && err.name === 'AbortError') throw err
+            this.siteContext = { zh: {}, en: {} }
+            return this.siteContext
+          })
+          .finally(() => {
+            this.contextLoadPromise = null
+          })
+
+        return this.contextLoadPromise
+      },
+    }
+  }
+
   private createLLMRouter(): Router {
     return {
-      route: async ({ question, history, siteIndex, flatIndex, config, locale, callbacks }) => {
+      route: async ({ question, history, siteIndex, flatIndex, config, locale, callbacks, signal }) => {
         const loc = locale
         const categories = siteIndex[loc] || []
         const indexRows = flatIndex
@@ -109,9 +112,11 @@ export class ChatSession {
                 },
               ],
               stream: false,
-            }
+            },
+            signal
           )
         } catch (err) {
+          if (err instanceof Error && err.name === 'AbortError') throw err
           callbacks.onProcessStepComplete('stepNav', loc === 'en' ? 'error' : '导览未成功')
           return keywordRouter({ question, flatIndex, config, callbacks })
         }
@@ -132,7 +137,7 @@ export class ChatSession {
         )
         callbacks.onProcessStep('stepExcerpt')
 
-        const ctx = await this.loadSiteContext()
+        const ctx = await this.loadSiteContext(signal)
         const blob = buildContextBlob(
           ctx,
           loc,
@@ -152,7 +157,6 @@ export class ChatSession {
     }
   }
 
-  /** The main two-phase sendMessage loop. */
   async route(
     question: string,
     history: Message[],
@@ -171,9 +175,9 @@ export class ChatSession {
       })
       .join('\n')
 
-    // Narrow RouteCallbacks down to RouterCallbacks
     const routerCallbacks: RouterCallbacks = {
-      onPathsChosen: (paths) => callbacks.onProcessStepComplete('stepNav', formatPathList(paths, indexRows) || (loc === 'en' ? 'ok' : '已选')),
+      onPathsChosen: (paths) =>
+        callbacks.onProcessStepComplete('stepNav', formatPathList(paths, indexRows) || (loc === 'en' ? 'ok' : '已选')),
       onExcerptsLoaded: (text) => callbacks.onExcerptsLoaded(text),
       onProcessStep: (key, detail) => callbacks.onProcessStep(key, detail),
       onProcessStepComplete: (key, detail) => callbacks.onProcessStepComplete(key, detail),
@@ -182,9 +186,8 @@ export class ChatSession {
     let systemPrompt: string
     let usedTwoPhase = false
 
-    // Phase 1: routing
     if (this.cfg.twoPhaseRetrieval !== false && indexRows.length) {
-      const router = this.createLLMRouter()
+      const router = this.router
       try {
         const result = await router.route({
           question,
@@ -194,6 +197,7 @@ export class ChatSession {
           config: this.cfg,
           locale: loc,
           callbacks: routerCallbacks,
+          signal,
         })
         systemPrompt = result.systemPrompt || buildSystemPrompt(rules, indexText, loc)
         usedTwoPhase = result.usedTwoPhase
@@ -212,7 +216,6 @@ export class ChatSession {
       systemPrompt = buildSystemPrompt(rules, indexText, loc)
     }
 
-    // Phase 2: answer
     const maxHistory = Number(this.cfg.maxHistoryTurns || 10)
     const historyMessages = history.slice(-maxHistory * 2).map((m) => ({
       role: m.role,
@@ -228,41 +231,35 @@ export class ChatSession {
     }
 
     try {
-      const response = await fetch(this.cfg.apiEndpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-        signal,
-      })
+      if (useStream) {
+        const reader = await this.transport.completeStream(this.cfg.apiEndpoint, payload, signal)
 
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status} ${response.statusText}`)
+        if (reader) {
+          let content = ''
+          let reasoning = ''
+
+          await decodeStream(reader, {
+            onChunk: (delta) => {
+              if (delta.reasoning_content) reasoning += delta.reasoning_content
+              if (delta.content) content += delta.content
+              callbacks.onChunk({ reasoning_content: reasoning, content })
+            },
+            onComplete: () => {
+              callbacks.onComplete(content.trim() || '', reasoning)
+            },
+            onError: (e) => {
+              callbacks.onError('networkError', e.message)
+            },
+          }, signal)
+          return
+        }
       }
 
-      if (useStream && response.body && response.body.getReader) {
-        let content = ''
-        let reasoning = ''
-
-        await decodeStream(response.body.getReader(), {
-          onChunk: (delta) => {
-            if (delta.reasoning_content) reasoning += delta.reasoning_content
-            if (delta.content) content += delta.content
-            callbacks.onChunk({ reasoning_content: reasoning, content })
-          },
-          onComplete: () => {
-            callbacks.onComplete(content.trim() || '', reasoning)
-          },
-          onError: (e) => {
-            callbacks.onError('networkError', e.message)
-          },
-        })
-      } else {
-        const data = await response.json()
-        const msg = data.choices?.[0]?.message
-        const content = msg?.content || ''
-        const reasoning = msg?.reasoning_content ? String(msg.reasoning_content) : ''
-        callbacks.onComplete(content.trim() || '', reasoning)
-      }
+      const data = await this.transport.completeJson(this.cfg.apiEndpoint, payload, signal)
+      const msg = this.readMessage(data)
+      const content = msg.content || ''
+      const reasoning = msg.reasoning_content ? String(msg.reasoning_content) : ''
+      callbacks.onComplete(content.trim() || '', reasoning)
     } catch (err) {
       if (err instanceof Error && err.name === 'AbortError') throw err
       callbacks.onError('networkError', err instanceof Error ? err.message : String(err))
@@ -270,18 +267,51 @@ export class ChatSession {
   }
 
   private async callChatJson(payload: Record<string, unknown>, signal: AbortSignal): Promise<string> {
-    const res = await fetch(this.cfg.apiEndpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-      signal,
-    })
-    if (!res.ok) {
-      const t = await res.text()
-      throw new Error(`HTTP ${res.status} ${t}`)
+    const data = await this.transport.completeJson(this.cfg.apiEndpoint, payload, signal)
+    return this.readMessage(data).content || ''
+  }
+
+  private createFetchTransport(): ChatTransport {
+    return {
+      completeJson: async (endpoint, payload, signal) => {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+          signal,
+        })
+        if (!res.ok) {
+          const text = await res.text()
+          throw new Error(`HTTP ${res.status} ${text}`)
+        }
+        return res.json()
+      },
+      completeStream: async (endpoint, payload, signal) => {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+          signal,
+        })
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status} ${res.statusText}`)
+        }
+        return res.body?.getReader() ?? null
+      },
     }
-    const data = await res.json()
-    return data.choices?.[0]?.message?.content || ''
+  }
+
+  private readMessage(data: unknown): { content?: string; reasoning_content?: unknown } {
+    if (!data || typeof data !== 'object' || !('choices' in data) || !Array.isArray(data.choices)) {
+      return {}
+    }
+
+    const choice = data.choices[0]
+    if (!choice || typeof choice !== 'object' || !('message' in choice) || !choice.message || typeof choice.message !== 'object') {
+      return {}
+    }
+
+    return choice.message as { content?: string; reasoning_content?: unknown }
   }
 
 }
