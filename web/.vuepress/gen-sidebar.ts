@@ -194,11 +194,6 @@ export function buildSidebarConfigs(
 
 // ── Entry point: generate all artifacts ────────────────────────────────────────
 
-// Single filesystem walk — all downstream consumers filter from this result.
-const allFiles = walkSiteMarkdown(webRoot)
-
-// ── Space News directory scan (structure only, not content) ──
-
 interface MonthDir {
   month: number
   path: string
@@ -242,12 +237,9 @@ function scanSpaceNewsDir(baseDir: string): YearDir[] {
   return years
 }
 
-const zhYears = scanSpaceNewsDir(path.join(webRoot, 'space-news'))
-const enYears = scanSpaceNewsDir(path.join(webRoot, 'en/space-news'))
-
 const monthsEn = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-function buildZhSidebar() {
+function buildZhSidebar(zhYears: YearDir[]) {
   const children: Array<[string, string] | { text: string; link: string; collapsible: boolean; children: Array<[string, string]> }> = [
     ['/space-news/', '门户首页（最新动态与摘要）'],
     ['/space-news/archive', '按月存档（查阅全部条目）'],
@@ -263,7 +255,7 @@ function buildZhSidebar() {
   return [{ text: '航天动态（行业新闻与按月归档）', collapsible: false, children }]
 }
 
-function buildEnSidebar() {
+function buildEnSidebar(enYears: YearDir[]) {
   const children: Array<[string, string] | { text: string; link: string; collapsible: boolean; children: Array<[string, string]> }> = [
     ['/en/space-news/', 'Portal (latest & highlights)'],
     ['/en/space-news/archive', 'Monthly archive (all posts)'],
@@ -279,61 +271,67 @@ function buildEnSidebar() {
   return [{ text: 'Space news (industry & monthly archive)', collapsible: false, children }]
 }
 
-fs.writeFileSync(
-  path.join(__dirname, 'sidebar.auto.json'),
-  JSON.stringify({ zh: buildZhSidebar(), en: buildEnSidebar() }, null, 2),
-)
-console.log('Generated sidebar.auto.json')
+export function runGenerationCli(): void {
+  const allFiles = walkSiteMarkdown(webRoot)
+  const zhYears = scanSpaceNewsDir(path.join(webRoot, 'space-news'))
+  const enYears = scanSpaceNewsDir(path.join(webRoot, 'en/space-news'))
 
-// ── Article collection (filter + transform from allFiles) ──
+  fs.writeFileSync(
+    path.join(__dirname, 'sidebar.auto.json'),
+    JSON.stringify({ zh: buildZhSidebar(zhYears), en: buildEnSidebar(enYears) }, null, 2),
+  )
+  console.log('Generated sidebar.auto.json')
 
-const zhArticles = filesToArticles(allFiles, 'space-news/', '/space-news/')
-const enArticles = filesToArticles(allFiles, 'en/space-news/', '/en/space-news/')
+  const zhArticles = filesToArticles(allFiles, 'space-news/', '/space-news/')
+  const enArticles = filesToArticles(allFiles, 'en/space-news/', '/en/space-news/')
 
-fs.writeFileSync(
-  path.join(__dirname, 'space-news-articles.json'),
-  JSON.stringify({ zh: zhArticles, en: enArticles }, null, 2),
-)
-console.log(`Generated space-news-articles.json (${zhArticles.length} zh, ${enArticles.length} en)`)
+  fs.writeFileSync(
+    path.join(__dirname, 'space-news-articles.json'),
+    JSON.stringify({ zh: zhArticles, en: enArticles }, null, 2),
+  )
+  console.log(`Generated space-news-articles.json (${zhArticles.length} zh, ${enArticles.length} en)`)
 
-// ── Space News sidebar data ──
-
-const sidebarData = {
-  zh: buildSidebarData(zhArticles, '/space-news/', 'zh', categoryMeta),
-  en: buildSidebarData(enArticles, '/en/space-news/', 'en', categoryMeta),
-}
-
-fs.writeFileSync(
-  path.join(__dirname, 'space-news-sidebar-data.json'),
-  JSON.stringify(sidebarData, null, 2),
-)
-console.log('Generated space-news-sidebar-data.json')
-
-// ── AI chat artifacts ──
-
-generateAiChatContext(allFiles)
-
-const glossaryScan = buildGlossaryScan(allFiles)
-const chatIndex = buildChatIndex(glossaryScan)
-const chatIndexPath = path.join(__dirname, 'public', 'ai-chat-index.json')
-if (!fs.existsSync(path.dirname(chatIndexPath))) {
-  fs.mkdirSync(path.dirname(chatIndexPath), { recursive: true })
-}
-fs.writeFileSync(chatIndexPath, JSON.stringify(chatIndex))
-console.log(
-  `Generated hierarchical ai-chat-index.json (${chatIndex.zh.length} zh categories, ${chatIndex.en.length} en categories)`,
-)
-
-const gapReport = getTranslationGapReport(glossaryScan)
-if (gapReport.total > 0) {
-  console.log(`\n📋 Glossary translation gaps: ${gapReport.total} entries missing English translations`)
-  for (const [cat, count] of Object.entries(gapReport.byCategory)) {
-    console.log(`   ${cat}: ${count} missing`)
+  const sidebarData = {
+    zh: buildSidebarData(zhArticles, '/space-news/', 'zh', categoryMeta),
+    en: buildSidebarData(enArticles, '/en/space-news/', 'en', categoryMeta),
   }
+
+  fs.writeFileSync(
+    path.join(__dirname, 'space-news-sidebar-data.json'),
+    JSON.stringify(sidebarData, null, 2),
+  )
+  console.log('Generated space-news-sidebar-data.json')
+
+  generateAiChatContext(allFiles)
+
+  const glossaryScan = buildGlossaryScan(allFiles)
+  const chatIndex = buildChatIndex(glossaryScan)
+  const chatIndexPath = path.join(__dirname, 'public', 'ai-chat-index.json')
+  if (!fs.existsSync(path.dirname(chatIndexPath))) {
+    fs.mkdirSync(path.dirname(chatIndexPath), { recursive: true })
+  }
+  fs.writeFileSync(chatIndexPath, JSON.stringify(chatIndex))
+  console.log(
+    `Generated hierarchical ai-chat-index.json (${chatIndex.zh.length} zh categories, ${chatIndex.en.length} en categories)`,
+  )
+
+  const gapReport = getTranslationGapReport(glossaryScan)
+  if (gapReport.total > 0) {
+    console.log(`\n📋 Glossary translation gaps: ${gapReport.total} entries missing English translations`)
+    for (const [cat, count] of Object.entries(gapReport.byCategory)) {
+      console.log(`   ${cat}: ${count} missing`)
+    }
+  }
+
+  fs.writeFileSync(
+    path.join(__dirname, 'sidebar-glossary.auto.json'),
+    JSON.stringify(glossaryScan, null, 2),
+  )
+  console.log('Generated sidebar-glossary.auto.json')
 }
 
-fs.writeFileSync(
-  path.join(__dirname, 'sidebar-glossary.auto.json'),
-  JSON.stringify(glossaryScan, null, 2),
-)
-console.log('Generated sidebar-glossary.auto.json')
+const isMain =
+  process.argv[1] && path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1])
+if (isMain) {
+  runGenerationCli()
+}

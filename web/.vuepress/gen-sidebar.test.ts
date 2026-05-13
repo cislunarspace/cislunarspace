@@ -2,16 +2,60 @@
  * Tests for gen-sidebar.ts pipeline functions.
  * Run with: vitest run gen-sidebar.test.ts
  */
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi, afterEach } from 'vitest'
 import path from 'path'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
 import type { Article, SidebarLatestItem, SidebarCategory, SidebarMonth, SidebarYear, SidebarData } from './sidebar-types'
 import { filesToArticles, buildSidebarData } from './sidebar-transforms'
 
+afterEach(() => {
+  vi.restoreAllMocks()
+  vi.resetModules()
+})
+
 // We'll import the functions we need to test.
 // Since gen-sidebar.ts runs inline script-style, we test individual
 // helper functions by importing them directly from the source.
+
+// ── Public import behavior ──────────────────────────────────────────────────
+
+describe('gen-sidebar command generation', () => {
+  it('does not write artifacts when imported', async () => {
+    const writeFileSync = vi.spyOn(fs, 'writeFileSync').mockImplementation(() => {})
+
+    await import('./gen-sidebar.ts')
+
+    expect(writeFileSync).not.toHaveBeenCalled()
+  })
+
+  it('writes expected artifacts when run explicitly', async () => {
+    const writtenFilePaths = new Set<string>()
+    const originalStatSync = fs.statSync
+    const writeFileSync = vi.spyOn(fs, 'writeFileSync').mockImplementation((filePath) => {
+      writtenFilePaths.add(String(filePath))
+    })
+    vi.spyOn(fs, 'statSync').mockImplementation(((filePath: fs.PathLike) => {
+      if (writtenFilePaths.has(String(filePath))) {
+        return { size: 1024 } as fs.Stats
+      }
+      return originalStatSync(filePath)
+    }) as typeof fs.statSync)
+    const { runGenerationCli } = await import('./gen-sidebar.ts')
+
+    runGenerationCli()
+
+    const writtenPaths = writeFileSync.mock.calls.map(([filePath]) => path.basename(String(filePath)))
+    expect(writtenPaths).toEqual(expect.arrayContaining([
+      'sidebar.auto.json',
+      'space-news-articles.json',
+      'space-news-sidebar-data.json',
+      'ai-chat-index.json',
+      'ai-chat-context.json',
+      'sidebar-glossary.auto.json',
+    ]))
+  })
+})
 
 // ── Mock MarkdownFile factory ──────────────────────────────────────────────────
 
