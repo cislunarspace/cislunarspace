@@ -26,6 +26,7 @@ wechatShare:
 | 5-12 | [天舟十号给「天宫」送去新型跑步机：太空健身房升级换代](./2026-05-12-tianzhou-10-space-gym/) |
 | 5-12 | [卫星图像揭示俄罗斯舍维留奇火山内部热量融化积雪](./2026-05-12-shiveluch-volcano-satellite/) |
 | 5-12 | [长征六号改成功发射千帆极轨09组卫星](./2026-05-12-qianfan-09-long-march-6-modified/) |
+| 5-12 | [新研究称天王星与海王星大气层主要由岩石构成：冰巨星传统认知或被颠覆](./2026-05-12-uranus-neptune-ice-giants/) |
 | 5-13 | [美国Cowboy Space获2.75亿美元融资：计划在地球轨道部署AI数据中心](./2026-05-13-cowboy-space-orbital-ai-data-centers/) |
 | 5-11 | [天舟十号货运飞船与空间站组合体完成交会对接](./2026-05-11-tianzhou-10-docking/) |
 | 5-11 | [天舟十号将创造12个月在轨停靠纪录，中国空间站补给迈入「年度模式」](./2026-05-11-tianzhou-10-twelve-month-record/) |

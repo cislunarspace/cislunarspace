@@ -1,11 +1,11 @@
 ---
 layout: SpaceNewsArticle
 title: "SpaceX完成星舰V3全箭燃料加注：首次超5000吨推进剂演练，首飞倒计时启动"
-description: "2026年5月11日，SpaceX在得克萨斯州星舰基地首次对第三代星舰（V3）全箭组合体完成超5000吨液氧与液态甲烷加注演练，这是地面准备阶段的关键里程碑，首飞最快将于5月15日实施。"
+description: "2026年5月11日，SpaceX完成星舰V3首次全箭燃料加注演练；5月12日宣布首飞目标窗口不早于5月19日，从全新2号发射台实施。"
 permalink: /space-news/2026/05/2026-05-12-starship-v3-wet-checkout/
 author: 天疆说
 date: 2026-05-11
-lastUpdated: 2026-05-12
+lastUpdated: 2026-05-13
 category: [spacex, commercial]
 image: ./figures/2026-05-12-starship-v3-wet-checkout/hero.jpg
 ---
@@ -36,6 +36,15 @@ image: ./figures/2026-05-12-starship-v3-wet-checkout/hero.jpg
 ## 支撑 Artemis 与深空任务
 
 星舰V3是NASA阿尔忒弥斯（Artemis）载人登月计划的主载具。按规划，星舰将在 Artemis 3 任务中完成载人着陆模块的在轨补给，届时将首次验证一艘星舰为另一艘星舰在太空中补给推进剂的能力。SpaceX表示，这项在轨加油技术一旦验证成功，将大幅降低深空任务发射成本，开启商业航天和深空探索的新阶段。
+
+
+
+## 首次发射窗口推迟至5月19日
+
+5月12日，SpaceX正式宣布，第三代星舰的首次发射窗口不早于**5月19日**（美东时间）。这是继5月11日完成全箭燃料加注演练后，SpaceX公布的首飞目标日期。该任务将从全新的2号轨道发射台（Launch Pad 2）实施，这也是该发射台的首次星舰发射任务。
+
+本次飞行（代号Flight 12）将是V3版本的全球首飞，同时也将是人类历史上最高火箭的再次刷新——V3组合体总高度约124.4米，比V2版本高约1.22米。由于引入大量新设计元素，SpaceX本次不会尝试对助推器（Booster 19）或上面级（Ship 39）进行捕获回收，而是采用溅落方式着陆。
+
 
 ## 信息来源（原文）
 

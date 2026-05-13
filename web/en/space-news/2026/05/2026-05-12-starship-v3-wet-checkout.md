@@ -5,7 +5,7 @@ description: "On May 11, 2026, SpaceX performed the first full-stack propellant 
 permalink: /en/space-news/2026/05/2026-05-12-starship-v3-wet-checkout/
 author: Tianjiangshuo
 date: 2026-05-11
-lastUpdated: 2026-05-12
+lastUpdated: 2026-05-13
 category: [spacex, commercial]
 image: ./figures/2026-05-12-starship-v3-wet-checkout/hero.jpg
 ---
