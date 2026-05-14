@@ -20,6 +20,8 @@
 import { ref, computed, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { usePage } from 'vuepress/client'
+import { stripFrontmatter } from '../utils/strip-frontmatter'
+import { getCopyPageLocaleText, shouldShowCopyButton } from '../utils/copy-page'
 import type { PageData } from '../utils/types'
 
 const route = useRoute()
@@ -27,26 +29,14 @@ const page = usePage()
 const isCopied = ref(false)
 let timer: ReturnType<typeof setTimeout> | null = null
 
-const isEn = computed(() => route.path.startsWith('/en/'))
-const copyText = computed(() => isEn.value ? 'Copy page' : '复制页面')
-const copiedText = computed(() => isEn.value ? 'Copied!' : '已复制')
+const locale = computed(() => getCopyPageLocaleText(route.path))
+const copyText = computed(() => locale.value.copy)
+const copiedText = computed(() => locale.value.copied)
 
 const show = computed(() => {
-  const p = route.path
-  if (p === '/' || p === '/en/' || p === '/en') return false
-  if (p === '/ai-chat' || p === '/ai-chat/' || p === '/en/ai-chat' || p === '/en/ai-chat/') return false
   const fm = (page.value as PageData).frontmatter || {}
-  if (fm.home) return false
-  return true
+  return shouldShowCopyButton(route.path, fm as Record<string, unknown>)
 })
-
-function stripFrontmatter(raw: string): string {
-  const match = raw.match(/^---\n[\s\S]*?\n---\n/)
-  if (match) {
-    return raw.slice(match[0].length)
-  }
-  return raw
-}
 
 async function copyPage() {
   const fm = (page.value as PageData).frontmatter || {}
