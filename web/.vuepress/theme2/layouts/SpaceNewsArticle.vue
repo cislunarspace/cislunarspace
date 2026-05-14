@@ -16,6 +16,7 @@
           &larr; {{ isEn ? 'Back to Space News' : '返回航天动态' }}
         </router-link>
       </div>
+      <CopyPageButton />
       <Footer />
     </template>
   </Layout>
@@ -30,6 +31,7 @@ import { usePage } from 'vuepress/client'
 import { useRoute } from 'vue-router'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
+import CopyPageButton from '../components/CopyPageButton.vue'
 import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue'
 import PageToc from '../components/PageToc.vue'
 import ArticleHero from '../components/ArticleHero.vue'
