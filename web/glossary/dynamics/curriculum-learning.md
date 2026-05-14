@@ -1,6 +1,10 @@
 ---
 title: 课程学习（Curriculum Learning）
 description: 课程学习是一种训练策略，通过从简单到复杂的渐进式任务课程逐步提升强化学习代理的能力，用于解决高难度长horizon任务
+wechatShare:
+  title: 课程学习（Curriculum Learning）
+  desc: 课程学习是一种训练策略，通过从简单到复杂的渐进式任务课程逐步提升强化学习代理的能力，用于解决高难度长horizon任务
+  image: /logo.png
 keywords: 课程学习, Curriculum Learning, 强化学习, 轨迹优化, 渐进式训练, 地月空间, 低推力, A2PPO
 author: 天疆说
 date: 2026-04-27

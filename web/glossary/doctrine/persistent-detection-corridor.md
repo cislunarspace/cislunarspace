@@ -1,6 +1,10 @@
 ---
 title: 持久探测走廊（Persistent Detection Corridor, PDC）
 description: 详细解析持久探测走廊的定义、生成方法及其在地月空间态势感知中保障载人任务安全的应用
+wechatShare:
+  title: 持久探测走廊（Persistent Detection Corridor, PDC）
+  desc: 详细解析持久探测走廊的定义、生成方法及其在地月空间态势感知中保障载人任务安全的应用
+  image: /logo.png
 keywords: 持久探测走廊, Persistent Detection Corridor, PDC, 地月空间, 态势感知, 载人任务, 检测走廊, 轨迹规划
 author: 天疆说
 date: 2026-04-29

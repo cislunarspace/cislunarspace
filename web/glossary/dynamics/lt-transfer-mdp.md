@@ -1,6 +1,10 @@
 ---
 title: 低推力转移的马尔可夫决策过程（MDP） formulation
 description: 将地月空间低推力轨道转移问题形式化为有限horizon马尔可夫决策过程，用于强化学习框架下的自主轨迹优化
+wechatShare:
+  title: 低推力转移的马尔可夫决策过程（MDP） formulation
+  desc: 将地月空间低推力轨道转移问题形式化为有限horizon马尔可夫决策过程，用于强化学习框架下的自主轨迹优化
+  image: /logo.png
 keywords: MDP, 马尔可夫决策过程, 低推力轨迹优化, 强化学习, 轨道设计, 地月空间, 状态空间, 动作空间, 奖励函数
 author: 天疆说
 date: 2026-04-27

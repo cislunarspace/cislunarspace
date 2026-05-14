@@ -1,6 +1,10 @@
 ---
 title: CW方程（Clohessy-Wiltshire方程）
 description: CW方程（Clohessy-Wiltshire方程）是描述两个航天器之间相对轨道运动的线性化方程组，广泛应用于交会对接、编队飞行和近距离操作等领域。
+wechatShare:
+  title: CW方程（Clohessy-Wiltshire方程）
+  desc: CW方程（Clohessy-Wiltshire方程）是描述两个航天器之间相对轨道运动的线性化方程组，广泛应用于交会对接、编队飞行和近距离操作等领域。
+  image: /logo.png
 keywords: CW方程, Clohessy-Wiltshire, 相对轨道运动, 交会对接, Hill方程, LVLH坐标系
 author: 天疆说
 date: 2026-04-27

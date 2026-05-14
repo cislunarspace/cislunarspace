@@ -1,6 +1,10 @@
 ---
 title: 提示调优（Prompt Tuning / P-tuning）
 description: 提示调优是一种参数高效的微调技术，通过在输入前添加可学习的"软提示"token并冻结预训练模型权重，以极少的训练参数实现下游任务适配。
+wechatShare:
+  title: 提示调优（Prompt Tuning / P-tuning）
+  desc: 提示调优是一种参数高效的微调技术，通过在输入前添加可学习的"软提示"token并冻结预训练模型权重，以极少的训练参数实现下游任务适配。
+  image: /logo.png
 keywords: 提示调优, P-tuning, Prompt Tuning, 大语言模型, 微调, 软提示, 参数高效
 author: 天疆说
 date: 2026-04-27

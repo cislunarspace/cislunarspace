@@ -1,6 +1,10 @@
 ---
 title: 思维链提示（Chain-of-Thought Prompting）
 description: 思维链提示（CoT）是一种引导大语言模型在给出最终答案前输出中间推理步骤的提示技术，显著提升了LLM在复杂推理任务上的表现。
+wechatShare:
+  title: 思维链提示（Chain-of-Thought Prompting）
+  desc: 思维链提示（CoT）是一种引导大语言模型在给出最终答案前输出中间推理步骤的提示技术，显著提升了LLM在复杂推理任务上的表现。
+  image: /logo.png
 keywords: 思维链提示, Chain-of-Thought, CoT, 提示工程, 大语言模型, 推理, few-shot
 author: 天疆说
 date: 2026-04-27
