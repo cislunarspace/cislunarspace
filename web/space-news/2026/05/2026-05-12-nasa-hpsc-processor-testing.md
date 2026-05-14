@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA高性能航天计算芯片进入测试阶段：算力提升100倍，支撑载人登月与火星任务"
 description: "NASA「高性能航天计算」项目处理器芯片尺寸仅巴掌大小，算力可达现有航天计算机的100倍，正在接受辐射、热真空与冲击测试，计划用于Artemis载人登月及火星任务。"
+wechatShare:
+  title: "NASA高性能航天计算芯片进入测试阶段：算力提升100倍，支撑载人登月与火星任务"
+  desc: "NASA「高性能航天计算」项目处理器芯片尺寸仅巴掌大小，算力可达现有航天计算机的100倍，正在接受辐射、热真空与冲击测试，计划用于Artemis载人登月及火星任务。"
+  image: "./figures/2026-05-12-nasa-hpsc-processor-testing/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-nasa-hpsc-processor-testing/
 author: 天疆说
 date: 2026-05-12

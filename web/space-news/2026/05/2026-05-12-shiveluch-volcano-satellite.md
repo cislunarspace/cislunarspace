@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "卫星图像揭示俄罗斯舍维留奇火山内部热量融化积雪"
 description: " Landsat 9 卫星图像显示，俄罗斯勘察加半岛最活跃的舍维留奇火山正在从内部融化积雪，火山热力在冰雪中切割出黑暗疤痕。"
+wechatShare:
+  title: "卫星图像揭示俄罗斯舍维留奇火山内部热量融化积雪"
+  desc: " Landsat 9 卫星图像显示，俄罗斯勘察加半岛最活跃的舍维留奇火山正在从内部融化积雪，火山热力在冰雪中切割出黑暗疤痕。"
+  image: "./figures/2026-05-12-shiveluch-volcano-satellite/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-shiveluch-volcano-satellite/
 author: 天疆说
 date: 2026-05-12

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab 获签 1.9 亿美元 HASTE 火箭合同：增购 20 发高超声速测试飞行"
 description: "Rocket Lab 与美国国防部测试资源管理中心签署 1.9 亿美元合同，增购 20 发 HASTE 高超声速测试火箭，继续巩固其在高超声速飞行技术领域的领先地位。"
+wechatShare:
+  title: "Rocket Lab 获签 1.9 亿美元 HASTE 火箭合同：增购 20 发高超声速测试飞行"
+  desc: "Rocket Lab 与美国国防部测试资源管理中心签署 1.9 亿美元合同，增购 20 发 HASTE 高超声速测试火箭，继续巩固其在高超声速飞行技术领域的领先地位。"
+  image: "./figures/2026-04-27-rocket-lab-haste-190m-contract/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-rocket-lab-haste-190m-contract/
 author: 天疆说
 date: 2026-04-27

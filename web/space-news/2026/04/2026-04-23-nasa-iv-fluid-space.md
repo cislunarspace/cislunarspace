@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA研发太空静脉输液技术，为深空载人任务提供医疗保障"
 description: "NASA正在研发一种可以在太空制造静脉输液的技术，以解决深空任务中液体药物长期储存的难题，该技术有望应用于未来阿尔忒弥斯登月及更远的载人探测任务。"
+wechatShare:
+  title: "NASA研发太空静脉输液技术，为深空载人任务提供医疗保障"
+  desc: "NASA正在研发一种可以在太空制造静脉输液的技术，以解决深空任务中液体药物长期储存的难题，该技术有望应用于未来阿尔忒弥斯登月及更远的载人探测任务。"
+  image: "./figures/2026-04-23-nasa-iv-fluid-space/hero.jpeg"
 permalink: /space-news/2026/04/2026-04-23-nasa-iv-fluid-space/
 author: 天疆说
 date: 2026-04-23

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA LAGEOS-1卫星在轨50年：最古老的人类航天器仍在服役"
 description: "1976年5月4日发射的NASA激光地球动力学卫星（LAGEOS-1）迎来50周年，成为目前地球轨道上仍在全面运行的最古老的人造物体，为大地测量学和地球物理学研究提供精确参照坐标。"
+wechatShare:
+  title: "NASA LAGEOS-1卫星在轨50年：最古老的人类航天器仍在服役"
+  desc: "1976年5月4日发射的NASA激光地球动力学卫星（LAGEOS-1）迎来50周年，成为目前地球轨道上仍在全面运行的最古老的人造物体，为大地测量学和地球物理学研究提供精确参照坐标。"
+  image: "./figures/2026-05-04-nasa-lageos-50th-anniversary/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-nasa-lageos-50th-anniversary/
 author: 天疆说
 date: 2026-05-04

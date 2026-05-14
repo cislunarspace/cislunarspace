@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Opens Xihe-2 Solar Observatory to International Cooperation"
 description: "CNSA releases international cooperation opportunity announcement for Xihe-2 solar mission, offering approximately 15kg of payload resources for international partners."
+wechatShare:
+  title: "China Opens Xihe-2 Solar Observatory to International Cooperation"
+  desc: "CNSA releases international cooperation opportunity announcement for Xihe-2 solar mission, offering approximately 15kg of payload resources for international partners."
+  image: "./figures/2026-04-24-xihe-2-intl-cooperation/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-xihe-2-intl-cooperation/
 author: Tianjiangshuo
 date: 2026-04-24

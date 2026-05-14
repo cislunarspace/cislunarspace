@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab完成第85次发射暨首次为欧空局执行专用发射任务"
 description: "2026年4月23日，Rocket Lab在新西兰马希亚半岛1号发射场成功完成Electron火箭第85次发射任务，将日本JAXA的Kakushin Rising共享卫星送入轨道。"
+wechatShare:
+  title: "Rocket Lab完成第85次发射暨首次为欧空局执行专用发射任务"
+  desc: "2026年4月23日，Rocket Lab在新西兰马希亚半岛1号发射场成功完成Electron火箭第85次发射任务，将日本JAXA的Kakushin Rising共享卫星送入轨道。"
+  image: "./figures/2026-04-23-rocket-lab-85th-mission/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-rocket-lab-85th-mission/
 author: 天疆说
 date: 2026-04-23

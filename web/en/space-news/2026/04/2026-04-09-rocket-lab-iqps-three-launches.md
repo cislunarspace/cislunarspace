@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "iQPS Books Three Additional Electron Launches, Deepening Multi-Year Partnership with Rocket Lab"
 description: "On April 9, 2026, Japanese SAR satellite operator iQPS signed an agreement with Rocket Lab for three additional Electron launches, further deepening their years-long partnership."
+wechatShare:
+  title: "iQPS Books Three Additional Electron Launches, Deepening Multi-Year Partnership with Rocket Lab"
+  desc: "On April 9, 2026, Japanese SAR satellite operator iQPS signed an agreement with Rocket Lab for three additional Electron launches, further deepening their years-long partnership."
+  image: "./figures/2026-04-09-rocket-lab-iqps-three-launches/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-09-rocket-lab-iqps-three-launches/
 author: Tianjiangshuo
 date: 2026-04-09

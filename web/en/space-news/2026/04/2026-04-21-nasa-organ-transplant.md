@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Partners with Organ Sharing Network UNOS to Study Faster Organ Transport"
 description: "NASA's Langley Research Center partners with the United Network for Organ Sharing (UNOS) to explore aerospace technologies for accelerating organ transport, with the goal of improving transplant success rates."
+wechatShare:
+  title: "NASA Partners with Organ Sharing Network UNOS to Study Faster Organ Transport"
+  desc: "NASA's Langley Research Center partners with the United Network for Organ Sharing (UNOS) to explore aerospace technologies for accelerating organ transport, with the goal of improving transplant success rates."
+  image: "./figures/2026-04-21-nasa-organ-transplant/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-21-nasa-organ-transplant/
 author: Tianjiangshuo
 date: 2026-04-21

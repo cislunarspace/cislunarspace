@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "中国航天员中心招募「地星三号」卧床实验志愿者 最高补助7万元"
 description: "中国航天员科研训练中心公开招募「地星三号」卧床实验志愿者，通过15至60天头低位卧床模拟微重力环境，用于研究长期失重对人体生理影响，验证防护措施有效性。"
+wechatShare:
+  title: "中国航天员中心招募「地星三号」卧床实验志愿者 最高补助7万元"
+  desc: "中国航天员科研训练中心公开招募「地星三号」卧床实验志愿者，通过15至60天头低位卧床模拟微重力环境，用于研究长期失重对人体生理影响，验证防护措施有效性。"
+  image: "./figures/2026-05-06-dixing-bed-rest-volunteer/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-dixing-bed-rest-volunteer/
 author: 天疆说
 date: 2026-05-06

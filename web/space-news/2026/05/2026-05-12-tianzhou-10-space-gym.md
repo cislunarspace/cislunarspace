@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟十号给「天宫」送去新型跑步机：太空健身房升级换代"
 description: "天舟十号货运飞船为空间站送去全新升级的太空跑台，搭配太空自行车、微重力抗阻锻炼装置等组成完备的「天宫健身房」，航天员每天锻炼两小时对抗肌肉萎缩和骨丢失。"
+wechatShare:
+  title: "天舟十号给「天宫」送去新型跑步机：太空健身房升级换代"
+  desc: "天舟十号货运飞船为空间站送去全新升级的太空跑台，搭配太空自行车、微重力抗阻锻炼装置等组成完备的「天宫健身房」，航天员每天锻炼两小时对抗肌肉萎缩和骨丢失。"
+  image: "./figures/2026-05-12-tianzhou-10-space-gym/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-tianzhou-10-space-gym/
 author: 天疆说
 date: 2026-05-12

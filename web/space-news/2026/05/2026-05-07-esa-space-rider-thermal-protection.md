@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "欧洲Space Rider热防护系统通过极端测试 可复用飞船更近一步"
 description: "欧洲航天局Space Rider可复用飞船的热防护系统在极端条件下完成测试，全尺寸缩比验证模型同时完成组装，标志着欧洲首款可复用轨道飞行器向首飞迈出关键一步。"
+wechatShare:
+  title: "欧洲Space Rider热防护系统通过极端测试 可复用飞船更近一步"
+  desc: "欧洲航天局Space Rider可复用飞船的热防护系统在极端条件下完成测试，全尺寸缩比验证模型同时完成组装，标志着欧洲首款可复用轨道飞行器向首飞迈出关键一步。"
+  image: "./figures/2026-05-07-esa-space-rider-thermal-protection/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-esa-space-rider-thermal-protection/
 author: 天疆说
 date: 2026-05-07

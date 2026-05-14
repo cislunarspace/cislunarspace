@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA罗曼空间望远镜组装完成，计划9月发射"
 description: "NASA宣布，其最新一代旗舰级天文台——南希·格雷斯·罗曼空间望远镜已完成全部组装与测试工作，计划于2026年9月搭乘SpaceX重型猎鹰火箭发射升空。"
+wechatShare:
+  title: "NASA罗曼空间望远镜组装完成，计划9月发射"
+  desc: "NASA宣布，其最新一代旗舰级天文台——南希·格雷斯·罗曼空间望远镜已完成全部组装与测试工作，计划于2026年9月搭乘SpaceX重型猎鹰火箭发射升空。"
+  image: "./figures/2026-05-02-nasa-roman-telescope/hero.jpg"
 permalink: /space-news/2026/05/2026-05-02-nasa-roman-telescope/
 author: 天疆说
 date: 2026-05-02

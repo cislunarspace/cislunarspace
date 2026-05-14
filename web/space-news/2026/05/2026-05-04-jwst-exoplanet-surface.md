@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "韦布望远镜首次直接研究系外行星表面：发现黑暗灼热岩石"
 description: "NASA韦布空间望远镜首次直接观测到系外行星LHS 3844b的表面特征，揭示其为一颗黑暗、炽热、荒芜的岩石星球，这一发现将系外行星大气研究推进到表面地质学新阶段。"
+wechatShare:
+  title: "韦布望远镜首次直接研究系外行星表面：发现黑暗灼热岩石"
+  desc: "NASA韦布空间望远镜首次直接观测到系外行星LHS 3844b的表面特征，揭示其为一颗黑暗、炽热、荒芜的岩石星球，这一发现将系外行星大气研究推进到表面地质学新阶段。"
+  image: "./figures/2026-05-04-jwst-exoplanet-surface/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-jwst-exoplanet-surface/
 author: 天疆说
 date: 2026-05-04

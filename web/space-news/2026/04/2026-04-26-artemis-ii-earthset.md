@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis II宇航员在奔月途中拍摄地球「下落」奇观"
 description: "NASA Artemis II宇航员在2026年4月6日从猎户座飞船拍摄了地球在月球背影下缓缓下落的壮观景象，这张照片被NASA Science称为史上最壮观的地月合影之一。"
+wechatShare:
+  title: "Artemis II宇航员在奔月途中拍摄地球「下落」奇观"
+  desc: "NASA Artemis II宇航员在2026年4月6日从猎户座飞船拍摄了地球在月球背影下缓缓下落的壮观景象，这张照片被NASA Science称为史上最壮观的地月合影之一。"
+  image: "./figures/2026-04-26-artemis-ii-earthset/hero.jpg"
 permalink: /space-news/2026/04/2026-04-26-artemis-ii-earthset/
 author: 天疆说
 date: 2026-04-26

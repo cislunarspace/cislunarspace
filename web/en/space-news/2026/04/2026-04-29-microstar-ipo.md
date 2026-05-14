@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "MicroNano Star Completes IPO Coaching and Acceptance"
 description: "On April 29, 2026, Beijing MicroNano Star Technology Co., Ltd. completed its IPO coaching and acceptance, with Guotai Haotong Securities as the coaching institution. MicroNano Star is a leading Chinese commercial satellite manufacturing company."
+wechatShare:
+  title: "MicroNano Star Completes IPO Coaching and Acceptance"
+  desc: "On April 29, 2026, Beijing MicroNano Star Technology Co., Ltd. completed its IPO coaching and acceptance, with Guotai Haotong Securities as the coaching institution. MicroNano Star is a leading Chinese commercial satellite manufacturing company."
+  image: "./figures/2026-04-29-microstar-ipo/hero.png"
 permalink: /en/space-news/2026/04/2026-04-29-microstar-ipo/
 author: Tianjiangshuo
 date: 2026-04-29

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Lockheed Martin Joins Firefly Aerospace and Seagate Space for Offshore Launch Collaboration"
 description: "Lockheed Martin announced it is joining Firefly Aerospace and Seagate Space's offshore launch collaboration, supporting Alpha rocket launches from the Seagate Space Gateway floating platform."
+wechatShare:
+  title: "Lockheed Martin Joins Firefly Aerospace and Seagate Space for Offshore Launch Collaboration"
+  desc: "Lockheed Martin announced it is joining Firefly Aerospace and Seagate Space's offshore launch collaboration, supporting Alpha rocket launches from the Seagate Space Gateway floating platform."
+  image: "./figures/2026-05-04-lockheed-firefly-offshore-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-lockheed-firefly-offshore-launch/
 author: Tianjiangshuo
 date: 2026-05-04

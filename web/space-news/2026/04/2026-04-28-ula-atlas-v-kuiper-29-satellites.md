@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "ULA Atlas V 成功发射 29 颗亚马逊 Kuiper 互联网卫星"
 description: "美国联合发射联盟（ULA）的 Atlas V 火箭于4月27日成功将29颗亚马逊 Kuiper 互联网卫星送入低地轨道，这是 Kuiper 星座部署进程中又一重要里程碑。"
+wechatShare:
+  title: "ULA Atlas V 成功发射 29 颗亚马逊 Kuiper 互联网卫星"
+  desc: "美国联合发射联盟（ULA）的 Atlas V 火箭于4月27日成功将29颗亚马逊 Kuiper 互联网卫星送入低地轨道，这是 Kuiper 星座部署进程中又一重要里程碑。"
+  image: "./figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg"
 permalink: /space-news/2026/04/2026-04-28-ula-atlas-v-kuiper-29-satellites/
 author: 天疆说
 date: 2026-04-28

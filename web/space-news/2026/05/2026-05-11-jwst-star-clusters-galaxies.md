@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "韦布望远镜新图像揭示星团如何重塑星系"
 description: "2026年5月11日，NASA发布詹姆斯·韦布空间望远镜新图像，揭示大质量星团可如何改变其宿主星系的演化进程。"
+wechatShare:
+  title: "韦布望远镜新图像揭示星团如何重塑星系"
+  desc: "2026年5月11日，NASA发布詹姆斯·韦布空间望远镜新图像，揭示大质量星团可如何改变其宿主星系的演化进程。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-11-jwst-star-clusters-galaxies/
 author: 天疆说
 date: 2026-05-11

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China's Astronaut Center Recruits Volunteers for 60-Day Bed Rest Study"
 description: "China's Astronaut Research and Training Center launched recruitment for the 'Dixing-3' bed rest experiment, seeking male volunteers aged 30-55 to spend 15-60 days in head-down bed rest to study physiological effects of microgravity."
+wechatShare:
+  title: "China's Astronaut Center Recruits Volunteers for 60-Day Bed Rest Study"
+  desc: "China's Astronaut Research and Training Center launched recruitment for the 'Dixing-3' bed rest experiment, seeking male volunteers aged 30-55 to spend 15-60 days in head-down bed rest to study physiological effects of microgravity."
+  image: "./figures/2026-05-06-dixing-bed-rest-volunteer/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-dixing-bed-rest-volunteer/
 author: Tianjiangshuo
 date: 2026-05-06

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA公布Artemis II任务12000张 photos ，展示人类绕月飞行前准备工作"
 description: "NASA发布Artemis II任务期间拍摄的12000张照片，记录航天员在猎户座飞船内的训练与准备工作细节。"
+wechatShare:
+  title: "NASA公布Artemis II任务12000张 photos ，展示人类绕月飞行前准备工作"
+  desc: "NASA发布Artemis II任务期间拍摄的12000张照片，记录航天员在猎户座飞船内的训练与准备工作细节。"
+  image: "./figures/2026-05-05-nasa-artemis-ii-photos/hero.jpg"
 permalink: /space-news/2026/05/2026-05-05-nasa-artemis-ii-photos/
 author: 天疆说
 date: 2026-05-05

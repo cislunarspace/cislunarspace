@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Machine Learning Discovers Over 10,000 Candidate Exoplanets in NASA Survey Data"
 description: "Scientists applied machine learning to NASA's TESS satellite data, scanning 83 million faint stars and identifying 10,091 new candidate exoplanets in a single survey—a haul that could more than double humanity's known exoplanet catalog."
+wechatShare:
+  title: "Machine Learning Discovers Over 10,000 Candidate Exoplanets in NASA Survey Data"
+  desc: "Scientists applied machine learning to NASA's TESS satellite data, scanning 83 million faint stars and identifying 10,091 new candidate exoplanets in a single survey—a haul that could more than double humanity's known exoplanet catalog."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-08-exoplanets-tess-10000-candidates/
 author: Tianjiangshuo
 date: 2026-05-08

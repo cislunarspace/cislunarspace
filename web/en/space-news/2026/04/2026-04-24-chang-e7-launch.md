@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Chang'e-7 Lunar South Pole Mission to Launch This Year"
 description: "China announces Chang'e-7 lunar south pole mission will launch in 2026, marking a new phase of China's lunar exploration program."
+wechatShare:
+  title: "Chang'e-7 Lunar South Pole Mission to Launch This Year"
+  desc: "China announces Chang'e-7 lunar south pole mission will launch in 2026, marking a new phase of China's lunar exploration program."
+  image: "./figures/2026-04-24-chang-e7-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-chang-e7-launch/
 author: Tianjiangshuo
 date: 2026-04-24

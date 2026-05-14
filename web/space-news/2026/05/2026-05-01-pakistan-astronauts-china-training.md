@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "首批外籍航天员来了！两名巴基斯坦航天员入驻中国航天员科研训练中心"
 description: "2026年4月24日，中国载人航天工程首批外籍航天员选拔结果公布，两名巴基斯坦航天员正式进入中国航天员科研训练中心参加训练，计划于2026年10至11月搭乘神舟飞船进入天宫空间站。"
+wechatShare:
+  title: "首批外籍航天员来了！两名巴基斯坦航天员入驻中国航天员科研训练中心"
+  desc: "2026年4月24日，中国载人航天工程首批外籍航天员选拔结果公布，两名巴基斯坦航天员正式进入中国航天员科研训练中心参加训练，计划于2026年10至11月搭乘神舟飞船进入天宫空间站。"
+  image: "./figures/2026-05-01-pakistan-astronauts-china-training/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-pakistan-astronauts-china-training/
 author: 天疆说
 date: 2026-05-01

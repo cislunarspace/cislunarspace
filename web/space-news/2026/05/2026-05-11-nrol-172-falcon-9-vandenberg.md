@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX 在范登堡发射 NRO 侦察卫星组网第13批任务"
 description: "SpaceX 于5月11日在范登堡空军基地使用 Falcon 9 火箭成功发射 NRO 侦察卫星组网第13批卫星，助推器成功回收"
+wechatShare:
+  title: "SpaceX 在范登堡发射 NRO 侦察卫星组网第13批任务"
+  desc: "SpaceX 于5月11日在范登堡空军基地使用 Falcon 9 火箭成功发射 NRO 侦察卫星组网第13批卫星，助推器成功回收"
+  image: "./figures/2026-05-11-nrol-172-falcon-9-vandenberg/hero.jpg"
 permalink: /space-news/2026/05/2026-05-11-nrol-172-falcon-9-vandenberg/
 author: 天疆说
 date: 2026-05-11

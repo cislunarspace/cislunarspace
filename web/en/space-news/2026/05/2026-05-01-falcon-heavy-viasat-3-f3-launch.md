@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Communications Satellite After 18-Month Hiatus"
 description: "On April 29, 2026, SpaceX's Falcon Heavy successfully launched the ViaSat-3 F3 communications satellite from Kennedy Space Center, marking the rocket's 12th flight and first launch since October 2024."
+wechatShare:
+  title: "SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Communications Satellite After 18-Month Hiatus"
+  desc: "On April 29, 2026, SpaceX's Falcon Heavy successfully launched the ViaSat-3 F3 communications satellite from Kennedy Space Center, marking the rocket's 12th flight and first launch since October 2024."
+  image: "./figures/2026-05-01-falcon-heavy-viasat-3-f3-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-falcon-heavy-viasat-3-f3-launch/
 author: Tianjiangshuo
 date: 2026-04-29

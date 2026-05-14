@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "国际空间站曙光号服务舱裂纹问题悬而未决"
 description: "NASA与俄罗斯联邦航天局联合调查国际空间站曙光号服务舱PrK气闸廊道结构性裂纹，虽已通过专用密封剂封堵空气泄漏，但裂纹根本原因至今未明，引发对空间站长期结构完整性的担忧。"
+wechatShare:
+  title: "国际空间站曙光号服务舱裂纹问题悬而未决"
+  desc: "NASA与俄罗斯联邦航天局联合调查国际空间站曙光号服务舱PrK气闸廊道结构性裂纹，虽已通过专用密封剂封堵空气泄漏，但裂纹根本原因至今未明，引发对空间站长期结构完整性的担忧。"
+  image: "./figures/2026-05-06-iss-module-cracking/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-iss-module-cracking/
 author: 天疆说
 date: 2026-05-06

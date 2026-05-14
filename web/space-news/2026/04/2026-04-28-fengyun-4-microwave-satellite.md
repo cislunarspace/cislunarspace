@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "「十五五」规划：风云四号微波星 2026 年前后发射"
 description: "中国气象局在国新办新闻发布会上宣布，十五五期间将发射全球首颗静止轨道微波大气探测卫星（风云四号微波星），填补全天候、高频次、大气三维探测空白，预计2026年前后由长征系列火箭发射。"
+wechatShare:
+  title: "「十五五」规划：风云四号微波星 2026 年前后发射"
+  desc: "中国气象局在国新办新闻发布会上宣布，十五五期间将发射全球首颗静止轨道微波大气探测卫星（风云四号微波星），填补全天候、高频次、大气三维探测空白，预计2026年前后由长征系列火箭发射。"
+  image: "./figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg"
 permalink: /space-news/2026/04/2026-04-28-fengyun-4-microwave-satellite/
 author: 天疆说
 date: 2026-04-28

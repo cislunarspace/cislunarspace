@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Google in Talks with SpaceX Over Orbital Data Center Launch Deal"
 description: "Google is negotiating a rocket launch agreement with SpaceX to support its Project Suncatcher orbital data center program, targeting prototype launches by 2027."
+wechatShare:
+  title: "Google in Talks with SpaceX Over Orbital Data Center Launch Deal"
+  desc: "Google is negotiating a rocket launch agreement with SpaceX to support its Project Suncatcher orbital data center program, targeting prototype launches by 2027."
+  image: "./figures/2026-05-13-google-spacex-orbital-data-center/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-google-spacex-orbital-data-center/
 author: Tianjiangshuo
 date: 2026-05-13

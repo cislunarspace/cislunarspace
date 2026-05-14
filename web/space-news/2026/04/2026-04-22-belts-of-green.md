@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 地球观测卫星影像：华盛顿郊区绿带"
 description: "NASA 地球观测台发布由国际空间站宇航员拍摄的华盛顿郊区影像，展示马里兰州首都环城公路沿线的绿色空间如何与城市肌理交织。"
+wechatShare:
+  title: "NASA 地球观测卫星影像：华盛顿郊区绿带"
+  desc: "NASA 地球观测台发布由国际空间站宇航员拍摄的华盛顿郊区影像，展示马里兰州首都环城公路沿线的绿色空间如何与城市肌理交织。"
+  image: "./figures/2026-04-22-belts-of-green/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-belts-of-green/
 author: 天疆说
 date: 2026-04-22

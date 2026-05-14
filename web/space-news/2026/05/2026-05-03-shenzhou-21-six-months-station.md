@@ -1,5 +1,9 @@
 ---
 title: 神舟二十一号乘组在轨六个月里程碑
+wechatShare:
+  title: "神舟二十一号乘组在轨六个月里程碑"
+  desc: "神舟二十一号乘组在轨六个月里程碑"
+  image: "./figures/2026-05-03-shenzhou-21-six-months-station/hero.jpg"
 date: 2026-05-03
 category: iss
 image: ./figures/2026-05-03-shenzhou-21-six-months-station/hero.jpg

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Falcon 9 Completes 600th Booster Recovery, Reusability Enters Maturity Phase"
 description: "On April 20, 2026, SpaceX completed its 600th orbital rocket recovery using a Falcon 9 booster, just 7 months after reaching 500th recovery, marking reusability as a routine operation."
+wechatShare:
+  title: "SpaceX Falcon 9 Completes 600th Booster Recovery, Reusability Enters Maturity Phase"
+  desc: "On April 20, 2026, SpaceX completed its 600th orbital rocket recovery using a Falcon 9 booster, just 7 months after reaching 500th recovery, marking reusability as a routine operation."
+  image: "./figures/2026-05-01-spacex-600th-recovery/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-spacex-600th-recovery/
 author: Tianjiangshuo
 date: 2026-04-20

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Satellite, ~1 Tbps Capacity Sets Global Record"
 description: "After a weather-related scrub, SpaceX successfully launched the ViaSat-3 Flight 3 communications satellite on a Falcon Heavy rocket on April 28, marking the Heavy's first flight in 18 months."
+wechatShare:
+  title: "SpaceX Falcon Heavy Successfully Launches ViaSat-3 F3 Satellite, ~1 Tbps Capacity Sets Global Record"
+  desc: "After a weather-related scrub, SpaceX successfully launched the ViaSat-3 Flight 3 communications satellite on a Falcon Heavy rocket on April 28, marking the Heavy's first flight in 18 months."
+  image: "./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-spacex-viasat-3-scrub/
 author: Tianjiangshuo
 date: 2026-04-29

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源Blue Moon Mark 1登月器完成NASA热真空测试"
 description: "蓝色起源Blue Moon Mark 1（MK1）登月器在NASA约翰逊航天中心热真空A舱完成全周期环境测试，为今年执行CLPS商业月球载荷服务任务奠定基础。"
+wechatShare:
+  title: "蓝色起源Blue Moon Mark 1登月器完成NASA热真空测试"
+  desc: "蓝色起源Blue Moon Mark 1（MK1）登月器在NASA约翰逊航天中心热真空A舱完成全周期环境测试，为今年执行CLPS商业月球载荷服务任务奠定基础。"
+  image: "./figures/2026-05-04-blue-origin-mk1-vacuum-testing/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-blue-origin-mk1-vacuum-testing/
 author: 天疆说
 date: 2026-05-04

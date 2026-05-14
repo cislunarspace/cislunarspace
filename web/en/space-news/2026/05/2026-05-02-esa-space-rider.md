@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "ESA Completes First Full-Size Space Rider Test Model Assembly"
 description: "ESA announces the assembly of the first full-scale test model of Space Rider, Europe's reusable space transportation system, marking a key milestone toward European independent reusable space cargo capability."
+wechatShare:
+  title: "ESA Completes First Full-Size Space Rider Test Model Assembly"
+  desc: "ESA announces the assembly of the first full-scale test model of Space Rider, Europe's reusable space transportation system, marking a key milestone toward European independent reusable space cargo capability."
+  image: "./figures/2026-05-02-esa-space-rider/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-02-esa-space-rider/
 author: Tianjiangshuo
 date: 2026-05-02

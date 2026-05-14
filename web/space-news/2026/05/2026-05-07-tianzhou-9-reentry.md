@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟九号货运飞船受控再入大气层"
 description: "据中国载人航天工程办公室消息，天舟九号货运飞船于北京时间2026年5月7日7时49分受控再入大气层，少量残骸落入预定安全海域。"
+wechatShare:
+  title: "天舟九号货运飞船受控再入大气层"
+  desc: "据中国载人航天工程办公室消息，天舟九号货运飞船于北京时间2026年5月7日7时49分受控再入大气层，少量残骸落入预定安全海域。"
+  image: "./figures/2026-05-07-tianzhou-9-reentry/hero.png"
 permalink: /space-news/2026/05/2026-05-07-tianzhou-9-reentry/
 author: 天疆说
 date: 2026-05-07

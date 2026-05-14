@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Modified Boeing 777 Returns to Fleet as Next-Generation Airborne Science Laboratory"
 description: "NASA's Boeing 777 has returned to the agency's fleet after undergoing heavy structural modifications to become NASA's next-generation airborne science laboratory."
+wechatShare:
+  title: "NASA's Modified Boeing 777 Returns to Fleet as Next-Generation Airborne Science Laboratory"
+  desc: "NASA's Boeing 777 has returned to the agency's fleet after undergoing heavy structural modifications to become NASA's next-generation airborne science laboratory."
+  image: "./figures/2026-04-22-nasa-777-aircraft/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-nasa-777-aircraft/
 author: Tianjiangshuo
 date: 2026-04-22

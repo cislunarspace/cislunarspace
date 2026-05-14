@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX IPO注册文件曝光：星舰项目累计投入超150亿美元"
 description: "路透社披露SpaceX IPO注册文件，星舰项目累计投入超150亿美元、估值1.75万亿美元，计划2026年下半年发射星链V3卫星。"
+wechatShare:
+  title: "SpaceX IPO注册文件曝光：星舰项目累计投入超150亿美元"
+  desc: "路透社披露SpaceX IPO注册文件，星舰项目累计投入超150亿美元、估值1.75万亿美元，计划2026年下半年发射星链V3卫星。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-02-spacex-starship-150b-ipo/
 author: 天疆说
 date: 2026-05-02

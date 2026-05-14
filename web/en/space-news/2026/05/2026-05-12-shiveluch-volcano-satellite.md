@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out"
 description: "New Landsat 9 satellite images reveal volcanic heat carving dark scars through snow on Russia's Shiveluch volcano on the Kamchatka Peninsula."
+wechatShare:
+  title: "Satellites Spy Russia's Most Active Volcano Melting Snow From the Inside Out"
+  desc: "New Landsat 9 satellite images reveal volcanic heat carving dark scars through snow on Russia's Shiveluch volcano on the Kamchatka Peninsula."
+  image: "./figures/2026-05-12-shiveluch-volcano-satellite/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-shiveluch-volcano-satellite/
 author: Tianjiangshuo
 date: 2026-05-12

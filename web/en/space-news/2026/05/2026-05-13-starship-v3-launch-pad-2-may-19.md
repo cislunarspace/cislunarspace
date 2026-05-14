@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Targets May 19 for Starship V3 Debut from Launch Pad 2"
 description: "After completing integrated tanking test, SpaceX announces V3 will launch no earlier than May 19 from new Pad 2, marking transition to high-frequency V3 operations"
+wechatShare:
+  title: "SpaceX Targets May 19 for Starship V3 Debut from Launch Pad 2"
+  desc: "After completing integrated tanking test, SpaceX announces V3 will launch no earlier than May 19 from new Pad 2, marking transition to high-frequency V3 operations"
+  image: "./figures/2026-05-13-starship-v3-launch-pad-2-may-19/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-starship-v3-launch-pad-2-may-19/
 author: Tianjiangshuo
 date: 2026-05-12

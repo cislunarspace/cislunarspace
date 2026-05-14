@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "商业航天可回收火箭发展窗口期研讨会成功举办"
 description: "4月29日，商业航天可回收火箭发展窗口期研讨会在北京成功召开，论坛主题为「激发航天文化创新创造活力」，汇聚了国内主要商业火箭公司及科研机构代表。"
+wechatShare:
+  title: "商业航天可回收火箭发展窗口期研讨会成功举办"
+  desc: "4月29日，商业航天可回收火箭发展窗口期研讨会在北京成功召开，论坛主题为「激发航天文化创新创造活力」，汇聚了国内主要商业火箭公司及科研机构代表。"
+  image: "./figures/2026-04-29-commercial-recoverable-rocket-window/hero.jpg"
 permalink: /space-news/2026/04/2026-04-29-commercial-recoverable-rocket-window/
 author: 天疆说
 date: 2026-04-29

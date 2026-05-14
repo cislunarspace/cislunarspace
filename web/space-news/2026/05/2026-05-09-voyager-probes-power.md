@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA旅行者号姊妹探测器功率告急 \"大爆炸\"机动计划延寿"
 description: "NASA于2026年5月9日披露，1977年发射的旅行者号姊妹探测器功率持续下降，团队正计划实施代号「Big Bang（大爆炸）」的延寿机动，以在功率有限的条件下继续延长科学探测任务寿命。"
+wechatShare:
+  title: "NASA旅行者号姊妹探测器功率告急 \"大爆炸\"机动计划延寿"
+  desc: "NASA于2026年5月9日披露，1977年发射的旅行者号姊妹探测器功率持续下降，团队正计划实施代号「Big Bang（大爆炸）」的延寿机动，以在功率有限的条件下继续延长科学探测任务寿命。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-09-voyager-probes-power/
 author: 天疆说
 date: 2026-05-09

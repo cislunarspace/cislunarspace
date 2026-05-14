@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX完成星链17-14批次发射"
 description: "2026年4月23日，SpaceX在范登堡太空军基地使用猎鹰9号火箭成功发射星链17-14批次20颗卫星，卫星进入预定轨道。"
+wechatShare:
+  title: "SpaceX完成星链17-14批次发射"
+  desc: "2026年4月23日，SpaceX在范登堡太空军基地使用猎鹰9号火箭成功发射星链17-14批次20颗卫星，卫星进入预定轨道。"
+  image: "./figures/2026-04-23-starlink-group-17-14/hero.png"
 permalink: /space-news/2026/04/2026-04-23-starlink-group-17-14/
 author: 天疆说
 date: 2026-04-23

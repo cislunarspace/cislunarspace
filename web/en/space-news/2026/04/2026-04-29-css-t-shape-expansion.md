@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Space Station to Undergo Second Expansion, Transforming from T-Shaped to Cross-Shaped Configuration"
 description: "On the 5th anniversary of the Tianhe core module's orbital operations, experts revealed China's space station will undergo a second expansion, adding a larger expansion module at the front docking port to form a cross-shaped configuration."
+wechatShare:
+  title: "China Space Station to Undergo Second Expansion, Transforming from T-Shaped to Cross-Shaped Configuration"
+  desc: "On the 5th anniversary of the Tianhe core module's orbital operations, experts revealed China's space station will undergo a second expansion, adding a larger expansion module at the front docking port to form a cross-shaped configuration."
+  image: "./figures/2026-04-29-css-t-shape-expansion/hero.png"
 permalink: /en/space-news/2026/04/2026-04-29-css-t-shape-expansion/
 author: Tianjiangshuo
 date: 2026-04-29

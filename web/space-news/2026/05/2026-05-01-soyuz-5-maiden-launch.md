@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "俄罗斯「联盟-5号」火箭完成首次发射（测试版本）"
 description: "2026年5月1日，俄罗斯国家航天集团宣布，「联盟-5号」运载火箭首次从拜科努尔航天发射场发射升空，测试发射按计划进行，标志着这款新型中型运载火箭正式进入飞行测试阶段。"
+wechatShare:
+  title: "俄罗斯「联盟-5号」火箭完成首次发射（测试版本）"
+  desc: "2026年5月1日，俄罗斯国家航天集团宣布，「联盟-5号」运载火箭首次从拜科努尔航天发射场发射升空，测试发射按计划进行，标志着这款新型中型运载火箭正式进入飞行测试阶段。"
+  image: "./figures/2026-05-01-soyuz-5-maiden-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-soyuz-5-maiden-launch/
 author: 天疆说
 date: 2026-05-01

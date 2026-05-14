@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab HASTE 成功发射高超声速测试任务"
 description: "Rocket Lab 于北京时间4月22日从美国弗吉尼亚州沃洛普斯飞行场发射 HASTE 高超声速测试项目第二次任务"
+wechatShare:
+  title: "Rocket Lab HASTE 成功发射高超声速测试任务"
+  desc: "Rocket Lab 于北京时间4月22日从美国弗吉尼亚州沃洛普斯飞行场发射 HASTE 高超声速测试项目第二次任务"
+  image: "./figures/2026-04-22-haste-bubbles/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-haste-bubbles/
 author: 天疆说
 date: 2026-04-22

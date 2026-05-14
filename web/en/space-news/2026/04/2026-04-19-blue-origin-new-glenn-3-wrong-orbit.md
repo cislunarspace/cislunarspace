@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit"
 description: "Blue Origin's third New Glenn rocket successfully recovers a reused booster, but the payload falls short of its intended orbit"
+wechatShare:
+  title: "Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit"
+  desc: "Blue Origin's third New Glenn rocket successfully recovers a reused booster, but the payload falls short of its intended orbit"
+  image: "./figures/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/
 author: Tianjiangshuo
 date: 2026-04-19

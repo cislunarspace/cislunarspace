@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 公民科学项目邀请公众参与：人人皆可成为太空探索的一份子"
 description: "NASA 于4月27日发布文章，介绍公民科学项目如何让公众参与 Artemis II 任务相关的科学研究，包括辣椒品种太空种植测试和月球撞击闪光观测等，普通人也能为载人深空探测做出贡献。"
+wechatShare:
+  title: "NASA 公民科学项目邀请公众参与：人人皆可成为太空探索的一份子"
+  desc: "NASA 于4月27日发布文章，介绍公民科学项目如何让公众参与 Artemis II 任务相关的科学研究，包括辣椒品种太空种植测试和月球撞击闪光观测等，普通人也能为载人深空探测做出贡献。"
+  image: "./figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-nasa-citizen-science-thrive/
 author: 天疆说
 date: 2026-04-27

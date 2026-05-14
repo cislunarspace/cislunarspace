@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Johnson Leaders Honored by National Space Club & Foundation"
 description: "Two leaders from NASA's Johnson Space Center were recognized at the 69th Annual Robert H. Goddard Memorial Dinner, with Orion Program Manager Howard Hu receiving the Norman L. Baker Astronautics Engineer Award."
+wechatShare:
+  title: "NASA Johnson Leaders Honored by National Space Club & Foundation"
+  desc: "Two leaders from NASA's Johnson Space Center were recognized at the 69th Annual Robert H. Goddard Memorial Dinner, with Orion Program Manager Howard Hu receiving the Norman L. Baker Astronautics Engineer Award."
+  image: "./figures/2026-04-23-nasa-johnson-leaders/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-johnson-leaders/
 author: Tianjiangshuo
 date: 2026-04-23

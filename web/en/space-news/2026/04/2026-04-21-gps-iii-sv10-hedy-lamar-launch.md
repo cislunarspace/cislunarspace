@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Launches Final GPS III Satellite for U.S. Space Force"
 description: "SpaceX Falcon 9 successfully launches GPS III-8 (SV10 「Hedy Lamar」), the last satellite in the GPS III constellation"
+wechatShare:
+  title: "SpaceX Launches Final GPS III Satellite for U.S. Space Force"
+  desc: "SpaceX Falcon 9 successfully launches GPS III-8 (SV10 「Hedy Lamar」), the last satellite in the GPS III constellation"
+  image: "./figures/2026-04-21-gps-iii-sv10-hedy-lamar-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-21-gps-iii-sv10-hedy-lamar-launch/
 author: Tianjiangshuo
 date: 2026-04-21

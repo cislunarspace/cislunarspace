@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "新研究揭示月球最大撞击盆地形成机制：巨大小行星「斩首」撞击"
 description: "普渡大学团队高分辨率模拟显示，月球背面南极-艾特肯盆地由一颗已分异的巨大小行星以浅角撞击形成，撞击将月球深部地幔物质抛射至南极附近。"
+wechatShare:
+  title: "新研究揭示月球最大撞击盆地形成机制：巨大小行星「斩首」撞击"
+  desc: "普渡大学团队高分辨率模拟显示，月球背面南极-艾特肯盆地由一颗已分异的巨大小行星以浅角撞击形成，撞击将月球深部地幔物质抛射至南极附近。"
+  image: "./figures/2026-05-07-south-pole-aitken-asteroid-study/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-south-pole-aitken-asteroid-study/
 author: 天疆说
 date: 2026-05-07

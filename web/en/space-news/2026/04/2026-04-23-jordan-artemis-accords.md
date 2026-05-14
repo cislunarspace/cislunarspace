@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Jordan Signs Artemis Accords, Becomes 63rd Signatory Nation"
 description: "The Hashemite Kingdom of Jordan signed the Artemis Accords during a ceremony at NASA headquarters, becoming the 63rd signatory nation and further expanding international participation in the Artemis program."
+wechatShare:
+  title: "Jordan Signs Artemis Accords, Becomes 63rd Signatory Nation"
+  desc: "The Hashemite Kingdom of Jordan signed the Artemis Accords during a ceremony at NASA headquarters, becoming the 63rd signatory nation and further expanding international participation in the Artemis program."
+  image: "./figures/2026-04-23-jordan-artemis-accords/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-jordan-artemis-accords/
 author: Tianjiangshuo
 date: 2026-04-23

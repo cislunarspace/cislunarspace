@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝箭航天朱雀三号遥二火箭正式进入出厂阶段，稳步冲刺二季度发射"
 description: "2026年4月，蓝箭航天朱雀三号遥二运载火箭完成全部归零整改，正式进入出厂阶段，将再次挑战一子级回收复用，目标二季度择机发射。"
+wechatShare:
+  title: "蓝箭航天朱雀三号遥二火箭正式进入出厂阶段，稳步冲刺二季度发射"
+  desc: "2026年4月，蓝箭航天朱雀三号遥二运载火箭完成全部归零整改，正式进入出厂阶段，将再次挑战一子级回收复用，目标二季度择机发射。"
+  image: "./figures/2026-04-30-zhuque-3-yao2-leaves-factory/hero.jpg"
 permalink: /space-news/2026/04/2026-04-30-zhuque-3-yao2-leaves-factory/
 author: 天疆说
 date: 2026-04-30

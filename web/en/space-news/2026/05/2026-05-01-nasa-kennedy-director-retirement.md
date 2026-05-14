@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Kennedy Space Center Director Janet Petro Announces Retirement Plans"
 description: "NASA Kennedy Space Center Director Janet Petro announced her retirement plans, having led the center's transformation into a premier commercial spaceport."
+wechatShare:
+  title: "NASA Kennedy Space Center Director Janet Petro Announces Retirement Plans"
+  desc: "NASA Kennedy Space Center Director Janet Petro announced her retirement plans, having led the center's transformation into a premier commercial spaceport."
+  image: "./figures/2026-05-01-nasa-kennedy-director-retirement/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-nasa-kennedy-director-retirement/
 author: Tianjiangshuo
 date: 2026-05-01

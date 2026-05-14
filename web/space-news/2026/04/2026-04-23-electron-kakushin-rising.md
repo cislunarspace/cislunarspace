@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab 第85次任务携日本卫星升空"
 description: "Rocket Lab 于北京时间4月23日从新西兰发射第85次任务，携带8颗日本卫星包括教育卫星、海洋监测卫星和多光谱相机演示卫星"
+wechatShare:
+  title: "Rocket Lab 第85次任务携日本卫星升空"
+  desc: "Rocket Lab 于北京时间4月23日从新西兰发射第85次任务，携带8颗日本卫星包括教育卫星、海洋监测卫星和多光谱相机演示卫星"
+  image: "./figures/2026-04-23-electron-kakushin-rising/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-electron-kakushin-rising/
 author: 天疆说
 date: 2026-04-23

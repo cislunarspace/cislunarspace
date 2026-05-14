@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "First Foreign Astronauts Announced: Two Pakistani Astronauts Begin Training at China's Space Program"
 description: "On April 24, 2026, China announced the selection of its first foreign astronauts — two Pakistani pilots who have now begun training at the China Astronaut Research and Training Center, with one scheduled to fly to Tiangong Space Station in October–November 2026."
+wechatShare:
+  title: "First Foreign Astronauts Announced: Two Pakistani Astronauts Begin Training at China's Space Program"
+  desc: "On April 24, 2026, China announced the selection of its first foreign astronauts — two Pakistani pilots who have now begun training at the China Astronaut Research and Training Center, with one scheduled to fly to Tiangong Space Station in October–November 2026."
+  image: "./figures/2026-05-01-pakistan-astronauts-china-training/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-pakistan-astronauts-china-training/
 author: Tianjiangshuo
 date: 2026-05-01

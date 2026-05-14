@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Shenzhou-23 Countdown: China's Space Station Crew Milestone, Global Launch Updates"
 description: "Commander Zhang Lu surpasses 500 cumulative days in orbit as Shenzhou-23 launch approaches, while Wenchang commercial launch site expands and SpaceX Falcon Heavy delivers ViaSat-3 F3 satellite."
+wechatShare:
+  title: "Shenzhou-23 Countdown: China's Space Station Crew Milestone, Global Launch Updates"
+  desc: "Commander Zhang Lu surpasses 500 cumulative days in orbit as Shenzhou-23 launch approaches, while Wenchang commercial launch site expands and SpaceX Falcon Heavy delivers ViaSat-3 F3 satellite."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-03-shenzhou-23-launch-preparations/
 author: Tianjiangshuo
 date: 2026-05-03

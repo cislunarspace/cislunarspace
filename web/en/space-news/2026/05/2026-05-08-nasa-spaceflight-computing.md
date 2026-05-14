@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA, Industry Partner to Advance High Performance Spaceflight Computing"
 description: "NASA teams with industry partners to advance High Performance Spaceflight Computing system-on-chip, enabling next-gen deep space missions."
+wechatShare:
+  title: "NASA, Industry Partner to Advance High Performance Spaceflight Computing"
+  desc: "NASA teams with industry partners to advance High Performance Spaceflight Computing system-on-chip, enabling next-gen deep space missions."
+  image: "./figures/2026-05-08-nasa-spaceflight-computing/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-nasa-spaceflight-computing/
 author: Tianjiangshuo
 date: 2026-05-08

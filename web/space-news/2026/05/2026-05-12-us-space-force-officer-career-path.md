@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "美国太空军发布军官职业发展路径图"
 description: "美国太空军发布《军官职业发展路径》文件，明确未来20年成长路线，强调「先为 Guardian，再为专家」的培养理念。"
+wechatShare:
+  title: "美国太空军发布军官职业发展路径图"
+  desc: "美国太空军发布《军官职业发展路径》文件，明确未来20年成长路线，强调「先为 Guardian，再为专家」的培养理念。"
+  image: "./figures/2026-05-12-us-space-force-officer-career-path/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-us-space-force-officer-career-path/
 author: 天疆说
 date: 2026-05-12

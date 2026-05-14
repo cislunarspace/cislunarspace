@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Planetary Society CEO Slams NASA Budget Proposal as 'Horrible Threat to Our Future' in Space"
 description: "Planetary Society's new CEO Jennifer Vaughn calls Trump's FY2026 NASA budget proposal a 'horrible threat' and 'lazy,' vowing to lobby Congress to restore funding"
+wechatShare:
+  title: "Planetary Society CEO Slams NASA Budget Proposal as 'Horrible Threat to Our Future' in Space"
+  desc: "Planetary Society's new CEO Jennifer Vaughn calls Trump's FY2026 NASA budget proposal a 'horrible threat' and 'lazy,' vowing to lobby Congress to restore funding"
+  image: "./figures/2026-05-04-planetary-society-nasa-budget-response/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-planetary-society-nasa-budget-response/
 author: Tianjiangshuo
 date: 2026-05-04

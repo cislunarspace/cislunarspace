@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Blue Origin's New Glenn Suffers Third Mission Failure as Upper Stage Anomaly Sends BlueBird 7 to Wrong Orbit"
 description: "On April 19, 2026, Blue Origin's New Glenn rocket suffered a failure on its third orbital mission (NG-3) when the upper stage malfunctioned, delivering the BlueBird 7 satellite to an incorrect orbit from which it cannot maintain operations and will re-enter Earth's atmosphere."
+wechatShare:
+  title: "Blue Origin's New Glenn Suffers Third Mission Failure as Upper Stage Anomaly Sends BlueBird 7 to Wrong Orbit"
+  desc: "On April 19, 2026, Blue Origin's New Glenn rocket suffered a failure on its third orbital mission (NG-3) when the upper stage malfunctioned, delivering the BlueBird 7 satellite to an incorrect orbit from which it cannot maintain operations and will re-enter Earth's atmosphere."
+  image: "./figures/2026-05-01-new-glenn-ng3-failure/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-new-glenn-ng3-failure/
 author: Tianjiangshuo
 date: 2026-04-20

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA新技术可模拟月球夜极端低温环境"
 description: "NASA格伦研究中心团队开发了一种地面测试方法，能够模拟月球夜低至零下173摄氏度的极端低温环境，用于验证材料与器件在月球表面的耐受性。"
+wechatShare:
+  title: "NASA新技术可模拟月球夜极端低温环境"
+  desc: "NASA格伦研究中心团队开发了一种地面测试方法，能够模拟月球夜低至零下173摄氏度的极端低温环境，用于验证材料与器件在月球表面的耐受性。"
+  image: "./figures/2026-05-06-nasa-lunar-night-tech/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-nasa-lunar-night-tech/
 author: 天疆说
 date: 2026-05-06

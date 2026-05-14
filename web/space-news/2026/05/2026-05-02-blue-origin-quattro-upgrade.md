@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源启动「新格伦」火箭Quattro第二级升级项目，9x4超级重型构型最快明年亮相"
 description: "蓝色起源于2026年5月1日宣布代号Quattro的新格伦火箭第二级升级计划，拟将现役7x2构型升级为9台BE-4加4台BE-3U的9x4超级重型布局，运力显著提升，预计最快明年首飞。"
+wechatShare:
+  title: "蓝色起源启动「新格伦」火箭Quattro第二级升级项目，9x4超级重型构型最快明年亮相"
+  desc: "蓝色起源于2026年5月1日宣布代号Quattro的新格伦火箭第二级升级计划，拟将现役7x2构型升级为9台BE-4加4台BE-3U的9x4超级重型布局，运力显著提升，预计最快明年首飞。"
+  image: "./figures/2026-05-02-blue-origin-quattro-upgrade/hero.jpg"
 permalink: /space-news/2026/05/2026-05-02-blue-origin-quattro-upgrade/
 author: 天疆说
 date: 2026-05-02

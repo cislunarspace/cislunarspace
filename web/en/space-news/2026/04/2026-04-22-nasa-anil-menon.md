@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA to Host News Conference with Astronaut Anil Menon on Upcoming ISS Mission"
 description: "NASA will host a news conference at Johnson Space Center on April 29 to preview astronaut Anil Menon's upcoming mission to the International Space Station."
+wechatShare:
+  title: "NASA to Host News Conference with Astronaut Anil Menon on Upcoming ISS Mission"
+  desc: "NASA will host a news conference at Johnson Space Center on April 29 to preview astronaut Anil Menon's upcoming mission to the International Space Station."
+  image: "./figures/2026-04-22-nasa-anil-menon/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-nasa-anil-menon/
 author: Tianjiangshuo
 date: 2026-04-22

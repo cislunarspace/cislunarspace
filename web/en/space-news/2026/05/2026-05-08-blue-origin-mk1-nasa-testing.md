@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Blue Origin's Endurance Lander Completes NASA Center Tests, Targeting Late 2027 Launch"
 description: "Blue Origin's Endurance test lander completed vacuum chamber testing at NASA's Johnson Space Center and has been shipped to Blue Origin's Huntsville facility, advancing toward a late 2027 launch target for the NASA lunar landing system mission."
+wechatShare:
+  title: "Blue Origin's Endurance Lander Completes NASA Center Tests, Targeting Late 2027 Launch"
+  desc: "Blue Origin's Endurance test lander completed vacuum chamber testing at NASA's Johnson Space Center and has been shipped to Blue Origin's Huntsville facility, advancing toward a late 2027 launch target for the NASA lunar landing system mission."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-08-blue-origin-mk1-nasa-testing/
 author: Tianjiangshuo
 date: 2026-05-08

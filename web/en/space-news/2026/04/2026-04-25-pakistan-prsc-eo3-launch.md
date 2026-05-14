@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Launches Pakistan's PRSC-EO3 Satellite on Long March 6 Rocket"
 description: "On April 25, 2026 at 20:15 Beijing Time, China successfully launched Pakistan's PRSC-EO3 satellite using a Long March 6 carrier rocket from the Taiyuan Satellite Launch Center, marking the 640th flight of the Long March series."
+wechatShare:
+  title: "China Launches Pakistan's PRSC-EO3 Satellite on Long March 6 Rocket"
+  desc: "On April 25, 2026 at 20:15 Beijing Time, China successfully launched Pakistan's PRSC-EO3 satellite using a Long March 6 carrier rocket from the Taiyuan Satellite Launch Center, marking the 640th flight of the Long March series."
+  image: "./figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-25-pakistan-prsc-eo3-launch/
 author: Tianjiangshuo
 date: 2026-04-25

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "中国首批外籍航天员来华参加训练，两名巴基斯坦航天员入驻航天员中心"
 description: "2026年4月24日，中国载人航天工程办公室宣布：2名巴基斯坦航天员已进入中国航天员科研训练中心，将与中国航天员一起参加训练。这是中国载人航天工程首次迎来外籍航天员参加训练。"
+wechatShare:
+  title: "中国首批外籍航天员来华参加训练，两名巴基斯坦航天员入驻航天员中心"
+  desc: "2026年4月24日，中国载人航天工程办公室宣布：2名巴基斯坦航天员已进入中国航天员科研训练中心，将与中国航天员一起参加训练。这是中国载人航天工程首次迎来外籍航天员参加训练。"
+  image: "./figures/2026-04-25-pakistani-astronauts-training/hero.jpg"
 permalink: /space-news/2026/04/2026-04-25-pakistani-astronauts-training/
 author: 天疆说
 date: 2026-04-25

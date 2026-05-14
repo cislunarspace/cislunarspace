@@ -1,6 +1,10 @@
 ---
 title: FAA在New Glenn发射事故后宣布停飞蓝色起源火箭
 description: 美国联邦航空管理局（FAA）在蓝色起源New Glenn火箭4月20日第三次发射有效载荷未送达正确轨道后，宣布对该火箭停飞并展开调查。二级两台发动机中的一台出现异常。
+wechatShare:
+  title: "FAA在New Glenn发射事故后宣布停飞蓝色起源火箭"
+  desc: "美国联邦航空管理局（FAA）在蓝色起源New Glenn火箭4月20日第三次发射有效载荷未送达正确轨道后，宣布对该火箭停飞并展开调查。二级两台发动机中的一台出现异常。"
+  image: "/logo.png"
 date: 2026-04-22
 category: [blue-origin, commercial]
 layout: SpaceNewsArticle

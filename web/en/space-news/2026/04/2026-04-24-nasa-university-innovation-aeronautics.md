@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's University Leadership Initiative Celebrates a Decade of Breakthrough Aviation Innovation"
 description: "NASA announces the 10th anniversary of its University Leadership Initiative (ULI), which has helped NASA produce breakthrough innovations in aviation while fostering the next generation of aviation workforce."
+wechatShare:
+  title: "NASA's University Leadership Initiative Celebrates a Decade of Breakthrough Aviation Innovation"
+  desc: "NASA announces the 10th anniversary of its University Leadership Initiative (ULI), which has helped NASA produce breakthrough innovations in aviation while fostering the next generation of aviation workforce."
+  image: "./figures/2026-04-24-nasa-university-innovation-aeronautics/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-nasa-university-innovation-aeronautics/
 author: Tianjiangshuo
 date: 2026-04-24

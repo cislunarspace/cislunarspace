@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Completes First Starship V3 Wet Checkout: Over 5,000 Ton Propellant Load Marks Final Pre-flight Milestone"
 description: "On May 11, 2026, SpaceX performed the first full-stack propellant load of the Starship Version 3 at Starbase, Texas, loading over 5,000 metric tons of liquid oxygen and methane — a key pre-flight milestone ahead of the IFT-12 launch targeting May 15."
+wechatShare:
+  title: "SpaceX Completes First Starship V3 Wet Checkout: Over 5,000 Ton Propellant Load Marks Final Pre-flight Milestone"
+  desc: "On May 11, 2026, SpaceX performed the first full-stack propellant load of the Starship Version 3 at Starbase, Texas, loading over 5,000 metric tons of liquid oxygen and methane — a key pre-flight milestone ahead of the IFT-12 launch targeting May 15."
+  image: "./figures/2026-05-12-starship-v3-wet-checkout/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-starship-v3-wet-checkout/
 author: Tianjiangshuo
 date: 2026-05-11

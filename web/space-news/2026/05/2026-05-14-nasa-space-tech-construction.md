@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA支持3D打印技术转向民用建筑业"
 description: "NASA为月球居住舱研发的3D打印施工工艺已成功转为民用，使建筑施工更加高效、环保、可持续。"
+wechatShare:
+  title: "NASA支持3D打印技术转向民用建筑业"
+  desc: "NASA为月球居住舱研发的3D打印施工工艺已成功转为民用，使建筑施工更加高效、环保、可持续。"
+  image: "./figures/2026-05-14-nasa-space-tech-construction/hero.png"
 permalink: /space-news/2026/05/2026-05-14-nasa-space-tech-construction/
 author: 天疆说
 date: 2026-05-14

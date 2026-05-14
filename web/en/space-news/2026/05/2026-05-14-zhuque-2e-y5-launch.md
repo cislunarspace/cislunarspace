@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Landspace Zhuque-2E Y5 Launches Successfully"
 description: "Landspace's Zhuque-2E Y5 launch vehicle successfully lifted off from the Dongfeng Commercial Space Innovation Test Zone on May 14, 2026."
+wechatShare:
+  title: "Landspace Zhuque-2E Y5 Launches Successfully"
+  desc: "Landspace's Zhuque-2E Y5 launch vehicle successfully lifted off from the Dongfeng Commercial Space Innovation Test Zone on May 14, 2026."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-14-zhuque-2e-y5-launch/
 author: Tianjiangshuo
 date: 2026-05-14

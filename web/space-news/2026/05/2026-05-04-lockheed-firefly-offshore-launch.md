@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "洛马与萤火虫航空、雪狮太空合作推进海上发射计划"
 description: "洛克希德·马丁公司宣布加入萤火虫航空与雪狮太空的海上发射合作计划，支持从Seagate Space Gateway浮动平台发射萤火虫Alpha火箭。"
+wechatShare:
+  title: "洛马与萤火虫航空、雪狮太空合作推进海上发射计划"
+  desc: "洛克希德·马丁公司宣布加入萤火虫航空与雪狮太空的海上发射合作计划，支持从Seagate Space Gateway浮动平台发射萤火虫Alpha火箭。"
+  image: "./figures/2026-05-04-lockheed-firefly-offshore-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-lockheed-firefly-offshore-launch/
 author: 天疆说
 date: 2026-05-04

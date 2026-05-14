@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Develops Space IV Technology: IVGEN Mini Converts Drinking Water to Intravenous Fluid On Demand"
 description: "NASA has released details of the IVGEN Mini system, which can produce medical-grade intravenous fluid on demand from drinking water aboard the International Space Station, solving the limited shelf-life problem for deep space missions."
+wechatShare:
+  title: "NASA Develops Space IV Technology: IVGEN Mini Converts Drinking Water to Intravenous Fluid On Demand"
+  desc: "NASA has released details of the IVGEN Mini system, which can produce medical-grade intravenous fluid on demand from drinking water aboard the International Space Station, solving the limited shelf-life problem for deep space missions."
+  image: "./figures/2026-04-27-nasa-ivgen-space/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-nasa-ivgen-space/
 author: Tianjiangshuo
 date: 2026-04-27

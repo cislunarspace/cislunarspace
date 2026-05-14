@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX 招股书披露星舰项目累计投入超150亿美元"
 description: "SpaceX IPO注册文件显示，星舰项目累计支出已突破150亿美元，同时披露去年研发投入30亿美元，计划2026年下半年发射首批星链V3卫星。"
+wechatShare:
+  title: "SpaceX 招股书披露星舰项目累计投入超150亿美元"
+  desc: "SpaceX IPO注册文件显示，星舰项目累计支出已突破150亿美元，同时披露去年研发投入30亿美元，计划2026年下半年发射首批星链V3卫星。"
+  image: "./figures/2026-05-01-spacex-starship-15b-spending/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-spacex-starship-15b-spending/
 author: 天疆说
 date: 2026-05-01
