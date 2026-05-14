@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /background/control/optimal-control/
+wechatShare:
+  title: 最优控制理论 (Optimal Control)
+  desc: 最优控制理论研究如何选择控制律使系统性能指标达到最优，是轨道机动设计与任务轨迹优化的理论基础。
+  image: /logo.png
 ---
 
 # 最优控制理论
