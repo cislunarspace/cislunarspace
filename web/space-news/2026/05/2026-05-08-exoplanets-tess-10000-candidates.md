@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "科学家借助机器学习从NASA数据中发现超过10000颗候选系外行星"
 description: "科学家利用机器学习技术对NASA系外行星巡天卫星TESS数据进行分析，一次性发现10091颗候选系外行星，若全部确认将使人类已知系外行星数量增加一倍以上。"
+wechatShare:
+  title: "科学家借助机器学习从NASA数据中发现超过10000颗候选系外行星"
+  desc: "科学家利用机器学习技术对NASA系外行星巡天卫星TESS数据进行分析，一次性发现10091颗候选系外行星，若全部确认将使人类已知系外行星数量增加一倍以上。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-08-exoplanets-tess-10000-candidates/
 author: 天疆说
 date: 2026-05-08

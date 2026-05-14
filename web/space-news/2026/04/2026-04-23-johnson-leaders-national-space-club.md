@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA约翰逊航天中心两位领导者获国家太空俱乐部表彰"
 description: "NASA约翰逊航天中心两位杰出领导者因对人体载人航天事业的贡献而获得国家太空俱乐部与基金会表彰。"
+wechatShare:
+  title: "NASA约翰逊航天中心两位领导者获国家太空俱乐部表彰"
+  desc: "NASA约翰逊航天中心两位杰出领导者因对人体载人航天事业的贡献而获得国家太空俱乐部与基金会表彰。"
+  image: "./figures/2026-04-23-johnson-leaders-national-space-club/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-johnson-leaders-national-space-club/
 author: 天疆说
 date: 2026-04-23

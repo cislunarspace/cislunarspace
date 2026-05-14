@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 地球观测：季节性火灾笼罩泰国北部"
 description: "NASA地球观测卫星捕捉到东南亚季节性火灾产生的烟雾笼罩泰国北部地区"
+wechatShare:
+  title: "NASA 地球观测：季节性火灾笼罩泰国北部"
+  desc: "NASA地球观测卫星捕捉到东南亚季节性火灾产生的烟雾笼罩泰国北部地区"
+  image: "./figures/2026-04-23-nasa-thailand-smoke/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-nasa-thailand-smoke/
 author: 天疆说
 date: 2026-04-23

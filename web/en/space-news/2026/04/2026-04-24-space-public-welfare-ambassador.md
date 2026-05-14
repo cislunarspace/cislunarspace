@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Space Public Welfare Ambassador Visits Sichuan University"
 description: "On April 24, the China Space Public Welfare Ambassador campus event was held at Sichuan University, featuring Beidou deputy chief designer Xie Jun, CAS academician Zhang Bing, and Shenzhou-17 astronaut Jiang Xinlin with over 400 teachers and students."
+wechatShare:
+  title: "China Space Public Welfare Ambassador Visits Sichuan University"
+  desc: "On April 24, the China Space Public Welfare Ambassador campus event was held at Sichuan University, featuring Beidou deputy chief designer Xie Jun, CAS academician Zhang Bing, and Shenzhou-17 astronaut Jiang Xinlin with over 400 teachers and students."
+  image: "./figures/2026-04-24-space-public-welfare-ambassador/hero.png"
 permalink: /en/space-news/2026/04/2026-04-24-space-public-welfare-ambassador/
 author: Tianjiangshuo
 date: 2026-04-24

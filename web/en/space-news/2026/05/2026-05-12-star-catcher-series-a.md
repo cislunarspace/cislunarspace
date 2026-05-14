@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Star Catcher Raises $65 Million Series A to Build World's First Space Power Grid"
 description: "Star Catcher Industries has raised $65 million in an oversubscribed Series A funding round to develop the world's first in-space power grid, beaming solar energy to client satellites via laser."
+wechatShare:
+  title: "Star Catcher Raises $65 Million Series A to Build World's First Space Power Grid"
+  desc: "Star Catcher Industries has raised $65 million in an oversubscribed Series A funding round to develop the world's first in-space power grid, beaming solar energy to client satellites via laser."
+  image: "./figures/2026-05-12-star-catcher-series-a/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-star-catcher-series-a/
 author: Tianjiangshuo
 date: 2026-05-12

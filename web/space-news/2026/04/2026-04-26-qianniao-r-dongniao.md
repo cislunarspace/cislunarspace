@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "千亿航天「玄鸟-R」全尺寸试验箭下线 国产气动减速回收技术取得新进展"
 description: "千亿航天（Nayuta Space）国内唯一采用气动减速回收路线的可重复使用火箭「玄鸟-R」全尺寸试验箭已正式下线，完成舵面电气联调试验，采用「气动减速+水平着陆」技术路线，计划2027年上半年首飞并尝试受控回收。"
+wechatShare:
+  title: "千亿航天「玄鸟-R」全尺寸试验箭下线 国产气动减速回收技术取得新进展"
+  desc: "千亿航天（Nayuta Space）国内唯一采用气动减速回收路线的可重复使用火箭「玄鸟-R」全尺寸试验箭已正式下线，完成舵面电气联调试验，采用「气动减速+水平着陆」技术路线，计划2027年上半年首飞并尝试受控回收。"
+  image: "./figures/2026-04-26-qianniao-r-dongniao/qianniao-preview.jpg"
 permalink: /space-news/2026/04/2026-04-26-qianniao-r-dongniao/
 author: 天疆说
 date: 2026-04-26

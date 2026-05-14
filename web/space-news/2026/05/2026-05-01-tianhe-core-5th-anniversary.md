@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天和核心舱在轨五周年 中国空间站启动二次扩容计划"
 description: "4月29日为中国空间站天和核心舱发射入轨五周年，随着在轨科研任务和国际合作项目不断拓展，空间站即将迎来「二次扩容」，形成「十」字形扩展舱段组合体。"
+wechatShare:
+  title: "天和核心舱在轨五周年 中国空间站启动二次扩容计划"
+  desc: "4月29日为中国空间站天和核心舱发射入轨五周年，随着在轨科研任务和国际合作项目不断拓展，空间站即将迎来「二次扩容」，形成「十」字形扩展舱段组合体。"
+  image: "./figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-tianhe-core-5th-anniversary/
 author: 天疆说
 date: 2026-05-01

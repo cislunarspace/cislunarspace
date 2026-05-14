@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA好奇号火星车被一块27斤岩石「劫持」6天"
 description: "NASA好奇号火星车钻取岩石样本时意外将整块岩石拔离地面，岩石卡在钻头套筒上无法脱落，工程师耗时6天才化解这一前所未有的挑战。"
+wechatShare:
+  title: "NASA好奇号火星车被一块27斤岩石「劫持」6天"
+  desc: "NASA好奇号火星车钻取岩石样本时意外将整块岩石拔离地面，岩石卡在钻头套筒上无法脱落，工程师耗时6天才化解这一前所未有的挑战。"
+  image: "./figures/2026-05-08-curiosity-mars-rock/hero.jpg"
 permalink: /space-news/2026/05/2026-05-08-curiosity-mars-rock/
 author: 天疆说
 date: 2026-05-08

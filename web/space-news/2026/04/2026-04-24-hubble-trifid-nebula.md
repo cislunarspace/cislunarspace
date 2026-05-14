@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "哈勃太空望远镜发布三叶星云新图像，纪念发射36周年"
 description: "NASA哈勃太空望远镜发布三叶星云高分辨率图像，庆祝发射36周年，展示这一距地球约5000光年的恒星形成区细节。"
+wechatShare:
+  title: "哈勃太空望远镜发布三叶星云新图像，纪念发射36周年"
+  desc: "NASA哈勃太空望远镜发布三叶星云高分辨率图像，庆祝发射36周年，展示这一距地球约5000光年的恒星形成区细节。"
+  image: "./figures/2026-04-24-hubble-trifid-nebula/hero.jpg"
 permalink: /space-news/2026/04/2026-04-24-hubble-trifid-nebula/
 author: 天疆说
 date: 2026-04-24

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Johnson Space Center Leaders Honored by National Space Club & Foundation"
 description: "Two outstanding leaders from NASA's Johnson Space Center were recognized by the National Space Club & Foundation for their contributions to human spaceflight."
+wechatShare:
+  title: "NASA Johnson Space Center Leaders Honored by National Space Club & Foundation"
+  desc: "Two outstanding leaders from NASA's Johnson Space Center were recognized by the National Space Club & Foundation for their contributions to human spaceflight."
+  image: "./figures/2026-04-23-johnson-leaders-national-space-club/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-johnson-leaders-national-space-club/
 author: Tianjiangshuo
 date: 2026-04-23

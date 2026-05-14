@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "前NASA局长吉姆·布里登斯廷出任量子空间公司CEO"
 description: "前NASA局长吉姆·布里登斯廷（Jim Bridenstine）宣布出任量子空间公司（Quantum Space）CEO，该公司正在开发可在军民领域使用的Ranger可机动航天器。"
+wechatShare:
+  title: "前NASA局长吉姆·布里登斯廷出任量子空间公司CEO"
+  desc: "前NASA局长吉姆·布里登斯廷（Jim Bridenstine）宣布出任量子空间公司（Quantum Space）CEO，该公司正在开发可在军民领域使用的Ranger可机动航天器。"
+  image: "./figures/2026-05-05-quantum-space-bridenstine-ceo/hero.jpg"
 permalink: /space-news/2026/05/2026-05-05-quantum-space-bridenstine-ceo/
 author: 天疆说
 date: 2026-05-05

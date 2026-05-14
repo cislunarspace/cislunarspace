@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX完成星舰V3超级重型助推器33机全时全推力静态点火测试"
 description: "SpaceX于5月7日在德克萨斯州星舰基地完成V3版超级重型助推器全部33台猛禽发动机的静态点火测试，目标5月15日执行第12次星舰飞行任务。"
+wechatShare:
+  title: "SpaceX完成星舰V3超级重型助推器33机全时全推力静态点火测试"
+  desc: "SpaceX于5月7日在德克萨斯州星舰基地完成V3版超级重型助推器全部33台猛禽发动机的静态点火测试，目标5月15日执行第12次星舰飞行任务。"
+  image: "./figures/2026-05-07-spacex-starship-v3-static-fire/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-spacex-starship-v3-static-fire/
 author: 天疆说
 date: 2026-05-07

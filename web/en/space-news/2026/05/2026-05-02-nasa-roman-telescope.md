@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Nancy Grace Roman Space Telescope Completes Assembly, Set for September Launch"
 description: "NASA announces its next-generation Nancy Grace Roman Space Telescope has completed full assembly and testing, scheduled to launch in September 2026 aboard a SpaceX Falcon Heavy rocket."
+wechatShare:
+  title: "NASA's Nancy Grace Roman Space Telescope Completes Assembly, Set for September Launch"
+  desc: "NASA announces its next-generation Nancy Grace Roman Space Telescope has completed full assembly and testing, scheduled to launch in September 2026 aboard a SpaceX Falcon Heavy rocket."
+  image: "./figures/2026-05-02-nasa-roman-telescope/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-02-nasa-roman-telescope/
 author: Tianjiangshuo
 date: 2026-05-02

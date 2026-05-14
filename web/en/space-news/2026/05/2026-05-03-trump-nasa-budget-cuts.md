@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Trump Administration Proposes 24% NASA Budget Cut, Largest Single-Year Reduction in Agency History"
 description: "The Trump administration's FY2026 budget proposal would slash NASA's funding by $6 billion, reducing it from $24.8 billion to $18.8 billion — returning the agency to 1980 spending levels in real terms."
+wechatShare:
+  title: "Trump Administration Proposes 24% NASA Budget Cut, Largest Single-Year Reduction in Agency History"
+  desc: "The Trump administration's FY2026 budget proposal would slash NASA's funding by $6 billion, reducing it from $24.8 billion to $18.8 billion — returning the agency to 1980 spending levels in real terms."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-03-trump-nasa-budget-cuts/
 author: Tianjiangshuo
 date: 2026-05-03

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Hainan Commercial Spaceport Phase II Enters Final Sprint, Launch Pad 3 Over 80% Complete"
 description: "During China's May 1st Labor Day holiday, hundreds of workers pressed ahead with construction of the Hainan Commercial Spaceport Phase II project. The lightning tower has completed its 8th section installation, prefab equipment buildings have topped out, and overall progress exceeds 80%, with completion targeted for end of May."
+wechatShare:
+  title: "Hainan Commercial Spaceport Phase II Enters Final Sprint, Launch Pad 3 Over 80% Complete"
+  desc: "During China's May 1st Labor Day holiday, hundreds of workers pressed ahead with construction of the Hainan Commercial Spaceport Phase II project. The lightning tower has completed its 8th section installation, prefab equipment buildings have topped out, and overall progress exceeds 80%, with completion targeted for end of May."
+  image: "./figures/2026-05-01-hainan-commercial-spaceport-phase2/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-hainan-commercial-spaceport-phase2/
 author: Tianjiangshuo
 date: 2026-05-01

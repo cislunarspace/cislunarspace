@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX猎鹰九号范登堡发射第17-29批Starlink卫星"
 description: "2026年5月5日，SpaceX猎鹰九号运载火箭从加州范登堡太空军基地发射第17-29批24颗Starlink宽带卫星，助推器B1081第24次飞行并成功回收。"
+wechatShare:
+  title: "SpaceX猎鹰九号范登堡发射第17-29批Starlink卫星"
+  desc: "2026年5月5日，SpaceX猎鹰九号运载火箭从加州范登堡太空军基地发射第17-29批24颗Starlink宽带卫星，助推器B1081第24次飞行并成功回收。"
+  image: "./figures/2026-05-05-spacex-vandenberg-starlink-17-29/hero.jpg"
 permalink: /space-news/2026/05/2026-05-05-spacex-vandenberg-starlink-17-29/
 author: 天疆说
 date: 2026-05-05

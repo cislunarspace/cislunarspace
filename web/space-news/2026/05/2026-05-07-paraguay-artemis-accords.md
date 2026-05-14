@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "巴拉圭签署《阿尔忒弥斯协定》成为第67个缔约方"
 description: "巴拉圭共和国于5月7日在亚松森举行的仪式上签署《阿尔忒弥斯协定》，成为全球第67个缔约方，进一步扩大了协定在南美洲的影响力。"
+wechatShare:
+  title: "巴拉圭签署《阿尔忒弥斯协定》成为第67个缔约方"
+  desc: "巴拉圭共和国于5月7日在亚松森举行的仪式上签署《阿尔忒弥斯协定》，成为全球第67个缔约方，进一步扩大了协定在南美洲的影响力。"
+  image: "./figures/2026-05-07-paraguay-artemis-accords/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-paraguay-artemis-accords/
 author: 天疆说
 date: 2026-05-07

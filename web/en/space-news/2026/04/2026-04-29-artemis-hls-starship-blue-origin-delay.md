@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Administrator Confirms: SpaceX Starship and Blue Origin Blue Moon Lunar Landers Not Ready Until Late 2027"
 description: "On April 27, 2026 (EST), NASA Administrator Jared Isaacman told the House Appropriations Committee that both SpaceX's Starship HLS and Blue Origin's Blue Moon lunar lander contractors have confirmed they will not be ready until late 2027 at the earliest, for Artemis III Earth-orbit rendezvous and docking tests."
+wechatShare:
+  title: "NASA Administrator Confirms: SpaceX Starship and Blue Origin Blue Moon Lunar Landers Not Ready Until Late 2027"
+  desc: "On April 27, 2026 (EST), NASA Administrator Jared Isaacman told the House Appropriations Committee that both SpaceX's Starship HLS and Blue Origin's Blue Moon lunar lander contractors have confirmed they will not be ready until late 2027 at the earliest, for Artemis III Earth-orbit rendezvous and docking tests."
+  image: "./figures/2026-04-29-artemis-hls-starship-blue-origin-delay/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-29-artemis-hls-starship-blue-origin-delay/
 author: Tianjiangshuo
 date: 2026-04-29

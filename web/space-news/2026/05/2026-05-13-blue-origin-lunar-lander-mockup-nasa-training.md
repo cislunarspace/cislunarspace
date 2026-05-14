@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源登月舱模拟器进驻NASA约翰逊中心助力阿尔忒弥斯任务训练"
 description: "蓝色起源Blue Moon Mark 2登月舱全尺寸乘员舱模拟器在NASA约翰逊航天中心组装完毕，航天员将在此进行登月前地面训练。"
+wechatShare:
+  title: "蓝色起源登月舱模拟器进驻NASA约翰逊中心助力阿尔忒弥斯任务训练"
+  desc: "蓝色起源Blue Moon Mark 2登月舱全尺寸乘员舱模拟器在NASA约翰逊航天中心组装完毕，航天员将在此进行登月前地面训练。"
+  image: "./figures/2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/hero.jpg"
 permalink: /space-news/2026/05/2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/
 author: 天疆说
 date: 2026-05-13

@@ -1,5 +1,9 @@
 ---
 title: 大航跃迁完成5亿元A轮融资，加速「跃迁一号」可回收火箭研制
+wechatShare:
+  title: "大航跃迁完成5亿元A轮融资，加速「跃迁一号」可回收火箭研制"
+  desc: "上海大航跃迁航天科技有限公司近日宣布完成**5亿元人民币A轮融资**，本轮融资由前海方舟、厚纪资本、普华资本领投，君领资本、海愿资本、惠丰达、君川资本、重庆沙创科技、中重科技、元创资本、汉理资本、上海天使会等跟投，产业方神猴电缆战略支持，部"
+  image: "./figures/2026-05-03-dahang-yueqian-500m-funding/hero.png"
 date: 2026-05-03
 category: commercial
 image: ./figures/2026-05-03-dahang-yueqian-500m-funding/hero.png

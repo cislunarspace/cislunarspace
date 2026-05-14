@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "香港首项太空科研载荷「天韵相机」随天舟十号入驻空间站"
 description: "香港科技大学牵头研制的全球首款轻小型高精度温室气体点源协同探测仪随天舟十号货运飞船升空，将用于监测全球二氧化碳与甲烷排放，服务国家双碳战略。"
+wechatShare:
+  title: "香港首项太空科研载荷「天韵相机」随天舟十号入驻空间站"
+  desc: "香港科技大学牵头研制的全球首款轻小型高精度温室气体点源协同探测仪随天舟十号货运飞船升空，将用于监测全球二氧化碳与甲烷排放，服务国家双碳战略。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-14-tianyun-camera-hongkong-musico/
 author: 天疆说
 date: 2026-05-14

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX完成星舰V3全箭燃料加注：首次超5000吨推进剂演练，首飞倒计时启动"
 description: "2026年5月11日，SpaceX完成星舰V3首次全箭燃料加注演练；5月12日宣布首飞目标窗口不早于5月19日，从全新2号发射台实施。"
+wechatShare:
+  title: "SpaceX完成星舰V3全箭燃料加注：首次超5000吨推进剂演练，首飞倒计时启动"
+  desc: "2026年5月11日，SpaceX完成星舰V3首次全箭燃料加注演练；5月12日宣布首飞目标窗口不早于5月19日，从全新2号发射台实施。"
+  image: "./figures/2026-05-12-starship-v3-wet-checkout/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-starship-v3-wet-checkout/
 author: 天疆说
 date: 2026-05-11

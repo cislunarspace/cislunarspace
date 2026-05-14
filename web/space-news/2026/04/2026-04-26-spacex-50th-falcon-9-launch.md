@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX完成2026年第50次猎鹰9号发射"
 description: "2026年4月26日，SpaceX在范登堡太空军基地成功完成年内第50次猎鹰9号发射，将25颗星链V2 Mini卫星送入轨道，并完成第603次助推器回收。"
+wechatShare:
+  title: "SpaceX完成2026年第50次猎鹰9号发射"
+  desc: "2026年4月26日，SpaceX在范登堡太空军基地成功完成年内第50次猎鹰9号发射，将25颗星链V2 Mini卫星送入轨道，并完成第603次助推器回收。"
+  image: "./figures/2026-04-26-spacex-50th-falcon-9-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-26-spacex-50th-falcon-9-launch/
 author: 天疆说
 date: 2026-04-26

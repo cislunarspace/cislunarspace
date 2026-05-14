@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA肯尼迪航天中心为罗马太空望远镜抵达做好准备"
 description: "NASA肯尼迪航天中心正在为Nancy Grace罗马太空望远镜的抵达进行设施准备工作，望远镜计划最早于今年9月由SpaceX猎鹰重型火箭发射升空。"
+wechatShare:
+  title: "NASA肯尼迪航天中心为罗马太空望远镜抵达做好准备"
+  desc: "NASA肯尼迪航天中心正在为Nancy Grace罗马太空望远镜的抵达进行设施准备工作，望远镜计划最早于今年9月由SpaceX猎鹰重型火箭发射升空。"
+  image: "./figures/2026-04-23-nasa-roman-telescope-kennedy/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-nasa-roman-telescope-kennedy/
 author: 天疆说
 date: 2026-04-23

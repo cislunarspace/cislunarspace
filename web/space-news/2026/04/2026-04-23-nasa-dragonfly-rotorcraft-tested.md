@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA「蜻蜓」旋翼机进入最终组装与测试阶段"
 description: "NASA蜻蜓号土星卫星土卫六探测任务进入最终组装测试阶段，任务团队正在将构成旋翼机着陆器主体的面板安装在位，计划不早于2027年发射，预计2034年抵达土卫六。"
+wechatShare:
+  title: "NASA「蜻蜓」旋翼机进入最终组装与测试阶段"
+  desc: "NASA蜻蜓号土星卫星土卫六探测任务进入最终组装测试阶段，任务团队正在将构成旋翼机着陆器主体的面板安装在位，计划不早于2027年发射，预计2034年抵达土卫六。"
+  image: "./figures/2026-04-23-nasa-dragonfly-rotorcraft-tested/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-nasa-dragonfly-rotorcraft-tested/
 author: 天疆说
 date: 2026-04-23

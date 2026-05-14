@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "富士康二代低轨卫星成功发射，珍珠1A/1B进入预定轨道"
 description: "富士康集团第二代低地球轨道卫星搭乘SpaceX猎鹰9号火箭从美国加州发射升空，珍珠1A号与珍珠1B号已顺利进入预定轨道，将执行为期五年的在轨任务。"
+wechatShare:
+  title: "富士康二代低轨卫星成功发射，珍珠1A/1B进入预定轨道"
+  desc: "富士康集团第二代低地球轨道卫星搭乘SpaceX猎鹰9号火箭从美国加州发射升空，珍珠1A号与珍珠1B号已顺利进入预定轨道，将执行为期五年的在轨任务。"
+  image: "./figures/2026-05-04-foxconn-pearl-leo-satellite-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-foxconn-pearl-leo-satellite-launch/
 author: 天疆说
 date: 2026-05-03

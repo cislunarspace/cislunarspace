@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA肯尼迪航天中心主任珍妮特·佩特罗宣布退休计划"
 description: "NASA肯尼迪航天中心主任珍妮特·佩特罗宣布退休计划，任期内推动肯尼迪航天中心成为美国领先的商业航天港。"
+wechatShare:
+  title: "NASA肯尼迪航天中心主任珍妮特·佩特罗宣布退休计划"
+  desc: "NASA肯尼迪航天中心主任珍妮特·佩特罗宣布退休计划，任期内推动肯尼迪航天中心成为美国领先的商业航天港。"
+  image: "./figures/2026-05-01-nasa-kennedy-director-retirement/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-nasa-kennedy-director-retirement/
 author: 天疆说
 date: 2026-05-01

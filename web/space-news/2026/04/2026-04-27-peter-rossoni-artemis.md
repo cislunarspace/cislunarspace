@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "「我是阿尔忒弥斯」：Peter Rossoni 与猎户座激光通信系统"
 description: "NASA 阿尔忒弥斯二号任务飞行经理 Peter Rossoni 从小关注阿波罗发射，2026年4月成为阿尔忒弥斯二号任务的一员，负责管理猎户座飞船的光学通信系统。"
+wechatShare:
+  title: "「我是阿尔忒弥斯」：Peter Rossoni 与猎户座激光通信系统"
+  desc: "NASA 阿尔忒弥斯二号任务飞行经理 Peter Rossoni 从小关注阿波罗发射，2026年4月成为阿尔忒弥斯二号任务的一员，负责管理猎户座飞船的光学通信系统。"
+  image: "./figures/2026-04-27-peter-rossoni-artemis/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-peter-rossoni-artemis/
 author: 天疆说
 date: 2026-04-27

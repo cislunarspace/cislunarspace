@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX 猎鹰重型成功发射 ViaSat-3 F3 卫星，约一 Tbps 容量创全球高通量通信卫星新高"
 description: "因天气原因推迟后，SpaceX 于4月28日使用 Falcon Heavy 火箭成功将 ViaSat-3 Flight 3 通信卫星送入地球同步转移轨道。这是 Falcon Heavy 一年半以来的首次发射，ViaSat-3 F3 也是全球通信容量最高的高通量卫星。"
+wechatShare:
+  title: "SpaceX 猎鹰重型成功发射 ViaSat-3 F3 卫星，约一 Tbps 容量创全球高通量通信卫星新高"
+  desc: "因天气原因推迟后，SpaceX 于4月28日使用 Falcon Heavy 火箭成功将 ViaSat-3 Flight 3 通信卫星送入地球同步转移轨道。这是 Falcon Heavy 一年半以来的首次发射，ViaSat-3 F3 也是全球通信容量最高的高通量卫星。"
+  image: "./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-spacex-viasat-3-scrub/
 author: 天疆说
 date: 2026-04-29

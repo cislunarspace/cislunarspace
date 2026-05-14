@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源月球着陆器MK1完成NASA中心测试 瞄准2027年末发射"
 description: "蓝色起源「耐久性」号测试着陆器在NASA约翰逊中心完成真空舱测试，正向2027年末发射目标推进，将执行NASA月球载人着陆系统任务。"
+wechatShare:
+  title: "蓝色起源月球着陆器MK1完成NASA中心测试 瞄准2027年末发射"
+  desc: "蓝色起源「耐久性」号测试着陆器在NASA约翰逊中心完成真空舱测试，正向2027年末发射目标推进，将执行NASA月球载人着陆系统任务。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-08-blue-origin-mk1-nasa-testing/
 author: 天疆说
 date: 2026-05-08

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies"
 description: "NASA released new James Webb Space Telescope imagery on May 11, 2026, showing how massive star clusters influence their host galaxies' evolution through feedback mechanisms."
+wechatShare:
+  title: "James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies"
+  desc: "NASA released new James Webb Space Telescope imagery on May 11, 2026, showing how massive star clusters influence their host galaxies' evolution through feedback mechanisms."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-11-jwst-star-clusters-galaxies/
 author: Tianjiangshuo
 date: 2026-05-11

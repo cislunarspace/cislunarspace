@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "中国百余家单位联合倡议共建「太空云」生态，推动天基信息服务智能化"
 description: "第二届空天信息技术大会上，中科院空天院联合百余家产学研单位发布《共建「太空云」生态倡议书》，推动通信、遥感、导航、算力卫星云原生体系化整合。"
+wechatShare:
+  title: "中国百余家单位联合倡议共建「太空云」生态，推动天基信息服务智能化"
+  desc: "第二届空天信息技术大会上，中科院空天院联合百余家产学研单位发布《共建「太空云」生态倡议书》，推动通信、遥感、导航、算力卫星云原生体系化整合。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-09-china-space-cloud-ecosystem/
 author: 天疆说
 date: 2026-05-09

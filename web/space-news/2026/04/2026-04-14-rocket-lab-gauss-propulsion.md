@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计"
 description: "Rocket Lab于2026年4月14日发布Gauss系列新型霍尔效应卫星推进系统，专为高产量规模化星座设计，可支持从数百颗到数万颗卫星的各类巨型星座任务。"
+wechatShare:
+  title: "Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计"
+  desc: "Rocket Lab于2026年4月14日发布Gauss系列新型霍尔效应卫星推进系统，专为高产量规模化星座设计，可支持从数百颗到数万颗卫星的各类巨型星座任务。"
+  image: "./figures/2026-04-14-rocket-lab-gauss-propulsion/hero.jpg"
 permalink: /space-news/2026/04/2026-04-14-rocket-lab-gauss-propulsion/
 author: 天疆说
 date: 2026-04-14

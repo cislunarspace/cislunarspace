@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX成功发射GPS III SV10卫星"
 description: "SpaceX使用猎鹰9号火箭从卡纳维拉尔角成功发射美军新一代GPS卫星，这是2026年GPS III系列的第四次发射。"
+wechatShare:
+  title: "SpaceX成功发射GPS III SV10卫星"
+  desc: "SpaceX使用猎鹰9号火箭从卡纳维拉尔角成功发射美军新一代GPS卫星，这是2026年GPS III系列的第四次发射。"
+  image: "./figures/2026-04-22-gps-iii-sv10-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-gps-iii-sv10-launch/
 author: 天疆说
 date: 2026-04-22

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 选择 SpaceX 猎鹰重型发射欧航局罗莎琳德·富兰克林号火星车"
 description: "NASA 2026年4月16日宣布，已启动2028年使用 SpaceX 猎鹰重型火箭发射欧航局罗莎琳德·富兰克林号火星车的实施工作，这是该火星车多次推迟后迎来的最新进展。"
+wechatShare:
+  title: "NASA 选择 SpaceX 猎鹰重型发射欧航局罗莎琳德·富兰克林号火星车"
+  desc: "NASA 2026年4月16日宣布，已启动2028年使用 SpaceX 猎鹰重型火箭发射欧航局罗莎琳德·富兰克林号火星车的实施工作，这是该火星车多次推迟后迎来的最新进展。"
+  image: "./figures/2026-04-22-esa-falcon-heavy-rosalind/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-esa-falcon-heavy-rosalind/
 author: 天疆说
 date: 2026-04-22

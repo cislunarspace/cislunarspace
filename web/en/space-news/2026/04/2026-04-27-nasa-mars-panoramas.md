@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Curiosity and Perseverance Rovers Release Simultaneous 360-Degree Panoramas of Mars"
 description: "NASA's Curiosity and Perseverance rovers released simultaneous 360-degree panoramic images of Mars, revealing billions of years of geological history and ancient habitable conditions on the Red Planet."
+wechatShare:
+  title: "NASA's Curiosity and Perseverance Rovers Release Simultaneous 360-Degree Panoramas of Mars"
+  desc: "NASA's Curiosity and Perseverance rovers released simultaneous 360-degree panoramic images of Mars, revealing billions of years of geological history and ancient habitable conditions on the Red Planet."
+  image: "./figures/2026-04-27-nasa-mars-panoramas/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-nasa-mars-panoramas/
 author: Tianjiangshuo
 date: 2026-04-27

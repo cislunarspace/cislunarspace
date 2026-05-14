@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Hainan Commercial Spaceport Phase 2 Construction Accelerates, Launch Pad 3 Over 80% Complete"
 description: "CCTV highlights rapid progress at Hainan Commercial Spaceport Phase 2, with launch pads 3 and 4 advancing steadily; once completed, annual launch capacity will reach 60 missions."
+wechatShare:
+  title: "Hainan Commercial Spaceport Phase 2 Construction Accelerates, Launch Pad 3 Over 80% Complete"
+  desc: "CCTV highlights rapid progress at Hainan Commercial Spaceport Phase 2, with launch pads 3 and 4 advancing steadily; once completed, annual launch capacity will reach 60 missions."
+  image: "./figures/2026-05-03-hainan-commercial-spaceport-phase2-progress/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-03-hainan-commercial-spaceport-phase2-progress/
 author: Tianjiangshuo
 date: 2026-05-03

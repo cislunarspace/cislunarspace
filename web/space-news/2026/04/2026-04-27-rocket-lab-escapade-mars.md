@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab 完成 NASA ESCAPADE 火星任务卫星调试"
 description: "Rocket Lab 宣布完成 NASA ESCAPADE 火星任务双星调试，两颗卫星已成功运行于日地拉格朗日点 L2，准备移交 UC Berkeley 空间科学实验室管理。"
+wechatShare:
+  title: "Rocket Lab 完成 NASA ESCAPADE 火星任务卫星调试"
+  desc: "Rocket Lab 宣布完成 NASA ESCAPADE 火星任务双星调试，两颗卫星已成功运行于日地拉格朗日点 L2，准备移交 UC Berkeley 空间科学实验室管理。"
+  image: "./figures/2026-04-27-rocket-lab-escapade-mars/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-rocket-lab-escapade-mars/
 author: 天疆说
 date: 2026-04-27

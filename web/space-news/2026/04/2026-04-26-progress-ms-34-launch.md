@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "俄罗斯进步MS-34货运飞船发射升空"
 description: "俄罗斯进步MS-34货运飞船搭乘联盟-2.1a火箭从拜科努尔发射场升空，为国际空间站送去超过2.5吨货物，计划28日对接。"
+wechatShare:
+  title: "俄罗斯进步MS-34货运飞船发射升空"
+  desc: "俄罗斯进步MS-34货运飞船搭乘联盟-2.1a火箭从拜科努尔发射场升空，为国际空间站送去超过2.5吨货物，计划28日对接。"
+  image: "./figures/2026-04-26-progress-ms-34-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-26-progress-ms-34-launch/
 author: 天疆说
 date: 2026-04-26

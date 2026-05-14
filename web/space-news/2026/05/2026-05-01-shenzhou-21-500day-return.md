@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "神舟二十一号乘组太空迎五一，计划5月返回东风着陆场"
 description: "神舟二十一号乘组3名航天员张陆、武飞、张洪章在轨驻留期间完成3次出舱活动，共计约20小时47分钟，创造中国航天员出舱时长新纪录，计划5月返回地球。"
+wechatShare:
+  title: "神舟二十一号乘组太空迎五一，计划5月返回东风着陆场"
+  desc: "神舟二十一号乘组3名航天员张陆、武飞、张洪章在轨驻留期间完成3次出舱活动，共计约20小时47分钟，创造中国航天员出舱时长新纪录，计划5月返回地球。"
+  image: "./figures/2026-05-01-shenzhou-21-500day-return/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-shenzhou-21-500day-return/
 author: 天疆说
 date: 2026-05-01

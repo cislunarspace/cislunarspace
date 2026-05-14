@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "中国航天公益形象大使进校园活动走进四川大学"
 description: "4月24日，中国航天公益形象大使进校园公益科普活动在四川大学江安校区举行，航天员江新林及多位航天专家与400余名师生面对面交流。"
+wechatShare:
+  title: "中国航天公益形象大使进校园活动走进四川大学"
+  desc: "4月24日，中国航天公益形象大使进校园公益科普活动在四川大学江安校区举行，航天员江新林及多位航天专家与400余名师生面对面交流。"
+  image: "./figures/2026-04-26-space-public-welfare-ambassador-sichuan-university/hero.png"
 permalink: /space-news/2026/04/2026-04-26-space-public-welfare-ambassador-sichuan-university/
 author: 天疆说
 date: 2026-04-24

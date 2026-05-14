@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天链二号05星成功发射升空"
 description: "我国成功发射天链二号05星，进一步完善天链中继卫星系统，为载人航天器、卫星等提供数据中继与测控服务。"
+wechatShare:
+  title: "天链二号05星成功发射升空"
+  desc: "我国成功发射天链二号05星，进一步完善天链中继卫星系统，为载人航天器、卫星等提供数据中继与测控服务。"
+  image: "./figures/2026-04-27-tianlian-2-05-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-tianlian-2-05-launch/
 author: 天疆说
 date: 2026-04-27

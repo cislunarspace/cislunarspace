@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源第三次新格伦火箭发射入轨异常"
 description: "蓝色起源第三次新格伦火箭成功回收复用助推器，但有效载荷未能进入预定轨道"
+wechatShare:
+  title: "蓝色起源第三次新格伦火箭发射入轨异常"
+  desc: "蓝色起源第三次新格伦火箭成功回收复用助推器，但有效载荷未能进入预定轨道"
+  image: "./figures/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/hero.jpg"
 permalink: /space-news/2026/04/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/
 author: 天疆说
 date: 2026-04-19

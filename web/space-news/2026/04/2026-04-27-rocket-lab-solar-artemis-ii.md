@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab太阳能技术为Artemis II猎户座飞船提供动力"
 description: "Rocket Lab研制的砷化镓太阳能电池阵列为Artemis II任务猎户座飞船提供电力，这是该技术首次应用于载人深空任务。"
+wechatShare:
+  title: "Rocket Lab太阳能技术为Artemis II猎户座飞船提供动力"
+  desc: "Rocket Lab研制的砷化镓太阳能电池阵列为Artemis II任务猎户座飞船提供电力，这是该技术首次应用于载人深空任务。"
+  image: "./figures/2026-04-27-rocket-lab-solar-artemis-ii/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-rocket-lab-solar-artemis-ii/
 author: 天疆说
 date: 2026-04-27

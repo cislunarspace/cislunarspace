@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "太阳爆发M5.7级耀斑并伴随日冕物质抛射"
 description: "2026年5月11日，太阳爆发M5.7级耀斑并伴随日冕物质抛射，引发大西洋地区无线电中断，北半球极光可见概率上升。"
+wechatShare:
+  title: "太阳爆发M5.7级耀斑并伴随日冕物质抛射"
+  desc: "2026年5月11日，太阳爆发M5.7级耀斑并伴随日冕物质抛射，引发大西洋地区无线电中断，北半球极光可见概率上升。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-11-solar-flare-m57-cme/
 author: 天疆说
 date: 2026-05-11

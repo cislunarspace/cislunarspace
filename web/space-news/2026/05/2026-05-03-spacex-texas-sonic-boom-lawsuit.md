@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "80名德州居民起诉SpaceX火箭音爆损害房屋，索赔数百万美元"
 description: "2026年5月3日，80名德克萨斯州南部居民向联邦法院提起诉讼，指控SpaceX在2023年4月至2025年10月期间进行11次火箭测试产生的音爆对房屋造成损害，要求赔偿数百万美元。"
+wechatShare:
+  title: "80名德州居民起诉SpaceX火箭音爆损害房屋，索赔数百万美元"
+  desc: "2026年5月3日，80名德克萨斯州南部居民向联邦法院提起诉讼，指控SpaceX在2023年4月至2025年10月期间进行11次火箭测试产生的音爆对房屋造成损害，要求赔偿数百万美元。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-03-spacex-texas-sonic-boom-lawsuit/
 author: 天疆说
 date: 2026-05-03

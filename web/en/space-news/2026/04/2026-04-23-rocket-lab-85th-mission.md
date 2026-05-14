@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab Completes 85th Mission and First Dedicated Launch for European Space Agency"
 description: "On April 23, 2026, Rocket Lab successfully completed the 85th Electron launch from Launch Complex 1 in Mahia Peninsula, New Zealand, carrying the JAXA Kakushin Rising rideshare satellite."
+wechatShare:
+  title: "Rocket Lab Completes 85th Mission and First Dedicated Launch for European Space Agency"
+  desc: "On April 23, 2026, Rocket Lab successfully completed the 85th Electron launch from Launch Complex 1 in Mahia Peninsula, New Zealand, carrying the JAXA Kakushin Rising rideshare satellite."
+  image: "./figures/2026-04-23-rocket-lab-85th-mission/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-rocket-lab-85th-mission/
 author: Tianjiangshuo
 date: 2026-04-23

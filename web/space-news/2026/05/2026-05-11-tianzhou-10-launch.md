@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟十号货运飞船发射成功"
 description: "北京时间2026年5月11日8时14分，长征七号遥十一运载火箭在文昌航天发射场点火发射，将天舟十号货运飞船送入预定轨道，发射任务取得圆满成功。"
+wechatShare:
+  title: "天舟十号货运飞船发射成功"
+  desc: "北京时间2026年5月11日8时14分，长征七号遥十一运载火箭在文昌航天发射场点火发射，将天舟十号货运飞船送入预定轨道，发射任务取得圆满成功。"
+  image: "./figures/2026-05-11-tianzhou-10-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-11-tianzhou-10-launch/
 author: 天疆说
 date: 2026-05-11

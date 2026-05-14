@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis 2猎户座飞船返回地球后首次亮相 隔热罩烧蚀痕迹清晰可见"
 description: "NASA公布Artemis 2任务猎户座飞船返回地球后的首批照片，展示了飞船穿越大气层时隔热罩承受的极端热载荷。4名航天员于2026年4月1日发射，4月10日成功返回地球，这是人类50余年来首次载人绕月飞行。"
+wechatShare:
+  title: "Artemis 2猎户座飞船返回地球后首次亮相 隔热罩烧蚀痕迹清晰可见"
+  desc: "NASA公布Artemis 2任务猎户座飞船返回地球后的首批照片，展示了飞船穿越大气层时隔热罩承受的极端热载荷。4名航天员于2026年4月1日发射，4月10日成功返回地球，这是人类50余年来首次载人绕月飞行。"
+  image: "./figures/2026-05-09-artemis-2-orion-hull/hero.jpg"
 permalink: /space-news/2026/05/2026-05-09-artemis-2-orion-hull/
 author: 天疆说
 date: 2026-05-09

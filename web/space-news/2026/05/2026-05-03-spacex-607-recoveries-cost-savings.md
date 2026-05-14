@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX全舰队火箭回收突破600次，累计节省成本约168亿美元"
 description: "截至2026年5月初，SpaceX猎鹰火箭全舰队总复用次数已达607次，其中4支助推器复用次数超过40次，累计节省成本约168亿美元，可复用技术已支撑起SpaceX高频星链部署与商业发射任务。"
+wechatShare:
+  title: "SpaceX全舰队火箭回收突破600次，累计节省成本约168亿美元"
+  desc: "截至2026年5月初，SpaceX猎鹰火箭全舰队总复用次数已达607次，其中4支助推器复用次数超过40次，累计节省成本约168亿美元，可复用技术已支撑起SpaceX高频星链部署与商业发射任务。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-03-spacex-607-recoveries-cost-savings/
 author: 天疆说
 date: 2026-05-03

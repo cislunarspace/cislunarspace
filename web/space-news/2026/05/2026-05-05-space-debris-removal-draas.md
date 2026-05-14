@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "美国与澳大利亚两家私企合作，2027年推出商业太空碎片清除服务"
 description: "美国Portal Space Systems与澳大利亚初创企业Paladin Space宣布合作，将基于Starburst可机动航天器与Paladin Triton载荷，提供商业碎片清除即服务（DRAAS），计划于2027年投入运营。"
+wechatShare:
+  title: "美国与澳大利亚两家私企合作，2027年推出商业太空碎片清除服务"
+  desc: "美国Portal Space Systems与澳大利亚初创企业Paladin Space宣布合作，将基于Starburst可机动航天器与Paladin Triton载荷，提供商业碎片清除即服务（DRAAS），计划于2027年投入运营。"
+  image: "./figures/2026-05-05-space-debris-removal-draas/hero.jpg"
 permalink: /space-news/2026/05/2026-05-05-space-debris-removal-draas/
 author: 天疆说
 date: 2026-05-05

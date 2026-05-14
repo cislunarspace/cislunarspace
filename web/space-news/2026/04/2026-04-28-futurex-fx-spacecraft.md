@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "未来宇航发布FX锋行系列商业飞行器，聚焦卫星组网与在轨服务"
 description: "2026年4月28日，商业航天企业未来宇航在雄安新区正式发布FX锋行系列空间飞行器，这是国内首个服务于卫星组网发射和在轨服务的商业飞行器，锋行一号FX-1首飞计划2026年第三季度。"
+wechatShare:
+  title: "未来宇航发布FX锋行系列商业飞行器，聚焦卫星组网与在轨服务"
+  desc: "2026年4月28日，商业航天企业未来宇航在雄安新区正式发布FX锋行系列空间飞行器，这是国内首个服务于卫星组网发射和在轨服务的商业飞行器，锋行一号FX-1首飞计划2026年第三季度。"
+  image: "./figures/2026-04-28-futurex-fx-spacecraft/hero.jpg"
 permalink: /space-news/2026/04/2026-04-28-futurex-fx-spacecraft/
 author: 天疆说
 date: 2026-04-28

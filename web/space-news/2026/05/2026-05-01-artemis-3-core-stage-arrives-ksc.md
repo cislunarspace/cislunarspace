@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis III 登月核心级抵达肯尼迪航天中心，SLS 火箭进入总装阶段"
 description: "NASA SLS火箭Artemis III任务核心级分两阶段从Michoud制造设施运抵肯尼迪航天中心，标志着美国载人重返月球进入最后冲刺。"
+wechatShare:
+  title: "Artemis III 登月核心级抵达肯尼迪航天中心，SLS 火箭进入总装阶段"
+  desc: "NASA SLS火箭Artemis III任务核心级分两阶段从Michoud制造设施运抵肯尼迪航天中心，标志着美国载人重返月球进入最后冲刺。"
+  image: "./figures/2026-05-01-artemis-3-core-stage-arrives-ksc/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc/
 author: 天疆说
 date: 2026-05-01

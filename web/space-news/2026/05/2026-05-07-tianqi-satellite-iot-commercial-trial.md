@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "工信部批复天启星座开展卫星物联网业务商用试验 我国首个相关领域商用试点落地"
 description: "工业和信息化部近日批复北京国电高科科技有限公司开展卫星物联网业务商用试验，试验期两年，天启星座成为我国首个获批商用试验的低轨卫星物联网星座。"
+wechatShare:
+  title: "工信部批复天启星座开展卫星物联网业务商用试验 我国首个相关领域商用试点落地"
+  desc: "工业和信息化部近日批复北京国电高科科技有限公司开展卫星物联网业务商用试验，试验期两年，天启星座成为我国首个获批商用试验的低轨卫星物联网星座。"
+  image: "./figures/2026-05-07-tianqi-satellite-iot-commercial-trial/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-tianqi-satellite-iot-commercial-trial/
 author: 天疆说
 date: 2026-05-07

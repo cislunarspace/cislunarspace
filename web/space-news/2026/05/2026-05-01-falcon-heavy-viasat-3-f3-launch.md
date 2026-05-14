@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX猎鹰重型火箭成功发射ViaSat-3 F3通信卫星，时隔18个月重返发射台"
 description: "2026年4月29日，SpaceX猎鹰重型火箭在肯尼迪航天中心成功发射ViaSat-3 F3通信卫星，这是该火箭自2024年10月以来的首次发射，执行第12次飞行任务，并实现双侧助推器成功回收。"
+wechatShare:
+  title: "SpaceX猎鹰重型火箭成功发射ViaSat-3 F3通信卫星，时隔18个月重返发射台"
+  desc: "2026年4月29日，SpaceX猎鹰重型火箭在肯尼迪航天中心成功发射ViaSat-3 F3通信卫星，这是该火箭自2024年10月以来的首次发射，执行第12次飞行任务，并实现双侧助推器成功回收。"
+  image: "./figures/2026-05-01-falcon-heavy-viasat-3-f3-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-falcon-heavy-viasat-3-f3-launch/
 author: 天疆说
 date: 2026-04-29

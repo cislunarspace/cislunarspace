@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days"
 description: "NASA's Curiosity rover accidentally extracted an entire rock nicknamed 'Atacama' while drilling on April 25, with the 13-kilogram rock stubbornly stuck to the drill sleeve for 6 days before engineers could free it."
+wechatShare:
+  title: "NASA's Curiosity Rover Held Hostage by 29-Pound Mars Rock for 6 Days"
+  desc: "NASA's Curiosity rover accidentally extracted an entire rock nicknamed 'Atacama' while drilling on April 25, with the 13-kilogram rock stubbornly stuck to the drill sleeve for 6 days before engineers could free it."
+  image: "./figures/2026-05-08-curiosity-mars-rock/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-curiosity-mars-rock/
 author: Tianjiangshuo
 date: 2026-05-08

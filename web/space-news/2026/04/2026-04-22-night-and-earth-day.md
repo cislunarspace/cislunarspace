@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 公布 Artemis II 任务拍摄的地球明暗界线影像"
 description: "NASA 发布 Artemis II 宇航员在绕月飞行期间拍摄的地球影像，展示明暗界线（昼半球与夜半球交界处）的壮观景象，作为地球日献礼发布。"
+wechatShare:
+  title: "NASA 公布 Artemis II 任务拍摄的地球明暗界线影像"
+  desc: "NASA 发布 Artemis II 宇航员在绕月飞行期间拍摄的地球影像，展示明暗界线（昼半球与夜半球交界处）的壮观景象，作为地球日献礼发布。"
+  image: "./figures/2026-04-22-night-and-earth-day/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-night-and-earth-day/
 author: 天疆说
 date: 2026-04-22

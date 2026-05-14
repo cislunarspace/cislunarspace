@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "中国（北京）航天科学中心正式开馆，打造北京「科文商旅」融合新地标"
 description: "2026年4月28日，位于北京昌平超极合生汇的中国（北京）航天科学中心正式开馆，3700平方米空间内设六大主题展区、四大专业实验室和八项首创体验。"
+wechatShare:
+  title: "中国（北京）航天科学中心正式开馆，打造北京「科文商旅」融合新地标"
+  desc: "2026年4月28日，位于北京昌平超极合生汇的中国（北京）航天科学中心正式开馆，3700平方米空间内设六大主题展区、四大专业实验室和八项首创体验。"
+  image: "./figures/2026-04-28-beijing-space-science-center/hero.jpg"
 permalink: /space-news/2026/04/2026-04-28-beijing-space-science-center/
 author: 天疆说
 date: 2026-04-28

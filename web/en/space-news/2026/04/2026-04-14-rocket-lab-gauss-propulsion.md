@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab Unveils New Gauss Hall-Effect Propulsion System Designed for Mass Production Constellations"
 description: "Rocket Lab introduces the Gauss series of new Hall-effect satellite thrusters on April 14, 2026, designed for high-volume production to meet the growing demand for reliable satellite positioning across mega-constellations from hundreds to tens of thousands of satellites."
+wechatShare:
+  title: "Rocket Lab Unveils New Gauss Hall-Effect Propulsion System Designed for Mass Production Constellations"
+  desc: "Rocket Lab introduces the Gauss series of new Hall-effect satellite thrusters on April 14, 2026, designed for high-volume production to meet the growing demand for reliable satellite positioning across mega-constellations from hundreds to tens of thousands of satellites."
+  image: "./figures/2026-04-14-rocket-lab-gauss-propulsion/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-14-rocket-lab-gauss-propulsion/
 author: Tianjiangshuo
 date: 2026-04-14

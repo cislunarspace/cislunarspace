@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Develops IV Fluid Technology for Space, Enabling Deep Space Human Missions"
 description: "NASA is developing a system that can produce intravenous fluids in microgravity, addressing the challenge of storing liquid medications during long-duration deep space missions."
+wechatShare:
+  title: "NASA Develops IV Fluid Technology for Space, Enabling Deep Space Human Missions"
+  desc: "NASA is developing a system that can produce intravenous fluids in microgravity, addressing the challenge of storing liquid medications during long-duration deep space missions."
+  image: "./figures/2026-04-23-nasa-iv-fluid-space/hero.jpeg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-iv-fluid-space/
 author: Tianjiangshuo
 date: 2026-04-23

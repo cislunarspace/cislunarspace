@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 与 SpaceX 因天气原因取消 CRS-34 货运龙飞船发射"
 description: "NASA与SpaceX因恶劣天气取消第34次商业补给任务，目标是5月13日再次尝试，发射窗口为美东时间17:29。"
+wechatShare:
+  title: "NASA 与 SpaceX 因天气原因取消 CRS-34 货运龙飞船发射"
+  desc: "NASA与SpaceX因恶劣天气取消第34次商业补给任务，目标是5月13日再次尝试，发射窗口为美东时间17:29。"
+  image: "./figures/2026-05-12-crs-34-scrub-weather/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-crs-34-scrub-weather/
 author: 天疆说
 date: 2026-05-12

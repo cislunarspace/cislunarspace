@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis II Crew Captures Spectacular Milky Way Photo from Beyond the Moon"
 description: "NASA's Artemis II crew captured a stunning photo of the Milky Way galaxy on April 7, 2026, during their journey around the Moon aboard the Orion spacecraft, marking the first human presence beyond low Earth orbit in over 50 years."
+wechatShare:
+  title: "Artemis II Crew Captures Spectacular Milky Way Photo from Beyond the Moon"
+  desc: "NASA's Artemis II crew captured a stunning photo of the Milky Way galaxy on April 7, 2026, during their journey around the Moon aboard the Orion spacecraft, marking the first human presence beyond low Earth orbit in over 50 years."
+  image: "./figures/2026-04-25-artemis-ii-milky-way/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-25-artemis-ii-milky-way/
 author: Tianjiangshuo
 date: 2026-04-25

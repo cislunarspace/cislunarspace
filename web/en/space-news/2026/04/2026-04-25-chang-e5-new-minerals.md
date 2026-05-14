@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Discovers Two New Lunar Minerals in Chang'e-5 Samples — Magnesium and Cerium Chang'e Stones"
 description: "China announced on April 24, 2026, the discovery of two new lunar minerals — magnesium Chang'e stone and cerium Chang'e stone — in Chang'e-5 lunar samples, marking the 7th and 8th new minerals found in returned lunar regolith globally."
+wechatShare:
+  title: "China Discovers Two New Lunar Minerals in Chang'e-5 Samples — Magnesium and Cerium Chang'e Stones"
+  desc: "China announced on April 24, 2026, the discovery of two new lunar minerals — magnesium Chang'e stone and cerium Chang'e stone — in Chang'e-5 lunar samples, marking the 7th and 8th new minerals found in returned lunar regolith globally."
+  image: "./figures/2026-04-25-chang-e5-new-minerals/hero.png"
 permalink: /en/space-news/2026/04/2026-04-25-chang-e5-new-minerals/
 author: Tianjiangshuo
 date: 2026-04-25

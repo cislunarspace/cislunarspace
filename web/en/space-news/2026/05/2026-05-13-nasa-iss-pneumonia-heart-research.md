@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA ISS Research: How Space Bacteria That Cause Pneumonia Damage the Heart"
 description: "Expedition 74 astronauts aboard the ISS are uncovering how pneumonia-causing bacteria lead to long-term heart damage in microgravity, offering new insights for cardiovascular disease treatment on Earth."
+wechatShare:
+  title: "NASA ISS Research: How Space Bacteria That Cause Pneumonia Damage the Heart"
+  desc: "Expedition 74 astronauts aboard the ISS are uncovering how pneumonia-causing bacteria lead to long-term heart damage in microgravity, offering new insights for cardiovascular disease treatment on Earth."
+  image: "./figures/2026-05-13-nasa-iss-pneumonia-heart-research/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-nasa-iss-pneumonia-heart-research/
 author: Tianjiangshuo
 date: 2026-05-13

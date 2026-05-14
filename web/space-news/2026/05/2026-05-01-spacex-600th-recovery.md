@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX猎鹰火箭完成第600次回收，可重复使用技术进入成熟期"
 description: "2026年4月20日，SpaceX使用猎鹰9号火箭完成第600次轨道级火箭回收，距第500次仅隔7个月，标志着可重复使用技术已趋成熟。"
+wechatShare:
+  title: "SpaceX猎鹰火箭完成第600次回收，可重复使用技术进入成熟期"
+  desc: "2026年4月20日，SpaceX使用猎鹰9号火箭完成第600次轨道级火箭回收，距第500次仅隔7个月，标志着可重复使用技术已趋成熟。"
+  image: "./figures/2026-05-01-spacex-600th-recovery/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-spacex-600th-recovery/
 author: 天疆说
 date: 2026-04-20

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab Completes Spacecraft Commissioning for NASA's ESCAPADE Mars Mission"
 description: "Rocket Lab announces successful completion of commissioning for the twin satellites of NASA's ESCAPADE Mars mission, now operating at Earth-Sun Lagrange Point L2 and preparing for handover to UC Berkeley."
+wechatShare:
+  title: "Rocket Lab Completes Spacecraft Commissioning for NASA's ESCAPADE Mars Mission"
+  desc: "Rocket Lab announces successful completion of commissioning for the twin satellites of NASA's ESCAPADE Mars mission, now operating at Earth-Sun Lagrange Point L2 and preparing for handover to UC Berkeley."
+  image: "./figures/2026-04-27-rocket-lab-escapade-mars/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-rocket-lab-escapade-mars/
 author: Tianjiangshuo
 date: 2026-04-27

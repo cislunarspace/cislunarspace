@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "New Study Reveals Moon's Largest Impact Basin Formed by 'Decapitated' Asteroid"
 description: "High-resolution 3D simulations by Purdue researchers show the South Pole-Aitken basin on the Moon's far side was formed by a differentiated asteroid striking at a shallow angle, decapitating its outer layers."
+wechatShare:
+  title: "New Study Reveals Moon's Largest Impact Basin Formed by 'Decapitated' Asteroid"
+  desc: "High-resolution 3D simulations by Purdue researchers show the South Pole-Aitken basin on the Moon's far side was formed by a differentiated asteroid striking at a shallow angle, decapitating its outer layers."
+  image: "./figures/2026-05-07-south-pole-aitken-asteroid-study/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-south-pole-aitken-asteroid-study/
 author: Tianjiangshuo
 date: 2026-05-07

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "国家航天局召开商业航天高质量发展企业圆桌会议"
 description: "2026年4月21日，工业和信息化部副部长、国家航天局局长单忠德主持召开商业航天高质量发展企业圆桌会议，14家商业航天企业负责人围绕科研生产、许可准入、发射申请等议题深入交流。"
+wechatShare:
+  title: "国家航天局召开商业航天高质量发展企业圆桌会议"
+  desc: "2026年4月21日，工业和信息化部副部长、国家航天局局长单忠德主持召开商业航天高质量发展企业圆桌会议，14家商业航天企业负责人围绕科研生产、许可准入、发射申请等议题深入交流。"
+  image: "./figures/2026-04-27-commercial-space-enterprise-roundtable/hero.png"
 permalink: /space-news/2026/04/2026-04-27-commercial-space-enterprise-roundtable/
 author: 天疆说
 date: 2026-04-27

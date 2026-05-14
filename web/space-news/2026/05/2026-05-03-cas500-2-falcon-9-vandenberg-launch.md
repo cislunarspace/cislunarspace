@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX猎鹰九号成功发射韩国CAS500-2地球观测卫星"
 description: "2026年5月3日，SpaceX猎鹰九号运载火箭从加州范登堡太空军基地成功发射韩国CAS500-2地球观测卫星。"
+wechatShare:
+  title: "SpaceX猎鹰九号成功发射韩国CAS500-2地球观测卫星"
+  desc: "2026年5月3日，SpaceX猎鹰九号运载火箭从加州范登堡太空军基地成功发射韩国CAS500-2地球观测卫星。"
+  image: "./figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-03-cas500-2-falcon-9-vandenberg-launch/
 author: 天疆说
 date: 2026-05-03

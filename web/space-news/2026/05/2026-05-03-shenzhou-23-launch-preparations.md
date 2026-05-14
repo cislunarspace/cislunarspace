@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "神舟二十三号发射在即：SpaceX猎鹰重型执行任务，商业航天再添新动态"
 description: "神舟二十三号载人飞船进入发射倒计时阶段，航天员张陆在轨超500天将于本月返回地球，同时商业航天发射场建设取得新进展。"
+wechatShare:
+  title: "神舟二十三号发射在即：SpaceX猎鹰重型执行任务，商业航天再添新动态"
+  desc: "神舟二十三号载人飞船进入发射倒计时阶段，航天员张陆在轨超500天将于本月返回地球，同时商业航天发射场建设取得新进展。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-03-shenzhou-23-launch-preparations/
 author: 天疆说
 date: 2026-05-03
