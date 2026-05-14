@@ -114,7 +114,7 @@
   cursor: pointer;
   font-size: 0.875rem;
   font-weight: 600;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   box-shadow: var(--chat-glow);
   transition: background 0.2s ease, transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
@@ -264,7 +264,7 @@
 .header-title {
   font-size: 1rem;
   font-weight: 700;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   letter-spacing: 0.02em;
   color: var(--chat-text-primary);
   margin: 0;
@@ -380,7 +380,7 @@
   border-radius: 999px;
   background: rgba(14, 165, 233, 0.1);
   border: 1px solid rgba(14, 165, 233, 0.22);
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
 }
 
 .ai-chat-root.dark .welcome-eyebrow {
@@ -414,7 +414,7 @@
 .welcome-title {
   font-size: clamp(1.35rem, 3.5vw, 1.75rem);
   font-weight: 700;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   color: var(--chat-text-primary);
   margin: 0 0 0.5rem;
   border: none;

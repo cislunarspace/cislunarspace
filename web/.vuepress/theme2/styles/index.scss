@@ -73,7 +73,7 @@ html[data-theme='dark'] body {
 
 /* ---- 全局字体 ---- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
 }
 
 /* ---- 导航栏 ---- */
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .vp-navbar .vp-site-name {
   color: var(--vp-c-text) !important;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   font-weight: 700;
 }
 
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ---- 侧边栏分组标题 (L1 heading) ---- */
 .vp-sidebar-item.vp-sidebar-heading {
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 1.05em;
   color: var(--vp-c-text);
@@ -409,7 +409,7 @@ html[data-theme='dark'] .vp-sidebar-children .vp-sidebar-children .vp-sidebar-ch
 [vp-content] h4,
 [vp-content] h5,
 [vp-content] h6 {
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   color: var(--vp-c-text);
   font-weight: 700;
   scroll-margin-top: calc(var(--navbar-height) + 1rem);

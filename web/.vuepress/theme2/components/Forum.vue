@@ -475,7 +475,7 @@ onUnmounted(() => {
 }
 .forum-hero-title {
   margin: 0 0 0.5rem;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   font-size: clamp(1.5rem, 4vw, 1.85rem);
   font-weight: 700;
   color: var(--c-text);
