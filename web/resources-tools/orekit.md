@@ -3,6 +3,10 @@ title: Orekit
 description: ESA 开源飞行动力学库，基于 Java（Python binding 可用）
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: Orekit
+  desc: ESA 开源飞行动力学库，基于 Java（Python binding 可用）
+  image: /logo.png
 ---
 
 ## 简介

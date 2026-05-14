@@ -3,6 +3,10 @@ title: Basilisk
 description: JPL 开源航天器动力学仿真框架，C++ 核心 + Python 接口
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: Basilisk
+  desc: JPL 开源航天器动力学仿真框架，C++ 核心 + Python 接口
+  image: /logo.png
 ---
 
 ## 简介
