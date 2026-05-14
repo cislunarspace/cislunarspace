@@ -1,6 +1,10 @@
 ---
 title: DRO 动力学机理
 description: 远距离逆行轨道的逆行几何、雅可比常数约束与CR3BP中的稳定性来源分析。
+wechatShare:
+  title: DRO 动力学机理
+  desc: 远距离逆行轨道的逆行几何、雅可比常数约束与CR3BP中的稳定性来源分析。
+  image: /logo.png
 keywords: DRO动力学, 逆行几何, 雅可比常数, CR3BP稳定性, Coriolis效应
 author: 天疆说
 date: 2026-04-26

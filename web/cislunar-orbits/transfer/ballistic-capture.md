@@ -1,6 +1,10 @@
 ---
 title: 弹道捕获
 description: 弹道捕获原理、与动力捕获的对比、低能转移中的作用，以及优势与局限性分析。
+wechatShare:
+  title: 弹道捕获
+  desc: 弹道捕获原理、与动力捕获的对比、低能转移中的作用，以及优势与局限性分析。
+  image: /logo.png
 keywords: 弹道捕获, Ballistic Capture, 低能转移, WSB, 弱稳定边界, 月球引力辅助
 author: 天疆说
 date: 2026-04-26

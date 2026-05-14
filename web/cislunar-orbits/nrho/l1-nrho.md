@@ -1,6 +1,10 @@
 ---
 title: L1 近直线晕轨道
 description: 地月L1点近直线晕轨道的几何特性、动力学约束与典型任务应用。
+wechatShare:
+  title: L1 近直线晕轨道
+  desc: 地月L1点近直线晕轨道的几何特性、动力学约束与典型任务应用。
+  image: /logo.png
 keywords: L1 NRHO, L1 halo orbit, 地月L1点, 晕轨道设计
 author: 天疆说
 date: 2026-04-26

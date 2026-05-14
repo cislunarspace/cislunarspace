@@ -1,6 +1,10 @@
 ---
 title: DRO 轨道族分类
 description: 远距离逆行轨道的L1/L2分类、周期振幅特性、同源分支关系与南北对称性。
+wechatShare:
+  title: DRO 轨道族分类
+  desc: 远距离逆行轨道的L1/L2分类、周期振幅特性、同源分支关系与南北对称性。
+  image: /logo.png
 keywords: DRO分类, L1 DRO, L2 DRO, 南北对称, 同源分支, Lyapunov轨道
 author: 天疆说
 date: 2026-04-26

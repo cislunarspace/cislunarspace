@@ -1,6 +1,10 @@
 ---
 title: Gateway 工程案例
 description: NASA月球门户（Gateway）任务的NRHO轨道选择依据、国际合作模式与地月往返设计。
+wechatShare:
+  title: Gateway 工程案例
+  desc: NASA月球门户（Gateway）任务的NRHO轨道选择依据、国际合作模式与地月往返设计。
+  image: /logo.png
 keywords: Gateway, Artemis, 月球门户, NRHO应用, 国际合作
 author: 天疆说
 date: 2026-04-26

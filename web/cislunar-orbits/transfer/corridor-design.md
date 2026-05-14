@@ -1,6 +1,10 @@
 ---
 title: 转移走廊设计
 description: 地月转移走廊的概念、低能vs高能走廊差异、Pork-chop图解读与多目标优化设计。
+wechatShare:
+  title: 转移走廊设计
+  desc: 地月转移走廊的概念、低能vs高能走廊差异、Pork-chop图解读与多目标优化设计。
+  image: /logo.png
 keywords: 转移走廊, Pork-chop图, 多目标优化, 低能转移, 高能转移
 author: 天疆说
 date: 2026-04-26
