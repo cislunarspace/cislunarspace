@@ -1,6 +1,10 @@
 ---
 title: 时空基准与测量
 description: 地月空间时空参考系建立、时间频率传递与精密测量技术
+wechatShare:
+  title: '时空基准与测量'
+  desc: '地月空间时空参考系建立、时间频率传递与精密测量技术'
+  image: /logo.png
 ---
 
 # 时空基准与测量

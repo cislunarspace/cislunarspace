@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-04-27
 permalink: /research-frontiers/directions/
+wechatShare:
+  title: '地月空间研究方向与前沿热点'
+  desc: '按研究问题方向分类的地月空间研究前沿，涵盖轨道设计、导航、态势感知等领域'
+  image: /logo.png
 ---
 
 # 地月空间研究方向与前沿热点

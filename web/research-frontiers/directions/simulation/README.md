@@ -1,6 +1,10 @@
 ---
 title: 仿真系统
 description: 地月空间任务仿真系统设计、智能仿真与轨道设计仿真
+wechatShare:
+  title: '仿真系统'
+  desc: '地月空间任务仿真系统设计、智能仿真与轨道设计仿真'
+  image: /logo.png
 ---
 
 # 仿真系统

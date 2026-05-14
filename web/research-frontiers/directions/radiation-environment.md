@@ -1,6 +1,10 @@
 ---
 title: 空间辐射环境
 description: 地月空间辐射环境建模、测量与防护技术
+wechatShare:
+  title: '空间辐射环境'
+  desc: '地月空间辐射环境建模、测量与防护技术'
+  image: /logo.png
 ---
 
 # 空间辐射环境
