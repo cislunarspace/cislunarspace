@@ -16,6 +16,7 @@ lastUpdated: 2026-05-14
 | 2026-05-13 | [Blue Origin's Blue Moon Lander Mockup Assembled at NASA JSC for Artemis Training](./2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/) | Artemis |
 | 2026-05-13 | [Amaterasu Particle and Cosmic Ray Origins: 60-Year Mystery May Be Solved](./2026-05-13-cosmic-rays-amaterasu-particle-origin/) | Science |
 | 2026-05-13 | [NASA Outlines Preliminary Artemis III Plans: 2027 Earth Orbit Rendezvous Test](./2026-05-13-nasa-artemis-3-plans/) | Artemis |
+| 2026-05-13 | [NASA ISS Research: How Space Bacteria That Cause Pneumonia Damage the Heart](./2026-05-13-nasa-iss-pneumonia-heart-research/) | Science |
 | 2026-05-12 | [Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station](./2026-05-12-tianzhou-10-science-payloads/) | China Space |
 | 2026-05-12 | [Star Catcher Raises $65 Million Series A to Build World's First Space Power Grid](./2026-05-12-star-catcher-series-a/) | Commercial |
 | 2026-05-12 | [NASA Perseverance Rover Snaps New Selfie at Mars' Western Frontier](./2026-05-12-perseverance-mars-selfie/) | Science |
