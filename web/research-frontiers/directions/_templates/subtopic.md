@@ -2,6 +2,10 @@
 title: {子方向中文名称}
 description: {一句话描述}
 tags: [tag1, tag2]
+wechatShare:
+  title: '{子方向中文名称}'
+  desc: '{一句话描述}'
+  image: /logo.png
 ---
 
 # {子方向中文名称}

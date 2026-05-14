@@ -1,6 +1,10 @@
 ---
 title: 安全与治理
 description: 地月空间安全挑战、国际法规与全球治理框架
+wechatShare:
+  title: '安全与治理'
+  desc: '地月空间安全挑战、国际法规与全球治理框架'
+  image: /logo.png
 ---
 
 # 安全与治理

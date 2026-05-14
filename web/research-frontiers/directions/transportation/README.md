@@ -1,6 +1,10 @@
 ---
 title: 航天运输体系
 description: 地月空间大规模低成本航天运输系统设计与航班化运营
+wechatShare:
+  title: '航天运输体系'
+  desc: '地月空间大规模低成本航天运输系统设计与航班化运营'
+  image: /logo.png
 ---
 
 # 航天运输体系

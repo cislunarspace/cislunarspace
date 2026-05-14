@@ -1,6 +1,10 @@
 ---
 title: 导航与定轨
 description: 地月空间航天器自主导航、轨道确定与预报技术
+wechatShare:
+  title: '导航与定轨'
+  desc: '地月空间航天器自主导航、轨道确定与预报技术'
+  image: /logo.png
 ---
 
 # 导航与定轨
