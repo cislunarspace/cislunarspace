@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /background/mechanics/perturbation/
+wechatShare:
+  title: 摄动理论 (Perturbation Theory)
+  desc: 摄动理论研究天体在主天体引力基础上受其他因素（第三体引力、大气阻力、太阳辐射压等）扰动下运动规律的理论框架。
+  image: /logo.png
 ---
 
 # 摄动理论
