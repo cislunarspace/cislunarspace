@@ -19,20 +19,6 @@ export interface ArticlesData {
   en: ArticleItem[]
 }
 
-export interface WechatSignature {
-  appId: string
-  timestamp: number
-  nonceStr: string
-  signature: string
-}
-
-export interface WechatSdk {
-  config: (opts: Record<string, unknown>) => void
-  ready: (cb: () => void) => void
-  updateAppMessageShareData?: (data: Record<string, string>) => void
-  updateTimelineShareData?: (data: Record<string, string>) => void
-}
-
 export interface PageData {
   title?: string
   path?: string
