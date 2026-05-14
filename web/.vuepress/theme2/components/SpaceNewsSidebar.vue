@@ -297,7 +297,7 @@ onBeforeUnmount(() => {
 }
 
 .sn-sidebar-brand__title {
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--vp-c-text, #1e293b);
@@ -330,7 +330,7 @@ onBeforeUnmount(() => {
   gap: 0.5rem;
   padding: 0 0.45rem;
   margin-bottom: 0.55rem;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family);
   font-size: 0.8125rem;
   font-weight: 600;
   color: var(--vp-c-text-mute, #64748b);

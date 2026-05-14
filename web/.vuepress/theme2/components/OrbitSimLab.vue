@@ -1071,18 +1071,7 @@ function onResize() {
   --os-glass: blur(14px) saturate(1.2);
   --pw: min(440px, 100%);
   --os-top-offset: var(--navbar-height, 3.6rem);
-  /* 各边栏/分区标题：与全站侧栏一致，独立于正文 sans 栈 */
-  --os-panel-title-font: var(
-    --font-family-heading,
-    '黑体',
-    SimHei,
-    'Heiti SC',
-    STHeiti,
-    'Microsoft YaHei UI',
-    'Microsoft YaHei',
-    system-ui,
-    sans-serif
-  );
+  --os-panel-title-font: var(--font-family, system-ui, sans-serif);
   /* 画布上 HUD / 图例 / 快捷键提示：统一玻璃面板质感 */
   --os-float-r: 14px;
   --os-float-border: 1px solid rgba(148, 163, 184, 0.22);
