@@ -3,6 +3,10 @@ title: pykep
 description: ESA 行星际轨迹设计库，基于 Galbio 等算法
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: pykep
+  desc: ESA 行星际轨迹设计库，基于 Galbio 等算法
+  image: /logo.png
 ---
 
 ## 简介
