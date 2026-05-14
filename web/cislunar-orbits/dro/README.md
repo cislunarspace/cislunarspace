@@ -1,6 +1,10 @@
 ---
 title: DRO（远距离逆行轨道）
 description: DRO（远距离逆行轨道）概览：定义、动力学背景、与NRHO的对比及主要应用场景。
+wechatShare:
+  title: DRO（远距离逆行轨道）
+  desc: DRO（远距离逆行轨道）概览：定义、动力学背景、与NRHO的对比及主要应用场景。
+  image: /logo.png
 keywords: DRO, 远距离逆行轨道, Distant Retrograde Orbit, CR3BP, 地月空间
 author: 天疆说
 date: 2026-04-26
