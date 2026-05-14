@@ -1,6 +1,10 @@
 ---
 title: A*搜索算法（A* Search）
 description: 详细解析A*搜索算法的原理、在持久探测走廊路径搜索中的应用及其在地月空间轨迹规划中的优势
+wechatShare:
+  title: A*搜索算法（A* Search）
+  desc: 详细解析A*搜索算法的原理、在持久探测走廊路径搜索中的应用及其在地月空间轨迹规划中的优势
+  image: /logo.png
 keywords: A*搜索, A* Search, 路径规划, 图搜索, 启发式搜索, 持久探测走廊, 地月空间, 轨迹优化
 author: 天疆说
 date: 2026-04-29

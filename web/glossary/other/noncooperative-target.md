@@ -1,6 +1,10 @@
 ---
 title: 非合作目标（Noncooperative Target）
 description: 非合作目标是指不与操作航天器共享意图或轨迹信息的空间物体，包括废弃卫星、空间碎片和身份不明的航天器，对空间安全构成严重威胁。
+wechatShare:
+  title: 非合作目标（Noncooperative Target）
+  desc: 非合作目标是指不与操作航天器共享意图或轨迹信息的空间物体，包括废弃卫星、空间碎片和身份不明的航天器，对空间安全构成严重威胁。
+  image: /logo.png
 keywords: 非合作目标, 空间碎片, 空间安全, 航天器意图识别, 空间态势感知
 author: 天疆说
 date: 2026-04-27

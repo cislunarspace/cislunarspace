@@ -1,6 +1,10 @@
 ---
 title: 帕累托最优（Pareto Optimality）
 description: 详细解析帕累托最优的定义、多目标优化中的帕累托前沿、帕累托支配关系及其在地月空间架构设计中的应用
+wechatShare:
+  title: 帕累托最优（Pareto Optimality）
+  desc: 详细解析帕累托最优的定义、多目标优化中的帕累托前沿、帕累托支配关系及其在地月空间架构设计中的应用
+  image: /logo.png
 keywords: 帕累托最优, Pareto Optimal, 多目标优化, Pareto Front, Pareto Dominance, 帕累托前沿, 地月空间, 架构设计
 author: 天疆说
 date: 2026-04-29

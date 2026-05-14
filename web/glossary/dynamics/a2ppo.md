@@ -1,6 +1,10 @@
 ---
 title: A2PPO（注意力增强近端策略优化）
 description: A2PPO是一种将方向交叉注意力机制集成到Actor-Critic策略中的深度强化学习框架，用于地月空间低推力轨迹优化
+wechatShare:
+  title: A2PPO（注意力增强近端策略优化）
+  desc: A2PPO是一种将方向交叉注意力机制集成到Actor-Critic策略中的深度强化学习框架，用于地月空间低推力轨迹优化
+  image: /logo.png
 keywords: A2PPO, Attention-Augmented PPO, 低推力轨迹优化, 深度强化学习, 地月空间, Actor-Critic, 交叉注意力, 轨道设计
 author: 天疆说
 date: 2026-04-27

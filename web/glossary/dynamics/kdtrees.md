@@ -1,6 +1,10 @@
 ---
 title: K维树（KD-Tree）
 description: 详细解析KD-Tree数据结构的原理、在地月空间可检测区域邻居查询中的应用及其效率优势
+wechatShare:
+  title: K维树（KD-Tree）
+  desc: 详细解析KD-Tree数据结构的原理、在地月空间可检测区域邻居查询中的应用及其效率优势
+  image: /logo.png
 keywords: KD-Tree, K维树, 最近邻搜索, 空间分割, 数据结构, 可检测区域, 邻居查询, 地月空间
 author: 天疆说
 date: 2026-04-29

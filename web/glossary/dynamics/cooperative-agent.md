@@ -1,6 +1,10 @@
 ---
 title: 合作代理（Cooperative Agent, CA）
 description: 详细解析合作代理的定义、在地月空间态势感知架构设计中的作用及其与SSA架构的交互模型
+wechatShare:
+  title: 合作代理（Cooperative Agent, CA）
+  desc: 详细解析合作代理的定义、在地月空间态势感知架构设计中的作用及其与SSA架构的交互模型
+  image: /logo.png
 keywords: 合作代理, Cooperative Agent, CA, 地月空间, 态势感知, 架构设计, 轨迹优化, 多目标优化
 author: 天疆说
 date: 2026-04-29

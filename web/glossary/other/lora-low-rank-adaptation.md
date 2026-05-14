@@ -1,6 +1,10 @@
 ---
 title: 低秩适配（LoRA — Low-Rank Adaptation）
 description: 低秩适配（LoRA）是一种参数高效的大模型微调方法，通过冻结预训练权重并注入可训练的低秩分解矩阵，仅训练极少量参数即可实现接近全量微调的效果。
+wechatShare:
+  title: 低秩适配（LoRA — Low-Rank Adaptation）
+  desc: 低秩适配（LoRA）是一种参数高效的大模型微调方法，通过冻结预训练权重并注入可训练的低秩分解矩阵，仅训练极少量参数即可实现接近全量微调的效果。
+  image: /logo.png
 keywords: 低秩适配, LoRA, Low-Rank Adaptation, 大语言模型, 微调, 参数高效, PEFT
 author: 天疆说
 date: 2026-04-27

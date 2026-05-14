@@ -1,6 +1,10 @@
 ---
 title: K-Medoids聚类（K-Medoids Clustering）
 description: 详细解析K-Medoids聚类算法的原理、与K-Means的区别及其在地月空间SSA架构聚类分析中的应用
+wechatShare:
+  title: K-Medoids聚类（K-Medoids Clustering）
+  desc: 详细解析K-Medoids聚类算法的原理、与K-Means的区别及其在地月空间SSA架构聚类分析中的应用
+  image: /logo.png
 keywords: K-Medoids, 聚类, Clustering, PAM, 架构设计, 地月空间, 态势感知, 分类
 author: 天疆说
 date: 2026-04-29
