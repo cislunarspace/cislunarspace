@@ -6,12 +6,12 @@ import { generateAiChatContext } from './gen-ai-chat-context.ts'
 import { walkSiteMarkdown } from './utils/markdown-walker.ts'
 import { filesToArticles, buildSidebarData } from './sidebar-transforms.ts'
 import { glossaryCategories } from './glossary-meta.ts'
-import { sidebarSections, type SidebarSection, type SidebarEntry } from './sidebar-data.ts'
 import type { VueSidebarItem } from './sidebar-types.ts'
 import { buildGlossaryScan } from './intakes/glossary-intake.ts'
 import { buildWayfindingIntake } from './intakes/wayfinding-intake.ts'
 import { buildChatIndexIntake as buildChatIndex } from './intakes/chat-index-intake.ts'
 import { buildTranslationGapIntake as getTranslationGapReport } from './intakes/translation-gap-intake.ts'
+import { buildAllSectionSidebars } from './taxonomy/adapters/sidebar-sections.ts'
 
 const require = createRequire(import.meta.url)
 const categoryMeta: Record<string, { zh: string; en: string; color: string }> = require('./category-meta.json')
@@ -26,72 +26,7 @@ export { buildGlossaryScan }
 export { buildChatIndex }
 export { getTranslationGapReport }
 
-// ── Sidebar builder helpers (moved from build-sidebar.ts) ──────────────────
-
-function buildSectionChildren(
-  children: SidebarEntry[],
-  basePath: string,
-  locale: 'zh' | 'en',
-): Array<string | VueSidebarItem> {
-  const result: Array<string | VueSidebarItem> = []
-
-  for (const child of children) {
-    if (child.locales && !child.locales.includes(locale)) continue
-
-    const label = child.label[locale]
-
-    if (child.slug === undefined) {
-      const builtChildren = child.children ? buildSectionChildren(child.children, basePath, locale) : []
-      result.push({
-        text: label,
-        collapsible: child.collapsible ?? true,
-        children: builtChildren,
-      })
-      continue
-    }
-
-    if (child.slug === '') {
-      result.push(`${basePath}`)
-      continue
-    }
-
-    const childPath = `${basePath}${child.slug}/`
-
-    if (child.children && child.children.length > 0) {
-      const builtChildren = buildSectionChildren(child.children, childPath, locale)
-      result.push({
-        text: label,
-        link: childPath,
-        collapsible: child.collapsible ?? true,
-        children: builtChildren,
-      })
-    } else {
-      result.push(childPath)
-    }
-  }
-
-  return result
-}
-
-function buildSectionSidebar(section: SidebarSection, locale: 'zh' | 'en'): VueSidebarItem {
-  const prefix = locale === 'en' ? '/en/' : '/'
-  const basePath = `${prefix}${section.slug}/`
-
-  const childrenSource = section.childrenByLocale
-    ? section.childrenByLocale[locale]
-    : section.children
-
-  const children: Array<string | VueSidebarItem> = [
-    basePath,
-    ...buildSectionChildren(childrenSource, basePath, locale),
-  ]
-
-  return {
-    text: section.label[locale],
-    collapsible: false,
-    children,
-  }
-}
+// ── Sidebar builder helpers ──────────────────────────────────────────────────
 
 function buildGlossarySidebar(
   scan: ReturnType<typeof buildGlossaryScan>,
@@ -151,13 +86,7 @@ export function buildSidebarConfigs(
 
   const wayfinding = buildWayfindingIntake()
 
-  const sectionSidebars: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {}
-  for (const section of sidebarSections) {
-    sectionSidebars[section.slug] = {
-      zh: buildSectionSidebar(section, 'zh'),
-      en: buildSectionSidebar(section, 'en'),
-    }
-  }
+  const sectionSidebars = buildAllSectionSidebars()
 
   const glossaryZh = buildGlossarySidebar(effectiveScan, 'zh')
   const glossaryEn = buildGlossarySidebar(effectiveScan, 'en')
