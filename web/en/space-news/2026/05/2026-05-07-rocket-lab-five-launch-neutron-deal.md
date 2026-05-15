@@ -11,7 +11,6 @@ author: Tianjiangshuo
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: rocket-lab
-image: ./figures/rocket-lab-five-launch-neutron-deal/hero.jpg
 ---
 
 # Rocket Lab Signs Five-Launch Neutron Deal, Confirms Late 2026 Debut Target
