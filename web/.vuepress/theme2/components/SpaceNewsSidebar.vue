@@ -116,6 +116,7 @@ import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useIsEn } from '../composables/useIsEn'
 import { categoryMeta } from '../utils/categoryMeta'
+import { resolveCategoryColor } from '../utils/spaceNewsDirectoryView'
 import sidebarRaw from '../../space-news-sidebar-data.json'
 
 const route = useRoute()
@@ -189,8 +190,7 @@ function isActivePath(current: string, target: string) {
 }
 
 function catColor(cats: string[] | null) {
-  if (!cats || !cats.length) return '#64748b'
-  return categoryMeta[cats[0]]?.color ?? '#64748b'
+  return resolveCategoryColor(cats, categoryMeta)
 }
 
 function formatShortDate(raw: string | null) {

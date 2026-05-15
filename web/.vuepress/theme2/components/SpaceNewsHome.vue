@@ -12,7 +12,7 @@
       <div v-if="featuredList.length" class="sn-featured">
         <router-link :to="featuredList[currentFeatured].path" class="sn-featured__link" :key="featuredList[currentFeatured].path">
           <div class="sn-featured__img" :style="cardBg(featuredList[currentFeatured])">
-            <span class="sn-cat-tag" :style="catStyle(featuredList[currentFeatured].category)">{{ catLabel(featuredList[currentFeatured].category) }}</span>
+            <span v-if="featuredList[currentFeatured].primaryCategory" class="sn-cat-tag" :style="catStyle(featuredList[currentFeatured])">{{ featuredList[currentFeatured].categoryLabel }}</span>
           </div>
           <div class="sn-featured__body">
             <h2 class="sn-featured__headline">{{ featuredList[currentFeatured].title }}</h2>
@@ -44,7 +44,7 @@
           <li v-for="(item, idx) in latestItems" :key="item.path" class="sn-grid__cell scroll-reveal" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
-                <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
+                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
               </div>
               <div class="sn-card__body">
                 <h3 class="sn-card__title">{{ item.title }}</h3>
@@ -63,7 +63,7 @@
       <section v-for="(sec, secIdx) in categorySections" :key="sec.key" class="sn-section scroll-reveal" :class="`scroll-reveal-delay-${(secIdx % 2) + 1}`">
         <div class="sn-section__head">
           <h2 class="sn-section__title">
-            <span class="sn-section__dot" :style="{ background: catColor(sec.key) }"></span>
+            <span class="sn-section__dot" :style="{ background: sec.color }"></span>
             {{ sec.label }}
           </h2>
           <router-link class="sn-section__more" :to="archivePath + '#' + sec.key">{{ labels.viewMore }}</router-link>
@@ -72,7 +72,7 @@
           <li v-for="(item, idx) in sec.items" :key="item.path" class="sn-grid__cell scroll-reveal" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
-                <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
+                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
               </div>
               <div class="sn-card__body">
                 <h3 class="sn-card__title">{{ item.title }}</h3>
@@ -99,54 +99,30 @@ import Footer from './Footer.vue'
 import articlesData from '../../space-news-articles.json'
 import { useIsEn } from '../composables/useIsEn'
 import { categoryMeta } from '../utils/categoryMeta'
-import type { ArticleItem, ArticlesData } from '../utils/types'
+import type { ArticlesData } from '../utils/types'
+import {
+  articleCardBackground,
+  buildSpaceNewsDirectoryView,
+  formatArticleDate,
+  type SpaceNewsArticleView,
+} from '../utils/spaceNewsDirectoryView'
 
 const isEn = useIsEn()
 
-const labels = computed(() =>
-  isEn.value
-    ? {
-        kicker: 'Cislunar Space',
-        title: 'Space News',
-        lead: 'Curated briefs on policy, launches, missions, and industry moves — every article cites public sources you can verify in-line.',
-        latest: 'Latest News',
-        viewAll: 'Full archive →',
-        viewMore: 'More →',
-      }
-    : {
-        kicker: '地月空间入门指南',
-        title: '航天动态',
-        lead: '政策、发射、任务与产业动态摘录：每条稿件均给出可核对的公开来源，便于回溯与延伸阅读。',
-        latest: '最新动态',
-        viewAll: '全部存档 →',
-        viewMore: '更多 →',
-      },
-)
-
-const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))
-
 const data = articlesData as ArticlesData
 
-const articles = computed<ArticleItem[]>(() => {
-  const list = isEn.value ? data.en : data.zh
-  return [...list].map(a => ({
-    ...a,
-    category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
-  })).sort((a, b) => {
-    const da = a.date ? new Date(a.date).getTime() : 0
-    const db = b.date ? new Date(b.date).getTime() : 0
-    return db - da
-  })
-})
+const directoryView = computed(() => buildSpaceNewsDirectoryView({
+  articles: isEn.value ? data.en : data.zh,
+  locale: isEn.value ? 'en' : 'zh',
+  categoryMeta,
+}))
 
-const featuredList = computed<ArticleItem[]>(() => {
-  const now = new Date()
-  const twoDaysAgo = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000)
-  return articles.value.filter(a => {
-    if (!a.date) return false
-    return new Date(a.date) >= twoDaysAgo
-  })
-})
+const labels = computed(() => directoryView.value.labels)
+const featuredList = computed(() => directoryView.value.featuredList)
+const latestItems = computed(() => directoryView.value.latestItems)
+const categorySections = computed(() => directoryView.value.categorySections)
+
+const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))
 
 const currentFeatured = ref(0)
 let carouselTimer: ReturnType<typeof setInterval> | null = null
@@ -183,62 +159,16 @@ onBeforeUnmount(() => {
   stopCarousel()
 })
 
-const latestItems = computed(() => {
-  return articles.value.slice(0, 6)
-})
-
-const categorySections = computed(() => {
-  const catOrder = ['artemis', 'spacex', 'china', 'nasa', 'esa', 'iss', 'launch', 'commercial', 'policy', 'science']
-  const sections: { key: string; label: string; items: ArticleItem[] }[] = []
-  for (const cat of catOrder) {
-    const items = articles.value.filter(a => a.category?.includes(cat)).slice(0, 3)
-    if (!items.length) continue
-    const meta = categoryMeta[cat]
-    if (!meta) continue
-    sections.push({
-      key: cat,
-      label: isEn.value ? meta.en : meta.zh,
-      items,
-    })
-  }
-  return sections
-})
-
-function primaryCat(cats: string[] | string | null) {
-  if (Array.isArray(cats)) return cats[0] || null
-  return cats
+function catStyle(article: SpaceNewsArticleView) {
+  return { background: article.categoryColor, color: '#fff' }
 }
 
-function catLabel(cats: string[] | string | null) {
-  const cat = primaryCat(cats)
-  if (!cat) return ''
-  return (categoryMeta[cat] || {})[isEn.value ? 'en' : 'zh'] || cat
-}
-
-function catColor(cats: string[] | string | null) {
-  const cat = primaryCat(cats)
-  if (!cat) return '#64748b'
-  return (categoryMeta[cat] || {}).color || '#64748b'
-}
-
-function catStyle(cats: string[] | string | null) {
-  return { background: catColor(cats), color: '#fff' }
-}
-
-function cardBg(item: ArticleItem) {
-  if (item.image) {
-    return { backgroundImage: `url(${item.image})` }
-  }
-  return { background: `linear-gradient(135deg, ${catColor(item.category)} 0%, ${catColor(item.category)}99 100%)` }
+function cardBg(article: SpaceNewsArticleView) {
+  return articleCardBackground(article)
 }
 
 function formatDate(raw: string | null) {
-  if (!raw) return '—'
-  const d = new Date(raw)
-  if (Number.isNaN(d.getTime())) return String(raw)
-  return isEn.value
-    ? d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-    : d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
+  return formatArticleDate(raw, isEn.value ? 'en' : 'zh', 'long')
 }
 </script>
 

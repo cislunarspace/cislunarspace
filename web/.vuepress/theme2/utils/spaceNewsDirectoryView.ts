@@ -206,14 +206,58 @@ export function formatMonthLabel(year: number, month: number, locale: SpaceNewsL
   return `${year} 年 ${month} 月`
 }
 
-/** Long-form date formatter shared by Home, Archive, and Hero. Returns '—' for null and the raw string for invalid dates. */
-export function formatArticleDate(raw: string | null, locale: SpaceNewsLocale): string {
+export type ArticleDateStyle = 'short' | 'long'
+
+/**
+ * Date formatter shared by Home, Archive, and Hero.
+ * - `'short'` (Archive): zh `YYYY/M/D`, en short month — `May 13, 2026`
+ * - `'long'` (Home, Hero): zh `YYYY年5月13日` long month, en short month — `May 13, 2026`
+ *
+ * Returns '—' for null and the raw string for invalid dates.
+ */
+export function formatArticleDate(
+  raw: string | null,
+  locale: SpaceNewsLocale,
+  style: ArticleDateStyle = 'short',
+): string {
   if (!raw) return '—'
   const date = new Date(raw)
   if (Number.isNaN(date.getTime())) return String(raw)
-  return locale === 'en'
-    ? date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-    : date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'numeric', day: 'numeric' })
+  if (locale === 'en') {
+    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+  }
+  const monthStyle: 'numeric' | 'long' = style === 'long' ? 'long' : 'numeric'
+  return date.toLocaleDateString('zh-CN', { year: 'numeric', month: monthStyle, day: 'numeric' })
+}
+
+/**
+ * Resolve a category color from raw frontmatter `category` (string | string[] | null).
+ * Used by surfaces that have not yet been mapped through `buildArticleView`
+ * (e.g. the sidebar consuming pre-aggregated JSON).
+ */
+export function resolveCategoryColor(
+  category: string | string[] | null,
+  categoryMeta: Record<string, SpaceNewsCategoryMeta>,
+): string {
+  const normalized = normalizeCategories(category)
+  const primary = normalized?.[0]
+  if (!primary) return FALLBACK_CATEGORY_COLOR
+  return categoryMeta[primary]?.color ?? FALLBACK_CATEGORY_COLOR
+}
+
+/**
+ * Resolve a category label from raw frontmatter `category`. Used by surfaces
+ * that operate on raw frontmatter directly (e.g. ArticleHero).
+ */
+export function resolveCategoryLabel(
+  category: string | string[] | null,
+  categoryMeta: Record<string, SpaceNewsCategoryMeta>,
+  locale: SpaceNewsLocale,
+): string {
+  const normalized = normalizeCategories(category)
+  const primary = normalized?.[0]
+  if (!primary) return ''
+  return categoryMeta[primary]?.[locale] ?? primary
 }
 
 /** Card background style — image if present, otherwise gradient using the article's category color. */
