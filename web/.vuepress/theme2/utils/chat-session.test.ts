@@ -209,6 +209,22 @@ describe('ChatSession', () => {
     expect(callbacks.onError).not.toHaveBeenCalled()
   })
 
+  it('does not expose upstream response body when default non-stream transport fails', async () => {
+    vi.stubGlobal('fetch', vi.fn(async (input: string) => {
+      if (input === '/ai-chat-context.json') {
+        return new Response(JSON.stringify({ zh: {}, en: {} }), { status: 200 })
+      }
+      return new Response('SECRET_UPSTREAM_DIAGNOSTIC', { status: 502 })
+    }))
+    const callbacks = createCallbacks()
+
+    const session = new ChatSession({ ...config, twoPhaseRetrieval: false }, 'zh', siteIndex)
+    await session.route('问题', [], callbacks, new AbortController().signal)
+
+    expect(callbacks.onError).toHaveBeenCalledWith('networkError', 'HTTP 502')
+    expect(callbacks.onError).not.toHaveBeenCalledWith('networkError', expect.stringContaining('SECRET_UPSTREAM_DIAGNOSTIC'))
+  })
+
   it('emits emptyReply error when non-streamed response has no content', async () => {
     const completeJson = vi.fn(async () => ({
       choices: [{ message: { content: '' } }],
