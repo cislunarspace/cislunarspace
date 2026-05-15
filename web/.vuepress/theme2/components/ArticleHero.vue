@@ -19,6 +19,11 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { categoryMeta } from '../utils/categoryMeta'
+import {
+  formatArticleDate,
+  resolveCategoryColor,
+  resolveCategoryLabel,
+} from '../utils/spaceNewsDirectoryView'
 
 const props = defineProps<{
   title: string
@@ -29,32 +34,22 @@ const props = defineProps<{
   isEn?: boolean
 }>()
 
-const primaryCategory = computed(() => {
-  if (!props.category) return null
-  return Array.isArray(props.category) ? props.category[0] : props.category
-})
+const locale = computed<'zh' | 'en'>(() => (props.isEn ? 'en' : 'zh'))
 
-const categoryLabel = computed(() => {
-  if (!primaryCategory.value) return ''
-  const meta = categoryMeta[primaryCategory.value]
-  if (!meta) return primaryCategory.value
-  return props.isEn ? meta.en : meta.zh
-})
+const categoryLabel = computed(() =>
+  resolveCategoryLabel(props.category ?? null, categoryMeta, locale.value),
+)
 
-const tagStyle = computed(() => {
-  const color = primaryCategory.value
-    ? (categoryMeta[primaryCategory.value]?.color || '#64748b')
-    : '#64748b'
-  return { background: color, color: '#fff' }
-})
+const tagStyle = computed(() => ({
+  background: resolveCategoryColor(props.category ?? null, categoryMeta),
+  color: '#fff',
+}))
 
 const displayDate = computed(() => {
   if (!props.date) return ''
-  const d = new Date(props.date)
-  if (Number.isNaN(d.getTime())) return String(props.date)
-  return props.isEn
-    ? d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-    : d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
+  // Empty-string for missing date preserved to keep the v-if conditional behaviour;
+  // formatArticleDate would return '—' for null.
+  return formatArticleDate(props.date, locale.value, 'long')
 })
 </script>
 

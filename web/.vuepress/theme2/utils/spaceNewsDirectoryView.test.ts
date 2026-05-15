@@ -4,6 +4,8 @@ import {
   buildSpaceNewsDirectoryView,
   formatArticleDate,
   formatMonthLabel,
+  resolveCategoryColor,
+  resolveCategoryLabel,
   type RawSpaceNewsArticle,
 } from './spaceNewsDirectoryView'
 
@@ -259,6 +261,48 @@ describe('formatArticleDate', () => {
     expect(zh).toContain('2026')
     const en = formatArticleDate('2026-05-13', 'en')
     expect(en).toContain('2026')
+  })
+
+  it('uses long zh month for hero/home style and numeric for archive style', () => {
+    const short = formatArticleDate('2026-05-13', 'zh', 'short')
+    const long = formatArticleDate('2026-05-13', 'zh', 'long')
+
+    // 'short' uses numeric month, 'long' uses long-month-name — these are different strings.
+    expect(short).not.toBe(long)
+    expect(short).toContain('2026')
+    expect(long).toContain('2026')
+    // Sanity: 'long' contains the long Chinese month word "五月" (or at least the numeric variant "5月").
+    // Different node ICU builds produce different forms, so just assert it's non-empty and locale-aware.
+    expect(long.length).toBeGreaterThan(0)
+  })
+
+  it('en locale ignores the style flag (only zh distinguishes month width)', () => {
+    expect(formatArticleDate('2026-05-13', 'en', 'short')).toBe(formatArticleDate('2026-05-13', 'en', 'long'))
+  })
+})
+
+describe('resolveCategoryColor / resolveCategoryLabel', () => {
+  const categoryMetaLocal = {
+    artemis: { zh: '阿耳忒弥斯计划', en: 'Artemis Program', color: '#3b82f6' },
+  }
+
+  it('resolveCategoryColor falls back to grey for null and unknown keys', () => {
+    expect(resolveCategoryColor(null, categoryMetaLocal)).toBe('#64748b')
+    expect(resolveCategoryColor('unknown', categoryMetaLocal)).toBe('#64748b')
+    expect(resolveCategoryColor([], categoryMetaLocal)).toBe('#64748b')
+  })
+
+  it('resolveCategoryColor reads color from the first array entry', () => {
+    expect(resolveCategoryColor(['artemis', 'something'], categoryMetaLocal)).toBe('#3b82f6')
+    expect(resolveCategoryColor('artemis', categoryMetaLocal)).toBe('#3b82f6')
+  })
+
+  it('resolveCategoryLabel returns localized label, falls back to raw key, empty for null', () => {
+    expect(resolveCategoryLabel(null, categoryMetaLocal, 'zh')).toBe('')
+    expect(resolveCategoryLabel('artemis', categoryMetaLocal, 'zh')).toBe('阿耳忒弥斯计划')
+    expect(resolveCategoryLabel(['artemis'], categoryMetaLocal, 'en')).toBe('Artemis Program')
+    // Unknown key passes through.
+    expect(resolveCategoryLabel('unknown', categoryMetaLocal, 'en')).toBe('unknown')
   })
 })
 
