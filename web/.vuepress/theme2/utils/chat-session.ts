@@ -290,8 +290,7 @@ export class ChatSession {
           signal,
         })
         if (!res.ok) {
-          const text = await res.text()
-          throw new Error(`HTTP ${res.status} ${text}`)
+          throw new Error(`HTTP ${res.status}`)
         }
         return res.json()
       },

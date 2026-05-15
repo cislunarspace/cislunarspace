@@ -96,9 +96,21 @@ describe('validateTaxonomy', () => {
   it('allows null path for navbar-root, external-link, and group kinds', () => {
     expect(() => validateTaxonomy([
       node({ id: 'navbar', kind: 'navbar-root', path: { zh: null, en: null } }),
-      node({ id: 'gh', kind: 'external-link', path: { zh: null, en: null }, parentId: 'navbar' }),
+      node({ id: 'gh', kind: 'external-link', path: { zh: null, en: null }, parentId: 'navbar', meta: { href: 'https://github.com/cislunarspace/cislunarspace' } }),
       node({ id: 'display-group', kind: 'group', path: { zh: null, en: null }, parentId: 'navbar' }),
     ])).not.toThrow()
+  })
+
+
+  it('rejects unsafe internal paths and external hrefs', () => {
+    expect(() => validateTaxonomy([
+      node({ id: 'unsafe-path', path: { zh: 'javascript:alert(1)', en: '/en/safe/' } }),
+    ])).toThrow(/path.zh must be a safe internal path/)
+
+    expect(() => validateTaxonomy([
+      node({ id: 'navbar', kind: 'navbar-root', path: { zh: null, en: null } }),
+      node({ id: 'bad-external', kind: 'external-link', path: { zh: null, en: null }, parentId: 'navbar', meta: { href: 'javascript:alert(1)' } }),
+    ])).toThrow(/external-link meta.href must be a safe http\(s\) URL/)
   })
 
   it('detects cycles in parentId chain', () => {

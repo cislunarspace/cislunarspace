@@ -168,4 +168,3 @@ export const taxonomyNodes: readonly TaxonomyNode[] = Object.freeze([
   ...navbarChildren,
   ...glossaryCategoryNodes,
 ])
-
