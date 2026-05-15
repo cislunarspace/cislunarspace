@@ -208,4 +208,80 @@ describe('ChatSession', () => {
     await expect(session.route('取消请求', [], callbacks, new AbortController().signal)).rejects.toBe(abortError)
     expect(callbacks.onError).not.toHaveBeenCalled()
   })
+
+  it('emits emptyReply error when non-streamed response has no content', async () => {
+    const completeJson = vi.fn(async () => ({
+      choices: [{ message: { content: '' } }],
+    }))
+    const callbacks = createCallbacks()
+
+    const session = new ChatSession({ ...config, twoPhaseRetrieval: false }, 'zh', siteIndex, {
+      transport: { completeJson, completeStream: vi.fn() },
+    })
+
+    await session.route('空问题', [], callbacks, new AbortController().signal)
+
+    expect(callbacks.onError).toHaveBeenCalledWith('emptyReply')
+    expect(callbacks.onComplete).not.toHaveBeenCalled()
+  })
+
+  it('emits emptyReply error when streamed response produces no content', async () => {
+    const reader = createReader([
+      'data: {"choices":[{"delta":{"reasoning_content":"思考"}}]}\n',
+    ])
+    const completeStream = vi.fn(async () => reader)
+    const callbacks = createCallbacks()
+
+    const session = new ChatSession(
+      { ...config, stream: true, twoPhaseRetrieval: false },
+      'zh',
+      siteIndex,
+      {
+        transport: { completeJson: vi.fn(), completeStream },
+      },
+    )
+
+    await session.route('空问题', [], callbacks, new AbortController().signal)
+
+    expect(callbacks.onError).toHaveBeenCalledWith('emptyReply')
+    expect(callbacks.onComplete).not.toHaveBeenCalled()
+  })
+
+  it('trims history to maxHistoryTurns when sending to the answer phase', async () => {
+    const router: Router = {
+      route: vi.fn(async () => ({
+        paths: ['/cislunar-orbits/'],
+        context: { zh: {}, en: {} },
+        usedTwoPhase: true,
+        systemPrompt: 'prompt',
+      })),
+    }
+    const completeJson = vi.fn(async () => ({
+      choices: [{ message: { content: '回答' } }],
+    }))
+    const callbacks = createCallbacks()
+
+    const sessionConfig = { ...config, maxHistoryTurns: 1 }
+    const session = new ChatSession(sessionConfig, 'zh', siteIndex, {
+      router,
+      transport: { completeJson, completeStream: vi.fn() },
+    })
+
+    // 4 user messages = 4 history items. maxHistoryTurns=1 means max 2 kept.
+    const longHistory = [
+      { role: 'user' as const, content: 'msg1' },
+      { role: 'assistant' as const, content: 'ans1' },
+      { role: 'user' as const, content: 'msg2' },
+      { role: 'assistant' as const, content: 'ans2' },
+    ]
+
+    await session.route('follow up', longHistory, callbacks, new AbortController().signal)
+
+    // The router receives the full history; the answer phase trims to last 2.
+    const answerPayload = completeJson.mock.calls[0][1] as { messages: Array<{ role: string; content: string }> }
+    // system + last 2 history messages = 3 total
+    expect(answerPayload.messages.length).toBe(3)
+    expect(answerPayload.messages[1].content).toBe('msg2')
+    expect(answerPayload.messages[2].content).toBe('ans2')
+  })
 })
