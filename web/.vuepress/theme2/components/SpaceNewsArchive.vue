@@ -32,7 +32,7 @@
           <li v-for="item in group.items" :key="item.path" class="sna-cards__cell">
             <router-link :to="item.path" class="sna-card">
               <div class="sna-card__img" :style="cardBg(item)">
-                <span class="sn-cat-tag" :style="catStyle(item.category)">{{ catLabel(item.category) }}</span>
+                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
               </div>
               <div class="sna-card__body">
                 <h3 class="sna-card__title">{{ item.title }}</h3>
@@ -61,7 +61,13 @@ import { useRoute } from 'vue-router'
 import articlesData from '../../space-news-articles.json'
 import { useIsEn } from '../composables/useIsEn'
 import { categoryMeta } from '../utils/categoryMeta'
-import type { ArticleItem, ArticlesData } from '../utils/types'
+import type { ArticlesData } from '../utils/types'
+import {
+  articleCardBackground,
+  buildSpaceNewsDirectoryView,
+  formatArticleDate,
+  type SpaceNewsArticleView,
+} from '../utils/spaceNewsDirectoryView'
 
 const isEn = useIsEn()
 const route = useRoute()
@@ -76,140 +82,40 @@ watch(() => route.query.category, (cat) => {
   }
 }, { immediate: true })
 
-const labels = computed(() =>
-  isEn.value
-    ? {
-        kicker: 'Space News',
-        title: 'Archive by date',
-        lead: 'All published items, newest first within each month.',
-        backHome: 'Back to Space News',
-        empty: 'No articles yet.',
-        all: 'All',
-      }
-    : {
-        kicker: '航天动态',
-        title: '按日期查阅',
-        lead: '以下为已发布的全部条目，按月分组，月内按日期倒序。',
-        backHome: '返回航天动态首页',
-        empty: '暂无稿件。',
-        all: '全部',
-      },
-)
+const data = articlesData as ArticlesData
+
+const directoryView = computed(() => buildSpaceNewsDirectoryView({
+  articles: isEn.value ? data.en : data.zh,
+  locale: isEn.value ? 'en' : 'zh',
+  categoryMeta,
+}))
+
+const labels = computed(() => directoryView.value.archiveLabels)
+const usedCategories = computed(() => directoryView.value.usedCategories)
+const monthGroups = computed(() => directoryView.value.monthGroups)
 
 const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'))
 
-const data = articlesData as ArticlesData
-
-const articles = computed<ArticleItem[]>(() => {
-  const list = isEn.value ? data.en : data.zh
-  return [...list]
-    .map(a => ({ ...a }))
-    .sort((a, b) => {
-      const da = a.date ? new Date(a.date).getTime() : 0
-      const db = b.date ? new Date(b.date).getTime() : 0
-      return db - da
-    })
-})
-
-interface ArticleGroup {
-  key: string
-  label: string
-  items: ArticleItem[]
-}
-
-const groups = computed<ArticleGroup[]>(() => {
-  const map = new Map<string, ArticleGroup>()
-  for (const a of articles.value) {
-    const ym = yearMonthFromPath(a.relativePath)
-    if (!ym) continue
-    const key = `${ym.y}-${String(ym.m).padStart(2, '0')}`
-    if (!map.has(key)) {
-      map.set(key, {
-        key,
-        label: formatMonthLabel(ym.y, ym.m),
-        items: [],
-      })
-    }
-    map.get(key)!.items.push(a)
-  }
-  return Array.from(map.values()).sort((a, b) => b.key.localeCompare(a.key))
-})
-
 const filteredGroups = computed(() => {
-  if (activeFilter.value === 'all') return groups.value
-  return groups.value
-    .map(g => ({
-      ...g,
-      items: g.items.filter(a => a.category?.includes(activeFilter.value!)),
+  if (activeFilter.value === 'all') return monthGroups.value
+  return monthGroups.value
+    .map(group => ({
+      ...group,
+      items: group.items.filter(article => article.category?.includes(activeFilter.value)),
     }))
-    .filter(g => g.items.length > 0)
+    .filter(group => group.items.length > 0)
 })
 
-const usedCategories = computed(() => {
-  const cats = new Set<string>()
-  for (const a of articles.value) {
-    if (a.category) for (const c of a.category) cats.add(c)
-  }
-  const result: { key: string; label: string; color: string }[] = []
-  for (const cat of cats) {
-    const meta = categoryMeta[cat]
-    if (!meta) continue
-    result.push({ key: cat, label: isEn.value ? meta.en : meta.zh, color: meta.color })
-  }
-  return result
-})
-
-function primaryCat(cats: string[] | null) {
-  return (cats && cats.length) ? cats[0] : null
+function catStyle(article: SpaceNewsArticleView) {
+  return { background: article.categoryColor, color: '#fff' }
 }
 
-function catLabel(cats: string[] | null) {
-  const cat = primaryCat(cats)
-  if (!cat) return ''
-  return (categoryMeta[cat] || {})[isEn.value ? 'en' : 'zh'] || cat
-}
-
-function catColor(cats: string[] | null) {
-  const cat = primaryCat(cats)
-  if (!cat) return '#64748b'
-  return (categoryMeta[cat] || {}).color || '#64748b'
-}
-
-function catStyle(cats: string[] | null) {
-  return { background: catColor(cats), color: '#fff' }
-}
-
-function cardBg(item: ArticleItem) {
-  if (item.image) {
-    return { backgroundImage: `url(${item.image})` }
-  }
-  return { background: `linear-gradient(135deg, ${catColor(item.category)} 0%, ${catColor(item.category)}99 100%)` }
-}
-
-function yearMonthFromPath(rp: string) {
-  const re = isEn.value
-    ? /^en\/space-news\/(\d{4})\/(\d{2})\//
-    : /^space-news\/(\d{4})\/(\d{2})\//
-  const m = rp.match(re)
-  if (!m) return null
-  return { y: parseInt(m[1], 10), m: parseInt(m[2], 10) }
-}
-
-function formatMonthLabel(y: number, mo: number) {
-  if (isEn.value) {
-    const d = new Date(y, mo - 1, 1)
-    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
-  }
-  return `${y} 年 ${mo} 月`
+function cardBg(article: SpaceNewsArticleView) {
+  return articleCardBackground(article)
 }
 
 function formatDate(raw: string | null) {
-  if (!raw) return '—'
-  const d = new Date(raw)
-  if (Number.isNaN(d.getTime())) return String(raw)
-  return isEn.value
-    ? d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
-    : d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'numeric', day: 'numeric' })
+  return formatArticleDate(raw, isEn.value ? 'en' : 'zh')
 }
 </script>
 
