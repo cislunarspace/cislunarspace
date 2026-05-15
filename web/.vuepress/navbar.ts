@@ -17,10 +17,6 @@ export default <NavbarConfig>[
     link: '/resources-tools/',
   },
   {
-    text: '蓝军研究',
-    link: '/blue-team-research/',
-  },
-  {
     text: 'Space News',
     link: '/space-news/',
   },

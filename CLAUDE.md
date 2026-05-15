@@ -41,7 +41,7 @@ Requires Node.js 18+ (CI and cron use v22.22.2).
 ### Content Structure
 
 Bilingual content with Chinese at root and English under `en/`:
-- `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, `web/research-frontiers/`, `web/glossary/`, `web/resources-tools/`, `web/blue-team-research/`, `web/satellite-simulation/`
+- `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, `web/research-frontiers/`, `web/glossary/`, `web/resources-tools/`, `web/satellite-simulation/`
 - `web/en/` — mirrors Chinese structure for English locale
 
 ### Space News (航天动态)
@@ -80,8 +80,7 @@ Nginx serves from `web/.vuepress/dist/` with SPA fallback. Config at `web/deploy
 
 ## Content Conventions
 
-- Sidebar sections for glossary, research, blue-team are defined manually in `sidebar.ts` / `sidebar-en.ts`
-- Blue-team research has four sub-sections: doctrine-strategy, equipment-tech, operations-application, knowledge-rag
+- Sidebar sections for glossary and other top-level areas are defined manually in `sidebar.ts` / `sidebar-en.ts`
 - Math rendering uses KaTeX via `@traptitech/markdown-it-katex`
 
 ## Agent skills
