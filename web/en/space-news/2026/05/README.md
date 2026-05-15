@@ -16,6 +16,8 @@ lastUpdated: 2026-05-16
 | 2026-05-14 | [ULA Completes Critical Solid Rocket Booster Test, Advancing Vulcan Return-to-Flight](./2026-05-14-ula-vulcan-srb-test/) | Commercial |
 | 2026-05-14 | [NASA's Asteroid-Bound Psyche Probe Captures Mars 'Eclipse' View During Flyby](./2026-05-14-psyche-mars-eclipse-image/) | Science |
 | 2026-05-14 | [Landspace Zhuque-2E Y5 Launches Successfully](./2026-05-14-zhuque-2e-y5-launch/) | Commercial |
+| 2026-05-14 | [Yixian-3 VTVL Rocket Test Success: China's First University-Led Symmetric Reusable Liquid Rocket](./2026-05-14-yixian-3-vtvl-rocket/) | China Space |
+| 2026-05-15 | [Li Jian-1 Yao-13 Launches Five Satellites as Series Reaches 100-Orbit Milestone](./2026-05-15-lijian-1-yao13-100stars/) | China Space |
 | 2026-05-13 | [World First: Artificial Human Embryos Enter Space Experiment Phase on China's Space Station](./2026-05-13-tianzhou-10-artificial-embryo/) | China Space |
 | 2026-05-13 | [Blue Origin's Blue Moon Lander Mockup Assembled at NASA JSC for Artemis Training](./2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/) | Artemis |
 | 2026-05-13 | [Amaterasu Particle and Cosmic Ray Origins: 60-Year Mystery May Be Solved](./2026-05-13-cosmic-rays-amaterasu-particle-origin/) | Science |
@@ -34,6 +36,7 @@ lastUpdated: 2026-05-16
 | 2026-05-12 | [New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification](./2026-05-12-uranus-neptune-ice-giants/) |
 | 2026-05-12 | [US Space Force Releases Officer Career Development Path Document](./2026-05-12-us-space-force-officer-career-path/) | Policy & Strategy |
 | 2026-05-12 | [NASA, SpaceX Scrub CRS-34 Launch Due to Poor Weather, Target May 13](./2026-05-12-crs-34-scrub-weather/) | SpaceX |
+|| 2026-05-12 | [NASA, SpaceX Scrub CRS-34 Launch Again Due to Weather, Now Targeting May 15](./2026-05-13-crs-34-second-scrub/) | SpaceX, ISS |
 | 2026-05-13 | [CBO Estimates US Golden Dome Missile Defense Could Cost $1.2 Trillion Over 20 Years](./2026-05-13-golden-dome-cbo-cost/) |
 | 2026-05-13 | [Google in Talks with SpaceX Over Orbital Data Center Launch Deal](./2026-05-13-google-spacex-orbital-data-center/) | Commercial Space |
 | 2026-05-13 | [Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit](./2026-05-13-cowboy-space-orbital-ai-data-centers/) | Commercial |
