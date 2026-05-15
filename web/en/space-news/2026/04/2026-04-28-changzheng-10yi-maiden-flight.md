@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Long March 10Yi Successfully Completes Maiden Flight, World-First Maritime Net Recovery Technology Verified"
 description: "On April 28, 2026, the Long March 10Yi (CZ-10B) rocket successfully conducted its maiden flight from Wenchang Commercial Space Launch Site in Hainan, simultaneously verifying the world's first maritime net-based recovery technology, with a LEO capacity of 16 tonnes."
+wechatShare:
+  title: "Long March 10Yi Successfully Completes Maiden Flight, World-First Maritime Net Recovery Technology Verified"
+  desc: "On April 28, 2026, the Long March 10Yi (CZ-10B) rocket successfully conducted its maiden flight from Wenchang Commercial Space Launch Site in Hainan, simultaneously verifying the world's first maritime net-based recovery technology, with a LEO capacity of 16 tonnes."
+  image: "./figures/2026-04-28-changzheng-10yi-maiden-flight/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-28-changzheng-10yi-maiden-flight/
 author: Tianjiangshuo
 date: 2026-04-28

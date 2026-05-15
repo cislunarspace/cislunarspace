@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis 2 Commander, Astrophotographer Team Up for First-Ever True-Color Photos of the Moon's Far Side"
 description: "NASA astrophotographer Andrew McCarthy collaborated with Artemis 2 commander Reid Wiseman to process astronaut-captured lunar images using stacking techniques, producing the first high-fidelity true-color photographs of the Moon's far side."
+wechatShare:
+  title: "Artemis 2 Commander, Astrophotographer Team Up for First-Ever True-Color Photos of the Moon's Far Side"
+  desc: "NASA astrophotographer Andrew McCarthy collaborated with Artemis 2 commander Reid Wiseman to process astronaut-captured lunar images using stacking techniques, producing the first high-fidelity true-color photographs of the Moon's far side."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-09-artemis-2-moon-photos/
 author: Tianjiangshuo
 date: 2026-05-09

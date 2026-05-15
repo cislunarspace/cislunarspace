@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Releases Earth Day Image Captured by Artemis II Crew"
 description: "NASA releases a stunning image of Earth's terminator — the line between day and night — captured by the Artemis II crew during their lunar flyby, released on Earth Day 2026."
+wechatShare:
+  title: "NASA Releases Earth Day Image Captured by Artemis II Crew"
+  desc: "NASA releases a stunning image of Earth's terminator — the line between day and night — captured by the Artemis II crew during their lunar flyby, released on Earth Day 2026."
+  image: "./figures/2026-04-22-night-and-earth-day/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-night-and-earth-day/
 author: Tianjiangshuo
 date: 2026-04-22

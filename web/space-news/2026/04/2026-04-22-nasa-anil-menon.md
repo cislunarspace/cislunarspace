@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA宣布宇航员Anil Menon新闻发布会，预告即将执行的国际空间站任务"
 description: "NASA宣布将于4月29日在约翰逊航天中心举办新闻发布会，届时宇航员Anil Menon将介绍其即将执行的国际空间站任务。"
+wechatShare:
+  title: "NASA宣布宇航员Anil Menon新闻发布会，预告即将执行的国际空间站任务"
+  desc: "NASA宣布将于4月29日在约翰逊航天中心举办新闻发布会，届时宇航员Anil Menon将介绍其即将执行的国际空间站任务。"
+  image: "./figures/2026-04-22-nasa-anil-menon/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-nasa-anil-menon/
 author: 天疆说
 date: 2026-04-22

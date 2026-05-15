@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "中科宇航力箭二号超级工厂全面竣工，批量化生产线正式投产"
 description: "2026年4月28日，中科宇航位于绍兴市柯桥区的力箭二号大型液体运载火箭超级工厂全面竣工，标志着中国商业航天产业从技术验证迈入批量化生产新阶段，年产12发力箭二号液体火箭。"
+wechatShare:
+  title: "中科宇航力箭二号超级工厂全面竣工，批量化生产线正式投产"
+  desc: "2026年4月28日，中科宇航位于绍兴市柯桥区的力箭二号大型液体运载火箭超级工厂全面竣工，标志着中国商业航天产业从技术验证迈入批量化生产新阶段，年产12发力箭二号液体火箭。"
+  image: "./figures/2026-04-28-cas-space-lijian-2-super-factory/hero.png"
 permalink: /space-news/2026/04/2026-04-28-cas-space-lijian-2-super-factory/
 author: 天疆说
 date: 2026-04-28

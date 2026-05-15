@@ -1,6 +1,10 @@
 ---
 title: 指向约束（Pointing Constraint）
 description: 详细解析指向约束的定义、在地月空间光学探测中的作用及其对SSA架构设计的限制
+wechatShare:
+  title: 指向约束（Pointing Constraint）
+  desc: 详细解析指向约束的定义、在地月空间光学探测中的作用及其对SSA架构设计的限制
+  image: /logo.png
 keywords: 指向约束, Pointing Constraint, 太阳回避, 光学探测, 态势感知, 传感器限制, 地月空间
 author: 天疆说
 date: 2026-04-29

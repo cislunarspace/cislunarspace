@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Fleet Surpasses 600 Rocket Recoveries, Saving Approximately $16.8 Billion in Costs"
 description: "As of early May 2026, SpaceX's Falcon rocket fleet has exceeded 600 reuses with approximately 607 total landings, including four boosters with over 40 reuses each, delivering cumulative cost savings of about $16.8 billion."
+wechatShare:
+  title: "SpaceX Fleet Surpasses 600 Rocket Recoveries, Saving Approximately $16.8 Billion in Costs"
+  desc: "As of early May 2026, SpaceX's Falcon rocket fleet has exceeded 600 reuses with approximately 607 total landings, including four boosters with over 40 reuses each, delivering cumulative cost savings of about $16.8 billion."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-03-spacex-607-recoveries-cost-savings/
 author: Tianjiangshuo
 date: 2026-05-03

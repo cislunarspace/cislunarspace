@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's CHAPEA Mission 2 Crew Marks 200 Days in Mars Habitat Simulation"
 description: "The four crew members of NASA's Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 marked 200 days inside the Mars-analog habitat at Johnson Space Center, passing the halfway point of their 378-day mission."
+wechatShare:
+  title: "NASA's CHAPEA Mission 2 Crew Marks 200 Days in Mars Habitat Simulation"
+  desc: "The four crew members of NASA's Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 marked 200 days inside the Mars-analog habitat at Johnson Space Center, passing the halfway point of their 378-day mission."
+  image: "./figures/2026-05-07-mars-simulation-200days/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-mars-simulation-200days/
 author: Tianjiangshuo
 date: 2026-05-07

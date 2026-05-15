@@ -3,6 +3,10 @@ title: GMAT
 description: NASA 开源通用任务分析工具，支持轨道设计、姿态分析与轨迹优化
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: GMAT
+  desc: NASA 开源通用任务分析工具，支持轨道设计、姿态分析与轨迹优化
+  image: /logo.png
 ---
 
 ## 简介

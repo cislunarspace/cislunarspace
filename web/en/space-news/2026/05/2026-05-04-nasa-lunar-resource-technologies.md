@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Fosters Lunar Resource-Seeking Technologies for Sustainable Deep Space Exploration"
 description: "NASA and industry partners are developing technologies to extract critical resources — including hydrogen and helium-3 — from the lunar surface, supporting long-duration missions to the Moon and Mars under the Artemis framework."
+wechatShare:
+  title: "NASA Fosters Lunar Resource-Seeking Technologies for Sustainable Deep Space Exploration"
+  desc: "NASA and industry partners are developing technologies to extract critical resources — including hydrogen and helium-3 — from the lunar surface, supporting long-duration missions to the Moon and Mars under the Artemis framework."
+  image: "./figures/2026-05-04-nasa-lunar-resource-technologies/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-nasa-lunar-resource-technologies/
 author: Tianjiangshuo
 date: 2026-05-04

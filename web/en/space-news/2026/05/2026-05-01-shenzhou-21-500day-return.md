@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Shenzhou-21 Crew Celebrates May Day in Space, Return Planned for May"
 description: "China's Shenzhou-21 crew members Zhang Lu, Wu Fei and Zhang Hongzhang completed three EVAs totaling approximately 20 hours and 47 minutes during their extended mission, setting a new record for Chinese spacewalk duration. The crew is scheduled to return to Earth in May 2026."
+wechatShare:
+  title: "Shenzhou-21 Crew Celebrates May Day in Space, Return Planned for May"
+  desc: "China's Shenzhou-21 crew members Zhang Lu, Wu Fei and Zhang Hongzhang completed three EVAs totaling approximately 20 hours and 47 minutes during their extended mission, setting a new record for Chinese spacewalk duration. The crew is scheduled to return to Earth in May 2026."
+  image: "./figures/2026-05-01-shenzhou-21-500day-return/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-shenzhou-21-500day-return/
 author: Tianjiangshuo
 date: 2026-05-01

@@ -1,6 +1,10 @@
 ---
 title: DRO 设计方法
 description: 远距离逆行轨道的初始条件搜索、Floquet模态分析、星历提升与轨道维持设计。
+wechatShare:
+  title: DRO 设计方法
+  desc: 远距离逆行轨道的初始条件搜索、Floquet模态分析、星历提升与轨道维持设计。
+  image: /logo.png
 keywords: DRO设计, 初始条件搜索, Floquet分析, 星历提升, 轨道维持
 author: 天疆说
 date: 2026-04-26

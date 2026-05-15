@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "巴基斯坦航天员身穿中国航天服照片曝光：\"飞天\"舱内服帅气亮相"
 description: "神舟二十三号发射筹备之际，两名巴基斯坦航天员身着中国自主研发的\"飞天\"舱内航天服合影照片流出，展现中巴航天合作的深厚友谊与中国航天装备的国际认可度。"
+wechatShare:
+  title: "巴基斯坦航天员身穿中国航天服照片曝光：\"飞天\"舱内服帅气亮相"
+  desc: "神舟二十三号发射筹备之际，两名巴基斯坦航天员身着中国自主研发的\"飞天\"舱内航天服合影照片流出，展现中巴航天合作的深厚友谊与中国航天装备的国际认可度。"
+  image: "./figures/2026-05-03-pakistan-astronauts-chinese-space-suits/hero.jpg"
 permalink: /space-news/2026/05/2026-05-03-pakistan-astronauts-chinese-space-suits/
 author: 天疆说
 date: 2026-05-03

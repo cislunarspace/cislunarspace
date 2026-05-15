@@ -1,6 +1,10 @@
 ---
 title: 航天器追逃博弈（Spacecraft Pursuit-Evasion Game）
 description: 航天器追逃博弈是研究追踪航天器与逃逸航天器之间对抗性机动的轨道动力学问题，应用于空间安全、交会对接等领域。
+wechatShare:
+  title: 航天器追逃博弈（Spacecraft Pursuit-Evasion Game）
+  desc: 航天器追逃博弈是研究追踪航天器与逃逸航天器之间对抗性机动的轨道动力学问题，应用于空间安全、交会对接等领域。
+  image: /logo.png
 keywords: 航天器追逃博弈, Pursuit-Evasion Game, 轨道追逃, 微分对策, 鞍点策略, 零控脱靶量
 author: 天疆说
 date: 2026-04-29

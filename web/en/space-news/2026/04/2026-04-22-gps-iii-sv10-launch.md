@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Successfully Launches GPS III SV10 Satellite"
 description: "SpaceX's Falcon 9 successfully launched the GPS III SV10 satellite for the US Space Force from Cape Canaveral, the fourth GPS III launch in 2026."
+wechatShare:
+  title: "SpaceX Successfully Launches GPS III SV10 Satellite"
+  desc: "SpaceX's Falcon 9 successfully launched the GPS III SV10 satellite for the US Space Force from Cape Canaveral, the fourth GPS III launch in 2026."
+  image: "./figures/2026-04-22-gps-iii-sv10-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-gps-iii-sv10-launch/
 author: Tianjiangshuo
 date: 2026-04-22

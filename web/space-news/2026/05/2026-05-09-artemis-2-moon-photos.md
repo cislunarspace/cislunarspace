@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis 2指令长与天文摄影师联手 拍出月球背面首批真实色彩照片"
 description: "NASA天文摄影师Andrew McCarthy与Artemis 2指令长里德·怀斯曼合作，在宇航员拍摄的原片基础上进行堆栈处理，生成月球背面首批高保真真实色彩照片，打破历来月球彩色照片依赖虚假伪色的惯例。"
+wechatShare:
+  title: "Artemis 2指令长与天文摄影师联手 拍出月球背面首批真实色彩照片"
+  desc: "NASA天文摄影师Andrew McCarthy与Artemis 2指令长里德·怀斯曼合作，在宇航员拍摄的原片基础上进行堆栈处理，生成月球背面首批高保真真实色彩照片，打破历来月球彩色照片依赖虚假伪色的惯例。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-09-artemis-2-moon-photos/
 author: 天疆说
 date: 2026-05-09

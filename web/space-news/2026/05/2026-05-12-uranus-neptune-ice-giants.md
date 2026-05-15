@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "新研究称天王星与海王星大气层主要由岩石构成：冰巨星传统认知或被颠覆"
 description: "荷兰研究团队通过建模分析发现，天王星和海王星的外层大气主要由岩石（及少量氢氦）组成，而非传统认为的冰物质，颠覆了冰巨星的分类。"
+wechatShare:
+  title: "新研究称天王星与海王星大气层主要由岩石构成：冰巨星传统认知或被颠覆"
+  desc: "荷兰研究团队通过建模分析发现，天王星和海王星的外层大气主要由岩石（及少量氢氦）组成，而非传统认为的冰物质，颠覆了冰巨星的分类。"
+  image: "./figures/2026-05-12-uranus-neptune-ice-giants/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-uranus-neptune-ice-giants/
 author: 天疆说
 date: 2026-05-12

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 好奇号与毅力号火星车同时发布 360 度全景图：揭示红色星球两侧亿年地貌"
 description: "NASA 好奇号与毅力号火星车分别拍摄火星 360 度全景图，好奇号探索古老 boxwork 地貌，毅力号聚焦耶泽罗陨石坑边缘，两者共同揭示火星数十亿年地质变迁与宜居条件。"
+wechatShare:
+  title: "NASA 好奇号与毅力号火星车同时发布 360 度全景图：揭示红色星球两侧亿年地貌"
+  desc: "NASA 好奇号与毅力号火星车分别拍摄火星 360 度全景图，好奇号探索古老 boxwork 地貌，毅力号聚焦耶泽罗陨石坑边缘，两者共同揭示火星数十亿年地质变迁与宜居条件。"
+  image: "./figures/2026-04-27-nasa-mars-panoramas/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-nasa-mars-panoramas/
 author: 天疆说
 date: 2026-04-27

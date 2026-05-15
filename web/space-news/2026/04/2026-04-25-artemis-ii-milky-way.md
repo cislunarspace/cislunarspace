@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis II宇航员在奔月途中拍摄银河壮景"
 description: "NASA Artemis II任务宇航员在2026年4月7日从猎户座飞船拍摄了银河系照片，展示了我们星系壮丽的旋臂结构，这也是50多年来人类首次身处地月空间之外拍摄的深空影像。"
+wechatShare:
+  title: "Artemis II宇航员在奔月途中拍摄银河壮景"
+  desc: "NASA Artemis II任务宇航员在2026年4月7日从猎户座飞船拍摄了银河系照片，展示了我们星系壮丽的旋臂结构，这也是50多年来人类首次身处地月空间之外拍摄的深空影像。"
+  image: "./figures/2026-04-25-artemis-ii-milky-way/hero.jpg"
 permalink: /space-news/2026/04/2026-04-25-artemis-ii-milky-way/
 author: 天疆说
 date: 2026-04-25

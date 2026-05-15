@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification"
 description: "Researchers found that the outer atmospheres of Uranus and Neptune are primarily composed of rock rather than ice, challenging the long-held 'ice giant' classification."
+wechatShare:
+  title: "New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification"
+  desc: "Researchers found that the outer atmospheres of Uranus and Neptune are primarily composed of rock rather than ice, challenging the long-held 'ice giant' classification."
+  image: "./figures/2026-05-12-uranus-neptune-ice-giants/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-uranus-neptune-ice-giants/
 author: Tianjiangshuo
 date: 2026-05-12

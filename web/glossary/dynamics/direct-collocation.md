@@ -1,6 +1,10 @@
 ---
 title: 直接配点法（Direct Collocation）
 description: 直接配点法是一种轨迹优化方法，通过将连续最优控制问题离散化为非线性规划问题来求解，广泛用于低推力转移轨迹设计
+wechatShare:
+  title: 直接配点法（Direct Collocation）
+  desc: 直接配点法是一种轨迹优化方法，通过将连续最优控制问题离散化为非线性规划问题来求解，广泛用于低推力转移轨迹设计
+  image: /logo.png
 keywords: 直接配点法, Direct Collocation, 轨迹优化, 非线性规划, 低推力, Hermite-Simpson, 配点法, 最优控制, 边值问题
 author: 天疆说
 date: 2026-04-27

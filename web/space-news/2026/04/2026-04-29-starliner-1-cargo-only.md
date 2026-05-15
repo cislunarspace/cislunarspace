@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA与波音修改商业载人合同：Starliner-1 改为纯货运任务"
 description: "2026年4月29日，NASA与波音正式修改Starliner商业载人合同，首次运营任务Starliner-1不再载人，改为货运验证飞行，以测试推进系统改进。"
+wechatShare:
+  title: "NASA与波音修改商业载人合同：Starliner-1 改为纯货运任务"
+  desc: "2026年4月29日，NASA与波音正式修改Starliner商业载人合同，首次运营任务Starliner-1不再载人，改为货运验证飞行，以测试推进系统改进。"
+  image: "./figures/2026-04-29-starliner-1-cargo-only/hero.jpg"
 permalink: /space-news/2026/04/2026-04-29-starliner-1-cargo-only/
 author: 天疆说
 date: 2026-04-29

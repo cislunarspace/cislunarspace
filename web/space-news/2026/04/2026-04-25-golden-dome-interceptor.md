@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX、洛克希德·马丁等12家公司赢得美国「金穹顶」天基拦截器合同"
 description: "美国太空军根据特朗普政府「金穹顶」计划，向包括SpaceX和洛克希德·马丁在内的12家公司授予高达32亿美元合同，用于开发天基拦截器原型，计划2028年前展示能力。"
+wechatShare:
+  title: "SpaceX、洛克希德·马丁等12家公司赢得美国「金穹顶」天基拦截器合同"
+  desc: "美国太空军根据特朗普政府「金穹顶」计划，向包括SpaceX和洛克希德·马丁在内的12家公司授予高达32亿美元合同，用于开发天基拦截器原型，计划2028年前展示能力。"
+  image: "./figures/2026-04-25-golden-dome-interceptor/hero.jpg"
 permalink: /space-news/2026/04/2026-04-25-golden-dome-interceptor/
 author: 天疆说
 date: 2026-04-25

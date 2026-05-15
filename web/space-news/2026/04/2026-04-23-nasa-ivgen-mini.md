@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 在国际空间站测试 IVGEN Mini 系统实现太空输液即时生产"
 description: "NASA 于 2026 年 4 月在国际空间站成功演示 IVGEN Mini 系统，该设备可将空间站饮用水实时转化为医用静脉输液，解决了深空任务中预包装输液保质期有限的难题。"
+wechatShare:
+  title: "NASA 在国际空间站测试 IVGEN Mini 系统实现太空输液即时生产"
+  desc: "NASA 于 2026 年 4 月在国际空间站成功演示 IVGEN Mini 系统，该设备可将空间站饮用水实时转化为医用静脉输液，解决了深空任务中预包装输液保质期有限的难题。"
+  image: "./figures/2026-04-23-nasa-ivgen-mini/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-nasa-ivgen-mini/
 author: 天疆说
 date: 2026-04-23

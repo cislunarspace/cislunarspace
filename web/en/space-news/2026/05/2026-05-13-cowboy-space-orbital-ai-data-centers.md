@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit"
 description: "American space computing company Cowboy Space (formerly Aetherflux) closes $275 million Series B to build and operate AI data centers in Earth orbit, with first launch targeted for late this year."
+wechatShare:
+  title: "Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit"
+  desc: "American space computing company Cowboy Space (formerly Aetherflux) closes $275 million Series B to build and operate AI data centers in Earth orbit, with first launch targeted for late this year."
+  image: "./figures/2026-05-13-cowboy-space-orbital-ai-data-centers/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-cowboy-space-orbital-ai-data-centers/
 author: Tianjiangshuo
 date: 2026-05-12

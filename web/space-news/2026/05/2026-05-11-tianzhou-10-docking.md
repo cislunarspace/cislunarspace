@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟十号货运飞船与空间站组合体完成交会对接"
 description: "北京时间2026年5月11日，天舟十号货运飞船在发射后约6小时，成功与中国空间站组合体完成交会对接，为神舟二十三号、二十四号乘组上行约6.3吨物资及700公斤推进剂。"
+wechatShare:
+  title: "天舟十号货运飞船与空间站组合体完成交会对接"
+  desc: "北京时间2026年5月11日，天舟十号货运飞船在发射后约6小时，成功与中国空间站组合体完成交会对接，为神舟二十三号、二十四号乘组上行约6.3吨物资及700公斤推进剂。"
+  image: "./figures/2026-05-11-tianzhou-10-docking/hero.jpg"
 permalink: /space-news/2026/05/2026-05-11-tianzhou-10-docking/
 author: 天疆说
 date: 2026-05-11

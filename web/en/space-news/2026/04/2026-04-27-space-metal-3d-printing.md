@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Space Metal Additive Manufacturing Technology Demonstrated on Light Ark Test Spaceship"
 description: "Chinese researchers successfully demonstrated space metal additive manufacturing (3D printing) technology aboard the Light Ark test spaceship, completing metal melting and deposition using laser wire feeding at 600 km orbit."
+wechatShare:
+  title: "Space Metal Additive Manufacturing Technology Demonstrated on Light Ark Test Spaceship"
+  desc: "Chinese researchers successfully demonstrated space metal additive manufacturing (3D printing) technology aboard the Light Ark test spaceship, completing metal melting and deposition using laser wire feeding at 600 km orbit."
+  image: "./figures/2026-04-27-space-metal-3d-printing/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-space-3d-printing/
 author: Tianjiangshuo
 date: 2026-04-27

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Hubble Space Telescope Releases New Image of Trifid Nebula, Marking 36th Launch Anniversary"
 description: "NASA's Hubble Space Telescope releases a high-resolution image of the Trifod Nebula, celebrating its 36th launch anniversary on April 24."
+wechatShare:
+  title: "Hubble Space Telescope Releases New Image of Trifid Nebula, Marking 36th Launch Anniversary"
+  desc: "NASA's Hubble Space Telescope releases a high-resolution image of the Trifod Nebula, celebrating its 36th launch anniversary on April 24."
+  image: "./figures/2026-04-24-hubble-trifid-nebula/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-hubble-trifid-nebula/
 author: Tianjiangshuo
 date: 2026-04-24

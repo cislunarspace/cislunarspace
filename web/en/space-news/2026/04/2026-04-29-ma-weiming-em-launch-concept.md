@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Academician Ma Weiming Proposes Electromagnetic Launch Track on Qinghai-Tibet Plateau"
 description: "Chinese Academy of Engineering academician Ma Weiming has proposed building an electromagnetic launch track on the Qinghai-Tibet Plateau to directly 'fling' rockets into space using electromagnetic force, potentially reducing launch costs by 90%."
+wechatShare:
+  title: "Academician Ma Weiming Proposes Electromagnetic Launch Track on Qinghai-Tibet Plateau"
+  desc: "Chinese Academy of Engineering academician Ma Weiming has proposed building an electromagnetic launch track on the Qinghai-Tibet Plateau to directly 'fling' rockets into space using electromagnetic force, potentially reducing launch costs by 90%."
+  image: "./figures/2026-04-29-ma-weiming-em-launch-concept/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-29-ma-weiming-em-launch-concept/
 author: Tianjiangshuo
 date: 2026-04-29

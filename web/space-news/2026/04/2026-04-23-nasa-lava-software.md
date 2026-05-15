@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA发布LAVA航空软件助力美国航空航天工业"
 description: "NASA将其内部使用的Launch, Ascent, and Vehicle Aerodynamics（LAVA）航空软件发布给美国航空航天工业，帮助解决超燃冲压发动机等飞行器的气动设计难题。"
+wechatShare:
+  title: "NASA发布LAVA航空软件助力美国航空航天工业"
+  desc: "NASA将其内部使用的Launch, Ascent, and Vehicle Aerodynamics（LAVA）航空软件发布给美国航空航天工业，帮助解决超燃冲压发动机等飞行器的气动设计难题。"
+  image: "./figures/2026-04-23-nasa-lava-software/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-nasa-lava-software/
 author: 天疆说
 date: 2026-04-23

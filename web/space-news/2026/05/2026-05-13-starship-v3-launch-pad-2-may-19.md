@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX公布星舰V3首飞新节点：5月19日从2号发射台升空"
 description: "SpaceX完成星舰V3全箭燃料加注演练后，宣布V3将于5月19日从新建2号发射台首飞，同时从V2过渡至V3高频常态化发射阶段"
+wechatShare:
+  title: "SpaceX公布星舰V3首飞新节点：5月19日从2号发射台升空"
+  desc: "SpaceX完成星舰V3全箭燃料加注演练后，宣布V3将于5月19日从新建2号发射台首飞，同时从V2过渡至V3高频常态化发射阶段"
+  image: "./figures/2026-05-13-starship-v3-launch-pad-2-may-19/hero.jpg"
 permalink: /space-news/2026/05/2026-05-13-starship-v3-launch-pad-2-may-19/
 author: 天疆说
 date: 2026-05-12

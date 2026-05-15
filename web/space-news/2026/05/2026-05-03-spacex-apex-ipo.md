@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX 拟推史上最大 IPO，估值达 1.75 万亿美元"
 description: "SpaceX 代号「Apex」的 IPO 计划将于 2026 年 6 月前后启动，估值 1.75 万亿美元，融资 750 亿美元，刷新全球纪录。"
+wechatShare:
+  title: "SpaceX 拟推史上最大 IPO，估值达 1.75 万亿美元"
+  desc: "SpaceX 代号「Apex」的 IPO 计划将于 2026 年 6 月前后启动，估值 1.75 万亿美元，融资 750 亿美元，刷新全球纪录。"
+  image: "./figures/2026-05-03-spacex-apex-ipo/hero.jpg"
 permalink: /space-news/2026/05/2026-05-03-spacex-apex-ipo/
 author: 天疆说
 date: 2026-05-03

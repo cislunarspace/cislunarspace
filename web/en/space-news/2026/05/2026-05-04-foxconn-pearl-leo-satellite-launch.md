@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Foxconn's Second-Generation LEO Satellites Successfully Launched, PEARL-1A and PEARL-1B Enter Predetermined Orbits"
 description: "Foxconn's second-generation LEO satellites were successfully launched aboard a SpaceX Falcon 9 rocket from California, with PEARL-1A and PEARL-1B entering their predetermined orbits to begin a five-year mission."
+wechatShare:
+  title: "Foxconn's Second-Generation LEO Satellites Successfully Launched, PEARL-1A and PEARL-1B Enter Predetermined Orbits"
+  desc: "Foxconn's second-generation LEO satellites were successfully launched aboard a SpaceX Falcon 9 rocket from California, with PEARL-1A and PEARL-1B entering their predetermined orbits to begin a five-year mission."
+  image: "./figures/2026-05-04-foxconn-pearl-leo-satellite-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-foxconn-pearl-leo-satellite-launch/
 author: Tianjiangshuo
 date: 2026-05-03

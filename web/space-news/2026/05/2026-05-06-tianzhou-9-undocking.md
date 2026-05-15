@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟九号货运飞船顺利撤离空间站组合体"
 description: "据中国载人航天工程办公室消息，北京时间2026年5月6日16时34分，天舟九号货运飞船顺利撤离空间站组合体，转入独立飞行阶段，将于近期择机受控再入大气层。"
+wechatShare:
+  title: "天舟九号货运飞船顺利撤离空间站组合体"
+  desc: "据中国载人航天工程办公室消息，北京时间2026年5月6日16时34分，天舟九号货运飞船顺利撤离空间站组合体，转入独立飞行阶段，将于近期择机受控再入大气层。"
+  image: "./figures/2026-05-06-tianzhou-9-undocking/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-tianzhou-9-undocking/
 author: 天疆说
 date: 2026-05-06

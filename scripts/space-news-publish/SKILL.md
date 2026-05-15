@@ -71,6 +71,10 @@ date: YYYY-MM-DD
 lastUpdated: YYYY-MM-DD
 category: china
 image: ./figures/YYYY-MM-DD-slug/hero.jpg
+wechatShare:
+  title: "地月空间入门指南 | 简短标题"
+  desc: "一句话摘要（与 description 一致）"
+  image: ./figures/YYYY-MM-DD-slug/hero.jpg
 ---
 ```
 
@@ -87,6 +91,10 @@ date: YYYY-MM-DD
 lastUpdated: YYYY-MM-DD
 category: china
 image: ./figures/YYYY-MM-DD-slug/hero.jpg
+wechatShare:
+  title: "Cislunar Space Guide | Short English title"
+  desc: "One-line summary (same as description)"
+  image: ./figures/YYYY-MM-DD-slug/hero.jpg
 ---
 ```
 
@@ -98,6 +106,7 @@ image: ./figures/YYYY-MM-DD-slug/hero.jpg
 | `date` | ✅ | 事件日期 `YYYY-MM-DD` |
 | `category` | ✅ | 见上方分类表 |
 | `image` | ❌ | 首页卡片缩略图 |
+| `wechatShare` | ✅ | 微信卡片分享元数据（title/desc/image），手动填写，不自动生成 |
 | `tags` / `related` / `draft` | ❌ | 标签 / 关联稿件 / 草稿 |
 
 ## 正文结构

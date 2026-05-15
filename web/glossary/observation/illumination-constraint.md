@@ -1,6 +1,10 @@
 ---
 title: 光照约束（Illumination Constraint）
 description: 详细解析光照约束的定义、在地月空间光学探测中的作用及其对SSA架构设计的限制
+wechatShare:
+  title: 光照约束（Illumination Constraint）
+  desc: 详细解析光照约束的定义、在地月空间光学探测中的作用及其对SSA架构设计的限制
+  image: /logo.png
 keywords: 光照约束, Illumination Constraint, 地月空间, 光学探测, 态势感知, 太阳照射, 阴影, 可见性
 author: 天疆说
 date: 2026-04-29

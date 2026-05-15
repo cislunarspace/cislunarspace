@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "大航跃迁完成5亿元融资，加速国内首款塔架回收火箭「跃迁一号」研制"
 description: "4月30日，国内唯一聚焦塔架式回收的民营火箭公司大航跃迁宣布完成5亿元融资，资金将加速「跃迁一号」可重复使用运载火箭的研制与首飞，计划2027年完成首飞。"
+wechatShare:
+  title: "大航跃迁完成5亿元融资，加速国内首款塔架回收火箭「跃迁一号」研制"
+  desc: "4月30日，国内唯一聚焦塔架式回收的民营火箭公司大航跃迁宣布完成5亿元融资，资金将加速「跃迁一号」可重复使用运载火箭的研制与首飞，计划2027年完成首飞。"
+  image: "./figures/2026-04-30-dahang-yueqian-500m-funding/hero.png"
 permalink: /space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding/
 author: 天疆说
 date: 2026-04-30

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA X-59 静音超音速验证机获得「自由250」纪念涂装，庆祝美国独立250周年"
 description: "2026年4月27日，NASA 宣布其 X-59 静音超音速验证机获得专属的「Freedom 250」纪念涂装，以庆祝美国2026年独立250周年。X-59 是 NASA 静音超音速飞行（QSST）项目的核心，目标是将协和式飞机以来的商业超音速飞行噪音降低为可接受的水平。"
+wechatShare:
+  title: "NASA X-59 静音超音速验证机获得「自由250」纪念涂装，庆祝美国独立250周年"
+  desc: "2026年4月27日，NASA 宣布其 X-59 静音超音速验证机获得专属的「Freedom 250」纪念涂装，以庆祝美国2026年独立250周年。X-59 是 NASA 静音超音速飞行（QSST）项目的核心，目标是将协和式飞机以来的商业超音速飞行噪音降低为可接受的水平。"
+  image: "./figures/2026-04-27-nasa-x-59-freedom-250-logo/hero.webp"
 permalink: /space-news/2026/04/2026-04-27-nasa-x-59-freedom-250-logo/
 author: 天疆说
 date: 2026-04-27

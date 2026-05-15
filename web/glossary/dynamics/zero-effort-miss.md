@@ -1,6 +1,10 @@
 ---
 title: 零控脱靶量（Zero-Effort Miss）
 description: 零控脱靶量是描述追逃问题中追踪器若保持当前状态将错过目标程度的参数，广泛应用于制导律设计和威胁评估。
+wechatShare:
+  title: 零控脱靶量（Zero-Effort Miss）
+  desc: 零控脱靶量是描述追逃问题中追踪器若保持当前状态将错过目标程度的参数，广泛应用于制导律设计和威胁评估。
+  image: /logo.png
 keywords: 零控脱靶量, Zero-Effort Miss, ZEM, 追逃博弈, 制导律, 拦截制导
 author: 天疆说
 date: 2026-04-29

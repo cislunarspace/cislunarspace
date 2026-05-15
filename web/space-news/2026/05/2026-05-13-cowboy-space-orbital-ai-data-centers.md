@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "美国 Cowboy Space 获2.75亿美元融资：计划在地球轨道部署 AI 数据中心"
 description: "美国太空计算公司 Cowboy Space 宣布完成2.75亿美元B轮融资，将在地球轨道建设并运营 AI 数据中心，计划今年晚些时候进行首次发射。"
+wechatShare:
+  title: "美国 Cowboy Space 获2.75亿美元融资：计划在地球轨道部署 AI 数据中心"
+  desc: "美国太空计算公司 Cowboy Space 宣布完成2.75亿美元B轮融资，将在地球轨道建设并运营 AI 数据中心，计划今年晚些时候进行首次发射。"
+  image: "./figures/2026-05-13-cowboy-space-orbital-ai-data-centers/hero.jpg"
 permalink: /space-news/2026/05/2026-05-13-cowboy-space-orbital-ai-data-centers/
 author: 天疆说
 date: 2026-05-12

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 航天员将在国际空间站回答密苏里州学生提问"
 description: "NASA 宣布，航天员 Jessica Meir 和 Jack Hathaway 将于近日在国际空间站任务期间，回答密苏里州学生的预先录制科学、技术、工程与数学问题。"
+wechatShare:
+  title: "NASA 航天员将在国际空间站回答密苏里州学生提问"
+  desc: "NASA 宣布，航天员 Jessica Meir 和 Jack Hathaway 将于近日在国际空间站任务期间，回答密苏里州学生的预先录制科学、技术、工程与数学问题。"
+  image: "./figures/2026-04-24-nasa-missouri-students/hero.jpg"
 permalink: /space-news/2026/04/2026-04-24-nasa-missouri-students/
 author: 天疆说
 date: 2026-04-24

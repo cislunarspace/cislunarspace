@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Earth Observatory Image: Green Belts in Washington Suburbs"
 description: "NASA Earth Observatory releases an ISS astronaut photograph showing green spaces weaving through the developed landscape along the Capital Beltway in Maryland, published as Image of the Day on Earth Day 2026."
+wechatShare:
+  title: "NASA Earth Observatory Image: Green Belts in Washington Suburbs"
+  desc: "NASA Earth Observatory releases an ISS astronaut photograph showing green spaces weaving through the developed landscape along the Capital Beltway in Maryland, published as Image of the Day on Earth Day 2026."
+  image: "./figures/2026-04-22-belts-of-green/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-belts-of-green/
 author: Tianjiangshuo
 date: 2026-04-22

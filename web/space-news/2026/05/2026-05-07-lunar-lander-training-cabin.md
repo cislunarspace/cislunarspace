@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源登月舱乘员舱全尺寸模型运抵NASA约翰逊中心"
 description: "蓝色起源Blue Moon Mark 2载人登月舱的全尺寸乘员舱模型运抵NASA约翰逊航天中心，将用于NASA阿尔忒弥斯计划的宇航员地面训练。"
+wechatShare:
+  title: "蓝色起源登月舱乘员舱全尺寸模型运抵NASA约翰逊中心"
+  desc: "蓝色起源Blue Moon Mark 2载人登月舱的全尺寸乘员舱模型运抵NASA约翰逊航天中心，将用于NASA阿尔忒弥斯计划的宇航员地面训练。"
+  image: "./figures/2026-05-07-lunar-lander-training-cabin/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-lunar-lander-training-cabin/
 author: 天疆说
 date: 2026-05-07

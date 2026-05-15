@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 约翰逊中心两位领导人获国家太空俱乐部表彰"
 description: "NASA 约翰逊航天中心两位领导人在第69届罗伯特·H·戈达德纪念晚宴上获国家太空俱乐部与基金会表彰，其中猎户座项目总监 Howard Hu 获 astronautics Engineer 奖。"
+wechatShare:
+  title: "NASA 约翰逊中心两位领导人获国家太空俱乐部表彰"
+  desc: "NASA 约翰逊航天中心两位领导人在第69届罗伯特·H·戈达德纪念晚宴上获国家太空俱乐部与基金会表彰，其中猎户座项目总监 Howard Hu 获 astronautics Engineer 奖。"
+  image: "./figures/2026-04-23-nasa-johnson-leaders/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-nasa-johnson-leaders/
 author: 天疆说
 date: 2026-04-23

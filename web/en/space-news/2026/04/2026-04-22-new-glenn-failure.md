@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Blue Origin's New Glenn Rocket Fails to Reach Orbit"
 description: "Blue Origin's New Glenn heavy-lift rocket failed during the BlueBird Block 2 #2 mission on April 19, marking the second major setback for the rocket."
+wechatShare:
+  title: "Blue Origin's New Glenn Rocket Fails to Reach Orbit"
+  desc: "Blue Origin's New Glenn heavy-lift rocket failed during the BlueBird Block 2 #2 mission on April 19, marking the second major setback for the rocket."
+  image: "./figures/2026-04-22-new-glenn-failure/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-new-glenn-failure/
 author: Tianjiangshuo
 date: 2026-04-22

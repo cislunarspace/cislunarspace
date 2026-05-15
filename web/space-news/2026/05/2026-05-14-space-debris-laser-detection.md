@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "激光大气探测技术揭示太空碎片坠毁环境影响"
 description: "德国莱布尼茨大气物理研究所利用三束绿色激光，成功探测到卫星与火箭残骸在再入大气层时产生的金属蒸汽云，量化其对大气层的潜在影响。"
+wechatShare:
+  title: "激光大气探测技术揭示太空碎片坠毁环境影响"
+  desc: "德国莱布尼茨大气物理研究所利用三束绿色激光，成功探测到卫星与火箭残骸在再入大气层时产生的金属蒸汽云，量化其对大气层的潜在影响。"
+  image: "./figures/2026-05-14-space-debris-laser-detection/hero.jpg"
 permalink: /space-news/2026/05/2026-05-14-space-debris-laser-detection/
 author: 天疆说
 date: 2026-05-13

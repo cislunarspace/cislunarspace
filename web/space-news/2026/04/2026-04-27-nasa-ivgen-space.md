@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 开发太空输液技术：IVGEN Mini 可将饮用水实时转化为静脉输液"
 description: "NASA 近日发布 IVGEN Mini 系统详情，该设备可在国际空间站将饮用水实时转化为医用静脉输液，解决了深空任务中预包装输液保质期有限的难题，系统每小时可生产 1.2 升输液。"
+wechatShare:
+  title: "NASA 开发太空输液技术：IVGEN Mini 可将饮用水实时转化为静脉输液"
+  desc: "NASA 近日发布 IVGEN Mini 系统详情，该设备可在国际空间站将饮用水实时转化为医用静脉输液，解决了深空任务中预包装输液保质期有限的难题，系统每小时可生产 1.2 升输液。"
+  image: "./figures/2026-04-27-nasa-ivgen-space/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-nasa-ivgen-space/
 author: 天疆说
 date: 2026-04-27

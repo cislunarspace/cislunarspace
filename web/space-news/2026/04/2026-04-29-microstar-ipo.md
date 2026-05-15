@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "商业卫星公司微纳星空完成IPO辅导验收"
 description: "2026年4月29日，证监会公开发行辅导公示系统显示，北京微纳星空科技股份有限公司完成IPO辅导验收，辅导机构为国泰海通证券。微纳星空为中国民营商业卫星制造领军企业，主营卫星整星及地面站产品研发制造。"
+wechatShare:
+  title: "商业卫星公司微纳星空完成IPO辅导验收"
+  desc: "2026年4月29日，证监会公开发行辅导公示系统显示，北京微纳星空科技股份有限公司完成IPO辅导验收，辅导机构为国泰海通证券。微纳星空为中国民营商业卫星制造领军企业，主营卫星整星及地面站产品研发制造。"
+  image: "./figures/2026-04-29-microstar-ipo/hero.png"
 permalink: /space-news/2026/04/2026-04-29-microstar-ipo/
 author: 天疆说
 date: 2026-04-29

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "长征六号运载火箭成功发射巴基斯坦PRSC-EO3卫星"
 description: "北京时间2026年4月25日20时15分，我国在太原卫星发射中心使用长征六号运载火箭成功将巴基斯坦PRSC-EO3卫星发射升空，这是长征系列运载火箭第640次飞行。"
+wechatShare:
+  title: "长征六号运载火箭成功发射巴基斯坦PRSC-EO3卫星"
+  desc: "北京时间2026年4月25日20时15分，我国在太原卫星发射中心使用长征六号运载火箭成功将巴基斯坦PRSC-EO3卫星发射升空，这是长征系列运载火箭第640次飞行。"
+  image: "./figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-25-pakistan-prsc-eo3-launch/
 author: 天疆说
 date: 2026-04-25

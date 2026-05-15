@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX 无人回收船 JRTI 完成第 156 次猎鹰火箭回收"
 description: "SpaceX 无人回收船「请看说明书」（JRTI）4月21日完成第156次猎鹰火箭回收，标志着该船执行猎鹰9号回收任务时代的终结，未来将全面转向支持星舰运营。"
+wechatShare:
+  title: "SpaceX 无人回收船 JRTI 完成第 156 次猎鹰火箭回收"
+  desc: "SpaceX 无人回收船「请看说明书」（JRTI）4月21日完成第156次猎鹰火箭回收，标志着该船执行猎鹰9号回收任务时代的终结，未来将全面转向支持星舰运营。"
+  image: "./figures/2026-04-22-jrti-final-flight/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-jrti-final-flight/
 author: 天疆说
 date: 2026-04-22

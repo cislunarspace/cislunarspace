@@ -1,6 +1,10 @@
 ---
 title: 多目标蒙特卡洛树搜索（MO-MCTS）
 description: 详细解析多目标蒙特卡洛树搜索算法的原理、在地月空间态势感知架构设计中的应用及其优势
+wechatShare:
+  title: 多目标蒙特卡洛树搜索（MO-MCTS）
+  desc: 详细解析多目标蒙特卡洛树搜索算法的原理、在地月空间态势感知架构设计中的应用及其优势
+  image: /logo.png
 keywords: 多目标蒙特卡洛树搜索, MO-MCTS, Monte Carlo Tree Search, 多目标优化, 地月空间, 架构设计, 人工智能, 强化学习
 author: 天疆说
 date: 2026-04-29

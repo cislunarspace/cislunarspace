@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Achieves Record 92 Space Launches in 2025, Commercial Sector Accounts for Over 50%"
 description: "China's National Bureau of Statistics reports 92 orbital launches in 2025, a historic high and a 35% increase over 2024, with commercial launches accounting for 50 of them."
+wechatShare:
+  title: "China Achieves Record 92 Space Launches in 2025, Commercial Sector Accounts for Over 50%"
+  desc: "China's National Bureau of Statistics reports 92 orbital launches in 2025, a historic high and a 35% increase over 2024, with commercial launches accounting for 50 of them."
+  image: "./figures/2026-04-26-china-2025-launch-stats/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-26-china-2025-launch-stats/
 author: Tianjiangshuo
 date: 2026-04-26

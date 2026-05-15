@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Releases 12,000 Photos from Artemis II Mission, Showcasing Pre-Launch Preparations"
 description: "NASA published approximately 12,000 photos from the Artemis II mission, documenting astronaut training and preparation activities inside the Orion spacecraft."
+wechatShare:
+  title: "NASA Releases 12,000 Photos from Artemis II Mission, Showcasing Pre-Launch Preparations"
+  desc: "NASA published approximately 12,000 photos from the Artemis II mission, documenting astronaut training and preparation activities inside the Orion spacecraft."
+  image: "./figures/2026-05-05-nasa-artemis-ii-photos/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-05-nasa-artemis-ii-photos/
 author: Tianjiangshuo
 date: 2026-05-05

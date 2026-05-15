@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "阿里安6火箭成功发射亚马逊第二批LEO卫星，3天内完成两次发射"
 description: "2026年4月30日，阿里安航天公司使用阿里安64型火箭成功将32颗亚马逊LEO卫星送入近地轨道，这是3天内亚马逊星座的第二次组网发射，卫星被精准送入约465公里高度。"
+wechatShare:
+  title: "阿里安6火箭成功发射亚马逊第二批LEO卫星，3天内完成两次发射"
+  desc: "2026年4月30日，阿里安航天公司使用阿里安64型火箭成功将32颗亚马逊LEO卫星送入近地轨道，这是3天内亚马逊星座的第二次组网发射，卫星被精准送入约465公里高度。"
+  image: "./figures/2026-05-01-amazon-leo-second-batch-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-amazon-leo-second-batch-launch/
 author: 天疆说
 date: 2026-04-30

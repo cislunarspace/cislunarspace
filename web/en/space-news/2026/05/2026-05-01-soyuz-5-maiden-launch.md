@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Russia Conducts First Launch of Soyuz-5 Rocket from Baikonur"
 description: "On May 1, 2026, Roscosmos announced that Russia's next-generation Soyuz-5 medium-lift launch vehicle conducted its inaugural launch from the Baiterek complex at the Baikonur Cosmodrome in Kazakhstan, with the test flight proceeding as planned."
+wechatShare:
+  title: "Russia Conducts First Launch of Soyuz-5 Rocket from Baikonur"
+  desc: "On May 1, 2026, Roscosmos announced that Russia's next-generation Soyuz-5 medium-lift launch vehicle conducted its inaugural launch from the Baiterek complex at the Baikonur Cosmodrome in Kazakhstan, with the test flight proceeding as planned."
+  image: "./figures/2026-05-01-soyuz-5-maiden-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-soyuz-5-maiden-launch/
 author: Tianjiangshuo
 date: 2026-05-01

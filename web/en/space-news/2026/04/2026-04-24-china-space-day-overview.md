@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China's Space Program: 70 Years of Historic Achievements and the Path to Becoming a Space Power"
 description: "April 24 marks the 11th China Space Day, coinciding with the 70th anniversary of China's space endeavors. Highlights include Shenzhou-21 crew setting new EVA records, a 16-day emergency launch response capability, and China's space station operating routinely."
+wechatShare:
+  title: "China's Space Program: 70 Years of Historic Achievements and the Path to Becoming a Space Power"
+  desc: "April 24 marks the 11th China Space Day, coinciding with the 70th anniversary of China's space endeavors. Highlights include Shenzhou-21 crew setting new EVA records, a 16-day emergency launch response capability, and China's space station operating routinely."
+  image: "./figures/2026-04-24-china-space-day-overview/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-china-space-day-overview/
 author: Tianjiangshuo
 date: 2026-04-24

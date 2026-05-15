@@ -1,6 +1,10 @@
 ---
 title: 广义优势估计（GAE）
 description: 广义优势估计（GAE）是一种用于强化学习中优势函数估计的方法，通过指数加权平均多个TD残差来平衡方差与偏差，用于PPO等策略梯度算法的优势估计
+wechatShare:
+  title: 广义优势估计（GAE）
+  desc: 广义优势估计（GAE）是一种用于强化学习中优势函数估计的方法，通过指数加权平均多个TD残差来平衡方差与偏差，用于PPO等策略梯度算法的优势估计
+  image: /logo.png
 keywords: GAE, 广义优势估计, 强化学习, 优势函数, 时间差分, PPO, A2PPO, 策略梯度, 方差偏差权衡
 author: 天疆说
 date: 2026-04-27

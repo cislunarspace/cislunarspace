@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Tianzhou-10 Cargo Spacecraft Transferred to Launch Pad Ahead of Imminent Launch"
 description: "China's Tianzhou-10 cargo spacecraft and Long March-7 Y11 rocket combination was vertically transferred to the launch site at Wenchang on May 8, marking final preparations for launch."
+wechatShare:
+  title: "Tianzhou-10 Cargo Spacecraft Transferred to Launch Pad Ahead of Imminent Launch"
+  desc: "China's Tianzhou-10 cargo spacecraft and Long March-7 Y11 rocket combination was vertically transferred to the launch site at Wenchang on May 8, marking final preparations for launch."
+  image: "./figures/2026-05-08-tianzhou-10-vertical-transfer/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-tianzhou-10-vertical-transfer/
 author: Tianjiangshuo
 date: 2026-05-08

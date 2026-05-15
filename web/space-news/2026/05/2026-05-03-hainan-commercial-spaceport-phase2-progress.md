@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "海南商业航天发射场二期工程加速冲刺，3号工位进度超 80%"
 description: "央视关注海南商业航天发射场二期工程建设进展，3号、4号工位推进顺利，建成后年发射能力将达 60 发。"
+wechatShare:
+  title: "海南商业航天发射场二期工程加速冲刺，3号工位进度超 80%"
+  desc: "央视关注海南商业航天发射场二期工程建设进展，3号、4号工位推进顺利，建成后年发射能力将达 60 发。"
+  image: "./figures/2026-05-03-hainan-commercial-spaceport-phase2-progress/hero.jpg"
 permalink: /space-news/2026/05/2026-05-03-hainan-commercial-spaceport-phase2-progress/
 author: 天疆说
 date: 2026-05-03

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "2025年中国航天发射92次创历史新高，商业航天占比超五成"
 description: "国家统计局公布2025年统计公报，中国全年完成宇航发射92次，其中商业航天发射50次，较2024年增长35%。"
+wechatShare:
+  title: "2025年中国航天发射92次创历史新高，商业航天占比超五成"
+  desc: "国家统计局公布2025年统计公报，中国全年完成宇航发射92次，其中商业航天发射50次，较2024年增长35%。"
+  image: "./figures/2026-04-26-china-2025-launch-stats/hero.jpg"
 permalink: /space-news/2026/04/2026-04-26-china-2025-launch-stats/
 author: 天疆说
 date: 2026-04-26

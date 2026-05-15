@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station"
 description: "China's Tianzhou-10 cargo spacecraft carries 67 research products and 41 scientific experiments to Tiangong Space Station, covering space life science, microgravity physics, new space technologies, and astronomy & Earth science."
+wechatShare:
+  title: "Tianzhou-10 Delivers 67 Scientific Payloads to Tiangong Space Station"
+  desc: "China's Tianzhou-10 cargo spacecraft carries 67 research products and 41 scientific experiments to Tiangong Space Station, covering space life science, microgravity physics, new space technologies, and astronomy & Earth science."
+  image: "./figures/2026-05-12-tianzhou-10-science-payloads/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-tianzhou-10-science-payloads/
 author: Tianjiangshuo
 date: 2026-05-12

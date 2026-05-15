@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Shenzhou-23 Launch Countdown Underway as Jiuquan Prepares for Mission"
 description: "Shenzhou-23 crewed spacecraft launch enters critical preparation phase as Jiuquan Satellite Launch Center completes rocket ground testing, spacecraft fueling drills, and emergency search and rescue exercises."
+wechatShare:
+  title: "Shenzhou-23 Launch Countdown Underway as Jiuquan Prepares for Mission"
+  desc: "Shenzhou-23 crewed spacecraft launch enters critical preparation phase as Jiuquan Satellite Launch Center completes rocket ground testing, spacecraft fueling drills, and emergency search and rescue exercises."
+  image: "./figures/2026-04-29-shenzhou-23-preparation/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-29-shenzhou-23-preparation/
 author: Tianjiangshuo
 date: 2026-04-29

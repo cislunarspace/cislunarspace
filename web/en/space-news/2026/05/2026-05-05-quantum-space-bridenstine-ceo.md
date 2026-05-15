@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Former NASA Administrator Jim Bridenstine Named CEO of Quantum Space"
 description: "Former NASA Administrator Jim Bridenstine (2018–2021) has been appointed CEO of Quantum Space, a company developing Ranger spacecraft for military and commercial operations from LEO to cislunar space."
+wechatShare:
+  title: "Former NASA Administrator Jim Bridenstine Named CEO of Quantum Space"
+  desc: "Former NASA Administrator Jim Bridenstine (2018–2021) has been appointed CEO of Quantum Space, a company developing Ranger spacecraft for military and commercial operations from LEO to cislunar space."
+  image: "./figures/2026-05-05-quantum-space-bridenstine-ceo/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-05-quantum-space-bridenstine-ceo/
 author: Tianjiangshuo
 date: 2026-05-05

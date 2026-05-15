@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX为美国天军发射最后一颗GPS III卫星"
 description: "SpaceX猎鹰9号成功发射GPS III-8（SV10「海迪·拉玛」）卫星，这是GPS III系列的最后一颗星"
+wechatShare:
+  title: "SpaceX为美国天军发射最后一颗GPS III卫星"
+  desc: "SpaceX猎鹰9号成功发射GPS III-8（SV10「海迪·拉玛」）卫星，这是GPS III系列的最后一颗星"
+  image: "./figures/2026-04-21-gps-iii-sv10-hedy-lamar-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-21-gps-iii-sv10-hedy-lamar-launch/
 author: 天疆说
 date: 2026-04-21

@@ -1,6 +1,10 @@
 ---
 title: NRHO 稳定性与轨道维持
 description: NRHO轨道的初值敏感性、Lyapunov指数分析、ΔV维持预算与维持策略。
+wechatShare:
+  title: NRHO 稳定性与轨道维持
+  desc: NRHO轨道的初值敏感性、Lyapunov指数分析、ΔV维持预算与维持策略。
+  image: /logo.png
 keywords: NRHO稳定性, 轨道维持, station-keeping, ΔV预算, Lyapunov指数
 author: 天疆说
 date: 2026-04-26

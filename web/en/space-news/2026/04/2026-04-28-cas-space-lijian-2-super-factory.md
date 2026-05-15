@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "CAS Space's Lijian-2 Super Factory Fully Completed, Mass Production Line Officially Commissioned"
 description: "On April 28, 2026, CAS Space's Lijian-2 large liquid launch vehicle super factory in Keqiao District, Shaoxing was fully completed and put into operation, marking China's commercial space industry entering a new phase of mass production with an annual capacity of 12 Lijian-2 vehicles."
+wechatShare:
+  title: "CAS Space's Lijian-2 Super Factory Fully Completed, Mass Production Line Officially Commissioned"
+  desc: "On April 28, 2026, CAS Space's Lijian-2 large liquid launch vehicle super factory in Keqiao District, Shaoxing was fully completed and put into operation, marking China's commercial space industry entering a new phase of mass production with an annual capacity of 12 Lijian-2 vehicles."
+  image: "./figures/2026-04-28-cas-space-lijian-2-super-factory/hero.png"
 permalink: /en/space-news/2026/04/2026-04-28-cas-space-lijian-2-super-factory/
 author: Tianjiangshuo
 date: 2026-04-28

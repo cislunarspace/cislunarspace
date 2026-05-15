@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Space Public Welfare Ambassador Visits Sichuan University"
 description: "On April 24, China's Space Public Welfare Ambassadors visited Sichuan University, where astronaut Jiang Xinlin and space experts engaged with over 400 students and faculty."
+wechatShare:
+  title: "China Space Public Welfare Ambassador Visits Sichuan University"
+  desc: "On April 24, China's Space Public Welfare Ambassadors visited Sichuan University, where astronaut Jiang Xinlin and space experts engaged with over 400 students and faculty."
+  image: "./figures/2026-04-26-space-public-welfare-ambassador-sichuan-university/hero.png"
 permalink: /en/space-news/2026/04/2026-04-26-space-public-welfare-ambassador-sichuan-university/
 author: Tianjiangshuo
 date: 2026-04-24

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "「悟空」号揭示宇宙射线加速关键机制"
 description: "中国科学院紫金山天文台团队基于「悟空」号卫星数据，在《自然》发表新成果，首次发现宇宙射线加速能量极限的电荷依赖规律，对揭开宇宙射线起源之谜具有重要意义。"
+wechatShare:
+  title: "「悟空」号揭示宇宙射线加速关键机制"
+  desc: "中国科学院紫金山天文台团队基于「悟空」号卫星数据，在《自然》发表新成果，首次发现宇宙射线加速能量极限的电荷依赖规律，对揭开宇宙射线起源之谜具有重要意义。"
+  image: "./figures/2026-05-01-wukong-cosmic-ray-mechanism/hero.png"
 permalink: /space-news/2026/05/2026-05-01-wukong-cosmic-ray-mechanism/
 author: 天疆说
 date: 2026-05-01

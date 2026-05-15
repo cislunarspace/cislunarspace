@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "iQPS再签三发Electron发射合同：深化与Rocket Lab多年合作伙伴关系"
 description: "2026年4月9日，日本雷达卫星运营商iQPS与Rocket Lab签署协议，增购三次Electron火箭发射服务，继续深化双方多年合作伙伴关系。"
+wechatShare:
+  title: "iQPS再签三发Electron发射合同：深化与Rocket Lab多年合作伙伴关系"
+  desc: "2026年4月9日，日本雷达卫星运营商iQPS与Rocket Lab签署协议，增购三次Electron火箭发射服务，继续深化双方多年合作伙伴关系。"
+  image: "./figures/2026-04-09-rocket-lab-iqps-three-launches/hero.jpg"
 permalink: /space-news/2026/04/2026-04-09-rocket-lab-iqps-three-launches/
 author: 天疆说
 date: 2026-04-09

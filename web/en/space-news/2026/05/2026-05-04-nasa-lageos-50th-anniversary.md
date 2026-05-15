@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's LAGEOS-1 Celebrates 50 Years in Earth Orbit: A Legacy of Geodynamic Science"
 description: "NASA's Laser Geodynamic Satellite (LAGEOS-1), launched on May 4, 1976, marks its 50th anniversary in orbit — the oldest human-made object still fully operational in Earth orbit, serving as a precise reference point for geodesy and geophysics research."
+wechatShare:
+  title: "NASA's LAGEOS-1 Celebrates 50 Years in Earth Orbit: A Legacy of Geodynamic Science"
+  desc: "NASA's Laser Geodynamic Satellite (LAGEOS-1), launched on May 4, 1976, marks its 50th anniversary in orbit — the oldest human-made object still fully operational in Earth orbit, serving as a precise reference point for geodesy and geophysics research."
+  image: "./figures/2026-05-04-nasa-lageos-50th-anniversary/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-nasa-lageos-50th-anniversary/
 author: Tianjiangshuo
 date: 2026-05-04

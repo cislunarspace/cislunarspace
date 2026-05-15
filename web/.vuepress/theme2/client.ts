@@ -17,7 +17,6 @@ import Forum from './components/Forum.vue'
 import OrbitSimLab from './components/OrbitSimLab.vue'
 import type { PageData } from './utils/types'
 import { normalizePageMetadata } from '../page-metadata'
-import { configureWechatShare } from './composables/useWechatShare'
 import { updateOgMeta } from './composables/useOgMeta'
 import { useScrollReveal } from './composables/useScrollReveal'
 import { useLocalePersistence } from './composables/useLocalePersistence'
@@ -71,7 +70,6 @@ export default defineClientConfig({
     function setupShare() {
       const data = buildShareData()
       if (!data) return
-      configureWechatShare(data).catch(() => {})
       updateOgMeta(data.title, data.desc, data.imgUrl, data.link, data.type)
     }
 

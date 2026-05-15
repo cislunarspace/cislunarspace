@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天和核心舱在轨稳定运行五周年，中国空间站成果丰硕"
 description: "2026年4月29日，中国空间站天和核心舱迎来在轨稳定运行五周年，五年来完成267项科学实验，获取数据超450TB，多项成果属国际首次。"
+wechatShare:
+  title: "天和核心舱在轨稳定运行五周年，中国空间站成果丰硕"
+  desc: "2026年4月29日，中国空间站天和核心舱迎来在轨稳定运行五周年，五年来完成267项科学实验，获取数据超450TB，多项成果属国际首次。"
+  image: "./figures/2026-04-29-tianhe-core-module-5th-anniversary/hero.jpg"
 permalink: /space-news/2026/04/2026-04-29-tianhe-core-module-5th-anniversary/
 author: 天疆说
 date: 2026-04-29

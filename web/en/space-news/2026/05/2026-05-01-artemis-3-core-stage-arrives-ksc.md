@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis III Core Stage Arrives at Kennedy, SLS Rocket Enters Final Assembly Phase"
 description: "NASA's SLS rocket Artemis III Core Stage transported in two stages from Michoud to Kennedy Space Center, marking the final sprint toward US crewed lunar return."
+wechatShare:
+  title: "Artemis III Core Stage Arrives at Kennedy, SLS Rocket Enters Final Assembly Phase"
+  desc: "NASA's SLS rocket Artemis III Core Stage transported in two stages from Michoud to Kennedy Space Center, marking the final sprint toward US crewed lunar return."
+  image: "./figures/2026-05-01-artemis-3-core-stage-arrives-ksc/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc/
 author: Tianjiangshuo
 date: 2026-05-01

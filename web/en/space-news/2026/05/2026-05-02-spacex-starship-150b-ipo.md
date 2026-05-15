@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX IPO Filing Reveals Over $15B Invested in Starship, $1.75T Valuation"
 description: "Reuters reports SpaceX's confidential IPO filing shows the company has invested over $15 billion in Starship development, valued at $1.75 trillion, with Starlink V3 satellites planned for launch in H2 2026."
+wechatShare:
+  title: "SpaceX IPO Filing Reveals Over $15B Invested in Starship, $1.75T Valuation"
+  desc: "Reuters reports SpaceX's confidential IPO filing shows the company has invested over $15 billion in Starship development, valued at $1.75 trillion, with Starlink V3 satellites planned for launch in H2 2026."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-02-spacex-starship-150b-ipo/
 author: Tianjiangshuo
 date: 2026-05-02

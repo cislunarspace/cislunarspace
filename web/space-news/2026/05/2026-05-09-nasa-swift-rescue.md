@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA紧急救援尼尔 Gehrels Swift天文台通过关键测试 轨道衰减引发紧迫救援"
 description: "NASA授予Katalyst公司3000万美元合同，利用Link spacecraft对2004年发射的Neil Gehrels Swift天文台进行轨道救援，该探测器因太阳活动增强导致轨道加速衰减，预计2026年末再入大气层。"
+wechatShare:
+  title: "NASA紧急救援尼尔 Gehrels Swift天文台通过关键测试 轨道衰减引发紧迫救援"
+  desc: "NASA授予Katalyst公司3000万美元合同，利用Link spacecraft对2004年发射的Neil Gehrels Swift天文台进行轨道救援，该探测器因太阳活动增强导致轨道加速衰减，预计2026年末再入大气层。"
+  image: "./figures/2026-05-09-nasa-swift-rescue/hero.jpg"
 permalink: /space-news/2026/05/2026-05-09-nasa-swift-rescue/
 author: 天疆说
 date: 2026-05-09

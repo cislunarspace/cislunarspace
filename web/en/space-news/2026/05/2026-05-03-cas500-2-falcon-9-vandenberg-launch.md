@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Falcon 9 Launches CAS500-2 Korean Earth Observation Satellite from Vandenberg"
 description: "On May 3, 2026, SpaceX's Falcon 9 successfully launched the CAS500-2 Earth observation satellite for South Korea from Vandenberg Space Force Base."
+wechatShare:
+  title: "SpaceX Falcon 9 Launches CAS500-2 Korean Earth Observation Satellite from Vandenberg"
+  desc: "On May 3, 2026, SpaceX's Falcon 9 successfully launched the CAS500-2 Earth observation satellite for South Korea from Vandenberg Space Force Base."
+  image: "./figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-03-cas500-2-falcon-9-vandenberg-launch/
 author: Tianjiangshuo
 date: 2026-05-03

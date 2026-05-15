@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX据报探索星舰火箭海外发射场选址"
 description: "据多家媒体报道，SpaceX正在与多个国家洽谈，计划在美国本土以外建设星舰运载火箭发射设施。"
+wechatShare:
+  title: "SpaceX据报探索星舰火箭海外发射场选址"
+  desc: "据多家媒体报道，SpaceX正在与多个国家洽谈，计划在美国本土以外建设星舰运载火箭发射设施。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-14-starship-foreign-launch-sites/
 author: 天疆说
 date: 2026-05-14

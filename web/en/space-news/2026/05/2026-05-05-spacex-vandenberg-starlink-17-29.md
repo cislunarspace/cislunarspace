@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX Falcon 9 Launches Starlink 17-29 Mission from Vandenberg"
 description: "SpaceX's Falcon 9 launched the Starlink 17-29 mission on May 5, 2026, deploying 24 Starlink satellites from Vandenberg Space Force Base. Booster B1081 completed its 24th flight and successfully landed on drone ship Of Course I Still Love You."
+wechatShare:
+  title: "SpaceX Falcon 9 Launches Starlink 17-29 Mission from Vandenberg"
+  desc: "SpaceX's Falcon 9 launched the Starlink 17-29 mission on May 5, 2026, deploying 24 Starlink satellites from Vandenberg Space Force Base. Booster B1081 completed its 24th flight and successfully landed on drone ship Of Course I Still Love You."
+  image: "./figures/2026-05-05-spacex-vandenberg-starlink-17-29/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-05-spacex-vandenberg-starlink-17-29/
 author: Tianjiangshuo
 date: 2026-05-05

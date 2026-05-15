@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA资助SNAPPY立方星发射 开启太阳中微子探测新路径"
 description: "NASA资助的SNAPPY立方星搭乘SpaceX猎鹰九号从范登堡发射升空，将测试一种用于探测太阳中微子的新型探测器原型。"
+wechatShare:
+  title: "NASA资助SNAPPY立方星发射 开启太阳中微子探测新路径"
+  desc: "NASA资助的SNAPPY立方星搭乘SpaceX猎鹰九号从范登堡发射升空，将测试一种用于探测太阳中微子的新型探测器原型。"
+  image: "./figures/2026-05-07-snappy-cubesat-launch/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-snappy-cubesat-launch/
 author: 天疆说
 date: 2026-05-07

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "约旦签署阿尔忒弥斯协议，成为第63个签约国"
 description: "约旦哈希姆王国在美国NASA总部举行的仪式上签署阿尔忒弥斯协议，成为全球第63个签署该协议的国家，进一步扩大了阿尔忒弥斯协议的国际参与度。"
+wechatShare:
+  title: "约旦签署阿尔忒弥斯协议，成为第63个签约国"
+  desc: "约旦哈希姆王国在美国NASA总部举行的仪式上签署阿尔忒弥斯协议，成为全球第63个签署该协议的国家，进一步扩大了阿尔忒弥斯协议的国际参与度。"
+  image: "./figures/2026-04-23-jordan-artemis-accords/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-jordan-artemis-accords/
 author: 天疆说
 date: 2026-04-23

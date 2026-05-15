@@ -1,6 +1,10 @@
 ---
 title: FAA Grounds Blue Origin's New Glenn After Launch Fails to Deliver Payload to Correct Orbit
 description: The FAA has ordered Blue Origin to cease New Glenn launches pending investigation after the rocket's third flight on April 20 failed to deliver its payload to the intended orbit due to one of two second stage engines malfunctioning.
+wechatShare:
+  title: "FAA Grounds Blue Origin's New Glenn After Launch Fails to Deliver Payload to Correct Orbit"
+  desc: "The FAA has ordered Blue Origin to cease New Glenn launches pending investigation after the rocket's third flight on April 20 failed to deliver its payload to the intended orbit due to one of two second stage engines malfunctioning."
+  image: "null"
 date: 2026-04-22
 category: [blue-origin, commercial]
 image: null

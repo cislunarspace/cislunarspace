@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "海南商业航天发射场二期建设进入冲刺阶段，3号工位进度超80%"
 description: "「五一」劳动节期间，海南商业航天发射场二期工程3号发射工位建设者坚守岗位，避雷塔完成第八节安装，前置设备间全面封顶，整体工程进度超过80%，预计今年5月底完成关键节点。"
+wechatShare:
+  title: "海南商业航天发射场二期建设进入冲刺阶段，3号工位进度超80%"
+  desc: "「五一」劳动节期间，海南商业航天发射场二期工程3号发射工位建设者坚守岗位，避雷塔完成第八节安装，前置设备间全面封顶，整体工程进度超过80%，预计今年5月底完成关键节点。"
+  image: "./figures/2026-05-01-hainan-commercial-spaceport-phase2/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-hainan-commercial-spaceport-phase2/
 author: 天疆说
 date: 2026-05-01

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Long March 4C Successfully Launches Atmospheric Monitoring Satellite"
 description: "On April 17, 2026, China's Long March 4C rocket successfully launched the Daqi-2 (AEMS) atmospheric environment monitoring satellite from the Jiuquan Satellite Launch Center."
+wechatShare:
+  title: "Long March 4C Successfully Launches Atmospheric Monitoring Satellite"
+  desc: "On April 17, 2026, China's Long March 4C rocket successfully launched the Daqi-2 (AEMS) atmospheric environment monitoring satellite from the Jiuquan Satellite Launch Center."
+  image: "./figures/2026-04-22-daqi-2-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-daqi-2-launch/
 author: Tianjiangshuo
 date: 2026-04-22

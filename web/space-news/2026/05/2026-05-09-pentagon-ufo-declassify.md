@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "五角大楼公布首批UFO解密文件 近30段机密视频公开"
 description: "美国五角大楼于2026年5月8日首次公布161份UFO解密文件，包含近30段机密视频，涵盖多个军事平台观测的不明空中现象，为美国政府历史上规模最大的UFO信息公开行动。"
+wechatShare:
+  title: "五角大楼公布首批UFO解密文件 近30段机密视频公开"
+  desc: "美国五角大楼于2026年5月8日首次公布161份UFO解密文件，包含近30段机密视频，涵盖多个军事平台观测的不明空中现象，为美国政府历史上规模最大的UFO信息公开行动。"
+  image: "./figures/2026-05-09-pentagon-ufo-declassify/hero.jpg"
 permalink: /space-news/2026/05/2026-05-09-pentagon-ufo-declassify/
 author: 天疆说
 date: 2026-05-09

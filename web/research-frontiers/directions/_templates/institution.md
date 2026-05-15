@@ -1,6 +1,10 @@
 ---
 title: {机构中文名称}
 description: {一句话描述}
+wechatShare:
+  title: '{机构中文名称}'
+  desc: '{一句话描述}'
+  image: /logo.png
 ---
 
 # {机构中文名称}

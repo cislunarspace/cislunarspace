@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Next-Gen Space Processor Enters Testing: 100x Computing Power for Moon and Mars Missions"
 description: "NASA's High Performance Spaceflight Computing chip, palm-sized yet delivering 100x the computing power of current space computers, enters radiation and thermal testing ahead of Artemis and Mars missions."
+wechatShare:
+  title: "NASA's Next-Gen Space Processor Enters Testing: 100x Computing Power for Moon and Mars Missions"
+  desc: "NASA's High Performance Spaceflight Computing chip, palm-sized yet delivering 100x the computing power of current space computers, enters radiation and thermal testing ahead of Artemis and Mars missions."
+  image: "./figures/2026-05-12-nasa-hpsc-processor-testing/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-nasa-hpsc-processor-testing/
 author: Tianjiangshuo
 date: 2026-05-12

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "神舟二十三号进入发射倒计时，酒泉发射场全面备战"
 description: "神舟二十三号载人飞船发射任务进入关键阶段，酒泉卫星发射中心已完成火箭地面测发控设备检修检测、飞船加注演练及应急搜救演练，2026年将先后发射神舟二十三号和神舟二十四号。"
+wechatShare:
+  title: "神舟二十三号进入发射倒计时，酒泉发射场全面备战"
+  desc: "神舟二十三号载人飞船发射任务进入关键阶段，酒泉卫星发射中心已完成火箭地面测发控设备检修检测、飞船加注演练及应急搜救演练，2026年将先后发射神舟二十三号和神舟二十四号。"
+  image: "./figures/2026-04-29-shenzhou-23-preparation/hero.jpg"
 permalink: /space-news/2026/04/2026-04-29-shenzhou-23-preparation/
 author: 天疆说
 date: 2026-04-29

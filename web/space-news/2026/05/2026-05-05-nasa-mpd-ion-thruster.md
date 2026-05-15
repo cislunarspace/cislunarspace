@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA新型离子推进器通过120千瓦测试，载人火星任务新突破"
 description: "NASA与JPL联合研制的磁等离子体动力学推进器采用锂金属蒸汽推进剂，成功实现120千瓦功率运行，为未来载人火星任务奠定基础。"
+wechatShare:
+  title: "NASA新型离子推进器通过120千瓦测试，载人火星任务新突破"
+  desc: "NASA与JPL联合研制的磁等离子体动力学推进器采用锂金属蒸汽推进剂，成功实现120千瓦功率运行，为未来载人火星任务奠定基础。"
+  image: "./figures/2026-05-05-nasa-mpd-ion-thruster/hero.jpg"
 permalink: /space-news/2026/05/2026-05-05-nasa-mpd-ion-thruster/
 author: 天疆说
 date: 2026-05-05

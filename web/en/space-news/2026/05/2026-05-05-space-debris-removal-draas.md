@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "US and Australian Startups Partner for Commercial Space Debris Removal Service by 2027"
 description: "Portal Space Systems of the US and Australian startup Paladin Space announce partnership to offer commercial Debris Removal as a Service (DRAAS) using the maneuverable Starburst spacecraft, targeting operational launch in 2027."
+wechatShare:
+  title: "US and Australian Startups Partner for Commercial Space Debris Removal Service by 2027"
+  desc: "Portal Space Systems of the US and Australian startup Paladin Space announce partnership to offer commercial Debris Removal as a Service (DRAAS) using the maneuverable Starburst spacecraft, targeting operational launch in 2027."
+  image: "./figures/2026-05-05-space-debris-removal-draas/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-05-space-debris-removal-draas/
 author: Tianjiangshuo
 date: 2026-05-05

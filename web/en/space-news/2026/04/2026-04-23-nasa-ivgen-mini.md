@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Tests IVGEN Mini System to Produce IV Fluid Aboard ISS"
 description: "NASA's IVGEN Mini system successfully demonstrated aboard the ISS in April 2026, producing IV fluid on-demand to address the challenge of limited shelf life for pre-packed medical supplies on deep space missions."
+wechatShare:
+  title: "NASA Tests IVGEN Mini System to Produce IV Fluid Aboard ISS"
+  desc: "NASA's IVGEN Mini system successfully demonstrated aboard the ISS in April 2026, producing IV fluid on-demand to address the challenge of limited shelf life for pre-packed medical supplies on deep space missions."
+  image: "./figures/2026-04-23-nasa-ivgen-mini/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-ivgen-mini/
 author: Tianjiangshuo
 date: 2026-04-23

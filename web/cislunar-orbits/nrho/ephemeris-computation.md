@@ -1,6 +1,10 @@
 ---
 title: 多圈 NRHO 星历模型计算
 description: 真实星历模型下多圈 NRHO 的计算方法：多次打靶法、连接点选取策略与关键数值结果。
+wechatShare:
+  title: 多圈 NRHO 星历模型计算
+  desc: 真实星历模型下多圈 NRHO 的计算方法：多次打靶法、连接点选取策略与关键数值结果。
+  image: /logo.png
 keywords: NRHO, 多次打靶法, 星历模型, 连接点选取, 状态转移矩阵, DE430
 author: 天疆说
 date: 2026-05-10

@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /background/math/shooting-method/
+wechatShare:
+  title: 打靶法 (Shooting Method)
+  desc: 打靶法是将两点边值问题转化为初值问题迭代求解的数值方法，广泛用于轨道设计与周期轨道生成。
+  image: /logo.png
 ---
 
 # 打靶法

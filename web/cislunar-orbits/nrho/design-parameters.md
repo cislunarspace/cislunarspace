@@ -1,6 +1,10 @@
 ---
 title: NRHO 设计参数
 description: NRHO轨道的典型设计参数：周期、振幅、倾角约束、初始条件选取与敏感性分析。
+wechatShare:
+  title: NRHO 设计参数
+  desc: NRHO轨道的典型设计参数：周期、振幅、倾角约束、初始条件选取与敏感性分析。
+  image: /logo.png
 keywords: NRHO设计, 设计参数, 伪弧长延续法, 初始条件, CRTBP
 author: 天疆说
 date: 2026-04-26

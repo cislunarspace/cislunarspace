@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Long March 10-Yi Rocket Successful Maiden Flight, Tests World's First Marine Flexible Net Recovery Technology"
 description: "On April 28, 2026, the Long March 10-Yi carrier rocket successfully made its maiden flight from Wenchang Space Launch Center, Hainan, simultaneously validating the world's first marine flexible net capture and recovery technology."
+wechatShare:
+  title: "Long March 10-Yi Rocket Successful Maiden Flight, Tests World's First Marine Flexible Net Recovery Technology"
+  desc: "On April 28, 2026, the Long March 10-Yi carrier rocket successfully made its maiden flight from Wenchang Space Launch Center, Hainan, simultaneously validating the world's first marine flexible net capture and recovery technology."
+  image: "./figures/2026-05-01-changzheng-10-yi-maiden-launch/hero.png"
 permalink: /en/space-news/2026/05/2026-05-01-changzheng-10-yi-maiden-launch/
 author: Tianjiangshuo
 date: 2026-04-28

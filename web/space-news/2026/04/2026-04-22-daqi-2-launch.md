@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "长征四号丙成功发射大气环境监测卫星"
 description: "北京时间4月17日，长征四号丙运载火箭在酒泉卫星发射中心成功发射大气环境监测卫星Daqi-2（AEMS），用于全球大气环境监测。"
+wechatShare:
+  title: "长征四号丙成功发射大气环境监测卫星"
+  desc: "北京时间4月17日，长征四号丙运载火箭在酒泉卫星发射中心成功发射大气环境监测卫星Daqi-2（AEMS），用于全球大气环境监测。"
+  image: "./figures/2026-04-22-daqi-2-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-daqi-2-launch/
 author: 天疆说
 date: 2026-04-22

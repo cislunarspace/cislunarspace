@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "2026 Marks China's Commercial Space Mass Production Era with 100 Plus Launches Projected"
 description: 'In 2026, China targets over 100 total launches with commercial launches exceeding 60. Blue Arrow Space and CAS Space are both filing for STAR Market IPOs as commercial space enters its "mass production era".'
+wechatShare:
+  title: "2026 Marks China's Commercial Space Mass Production Era with 100 Plus Launches Projected"
+  desc: "In 2026, China targets over 100 total launches with commercial launches exceeding 60. Blue Arrow Space and CAS Space are both filing for STAR Market IPOs as commercial space enters its \"mass production era\"."
+  image: "./figures/2026-04-24-commercial-space-mass-production/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-commercial-space-mass-production/
 author: Tianjiangshuo
 date: 2026-04-24

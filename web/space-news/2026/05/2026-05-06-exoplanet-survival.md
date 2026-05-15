@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "韦布望远镜发现奇特行星系统：迷你海王星与热木星「携手」内迁"
 description: "韦布望远镜对TOI-1130系统的观测发现一对罕见的行星组合——一颗迷你海王星和一颗热木星，两者形成于恒星系统外围，随后向内迁移，为理解行星演化提供新线索。"
+wechatShare:
+  title: "韦布望远镜发现奇特行星系统：迷你海王星与热木星「携手」内迁"
+  desc: "韦布望远镜对TOI-1130系统的观测发现一对罕见的行星组合——一颗迷你海王星和一颗热木星，两者形成于恒星系统外围，随后向内迁移，为理解行星演化提供新线索。"
+  image: "./figures/2026-05-06-exoplanet-survival/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-exoplanet-survival/
 author: 天疆说
 date: 2026-05-06

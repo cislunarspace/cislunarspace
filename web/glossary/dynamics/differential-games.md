@@ -1,6 +1,10 @@
 ---
 title: 微分对策（Differential Games）
 description: 微分对策是描述连续动态系统中多方博弈问题的数学理论，广泛应用于航天器追逃、经济学、军事对抗等领域。
+wechatShare:
+  title: 微分对策（Differential Games）
+  desc: 微分对策是描述连续动态系统中多方博弈问题的数学理论，广泛应用于航天器追逃、经济学、军事对抗等领域。
+  image: /logo.png
 keywords: 微分对策, Differential Games, 追逃博弈, 零和博弈, 鞍点策略, 最优控制
 author: 天疆说
 date: 2026-04-29

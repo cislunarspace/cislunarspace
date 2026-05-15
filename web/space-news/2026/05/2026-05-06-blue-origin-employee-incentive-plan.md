@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源调整员工激励机制应对SpaceX上市冲击"
 description: "杰夫·贝索斯旗下蓝色起源推出新员工股票计划，设立9.50美元每股行权价，以现金结算模式应对SpaceX IPO带来的人才流失风险。"
+wechatShare:
+  title: "蓝色起源调整员工激励机制应对SpaceX上市冲击"
+  desc: "杰夫·贝索斯旗下蓝色起源推出新员工股票计划，设立9.50美元每股行权价，以现金结算模式应对SpaceX IPO带来的人才流失风险。"
+  image: "./figures/2026-05-06-blue-origin-employee-incentive-plan/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-blue-origin-employee-incentive-plan/
 author: 天疆说
 date: 2026-05-06

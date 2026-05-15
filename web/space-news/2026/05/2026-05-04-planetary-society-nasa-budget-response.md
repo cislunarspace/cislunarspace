@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "行星学会新任CEO谴责NASA预算提案，称其为「太空未来的可怕威胁」"
 description: "行星学会新任CEO詹妮弗·沃恩表示，特朗普政府2026财年预算提案「完全没有经过思考」，学会将发起游说行动，力促国会议员恢复NASA经费"
+wechatShare:
+  title: "行星学会新任CEO谴责NASA预算提案，称其为「太空未来的可怕威胁」"
+  desc: "行星学会新任CEO詹妮弗·沃恩表示，特朗普政府2026财年预算提案「完全没有经过思考」，学会将发起游说行动，力促国会议员恢复NASA经费"
+  image: "./figures/2026-05-04-planetary-society-nasa-budget-response/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-planetary-society-nasa-budget-response/
 author: 天疆说
 date: 2026-05-04

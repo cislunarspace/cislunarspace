@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Amaterasu Particle and Cosmic Ray Origins: 60-Year Mystery May Be Solved"
 description: "The Amaterasu particle, the second most powerful cosmic ray ever detected, struck Earth in 2021 with the kinetic energy of a tennis ball. New research suggests it may originate from atomic nuclei heavier than iron, potentially solving a 60-year-old cosmic ray mystery."
+wechatShare:
+  title: "Amaterasu Particle and Cosmic Ray Origins: 60-Year Mystery May Be Solved"
+  desc: "The Amaterasu particle, the second most powerful cosmic ray ever detected, struck Earth in 2021 with the kinetic energy of a tennis ball. New research suggests it may originate from atomic nuclei heavier than iron, potentially solving a 60-year-old cosmic ray mystery."
+  image: "./figures/2026-05-13-cosmic-rays-amaterasu-particle-origin/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-cosmic-rays-amaterasu-particle-origin/
 author: Tianjiangshuo
 date: 2026-05-13

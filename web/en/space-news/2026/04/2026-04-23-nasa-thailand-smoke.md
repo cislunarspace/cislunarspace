@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Earth Observatory: Seasonal Fires Shroud Northern Thailand"
 description: "NASA Earth observation satellite captures smoke from seasonal fires shrouding northern Thailand and Southeast Asia"
+wechatShare:
+  title: "NASA Earth Observatory: Seasonal Fires Shroud Northern Thailand"
+  desc: "NASA Earth observation satellite captures smoke from seasonal fires shrouding northern Thailand and Southeast Asia"
+  image: "./figures/2026-04-23-nasa-thailand-smoke/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-thailand-smoke/
 author: Tianjiangshuo
 date: 2026-04-23

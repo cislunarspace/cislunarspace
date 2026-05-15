@@ -3,6 +3,10 @@ title: 月球与行星数据发布系统
 description: 中国科学院国家天文台月球与行星科学数据发布平台
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: 月球与行星数据发布系统
+  desc: 中国科学院国家天文台月球与行星科学数据发布平台
+  image: /logo.png
 ---
 
 ## 简介

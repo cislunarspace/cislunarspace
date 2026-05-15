@@ -1,6 +1,10 @@
 ---
 title: K-Means聚类（K-Means Clustering）
 description: 详细解析K-Means聚类算法的原理、在地月空间SSA架构分类中的应用及其与K-Medoids的对比
+wechatShare:
+  title: K-Means聚类（K-Means Clustering）
+  desc: 详细解析K-Means聚类算法的原理、在地月空间SSA架构分类中的应用及其与K-Medoids的对比
+  image: /logo.png
 keywords: K-Means, 聚类, Clustering, K-Medoids, 架构设计, 地月空间, 态势感知, 分类
 author: 天疆说
 date: 2026-04-29

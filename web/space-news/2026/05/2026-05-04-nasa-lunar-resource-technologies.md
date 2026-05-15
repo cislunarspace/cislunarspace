@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA推进月球资源提取技术研发，为可持续深空探测铺路"
 description: "NASA与工业伙伴正在联合研发从月壤中提取氢、氦-3等关键资源的技术，以支持阿尔忒弥斯计划框架下的长期月球任务，并为未来载人火星任务提供物质基础。"
+wechatShare:
+  title: "NASA推进月球资源提取技术研发，为可持续深空探测铺路"
+  desc: "NASA与工业伙伴正在联合研发从月壤中提取氢、氦-3等关键资源的技术，以支持阿尔忒弥斯计划框架下的长期月球任务，并为未来载人火星任务提供物质基础。"
+  image: "./figures/2026-05-04-nasa-lunar-resource-technologies/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-nasa-lunar-resource-technologies/
 author: 天疆说
 date: 2026-05-04
