@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Russia Launches Progress MS-34 Cargo Spacecraft to ISS"
 description: "Russia's Progress MS-34 cargo spacecraft lifted off aboard a Soyuz-2.1a rocket from Baikonur Cosmodrome, delivering over 2.5 tonnes of supplies to the International Space Station, with docking scheduled for April 28."
+wechatShare:
+  title: "Russia Launches Progress MS-34 Cargo Spacecraft to ISS"
+  desc: "Russia's Progress MS-34 cargo spacecraft lifted off aboard a Soyuz-2.1a rocket from Baikonur Cosmodrome, delivering over 2.5 tonnes of supplies to the International Space Station, with docking scheduled for April 28."
+  image: "./figures/2026-04-26-progress-ms-34-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-26-progress-ms-34-launch/
 author: Tianjiangshuo
 date: 2026-04-26

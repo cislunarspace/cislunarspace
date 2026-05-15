@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA在空间站研究肺炎细菌对心脏的损害：为地球心血管疾病提供新思路"
 description: "国际空间站上的实验发现，肺炎细菌在微重力环境下更具毒性和耐药性，可导致心脏长期损伤，研究成果有助于开发地球心血管疾病新疗法。"
+wechatShare:
+  title: "NASA在空间站研究肺炎细菌对心脏的损害：为地球心血管疾病提供新思路"
+  desc: "国际空间站上的实验发现，肺炎细菌在微重力环境下更具毒性和耐药性，可导致心脏长期损伤，研究成果有助于开发地球心血管疾病新疗法。"
+  image: "./figures/2026-05-13-nasa-iss-pneumonia-heart-research/hero.jpg"
 permalink: /space-news/2026/05/2026-05-13-nasa-iss-pneumonia-heart-research/
 author: 天疆说
 date: 2026-05-13

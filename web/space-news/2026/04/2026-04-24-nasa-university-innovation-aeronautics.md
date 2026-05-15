@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA 大学创新联盟迎来十周年：推动航空领域突破性创新"
 description: "NASA 宣布其大学创新联盟（University Leadership Initiative）迎来十周年，该计划已帮助 NASA 在航空领域取得多项突破性创新，同时培养了下一代航空人才。"
+wechatShare:
+  title: "NASA 大学创新联盟迎来十周年：推动航空领域突破性创新"
+  desc: "NASA 宣布其大学创新联盟（University Leadership Initiative）迎来十周年，该计划已帮助 NASA 在航空领域取得多项突破性创新，同时培养了下一代航空人才。"
+  image: "./figures/2026-04-24-nasa-university-innovation-aeronautics/hero.jpg"
 permalink: /space-news/2026/04/2026-04-24-nasa-university-innovation-aeronautics/
 author: 天疆说
 date: 2026-04-24

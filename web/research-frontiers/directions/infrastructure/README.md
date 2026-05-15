@@ -1,6 +1,10 @@
 ---
 title: 基础设施与经济
 description: 地月空间基础设施体系架构、资源开发与经济发展
+wechatShare:
+  title: '基础设施与经济'
+  desc: '地月空间基础设施体系架构、资源开发与经济发展'
+  image: /logo.png
 ---
 
 # 基础设施与经济

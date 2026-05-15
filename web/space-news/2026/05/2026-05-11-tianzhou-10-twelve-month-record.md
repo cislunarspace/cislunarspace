@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟十号将创造12个月在轨停靠纪录 中国空间站补给迈入「年度模式」"
 description: "天舟十号货运飞船在轨停靠时间将达12个月，超过此前历艘货运飞船，创系列新纪录，并携带67件科学实验物资共41项在轨实验项目"
+wechatShare:
+  title: "天舟十号将创造12个月在轨停靠纪录 中国空间站补给迈入「年度模式」"
+  desc: "天舟十号货运飞船在轨停靠时间将达12个月，超过此前历艘货运飞船，创系列新纪录，并携带67件科学实验物资共41项在轨实验项目"
+  image: "./figures/2026-05-11-tianzhou-10-twelve-month-record/hero.jpg"
 permalink: /space-news/2026/05/2026-05-11-tianzhou-10-twelve-month-record/
 author: 天疆说
 date: 2026-05-11

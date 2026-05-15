@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天瞳星座正式启动：国内首个220颗红外卫星组网规划发布"
 description: "4月22日，首届天瞳红外卫星产业发展大会在上海举行，蔚星科技宣布启动由220颗红外卫星组成的天瞳星座，计划今年年底发射首批10颗卫星，2030年完成组网。星座采用感算一体设计，可实现目标秒级识别、分钟级预警。"
+wechatShare:
+  title: "天瞳星座正式启动：国内首个220颗红外卫星组网规划发布"
+  desc: "4月22日，首届天瞳红外卫星产业发展大会在上海举行，蔚星科技宣布启动由220颗红外卫星组成的天瞳星座，计划今年年底发射首批10颗卫星，2030年完成组网。星座采用感算一体设计，可实现目标秒级识别、分钟级预警。"
+  image: "./figures/2026-04-22-tiankong-constellation-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-tiankong-constellation-launch/
 author: 天疆说
 date: 2026-04-22

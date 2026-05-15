@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector"
 description: "A NASA-supported CubeSat called SNAPPY launched aboard a SpaceX Falcon 9 from Vandenberg to test a prototype solar neutrino detector in low Earth orbit."
+wechatShare:
+  title: "NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector"
+  desc: "A NASA-supported CubeSat called SNAPPY launched aboard a SpaceX Falcon 9 from Vandenberg to test a prototype solar neutrino detector in low Earth orbit."
+  image: "./figures/2026-05-07-snappy-cubesat-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-snappy-cubesat-launch/
 author: Tianjiangshuo
 date: 2026-05-07

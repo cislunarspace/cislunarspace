@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "世界首次：人工胚胎样本在中国空间站进入太空实验阶段"
 description: "随天舟十号上行的人类人工胚胎实验样本已在空间站实验模块安装就位，这是世界首次在太空开展此类实验，对人类长期太空驻留研究意义重大。"
+wechatShare:
+  title: "世界首次：人工胚胎样本在中国空间站进入太空实验阶段"
+  desc: "随天舟十号上行的人类人工胚胎实验样本已在空间站实验模块安装就位，这是世界首次在太空开展此类实验，对人类长期太空驻留研究意义重大。"
+  image: "./figures/2026-05-13-tianzhou-10-artificial-embryo/hero.jpg"
 permalink: /space-news/2026/05/2026-05-13-tianzhou-10-artificial-embryo/
 author: 天疆说
 date: 2026-05-13

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "New NASA Technology Simulates Extreme Cold of the Lunar Night"
 description: "A NASA Glenn team has developed a groundbreaking ground-test method that can replicate the extreme cold of the lunar night, reaching temperatures as low as -173°C, to verify materials and systems for lunar surface operations."
+wechatShare:
+  title: "New NASA Technology Simulates Extreme Cold of the Lunar Night"
+  desc: "A NASA Glenn team has developed a groundbreaking ground-test method that can replicate the extreme cold of the lunar night, reaching temperatures as low as -173°C, to verify materials and systems for lunar surface operations."
+  image: "./figures/2026-05-06-nasa-lunar-night-tech/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-nasa-lunar-night-tech/
 author: Tianjiangshuo
 date: 2026-05-06

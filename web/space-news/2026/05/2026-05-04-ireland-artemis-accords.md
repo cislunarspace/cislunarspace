@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "爱尔兰签署《阿尔忒弥斯协定》，成为第66个签约国"
 description: "爱尔兰于2026年5月4日在NASA总部签署《阿尔忒弥斯协定》，成为全球第66个签约国，同时也是全部23个ESA成员国中最后一个加入该协议的国家。"
+wechatShare:
+  title: "爱尔兰签署《阿尔忒弥斯协定》，成为第66个签约国"
+  desc: "爱尔兰于2026年5月4日在NASA总部签署《阿尔忒弥斯协定》，成为全球第66个签约国，同时也是全部23个ESA成员国中最后一个加入该协议的国家。"
+  image: "./figures/2026-05-04-ireland-artemis-accords/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-ireland-artemis-accords/
 author: 天疆说
 date: 2026-05-04

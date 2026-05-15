@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "US Space Force Releases Officer Career Development Path Document"
 description: "The US Space Force published the Officer Career Development Path document, outlining a 20-year 'career delta' for newly commissioned officers, emphasizing a 'Guardians first, specialists second' philosophy."
+wechatShare:
+  title: "US Space Force Releases Officer Career Development Path Document"
+  desc: "The US Space Force published the Officer Career Development Path document, outlining a 20-year 'career delta' for newly commissioned officers, emphasizing a 'Guardians first, specialists second' philosophy."
+  image: "./figures/2026-05-12-us-space-force-officer-career-path/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-us-space-force-officer-career-path/
 author: Tianjiangshuo
 date: 2026-05-12

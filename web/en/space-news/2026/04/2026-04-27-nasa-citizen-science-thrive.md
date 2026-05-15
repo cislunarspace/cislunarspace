@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Invites Public to Join Citizen Science: Everyone Can Be Part of Space Exploration"
 description: "NASA published an article on April 27 introducing how the public can participate in space exploration through citizen science projects, including lunar flash observations during Artemis II and pepper plant cultivation experiments for future deep space missions."
+wechatShare:
+  title: "NASA Invites Public to Join Citizen Science: Everyone Can Be Part of Space Exploration"
+  desc: "NASA published an article on April 27 introducing how the public can participate in space exploration through citizen science projects, including lunar flash observations during Artemis II and pepper plant cultivation experiments for future deep space missions."
+  image: "./figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-nasa-citizen-science-thrive/
 author: Tianjiangshuo
 date: 2026-04-27

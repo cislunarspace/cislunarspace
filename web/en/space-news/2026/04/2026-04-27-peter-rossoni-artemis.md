@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "I Am Artemis: Peter Rossoni and Orion's Optical Communications System"
 description: "NASA's Artemis II mission flight manager Peter Rossoni grew up watching Apollo launches with his family and now leads the optical communications system for the Orion spacecraft on humanity's return to the Moon."
+wechatShare:
+  title: "I Am Artemis: Peter Rossoni and Orion's Optical Communications System"
+  desc: "NASA's Artemis II mission flight manager Peter Rossoni grew up watching Apollo launches with his family and now leads the optical communications system for the Orion spacecraft on humanity's return to the Moon."
+  image: "./figures/2026-04-27-peter-rossoni-artemis/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-peter-rossoni-artemis/
 author: Tianjiangshuo
 date: 2026-04-27

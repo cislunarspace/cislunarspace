@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA阿尔忒弥斯2号航天员敲响纳斯达克收市钟"
 description: "NASA阿尔忒弥斯2号任务航天员在纽约纳斯达克交易所敲响收市钟，纪念人类近50年来首次载人绕月飞行任务的圆满成功。"
+wechatShare:
+  title: "NASA阿尔忒弥斯2号航天员敲响纳斯达克收市钟"
+  desc: "NASA阿尔忒弥斯2号任务航天员在纽约纳斯达克交易所敲响收市钟，纪念人类近50年来首次载人绕月飞行任务的圆满成功。"
+  image: "./figures/2026-05-01-artemis-ii-nasdaq-closing-bell/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-artemis-ii-nasdaq-closing-bell/
 author: 天疆说
 date: 2026-05-01

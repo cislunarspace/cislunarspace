@@ -1,6 +1,10 @@
 ---
 title: 可达集（Reachable Set）
 description: 详细解析可达集的定义、计算方法及其在地月空间态势感知架构韧性分析中的应用
+wechatShare:
+  title: 可达集（Reachable Set）
+  desc: 详细解析可达集的定义、计算方法及其在地月空间态势感知架构韧性分析中的应用
+  image: /logo.png
 keywords: 可达集, Reachable Set, Reachability, 地月空间, 态势感知, 韧性分析, 低推力, 轨迹分析
 author: 天疆说
 date: 2026-04-29

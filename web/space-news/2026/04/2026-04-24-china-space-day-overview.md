@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "奋楫问天路，逐梦探苍穹——中国航天事业高质量发展综述"
 description: "4月24日是第11个中国航天日，回顾我国航天事业创建70年来的重大成就：神舟二十一号乘组刷新航天员出舱活动次数纪录，载人航天应急发射16天快速响应，中国空间站常态化运行，探月工程不断突破。"
+wechatShare:
+  title: "奋楫问天路，逐梦探苍穹——中国航天事业高质量发展综述"
+  desc: "4月24日是第11个中国航天日，回顾我国航天事业创建70年来的重大成就：神舟二十一号乘组刷新航天员出舱活动次数纪录，载人航天应急发射16天快速响应，中国空间站常态化运行，探月工程不断突破。"
+  image: "./figures/2026-04-24-china-space-day-overview/hero.jpg"
 permalink: /space-news/2026/04/2026-04-24-china-space-day-overview/
 author: 天疆说
 date: 2026-04-24

@@ -1,6 +1,10 @@
 ---
 title: {方向中文名称}
 description: {一句话描述该方向的研究内容}
+wechatShare:
+  title: '{方向中文名称}'
+  desc: '{一句话描述该方向的研究内容}'
+  image: /logo.png
 ---
 
 # {方向中文名称}

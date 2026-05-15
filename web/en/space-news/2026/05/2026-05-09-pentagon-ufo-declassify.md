@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos"
 description: "The Pentagon released its first batch of 161 declassified UFO files on May 8, 2026, including nearly 30 secret videos captured by various military platforms, marking the largest UFO disclosure in U.S. government history."
+wechatShare:
+  title: "Pentagon Releases First Tranche of Declassified UFO Files, Including Nearly 30 Secret Videos"
+  desc: "The Pentagon released its first batch of 161 declassified UFO files on May 8, 2026, including nearly 30 secret videos captured by various military platforms, marking the largest UFO disclosure in U.S. government history."
+  image: "./figures/2026-05-09-pentagon-ufo-declassify/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-09-pentagon-ufo-declassify/
 author: Tianjiangshuo
 date: 2026-05-09

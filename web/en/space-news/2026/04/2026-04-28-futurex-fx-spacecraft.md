@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "FutureX Unveils FX Series Commercial Spacecraft for Satellite Deployment and Orbital Services"
 description: "On April 28, 2026, Chinese commercial space company FutureX unveiled the FX series of space vehicles in Xiong'an New Area, China's first commercial spacecraft line serving both satellite constellation deployment and orbital services, with FX-1 maiden flight planned for Q3 2026."
+wechatShare:
+  title: "FutureX Unveils FX Series Commercial Spacecraft for Satellite Deployment and Orbital Services"
+  desc: "On April 28, 2026, Chinese commercial space company FutureX unveiled the FX series of space vehicles in Xiong'an New Area, China's first commercial spacecraft line serving both satellite constellation deployment and orbital services, with FX-1 maiden flight planned for Q3 2026."
+  image: "./figures/2026-04-28-futurex-fx-spacecraft/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft/
 author: Tianjiangshuo
 date: 2026-04-28

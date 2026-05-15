@@ -1,6 +1,10 @@
 ---
 title: 低推力增强圆形限制性三体问题（CR3BP-LT）
 description: CR3BP-LT是标准圆形限制性三体问题模型加入了低推力加速度项的扩展，用于研究连续低推力推进下的地月空间轨道转移
+wechatShare:
+  title: 低推力增强圆形限制性三体问题（CR3BP-LT）
+  desc: CR3BP-LT是标准圆形限制性三体问题模型加入了低推力加速度项的扩展，用于研究连续低推力推进下的地月空间轨道转移
+  image: /logo.png
 keywords: CR3BP-LT, 低推力三体问题, 地月空间, 轨道优化, 低推力推进, 最优控制, CR3BP
 author: 天疆说
 date: 2026-04-27

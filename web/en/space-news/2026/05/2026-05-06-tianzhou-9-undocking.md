@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station"
 description: "The Tianzhou-9 cargo spacecraft successfully undocked from the Tiangong Space Station on May 6, 2026, and will conduct a controlled re-entry into Earth's atmosphere in the coming days."
+wechatShare:
+  title: "Tianzhou-9 Cargo Spacecraft Undocks from Tiangong Space Station"
+  desc: "The Tianzhou-9 cargo spacecraft successfully undocked from the Tiangong Space Station on May 6, 2026, and will conduct a controlled re-entry into Earth's atmosphere in the coming days."
+  image: "./figures/2026-05-06-tianzhou-9-undocking/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-tianzhou-9-undocking/
 author: Tianjiangshuo
 date: 2026-05-06

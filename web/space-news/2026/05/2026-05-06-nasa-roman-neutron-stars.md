@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA罗曼太空望远镜将革新对神秘中子星的搜寻"
 description: "NASA南希·格雷斯·罗曼太空望远镜将利用其宽视场红外能力，系统性搜寻银河系中散落的神秘中子星，预计将于2026年9月后发射。"
+wechatShare:
+  title: "NASA罗曼太空望远镜将革新对神秘中子星的搜寻"
+  desc: "NASA南希·格雷斯·罗曼太空望远镜将利用其宽视场红外能力，系统性搜寻银河系中散落的神秘中子星，预计将于2026年9月后发射。"
+  image: "./figures/2026-05-06-nasa-roman-neutron-stars/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-nasa-roman-neutron-stars/
 author: 天疆说
 date: 2026-05-06

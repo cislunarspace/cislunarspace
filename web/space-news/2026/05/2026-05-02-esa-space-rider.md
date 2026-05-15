@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "ESA太空骑行器全尺寸试验模型完成组装"
 description: "欧洲航天局宣布，Space Rider可重复使用太空运输系统的首个全尺寸试验模型已完成组装，标志着欧洲向实现可复用太空货运能力迈出关键一步。"
+wechatShare:
+  title: "ESA太空骑行器全尺寸试验模型完成组装"
+  desc: "欧洲航天局宣布，Space Rider可重复使用太空运输系统的首个全尺寸试验模型已完成组装，标志着欧洲向实现可复用太空货运能力迈出关键一步。"
+  image: "./figures/2026-05-02-esa-space-rider/hero.jpg"
 permalink: /space-news/2026/05/2026-05-02-esa-space-rider/
 author: 天疆说
 date: 2026-05-02

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis 2 Crew Witnesses Impact Flashes on the Far Side of the Moon"
 description: "NASA Artemis 2 astronauts observed multiple meteoroid impact flashes on the lunar far side during their April 6 flyby, the first direct human observations of such phenomena in cislunar space."
+wechatShare:
+  title: "Artemis 2 Crew Witnesses Impact Flashes on the Far Side of the Moon"
+  desc: "NASA Artemis 2 astronauts observed multiple meteoroid impact flashes on the lunar far side during their April 6 flyby, the first direct human observations of such phenomena in cislunar space."
+  image: "./figures/2026-05-08-artemis-2-far-side-flashes/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-artemis-2-far-side-flashes/
 author: Tianjiangshuo
 date: 2026-05-08

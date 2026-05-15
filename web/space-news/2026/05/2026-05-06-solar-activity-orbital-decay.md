@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "太阳活动加剧导致太空碎片更快坠入大气层"
 description: "科学家通过36年数据研究，发现太阳活动增强会使太空碎片更快坠入地球大气层，为未来可持续太空操作提供关键参考。"
+wechatShare:
+  title: "太阳活动加剧导致太空碎片更快坠入大气层"
+  desc: "科学家通过36年数据研究，发现太阳活动增强会使太空碎片更快坠入地球大气层，为未来可持续太空操作提供关键参考。"
+  image: "./figures/2026-05-06-solar-activity-orbital-decay/hero.jpg"
 permalink: /space-news/2026/05/2026-05-06-solar-activity-orbital-decay/
 author: 天疆说
 date: 2026-05-06

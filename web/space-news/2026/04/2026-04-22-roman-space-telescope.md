@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Nancy Grace 罗马太空望远镜瞄准2026年9月初发射"
 description: "NASA 宣布其 Nancy Grace 罗马太空望远镜团队已将发射目标瞄准至2026年9月初，早于机构承诺的最迟飞行日期。"
+wechatShare:
+  title: "NASA Nancy Grace 罗马太空望远镜瞄准2026年9月初发射"
+  desc: "NASA 宣布其 Nancy Grace 罗马太空望远镜团队已将发射目标瞄准至2026年9月初，早于机构承诺的最迟飞行日期。"
+  image: "./figures/2026-04-22-roman-space-telescope/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-roman-space-telescope/
 author: 天疆说
 date: 2026-04-22

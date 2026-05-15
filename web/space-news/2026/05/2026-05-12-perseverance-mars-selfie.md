@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA毅力号火星车在火星西部前沿拍摄自拍全景图"
 description: "NASA毅力号火星车在火星西部前沿拍摄最新自拍全景图，刷新火星自拍数量纪录，图像由WATSON相机多张照片拼接合成。"
+wechatShare:
+  title: "NASA毅力号火星车在火星西部前沿拍摄自拍全景图"
+  desc: "NASA毅力号火星车在火星西部前沿拍摄最新自拍全景图，刷新火星自拍数量纪录，图像由WATSON相机多张照片拼接合成。"
+  image: "./figures/2026-05-12-perseverance-mars-selfie/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-perseverance-mars-selfie/
 author: 天疆说
 date: 2026-05-12

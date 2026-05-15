@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China to Launch World's First GEO Microwave Atmospheric Sounding Satellite"
 description: "China's Meteorological Administration announced at a State Council Information Office press conference that the country will launch the world's first geostationary orbit microwave atmospheric sounding satellite (Fengyun-4 Microwave Satellite) during the 15th Five-Year Plan period, targeting launch around 2026."
+wechatShare:
+  title: "China to Launch World's First GEO Microwave Atmospheric Sounding Satellite"
+  desc: "China's Meteorological Administration announced at a State Council Information Office press conference that the country will launch the world's first geostationary orbit microwave atmospheric sounding satellite (Fengyun-4 Microwave Satellite) during the 15th Five-Year Plan period, targeting launch around 2026."
+  image: "./figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-28-fengyun-4-microwave-satellite/
 author: Tianjiangshuo
 date: 2026-04-28

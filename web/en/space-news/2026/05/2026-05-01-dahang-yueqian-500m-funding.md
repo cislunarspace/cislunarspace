@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Dahang Yuetqian Raises 500 Million RMB in New Funding Round to Accelerate Reusable Rocket Development"
 description: "Shanghai-based commercial space company Dahang Yuetqian has completed a 500 million RMB (approximately $69 million) financing round to advance its first orbital-class reusable rocket, the Yuetqian-1, with a planned maiden flight in 2027."
+wechatShare:
+  title: "Dahang Yuetqian Raises 500 Million RMB in New Funding Round to Accelerate Reusable Rocket Development"
+  desc: "Shanghai-based commercial space company Dahang Yuetqian has completed a 500 million RMB (approximately $69 million) financing round to advance its first orbital-class reusable rocket, the Yuetqian-1, with a planned maiden flight in 2027."
+  image: "./figures/2026-05-01-dahang-yueqian-500m-funding/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-dahang-yueqian-500m-funding/
 author: Tianjiangshuo
 date: 2026-05-01

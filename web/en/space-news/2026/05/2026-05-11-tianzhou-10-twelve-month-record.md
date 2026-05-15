@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Tianzhou-10 Sets 12-Month Space Station Docking Record, China's Cargo Resupply Enters 'Annual Mode'"
 description: "Tianzhou-10 cargo spacecraft will remain docked to Tiangong for 12 months, setting a new record for the Tianzhou series and marking China's space station supply chain entering an annual resupply era."
+wechatShare:
+  title: "Tianzhou-10 Sets 12-Month Space Station Docking Record, China's Cargo Resupply Enters 'Annual Mode'"
+  desc: "Tianzhou-10 cargo spacecraft will remain docked to Tiangong for 12 months, setting a new record for the Tianzhou series and marking China's space station supply chain entering an annual resupply era."
+  image: "./figures/2026-05-11-tianzhou-10-twelve-month-record/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-11-tianzhou-10-twelve-month-record/
 author: Tianjiangshuo
 date: 2026-05-11

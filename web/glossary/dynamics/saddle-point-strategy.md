@@ -1,6 +1,10 @@
 ---
 title: 鞍点策略（Saddle-Point Strategy）
 description: 鞍点策略是零和微分对策中双方的最优策略组合，在该策略下任何单方面偏离都会导致自身收益下降。
+wechatShare:
+  title: 鞍点策略（Saddle-Point Strategy）
+  desc: 鞍点策略是零和微分对策中双方的最优策略组合，在该策略下任何单方面偏离都会导致自身收益下降。
+  image: /logo.png
 keywords: 鞍点策略, Saddle-Point Strategy, 微分对策, 零和博弈, 最优控制, 追逃博弈
 author: 天疆说
 date: 2026-04-29

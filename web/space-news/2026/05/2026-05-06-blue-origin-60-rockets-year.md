@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源公布新格伦火箭年产60台上目标"
 description: "蓝色起源公布新格伦火箭产能爬坡路线图，计划2028年第三季度实现第二级年产60台，2029年冲击年产100台，并通过「Quattro」升级构型（9台BE-4第一级+4台BE-3U第二级）支撑频繁月球任务。"
+wechatShare:
+  title: "蓝色起源公布新格伦火箭年产60台上目标"
+  desc: "蓝色起源公布新格伦火箭产能爬坡路线图，计划2028年第三季度实现第二级年产60台，2029年冲击年产100台，并通过「Quattro」升级构型（9台BE-4第一级+4台BE-3U第二级）支撑频繁月球任务。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-06-blue-origin-60-rockets-year/
 author: 天疆说
 date: 2026-05-06

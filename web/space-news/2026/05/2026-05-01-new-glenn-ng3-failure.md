@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝色起源新格伦火箭第三次发射失利，第二级异常导致BlueBird 7卫星未入预定轨道"
 description: "2026年4月19日，蓝色起源新格伦火箭执行第三次发射任务NG-3，第二级故障导致AST SpaceMobile的BlueBird 7卫星被送入低于计划的轨道，卫星将受控再入大气层烧毁。"
+wechatShare:
+  title: "蓝色起源新格伦火箭第三次发射失利，第二级异常导致BlueBird 7卫星未入预定轨道"
+  desc: "2026年4月19日，蓝色起源新格伦火箭执行第三次发射任务NG-3，第二级故障导致AST SpaceMobile的BlueBird 7卫星被送入低于计划的轨道，卫星将受控再入大气层烧毁。"
+  image: "./figures/2026-05-01-new-glenn-ng3-failure/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-new-glenn-ng3-failure/
 author: 天疆说
 date: 2026-04-20

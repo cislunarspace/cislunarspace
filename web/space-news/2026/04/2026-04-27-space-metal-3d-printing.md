@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "太空金属增材制造技术在轻舟试验飞船完成演示验证"
 description: "中科院联合团队在轻舟试验飞船上成功完成太空金属增材制造技术演示验证，在600公里轨道采用激光熔丝技术完成金属熔融沉积，标志着我国初步具备太空金属制造系统级验证能力。"
+wechatShare:
+  title: "太空金属增材制造技术在轻舟试验飞船完成演示验证"
+  desc: "中科院联合团队在轻舟试验飞船上成功完成太空金属增材制造技术演示验证，在600公里轨道采用激光熔丝技术完成金属熔融沉积，标志着我国初步具备太空金属制造系统级验证能力。"
+  image: "./figures/2026-04-27-space-metal-3d-printing/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-space-metal-3d-printing/
 author: 天疆说
 date: 2026-04-27

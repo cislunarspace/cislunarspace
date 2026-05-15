@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "国家航天局召开商业航天高质量发展企业圆桌会议"
 description: "国家航天局局长单忠德主持召开商业航天高质量发展企业圆桌会议，14家商业航天企业负责人参会，共商产业化发展路径。"
+wechatShare:
+  title: "国家航天局召开商业航天高质量发展企业圆桌会议"
+  desc: "国家航天局局长单忠德主持召开商业航天高质量发展企业圆桌会议，14家商业航天企业负责人参会，共商产业化发展路径。"
+  image: "./figures/2026-05-02-cnsa-commercial-space-meeting/hero.png"
 permalink: /space-news/2026/05/2026-05-02-cnsa-commercial-space-meeting/
 author: 天疆说
 date: 2026-05-02

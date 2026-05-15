@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Dragonfly Rotorcraft Enters Final Assembly and Testing Phase"
 description: "NASA's Dragonfly mission to Saturn's moon Titan enters final assembly and testing phase, with the team beginning installation of panels that make up the rotorcraft lander's body, planned for launch no earlier than 2027."
+wechatShare:
+  title: "NASA's Dragonfly Rotorcraft Enters Final Assembly and Testing Phase"
+  desc: "NASA's Dragonfly mission to Saturn's moon Titan enters final assembly and testing phase, with the team beginning installation of panels that make up the rotorcraft lander's body, planned for launch no earlier than 2027."
+  image: "./figures/2026-04-23-nasa-dragonfly-rotorcraft-tested/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-dragonfly-rotorcraft-tested/
 author: Tianjiangshuo
 date: 2026-04-23

@@ -3,6 +3,10 @@ title: STK
 description: AGI（Ansys）商业空间仿真平台，提供高级分析可视化和报告
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: STK
+  desc: AGI（Ansys）商业空间仿真平台，提供高级分析可视化和报告
+  image: /logo.png
 ---
 
 ## 简介

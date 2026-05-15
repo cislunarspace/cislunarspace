@@ -1,6 +1,10 @@
 ---
 title: 通信与信息网络
 description: 地月空间通信网络架构、协议设计与信息传输技术
+wechatShare:
+  title: '通信与信息网络'
+  desc: '地月空间通信网络架构、协议设计与信息传输技术'
+  image: /logo.png
 ---
 
 # 通信与信息网络

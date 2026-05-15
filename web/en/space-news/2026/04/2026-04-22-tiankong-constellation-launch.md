@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Tiankong Constellation Officially Launched: China's First 220-Satellite Infrared Constellation Plan Unveiled"
 description: "On April 22, the first Tiankong Infrared Satellite Industry Conference was held in Shanghai, where Weixing Technology announced the launch of the Tiankong Constellation — China's first commercial infrared satellite constellation planned with 220 satellites. Featuring sensing-computing integrated design, the constellation will enable second-level target identification and minute-level early warning, with first batch of 10 satellites slated for launch by end of 2026."
+wechatShare:
+  title: "Tiankong Constellation Officially Launched: China's First 220-Satellite Infrared Constellation Plan Unveiled"
+  desc: "On April 22, the first Tiankong Infrared Satellite Industry Conference was held in Shanghai, where Weixing Technology announced the launch of the Tiankong Constellation — China's first commercial infrared satellite constellation planned with 220 satellites. Featuring sensing-computing integrated design, the constellation will enable second-level target identification and minute-level early warning, with first batch of 10 satellites slated for launch by end of 2026."
+  image: "./figures/2026-04-22-tiankong-constellation-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-tiankong-constellation-launch/
 author: Tianjiangshuo
 date: 2026-04-22

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "谷歌与SpaceX洽谈在轨数据中心发射合作：双方可能在太空算力领域形成競合关系"
 description: "谷歌正与SpaceX就火箭发射协议进行谈判，以推进其「捕日者计划」轨道数据中心项目，计划于2027年前发射原型卫星，在近地轨道部署太阳能供电的数据中心集群。"
+wechatShare:
+  title: "谷歌与SpaceX洽谈在轨数据中心发射合作：双方可能在太空算力领域形成競合关系"
+  desc: "谷歌正与SpaceX就火箭发射协议进行谈判，以推进其「捕日者计划」轨道数据中心项目，计划于2027年前发射原型卫星，在近地轨道部署太阳能供电的数据中心集群。"
+  image: "./figures/2026-05-13-google-spacex-orbital-data-center/hero.jpg"
 permalink: /space-news/2026/05/2026-05-13-google-spacex-orbital-data-center/
 author: 天疆说
 date: 2026-05-13

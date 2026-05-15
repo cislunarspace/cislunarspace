@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Blue Origin Blue Moon Mark 2 Crew Cabin Mockup Arrives at NASA Johnson Space Center"
 description: "A full-scale mockup of the crew cabin for Blue Origin's Blue Moon Mark 2 lander arrived at NASA's Johnson Space Center in Houston for astronaut training under the Artemis program."
+wechatShare:
+  title: "Blue Origin Blue Moon Mark 2 Crew Cabin Mockup Arrives at NASA Johnson Space Center"
+  desc: "A full-scale mockup of the crew cabin for Blue Origin's Blue Moon Mark 2 lander arrived at NASA's Johnson Space Center in Houston for astronaut training under the Artemis program."
+  image: "./figures/2026-05-07-lunar-lander-training-cabin/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-lunar-lander-training-cabin/
 author: Tianjiangshuo
 date: 2026-05-07

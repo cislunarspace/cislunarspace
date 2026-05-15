@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "马伟明院士提出青藏高原电磁发射轨道构想，或将颠覆传统航天发射方式"
 description: "中国工程院院士马伟明提出在青藏高原建设电磁发射轨道的大胆构想，利用电磁力将火箭直接「甩」入太空，有望将发射成本降低九成。"
+wechatShare:
+  title: "马伟明院士提出青藏高原电磁发射轨道构想，或将颠覆传统航天发射方式"
+  desc: "中国工程院院士马伟明提出在青藏高原建设电磁发射轨道的大胆构想，利用电磁力将火箭直接「甩」入太空，有望将发射成本降低九成。"
+  image: "./figures/2026-04-29-ma-weiming-em-launch-concept/hero.jpg"
 permalink: /space-news/2026/04/2026-04-29-ma-weiming-em-launch-concept/
 author: 天疆说
 date: 2026-04-29

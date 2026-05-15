@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA再生燃料电池技术取得突破 为月球任务储能提供新方案"
 description: "NASA格林研究中心正在测试一种新型再生燃料电池系统，可为未来月球和火星任务提供全新电力和储能解决方案。"
+wechatShare:
+  title: "NASA再生燃料电池技术取得突破 为月球任务储能提供新方案"
+  desc: "NASA格林研究中心正在测试一种新型再生燃料电池系统，可为未来月球和火星任务提供全新电力和储能解决方案。"
+  image: "./figures/2026-05-08-nasa-fuel-cell-moon/hero.jpg"
 permalink: /space-news/2026/05/2026-05-08-nasa-fuel-cell-moon/
 author: 天疆说
 date: 2026-05-08

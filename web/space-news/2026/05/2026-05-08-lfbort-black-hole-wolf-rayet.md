@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "黑洞或中子星撞击沃尔夫-拉叶星 或可解释宇宙最神秘蓝色爆炸"
 description: "天文学家利用新研究提出，LFBOT——宇宙中最明亮、最快速的蓝色光学瞬态爆炸，可能源于致密天体撞击沃尔夫-拉叶星而非传统超新星机制。"
+wechatShare:
+  title: "黑洞或中子星撞击沃尔夫-拉叶星 或可解释宇宙最神秘蓝色爆炸"
+  desc: "天文学家利用新研究提出，LFBOT——宇宙中最明亮、最快速的蓝色光学瞬态爆炸，可能源于致密天体撞击沃尔夫-拉叶星而非传统超新星机制。"
+  image: "./figures/2026-05-08-lfbort-black-hole-wolf-rayet/hero.jpg"
 permalink: /space-news/2026/05/2026-05-08-lfbort-black-hole-wolf-rayet/
 author: 天疆说
 date: 2026-05-08

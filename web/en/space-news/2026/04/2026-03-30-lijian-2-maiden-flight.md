@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "CAS Space's Lijian-2 (Yao-1) Rocket Scores Maiden Flight Success, Places Three Satellites in Orbit"
 description: "On March 30, 2026 at 19:00 Beijing Time, CAS Space's Lijian-2 (Yao-1) carrier rocket successfully completed its maiden flight from the Dongfeng Commercial Space Innovation Test Zone, placing three satellites — Xinzhengcheng-01, Xinzhengcheng-02, and Tianshi-01 — into their target orbits."
+wechatShare:
+  title: "CAS Space's Lijian-2 (Yao-1) Rocket Scores Maiden Flight Success, Places Three Satellites in Orbit"
+  desc: "On March 30, 2026 at 19:00 Beijing Time, CAS Space's Lijian-2 (Yao-1) carrier rocket successfully completed its maiden flight from the Dongfeng Commercial Space Innovation Test Zone, placing three satellites — Xinzhengcheng-01, Xinzhengcheng-02, and Tianshi-01 — into their target orbits."
+  image: "./figures/2026-03-30-lijian-2-maiden-flight/hero.jpg"
 permalink: /en/space-news/2026/04/2026-03-30-lijian-2-maiden-flight/
 author: Tianjiangshuo
 date: 2026-03-30

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab Completes Mynaric Acquisition, Bolstering Laser Communications Portfolio"
 description: "Rocket Lab announces the completion of its acquisition of Mynaric, incorporating laser optical communications technology into its growing space systems portfolio."
+wechatShare:
+  title: "Rocket Lab Completes Mynaric Acquisition, Bolstering Laser Communications Portfolio"
+  desc: "Rocket Lab announces the completion of its acquisition of Mynaric, incorporating laser optical communications technology into its growing space systems portfolio."
+  image: "./figures/2026-04-22-rocket-lab-mynaric-acquisition/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-rocket-lab-mynaric-acquisition/
 author: Tianjiangshuo
 date: 2026-04-22

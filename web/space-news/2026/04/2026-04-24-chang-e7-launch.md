@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "嫦娥七号将于年内发射，开启月球极区探测新篇章"
 description: "国家航天局在第十一个中国航天日宣布，嫦娥七号将于2026年年内发射，执行月球极区探测任务。"
+wechatShare:
+  title: "嫦娥七号将于年内发射，开启月球极区探测新篇章"
+  desc: "国家航天局在第十一个中国航天日宣布，嫦娥七号将于2026年年内发射，执行月球极区探测任务。"
+  image: "./figures/2026-04-24-chang-e7-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-24-chang-e7-launch/
 author: 天疆说
 date: 2026-04-24

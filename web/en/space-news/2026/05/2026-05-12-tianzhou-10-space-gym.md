@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station"
 description: "Tianzhou-10 cargo spacecraft delivers a new upgraded space treadmill to China's Tiangong space station, joining bicycles, resistance trainers and core muscle devices to form a complete 'space gym' for astronauts."
+wechatShare:
+  title: "China's Tianzhou-10 Delivers New Space Treadmill to Tiangong Space Station"
+  desc: "Tianzhou-10 cargo spacecraft delivers a new upgraded space treadmill to China's Tiangong space station, joining bicycles, resistance trainers and core muscle devices to form a complete 'space gym' for astronauts."
+  image: "./figures/2026-05-12-tianzhou-10-space-gym/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-tianzhou-10-space-gym/
 author: Tianjiangshuo
 date: 2026-05-12

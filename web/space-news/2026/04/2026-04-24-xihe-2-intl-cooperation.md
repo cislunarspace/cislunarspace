@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "羲和二号向国际社会开放合作，携手探索太阳科学"
 description: "国家航天局在第十一个中国航天日发布羲和二号国际合作机遇公告，开放约15千克载荷搭载资源，邀请国际伙伴共同参与太阳立体观测任务。"
+wechatShare:
+  title: "羲和二号向国际社会开放合作，携手探索太阳科学"
+  desc: "国家航天局在第十一个中国航天日发布羲和二号国际合作机遇公告，开放约15千克载荷搭载资源，邀请国际伙伴共同参与太阳立体观测任务。"
+  image: "./figures/2026-04-24-xihe-2-intl-cooperation/hero.jpg"
 permalink: /space-news/2026/04/2026-04-24-xihe-2-intl-cooperation/
 author: 天疆说
 date: 2026-04-24

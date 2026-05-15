@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China Unveils Shenzhou-23 Crewed Mission Badge: Circular Emblem Blends Tradition and Modernity"
 description: "China's Manned Space Agency officially released the mission badge for the Shenzhou-23 crewed flight, featuring a circular design with the Long March 2F rocket, a flying apsaras figure, and golden auspicious clouds, symbolizing the three crew members."
+wechatShare:
+  title: "China Unveils Shenzhou-23 Crewed Mission Badge: Circular Emblem Blends Tradition and Modernity"
+  desc: "China's Manned Space Agency officially released the mission badge for the Shenzhou-23 crewed flight, featuring a circular design with the Long March 2F rocket, a flying apsaras figure, and golden auspicious clouds, symbolizing the three crew members."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-11-shenzhou-23-mission-badge/
 author: Tianjiangshuo
 date: 2026-05-11

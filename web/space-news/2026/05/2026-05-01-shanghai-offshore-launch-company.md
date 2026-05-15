@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "五家国央企联合成立海上发射公司，上海商业航天构建全产业链闭环"
 description: "2026年4月30日，上海商业航天海上发射技术有限公司正式成立，注册资本11亿元，由上海国盛、上海市莘庄工业区、垣信卫星、中海工程装备、中国航天科技集团商业火箭五家国央企联合出资，标志着上海商业航天全产业链关键环节补齐。"
+wechatShare:
+  title: "五家国央企联合成立海上发射公司，上海商业航天构建全产业链闭环"
+  desc: "2026年4月30日，上海商业航天海上发射技术有限公司正式成立，注册资本11亿元，由上海国盛、上海市莘庄工业区、垣信卫星、中海工程装备、中国航天科技集团商业火箭五家国央企联合出资，标志着上海商业航天全产业链关键环节补齐。"
+  image: "./figures/2026-05-01-shanghai-offshore-launch-company/hero.jpg"
 permalink: /space-news/2026/05/2026-05-01-shanghai-offshore-launch-company/
 author: 天疆说
 date: 2026-04-30

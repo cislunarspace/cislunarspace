@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA局长确认：SpaceX登月器和Blue Origin蓝月登月器最早2027年底就绪"
 description: "美东时间2026年4月27日，NASA局长贾里德·艾萨克曼在众议院拨款委员会NASA预算听证会上表示，SpaceX星舰登月版和Blue Origin蓝月登月器最早均需等到2027年底才能完成，用于Artemis III任务的地球轨道会合与对接测试。"
+wechatShare:
+  title: "NASA局长确认：SpaceX登月器和Blue Origin蓝月登月器最早2027年底就绪"
+  desc: "美东时间2026年4月27日，NASA局长贾里德·艾萨克曼在众议院拨款委员会NASA预算听证会上表示，SpaceX星舰登月版和Blue Origin蓝月登月器最早均需等到2027年底才能完成，用于Artemis III任务的地球轨道会合与对接测试。"
+  image: "./figures/2026-04-29-artemis-hls-starship-blue-origin-delay/hero.jpg"
 permalink: /space-news/2026/04/2026-04-29-artemis-hls-starship-blue-origin-delay/
 author: 天疆说
 date: 2026-04-29

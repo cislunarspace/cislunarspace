@@ -1,6 +1,10 @@
 ---
 title: 航天器意图识别（Spacecraft Intention Recognition）
 description: 航天器意图识别是通过观测目标航天器的轨道行为、搭载设备和环境条件，推断其目的或任务的技术，是空间态势感知和安全预警的重要研究方向。
+wechatShare:
+  title: 航天器意图识别（Spacecraft Intention Recognition）
+  desc: 航天器意图识别是通过观测目标航天器的轨道行为、搭载设备和环境条件，推断其目的或任务的技术，是空间态势感知和安全预警的重要研究方向。
+  image: /logo.png
 keywords: 航天器意图识别, 意图识别, 非合作目标, 大语言模型, 空间态势感知, 运动意图, 操作意图, 任务意图
 author: 天疆说
 date: 2026-04-27

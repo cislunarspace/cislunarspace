@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Tianhe Core Module Marks 5th Anniversary; China Space Station to Undergo Second Expansion"
 description: "April 29 marked the 5th anniversary of the Tianhe core module's launch. With expanding scientific missions and international cooperation, the China Space Station is set to undergo a major 'second expansion' forming a cross-shaped configuration."
+wechatShare:
+  title: "Tianhe Core Module Marks 5th Anniversary; China Space Station to Undergo Second Expansion"
+  desc: "April 29 marked the 5th anniversary of the Tianhe core module's launch. With expanding scientific missions and international cooperation, the China Space Station is set to undergo a major 'second expansion' forming a cross-shaped configuration."
+  image: "./figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-tianhe-core-5th-anniversary/
 author: Tianjiangshuo
 date: 2026-05-01

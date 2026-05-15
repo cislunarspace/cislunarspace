@@ -1,6 +1,10 @@
 ---
 title: NRHO（近直线晕轨道）
 description: NRHO（近直线晕轨道）概览：定义、动力学特性、轨道族分类与工程应用。
+wechatShare:
+  title: NRHO（近直线晕轨道）
+  desc: NRHO（近直线晕轨道）概览：定义、动力学特性、轨道族分类与工程应用。
+  image: /logo.png
 keywords: NRHO, 近直线晕轨道, L1 NRHO, L2 NRHO, halo orbit, 限制性三体
 author: 天疆说
 date: 2026-04-26

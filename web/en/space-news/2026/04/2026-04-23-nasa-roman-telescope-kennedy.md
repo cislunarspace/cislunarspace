@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA Kennedy Prepares Facility for Roman Space Telescope Arrival"
 description: "NASA's Kennedy Space Center is preparing facilities for the arrival of the Nancy Grace Roman Space Telescope, scheduled to launch no earlier than September on a SpaceX Falcon Heavy rocket."
+wechatShare:
+  title: "NASA Kennedy Prepares Facility for Roman Space Telescope Arrival"
+  desc: "NASA's Kennedy Space Center is preparing facilities for the arrival of the Nancy Grace Roman Space Telescope, scheduled to launch no earlier than September on a SpaceX Falcon Heavy rocket."
+  image: "./figures/2026-04-23-nasa-roman-telescope-kennedy/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-roman-telescope-kennedy/
 author: Tianjiangshuo
 date: 2026-04-23

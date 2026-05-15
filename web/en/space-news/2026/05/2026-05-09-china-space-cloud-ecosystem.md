@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "China's Space Cloud Initiative Unites 100+ Organizations for Integrated Satellite Services"
 description: "At the 2nd Aerospace Information Technology Conference, China's Aerospace Institute joined over 100 organizations to launch the Space Cloud Ecosystem Initiative, integrating communications, remote sensing, navigation and computing satellites."
+wechatShare:
+  title: "China's Space Cloud Initiative Unites 100+ Organizations for Integrated Satellite Services"
+  desc: "At the 2nd Aerospace Information Technology Conference, China's Aerospace Institute joined over 100 organizations to launch the Space Cloud Ecosystem Initiative, integrating communications, remote sensing, navigation and computing satellites."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-09-china-space-cloud-ecosystem/
 author: Tianjiangshuo
 date: 2026-05-09

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "JWST Makes First Direct Observation of an Exoplanet's Surface: 'A Dark, Hot, Barren Rock'"
 description: "NASA's James Webb Space Telescope has directly observed the surface of exoplanet LHS 3844b, revealing it as a dark, super-heated rock with no atmosphere, marking a new era in exoplanet surface geology."
+wechatShare:
+  title: "JWST Makes First Direct Observation of an Exoplanet's Surface: 'A Dark, Hot, Barren Rock'"
+  desc: "NASA's James Webb Space Telescope has directly observed the surface of exoplanet LHS 3844b, revealing it as a dark, super-heated rock with no atmosphere, marking a new era in exoplanet surface geology."
+  image: "./figures/2026-05-04-jwst-exoplanet-surface/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-jwst-exoplanet-surface/
 author: Tianjiangshuo
 date: 2026-05-04

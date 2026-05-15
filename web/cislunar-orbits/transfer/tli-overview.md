@@ -1,6 +1,10 @@
 ---
 title: TLI 概览
 description: 地月转移轨道插入（TLI）的原理、发射窗口、能量预算与典型任务参数分析。
+wechatShare:
+  title: TLI 概览
+  desc: 地月转移轨道插入（TLI）的原理、发射窗口、能量预算与典型任务参数分析。
+  image: /logo.png
 keywords: TLI, 地月转移轨道插入, 发射窗口, C3, 双曲面超速, Apollo, 嫦娥
 author: 天疆说
 date: 2026-04-26

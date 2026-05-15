@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Solar Activity Causes Space Junk to Crash to Earth Faster"
 description: "Scientists studying 36 years of orbital debris data find that increased solar activity causes space junk to fall into Earth's atmosphere at an accelerated rate, offering key insights for sustainable space operations."
+wechatShare:
+  title: "Solar Activity Causes Space Junk to Crash to Earth Faster"
+  desc: "Scientists studying 36 years of orbital debris data find that increased solar activity causes space junk to fall into Earth's atmosphere at an accelerated rate, offering key insights for sustainable space operations."
+  image: "./figures/2026-05-06-solar-activity-orbital-decay/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-solar-activity-orbital-decay/
 author: Tianjiangshuo
 date: 2026-05-06

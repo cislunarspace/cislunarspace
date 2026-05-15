@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis 2发射带动佛罗里达太空海岸近35万人观礼"
 description: "NASA Artemis 2载人绕月任务于4月1日发射，期间约34.6万名美国游客涌入佛罗里达州太空海岸，观众规模远超2022年Artemis 1的22.6万人。"
+wechatShare:
+  title: "Artemis 2发射带动佛罗里达太空海岸近35万人观礼"
+  desc: "NASA Artemis 2载人绕月任务于4月1日发射，期间约34.6万名美国游客涌入佛罗里达州太空海岸，观众规模远超2022年Artemis 1的22.6万人。"
+  image: "./figures/2026-05-07-artemis-2-space-coast-economy/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-artemis-2-space-coast-economy/
 author: 天疆说
 date: 2026-05-07

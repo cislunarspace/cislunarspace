@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Commercial Space Recoverable Rocket Development Window Forum Successfully Held in Beijing"
 description: "A forum on the development window for commercial recoverable rockets was successfully held in Beijing on April 29, bringing together representatives from major domestic commercial rocket companies and research institutions."
+wechatShare:
+  title: "Commercial Space Recoverable Rocket Development Window Forum Successfully Held in Beijing"
+  desc: "A forum on the development window for commercial recoverable rockets was successfully held in Beijing on April 29, bringing together representatives from major domestic commercial rocket companies and research institutions."
+  image: "./figures/2026-04-29-commercial-recoverable-rocket-window/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-29-commercial-recoverable-rocket-window/
 author: Tianjiangshuo
 date: 2026-04-29

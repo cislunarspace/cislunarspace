@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "蓝箭航天朱雀二号改进型遥五发射成功"
 description: "2026年5月14日，蓝箭航天朱雀二号改进型遥五运载火箭在东风商业航天创新试验区发射成功，二子级进入预定轨道，发射任务取得圆满成功。"
+wechatShare:
+  title: "蓝箭航天朱雀二号改进型遥五发射成功"
+  desc: "2026年5月14日，蓝箭航天朱雀二号改进型遥五运载火箭在东风商业航天创新试验区发射成功，二子级进入预定轨道，发射任务取得圆满成功。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-14-zhuque-2e-y5-launch/
 author: 天疆说
 date: 2026-05-14

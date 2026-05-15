@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "马耳他签署《阿尔忒弥斯协定》，成为第65个签约国"
 description: "马耳他于5月4日在卡尔卡拉镇举行仪式，正式签署《阿尔忒弥斯协定》，成为全球第65个签约国，进一步扩大了美国主导的月球探索联盟。"
+wechatShare:
+  title: "马耳他签署《阿尔忒弥斯协定》，成为第65个签约国"
+  desc: "马耳他于5月4日在卡尔卡拉镇举行仪式，正式签署《阿尔忒弥斯协定》，成为全球第65个签约国，进一步扩大了美国主导的月球探索联盟。"
+  image: "./figures/2026-05-04-malta-artemis-accords/hero.jpg"
 permalink: /space-news/2026/05/2026-05-04-malta-artemis-accords/
 author: 天疆说
 date: 2026-05-04

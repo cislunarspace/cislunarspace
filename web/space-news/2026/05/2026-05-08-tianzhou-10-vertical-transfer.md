@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟十号船箭组合体转运至发射区 将于近日择机发射"
 description: "天舟十号货运飞船与长征七号遥十一运载火箭组合体5月8日在文昌航天发射场完成垂直转运，正式进入发射准备阶段，计划上行近6.3吨物资。"
+wechatShare:
+  title: "天舟十号船箭组合体转运至发射区 将于近日择机发射"
+  desc: "天舟十号货运飞船与长征七号遥十一运载火箭组合体5月8日在文昌航天发射场完成垂直转运，正式进入发射准备阶段，计划上行近6.3吨物资。"
+  image: "./figures/2026-05-08-tianzhou-10-vertical-transfer/hero.jpg"
 permalink: /space-news/2026/05/2026-05-08-tianzhou-10-vertical-transfer/
 author: 天疆说
 date: 2026-05-08

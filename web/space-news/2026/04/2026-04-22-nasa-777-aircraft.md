@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA波音777改装完成重返机队，先进空中实验室即将启用"
 description: "NASA完成了波音777重型结构改装，将由巨形客机蜕变为下一代机载科学实验室，计划于4月22日返回兰利研究中心。"
+wechatShare:
+  title: "NASA波音777改装完成重返机队，先进空中实验室即将启用"
+  desc: "NASA完成了波音777重型结构改装，将由巨形客机蜕变为下一代机载科学实验室，计划于4月22日返回兰利研究中心。"
+  image: "./figures/2026-04-22-nasa-777-aircraft/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-nasa-777-aircraft/
 author: 天疆说
 date: 2026-04-22

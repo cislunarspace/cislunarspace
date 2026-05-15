@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Rocket Lab签署五发Neutron火箭合同 2026年末首飞目标不变"
 description: "Rocket Lab在2026年Q1财报会上宣布与一家神秘客户签订五发Neutron火箭合同，同时确认Neutron将于2026年第四季度进行首飞。"
+wechatShare:
+  title: "Rocket Lab签署五发Neutron火箭合同 2026年末首飞目标不变"
+  desc: "Rocket Lab在2026年Q1财报会上宣布与一家神秘客户签订五发Neutron火箭合同，同时确认Neutron将于2026年第四季度进行首飞。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-07-rocket-lab-five-launch-neutron-deal/
 author: 天疆说
 date: 2026-05-07

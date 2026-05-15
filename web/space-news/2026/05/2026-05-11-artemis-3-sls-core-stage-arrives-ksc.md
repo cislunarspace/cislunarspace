@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis III SLS 火箭核心级抵达肯尼迪航天中心进入总装阶段"
 description: "NASA 宣布 Artemis III 任务的 SLS 火箭核心级已垂直转运至肯尼迪航天中心总装大楼，火箭各部段将在未来数月内完成对接，计划2027年下半年发射"
+wechatShare:
+  title: "Artemis III SLS 火箭核心级抵达肯尼迪航天中心进入总装阶段"
+  desc: "NASA 宣布 Artemis III 任务的 SLS 火箭核心级已垂直转运至肯尼迪航天中心总装大楼，火箭各部段将在未来数月内完成对接，计划2027年下半年发射"
+  image: "./figures/2026-05-11-artemis-3-sls-core-stage-arrives-ksc/hero.jpg"
 permalink: /space-news/2026/05/2026-05-11-artemis-3-sls-core-stage-arrives-ksc/
 author: 天疆说
 date: 2026-05-11

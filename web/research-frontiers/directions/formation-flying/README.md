@@ -1,6 +1,10 @@
 ---
 title: 编队飞行
 description: 地月空间航天器编队飞行的动力学、控制与应用
+wechatShare:
+  title: '编队飞行'
+  desc: '地月空间航天器编队飞行的动力学、控制与应用'
+  image: /logo.png
 ---
 
 # 编队飞行

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "神舟二十三号载人飞行任务标识发布：圆形徽章融合传统与现代"
 description: "中国载人航天工程办公室正式发布神舟二十三号载人飞行任务标识，圆形设计融合长征火箭、飞天形象与金色祥云，象征三位航天员的使命与祝愿。"
+wechatShare:
+  title: "神舟二十三号载人飞行任务标识发布：圆形徽章融合传统与现代"
+  desc: "中国载人航天工程办公室正式发布神舟二十三号载人飞行任务标识，圆形设计融合长征火箭、飞天形象与金色祥云，象征三位航天员的使命与祝愿。"
+  image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-11-shenzhou-23-mission-badge/
 author: 天疆说
 date: 2026-05-11

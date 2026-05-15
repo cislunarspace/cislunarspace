@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX, Lockheed Martin Among 12 Companies Awarded $3.2B U.S. Space-Based Interceptor Contracts"
 description: "The U.S. Space Force awarded 12 companies, including SpaceX and Lockheed Martin, contracts worth up to $3.2 billion to develop space-based interceptor prototypes under the Trump administration's Golden Dome missile defense program, with capabilities to be demonstrated by 2028."
+wechatShare:
+  title: "SpaceX, Lockheed Martin Among 12 Companies Awarded $3.2B U.S. Space-Based Interceptor Contracts"
+  desc: "The U.S. Space Force awarded 12 companies, including SpaceX and Lockheed Martin, contracts worth up to $3.2 billion to develop space-based interceptor prototypes under the Trump administration's Golden Dome missile defense program, with capabilities to be demonstrated by 2028."
+  image: "./figures/2026-04-25-golden-dome-interceptor/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-25-golden-dome-interceptor/
 author: Tianjiangshuo
 date: 2026-04-25

@@ -3,6 +3,10 @@ title: poliastro
 description: 纯 Python 天体力学库（已归档，仅保留存档状态）
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: poliastro
+  desc: 纯 Python 天体力学库（已归档，仅保留存档状态）
+  image: /logo.png
 ---
 
 ## 简介

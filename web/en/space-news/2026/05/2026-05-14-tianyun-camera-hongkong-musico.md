@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Hong Kong's First Space Science Payload 'Tianyun Camera' Arrives at China's Space Station aboard Tianzhou-10"
 description: "The Multispectral Imaging Carbon Observer (MUSICO), developed by HKUST, becomes Hong Kong's first scientific payload on China's Tiangong space station, designed to monitor global CO2 and methane emissions."
+wechatShare:
+  title: "Hong Kong's First Space Science Payload 'Tianyun Camera' Arrives at China's Space Station aboard Tianzhou-10"
+  desc: "The Multispectral Imaging Carbon Observer (MUSICO), developed by HKUST, becomes Hong Kong's first scientific payload on China's Tiangong space station, designed to monitor global CO2 and methane emissions."
+  image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-14-tianyun-camera-hongkong-musico/
 author: Tianjiangshuo
 date: 2026-05-14

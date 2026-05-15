@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "SpaceX猎鹰重型火箭成功发射Viasat-3 F3卫星"
 description: "SpaceX猎鹰重型火箭时隔18个月再次发射，将Viasat-3超高通量通信卫星送入轨道，这是猎鹰重型火箭第12次飞行任务。"
+wechatShare:
+  title: "SpaceX猎鹰重型火箭成功发射Viasat-3 F3卫星"
+  desc: "SpaceX猎鹰重型火箭时隔18个月再次发射，将Viasat-3超高通量通信卫星送入轨道，这是猎鹰重型火箭第12次飞行任务。"
+  image: "./figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg"
 permalink: /space-news/2026/04/2026-04-29-falcon-heavy-viasat-3-f3-launch/
 author: 天疆说
 date: 2026-04-29

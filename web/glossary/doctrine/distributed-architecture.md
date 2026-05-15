@@ -1,6 +1,10 @@
 ---
 title: 分布式架构（Distributed Architecture）
 description: 详细解析分布式SSA架构的定义、在地月空间态势感知中的应用及其与单星架构的对比
+wechatShare:
+  title: 分布式架构（Distributed Architecture）
+  desc: 详细解析分布式SSA架构的定义、在地月空间态势感知中的应用及其与单星架构的对比
+  image: /logo.png
 keywords: 分布式架构, Distributed Architecture, 观测卫星, 分布式观测, 地月空间, 态势感知, 星座, 覆盖优化
 author: 天疆说
 date: 2026-04-29

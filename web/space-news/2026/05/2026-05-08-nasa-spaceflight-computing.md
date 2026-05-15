@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA与工业界联合推进高性能航天计算芯片研发"
 description: "NASA与多家工业伙伴合作推进高性能航天计算系统芯片研发，为未来深空任务提供更强算力支撑。"
+wechatShare:
+  title: "NASA与工业界联合推进高性能航天计算芯片研发"
+  desc: "NASA与多家工业伙伴合作推进高性能航天计算系统芯片研发，为未来深空任务提供更强算力支撑。"
+  image: "./figures/2026-05-08-nasa-spaceflight-computing/hero.jpg"
 permalink: /space-news/2026/05/2026-05-08-nasa-spaceflight-computing/
 author: 天疆说
 date: 2026-05-08

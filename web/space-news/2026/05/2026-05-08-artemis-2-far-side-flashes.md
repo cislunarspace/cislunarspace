@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis 2航天员在月球远侧目击撞击闪光 人类航天员首次直接观测太空撞击事件"
 description: "NASA Artemis 2任务航天员在4月6日飞越月球远侧期间用肉眼观测到多次陨石撞击闪光，这一观测结果对月球科学研究具有重要价值。"
+wechatShare:
+  title: "Artemis 2航天员在月球远侧目击撞击闪光 人类航天员首次直接观测太空撞击事件"
+  desc: "NASA Artemis 2任务航天员在4月6日飞越月球远侧期间用肉眼观测到多次陨石撞击闪光，这一观测结果对月球科学研究具有重要价值。"
+  image: "./figures/2026-05-08-artemis-2-far-side-flashes/hero.jpg"
 permalink: /space-news/2026/05/2026-05-08-artemis-2-far-side-flashes/
 author: 天疆说
 date: 2026-05-08

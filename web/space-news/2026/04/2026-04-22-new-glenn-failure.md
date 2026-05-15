@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Blue Origin新格伦号火箭发射失败"
 description: "Blue Origin公司的新格伦号火箭在4月19日执行BlueBird Block 2 #2任务时发射失败，火箭在飞行过程中出现问题。这是新格伦号的第二次重大挫折。"
+wechatShare:
+  title: "Blue Origin新格伦号火箭发射失败"
+  desc: "Blue Origin公司的新格伦号火箭在4月19日执行BlueBird Block 2 #2任务时发射失败，火箭在飞行过程中出现问题。这是新格伦号的第二次重大挫折。"
+  image: "./figures/2026-04-22-new-glenn-failure/hero.jpg"
 permalink: /space-news/2026/04/2026-04-22-new-glenn-failure/
 author: 天疆说
 date: 2026-04-22

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Chandra Finds Young Sun-like Stars Dim Quickly in X-rays"
 description: "A new study using NASA's Chandra X-ray Observatory reveals that young Sun-like stars emit far less X-ray radiation than expected, potentially benefiting the development of life-sustaining conditions around exoplanets in their orbit."
+wechatShare:
+  title: "NASA's Chandra Finds Young Sun-like Stars Dim Quickly in X-rays"
+  desc: "A new study using NASA's Chandra X-ray Observatory reveals that young Sun-like stars emit far less X-ray radiation than expected, potentially benefiting the development of life-sustaining conditions around exoplanets in their orbit."
+  image: "./figures/2026-04-23-nasa-chandra-stars-dim/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-chandra-stars-dim/
 author: Tianjiangshuo
 date: 2026-04-23

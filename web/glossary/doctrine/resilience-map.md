@@ -1,6 +1,10 @@
 ---
 title: 韧性地图（Resilience Map）
 description: 详细解析韧性地图的定义、生成方法及其在地月空间SSA架构韧性评估中的应用
+wechatShare:
+  title: 韧性地图（Resilience Map）
+  desc: 详细解析韧性地图的定义、生成方法及其在地月空间SSA架构韧性评估中的应用
+  image: /logo.png
 keywords: 韧性地图, Resilience Map, 地月空间, 态势感知, 架构韧性, 低推力, 可达集, 覆盖分析
 author: 天疆说
 date: 2026-04-29

@@ -1,6 +1,10 @@
 ---
 title: 地月转移轨道
 description: 地月转移轨道概览：分类、能量预算、时间与燃料的权衡，以及与NRHO/DRO的衔接设计。
+wechatShare:
+  title: 地月转移轨道
+  desc: 地月转移轨道概览：分类、能量预算、时间与燃料的权衡，以及与NRHO/DRO的衔接设计。
+  image: /logo.png
 keywords: 地月转移轨道, TLI, 弹道捕获, 转移走廊, 发射窗口, 能量预算
 author: 天疆说
 date: 2026-04-26

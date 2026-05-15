@@ -1,6 +1,10 @@
 ---
 title: DRO 工程应用
 description: 远距离逆行轨道在应急返回、中继通信、编队飞行等场景的工程应用与ΔV预算分析。
+wechatShare:
+  title: DRO 工程应用
+  desc: 远距离逆行轨道在应急返回、中继通信、编队飞行等场景的工程应用与ΔV预算分析。
+  image: /logo.png
 keywords: DRO应用, 应急返回, 中继通信, 编队飞行, CAPSTONE, Artemis
 author: 天疆说
 date: 2026-04-26

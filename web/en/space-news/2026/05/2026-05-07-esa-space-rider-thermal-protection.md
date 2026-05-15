@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Europe's Space Rider Reusable Spacecraft Passes Extreme Heat Test, One Step Closer to Flight"
 description: "ESA's Space Rider reusable spacecraft completes thermal protection system testing under extreme conditions while full-scale drop-test model finishes assembly, marking a key milestone for Europe's first reusable orbital vehicle."
+wechatShare:
+  title: "Europe's Space Rider Reusable Spacecraft Passes Extreme Heat Test, One Step Closer to Flight"
+  desc: "ESA's Space Rider reusable spacecraft completes thermal protection system testing under extreme conditions while full-scale drop-test model finishes assembly, marking a key milestone for Europe's first reusable orbital vehicle."
+  image: "./figures/2026-05-07-esa-space-rider-thermal-protection/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-esa-space-rider-thermal-protection/
 author: Tianjiangshuo
 date: 2026-05-07

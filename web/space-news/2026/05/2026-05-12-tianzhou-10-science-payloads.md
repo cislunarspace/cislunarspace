@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "天舟十号67件科研产品助力空间站：41项科学实验覆盖四大领域"
 description: "天舟十号货运飞船携67件科研产品与41项科学实验任务送往中国空间站，涵盖太空胚胎研究、柔性太阳电池、温室气体监测等前沿领域，为国家太空实验室再添科研利器。"
+wechatShare:
+  title: "天舟十号67件科研产品助力空间站：41项科学实验覆盖四大领域"
+  desc: "天舟十号货运飞船携67件科研产品与41项科学实验任务送往中国空间站，涵盖太空胚胎研究、柔性太阳电池、温室气体监测等前沿领域，为国家太空实验室再添科研利器。"
+  image: "./figures/2026-05-12-tianzhou-10-science-payloads/hero.jpg"
 permalink: /space-news/2026/05/2026-05-12-tianzhou-10-science-payloads/
 author: 天疆说
 date: 2026-05-12

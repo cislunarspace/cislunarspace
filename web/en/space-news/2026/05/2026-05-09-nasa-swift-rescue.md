@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA's Neil Gehrels Swift Observatory Gets Critical Rescue Mission Update"
 description: "NASA's Link spacecraft, designed to rescue the aging Neil Gehrels Swift Observatory from orbital decay, passes key environmental testing at Goddard Space Flight Center ahead of a planned 2026 launch."
+wechatShare:
+  title: "NASA's Neil Gehrels Swift Observatory Gets Critical Rescue Mission Update"
+  desc: "NASA's Link spacecraft, designed to rescue the aging Neil Gehrels Swift Observatory from orbital decay, passes key environmental testing at Goddard Space Flight Center ahead of a planned 2026 launch."
+  image: "./figures/2026-05-09-nasa-swift-rescue/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-09-nasa-swift-rescue/
 author: Tianjiangshuo
 date: 2026-05-09

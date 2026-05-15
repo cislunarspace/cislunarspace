@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /background/math/symplectic-integrator/
+wechatShare:
+  title: 辛积分器 (Symplectic Integrator)
+  desc: 辛积分器是一类保持哈密顿系统相空间几何结构（辛形式）的数值积分方法，长期积分中能保持系统的能量及其他守恒量不发生系统性漂移。
+  image: /logo.png
 ---
 
 # 辛积分器

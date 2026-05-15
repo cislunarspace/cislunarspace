@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Tianwen-3 Mars Sample Return: Launch Planned for ~2028, Return with Samples by ~2031"
 description: "CNSA officially unveiled Tianwen-3 mission plan at the 11th China Space Day: launch around 2028, return with Mars samples around 2031, with an open international cooperation call offering 20 kg of payload mass."
+wechatShare:
+  title: "Tianwen-3 Mars Sample Return: Launch Planned for ~2028, Return with Samples by ~2031"
+  desc: "CNSA officially unveiled Tianwen-3 mission plan at the 11th China Space Day: launch around 2028, return with Mars samples around 2031, with an open international cooperation call offering 20 kg of payload mass."
+  image: "./figures/2026-04-24-tianwen-3-mars-sample-return/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-tianwen-3-mars-sample-return/
 author: Tianjiangshuo
 date: 2026-04-24

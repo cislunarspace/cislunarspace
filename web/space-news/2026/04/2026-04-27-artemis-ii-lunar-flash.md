@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "Artemis II航天员在任务期间观测月球撞击闪光"
 description: "2026年4月上旬，Artemis II航天员在绕月飞行期间观测到流星体撞击月球表面产生的闪光，同时地球上的NASA资助的公民科学志愿者也在用望远镜追踪同一批撞击事件。"
+wechatShare:
+  title: "Artemis II航天员在任务期间观测月球撞击闪光"
+  desc: "2026年4月上旬，Artemis II航天员在绕月飞行期间观测到流星体撞击月球表面产生的闪光，同时地球上的NASA资助的公民科学志愿者也在用望远镜追踪同一批撞击事件。"
+  image: "./figures/2026-04-27-artemis-ii-lunar-flash/hero.jpg"
 permalink: /space-news/2026/04/2026-04-27-artemis-ii-lunar-flash/
 author: 天疆说
 date: 2026-04-27

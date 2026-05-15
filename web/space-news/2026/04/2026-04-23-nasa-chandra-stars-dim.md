@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA钱德拉X射线天文台发现年轻类太阳恒星X射线辐射意外偏低"
 description: "NASA钱德拉X射线天文台的一项新研究揭示，年轻的类太阳恒星发出的X射线辐射远低于预期，仅为预测值的三分之一到四分之一，这可能有利于其周围系外行星适宜生命的条件形成。"
+wechatShare:
+  title: "NASA钱德拉X射线天文台发现年轻类太阳恒星X射线辐射意外偏低"
+  desc: "NASA钱德拉X射线天文台的一项新研究揭示，年轻的类太阳恒星发出的X射线辐射远低于预期，仅为预测值的三分之一到四分之一，这可能有利于其周围系外行星适宜生命的条件形成。"
+  image: "./figures/2026-04-23-nasa-chandra-stars-dim/hero.jpg"
 permalink: /space-news/2026/04/2026-04-23-nasa-chandra-stars-dim/
 author: 天疆说
 date: 2026-04-23

@@ -2,6 +2,10 @@
 layout: SpaceNewsArticle
 title: "NASA火星模拟任务Crew-2度过200天封闭生活"
 description: "NASA CHAPEA任务二号宇航员团队在模拟火星栖息地内已成功度过200天，整个378天封闭实验任务完成过半。"
+wechatShare:
+  title: "NASA火星模拟任务Crew-2度过200天封闭生活"
+  desc: "NASA CHAPEA任务二号宇航员团队在模拟火星栖息地内已成功度过200天，整个378天封闭实验任务完成过半。"
+  image: "./figures/2026-05-07-mars-simulation-200days/hero.jpg"
 permalink: /space-news/2026/05/2026-05-07-mars-simulation-200days/
 author: 天疆说
 date: 2026-05-07

@@ -1,6 +1,10 @@
 ---
 title: 发射窗口分析
 description: 地月转移发射窗口的形成机制、窗口频率、偏离代价与规划工具介绍。
+wechatShare:
+  title: 发射窗口分析
+  desc: 地月转移发射窗口的形成机制、窗口频率、偏离代价与规划工具介绍。
+  image: /logo.png
 keywords: 发射窗口, 窗口频率, C3变化, ΔV惩罚, GMAT, STK
 author: 天疆说
 date: 2026-04-26

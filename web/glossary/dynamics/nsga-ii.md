@@ -1,6 +1,10 @@
 ---
 title: NSGA II（非支配排序遗传算法 II）
 description: 详细解析NSGA II算法的原理、特点及其在地月空间态势感知架构多目标优化中的应用
+wechatShare:
+  title: NSGA II（非支配排序遗传算法 II）
+  desc: 详细解析NSGA II算法的原理、特点及其在地月空间态势感知架构多目标优化中的应用
+  image: /logo.png
 keywords: NSGA II, 非支配排序遗传算法, 多目标优化, 遗传算法, 进化算法, Pareto最优, 地月空间, 架构设计
 author: 天疆说
 date: 2026-04-29

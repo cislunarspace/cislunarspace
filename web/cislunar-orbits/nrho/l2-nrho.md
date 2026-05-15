@@ -1,6 +1,10 @@
 ---
 title: L2 近直线晕轨道
 description: 地月L2点近直线晕轨道的几何特性、动力学约束与月球背面通信应用。
+wechatShare:
+  title: L2 近直线晕轨道
+  desc: 地月L2点近直线晕轨道的几何特性、动力学约束与月球背面通信应用。
+  image: /logo.png
 keywords: L2 NRHO, L2 halo orbit, 地月L2点, 月球背面通信
 author: 天疆说
 date: 2026-04-26

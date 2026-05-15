@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /background/math/continuation/
+wechatShare:
+  title: 弧长延续法 (Arc-length Continuation)
+  desc: 弧长延续法是沿参数分支追踪解曲线的数值方法，与打靶法结合可有效扩展周期轨道的求解范围。
+  image: /logo.png
 ---
 
 # 弧长延续法

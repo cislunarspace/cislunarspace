@@ -1,6 +1,10 @@
 ---
 title: 追逃防（Pursuit-Evasion-Defense Game）
 description: 追逃防是航天器追逃博弈的三方扩展，引入防御方参与博弈，应用于空间攻防对抗和任务规划研究。
+wechatShare:
+  title: 追逃防（Pursuit-Evasion-Defense Game）
+  desc: 追逃防是航天器追逃博弈的三方扩展，引入防御方参与博弈，应用于空间攻防对抗和任务规划研究。
+  image: /logo.png
 keywords: 追逃防, Pursuit-Evasion-Defense, 三方博弈, 航天器追逃, 模糊综合评价, 零控脱靶量
 author: 天疆说
 date: 2026-04-29
