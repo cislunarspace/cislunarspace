@@ -15,6 +15,7 @@ lastUpdated: 2026-05-16
 | 2026-05-14 | [NASA Issues RFP for Mars Telecommunications Network, Targeting 2030 Operational Capability](./2026-05-14-nasa-mars-telecom-network-rfp/) | NASA |
 | 2026-05-14 | [ULA Completes Critical Solid Rocket Booster Test, Advancing Vulcan Return-to-Flight](./2026-05-14-ula-vulcan-srb-test/) | Commercial |
 | 2026-05-14 | [NASA's Asteroid-Bound Psyche Probe Captures Mars 'Eclipse' View During Flyby](./2026-05-14-psyche-mars-eclipse-image/) | Science |
+| 2026-05-14 | [Scientists Propose New Approach to Alien Life Search: Europa Clipper Could Lead the Way](./2026-05-14-europa-clipper-biosignature-search/) | Science |
 | 2026-05-14 | [Landspace Zhuque-2E Y5 Launches Successfully](./2026-05-14-zhuque-2e-y5-launch/) | Commercial |
 | 2026-05-14 | [Yixian-3 VTVL Rocket Test Success: China's First University-Led Symmetric Reusable Liquid Rocket](./2026-05-14-yixian-3-vtvl-rocket/) | China Space |
 | 2026-05-15 | [Li Jian-1 Yao-13 Launches Five Satellites as Series Reaches 100-Orbit Milestone](./2026-05-15-lijian-1-yao13-100stars/) | China Space |
