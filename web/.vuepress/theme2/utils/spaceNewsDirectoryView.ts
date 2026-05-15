@@ -35,6 +35,15 @@ export interface SpaceNewsDirectoryLabels {
   viewMore: string
 }
 
+export interface SpaceNewsArchiveLabels {
+  kicker: string
+  title: string
+  lead: string
+  backHome: string
+  empty: string
+  all: string
+}
+
 export interface SpaceNewsCategorySection {
   key: string
   label: string
@@ -42,12 +51,29 @@ export interface SpaceNewsCategorySection {
   items: SpaceNewsArticleView[]
 }
 
+export interface SpaceNewsMonthGroup {
+  key: string  // 'YYYY-MM'
+  year: number
+  month: number  // 1-12
+  label: string  // locale-formatted month heading
+  items: SpaceNewsArticleView[]
+}
+
+export interface SpaceNewsUsedCategory {
+  key: string
+  label: string
+  color: string
+}
+
 export interface SpaceNewsDirectoryView {
   labels: SpaceNewsDirectoryLabels
+  archiveLabels: SpaceNewsArchiveLabels
   articles: SpaceNewsArticleView[]
   featuredList: SpaceNewsArticleView[]
   latestItems: SpaceNewsArticleView[]
   categorySections: SpaceNewsCategorySection[]
+  monthGroups: SpaceNewsMonthGroup[]
+  usedCategories: SpaceNewsUsedCategory[]
 }
 
 interface BuildSpaceNewsDirectoryViewOptions {
@@ -79,6 +105,25 @@ const labelsByLocale: Record<SpaceNewsLocale, SpaceNewsDirectoryLabels> = {
     latest: 'Latest News',
     viewAll: 'Full archive →',
     viewMore: 'More →',
+  },
+}
+
+const archiveLabelsByLocale: Record<SpaceNewsLocale, SpaceNewsArchiveLabels> = {
+  zh: {
+    kicker: '航天动态',
+    title: '按日期查阅',
+    lead: '以下为已发布的全部条目，按月分组，月内按日期倒序。',
+    backHome: '返回航天动态首页',
+    empty: '暂无稿件。',
+    all: '全部',
+  },
+  en: {
+    kicker: 'Space News',
+    title: 'Archive by date',
+    lead: 'All published items, newest first within each month.',
+    backHome: 'Back to Space News',
+    empty: 'No articles yet.',
+    all: 'All',
   },
 }
 
@@ -138,6 +183,94 @@ function buildCategorySections(
   })
 }
 
+const YEAR_MONTH_RE = /(?:^|\/)space-news\/(\d{4})\/(\d{2})\//
+
+interface YearMonth {
+  year: number
+  month: number
+}
+
+function yearMonthFromRelativePath(relativePath: string | undefined): YearMonth | null {
+  if (!relativePath) return null
+  const match = relativePath.match(YEAR_MONTH_RE)
+  if (!match) return null
+  return { year: parseInt(match[1], 10), month: parseInt(match[2], 10) }
+}
+
+/** Locale-aware "YYYY 年 MM 月" / "Month YYYY" formatter for archive month headings. */
+export function formatMonthLabel(year: number, month: number, locale: SpaceNewsLocale): string {
+  if (locale === 'en') {
+    const date = new Date(year, month - 1, 1)
+    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' })
+  }
+  return `${year} 年 ${month} 月`
+}
+
+/** Long-form date formatter shared by Home, Archive, and Hero. Returns '—' for null and the raw string for invalid dates. */
+export function formatArticleDate(raw: string | null, locale: SpaceNewsLocale): string {
+  if (!raw) return '—'
+  const date = new Date(raw)
+  if (Number.isNaN(date.getTime())) return String(raw)
+  return locale === 'en'
+    ? date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+    : date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'numeric', day: 'numeric' })
+}
+
+/** Card background style — image if present, otherwise gradient using the article's category color. */
+export function articleCardBackground(article: SpaceNewsArticleView): { backgroundImage?: string; background?: string } {
+  if (article.image) {
+    return { backgroundImage: `url(${article.image})` }
+  }
+  return {
+    background: `linear-gradient(135deg, ${article.categoryColor} 0%, ${article.categoryColor}99 100%)`,
+  }
+}
+
+function buildMonthGroups(
+  articles: SpaceNewsArticleView[],
+  locale: SpaceNewsLocale,
+): SpaceNewsMonthGroup[] {
+  const map = new Map<string, SpaceNewsMonthGroup>()
+  for (const article of articles) {
+    const ym = yearMonthFromRelativePath(article.relativePath)
+    if (!ym) continue
+    const key = `${ym.year}-${String(ym.month).padStart(2, '0')}`
+    let group = map.get(key)
+    if (!group) {
+      group = {
+        key,
+        year: ym.year,
+        month: ym.month,
+        label: formatMonthLabel(ym.year, ym.month, locale),
+        items: [],
+      }
+      map.set(key, group)
+    }
+    group.items.push(article)
+  }
+  return Array.from(map.values()).sort((first, second) => second.key.localeCompare(first.key))
+}
+
+function buildUsedCategories(
+  articles: SpaceNewsArticleView[],
+  locale: SpaceNewsLocale,
+  categoryMeta: Record<string, SpaceNewsCategoryMeta>,
+): SpaceNewsUsedCategory[] {
+  const seen = new Set<string>()
+  for (const article of articles) {
+    if (article.category) {
+      for (const cat of article.category) seen.add(cat)
+    }
+  }
+  const result: SpaceNewsUsedCategory[] = []
+  for (const key of seen) {
+    const meta = categoryMeta[key]
+    if (!meta) continue
+    result.push({ key, label: meta[locale], color: meta.color })
+  }
+  return result
+}
+
 export function buildSpaceNewsDirectoryView(options: BuildSpaceNewsDirectoryViewOptions): SpaceNewsDirectoryView {
   const now = options.now ?? new Date()
   const articles = options.articles
@@ -147,9 +280,12 @@ export function buildSpaceNewsDirectoryView(options: BuildSpaceNewsDirectoryView
 
   return {
     labels: labelsByLocale[options.locale],
+    archiveLabels: archiveLabelsByLocale[options.locale],
     articles,
     featuredList: articles.filter(article => isFeaturedArticle(article, now)),
     latestItems: articles.slice(0, LATEST_ITEMS_LIMIT),
     categorySections: buildCategorySections(articles, options.locale, options.categoryMeta),
+    monthGroups: buildMonthGroups(articles, options.locale),
+    usedCategories: buildUsedCategories(articles, options.locale, options.categoryMeta),
   }
 }

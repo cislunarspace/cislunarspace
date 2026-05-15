@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { buildSpaceNewsDirectoryView, type RawSpaceNewsArticle } from './spaceNewsDirectoryView'
+import {
+  articleCardBackground,
+  buildSpaceNewsDirectoryView,
+  formatArticleDate,
+  formatMonthLabel,
+  type RawSpaceNewsArticle,
+} from './spaceNewsDirectoryView'
 
 const categoryMeta = {
   artemis: { zh: '阿耳忒弥斯计划', en: 'Artemis Program', color: '#3b82f6' },
@@ -139,5 +145,153 @@ describe('buildSpaceNewsDirectoryView', () => {
     expect(result.latestItems.map(article => article.title)).toEqual(['A1', 'A2', 'A3', 'A4', 'C1', 'C2'])
     expect(result.featuredList.map(article => article.title)).toEqual(['A1', 'A2'])
     expect(result.categorySections.find(section => section.key === 'artemis')?.items.map(article => article.title)).toEqual(['A1', 'A2', 'A3'])
+  })
+
+  it('groups articles by year/month from relativePath, newest month first', () => {
+    const articles = [
+      makeArticle({ title: 'May-13', path: '/may-13/', date: '2026-05-13', relativePath: 'space-news/2026/05/may-13.md', category: 'artemis' }),
+      makeArticle({ title: 'May-01', path: '/may-01/', date: '2026-05-01', relativePath: 'space-news/2026/05/may-01.md', category: 'commercial' }),
+      makeArticle({ title: 'Apr-15', path: '/apr-15/', date: '2026-04-15', relativePath: 'space-news/2026/04/apr-15.md', category: 'artemis' }),
+      makeArticle({ title: 'No-path', path: '/no-path/', date: '2026-05-10' }),  // missing relativePath → excluded
+    ]
+
+    const zh = buildSpaceNewsDirectoryView({
+      articles,
+      locale: 'zh',
+      categoryMeta,
+      now: new Date('2026-05-13T12:00:00Z'),
+    })
+
+    expect(zh.monthGroups.map(group => ({ key: group.key, label: group.label, items: group.items.map(a => a.title) }))).toEqual([
+      { key: '2026-05', label: '2026 年 5 月', items: ['May-13', 'May-01'] },
+      { key: '2026-04', label: '2026 年 4 月', items: ['Apr-15'] },
+    ])
+
+    const en = buildSpaceNewsDirectoryView({
+      articles,
+      locale: 'en',
+      categoryMeta,
+      now: new Date('2026-05-13T12:00:00Z'),
+    })
+
+    expect(en.monthGroups[0].label).toBe('May 2026')
+    expect(en.monthGroups[1].label).toBe('April 2026')
+  })
+
+  it('detects month from en-locale relativePath prefix', () => {
+    const result = buildSpaceNewsDirectoryView({
+      articles: [
+        makeArticle({ title: 'En article', path: '/en/space-news/2026/05/a/', date: '2026-05-12', relativePath: 'en/space-news/2026/05/a.md' }),
+      ],
+      locale: 'en',
+      categoryMeta,
+      now: new Date('2026-05-13T12:00:00Z'),
+    })
+
+    expect(result.monthGroups).toHaveLength(1)
+    expect(result.monthGroups[0].key).toBe('2026-05')
+  })
+
+  it('lists used categories that are present in categoryMeta, dropping unknown keys', () => {
+    const result = buildSpaceNewsDirectoryView({
+      articles: [
+        makeArticle({ title: 'A', path: '/a/', date: '2026-05-13', category: ['artemis', 'unknown'] }),
+        makeArticle({ title: 'B', path: '/b/', date: '2026-05-12', category: 'commercial' }),
+        makeArticle({ title: 'C', path: '/c/', date: '2026-05-11', category: 'commercial' }),
+      ],
+      locale: 'en',
+      categoryMeta,
+      now: new Date('2026-05-13T12:00:00Z'),
+    })
+
+    expect(result.usedCategories).toEqual([
+      { key: 'artemis', label: 'Artemis Program', color: '#3b82f6' },
+      { key: 'commercial', label: 'Commercial Space', color: '#10b981' },
+    ])
+  })
+
+  it('exposes localized archive labels', () => {
+    const zh = buildSpaceNewsDirectoryView({ articles: [], locale: 'zh', categoryMeta })
+    const en = buildSpaceNewsDirectoryView({ articles: [], locale: 'en', categoryMeta })
+
+    expect(zh.archiveLabels).toMatchObject({ title: '按日期查阅', backHome: '返回航天动态首页', all: '全部' })
+    expect(en.archiveLabels).toMatchObject({ title: 'Archive by date', backHome: 'Back to Space News', all: 'All' })
+  })
+
+  it('drafts are excluded from monthGroups and usedCategories', () => {
+    const result = buildSpaceNewsDirectoryView({
+      articles: [
+        makeArticle({ title: 'Draft', path: '/d/', date: '2026-05-13', relativePath: 'space-news/2026/05/d.md', category: 'artemis', draft: true }),
+        makeArticle({ title: 'Pub', path: '/p/', date: '2026-05-12', relativePath: 'space-news/2026/05/p.md', category: 'commercial' }),
+      ],
+      locale: 'zh',
+      categoryMeta,
+      now: new Date('2026-05-13T12:00:00Z'),
+    })
+
+    expect(result.monthGroups[0].items.map(a => a.title)).toEqual(['Pub'])
+    expect(result.usedCategories.map(c => c.key)).toEqual(['commercial'])
+  })
+})
+
+describe('formatMonthLabel', () => {
+  it('formats Chinese month label as "YYYY 年 M 月"', () => {
+    expect(formatMonthLabel(2026, 5, 'zh')).toBe('2026 年 5 月')
+    expect(formatMonthLabel(2026, 12, 'zh')).toBe('2026 年 12 月')
+  })
+
+  it('formats English month label as long form', () => {
+    expect(formatMonthLabel(2026, 5, 'en')).toBe('May 2026')
+    expect(formatMonthLabel(2026, 12, 'en')).toBe('December 2026')
+  })
+})
+
+describe('formatArticleDate', () => {
+  it('returns dash for null and raw string for invalid date', () => {
+    expect(formatArticleDate(null, 'zh')).toBe('—')
+    expect(formatArticleDate('not-a-date', 'en')).toBe('not-a-date')
+  })
+
+  it('formats valid date per locale', () => {
+    // We don't pin exact strings (locale fmt may vary by node version);
+    // we assert non-empty and year present.
+    const zh = formatArticleDate('2026-05-13', 'zh')
+    expect(zh).toContain('2026')
+    const en = formatArticleDate('2026-05-13', 'en')
+    expect(en).toContain('2026')
+  })
+})
+
+describe('articleCardBackground', () => {
+  it('uses the image url when present', () => {
+    expect(articleCardBackground({
+      path: '/x/',
+      title: 'x',
+      description: '',
+      date: null,
+      lastUpdated: null,
+      author: null,
+      category: null,
+      image: '/img/x.png',
+      primaryCategory: null,
+      categoryLabel: '',
+      categoryColor: '#64748b',
+    })).toEqual({ backgroundImage: 'url(/img/x.png)' })
+  })
+
+  it('falls back to gradient using the article category color', () => {
+    expect(articleCardBackground({
+      path: '/x/',
+      title: 'x',
+      description: '',
+      date: null,
+      lastUpdated: null,
+      author: null,
+      category: ['artemis'],
+      image: null,
+      primaryCategory: 'artemis',
+      categoryLabel: 'Artemis Program',
+      categoryColor: '#3b82f6',
+    })).toEqual({ background: 'linear-gradient(135deg, #3b82f6 0%, #3b82f699 100%)' })
   })
 })
