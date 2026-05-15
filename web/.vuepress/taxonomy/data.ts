@@ -22,6 +22,7 @@ import type { TaxonomyNode } from './types'
  * The root `navbar` node has no path and is the only `kind: 'navbar-root'` node.
  */
 export const NAVBAR_ROOT_ID = 'navbar'
+export const GLOSSARY_ROOT_ID = 'glossary'
 
 export const navbarRoot: TaxonomyNode = {
   id: NAVBAR_ROOT_ID,
@@ -29,6 +30,15 @@ export const navbarRoot: TaxonomyNode = {
   label: { zh: '主导航', en: 'Main navigation' },
   path: { zh: null, en: null },
   order: 0,
+  parentId: null,
+}
+
+export const glossaryRoot: TaxonomyNode = {
+  id: GLOSSARY_ROOT_ID,
+  kind: 'section',
+  label: { zh: '地月空间术语词典（定义与概念检索）', en: 'Cislunar glossary (terms & definitions)' },
+  path: { zh: '/glossary/', en: '/en/glossary/' },
+  order: 10,
   parentId: null,
 }
 
@@ -138,7 +148,24 @@ const navbarChildren: TaxonomyNode[] = [
   },
 ]
 
+const glossaryCategoryNodes: TaxonomyNode[] = [
+  { id: 'glossary/fundamentals', kind: 'glossary-category', label: { zh: '基础概念', en: 'Fundamentals' }, path: { zh: '/glossary/fundamentals/', en: '/en/glossary/fundamentals/' }, order: 1, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'fundamentals' } },
+  { id: 'glossary/dynamics', kind: 'glossary-category', label: { zh: '动力学与数学基础', en: 'Dynamics & Math' }, path: { zh: '/glossary/dynamics/', en: '/en/glossary/dynamics/' }, order: 2, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'dynamics' } },
+  { id: 'glossary/orbits', kind: 'glossary-category', label: { zh: '任务轨道', en: 'Mission orbits' }, path: { zh: '/glossary/orbits/', en: '/en/glossary/orbits/' }, order: 3, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'orbits' } },
+  { id: 'glossary/navigation', kind: 'glossary-category', label: { zh: '导航技术与系统', en: 'Navigation' }, path: { zh: '/glossary/navigation/', en: '/en/glossary/navigation/' }, order: 4, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'navigation' } },
+  { id: 'glossary/minerals', kind: 'glossary-category', label: { zh: '月球矿物', en: 'Lunar minerals' }, path: { zh: '/glossary/minerals/', en: '/en/glossary/minerals/' }, order: 5, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'minerals' } },
+  { id: 'glossary/programs', kind: 'glossary-category', label: { zh: '项目与任务', en: 'Programs & missions' }, path: { zh: '/glossary/programs/', en: '/en/glossary/programs/' }, order: 6, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'programs' } },
+  { id: 'glossary/other', kind: 'glossary-category', label: { zh: '其他技术', en: 'Other' }, path: { zh: '/glossary/other/', en: '/en/glossary/other/' }, order: 7, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'other' } },
+  { id: 'glossary/organizations', kind: 'glossary-category', label: { zh: '机构和组织', en: 'Organizations' }, path: { zh: '/glossary/organizations/', en: '/en/glossary/organizations/' }, order: 8, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'organizations' } },
+  { id: 'glossary/doctrine', kind: 'glossary-category', label: { zh: '军事太空条令', en: 'Military space doctrine' }, path: { zh: '/glossary/doctrine/', en: '/en/glossary/doctrine/' }, order: 9, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'doctrine' } },
+  { id: 'glossary/observation', kind: 'glossary-category', label: { zh: '天文观测技术', en: 'Observation techniques' }, path: { zh: '/glossary/observation/', en: '/en/glossary/observation/' }, order: 10, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'observation' } },
+  { id: 'glossary/communication', kind: 'glossary-category', label: { zh: '卫星通信与测控', en: 'Satellite Communication & TT&C' }, path: { zh: '/glossary/communication/', en: '/en/glossary/communication/' }, order: 11, parentId: GLOSSARY_ROOT_ID, meta: { slug: 'communication' } },
+]
+
 export const taxonomyNodes: readonly TaxonomyNode[] = Object.freeze([
   navbarRoot,
+  glossaryRoot,
   ...navbarChildren,
+  ...glossaryCategoryNodes,
 ])
+

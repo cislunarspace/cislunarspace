@@ -1,15 +1,14 @@
 /**
  * ChatIndexIntake — builds hierarchical AI chat index from GlossaryScan.
  */
-import { glossaryCategories, categoryRegistry } from '../glossary-meta.js'
-import { sidebarSections, type SidebarEntry } from '../sidebar-data.js'
+import { glossaryCategories, categoryRegistry } from '../taxonomy/adapters/glossary-categories.js'
 import type { GlossaryScan } from '../sidebar-types.js'
 import type { ChatIndexCategory, ChatIndexEntry } from '../sidebar-types.js'
+import { buildSectionChatIndexCategories } from '../taxonomy/adapters/chat-index-sections.js'
 
 export function buildChatIndexIntake(scan: GlossaryScan): { zh: ChatIndexCategory[]; en: ChatIndexCategory[] } {
   function buildLocaleIndex(locale: 'zh' | 'en'): ChatIndexCategory[] {
     const categories: ChatIndexCategory[] = []
-    const prefix = locale === 'en' ? '/en' : ''
     const entries = locale === 'en' ? scan.en.entries : scan.zh.entries
 
     const byCategory = new Map<string, ChatIndexEntry[]>()
@@ -41,32 +40,7 @@ export function buildChatIndexIntake(scan: GlossaryScan): { zh: ChatIndexCategor
       }
     }
 
-    for (const section of sidebarSections) {
-      const sectionEntries: ChatIndexEntry[] = []
-      const sectionPath = `${prefix}/${section.slug}/`
-      sectionEntries.push({ path: sectionPath, title: section.label[locale] })
-
-      function collectPaths(children: SidebarEntry[], basePath: string) {
-        for (const entry of children) {
-          if (entry.locales && !entry.locales.includes(locale)) continue
-          if (entry.slug === undefined) {
-            if (entry.children) collectPaths(entry.children, basePath)
-            continue
-          }
-          if (entry.slug === '') continue
-          const entryPath = `${basePath}${entry.slug}/`
-          sectionEntries.push({ path: entryPath, title: entry.label[locale] })
-          if (entry.children) collectPaths(entry.children, entryPath)
-        }
-      }
-
-      const childrenSource = section.childrenByLocale
-        ? section.childrenByLocale[locale]
-        : section.children
-      collectPaths(childrenSource, sectionPath)
-
-      categories.push({ category: section.label[locale], entries: sectionEntries })
-    }
+    categories.push(...buildSectionChatIndexCategories(locale))
 
     return categories
   }
