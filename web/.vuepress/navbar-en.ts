@@ -1,43 +1,9 @@
-import type { NavbarConfig } from 'vuepress'
+/**
+ * en navbar — derived from the unified taxonomy module.
+ *
+ * Authoring lives in `taxonomy/data.ts`. This file is a thin adapter so
+ * VuePress can keep importing `./navbar-en` as before.
+ */
+import { buildNavbar } from './taxonomy/adapters/navbar'
 
-export default <NavbarConfig>[
-  {
-    text: 'Inquiry Tools',
-    children: [
-      { text: 'Satellite Orbit Simulation', link: '/en/satellite-simulation/' },
-      { text: 'Historical Inquiry', link: '/dialectic' },
-    ],
-  },
-  {
-    text: 'Cislunar Glossary',
-    link: '/en/glossary/',
-  },
-  {
-    text: 'Resources & Tools',
-    link: '/en/resources-tools/',
-  },
-  {
-    text: 'Space News',
-    link: '/en/space-news/',
-  },
-  {
-    text: 'AI Q&A',
-    link: '/en/ai-chat',
-  },
-  {
-    text: 'Forum',
-    link: '/en/forum',
-  },
-  {
-    text: 'Home',
-    link: '/en/',
-  },
-  {
-    text: 'Gitee',
-    link: 'https://gitee.com/cislunarspace/cislunarspace',
-  },
-  {
-    text: 'GitHub',
-    link: 'https://github.com/cislunarspace/cislunarspace',
-  },
-]
+export default buildNavbar('en')
