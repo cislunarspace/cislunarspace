@@ -27,7 +27,6 @@ export default {
         { label: '地月轨道', labelEn: 'Cislunar Orbits', href: '/cislunar-orbits/' },
         { label: '研究前沿', labelEn: 'Research', href: '/research-frontiers/' },
         { label: '资源工具', labelEn: 'Resources', href: '/resources-tools/' },
-        { label: '蓝队研究', labelEn: 'Blue Team', href: '/blue-team-research/' },
       ],
     },
     {

@@ -59,10 +59,6 @@ You are welcome to submit entries, revisions, or other contributions via the [Gi
     <h3>Resources & tools</h3>
     <p>Data, code libraries, and workflows</p>
   </a>
-  <a href="/en/blue-team-research/" class="module-card module-card--blue-team">
-    <h3>Blue-team research</h3>
-    <p>Open-source doctrine, programs, and scenarios</p>
-  </a>
   <a href="/en/space-news/" class="module-card module-card--space-news">
     <h3>Space News</h3>
     <p>Policy, launch, and mission briefs (EN/ZH)</p>

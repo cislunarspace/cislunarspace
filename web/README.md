@@ -47,10 +47,6 @@ wechatShare:
     <h3>资源与工具</h3>
     <p>数据集、开源代码与仿真平台</p>
   </a>
-  <a href="/blue-team-research/" class="module-card module-card--blue-team">
-    <h3>蓝军研究</h3>
-    <p>基于公开资料的条令、装备与运用研究</p>
-  </a>
   <a href="/space-news/" class="module-card module-card--space-news">
     <h3>航天动态</h3>
     <p>政策、发射与任务摘录（中英）</p>

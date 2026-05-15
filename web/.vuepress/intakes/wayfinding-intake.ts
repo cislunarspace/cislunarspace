@@ -12,7 +12,6 @@ export function buildWayfindingIntake(): { zh: VueSidebarItem; en: VueSidebarIte
     { link: '/en/glossary/', text: 'Glossary · terms & definitions', children: [] },
     { link: '/en/resources-tools/', text: 'Tools · data & code', children: [] },
     { link: '/en/space-news/', text: 'News · space industry archive', children: [] },
-    { link: '/en/blue-team-research/', text: 'Topic · blue-team research', children: [] },
   ]
 
   const zhItems: Array<{ link: string; text: string; children: string[] }> = [
@@ -23,7 +22,6 @@ export function buildWayfindingIntake(): { zh: VueSidebarItem; en: VueSidebarIte
     { link: '/glossary/', text: '术语 · 定义与概念', children: [] },
     { link: '/resources-tools/', text: '工具 · 数据与代码', children: [] },
     { link: '/space-news/', text: '动态 · 航天新闻归档', children: [] },
-    { link: '/blue-team-research/', text: '专题 · 蓝军研究', children: [] },
   ]
 
   return {

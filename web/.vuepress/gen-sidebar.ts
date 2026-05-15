@@ -170,7 +170,6 @@ export function buildSidebarConfigs(
     '/glossary/': [wayfinding.zh, glossaryZh],
     '/background/': [wayfinding.zh, sectionSidebars['background'].zh],
     '/resources-tools/': [wayfinding.zh, sectionSidebars['resources-tools'].zh],
-    '/blue-team-research/': [wayfinding.zh, sectionSidebars['blue-team-research'].zh],
     '/space-news/': [wayfinding.zh],
     '/en/space-news/': [wayfinding.zh],
     '/satellite-simulation/': false,
@@ -184,7 +183,6 @@ export function buildSidebarConfigs(
     '/en/glossary/': [wayfinding.en, glossaryEn],
     '/en/background/': [wayfinding.en, sectionSidebars['background'].en],
     '/en/resources-tools/': [wayfinding.en, sectionSidebars['resources-tools'].en],
-    '/en/blue-team-research/': [wayfinding.en, sectionSidebars['blue-team-research'].en],
     '/en/space-news/': [wayfinding.en],
     '/en/satellite-simulation/': false,
   }
