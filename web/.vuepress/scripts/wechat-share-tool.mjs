@@ -1,6 +1,10 @@
 /**
  * Unified WeChat share tool — single source of truth for audit and inject.
  *
+ * Consumes the shared page-metadata-core normalizer (same as og-meta-plugin
+ * and the client share composable) for title/desc/image resolution, so the
+ * audit and inject pipeline cannot drift from build-time / runtime share data.
+ *
  * CLI:
  *   --dry-run   print report, no mutations
  *   --inject    mutate files missing/incomplete wechatShare
@@ -8,6 +12,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { resolveWechatShareFields } from '../page-metadata-core.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -42,6 +47,11 @@ function extractFrontmatter(content) {
 }
 
 /**
+ * Light YAML scalar reader — handles top-level `key: value` with optional quoting.
+ * Sufficient for the small set of frontmatter keys we care about (title /
+ * description / image). Returns `null` when the key is absent, `''` for an
+ * empty value.
+ *
  * @returns {string | null}
  */
 function getScalar(raw, key) {
@@ -64,49 +74,61 @@ function wechatShareComplete(raw) {
   )
 }
 
-function clipDesc(s, max = 220) {
-  if (s.length <= max) return s
-  return `${s.slice(0, max - 1)}…`
+/**
+ * Extract a minimal frontmatter object for the shared normalizer.
+ *
+ * The audit/inject tool reads raw YAML rather than a parsed page object, so
+ * we hand-extract the three keys the normalizer reads (plus nested
+ * `wechatShare.*` if present).
+ */
+function frontmatterForNormalizer(raw) {
+  const title = getScalar(raw, 'title') ?? undefined
+  const description = getScalar(raw, 'description') ?? undefined
+  const image = getScalar(raw, 'image') ?? undefined
+
+  // Nested wechatShare fields use indented keys; reuse the same scalar reader
+  // but with the leading whitespace prefix included in the line.
+  const wsTitle = readNested(raw, 'wechatShare', 'title')
+  const wsDesc = readNested(raw, 'wechatShare', 'desc')
+  const wsImage = readNested(raw, 'wechatShare', 'image')
+  const wechatShare = (wsTitle != null || wsDesc != null || wsImage != null)
+    ? {
+        ...(wsTitle != null ? { title: wsTitle } : {}),
+        ...(wsDesc != null ? { desc: wsDesc } : {}),
+        ...(wsImage != null ? { image: wsImage } : {}),
+      }
+    : undefined
+
+  return {
+    ...(title != null ? { title } : {}),
+    ...(description != null ? { description } : {}),
+    ...(image != null ? { image } : {}),
+    ...(wechatShare ? { wechatShare } : {}),
+  }
+}
+
+function readNested(raw, parent, child) {
+  // Match the parent key block, then look for an indented child within it.
+  const block = new RegExp(`^${parent}:\\s*\\n((?:\\s+.+\\n?)+)`, 'm')
+  const m = raw.match(block)
+  if (!m) return null
+  const childRe = new RegExp(`^\\s+${child}:\\s*(.*)$`, 'm')
+  const cm = m[1].match(childRe)
+  if (!cm) return null
+  let v = cm[1].trim()
+  if (!v.length) return ''
+  if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'")))
+    return v.slice(1, -1)
+  return v
 }
 
 function yamlJson(s) {
   return JSON.stringify(s ?? '')
 }
 
-// ── WechatShareIntake interface ────────────────────────────────────────────────
-
-/**
- * @param {string} absPath
- * @returns {{
- *   needsShare: boolean,
- *   currentMeta?: { title?: string, desc?: string, image?: string, missing: string[] }
- * }}
- */
-function analyzeFile(absPath) {
-  const rel = path.relative(root, absPath).replace(/\\/g, '/')
-  const content = fs.readFileSync(absPath, 'utf8')
-  const fm = extractFrontmatter(content)
-
-  if (!fm || !fm.raw.trim()) return { needsShare: false }
-
-  if (/^wechatShare:/m.test(fm.raw)) {
-    if (wechatShareComplete(fm.raw)) return { needsShare: false }
-    const missing = []
-    if (!/^\s+title:/m.test(fm.raw)) missing.push('title')
-    if (!/^\s+desc:/m.test(fm.raw)) missing.push('desc')
-    if (!/^\s+image:/m.test(fm.raw)) missing.push('image')
-    return {
-      needsShare: true,
-      currentMeta: { missing },
-    }
-  }
-
-  return { needsShare: true }
-}
-
 // ── Dry-run adapter ────────────────────────────────────────────────────────────
 
-function runDryRun() {
+export function runDryRun() {
   const report = {
     noTitle: [],
     noDescription: [],
@@ -141,7 +163,7 @@ function runDryRun() {
 
 // ── Inject adapter ─────────────────────────────────────────────────────────────
 
-function runInject() {
+export function runInject() {
   let updated = 0
   let skipped = 0
 
@@ -161,19 +183,15 @@ function runInject() {
       continue
     }
 
-    const title = getScalar(fm.raw, 'title')
-    if (!title) {
+    const fmObj = frontmatterForNormalizer(fm.raw)
+    const share = resolveWechatShareFields(fmObj)
+    if (!share) {
       skipped++
       continue
     }
 
-    let desc = getScalar(fm.raw, 'description') || ''
-    desc = clipDesc(desc.trim() || title)
-    const image = getScalar(fm.raw, 'image')
-    const img = image && image.length ? image : '/logo.png'
-
     const block =
-      `wechatShare:\n  title: ${yamlJson(title)}\n  desc: ${yamlJson(desc)}\n  image: ${yamlJson(img)}\n`
+      `wechatShare:\n  title: ${yamlJson(share.title)}\n  desc: ${yamlJson(share.desc)}\n  image: ${yamlJson(share.image)}\n`
 
     const body = content.slice(fm.end + 5)
     const newContent = `---\n${fm.raw.trimEnd()}\n${block}---\n${body}`
@@ -186,12 +204,15 @@ function runInject() {
 
 // ── CLI entry point ───────────────────────────────────────────────────────────
 
-const [,, mode] = process.argv
-if (mode === '--dry-run') {
-  runDryRun()
-} else if (mode === '--inject') {
-  runInject()
-} else {
-  console.error('Usage: wechat-share-tool.mjs [--dry-run|--inject]')
-  process.exit(1)
+// Only invoke when run as `node wechat-share-tool.mjs --…`, not when imported.
+if (import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.endsWith('wechat-share-tool.mjs')) {
+  const [,, mode] = process.argv
+  if (mode === '--dry-run') {
+    runDryRun()
+  } else if (mode === '--inject') {
+    runInject()
+  } else if (mode) {
+    console.error('Usage: wechat-share-tool.mjs [--dry-run|--inject]')
+    process.exit(1)
+  }
 }

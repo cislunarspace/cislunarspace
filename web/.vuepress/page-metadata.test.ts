@@ -1,5 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { normalizePageMetadata } from './page-metadata'
+// @ts-expect-error — .mjs sibling; we only need the runtime export for this test.
+import { resolveWechatShareFields, clipDescription, DESCRIPTION_CLIP_MAX } from './page-metadata-core.mjs'
 
 describe('normalizePageMetadata', () => {
   test('normalizes article metadata and share fields from standard frontmatter', () => {
@@ -101,5 +103,96 @@ describe('normalizePageMetadata', () => {
     })
 
     expect(metadata.image).toBe('https://cislunarspace.cn/logo.png')
+  })
+})
+
+describe('resolveWechatShareFields (WeChat CLI consumer)', () => {
+  test('returns null when no title can be resolved', () => {
+    expect(resolveWechatShareFields({})).toBeNull()
+    expect(resolveWechatShareFields({ description: 'd' })).toBeNull()
+  })
+
+  test('uses title fallback when frontmatter has no title', () => {
+    expect(resolveWechatShareFields({ description: 'desc' }, 'Fallback')).toEqual({
+      title: 'Fallback',
+      desc: 'desc',
+      image: '/logo.png',
+    })
+  })
+
+  test('clips long descriptions to DESCRIPTION_CLIP_MAX', () => {
+    const long = 'a'.repeat(DESCRIPTION_CLIP_MAX + 50)
+    const result = resolveWechatShareFields({ title: 't', description: long })
+
+    // Clipped length = DESCRIPTION_CLIP_MAX (DESCRIPTION_CLIP_MAX-1 chars + '…').
+    expect(result.desc.length).toBe(DESCRIPTION_CLIP_MAX)
+    expect(result.desc.endsWith('…')).toBe(true)
+  })
+
+  test('falls back to title when description is empty', () => {
+    expect(resolveWechatShareFields({ title: 'My title' })).toEqual({
+      title: 'My title',
+      desc: 'My title',
+      image: '/logo.png',
+    })
+  })
+
+  test('uses explicit image when present, otherwise logo', () => {
+    expect(resolveWechatShareFields({ title: 't', image: '/figures/x.png' })).toEqual({
+      title: 't',
+      desc: 't',
+      image: '/figures/x.png',
+    })
+    expect(resolveWechatShareFields({ title: 't' }).image).toBe('/logo.png')
+  })
+
+  test('nested wechatShare fields take precedence', () => {
+    expect(resolveWechatShareFields({
+      title: 'Root',
+      description: 'Root desc',
+      image: '/root.png',
+      wechatShare: {
+        title: 'WS title',
+        desc: 'WS desc',
+        image: '/ws.png',
+      },
+    })).toEqual({
+      title: 'WS title',
+      desc: 'WS desc',
+      image: '/ws.png',
+    })
+  })
+
+  test('agrees with normalizePageMetadata on title/description selection', () => {
+    const frontmatter = {
+      title: 'Root',
+      description: 'Root desc',
+      image: '/root.png',
+      wechatShare: { title: 'WS title', desc: 'WS desc' },
+    }
+
+    const normalized = normalizePageMetadata({
+      path: '/some-page/',
+      frontmatter,
+      siteBaseUrl: 'https://cislunarspace.cn',
+    })
+    const share = resolveWechatShareFields(frontmatter)
+
+    expect(share.title).toBe(normalized.share.title)
+    expect(share.desc).toBe(normalized.share.description)
+    // Image is site-relative on the CLI side, absolute on the normalizer side —
+    // assert the suffix is identical so both end up at the same final URL.
+    expect(normalized.share.image.endsWith(share.image)).toBe(true)
+  })
+})
+
+describe('clipDescription', () => {
+  test('returns input unchanged when shorter than max', () => {
+    expect(clipDescription('short', 10)).toBe('short')
+  })
+
+  test('appends ellipsis at max length', () => {
+    const long = 'a'.repeat(20)
+    expect(clipDescription(long, 10)).toBe(`${'a'.repeat(9)}…`)
   })
 })

@@ -45,8 +45,8 @@ export default defineClientConfig({
     useScrollReveal()
     useLocalePersistence()
 
-    function buildShareData() {
-      if (typeof window === 'undefined') return null
+    function setupShare() {
+      if (typeof window === 'undefined') return
       const fm = (page.value as PageData).frontmatter || {}
       const link = window.location.href.split('#')[0]
       const metadata = normalizePageMetadata({
@@ -57,20 +57,7 @@ export default defineClientConfig({
         fallbackTitle: document.title,
         fallbackDescription: (document.querySelector('meta[name="description"]') as HTMLMetaElement)?.content || '',
       })
-
-      return {
-        title: metadata.share.title,
-        desc: metadata.share.description,
-        imgUrl: metadata.share.image,
-        link: metadata.share.url,
-        type: metadata.type,
-      }
-    }
-
-    function setupShare() {
-      const data = buildShareData()
-      if (!data) return
-      updateOgMeta(data.title, data.desc, data.imgUrl, data.link, data.type)
+      updateOgMeta(metadata)
     }
 
     setupShare()
