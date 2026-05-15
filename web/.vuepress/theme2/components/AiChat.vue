@@ -185,9 +185,10 @@ import {
 } from '../utils/markdown-renderer'
 import { ChatSession } from '../utils/chat-session'
 import { sanitizeClientConfig } from '../utils/chat-config'
+import { beginStep, completeStep, finalizeSteps } from '../utils/chat-process-steps'
 import { useChatI18n } from './composables/useChatI18n'
 import { useChatHistory } from './composables/useChatHistory'
-import type { Message, ProcessStep, SseDelta, ProcessStepKey, ErrorKey } from '../utils/chat-types'
+import type { HierarchicalSiteIndex, Message, SseDelta, ProcessStepKey, ErrorKey } from '../utils/chat-types'
 
 // --- Template refs ---
 const inputRef = ref<HTMLTextAreaElement | null>(null)
@@ -201,7 +202,7 @@ const config = ref<ReturnType<typeof sanitizeClientConfig> | null>(null)
 const abortController = ref<AbortController | null>(null)
 const suggestedQuestions = ref<string[]>([])
 const sidebarOpen = ref(false)
-const siteIndex = ref<{ zh: unknown[]; en: unknown[] }>({ zh: [], en: [] })
+const siteIndex = ref<HierarchicalSiteIndex>({ zh: [], en: [] })
 const loadingPhase = ref('')
 
 // --- Computed ---
@@ -383,12 +384,13 @@ async function sendMessage() {
   abortController.value = new AbortController()
 
   try {
-    const maxHistory = Number(config.value.maxHistoryTurns || 10)
-    const historyMessages = messages.value.slice(0, -1).slice(-maxHistory * 2)
+    // History trimming is owned by ChatSession (uses maxHistoryTurns from config).
+    // The view just passes every prior message.
+    const priorHistory = messages.value.slice(0, -1)
 
-    const session = new ChatSession(config.value, isEn.value ? 'en' : 'zh', siteIndex.value as any)
+    const session = new ChatSession(config.value, isEn.value ? 'en' : 'zh', siteIndex.value)
 
-    await session.route(text, historyMessages, {
+    await session.route(text, priorHistory, {
       onPathsChosen: () => {},
       onExcerptsLoaded: () => {},
       onChunk: (delta: SseDelta) => {
@@ -401,26 +403,26 @@ async function sendMessage() {
         scrollToBottom('auto')
       },
       onComplete: (content: string, reasoning: string) => {
-        const finalContent = content || t('emptyReply')
-        assistantMessage.content = finalContent
+        assistantMessage.content = content
         if (reasoning) assistantMessage.reasoning = reasoning
       },
       onError: (errorKey: ErrorKey, details?: string) => {
         assistantMessage.content = t(errorKey) + (details ? ` ${details}` : '')
       },
       onProcessStep: (stepKey: ProcessStepKey, detail?: string) => {
-        if (!assistantMessage.processSteps) assistantMessage.processSteps = []
-        for (const s of assistantMessage.processSteps) {
-          if (s.status === 'running') s.status = 'done'
-        }
-        assistantMessage.processSteps.push({ label: t(stepKey), status: 'running', detail: detail || '' })
+        assistantMessage.processSteps = beginStep(
+          assistantMessage.processSteps ?? [],
+          stepKey,
+          (key) => t(key),
+          detail,
+        )
       },
       onProcessStepComplete: (stepKey: ProcessStepKey, detail?: string) => {
-        const steps = assistantMessage.processSteps
-        if (!steps || !steps.length) return
-        const last = steps[steps.length - 1]
-        if (last.status === 'running') last.status = 'done'
-        if (detail != null && String(detail).length) last.detail = detail
+        assistantMessage.processSteps = completeStep(
+          assistantMessage.processSteps ?? [],
+          stepKey,
+          detail,
+        )
       },
     }, abortController.value.signal)
   } catch (error) {
@@ -430,12 +432,7 @@ async function sendMessage() {
     }
     assistantMessage.content = `${t('networkError')} ${(error as Error).message}`
   } finally {
-    const steps = assistantMessage.processSteps
-    if (steps) {
-      for (const step of steps) {
-        if (step.status === 'running') step.status = 'done'
-      }
-    }
+    assistantMessage.processSteps = finalizeSteps(assistantMessage.processSteps)
     isLoading.value = false
     loadingPhase.value = ''
     abortController.value = null

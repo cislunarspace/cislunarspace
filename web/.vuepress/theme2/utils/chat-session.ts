@@ -245,7 +245,12 @@ export class ChatSession {
               callbacks.onChunk({ reasoning_content: reasoning, content })
             },
             onComplete: () => {
-              callbacks.onComplete(content.trim() || '', reasoning)
+              const trimmed = content.trim()
+              if (!trimmed) {
+                callbacks.onError('emptyReply')
+                return
+              }
+              callbacks.onComplete(trimmed, reasoning)
             },
             onError: (e) => {
               callbacks.onError('networkError', e.message)
@@ -257,9 +262,13 @@ export class ChatSession {
 
       const data = await this.transport.completeJson(this.cfg.apiEndpoint, payload, signal)
       const msg = this.readMessage(data)
-      const content = msg.content || ''
+      const content = (msg.content || '').trim()
       const reasoning = msg.reasoning_content ? String(msg.reasoning_content) : ''
-      callbacks.onComplete(content.trim() || '', reasoning)
+      if (!content) {
+        callbacks.onError('emptyReply')
+        return
+      }
+      callbacks.onComplete(content, reasoning)
     } catch (err) {
       if (err instanceof Error && err.name === 'AbortError') throw err
       callbacks.onError('networkError', err instanceof Error ? err.message : String(err))
