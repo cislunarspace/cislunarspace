@@ -14,6 +14,7 @@ lastUpdated: 2026-05-16
 | 2026-05-14 | [NASA, Eta Space Partner on In-Orbit Cryogenic Fluid Management Demo](./2026-05-14-nasa-loxsat-cryogenic-demo/) | NASA |
 | 2026-05-14 | [NASA Issues RFP for Mars Telecommunications Network, Targeting 2030 Operational Capability](./2026-05-14-nasa-mars-telecom-network-rfp/) | NASA |
 | 2026-05-14 | [ULA Completes Critical Solid Rocket Booster Test, Advancing Vulcan Return-to-Flight](./2026-05-14-ula-vulcan-srb-test/) | Commercial |
+| 2026-05-14 | [NASA's Asteroid-Bound Psyche Probe Captures Mars 'Eclipse' View During Flyby](./2026-05-14-psyche-mars-eclipse-image/) | Science |
 | 2026-05-14 | [Landspace Zhuque-2E Y5 Launches Successfully](./2026-05-14-zhuque-2e-y5-launch/) | Commercial |
 | 2026-05-13 | [World First: Artificial Human Embryos Enter Space Experiment Phase on China's Space Station](./2026-05-13-tianzhou-10-artificial-embryo/) | China Space |
 | 2026-05-13 | [Blue Origin's Blue Moon Lander Mockup Assembled at NASA JSC for Artemis Training](./2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/) | Artemis |
