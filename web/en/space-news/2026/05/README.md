@@ -19,6 +19,7 @@ lastUpdated: 2026-05-16
 | 2026-05-14 | [Landspace Zhuque-2E Y5 Launches Successfully](./2026-05-14-zhuque-2e-y5-launch/) | Commercial |
 | 2026-05-14 | [Yixian-3 VTVL Rocket Test Success: China's First University-Led Symmetric Reusable Liquid Rocket](./2026-05-14-yixian-3-vtvl-rocket/) | China Space |
 | 2026-05-15 | [Li Jian-1 Yao-13 Launches Five Satellites as Series Reaches 100-Orbit Milestone](./2026-05-15-lijian-1-yao13-100stars/) | China Space |
+| 2026-05-15 | [SpaceX CRS-34 Cargo Mission Launches Successfully, 6,500 Pounds Bound for ISS](./2026-05-15-crs-34-launch-success/) | SpaceX · Launch |
 | 2026-05-15 | [JWST Maps Universe's Largest Structure in Unprecedented Detail Spanning 13.7 Billion Years](./2026-05-15-jwst-cosmic-web-cosmos/) | Science |
 | 2026-05-16 | [Mars Express Orbiter Releases Stunning Images of Ancient Flood Carved Terrain](./2026-05-16-mars-orbiter-ancient-floods/) | Science |
 | 2026-05-16 | [SpaceX Starship V3 vs Its Predecessors: A Detailed Comparison of the World's Biggest Rocket](./2026-05-16-starship-v3-worlds-biggest-rocket/) | SpaceX |
