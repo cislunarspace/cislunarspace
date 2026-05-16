@@ -136,6 +136,7 @@ lastUpdated: 2026-05-16
 | 2026-04-28 | [Long March 10-Yi Rocket Successful Maiden Flight, Tests World's First Marine Flexible Net Recovery Technology](./2026-05-01-changzheng-10-yi-maiden-launch/) | China Space, Launches |
 | 2026-04-20 | [Blue Origin New Glenn NG-3 Mission Fails as Upper Stage Anomaly Sends BlueBird 7 to Wrong Orbit](./2026-05-01-new-glenn-ng3-failure/) | Blue Origin, Launches, Commercial Space |
 | 2026-04-20 | [SpaceX Falcon 9 Completes 600th Booster Recovery, Reusability Enters Maturity Phase](./2026-05-01-spacex-600th-recovery/) | SpaceX, Launches |
+| 2026-05-16 | [Shenzhou 23 Spaceship-Rocket Assembly Transferred to Launch Area](./2026-05-16-shenzhou-23-rocket-transfer/) | China Space |
 
 ---
 
