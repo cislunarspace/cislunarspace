@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-16
+lastUpdated: 2026-05-18
 ---
 
 # May 2026 · Space News
@@ -24,6 +24,7 @@ lastUpdated: 2026-05-16
 | 2026-05-16 | [Mars Express Orbiter Releases Stunning Images of Ancient Flood Carved Terrain](./2026-05-16-mars-orbiter-ancient-floods/) | Science |
 | 2026-05-16 | [SpaceX Starship V3 vs Its Predecessors: A Detailed Comparison of the World's Biggest Rocket](./2026-05-16-starship-v3-worlds-biggest-rocket/) | SpaceX |
 | 2026-05-16 | [Astronomers Discover 'Hidden' Interstellar Comet 3I/ATLAS in Pre-Discovery Archival Images](./2026-05-16-interstellar-comet-3i-atlas/) | Science |
+| 2026-05-18 | [Scientists Warn: SpaceX Starlink and Other Satellite Megaconstellations Constitute an 'Unregulated Geoengineering Experiment'](./2026-05-18-starlink-megaconstellations/) | Policy · Commercial |
 | 2026-05-13 | [World First: Artificial Human Embryos Enter Space Experiment Phase on China's Space Station](./2026-05-13-tianzhou-10-artificial-embryo/) | China Space |
 | 2026-05-13 | [Blue Origin's Blue Moon Lander Mockup Assembled at NASA JSC for Artemis Training](./2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/) | Artemis |
 | 2026-05-13 | [Amaterasu Particle and Cosmic Ray Origins: 60-Year Mystery May Be Solved](./2026-05-13-cosmic-rays-amaterasu-particle-origin/) | Science |
