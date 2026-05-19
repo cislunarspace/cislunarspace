@@ -3,13 +3,15 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-19
+lastUpdated: 2026-05-20
 ---
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-19 | [Ultrastable Lasers in Moon's Permanently Shadowed Craters Could Enable Lunar GPS System](./2026-05-19-lunar-gps-moon-craters/) | Science |
+| 2026-05-19 | [Worker Dies at SpaceX's Starbase Ahead of Starship V3 Megarocket Launch](./2026-05-19-spacex-worker-death-starbase/) | SpaceX |
 | 2026-05-19 | [SMILE Satellite Successfully Launched: China-Europe Space Science Cooperation Takes Flight](./2026-05-19-smile-satellite-launch-success/) | China Space |
 | 2026-05-19 | [Vast Unveils 15 kW Commercial Satellite Bus, First 10 to Launch in Late 2027](./2026-05-19-vast-satellites/) | Commercial |
 | 2026-05-19 | [NASA Awards LOXSAT Contract to Rocket Lab for Cryogenic Propellant Demo](./2026-05-19-nasa-loxsat-cryogenic-demo/) | NASA |
