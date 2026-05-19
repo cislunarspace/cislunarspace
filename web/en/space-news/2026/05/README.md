@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-18
+lastUpdated: 2026-05-19
 ---
 
 # May 2026 · Space News
@@ -11,6 +11,9 @@ lastUpdated: 2026-05-18
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-19 | [SMILE Satellite Successfully Launched: China-Europe Space Science Cooperation Takes Flight](./2026-05-19-smile-satellite-launch-success/) | China Space |
+| 2026-05-19 | [Vast Unveils 15 kW Commercial Satellite Bus, First 10 to Launch in Late 2027](./2026-05-19-vast-satellites/) | Commercial |
+| 2026-05-19 | [NASA Awards LOXSAT Contract to Rocket Lab for Cryogenic Propellant Demo](./2026-05-19-nasa-loxsat-cryogenic-demo/) | NASA |
+| 2026-05-19 | [China's Commercial Space Sector Enters 'Mass Production Era'](./2026-05-19-china-commercial-space-mass-production/) | China Space |
 | 2026-05-18 | [Vega C Launches European-Chinese SMILE Space Weather Mission](./2026-05-18-vega-c-smile-launch/) | ESA |
 | 2026-05-14 | [Laser Detection Technique Reveals Environmental Impact of Falling Space Debris](./2026-05-14-space-debris-laser-detection/) | Science |
 | 2026-05-14 | [NASA, Eta Space Partner on In-Orbit Cryogenic Fluid Management Demo](./2026-05-14-nasa-loxsat-cryogenic-demo/) | NASA |
