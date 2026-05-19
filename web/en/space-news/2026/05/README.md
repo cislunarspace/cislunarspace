@@ -10,6 +10,7 @@ lastUpdated: 2026-05-18
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-19 | [SMILE Satellite Successfully Launched: China-Europe Space Science Cooperation Takes Flight](./2026-05-19-smile-satellite-launch-success/) | China Space |
 | 2026-05-18 | [Vega C Launches European-Chinese SMILE Space Weather Mission](./2026-05-18-vega-c-smile-launch/) | ESA |
 | 2026-05-14 | [Laser Detection Technique Reveals Environmental Impact of Falling Space Debris](./2026-05-14-space-debris-laser-detection/) | Science |
 | 2026-05-14 | [NASA, Eta Space Partner on In-Orbit Cryogenic Fluid Management Demo](./2026-05-14-nasa-loxsat-cryogenic-demo/) | NASA |
