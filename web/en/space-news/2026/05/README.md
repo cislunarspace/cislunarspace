@@ -3,13 +3,15 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-20
+lastUpdated: 2026-05-21
 ---
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-20 | [Space Debris Surge Threatens Climate Satellites as Avoidance Maneuvers Accelerate](./2026-05-20-space-debris-satellite-maneuvers/) | Science |
+| 2026-05-20 | [Hidden Fuel-Efficient Trajectory Discovered for Earth-Moon Transit](./2026-05-20-moon-trajectory-fuel-efficient-route/) | Science |
 | 2026-05-20 | [NASA Psyche Spacecraft Releases Stunning Mars Close-Up Images From Flyby](./2026-05-20-nasa-psyche-mars-flyby-images/) | NASA |
 | 2026-05-20 | [SpaceX Launches Starlink 17-42 from Vandenberg](./2026-05-20-starlink-17-42-vandenberg-launch/) | SpaceX |
 

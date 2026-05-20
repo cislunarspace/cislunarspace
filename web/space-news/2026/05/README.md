@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-20
+lastUpdated: 2026-05-21
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-20 | [太空碎片激增：卫星规避机动频率大幅上升 气候观测面临威胁](./2026-05-20-space-debris-satellite-maneuvers/) |
+| 5-20 | [科学家发现地月间隐藏低能耗航线 可节省58.8米/秒燃料消耗](./2026-05-20-moon-trajectory-fuel-efficient-route/) |
 | 5-20 | [NASA Psyche探测器成功飞掠火星 首批近距离图像震撼发布](./2026-05-20-nasa-psyche-mars-flyby-images/) |
 | 5-20 | [SpaceX第17-42批Starlink从范登堡发射](./2026-05-20-starlink-17-42-vandenberg-launch/) |
 
