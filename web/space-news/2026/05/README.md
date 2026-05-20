@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-20 | [NASA Psyche探测器成功飞掠火星 首批近距离图像震撼发布](./2026-05-20-nasa-psyche-mars-flyby-images/) |
 | 5-20 | [SpaceX第17-42批Starlink从范登堡发射](./2026-05-20-starlink-17-42-vandenberg-launch/) |
 
 | 5-19 | [科学家提议在月球永久阴影环形山内置超稳激光器 打造「月球GPS」](./2026-05-19-lunar-gps-moon-craters/) |
