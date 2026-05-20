@@ -10,6 +10,8 @@ lastUpdated: 2026-05-20
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-20 | [SpaceX Launches Starlink 17-42 from Vandenberg](./2026-05-20-starlink-17-42-vandenberg-launch/) | SpaceX |
+
 | 2026-05-19 | [Ultrastable Lasers in Moon's Permanently Shadowed Craters Could Enable Lunar GPS System](./2026-05-19-lunar-gps-moon-craters/) | Science |
 | 2026-05-19 | [Worker Dies at SpaceX's Starbase Ahead of Starship V3 Megarocket Launch](./2026-05-19-spacex-worker-death-starbase/) | SpaceX |
 | 2026-05-19 | [SMILE Satellite Successfully Launched: China-Europe Space Science Cooperation Takes Flight](./2026-05-19-smile-satellite-launch-success/) | China Space |
