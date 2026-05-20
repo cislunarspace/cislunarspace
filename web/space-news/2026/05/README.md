@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-20 | [SpaceX第17-42批Starlink从范登堡发射](./2026-05-20-starlink-17-42-vandenberg-launch/) |
+
 | 5-19 | [科学家提议在月球永久阴影环形山内置超稳激光器 打造「月球GPS」](./2026-05-19-lunar-gps-moon-craters/) |
 | 5-19 | [SpaceX星舰V3首飞前星基地发生工人死亡事故 OSHA介入调查](./2026-05-19-spacex-worker-death-starbase/) |
 | 5-19 | [「微笑」卫星发射成功 中欧携手开启空间科学合作新篇章](./2026-05-19-smile-satellite-launch-success/) |
