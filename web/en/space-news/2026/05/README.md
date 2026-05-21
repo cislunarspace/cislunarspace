@@ -10,6 +10,7 @@ lastUpdated: 2026-05-21
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-20 | [JWST Observations Reveal Nereid's True Origin: Neptune's Original Moon](./2026-05-20-neptune-nereid-jwst-study/) | Science |
 | 2026-05-20 | [Space Debris Surge Threatens Climate Satellites as Avoidance Maneuvers Accelerate](./2026-05-20-space-debris-satellite-maneuvers/) | Science |
 | 2026-05-20 | [Hidden Fuel-Efficient Trajectory Discovered for Earth-Moon Transit](./2026-05-20-moon-trajectory-fuel-efficient-route/) | Science |
 | 2026-05-20 | [NASA Psyche Spacecraft Releases Stunning Mars Close-Up Images From Flyby](./2026-05-20-nasa-psyche-mars-flyby-images/) | NASA |
