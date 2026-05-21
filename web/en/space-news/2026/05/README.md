@@ -4,13 +4,19 @@ description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
 lastUpdated: 2026-05-22
+
+## Archive by date
+
 ---
+
+# May 2026 · Space News
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-21 | [SpaceX IPO Filing Reveals $1.75-2T Valuation, Starship R&D Tops $15 Billion](./2026-05-21-spacex-ipo-starship-v3/) | SpaceX |
+| 2026-05-21 | [SpaceX Launches Starlink 10-31 from Cape Canaveral at Dawn, 29 Satellites Deployed](./2026-05-21-starlink-10-31-cape-canaveral-launch/) | SpaceX |
 | 2026-05-21 | [Shenzhou-23 Crew Completes Full-System Launch Rehearsal at Jiuquan](./2026-05-21-shenzhou-23-mission-rehearsal/) | China Space |
 | 2026-05-20 | [SpaceX Completes Starship V3 Stacking, Clears First Full-Stack Fueling Test Ahead of Maiden Flight](./2026-05-20-starship-v3-stacking-milestone/) | SpaceX |
 | 2026-05-20 | [JWST Observations Reveal Nereid's True Origin: Neptune's Original Moon](./2026-05-20-neptune-nereid-jwst-study/) | Science |
@@ -18,7 +24,6 @@ lastUpdated: 2026-05-22
 | 2026-05-20 | [Hidden Fuel-Efficient Trajectory Discovered for Earth-Moon Transit](./2026-05-20-moon-trajectory-fuel-efficient-route/) | Science |
 | 2026-05-20 | [NASA Psyche Spacecraft Releases Stunning Mars Close-Up Images From Flyby](./2026-05-20-nasa-psyche-mars-flyby-images/) | NASA |
 | 2026-05-20 | [SpaceX Launches Starlink 17-42 from Vandenberg](./2026-05-20-starlink-17-42-vandenberg-launch/) | SpaceX |
-
 | 2026-05-19 | [Ultrastable Lasers in Moon's Permanently Shadowed Craters Could Enable Lunar GPS System](./2026-05-19-lunar-gps-moon-craters/) | Science |
 | 2026-05-19 | [Worker Dies at SpaceX's Starbase Ahead of Starship V3 Megarocket Launch](./2026-05-19-spacex-worker-death-starbase/) | SpaceX |
 | 2026-05-19 | [SMILE Satellite Successfully Launched: China-Europe Space Science Cooperation Takes Flight](./2026-05-19-smile-satellite-launch-success/) | China Space |
@@ -62,10 +67,10 @@ lastUpdated: 2026-05-22
 | 2026-05-12 | [New Study Suggests Uranus and Neptune Are Rockier Than Expected, Challenging Ice Giant Classification](./2026-05-12-uranus-neptune-ice-giants/) |
 | 2026-05-12 | [US Space Force Releases Officer Career Development Path Document](./2026-05-12-us-space-force-officer-career-path/) | Policy & Strategy |
 | 2026-05-12 | [NASA, SpaceX Scrub CRS-34 Launch Due to Poor Weather, Target May 13](./2026-05-12-crs-34-scrub-weather/) | SpaceX |
-|| 2026-05-12 | [NASA, SpaceX Scrub CRS-34 Launch Again Due to Weather, Now Targeting May 15](./2026-05-13-crs-34-second-scrub/) | SpaceX, ISS |
+| 2026-05-12 | [NASA, SpaceX Scrub CRS-34 Launch Again Due to Weather, Now Targeting May 15](./2026-05-13-crs-34-second-scrub/) | SpaceX, ISS |
 | 2026-05-13 | [CBO Estimates US Golden Dome Missile Defense Could Cost $1.2 Trillion Over 20 Years](./2026-05-13-golden-dome-cbo-cost/) |
 | 2026-05-13 | [Google in Talks with SpaceX Over Orbital Data Center Launch Deal](./2026-05-13-google-spacex-orbital-data-center/) | Commercial Space |
-| 2026-05-13 | [Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit](./2026-05-13-cowboy-space-orbital-ai-data-centers/) | Commercial |
+| 2026-05-13 | [Cowboy Space Raises $275 Million to Deploy AI Data Centers in Earth Orbit](./2026-05-13-cowboy-space-orbital-ai-data-centers/) | Commercial Space |
 | 2026-05-11 | [Tianzhou-10 Cargo Spacecraft Docks with Tiangong Space Station](./2026-05-11-tianzhou-10-docking/) | China Space |
 | 2026-05-11 | [M5.7 Solar Flare and CME Trigger Atlantic Radio Blackouts](./2026-05-11-solar-flare-m57-cme/) | Science |
 | 2026-05-11 | [James Webb Telescope Images Reveal How Massive Star Clusters Reshape Galaxies](./2026-05-11-jwst-star-clusters-galaxies/) | Science |
@@ -86,7 +91,7 @@ lastUpdated: 2026-05-22
 | 2026-05-08 | [NASA Tests Regenerative Fuel Cell System for Sustainable Energy Storage on the Moon](./2026-05-08-nasa-fuel-cell-moon/) | NASA |
 | 2026-05-08 | [Blue Origin's Endurance Lander Completes NASA Center Tests, Targeting Late 2027 Launch](./2026-05-08-blue-origin-mk1-nasa-testing/) | Blue Origin |
 | 2026-05-08 | [Machine Learning Discovers Over 10,000 Candidate Exoplanets in NASA Survey Data](./2026-05-08-exoplanets-tess-10000-candidates/) | Science |
-| 2026-05-08 | [NASA, Industry Partner to Advance High Performance Spaceflight Computing](./2026-05-08-nasa-spaceflight-computing/) | nasa |
+| 2026-05-08 | [NASA, Industry Partner to Advance High Performance Spaceflight Computing](./2026-05-08-nasa-spaceflight-computing/) | NASA |
 | 2026-05-08 | [Black Holes or Neutron Stars Slamming into Wolf-Rayet Stars May Explain Mysterious Blue Flashes](./2026-05-08-lfbort-black-hole-wolf-rayet/) | Science |
 | 2026-05-07 | [ESA Space Rider Thermal Protection System Passes Extreme Testing](./2026-05-07-esa-space-rider-thermal-protection/) | ESA |
 | 2026-05-07 | [NASA-Backed SNAPPY CubeSat Launches to Test Solar Neutrino Detector](./2026-05-07-snappy-cubesat-launch/) | NASA |
