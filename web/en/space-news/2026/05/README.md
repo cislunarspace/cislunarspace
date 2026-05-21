@@ -3,13 +3,16 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-21
+lastUpdated: 2026-05-22
 ---
 
 # May 2026 · Space News
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-21 | [SpaceX IPO Filing Reveals $1.75-2T Valuation, Starship R&D Tops $15 Billion](./2026-05-21-spacex-ipo-starship-v3/) | SpaceX |
+| 2026-05-21 | [Shenzhou-23 Crew Completes Full-System Launch Rehearsal at Jiuquan](./2026-05-21-shenzhou-23-mission-rehearsal/) | China Space |
+| 2026-05-20 | [SpaceX Completes Starship V3 Stacking, Clears First Full-Stack Fueling Test Ahead of Maiden Flight](./2026-05-20-starship-v3-stacking-milestone/) | SpaceX |
 | 2026-05-20 | [JWST Observations Reveal Nereid's True Origin: Neptune's Original Moon](./2026-05-20-neptune-nereid-jwst-study/) | Science |
 | 2026-05-20 | [Space Debris Surge Threatens Climate Satellites as Avoidance Maneuvers Accelerate](./2026-05-20-space-debris-satellite-maneuvers/) | Science |
 | 2026-05-20 | [Hidden Fuel-Efficient Trajectory Discovered for Earth-Moon Transit](./2026-05-20-moon-trajectory-fuel-efficient-route/) | Science |

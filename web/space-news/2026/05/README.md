@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-21
+lastUpdated: 2026-05-22
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,9 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-21 | [SpaceX正式提交IPO申请 估值1.75-2万亿美元 星舰研发累计投入超150亿美元](./2026-05-21-spacex-ipo-starship-v3/) |
+| 5-21 | [神舟二十三号完成全系统发射演练 乘组训练及发射准备进入最后阶段](./2026-05-21-shenzhou-23-mission-rehearsal/) |
+| 5-20 | [SpaceX完成星舰V3箭体总装 首次燃料加注测试通过 静待首飞](./2026-05-20-starship-v3-stacking-milestone/) |
 | 5-20 | [JWST观测揭示海卫一真实身世：并非来自柯伊伯带 而是海王星「原住民」](./2026-05-20-neptune-nereid-jwst-study/) |
 | 5-20 | [太空碎片激增：卫星规避机动频率大幅上升 气候观测面临威胁](./2026-05-20-space-debris-satellite-maneuvers/) |
 | 5-20 | [科学家发现地月间隐藏低能耗航线 可节省58.8米/秒燃料消耗](./2026-05-20-moon-trajectory-fuel-efficient-route/) |
