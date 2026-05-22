@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-22
+lastUpdated: 2026-05-23
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,7 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
-| 5-22 | [Rocket Lab Electron执飞Viva La StriX任务 日本Synspective第9颗SAR卫星即将入轨](./2026-05-22-rocket-lab-strix-electron-launch/) |
+| 5-22 | [Rocket Lab Electron执飞Viva La StriX任务 日本Synspective第9颗SAR卫星成功入轨](./2026-05-22-rocket-lab-strix-electron-launch/) |
+| 5-22 | [NASA宣布JPL管理权竞标计划 持续90年的Caltech运营协议将到期终结](./2026-05-22-nasa-jpl-governance-caltech/) |
 | 5-21 | [SpaceX星舰V3首飞在即倒计时叫停 发射塔液压销故障推迟](./2026-05-21-starship-v3-scrub-hydraulic-pin/) |
 | 5-21 | [SpaceX卡纳维拉尔角清晨发射第10-31批29颗Starlink卫星](./2026-05-21-starlink-10-31-cape-canaveral-launch/) |
 | 5-21 | [SpaceX正式提交IPO申请 估值1.75-2万亿美元 星舰研发累计投入超150亿美元](./2026-05-21-spacex-ipo-starship-v3/) |
