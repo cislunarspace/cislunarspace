@@ -1,6 +1,6 @@
 ---
 layout: SpaceNewsArticle
-title: "Rocket Lab Electron执飞Viva La StriX任务 日本Synspective第9颗SAR卫星即将入轨"
+title: "Rocket Lab Electron执飞Viva La StriX任务 日本Synspective第9颗SAR卫星成功入轨"
 description: "Rocket Lab于5月22日为日本Synspective公司发射第9颗StriX合成孔径雷达卫星，这是双方10次发射合同框架下的第9次任务，Electron火箭将从新西兰马希亚半岛发射。"
 permalink: /space-news/2026/05/2026-05-22-rocket-lab-strix-electron-launch/
 author: 天疆说
@@ -11,7 +11,7 @@ category: rocket-lab
 
 # Rocket Lab Electron执飞Viva La StriX任务 日本Synspective第9颗SAR卫星即将入轨
 
-**摘要：** 2026年5月22日，Rocket Lab使用Electron运载火箭为日本Synspective公司发射Viva La StriX任务，将第9颗StriX合成孔径雷达（SAR）卫星送入太阳同步轨道。这是Rocket Lab为Synspective执行的第9次发射任务，也是双方于2024年签署的10次发射合同框架下的第9次飞行。
+**摘要：** 2026年5月22日，Rocket Lab使用Electron运载火箭为日本Synspective公司发射Viva La StriX任务，成功将第9颗StriX合成孔径雷达（SAR）卫星送入约572公里高的低地球轨道。Electron于新西兰当地时间21时33分（北京时间5月22日09时33分）点火起飞，卫星按计划部署。这是Rocket Lab为Synspective执行的第9次发射任务，也是双方于2024年签署的10次发射合同框架下的第9次飞行。
 
 ## 任务概况
 

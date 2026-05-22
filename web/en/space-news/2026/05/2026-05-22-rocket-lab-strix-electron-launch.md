@@ -11,7 +11,7 @@ category: rocket-lab
 
 # Rocket Lab Electron Launches Viva La StriX Mission, Deploying 9th Synspective SAR Satellite
 
-**Summary:** Rocket Lab's Electron rocket lifted off on May 22, 2026, carrying the 9th StriX synthetic aperture radar (SAR) satellite for Japanese operator Synspective. The mission, named "Viva La StriX," departed from Rocket Lab Launch Complex 1 on New Zealand's Mahia Peninsula and targeted a sun-synchronous orbit at approximately 572 km altitude.
+**Summary:** Rocket Lab's Electron rocket lifted off on May 22, 2026, carrying the 9th StriX synthetic aperture radar (SAR) satellite for Japanese operator Synspective. The mission, named "Viva La StriX," departed from Rocket Lab Launch Complex 1 on New Zealand's Mahia Peninsula and successfully deployed the satellite in low Earth orbit at approximately 355 miles (572 km) altitude. Liftoff occurred at 5:33 a.m. EDT (0933 GMT; 9:33 p.m. local New Zealand time).
 
 ## Mission Profile
 

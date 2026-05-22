@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-22
+lastUpdated: 2026-05-23
 
 ## Archive by date
 
@@ -16,6 +16,7 @@ lastUpdated: 2026-05-22
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-22 | [Rocket Lab Electron Launches Viva La StriX Mission, Deploying 9th Synspective SAR Satellite](./2026-05-22-rocket-lab-strix-electron-launch/) | Rocket Lab |
+| 2026-05-22 | [NASA to Open JPL Operations Contract for Competition for First Time in Nearly 90 Years](./2026-05-22-nasa-jpl-governance-caltech/) | NASA |
 | 2026-05-21 | [SpaceX Scrubs Starship V3 Debut Launch at T-40 Seconds Over Hydraulic Pin Fault](./2026-05-21-starship-v3-scrub-hydraulic-pin/) | SpaceX |
 | 2026-05-21 | [SpaceX IPO Filing Reveals $1.75-2T Valuation, Starship R&D Tops $15 Billion](./2026-05-21-spacex-ipo-starship-v3/) | SpaceX |
 | 2026-05-21 | [SpaceX Launches Starlink 10-31 from Cape Canaveral at Dawn, 29 Satellites Deployed](./2026-05-21-starlink-10-31-cape-canaveral-launch/) | SpaceX |
