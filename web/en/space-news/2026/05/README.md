@@ -15,6 +15,7 @@ lastUpdated: 2026-05-23
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-23 | [Shenzhou-23 Crew Revealed: Hong Kong Astronaut Li Jiaying Set for First Spaceflight](./2026-05-23-shenzhou-23-crew-reveal/) | China Space |
 | 2026-05-23 | [14 Years of Hubble Data Challenge Europa Water Plume Discovery: Scientists Question 2012 Observations](./2026-05-23-europa-water-plume-retraction/) | Science |
 | 2026-05-23 | [Cryptocurrency Billionaire Chun Wang Announces SpaceX's First Private Starship Mars Flyby Mission](./2026-05-23-private-starship-mars-chun-wang/) | Commercial Space |
 | 2026-05-22 | [Rocket Lab Electron Launches Viva La StriX Mission, Deploying 9th Synspective SAR Satellite](./2026-05-22-rocket-lab-strix-electron-launch/) | Rocket Lab |
