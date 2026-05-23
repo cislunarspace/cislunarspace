@@ -7,6 +7,7 @@ author: Tianjiangshuo
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: commercial
+image: ./figures/2026-05-23-private-starship-mars-chun-wang/hero.jpg
 ---
 
 # Cryptocurrency Billionaire Chun Wang Announces SpaceX's First Private Starship Mars Flyby Mission

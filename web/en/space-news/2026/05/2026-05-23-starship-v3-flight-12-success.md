@@ -7,6 +7,7 @@ author: Tianjiangshuo
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: spacex
+image: ./figures/2026-05-23-starship-v3-flight-12-success/hero.jpg
 ---
 
 # SpaceX Starship V3 Completes Successful First Flight as Flight 12 Mission Reaches Indian Ocean

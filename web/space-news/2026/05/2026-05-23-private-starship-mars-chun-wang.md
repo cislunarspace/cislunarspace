@@ -7,6 +7,7 @@ author: 天疆说
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: commercial
+image: ./figures/2026-05-23-private-starship-mars-chun-wang/hero.jpg
 ---
 
 # 加密货币富豪王川宣布SpaceX首个私人星舰火星飞越任务，暂未公布具体时间
