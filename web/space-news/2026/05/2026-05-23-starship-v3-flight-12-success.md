@@ -7,6 +7,7 @@ author: 天疆说
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: spacex
+image: ./figures/2026-05-23-starship-v3-flight-12-success/hero.jpg
 ---
 
 # SpaceX星舰V3首次试飞成功 完成第12次综合测试
