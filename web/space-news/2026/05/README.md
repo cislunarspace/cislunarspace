@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-24
+lastUpdated: 2026-05-25
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-25 | [神舟二十三号载人飞船与空间站组合体完成自主快速交会对接](./2026-05-25-shenzhou-23-docking/) |
 | 5-24 | [神舟二十三号载人飞船发射取得圆满成功](./2026-05-24-shenzhou-23-launch-success/) |
 | 5-24 | [银河系最常见行星内部结构或与地球截然不同：新研究挑战经典行星分层模型](./2026-05-24-exoplanet-interior-structure/) |
 | 5-23 | [SpaceX星舰V3首次试飞成功 完成第12次综合测试](./2026-05-23-starship-v3-flight-12-success/) |

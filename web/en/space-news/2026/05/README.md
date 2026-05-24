@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-24
+lastUpdated: 2026-05-25
 
 ## Archive by date
 
@@ -15,6 +15,7 @@ lastUpdated: 2026-05-24
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-25 | [Shenzhou 23 Successfully Docks with Tiangong Space Station](./2026-05-25-shenzhou-23-docking/) | China Space |
 | 2026-05-24 | [China's Shenzhou 23 Successfully Launches Toward Tiangong Space Station](./2026-05-24-shenzhou-23-launch-success/) | China Space |
 | 2026-05-24 | [银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型](./2026-05-24-exoplanet-interior-structure/) | Science |
 | 2026-05-23 | [SpaceX Starship V3 Completes Successful First Flight as Flight 12 Mission Reaches Indian Ocean](./2026-05-23-starship-v3-flight-12-success/) | SpaceX |
