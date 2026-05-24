@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-23
+lastUpdated: 2026-05-24
 
 ## Archive by date
 
@@ -15,6 +15,7 @@ lastUpdated: 2026-05-23
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-24 | [银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型](./2026-05-24-exoplanet-interior-structure/) | Science |
 | 2026-05-23 | [SpaceX Starship V3 Completes Successful First Flight as Flight 12 Mission Reaches Indian Ocean](./2026-05-23-starship-v3-flight-12-success/) | SpaceX |
 | 2026-05-23 | [Shenzhou-23 Crew Revealed: Hong Kong Astronaut Li Jiaying Set for First Spaceflight](./2026-05-23-shenzhou-23-crew-reveal/) | China Space |
 | 2026-05-23 | [14 Years of Hubble Data Challenge Europa Water Plume Discovery: Scientists Question 2012 Observations](./2026-05-23-europa-water-plume-retraction/) | Science |
