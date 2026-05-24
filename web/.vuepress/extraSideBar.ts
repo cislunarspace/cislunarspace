@@ -3,10 +3,10 @@
  */
 export default [
   {
-    title: "支持我",
-    icon: "/icon/dianzan.png",
-    popoverTitle: "鼓励和赞赏我",
-    popoverUrl: "/qrcode-thumb.jpg",
-    popoverDesc: "感谢您的支持",
+    title: "微信公众号",
+    icon: "/wechat.png",
+    popoverTitle: "欢迎关注天疆说",
+    popoverUrl: "/qrcode-wechat.jpg",
+    popoverDesc: "扫码关注，手机获取航天资讯",
   },
 ];
