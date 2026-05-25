@@ -15,6 +15,8 @@ lastUpdated: 2026-05-25
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-25 | [SpaceX Launches 29 Starlink Satellites on Memorial Day, Falcon 9 Completes 28th Flight](./2026-05-25-starlink-10-47-memorial-day-falcon-9/) | SpaceX |
+| 2026-05-25 | [Scientists Detect Gamma-Rays from Superluminous Supernova for First Time, Powered by Magnetar](./2026-05-25-magnetar-supernova-gamma-rays/) | Science |
 | 2026-05-25 | [Shenzhou 23 Successfully Docks with Tiangong Space Station](./2026-05-25-shenzhou-23-docking/) | China Space |
 | 2026-05-24 | [China's Shenzhou 23 Successfully Launches Toward Tiangong Space Station](./2026-05-24-shenzhou-23-launch-success/) | China Space |
 | 2026-05-24 | [银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型](./2026-05-24-exoplanet-interior-structure/) | Science |
