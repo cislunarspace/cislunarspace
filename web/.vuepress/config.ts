@@ -167,7 +167,7 @@ export default defineUserConfig({
     },
 
     repo: null,
-    docsRepo: 'https://gitee.com/cislunarspace/cislunarspace',
+    docsRepo: 'https://github.com/cislunarspace/cislunarspace',
     docsBranch: 'master',
     docsDir: 'web',
     editLink: true,
