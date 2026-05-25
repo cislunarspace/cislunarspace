@@ -18,6 +18,7 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 5-25 | [SpaceX 阵亡将士纪念日发射 29 颗 Starlink 卫星，猎鹰九号完成第 28 次飞行](./2026-05-25-starlink-10-47-memorial-day-falcon-9/) |
+| 5-25 | [DARPA地球同步轨道卫星在轨服务任务即将发射：或改变太空资产运营模式](./2026-05-25-darpa-rsgs-geosynchronous-satellite/) |
 | 5-25 | [科学家首次探测到超亮超新星发射的伽马射线：来自磁陀星供能](./2026-05-25-magnetar-supernova-gamma-rays/) |
 | 5-25 | [神舟二十三号载人飞船与空间站组合体完成自主快速交会对接](./2026-05-25-shenzhou-23-docking/) |
 | 5-24 | [神舟二十三号载人飞船发射取得圆满成功](./2026-05-24-shenzhou-23-launch-success/) |
