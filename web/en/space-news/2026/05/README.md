@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-26
+lastUpdated: 2026-05-27
 
 ## Archive by date
 
@@ -15,6 +15,7 @@ lastUpdated: 2026-05-26
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-26 | [NASA Unveils Lunar Base Plan: Hundreds of Square Miles, Three Construction Phases](./2026-05-26-nasa-moon-base-plan-update/) | Artemis |
 | 2026-05-26 | [NASA's Silent MAVEN Mars Probe Data Reveals Unexpected 'Zwan-Wolf Effect' in Solar Wind Interaction](./2026-05-26-nasa-maven-mars-solar-wind-discovery/) | Science |
 | 2026-05-25 | [SpaceX Launches 29 Starlink Satellites on Memorial Day, Falcon 9 Completes 28th Flight](./2026-05-25-starlink-10-47-memorial-day-falcon-9/) | SpaceX |
 | 2026-05-25 | [DARPA Geosynchronous Satellite Servicing Mission Targets Summer 2026 Launch](./2026-05-25-darpa-rsgs-geosynchronous-satellite/) | Policy & Strategy |
