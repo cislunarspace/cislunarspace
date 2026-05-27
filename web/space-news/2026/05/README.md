@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-27 | [FAA责令SpaceX调查星舰V3助推器故障，后续发射暂停](./2026-05-27-starship-v3-flight-12-faa-grounding/) |
 | 5-27 | [外交部：「天宫」迎来首位中国香港航天员是「一国两制」实践结出的硕果](./2026-05-27-tiangong-first-hong-kong-astronaut/) |
 | 5-27 | [中国成功发射通信技术试验卫星二十四号](./2026-05-27-tongxing-24-communication-satellite-launch/) |
 | 5-27 | [SpaceX与五角大楼因星链服务涨价引发定价争议](./2026-05-27-starlink-pentagon-pricing-dispute/) |
