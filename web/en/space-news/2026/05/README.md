@@ -15,6 +15,7 @@ lastUpdated: 2026-05-27
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-27 | [FAA Orders SpaceX to Investigate Starship V3 Booster Failure; All Launches Suspended](./2026-05-27-starship-v3-flight-12-faa-grounding/) | SpaceX |
 | 2026-05-27 | [China's Tiangong Space Station Welcomes First Hong Kong Astronaut; Foreign Ministry Calls It "Fruit of One Country, Two Systems"](./2026-05-27-tiangong-first-hong-kong-astronaut/) | China Space |
 | 2026-05-27 | [China Launches Tongxing-24 Communication Technology Test Satellite on Long March 7](./2026-05-27-tongxing-24-communication-satellite-launch/) | China Space |
 | 2026-05-27 | [SpaceX, Pentagon Clash Over Starlink Pricing as US Military Drone Costs Nearly Double](./2026-05-27-starlink-pentagon-pricing-dispute/) | Policy |
