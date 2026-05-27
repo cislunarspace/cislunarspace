@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-27 | [外交部：「天宫」迎来首位中国香港航天员是「一国两制」实践结出的硕果](./2026-05-27-tiangong-first-hong-kong-astronaut/) |
 | 5-27 | [中国成功发射通信技术试验卫星二十四号](./2026-05-27-tongxing-24-communication-satellite-launch/) |
 | 5-27 | [NASA公布近10亿美元月球基地合同：Astrolab、Lunar Outpost、Blue Origin三家分获大单](./2026-05-27-nasa-moon-base-1b-contracts/) |
 | 5-26 | [SpaceX猎鹰九号从范登堡发射24颗Starlink卫星，推进器成功着陆无人船](./2026-05-26-starlink-17-37-vandenberg-launch/) |

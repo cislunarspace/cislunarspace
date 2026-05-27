@@ -15,6 +15,7 @@ lastUpdated: 2026-05-27
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-27 | [China's Tiangong Space Station Welcomes First Hong Kong Astronaut; Foreign Ministry Calls It "Fruit of One Country, Two Systems"](./2026-05-27-tiangong-first-hong-kong-astronaut/) | China Space |
 | 2026-05-27 | [China Launches Tongxing-24 Communication Technology Test Satellite on Long March 7](./2026-05-27-tongxing-24-communication-satellite-launch/) |
 | 2026-05-27 | [NASA Awards Nearly $1 Billion in Moon Base Contracts to Astrolab, Lunar Outpost, and Blue Origin](./2026-05-27-nasa-moon-base-1b-contracts/) |
 | 2026-05-26 | [SpaceX Falcon 9 Launches 24 Starlink Satellites from Vandenberg, Booster Lands on Drone Ship](./2026-05-26-starlink-17-37-vandenberg-launch/) |
