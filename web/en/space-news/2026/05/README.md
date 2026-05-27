@@ -16,7 +16,7 @@ lastUpdated: 2026-05-27
 | Date | Title | Category |
 |------|-------|----------|
 | 2026-05-26 | [SpaceX Falcon 9 Launches 24 Starlink Satellites from Vandenberg, Booster Lands on Drone Ship](./2026-05-26-starlink-17-37-vandenberg-launch/) | SpaceX |
-| 2026-05-26 | [NASA Unveils Lunar Base Plan: Hundreds of Square Miles, Three Construction Phases](./2026-05-26-nasa-moon-base-plan-update/) | Artemis |
+| 2026-05-26 | [NASA Awards Nearly $1 Billion in Moon Base Contracts: Blue Origin Gets $234M LTV Delivery Deal](./2026-05-26-nasa-moon-base-plan-update/) | Artemis |
 | 2026-05-26 | [NASA's Silent MAVEN Mars Probe Data Reveals Unexpected 'Zwan-Wolf Effect' in Solar Wind Interaction](./2026-05-26-nasa-maven-mars-solar-wind-discovery/) | Science |
 | 2026-05-25 | [SpaceX Launches 29 Starlink Satellites on Memorial Day, Falcon 9 Completes 28th Flight](./2026-05-25-starlink-10-47-memorial-day-falcon-9/) | SpaceX |
 | 2026-05-25 | [DARPA Geosynchronous Satellite Servicing Mission Targets Summer 2026 Launch](./2026-05-25-darpa-rsgs-geosynchronous-satellite/) | Policy & Strategy |
