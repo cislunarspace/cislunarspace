@@ -15,6 +15,7 @@ lastUpdated: 2026-05-27
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-27 | [China Launches Tongxing-24 Communication Technology Test Satellite on Long March 7](./2026-05-27-tongxing-24-communication-satellite-launch/) | China Space |
 | 2026-05-26 | [SpaceX Falcon 9 Launches 24 Starlink Satellites from Vandenberg, Booster Lands on Drone Ship](./2026-05-26-starlink-17-37-vandenberg-launch/) | SpaceX |
 | 2026-05-26 | [NASA Awards Nearly $1 Billion in Moon Base Contracts: Blue Origin Gets $234M LTV Delivery Deal](./2026-05-26-nasa-moon-base-plan-update/) | Artemis |
 | 2026-05-26 | [NASA's Silent MAVEN Mars Probe Data Reveals Unexpected 'Zwan-Wolf Effect' in Solar Wind Interaction](./2026-05-26-nasa-maven-mars-solar-wind-discovery/) | Science |

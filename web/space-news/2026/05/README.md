@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-27 | [中国成功发射通信技术试验卫星二十四号](./2026-05-27-tongxing-24-communication-satellite-launch/) |
 | 5-26 | [SpaceX猎鹰九号从范登堡发射24颗Starlink卫星，助推器成功着陆无人船](./2026-05-26-starlink-17-37-vandenberg-launch/) |
 | 5-26 | [NASA公布近10亿美元月球基地合同：Blue Origin获2.34亿美元LTV运输合同](./2026-05-26-nasa-moon-base-plan-update/) |
 | 5-26 | [NASA火星探测器MAVEN数据揭示「Zwan-Wolf效应」：无磁场行星如何抵御太阳风](./2026-05-26-nasa-maven-mars-solar-wind-discovery/) |
