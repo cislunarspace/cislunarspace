@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-27 | [俄两名宇航员完成6小时出舱活动，在国际空间站安装太阳观测望远镜](./2026-05-27-russian-eva-solntse-telescope/) |
+| 5-27 | [南京大学钙钛矿太阳能电池在中国空间站首次开展动态服役实验](./2026-05-27-perovskite-solar-cell-tiangong/) |
 | 5-27 | [FAA责令SpaceX调查星舰V3助推器故障，后续发射暂停](./2026-05-27-starship-v3-flight-12-faa-grounding/) |
 | 5-27 | [外交部：「天宫」迎来首位中国香港航天员是「一国两制」实践结出的硕果](./2026-05-27-tiangong-first-hong-kong-astronaut/) |
 | 5-27 | [中国成功发射通信技术试验卫星二十四号](./2026-05-27-tongxing-24-communication-satellite-launch/) |

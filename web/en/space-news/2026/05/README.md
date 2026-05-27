@@ -15,6 +15,8 @@ lastUpdated: 2026-05-27
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-27 | [Russian Cosmonauts Complete 6-Hour EVA Outside ISS, Installing Sun-Watching Telescope](./2026-05-27-russian-eva-solntse-telescope/) | ISS |
+| 2026-05-27 | [Nanjing University Perovskite Solar Cells Begin First Dynamic Service Test on China's Tiangong Space Station](./2026-05-27-perovskite-solar-cell-tiangong/) | Science |
 | 2026-05-27 | [FAA Orders SpaceX to Investigate Starship V3 Booster Failure; All Launches Suspended](./2026-05-27-starship-v3-flight-12-faa-grounding/) | SpaceX |
 | 2026-05-27 | [China's Tiangong Space Station Welcomes First Hong Kong Astronaut; Foreign Ministry Calls It "Fruit of One Country, Two Systems"](./2026-05-27-tiangong-first-hong-kong-astronaut/) | China Space |
 | 2026-05-27 | [China Launches Tongxing-24 Communication Technology Test Satellite on Long March 7](./2026-05-27-tongxing-24-communication-satellite-launch/) | China Space |
