@@ -4,7 +4,7 @@ description: Cislunar space community forum for discussing aerospace, orbital dy
 keywords: community forum, cislunar space, discussion, Q&A, sharing
 author: 天疆说
 date: 2026-03-09
-layout: Forum
+layout: Layout
 lastUpdated: false
 sidebar: false
 editLink: false
