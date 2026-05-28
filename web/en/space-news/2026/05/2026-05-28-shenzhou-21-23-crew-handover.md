@@ -7,6 +7,7 @@ author: Tianjiangshuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: china
+image: ./figures/2026-05-28-shenzhou-21-23-crew-handover/hero.jpg
 ---
 
 # Shenzhou-21 and Shenzhou-23 Crews Complete ISS Handover, Tiangong Space Station Gets New Commander

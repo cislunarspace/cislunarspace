@@ -7,6 +7,7 @@ author: 天疆说
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: china
+image: ./figures/2026-05-28-shenzhou-21-23-crew-handover/hero.jpg
 ---
 
 # 神舟二十一号与神舟二十三号乘组完成在轨交接，天宫空间站迎来新主人
