@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-27
+lastUpdated: 2026-05-28
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-28 | [神舟二十一号与神舟二十三号乘组完成在轨交接，天宫空间站迎来新主人](./2026-05-28-shenzhou-21-23-crew-handover/) |
+| 5-28 | [蓝箭航天无锡生产基地投产，朱雀三号可重复使用火箭进入批次化制造阶段](./2026-05-28-blue-arrow-wuxi-base-commissioning/) |
 | 5-27 | [俄两名宇航员完成6小时出舱活动，在国际空间站安装太阳观测望远镜](./2026-05-27-russian-eva-solntse-telescope/) |
 | 5-27 | [南京大学钙钛矿太阳能电池在中国空间站首次开展动态服役实验](./2026-05-27-perovskite-solar-cell-tiangong/) |
 | 5-27 | [FAA责令SpaceX调查星舰V3助推器故障，后续发射暂停](./2026-05-27-starship-v3-flight-12-faa-grounding/) |
