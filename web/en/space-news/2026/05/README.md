@@ -18,6 +18,7 @@ lastUpdated: 2026-05-28
 | 2026-05-28 | [SpaceX Charts Starship V3 Roadmap After Historic Debut: Orbital Stays, Refueling Tests, 10,000 Flights Per Year](./2026-05-28-starship-v3-flight-12-roadmap/) | SpaceX |
 | 2026-05-28 | [Shenzhou-21 and Shenzhou-23 Crews Complete ISS Handover, Tiangong Space Station Gets New Commander](./2026-05-28-shenzhou-21-23-crew-handover/) | China Space |
 | 2026-05-28 | [Blue Arrow Aerospace Wuxi Production Base Commissions, Zhuque-3 Reusable Rocket Enter Mass Manufacturing Phase](./2026-05-28-blue-arrow-wuxi-base-commissioning/) | Commercial Space |
+| 2026-05-28 | [JWST Discovers Black Hole That Formed Before Its Host Galaxy, Challenging Formation Models](./2026-05-28-jwst-black-hole-before-host-galaxy/) | Science |
 | 2026-05-27 | [Russian Cosmonauts Complete 6-Hour EVA Outside ISS, Installing Sun-Watching Telescope](./2026-05-27-russian-eva-solntse-telescope/) | ISS |
 | 2026-05-27 | [Nanjing University Perovskite Solar Cells Begin First Dynamic Service Test on China's Tiangong Space Station](./2026-05-27-perovskite-solar-cell-tiangong/) | Science |
 | 2026-05-27 | [FAA Orders SpaceX to Investigate Starship V3 Booster Failure; All Launches Suspended](./2026-05-27-starship-v3-flight-12-faa-grounding/) | SpaceX |
