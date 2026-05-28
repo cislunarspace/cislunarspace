@@ -7,6 +7,7 @@ author: Tianjiangshuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: china
+image: ./figures/2026-05-28-blue-arrow-wuxi-base-commissioning/hero.jpg
 ---
 
 # Blue Arrow Aerospace Wuxi Production Base Commissions, Zhuque-3 Reusable Rocket Enter Mass Manufacturing Phase

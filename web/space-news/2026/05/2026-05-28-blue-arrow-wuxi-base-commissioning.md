@@ -7,6 +7,7 @@ author: 天疆说
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: china
+image: ./figures/2026-05-28-blue-arrow-wuxi-base-commissioning/hero.jpg
 ---
 
 # 蓝箭航天无锡生产基地投产，朱雀三号可重复使用火箭进入批次化制造阶段
