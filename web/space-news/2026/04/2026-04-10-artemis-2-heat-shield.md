@@ -7,18 +7,18 @@ author: 天疆说
 date: 2026-04-10
 lastUpdated: 2026-04-10
 category: artemis
-image: ./figures/2026-04-11-artemis-2-heat-shield/hero.webp
+image: ./figures/2026-04-10-artemis-2-heat-shield/hero.webp
 wechatShare:
   title: "NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回"
   desc: "NASA 确认 Artemis II 猎户座飞船热防护系统性能可靠，隔热罩可确保宇航员以每小时24,000英里速度再入大气层时的安全。"
-  image: "./figures/2026-04-11-artemis-2-heat-shield/hero.webp"
+  image: "./figures/2026-04-10-artemis-2-heat-shield/hero.webp"
 ---
 
 # NASA 对 Artemis II 热防护系统表示信心：飞船隔热罩将保障宇航员安全返回
 
 **摘要：** NASA 官员确认 Artemis II 猎户座飞船的热防护系统性能可靠，隔热罩将确保宇航员以每小时24,000英里的速度再入地球大气层时的绝对安全。该热盾经过严格测试，能够在极端高温环境下保护飞船和乘组安全返回地面。
 
-![Artemis II 热防护系统在肯尼迪航天中心接受检测（2026年4月）](./figures/2026-04-11-artemis-2-heat-shield/hero.webp)
+![Artemis II 热防护系统在肯尼迪航天中心接受检测（2026年4月）](./figures/2026-04-10-artemis-2-heat-shield/hero.webp)
 *Credit: Spaceflight Now / NASA*
 
 ## 热防护系统技术参数
