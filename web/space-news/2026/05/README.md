@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-29 | [蓝色起源新格伦火箭静态点火爆炸，第四次飞行无限期推迟](./2026-05-29-new-glenn-explosion-prelaunch-test/) |
 | 5-28 | [SpaceX与xAI提出月球电磁弹射器概念 — 专家警告可转化为武器](./2026-05-28-lunar-mass-driver-electromagnetic-catapults/) |
 | 5-28 | [NASA与Katalyst合作：私人航天器Link将为Swift望远镜实施在轨提升](./2026-05-28-nasa-swift-link-boost-mission/) |
 | 5-28 | [星舰V3首飞成功后下一步：SpaceX公布宏伟路线图](./2026-05-28-starship-v3-flight-12-roadmap/) |

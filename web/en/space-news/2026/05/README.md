@@ -15,6 +15,7 @@ lastUpdated: 2026-05-29
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-29 | [Blue Origin's New Glenn Rocket Explodes During Prelaunch Hotfire Test, Fourth Flight Indefinitely Postponed](./2026-05-29-new-glenn-explosion-prelaunch-test/) | Blue Origin |
 | 2026-05-28 | [SpaceX and xAI Propose Lunar Electromagnetic Catapults — Experts Warn of Weaponization Potential](./2026-05-28-lunar-mass-driver-electromagnetic-catapults/) | Policy |
 | 2026-05-28 | [NASA Partners with Katalyst: Private Spacecraft Link to Boost 22-Year-Old Swift Observatory](./2026-05-28-nasa-swift-link-boost-mission/) | NASA |
 | 2026-05-28 | [SpaceX Charts Starship V3 Roadmap After Historic Debut: Orbital Stays, Refueling Tests, 10,000 Flights Per Year](./2026-05-28-starship-v3-flight-12-roadmap/) | SpaceX |
