@@ -26,9 +26,17 @@ Search and rescue teams reached the capsule immediately upon landing. Medical pe
 
 This mission featured China's second-ever three-orbit rapid return profile, reducing the number of orbits from the traditional five to just three before re-entry. This significantly shortens the total time from space station departure to ground touchdown. The successful application of this technique marks China's entry into a new phase of operational rapid return capability for crewed missions.
 
-## Mission Significance
+## 210 Days: Longest Single-Crew Duration in Chinese Spaceflight History
 
-The Shenzhou-21 crew launched aboard Shenzhou-22 on October 31, 2025, and spent nearly seven months aboard the Tiangong Space Station. During their mission, the crew carried out numerous space science experiments and technical tests, performed routine space station maintenance and equipment replacements, and coordinated with ground teams for station operations. Before returning, they formally handed over the "keys" to Tiangong to the Shenzhou-23 crew, who arrived at the station on May 24, 2026.
+The Shenzhou-21 crew docked with the Tiangong Space Station's Tianhe core module on November 1, 2025, and returned to Earth aboard Shenzhou-22 on May 29, 2026, achieving a total on-orbit duration of 210 days. This sets a new record for the longest single-crew mission in Chinese spaceflight history, surpassing the previous mark held by the Shenzhou-15 crew.
+
+Upon completion of this mission, Commander Zhang Lu became the second Chinese astronaut to accumulate over 400 days of total time in orbit, and currently holds the record for the most spacewalks performed by any Chinese astronaut. Flight Engineer Wu Fei and Payload Specialist Zhang Hongzhang both completed their maiden spaceflights.
+
+During their mission, the crew conducted three spacewalks, performed inspections and photography of the Shenzhou-20 return capsule's porthole, and installed space debris protection devices on the space station. They also coordinated multiple cargo transshipment missions with Tianzhou cargo spacecraft. Working alongside ground research teams, the crew carried out extensive scientific experiments spanning microgravity fundamental physics, space materials science, space life science, aerospace medicine, and aerospace technology.
+
+The crew also witnessed and participated in several historic firsts in China's crewed spaceflight program: the first return delayed due to a space debris strike on the Shenzhou-20 spacecraft, the first crew rotation involving a different return vehicle (Shenzhou-22 rather than their original Shenzhou-21 spacecraft), and the first emergency launch response operation — a coordinated ground-space emergency action across the entire Chinese space program.
+
+On May 28, one day before their return, the Shenzhou-21 and Shenzhou-23 crews held a formal handover ceremony in Tianhe core module, during which Commander Zhang Lu transferred the symbolic key to the space station to Shenzhou-23 Commander Zhu Yangzhu.
 
 The Shenzhou-22 return capsule will now undergo post-flight data download and technical inspection, providing valuable lessons for future crewed missions.
 
