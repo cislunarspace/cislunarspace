@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-28
+lastUpdated: 2026-05-29
 
 ## Archive by date
 
@@ -15,6 +15,8 @@ lastUpdated: 2026-05-28
 
 | Date | Title | Category |
 |------|-------|----------|
+| 2026-05-28 | [SpaceX and xAI Propose Lunar Electromagnetic Catapults — Experts Warn of Weaponization Potential](./2026-05-28-lunar-mass-driver-electromagnetic-catapults/) | Policy |
+| 2026-05-28 | [NASA Partners with Katalyst: Private Spacecraft Link to Boost 22-Year-Old Swift Observatory](./2026-05-28-nasa-swift-link-boost-mission/) | NASA |
 | 2026-05-28 | [SpaceX Charts Starship V3 Roadmap After Historic Debut: Orbital Stays, Refueling Tests, 10,000 Flights Per Year](./2026-05-28-starship-v3-flight-12-roadmap/) | SpaceX |
 | 2026-05-28 | [Shenzhou-21 and Shenzhou-23 Crews Complete ISS Handover, Tiangong Space Station Gets New Commander](./2026-05-28-shenzhou-21-23-crew-handover/) | China Space |
 | 2026-05-28 | [Blue Arrow Aerospace Wuxi Production Base Commissions, Zhuque-3 Reusable Rocket Enter Mass Manufacturing Phase](./2026-05-28-blue-arrow-wuxi-base-commissioning/) | Commercial Space |

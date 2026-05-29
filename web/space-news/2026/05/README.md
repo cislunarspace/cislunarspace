@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-28
+lastUpdated: 2026-05-29
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-28 | [SpaceX与xAI提出月球电磁弹射器概念 — 专家警告可转化为武器](./2026-05-28-lunar-mass-driver-electromagnetic-catapults/) |
+| 5-28 | [NASA与Katalyst合作：私人航天器Link将为Swift望远镜实施在轨提升](./2026-05-28-nasa-swift-link-boost-mission/) |
 | 5-28 | [星舰V3首飞成功后下一步：SpaceX公布宏伟路线图](./2026-05-28-starship-v3-flight-12-roadmap/) |
 | 5-28 | [神舟二十一号与神舟二十三号乘组完成在轨交接，天宫空间站迎来新主人](./2026-05-28-shenzhou-21-23-crew-handover/) |
 | 5-28 | [蓝箭航天无锡生产基地投产，朱雀三号可重复使用火箭进入批次化制造阶段](./2026-05-28-blue-arrow-wuxi-base-commissioning/) |
