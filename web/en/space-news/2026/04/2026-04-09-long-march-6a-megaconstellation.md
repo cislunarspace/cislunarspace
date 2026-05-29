@@ -11,14 +11,14 @@ image: ./figures/2026-04-09-long-march-6a-megaconstellation/hero.webp
 wechatShare:
   title: "Long March-6A Launches Mega Constellation Satellites, Successfully Deploys 21 Low-Earth Orbit Satellites"
   desc: "At 03:38 Beijing Time on April 9, 2026, Long March-6A YA-17 rocket successfully deployed 21 low-Earth orbit satellite internet satellites into the intended polar orbit."
-  image: "./figures/2026-04-10-long-march-6a-megaconstellation/hero.webp"
+  image: "./figures/2026-04-09-long-march-6a-megaconstellation/hero.webp"
 ---
 
 # Long March-6A Launches Mega Constellation Satellites, Successfully Deploys 21 Low-Earth Orbit Satellites
 
 **Summary:** At 03:38 Beijing Time on April 9, 2026, at the Taiyuan Launch Center's "Long March-6" series dedicated launch position, the Long March-6A YA-17 rocket ignited and successfully delivered 21 low-Earth orbit satellite internet satellites into the intended polar orbit.
 
-![Long March-6A Rocket Launch Concept Image](./figures/2026-04-10-long-march-6a-megaconstellation/hero.webp)
+![Long March-6A Rocket Launch Concept Image](./figures/2026-04-09-long-march-6a-megaconstellation/hero.webp)
 *Credit: China Aerospace Science and Technology Corporation*
 
 ## Sources (original pages)
