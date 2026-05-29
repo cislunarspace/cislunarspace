@@ -1,7 +1,7 @@
 ---
 layout: SpaceNewsArticle
 title: "Blue Origin's New Glenn Rocket Explodes During Prelaunch Hotfire Test at LC-36, Fourth Flight Indefinitely Postponed"
-description: "On May 28, 2026, Blue Origin's New Glenn rocket exploded during a hotfire test at Cape Canaveral's LC-36, destroying the pad's lightning tower and transporter erector. A cryogenic leak — linked to the same root cause as the NG-3 failure — is suspected. The July 4 Kuiper satellite launch has been indefinitely postponed."
+description: "On May 28, 2026, Blue Origin's New Glenn rocket exploded during a hotfire test at Cape Canaveral's LC-36, destroying the pad's lightning tower and transporter erector. A cryogenic leak is suspected in the failure. The June 4 Kuiper satellite launch has been indefinitely postponed."
 permalink: /en/space-news/2026/05/2026-05-29-new-glenn-explosion-prelaunch-test/
 author: Tianjiangshuo
 date: 2026-05-29
@@ -12,7 +12,7 @@ image: ./figures/2026-05-29-new-glenn-explosion-prelaunch-test/hero.webp
 
 # Blue Origin's New Glenn Rocket Explodes During Prelaunch Hotfire Test at LC-36, Fourth Flight Indefinitely Postponed
 
-**Summary:** On May 28, 2026, Blue Origin's New Glenn rocket — powered by seven BE-4 liquid oxygen/methane engines — exploded during a hotfire test at Cape Canaveral's Launch Complex 36 (LC-36), tearing apart the 320-foot-tall (98 m) vehicle and critically damaging the pad's lightning tower and transporter erector. A cryogenic leak that froze a hydraulic line is suspected as the root cause, potentially connected to the same issue that plagued the NG-3 mission in April. No injuries were reported, but the explosion has indefinitely postponed New Glenn's fourth flight, which was to launch Amazon's first batch of Kuiper broadband satellites. The incident also threatens NASA's Artemis program, which depends on Blue Origin's Blue Moon Mark 2 lander and New Glenn as a shared launch vehicle with ULA's Vulcan rocket.
+**Summary:** On May 28, 2026, Blue Origin's New Glenn rocket — powered by seven BE-4 liquid oxygen/methane engines — exploded during a hotfire test at Cape Canaveral's Launch Complex 36 (LC-36), tearing apart the 320-foot-tall (98 m) vehicle and critically damaging the pad's lightning tower and transporter erector. A cryogenic leak that froze a hydraulic line is suspected as the root cause. Blue Origin has stated that this incident is unrelated to the upper-stage malfunction that affected the NG-3 mission in April. No injuries were reported, but the explosion has indefinitely postponed New Glenn's fourth flight, which was to launch Amazon's first batch of Kuiper broadband satellites. The incident also threatens NASA's Artemis program, which depends on Blue Origin's Blue Moon Mark 2 lander and New Glenn as a shared launch vehicle with ULA's Vulcan rocket.
 
 ## What Happened
 
@@ -26,7 +26,7 @@ According to the FAA, the static fire test was not within the scope of the FAA's
 
 ## Suspected Root Cause: Cryogenic Leak
 
-According to Spaceflight Now, the accident appears related to a propellant leak. After liquid oxygen and methane were loaded into the vehicle, a suspected cryogenic leak apparently froze a hydraulic line on the rocket's first stage, causing it to lose control during engine ignition. This issue may be connected to the main propulsion system of New Glenn's seven BE-4 engines, which are also used on United Launch Alliance's (ULA) Vulcan rocket.
+According to Spaceflight Now, the accident appears related to a propellant leak. After liquid oxygen and methane were loaded into the vehicle, a suspected cryogenic leak apparently froze a hydraulic line on the rocket's first stage, causing it to lose control during engine ignition. Blue Origin has stated that this incident is unrelated to the upper-stage malfunction that affected the NG-3 mission in April 2026. This issue may be connected to the main propulsion system of New Glenn's seven BE-4 engines, which are also used on United Launch Alliance's (ULA) Vulcan rocket.
 
 Video and witness descriptions show the explosion propagating upward from the engine section, destroying the first-stage booster. The LC-36 pad's right-side lightning tower collapsed, and the umbilical tower and support structures sustained severe damage.
 
@@ -50,7 +50,7 @@ New Glenn has flown only three times to date:
 - **NG-2** (April 2025): Success, multiple satellites deployed, booster recovered.
 - **NG-3** (April 19, 2026): Second stage malfunction failed to deliver AST SpaceMobile's BlueBird 7 satellite to its intended orbit; satellite will reenter and burn up in Earth's atmosphere. The FAA briefly grounded the vehicle pending investigation, then cleared resumption on May 22.
 
-The May 28 explosion marks New Glenn's second failure in just over a month.
+The May 28 explosion marks New Glenn's second anomaly in just over a month.
 
 ## Sources
 
