@@ -20,6 +20,8 @@ lastUpdated: 2026-05-30
 | 2026-05-29 | [Shenzhou-22 Undocks from Tiangong Space Station, Shenzhou-21 Crew Set for Return](./2026-05-29-shenzhou-22-undocking/) | China Space |
 | 2026-05-29 | [Blue Origin's New Glenn Rocket Explodes During Prelaunch Hotfire Test at LC-36, Fourth Flight Indefinitely Postponed](./2026-05-29-new-glenn-explosion-prelaunch-test/) | Blue Origin |
 | 2026-05-30 | [Shenzhou 21 Crew Returns to Beijing After Record-Breaking 210-Day Mission](./2026-05-30-shenzhou-21-beijing-arrival/) | China Space |
+| 2026-05-30 | [Tiangong Space Station's 10th Science Sample Batch Returns: Artificial Embryos, Brain Organoids Delivered to Scientists](./2026-05-30-tiangong-science-samples-return/) | Science |
+| 2026-05-29 | [SpaceX Secures $64.5 Billion in US Space Force Contracts in One Week: SB-AMTI Constellation to Deploy in 2028](./2026-05-29-spacex-sb-amti-contract/) | Policy |
 | 2026-05-29 | [Atlas V Launches 29 Amazon LEO Satellites, Ties Heaviest Payload Record](./2026-05-29-atlas-v-amazon-leo-7-launch/) | Commercial Space |
 | 2026-05-28 | [SpaceX and xAI Propose Lunar Electromagnetic Catapults — Experts Warn of Weaponization Potential](./2026-05-28-lunar-mass-driver-electromagnetic-catapults/) | Policy |
 | 2026-05-28 | [NASA Partners with Katalyst: Private Spacecraft Link to Boost 22-Year-Old Swift Observatory](./2026-05-28-nasa-swift-link-boost-mission/) | NASA |
