@@ -22,6 +22,7 @@ lastUpdated: 2026-05-30
 | 2026-05-30 | [Shenzhou 21 Crew Returns to Beijing After Record-Breaking 210-Day Mission](./2026-05-30-shenzhou-21-beijing-arrival/) | China Space |
 | 2026-05-30 | [Tiangong Space Station's 10th Science Sample Batch Returns: Artificial Embryos, Brain Organoids Delivered to Scientists](./2026-05-30-tiangong-science-samples-return/) | Science |
 | 2026-05-30 | [Blue Origin Releases Dramatic Footage of New Glenn Explosion: Fireball Visible 120 Miles Away; Bezos Calls It a 'Very Rough Day'](./2026-05-30-blue-origin-new-glenn-explosion-videos/) | Blue Origin |
+| 2026-05-30 | [SpaceX Launches 50th Starlink Mission of 2026 from Vandenberg, Booster B1082 Lands on Drone Ship](./2026-05-30-starlink-17-41-vandenberg-launch/) | SpaceX |
 | 2026-05-29 | [SpaceX Secures $64.5 Billion in US Space Force Contracts in One Week: SB-AMTI Constellation to Deploy in 2028](./2026-05-29-spacex-sb-amti-contract/) | Policy |
 | 2026-05-29 | [Atlas V Launches 29 Amazon LEO Satellites, Ties Heaviest Payload Record](./2026-05-29-atlas-v-amazon-leo-7-launch/) | Commercial Space |
 | 2026-05-28 | [SpaceX and xAI Propose Lunar Electromagnetic Catapults — Experts Warn of Weaponization Potential](./2026-05-28-lunar-mass-driver-electromagnetic-catapults/) | Policy |
