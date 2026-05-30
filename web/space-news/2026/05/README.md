@@ -19,6 +19,7 @@ wechatShare:
 |------|------|
 | 5-30 | [神舟二十一号乘组平安抵京，进入隔离恢复期](./2026-05-30-shenzhou-21-beijing-arrival/) |
 | 5-30 | [中国空间站第十批科学实验样品返回，人工胚胎、脑类器官等41公斤样品交付科学家](./2026-05-30-tiangong-science-samples-return/) |
+| 5-30 | [SpaceX第17-41批Starlink从范登堡发射，2026年第50次Starlink任务](./2026-05-30-starlink-17-41-vandenberg-launch/) |
 | 5-30 | [蓝色起源发布新格伦爆炸震撼画面，火球在百英里外清晰可见，贝索斯称「艰难一天」](./2026-05-30-blue-origin-new-glenn-explosion-videos/) |
 | 5-29 | [神舟二十二号返回舱成功着陆，神舟二十一号乘组凯旋归来](./2026-05-29-shenzhou-22-successful-landing/) |
 | 5-29 | [SpaceX第10-53批星链发射成功，猎鹰九号完成第616次助推器回收](./2026-05-29-starlink-10-53-cape-canaveral-launch/) |
