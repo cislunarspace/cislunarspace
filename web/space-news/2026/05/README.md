@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-29
+lastUpdated: 2026-05-30
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -21,6 +21,8 @@ wechatShare:
 | 5-29 | [SpaceX第10-53批星链发射成功，猎鹰九号完成第616次助推器回收](./2026-05-29-starlink-10-53-cape-canaveral-launch/) |
 | 5-29 | [神舟二十二号成功与空间站分离，神舟二十一号乘组即将踏上归途](./2026-05-29-shenzhou-22-undocking/) |
 | 5-29 | [蓝色起源新格伦火箭静态点火爆炸，发射台受损严重，第四次飞行无限期推迟](./2026-05-29-new-glenn-explosion-prelaunch-test/) |
+| 5-30 | [神舟二十一号乘组平安抵京，进入隔离恢复期](./2026-05-30-shenzhou-21-beijing-arrival/) |
+| 5-29 | [Atlas V成功发射第7批亚马逊LEO卫星，创猎鹰重型外最重载荷](./2026-05-29-atlas-v-amazon-leo-7-launch/) |
 | 5-28 | [SpaceX与xAI提出月球电磁弹射器概念 — 专家警告可转化为武器](./2026-05-28-lunar-mass-driver-electromagnetic-catapults/) |
 | 5-28 | [NASA与Katalyst合作：私人航天器Link将为Swift望远镜实施在轨提升](./2026-05-28-nasa-swift-link-boost-mission/) |
 | 5-28 | [星舰V3首飞成功后下一步：SpaceX公布宏伟路线图](./2026-05-28-starship-v3-flight-12-roadmap/) |
