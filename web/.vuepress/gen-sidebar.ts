@@ -1,20 +1,17 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { createRequire } from 'module'
 import { generateAiChatContext } from './gen-ai-chat-context.ts'
 import { walkSiteMarkdown } from './utils/markdown-walker.ts'
 import { filesToArticles, buildSidebarData } from './sidebar-transforms.ts'
-import { glossaryCategories } from './glossary-meta.ts'
+import { glossaryCategories } from './taxonomy/adapters/glossary-categories.ts'
 import type { VueSidebarItem } from './sidebar-types.ts'
 import { buildGlossaryScan } from './intakes/glossary-intake.ts'
-import { buildWayfindingIntake } from './intakes/wayfinding-intake.ts'
+import { buildWayfindingIntake as buildWayfinding } from './taxonomy/adapters/wayfinding.ts'
+import { categoryMeta } from './taxonomy/adapters/news-categories.ts'
 import { buildChatIndexIntake as buildChatIndex } from './intakes/chat-index-intake.ts'
 import { buildTranslationGapIntake as getTranslationGapReport } from './intakes/translation-gap-intake.ts'
 import { buildAllSectionSidebars } from './taxonomy/adapters/sidebar-sections.ts'
-
-const require = createRequire(import.meta.url)
-const categoryMeta: Record<string, { zh: string; en: string; color: string }> = require('./category-meta.json')
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -84,7 +81,7 @@ export function buildSidebarConfigs(
 ): { zh: Record<string, any>; en: Record<string, any> } {
   const effectiveScan = scan ?? buildGlossaryScan(walkSiteMarkdown(webRoot))
 
-  const wayfinding = buildWayfindingIntake()
+  const wayfinding = buildWayfinding()
 
   const sectionSidebars = buildAllSectionSidebars()
 

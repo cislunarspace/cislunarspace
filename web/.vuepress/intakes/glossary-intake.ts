@@ -3,7 +3,7 @@
  */
 import path from 'path'
 import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.js'
-import { categoryRegistry } from '../glossary-meta.js'
+import { categoryRegistry } from '../taxonomy/adapters/glossary-categories.js'
 import type { MarkdownFile } from '../utils/markdown-walker.js'
 import type { GlossaryScan, TranslationGap } from '../sidebar-types.js'
 

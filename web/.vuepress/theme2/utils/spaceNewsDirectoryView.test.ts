@@ -9,11 +9,6 @@ import {
   type RawSpaceNewsArticle,
 } from './spaceNewsDirectoryView'
 
-const categoryMeta = {
-  artemis: { zh: '阿耳忒弥斯计划', en: 'Artemis Program', color: '#3b82f6' },
-  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#10b981' },
-}
-
 function makeArticle(partial: Partial<RawSpaceNewsArticle>): RawSpaceNewsArticle {
   return {
     path: partial.path ?? '/article/',
@@ -41,7 +36,6 @@ describe('buildSpaceNewsDirectoryView', () => {
     const result = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -58,7 +52,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'Published', path: '/published/', date: '2026-05-12', category: 'artemis' }),
       ],
       locale: 'zh',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -77,7 +70,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'No category', path: '/no-category/', date: '2026-05-10' }),
       ],
       locale: 'en',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -88,8 +80,8 @@ describe('buildSpaceNewsDirectoryView', () => {
       categoryLabel: article.categoryLabel,
       categoryColor: article.categoryColor,
     }))).toEqual([
-      { title: 'Known string', category: ['artemis'], primaryCategory: 'artemis', categoryLabel: 'Artemis Program', categoryColor: '#3b82f6' },
-      { title: 'Known array', category: ['commercial', 'artemis'], primaryCategory: 'commercial', categoryLabel: 'Commercial Space', categoryColor: '#10b981' },
+      { title: 'Known string', category: ['artemis'], primaryCategory: 'artemis', categoryLabel: 'Artemis', categoryColor: '#6366f1' },
+      { title: 'Known array', category: ['commercial', 'artemis'], primaryCategory: 'commercial', categoryLabel: 'Commercial Space', categoryColor: '#059669' },
       { title: 'Unknown', category: ['unknown-topic'], primaryCategory: 'unknown-topic', categoryLabel: 'unknown-topic', categoryColor: '#64748b' },
       { title: 'No category', category: null, primaryCategory: null, categoryLabel: '', categoryColor: '#64748b' },
     ])
@@ -104,25 +96,23 @@ describe('buildSpaceNewsDirectoryView', () => {
     const zh = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
     const en = buildSpaceNewsDirectoryView({
       articles,
       locale: 'en',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(zh.labels).toMatchObject({ title: '航天动态', latest: '最新动态', viewMore: '更多 →' })
     expect(en.labels).toMatchObject({ title: 'Space News', latest: 'Latest News', viewMore: 'More →' })
     expect(zh.categorySections.map(section => ({ key: section.key, label: section.label, color: section.color }))).toEqual([
-      { key: 'artemis', label: '阿耳忒弥斯计划', color: '#3b82f6' },
-      { key: 'commercial', label: '商业航天', color: '#10b981' },
+      { key: 'artemis', label: 'Artemis', color: '#6366f1' },
+      { key: 'commercial', label: '商业航天', color: '#059669' },
     ])
     expect(en.categorySections.map(section => ({ key: section.key, label: section.label, color: section.color }))).toEqual([
-      { key: 'artemis', label: 'Artemis Program', color: '#3b82f6' },
-      { key: 'commercial', label: 'Commercial Space', color: '#10b981' },
+      { key: 'artemis', label: 'Artemis', color: '#6366f1' },
+      { key: 'commercial', label: 'Commercial Space', color: '#059669' },
     ])
   })
 
@@ -140,7 +130,6 @@ describe('buildSpaceNewsDirectoryView', () => {
     const result = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -160,7 +149,6 @@ describe('buildSpaceNewsDirectoryView', () => {
     const zh = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -172,7 +160,6 @@ describe('buildSpaceNewsDirectoryView', () => {
     const en = buildSpaceNewsDirectoryView({
       articles,
       locale: 'en',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -186,7 +173,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'En article', path: '/en/space-news/2026/05/a/', date: '2026-05-12', relativePath: 'en/space-news/2026/05/a.md' }),
       ],
       locale: 'en',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -194,7 +180,7 @@ describe('buildSpaceNewsDirectoryView', () => {
     expect(result.monthGroups[0].key).toBe('2026-05')
   })
 
-  it('lists used categories that are present in categoryMeta, dropping unknown keys', () => {
+  it('lists used categories that are present in the taxonomy, dropping unknown keys', () => {
     const result = buildSpaceNewsDirectoryView({
       articles: [
         makeArticle({ title: 'A', path: '/a/', date: '2026-05-13', category: ['artemis', 'unknown'] }),
@@ -202,19 +188,18 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'C', path: '/c/', date: '2026-05-11', category: 'commercial' }),
       ],
       locale: 'en',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.usedCategories).toEqual([
-      { key: 'artemis', label: 'Artemis Program', color: '#3b82f6' },
-      { key: 'commercial', label: 'Commercial Space', color: '#10b981' },
+      { key: 'artemis', label: 'Artemis', color: '#6366f1' },
+      { key: 'commercial', label: 'Commercial Space', color: '#059669' },
     ])
   })
 
   it('exposes localized archive labels', () => {
-    const zh = buildSpaceNewsDirectoryView({ articles: [], locale: 'zh', categoryMeta })
-    const en = buildSpaceNewsDirectoryView({ articles: [], locale: 'en', categoryMeta })
+    const zh = buildSpaceNewsDirectoryView({ articles: [], locale: 'zh' })
+    const en = buildSpaceNewsDirectoryView({ articles: [], locale: 'en' })
 
     expect(zh.archiveLabels).toMatchObject({ title: '按日期查阅', backHome: '返回航天动态首页', all: '全部' })
     expect(en.archiveLabels).toMatchObject({ title: 'Archive by date', backHome: 'Back to Space News', all: 'All' })
@@ -227,7 +212,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'Pub', path: '/p/', date: '2026-05-12', relativePath: 'space-news/2026/05/p.md', category: 'commercial' }),
       ],
       locale: 'zh',
-      categoryMeta,
       now: new Date('2026-05-13T12:00:00Z'),
     })
 
@@ -282,27 +266,23 @@ describe('formatArticleDate', () => {
 })
 
 describe('resolveCategoryColor / resolveCategoryLabel', () => {
-  const categoryMetaLocal = {
-    artemis: { zh: '阿耳忒弥斯计划', en: 'Artemis Program', color: '#3b82f6' },
-  }
-
   it('resolveCategoryColor falls back to grey for null and unknown keys', () => {
-    expect(resolveCategoryColor(null, categoryMetaLocal)).toBe('#64748b')
-    expect(resolveCategoryColor('unknown', categoryMetaLocal)).toBe('#64748b')
-    expect(resolveCategoryColor([], categoryMetaLocal)).toBe('#64748b')
+    expect(resolveCategoryColor(null)).toBe('#64748b')
+    expect(resolveCategoryColor('unknown')).toBe('#64748b')
+    expect(resolveCategoryColor([])).toBe('#64748b')
   })
 
   it('resolveCategoryColor reads color from the first array entry', () => {
-    expect(resolveCategoryColor(['artemis', 'something'], categoryMetaLocal)).toBe('#3b82f6')
-    expect(resolveCategoryColor('artemis', categoryMetaLocal)).toBe('#3b82f6')
+    expect(resolveCategoryColor(['artemis', 'something'])).toBe('#6366f1')
+    expect(resolveCategoryColor('artemis')).toBe('#6366f1')
   })
 
   it('resolveCategoryLabel returns localized label, falls back to raw key, empty for null', () => {
-    expect(resolveCategoryLabel(null, categoryMetaLocal, 'zh')).toBe('')
-    expect(resolveCategoryLabel('artemis', categoryMetaLocal, 'zh')).toBe('阿耳忒弥斯计划')
-    expect(resolveCategoryLabel(['artemis'], categoryMetaLocal, 'en')).toBe('Artemis Program')
+    expect(resolveCategoryLabel(null, 'zh')).toBe('')
+    expect(resolveCategoryLabel('artemis', 'zh')).toBe('Artemis')
+    expect(resolveCategoryLabel(['artemis'], 'en')).toBe('Artemis')
     // Unknown key passes through.
-    expect(resolveCategoryLabel('unknown', categoryMetaLocal, 'en')).toBe('unknown')
+    expect(resolveCategoryLabel('unknown', 'en')).toBe('unknown')
   })
 })
 
@@ -334,8 +314,8 @@ describe('articleCardBackground', () => {
       category: ['artemis'],
       image: null,
       primaryCategory: 'artemis',
-      categoryLabel: 'Artemis Program',
-      categoryColor: '#3b82f6',
-    })).toEqual({ background: 'linear-gradient(135deg, #3b82f6 0%, #3b82f699 100%)' })
+      categoryLabel: 'Artemis',
+      categoryColor: '#6366f1',
+    })).toEqual({ background: 'linear-gradient(135deg, #6366f1 0%, #6366f199 100%)' })
   })
 })
