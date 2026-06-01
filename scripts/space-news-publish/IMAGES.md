@@ -34,7 +34,7 @@
    cwebp -q 80 input.jpg -o output.webp                    # WebP（推荐）
    convert input.jpg -quality 85 -resize '1200>' output.jpg # JPEG
    ```
-6. **英文版复用**：先下载到中文 `figures/`，再 `cp -r` 到英文 `figures/`。**必须同时创建中英文 figures 目录**，否则 VuePress 构建失败
+6. **英文版复用**：先下载到中文 `figures/`，再 `cp -r` 到英文 `figures/`。**必须同时创建中英文 figures 目录**，否则 VuePress 构建失败。**本步最容易遗漏**——已被 BUILD-FIXES.md 章节 B 单列。
 
 ## `figures` 目录结构
 

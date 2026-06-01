@@ -45,6 +45,19 @@ for item in items[1:]:
 
 ⚠️ **NASA RSS 标题与链接可能不匹配**：RSS `<title>` 与 `<link>` 可能对应不同文章。**必须单独请求实际 URL 验证**，不能仅依赖 RSS 标题。
 
+### CMSE 索引页日期提取
+
+CMSA 索引页（如 `https://www.cmse.gov.cn/`）用 `<li>` 列表展示文章，**每条新闻的日期嵌在 `<li>` 标签内**。直接对整页用 `re.findall(r'(\d{4}-\d{2}-\d{2})', html)` 会捕获到页面模板级日期（不更新），导致漏掉最新文章。
+
+**正确方法**（2026-05-26 实例修正）：
+
+```python
+lis = re.findall(r'<li[^>]*>(.*?)</li>', html, re.DOTALL)
+dated_lis = [(li, re.findall(r'\d{4}-\d{2}-\d{2}', li)) for li in lis
+             if re.findall(r'\d{4}-\d{2}-\d{2}', li)]
+# 对每条 li 去标签后取标题 + 链接
+```
+
 ### Rocket Lab 日期提取
 
 Rocket Lab 文章的 `datePublished` 元数据可能不可靠（如 `2026-51-30TAD::Z`）。**始终从文章正文提取日期**：

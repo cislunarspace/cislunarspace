@@ -4,10 +4,11 @@
 
 | 来源 | 网址 | 图片获取方式 |
 |------|------|-------------|
-| **国家航天局（CNSA）** | `https://www.cnsa.gov.cn/n6758823/n6758838/` | 索引页每次仅约 4 条；文章链接 `c{article_id}/content.html`；正文在 `<div class="wz_conten">`；图片可能在 `part/` 子目录（如 `part/10739804.jpg`），需拼接完整 URL 后 `curl -L` 下载 |
-| **中国载人航天工程办公室（CMSA）** | `https://www.cmse.gov.cn/` | 页面图片可直接下载 |
+| **国家航天局（CNSA）** | `https://www.cnsa.gov.cn/n6758823/n6758838/` | 索引页每次仅约 4 条；文章链接 `c{article_id}/content.html`；正文在 `<div class="wz_conten">`；图片可能在 `part/` 子目录（如 `part/10739804.jpg`），需拼接完整 URL 后 `curl -L` 下载。**注意 CNSA 连接被重置（实测 2026-04 起）**，需多次重试，备用方案：新华网/央视网 |
+| **中国载人航天工程办公室（CMSA）** | `https://www.cmse.gov.cn/` | 索引页日期抓取有坑：`re.findall(r'(\d{4}-\d{2}-\d{2})', html)` 会返回历史日期（捕获的是页面模板级日期）；改用 `<li>` 列表项 + 去标签后取标题的方式提取实际发布日期（详见 [TROUBLESHOOTING.md](TROUBLESHOOTING.md)） |
 | **中国航天科技集团（CASC）** | `http://www.spacechina.com/` | 新闻页面有配图，可直接下载 |
 | **新华社 / 央视网** | `https://www.news.cn/` / `https://news.cctv.com/` | 优先从 CNSA 获取同一事件的官方配图 |
+| **腾讯新闻 / QQ.com** | `https://news.qq.com/` | 备用于 SpaceX 任务等国际新闻的中文报道（Everyday Astronaut 403 后的备选渠道） |
 
 ## 中国商业航天公司新闻源
 
@@ -32,8 +33,10 @@
 | **Blue Origin** | `https://www.blueorigin.com/news` | 新闻页面有配图 |
 | **ULA** | `https://www.ulalaunch.com/missions` | 任务页面有高清配图 |
 | **Arianespace** | `https://www.arianespace.com/mission-updates/` | 任务更新页面有配图 |
-| **Spaceflight Now** | `https://spaceflightnow.com/` | 优先从原始机构获取配图 |
+| **Spaceflight Now** | `https://spaceflightnow.com/` | 优先从原始机构获取配图；月度索引 `/YYYY/MM/` 经常 404，改用 RSS feed 的 `<link>` 字段；已完成任务归档在 `/category/mission-reports/` |
 | **Space News** | `https://spacenews.com/` | 优先从原始机构获取配图 |
+| **Space.com** | `https://www.space.com/` | 备份 RSS + 文章页；`launches-spacecraft` 分类下含 Minuteman/ICBM/nuclear-capable 等军事弹道导弹内容须跳过 |
+| **Everyday Astronaut** | `https://everydayastronaut.com/` | ⚠️ **2026-05-25 起反爬收紧，返回 HTTP 403**——已不作为主要来源，SpaceX 任务改用 space.com / qq.com 备份 |
 | **JAXA** | `https://www.jaxa.jp/` | 新闻配图可下载 |
 | **KASA（韩国）** | `https://www.kasa.kr/` | 新闻配图 |
 | **ISRO** | `https://www.isro.gov.in/` | 新闻配图可下载 |
@@ -72,14 +75,15 @@ url = 'https://launchschedule.net/launches/?search=Starlink+17-36'
 | 北斗系统更新 | 不定期 | "北斗" |
 | 俄罗斯进步号货运飞船 | 每3-4个月一次 | "进步MS-"、"Progress MS-" |
 
-## 实测不可用 / 高延迟来源（2026年4月）
+## 实测不可用 / 高延迟来源（2026-05-28 更新）
 
 **不要优先依赖**：
 - SpaceX Flickr（超时）、Blue Origin（429）、NASASpaceflight（403）、SpaceNews（429）
 - SpaceX 官方站（403）、ESA `/News` 页面（404）、Rocket Lab 页面（无有效内容）
-- JAXA（空白）、ISRO（403）、CMSA（部分可用）
+- JAXA（空白）、ISRO（403）、CMSA（部分可用，详见上方 CMSA 解析技巧）
 - CNSA（连接被重置，需多次重试）
 - TheSpaceDevs API（HTTP 35 / IncompleteRead 超时，**完全不可用**）
+- **Everyday Astronaut**（2026-05-25 起 HTTP 403，已转用 space.com / qq.com 备份）
 
 ## 降级策略总结
 
@@ -89,3 +93,4 @@ url = 'https://launchschedule.net/launches/?search=Starlink+17-36'
 | NASA 新闻检索 | NASA RSS (`nasa.gov/feed/`) | NASA 搜索 |
 | 中国航天新闻 | CNSA 索引页 | 新华社/央视 |
 | 图片 | 原文 og:image | NASA Image API |
+| SpaceX 任务 | Everyday Astronaut（403） | space.com RSS + 腾讯/qq.com 中文备份 |

@@ -53,13 +53,11 @@ description: >-
  ↓
 [4] 更新方向 README.md 的子方向导航表
  ↓
-[5] 更新 sidebar.ts（中文，在对应方向的 children 中添加条目）
+[5] 更新 sidebar-data.ts（中文 + en locale，两侧都在同一个文件中）
  ↓
-[6] 更新 sidebar-en.ts（英文，同步添加）
+[6] 英文侧创建 placeholder 页面（如有需要）
  ↓
-[7] 英文侧创建 placeholder 页面（如有需要）
- ↓
-[8] 构建验证（npm run docs:build）
+[7] 构建验证：cd web && npm run docs:build
 ```
 
 ### 子方向页面 frontmatter
@@ -107,13 +105,11 @@ tags: [tag1, tag2]
  ↓
 [3] 更新 institutions/README.md
  ↓
-[4] 更新 sidebar.ts（在 institutions children 中添加）
+[4] 更新 sidebar-data.ts（institutions 节点的 children，zh + en）
  ↓
-[5] 更新 sidebar-en.ts（同步添加）
+[5] 英文侧创建 placeholder
  ↓
-[6] 英文侧创建 placeholder
- ↓
-[7] 构建验证
+[6] 构建验证
 ```
 
 ## 工作流三：内容检查
@@ -121,7 +117,7 @@ tags: [tag1, tag2]
 ```
 [1] 扫描所有方向目录，确认 README.md 存在
  ↓
-[2] 检查 sidebar.ts 条目与实际文件是否匹配
+[2] 检查 sidebar-data.ts 条目与实际文件是否匹配
  ↓
 [3] 验证 frontmatter 字段（title, description）
  ↓
@@ -143,7 +139,7 @@ tags: [tag1, tag2]
  ↓
 [4] 批量更新方向 README.md 子方向导航表
  ↓
-[5] 批量更新 sidebar.ts + sidebar-en.ts
+[5] 批量更新 sidebar-data.ts（zh + en 同文件）
  ↓
 [6] 批量创建英文 placeholder
  ↓
@@ -163,7 +159,8 @@ tags: [tag1, tag2]
 
 | 文件 | 用途 |
 |------|------|
-| `web/.vuepress/sidebar.ts` | 中文侧边栏配置 |
-| `web/.vuepress/sidebar-en.ts` | 英文侧边栏配置 |
-| `web/.vuepress/sidebar-shared.ts` | 共享导览组 |
-| `web/.vuepress/gen-sidebar.js` | 自动生成 sidebar.auto.json |
+| `web/.vuepress/sidebar-data.ts` | 中英合并侧边栏配置（zh + en locale 同文件） |
+| `web/.vuepress/extraSideBar.ts` | 额外侧边栏补充条目 |
+| `web/.vuepress/gen-sidebar.ts` | 自动生成 sidebar.auto.json（`tsx` 运行） |
+| `web/.vuepress/sidebar-transforms.ts` | 共享侧边栏转换工具 |
+| `web/.vuepress/taxonomy/` | 分类法（glossary/research-frontiers 等） |
