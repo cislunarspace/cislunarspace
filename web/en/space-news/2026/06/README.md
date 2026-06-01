@@ -13,6 +13,7 @@ lastUpdated: 2026-06-01
 
 | Date | Title |
 |------|-------|
+| 6-01 | [Viewing the New Glenn Explosion from Space: Planet Labs Imagery Shows LC-36 Pad Scorched, Bezos Tours Site with NASA Chief Isaacman and Pledges 'Gradatim Ferociter'](./2026-06-01-new-glenn-lc36-satellite-damage/) |
 | 6-01 | [What Blue Origin's New Glenn Explosion Means for NASA's Moon Plans: Analyst Calls It a 'Pretty Significant Setback'](./2026-06-01-blue-origin-ng4-nasa-artemis-impact/) |
 | 6-01 | [Shenzhou-21 Crew Arrives in Beijing: 210-Day Mission Sets New Chinese Spaceflight Record](./2026-06-01-shenzhou-21-crew-beijing-arrival/) |
 | 6-01 | [Beijing Space Intelligence Computing Research Institute Registered in Beijing Yizhuang](./2026-06-01-beijing-space-intelligence-computing-research-institute/) |
@@ -21,4 +22,4 @@ lastUpdated: 2026-06-01
 
 ## Update Log
 
-- 2026-06-01: Added LIGO/Virgo/KAGRA GWTC-5 gravitational-wave catalog release (Guangming Online 5/29 + space.com 6/1); Blue Origin New Glenn explosion impact on NASA Moon plans (Space.com June 1 follow-up); Shenzhou-21 crew Beijing arrival; Beijing Space Intelligence Computing Research Institute established; Xinghuo Kongjian Evolution-1 electric-cycle liquid rocket announcement
+- 2026-06-01: Added LIGO/Virgo/KAGRA GWTC-5 gravitational-wave catalog release (Guangming Online 5/29 + space.com 6/1); Blue Origin New Glenn explosion impact on NASA Moon plans (Space.com June 1 follow-up); Shenzhou-21 crew Beijing arrival; Beijing Space Intelligence Computing Research Institute established; Xinghuo Kongjian Evolution-1 electric-cycle liquid rocket announcement; Planet Labs SkySat-C9 imagery of LC-36 blast damage and Bezos's LC-36 tour with NASA Administrator Isaacman
