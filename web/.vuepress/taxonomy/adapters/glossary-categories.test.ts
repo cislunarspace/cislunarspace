@@ -1,9 +1,9 @@
 /**
  * Tests for GlossaryCategoryRegistry.
- * Run with: vitest run glossary-meta.test.ts
+ * Run with: vitest run glossary-categories.test.ts
  */
 import { describe, it, expect } from 'vitest'
-import { GlossaryCategoryRegistry, categoryRegistry } from './glossary-meta.js'
+import { GlossaryCategoryRegistry, categoryRegistry } from './glossary-categories.js'
 
 describe('GlossaryCategoryRegistry', () => {
   describe('getBySlug', () => {
@@ -42,7 +42,7 @@ describe('GlossaryCategoryRegistry', () => {
 
   describe('data integrity', () => {
     it('contains all original glossaryCategories', () => {
-      const slugs = ['fundamentals', 'dynamics', 'orbits', 'navigation', 'minerals', 'programs', 'other', 'organizations', 'doctrine', 'observation', 'communication']
+      const slugs = ['fundamentals', 'dynamics', 'orbits', 'navigation', 'observation', 'doctrine', 'organizations', 'other-tech']
       for (const slug of slugs) {
         expect(categoryRegistry.getBySlug(slug)).toBeDefined()
       }
@@ -50,7 +50,8 @@ describe('GlossaryCategoryRegistry', () => {
 
     it('has correct order values', () => {
       const category = categoryRegistry.getBySlug('fundamentals')
-      expect(category!.order).toBe(1)
+      // 20010 is the segment base (glossary 20 000) + sibling offset 10
+      expect(category!.order).toBe(20010)
     })
   })
 })

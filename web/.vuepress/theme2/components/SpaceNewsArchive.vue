@@ -60,7 +60,6 @@ import { computed, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import articlesData from '../../space-news-articles.json'
 import { useIsEn } from '../composables/useIsEn'
-import { categoryMeta } from '../utils/categoryMeta'
 import type { ArticlesData } from '../utils/types'
 import {
   articleCardBackground,
@@ -87,7 +86,6 @@ const data = articlesData as ArticlesData
 const directoryView = computed(() => buildSpaceNewsDirectoryView({
   articles: isEn.value ? data.en : data.zh,
   locale: isEn.value ? 'en' : 'zh',
-  categoryMeta,
 }))
 
 const labels = computed(() => directoryView.value.archiveLabels)

@@ -1,12 +1,14 @@
 /**
  * Sidebar sections adapter — derives the per-locale VueSidebarItem tree
- * from the section taxonomy module.
+ * from the unified taxonomy module (the section / page / group / index
+ * kinds live alongside navbar / wayfinding / glossary / news-category
+ * in the same `taxonomy` instance, partitioned by `kind`).
  *
  * Replaces the inline `buildSectionChildren` / `buildSectionSidebar`
  * helpers that used to live in `gen-sidebar.ts`. Behaviour is preserved
  * byte-for-byte (snapshot-verified by tests).
  */
-import { sectionTaxonomy } from '../section-taxonomy'
+import { taxonomy } from '..'
 import type { Locale, NodeId, TaxonomyNode } from '../types'
 
 /**
@@ -16,7 +18,7 @@ import type { Locale, NodeId, TaxonomyNode } from '../types'
  * locale-gated out — this helper preserves that quirk.
  */
 function hasSourceChildren(parentId: NodeId): boolean {
-  for (const node of sectionTaxonomy.all()) {
+  for (const node of taxonomy.all()) {
     if (node.parentId === parentId) return true
   }
   return false
@@ -30,7 +32,7 @@ export interface VueSidebarItem {
 }
 
 function buildChildren(parentId: NodeId, locale: Locale): Array<string | VueSidebarItem> {
-  const children = sectionTaxonomy.children(parentId, locale)
+  const children = taxonomy.children(parentId, locale)
   const result: Array<string | VueSidebarItem> = []
 
   for (const child of children) {
@@ -85,7 +87,7 @@ function pickCollapsible(node: TaxonomyNode): boolean | undefined {
  * produce inline.
  */
 export function buildSectionSidebar(sectionId: NodeId, locale: Locale): VueSidebarItem {
-  const section = sectionTaxonomy.get(sectionId)
+  const section = taxonomy.get(sectionId)
   const basePath = section.path[locale]
   if (!basePath) {
     return {
@@ -108,7 +110,7 @@ export function buildSectionSidebar(sectionId: NodeId, locale: Locale): VueSideb
  */
 export function buildAllSectionSidebars(): Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> {
   const result: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {}
-  for (const section of sectionTaxonomy.byKind('section', null)) {
+  for (const section of taxonomy.byKind('section', null)) {
     result[section.id] = {
       zh: buildSectionSidebar(section.id, 'zh'),
       en: buildSectionSidebar(section.id, 'en'),

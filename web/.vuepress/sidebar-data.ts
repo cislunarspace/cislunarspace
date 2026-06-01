@@ -11,6 +11,16 @@ export interface SidebarEntry {
   collapsible?: boolean
   /** If set, only include in these locales. Undefined = both. */
   locales?: Array<'zh' | 'en'>
+  /**
+   * Explicit, stable id for this entry. Required when `slug === undefined`
+   * (display-only group); optional otherwise — the default id is
+   * `${parent.id}/${slug}` and the section default is `slug`.
+   *
+   * Per ADR-0001, ids are stable across renames: changing a slug is a new
+   * id + a redirect entry, never an in-place rename. Display-only groups
+   * have no slug to derive from, so the author must pick one.
+   */
+  id?: string
 }
 
 export interface SidebarSection {
@@ -191,6 +201,7 @@ export const sidebarSections: SidebarSection[] = [
     label: { zh: '资源与工具（数据、代码与数据集）', en: 'Resources & Tools (Data, Code & Datasets)' },
     children: [
       {
+        id: 'resources-tools/simulation-software',
         label: { zh: '仿真软件', en: 'Simulation Software' },
         collapsible: true,
         children: [
@@ -201,6 +212,7 @@ export const sidebarSections: SidebarSection[] = [
         ],
       },
       {
+        id: 'resources-tools/core-algorithm-libraries',
         label: { zh: '核心算法库', en: 'Core Algorithm Libraries' },
         collapsible: true,
         children: [
@@ -214,6 +226,7 @@ export const sidebarSections: SidebarSection[] = [
         ],
       },
       {
+        id: 'resources-tools/data-resources',
         label: { zh: '数据资源', en: 'Data Resources' },
         collapsible: true,
         children: [
@@ -221,6 +234,7 @@ export const sidebarSections: SidebarSection[] = [
         ],
       },
       {
+        id: 'resources-tools/ai-cloud-platforms',
         label: { zh: 'AI与云平台', en: 'AI & Cloud Platforms' },
         collapsible: true,
         children: [

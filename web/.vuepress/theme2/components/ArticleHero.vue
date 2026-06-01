@@ -18,7 +18,6 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { categoryMeta } from '../utils/categoryMeta'
 import {
   formatArticleDate,
   resolveCategoryColor,
@@ -37,11 +36,11 @@ const props = defineProps<{
 const locale = computed<'zh' | 'en'>(() => (props.isEn ? 'en' : 'zh'))
 
 const categoryLabel = computed(() =>
-  resolveCategoryLabel(props.category ?? null, categoryMeta, locale.value),
+  resolveCategoryLabel(props.category ?? null, locale.value),
 )
 
 const tagStyle = computed(() => ({
-  background: resolveCategoryColor(props.category ?? null, categoryMeta),
+  background: resolveCategoryColor(props.category ?? null),
   color: '#fff',
 }))
 

@@ -115,7 +115,6 @@
 import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useIsEn } from '../composables/useIsEn'
-import { categoryMeta } from '../utils/categoryMeta'
 import { resolveCategoryColor } from '../utils/spaceNewsDirectoryView'
 import sidebarRaw from '../../space-news-sidebar-data.json'
 
@@ -190,7 +189,7 @@ function isActivePath(current: string, target: string) {
 }
 
 function catColor(cats: string[] | null) {
-  return resolveCategoryColor(cats, categoryMeta)
+  return resolveCategoryColor(cats)
 }
 
 function formatShortDate(raw: string | null) {
