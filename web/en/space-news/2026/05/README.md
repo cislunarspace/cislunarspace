@@ -3,7 +3,7 @@ title: Space News · May 2026
 description: Space news and updates for May 2026.
 author: Tianjiangshuo
 date: 2026-05-01
-lastUpdated: 2026-05-30
+lastUpdated: 2026-06-01
 
 ## Archive by date
 
@@ -19,7 +19,8 @@ lastUpdated: 2026-05-30
 | 2026-05-29 | [Shenzhou-22 Return Capsule Lands in Inner Mongolia, Shenzhou-21 Crew Returns After Seven-Month Mission](./2026-05-29-shenzhou-22-successful-landing/) | China Space |
 | 2026-05-29 | [Shenzhou-22 Undocks from Tiangong Space Station, Shenzhou-21 Crew Set for Return](./2026-05-29-shenzhou-22-undocking/) | China Space |
 | 2026-05-29 | [Blue Origin's New Glenn Rocket Explodes During Prelaunch Hotfire Test at LC-36, Fourth Flight Indefinitely Postponed](./2026-05-29-new-glenn-explosion-prelaunch-test/) | Blue Origin |
-| 2026-05-30 | [Shenzhou 21 Crew Returns to Beijing After Record-Breaking 210-Day Mission](./2026-05-30-shenzhou-21-beijing-arrival/) | China Space |
+| 2026-05-31 | [Long March 2D Launches Four Satellites in First Mission Since Shenzhou-23, Xichang's 646th Long March Flight](./2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch/) | China Space |
+| 2026-05-30 | [Shenzhou 21 Crew Returns to Beijing After Record-Breaking 210-Day Mission](./2026-05-30-shenzhou-21-beijing-arrival/) |
 | 2026-05-30 | [Tiangong Space Station's 10th Science Sample Batch Returns: Artificial Embryos, Brain Organoids Delivered to Scientists](./2026-05-30-tiangong-science-samples-return/) | Science |
 | 2026-05-30 | [Blue Origin Releases Dramatic Footage of New Glenn Explosion: Fireball Visible 120 Miles Away; Bezos Calls It a 'Very Rough Day'](./2026-05-30-blue-origin-new-glenn-explosion-videos/) | Blue Origin |
 | 2026-05-30 | [SpaceX Launches 50th Starlink Mission of 2026 from Vandenberg, Booster B1082 Lands on Drone Ship](./2026-05-30-starlink-17-41-vandenberg-launch/) | SpaceX |

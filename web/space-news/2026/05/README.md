@@ -4,7 +4,7 @@ description: 2026 年 5 月航天新闻条目索引。
 permalink: /space-news/2026/05/
 author: 天疆说
 date: 2026-05-01
-lastUpdated: 2026-05-30
+lastUpdated: 2026-06-01
 wechatShare:
   title: "航天动态 · 2026 年 5 月"
   desc: "2026 年 5 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 5-31 | [长征二号丁一箭四星发射卫星互联网技术试验卫星，西昌第646次长征飞行](./2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch/) |
 | 5-30 | [神舟二十一号乘组平安抵京，进入隔离恢复期](./2026-05-30-shenzhou-21-beijing-arrival/) |
 | 5-30 | [中国空间站第十批科学实验样品返回，人工胚胎、脑类器官等41公斤样品交付科学家](./2026-05-30-tiangong-science-samples-return/) |
 | 5-30 | [SpaceX第17-41批Starlink从范登堡发射，2026年第50次Starlink任务](./2026-05-30-starlink-17-41-vandenberg-launch/) |
