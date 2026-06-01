@@ -96,8 +96,8 @@ describe('validateTaxonomy', () => {
   it('allows null path for navbar-root, external-link, and group kinds', () => {
     expect(() => validateTaxonomy([
       node({ id: 'navbar', kind: 'navbar-root', path: { zh: null, en: null } }),
-      node({ id: 'gh', kind: 'external-link', path: { zh: null, en: null }, parentId: 'navbar', meta: { href: 'https://github.com/cislunarspace/cislunarspace' } }),
-      node({ id: 'display-group', kind: 'group', path: { zh: null, en: null }, parentId: 'navbar' }),
+      node({ id: 'gh', kind: 'external-link', path: { zh: null, en: null }, parentId: 'navbar', order: 10, meta: { href: 'https://github.com/cislunarspace/cislunarspace' } }),
+      node({ id: 'display-group', kind: 'group', path: { zh: null, en: null }, parentId: 'navbar', order: 20 }),
     ])).not.toThrow()
   })
 
@@ -118,5 +118,38 @@ describe('validateTaxonomy', () => {
       node({ id: 'a', parentId: 'b' }),
       node({ id: 'b', parentId: 'a' }),
     ])).toThrow(/cycle detected/)
+  })
+
+  it('rejects a news-category node without a 7-char hex meta.color', () => {
+    expect(() => validateTaxonomy([
+      node({ id: 'broken', kind: 'news-category', path: { zh: null, en: null }, meta: { color: '#06b69' } }),
+    ])).toThrow(/news-category meta\.color must be a 7-char hex/)
+
+    expect(() => validateTaxonomy([
+      node({ id: 'broken', kind: 'news-category', path: { zh: null, en: null }, meta: {} }),
+    ])).toThrow(/news-category meta\.color must be a 7-char hex/)
+
+    expect(() => validateTaxonomy([
+      node({ id: 'broken', kind: 'news-category', path: { zh: null, en: null }, meta: { color: 'red' } }),
+    ])).toThrow(/news-category meta\.color must be a 7-char hex/)
+  })
+
+  it('accepts a news-category node with a valid 7-char hex meta.color', () => {
+    expect(() => validateTaxonomy([
+      node({ id: 'ok', kind: 'news-category', path: { zh: null, en: null }, meta: { color: '#06b6d9' } }),
+    ])).not.toThrow()
+  })
+
+  it('rejects a news-category node whose path is not null in any locale', () => {
+    // news-category nodes are pure metadata identifiers — never routable
+    // pages. An author who accidentally sets a path would create a broken
+    // link in SpaceNewsHome. Catch it at module load.
+    expect(() => validateTaxonomy([
+      node({ id: 'broken', kind: 'news-category', path: { zh: '/news/spacex/', en: null }, meta: { color: '#06b6d9' } }),
+    ])).toThrow(/news-category nodes must have path\.zh === null/)
+
+    expect(() => validateTaxonomy([
+      node({ id: 'broken', kind: 'news-category', path: { zh: null, en: '/en/news/spacex/' }, meta: { color: '#06b6d9' } }),
+    ])).toThrow(/news-category nodes must have path\.en === null/)
   })
 })
