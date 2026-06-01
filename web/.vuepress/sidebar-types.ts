@@ -4,7 +4,7 @@
  * - SidebarIntake.* — build-time types (shared between intake modules)
  * - SidebarRuntime.* — runtime types (output shapes from generation pipeline)
  */
-import type { GlossaryCategoryMeta } from './glossary-meta.ts'
+import type { GlossaryCategoryMeta } from './taxonomy/adapters/glossary-categories.ts'
 import type { SidebarSection, SidebarEntry } from './sidebar-data.ts'
 
 // ── SidebarIntake namespace — build-time types ─────────────────────────────────

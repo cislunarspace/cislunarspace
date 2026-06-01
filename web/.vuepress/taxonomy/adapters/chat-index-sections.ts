@@ -1,20 +1,20 @@
 /**
  * AI chat section-index adapter — derives non-glossary chat index entries
- * from the section taxonomy module.
+ * from the unified taxonomy module.
  *
  * Mirrors the historical `chat-index-intake.ts` traversal exactly:
  *   - each section contributes its own index page first
  *   - display-only groups (`path === null`) are not entries but recurse
  *   - index nodes (`kind: 'index'`) are skipped
  *   - page/group nodes with paths are entries
- *   - locale-gated nodes are filtered by `sectionTaxonomy.children(..., locale)`
+ *   - locale-gated nodes are filtered by `taxonomy.children(..., locale)`
  */
-import { sectionTaxonomy } from '../section-taxonomy'
+import { taxonomy } from '..'
 import type { Locale, NodeId, TaxonomyNode } from '../types'
 import type { ChatIndexCategory, ChatIndexEntry } from '../../sidebar-types'
 
 function collectEntries(parentId: NodeId, locale: Locale, entries: ChatIndexEntry[]): void {
-  for (const node of sectionTaxonomy.children(parentId, locale)) {
+  for (const node of taxonomy.children(parentId, locale)) {
     if (node.kind === 'index') continue
 
     const path = node.path[locale]
@@ -43,7 +43,7 @@ function sectionToChatIndexCategory(section: TaxonomyNode, locale: Locale): Chat
 }
 
 export function buildSectionChatIndexCategories(locale: Locale): ChatIndexCategory[] {
-  return sectionTaxonomy
+  return taxonomy
     .children(null, locale)
     .filter((node) => node.kind === 'section')
     .map((section) => sectionToChatIndexCategory(section, locale))
