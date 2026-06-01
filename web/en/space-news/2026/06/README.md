@@ -17,7 +17,8 @@ lastUpdated: 2026-06-01
 | 6-01 | [Shenzhou-21 Crew Arrives in Beijing: 210-Day Mission Sets New Chinese Spaceflight Record](./2026-06-01-shenzhou-21-crew-beijing-arrival/) |
 | 6-01 | [Beijing Space Intelligence Computing Research Institute Registered in Beijing Yizhuang](./2026-06-01-beijing-space-intelligence-computing-research-institute/) |
 | 6-01 | [Xinghuo Kongjian Announces China's First Electric-Cycle Liquid Rocket Evolution-1](./2026-06-01-xinghuo-kongjian-evolution-1-electric-rocket/) |
+| 6-01 | [LIGO/Virgo/KAGRA Release GWTC-5 Catalog: 161 New Black Hole Merger Signals, Clearest Verification Yet of Hawking's Area Theorem](./2026-06-01-ligo-gwtc-5-catalog-release/) |
 
 ## Update Log
 
-- 2026-06-01: Added Blue Origin New Glenn explosion impact on NASA Moon plans (Space.com June 1 follow-up); Shenzhou-21 crew Beijing arrival; Beijing Space Intelligence Computing Research Institute established; Xinghuo Kongjian Evolution-1 electric-cycle liquid rocket announcement
+- 2026-06-01: Added LIGO/Virgo/KAGRA GWTC-5 gravitational-wave catalog release (Guangming Online 5/29 + space.com 6/1); Blue Origin New Glenn explosion impact on NASA Moon plans (Space.com June 1 follow-up); Shenzhou-21 crew Beijing arrival; Beijing Space Intelligence Computing Research Institute established; Xinghuo Kongjian Evolution-1 electric-cycle liquid rocket announcement
