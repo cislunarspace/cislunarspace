@@ -71,6 +71,9 @@ export default defineUserConfig({
   title: '地月空间入门指南',
   description: '系统掌握地月空间科学、技术与工程实践',
 
+  // Exclude internal docs/, node_modules, and helper files from site pages
+  pagePatterns: ['**/*.md', '!docs/**/*.md', '!**/_*.md', '!.vuepress/**/*.md', '!node_modules/**'],
+
   locales: {
     '/': {
       lang: 'zh-CN',
