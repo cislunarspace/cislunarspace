@@ -1,0 +1,94 @@
+#!/bin/bash
+# Cislunar Space News hourly auto-update (local)
+# Run from local machine: build here, rsync dist to server.
+# Replaces the server-side scripts/space-news-update.sh (which targeted
+# a non-existent openclaw CLI and required docs:build on a 945Mi RAM host).
+#
+# Schedule: see `hermes cron list` — created via hermes cron.
+# Manual run: bash scripts/space-news-update-local.sh
+
+set -uo pipefail
+
+# Manual dry-run: SKIP_HERMES=1 bash scripts/space-news-update-local.sh
+# Skips Phase 1 (hermes draft) so build+rsync pipeline can be tested alone.
+SKIP_HERMES="${SKIP_HERMES:-0}"
+
+REPO="/home/ouyangjiahong/codes/cislunarspace"
+WEB="$REPO/web"
+LOGDIR="$REPO/logs"
+LOGFILE="$LOGDIR/space-news-update.log"
+TS_START="$(date -Iseconds)"
+
+mkdir -p "$LOGDIR"
+
+{
+echo "=== Space News update started at $TS_START ==="
+echo "PWD=$REPO"
+
+cd "$REPO" || { echo "FATAL: cd $REPO failed"; exit 1; }
+
+# --- Phase 1: have hermes draft new articles per the SKILL ---
+if [ "$SKIP_HERMES" = "1" ]; then
+    echo "[$(date -Iseconds)] phase 1: SKIPPED (SKIP_HERMES=1)"
+    PHASE1_RC=0
+else
+    echo "[$(date -Iseconds)] phase 1: hermes chat -q ..."
+    hermes chat -q "执行 Space News 定期更新。
+
+时间窗口：最近 1 小时。
+严格按照 $REPO/scripts/space-news-publish/SKILL.md 操作，特别是「自动化执行流程」章节。
+完成后汇报新增稿件数量。
+
+如果没有值得报道的新闻，简短说明即可。" \
+  --skills space-news-publish \
+  -Q \
+  --yolo 2>&1
+PHASE1_RC=$?
+echo "[$(date -Iseconds)] phase 1 exit=$PHASE1_RC"
+fi
+
+# --- Phase 2: full docs:build on local (16Gi RAM, safe) ---
+cd "$WEB" || { echo "FATAL: cd $WEB failed"; exit 1; }
+echo "[$(date -Iseconds)] phase 2: npm run docs:build"
+NODE_OPTIONS='--max-old-space-size=4096' npm run docs:build 2>&1
+PHASE2_RC=$?
+echo "[$(date -Iseconds)] phase 2 exit=$PHASE2_RC"
+
+# --- Phase 3: commit + push generated content to remote ---
+cd "$REPO" || exit 1
+git add web/space-news/ web/en/space-news/ \
+       web/.vuepress/sidebar.auto.json \
+       web/.vuepress/space-news-articles.json 2>/dev/null || true
+
+if ! git diff --cached --quiet; then
+    git commit -m "Update space news — $(date -u '+%Y-%m-%d %H:%M UTC')" >/dev/null
+    GIT_HTTP_VERSION=HTTP/1.1 git push gitee master 2>&1
+    PHASE3_RC=$?
+else
+    echo "[$(date -Iseconds)] phase 3: nothing to commit"
+    PHASE3_RC=0
+fi
+echo "[$(date -Iseconds)] phase 3 exit=$PHASE3_RC"
+
+# --- Phase 4: rsync dist/ to remote server (must use domain, not IP) ---
+echo "[$(date -Iseconds)] phase 4: rsync dist to server"
+***REMOVED*** -p '***REMOVED***.' rsync -avz --compress-level=9 \
+    --delete \
+    -e 'ssh -o StrictHostKeyChecking=no -o ConnectTimeout=30' \
+    "$WEB/.vuepress/dist/" \
+    ubuntu@cislunarspace.cn:/var/www/cislunarspace/dist/ 2>&1
+PHASE4_RC=$?
+echo "[$(date -Iseconds)] phase 4 rsync exit=$PHASE4_RC"
+
+# --- Phase 5: fix dist perms (nginx www-data needs read) ---
+***REMOVED*** -p '***REMOVED***.' ssh -o StrictHostKeyChecking=no -o ConnectTimeout=15 \
+    ubuntu@cislunarspace.cn 'sudo chmod -R 755 /var/www/cislunarspace/dist/' 2>&1
+PHASE5_RC=$?
+echo "[$(date -Iseconds)] phase 5 chmod exit=$PHASE5_RC"
+
+TS_END="$(date -Iseconds)"
+echo "=== Space News update finished at $TS_END — phase1=$PHASE1_RC phase2=$PHASE2_RC phase3=$PHASE3_RC phase4=$PHASE4_RC phase5=$PHASE5_RC ==="
+} >> "$LOGFILE" 2>&1
+
+# Truncate log to last 2000 lines to avoid unbounded growth
+tail -n 2000 "$LOGFILE" > "$LOGFILE.tmp" && mv "$LOGFILE.tmp" "$LOGFILE"
