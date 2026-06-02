@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-01
-lastUpdated: 2026-06-01
+lastUpdated: 2026-06-02
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-01 | [天文学家在原行星盘亮环中读出系外行星「指纹」 可反推行星质量](./2026-06-01-planetary-fingerprints-protoplanetary-disks/) |
 | 6-01 | [从太空看新格伦爆炸：Planet Labs 卫星影像显示 LC-36 发射台被严重烧灼，Bezos 携 Isaacman 现场视察后誓言「Gradatim Ferociter」](./2026-06-01-new-glenn-lc36-satellite-damage/) |
 | 6-01 | [新格伦爆炸对 NASA 月球计划意味着什么：行业分析师称其为「重大挫折」，Blue Moon 任务链承压](./2026-06-01-blue-origin-ng4-nasa-artemis-impact/) |
 | 6-01 | [神舟二十一号航天员乘组平安抵京：210天刷新中国在轨驻留纪录](./2026-06-01-shenzhou-21-crew-beijing-arrival/) |
@@ -26,4 +27,5 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-02: 新增 Warwick-MIT 团队 PDS 70 原行星盘环「行星指纹」研究（《天体物理学杂志》5/28 发表、space.com 6/1 报道）
 - 2026-06-01: 新增 LIGO/Virgo/KAGRA GWTC-5 引力波目录发布（光明网 5/29 + space.com 6/1）；蓝色起源新格伦爆炸对 NASA 月球计划影响分析（space.com 6/1 续报）；北京太空智算研究院成立；星火空间进化一号电循环液体运载火箭；神舟二十一号乘组抵京；Planet Labs SkySat-C9 卫星影像展示 LC-36 烧灼痕迹与 Bezos 携 Isaacman 现场视察
