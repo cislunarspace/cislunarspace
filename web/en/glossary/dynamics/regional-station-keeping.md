@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of regional station-keeping control definitions, control objectives, core challenges, and current research status for stratospheric airships
   image: /logo.png
 permalink: /en/glossary/dynamics/regional-station-keeping/
+wechatShare:
+  title: "Cislunar Space Guide | Regional Station-keeping Control"
+  desc: "A detailed analysis of regional station-keeping control definitions, control objectives, core challenges, and current research status for stratospheric airships"
+  image: "/logo.png"
 ---
 
 # Regional Station-keeping Control

@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of thermo-mechanical coupling modeling principles, coupling variables, cross-coupling mechanisms, and their effects on regional station-keeping control
   image: /logo.png
 permalink: /en/glossary/dynamics/thermo-mechanical-coupling/
+wechatShare:
+  title: "Cislunar Space Guide | Thermo-mechanical Coupling Model"
+  desc: "A detailed analysis of thermo-mechanical coupling modeling principles, coupling variables, cross-coupling mechanisms, and their effects on regional station-keeping control"
+  image: "/logo.png"
 ---
 
 # Thermo-mechanical Coupling Model

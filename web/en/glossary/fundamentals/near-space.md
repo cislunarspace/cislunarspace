@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of near-space definitions, altitude ranges, physical environment characteristics, and its importance in aerospace and military applications
   image: /logo.png
 permalink: /en/glossary/fundamentals/near-space/
+wechatShare:
+  title: "Cislunar Space Guide | Near-space"
+  desc: "A detailed analysis of near-space definitions, altitude ranges, physical environment characteristics, and its importance in aerospace and military applications"
+  image: "/logo.png"
 ---
 
 # Near-space

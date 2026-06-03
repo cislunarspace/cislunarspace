@@ -16,6 +16,10 @@ twitter:
   description: Linearized equations of relative orbital motion between two spacecraft, used in rendezvous and formation flying
   image: /logo.png
 permalink: /en/glossary/dynamics/clohessy-wiltshire/
+wechatShare:
+  title: "Cislunar Space Guide | Clohessy-Wiltshire (CW) Equation"
+  desc: "The Clohessy-Wiltshire equation is a set of linearized equations describing relative orbital motion between two spacecraft, widely used in rendezvous, formation flying, and proximity operations."
+  image: "/logo.png"
 ---
 
 # Clohessy-Wiltshire (CW) Equation

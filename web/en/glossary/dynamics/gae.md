@@ -16,6 +16,10 @@ twitter:
   description: A method balancing bias and variance for advantage function estimation in RL
   image: /logo.png
 permalink: /en/glossary/dynamics/gae/
+wechatShare:
+  title: "Cislunar Space Guide | Generalized Advantage Estimation (GAE)"
+  desc: "Generalized Advantage Estimation (GAE) is a method for advantage function estimation in reinforcement learning that balances bias and variance through exponentially weighted averaging of TD residuals"
+  image: "/logo.png"
 ---
 
 # Generalized Advantage Estimation (GAE)

@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of two-node thermodynamic model establishment, simplified assumptions, mathematical formulation, and applications in preliminary stratospheric airship analysis
   image: /logo.png
 permalink: /en/glossary/dynamics/two-node-model/
+wechatShare:
+  title: "Cislunar Space Guide | Two-node Model"
+  desc: "A detailed analysis of two-node thermodynamic model establishment, simplified assumptions, mathematical formulation, and applications in preliminary stratospheric airship analysis"
+  image: "/logo.png"
 ---
 
 # Two-node Model

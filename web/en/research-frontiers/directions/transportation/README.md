@@ -1,6 +1,10 @@
 ---
 title: Space Transportation System
 description: Large-scale low-cost cislunar transportation systems and routine operations
+wechatShare:
+  title: "Cislunar Space Guide | Space Transportation System"
+  desc: "Large-scale low-cost cislunar transportation systems and routine operations"
+  image: "/logo.png"
 ---
 
 # Space Transportation System

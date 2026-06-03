@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/dro/mechanics/
+wechatShare:
+  title: "Cislunar Space Guide | DRO Dynamics Mechanism"
+  desc: "Analysis of retrograde geometry, Jacobi constant constraints, and stability origins in the CR3BP for Distant Retrograde Orbits."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

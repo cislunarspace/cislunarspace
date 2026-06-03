@@ -16,6 +16,10 @@ twitter:
   description: Parameter-efficient LLM fine-tuning via low-rank matrix decomposition
   image: /logo.png
 permalink: /en/glossary/other/lora-low-rank-adaptation/
+wechatShare:
+  title: "Cislunar Space Guide | Low-Rank Adaptation (LoRA)"
+  desc: "Low-Rank Adaptation (LoRA) is a parameter-efficient fine-tuning method that freezes pretrained weights and injects trainable low-rank decomposition matrices, training only a fraction of parameters to achieve near full fine-tuning performance."
+  image: "/logo.png"
 ---
 
 # Low-Rank Adaptation (LoRA)

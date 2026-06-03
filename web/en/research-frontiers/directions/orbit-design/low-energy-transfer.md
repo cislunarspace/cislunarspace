@@ -5,6 +5,10 @@ keywords: cislunar low-energy transfer, Halo orbits, Lissajous orbits, orbit des
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-04-27
+wechatShare:
+  title: "Cislunar Space Guide | Low-Energy Transfer Orbits for Cislunar Space"
+  desc: "Representative works on low-energy transfer orbit design and applications for cislunar missions"
+  image: "/logo.png"
 ---
 
 > Author: [天疆说](https://blog.csdn.net/qq_33254264)

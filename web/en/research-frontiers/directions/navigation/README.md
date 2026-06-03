@@ -1,6 +1,10 @@
 ---
 title: Navigation & Orbit Determination
 description: Autonomous navigation, orbit determination and prediction for cislunar spacecraft
+wechatShare:
+  title: "Cislunar Space Guide | Navigation & Orbit Determination"
+  desc: "Autonomous navigation, orbit determination and prediction for cislunar spacecraft"
+  image: "/logo.png"
 ---
 
 # Navigation & Orbit Determination

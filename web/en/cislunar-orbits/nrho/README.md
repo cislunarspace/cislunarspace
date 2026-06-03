@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/nrho/
+wechatShare:
+  title: "Cislunar Space Guide | NRHO (Near-Rectilinear Halo Orbit)"
+  desc: "Overview of NRHO (Near-Rectilinear Halo Orbit): definition, dynamical characteristics, orbit family classification, and engineering applications."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

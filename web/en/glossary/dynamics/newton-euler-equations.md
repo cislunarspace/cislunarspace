@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of Newton-Euler equations principles, force and moment vector expressions, and applications in aircraft dynamics modeling
   image: /logo.png
 permalink: /en/glossary/dynamics/newton-euler-equations/
+wechatShare:
+  title: "Cislunar Space Guide | Newton-Euler Equations"
+  desc: "A detailed analysis of Newton-Euler equations principles, force and moment vector expressions, and applications in aircraft dynamics modeling"
+  image: "/logo.png"
 ---
 
 # Newton-Euler Equations

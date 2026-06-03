@@ -2,6 +2,10 @@
 permalink: /en/resources-tools/
 title: Resources & Tools
 description: Index of simulation software, core algorithm libraries, data resources and AI/cloud platforms.
+wechatShare:
+  title: "Cislunar Space Guide | Resources & Tools"
+  desc: "Index of simulation software, core algorithm libraries, data resources and AI/cloud platforms."
+  image: "/logo.png"
 ---
 
 # Resources & Tools

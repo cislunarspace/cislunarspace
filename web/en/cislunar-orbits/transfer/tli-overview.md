@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/transfer/tli-overview/
+wechatShare:
+  title: "Cislunar Space Guide | TLI Overview"
+  desc: "Principles, launch windows, energy budget, and typical mission parameters of Trans-Lunar Injection (TLI)."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

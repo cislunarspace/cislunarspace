@@ -16,6 +16,10 @@ twitter:
   description: Space objects that do not share intent or trajectory information, a core subject of space security research
   image: /logo.png
 permalink: /en/glossary/other/noncooperative-target/
+wechatShare:
+  title: "Cislunar Space Guide | Noncooperative Target"
+  desc: "A noncooperative target is a space object that does not share intent or trajectory information with operational spacecraft, including abandoned satellites, debris, and unidentified objects."
+  image: "/logo.png"
 ---
 
 # Noncooperative Target

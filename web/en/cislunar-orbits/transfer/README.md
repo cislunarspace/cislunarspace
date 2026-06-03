@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/transfer/
+wechatShare:
+  title: "Cislunar Space Guide | Earth-Moon Transfer Orbit"
+  desc: "Overview of Earth-Moon transfer orbits: classification, energy budget, time vs. fuel tradeoffs, and rendezvous design with NRHO and DRO."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

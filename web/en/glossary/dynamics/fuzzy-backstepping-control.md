@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of fuzzy backstepping control principles, T-S fuzzy system modeling, and applications in stratospheric airship nonlinear control
   image: /logo.png
 permalink: /en/glossary/dynamics/fuzzy-backstepping-control/
+wechatShare:
+  title: "Cislunar Space Guide | Fuzzy Backstepping Control"
+  desc: "A detailed analysis of fuzzy backstepping control principles, T-S fuzzy system modeling, and applications in stratospheric airship nonlinear control"
+  image: "/logo.png"
 ---
 
 # Fuzzy Backstepping Control

@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/nrho/l1-nrho/
+wechatShare:
+  title: "Cislunar Space Guide | L1 Near-Rectilinear Halo Orbit"
+  desc: "Geometric characteristics, dynamical constraints, and typical mission applications of the Earth-Moon L1 Near-Rectilinear Halo Orbit (NRHO)."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

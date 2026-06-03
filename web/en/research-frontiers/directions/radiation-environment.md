@@ -1,6 +1,10 @@
 ---
 title: Space Radiation Environment
 description: Modeling, measurement and protection of the cislunar radiation environment
+wechatShare:
+  title: "Cislunar Space Guide | Space Radiation Environment"
+  desc: "Modeling, measurement and protection of the cislunar radiation environment"
+  image: "/logo.png"
 ---
 
 # Space Radiation Environment

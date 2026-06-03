@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of sliding mode control principles, mathematical formulation, chattering suppression techniques, and applications in stratospheric airship control
   image: /logo.png
 permalink: /en/glossary/dynamics/sliding-mode-control/
+wechatShare:
+  title: "Cislunar Space Guide | Sliding Mode Control"
+  desc: "A detailed analysis of sliding mode control principles, mathematical formulation, chattering suppression techniques, and applications in stratospheric airship control"
+  image: "/logo.png"
 ---
 
 # Sliding Mode Control

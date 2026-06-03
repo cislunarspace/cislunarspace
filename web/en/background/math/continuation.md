@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/math/continuation/
+wechatShare:
+  title: "Cislunar Space Guide | Arc-length Continuation"
+  desc: "Arc-length continuation is a numerical method for tracing solution curves along a parameter branch, combined with shooting methods to effectively extend the solution range of periodic orbits."
+  image: "/logo.png"
 ---
 
 # Arc-length Continuation

@@ -16,6 +16,10 @@ twitter:
   description: A prompting technique that guides LLMs to output intermediate reasoning steps, improving complex reasoning performance
   image: /logo.png
 permalink: /en/glossary/other/chain-of-thought-prompting/
+wechatShare:
+  title: "Cislunar Space Guide | Chain-of-Thought (CoT) Prompting"
+  desc: "Chain-of-Thought prompting is a technique that encourages LLMs to produce intermediate reasoning steps before giving a final answer, significantly improving performance on complex reasoning tasks."
+  image: "/logo.png"
 ---
 
 # Chain-of-Thought (CoT) Prompting

@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/math/shooting-method/
+wechatShare:
+  title: "Cislunar Space Guide | Shooting Method"
+  desc: "The shooting method converts a two-point boundary value problem into an initial value problem solved by iterative correction, widely used in orbit design and periodic orbit generation."
+  image: "/logo.png"
 ---
 
 # Shooting Method

@@ -16,6 +16,10 @@ twitter:
   description: Formulating cislunar low-thrust orbit transfer as a finite-horizon MDP
   image: /logo.png
 permalink: /en/glossary/dynamics/lt-transfer-mdp/
+wechatShare:
+  title: "Cislunar Space Guide | Low-Thrust Transfer MDP Formulation"
+  desc: "Formulates the cislunar low-thrust orbit transfer problem as a finite-horizon Markov Decision Process for autonomous trajectory optimization under the reinforcement learning framework"
+  image: "/logo.png"
 ---
 
 # Low-Thrust Transfer MDP Formulation

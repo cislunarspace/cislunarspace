@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/nrho/stability-maintenance/
+wechatShare:
+  title: "Cislunar Space Guide | NRHO Stability and Station-Keeping"
+  desc: "Initial condition sensitivity, Lyapunov exponent analysis, ΔV budget, and station-keeping strategies for NRHO orbits."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

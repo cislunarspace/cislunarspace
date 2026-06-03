@@ -1,6 +1,10 @@
 ---
 title: Infrastructure & Economy
 description: Cislunar infrastructure architecture, resource development and economic growth
+wechatShare:
+  title: "Cislunar Space Guide | Infrastructure & Economy"
+  desc: "Cislunar infrastructure architecture, resource development and economic growth"
+  image: "/logo.png"
 ---
 
 # Infrastructure & Economy

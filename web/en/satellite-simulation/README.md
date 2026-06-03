@@ -2,7 +2,7 @@
 title: Satellite Orbit Simulation Lab
 description: Browser-based teaching lab for orbital elements and trajectory visualization—companion to the orbits hub and resources section.
 permalink: /en/satellite-simulation/
-layout: OrbitSimLab
+layout: Layout
 lastUpdated: 2026-04-22
 sidebar: false
 wechatShare:

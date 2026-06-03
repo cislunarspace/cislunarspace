@@ -3,6 +3,10 @@ title: ATK (Aerospace Tool Kit)
 description: NUDT's domestically developed aerospace mission analysis and design software
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: "Cislunar Space Guide | ATK (Aerospace Tool Kit)"
+  desc: "NUDT's domestically developed aerospace mission analysis and design software"
+  image: "/logo.png"
 ---
 
 ## Overview

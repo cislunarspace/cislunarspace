@@ -2,7 +2,7 @@
 title: 卫星轨道仿真教学平台
 description: 在浏览器中调节轨道要素、观察轨迹与典型约束的入门实验；配合地月空间轨道与资源工具栏目使用。
 permalink: /satellite-simulation/
-layout: OrbitSimLab
+layout: Layout
 lastUpdated: 2026-04-22
 sidebar: false
 wechatShare:

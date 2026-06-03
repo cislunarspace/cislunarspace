@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of variational mode decomposition principles, algorithm steps, parameter settings, and applications in wind signal processing
   image: /logo.png
 permalink: /en/glossary/dynamics/variational-mode-decomposition/
+wechatShare:
+  title: "Cislunar Space Guide | Variational Mode Decomposition"
+  desc: "A detailed analysis of variational mode decomposition principles, algorithm steps, parameter settings, and applications in wind signal processing"
+  image: "/logo.png"
 ---
 
 # Variational Mode Decomposition

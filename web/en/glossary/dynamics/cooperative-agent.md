@@ -16,6 +16,10 @@ twitter:
   description: Detailed analysis of cooperative agent definition and its role in cislunar situational awareness architecture design
   image: /logo.png
 permalink: /en/glossary/dynamics/cooperative-agent/
+wechatShare:
+  title: "Cislunar Space Guide | Cooperative Agent (CA)"
+  desc: "Detailed analysis of cooperative agent definition, its role in cislunar situational awareness architecture design, and interaction models with SSA architecture"
+  image: "/logo.png"
 ---
 
 # Cooperative Agent (Cooperative Agent, CA)

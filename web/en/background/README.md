@@ -3,6 +3,10 @@ permalink: /en/background/
 title: Background Knowledge
 description: Foundational theory, mathematical tools, and cross-disciplinary concepts for cislunar space research, complementing the technical glossary.
 keywords: Background Knowledge, Mathematical Tools, Celestial Mechanics, Perturbation Theory, Shooting Method, Symplectic Integrator, Optimal Control
+wechatShare:
+  title: "Cislunar Space Guide | Background Knowledge"
+  desc: "Foundational theory, mathematical tools, and cross-disciplinary concepts for cislunar space research, complementing the technical glossary."
+  image: "/logo.png"
 ---
 
 # Background Knowledge

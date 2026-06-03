@@ -16,6 +16,10 @@ twitter:
   description: An extension of the standard CR3BP model with low-thrust acceleration terms
   image: /logo.png
 permalink: /en/glossary/dynamics/cr3bp-lt/
+wechatShare:
+  title: "Cislunar Space Guide | CR3BP with Low-Thrust (CR3BP-LT)"
+  desc: "CR3BP-LT is an extension of the standard Circular Restricted Three-Body Problem model with low-thrust acceleration terms, used for studying cislunar orbit transfers under continuous low-thrust propulsion"
+  image: "/logo.png"
 ---
 
 # CR3BP with Low-Thrust (CR3BP-LT)

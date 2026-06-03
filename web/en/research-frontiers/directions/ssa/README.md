@@ -1,6 +1,10 @@
 ---
 title: Space Situational Awareness
 description: Cislunar space object surveillance, debris detection and situational awareness
+wechatShare:
+  title: "Cislunar Space Guide | Space Situational Awareness"
+  desc: "Cislunar space object surveillance, debris detection and situational awareness"
+  image: "/logo.png"
 ---
 
 # Space Situational Awareness

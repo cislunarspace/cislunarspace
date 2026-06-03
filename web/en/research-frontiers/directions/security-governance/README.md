@@ -1,6 +1,10 @@
 ---
 title: Security & Governance
 description: Cislunar security challenges, international law and global governance frameworks
+wechatShare:
+  title: "Cislunar Space Guide | Security & Governance"
+  desc: "Cislunar security challenges, international law and global governance frameworks"
+  image: "/logo.png"
 ---
 
 # Security & Governance

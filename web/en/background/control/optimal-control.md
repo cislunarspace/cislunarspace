@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/control/optimal-control/
+wechatShare:
+  title: "Cislunar Space Guide | Optimal Control"
+  desc: "Optimal control theory studies how to select control laws that optimize a performance index for a dynamical system, providing the theoretical foundation for orbital maneuver design and trajectory optimization."
+  image: "/logo.png"
 ---
 
 # Optimal Control

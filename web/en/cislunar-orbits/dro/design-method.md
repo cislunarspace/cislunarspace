@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/dro/design-method/
+wechatShare:
+  title: "Cislunar Space Guide | DRO Design Methods"
+  desc: "Initial condition search, Floquet modal analysis, ephemeris uplift, and orbit maintenance design for Distant Retrograde Orbits."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

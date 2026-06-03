@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/transfer/launch-windows/
+wechatShare:
+  title: "Cislunar Space Guide | Launch Window Analysis"
+  desc: "Formation mechanism of Earth-Moon transfer launch windows, window frequency, deviation cost, and introduction to planning tools."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

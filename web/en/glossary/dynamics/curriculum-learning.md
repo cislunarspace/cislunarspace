@@ -16,6 +16,10 @@ twitter:
   description: A progressive simple-to-complex training strategy in reinforcement learning
   image: /logo.png
 permalink: /en/glossary/dynamics/curriculum-learning/
+wechatShare:
+  title: "Cislunar Space Guide | Curriculum Learning"
+  desc: "Curriculum Learning is a training strategy that progressively builds agent capability through simple-to-complex task curricula, used for solving high-difficulty long-horizon tasks in reinforcement learning"
+  image: "/logo.png"
 ---
 
 # Curriculum Learning

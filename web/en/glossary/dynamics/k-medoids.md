@@ -16,6 +16,10 @@ twitter:
   description: Detailed analysis of K-Medoids clustering algorithm principles and application in cislunar SSA architecture clustering analysis
   image: /logo.png
 permalink: /en/glossary/dynamics/k-medoids/
+wechatShare:
+  title: "Cislunar Space Guide | K-Medoids Clustering (K-Medoids Clustering)"
+  desc: "Detailed analysis of K-Medoids clustering algorithm principles, differences from K-Means, and application in cislunar SSA architecture clustering analysis"
+  image: "/logo.png"
 ---
 
 # K-Medoids Clustering (K-Medoids Clustering)

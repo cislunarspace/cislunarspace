@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/math/symplectic-integrator/
+wechatShare:
+  title: "Cislunar Space Guide | Symplectic Integrator"
+  desc: "A symplectic integrator is a class of numerical integration methods that preserve the symplectic geometric structure (symplectic form) of Hamiltonian systems, maintaining energy and other conserved quantities without systematic drift over long-term integration."
+  image: "/logo.png"
 ---
 
 # Symplectic Integrator

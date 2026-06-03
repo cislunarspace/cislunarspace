@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/dro/applications/
+wechatShare:
+  title: "Cislunar Space Guide | DRO Engineering Applications"
+  desc: "Engineering applications of Distant Retrograde Orbit including contingency return trajectories, relay communications, formation flying, and ΔV budget analysis."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

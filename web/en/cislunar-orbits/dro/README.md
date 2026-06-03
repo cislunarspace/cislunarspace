@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/dro/
+wechatShare:
+  title: "Cislunar Space Guide | DRO (Distant Retrograde Orbit)"
+  desc: "Overview of DRO (Distant Retrograde Orbit): definition, dynamical background, comparison with NRHO, and primary mission applications."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

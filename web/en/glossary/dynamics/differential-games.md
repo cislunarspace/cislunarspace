@@ -16,6 +16,10 @@ twitter:
   description: Mathematical theory describing multi-party gaming problems in continuous dynamic systems, applied to spacecraft pursuit-evasion and guidance law design
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-games/
+wechatShare:
+  title: "Cislunar Space Guide | Differential Games (Differential Games)"
+  desc: "Differential games is a mathematical theory describing multi-party gaming problems in continuous dynamic systems, widely applied in spacecraft pursuit-evasion, economics, and military confrontation."
+  image: "/logo.png"
 ---
 
 # Differential Games (Differential Games)

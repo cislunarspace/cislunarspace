@@ -16,6 +16,10 @@ twitter:
   description: Discretizing continuous optimal control problems into NLPs for trajectory optimization
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-collocation/
+wechatShare:
+  title: "Cislunar Space Guide | Direct Collocation"
+  desc: "Direct Collocation is a trajectory optimization method that discretizes continuous optimal control problems into nonlinear programming problems for numerical solution, widely used in low-thrust transfer trajectory design"
+  image: "/logo.png"
 ---
 
 # Direct Collocation

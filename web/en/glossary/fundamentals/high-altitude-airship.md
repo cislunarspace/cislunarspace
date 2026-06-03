@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of High Altitude Airship (HAA) definitions, technical characteristics, typical programs, and current development status
   image: /logo.png
 permalink: /en/glossary/fundamentals/high-altitude-airship/
+wechatShare:
+  title: "Cislunar Space Guide | High Altitude Airship (HAA)"
+  desc: "A detailed analysis of High Altitude Airship (HAA) definitions, technical characteristics, typical programs, and current development status"
+  image: "/logo.png"
 ---
 
 # High Altitude Airship (HAA)

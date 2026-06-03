@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/nrho/gateway-cases/
+wechatShare:
+  title: "Cislunar Space Guide | Gateway Engineering Case Study"
+  desc: "NASA's Lunar Gateway NRHO orbit selection rationale, international cooperation framework, and cis-lunar transfer design."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of stratospheric airship definitions, structural characteristics, key technical challenges, and their central role in near-space applications
   image: /logo.png
 permalink: /en/glossary/fundamentals/stratospheric-airship/
+wechatShare:
+  title: "Cislunar Space Guide | Stratospheric Airship"
+  desc: "A detailed analysis of stratospheric airship definitions, structural characteristics, key technical challenges, and their central role in near-space applications"
+  image: "/logo.png"
 ---
 
 # Stratospheric Airship

@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of deep reinforcement learning principles, mainstream algorithms, and applications in stratospheric airship regional station-keeping control
   image: /logo.png
 permalink: /en/glossary/dynamics/deep-reinforcement-learning/
+wechatShare:
+  title: "Cislunar Space Guide | Deep Reinforcement Learning"
+  desc: "A detailed analysis of deep reinforcement learning principles, mainstream algorithms, and applications in stratospheric airship regional station-keeping control"
+  image: "/logo.png"
 ---
 
 # Deep Reinforcement Learning

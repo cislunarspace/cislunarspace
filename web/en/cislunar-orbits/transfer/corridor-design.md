@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/transfer/corridor-design/
+wechatShare:
+  title: "Cislunar Space Guide | Transfer Corridor Design"
+  desc: "Concepts of Earth-Moon transfer corridors, low-energy vs high-energy corridor differences, Pork-chop plot interpretation, and multi-objective optimization design."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

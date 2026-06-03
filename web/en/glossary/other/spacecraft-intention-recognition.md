@@ -16,6 +16,10 @@ twitter:
   description: Inferring the purpose of a target spacecraft from its orbital behavior and environmental context
   image: /logo.png
 permalink: /en/glossary/other/spacecraft-intention-recognition/
+wechatShare:
+  title: "Cislunar Space Guide | Spacecraft Intention Recognition"
+  desc: "Spacecraft intention recognition is the process of inferring the purpose or mission of a target spacecraft by observing its orbital behavior, carried devices, and environmental context."
+  image: "/logo.png"
 ---
 
 # Spacecraft Intention Recognition

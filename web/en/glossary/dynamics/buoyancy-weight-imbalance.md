@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of buoyancy-weight imbalance definitions, cause analysis, quantitative description, and active control strategies for stratospheric airships
   image: /logo.png
 permalink: /en/glossary/dynamics/buoyancy-weight-imbalance/
+wechatShare:
+  title: "Cislunar Space Guide | Buoyancy-weight Imbalance"
+  desc: "A detailed analysis of buoyancy-weight imbalance definitions, cause analysis, quantitative description, and active control strategies for stratospheric airships"
+  image: "/logo.png"
 ---
 
 # Buoyancy-weight Imbalance

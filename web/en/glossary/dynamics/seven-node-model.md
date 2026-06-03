@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of seven-node thermodynamic model establishment, node distribution, mathematical formulation, and applications in detailed stratospheric airship thermal analysis
   image: /logo.png
 permalink: /en/glossary/dynamics/seven-node-model/
+wechatShare:
+  title: "Cislunar Space Guide | Seven-node Model"
+  desc: "A detailed analysis of seven-node thermodynamic model establishment, node distribution, mathematical formulation, and applications in detailed stratospheric airship thermal analysis"
+  image: "/logo.png"
 ---
 
 # Seven-node Model

@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of six-degree-of-freedom motion equations for stratospheric airships, Newton-Euler equation derivation, and numerical solution methods
   image: /logo.png
 permalink: /en/glossary/dynamics/six-dof-motion-equations/
+wechatShare:
+  title: "Cislunar Space Guide | Six-DOF Motion Equations"
+  desc: "A detailed analysis of six-degree-of-freedom motion equations for stratospheric airships, Newton-Euler equation derivation, and numerical solution methods"
+  image: "/logo.png"
 ---
 
 # Six-DOF Motion Equations

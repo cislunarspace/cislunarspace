@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of backstepping sliding mode control principles, design procedures, and advantages in stratospheric airship attitude control applications
   image: /logo.png
 permalink: /en/glossary/dynamics/backstepping-sliding-mode-control/
+wechatShare:
+  title: "Cislunar Space Guide | Backstepping Sliding Mode Control"
+  desc: "A detailed analysis of backstepping sliding mode control principles, design procedures, and advantages in stratospheric airship attitude control applications"
+  image: "/logo.png"
 ---
 
 # Backstepping Sliding Mode Control

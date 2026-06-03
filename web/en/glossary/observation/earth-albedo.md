@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of earth albedo definitions, albedo distribution, calculation models, and heating effects on the bottom skin of stratospheric airships
   image: /logo.png
 permalink: /en/glossary/observation/earth-albedo/
+wechatShare:
+  title: "Cislunar Space Guide | Earth Albedo"
+  desc: "A detailed analysis of earth albedo definitions, albedo distribution, calculation models, and heating effects on the bottom skin of stratospheric airships"
+  image: "/logo.png"
 ---
 
 # Earth Albedo

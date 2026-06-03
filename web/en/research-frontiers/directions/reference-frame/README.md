@@ -1,6 +1,10 @@
 ---
 title: Spatiotemporal Reference & Measurement
 description: Cislunar spatiotemporal reference systems, time-frequency transfer and precision measurement
+wechatShare:
+  title: "Cislunar Space Guide | Spatiotemporal Reference & Measurement"
+  desc: "Cislunar spatiotemporal reference systems, time-frequency transfer and precision measurement"
+  image: "/logo.png"
 ---
 
 # Spatiotemporal Reference & Measurement

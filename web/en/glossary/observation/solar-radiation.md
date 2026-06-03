@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of solar radiation characteristics, spectral distribution, insolation models, and effects on stratospheric airship thermodynamics
   image: /logo.png
 permalink: /en/glossary/observation/solar-radiation/
+wechatShare:
+  title: "Cislunar Space Guide | Solar Radiation"
+  desc: "A detailed analysis of solar radiation characteristics, spectral distribution, insolation models, and effects on stratospheric airship thermodynamics"
+  image: "/logo.png"
 ---
 
 # Solar Radiation

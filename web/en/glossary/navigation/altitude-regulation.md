@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of altitude regulation definitions, control objectives, method classifications, and typical control law design for stratospheric airships
   image: /logo.png
 permalink: /en/glossary/navigation/altitude-regulation/
+wechatShare:
+  title: "Cislunar Space Guide | Altitude Regulation"
+  desc: "A detailed analysis of altitude regulation definitions, control objectives, method classifications, and typical control law design for stratospheric airships"
+  image: "/logo.png"
 ---
 
 # Altitude Regulation

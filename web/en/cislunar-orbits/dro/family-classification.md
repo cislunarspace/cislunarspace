@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/dro/family-classification/
+wechatShare:
+  title: "Cislunar Space Guide | DRO Family Classification"
+  desc: "L1/L2 classification, period-amplitude characteristics, bifurcation relations, and north-south symmetry of Distant Retrograde Orbits."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

@@ -16,6 +16,10 @@ twitter:
   description: Detailed analysis of A* search algorithm principles and its application in cislunar persistent detection corridor path search
   image: /logo.png
 permalink: /en/glossary/dynamics/a-star-search/
+wechatShare:
+  title: "Cislunar Space Guide | A* Search Algorithm (A* Search)"
+  desc: "Detailed analysis of the A* search algorithm's principles, applications in persistent detection corridor path search, and its advantages in cislunar trajectory planning"
+  image: "/logo.png"
 ---
 
 # A* Search Algorithm (A* Search)

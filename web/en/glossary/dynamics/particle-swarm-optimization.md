@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of particle swarm optimization principles, algorithm flow, parameter settings, and applications in stratospheric airship trajectory planning
   image: /logo.png
 permalink: /en/glossary/dynamics/particle-swarm-optimization/
+wechatShare:
+  title: "Cislunar Space Guide | Particle Swarm Optimization"
+  desc: "A detailed analysis of particle swarm optimization principles, algorithm flow, parameter settings, and applications in stratospheric airship trajectory planning"
+  image: "/logo.png"
 ---
 
 # Particle Swarm Optimization

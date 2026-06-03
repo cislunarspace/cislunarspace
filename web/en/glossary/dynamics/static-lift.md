@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of static lift definitions, physical principles, calculation formulas, and its central role in stratospheric airship design
   image: /logo.png
 permalink: /en/glossary/dynamics/static-lift/
+wechatShare:
+  title: "Cislunar Space Guide | Static Lift"
+  desc: "A detailed analysis of static lift definitions, physical principles, calculation formulas, and its central role in stratospheric airship design"
+  image: "/logo.png"
 ---
 
 # Static Lift

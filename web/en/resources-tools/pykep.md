@@ -3,6 +3,10 @@ title: pykep
 description: ESA interplanetary trajectory design library based on Galbio and related algorithms
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: "Cislunar Space Guide | pykep"
+  desc: "ESA interplanetary trajectory design library based on Galbio and related algorithms"
+  image: "/logo.png"
 ---
 
 ## Overview

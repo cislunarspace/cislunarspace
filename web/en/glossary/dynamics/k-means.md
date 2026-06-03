@@ -16,6 +16,10 @@ twitter:
   description: Detailed analysis of K-Means clustering algorithm principles and application in cislunar SSA architecture classification
   image: /logo.png
 permalink: /en/glossary/dynamics/k-means/
+wechatShare:
+  title: "Cislunar Space Guide | K-Means Clustering (K-Means Clustering)"
+  desc: "Detailed analysis of K-Means clustering algorithm principles, application in cislunar SSA architecture classification, and comparison with K-Medoids"
+  image: "/logo.png"
 ---
 
 # K-Means Clustering (K-Means Clustering)

@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/nrho/l2-nrho/
+wechatShare:
+  title: "Cislunar Space Guide | L2 Near-Rectilinear Halo Orbit"
+  desc: "Geometric characteristics, dynamic constraints, and farside communication applications of Earth-Moon L2 Near-Rectilinear Halo Orbit."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

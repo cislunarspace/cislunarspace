@@ -1,6 +1,10 @@
 ---
 title: Orbit Design & Optimization
 description: Design methods, optimization algorithms and applications for cislunar orbits
+wechatShare:
+  title: "Cislunar Space Guide | Orbit Design & Optimization"
+  desc: "Design methods, optimization algorithms and applications for cislunar orbits"
+  image: "/logo.png"
 ---
 
 # Orbit Design & Optimization

@@ -5,6 +5,10 @@ keywords: cislunar orbit parameterization, libration point orbits, object catalo
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-04-27
+wechatShare:
+  title: "Cislunar Space Guide | Orbit Parameter Characterization for Cislunar Space"
+  desc: "Representative works on orbit parameterization, object cataloging, and dynamical substitute models for cislunar libration points"
+  image: "/logo.png"
 ---
 
 > Author: [天疆说](https://blog.csdn.net/qq_33254264)

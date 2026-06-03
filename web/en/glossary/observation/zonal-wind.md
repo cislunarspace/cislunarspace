@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of zonal wind definitions, formation mechanisms, seasonal variation characteristics, and their effects on stratospheric airship trajectory planning
   image: /logo.png
 permalink: /en/glossary/observation/zonal-wind/
+wechatShare:
+  title: "Cislunar Space Guide | Zonal Wind"
+  desc: "A detailed analysis of zonal wind definitions, formation mechanisms, seasonal variation characteristics, and their effects on stratospheric airship trajectory planning"
+  image: "/logo.png"
 ---
 
 # Zonal Wind

@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/nrho/design-parameters/
+wechatShare:
+  title: "Cislunar Space Guide | NRHO Design Parameters"
+  desc: "Typical design parameters for NRHO orbits: period, amplitude, inclination constraints, initial condition selection, and sensitivity analysis."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

@@ -16,6 +16,10 @@ twitter:
   description: A deep reinforcement learning framework integrating directional cross-attention into Actor-Critic policies
   image: /logo.png
 permalink: /en/glossary/dynamics/a2ppo/
+wechatShare:
+  title: "Cislunar Space Guide | A2PPO (Attention-Augmented Proximal Policy Optimization)"
+  desc: "A2PPO is a deep reinforcement learning framework integrating directional cross-attention into Actor-Critic policies for low-thrust trajectory optimization in cislunar space"
+  image: "/logo.png"
 ---
 
 # A2PPO (Attention-Augmented Proximal Policy Optimization)

@@ -3,6 +3,10 @@ title: STK
 description: AGI (Ansys) commercial space simulation platform with advanced analysis and visualization
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: "Cislunar Space Guide | STK"
+  desc: "AGI (Ansys) commercial space simulation platform with advanced analysis and visualization"
+  image: "/logo.png"
 ---
 
 ## Overview

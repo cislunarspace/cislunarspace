@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of thermodynamic model establishment methods for stratospheric airships, comparison of two-node and seven-node models, and thermo-mechanical coupling analysis
   image: /logo.png
 permalink: /en/glossary/dynamics/thermodynamic-model/
+wechatShare:
+  title: "Cislunar Space Guide | Thermodynamic Model"
+  desc: "A detailed analysis of thermodynamic model establishment methods for stratospheric airships, comparison of two-node and seven-node models, and thermo-mechanical coupling analysis"
+  image: "/logo.png"
 ---
 
 # Thermodynamic Model

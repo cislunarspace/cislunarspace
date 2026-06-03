@@ -3,6 +3,10 @@ title: Digital Lunar Cloud Platform
 description: Chinese Academy of Sciences lunar exploration data cloud platform
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: "Cislunar Space Guide | Digital Lunar Cloud Platform"
+  desc: "Chinese Academy of Sciences lunar exploration data cloud platform"
+  image: "/logo.png"
 ---
 
 ## Overview

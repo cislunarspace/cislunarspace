@@ -6,6 +6,10 @@ author: 天疆说
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/mechanics/perturbation/
+wechatShare:
+  title: "Cislunar Space Guide | Perturbation Theory"
+  desc: "Perturbation theory studies the motion of celestial bodies under perturbations (third-body gravity, atmospheric drag, solar radiation pressure, etc.) on top of the primary body's gravitational attraction."
+  image: "/logo.png"
 ---
 
 # Perturbation Theory

@@ -6,6 +6,10 @@ author: CislunarSpace
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/transfer/ballistic-capture/
+wechatShare:
+  title: "Cislunar Space Guide | Ballistic Capture"
+  desc: "Principles of ballistic capture, comparison with powered capture, its role in low-energy transfers, and analysis of advantages and limitations."
+  image: "/logo.png"
 ---
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)

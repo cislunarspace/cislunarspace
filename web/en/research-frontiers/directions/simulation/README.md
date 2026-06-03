@@ -1,6 +1,10 @@
 ---
 title: Simulation Systems
 description: Cislunar mission simulation system design, intelligent simulation and orbit design simulation
+wechatShare:
+  title: "Cislunar Space Guide | Simulation Systems"
+  desc: "Cislunar mission simulation system design, intelligent simulation and orbit design simulation"
+  image: "/logo.png"
 ---
 
 # Simulation Systems

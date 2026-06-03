@@ -16,6 +16,10 @@ twitter:
   description: Parameter-efficient LLM fine-tuning via learnable soft prompt tokens
   image: /logo.png
 permalink: /en/glossary/other/prompt-tuning/
+wechatShare:
+  title: "Cislunar Space Guide | Prompt Tuning (P-tuning)"
+  desc: "Parameter-efficient fine-tuning technique using learnable soft prompt tokens"
+  image: "/logo.png"
 ---
 
 # Prompt Tuning (P-tuning)

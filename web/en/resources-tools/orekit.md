@@ -3,6 +3,10 @@ title: Orekit
 description: ESA open-source flight dynamics library, Java-based (Python bindings available)
 date: 2026-04-26
 lastUpdated: 2026-04-26
+wechatShare:
+  title: "Cislunar Space Guide | Orekit"
+  desc: "ESA open-source flight dynamics library, Java-based (Python bindings available)"
+  image: "/logo.png"
 ---
 
 ## Overview

@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of Gaussian process regression principles, kernel function selection, hyperparameter optimization, and applications in wind prediction and uncertainty quantification
   image: /logo.png
 permalink: /en/glossary/dynamics/gaussian-process-regression/
+wechatShare:
+  title: "Cislunar Space Guide | Gaussian Process Regression"
+  desc: "A detailed analysis of Gaussian process regression principles, kernel function selection, hyperparameter optimization, and applications in wind prediction and uncertainty quantification"
+  image: "/logo.png"
 ---
 
 # Gaussian Process Regression

@@ -16,6 +16,10 @@ twitter:
   description: Detailed analysis of KD-Tree data structure principles and application in cislunar detectable region neighbor queries
   image: /logo.png
 permalink: /en/glossary/dynamics/kdtrees/
+wechatShare:
+  title: "Cislunar Space Guide | KD-Tree (KD-Tree)"
+  desc: "Detailed analysis of KD-Tree data structure principles, application in cislunar detectable region neighbor queries, and efficiency advantages"
+  image: "/logo.png"
 ---
 
 # KD-Tree (KD-Tree)

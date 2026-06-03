@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of quasi-zero wind layer definitions, altitude range, formation mechanisms, and utilization strategies for stratospheric airship regional station-keeping
   image: /logo.png
 permalink: /en/glossary/observation/quasi-zero-wind-layer/
+wechatShare:
+  title: "Cislunar Space Guide | Quasi-zero Wind Layer"
+  desc: "A detailed analysis of quasi-zero wind layer definitions, altitude range, formation mechanisms, and utilization strategies for stratospheric airship regional station-keeping"
+  image: "/logo.png"
 ---
 
 # Quasi-zero Wind Layer

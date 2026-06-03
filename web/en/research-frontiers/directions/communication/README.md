@@ -1,6 +1,10 @@
 ---
 title: Communication & Information Network
 description: Cislunar communication network architecture, protocol design and information transmission
+wechatShare:
+  title: "Cislunar Space Guide | Communication & Information Network"
+  desc: "Cislunar communication network architecture, protocol design and information transmission"
+  image: "/logo.png"
 ---
 
 # Communication & Information Network

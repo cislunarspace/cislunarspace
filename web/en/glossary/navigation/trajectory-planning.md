@@ -16,6 +16,10 @@ twitter:
   description: A detailed analysis of trajectory planning definitions, objective functions, constraint conditions, and typical algorithms for stratospheric airships
   image: /logo.png
 permalink: /en/glossary/navigation/trajectory-planning/
+wechatShare:
+  title: "Cislunar Space Guide | Trajectory Planning"
+  desc: "A detailed analysis of trajectory planning definitions, objective functions, constraint conditions, and typical algorithms for stratospheric airships"
+  image: "/logo.png"
 ---
 
 # Trajectory Planning
