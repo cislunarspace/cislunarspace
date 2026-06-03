@@ -13,6 +13,7 @@ lastUpdated: 2026-06-03
 
 | Date | Title |
 |------|-------|
+| 6-02 | [Northeastern US Boom on May 30 Was a Meteor Explosion Equal to 300 Tons of TNT, NASA Confirms](./2026-06-02-ne-meteor-nasa-confirms/) |
 | 6-03 | [TESS Uncovers a Rare Coplanar Triple Star System That Triggers Triple Eclipses](./2026-06-03-tic-295741342-triple-eclipse/) |
 | 6-02 | [SpaceX Wins $4.16 Billion Space Force Contract to Build a Space-Based Air-Tracking Constellation](./2026-06-02-spacex-sb-amti-contract/) |
 | 6-02 | [Twenty-Year Radio Mystery Solved: Astronomers Pin Long-Period Radio Bursts on a 'Vampire' White Dwarf Feeding on Its Companion](./2026-06-02-vampire-star-radio-signals/) |
