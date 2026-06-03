@@ -9,6 +9,10 @@
 | **中国航天科技集团（CASC）** | `http://www.spacechina.com/` | 新闻页面有配图，可直接下载 |
 | **新华社 / 央视网** | `https://www.news.cn/` / `https://news.cctv.com/` | 优先从 CNSA 获取同一事件的官方配图 |
 | **腾讯新闻 / QQ.com** | `https://news.qq.com/` | 备用于 SpaceX 任务等国际新闻的中文报道（Everyday Astronaut 403 后的备选渠道） |
+| **36 氪** | `https://36kr.com/` | 科技/创投角度的中国商业航天报道；首页含 AI/航天频道，搜索关键词"商业航天""卫星" |
+| **澎湃新闻（The Paper）** | `https://www.thepaper.cn/` | 时政/科技综合；航天政策、天文事件常以专题形式出现 |
+| **网易科技** | `https://tech.163.com/` | 中文综合科技门户；含航天频道，承接商业航天公司新闻稿 |
+| **IT 之家** | `https://www.ithome.com/` | 中文科技新闻聚合；发射任务、SpaceX/Starship 进度快讯 |
 
 ## 中国商业航天公司新闻源
 
@@ -20,6 +24,8 @@
 | **星河动力（Galactic Energy）** | 谷神星系列 | 微信公众号 |
 | **东方空间（Orienspace）** | 引力系列 | 微信公众号 |
 | **中科宇航（CAS Space）** | 力箭系列 | 微信公众号 |
+| **时空道宇（Geespace）** | 吉利卫星 | 官网新闻、`https://www.geespace.com/` |
+| **航天科工（CASIC）** | 快舟系列 | 官网新闻、`http://www.casic.com.cn/` |
 
 ## 国际航天新闻源
 
@@ -40,6 +46,13 @@
 | **JAXA** | `https://www.jaxa.jp/` | 新闻配图可下载 |
 | **KASA（韩国）** | `https://www.kasa.kr/` | 新闻配图 |
 | **ISRO** | `https://www.isro.gov.in/` | 新闻配图可下载 |
+| **Sierra Space** | `https://www.sierraspace.com/` | Dream Chaser / LIFE 充气舱；新闻页有配图 |
+| **Boeing** | `https://www.boeing.com/features` | Starliner 进展、太空发射系统承包商动态 |
+| **Astra** | `https://astra.com/news/` | Rocket 4 / 太空运输服务；新闻页有配图 |
+| **Impulse Space** | `https://www.impulsespace.com/` | Mira / Helios 上面级、轨道转移服务；2026 年 6 月已交付 SpaceX Rideshare 任务 |
+| **Ars Technica** | `https://arstechnica.com/` | 英文科技媒体，spaceflight 子板块；优质深稿、监管/政策分析 |
+| **The Verge** | `https://www.theverge.com/space` | 英文科技媒体，space 板块；产品视角（Starship/Starliner/蓝色起源） |
+| **Space Explored** | `https://www.spaceexplored.com/` | 英文小型独立站；SpaceX/Starship 进度追踪，9th 出航等任务快讯 |
 
 ## 可靠 API 来源（2026年4月实测）
 
@@ -84,6 +97,9 @@ url = 'https://launchschedule.net/launches/?search=Starlink+17-36'
 - CNSA（连接被重置，需多次重试）
 - TheSpaceDevs API（HTTP 35 / IncompleteRead 超时，**完全不可用**）
 - **Everyday Astronaut**（2026-05-25 起 HTTP 403，已转用 space.com / qq.com 备份）
+- **Relativity Space**（403）、**Firefly Aerospace**（403）、**Stoke Space**（403）、**Payload Space**（403）—— 2026-06 复测仍 block
+- **Galactic Energy / Deep Blue Aerospace** 等中国二级商业航天站：DNS 解析失败或 SSL 过期，需用搜索/聚合渠道替代
+- **Northrop Grumman** `news.northropgrumman.com`（DNS 解析超时，2026-06 实测），改用其母公司 `northropgrumman.com` 首页或第三方转载
 
 ## 降级策略总结
 
@@ -94,3 +110,5 @@ url = 'https://launchschedule.net/launches/?search=Starlink+17-36'
 | 中国航天新闻 | CNSA 索引页 | 新华社/央视 |
 | 图片 | 原文 og:image | NASA Image API |
 | SpaceX 任务 | Everyday Astronaut（403） | space.com RSS + 腾讯/qq.com 中文备份 |
+| 国际新势力动态 | 公司官网（Sierra Space/Boeing/Astra/Impulse） | Ars Technica / The Verge / Space Explored 转译 |
+| 中国商业航天早期动态 | 36Kr / 网易科技 / 澎湃 | 微信公众号（需登录）|
