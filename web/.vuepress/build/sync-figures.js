@@ -1,12 +1,12 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { walkDir, DEFAULT_EXCLUDED } from './utils/markdown-walker.ts'
+import { walkDir, DEFAULT_EXCLUDED } from '../utils/markdown-walker.ts'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const webDir = path.join(__dirname, '..')
-const distDir = path.join(__dirname, 'dist')
+const webDir = path.join(__dirname, '..', '..')
+const distDir = path.join(webDir, '.vuepress', 'dist')
 
 if (!fs.existsSync(distDir)) {
   console.error('dist/ directory not found. Run vuepress build first.')

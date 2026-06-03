@@ -1,7 +1,7 @@
 /**
  * TranslationGapIntake — derives gap statistics from GlossaryScan.
  */
-import type { GlossaryScan, TranslationGapIntake } from '../sidebar-types.js'
+import type { GlossaryScan, TranslationGapIntake } from '../sidebar/types.ts'
 
 export function buildTranslationGapIntake(scan: GlossaryScan): TranslationGapIntake {
   const { missing } = scan.zh

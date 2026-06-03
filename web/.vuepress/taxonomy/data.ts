@@ -4,7 +4,7 @@
  *
  * Each top-level node has a fully-explicit `id` (no derivation), so the
  * data is a plain flat array consumed by `defineTaxonomy()` together
- * with the nested section / page tree in `sidebar-data.ts`.
+ * with the nested section / page tree in `sidebar/data.ts`.
  *
  * Authoring rules:
  *   - Every `id` is unique within the file. Sibling order is the only
@@ -15,7 +15,7 @@
  *   - Order ranges are by kind for validator sibling-order uniqueness:
  *     navbar subtree 0–9 999, wayfinding 10 000–19 999, glossary
  *     20 000–29 999, news-category 30 000–39 999. Section / page nodes
- *     (in `sidebar-data.ts`) live in the same module after `defineTaxonomy`
+ *     (in `sidebar/data.ts`) live in the same module after `defineTaxonomy`
  *     flattens the nested literal.
  *   - `news-category` nodes must carry `meta.color` as a 7-char hex
  *     (`#RRGGBB`); the validator enforces it.

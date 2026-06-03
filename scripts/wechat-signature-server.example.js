@@ -8,7 +8,7 @@
      WECHAT_APP_ID=your_app_id
      WECHAT_APP_SECRET=your_app_secret
      PORT=3000
-  3) node .vuepress/wechat-signature-server.example.js
+  3) node scripts/wechat-signature-server.example.js
 */
 
 const express = require("express");

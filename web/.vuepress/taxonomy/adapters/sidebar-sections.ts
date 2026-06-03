@@ -5,7 +5,7 @@
  * in the same `taxonomy` instance, partitioned by `kind`).
  *
  * Replaces the inline `buildSectionChildren` / `buildSectionSidebar`
- * helpers that used to live in `gen-sidebar.ts`. Behaviour is preserved
+ * helpers that used to live in `sidebar/config.ts`. Behaviour is preserved
  * byte-for-byte (snapshot-verified by tests).
  */
 import { taxonomy } from '..'
@@ -83,7 +83,7 @@ function pickCollapsible(node: TaxonomyNode): boolean | undefined {
 
 /**
  * Build the VueSidebarItem tree for one section (e.g. `cislunar-orbits`)
- * in one locale. Returns the same shape that `gen-sidebar.ts` used to
+ * in one locale. Returns the same shape that `sidebar/config.ts` used to
  * produce inline.
  */
 export function buildSectionSidebar(sectionId: NodeId, locale: Locale): VueSidebarItem {
@@ -106,7 +106,7 @@ export function buildSectionSidebar(sectionId: NodeId, locale: Locale): VueSideb
 
 /**
  * Build a map of section-id → per-locale VueSidebarItem for every
- * `kind: 'section'` node in the taxonomy. Convenience for `gen-sidebar.ts`.
+ * `kind: 'section'` node in the taxonomy. Convenience for `sidebar/config.ts`.
  */
 export function buildAllSectionSidebars(): Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> {
   const result: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {}

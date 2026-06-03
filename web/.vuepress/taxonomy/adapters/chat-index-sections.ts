@@ -11,7 +11,7 @@
  */
 import { taxonomy } from '..'
 import type { Locale, NodeId, TaxonomyNode } from '../types'
-import type { ChatIndexCategory, ChatIndexEntry } from '../../sidebar-types'
+import type { ChatIndexCategory, ChatIndexEntry } from '../../sidebar/types.ts'
 
 function collectEntries(parentId: NodeId, locale: Locale, entries: ChatIndexEntry[]): void {
   for (const node of taxonomy.children(parentId, locale)) {

@@ -58,7 +58,7 @@ A pure function that derives a site-surface-specific output shape from the taxon
 
 ### Intake
 
-The existing pipeline stage name (under `web/.vuepress/intakes/`) for build-time data collection. Intakes consume the filesystem scan and produce typed intermediates (e.g. `GlossaryScan`, `ChatIndexIntake`, `TranslationGapIntake`). In the unified-taxonomy world, intakes read from adapters rather than from `glossary-meta.ts` or `sidebar-data.ts` directly.
+The existing pipeline stage name (under `web/.vuepress/intakes/`) for build-time data collection. Intakes consume the filesystem scan and produce typed intermediates (e.g. `GlossaryScan`, `ChatIndexIntake`, `TranslationGapIntake`). In the unified-taxonomy world, intakes read from adapters rather than from `glossary-meta.ts` or `sidebar/data.ts` directly.
 
 ### NodeKind
 
@@ -71,11 +71,11 @@ The four structural kinds inside the sidebar tree.
 - **Section** — top-level entry of a sidebar (e.g. `cislunar-orbits`, `research-frontiers`).
 - **Group** — collapsible cluster inside a section (e.g. `nrho`, `dro`).
 - **Page** — leaf content page.
-- **Index** — the README at a section/group root; shares its parent's path (`slug === ''` in the current `sidebar-data.ts`).
+- **Index** — the README at a section/group root; shares its parent's path (`slug === ''` in the current `sidebar/data.ts`).
 
 ### Sidebar source of truth
 
-`web/.vuepress/taxonomy/data.ts` (target). Today this responsibility is split across `sidebar-data.ts`, `navbar.ts`, `navbar-en.ts`, `glossary-meta.ts`, `category-meta.json`, and inline arrays in `wayfinding-intake.ts`. Migration plan in ADR-0001.
+`web/.vuepress/taxonomy/data.ts` (target). Today this responsibility is split across `sidebar/data.ts`, `navbar.ts`, `navbar-en.ts`, `glossary-meta.ts`, `category-meta.json`, and inline arrays in `wayfinding-intake.ts`. Migration plan in ADR-0001.
 
 ### Space News article
 

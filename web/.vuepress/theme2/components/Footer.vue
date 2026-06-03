@@ -66,7 +66,7 @@
 </template>
 
 <script setup lang="ts">
-import footerConfig from '../../footer'
+import footerConfig from '../data/footer'
 import { computed } from 'vue'
 import { useIsEn } from '../composables/useIsEn'
 

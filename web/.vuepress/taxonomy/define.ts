@@ -36,7 +36,7 @@
 import type { Locale, NodeId, TaxonomyModule, TaxonomyNode } from './types'
 import { createTaxonomyModule } from './module'
 import { validateTaxonomy } from './validate'
-import type { SidebarEntry, SidebarSection } from '../sidebar-data'
+import type { SidebarEntry, SidebarSection } from '../sidebar/data.ts'
 
 export interface DefineTaxonomyInput {
   flatNodes: readonly TaxonomyNode[]

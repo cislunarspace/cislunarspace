@@ -3,13 +3,13 @@
   "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "gen-sidebar": "tsx .vuepress/gen-sidebar.ts",
+    "gen-sidebar": "tsx .vuepress/generate.ts",
     "docs:dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
     "docs:build": "npm run gen-sidebar && node --max-old-space-size=8192 ./node_modules/vuepress/bin/vuepress.js build . && npm run sync-figures",
-    "docs:build:verify-dist": "tsx .vuepress/verify-dist.ts",
-    "docs:build:measure": "tsx .vuepress/measure-build.ts",
-    "docs:build:parallel": "npm run gen-sidebar && tsx .vuepress/sharded-build.ts",
-    "sync-figures": "tsx .vuepress/sync-figures.js",
+    "docs:build:verify-dist": "tsx .vuepress/build/verify-dist.ts",
+    "docs:build:measure": "tsx .vuepress/build/measure-build.ts",
+    "docs:build:parallel": "npm run gen-sidebar && tsx .vuepress/build/sharded-build.ts",
+    "sync-figures": "tsx .vuepress/build/sync-figures.js",
     "test": "vitest run",
     "test:watch": "vitest"
   },

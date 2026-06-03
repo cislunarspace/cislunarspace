@@ -1,4 +1,4 @@
-// web/.vuepress/sharded-build.ts
+// web/.vuepress/build/sharded-build.ts
 // Multi-process parallel full build for VuePress.
 //
 // Strategy:
@@ -13,10 +13,10 @@
 //   5. Run sync-figures and verify-dist; exit non-zero on any FAIL.
 //
 // Usage:
-//   tsx .vuepress/sharded-build.ts                   # default BUILD_SHARDS=2
-//   BUILD_SHARDS=4 tsx .vuepress/sharded-build.ts
-//   tsx .vuepress/sharded-build.ts --shards 4
-//   tsx .vuepress/sharded-build.ts --label myrun
+//   tsx .vuepress/build/sharded-build.ts                   # default BUILD_SHARDS=2
+//   BUILD_SHARDS=4 tsx .vuepress/build/sharded-build.ts
+//   tsx .vuepress/build/sharded-build.ts --shards 4
+//   tsx .vuepress/build/sharded-build.ts --label myrun
 //
 // Exit codes:
 //   0  build succeeded and verify-dist passed
@@ -32,9 +32,9 @@ import os from 'node:os'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const webDir = path.join(__dirname, '..')
+const webDir = path.join(__dirname, '..', '..')
 const repoRoot = path.join(webDir, '..')
-const shardBuildMjs = path.join(__dirname, 'shard-build.mjs')
+const shardBuildMjs = path.join(__dirname, '..', 'shard-build.mjs')
 
 interface CliArgs {
   label: string
@@ -71,8 +71,8 @@ function printHelp(): void {
   console.log(`sharded-build — N-way parallel VuePress build
 
 Usage:
-  tsx .vuepress/sharded-build.ts [--shards N] [--label text]
-  BUILD_SHARDS=4 tsx .vuepress/sharded-build.ts
+  tsx .vuepress/build/sharded-build.ts [--shards N] [--label text]
+  BUILD_SHARDS=4 tsx .vuepress/build/sharded-build.ts
 
 Environment:
   BUILD_SHARDS     number of shards (default 2)
@@ -221,7 +221,7 @@ function regenerateSitemap(distDir: string): void {
 // ── Main ───────────────────────────────────────────────────────────────────
 
 function shardDestDir(index: number): string {
-  return path.join(__dirname, '.shard', `shard-${index}-dest`)
+  return path.join(webDir, '.vuepress', '.shard', `shard-${index}-dest`)
 }
 
 async function main(): Promise<void> {
@@ -238,7 +238,7 @@ async function main(): Promise<void> {
   console.log(`\n[sharded-build] shards=${args.shards} label=${args.label} cores=${cores}`)
 
   // Clean up any previous shard dest dirs.
-  const shardDir = path.join(__dirname, '.shard')
+  const shardDir = path.join(webDir, '.vuepress', '.shard')
   if (existsSync(shardDir)) rmSync(shardDir, { recursive: true, force: true })
 
   // Discover months.

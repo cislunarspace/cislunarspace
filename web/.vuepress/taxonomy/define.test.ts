@@ -8,7 +8,7 @@
 import { describe, expect, it } from 'vitest'
 import { defineTaxonomy } from './define'
 import { TaxonomyValidationError } from './validate'
-import type { SidebarEntry, SidebarSection } from '../sidebar-data'
+import type { SidebarEntry, SidebarSection } from '../sidebar/data.ts'
 import type { TaxonomyNode } from './types'
 
 function flat(nodes: readonly TaxonomyNode[]): { id: string; kind: string; path: { zh: string | null; en: string | null } }[] {

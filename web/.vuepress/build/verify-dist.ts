@@ -1,10 +1,10 @@
-// web/.vuepress/verify-dist.ts
+// web/.vuepress/build/verify-dist.ts
 // Read-only verification of the VuePress dist/ output.
 //
 // Usage:
-//   tsx .vuepress/verify-dist.ts                        # verify dist/ relative to web/
-//   tsx .vuepress/verify-dist.ts --dist <path>          # verify a different dist dir
-//   tsx .vuepress/verify-dist.ts --compare <old> <new>  # diff two dist dirs (read-only)
+//   tsx .vuepress/build/verify-dist.ts                        # verify dist/ relative to web/
+//   tsx .vuepress/build/verify-dist.ts --dist <path>          # verify a different dist dir
+//   tsx .vuepress/build/verify-dist.ts --compare <old> <new>  # diff two dist dirs (read-only)
 //
 // Exit codes:
 //   0  all checks passed
@@ -18,7 +18,7 @@ import { fileURLToPath } from 'node:url'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const webDir = path.join(__dirname, '..')
+const webDir = path.join(__dirname, '..', '..')
 
 // ── CLI parsing ──────────────────────────────────────────────────────────────
 
@@ -55,7 +55,7 @@ function printHelp(): void {
   console.log(`verify-dist — read-only VuePress dist/ verification
 
 Usage:
-  tsx .vuepress/verify-dist.ts [options]
+  tsx .vuepress/build/verify-dist.ts [options]
 
 Options:
   --dist <path>           Verify a different dist directory (default: web/.vuepress/dist)

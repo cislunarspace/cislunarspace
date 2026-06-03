@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import extraSideBarConfig from '../../extraSideBar.ts'
+import extraSideBarConfig from '../data/wechat-widget.ts'
 
 const list = ref(extraSideBarConfig)
 

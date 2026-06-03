@@ -17,7 +17,7 @@ All commands run from `web/`:
 ```bash
 npm run docs:dev      # gen-sidebar → vuepress dev server (host 0.0.0.0)
 npm run docs:build    # gen-sidebar → vuepress build → sync-figures
-npm run gen-sidebar   # regenerate sidebar.auto.json + space-news-articles.json
+npm run gen-sidebar   # regenerate all JSON artifacts (sidebar, articles, AI, glossary)
 npm run sync-figures  # copy figures/ into dist/ (required for images to display)
 ```
 
@@ -31,35 +31,100 @@ Requires Node.js 18+ (CI and cron use v22.22.2).
 
 - `web/.vuepress/config.ts` — main config (locales, plugins, Vite bundler, KaTeX, proxy to DeepSeek API at `/api/ai`)
 - `web/.vuepress/navbar.ts` / `navbar-en.ts` — top navigation
-- `web/.vuepress/sidebar-data.ts` — manual sidebar section definitions (imports `sidebar.auto.json` for Space News)
-- `web/.vuepress/sidebar-transforms.ts` / `sidebar-types.ts` — sidebar helper functions and types
+- `web/.vuepress/og-meta-plugin.ts` — Open Graph meta tag plugin
+- `web/.vuepress/page-metadata.ts` — page metadata utilities
 
-### Custom Theme
+### Sidebar Module (`web/.vuepress/sidebar/`)
 
-`web/.vuepress/theme2/` extends `@vuepress/theme-default`:
-- `index.ts` — overrides Layout.vue via alias
+All sidebar-related data, types, and runtime config construction:
+
+- `data.ts` — manual sidebar section definitions for knowledge-base sections
+- `types.ts` — unified sidebar type re-exports (from `intake.ts` + `runtime.ts`)
+- `intake.ts` — build-time sidebar types (VueSidebarItem, GlossaryScan, ChatIndexEntry, etc.)
+- `runtime.ts` — runtime sidebar types (Article, SidebarData, SidebarYear, etc.)
+- `config.ts` — runtime VuePress sidebar config builder (called by `config.ts`)
+
+### Build-Time Generators (`web/.vuepress/generators/`)
+
+One generator per output family. Orchestrated by `generate.ts` (the `npm run gen-sidebar` entry point):
+
+- `space-news.ts` — generates `sidebar.auto.json`, `space-news-articles.json`, `space-news-sidebar-data.json`
+- `ai-chat.ts` — generates `ai-chat-context.json` and `ai-chat-index.json`
+- `glossary.ts` — generates `sidebar-glossary.auto.json` and translation-gap reports
+
+### Build Tooling (`web/.vuepress/build/`)
+
+Build infrastructure scripts (no content knowledge):
+
+- `sync-figures.js` — copies `figures/` dirs into `dist/`
+- `sharded-build.ts` — N-way parallel VuePress build
+- `measure-build.ts` — build performance measurement
+- `verify-dist.ts` — dist verification checks
+
+### Taxonomy Module (`web/.vuepress/taxonomy/`)
+
+Unified taxonomy module. See [ADR-0001](docs/adr/0001-unified-taxonomy-module.md).
+
+- `types.ts` — TaxonomyNode, NodeId, LocalePath, NodeKind definitions
+- `data.ts` — navbar, wayfinding, glossary-category, news-category nodes
+- `define.ts` — flattens sidebar/data.ts + flatNodes into unified TaxonomyModule
+- `adapters/` — sidebar-sections, wayfinding, navbar, glossary-categories, news-categories, chat-index-sections
+
+### Intakes (`web/.vuepress/intakes/`)
+
+Build-time data collection:
+
+- `glossary-intake.ts` — scans glossary markdown files
+- `chat-index-intake.ts` — builds AI chat index from taxonomy
+- `translation-gap-intake.ts` — identifies missing glossary translations
+
+### Custom Theme (`web/.vuepress/theme2/`)
+
+Extends `@vuepress/theme-default`:
+
+- `index.ts` — overrides Layout.vue and VPSidebar.vue via alias
 - `layouts/` — `Layout`, `SpaceNewsArticle`, `SpaceNewsHome`, `SpaceNewsArchive`, `AiChatLayout`, `DialecticLayout`
 - `components/` — `SpaceNewsHome`, `SpaceNewsArchive`, `AiChat`, `SpaceNewsSidebar`, `Dialectic`, `Forum`, `OrbitSimLab`, etc.
+- `data/` — theme display data (`wechat-widget.ts`, `footer.ts`)
 
-### Content Structure
+### Content Framework
 
-Bilingual content with Chinese at root and English under `en/`:
-- `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, `web/research-frontiers/`, `web/glossary/`, `web/resources-tools/`, `web/satellite-simulation/`, `web/background/`
-- `web/en/` — mirrors Chinese structure for English locale
+The site has four content families with different management models:
 
-### Space News (航天动态)
+**1. Knowledge-base sections**
+- Source directories: `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, `web/research-frontiers/`, `web/background/`, `web/resources-tools/`, `web/satellite-simulation/`
+- Navigation source: `web/.vuepress/sidebar/data.ts` (manual definitions)
+- Generated via: `web/.vuepress/sidebar/config.ts` → taxonomy adapters
+- Bilingual: Chinese at root, English under `web/en/` (same directory names)
 
-Articles live in `web/space-news/YYYY/MM/` (zh) and `web/en/space-news/YYYY/MM/` (en):
-- **Naming:** `YYYY-MM-DD-slug.md` (same slug for zh/en, no `-en` suffix)
-- **Layout:** always `layout: SpaceNewsArticle`
-- **Images:** stored in `figures/YYYY-MM-DD-slug/` next to the `.md`, referenced as `./figures/...`
-- **Category:** single value or YAML array (`category: [spacex, commercial]`)
-- **Draft:** `draft: true` hides from homepage and sidebar
+**2. Glossary**
+- Source directories: `web/glossary/`, `web/en/glossary/` (11 topic subdirectories)
+- Categories: defined as taxonomy `glossary-category` nodes in `taxonomy/data.ts`
+- Generated via: `web/.vuepress/generators/glossary.ts` → `sidebar-glossary.auto.json`
+- Bilingual: zh entries are authoritative; en gaps tracked by `translation-gap-intake.ts`
+
+**3. Space News**
+- Source directories: `web/space-news/YYYY/MM/` (zh), `web/en/space-news/YYYY/MM/` (en)
+- Naming: `YYYY-MM-DD-slug.md` (same slug for both locales)
+- Layout: always `layout: SpaceNewsArticle`
+- Images: `figures/YYYY-MM-DD-slug/` next to the `.md`, referenced as `./figures/...`
+- Category: single value or YAML array (`category: [spacex, commercial]`)
+- Draft: `draft: true` hides from generation
+- Generated via: `web/.vuepress/generators/space-news.ts` → 3 JSON artifacts
+
+**4. Special surfaces**
+- Source: standalone `.md` files at `web/` root (`ai-chat.md`, `dialectic.md`, `forum.md`)
+- Rendering: custom layouts and components in `theme2/`
+- Bilingual: `ai-chat.md` and `forum.md` have en counterparts; `dialectic.md` is zh-only
 
 ### Auto-Generated Files (DO NOT EDIT)
 
-- `web/.vuepress/sidebar.auto.json` — generated by `gen-sidebar.ts`
-- `web/.vuepress/space-news-articles.json` — article metadata for SpaceNewsHome component
+- `web/.vuepress/sidebar.auto.json` — Space News sidebar tree
+- `web/.vuepress/space-news-articles.json` — Space News article metadata
+- `web/.vuepress/space-news-sidebar-data.json` — Space News custom sidebar data
+- `web/.vuepress/sidebar-glossary.auto.json` — glossary scan data
+- `web/.vuepress/public/ai-chat-index.json` — AI chat route index
+- `web/.vuepress/public/ai-chat-context.json` — AI chat context corpus
 
 To regenerate: run `npm run gen-sidebar` or the full `npm run docs:build`.
 
@@ -67,9 +132,9 @@ To regenerate: run `npm run gen-sidebar` or the full `npm run docs:build`.
 
 `npm run docs:build` runs three steps in sequence. **Never skip `sync-figures`** — images won't appear in dist:
 
-1. `gen-sidebar.ts` — scans md files, generates sidebar + articles JSON
+1. `generate.ts` (`npm run gen-sidebar`) — generates all JSON artifacts
 2. `vuepress build` — builds static site
-3. `sync-figures.js` — copies `figures/` dirs into `dist/`
+3. `sync-figures.js` (`npm run sync-figures`) — copies `figures/` dirs into `dist/`
 
 ## Deployment
 
@@ -81,9 +146,15 @@ Nginx serves from `web/.vuepress/dist/` with SPA fallback. Config at `web/deploy
 - Full workflow documented in `scripts/space-news-publish/SKILL.md`
 - Adding a new year/month: create `README.md` index, then re-run `npm run gen-sidebar`
 
-## Content Conventions
+## Maintenance Rules
 
-- Sidebar sections for glossary and other top-level areas are defined manually in `sidebar-data.ts`
+- **Do not edit auto-generated JSON files** — regenerate them via `npm run gen-sidebar`
+- **Add knowledge-base section/page** — update `web/.vuepress/sidebar/data.ts`
+- **Add Space News article** — create `YYYY-MM-DD-slug.md` in both `web/space-news/YYYY/MM/` and `web/en/space-news/YYYY/MM/`
+- **Add glossary entry** — create markdown in `web/glossary/<category>/`; categories defined in `taxonomy/data.ts`
+- **Add theme display data** — place in `web/.vuepress/theme2/data/`
+- **Add build tooling** — place in `web/.vuepress/build/`
+- **Add VuePress plugin** — place in `web/.vuepress/` root (only 2 files; subdirectory not yet justified)
 - Math rendering uses KaTeX via `@traptitech/markdown-it-katex`
 
 ## Agent skills

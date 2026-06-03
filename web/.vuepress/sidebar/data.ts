@@ -1,6 +1,6 @@
 /**
  * Non-glossary sidebar section definitions — single source of truth for both locales.
- * Glossary sections are auto-generated from the filesystem by build-sidebar.ts.
+ * Glossary sections are auto-generated from the filesystem by `intakes/glossary-intake.ts`.
  */
 
 export interface SidebarEntry {

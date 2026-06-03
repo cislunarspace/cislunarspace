@@ -1,13 +1,13 @@
 /**
- * Tests for gen-sidebar.ts pipeline functions.
- * Run with: vitest run gen-sidebar.test.ts
+ * Tests for generate.ts pipeline functions.
+ * Run with: vitest run generate.test.ts
  */
 import { describe, it, expect, vi, afterEach } from 'vitest'
 import path from 'path'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
-import type { Article, SidebarLatestItem, SidebarCategory, SidebarMonth, SidebarYear, SidebarData } from './sidebar-types'
-import { filesToArticles, buildSidebarData } from './sidebar-transforms'
+import type { Article, SidebarLatestItem, SidebarCategory, SidebarMonth, SidebarYear, SidebarData } from './sidebar/types.ts'
+import { filesToArticles, buildSidebarData } from './generators/space-news.ts'
 
 afterEach(() => {
   vi.restoreAllMocks()
@@ -15,7 +15,7 @@ afterEach(() => {
 })
 
 // We'll import the functions we need to test.
-// Since gen-sidebar.ts runs inline script-style, we test individual
+// Since generate.ts runs inline script-style, we test individual
 // helper functions by importing them directly from the source.
 
 // ── Public import behavior ──────────────────────────────────────────────────
@@ -24,7 +24,7 @@ describe('gen-sidebar command generation', () => {
   it('does not write artifacts when imported', async () => {
     const writeFileSync = vi.spyOn(fs, 'writeFileSync').mockImplementation(() => {})
 
-    await import('./gen-sidebar.ts')
+    await import('./generate.ts')
 
     expect(writeFileSync).not.toHaveBeenCalled()
   })
@@ -41,7 +41,7 @@ describe('gen-sidebar command generation', () => {
       }
       return originalStatSync(filePath)
     }) as typeof fs.statSync)
-    const { runGenerationCli } = await import('./gen-sidebar.ts')
+    const { runGenerationCli } = await import('./generate.ts')
 
     runGenerationCli()
 

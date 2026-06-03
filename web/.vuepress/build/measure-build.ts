@@ -1,11 +1,11 @@
-// web/.vuepress/measure-build.ts
+// web/.vuepress/build/measure-build.ts
 // Read-only measurement wrapper around the standard build pipeline.
 //
 // Usage:
-//   tsx .vuepress/measure-build.ts                       # measure current build
-//   tsx .vuepress/measure-build.ts --label my-run        # tag the log files
-//   tsx .vuepress/measure-build.ts --skip-build          # only measure dist stats
-//   tsx .vuepress/measure-build.ts --no-clean            # do not clear dist first
+//   tsx .vuepress/build/measure-build.ts                       # measure current build
+//   tsx .vuepress/build/measure-build.ts --label my-run        # tag the log files
+//   tsx .vuepress/build/measure-build.ts --skip-build          # only measure dist stats
+//   tsx .vuepress/build/measure-build.ts --no-clean            # do not clear dist first
 //
 // This script does NOT change the build. It runs the same three commands as
 // `docs:build` (gen-sidebar, vuepress build, sync-figures), records per-phase
@@ -34,7 +34,7 @@ import { fileURLToPath } from 'node:url'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const webDir = path.join(__dirname, '..')
+const webDir = path.join(__dirname, '..', '..')
 const repoRoot = path.join(webDir, '..')
 const logsDir = path.join(repoRoot, 'logs', 'build-speed')
 const distDir = path.join(webDir, '.vuepress', 'dist')
@@ -88,7 +88,7 @@ function printHelp(): void {
   console.log(`measure-build — run docs:build with per-phase timing
 
 Usage:
-  tsx .vuepress/measure-build.ts [options]
+  tsx .vuepress/build/measure-build.ts [options]
 
 Options:
   --label <text>       Tag the output files (default: measure)

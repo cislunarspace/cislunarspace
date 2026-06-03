@@ -6,13 +6,13 @@
  *
  * The taxonomy is unified: navbar / wayfinding / glossary / news-category
  * nodes from `data.ts` and section / page / group / index nodes from
- * `sidebar-data.ts` are flattened together by `defineTaxonomy` into a
+ * `sidebar/data.ts` are flattened together by `defineTaxonomy` into a
  * single `TaxonomyModule` instance. Adapters query it by `kind` or
  * `children(...)` as needed.
  */
 import { defineTaxonomy } from './define'
 import { flatTaxonomyNodes, NAVBAR_ROOT_ID, WAYFINDING_ROOT_ID, GLOSSARY_ROOT_ID } from './data'
-import { sidebarSections } from '../sidebar-data'
+import { sidebarSections } from '../sidebar/data.ts'
 
 const { taxonomy } = defineTaxonomy({
   flatNodes: flatTaxonomyNodes,

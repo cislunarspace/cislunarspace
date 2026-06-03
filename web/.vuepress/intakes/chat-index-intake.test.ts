@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { buildChatIndexIntake } from './chat-index-intake'
 import { glossaryCategories } from '../taxonomy/adapters/glossary-categories'
-import type { GlossaryScan } from '../sidebar-types'
+import type { GlossaryScan } from '../sidebar/types.ts'
 
 const fundamentals = glossaryCategories.find(c => c.slug === 'fundamentals')!
 

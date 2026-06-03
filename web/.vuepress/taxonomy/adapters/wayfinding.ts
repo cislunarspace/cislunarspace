@@ -20,7 +20,7 @@
 import { WAYFINDING_ROOT_ID, taxonomy } from '..'
 import type { Locale, TaxonomyNode } from '../types'
 
-/** Mirrors `SidebarIntake.VueSidebarItem` (see sidebar-types.ts). */
+/** Mirrors `SidebarIntake.VueSidebarItem` (see sidebar/types.ts). */
 export interface VueSidebarItem {
   text: string
   link?: string
