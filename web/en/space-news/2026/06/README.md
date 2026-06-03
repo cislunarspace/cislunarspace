@@ -13,6 +13,7 @@ lastUpdated: 2026-06-03
 
 | Date | Title |
 |------|-------|
+| 6-03 | [NASA Officially Ends MAVEN Mars Mission: After 6 Months of Silence NASA Gives Up Recovery, Mars Orbiter Fleet Shrinks to Two](./2026-06-03-nasa-maven-mission-end/) |
 | 6-03 | [Starlink 10-43 Scrubbed for Weather: SpaceX Cape Launch Slips to June 4 Window](./2026-06-03-starlink-10-43-scrub/) |
 | 6-02 | [Northeastern US Boom on May 30 Was a Meteor Explosion Equal to 300 Tons of TNT, NASA Confirms](./2026-06-02-ne-meteor-nasa-confirms/) |
 | 6-03 | [TESS Uncovers a Rare Coplanar Triple Star System That Triggers Triple Eclipses](./2026-06-03-tic-295741342-triple-eclipse/) |
