@@ -17,6 +17,9 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-02 | [SpaceX 获美国太空军 41.6 亿美元 SB-AMTI 合同 打造天基移动目标指示星座](./2026-06-02-spacex-sb-amti-contract/) |
+| 6-02 | [二十年谜题告破：天文学家锁定神秘长周期射电信号源 确认为「白矮星+红矮星」共生双星](./2026-06-02-vampire-star-radio-signals/) |
+| 6-02 | [系外行星首度证实拥有磁场：热木星风速反常「刹车」揭开 7 颗气态巨行星磁层](./2026-06-02-hot-jupiter-magnetic-field/) |
 | 6-03 | [Blue Origin 放话年底前复飞新格伦：LC-36 推进剂储罐完好，拖车-竖立器遭弃用改走垂直装配](./2026-06-03-blue-origin-resume-new-glenn/) |
 | 6-02 | [中国长征十二号B火箭完成首次飞行：千帆卫星入轨，发射未事先通告](./2026-06-02-long-march-12b-maiden-flight/) |
 | 6-02 | [Impulse Space 拿下 5 亿美元 D 轮融资：前 SpaceX 元老 Tom Mueller 要让「太空里的卡车」跑起来](./2026-06-02-impulse-space-500m-funding/) |

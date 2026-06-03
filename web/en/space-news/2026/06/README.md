@@ -13,6 +13,9 @@ lastUpdated: 2026-06-03
 
 | Date | Title |
 |------|-------|
+| 6-02 | [SpaceX Wins $4.16 Billion Space Force Contract to Build a Space-Based Air-Tracking Constellation](./2026-06-02-spacex-sb-amti-contract/) |
+| 6-02 | [Twenty-Year Radio Mystery Solved: Astronomers Pin Long-Period Radio Bursts on a 'Vampire' White Dwarf Feeding on Its Companion](./2026-06-02-vampire-star-radio-signals/) |
+| 6-02 | [Exoplanets Have Magnetic Fields After All: Hot-Jupiter Wind Speeds Reveal the First Direct Measurement of Alien Magnetospheres](./2026-06-02-hot-jupiter-magnetic-field/) |
 | 6-03 | [Blue Origin Vows to Resume New Glenn Flights by Year's End: LC-36 Propellant Tanks Intact, Transporter-Erector Scrapped for Vertical Integration](./2026-06-03-blue-origin-resume-new-glenn/) |
 | 6-02 | [China's Long March 12B Completes Maiden Flight: Qianfan Satellites Reach Orbit, No Advance Warning Issued](./2026-06-02-long-march-12b-maiden-flight/) |
 | 6-02 | [Impulse Space Raises $500 Million Series D: SpaceX's First Hire Tom Mueller Wants to Make 'Trucks in Space' Routine](./2026-06-02-impulse-space-500m-funding/) |
