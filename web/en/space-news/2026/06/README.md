@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiangshuo
 date: 2026-06-03
-lastUpdated: 2026-06-03
+lastUpdated: 2026-06-04
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-03
 
 | Date | Title |
 |------|-------|
+| 6-03 | [Roman Space Telescope's Primary Mirror Passes Its Final Inspection, Clearing the Way for an Aug. 30 Launch](./2026-06-03-roman-space-telescope-mirror-check/) |
 | 6-03 | [Sun Unleashes 3 Major Solar Flares in 24 Hours: M9.3, M7.9, X1 From Region 4455 Trigger G3 Geomagnetic Storm Watch](./2026-06-03-sun-x1-flare-region-4455-cmes/) |
 | 6-03 | [NASA Officially Ends MAVEN Mars Mission: After 6 Months of Silence NASA Gives Up Recovery, Mars Orbiter Fleet Shrinks to Two](./2026-06-03-nasa-maven-mission-end/) |
 | 6-03 | [Starlink 10-43 Scrubbed for Weather: SpaceX Cape Launch Slips to June 4 Window](./2026-06-03-starlink-10-43-scrub/) |

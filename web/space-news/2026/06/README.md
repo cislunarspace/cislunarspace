@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-03
-lastUpdated: 2026-06-03
+lastUpdated: 2026-06-04
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-03 | [罗曼空间望远镜主镜终检通过：8 月底发射窗口打开，最后一程启程在即](./2026-06-03-roman-space-telescope-mirror-check/) |
 | 6-03 | [太阳24小时内连爆三次强耀斑：M9.3、M7.9、X1 接踵而至，NOAA 升 G3 地磁暴预警](./2026-06-03-sun-x1-flare-region-4455-cmes/) |
 | 6-03 | [NASA 正式宣告 MAVEN 火星探测器任务终结：失联 6 个月后探测器失而不得，NASA 火星轨道器群缩编为两台](./2026-06-03-nasa-maven-mission-end/) |
 | 6-03 | [Starlink 10-43 因天气取消：SpaceX 卡角发射延后至 6 月 4 日窗口](./2026-06-03-starlink-10-43-scrub/) |
