@@ -47,12 +47,22 @@ PHASE1_RC=$?
 echo "[$(date -Iseconds)] phase 1 exit=$PHASE1_RC"
 fi
 
-# --- Phase 2: full docs:build on local (16Gi RAM, safe) ---
+# --- Phase 2: sharded parallel build on local (32 cores, 125Gi RAM) ---
+# N=4 measured 4m10s vs 4m51s baseline (1.17x speedup, 4.28 cores utilized).
+# N=8+ offers no further gain — the ~714 non-space-news pages dominate each shard.
+# sharded-build.ts internally runs sync-figures + verify-dist, exits non-zero on FAIL.
 cd "$WEB" || { echo "FATAL: cd $WEB failed"; exit 1; }
-echo "[$(date -Iseconds)] phase 2: npm run docs:build"
-NODE_OPTIONS='--max-old-space-size=4096' npm run docs:build 2>&1
+echo "[$(date -Iseconds)] phase 2: npm run docs:build:parallel (BUILD_SHARDS=${BUILD_SHARDS:-4})"
+BUILD_SHARDS="${BUILD_SHARDS:-4}" npm run docs:build:parallel 2>&1
 PHASE2_RC=$?
 echo "[$(date -Iseconds)] phase 2 exit=$PHASE2_RC"
+
+# If build+verify failed, refuse to push to server. dist is incomplete.
+if [ "$PHASE2_RC" -ne 0 ]; then
+    echo "[$(date -Iseconds)] FATAL: phase 2 failed (rc=$PHASE2_RC), aborting before rsync"
+    echo "=== Space News update ABORTED at phase 2 at $(date -Iseconds) ==="
+    exit 1
+fi
 
 # --- Phase 3: commit + push generated content to remote ---
 cd "$REPO" || exit 1
@@ -62,7 +72,9 @@ git add web/space-news/ web/en/space-news/ \
 
 if ! git diff --cached --quiet; then
     git commit -m "Update space news — $(date -u '+%Y-%m-%d %H:%M UTC')" >/dev/null
-    GIT_HTTP_VERSION=HTTP/1.1 git push gitee master 2>&1
+    # Push to origin (GitHub in this env; gitee is configured on the remote
+    # build server, not here). GIT_HTTP_VERSION=1.1 avoids HTTP/2 stalls.
+    GIT_HTTP_VERSION=HTTP/1.1 git push origin master 2>&1
     PHASE3_RC=$?
 else
     echo "[$(date -Iseconds)] phase 3: nothing to commit"
