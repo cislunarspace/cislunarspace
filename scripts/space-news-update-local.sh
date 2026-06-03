@@ -35,8 +35,8 @@ else
     echo "[$(date -Iseconds)] phase 1: hermes chat -q ..."
     hermes chat -q "执行 Space News 定期更新。
 
-时间窗口：最近 1 小时。
-严格按照 $REPO/scripts/space-news-publish/SKILL.md 操作，特别是「自动化执行流程」章节。
+时间窗口：最近 24-48 小时（覆盖当前与前一天，弥补单次遗漏）。
+严格按照 $REPO/scripts/space-news-publish/SKILL.md 全部章节操作。
 完成后汇报新增稿件数量。
 
 如果没有值得报道的新闻，简短说明即可。" \
