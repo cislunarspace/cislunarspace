@@ -13,6 +13,7 @@ lastUpdated: 2026-06-03
 
 | Date | Title |
 |------|-------|
+| 6-03 | [Starlink 10-43 Scrubbed for Weather: SpaceX Cape Launch Slips to June 4 Window](./2026-06-03-starlink-10-43-scrub/) |
 | 6-02 | [Northeastern US Boom on May 30 Was a Meteor Explosion Equal to 300 Tons of TNT, NASA Confirms](./2026-06-02-ne-meteor-nasa-confirms/) |
 | 6-03 | [TESS Uncovers a Rare Coplanar Triple Star System That Triggers Triple Eclipses](./2026-06-03-tic-295741342-triple-eclipse/) |
 | 6-03 | [Mars Samples Should Be Quarantined on the Moon First, Scientists Argue in New Policy Paper](./2026-06-03-mars-samples-lunar-biocontainment/) |
@@ -33,6 +34,7 @@ lastUpdated: 2026-06-03
 
 ## Update Log
 
+- 2026-06-03: Added live coverage of the Starlink 10-43 weather scrub on June 3 (Cape SLC-40 launch called off at 7:24 a.m. EDT; 45th Weather Squadron pegged acceptable weather at only 30%, with two of three launch-weather rules violated; next window opens 4:00 a.m. EDT on June 4, B1090 on its 12th flight targeting the ASOG drone ship; SFN 6/3)
 - 2026-06-03: Added policy paper published online first in Springer Ambio on May 28, 2026: STAR Laboratories director Frederick Moxley and McGill University invasion biologist Anthony Ricciardi propose a dedicated extraterrestrial biocontainment facility on the lunar surface, with all samples from Mars, asteroids, and icy moons required to pass through robotic handling and certification on the moon before being allowed to enter Earth's biosphere; the paper calls out the lack of explicit planetary protection procedures in both NASA's Artemis lunar base architecture and the China-Russia led ILRS, and uses the documented mutation of Enterobacter bugandensis strains aboard the ISS as a real-world case (space.com 6/3 coverage)
 - 2026-06-03: Added Blue Origin CEO Dave Limp June 2 X post with LC-36 damage assessment (propellant tanks + water tower intact, support tower repairable in place, transporter-erector scrapped for vertical integration), targeting year-end 2026 return to flight (SFN 6/3)
 - 2026-06-03: Added China's Long March 12B (CZ-12B) maiden launch coverage (4:40 AM EDT 6/1 liftoff, no advance airspace/maritime notice per ICAO/IMO standard, Qianfan constellation satellites to orbit; Scientific American / People's Daily / Xinhua / Ars Technica / Live Science / Space.com June 1-2); added Impulse Space $500M Series D coverage (June 2 announcement, 137 Ventures + Banner VC co-led, cumulative funding >$1B; founded by SpaceX's first engineer Tom Mueller; Mira has flown 3 times, Helios kick stage scheduled for 2027 debut)

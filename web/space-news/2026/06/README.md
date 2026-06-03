@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-03 | [Starlink 10-43 因天气取消：SpaceX 卡角发射延后至 6 月 4 日窗口](./2026-06-03-starlink-10-43-scrub/) |
 | 6-02 | [美国东北部 5 月 30 日巨响系流星爆炸：NASA 估计能量约 300 吨 TNT 当量](./2026-06-02-ne-meteor-nasa-confirms/) |
 | 6-03 | [TESS 发现三恒星共面系统 TIC 295741342 触发罕见三星互食](./2026-06-03-tic-295741342-triple-eclipse/) |
 | 6-03 | [火星样品该不该先送月球？两位科学家呼吁在月面建地球外生物隔离设施](./2026-06-03-mars-samples-lunar-biocontainment/) |
@@ -37,6 +38,7 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-03: 新增 Starlink 10-43 任务 6/3 因天气取消的现场报道（卡角 SLC-40 上午 7:24 EDT 取消，45 中队仅 30% 可接受概率，三条天气规则中两条被触发；下一窗口 6/4 04:00 EDT，B1090 第 12 次飞行，目标 ASOG 无人船；SFN 6/3）
 - 2026-06-03: 新增 5/28 发表于 Springer Ambio 的政策论文：STAR Laboratories 主管 Frederick Moxley 与麦吉尔大学入侵生物学专家 Anthony Ricciardi 提议在月面建设地球外生物隔离设施，火星/小行星/冰卫星样品须先在月面通过机器人系统隔离、检测、确认无活性后方可入境；论文直指 NASA Artemis 与中俄 ILRS 月球基地计划均未公开行星保护方案，并以 ISS 上 Enterobacter bugandensis 突变菌株为实证（space.com 6/3 报道）
 - 2026-06-03: 新增 Blue Origin CEO Dave Limp 6/2 X 帖文披露 LC-36 损伤评估（推进剂储罐+水塔完好，支撑塔可原地修复，拖车-竖立器遭弃用改走垂直装配），目标 2026 年底前复飞新格伦（SFN 6/3）
 - 2026-06-03: 新增中国长征十二号B（CZ-12B）运载火箭首飞报道（6/1 4:40 AM EDT 升空，未按 ICAO/IMO 惯例事先发布空域/海事通告，千帆星座卫星入轨；Scientific American/People's Daily/Xinhua/Ars Technica/Live Science/Space.com 6/1-6/2）；新增 Impulse Space 5 亿美元 D 轮融资报道（6/2 宣布，137 Ventures + Banner VC 共同领投，累计融资 >10 亿美元；前 SpaceX 首位工程师 Tom Mueller 创办；Mira 已 3 次入轨，Helios kick stage 计划 2027 首飞）
