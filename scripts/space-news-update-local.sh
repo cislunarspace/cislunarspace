@@ -83,18 +83,23 @@ fi
 echo "[$(date -Iseconds)] phase 3 exit=$PHASE3_RC"
 
 # --- Phase 4: rsync dist/ to remote server (must use domain, not IP) ---
-echo "[$(date -Iseconds)] phase 4: rsync dist to server"
-***REMOVED*** -p '***REMOVED***.' rsync -avz --compress-level=9 \
+# Use SSH key (thinkstation.pem). IdentitiesOnly=yes prevents ssh-agent from
+# offering other keys that would also be tried and rejected.
+REMOTE_KEY="${REMOTE_KEY:-/home/ouyangjiahong/.ssh/thinkstation.pem}"
+REMOTE_DEST="${REMOTE_DEST:-/home/ubuntu/cislunarspace/}"
+RSYNC_SSH="ssh -i $REMOTE_KEY -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o ConnectTimeout=30 -o ServerAliveInterval=15 -o ServerAliveCountMax=6"
+echo "[$(date -Iseconds)] phase 4: rsync dist to server (key=$REMOTE_KEY dest=$REMOTE_DEST)"
+rsync -avz --compress-level=6 \
     --delete \
-    -e 'ssh -o StrictHostKeyChecking=no -o ConnectTimeout=30' \
+    -e "$RSYNC_SSH" \
     "$WEB/.vuepress/dist/" \
-    ubuntu@cislunarspace.cn:/var/www/cislunarspace/dist/ 2>&1
+    "ubuntu@cislunarspace.cn:$REMOTE_DEST" 2>&1
 PHASE4_RC=$?
 echo "[$(date -Iseconds)] phase 4 rsync exit=$PHASE4_RC"
 
 # --- Phase 5: fix dist perms (nginx www-data needs read) ---
-***REMOVED*** -p '***REMOVED***.' ssh -o StrictHostKeyChecking=no -o ConnectTimeout=15 \
-    ubuntu@cislunarspace.cn 'sudo chmod -R 755 /var/www/cislunarspace/dist/' 2>&1
+ssh -i "$REMOTE_KEY" -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o ConnectTimeout=15 \
+    ubuntu@cislunarspace.cn "sudo chmod -R 755 $REMOTE_DEST && sudo chmod o+x /home/ubuntu" 2>&1
 PHASE5_RC=$?
 echo "[$(date -Iseconds)] phase 5 chmod exit=$PHASE5_RC"
 

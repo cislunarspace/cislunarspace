@@ -1,7 +1,7 @@
 {
   "apiEndpoint": "/api/ai/v1/chat/completions",
-  "model": "deepseek-chat",
-  "routerModel": "deepseek-chat",
+  "model": "deepseek-v4-pro",
+  "routerModel": "deepseek-v4-pro",
   "temperature": 0.7,
   "routerTemperature": 0.2,
   "stream": true,
