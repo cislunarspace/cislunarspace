@@ -103,3 +103,5 @@ out
 .yarn/install-state.gz
 
 /.minimax.superpowers/
+/.claude/
+/.openclaw/
