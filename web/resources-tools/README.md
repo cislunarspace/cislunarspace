@@ -19,10 +19,10 @@ wechatShare:
 
 | 工具 | 说明 |
 |------|------|
-| [GMAT](./gmat/) | NASA 开源通用任务分析工具 |
-| [STK](./stk/) | AGI（Ansys）商业仿真平台 |
-| [ATK](./atk/) | 国防科大国产航天任务工具箱（4.0） |
-| [Cesium](./cesium/) | 开源三维地球可视化引擎 |
+| [GMAT](https://sourceforge.net/projects/gmat/) | NASA 开源通用任务分析工具 |
+| STK | AGI（Ansys）商业仿真平台 |
+| [ATK](https://www.osredm.com/atknudt/atk/about) | 国防科大国产航天任务工具箱（4.0） |
+| [Cesium](https://cesium.com/) | 开源三维地球可视化引擎 |
 
 ## 核心算法库
 
@@ -30,19 +30,20 @@ wechatShare:
 
 | 工具 | 说明 |
 |------|------|
-| [e2m2e](./e2m2e/) | 地月空间转移轨道设计库（CR3BP） |
-| [scipy](./scipy/) | Python 科学计算库 |
-| [r2s2](./r2s2/) | 地月空间时空坐标转换库 |
-| [Orekit](./orekit/) | ESA 开源飞行动力学库（Java） |
-| [poliastro](./poliastro/) | Python 天体力学库（已归档） |
-| [Basilisk](./basilisk/) | JPL 航天器动力学仿真框架 |
-| [pykep](./pykep/) | ESA 行星际轨迹设计库 |
+| [e2m2e](https://github.com/cislunarspace/e2m2e) | 地月空间转移轨道设计库（CR3BP） |
+| [scipy](https://github.com/scipy/scipy) | Python 科学计算库 |
+| [r2s2](https://github.com/r2s2-astro/r2s2) | 地月空间时空坐标转换库 |
+| [Orekit](https://github.com/CS-SI/Orekit) | ESA 开源飞行动力学库（Java） |
+| [poliastro](https://github.com/poliastro/poliastro) | Python 天体力学库（已归档） |
+| [pykep](https://github.com/esa/pykep) | ESA 行星际轨迹设计库 |
 
 ## 数据资源
 
 | 资源 | 说明 |
 |------|------|
-| [数据集](./datasets/) | JPL星历、月球重力场模型、空间环境参数等 |
+| 数据集 | JPL星历、月球重力场模型、空间环境参数等 |
+
+> 待补充...
 
 ## AI与云平台
 
@@ -50,6 +51,4 @@ wechatShare:
 
 | 工具 | 说明 |
 |------|------|
-| [数字月球云平台](./digital-lunar/) | 中科院地化所月球探测数据云平台 |
-| [月球科学多模态大模型 V2.0](./llm/) | 月球撞击坑识别 AI 大模型 |
-| [月球与行星数据发布系统](./naoc-data/) | 中科院国家天文台行星科学数据门户 |
+| 数字月球云平台 | 中科院地化所月球探测数据云平台 |
