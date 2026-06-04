@@ -14,8 +14,7 @@
 
 ---
 
-🛰️ [**航天动态**](https://cislunarspace.cn/space-news/) — 每 3 小时追踪全球航天新闻
-🔭 [**卫星轨道仿真**](https://cislunarspace.cn/satellite-simulation/) — 交互式轨道教学平台
+🛰️ [**航天动态**](https://cislunarspace.cn/space-news/) — 追踪全球航天新闻
 🤖 [**AI 问答**](https://cislunarspace.cn/ai-chat) — 智能助手辅助学习
 
 ---

@@ -123,6 +123,15 @@ export default defineUserConfig({
   bundler: viteBundler({
     viteOptions: {
       server: {
+        watch: {
+          // Avoid ENOSPC: exclude VuePress-generated dirs from Vite's file watcher
+          ignored: [
+            '**/.vuepress/dist/**',
+            '**/.vuepress/.shard/**',
+            '**/.vuepress/.cache/**',
+            '**/.vuepress/.temp/**',
+          ],
+        },
         proxy: {
           '/api/ai': {
             target: 'https://api.deepseek.com',
