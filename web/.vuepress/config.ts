@@ -11,6 +11,8 @@ import navbar from './navbar.ts'
 import navbarEn from './navbar-en.ts'
 import { buildSidebarConfigs } from './sidebar/config.ts'
 import ogMetaPlugin from './og-meta-plugin.ts'
+import { citePlugin } from './cite-plugin.ts'
+import { loadBibliography } from './cite-plugin.ts'
 
 import mk from '@traptitech/markdown-it-katex'
 
@@ -187,6 +189,14 @@ export default defineUserConfig({
 
   plugins: [
     rawContentPlugin,
+    {
+      name: 'vuepress-plugin-cite',
+      extendsMarkdown: (md) => {
+        const bibPath = path.join(__configDir, 'public', 'bibliography.json')
+        const bibData = loadBibliography(bibPath)
+        citePlugin(md, { bibliographyData: bibData })
+      },
+    },
     katexPlugin,
     ogMetaPlugin,
     googleAnalyticsPlugin({ id: 'G-0PLJ56MK80' }),

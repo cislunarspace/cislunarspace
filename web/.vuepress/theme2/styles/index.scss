@@ -930,3 +930,34 @@ html[data-theme='dark'] .vp-sidebar-children .vp-sidebar-children .vp-sidebar-ch
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* ---- 参考文献引用 ---- */
+.cite-ref {
+  color: var(--vp-c-accent);
+  text-decoration: none;
+  border-bottom: none;
+  cursor: pointer;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.cite-ref:hover {
+  border-bottom: 1px solid var(--vp-c-accent);
+}
+
+.cite-missing {
+  color: #ef4444;
+}
+
+html[data-theme='dark'] .cite-missing {
+  color: #f87171;
+}
+
+/* ---- 参考文献页面高亮 ---- */
+.references-item.cite-highlight {
+  background-color: rgba(250, 240, 170, 0.5);
+  transition: background-color 2s ease-out;
+}
+
+html[data-theme='dark'] .references-item.cite-highlight {
+  background-color: rgba(250, 240, 170, 0.15);
+}

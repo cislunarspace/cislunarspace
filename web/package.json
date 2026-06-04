@@ -16,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@traptitech/markdown-it-katex": "^3.6.0",
+    "@vitest/ui": "^3.1.4",
     "@vuepress/bundler-vite": "2.0.0-rc.27",
     "@vuepress/plugin-back-to-top": "2.0.0-rc.126",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.126",
@@ -26,17 +27,19 @@
     "@vuepress/plugin-sitemap": "2.0.0-rc.126",
     "@vuepress/theme-default": "2.0.0-rc.126",
     "dotenv": "^17.4.2",
+    "happy-dom": "^18.0.1",
     "katex": "^0.16.33",
     "sass-embedded": "^1.87.0",
+    "tsx": "^4.19.4",
+    "vitest": "^3.1.4",
     "vue": "^3.5.0",
     "vuepress": "2.0.0-rc.27",
-    "vuepress-plugin-code-copy": "^1.0.6",
-    "vitest": "^3.1.4",
-    "happy-dom": "^18.0.1",
-    "@vitest/ui": "^3.1.4",
-    "tsx": "^4.19.4"
+    "vuepress-plugin-code-copy": "^1.0.6"
   },
   "dependencies": {
+    "@citation-js/plugin-bibtex": "^0.7.21",
+    "@citation-js/plugin-csl": "^0.7.22",
+    "citation-js": "^0.7.22",
     "lodash-es": "^4.17.21",
     "turndown": "^7.2.4",
     "xlsx": "^0.18.5"

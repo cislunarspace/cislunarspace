@@ -1,6 +1,7 @@
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { generateAiChatArtifacts } from './generators/ai-chat.ts'
+import { generateBibliographyArtifacts } from './generators/bibliography.ts'
 import { generateGlossaryArtifacts } from './generators/glossary.ts'
 import { generateSpaceNewsArtifacts } from './generators/space-news.ts'
 import { walkSiteMarkdown } from './utils/markdown-walker.ts'
@@ -14,6 +15,7 @@ export function runGenerationCli(): void {
   generateSpaceNewsArtifacts(allFiles, webRoot, __dirname)
   const glossaryScan = generateGlossaryArtifacts(allFiles, __dirname)
   generateAiChatArtifacts(allFiles, glossaryScan, __dirname)
+  generateBibliographyArtifacts(allFiles, webRoot, __dirname)
 }
 
 const isMain =

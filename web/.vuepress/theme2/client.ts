@@ -15,6 +15,7 @@ import AiChat from './components/AiChat.vue'
 import Dialectic from './components/Dialectic.vue'
 import Forum from './components/Forum.vue'
 import OrbitSimLab from './components/OrbitSimLab.vue'
+import ReferencesList from './components/ReferencesList.vue'
 import type { PageData } from './utils/types'
 import { normalizePageMetadata } from '../page-metadata'
 import { updateOgMeta } from './composables/useOgMeta'
@@ -37,6 +38,7 @@ export default defineClientConfig({
     app.component('Dialectic', Dialectic)
     app.component('Forum', Forum)
     app.component('OrbitSimLab', OrbitSimLab)
+    app.component('ReferencesList', ReferencesList)
   },
   setup() {
     const router = useRouter()
