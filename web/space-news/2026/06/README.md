@@ -3,7 +3,7 @@ title: 航天动态 · 2026 年 6 月
 description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
-date: 2026-06-03
+date: 2026-06-04
 lastUpdated: 2026-06-04
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-03 | [原始黑洞或许能「变」成白洞：宾州州立新研究给出最小质量阈值](./2026-06-03-black-holes-white-holes-penn-state/) |
 | 6-03 | [罗曼空间望远镜主镜终检通过：8 月底发射窗口打开，最后一程启程在即](./2026-06-03-roman-space-telescope-mirror-check/) |
 | 6-03 | [太阳24小时内连爆三次强耀斑：M9.3、M7.9、X1 接踵而至，NOAA 升 G3 地磁暴预警](./2026-06-03-sun-x1-flare-region-4455-cmes/) |
 | 6-03 | [NASA 正式宣告 MAVEN 火星探测器任务终结：失联 6 个月后探测器失而不得，NASA 火星轨道器群缩编为两台](./2026-06-03-nasa-maven-mission-end/) |
@@ -41,6 +42,7 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-04: 新增 Penn State Eberly College 物理学家 Daniel Paraizo 团队原初黑洞→白洞理论研究（arXiv 预印本，space.com 6/3 报道）：用半经典模型计算霍金辐射寿命，发现抵达普朗克质量时原初黑洞进入「与白洞不可区分」的稳定终态
 - 2026-06-03: 新增 Starlink 10-43 任务 6/3 因天气取消的现场报道（卡角 SLC-40 上午 7:24 EDT 取消，45 中队仅 30% 可接受概率，三条天气规则中两条被触发；下一窗口 6/4 04:00 EDT，B1090 第 12 次飞行，目标 ASOG 无人船；SFN 6/3）
 - 2026-06-03: 新增 5/28 发表于 Springer Ambio 的政策论文：STAR Laboratories 主管 Frederick Moxley 与麦吉尔大学入侵生物学专家 Anthony Ricciardi 提议在月面建设地球外生物隔离设施，火星/小行星/冰卫星样品须先在月面通过机器人系统隔离、检测、确认无活性后方可入境；论文直指 NASA Artemis 与中俄 ILRS 月球基地计划均未公开行星保护方案，并以 ISS 上 Enterobacter bugandensis 突变菌株为实证（space.com 6/3 报道）
 - 2026-06-03: 新增 Blue Origin CEO Dave Limp 6/2 X 帖文披露 LC-36 损伤评估（推进剂储罐+水塔完好，支撑塔可原地修复，拖车-竖立器遭弃用改走垂直装配），目标 2026 年底前复飞新格伦（SFN 6/3）

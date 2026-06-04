@@ -3,7 +3,7 @@ title: Space News · June 2026
 description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiangshuo
-date: 2026-06-03
+date: 2026-06-04
 lastUpdated: 2026-06-04
 ---
 
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-04
 
 | Date | Title |
 |------|-------|
+| 6-03 | [Primordial Black Holes May Turn Into White Holes: Penn State Team Pinpoints the Minimum Mass Threshold](./2026-06-03-black-holes-white-holes-penn-state/) |
 | 6-03 | [Roman Space Telescope's Primary Mirror Passes Its Final Inspection, Clearing the Way for an Aug. 30 Launch](./2026-06-03-roman-space-telescope-mirror-check/) |
 | 6-03 | [Sun Unleashes 3 Major Solar Flares in 24 Hours: M9.3, M7.9, X1 From Region 4455 Trigger G3 Geomagnetic Storm Watch](./2026-06-03-sun-x1-flare-region-4455-cmes/) |
 | 6-03 | [NASA Officially Ends MAVEN Mars Mission: After 6 Months of Silence NASA Gives Up Recovery, Mars Orbiter Fleet Shrinks to Two](./2026-06-03-nasa-maven-mission-end/) |
@@ -37,6 +38,7 @@ lastUpdated: 2026-06-04
 
 ## Update Log
 
+- 2026-06-04: Added Penn State Eberly College of Science physicist Daniel Paraizo and colleagues' primordial-black-hole-to-white-hole theory paper (arXiv preprint, space.com 6/3 coverage): semi-classical model of Hawking-radiation lifetimes shows PBHs reaching the Planck mass enter a stable end-state "indistinguishable from a white hole" when viewed from afar
 - 2026-06-03: Added live coverage of the Starlink 10-43 weather scrub on June 3 (Cape SLC-40 launch called off at 7:24 a.m. EDT; 45th Weather Squadron pegged acceptable weather at only 30%, with two of three launch-weather rules violated; next window opens 4:00 a.m. EDT on June 4, B1090 on its 12th flight targeting the ASOG drone ship; SFN 6/3)
 - 2026-06-03: Added policy paper published online first in Springer Ambio on May 28, 2026: STAR Laboratories director Frederick Moxley and McGill University invasion biologist Anthony Ricciardi propose a dedicated extraterrestrial biocontainment facility on the lunar surface, with all samples from Mars, asteroids, and icy moons required to pass through robotic handling and certification on the moon before being allowed to enter Earth's biosphere; the paper calls out the lack of explicit planetary protection procedures in both NASA's Artemis lunar base architecture and the China-Russia led ILRS, and uses the documented mutation of Enterobacter bugandensis strains aboard the ISS as a real-world case (space.com 6/3 coverage)
 - 2026-06-03: Added Blue Origin CEO Dave Limp June 2 X post with LC-36 damage assessment (propellant tanks + water tower intact, support tower repairable in place, transporter-erector scrapped for vertical integration), targeting year-end 2026 return to flight (SFN 6/3)
