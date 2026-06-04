@@ -106,3 +106,7 @@ out
 /.claude/
 /.openclaw/
 /MEMORY.md
+/test-results/
+/build-wrapper.sh
+/run-build.js
+/web/.vuepress/.shard/
