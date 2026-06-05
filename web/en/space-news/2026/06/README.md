@@ -13,6 +13,8 @@ lastUpdated: 2026-06-05
 
 | Date | Title |
 |------|-------|
+| 6-05 | [ISS Crew Shelters in SpaceX Dragon as Cosmonauts Work to Seal Years-Long Air Leak](./2026-06-05-iss-shelter-dragon-air-leak/) |
+| 6-05 | [MAVEN's Final Fall: NASA Estimates the Dead Mars Orbiter Will Plunge into the Red Planet Within 50 to 100 Years](./2026-06-05-maven-mars-crash-morgue/) |
 | 6-05 | [SpaceX sets IPO price at 135 dollars, valuing company at 1.77 trillion and trading June 12 on Nasdaq as SPCX](./2026-06-05-spacex-177t-ipo-spcx-pricing/) |
 | 6-05 | [Long March 8 launches 12th Qianfan batch from Hainan commercial spaceport](./2026-06-05-qianfan-12-batch-long-march-8/) |
 | 6-05 | [JWST Detects Methane on Interstellar Comet 3I/ATLAS for the First Time](./2026-06-05-3i-atlas-methane-jwst/) |
@@ -49,6 +51,8 @@ lastUpdated: 2026-06-05
 
 ## Update Log
 
+- 2026-06-06: Added 6/5 ISS air-leak sheltering event coverage (space.com 6/5 15:30 UTC + SFN 6/5 14:30 UTC): Out of an abundance of caution, NASA directed the four SpaceX Crew-12 crew members (Jessica Meir, Jack Hathaway, Sophie Adenot, Andrey Fedyaev) plus NASA astronaut Chris Williams to take shelter inside Dragon; Roscosmos is leading the seal work on the PrK transfer tunnel leading to the Zvezda service module. The leak rate had rebounded from 0.6 kg/day to 1.4 kg/day in April and the goal of the current repair is to bring it back below 0.3 kg/day
+- 2026-06-06: Added MAVEN 50–100-year fall-to-Mars epilogue (space.com 6/4 15:00 UTC): two days after NASA officially ended the mission on 6/3, project manager Mike Moreau disclosed in a 6/5 briefing that MAVEN's current orbit is "very similar to what it would have been if the mission had ended nominally"; the original design called for 50 to 100 years of natural decay, with the exact timeline set by the 11-year solar cycle modulating the Martian upper atmosphere. MAVEN joins the "Mars morgue" of dead probes; NASA's active Mars orbiter fleet drops from three to two (Odyssey 2001 / MRO 2005)
 - 2026-06-05: Added Starlink 10-43 June 4 make-up launch article (space.com 6/4 18:00 UTC combined retrospective): 31 hours after the June 3 7:24 a.m. EDT scrub caused by a cold front triggering cumulus cloud, thick-cloud, and surface electric field rules, Falcon 9 lifted off from SLC-40 at 6:26 a.m. EDT (10:26 UTC) on June 4 with 29 V2 Mini Optimized satellites; booster B1090 on its 12th flight landed on the A Shortfall of Gravitas droneship, marking ASOG's 153rd catch and SpaceX's 619th Falcon 9 first-stage recovery overall. Pairs with the June 3 OCISLY 200th / SpaceX 618th catch to deliver two recoveries in 19 hours across the two coasts
 - 2026-06-05: Added NWA 12774 angrite meteorite study (CU Boulder, Aaron Bell et al., space.com 6/4 coverage): a 2019 Sahara-recovered sample carries clinopyroxene crystals exceptionally rich in aluminum — a geobarometer that pushes the angrite parent body from "asteroid-sized" up toward a near-lunar-mass protoplanet, following a planetary-formation pathway distinct from Earth and Mars. The first direct geochemical evidence of an "existed once, destroyed later" lost world in the early solar system
 - 2026-06-05: Added ESA Euclid observation of a brightness gap in the H-R diagram of globular cluster NGC 6397 (STScI 6/4 release, space.com coverage): a specific red-dwarf brightness slot is almost completely empty, consistent with the structural transition from partially convective to fully convective stellar interiors. The gap was a serendipitous byproduct of a proper-motion survey, not a planned target
