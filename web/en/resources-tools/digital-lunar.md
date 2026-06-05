@@ -11,7 +11,7 @@ wechatShare:
 
 ## Overview
 
-The Digital Lunar Cloud Platform is led by the Institute of Geochemistry, Chinese Academy of Sciences, and is currently the most comprehensive lunar exploration data cloud platform internationally.
+The Digital Lunar Cloud Platform is led by the Institute of Geochemistry, Chinese Academy of Sciences, and is currently China's first cloud platform integrating multi-national lunar exploration data.
 
 ## Basic Information
 
