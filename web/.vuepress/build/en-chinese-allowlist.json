@@ -1,1 +1,1676 @@
-[]
+[
+  {
+    "file": "en/background/control/optimal-control.md",
+    "line": 58,
+    "text": "本质上是最优控制问题，常用间接法（极大值原理）或直接法（伪谱法）求解",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/cislunar-orbits/dro/family-classification.md",
+    "line": 69,
+    "text": "质心旋转坐标系及",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/cislunar-orbits/transfer/ballistic-capture.md",
+    "line": 52,
+    "text": "阶段的",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/bang-bang-control.md",
+    "line": 31,
+    "text": "关宇同等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/bang-bang-control.md",
+    "line": 79,
+    "text": "赵海涵等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/bang-bang-control.md",
+    "line": 100,
+    "text": "关宇同",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/barycentric-synodic.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/barycentric-synodic.md",
+    "line": 97,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/batch-deployment.md",
+    "line": 27,
+    "text": "胡敏",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/batch-deployment.md",
+    "line": 90,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/batch-deployment.md",
+    "line": 109,
+    "text": "胡敏",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/co-state-normalization.md",
+    "line": 31,
+    "text": "关宇同等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/co-state-normalization.md",
+    "line": 102,
+    "text": "关宇同",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/coasting-arc.md",
+    "line": 27,
+    "text": "胡敏",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/coasting-arc.md",
+    "line": 41,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/coasting-arc.md",
+    "line": 71,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/coasting-arc.md",
+    "line": 114,
+    "text": "胡敏",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/differential-games.md",
+    "line": 29,
+    "text": "张乘铭",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/differential-games.md",
+    "line": 77,
+    "text": "张乘铭",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/dynamic-programming.md",
+    "line": 27,
+    "text": "胡敏",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/dynamic-programming.md",
+    "line": 70,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/dynamic-programming.md",
+    "line": 98,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/dynamic-programming.md",
+    "line": 123,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/dynamic-programming.md",
+    "line": 157,
+    "text": "胡敏",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/equinoctial-elements.md",
+    "line": 27,
+    "text": "胡敏",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/equinoctial-elements.md",
+    "line": 53,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/equinoctial-elements.md",
+    "line": 82,
+    "text": "胡敏等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/equinoctial-elements.md",
+    "line": 139,
+    "text": "胡敏",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/grc.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/grc.md",
+    "line": 73,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/grc.md",
+    "line": 94,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
+    "line": 27,
+    "text": "郭建宇",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
+    "line": 53,
+    "text": "郭建宇",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
+    "line": 113,
+    "text": "郭建宇",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/homotopy-method.md",
+    "line": 31,
+    "text": "关宇同等",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/homotopy-method.md",
+    "line": 99,
+    "text": "关宇同",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/improved-baseline-control-point.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/improved-baseline-control-point.md",
+    "line": 127,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/improved-baseline-control-point.md",
+    "line": 165,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/invariant-manifold.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/invariant-manifold.md",
+    "line": 122,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/j2000-coordinate.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/j2000-coordinate.md",
+    "line": 96,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+    "line": 35,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+    "line": 49,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+    "line": 84,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/libration-spacecraft-orbital-coordinate.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/libration-spacecraft-orbital-coordinate.md",
+    "line": 93,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/lindstedt-poincare.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/lrc.md",
+    "line": 29,
+    "text": "钱霙婧",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/lrc.md",
+    "line": 93,
+    "text": "钱霙婧",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/mass-discontinuity.md",
+    "line": 27,
+    "text": "胡敏",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/dynamics/mass-discontinuity.md",
+    "line": 123,
+    "text": "胡敏",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/dynamics/regional-station-keeping.md",
+    "line": 52,
+    "text": "外形",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/fundamentals/absolute-range.md",
+    "line": 91,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/absolute-range.md",
+    "line": 92,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/aerospace-vehicle.md",
+    "line": 72,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/aerospace-vehicle.md",
+    "line": 73,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/aerospace-vehicle.md",
+    "line": 74,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/body-frame.md",
+    "line": 75,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/body-frame.md",
+    "line": 76,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/celestial-coordinate-system.md",
+    "line": 101,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/celestial-coordinate-system.md",
+    "line": 102,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/celestial-sphere.md",
+    "line": 69,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/celestial-sphere.md",
+    "line": 70,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/coverage-angle.md",
+    "line": 78,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/coverage-angle.md",
+    "line": 79,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/earth-ellipsoid.md",
+    "line": 80,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/earth-ellipsoid.md",
+    "line": 81,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
+    "line": 78,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
+    "line": 79,
+    "text": "刘林",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/ecef-frame.md",
+    "line": 75,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/ecef-frame.md",
+    "line": 77,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/free-flight-phase.md",
+    "line": 73,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/free-flight-phase.md",
+    "line": 74,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/free-flight-trajectory.md",
+    "line": 77,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/free-flight-trajectory.md",
+    "line": 78,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/gaussian-perturbation-equations.md",
+    "line": 72,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/gaussian-perturbation-equations.md",
+    "line": 73,
+    "text": "刘林",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/geocentric-inertial-frame.md",
+    "line": 76,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/geocentric-inertial-frame.md",
+    "line": 77,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/gps-time.md",
+    "line": 69,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/gravity-turn.md",
+    "line": 85,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/gravity-turn.md",
+    "line": 86,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/gravity-vs-gravitation.md",
+    "line": 74,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/gravity-vs-gravitation.md",
+    "line": 75,
+    "text": "人造地球卫星轨道力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/hit-equation.md",
+    "line": 84,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/hit-equation.md",
+    "line": 85,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/hohmann-transfer.md",
+    "line": 75,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/hohmann-transfer.md",
+    "line": 76,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/inertial-navigation-system.md",
+    "line": 78,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/inertial-navigation-system.md",
+    "line": 79,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/instantaneous-balance.md",
+    "line": 68,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/instantaneous-balance.md",
+    "line": 69,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/julian-date.md",
+    "line": 77,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/julian-date.md",
+    "line": 78,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/kepler-equation.md",
+    "line": 82,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/kepler-equation.md",
+    "line": 83,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/lagrangian-perturbation-equations.md",
+    "line": 69,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/lagrangian-perturbation-equations.md",
+    "line": 70,
+    "text": "刘林",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/launch-azimuth.md",
+    "line": 83,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/launch-azimuth.md",
+    "line": 84,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/launch-window.md",
+    "line": 78,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/launch-window.md",
+    "line": 79,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/minimum-energy-trajectory.md",
+    "line": 73,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/minimum-energy-trajectory.md",
+    "line": 74,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/newton-iteration-method.md",
+    "line": 84,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/newton-iteration-method.md",
+    "line": 85,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/nutation.md",
+    "line": 81,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/nutation.md",
+    "line": 82,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/optimal-velocity-inclination.md",
+    "line": 76,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/optimal-velocity-inclination.md",
+    "line": 77,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/orbital-elements.md",
+    "line": 83,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/orbital-elements.md",
+    "line": 84,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/perturbation-motion.md",
+    "line": 71,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/perturbation-motion.md",
+    "line": 72,
+    "text": "刘林",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/pitch-program.md",
+    "line": 75,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/pitch-program.md",
+    "line": 76,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/powered-phase.md",
+    "line": 63,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/powered-phase.md",
+    "line": 64,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/precession.md",
+    "line": 78,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/precession.md",
+    "line": 79,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/range-error-coefficient.md",
+    "line": 90,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/range-error-coefficient.md",
+    "line": 91,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/satellite-ring.md",
+    "line": 86,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/satellite-ring.md",
+    "line": 87,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/sequential-quadratic-programming.md",
+    "line": 88,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/sequential-quadratic-programming.md",
+    "line": 89,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/solar-exposure-factor.md",
+    "line": 82,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/solar-exposure-factor.md",
+    "line": 83,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/specific-impulse.md",
+    "line": 84,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/subsatellite-track.md",
+    "line": 78,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/subsatellite-track.md",
+    "line": 79,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/sun-synchronous-orbit.md",
+    "line": 79,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/sun-synchronous-orbit.md",
+    "line": 80,
+    "text": "刘林",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
+    "line": 81,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
+    "line": 82,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/thrust.md",
+    "line": 82,
+    "text": "空天飞行力学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/thrust.md",
+    "line": 83,
+    "text": "远程火箭弹道学",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/trajectory-optimization.md",
+    "line": 90,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/trajectory-optimization.md",
+    "line": 91,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/true-anomaly.md",
+    "line": 86,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/true-anomaly.md",
+    "line": 87,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
+    "line": 84,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
+    "line": 86,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/turning-program.md",
+    "line": 79,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/turning-program.md",
+    "line": 80,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/two-body-problem.md",
+    "line": 75,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/two-body-problem.md",
+    "line": 76,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/utc.md",
+    "line": 72,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/utc.md",
+    "line": 73,
+    "text": "任萱",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/variation-of-parameters.md",
+    "line": 73,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/variation-of-parameters.md",
+    "line": 74,
+    "text": "刘林",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/vis-viva-equation.md",
+    "line": 82,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/vis-viva-equation.md",
+    "line": 83,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/walker-constellation.md",
+    "line": 80,
+    "text": "郑伟",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/fundamentals/walker-constellation.md",
+    "line": 81,
+    "text": "贾沛然",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/glossary/minerals/ce-changeite.md",
+    "line": 27,
+    "text": "说",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/minerals/mg-changeite.md",
+    "line": 27,
+    "text": "说",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/navigation/altitude-regulation.md",
+    "line": 50,
+    "text": "囊",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/orbits/dro.md",
+    "line": 36,
+    "text": "示意图",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/orbits/dro.md",
+    "line": 40,
+    "text": "质心旋转坐标系及",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/glossary/orbits/nrho.md",
+    "line": 35,
+    "text": "地月",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/research-frontiers/institutions/dfhscl.md",
+    "line": 31,
+    "text": "中国卫星",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/research-frontiers/institutions/npu.md",
+    "line": 31,
+    "text": "西北工业大学",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/research-frontiers/institutions/nudt.md",
+    "line": 31,
+    "text": "国防科技大学",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/research-frontiers/institutions/seu.md",
+    "line": 31,
+    "text": "航天工程大学",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/research-frontiers/institutions/thu.md",
+    "line": 31,
+    "text": "清华大学",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/research-frontiers/institutions/thu.md",
+    "line": 33,
+    "text": "院系调整",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2025/05/2025-05-13-tongce-19.md",
+    "line": 18,
+    "text": "通信技术试验卫星十九号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2025/05/2025-05-14-space-computing-constellation.md",
+    "line": 18,
+    "text": "国星宇航",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-13-china-long-march-dual-launch.md",
+    "line": 19,
+    "text": "试验三十号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-13-china-long-march-dual-launch.md",
+    "line": 29,
+    "text": "长征二号丁运载火箭成功发射试验三十号卫星",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06.md",
+    "line": 27,
+    "text": "我国成功发射四维高景二号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite.md",
+    "line": 26,
+    "text": "深度合作",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite.md",
+    "line": 67,
+    "text": "微笑",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+    "line": 21,
+    "text": "试验三十三号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+    "line": 37,
+    "text": "远征一号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+    "line": 51,
+    "text": "我国成功发射试验三十三号卫星",
+    "reason": "Chinese reference title, auto-whitelisted"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
+    "line": 39,
+    "text": "有害气体",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events.md",
+    "line": 25,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-30-artemis-2-final-preparations.md",
+    "line": 25,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-30-lift-2-maiden-flight.md",
+    "line": 24,
+    "text": "中科宇航",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-30-spacex-transporter-16.md",
+    "line": 24,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire.md",
+    "line": 24,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-31-artemis-2-countdown-begins.md",
+    "line": 25,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-31-artemis-2-solar-flare.md",
+    "line": 25,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-31-iss-expedition-74-week.md",
+    "line": 25,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition.md",
+    "line": 24,
+    "text": "摘要：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-03-spacex-ipo-sec-filing.md",
+    "line": 48,
+    "text": "史上最大",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-05-zhuque-3-reuse-test.md",
+    "line": 91,
+    "text": "蓝箭航天张晓东：朱雀三号上半年冲刺回收复用",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+    "line": 24,
+    "text": "千帆",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+    "line": 31,
+    "text": "千帆",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+    "line": 41,
+    "text": "我国成功发射千帆星座第七批组网卫星",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21.md",
+    "line": 24,
+    "text": "长征六号改",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21.md",
+    "line": 43,
+    "text": "我国成功发射卫星互联网低轨",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-17-greenhouse-gas-satellite.md",
+    "line": 32,
+    "text": "高精度温室气体综合探测卫星成功发射",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-21-commercial-space-roundtable.md",
+    "line": 49,
+    "text": "守住",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-22-belts-of-green.md",
+    "line": 30,
+    "text": "环形公路",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-22-csc2026-preview.md",
+    "line": 15,
+    "text": "七秩问天路",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-22-infineon-artemis-ii.md",
+    "line": 32,
+    "text": "英飞凌抗辐射半导体助力",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-24-china-space-day-overview.md",
+    "line": 50,
+    "text": "奋楫问天路，逐梦探苍穹",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-24-commercial-space-mass-production.md",
+    "line": 67,
+    "text": "密集发射期",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-24-space-public-welfare-ambassador.md",
+    "line": 38,
+    "text": "攻关",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-25-csc2026-main-forum.md",
+    "line": 35,
+    "text": "年中国航天大会主论坛成功召开",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-26-china-2025-launch-stats.md",
+    "line": 42,
+    "text": "中科宇航",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-26-galaxy-8year.md",
+    "line": 24,
+    "text": "银河航天",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-26-galaxy-8year.md",
+    "line": 31,
+    "text": "常温两级液体运载火箭",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-26-galaxy-8year.md",
+    "line": 40,
+    "text": "小蜘蛛网",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-27-space-metal-3d-printing.md",
+    "line": 19,
+    "text": "力箭二号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-28-beijing-space-science-center.md",
+    "line": 29,
+    "text": "还原",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-28-changzheng-10yi-maiden-flight.md",
+    "line": 45,
+    "text": "千帆星座",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+    "line": 23,
+    "text": "锋行",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+    "line": 42,
+    "text": "界面新闻",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+    "line": 46,
+    "text": "国内首个服务卫星组网和在轨服务的商业飞行器发布",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+    "line": 47,
+    "text": "亚马逊与中国企业争夺卫星互联网市场",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-28-ula-atlas-v-kuiper-29-satellites.md",
+    "line": 50,
+    "text": "舜网：亚马逊低地轨道卫星计划又一批卫星发射升空",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-artemis-hls-starship-blue-origin-delay.md",
+    "line": 23,
+    "text": "进度",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-artemis-hls-starship-blue-origin-delay.md",
+    "line": 49,
+    "text": "登月版星舰、蓝月登月器最早",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-css-t-shape-expansion.md",
+    "line": 28,
+    "text": "十",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-falcon-heavy-viasat-3-f3-launch.md",
+    "line": 32,
+    "text": "腾讯新闻《猎鹰重型时隔",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-microstar-ipo.md",
+    "line": 33,
+    "text": "阶段性",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+    "line": 38,
+    "text": "酒泉卫星发射中心全力备战神舟二十三号等任务",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+    "line": 39,
+    "text": "神舟二十三号发射任务备战中",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+    "line": 40,
+    "text": "神舟二十三号蓄势待发：乘组调整引期待",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+    "line": 41,
+    "text": "神舟二十三号发射准备中：",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+    "line": 62,
+    "text": "大航跃迁完成",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+    "line": 63,
+    "text": "大航跃迁完成",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+    "line": 64,
+    "text": "大航跃迁完成",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+    "line": 65,
+    "text": "大航跃迁完成",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-wukong-cosmic-ray-discovery.md",
+    "line": 32,
+    "text": "新华网：「悟空」号揭示宇宙射线加速关键机制，首次发现宇宙射线加速能量极限的电荷依赖规律（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-wukong-cosmic-ray-discovery.md",
+    "line": 33,
+    "text": "腾讯新闻：「悟空」号最新成果：地球附近存在「超级粒子加速器」（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-wukong-cosmic-ray-discovery.md",
+    "line": 35,
+    "text": "紫金山天文台：「悟空」号发布最新成果（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-zhuque-3-yao2-leaves-factory.md",
+    "line": 43,
+    "text": "官方渠道",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/04/2026-04-30-zhuque-3-yao2-leaves-factory.md",
+    "line": 44,
+    "text": "蓝箭航天官网",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc.md",
+    "line": 32,
+    "text": "（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc.md",
+    "line": 33,
+    "text": "（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc.md",
+    "line": 34,
+    "text": "（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-01-shenzhou-21-500day-return.md",
+    "line": 35,
+    "text": "中",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-02-falcon9-derelict-moon-impact.md",
+    "line": 63,
+    "text": "废弃火箭上面级将于",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-02-falcon9-derelict-moon-impact.md",
+    "line": 64,
+    "text": "今年",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-02-falcon9-derelict-moon-impact.md",
+    "line": 65,
+    "text": "猎鹰火箭将执行撞击月球的既定任务",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+    "line": 21,
+    "text": "上海大航跃迁航天科技有限公司",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+    "line": 25,
+    "text": "前海方舟",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+    "line": 29,
+    "text": "跃迁一号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+    "line": 35,
+    "text": "筷子夹",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+    "line": 37,
+    "text": "陈曙光",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-03-spacex-apex-ipo.md",
+    "line": 23,
+    "text": "「",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-06-dixing-bed-rest-volunteer.md",
+    "line": 19,
+    "text": "我们的太空",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-07-mars-simulation-200days.md",
+    "line": 19,
+    "text": "封闭",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-11-shenzhou-23-mission-badge.md",
+    "line": 22,
+    "text": "神舟二十三号载人飞行任务标识发布",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-11-shenzhou-23-mission-badge.md",
+    "line": 23,
+    "text": "神舟二十三号载人飞行任务标识发布",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-12-shiveluch-volcano-satellite.md",
+    "line": 31,
+    "text": "涌入",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-13-google-spacex-orbital-data-center.md",
+    "line": 25,
+    "text": "互联卫星",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-14-nasa-mars-telecom-network-rfp.md",
+    "line": 15,
+    "text": "通信",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-14-yixian-3-vtvl-rocket.md",
+    "line": 15,
+    "text": "靶心",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-15-crs-34-launch-success.md",
+    "line": 31,
+    "text": "曲折",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-15-lijian-1-yao13-100stars.md",
+    "line": 22,
+    "text": "中国有戏号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-15-lijian-1-yao13-100stars.md",
+    "line": 32,
+    "text": "有戏号",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-15-lijian-1-yao13-100stars.md",
+    "line": 47,
+    "text": "中科宇航",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-16-shenzhou-23-rocket-transfer.md",
+    "line": 32,
+    "text": "常态化",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-18-starlink-megaconstellations.md",
+    "line": 19,
+    "text": "（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-19-china-commercial-space-mass-production.md",
+    "line": 27,
+    "text": "第一财经",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-20-neptune-nereid-jwst-study.md",
+    "line": 32,
+    "text": "外来天体",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-20-tianwen-1-interstellar-dust.md",
+    "line": 30,
+    "text": "天问一号成功观测到星际天体的尘埃活动（中国科学院国家天文台）",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-23-europa-water-plume-retraction.md",
+    "line": 19,
+    "text": "（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-23-shenzhou-23-crew-reveal.md",
+    "line": 49,
+    "text": "组合体",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-24-shenzhou-23-launch-success.md",
+    "line": 15,
+    "text": "预定轨道",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-24-shenzhou-23-launch-success.md",
+    "line": 19,
+    "text": "（",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-25-darpa-rsgs-geosynchronous-satellite.md",
+    "line": 21,
+    "text": "区域",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-27-perovskite-solar-cell-tiangong.md",
+    "line": 20,
+    "text": "随神舟上天",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+    "line": 24,
+    "text": "常温液体二级运载火箭",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+    "line": 26,
+    "text": "蓝箭鸿擎科技",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+    "line": 32,
+    "text": "银河航天",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/05/README.md",
+    "line": 51,
+    "text": "银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/06/2026-06-01-shenzhou-21-crew-beijing-arrival.md",
+    "line": 39,
+    "text": "进出舱",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/space-news/2026/06/2026-06-03-beijing-yizhuang-space-computing-symposium.md",
+    "line": 33,
+    "text": "陆建华",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  },
+  {
+    "file": "en/what-is-cislunarspace/README.md",
+    "line": 33,
+    "text": "地月空间示意图",
+    "reason": "Chinese text in English page, translation pending (see #76)"
+  }
+]
