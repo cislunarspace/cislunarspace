@@ -1627,6 +1627,19 @@
         }
       },
       {
+        "slug": "switching-function",
+        "title": "切换函数（Switching Function）",
+        "path": "/glossary/dynamics/switching-function/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "targeting-method",
         "title": "靶点法（Targeting Method）",
         "path": "/glossary/dynamics/targeting-method/",
@@ -4318,13 +4331,7 @@
         }
       }
     ],
-    "missing": [
-      {
-        "category": "任务轨道",
-        "slug": "lt-transfer",
-        "zhTitle": "低推力转移轨道（Low-Thrust Transfer Orbit）"
-      }
-    ]
+    "missing": []
   },
   "en": {
     "entries": [
@@ -5944,6 +5951,19 @@
         "slug": "strobe-map",
         "title": "Strobe Map",
         "path": "/en/glossary/dynamics/strobe-map/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "switching-function",
+        "title": "Switching Function",
+        "path": "/en/glossary/dynamics/switching-function/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -8193,6 +8213,19 @@
         "slug": "low-energy-transfer",
         "title": "Low-Energy Transfer Orbit",
         "path": "/en/glossary/orbits/low-energy-transfer/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "lt-transfer",
+        "title": "Low-Thrust Transfer Orbit",
+        "path": "/en/glossary/orbits/lt-transfer/",
         "category": {
           "slug": "orbits",
           "label": {
