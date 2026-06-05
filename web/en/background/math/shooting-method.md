@@ -4,7 +4,7 @@ description: The shooting method converts a two-point boundary value problem int
 keywords: Shooting Method, Boundary Value Problem, Initial Value Problem, Orbit Design, Differential Correction
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-06-05
 permalink: /en/background/math/shooting-method/
 wechatShare:
   title: "Cislunar Space Guide | Shooting Method"
@@ -48,7 +48,7 @@ The shooting method is typically combined with **arc-length continuation** and *
 
 ## Related Concepts
 
-- [Arc-length Continuation](../continuation/)
+- [Arc-length Continuation](./continuation/)
 - [Symplectic Integrator](./symplectic-integrator/)
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)

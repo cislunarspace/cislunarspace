@@ -4,7 +4,7 @@ description: 打靶法是将两点边值问题转化为初值问题迭代求解�
 keywords: 打靶法, Shooting Method, 边值问题, 初值问题, 轨道设计, 微分修正
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-06-05
 permalink: /background/math/shooting-method/
 wechatShare:
   title: 打靶法 (Shooting Method)
@@ -48,7 +48,7 @@ wechatShare:
 
 ## 相关概念
 
-- [弧长延续法（Arc-length Continuation）](../continuation/)
+- [弧长延续法（Arc-length Continuation）](./continuation/)
 - [辛积分器（Symplectic Integrator）](./symplectic-integrator/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [近直线晕轨道（NRHO）](/glossary/nrho/)
