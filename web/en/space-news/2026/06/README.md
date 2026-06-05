@@ -13,6 +13,7 @@ lastUpdated: 2026-06-05
 
 | Date | Title |
 |------|-------|
+| 6-05 | [Astronomers Detect Long-Sought Wind From Milky Way's Central Black Hole](./2026-06-05-milky-way-black-hole-wind/) |
 | 6-05 | [ISS Crew Shelters in SpaceX Dragon as Cosmonauts Work to Seal Years-Long Air Leak](./2026-06-05-iss-shelter-dragon-air-leak/) |
 | 6-05 | [MAVEN's Final Fall: NASA Estimates the Dead Mars Orbiter Will Plunge into the Red Planet Within 50 to 100 Years](./2026-06-05-maven-mars-crash-morgue/) |
 | 6-05 | [SpaceX sets IPO price at 135 dollars, valuing company at 1.77 trillion and trading June 12 on Nasdaq as SPCX](./2026-06-05-spacex-177t-ipo-spcx-pricing/) |
