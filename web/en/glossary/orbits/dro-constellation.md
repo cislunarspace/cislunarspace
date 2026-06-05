@@ -56,7 +56,7 @@ The DRO constellation opens new pathways for large-scale development and utiliza
 - [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
 - [Tianandu-1](/en/glossary/navigation/tiandu-1/)
 - [Earth-Moon Hybrid Navigation](/en/glossary/navigation/earth-moon-hybrid-navigation/)
-- [Queqiao Relay Satellite](/en/glossary/queqiao/)
+- [Queqiao Relay Satellite](/en/glossary/other/queqiao/)
 
 ## References
 
