@@ -1,6 +1,6 @@
 ---
 title: Multi-Revolution NRHO Ephemeris Computation
-description: Methods for computing multi-revolution NRHOs under the real ephemeris model: multiple shooting, patch point selection strategies, and key numerical results.
+description: "Methods for computing multi-revolution NRHOs under the real ephemeris model: multiple shooting, patch point selection strategies, and key numerical results."
 wechatShare:
   title: Multi-Revolution NRHO Ephemeris Computation
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

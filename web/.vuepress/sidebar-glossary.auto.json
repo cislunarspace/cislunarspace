@@ -3096,19 +3096,6 @@
         }
       },
       {
-        "slug": "orbit-identification",
-        "title": "轨道辨识（Orbit Identification）",
-        "path": "/glossary/navigation/orbit-identification/",
-        "category": {
-          "slug": "navigation",
-          "label": {
-            "zh": "导航技术与系统",
-            "en": "Navigation & systems"
-          },
-          "order": 20040
-        }
-      },
-      {
         "slug": "pnt",
         "title": "定位导航授时（PNT）",
         "path": "/glossary/navigation/pnt/",
@@ -3707,6 +3694,19 @@
         }
       },
       {
+        "slug": "orbit-identification",
+        "title": "轨道辨识（Orbit Identification）",
+        "path": "/glossary/orbits/orbit-identification/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "orbit-keeping",
         "title": "轨道保持（Orbit Keeping / Station-Keeping）",
         "path": "/glossary/orbits/orbit-keeping/",
@@ -4058,705 +4058,40 @@
         }
       }
     ],
-    "missing": [
-      {
-        "category": "军事太空条令",
-        "slug": "asat",
-        "zhTitle": "反卫星试验（ASAT）"
-      },
-      {
-        "category": "军事太空条令",
-        "slug": "civil-military-integration",
-        "zhTitle": "军民一体化（Civil-Military Integration）"
-      },
-      {
-        "category": "军事太空条令",
-        "slug": "directed-energy-weapon",
-        "zhTitle": "定向能武器（DEW）"
-      },
-      {
-        "category": "军事太空条令",
-        "slug": "distributed-architecture",
-        "zhTitle": "分布式架构（Distributed Architecture）"
-      },
-      {
-        "category": "军事太空条令",
-        "slug": "kinetic-weapon",
-        "zhTitle": "动能武器（Kinetic Weapon）"
-      },
-      {
-        "category": "军事太空条令",
-        "slug": "persistent-detection-corridor",
-        "zhTitle": "持久探测走廊（Persistent Detection Corridor, PDC）"
-      },
-      {
-        "category": "军事太空条令",
-        "slug": "resilience-map",
-        "zhTitle": "韧性地图（Resilience Map）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "ddpg",
-        "zhTitle": "深度确定性策略梯度（Deep Deterministic Policy Gradient, DDPG）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "hcpso",
-        "zhTitle": "混合聚类粒子群优化（Hybrid Cluster Particle Swarm Optimization, HCPSO）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "mo-mcts",
-        "zhTitle": "多目标蒙特卡洛树搜索（MO-MCTS）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "nsga-ii",
-        "zhTitle": "NSGA II（非支配排序遗传算法 II）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "pareto-optimal",
-        "zhTitle": "帕累托最优（Pareto Optimality）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "pontryagin-principle",
-        "zhTitle": "庞特里亚金极值原理（Pontryagin's Maximum Principle）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "pseudo-arclength-continuation",
-        "zhTitle": "伪弧长延拓法（Pseudo-Arclength Continuation）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "pursuit-evasion-game",
-        "zhTitle": "航天器追逃博弈（Spacecraft Pursuit-Evasion Game）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "q-law",
-        "zhTitle": "Q-law控制律"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "reachable-set",
-        "zhTitle": "可达集（Reachable Set）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "reduced-order-dynamics",
-        "zhTitle": "降阶动力学方程（Reduced-Order Dynamic Equations）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "regularization",
-        "zhTitle": "正则化（Regularization）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "rlepeso",
-        "zhTitle": "强化学习增强粒子群（Reinforced Learning Enhanced Particle Swarm Optimization, RLEPSO）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "saddle-point-strategy",
-        "zhTitle": "鞍点策略（Saddle-Point Strategy）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "state-dependent-tsp",
-        "zhTitle": "状态依赖旅行商问题（SDTSP）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "two-dominant-invariant-manifold",
-        "zhTitle": "双基不变流形法（Two-Dominant Invariant Manifold）"
-      },
-      {
-        "category": "动力学与数学基础",
-        "slug": "zero-effort-miss",
-        "zhTitle": "零控脱靶量（Zero-Effort Miss）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "absolute-range",
-        "zhTitle": "绝对射程（Absolute Range）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "aerodynamic-coefficient",
-        "zhTitle": "空气动力系数（Aerodynamic Coefficient）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "aerodynamic-moment",
-        "zhTitle": "空气动力矩（Aerodynamic Moment）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "aerospace-vehicle",
-        "zhTitle": "空天飞行器（Aerospace Vehicle）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "ballistic-coefficient",
-        "zhTitle": "弹道系数（Ballistic Coefficient）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "bi-elliptic-transfer",
-        "zhTitle": "双椭圆转移（Bi-Elliptic Transfer）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "body-frame",
-        "zhTitle": "体坐标系（Body Frame）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "celestial-coordinate-system",
-        "zhTitle": "天球坐标系（Celestial Coordinate System）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "celestial-sphere",
-        "zhTitle": "天球（Celestial Sphere）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "characteristic-velocity",
-        "zhTitle": "特征速度（Characteristic Velocity）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "coverage-angle",
-        "zhTitle": "覆盖角（Coverage Angle）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "earth-ellipsoid",
-        "zhTitle": "地球椭球体（Earth Ellipsoid）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "earth-oblateness-perturbation",
-        "zhTitle": "地球扁率摄动（Earth Oblateness Perturbation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "ecef-frame",
-        "zhTitle": "地心固联坐标系（Earth-Centered Earth-Fixed Frame, ECEF）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "energy-parameter",
-        "zhTitle": "能量参数（Energy Parameter）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "finite-thrust-maneuver",
-        "zhTitle": "有限推力轨道机动（Finite Thrust Maneuver）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "free-flight-phase",
-        "zhTitle": "自由段（Free-flight Phase）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "free-flight-trajectory",
-        "zhTitle": "自由段弹道（Free-Flight Trajectory）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "frozen-orbit",
-        "zhTitle": "冻结轨道（Frozen Orbit）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "gaussian-perturbation-equations",
-        "zhTitle": "高斯型摄动方程（Gaussian Perturbation Equations）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "geocentric-inertial-frame",
-        "zhTitle": "地心惯性坐标系（Earth-Centered Inertial Frame, ECI）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "gps-time",
-        "zhTitle": "GPS 时（GPS Time）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "gravitational-potential",
-        "zhTitle": "引力位（Gravitational Potential）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "gravity-turn",
-        "zhTitle": "重力转弯（Gravity Turn）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "gravity-vs-gravitation",
-        "zhTitle": "重力与引力（Gravity vs Gravitation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "hit-equation",
-        "zhTitle": "命中方程（Hit Equation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "hohmann-transfer",
-        "zhTitle": "霍曼转移（Hohmann Transfer）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "inertial-navigation-system",
-        "zhTitle": "惯性导航系统（Inertial Navigation System, INS）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "instantaneous-balance",
-        "zhTitle": "瞬时平衡假设（Instantaneous Balance Assumption）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "isru",
-        "zhTitle": "原位资源利用（ISRU）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "julian-date",
-        "zhTitle": "儒略日（Julian Date, JD）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "kepler-equation",
-        "zhTitle": "开普勒方程（Kepler's Equation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "kompsat",
-        "zhTitle": "韩国多用途卫星（KOMPSAT）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "lagrangian-perturbation-equations",
-        "zhTitle": "拉格朗日型摄动方程（Lagrangian Perturbation Equations）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "launch-azimuth",
-        "zhTitle": "发射方位角（Launch Azimuth）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "launch-window",
-        "zhTitle": "发射窗口（Launch Window）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "lift-to-drag-ratio",
-        "zhTitle": "升阻比（Lift-to-Drag Ratio）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "load-factor",
-        "zhTitle": "过载（Load Factor）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "longitudinal-lateral-motion",
-        "zhTitle": "纵向运动与侧向运动（Longitudinal and Lateral Motion）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "lunar-lander",
-        "zhTitle": "月球着陆器（Lunar Lander）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "minimum-energy-trajectory",
-        "zhTitle": "最小能量弹道（Minimum Energy Trajectory）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "newton-iteration-method",
-        "zhTitle": "牛顿迭代法（Newton's Iteration Method）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "nutation",
-        "zhTitle": "章动（Nutation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "optimal-velocity-inclination",
-        "zhTitle": "最佳速度倾角（Optimal Velocity Inclination）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "orbit-capture",
-        "zhTitle": "轨道捕获（Orbit Capture）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "orbit-insertion-conditions",
-        "zhTitle": "入轨条件（Orbit Insertion Conditions）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "orbital-elements",
-        "zhTitle": "轨道根数（Orbital Elements）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "orbital-equation",
-        "zhTitle": "轨道方程（Orbital Equation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "orbital-maneuver",
-        "zhTitle": "轨道机动（Orbital Maneuver）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "orbital-phase",
-        "zhTitle": "在轨段（Orbital Phase）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "orbital-transfer-vehicle",
-        "zhTitle": "轨道转移飞行器（OTV）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "perturbation-motion",
-        "zhTitle": "摄动运动（Perturbation Motion）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "phasing-orbit",
-        "zhTitle": "调相轨道（Phasing Orbit）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "pitch-program",
-        "zhTitle": "俯仰程序角（Pitch Program Angle）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "powered-phase",
-        "zhTitle": "主动段（Powered Phase）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "precession",
-        "zhTitle": "岁差（Precession）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "pressure-center",
-        "zhTitle": "压力中心（Center of Pressure）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "range-error-coefficient",
-        "zhTitle": "射程误差系数（Range Error Coefficient）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "reentry-corridor",
-        "zhTitle": "再入走廊（Reentry Corridor）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "reentry-phase",
-        "zhTitle": "再入段（Reentry Phase）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "repeat-ground-track-orbit",
-        "zhTitle": "回归轨道（Repeat Ground Track Orbit）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "reusable-launch-vehicle",
-        "zhTitle": "可重复使用运载火箭（Reusable Launch Vehicle）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "satellite-ring",
-        "zhTitle": "卫星环（Satellite Ring）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "sequential-quadratic-programming",
-        "zhTitle": "序列二次规划（Sequential Quadratic Programming）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "skip-reentry",
-        "zhTitle": "跳跃式再入（Skip Reentry）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "solar-exposure-factor",
-        "zhTitle": "受晒因子（Solar Exposure Factor）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "specific-angular-momentum",
-        "zhTitle": "比动量矩（Specific Angular Momentum）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "specific-impulse",
-        "zhTitle": "比冲（Specific Impulse）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "stagnation-heat-flux",
-        "zhTitle": "驻点热流（Stagnation Heat Flux）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "standard-atmosphere",
-        "zhTitle": "标准大气（Standard Atmosphere）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "subsatellite-track",
-        "zhTitle": "星下点轨迹（Subsatellite Track）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "sun-synchronous-orbit",
-        "zhTitle": "太阳同步轨道（Sun-Synchronous Orbit）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "thrust-to-weight-ratio",
-        "zhTitle": "推重比（Thrust-to-Weight Ratio）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "thrust",
-        "zhTitle": "推力（Thrust）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "total-angle-of-attack",
-        "zhTitle": "总攻角（Total Angle of Attack）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "trajectory-equation",
-        "zhTitle": "主动段弹道方程（Powered Phase Trajectory Equation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "trajectory-optimization",
-        "zhTitle": "轨迹优化（Trajectory Optimization）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "trim-angle-of-attack",
-        "zhTitle": "配平攻角（Trim Angle of Attack）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "true-anomaly",
-        "zhTitle": "真近点角（True Anomaly）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "tsiolkovsky-equation",
-        "zhTitle": "齐奥尔科夫斯基公式（Tsiolkovsky Rocket Equation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "turning-program",
-        "zhTitle": "主动段转弯过程（Powered Phase Turning Process）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "two-body-problem",
-        "zhTitle": "二体问题（Two-Body Problem）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "utc",
-        "zhTitle": "协调世界时（Coordinated Universal Time, UTC）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "variation-of-parameters",
-        "zhTitle": "参数变分法（Variation of Parameters）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "velocity-frame",
-        "zhTitle": "速度坐标系（Velocity Frame）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "velocity-inclination-angle",
-        "zhTitle": "速度倾角（Velocity Inclination Angle）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "vis-viva-equation",
-        "zhTitle": "活力公式（Vis-Viva Equation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "vleo",
-        "zhTitle": "超低地球轨道（VLEO）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "walker-constellation",
-        "zhTitle": "Walker 星座（Walker Constellation）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "zero-angle-of-attack-reentry",
-        "zhTitle": "零攻角再入（Zero-Angle-of-Attack Reentry）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "autonomous-navigation",
-        "zhTitle": "自主导航（Autonomous Navigation）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "extended-kalman-filter",
-        "zhTitle": "扩展卡尔曼滤波（Extended Kalman Filter, EKF）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "gagan",
-        "zhTitle": "GPS辅助地球增强导航系统（GAGAN）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "irnss",
-        "zhTitle": "印度区域导航卫星系统（IRNSS）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "observability",
-        "zhTitle": "可观测性（Observability）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "orbit-identification",
-        "zhTitle": "轨道辨识（Orbit Identification）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "pnt",
-        "zhTitle": "定位导航授时（PNT）"
-      },
-      {
-        "category": "导航技术与系统",
-        "slug": "sem-autonomous-navigation",
-        "zhTitle": "日地月信息自主导航（Sun-Earth-Moon Autonomous Navigation）"
-      },
-      {
-        "category": "天文观测技术",
-        "slug": "illumination-constraint",
-        "zhTitle": "光照约束（Illumination Constraint）"
-      },
-      {
-        "category": "天文观测技术",
-        "slug": "pointing-constraint",
-        "zhTitle": "指向约束（Pointing Constraint）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "axial-orbit",
-        "zhTitle": "轴向轨道（Axial Orbit）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "butterfly-orbit",
-        "zhTitle": "蝴蝶轨道（Butterfly Orbit）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "dpo",
-        "zhTitle": "远距离顺行轨道（DPO）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "horseshoe-orbit",
-        "zhTitle": "马蹄轨道（Horseshoe Orbit）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "hub-and-spoke",
-        "zhTitle": "中心辐射式（Hub-and-spoke）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "lopo",
-        "zhTitle": "低顺行轨道（LoPO）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "polynomial-constraint-stationkeeping",
-        "zhTitle": "多项式约束轨道保持（Polynomial Constraint Station-keeping）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "primary-impulse-transfer",
-        "zhTitle": "一次冲量轨道转移（Primary Impulse Orbit Transfer）"
-      },
-      {
-        "category": "任务轨道",
-        "slug": "vertical-orbit",
-        "zhTitle": "垂直轨道（Vertical Orbit）"
-      },
-      {
-        "category": "机构和组织",
-        "slug": "danuri",
-        "zhTitle": "Danuri月球轨道器"
-      },
-      {
-        "category": "机构和组织",
-        "slug": "isro",
-        "zhTitle": "印度空间研究组织（ISRO）"
-      },
-      {
-        "category": "机构和组织",
-        "slug": "kasa",
-        "zhTitle": "韩国航空宇宙厅（KASA）"
-      },
-      {
-        "category": "机构和组织",
-        "slug": "sriharikota",
-        "zhTitle": "斯里哈里科塔航天发射场（SDSC-SHAR）"
-      },
-      {
-        "category": "机构和组织",
-        "slug": "true-anomaly-company",
-        "zhTitle": "True Anomaly公司"
-      }
-    ]
+    "missing": []
   },
   "en": {
     "entries": [
       {
+        "slug": "asat",
+        "title": "Anti-Satellite Test (ASAT)",
+        "path": "/en/glossary/doctrine/asat/",
+        "category": {
+          "slug": "doctrine",
+          "label": {
+            "zh": "军事太空条令",
+            "en": "Military space doctrine"
+          },
+          "order": 20060
+        }
+      },
+      {
         "slug": "cislunar-space-situational-awareness",
         "title": "Cislunar Space Situational Awareness",
         "path": "/en/glossary/doctrine/cislunar-space-situational-awareness/",
+        "category": {
+          "slug": "doctrine",
+          "label": {
+            "zh": "军事太空条令",
+            "en": "Military space doctrine"
+          },
+          "order": 20060
+        }
+      },
+      {
+        "slug": "civil-military-integration",
+        "title": "Civil-Military Integration",
+        "path": "/en/glossary/doctrine/civil-military-integration/",
         "category": {
           "slug": "doctrine",
           "label": {
@@ -4809,6 +4144,32 @@
         "slug": "counterspace-operations",
         "title": "Counterspace Operations",
         "path": "/en/glossary/doctrine/counterspace-operations/",
+        "category": {
+          "slug": "doctrine",
+          "label": {
+            "zh": "军事太空条令",
+            "en": "Military space doctrine"
+          },
+          "order": 20060
+        }
+      },
+      {
+        "slug": "directed-energy-weapon",
+        "title": "Directed Energy Weapon (DEW)",
+        "path": "/en/glossary/doctrine/directed-energy-weapon/",
+        "category": {
+          "slug": "doctrine",
+          "label": {
+            "zh": "军事太空条令",
+            "en": "Military space doctrine"
+          },
+          "order": 20060
+        }
+      },
+      {
+        "slug": "distributed-architecture",
+        "title": "Distributed Architecture",
+        "path": "/en/glossary/doctrine/distributed-architecture/",
         "category": {
           "slug": "doctrine",
           "label": {
@@ -4897,6 +4258,19 @@
         }
       },
       {
+        "slug": "kinetic-weapon",
+        "title": "Kinetic Weapon",
+        "path": "/en/glossary/doctrine/kinetic-weapon/",
+        "category": {
+          "slug": "doctrine",
+          "label": {
+            "zh": "军事太空条令",
+            "en": "Military space doctrine"
+          },
+          "order": 20060
+        }
+      },
+      {
         "slug": "mission-command",
         "title": "Mission Command",
         "path": "/en/glossary/doctrine/mission-command/",
@@ -4926,6 +4300,32 @@
         "slug": "otti",
         "title": "Operational Test and Training Infrastructure (OTTI)",
         "path": "/en/glossary/doctrine/otti/",
+        "category": {
+          "slug": "doctrine",
+          "label": {
+            "zh": "军事太空条令",
+            "en": "Military space doctrine"
+          },
+          "order": 20060
+        }
+      },
+      {
+        "slug": "persistent-detection-corridor",
+        "title": "Persistent Detection Corridor (PDC)",
+        "path": "/en/glossary/doctrine/persistent-detection-corridor/",
+        "category": {
+          "slug": "doctrine",
+          "label": {
+            "zh": "军事太空条令",
+            "en": "Military space doctrine"
+          },
+          "order": 20060
+        }
+      },
+      {
+        "slug": "resilience-map",
+        "title": "Resilience Map",
+        "path": "/en/glossary/doctrine/resilience-map/",
         "category": {
           "slug": "doctrine",
           "label": {
@@ -5313,6 +4713,19 @@
         }
       },
       {
+        "slug": "ddpg",
+        "title": "Deep Deterministic Policy Gradient (DDPG)",
+        "path": "/en/glossary/dynamics/ddpg/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "deep-reinforcement-learning",
         "title": "Deep Reinforcement Learning",
         "path": "/en/glossary/dynamics/deep-reinforcement-learning/",
@@ -5472,6 +4885,19 @@
         "slug": "grc",
         "title": "Geocentric Rotating Coordinate System (GRC)",
         "path": "/en/glossary/dynamics/grc/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "hcpso",
+        "title": "Hybrid Cluster Particle Swarm Optimization (HCPSO)",
+        "path": "/en/glossary/dynamics/hcpso/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5729,6 +5155,19 @@
         }
       },
       {
+        "slug": "mo-mcts",
+        "title": "Multi-Objective Monte Carlo Tree Search (MO-MCTS)",
+        "path": "/en/glossary/dynamics/mo-mcts/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "monodromy-matrix",
         "title": "Monodromy Matrix",
         "path": "/en/glossary/dynamics/monodromy-matrix/",
@@ -5745,6 +5184,32 @@
         "slug": "newton-euler-equations",
         "title": "Newton-Euler Equations",
         "path": "/en/glossary/dynamics/newton-euler-equations/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "nsga-ii",
+        "title": "NSGA II (Non-dominated Sorting Genetic Algorithm II)",
+        "path": "/en/glossary/dynamics/nsga-ii/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "pareto-optimal",
+        "title": "Pareto Optimality",
+        "path": "/en/glossary/dynamics/pareto-optimal/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5820,6 +5285,58 @@
         }
       },
       {
+        "slug": "pontryagin-principle",
+        "title": "Pontryagin's Maximum Principle",
+        "path": "/en/glossary/dynamics/pontryagin-principle/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "pseudo-arclength-continuation",
+        "title": "Pseudo-Arclength Continuation",
+        "path": "/en/glossary/dynamics/pseudo-arclength-continuation/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "pursuit-evasion-game",
+        "title": "Spacecraft Pursuit-Evasion Game",
+        "path": "/en/glossary/dynamics/pursuit-evasion-game/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "q-law",
+        "title": "Q-Law Control Law",
+        "path": "/en/glossary/dynamics/q-law/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "qbcp",
         "title": "Quasi-Bicircular Problem (QBCP)",
         "path": "/en/glossary/dynamics/qbcp/",
@@ -5846,9 +5363,74 @@
         }
       },
       {
+        "slug": "reachable-set",
+        "title": "Reachable Set",
+        "path": "/en/glossary/dynamics/reachable-set/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "reduced-order-dynamics",
+        "title": "Reduced-Order Dynamic Equations",
+        "path": "/en/glossary/dynamics/reduced-order-dynamics/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "regional-station-keeping",
         "title": "Regional Station-keeping Control",
         "path": "/en/glossary/dynamics/regional-station-keeping/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "regularization",
+        "title": "Regularization",
+        "path": "/en/glossary/dynamics/regularization/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "rlepeso",
+        "title": "Reinforcement Learning Enhanced Particle Swarm Optimization (RLEPSO)",
+        "path": "/en/glossary/dynamics/rlepeso/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "saddle-point-strategy",
+        "title": "Saddle-Point Strategy",
+        "path": "/en/glossary/dynamics/saddle-point-strategy/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5950,6 +5532,19 @@
         }
       },
       {
+        "slug": "state-dependent-tsp",
+        "title": "State-Dependent Traveling Salesman Problem (SDTSP)",
+        "path": "/en/glossary/dynamics/state-dependent-tsp/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "state-transition-matrix",
         "title": "State Transition Matrix (STM)",
         "path": "/en/glossary/dynamics/state-transition-matrix/",
@@ -6028,6 +5623,19 @@
         }
       },
       {
+        "slug": "two-dominant-invariant-manifold",
+        "title": "Two-Dominant Invariant Manifold Method",
+        "path": "/en/glossary/dynamics/two-dominant-invariant-manifold/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "two-level-differential-correction",
         "title": "Two-Level Differential Correction Method",
         "path": "/en/glossary/dynamics/two-level-differential-correction/",
@@ -6067,6 +5675,19 @@
         }
       },
       {
+        "slug": "zero-effort-miss",
+        "title": "Zero-Effort Miss (ZEM)",
+        "path": "/en/glossary/dynamics/zero-effort-miss/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "zero-velocity-surface",
         "title": "Zero-Velocity Surface",
         "path": "/en/glossary/dynamics/zero-velocity-surface/",
@@ -6080,9 +5701,152 @@
         }
       },
       {
+        "slug": "absolute-range",
+        "title": "Absolute Range",
+        "path": "/en/glossary/fundamentals/absolute-range/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "aerodynamic-coefficient",
+        "title": "Aerodynamic Coefficient",
+        "path": "/en/glossary/fundamentals/aerodynamic-coefficient/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "aerodynamic-moment",
+        "title": "Aerodynamic Moment",
+        "path": "/en/glossary/fundamentals/aerodynamic-moment/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "aerospace-vehicle",
+        "title": "Aerospace Vehicle",
+        "path": "/en/glossary/fundamentals/aerospace-vehicle/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
         "slug": "allan-deviation",
         "title": "Allan Deviation (ADEV)",
         "path": "/en/glossary/fundamentals/allan-deviation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "ballistic-coefficient",
+        "title": "Ballistic Coefficient",
+        "path": "/en/glossary/fundamentals/ballistic-coefficient/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "bi-elliptic-transfer",
+        "title": "Bi-Elliptic Transfer",
+        "path": "/en/glossary/fundamentals/bi-elliptic-transfer/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "body-frame",
+        "title": "Body Frame",
+        "path": "/en/glossary/fundamentals/body-frame/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "celestial-coordinate-system",
+        "title": "Celestial Coordinate System",
+        "path": "/en/glossary/fundamentals/celestial-coordinate-system/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "celestial-sphere",
+        "title": "Celestial Sphere",
+        "path": "/en/glossary/fundamentals/celestial-sphere/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "characteristic-velocity",
+        "title": "Characteristic Velocity",
+        "path": "/en/glossary/fundamentals/characteristic-velocity/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "coverage-angle",
+        "title": "Coverage Angle",
+        "path": "/en/glossary/fundamentals/coverage-angle/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -6106,9 +5870,165 @@
         }
       },
       {
+        "slug": "earth-ellipsoid",
+        "title": "Earth Ellipsoid",
+        "path": "/en/glossary/fundamentals/earth-ellipsoid/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "earth-oblateness-perturbation",
+        "title": "Earth Oblateness Perturbation",
+        "path": "/en/glossary/fundamentals/earth-oblateness-perturbation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "ecef-frame",
+        "title": "Earth-Centered Earth-Fixed Frame (ECEF)",
+        "path": "/en/glossary/fundamentals/ecef-frame/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
         "slug": "einstein-equivalence-principle",
         "title": "Einstein Equivalence Principle (EEP)",
         "path": "/en/glossary/fundamentals/einstein-equivalence-principle/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "energy-parameter",
+        "title": "Energy Parameter",
+        "path": "/en/glossary/fundamentals/energy-parameter/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "finite-thrust-maneuver",
+        "title": "Finite Thrust Maneuver",
+        "path": "/en/glossary/fundamentals/finite-thrust-maneuver/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "free-flight-phase",
+        "title": "Free-Flight Phase",
+        "path": "/en/glossary/fundamentals/free-flight-phase/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "free-flight-trajectory",
+        "title": "Free-Flight Trajectory",
+        "path": "/en/glossary/fundamentals/free-flight-trajectory/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "frozen-orbit",
+        "title": "Frozen Orbit",
+        "path": "/en/glossary/fundamentals/frozen-orbit/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "gaussian-perturbation-equations",
+        "title": "Gaussian Perturbation Equations",
+        "path": "/en/glossary/fundamentals/gaussian-perturbation-equations/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "geocentric-inertial-frame",
+        "title": "Geocentric Inertial Frame",
+        "path": "/en/glossary/fundamentals/geocentric-inertial-frame/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "gps-time",
+        "title": "GPS Time",
+        "path": "/en/glossary/fundamentals/gps-time/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "gravitational-potential",
+        "title": "Gravitational Potential",
+        "path": "/en/glossary/fundamentals/gravitational-potential/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -6132,9 +6052,243 @@
         }
       },
       {
+        "slug": "gravity-turn",
+        "title": "Gravity Turn",
+        "path": "/en/glossary/fundamentals/gravity-turn/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "gravity-vs-gravitation",
+        "title": "Gravity vs Gravitation",
+        "path": "/en/glossary/fundamentals/gravity-vs-gravitation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
         "slug": "high-altitude-airship",
         "title": "High Altitude Airship (HAA)",
         "path": "/en/glossary/fundamentals/high-altitude-airship/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "hit-equation",
+        "title": "Hit Equation",
+        "path": "/en/glossary/fundamentals/hit-equation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "hohmann-transfer",
+        "title": "Hohmann Transfer",
+        "path": "/en/glossary/fundamentals/hohmann-transfer/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "inertial-navigation-system",
+        "title": "Inertial Navigation System",
+        "path": "/en/glossary/fundamentals/inertial-navigation-system/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "instantaneous-balance",
+        "title": "Instantaneous Balance Assumption",
+        "path": "/en/glossary/fundamentals/instantaneous-balance/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "isru",
+        "title": "In-Situ Resource Utilization (ISRU)",
+        "path": "/en/glossary/fundamentals/isru/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "julian-date",
+        "title": "Julian Date",
+        "path": "/en/glossary/fundamentals/julian-date/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "kepler-equation",
+        "title": "Kepler's Equation",
+        "path": "/en/glossary/fundamentals/kepler-equation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "kompsat",
+        "title": "Korea Multi-Purpose Satellite (KOMPSAT)",
+        "path": "/en/glossary/fundamentals/kompsat/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "lagrangian-perturbation-equations",
+        "title": "Lagrangian Perturbation Equations",
+        "path": "/en/glossary/fundamentals/lagrangian-perturbation-equations/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "launch-azimuth",
+        "title": "Launch Azimuth",
+        "path": "/en/glossary/fundamentals/launch-azimuth/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "launch-window",
+        "title": "Launch Window",
+        "path": "/en/glossary/fundamentals/launch-window/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "lift-to-drag-ratio",
+        "title": "Lift-to-Drag Ratio",
+        "path": "/en/glossary/fundamentals/lift-to-drag-ratio/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "load-factor",
+        "title": "Load Factor",
+        "path": "/en/glossary/fundamentals/load-factor/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "longitudinal-lateral-motion",
+        "title": "Longitudinal and Lateral Motion",
+        "path": "/en/glossary/fundamentals/longitudinal-lateral-motion/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "lunar-lander",
+        "title": "Lunar Lander",
+        "path": "/en/glossary/fundamentals/lunar-lander/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "minimum-energy-trajectory",
+        "title": "Minimum Energy Trajectory",
+        "path": "/en/glossary/fundamentals/minimum-energy-trajectory/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -6158,9 +6312,386 @@
         }
       },
       {
+        "slug": "newton-iteration-method",
+        "title": "Newton's Iteration Method",
+        "path": "/en/glossary/fundamentals/newton-iteration-method/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "nutation",
+        "title": "Nutation",
+        "path": "/en/glossary/fundamentals/nutation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "optimal-velocity-inclination",
+        "title": "Optimal Velocity Inclination",
+        "path": "/en/glossary/fundamentals/optimal-velocity-inclination/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "orbit-capture",
+        "title": "Orbit Capture",
+        "path": "/en/glossary/fundamentals/orbit-capture/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "orbit-insertion-conditions",
+        "title": "Orbit Insertion Conditions",
+        "path": "/en/glossary/fundamentals/orbit-insertion-conditions/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "orbital-elements",
+        "title": "Orbital Elements",
+        "path": "/en/glossary/fundamentals/orbital-elements/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "orbital-equation",
+        "title": "Orbital Equation",
+        "path": "/en/glossary/fundamentals/orbital-equation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "orbital-maneuver",
+        "title": "Orbital Maneuver",
+        "path": "/en/glossary/fundamentals/orbital-maneuver/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "orbital-phase",
+        "title": "Orbital Phase",
+        "path": "/en/glossary/fundamentals/orbital-phase/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "orbital-transfer-vehicle",
+        "title": "Orbital Transfer Vehicle",
+        "path": "/en/glossary/fundamentals/orbital-transfer-vehicle/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
         "slug": "passive-hydrogen-maser",
         "title": "Passive Hydrogen Maser (PHM)",
         "path": "/en/glossary/fundamentals/passive-hydrogen-maser/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "perturbation-motion",
+        "title": "Perturbation Motion",
+        "path": "/en/glossary/fundamentals/perturbation-motion/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "phasing-orbit",
+        "title": "Phasing Orbit",
+        "path": "/en/glossary/fundamentals/phasing-orbit/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "pitch-program",
+        "title": "Pitch Program Angle",
+        "path": "/en/glossary/fundamentals/pitch-program/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "powered-phase",
+        "title": "Powered Phase",
+        "path": "/en/glossary/fundamentals/powered-phase/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "precession",
+        "title": "Precession",
+        "path": "/en/glossary/fundamentals/precession/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "pressure-center",
+        "title": "Center of Pressure",
+        "path": "/en/glossary/fundamentals/pressure-center/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "range-error-coefficient",
+        "title": "Range Error Coefficient",
+        "path": "/en/glossary/fundamentals/range-error-coefficient/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "reentry-corridor",
+        "title": "Reentry Corridor",
+        "path": "/en/glossary/fundamentals/reentry-corridor/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "reentry-phase",
+        "title": "Reentry Phase",
+        "path": "/en/glossary/fundamentals/reentry-phase/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "repeat-ground-track-orbit",
+        "title": "Repeat Ground Track Orbit",
+        "path": "/en/glossary/fundamentals/repeat-ground-track-orbit/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "reusable-launch-vehicle",
+        "title": "Reusable Launch Vehicle",
+        "path": "/en/glossary/fundamentals/reusable-launch-vehicle/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "satellite-ring",
+        "title": "Satellite Ring",
+        "path": "/en/glossary/fundamentals/satellite-ring/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "sequential-quadratic-programming",
+        "title": "Sequential Quadratic Programming",
+        "path": "/en/glossary/fundamentals/sequential-quadratic-programming/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "skip-reentry",
+        "title": "Skip Reentry",
+        "path": "/en/glossary/fundamentals/skip-reentry/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "solar-exposure-factor",
+        "title": "Solar Exposure Factor",
+        "path": "/en/glossary/fundamentals/solar-exposure-factor/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "specific-angular-momentum",
+        "title": "Specific Angular Momentum",
+        "path": "/en/glossary/fundamentals/specific-angular-momentum/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "specific-impulse",
+        "title": "Specific Impulse",
+        "path": "/en/glossary/fundamentals/specific-impulse/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "stagnation-heat-flux",
+        "title": "Stagnation Heat Flux",
+        "path": "/en/glossary/fundamentals/stagnation-heat-flux/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "standard-atmosphere",
+        "title": "Standard Atmosphere",
+        "path": "/en/glossary/fundamentals/standard-atmosphere/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -6184,9 +6715,282 @@
         }
       },
       {
+        "slug": "subsatellite-track",
+        "title": "Subsatellite Track",
+        "path": "/en/glossary/fundamentals/subsatellite-track/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "sun-synchronous-orbit",
+        "title": "Sun-Synchronous Orbit",
+        "path": "/en/glossary/fundamentals/sun-synchronous-orbit/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "thrust-to-weight-ratio",
+        "title": "Thrust-to-Weight Ratio",
+        "path": "/en/glossary/fundamentals/thrust-to-weight-ratio/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "thrust",
+        "title": "Thrust",
+        "path": "/en/glossary/fundamentals/thrust/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "total-angle-of-attack",
+        "title": "Total Angle of Attack",
+        "path": "/en/glossary/fundamentals/total-angle-of-attack/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "trajectory-equation",
+        "title": "Trajectory Equation",
+        "path": "/en/glossary/fundamentals/trajectory-equation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "trajectory-optimization",
+        "title": "Trajectory Optimization",
+        "path": "/en/glossary/fundamentals/trajectory-optimization/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "trim-angle-of-attack",
+        "title": "Trim Angle of Attack",
+        "path": "/en/glossary/fundamentals/trim-angle-of-attack/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "true-anomaly",
+        "title": "True Anomaly",
+        "path": "/en/glossary/fundamentals/true-anomaly/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "tsiolkovsky-equation",
+        "title": "Tsiolkovsky Rocket Equation",
+        "path": "/en/glossary/fundamentals/tsiolkovsky-equation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "turning-program",
+        "title": "Powered Phase Turning Process",
+        "path": "/en/glossary/fundamentals/turning-program/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "two-body-problem",
+        "title": "Two-Body Problem",
+        "path": "/en/glossary/fundamentals/two-body-problem/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "utc",
+        "title": "Coordinated Universal Time",
+        "path": "/en/glossary/fundamentals/utc/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "variation-of-parameters",
+        "title": "Variation of Parameters",
+        "path": "/en/glossary/fundamentals/variation-of-parameters/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "velocity-frame",
+        "title": "Velocity Frame",
+        "path": "/en/glossary/fundamentals/velocity-frame/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "velocity-inclination-angle",
+        "title": "Velocity Inclination Angle",
+        "path": "/en/glossary/fundamentals/velocity-inclination-angle/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "vis-viva-equation",
+        "title": "Vis-Viva Equation",
+        "path": "/en/glossary/fundamentals/vis-viva-equation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "vleo",
+        "title": "Very Low Earth Orbit (VLEO)",
+        "path": "/en/glossary/fundamentals/vleo/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "walker-constellation",
+        "title": "Walker Constellation",
+        "path": "/en/glossary/fundamentals/walker-constellation/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "zero-angle-of-attack-reentry",
+        "title": "Zero-Angle-of-Attack Reentry",
+        "path": "/en/glossary/fundamentals/zero-angle-of-attack-reentry/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
         "slug": "altitude-regulation",
         "title": "Altitude Regulation",
         "path": "/en/glossary/navigation/altitude-regulation/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
+        "slug": "autonomous-navigation",
+        "title": "Autonomous Navigation",
+        "path": "/en/glossary/navigation/autonomous-navigation/",
         "category": {
           "slug": "navigation",
           "label": {
@@ -6223,6 +7027,32 @@
         }
       },
       {
+        "slug": "extended-kalman-filter",
+        "title": "Extended Kalman Filter (EKF)",
+        "path": "/en/glossary/navigation/extended-kalman-filter/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
+        "slug": "gagan",
+        "title": "GPS Aided GEO Augmented Navigation (GAGAN)",
+        "path": "/en/glossary/navigation/gagan/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
         "slug": "gnss-weak-signal-navigation",
         "title": "Earth GNSS Weak Signal Navigation",
         "path": "/en/glossary/navigation/gnss-weak-signal-navigation/",
@@ -6239,6 +7069,19 @@
         "slug": "inter-satellite-link-navigation",
         "title": "Inter-Satellite Link Navigation",
         "path": "/en/glossary/navigation/inter-satellite-link-navigation/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
+        "slug": "irnss",
+        "title": "Indian Regional Navigation Satellite System (IRNSS)",
+        "path": "/en/glossary/navigation/irnss/",
         "category": {
           "slug": "navigation",
           "label": {
@@ -6291,6 +7134,45 @@
         "slug": "moonlight",
         "title": "Moonlight Initiative",
         "path": "/en/glossary/navigation/moonlight/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
+        "slug": "observability",
+        "title": "Observability",
+        "path": "/en/glossary/navigation/observability/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
+        "slug": "pnt",
+        "title": "Positioning, Navigation, and Timing (PNT)",
+        "path": "/en/glossary/navigation/pnt/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
+        "slug": "sem-autonomous-navigation",
+        "title": "Sun-Earth-Moon Autonomous Navigation",
+        "path": "/en/glossary/navigation/sem-autonomous-navigation/",
         "category": {
           "slug": "navigation",
           "label": {
@@ -6431,6 +7313,19 @@
         }
       },
       {
+        "slug": "illumination-constraint",
+        "title": "Illumination Constraint",
+        "path": "/en/glossary/observation/illumination-constraint/",
+        "category": {
+          "slug": "observation",
+          "label": {
+            "zh": "天文观测技术",
+            "en": "Astronomy & observation"
+          },
+          "order": 20050
+        }
+      },
+      {
         "slug": "image-registration",
         "title": "Image Registration",
         "path": "/en/glossary/observation/image-registration/",
@@ -6460,6 +7355,19 @@
         "slug": "lunar-glare-zone",
         "title": "Lunar Glare Zone",
         "path": "/en/glossary/observation/lunar-glare-zone/",
+        "category": {
+          "slug": "observation",
+          "label": {
+            "zh": "天文观测技术",
+            "en": "Astronomy & observation"
+          },
+          "order": 20050
+        }
+      },
+      {
+        "slug": "pointing-constraint",
+        "title": "Pointing Constraint",
+        "path": "/en/glossary/observation/pointing-constraint/",
         "category": {
           "slug": "observation",
           "label": {
@@ -6600,6 +7508,19 @@
         }
       },
       {
+        "slug": "axial-orbit",
+        "title": "Axial Orbit",
+        "path": "/en/glossary/orbits/axial-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "ballistic-capture",
         "title": "Ballistic Capture Orbit",
         "path": "/en/glossary/orbits/ballistic-capture/",
@@ -6613,9 +7534,35 @@
         }
       },
       {
+        "slug": "butterfly-orbit",
+        "title": "Butterfly Orbit",
+        "path": "/en/glossary/orbits/butterfly-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "cycler-trajectory",
         "title": "Cycler Trajectory",
         "path": "/en/glossary/orbits/cycler-trajectory/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "dpo",
+        "title": "Distant Prograde Orbit (DPO)",
+        "path": "/en/glossary/orbits/dpo/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -6704,9 +7651,48 @@
         }
       },
       {
+        "slug": "horseshoe-orbit",
+        "title": "Horseshoe Orbit",
+        "path": "/en/glossary/orbits/horseshoe-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "hub-and-spoke",
+        "title": "Hub-and-Spoke",
+        "path": "/en/glossary/orbits/hub-and-spoke/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "lissajous-orbit",
         "title": "Lissajous Orbit (Lissajous 轨道)",
         "path": "/en/glossary/orbits/lissajous-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "lopo",
+        "title": "Low Prograde Orbit (LoPO)",
+        "path": "/en/glossary/orbits/lopo/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -6821,6 +7807,32 @@
         }
       },
       {
+        "slug": "polynomial-constraint-stationkeeping",
+        "title": "Polynomial Constraint Station-Keeping",
+        "path": "/en/glossary/orbits/polynomial-constraint-stationkeeping/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "primary-impulse-transfer",
+        "title": "Primary Impulse Orbit Transfer",
+        "path": "/en/glossary/orbits/primary-impulse-transfer/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "prograde",
         "title": "Prograde (顺行)",
         "path": "/en/glossary/orbits/prograde/",
@@ -6886,6 +7898,19 @@
         }
       },
       {
+        "slug": "vertical-orbit",
+        "title": "Vertical Orbit",
+        "path": "/en/glossary/orbits/vertical-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "anduril",
         "title": "Anduril Industries",
         "path": "/en/glossary/organizations/anduril/",
@@ -6912,6 +7937,19 @@
         }
       },
       {
+        "slug": "danuri",
+        "title": "Danuri Lunar Orbiter",
+        "path": "/en/glossary/organizations/danuri/",
+        "category": {
+          "slug": "organizations",
+          "label": {
+            "zh": "机构和组织",
+            "en": "Organizations"
+          },
+          "order": 20070
+        }
+      },
+      {
         "slug": "general-dynamics-mission-systems",
         "title": "General Dynamics Mission Systems",
         "path": "/en/glossary/organizations/general-dynamics-mission-systems/",
@@ -6928,6 +7966,32 @@
         "slug": "gitai-usa",
         "title": "GITAI USA",
         "path": "/en/glossary/organizations/gitai-usa/",
+        "category": {
+          "slug": "organizations",
+          "label": {
+            "zh": "机构和组织",
+            "en": "Organizations"
+          },
+          "order": 20070
+        }
+      },
+      {
+        "slug": "isro",
+        "title": "Indian Space Research Organisation",
+        "path": "/en/glossary/organizations/isro/",
+        "category": {
+          "slug": "organizations",
+          "label": {
+            "zh": "机构和组织",
+            "en": "Organizations"
+          },
+          "order": 20070
+        }
+      },
+      {
+        "slug": "kasa",
+        "title": "Korea Aerospace Administration",
+        "path": "/en/glossary/organizations/kasa/",
         "category": {
           "slug": "organizations",
           "label": {
@@ -7016,9 +8080,22 @@
         }
       },
       {
-        "slug": "true-anomaly",
+        "slug": "sriharikota",
+        "title": "Satish Dhawan Space Centre SHAR",
+        "path": "/en/glossary/organizations/sriharikota/",
+        "category": {
+          "slug": "organizations",
+          "label": {
+            "zh": "机构和组织",
+            "en": "Organizations"
+          },
+          "order": 20070
+        }
+      },
+      {
+        "slug": "true-anomaly-company",
         "title": "True Anomaly",
-        "path": "/en/glossary/organizations/true-anomaly/",
+        "path": "/en/glossary/organizations/true-anomaly-company/",
         "category": {
           "slug": "organizations",
           "label": {
