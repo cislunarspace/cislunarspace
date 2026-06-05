@@ -4,7 +4,7 @@ description: Detailed explanation of Lyapunov orbit definition, planar periodic 
 keywords: Lyapunov Orbit, libration point, planar periodic orbit, Halo orbit, three-body problem, orbital dynamics
 author: CislunarSpace
 date: 2026-04-29
-lastUpdated: 2026-04-29
+lastUpdated: 2026-06-05
 wechatShare:
   title: Lyapunov Orbit
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
@@ -45,6 +45,28 @@ Key characteristics of Lyapunov orbits in the CR3BP framework include:
 
 Lyapunov orbit families are parameterized by the initial displacement $x_0$ on the $x$-axis (relative to the libration point). When $x_0$ is small, the orbit approximates linearized simple harmonic oscillation; as $x_0$ increases, nonlinear effects become significant and the orbit shape deviates from elliptical.
 
+### Classification of Lyapunov Orbits
+
+Based on libration point locations in the Earth-Moon system, Lyapunov orbits can be classified into the following families:
+
+| Orbit Family | Libration Point | Characteristics |
+|:---|:---|:---|
+| Ly1 (Lyapunov L1) | L1 | Located between Earth and Moon along the line connecting them |
+| Ly2 (Lyapunov L2) | L2 | Located on the far side of the Moon, away from Earth |
+| Ly3 (Lyapunov L3) | L3 | Located on the far side of Earth, away from the Moon |
+
+### Orbital Parameter Characteristics
+
+For the Earth-Moon system, the main parameter ranges of Lyapunov orbit families (based on the dynamic catalog statistics by Guzzetti et al.) are as follows:
+
+| Orbit Family | Jacobi Constant Range | Period Range (days) | Stability Index |
+|:---|:---|:---|:---|
+| Ly1 | ~3.188 – 2.124 | Moderate | Relatively high |
+| Ly2 | ~3.172 – 2.881 | Moderate | Relatively high |
+| Ly3 | ~2.5 | Relatively long | Moderate |
+
+The Jacobi constant ranges of L1 and L2 Lyapunov orbits serve as important reference benchmarks for orbit comparison and selection in cislunar space. When the Jacobi constants of other orbit families (such as DRO, DPO, axial orbits, etc.) overlap with those of Lyapunov orbits, it suggests the existence of low-cost transfer corridors.
+
 ### Linearized Analysis of Lyapunov Orbits
 
 Near the libration point, the linearized CR3BP equations of motion have the following eigenvalue structure in the plane:
@@ -82,6 +104,7 @@ Lyapunov orbits have value in both theoretical research and practical missions:
 - **Invariant manifold analysis**: The stable and unstable manifolds of Lyapunov orbits form the skeleton of low-energy transfer channels near libration points
 - **Low-energy transfer design**: Using the invariant manifolds of Lyapunov orbits, low-energy transfer trajectories connecting different libration point regions can be designed
 - **Poincaré section analysis**: Lyapunov orbits are commonly used as reference orbits in Poincaré sections for analyzing the global structure of phase space
+- **Mission design reference**: In the dynamic catalog framework proposed by Guzzetti et al., the Jacobi constant ranges of L1/L2 Lyapunov orbits serve as key benchmarks for evaluating the accessibility of other orbit families
 - **Education and introduction**: As the simplest periodic orbit family at libration points, Lyapunov orbits are an ideal starting point for orbital mechanics education
 
 ## Related Concepts
