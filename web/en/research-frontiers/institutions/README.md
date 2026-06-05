@@ -17,5 +17,10 @@ wechatShare:
 The institution pages currently available are:
 
 - [Harbin Institute of Technology](/en/research-frontiers/institutions/hit/)
+- [Northwestern Polytechnical University](/en/research-frontiers/institutions/npu/)
+- [Tsinghua University](/en/research-frontiers/institutions/thu/)
+- [National University of Defense Technology](/en/research-frontiers/institutions/nudt/)
+- [Space Engineering University](/en/research-frontiers/institutions/seu/)
+- [DFH Satellite Co., Ltd.](/en/research-frontiers/institutions/dfhscl/)
 
 *More detailed content is under construction...*
