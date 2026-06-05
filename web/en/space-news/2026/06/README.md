@@ -13,6 +13,7 @@ lastUpdated: 2026-06-05
 
 | Date | Title |
 |------|-------|
+| 6-05 | [SpaceX sets IPO price at 135 dollars, valuing company at 1.77 trillion and trading June 12 on Nasdaq as SPCX](./2026-06-05-spacex-177t-ipo-spcx-pricing/) |
 | 6-05 | [Long March 8 launches 12th Qianfan batch from Hainan commercial spaceport](./2026-06-05-qianfan-12-batch-long-march-8/) |
 | 6-05 | [JWST Detects Methane on Interstellar Comet 3I/ATLAS for the First Time](./2026-06-05-3i-atlas-methane-jwst/) |
 | 6-04 | [Starlink 10-43 Completes Cape Canaveral Make-up Launch Outside 24-Hour Window: SpaceX Logs 619th Booster Recovery](./2026-06-04-starlink-10-43-cape-canaveral-success/) |

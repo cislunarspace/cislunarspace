@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-05 | [SpaceX IPO 招股价定为 135 美元 估值 1.77 万亿美元 6 月 12 日挂牌纳斯达克](./2026-06-05-spacex-177t-ipo-spcx-pricing/) |
 | 6-05 | [长征八号在海南成功发射千帆极轨 12 组卫星 海南商发首次承担千帆组网任务](./2026-06-05-qianfan-12-batch-long-march-8/) |
 | 6-05 | [3I/ATLAS 经近日点后甲烷被首次探测：JWST 揭示星际彗星的化学指纹](./2026-06-05-3i-atlas-methane-jwst/) |
 | 6-04 | [Starlink 10-43 在卡角 24 小时窗口外完成补飞：SpaceX 累计第 619 次一级回收](./2026-06-04-starlink-10-43-cape-canaveral-success/) |
