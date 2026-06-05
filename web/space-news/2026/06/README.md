@@ -18,15 +18,16 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 6-05 | [长征八号在海南成功发射千帆极轨 12 组卫星 海南商发首次承担千帆组网任务](./2026-06-05-qianfan-12-batch-long-march-8/) |
+| 6-04 | [Starlink 10-43 在卡角 24 小时窗口外完成补飞：SpaceX 累计第 619 次一级回收](./2026-06-04-starlink-10-43-cape-canaveral-success/) |
 | 6-04 | [3I/ATLAS 不是外星飞船：SETI 监听未发现任何「技术签名」](./2026-06-04-3i-atlas-seti-no-alien-signals/) |
 | 6-04 | [长征六号改一箭 18 星成功发射千帆极轨 11 组卫星 长征系列累计第 648 次飞行](./2026-06-04-qianfan-11-batch-long-march-6a/) |
 | 6-04 | [Mini-Neptune 系外行星被指是天然柴油机：JWST 观测指向 PAH 煤烟](./2026-06-04-exoplanet-soot-factories-jwst-mini-neptune/) |
 | 6-03 | [Starlink 17-47 从范登堡升空，SpaceX 完成第 618 次一级回收](./2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/) |
 | 6-04 | [撒哈拉陨石 NWA 12774 揭示早期太阳系失踪世界：富铝单斜辉石把 angrite 母体推向月球量级](./2026-06-04-sahara-meteorite-lost-solar-system-world/) |
-  6-04 | [欧几里得望远镜在球状星团 NGC 6397 中发现一片「失踪的恒星」：红矮星部分对流到完全对流过渡的观测证据](./2026-06-04-ngc6397-star-cluster-missing-stars/) |
-  6-04 | [NASA 局长 Isaacman 首度表态：Blue Moon 着陆器将与新格伦脱钩 寻找新发射载具](./2026-06-04-nasa-isaacman-blue-moon-launcher-swap/) |
-  6-04 | [中国可重复使用火箭进入密集试验期：朱雀三号遥二、星云一号、长征十号乙排队冲击回收](./2026-06-04-china-reusable-rocket-dense-test-window/) |
-  6-03 | [北京经开区召开太空算力企业座谈会：京东方、银河航天、蓝箭航天等共推太空算力创新中心落地](./2026-06-03-beijing-yizhuang-space-computing-symposium/) |
+| 6-04 | [欧几里得望远镜在球状星团 NGC 6397 中发现一片「失踪的恒星」：红矮星部分对流到完全对流过渡的观测证据](./2026-06-04-ngc6397-star-cluster-missing-stars/) |
+| 6-04 | [NASA 局长 Isaacman 首度表态：Blue Moon 着陆器将与新格伦脱钩 寻找新发射载具](./2026-06-04-nasa-isaacman-blue-moon-launcher-swap/) |
+| 6-04 | [中国可重复使用火箭进入密集试验期：朱雀三号遥二、星云一号、长征十号乙排队冲击回收](./2026-06-04-china-reusable-rocket-dense-test-window/) |
+| 6-03 | [北京经开区召开太空算力企业座谈会：京东方、银河航天、蓝箭航天等共推太空算力创新中心落地](./2026-06-03-beijing-yizhuang-space-computing-symposium/) |
 | 6-03 | [原始黑洞或许能「变」成白洞：宾州州立新研究给出最小质量阈值](./2026-06-03-black-holes-white-holes-penn-state/) |
 | 6-03 | [罗曼空间望远镜主镜终检通过：8 月底发射窗口打开，最后一程启程在即](./2026-06-03-roman-space-telescope-mirror-check/) |
 | 6-03 | [太阳24小时内连爆三次强耀斑：M9.3、M7.9、X1 接踵而至，NOAA 升 G3 地磁暴预警](./2026-06-03-sun-x1-flare-region-4455-cmes/) |
@@ -52,6 +53,7 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-05: 新增 Starlink 10-43 6/4 补飞结果稿（space.com 6/4 18:00 UTC 合并回顾）：6/3 上午 7:24 EDT 因冷锋触发积云云团+厚云层+表面电场规则被取消 31 小时后，10-43 于 6/4 美东 06:26（UTC 10:26）从 SLC-40 升空，29 颗 V2 Mini Optimized 卫星入轨，B1090 第 12 次飞行在 ASOG 无人船甲板着陆，标志 ASOG 第 153 次成功回收与 SpaceX 整个一级回收序列的第 619 次；与 6/3 OCISLY 第 200 次 / SpaceX 第 618 次形成 24 小时内两次东/西海岸回收
 - 2026-06-05: 新增 NWA 12774 angrite 陨石研究（CU Boulder Aaron Bell 团队，space.com 6/4 报道）：2019 年撒哈拉回收样本含富铝单斜辉石晶体，地球化学证据把 angrite 母体从"小行星"上推到"接近月球量级"的原行星胚胎，与地球、火星遵循截然不同的行星形成路径；这是早期太阳系"存在过、又被摧毁"的失踪世界首个直接地球化学证据
 - 2026-06-05: 新增 ESA Euclid 望远镜对球状星团 NGC 6397 的 H-R 图空隙发现（STScI 6/4 发布，space.com 报道）：红矮星序列中特定亮度档几乎完全缺失，与红矮星从"部分对流"过渡到"完全对流"时结构与光度的细微变化一致；该空隙为研究运动学时的 serendipitous 发现，非事先寻找目标
 - 2026-06-05: 新增 NASA 局长 Isaacman 6/4 FOX Business 采访报道（SFN 6/4 18:08 UTC）：首次公开表态"把 Blue Moon 与新格伦脱钩"——Blue Moon MK1 货运+ MK2 载人"可能"改用其他火箭，Artemis 3 仍按 2027 测试、2028 载人登月推进；Blue Origin CEO Dave Limp 6/1 社交媒体声明 LC-36 储罐完好、支援塔原地修复、年底前复飞；与 6/1 行业分析师稿（重大挫折/任务链承压）形成"NASA 切火箭"与"Blue Origin 修复"两条并行线索
