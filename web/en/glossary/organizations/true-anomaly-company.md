@@ -19,7 +19,7 @@ twitter:
   title: True Anomaly
   description: Introduction to True Anomaly's Jackal satellite and space defense technology
   image: /logo.png
-permalink: /en/glossary/organizations/true-anomaly/
+permalink: /en/glossary/organizations/true-anomaly-company/
 ---
 
 # True Anomaly

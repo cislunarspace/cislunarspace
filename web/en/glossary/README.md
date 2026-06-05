@@ -115,7 +115,7 @@ The number of entries is still growing. At the current stage, we prioritize high
 - [Raytheon Missiles & Defense](/en/glossary/organizations/raytheon/)
 - [Sci-Tec](/en/glossary/organizations/sci-tec/)
 - [SpaceX](/en/glossary/organizations/spacex/)
-- [True Anomaly](/en/glossary/organizations/true-anomaly/)
+- [True Anomaly](/en/glossary/organizations/true-anomaly-company/)
 - [Turion Space](/en/glossary/organizations/turion-space/)
 
 ### Space Transportation
