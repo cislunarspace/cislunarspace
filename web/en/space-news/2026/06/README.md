@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-04
-lastUpdated: 2026-06-04
+lastUpdated: 2026-06-05
 ---
 
 # June 2026
@@ -13,8 +13,9 @@ lastUpdated: 2026-06-04
 
 | Date | Title |
 |------|-------|
-| 6-04 | [China's reusable-rocket test campaign enters a dense phase: Zhuque-3 Y2, Xingyun-1 and Long March 10B queued for recovery attempts](./2026-06-04-china-reusable-rocket-dense-test-window/) |
-| 6-03 | [Beijing Yizhuang convenes space-computing symposium with BOE, Galaxy Space, LandSpace and others to operationalize its new space-computing innovation center](./2026-06-03-beijing-yizhuang-space-computing-symposium/) |
+| 6-04 | [NASA Administrator Isaacman: Blue Moon Landers to Be Decoupled from New Glenn, New Launcher Sought](./2026-06-04-nasa-isaacman-blue-moon-launcher-swap/) |
+  6-04 | [China's reusable-rocket test campaign enters a dense phase: Zhuque-3 Y2, Xingyun-1 and Long March 10B queued for recovery attempts](./2026-06-04-china-reusable-rocket-dense-test-window/) |
+  6-03 | [Beijing Yizhuang convenes space-computing symposium with BOE, Galaxy Space, LandSpace and others to operationalize its new space-computing innovation center](./2026-06-03-beijing-yizhuang-space-computing-symposium/) |
 | 6-03 | [Primordial Black Holes May Turn Into White Holes: Penn State Team Pinpoints the Minimum Mass Threshold](./2026-06-03-black-holes-white-holes-penn-state/) |
 | 6-03 | [Roman Space Telescope's Primary Mirror Passes Its Final Inspection, Clearing the Way for an Aug. 30 Launch](./2026-06-03-roman-space-telescope-mirror-check/) |
 | 6-03 | [Sun Unleashes 3 Major Solar Flares in 24 Hours: M9.3, M7.9, X1 From Region 4455 Trigger G3 Geomagnetic Storm Watch](./2026-06-03-sun-x1-flare-region-4455-cmes/) |
@@ -40,6 +41,7 @@ lastUpdated: 2026-06-04
 
 ## Update Log
 
+- 2026-06-05: Added NASA Administrator Isaacman June 4 FOX Business interview coverage (SFN 6/4 18:08 UTC): first public statement to "decouple the lander from the launch vehicle and the pad" — Blue Moon MK1 cargo and "potentially" MK2 crewed landers to shift off New Glenn onto another rocket, with Artemis 3 still targeted at a 2027 test mission and 2028 crewed lunar landing; paired with Blue Origin CEO Dave Limp's June 1 social-media statement that LC-36 propellant tanks are intact, the support tower can be repaired in place, and New Glenn will fly again before year-end. The NASA "swap the rocket" and Blue Origin "repair in place" threads now run in parallel alongside the June 1 industry-analyst piece (which framed the incident as a "pretty significant setback" for the Blue Moon program)
 - 2026-06-04: Added China's reusable-rocket dense-test-window feature (CLS 6/3 pre-market note + LandSpace 5/13 Y2 factory-departure announcement + 220-tonne Lanyan methalox full-flow staged-combustion engine long-duration test-fire completed 2/2026 + 6/1 Long March 12B maiden flight which validated the return-leg aerodynamic shape): Zhuque-3 Y2 targeting first-half recovery + Q4 first-reuse flight; Deep Blue Aerospace Xingyun-1, CAS Space Lijian-family derivatives and CASC Commercial Long March 10B also queued
 - 2026-06-04: Added Beijing Yizhuang 6/3 space-computing industry symposium coverage (Pengpai / CLS 6/3): BOE, Galaxy Space, LandSpace, Galactic Energy, Guanyu Xinsuan, CXMT and other heads of supply chain aligned on the construction of the Beijing Space Computing Innovation Center, paired with the 5/31 Xinhua Economic Information Daily disclosure of the Beijing Space Intelligent Computing Research Institute and the 6/1 Haidian Beijing Space Computing Industry Innovation Center (BUPT + Tsinghua + Galaxy Space). The two-week sequence establishes the "Haidian writes the algorithms, Yizhuang builds the satellites" pattern
 - 2026-06-04: Added Penn State Eberly College of Science physicist Daniel Paraizo and colleagues' primordial-black-hole-to-white-hole theory paper (arXiv preprint, space.com 6/3 coverage): semi-classical model of Hawking-radiation lifetimes shows PBHs reaching the Planck mass enter a stable end-state "indistinguishable from a white hole" when viewed from afar
