@@ -78,7 +78,7 @@ True Anomaly's connection to the cislunar space domain is primarily at the defen
 
 ## Related Terms
 
-- Orbital Game: [/en/research-frontiers/security-governance/orbital-game/](/en/research-frontiers/security-governance/orbital-game/)
+- Orbital Game: [/en/research-frontiers/directions/security-governance/orbital-game/](/en/research-frontiers/directions/security-governance/orbital-game/)
 - Space Traffic Management: [/en/glossary/other/space-traffic-management/](/en/glossary/other/space-traffic-management/)
 
 ## References

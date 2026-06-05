@@ -35,7 +35,7 @@ The JPL Ephemeris (Development Ephemerides) is high-precision planetary and luna
 
 ### Available Versions
 
-#### DE405 (Recommended for Earth-Moon Missions)
+#### DE405 (For General Earth-Moon Missions)
 - **Time Coverage**: 1600–2200
 - **Accuracy**: Lunar position accuracy ~2–5 meters
 - **Use Cases**: Most cislunar space mission analysis
@@ -57,13 +57,32 @@ The JPL Ephemeris (Development Ephemerides) is high-precision planetary and luna
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de421/
   ```
 
-#### DE430 (Latest Version)
+#### DE430
 - **Time Coverage**: 1550–2650
 - **Accuracy**: Lunar position accuracy ~0.5 meters
 - **Features**: Includes lunar libration data
 - **Download Links**:
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de430/
+  ```
+
+#### DE440 (Recommended for High-Precision Missions)
+- **Time Coverage**: 1550–2650
+- **Accuracy**: Lunar position accuracy ~0.1 meters
+- **Features**: Based on longer observation arcs and improved lunar ephemeris fitting, suitable for high-precision cislunar missions
+- **Reference**: Park et al., 2021
+- **Download Links**:
+  ```bash
+  ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de440/
+  ```
+
+#### DE441
+- **Time Coverage**: ~13200 BCE – ~17191 CE
+- **Accuracy**: Comparable to DE440, with extremely long time span
+- **Features**: Suitable for historical lookback and long-term orbit evolution studies
+- **Download Links**:
+  ```bash
+  ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de441/
   ```
 
 ### Data Format Description

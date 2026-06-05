@@ -17,8 +17,8 @@ Basilisk 是 JPL（NASA 喷气推进实验室）开发的高级航天器动力�
 
 - **许可证**：NASA Open Source Agreement
 - **来源**：JPL / NASA
-- **官网**：https://bsk-lair.com/
-- **GitHub**：https://github.com/AstroYuvPA/basilisk
+- **官网**：https://avslab.github.io/basilisk/
+- **GitHub**：https://github.com/AVSLab/basilisk
 
 ## 主要功能
 
@@ -34,5 +34,5 @@ Basilisk 是 JPL（NASA 喷气推进实验室）开发的高级航天器动力�
 
 ## 官方资源
 
-- 官网：https://bsk-lair.com/
-- GitHub：https://github.com/AstroYuvPA/basilisk
+- 官网：https://avslab.github.io/basilisk/
+- GitHub：https://github.com/AVSLab/basilisk

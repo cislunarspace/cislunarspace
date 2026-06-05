@@ -88,7 +88,7 @@ SpaceX 是地月空间经济开发最直接的驱动者之一：
 
 ## 相关术语
 
-- 阿尔忒弥斯计划: [/research-frontiers/directions/orbital-game/artemis/](/research-frontiers/directions/orbital-game/artemis/)
+- 阿尔忒弥斯计划: [/research-frontiers/directions/security-governance/orbital-game/artemis/](/research-frontiers/directions/security-governance/orbital-game/artemis/)
 - 近直线晕轨道: [/glossary/orbits/nrho/](/glossary/orbits/nrho/)
 - 远距离逆行轨道: [/glossary/orbits/dro/](/glossary/orbits/dro/)
 
@@ -125,7 +125,7 @@ SpaceX 是地月空间经济开发最直接的驱动者之一，可重复使用�
 
 ## 相关概念
 
-- [阿尔忒弥斯计划](/glossary/programs/artemis/)
+- [阿尔忒弥斯计划](/research-frontiers/directions/security-governance/orbital-game/artemis/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 

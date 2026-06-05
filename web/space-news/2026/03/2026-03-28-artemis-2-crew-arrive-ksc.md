@@ -54,7 +54,6 @@ Artemis II 不会尝试绕月飞行或着陆，而是采用"自由返回"轨迹�
 
 - [NASA Artemis II 载人绕月任务进入最后一周倒计时](./2026-03-27-artemis-2-one-week-away/)
 - [NASA 正在开发首个核动力星际飞船](./2026-03-27-nasa-nuclear-spacecraft/)
-- [NASA 公布 200 亿美元月球基地计划](./2026-03-24-nasa-moon-base-plan/)
 
 ## 信息来源（原文）
 

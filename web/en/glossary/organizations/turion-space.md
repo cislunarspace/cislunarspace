@@ -76,7 +76,7 @@ Turion Space's technology connects to cislunar space in the following ways:
 
 ## Related Terms
 
-- Orbital Game: [/en/research-frontiers/security-governance/orbital-game/](/en/research-frontiers/security-governance/orbital-game/)
+- Orbital Game: [/en/research-frontiers/directions/security-governance/orbital-game/](/en/research-frontiers/directions/security-governance/orbital-game/)
 - Space Traffic Management: [/en/glossary/other/space-traffic-management/](/en/glossary/other/space-traffic-management/)
 - Distant Retrograde Orbit: [/en/glossary/orbits/dro/](/en/glossary/orbits/dro/)
 

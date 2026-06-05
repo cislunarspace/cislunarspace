@@ -63,11 +63,11 @@ export function buildRouteTable(files: MarkdownFile[]): Map<string, string> {
   for (const file of files) {
     const permalink = extractFrontmatterField(file.content, 'permalink')
 
+    const fileRoute = filePathToRoute(file.relPath)
+    if (fileRoute) table.set(fileRoute, file.relPath)
+
     if (permalink) {
       table.set(permalink, file.relPath)
-    } else {
-      const route = filePathToRoute(file.relPath)
-      if (route) table.set(route, file.relPath)
     }
   }
 
@@ -309,21 +309,29 @@ function resolveOneLink(
   kind: 'link' | 'image' = 'link',
   fsRoot: string | null = null,
 ): { resolved: string | null; status: LinkStatus; error: string | null } {
+  const normalizedTarget = target.trim()
+
   // External link
-  if (/^https?:\/\//i.test(target)) {
+  if (/^https?:\/\//i.test(normalizedTarget)) {
     return { resolved: null, status: 'external', error: null }
   }
 
   // Strip anchor fragment
-  const [pathPart, anchor] = splitAnchor(target)
+  const [pathPart, anchor] = splitAnchor(normalizedTarget)
   const hasAnchor = anchor !== null
 
-  // For images with absolute paths, check filesystem (web/public/)
+  // For images with absolute paths, check filesystem (web/.vuepress/public/ first, then web/)
   if (kind === 'image' && fsRoot && pathPart.startsWith('/')) {
-    const absFile = path.join(fsRoot, 'public', pathPart)
-    if (fs.existsSync(absFile)) {
+    const publicFile = path.join(fsRoot, '.vuepress', 'public', pathPart)
+    if (fs.existsSync(publicFile)) {
       return { resolved: pathPart, status: 'ok', error: null }
     }
+
+    const sourceFile = path.join(fsRoot, pathPart)
+    if (fs.existsSync(sourceFile)) {
+      return { resolved: pathPart, status: 'ok', error: null }
+    }
+
     return { resolved: null, status: 'broken', error: 'file-not-found' }
   }
 
@@ -359,9 +367,11 @@ function resolveOneLink(
       const isDirIndex = /(?:^|\/)(?:README|index)\.md$/.test(sourceRelPath)
       const parentDir = isDirIndex
         ? sourceRoute
-        : new URL('..', 'file://' + sourceRoute).pathname
+        : path.posix.dirname(sourceRoute) + '/'
       const resolvedRoute = new URL(pathPart, 'file://' + parentDir).pathname
-      const file = routeTable.get(resolvedRoute) ?? routeTable.get(resolvedRoute + '/')
+      const file = routeTable.get(resolvedRoute)
+        ?? routeTable.get(resolvedRoute + '/')
+        ?? routeTable.get(resolvedRoute.replace(/\/$/, ''))
       if (file) {
         return {
           resolved: file,
@@ -426,7 +436,7 @@ export function collectMarkdownFiles(root: string): MarkdownFile[] {
   function walk(dir: string): void {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       if (entry.isDirectory()) {
-        if (excludes.includes(entry.name)) continue
+        if (excludes.includes(entry.name) || entry.name.startsWith('_')) continue
         walk(path.join(dir, entry.name))
       } else if (entry.isFile() && entry.name.endsWith('.md')) {
         if (entry.name.startsWith('_')) continue

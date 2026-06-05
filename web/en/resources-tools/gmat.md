@@ -36,4 +36,4 @@ GMAT (General Mission Analysis Tool) is an open-source space mission design, opt
 
 - Website: https://gmat.sourceforge.net/
 - GitHub: https://github.com/NASA-AMMOS/GMAT
-- Latest version: R2024a
+- Latest version: R2026a

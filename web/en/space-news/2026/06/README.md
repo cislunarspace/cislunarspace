@@ -3,7 +3,7 @@ title: Space News · June 2026
 description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
-date: 2026-06-04
+date: 2026-06-05
 lastUpdated: 2026-06-05
 ---
 
@@ -13,7 +13,9 @@ lastUpdated: 2026-06-05
 
 | Date | Title |
 |------|-------|
-| 6-04 | [NASA Administrator Isaacman: Blue Moon Landers to Be Decoupled from New Glenn, New Launcher Sought](./2026-06-04-nasa-isaacman-blue-moon-launcher-swap/) |
+| 6-04 | [Sahara Meteorite NWA 12774 Reveals Evidence of a Lost Solar System World: Aluminum-Rich Clinopyroxene Pushes the Angrite Parent Body Toward Lunar Mass](./2026-06-04-sahara-meteorite-lost-solar-system-world/) |
+  6-04 | [Euclid Telescope Finds a Missing Patch of Stars in Globular Cluster NGC 6397: Evidence of the Partially-to-Fully Convective Transition in Red Dwarfs](./2026-06-04-ngc6397-star-cluster-missing-stars/) |
+  6-04 | [NASA Administrator Isaacman: Blue Moon Landers to Be Decoupled from New Glenn, New Launcher Sought](./2026-06-04-nasa-isaacman-blue-moon-launcher-swap/) |
   6-04 | [China's reusable-rocket test campaign enters a dense phase: Zhuque-3 Y2, Xingyun-1 and Long March 10B queued for recovery attempts](./2026-06-04-china-reusable-rocket-dense-test-window/) |
   6-03 | [Beijing Yizhuang convenes space-computing symposium with BOE, Galaxy Space, LandSpace and others to operationalize its new space-computing innovation center](./2026-06-03-beijing-yizhuang-space-computing-symposium/) |
 | 6-03 | [Primordial Black Holes May Turn Into White Holes: Penn State Team Pinpoints the Minimum Mass Threshold](./2026-06-03-black-holes-white-holes-penn-state/) |
@@ -41,6 +43,8 @@ lastUpdated: 2026-06-05
 
 ## Update Log
 
+- 2026-06-05: Added NWA 12774 angrite meteorite study (CU Boulder, Aaron Bell et al., space.com 6/4 coverage): a 2019 Sahara-recovered sample carries clinopyroxene crystals exceptionally rich in aluminum — a geobarometer that pushes the angrite parent body from "asteroid-sized" up toward a near-lunar-mass protoplanet, following a planetary-formation pathway distinct from Earth and Mars. The first direct geochemical evidence of an "existed once, destroyed later" lost world in the early solar system
+- 2026-06-05: Added ESA Euclid observation of a brightness gap in the H-R diagram of globular cluster NGC 6397 (STScI 6/4 release, space.com coverage): a specific red-dwarf brightness slot is almost completely empty, consistent with the structural transition from partially convective to fully convective stellar interiors. The gap was a serendipitous byproduct of a proper-motion survey, not a planned target
 - 2026-06-05: Added NASA Administrator Isaacman June 4 FOX Business interview coverage (SFN 6/4 18:08 UTC): first public statement to "decouple the lander from the launch vehicle and the pad" — Blue Moon MK1 cargo and "potentially" MK2 crewed landers to shift off New Glenn onto another rocket, with Artemis 3 still targeted at a 2027 test mission and 2028 crewed lunar landing; paired with Blue Origin CEO Dave Limp's June 1 social-media statement that LC-36 propellant tanks are intact, the support tower can be repaired in place, and New Glenn will fly again before year-end. The NASA "swap the rocket" and Blue Origin "repair in place" threads now run in parallel alongside the June 1 industry-analyst piece (which framed the incident as a "pretty significant setback" for the Blue Moon program)
 - 2026-06-04: Added China's reusable-rocket dense-test-window feature (CLS 6/3 pre-market note + LandSpace 5/13 Y2 factory-departure announcement + 220-tonne Lanyan methalox full-flow staged-combustion engine long-duration test-fire completed 2/2026 + 6/1 Long March 12B maiden flight which validated the return-leg aerodynamic shape): Zhuque-3 Y2 targeting first-half recovery + Q4 first-reuse flight; Deep Blue Aerospace Xingyun-1, CAS Space Lijian-family derivatives and CASC Commercial Long March 10B also queued
 - 2026-06-04: Added Beijing Yizhuang 6/3 space-computing industry symposium coverage (Pengpai / CLS 6/3): BOE, Galaxy Space, LandSpace, Galactic Energy, Guanyu Xinsuan, CXMT and other heads of supply chain aligned on the construction of the Beijing Space Computing Innovation Center, paired with the 5/31 Xinhua Economic Information Daily disclosure of the Beijing Space Intelligent Computing Research Institute and the 6/1 Haidian Beijing Space Computing Industry Innovation Center (BUPT + Tsinghua + Galaxy Space). The two-week sequence establishes the "Haidian writes the algorithms, Yizhuang builds the satellites" pattern

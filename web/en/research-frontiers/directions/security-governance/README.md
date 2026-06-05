@@ -24,4 +24,4 @@ Militarization trends and commercial development in cislunar space raise new sec
 
 | Subtopic | Description |
 |----------|-------------|
-| *Coming soon* | |
+| [Strategic Studies](./strategy.md) | Cislunar security strategy and policy analysis |

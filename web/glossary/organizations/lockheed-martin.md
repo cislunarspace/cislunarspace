@@ -85,7 +85,7 @@ permalink: /glossary/organizations/lockheed-martin/
 
 - 核热推进: [/glossary/other/nuclear-thermal-propulsion/](/glossary/other/nuclear-thermal-propulsion/)
 - 近直线晕轨道: [/glossary/orbits/nrho/](/glossary/orbits/nrho/)
-- 阿尔忒弥斯计划: [/research-frontiers/directions/orbital-game/artemis/](/research-frontiers/directions/orbital-game/artemis/)
+- 阿尔忒弥斯计划: [/research-frontiers/directions/security-governance/orbital-game/artemis/](/research-frontiers/directions/security-governance/orbital-game/artemis/)
 
 ## 定义
 
@@ -122,7 +122,7 @@ permalink: /glossary/organizations/lockheed-martin/
 
 - [核热推进](/glossary/other/nuclear-thermal-propulsion/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
-- [阿尔忒弥斯计划](/glossary/programs/artemis/)
+- [阿尔忒弥斯计划](/research-frontiers/directions/security-governance/orbital-game/artemis/)
 
 ## 参考文献
 

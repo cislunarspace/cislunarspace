@@ -75,7 +75,7 @@ Anduril is competing for multiple on-orbit service contracts with the U.S. Space
 ## Related Terms
 
 - Space Situational Awareness: [/en/glossary/other/space-traffic-management/](/en/glossary/other/space-traffic-management/)
-- Orbital Game: [/en/research-frontiers/security-governance/orbital-game/](/en/research-frontiers/security-governance/orbital-game/)
+- Orbital Game: [/en/research-frontiers/directions/security-governance/orbital-game/](/en/research-frontiers/directions/security-governance/orbital-game/)
 
 ## References
 
