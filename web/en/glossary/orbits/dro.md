@@ -33,11 +33,11 @@ permalink: /en/glossary/orbits/dro/
 A Distant Retrograde Orbit (DRO) is a **stable periodic orbit** around the Moon in the Circular Restricted Three-Body Problem (CRTBP). In the synodic reference frame, a DRO moves in the opposite direction to the Moon's orbit around Earth, hence the term "retrograde" orbit.
 
 
-![DRO Orbit Schematic](/glossary/Figures/DRO/DRO示意图.png)
+![DRO Orbit Schematic](../../glossary/Figures/DRO/DRO示意图.png)
 *DRO orbit shape in the Earth-Moon synodic reference frame*
 
 
-![Schematic of barycentric rotating reference frame and DRO orbit](/glossary/Figures/DRO/质心旋转坐标系及DRO轨道示意图.png)
+![Schematic of barycentric rotating reference frame and DRO orbit](../../glossary/Figures/DRO/质心旋转坐标系及DRO轨道示意图.png)
 *Geometric configuration of DRO in the barycentric rotating reference frame*
 
 

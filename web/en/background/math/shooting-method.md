@@ -51,7 +51,7 @@ The shooting method is typically combined with **arc-length continuation** and *
 - [Arc-length Continuation](./continuation/)
 - [Symplectic Integrator](./symplectic-integrator/)
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
-- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/nrho/)
+- [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References

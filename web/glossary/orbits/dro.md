@@ -32,10 +32,10 @@ permalink: /glossary/orbits/dro/
 
 远距离逆行轨道（Distant Retrograde Orbit，DRO）是圆形限制性三体问题（CRTBP）中一类环绕月球的**稳定周期轨道**。在会合坐标系中，DRO 的运行方向与月球绕地球公转方向相反，因此称为"逆行"轨道。DRO 属于月心轨道（Moon-Centered Orbits）家族，与 DPO（远距离顺行轨道）、LoPO（低顺行轨道）共同构成了地月空间月心周期轨道的主要类别。
 
-![DRO 轨道示意图](/glossary/Figures/DRO/DRO示意图.png)
+![DRO 轨道示意图](../Figures/DRO/DRO示意图.png)
 *DRO 在地月会合坐标系中的轨道形态*
 
-![质心旋转坐标系及 DRO 轨道示意图](/glossary/Figures/DRO/质心旋转坐标系及DRO轨道示意图.png)
+![质心旋转坐标系及 DRO 轨道示意图](../Figures/DRO/质心旋转坐标系及DRO轨道示意图.png)
 *DRO 在质心旋转坐标系中的几何构型*
 
 ## 几何特征

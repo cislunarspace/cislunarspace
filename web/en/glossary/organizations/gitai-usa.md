@@ -75,7 +75,7 @@ GITAI is one of the most directly cislunar-related commercial companies:
 
 ## Related Terms
 
-- Orbital Game: [/en/research-frontiers/directions/orbital-game/](/en/research-frontiers/directions/orbital-game/)
+- Orbital Game: [/en/research-frontiers/security-governance/orbital-game/](/en/research-frontiers/security-governance/orbital-game/)
 - Space Traffic Management: [/en/glossary/other/space-traffic-management/](/en/glossary/other/space-traffic-management/)
 
 ## References

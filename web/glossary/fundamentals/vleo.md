@@ -112,7 +112,7 @@ VLEO适合微重力和材料科学实验：
 
 ## 相关概念
 
-- [低地球轨道（LEO）](/glossary/fundamentals/leo/)
+- [低地球轨道（LEO）](/glossary/other/leo/)
 - [太阳同步轨道（SSO）](/glossary/fundamentals/sun-synchronous-orbit/)
 - [轨道寿命（Orbital Lifetime）](/glossary/fundamentals/orbital-elements/)
 - [大气阻力（Atmospheric Drag）](/glossary/fundamentals/perturbation-motion/)

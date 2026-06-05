@@ -85,7 +85,7 @@ Lockheed Martin is one of the most central contractors in the cislunar space mis
 
 - Nuclear Thermal Propulsion: [/en/glossary/other/nuclear-thermal-propulsion/](/en/glossary/other/nuclear-thermal-propulsion/)
 - Near-Rectilinear Halo Orbit: [/en/glossary/orbits/nrho/](/en/glossary/orbits/nrho/)
-- Artemis Program: [/en/research-frontiers/directions/orbital-game/artemis/](/en/research-frontiers/directions/orbital-game/artemis/)
+- Artemis Program: [/en/research-frontiers/security-governance/orbital-game/artemis/](/en/research-frontiers/security-governance/orbital-game/artemis/)
 
 ## References
 

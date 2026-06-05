@@ -141,7 +141,7 @@ PNT in cislunar space faces unique challenges:
 - [X-ray Pulsar Navigation](/en/glossary/navigation/xray-pulsar-navigation/)
 - [BeiDou Satellite System](/en/glossary/communication/beidou-satellite-system/)
 - [Inter-Satellite Link](/en/glossary/communication/inter-satellite-link/)
-- [LEO Navigation Augmentation](/en/glossary/navigation/lEO-navigation/)
+- [LEO Navigation Augmentation](/en/glossary/navigation/LEO-navigation/)
 
 ## References
 

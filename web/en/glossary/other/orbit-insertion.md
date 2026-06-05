@@ -99,7 +99,7 @@ Orbit insertion is a critical element in all orbital transfer missions, particul
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Impulsive Maneuver](/en/glossary/dynamics/impulsive-maneuver/)
 - [Powered Lunar Flyby (PLF)](/en/glossary/other/powered-lunar-flyby/)
-- [Tsiolkovsky Rocket Equation](/en/glossary/tsiolkovsky-equation/)
+- [Tsiolkovsky Rocket Equation](/en/glossary/fundamentals/tsiolkovsky-equation/)
 
 ## References
 

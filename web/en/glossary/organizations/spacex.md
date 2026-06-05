@@ -88,7 +88,7 @@ SpaceX is one of the most direct drivers of cislunar space economic development:
 
 ## Related Terms
 
-- Artemis Program: [/en/research-frontiers/directions/orbital-game/artemis/](/en/research-frontiers/directions/orbital-game/artemis/)
+- Artemis Program: [/en/research-frontiers/security-governance/orbital-game/artemis/](/en/research-frontiers/security-governance/orbital-game/artemis/)
 - Near-Rectilinear Halo Orbit: [/en/glossary/orbits/nrho/](/en/glossary/orbits/nrho/)
 - Distant Retrograde Orbit: [/en/glossary/orbits/dro/](/en/glossary/orbits/dro/)
 

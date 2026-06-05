@@ -46,7 +46,7 @@ This navigation method is particularly valuable for deep-space missions where gr
 
 ## Related Concepts
 
-- [Libration Point](/en/glossary/orbits/libration-point/)
+- [Libration Point](/en/glossary/dynamics/libration-point/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 
 ## References

@@ -61,7 +61,7 @@ Due to large volume and light weight, the inertia matrix has distinct characteri
 ## Related Concepts
 
 - [Six-DOF Motion Equations](/en/glossary/dynamics/six-dof-motion-equations/)
-- [Aerodynamic Force/Coefficient](/en/glossary/dynamics/aerodynamic-coefficient/)
+- [Aerodynamic Force/Coefficient](/en/glossary/fundamentals/aerodynamic-coefficient/)
 
 ## References
 

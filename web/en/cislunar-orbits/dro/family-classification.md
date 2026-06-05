@@ -66,7 +66,7 @@ For a given L1/L2 DRO, its northern and southern families share identical dynami
 
 ## Orbit Family Illustration
 
-![DRO orbit schematic](/glossary/Figures/DRO/质心旋转坐标系及DRO轨道示意图.png)
+![DRO orbit schematic](../../glossary/Figures/DRO/质心旋转坐标系及DRO轨道示意图.png)
 
 The figure above shows the morphology of DRO orbits in the Earth-Moon rotating frame, clearly demonstrating their retrograde characteristic (motion opposite to the rotating frame).
 

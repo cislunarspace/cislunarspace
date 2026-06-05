@@ -141,7 +141,7 @@ PNT是定位（Positioning）、导航（Navigation）和授时（Timing）的�
 - [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
 - [北斗卫星系统](/glossary/communication/beidou-satellite-system/)
 - [Inter-Satellite Link（星间链路）](/glossary/communication/inter-satellite-link/)
-- [低轨导航增强](/glossary/navigation/lEO-navigation/)
+- [低轨导航增强](/glossary/navigation/LEO-navigation/)
 
 ## 参考文献
 
