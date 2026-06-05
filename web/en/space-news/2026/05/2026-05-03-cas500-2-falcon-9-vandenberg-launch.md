@@ -10,7 +10,7 @@ permalink: /en/space-news/2026/05/2026-05-03-cas500-2-falcon-9-vandenberg-launch
 author: Tianjiangshuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
-category: [spacex, launch, commercial]
+category: [spacex, launch]
 image: ./figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg
 ---
 

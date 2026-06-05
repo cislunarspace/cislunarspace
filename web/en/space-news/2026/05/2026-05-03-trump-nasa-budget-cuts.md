@@ -10,7 +10,7 @@ permalink: /en/space-news/2026/05/2026-05-03-trump-nasa-budget-cuts/
 author: Tianjiangshuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
-category: NASA
+category: policy
 tags:
   - NASA
   - Budget

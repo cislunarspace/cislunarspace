@@ -1,0 +1,1911 @@
+{
+  "generatedAt": "2026-06-05T01:02:12.327Z",
+  "summary": {
+    "total": 237,
+    "bySeverity": {
+      "error": 217,
+      "warning": 20
+    },
+    "byDimension": {
+      "single-file": 237
+    }
+  },
+  "issues": [
+    {
+      "filePath": "en/space-news/2025/03/2025-03-26-china-tianlian-ii-04.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/03/2025-03-26-cygnus-ng-22-canceled.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/03/2025-03-26-spacex-starlink-vandenberg.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/03/2025-03-27-nasa-spacex-crew-11.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/04/2025-04-01-spacex-fram2.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/04/2025-04-24-shenzhou-20.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/05/2025-05-09-change-5-samples-uk.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/05/2025-05-11-yaogan-40-02.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/05/2025-05-13-tongce-19.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/05/2025-05-14-space-computing-constellation.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/05/2025-05-27-starship-flight-9.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/07/2025-07-14-tianzhou-9.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/08/2025-08-01-spacex-crew-11.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/08/2025-08-26-starship-flight-10.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/10/2025-10-11-gravity-1.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/10/2025-10-13-starship-flight-11.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/11/2025-11-13-new-glenn-escapade.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/11/2025-11-25-shenzhou-22.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2025/12/2025-12-03-zhuque-3.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-13-china-shiyan-30-03-04.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-13-spacex-starlink-17-31.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-15-china-yaogan-50-02.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-16-china-kuizhou-11-yao7.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-16-china-shenzhou-21-eva.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-16-spacex-starlink-17-24.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-17-spacex-starlink-10-46.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-18-nasa-eva-94-iss.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-19-nasa-artemis-2-sls-rollout.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-19-spacex-starlink-10-33.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-20-spacex-starlink-17-15.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-22-spacex-starlink-10-62.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-24-roscosmos-progress-94-iss.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-25-cavossa-commercial-space.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-27-artemis-2-crew-suits.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-27-artemis-2-one-week-away.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-27-esa-celeste-rocket-lab-launch-preview.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-28-celeste-rocket-lab-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-28-mike-fincke-medical-event.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-30-artemis-2-final-preparations.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-30-spacex-transporter-16.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-31-artemis-2-countdown-begins.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-31-artemis-2-solar-flare.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-31-iss-expedition-74-week.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-03-tianlong-3-maiden-flight.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-05-zhuque-3-reuse-test.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-09-chang-e7-arrive.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-09-isar-spectrum.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-13-rocket-lab-csd-artemis-ii.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-22-csc2026-preview.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-22-faa-new-glenn-grounded.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-26-space-public-welfare-ambassador-sichuan-university.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-24\" does not match slug date \"2026-04-26\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-27-spacex-viasat-3-scrub.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-29\" does not match slug date \"2026-04-27\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-01-amazon-leo-second-batch-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-30\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-01-changzheng-10-yi-maiden-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-28\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-01-falcon-heavy-viasat-3-f3-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-29\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-01-new-glenn-ng3-failure.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-20\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-01-shanghai-offshore-launch-company.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-30\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-01-spacex-600th-recovery.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-20\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-02-spacex-starship-150b-ipo.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-03-shenzhou-23-launch-preparations.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-03-spacex-607-recoveries-cost-savings.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-03-spacex-texas-sonic-boom-lawsuit.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-03-trump-nasa-budget-cuts.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-04-foxconn-pearl-leo-satellite-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-03\" does not match slug date \"2026-05-04\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-06-blue-origin-60-rockets-year.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-07-rocket-lab-five-launch-neutron-deal.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-08-blue-origin-mk1-nasa-testing.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-08-exoplanets-tess-10000-candidates.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-09-artemis-2-moon-photos.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-09-china-space-cloud-ecosystem.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-11-jwst-star-clusters-galaxies.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-11-shenzhou-23-mission-badge.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-11-solar-flare-m57-cme.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-12-starship-v3-wet-checkout.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-11\" does not match slug date \"2026-05-12\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-13-cowboy-space-orbital-ai-data-centers.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-12\" does not match slug date \"2026-05-13\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-13-golden-dome-cbo-cost.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-13-starship-v3-launch-pad-2-may-19.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-12\" does not match slug date \"2026-05-13\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-europa-clipper-biosignature-search.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-japan-satellite-constellation.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-nasa-space-tech-construction.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-space-debris-laser-detection.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-13\" does not match slug date \"2026-05-14\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-starship-foreign-launch-sites.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-tianyun-camera-hongkong-musico.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-ula-vulcan-srb-test.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-14-zhuque-2e-y5-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-20-tianwen-1-interstellar-dust.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-21-starship-v3-scrub-hydraulic-pin.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-21-tess-all-sky-mosaic.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-22-rocket-lab-strix-electron-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-27-perovskite-solar-cell-tiangong.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-27-starlink-pentagon-pricing-dispute.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-27-starship-v3-flight-12-faa-grounding.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-29-spacex-sb-amti-contract.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-30-blue-origin-new-glenn-explosion-videos.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-30-shenzhou-21-beijing-arrival.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-30-starlink-17-41-vandenberg-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-30-tiangong-science-samples-return.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/06/2026-06-01-beijing-space-intelligence-computing-research-institute.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/06/2026-06-01-shenzhou-21-crew-beijing-arrival.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/06/2026-06-01-xinghuo-kongjian-evolution-1-electric-rocket.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/03/2025-03-26-china-tianlian-ii-04.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/03/2025-03-26-cygnus-ng-22-canceled.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/03/2025-03-26-rocket-lab-ororatech-wildfire.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/03/2025-03-26-spacex-starlink-vandenberg.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/03/2025-03-27-nasa-spacex-crew-11.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/04/2025-04-01-spacex-fram2.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/04/2025-04-24-shenzhou-20.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/05/2025-05-09-change-5-samples-uk.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/05/2025-05-11-yaogan-40-02.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/05/2025-05-13-tongce-19.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/05/2025-05-14-space-computing-constellation.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/05/2025-05-27-starship-flight-9.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/08/2025-08-01-spacex-crew-11.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/08/2025-08-26-starship-flight-10.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/10/2025-10-11-gravity-1.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/10/2025-10-13-starship-flight-11.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/11/2025-11-13-new-glenn-escapade.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/11/2025-11-25-shenzhou-22.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2025/12/2025-12-03-zhuque-3.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/02/2026-02-13-nasa-spacex-crew-12-iss.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-13-china-long-march-8a-maiden-flight.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-13-china-shiyan-30-03-04.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-13-spacex-starlink-17-31.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-15-china-yaogan-50-02.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-16-china-kuizhou-11-yao7.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-16-china-shenzhou-21-eva.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-16-spacex-starlink-17-24.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-17-spacex-starlink-10-46.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-18-nasa-eva-94-iss.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-19-nasa-artemis-2-sls-rollout.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-19-spacex-starlink-10-33.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-20-spacex-starlink-17-15.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-22-spacex-starlink-10-62.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-24-roscosmos-progress-94-iss.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-25-cavossa-commercial-space.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-27-artemis-2-crew-suits.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-27-artemis-2-one-week-away.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-27-nasa-nuclear-spacecraft.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-28-celeste-rocket-lab-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-28-mike-fincke-medical-event.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-30-artemis-2-final-preparations.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-31-artemis-2-countdown-begins.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-31-artemis-2-solar-flare.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-03-tianlong-3-maiden-flight.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-05-zhuque-3-reuse-test.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-09-chang-e7-arrive.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-09-isar-spectrum.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-13-rocket-lab-csd-artemis-ii.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-22-csc2026-preview.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-22-faa-new-glenn-grounded.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-26-space-public-welfare-ambassador-sichuan-university.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-24\" does not match slug date \"2026-04-26\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-27-spacex-viasat-3-scrub.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-29\" does not match slug date \"2026-04-27\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-01-amazon-leo-second-batch-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-30\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-01-changzheng-10-yi-maiden-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-28\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-01-falcon-heavy-viasat-3-f3-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-29\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-01-new-glenn-ng3-failure.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-20\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-01-shanghai-offshore-launch-company.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-30\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-01-spacex-600th-recovery.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-04-20\" does not match slug date \"2026-05-01\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-02-spacex-starship-150b-ipo.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-03-shenzhou-23-launch-preparations.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-03-spacex-607-recoveries-cost-savings.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-03-spacex-texas-sonic-boom-lawsuit.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-03-trump-nasa-budget-cuts.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-04-foxconn-pearl-leo-satellite-launch.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-03\" does not match slug date \"2026-05-04\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-06-blue-origin-60-rockets-year.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-07-rocket-lab-five-launch-neutron-deal.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-08-blue-origin-mk1-nasa-testing.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-08-exoplanets-tess-10000-candidates.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-09-artemis-2-moon-photos.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-09-china-space-cloud-ecosystem.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-09-voyager-probes-power.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-11-jwst-star-clusters-galaxies.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-11-shenzhou-23-mission-badge.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-11-solar-flare-m57-cme.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-12-starship-v3-wet-checkout.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-11\" does not match slug date \"2026-05-12\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-13-cowboy-space-orbital-ai-data-centers.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-12\" does not match slug date \"2026-05-13\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-13-golden-dome-cbo-cost.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-13-starship-v3-launch-pad-2-may-19.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-12\" does not match slug date \"2026-05-13\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-14-europa-clipper-biosignature-search.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-14-japan-satellite-constellation.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-14-space-debris-laser-detection.md",
+      "ruleId": "date-slug-mismatch",
+      "severity": "error",
+      "message": "Date \"2026-05-13\" does not match slug date \"2026-05-14\"",
+      "dimension": "single-file",
+      "field": "date"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-14-starship-foreign-launch-sites.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-14-tianyun-camera-hongkong-musico.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-14-ula-vulcan-srb-test.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-14-zhuque-2e-y5-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-20-tianwen-1-interstellar-dust.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-21-starship-v3-scrub-hydraulic-pin.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-21-tess-all-sky-mosaic.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-22-rocket-lab-strix-electron-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-27-perovskite-solar-cell-tiangong.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-27-starlink-pentagon-pricing-dispute.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-27-starship-v3-flight-12-faa-grounding.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-29-spacex-sb-amti-contract.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-30-blue-origin-new-glenn-explosion-videos.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-30-shenzhou-21-beijing-arrival.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-30-starlink-17-41-vandenberg-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-30-tiangong-science-samples-return.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/06/2026-06-01-beijing-space-intelligence-computing-research-institute.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/06/2026-06-01-shenzhou-21-crew-beijing-arrival.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "space-news/2026/06/2026-06-01-xinghuo-kongjian-evolution-1-electric-rocket.md",
+      "ruleId": "missing-image",
+      "severity": "error",
+      "message": "Missing image field",
+      "dimension": "single-file",
+      "field": "image"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-25-cavossa-commercial-space.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "en/space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-09-chang-e7-arrive.md",
+      "ruleId": "permalink-date-mismatch",
+      "severity": "warning",
+      "message": "Permalink date \"2026-04-10\" does not match slug date \"2026-04-09\"",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-09-long-march-6a-megaconstellation.md",
+      "ruleId": "permalink-date-mismatch",
+      "severity": "warning",
+      "message": "Permalink date \"2026-04-10\" does not match slug date \"2026-04-09\"",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-10-artemis-2-heat-shield.md",
+      "ruleId": "permalink-date-mismatch",
+      "severity": "warning",
+      "message": "Permalink date \"2026-04-11\" does not match slug date \"2026-04-10\"",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-22-csc2026-preview.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-22-csc2026-preview.md",
+      "ruleId": "missing-author",
+      "severity": "warning",
+      "message": "Missing or empty author",
+      "dimension": "single-file",
+      "field": "author"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-22-faa-new-glenn-grounded.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "en/space-news/2026/04/2026-04-22-faa-new-glenn-grounded.md",
+      "ruleId": "missing-author",
+      "severity": "warning",
+      "message": "Missing or empty author",
+      "dimension": "single-file",
+      "field": "author"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-25-cavossa-commercial-space.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/03/2026-03-28-artemis-2-crew-arrive-ksc.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-09-chang-e7-arrive.md",
+      "ruleId": "permalink-date-mismatch",
+      "severity": "warning",
+      "message": "Permalink date \"2026-04-10\" does not match slug date \"2026-04-09\"",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-09-long-march-6a-megaconstellation.md",
+      "ruleId": "permalink-date-mismatch",
+      "severity": "warning",
+      "message": "Permalink date \"2026-04-10\" does not match slug date \"2026-04-09\"",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-10-artemis-2-heat-shield.md",
+      "ruleId": "permalink-date-mismatch",
+      "severity": "warning",
+      "message": "Permalink date \"2026-04-11\" does not match slug date \"2026-04-10\"",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-17-commercial-space-safety-meeting.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-22-csc2026-preview.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-22-csc2026-preview.md",
+      "ruleId": "missing-author",
+      "severity": "warning",
+      "message": "Missing or empty author",
+      "dimension": "single-file",
+      "field": "author"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-22-faa-new-glenn-grounded.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-22-faa-new-glenn-grounded.md",
+      "ruleId": "missing-author",
+      "severity": "warning",
+      "message": "Missing or empty author",
+      "dimension": "single-file",
+      "field": "author"
+    },
+    {
+      "filePath": "space-news/2026/04/2026-04-23-space-art-culture-forum.md",
+      "ruleId": "missing-permalink",
+      "severity": "warning",
+      "message": "Missing permalink",
+      "dimension": "single-file",
+      "field": "permalink"
+    }
+  ]
+}

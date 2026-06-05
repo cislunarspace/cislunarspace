@@ -8,7 +8,7 @@ wechatShare:
   image: "/logo.png"
 permalink: /space-news/2026/05/2026-05-03-trump-nasa-budget-cuts/
 author: 天疆说
-date: 2026-05-02
+date: 2026-05-03
 lastUpdated: 2026-05-03
 category: policy
 ---

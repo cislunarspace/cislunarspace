@@ -10,7 +10,7 @@ permalink: /en/space-news/2026/04/2026-04-22-rocket-lab-mynaric-acquisition/
 author: Tianjiangshuo
 date: 2026-04-22
 lastUpdated: 2026-04-23
-category: [commercial, spacex]
+category: [rocket-lab, commercial]
 image: ./figures/2026-04-22-rocket-lab-mynaric-acquisition/hero.jpg
 tags:
   - Rocket Lab

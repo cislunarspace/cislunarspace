@@ -10,7 +10,7 @@ permalink: /en/space-news/2026/04/2026-04-24-space-public-welfare-ambassador/
 author: Tianjiangshuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
-category: [china, iss]
+category: china
 image: ./figures/2026-04-24-space-public-welfare-ambassador/hero.png
 ---
 

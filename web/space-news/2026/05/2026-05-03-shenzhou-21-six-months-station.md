@@ -1,5 +1,9 @@
 ---
+layout: SpaceNewsArticle
 title: 神舟二十一号乘组在轨六个月里程碑
+description: "神舟二十一号乘组张陆、武飞、张宏章在轨满六个月，完成多项科学实验，备战天舟十号和神舟二十三号任务。"
+permalink: /space-news/2026/05/2026-05-03-shenzhou-21-six-months-station/
+author: 天疆说
 wechatShare:
   title: "神舟二十一号乘组在轨六个月里程碑"
   desc: "神舟二十一号乘组在轨六个月里程碑"
