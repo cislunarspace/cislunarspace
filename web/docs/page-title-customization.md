@@ -117,11 +117,11 @@
   - 优化：Cislunar Space Research Frontiers and Hot Topics Analysis
   - 关键词：cislunar space research, scientific frontiers, hot topics
 
-- **研究方向** (`/en/research-frontiers/directions.md`)
+- **研究方向** (`/en/research-frontiers/directions/README.md`)
   - 优化：Main Research Directions and Technical Challenges in Cislunar Space
   - 关键词：cislunar research directions, technical challenges, research areas
 
-- **研究机构** (`/en/research-frontiers/institutions.md`)
+- **研究机构** (`/en/research-frontiers/institutions/README.md`)
   - 优化：Global Cislunar Space Research Institutions and Laboratories
   - 关键词：cislunar research institutions, laboratories, global institutions
 

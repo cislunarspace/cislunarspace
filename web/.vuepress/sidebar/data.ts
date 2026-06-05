@@ -119,7 +119,7 @@ export const sidebarSections: SidebarSection[] = [
             label: { zh: '安全与治理', en: 'Security & Governance' },
             collapsible: true,
             children: [
-              { slug: 'strategy', label: { zh: '战略', en: 'Strategy' }, locales: ['zh'] },
+              { slug: 'strategy', label: { zh: '战略', en: 'Strategy' } },
               {
                 slug: 'orbital-game',
                 label: { zh: '地月空间轨道博弈', en: 'Orbital game' },
@@ -137,7 +137,7 @@ export const sidebarSections: SidebarSection[] = [
             label: { zh: '仿真系统', en: 'Simulation Systems' },
             collapsible: true,
             children: [
-              { slug: 'simulation-systems', label: { zh: '仿真系统', en: 'Simulation systems' }, locales: ['zh'] },
+              { slug: 'simulation-systems', label: { zh: '仿真系统', en: 'Simulation systems' } },
             ],
           },
           { slug: 'radiation-environment', label: { zh: '空间辐射环境', en: 'Space Radiation Environment' }, collapsible: true, children: [] },
@@ -148,12 +148,12 @@ export const sidebarSections: SidebarSection[] = [
         label: { zh: '研究机构和组织', en: 'Research institutions' },
         collapsible: true,
         children: [
-          { slug: 'nudt', label: { zh: '国防科技大学', en: 'NUDT' }, locales: ['zh'] },
-          { slug: 'npu', label: { zh: '西北工业大学', en: 'NPU' }, locales: ['zh'] },
+          { slug: 'nudt', label: { zh: '国防科技大学', en: 'NUDT' } },
+          { slug: 'npu', label: { zh: '西北工业大学', en: 'NPU' } },
           { slug: 'hit', label: { zh: '哈尔滨工业大学', en: 'HIT' } },
-          { slug: 'seu', label: { zh: '东南大学', en: 'SEU' }, locales: ['zh'] },
-          { slug: 'dfhscl', label: { zh: '东方航天港', en: 'DFHSCL' }, locales: ['zh'] },
-          { slug: 'thu', label: { zh: '清华大学', en: 'THU' }, locales: ['zh'] },
+          { slug: 'seu', label: { zh: '东南大学', en: 'SEU' } },
+          { slug: 'dfhscl', label: { zh: '东方航天港', en: 'DFHSCL' } },
+          { slug: 'thu', label: { zh: '清华大学', en: 'THU' } },
         ],
       },
       { slug: 'journals-conferences', label: { zh: '期刊与会议', en: 'Journals & Conferences' } },
