@@ -4,7 +4,7 @@ description: Detailed analysis of the definition, relationship with Halo orbits,
 keywords: Near-Rectilinear Halo Orbit, NRHO, Near-Rectilinear Halo Orbit, Halo orbit, Earth-Moon libration point, L2 point, Gateway space station, Gateway
 author: Tianjiang Shuo
 date: 2026-04-04
-lastUpdated: 2026-04-26
+lastUpdated: 2026-06-05
 wechatShare:
   title: Near-Rectilinear Halo Orbit (NRHO)
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
@@ -74,19 +74,55 @@ NRHOs have become a popular candidate orbit for current cislunar space missions:
 - **NASA "Gateway" space station**: planned deployment in the $L_2$ southern family 9:2 resonant NRHO
 - **Cislunar space situation awareness**: NRHOs, with their unique orbital position, are well-suited for deploying relay communications and observation platforms
 
+## Application in A2PPO Low-Thrust Transfer Research
+
+Ul Haq et al. (2026) used the A2PPO (Attention-Augmented Proximal Policy Optimization) algorithm to investigate autonomous low-thrust transfers from L₂ Halo orbit to NRHO (Scenario S2):
+
+- **Departure orbit**: L₂ southern Halo orbit ($C_J \approx 3.1211$, period 14.55 days)
+- **Target orbit**: L₂ southern NRHO ($C_J \approx 3.0395$, period 6.99 days)
+- **Transfer result**: 8.38 days, consuming 5.00 kg of propellant
+- **Transfer characteristics**: Forms a lunar flyby geometry
+
+Transfers between NRHO and Halo orbits require significant energy change ($C_J$ change of ~0.08) and represent a high-difficulty scenario in low-thrust trajectory optimization. A2PPO is capable of autonomously learning efficient transfer strategies without requiring an initial guess.
+
 ## Related Concepts
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
+- [A2PPO (Attention-Augmented Proximal Policy Optimization)](/en/glossary/dynamics/a2ppo/)
 - [Starshade](/en/glossary/other/starshade/)
 - [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
 - [Central Manifold](/en/glossary/dynamics/central-manifold/)
 - [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
 - [Orbit Identification](/en/glossary/orbits/orbit-identification/)
-- Halo orbit
+- [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- Libration point (Lagrangian point)
-- Ephemeris model
-- Invariant manifold
+- [Libration Point (Lagrangian Point)](/en/glossary/dynamics/libration-point/)
+- [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
+- [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
+
+## Core Elements
+
+### Orbit Definition
+
+Near-Rectilinear Halo Orbit (NRHO) is an extreme sub-class of the Halo orbit family with large $A_z/A_y$ ratio. The orbit shape transitions from the classic "cashew" form to an approximately linear reciprocating motion. The perilune altitude is extremely low (typically < 100 km), and the apolune is located near the L₂ point.
+
+### Dynamic Characteristics
+
+- **Resonance relationships**: NASA Gateway selected the 9:2 resonant NRHO, offering good stability for long-term station-keeping
+- **Symmetry**: Mirror symmetry about the $xOz$ plane
+- **Stability**: Characterized through Floquet multipliers analyzing perturbation amplification/attenuation in each direction
+- **Maintenance cost**: Low (perilune distance requires precise control to balance exploration advantages against impact risk)
+
+### Design Methods
+
+- **Exploiting symmetry**: Select initial points on the $xOz$ plane, retaining $z_0$ and $\dot{y}_0$ as free variables
+- **Half-period integration**: Verify $xOz$ plane crossing conditions, iterating to convergence on a periodic orbit
+- **Resonance ratio selection**: Choose the appropriate resonance ratio based on mission requirements (e.g., 9:2, 11:2)
+- **Invariant manifold analysis**: Design transfer orbits using invariant manifolds in the libration point region
+
+## Application Value
+
+NRHO has become a popular candidate orbit for current cislunar space missions. NASA's Gateway space station is planned for deployment in the L₂ southern family 9:2 resonant NRHO. China's Chang'e-4 relay satellite "Queqiao" has successfully operated in an L₂ point Halo orbit, validating the application value of this orbit family for lunar far-side communications relay.
 
 ## References
 
