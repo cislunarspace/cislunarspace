@@ -3473,6 +3473,19 @@
         }
       },
       {
+        "slug": "infrared-radiation",
+        "title": "红外辐射（Infrared Radiation）",
+        "path": "/glossary/observation/infrared-radiation/",
+        "category": {
+          "slug": "observation",
+          "label": {
+            "zh": "天文观测技术",
+            "en": "Astronomy & observation"
+          },
+          "order": 20050
+        }
+      },
+      {
         "slug": "lunar-glare-zone",
         "title": "月球眩光区（Lunar Glare Zone）",
         "path": "/glossary/observation/lunar-glare-zone/",
@@ -3853,6 +3866,19 @@
         "slug": "low-energy-transfer",
         "title": "低能量转移轨道（Low-Energy Transfer Orbit）",
         "path": "/glossary/orbits/low-energy-transfer/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "lt-transfer",
+        "title": "低推力转移轨道（Low-Thrust Transfer Orbit）",
+        "path": "/glossary/orbits/lt-transfer/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -4292,7 +4318,13 @@
         }
       }
     ],
-    "missing": []
+    "missing": [
+      {
+        "category": "任务轨道",
+        "slug": "lt-transfer",
+        "zhTitle": "低推力转移轨道（Low-Thrust Transfer Orbit）"
+      }
+    ]
   },
   "en": {
     "entries": [
@@ -7758,6 +7790,19 @@
         "slug": "image-stacking",
         "title": "Image Stacking",
         "path": "/en/glossary/observation/image-stacking/",
+        "category": {
+          "slug": "observation",
+          "label": {
+            "zh": "天文观测技术",
+            "en": "Astronomy & observation"
+          },
+          "order": 20050
+        }
+      },
+      {
+        "slug": "infrared-radiation",
+        "title": "Infrared Radiation",
+        "path": "/en/glossary/observation/infrared-radiation/",
         "category": {
           "slug": "observation",
           "label": {
