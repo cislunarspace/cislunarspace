@@ -112,6 +112,13 @@ With excellent long-term stability (requiring no or only minimal orbital maneuve
 
 NASA's Lunar Reconnaissance Orbiter (LRO) mission has validated the application value of DROs in lunar exploration. Recent research has shown that non-planar DROs with $z$-direction amplitude can avoid solar eclipses, further improving observer effectiveness.
 
+In the dynamic catalog framework proposed by Guzzetti et al., DROs are listed as preferred candidate orbits for long-term space infrastructure near the Moon. Key advantages include:
+
+- **Favorable geometric configuration**: Close to the Moon, facilitating lunar surface operations and communications
+- **Low maintenance cost**: Exceptional stability minimizes station-keeping budget
+- **Low insertion cost**: Direct transfer ΔV from LEO is relatively low
+- **Accessibility**: Moderate flight time (~5.4 – 7.2 days), suitable for crewed missions
+
 ## Application in A2PPO Low-Thrust Transfer Research
 
 Ul Haq et al. (2026) used the A2PPO (Attention-Augmented Proximal Policy Optimization) algorithm to investigate autonomous low-thrust transfers from L₂ NRHO to lunar DRO (Scenario S3):
