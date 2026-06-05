@@ -7,7 +7,7 @@ wechatShare:
   desc: "The Republic of Paraguay signed the Artemis Accords during a ceremony in Asunción on May 7, 2026, becoming the 67th nation to commit to shared principles for civil space exploration."
   image: "./figures/2026-05-07-paraguay-artemis-accords/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-paraguay-artemis-accords/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: artemis

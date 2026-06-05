@@ -7,7 +7,7 @@ wechatShare:
   desc: "The crew of NASA's Artemis II mission rang the Nasdaq closing bell in New York, celebrating the successful completion of humanity's first crewed lunar flyby mission in nearly 50 years."
   image: "./figures/2026-05-01-artemis-ii-nasdaq-closing-bell/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-artemis-ii-nasdaq-closing-bell/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-01
 lastUpdated: 2026-05-01
 category: artemis

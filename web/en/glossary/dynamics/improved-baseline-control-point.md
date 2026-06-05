@@ -2,7 +2,7 @@
 title: Improved Baseline Control-Point Method (Improved Baseline Control-Point Method)
 description: Detailed analysis of improved baseline control-point method principles, differences from traditional methods, and application in orbit keeping
 keywords: Baseline Control-Point Method, Orbit Keeping, Improved Baseline Trajectory, Control Strategy, Libration Point, Quasi-Periodic Orbit, Weakly Stable Orbit
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/improved-baseline-control-point/
 
 # Improved Baseline Control-Point Method (Improved Baseline Control-Point Method)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》
 >

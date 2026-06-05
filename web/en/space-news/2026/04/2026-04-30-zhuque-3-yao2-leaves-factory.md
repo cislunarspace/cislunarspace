@@ -7,7 +7,7 @@ wechatShare:
   desc: "LandSpace's Zhuque-3 Yao-2 reusable liquid rocket has completed problem resolution and entered the factory exit phase, targeting a Q2 2026 maiden launch from the Jiuquan Satellite Launch Center with first-stage vertical recovery."
   image: "./figures/2026-04-30-zhuque-3-yao2-leaves-factory/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-30-zhuque-3-yao2-leaves-factory/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-30
 lastUpdated: 2026-04-30
 category: [china, commercial]

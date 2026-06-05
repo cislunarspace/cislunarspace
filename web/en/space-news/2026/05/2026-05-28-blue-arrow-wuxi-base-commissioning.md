@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Blue Arrow Aerospace Wuxi Production Base Commissions, Zhuque-3 Reusable Rocket Enter Mass Manufacturing Phase"
 description: "On May 27, 2026, Blue Arrow Aerospace's Wuxi production base officially commenced operations, becoming China's first rocket mass production factory based on high-strength stainless steel and intelligent laser manufacturing technologies, providing core manufacturing support for the batch production and commercial deployment of the Zhuque-3 reusable liquid rocket."
 permalink: /en/space-news/2026/05/2026-05-28-blue-arrow-wuxi-base-commissioning/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: china

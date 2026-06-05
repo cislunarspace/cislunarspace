@@ -7,7 +7,7 @@ wechatShare:
   desc: "On May 11, 2026, an M5.7-class solar flare accompanied by a coronal mass ejection triggered radio blackouts over the Atlantic, raising chances of northern lights across the Northern Hemisphere."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-11-solar-flare-m57-cme/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: science

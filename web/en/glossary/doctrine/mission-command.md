@@ -2,12 +2,12 @@
 title: Mission Command
 description: Mission Command is a decentralized command and control approach that empowers subordinate decision-making to improve operational efficiency and adaptability.
 keywords: Mission Command, command and control, decentralized, empowerment, Space Force
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
   title: Mission Command
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: Mission Command | Decentralized Command and Control
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/mission-command/
 
 # Mission Command
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site: [https://cislunarspace.cn](https://cislunarspace.cn)
 

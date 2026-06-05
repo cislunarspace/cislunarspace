@@ -2,7 +2,7 @@
 title: EXOSIMS
 description: Detailed analysis of EXOSIMS (Exoplanet Observation and Science Mission Simulation) capabilities, architecture, application in starshade mission design, and dynamic model integration methods
 keywords: EXOSIMS, exoplanet, direct imaging, mission simulation, orbital design, starshade, mission scheduling, observation scheduling
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-26
 wechatShare:

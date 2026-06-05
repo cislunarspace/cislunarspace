@@ -2,7 +2,7 @@
 title: Space Force Generation Process (SPAFORGEN)
 description: Detailed explanation of the U.S. Space Force SPAFORGEN rotational generation process, its three-phase cycle, readiness objectives, and role in space force generation
 keywords: SPAFORGEN, Space Force Generation, rotational model, readiness cycle, Prepare phase, Ready phase, Commit phase, Guardians
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

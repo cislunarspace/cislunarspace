@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Scientists Propose New Approach to Alien Life Search: Europa Clipper Could Lead the Way"
 description: "Researchers find that searching for alien life requires not just detecting biosignatures but analyzing how they are organized — and Europa Clipper's MASS instrument may already have the capability."
 permalink: /en/space-news/2026/05/2026-05-14-europa-clipper-biosignature-search/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-16
 category: science

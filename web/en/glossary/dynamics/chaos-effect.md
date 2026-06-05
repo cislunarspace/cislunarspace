@@ -2,7 +2,7 @@
 title: Chaos Effect
 description: Detailed analysis of chaos phenomena in the three-body problem and their impact on orbit design
 keywords: Chaos Effect, Three-Body Problem, Nonlinear Dynamics, Sensitivity to Initial Conditions, Orbit Design
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

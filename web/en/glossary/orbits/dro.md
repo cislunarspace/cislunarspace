@@ -2,7 +2,7 @@
 title: Distant Retrograde Orbit (DRO)
 description: Detailed analysis of the definition, dynamic characteristics, resonance relationships, stability analysis, and applications in cislunar space of the Distant Retrograde Orbit (DRO)
 keywords: Distant Retrograde Orbit, DRO, Distant Retrograde Orbit, cislunar orbit, resonance orbit, orbital stability, orbital design
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-04
 lastUpdated: 2026-04-26
 wechatShare:

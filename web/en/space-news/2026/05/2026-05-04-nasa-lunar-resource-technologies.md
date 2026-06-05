@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA and industry partners are developing technologies to extract critical resources — including hydrogen and helium-3 — from the lunar surface, supporting long-duration missions to the Moon and Mars under the Artemis framework."
   image: "./figures/2026-05-04-nasa-lunar-resource-technologies/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-nasa-lunar-resource-technologies/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-04
 lastUpdated: 2026-05-04
 category: nasa

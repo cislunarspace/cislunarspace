@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Releases Initial Artemis II Post-Flight Assessment: Orion Heat Shield Outperforms Expectations"
 description: "On April 20, 2026, NASA released its initial post-flight assessment for the Artemis II mission, finding that Orion's heat shield performed better than expected with significantly reduced char loss compared to Artemis I, providing critical data for the planned 2027 crewed lunar landing."
 permalink: /en/space-news/2026/04/2026-04-20-artemis-ii-assessments/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-20
 lastUpdated: 2026-04-20
 category: artemis

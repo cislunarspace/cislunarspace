@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA unveils revised Artemis plan: Artemis 3 becomes Earth-orbit test, crewed landing pushed to Artemis 4 in late 2028; both SpaceX Starship HLS and Blue Origin Blue Moon face tight 2027 milestones."
   image: "./figures/2026-05-05-nasa-artemis-2028-moon-landing/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-05-nasa-artemis-2028-moon-landing/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-05
 lastUpdated: 2026-05-05
 category: artemis

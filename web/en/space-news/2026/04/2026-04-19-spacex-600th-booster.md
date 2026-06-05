@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Completes 600th Falcon Booster Landing Milestone"
 description: "SpaceX successfully completed its 600th Falcon booster landing during the Starlink 17-22 mission from Vandenberg, with the 191st landing on drone ship Of Course I Still Love You."
 permalink: /en/space-news/2026/04/2026-04-19-spacex-600th-booster/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-19
 lastUpdated: 2026-04-19
 category: spacex

@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA published an article on April 27 introducing how the public can participate in space exploration through citizen science projects, including lunar flash observations during Artemis II and pepper plant cultivation experiments for future deep space missions."
   image: "./figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-nasa-citizen-science-thrive/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 category: [nasa, science]

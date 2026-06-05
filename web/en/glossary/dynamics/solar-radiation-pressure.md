@@ -2,7 +2,7 @@
 title: Solar Radiation Pressure (SRP)
 description: Detailed analysis of the definition, formula, and effects of solar radiation pressure on spacecraft in cislunar space
 keywords: Solar Radiation Pressure, SRP, Solar Constant, Reflection Coefficient, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

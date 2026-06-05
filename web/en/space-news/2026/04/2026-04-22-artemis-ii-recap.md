@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Releases Artemis II Image and Video Recap: Key Mission Milestones"
 description: "NASA publishes a comprehensive image and video recap of the Artemis II mission, highlighting Orion spacecraft's journey since its April 1 launch, covering launch preparation through translunar injection."
 permalink: /en/space-news/2026/04/2026-04-22-artemis-ii-recap/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: artemis

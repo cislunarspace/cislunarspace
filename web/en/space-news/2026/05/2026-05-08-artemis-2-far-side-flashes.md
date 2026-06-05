@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA Artemis 2 astronauts observed multiple meteoroid impact flashes on the lunar far side during their April 6 flyby, the first direct human observations of such phenomena in cislunar space."
   image: "./figures/2026-05-08-artemis-2-far-side-flashes/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-artemis-2-far-side-flashes/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-08
 lastUpdated: 2026-05-08
 category: artemis

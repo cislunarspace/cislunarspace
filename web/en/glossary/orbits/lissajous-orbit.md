@@ -1,5 +1,5 @@
 ---
-title: Lissajous Orbit (Lissajous 轨道)
+title: Lissajous Orbit
 description: Detailed explanation of Lissajous orbit definition, quasi-periodic characteristics, differences from Halo orbits, and applications in cislunar missions
 keywords: Lissajous Orbit, libration point, quasi-periodic orbit, Halo orbit, three-body problem, SOHO, orbital design
 author: CislunarSpace

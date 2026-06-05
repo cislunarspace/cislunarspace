@@ -2,12 +2,12 @@
 title: GITAI USA
 description: Introduction to GITAI USA's space robotics, lunar lander, and on-orbit servicing products and technologies
 keywords: GITAI, space robotics, lunar lander, on-orbit servicing, robotic arm, Japan, lunar infrastructure
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 wechatShare:
   title: GITAI USA
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: GITAI USA
@@ -24,7 +24,7 @@ permalink: /en/glossary/organizations/gitai-usa/
 
 # GITAI USA
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Source: [GITAI Official Website](https://www.gitai.space) and public sources
 >

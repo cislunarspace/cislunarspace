@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Exoplanets Have Magnetic Fields After All: Hot-Jupiter Wind Speeds Reveal the First Direct Measurement of Alien Magnetospheres"
 description: "A team led by the European Southern Observatory (ESO), using the Very Large Telescope (VLT) and Gemini North, has measured the wind speeds of seven tidally locked hot-Jupiter exoplanets and discovered an inverse correlation with temperature — interpreted as a magnetic 'braking' effect. The result yields the first direct estimates of exoplanet magnetic field strengths, roughly four times that of Saturn and half that of Jupiter."
 permalink: /en/space-news/2026/06/2026-06-02-hot-jupiter-magnetic-field/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-02
 lastUpdated: 2026-06-02
 category: science

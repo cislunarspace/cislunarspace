@@ -2,7 +2,7 @@
 title: Changeite-Mg (Magnesium Changeite)
 description: Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples
 keywords: Changeite-Mg, magnesium changeite, Chang'e-5, new lunar mineral, calcium rare-earth phosphate, lunar exploration
-author: Tianjiang说
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 wechatShare:

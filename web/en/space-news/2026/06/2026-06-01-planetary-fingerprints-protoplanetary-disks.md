@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Astronomers Read Planetary 'Fingerprints' in Protoplanetary Disk Rings to Estimate Exoplanet Mass"
 description: "A Warwick-MIT team validated with ALMA data that dust ring width and peak brightness location reveal the mass of embedded planets, independent of observing wavelength and dust grain size."
 permalink: /en/space-news/2026/06/2026-06-01-planetary-fingerprints-protoplanetary-disks/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-01
 lastUpdated: 2026-06-02
 category: science

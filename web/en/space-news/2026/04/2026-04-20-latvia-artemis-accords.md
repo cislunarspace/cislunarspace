@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Latvia Signs Artemis Accords, Becomes 62nd Signatory"
 description: "On April 20, 2026, Latvia's Minister for Education and Science Dace Melbārde signed the Artemis Accords at NASA Headquarters, officially becoming the 62nd signatory of the international space exploration cooperation framework."
 permalink: /en/space-news/2026/04/2026-04-20-latvia-artemis-accords/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-20
 lastUpdated: 2026-04-20
 category: artemis

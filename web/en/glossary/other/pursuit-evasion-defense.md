@@ -6,7 +6,7 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 keywords: pursuit-evasion-defense, three-player game, spacecraft pursuit-evasion, fuzzy comprehensive evaluation, zero-effort miss
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:

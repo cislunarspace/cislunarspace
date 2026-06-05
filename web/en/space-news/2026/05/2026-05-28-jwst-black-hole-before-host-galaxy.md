@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "JWST Discovers Black Hole That Formed Before Its Host Galaxy, Challenging Formation Models"
 description: "The James Webb Space Telescope has observed a supermassive black hole in the Abell2744-QSO1 'Little Red Dot' quasar that appears to have formed before its host galaxy, with a mass 40 million times that of the Sun, overturning standard black hole formation theory."
 permalink: /en/space-news/2026/05/2026-05-28-jwst-black-hole-before-host-galaxy/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: science

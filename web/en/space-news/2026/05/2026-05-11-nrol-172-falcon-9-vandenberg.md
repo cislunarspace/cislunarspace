@@ -7,7 +7,7 @@ wechatShare:
   desc: "SpaceX successfully launched the 13th batch of NRO reconnaissance satellites on a Falcon 9 from Vandenberg Space Force Base on May 11, with booster landing on drone ship"
   image: "./figures/2026-05-11-nrol-172-falcon-9-vandenberg/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-11-nrol-172-falcon-9-vandenberg/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: spacex

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Fram2 Mission Makes History"
 description: "On April 1, 2025, SpaceX's Fram2 mission successfully launched from Kennedy Space Center — the first time humans traveled to a polar orbit aboard a spacecraft."
 permalink: /en/space-news/2025/04/2025-04-01-spacex-fram2/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-04-01
 lastUpdated: 2025-04-01
 category: spacex

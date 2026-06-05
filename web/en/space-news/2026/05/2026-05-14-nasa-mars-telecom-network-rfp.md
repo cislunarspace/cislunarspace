@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Issues Mars Telecommunications Network RFP, Seeks Industry Partners for 2030 Deployment"
 description: "NASA releases a formal Request for Proposal for the Mars Telecommunications Network, seeking industry collaboration with a budget of approximately $700 million and a target operational date around 2030."
 permalink: /en/space-news/2026/05/2026-05-14-nasa-mars-telecom-network-rfp/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-14
 category: nasa

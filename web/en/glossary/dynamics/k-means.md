@@ -2,7 +2,7 @@
 title: K-Means Clustering (K-Means Clustering)
 description: Detailed analysis of K-Means clustering algorithm principles, application in cislunar SSA architecture classification, and comparison with K-Medoids
 keywords: K-Means, Clustering, K-Medoids, Architecture Design, Cislunar Space, Situational Awareness, Classification
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:

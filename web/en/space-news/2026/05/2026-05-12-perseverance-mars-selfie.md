@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Perseverance rover captured a new selfie mosaic at Mars' Western Frontier, setting a new record for the number of Mars selfies, composed from multiple WATSON camera images."
   image: "./figures/2026-05-12-perseverance-mars-selfie/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-perseverance-mars-selfie/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-12
 category: science

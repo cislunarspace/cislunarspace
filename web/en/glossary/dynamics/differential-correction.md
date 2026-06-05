@@ -1,5 +1,5 @@
 ---
-title: Differential Correction (微分修正)
+title: Differential Correction
 description: Detailed explanation of differential correction — mathematical principles, state transition matrix linearization, and applications in solving cislunar periodic orbits
 keywords: differential correction, state transition matrix, shooting method, orbital correction, periodic orbit, cislunar space
 author: CislunarSpace

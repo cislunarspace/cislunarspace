@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Launches 29 Starlink Satellites from Cape Canaveral in Pre-Dawn Jellyfish Display"
 description: "SpaceX successfully launched 29 Starlink V2 Mini Optimized satellites from Cape Canaveral before sunrise on May 21, with the rocket plume illuminated by early morning light in a so-called jellyfish effect visible along the US East Coast."
 permalink: /en/space-news/2026/05/2026-05-21-starlink-10-31-cape-canaveral-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-21
 lastUpdated: 2026-05-22
 category: spacex

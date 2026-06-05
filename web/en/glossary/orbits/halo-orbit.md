@@ -1,5 +1,5 @@
 ---
-title: Halo Orbit (Halo 轨道)
+title: Halo Orbit
 description: Detailed explanation of Halo orbit definition, dynamic characteristics, three-dimensional periodic motion around libration points, and applications in cislunar missions
 keywords: Halo Orbit, libration point, L1 point, L2 point, three-body problem, cislunar space, Gateway, orbital design
 author: CislunarSpace

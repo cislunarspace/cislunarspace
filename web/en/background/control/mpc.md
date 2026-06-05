@@ -2,7 +2,7 @@
 title: Model Predictive Control (MPC)
 description: Model Predictive Control is an advanced control strategy based on online receding-horizon optimization, solving a finite-horizon optimal control problem at each sampling instant for constrained multivariable systems.
 keywords: Model Predictive Control, MPC, Receding Horizon Optimization, Optimal Control, Constrained Control
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-06-05
 lastUpdated: 2026-06-05
 permalink: /en/background/control/mpc/

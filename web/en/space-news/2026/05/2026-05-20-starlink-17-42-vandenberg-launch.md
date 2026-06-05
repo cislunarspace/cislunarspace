@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Launches Starlink 17-42 from Vandenberg"
 description: "SpaceX successfully launches 24 Starlink satellites on Falcon 9 from Vandenberg Space Force Base, with booster B1103 completing its 197th drone ship landing."
 permalink: /en/space-news/2026/05/2026-05-20-starlink-17-42-vandenberg-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-20
 lastUpdated: 2026-05-20
 category: spacex

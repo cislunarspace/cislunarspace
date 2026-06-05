@@ -1,0 +1,2910 @@
+{
+  "scanTime": "2026-06-05T03:00:35.370Z",
+  "filesScanned": 924,
+  "findings": [
+    {
+      "file": "en/background/control/optimal-control.md",
+      "line": 58,
+      "column": 125,
+      "zone": "body",
+      "text": "本质上是最优控制问题，常用间接法（极大值原理）或直接法（伪谱法）求解",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/cislunar-orbits/dro/family-classification.md",
+      "line": 69,
+      "column": 47,
+      "zone": "image-path",
+      "text": "质心旋转坐标系及",
+      "severity": "error",
+      "rule": "chinese-in-image-path",
+      "allowlisted": false
+    },
+    {
+      "file": "en/cislunar-orbits/transfer/ballistic-capture.md",
+      "line": 52,
+      "column": 58,
+      "zone": "body",
+      "text": "阶段的",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/bang-bang-control.md",
+      "line": 31,
+      "column": 14,
+      "zone": "body",
+      "text": "关宇同等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/bang-bang-control.md",
+      "line": 79,
+      "column": 1,
+      "zone": "body",
+      "text": "赵海涵等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/bang-bang-control.md",
+      "line": 100,
+      "column": 3,
+      "zone": "references",
+      "text": "关宇同",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/barycentric-synodic.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/barycentric-synodic.md",
+      "line": 97,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/batch-deployment.md",
+      "line": 27,
+      "column": 18,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/batch-deployment.md",
+      "line": 90,
+      "column": 19,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/batch-deployment.md",
+      "line": 109,
+      "column": 3,
+      "zone": "references",
+      "text": "胡敏",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/co-state-normalization.md",
+      "line": 31,
+      "column": 14,
+      "zone": "body",
+      "text": "关宇同等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/co-state-normalization.md",
+      "line": 85,
+      "column": 16,
+      "zone": "heading",
+      "text": "赵海涵",
+      "severity": "error",
+      "rule": "chinese-in-heading",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/co-state-normalization.md",
+      "line": 102,
+      "column": 3,
+      "zone": "references",
+      "text": "关宇同",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/coasting-arc.md",
+      "line": 27,
+      "column": 18,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/coasting-arc.md",
+      "line": 41,
+      "column": 38,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/coasting-arc.md",
+      "line": 71,
+      "column": 25,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/coasting-arc.md",
+      "line": 114,
+      "column": 3,
+      "zone": "references",
+      "text": "胡敏",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/differential-games.md",
+      "line": 29,
+      "column": 33,
+      "zone": "body",
+      "text": "张乘铭",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/differential-games.md",
+      "line": 77,
+      "column": 3,
+      "zone": "references",
+      "text": "张乘铭",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 27,
+      "column": 18,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 70,
+      "column": 1,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 98,
+      "column": 38,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 123,
+      "column": 19,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 157,
+      "column": 3,
+      "zone": "references",
+      "text": "胡敏",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/equinoctial-elements.md",
+      "line": 27,
+      "column": 18,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/equinoctial-elements.md",
+      "line": 53,
+      "column": 16,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/equinoctial-elements.md",
+      "line": 82,
+      "column": 1,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/equinoctial-elements.md",
+      "line": 139,
+      "column": 3,
+      "zone": "references",
+      "text": "胡敏",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/grc.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/grc.md",
+      "line": 73,
+      "column": 1,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/grc.md",
+      "line": 94,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
+      "line": 27,
+      "column": 18,
+      "zone": "body",
+      "text": "郭建宇",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
+      "line": 53,
+      "column": 4,
+      "zone": "body",
+      "text": "郭建宇",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
+      "line": 113,
+      "column": 3,
+      "zone": "references",
+      "text": "郭建宇",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/homotopy-method.md",
+      "line": 31,
+      "column": 14,
+      "zone": "body",
+      "text": "关宇同等",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/homotopy-method.md",
+      "line": 73,
+      "column": 16,
+      "zone": "heading",
+      "text": "赵海涵",
+      "severity": "error",
+      "rule": "chinese-in-heading",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/homotopy-method.md",
+      "line": 75,
+      "column": 1,
+      "zone": "body",
+      "text": "赵海涵",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/homotopy-method.md",
+      "line": 99,
+      "column": 3,
+      "zone": "references",
+      "text": "关宇同",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/improved-baseline-control-point.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/improved-baseline-control-point.md",
+      "line": 127,
+      "column": 1,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/improved-baseline-control-point.md",
+      "line": 165,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/invariant-manifold.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/invariant-manifold.md",
+      "line": 122,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/j2000-coordinate.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/j2000-coordinate.md",
+      "line": 96,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+      "line": 35,
+      "column": 247,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+      "line": 49,
+      "column": 1,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/libration-spacecraft-body-coordinate.md",
+      "line": 84,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/libration-spacecraft-orbital-coordinate.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/libration-spacecraft-orbital-coordinate.md",
+      "line": 93,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/lindstedt-poincare.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/lrc.md",
+      "line": 29,
+      "column": 14,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/lrc.md",
+      "line": 93,
+      "column": 3,
+      "zone": "references",
+      "text": "钱霙婧",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/mass-discontinuity.md",
+      "line": 27,
+      "column": 18,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/mass-discontinuity.md",
+      "line": 123,
+      "column": 3,
+      "zone": "references",
+      "text": "胡敏",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/dynamics/regional-station-keeping.md",
+      "line": 52,
+      "column": 35,
+      "zone": "body",
+      "text": "外形",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/absolute-range.md",
+      "line": 91,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/absolute-range.md",
+      "line": 92,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/aerospace-vehicle.md",
+      "line": 72,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/aerospace-vehicle.md",
+      "line": 73,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/aerospace-vehicle.md",
+      "line": 74,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/body-frame.md",
+      "line": 75,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/body-frame.md",
+      "line": 76,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/celestial-coordinate-system.md",
+      "line": 101,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/celestial-coordinate-system.md",
+      "line": 102,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/celestial-sphere.md",
+      "line": 69,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/celestial-sphere.md",
+      "line": 70,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/coverage-angle.md",
+      "line": 78,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/coverage-angle.md",
+      "line": 79,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/earth-ellipsoid.md",
+      "line": 80,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/earth-ellipsoid.md",
+      "line": 81,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
+      "line": 78,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
+      "line": 79,
+      "column": 3,
+      "zone": "references",
+      "text": "刘林",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/ecef-frame.md",
+      "line": 75,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/ecef-frame.md",
+      "line": 77,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/free-flight-phase.md",
+      "line": 73,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/free-flight-phase.md",
+      "line": 74,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/free-flight-trajectory.md",
+      "line": 77,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/free-flight-trajectory.md",
+      "line": 78,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gaussian-perturbation-equations.md",
+      "line": 72,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gaussian-perturbation-equations.md",
+      "line": 73,
+      "column": 3,
+      "zone": "references",
+      "text": "刘林",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/geocentric-inertial-frame.md",
+      "line": 76,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/geocentric-inertial-frame.md",
+      "line": 77,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gps-time.md",
+      "line": 69,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gravity-turn.md",
+      "line": 85,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gravity-turn.md",
+      "line": 86,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gravity-vs-gravitation.md",
+      "line": 74,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gravity-vs-gravitation.md",
+      "line": 75,
+      "column": 64,
+      "zone": "references",
+      "text": "人造地球卫星轨道力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/hit-equation.md",
+      "line": 84,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/hit-equation.md",
+      "line": 85,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/hohmann-transfer.md",
+      "line": 75,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/hohmann-transfer.md",
+      "line": 76,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/inertial-navigation-system.md",
+      "line": 78,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/inertial-navigation-system.md",
+      "line": 79,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/instantaneous-balance.md",
+      "line": 68,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/instantaneous-balance.md",
+      "line": 69,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/julian-date.md",
+      "line": 77,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/julian-date.md",
+      "line": 78,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/kepler-equation.md",
+      "line": 82,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/kepler-equation.md",
+      "line": 83,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/lagrangian-perturbation-equations.md",
+      "line": 69,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/lagrangian-perturbation-equations.md",
+      "line": 70,
+      "column": 3,
+      "zone": "references",
+      "text": "刘林",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/launch-azimuth.md",
+      "line": 83,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/launch-azimuth.md",
+      "line": 84,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/launch-window.md",
+      "line": 78,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/launch-window.md",
+      "line": 79,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/minimum-energy-trajectory.md",
+      "line": 73,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/minimum-energy-trajectory.md",
+      "line": 74,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/newton-iteration-method.md",
+      "line": 84,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/newton-iteration-method.md",
+      "line": 85,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/nutation.md",
+      "line": 81,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/nutation.md",
+      "line": 82,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/optimal-velocity-inclination.md",
+      "line": 76,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/optimal-velocity-inclination.md",
+      "line": 77,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/orbital-elements.md",
+      "line": 83,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/orbital-elements.md",
+      "line": 84,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/perturbation-motion.md",
+      "line": 71,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/perturbation-motion.md",
+      "line": 72,
+      "column": 3,
+      "zone": "references",
+      "text": "刘林",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/pitch-program.md",
+      "line": 75,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/pitch-program.md",
+      "line": 76,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/powered-phase.md",
+      "line": 63,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/powered-phase.md",
+      "line": 64,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/precession.md",
+      "line": 78,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/precession.md",
+      "line": 79,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/range-error-coefficient.md",
+      "line": 90,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/range-error-coefficient.md",
+      "line": 91,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/satellite-ring.md",
+      "line": 86,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/satellite-ring.md",
+      "line": 87,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/sequential-quadratic-programming.md",
+      "line": 88,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/sequential-quadratic-programming.md",
+      "line": 89,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/solar-exposure-factor.md",
+      "line": 82,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/solar-exposure-factor.md",
+      "line": 83,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/specific-impulse.md",
+      "line": 84,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/subsatellite-track.md",
+      "line": 78,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/subsatellite-track.md",
+      "line": 79,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/sun-synchronous-orbit.md",
+      "line": 79,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/sun-synchronous-orbit.md",
+      "line": 80,
+      "column": 3,
+      "zone": "references",
+      "text": "刘林",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
+      "line": 81,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
+      "line": 82,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/thrust.md",
+      "line": 82,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/thrust.md",
+      "line": 83,
+      "column": 64,
+      "zone": "references",
+      "text": "远程火箭弹道学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/trajectory-optimization.md",
+      "line": 90,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/trajectory-optimization.md",
+      "line": 91,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/true-anomaly.md",
+      "line": 86,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/true-anomaly.md",
+      "line": 87,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
+      "line": 84,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
+      "line": 86,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/turning-program.md",
+      "line": 79,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/turning-program.md",
+      "line": 80,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/two-body-problem.md",
+      "line": 75,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/two-body-problem.md",
+      "line": 76,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/utc.md",
+      "line": 72,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/utc.md",
+      "line": 73,
+      "column": 3,
+      "zone": "references",
+      "text": "任萱",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/variation-of-parameters.md",
+      "line": 73,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/variation-of-parameters.md",
+      "line": 74,
+      "column": 3,
+      "zone": "references",
+      "text": "刘林",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/vis-viva-equation.md",
+      "line": 82,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/vis-viva-equation.md",
+      "line": 83,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/walker-constellation.md",
+      "line": 80,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/walker-constellation.md",
+      "line": 81,
+      "column": 3,
+      "zone": "references",
+      "text": "贾沛然",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/minerals/ce-changeite.md",
+      "line": 27,
+      "column": 21,
+      "zone": "link-text",
+      "text": "说",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/minerals/mg-changeite.md",
+      "line": 27,
+      "column": 21,
+      "zone": "link-text",
+      "text": "说",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/navigation/altitude-regulation.md",
+      "line": 50,
+      "column": 11,
+      "zone": "body",
+      "text": "囊",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/orbits/dro.md",
+      "line": 36,
+      "column": 50,
+      "zone": "image-path",
+      "text": "示意图",
+      "severity": "error",
+      "rule": "chinese-in-image-path",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/orbits/dro.md",
+      "line": 40,
+      "column": 91,
+      "zone": "image-path",
+      "text": "质心旋转坐标系及",
+      "severity": "error",
+      "rule": "chinese-in-image-path",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/orbits/nrho.md",
+      "line": 35,
+      "column": 88,
+      "zone": "image-path",
+      "text": "地月",
+      "severity": "error",
+      "rule": "chinese-in-image-path",
+      "allowlisted": false
+    },
+    {
+      "file": "en/research-frontiers/institutions/dfhscl.md",
+      "line": 31,
+      "column": 18,
+      "zone": "body",
+      "text": "中国卫星",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/research-frontiers/institutions/npu.md",
+      "line": 31,
+      "column": 45,
+      "zone": "body",
+      "text": "西北工业大学",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/research-frontiers/institutions/nudt.md",
+      "line": 31,
+      "column": 54,
+      "zone": "body",
+      "text": "国防科技大学",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/research-frontiers/institutions/seu.md",
+      "line": 31,
+      "column": 31,
+      "zone": "body",
+      "text": "航天工程大学",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/research-frontiers/institutions/thu.md",
+      "line": 31,
+      "column": 22,
+      "zone": "body",
+      "text": "清华大学",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/research-frontiers/institutions/thu.md",
+      "line": 33,
+      "column": 23,
+      "zone": "body",
+      "text": "院系调整",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2025/05/2025-05-13-tongce-19.md",
+      "line": 18,
+      "column": 96,
+      "zone": "body",
+      "text": "通信技术试验卫星十九号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2025/05/2025-05-14-space-computing-constellation.md",
+      "line": 18,
+      "column": 432,
+      "zone": "body",
+      "text": "国星宇航",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-13-china-long-march-dual-launch.md",
+      "line": 19,
+      "column": 444,
+      "zone": "body",
+      "text": "试验三十号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-13-china-long-march-dual-launch.md",
+      "line": 29,
+      "column": 22,
+      "zone": "link-text",
+      "text": "长征二号丁运载火箭成功发射试验三十号卫星",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-26-china-siwei-gaojing-2-05-06.md",
+      "line": 27,
+      "column": 16,
+      "zone": "link-text",
+      "text": "我国成功发射四维高景二号",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite.md",
+      "line": 26,
+      "column": 60,
+      "zone": "body",
+      "text": "深度合作",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-27-china-esa-smile-satellite.md",
+      "line": 67,
+      "column": 12,
+      "zone": "references",
+      "text": "微笑",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+      "line": 21,
+      "column": 48,
+      "zone": "body",
+      "text": "试验三十三号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+      "line": 37,
+      "column": 185,
+      "zone": "body",
+      "text": "远征一号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-27-china-shiyan-33.md",
+      "line": 51,
+      "column": 10,
+      "zone": "references",
+      "text": "我国成功发射试验三十三号卫星",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
+      "line": 39,
+      "column": 20,
+      "zone": "body",
+      "text": "有害气体",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-29-artemis-2-pre-launch-media-events.md",
+      "line": 25,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-30-artemis-2-final-preparations.md",
+      "line": 25,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-30-lift-2-maiden-flight.md",
+      "line": 24,
+      "column": 37,
+      "zone": "body",
+      "text": "中科宇航",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-30-spacex-transporter-16.md",
+      "line": 24,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-30-spacex-v3-starship-static-fire.md",
+      "line": 24,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-31-artemis-2-countdown-begins.md",
+      "line": 25,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-31-artemis-2-solar-flare.md",
+      "line": 25,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-31-iss-expedition-74-week.md",
+      "line": 25,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-31-rocket-lab-mynaric-acquisition.md",
+      "line": 24,
+      "column": 3,
+      "zone": "body",
+      "text": "摘要：",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-03-spacex-ipo-sec-filing.md",
+      "line": 48,
+      "column": 4,
+      "zone": "link-text",
+      "text": "史上最大",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-05-zhuque-3-reuse-test.md",
+      "line": 91,
+      "column": 4,
+      "zone": "link-text",
+      "text": "蓝箭航天张晓东：朱雀三号上半年冲刺回收复用",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+      "line": 24,
+      "column": 171,
+      "zone": "body",
+      "text": "千帆",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+      "line": 31,
+      "column": 202,
+      "zone": "body",
+      "text": "千帆",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-07-qianfan-7th-batch.md",
+      "line": 41,
+      "column": 4,
+      "zone": "link-text",
+      "text": "我国成功发射千帆星座第七批组网卫星",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21.md",
+      "line": 24,
+      "column": 189,
+      "zone": "body",
+      "text": "长征六号改",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21.md",
+      "line": 43,
+      "column": 4,
+      "zone": "link-text",
+      "text": "我国成功发射卫星互联网低轨",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-17-greenhouse-gas-satellite.md",
+      "line": 32,
+      "column": 4,
+      "zone": "link-text",
+      "text": "高精度温室气体综合探测卫星成功发射",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-21-commercial-space-roundtable.md",
+      "line": 49,
+      "column": 42,
+      "zone": "body",
+      "text": "守住",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-22-belts-of-green.md",
+      "line": 30,
+      "column": 217,
+      "zone": "body",
+      "text": "环形公路",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-22-csc2026-preview.md",
+      "line": 15,
+      "column": 242,
+      "zone": "body",
+      "text": "七秩问天路",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-22-infineon-artemis-ii.md",
+      "line": 32,
+      "column": 4,
+      "zone": "link-text",
+      "text": "英飞凌抗辐射半导体助力",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-24-china-space-day-2026-ceremony.md",
+      "line": 4,
+      "column": 200,
+      "zone": "frontmatter-description",
+      "text": "精度",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-24-china-space-day-overview.md",
+      "line": 50,
+      "column": 4,
+      "zone": "link-text",
+      "text": "奋楫问天路，逐梦探苍穹",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-24-commercial-space-mass-production.md",
+      "line": 67,
+      "column": 73,
+      "zone": "link-text",
+      "text": "密集发射期",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-24-space-public-welfare-ambassador.md",
+      "line": 38,
+      "column": 356,
+      "zone": "body",
+      "text": "攻关",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-25-chang-e5-new-minerals.md",
+      "line": 28,
+      "column": 26,
+      "zone": "heading",
+      "text": "镁嫦娥石",
+      "severity": "error",
+      "rule": "chinese-in-heading",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-25-chang-e5-new-minerals.md",
+      "line": 38,
+      "column": 23,
+      "zone": "heading",
+      "text": "铈嫦娥石",
+      "severity": "error",
+      "rule": "chinese-in-heading",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-25-csc2026-main-forum.md",
+      "line": 35,
+      "column": 8,
+      "zone": "link-text",
+      "text": "年中国航天大会主论坛成功召开",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-26-china-2025-launch-stats.md",
+      "line": 42,
+      "column": 63,
+      "zone": "body",
+      "text": "中科宇航",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-26-galaxy-8year.md",
+      "line": 24,
+      "column": 188,
+      "zone": "body",
+      "text": "银河航天",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-26-galaxy-8year.md",
+      "line": 31,
+      "column": 118,
+      "zone": "body",
+      "text": "常温两级液体运载火箭",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-26-galaxy-8year.md",
+      "line": 40,
+      "column": 121,
+      "zone": "body",
+      "text": "小蜘蛛网",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-27-space-metal-3d-printing.md",
+      "line": 19,
+      "column": 400,
+      "zone": "body",
+      "text": "力箭二号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-28-beijing-space-science-center.md",
+      "line": 29,
+      "column": 37,
+      "zone": "body",
+      "text": "还原",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-28-changzheng-10yi-maiden-flight.md",
+      "line": 45,
+      "column": 232,
+      "zone": "body",
+      "text": "千帆星座",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+      "line": 23,
+      "column": 90,
+      "zone": "body",
+      "text": "锋行",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+      "line": 42,
+      "column": 19,
+      "zone": "body",
+      "text": "界面新闻",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+      "line": 46,
+      "column": 4,
+      "zone": "link-text",
+      "text": "国内首个服务卫星组网和在轨服务的商业飞行器发布",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-28-futurex-fx-spacecraft.md",
+      "line": 47,
+      "column": 4,
+      "zone": "link-text",
+      "text": "亚马逊与中国企业争夺卫星互联网市场",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-28-ula-atlas-v-kuiper-29-satellites.md",
+      "line": 50,
+      "column": 4,
+      "zone": "link-text",
+      "text": "舜网：亚马逊低地轨道卫星计划又一批卫星发射升空",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-artemis-hls-starship-blue-origin-delay.md",
+      "line": 23,
+      "column": 165,
+      "zone": "body",
+      "text": "进度",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-artemis-hls-starship-blue-origin-delay.md",
+      "line": 49,
+      "column": 4,
+      "zone": "link-text",
+      "text": "登月版星舰、蓝月登月器最早",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-css-t-shape-expansion.md",
+      "line": 28,
+      "column": 208,
+      "zone": "body",
+      "text": "十",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-falcon-heavy-viasat-3-f3-launch.md",
+      "line": 32,
+      "column": 4,
+      "zone": "link-text",
+      "text": "腾讯新闻《猎鹰重型时隔",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-microstar-ipo.md",
+      "line": 33,
+      "column": 69,
+      "zone": "body",
+      "text": "阶段性",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+      "line": 38,
+      "column": 4,
+      "zone": "link-text",
+      "text": "酒泉卫星发射中心全力备战神舟二十三号等任务",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+      "line": 39,
+      "column": 4,
+      "zone": "link-text",
+      "text": "神舟二十三号发射任务备战中",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+      "line": 40,
+      "column": 4,
+      "zone": "link-text",
+      "text": "神舟二十三号蓄势待发：乘组调整引期待",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-29-shenzhou-23-preparation.md",
+      "line": 41,
+      "column": 4,
+      "zone": "link-text",
+      "text": "神舟二十三号发射准备中：",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+      "line": 62,
+      "column": 4,
+      "zone": "link-text",
+      "text": "大航跃迁完成",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+      "line": 63,
+      "column": 4,
+      "zone": "link-text",
+      "text": "大航跃迁完成",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+      "line": 64,
+      "column": 4,
+      "zone": "link-text",
+      "text": "大航跃迁完成",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding.md",
+      "line": 65,
+      "column": 4,
+      "zone": "link-text",
+      "text": "大航跃迁完成",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-wukong-cosmic-ray-discovery.md",
+      "line": 32,
+      "column": 4,
+      "zone": "link-text",
+      "text": "新华网：「悟空」号揭示宇宙射线加速关键机制，首次发现宇宙射线加速能量极限的电荷依赖规律（",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-wukong-cosmic-ray-discovery.md",
+      "line": 33,
+      "column": 4,
+      "zone": "link-text",
+      "text": "腾讯新闻：「悟空」号最新成果：地球附近存在「超级粒子加速器」（",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-wukong-cosmic-ray-discovery.md",
+      "line": 35,
+      "column": 4,
+      "zone": "link-text",
+      "text": "紫金山天文台：「悟空」号发布最新成果（",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-zhuque-3-yao2-leaves-factory.md",
+      "line": 43,
+      "column": 14,
+      "zone": "link-text",
+      "text": "官方渠道",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/04/2026-04-30-zhuque-3-yao2-leaves-factory.md",
+      "line": 44,
+      "column": 4,
+      "zone": "link-text",
+      "text": "蓝箭航天官网",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc.md",
+      "line": 32,
+      "column": 45,
+      "zone": "link-text",
+      "text": "（",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc.md",
+      "line": 33,
+      "column": 63,
+      "zone": "link-text",
+      "text": "（",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc.md",
+      "line": 34,
+      "column": 51,
+      "zone": "link-text",
+      "text": "（",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-01-shenzhou-21-500day-return.md",
+      "line": 35,
+      "column": 396,
+      "zone": "body",
+      "text": "中",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-02-falcon9-derelict-moon-impact.md",
+      "line": 63,
+      "column": 10,
+      "zone": "link-text",
+      "text": "废弃火箭上面级将于",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-02-falcon9-derelict-moon-impact.md",
+      "line": 64,
+      "column": 4,
+      "zone": "link-text",
+      "text": "今年",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-02-falcon9-derelict-moon-impact.md",
+      "line": 65,
+      "column": 4,
+      "zone": "link-text",
+      "text": "猎鹰火箭将执行撞击月球的既定任务",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+      "line": 21,
+      "column": 31,
+      "zone": "body",
+      "text": "上海大航跃迁航天科技有限公司",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+      "line": 25,
+      "column": 38,
+      "zone": "body",
+      "text": "前海方舟",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+      "line": 29,
+      "column": 126,
+      "zone": "body",
+      "text": "跃迁一号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+      "line": 35,
+      "column": 172,
+      "zone": "body",
+      "text": "筷子夹",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding.md",
+      "line": 37,
+      "column": 184,
+      "zone": "body",
+      "text": "陈曙光",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-03-spacex-apex-ipo.md",
+      "line": 4,
+      "column": 10,
+      "zone": "frontmatter-description",
+      "text": "代号「",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-03-spacex-apex-ipo.md",
+      "line": 23,
+      "column": 248,
+      "zone": "body",
+      "text": "「",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-06-dixing-bed-rest-volunteer.md",
+      "line": 19,
+      "column": 183,
+      "zone": "body",
+      "text": "我们的太空",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-07-mars-simulation-200days.md",
+      "line": 19,
+      "column": 252,
+      "zone": "body",
+      "text": "封闭",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-11-shenzhou-23-mission-badge.md",
+      "line": 22,
+      "column": 4,
+      "zone": "link-text",
+      "text": "神舟二十三号载人飞行任务标识发布",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-11-shenzhou-23-mission-badge.md",
+      "line": 23,
+      "column": 4,
+      "zone": "link-text",
+      "text": "神舟二十三号载人飞行任务标识发布",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-12-qianfan-09-long-march-6-modified.md",
+      "line": 4,
+      "column": 184,
+      "zone": "frontmatter-description",
+      "text": "改",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-12-shiveluch-volcano-satellite.md",
+      "line": 31,
+      "column": 177,
+      "zone": "body",
+      "text": "涌入",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-13-google-spacex-orbital-data-center.md",
+      "line": 25,
+      "column": 83,
+      "zone": "body",
+      "text": "互联卫星",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-14-nasa-mars-telecom-network-rfp.md",
+      "line": 15,
+      "column": 188,
+      "zone": "body",
+      "text": "通信",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-14-yixian-3-vtvl-rocket.md",
+      "line": 15,
+      "column": 528,
+      "zone": "body",
+      "text": "靶心",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-15-crs-34-launch-success.md",
+      "line": 31,
+      "column": 27,
+      "zone": "body",
+      "text": "曲折",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-15-lijian-1-yao13-100stars.md",
+      "line": 22,
+      "column": 38,
+      "zone": "body",
+      "text": "中国有戏号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-15-lijian-1-yao13-100stars.md",
+      "line": 32,
+      "column": 14,
+      "zone": "body",
+      "text": "有戏号",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-15-lijian-1-yao13-100stars.md",
+      "line": 47,
+      "column": 47,
+      "zone": "body",
+      "text": "中科宇航",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-16-shenzhou-23-rocket-transfer.md",
+      "line": 32,
+      "column": 253,
+      "zone": "body",
+      "text": "常态化",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-18-starlink-megaconstellations.md",
+      "line": 19,
+      "column": 3,
+      "zone": "body",
+      "text": "（",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-19-china-commercial-space-mass-production.md",
+      "line": 27,
+      "column": 11,
+      "zone": "link-text",
+      "text": "第一财经",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-20-neptune-nereid-jwst-study.md",
+      "line": 32,
+      "column": 129,
+      "zone": "body",
+      "text": "外来天体",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-20-tianwen-1-interstellar-dust.md",
+      "line": 30,
+      "column": 4,
+      "zone": "link-text",
+      "text": "天问一号成功观测到星际天体的尘埃活动（中国科学院国家天文台）",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-23-europa-water-plume-retraction.md",
+      "line": 19,
+      "column": 3,
+      "zone": "body",
+      "text": "（",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-23-shenzhou-23-crew-reveal.md",
+      "line": 49,
+      "column": 55,
+      "zone": "body",
+      "text": "组合体",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-24-exoplanet-interior-structure.md",
+      "line": 3,
+      "column": 2,
+      "zone": "frontmatter-title",
+      "text": "银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-24-exoplanet-interior-structure.md",
+      "line": 13,
+      "column": 1,
+      "zone": "heading",
+      "text": "银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型",
+      "severity": "error",
+      "rule": "chinese-in-heading",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-24-shenzhou-23-launch-success.md",
+      "line": 15,
+      "column": 407,
+      "zone": "body",
+      "text": "预定轨道",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-24-shenzhou-23-launch-success.md",
+      "line": 19,
+      "column": 3,
+      "zone": "body",
+      "text": "（",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-25-darpa-rsgs-geosynchronous-satellite.md",
+      "line": 21,
+      "column": 205,
+      "zone": "body",
+      "text": "区域",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-27-perovskite-solar-cell-tiangong.md",
+      "line": 20,
+      "column": 22,
+      "zone": "link-text",
+      "text": "随神舟上天",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+      "line": 24,
+      "column": 190,
+      "zone": "body",
+      "text": "常温液体二级运载火箭",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+      "line": 26,
+      "column": 121,
+      "zone": "body",
+      "text": "蓝箭鸿擎科技",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch.md",
+      "line": 32,
+      "column": 276,
+      "zone": "body",
+      "text": "银河航天",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/05/README.md",
+      "line": 51,
+      "column": 17,
+      "zone": "link-text",
+      "text": "银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-01-shenzhou-21-crew-beijing-arrival.md",
+      "line": 39,
+      "column": 63,
+      "zone": "body",
+      "text": "进出舱",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-03-beijing-yizhuang-space-computing-symposium.md",
+      "line": 33,
+      "column": 193,
+      "zone": "body",
+      "text": "陆建华",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/what-is-cislunarspace/README.md",
+      "line": 33,
+      "column": 37,
+      "zone": "body",
+      "text": "地月空间示意图",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    }
+  ],
+  "summary": {
+    "total": 289,
+    "byZone": {
+      "body": 110,
+      "image-path": 4,
+      "references": 123,
+      "heading": 5,
+      "link-text": 43,
+      "frontmatter-description": 3,
+      "frontmatter-title": 1
+    },
+    "allowlisted": 123,
+    "unexplained": 166
+  }
+}

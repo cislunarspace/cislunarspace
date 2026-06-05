@@ -2,7 +2,7 @@
 title: Shooting Method
 description: The shooting method converts a two-point boundary value problem into an initial value problem solved by iterative correction, widely used in orbit design and periodic orbit generation.
 keywords: Shooting Method, Boundary Value Problem, Initial Value Problem, Orbit Design, Differential Correction
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-06-05
 permalink: /en/background/math/shooting-method/
@@ -14,7 +14,7 @@ wechatShare:
 
 # Shooting Method
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site: [https://cislunarspace.cn](https://cislunarspace.cn)
 

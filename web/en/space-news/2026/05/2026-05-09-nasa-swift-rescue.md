@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Link spacecraft, designed to rescue the aging Neil Gehrels Swift Observatory from orbital decay, passes key environmental testing at Goddard Space Flight Center ahead of a planned 2026 launch."
   image: "./figures/2026-05-09-nasa-swift-rescue/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-09-nasa-swift-rescue/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-09
 lastUpdated: 2026-05-09
 category: nasa

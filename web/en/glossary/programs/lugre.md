@@ -2,7 +2,7 @@
 title: LuGRE Experiment
 description: Analysis of NASA's and ASI's joint lunar GNSS receiver experiment, first to receive Earth's GNSS signals on the lunar surface
 keywords: LuGRE, lunar GNSS, GPS signal reception, deep space navigation, NASA, ASI, weak-signal acquisition, lunar surface positioning
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:

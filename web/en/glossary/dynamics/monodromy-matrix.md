@@ -2,7 +2,7 @@
 title: Monodromy Matrix
 description: Detailed analysis of the definition, eigenvalue structure, and applications of the Monodromy Matrix in periodic orbit analysis
 keywords: Monodromy Matrix, Periodic Orbit, Stability Analysis, Eigenvalue, Floquet Theory
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

@@ -2,7 +2,7 @@
 title: Differential Games (Differential Games)
 description: Differential games is a mathematical theory describing multi-party gaming problems in continuous dynamic systems, widely applied in spacecraft pursuit-evasion, economics, and military confrontation.
 keywords: Differential Games, Pursuit-Evasion Game, Zero-Sum Game, Saddle-Point Strategy, Optimal Control
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
@@ -24,7 +24,7 @@ wechatShare:
 
 # Differential Games (Differential Games)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > This article is compiled from 张乘铭 (2021) "航天器追逃博弈制导策略研究"
 

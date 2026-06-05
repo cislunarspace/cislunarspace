@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Japan's Intelligence Satellite Constellation Now Operational: Boosting Counterstrike Capabilities"
 description: "Japan's Defense Affairs Vice Minister Wakabayashi Yohei announced on May 14 that the intelligence-gathering satellite network 'Satellite Constellation' has been operational since April, designed to ensure the effectiveness of long-range missiles as part of Japan's 'counterstrike capability'."
 permalink: /en/space-news/2026/05/2026-05-14-japan-satellite-constellation/
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-16
 category: Japan

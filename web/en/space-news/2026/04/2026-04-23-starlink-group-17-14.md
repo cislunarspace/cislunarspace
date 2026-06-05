@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 23, 2026 UTC, SpaceX successfully launched the Starlink Group 17-14 mission with 20 satellites from Vandenberg Space Force Base aboard a Falcon 9 Block 5 rocket."
   image: "./figures/2026-04-23-starlink-group-17-14/hero.png"
 permalink: /en/space-news/2026/04/2026-04-23-starlink-group-17-14/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-23
 category: [spacex, launch]

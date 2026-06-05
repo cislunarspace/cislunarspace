@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA releases first photos of Artemis 2 Orion capsule since its April return from a 10-day lunar flyaround, revealing the extreme thermal abuse its heat shield endured reentering Earth's atmosphere at nearly 24,000 mph."
   image: "./figures/2026-05-09-artemis-2-orion-hull/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-09-artemis-2-orion-hull/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-09
 lastUpdated: 2026-05-09
 category: artemis

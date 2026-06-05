@@ -2,7 +2,7 @@
 title: Space News · June 2026
 description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-04
 lastUpdated: 2026-06-04
 ---

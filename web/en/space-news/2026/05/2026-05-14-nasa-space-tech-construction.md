@@ -7,7 +7,7 @@ wechatShare:
   desc: "A 3D printing process that advanced NASA's approach to outfitting a lunar habitat is now making buildings on Earth more beautiful, efficient, and sustainable."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-14-nasa-space-tech-construction/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-14
 category: nasa

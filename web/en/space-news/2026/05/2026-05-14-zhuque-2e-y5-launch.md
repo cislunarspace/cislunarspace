@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Landspace's Zhuque-2E Y5 Successful with 2.8-ton Payload to 900km Orbit"
 description: "Landspace's Zhuque-2E Y5 rocket successfully launched on May 14, 2026, placing a 2.8-ton customized test payload into a 900km orbit, marking the seventh flight of the Zhuque-2 series."
 permalink: /en/space-news/2026/05/2026-05-14-zhuque-2e-y5-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-14
 category: commercial

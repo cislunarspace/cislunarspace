@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 30, 2026, Arianespace successfully launched a second batch of 32 Amazon LEO satellites into low Earth orbit using the Ariane 64 rocket with four boosters, marking the second Amazon constellation launch within three days."
   image: "./figures/2026-05-01-amazon-leo-second-batch-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-amazon-leo-second-batch-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-30
 lastUpdated: 2026-04-30
 category: [launch, commercial]

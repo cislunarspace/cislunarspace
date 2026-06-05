@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Twenty-Year Radio Mystery Solved: Astronomers Pin Long-Period Radio Bursts on a 'Vampire' White Dwarf Feeding on Its Companion"
 description: "A team led by University of Sydney PhD student Kovi Rose, using the Australian SKA Pathfinder (ASKAP) radio telescope, has confirmed that the long-period radio transient ASKAP J1745-5051 originates from a symbiotic binary — an Earth-sized, sun-mass white dwarf accreting matter from a red dwarf companion, rather than a magnetar as previously suspected. The finding offers the first concrete binary-interaction explanation for this puzzling class of objects."
 permalink: /en/space-news/2026/06/2026-06-02-vampire-star-radio-signals/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-02
 lastUpdated: 2026-06-02
 category: science

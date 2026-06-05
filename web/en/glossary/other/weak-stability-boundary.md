@@ -1,5 +1,5 @@
 ---
-title: Weak Stability Boundary / WSB (弱稳定边界)
+title: Weak Stability Boundary / WSB
 description: Detailed explanation of weak stability boundary definition, three-body dynamics nature, transfer characteristics, and applications in low-energy orbital transfers
 keywords: Weak Stability Boundary, WSB, three-body problem, low-energy transfer, gravitational capture, Earth-Moon transfer
 author: CislunarSpace

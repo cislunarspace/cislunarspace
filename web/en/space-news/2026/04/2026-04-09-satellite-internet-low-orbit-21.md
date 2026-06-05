@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China Launches 21 Satellite Internet LEO Satellites"
 description: "On April 9, 2026 at 03:38 UTC, China successfully launched a batch of 21 low-Earth-orbit satellites for its satellite internet constellation, using the Long March 6 Modified rocket from Taiyuan Satellite Launch Center."
 permalink: /en/space-news/2026/04/2026-04-09-satellite-internet-low-orbit-21/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-09
 lastUpdated: 2026-04-09
 category: china

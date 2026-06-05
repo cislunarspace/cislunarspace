@@ -2,12 +2,12 @@
 title: Raytheon Missiles & Defense
 description: Introduction to Raytheon Missiles & Defense and parent company RTX's cislunar space missile warning, precision guidance, and space defense business
 keywords: Raytheon, RTX, missile defense, missile warning, precision guidance, space defense, SM-3, THAAD
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 wechatShare:
   title: Raytheon Missiles & Defense
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: Raytheon Missiles & Defense
@@ -24,7 +24,7 @@ permalink: /en/glossary/organizations/raytheon/
 
 # Raytheon Missiles & Defense
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Source: [Raytheon Official Website](https://www.rtx.com) and public sources
 >

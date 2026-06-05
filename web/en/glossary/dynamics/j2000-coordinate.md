@@ -2,7 +2,7 @@
 title: J2000 Geocentric Equatorial Coordinate System (J2000 Geocentric Equatorial Coordinate System)
 description: Detailed analysis of J2000 definition, origin, reference plane, principal direction, and application in orbital dynamics
 keywords: J2000, Geocentric Equatorial Coordinate System, Vernal Equinox, Inertial Coordinate System, Orbital Dynamics, Cislunar Space
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/j2000-coordinate/
 
 # J2000 Geocentric Equatorial Coordinate System (J2000 Geocentric Equatorial Coordinate System)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》
 >

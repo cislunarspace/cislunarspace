@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "14 Years of Hubble Data Challenge Europa Water Plume Discovery: Scientists Question 2012 Observations"
 description: "A team re-analyzing 14 years of Hubble Space Telescope data has cast doubt on the 2012 claims of water vapor plumes on Jupiter's moon Europa, suggesting the original 99.9% confidence detection may have been statistical noise."
 permalink: /en/space-news/2026/05/2026-05-23-europa-water-plume-retraction/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: science

@@ -7,7 +7,7 @@ wechatShare:
   desc: "Rocket Lab announces a five-launch Neutron contract with a mystery customer while reporting $2.2 billion in backlog and reaffirming Q4 2026 first flight."
   image: "./figures/rocket-lab-five-launch-neutron-deal/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-rocket-lab-five-launch-neutron-deal/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: rocket-lab

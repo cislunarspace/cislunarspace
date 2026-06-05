@@ -7,7 +7,7 @@ wechatShare:
   desc: "On May 3, 2026, 80 Texas residents filed a federal lawsuit against SpaceX, alleging that sonic booms from 11 rocket tests between April 2023 and October 2025 caused significant property damage to their homes near the Boca Chica Starbase facility."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-03-spacex-texas-sonic-boom-lawsuit/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: spacex

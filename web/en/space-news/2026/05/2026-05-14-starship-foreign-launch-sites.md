@@ -7,7 +7,7 @@ wechatShare:
   desc: "SpaceX is in discussions with multiple countries to establish Starship launch facilities outside the United States, according to sources familiar with the matter, as the company prepares for the rocket's third integrated flight test."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-14-starship-foreign-launch-sites/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-14
 category: spacex

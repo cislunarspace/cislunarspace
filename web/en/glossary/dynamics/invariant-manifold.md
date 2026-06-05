@@ -2,7 +2,7 @@
 title: Invariant Manifold (Invariant Manifold)
 description: Detailed analysis of invariant manifold definition, stable and unstable manifold concepts, and their applications in libration point orbit design and low-energy transfers
 keywords: Invariant Manifold, Stable Manifold, Unstable Manifold, Libration Point, Low-energy Transfer, Manifold Theory
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/invariant-manifold/
 
 # Invariant Manifold (Invariant Manifold)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》
 >

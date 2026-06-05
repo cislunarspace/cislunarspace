@@ -2,7 +2,7 @@
 title: Patch Point (Splicing Point)
 description: Detailed analysis of patch point selection and its role in multi-segment orbit computation
 keywords: Patch Point, Splicing Point, Multi-Segment Orbit, Orbit Computation, Boundary Condition
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

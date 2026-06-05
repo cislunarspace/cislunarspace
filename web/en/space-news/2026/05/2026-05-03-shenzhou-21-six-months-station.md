@@ -7,7 +7,7 @@ wechatShare:
   desc: "Astronauts Zhang Lu, Wu Fei and Zhang Hongzhang complete six months on orbit, conducting brain-computer experiments and preparing for Tianzhou-10 and Shenzhou-23 missions."
   image: "./figures/2026-05-03-shenzhou-21-six-months-station/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-03-shenzhou-21-six-months-station/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: iss

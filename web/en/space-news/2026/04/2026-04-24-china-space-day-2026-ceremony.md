@@ -4,10 +4,10 @@ title: "11th China Space Day: 70 Years of Journey to the Stars"
 description: "April 24, 2026 marks the 11th China Space Day, coinciding with the 70th anniversary of China's space industry. Tianwen-3 Mars sample return officially unveiled, Chang'e-7 to launch this year, Beidou精度 and next-gen crew spacecraft progressing steadily."
 wechatShare:
   title: "11th China Space Day: 70 Years of Journey to the Stars"
-  desc: "April 24, 2026 marks the 11th China Space Day, coinciding with the 70th anniversary of China's space industry. Tianwen-3 Mars sample return officially unveiled, Chang'e-7 to launch this year, Beidou精度 and next-gen crew spacecraft progressing steadily."
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: "./figures/2026-04-24-china-space-day-2026-ceremony/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-china-space-day-2026-ceremony/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 category: china

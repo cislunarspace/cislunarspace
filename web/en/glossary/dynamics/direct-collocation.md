@@ -2,7 +2,7 @@
 title: Direct Collocation
 description: Direct Collocation is a trajectory optimization method that discretizes continuous optimal control problems into nonlinear programming problems for numerical solution, widely used in low-thrust transfer trajectory design
 keywords: Direct Collocation, trajectory optimization, nonlinear programming, low-thrust, Hermite-Simpson, collocation method, optimal control, boundary value problem
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:

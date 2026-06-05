@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "FAA Orders SpaceX to Investigate Starship V3 Booster Failure; All Launches Suspended"
 description: "The U.S. Federal Aviation Administration (FAA) issued a statement on May 27, 2026, requiring SpaceX to investigate the Super Heavy booster failure during the Starship V3 Flight 12 launch on May 22, and confirming all subsequent Starship launches must remain grounded pending FAA approval of the investigation findings."
 permalink: /en/space-news/2026/05/2026-05-27-starship-v3-flight-12-faa-grounding/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-27
 lastUpdated: 2026-05-27
 category: spacex

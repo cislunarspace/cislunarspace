@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA and SpaceX call off the 34th Commercial Resupply Services mission from Cape Canaveral due to unfavorable weather conditions, with a retry targeted for May 13."
   image: "./figures/2026-05-12-crs-34-scrub-weather/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-crs-34-scrub-weather/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-12
 category: [spacex, iss]

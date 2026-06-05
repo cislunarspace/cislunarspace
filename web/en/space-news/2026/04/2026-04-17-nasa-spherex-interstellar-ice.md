@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA's SPHEREx Observatory Maps Interstellar Ice in Milky Way"
 description: "NASA's SPHEREx mission has captured the chemical signatures of water ice and complex organic molecules in the Cygnus X star-forming region, providing new insights into the universe's water reservoirs and the chemistry of life."
 permalink: /en/space-news/2026/04/2026-04-17-nasa-spherex-interstellar-ice/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-17
 lastUpdated: 2026-04-17
 category: science

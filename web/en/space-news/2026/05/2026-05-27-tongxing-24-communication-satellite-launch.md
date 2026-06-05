@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China Launches Tongxing-24 Communication Technology Test Satellite on Long March 7"
 description: "China successfully launched the Tongxing-24 (CX-24) communication technology test satellite aboard a Long March 7 modified rocket from Wenchang Spacecraft Launch Site at 00:16 Beijing time on May 27, 2026."
 permalink: /en/space-news/2026/05/2026-05-27-tongxing-24-communication-satellite-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-27
 lastUpdated: 2026-05-27
 category: china

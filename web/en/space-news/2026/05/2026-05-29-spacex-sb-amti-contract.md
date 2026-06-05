@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Secures $64.5 Billion in US Space Force Contracts in One Week: SB-AMTI Constellation to Deploy in 2028"
 description: "On May 29, 2026, the US Space Force awarded SpaceX a $41.6 billion contract for the Space-Based Airborne Mobile Target Indicator (SB-AMTI) satellite constellation, bringing its total Space Force contracts to $64.5 billion in a single week"
 permalink: /en/space-news/2026/05/2026-05-29-spacex-sb-amti-contract/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-29
 lastUpdated: 2026-05-29
 category: policy

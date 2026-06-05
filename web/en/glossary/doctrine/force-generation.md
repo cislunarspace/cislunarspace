@@ -2,12 +2,12 @@
 title: Force Generation
 description: Force Generation is the U.S. Space Force service-level activity that builds, sustains, and reconstitutes force elements using the SPAFORGEN rotational model for prompt and sustained operations.
 keywords: Force Generation, SPAFORGEN, Prepare, Ready, Commit, Mission Deltas, System Deltas, Space Force
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
   title: Force Generation
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: Force Generation | SPAFORGEN Model
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/force-generation/
 
 # Force Generation
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site: [https://cislunarspace.cn](https://cislunarspace.cn)
 

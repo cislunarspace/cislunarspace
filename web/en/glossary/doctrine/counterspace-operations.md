@@ -2,7 +2,7 @@
 title: Counterspace Operations
 description: Counterspace Operations are military activities in space conducted to deny adversary spacepower by disrupting, degrading, or destroying enemy space capabilities while maintaining space sustainability.
 keywords: Counterspace Operations, counterspace warfare, space control, anti-satellite, space denial, space debris
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/counterspace-operations/
 
 # Counterspace Operations
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 

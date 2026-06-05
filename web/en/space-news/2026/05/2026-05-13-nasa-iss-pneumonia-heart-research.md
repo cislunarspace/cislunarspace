@@ -7,7 +7,7 @@ wechatShare:
   desc: "Expedition 74 astronauts aboard the ISS are uncovering how pneumonia-causing bacteria lead to long-term heart damage in microgravity, offering new insights for cardiovascular disease treatment on Earth."
   image: "./figures/2026-05-13-nasa-iss-pneumonia-heart-research/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-nasa-iss-pneumonia-heart-research/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-13
 lastUpdated: 2026-05-13
 category: [nasa, science]

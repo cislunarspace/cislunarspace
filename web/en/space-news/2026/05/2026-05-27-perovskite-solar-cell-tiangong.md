@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Nanjing University Perovskite Solar Cells Begin First Dynamic Service Test on China's Tiangong Space Station"
 description: "A single-junction perovskite solar cell developed by Nanjing University, Renshan Photovoltaics and the Chinese Academy of Sciences has begun its first dynamic service experiment aboard China's Tiangong space station, aiming to collect real-space conversion efficiency decay data under extreme orbital conditions."
 permalink: /en/space-news/2026/05/2026-05-27-perovskite-solar-cell-tiangong/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-27
 lastUpdated: 2026-05-27
 category: science

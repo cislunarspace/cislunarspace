@@ -7,7 +7,7 @@ wechatShare:
   desc: "SpaceX's drone ship Just Read the Instructions (JRTI) completed its 156th Falcon booster recovery on April 21, marking the end of JRTI's Falcon 9 recovery era as the ship transitions to support Starship operations."
   image: "./figures/2026-04-22-jrti-final-flight/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-jrti-final-flight/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-23
 category: [spacex, launch]

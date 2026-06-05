@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China's Tianwen-1 Mars Orbiter Observes Dust Activity of Interstellar Object 3I/ATLAS"
 description: "Chinese scientists use the Tianwen-1 Mars orbiter's HiRIC camera to capture multiple images of the third interstellar object 3I/ATLAS, providing unique observations of interstellar dust activity from Mars orbit."
 permalink: /en/space-news/2026/05/2026-05-20-tianwen-1-interstellar-dust/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-20
 lastUpdated: 2026-05-22
 category: science

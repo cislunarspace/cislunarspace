@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 30, 2026, Shanghai Commercial Space Offshore Launch Technology Co., Ltd. was officially established with a registered capital of 1.1 billion RMB, co-founded by five state-owned enterprises covering satellite operations, rocket manufacturing, offshore platforms, industrial parks, and state capital."
   image: "./figures/2026-05-01-shanghai-offshore-launch-company/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-shanghai-offshore-launch-company/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-30
 lastUpdated: 2026-04-30
 category: [china, commercial]

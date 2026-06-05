@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "World's First Space Computing Constellation Successfully Launched"
 description: "On May 14, 2025, China successfully launched the world's first space computing satellite constellation aboard a Long March-2D rocket from the Jiuquan Satellite Launch Center."
 permalink: /en/space-news/2025/05/2025-05-14-space-computing-constellation/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-05-14
 lastUpdated: 2025-05-14
 category: [china, launch]

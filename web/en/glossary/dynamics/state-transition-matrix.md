@@ -2,7 +2,7 @@
 title: State Transition Matrix (STM)
 description: Detailed analysis of the definition, computation method, and applications of the State Transition Matrix in orbital mechanics
 keywords: State Transition Matrix, STM, Variational Equations, Orbital Mechanics, Sensitivity Analysis
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

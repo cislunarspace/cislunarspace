@@ -7,7 +7,7 @@ wechatShare:
   desc: "The US Congressional Budget Office estimates Trump's Golden Dome space-based missile defense system could cost $1.2 trillion over 20 years, far exceeding the administration's $185 billion estimate, with space-based interceptors accounting for 60% of costs."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-13-golden-dome-cbo-cost/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-13
 lastUpdated: 2026-05-13
 category: policy

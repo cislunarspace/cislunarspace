@@ -7,7 +7,7 @@ wechatShare:
   desc: "High-resolution 3D simulations by Purdue researchers show the South Pole-Aitken basin on the Moon's far side was formed by a differentiated asteroid striking at a shallow angle, decapitating its outer layers."
   image: "./figures/2026-05-07-south-pole-aitken-asteroid-study/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-south-pole-aitken-asteroid-study/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: science

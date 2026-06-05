@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA to Open JPL Operations Contract for Competition for First Time in Nearly 90 Years"
 description: "NASA announced on May 22, 2026 that it will for the first time open to competitive bidding the contract to operate the Jet Propulsion Laboratory, whose exclusive agreement with Caltech expires on September 30, 2028."
 permalink: /en/space-news/2026/05/2026-05-22-nasa-jpl-governance-caltech/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-22
 lastUpdated: 2026-05-23
 category: nasa

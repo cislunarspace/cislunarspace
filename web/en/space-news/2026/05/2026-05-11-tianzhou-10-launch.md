@@ -7,7 +7,7 @@ wechatShare:
   desc: "China successfully launched the Tianzhou-10 cargo spacecraft aboard a Long March 7 rocket from Wenchang Space Launch Site on May 11, 2026 at 08:14 Beijing Time (00:14 UTC)."
   image: "./figures/2026-05-11-tianzhou-10-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-11-tianzhou-10-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: china

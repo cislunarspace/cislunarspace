@@ -7,7 +7,7 @@ wechatShare:
   desc: "During the Artemis II mission in early April, astronauts observed flashes of light from meteoroids hitting the lunar surface while Earth-based volunteers simultaneously tracked the same impacts."
   image: "./figures/2026-04-27-artemis-ii-lunar-flash/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-artemis-ii-lunar-flash/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 category: artemis

@@ -7,7 +7,7 @@ wechatShare:
   desc: "Rocket Lab signs its largest ever launch agreement: a $190 million contract for 20 HASTE hypersonic test flights with the US Department of Defense Test Resource Management Center."
   image: "./figures/2026-04-27-rocket-lab-haste-190m-contract/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-rocket-lab-haste-190m-contract/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 category: [rocket-lab, commercial]

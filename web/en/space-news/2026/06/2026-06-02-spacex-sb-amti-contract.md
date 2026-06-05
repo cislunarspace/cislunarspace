@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Wins $4.16 Billion Space Force Contract to Build a Space-Based Air-Tracking Constellation"
 description: "The U.S. Space Force announced on May 29 that it has awarded SpaceX a $4.16 billion contract under the Space-Based Airborne Moving Target Indicator (SB-AMTI) program, to build a satellite constellation that can track and target airborne threats from orbit. SpaceX is the first of nine companies disclosed for the SB-AMTI vendor pool."
 permalink: /en/space-news/2026/06/2026-06-02-spacex-sb-amti-contract/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-02
 lastUpdated: 2026-06-02
 category: policy

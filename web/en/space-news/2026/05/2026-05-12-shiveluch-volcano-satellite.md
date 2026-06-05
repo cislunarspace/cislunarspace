@@ -7,7 +7,7 @@ wechatShare:
   desc: "New Landsat 9 satellite images reveal volcanic heat carving dark scars through snow on Russia's Shiveluch volcano on the Kamchatka Peninsula."
   image: "./figures/2026-05-12-shiveluch-volcano-satellite/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-shiveluch-volcano-satellite/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-12
 category: science

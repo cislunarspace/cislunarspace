@@ -2,7 +2,7 @@
 title: Resonance Orbit
 description: Detailed analysis of resonance relationships in DRO orbits and their significance for orbit design
 keywords: Resonance Orbit, DRO, Orbital Period, Resonance Ratio, Orbit Family
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

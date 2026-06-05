@@ -82,7 +82,7 @@ permalink: /glossary/orbits/butterfly-orbit/
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - [垂直轨道（Vertical Orbit）](/glossary/orbits/vertical-orbit/)
 - [轴向轨道（Axial Orbit）](/glossary/orbits/axial-orbit/)
-- [异宿连接（Heteroclinic Connection）](/glossary/dynamics/heteroclinic-connection/)
+- [异宿连接（Heteroclinic Connection）](/glossary/orbits/heteroclinic-connection/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献

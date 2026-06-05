@@ -2,7 +2,7 @@
 title: Einstein Equivalence Principle (EEP)
 description: Detailed analysis of the Einstein Equivalence Principle including its three sub-principles—WEP, LLI, and LPI—and how gravitational redshift experiments test LPI
 keywords: Einstein Equivalence Principle, EEP, Local Position Invariance, LPI, Local Lorentz Invariance, WEP, Weak Equivalence Principle, Gravitational Redshift, Fundamental Physics Tests
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

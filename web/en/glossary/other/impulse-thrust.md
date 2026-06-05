@@ -2,7 +2,7 @@
 title: Impulse Thrust
 description: Detailed analysis of impulse thrust definition, comparison with continuous thrust, and application in orbit keeping
 keywords: Impulse Thrust, Orbit Keeping, Chemical Propulsion, Velocity Increment, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

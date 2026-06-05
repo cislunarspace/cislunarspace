@@ -2,7 +2,7 @@
 title: Geosynchronous Satellite Launch Vehicle (GSLV)
 description: GSLV is a launch vehicle series developed by India's ISRO for placing satellites into geostationary transfer orbit and geostationary orbit
 keywords: GSLV, Geosynchronous Satellite Launch Vehicle, Indian launch vehicle, ISRO, geostationary orbit, satellite launch
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

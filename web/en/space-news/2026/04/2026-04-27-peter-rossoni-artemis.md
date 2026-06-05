@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Artemis II mission flight manager Peter Rossoni grew up watching Apollo launches with his family and now leads the optical communications system for the Orion spacecraft on humanity's return to the Moon."
   image: "./figures/2026-04-27-peter-rossoni-artemis/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-peter-rossoni-artemis/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 category: artemis

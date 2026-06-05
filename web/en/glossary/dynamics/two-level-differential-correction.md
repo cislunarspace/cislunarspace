@@ -2,7 +2,7 @@
 title: Two-Level Differential Correction Method
 description: Detailed analysis of the two-level differential correction method for converting CR3BP orbits to ephemeris models
 keywords: Two-Level Differential Correction, CR3BP, Ephemeris Model, Orbit Conversion, Differential Correction
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

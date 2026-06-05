@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Starship Flight 9 Experiences Setback"
 description: "On May 27, 2025, SpaceX's Starship Flight 9 (IFT-9) experienced an anomaly during flight and did not complete all planned mission objectives."
 permalink: /en/space-news/2025/05/2025-05-27-starship-flight-9/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-05-27
 lastUpdated: 2025-05-27
 category: spacex

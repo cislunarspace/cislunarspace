@@ -2,7 +2,7 @@
 title: Perturbation Theory
 description: Perturbation theory studies the motion of celestial bodies under perturbations (third-body gravity, atmospheric drag, solar radiation pressure, etc.) on top of the primary body's gravitational attraction.
 keywords: Perturbation Theory, Celestial Mechanics, Third-body Gravity, Atmospheric Drag, Solar Radiation Pressure
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/mechanics/perturbation/
@@ -14,7 +14,7 @@ wechatShare:
 
 # Perturbation Theory
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site: [https://cislunarspace.cn](https://cislunarspace.cn)
 

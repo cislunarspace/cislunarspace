@@ -1,5 +1,5 @@
 ---
-title: Patched Method (拼接法)
+title: Patched Method
 description: Detailed explanation of the patched method in orbital design — segmenting complex trajectories into arcs with different dynamical models, matched at connection points
 keywords: patched method, orbital patching, perilune patching, transfer trajectory design, cislunar space, dynamical model matching
 author: CislunarSpace

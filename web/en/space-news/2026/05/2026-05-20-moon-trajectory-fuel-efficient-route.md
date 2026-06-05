@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Hidden Fuel-Efficient Trajectory Discovered for Earth-Moon Transit"
 description: "An international research team has found a more efficient route from Earth to the Moon using advanced computer modeling, saving 58.8 m/s of delta-v compared to the previously cheapest known route, potentially reducing mission costs and avoiding communication blackouts."
 permalink: /en/space-news/2026/05/2026-05-20-moon-trajectory-fuel-efficient-route/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-20
 lastUpdated: 2026-05-20
 category: science

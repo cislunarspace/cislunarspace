@@ -2,7 +2,7 @@
 title: Differential Evolution (DE) Algorithm
 description: Detailed analysis of the differential evolution algorithm and its applications in orbital mechanics
 keywords: Differential Evolution, DE, Optimization Algorithm, Evolutionary Algorithm, Orbit Design
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

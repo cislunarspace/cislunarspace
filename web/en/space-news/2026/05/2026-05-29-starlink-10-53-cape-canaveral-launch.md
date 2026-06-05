@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Launches Starlink 10-53 Mission, Falcon 9 Booster Achieves 616th Landing"
 description: "On May 29, 2026 at 12:57 UTC, SpaceX's Falcon 9 successfully launched 29 Starlink satellites from Cape Canaveral, with booster B1085 completing its 16th flight and landing on drone ship 'A Shortfall of Gravitas' — the 616th booster landing in SpaceX history."
 permalink: /en/space-news/2026/05/2026-05-29-starlink-10-53-cape-canaveral-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-29
 lastUpdated: 2026-05-29
 category: spacex

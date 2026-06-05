@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Impulse Space raises $500 million Series D: SpaceX's first hire Tom Mueller wants to make 'trucks in space' routine"
 description: "On June 2, 2026, California-based in-space mobility company Impulse Space — founded by SpaceX's first engineer Tom Mueller — announced a $500 million Series D round co-led by 137 Ventures and Banner VC. The funding will scale production of the Mira orbital transfer vehicle, accelerate the Helios kick stage toward its planned 2027 debut, and add 200 new employees. The company has now raised more than $1 billion in total."
 permalink: /en/space-news/2026/06/2026-06-02-impulse-space-500m-funding/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-02
 lastUpdated: 2026-06-02
 category: commercial

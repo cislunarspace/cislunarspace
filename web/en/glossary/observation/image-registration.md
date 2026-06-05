@@ -2,7 +2,7 @@
 title: Image Registration
 description: Detailed explanation of image registration including definition, core algorithms, subpixel alignment techniques, and applications in cislunar moving object observation
 keywords: Image Registration, astrometry, subpixel alignment, frame offset, rotation correction, optical survey
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

@@ -2,7 +2,7 @@
 title: Lindstedt-Poincare Method (Lindstedt-Poincare Method)
 description: Detailed analysis of Lindstedt-Poincare method principles, application in analytical solution of periodic orbits, and relationship with multiple shooting method
 keywords: Lindstedt-Poincare Method, Lindstedt, Poincaré, Periodic Orbit, Analytical Solution, Perturbation Theory, Nonlinear Vibration
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/lindstedt-poincare/
 
 # Lindstedt-Poincare Method (Lindstedt-Poincare Method)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014) "Research on Autonomous Navigation and Orbit Keeping of Spacecraft on Quasi-Periodic Orbits in Cislunar Space"
 >

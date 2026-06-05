@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA's Mobile Launcher Returns to VAB Ahead of Artemis III Mission"
 description: "NASA transported the Mobile Launcher 1 used in the Artemis II mission from Launch Pad 39B to the Vehicle Assembly Building at Kennedy Space Center, preparing for Artemis III crewed lunar landing operations."
 permalink: /en/space-news/2026/04/2026-04-17-nasa-mobile-launcher-vab/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-17
 lastUpdated: 2026-04-17
 category: artemis

@@ -7,7 +7,7 @@ wechatShare:
   desc: "Shanghai-based Dahang Yaqian secures 500M RMB A-round funding to advance the Yueqian-1, China's first tower-capture reusable launch vehicle, targeting maiden flight in 2027."
   image: "./figures/2026-05-03-dahang-yueqian-500m-funding/hero.png"
 permalink: /en/space-news/2026/05/2026-05-03-dahang-yueqian-500m-funding/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: commercial

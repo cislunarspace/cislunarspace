@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX files S-1 prospectus, will list as SPCX at up to 2 trillion dollar valuation"
 description: "SpaceX filed an S-1 prospectus with the SEC on June 2, 2026, planning to list under the ticker SPCX at an estimated 1.75–2 trillion dollar valuation, potentially the largest IPO in history."
 permalink: /en/space-news/2026/06/2026-06-02-spacex-ipo-spcx/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-02
 lastUpdated: 2026-06-02
 category: commercial

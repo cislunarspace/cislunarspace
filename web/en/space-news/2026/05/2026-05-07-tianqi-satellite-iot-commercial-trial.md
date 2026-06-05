@@ -7,7 +7,7 @@ wechatShare:
   desc: "China's Ministry of Industry and Information Technology has approved Beijing Guodian Gaoke Technology to conduct a two-year commercial pilot for satellite-based IoT services, making the Tianqi Constellation the country's first approved LEO satellite IoT constellation for commercial use."
   image: "./figures/2026-05-07-tianqi-satellite-iot-commercial-trial/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-tianqi-satellite-iot-commercial-trial/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-08
 category: commercial

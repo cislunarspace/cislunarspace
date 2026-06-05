@@ -7,7 +7,7 @@ wechatShare:
   desc: "The Hashemite Kingdom of Jordan officially signed the Artemis Accords during a ceremony at NASA Headquarters on April 23, becoming the 63rd signatory globally."
   image: "./figures/2026-04-22-jordan-artemis-accords/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-jordan-artemis-accords/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-23
 category: artemis

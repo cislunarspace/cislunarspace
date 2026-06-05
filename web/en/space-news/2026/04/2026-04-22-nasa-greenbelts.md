@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Earth Observatory Releases Satellite Image of Green Spaces in Washington Suburbs"
 description: "NASA Earth Observatory publishes an astronaut photograph from the International Space Station showing the distribution of green spaces along the Capital Beltway in Maryland, including the historic planned community of Greenbelt and NASA's Goddard Space Flight Center."
 permalink: /en/space-news/2026/04/2026-04-22-nasa-greenbelts/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: science

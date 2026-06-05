@@ -2,7 +2,7 @@
 title: Mission Delta (MD)
 description: Detailed explanation of the U.S. Space Force Mission Delta (MD) definition, unity of command architecture, resource integration functions, and central role in space force organization
 keywords: Mission Delta, MD, Space Force organization, unity of command, readiness, combat unit, Guardians
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

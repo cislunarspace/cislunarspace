@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Chang'e-5 Lunar Samples Arrive in UK"
 description: "In May 2025, lunar samples collected by China's Chang'e-5 mission arrived in the UK, with The Open University becoming the first international institution granted access to study the material."
 permalink: /en/space-news/2025/05/2025-05-09-change-5-samples-uk/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-05-09
 lastUpdated: 2025-05-09
 category: china

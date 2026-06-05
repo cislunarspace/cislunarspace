@@ -7,7 +7,7 @@ wechatShare:
   desc: "The 2026 Space Art and Culture Forum was held in Chengdu, Sichuan Province on April 23, 2026, themed on inspiring innovation and creativity in space culture."
   image: "./figures/2026-04-23-space-art-culture-forum/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-space-art-culture-forum/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-24
 category: [china, policy]

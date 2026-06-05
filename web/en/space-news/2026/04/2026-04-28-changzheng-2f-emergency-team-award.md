@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 27, 2026, the Long March 2F launch vehicle emergency launch task team at China Academy of Launch Vehicle Technology was honored with the 'China Youth May 4 Medal Collective' award, maintaining a 100% product delivery success rate for Shenzhou crewed spacecraft missions."
   image: "./figures/2026-04-28-changzheng-2f-emergency-team-award/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-28-changzheng-2f-emergency-team-award/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-28
 lastUpdated: 2026-04-28
 category: china

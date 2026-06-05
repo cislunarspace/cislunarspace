@@ -2,7 +2,7 @@
 title: Artemis Program
 description: NASA's human spaceflight program aimed at landing astronauts on the Moon and establishing a sustainable exploration framework, including Artemis I/II/III mission plans
 keywords: Artemis, NASA, human lunar landing, lunar exploration, SpaceX, Starship, lunar lander
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:

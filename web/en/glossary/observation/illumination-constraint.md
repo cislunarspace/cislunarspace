@@ -2,7 +2,7 @@
 title: Illumination Constraint
 description: Detailed explanation of the illumination constraint including definition, shadow regions in cislunar space, and impact on SSA architecture design
 keywords: Illumination Constraint, cislunar space, optical detection, space situational awareness, solar illumination, shadow, observability
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

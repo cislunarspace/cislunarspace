@@ -7,7 +7,7 @@ wechatShare:
   desc: "SpaceX's IPO registration filing shows cumulative Starship spending has exceeded $15 billion, with $3 billion in R&D last year, and plans to launch first Starlink V3 satellites in H2 2026."
   image: "./figures/2026-05-01-spacex-starship-15b-spending/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-spacex-starship-15b-spending/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-01
 lastUpdated: 2026-05-01
 category: [spacex, commercial]

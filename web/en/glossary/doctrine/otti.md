@@ -2,7 +2,7 @@
 title: Operational Test and Training Infrastructure (OTTI)
 description: OTTI is the Space Force's modern training capability system that simulates threats and replicates stressing conditions to provide a testbed for system performance and tactics validation.
 keywords: OTTI, Operational Test, Training Infrastructure, space training, SPAFORGEN, threat simulation
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/otti/
 
 # Operational Test and Training Infrastructure (OTTI)
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 

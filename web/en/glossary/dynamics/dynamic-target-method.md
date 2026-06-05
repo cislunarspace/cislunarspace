@@ -2,7 +2,7 @@
 title: Dynamic Target Method
 description: Detailed analysis of the dynamic target method for low-energy orbit keeping using differential evolution optimization
 keywords: Dynamic Target Method, Orbit Keeping, Differential Evolution, Low-Energy Control, DRO
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

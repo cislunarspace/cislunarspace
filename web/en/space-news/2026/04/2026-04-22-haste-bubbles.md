@@ -7,7 +7,7 @@ wechatShare:
   desc: "Rocket Lab launched the second HASTE hypersonic test mission from Wallops Flight Facility, Virginia on April 22, 2026"
   image: "./figures/2026-04-22-haste-bubbles/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-haste-bubbles/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: rocket-lab

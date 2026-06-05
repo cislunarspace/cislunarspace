@@ -1,5 +1,5 @@
 ---
-title: Low Earth Orbit / LEO (低地球轨道)
+title: Low Earth Orbit / LEO
 description: Detailed explanation of Low Earth Orbit definition, altitude range, dynamical characteristics, and its role as parking orbit in lunar transfer missions
 keywords: Low Earth Orbit, LEO, parking orbit, Earth-Moon transfer, space launch, orbital mechanics
 author: CislunarSpace

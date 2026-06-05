@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Awards LOXSAT Contract to Rocket Lab for Cryogenic Propellant Demo"
 description: "NASA awards Rocket Lab a contract to build and operate LOXSAT, a satellite to demonstrate cryogenic fluid management and transfer technologies for on-orbit refueling, supporting Artemis lunar landers and future Mars missions."
 permalink: /en/space-news/2026/05/2026-05-19-nasa-loxsat-cryogenic-demo/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-19
 lastUpdated: 2026-05-19
 category: nasa

@@ -2,7 +2,7 @@
 title: Allan Deviation (ADEV)
 description: Detailed analysis of Allan Deviation definition, calculation methods, differences from standard deviation, and applications in atomic clock frequency stability evaluation
 keywords: Allan Deviation, ADEV, Allan Deviation, Frequency Stability, Atomic Clock, Time-Frequency, Oscillator, Phase Noise, MDEV
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

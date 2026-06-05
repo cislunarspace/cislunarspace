@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Blue Origin's New Glenn Rocket Explodes During Prelaunch Hotfire Test at LC-36, Fourth Flight Indefinitely Postponed"
 description: "On May 28, 2026, Blue Origin's New Glenn rocket exploded during a hotfire test at Cape Canaveral's LC-36, destroying the pad's lightning tower and transporter erector. A cryogenic leak is suspected in the failure. The June 4 Kuiper satellite launch has been indefinitely postponed."
 permalink: /en/space-news/2026/05/2026-05-29-new-glenn-explosion-prelaunch-test/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-29
 lastUpdated: 2026-05-29
 category: blue-origin

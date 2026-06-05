@@ -1,5 +1,5 @@
 ---
-title: Apolune (远月点)
+title: Apolune
 description: Detailed explanation of apolune definition, geometric significance, orbital parameter relationships, and applications in lunar orbit design
 keywords: Apolune, lunar orbit, orbital design, apolune altitude, orbital eccentricity, DRO, NRHO
 author: CislunarSpace

@@ -7,7 +7,7 @@ wechatShare:
   desc: "American space computing company Cowboy Space (formerly Aetherflux) closes $275 million Series B to build and operate AI data centers in Earth orbit, with first launch targeted for late this year."
   image: "./figures/2026-05-13-cowboy-space-orbital-ai-data-centers/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-cowboy-space-orbital-ai-data-centers/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-13
 category: commercial

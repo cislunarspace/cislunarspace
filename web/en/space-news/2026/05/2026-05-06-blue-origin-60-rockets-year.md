@@ -7,7 +7,7 @@ wechatShare:
   desc: "Blue Origin reveals production ramp roadmap for New Glenn rocket upper stages, targeting 60 units annually by Q3 2028 and 100 by 2029, alongside Quattro upgrade to 9x4 heavy-lift configuration."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-06-blue-origin-60-rockets-year/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-06
 lastUpdated: 2026-05-07
 category: blue-origin

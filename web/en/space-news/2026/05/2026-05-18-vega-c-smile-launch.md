@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Vega C Launches European-Chinese SMILE Space Weather Mission"
 description: "Vega C rocket successfully launches the European-Chinese SMILE satellite to study solar wind, entering 707 km orbit"
 permalink: /en/space-news/2026/05/2026-05-18-vega-c-smile-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-18
 lastUpdated: 2026-05-19
 category: esa

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Completes Starship V3 Stacking, Clears First Full-Stack Fueling Test Ahead of Maiden Flight"
 description: "SpaceX stacked the first Starship Version 3 vehicle at Starbase, Texas on May 19 and successfully conducted its first full-stack fueling test, targeting May 21 for the 12th test flight."
 permalink: /en/space-news/2026/05/2026-05-20-starship-v3-stacking-milestone/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-20
 lastUpdated: 2026-05-20
 category: spacex

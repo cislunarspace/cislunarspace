@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Psyche Spacecraft Releases Stunning Mars Close-Up Images From Flyby"
 description: "NASA's Psyche mission spacecraft released its first high-resolution images of Mars taken during a close flyby at approximately 2,864 miles (4,609 km) from the Red Planet's surface."
 permalink: /en/space-news/2026/05/2026-05-20-nasa-psyche-mars-flyby-images/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-20
 lastUpdated: 2026-05-20
 category: nasa

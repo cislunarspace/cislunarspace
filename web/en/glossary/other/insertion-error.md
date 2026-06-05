@@ -2,7 +2,7 @@
 title: Insertion Error
 description: Detailed analysis of insertion error sources, types, and their impact on orbital dynamics
 keywords: Insertion Error, Orbit Accuracy, Error Propagation, Orbit Design, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

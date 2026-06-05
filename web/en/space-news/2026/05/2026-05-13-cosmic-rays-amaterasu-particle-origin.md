@@ -7,7 +7,7 @@ wechatShare:
   desc: "The Amaterasu particle, the second most powerful cosmic ray ever detected, struck Earth in 2021 with the kinetic energy of a tennis ball. New research suggests it may originate from atomic nuclei heavier than iron, potentially solving a 60-year-old cosmic ray mystery."
   image: "./figures/2026-05-13-cosmic-rays-amaterasu-particle-origin/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-cosmic-rays-amaterasu-particle-origin/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-13
 lastUpdated: 2026-05-13
 category: science

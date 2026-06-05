@@ -2,7 +2,7 @@
 title: Lunar Navigation Constellation
 description: An analysis of the dedicated satellite system deployed to achieve all-time, all-surface lunar navigation, including international plans, Chinese solutions, and key technical challenges.
 keywords: lunar navigation constellation, lunar navigation, LunaNet, Moonlight, LNSS, near-lunar constellation, full lunar surface coverage, cislunar space infrastructure
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:
@@ -26,7 +26,7 @@ permalink: /en/glossary/navigation/lunar-navigation-constellation/
 
 > This article is edited from: Shangguan Yong, Zheng Peng, Zhang Hua, et al. Research on the Current Status and Technical Development of Cislunar Space Navigation[J]. Journal of Telemetry and Remote Sensing, 2026.
 >
-> This article author: 天疆说
+> This article author: Tianjiang Shuo
 >
 > This article source: https://cislunarspace.cn
 

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Blue Origin Releases Dramatic Footage of New Glenn Explosion: Fireball Visible 120 Miles Away; Bezos Calls It a 'Very Rough Day'"
 description: "Blue Origin releases multiple videos of the New Glenn rocket explosion on May 28, showing the fireball visible from 120 miles away in Tampa, Florida. Bezos confirms no injuries and says the company is working to determine the root cause."
 permalink: /en/space-news/2026/05/2026-05-30-blue-origin-new-glenn-explosion-videos/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-30
 lastUpdated: 2026-05-30
 category: blue-origin

@@ -2,7 +2,7 @@
 title: Nuclear Thermal Propulsion (NTP)
 description: Detailed analysis of Nuclear Thermal Propulsion (NTP) fundamentals, technical differences between solid-core and liquid-core designs, advantages of very high specific impulse liquid-core NTP, and its application prospects in crewed deep space exploration
 keywords: nuclear thermal propulsion, NTP, liquid core, high specific impulse, deep space propulsion, crewed deep space exploration, nuclear rocket
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-26
 wechatShare:

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Tiangong Space Station's 10th Science Sample Batch Returns: Artificial Embryos, Brain Organoids Delivered to Scientists"
 description: "On May 29, 2026, the Tiangong space station's 10th batch of scientific experiment samples returned to Earth aboard the Shenzhou 22 return capsule, with life science samples including artificial embryos and brain organoids delivered to scientists in Beijing on May 30 morning"
 permalink: /en/space-news/2026/05/2026-05-30-tiangong-science-samples-return/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-30
 lastUpdated: 2026-05-30
 category: science

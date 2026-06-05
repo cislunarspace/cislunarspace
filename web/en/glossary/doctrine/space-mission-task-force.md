@@ -2,7 +2,7 @@
 title: Space Mission Task Force (SMTF)
 description: Detailed explanation of the U.S. Space Force Space Mission Task Force (SMTF) definition, composition structure, command relationships, and role in joint operations
 keywords: SMTF, Space Mission Task Force, joint operations, operational control, space operations, COMSPACEFOR
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

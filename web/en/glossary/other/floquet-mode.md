@@ -2,7 +2,7 @@
 title: Floquet Mode Method
 description: Detailed analysis of the Floquet mode method for orbit keeping based on dynamic characteristics near libration points
 keywords: Floquet Mode Method, Orbit Keeping, Unstable Mode, Libration Point Orbit, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

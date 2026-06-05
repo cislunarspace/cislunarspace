@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA astrophotographer Andrew McCarthy collaborated with Artemis 2 commander Reid Wiseman to process astronaut-captured lunar images using stacking techniques, producing the first high-fidelity true-color photographs of the Moon's far side."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-09-artemis-2-moon-photos/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-09
 lastUpdated: 2026-05-09
 category: artemis

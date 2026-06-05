@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "JWST Maps Universe's Largest Structure in Unprecedented Detail Spanning 13.7 Billion Years"
 description: "NASA's James Webb Space Telescope, via the COSMOS-Web survey, has produced the most detailed map of the cosmic web ever made, spanning from just 1 billion years after the Big Bang to the nearby universe."
 permalink: /en/space-news/2026/05/2026-05-15-jwst-cosmic-web-cosmos/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-15
 lastUpdated: 2026-05-15
 category: science

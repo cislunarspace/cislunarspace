@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "What Blue Origin's New Glenn Explosion Means for NASA's Moon Plans: Analyst Calls It a 'Pretty Significant Setback'"
 description: "On June 1, 2026, Space.com published a follow-up analysis of Blue Origin's New Glenn NG-4 static-fire explosion, citing industry analyst Casey Curlee: the blast destroyed LC-36 and Blue Origin has no backup launch pad for the vehicle, putting pressure on the Blue Moon MK1 uncrewed lander (slated for fall 2026) and the MK2 crew-capable variant, with downstream implications for NASA's Artemis 3 (2027) and Moon Base 1 timelines."
 permalink: /en/space-news/2026/06/2026-06-01-blue-origin-ng4-nasa-artemis-impact/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-01
 lastUpdated: 2026-06-01
 category: blue-origin

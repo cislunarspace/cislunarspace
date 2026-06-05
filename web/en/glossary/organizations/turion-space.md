@@ -2,12 +2,12 @@
 title: Turion Space
 description: Introduction to Turion Space and its DROID satellite platform for cislunar space debris removal, orbital transfer, and space situational awareness
 keywords: Turion Space, debris removal, orbital transfer, DROID, space situational awareness, on-orbit servicing, cislunar space
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 wechatShare:
   title: Turion Space
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: Turion Space
@@ -24,7 +24,7 @@ permalink: /en/glossary/organizations/turion-space/
 
 # Turion Space
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Source: [Turion Space Official Website](https://turionspace.com) and public sources
 >

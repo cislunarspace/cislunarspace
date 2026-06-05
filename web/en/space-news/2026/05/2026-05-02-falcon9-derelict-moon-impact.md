@@ -7,7 +7,7 @@ wechatShare:
   desc: "Astronomers confirm a defunct SpaceX Falcon 9 upper stage will strike the Moon near Einstein Crater on August 5, 2026, at ~2.43 km/s, highlighting growing concerns over deep-space orbital debris management."
   image: "./figures/2026-05-02-falcon9-derelict-moon-impact/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-02-falcon9-derelict-moon-impact/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-02
 lastUpdated: 2026-05-02
 category: [spacex, science]

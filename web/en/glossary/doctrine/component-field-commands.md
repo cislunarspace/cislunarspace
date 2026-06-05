@@ -2,7 +2,7 @@
 title: Component Field Commands
 description: Detailed explanation of U.S. Space Force Component Field Commands definition, integration role in joint operations, construction progress, and significance for space power projection
 keywords: Component Field Commands, Combatant Commands, joint operations, Space Force Service Component, space effects, cross-domain integration
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

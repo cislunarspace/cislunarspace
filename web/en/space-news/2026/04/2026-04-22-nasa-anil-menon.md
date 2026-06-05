@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA will host a news conference at Johnson Space Center on April 29 to preview astronaut Anil Menon's upcoming mission to the International Space Station."
   image: "./figures/2026-04-22-nasa-anil-menon/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-nasa-anil-menon/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: nasa

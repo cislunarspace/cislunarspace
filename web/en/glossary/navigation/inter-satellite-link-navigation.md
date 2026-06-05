@@ -2,7 +2,7 @@
 title: Inter-Satellite Link Navigation
 description: An analysis of the technical principles and capabilities of using navigation satellite inter-satellite links to achieve large-scale ranging, time synchronization, and orbit determination navigation in cislunar space.
 keywords: inter-satellite link navigation, Ka-band, cislunar space ranging, BeiDou, DRO, inter-satellite precision measurement, time synchronization, orbit determination accuracy
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:
@@ -26,7 +26,7 @@ permalink: /en/glossary/navigation/inter-satellite-link-navigation/
 
 > This article is edited from: Shangguan Yong, Zheng Peng, Zhang Hua, et al. Research on the Current Status and Technical Development of Cislunar Space Navigation[J]. Journal of Telemetry and Remote Sensing, 2026.
 >
-> This article author: 天疆说
+> This article author: Tianjiang Shuo
 >
 > This article source: https://cislunarspace.cn
 

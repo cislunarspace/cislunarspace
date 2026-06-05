@@ -7,7 +7,7 @@ wechatShare:
   desc: "China announces Chang'e-7 lunar south pole mission will launch in 2026, marking a new phase of China's lunar exploration program."
   image: "./figures/2026-04-24-chang-e7-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-chang-e7-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 category: china

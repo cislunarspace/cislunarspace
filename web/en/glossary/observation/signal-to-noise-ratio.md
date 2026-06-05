@@ -2,7 +2,7 @@
 title: Signal-to-Noise Ratio (SNR)
 description: SNR is the most fundamental measurement in astronomical observation, determining whether celestial targets can be effectively detected above background noise
 keywords: Signal-to-Noise Ratio, SNR, Image Stacking, Astronomical Observation, Detection Threshold, Cislunar Space, Image Processing
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

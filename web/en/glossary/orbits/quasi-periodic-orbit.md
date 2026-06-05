@@ -2,7 +2,7 @@
 title: Quasi-Periodic Orbit
 description: Detailed analysis of the definition, characteristics, and behavior of quasi-periodic orbits in ephemeris models
 keywords: Quasi-Periodic Orbit, Ephemeris Model, DRO, Torus, Orbital Mechanics
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

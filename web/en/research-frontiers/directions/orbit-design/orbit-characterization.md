@@ -2,7 +2,7 @@
 title: Orbit Parameter Characterization for Cislunar Space
 description: Representative works on orbit parameterization, object cataloging, and dynamical substitute models for cislunar libration points
 keywords: cislunar orbit parameterization, libration point orbits, object cataloging, dynamical substitute, Hamiltonian analysis
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-03-07
 lastUpdated: 2026-04-27
 wechatShare:
@@ -11,7 +11,7 @@ wechatShare:
   image: "/logo.png"
 ---
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 

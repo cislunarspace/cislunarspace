@@ -7,7 +7,7 @@ wechatShare:
   desc: "At the 2nd Aerospace Information Technology Conference, China's Aerospace Institute joined over 100 organizations to launch the Space Cloud Ecosystem Initiative, integrating communications, remote sensing, navigation and computing satellites."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-09-china-space-cloud-ecosystem/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-09
 lastUpdated: 2026-05-09
 category: china

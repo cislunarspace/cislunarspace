@@ -7,7 +7,7 @@ wechatShare:
   desc: "Long March 2D rocket successfully launched from Xichang Satellite Launch Center on April 24, 2026 at 06:25 UTC, placing its payload into orbit."
   image: "./figures/2026-04-24-long-march-2d-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-long-march-2d-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 category: china

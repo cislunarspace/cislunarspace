@@ -2,7 +2,7 @@
 title: Optimal Control
 description: Optimal control theory studies how to select control laws that optimize a performance index for a dynamical system, providing the theoretical foundation for orbital maneuver design and trajectory optimization.
 keywords: Optimal Control, Variational Method, Maximum Principle, Orbital Maneuver, Trajectory Optimization
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/control/optimal-control/
@@ -14,7 +14,7 @@ wechatShare:
 
 # Optimal Control
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site: [https://cislunarspace.cn](https://cislunarspace.cn)
 

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Sun Unleashes 3 Major Solar Flares in 24 Hours: M9.3, M7.9, X1 From Region 4455 Trigger G3 Geomagnetic Storm Watch"
 description: "Between June 2 and 3 UTC, Earth-facing sunspot region AR4455 produced three significant solar flares in under 24 hours: an M9.3 peaking at 01:36 UTC June 3, an M7.9 at 07:00 UTC, and an X1.0 at 11:28 UTC. The U.K. Met Office has confirmed the M9.3 flare's coronal mass ejection is Earth-directed and expected to arrive June 4. NOAA's Space Weather Prediction Center has issued a strong (G3) geomagnetic storm watch for June 4-6, with a slight chance of isolated severe (G4) conditions. The events triggered R2 to R3 radio blackouts affecting East Asia and North America."
 permalink: /en/space-news/2026/06/2026-06-03-sun-x1-flare-region-4455-cmes/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: science

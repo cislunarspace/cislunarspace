@@ -2,7 +2,7 @@
 title: Space News · 2025 Archive
 description: Space news by month for 2025.
 permalink: /en/space-news/2025/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-12-31
 lastUpdated: 2025-12-31
 wechatShare:

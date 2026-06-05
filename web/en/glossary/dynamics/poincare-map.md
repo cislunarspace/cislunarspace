@@ -1,5 +1,5 @@
 ---
-title: Poincaré Map (庞加莱图)
+title: Poincaré Map
 description: Detailed explanation of the Poincaré Map — definition, relationship with Poincaré Section, and applications in analyzing perilune distributions of cislunar orbit families
 keywords: Poincaré Map, Poincaré Section, phase space mapping, perilune distribution, discrete mapping, cislunar space, DRO
 author: CislunarSpace

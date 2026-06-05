@@ -2,7 +2,7 @@
 title: Targeting Method
 description: Detailed analysis of the targeting method for orbit keeping and its comparison with other control strategies
 keywords: Targeting Method, Orbit Keeping, Station-Keeping, Control Strategy, Impulse Thrust
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

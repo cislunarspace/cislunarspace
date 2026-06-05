@@ -1,5 +1,5 @@
 ---
-title: Parking Orbit (停泊轨道)
+title: Parking Orbit
 description: Detailed explanation of parking orbit definition, role in cislunar transfer missions, launch window waiting mechanism, and system checkout function
 keywords: Parking Orbit, LEO, cislunar transfer, launch window, system checkout, Low Earth Orbit
 author: CislunarSpace

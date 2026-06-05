@@ -7,7 +7,7 @@ wechatShare:
   desc: "As preparations for the Shenzhou-23 launch enter their final phase, two Pakistani astronauts have been photographed wearing China's domestically developed 'Feitian' intravehicular spacesuit, showcasing the deep friendship of China-Pakistan space cooperation and the international recognition of Chinese space equipment."
   image: "./figures/2026-05-03-pakistan-astronauts-chinese-space-suits/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-03-pakistan-astronauts-chinese-space-suits/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: [china, human-spaceflight, international-cooperation]

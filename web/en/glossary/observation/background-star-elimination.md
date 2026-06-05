@@ -2,7 +2,7 @@
 title: Background Star Elimination
 description: Detailed explanation of background star elimination including definition, threshold selection, segmentation map masking, and applications in cislunar moving object detection
 keywords: Background Star Elimination, segmentation map, SExtractor, mask, stacking search, signal-to-noise ratio
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

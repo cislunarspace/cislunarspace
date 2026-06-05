@@ -1,5 +1,5 @@
 ---
-title: Impulsive Maneuver (脉冲机动)
+title: Impulsive Maneuver
 description: Detailed explanation of the impulsive maneuver model — definition, mathematical model, applications in preliminary orbital transfer design, and comparison with finite-thrust maneuvers
 keywords: impulsive maneuver, velocity increment, orbital transfer, cislunar space, Delta-v, lunar gravity assist, finite thrust
 author: CislunarSpace

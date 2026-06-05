@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Artemis 2 crewed lunar mission launch on April 1, 2026 attracted approximately 346,000 U.S. visitors to Florida's Space Coast, far exceeding the 226,000 visitors from the uncrewed Artemis 1 launch in 2022."
   image: "./figures/2026-05-07-artemis-2-space-coast-economy/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-artemis-2-space-coast-economy/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: artemis

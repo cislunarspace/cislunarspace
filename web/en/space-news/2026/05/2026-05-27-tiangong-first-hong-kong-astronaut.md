@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China's Tiangong Space Station Welcomes First Hong Kong Astronaut; Foreign Ministry Calls It 'Fruit of One Country, Two Systems'"
 description: "China's Foreign Ministry spokesperson Mao Ning said on May 27 that the successful launch of Shenzhou-23 and the arrival of China's first Hong Kong astronaut at Tiangong represents another milestone for the country's crewed space program and a shared honor for all Hong Kong compatriots."
 permalink: /en/space-news/2026/05/2026-05-27-tiangong-first-hong-kong-astronaut/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-27
 lastUpdated: 2026-05-27
 category: china

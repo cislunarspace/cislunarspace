@@ -7,7 +7,7 @@ wechatShare:
   desc: "Observations of the TOI-1130 system by the James Webb Space Telescope have uncovered a rare pair—a hot Jupiter and a mini-Neptune—that both formed in the outer reaches of their star system before migrating inward, offering new insights into planetary evolution."
   image: "./figures/2026-05-06-exoplanet-survival/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-exoplanet-survival/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-06
 lastUpdated: 2026-05-07
 category: science

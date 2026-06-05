@@ -2,7 +2,7 @@
 title: Central Manifold
 description: A detailed explanation of the role of central manifold theory in CR3BP libration point orbit parameterization, and the decoupling method for hyperbolic and center directions
 keywords: Central Manifold, CR3BP, Libration Points, Hyperbolic Invariant Manifold, Stable Manifold, Unstable Manifold, Orbit Parameterization
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-26
 wechatShare:

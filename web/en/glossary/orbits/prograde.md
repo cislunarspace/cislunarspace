@@ -1,5 +1,5 @@
 ---
-title: Prograde (顺行)
+title: Prograde
 description: Detailed explanation of prograde motion definition, behavior in the Earth-Moon rotating frame, comparison with retrograde, and impulsive consumption characteristics in orbital transfer
 keywords: Prograde, DRO, retrograde, orbital motion direction, Earth-Moon rotating frame, impulsive consumption
 author: CislunarSpace

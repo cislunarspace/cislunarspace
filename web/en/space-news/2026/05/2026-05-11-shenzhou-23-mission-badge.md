@@ -7,7 +7,7 @@ wechatShare:
   desc: "China's Manned Space Agency officially released the mission badge for the Shenzhou-23 crewed flight, featuring a circular design with the Long March 2F rocket, a flying apsaras figure, and golden auspicious clouds, symbolizing the three crew members."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-11-shenzhou-23-mission-badge/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-13
 category: china

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Roman Space Telescope's primary mirror passes its final inspection, clearing the way for an Aug. 30 launch"
 description: "On June 3, 2026, NASA reported the results of the Roman Space Telescope's final primary-mirror inspection, completed on May 20. Goddard optics lead Bente Eegholm described a new high-resolution camera-plus-zoom-lens method that found no foreign objects or shifts on the 2.4-meter mirror, leaving Roman on track for an Aug. 30–early-September launch from Kennedy Space Center aboard a SpaceX Falcon Heavy."
 permalink: /en/space-news/2026/06/2026-06-03-roman-space-telescope-mirror-check/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: [nasa, science]

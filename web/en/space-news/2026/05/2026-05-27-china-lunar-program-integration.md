@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China Unifies Crewed Lunar and Robotic Moon Programs Under Single Lunar Exploration Project"
 description: "China's CMSA announced on May 23 the integration of its crewed lunar landing and Chang'e exploration programs into a unified Lunar Exploration Project, with Chang'e-7 already at Wenchang for a H2 2026 launch and crewed landing targeted for 2030."
 permalink: /en/space-news/2026/05/2026-05-27-china-lunar-program-integration/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-27
 lastUpdated: 2026-05-27
 category: china

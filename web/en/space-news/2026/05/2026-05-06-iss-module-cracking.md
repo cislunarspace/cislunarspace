@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA and Roscosmos continue joint investigation into structural cracks in the Zvezda service module's PrK vestibule, with sealant successfully stopping air leaks but root cause still unidentified."
   image: "./figures/2026-05-06-iss-module-cracking/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-iss-module-cracking/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-06
 lastUpdated: 2026-05-07
 category: iss

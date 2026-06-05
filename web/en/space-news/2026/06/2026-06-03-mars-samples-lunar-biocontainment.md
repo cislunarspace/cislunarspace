@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Mars samples should be quarantined on the moon first, scientists argue in new policy paper"
 description: "A policy paper published online first in Springer Ambio on May 28, 2026, and reported by Space.com on June 3, proposes a dedicated extraterrestrial biocontainment facility on the lunar surface, where all samples from Mars, asteroids, and icy moons would be handled by robotic systems and confirmed non-hazardous before being allowed to enter Earth's biosphere. The authors — Frederick Moxley of STAR Laboratories in Star, Idaho, and McGill University invasion biologist Anthony Ricciardi — directly criticize the lack of explicit planetary protection plans in both NASA's Artemis lunar base architecture and the China-Russia led International Lunar Research Station (ILRS), and call for lunar biocontainment to be written into the next baseline of lunar base design."
 permalink: /en/space-news/2026/06/2026-06-03-mars-samples-lunar-biocontainment/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: policy

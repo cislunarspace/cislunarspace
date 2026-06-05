@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA announced its Nancy Grace Roman Space Telescope team is now targeting launch as soon as early September 2026, ahead of the agency's commitment to flight no later than its scheduled date."
   image: "./figures/2026-04-22-roman-space-telescope/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-roman-space-telescope/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: nasa

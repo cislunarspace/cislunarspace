@@ -7,7 +7,7 @@ wechatShare:
   desc: "Tianzhou-10 cargo spacecraft delivers a new upgraded space treadmill to China's Tiangong space station, joining bicycles, resistance trainers and core muscle devices to form a complete 'space gym' for astronauts."
   image: "./figures/2026-05-12-tianzhou-10-space-gym/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-tianzhou-10-space-gym/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-12
 category: china

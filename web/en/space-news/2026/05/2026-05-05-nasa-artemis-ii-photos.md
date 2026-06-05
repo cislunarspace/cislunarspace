@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA published approximately 12,000 photos from the Artemis II mission, documenting astronaut training and preparation activities inside the Orion spacecraft."
   image: "./figures/2026-05-05-nasa-artemis-ii-photos/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-05-nasa-artemis-ii-photos/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-05
 lastUpdated: 2026-05-05
 category: artemis

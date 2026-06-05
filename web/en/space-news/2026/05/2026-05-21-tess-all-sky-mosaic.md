@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA's TESS Spacecraft Releases Most Complete All-Sky Mosaic Image"
 description: "NASA's Transiting Exoplanet Survey Satellite releases its most complete all-sky mosaic, integrating all 96 observation sectors from April 2018 to September 2025."
 permalink: /en/space-news/2026/05/2026-05-21-tess-all-sky-mosaic/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-21
 lastUpdated: 2026-05-22
 category: science

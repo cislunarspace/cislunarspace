@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating"
 description: "NASA announced the shutdown of the Low-energy Charged Particles experiment (LECP) aboard Voyager 1 to conserve power and extend the mission of humanity's first interstellar explorer."
 permalink: /en/space-news/2026/04/2026-04-17-voyager-1-instrument-shutdown/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-17
 lastUpdated: 2026-04-17
 category: science

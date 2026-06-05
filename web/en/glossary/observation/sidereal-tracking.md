@@ -2,7 +2,7 @@
 title: Sidereal Tracking
 description: Sidereal Tracking is a telescope observation mode that tracks background stars as reference, suited for long-duration observations of cislunar objects governed by three-body dynamics.
 keywords: Sidereal Tracking, Three-body Problem, Telescope Tracking, Cislunar Observation, Long Exposure, Shift-and-Add
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

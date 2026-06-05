@@ -1,5 +1,5 @@
 ---
-title: Lunar Gravity Assist / LGA (月球借力)
+title: Lunar Gravity Assist / LGA
 description: Detailed explanation of lunar gravity assist definition, mechanics principles, trajectory design methods, and its key role in low-energy cislunar transfers
 keywords: Lunar Gravity Assist, LGA, gravity slingshot, Earth-Moon transfer, orbital maneuver, low-energy transfer
 author: CislunarSpace

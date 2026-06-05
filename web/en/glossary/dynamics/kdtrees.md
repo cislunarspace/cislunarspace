@@ -2,7 +2,7 @@
 title: KD-Tree (KD-Tree)
 description: Detailed analysis of KD-Tree data structure principles, application in cislunar detectable region neighbor queries, and efficiency advantages
 keywords: KD-Tree, K-Dimensional Tree, Nearest Neighbor Search, Space Partitioning, Data Structure, Detectable Region, Neighbor Query, Cislunar Space
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:

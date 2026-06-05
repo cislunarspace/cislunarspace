@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Rocket Lab HASTE Mission Success: Bubbles Scientific Payload Completes Suborbital Flight"
 description: "Rocket Lab launched the HASTE mission on April 22, 2026 at 00:00 UTC (Hypersonic Accelerator Suborbital Test Experiment) mission with the Bubbles scientific payload aboard an Electron rocket from Wallops Flight Facility, Virginia."
 permalink: /en/space-news/2026/04/2026-04-22-hasate-bubbles/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-23
 category: launch

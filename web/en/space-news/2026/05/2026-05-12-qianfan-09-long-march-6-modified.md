@@ -4,10 +4,10 @@ title: "China Launches Qianfan-09 Polar Orbit Satellites on Long March 6 Modifie
 description: "On May 12, 2026 at 19:59 Beijing Time, China successfully launched the Qianfan-09 polar orbit satellite group from Taiyuan Satellite Launch Center using a Long March 6 Modified (LM-6改) rocket, placing the satellites into their planned orbits. This was the 642nd flight of the Long March rocket series."
 wechatShare:
   title: "China Launches Qianfan-09 Polar Orbit Satellites on Long March 6 Modified Rocket"
-  desc: "On May 12, 2026 at 19:59 Beijing Time, China successfully launched the Qianfan-09 polar orbit satellite group from Taiyuan Satellite Launch Center using a Long March 6 Modified (LM-6改) rocket, placing the satellites into their planned orbits. This was the 642nd flight of the Long March rocket series."
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: "./figures/2026-05-12-qianfan-09-long-march-6-modified/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-qianfan-09-long-march-6-modified/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-12
 category: china

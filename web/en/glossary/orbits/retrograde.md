@@ -1,5 +1,5 @@
 ---
-title: Retrograde (逆行)
+title: Retrograde
 description: Detailed explanation of retrograde motion definition, behavior in the Earth-Moon rotating frame, relationship with DRO, and impulsive advantages
 keywords: Retrograde, DRO, Distant Retrograde Orbit, prograde, orbital motion direction, Earth-Moon rotating frame, impulsive advantage
 author: CislunarSpace

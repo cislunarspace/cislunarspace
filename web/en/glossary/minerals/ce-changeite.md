@@ -2,7 +2,7 @@
 title: Changeite-Ce (Cerium Changeite)
 description: Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples with rich light rare earth element cerium
 keywords: Changeite-Ce, cerium changeite, Chang'e-5, new lunar mineral, calcium rare-earth phosphate, light rare earth, lunar exploration
-author: Tianjiang说
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 wechatShare:

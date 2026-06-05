@@ -2,7 +2,7 @@
 title: Hill Three-Body Problem
 description: The Hill three-body problem is a linearized approximation of the restricted three-body problem that simplifies the Sun-Earth-Moon dynamics by locally linearizing the gravitational field near the secondary body.
 keywords: Hill Three-Body Problem, Restricted Three-Body Problem, Linearization, Sun-Earth-Moon System
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-06-05
 lastUpdated: 2026-06-05
 permalink: /en/background/mechanics/hill-three-body/

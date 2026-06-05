@@ -7,7 +7,7 @@ wechatShare:
   desc: "Tianzhou-10 cargo spacecraft will remain docked to Tiangong for 12 months, setting a new record for the Tianzhou series and marking China's space station supply chain entering an annual resupply era."
   image: "./figures/2026-05-11-tianzhou-10-twelve-month-record/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-11-tianzhou-10-twelve-month-record/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: china

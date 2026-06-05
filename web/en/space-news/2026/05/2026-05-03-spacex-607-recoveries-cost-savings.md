@@ -7,7 +7,7 @@ wechatShare:
   desc: "As of early May 2026, SpaceX's Falcon rocket fleet has exceeded 600 reuses with approximately 607 total landings, including four boosters with over 40 reuses each, delivering cumulative cost savings of about $16.8 billion."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-03-spacex-607-recoveries-cost-savings/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: spacex

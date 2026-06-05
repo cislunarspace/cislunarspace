@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Green Bank Telescope Tracks Artemis 2 Orion Spacecraft Around the Moon for Five Days"
 description: "The NSF Green Bank Telescope continuously tracked NASA's Artemis 2 Orion spacecraft around the moon for five days from over 200,000 miles away, achieving tracking precision of 0.2 millimeters per second."
 permalink: /en/space-news/2026/05/2026-05-17-artemis-2-green-bank-telescope/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-17
 lastUpdated: 2026-05-18
 category: artemis

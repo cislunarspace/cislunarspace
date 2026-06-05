@@ -7,7 +7,7 @@ wechatShare:
   desc: "In 2026, China targets over 100 total launches with commercial launches exceeding 60. Blue Arrow Space and CAS Space are both filing for STAR Market IPOs as commercial space enters its \"mass production era\"."
   image: "./figures/2026-04-24-commercial-space-mass-production/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-commercial-space-mass-production/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 category: [china, commercial]

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX and xAI Propose Lunar Electromagnetic Catapults — Experts Warn of Weaponization Potential"
 description: "SpaceX and xAI have proposed building electromagnetic mass drivers on the Moon to launch payloads using lunar resources, raising strategic concerns about cislunar militarization; China is simultaneously developing similar technologies."
 permalink: /en/space-news/2026/05/2026-05-28-lunar-mass-driver-electromagnetic-catapults/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: policy

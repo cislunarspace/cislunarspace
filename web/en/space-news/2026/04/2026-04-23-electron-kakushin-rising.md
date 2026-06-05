@@ -7,7 +7,7 @@ wechatShare:
   desc: "Rocket Lab's 85th mission successfully deployed 8 Japanese satellites including educational cubesats, an ocean monitoring satellite and multispectral camera demonstrator from New Zealand"
   image: "./figures/2026-04-23-electron-kakushin-rising/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-electron-kakushin-rising/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-23
 category: rocket-lab

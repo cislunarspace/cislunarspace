@@ -2,7 +2,7 @@
 title: Co-state Normalization (Co-state Normalization)
 description: Detailed analysis of co-state normalization definition, application in two-point boundary value problems, normalization methods, and search strategies when co-state boundaries are unknown
 keywords: Co-state Normalization, Co-state Variables, Two-Point Boundary Value Problem, Orbit Optimization, Shooting Method, Unit Sphere, Search Space Reduction
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/co-state-normalization/
 
 # Co-state Normalization (Co-state Normalization)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Contributing Institution: School of Astronautics, Harbin Institute of Technology, National Key Laboratory of Rapid Design and Intelligent Swarm of Small Spacecraft
 >

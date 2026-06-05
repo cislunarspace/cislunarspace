@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China's Commercial Space Sector Enters 'Mass Production Era' as Launch Frequency Accelerates"
 description: "2026 is recognized as the 'mass production year' for China's commercial space sector, with private launch vehicles like the Lijian series achieving 100-satellite orbit milestones and reusable rocket technology entering intensive verification."
 permalink: /en/space-news/2026/05/2026-05-19-china-commercial-space-mass-production/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-19
 lastUpdated: 2026-05-19
 category: china

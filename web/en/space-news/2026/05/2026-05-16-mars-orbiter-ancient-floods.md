@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Mars Express Orbiter Releases Stunning Images of Ancient Flood Carved Terrain"
 description: "The ESA-Roscosmos Mars Express orbiter releases high-resolution images revealing chaos craters and valley networks carved by ancient floods, providing new evidence that Mars was once far warmer and wetter."
 permalink: /en/space-news/2026/05/2026-05-16-mars-orbiter-ancient-floods/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-16
 lastUpdated: 2026-05-16
 category: science

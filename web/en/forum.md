@@ -2,7 +2,7 @@
 title: Community Forum
 description: Cislunar space community forum for discussing aerospace, orbital dynamics, and cislunar technologies.
 keywords: community forum, cislunar space, discussion, Q&A, sharing
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-03-09
 layout: Layout
 lastUpdated: false

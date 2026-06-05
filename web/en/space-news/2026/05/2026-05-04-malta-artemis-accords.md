@@ -7,7 +7,7 @@ wechatShare:
   desc: "Malta signed the Artemis Accords on May 4 in Kalkara, becoming the 65th signatory and reinforcing international commitments to peaceful and responsible space exploration under NASA's leadership."
   image: "./figures/2026-05-04-malta-artemis-accords/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-malta-artemis-accords/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-04
 lastUpdated: 2026-05-04
 category: artemis

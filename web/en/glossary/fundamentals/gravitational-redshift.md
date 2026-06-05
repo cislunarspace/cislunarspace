@@ -2,7 +2,7 @@
 title: Gravitational Redshift
 description: Detailed analysis of gravitational redshift physics, Einstein Equivalence Principle, Local Position Invariance, experimental verification, and significance for cislunar space measurement
 keywords: Gravitational Redshift, Einstein Equivalence Principle, Local Position Invariance, LPI, Atomic Clock, Time-Frequency, Relativity, Gravitational Potential
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

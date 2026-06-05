@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Launches 50th Starlink Mission of 2026 from Vandenberg"
 description: "SpaceX successfully launched the Starlink 17-41 mission with 24 satellites from Vandenberg Space Force Base, marking the company's 50th dedicated Starlink launch of 2026."
 permalink: /en/space-news/2026/05/2026-05-30-starlink-17-41-vandenberg-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-30
 lastUpdated: 2026-05-30
 category: [spacex, launch]

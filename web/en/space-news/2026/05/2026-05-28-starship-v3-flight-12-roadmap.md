@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Charts Starship V3 Roadmap After Historic Debut: Orbital Stays, Refueling Tests, 10,000 Flights Per Year"
 description: "Following Starship V3's successful maiden flight on May 22, SpaceX has outlined its roadmap: extended orbital stays, propellant transfer demonstrations, and a long-term vision of over 10,000 launches per year at 200+ tons per flight, targeting Artemis 4 lunar missions by late 2028."
 permalink: /en/space-news/2026/05/2026-05-28-starship-v3-flight-12-roadmap/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: spacex

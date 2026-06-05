@@ -2,12 +2,12 @@
 title: Force Employment
 description: Force Employment is the U.S. Space Force service-level activity that encapsulates the planning, force management, and decision making required to fulfill military objectives with the fielded force.
 keywords: Force Employment, Space Mission Task Forces, combat formations, Component Field Commands, Space Force
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
   title: Force Employment
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: Force Employment | Space Force Operations
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/force-employment/
 
 # Force Employment
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site: [https://cislunarspace.cn](https://cislunarspace.cn)
 

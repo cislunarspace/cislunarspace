@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Primordial black holes may turn into white holes: Penn State team pinpoints the minimum mass threshold"
 description: "Daniel Paraizo and colleagues at Penn State's Eberly College of Science used a semi-classical model to calculate the Hawking-radiation lifetime of primordial black holes, finding that at the Planck mass, the remnant may enter a stable end-state indistinguishable from a white hole when viewed from afar."
 permalink: /en/space-news/2026/06/2026-06-03-black-holes-white-holes-penn-state/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: science

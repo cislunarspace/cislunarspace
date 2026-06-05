@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "CNSA and SAMR Jointly Release Commercial Space Standard System (Version 1.0)"
 description: "China's National Space Administration and State Administration for Market Regulation jointly released the Commercial Space Standard System (Version 1.0) at the 11th China Space Day ceremony, covering the full industry chain with over 1,000 planned standard projects."
 permalink: /en/space-news/2026/04/2026-04-24-commercial-space-standard/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 category: [china, policy]

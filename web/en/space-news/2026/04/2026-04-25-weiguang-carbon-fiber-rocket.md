@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Weiguang Qihang Unveils World's First All-Carbon Fiber Launch Vehicle at CSC2026"
 description: "At the 2026 China Aerospace Conference (CSC2026) held in Chengdu from April 23-26, Beijing Weiguang Qihang Technology Co., Ltd. unveiled its core product, the 'Weiguang-1' all-carbon fiber launch vehicle, attracting widespread industry attention."
 permalink: /en/space-news/2026/04/2026-04-25-weiguang-carbon-fiber-rocket/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-25
 category: commercial

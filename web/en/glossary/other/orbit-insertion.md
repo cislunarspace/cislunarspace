@@ -1,5 +1,5 @@
 ---
-title: Orbit Insertion (入轨)
+title: Orbit Insertion
 description: Detailed explanation of orbit insertion definition, impulse maneuver principles, role in DRO transfers, and insertion accuracy control
 keywords: Orbit Insertion, orbital insertion, impulse maneuver, DRO transfer, three-burn transfer, orbital control
 author: CislunarSpace

@@ -7,7 +7,7 @@ wechatShare:
   desc: "Researchers found that the outer atmospheres of Uranus and Neptune are primarily composed of rock rather than ice, challenging the long-held 'ice giant' classification."
   image: "./figures/2026-05-12-uranus-neptune-ice-giants/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-uranus-neptune-ice-giants/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-13
 category: science

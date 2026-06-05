@@ -2,7 +2,7 @@
 title: Action-Angle Variables
 description: A detailed explanation of the definition of action-angle variables, their role in integrable Hamiltonian systems, and their specific application in characterizing cislunar libration point orbit parameters
 keywords: Action-Angle Variables, Hamilton System, Integrable System, Canonical Transformation, Libration Point Orbit, Characteristic Parameters, Central Manifold
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-26
 wechatShare:

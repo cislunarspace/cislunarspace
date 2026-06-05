@@ -2,7 +2,7 @@
 title: Space Traffic Management (STM)
 description: Detailed analysis of Space Traffic Management (STM) concepts, key technical domains (Space Situational Awareness, collision risk assessment, intelligent avoidance decision-making), and its importance in an increasingly congested orbital environment
 keywords: space traffic management, STM, space situational awareness, collision risk, orbit prediction, atmospheric density detection, space road generation
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-26
 wechatShare:

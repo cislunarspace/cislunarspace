@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Astronomers Discover 'Hidden' Interstellar Comet 3I/ATLAS in Pre-Discovery Archival Images"
 description: "Astronomers have found that interstellar comet 3I/ATLAS was captured in Vera C. Rubin Observatory data between June 21 and July 2, 2025 — over a week before its official discovery."
 permalink: /en/space-news/2026/05/2026-05-16-interstellar-comet-3i-atlas/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-16
 lastUpdated: 2026-05-16
 category: science

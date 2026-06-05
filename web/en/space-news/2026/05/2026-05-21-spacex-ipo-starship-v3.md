@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Files for IPO at $1.75-2 Trillion Valuation; Starship V3 Debut Launch Imminent"
 description: "SpaceX formally filed for an IPO on Nasdaq (ticker: SPCX) with a valuation of $1.75-2 trillion, disclosing over $15 billion in cumulative Starship R&D spending, as its first Starship V3 test flight approaches."
 permalink: /en/space-news/2026/05/2026-05-21-spacex-ipo-starship-v3/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-21
 lastUpdated: 2026-05-21
 category: spacex

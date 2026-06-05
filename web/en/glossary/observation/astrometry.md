@@ -2,7 +2,7 @@
 title: Astrometry
 description: Astrometry is the technique of precisely measuring celestial positions on the sky, providing core data for orbit determination and target identification in cislunar space
 keywords: Astrometry, Equatorial Coordinates, Position Measurement, Pixel Precision, Cislunar Space, Chang'e-6, Tycho-2
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

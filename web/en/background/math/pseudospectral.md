@@ -2,7 +2,7 @@
 title: Pseudospectral Methods
 description: Pseudospectral methods are direct methods that discretize continuous optimal control problems into nonlinear programming problems by approximating state and control variables at orthogonal collocation points.
 keywords: Pseudospectral Methods, Optimal Control, Trajectory Optimization, Collocation, Nonlinear Programming
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-06-05
 lastUpdated: 2026-06-05
 permalink: /en/background/math/pseudospectral/

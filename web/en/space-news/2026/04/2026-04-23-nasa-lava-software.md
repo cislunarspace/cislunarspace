@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA has released its internal Launch, Ascent, and Vehicle Aerodynamics (LAVA) software to the US aerospace industry to help solve aerodynamic design challenges for advanced vehicles such as scramjet-powered aircraft."
   image: "./figures/2026-04-23-nasa-lava-software/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-nasa-lava-software/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-24
 category: nasa

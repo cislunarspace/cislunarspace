@@ -2,7 +2,7 @@
 title: Indian National Satellite (INSAT)
 description: INSAT is a multi-purpose communications satellite system developed by India, now in its fifth generation, widely used for broadcasting, education, mobile communications, and more
 keywords: INSAT, Indian National Satellite, Indian communications satellite, ISRO, satellite communications, meteorological satellite
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

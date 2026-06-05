@@ -7,7 +7,7 @@ wechatShare:
   desc: "China successfully launched the Tianlian-2 05 satellite to further improve the Tianlian relay satellite system, providing data relay and TT&C services for crewed spacecraft and satellites."
   image: "./figures/2026-04-27-tianlian-2-05-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-tianlian-2-05-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 category: [china, launch]

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX, Pentagon Clash Over Starlink Pricing as US Military Drone Costs Nearly Double"
 description: "Reuters reported on May 26 that weeks after U.S. military operations in Iran, SpaceX demanded the Pentagon pay $25,000 per terminal for Starlink services used to guide LUCAS drones, up from roughly $5,000, pushing per-drone costs nearly doubled."
 permalink: /en/space-news/2026/05/2026-05-27-starlink-pentagon-pricing-dispute/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-27
 lastUpdated: 2026-05-27
 category: policy

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China Launches Four Satellite Internet Test Satellites on Long March 2D from Xichang"
 description: "China successfully launched four satellite internet technology test satellites via the Long March 2D rocket from Xichang on May 31, 2026 at 02:07 UTC, marking the 646th flight of the Long March series."
 permalink: /en/space-news/2026/05/2026-05-31-changzheng-2d-satellite-internet-test-satellite-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-31
 lastUpdated: 2026-06-01
 category: [china, launch]

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Beijing Space Intelligence Computing Research Institute Registered in Beijing Yizhuang"
 description: "The Beijing Space Intelligence Computing Research Institute has been officially registered in the Beijing Economic and Technological Development Zone, jointly established by multiple companies including BOE, Galaxy Aerospace, and Landspace."
 permalink: /en/space-news/2026/06/2026-06-01-beijing-space-intelligence-computing-research-institute/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-01
 lastUpdated: 2026-06-01
 category: policy

@@ -2,7 +2,7 @@
 title: Golden Dome
 description: Golden Dome is a capability area for advancing space-based technology associated with space control and integrated space defense systems.
 keywords: Golden Dome, space control, space-based defense, integrated defense systems, space technology
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/golden-dome/
 
 # Golden Dome
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Awards Nearly $1 Billion in Moon Base Contracts: Blue Origin Gets $234M LTV Delivery Deal"
 description: "NASA announced nearly $10 billion in lunar base investments on May 26, 2026, awarding Astrolab and Lunar Outpost ~$220M each for lunar terrain vehicles and Blue Origin ~$234M per LTV delivered via Blue Moon Mark 1 lander."
 permalink: /en/space-news/2026/05/2026-05-26-nasa-moon-base-plan-update/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-26
 lastUpdated: 2026-05-27
 category: artemis

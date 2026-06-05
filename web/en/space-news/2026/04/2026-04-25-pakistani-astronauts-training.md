@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 24, 2026, two Pakistani astronauts officially entered the Astronaut Center of China in Beijing to begin training alongside their Chinese peers, marking the first time China has hosted foreign astronauts for systematic training."
   image: "./figures/2026-04-25-pakistani-astronauts-training/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-25-pakistani-astronauts-training/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-25
 category: [china, human-spaceflight]

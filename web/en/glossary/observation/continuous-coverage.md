@@ -2,7 +2,7 @@
 title: Continuous Coverage (CP)
 description: Detailed analysis of the continuous coverage metric, its calculation, and application in situational awareness missions
 keywords: Continuous Coverage, CP, Observation Performance, Situational Awareness, DRO, Orbital Coverage
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

@@ -2,7 +2,7 @@
 title: Cooperative Agent (CA)
 description: Detailed analysis of cooperative agent definition, its role in cislunar situational awareness architecture design, and interaction models with SSA architecture
 keywords: Cooperative Agent, CA, Cislunar Space, Situational Awareness, Architecture Design, Trajectory Optimization, Multi-objective Optimization
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:

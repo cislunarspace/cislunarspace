@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou 21 Crew Returns to Beijing After Record-Breaking 210-Day Mission"
 description: "China's Shenzhou 21 crew arrives in Beijing on May 30 after completing a record 210-day mission aboard the Tiangong space station, the longest single mission duration for a Chinese crew"
 permalink: /en/space-news/2026/05/2026-05-30-shenzhou-21-beijing-arrival/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-30
 lastUpdated: 2026-05-30
 category: china

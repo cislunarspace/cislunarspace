@@ -2,7 +2,7 @@
 title: Solar Constant (S₀)
 description: Detailed analysis of the solar constant definition, numerical value, and application in solar radiation pressure calculation
 keywords: Solar Constant, S₀, Solar Radiation Pressure, Radiant Energy, Astronomical Unit, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

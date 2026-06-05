@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Launches 29 Starlink Satellites on Memorial Day, Falcon 9 Completes 28th Flight"
 description: "SpaceX successfully launched 29 Starlink V2 Mini satellites on May 25, 2026 (U.S. Memorial Day) from Cape Canaveral Space Force Station, using Falcon 9 first stage B1078 for its 28th flight and achieving the 151st drone ship landing."
 permalink: /en/space-news/2026/05/2026-05-25-starlink-10-47-memorial-day-falcon-9/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-25
 lastUpdated: 2026-05-25
 category: spacex

@@ -2,7 +2,7 @@
 title: Tiandu-1
 description: An analysis of the breakthrough achievement of China's communication and navigation technology experimental satellite Tiandu-1, successfully completing lunar laser ranging in cislunar space during daytime for the first time.
 keywords: Tiandu-1, laser ranging, cislunar space, deep space exploration, daytime strong light, laser corner reflector, Chinese Academy of Sciences Space Applications Center
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:
@@ -26,7 +26,7 @@ permalink: /en/glossary/navigation/tiandu-1/
 
 > This article is edited from: Shangguan Yong, Zheng Peng, Zhang Hua, et al. Research on the Current Status and Technical Development of Cislunar Space Navigation[J]. Journal of Telemetry and Remote Sensing, 2026.
 >
-> This article author: 天疆说
+> This article author: Tianjiang Shuo
 >
 > This article source: https://cislunarspace.cn
 

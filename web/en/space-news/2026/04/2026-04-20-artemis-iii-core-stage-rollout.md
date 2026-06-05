@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Rolls Out Artemis III SLS Core Stage for Moon Mission"
 description: "NASA rolled out the SLS core stage for the Artemis III crewed Moon landing mission on April 20, 2026, transporting the 212-foot stage from Michoud Assembly Facility to Kennedy Space Center via Pegasus barge."
 permalink: /en/space-news/2026/04/2026-04-20-artemis-iii-core-stage-rollout/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-20
 lastUpdated: 2026-04-20
 category: artemis

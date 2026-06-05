@@ -93,7 +93,7 @@ permalink: /glossary/orbits/horseshoe-orbit/
 - [长周期轨道（Long Period Orbit）](/glossary/orbits/long-period-orbit/)
 - [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [三角平动点（Triangular Libration Points）](/glossary/dynamics/triangular-libration-points/)
+- [三角平动点（Triangular Libration Points）](/glossary/orbits/triangular-libration-points/)
 
 ## 参考文献
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.

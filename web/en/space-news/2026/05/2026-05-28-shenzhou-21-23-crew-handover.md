@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-21 and Shenzhou-23 Crews Complete ISS Handover, Tiangong Space Station Gets New Commander"
 description: "On May 28, 2026, the Shenzhou-21 and Shenzhou-23 astronaut crews conducted the in-orbit handover ceremony aboard China's Tiangong Space Station, transferring the station keys to the incoming crew. The Shenzhou-21 crew is set to return to Earth aboard Shenzhou-22 in the coming days."
 permalink: /en/space-news/2026/05/2026-05-28-shenzhou-21-23-crew-handover/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: china

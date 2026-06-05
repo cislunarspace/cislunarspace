@@ -2,7 +2,7 @@
 title: Dual One-Way Ranging (DOWR)
 description: Detailed analysis of Dual One-Way Ranging working principles, applications in gravitational redshift measurements, and advantages of differential processing
 keywords: Dual One-Way Ranging, DOWR, Ranging, Time-Frequency Transfer, Inter-Satellite Link, K-band, Differential Processing
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

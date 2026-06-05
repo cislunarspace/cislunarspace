@@ -2,7 +2,7 @@
 title: Cislunar Moving Objects
 description: Detailed explanation of cislunar moving objects including definition, motion characteristics, observation challenges, and applications in space situational awareness
 keywords: Cislunar Moving Objects, cislunar space, space debris, three-body problem, space situational awareness, optical survey
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

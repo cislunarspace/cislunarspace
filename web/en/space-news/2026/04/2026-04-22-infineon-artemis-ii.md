@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Infineon Radiation-Hardened Semiconductors Pass Space Validation on Artemis II Mission"
 description: "Infineon reports that its radiation-hardened semiconductors supplied for NASA's Artemis II Orion spacecraft maintained zero failure during the deep-space mission, successfully supporting power management, system control, and data communications."
 permalink: /en/space-news/2026/04/2026-04-22-infineon-artemis-ii/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: [nasa, artemis, science]

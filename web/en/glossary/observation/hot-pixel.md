@@ -2,7 +2,7 @@
 title: Hot Pixel
 description: Detailed explanation of hot pixels including causes, impact on astronomical images, median filter removal methods, and applications in cislunar observation
 keywords: Hot Pixel, median filter, CCD, CMOS, astronomical sensor, false alarm detection, stacking search
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

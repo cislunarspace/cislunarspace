@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-23 Crew Boards Tiangong Space Station, Marking China's 8th 'Space Rendezvous'"
 description: "The Shenzhou-23 crew entered the Tiangong space station at 05:13 UTC on May 25, 2026, welcomed by the Shenzhou-21 crew already aboard. It is China's 8th 'space rendezvous' and the first time a Hong Kong astronaut has boarded Tiangong."
 permalink: /en/space-news/2026/05/2026-05-25-shenzhou-23-space-station-ingress/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-25
 lastUpdated: 2026-05-26
 category: china

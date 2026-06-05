@@ -2,7 +2,7 @@
 title: A2PPO (Attention-Augmented Proximal Policy Optimization)
 description: A2PPO is a deep reinforcement learning framework integrating directional cross-attention into Actor-Critic policies for low-thrust trajectory optimization in cislunar space
 keywords: A2PPO, Attention-Augmented PPO, low-thrust trajectory optimization, deep reinforcement learning, cislunar space, Actor-Critic, cross-attention, orbit design
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:

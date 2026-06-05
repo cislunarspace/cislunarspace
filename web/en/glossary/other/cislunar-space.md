@@ -1,5 +1,5 @@
 ---
-title: Cislunar Space (地月空间)
+title: Cislunar Space
 description: Detailed explanation of cislunar space definition, scope, resource characteristics, and strategic significance
 keywords: Cislunar Space, Earth-Moon system, LEO, lunar orbit, three-body problem, orbital resources, deep space exploration
 author: CislunarSpace

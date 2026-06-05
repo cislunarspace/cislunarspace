@@ -1,5 +1,5 @@
 ---
-title: Free-Return Trajectory (自由返回轨道)
+title: Free-Return Trajectory
 description: Detailed explanation of free-return trajectory definition, dynamics principles, safety role in crewed cislunar missions, and design methods
 keywords: Free-Return Trajectory, crewed lunar mission, safety orbit, cislunar transfer, gravity-assist return, orbital design
 author: CislunarSpace

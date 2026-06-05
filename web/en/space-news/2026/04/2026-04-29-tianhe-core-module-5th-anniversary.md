@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 29, 2026, China's Tiangong Space Station Tianhe Core Module celebrated five years of stable in-orbit operation, completing 267 scientific experiments and generating over 450TB of data."
   image: "./figures/2026-04-29-tianhe-core-module-5th-anniversary/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-29-tianhe-core-module-5th-anniversary/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 category: iss

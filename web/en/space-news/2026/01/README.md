@@ -2,7 +2,7 @@
 title: Space News · January 2026
 description: Index of space news items published in January 2026.
 permalink: /en/space-news/2026/01/
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-01-30
 lastUpdated: 2026-01-30
 wechatShare:

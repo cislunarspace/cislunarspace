@@ -2,7 +2,7 @@
 title: LunaNet (Lunar Network)
 description: An analysis of the U.S.-led lunar communication and navigation integrated architecture plan, providing high-precision spatial position information services for lunar astronauts and rovers.
 keywords: LunaNet, Lunar Network, lunar communication, lunar navigation, NASA, cislunar space infrastructure, integrated communication and navigation
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:
@@ -26,7 +26,7 @@ permalink: /en/glossary/navigation/lunanet/
 
 > This article is edited from: Shangguan Yong, Zheng Peng, Zhang Hua, et al. Research on the Current Status and Technical Development of Cislunar Space Navigation[J]. Journal of Telemetry and Remote Sensing, 2026.
 >
-> This article author: 天疆说
+> This article author: Tianjiang Shuo
 >
 > This article source: https://cislunarspace.cn
 

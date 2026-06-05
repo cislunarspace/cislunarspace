@@ -2,7 +2,7 @@
 title: Cislunar Spatiotemporal Reference
 description: A detailed analysis of the definition, construction methods, traceability and transfer mechanisms of the cislunar spatiotemporal reference, and its application value in deep space exploration and lunar development.
 keywords: cislunar spatiotemporal reference, spatiotemporal coordinate frame, ephemeris model, gravity field model, spatiotemporal transfer, precise orbit determination
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-26
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/navigation/cislunar-spatiotemporal-reference/
 
 # Cislunar Spatiotemporal Reference
 
-> This article author: [天疆说](https://blog.csdn.net/qq_33254264)
+> This article author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site address: [https://cislunarspace.cn](https://cislunarspace.cn)
 

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-23 Crew Revealed: Hong Kong Payload Specialist Li Jiaying Set for First Spaceflight to China's Station"
 description: "China's Shenzhou-23 crew officially unveiled on May 23, featuring Commander Zhu Yangzhu, pilot Zhang Zhiyuan, and Hong Kong payload specialist Li Jiaying, who will become the first Hong Kong astronaut to fly to space. Launch is targeted for May 24 at 23:08 BJT."
 permalink: /en/space-news/2026/05/2026-05-23-shenzhou-23-crew-reveal/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: china

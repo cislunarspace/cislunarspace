@@ -2,7 +2,7 @@
 title: Birkhoff-Gustavson Normal Form
 description: A detailed explanation of the Birkhoff-Gustavson Normal Form definition, its application in Hamiltonian system canonical transformations, and its role in cislunar libration point orbit parameterization
 keywords: Birkhoff-Gustavson Normal Form, Hamiltonian System, Canonical Transformation, Normal Form Theory, Libration Point Orbit, Legendre Expansion, Central Manifold
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-26
 wechatShare:

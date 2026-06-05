@@ -1,5 +1,5 @@
 ---
-title: Perilune (近月点)
+title: Perilune
 description: Detailed explanation of perilune definition, geometric significance, influence on lunar gravity assist, and role in orbital design
 keywords: Perilune, lunar gravity assist, orbital design, perilune altitude, lunar orbit, cislunar transfer
 author: CislunarSpace

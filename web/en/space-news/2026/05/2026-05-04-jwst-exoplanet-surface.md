@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's James Webb Space Telescope has directly observed the surface of exoplanet LHS 3844b, revealing it as a dark, super-heated rock with no atmosphere, marking a new era in exoplanet surface geology."
   image: "./figures/2026-05-04-jwst-exoplanet-surface/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-jwst-exoplanet-surface/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-04
 lastUpdated: 2026-05-04
 category: science

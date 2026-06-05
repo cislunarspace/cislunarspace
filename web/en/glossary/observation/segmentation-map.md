@@ -2,7 +2,7 @@
 title: Segmentation Map
 description: Detailed explanation of segmentation maps including definition, generation methods, data structures, and applications in astronomical image processing and cislunar observation
 keywords: Segmentation Map, SExtractor, source detection, mask, astronomical image processing, background star elimination
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

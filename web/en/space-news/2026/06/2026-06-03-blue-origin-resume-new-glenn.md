@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Blue Origin vows to resume New Glenn flights by year's end: LC-36 propellant tanks intact, transporter-erector scrapped in favor of vertical integration"
 description: "On June 2, 2026, Blue Origin CEO Dave Limp posted on X with the latest damage assessment after the May 28 NG-4 static-fire explosion at LC-36: propellant tanks (LOX, LH2, LNG) and the water tower survived intact, the support tower can be repaired in place rather than torn down, and the transporter-erector destroyed in the blast will not be replaced. The company has another New Glenn first stage and fairing already on site, with a year-end target to resume New Glenn flights."
 permalink: /en/space-news/2026/06/2026-06-03-blue-origin-resume-new-glenn/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: blue-origin

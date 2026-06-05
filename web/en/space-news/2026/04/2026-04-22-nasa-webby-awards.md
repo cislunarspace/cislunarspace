@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA was recognized at the 30th Annual Webby Awards with two Webby Awards and five People's Voice Awards, highlighting the agency's excellence in digital communication and public engagement across its online platforms."
   image: "./figures/2026-04-22-nasa-webby-awards/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-nasa-webby-awards/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: nasa

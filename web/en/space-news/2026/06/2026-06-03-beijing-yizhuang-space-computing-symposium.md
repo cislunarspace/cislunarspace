@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Beijing Yizhuang convenes space-computing symposium with BOE, Galaxy Space, LandSpace and others to operationalize its new space-computing innovation center"
 description: "On June 3, 2026, the Beijing Economic-Technological Development Area (Yizhuang) hosted a space-computing industry symposium attended by BOE, Galaxy Space, LandSpace, Galactic Energy, Guanyu Xinsuan, CXMT and other space-computing supply-chain leaders. The meeting mapped the next steps for the Beijing Space Computing Innovation Center, just three days after the zone incorporated the Beijing Space Intelligent Computing Research Institute and three days before the city unveiled its first such center in Haidian. The announcement moved the A-share market: China Satellite jumped more than 8 percent intraday on June 3, with Sunway Communication, Shanghai Hanxun, Dianke Lantian and Western Materials following."
 permalink: /en/space-news/2026/06/2026-06-03-beijing-yizhuang-space-computing-symposium/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: [china, policy]

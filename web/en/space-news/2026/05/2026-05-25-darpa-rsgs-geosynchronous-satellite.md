@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "DARPA's Geosynchronous Satellite Servicing Mission Targets Summer 2026 Launch"
 description: "DARPA announces its long-delayed Robotic Servicing of Geosynchronous Satellites (RSGS) payload is complete and ready for launch as soon as summer 2026, demonstrating dexterous robotic servicing, upgrades and inspections 22,000 miles above Earth."
 permalink: /en/space-news/2026/05/2026-05-25-darpa-rsgs-geosynchronous-satellite/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-25
 lastUpdated: 2026-05-25
 category: policy

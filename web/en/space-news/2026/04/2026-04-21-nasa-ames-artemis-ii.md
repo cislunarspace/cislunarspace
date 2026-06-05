@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Ames Research Center played key roles in the Artemis II mission, providing heat shield sensors, SLS rocket vibration analysis, crew science training, and mission assurance support."
   image: "./figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-21-nasa-ames-artemis-ii/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-21
 lastUpdated: 2026-04-22
 category: artemis

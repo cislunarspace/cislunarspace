@@ -2,7 +2,7 @@
 title: Stability Index
 description: Detailed analysis of the definition, calculation methods, and applications of stability indices in periodic orbit analysis
 keywords: Stability Index, nu, L, Monodromy Matrix, Orbital Stability, Periodic Orbit
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

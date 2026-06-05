@@ -7,7 +7,7 @@ wechatShare:
   desc: "SpaceX conducted a full-duration, full-thrust static fire test of all 33 Raptor engines on the V3 Super Heavy booster at Starbase, Texas on May 7, targeting Flight 12 for May 15."
   image: "./figures/2026-05-07-spacex-starship-v3-static-fire/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-spacex-starship-v3-static-fire/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-08
 category: spacex

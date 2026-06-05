@@ -7,7 +7,7 @@ wechatShare:
   desc: "Rocket Lab's gallium arsenide solar cell arrays power NASA's Artemis II Orion spacecraft, marking the first application of this technology on a crewed deep space mission."
   image: "./figures/2026-04-27-rocket-lab-solar-artemis-ii/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-rocket-lab-solar-artemis-ii/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 category: [rocket-lab, artemis]

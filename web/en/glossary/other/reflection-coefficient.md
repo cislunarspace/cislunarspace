@@ -2,7 +2,7 @@
 title: Reflection Coefficient (C_R)
 description: Detailed analysis of the reflection coefficient definition, value range, and role in solar radiation pressure calculation
 keywords: Reflection Coefficient, CR, Solar Radiation Pressure, Light Pressure Coefficient, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

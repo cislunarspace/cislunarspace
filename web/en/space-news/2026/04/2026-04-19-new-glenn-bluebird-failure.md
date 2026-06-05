@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Blue Origin New Glenn Suffers First Launch Failure on BlueBird Block 2 Mission"
 description: "On April 19, 2026, Blue Origin's New Glenn rocket experienced an anomaly during its fourth flight, failing to deliver the AST SpaceMobile BlueBird Block 2 satellite to orbit. This marked the first launch failure for the New Glenn vehicle since its maiden flight in January 2025."
 permalink: /en/space-news/2026/04/2026-04-19-new-glenn-bluebird-failure/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-19
 lastUpdated: 2026-04-20
 category: [blue-origin, commercial]

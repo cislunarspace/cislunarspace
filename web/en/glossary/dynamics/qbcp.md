@@ -2,7 +2,7 @@
 title: Quasi-Bicircular Problem (QBCP)
 description: A detailed explanation of the Quasi-Bicircular Problem model definition, Hamiltonian function, its application in cislunar space, and its relationship with CRTBP
 keywords: Quasi-Bicircular Problem, QBCP, Cislunar Dynamics, Solar Perturbation, Hamiltonian Function, Four-Body Problem
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-04
 lastUpdated: 2026-04-26
 wechatShare:

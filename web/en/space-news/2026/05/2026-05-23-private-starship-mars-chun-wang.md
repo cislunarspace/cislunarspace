@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Cryptocurrency Billionaire Chun Wang Announces SpaceX's First Private Starship Mars Flyby Mission"
 description: "During the Starship V3 launch countdown, SpaceX announced a private Mars flyby mission led by cryptocurrency billionaire Chun Wang, who previously completed the Fram2 polar orbit flight in 2025. No specific launch date has been set."
 permalink: /en/space-news/2026/05/2026-05-23-private-starship-mars-chun-wang/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: commercial

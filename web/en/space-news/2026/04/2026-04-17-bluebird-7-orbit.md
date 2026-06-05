@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Giant BlueBird 7 Mobile Phone Satellite to Be Deorbited After Blue Origin New Glenn Places It in Wrong Orbit"
 description: "AST SpaceMobile's BlueBird 7 satellite, launched on Blue Origin's New Glenn rocket, was deployed into an incorrect orbit and will need to be deorbited."
 permalink: /en/space-news/2026/04/2026-04-17-bluebird-7-orbit/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-17
 lastUpdated: 2026-04-17
 category: [blue-origin, commercial]

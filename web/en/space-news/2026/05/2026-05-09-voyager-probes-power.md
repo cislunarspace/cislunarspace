@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA reveals on May 9, 2026 that the twin Voyager spacecraft, launched in 1977, are running low on power and the mission team is preparing a risky 'Big Bang' maneuver to extend their operational lives."
   image: "./figures/2026-05-09-voyager-probes-power/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-09-voyager-probes-power/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-09
 lastUpdated: 2026-05-09
 category: science

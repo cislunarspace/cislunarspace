@@ -2,7 +2,7 @@
 title: Libration Point Spacecraft Orbital Coordinate System (Libration Point Spacecraft Orbital Coordinate System)
 description: Detailed analysis of libration point spacecraft orbital coordinate system definition, coordinate axis directions, and application in navigation and orbit keeping
 keywords: Libration Point Spacecraft Orbital Coordinate System, Orbital Coordinate System, Spacecraft Coordinate System, Libration Point
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/libration-spacecraft-orbital-coordinate/
 
 # Libration Point Spacecraft Orbital Coordinate System (Libration Point Spacecraft Orbital Coordinate System)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014) "Research on Autonomous Navigation and Orbit Keeping of Spacecraft on Quasi-Periodic Orbits in Cislunar Space"
 >

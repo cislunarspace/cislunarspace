@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 29, 2026, NASA and Boeing formally modified the Starliner commercial crew contract, converting the first operational mission Starliner-1 from crewed to a cargo-only verification flight."
   image: "./figures/2026-04-29-starliner-1-cargo-only/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-29-starliner-1-cargo-only/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 category: [nasa, commercial]

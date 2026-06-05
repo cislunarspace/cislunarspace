@@ -2,7 +2,7 @@
 title: Near-Rectilinear Halo Orbit (NRHO)
 description: Detailed analysis of the definition, relationship with Halo orbits, resonance characteristics, stability analysis, and applications in cislunar space missions of the Near-Rectilinear Halo Orbit (NRHO)
 keywords: Near-Rectilinear Halo Orbit, NRHO, Near-Rectilinear Halo Orbit, Halo orbit, Earth-Moon libration point, L2 point, Gateway space station, Gateway
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-04
 lastUpdated: 2026-04-26
 wechatShare:

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "银河系最常见行星或无清晰核心：新研究挑战经典行星结构模型"
 description: "New research reveals that sub-Neptunes, the most common planet type in the galaxy, may lack distinct cores due to high-pressure mixing of iron, silicates, and hydrogen."
 permalink: /en/space-news/2026/05/2026-05-24-exoplanet-interior-structure/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-24
 lastUpdated: 2026-05-24
 category: science

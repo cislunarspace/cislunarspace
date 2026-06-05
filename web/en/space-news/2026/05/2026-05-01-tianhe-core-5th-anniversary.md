@@ -7,7 +7,7 @@ wechatShare:
   desc: "April 29 marked the 5th anniversary of the Tianhe core module's launch. With expanding scientific missions and international cooperation, the China Space Station is set to undergo a major 'second expansion' forming a cross-shaped configuration."
   image: "./figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-tianhe-core-5th-anniversary/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-01
 lastUpdated: 2026-05-01
 category: [china, iss]

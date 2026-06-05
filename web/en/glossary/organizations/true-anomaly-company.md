@@ -2,12 +2,12 @@
 title: True Anomaly
 description: Introduction to True Anomaly, its Jackal satellite platform, and orbital robotics technology for space defense and cislunar space situational awareness
 keywords: True Anomaly, Jackal, space defense, orbital robotics, orbital situational awareness, proximity operations, Victus Haze
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 wechatShare:
   title: True Anomaly
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: True Anomaly
@@ -24,7 +24,7 @@ permalink: /en/glossary/organizations/true-anomaly-company/
 
 # True Anomaly
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Source: [True Anomaly Official Website](https://www.trueanomaly.space) and public sources
 >

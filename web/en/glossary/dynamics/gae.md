@@ -2,7 +2,7 @@
 title: Generalized Advantage Estimation (GAE)
 description: Generalized Advantage Estimation (GAE) is a method for advantage function estimation in reinforcement learning that balances bias and variance through exponentially weighted averaging of TD residuals
 keywords: GAE, Generalized Advantage Estimation, reinforcement learning, advantage function, temporal difference, PPO, A2PPO, policy gradient, bias-variance tradeoff
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:

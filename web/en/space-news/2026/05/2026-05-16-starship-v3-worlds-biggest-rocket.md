@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Starship V3 vs Its Predecessors: A Detailed Comparison of the World's Biggest Rocket"
 description: "SpaceX publishes a detailed technical breakdown comparing Starship V3 with previous versions, highlighting major upgrades in thrust, payload capacity and design ahead of the targeted May 19 maiden flight."
 permalink: /en/space-news/2026/05/2026-05-16-starship-v3-worlds-biggest-rocket/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-16
 lastUpdated: 2026-05-16
 category: spacex

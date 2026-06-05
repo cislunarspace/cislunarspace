@@ -7,7 +7,7 @@ wechatShare:
   desc: "On May 11, 2026, the Tianzhou-10 cargo spacecraft successfully docked with China's Tiangong space station complex approximately 6 hours after launch, delivering 6.3 tonnes of supplies and 700 kg of propellant."
   image: "./figures/2026-05-11-tianzhou-10-docking/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-11-tianzhou-10-docking/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: china

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Invites Media to SpaceX's 34th Commercial Resupply Mission, Targeting May 12 Launch"
 description: "On April 20, 2026, NASA released a media advisory inviting media to cover SpaceX's 34th Commercial Resupply Services (CRS-34) mission, targeted for launch no earlier than May 12 from Cape Canaveral Space Force Station, delivering over 5 metric tons of science investigations, supplies, and equipment to the International Space Station."
 permalink: /en/space-news/2026/04/2026-04-20-nasa-crs-34-media/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-20
 lastUpdated: 2026-04-20
 category: iss

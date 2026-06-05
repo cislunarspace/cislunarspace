@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX CRS-34 Cargo Dragon Successfully Docks with International Space Station"
 description: "SpaceX CRS-34 cargo Dragon spacecraft successfully docked with the ISS on May 17, delivering approximately 6,500 pounds of science research materials and supplies."
 permalink: /en/space-news/2026/05/2026-05-17-crs-34-dragon-docking/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-17
 lastUpdated: 2026-05-17
 category: iss

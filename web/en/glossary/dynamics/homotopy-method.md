@@ -2,7 +2,7 @@
 title: Homotopy Method (Homotopy Method)
 description: Detailed analysis of homotopy method definition, smooth transition principle from energy-optimal to fuel-optimal, and application in orbit optimization
 keywords: Homotopy Method, Continuation Method, Fuel-optimal, Energy-optimal, Bang-bang Control, Orbit Optimization, Co-state Normalization
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/homotopy-method/
 
 # Homotopy Method (Homotopy Method)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Contributing Institution: School of Astronautics, Harbin Institute of Technology, National Key Laboratory of Rapid Design and Intelligent Swarm of Small Spacecraft
 >

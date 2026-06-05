@@ -2,7 +2,7 @@
 title: Curriculum Learning
 description: Curriculum Learning is a training strategy that progressively builds agent capability through simple-to-complex task curricula, used for solving high-difficulty long-horizon tasks in reinforcement learning
 keywords: Curriculum Learning, reinforcement learning, trajectory optimization, progressive training, cislunar space, low-thrust, A2PPO
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:

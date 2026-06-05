@@ -2,7 +2,7 @@
 title: Synthetic Tracking
 description: Synthetic Tracking is a computationally enhanced implementation of Shift-and-Add that enables near-real-time blind search discovery and tracking of faint, fast-moving near-Earth asteroids.
 keywords: Synthetic Tracking, Near-Earth Asteroids, NEA, Blind Search, Real-time Detection, Shift-and-Add, Cislunar Survey
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

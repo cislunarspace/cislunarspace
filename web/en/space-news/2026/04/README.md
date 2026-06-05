@@ -2,7 +2,7 @@
 title: Space News · April 2026
 description: April 2026 space news article index.
 permalink: /en/space-news/2026/04/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-01
 lastUpdated: 2026-04-30
 wechatShare:

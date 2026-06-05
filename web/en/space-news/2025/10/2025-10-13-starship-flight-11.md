@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Starship Flight 11 Achieves Success"
 description: "On October 13, 2025, SpaceX's Starship Flight 11 (IFT-11) successfully completed all primary objectives, with both the rocket and spacecraft achieving controlled recovery."
 permalink: /en/space-news/2025/10/2025-10-13-starship-flight-11/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-10-13
 lastUpdated: 2025-10-13
 category: spacex

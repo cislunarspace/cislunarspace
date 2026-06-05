@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China's reusable-rocket test campaign enters a dense phase: Zhuque-3 Y2, Xingyun-1 and Long March 10B queued for recovery attempts"
 description: "A June 3 pre-market note from CLS and a series of broker reports circulated on June 4 collectively confirm that, starting in June 2026, Chinese reusable launch vehicles are entering a dense test window: LandSpace's Zhuque-3 Y2 will retry first-stage vertical recovery in the first half and target the first reflight in Q4, while Deep Blue Aerospace's Xingyun-1, CAS Space's Lijian-family derivatives and CASC Commercial's Long March 10B all queue up for tests. The campaign is bracketed by the late-February long-duration test-firing of the 220-tonne Lanyan methalox engine and the June 1 maiden flight of the 20-tonne Long March 12B, which deliberately did not attempt recovery but validated the relevant aerodynamic shape."
 permalink: /en/space-news/2026/06/2026-06-04-china-reusable-rocket-dense-test-window/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-04
 lastUpdated: 2026-06-04
 category: [china, commercial]

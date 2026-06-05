@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Curiosity rover accidentally extracted an entire rock nicknamed 'Atacama' while drilling on April 25, with the 13-kilogram rock stubbornly stuck to the drill sleeve for 6 days before engineers could free it."
   image: "./figures/2026-05-08-curiosity-mars-rock/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-curiosity-mars-rock/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-08
 lastUpdated: 2026-05-08
 category: nasa

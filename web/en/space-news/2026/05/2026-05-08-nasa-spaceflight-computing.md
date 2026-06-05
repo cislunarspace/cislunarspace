@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA teams with industry partners to advance High Performance Spaceflight Computing system-on-chip, enabling next-gen deep space missions."
   image: "./figures/2026-05-08-nasa-spaceflight-computing/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-nasa-spaceflight-computing/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-08
 lastUpdated: 2026-05-09
 category: nasa

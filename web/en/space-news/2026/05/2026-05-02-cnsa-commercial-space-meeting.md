@@ -7,7 +7,7 @@ wechatShare:
   desc: "CNSA Director Shan Zhide chaired a commercial space development enterprise roundtable with 14 companies from rocket manufacturing, satellite production, launch services, and satellite applications."
   image: "./figures/2026-05-02-cnsa-commercial-space-meeting/hero.png"
 permalink: /en/space-news/2026/05/2026-05-02-cnsa-commercial-space-meeting/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-02
 lastUpdated: 2026-05-02
 category: [china, policy]

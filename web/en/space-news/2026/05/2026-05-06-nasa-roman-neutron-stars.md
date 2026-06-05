@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Nancy Grace Roman Space Telescope will systematically search the Milky Way for isolated neutron stars using its revolutionary wide-field infrared capabilities, targeting a launch after September 2026."
   image: "./figures/2026-05-06-nasa-roman-neutron-stars/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-nasa-roman-neutron-stars/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-06
 lastUpdated: 2026-05-06
 category: nasa

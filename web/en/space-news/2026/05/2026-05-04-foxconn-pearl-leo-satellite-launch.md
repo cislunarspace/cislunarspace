@@ -7,7 +7,7 @@ wechatShare:
   desc: "Foxconn's second-generation LEO satellites were successfully launched aboard a SpaceX Falcon 9 rocket from California, with PEARL-1A and PEARL-1B entering their predetermined orbits to begin a five-year mission."
   image: "./figures/2026-05-04-foxconn-pearl-leo-satellite-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-foxconn-pearl-leo-satellite-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-04
 category: commercial

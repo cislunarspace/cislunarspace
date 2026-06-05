@@ -7,7 +7,7 @@ wechatShare:
   desc: "China's Tianzhou-9 cargo spacecraft re-entered the Earth's atmosphere in a controlled manner at 7:49 a.m. Beijing Time on May 7, with a small amount of debris falling into designated safe waters."
   image: "./figures/2026-05-07-tianzhou-9-reentry/hero.png"
 permalink: /en/space-news/2026/05/2026-05-07-tianzhou-9-reentry/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: china

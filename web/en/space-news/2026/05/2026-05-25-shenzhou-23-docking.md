@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou 23 Successfully Docks with Tiangong Space Station"
 description: "China's Shenzhou 23 crew arrived at the Tiangong Space Station on May 25, completing a 6.5-hour fast rendezvous after launching from Jiuquan on May 24."
 permalink: /en/space-news/2026/05/2026-05-25-shenzhou-23-docking/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-25
 lastUpdated: 2026-05-25
 category: china

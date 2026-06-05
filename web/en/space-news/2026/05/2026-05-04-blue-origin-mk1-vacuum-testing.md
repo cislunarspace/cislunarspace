@@ -7,7 +7,7 @@ wechatShare:
   desc: "Blue Origin's Blue Moon Mark 1 (MK1) lunar lander has completed full environmental testing inside NASA's Thermal Vacuum Chamber A at Johnson Space Center, paving the way for its CLPS mission to the lunar South Pole."
   image: "./figures/2026-05-04-blue-origin-mk1-vacuum-testing/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-blue-origin-mk1-vacuum-testing/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-04
 lastUpdated: 2026-05-04
 category: blue-origin

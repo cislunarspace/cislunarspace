@@ -1,7 +1,7 @@
 ---
 title: Space News · May 2026
 description: Space news and updates for May 2026.
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-01
 lastUpdated: 2026-06-01
 

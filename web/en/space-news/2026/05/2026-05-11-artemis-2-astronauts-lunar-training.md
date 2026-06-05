@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA lunar science teams trained Artemis 2 astronauts in specialized observation techniques to prepare them for future lunar missions."
   image: "./figures/2026-05-11-artemis-2-astronauts-lunar-training/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-11-artemis-2-astronauts-lunar-training/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: artemis

@@ -2,7 +2,7 @@
 title: K-Medoids Clustering (K-Medoids Clustering)
 description: Detailed analysis of K-Medoids clustering algorithm principles, differences from K-Means, and application in cislunar SSA architecture clustering analysis
 keywords: K-Medoids, Clustering, PAM, Architecture Design, Cislunar Space, Situational Awareness, Classification
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:

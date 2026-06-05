@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA announced on April 16, 2026, that it has begun implementation to launch ESA's Rosalind Franklin Mars rover in 2028 aboard a SpaceX Falcon Heavy rocket, resolving years of launch uncertainties for the rover."
   image: "./figures/2026-04-22-esa-falcon-heavy-rosalind/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-esa-falcon-heavy-rosalind/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-23
 category: [esa, nasa, launch]

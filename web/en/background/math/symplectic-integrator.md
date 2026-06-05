@@ -2,7 +2,7 @@
 title: Symplectic Integrator
 description: A symplectic integrator is a class of numerical integration methods that preserve the symplectic geometric structure (symplectic form) of Hamiltonian systems, maintaining energy and other conserved quantities without systematic drift over long-term integration.
 keywords: Symplectic Integrator, Hamiltonian System, Symplectic Integration, Energy Conservation, Celestial Mechanics Numerical Methods
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 permalink: /en/background/math/symplectic-integrator/
@@ -14,7 +14,7 @@ wechatShare:
 
 # Symplectic Integrator
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Site: [https://cislunarspace.cn](https://cislunarspace.cn)
 

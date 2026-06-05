@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA released preliminary Artemis III mission plans on May 13, 2026, downgrading the objective from a crewed lunar landing to a low Earth orbit rendezvous and docking test with commercial landers, planned for 2027."
   image: "./figures/2026-05-13-nasa-artemis-3-plans/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-nasa-artemis-3-plans/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-13
 lastUpdated: 2026-05-14
 category: artemis

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Xinghuo Kongjian Announces China's First Electric-Cycle Liquid Rocket Evolution-1"
 description: "Chinese commercial space company Xinghuo Kongjian announced it is developing the Evolution-1 electric-cycle liquid launch vehicle, China's first and the world's largest electric-cycle liquid rocket by payload capacity."
 permalink: /en/space-news/2026/06/2026-06-01-xinghuo-kongjian-evolution-1-electric-rocket/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-01
 lastUpdated: 2026-06-01
 category: commercial

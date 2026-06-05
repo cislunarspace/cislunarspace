@@ -7,7 +7,7 @@ wechatShare:
   desc: "A NASA Glenn team has developed a groundbreaking ground-test method that can replicate the extreme cold of the lunar night, reaching temperatures as low as -173°C, to verify materials and systems for lunar surface operations."
   image: "./figures/2026-05-06-nasa-lunar-night-tech/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-nasa-lunar-night-tech/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-06
 lastUpdated: 2026-05-06
 category: nasa

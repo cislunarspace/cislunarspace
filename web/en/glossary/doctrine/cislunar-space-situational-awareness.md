@@ -2,7 +2,7 @@
 title: Cislunar Space Situational Awareness
 description: Detailed analysis of the definition, mission content, major programs, and strategic significance of cislunar space situational awareness
 keywords: Cislunar Space Situational Awareness, CHPS, Oracle, XGEO, D2S2, Space Security
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

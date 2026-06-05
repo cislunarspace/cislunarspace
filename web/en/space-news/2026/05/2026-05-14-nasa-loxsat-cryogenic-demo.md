@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA, Eta Space Partner on In-Orbit Cryogenic Fluid Management Demo"
 description: "NASA partners with Eta Space to demonstrate key cryogenic fluid management technologies for in-space propellant depots supporting future deep space missions."
 permalink: /en/space-news/2026/05/2026-05-14-nasa-loxsat-cryogenic-demo/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-14
 category: nasa

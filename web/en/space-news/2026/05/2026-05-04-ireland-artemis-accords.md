@@ -7,7 +7,7 @@ wechatShare:
   desc: "Ireland signed the Artemis Accords on May 4, 2026, becoming the 66th signatory and completing all 23 ESA member state adoptions of the principles for responsible space exploration."
   image: "./figures/2026-05-04-ireland-artemis-accords/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-04-ireland-artemis-accords/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-04
 lastUpdated: 2026-05-04
 category: artemis

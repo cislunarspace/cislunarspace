@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China's Long March 12B completes maiden flight: Qianfan satellites reach orbit, no advance warning issued"
 description: "At 4:40 a.m. EDT on June 1, 2026 (08:40 UTC), China's Long March 12B rocket lifted off from the Dongfeng Commercial Aerospace Innovation Test Zone in the Gobi Desert and placed Qianfan constellation satellites into orbit. The partially reusable rocket is widely compared to SpaceX's Falcon 9. Unlike most Chinese launches, this one was carried out without the usual pre-launch airspace and maritime notices, with news first surfacing on Chinese social media before official media and Western outlets caught up."
 permalink: /en/space-news/2026/06/2026-06-02-long-march-12b-maiden-flight/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-02
 lastUpdated: 2026-06-02
 category: china

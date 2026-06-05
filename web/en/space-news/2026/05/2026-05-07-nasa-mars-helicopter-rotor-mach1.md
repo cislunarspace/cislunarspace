@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's Jet Propulsion Laboratory successfully accelerated next-generation Mars helicopter rotor blades to supersonic speeds in March tests, marking a major milestone for Mars aerial exploration."
   image: "./figures/2026-05-07-nasa-mars-helicopter-rotor-mach1/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-07-nasa-mars-helicopter-rotor-mach1/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-07
 lastUpdated: 2026-05-07
 category: nasa

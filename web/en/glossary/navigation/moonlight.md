@@ -2,7 +2,7 @@
 title: Moonlight Initiative
 description: An analysis of ESA's independent lunar navigation constellation plan, consisting of 5 satellites, providing communication and navigation services for lunar exploration.
 keywords: Moonlight Initiative, Moonlight, ESA, lunar navigation, lunar satellite constellation, Galileo, integrated communication and navigation, European Space Agency
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:
@@ -26,7 +26,7 @@ permalink: /en/glossary/navigation/moonlight/
 
 > This article is edited from: Shangguan Yong, Zheng Peng, Zhang Hua, et al. Research on the Current Status and Technical Development of Cislunar Space Navigation[J]. Journal of Telemetry and Remote Sensing, 2026.
 >
-> This article author: 天疆说
+> This article author: Tianjiang Shuo
 >
 > This article source: https://cislunarspace.cn
 

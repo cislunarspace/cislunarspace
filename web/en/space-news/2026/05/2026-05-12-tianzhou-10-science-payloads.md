@@ -7,7 +7,7 @@ wechatShare:
   desc: "China's Tianzhou-10 cargo spacecraft carries 67 research products and 41 scientific experiments to Tiangong Space Station, covering space life science, microgravity physics, new space technologies, and astronomy & Earth science."
   image: "./figures/2026-05-12-tianzhou-10-science-payloads/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-tianzhou-10-science-payloads/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-12
 category: china

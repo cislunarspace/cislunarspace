@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Officially Ends MAVEN Mars Mission; Only Two Probes Remain in Mars Orbit"
 description: "After months of failed recovery attempts, NASA declared MAVEN's mission over on June 3, leaving Mars Odyssey and MRO as the agency's only operating Mars orbiters."
 permalink: /en/space-news/2026/06/2026-06-03-nasa-maven-mission-end/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: [nasa, science]

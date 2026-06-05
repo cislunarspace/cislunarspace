@@ -7,7 +7,7 @@ wechatShare:
   desc: "Jeff Bezos' Blue Origin unveils new employee stock plan with $9.50 strike price and cash settlement mode to counter talent drain as SpaceX targets $1.75T IPO in June 2026."
   image: "./figures/2026-05-06-blue-origin-employee-incentive-plan/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-blue-origin-employee-incentive-plan/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-06
 lastUpdated: 2026-05-07
 category: blue-origin

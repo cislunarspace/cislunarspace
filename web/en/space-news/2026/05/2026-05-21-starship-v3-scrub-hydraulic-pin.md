@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Scrubs Starship V3 Debut Launch at T-40 Seconds Over Hydraulic Pin Fault"
 description: "SpaceX called off the first Starship Version 3 launch attempt at T-minus 40 seconds when the hydraulic pin on the launch tower mechanical arm failed to retract, postponing the debut of the third-generation Starship."
 permalink: /en/space-news/2026/05/2026-05-21-starship-v3-scrub-hydraulic-pin/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-21
 lastUpdated: 2026-05-22
 category: spacex

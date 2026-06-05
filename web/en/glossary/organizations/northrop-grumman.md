@@ -2,12 +2,12 @@
 title: Northrop Grumman
 description: Introduction to Northrop Grumman's cislunar space business including Cygnus cargo spacecraft, missile warning, and lunar Gateway
 keywords: Northrop Grumman, Cygnus, missile warning, Next Gen OPIR, Lunar Gateway
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 wechatShare:
   title: Northrop Grumman
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: Northrop Grumman
@@ -24,7 +24,7 @@ permalink: /en/glossary/organizations/northrop-grumman/
 
 # Northrop Grumman
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Source: [Northrop Grumman Official Website](https://www.northropgrumman.com) and public sources
 >

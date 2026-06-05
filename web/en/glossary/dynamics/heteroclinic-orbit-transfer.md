@@ -2,7 +2,7 @@
 title: Heteroclinic Orbit Transfer (Heteroclinic Orbit Transfer)
 description: Detailed analysis of heteroclinic orbit definition, application in libration point transfer, and its position in the Interplanetary Superhighway theory
 keywords: Heteroclinic Orbit, Interplanetary Superhighway, Low-energy Transfer, Libration Point, Halo Orbit, Invariant Manifold
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

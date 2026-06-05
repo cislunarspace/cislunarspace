@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Blue Origin's New Glenn Completes First Mission"
 description: "On November 13, 2025, Blue Origin's New Glenn rocket successfully completed its first operational mission, launching NASA's EscaPADE Mars probe."
 permalink: /en/space-news/2025/11/2025-11-13-new-glenn-escapade/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-11-13
 lastUpdated: 2025-11-13
 category: commercial

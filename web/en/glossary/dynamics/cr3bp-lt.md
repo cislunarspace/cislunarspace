@@ -2,7 +2,7 @@
 title: CR3BP with Low-Thrust (CR3BP-LT)
 description: CR3BP-LT is an extension of the standard Circular Restricted Three-Body Problem model with low-thrust acceleration terms, used for studying cislunar orbit transfers under continuous low-thrust propulsion
 keywords: CR3BP-LT, low-thrust three-body problem, cislunar space, orbit optimization, low-thrust propulsion, optimal control, CR3BP
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:

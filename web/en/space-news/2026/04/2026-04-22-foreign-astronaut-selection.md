@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China's First Batch of International Astronauts Selected"
 description: "China's manned space program completed its first selection of international astronauts in April 2026, with two Pakistani candidates selected to begin training."
 permalink: /en/space-news/2026/04/2026-04-22-foreign-astronaut-selection/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: [china, iss]

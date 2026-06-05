@@ -7,7 +7,7 @@ wechatShare:
   desc: "CNSA releases international cooperation opportunity announcement for Xihe-2 solar mission, offering approximately 15kg of payload resources for international partners."
   image: "./figures/2026-04-24-xihe-2-intl-cooperation/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-xihe-2-intl-cooperation/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 category: china

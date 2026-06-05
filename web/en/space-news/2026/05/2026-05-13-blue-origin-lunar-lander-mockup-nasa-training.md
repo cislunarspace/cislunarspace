@@ -7,7 +7,7 @@ wechatShare:
   desc: "Blue Origin's full-scale Blue Moon Mark 2 crew lander mockup has been assembled at NASA's Johnson Space Center, ready for Artemis 3 astronaut training ahead of their mission."
   image: "./figures/2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-blue-origin-lunar-lander-mockup-nasa-training/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-13
 lastUpdated: 2026-05-13
 category: artemis

@@ -1,5 +1,5 @@
 ---
-title: Continuation (延拓)
+title: Continuation
 description: Detailed explanation of continuation methods in orbital mechanics — mathematical principles, arc-length continuation algorithms, and applications in cislunar orbit family exploration
 keywords: continuation, arc-length continuation, orbit family, parameter continuation, numerical continuation, cislunar space, DRO
 author: CislunarSpace

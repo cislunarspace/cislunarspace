@@ -7,7 +7,7 @@ wechatShare:
   desc: "An international research team led by the Purple Mountain Observatory of the Chinese Academy of Sciences published a landmark finding in Nature on April 29, 2026, discovering a charge-dependent pattern in cosmic ray acceleration limits using data from the Wukong dark matter particle detection satellite."
   image: "./figures/2026-05-01-wukong-cosmic-ray-mechanism/hero.png"
 permalink: /en/space-news/2026/05/2026-05-01-wukong-cosmic-ray-mechanism/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-01
 lastUpdated: 2026-05-01
 category: [china, science]

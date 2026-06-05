@@ -7,7 +7,7 @@ wechatShare:
   desc: "Samples of an artificial human embryo experiment carried to space aboard Tianzhou-10 cargo spacecraft have been installed in a China Space Station experiment module, marking the world's first such experiment in orbit."
   image: "./figures/2026-05-13-tianzhou-10-artificial-embryo/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-13-tianzhou-10-artificial-embryo/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-13
 lastUpdated: 2026-05-13
 category: china

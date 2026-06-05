@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Scientists Warn: SpaceX Starlink and Other Satellite Megaconstellations Constitute an 'Unregulated Geoengineering Experiment'"
 description: "Rapid deployment of SpaceX Starlink and other large satellite constellations is affecting Earth's atmosphere, scientists warn, calling for international regulation."
 permalink: /en/space-news/2026/05/2026-05-18-starlink-megaconstellations/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-18
 lastUpdated: 2026-05-18
 category: [policy, commercial]

@@ -2,7 +2,7 @@
 title: Shooting Method
 description: Detailed analysis of the shooting method for solving boundary value problems in orbital mechanics
 keywords: Shooting Method, Boundary Value Problem, Orbit Computation, Single Shooting, Multiple Shooting
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

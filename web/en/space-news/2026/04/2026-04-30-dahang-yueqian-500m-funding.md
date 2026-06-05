@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 30, Dahang Yuetian, China's only private rocket company focused on tower-catch recovery technology, announced the completion of a 500 million RMB funding round to accelerate development of the Yueqian-1 reusable launch vehicle."
   image: "./figures/2026-04-30-dahang-yueqian-500m-funding/hero.png"
 permalink: /en/space-news/2026/04/2026-04-30-dahang-yueqian-500m-funding/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-30
 lastUpdated: 2026-04-30
 category: [china, commercial]

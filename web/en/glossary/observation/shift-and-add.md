@@ -2,7 +2,7 @@
 title: Shift-and-Add (SAA)
 description: Shift-and-Add is an image processing technique that detects moving celestial objects by assuming target motion trajectories, shifting images accordingly, and then stacking them.
 keywords: Shift-and-Add, SAA, Image Stacking, Moving Object Detection, Cislunar Survey, Near-Earth Asteroids
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

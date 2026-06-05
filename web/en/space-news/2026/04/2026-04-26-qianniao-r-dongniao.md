@@ -7,7 +7,7 @@ wechatShare:
   desc: "Nayuta Space's Qianniao-R, China's only rocket using aerodynamic deceleration for recovery, has completed its full-scale test vehicle and control surface electrical integration tests, adopting a unique 'aerodynamic deceleration + horizontal landing' technology route with a planned maiden flight in H1 2027."
   image: "./figures/2026-04-26-qianniao-r-dongniao/qianniao-preview.jpg"
 permalink: /en/space-news/2026/04/2026-04-26-qianniao-r-dongniao/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 category: commercial

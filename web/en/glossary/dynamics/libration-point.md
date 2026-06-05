@@ -2,7 +2,7 @@
 title: Libration Point (Equilibrium Point)
 description: Detailed analysis of the definition, classification, and significance of libration points in the Circular Restricted Three-Body Problem
 keywords: Libration Point, Equilibrium Point, Lagrange Point, Three-Body Problem, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA Partners with Katalyst: Private Spacecraft Link to Boost 22-Year-Old Swift Observatory"
 description: "NASA has awarded Katalyst Space Technologies a $30 million contract to launch a private spacecraft called Link in late June, designed to rendezvous with and boost the aging Neil Gehrels Swift Observatory launched in 2004, in the first-ever commercial capture of a U.S. government satellite."
 permalink: /en/space-news/2026/05/2026-05-28-nasa-swift-link-boost-mission/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-28
 lastUpdated: 2026-05-28
 category: nasa

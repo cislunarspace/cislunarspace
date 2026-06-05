@@ -7,7 +7,7 @@ wechatShare:
   desc: "SpaceX's Falcon Heavy rocket conducted its 12th mission, successfully deploying the Viasat-3 ultra-high-throughput communications satellite to orbit on April 29, marking the vehicle's first flight in 18 months."
   image: "./figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-29-falcon-heavy-viasat-3-f3-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 category: [spacex, launch]

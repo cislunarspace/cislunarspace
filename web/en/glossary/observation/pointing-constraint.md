@@ -2,7 +2,7 @@
 title: Pointing Constraint
 description: Detailed explanation of the pointing constraint including definition, solar exclusion angle, and impact on SSA architecture design
 keywords: Pointing Constraint, solar avoidance, optical detection, space situational awareness, sensor constraint, cislunar space, exclusion angle
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

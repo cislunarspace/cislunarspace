@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Long March 8 Launches Qianfan Constellation Batch 7 with 18 Satellites"
 description: "On April 7, 2026 at 21:32 UTC, a Long March 8 rocket launched the seventh batch of 18 Qianfan LEO satellite internet constellation satellites from the Hainan Commercial Space Launch Site."
 permalink: /en/space-news/2026/04/2026-04-07-qianfan-7th-batch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-07
 lastUpdated: 2026-04-07
 category: china

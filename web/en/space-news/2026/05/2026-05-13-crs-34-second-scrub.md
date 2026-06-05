@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA, SpaceX Scrub CRS-34 Launch Again Due to Weather, Now Targeting May 15"
 description: "NASA and SpaceX called off the CRS-34 cargo mission for the second time due to persistent poor weather at Cape Canaveral, with the next launch opportunity targeted for May 15 at 6:05 p.m. EDT."
 permalink: /en/space-news/2026/05/2026-05-13-crs-34-second-scrub/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-13
 lastUpdated: 2026-05-13
 category: [spacex, iss]

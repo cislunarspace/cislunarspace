@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-23 Completes Full-System Launch Rehearsal; Crew Training Enters Final Phase"
 description: "The Shenzhou-23 crewed mission completed its full-system launch rehearsal at Jiuquan Satellite Launch Center on May 20, with the crew including Hong Kong payload specialist Lai Jiaying, set to become China's first female payload expert in space."
 permalink: /en/space-news/2026/05/2026-05-21-shenzhou-23-mission-rehearsal/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-21
 lastUpdated: 2026-05-21
 category: china

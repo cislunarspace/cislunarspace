@@ -93,7 +93,7 @@ Horseshoe orbits have the following potential applications in cislunar space mis
 - [Long Period Orbit](/en/glossary/orbits/long-period-orbit/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Triangular Libration Points](/en/glossary/dynamics/triangular-libration-points/)
+- [Triangular Libration Points](/en/glossary/orbits/triangular-libration-points/)
 
 ## References
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.

@@ -2,7 +2,7 @@
 title: Source Extraction
 description: Source extraction is the process of automatically detecting and measuring celestial sources in astronomical images, forming the foundational step in cislunar optical survey data processing
 keywords: Source Extraction, SExtractor, Centroid, Flux, Detection Threshold, Cislunar Space, Optical Survey
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

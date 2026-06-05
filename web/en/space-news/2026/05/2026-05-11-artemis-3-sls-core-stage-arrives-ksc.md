@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA announces Artemis III SLS rocket core stage has been lifted into Vehicle Assembly Building High Bay 2 at Kennedy Space Center, ahead of engine attachment and final integration for a 2027 launch"
   image: "./figures/2026-05-11-artemis-3-sls-core-stage-arrives-ksc/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-11-artemis-3-sls-core-stage-arrives-ksc/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: artemis

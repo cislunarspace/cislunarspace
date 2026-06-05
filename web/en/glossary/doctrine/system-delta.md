@@ -2,7 +2,7 @@
 title: System Delta (SYD)
 description: Detailed explanation of the U.S. Space Force System Delta (SYD) definition, capability development functions, synergy with Mission Deltas, and role in space acquisition
 keywords: System Delta, SYD, Space Systems Command, SSC, capability development, acquisition, Space Force organization
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

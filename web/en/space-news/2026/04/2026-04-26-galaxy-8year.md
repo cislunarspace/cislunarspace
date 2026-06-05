@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 24, 2026, a satellite internet technology test satellite developed by Galaxy Aerospace was successfully launched into orbit aboard a Long March 2D rocket. The same day marked the company's 8th anniversary, having become China's first commercial space unicorn with 40+ self-developed satellites launched and the nation's first LEO broadband communication test constellation operational."
   image: "./figures/2026-04-26-galaxy-8year/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-26-galaxy-8year/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 category: [china, commercial]

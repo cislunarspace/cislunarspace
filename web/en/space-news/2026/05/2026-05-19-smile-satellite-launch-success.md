@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SMILE Satellite Successfully Launched: China-Europe Space Science Cooperation Takes Flight"
 description: "The China-Europe joint SMILE satellite successfully launched via Vega C from French Guiana on May 19, marking the first-ever X-ray imaging observation of Earth's magnetosphere."
 permalink: /en/space-news/2026/05/2026-05-19-smile-satellite-launch-success/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-19
 lastUpdated: 2026-05-19
 category: china

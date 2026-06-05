@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA's Silent MAVEN Mars Probe Data Reveals Unexpected 'Zwan-Wolf Effect' in Solar Wind Interaction"
 description: "Analysis of final data from NASA's MAVEN Mars mission before it went silent in December 2025 has uncovered a new physical mechanism in how solar wind interacts with Martian atmosphere."
 permalink: /en/space-news/2026/05/2026-05-26-nasa-maven-mars-solar-wind-discovery/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-26
 lastUpdated: 2026-05-26
 category: science

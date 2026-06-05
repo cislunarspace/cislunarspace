@@ -2,7 +2,7 @@
 title: L2-centered Rotating Coordinate System (L2-centered Rotating Coordinate System, LRC)
 description: Detailed analysis of L2-centered rotating coordinate system definition, relationship with GRC, and application in L2 orbit design
 keywords: L2-centered Rotating Coordinate System, LRC, Libration Point Coordinate System, L2 Orbit, Cislunar Space
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/lrc/
 
 # L2-centered Rotating Coordinate System (L2-centered Rotating Coordinate System, LRC)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014) "Research on Autonomous Navigation and Orbit Keeping of Spacecraft on Quasi-Periodic Orbits in Cislunar Space"
 >

@@ -2,7 +2,7 @@
 title: Barycentric Synodic Coordinate System
 description: Detailed analysis of the barycentric synodic coordinate system's definition, differences from GRC, and applications in CR3BP analysis
 keywords: Barycentric Synodic Coordinate System, CR3BP, Restricted Three-Body Problem, Cislunar Space
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/barycentric-synodic/
 
 # Barycentric Synodic Coordinate System
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》
 >

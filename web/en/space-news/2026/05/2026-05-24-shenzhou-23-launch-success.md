@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China's Shenzhou 23 Successfully Launches Toward Tiangong Space Station"
 description: "China's Shenzhou 23 spacecraft carrying three astronauts, including Hong Kong's first astronaut, successfully launched on May 24, 2026, bound for a year-long mission aboard the Tiangong space station."
 permalink: /en/space-news/2026/05/2026-05-24-shenzhou-23-launch-success/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-24
 lastUpdated: 2026-05-24
 category: china

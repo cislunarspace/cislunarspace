@@ -7,7 +7,7 @@ wechatShare:
   desc: "The Tianzhou-9 cargo spacecraft successfully undocked from the Tiangong Space Station on May 6, 2026, and will conduct a controlled re-entry into Earth's atmosphere in the coming days."
   image: "./figures/2026-05-06-tianzhou-9-undocking/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-06-tianzhou-9-undocking/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-06
 lastUpdated: 2026-05-06
 category: china

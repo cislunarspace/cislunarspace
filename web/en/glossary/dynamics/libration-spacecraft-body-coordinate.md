@@ -2,7 +2,7 @@
 title: Libration Point Spacecraft Body Coordinate System (Libration Point Spacecraft Body Coordinate System)
 description: Detailed analysis of libration point spacecraft body coordinate system definition, coordinate axis directions, and relationship with sensor measurement coordinate system
 keywords: Libration Point Spacecraft Body Coordinate System, Body Coordinate System, Principal Axes of Inertia, Roll Pitch Yaw, Sensor Installation
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/dynamics/libration-spacecraft-body-coordinate/
 
 # Libration Point Spacecraft Body Coordinate System (Libration Point Spacecraft Body Coordinate System)
 
-> Author: 天疆说
+> Author: Tianjiang Shuo
 >
 > Reference: 钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》
 >

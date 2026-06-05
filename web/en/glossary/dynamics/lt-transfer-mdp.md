@@ -2,7 +2,7 @@
 title: Low-Thrust Transfer MDP Formulation
 description: Formulates the cislunar low-thrust orbit transfer problem as a finite-horizon Markov Decision Process for autonomous trajectory optimization under the reinforcement learning framework
 keywords: MDP, Markov Decision Process, low-thrust trajectory optimization, reinforcement learning, orbit design, cislunar space, state space, action space, reward function
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:

@@ -2,7 +2,7 @@
 title: Passive Hydrogen Maser (PHM)
 description: Detailed analysis of passive hydrogen maser working principles, frequency stability specifications, and applications in space-based gravitational redshift measurements
 keywords: Passive Hydrogen Maser, PHM, Hydrogen Maser, Atomic Clock, Frequency Standard, Time-Frequency, Frequency Stability, Allan Deviation
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

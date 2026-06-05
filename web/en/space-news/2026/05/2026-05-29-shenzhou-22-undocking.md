@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-22 Undocks from Tiangong Space Station, Shenzhou-21 Crew Set for Return"
 description: "On May 29, 2026, the Shenzhou-22 crewed spacecraft successfully undocked from the Tiangong Space Station, concluding the Shenzhou-21 crew's nearly 7-month mission. The crew will return to Earth at the Dongfeng Landing Area."
 permalink: /en/space-news/2026/05/2026-05-29-shenzhou-22-undocking/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-29
 lastUpdated: 2026-05-29
 category: china

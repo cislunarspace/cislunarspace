@@ -2,7 +2,7 @@
 title: Low-Energy Transfer Orbits for Cislunar Space
 description: Representative works on low-energy transfer orbit design and applications for cislunar missions
 keywords: cislunar low-energy transfer, Halo orbits, Lissajous orbits, orbit design
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-03-07
 lastUpdated: 2026-04-27
 wechatShare:
@@ -11,7 +11,7 @@ wechatShare:
   image: "/logo.png"
 ---
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 

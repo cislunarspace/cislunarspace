@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-21 Crew Arrives in Beijing: 210-Day Mission Sets New Chinese Spaceflight Record"
 description: "On May 30, 2026, the Shenzhou-21 crew (Zhang Lu, Wu Fei, Zhang Hongzhang) arrived in Beijing by aircraft after their 210-day mission aboard the Tiangong Space Station, setting a new record for the longest single-crew duration in Chinese spaceflight history."
 permalink: /en/space-news/2026/06/2026-06-01-shenzhou-21-crew-beijing-arrival/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-01
 lastUpdated: 2026-06-01
 category: china

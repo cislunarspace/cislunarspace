@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA released new James Webb Space Telescope imagery on May 11, 2026, showing how massive star clusters influence their host galaxies' evolution through feedback mechanisms."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-11-jwst-star-clusters-galaxies/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-11
 lastUpdated: 2026-05-11
 category: science

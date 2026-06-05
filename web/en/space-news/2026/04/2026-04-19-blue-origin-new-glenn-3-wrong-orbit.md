@@ -7,7 +7,7 @@ wechatShare:
   desc: "Blue Origin's third New Glenn rocket successfully recovers a reused booster, but the payload falls short of its intended orbit"
   image: "./figures/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-19
 lastUpdated: 2026-04-19
 category: blue-origin

@@ -2,7 +2,7 @@
 title: Commander, Space Forces (COMSPACEFOR)
 description: Detailed explanation of U.S. Space Force COMSPACEFOR definition, command responsibilities, appointment mechanisms, and core leadership role within the Space Mission Task Force
 keywords: COMSPACEFOR, Commander Space Forces, SMTF, command and control, joint operations, space operations command
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

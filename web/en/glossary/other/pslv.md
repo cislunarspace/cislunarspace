@@ -2,7 +2,7 @@
 title: Polar Satellite Launch Vehicle (PSLV)
 description: PSLV is a primary launch vehicle developed by India's ISRO, capable of placing satellites into low Earth orbit, polar orbit, geostationary transfer orbit, and lunar orbit
 keywords: PSLV, Polar Satellite Launch Vehicle, Indian launch vehicle, ISRO, satellite launch, multi-satellite launch
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

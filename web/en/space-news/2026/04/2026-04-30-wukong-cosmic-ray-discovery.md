@@ -7,7 +7,7 @@ wechatShare:
   desc: "China's DAMPE (Wukong) dark matter particle detection satellite has directly confirmed for the first time, using 9 years of orbital observation data, that cosmic rays exhibit a 'bump' structure with particle counts sharply decreasing near a certain high-energy threshold, with the threshold value proportional to particle charge."
   image: "./figures/2026-04-30-wukong-cosmic-ray-discovery/hero.png"
 permalink: /en/space-news/2026/04/2026-04-30-wukong-cosmic-ray-discovery/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-30
 lastUpdated: 2026-04-30
 category: science

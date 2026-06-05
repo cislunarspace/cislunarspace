@@ -1,5 +1,5 @@
 ---
-title: Powered Lunar Flyby / PLF (有动力月球借力)
+title: Powered Lunar Flyby / PLF
 description: Detailed explanation of powered lunar flyby definition, three-burn transfer architecture, four transfer trajectory types, and applications in LEO-to-DRO transfers
 keywords: Powered Lunar Flyby, PLF, perilune impulse, three-burn transfer, DRO insertion, Earth-Moon transfer
 author: CislunarSpace

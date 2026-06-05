@@ -7,7 +7,7 @@ wechatShare:
   desc: "The Multispectral Imaging Carbon Observer (MUSICO), developed by HKUST, becomes Hong Kong's first scientific payload on China's Tiangong space station, designed to monitor global CO2 and methane emissions."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-14-tianyun-camera-hongkong-musico/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-14
 category: commercial

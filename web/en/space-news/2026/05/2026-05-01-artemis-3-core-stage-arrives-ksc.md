@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA's SLS rocket Artemis III Core Stage transported in two stages from Michoud to Kennedy Space Center, marking the final sprint toward US crewed lunar return."
   image: "./figures/2026-05-01-artemis-3-core-stage-arrives-ksc/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-artemis-3-core-stage-arrives-ksc/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-01
 lastUpdated: 2026-05-01
 category: artemis

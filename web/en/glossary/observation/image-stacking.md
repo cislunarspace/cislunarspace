@@ -2,7 +2,7 @@
 title: Image Stacking
 description: Image stacking is an image processing technique that combines multiple frames to enhance signal-to-noise ratio and improve detection capabilities for faint celestial objects.
 keywords: Image Stacking, Signal-to-Noise Ratio, SNR, Astronomical Image Processing, Cislunar Observation, Faint Object Detection
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

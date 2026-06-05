@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA's Asteroid-Bound Psyche Probe Captures Mars 'Eclipse' View During Flyby"
 description: "NASA's Psyche spacecraft captured a rare image of Mars appearing to eclipse the Sun during a flyby on May 14, 2026 — the first time a Mars eclipse has been photographed from the perspective of an asteroid-bound probe."
 permalink: /en/space-news/2026/05/2026-05-14-psyche-mars-eclipse-image/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-14
 category: science

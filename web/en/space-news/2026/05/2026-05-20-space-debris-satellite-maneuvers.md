@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Space Debris Surge Threatens Climate Satellites as Avoidance Maneuvers Accelerate"
 description: "ESA tracking data reveals 180% increase in orbital debris since 2005, with satellites forced to burn precious fuel and lose scientific data to avoid collisions. Critical climate satellite Aqua may be decommissioned this fall."
 permalink: /en/space-news/2026/05/2026-05-20-space-debris-satellite-maneuvers/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-20
 lastUpdated: 2026-05-20
 category: science

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX Starship V3 Completes Successful First Flight as Flight 12 Mission Reaches Indian Ocean"
 description: "SpaceX successfully launched Starship Version 3 for the first time on May 22, with the Super Heavy booster and Starship upper stage splashing down in the Gulf of Mexico and Indian Ocean respectively."
 permalink: /en/space-news/2026/05/2026-05-23-starship-v3-flight-12-success/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-23
 lastUpdated: 2026-05-23
 category: spacex

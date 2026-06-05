@@ -7,7 +7,7 @@ wechatShare:
   desc: "Commander Zhang Lu surpasses 500 cumulative days in orbit as Shenzhou-23 launch approaches, while Wenchang commercial launch site expands and SpaceX Falcon Heavy delivers ViaSat-3 F3 satellite."
   image: "/logo.png"
 permalink: /en/space-news/2026/05/2026-05-03-shenzhou-23-launch-preparations/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
 category: [china, human-spaceflight, commercial-space]

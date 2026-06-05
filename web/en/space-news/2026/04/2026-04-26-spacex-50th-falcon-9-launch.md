@@ -7,7 +7,7 @@ wechatShare:
   desc: "SpaceX successfully completed its 50th Falcon 9 launch of 2026 on April 26, deploying 25 Starlink V2 Mini satellites from Vandenberg Space Force Base and marking the 603rd booster recovery in company history."
   image: "./figures/2026-04-26-spacex-50th-falcon-9-launch/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-26-spacex-50th-falcon-9-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 category: [spacex, launch]

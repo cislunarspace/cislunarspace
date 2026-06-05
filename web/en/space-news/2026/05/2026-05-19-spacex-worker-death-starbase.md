@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Worker Dies at SpaceX's Starbase Ahead of Starship V3 Megarocket Launch"
 description: "A worker died at SpaceX's Starbase site in South Texas early Friday (May 15), prompting an OSHA investigation, as the company prepared for the debut launch of its Starship V3 megarocket."
 permalink: /en/space-news/2026/05/2026-05-19-spacex-worker-death-starbase/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-19
 lastUpdated: 2026-05-19
 category: spacex

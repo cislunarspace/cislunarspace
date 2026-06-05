@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "JWST Observations Reveal Nereid's True Origin: Not from Kuiper Belt, But Neptune's Original Moon"
 description: "JWST observations combined with dynamical simulations reveal that Neptune's mysterious moon Nereid is not a captured Kuiper Belt object, but an original satellite that survived Triton's chaotic capture event."
 permalink: /en/space-news/2026/05/2026-05-20-neptune-nereid-jwst-study/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-20
 lastUpdated: 2026-05-20
 category: science

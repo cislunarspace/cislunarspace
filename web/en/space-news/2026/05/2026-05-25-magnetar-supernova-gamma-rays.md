@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Scientists Detect Gamma-Rays from Superluminous Supernova for First Time, Powered by Magnetar"
 description: "Astronomers have for the first time definitively detected gamma-rays from a superluminous supernova, SN 2017egm, confirming that its extraordinary luminosity comes from a newborn magnetar powering a wind nebula."
 permalink: /en/space-news/2026/05/2026-05-25-magnetar-supernova-gamma-rays/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-25
 lastUpdated: 2026-05-25
 category: science

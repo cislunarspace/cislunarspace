@@ -7,7 +7,7 @@ wechatShare:
   desc: "Star Catcher Industries has raised $65 million in an oversubscribed Series A funding round to develop the world's first in-space power grid, beaming solar energy to client satellites via laser."
   image: "./figures/2026-05-12-star-catcher-series-a/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-12-star-catcher-series-a/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-12
 lastUpdated: 2026-05-12
 category: commercial

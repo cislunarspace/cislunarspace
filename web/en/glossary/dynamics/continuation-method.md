@@ -2,7 +2,7 @@
 title: Continuation Method (Parameter Continuation)
 description: Detailed analysis of the continuation method for computing orbit families in orbital mechanics
 keywords: Continuation Method, Parameter Continuation, Orbit Family, Orbit Continuation, Bifurcation
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

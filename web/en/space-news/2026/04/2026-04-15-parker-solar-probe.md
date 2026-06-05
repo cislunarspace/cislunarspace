@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "NASA's Parker Solar Probe Finds Surprises in Solar Explosion"
 description: "NASA's Parker Solar Probe captured unprecedented data on magnetic reconnection during a 2022 solar flyby, revealing that protons and heavy ions accelerate differently—contrary to theoretical predictions."
 permalink: /en/space-news/2026/04/2026-04-15-parker-solar-probe/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-15
 lastUpdated: 2026-04-15
 category: science

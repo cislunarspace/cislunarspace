@@ -7,7 +7,7 @@ wechatShare:
   desc: "Blue Origin's New Glenn heavy-lift rocket failed during the BlueBird Block 2 #2 mission on April 19, marking the second major setback for the rocket."
   image: "./figures/2026-04-22-new-glenn-failure/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-22-new-glenn-failure/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-22
 lastUpdated: 2026-04-22
 category: [commercial, launch]

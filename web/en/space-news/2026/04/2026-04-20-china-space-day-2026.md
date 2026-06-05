@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China Space Day 2026 Activities Announced"
 description: "The 11th China Space Day on April 24, 2026 coincides with the 70th anniversary of China's space industry and the 10th anniversary of the Space Day. The main event will be held in Chengdu, Sichuan, with Brazil as the guest of honor."
 permalink: /en/space-news/2026/04/2026-04-20-china-space-day-2026/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-20
 lastUpdated: 2026-04-20
 category: china

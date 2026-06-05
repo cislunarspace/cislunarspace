@@ -7,7 +7,7 @@ wechatShare:
   desc: "After a weather-related scrub, SpaceX successfully launched the ViaSat-3 Flight 3 communications satellite on a Falcon Heavy rocket on April 28, marking the Heavy's first flight in 18 months."
   image: "./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-27-spacex-viasat-3-scrub/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 category: [spacex, launch]

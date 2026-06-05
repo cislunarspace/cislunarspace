@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 28, 2026, the Long March 10-Yi carrier rocket successfully made its maiden flight from Wenchang Space Launch Center, Hainan, simultaneously validating the world's first marine flexible net capture and recovery technology."
   image: "./figures/2026-05-01-changzheng-10-yi-maiden-launch/hero.png"
 permalink: /en/space-news/2026/05/2026-05-01-changzheng-10-yi-maiden-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-28
 lastUpdated: 2026-04-30
 category: [china, commercial]

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Ultrastable Lasers in Moon's Permanently Shadowed Craters Could Enable Lunar GPS System"
 description: "NIST researchers propose placing ultrastable lasers inside the moon's permanently shadowed craters near the south pole, leveraging extreme cold and vacuum conditions to build a GPS-like navigation network for future Artemis astronauts and spacecraft."
 permalink: /en/space-news/2026/05/2026-05-19-lunar-gps-moon-craters/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-19
 lastUpdated: 2026-05-19
 category: science

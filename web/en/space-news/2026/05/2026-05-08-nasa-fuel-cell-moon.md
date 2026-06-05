@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA Glenn Research Center successfully tested a regenerative fuel cell system that converts hydrogen and oxygen into electricity and can be recharged by splitting water, designed for long-term Artemis lunar missions."
   image: "./figures/2026-05-08-nasa-fuel-cell-moon/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-08-nasa-fuel-cell-moon/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-08
 lastUpdated: 2026-05-08
 category: nasa

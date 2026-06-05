@@ -2,12 +2,12 @@
 title: Booz Allen Hamilton
 description: Introduction to Booz Allen Hamilton's cislunar space situational awareness, navigation support, and Space Force contract business
 keywords: Booz Allen Hamilton, BAH, Space Force, situational awareness, SSA, navigation, cislunar space
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 wechatShare:
   title: Booz Allen Hamilton
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: Booz Allen Hamilton
@@ -24,7 +24,7 @@ permalink: /en/glossary/organizations/booz-allen-hamilton/
 
 # Booz Allen Hamilton
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Source: [Booz Allen Hamilton Official Website](https://www.boozallen.com) and public sources
 >

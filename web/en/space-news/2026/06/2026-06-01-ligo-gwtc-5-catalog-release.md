@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "LIGO/Virgo/KAGRA Release GWTC-5 Catalog: 161 New Black Hole Merger Signals, Clearest Verification Yet of Hawking's Area Theorem"
 description: "On 26 May 2026, the LIGO-Virgo-KAGRA (LVK) Collaboration released the Gravitational-Wave Transient Catalog 5.0 (GWTC-5), adding 161 new black hole merger events detected between April 2024 and January 2025 and bringing the total catalog to 390 events. The release also reports three landmark results: the most precisely localized gravitational-wave source (GW240615, 6 sq. deg.), the clearest gravitational-wave signal ever recorded (GW250114, SNR 76.9), and the most stringent verification to date of Hawking's 1971 black hole area theorem at 99.999% confidence."
 permalink: /en/space-news/2026/06/2026-06-01-ligo-gwtc-5-catalog-release/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-01
 lastUpdated: 2026-06-01
 category: science

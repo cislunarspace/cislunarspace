@@ -2,7 +2,7 @@
 title: Resilient/Disaggregated Architecture
 description: Resilient/Disaggregated Architecture is a system design approach that enables space systems to deter, defeat, absorb, and quickly recover from adversary action through distributed deployment and redundancy.
 keywords: Resilient Architecture, Disaggregated Architecture, space resilience, redundancy, first-mover advantage, architecture robustness
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/resilient-architecture/
 
 # Resilient/Disaggregated Architecture
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 

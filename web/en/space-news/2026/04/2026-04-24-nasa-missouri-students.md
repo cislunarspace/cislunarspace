@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA announces that astronauts Jessica Meir and Jack Hathaway will answer pre-recorded STEM questions from Missouri students during their space station mission."
   image: "./figures/2026-04-24-nasa-missouri-students/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-24-nasa-missouri-students/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 category: nasa

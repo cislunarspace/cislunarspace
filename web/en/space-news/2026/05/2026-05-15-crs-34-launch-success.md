@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "SpaceX CRS-34 Cargo Mission Launches Successfully, 6,500 Pounds Bound for ISS"
 description: "SpaceX successfully launched the CRS-34 cargo mission on May 15, delivering approximately 6,500 pounds of science and supplies to the International Space Station after two prior weather scrubs."
 permalink: /en/space-news/2026/05/2026-05-15-crs-34-launch-success/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-15
 lastUpdated: 2026-05-16
 category: [spacex, iss, launch]

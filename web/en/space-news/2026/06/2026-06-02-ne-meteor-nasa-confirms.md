@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Northeastern US boom on May 30 was a meteor explosion equal to 300 tons of TNT, NASA confirms"
 description: "A bolide that exploded about 40 miles above the Massachusetts-New Hampshire border on May 30 at 2:06 p.m. EDT released energy equivalent to roughly 300 tons of TNT. GOES-19's Geostationary Lightning Mapper recorded the flash, and radar networks tracked the fragments as they fell into Cape Cod Bay."
 permalink: /en/space-news/2026/06/2026-06-02-ne-meteor-nasa-confirms/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-02
 lastUpdated: 2026-06-03
 category: science

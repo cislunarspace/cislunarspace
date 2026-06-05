@@ -1,5 +1,5 @@
 ---
-title: Lyapunov Orbit (Lyapunov 轨道)
+title: Lyapunov Orbit
 description: Detailed explanation of Lyapunov orbit definition, planar periodic characteristics, relationship with Halo orbits, and fundamental role in libration point dynamics research
 keywords: Lyapunov Orbit, libration point, planar periodic orbit, Halo orbit, three-body problem, orbital dynamics
 author: CislunarSpace

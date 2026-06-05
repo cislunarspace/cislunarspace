@@ -2,7 +2,7 @@
 title: Initial Value Optimization
 description: Detailed analysis of using differential evolution for DRO initial value search and orbit computation
 keywords: Initial Value Optimization, Differential Evolution, DRO, Orbit Computation, Initial Guess
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Rocket Lab CSD Satellite Dispensers Successfully Deploy CubeSats on Artemis II"
 description: "Rocket Lab's Canisterized Satellite Dispensers successfully deployed 4 CubeSats on NASA's Artemis II mission, including Korea's KASA K-Rad Cube, operating at altitudes up to 40,000 km."
 permalink: /en/space-news/2026/04/2026-04-13-rocket-lab-csd-artemis-ii/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-13
 lastUpdated: 2026-04-13
 category: [commercial, artemis]

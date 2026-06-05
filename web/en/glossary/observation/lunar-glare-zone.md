@@ -2,7 +2,7 @@
 title: Lunar Glare Zone
 description: Detailed explanation of the lunar glare zone (cone of shame) including definition, cause, extent, and impact on cislunar optical observation
 keywords: Lunar Glare Zone, Cone of Shame, Moon glare, optical observation, signal-to-noise ratio, cislunar space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

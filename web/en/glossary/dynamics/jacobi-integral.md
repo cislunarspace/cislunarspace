@@ -2,7 +2,7 @@
 title: Jacobi Constant (Jacobi Integral)
 description: Detailed analysis of the definition, formula, and physical significance of the Jacobi constant in the Circular Restricted Three-Body Problem
 keywords: Jacobi Constant, Jacobi Integral, Zero-Velocity Surface, Three-Body Problem, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

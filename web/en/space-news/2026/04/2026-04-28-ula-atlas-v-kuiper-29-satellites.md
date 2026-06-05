@@ -7,7 +7,7 @@ wechatShare:
   desc: "United Launch Alliance's Atlas V rocket successfully placed 29 Amazon Project Kuiper internet satellites into low Earth orbit on April 27, marking another milestone in the Kuiper constellation deployment."
   image: "./figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-28-ula-atlas-v-kuiper-29-satellites/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-28
 lastUpdated: 2026-04-28
 category: [launch, commercial]

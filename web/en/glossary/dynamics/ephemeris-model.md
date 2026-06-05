@@ -2,7 +2,7 @@
 title: Ephemeris Model
 description: A detailed explanation of the ephemeris model definition, N-body dynamics equations, its application in cislunar orbit design, and its relationship with simplified models like CRTBP
 keywords: Ephemeris Model, N-body Problem, JPL Ephemeris, DE440, Cislunar Dynamics, High-Precision Orbit Design
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-04
 lastUpdated: 2026-04-26
 wechatShare:

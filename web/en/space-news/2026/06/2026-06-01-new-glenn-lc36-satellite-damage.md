@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Viewing the New Glenn Explosion from Space: Planet Labs Imagery Shows LC-36 Pad Scorched, Bezos Tours Site with NASA Chief Isaacman and Pledges 'Gradatim Ferociter'"
 description: "On June 1, 2026, Space.com reported that Planet Labs' SkySat-C9 satellite captured high-resolution imagery of Cape Canaveral's LC-36 launch complex on May 31 (processed by Spacefromspace), clearly showing the scorching damage left by the May 28 New Glenn NG-4 static-fire explosion. Blue Origin CEO Dave Limp posted on X on May 31 that the company 'will start clearing the pad soon and have a good rebuild plan in place'; founder Jeff Bezos and NASA Administrator Jared Isaacman toured LC-36 together on May 30, after which Bezos wrote on X the Blue Origin rallying cry 'Gradatim Ferociter' alongside a pledge: 'We will get back to flight, and we will get to the moon.'"
 permalink: /en/space-news/2026/06/2026-06-01-new-glenn-lc36-satellite-damage/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-01
 lastUpdated: 2026-06-01
 category: blue-origin

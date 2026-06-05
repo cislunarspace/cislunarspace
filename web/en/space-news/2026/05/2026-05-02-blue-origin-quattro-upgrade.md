@@ -7,7 +7,7 @@ wechatShare:
   desc: "Blue Origin announced on May 1, 2026 its Quattro second-stage upgrade program for the New Glenn rocket, upgrading from the current 7x2 to a 9 BE-4 first stage + 4 BE-3U second stage 9x4 super heavy configuration, with first flight expected as early as next year."
   image: "./figures/2026-05-02-blue-origin-quattro-upgrade/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-02-blue-origin-quattro-upgrade/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-02
 lastUpdated: 2026-05-02
 category: blue-origin

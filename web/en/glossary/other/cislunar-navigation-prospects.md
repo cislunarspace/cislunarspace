@@ -2,7 +2,7 @@
 title: Cislunar Navigation Prospects
 description: Analysis of the evolution of cislunar navigation technology from ground-based systems to multi-constellation networks and multi-source fusion architectures, as well as international cooperation and deep space extension pathways
 keywords: cislunar navigation, development prospects, multi-constellation coordination, multi-source fusion, international cooperation, deep space extension, high-precision autonomous navigation, AI-based navigation
-author: Tianjiang Talk
+author: Tianjiang Shuo
 date: 2026-04-25
 lastUpdated: 2026-04-26
 wechatShare:

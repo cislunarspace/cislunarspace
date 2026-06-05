@@ -2,7 +2,7 @@
 title: Actuator Error
 description: Detailed analysis of actuator error sources, types, and their impact on orbit control
 keywords: Actuator Error, Thrust Deviation, Orbit Control, Propulsion System, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

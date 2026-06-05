@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Vast Unveils 15 kW Commercial Satellite Bus, First 10 to Launch in Late 2027"
 description: "Vast announces a new line of high-power commercial satellites based on its Haven Demo space station technology, with 4 confirmed orders and an option for 200 more, first batch launching in late 2027."
 permalink: /en/space-news/2026/05/2026-05-19-vast-satellites/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-19
 lastUpdated: 2026-05-19
 category: commercial

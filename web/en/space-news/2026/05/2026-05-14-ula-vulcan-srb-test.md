@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "ULA Completes Critical Solid Rocket Booster Test, Advancing Vulcan Return-to-Flight"
 description: "ULA successfully conducted a static fire test of the GEM 63XL solid rocket booster on April 15, validating nozzle design improvements and advanced propellant technology as part of the Vulcan rocket's anomaly investigation following the USSF-87 mission in February 2026."
 permalink: /en/space-news/2026/05/2026-05-14-ula-vulcan-srb-test/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-16
 category: commercial

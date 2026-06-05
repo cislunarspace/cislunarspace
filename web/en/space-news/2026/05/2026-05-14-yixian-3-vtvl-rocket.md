@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Yixian-3 VTVL Rocket Test Success: China's First University-Led Symmetric Reusable Liquid Rocket"
 description: "Sun Yat-sen University successfully completed a low-altitude Vertical Takeoff and Vertical Landing (VTVL) test of the Yixian-3 reusable liquid rocket on May 14, 2026 in Yangjiang, Guangdong. The 4.5-meter, 1-ton rocket completed a 30-second flight sequence, marking China's first university-led symmetric reusable liquid rocket."
 permalink: /en/space-news/2026/05/2026-05-14-yixian-3-vtvl-rocket/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-14
 lastUpdated: 2026-05-16
 category: china

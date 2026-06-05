@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou-22 Return Capsule Lands Safely, Shenzhou-21 Crew Returns After 7 Months in Space"
 description: "On May 29, 2026 at 20:11 BJT (12:11 UTC), the Shenzhou-22 return capsule landed successfully at the Dongfeng landing site in Inner Mongolia, bringing home the Shenzhou-21 crew (Zhang Lu, Wu Fei, Zhang Hongzhang) after nearly 7 months aboard China's Tiangong Space Station."
 permalink: /en/space-news/2026/05/2026-05-29-shenzhou-22-successful-landing/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-29
 lastUpdated: 2026-05-29
 category: china

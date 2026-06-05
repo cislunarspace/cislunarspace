@@ -82,7 +82,7 @@ Butterfly orbits have the following potential applications in cislunar space mis
 - [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
 - [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)
 - [Axial Orbit](/en/glossary/orbits/axial-orbit/)
-- [Heteroclinic Connection](/en/glossary/dynamics/heteroclinic-connection/)
+- [Heteroclinic Connection](/en/glossary/orbits/heteroclinic-connection/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References

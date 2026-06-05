@@ -7,7 +7,7 @@ wechatShare:
   desc: "NASA Artemis II astronauts captured a breathtaking image of Earth setting behind the Moon on April 6, 2026, from the Orion spacecraft. NASA Science described it as 'one of the most spectacular views of our home planet.'"
   image: "./figures/2026-04-26-artemis-ii-earthset/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-26-artemis-ii-earthset/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-26
 lastUpdated: 2026-04-26
 category: nasa

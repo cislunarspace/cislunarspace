@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "China Manned Space Program Officially Releases Tianzhou 10 Mission Identifier"
 description: "The China Manned Space Engineering Office officially released the mission identifier for Tianzhou 10, featuring a circular design symbolizing harmony between heaven and Earth, with golden gradient lines representing aerospace power."
 permalink: /en/space-news/2026/04/2026-04-07-tianzhou-10-identifier/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-07
 lastUpdated: 2026-04-07
 category: china

@@ -7,7 +7,7 @@ wechatShare:
   desc: "A NASA/JPL magnetoplasmadynamic thruster using lithium metal vapor propellant achieved 120 kilowatts in first tests — the first time the US has operated electric propulsion at such power levels."
   image: "./figures/2026-05-05-nasa-mpd-ion-thruster/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-05-nasa-mpd-ion-thruster/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-05
 lastUpdated: 2026-05-05
 category: science

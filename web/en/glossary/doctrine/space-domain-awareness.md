@@ -2,7 +2,7 @@
 title: Space Domain Awareness (SDA)
 description: Space Domain Awareness is the comprehensive capability to monitor, assess, and understand the space operating environment through surveillance, reconnaissance, and intelligence generation.
 keywords: Space Domain Awareness, SDA, space situational awareness, surveillance, reconnaissance, intelligence
-author: 天疆说
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
@@ -24,7 +24,7 @@ permalink: /en/glossary/doctrine/space-domain-awareness/
 
 # Space Domain Awareness (SDA)
 
-> Author: [天疆说](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 

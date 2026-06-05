@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Russia Successfully Launches Angara-1.2 Rocket with Military Satellite"
 description: "On April 23, 2026 at 11:29 Moscow Time, Russia's Angara-1.2 light rocket successfully lifted off from the Plesetsk Cosmodrome carrying a military satellite, which entered its designated orbit."
 permalink: /en/space-news/2026/04/2026-04-23-angara-1-2-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-23
 category: launch

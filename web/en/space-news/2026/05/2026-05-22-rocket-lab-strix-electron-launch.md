@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Rocket Lab Electron Launches Viva La StriX Mission, Deploying 9th Synspective SAR Satellite"
 description: "Rocket Lab's Electron rocket delivered the 9th StriX synthetic aperture radar satellite to sun-synchronous orbit for Japanese operator Synspective, marking the 9th launch under a 10-launch contract."
 permalink: /en/space-news/2026/05/2026-05-22-rocket-lab-strix-electron-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-22
 lastUpdated: 2026-05-22
 category: rocket-lab

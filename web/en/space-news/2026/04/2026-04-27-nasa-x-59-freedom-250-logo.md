@@ -7,7 +7,7 @@ wechatShare:
   desc: "On April 27, 2026, NASA announced that its X-59 quiet supersonic technology aircraft has received a special 'Freedom 250' livery to celebrate America's 250th anniversary of independence. The X-59 is the centerpiece of NASA's Quesst project, aiming to reduce the sonic boom from commercial supersonic flight to acceptable levels."
   image: "./figures/2026-04-27-nasa-x-59-freedom-250-logo/hero.webp"
 permalink: /en/space-news/2026/04/2026-04-27-nasa-x-59-freedom-250-logo/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27
 category: nasa

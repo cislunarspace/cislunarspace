@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Starlink 10-43 scrubbed for weather: SpaceX Cape launch slips to June 4 window"
 description: "At 7:24 a.m. EDT (11:24 UTC) on June 3, 2026, SpaceX scrubbed the Falcon 9 launch of 29 Starlink V2 Mini Optimized satellites from Cape Canaveral SFS SLC-40 as a south-moving cool front brought scattered marine showers and mid-level cloud decks into the window. The 45th Weather Squadron had pegged the chance of acceptable weather at only 30%. The next attempt opens 4:00 a.m. EDT (08:00 UTC) on June 4; booster B1090 will make its 12th flight and target the drone ship A Shortfall of Gravitas, which would log its 153rd landing and SpaceX's 619th booster recovery overall."
 permalink: /en/space-news/2026/06/2026-06-03-starlink-10-43-scrub/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-06-03
 lastUpdated: 2026-06-03
 category: [spacex, launch]

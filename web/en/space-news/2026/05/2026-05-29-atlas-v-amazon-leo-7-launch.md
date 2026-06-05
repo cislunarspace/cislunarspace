@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Atlas V Launches 29 Amazon LEO Satellites, Ties Heaviest Payload Record"
 description: "ULA Atlas V 551 launches seventh batch of Amazon LEO broadband satellites from Cape Canaveral LC-41 at 7:53 p.m. EDT (2353 GMT), payload weighing approximately 18 metric tons"
 permalink: /en/space-news/2026/05/2026-05-29-atlas-v-amazon-leo-7-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-29
 lastUpdated: 2026-05-30
 category: commercial

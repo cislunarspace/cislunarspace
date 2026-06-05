@@ -7,7 +7,7 @@ wechatShare:
   desc: "On May 1, 2026, Roscosmos announced that Russia's next-generation Soyuz-5 medium-lift launch vehicle conducted its inaugural launch from the Baiterek complex at the Baikonur Cosmodrome in Kazakhstan, with the test flight proceeding as planned."
   image: "./figures/2026-05-01-soyuz-5-maiden-launch/hero.jpg"
 permalink: /en/space-news/2026/05/2026-05-01-soyuz-5-maiden-launch/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-01
 lastUpdated: 2026-05-01
 category: launch

@@ -2,7 +2,7 @@
 title: Space News · August 2025
 description: August 2025 space news article index.
 permalink: /en/space-news/2025/08/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2025-08-31
 lastUpdated: 2025-08-31
 wechatShare:

@@ -2,7 +2,7 @@
 title: Navigation Error
 description: Detailed analysis of navigation error sources, types, and their impact on orbit control
 keywords: Navigation Error, Orbit Determination, Measurement Error, Orbit Control, Cislunar Space
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:

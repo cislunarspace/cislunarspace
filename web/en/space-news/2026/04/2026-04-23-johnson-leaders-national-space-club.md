@@ -7,7 +7,7 @@ wechatShare:
   desc: "Two outstanding leaders from NASA's Johnson Space Center were recognized by the National Space Club & Foundation for their contributions to human spaceflight."
   image: "./figures/2026-04-23-johnson-leaders-national-space-club/hero.jpg"
 permalink: /en/space-news/2026/04/2026-04-23-johnson-leaders-national-space-club/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-04-23
 lastUpdated: 2026-04-23
 category: nasa

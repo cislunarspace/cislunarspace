@@ -3,7 +3,7 @@ layout: SpaceNewsArticle
 title: "Shenzhou 23 Spaceship-Rocket Assembly Transferred to Launch Area Ahead of Imminent Launch"
 description: "On May 16, 2026 (Beijing Time), the Shenzhou 23 crew spacecraft and Long March 2F Y23 carrier rocket assembly were transferred to the launch area at the Jiuquan Satellite Launch Center, with launch planned in the coming days."
 permalink: /en/space-news/2026/05/2026-05-16-shenzhou-23-rocket-transfer/
-author: Tianjiangshuo
+author: Tianjiang Shuo
 date: 2026-05-16
 lastUpdated: 2026-05-16
 category: china

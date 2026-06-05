@@ -2,7 +2,7 @@
 title: Orbit Keeping (Station-Keeping)
 description: Detailed analysis of orbit keeping methods, strategies, and their application to DRO missions
 keywords: Orbit Keeping, Station-Keeping, Control Strategy, Impulse Thrust, Continuous Thrust, DRO
-author: Tianjiang Says
+author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
