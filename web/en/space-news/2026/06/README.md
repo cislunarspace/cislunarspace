@@ -14,6 +14,7 @@ lastUpdated: 2026-06-05
 | Date | Title |
 |------|-------|
 | 6-05 | [Long March 8 launches 12th Qianfan batch from Hainan commercial spaceport](./2026-06-05-qianfan-12-batch-long-march-8/) |
+| 6-05 | [JWST Detects Methane on Interstellar Comet 3I/ATLAS for the First Time](./2026-06-05-3i-atlas-methane-jwst/) |
 | 6-04 | [Starlink 10-43 Completes Cape Canaveral Make-up Launch Outside 24-Hour Window: SpaceX Logs 619th Booster Recovery](./2026-06-04-starlink-10-43-cape-canaveral-success/) |
 | 6-04 | [3I/ATLAS is not an alien spacecraft: SETI technosignature search comes up empty](./2026-06-04-3i-atlas-seti-no-alien-signals/) |
 | 6-04 | [Long March 6A Modified Launches 18 Qianfan Polar-11 Satellites, Marking 648th Long March Flight](./2026-06-04-qianfan-11-batch-long-march-6a/) |

@@ -18,6 +18,7 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 6-05 | [长征八号在海南成功发射千帆极轨 12 组卫星 海南商发首次承担千帆组网任务](./2026-06-05-qianfan-12-batch-long-march-8/) |
+| 6-05 | [3I/ATLAS 经近日点后甲烷被首次探测：JWST 揭示星际彗星的化学指纹](./2026-06-05-3i-atlas-methane-jwst/) |
 | 6-04 | [Starlink 10-43 在卡角 24 小时窗口外完成补飞：SpaceX 累计第 619 次一级回收](./2026-06-04-starlink-10-43-cape-canaveral-success/) |
 | 6-04 | [3I/ATLAS 不是外星飞船：SETI 监听未发现任何「技术签名」](./2026-06-04-3i-atlas-seti-no-alien-signals/) |
 | 6-04 | [长征六号改一箭 18 星成功发射千帆极轨 11 组卫星 长征系列累计第 648 次飞行](./2026-06-04-qianfan-11-batch-long-march-6a/) |
