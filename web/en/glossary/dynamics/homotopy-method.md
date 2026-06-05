@@ -70,9 +70,9 @@ The bang-bang characteristics of fuel-optimal control cause discontinuities on t
 2. Gradually decrease $\varepsilon$ to zero to obtain fuel-optimal solution
 3. Effectively avoids numerical difficulties from directly solving bang-bang control
 
-### Application by 赵海涵 et al. (2026)
+### Application by Zhao Haihan et al. (2026)
 
-赵海涵 et al. combined RLEPSO with homotopy method:
+Zhao Haihan et al. combined RLEPSO with homotopy method:
 - RLEPSO quickly obtains high-quality energy-optimal initial co-states
 - Homotopy method smoothly transitions to fuel-optimal control
 - Solved fuel-optimal problem for long-distance cooperative rendezvous under J₂ perturbation

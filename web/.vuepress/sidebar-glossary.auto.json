@@ -561,6 +561,19 @@
         }
       },
       {
+        "slug": "co-state-variables",
+        "title": "协态变量（Co-state Variables）",
+        "path": "/glossary/dynamics/co-state-variables/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "coasting-arc",
         "title": "滑行弧（Coasting Arc）",
         "path": "/glossary/dynamics/coasting-arc/",
@@ -678,6 +691,19 @@
         }
       },
       {
+        "slug": "detection-graph",
+        "title": "探测图（Detection Graph）",
+        "path": "/glossary/dynamics/detection-graph/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "differential-correction",
         "title": "微分修正（Differential Correction）",
         "path": "/glossary/dynamics/differential-correction/",
@@ -782,6 +808,32 @@
         }
       },
       {
+        "slug": "ertbp",
+        "title": "地月限制性三体问题（ERTBP）",
+        "path": "/glossary/dynamics/ertbp/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "fuel-optimal",
+        "title": "燃料最优控制（Fuel-optimal Control）",
+        "path": "/glossary/dynamics/fuel-optimal/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "fuzzy-backstepping-control",
         "title": "模糊反步控制（Fuzzy Backstepping Control）",
         "path": "/glossary/dynamics/fuzzy-backstepping-control/",
@@ -824,6 +876,19 @@
         "slug": "grc",
         "title": "地心瞬时会合坐标系（Geocentric Rotating Coordinate System, GRC）",
         "path": "/glossary/dynamics/grc/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "hamiltonian",
+        "title": "哈密顿函数（Hamiltonian）",
+        "path": "/glossary/dynamics/hamiltonian/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -1068,6 +1133,19 @@
         }
       },
       {
+        "slug": "lstm-neural-network",
+        "title": "LSTM 神经网络（LSTM Neural Network）",
+        "path": "/glossary/dynamics/lstm-neural-network/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "lt-transfer-mdp",
         "title": "低推力转移的马尔可夫决策过程（MDP） formulation",
         "path": "/glossary/dynamics/lt-transfer-mdp/",
@@ -1107,9 +1185,35 @@
         }
       },
       {
+        "slug": "modal-analysis",
+        "title": "模态分析（Modal Analysis）",
+        "path": "/glossary/dynamics/modal-analysis/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "monodromy-matrix",
         "title": "单值矩阵（Monodromy Matrix）",
         "path": "/glossary/dynamics/monodromy-matrix/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "monte-carlo-tree-search",
+        "title": "蒙特卡洛树搜索（Monte Carlo Tree Search）",
+        "path": "/glossary/dynamics/monte-carlo-tree-search/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -1562,6 +1666,32 @@
         }
       },
       {
+        "slug": "tpbvp",
+        "title": "两点边值问题（TPBVP）",
+        "path": "/glossary/dynamics/tpbvp/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "trim-condition",
+        "title": "配平状态（Trim Condition）",
+        "path": "/glossary/dynamics/trim-condition/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "two-dominant-invariant-manifold",
         "title": "双基不变流形法（Two-Dominant Invariant Manifold）",
         "path": "/glossary/dynamics/two-dominant-invariant-manifold/",
@@ -1864,6 +1994,19 @@
         "slug": "energy-parameter",
         "title": "能量参数（Energy Parameter）",
         "path": "/glossary/fundamentals/energy-parameter/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "eo",
+        "title": "地球观测（Earth Observation）",
+        "path": "/glossary/fundamentals/eo/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -2264,6 +2407,19 @@
         }
       },
       {
+        "slug": "nuri",
+        "title": "勇号（Nuri，KSLV-II）",
+        "path": "/glossary/fundamentals/nuri/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
         "slug": "nutation",
         "title": "章动（Nutation）",
         "path": "/glossary/fundamentals/nutation/",
@@ -2527,6 +2683,19 @@
         "slug": "reusable-launch-vehicle",
         "title": "可重复使用运载火箭（Reusable Launch Vehicle）",
         "path": "/glossary/fundamentals/reusable-launch-vehicle/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "sar",
+        "title": "合成孔径雷达（SAR）",
+        "path": "/glossary/fundamentals/sar/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -3021,6 +3190,19 @@
         "slug": "irnss",
         "title": "印度区域导航卫星系统（IRNSS）",
         "path": "/glossary/navigation/irnss/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
+        "slug": "LEO-navigation",
+        "title": "低轨导航增强（LEO Navigation Augmentation）",
+        "path": "/glossary/navigation/LEO-navigation/",
         "category": {
           "slug": "navigation",
           "label": {
@@ -3590,6 +3772,19 @@
         }
       },
       {
+        "slug": "heteroclinic-connection",
+        "title": "异宿连接（Heteroclinic Connection）",
+        "path": "/glossary/orbits/heteroclinic-connection/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "horseshoe-orbit",
         "title": "马蹄轨道（Horseshoe Orbit）",
         "path": "/glossary/orbits/horseshoe-orbit/",
@@ -3619,6 +3814,19 @@
         "slug": "lissajous-orbit",
         "title": "Lissajous 轨道（Lissajous Orbit）",
         "path": "/glossary/orbits/lissajous-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "long-period-orbit",
+        "title": "长周期轨道（Long Period Orbit）",
+        "path": "/glossary/orbits/long-period-orbit/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -3824,9 +4032,35 @@
         }
       },
       {
+        "slug": "short-period-orbit",
+        "title": "短周期轨道（Short Period Orbit）",
+        "path": "/glossary/orbits/short-period-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "transfer-orbit",
         "title": "转移轨道（Transfer Orbit）",
         "path": "/glossary/orbits/transfer-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "triangular-libration-points",
+        "title": "三角平动点（Triangular Libration Points）",
+        "path": "/glossary/orbits/triangular-libration-points/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -4622,6 +4856,19 @@
         }
       },
       {
+        "slug": "co-state-variables",
+        "title": "Co-state Variables",
+        "path": "/en/glossary/dynamics/co-state-variables/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "coasting-arc",
         "title": "Coasting Arc (Coasting Arc)",
         "path": "/en/glossary/dynamics/coasting-arc/",
@@ -4649,7 +4896,7 @@
       },
       {
         "slug": "continuation",
-        "title": "Continuation (延拓)",
+        "title": "Continuation",
         "path": "/en/glossary/dynamics/continuation/",
         "category": {
           "slug": "dynamics",
@@ -4739,8 +4986,21 @@
         }
       },
       {
+        "slug": "detection-graph",
+        "title": "Detection Graph",
+        "path": "/en/glossary/dynamics/detection-graph/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "differential-correction",
-        "title": "Differential Correction (微分修正)",
+        "title": "Differential Correction",
         "path": "/en/glossary/dynamics/differential-correction/",
         "category": {
           "slug": "dynamics",
@@ -4843,6 +5103,32 @@
         }
       },
       {
+        "slug": "ertbp",
+        "title": "Earth Restricted Three-Body Problem (ERTBP)",
+        "path": "/en/glossary/dynamics/ertbp/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "fuel-optimal",
+        "title": "Fuel-optimal Control",
+        "path": "/en/glossary/dynamics/fuel-optimal/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "fuzzy-backstepping-control",
         "title": "Fuzzy Backstepping Control",
         "path": "/en/glossary/dynamics/fuzzy-backstepping-control/",
@@ -4885,6 +5171,19 @@
         "slug": "grc",
         "title": "Geocentric Rotating Coordinate System (GRC)",
         "path": "/en/glossary/dynamics/grc/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "hamiltonian",
+        "title": "Hamiltonian",
+        "path": "/en/glossary/dynamics/hamiltonian/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -4961,7 +5260,7 @@
       },
       {
         "slug": "impulsive-maneuver",
-        "title": "Impulsive Maneuver (脉冲机动)",
+        "title": "Impulsive Maneuver",
         "path": "/en/glossary/dynamics/impulsive-maneuver/",
         "category": {
           "slug": "dynamics",
@@ -5129,6 +5428,19 @@
         }
       },
       {
+        "slug": "lstm-neural-network",
+        "title": "LSTM Neural Network",
+        "path": "/en/glossary/dynamics/lstm-neural-network/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "lt-transfer-mdp",
         "title": "Low-Thrust Transfer MDP Formulation",
         "path": "/en/glossary/dynamics/lt-transfer-mdp/",
@@ -5168,9 +5480,35 @@
         }
       },
       {
+        "slug": "modal-analysis",
+        "title": "Modal Analysis",
+        "path": "/en/glossary/dynamics/modal-analysis/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "monodromy-matrix",
         "title": "Monodromy Matrix",
         "path": "/en/glossary/dynamics/monodromy-matrix/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "monte-carlo-tree-search",
+        "title": "Monte Carlo Tree Search",
+        "path": "/en/glossary/dynamics/monte-carlo-tree-search/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5247,7 +5585,7 @@
       },
       {
         "slug": "patched-method",
-        "title": "Patched Method (拼接法)",
+        "title": "Patched Method",
         "path": "/en/glossary/dynamics/patched-method/",
         "category": {
           "slug": "dynamics",
@@ -5260,7 +5598,7 @@
       },
       {
         "slug": "poincare-map",
-        "title": "Poincaré Map (庞加莱图)",
+        "title": "Poincaré Map",
         "path": "/en/glossary/dynamics/poincare-map/",
         "category": {
           "slug": "dynamics",
@@ -5623,6 +5961,32 @@
         }
       },
       {
+        "slug": "tpbvp",
+        "title": "Two-Point Boundary Value Problem (TPBVP)",
+        "path": "/en/glossary/dynamics/tpbvp/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
+        "slug": "trim-condition",
+        "title": "Trim Condition",
+        "path": "/en/glossary/dynamics/trim-condition/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020
+        }
+      },
+      {
         "slug": "two-dominant-invariant-manifold",
         "title": "Two-Dominant Invariant Manifold Method",
         "path": "/en/glossary/dynamics/two-dominant-invariant-manifold/",
@@ -5925,6 +6289,19 @@
         "slug": "energy-parameter",
         "title": "Energy Parameter",
         "path": "/en/glossary/fundamentals/energy-parameter/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "eo",
+        "title": "Earth Observation (EO)",
+        "path": "/en/glossary/fundamentals/eo/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -6325,6 +6702,19 @@
         }
       },
       {
+        "slug": "nuri",
+        "title": "Nuri (KSLV-II)",
+        "path": "/en/glossary/fundamentals/nuri/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
         "slug": "nutation",
         "title": "Nutation",
         "path": "/en/glossary/fundamentals/nutation/",
@@ -6588,6 +6978,19 @@
         "slug": "reusable-launch-vehicle",
         "title": "Reusable Launch Vehicle",
         "path": "/en/glossary/fundamentals/reusable-launch-vehicle/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010
+        }
+      },
+      {
+        "slug": "sar",
+        "title": "Synthetic Aperture Radar (SAR)",
+        "path": "/en/glossary/fundamentals/sar/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -7092,6 +7495,19 @@
         }
       },
       {
+        "slug": "LEO-navigation",
+        "title": "LEO Navigation Augmentation",
+        "path": "/en/glossary/navigation/LEO-navigation/",
+        "category": {
+          "slug": "navigation",
+          "label": {
+            "zh": "导航技术与系统",
+            "en": "Navigation & systems"
+          },
+          "order": 20040
+        }
+      },
+      {
         "slug": "liason-navigation",
         "title": "LiAISON Navigation",
         "path": "/en/glossary/navigation/liason-navigation/",
@@ -7496,7 +7912,7 @@
       },
       {
         "slug": "apolune",
-        "title": "Apolune (远月点)",
+        "title": "Apolune",
         "path": "/en/glossary/orbits/apolune/",
         "category": {
           "slug": "orbits",
@@ -7613,7 +8029,7 @@
       },
       {
         "slug": "free-return-trajectory",
-        "title": "Free-Return Trajectory (自由返回轨道)",
+        "title": "Free-Return Trajectory",
         "path": "/en/glossary/orbits/free-return-trajectory/",
         "category": {
           "slug": "orbits",
@@ -7639,8 +8055,21 @@
       },
       {
         "slug": "halo-orbit",
-        "title": "Halo Orbit (Halo 轨道)",
+        "title": "Halo Orbit",
         "path": "/en/glossary/orbits/halo-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "heteroclinic-connection",
+        "title": "Heteroclinic Connection",
+        "path": "/en/glossary/orbits/heteroclinic-connection/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -7678,8 +8107,21 @@
       },
       {
         "slug": "lissajous-orbit",
-        "title": "Lissajous Orbit (Lissajous 轨道)",
+        "title": "Lissajous Orbit",
         "path": "/en/glossary/orbits/lissajous-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "long-period-orbit",
+        "title": "Long Period Orbit",
+        "path": "/en/glossary/orbits/long-period-orbit/",
         "category": {
           "slug": "orbits",
           "label": {
@@ -7717,7 +8159,7 @@
       },
       {
         "slug": "lyapunov-orbit",
-        "title": "Lyapunov Orbit (Lyapunov 轨道)",
+        "title": "Lyapunov Orbit",
         "path": "/en/glossary/orbits/lyapunov-orbit/",
         "category": {
           "slug": "orbits",
@@ -7782,7 +8224,7 @@
       },
       {
         "slug": "parking-orbit",
-        "title": "Parking Orbit (停泊轨道)",
+        "title": "Parking Orbit",
         "path": "/en/glossary/orbits/parking-orbit/",
         "category": {
           "slug": "orbits",
@@ -7795,7 +8237,7 @@
       },
       {
         "slug": "perilune",
-        "title": "Perilune (近月点)",
+        "title": "Perilune",
         "path": "/en/glossary/orbits/perilune/",
         "category": {
           "slug": "orbits",
@@ -7834,7 +8276,7 @@
       },
       {
         "slug": "prograde",
-        "title": "Prograde (顺行)",
+        "title": "Prograde",
         "path": "/en/glossary/orbits/prograde/",
         "category": {
           "slug": "orbits",
@@ -7873,7 +8315,7 @@
       },
       {
         "slug": "retrograde",
-        "title": "Retrograde (逆行)",
+        "title": "Retrograde",
         "path": "/en/glossary/orbits/retrograde/",
         "category": {
           "slug": "orbits",
@@ -7885,9 +8327,35 @@
         }
       },
       {
+        "slug": "short-period-orbit",
+        "title": "Short Period Orbit",
+        "path": "/en/glossary/orbits/short-period-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
         "slug": "transfer-orbit",
-        "title": "Transfer Orbit (转移轨道)",
+        "title": "Transfer Orbit",
         "path": "/en/glossary/orbits/transfer-orbit/",
+        "category": {
+          "slug": "orbits",
+          "label": {
+            "zh": "任务轨道",
+            "en": "Mission orbits"
+          },
+          "order": 20030
+        }
+      },
+      {
+        "slug": "triangular-libration-points",
+        "title": "Triangular Libration Points",
+        "path": "/en/glossary/orbits/triangular-libration-points/",
         "category": {
           "slug": "orbits",
           "label": {

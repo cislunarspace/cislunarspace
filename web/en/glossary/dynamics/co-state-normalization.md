@@ -82,7 +82,7 @@ Through co-state normalization:
 | $[-\pi/2, \pi/2]$ | $\chi_\vartheta = \pi\left(X_\vartheta - \frac{1}{2}\right), \quad \vartheta = 4,5$ |
 | $[0, 2\pi]$ | $\chi_\vartheta = 2\pi X_\vartheta, \quad \vartheta = 6,7$ |
 
-## Application by 赵海涵 et al. (2026)
+## Application by Zhao Haihan et al. (2026)
 
 In the RLEPSO-Homotopy method:
 1. RLEPSO optimizes normalized co-states (7 angular variables + terminal time = 8 dimensional optimization variables)

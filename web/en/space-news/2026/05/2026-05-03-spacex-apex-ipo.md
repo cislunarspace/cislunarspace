@@ -1,7 +1,7 @@
 ---
 layout: SpaceNewsArticle
 title: "SpaceX Plans Largest Ever IPO at $1.75 Trillion Valuation"
-description: "SpaceX's代号「Apex」IPO is targeting a $1.75 trillion valuation with a $75 billion fundraising round, set to become the largest IPO in history."
+description: "SpaceX's codenamed 'Apex' IPO is targeting a $1.75 trillion valuation with a $75 billion fundraising round, set to become the largest IPO in history."
 wechatShare:
   title: "SpaceX Plans Largest Ever IPO at $1.75 Trillion Valuation"
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.

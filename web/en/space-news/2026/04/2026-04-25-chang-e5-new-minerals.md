@@ -25,7 +25,7 @@ On April 24, 2026, at the main ceremony for China's 11th Space Day held in Cheng
 
 ## Overview of the Two New Minerals
 
-### Magnesium Chang'e Stone (镁嫦娥石)
+### Magnesium Chang'e Stone
 
 Discovered by the lunar regolith team led by Chief Scientist **Li Ziying** at the China National Nuclear Corporation's Beijing Geological Institute:
 
@@ -35,7 +35,7 @@ Discovered by the lunar regolith team led by Chief Scientist **Li Ziying** at th
 - **Grain size:** Approximately 2 to 30 micrometers — about 1/30 to 1/3 the diameter of a human hair
 - **Composition:** Similar to previously discovered Chang'e Stone, but enriched in magnesium and rare earth elements
 
-### Cerium Chang'e Stone (铈嫦娥石)
+### Cerium Chang'e Stone
 
 Discovered by the research team led by **Academician Hou Zengqian** at the Chinese Academy of Geological Sciences:
 
