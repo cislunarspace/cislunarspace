@@ -18,10 +18,6 @@ wechatShare:
 
 **摘要：** 2026 年 3 月 26 日，从中国科学院获悉，由中国科学院与欧洲空间局（ESA）联合研制的 **太阳风—磁层相互作用全景成像卫星（SMILE，简称"微笑"卫星）** 在位于南美洲的 **库鲁航天发射中心**（法属圭亚那）完成了所有发射前准备工作，计划于当地时间 **4 月 9 日** 由 Vega-C 运载火箭发射升空。这是我国首次与 ESA 开展 **任务级、全方位深度合作** 的空间科学探测任务。
 
-<!-- ![SMILE 卫星示意图（ESA/CNES/Arianespace）](./figures/2026-03-27-china-esa-smile-satellite/smile-satellite.jpg) -->
-
-<!-- *SMILE 卫星艺术示意图（来源：ESA/CNES/Arianespace）* -->
-
 ## 任务背景
 
 SMILE（Solar wInd Magnetosphere Ionosphere Link Explorer，太阳风—磁层相互作用全景成像卫星）是中欧联合研制的旗舰级空间科学探测任务，旨在对太阳风与磁层的相互作用进行前所未有的全景成像研究。

@@ -11,6 +11,7 @@ category: nasa
 tags: [nasa, artemis, artemis-2, spacesuit, orion, human-spaceflight]
 related:
   - 2026-03-27-artemis-2-one-week-away
+image: ./figures/2026-03-27-artemis-2-crew-suits-en/hero.jpg
 layout: SpaceNewsArticle
 wechatShare:
   title: "NASA Unveils Artemis II Crew's Survival Suits"

@@ -8,6 +8,7 @@ lastUpdated: 2026-03-30
 source: Space.com
 source_url: https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-next-gen-v3-starship-for-1st-time-ahead-of-april-launch-photos
 category: spacex
+image: ./figures/2026-03-30-spacex-v3-starship-static-fire-en/hero.jpg
 tags: [spacex, starship, V3, starship-v3, super-heavy, static-fire, launch]
 related:
   - 2026-03-28-celeste-rocket-lab-launch
@@ -15,7 +16,7 @@ layout: SpaceNewsArticle
 wechatShare:
   title: "SpaceX Fires Up Next-Gen V3 Starship for First Time Ahead of April Launch"
   desc: "SpaceX completed the first static fire test of its next-generation V3 Starship in March 2026, preparing for an April launch attempt."
-  image: "/logo.png"
+  image: "./figures/2026-03-30-spacex-v3-starship-static-fire-en/hero.jpg"
 ---
 
 # SpaceX Fires Up Next-Gen V3 Starship for First Time Ahead of April Launch

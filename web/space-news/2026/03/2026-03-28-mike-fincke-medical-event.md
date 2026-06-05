@@ -17,10 +17,6 @@ wechatShare:
 
 **摘要：** 2026 年 3 月 28 日，NASA 航天员 **Mike Fincke** 首次详细披露了导致 Crew-11 任务提前一个多月返回地球的医学事件。2026 年 1 月 7 日，即他与指令长 Zena Cardman 原定执行第 10 次出舱活动的前夜，Fincke 突然失语约 20 分钟，事后自行恢复且感觉良好，但经过多次医学检查，医生至今未能查明原因。
 
-<!-- ![Crew-11 发射前合影](./figures/2026-03-28-mike-fincke-medical-event/crew-11-prelaunch.jpg) -->
-
-<!-- *Crew-11 发射前合影。从左至右：Oleg Platonov（俄罗斯联邦航天局，任务专家）、Mike Fincke（NASA，驾驶员）、Zena Cardman（NASA，指令长）、Kimiya Yui（JAXA，任务专家）。（来源：NASA/Robert Markowitz）* -->
-
 ## 事件经过
 
 2026 年 1 月 7 日夜间，Fincke 和 Crew-11 指令长 Zena Cardman 原定于次日执行 Fincke 的第 10 次、Cardman 的第一次出舱活动。然而就在当晚，Fincke 突发医学事件。NASA 出于隐私保护未立即公布详情，局长贾里德·艾萨克曼将其定性为"受控医疗撤离"（controlled medical evacuation），而非"紧急返航"（emergency deorbit）。

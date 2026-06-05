@@ -11,6 +11,7 @@ category: nasa
 tags: [nasa, artemis, artemis-2, 航天服, orion, 载人航天]
 related:
   - 2026-03-27-artemis-2-one-week-away
+image: ./figures/2026-03-27-artemis-2-crew-suits-zh/hero.jpg
 layout: SpaceNewsArticle
 wechatShare:
   title: "NASA公布Artemis II任务航天服"

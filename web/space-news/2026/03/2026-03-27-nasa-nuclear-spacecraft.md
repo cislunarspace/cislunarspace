@@ -9,6 +9,7 @@ source: Space.com
 source_url: https://www.space.com/space-exploration/nasa-is-developing-the-1st-nuclear-powered-interplanetary-spacecraft-what-about-the-voyager-probes
 category: nasa
 tags: [nasa, 核动力, 深空, 推进, 飞船]
+image: ./figures/2026-03-27-nasa-nuclear-spacecraft-zh/hero.jpg
 related:
   - 2026-03-27-artemis-2-one-week-away
 layout: SpaceNewsArticle

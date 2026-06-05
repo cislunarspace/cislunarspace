@@ -18,10 +18,6 @@ wechatShare:
 
 **摘要：** 2026 年 3 月 27 日，欧洲航天局（ESA）宣布其首批 **Celeste** 卫星将于 **3 月 28 日 10:14 CET**（欧洲中部时间）由 **Rocket Lab Electron** 火箭从新西兰 Māhia 发射场发射升空。这是欧洲首个 **低轨卫星导航增强（LEO-PNT）** 演示任务，将为欧洲现有的 Galileo 中轨卫星导航系统提供补充增强。
 
-<!-- ![Celeste 卫星在 Electron 火箭 kick stage 上的示意图（ESA）](./figures/2026-03-27-esa-celeste-launch/celeste-iod-1-2-electron-artist-impression.jpg) -->
-
-<!-- *艺术示意图：Celeste IOD-1 与 IOD-2 卫星在 Electron 火箭 kick stage 上（来源：ESA）* -->
-
 ## 任务背景
 
 Celeste 是 ESA **LEO-PNT（低地球轨道定位导航授时）** 计划的首个在轨演示阶段任务，也是欧洲首次尝试在低地球轨道建立卫星导航增强层。当前欧洲的 **Galileo** 系统运行于中地球轨道（MEO），Celeste 将与之协同运行，通过更靠近地面的卫星星座来增强导航性能、韧性和服务能力。
