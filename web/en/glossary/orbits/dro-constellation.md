@@ -32,15 +32,15 @@ permalink: /en/glossary/orbits/dro-constellation/
 
 ## Overview
 
-In April 2025, the Chinese Academy of Sciences Space Applications Center successfully deployed the world's first cislunar space three-satellite constellation based on DRO (Distant Retrograde Orbit) through a strategic pioneering special project, achieving three-satellite constellation networking with DRO-A, DRO-B, and DRO-L.
+In April 2025, the Chinese Academy of Sciences Space Applications Center successfully deployed the world's first cislunar space three-satellite constellation based on DRO (Distant Retrograde Orbit) through a strategic pioneering special project, achieving three-satellite constellation networking with DRO-A, DRO-B, and DRO-L (per CAS Space Applications Center announcement).
 
 ## Breakthrough Achievements
 
-The DRO constellation achieved the following breakthroughs for the first time internationally:
-- First achievement of low-energy orbit insertion into DRO for spacecraft
-- First verification of a 1.17 million km K-band inter-satellite microwave measurement and communication link
+The DRO constellation achieved the following breakthroughs for the first time internationally (per CAS Space Applications Center announcement):
+- Per CAS Space Applications Center announcement, first achievement of low-energy orbit insertion into DRO for spacecraft
+- Per CAS Space Applications Center announcement, first verification of a 1.17 million km K-band inter-satellite microwave measurement and communication link
 - Breakthrough of key core technical bottlenecks in large-scale constellation construction in cislunar space
-- First verification of new quality capabilities for satellite tracking and orbit determination navigation in cislunar space
+- Per CAS Space Applications Center announcement, first verification of new quality capabilities for satellite tracking and orbit determination navigation in cislunar space
 
 ## Technical Verification
 

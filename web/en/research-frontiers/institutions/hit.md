@@ -30,7 +30,7 @@ twitter:
 
 Harbin Institute of Technology (HIT) is a Ministry of Industry and Information Technology university and a national Double First-Class institution, with a long track record in aerospace engineering. HIT has participated in major national space programs for decades, with notable engineering capability in small satellite development and deep-space mission support.
 
-In 1987, HIT established China's first school of astronautics, dedicated to cultivating advanced aerospace talent and carrying out high-technology space research. Today, the school covers mechanics, optical engineering, control science and engineering, aerospace science and technology, and integrated circuit science and engineering. By May 2025, HIT had developed and successfully launched 36 satellites. The most relevant to cislunar space are the `Longjiang-2` lunar microsatellite and the `Tiandu-2` lunar-orbit technology demonstrator.
+According to HIT, the school was established in 1987 as China's first school of astronautics, dedicated to cultivating advanced aerospace talent and carrying out high-technology space research. Today, the school covers mechanics, optical engineering, control science and engineering, aerospace science and technology, and integrated circuit science and engineering. By May 2025, HIT had developed and successfully launched 36 satellites (per HIT official data). The most relevant to cislunar space are the `Longjiang-2` lunar microsatellite and the `Tiandu-2` lunar-orbit technology demonstrator.
 
 ## Platforms and capabilities relevant to cislunar space
 
@@ -40,7 +40,7 @@ The School of Astronautics is HIT's main anchor for cislunar-related work. Aroun
 
 ### Verified capability in lunar-orbit missions
 
-In 2018, HIT-developed `Longjiang-1` and `Longjiang-2` launched alongside the `Queqiao` relay satellite. `Longjiang-2` later entered lunar orbit, carried out imaging and scientific experiments, and became the first microsatellite to independently complete translunar transfer, lunar orbit insertion, and lunar-orbit flight. HIT was the first university in the world to place a spacecraft into lunar orbit.
+In 2018, HIT-developed `Longjiang-1` and `Longjiang-2` launched alongside the `Queqiao` relay satellite. `Longjiang-2` later entered lunar orbit, carried out imaging and scientific experiments, and became the first university-built microsatellite to independently complete translunar transfer, lunar orbit insertion, and lunar-orbit flight. HIT was the first university in the world to place a spacecraft into lunar orbit (per HIT).
 
 In 2024, HIT independently developed `Tiandu-2`, a 15 kg satellite flying in formation with `Tiandu-1` in lunar orbit, focused on communication and navigation technology validation. Where `Longjiang-2` demonstrated the ability to reach and operate in lunar orbit, `Tiandu-2` addresses the next question: how to communicate, range, and navigate reliably there over time.
 
