@@ -173,6 +173,7 @@ export const sidebarSections: SidebarSection[] = [
         children: [
           { slug: 'shooting-method', label: { zh: '打靶法', en: 'Shooting method' } },
           { slug: 'continuation', label: { zh: '延拓法', en: 'Continuation' } },
+          { slug: 'pseudospectral', label: { zh: '伪谱法', en: 'Pseudospectral methods' } },
           { slug: 'symplectic-integrator', label: { zh: '辛积分器', en: 'Symplectic integrator' } },
         ],
       },
@@ -182,6 +183,7 @@ export const sidebarSections: SidebarSection[] = [
         collapsible: true,
         children: [
           { slug: 'perturbation', label: { zh: '摄动理论', en: 'Perturbation' } },
+          { slug: 'hill-three-body', label: { zh: '希尔三体问题', en: 'Hill three-body problem' } },
         ],
       },
       {
@@ -190,6 +192,7 @@ export const sidebarSections: SidebarSection[] = [
         collapsible: true,
         children: [
           { slug: 'optimal-control', label: { zh: '最优控制', en: 'Optimal control' } },
+          { slug: 'mpc', label: { zh: '模型预测控制', en: 'Model predictive control' } },
         ],
       },
     ],

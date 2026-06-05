@@ -2,7 +2,7 @@
 permalink: /en/background/
 title: Background Knowledge
 description: Foundational theory, mathematical tools, and cross-disciplinary concepts for cislunar space research, complementing the technical glossary.
-keywords: Background Knowledge, Mathematical Tools, Celestial Mechanics, Perturbation Theory, Shooting Method, Symplectic Integrator, Optimal Control
+keywords: Background Knowledge, Mathematical Tools, Celestial Mechanics, Perturbation Theory, Shooting Method, Symplectic Integrator, Optimal Control, Pseudospectral Methods, Model Predictive Control, Hill Three-Body Problem
 wechatShare:
   title: "Cislunar Space Guide | Background Knowledge"
   desc: "Foundational theory, mathematical tools, and cross-disciplinary concepts for cislunar space research, complementing the technical glossary."
@@ -25,16 +25,20 @@ This section provides in-depth reference materials complementing the [Cislunar G
 
 - [Shooting Method](./math/shooting-method/)
 - [Arc-length Continuation](./math/continuation/)
+- [Pseudospectral Methods](./math/pseudospectral/)
 - [Symplectic Integrator](./math/symplectic-integrator/)
 
 ### Celestial Mechanics
 
 - [Perturbation Theory](./mechanics/perturbation/)
+- [Hill Three-Body Problem](./mechanics/hill-three-body/)
 
 ### Control & Optimization
 
 - [Optimal Control](./control/optimal-control/)
+- [Model Predictive Control (MPC)](./control/mpc/)
 
 ## Updates
 
+**2026-06-05**: Added pseudospectral, MPC, and Hill three-body stub pages; fixed broken relative links.
 **2026-04-26**: Section created with 5 core entries.

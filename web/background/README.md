@@ -2,10 +2,10 @@
 permalink: /background/
 title: 背景知识
 description: 地月空间研究的数学工具、天体力学基础、控制与优化理论等背景知识词条，作为技术词典的平行补充。
-keywords: 背景知识, 数学工具, 天体力学, 摄动理论, 打靶法, 弧长延续法, 辛积分, 最优控制
+keywords: 背景知识, 数学工具, 天体力学, 摄动理论, 打靶法, 弧长延续法, 辛积分, 最优控制, 伪谱法, 模型预测控制, 希尔三体问题
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-06-05
 wechatShare:
   title: 背景知识
   desc: 地月空间研究的基础理论、数学工具与跨学科概念。
@@ -38,15 +38,18 @@ twitter:
 
 - [打靶法（Shooting Method）](./math/shooting-method/)
 - [弧长延续法（Arc-length Continuation）](./math/continuation/)
+- [伪谱法（Pseudospectral Methods）](./math/pseudospectral/)
 - [辛积分器（Symplectic Integrator）](./math/symplectic-integrator/)
 
 ### 天体力学基础
 
 - [摄动理论（Perturbation Theory）](./mechanics/perturbation/)
+- [希尔三体问题（Hill Three-Body Problem）](./mechanics/hill-three-body/)
 
 ### 控制与优化
 
 - [最优控制理论（Optimal Control）](./control/optimal-control/)
+- [模型预测控制（MPC）](./control/mpc/)
 
 ## 与技术词典的关联
 
@@ -57,4 +60,5 @@ twitter:
 
 ## 更新说明
 
+**2026-06-05**：新增伪谱法、模型预测控制、希尔三体问题占位页面，修复断链。
 **2026-04-26**：栏目创建，首批上线 5 个核心词条。
