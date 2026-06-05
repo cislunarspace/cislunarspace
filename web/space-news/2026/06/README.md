@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-04 | [长征六号改一箭 18 星成功发射千帆极轨 11 组卫星 长征系列累计第 648 次飞行](./2026-06-04-qianfan-11-batch-long-march-6a/) |
 | 6-04 | [撒哈拉陨石 NWA 12774 揭示早期太阳系失踪世界：富铝单斜辉石把 angrite 母体推向月球量级](./2026-06-04-sahara-meteorite-lost-solar-system-world/) |
   6-04 | [欧几里得望远镜在球状星团 NGC 6397 中发现一片「失踪的恒星」：红矮星部分对流到完全对流过渡的观测证据](./2026-06-04-ngc6397-star-cluster-missing-stars/) |
   6-04 | [NASA 局长 Isaacman 首度表态：Blue Moon 着陆器将与新格伦脱钩 寻找新发射载具](./2026-06-04-nasa-isaacman-blue-moon-launcher-swap/) |
