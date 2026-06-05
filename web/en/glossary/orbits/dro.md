@@ -4,7 +4,7 @@ description: Detailed analysis of the definition, dynamic characteristics, reson
 keywords: Distant Retrograde Orbit, DRO, Distant Retrograde Orbit, cislunar orbit, resonance orbit, orbital stability, orbital design
 author: Tianjiang Shuo
 date: 2026-04-04
-lastUpdated: 2026-04-26
+lastUpdated: 2026-06-05
 wechatShare:
   title: Distant Retrograde Orbit (DRO)
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
@@ -66,9 +66,40 @@ For example, a 2:1 resonant DRO has an orbital period approximately half that of
 
 In the CRTBP, DROs exhibit dynamic symmetry about the $x$-axis: when the orbit crosses the $x$-axis, there is only a $y$-direction velocity component $\dot{y}_0$, while the $y$-direction position and the $x$ and $z$ direction velocities are all zero. This symmetry means that one only needs to select an initial point on the $x$-axis, use $\dot{y}_0$ and period $T$ as free variables, integrate for half a period, and verify whether the orbit returns to the $x$-axis -- enabling iterative convergence to a closed periodic orbit.
 
+## Orbital Parameter Characteristics
+
+For the Earth-Moon system, the main parameter ranges of the DRO family (based on the dynamic catalog statistics by Guzzetti et al.) are as follows:
+
+| Parameter | Range |
+|:---|:---|
+| Jacobi constant | 1.4352 – 3.0180 (mean 2.1184) |
+| Orbital period | 5.87 – 27.38 days (mean 24.63 days) |
+| Stability index | 1.0000 – 1.0002 (mean 1.0001) |
+
+The stability index of DROs is extremely close to 1.0, indicating that this orbit family possesses exceptional long-term stability and is one of the very few naturally stable periodic orbits in cislunar space.
+
 ## Behavior in Ephemeris Models
 
 In perturbative environments such as ephemeris models, where celestial body positions change over time, DROs no longer maintain strict periodicity and evolve into **quasi-periodic orbits** that wind within a limited region. Their trajectories do not close, but the overall shape remains stable.
+
+## Operational Cost Analysis
+
+### Orbit Insertion from LEO
+
+Departing from a 300 km altitude LEO, typical transfer schemes to DRO include:
+
+- **Direct two-impulse transfer**: Consisting of only two impulsive maneuvers — one departing from LEO and one inserting into DRO. The direct transfer flight time is approximately 5.4 – 7.2 days.
+- **Lunar gravity-assist three-impulse transfer**: An additional midcourse maneuver is added at a 200 km lunar pericenter altitude, leveraging lunar gravity to reduce the total ΔV cost.
+
+Studies by Guzzetti et al. have shown that DRO direct insertion ΔV (ΔV_POI) is among the lowest of all libration point orbits and lunar-centered orbits, averaging on the order of hundreds of m/s. This makes DRO one of the most accessible cislunar orbits from LEO.
+
+### Station-Keeping Cost
+
+DRO station-keeping costs are extremely low:
+
+- Long-term station-keeping strategy assessments based on Monte Carlo simulations show that DRO annual average ΔV requirements are only on the order of a few m/s.
+- Station-keeping maneuvers are typically executed at or near x-axis crossings, where implementation is operationally convenient and costs approach the global optimum.
+- The exceptional stability of DROs means that even with initial state errors (1 km position, 1 cm/s velocity standard deviation) and maneuver execution errors (1% standard deviation), the orbit maintains good characteristics over extended periods.
 
 ## Application Value
 
@@ -81,11 +112,25 @@ With excellent long-term stability (requiring no or only minimal orbital maneuve
 
 NASA's Lunar Reconnaissance Orbiter (LRO) mission has validated the application value of DROs in lunar exploration. Recent research has shown that non-planar DROs with $z$-direction amplitude can avoid solar eclipses, further improving observer effectiveness.
 
+## Application in A2PPO Low-Thrust Transfer Research
+
+Ul Haq et al. (2026) used the A2PPO (Attention-Augmented Proximal Policy Optimization) algorithm to investigate autonomous low-thrust transfers from L₂ NRHO to lunar DRO (Scenario S3):
+
+- **Departure orbit**: L₂ southern NRHO ($C_J \approx 3.0395$, period 6.99 days)
+- **Target orbit**: Lunar DRO ($C_J \approx 2.9981$, period 6.95 days)
+- **Transfer result**: 7.60 days, consuming 5.10 kg of propellant
+- **Transfer characteristics**: Forms a lunar gravity-assist structure; the orbit gradually transitions from prograde to retrograde
+
+Transfers between NRHO and DRO represent a challenging problem in low-thrust trajectory optimization: the two orbits lie in different dynamical corridors with no simple manifold connection paths. Without requiring an initial guess, A2PPO autonomously learned a transfer trajectory that closely matches the direct collocation method result (7.63 days / 5.11 kg).
+
 ## Related Concepts
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 - [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
+- [Distant Prograde Orbit (DPO)](/en/glossary/orbits/dpo/)
+- [Low Prograde Orbit (LoPO)](/en/glossary/orbits/lopo/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
+- [A2PPO (Attention-Augmented Proximal Policy Optimization)](/en/glossary/dynamics/a2ppo/)
 - [Starshade](/en/glossary/other/starshade/)
 - [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
 - [Poincaré Section](/en/glossary/dynamics/poincare-section/)
