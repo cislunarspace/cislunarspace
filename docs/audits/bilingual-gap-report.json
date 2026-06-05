@@ -1,0 +1,384 @@
+{
+  "generatedAt": "2026-06-05T00:44:19.327Z",
+  "summary": {
+    "total": 49,
+    "byFamily": {
+      "glossary": 48,
+      "space-news": 1
+    },
+    "bySeverity": {
+      "error": 48,
+      "warning": 1
+    }
+  },
+  "gaps": [
+    {
+      "zhPath": "glossary/军事太空条令/asat.md",
+      "expectedEnPath": "en/glossary/军事太空条令/asat.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "反卫星试验（ASAT）"
+    },
+    {
+      "zhPath": "glossary/军事太空条令/civil-military-integration.md",
+      "expectedEnPath": "en/glossary/军事太空条令/civil-military-integration.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "军民一体化（Civil-Military Integration）"
+    },
+    {
+      "zhPath": "glossary/军事太空条令/directed-energy-weapon.md",
+      "expectedEnPath": "en/glossary/军事太空条令/directed-energy-weapon.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "定向能武器（DEW）"
+    },
+    {
+      "zhPath": "glossary/军事太空条令/distributed-architecture.md",
+      "expectedEnPath": "en/glossary/军事太空条令/distributed-architecture.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "分布式架构（Distributed Architecture）"
+    },
+    {
+      "zhPath": "glossary/军事太空条令/kinetic-weapon.md",
+      "expectedEnPath": "en/glossary/军事太空条令/kinetic-weapon.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "动能武器（Kinetic Weapon）"
+    },
+    {
+      "zhPath": "glossary/军事太空条令/persistent-detection-corridor.md",
+      "expectedEnPath": "en/glossary/军事太空条令/persistent-detection-corridor.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "持久探测走廊（Persistent Detection Corridor, PDC）"
+    },
+    {
+      "zhPath": "glossary/军事太空条令/resilience-map.md",
+      "expectedEnPath": "en/glossary/军事太空条令/resilience-map.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "韧性地图（Resilience Map）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/ddpg.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/ddpg.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "深度确定性策略梯度（Deep Deterministic Policy Gradient, DDPG）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/hcpso.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/hcpso.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "混合聚类粒子群优化（Hybrid Cluster Particle Swarm Optimization, HCPSO）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/mo-mcts.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/mo-mcts.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "多目标蒙特卡洛树搜索（MO-MCTS）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/nsga-ii.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/nsga-ii.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "NSGA II（非支配排序遗传算法 II）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/pareto-optimal.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/pareto-optimal.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "帕累托最优（Pareto Optimality）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/pontryagin-principle.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/pontryagin-principle.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "庞特里亚金极值原理（Pontryagin's Maximum Principle）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/pseudo-arclength-continuation.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/pseudo-arclength-continuation.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "伪弧长延拓法（Pseudo-Arclength Continuation）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/pursuit-evasion-game.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/pursuit-evasion-game.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "航天器追逃博弈（Spacecraft Pursuit-Evasion Game）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/q-law.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/q-law.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "Q-law控制律"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/reachable-set.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/reachable-set.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "可达集（Reachable Set）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/reduced-order-dynamics.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/reduced-order-dynamics.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "降阶动力学方程（Reduced-Order Dynamic Equations）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/regularization.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/regularization.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "正则化（Regularization）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/rlepeso.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/rlepeso.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "强化学习增强粒子群（Reinforced Learning Enhanced Particle Swarm Optimization, RLEPSO）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/saddle-point-strategy.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/saddle-point-strategy.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "鞍点策略（Saddle-Point Strategy）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/state-dependent-tsp.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/state-dependent-tsp.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "状态依赖旅行商问题（SDTSP）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/two-dominant-invariant-manifold.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/two-dominant-invariant-manifold.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "双基不变流形法（Two-Dominant Invariant Manifold）"
+    },
+    {
+      "zhPath": "glossary/动力学与数学基础/zero-effort-miss.md",
+      "expectedEnPath": "en/glossary/动力学与数学基础/zero-effort-miss.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "零控脱靶量（Zero-Effort Miss）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/autonomous-navigation.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/autonomous-navigation.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "自主导航（Autonomous Navigation）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/extended-kalman-filter.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/extended-kalman-filter.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "扩展卡尔曼滤波（Extended Kalman Filter, EKF）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/gagan.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/gagan.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "GPS辅助地球增强导航系统（GAGAN）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/irnss.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/irnss.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "印度区域导航卫星系统（IRNSS）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/observability.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/observability.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "可观测性（Observability）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/orbit-identification.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/orbit-identification.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "轨道辨识（Orbit Identification）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/pnt.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/pnt.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "定位导航授时（PNT）"
+    },
+    {
+      "zhPath": "glossary/导航技术与系统/sem-autonomous-navigation.md",
+      "expectedEnPath": "en/glossary/导航技术与系统/sem-autonomous-navigation.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "日地月信息自主导航（Sun-Earth-Moon Autonomous Navigation）"
+    },
+    {
+      "zhPath": "glossary/天文观测技术/illumination-constraint.md",
+      "expectedEnPath": "en/glossary/天文观测技术/illumination-constraint.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "光照约束（Illumination Constraint）"
+    },
+    {
+      "zhPath": "glossary/天文观测技术/pointing-constraint.md",
+      "expectedEnPath": "en/glossary/天文观测技术/pointing-constraint.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "指向约束（Pointing Constraint）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/axial-orbit.md",
+      "expectedEnPath": "en/glossary/任务轨道/axial-orbit.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "轴向轨道（Axial Orbit）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/butterfly-orbit.md",
+      "expectedEnPath": "en/glossary/任务轨道/butterfly-orbit.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "蝴蝶轨道（Butterfly Orbit）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/dpo.md",
+      "expectedEnPath": "en/glossary/任务轨道/dpo.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "远距离顺行轨道（DPO）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/horseshoe-orbit.md",
+      "expectedEnPath": "en/glossary/任务轨道/horseshoe-orbit.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "马蹄轨道（Horseshoe Orbit）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/hub-and-spoke.md",
+      "expectedEnPath": "en/glossary/任务轨道/hub-and-spoke.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "中心辐射式（Hub-and-spoke）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/lopo.md",
+      "expectedEnPath": "en/glossary/任务轨道/lopo.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "低顺行轨道（LoPO）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/polynomial-constraint-stationkeeping.md",
+      "expectedEnPath": "en/glossary/任务轨道/polynomial-constraint-stationkeeping.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "多项式约束轨道保持（Polynomial Constraint Station-keeping）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/primary-impulse-transfer.md",
+      "expectedEnPath": "en/glossary/任务轨道/primary-impulse-transfer.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "一次冲量轨道转移（Primary Impulse Orbit Transfer）"
+    },
+    {
+      "zhPath": "glossary/任务轨道/vertical-orbit.md",
+      "expectedEnPath": "en/glossary/任务轨道/vertical-orbit.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "垂直轨道（Vertical Orbit）"
+    },
+    {
+      "zhPath": "glossary/机构和组织/danuri.md",
+      "expectedEnPath": "en/glossary/机构和组织/danuri.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "Danuri月球轨道器"
+    },
+    {
+      "zhPath": "glossary/机构和组织/isro.md",
+      "expectedEnPath": "en/glossary/机构和组织/isro.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "印度空间研究组织（ISRO）"
+    },
+    {
+      "zhPath": "glossary/机构和组织/kasa.md",
+      "expectedEnPath": "en/glossary/机构和组织/kasa.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "韩国航空宇宙厅（KASA）"
+    },
+    {
+      "zhPath": "glossary/机构和组织/sriharikota.md",
+      "expectedEnPath": "en/glossary/机构和组织/sriharikota.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "斯里哈里科塔航天发射场（SDSC-SHAR）"
+    },
+    {
+      "zhPath": "glossary/机构和组织/true-anomaly-company.md",
+      "expectedEnPath": "en/glossary/机构和组织/true-anomaly-company.md",
+      "family": "glossary",
+      "severity": "error",
+      "zhTitle": "True Anomaly公司"
+    },
+    {
+      "zhPath": "space-news/2026/04/2026-04-17-commercial-space-safety-meeting.md",
+      "expectedEnPath": "en/space-news/2026/04/2026-04-17-commercial-space-safety-meeting.md",
+      "family": "space-news",
+      "severity": "warning",
+      "zhTitle": "商业航天安全监管会议在京召开：2026 年重点任务部署"
+    }
+  ],
+  "exceptions": [
+    {
+      "pattern": "research-frontiers/directions/_templates/**",
+      "reason": "non-user-visible template directory",
+      "matchedPaths": [
+        "research-frontiers/directions/_templates/direction-index.md",
+        "research-frontiers/directions/_templates/institution.md",
+        "research-frontiers/directions/_templates/subtopic.md"
+      ]
+    },
+    {
+      "pattern": "research-frontiers/directions/security-governance/orbital-game/**",
+      "reason": "zh-only content",
+      "matchedPaths": [
+        "research-frontiers/directions/security-governance/orbital-game/orbital-game-inspection.md"
+      ]
+    },
+    {
+      "pattern": "dialectic.md",
+      "reason": "zh-only special surface",
+      "matchedPaths": [
+        "dialectic.md"
+      ]
+    }
+  ]
+}

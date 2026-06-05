@@ -1,0 +1,36 @@
+name: Bilingual Mirror Check
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+
+jobs:
+  check-bilingual:
+    name: Bilingual mirror gap check
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - run: npm ci
+
+      - name: Check bilingual mirror gaps
+        run: npm run check:bilingual -- --max-severity error
+
+      - name: Upload gap report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bilingual-gap-report
+          path: docs/audits/bilingual-gap-report.json
