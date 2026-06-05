@@ -137,6 +137,25 @@ Transfers between NRHO and DRO represent a challenging problem in low-thrust tra
 - Resonance orbit
 - Quasi-periodic orbit
 
+## Core Elements
+
+### Orbital Definition
+
+Distant Retrograde Orbit (DRO) is a stable periodic orbit around the Moon in the CRTBP, moving in the opposite direction to the Moon's orbit around Earth in the synodic reference frame. Key parameters include the x-direction amplitude $A_x$ (describing orbit configuration) and z-direction amplitude $A_z$ (enabling three-dimensional non-planar DROs).
+
+### Dynamic Characteristics
+
+- **Long-term stability**: Requires no or only minimal orbital maneuvers to maintain
+- **Resonance relationships**: Exhibits 1:1, 2:1, 3:1, etc. resonance ratios with the Moon's orbital period
+- **Dynamic symmetry**: Symmetric about the x-axis; when crossing the x-axis, only the y-direction velocity component exists
+- **Ephemeris model behavior**: Evolves into quasi-periodic orbits winding within a limited region
+
+### Design Methods
+
+- **Initial condition acquisition**: Exploit dynamic symmetry by selecting initial points on the x-axis, using $\dot{y}_0$ and period $T$ as free variables for iterative convergence
+- **Continuation method**: Continuation from 1:1 resonant small-amplitude DRO to higher-order resonant large-amplitude DRO
+- **Ephemeris model conversion**: Transfer CR3BP orbits to ephemeris models via the two-level differential correction method
+
 ## References
 
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. 2016.
@@ -144,3 +163,6 @@ Transfers between NRHO and DRO represent a challenging problem in low-thrust tra
 - Chen Yuju. DRO Orbit Design and Control Research for Cislunar Space Situation Awareness[D]. 2024.
 - Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. 2026.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
+- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
+- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
+- Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.
