@@ -110,9 +110,33 @@ Lyapunov orbits have value in both theoretical research and practical missions:
 ## Related Concepts
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
+- [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)
+- [Axial Orbit](/en/glossary/orbits/axial-orbit/)
+- [Butterfly Orbit](/en/glossary/orbits/butterfly-orbit/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+
+## Core Elements
+
+### Orbit Definition
+
+Lyapunov orbits are planar periodic orbits located near libration points in the CR3BP. They are the in-plane counterparts of Halo orbits — when the z-direction amplitude of a Halo orbit approaches zero, it degenerates into a Lyapunov orbit. They are parameterized by the initial displacement $x_0$ on the x-axis relative to the libration point.
+
+### Dynamic Characteristics
+
+- **Planar motion**: Lie strictly in the xOy plane with no z-direction motion component
+- **Periodicity**: Precisely closed periodic orbits forming closed curves in the synodic frame
+- **Symmetry**: Symmetric about the x-axis; y-direction velocity is zero when crossing the x-axis
+- **Unstable**: Both Lyapunov and Halo orbits are linearly unstable; Lyapunov unstable modes are simpler (in-plane only)
+- **Bifurcation**: Lyapunov orbit families generate Halo orbit families through pitchfork bifurcation
+
+### Computation Methods
+
+1. **Linearized initial guess**: Use linearized CR3BP analysis to obtain an approximate analytical solution near the libration point
+2. **Differential correction**: Apply shooting method to correct initial conditions for precise orbit closure
+3. **Parameter continuation**: Start from small-amplitude orbits, gradually increasing amplitude using each orbit as the initial guess for the next
 
 ## References
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Szebehely V. Theory of Orbits: The Restricted Problem of Three Bodies[M]. Academic Press, 1967.
 - Gomez G, Masdemont J, Simo C. Quasihalo orbits associated with libration points[J]. Journal of the Astronautical Sciences, 1998.
+- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
