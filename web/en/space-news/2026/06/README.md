@@ -13,6 +13,8 @@ lastUpdated: 2026-06-05
 
 | Date | Title |
 |------|-------|
+| 6-05 | [Long March 8 launches 12th Qianfan batch from Hainan commercial spaceport](./2026-06-05-qianfan-12-batch-long-march-8/) |
+| 6-04 | [3I/ATLAS is not an alien spacecraft: SETI technosignature search comes up empty](./2026-06-04-3i-atlas-seti-no-alien-signals/) |
 | 6-04 | [Long March 6A Modified Launches 18 Qianfan Polar-11 Satellites, Marking 648th Long March Flight](./2026-06-04-qianfan-11-batch-long-march-6a/) |
 | 6-04 | [Sahara Meteorite NWA 12774 Reveals Evidence of a Lost Solar System World: Aluminum-Rich Clinopyroxene Pushes the Angrite Parent Body Toward Lunar Mass](./2026-06-04-sahara-meteorite-lost-solar-system-world/) |
   6-04 | [Euclid Telescope Finds a Missing Patch of Stars in Globular Cluster NGC 6397: Evidence of the Partially-to-Fully Convective Transition in Red Dwarfs](./2026-06-04-ngc6397-star-cluster-missing-stars/) |

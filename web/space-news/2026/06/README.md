@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-05 | [长征八号在海南成功发射千帆极轨 12 组卫星 海南商发首次承担千帆组网任务](./2026-06-05-qianfan-12-batch-long-march-8/) |
+| 6-04 | [3I/ATLAS 不是外星飞船：SETI 监听未发现任何「技术签名」](./2026-06-04-3i-atlas-seti-no-alien-signals/) |
 | 6-04 | [长征六号改一箭 18 星成功发射千帆极轨 11 组卫星 长征系列累计第 648 次飞行](./2026-06-04-qianfan-11-batch-long-march-6a/) |
 | 6-04 | [Mini-Neptune 系外行星被指是天然柴油机：JWST 观测指向 PAH 煤烟](./2026-06-04-exoplanet-soot-factories-jwst-mini-neptune/) |
 | 6-03 | [Starlink 17-47 从范登堡升空，SpaceX 完成第 618 次一级回收](./2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/) |
