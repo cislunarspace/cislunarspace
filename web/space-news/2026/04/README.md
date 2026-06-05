@@ -64,7 +64,7 @@ wechatShare:
 | 4-27 | [NASA 好奇号与毅力号火星车同时发布 360 度全景图：揭示红色星球两侧亿年地貌](./2026-04-27-nasa-mars-panoramas/) |
 | 4-24 | [长征二号D一箭四星，成功发射卫星互联网技术试验卫星](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [蓝色起源第三次新格伦火箭发射入轨异常](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
-| 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
+| 4-24 | [SpaceX为美国天军发射最后一颗GPS III卫星](./2026-04-21-gps-iii-sv10/) |
 | 4-24 | [天问三号计划2028年前后发射，2031年携火星样品返回地球](./2026-04-24-tianwen-3-mars-sample-return/) |
 | 4-24 | [2026年中国商业航天进入"量产元年"，全年发射有望破百次](./2026-04-24-commercial-space-mass-production/) |
 | 4-24 | [第11个中国航天日：七秩问天路 携手探九霄](./2026-04-24-china-space-day-2026-ceremony/) |
@@ -97,8 +97,6 @@ wechatShare:
 | 日期 | 标题 |
 |------|------|
 | 4-1 | [中国初创公司 Sustain Space 在轨验证柔性机械臂，推进在轨服务能力](./2026-04-01-china-robotic-arm/) |
-| 4-2 | [Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球](./2026-04-02-artemis-2-tli-go/) |
-| 4-2 | [Artemis II 飞行第 2 天：任务团队批准执行地月转移注入燃烧，猎户座即将飞向月球](./2026-04-02-artemis-2-tli-go/) |
 | 4-2 | [Artemis II 飞行第 2 天：TLI 燃烧成功完成，猎户座正式踏上奔月之旅](./2026-04-02-artemis-2-tli-complete/) |
 | 4-3 | [天龙三号首飞失利：中国商业航天大运力火箭首次飞行遭遇异常](./2026-04-03-tianlong-3-maiden-flight/) |
 | 4-3 | [联盟-5（额尔齐斯）运载火箭执行首飞测试：俄罗斯新一代中型火箭从拜科努尔发射](./2026-04-03-soyuz-5-maiden-flight/) |
@@ -187,8 +185,6 @@ wechatShare:
 | 4-22 | [NASA 在第 30 届 Webby 奖评选中斩获两项大奖及五项人民之声奖](./2026-04-22-nasa-webby-awards/) |
 | 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [长征四号丙成功发射大气环境监测卫星](./2026-04-22-daqi-2-launch/) |
-| 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
-| 4-22 | [SpaceX成功发射GPS III SV10卫星](./2026-04-22-gps-iii-sv10-launch/) |
 | 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Blue Origin新格伦号火箭发射失败](./2026-04-22-new-glenn-failure/) |
 | 4-14 | [Rocket Lab发布新型霍尔效应推进系统，专为大规模星座量产设计](./2026-04-14-rocket-lab-gauss-propulsion/) |

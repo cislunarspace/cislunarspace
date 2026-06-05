@@ -66,7 +66,7 @@ wechatShare:
 | 4-27 | [NASA's Curiosity and Perseverance Rovers Release Simultaneous 360-Degree Panoramas of Mars](./2026-04-27-nasa-mars-panoramas/) |
 | 4-24 | [China Launches Satellite Internet Technology Test Satellites via Long March 2D](./2026-04-24-satellite-internet-test-satellite/) |
 | 4-24 | [Blue Origin's Third New Glenn Flight Fails to Reach Target Orbit](./2026-04-19-blue-origin-new-glenn-3-wrong-orbit/) |
-| 4-24 | [SpaceX Launches Final GPS III Satellite for U.S. Space Force](./2026-04-21-gps-iii-sv10-hedy-lamar-launch/) |
+| 4-24 | [SpaceX Launches Final GPS III Satellite for U.S. Space Force](./2026-04-21-gps-iii-sv10/) |
 | 4-24 | [Tianwen-3 Mars Sample Return: Launch Planned for ~2028, Return with Samples by ~2031](./2026-04-24-tianwen-3-mars-sample-return/) |
 | 4-24 | [2026 Marks China's Commercial Space "Mass Production Era" with 100+ Launches Projected](./2026-04-24-commercial-space-mass-production/) |
 | 4-24 | [11th China Space Day: 70 Years of Journey to the Stars](./2026-04-24-china-space-day-2026-ceremony/) |
@@ -139,7 +139,6 @@ wechatShare:
 | 4-14 | [SpaceX Deploys 1,000th Starlink Satellite of 2026](./2026-04-14-spacex-1000th-starlink/) |
 | 4-15 | [Parker Solar Probe Finds Surprises in Solar Explosion Events](./2026-04-15-parker-solar-probe/) |
 | 4-16 | [SOHO Coronagraph Captures Sungrazer Comet Disintegrating Near the Sun](./2026-04-16-soho-comet-disintegration/) |
-| 4-17 | [Commercial Space Safety Regulatory Meeting Held in Beijing: 2026 Key Tasks Deployed](./2026-04-17-commercial-space-safety-meeting/) |
 | 4-17 | [China Launches High-Precision Greenhouse Gas Detection Satellite](./2026-04-17-greenhouse-gas-satellite/) |
 | 4-17 | [Blue Origin New Glenn Rocket Orbital Deviation, AST BlueBird 7 Satellite to Be Controlled Deorbited](./2026-04-17-bluebird-7-orbit/) |
 | 4-17 | [NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operational](./2026-04-17-voyager-1-instrument-shutdown/) |
@@ -186,8 +185,6 @@ wechatShare:
 | 4-22 | [NASA Wins Two Webby Awards and Five People's Voice Awards at 30th Annual Awards](./2026-04-22-nasa-webby-awards/) |
 | 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Long March 4C Successfully Launches Atmospheric Monitoring Satellite](./2026-04-22-daqi-2-launch/) |
-| 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
-| 4-22 | [SpaceX Successfully Launches GPS III SV10 Satellite](./2026-04-22-gps-iii-sv10-launch/) |
 | 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
 | 4-22 | [Blue Origin's New Glenn Rocket Fails to Reach Orbit](./2026-04-22-new-glenn-failure/) |
 | 4-14 | [Rocket Lab Unveils New Gauss Hall-Effect Propulsion System for Mass Production Constellations](./2026-04-14-rocket-lab-gauss-propulsion/) |
