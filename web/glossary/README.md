@@ -120,7 +120,7 @@ twitter:
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
 - [超低地球轨道（VLEO）](/glossary/fundamentals/vleo/)
-- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)
+- [轨道辨识（Orbit Identification）](/glossary/orbits/orbit-identification/)
 - [拟周期轨道（Quasi-Periodic Orbit）](/glossary/orbits/quasi-periodic-orbit/)
 - [共振轨道（Resonance Orbit）](/glossary/orbits/resonance-orbit/)
 - [轨道保持（Orbit Keeping）](/glossary/orbits/orbit-keeping/)

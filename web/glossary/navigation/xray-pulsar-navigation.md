@@ -94,7 +94,7 @@ X射线脉冲星导航具有自主性强、抗干扰能力强、导航误差不�
 
 - [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
 - [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
-- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)
+- [轨道辨识（Orbit Identification）](/glossary/orbits/orbit-identification/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 
 ## 参考文献

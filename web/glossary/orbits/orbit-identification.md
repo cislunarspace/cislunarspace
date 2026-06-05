@@ -19,7 +19,7 @@ twitter:
   title: 轨道辨识详解 | 地月空间态势感知
   description: 详细解析地月空间轨道辨识的定义、与传统数值积分方法的对比、基于特征参数的辨识流程，以及对观测弧段和观测误差的鲁棒性
   image: /logo.png
-permalink: /glossary/navigation/orbit-identification/
+permalink: /glossary/orbits/orbit-identification/
 ---
 
 # 轨道辨识

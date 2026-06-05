@@ -178,7 +178,7 @@ CR3BP 是地月空间轨道设计的基础模型，可有效研究平动点附�
 - [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)：平动点邻域相空间分解中的中心方向不变流形
 - [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)：可积哈密顿系统的标准正则坐标
 - [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)：高维相空间降维可视化工具
-- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)：基于特征参数的平动点轨道识别方法
+- [轨道辨识（Orbit Identification）](/glossary/orbits/orbit-identification/)：基于特征参数的平动点轨道识别方法
 
 ## 参考文献
 

@@ -109,7 +109,7 @@ Poincaré 截面是平动点轨道分布可视化和轨道辨识的核心工具�
 
 - [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
 - [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
-- [轨道辨识（Orbit Identification）](/glossary/navigation/orbit-identification/)
+- [轨道辨识（Orbit Identification）](/glossary/orbits/orbit-identification/)
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 不变环面（Invariant Torus）
 - 分叉（Bifurcation）
