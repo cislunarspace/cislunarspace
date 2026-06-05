@@ -353,8 +353,13 @@ function resolveOneLink(
     // Resolve the relative path against the source file's route parent directory.
     const sourceRoute = reverseLookup(routeTable, sourceRelPath)
     if (sourceRoute) {
-      // permalink is like /glossary/orbits/source/ — go up to parent /glossary/orbits/
-      const parentDir = new URL('..', 'file://' + sourceRoute).pathname
+      // For directory indexes (README.md / index.md), the route IS the
+      // directory — use it directly as parent.  For other files the route
+      // is a leaf, so go up one level to get the parent directory.
+      const isDirIndex = /(?:^|\/)(?:README|index)\.md$/.test(sourceRelPath)
+      const parentDir = isDirIndex
+        ? sourceRoute
+        : new URL('..', 'file://' + sourceRoute).pathname
       const resolvedRoute = new URL(pathPart, 'file://' + parentDir).pathname
       const file = routeTable.get(resolvedRoute) ?? routeTable.get(resolvedRoute + '/')
       if (file) {

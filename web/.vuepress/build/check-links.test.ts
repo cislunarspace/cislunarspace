@@ -150,6 +150,34 @@ describe('resolveLinks', () => {
     expect(ok[0]!.resolved).toBe('glossary/orbits/dro.md')
   })
 
+  it('resolves relative directory-style links from README directory routes (issue #113)', () => {
+    // README.md with a directory permalink should resolve ./slug/ links
+    // to sibling articles in the same directory, not one level up.
+    const readmeFiles: MarkdownFile[] = [
+      {
+        absPath: '/web/space-news/2026/04/README.md',
+        relPath: 'space-news/2026/04/README.md',
+        content:
+          '---\npermalink: /space-news/2026/04/\ntitle: Index\n---\n[article](./2026-04-30-article/)\n',
+      },
+      {
+        absPath: '/web/space-news/2026/04/2026-04-30-article.md',
+        relPath: 'space-news/2026/04/2026-04-30-article.md',
+        content:
+          '---\npermalink: /space-news/2026/04/2026-04-30-article/\ntitle: Article\n---\nBody\n',
+      },
+    ]
+    const results = resolveLinks(readmeFiles)
+    const ok = results.filter((r) => r.status === 'ok')
+    const broken = results.filter((r) => r.status === 'broken')
+    expect(ok).toHaveLength(1)
+    expect(ok[0]!.original).toBe('./2026-04-30-article/')
+    expect(ok[0]!.resolved).toBe(
+      'space-news/2026/04/2026-04-30-article.md',
+    )
+    expect(broken).toHaveLength(0)
+  })
+
   it('marks links with anchor as anchor-unchecked', () => {
     const anchorFiles: MarkdownFile[] = [
       {
