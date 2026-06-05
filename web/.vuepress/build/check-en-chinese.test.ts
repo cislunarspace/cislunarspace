@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { scanContent, scanEnglishFiles } from './check-en-chinese'
+import { scanContent, scanEnglishFiles, computeExitCode } from './check-en-chinese'
 import type { AllowlistEntry, Finding } from './check-en-chinese-types.ts'
 import type { MarkdownFile } from '../utils/markdown-walker.ts'
 
@@ -379,5 +379,61 @@ describe('scanEnglishFiles', () => {
   it('includes scanTime in ISO format', () => {
     const report = scanEnglishFiles([])
     expect(report.scanTime).toMatch(/^\d{4}-\d{2}-\d{2}T/)
+  })
+})
+
+// ── CLI — computeExitCode ────────────────────────────────────────────────────
+
+describe('computeExitCode', () => {
+  it('returns 0 when no findings', () => {
+    expect(computeExitCode([], 'error')).toBe(0)
+    expect(computeExitCode([], 'warn')).toBe(0)
+  })
+
+  it('returns 1 when error findings and threshold is error', () => {
+    const findings: Finding[] = [
+      { file: 'test.md', line: 1, column: 1, zone: 'body', text: '中文', severity: 'error', rule: 'chinese-in-body', allowlisted: false },
+    ]
+    expect(computeExitCode(findings, 'error')).toBe(1)
+  })
+
+  it('returns 0 when only info findings and threshold is error', () => {
+    const findings: Finding[] = [
+      { file: 'test.md', line: 1, column: 1, zone: 'references', text: '中文', severity: 'info', rule: 'auto-whitelist-references', allowlisted: true },
+    ]
+    expect(computeExitCode(findings, 'error')).toBe(0)
+  })
+
+  it('returns 1 when warn findings and threshold is warn', () => {
+    const findings: Finding[] = [
+      { file: 'test.md', line: 1, column: 1, zone: 'body', text: '中文', severity: 'warn', rule: 'stale-allowlist', allowlisted: false },
+    ]
+    expect(computeExitCode(findings, 'warn')).toBe(1)
+  })
+
+  it('returns 0 when only warn findings and threshold is error', () => {
+    const findings: Finding[] = [
+      { file: 'test.md', line: 1, column: 1, zone: 'body', text: '中文', severity: 'warn', rule: 'stale-allowlist', allowlisted: false },
+    ]
+    expect(computeExitCode(findings, 'error')).toBe(0)
+  })
+})
+
+// ── CLI — JSON output structure ──────────────────────────────────────────────
+
+describe('JSON output', () => {
+  it('scanEnglishFiles produces valid JSON-serializable report', () => {
+    const files = [
+      md('en/test.md', '# Title\n\n中文\n\n## References\n\n- 引用\n'),
+    ]
+    const report = scanEnglishFiles(files)
+    const json = JSON.parse(JSON.stringify(report))
+    expect(json.scanTime).toBeDefined()
+    expect(json.filesScanned).toBe(1)
+    expect(json.findings).toBeInstanceOf(Array)
+    expect(json.summary.total).toBeDefined()
+    expect(json.summary.byZone).toBeDefined()
+    expect(json.summary.allowlisted).toBeDefined()
+    expect(json.summary.unexplained).toBeDefined()
   })
 })

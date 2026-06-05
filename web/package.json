@@ -11,6 +11,7 @@
     "docs:build:parallel": "npm run gen-sidebar && tsx .vuepress/build/sharded-build.ts",
     "sync-figures": "tsx .vuepress/build/sync-figures.js",
     "check:bilingual": "tsx .vuepress/build/check-bilingual-mirror.ts",
+    "check:en-chinese": "tsx .vuepress/build/check-en-chinese.ts",
     "check:links": "tsx .vuepress/build/check-links.ts",
     "test": "vitest run",
     "test:watch": "vitest"

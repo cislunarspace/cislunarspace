@@ -485,7 +485,7 @@ function printTerminal(report: ScanReport): void {
   console.log(`  Total: ${summary.total} | ${C.red}Error: ${errorCount}${C.reset} | ${C.yellow}Warn: ${warnCount}${C.reset} | ${C.dim}Info: ${infoCount}${C.reset} | Allowlisted: ${summary.allowlisted} | Unexplained: ${summary.unexplained}`)
 }
 
-function computeExitCode(findings: Finding[], maxSeverity: 'error' | 'warn'): number {
+export function computeExitCode(findings: Finding[], maxSeverity: 'error' | 'warn'): number {
   const rank: Record<string, number> = { info: 0, warn: 1, error: 2 }
   const threshold = rank[maxSeverity]
   return findings.some(f => rank[f.severity] >= threshold) ? 1 : 0
