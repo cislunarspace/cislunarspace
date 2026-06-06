@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-05
-lastUpdated: 2026-06-05
+lastUpdated: 2026-06-06
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-05 | [NASA X-59 静音超音速验证机首次突破音障：Mach 1.1、713 mph、43,400 英尺](./2026-06-05-nasa-x59-quesst-supersonic/) |
 | 6-05 | [天文学家在银河系中心黑洞周围发现 50 年来悬而未决的黑洞风](./2026-06-05-milky-way-black-hole-wind/) |
 | 6-05 | [国际空间站美国与欧洲航天员躲入龙飞船 俄罗斯宇航员在舱外修补「进步号」转运通道漏气](./2026-06-05-iss-shelter-dragon-air-leak/) |
 | 6-05 | [MAVEN 火星探测器终章：NASA 估算其将在 50–100 年内坠入火星大气](./2026-06-05-maven-mars-crash-morgue/) |

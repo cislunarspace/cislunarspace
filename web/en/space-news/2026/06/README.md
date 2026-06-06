@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-05
-lastUpdated: 2026-06-05
+lastUpdated: 2026-06-06
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-05
 
 | Date | Title |
 |------|-------|
+| 6-05 | [NASA's X-59 quiet supersonic jet finally breaks the sound barrier: Mach 1.1, 713 mph, 43,400 feet](./2026-06-05-nasa-x59-quesst-supersonic/) |
 | 6-05 | [Astronomers Detect Long-Sought Wind From Milky Way's Central Black Hole](./2026-06-05-milky-way-black-hole-wind/) |
 | 6-05 | [ISS Crew Shelters in SpaceX Dragon as Cosmonauts Work to Seal Years-Long Air Leak](./2026-06-05-iss-shelter-dragon-air-leak/) |
 | 6-05 | [MAVEN's Final Fall: NASA Estimates the Dead Mars Orbiter Will Plunge into the Red Planet Within 50 to 100 Years](./2026-06-05-maven-mars-crash-morgue/) |
