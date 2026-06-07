@@ -3,8 +3,8 @@ title: 航天动态 · 2026 年 6 月
 description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
-date: 2026-06-05
-lastUpdated: 2026-06-06
+date: 2026-06-06
+lastUpdated: 2026-06-07
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+  6-06 | [SpaceX 范登堡 6 月 6 日夜间发射 21 颗 Starlink + 2 颗 Starshield 卫星：OCISLY 第 201 次着陆、SpaceX 累计第 620 次一级回收](./2026-06-06-starlink-17-43-starshield-launch/) |
 | 6-05 | [NASA X-59 静音超音速验证机首次突破音障：Mach 1.1、713 mph、43,400 英尺](./2026-06-05-nasa-x59-quesst-supersonic/) |
 | 6-05 | [天文学家在银河系中心黑洞周围发现 50 年来悬而未决的黑洞风](./2026-06-05-milky-way-black-hole-wind/) |
 | 6-05 | [国际空间站美国与欧洲航天员躲入龙飞船 俄罗斯宇航员在舱外修补「进步号」转运通道漏气](./2026-06-05-iss-shelter-dragon-air-leak/) |
@@ -59,6 +60,7 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-07: 新增 Starlink 17-43 范登堡发射（SFN 6/6 15:43 PDT 末次更新 6/7 04:50 UTC）：21 颗 Starlink + 2 颗 Starshield 卫星 6/6 21:24:30 PDT（UTC 6/7 04:24:30）从 SLC-4E 升空，B1097 第十次飞行在 OCISLY 完成第 201 次着陆，SpaceX 累计第 620 次 booster 回收；2 颗 Starshield 隶属 NRO「多现象学扩散架构」星座，与 2025 年 Starlink 13-1/13-4「混入」模式一致
 - 2026-06-06: 新增 6/5 ISS 漏气避险事件报道（space.com 6/5 15:30 UTC + SFN 6/5 14:30 UTC）：NASA 出于「审慎原则」指示 SpaceX Crew-12 四名乘员（Jessica Meir、Jack Hathaway、Sophie Adenot、Andrey Fedyaev）与 NASA 航天员 Chris Williams 共同进入龙飞船避险；俄方主导修复 PrK 转运通道（通往「星辰」号服务舱）漏气点，4 月漏气速率从 0.6 kg/天反弹至 1.4 kg/天，修复目标降至 0.3 kg/天
 - 2026-06-06: 新增 MAVEN 火星探测器终章：50–100 年坠入火星大气（space.com 6/4 15:00 UTC）：NASA 6/3 宣告任务结束后两天，项目主管 Mike Moreau 6/5 简报披露 MAVEN 当前轨道「与按计划退役时几乎一致」；原设计 50–100 年衰减窗口由太阳活动周期决定；探测器将成为「火星停尸房」新成员；NASA 在轨火星探测器从 3 台缩编为 2 台（Odyssey 2001 / MRO 2005）
 - 2026-06-05: 新增 Starlink 10-43 6/4 补飞结果稿（space.com 6/4 18:00 UTC 合并回顾）：6/3 上午 7:24 EDT 因冷锋触发积云云团+厚云层+表面电场规则被取消 31 小时后，10-43 于 6/4 美东 06:26（UTC 10:26）从 SLC-40 升空，29 颗 V2 Mini Optimized 卫星入轨，B1090 第 12 次飞行在 ASOG 无人船甲板着陆，标志 ASOG 第 153 次成功回收与 SpaceX 整个一级回收序列的第 619 次；与 6/3 OCISLY 第 200 次 / SpaceX 第 618 次形成 24 小时内两次东/西海岸回收

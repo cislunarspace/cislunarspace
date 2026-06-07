@@ -3,8 +3,8 @@ title: Space News · June 2026
 description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
-date: 2026-06-05
-lastUpdated: 2026-06-06
+date: 2026-06-06
+lastUpdated: 2026-06-07
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-06
 
 | Date | Title |
 |------|-------|
+  6-06 | [SpaceX launches 21 Starlink + 2 Starshield satellites from Vandenberg on June 6: OCISLY's 201st landing, SpaceX's 620th booster recovery overall](./2026-06-06-starlink-17-43-starshield-launch/) |
 | 6-05 | [NASA's X-59 quiet supersonic jet finally breaks the sound barrier: Mach 1.1, 713 mph, 43,400 feet](./2026-06-05-nasa-x59-quesst-supersonic/) |
 | 6-05 | [Astronomers Detect Long-Sought Wind From Milky Way's Central Black Hole](./2026-06-05-milky-way-black-hole-wind/) |
 | 6-05 | [ISS Crew Shelters in SpaceX Dragon as Cosmonauts Work to Seal Years-Long Air Leak](./2026-06-05-iss-shelter-dragon-air-leak/) |
@@ -56,6 +57,7 @@ lastUpdated: 2026-06-06
 - 2026-06-06: Added 6/5 ISS air-leak sheltering event coverage (space.com 6/5 15:30 UTC + SFN 6/5 14:30 UTC): Out of an abundance of caution, NASA directed the four SpaceX Crew-12 crew members (Jessica Meir, Jack Hathaway, Sophie Adenot, Andrey Fedyaev) plus NASA astronaut Chris Williams to take shelter inside Dragon; Roscosmos is leading the seal work on the PrK transfer tunnel leading to the Zvezda service module. The leak rate had rebounded from 0.6 kg/day to 1.4 kg/day in April and the goal of the current repair is to bring it back below 0.3 kg/day
 - 2026-06-06: Added MAVEN 50–100-year fall-to-Mars epilogue (space.com 6/4 15:00 UTC): two days after NASA officially ended the mission on 6/3, project manager Mike Moreau disclosed in a 6/5 briefing that MAVEN's current orbit is "very similar to what it would have been if the mission had ended nominally"; the original design called for 50 to 100 years of natural decay, with the exact timeline set by the 11-year solar cycle modulating the Martian upper atmosphere. MAVEN joins the "Mars morgue" of dead probes; NASA's active Mars orbiter fleet drops from three to two (Odyssey 2001 / MRO 2005)
 - 2026-06-05: Added Starlink 10-43 June 4 make-up launch article (space.com 6/4 18:00 UTC combined retrospective): 31 hours after the June 3 7:24 a.m. EDT scrub caused by a cold front triggering cumulus cloud, thick-cloud, and surface electric field rules, Falcon 9 lifted off from SLC-40 at 6:26 a.m. EDT (10:26 UTC) on June 4 with 29 V2 Mini Optimized satellites; booster B1090 on its 12th flight landed on the A Shortfall of Gravitas droneship, marking ASOG's 153rd catch and SpaceX's 619th Falcon 9 first-stage recovery overall. Pairs with the June 3 OCISLY 200th / SpaceX 618th catch to deliver two recoveries in 19 hours across the two coasts
+- 2026-06-07: Added Starlink 17-43 Vandenberg launch coverage (SFN 6/6 15:43 PDT, last update 6/7 04:50 UTC): 21 Starlink + 2 Starshield satellites lifted off 6/6 at 21:24:30 PDT (04:24:30 UTC 6/7) from SLC-4E; B1097 on its 10th flight completed the 201st landing on OCISLY, SpaceX's 620th booster recovery overall. The two Starshield satellites are believed to be part of NRO's "multi-phenomenology proliferated architecture" constellation, following the same piggyback-into-public-Starlink-batch pattern as the 2025 Starlink 13-1 / 13-4 missions
 - 2026-06-05: Added NWA 12774 angrite meteorite study (CU Boulder, Aaron Bell et al., space.com 6/4 coverage): a 2019 Sahara-recovered sample carries clinopyroxene crystals exceptionally rich in aluminum — a geobarometer that pushes the angrite parent body from "asteroid-sized" up toward a near-lunar-mass protoplanet, following a planetary-formation pathway distinct from Earth and Mars. The first direct geochemical evidence of an "existed once, destroyed later" lost world in the early solar system
 - 2026-06-05: Added ESA Euclid observation of a brightness gap in the H-R diagram of globular cluster NGC 6397 (STScI 6/4 release, space.com coverage): a specific red-dwarf brightness slot is almost completely empty, consistent with the structural transition from partially convective to fully convective stellar interiors. The gap was a serendipitous byproduct of a proper-motion survey, not a planned target
 - 2026-06-05: Added NASA Administrator Isaacman June 4 FOX Business interview coverage (SFN 6/4 18:08 UTC): first public statement to "decouple the lander from the launch vehicle and the pad" — Blue Moon MK1 cargo and "potentially" MK2 crewed landers to shift off New Glenn onto another rocket, with Artemis 3 still targeted at a 2027 test mission and 2028 crewed lunar landing; paired with Blue Origin CEO Dave Limp's June 1 social-media statement that LC-36 propellant tanks are intact, the support tower can be repaired in place, and New Glenn will fly again before year-end. The NASA "swap the rocket" and Blue Origin "repair in place" threads now run in parallel alongside the June 1 industry-analyst piece (which framed the incident as a "pretty significant setback" for the Blue Moon program)
