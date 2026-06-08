@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-08 | [日冕物质抛射引发 G3 地磁暴：6 月 8 日北极光或南延至美国伊利诺伊州](./2026-06-08-cme-geomagnetic-storm/) |
+| 6-08 | [英国政府与 Vast 签署合作协议：推动 ESA 残疾人航天员 John McFall 飞往 Haven-1 空间站](./2026-06-08-mcfall-vast-haven1/) |
 | 6-08 | [Prada 联手 Axiom 公布 Artemis 登月宇航服内层冷却衣](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
 | 6-08 | [SpaceX 猎鹰 9 号 B1067 完成第 35 次飞行,刷新复用纪录](./2026-06-08-falcon9-b1067-35th-flight/) |
 | 6-08 | [NASA 将于 6 月 9 日公布 Artemis 3 登月乘组名单](./2026-06-08-artemis-3-crew-announcement/) |

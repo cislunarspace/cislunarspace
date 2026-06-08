@@ -13,6 +13,8 @@ lastUpdated: 2026-06-08
 
 | Date | Title |
 |------|-------|
+|  6-08 | [CME Triggers G3 Geomagnetic Storm: Northern Lights May Reach Illinois on June 8](./2026-06-08-cme-geomagnetic-storm/) |
+|  6-08 | [UK Government and Vast Sign Agreement to Fly ESA Parastronaut John McFall to Haven-1](./2026-06-08-mcfall-vast-haven1/) |
 |  6-08 | [Prada and Axiom Unveil Artemis Moon Suit Cooling Garment](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
 |  6-08 | [SpaceX Falcon 9 Booster B1067 Completes Record-Breaking 35th Flight](./2026-06-08-falcon9-b1067-35th-flight/) |
 |  6-08 | [NASA to Announce Artemis 3 Crew on June 9](./2026-06-08-artemis-3-crew-announcement/) |
