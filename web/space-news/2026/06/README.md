@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-08 | [Prada 联手 Axiom 公布 Artemis 登月宇航服内层冷却衣](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
 | 6-08 | [SpaceX 猎鹰 9 号 B1067 完成第 35 次飞行,刷新复用纪录](./2026-06-08-falcon9-b1067-35th-flight/) |
 | 6-08 | [NASA 将于 6 月 9 日公布 Artemis 3 登月乘组名单](./2026-06-08-artemis-3-crew-announcement/) |
 | 6-07 | [LMC 正在撕裂它的伴星系：VISTA 11 年巡天揭示银河系近邻的引力角力](./2026-06-07-lmc-ripping-smc/) |
