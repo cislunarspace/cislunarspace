@@ -3,8 +3,8 @@ title: 航天动态 · 2026 年 6 月
 description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
-date: 2026-06-08
-lastUpdated: 2026-06-08
+date: 2026-06-09
+lastUpdated: 2026-06-09
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-09 | [JWST 首次称量百亿光年外休眠超大质量黑洞：质量为太阳 60 亿倍](./2026-06-09-jwst-sleeping-giant-black-hole/) |
 | 6-08 | [波士顿大学团队提出 StormWall 概念：用航天器编队强化地球磁层抵御太阳风暴](./2026-06-08-stormwall-magnetosphere-shield/) |
 | 6-08 | [日冕物质抛射引发 G3 地磁暴：6 月 8 日北极光或南延至美国伊利诺伊州](./2026-06-08-cme-geomagnetic-storm/) |
 | 6-08 | [英国政府与 Vast 签署合作协议：推动 ESA 残疾人航天员 John McFall 飞往 Haven-1 空间站](./2026-06-08-mcfall-vast-haven1/) |
