@@ -3,8 +3,8 @@ title: Space News · June 2026
 description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
-date: 2026-06-07
-lastUpdated: 2026-06-07
+date: 2026-06-08
+lastUpdated: 2026-06-08
 ---
 
 # June 2026
@@ -13,6 +13,8 @@ lastUpdated: 2026-06-07
 
 | Date | Title |
 |------|-------|
+|  6-08 | [SpaceX Falcon 9 Booster B1067 Completes Record-Breaking 35th Flight](./2026-06-08-falcon9-b1067-35th-flight/) |
+|  6-08 | [NASA to Announce Artemis 3 Crew on June 9](./2026-06-08-artemis-3-crew-announcement/) |
 |  6-07 | [The Large Magellanic Cloud is tearing its smaller neighbor apart, VISTA's 11-year sky survey reveals](./2026-06-07-lmc-ripping-smc/) |
 |  6-07 | [Meteor storms may threaten Artemis 4: NASA weighs the risk to future moon missions](./2026-06-07-meteor-storms-artemis-4-risk/) |
 |  6-06 | [SpaceX launches 21 Starlink + 2 Starshield satellites from Vandenberg on June 6: OCISLY's 201st landing, SpaceX's 620th booster recovery overall](./2026-06-06-starlink-17-43-starshield-launch/) |

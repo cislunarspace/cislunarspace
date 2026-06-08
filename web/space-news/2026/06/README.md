@@ -3,8 +3,8 @@ title: 航天动态 · 2026 年 6 月
 description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
-date: 2026-06-07
-lastUpdated: 2026-06-07
+date: 2026-06-08
+lastUpdated: 2026-06-08
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-08 | [SpaceX 猎鹰 9 号 B1067 完成第 35 次飞行,刷新复用纪录](./2026-06-08-falcon9-b1067-35th-flight/) |
+| 6-08 | [NASA 将于 6 月 9 日公布 Artemis 3 登月乘组名单](./2026-06-08-artemis-3-crew-announcement/) |
 | 6-07 | [LMC 正在撕裂它的伴星系：VISTA 11 年巡天揭示银河系近邻的引力角力](./2026-06-07-lmc-ripping-smc/) |
 | 6-07 | [流星暴雨撞上 Artemis 4 窗口：NASA 评估未来月球任务与天外来客的博弈](./2026-06-07-meteor-storms-artemis-4-risk/) |
 | 6-06 | [SpaceX 范登堡 6 月 6 日夜间发射 21 颗 Starlink + 2 颗 Starshield 卫星：OCISLY 第 201 次着陆、SpaceX 累计第 620 次一级回收](./2026-06-06-starlink-17-43-starshield-launch/) |
