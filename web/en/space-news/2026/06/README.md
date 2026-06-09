@@ -13,6 +13,7 @@ lastUpdated: 2026-06-09
 
 | Date | Title |
 |------|-------|
+| 6-09 | [LandSpace ZQ-2E Y6 launches two Qianfan and China Mobile satellites on single rocket](./2026-06-09-zhuque-2e-y6-qianfan-dtc/) |
 | 6-09 | [JWST Weighs a 'Sleeping Giant' Black Hole 10 Billion Light-Years Away: 6 Billion Times the Sun's Mass](./2026-06-09-jwst-sleeping-giant-black-hole/) |
 | 6-08 | [Quantum Space to Go Public via SPAC Deal Valued at Over $1.1 Billion](./2026-06-08-quantum-space-spac-deal/) |
 | 6-08 | [FCC Grants Amazon Leo Deployment Extension but Temporarily Strips Spectrum Priority](./2026-06-08-fcc-amazon-leo-spectrum-penalty/) |
@@ -22,6 +23,7 @@ lastUpdated: 2026-06-09
 |  6-08 | [Prada and Axiom Unveil Artemis Moon Suit Cooling Garment](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
 |  6-08 | [SpaceX Falcon 9 Booster B1067 Completes Record-Breaking 35th Flight](./2026-06-08-falcon9-b1067-35th-flight/) |
 |  6-08 | [NASA to Announce Artemis 3 Crew on June 9](./2026-06-08-artemis-3-crew-announcement/) |
+|  6-07 | [Shenzhou-23 Crew Releases First In-Orbit Work Images; One Member to Attempt China's First Year-Long Space Station Stay](./2026-06-07-sz23-first-inorbit-images/) |
 |  6-07 | [The Large Magellanic Cloud is tearing its smaller neighbor apart, VISTA's 11-year sky survey reveals](./2026-06-07-lmc-ripping-smc/) |
 |  6-07 | [Meteor storms may threaten Artemis 4: NASA weighs the risk to future moon missions](./2026-06-07-meteor-storms-artemis-4-risk/) |
 |  6-06 | [SpaceX launches 21 Starlink + 2 Starshield satellites from Vandenberg on June 6: OCISLY's 201st landing, SpaceX's 620th booster recovery overall](./2026-06-06-starlink-17-43-starshield-launch/) |
@@ -65,7 +67,9 @@ lastUpdated: 2026-06-09
 
 ## Update Log
 
-- 2026-06-06: Added 6/5 ISS air-leak sheltering event coverage (space.com 6/5 15:30 UTC + SFN 6/5 14:30 UTC): Out of an abundance of caution, NASA directed the four SpaceX Crew-12 crew members (Jessica Meir, Jack Hathaway, Sophie Adenot, Andrey Fedyaev) plus NASA astronaut Chris Williams to take shelter inside Dragon; Roscosmos is leading the seal work on the PrK transfer tunnel leading to the Zvezda service module. The leak rate had rebounded from 0.6 kg/day to 1.4 kg/day in April and the goal of the current repair is to bring it back below 0.3 kg/day
+- 2026-06-09: Added Shenzhou-23 crew first in-orbit work images report (CMSA 6/7 release): three astronauts adapted to microgravity, conducting 100+ science experiments; one crew member will span Shenzhou-23 and Shenzhou-24 for China's first year-long single-mission space station residency; Hong Kong's first astronaut Lai Ka-ying among the crew
+- 2026-06-09: Added LandSpace ZQ-2E Y6 launch report (CCTV News 6/9): ZQ-2E Y6 two-satellite ride, Qianfan DTC 01 + China Mobile 02 to orbit, 8th Zhuque-2 family flight, 2nd ZQ-2E in 27 days; first Qianfan satellite launched on a commercial rocket
+- 2026-06-07: Added Starlink 17-43 Vandenberg launch coverage (SFN 6/6 15:43 PDT, last update 6/7 04:50 UTC)
 - 2026-06-06: Added MAVEN 50–100-year fall-to-Mars epilogue (space.com 6/4 15:00 UTC): two days after NASA officially ended the mission on 6/3, project manager Mike Moreau disclosed in a 6/5 briefing that MAVEN's current orbit is "very similar to what it would have been if the mission had ended nominally"; the original design called for 50 to 100 years of natural decay, with the exact timeline set by the 11-year solar cycle modulating the Martian upper atmosphere. MAVEN joins the "Mars morgue" of dead probes; NASA's active Mars orbiter fleet drops from three to two (Odyssey 2001 / MRO 2005)
 - 2026-06-05: Added Starlink 10-43 June 4 make-up launch article (space.com 6/4 18:00 UTC combined retrospective): 31 hours after the June 3 7:24 a.m. EDT scrub caused by a cold front triggering cumulus cloud, thick-cloud, and surface electric field rules, Falcon 9 lifted off from SLC-40 at 6:26 a.m. EDT (10:26 UTC) on June 4 with 29 V2 Mini Optimized satellites; booster B1090 on its 12th flight landed on the A Shortfall of Gravitas droneship, marking ASOG's 153rd catch and SpaceX's 619th Falcon 9 first-stage recovery overall. Pairs with the June 3 OCISLY 200th / SpaceX 618th catch to deliver two recoveries in 19 hours across the two coasts
 - 2026-06-07: Added Starlink 17-43 Vandenberg launch coverage (SFN 6/6 15:43 PDT, last update 6/7 04:50 UTC): 21 Starlink + 2 Starshield satellites lifted off 6/6 at 21:24:30 PDT (04:24:30 UTC 6/7) from SLC-4E; B1097 on its 10th flight completed the 201st landing on OCISLY, SpaceX's 620th booster recovery overall. The two Starshield satellites are believed to be part of NRO's "multi-phenomenology proliferated architecture" constellation, following the same piggyback-into-public-Starlink-batch pattern as the 2025 Starlink 13-1 / 13-4 missions

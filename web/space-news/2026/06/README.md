@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-09 | [朱雀二号改进型遥六一箭双星成功发射 千帆 DTC 01 星与中移 02 星入轨](./2026-06-09-zhuque-2e-y6-qianfan-dtc/) |
 | 6-09 | [JWST 首次称量百亿光年外休眠超大质量黑洞：质量为太阳 60 亿倍](./2026-06-09-jwst-sleeping-giant-black-hole/) |
 | 6-08 | [Quantum Space 通过 SPAC 合并上市 估值超 11 亿美元](./2026-06-08-quantum-space-spac-deal/) |
 | 6-08 | [FCC 允许 Amazon Leo 逾期部署宽带卫星 但临时损失频谱优先权](./2026-06-08-fcc-amazon-leo-spectrum-penalty/) |
@@ -26,6 +27,7 @@ wechatShare:
 | 6-08 | [Prada 联手 Axiom 公布 Artemis 登月宇航服内层冷却衣](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
 | 6-08 | [SpaceX 猎鹰 9 号 B1067 完成第 35 次飞行,刷新复用纪录](./2026-06-08-falcon9-b1067-35th-flight/) |
 | 6-08 | [NASA 将于 6 月 9 日公布 Artemis 3 登月乘组名单](./2026-06-08-artemis-3-crew-announcement/) |
+| 6-07 | [神舟二十三号乘组首批在轨工作画面公布 一人将开展中国首次一年驻留实验](./2026-06-07-sz23-first-inorbit-images/) |
 | 6-07 | [LMC 正在撕裂它的伴星系：VISTA 11 年巡天揭示银河系近邻的引力角力](./2026-06-07-lmc-ripping-smc/) |
 | 6-07 | [流星暴雨撞上 Artemis 4 窗口：NASA 评估未来月球任务与天外来客的博弈](./2026-06-07-meteor-storms-artemis-4-risk/) |
 | 6-06 | [SpaceX 范登堡 6 月 6 日夜间发射 21 颗 Starlink + 2 颗 Starshield 卫星：OCISLY 第 201 次着陆、SpaceX 累计第 620 次一级回收](./2026-06-06-starlink-17-43-starshield-launch/) |
@@ -71,6 +73,8 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-09: 新增神舟二十三号乘组首批在轨工作画面报道（CMSA 6/7 发布）：三名航天员已适应微重力环境，开展 100 余项科学实验；一名乘组成员将跨越神舟二十三号和二十四号任务期执行中国首次一年驻留实验；香港首位航天员黎家盈在列
+- 2026-06-09: 新增朱雀二号改进型遥六发射报道（央视新闻 6/9）：蓝箭航天 ZQ-2E Y6 一箭双星，千帆 DTC 01 星 + 中国移动 02 星入轨，朱雀二号系列第 8 飞，改进型 27 天内第 2 次发射；千帆星座卫星首次由商业火箭发射
 - 2026-06-07: 新增 Starlink 17-43 范登堡发射（SFN 6/6 15:43 PDT 末次更新 6/7 04:50 UTC）：21 颗 Starlink + 2 颗 Starshield 卫星 6/6 21:24:30 PDT（UTC 6/7 04:24:30）从 SLC-4E 升空，B1097 第十次飞行在 OCISLY 完成第 201 次着陆，SpaceX 累计第 620 次 booster 回收；2 颗 Starshield 隶属 NRO「多现象学扩散架构」星座，与 2025 年 Starlink 13-1/13-4「混入」模式一致
 - 2026-06-06: 新增 6/5 ISS 漏气避险事件报道（space.com 6/5 15:30 UTC + SFN 6/5 14:30 UTC）：NASA 出于「审慎原则」指示 SpaceX Crew-12 四名乘员（Jessica Meir、Jack Hathaway、Sophie Adenot、Andrey Fedyaev）与 NASA 航天员 Chris Williams 共同进入龙飞船避险；俄方主导修复 PrK 转运通道（通往「星辰」号服务舱）漏气点，4 月漏气速率从 0.6 kg/天反弹至 1.4 kg/天，修复目标降至 0.3 kg/天
 - 2026-06-06: 新增 MAVEN 火星探测器终章：50–100 年坠入火星大气（space.com 6/4 15:00 UTC）：NASA 6/3 宣告任务结束后两天，项目主管 Mike Moreau 6/5 简报披露 MAVEN 当前轨道「与按计划退役时几乎一致」；原设计 50–100 年衰减窗口由太阳活动周期决定；探测器将成为「火星停尸房」新成员；NASA 在轨火星探测器从 3 台缩编为 2 台（Odyssey 2001 / MRO 2005）
