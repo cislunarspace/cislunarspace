@@ -404,6 +404,22 @@ async function main(): Promise<void> {
   if (args.shards > 1) {
     console.log('[sharded-build] merging route tables from all shards...')
     mergeRouteTables(specs, distDir)
+
+    // Clean up stale app-*.js files from non-primary shards.
+    // Each shard produces its own app.js; after merging routes into the
+    // primary (shard 0) app.js, the others are dead weight.
+    const assetsDir = path.join(distDir, 'assets')
+    const indexPath = path.join(distDir, 'index.html')
+    const indexHtml = readFileSync(indexPath, 'utf8')
+    const primaryApp = indexHtml.match(/assets\/(app-[^"']+\.js)/)?.[1]
+    if (primaryApp) {
+      for (const f of readdirSync(assetsDir)) {
+        if (/^app-.*\.js$/.test(f) && f !== primaryApp) {
+          rmSync(path.join(assetsDir, f))
+          console.log(`[sharded-build] cleaned stale ${f}`)
+        }
+      }
+    }
   }
 
   // Regenerate a unified sitemap and robots.txt from the merged dist.
