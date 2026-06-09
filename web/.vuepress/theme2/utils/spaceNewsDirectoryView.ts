@@ -81,11 +81,11 @@ export interface SpaceNewsDirectoryView {
 interface BuildSpaceNewsDirectoryViewOptions {
   articles: RawSpaceNewsArticle[]
   locale: SpaceNewsLocale
-  now?: Date
 }
 
 const FALLBACK_CATEGORY_COLOR = '#64748b'
 const FEATURED_WINDOW_DAYS = 2
+const FEATURED_ITEMS_LIMIT = 5
 const LATEST_ITEMS_LIMIT = 6
 const CATEGORY_SECTION_LIMIT = 3
 const categoryOrder = ['artemis', 'spacex', 'china', 'nasa', 'esa', 'iss', 'launch', 'commercial', 'policy', 'science']
@@ -156,12 +156,22 @@ function buildArticleView(
   }
 }
 
-function isFeaturedArticle(article: SpaceNewsArticleView, now: Date): boolean {
-  if (!article.date) return false
+/**
+ * Determine whether an article should appear in the featured carousel.
+ *
+ * Uses the *latest article's date* as the reference point instead of
+ * `new Date()`.  This avoids SSR/client hydration mismatches — during
+ * SSR the build-time `now` differs from the visitor's current time,
+ * which can cause Vue to discard the server-rendered featured section
+ * and leave it blank until the client re-renders.
+ */
+function isFeaturedArticle(article: SpaceNewsArticleView, latestDate: string | null): boolean {
+  if (!article.date || !latestDate) return false
   const value = timestamp(article.date)
-  if (value === Number.NEGATIVE_INFINITY) return false
-  const earliestFeaturedTime = now.getTime() - FEATURED_WINDOW_DAYS * 24 * 60 * 60 * 1000
-  return value >= earliestFeaturedTime
+  const latest = timestamp(latestDate)
+  if (value === Number.NEGATIVE_INFINITY || latest === Number.NEGATIVE_INFINITY) return false
+  const windowMs = FEATURED_WINDOW_DAYS * 24 * 60 * 60 * 1000
+  return value >= (latest - windowMs)
 }
 
 function buildCategorySections(
@@ -257,14 +267,15 @@ export function resolveCategoryLabel(
   return categoryMeta[primary]?.[locale] ?? primary
 }
 
-/** Card background style — image if present, otherwise gradient using the article's category color. */
+/** Card background style — image if present, otherwise gradient using the article's category color.
+ *  When an image URL is present, a gradient fallback is also set so that if the image fails to
+ *  load (404, slow connection, etc.) the card still shows a colored background instead of blank. */
 export function articleCardBackground(article: SpaceNewsArticleView): { backgroundImage?: string; background?: string } {
+  const gradient = `linear-gradient(135deg, ${article.categoryColor} 0%, ${article.categoryColor}99 100%)`
   if (article.image) {
-    return { backgroundImage: `url(${article.image})` }
+    return { backgroundImage: `url(${article.image})`, background: gradient }
   }
-  return {
-    background: `linear-gradient(135deg, ${article.categoryColor} 0%, ${article.categoryColor}99 100%)`,
-  }
+  return { background: gradient }
 }
 
 function buildMonthGroups(
@@ -312,17 +323,21 @@ function buildUsedCategories(
 }
 
 export function buildSpaceNewsDirectoryView(options: BuildSpaceNewsDirectoryViewOptions): SpaceNewsDirectoryView {
-  const now = options.now ?? new Date()
   const articles = options.articles
     .filter(article => article.draft !== true)
     .map(article => buildArticleView(article, options.locale))
     .sort((first, second) => timestamp(second.date) - timestamp(first.date))
 
+  // Reference date: the latest article's date.
+  // Using `new Date()` here would cause SSR/client hydration mismatches
+  // because the build-time `now` differs from the visitor's current time.
+  const latestDate = articles[0]?.date ?? null
+
   return {
     labels: labelsByLocale[options.locale],
     archiveLabels: archiveLabelsByLocale[options.locale],
     articles,
-    featuredList: articles.filter(article => isFeaturedArticle(article, now)),
+    featuredList: articles.filter(article => isFeaturedArticle(article, latestDate)).slice(0, FEATURED_ITEMS_LIMIT),
     latestItems: articles.slice(0, LATEST_ITEMS_LIMIT),
     categorySections: buildCategorySections(articles, options.locale),
     monthGroups: buildMonthGroups(articles, options.locale),

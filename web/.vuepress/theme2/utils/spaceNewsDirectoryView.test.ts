@@ -36,7 +36,6 @@ describe('buildSpaceNewsDirectoryView', () => {
     const result = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.articles.map(article => article.title)).toEqual(['Newest', 'Older', 'No date', 'Invalid date'])
@@ -52,7 +51,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'Published', path: '/published/', date: '2026-05-12', category: 'artemis' }),
       ],
       locale: 'zh',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.articles.map(article => article.title)).toEqual(['Published'])
@@ -70,7 +68,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'No category', path: '/no-category/', date: '2026-05-10' }),
       ],
       locale: 'en',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.articles.map(article => ({
@@ -96,12 +93,10 @@ describe('buildSpaceNewsDirectoryView', () => {
     const zh = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
     const en = buildSpaceNewsDirectoryView({
       articles,
       locale: 'en',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(zh.labels).toMatchObject({ title: '航天动态', latest: '最新动态', viewMore: '更多 →' })
@@ -130,11 +125,10 @@ describe('buildSpaceNewsDirectoryView', () => {
     const result = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.latestItems.map(article => article.title)).toEqual(['A1', 'A2', 'A3', 'A4', 'C1', 'C2'])
-    expect(result.featuredList.map(article => article.title)).toEqual(['A1', 'A2'])
+    expect(result.featuredList.map(article => article.title)).toEqual(['A1', 'A2', 'A3'])
     expect(result.categorySections.find(section => section.key === 'artemis')?.items.map(article => article.title)).toEqual(['A1', 'A2', 'A3'])
   })
 
@@ -149,7 +143,6 @@ describe('buildSpaceNewsDirectoryView', () => {
     const zh = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(zh.monthGroups.map(group => ({ key: group.key, label: group.label, items: group.items.map(a => a.title) }))).toEqual([
@@ -160,7 +153,6 @@ describe('buildSpaceNewsDirectoryView', () => {
     const en = buildSpaceNewsDirectoryView({
       articles,
       locale: 'en',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(en.monthGroups[0].label).toBe('May 2026')
@@ -173,7 +165,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'En article', path: '/en/space-news/2026/05/a/', date: '2026-05-12', relativePath: 'en/space-news/2026/05/a.md' }),
       ],
       locale: 'en',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.monthGroups).toHaveLength(1)
@@ -188,7 +179,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'C', path: '/c/', date: '2026-05-11', category: 'commercial' }),
       ],
       locale: 'en',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.usedCategories).toEqual([
@@ -212,7 +202,6 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'Pub', path: '/p/', date: '2026-05-12', relativePath: 'space-news/2026/05/p.md', category: 'commercial' }),
       ],
       locale: 'zh',
-      now: new Date('2026-05-13T12:00:00Z'),
     })
 
     expect(result.monthGroups[0].items.map(a => a.title)).toEqual(['Pub'])
@@ -287,7 +276,7 @@ describe('resolveCategoryColor / resolveCategoryLabel', () => {
 })
 
 describe('articleCardBackground', () => {
-  it('uses the image url when present', () => {
+  it('uses the image url when present, with gradient fallback', () => {
     expect(articleCardBackground({
       path: '/x/',
       title: 'x',
@@ -300,7 +289,10 @@ describe('articleCardBackground', () => {
       primaryCategory: null,
       categoryLabel: '',
       categoryColor: '#64748b',
-    })).toEqual({ backgroundImage: 'url(/img/x.png)' })
+    })).toEqual({
+      backgroundImage: 'url(/img/x.png)',
+      background: 'linear-gradient(135deg, #64748b 0%, #64748b99 100%)',
+    })
   })
 
   it('falls back to gradient using the article category color', () => {
