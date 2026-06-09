@@ -268,12 +268,15 @@ export function resolveCategoryLabel(
 }
 
 /** Card background style — image if present, otherwise gradient using the article's category color.
- *  When an image URL is present, a gradient fallback is also set so that if the image fails to
- *  load (404, slow connection, etc.) the card still shows a colored background instead of blank. */
-export function articleCardBackground(article: SpaceNewsArticleView): { backgroundImage?: string; background?: string } {
+ *  When an image URL is present, a gradient fallback is stacked behind it via CSS multiple
+ *  backgrounds so that if the image fails to load (404, slow connection, etc.) the card still
+ *  shows a colored background instead of blank. */
+export function articleCardBackground(article: SpaceNewsArticleView): { background: string } {
   const gradient = `linear-gradient(135deg, ${article.categoryColor} 0%, ${article.categoryColor}99 100%)`
   if (article.image) {
-    return { backgroundImage: `url(${article.image})`, background: gradient }
+    // Multiple backgrounds: image on top, gradient behind it.
+    // If the image URL 404s, the gradient is visible as fallback.
+    return { background: `url(${article.image}) center/cover no-repeat, ${gradient}` }
   }
   return { background: gradient }
 }

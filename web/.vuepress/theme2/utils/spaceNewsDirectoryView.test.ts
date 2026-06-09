@@ -290,8 +290,7 @@ describe('articleCardBackground', () => {
       categoryLabel: '',
       categoryColor: '#64748b',
     })).toEqual({
-      backgroundImage: 'url(/img/x.png)',
-      background: 'linear-gradient(135deg, #64748b 0%, #64748b99 100%)',
+      background: 'url(/img/x.png) center/cover no-repeat, linear-gradient(135deg, #64748b 0%, #64748b99 100%)',
     })
   })
 
