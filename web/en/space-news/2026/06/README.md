@@ -13,6 +13,7 @@ lastUpdated: 2026-06-09
 
 | Date | Title |
 |------|-------|
+| 6-09 | [Four Private Rocket Companies Selected for Qingzhou Cargo Spacecraft Launch Services](./2026-06-09-qingzhou-cargo-private-rockets/) |
 | 6-09 | [LandSpace ZQ-2E Y6 launches two Qianfan and China Mobile satellites on single rocket](./2026-06-09-zhuque-2e-y6-qianfan-dtc/) |
 | 6-09 | [JWST Weighs a 'Sleeping Giant' Black Hole 10 Billion Light-Years Away: 6 Billion Times the Sun's Mass](./2026-06-09-jwst-sleeping-giant-black-hole/) |
 | 6-08 | [Quantum Space to Go Public via SPAC Deal Valued at Over $1.1 Billion](./2026-06-08-quantum-space-spac-deal/) |
@@ -67,6 +68,7 @@ lastUpdated: 2026-06-09
 
 ## Update Log
 
+- 2026-06-09: Added four private rocket companies selected for Qingzhou cargo spacecraft launch services (DoNews 6/8): Galactic Energy, CAS Space, Orienspace, LandSpace shortlisted; first time private rockets included in China's space station cargo system; Qingzhou maiden flight planned for January 2027
 - 2026-06-09: Added Shenzhou-23 crew first in-orbit work images report (CMSA 6/7 release): three astronauts adapted to microgravity, conducting 100+ science experiments; one crew member will span Shenzhou-23 and Shenzhou-24 for China's first year-long single-mission space station residency; Hong Kong's first astronaut Lai Ka-ying among the crew
 - 2026-06-09: Added LandSpace ZQ-2E Y6 launch report (CCTV News 6/9): ZQ-2E Y6 two-satellite ride, Qianfan DTC 01 + China Mobile 02 to orbit, 8th Zhuque-2 family flight, 2nd ZQ-2E in 27 days; first Qianfan satellite launched on a commercial rocket
 - 2026-06-07: Added Starlink 17-43 Vandenberg launch coverage (SFN 6/6 15:43 PDT, last update 6/7 04:50 UTC)
