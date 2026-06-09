@@ -1,131 +1,135 @@
 # 撰稿陷阱与检索技术细节
 
-## 撰稿质量陷阱（经验总结）
+本文件记录可复用的技术细节。具体历史案例和长篇排查 trace 已移到 [FIELD-NOTES.md](FIELD-NOTES.md)。
 
-### YAML frontmatter 中禁用中文弯引号
+## YAML 与 Markdown
 
-中文弯引号 `""`（U+201C/U+201D）和英文字符混用时，会导致 `gray-matter` 解析器报错。
+### frontmatter 引号
+
+frontmatter 中不要嵌套未转义弯引号：
 
 ```yaml
-# 错误（YAML 解析错误）
+# 错误
 description: "论坛主题为"激发航天文化创新创造活力""
 
-# 正确（内嵌引号替换为直角引号）
+# 正确
 description: "论坛主题为「激发航天文化创新创造活力」"
 ```
 
-## 检索技术细节
+### README patch
 
-### CNSA 隐藏文章发现技巧
+- 插入表格行后检查 `||`。
+- 修改 YAML frontmatter 后检查 stray `|`。
+- 复杂 frontmatter 修改优先整体重写，避免重复字段块。
 
-主索引页只显示最新 4 条，但 `n6758823/n6758838/index.html` 中还嵌入了更多历史文章 ID（如 c10738139 等）。提取方法：
+## RSS 解析
 
-```python
-# 用正则匹配所有 article ID
-import re
-ids = re.findall(r'c(\d{8})', html_content)
-# 然后逐个检查 c{id}/content.html
-```
+### space.com RSS
 
-### Spaceflight Now 同日页面 404
+space.com 主 RSS 为 `https://www.space.com/news/rss`，会重定向到 `feeds.xml`。
 
-⚠️ UTC 00:00 之前运行时，`https://spaceflightnow.com/2026/04/{day}/` 会返回 404。当日文章链接应通过 RSS feed 的 `<link>` 字段获取，而非直接拼 URL。
-
-### NASA RSS CDATA 解析
-
-RSS `<title><!\[CDATA\[...` 格式需要特殊正则匹配：
+- `title` 使用 CDATA。
+- `link` / `pubDate` 是 plain text。
+- index 0 常是频道标题 `Latest from Space.com`，不是文章。
 
 ```python
-items = rss_content.split('<item>')
-for item in items[1:]:
-    title_match = re.search(r'<title>(.*?)</title>', item, re.DOTALL)
-    if title_match:
-        title = re.sub(r'<!\[CDATA\[|\]\]>', '', title_match.group(1)).strip()
+titles = re.findall(r'<title><!\[CDATA\[(.*?)\]\]></title>', html)
+links = re.findall(r'<link>(.*?)</link>', html)
+pubdates = re.findall(r'<pubDate>(.*?)</pubDate>', html)
 ```
 
-⚠️ **NASA RSS 标题与链接可能不匹配**：RSS `<title>` 与 `<link>` 可能对应不同文章。**必须单独请求实际 URL 验证**，不能仅依赖 RSS 标题。
+### SFN RSS
 
-### CMSE 索引页日期提取
+Spaceflight Now RSS 的 `title` / `link` / `pubDate` 通常都是 plain text：
 
-CMSA 索引页（如 `https://www.cmse.gov.cn/`）用 `<li>` 列表展示文章，**每条新闻的日期嵌在 `<li>` 标签内**。直接对整页用 `re.findall(r'(\d{4}-\d{2}-\d{2})', html)` 会捕获到页面模板级日期（不更新），导致漏掉最新文章。
+```python
+titles = re.findall(r'<title>(.*?)</title>', html)
+links = re.findall(r'<link>(.*?)</link>', html)
+pubdates = re.findall(r'<pubDate>(.*?)</pubDate>', html)
+```
 
-**正确方法**（2026-05-26 实例修正）：
+SFN 可能 403；最多重试一次，之后转向 space.com、CMSE 和 web_search。
+
+### RFC 2822 日期
+
+RSS 日期解析必须得到 UTC-aware datetime。不要依赖服务器本地时区。
+
+```python
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+
+pub_dt = parsedate_to_datetime(pubdate)
+if pub_dt.tzinfo is None:
+    pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+pub_dt = pub_dt.astimezone(timezone.utc)
+age_h = (datetime.now(timezone.utc) - pub_dt).total_seconds() / 3600
+```
+
+## HTML 正文提取
+
+### space.com 正文
+
+JSON-LD `articleBody` 经常为空；优先从 `<article>` 内段落提取：
+
+```python
+article = re.search(r'<article[^>]*>(.*?)</article>', html, re.DOTALL)
+content = article.group(1) if article else html
+paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', content, re.DOTALL)
+clean = [re.sub(r'<[^>]+>', '', p).strip() for p in paragraphs]
+```
+
+URL 含 `gallery` 或标题明显是照片汇编时跳过。
+
+### CMSE 列表页
+
+CMSE 列表页日期在 `<li>` 内；不要只扫全页模板日期。
 
 ```python
 lis = re.findall(r'<li[^>]*>(.*?)</li>', html, re.DOTALL)
 dated_lis = [(li, re.findall(r'\d{4}-\d{2}-\d{2}', li)) for li in lis
              if re.findall(r'\d{4}-\d{2}-\d{2}', li)]
-# 对每条 li 去标签后取标题 + 链接
 ```
 
-### Rocket Lab 日期提取
+优先使用 HTTPS：`https://www.cmse.gov.cn/xwzx/zhxw/`。
 
-Rocket Lab 文章的 `datePublished` 元数据可能不可靠（如 `2026-51-30TAD::Z`）。**始终从文章正文提取日期**：
+### Rocket Lab
+
+Rocket Lab 正文常在 `<main>` 内，`og:image` 可能只是 logo。图片从 `/assets/Uploads/...` 提取。
 
 ```python
-date_match = re.search(r'(April|Apr)\s+\d+,\s+2026', content)
+main = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
+images = re.findall(r'/assets/Uploads/([^"\']+\.(?:jpg|png))', html)
 ```
 
-### Rocket Lab 图片
+## 发射完成信号
 
-`<meta property="og:image">` 返回的是**通用 Logo**，不是实际文章配图。正确方法：在页面 HTML 中用正则提取 `/assets/Uploads/([^"]+\.(?:jpg|png))`。
+可写结果稿的强信号：
 
-## 各家站点解析方法
+- 标题/正文含 `launched`、`launches`、`has launched`、`liftoff occurred`。
+- 正文含部署、入轨、着陆、回收成功等结果事实。
+- 官方或机构发布「任务圆满成功」「安全着陆」等确认。
 
-### Rocket Lab 页面解析
+应跳过的信号：
 
-Rocket Lab 页面内容在 `<main>...</main>` 而非 `<article>...</article>`：
+- `to launch`、`targets`、`scheduled for`、`will launch`。
+- `watch` / `how to watch` / `head to orbit` 且正文无结果。
+- `tries again` 表示 scrub 后重试中。
+- 发射窗口在 cron 之后数小时且无完成确认。
 
-```python
-main_match = re.search(r'<main[^>]*>(.*?)</main>', content, re.DOTALL)
-if main_match:
-    text = re.sub(r'<[^>]+>', ' ', main_match.group(1))
-    text = re.sub(r'\s+', ' ', text).strip()
-```
+## 去重判断
 
-### Rocket Lab 图片 URL 提取
+同一事件识别基于：主体、事件性质、关键事实。不要仅按日期或标题动词判断。
 
-```python
-rl_images = re.findall(r'/assets/Uploads/([^"]+\.(?:jpg|png))', content)
-unique_images = list(dict.fromkeys(rl_images))
-# 拼接为 https://www.rocketlabusa.com/assets/Uploads/{filename}
-# 优先下载高分辨率版本（文件更大，如 F85__FillWzk2Myw1NDNd..jpg）
-```
+- 预发稿已有，结果已确认：更新原稿，不改 slug。
+- 已有综合稿覆盖同事件：跳过反应稿/图片稿。
+- 同一持续事件有新事实：可另写，但摘要需说明新事实在哪里。
+- 删除重复稿后同步删除中英 figures，并运行 `npm run gen-sidebar`。
 
-### Rocket Lab 任务编号 vs 任务名称
+## 常见构建相关陷阱
 
-"85th mission" 和 "Kakushin Rising" 是**同一事件**。撰稿前检查现有 slug 是否已覆盖该任务，避免重复。
+- 内联图片路径必须写 `./figures/...`，不能省略 `./`。
+- `image:` 指向不存在文件会导致 Vite/Rollup import 失败。
+- EN figures 复制前先删目标目录，避免嵌套。
+- `space-news-articles.json` 是 `{ zh: [], en: [] }`，检查时先取 locale 数组。
 
-### CNSA 文章日期提取
-
-CNSA 文章页面的 `<meta name="publishdate">` 或 `发布日期：` 字段可能缺失。实际可用日期模式：
-1. `(\d{4})年(\d{1,2})月(\d{1,2})日` 在正文 HTML 中
-2. 交叉验证：同一篇文章可能同时出现在索引页（无日期）和具体内容页（有日期），**优先从内容页提取**
-
-### CNSA XLS 附件注意
-
-部分 CNSA 文章（如「中国航天日全国系列活动安排」）正文内容很少或为空，**实际内容在 XLS 附件中**。当 `<div class="wz_conten">` 内容很短时，检查页面是否提示「请下载附件查看」。这类文章通常非即时新闻，可跳过或改从其他渠道获取。
-
-### Spaceflight Now Live Coverage 成功确认
-
-判断「Live coverage」文章是否已更新为发射成功报道：
-1. 检查页面 `Last-Modified` HTTP 响应头是否在预期发射时间之后
-2. 检查页面内容是否包含 "deployment"（卫星部署）等成功发射的表述
-3. 如果标题仍为 "Live coverage: SpaceX to launch..." 且无成功表述，说明发射尚未进行
-
-```python
-req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'Mozilla/5.0'})
-with urllib.request.urlopen(req, timeout=10) as resp:
-    last_modified = resp.headers.get('Last-Modified')
-```
-
-## 常见去重判断
-
-**同事件识别**：撰稿前检查当月目录是否已有同一事件稿件。同一事件可能被多篇不同 slug 的文章部分覆盖（如 Blue Origin NG-3 在 4/17、4/19、4/22 均有碎片报道但非综合稿）。判断「同一事件」基于：
-1. 事件主体
-2. 事件性质
-3. 关键事实
-
-若已有覆盖该事件综合信息的文章，即使日期不同也不另建稿。
-
-**预发稿件更新**：对于「即将发生」的事件（如签约仪式、发射预报），可先发预告稿；事件实际发生后，**修改现有文章而非创建新文章** — 更新 title、description、body 和来源链接；slug 不变，图片和 figures 目录可复用。
+更多构建修复见 [BUILD-FIXES.md](BUILD-FIXES.md)。

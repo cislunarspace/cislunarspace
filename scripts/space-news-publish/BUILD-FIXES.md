@@ -1,127 +1,157 @@
-# 构建失败快速修复
+# 构建、索引与部署故障快速修复
 
-这些是**与新文章无关**的已有问题，构建失败时应首先检查。
+先确认问题属于哪一层：源稿件、生成索引、VuePress 构建、dist 内容、rsync 部署。不要只看命令退出码；新文章 HTML 内容和图片路径都要验证。
 
-## A. Image Extension Mismatch
+## 1. 生成索引异常
 
-**症状**：`[UNRESOLVED_IMPORT] Could not resolve './figures/.../hero.jpg'` 但 figures 目录中存在 `hero.png`。
-
-**原因**：markdown body 中图片路径引用的扩展名与实际文件不符。
-
-**修复**：
+### 新稿未出现在首页/存档
 
 ```bash
-grep -n "hero\.jpg" web/space-news/YYYY/MM/YYYY-MM-DD-slug.md
-# 如果文件引用 hero.jpg 但目录中是 hero.png，修改 markdown 中的引用
+cd /home/ouyangjiahong/codes/cislunarspace/web
+npm run gen-sidebar
 ```
 
-## B. Missing EN Figures Directory
-
-**症状**：`[UNRESOLVED_IMPORT] Could not resolve './figures/.../hero.png' in en/space-news/...`
-
-**原因**：英文稿的 `figures/` 目录不存在或为空（仅创建了中文 figures）。
-
-**修复**：
-
-```bash
-mkdir -p web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug/
-cp web/space-news/YYYY/MM/figures/YYYY-MM-DD-slug/hero.* \
-   web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug/
-```
-
-**预防**：创建新文章后，**立即**将中文 figures 目录复制到英文侧，再 commit。
-
-## C. ZH vs EN Figures Sync（批量检测脚本）
-
-检测并修复缺失的英文 figures 目录：
+检查 `space-news-articles.json`：
 
 ```python
-import os, shutil
-workdir = '/home/ouyangjiahong/codes/cislunarspace'
-month = '06'
-zh_figs = set(os.listdir(f'{workdir}/web/space-news/2026/{month}/figures/'))
-en_figs = set(os.listdir(f'{workdir}/web/en/space-news/2026/{month}/figures/'))
-missing_en = zh_figs - en_figs
-for fig_dir in missing_en:
-    src = f'{workdir}/web/space-news/2026/{month}/figures/{fig_dir}'
-    dst = f'{workdir}/web/en/space-news/2026/{month}/figures/{fig_dir}'
-    if os.path.isdir(src) and not os.path.exists(dst):
-        shutil.copytree(src, dst)
-        print(f"Copied EN figures: {fig_dir}")
+import json
+from pathlib import Path
+p = Path('/home/ouyangjiahong/codes/cislunarspace/web/.vuepress/space-news-articles.json')
+data = json.loads(p.read_text())
+for locale in ['zh', 'en']:
+    hits = [a for a in data.get(locale, []) if 'YYYY-MM-DD-slug' in a.get('relativePath', '')]
+    print(locale, len(hits), hits[:1])
 ```
 
-## D. 构建管线被跳过 / 图片不显示
+注意：该 JSON 是 `{ "zh": [...], "en": [...] }`，不是单层 dict；不要只检查 `sidebar.auto.json`。
 
-**症状**：`gen-sidebar` 运行正常但首页图片为空框，或新文章根本没出现在首页。
+### year/month 变 `unknown`
 
-**原因**：`npm run docs:build` 没被完整执行（只跑了 `gen-sidebar` 一步；或 `vuepress build` 中途崩溃但 dist 部分已生成；或部署只同步了 ZH 路径——见下方"部署只同步部分路径"）。
+说明生成器序列化或 frontmatter 解析断裂。先检查新稿和 README 的 YAML，再重跑 `npm run gen-sidebar`。历史案例见 [FIELD-NOTES.md](FIELD-NOTES.md)。
 
-**修复 — 完整重建 + 部署**：
+## 2. 图片 import / figures 错误
+
+| 症状 | 常见原因 | 修复 |
+|------|----------|------|
+| `Could not resolve './figures/.../hero.jpg'` | 文件不存在、扩展名不匹配、路径未以 `./` 开头 | 改为真实路径，或删除 `image:` 和正文图片段落 |
+| EN 文章构建失败 | 英文侧 figures 缺失 | 删除 EN 目标目录后从 ZH 复制 |
+| `figures/figures/` 嵌套 | `cp -r` 合并旧目录 | `rm -rf` 目标目录后重拷 |
+| `ELOOP` / symlink 循环 | 历史 symlink 损坏 | 删除坏 symlink，修正引用，重建 |
+
+复制 EN figures：
 
 ```bash
-# 0. 清理缓存
-rm -rf web/.vuepress/.temp
-
-# 1. 本地构建（npm script 已绑定 8GB 堆 + sync-figures）
-cd web && npm run docs:build
-
-# 2. 验证新文章 HTML 真正落地
-ls web/.vuepress/dist/space-news/YYYY/MM/YYYY-MM-DD-slug/index.html
-ls web/.vuepress/dist/en/space-news/YYYY/MM/YYYY-MM-DD-slug/index.html
-# 两份文件都应 > 200 行（空文件 < 50 行 = 渲染失败）
-
-# 3. 部署（rsync 两条命令覆盖 4 个子树）
-rsync -avz --delete -e "***REMOVED*** -p \"$SSH_PASS\" ssh -o StrictHostKeyChecking=no" \
-  /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist/space-news/ \
-  ubuntu@cislunarspace.cn:/var/www/cislunarspace/dist/space-news/
-rsync -avz --delete -e "***REMOVED*** -p \"$SSH_PASS\" ssh -o StrictHostKeyChecking=no" \
-  /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist/en/space-news/ \
-  ubuntu@cislunarspace.cn:/var/www/cislunarspace/dist/en/space-news/
+rm -rf web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug
+cp -r web/space-news/YYYY/MM/figures/YYYY-MM-DD-slug \
+      web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug
 ```
 
-⚠️ **部署只同步部分路径导致静默缺失**（2026-05-27 EN 文章缺失、2026-05-28 ZH+EN figures 缺失实例）：
-- `dist/space-news/` 与 `dist/en/space-news/` 是**独立目录树**
-- `dist/space-news/YYYY/MM/figures/` 与 `dist/space-news/YYYY/MM/*.html` 是**同级 sibling 目录**
-- 只 rsync `dist/space-news/` 一条命令实际已覆盖 ZH articles + ZH figures，但要 EN 必须单独再同步 `dist/en/space-news/`
+批量检查引用的 figure slug 是否存在：
 
-## E. Git Push / Deployment Notes
+```python
+import os, re
+root = '/home/ouyangjiahong/codes/cislunarspace/web'
+for locale in ['space-news', 'en/space-news']:
+    base = f'{root}/{locale}'
+    for dirpath, dirs, files in os.walk(base):
+        if 'figures' not in dirs:
+            continue
+        actual = set(os.listdir(os.path.join(dirpath, 'figures')))
+        for name in files:
+            if not name.endswith('.md') or name == 'README.md':
+                continue
+            path = os.path.join(dirpath, name)
+            text = open(path, encoding='utf-8').read()
+            for slug in re.findall(r'\./figures/([^/]+)/', text):
+                if slug not in actual:
+                    print('MISMATCH', path, slug)
+```
 
-**分支名是 `master` 不是 `main`**：执行 `git push origin main` 会报 "src refspec main does not match any"。
+## 3. VuePress 构建
 
-**HTTP2 降级**：`git push origin master` 报 "Error in the HTTP2 framing layer" 时，降级方法：
+完整构建：
 
 ```bash
-GIT_HTTP_VERSION=HTTP/1.1 git push origin master
+cd /home/ouyangjiahong/codes/cislunarspace/web
+npm run docs:build
 ```
 
-**网络层失败立即切部署**：`Failed to connect to github.com port 443` / `Empty reply from server` 表明 GitHub 不可达——**不要 retry**，直接 rsync 部署；下次 cron 会补 push。
+`docs:build` 应完成：生成索引 → VuePress build → `sync-figures.js`。构建产物在 `web/.vuepress/dist/`。
 
-**cron 环境 GitHub push**（pushurl 含 token 会导致 token 无法读取）：
+若构建需要更长超时，可用：
 
 ```bash
-PASS=$(python3 -c "import re; c=open('/home/ouyangjiahong/.git-credentials').read(); m=re.search(r'https://cislunarspace:([^@]+)@', c); print(m.group(1) if m else '')")
-GIT_ASKPASS=true GIT_TERMINAL_PROMPT=0 GIT_HTTP_VERSION=HTTP/1.1 \
-  git -c credential.helper=store \
-  push https://cislunarspace:$PASS@github.com/cislunarspace/cislunarspace.git master
+cd /home/ouyangjiahong/codes/cislunarspace/web
+NODE_OPTIONS='--max-old-space-size=65536' npm run docs:build
 ```
 
-**服务器内存 OOM**：服务器仅 945MB RAM，**无法构建 VuePress**。所有构建必须在本地完成。
+### 构建成功但内容错位
 
-## F. JSON 文件结构与生成脚本
+退出码 0 不等于 HTML 内容正确。新稿必须 grep 关键词：
 
-⚠️ `gen-sidebar` **已经**是 `tsx .vuepress/gen-sidebar.ts`（不是 `.js`）。该脚本一次生成以下文件：
+```bash
+fgrep -c "中文稿标志性关键词" \
+  /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist/space-news/YYYY/MM/YYYY-MM-DD-slug/index.html
 
-- `web/.vuepress/sidebar.auto.json` — 总侧边栏
-- `web/.vuepress/sidebar-glossary.auto.json` — 术语侧边栏（含翻译缺口报告）
-- `web/.vuepress/space-news-articles.json` — 航天动态首页数据源
-- `web/.vuepress/space-news-sidebar-data.json` — 文章页侧栏数据
-- `web/.vuepress/public/ai-chat-index.json` — AI chat 索引（分层）
-- `web/.vuepress/public/ai-chat-context.json` — AI chat 上下文
+fgrep -c "English distinctive keyword" \
+  /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist/en/space-news/YYYY/MM/YYYY-MM-DD-slug/index.html
+```
 
-**全部在 `.gitignore` 中**，不跟踪版本。每次 `npm run docs:build` 重新生成。
+如果 dist HTML 缺关键词或多篇 md5 异常相同，清理缓存和 dist 后重建：
 
-⚠️ **`space-news-articles.json` 的 JSON 结构是嵌套字典**：`{"zh": [...], "en": [...]}`。遍历时应先取 `data['zh']` 和 `data['en']`，再对每个元素调用 `.get()`。
+```bash
+rm -rf /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/.temp \
+       /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/.cache \
+       /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist
+cd /home/ouyangjiahong/codes/cislunarspace/web && npm run docs:build
+```
 
-⚠️ **检查新稿件是否入库**时，应检查 `path` 字段（而非 `permalink` 字段，`permalink` 始终为 `null`）。
+## 4. 布局与 YAML 错误
 
-⚠️ **若 `space-news-articles.json` 全是 `unknown` year-month** 而 sidebar.auto.json 正常：说明 gen-sidebar 序列化逻辑断裂但未抛错。先用脚本对比 `space-news-articles.json` 的 year-month 分布与磁盘实际文件数；若侧边栏可用但首页/存档页数据损坏，说明问题在 `space-news-articles.json` 的某条转换路径，需要重跑 gen-sidebar 或看参考资料（`references/gen-sidebar-silent-unknown-yearmonth-20260520.md`）。
+| 报错 | 处理 |
+|------|------|
+| `YAMLException` | 检查 frontmatter 未闭合引号、stray `|`、README 表格是否进了 YAML 块 |
+| `Cannot resolve layout: Forum` | 搜索 `layout: Forum`，改成已注册 layout 或修复主题注册 |
+| `Cannot resolve layout: OrbitSimLab` | 搜索对应 layout；确认是否站级历史问题，不要忽略新稿验证 |
+
+验证 YAML frontmatter：
+
+```python
+from pathlib import Path
+import yaml
+for p in Path('/home/ouyangjiahong/codes/cislunarspace/web/space-news/YYYY/MM').glob('*.md'):
+    text = p.read_text(encoding='utf-8')
+    if text.startswith('---'):
+        yaml.safe_load(text.split('---', 2)[1])
+        print('ok', p.name)
+```
+
+## 5. Git push
+
+- 分支是 `master`。
+- HTTP/2 push 报错时用 `GIT_HTTP_VERSION=HTTP/1.1 git push origin master`。
+- push 被拒绝时先 `git pull --rebase`。
+- GitHub 网络不可达时可先 rsync；下次 cron 再补 push。
+
+## 6. rsync 部署
+
+当前架构只需整树同步 `web/.vuepress/dist/` 到 `/home/ubuntu/cislunarspace/`，不要再使用旧的 `/var/www/cislunarspace/dist/` 或 sshpass/tar 流程。
+
+```bash
+REMOTE_KEY="${REMOTE_KEY:-/home/ouyangjiahong/.ssh/thinkstation.pem}"
+REMOTE_DEST="${REMOTE_DEST:-/home/ubuntu/cislunarspace/}"
+RSYNC_SSH="ssh -i $REMOTE_KEY -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o ConnectTimeout=30 -o ServerAliveInterval=15 -o ServerAliveCountMax=6"
+
+rsync -avz --compress-level=6 --delete \
+  -e "$RSYNC_SSH" \
+  /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist/ \
+  "ubuntu@cislunarspace.cn:$REMOTE_DEST"
+```
+
+部署后检查裸路径（不要加 `dist/` 前缀）：
+
+```bash
+ssh -i "$REMOTE_KEY" -o IdentitiesOnly=yes ubuntu@cislunarspace.cn \
+  'ls /home/ubuntu/cislunarspace/space-news/YYYY/MM/ | grep SLUG; \
+   ls /home/ubuntu/cislunarspace/en/space-news/YYYY/MM/ | grep SLUG'
+```
