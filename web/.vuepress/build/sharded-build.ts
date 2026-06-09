@@ -408,16 +408,41 @@ async function main(): Promise<void> {
     // Clean up stale app-*.js files from non-primary shards.
     // Each shard produces its own app.js; after merging routes into the
     // primary (shard 0) app.js, the others are dead weight.
+    // IMPORTANT: Before deleting stale app-*.js, rewrite ALL HTML files that
+    // reference them to point at the primary app.js.  Each shard's sub-pages
+    // (e.g. space-news/2026/06/.../index.html) embed their own shard's app.js
+    // hash, which becomes a broken ref after we delete the stale files.
     const assetsDir = path.join(distDir, 'assets')
     const indexPath = path.join(distDir, 'index.html')
     const indexHtml = readFileSync(indexPath, 'utf8')
     const primaryApp = indexHtml.match(/assets\/(app-[^"']+\.js)/)?.[1]
     if (primaryApp) {
+      const staleApps: string[] = []
       for (const f of readdirSync(assetsDir)) {
-        if (/^app-.*\.js$/.test(f) && f !== primaryApp) {
-          rmSync(path.join(assetsDir, f))
-          console.log(`[sharded-build] cleaned stale ${f}`)
+        if (/^app-.*\.js$/.test(f) && f !== primaryApp) staleApps.push(f)
+      }
+      if (staleApps.length > 0) {
+        // Walk all HTML files and rewrite stale app.js → primary app.js.
+        const allFiles = readdirSync(distDir, { recursive: true }) as string[]
+        let rewriteCount = 0
+        for (const rel of allFiles) {
+          if (!rel.endsWith('.html')) continue
+          const abs = path.join(distDir, rel)
+          let html = readFileSync(abs, 'utf8')
+          let changed = false
+          for (const stale of staleApps) {
+            if (html.includes(stale)) {
+              html = html.replaceAll(stale, primaryApp)
+              changed = true
+            }
+          }
+          if (changed) { writeFileSync(abs, html); rewriteCount++ }
         }
+        console.log(`[sharded-build] rewrote ${rewriteCount} HTML files to use ${primaryApp}`)
+      }
+      for (const f of staleApps) {
+        rmSync(path.join(assetsDir, f))
+        console.log(`[sharded-build] cleaned stale ${f}`)
       }
     }
   }
