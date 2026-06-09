@@ -14,6 +14,8 @@ lastUpdated: 2026-06-09
 | Date | Title |
 |------|-------|
 | 6-09 | [JWST Weighs a 'Sleeping Giant' Black Hole 10 Billion Light-Years Away: 6 Billion Times the Sun's Mass](./2026-06-09-jwst-sleeping-giant-black-hole/) |
+| 6-08 | [Quantum Space to Go Public via SPAC Deal Valued at Over $1.1 Billion](./2026-06-08-quantum-space-spac-deal/) |
+| 6-08 | [FCC Grants Amazon Leo Deployment Extension but Temporarily Strips Spectrum Priority](./2026-06-08-fcc-amazon-leo-spectrum-penalty/) |
 |  6-08 | [Boston University Proposes StormWall: Spacecraft Fleet to Reinforce Earth's Magnetosphere](./2026-06-08-stormwall-magnetosphere-shield/) |
 |  6-08 | [CME Triggers G3 Geomagnetic Storm: Northern Lights May Reach Illinois on June 8](./2026-06-08-cme-geomagnetic-storm/) |
 |  6-08 | [UK Government and Vast Sign Agreement to Fly ESA Parastronaut John McFall to Haven-1](./2026-06-08-mcfall-vast-haven1/) |
