@@ -27,7 +27,7 @@ wechatShare:
 | 6-08 | [英国政府与 Vast 签署合作协议：推动 ESA 残疾人航天员 John McFall 飞往 Haven-1 空间站](./2026-06-08-mcfall-vast-haven1/) |
 | 6-08 | [Prada 联手 Axiom 公布 Artemis 登月宇航服内层冷却衣](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
 | 6-08 | [SpaceX 猎鹰 9 号 B1067 完成第 35 次飞行,刷新复用纪录](./2026-06-08-falcon9-b1067-35th-flight/) |
-| 6-08 | [NASA 将于 6 月 9 日公布 Artemis 3 登月乘组名单](./2026-06-08-artemis-3-crew-announcement/) |
+| 6-08 | [NASA 公布 Artemis 3 登月乘组：指令长 Bresnik 领衔四人组 2028 年前登月](./2026-06-08-artemis-3-crew-announcement/) |
 | 6-07 | [神舟二十三号乘组首批在轨工作画面公布 一人将开展中国首次一年驻留实验](./2026-06-07-sz23-first-inorbit-images/) |
 | 6-07 | [LMC 正在撕裂它的伴星系：VISTA 11 年巡天揭示银河系近邻的引力角力](./2026-06-07-lmc-ripping-smc/) |
 | 6-07 | [流星暴雨撞上 Artemis 4 窗口：NASA 评估未来月球任务与天外来客的博弈](./2026-06-07-meteor-storms-artemis-4-risk/) |

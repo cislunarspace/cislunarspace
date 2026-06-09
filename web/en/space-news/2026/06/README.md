@@ -23,7 +23,7 @@ lastUpdated: 2026-06-09
 |  6-08 | [UK Government and Vast Sign Agreement to Fly ESA Parastronaut John McFall to Haven-1](./2026-06-08-mcfall-vast-haven1/) |
 |  6-08 | [Prada and Axiom Unveil Artemis Moon Suit Cooling Garment](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
 |  6-08 | [SpaceX Falcon 9 Booster B1067 Completes Record-Breaking 35th Flight](./2026-06-08-falcon9-b1067-35th-flight/) |
-|  6-08 | [NASA to Announce Artemis 3 Crew on June 9](./2026-06-08-artemis-3-crew-announcement/) |
+|  6-08 | [NASA Reveals Artemis 3 Crew: Commander Bresnik to Lead Four-Person Team Toward 2028 Moon Landing](./2026-06-08-artemis-3-crew-announcement/) |
 |  6-07 | [Shenzhou-23 Crew Releases First In-Orbit Work Images; One Member to Attempt China's First Year-Long Space Station Stay](./2026-06-07-sz23-first-inorbit-images/) |
 |  6-07 | [The Large Magellanic Cloud is tearing its smaller neighbor apart, VISTA's 11-year sky survey reveals](./2026-06-07-lmc-ripping-smc/) |
 |  6-07 | [Meteor storms may threaten Artemis 4: NASA weighs the risk to future moon missions](./2026-06-07-meteor-storms-artemis-4-risk/) |
