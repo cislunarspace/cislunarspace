@@ -10,7 +10,8 @@
 //      by exactly one shard, keeping the merge unambiguous.
 //   3. Each shard runs in its own Node process via shard-build.mjs.
 //   4. Merge each shard's dist into web/.vuepress/dist.
-//   5. Run sync-figures and verify-dist; exit non-zero on any FAIL.
+//   5. Merge route tables from all shards into a single app.js.
+//   6. Run sync-figures and verify-dist; exit non-zero on any FAIL.
 //
 // Usage:
 //   tsx .vuepress/build/sharded-build.ts                   # default BUILD_SHARDS=2
@@ -24,7 +25,7 @@
 //   2  invocation error
 
 import { spawn, spawnSync } from 'node:child_process'
-import { existsSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, readdirSync, rmSync, readFileSync, writeFileSync } from 'node:fs'
 import { cpSync, mkdirSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -194,7 +195,7 @@ function routeFromHtml(distDir: string, file: string): string | null {
   const rel = path.relative(distDir, file).replace(/\\/g, '/')
   if (rel === '404.html') return null
   if (/^baidu_verify_[^/]+\.html$/.test(rel)) return null
-  if (/\/(?:[^/]+\/)*figures\//.test(rel)) return null
+  if (/(?:[^/]+\/)*figures\//.test(rel)) return null
   if (!rel.endsWith('.html')) return null
   if (rel === 'index.html') return '/'
   if (rel.endsWith('/index.html')) return `/${rel.slice(0, -'index.html'.length)}`
@@ -216,6 +217,112 @@ function regenerateSitemap(distDir: string): void {
   const robots = `User-agent: *\nAllow: /\n\nSitemap: ${domain}/sitemap.xml\n`
   writeFileSync(path.join(distDir, 'robots.txt'), robots)
   console.log(`[sharded-build] regenerated sitemap.xml with ${routes.length} routes`)
+}
+
+// ── Route table merge ──────────────────────────────────────────────────────
+
+/**
+ * Each shard's app.js contains a self-contained route table (only the pages
+ * that shard rendered).  After merging all shard dists we must produce a
+ * single app.js whose route table is the **union** of every shard's routes;
+ * otherwise the client-side router cannot SPA-navigate to pages that were
+ * rendered by a different shard.
+ *
+ * Strategy:
+ *   1. Use shard 0's (global) app.js as the base — it contains all
+ *      non-space-news routes plus its own month subset.
+ *   2. For every other shard, regex-extract route entries from its app.js.
+ *   3. Merge: shard 0 routes first, then each content shard's entries
+ *      overwrite (space-news routes only — global pages are identical).
+ *   4. String-replace the routes section in shard 0's app.js and write it
+ *      under shard 0's original filename so index.html stays valid.
+ */
+
+interface RouteEntry { path: string; body: string }
+
+function findAppJs(distDir: string): string | null {
+  // Find the app.js that index.html actually references (not just any app.js).
+  const indexPath = path.join(distDir, 'index.html')
+  if (existsSync(indexPath)) {
+    const html = readFileSync(indexPath, 'utf8')
+    const m = html.match(/assets\/(app-[^"']+\.js)/)
+    if (m) return path.join(distDir, 'assets', m[1]!)
+  }
+  // Fallback: first app.js in assets/
+  const files = readdirSync(path.join(distDir, 'assets'))
+    .filter(f => /^app-.*\.js$/.test(f))
+  return files.length > 0 ? path.join(distDir, 'assets', files[0]!) : null
+}
+
+function extractRouteEntries(appJsContent: string): RouteEntry[] {
+  const entries: RouteEntry[] = []
+  // Match: [`/path/`,{loader:()=>...}]  — the route entry format VuePress emits.
+  // The inner {…} may contain nested {meta:{title:`…`}} so we allow one level
+  // of nesting via the non-greedy [^}]* (?: {[^}]*} [^}]* )* pattern.
+  const entryRe = /\[(`[^`]*`),(\{[^}]*(?:\{[^}]*\}[^}]*)*\})\]/g
+  let m: RegExpExecArray | null
+  while ((m = entryRe.exec(appJsContent)) !== null) {
+    const routePath = m[1]!.slice(1, -1) // strip backticks
+    entries.push({ path: routePath, body: m[0]! })
+  }
+  return entries
+}
+
+function mergeRouteTables(specs: ShardSpec[], distDir: string): void {
+  const destAppPath = findAppJs(distDir)
+  if (!destAppPath) {
+    console.warn('[sharded-build] WARN: no app.js in merged dist; skipping route merge')
+    return
+  }
+
+  // Collect app.js paths from each shard's dist (they still exist in .shard/).
+  const shardAppPaths = specs.map(s => {
+    const shardDist = shardDestDir(s.index)
+    return existsSync(shardDist) ? findAppJs(shardDist) : null
+  })
+
+  // Extract route entries from each shard.
+  const allEntries = new Map<string, string>() // routePath → full entry text
+  for (let i = 0; i < shardAppPaths.length; i++) {
+    const p = shardAppPaths[i]
+    if (!p || !existsSync(p)) continue
+    const content = readFileSync(p, 'utf8')
+    const entries = extractRouteEntries(content)
+    for (const e of entries) allEntries.set(e.path, e.body)
+    console.log(`  shard ${i}: extracted ${entries.length} route entries`)
+  }
+
+  // Build merged routes array text.
+  const mergedArrayText = Array.from(allEntries.values()).join(',')
+
+  // Find and replace the routes section in the merged dist's app.js.
+  // The routes live inside Object.fromEntries([[...]]) — locate the outermost
+  // [[ ... ]] pair and replace its content.
+  let baseContent = readFileSync(destAppPath, 'utf8')
+  const routesStart = baseContent.indexOf('Object.fromEntries(')
+  if (routesStart === -1) {
+    console.warn('[sharded-build] WARN: could not find Object.fromEntries in app.js; skipping route merge')
+    return
+  }
+  const arrayStart = baseContent.indexOf('[[', routesStart)
+  if (arrayStart === -1) return
+  // Walk brackets to find the matching ]]
+  let depth = 0
+  let arrayEnd = -1
+  for (let j = arrayStart; j < baseContent.length; j++) {
+    if (baseContent[j] === '[') depth++
+    else if (baseContent[j] === ']') {
+      depth--
+      if (depth === 0) { arrayEnd = j + 1; break }
+    }
+  }
+  if (arrayEnd === -1) return
+
+  const before = baseContent.slice(0, arrayStart)
+  const after = baseContent.slice(arrayEnd)
+  const merged = before + '[' + mergedArrayText + ']' + after
+  writeFileSync(destAppPath, merged)
+  console.log(`[sharded-build] merged route table: ${allEntries.size} total routes into ${path.basename(destAppPath)}`)
 }
 
 // ── Main ───────────────────────────────────────────────────────────────────
@@ -290,6 +397,14 @@ async function main(): Promise<void> {
     totalFiles += n
   }
   console.log(`[sharded-build] merged total: ${totalFiles} files into ${distDir}`)
+
+  // Merge route tables from all shards into a single app.js.
+  // Each shard's app.js only has routes for the pages it rendered;
+  // the merged app.js needs the union of all routes for SPA navigation.
+  if (args.shards > 1) {
+    console.log('[sharded-build] merging route tables from all shards...')
+    mergeRouteTables(specs, distDir)
+  }
 
   // Regenerate a unified sitemap and robots.txt from the merged dist.
   // Reason: each shard's sitemap/search plugins only see the shard's page
