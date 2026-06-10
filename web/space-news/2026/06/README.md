@@ -17,6 +17,10 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-10 | [国际空间站美国与欧洲航天员躲入龙飞船 俄方舱外修补转运通道漏气](./2026-06-10-iss-air-leak-dragon-shelter/) |
+| 6-10 | [NASA 公布 Artemis 3 登月乘组：指令长 Bresnik 领衔四人组](./2026-06-10-nasa-artemis3-crew-announcement/) |
+| 6-10 | [SpaceX 范登堡 6 月 6 日夜间发射 21 颗 Starlink + 2 颗 Starshield 卫星](./2026-06-10-spacex-starshield-starlink-june6/) |
+| 6-10 | [朱雀二号改进型遥六一箭双星成功发射 千帆 DTC 01 星与中移 02 星入轨](./2026-06-10-zhuque-2e-y6-qianfan-dtc/) |
 | 6-09 | [Iceye 完成超10亿欧元融资 SAR卫星巨头估值突破百亿](./2026-06-09-iceye-1b-euro-funding/) |
 | 6-09 | [Isar Aerospace 完成2.7亿欧元D轮融资 加速欧洲小型运载火箭量产](./2026-06-09-isar-aerospace-270m-series-d/) |
 | 6-09 | [New Glenn 爆炸倒逼 NASA 重写月球基地方案 近10亿美元合同落地三家承包商](./2026-06-09-new-glenn-rewrite-nasa-moon-base/) |
@@ -46,7 +50,6 @@ wechatShare:
 | 6-04 | [3I/ATLAS 不是外星飞船：SETI 监听未发现任何「技术签名」](./2026-06-04-3i-atlas-seti-no-alien-signals/) |
 | 6-04 | [长征六号改一箭 18 星成功发射千帆极轨 11 组卫星 长征系列累计第 648 次飞行](./2026-06-04-qianfan-11-batch-long-march-6a/) |
 | 6-04 | [Mini-Neptune 系外行星被指是天然柴油机：JWST 观测指向 PAH 煤烟](./2026-06-04-exoplanet-soot-factories-jwst-mini-neptune/) |
-| 6-03 | [Starlink 17-47 从范登堡升空，SpaceX 完成第 618 次一级回收](./2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/) |
 | 6-04 | [撒哈拉陨石 NWA 12774 揭示早期太阳系失踪世界：富铝单斜辉石把 angrite 母体推向月球量级](./2026-06-04-sahara-meteorite-lost-solar-system-world/) |
 | 6-04 | [欧几里得望远镜在球状星团 NGC 6397 中发现一片「失踪的恒星」：红矮星部分对流到完全对流过渡的观测证据](./2026-06-04-ngc6397-star-cluster-missing-stars/) |
 | 6-04 | [NASA 局长 Isaacman 首度表态：Blue Moon 着陆器将与新格伦脱钩 寻找新发射载具](./2026-06-04-nasa-isaacman-blue-moon-launcher-swap/) |
@@ -77,6 +80,10 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-10: 新增国际空间站漏气避险事件报道（space.com 6/5 + SFN 6/5）：NASA 指示 Crew-12 乘员与 Chris Williams 进入龙飞船避险，俄方宇航员出舱修补 PrK 转运通道漏气点
+- 2026-06-10: 新增 NASA 公布 Artemis 3 登月乘组报道（Spaceflight Now 6/9）：Randy Bresnik 担任指令长，四人组目标 2028 年前载人登月
+- 2026-06-10: 新增 SpaceX 范登堡 6 月 6 日 Starlink + Starshield 发射报道（SFN 6/6）：21 颗 Starlink + 2 颗 Starshield 卫星，B1097 第 10 次飞行，OCISLY 第 201 次着陆
+- 2026-06-10: 新增朱雀二号改进型遥六发射报道（央视新闻 6/9）：蓝箭航天 ZQ-2E Y6 一箭双星，千帆 DTC 01 星 + 中国移动 02 星入轨
 - 2026-06-10: 新增 Iceye 10 亿欧元融资报道（SpaceNews 6/9）：芬兰 SAR 卫星公司 Series F 由 General Atlantic 领投 4.5 亿欧元，加上二级市场配售总额突破 10 亿欧元，估值超 100 亿欧元；与 Rheinmetall 合作赢得 19 亿美元德国军事 SAR 合同、波兰 2 亿欧元合同；年产能从 50 颗提升至 2028 年 100 颗
 - 2026-06-10: 新增 Isar Aerospace 2.7 亿欧元 D 轮融资报道（SpaceNews 6/9）：德国慕尼黑火箭制造商 Series D 由 Island Green Capital 和 Molten Ventures 领投，Spectrum 小型运载火箭产能扩至每年 40 枚；与加拿大 Maritime Launch Services 签署 LOI，布局全球发射基地
 - 2026-06-10: 新增 New Glenn 爆炸迫使 NASA 重写月球基地方案报道（SpaceNews 6/9）：NASA 5/26 简报会选定 Astrolab + Lunar Outpost 开发月球车、Firefly Aerospace 开发 MoonFall 无人机，合同总额近 10 亿美元；Blue Origin 获四项 Blue Moon Mark 1 任务含 VIPER 月球车运送；整个月球基地计划三阶段十年以上、超 300 亿美元
@@ -89,7 +96,7 @@ wechatShare:
 - 2026-06-05: 新增 Starlink 10-43 6/4 补飞结果稿（space.com 6/4 18:00 UTC 合并回顾）：6/3 上午 7:24 EDT 因冷锋触发积云云团+厚云层+表面电场规则被取消 31 小时后，10-43 于 6/4 美东 06:26（UTC 10:26）从 SLC-40 升空，29 颗 V2 Mini Optimized 卫星入轨，B1090 第 12 次飞行在 ASOG 无人船甲板着陆，标志 ASOG 第 153 次成功回收与 SpaceX 整个一级回收序列的第 619 次；与 6/3 OCISLY 第 200 次 / SpaceX 第 618 次形成 24 小时内两次东/西海岸回收
 - 2026-06-05: 新增 NWA 12774 angrite 陨石研究（CU Boulder Aaron Bell 团队，space.com 6/4 报道）：2019 年撒哈拉回收样本含富铝单斜辉石晶体，地球化学证据把 angrite 母体从"小行星"上推到"接近月球量级"的原行星胚胎，与地球、火星遵循截然不同的行星形成路径；这是早期太阳系"存在过、又被摧毁"的失踪世界首个直接地球化学证据
 - 2026-06-05: 新增 ESA Euclid 望远镜对球状星团 NGC 6397 的 H-R 图空隙发现（STScI 6/4 发布，space.com 报道）：红矮星序列中特定亮度档几乎完全缺失，与红矮星从"部分对流"过渡到"完全对流"时结构与光度的细微变化一致；该空隙为研究运动学时的 serendipitous 发现，非事先寻找目标
-- 2026-06-05: 新增 NASA 局长 Isaacman 6/4 FOX Business 采访报道（SFN 6/4 18:08 UTC）：首次公开表态"把 Blue Moon 与新格伦脱钩"——Blue Moon MK1 货运+ MK2 载人"可能"改用其他火箭，Artemis 3 仍按 2027 测试、2028 载人登月推进；Blue Origin CEO Dave Limp 6/1 社交媒体声明 LC-36 储罐完好、支援塔原地修复、年底前复飞；与 6/1 行业分析师稿（重大挫折/任务链承压）形成"NASA 切火箭"与"Blue Origin 修复"两条并行线索
+- 2026-06-05: 新增 NASA 局长 Isaacman 6/4 FOX Business 采访报道（SFN 6/4 18:08 UTC）：首次公开表态"把 Blue Moon 与新格伦脱钩"——Blue Moon MK1 货运+ MK2 载人"可能"改用其他火箭，Artemis 3 仍按 2027 测试、2028 载人登月推进；与 6/1 行业分析师稿（重大挫折/任务链承压）形成"NASA 切火箭"与"Blue Origin 修复"两条并行线索
 - 2026-06-04: 新增中国可重复使用火箭密集试验期综述（财联社 6/3 盘前 + 蓝箭航天 5/13 Y2 出厂公告 + 2/220 吨液氧甲烷「蓝焱」发动机长程试车完成 + 长征十二号乙 6/1 首飞含返场气动外形验证）：朱雀三号遥二瞄准上半年回收+四季度复用、深蓝航天星云一号、中科宇航力箭改型、中国商火长征十号乙多型排队
 - 2026-06-04: 新增北京经开区 6/3 太空算力企业座谈会报道（澎湃/财联社 6/3）：京东方、银河航天、蓝箭航天、星河动力、观宇芯算、长鑫集电等头部企业参与对接北京太空算力创新中心建设，配套 5/31 新华社经济参考报披露的北京太空智算研究院成立、6/1 海淀北京首个太空算力产业创新中心（北邮+清华+银河航天牵头）落地，三件套形成「海淀出算法 + 经开区出卫星」格局
 - 2026-06-04: 新增 Penn State Eberly College 物理学家 Daniel Paraizo 团队原初黑洞→白洞理论研究（arXiv 预印本，space.com 6/3 报道）：用半经典模型计算霍金辐射寿命，发现抵达普朗克质量时原初黑洞进入「与白洞不可区分」的稳定终态
