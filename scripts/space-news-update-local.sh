@@ -9,9 +9,10 @@
 
 set -uo pipefail
 
-# Manual dry-run: SKIP_HERMES=1 bash scripts/space-news-update-local.sh
-# Skips Phase 1 (hermes draft) so build+rsync pipeline can be tested alone.
-SKIP_HERMES="${SKIP_HERMES:-0}"
+# Manual dry-run: SKIP_PHASE1=1 bash scripts/space-news-update-local.sh
+# Skips Phase 1 (draft) so build+rsync pipeline can be tested alone.
+# Legacy alias SKIP_HERMES still works.
+SKIP_PHASE1="${SKIP_PHASE1:-${SKIP_HERMES:-0}}"
 
 REPO="/home/ouyangjiahong/codes/cislunarspace"
 WEB="$REPO/web"
@@ -27,24 +28,15 @@ echo "PWD=$REPO"
 
 cd "$REPO" || { echo "FATAL: cd $REPO failed"; exit 1; }
 
-# --- Phase 1: have hermes draft new articles per the SKILL ---
-if [ "$SKIP_HERMES" = "1" ]; then
-    echo "[$(date -Iseconds)] phase 1: SKIPPED (SKIP_HERMES=1)"
+# --- Phase 1: search & draft new articles (lightweight Python script) ---
+if [ "$SKIP_PHASE1" = "1" ]; then
+    echo "[$(date -Iseconds)] phase 1: SKIPPED (SKIP_PHASE1=1)"
     PHASE1_RC=0
 else
-    echo "[$(date -Iseconds)] phase 1: hermes chat -q ..."
-    hermes chat -q "执行 Space News 定期更新。
-
-时间窗口：最近 24-48 小时（覆盖当前与前一天，弥补单次遗漏）。
-严格按照 $REPO/scripts/space-news-publish/SKILL.md 全部章节操作。
-完成后汇报新增稿件数量。
-
-如果没有值得报道的新闻，简短说明即可。" \
-  --skills space-news-publish \
-  -Q \
-  --yolo 2>&1
-PHASE1_RC=$?
-echo "[$(date -Iseconds)] phase 1 exit=$PHASE1_RC"
+    echo "[$(date -Iseconds)] phase 1: python3 scripts/space-news-update-phase1.py"
+    python3 "$REPO/scripts/space-news-update-phase1.py" 2>&1
+    PHASE1_RC=$?
+    echo "[$(date -Iseconds)] phase 1 exit=$PHASE1_RC"
 fi
 
 # --- Phase 2: sharded parallel build on local (32 cores, 125Gi RAM) ---
