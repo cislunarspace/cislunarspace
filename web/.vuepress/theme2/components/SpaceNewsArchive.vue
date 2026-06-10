@@ -26,7 +26,7 @@
         >{{ cat.label }}</button>
       </nav>
 
-      <section v-for="(group, gIdx) in filteredGroups" :key="group.key" :id="group.key" class="sna-group scroll-reveal" :class="`scroll-reveal-delay-${(gIdx % 3) + 1}`">
+      <section v-for="(group, gIdx) in filteredGroups" :key="group.key" :id="group.key" class="sna-group scroll-reveal revealed" :class="`scroll-reveal-delay-${(gIdx % 3) + 1}`">
         <h2 class="sna-group__title">{{ group.label }}</h2>
         <ul class="sna-cards">
           <li v-for="item in group.items" :key="item.path" class="sna-cards__cell">

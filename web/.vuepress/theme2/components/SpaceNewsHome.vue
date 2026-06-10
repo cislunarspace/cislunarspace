@@ -35,13 +35,13 @@
         </div>
       </div>
 
-      <section class="sn-section scroll-reveal">
+      <section class="sn-section scroll-reveal revealed">
         <div class="sn-section__head">
           <h2 class="sn-section__title">{{ labels.latest }}</h2>
           <router-link class="sn-section__more" :to="archivePath">{{ labels.viewAll }}</router-link>
         </div>
         <ul class="sn-grid">
-          <li v-for="(item, idx) in latestItems" :key="item.path" class="sn-grid__cell scroll-reveal" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
+          <li v-for="(item, idx) in latestItems" :key="item.path" class="sn-grid__cell scroll-reveal revealed" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
                 <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
@@ -60,7 +60,7 @@
         </ul>
       </section>
 
-      <section v-for="(sec, secIdx) in categorySections" :key="sec.key" class="sn-section scroll-reveal" :class="`scroll-reveal-delay-${(secIdx % 2) + 1}`">
+      <section v-for="(sec, secIdx) in categorySections" :key="sec.key" class="sn-section scroll-reveal revealed" :class="`scroll-reveal-delay-${(secIdx % 2) + 1}`">
         <div class="sn-section__head">
           <h2 class="sn-section__title">
             <span class="sn-section__dot" :style="{ background: sec.color }"></span>
@@ -69,7 +69,7 @@
           <router-link class="sn-section__more" :to="archivePath + '#' + sec.key">{{ labels.viewMore }}</router-link>
         </div>
         <ul class="sn-grid">
-          <li v-for="(item, idx) in sec.items" :key="item.path" class="sn-grid__cell scroll-reveal" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
+          <li v-for="(item, idx) in sec.items" :key="item.path" class="sn-grid__cell scroll-reveal revealed" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
                 <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
