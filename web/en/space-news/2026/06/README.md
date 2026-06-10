@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-09
+lastUpdated: 2026-06-10
 ---
 
 # June 2026
@@ -13,6 +13,9 @@ lastUpdated: 2026-06-09
 
 | Date | Title |
 |------|-------|
+| 6-09 | [Iceye Raises Over €1 Billion, SAR Satellite Giant Valued at €10B+](./2026-06-09-iceye-1b-euro-funding/) |
+| 6-09 | [Isar Aerospace Raises €270M Series D to Scale European Small Launch Vehicle Production](./2026-06-09-isar-aerospace-270m-series-d/) |
+| 6-09 | [New Glenn Explosion Forces NASA to Rewrite Moon Base Plans, Nearly $1B in Contracts Awarded](./2026-06-09-new-glenn-rewrite-nasa-moon-base/) |
 | 6-09 | [Four Private Rocket Companies Selected for Qingzhou Cargo Spacecraft Launch Services](./2026-06-09-qingzhou-cargo-private-rockets/) |
 | 6-09 | [LandSpace ZQ-2E Y6 launches two Qianfan and China Mobile satellites on single rocket](./2026-06-09-zhuque-2e-y6-qianfan-dtc/) |
 | 6-09 | [JWST Weighs a 'Sleeping Giant' Black Hole 10 Billion Light-Years Away: 6 Billion Times the Sun's Mass](./2026-06-09-jwst-sleeping-giant-black-hole/) |
@@ -68,6 +71,9 @@ lastUpdated: 2026-06-09
 
 ## Update Log
 
+- 2026-06-10: Added Iceye €1B funding report (SpaceNews 6/9): Finnish SAR satellite company Series F led by General Atlantic at €450M, secondary placement pushes total past €1B, valuation over €10B; Rheinmetall partnership for $1.9B German military SAR contract, €200M Poland contract; scaling from 50 to 100 satellites/year by 2028
+- 2026-06-10: Added Isar Aerospace €270M Series D report (SpaceNews 6/9): Munich-based rocket maker raised from Island Green Capital and Molten Ventures, Spectrum small launch vehicle production to scale to 40 vehicles/year; signed LOI with Maritime Launch Services for Canadian launch site
+- 2026-06-10: Added New Glenn explosion forces NASA moon base rewrite report (SpaceNews 6/9): NASA May 26 briefing selected Astrolab + Lunar Outpost for rovers, Firefly Aerospace for MoonFall drones, contracts totaling nearly $1B; Blue Origin won four Blue Moon Mark 1 missions including VIPER rover delivery; lunar base plan spans 3 phases over a decade, estimated $30B+
 - 2026-06-09: Added four private rocket companies selected for Qingzhou cargo spacecraft launch services (DoNews 6/8): Galactic Energy, CAS Space, Orienspace, LandSpace shortlisted; first time private rockets included in China's space station cargo system; Qingzhou maiden flight planned for January 2027
 - 2026-06-09: Added Shenzhou-23 crew first in-orbit work images report (CMSA 6/7 release): three astronauts adapted to microgravity, conducting 100+ science experiments; one crew member will span Shenzhou-23 and Shenzhou-24 for China's first year-long single-mission space station residency; Hong Kong's first astronaut Lai Ka-ying among the crew
 - 2026-06-09: Added LandSpace ZQ-2E Y6 launch report (CCTV News 6/9): ZQ-2E Y6 two-satellite ride, Qianfan DTC 01 + China Mobile 02 to orbit, 8th Zhuque-2 family flight, 2nd ZQ-2E in 27 days; first Qianfan satellite launched on a commercial rocket

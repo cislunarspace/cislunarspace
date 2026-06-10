@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-09
+lastUpdated: 2026-06-10
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,9 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-09 | [Iceye 完成超10亿欧元融资 SAR卫星巨头估值突破百亿](./2026-06-09-iceye-1b-euro-funding/) |
+| 6-09 | [Isar Aerospace 完成2.7亿欧元D轮融资 加速欧洲小型运载火箭量产](./2026-06-09-isar-aerospace-270m-series-d/) |
+| 6-09 | [New Glenn 爆炸倒逼 NASA 重写月球基地方案 近10亿美元合同落地三家承包商](./2026-06-09-new-glenn-rewrite-nasa-moon-base/) |
 | 6-09 | [四家民营火箭企业入围轻舟货运飞船发射服务候选 民营火箭首次纳入空间站货运体系](./2026-06-09-qingzhou-cargo-private-rockets/) |
 | 6-09 | [朱雀二号改进型遥六一箭双星成功发射 千帆 DTC 01 星与中移 02 星入轨](./2026-06-09-zhuque-2e-y6-qianfan-dtc/) |
 | 6-09 | [JWST 首次称量百亿光年外休眠超大质量黑洞：质量为太阳 60 亿倍](./2026-06-09-jwst-sleeping-giant-black-hole/) |
@@ -74,6 +77,9 @@ wechatShare:
 
 ## 更新日志
 
+- 2026-06-10: 新增 Iceye 10 亿欧元融资报道（SpaceNews 6/9）：芬兰 SAR 卫星公司 Series F 由 General Atlantic 领投 4.5 亿欧元，加上二级市场配售总额突破 10 亿欧元，估值超 100 亿欧元；与 Rheinmetall 合作赢得 19 亿美元德国军事 SAR 合同、波兰 2 亿欧元合同；年产能从 50 颗提升至 2028 年 100 颗
+- 2026-06-10: 新增 Isar Aerospace 2.7 亿欧元 D 轮融资报道（SpaceNews 6/9）：德国慕尼黑火箭制造商 Series D 由 Island Green Capital 和 Molten Ventures 领投，Spectrum 小型运载火箭产能扩至每年 40 枚；与加拿大 Maritime Launch Services 签署 LOI，布局全球发射基地
+- 2026-06-10: 新增 New Glenn 爆炸迫使 NASA 重写月球基地方案报道（SpaceNews 6/9）：NASA 5/26 简报会选定 Astrolab + Lunar Outpost 开发月球车、Firefly Aerospace 开发 MoonFall 无人机，合同总额近 10 亿美元；Blue Origin 获四项 Blue Moon Mark 1 任务含 VIPER 月球车运送；整个月球基地计划三阶段十年以上、超 300 亿美元
 - 2026-06-09: 新增四家民营火箭企业入围轻舟货运飞船发射服务候选报道（DoNews 6/8）：星河动力、中科宇航、东方空间、蓝箭航天入选，民营火箭首次纳入中国空间站货运体系，轻舟飞船计划 2027 年 1 月首飞
 - 2026-06-09: 新增神舟二十三号乘组首批在轨工作画面报道（CMSA 6/7 发布）：三名航天员已适应微重力环境，开展 100 余项科学实验；一名乘组成员将跨越神舟二十三号和二十四号任务期执行中国首次一年驻留实验；香港首位航天员黎家盈在列
 - 2026-06-09: 新增朱雀二号改进型遥六发射报道（央视新闻 6/9）：蓝箭航天 ZQ-2E Y6 一箭双星，千帆 DTC 01 星 + 中国移动 02 星入轨，朱雀二号系列第 8 飞，改进型 27 天内第 2 次发射；千帆星座卫星首次由商业火箭发射
