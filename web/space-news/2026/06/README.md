@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-10
+lastUpdated: 2026-06-11
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-10 | [中国将对北斗卫星导航系统实施在轨升级](./2026-06-10-china-beidou-in-orbit-upgrade/) |
 | 6-09 | [朱雀二号改进型再次成功发射 民商火箭工程化提速与行业格局分化并存](./2026-06-09-zq-2e-y6-success-launch-commercial-rocket-engineering/) |
 | 6-10 | [国际空间站美国与欧洲航天员躲入龙飞船 俄方舱外修补转运通道漏气](./2026-06-10-iss-air-leak-dragon-shelter/) |
 | 6-10 | [NASA 公布 Artemis 3 登月乘组：指令长 Bresnik 领衔四人组](./2026-06-10-nasa-artemis3-crew-announcement/) |
