@@ -56,26 +56,29 @@ MINIMAX_BASE = "https://api.minimaxi.com"
 SEARCH_MODEL = "MiniMax-Text-01"   # 支持 web_search tool
 CHAT_MODEL = "MiniMax-M3"            # 写稿/筛选用
 
-# 中文搜索关键词（4轮，合并相近关键词减少调用数）
+# 中文搜索关键词（D 方案：日期硬锚 + 砍量到 4 条 = 90s 预算）
+# 关键改动：每条都带"2026-06-{昨天}/{今天}"，避免命中 2013 神舟十、2025 火星陈粮
+# 历史教训：web_search 不响应 site: 操作符，所以不写 site:cnsa.gov.cn
+# 但能用具体站点关键词 + 年月日 串把结果导向新文章
+_yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+_today = datetime.now().strftime("%Y-%m-%d")
+_month_short = datetime.now().strftime("%Y年%-m月")  # 中文月
+
 CN_QUERIES = [
-    "长征 发射 2026 神舟 天宫 嫦娥 天问",
-    "商业航天 发射 2026 朱雀 天龙 谷神星 力箭 双曲线 引力",
-    "中国航天 最新消息 2026 北斗 导航卫星",
-    "千帆星座 2026 国网星座 卫星互联网 中国",
+    f"中国航天 发射 完成 {_yesterday} {_today} 长征 神舟 天舟 天龙 朱雀",  # 5条最热
+    f"千帆星座 垣信卫星 {_yesterday} {_today} 发射 部署",  # 国网 + 千帆
+    f"嫦娥 天问 探月 火星 {_yesterday} {_today} 进展",  # 重大科学
+    f"商业航天 融资 政策 商业火箭 {_month_short}",  # 商业动态
 ]
 
-# 国际搜索关键词
+# 国际搜索关键词（D 方案：日期硬锚 + 砍量到 5 条 = 110s 预算）
+# 历史经验：合并相近主题避免返回高度重叠的结果
 INTL_QUERIES = [
-    "SpaceX launch June 2026",
-    "NASA news June 2026",
-    "ESA news June 2026",
-    "Rocket Lab launch 2026",
-    "Blue Origin New Glenn 2026",
-    "Starlink launch June 2026",
-    "Artemis program 2026",
-    "Starship test 2026",
-    "space science news June 2026",
-    "commercial space funding 2026",
+    f"SpaceX Starlink launch {_yesterday} {_today} Falcon 9",
+    f"NASA mission news {_yesterday} {_today} Artemis ISS",
+    f"Rocket Lab Blue Origin ULA launch {_yesterday} {_today}",
+    f"ISRO JAXA mission {_yesterday} {_today} launch",  # 亚洲双印 + 日
+    f"exoplanet black hole JWST discovery {_yesterday} {_today}",  # 学科
 ]
 
 MAX_SEARCH_WORKERS = 5
@@ -84,6 +87,27 @@ CHAT_TIMEOUT = 60
 
 # 只关注最近 N 天的新闻（cron 场景）
 CUTOFF_DAYS = 3
+
+# 允许的 category 集合（v2 扩展：覆盖 2026-06 实际活跃机构）
+# D 方案：原 12 个太窄，缺 isro/jaxa/kasa/arianespace/ula/vulcan/
+# axiom/vast/starship-test/exoplanet/blackhole/gravitational-wave/
+# solar/space-telescope/mars/moon/meteor/cluster 等实际近期热点
+ALLOWED_CATEGORIES = {
+    # 国家/机构
+    "china", "nasa", "esa", "isro", "jaxa", "kasa", "roscosmos", "cnes", "uae",
+    # 公司
+    "spacex", "rocket-lab", "blue-origin", "ula", "arianespace", "axiom", "vast",
+    "firefly", "relativity", "stoke-space", "ispace", "k2", "cas-space", "galactic-energy",
+    "landspace", "space-pioneer", "orientspace", "deep-blue-aerospace", "link-space",
+    # 项目
+    "artemis", "iss", "tiangong", "gateway", "starship-test", "starlink", "qianfan",
+    "guowang", "beidou",
+    # 学科
+    "exoplanet", "blackhole", "gravitational-wave", "space-telescope", "mars",
+    "moon", "solar", "meteor", "cluster", "asteroid",
+    # 通用
+    "launch", "commercial", "science", "policy", "funding",
+}
 
 # ============================================================================
 # HTTP / API
@@ -213,11 +237,18 @@ def search_all() -> List[Dict]:
 # 去重：加载已有稿件
 # ============================================================================
 
-def load_existing_recent(cutoff_days: int = CUTOFF_DAYS) -> Tuple[set, set, set]:
-    """加载最近 cutoff_days 天内所有月份的已有稿件（跨月去重）。"""
+def load_existing_recent(cutoff_days: int = CUTOFF_DAYS) -> Tuple[set, set, set, List[Dict]]:
+    """加载最近 cutoff_days 天内所有月份的已有稿件（跨月去重）。
+
+    D 方案：除了 url/title/slug，还返回每篇稿件的元数据列表（包含
+    frontmatter date / category / 事件 fingerprint），用于在 select_articles
+    里做"同事件重复"去重（仅 URL 比对挡不住 6/5 SpaceX IPO 完整稿
+    跟 6/11 IPO 谣言翻版）。
+    """
     urls = set()
     titles = set()
     slugs = set()
+    metas: List[Dict] = []  # [{date, category, fingerprints: set[str], title_zh, title_en}]
 
     now = datetime.now()
     # 扫描最近 2 个月的所有目录（覆盖跨月边界）
@@ -243,27 +274,157 @@ def load_existing_recent(cutoff_days: int = CUTOFF_DAYS) -> Tuple[set, set, set]
                 if m:
                     slugs.add(m.group(1))
 
-                # 提取 frontmatter title
+                # 提取 frontmatter
                 fm = re.search(r"^---\n(.*?)\n---", content, re.DOTALL)
+                fm_text = fm.group(1) if fm else ""
+                title_zh = title_en = ""
+                date_str = ""
+                category = ""
                 if fm:
-                    title_m = re.search(r'^title:\s*["\']?(.*?)["\']?$', fm.group(1), re.MULTILINE)
+                    title_m = re.search(r'^title:\s*["\']?(.*?)["\']?$', fm_text, re.MULTILINE)
                     if title_m:
-                        titles.add(title_m.group(1).strip())
+                        title_zh = title_m.group(1).strip()  # zh + en 文件分别存
+                        titles.add(title_zh)
+                    date_m = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', fm_text, re.MULTILINE)
+                    if date_m:
+                        date_str = date_m.group(1)
+                    cat_m = re.search(r'^category:\s*["\']?(\S+)', fm_text, re.MULTILINE)
+                    if cat_m:
+                        category = cat_m.group(1).strip().strip('"\'')
 
                 # 提取 sources URL
                 for line in content.split("\n"):
                     for url_m in re.finditer(r"\((https?://[^\)]+)\)", line):
                         urls.add(url_m.group(1).strip())
 
-    return urls, titles, slugs
+                # D 方案：从 title + slug 提"事件 fingerprint"
+                # 取核心实体关键词（小写、去标点），用于跨语言同事件识别
+                fingerprint_source = (m.group(1) if m else "") + " " + title_zh
+                fps = _extract_event_fingerprints(fingerprint_source)
+                if fps:
+                    metas.append({
+                        "date": date_str,
+                        "category": category,
+                        "fingerprints": fps,
+                        "title_zh": title_zh,
+                        "slug": m.group(1) if m else "",
+                    })
+
+    return urls, titles, slugs, metas
+
+
+# 事件 fingerprint 提取用的停用词（高频但无语义）
+_FP_STOPWORDS = {
+    "the", "a", "an", "of", "in", "to", "for", "on", "at", "by", "with", "from",
+    "is", "are", "was", "were", "be", "as", "and", "or", "but", "its",
+    "after", "first", "new", "via", "over", "into", "up", "out",
+    "宣布", "完成", "成功", "最新", "消息", "新闻", "报道", "公司", "机构", "国家",
+    "发射", "任务", "项目", "计划", "中国", "美国", "欧洲", "俄罗斯", "日本", "印度",
+    "2026", "2025", "2024", "june", "may", "july", "august", "september",
+    "6月", "5月", "7月", "8月", "9月",
+}
+
+
+def _extract_event_fingerprints(text: str) -> set:
+    """从 title/slug 提'事件 fingerprint'（核心实体词集合）。
+
+    规则：保留长度 ≥ 4 的英文 token + 长度 ≥ 2 的中文 token + 关键数字串，
+    过滤停用词。同一事件（如 'spacex-ipo-spcx' 跟
+    'spacex-sb-amti-contract'）的 fingerprint 集合会有显著重叠
+    （都含 'spacex'、'spcx'、'ipo' 之类）。
+
+    D 方案 v2：增加数字 token 提取（135, 1.77, 750 等关键数字）。
+    理由：135 美元 / 1.77T / 750 亿这种"关键数字组合"是同事件最强
+    指纹之一，仅靠英文/中文实体词会漏掉（数字不在 [a-z] 字符类）。
+    """
+    text_lower = text.lower()
+    # 先去掉日期串（避免 2026-06-12 被切成 2026/06/12 三个 fingerprint）
+    # 匹配 YYYY-MM-DD 或 YYYY 年 M 月 D 日
+    text_no_dates = re.sub(r"\d{4}[-/]\d{1,2}[-/]\d{1,2}", " ", text_lower)
+    text_no_dates = re.sub(r"\d{4}\s*年\s*\d{1,2}\s*月\s*\d{1,2}\s*日", " ", text_no_dates)
+    # 英文 token
+    en_tokens = re.findall(r"[a-z][a-z0-9-]{3,}", text_no_dates)
+    # 中文 token（连续 2+ 个汉字）
+    zh_tokens = re.findall(r"[\u4e00-\u9fff]{2,}", text)
+    # 关键数字串（1.77, 135, 750, 1.1, 1296 等，≥ 2 位数 + 允许 1 位小数）
+    # 限制：必须是 ≥ 2 位连续数字（避免命中无意义单数字）
+    num_tokens = re.findall(r"\d{2,}(?:\.\d+)?", text_no_dates)
+    fps = set()
+    for tok in en_tokens:
+        if tok not in _FP_STOPWORDS:
+            fps.add(tok)
+    for tok in zh_tokens:
+        if tok not in _FP_STOPWORDS:
+            fps.add(tok)
+    for tok in num_tokens:
+        fps.add(tok)
+    return fps
+
+
+def _is_duplicate_event(new_fps: set, existing_metas: List[Dict], category: str,
+                        cutoff_days: int = 8) -> bool:
+    """判断新候选事件是否与已有稿件（cutoff_days 内）'同事件'。
+
+    D 方案 v3：仅 URL 去重挡不住不同来源报道同一事件。
+    判定：fingerprint 集合交集 ≥ 3 个核心词 → 视为同事件 → skip。
+
+    历史教训：
+    v1：category 严格相等预筛导致漏拦（6/5 commercial vs 6/11 funding）
+    v1.5：slug 改了就不拦 → 同一事件改个日期 slug 即可绕过
+    v2：去掉 category 预筛 + 提高阈值到 3 + 强信号词组合
+    v3：cutoff_days 默认 8。理由：cron 跑在 14:18 UTC(6/12)，cutoff=7
+    = 6/5 14:18 之前。但已发布的 6/5 稿 date=6/5 00:00（北京时间换算后
+    早于该时刻）→ 被错误排除。8 天能确保覆盖 7 天前整日。
+    """
+    if not new_fps:
+        return False
+    cutoff_date = datetime.now() - timedelta(days=cutoff_days)
+    # 强信号词组合：这些词在两个不同事件里都出现概率极低
+    # 例：{135, 1.77, spcx, nasdaq, 挂牌, 上市, 估值} 同时出现
+    # 大概率是"SpaceX IPO 定价/挂牌" 这同一事件链
+    strong_combos = [
+        {"spcx", "nasdaq"},       # SpaceX IPO 交易所 + 代码
+        {"spcx", "trillion"},     # SpaceX IPO 估值
+        {"135", "trillion"},      # 135 美元 1.77T
+        {"135", "nasdaq"},
+        {"挂牌", "nasdaq"},       # 中文"挂牌" + 英文"nasdaq"
+        {"135", "挂牌"},
+    ]
+    for meta in existing_metas:
+        if not meta.get("date"):
+            continue
+        try:
+            d = datetime.strptime(meta["date"], "%Y-%m-%d")
+            if d < cutoff_date:
+                continue
+        except ValueError:
+            continue
+        existing_fps = meta.get("fingerprints", set())
+        overlap = new_fps & existing_fps
+        if len(overlap) >= 3:
+            return True
+        # 强信号词组合：两个组合词组都命中 → 必拦
+        for combo in strong_combos:
+            if combo.issubset(new_fps) and combo.issubset(existing_fps):
+                return True
+    return False
 
 
 # ============================================================================
 # 筛选：LLM 判断哪些值得写
 # ============================================================================
 
-def select_articles(results: List[Dict], existing_urls: set, existing_titles: set, existing_slugs: set, cutoff_days: int = CUTOFF_DAYS) -> List[Dict]:
-    """用一次 LLM 调用筛选值得写的新闻。返回文章元数据列表。"""
+def select_articles(results: List[Dict], existing_urls: set, existing_titles: set,
+                    existing_slugs: set, existing_metas: List[Dict],
+                    cutoff_days: int = CUTOFF_DAYS) -> List[Dict]:
+    """用一次 LLM 调用筛选值得写的新闻。返回文章元数据列表。
+
+    D 方案改动：
+    - 接 existing_metas 做强去重（fingerprint 交集 ≥ 2 → skip）
+    - 把 category 校验从 12 个扩到 ALLOWED_CATEGORIES
+    - prompt 强调"完成信号"判断（动词 + 具体日期）而非 LLM 自由发挥
+    - 返回前再做 date 硬过滤（即便 LLM 看错 description）
+    """
     if not results:
         return []
 
@@ -272,19 +433,25 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
     if not filtered:
         return []
 
-    # 只取前 20 条传给 LLM，避免上下文过长
-    candidates = filtered[:20]
+    # 只取前 15 条传给 LLM，避免上下文过长 + 超时
+    candidates = filtered[:15]
 
-    existing_titles_text = "\n".join(f"- {t}" for t in sorted(existing_titles)[:25])
+    # existing_titles 限到 20 条，省 token；同类（同 slug 前缀）合并
+    existing_titles_text = "\n".join(f"- {t}" for t in sorted(existing_titles)[:20])
     candidates_text = "\n".join(
-        f"{i+1}. 标题: {r['title']}\n   URL: {r['url']}\n   摘要: {r['description'][:180]}"
+        f"{i+1}. 标题: {r['title']}\n   URL: {r['url']}\n   摘要: {r['description'][:200]}"
         for i, r in enumerate(candidates)
     )
 
     today_str = datetime.now().strftime("%Y-%m-%d")
     cutoff_str = (datetime.now() - timedelta(days=cutoff_days)).strftime("%Y-%m-%d")
 
-    prompt = f"""你是一位资深航天新闻编辑。请从以下搜索结果中，筛选出最近24-48小时内（即 {cutoff_str} 到 {today_str} 之间）值得单独成稿的航天新闻。
+    # 列出所有合法 category，避免 LLM 自由发挥成 brand cruft
+    categories_doc = ", ".join(sorted(ALLOWED_CATEGORIES))
+
+    # D 方案：prompt 改写 "完成信号" 规则，基于 description 里的具体动作词+日期
+    # 历史教训：让 LLM 自由判断"是否新"会导致 cutoff_days 形同虚设
+    prompt = f"""你是一位资深航天新闻编辑。请从以下搜索结果中，筛选出 **{cutoff_str} 到 {today_str}** 之间值得单独成稿的航天新闻。
 
 ## 已有稿件（同一事件不要重复写）
 {existing_titles_text}
@@ -292,14 +459,18 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
 ## 候选新闻
 {candidates_text}
 
-## 筛选规则
-1. 【时间硬约束】只选日期在 {cutoff_str} 之后的新闻。早于 {cutoff_str} 的绝对跳过。
-2. 可写：重大任务里程碑、发射完成结果、官方政策/预算、商业航天关键融资/合同、重要空间科学发现
-3. 跳过：预发射观礼指南、to launch / targets / scheduled for 且无完成信号、gallery/照片汇编、娱乐/购物/podcast、军事ICBM试射
-4. 同一事件已有稿时跳过；Starlink等高频常规发射合并，不逐条写
-5. 每篇至少一条可引用原文URL，优先官方/权威来源（新华社、NASA、ESA、SpaceX等），避免聚合站
-6. 中国航天相关新闻占比目标不低于30%；不足时回到中文搜索补检
-7. 无值得写的新闻时返回空数组 []
+## 筛选规则（严格）
+1. 【时间硬约束】只选日期在 {cutoff_str} 之后的新闻。早于 {cutoff_str} 的绝对跳过。看摘要里的具体日期串（如 "June 11, 2026" / "2026年6月11日" / 任何 YYYY-MM-DD / YYYY 年 M 月 D 日 格式）做判断。
+2. 【完成信号】必须满足下列至少一项才算"已发生"：
+   - 英文：lifts off / launched / launches successfully / launch failure / lands / completes / confirms / announces / reveals / detected / signs / closes funding / files S-1 / IPO / wins contract
+   - 中文：发射成功 / 抵达 / 成功 / 失败 / 宣布 / 公布 / 签约 / 完成 / 突破 / 检测到 / 着陆
+   - 跳过：to launch / targets / scheduled for / will / plans to / watch guide / how to / gallery / photos / what to know
+3. 可写：重大任务里程碑、发射完成结果、官方政策/预算、商业航天关键融资/合同、重要空间科学发现
+4. 跳过：预发射观礼指南、to launch / targets / scheduled for 且无完成信号、gallery/照片汇编、娱乐/购物/podcast、军事ICBM试射
+5. 同一事件已有稿时跳过；Starlink等高频常规发射合并，不逐条写
+6. 每篇至少一条可引用原文URL，优先官方/权威来源（新华社、NASA、ESA、SpaceX、SFN、Space.com、CNSA、CMSA），避免聚合站（百度百科 / so.html5.qq.com / caifuhao.eastmoney / 网易订阅）
+7. 中国航天相关新闻占比目标不低于30%
+8. 无值得写的新闻时返回空数组 []
 
 ## 输出格式
 请以 JSON 数组返回，每个元素包含：
@@ -308,17 +479,18 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
   "title_zh": "中文标题",
   "title_en": "英文标题",
   "slug": "简短英文slug，用-连接，不含日期",
-  "category": "分类，如china/spacex/nasa/esa/launch/commercial/science/policy/rocket-lab/blue-origin/artemis/iss",
-  "date": "YYYY-MM-DD",
-  "summary_zh": "中文一句话摘要",
-  "summary_en": "英文一句话摘要",
-  "source_url": "来源URL",
+  "category": "必须是下列之一：{categories_doc}",
+  "date": "YYYY-MM-DD（必须是摘要里出现的具体日期，{cutoff_str} 到 {today_str} 之间）",
+  "summary_zh": "中文一句话摘要（含具体事件 + 日期 + 关键数字）",
+  "summary_en": "英文一句话摘要（含具体事件 + 日期 + 关键数字）",
+  "source_url": "来源URL（必须是候选里出现的）",
   "source_name": "来源名称"
 }}
 
-只输出 JSON 数组，不要其他文字。"""
+只输出 JSON 数组，不要其他文字、不要 markdown 包装。"""
 
-    response = minimax_chat([{"role": "user", "content": prompt}], temperature=0.2, timeout=90)
+    # 120s 超时（之前 90s 经常撞 MiniMax read timeout）
+    response = minimax_chat([{"role": "user", "content": prompt}], temperature=0.2, timeout=120)
     if not response:
         return []
 
@@ -347,7 +519,7 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
     if not isinstance(articles, list):
         return []
 
-    # 验证和清理
+    # 验证和清理（D 方案：多层防御）
     cutoff_date = datetime.now() - timedelta(days=cutoff_days)
     valid = []
     for a in articles:
@@ -361,10 +533,20 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
         if slug in existing_slugs:
             print(f"  SKIP duplicate slug: {slug}", file=LOG)
             continue
-        # 确保 category 合法
+
+        # D 方案：category 必须从 ALLOWED_CATEGORIES 里选，未知则降级到最相近的
         cat = a.get("category", "launch").lower().strip()
+        if cat not in ALLOWED_CATEGORIES:
+            # 模糊匹配：找包含子串的合法 category
+            matched = None
+            for c in ALLOWED_CATEGORIES:
+                if c in cat or cat in c:
+                    matched = c
+                    break
+            cat = matched or "launch"
         a["category"] = cat
-        # 确保 date 格式，并做 cutoff 过滤
+
+        # D 方案：date 硬过滤 + date 格式校验
         date_str = a.get("date", "").strip()
         if not re.match(r"\d{4}-\d{2}-\d{2}$", date_str):
             a["date"] = datetime.now().strftime("%Y-%m-%d")
@@ -376,6 +558,14 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
                 continue
         except ValueError:
             a["date"] = datetime.now().strftime("%Y-%m-%d")
+
+        # D 方案：fingerprint 强去重（同 category + cutoff 内 + 交集 ≥ 2）
+        slug_for_fp = a.get("slug", "") + " " + a.get("title_en", "") + " " + a.get("title_zh", "")
+        fps = _extract_event_fingerprints(slug_for_fp)
+        if fps and _is_duplicate_event(fps, existing_metas, cat, cutoff_days=8):
+            print(f"  SKIP duplicate event (fingerprint): {slug}", file=LOG)
+            continue
+
         valid.append(a)
 
     return valid
@@ -565,6 +755,60 @@ def update_readme(articles: List[Dict]) -> None:
         update_readme_for_month(year, month, group)
 
 
+def _is_chinese_event(article: Dict) -> bool:
+    """判断一篇文章是否属"中国航天"事件。
+
+    D 方案：CN 30% 后置校验里要用。
+    判定规则：category 含 china / tiangong / qianfan / guowang / beidou / 商业火箭
+    系列名 之一，或 title 包含中文字符且 source_url 是中文域名。
+    """
+    cat = article.get("category", "").lower()
+    if any(k in cat for k in ("china", "tiangong", "qianfan", "guowang", "beidou",
+                                "landspace", "galactic-energy", "cas-space",
+                                "space-pioneer", "orientspace", "deep-blue", "link-space",
+                                "ispace", "k2", "firefly")):
+        return True
+    title = (article.get("title_zh", "") or article.get("title_en", ""))
+    if re.search(r"[\u4e00-\u9fff]", title):
+        return True
+    url = article.get("source_url", "")
+    cn_domains = (".cn", ".com.cn", "qq.com", "weibo.com", "163.com", "sohu.com",
+                  "thepaper.cn", "sina.com", "ifeng.com", "people.com.cn", "xinhuanet")
+    return any(d in url for d in cn_domains)
+
+
+def _search_cn_only() -> List[Dict]:
+    """只跑中文 query。给 CN 30% 后置校验用。
+
+    D 方案：补检阶段只用 CN_QUERIES，不浪费 INTL 配额。
+    复用 search_all 的并行 + 去重逻辑。
+    """
+    all_results: List[Dict] = []
+
+    def _search_one(query: str) -> Tuple[str, List[Dict]]:
+        try:
+            items = minimax_search(query)
+            return query, items
+        except Exception:
+            return query, []
+
+    with ThreadPoolExecutor(max_workers=MAX_SEARCH_WORKERS) as executor:
+        futures = {executor.submit(_search_one, q): q for q in CN_QUERIES}
+        for future in as_completed(futures):
+            q, items = future.result()
+            all_results.extend(items)
+            print(f"  [CN+ {len(items):>2}] {q[:60]}", file=LOG)
+
+    seen_urls = set()
+    deduped = []
+    for r in all_results:
+        url = r.get("url", "").strip()
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            deduped.append(r)
+    return deduped
+
+
 # ============================================================================
 # 主流程
 # ============================================================================
@@ -585,15 +829,37 @@ def main() -> int:
     print(f"  -> {len(results)} unique results", file=LOG)
 
     # 2. 加载已有稿件（跨月去重）
-    existing_urls, existing_titles, existing_slugs = load_existing_recent()
-    print(f"  Existing: {len(existing_urls)} URLs, {len(existing_titles)} titles, {len(existing_slugs)} slugs", file=LOG)
+    existing_urls, existing_titles, existing_slugs, existing_metas = load_existing_recent()
+    print(f"  Existing: {len(existing_urls)} URLs, {len(existing_titles)} titles, {len(existing_slugs)} slugs, {len(existing_metas)} metas", file=LOG)
 
     # 3. LLM 筛选
-    articles = select_articles(results, existing_urls, existing_titles, existing_slugs)
+    articles = select_articles(results, existing_urls, existing_titles, existing_slugs, existing_metas)
     if not articles:
         print("[SILENT]")
         print(f"[{datetime.now().isoformat()}] No newsworthy articles found.", file=LOG)
         return 0
+
+    # D 方案：CN 30% 后置校验。
+    # 如果 LLM 没出或只出少量中文稿（< 30%），用剩下的时间预算再跑一次
+    # 中文 query 抓候选 → 重新 select。
+    cn_count = sum(1 for a in articles if _is_chinese_event(a))
+    total = len(articles)
+    if total > 0 and cn_count / total < 0.3:
+        print(f"  CN ratio low ({cn_count}/{total} = {cn_count/total:.0%}), running CN supplement pass...", file=LOG)
+        try:
+            cn_results = _search_cn_only()
+            print(f"  -> CN supplement: {len(cn_results)} unique results", file=LOG)
+            supplement = select_articles(cn_results, existing_urls, existing_titles,
+                                          existing_slugs, existing_metas)
+            # 把补检到的中文章追加，限制总产出 ≤ 5 篇（避免膨胀）
+            for s in supplement:
+                if _is_chinese_event(s) and len(articles) < 5:
+                    articles.append(s)
+        except Exception as exc:
+            print(f"  CN supplement failed: {exc}", file=LOG)
+
+    if not articles:
+        print("[SILENT]")
 
     print(f"  -> {len(articles)} articles selected:", file=LOG)
     for a in articles:
