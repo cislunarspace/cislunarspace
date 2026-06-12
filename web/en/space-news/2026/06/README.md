@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-11
+lastUpdated: 2026-06-12
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-11
 
 | Date | Title |
 |------|-------|
+| 6-11 | [China to Conduct In-Orbit Upgrade of BeiDou Navigation Satellite System](./2026-06-11-beidou-in-orbit-upgrade/) |
 | 6-10 | [China to Conduct In-Orbit Upgrade of BeiDou Navigation Satellite System](./2026-06-10-china-beidou-in-orbit-upgrade/) |
 | 6-09 | [ZQ-2E Y6 Rocket Successfully Launches, Accelerating Commercial Rocket Engineering and Industry Differentiation](./2026-06-09-zq-2e-y6-success-launch-commercial-rocket-engineering/) |
 | 6-10 | [ISS Crew Shelters in SpaceX Dragon as Cosmonauts Work to Seal Air Leak](./2026-06-10-iss-air-leak-dragon-shelter/) |
