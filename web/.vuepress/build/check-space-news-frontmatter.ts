@@ -12,7 +12,6 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { walkSiteMarkdown } from '../utils/markdown-walker.ts'
 import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.ts'
 import type { MarkdownFile } from '../utils/markdown-walker.ts'
 import type { Frontmatter } from '../utils/frontmatter-parser.ts'
@@ -23,6 +22,7 @@ import type {
   CheckDimension,
   ValidationResult,
 } from './check-space-news-frontmatter-types.ts'
+import { runChecker } from './checker-runner'
 
 // ── Constants ────────────────────────────────────────────────────────────────
 
@@ -32,7 +32,7 @@ const PERMALINK_DATE_RE = /\/space-news\/\d{4}\/\d{2}\/(\d{4}-\d{2}-\d{2})-/
 
 const SEVERITY_RANK: Record<Severity, number> = { warning: 0, error: 1 }
 
-// ── Colors ───────────────────────────────────────────────────────────────────
+// ── Terminal colors ──────────────────────────────────────────────────────────
 
 const C = {
   reset: '\x1b[0m',
@@ -389,12 +389,7 @@ export function computeExitCode(issues: FrontmatterIssue[], maxSeverity: Severit
 
 // ── Terminal formatting ──────────────────────────────────────────────────────
 
-export interface TerminalOutput {
-  summary: string
-  details: string[]
-}
-
-export function formatTerminalOutput(result: ValidationResult): TerminalOutput {
+export function formatTerminalOutput(result: ValidationResult): { summary: string; details: string[] } {
   if (result.total === 0) {
     return {
       summary: `${C.cyan}No Space News frontmatter issues found.${C.reset}`,
@@ -429,7 +424,7 @@ export function formatTerminalOutput(result: ValidationResult): TerminalOutput {
 
 // ── JSON report ──────────────────────────────────────────────────────────────
 
-export interface JsonReport {
+export function buildJsonReport(result: ValidationResult): {
   generatedAt: string
   summary: {
     total: number
@@ -437,9 +432,7 @@ export interface JsonReport {
     byDimension: Record<string, number>
   }
   issues: FrontmatterIssue[]
-}
-
-export function buildJsonReport(result: ValidationResult): JsonReport {
+} {
   const bySeverity: Record<string, number> = {}
   const byDimension: Record<string, number> = {}
 
@@ -455,91 +448,34 @@ export function buildJsonReport(result: ValidationResult): JsonReport {
   }
 }
 
-function writeJsonReport(report: JsonReport, outPath: string): void {
-  fs.mkdirSync(path.dirname(outPath), { recursive: true })
-  fs.writeFileSync(outPath, JSON.stringify(report, null, 2) + '\n')
-}
-
-// ── CLI ──────────────────────────────────────────────────────────────────────
-
-function parseArgs(argv: string[]): { maxSeverity: Severity; showHelp: boolean } {
-  let maxSeverity: Severity = 'error'
-  let showHelp = false
-
-  for (let i = 0; i < argv.length; i++) {
-    const a = argv[i]
-    if (a === '-h' || a === '--help') {
-      showHelp = true
-    } else if (a === '--max-severity') {
-      const v = argv[++i]
-      if (v !== 'warning' && v !== 'error') {
-        console.error(`error: --max-severity must be "warning" or "error", got "${v}"`)
-        process.exit(2)
-      }
-      maxSeverity = v
-    } else {
-      console.error(`error: unknown argument: ${a}`)
-      process.exit(2)
-    }
-  }
-
-  return { maxSeverity, showHelp }
-}
-
-function printHelp(): void {
-  console.log(`check-space-news-frontmatter — Space News frontmatter / bilingual consistency checker
-
-Usage:
-  npx tsx .vuepress/build/check-space-news-frontmatter.ts [-- options]
-
-Options:
-  --max-severity <level>  Minimum severity to exit non-zero (default: error)
-                          Values: "warning", "error"
-  -h, --help              Show this help
-
-Exit codes:
-  0  No issues at or above the severity threshold
-  1  One or more issues at or above the threshold
-  2  Invocation error
-`)
-}
-
-function main(): void {
-  const args = parseArgs(process.argv.slice(2))
-
-  if (args.showHelp) {
-    printHelp()
-    return
-  }
-
-  const __filename = fileURLToPath(import.meta.url)
-  const __dirname = path.dirname(__filename)
-  const webRoot = path.join(__dirname, '..', '..')
-
-  console.log(`${C.cyan}Scanning Space News frontmatter...${C.reset}\n`)
-
-  const files = walkSiteMarkdown(webRoot)
+export function scanSpaceNewsFrontmatter(files: MarkdownFile[]): ValidationResult {
   const issues = collectIssues(files)
-  const result = buildValidationResult(issues)
-
-  const terminal = formatTerminalOutput(result)
-  console.log(terminal.summary)
-  for (const line of terminal.details) {
-    console.log(line)
-  }
-
-  // JSON report
-  const reportPath = path.join(webRoot, '..', 'docs', 'audits', 'space-news-frontmatter-report.json')
-  const report = buildJsonReport(result)
-  writeJsonReport(report, reportPath)
-  console.log(`\n${C.cyan}Report written to:${C.reset} ${path.relative(webRoot, reportPath)}`)
-
-  const exitCode = computeExitCode(issues, args.maxSeverity)
-  process.exit(exitCode)
+  return buildValidationResult(issues)
 }
+
+// ── CLI entry via shared runner ──────────────────────────────────────────────
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const isMain =
   process.argv[1] && path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1])
 if (isMain) {
-  main()
+  runChecker({
+    name: 'check-space-news-frontmatter',
+    description: 'Space News frontmatter / bilingual consistency checker.',
+    scanMessage: 'Space News frontmatter',
+    usageExamples: [
+      'npx tsx .vuepress/build/check-space-news-frontmatter.ts',
+      'npx tsx .vuepress/build/check-space-news-frontmatter.ts --max-severity error',
+    ],
+    defaultSeverity: 'error',
+    supportedSeverities: ['error', 'warning'],
+    scriptDir: __dirname,
+    scan: (files) => scanSpaceNewsFrontmatter(files),
+    formatTerminal: formatTerminalOutput,
+    buildJsonReport,
+    reportPath: 'space-news-frontmatter-report.json',
+    computeExitCode: (result, maxSeverity) => computeExitCode(result.issues, maxSeverity),
+  })
 }
