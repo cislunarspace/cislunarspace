@@ -1,7 +1,7 @@
 ---
 layout: SpaceNewsArticle
 title: "千帆星座加速组网：一期1296颗2027年完成，2030年超万星组网"
-description: "2026年6月11日央视新闻报道，中国星链"千帆星座"一期目标1296颗将于2027年完成，二期新增约1万颗，2030年完成超万星组网。"
+description: "2026年6月11日央视新闻报道，中国星链千帆星座一期目标1296颗将于2027年完成，二期新增约1万颗，2030年完成超万星组网。"
 permalink: /space-news/2026/06/2026-06-11-qianfan-constellation-10000-satellites-roadmap/
 author: 天疆说
 date: 2026-06-11
