@@ -13,6 +13,7 @@ lastUpdated: 2026-06-12
 
 | Date | Title |
 |------|-------|
+| 6-10 | [Webb Finds Strongest Evidence Yet for 'Black Hole Stars'](./2026-06-10-webb-black-hole-stars-evidence/) |
 | 6-11 | [China to Conduct In-Orbit Upgrade of BeiDou Navigation Satellite System](./2026-06-11-beidou-in-orbit-upgrade/) |
 | 6-10 | [China to Conduct In-Orbit Upgrade of BeiDou Navigation Satellite System](./2026-06-10-china-beidou-in-orbit-upgrade/) |
 | 6-09 | [ZQ-2E Y6 Rocket Successfully Launches, Accelerating Commercial Rocket Engineering and Industry Differentiation](./2026-06-09-zq-2e-y6-success-launch-commercial-rocket-engineering/) |
