@@ -575,31 +575,68 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
 # 写稿：LLM 生成中英双语
 # ============================================================================
 
+def _sanitize_for_yaml(text: str) -> str:
+    """清掉 description 里的双引号/单引号/冒号,避免破坏 YAML frontmatter。
+
+    D 方案 v3（fix）：LLM 在 summary_zh 里写"千帆星座" 时会用中文双引号
+    ""，但 frontmatter description 字段是 "summary" 字符串包裹，
+    内嵌 " 会让 YAML parser 解析错误（YAMLException at line 5）。
+    修法：把内嵌的全角/半角双引号、单引号、英文冒号全部清掉。
+    """
+    if not text:
+        return ""
+    # 干掉所有双引号(全角/半角)、单引号(全角/半角)、英文冒号/井号
+    return (text
+            .replace('"', '')
+            .replace('"', '')
+            .replace("'", '')
+            .replace("'", '')
+            .replace(" # ", " ")
+            .replace(":", "：")  # 英文冒号 → 中文全角冒号(保留语义不破坏 YAML)
+            .strip())
+
+
 def draft_article(meta: Dict) -> Tuple[Optional[str], Optional[str]]:
-    """调用 LLM 生成中英双语稿件。"""
+    """调用 LLM 生成中英双语稿件。
+
+    D 方案 v3（fix）：draft prompt 加 YAML 安全要求，summary 字段禁止嵌入
+    任何会破坏 frontmatter 的字符。
+    """
     date = meta["date"]
     year, month = date[:4], date[5:7]
     slug = meta["slug"]
 
+    # 兜底清洗一次，避免 LLM 给的 summary 本身就有问题
+    summary_zh_safe = _sanitize_for_yaml(meta.get("summary_zh", ""))
+    summary_en_safe = _sanitize_for_yaml(meta.get("summary_en", ""))
+    title_zh_safe = _sanitize_for_yaml(meta.get("title_zh", ""))
+    title_en_safe = _sanitize_for_yaml(meta.get("title_en", ""))
+
     prompt = f"""请为以下航天新闻撰写中英双语稿件。
 
 ## 事件信息
-- 中文标题：{meta['title_zh']}
-- 英文标题：{meta['title_en']}
+- 中文标题：{title_zh_safe}
+- 英文标题：{title_en_safe}
 - 日期：{date}
 - 分类：{meta['category']}
 - 来源URL：{meta['source_url']}
 - 来源名称：{meta['source_name']}
-- 中文摘要：{meta['summary_zh']}
-- 英文摘要：{meta['summary_en']}
+- 中文摘要：{summary_zh_safe}
+- 英文摘要：{summary_en_safe}
+
+## YAML 铁律（必读，不遵守会导致站点 build 崩）
+- frontmatter title / description 字段是 YAML 双引号包裹的字符串
+- **严禁**在 title / description / 摘要 / 正文标题 1 字段里出现任何形式的引号字符：双引号 " " " "、单引号 ' ' ' '，以及英文冒号 :
+- 如果原文出现引号，统一去掉引号或换成中文标点（如「」或省略）
+- 摘要正文（不是 frontmatter 字段）里如果需要引用术语，请用中文方括号【】或直接去除引号
 
 ## 格式要求
 
 === 中文稿开始 ===
 ---
 layout: SpaceNewsArticle
-title: "{meta['title_zh']}"
-description: "{meta['summary_zh']}"
+title: "{title_zh_safe}"
+description: "{summary_zh_safe}"
 permalink: /space-news/{year}/{month}/{date}-{slug}/
 author: 天疆说
 date: {date}
@@ -607,9 +644,9 @@ lastUpdated: {date}
 category: {meta['category']}
 ---
 
-# {meta['title_zh']}
+# {title_zh_safe}
 
-**摘要：** {meta['summary_zh']}
+**摘要：** {summary_zh_safe}
 
 （请在这里展开正文，2-4段，包含关键事实、数据、时间。不确定的信息写「据报道」「待机构确认」，不要编造。）
 
@@ -621,8 +658,8 @@ category: {meta['category']}
 === 英文稿开始 ===
 ---
 layout: SpaceNewsArticle
-title: "{meta['title_en']}"
-description: "{meta['summary_en']}"
+title: "{title_en_safe}"
+description: "{summary_en_safe}"
 permalink: /en/space-news/{year}/{month}/{date}-{slug}/
 author: Tianjiangshuo
 date: {date}
@@ -630,9 +667,9 @@ lastUpdated: {date}
 category: {meta['category']}
 ---
 
-# {meta['title_en']}
+# {title_en_safe}
 
-**Summary:** {meta['summary_en']}
+**Summary:** {summary_en_safe}
 
 （请在这里展开英文正文，2-4段，与中文稿事实对等，不要少于中文稿的信息量。）
 
@@ -641,7 +678,7 @@ category: {meta['category']}
 - [{meta['source_name']}]({meta['source_url']})
 === 英文稿结束 ===
 
-请严格按照 === 标记的边界输出，不要输出其他内容。"""
+请严格按照 === 标记的边界输出，不要输出其他内容。注意再次确认：所有 frontmatter 字段里没有引号。"""
 
     response = minimax_chat([{"role": "user", "content": prompt}], temperature=0.4, timeout=120)
     if not response:
