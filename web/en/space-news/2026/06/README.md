@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-12
+lastUpdated: 2026-06-13
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-12
 
 | Date | Title |
 |------|-------|
+| 6-12 | [SpaceX Lists on NASDAQ at $135 Per Share, $1.77 Trillion Valuation in Historic Space Economy IPO](./2026-06-12-spacex-nasdaq-ipo-2026/) |
 | 6-10 | [Webb Finds Strongest Evidence Yet for 'Black Hole Stars'](./2026-06-10-webb-black-hole-stars-evidence/) |
 | 6-11 | [China to Conduct In-Orbit Upgrade of BeiDou Navigation Satellite System](./2026-06-11-beidou-in-orbit-upgrade/) |
 | 6-10 | [China to Conduct In-Orbit Upgrade of BeiDou Navigation Satellite System](./2026-06-10-china-beidou-in-orbit-upgrade/) |

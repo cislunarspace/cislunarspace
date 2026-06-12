@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-12
+lastUpdated: 2026-06-13
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-12 | [SpaceX登陆纳斯达克：每股135美元、估值1.77万亿美元 太空轨道经济迎来历史性IPO](./2026-06-12-spacex-nasdaq-ipo-2026/) |
 | 6-10 | [韦伯太空望远镜发现迄今最有力的「黑洞星」证据](./2026-06-10-webb-black-hole-stars-evidence/) |
 | 6-11 | [我国将对北斗卫星导航系统实施在轨升级](./2026-06-11-beidou-in-orbit-upgrade/) |
 | 6-10 | [中国将对北斗卫星导航系统实施在轨升级](./2026-06-10-china-beidou-in-orbit-upgrade/) |
