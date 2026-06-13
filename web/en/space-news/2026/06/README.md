@@ -13,6 +13,7 @@ lastUpdated: 2026-06-13
 
 | Date | Title |
 |------|-------|
+| 6-12 | [SpaceX Goes Public in Historic Largest-Ever IPO](./2026-06-12-spacex-historic-ipo-listing/) |
 | 6-12 | [SpaceX Lists on NASDAQ at $135 Per Share, $1.77 Trillion Valuation in Historic Space Economy IPO](./2026-06-12-spacex-nasdaq-ipo-2026/) |
 | 6-10 | [Webb Finds Strongest Evidence Yet for 'Black Hole Stars'](./2026-06-10-webb-black-hole-stars-evidence/) |
 | 6-11 | [China to Conduct In-Orbit Upgrade of BeiDou Navigation Satellite System](./2026-06-11-beidou-in-orbit-upgrade/) |
