@@ -704,7 +704,10 @@ def update_readme_for_month(year: int, month: int, articles: List[Dict]) -> None
             day = int(a["date"][8:10])
             date_short = f"{int(month)}-{day:02d}"
             slug = a["slug"]
-            title = a["title_en"] if is_en else a["title_zh"]
+            # README 表格 link 文本中的双引号会让标题视觉脏，部分
+            # markdown parser 也可能误解为 link 边界，所以清洗一次
+            # （与 frontmatter 同源，但 README 不破坏 YAML，仅视觉）。
+            title = _sanitize_for_yaml(a["title_en"] if is_en else a["title_zh"])
             link = f"./{a['date']}-{slug}/"
             new_lines.append(f"| {date_short} | [{title}]({link}) |")
 

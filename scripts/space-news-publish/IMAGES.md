@@ -43,7 +43,7 @@ cwebp -q 80 input.jpg -o hero.webp
 convert input.png -resize '1600>' -quality 85 hero.jpg
 ```
 
-space.com CDN 在部分环境下需要强制 HTTP/1.1：
+部分 CDN（如 space.com）需要强制 HTTP/1.1：
 
 ```bash
 curl -A "Mozilla/5.0" -L --http1.1 \
@@ -85,4 +85,4 @@ curl -A "Mozilla/5.0" -L --http1.1 \
 | 图片 1–2KB | 下载到错误页/占位符 | 换 URL、换扩展名或无图降级 |
 | rsync 后图片 404 | 构建后未跑 sync-figures 或未同步完整 dist | 重新 `npm run docs:build` 并整树 rsync |
 
-更多历史案例见 [FIELD-NOTES.md](FIELD-NOTES.md)。
+更多构建/部署故障见 [TROUBLESHOOTING.md](TROUBLESHOOTING.md)。

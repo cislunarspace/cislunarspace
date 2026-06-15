@@ -1,122 +1,158 @@
-# 撰稿陷阱与检索技术细节
+# 故障修复
 
-本文件记录可复用的技术细节。具体历史案例和长篇排查 trace 已移到 [FIELD-NOTES.md](FIELD-NOTES.md)。
+先定位问题属于哪一层：源稿件 → 生成索引 → VuePress 构建 → dist 内容 → rsync 部署。不要只看命令退出码；新文章的 HTML 内容和图片路径都要单独验证。
 
-## YAML 与 Markdown
+## 1. YAML / frontmatter
 
-### frontmatter 引号
+### YAMLException
 
-frontmatter 中不要嵌套未转义弯引号：
+| 报错 | 处理 |
+|------|------|
+| `YAMLException at line N` | 检查 frontmatter 未闭合引号、stray `|`、README 表格是否进了 YAML 块 |
+| `Cannot resolve layout: Forum` | 搜索 `layout: Forum`，改成已注册 layout 或修复主题注册 |
+| `Cannot resolve layout: OrbitSimLab` | 搜索对应 layout；确认是否站级历史问题，不要忽略新稿验证 |
+
+最常见原因是 frontmatter `title:` / `description:` 里嵌套了引号。规则见 [WRITING.md](WRITING.md) 的"引号铁律"：英文双引号包裹，内部零引号。
+
+错误示例：
 
 ```yaml
-# 错误
-description: "论坛主题为"激发航天文化创新创造活力""
-
-# 正确
-description: "论坛主题为「激发航天文化创新创造活力」"
+description: "论坛主题为"激发航天文化创新创造活力""   # ❌ 内部嵌套引号
+description: "论坛主题为「激发航天文化创新创造活力」"   # ✅ 用「」或去引号
 ```
 
-### README patch
-
-- 插入表格行后检查 `||`。
-- 修改 YAML frontmatter 后检查 stray `|`。
-- 复杂 frontmatter 修改优先整体重写，避免重复字段块。
-
-## RSS 解析
-
-### space.com RSS
-
-space.com 主 RSS 为 `https://www.space.com/news/rss`，会重定向到 `feeds.xml`。
-
-- `title` 使用 CDATA。
-- `link` / `pubDate` 是 plain text。
-- index 0 常是频道标题 `Latest from Space.com`，不是文章。
+批量验证 YAML：
 
 ```python
-titles = re.findall(r'<title><!\[CDATA\[(.*?)\]\]></title>', html)
-links = re.findall(r'<link>(.*?)</link>', html)
-pubdates = re.findall(r'<pubDate>(.*?)</pubDate>', html)
+from pathlib import Path
+import yaml
+for p in Path('/home/ouyangjiahong/codes/cislunarspace/web/space-news/YYYY/MM').glob('*.md'):
+    text = p.read_text(encoding='utf-8')
+    if text.startswith('---'):
+        yaml.safe_load(text.split('---', 2)[1])
+        print('ok', p.name)
 ```
 
-### SFN RSS
+### 引号历史包袱
 
-Spaceflight Now RSS 的 `title` / `link` / `pubDate` 通常都是 plain text：
+2026 年 6 月之前的 28 篇中文稿正文用了英文双引号 `"`（共 113 处），不影响构建但视觉脏。批量扫描：
+
+```bash
+for md in web/space-news/2026/06/*.md; do
+  [ "$(basename $md)" = "README.md" ] && continue
+  cnt=$(awk 'NR>10' "$md" | grep -c '"' || true)
+  [ "$cnt" -gt 0 ] && echo "$md: $cnt"
+done
+```
+
+下次重写相关稿时顺手清成全角 `“”`。新稿一律合规。
+
+## 2. 生成索引异常
+
+### 新稿未出现在首页/存档
+
+```bash
+cd /home/ouyangjiahong/codes/cislunarspace/web
+npm run gen-sidebar
+```
+
+检查 `space-news-articles.json`（注意结构是 `{ "zh": [...], "en": [...] }`，不是单层 dict）：
 
 ```python
-titles = re.findall(r'<title>(.*?)</title>', html)
-links = re.findall(r'<link>(.*?)</link>', html)
-pubdates = re.findall(r'<pubDate>(.*?)</pubDate>', html)
+import json
+from pathlib import Path
+p = Path('/home/ouyangjiahong/codes/cislunarspace/web/.vuepress/space-news-articles.json')
+data = json.loads(p.read_text())
+for locale in ['zh', 'en']:
+    hits = [a for a in data.get(locale, []) if 'YYYY-MM-DD-slug' in a.get('relativePath', '')]
+    print(locale, len(hits), hits[:1])
 ```
 
-SFN 可能 403；最多重试一次，之后转向 space.com、CMSE 和 web_search。
+不要只检查 `sidebar.auto.json`。
 
-### RFC 2822 日期
+### year/month 变 `unknown`
 
-RSS 日期解析必须得到 UTC-aware datetime。不要依赖服务器本地时区。
+说明生成器序列化或 frontmatter 解析断裂。先检查新稿和 README 的 YAML，再重跑 `npm run gen-sidebar`。
+
+## 3. 图片 / figures 错误
+
+| 症状 | 常见原因 | 修复 |
+|------|----------|------|
+| `Could not resolve './figures/.../hero.jpg'` | 文件不存在、扩展名不匹配、路径未以 `./` 开头 | 改为真实路径，或删除 `image:` 和正文图片段落 |
+| EN 文章构建失败 | 英文侧 figures 缺失 | 删除 EN 目标目录后从 ZH 复制 |
+| `figures/figures/` 嵌套 | `cp -r` 合并旧目录 | `rm -rf` 目标目录后重拷 |
+| `ELOOP` / symlink 循环 | 历史 symlink 损坏 | 删除坏 symlink，修正引用，重建 |
+
+复制 EN figures：
+
+```bash
+rm -rf web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug
+cp -r web/space-news/YYYY/MM/figures/YYYY-MM-DD-slug \
+      web/en/space-news/YYYY/MM/figures/YYYY-MM-DD-slug
+```
+
+批量检查引用的 figure slug 是否存在：
 
 ```python
-from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
-
-pub_dt = parsedate_to_datetime(pubdate)
-if pub_dt.tzinfo is None:
-    pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-pub_dt = pub_dt.astimezone(timezone.utc)
-age_h = (datetime.now(timezone.utc) - pub_dt).total_seconds() / 3600
+import os, re
+root = '/home/ouyangjiahong/codes/cislunarspace/web'
+for locale in ['space-news', 'en/space-news']:
+    base = f'{root}/{locale}'
+    for dirpath, dirs, files in os.walk(base):
+        if 'figures' not in dirs:
+            continue
+        actual = set(os.listdir(os.path.join(dirpath, 'figures')))
+        for name in files:
+            if not name.endswith('.md') or name == 'README.md':
+                continue
+            path = os.path.join(dirpath, name)
+            text = open(path, encoding='utf-8').read()
+            for slug in re.findall(r'\./figures/([^/]+)/', text):
+                if slug not in actual:
+                    print('MISMATCH', path, slug)
 ```
 
-## HTML 正文提取
+更多配图细节见 [IMAGES.md](IMAGES.md)。
 
-### space.com 正文
+## 4. VuePress 构建
 
-JSON-LD `articleBody` 经常为空；优先从 `<article>` 内段落提取：
+完整构建：
 
-```python
-article = re.search(r'<article[^>]*>(.*?)</article>', html, re.DOTALL)
-content = article.group(1) if article else html
-paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', content, re.DOTALL)
-clean = [re.sub(r'<[^>]+>', '', p).strip() for p in paragraphs]
+```bash
+cd /home/ouyangjiahong/codes/cislunarspace/web
+npm run docs:build
 ```
 
-URL 含 `gallery` 或标题明显是照片汇编时跳过。
+`docs:build` 应完成：生成索引 → VuePress build → `sync-figures.js`。构建产物在 `web/.vuepress/dist/`。
 
-### CMSE 列表页
+需要更长超时：
 
-CMSE 列表页日期在 `<li>` 内；不要只扫全页模板日期。
-
-```python
-lis = re.findall(r'<li[^>]*>(.*?)</li>', html, re.DOTALL)
-dated_lis = [(li, re.findall(r'\d{4}-\d{2}-\d{2}', li)) for li in lis
-             if re.findall(r'\d{4}-\d{2}-\d{2}', li)]
+```bash
+NODE_OPTIONS='--max-old-space-size=65536' npm run docs:build
 ```
 
-优先使用 HTTPS：`https://www.cmse.gov.cn/xwzx/zhxw/`。
+### 构建成功但内容错位
 
-### Rocket Lab
+退出码 0 不等于 HTML 内容正确。新稿必须 grep 关键词：
 
-Rocket Lab 正文常在 `<main>` 内，`og:image` 可能只是 logo。图片从 `/assets/Uploads/...` 提取。
+```bash
+fgrep -c "中文稿标志性关键词" \
+  /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist/space-news/YYYY/MM/YYYY-MM-DD-slug/index.html
 
-```python
-main = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
-images = re.findall(r'/assets/Uploads/([^"\']+\.(?:jpg|png))', html)
+fgrep -c "English distinctive keyword" \
+  /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist/en/space-news/YYYY/MM/YYYY-MM-DD-slug/index.html
 ```
 
-## 发射完成信号
+如果 dist HTML 缺关键词或多篇 md5 异常相同，清理缓存和 dist 后重建：
 
-可写结果稿的强信号：
+```bash
+rm -rf /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/.temp \
+       /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/.cache \
+       /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist
+cd /home/ouyangjiahong/codes/cislunarspace/web && npm run docs:build
+```
 
-- 标题/正文含 `launched`、`launches`、`has launched`、`liftoff occurred`。
-- 正文含部署、入轨、着陆、回收成功等结果事实。
-- 官方或机构发布「任务圆满成功」「安全着陆」等确认。
-
-应跳过的信号：
-
-- `to launch`、`targets`、`scheduled for`、`will launch`。
-- `watch` / `how to watch` / `head to orbit` 且正文无结果。
-- `tries again` 表示 scrub 后重试中。
-- 发射窗口在 cron 之后数小时且无完成确认。
-
-## 去重判断
+## 5. 去重判断
 
 同一事件识别基于：主体、事件性质、关键事实。不要仅按日期或标题动词判断。
 
@@ -125,11 +161,23 @@ images = re.findall(r'/assets/Uploads/([^"\']+\.(?:jpg|png))', html)
 - 同一持续事件有新事实：可另写，但摘要需说明新事实在哪里。
 - 删除重复稿后同步删除中英 figures，并运行 `npm run gen-sidebar`。
 
-## 常见构建相关陷阱
+`phase1-hermes.py` 的 fingerprint 去重逻辑：从 title + slug 提取核心实体词集合（英文 token ≥4 字符、中文 token ≥2 字、关键数字串），cutoff 8 天内交集 ≥3 视为同事件。误判时（不同事件被错误合并）调 `phase1-hermes.py` 的 `_FP_STOPWORDS` 或 `strong_combos`。
 
-- 内联图片路径必须写 `./figures/...`，不能省略 `./`。
-- `image:` 指向不存在文件会导致 Vite/Rollup import 失败。
-- EN figures 复制前先删目标目录，避免嵌套。
-- `space-news-articles.json` 是 `{ zh: [], en: [] }`，检查时先取 locale 数组。
+## 6. Git push
 
-更多构建修复见 [BUILD-FIXES.md](BUILD-FIXES.md)。
+- 分支是 `master`。
+- HTTP/2 push 报错时用 `GIT_HTTP_VERSION=HTTP/1.1 git push origin master`。
+- push 被拒绝时先 `git pull --rebase`。
+- GitHub 网络不可达时可先 rsync；下次 cron 再补 push。
+
+## 7. rsync 部署
+
+当前架构只需整树同步 `web/.vuepress/dist/` 到 `/home/ubuntu/cislunarspace/`，不要再使用旧的 `/var/www/cislunarspace/dist/` 或 sshpass/tar 流程（命令模板见 [CRON.md](CRON.md) 阶段四）。
+
+部署后检查裸路径（不要加 `dist/` 前缀）：
+
+```bash
+ssh -i "$REMOTE_KEY" -o IdentitiesOnly=yes ubuntu@cislunarspace.cn \
+  'ls /home/ubuntu/cislunarspace/space-news/YYYY/MM/ | grep SLUG; \
+   ls /home/ubuntu/cislunarspace/en/space-news/YYYY/MM/ | grep SLUG'
+```
