@@ -17,7 +17,10 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
-| 6-13 | [JWST探测到被"柴油烟雾"笼罩的系外行星](./2026-06-13-jwst-diesel-smog-exoplanet-atmospheres/) |
+| 6-15 | [力箭一号遥十四一箭八星发射成功 民商火箭年累计入轨卫星破百](./2026-06-15-lijian-1-y14-8-satellites-100-milestone/) |
+| 6-15 | [长征十二号基本型 6 月 17 日再出征 商业航天发射场二号工位再启](./2026-06-15-long-march-12-relaunch-commercial-pad-2/) |
+| 6-14 | [中信建投点评 SpaceX 1.75 万亿美元 IPO 重塑航天估值锚](./2026-06-14-citic-spacex-ipo-valuation-anchor/) |
+| 6-13 | [JWST 探测到被柴油烟雾笼罩的系外行星](./2026-06-13-jwst-diesel-smog-exoplanet-atmospheres/) |
 | 6-12 | [史上最大IPO诞生：SpaceX正式挂牌](./2026-06-12-spacex-historic-ipo-listing/) |
 | 6-12 | [SpaceX登陆纳斯达克：每股135美元、估值1.77万亿美元 太空轨道经济迎来历史性IPO](./2026-06-12-spacex-nasdaq-ipo-2026/) |
 | 6-10 | [韦伯太空望远镜发现迄今最有力的「黑洞星」证据](./2026-06-10-webb-black-hole-stars-evidence/) |

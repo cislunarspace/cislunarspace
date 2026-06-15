@@ -13,6 +13,9 @@ lastUpdated: 2026-06-15
 
 | Date | Title |
 |------|-------|
+| 6-15 | [Lijian-1 Y14 Lofts 8 Satellites as Chinese Commercial Rocket Passes 100 Orbits](./2026-06-15-lijian-1-y14-8-satellites-100-milestone/) |
+| 6-15 | [Long March 12 Set for June 17 Relaunch from Commercial Pad No. 2](./2026-06-15-long-march-12-relaunch-commercial-pad-2/) |
+| 6-14 | [Citic Securities on SpaceX's $1.75T IPO: A New Valuation Anchor for Aerospace](./2026-06-14-citic-spacex-ipo-valuation-anchor/) |
 | 6-13 | [JWST Detects Exoplanets Choked by Diesel-Smog Atmospheres](./2026-06-13-jwst-diesel-smog-exoplanet-atmospheres/) |
 | 6-12 | [SpaceX Goes Public in Historic Largest-Ever IPO](./2026-06-12-spacex-historic-ipo-listing/) |
 | 6-12 | [SpaceX Lists on NASDAQ at $135 Per Share, $1.77 Trillion Valuation in Historic Space Economy IPO](./2026-06-12-spacex-nasdaq-ipo-2026/) |
