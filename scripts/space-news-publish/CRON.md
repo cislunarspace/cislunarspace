@@ -4,6 +4,8 @@
 
 ## 阶段一：检索与筛选
 
+> **实现方式**：阶段一的搜索/筛选/写稿全部通过 Hermes Agent v0.16.0 调度，Python 只负责去重、文件 I/O 和 README 更新。详见 `scripts/space-news-update-phase1-hermes.py`。Hermes 凭证由 `~/.hermes/.env` 管理。
+
 1. **先搜索中国航天新闻**，使用 [SOURCES.md](SOURCES.md) 的中文关键词轮次，并加当前年份限定。
 2. 搜索国际航天新闻：Artemis、SpaceX、Starship、ESA、NASA、Rocket Lab、Blue Origin 等。
 3. 补充搜索空间科学、政策、商业航天投融资、JAXA/KASA/ISRO、空间站、太空旅游等。

@@ -62,6 +62,8 @@ cd /home/ouyangjiahong/codes/cislunarspace/web && npm run docs:build
 /home/ouyangjiahong/codes/cislunarspace/scripts/space-news-update-local.sh
 ```
 
+> Phase 1（搜索/筛选/写稿）由 `scripts/space-news-update-phase1-hermes.py` 通过 Hermes Agent v0.16.0 的 `hermes chat -q -t web -m MiniMax-M3 --max-turns 3` 完成，Python 只负责去重、文件 I/O 与 README 更新。Hermes 凭证由 `~/.hermes/.env` 管理。
+
 ## 参考文件
 
 - [SOURCES.md](SOURCES.md) — 新闻源、搜索关键词、可靠性与降级策略。

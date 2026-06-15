@@ -1,97 +1,78 @@
 #!/usr/bin/env python3
 """
-Space News Phase 1 — 轻量替代 hermes chat
-直接调用 MiniMax search + LLM API，无需启动完整 agent session。
+Space News Phase 1 (Hermes) — Python 只负责去重 + 落盘 + README。
+搜索/筛选/写稿全部委托给 Hermes Agent v0.16.0 via `hermes chat -q -t web`。
 
 用法:
-    python3 scripts/space-news-update-phase1.py
+    python3 scripts/space-news-update-phase1-hermes.py
 
 环境变量:
-    MINIMAX_API_KEY 或 MINIMAX_CN_API_KEY — 必需
-    MINIMAX_API_HOST — 可选，默认 https://api.minimaxi.com
+    SKIP_PHASE1=1   — 跳过整个 phase 1（保留旧 SKIP_HERMES 别名）
+    无需 MINIMAX_API_KEY（hermes 自己管理凭证于 ~/.hermes/.env）
+
+失败模式：hermes 任何错误/超时/空结果 → [SILENT] 退出，**不回退**到 MiniMax 直连。
 """
 
+import concurrent.futures
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple
-import urllib.request
-import urllib.error
+from typing import Dict, List, Optional, Tuple
 
 # ============================================================================
-# 配置
+# 常量
 # ============================================================================
 
 REPO = Path("/home/ouyangjiahong/codes/cislunarspace")
 WEB = REPO / "web"
 LOG = sys.stderr
 
-def _load_env_keys():
-    """尝试从 ~/.hermes/.env 加载 API key（供手动运行时使用）。
-    只加载 key 变量，不加载 BASE_URL/HOST（避免 hermes 自定义 endpoint 干扰）。"""
-    env_path = Path.home() / ".hermes" / ".env"
-    if not env_path.exists():
-        return
-    key_names = {"MINIMAX_API_KEY", "MINIMAX_CN_API_KEY"}
-    with env_path.open("r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            if "=" in line:
-                key, val = line.split("=", 1)
-                key = key.strip()
-                if key in key_names and key not in os.environ:
-                    os.environ[key] = val.strip().strip('"').strip("'")
+# Hermes 适配
+HERMES_BIN = shutil.which("hermes") or "hermes"  # PATH miss 时 fallback 字符串
+HERMES_MODEL = "MiniMax-M3"        # MiniMax-Text-01 被 API 拒（>40000 tokens 上限）
+HERMES_MAX_TURNS = "3"             # search/select 都给 3 turns
+HERMES_DRAFT_MAX_TURNS = "2"       # draft 给 2 turns
+HERMES_TIMEOUT_SEARCH = 180        # 实测 120s，留 50% 余量
+HERMES_TIMEOUT_SELECT = 180        # 1 次 LLM 调用
+HERMES_TIMEOUT_DRAFT = 240         # 1 篇文章
+HERMES_SEARCH_WORKERS = 9          # 9 query 真并行
+CUTOFF_DAYS = 3
 
-_load_env_keys()
+# ============================================================================
+# 查询关键词（与 phase1.py 完全一致）
+# ============================================================================
 
-MINIMAX_KEY = os.environ.get("MINIMAX_API_KEY") or os.environ.get("MINIMAX_CN_API_KEY") or ""
-MINIMAX_BASE = "https://api.minimaxi.com"
-
-SEARCH_MODEL = "MiniMax-Text-01"   # 支持 web_search tool
-CHAT_MODEL = "MiniMax-M3"            # 写稿/筛选用
-
-# 中文搜索关键词（D 方案：日期硬锚 + 砍量到 4 条 = 90s 预算）
-# 关键改动：每条都带"2026-06-{昨天}/{今天}"，避免命中 2013 神舟十、2025 火星陈粮
-# 历史教训：web_search 不响应 site: 操作符，所以不写 site:cnsa.gov.cn
-# 但能用具体站点关键词 + 年月日 串把结果导向新文章
 _yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 _today = datetime.now().strftime("%Y-%m-%d")
-_month_short = datetime.now().strftime("%Y年%-m月")  # 中文月
+_month_short = datetime.now().strftime("%Y年%-m月")
 
+# 中文搜索关键词（D 方案：日期硬锚 + 砍量到 4 条）
 CN_QUERIES = [
-    f"中国航天 发射 完成 {_yesterday} {_today} 长征 神舟 天舟 天龙 朱雀",  # 5条最热
-    f"千帆星座 垣信卫星 {_yesterday} {_today} 发射 部署",  # 国网 + 千帆
-    f"嫦娥 天问 探月 火星 {_yesterday} {_today} 进展",  # 重大科学
-    f"商业航天 融资 政策 商业火箭 {_month_short}",  # 商业动态
+    f"中国航天 发射 完成 {_yesterday} {_today} 长征 神舟 天舟 天龙 朱雀",
+    f"千帆星座 垣信卫星 {_yesterday} {_today} 发射 部署",
+    f"嫦娥 天问 探月 火星 {_yesterday} {_today} 进展",
+    f"商业航天 融资 政策 商业火箭 {_month_short}",
 ]
 
-# 国际搜索关键词（D 方案：日期硬锚 + 砍量到 5 条 = 110s 预算）
-# 历史经验：合并相近主题避免返回高度重叠的结果
+# 国际搜索关键词（D 方案：日期硬锚 + 砍量到 5 条）
 INTL_QUERIES = [
     f"SpaceX Starlink launch {_yesterday} {_today} Falcon 9",
     f"NASA mission news {_yesterday} {_today} Artemis ISS",
     f"Rocket Lab Blue Origin ULA launch {_yesterday} {_today}",
-    f"ISRO JAXA mission {_yesterday} {_today} launch",  # 亚洲双印 + 日
-    f"exoplanet black hole JWST discovery {_yesterday} {_today}",  # 学科
+    f"ISRO JAXA mission {_yesterday} {_today} launch",
+    f"exoplanet black hole JWST discovery {_yesterday} {_today}",
 ]
 
-MAX_SEARCH_WORKERS = 5
-SEARCH_TIMEOUT = 45
-CHAT_TIMEOUT = 60
+# ============================================================================
+# ALLOWED_CATEGORIES（v2 扩展：覆盖 2026-06 实际活跃机构）
+# ============================================================================
 
-# 只关注最近 N 天的新闻（cron 场景）
-CUTOFF_DAYS = 3
-
-# 允许的 category 集合（v2 扩展：覆盖 2026-06 实际活跃机构）
-# D 方案：原 12 个太窄，缺 isro/jaxa/kasa/arianespace/ula/vulcan/
-# axiom/vast/starship-test/exoplanet/blackhole/gravitational-wave/
-# solar/space-telescope/mars/moon/meteor/cluster 等实际近期热点
 ALLOWED_CATEGORIES = {
     # 国家/机构
     "china", "nasa", "esa", "isro", "jaxa", "kasa", "roscosmos", "cnes", "uae",
@@ -110,145 +91,182 @@ ALLOWED_CATEGORIES = {
 }
 
 # ============================================================================
-# HTTP / API
+# Hermes 适配层
 # ============================================================================
 
-def _minimax_post(payload: dict, timeout: int = 45) -> Optional[dict]:
-    """调用 MiniMax chat completions API，返回完整 JSON dict。"""
-    if not MINIMAX_KEY:
-        print("ERROR: MINIMAX_API_KEY not set", file=LOG)
-        return None
+def _strip_session_id(text: str) -> str:
+    """hermes -Q 模式 stdout 仍含 'session_id: <uuid>\n' 前缀 + 偶发 warning 行，需要剥掉。"""
+    m = re.search(r"^session_id:\s*\S+", text, re.MULTILINE)
+    if m:
+        text = text[m.end():]
+    # 干掉所有 warning 行（含 '⚠️ Reached maximum iterations...' 等）
+    text = re.sub(r"^⚠️[^\n]*\n?", "", text, re.MULTILINE)
+    return text.strip()
 
-    data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        f"{MINIMAX_BASE}/v1/chat/completions",
-        data=data,
-        headers={
-            "Authorization": f"Bearer {MINIMAX_KEY}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
+
+def hermes_chat_json(prompt: str, *, timeout: int,
+                     max_turns: str = HERMES_MAX_TURNS) -> Optional[object]:
+    """调 hermes chat -q，返回解析后的 JSON（dict 或 list）。失败返回 None。"""
+    full_prompt = prompt + (
+        "\n\n--- OUTPUT RULE ---\n"
+        "Return ONLY the requested JSON. Start your response with { or [."
     )
-
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace")[:500]
-        print(f"MiniMax HTTP {e.code}: {body}", file=LOG)
+        proc = subprocess.run(
+            [HERMES_BIN, "chat", "-q", full_prompt,
+             "-t", "web", "-m", HERMES_MODEL,
+             "--max-turns", max_turns, "-Q"],
+            capture_output=True, text=True,
+            timeout=timeout, check=False,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"  HERMES TIMEOUT after {timeout}s", file=LOG)
         return None
-    except Exception as exc:
-        print(f"MiniMax API error: {exc}", file=LOG)
-        return None
-
-
-def minimax_search(query: str, limit: int = 5) -> List[Dict]:
-    """调用 MiniMax web_search tool，返回搜索结果列表。"""
-    payload = {
-        "model": SEARCH_MODEL,
-        "messages": [{"role": "user", "content": query}],
-        "tools": [{"type": "web_search", "function": {"name": "web_search"}}],
-        "temperature": 0.1,
-    }
-    raw = _minimax_post(payload, timeout=SEARCH_TIMEOUT)
-    if not raw:
-        return []
-
-    results = []
-    for choice in raw.get("choices", []):
-        for msg in choice.get("messages", []):
-            if msg.get("role") != "tool":
-                continue
-            content = msg.get("content", "")
-            if not content:
-                continue
-            try:
-                items = json.loads(content)
-                if not isinstance(items, list):
-                    continue
-                for item in items:
-                    if isinstance(item, dict):
-                        results.append({
-                            "title": item.get("title", ""),
-                            "url": item.get("url", ""),
-                            "description": item.get("content", ""),
-                        })
-            except json.JSONDecodeError:
-                continue
-
-    return results[:limit]
-
-
-def minimax_chat(messages: List[Dict], temperature: float = 0.3, timeout: int = 60) -> Optional[str]:
-    """调用 MiniMax chat completions（纯文本），返回 assistant content。"""
-    payload = {
-        "model": CHAT_MODEL,
-        "messages": messages,
-        "temperature": temperature,
-    }
-    raw = _minimax_post(payload, timeout=timeout)
-    if not raw:
+    except FileNotFoundError:
+        print(f"  FATAL: hermes not found at {HERMES_BIN}", file=LOG)
         return None
 
-    for choice in raw.get("choices", []):
-        msg = choice.get("message", {})
-        content = msg.get("content", "")
-        if content:
-            return content
-    return None
+    if proc.returncode != 0:
+        print(f"  HERMES rc={proc.returncode}: {proc.stderr[:300]}", file=LOG)
+        return None
+
+    out = _strip_session_id(proc.stdout)
+    # 边界定位：取首个 { 或 [ 到末尾的 } 或 ]
+    first_b, first_k = out.find("{"), out.find("[")
+    starts = [i for i in (first_b, first_k) if i != -1]
+    if not starts:
+        print(f"  HERMES no JSON: {out[:200]}", file=LOG)
+        return None
+    end = max(out.rfind("}"), out.rfind("]"))
+    if end <= min(starts):
+        print(f"  HERMES truncated JSON: {out[:200]}", file=LOG)
+        return None
+    try:
+        return json.loads(out[min(starts):end + 1])
+    except json.JSONDecodeError as e:
+        print(f"  HERMES JSON parse: {e}; raw[:200]={out[:200]}", file=LOG)
+        return None
+
+
+def hermes_chat_raw(prompt: str, *, timeout: int,
+                    max_turns: str = HERMES_DRAFT_MAX_TURNS) -> Optional[str]:
+    """draft 用 — 期望返回纯文本（含 === 标记），不解析 JSON。"""
+    try:
+        proc = subprocess.run(
+            [HERMES_BIN, "chat", "-q", prompt,
+             "-t", "web", "-m", HERMES_MODEL,
+             "--max-turns", max_turns, "-Q"],
+            capture_output=True, text=True,
+            timeout=timeout, check=False,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"  HERMES DRAFT TIMEOUT after {timeout}s", file=LOG)
+        return None
+    if proc.returncode != 0:
+        print(f"  HERMES DRAFT rc={proc.returncode}: {proc.stderr[:300]}", file=LOG)
+        return None
+    out = _strip_session_id(proc.stdout)
+    return out if out else None
 
 
 # ============================================================================
 # 搜索
 # ============================================================================
 
-def search_all() -> List[Dict]:
-    """并行搜索所有关键词，合并去重结果。"""
+def search_query_hermes(query: str) -> List[Dict]:
+    """单 query → hermes → 标准化结果列表。"""
+    prompt = f"""Use web_search to find up to 5 most recent, newsworthy space-news articles for:
+
+QUERY: {query}
+
+Return a single JSON object with this exact schema:
+{{
+  "query": "<the original query>",
+  "results": [
+    {{
+      "title": "<article title>",
+      "url": "<canonical URL>",
+      "description": "<1-2 sentences; include any visible date>",
+      "date_iso": "<YYYY-MM-DD if visible, else empty string>",
+      "source_name": "<publisher hostname or Chinese outlet name>"
+    }}
+  ]
+}}
+
+Rules:
+- Only return articles from the last 7 days
+- If no relevant results: {{"query": "...", "results": []}}
+- Skip press kits, photo galleries, and how-to-watch guides
+- Prefer primary sources (NASA, ESA, SpaceX, JAXA, ISRO, CNSA, CMSA, Reuters, AP, Xinhua)"""
+    raw = hermes_chat_json(prompt, timeout=HERMES_TIMEOUT_SEARCH)
+    if not isinstance(raw, dict):
+        return []
+    results = raw.get("results", [])
+    if not isinstance(results, list):
+        return []
+    return [
+        {"title": r.get("title", ""), "url": r.get("url", ""),
+         "description": r.get("description", ""), "date_iso": r.get("date_iso", "")}
+        for r in results if isinstance(r, dict)
+    ]
+
+
+def search_all_hermes() -> List[Dict]:
+    """9 query 真并行 + URL 去重。"""
     all_queries = CN_QUERIES + INTL_QUERIES
     all_results: List[Dict] = []
-
-    def _search_one(query: str) -> Tuple[str, List[Dict]]:
-        try:
-            items = minimax_search(query)
-            return query, items
-        except Exception as exc:
-            return query, []
-
-    with ThreadPoolExecutor(max_workers=MAX_SEARCH_WORKERS) as executor:
-        futures = {executor.submit(_search_one, q): q for q in all_queries}
-        for future in as_completed(futures):
-            q, items = future.result()
+    with ThreadPoolExecutor(max_workers=HERMES_SEARCH_WORKERS) as ex:
+        futures = {ex.submit(search_query_hermes, q): q for q in all_queries}
+        for fut in as_completed(futures):
+            q = futures[fut]
+            try:
+                items = fut.result()
+            except Exception as e:
+                print(f"  SEARCH EXC [{q[:40]!r}]: {e}", file=LOG)
+                items = []
             all_results.extend(items)
             print(f"  [{len(items):>2}] {q[:60]}", file=LOG)
-
-    # 按 URL 去重
-    seen_urls = set()
-    deduped = []
+    # URL 去重
+    seen, deduped = set(), []
     for r in all_results:
         url = r.get("url", "").strip()
-        if url and url not in seen_urls:
-            seen_urls.add(url)
-            deduped.append(r)
+        if url and url not in seen:
+            seen.add(url); deduped.append(r)
+    return deduped
 
+
+def _search_cn_only_hermes() -> List[Dict]:
+    """CN 30% 后置校验用 — 只跑 CN queries。"""
+    all_results: List[Dict] = []
+    with ThreadPoolExecutor(max_workers=len(CN_QUERIES)) as ex:
+        futures = {ex.submit(search_query_hermes, q): q for q in CN_QUERIES}
+        for fut in as_completed(futures):
+            q = futures[fut]
+            try:
+                items = fut.result() or []
+            except Exception as e:
+                print(f"  CN SEARCH EXC [{q[:40]!r}]: {e}", file=LOG)
+                items = []
+            all_results.extend(items)
+            print(f"  [CN+ {len(items):>2}] {q[:60]}", file=LOG)
+    seen, deduped = set(), []
+    for r in all_results:
+        url = r.get("url", "").strip()
+        if url and url not in seen:
+            seen.add(url); deduped.append(r)
     return deduped
 
 
 # ============================================================================
-# 去重：加载已有稿件
+# 加载已有稿件 + 去重（与 phase1.py 行为完全一致）
 # ============================================================================
 
 def load_existing_recent(cutoff_days: int = CUTOFF_DAYS) -> Tuple[set, set, set, List[Dict]]:
-    """加载最近 cutoff_days 天内所有月份的已有稿件（跨月去重）。
-
-    D 方案：除了 url/title/slug，还返回每篇稿件的元数据列表（包含
-    frontmatter date / category / 事件 fingerprint），用于在 select_articles
-    里做"同事件重复"去重（仅 URL 比对挡不住 6/5 SpaceX IPO 完整稿
-    跟 6/11 IPO 谣言翻版）。
-    """
+    """加载最近 cutoff_days 天内所有月份的已有稿件（跨月去重）。"""
     urls = set()
     titles = set()
     slugs = set()
-    metas: List[Dict] = []  # [{date, category, fingerprints: set[str], title_zh, title_en}]
+    metas: List[Dict] = []
 
     now = datetime.now()
     # 扫描最近 2 个月的所有目录（覆盖跨月边界）
@@ -256,7 +274,6 @@ def load_existing_recent(cutoff_days: int = CUTOFF_DAYS) -> Tuple[set, set, set,
     for offset in range(0, 2):
         d = now - timedelta(days=offset * 30)
         months_to_scan.append((d.year, d.month))
-    # 去重
     months_to_scan = list(dict.fromkeys(months_to_scan))
 
     for lang in ["space-news", "en/space-news"]:
@@ -277,13 +294,13 @@ def load_existing_recent(cutoff_days: int = CUTOFF_DAYS) -> Tuple[set, set, set,
                 # 提取 frontmatter
                 fm = re.search(r"^---\n(.*?)\n---", content, re.DOTALL)
                 fm_text = fm.group(1) if fm else ""
-                title_zh = title_en = ""
+                title_zh = ""
                 date_str = ""
                 category = ""
                 if fm:
                     title_m = re.search(r'^title:\s*["\']?(.*?)["\']?$', fm_text, re.MULTILINE)
                     if title_m:
-                        title_zh = title_m.group(1).strip()  # zh + en 文件分别存
+                        title_zh = title_m.group(1).strip()
                         titles.add(title_zh)
                     date_m = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', fm_text, re.MULTILINE)
                     if date_m:
@@ -297,8 +314,7 @@ def load_existing_recent(cutoff_days: int = CUTOFF_DAYS) -> Tuple[set, set, set,
                     for url_m in re.finditer(r"\((https?://[^\)]+)\)", line):
                         urls.add(url_m.group(1).strip())
 
-                # D 方案：从 title + slug 提"事件 fingerprint"
-                # 取核心实体关键词（小写、去标点），用于跨语言同事件识别
+                # 从 title + slug 提"事件 fingerprint"
                 fingerprint_source = (m.group(1) if m else "") + " " + title_zh
                 fps = _extract_event_fingerprints(fingerprint_source)
                 if fps:
@@ -326,28 +342,16 @@ _FP_STOPWORDS = {
 
 
 def _extract_event_fingerprints(text: str) -> set:
-    """从 title/slug 提'事件 fingerprint'（核心实体词集合）。
-
-    规则：保留长度 ≥ 4 的英文 token + 长度 ≥ 2 的中文 token + 关键数字串，
-    过滤停用词。同一事件（如 'spacex-ipo-spcx' 跟
-    'spacex-sb-amti-contract'）的 fingerprint 集合会有显著重叠
-    （都含 'spacex'、'spcx'、'ipo' 之类）。
-
-    D 方案 v2：增加数字 token 提取（135, 1.77, 750 等关键数字）。
-    理由：135 美元 / 1.77T / 750 亿这种"关键数字组合"是同事件最强
-    指纹之一，仅靠英文/中文实体词会漏掉（数字不在 [a-z] 字符类）。
-    """
+    """从 title/slug 提'事件 fingerprint'（核心实体词集合）。"""
     text_lower = text.lower()
     # 先去掉日期串（避免 2026-06-12 被切成 2026/06/12 三个 fingerprint）
-    # 匹配 YYYY-MM-DD 或 YYYY 年 M 月 D 日
     text_no_dates = re.sub(r"\d{4}[-/]\d{1,2}[-/]\d{1,2}", " ", text_lower)
     text_no_dates = re.sub(r"\d{4}\s*年\s*\d{1,2}\s*月\s*\d{1,2}\s*日", " ", text_no_dates)
     # 英文 token
     en_tokens = re.findall(r"[a-z][a-z0-9-]{3,}", text_no_dates)
     # 中文 token（连续 2+ 个汉字）
-    zh_tokens = re.findall(r"[\u4e00-\u9fff]{2,}", text)
-    # 关键数字串（1.77, 135, 750, 1.1, 1296 等，≥ 2 位数 + 允许 1 位小数）
-    # 限制：必须是 ≥ 2 位连续数字（避免命中无意义单数字）
+    zh_tokens = re.findall(r"[一-鿿]{2,}", text)
+    # 关键数字串（≥ 2 位数 + 允许 1 位小数）
     num_tokens = re.findall(r"\d{2,}(?:\.\d+)?", text_no_dates)
     fps = set()
     for tok in en_tokens:
@@ -363,31 +367,16 @@ def _extract_event_fingerprints(text: str) -> set:
 
 def _is_duplicate_event(new_fps: set, existing_metas: List[Dict], category: str,
                         cutoff_days: int = 8) -> bool:
-    """判断新候选事件是否与已有稿件（cutoff_days 内）'同事件'。
-
-    D 方案 v3：仅 URL 去重挡不住不同来源报道同一事件。
-    判定：fingerprint 集合交集 ≥ 3 个核心词 → 视为同事件 → skip。
-
-    历史教训：
-    v1：category 严格相等预筛导致漏拦（6/5 commercial vs 6/11 funding）
-    v1.5：slug 改了就不拦 → 同一事件改个日期 slug 即可绕过
-    v2：去掉 category 预筛 + 提高阈值到 3 + 强信号词组合
-    v3：cutoff_days 默认 8。理由：cron 跑在 14:18 UTC(6/12)，cutoff=7
-    = 6/5 14:18 之前。但已发布的 6/5 稿 date=6/5 00:00（北京时间换算后
-    早于该时刻）→ 被错误排除。8 天能确保覆盖 7 天前整日。
-    """
+    """判断新候选事件是否与已有稿件（cutoff_days 内）'同事件'。"""
     if not new_fps:
         return False
     cutoff_date = datetime.now() - timedelta(days=cutoff_days)
-    # 强信号词组合：这些词在两个不同事件里都出现概率极低
-    # 例：{135, 1.77, spcx, nasdaq, 挂牌, 上市, 估值} 同时出现
-    # 大概率是"SpaceX IPO 定价/挂牌" 这同一事件链
     strong_combos = [
-        {"spcx", "nasdaq"},       # SpaceX IPO 交易所 + 代码
-        {"spcx", "trillion"},     # SpaceX IPO 估值
-        {"135", "trillion"},      # 135 美元 1.77T
+        {"spcx", "nasdaq"},
+        {"spcx", "trillion"},
+        {"135", "trillion"},
         {"135", "nasdaq"},
-        {"挂牌", "nasdaq"},       # 中文"挂牌" + 英文"nasdaq"
+        {"挂牌", "nasdaq"},
         {"135", "挂牌"},
     ]
     for meta in existing_metas:
@@ -403,7 +392,6 @@ def _is_duplicate_event(new_fps: set, existing_metas: List[Dict], category: str,
         overlap = new_fps & existing_fps
         if len(overlap) >= 3:
             return True
-        # 强信号词组合：两个组合词组都命中 → 必拦
         for combo in strong_combos:
             if combo.issubset(new_fps) and combo.issubset(existing_fps):
                 return True
@@ -411,20 +399,13 @@ def _is_duplicate_event(new_fps: set, existing_metas: List[Dict], category: str,
 
 
 # ============================================================================
-# 筛选：LLM 判断哪些值得写
+# 筛选
 # ============================================================================
 
-def select_articles(results: List[Dict], existing_urls: set, existing_titles: set,
-                    existing_slugs: set, existing_metas: List[Dict],
-                    cutoff_days: int = CUTOFF_DAYS) -> List[Dict]:
-    """用一次 LLM 调用筛选值得写的新闻。返回文章元数据列表。
-
-    D 方案改动：
-    - 接 existing_metas 做强去重（fingerprint 交集 ≥ 2 → skip）
-    - 把 category 校验从 12 个扩到 ALLOWED_CATEGORIES
-    - prompt 强调"完成信号"判断（动词 + 具体日期）而非 LLM 自由发挥
-    - 返回前再做 date 硬过滤（即便 LLM 看错 description）
-    """
+def select_articles_hermes(results: List[Dict], existing_urls: set,
+                           existing_titles: set, existing_slugs: set,
+                           existing_metas: List[Dict]) -> List[Dict]:
+    """用 hermes 筛选值得写的新闻。返回文章元数据列表。"""
     if not results:
         return []
 
@@ -436,7 +417,6 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
     # 只取前 15 条传给 LLM，避免上下文过长 + 超时
     candidates = filtered[:15]
 
-    # existing_titles 限到 20 条，省 token；同类（同 slug 前缀）合并
     existing_titles_text = "\n".join(f"- {t}" for t in sorted(existing_titles)[:20])
     candidates_text = "\n".join(
         f"{i+1}. 标题: {r['title']}\n   URL: {r['url']}\n   摘要: {r['description'][:200]}"
@@ -444,13 +424,10 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
     )
 
     today_str = datetime.now().strftime("%Y-%m-%d")
-    cutoff_str = (datetime.now() - timedelta(days=cutoff_days)).strftime("%Y-%m-%d")
+    cutoff_str = (datetime.now() - timedelta(days=CUTOFF_DAYS)).strftime("%Y-%m-%d")
 
-    # 列出所有合法 category，避免 LLM 自由发挥成 brand cruft
     categories_doc = ", ".join(sorted(ALLOWED_CATEGORIES))
 
-    # D 方案：prompt 改写 "完成信号" 规则，基于 description 里的具体动作词+日期
-    # 历史教训：让 LLM 自由判断"是否新"会导致 cutoff_days 形同虚设
     prompt = f"""你是一位资深航天新闻编辑。请从以下搜索结果中，筛选出 **{cutoff_str} 到 {today_str}** 之间值得单独成稿的航天新闻。
 
 ## 已有稿件（同一事件不要重复写）
@@ -488,41 +465,15 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
 }}
 
 只输出 JSON 数组，不要其他文字、不要 markdown 包装。"""
-
-    # 120s 超时（之前 90s 经常撞 MiniMax read timeout）
-    response = minimax_chat([{"role": "user", "content": prompt}], temperature=0.2, timeout=120)
-    if not response:
+    response = hermes_chat_json(prompt, timeout=HERMES_TIMEOUT_SELECT)
+    if not isinstance(response, list):
+        print(f"  SELECT: hermes returned non-array: {str(response)[:200]}", file=LOG)
         return []
 
-    # 提取 JSON
-    json_str = response
-    m = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", response)
-    if m:
-        json_str = m.group(1)
-    # 去掉可能的 markdown 包装
-    json_str = json_str.strip()
-    if json_str.startswith("[") and json_str.endswith("]"):
-        pass
-    else:
-        # 尝试找到数组边界
-        start = json_str.find("[")
-        end = json_str.rfind("]")
-        if start != -1 and end != -1:
-            json_str = json_str[start:end+1]
-
-    try:
-        articles = json.loads(json_str)
-    except Exception as e:
-        print(f"Failed to parse LLM JSON: {e}\nRaw:\n{response[:800]}", file=LOG)
-        return []
-
-    if not isinstance(articles, list):
-        return []
-
-    # 验证和清理（D 方案：多层防御）
-    cutoff_date = datetime.now() - timedelta(days=cutoff_days)
+    # ===== post-validation（D-plan v3 多层防御） =====
+    cutoff_date = datetime.now() - timedelta(days=CUTOFF_DAYS)
     valid = []
-    for a in articles:
+    for a in response:
         if not isinstance(a, dict):
             continue
         slug = a.get("slug", "").strip()
@@ -534,10 +485,9 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
             print(f"  SKIP duplicate slug: {slug}", file=LOG)
             continue
 
-        # D 方案：category 必须从 ALLOWED_CATEGORIES 里选，未知则降级到最相近的
+        # category 必须从 ALLOWED_CATEGORIES 里选
         cat = a.get("category", "launch").lower().strip()
         if cat not in ALLOWED_CATEGORIES:
-            # 模糊匹配：找包含子串的合法 category
             matched = None
             for c in ALLOWED_CATEGORIES:
                 if c in cat or cat in c:
@@ -546,10 +496,10 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
             cat = matched or "launch"
         a["category"] = cat
 
-        # D 方案：date 硬过滤 + date 格式校验
+        # date 硬过滤 + date 格式校验
         date_str = a.get("date", "").strip()
         if not re.match(r"\d{4}-\d{2}-\d{2}$", date_str):
-            a["date"] = datetime.now().strftime("%Y-%m-%d")
+            a["date"] = today_str
             date_str = a["date"]
         try:
             article_date = datetime.strptime(date_str, "%Y-%m-%d")
@@ -557,9 +507,9 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
                 print(f"  SKIP outdated ({date_str} < cutoff): {slug}", file=LOG)
                 continue
         except ValueError:
-            a["date"] = datetime.now().strftime("%Y-%m-%d")
+            a["date"] = today_str
 
-        # D 方案：fingerprint 强去重（同 category + cutoff 内 + 交集 ≥ 2）
+        # fingerprint 强去重
         slug_for_fp = a.get("slug", "") + " " + a.get("title_en", "") + " " + a.get("title_zh", "")
         fps = _extract_event_fingerprints(slug_for_fp)
         if fps and _is_duplicate_event(fps, existing_metas, cat, cutoff_days=8):
@@ -572,41 +522,30 @@ def select_articles(results: List[Dict], existing_urls: set, existing_titles: se
 
 
 # ============================================================================
-# 写稿：LLM 生成中英双语
+# 写稿
 # ============================================================================
 
 def _sanitize_for_yaml(text: str) -> str:
-    """清掉 description 里的双引号/单引号/冒号,避免破坏 YAML frontmatter。
-
-    D 方案 v3（fix）：LLM 在 summary_zh 里写"千帆星座" 时会用中文双引号
-    ""，但 frontmatter description 字段是 "summary" 字符串包裹，
-    内嵌 " 会让 YAML parser 解析错误（YAMLException at line 5）。
-    修法：把内嵌的全角/半角双引号、单引号、英文冒号全部清掉。
-    """
+    """清掉 description 里的双引号/单引号/冒号，避免破坏 YAML frontmatter。"""
     if not text:
         return ""
-    # 干掉所有双引号(全角/半角)、单引号(全角/半角)、英文冒号/井号
     return (text
             .replace('"', '')
             .replace('"', '')
             .replace("'", '')
             .replace("'", '')
             .replace(" # ", " ")
-            .replace(":", "：")  # 英文冒号 → 中文全角冒号(保留语义不破坏 YAML)
+            .replace(":", "：")  # 英文冒号 → 中文全角冒号
             .strip())
 
 
-def draft_article(meta: Dict) -> Tuple[Optional[str], Optional[str]]:
-    """调用 LLM 生成中英双语稿件。
-
-    D 方案 v3（fix）：draft prompt 加 YAML 安全要求，summary 字段禁止嵌入
-    任何会破坏 frontmatter 的字符。
-    """
+def draft_article_hermes(meta: Dict) -> Tuple[Optional[str], Optional[str]]:
+    """调 hermes 生成中英双语稿件。"""
     date = meta["date"]
     year, month = date[:4], date[5:7]
     slug = meta["slug"]
 
-    # 兜底清洗一次，避免 LLM 给的 summary 本身就有问题
+    # 兜底清洗一次
     summary_zh_safe = _sanitize_for_yaml(meta.get("summary_zh", ""))
     summary_en_safe = _sanitize_for_yaml(meta.get("summary_en", ""))
     title_zh_safe = _sanitize_for_yaml(meta.get("title_zh", ""))
@@ -679,22 +618,19 @@ category: {meta['category']}
 === 英文稿结束 ===
 
 请严格按照 === 标记的边界输出，不要输出其他内容。注意再次确认：所有 frontmatter 字段里没有引号。"""
-
-    response = minimax_chat([{"role": "user", "content": prompt}], temperature=0.4, timeout=120)
-    if not response:
+    response_text = hermes_chat_raw(prompt, timeout=HERMES_TIMEOUT_DRAFT)
+    if not response_text:
         return None, None
 
-    zh_m = re.search(r"=== 中文稿开始 ===\s*(.*?)\s*=== 中文稿结束 ===", response, re.DOTALL)
-    en_m = re.search(r"=== 英文稿开始 ===\s*(.*?)\s*=== 英文稿结束 ===", response, re.DOTALL)
+    zh_m = re.search(r"=== 中文稿开始 ===\s*(.*?)\s*=== 中文稿结束 ===", response_text, re.DOTALL)
+    en_m = re.search(r"=== 英文稿开始 ===\s*(.*?)\s*=== 英文稿结束 ===", response_text, re.DOTALL)
 
     zh = zh_m.group(1).strip() if zh_m else None
     en = en_m.group(1).strip() if en_m else None
 
-    # 如果正则没匹配到，尝试直接分割
     if not zh and not en:
-        # 可能是模型没按格式输出，尝试整体作为中文稿
         print(f"  WARN: format mismatch for {slug}, using raw response as zh", file=LOG)
-        zh = response.strip()
+        zh = response_text.strip()
         en = None
 
     return zh, en
@@ -781,7 +717,6 @@ def update_readme_for_month(year: int, month: int, articles: List[Dict]) -> None
 
 def update_readme(articles: List[Dict]) -> None:
     """按文章实际月份分组更新 README。"""
-    # 按 (year, month) 分组
     grouped: Dict[Tuple[int, int], List[Dict]] = {}
     for a in articles:
         d = a["date"]
@@ -792,13 +727,12 @@ def update_readme(articles: List[Dict]) -> None:
         update_readme_for_month(year, month, group)
 
 
-def _is_chinese_event(article: Dict) -> bool:
-    """判断一篇文章是否属"中国航天"事件。
+# ============================================================================
+# CN 30% 后置校验辅助
+# ============================================================================
 
-    D 方案：CN 30% 后置校验里要用。
-    判定规则：category 含 china / tiangong / qianfan / guowang / beidou / 商业火箭
-    系列名 之一，或 title 包含中文字符且 source_url 是中文域名。
-    """
+def _is_chinese_event(article: Dict) -> bool:
+    """判断一篇文章是否属"中国航天"事件。"""
     cat = article.get("category", "").lower()
     if any(k in cat for k in ("china", "tiangong", "qianfan", "guowang", "beidou",
                                 "landspace", "galactic-energy", "cas-space",
@@ -806,7 +740,7 @@ def _is_chinese_event(article: Dict) -> bool:
                                 "ispace", "k2", "firefly")):
         return True
     title = (article.get("title_zh", "") or article.get("title_en", ""))
-    if re.search(r"[\u4e00-\u9fff]", title):
+    if re.search(r"[一-鿿]", title):
         return True
     url = article.get("source_url", "")
     cn_domains = (".cn", ".com.cn", "qq.com", "weibo.com", "163.com", "sohu.com",
@@ -814,81 +748,59 @@ def _is_chinese_event(article: Dict) -> bool:
     return any(d in url for d in cn_domains)
 
 
-def _search_cn_only() -> List[Dict]:
-    """只跑中文 query。给 CN 30% 后置校验用。
-
-    D 方案：补检阶段只用 CN_QUERIES，不浪费 INTL 配额。
-    复用 search_all 的并行 + 去重逻辑。
-    """
-    all_results: List[Dict] = []
-
-    def _search_one(query: str) -> Tuple[str, List[Dict]]:
-        try:
-            items = minimax_search(query)
-            return query, items
-        except Exception:
-            return query, []
-
-    with ThreadPoolExecutor(max_workers=MAX_SEARCH_WORKERS) as executor:
-        futures = {executor.submit(_search_one, q): q for q in CN_QUERIES}
-        for future in as_completed(futures):
-            q, items = future.result()
-            all_results.extend(items)
-            print(f"  [CN+ {len(items):>2}] {q[:60]}", file=LOG)
-
-    seen_urls = set()
-    deduped = []
-    for r in all_results:
-        url = r.get("url", "").strip()
-        if url and url not in seen_urls:
-            seen_urls.add(url)
-            deduped.append(r)
-    return deduped
-
-
 # ============================================================================
 # 主流程
 # ============================================================================
 
 def main() -> int:
-    if not MINIMAX_KEY:
-        print("ERROR: MINIMAX_API_KEY or MINIMAX_CN_API_KEY must be set", file=LOG)
+    # 兼容 SKIP_PHASE1=1
+    if os.environ.get("SKIP_PHASE1") == "1":
+        print("phase 1: SKIPPED (SKIP_PHASE1=1)", file=LOG)
+        return 0
+
+    # hermes 必须在 PATH 上
+    if not shutil.which(HERMES_BIN):
+        print(f"FATAL: hermes not on PATH (looked for {HERMES_BIN!r})", file=LOG)
         return 1
 
     now = datetime.now()
-    year, month = now.year, now.month
 
-    print(f"[{now.isoformat()}] Space News Phase 1 start", file=LOG)
+    print(f"[{now.isoformat()}] Space News Phase 1 (Hermes) start", file=LOG)
 
-    # 1. 并行搜索
-    print(f"  Searching {len(CN_QUERIES)} CN + {len(INTL_QUERIES)} INTL queries...", file=LOG)
-    results = search_all()
+    # 1. 9 query 并行搜索
+    print(f"  Searching {len(CN_QUERIES)} CN + {len(INTL_QUERIES)} INTL via hermes...", file=LOG)
+    results = search_all_hermes()
     print(f"  -> {len(results)} unique results", file=LOG)
+
+    if not results:
+        print("[SILENT]")
+        print(f"[{datetime.now().isoformat()}] No search results.", file=LOG)
+        return 0
 
     # 2. 加载已有稿件（跨月去重）
     existing_urls, existing_titles, existing_slugs, existing_metas = load_existing_recent()
-    print(f"  Existing: {len(existing_urls)} URLs, {len(existing_titles)} titles, {len(existing_slugs)} slugs, {len(existing_metas)} metas", file=LOG)
+    print(f"  Existing: {len(existing_urls)} URLs, {len(existing_titles)} titles, "
+          f"{len(existing_slugs)} slugs, {len(existing_metas)} metas", file=LOG)
 
-    # 3. LLM 筛选
-    articles = select_articles(results, existing_urls, existing_titles, existing_slugs, existing_metas)
+    # 3. 筛选
+    articles = select_articles_hermes(results, existing_urls, existing_titles,
+                                       existing_slugs, existing_metas)
     if not articles:
         print("[SILENT]")
         print(f"[{datetime.now().isoformat()}] No newsworthy articles found.", file=LOG)
         return 0
 
-    # D 方案：CN 30% 后置校验。
-    # 如果 LLM 没出或只出少量中文稿（< 30%），用剩下的时间预算再跑一次
-    # 中文 query 抓候选 → 重新 select。
+    # 4. CN 30% 后置校验（D-plan v3）
     cn_count = sum(1 for a in articles if _is_chinese_event(a))
     total = len(articles)
     if total > 0 and cn_count / total < 0.3:
-        print(f"  CN ratio low ({cn_count}/{total} = {cn_count/total:.0%}), running CN supplement pass...", file=LOG)
+        print(f"  CN ratio low ({cn_count}/{total} = {cn_count/total:.0%}), "
+              f"running CN supplement pass...", file=LOG)
         try:
-            cn_results = _search_cn_only()
+            cn_results = _search_cn_only_hermes()
             print(f"  -> CN supplement: {len(cn_results)} unique results", file=LOG)
-            supplement = select_articles(cn_results, existing_urls, existing_titles,
-                                          existing_slugs, existing_metas)
-            # 把补检到的中文章追加，限制总产出 ≤ 5 篇（避免膨胀）
+            supplement = select_articles_hermes(cn_results, existing_urls, existing_titles,
+                                                 existing_slugs, existing_metas)
             for s in supplement:
                 if _is_chinese_event(s) and len(articles) < 5:
                     articles.append(s)
@@ -902,18 +814,18 @@ def main() -> int:
     for a in articles:
         print(f"     - {a['date']}-{a['slug']}: {a['title_zh']}", file=LOG)
 
-    # 4. 写稿 + 落盘
+    # 5. 写稿 + 落盘
     saved = []
     for meta in articles:
         print(f"  Drafting {meta['slug']}...", file=LOG)
-        zh, en = draft_article(meta)
+        zh, en = draft_article_hermes(meta)
         if zh and en:
             if save_article(zh, en, meta["slug"], meta["date"]):
                 saved.append(meta)
         else:
             print(f"  FAILED to draft {meta['slug']} (zh={zh is not None}, en={en is not None})", file=LOG)
 
-    # 5. 更新 README（按文章实际月份分组）
+    # 6. 更新 README
     if saved:
         update_readme(saved)
 
