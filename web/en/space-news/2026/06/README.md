@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-13
+lastUpdated: 2026-06-15
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-13
 
 | Date | Title |
 |------|-------|
+| 6-13 | [JWST Detects Exoplanets Choked by Diesel-Smog Atmospheres](./2026-06-13-jwst-diesel-smog-exoplanet-atmospheres/) |
 | 6-12 | [SpaceX Goes Public in Historic Largest-Ever IPO](./2026-06-12-spacex-historic-ipo-listing/) |
 | 6-12 | [SpaceX Lists on NASDAQ at $135 Per Share, $1.77 Trillion Valuation in Historic Space Economy IPO](./2026-06-12-spacex-nasdaq-ipo-2026/) |
 | 6-10 | [Webb Finds Strongest Evidence Yet for 'Black Hole Stars'](./2026-06-10-webb-black-hole-stars-evidence/) |

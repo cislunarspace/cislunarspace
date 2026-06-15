@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-13
+lastUpdated: 2026-06-15
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-13 | [JWST探测到被"柴油烟雾"笼罩的系外行星](./2026-06-13-jwst-diesel-smog-exoplanet-atmospheres/) |
 | 6-12 | [史上最大IPO诞生：SpaceX正式挂牌](./2026-06-12-spacex-historic-ipo-listing/) |
 | 6-12 | [SpaceX登陆纳斯达克：每股135美元、估值1.77万亿美元 太空轨道经济迎来历史性IPO](./2026-06-12-spacex-nasdaq-ipo-2026/) |
 | 6-10 | [韦伯太空望远镜发现迄今最有力的「黑洞星」证据](./2026-06-10-webb-black-hole-stars-evidence/) |
