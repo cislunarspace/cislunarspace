@@ -4,6 +4,7 @@ import { buildGlossaryScan } from '../intakes/glossary-intake.ts'
 import { buildWayfindingIntake as buildWayfinding } from '../taxonomy/adapters/wayfinding.ts'
 import { glossaryCategories } from '../taxonomy/adapters/glossary-categories.ts'
 import { buildAllSectionSidebars } from '../taxonomy/adapters/sidebar-sections.ts'
+import { taxonomy } from '../taxonomy/index.ts'
 import { walkSiteMarkdown } from '../utils/markdown-walker.ts'
 import type { VueSidebarItem } from './types.ts'
 
@@ -70,30 +71,39 @@ export function buildSidebarConfigs(
   const glossaryZh = buildGlossarySidebar(effectiveScan, 'zh')
   const glossaryEn = buildGlossarySidebar(effectiveScan, 'en')
 
-  const zhConfig: Record<string, any> = {
+  const zhConfig: Record<string, any> = {}
+  const enConfig: Record<string, any> = {}
+
+  // Section sidebars are derived from the taxonomy: every `kind: 'section'`
+  // node contributes its locale route prefix (section.path[locale]) and the
+  // matching section sidebar tree. No per-section hand-entry — adding a
+  // section in the taxonomy automatically wires its sidebar here.
+  for (const section of taxonomy.byKind('section', null)) {
+    const sb = sectionSidebars[section.id]
+    if (section.path.zh) zhConfig[section.path.zh] = [wayfinding.zh, sb.zh]
+    if (section.path.en) enConfig[section.path.en] = [wayfinding.en, sb.en]
+  }
+
+  // Non-section prefixes are declared once. Locale roots carry wayfinding
+  // only; glossary carries wayfinding + the glossary sidebar; space-news
+  // carries wayfinding only (its custom rail is a runtime component, not a
+  // VuePress sidebar entry); satellite-simulation is disabled. The
+  // `/en/space-news/` entry inside the zh config keeps zh chrome consistent
+  // if a zh visitor lands on an en space-news URL.
+  Object.assign(zhConfig, {
     '/': [wayfinding.zh],
-    '/what-is-cislunarspace/': [wayfinding.zh, sectionSidebars['what-is-cislunarspace'].zh],
-    '/cislunar-orbits/': [wayfinding.zh, sectionSidebars['cislunar-orbits'].zh],
-    '/research-frontiers/': [wayfinding.zh, sectionSidebars['research-frontiers'].zh],
     '/glossary/': [wayfinding.zh, glossaryZh],
-    '/background/': [wayfinding.zh, sectionSidebars['background'].zh],
-    '/resources-tools/': [wayfinding.zh, sectionSidebars['resources-tools'].zh],
     '/space-news/': [wayfinding.zh],
     '/en/space-news/': [wayfinding.zh],
     '/satellite-simulation/': false,
-  }
+  })
 
-  const enConfig: Record<string, any> = {
+  Object.assign(enConfig, {
     '/en/': [wayfinding.en],
-    '/en/what-is-cislunarspace/': [wayfinding.en, sectionSidebars['what-is-cislunarspace'].en],
-    '/en/cislunar-orbits/': [wayfinding.en, sectionSidebars['cislunar-orbits'].en],
-    '/en/research-frontiers/': [wayfinding.en, sectionSidebars['research-frontiers'].en],
     '/en/glossary/': [wayfinding.en, glossaryEn],
-    '/en/background/': [wayfinding.en, sectionSidebars['background'].en],
-    '/en/resources-tools/': [wayfinding.en, sectionSidebars['resources-tools'].en],
     '/en/space-news/': [wayfinding.en],
     '/en/satellite-simulation/': false,
-  }
+  })
 
   return { zh: zhConfig, en: enConfig }
 }
