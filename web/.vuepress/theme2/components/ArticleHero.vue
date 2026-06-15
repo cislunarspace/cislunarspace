@@ -22,7 +22,7 @@ import {
   formatArticleDate,
   resolveCategoryColor,
   resolveCategoryLabel,
-} from '../utils/spaceNewsDirectoryView'
+} from '../utils/spaceNewsPresentation'
 
 const props = defineProps<{
   title: string

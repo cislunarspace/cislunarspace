@@ -62,11 +62,10 @@ import articlesData from '../../space-news-articles.json'
 import { useIsEn } from '../composables/useIsEn'
 import type { ArticlesData } from '../utils/types'
 import {
-  articleCardBackground,
   buildSpaceNewsDirectoryView,
-  formatArticleDate,
   type SpaceNewsArticleView,
 } from '../utils/spaceNewsDirectoryView'
+import { articleCardBackground, formatArticleDate } from '../utils/spaceNewsPresentation'
 
 const isEn = useIsEn()
 const route = useRoute()

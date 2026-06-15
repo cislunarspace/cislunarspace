@@ -115,7 +115,7 @@
 import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useIsEn } from '../composables/useIsEn'
-import { resolveCategoryColor } from '../utils/spaceNewsDirectoryView'
+import { resolveCategoryColor } from '../utils/spaceNewsPresentation'
 import sidebarRaw from '../../space-news-sidebar-data.json'
 
 const route = useRoute()
