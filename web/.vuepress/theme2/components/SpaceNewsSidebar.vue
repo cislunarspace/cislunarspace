@@ -116,37 +116,14 @@ import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useIsEn } from '../composables/useIsEn'
 import { resolveCategoryColor } from '../utils/spaceNewsPresentation'
+import { spaceNewsLabels } from '../utils/spaceNewsLabels'
 import sidebarRaw from '../../space-news-sidebar-data.json'
 
 const route = useRoute()
 const isEn = useIsEn()
 const isHidden = ref(false)
 
-const labels = computed(() =>
-  isEn.value
-    ? {
-        brandTitle: 'Space News',
-        subtitle: 'Cislunar Space',
-        home: 'Home',
-        archive: 'Archive',
-        latest: 'Latest',
-        more: 'More →',
-        categories: 'Topics',
-        timeline: 'Timeline',
-        totalArticles: 'Articles',
-      }
-    : {
-        brandTitle: '航天动态',
-        subtitle: '地月空间入门指南',
-        home: '首页',
-        archive: '存档',
-        latest: '最新',
-        more: '存档页 →',
-        categories: '按主题',
-        timeline: '按月',
-        totalArticles: '已发布',
-      },
-)
+const labels = computed(() => spaceNewsLabels.sidebar[isEn.value ? 'en' : 'zh'])
 
 const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'))
 const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))

@@ -66,6 +66,7 @@ import {
   type SpaceNewsArticleView,
 } from '../utils/spaceNewsDirectoryView'
 import { articleCardBackground, formatArticleDate } from '../utils/spaceNewsPresentation'
+import { spaceNewsLabels } from '../utils/spaceNewsLabels'
 
 const isEn = useIsEn()
 const route = useRoute()
@@ -87,7 +88,7 @@ const directoryView = computed(() => buildSpaceNewsDirectoryView({
   locale: isEn.value ? 'en' : 'zh',
 }))
 
-const labels = computed(() => directoryView.value.archiveLabels)
+const labels = computed(() => spaceNewsLabels.archive[isEn.value ? 'en' : 'zh'])
 const usedCategories = computed(() => directoryView.value.usedCategories)
 const monthGroups = computed(() => directoryView.value.monthGroups)
 

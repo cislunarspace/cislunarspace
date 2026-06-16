@@ -28,24 +28,6 @@ export interface SpaceNewsArticleView extends Omit<RawSpaceNewsArticle, 'categor
   categoryColor: string
 }
 
-export interface SpaceNewsDirectoryLabels {
-  kicker: string
-  title: string
-  lead: string
-  latest: string
-  viewAll: string
-  viewMore: string
-}
-
-export interface SpaceNewsArchiveLabels {
-  kicker: string
-  title: string
-  lead: string
-  backHome: string
-  empty: string
-  all: string
-}
-
 export interface SpaceNewsCategorySection {
   key: string
   label: string
@@ -68,8 +50,6 @@ export interface SpaceNewsUsedCategory {
 }
 
 export interface SpaceNewsDirectoryView {
-  labels: SpaceNewsDirectoryLabels
-  archiveLabels: SpaceNewsArchiveLabels
   articles: SpaceNewsArticleView[]
   featuredList: SpaceNewsArticleView[]
   latestItems: SpaceNewsArticleView[]
@@ -89,44 +69,6 @@ const FEATURED_ITEMS_LIMIT = 5
 const LATEST_ITEMS_LIMIT = 6
 const CATEGORY_SECTION_LIMIT = 3
 const categoryOrder = ['artemis', 'spacex', 'china', 'nasa', 'esa', 'iss', 'launch', 'commercial', 'policy', 'science']
-
-const labelsByLocale: Record<SpaceNewsLocale, SpaceNewsDirectoryLabels> = {
-  zh: {
-    kicker: '地月空间入门指南',
-    title: '航天动态',
-    lead: '政策、发射、任务与产业动态摘录：每条稿件均给出可核对的公开来源，便于回溯与延伸阅读。',
-    latest: '最新动态',
-    viewAll: '全部存档 →',
-    viewMore: '更多 →',
-  },
-  en: {
-    kicker: 'Cislunar Space',
-    title: 'Space News',
-    lead: 'Curated briefs on policy, launches, missions, and industry moves — every article cites public sources you can verify in-line.',
-    latest: 'Latest News',
-    viewAll: 'Full archive →',
-    viewMore: 'More →',
-  },
-}
-
-const archiveLabelsByLocale: Record<SpaceNewsLocale, SpaceNewsArchiveLabels> = {
-  zh: {
-    kicker: '航天动态',
-    title: '按日期查阅',
-    lead: '以下为已发布的全部条目，按月分组，月内按日期倒序。',
-    backHome: '返回航天动态首页',
-    empty: '暂无稿件。',
-    all: '全部',
-  },
-  en: {
-    kicker: 'Space News',
-    title: 'Archive by date',
-    lead: 'All published items, newest first within each month.',
-    backHome: 'Back to Space News',
-    empty: 'No articles yet.',
-    all: 'All',
-  },
-}
 
 function normalizeCategories(category: string | string[] | null): string[] | null {
   if (Array.isArray(category)) return category.length ? [...category] : null
@@ -271,8 +213,6 @@ export function buildSpaceNewsDirectoryView(options: BuildSpaceNewsDirectoryView
   const latestDate = articles[0]?.date ?? null
 
   return {
-    labels: labelsByLocale[options.locale],
-    archiveLabels: archiveLabelsByLocale[options.locale],
     articles,
     featuredList: articles.filter(article => isFeaturedArticle(article, latestDate)).slice(0, FEATURED_ITEMS_LIMIT),
     latestItems: articles.slice(0, LATEST_ITEMS_LIMIT),

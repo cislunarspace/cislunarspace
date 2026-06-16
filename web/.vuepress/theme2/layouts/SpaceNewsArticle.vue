@@ -13,7 +13,7 @@
     <template #page-bottom>
       <div class="article-back">
         <router-link :to="newsHome" class="article-back__link">
-          &larr; {{ isEn ? 'Back to Space News' : '返回航天动态' }}
+          &larr; {{ backToNews }}
         </router-link>
       </div>
       <CopyPageButton />
@@ -37,6 +37,7 @@ import PageToc from '../components/PageToc.vue'
 import ArticleHero from '../components/ArticleHero.vue'
 import SidebarToggle from '../components/SidebarToggle.vue'
 import { resolveFrontmatterImage } from '../utils/imageUrl'
+import { spaceNewsLabels } from '../utils/spaceNewsLabels'
 import type { PageData } from '../utils/types'
 
 const page = usePage()
@@ -46,6 +47,7 @@ const fm = computed(() => (page.value as PageData).frontmatter || {})
 const isEn = computed(() => (page.value.path || '').startsWith('/en/'))
 
 const heroImageUrl = computed(() => resolveFrontmatterImage(fm.value.image, route.path) || null)
+const backToNews = computed(() => spaceNewsLabels.article[isEn.value ? 'en' : 'zh'].backToNews)
 
 const newsHome = computed(() => isEn.value ? '/en/space-news/' : '/space-news/')
 </script>

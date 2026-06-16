@@ -80,23 +80,15 @@ describe('buildSpaceNewsDirectoryView', () => {
     ])
   })
 
-  it('provides localized homepage labels and category section labels', () => {
+  it('builds category sections localized per locale', () => {
     const articles = [
       makeArticle({ title: 'Artemis', path: '/artemis/', date: '2026-05-13', category: 'artemis' }),
       makeArticle({ title: 'Commercial', path: '/commercial/', date: '2026-05-12', category: 'commercial' }),
     ]
 
-    const zh = buildSpaceNewsDirectoryView({
-      articles,
-      locale: 'zh',
-    })
-    const en = buildSpaceNewsDirectoryView({
-      articles,
-      locale: 'en',
-    })
+    const zh = buildSpaceNewsDirectoryView({ articles, locale: 'zh' })
+    const en = buildSpaceNewsDirectoryView({ articles, locale: 'en' })
 
-    expect(zh.labels).toMatchObject({ title: '航天动态', latest: '最新动态', viewMore: '更多 →' })
-    expect(en.labels).toMatchObject({ title: 'Space News', latest: 'Latest News', viewMore: 'More →' })
     expect(zh.categorySections.map(section => ({ key: section.key, label: section.label, color: section.color }))).toEqual([
       { key: 'artemis', label: 'Artemis', color: '#6366f1' },
       { key: 'commercial', label: '商业航天', color: '#059669' },
@@ -181,14 +173,6 @@ describe('buildSpaceNewsDirectoryView', () => {
       { key: 'artemis', label: 'Artemis', color: '#6366f1' },
       { key: 'commercial', label: 'Commercial Space', color: '#059669' },
     ])
-  })
-
-  it('exposes localized archive labels', () => {
-    const zh = buildSpaceNewsDirectoryView({ articles: [], locale: 'zh' })
-    const en = buildSpaceNewsDirectoryView({ articles: [], locale: 'en' })
-
-    expect(zh.archiveLabels).toMatchObject({ title: '按日期查阅', backHome: '返回航天动态首页', all: '全部' })
-    expect(en.archiveLabels).toMatchObject({ title: 'Archive by date', backHome: 'Back to Space News', all: 'All' })
   })
 
   it('drafts are excluded from monthGroups and usedCategories', () => {
