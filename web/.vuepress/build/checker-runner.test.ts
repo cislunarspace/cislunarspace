@@ -102,8 +102,8 @@ describe('checker-runner', () => {
     )
 
     expect(deps.writeFileSync).toHaveBeenCalledWith(
-      expect.stringContaining('docs\\audits\\test-report.json'),
-      expect.stringContaining('problem')
+      expect.stringMatching(/docs[/\\]audits[/\\]test-report\.json/),
+      expect.stringContaining('problem'),
     )
     expect(deps.processExit).toHaveBeenCalledWith(1)
   })
