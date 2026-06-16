@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-16
+lastUpdated: 2026-06-17
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-15 | [JAXA H3 火箭复飞成功 30构型试验飞行器精确入轨](./2026-06-15-jaxa-h3-return-to-flight/) |
+| 6-16 | [钱德拉X射线观测14年数据：超新星残骸亮度异常波动 颠覆传统认知](./2026-06-16-chandra-supernova-xray-variations/) |
 | 6-15 | [NASA SpaceX CRS-34龙飞船载满空间站科研成果返回地球](./2026-06-15-nasa-spacex-crs-34-dragon-returns-space-station-science/) |
 | 6-15 | [力箭一号遥十四一箭八星发射成功 民商火箭年累计入轨卫星破百](./2026-06-15-lijian-1-y14-8-satellites-100-milestone/) |
 | 6-15 | [长征十二号基本型 6 月 17 日再出征 商业航天发射场二号工位再启](./2026-06-15-long-march-12-relaunch-commercial-pad-2/) |

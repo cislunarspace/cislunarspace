@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-16
+lastUpdated: 2026-06-17
 ---
 
 # June 2026
@@ -13,6 +13,8 @@ lastUpdated: 2026-06-16
 
 | Date | Title |
 |------|-------|
+| 6-15 | [JAXAs H3 Rocket Returns to Flight, 30-Configuration Test Vehicle Reaches Orbit](./2026-06-15-jaxa-h3-return-to-flight/) |
+| 6-16 | [Chandra X-ray Observatory Reveals Anomalous Brightness Variations in Supernova Remnants Over 14 Years](./2026-06-16-chandra-supernova-xray-variations/) |
 | 6-15 | [NASAs SpaceX CRS-34 Dragon Returns Packed with Space Station Science](./2026-06-15-nasa-spacex-crs-34-dragon-returns-space-station-science/) |
 | 6-15 | [Lijian-1 Y14 Lofts 8 Satellites as Chinese Commercial Rocket Passes 100 Orbits](./2026-06-15-lijian-1-y14-8-satellites-100-milestone/) |
 | 6-15 | [Long March 12 Set for June 17 Relaunch from Commercial Pad No. 2](./2026-06-15-long-march-12-relaunch-commercial-pad-2/) |
