@@ -1,85 +1,55 @@
 /**
- * Swappable seams behind ChatSession.
+ * Transport-level seams for the chat engine.
+ *
+ * Router, context-manager, and answer-engine live in their own modules.
+ * This file holds the *transport* seam (the only thing that actually
+ * touches the network) and the aggregated dependency type used by
+ * ChatSession's constructor.
  */
-import type {
-  NormalizedConfig,
-  HierarchicalSiteIndex,
-  IndexRow,
-  Message,
-  SiteContext,
-} from './chat-types'
-
-export interface RoutingResult {
-  paths: string[]
-  context: SiteContext | null
-  usedTwoPhase: boolean
-  systemPrompt: string
-}
-
-export interface RouterCallbacks {
-  onPathsChosen(paths: string[]): void
-  onExcerptsLoaded(excerptText: string | null): void
-  onProcessStep(key: 'stepNav' | 'stepExcerpt', detail?: string): void
-  onProcessStepComplete(key: 'stepNav' | 'stepExcerpt', detail?: string): void
-}
-
-export interface Router {
-  route(params: {
-    question: string
-    history: Message[]
-    siteIndex: HierarchicalSiteIndex
-    flatIndex: IndexRow[]
-    config: NormalizedConfig
-    locale: 'zh' | 'en'
-    callbacks: RouterCallbacks
-    signal: AbortSignal
-  }): Promise<RoutingResult>
-}
+import type { ChatAnswerEngine } from './chat-answer-engine'
+import type { ChatContextManager } from './chat-context-manager'
+import type { ChatRouter } from './chat-router'
 
 export interface ChatTransport {
   completeJson(endpoint: string, payload: Record<string, unknown>, signal: AbortSignal): Promise<unknown>
-  completeStream(endpoint: string, payload: Record<string, unknown>, signal: AbortSignal): Promise<ReadableStreamDefaultReader<Uint8Array> | null>
+  completeStream(
+    endpoint: string,
+    payload: Record<string, unknown>,
+    signal: AbortSignal,
+  ): Promise<ReadableStreamDefaultReader<Uint8Array> | null>
 }
 
-export interface ContextLoader {
-  loadSiteContext(signal: AbortSignal): Promise<SiteContext>
+/** Default fetch-backed transport. */
+export function createFetchTransport(): ChatTransport {
+  return {
+    completeJson: async (endpoint, payload, signal) => {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal,
+      })
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      return res.json()
+    },
+    completeStream: async (endpoint, payload, signal) => {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal,
+      })
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`)
+      return res.body?.getReader() ?? null
+    },
+  }
 }
 
+/** Aggregated dependency bundle for ChatSession. Each piece is independently
+ *  swappable. If any is omitted, ChatSession wires in the default. */
 export interface ChatSessionDeps {
-  router?: Router
+  router?: ChatRouter
+  answerEngine?: ChatAnswerEngine
   transport?: ChatTransport
-  contextLoader?: ContextLoader
-}
-
-export function keywordRouter(params: {
-  question: string
-  flatIndex: IndexRow[]
-  config: NormalizedConfig
-  callbacks: RouterCallbacks
-}): Promise<RoutingResult> {
-  const { question, flatIndex, callbacks } = params
-  const max = params.config.routerMaxPaths ?? 4
-  const paths = fallbackKeywordPaths(question, flatIndex, max)
-  callbacks.onPathsChosen(paths)
-  return Promise.resolve({
-    paths,
-    context: null,
-    usedTwoPhase: false,
-    systemPrompt: '',
-  })
-}
-
-function fallbackKeywordPaths(question: string, indexRows: IndexRow[], max: number): string[] {
-  const q = question.toLowerCase()
-  const scored = indexRows.map((row) => {
-    const title = row.title.toLowerCase()
-    const path = row.path.toLowerCase()
-    let score = 0
-    for (const word of q.split(/\s+/)) {
-      if (title.includes(word)) score += 3
-      if (path.includes(word)) score += 1
-    }
-    return { path: row.path, score }
-  })
-  return scored.filter((x) => x.score > 0).sort((a, b) => b.score - a.score).slice(0, max).map((x) => x.path)
+  contextManager?: ChatContextManager
 }

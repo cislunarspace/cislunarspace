@@ -1,7 +1,10 @@
 import { afterEach, describe, it, expect, vi } from 'vitest'
 import { ChatSession } from './chat-session'
-import type { ChatSessionDeps, Router } from './chat-engine-seams'
-import type { HierarchicalSiteIndex, NormalizedConfig, RouteCallbacks, SiteContext } from './chat-types'
+import type { ChatAnswerEngine, AnswerPhase } from './chat-answer-engine'
+import type { ChatContextManager } from './chat-context-manager'
+import type { ChatSessionDeps, ChatTransport } from './chat-engine-seams'
+import type { ChatRouter, RouterCallbacks } from './chat-router'
+import type { HierarchicalSiteIndex, Message, NormalizedConfig, RouteCallbacks, SiteContext } from './chat-types'
 
 const config: NormalizedConfig = {
   apiEndpoint: '/api/ai/v1/chat/completions',
@@ -54,42 +57,78 @@ function createReader(chunks: string[]): ReadableStreamDefaultReader<Uint8Array>
   } as unknown as ReadableStreamDefaultReader<Uint8Array>
 }
 
+/** Build a stub ChatAnswerEngine that just records the call and returns a
+ *  payload derived from the provided systemPrompt. */
+function createAnswerEngineStub(opts: { systemPrompt: string; usedTwoPhase?: boolean; stream?: boolean } = { systemPrompt: 'retrieved context prompt' }): {
+  engine: ChatAnswerEngine
+  buildSpy: ReturnType<typeof vi.fn>
+} {
+  const buildSpy = vi.fn(async (): Promise<AnswerPhase> => ({
+    systemPrompt: opts.systemPrompt,
+    history: [],
+    payload: {
+      model: 'answer-model',
+      messages: [{ role: 'system', content: opts.systemPrompt }],
+      stream: opts.stream ?? false,
+    },
+    usedTwoPhase: opts.usedTwoPhase ?? true,
+  }))
+  return { engine: { buildAnswerPhase: buildSpy }, buildSpy }
+}
+
+function createRouterStub(opts: { paths: string[]; throw?: Error }): ChatRouter {
+  return {
+    route: vi.fn(async (_params: unknown) => {
+      if (opts.throw) throw opts.throw
+      return { paths: opts.paths }
+    }),
+  }
+}
+
+function createTransportStub(opts: { json?: () => Promise<unknown>; stream?: () => Promise<ReadableStreamDefaultReader<Uint8Array> | null> } = {}): ChatTransport {
+  return {
+    completeJson: opts.json ?? vi.fn(async () => ({ choices: [{ message: { content: '地月轨道回答' } }] })),
+    completeStream: opts.stream ?? vi.fn(),
+  }
+}
+
+function createContextManagerStub(context: SiteContext | null = null): ChatContextManager & { loadSpy: ReturnType<typeof vi.fn> } {
+  const loadSpy = vi.fn(async () => context)
+  return { loadContext: loadSpy, loadSpy }
+}
+
 describe('ChatSession', () => {
   afterEach(() => {
     vi.unstubAllGlobals()
   })
 
   it('routes through an injected router before requesting an answer', async () => {
-    const router: Router = {
-      route: vi.fn(async () => ({
-        paths: ['/cislunar-orbits/'],
-        context: { zh: {}, en: {} },
-        usedTwoPhase: true,
-        systemPrompt: 'retrieved context prompt',
-      })),
-    }
-    const completeJson = vi.fn(async () => ({
-      choices: [{ message: { content: '地月轨道回答' } }],
-    }))
-    const deps: ChatSessionDeps = {
-      router,
-      transport: {
-        completeJson,
-        completeStream: vi.fn(),
-      },
-      contextLoader: { loadSiteContext: vi.fn() },
-    }
+    const router = createRouterStub({ paths: ['/cislunar-orbits/'] })
+    const { engine, buildSpy } = createAnswerEngineStub({ systemPrompt: 'retrieved context prompt' })
+    const transport = createTransportStub({
+      json: vi.fn(async () => ({ choices: [{ message: { content: '地月轨道回答' } }] })),
+    })
+    const deps: ChatSessionDeps = { router, answerEngine: engine, transport, contextManager: createContextManagerStub() }
     const callbacks = createCallbacks()
 
     const session = new ChatSession(config, 'zh', siteIndex, deps)
-    await session.route('什么是地月轨道？', [{ role: 'user', content: '什么是地月轨道？' }], callbacks, new AbortController().signal)
+    await session.route(
+      '什么是地月轨道？',
+      [{ role: 'user', content: '什么是地月轨道？' }],
+      callbacks,
+      new AbortController().signal,
+    )
 
     expect(router.route).toHaveBeenCalledWith(expect.objectContaining({
       question: '什么是地月轨道？',
       locale: 'zh',
       flatIndex: [{ path: '/cislunar-orbits/', title: '地月轨道' }],
     }))
-    expect(completeJson).toHaveBeenCalledWith(
+    expect(buildSpy).toHaveBeenCalledWith(expect.objectContaining({
+      paths: ['/cislunar-orbits/'],
+      locale: 'zh',
+    }))
+    expect(transport.completeJson).toHaveBeenCalledWith(
       config.apiEndpoint,
       expect.objectContaining({
         model: 'answer-model',
@@ -97,40 +136,35 @@ describe('ChatSession', () => {
           { role: 'system', content: 'retrieved context prompt' },
         ]),
       }),
-      expect.any(AbortSignal)
+      expect.any(AbortSignal),
     )
     expect(callbacks.onComplete).toHaveBeenCalledWith('地月轨道回答', '')
     expect(callbacks.onError).not.toHaveBeenCalled()
   })
 
   it('falls back to full-index answering when an injected router fails', async () => {
-    const router: Router = {
-      route: vi.fn(async () => {
-        throw new Error('router unavailable')
-      }),
-    }
-    const completeJson = vi.fn(async () => ({
-      choices: [{ message: { content: '回退回答' } }],
-    }))
+    const router = createRouterStub({ paths: [], throw: new Error('router unavailable') })
+    const { engine } = createAnswerEngineStub({ systemPrompt: 'fallback system prompt with site index' })
+    const transport = createTransportStub({
+      json: vi.fn(async () => ({ choices: [{ message: { content: '回退回答' } }] })),
+    })
     const callbacks = createCallbacks()
 
     const session = new ChatSession(config, 'zh', siteIndex, {
       router,
-      transport: {
-        completeJson,
-        completeStream: vi.fn(),
-      },
+      answerEngine: engine,
+      transport,
+      contextManager: createContextManagerStub(),
     })
     await session.route('什么是地月轨道？', [], callbacks, new AbortController().signal)
 
-    const answerPayload = completeJson.mock.calls[0][1] as { messages: Array<{ content: string }> }
-    expect(answerPayload.messages[0].content).toContain('站点索引')
-    expect(answerPayload.messages[0].content).toContain('/cislunar-orbits/')
+    expect(engine.buildAnswerPhase).toHaveBeenCalledWith(expect.objectContaining({ paths: [] }))
+    expect(transport.completeJson).toHaveBeenCalled()
     expect(callbacks.onProcessStepComplete).toHaveBeenCalledWith('stepNav', '导览未成功')
     expect(callbacks.onComplete).toHaveBeenCalledWith('回退回答', '')
   })
 
-  it('caches loaded site context from the default context loader', async () => {
+  it('caches loaded site context from the default context manager', async () => {
     const context: SiteContext = {
       zh: { '/cislunar-orbits/': { title: '地月轨道', text: '轨道节选' } },
       en: {},
@@ -146,7 +180,7 @@ describe('ChatSession', () => {
     expect(fetchMock).toHaveBeenCalledWith('/ai-chat-context.json', expect.objectContaining({ cache: 'no-store' }))
   })
 
-  it('returns empty context when the default context loader cannot fetch context', async () => {
+  it('returns empty context when the default context manager cannot fetch context', async () => {
     vi.stubGlobal('fetch', vi.fn(async () => new Response('', { status: 500 })))
 
     const session = new ChatSession(config, 'zh', siteIndex)
@@ -155,34 +189,30 @@ describe('ChatSession', () => {
   })
 
   it('streams answer chunks through an injected transport', async () => {
-    const router: Router = {
-      route: vi.fn(async () => ({
-        paths: ['/cislunar-orbits/'],
-        context: null,
-        usedTwoPhase: true,
-        systemPrompt: 'stream prompt',
-      })),
-    }
+    const router = createRouterStub({ paths: ['/cislunar-orbits/'] })
+    const { engine } = createAnswerEngineStub({ systemPrompt: 'stream prompt', stream: true })
     const reader = createReader([
       'data: {"choices":[{"delta":{"reasoning_content":"思考"}}]}\n',
       'data: {"choices":[{"delta":{"content":"回答"}}]}\n',
     ])
-    const completeStream = vi.fn(async () => reader)
+    const transport = createTransportStub({
+      json: vi.fn(),
+      stream: vi.fn(async () => reader),
+    })
     const callbacks = createCallbacks()
 
     const session = new ChatSession({ ...config, stream: true }, 'zh', siteIndex, {
       router,
-      transport: {
-        completeJson: vi.fn(),
-        completeStream,
-      },
+      answerEngine: engine,
+      transport,
+      contextManager: createContextManagerStub(),
     })
     await session.route('什么是地月轨道？', [], callbacks, new AbortController().signal)
 
-    expect(completeStream).toHaveBeenCalledWith(
+    expect(transport.completeStream).toHaveBeenCalledWith(
       config.apiEndpoint,
       expect.objectContaining({ stream: true }),
-      expect.any(AbortSignal)
+      expect.any(AbortSignal),
     )
     expect(callbacks.onChunk).toHaveBeenLastCalledWith({ reasoning_content: '思考', content: '回答' })
     expect(callbacks.onComplete).toHaveBeenCalledWith('回答', '思考')
@@ -190,22 +220,19 @@ describe('ChatSession', () => {
 
   it('propagates abort errors from an injected router', async () => {
     const abortError = new DOMException('Aborted', 'AbortError')
-    const router: Router = {
-      route: vi.fn(async () => {
-        throw abortError
-      }),
-    }
+    const router = createRouterStub({ paths: [], throw: abortError })
     const callbacks = createCallbacks()
 
     const session = new ChatSession(config, 'zh', siteIndex, {
       router,
-      transport: {
-        completeJson: vi.fn(),
-        completeStream: vi.fn(),
-      },
+      answerEngine: createAnswerEngineStub().engine,
+      transport: createTransportStub(),
+      contextManager: createContextManagerStub(),
     })
 
-    await expect(session.route('取消请求', [], callbacks, new AbortController().signal)).rejects.toBe(abortError)
+    await expect(
+      session.route('取消请求', [], callbacks, new AbortController().signal),
+    ).rejects.toBe(abortError)
     expect(callbacks.onError).not.toHaveBeenCalled()
   })
 
@@ -226,14 +253,17 @@ describe('ChatSession', () => {
   })
 
   it('emits emptyReply error when non-streamed response has no content', async () => {
-    const completeJson = vi.fn(async () => ({
-      choices: [{ message: { content: '' } }],
-    }))
+    const transport = createTransportStub({
+      json: vi.fn(async () => ({ choices: [{ message: { content: '' } }] })),
+    })
     const callbacks = createCallbacks()
 
-    const session = new ChatSession({ ...config, twoPhaseRetrieval: false }, 'zh', siteIndex, {
-      transport: { completeJson, completeStream: vi.fn() },
-    })
+    const session = new ChatSession(
+      { ...config, twoPhaseRetrieval: false },
+      'zh',
+      siteIndex,
+      { transport, answerEngine: createAnswerEngineStub().engine, contextManager: createContextManagerStub() },
+    )
 
     await session.route('空问题', [], callbacks, new AbortController().signal)
 
@@ -245,16 +275,14 @@ describe('ChatSession', () => {
     const reader = createReader([
       'data: {"choices":[{"delta":{"reasoning_content":"思考"}}]}\n',
     ])
-    const completeStream = vi.fn(async () => reader)
+    const transport = createTransportStub({ json: vi.fn(), stream: vi.fn(async () => reader) })
     const callbacks = createCallbacks()
 
     const session = new ChatSession(
       { ...config, stream: true, twoPhaseRetrieval: false },
       'zh',
       siteIndex,
-      {
-        transport: { completeJson: vi.fn(), completeStream },
-      },
+      { transport, answerEngine: createAnswerEngineStub().engine, contextManager: createContextManagerStub() },
     )
 
     await session.route('空问题', [], callbacks, new AbortController().signal)
@@ -263,41 +291,30 @@ describe('ChatSession', () => {
     expect(callbacks.onComplete).not.toHaveBeenCalled()
   })
 
-  it('trims history to maxHistoryTurns when sending to the answer phase', async () => {
-    const router: Router = {
-      route: vi.fn(async () => ({
-        paths: ['/cislunar-orbits/'],
-        context: { zh: {}, en: {} },
-        usedTwoPhase: true,
-        systemPrompt: 'prompt',
-      })),
-    }
-    const completeJson = vi.fn(async () => ({
-      choices: [{ message: { content: '回答' } }],
-    }))
-    const callbacks = createCallbacks()
-
-    const sessionConfig = { ...config, maxHistoryTurns: 1 }
-    const session = new ChatSession(sessionConfig, 'zh', siteIndex, {
-      router,
-      transport: { completeJson, completeStream: vi.fn() },
+  it('forwards the untrimmed history to the answer engine', async () => {
+    const router = createRouterStub({ paths: ['/cislunar-orbits/'] })
+    const { engine, buildSpy } = createAnswerEngineStub({ systemPrompt: 'prompt' })
+    const transport = createTransportStub({
+      json: vi.fn(async () => ({ choices: [{ message: { content: '回答' } }] })),
     })
 
-    // 4 user messages = 4 history items. maxHistoryTurns=1 means max 2 kept.
-    const longHistory = [
-      { role: 'user' as const, content: 'msg1' },
-      { role: 'assistant' as const, content: 'ans1' },
-      { role: 'user' as const, content: 'msg2' },
-      { role: 'assistant' as const, content: 'ans2' },
+    const longHistory: Message[] = [
+      { role: 'user', content: 'msg1' },
+      { role: 'assistant', content: 'ans1' },
+      { role: 'user', content: 'msg2' },
+      { role: 'assistant', content: 'ans2' },
     ]
+    const session = new ChatSession(
+      { ...config, maxHistoryTurns: 1 },
+      'zh',
+      siteIndex,
+      { router, answerEngine: engine, transport, contextManager: createContextManagerStub() },
+    )
 
-    await session.route('follow up', longHistory, callbacks, new AbortController().signal)
+    await session.route('follow up', longHistory, createCallbacks(), new AbortController().signal)
 
-    // The router receives the full history; the answer phase trims to last 2.
-    const answerPayload = completeJson.mock.calls[0][1] as { messages: Array<{ role: string; content: string }> }
-    // system + last 2 history messages = 3 total
-    expect(answerPayload.messages.length).toBe(3)
-    expect(answerPayload.messages[1].content).toBe('msg2')
-    expect(answerPayload.messages[2].content).toBe('ans2')
+    // ChatSession no longer trims history; the answer engine owns that. The
+    // session passes the full history through, leaving trimming to the engine.
+    expect(buildSpy).toHaveBeenCalledWith(expect.objectContaining({ history: longHistory }))
   })
 })

@@ -7,12 +7,44 @@
  * with a library SSE client when desired.
  */
 import { parseSseLine } from './chat-prompts'
-import type { SseDelta } from './chat-types'
+import type { RouteCallbacks, SseDelta } from './chat-types'
 
 export interface StreamCallbacks {
   onChunk(delta: SseDelta): void
   onComplete(): void
   onError(e: Error): void
+}
+
+/** Run an answer SSE stream to completion, dispatching RouteCallbacks for
+ *  content/reasoning accumulation, completion, and errors. Used by ChatSession
+ *  to keep the facade free of stream-buffer bookkeeping. */
+export async function runAnswerStream(
+  reader: ReadableStreamDefaultReader<Uint8Array>,
+  callbacks: RouteCallbacks,
+  signal?: AbortSignal,
+): Promise<void> {
+  let content = ''
+  let reasoning = ''
+  await decodeStream(
+    reader,
+    {
+      onChunk: (delta) => {
+        if (delta.reasoning_content) reasoning += delta.reasoning_content
+        if (delta.content) content += delta.content
+        callbacks.onChunk({ reasoning_content: reasoning, content })
+      },
+      onComplete: () => {
+        const trimmed = content.trim()
+        if (!trimmed) {
+          callbacks.onError('emptyReply')
+          return
+        }
+        callbacks.onComplete(trimmed, reasoning)
+      },
+      onError: (e) => callbacks.onError('networkError', e.message),
+    },
+    signal,
+  )
 }
 
 /**
