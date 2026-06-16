@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-15
+lastUpdated: 2026-06-16
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-15
 
 | Date | Title |
 |------|-------|
+| 6-15 | [NASAs SpaceX CRS-34 Dragon Returns Packed with Space Station Science](./2026-06-15-nasa-spacex-crs-34-dragon-returns-space-station-science/) |
 | 6-15 | [Lijian-1 Y14 Lofts 8 Satellites as Chinese Commercial Rocket Passes 100 Orbits](./2026-06-15-lijian-1-y14-8-satellites-100-milestone/) |
 | 6-15 | [Long March 12 Set for June 17 Relaunch from Commercial Pad No. 2](./2026-06-15-long-march-12-relaunch-commercial-pad-2/) |
 | 6-14 | [Citic Securities on SpaceX's $1.75T IPO: A New Valuation Anchor for Aerospace](./2026-06-14-citic-spacex-ipo-valuation-anchor/) |
