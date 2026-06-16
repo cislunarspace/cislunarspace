@@ -3,6 +3,7 @@ import path from 'path'
 import { buildGlossaryScan } from '../intakes/glossary-intake.ts'
 import { buildTranslationGapIntake as getTranslationGapReport } from '../intakes/translation-gap-intake.ts'
 import type { MarkdownFile } from '../utils/markdown-walker.ts'
+import { writeArtifact } from './write-artifact.ts'
 
 export function generateGlossaryArtifacts(files: MarkdownFile[], outDir: string): ReturnType<typeof buildGlossaryScan> {
   const glossaryScan = buildGlossaryScan(files)
@@ -15,11 +16,7 @@ export function generateGlossaryArtifacts(files: MarkdownFile[], outDir: string)
     }
   }
 
-  fs.writeFileSync(
-    path.join(outDir, 'sidebar-glossary.auto.json'),
-    JSON.stringify(glossaryScan, null, 2),
-  )
-  console.log('Generated sidebar-glossary.auto.json')
+  writeArtifact(path.join(outDir, 'sidebar-glossary.auto.json'), glossaryScan, { log: console.log, trailingNewline: false })
 
   return glossaryScan
 }
