@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-17 | [蓝色起源承诺年内复飞新格伦 5月底发射台爆炸后已动工重建](./2026-06-17-blue-origin-new-glenn-2026-return-to-flight/) |
 | 6-16 | [JWST 揭示 WASP-121b 极端天气：风速 11000 英里/小时 夜间下起红蓝宝石雨](./2026-06-16-jwst-wasp-121b-extreme-weather-rubies-sapphires/) |
 | 6-16 | [JWST 揭示 WASP-94A b 大气昼夜循环：晨多云 暮晴朗](./2026-06-16-jwst-wasp-94a-b-day-night-atmosphere/) |
 | 6-17 | [神舟二十三号发射升空 3 名航天员进驻天宫空间站](./2026-06-17-shenzhou-23-tiangong-launch/) |

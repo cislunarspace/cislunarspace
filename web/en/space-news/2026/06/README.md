@@ -13,6 +13,7 @@ lastUpdated: 2026-06-18
 
 | Date | Title |
 |------|-------|
+| 6-17 | [Blue Origin Pledges New Glenn Return to Flight This Year After May Pad Explosion](./2026-06-17-blue-origin-new-glenn-2026-return-to-flight/) |
 | 6-16 | [JWST forecasts extreme weather on exoplanet WASP-121b： 11,000-mph winds and nighttime rains of rubies and sapphires](./2026-06-16-jwst-wasp-121b-extreme-weather-rubies-sapphires/) |
 | 6-16 | [JWST reveals cloudy mornings and clear evenings on distant hot Jupiter WASP-94A b](./2026-06-16-jwst-wasp-94a-b-day-night-atmosphere/) |
 | 6-17 | [Shenzhou-23 Launches to Tiangong, Three Astronauts Begin Long-Duration Mission](./2026-06-17-shenzhou-23-tiangong-launch/) |
