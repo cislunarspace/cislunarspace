@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-16 | [钱德拉X射线望远镜捕捉M87黑洞喷流时序演化最精细图像](./2026-06-16-chandra-m87-black-hole-jet/) |
 | 6-16 | [SpaceX Dragon 货运飞船准备脱离空间站返回地球](./2026-06-16-spacex-dragon-cargo-undocking-return/) |
 | 6-15 | [JAXA H3 火箭复飞成功 30构型试验飞行器精确入轨](./2026-06-15-jaxa-h3-return-to-flight/) |
 | 6-16 | [钱德拉X射线观测14年数据：超新星残骸亮度异常波动 颠覆传统认知](./2026-06-16-chandra-supernova-xray-variations/) |
