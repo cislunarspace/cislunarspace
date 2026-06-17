@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-16 | [亚马逊Kuiper星座发射受阻：数百颗卫星排队等待运力](./2026-06-16-amazon-kuiper-launch-bottleneck/) |
 | 6-16 | [中国朱雀二号E火箭上面级在近地轨道解体 距星链星座运行区仅数百米](./2026-06-16-chinese-zhuque-2e-debris-near-starlink/) |
 | 6-16 | [钱德拉X射线望远镜捕捉M87黑洞喷流时序演化最精细图像](./2026-06-16-chandra-m87-black-hole-jet/) |
 | 6-16 | [SpaceX Dragon 货运飞船准备脱离空间站返回地球](./2026-06-16-spacex-dragon-cargo-undocking-return/) |
