@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-15 | [韦伯太空望远镜解开「小红点」之谜：早期宇宙黑洞驱动的能量源](./2026-06-15-jwst-little-red-dots-blackhole-stars/) |
 | 6-17 | [SpaceX 猎鹰9号清晨发射3颗巨型BlueBird直连蜂窝卫星](./2026-06-17-spacex-bluebird-direct-to-cell-launch/) |
 | 6-16 | [亚马逊Kuiper星座发射受阻：数百颗卫星排队等待运力](./2026-06-16-amazon-kuiper-launch-bottleneck/) |
 | 6-16 | [中国朱雀二号E火箭上面级在近地轨道解体 距星链星座运行区仅数百米](./2026-06-16-chinese-zhuque-2e-debris-near-starlink/) |

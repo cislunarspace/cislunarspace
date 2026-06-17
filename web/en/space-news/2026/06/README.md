@@ -13,6 +13,7 @@ lastUpdated: 2026-06-17
 
 | Date | Title |
 |------|-------|
+| 6-15 | [JWST Uncovers Nature of Little Red Dots： Black-Hole-Driven Energy Sources in Early Universe](./2026-06-15-jwst-little-red-dots-blackhole-stars/) |
 | 6-17 | [SpaceX Falcon 9 to Launch 3 Giant BlueBird Direct-to-Cell Satellites Early Wednesday](./2026-06-17-spacex-bluebird-direct-to-cell-launch/) |
 | 6-16 | [Amazon Kuiper Constellation Faces Launch Bottleneck： Hundreds of Satellites Await Capacity](./2026-06-16-amazon-kuiper-launch-bottleneck/) |
 | 6-16 | [Chinese Zhuque-2E Upper Stage Breaks Apart in LEO, Spawning 100-150 Debris Pieces Near Starlink](./2026-06-16-chinese-zhuque-2e-debris-near-starlink/) |
