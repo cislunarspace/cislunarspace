@@ -13,16 +13,22 @@
 import { defineTaxonomy } from './define'
 import { flatTaxonomyNodes, NAVBAR_ROOT_ID, WAYFINDING_ROOT_ID, GLOSSARY_ROOT_ID } from './data'
 import { sidebarSections } from '../sidebar/data.ts'
+import { createViewEngine } from './view-engine'
 
 const { taxonomy } = defineTaxonomy({
   flatNodes: flatTaxonomyNodes,
   sections: sidebarSections,
 })
 
-export { taxonomy, NAVBAR_ROOT_ID, WAYFINDING_ROOT_ID, GLOSSARY_ROOT_ID }
+/** Shared engine instance bound to the production taxonomy module. */
+const engine = createViewEngine(taxonomy)
+
+export { taxonomy, engine, NAVBAR_ROOT_ID, WAYFINDING_ROOT_ID, GLOSSARY_ROOT_ID }
 
 export type { Locale, NodeId, NodeKind, TaxonomyModule, TaxonomyNode } from './types'
 export { TaxonomyValidationError } from './validate'
 export { createTaxonomyModule } from './module'
 export { validateTaxonomy } from './validate'
 export { defineTaxonomy } from './define'
+export { createViewEngine } from './view-engine'
+export type { TaxonomyViewEngine, ViewQuery, ViewNode, ViewSelection } from './view-engine'

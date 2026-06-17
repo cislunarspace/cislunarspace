@@ -1,28 +1,14 @@
 /**
  * Sidebar sections adapter — derives the per-locale VueSidebarItem tree
- * from the unified taxonomy module (the section / page / group / index
- * kinds live alongside navbar / wayfinding / glossary / news-category
- * in the same `taxonomy` instance, partitioned by `kind`).
+ * from the unified taxonomy module via the TaxonomyViewEngine.
  *
- * Replaces the inline `buildSectionChildren` / `buildSectionSidebar`
- * helpers that used to live in `sidebar/config.ts`. Behaviour is preserved
- * byte-for-byte (snapshot-verified by tests).
+ * The engine owns traversal, locale filtering, and path/label resolution.
+ * This adapter is a declarative projector: a pure function that maps each
+ * ViewNode (+ its already-built children) to a sidebar entry.
  */
-import { taxonomy } from '..'
-import type { Locale, NodeId, TaxonomyNode } from '../types'
-
-/**
- * True when the node has *any* children in the source taxonomy, regardless
- * of locale visibility. The baseline sidebar builder emits a group node
- * whenever the source entry had `children: [...]`, even if every child is
- * locale-gated out — this helper preserves that quirk.
- */
-function hasSourceChildren(parentId: NodeId): boolean {
-  for (const node of taxonomy.all()) {
-    if (node.parentId === parentId) return true
-  }
-  return false
-}
+import { engine } from '..'
+import type { Locale, NodeId } from '../types'
+import type { ViewNode } from '../view-engine'
 
 export interface VueSidebarItem {
   text: string
@@ -31,89 +17,89 @@ export interface VueSidebarItem {
   children?: Array<string | VueSidebarItem>
 }
 
-function buildChildren(parentId: NodeId, locale: Locale): Array<string | VueSidebarItem> {
-  const children = taxonomy.children(parentId, locale)
-  const result: Array<string | VueSidebarItem> = []
+type SidebarEntry = string | VueSidebarItem
 
-  for (const child of children) {
-    if (child.kind === 'index') {
-      // Index nodes contribute the parent's path as a plain string entry.
-      const path = child.path[locale]
-      if (path) result.push(path)
-      continue
-    }
-
-    const label = child.label[locale]
-    const childPath = child.path[locale]
-    // Use source-level "is this a group?" check rather than locale-filtered
-    // child count, to preserve baseline behaviour where a group whose
-    // children are all locale-gated out still renders as an empty group.
-    const isGroup = hasSourceChildren(child.id)
-    const collapsible = pickCollapsible(child)
-
-    if (child.kind === 'group' && childPath === null) {
-      // Display-only group header (no link of its own).
-      result.push({
-        text: label,
-        collapsible: collapsible ?? true,
-        children: isGroup ? buildChildren(child.id, locale) : [],
-      })
-      continue
-    }
-
-    if (isGroup && childPath) {
-      result.push({
-        text: label,
-        link: childPath,
-        collapsible: collapsible ?? true,
-        children: buildChildren(child.id, locale),
-      })
-    } else if (childPath) {
-      result.push(childPath)
-    }
-  }
-
-  return result
-}
-
-function pickCollapsible(node: TaxonomyNode): boolean | undefined {
-  const value = node.meta?.collapsible
+function pickCollapsible(vn: ViewNode): boolean | undefined {
+  const value = vn.node.meta?.collapsible
   return typeof value === 'boolean' ? value : undefined
 }
 
 /**
+ * Projector for `engine.buildTree`. Maps a ViewNode to a sidebar entry:
+ *   - index nodes     → plain string path (the parent's index URL)
+ *   - group, no path  → display-only header with children
+ *   - group, with link → collapsible group with link + children
+ *   - page, with link → plain string path
+ *   - anything else   → null (omitted)
+ *
+ * The `children` argument is the recursively built subtree; for groups
+ * this replaces the previous `hasSourceChildren` + manual recursion.
+ */
+function sidebarProjector(
+  vn: ViewNode,
+  children: SidebarEntry[],
+): SidebarEntry | null {
+  if (vn.node.kind === 'index') {
+    return vn.path
+  }
+
+  const collapsible = pickCollapsible(vn)
+
+  if (vn.node.kind === 'group') {
+    if (vn.path === null) {
+      return {
+        text: vn.label,
+        collapsible: collapsible ?? true,
+        children,
+      }
+    }
+    return {
+      text: vn.label,
+      link: vn.path,
+      collapsible: collapsible ?? true,
+      children,
+    }
+  }
+
+  // Leaf page
+  return vn.path
+}
+
+/**
  * Build the VueSidebarItem tree for one section (e.g. `cislunar-orbits`)
- * in one locale. Returns the same shape that `sidebar/config.ts` used to
- * produce inline.
+ * in one locale.
  */
 export function buildSectionSidebar(sectionId: NodeId, locale: Locale): VueSidebarItem {
-  const section = taxonomy.get(sectionId)
-  const basePath = section.path[locale]
-  if (!basePath) {
+  const query = engine.fromRoot(sectionId).withLocale(locale)
+  const root = query.root()
+
+  if (!root || !root.path) {
     return {
-      text: section.label[locale],
+      text: root?.label ?? sectionId,
       collapsible: false,
       children: [],
     }
   }
 
   return {
-    text: section.label[locale],
+    text: root.label,
     collapsible: false,
-    children: [basePath, ...buildChildren(sectionId, locale)],
+    children: [root.path, ...query.buildTree(sidebarProjector)],
   }
 }
 
 /**
  * Build a map of section-id → per-locale VueSidebarItem for every
- * `kind: 'section'` node in the taxonomy. Convenience for `sidebar/config.ts`.
+ * `kind: 'section'` node in the taxonomy.
  */
 export function buildAllSectionSidebars(): Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> {
   const result: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {}
-  for (const section of taxonomy.byKind('section', null)) {
-    result[section.id] = {
-      zh: buildSectionSidebar(section.id, 'zh'),
-      en: buildSectionSidebar(section.id, 'en'),
+  const sections = engine.fromRoot(null).withLocale('zh').list()
+  for (const vn of sections) {
+    if (vn.node.kind !== 'section') continue
+    result[vn.node.id] = {
+      zh: buildSectionSidebar(vn.node.id, 'zh'),
+      en: buildSectionSidebar(vn.node.id, 'en'),
     }
   }
   return result

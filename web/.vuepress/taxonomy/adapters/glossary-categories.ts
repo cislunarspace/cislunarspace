@@ -1,8 +1,11 @@
 /**
  * Glossary categories adapter — derives the historical `glossaryCategories`
- * shape from the unified taxonomy module.
+ * shape from the unified taxonomy module via the TaxonomyViewEngine.
+ *
+ * The engine provides locale-filtered, sorted children of the glossary root.
+ * The projection extracts slug, bilingual labels, and sibling order.
  */
-import { GLOSSARY_ROOT_ID, taxonomy } from '..'
+import { engine, GLOSSARY_ROOT_ID } from '..'
 import type { Locale, TaxonomyNode } from '../types'
 
 export interface GlossaryCategoryMeta {
@@ -38,12 +41,15 @@ function slugFor(node: TaxonomyNode): string {
 }
 
 export function buildGlossaryCategories(): GlossaryCategoryMeta[] {
-  return taxonomy.children(GLOSSARY_ROOT_ID, 'zh')
-    .filter(node => node.kind === 'glossary-category')
-    .map(node => ({
-      slug: slugFor(node),
-      label: { zh: node.label.zh, en: node.label.en },
-      order: node.order,
+  return engine
+    .fromRoot(GLOSSARY_ROOT_ID)
+    .withLocale('zh')
+    .filter((vn) => vn.node.kind === 'glossary-category')
+    .list()
+    .map((vn) => ({
+      slug: slugFor(vn.node),
+      label: { zh: vn.node.label.zh, en: vn.node.label.en },
+      order: vn.node.order,
     }))
 }
 
