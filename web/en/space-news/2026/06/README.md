@@ -13,6 +13,7 @@ lastUpdated: 2026-06-17
 
 | Date | Title |
 |------|-------|
+| 6-15 | [CAS Space Pushes for STAR Market IPO, Plans to Raise Over 4 Billion Yuan as Kinetica-1 Manifest Fills for 2026](./2026-06-15-cas-space-ipo-kinetica-1-booked/) |
 | 6-16 | [Long March 3B/E Returns to Flight After Five Months With Shijian-31](./2026-06-16-long-march-3be-returns-to-flight-shijian-31/) |
 | 6-15 | [OHB Begins Assembly of ESA-JAXA RAMSES Apophis Probe, Targeting Spring 2028 Launch](./2026-06-15-ohb-starts-ramses-apophis-assembly/) |
 | 6-15 | [JWST Uncovers Nature of Little Red Dots： Black-Hole-Driven Energy Sources in Early Universe](./2026-06-15-jwst-little-red-dots-blackhole-stars/) |
