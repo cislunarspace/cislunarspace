@@ -9,9 +9,6 @@
  *   npx tsx .vuepress/build/check-space-news-frontmatter.ts --max-severity error
  */
 
-import fs from 'fs'
-import path from 'path'
-import { fileURLToPath } from 'url'
 import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.ts'
 import type { MarkdownFile } from '../utils/markdown-walker.ts'
 import type { Frontmatter } from '../utils/frontmatter-parser.ts'
@@ -23,25 +20,13 @@ import type {
   ValidationResult,
 } from './check-space-news-frontmatter-types.ts'
 import { runChecker } from './checker-runner'
-
-// ── Constants ────────────────────────────────────────────────────────────────
+import { fileURLToPath } from 'node:url'
+import path from 'node:path'
 
 const SPACE_NEWS_RE = /^(?:en\/)?space-news\/\d{4}\/\d{2}\/(\d{4}-\d{2}-\d{2}-.+)\.md$/
-const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
 const PERMALINK_DATE_RE = /\/space-news\/\d{4}\/\d{2}\/(\d{4}-\d{2}-\d{2})-/
 
 const SEVERITY_RANK: Record<Severity, number> = { warning: 0, error: 1 }
-
-// ── Terminal colors ──────────────────────────────────────────────────────────
-
-const C = {
-  reset: '\x1b[0m',
-  dim: '\x1b[2m',
-  red: '\x1b[31m',
-  yellow: '\x1b[33m',
-  cyan: '\x1b[36m',
-  bold: '\x1b[1m',
-} as const
 
 // ── Article info extraction ──────────────────────────────────────────────────
 
@@ -389,10 +374,10 @@ export function computeExitCode(issues: FrontmatterIssue[], maxSeverity: Severit
 
 // ── Terminal formatting ──────────────────────────────────────────────────────
 
-export function formatTerminalOutput(result: ValidationResult): { summary: string; details: string[] } {
+export function formatTerminalOutput(result: ValidationResult, _args?: unknown): { summary: string; details: string[] } {
   if (result.total === 0) {
     return {
-      summary: `${C.cyan}No Space News frontmatter issues found.${C.reset}`,
+      summary: 'No Space News frontmatter issues found.',
       details: [],
     }
   }
@@ -400,7 +385,7 @@ export function formatTerminalOutput(result: ValidationResult): { summary: strin
   const summaryParts = result.byRule.map(
     r => `  ${r.ruleId}: ${r.count} [${r.severity}]`,
   )
-  const summary = `${C.bold}${result.total} issue(s) found:${C.reset}\n${summaryParts.join('\n')}`
+  const summary = `${result.total} issue(s) found:\n${summaryParts.join('\n')}`
 
   // Group by dimension
   const byDimension = new Map<CheckDimension, FrontmatterIssue[]>()
@@ -412,10 +397,9 @@ export function formatTerminalOutput(result: ValidationResult): { summary: strin
 
   const details: string[] = []
   for (const [dim, dimIssues] of byDimension) {
-    details.push(`\n  ${C.bold}── ${dim} ──${C.reset}`)
+    details.push(`\n  ── ${dim} ──`)
     for (const i of dimIssues) {
-      const sevColor = i.severity === 'error' ? C.red : C.yellow
-      details.push(`  ${sevColor}[${i.severity}]${C.reset} ${i.filePath}: ${i.message}`)
+      details.push(`  [${i.severity}] ${i.filePath}: ${i.message}`)
     }
   }
 
@@ -474,7 +458,7 @@ if (isMain) {
     scriptDir: __dirname,
     scan: (files) => scanSpaceNewsFrontmatter(files),
     formatTerminal: formatTerminalOutput,
-    buildJsonReport,
+    buildJsonReport: buildJsonReport,
     reportPath: 'space-news-frontmatter-report.json',
     computeExitCode: (result, maxSeverity) => computeExitCode(result.issues, maxSeverity),
   })

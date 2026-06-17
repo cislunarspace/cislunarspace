@@ -5,12 +5,16 @@
  * and classifies each finding by zone (frontmatter, heading, body, etc.)
  * with configurable allowlist support.
  *
- * @see https://github.com/cislunarspace/cislunarspace/issues/126
+ * Usage:
+ *   npx tsx .vuepress/build/check-en-chinese.ts
+ *   npx tsx .vuepress/build/check-en-chinese.ts --max-severity error
+ *   npx tsx .vuepress/build/check-en-chinese.ts --json
+ *   npx tsx .vuepress/build/check-en-chinese.ts --json --output
  */
 
-import fs from 'fs'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { walkSiteMarkdown } from '../utils/markdown-walker.ts'
 import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.ts'
 import type { MarkdownFile } from '../utils/markdown-walker.ts'
@@ -22,14 +26,14 @@ import type {
   Severity,
   Zone,
 } from './check-en-chinese-types.ts'
+import { runChecker } from './checker-runner'
+import type { Severity as RunnerSeverity } from './checker-runner'
 
 // ── CJK detection regex ─────────────────────────────────────────────────────
-// CJK Unified Ideographs, Extension A, Compat, CJK punctuation, fullwidth forms
 
 const CJK_RE = /[一-鿿㐀-䶿豈-﫿　-〿！-～]/g
 
 // ── References heading pattern ───────────────────────────────────────────────
-// Matches ## References, ## Source, ## Bibliography, ## 参考文献, ## 参考资料, ## 来源
 
 const REFERENCES_HEADING_RE = /^#{1,3}\s+(References?|Sources?|Bibliography|参考文献|参考资料|来源)\s*$/i
 
@@ -49,10 +53,6 @@ const KNOWN_EN_AUTHORS = /^(\s*)(Tianjiang Shuo|CislunarSpace)(\s*)$/
 
 // ── Core scanning ────────────────────────────────────────────────────────────
 
-/**
- * Scan a single markdown content string for Chinese characters.
- * Returns all findings with zone classification, severity, and allowlist status.
- */
 export function scanContent(
   content: string,
   relPath: string,
@@ -61,7 +61,6 @@ export function scanContent(
   const findings: Finding[] = []
   const lines = content.split('\n')
 
-  // Build allowlist lookup: file → Set of line numbers
   const allowlistByFile = new Map<string, Map<number, AllowlistEntry>>()
   for (const entry of allowlist) {
     if (!allowlistByFile.has(entry.file)) {
@@ -71,7 +70,6 @@ export function scanContent(
   }
   const fileAllowlist = allowlistByFile.get(relPath) ?? new Map<number, AllowlistEntry>()
 
-  // Track which allowlist lines were actually matched
   const matchedAllowlistLines = new Set<number>()
 
   let inFrontmatter = false
@@ -82,9 +80,7 @@ export function scanContent(
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]
-    const lineNum = i + 1 // 1-indexed
-
-    // ── Frontmatter state machine ──────────────────────────────────────────
+    const lineNum = i + 1
 
     if (line.trim() === '---') {
       frontmatterDelimiterCount++
@@ -95,7 +91,6 @@ export function scanContent(
         continue
       } else if (frontmatterDelimiterCount === 2) {
         inFrontmatter = false
-        // Process collected frontmatter lines
         processFrontmatterLines(fmLines, fmStartLine, relPath, findings, fileAllowlist, matchedAllowlistLines)
         continue
       }
@@ -106,18 +101,13 @@ export function scanContent(
       continue
     }
 
-    // ── Body state machine ─────────────────────────────────────────────────
-
-    // Skip empty lines
     if (line.trim() === '') continue
 
-    // Check for references heading
     if (REFERENCES_HEADING_RE.test(line)) {
       currentZone = 'references'
       continue
     }
 
-    // Check for any heading (switches zone)
     const headingMatch = line.match(/^(#{1,3})\s+(.+)$/)
     if (headingMatch) {
       const headingText = headingMatch[2]
@@ -126,7 +116,6 @@ export function scanContent(
       continue
     }
 
-    // Scan link text and image paths first (more specific zones)
     const imgMatch = line.match(/!\[([^\]]*)\]\(([^)]*)\)/)
     if (imgMatch) {
       const altText = imgMatch[1]
@@ -140,7 +129,7 @@ export function scanContent(
     let linkMatch: RegExpExecArray | null
     while ((linkMatch = linkRe.exec(line)) !== null) {
       const linkText = linkMatch[1]
-      const linkStart = linkMatch.index + 1 // +1 for the opening bracket
+      const linkStart = linkMatch.index + 1
       if (currentZone === 'references') {
         scanLine(linkText, lineNum, line, relPath, 'references', findings, fileAllowlist, matchedAllowlistLines, linkStart)
       } else {
@@ -148,15 +137,12 @@ export function scanContent(
       }
     }
 
-    // Scan the full line for body/references zone, stripping out link/image patterns
-    // to avoid double-counting Chinese already captured above
     if (currentZone !== 'heading') {
-      const stripped = line.replace(/!\[([^\]]*)\]\([^)]*\)/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '')
+      const stripped = line.replace(/!\[([^\]]*)\]\([^)]*\)/g, '').replace(/\[([^\]]+)\]\(([^)]*)\)/g, '')
       scanLine(stripped, lineNum, line, relPath, currentZone, findings, fileAllowlist, matchedAllowlistLines)
     }
   }
 
-  // Check for stale allowlist entries
   for (const [lineNum, entry] of fileAllowlist) {
     if (!matchedAllowlistLines.has(lineNum)) {
       findings.push({
@@ -172,7 +158,6 @@ export function scanContent(
     }
   }
 
-  // Deduplicate: one finding per (line, zone) — keep the first match
   const seen = new Set<string>()
   const deduped: Finding[] = []
   for (const f of findings.sort((a, b) => a.line - b.line || a.column - b.column)) {
@@ -198,18 +183,15 @@ function processFrontmatterLines(
 ): void {
   for (let i = 0; i < fmLines.length; i++) {
     const line = fmLines[i]
-    const lineNum = startLine + 1 + i // +1 to skip the opening ---
+    const lineNum = startLine + 1 + i
 
-    // Match top-level fields: key: value
     const topMatch = line.match(/^([\w][\w.-]*):\s*(.*)$/)
     if (!topMatch) continue
 
     const key = topMatch[1]
     const value = topMatch[2].trim()
 
-    // Handle wechatShare nested fields
     if (key === 'wechatShare') {
-      // Scan subsequent indented lines for desc
       for (let j = i + 1; j < fmLines.length; j++) {
         const nestedMatch = fmLines[j].match(/^\s+([\w][\w.-]*):\s*(.*)$/)
         if (!nestedMatch) break
@@ -227,12 +209,9 @@ function processFrontmatterLines(
     if (!zone) continue
 
     if (zone === 'frontmatter-keywords') {
-      // Keywords may be a multi-line list: subsequent lines start with "  - "
-      // The inline value might be "[keyword1, keyword2]" or empty
       if (value.startsWith('[')) {
         scanLine(value, lineNum, line, relPath, zone, findings, fileAllowlist, matchedAllowlistLines)
       }
-      // Check subsequent list items
       for (let j = i + 1; j < fmLines.length; j++) {
         const itemMatch = fmLines[j].match(/^\s+-\s+(.+)$/)
         if (!itemMatch) break
@@ -244,7 +223,6 @@ function processFrontmatterLines(
     }
 
     if (value) {
-      // Author zone: check for known English patterns first
       if (zone === 'frontmatter-author' && KNOWN_EN_AUTHORS.test(value)) {
         continue
       }
@@ -266,17 +244,14 @@ function scanLine(
   matchedAllowlistLines: Set<number>,
   columnOffset = 0,
 ): void {
-  // Reset regex lastIndex
   CJK_RE.lastIndex = 0
   let match: RegExpExecArray | null
 
   while ((match = CJK_RE.exec(text)) !== null) {
-    // Capture the full CJK run starting at this position
     const cjkRun = text.slice(match.index).match(/^[一-鿿㐀-䶿-䶿豈-﫿　-〿！-～]+/)
     const cjkText = cjkRun ? cjkRun[0] : match[0]
-    const column = match.index + 1 + columnOffset // 1-indexed
+    const column = match.index + 1 + columnOffset
 
-    // Check allowlist: any entry for this file+line whose text appears in the full line
     const allowlistEntry = fileAllowlist.get(lineNum)
     const isAllowlisted = allowlistEntry !== undefined && fullLine.includes(allowlistEntry.text)
 
@@ -292,10 +267,9 @@ function scanLine(
         rule: 'allowlisted',
         allowlisted: true,
       })
-      return // skip further CJK findings on this line for this zone
+      return
     }
 
-    // Auto-whitelist references zone
     if (zone === 'references') {
       findings.push({
         file: relPath,
@@ -310,7 +284,6 @@ function scanLine(
       continue
     }
 
-    // Determine rule and severity
     const rule = zoneToRule(zone)
     findings.push({
       file: relPath,
@@ -323,7 +296,6 @@ function scanLine(
       allowlisted: false,
     })
 
-    // Skip past the rest of the CJK run
     CJK_RE.lastIndex = match.index + cjkText.length
   }
 }
@@ -338,9 +310,6 @@ function zoneToRule(zone: Zone): Rule {
 
 // ── Multi-file scanner ───────────────────────────────────────────────────────
 
-/**
- * Scan all English markdown files and produce a report.
- */
 export function scanEnglishFiles(
   files: MarkdownFile[],
   allowlist: AllowlistEntry[] = [],
@@ -374,90 +343,38 @@ export function scanEnglishFiles(
   }
 }
 
-// ── CLI ──────────────────────────────────────────────────────────────────────
+// ── Report helpers ───────────────────────────────────────────────────────────
 
-const C = {
-  reset: '\x1b[0m',
-  dim: '\x1b[2m',
-  red: '\x1b[31m',
-  yellow: '\x1b[33m',
-  cyan: '\x1b[36m',
-  bold: '\x1b[1m',
-}
-
-interface CliArgs {
-  json: boolean
-  output: boolean
-  maxSeverity: 'error' | 'warn' | null
-  showHelp: boolean
-}
-
-function parseArgs(argv: string[]): CliArgs {
-  const args: CliArgs = { json: false, output: false, maxSeverity: null, showHelp: false }
-
-  for (let i = 0; i < argv.length; i++) {
-    const a = argv[i]
-    if (a === '-h' || a === '--help') {
-      args.showHelp = true
-    } else if (a === '--json') {
-      args.json = true
-    } else if (a === '--output') {
-      args.output = true
-    } else if (a === '--max-severity') {
-      const v = argv[++i]
-      if (v !== 'error' && v !== 'warn') {
-        console.error(`error: --max-severity must be "error" or "warn", got "${v}"`)
-        process.exit(2)
-      }
-      args.maxSeverity = v
-    } else {
-      console.error(`error: unknown argument: ${a}`)
-      process.exit(2)
-    }
-  }
-
-  return args
-}
-
-function printHelp(): void {
-  console.log(`check-en-chinese — English-locale Chinese-character scanner
-
-Usage:
-  npm run check:en-chinese [-- options]
-
-Options:
-  --json                  Output JSON to stdout
-  --output                Write JSON report to docs/audits/en-chinese-report.json
-                          (requires --json)
-  --max-severity <level>  Exit non-zero if findings at or above level
-                          Values: "error", "warn"
-  -h, --help              Show this help
-
-Exit codes:
-  0  No findings at or above the severity threshold (or no --max-severity)
-  1  One or more findings at or above the threshold
-  2  Invocation error
-`)
+export function computeExitCode(findings: Finding[], maxSeverity: 'error' | 'warn'): number {
+  const rank: Record<string, number> = { info: 0, warn: 1, error: 2 }
+  const threshold = rank[maxSeverity]
+  return findings.some(f => rank[f.severity] >= threshold) ? 1 : 0
 }
 
 function severityColor(severity: string): string {
-  if (severity === 'error') return C.red
-  if (severity === 'warn') return C.yellow
-  return C.dim
+  if (severity === 'error') return '\x1b[31m'
+  if (severity === 'warn') return '\x1b[33m'
+  return '\x1b[2m'
 }
 
-function printTerminal(report: ScanReport): void {
+const RESET = '\x1b[0m'
+const DIM = '\x1b[2m'
+const BOLD = '\x1b[1m'
+const CYAN = '\x1b[36m'
+
+export function formatTerminalOutput(report: ScanReport): { summary: string; details: string[] } {
   const { findings, summary } = report
 
-  console.log(`${C.cyan}Scanning English pages for Chinese characters...${C.reset}\n`)
-  console.log(`${C.bold}Scanned ${report.filesScanned} files${C.reset}\n`)
-
   if (findings.length === 0) {
-    console.log(`${C.cyan}No Chinese characters found.${C.reset}`)
-    return
+    return {
+      summary: `${CYAN}No Chinese characters found.${RESET}`,
+      details: [],
+    }
   }
 
-  // Group findings by file
+  const summaryLine = `${BOLD}Scanned ${report.filesScanned} files${RESET}\n\n${CYAN}${summary.total} finding(s) found:${RESET} ${summary.unexplained} unexplained, ${summary.allowlisted} allowlisted`
+  const details: string[] = []
+
   const byFile = new Map<string, Finding[]>()
   for (const f of findings) {
     const list = byFile.get(f.file) ?? []
@@ -466,77 +383,93 @@ function printTerminal(report: ScanReport): void {
   }
 
   for (const [file, fileFindings] of byFile) {
-    console.log(`\n  ${C.bold}── ${file} ──${C.reset}`)
+    details.push(`\n  ${BOLD}── ${file} ──${RESET}`)
     for (const f of fileFindings) {
       const color = severityColor(f.severity)
       const label = f.allowlisted ? '⏭' : f.severity === 'error' ? '✗' : f.severity === 'warn' ? '⚠' : '○'
-      console.log(
-        `  ${color}${label} L${f.line}:${f.column} [${f.zone}] ${f.text} ${C.dim}(${f.rule})${C.reset}`,
+      details.push(
+        `  ${color}${label} L${f.line}:${f.column} [${f.zone}] ${f.text} ${DIM}(${f.rule})${RESET}`,
       )
     }
   }
 
-  // Summary
-  const errorCount = findings.filter(f => f.severity === 'error').length
-  const warnCount = findings.filter(f => f.severity === 'warn').length
-  const infoCount = findings.filter(f => f.severity === 'info').length
-
-  console.log(`\n${C.bold}Summary:${C.reset}`)
-  console.log(`  Total: ${summary.total} | ${C.red}Error: ${errorCount}${C.reset} | ${C.yellow}Warn: ${warnCount}${C.reset} | ${C.dim}Info: ${infoCount}${C.reset} | Allowlisted: ${summary.allowlisted} | Unexplained: ${summary.unexplained}`)
+  return { summary: summaryLine, details }
 }
 
-export function computeExitCode(findings: Finding[], maxSeverity: 'error' | 'warn'): number {
-  const rank: Record<string, number> = { info: 0, warn: 1, error: 2 }
-  const threshold = rank[maxSeverity]
-  return findings.some(f => rank[f.severity] >= threshold) ? 1 : 0
+export function formatJsonOutput(report: ScanReport): { summary: string; details: string[] } {
+  return { summary: JSON.stringify(report, null, 2), details: [] }
 }
 
-function main(): void {
-  const args = parseArgs(process.argv.slice(2))
+export function buildJsonReport(report: ScanReport): ScanReport {
+  return report
+}
 
-  if (args.showHelp) {
-    printHelp()
-    return
-  }
+// ── CLI ──────────────────────────────────────────────────────────────────────
 
-  const __filename = fileURLToPath(import.meta.url)
-  const __dirname = path.dirname(__filename)
-  const webRoot = path.join(__dirname, '..', '..')
+interface CliArgs {
+  json: boolean
+  output: boolean
+}
 
-  // Load allowlist
-  const allowlistPath = path.join(__dirname, 'en-chinese-allowlist.json')
-  let allowlist: AllowlistEntry[] = []
-  if (fs.existsSync(allowlistPath)) {
-    allowlist = JSON.parse(fs.readFileSync(allowlistPath, 'utf-8'))
-  }
+function parseArgs(argv: string[]): CliArgs {
+  const args: CliArgs = { json: false, output: false }
 
-  // Scan
-  const files = walkSiteMarkdown(webRoot)
-  const report = scanEnglishFiles(files, allowlist)
-
-  // Output
-  if (args.json) {
-    const json = JSON.stringify(report, null, 2)
-    if (args.output) {
-      const outPath = path.join(webRoot, '..', 'docs', 'audits', 'en-chinese-report.json')
-      fs.mkdirSync(path.dirname(outPath), { recursive: true })
-      fs.writeFileSync(outPath, json + '\n')
-      console.log(`Report written to: ${path.relative(webRoot, outPath)}`)
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i]
+    if (a === '--json') {
+      args.json = true
+    } else if (a === '--output') {
+      args.output = true
+    } else if (a === '--max-severity') {
+      i++
+    } else if (a === '-h' || a === '--help') {
+      // help is handled by runner
     } else {
-      console.log(json)
+      throw new Error(`unknown argument: ${a}`)
     }
-  } else {
-    printTerminal(report)
   }
 
-  // Exit code
-  if (args.maxSeverity) {
-    process.exit(computeExitCode(report.findings, args.maxSeverity))
-  }
+  return args
 }
+
+function loadAllowlist(webRoot: string): AllowlistEntry[] {
+  const allowlistPath = path.join(webRoot, '.vuepress', 'build', 'en-chinese-allowlist.json')
+  if (fs.existsSync(allowlistPath)) {
+    return JSON.parse(fs.readFileSync(allowlistPath, 'utf-8'))
+  }
+  return []
+}
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const isMain =
   process.argv[1] && path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1])
 if (isMain) {
-  main()
+  runChecker<CliArgs, ScanReport>({
+    name: 'check-en-chinese',
+    description: 'English-locale Chinese-character scanner.',
+    scanMessage: 'English pages for Chinese characters',
+    usageExamples: [
+      'npx tsx .vuepress/build/check-en-chinese.ts',
+      'npx tsx .vuepress/build/check-en-chinese.ts --max-severity error',
+      'npx tsx .vuepress/build/check-en-chinese.ts --json',
+      'npx tsx .vuepress/build/check-en-chinese.ts --json --output',
+    ],
+    extraOptions: [
+      { flag: '--json', description: 'Output JSON to stdout' },
+      { flag: '--output', description: 'Write JSON report to docs/audits/en-chinese-report.json' },
+    ],
+    defaultSeverity: 'error' as RunnerSeverity,
+    supportedSeverities: ['error', 'warning'],
+    scriptDir: __dirname,
+    parseArgs,
+    scan: (files, args) => scanEnglishFiles(files, loadAllowlist(args.webRoot)),
+    formatTerminal: (report, args) =>
+      args.json ? formatJsonOutput(report) : formatTerminalOutput(report),
+    buildJsonReport: (report) => report,
+    reportPath: 'en-chinese-report.json',
+    computeExitCode: (report, maxSeverity) => computeExitCode(report.findings, maxSeverity === 'warning' ? 'warn' : 'error'),
+    shouldWriteReport: (args) => args.output,
+  })
 }

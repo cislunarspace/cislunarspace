@@ -454,16 +454,6 @@ export function collectMarkdownFiles(root: string): MarkdownFile[] {
 
 // ── Terminal output ───────────────────────────────────────────────────────────
 
-const C = {
-  reset: '\x1b[0m',
-  dim: '\x1b[2m',
-  red: '\x1b[31m',
-  green: '\x1b[32m',
-  yellow: '\x1b[33m',
-  cyan: '\x1b[36m',
-  bold: '\x1b[1m',
-}
-
 const STATUS_LABELS: Record<LinkStatus, string> = {
   ok: 'ok',
   broken: 'broken',
@@ -473,30 +463,38 @@ const STATUS_LABELS: Record<LinkStatus, string> = {
   'missing-key': 'missing-key',
 }
 
-function printReport(results: ResolvedLink[], verbose: boolean): void {
+export interface LinkCheckArgs {
+  verbose: boolean
+  json: boolean
+}
+
+export function formatTerminalOutput(
+  results: ResolvedLink[],
+  args: LinkCheckArgs,
+): { summary: string; details: string[] } {
+  if (args.json) {
+    const report = buildJsonReport(results)
+    if (!args.verbose) {
+      report.entries = report.entries.filter(
+        (r) => r.status === 'broken' || r.status === 'missing-key',
+      )
+    }
+    return { summary: JSON.stringify(report, null, 2), details: [] }
+  }
+
   const broken = results.filter((r) => r.status === 'broken' || r.status === 'missing-key')
-  const toShow = verbose ? results : broken
+  const toShow = args.verbose ? results : broken
 
-  if (broken.length === 0) {
-    console.log(`${C.green}✓${C.reset} all links resolved (${results.length} checked)`)
-    if (!verbose) return
-  }
+  const summary = broken.length === 0
+    ? `all links resolved (${results.length} checked)`
+    : `${broken.length} broken link(s) found (${results.length} total checked)`
 
-  if (broken.length > 0) {
-    console.log(
-      `${C.red}✗${C.reset} ${broken.length} broken link(s) found (${results.length} total checked)\n`,
-    )
-  }
-
-  for (const r of toShow) {
-    const color = r.status === 'ok' || r.status === 'external' || r.status === 'in-comment' || r.status === 'anchor-unchecked'
-      ? C.dim
-      : C.red
+  const details = toShow.map((r) => {
     const lineStr = r.line === 0 ? 'fm' : String(r.line)
-    console.log(
-      `  ${C.dim}${r.file}:${lineStr}${C.reset}  ${color}${STATUS_LABELS[r.status]}${C.reset}  ${r.original}${r.resolved ? `  →  ${r.resolved}` : ''}`,
-    )
-  }
+    return `  ${r.file}:${lineStr}  ${STATUS_LABELS[r.status]}  ${r.original}${r.resolved ? `  →  ${r.resolved}` : ''}`
+  })
+
+  return { summary, details }
 }
 
 // ── JSON output ──────────────────────────────────────────────────────────────
@@ -522,45 +520,24 @@ export function buildJsonReport(results: ResolvedLink[]): JsonReport {
   return { summary: counts, entries: results }
 }
 
-// ── CLI entry point ───────────────────────────────────────────────────────────
+// ── CLI entry via shared runner ──────────────────────────────────────────────
 
-interface CliArgs {
-  verbose: boolean
-  json: boolean
-  showHelp: boolean
-}
+import { runChecker } from './checker-runner'
 
-function parseArgs(argv: string[]): CliArgs {
-  const args: CliArgs = { verbose: false, json: false, showHelp: false }
+function parseArgs(argv: string[]): LinkCheckArgs {
+  const args: LinkCheckArgs = { verbose: false, json: false }
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]
-    if (a === '-h' || a === '--help') args.showHelp = true
-    else if (a === '--verbose') args.verbose = true
+    if (a === '--verbose') args.verbose = true
     else if (a === '--json') args.json = true
-    else {
-      console.error(`error: unknown argument: ${a}`)
-      process.exit(2)
+    else if (a === '--max-severity') i++
+    else if (a === '-h' || a === '--help') {
+      // help is handled by runner
+    } else {
+      throw new Error(`unknown argument: ${a}`)
     }
   }
   return args
-}
-
-function printHelp(): void {
-  console.log(`check-links — VuePress link/image/cite resolver
-
-Usage:
-  tsx .vuepress/build/check-links.ts [options]
-
-Options:
-  --verbose   Show all entries (default: only broken/missing)
-  --json      Output JSON instead of terminal table
-  -h, --help  Show this help
-
-Exit codes:
-  0  all links resolved
-  1  one or more broken links found
-  2  invocation error
-`)
 }
 
 function loadBibliographyKeys(root: string): Set<string> {
@@ -573,46 +550,42 @@ function loadBibliographyKeys(root: string): Set<string> {
   }
 }
 
-function main(): void {
-  let args: CliArgs
-  try {
-    args = parseArgs(process.argv.slice(2))
-  } catch (e) {
-    console.error(`error: ${(e as Error).message}`)
-    process.exit(2)
-  }
-
-  if (args.showHelp) {
-    printHelp()
-    return
-  }
-
-  const files = collectMarkdownFiles(webDir)
-  const linkResults = resolveLinks(files, webDir)
-  const bibKeys = loadBibliographyKeys(webDir)
+function scanLinks(files: MarkdownFile[], webRoot: string): ResolvedLink[] {
+  const linkResults = resolveLinks(files, webRoot)
+  const bibKeys = loadBibliographyKeys(webRoot)
   const citeResults = resolveCites(files, bibKeys)
-  const allResults = [...linkResults, ...citeResults]
-
-  if (args.json) {
-    const report = buildJsonReport(allResults)
-    // In JSON mode, include all entries if verbose, only non-ok otherwise
-    if (!args.verbose) {
-      report.entries = report.entries.filter(
-        (r) => r.status === 'broken' || r.status === 'missing-key',
-      )
-    }
-    console.log(JSON.stringify(report, null, 2))
-  } else {
-    printReport(allResults, args.verbose)
-  }
-
-  const hasBroken = allResults.some((r) => r.status === 'broken' || r.status === 'missing-key')
-  process.exit(hasBroken ? 1 : 0)
+  return [...linkResults, ...citeResults]
 }
 
 const isMain =
   process.argv[1] &&
   path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1])
 if (isMain) {
-  main()
+  runChecker<LinkCheckArgs, ResolvedLink[]>({
+    name: 'check-links',
+    description: 'VuePress link/image/cite resolver.',
+    scanMessage: 'links across site markdown',
+    usageExamples: [
+      'npx tsx .vuepress/build/check-links.ts',
+      'npx tsx .vuepress/build/check-links.ts --verbose',
+      'npx tsx .vuepress/build/check-links.ts --json',
+    ],
+    extraOptions: [
+      { flag: '--verbose', description: 'Show all entries (default: only broken/missing)' },
+      { flag: '--json', description: 'Output JSON instead of terminal table' },
+    ],
+    defaultSeverity: 'error',
+    supportedSeverities: ['error'],
+    scriptDir: __dirname,
+    parseArgs,
+    scan: (files, args) => scanLinks(files, args.webRoot),
+    formatTerminal: (results, args) => formatTerminalOutput(results, args),
+    buildJsonReport: (results) => buildJsonReport(results),
+    reportPath: 'link-check-report.json',
+    computeExitCode: (results) =>
+      results.some((r) => r.status === 'broken' || r.status === 'missing-key') ? 1 : 0,
+    shouldWriteReport: () => false,
+  }, {
+    walkSiteMarkdown: collectMarkdownFiles,
+  })
 }

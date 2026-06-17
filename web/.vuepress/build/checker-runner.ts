@@ -16,11 +16,13 @@ export interface CheckerConfig<TArgs, TFindings> {
   supportedSeverities?: Severity[]
   parseArgs?: (argv: string[]) => TArgs
   scan: (files: MarkdownFile[], args: TArgs & { webRoot: string }) => TFindings
-  formatTerminal: (findings: TFindings) => { summary: string; details: string[] }
-  buildJsonReport: (findings: TFindings) => unknown
+  formatTerminal: (findings: TFindings, args: TArgs) => { summary: string; details: string[] }
+  buildJsonReport: (findings: TFindings, args: TArgs) => unknown
   reportPath: string
   computeExitCode: (findings: TFindings, maxSeverity: Severity) => number
   scriptDir: string
+  /** If provided, return false to skip writing the JSON report for this run. */
+  shouldWriteReport?: (args: TArgs) => boolean
 }
 
 export interface RunnerDeps {
@@ -114,18 +116,21 @@ export function runChecker<TArgs, TFindings>(config: CheckerConfig<TArgs, TFindi
   log(`${C.cyan}Scanning ${config.scanMessage ?? config.name}...${C.reset}\n`)
 
   const files = walk(webRoot)
-  const findings = config.scan(files, { ...checkerArgs, webRoot })
+  const fullArgs = { ...checkerArgs, webRoot }
+  const findings = config.scan(files, fullArgs)
 
-  const terminal = config.formatTerminal(findings)
+  const terminal = config.formatTerminal(findings, checkerArgs)
   log(terminal.summary)
   for (const line of terminal.details) {
     log(line)
   }
 
-  const reportPath = path.join(webRoot, '..', 'docs', 'audits', config.reportPath)
-  const report = config.buildJsonReport(findings)
-  write(reportPath, JSON.stringify(report, null, 2) + '\n')
-  log(`\n${C.cyan}Report written to:${C.reset} ${path.relative(webRoot, reportPath)}`)
+  if (config.shouldWriteReport?.(checkerArgs) ?? true) {
+    const reportPath = path.join(webRoot, '..', 'docs', 'audits', config.reportPath)
+    const report = config.buildJsonReport(findings, checkerArgs)
+    write(reportPath, JSON.stringify(report, null, 2) + '\n')
+    log(`\n${C.cyan}Report written to:${C.reset} ${path.relative(webRoot, reportPath)}`)
+  }
 
   const effectiveSeverity = maxSeverity ?? config.defaultSeverity
   const exitCode = config.computeExitCode(findings, effectiveSeverity)

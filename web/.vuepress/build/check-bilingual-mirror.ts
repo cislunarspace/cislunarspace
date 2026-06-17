@@ -5,13 +5,12 @@
  * with configurable exceptions.
  *
  * Usage:
- *   npm run check:bilingual
- *   npm run check:bilingual -- --max-severity error
+ *   npx tsx .vuepress/build/check-bilingual-mirror.ts
+ *   npx tsx .vuepress/build/check-bilingual-mirror.ts --max-severity error
  */
 
-import fs from 'fs'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { walkSiteMarkdown } from '../utils/markdown-walker.ts'
 import { buildGlossaryScan } from '../intakes/glossary-intake.ts'
 import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.ts'
@@ -25,6 +24,7 @@ import type {
   MatchedExceptionRule,
   Severity,
 } from './check-bilingual-mirror-types.ts'
+import { runChecker } from './checker-runner'
 
 // ── Severity defaults per family ─────────────────────────────────────────────
 
@@ -102,7 +102,6 @@ export function extractSpaceNewsSlug(relPath: string): string | null {
  * Detect space-news articles that exist in one locale but not the other.
  */
 export function detectSpaceNewsGaps(files: MarkdownFile[]): BilingualGap[] {
-  // Collect article slugs per locale, excluding drafts
   const zhSlugs = new Map<string, MarkdownFile>()
   const enSlugs = new Map<string, MarkdownFile>()
 
@@ -110,7 +109,6 @@ export function detectSpaceNewsGaps(files: MarkdownFile[]): BilingualGap[] {
     const slug = extractSpaceNewsSlug(f.relPath)
     if (!slug) continue
 
-    // Skip drafts
     const { frontmatter } = parseFrontmatterAndBody(f.content)
     if (frontmatter.draft === true) continue
 
@@ -123,7 +121,6 @@ export function detectSpaceNewsGaps(files: MarkdownFile[]): BilingualGap[] {
 
   const gaps: BilingualGap[] = []
 
-  // Articles in zh but not en
   for (const [slug, file] of zhSlugs) {
     if (!enSlugs.has(slug)) {
       const { frontmatter } = parseFrontmatterAndBody(file.content)
@@ -138,7 +135,6 @@ export function detectSpaceNewsGaps(files: MarkdownFile[]): BilingualGap[] {
     }
   }
 
-  // Articles in en but not zh
   for (const [slug, file] of enSlugs) {
     if (!zhSlugs.has(slug)) {
       const zhEquivalent = file.relPath.replace(/^en\//, '')
@@ -167,7 +163,6 @@ export function detectRootPageGaps(files: MarkdownFile[]): BilingualGap[] {
     files
       .filter(f => {
         if (!f.relPath.startsWith('en/')) return false
-        // Only root-level: en/<filename>.md (no subdirectories beyond the filename)
         const afterEn = f.relPath.slice('en/'.length)
         return afterEn.endsWith('.md') && !afterEn.includes('/')
       })
@@ -179,8 +174,8 @@ export function detectRootPageGaps(files: MarkdownFile[]): BilingualGap[] {
   for (const f of files) {
     if (!f.relPath.endsWith('.md')) continue
     if (f.relPath.startsWith('en/')) continue
-    if (f.relPath.includes('/')) continue // only root-level files
-    if (isReadme(f.relPath)) continue // README.md is site homepage
+    if (f.relPath.includes('/')) continue
+    if (isReadme(f.relPath)) continue
 
     const expectedEn = `en/${f.relPath}`
     if (!enRootFiles.has(expectedEn)) {
@@ -217,7 +212,7 @@ export const EXCEPTION_RULES: ExceptionRule[] = [
 export function matchesException(zhPath: string, rules: ExceptionRule[]): boolean {
   return rules.some(rule => {
     if (rule.pattern.endsWith('/**')) {
-      const prefix = rule.pattern.slice(0, -3) // remove /**
+      const prefix = rule.pattern.slice(0, -3)
       return zhPath.startsWith(prefix)
     }
     return zhPath === rule.pattern
@@ -246,7 +241,7 @@ export function applyExceptions(
       const paths = matchedMap.get(matched.pattern) ?? []
       paths.push(gap.zhPath)
       matchedMap.set(matched.pattern, paths)
-      return false // exclude from gaps
+      return false
     }
     return true
   })
@@ -281,7 +276,6 @@ export function detectGaps(
   const scanner = glossaryGapScanner ?? defaultGlossaryScanner
 
   const gaps: BilingualGap[] = [
-    // Glossary
     ...scanner(files).map(g => ({
       zhPath: `glossary/${g.category}/${g.slug}.md`,
       expectedEnPath: `en/glossary/${g.category}/${g.slug}.md`,
@@ -289,15 +283,11 @@ export function detectGaps(
       severity: FAMILY_SEVERITY['glossary'],
       zhTitle: g.zhTitle,
     })),
-    // Knowledge-base
     ...detectKnowledgeBaseGaps(files),
-    // Space News
     ...detectSpaceNewsGaps(files),
-    // Root/special pages
     ...detectRootPageGaps(files),
   ]
 
-  // Aggregate by family
   const familyMap = new Map<ContentFamily, number>()
   for (const gap of gaps) {
     familyMap.set(gap.family, (familyMap.get(gap.family) ?? 0) + 1)
@@ -314,37 +304,50 @@ export function detectGaps(
   return { gaps, byFamily, total: gaps.length }
 }
 
+// ── Post-exception scan result ───────────────────────────────────────────────
+
+export interface BilingualCheckResult {
+  gaps: BilingualGap[]
+  byFamily: FamilySummary[]
+  matchedExceptions: MatchedExceptionRule[]
+}
+
+/**
+ * Run full detection + exception filtering, returning the post-filter result.
+ */
+export function scanBilingualGaps(files: MarkdownFile[]): BilingualCheckResult {
+  const result = detectGaps(files)
+  const { filtered, matchedExceptions } = applyExceptions(result.gaps, EXCEPTION_RULES)
+
+  const familyMap = new Map<ContentFamily, number>()
+  for (const gap of filtered) {
+    familyMap.set(gap.family, (familyMap.get(gap.family) ?? 0) + 1)
+  }
+  const filteredByFamily: FamilySummary[] = [...familyMap.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([family, gapCount]) => ({
+      family,
+      severity: FAMILY_SEVERITY[family],
+      gapCount,
+    }))
+
+  return { gaps: filtered, byFamily: filteredByFamily, matchedExceptions }
+}
+
 // ── Terminal formatting ──────────────────────────────────────────────────────
-
-const C = {
-  reset: '\x1b[0m',
-  dim: '\x1b[2m',
-  red: '\x1b[31m',
-  yellow: '\x1b[33m',
-  cyan: '\x1b[36m',
-  bold: '\x1b[1m',
-}
-
-export interface TerminalOutput {
-  summary: string
-  details: string[]
-  exceptions: string[]
-}
 
 export function formatTerminalOutput(
   gaps: BilingualGap[],
   byFamily: FamilySummary[],
   exceptions: MatchedExceptionRule[],
-): TerminalOutput {
-  // Summary line
+): { summary: string; details: string[]; exceptions: string[] } {
   const summaryParts = byFamily.map(
     f => `${f.family}: ${f.gapCount} gap(s) [${f.severity}]`,
   )
   const summary = gaps.length === 0
-    ? `${C.cyan}No bilingual mirror gaps found.${C.reset}`
-    : `${C.bold}${gaps.length} bilingual mirror gap(s) found:${C.reset}\n  ${summaryParts.join('\n  ')}`
+    ? 'No bilingual mirror gaps found.'
+    : `${gaps.length} bilingual mirror gap(s) found:\n  ${summaryParts.join('\n  ')}`
 
-  // Detail lines grouped by family
   const details: string[] = []
   const gapsByFamily = new Map<ContentFamily, BilingualGap[]>()
   for (const gap of gaps) {
@@ -354,16 +357,15 @@ export function formatTerminalOutput(
   }
 
   for (const [family, familyGaps] of gapsByFamily) {
-    details.push(`\n  ${C.bold}── ${family} ──${C.reset}`)
+    details.push(`\n  ── ${family} ──`)
     for (const g of familyGaps) {
-      details.push(`  ${g.zhPath} → ${g.expectedEnPath}  ${C.dim}(${g.zhTitle})${C.reset}`)
+      details.push(`  ${g.zhPath} → ${g.expectedEnPath}  (${g.zhTitle})`)
     }
   }
 
-  // Exception lines
   const exceptionLines = exceptions.map(e => {
     const count = e.matchedPaths.length
-    return `  ${C.dim}⏭ ${e.pattern} — ${e.reason} (${count} matched)${C.reset}`
+    return `  ⏭ ${e.pattern} — ${e.reason} (${count} matched)`
   })
 
   return { summary, details, exceptions: exceptionLines }
@@ -426,11 +428,6 @@ export function buildJsonReport(
   }
 }
 
-export function writeJsonReport(report: JsonReport, outPath: string): void {
-  fs.mkdirSync(path.dirname(outPath), { recursive: true })
-  fs.writeFileSync(outPath, JSON.stringify(report, null, 2) + '\n')
-}
-
 // ── Exit code ────────────────────────────────────────────────────────────────
 
 const SEVERITY_RANK: Record<Severity, number> = { warning: 0, error: 1 }
@@ -448,111 +445,37 @@ function defaultGlossaryScanner(files: MarkdownFile[]) {
   return scan.zh.missing
 }
 
-// ── CLI ──────────────────────────────────────────────────────────────────────
+// ── CLI entry via shared runner ──────────────────────────────────────────────
 
-function parseArgs(argv: string[]): { maxSeverity: Severity; showHelp: boolean } {
-  let maxSeverity: Severity = 'warning'
-  let showHelp = false
-
-  for (let i = 0; i < argv.length; i++) {
-    const a = argv[i]
-    if (a === '-h' || a === '--help') {
-      showHelp = true
-    } else if (a === '--max-severity') {
-      const v = argv[++i]
-      if (v !== 'warning' && v !== 'error') {
-        console.error(`error: --max-severity must be "warning" or "error", got "${v}"`)
-        process.exit(2)
-      }
-      maxSeverity = v
-    } else {
-      console.error(`error: unknown argument: ${a}`)
-      process.exit(2)
-    }
-  }
-
-  return { maxSeverity, showHelp }
-}
-
-function printHelp(): void {
-  console.log(`check-bilingual-mirror — bilingual content mirror gap checker
-
-Usage:
-  npm run check:bilingual [-- options]
-
-Options:
-  --max-severity <level>  Minimum severity to exit non-zero (default: warning)
-                          Values: "warning", "error"
-  -h, --help              Show this help
-
-Exit codes:
-  0  No gaps at or above the severity threshold
-  1  One or more gaps at or above the threshold
-  2  Invocation error
-`)
-}
-
-function main(): void {
-  const args = parseArgs(process.argv.slice(2))
-
-  if (args.showHelp) {
-    printHelp()
-    return
-  }
-
-  const __filename = fileURLToPath(import.meta.url)
-  const __dirname = path.dirname(__filename)
-  const webRoot = path.join(__dirname, '..', '..')
-
-  console.log(`${C.cyan}Scanning for bilingual mirror gaps...${C.reset}\n`)
-
-  const files = walkSiteMarkdown(webRoot)
-  const result = detectGaps(files)
-
-  // Apply exception rules
-  const { filtered, matchedExceptions } = applyExceptions(result.gaps, EXCEPTION_RULES)
-
-  // Recompute family summaries for filtered gaps
-  const familyMap = new Map<ContentFamily, number>()
-  for (const gap of filtered) {
-    familyMap.set(gap.family, (familyMap.get(gap.family) ?? 0) + 1)
-  }
-  const filteredByFamily: FamilySummary[] = [...familyMap.entries()]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([family, gapCount]) => ({
-      family,
-      severity: FAMILY_SEVERITY[family],
-      gapCount,
-    }))
-
-  // Terminal output
-  const terminal = formatTerminalOutput(filtered, filteredByFamily, matchedExceptions)
-
-  console.log(terminal.summary)
-  if (terminal.details.length > 0) {
-    for (const line of terminal.details) {
-      console.log(line)
-    }
-  }
-  if (terminal.exceptions.length > 0) {
-    console.log(`\n  ${C.bold}── exceptions ──${C.reset}`)
-    for (const line of terminal.exceptions) {
-      console.log(line)
-    }
-  }
-
-  // JSON report
-  const reportPath = path.join(webRoot, '..', 'docs', 'audits', 'bilingual-gap-report.json')
-  const report = buildJsonReport(filtered, matchedExceptions)
-  writeJsonReport(report, reportPath)
-  console.log(`\n${C.cyan}Report written to:${C.reset} ${path.relative(webRoot, reportPath)}`)
-
-  const exitCode = computeExitCode(filtered, args.maxSeverity)
-  process.exit(exitCode)
-}
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const isMain =
   process.argv[1] && path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1])
 if (isMain) {
-  main()
+  runChecker({
+    name: 'check-bilingual-mirror',
+    description: 'Bilingual content mirror gap checker.',
+    scanMessage: 'bilingual mirror gaps',
+    usageExamples: [
+      'npx tsx .vuepress/build/check-bilingual-mirror.ts',
+      'npx tsx .vuepress/build/check-bilingual-mirror.ts --max-severity error',
+    ],
+    defaultSeverity: 'warning',
+    supportedSeverities: ['error', 'warning'],
+    scriptDir: __dirname,
+    scan: (files) => scanBilingualGaps(files),
+    formatTerminal: (result) => {
+      const out = formatTerminalOutput(result.gaps, result.byFamily, result.matchedExceptions)
+      const details = [...out.details]
+      if (out.exceptions.length > 0) {
+        details.push('\n  ── exceptions ──')
+        details.push(...out.exceptions)
+      }
+      return { summary: out.summary, details }
+    },
+    buildJsonReport: (result) => buildJsonReport(result.gaps, result.matchedExceptions),
+    reportPath: 'bilingual-gap-report.json',
+    computeExitCode: (result, maxSeverity) => computeExitCode(result.gaps, maxSeverity),
+  })
 }
