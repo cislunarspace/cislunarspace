@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-17
+lastUpdated: 2026-06-18
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-16 | [JWST 揭示 WASP-121b 极端天气：风速 11000 英里/小时 夜间下起红蓝宝石雨](./2026-06-16-jwst-wasp-121b-extreme-weather-rubies-sapphires/) |
+| 6-16 | [JWST 揭示 WASP-94A b 大气昼夜循环：晨多云 暮晴朗](./2026-06-16-jwst-wasp-94a-b-day-night-atmosphere/) |
 | 6-17 | [神舟二十三号发射升空 3 名航天员进驻天宫空间站](./2026-06-17-shenzhou-23-tiangong-launch/) |
 | 6-15 | [天舟十号货运飞船发射 创中国货运飞船最重载荷纪录](./2026-06-15-tianzhou-10-record-payload/) |
 | 6-15 | [日本H3火箭第9次飞行 拟发射准天顶卫星MICHIBIKI QZS-7](./2026-06-15-jaxa-h3-qzs7-reschedule/) |

@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-17
+lastUpdated: 2026-06-18
 ---
 
 # June 2026
@@ -13,6 +13,8 @@ lastUpdated: 2026-06-17
 
 | Date | Title |
 |------|-------|
+| 6-16 | [JWST forecasts extreme weather on exoplanet WASP-121b： 11,000-mph winds and nighttime rains of rubies and sapphires](./2026-06-16-jwst-wasp-121b-extreme-weather-rubies-sapphires/) |
+| 6-16 | [JWST reveals cloudy mornings and clear evenings on distant hot Jupiter WASP-94A b](./2026-06-16-jwst-wasp-94a-b-day-night-atmosphere/) |
 | 6-17 | [Shenzhou-23 Launches to Tiangong, Three Astronauts Begin Long-Duration Mission](./2026-06-17-shenzhou-23-tiangong-launch/) |
 | 6-15 | [Tianzhou-10 Launches with Heaviest Chinese Cargo Payload to Date](./2026-06-15-tianzhou-10-record-payload/) |
 | 6-15 | [JAXA Reschedules MICHIBIKI QZS-7 Launch on H3 Flight 9](./2026-06-15-jaxa-h3-qzs7-reschedule/) |
