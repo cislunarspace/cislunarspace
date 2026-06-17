@@ -693,6 +693,134 @@ def save_article(zh: str, en: str, slug: str, date: str) -> bool:
 
 
 # ============================================================================
+# 图片下载
+# ============================================================================
+
+def _fetch_og_image(url: str) -> Optional[str]:
+    """从 URL 提取 og:image（用 curl 绕过部分 UA 封锁）。"""
+    if not url or not url.startswith("http"):
+        return None
+    try:
+        proc = subprocess.run(
+            ["curl", "-sL", "--http1.1", "--max-time", "10",
+             "-A", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+             url],
+            capture_output=True, text=True, timeout=15,
+        )
+    except Exception:
+        return None
+    if proc.returncode != 0:
+        return None
+    html = proc.stdout[:100_000]
+    # og:image（两种属性顺序都尝试）
+    m = re.search(
+        r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+        html, re.I,
+    )
+    if not m:
+        m = re.search(
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\']',
+            html, re.I,
+        )
+    if not m:
+        # twitter:image fallback
+        m = re.search(
+            r'<meta[^>]+name=["\']twitter:image(?::src)?["\'][^>]+content=["\']([^"\']+)["\']',
+            html, re.I,
+        )
+    if m:
+        return m.group(1)
+    # Body image fallback：找第一张非 logo/icon 的文章配图
+    body_imgs = re.findall(r'<img[^>]+src="(https?://[^"]+)"', html)
+    _skip = ('logo', 'icon', 'avatar', 'favicon', '1x1', 'pixel', 'tracking',
+             '400x400', '200x200', '100x100', 'badge', 'sprite', 'spinner')
+    for img_url in body_imgs:
+        if not any(x in img_url.lower() for x in _skip):
+            return img_url
+    return None
+
+
+def _download_image(img_url: str, dest: Path) -> bool:
+    """下载图片到 dest，成功返回 True。"""
+    if not img_url or not img_url.startswith("http"):
+        return False
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        proc = subprocess.run(
+            ["curl", "-sL", "--http1.1", "--max-time", "15",
+             "-A", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+             "-o", str(dest), img_url],
+            capture_output=True, timeout=20,
+        )
+    except Exception as exc:
+        print(f"    IMG download error: {exc}", file=LOG)
+        return False
+    if proc.returncode != 0 or not dest.exists():
+        return False
+    size = dest.stat().st_size
+    # 小于 5KB 多半是错误页/占位符
+    if size < 5000:
+        dest.unlink(missing_ok=True)
+        print(f"    IMG too small ({size}B), skipped", file=LOG)
+        return False
+    print(f"    IMG downloaded: {dest.name} ({size // 1024}KB)", file=LOG)
+    return True
+
+
+def fetch_and_save_hero(meta: Dict) -> None:
+    """尝试从 source_url 抓取 hero 图片，存入 figures/ 目录并更新 frontmatter。"""
+    source_url = meta.get("source_url", "")
+    slug = meta["slug"]
+    date = meta["date"]
+    year, month = date[:4], date[5:7]
+
+    img_url = _fetch_og_image(source_url)
+    if not img_url:
+        print(f"  IMG: no og:image for {slug}", file=LOG)
+        return
+
+    cn_fig_dir = WEB / f"space-news/{year}/{month}/figures/{date}-{slug}"
+    en_fig_dir = WEB / f"en/space-news/{year}/{month}/figures/{date}-{slug}"
+
+    # 根据 URL 猜扩展名，默认 .jpg
+    ext = ".jpg"
+    lower = img_url.split("?")[0].lower()
+    if lower.endswith(".png"):
+        ext = ".png"
+    elif lower.endswith(".webp"):
+        ext = ".webp"
+
+    hero_path = cn_fig_dir / f"hero{ext}"
+    ok = _download_image(img_url, hero_path)
+    if not ok:
+        return
+
+    # 复制到英文侧
+    en_fig_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(hero_path, en_fig_dir / f"hero{ext}")
+
+    # 更新 markdown frontmatter：在第二个 --- 之前插入 image 字段
+    image_rel = f"./figures/{date}-{slug}/hero{ext}"
+    for lang_prefix in ("", "en/"):
+        md_path = WEB / f"{lang_prefix}space-news/{year}/{month}/{date}-{slug}.md"
+        if not md_path.exists():
+            continue
+        content = md_path.read_text(encoding="utf-8")
+        parts = content.split("---", 2)
+        if len(parts) < 3:
+            continue
+        fm = parts[1]
+        if "image:" in fm:
+            continue  # 已有 image 字段
+        # 在 frontmatter 末尾追加 image 行
+        fm_new = fm.rstrip() + f"\nimage: {image_rel}\n"
+        content = f"---{fm_new}---{parts[2]}"
+        md_path.write_text(content, encoding="utf-8")
+        print(f"  IMG: added image field to {md_path.name}", file=LOG)
+
+
+# ============================================================================
 # 更新 README
 # ============================================================================
 
@@ -855,6 +983,14 @@ def main() -> int:
                 saved.append(meta)
         else:
             print(f"  FAILED to draft {meta['slug']} (zh={zh is not None}, en={en is not None})", file=LOG)
+
+    # 5b. 图片下载（逐篇，从 source_url 抓 og:image）
+    for meta in saved:
+        print(f"  Fetching image for {meta['slug']}...", file=LOG)
+        try:
+            fetch_and_save_hero(meta)
+        except Exception as exc:
+            print(f"  IMG error for {meta['slug']}: {exc}", file=LOG)
 
     # 6. 更新 README
     if saved:
