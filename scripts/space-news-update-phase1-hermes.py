@@ -45,28 +45,36 @@ HERMES_SEARCH_WORKERS = 9          # 9 query 真并行
 CUTOFF_DAYS = 3
 
 # ============================================================================
-# 查询关键词（与 phase1.py 完全一致）
+# 查询关键词（v3 — 基于语料库分析，按事件类型分组，不硬编码日期）
 # ============================================================================
+#
+# 事件的时效性由 SELECT prompt 的 CUTOFF_DAYS 日期硬约束保证，
+# 搜索 query 本身无需包含日期，避免中文搜索 API 对日期串返回 0 条。
+#
+# 优先级来源（供 SELECT prompt 参考）：
+#   Tier 1（一手）: spaceflightnow.com, spacenews.com, nasa.gov, esa.int,
+#                   spacex.com, cnsa.gov.cn, cmse.gov.cn, news.cctv.com
+#   Tier 2（专业）: space.com, universetoday.com, phys.org, scientificamerican.com,
+#                   behindtheblack.com, payloadspace.com, newatlas.com
+#   Tier 3（中文聚合）: new.qq.com, guancha.cn, chinadaily.com.cn, cls.cn,
+#                      thepaper.cn, chinanews.com.cn, donews.com
 
-_yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-_today = datetime.now().strftime("%Y-%m-%d")
-_month_short = datetime.now().strftime("%Y年%-m月")
-
-# 中文搜索关键词（D 方案：日期硬锚 + 砍量到 4 条）
+# 中文搜索关键词（5 queries — 覆盖国家航天、商业航天、卫星星座、科学发现）
 CN_QUERIES = [
-    f"中国航天 发射 完成 {_yesterday} {_today} 长征 神舟 天舟 天龙 朱雀",
-    f"千帆星座 垣信卫星 {_yesterday} {_today} 发射 部署",
-    f"嫦娥 天问 探月 火星 {_yesterday} {_today} 进展",
-    f"商业航天 融资 政策 商业火箭 {_month_short}",
+    "中国航天 发射 最新 长征 神舟 天舟",
+    "商业航天 朱雀 力箭 快舟 蓝箭 中科宇航 发射",
+    "千帆星座 垣信卫星 卫星互联网 发射 部署",
+    "中国空间站 天宫 航天员 科学实验",
+    "嫦娥 天问 北斗 探月 火星 深空探测 进展",
 ]
 
-# 国际搜索关键词（D 方案：日期硬锚 + 砍量到 5 条）
+# 国际搜索关键词（5 queries — 覆盖主流发射商、NASA/ESA 任务、科学发现、商业航天政策）
 INTL_QUERIES = [
-    f"SpaceX Starlink launch {_yesterday} {_today} Falcon 9",
-    f"NASA mission news {_yesterday} {_today} Artemis ISS",
-    f"Rocket Lab Blue Origin ULA launch {_yesterday} {_today}",
-    f"ISRO JAXA mission {_yesterday} {_today} launch",
-    f"exoplanet black hole JWST discovery {_yesterday} {_today}",
+    "SpaceX Starlink Falcon launch pad Vandenberg Cape Canaveral",
+    "NASA mission ISS Crew Dragon Artemis",
+    "ESA JAXA space mission launch science",
+    "space news launch rocket Blue Origin Rocket Lab ULA Ariane",
+    "JWST Webb telescope exoplanet black hole space science discovery",
 ]
 
 # ============================================================================
@@ -80,14 +88,34 @@ ALLOWED_CATEGORIES = {
     "spacex", "rocket-lab", "blue-origin", "ula", "arianespace", "axiom", "vast",
     "firefly", "relativity", "stoke-space", "ispace", "k2", "cas-space", "galactic-energy",
     "landspace", "space-pioneer", "orientspace", "deep-blue-aerospace", "link-space",
+    "quantum-space",
     # 项目
     "artemis", "iss", "tiangong", "gateway", "starship-test", "starlink", "qianfan",
-    "guowang", "beidou",
+    "guowang", "beidou", "chandra",
     # 学科
     "exoplanet", "blackhole", "gravitational-wave", "space-telescope", "mars",
     "moon", "solar", "meteor", "cluster", "asteroid",
     # 通用
     "launch", "commercial", "science", "policy", "funding",
+}
+
+# 来源优先级分层（用于 SELECT prompt 提示 + 来源域名识别）
+# Tier 1: 一手官方/专业发射跟踪
+# Tier 2: 专业科学/行业媒体
+# Tier 3: 中文权威媒体（非聚合器）
+PRIORITY_SOURCES_TIER1 = {
+    "spaceflightnow.com", "spacenews.com", "nasa.gov", "esa.int",
+    "spacex.com", "cnsa.gov.cn", "cmse.gov.cn", "news.cctv.com",
+}
+PRIORITY_SOURCES_TIER2 = {
+    "space.com", "universetoday.com", "phys.org", "scientificamerican.com",
+    "behindtheblack.com", "payloadspace.com", "newatlas.com",
+    "bbc.com", "reuters.com", "apnews.com",
+}
+PRIORITY_SOURCES_TIER3 = {
+    "new.qq.com", "guancha.cn", "chinadaily.com.cn", "cls.cn",
+    "thepaper.cn", "chinanews.com.cn", "donews.com", "ecns.cn",
+    "jin10.com", "people.com.cn",
 }
 
 # ============================================================================
@@ -194,10 +222,13 @@ Return a single JSON object with this exact schema:
 }}
 
 Rules:
-- Only return articles from the last 7 days
+- Only return articles from the last 5 days
 - If no relevant results: {{"query": "...", "results": []}}
 - Skip press kits, photo galleries, and how-to-watch guides
-- Prefer primary sources (NASA, ESA, SpaceX, JAXA, ISRO, CNSA, CMSA, Reuters, AP, Xinhua)"""
+- Prefer primary sources: Tier 1: spaceflightnow.com, spacenews.com, nasa.gov, esa.int, spacex.com, cnsa.gov.cn, cmse.gov.cn, news.cctv.com
+  Tier 2: space.com, universetoday.com, phys.org, behindtheblack.com, payloadspace.com
+  Tier 3: new.qq.com, guancha.cn, chinadaily.com.cn, thepaper.cn, chinanews.com.cn
+- Avoid aggregation wrappers: so.html5.qq.com, caifuhao.eastmoney.com, baijiahao.baidu.com, m.toutiao.com"""
     raw = hermes_chat_json(prompt, timeout=HERMES_TIMEOUT_SEARCH)
     if not isinstance(raw, dict):
         return []
@@ -436,16 +467,13 @@ def select_articles_hermes(results: List[Dict], existing_urls: set,
 ## 候选新闻
 {candidates_text}
 
-## 筛选规则（严格）
-1. 【时间硬约束】只选日期在 {cutoff_str} 之后的新闻。早于 {cutoff_str} 的绝对跳过。看摘要里的具体日期串（如 "June 11, 2026" / "2026年6月11日" / 任何 YYYY-MM-DD / YYYY 年 M 月 D 日 格式）做判断。
-2. 【完成信号】必须满足下列至少一项才算"已发生"：
-   - 英文：lifts off / launched / launches successfully / launch failure / lands / completes / confirms / announces / reveals / detected / signs / closes funding / files S-1 / IPO / wins contract
-   - 中文：发射成功 / 抵达 / 成功 / 失败 / 宣布 / 公布 / 签约 / 完成 / 突破 / 检测到 / 着陆
-   - 跳过：to launch / targets / scheduled for / will / plans to / watch guide / how to / gallery / photos / what to know
-3. 可写：重大任务里程碑、发射完成结果、官方政策/预算、商业航天关键融资/合同、重要空间科学发现
-4. 跳过：预发射观礼指南、to launch / targets / scheduled for 且无完成信号、gallery/照片汇编、娱乐/购物/podcast、军事ICBM试射
-5. 同一事件已有稿时跳过；Starlink等高频常规发射合并，不逐条写
-6. 每篇至少一条可引用原文URL，优先官方/权威来源（新华社、NASA、ESA、SpaceX、SFN、Space.com、CNSA、CMSA），避免聚合站（百度百科 / so.html5.qq.com / caifuhao.eastmoney / 网易订阅）
+## 筛选规则
+1. 【时间硬约束】只选日期在 {cutoff_str} 之后的新闻。早于 {cutoff_str} 的绝对跳过。看摘要里的具体日期串（如 "June 15, 2026" / "2026年6月15日" / YYYY-MM-DD 格式）做判断。若无法判断日期，可保留（不作为跳过依据）。
+2. 【已发生事件】优先选择已经发生/完成的事件（如"发射成功""宣布""签约""公布"等）。若有少量"本周将发射"的高价值预告也可保留。
+3. 可写：重大任务里程碑、发射结果（成功/失败）、官方政策/预算、商业航天关键融资/合同/上市、重要空间科学发现、在轨重大事件
+4. 跳过：纯图片汇总 gallery、娱乐/podcast/购物内容、军事 ICBM 试射
+5. 同一事件已有稿时跳过；Starlink 等高频常规发射合并，不逐条写
+6. 每篇至少一条可引用原文URL，优先 Tier 1-2 来源（spaceflightnow.com, spacenews.com, nasa.gov, esa.int, spacex.com, cnsa.gov.cn, cmse.gov.cn, news.cctv.com, space.com, universetoday.com, phys.org）
 7. 中国航天相关新闻占比目标不低于30%
 8. 无值得写的新闻时返回空数组 []
 
