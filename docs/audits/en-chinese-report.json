@@ -1,6 +1,6 @@
 {
-  "scanTime": "2026-06-05T03:14:33.400Z",
-  "filesScanned": 929,
+  "scanTime": "2026-06-17T00:21:39.161Z",
+  "filesScanned": 985,
   "findings": [
     {
       "file": "en/background/control/optimal-control.md",
@@ -15,12 +15,12 @@
     {
       "file": "en/cislunar-orbits/dro/family-classification.md",
       "line": 69,
-      "column": 1,
-      "zone": "image-path",
+      "column": 0,
+      "zone": "body",
       "text": "质心旋转坐标系及",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/cislunar-orbits/transfer/ballistic-capture.md",
@@ -1615,32 +1615,32 @@
     {
       "file": "en/glossary/orbits/dro.md",
       "line": 36,
-      "column": 1,
-      "zone": "image-path",
+      "column": 0,
+      "zone": "body",
       "text": "示意图",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/orbits/dro.md",
       "line": 40,
-      "column": 1,
-      "zone": "image-path",
+      "column": 0,
+      "zone": "body",
       "text": "质心旋转坐标系及",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/orbits/nrho.md",
       "line": 35,
-      "column": 1,
-      "zone": "image-path",
+      "column": 0,
+      "zone": "body",
       "text": "地月",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/research-frontiers/institutions/dfhscl.md",
@@ -2783,6 +2783,326 @@
       "allowlisted": true
     },
     {
+      "file": "en/space-news/2026/06/2026-06-05-qianfan-12-batch-long-march-8.md",
+      "line": 4,
+      "column": 204,
+      "zone": "frontmatter-description",
+      "text": "预定",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-05-qianfan-12-batch-long-march-8.md",
+      "line": 15,
+      "column": 216,
+      "zone": "body",
+      "text": "预定",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 47,
+      "column": 13,
+      "zone": "body",
+      "text": "中文",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 49,
+      "column": 46,
+      "zone": "body",
+      "text": "微流星体与空间碎片",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 50,
+      "column": 34,
+      "zone": "body",
+      "text": "超高速冲击测试",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 51,
+      "column": 29,
+      "zone": "body",
+      "text": "流星暴雨",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 52,
+      "column": 25,
+      "zone": "body",
+      "text": "偶发背景",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 53,
+      "column": 35,
+      "zone": "body",
+      "text": "流星体环境办公室",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 54,
+      "column": 35,
+      "zone": "body",
+      "text": "美国流星协会",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 55,
+      "column": 49,
+      "zone": "body",
+      "text": "月地转移轨道",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 56,
+      "column": 32,
+      "zone": "body",
+      "text": "隔热瓦",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 57,
+      "column": 13,
+      "zone": "body",
+      "text": "狮子座流星雨",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
+      "line": 58,
+      "column": 14,
+      "zone": "body",
+      "text": "英仙座流星雨",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-08-quantum-space-spac-deal.md",
+      "line": 20,
+      "column": 116,
+      "zone": "body",
+      "text": "机动",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-09-iceye-1b-euro-funding.md",
+      "line": 6,
+      "column": 1,
+      "zone": "frontmatter-author",
+      "text": "天疆说",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-09-isar-aerospace-270m-series-d.md",
+      "line": 6,
+      "column": 1,
+      "zone": "frontmatter-author",
+      "text": "天疆说",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-09-new-glenn-rewrite-nasa-moon-base.md",
+      "line": 6,
+      "column": 1,
+      "zone": "frontmatter-author",
+      "text": "天疆说",
+      "severity": "error",
+      "rule": "chinese-in-frontmatter",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-09-zq-2e-y6-success-launch-commercial-rocket-engineering.md",
+      "line": 26,
+      "column": 4,
+      "zone": "link-text",
+      "text": "腾讯新闻",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-11-beidou-in-orbit-upgrade.md",
+      "line": 24,
+      "column": 4,
+      "zone": "link-text",
+      "text": "环球时报-环球网",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-11-china-long-march-5-comms-test-satellite-25.md",
+      "line": 20,
+      "column": 55,
+      "zone": "body",
+      "text": "通信技术试验卫星",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-11-china-long-march-5-comms-test-satellite-25.md",
+      "line": 24,
+      "column": 4,
+      "zone": "link-text",
+      "text": "中国航天科技集团（腾讯新闻聚合）",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-11-qianfan-constellation-10000-satellites-roadmap.md",
+      "line": 16,
+      "column": 140,
+      "zone": "body",
+      "text": "千帆星座",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-11-qianfan-constellation-10000-satellites-roadmap.md",
+      "line": 24,
+      "column": 4,
+      "zone": "link-text",
+      "text": "每日经济新闻",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-12-spacex-historic-ipo-listing.md",
+      "line": 26,
+      "column": 4,
+      "zone": "link-text",
+      "text": "腾讯新闻",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-12-spacex-nasdaq-ipo-2026.md",
+      "line": 26,
+      "column": 4,
+      "zone": "link-text",
+      "text": "环球市场播报",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-14-citic-spacex-ipo-valuation-anchor.md",
+      "line": 24,
+      "column": 21,
+      "zone": "link-text",
+      "text": "人民财讯",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-14-citic-spacex-ipo-valuation-anchor.md",
+      "line": 25,
+      "column": 16,
+      "zone": "link-text",
+      "text": "金十数据",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-lijian-1-y14-8-satellites-100-milestone.md",
+      "line": 24,
+      "column": 9,
+      "zone": "link-text",
+      "text": "央广网",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-lijian-1-y14-8-satellites-100-milestone.md",
+      "line": 25,
+      "column": 24,
+      "zone": "link-text",
+      "text": "中新社",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-lijian-1-y14-8-satellites-100-milestone.md",
+      "line": 26,
+      "column": 28,
+      "zone": "link-text",
+      "text": "中国经营报",
+      "severity": "error",
+      "rule": "chinese-in-link-text",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-chandra-m87-black-hole-jet.md",
+      "line": 18,
+      "column": 458,
+      "zone": "body",
+      "text": "【",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-chandra-m87-black-hole-jet.md",
+      "line": 20,
+      "column": 469,
+      "zone": "body",
+      "text": "【",
+      "severity": "error",
+      "rule": "chinese-in-body",
+      "allowlisted": false
+    },
+    {
       "file": "en/what-is-cislunarspace/README.md",
       "line": 33,
       "column": 1,
@@ -2794,14 +3114,15 @@
     }
   ],
   "summary": {
-    "total": 279,
+    "total": 311,
     "byZone": {
-      "body": 109,
-      "image-path": 4,
+      "body": 130,
       "references": 123,
-      "link-text": 43
+      "link-text": 54,
+      "frontmatter-description": 1,
+      "frontmatter-author": 3
     },
-    "allowlisted": 279,
-    "unexplained": 0
+    "allowlisted": 275,
+    "unexplained": 36
   }
 }
