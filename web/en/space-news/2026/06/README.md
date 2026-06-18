@@ -13,6 +13,8 @@ lastUpdated: 2026-06-18
 
 | Date | Title |
 |------|-------|
+| 6-17 | [Rocket Lab Electron Launches 10th Dedicated StriX Mission for Synspective](./2026-06-17-rocket-lab-strix-launch-10/) |
+| 6-17 | [Kuaizhou-11 Launches from Jiuquan](./2026-06-17-kuaizhou-11-jiuquan-launch/) |
 | 6-16 | [NASA Says Nyet to Roscosmos Plan to Cut Into Leaky ISS Segment](./2026-06-16-iss-leak-nasa-rejects-roscosmos-cut-plan/) |
 | 6-17 | [Ariane 6 Flies Four-Booster Configuration for First Time, Delivers Heaviest Ariane Payload Ever](./2026-06-17-ariane-6-va269-heaviest-payload-amazon-leo/) |
 | 6-17 | [ULA Vulcan Launches USSF Mission, Solid Booster Anomaly Under Investigation](./2026-06-17-ula-vulcan-ussf-booster-anomaly/) |
