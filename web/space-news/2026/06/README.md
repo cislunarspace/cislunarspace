@@ -17,6 +17,9 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-16 | [国际空间站漏气加剧 NASA拒绝俄方在漏气舱段开孔检查方案](./2026-06-16-iss-leak-nasa-rejects-roscosmos-cut-plan/) |
+| 6-17 | [阿里安6号首飞四助推构型 一箭36星创阿丽亚娜家族最重载荷纪录](./2026-06-17-ariane-6-va269-heaviest-payload-amazon-leo/) |
+| 6-17 | [ULA Vulcan火箭发射美太空军任务 固体助推器异常正接受调查](./2026-06-17-ula-vulcan-ussf-booster-anomaly/) |
 | 6-16 | [韦伯与哈勃揭示银河系形成遗存：球状星团 Terzan 5 含四代恒星](./2026-06-16-webb-hubble-terzan5-bulge-fossil/) |
 | 6-17 | [韦伯借助引力透镜发现大质量星团 揭示早期星系的天然诞生地](./2026-06-17-jwst-massive-clusters-galaxy-building-blocks/) |
 | 6-17 | [蓝色起源承诺年内复飞新格伦 5月底发射台爆炸后已动工重建](./2026-06-17-blue-origin-new-glenn-2026-return-to-flight/) |
