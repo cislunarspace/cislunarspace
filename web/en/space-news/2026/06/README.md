@@ -13,6 +13,7 @@ lastUpdated: 2026-06-18
 
 | Date | Title |
 |------|-------|
+| 6-17 | [Webb Reveals Lava Planet 55 Cancri e Has Hydrogen-Rich Active Atmosphere](./2026-06-17-jwst-55-cancri-e-hydrogen-atmosphere/) |
 | 6-17 | [Rocket Lab Electron Launches 10th Dedicated StriX Mission for Synspective](./2026-06-17-rocket-lab-strix-launch-10/) |
 | 6-17 | [Kuaizhou-11 Launches from Jiuquan](./2026-06-17-kuaizhou-11-jiuquan-launch/) |
 | 6-16 | [NASA Says Nyet to Roscosmos Plan to Cut Into Leaky ISS Segment](./2026-06-16-iss-leak-nasa-rejects-roscosmos-cut-plan/) |

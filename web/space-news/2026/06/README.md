@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-17 | [JWST揭示熔岩行星55 Cancri e拥有富氢活跃大气层](./2026-06-17-jwst-55-cancri-e-hydrogen-atmosphere/) |
 | 6-17 | [Rocket Lab 电子号火箭为 Synspective 执行第十次 StriX 专项发射](./2026-06-17-rocket-lab-strix-launch-10/) |
 | 6-17 | [中国快舟十一号运载火箭从酒泉发射升空](./2026-06-17-kuaizhou-11-jiuquan-launch/) |
 | 6-16 | [国际空间站漏气加剧 NASA拒绝俄方在漏气舱段开孔检查方案](./2026-06-16-iss-leak-nasa-rejects-roscosmos-cut-plan/) |
