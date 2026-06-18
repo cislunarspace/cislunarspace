@@ -13,6 +13,8 @@ lastUpdated: 2026-06-18
 
 | Date | Title |
 |------|-------|
+| 6-16 | [Mixed reactions over all-male Artemis III crew](./2026-06-16-mixed-reactions-all-male-artemis-iii-crew/) |
+| 6-17 | [NASAs Webb Catches Exoplanet Getting Roasted](./2026-06-17-webb-catches-exoplanet-hd-80606b-roasted/) |
 | 6-17 | [Webb Reveals Lava Planet 55 Cancri e Has Hydrogen-Rich Active Atmosphere](./2026-06-17-jwst-55-cancri-e-hydrogen-atmosphere/) |
 | 6-17 | [Rocket Lab Electron Launches 10th Dedicated StriX Mission for Synspective](./2026-06-17-rocket-lab-strix-launch-10/) |
 | 6-17 | [Kuaizhou-11 Launches from Jiuquan](./2026-06-17-kuaizhou-11-jiuquan-launch/) |

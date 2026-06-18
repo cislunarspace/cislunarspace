@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-16 | [Artemis III 全男班机组引争议 佛州民众反应不一](./2026-06-16-mixed-reactions-all-male-artemis-iii-crew/) |
+| 6-17 | [韦伯望远镜捕捉到在极端椭圆轨道上被恒星炙烤的系外行星](./2026-06-17-webb-catches-exoplanet-hd-80606b-roasted/) |
 | 6-17 | [JWST揭示熔岩行星55 Cancri e拥有富氢活跃大气层](./2026-06-17-jwst-55-cancri-e-hydrogen-atmosphere/) |
 | 6-17 | [Rocket Lab 电子号火箭为 Synspective 执行第十次 StriX 专项发射](./2026-06-17-rocket-lab-strix-launch-10/) |
 | 6-17 | [中国快舟十一号运载火箭从酒泉发射升空](./2026-06-17-kuaizhou-11-jiuquan-launch/) |
