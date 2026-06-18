@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-16 | [韦伯与哈勃揭示银河系形成遗存：球状星团 Terzan 5 含四代恒星](./2026-06-16-webb-hubble-terzan5-bulge-fossil/) |
+| 6-17 | [韦伯借助引力透镜发现大质量星团 揭示早期星系的天然诞生地](./2026-06-17-jwst-massive-clusters-galaxy-building-blocks/) |
 | 6-17 | [蓝色起源承诺年内复飞新格伦 5月底发射台爆炸后已动工重建](./2026-06-17-blue-origin-new-glenn-2026-return-to-flight/) |
 | 6-16 | [JWST 揭示 WASP-121b 极端天气：风速 11000 英里/小时 夜间下起红蓝宝石雨](./2026-06-16-jwst-wasp-121b-extreme-weather-rubies-sapphires/) |
 | 6-16 | [JWST 揭示 WASP-94A b 大气昼夜循环：晨多云 暮晴朗](./2026-06-16-jwst-wasp-94a-b-day-night-atmosphere/) |
