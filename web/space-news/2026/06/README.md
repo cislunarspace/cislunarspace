@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-19
+lastUpdated: 2026-06-20
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-18 | [JAXA公布月球探测车月面演示验证结果 小型探月迈出关键一步](./2026-06-18-jaxa-lunar-excursion-vehicle-demo-results/) |
 | 6-17 | [SpaceX猎鹰9号第13次复用创纪录 一次送53颗星链卫星入轨](./2026-06-17-falcon-9-13th-reuse-record/) |
 | 6-19 | [蓝色起源赢得 NASA CLPS 合同 将用蓝色月亮 Mark 2 着陆器于 2028 年送 VIPER 赴月球南极](./2026-06-19-blue-origin-viper-clps-2028/) |
 | 6-16 | [Artemis III 全男班机组引争议 佛州民众反应不一](./2026-06-16-mixed-reactions-all-male-artemis-iii-crew/) |

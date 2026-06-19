@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-19
+lastUpdated: 2026-06-20
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-19
 
 | Date | Title |
 |------|-------|
+| 6-18 | [JAXA Publishes Lunar Demonstration Results of Lunar Excursion Vehicle](./2026-06-18-jaxa-lunar-excursion-vehicle-demo-results/) |
 | 6-17 | [SpaceX Falcon 9 Flies for 13th Time, Setting New Reuse Record](./2026-06-17-falcon-9-13th-reuse-record/) |
 | 6-19 | [Blue Origin wins NASA CLPS contract for VIPER lunar rover delivery in 2028](./2026-06-19-blue-origin-viper-clps-2028/) |
 | 6-16 | [Mixed reactions over all-male Artemis III crew](./2026-06-16-mixed-reactions-all-male-artemis-iii-crew/) |
