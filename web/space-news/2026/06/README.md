@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-18 | [ESA宣布将采购专用SpaceX载人龙飞船任务前往国际空间站](./2026-06-18-esa-crew-dragon-dedicated-mission/) |
+| 6-18 | [JWST拍摄到异常成熟的星系团，打开宇宙正午前沿窗口](./2026-06-18-jwst-cosmic-noon-galaxy-cluster/) |
 | 6-18 | [JAXA公布月球探测车月面演示验证结果 小型探月迈出关键一步](./2026-06-18-jaxa-lunar-excursion-vehicle-demo-results/) |
 | 6-17 | [SpaceX猎鹰9号第13次复用创纪录 一次送53颗星链卫星入轨](./2026-06-17-falcon-9-13th-reuse-record/) |
 | 6-19 | [蓝色起源赢得 NASA CLPS 合同 将用蓝色月亮 Mark 2 着陆器于 2028 年送 VIPER 赴月球南极](./2026-06-19-blue-origin-viper-clps-2028/) |
