@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-18 | [XRISM观测揭示黑洞风正剥夺巨型星系的造星原料](./2026-06-18-black-hole-winds-ngc4151-xrism/) |
 | 6-18 | [ESA宣布将采购专用SpaceX载人龙飞船任务前往国际空间站](./2026-06-18-esa-crew-dragon-dedicated-mission/) |
 | 6-18 | [JWST拍摄到异常成熟的星系团，打开宇宙正午前沿窗口](./2026-06-18-jwst-cosmic-noon-galaxy-cluster/) |
 | 6-18 | [JAXA公布月球探测车月面演示验证结果 小型探月迈出关键一步](./2026-06-18-jaxa-lunar-excursion-vehicle-demo-results/) |
