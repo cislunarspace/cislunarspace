@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-18
+lastUpdated: 2026-06-19
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-19 | [蓝色起源赢得 NASA CLPS 合同 将用蓝色月亮 Mark 2 着陆器于 2028 年送 VIPER 赴月球南极](./2026-06-19-blue-origin-viper-clps-2028/) |
 | 6-16 | [Artemis III 全男班机组引争议 佛州民众反应不一](./2026-06-16-mixed-reactions-all-male-artemis-iii-crew/) |
 | 6-17 | [韦伯望远镜捕捉到在极端椭圆轨道上被恒星炙烤的系外行星](./2026-06-17-webb-catches-exoplanet-hd-80606b-roasted/) |
 | 6-17 | [JWST揭示熔岩行星55 Cancri e拥有富氢活跃大气层](./2026-06-17-jwst-55-cancri-e-hydrogen-atmosphere/) |

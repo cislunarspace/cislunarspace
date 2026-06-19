@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-18
+lastUpdated: 2026-06-19
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-18
 
 | Date | Title |
 |------|-------|
+| 6-19 | [Blue Origin wins NASA CLPS contract for VIPER lunar rover delivery in 2028](./2026-06-19-blue-origin-viper-clps-2028/) |
 | 6-16 | [Mixed reactions over all-male Artemis III crew](./2026-06-16-mixed-reactions-all-male-artemis-iii-crew/) |
 | 6-17 | [NASAs Webb Catches Exoplanet Getting Roasted](./2026-06-17-webb-catches-exoplanet-hd-80606b-roasted/) |
 | 6-17 | [Webb Reveals Lava Planet 55 Cancri e Has Hydrogen-Rich Active Atmosphere](./2026-06-17-jwst-55-cancri-e-hydrogen-atmosphere/) |
