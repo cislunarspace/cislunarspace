@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-18 | [中国空间站开展水稻「种子到种子」全周期种植实验](./2026-06-18-tiangong-rice-cultivation-experiment/) |
+| 6-18 | [JWST 观测到系外行星 HD 80606 b 近星点时数小时内温度飙升 600°C](./2026-06-18-jwst-hd80606b-exoplanet-heat-spike/) |
 | 6-18 | [JWST 对温带系外行星做详细光谱分析，确认大气中富含甲烷](./2026-06-18-jwst-methane-temperate-exoplanet/) |
 | 6-18 | [国际空间站周报：Canadarm2维修计划推进，CRS-34货运龙飞船离港](./2026-06-18-iss-canadarm2-repairs-crs34-departure/) |
 | 6-18 | [XRISM观测揭示黑洞风正剥夺巨型星系的造星原料](./2026-06-18-black-hole-winds-ngc4151-xrism/) |
