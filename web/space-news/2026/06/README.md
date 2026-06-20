@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-18 | [JWST 对温带系外行星做详细光谱分析，确认大气中富含甲烷](./2026-06-18-jwst-methane-temperate-exoplanet/) |
 | 6-18 | [国际空间站周报：Canadarm2维修计划推进，CRS-34货运龙飞船离港](./2026-06-18-iss-canadarm2-repairs-crs34-departure/) |
 | 6-18 | [XRISM观测揭示黑洞风正剥夺巨型星系的造星原料](./2026-06-18-black-hole-winds-ngc4151-xrism/) |
 | 6-18 | [ESA宣布将采购专用SpaceX载人龙飞船任务前往国际空间站](./2026-06-18-esa-crew-dragon-dedicated-mission/) |

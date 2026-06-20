@@ -13,6 +13,7 @@ lastUpdated: 2026-06-20
 
 | Date | Title |
 |------|-------|
+| 6-18 | [JWST Confirms Abundant Methane in Temperate Exoplanet Atmosphere via Detailed Spectroscopy](./2026-06-18-jwst-methane-temperate-exoplanet/) |
 | 6-18 | [ISS Weekly Roundup： Canadarm2 Repairs Planned as CRS-34 Departs](./2026-06-18-iss-canadarm2-repairs-crs34-departure/) |
 | 6-18 | [Black Hole Winds May Be Robbing Giant Galaxies of Raw Material for Stars](./2026-06-18-black-hole-winds-ngc4151-xrism/) |
 | 6-18 | [ESA to Fly Dedicated Crew Dragon Mission to ISS](./2026-06-18-esa-crew-dragon-dedicated-mission/) |
