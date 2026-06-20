@@ -13,6 +13,7 @@ lastUpdated: 2026-06-20
 
 | Date | Title |
 |------|-------|
+| 6-18 | [JWST Reveals Supermassive Black Hole That Formed Before Its Host Galaxy](./2026-06-18-jwst-black-hole-before-galaxy/) |
 | 6-18 | [Chinas Space Station Conducts Full Seed-to-Seed Rice Cultivation Experiment](./2026-06-18-tiangong-rice-cultivation-experiment/) |
 | 6-18 | [JWST Watches Exoplanet HD 80606 b Heat Up by 1,100°F in Hours During Periastron](./2026-06-18-jwst-hd80606b-exoplanet-heat-spike/) |
 | 6-18 | [JWST Confirms Abundant Methane in Temperate Exoplanet Atmosphere via Detailed Spectroscopy](./2026-06-18-jwst-methane-temperate-exoplanet/) |
