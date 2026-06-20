@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-20
+lastUpdated: 2026-06-21
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-19 | [SpaceX第五艘龙飞船「Grace」抵达国际空间站，Axiom-4私人乘组进驻](./2026-06-19-axiom4-crew-dragon-grace-iss/) |
 | 6-18 | [中美火星采样返回竞赛：NASA押注商业新秀 vs 中国稳步推进天问三号](./2026-06-18-tianwen3-vs-nasa-mars-sample-return/) |
 | 6-19 | [NASA 公布 Artemis III 乘组：四名航天员将于2027年近地轨道测试登月关键技术](./2026-06-19-artemis-iii-crew-announcement/) |
 | 6-20 | [国际空间站遭遇冷战式危机：美俄互信崩塌，宇航员被迫躲进龙飞船避难](./2026-06-20-iss-zvezda-leak-dragon-shelter/) |
