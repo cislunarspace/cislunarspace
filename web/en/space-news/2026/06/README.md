@@ -13,6 +13,8 @@ lastUpdated: 2026-06-21
 
 | Date | Title |
 |------|-------|
+| 6-19 | [BepiColombo Completes Third Gravity-Assist Flyby of Mercury](./2026-06-19-bepicolombo-third-mercury-flyby/) |
+| 6-20 | [Hong Kongs First Astronaut Lai Ka-ying Adapts to Microgravity Aboard Tiangong, Space-Earth Dialogue Expected Soon](./2026-06-20-hk-astronaut-lai-ka-ying-tiangong/) |
 | 6-21 | [Long March 3B/E Scheduled Launch from Jiuquan Satellite Launch Center](./2026-06-21-long-march-3b-e-jiuquan-launch/) |
 | 6-20 | [Zhuque-3 Reusable Rocket First Stage Hot-Fire Test Succeeds with 7,542 kN Total Thrust from 9 LOX-Methane Engines](./2026-06-20-zhuque-3-first-stage-hotfire-test/) |
 | 6-19 | [Christina Koch Wins 2026 Princess of Asturias Award for Concord Following Artemis II Moon Mission](./2026-06-19-christina-koch-princess-of-asturias-award-2026/) |

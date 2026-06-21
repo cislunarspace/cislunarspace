@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-19 | [BepiColombo探测器完成第三次水星引力辅助飞越](./2026-06-19-bepicolombo-third-mercury-flyby/) |
+| 6-20 | [香港首位航天员赖家颖在天宫空间站适应失重 预计近期与港民天地对话](./2026-06-20-hk-astronaut-lai-ka-ying-tiangong/) |
 | 6-21 | [长征三号乙/增强型计划在酒泉发射](./2026-06-21-long-march-3b-e-jiuquan-launch/) |
 | 6-20 | [朱雀三号可复用火箭一级动力系统热试车成功，9台液氧甲烷发动机并联总推力7542千牛](./2026-06-20-zhuque-3-first-stage-hotfire-test/) |
 | 6-19 | [克里斯蒂娜·科赫获2026年阿斯图里亚斯亲王和平奖 表彰其阿尔忒弥斯II绕月任务](./2026-06-19-christina-koch-princess-of-asturias-award-2026/) |
