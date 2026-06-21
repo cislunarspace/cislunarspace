@@ -13,6 +13,7 @@ lastUpdated: 2026-06-21
 
 | Date | Title |
 |------|-------|
+| 6-21 | [Long March 3B/E Scheduled Launch from Jiuquan Satellite Launch Center](./2026-06-21-long-march-3b-e-jiuquan-launch/) |
 | 6-20 | [Zhuque-3 Reusable Rocket First Stage Hot-Fire Test Succeeds with 7,542 kN Total Thrust from 9 LOX-Methane Engines](./2026-06-20-zhuque-3-first-stage-hotfire-test/) |
 | 6-19 | [Christina Koch Wins 2026 Princess of Asturias Award for Concord Following Artemis II Moon Mission](./2026-06-19-christina-koch-princess-of-asturias-award-2026/) |
 | 6-19 | [SpaceXs Fifth and Final Crew Dragon Grace Arrives at ISS with Axiom-4 Private Astronaut Crew](./2026-06-19-axiom4-crew-dragon-grace-iss/) |
