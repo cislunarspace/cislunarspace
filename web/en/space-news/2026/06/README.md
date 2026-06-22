@@ -13,6 +13,7 @@ lastUpdated: 2026-06-23
 
 | Date | Title |
 |------|-------|
+| 6-23 | [SpaceX Starfall Reentry Vehicle Prototype Debuts on Falcon 9 Demo Mission](./2026-06-23-spacex-starfall-demo-launch/) |
 | 6-22 | [Qianfan Operator Shanghai Spacesail Raises New Funding Round as Constellation Reaches ~200 Satellites in Orbit](./2026-06-22-qianfan-spacesail-new-funding-round/) |
 | 6-19 | [BepiColombo Completes Third Gravity-Assist Flyby of Mercury](./2026-06-19-bepicolombo-third-mercury-flyby/) |
 | 6-20 | [Hong Kongs First Astronaut Lai Ka-ying Adapts to Microgravity Aboard Tiangong, Space-Earth Dialogue Expected Soon](./2026-06-20-hk-astronaut-lai-ka-ying-tiangong/) |
