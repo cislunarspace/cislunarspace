@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-21
+lastUpdated: 2026-06-23
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-22 | [千帆星座运营主体垣信卫星启动新一轮融资，在轨卫星已达约200颗](./2026-06-22-qianfan-spacesail-new-funding-round/) |
 | 6-19 | [BepiColombo探测器完成第三次水星引力辅助飞越](./2026-06-19-bepicolombo-third-mercury-flyby/) |
 | 6-20 | [香港首位航天员赖家颖在天宫空间站适应失重 预计近期与港民天地对话](./2026-06-20-hk-astronaut-lai-ka-ying-tiangong/) |
 | 6-21 | [长征三号乙/增强型计划在酒泉发射](./2026-06-21-long-march-3b-e-jiuquan-launch/) |
