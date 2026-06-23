@@ -13,6 +13,7 @@ lastUpdated: 2026-06-23
 
 | Date | Title |
 |------|-------|
+| 6-21 | [JWST Reveals Salty Sodium Chloride Clouds on the Famous Pink Planet](./2026-06-21-jwst-pink-planet-salty-clouds/) |
 | 6-22 | [Analysis： Chinas Private Space Industry Must Not Be Underestimated, With Over 400 Commercial Space Companies](./2026-06-22-china-private-space-industry-analysis/) |
 | 6-24 | [Zhuque-3 Y2 Launches June 24, Attempting Chinas First Rocket First-Stage Recovery](./2026-06-24-zhuque-3-y2-recovery-attempt/) |
 | 6-23 | [SpaceX Starfall Reentry Vehicle Prototype Debuts on Falcon 9 Demo Mission](./2026-06-23-spacex-starfall-demo-launch/) |
