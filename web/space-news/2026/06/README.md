@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-23
+lastUpdated: 2026-06-25
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-24 | [JWST 发现天王星新卫星](./2026-06-24-jwst-uranus-new-moon-discovery/) |
 | 6-22 | [商业监测公司确认：中国可重复使用航天器在轨释放物体](./2026-06-22-chinese-spaceplane-orbit-object-release/) |
 | 6-22 | [中国千帆星座挑战星链全球垄断，IPO前夕密集发射卫星](./2026-06-22-china-spacesail-vs-starlink-ipo/) |
 | 6-21 | [JWST发现「粉红星球」含氯化钠云层](./2026-06-21-jwst-pink-planet-salty-clouds/) |

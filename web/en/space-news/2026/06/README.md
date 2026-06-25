@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-23
+lastUpdated: 2026-06-25
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-23
 
 | Date | Title |
 |------|-------|
+| 6-24 | [Scientists Find Tiny New Moon Around Uranus with JWST](./2026-06-24-jwst-uranus-new-moon-discovery/) |
 | 6-22 | [Chinese Spaceplane Releases Object into Orbit, Confirmed by Commercial Space Surveillance](./2026-06-22-chinese-spaceplane-orbit-object-release/) |
 | 6-22 | [Chinas Spacesail Constellation Challenges Starlink Global Dominance, Ramps Up Launches Ahead of IPO](./2026-06-22-china-spacesail-vs-starlink-ipo/) |
 | 6-21 | [JWST Reveals Salty Sodium Chloride Clouds on the Famous Pink Planet](./2026-06-21-jwst-pink-planet-salty-clouds/) |
