@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-24 | [神舟二十二号返回舱带回41公斤关键科技样品](./2026-06-24-shenzhou-22-returns-41kg-samples/) |
 | 6-23 | [中国空间站启动二次扩容：T字构型将升级为十字构型](./2026-06-23-tiangong-station-expansion-cross-config/) |
 | 6-23 | [JAXA 与 ESA 签署协议 共同参与小行星阿波菲斯 RAMSES 任务](./2026-06-23-jaxa-esa-ramses-apophis-agreement/) |
 | 6-24 | [JWST 发现天王星新卫星](./2026-06-24-jwst-uranus-new-moon-discovery/) |

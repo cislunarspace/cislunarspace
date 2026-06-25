@@ -13,6 +13,7 @@ lastUpdated: 2026-06-25
 
 | Date | Title |
 |------|-------|
+| 6-24 | [Shenzhou-22 Returns to Earth with 41kg of Critical Science and Technology Samples](./2026-06-24-shenzhou-22-returns-41kg-samples/) |
 | 6-23 | [Chinas Tiangong Space Station to Expand from T-Shape to Cross Configuration](./2026-06-23-tiangong-station-expansion-cross-config/) |
 | 6-23 | [JAXA and ESA Sign Agreement for RAMSES Mission to Asteroid Apophis](./2026-06-23-jaxa-esa-ramses-apophis-agreement/) |
 | 6-24 | [Scientists Find Tiny New Moon Around Uranus with JWST](./2026-06-24-jwst-uranus-new-moon-discovery/) |
