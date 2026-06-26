@@ -13,6 +13,7 @@ lastUpdated: 2026-06-27
 
 | Date | Title |
 |------|-------|
+| 6-26 | [Qianfan Constellation Terminal Debuts： Direct Satellite-to-Phone Calls With 5G-Comparable Quality](./2026-06-26-qianfan-satellite-direct-to-phone-terminal-debut/) |
 | 6-26 | [Rocket Lab Launches Ten Owl of Ten Mission for Synspectives 10th StriX Satellite](./2026-06-26-rocket-lab-ten-owl-synspective-strix/) |
 | 6-25 | [What is Chinas SpaceSail, and could it rival Elon Musks Starlink](./2026-06-25-china-spacesail-vs-starlink/) |
 | 6-25 | [Chinas Tianwen-2 Mission Has Probably Arrived at a Quasi-Moon of Earth](./2026-06-25-tianwen-2-arrival-kamo-oalewa/) |

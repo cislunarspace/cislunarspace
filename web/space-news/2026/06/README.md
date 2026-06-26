@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-26 | [千帆星座卫星终端首次亮相：手机直连卫星通话，质量比肩5G](./2026-06-26-qianfan-satellite-direct-to-phone-terminal-debut/) |
 | 6-26 | [Rocket Lab「十全十美」任务发射 Synspective 第10颗 StriX 卫星](./2026-06-26-rocket-lab-ten-owl-synspective-strix/) |
 | 6-25 | [千帆星座能否挑战星链？中国国家队卫星互联网计划引发关注](./2026-06-25-china-spacesail-vs-starlink/) |
 | 6-25 | [天问二号据报已抵达地球准卫星 Kamoʻoalewa，即将开展伴飞采样](./2026-06-25-tianwen-2-arrival-kamo-oalewa/) |
