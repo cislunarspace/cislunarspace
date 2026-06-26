@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-25 | [千帆星座能否挑战星链？中国国家队卫星互联网计划引发关注](./2026-06-25-china-spacesail-vs-starlink/) |
+| 6-25 | [天问二号据报已抵达地球准卫星 Kamoʻoalewa，即将开展伴飞采样](./2026-06-25-tianwen-2-arrival-kamo-oalewa/) |
 | 6-24 | [欧几里得太空望远镜拍出银河系中心最详细图像，为罗曼望远镜巡天预热](./2026-06-24-euclid-milky-way-center-image/) |
 | 6-25 | [中国正在研制7米直径可重复使用火箭](./2026-06-25-china-7m-reusable-rockets/) |
 | 6-25 | [JWST首次捕获系外行星被宿主恒星「炙烤」的大气变化](./2026-06-25-jwst-hd80606b-stellar-roasting/) |
