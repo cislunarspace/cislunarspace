@@ -13,6 +13,7 @@ lastUpdated: 2026-06-26
 
 | Date | Title |
 |------|-------|
+| 6-24 | [Euclid Spacecraft Captures Most Detailed Image of Milky Ways Center, Previewing Roman Telescope Survey](./2026-06-24-euclid-milky-way-center-image/) |
 | 6-25 | [China Developing 7-Meter-Diameter Reusable Rockets](./2026-06-25-china-7m-reusable-rockets/) |
 | 6-25 | [JWST Captures Atmospheric Changes as Exoplanet Gets Roasted by Its Star](./2026-06-25-jwst-hd80606b-stellar-roasting/) |
 | 6-25 | [JWSTs 223-Megapixel Image of Starburst Galaxy M82 Reveals 16.5 Million Stars](./2026-06-25-jwst-m82-223mp-stars/) |
