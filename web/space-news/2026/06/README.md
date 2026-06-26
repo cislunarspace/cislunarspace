@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-26
+lastUpdated: 2026-06-27
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-26 | [Rocket Lab「十全十美」任务发射 Synspective 第10颗 StriX 卫星](./2026-06-26-rocket-lab-ten-owl-synspective-strix/) |
 | 6-25 | [千帆星座能否挑战星链？中国国家队卫星互联网计划引发关注](./2026-06-25-china-spacesail-vs-starlink/) |
 | 6-25 | [天问二号据报已抵达地球准卫星 Kamoʻoalewa，即将开展伴飞采样](./2026-06-25-tianwen-2-arrival-kamo-oalewa/) |
 | 6-24 | [欧几里得太空望远镜拍出银河系中心最详细图像，为罗曼望远镜巡天预热](./2026-06-24-euclid-milky-way-center-image/) |
