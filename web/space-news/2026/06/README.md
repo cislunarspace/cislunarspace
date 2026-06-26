@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-25
+lastUpdated: 2026-06-26
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-25 | [JWST首次捕获系外行星被宿主恒星「炙烤」的大气变化](./2026-06-25-jwst-hd80606b-stellar-roasting/) |
+| 6-25 | [JWST拍摄2.23亿像素M82星系照片 揭示1650万颗恒星](./2026-06-25-jwst-m82-223mp-stars/) |
 | 6-24 | [神舟二十二号返回舱带回41公斤关键科技样品](./2026-06-24-shenzhou-22-returns-41kg-samples/) |
 | 6-23 | [中国空间站启动二次扩容：T字构型将升级为十字构型](./2026-06-23-tiangong-station-expansion-cross-config/) |
 | 6-23 | [JAXA 与 ESA 签署协议 共同参与小行星阿波菲斯 RAMSES 任务](./2026-06-23-jaxa-esa-ramses-apophis-agreement/) |

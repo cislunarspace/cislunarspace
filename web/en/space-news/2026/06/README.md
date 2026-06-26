@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-25
+lastUpdated: 2026-06-26
 ---
 
 # June 2026
@@ -13,6 +13,8 @@ lastUpdated: 2026-06-25
 
 | Date | Title |
 |------|-------|
+| 6-25 | [JWST Captures Atmospheric Changes as Exoplanet Gets Roasted by Its Star](./2026-06-25-jwst-hd80606b-stellar-roasting/) |
+| 6-25 | [JWSTs 223-Megapixel Image of Starburst Galaxy M82 Reveals 16.5 Million Stars](./2026-06-25-jwst-m82-223mp-stars/) |
 | 6-24 | [Shenzhou-22 Returns to Earth with 41kg of Critical Science and Technology Samples](./2026-06-24-shenzhou-22-returns-41kg-samples/) |
 | 6-23 | [Chinas Tiangong Space Station to Expand from T-Shape to Cross Configuration](./2026-06-23-tiangong-station-expansion-cross-config/) |
 | 6-23 | [JAXA and ESA Sign Agreement for RAMSES Mission to Asteroid Apophis](./2026-06-23-jaxa-esa-ramses-apophis-agreement/) |
