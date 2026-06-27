@@ -17,6 +17,8 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-26 | [JWST拍摄到早期宇宙中巨型星系与超大质量黑洞同时诞生](./2026-06-26-webb-giant-galaxy-birth/) |
+| 6-25 | [JWST在宇宙空洞中发现异常明亮类星体](./2026-06-25-webb-bright-quasars-cosmic-voids/) |
 | 6-25 | [SpaceX 完成第400次星链发射里程碑](./2026-06-25-spacex-starlink-400th-launch/) |
 | 6-26 | [千帆星座卫星终端首次亮相：手机直连卫星通话，质量比肩5G](./2026-06-26-qianfan-satellite-direct-to-phone-terminal-debut/) |
 | 6-26 | [Rocket Lab「十全十美」任务发射 Synspective 第10颗 StriX 卫星](./2026-06-26-rocket-lab-ten-owl-synspective-strix/) |
