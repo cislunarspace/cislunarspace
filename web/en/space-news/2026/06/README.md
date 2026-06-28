@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-27
+lastUpdated: 2026-06-28
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-27
 
 | Date | Title |
 |------|-------|
+| 6-28 | [SpaceX Falcon 9 Launches SiriusXM SXM-11 Communications Satellite](./2026-06-28-spacex-sxm11-launch/) |
 | 6-26 | [Webb spots the birth of a giant galaxy and a supermassive black hole](./2026-06-26-webb-giant-galaxy-birth/) |
 | 6-25 | [Webb telescope spots extremely bright quasars in cosmic voids](./2026-06-25-webb-bright-quasars-cosmic-voids/) |
 | 6-25 | [SpaceX Hits 400th Starlink Launch Milestone](./2026-06-25-spacex-starlink-400th-launch/) |
