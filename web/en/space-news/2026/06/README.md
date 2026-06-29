@@ -13,6 +13,7 @@ lastUpdated: 2026-06-29
 
 | Date | Title |
 |------|-------|
+| 6-28 | [SpaceX Sends 24 Starlink Satellites Into Orbit on Falcon 9 From Vandenberg](./2026-06-28-spacex-starlink-f9-vandenberg-0628/) |
 | 6-28 | [Shenzhou-23 Crew Marks One Month in Orbit, Continues Science Experiments](./2026-06-28-shenzhou-23-one-month-mark/) |
 | 6-28 | [The 610-Degree Roast： Astronomers Witness an Exoplanets Extreme Sunburn](./2026-06-28-jwst-exoplanet-610c-periastron-temperature-spike/) |
 | 6-28 | [SpaceX Falcon 9 Launches SiriusXM SXM-11 Communications Satellite](./2026-06-28-spacex-sxm11-launch/) |

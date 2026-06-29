@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-28 | [SpaceX猎鹰9号从范登堡基地发射24颗星链卫星](./2026-06-28-spacex-starlink-f9-vandenberg-0628/) |
 | 6-28 | [神舟二十三号乘组在轨满月：完成新实验安装并重启机器人助手](./2026-06-28-shenzhou-23-one-month-mark/) |
 | 6-28 | [JWST捕捉系外行星近日点极端升温：温度骤升610°C](./2026-06-28-jwst-exoplanet-610c-periastron-temperature-spike/) |
 | 6-28 | [SpaceX 猎鹰9号发射 SiriusXM SXM-11 大型通信卫星](./2026-06-28-spacex-sxm11-launch/) |
