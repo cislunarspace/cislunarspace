@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-28
+lastUpdated: 2026-06-29
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-28 | [JWST捕捉系外行星近日点极端升温：温度骤升610°C](./2026-06-28-jwst-exoplanet-610c-periastron-temperature-spike/) |
 | 6-28 | [SpaceX 猎鹰9号发射 SiriusXM SXM-11 大型通信卫星](./2026-06-28-spacex-sxm11-launch/) |
 | 6-26 | [JWST拍摄到早期宇宙中巨型星系与超大质量黑洞同时诞生](./2026-06-26-webb-giant-galaxy-birth/) |
 | 6-25 | [JWST在宇宙空洞中发现异常明亮类星体](./2026-06-25-webb-bright-quasars-cosmic-voids/) |
