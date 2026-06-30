@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-29 | [朱雀三号遥二面临关键技术挑战：可复用火箭之路并非坦途](./2026-06-29-zhuque-3-y2-technical-challenges/) |
 | 6-29 | [Blue Origin称New Glenn将在年内复飞，5月爆炸摧毁发射台后启动重建](./2026-06-29-blue-origin-new-glenn-recovery/) |
 | 6-30 | [长征三号乙火箭成功发射实践三十一号卫星](./2026-06-30-long-march-3b-shijian-31/) |
 | 6-29 | [蓝箭航天朱雀三号遥二可复用火箭完成静态点火试验](./2026-06-29-zhuque-3-y2-static-fire/) |
