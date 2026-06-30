@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-29
+lastUpdated: 2026-06-30
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-29
 
 | Date | Title |
 |------|-------|
+| 6-29 | [LandSpace Zhuque-3 Y2 Reusable Rocket Completes Static Fire Test](./2026-06-29-zhuque-3-y2-static-fire/) |
 | 6-28 | [SpaceX Sends 24 Starlink Satellites Into Orbit on Falcon 9 From Vandenberg](./2026-06-28-spacex-starlink-f9-vandenberg-0628/) |
 | 6-28 | [Shenzhou-23 Crew Marks One Month in Orbit, Continues Science Experiments](./2026-06-28-shenzhou-23-one-month-mark/) |
 | 6-28 | [The 610-Degree Roast： Astronomers Witness an Exoplanets Extreme Sunburn](./2026-06-28-jwst-exoplanet-610c-periastron-temperature-spike/) |

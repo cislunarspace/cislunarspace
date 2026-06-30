@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-29
+lastUpdated: 2026-06-30
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-29 | [蓝箭航天朱雀三号遥二可复用火箭完成静态点火试验](./2026-06-29-zhuque-3-y2-static-fire/) |
 | 6-28 | [SpaceX猎鹰9号从范登堡基地发射24颗星链卫星](./2026-06-28-spacex-starlink-f9-vandenberg-0628/) |
 | 6-28 | [神舟二十三号乘组在轨满月：完成新实验安装并重启机器人助手](./2026-06-28-shenzhou-23-one-month-mark/) |
 | 6-28 | [JWST捕捉系外行星近日点极端升温：温度骤升610°C](./2026-06-28-jwst-exoplanet-610c-periastron-temperature-spike/) |
