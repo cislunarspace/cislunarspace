@@ -4,7 +4,7 @@ description: 2026 年 6 月航天新闻条目索引。
 permalink: /space-news/2026/06/
 author: 天疆说
 date: 2026-06-09
-lastUpdated: 2026-06-30
+lastUpdated: 2026-07-02
 wechatShare:
   title: "航天动态 · 2026 年 6 月"
   desc: "2026 年 6 月航天新闻条目索引。"
@@ -17,6 +17,7 @@ wechatShare:
 
 | 日期 | 标题 |
 |------|------|
+| 6-30 | [Rocket Lab 发射日本 IQPS 雷达卫星时中止，任务推迟](./2026-06-30-rocket-lab-abort-iqps-grain-goddess/) |
 | 6-29 | [朱雀三号遥二面临关键技术挑战：可复用火箭之路并非坦途](./2026-06-29-zhuque-3-y2-technical-challenges/) |
 | 6-29 | [Blue Origin称New Glenn将在年内复飞，5月爆炸摧毁发射台后启动重建](./2026-06-29-blue-origin-new-glenn-recovery/) |
 | 6-30 | [长征三号乙火箭成功发射实践三十一号卫星](./2026-06-30-long-march-3b-shijian-31/) |

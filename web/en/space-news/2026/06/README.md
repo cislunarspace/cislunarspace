@@ -4,7 +4,7 @@ description: Monthly index of space news articles for June 2026.
 permalink: /en/space-news/2026/06/
 author: Tianjiang Shuo
 date: 2026-06-09
-lastUpdated: 2026-06-30
+lastUpdated: 2026-07-02
 ---
 
 # June 2026
@@ -13,6 +13,7 @@ lastUpdated: 2026-06-30
 
 | Date | Title |
 |------|-------|
+| 6-30 | [Rocket Lab Aborts Launch of Japanese IQPS Radar Satellite Grain Goddess](./2026-06-30-rocket-lab-abort-iqps-grain-goddess/) |
 | 6-29 | [LandSpace Zhuque-3 Y2 Faces Critical Technical Hurdles Ahead of Reuse Attempt](./2026-06-29-zhuque-3-y2-technical-challenges/) |
 | 6-29 | [Blue Origin Insists New Glenn Will Return to Flight This Year After Explosion Destroyed Launchpad](./2026-06-29-blue-origin-new-glenn-recovery/) |
 | 6-30 | [Long March-3B Launches Shijian-31 Satellite](./2026-06-30-long-march-3b-shijian-31/) |
