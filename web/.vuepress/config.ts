@@ -11,56 +11,19 @@ import navbar from './navbar.ts'
 import navbarEn from './navbar-en.ts'
 import { buildSidebarConfigs } from './sidebar/config.ts'
 import ogMetaPlugin from './og-meta-plugin.ts'
-import { citePlugin } from './cite-plugin.ts'
-import { loadBibliography } from './cite-plugin.ts'
-
-import mk from '@traptitech/markdown-it-katex'
+import { citePlugin, loadBibliography } from './cite-plugin.ts'
+import { katexPlugin } from './katex-plugin.ts'
+import { rawContentPlugin } from './raw-content-plugin.ts'
+import { headScripts } from './head-scripts.ts'
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url))
-const webRoot = path.join(__configDir, '..')
 const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs()
 
 // web/.env、web/.env.local（后者覆盖，便于本机覆写而无需改 .env）
 dotenv.config({ path: path.resolve(__configDir, '../.env'), quiet: true })
 dotenv.config({ path: path.resolve(__configDir, '../.env.local'), override: true, quiet: true })
 
-const COPY_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>`
-const CHECK_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`
-
-function escapeAttr(s: string) {
-  return s
-    .replace(/&/g, '&amp;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/\n/g, '&#10;')
-}
-
-const katexPlugin = {
-  name: 'vuepress-plugin-katex',
-  extendsMarkdown: (md) => {
-    md.use(mk, { blockClass: 'math-block' })
-    const origBlock = md.renderer.rules.math_block!
-    md.renderer.rules.math_block = (tokens, idx) => {
-      const latex = tokens[idx].content.trim()
-      const rendered = origBlock(tokens, idx)
-      return `<div class="math-block-wrapper" data-latex="${escapeAttr(latex)}">${rendered}<button class="math-copy-btn" title="复制 LaTeX 代码">${COPY_ICON}</button></div>\n`
-    }
-  },
-}
-
-const rawContentPlugin = {
-  name: 'vuepress-plugin-raw-content',
-  extendsPage: (page: any) => {
-    if (page.content) {
-      page.frontmatter.__rawContent = page.content
-    }
-  },
-}
-
 const domain = 'https://cislunarspace.cn'
-const tags = ['地月空间', '航天', '轨道动力学']
 
 if (!process.env.DEEPSEEK_API_KEY && process.env.NODE_ENV !== 'production') {
   console.warn(
@@ -95,31 +58,7 @@ export default defineUserConfig({
       name: 'keywords',
       content: '地月空间，航天，轨道动力学，拉格朗日点，NRHO, 阿耳忒弥斯，月球探测，航天器轨道，CR3BP，GNC',
     }],
-    ['script', {}, `
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?${process.env.BAIDU_ANALYTICS_ID || '2675818a983a3131404cee835018f016'}";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-    `],
-    // Google Analytics loaded via googleAnalyticsPlugin below, no manual script needed
-    ['script', {}, `
-      (function() {
-        if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
-        if (window.location.pathname.startsWith('/en/')) return;
-        try {
-          if (localStorage.getItem('cislunar-lang-chosen')) return;
-        } catch(e) {}
-        var lang = navigator.language || navigator.userLanguage || '';
-        var browserLang = lang.toLowerCase();
-        if (browserLang && !browserLang.startsWith('zh')) {
-          try { localStorage.setItem('cislunar-lang-chosen', 'en'); } catch(e) {}
-          window.location.replace('/en/');
-        }
-      })();
-    `],
+    ...headScripts,
   ],
 
   bundler: viteBundler({
