@@ -6,8 +6,21 @@
  * in AiChat.vue. Swap this implementation by replacing decodeStream
  * with a library SSE client when desired.
  */
-import { parseSseLine } from './chat-prompts'
 import type { RouteCallbacks, SseDelta } from './chat-types'
+
+/** Parse a single SSE data line. Returns null if the line is not a content delta. */
+export function parseSseLine(line: string): SseDelta | null {
+  const trimmed = line.trim()
+  if (!trimmed || !trimmed.startsWith('data:')) return null
+  const data = trimmed.slice(5).trim()
+  if (data === '[DONE]') return null
+  try {
+    const parsed = JSON.parse(data)
+    return parsed.choices?.[0]?.delta || null
+  } catch {
+    return null
+  }
+}
 
 export interface StreamCallbacks {
   onChunk(delta: SseDelta): void

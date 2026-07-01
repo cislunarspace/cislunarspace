@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
-import { buildAnswerRulesBlock, buildAnswerSystemWithRetrieved, buildContextBlob, buildSystemPrompt } from './chat-prompts'
+import { buildAnswerRulesBlock, buildAnswerSystemWithRetrieved, buildSystemPrompt } from './chat-prompts'
+import { buildContextBlob } from './chat-data-utils'
 import { createAnswerEngine, readMessage } from './chat-answer-engine'
 import type { ChatContextManager } from './chat-context-manager'
 import type { HierarchicalSiteIndex, Message, NormalizedConfig, SiteContext } from './chat-types'

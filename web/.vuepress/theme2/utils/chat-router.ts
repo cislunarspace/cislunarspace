@@ -10,13 +10,15 @@
 import {
   buildRouterSystemPrompt,
   buildRouterUserMessage,
+} from './chat-prompts'
+import {
   buildSiteMapText,
   fallbackKeywordPaths,
   flattenCategories,
   formatPathList,
   normalizeAndValidatePaths,
   parseRouterResponse,
-} from './chat-prompts'
+} from './chat-data-utils'
 import type { ChatTransport } from './chat-engine-seams'
 import type {
   HierarchicalSiteIndex,

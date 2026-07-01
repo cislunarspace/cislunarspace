@@ -1,6 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import { decodeStream } from './chat-stream'
-import { parseSseLine } from './chat-prompts'
+import { decodeStream, parseSseLine } from './chat-stream'
 
 describe('parseSseLine', () => {
   it('parses data line with content delta', () => {

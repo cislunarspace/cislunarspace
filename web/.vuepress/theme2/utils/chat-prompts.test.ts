@@ -5,6 +5,8 @@ import {
   buildAnswerSystemWithRetrieved,
   buildRouterSystemPrompt,
   buildRouterUserMessage,
+} from './chat-prompts'
+import {
   buildSiteMapText,
   buildContextBlob,
   normalizePath,
@@ -12,8 +14,8 @@ import {
   parseRouterResponse,
   fallbackKeywordPaths,
   formatPathList,
-  parseSseLine,
-} from './chat-prompts'
+} from './chat-data-utils'
+import { parseSseLine } from './chat-stream'
 import type { ChatIndexCategory, IndexRow, SiteContext } from './chat-types'
 
 describe('buildAnswerRulesBlock', () => {

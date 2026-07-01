@@ -11,9 +11,9 @@
 import {
   buildAnswerRulesBlock,
   buildAnswerSystemWithRetrieved,
-  buildContextBlob,
   buildSystemPrompt,
 } from './chat-prompts'
+import { buildContextBlob } from './chat-data-utils'
 import type { ChatContextManager } from './chat-context-manager'
 import type { RouterStepKey } from './chat-router'
 import type {
