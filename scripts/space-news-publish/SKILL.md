@@ -70,7 +70,7 @@ description: >
 
 ## 自动化
 
-cron 由 Hermes 调度，每小时触发 `scripts/space-news-update-local.sh`，跑完 5 阶段（检索/筛选/写稿 → 构建 → commit/push → rsync → chmod）。Phase 1（检索/筛选/写稿）由 `scripts/space-news-update-phase1-hermes.py` 通过 `hermes chat -q -t web -m MiniMax-M3 --max-turns 3` 完成，Python 只负责去重、文件 I/O 与 README 更新。Hermes 凭证由 `~/.hermes/.env` 管理。详见 [CRON.md](CRON.md)。
+cron 由 Hermes 调度，每小时触发 `scripts/space-news-update-local.sh`，跑完 5 阶段（检索/筛选/写稿 → 构建 → commit/push → rsync → chmod）。Phase 1（检索/筛选/写稿）由 `scripts/space-news-update-phase1-hermes.py` 通过 `hermes chat -q -t web -m mimo-v2.5-pro --max-turns 3` 完成，Python 只负责去重、文件 I/O 与 README 更新。Hermes 凭证由 `~/.hermes/.env` 管理。详见 [CRON.md](CRON.md)。
 
 `SKIP_PHASE1=1 bash scripts/space-news-update-local.sh` 跳过检索，只跑构建+部署；`SKIP_DEPLOY=1` 跑检索+构建但不 commit/push/rsync（用于 staging 或验证）。
 

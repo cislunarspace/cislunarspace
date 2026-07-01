@@ -35,7 +35,7 @@ LOG = sys.stderr
 
 # Hermes 适配
 HERMES_BIN = shutil.which("hermes") or "hermes"  # PATH miss 时 fallback 字符串
-HERMES_MODEL = "MiniMax-M3"        # MiniMax-Text-01 被 API 拒（>40000 tokens 上限）
+HERMES_MODEL = "mimo-v2.5-pro"      # MiniMax MCP 已移除，改用 Xiaomi MIMO
 HERMES_MAX_TURNS = "3"             # search/select 都给 3 turns
 HERMES_DRAFT_MAX_TURNS = "2"       # draft 给 2 turns
 HERMES_TIMEOUT_SEARCH = 180        # 实测 120s，留 50% 余量
