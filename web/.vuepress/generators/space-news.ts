@@ -10,20 +10,27 @@ import type {
   SidebarMonth,
   SidebarYear,
   SidebarData,
+  MonthDir,
+  YearDir,
 } from '../sidebar/types.ts'
 
 const categoryMetaDefault = { zh: '', en: '', color: '#64748b' }
 const monthsEn = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-interface MonthDir {
-  month: number
-  path: string
-}
-
-interface YearDir {
-  year: string
-  months: MonthDir[]
-}
+const localeSidebarConfig = {
+  zh: {
+    prefix: '/space-news/',
+    links: [['/space-news/', '门户首页（最新动态与摘要）'], ['/space-news/archive', '按月存档（查阅全部条目）']] as Array<[string, string]>,
+    monthLabel: (year: string, month: number) => `${year}年${month}月`,
+    title: '航天动态（行业新闻与按月归档）',
+  },
+  en: {
+    prefix: '/en/space-news/',
+    links: [['/en/space-news/', 'Portal (latest & highlights)'], ['/en/space-news/archive', 'Monthly archive (all posts)']] as Array<[string, string]>,
+    monthLabel: (_year: string, month: number) => `${monthsEn[month - 1]} ${_year}`,
+    title: 'Space news (industry & monthly archive)',
+  },
+} as const
 
 function scanSpaceNewsDir(baseDir: string): YearDir[] {
   const years: YearDir[] = []
@@ -58,36 +65,18 @@ function scanSpaceNewsDir(baseDir: string): YearDir[] {
   return years
 }
 
-function buildZhSidebar(zhYears: YearDir[]) {
-  const children: Array<[string, string] | { text: string; link: string; collapsible: boolean; children: Array<[string, string]> }> = [
-    ['/space-news/', '门户首页（最新动态与摘要）'],
-    ['/space-news/archive', '按月存档（查阅全部条目）'],
-  ]
-  for (const { year, months } of zhYears) {
+function buildLocaleSidebar(years: YearDir[], locale: 'zh' | 'en') {
+  const cfg = localeSidebarConfig[locale]
+  const children: Array<[string, string] | { text: string; link: string; collapsible: boolean; children: Array<[string, string]> }> = [...cfg.links]
+  for (const { year, months } of years) {
     children.push({
       text: year,
-      link: `/space-news/${year}/`,
+      link: `${cfg.prefix}${year}/`,
       collapsible: true,
-      children: months.map(m => [`/space-news/${year}/${String(m.month).padStart(2, '0')}/`, `${year}年${m.month}月`] as [string, string]),
+      children: months.map(m => [`${cfg.prefix}${year}/${String(m.month).padStart(2, '0')}/`, cfg.monthLabel(year, m.month)] as [string, string]),
     })
   }
-  return [{ text: '航天动态（行业新闻与按月归档）', collapsible: false, children }]
-}
-
-function buildEnSidebar(enYears: YearDir[]) {
-  const children: Array<[string, string] | { text: string; link: string; collapsible: boolean; children: Array<[string, string]> }> = [
-    ['/en/space-news/', 'Portal (latest & highlights)'],
-    ['/en/space-news/archive', 'Monthly archive (all posts)'],
-  ]
-  for (const { year, months } of enYears) {
-    children.push({
-      text: year,
-      link: `/en/space-news/${year}/`,
-      collapsible: true,
-      children: months.map(m => [`/en/space-news/${year}/${String(m.month).padStart(2, '0')}/`, `${monthsEn[m.month - 1]} ${year}`] as [string, string]),
-    })
-  }
-  return [{ text: 'Space news (industry & monthly archive)', collapsible: false, children }]
+  return [{ text: cfg.title, collapsible: false, children }]
 }
 
 export function filesToArticles(
@@ -98,12 +87,9 @@ export function filesToArticles(
   return files
     .filter(f => {
       const filename = path.basename(f.relPath)
+      if (!f.relPath.startsWith(relPathPrefix) || filename.startsWith('README')) return false
       const { frontmatter } = parseFrontmatterAndBody(f.content)
-      return (
-        f.relPath.startsWith(relPathPrefix) &&
-        !filename.startsWith('README') &&
-        frontmatter.draft !== true
-      )
+      return frontmatter.draft !== true
     })
     .map(f => {
       const { frontmatter } = parseFrontmatterAndBody(f.content)
@@ -211,7 +197,7 @@ export function generateSpaceNewsArtifacts(files: MarkdownFile[], webRoot: strin
 
   fs.writeFileSync(
     path.join(outDir, 'sidebar.auto.json'),
-    JSON.stringify({ zh: buildZhSidebar(zhYears), en: buildEnSidebar(enYears) }, null, 2),
+    JSON.stringify({ zh: buildLocaleSidebar(zhYears, 'zh'), en: buildLocaleSidebar(enYears, 'en') }, null, 2),
   )
   console.log('Generated sidebar.auto.json')
 
