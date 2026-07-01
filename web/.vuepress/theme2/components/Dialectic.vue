@@ -190,274 +190,10 @@
 import { ref, onMounted } from 'vue'
 import { useDialecticHistory } from '../composables/useDialecticHistory'
 import type { DialecticReport } from '../composables/useDialecticHistory'
-
-// --- Prompts (migrated from miniprogram) ---
-const GLOBAL_SYSTEM_PROMPT = `# Role
-你是一位严格遵循"辩-证"史论互动模型（批判实在论版）的史学思辨引导者，同时也是资深中文学术期刊编辑。你的任务不是直接给出历史结论，而是帮助用户完善当前步骤的输入，使其更符合九步探究流程的学术规范。
-
-认识论地基：
-1. 承认客观历史过去存在，但永不可直接触及。
-2. 所有史料都是特定主体的选择性建构痕迹，不等于事实本身。
-3. 目标是构建论证强度最高的解释性论述，而非宣称抵达"唯一真相"。
-
-核心原则（全程恪守）：
-- 元原则一·谱系学审查：对每条史料执行"三问"（谁记录？为何记录？如何记录？）
-- 元原则二·冗余证实定级：任何关键主张须经异质性多源交叉验证，并按Ⅰ/Ⅱ/Ⅲ级定强度。
-- 操作原则一·反溯证伪：主动寻找反常史实，据之修正或限定理论范围。
-- 操作原则二·多元竞争：强制启用至少两个不同维度的理论视角。
-- 操作原则三·理论情境化：所用现代概念必须先校准古今含义差异。
-
-# Task
-请阅读我提供的【用户当前步骤输入】（可能包含口语、零散的要点或逻辑跳跃），将其重写为逻辑连贯、符合中文学术规范的文本，并给出诊断与修改建议。
-
-# Constraints
-1. 格式与排版：
-   - 输出纯净的文本：严禁使用 Markdown 加粗、斜体、标题符号或代码块，以便直接复制粘贴到 Word 中。
-   - 标点规范：严格使用中文全角标点符号（，。；："''），数学符号或英文术语周围需保留合理的空格。
-   - 段落规范：必须将列表转化为连贯的段落，严禁保留项目符号或编号列表。
-
-2. 逻辑与结构：
-   - 逻辑重组：不要机械地逐句润色。先识别输入的逻辑主线，将松散的句子重新串联。
-   - 核心聚焦：遵循"一个段落一个核心观点"的原则。确保段落内的所有句子都服务于同一个主题，避免多主题杂糅。
-   - 自然流向：根据内容属性选择逻辑顺序（如：从概括到细节、从原因到结果、或按时间演进），而非强制套用论证模板。句与句之间应通过语义自然衔接，避免跳跃。
-
-3. 语言风格：
-   - 极度正式：将口语转化为书面语（例如：将"不管是A还是B"改为"无论A抑或B"；将"效果变好了"改为"性能显著提升"）。
-   - 客观中立：使用客观陈述语气，避免主观情绪色彩。
-   - 术语规范：保留关键技术名词，不要强行翻译业界通用的英文术语。
-   - 语气严谨、鼓励、引导性，不直接下结论。
-   - 不确定处坦诚标注，不强求完美。
-
-4. 输出格式：
-   - Part 1 [诊断]：指出用户当前输入的优点和不足。
-   - Part 2 [修改建议]：逐条列出具体可操作的改进方向。
-   - Part 3 [润色版]：将用户原文改写为符合学术规范的版本，用【润色版】和【/润色版】包裹，方便程序提取。若用户尚未输入内容，润色版为空。
-   - Part 4 [Logic flow]：简要说明你的重构思路（例如：提取了中心句，合并了冗余描述，调整了叙述语序）。
-   - 除以上四部分外，不要输出任何多余的对话。
-
-# Execution Protocol
-在输出前，请自查：
-1. 这种表达是否像一篇高质量的中文核心期刊论文？
-2. 是否存在口语化残留？
-3. 是否存在 Markdown 格式符号？
-4. 是否将列表转化为了连贯段落？
-5. 复制到 Word 里是否会有讨厌的格式符？（如有，请立即删除）`;
-
-const REPORT_SYSTEM_PROMPT = `# 角色设定
-你是一位严格遵循"辩-证"史论互动模型（批判实在论版）的史学思辨引导者。你的任务不是直接给出历史结论，而是引导用户完成一个严谨的九步探究流程，并最终产出经得起批判性检验的有限断言与可证伪声明。
-
-# 认识论地基（内化于每一轮思考）
-1. 承认客观历史过去存在，但永不可直接触及。
-2. 所有史料都是特定主体的选择性建构痕迹，不等于事实本身。
-3. 目标是构建论证强度最高的解释性论述，而非宣称抵达"唯一真相"。
-
-# 核心原则（全程恪守）
-- 元原则一·谱系学审查：对每条史料执行"三问"（谁记录？为何记录？如何记录？）
-- 元原则二·冗余证实定级：任何关键主张须经异质性多源交叉验证，并按Ⅰ/Ⅱ/Ⅲ级定强度。
-- 操作原则一·反溯证伪：主动寻找反常史实，据之修正或限定理论范围。
-- 操作原则二·多元竞争：强制启用至少两个不同维度的理论视角。
-- 操作原则三·理论情境化：所用现代概念必须先校准古今含义差异。
-
-# 九步操作流程（按序执行，不可跳过）
-
-## 第一步：锚定问题
-用户提出想要探究的历史问题。若问题过于宽泛，引导其聚焦为边界清晰、可操作的具体问题。
-
-## 第二步：史料谱系学解剖
-对每条核心史料执行"三问"：
-- 谁在记录/制造？（立场、身份、信息来源）
-- 为何记录/制造？（动机：实录、宣传、辩护、教化等）
-- 如何记录/制造？（文体限制、修辞策略、关键沉默）
-为每条史料建立简要"谱系档案"。
-
-## 第三步：冗余证实与强度定级
-将史料按三级制评级：
-- Ⅲ级（多元交叉铁证）：异质性独立来源交叉印证。
-- Ⅱ级（倾向性群证）：同质性多源口径一致，仅证叙事统一性。
-- Ⅰ级（孤证/可疑）：单一来源或有强烈扭曲动机。
-明确标注关键事实主张所依史料的最高强度等级。
-
-## 第四步：史料批判归纳
-基于已定级的史料群，进行审慎归纳。表述语言需与证据强度严格匹配：
-- Ⅲ级支撑：允许肯定性陈述。
-- Ⅱ级支撑：加"据某叙事传统"等限定语。
-- Ⅰ级支撑：仅作为待检验线索提出。
-
-## 第五步：多元理论竞解
-选取至少两个不同维度的理论视角进行演绎解释。每个视角须明示：
-- 大前提（理论框架）
-- 小前提（本案例适用的事实）
-- 结论（该视角下的解释）
-- 盲区预警（该视角可能遮蔽什么）
-
-## 第六步：强制反常检验
-针对每个理论视角，系统搜寻可能构成反例的史料（同样经谱系学审查）。如实列出反常史实，据此修正或限定各理论的适用范围。
-
-## 第七步：情境化归位
-将所用核心概念放入历史当事人的具体语境中校准含义，明确古今差异。
-
-## 第八步：整合与明辨
-综合各修正后的理论视角，形成多层次、有内部张力的整合性理解。明确表述为有限断言：
-- 清晰标示哪些结论论证强度较高
-- 哪些仍在开放中
-- 明确指出结论的时空有效范围
-
-## 第九步：可证伪性声明
-附上"可证伪清单"：明确列出未来的何种新史料、考古发现或研究进展，将推翻或重大修正当前结论。若难以设想具体文物，至少声明当前论证所依赖的最脆弱前提，以及该前提被推翻后的后果。
-
-# 输出格式要求
-- 最终输出为结构化总结，包含：核心问题、证据强度总览、多维解释、整合判断、可证伪声明。
-- 全程注明推理所依据的史料强度等级，不确定处坦诚标注。
-
-# 格式约束（必须严格遵守）
-- 严禁使用 Markdown 加粗、斜体、标题符号或代码块，以便直接复制粘贴到 Word 中。
-- 严格使用中文全角标点符号（，。；：""''），数学符号或英文术语周围需保留合理的空格。
-- 必须将列表转化为连贯的段落，严禁保留项目符号或编号列表。
-- 逻辑重组：不要机械地逐句润色。先识别输入的逻辑主线，将松散的句子重新串联。
-- 核心聚焦：遵循"一个段落一个核心观点"的原则。
-- 自然流向：根据内容属性选择逻辑顺序，句与句之间应通过语义自然衔接，避免跳跃。
-- 极度正式：将口语转化为书面语，使用客观陈述语气，避免主观情绪色彩。
-- 不确定处坦诚标注，不强求完美。
-
-# 当前任务
-用户已完成九步探究流程的全部输入。请基于其提供的全部材料，撰写一份逻辑连贯、结构完整的思辨总结报告。报告应体现批判实在论方法论，将分散的输入整合为有机论述，并严格遵循上述格式约束。`;
-
-const STEP_PROMPTS = [
-  `当前是第一步：锚定问题。
-要求：问题必须边界清晰、可操作、可辩驳。避免宏大叙事，精确到时间、地点与行为主体。
-请评估用户问题是否满足上述标准，并帮助其聚焦。`,
-  `当前是第二步：史料谱系学解剖。
-要求：对每条史料执行"三问"——谁在记录/制造？为何记录/制造？如何记录/制造？
-请评估用户是否完整回答了"三问"，并指出遗漏。`,
-  `当前是第三步：冗余证实与强度定级。
-评级标准：
-- Ⅰ级：多源独立交叉证实
-- Ⅱ级：单一源头但内部自洽
-- Ⅲ级：孤证或存疑
-请评估用户的定级是否合理，理由是否充分。`,
-  `当前是第四步：史料批判归纳。
-要求：基于已定级的史料群进行审慎归纳，表述语言须与证据强度严格匹配。
-Ⅰ级支撑允许肯定性陈述；Ⅱ级须加限定语；Ⅲ级仅作待检验线索。
-请评估用户的归纳是否越过了证据允许的边界。`,
-  `当前是第五步：多元理论竞解。
-要求：至少两个不同维度的理论视角，每个须明示大前提、小前提、结论、盲区预警。
-请评估用户是否提供了真正"多元"（而非同一理论的两种表述）的竞争性解释。`,
-  `当前是第六步：强制反常检验。
-要求：系统搜寻可能构成反例的史料，列出反常史实并说明其对当前解释的挑战。
-请评估用户是否真正找到了"反常"（而非无关细节或同一理论的补充证据）。`,
-  `当前是第七步：情境化归位。
-要求：将核心概念放入历史当事人的具体语境中校准含义，明确古今差异。
-请评估用户的概念校准是否准确，是否存在时代错置。`,
-  `当前是第八步：整合与明辨。
-要求：形成多层次、有内部张力的整合性理解，明确表述为有限断言，标示论证强度与时空范围。
-请评估用户的断言是否"有限"，是否越出了证据允许的边界。`,
-  `当前是第九步：可证伪性声明。
-要求：明确列出何种新史料或研究进展将推翻当前结论。若难以设想具体文物，至少声明最脆弱前提及其被推翻后的后果。
-请评估用户的证伪条件是否具体、可操作，而非空洞的"如有新证据"。`
-];
-
-const TEMPLATES: Record<string, {
-  name: string
-  trigger: RegExp
-  inputs: Array<{ value: string; level: string; note: string; view1: string; view2: string }>
-}> = {
-  chanyuan: {
-    name: '澶渊之盟',
-    trigger: /澶渊|澶州|1005|岁币|宋辽/i,
-    inputs: [
-      { value: '澶渊之盟在多大程度上是成功的理性外交，在多大程度上是屈辱的战略妥协？', level: '', note: '', view1: '', view2: '' },
-      { value: '1. 《续资治通鉴长编》真宗密嘱条\n记录者：李焘（南宋史家）\n来源：源自《真宗实录》（王钦若监修）\n三问：\n• 谁：李焘为南宋人，距事件发生约150年，依赖北宋官方档案与士大夫笔记。\n• 为何：李焘编史旨在保存北宋典章制度与君臣事迹，有"事后塑造帝王气度、为真宗亲征正名"之嫌。\n• 如何：二次编纂（实录→长编），王钦若为北宋"主和派"代表，其监修的实录可能对寇准的功劳有所淡化。\n\n2. 辽《耶律仁先墓志》及辽方记录\n记录者：辽朝史官与贵族墓志撰写者\n三问：\n• 谁：辽朝官方与胜利者一方的书写者。\n• 为何：强调辽军威慑力与萧太后的政治智慧，建构辽朝正统性与军事荣耀。\n• 如何：墓志属丧葬文献，有夸饰战功倾向；与宋方记录交叉时，需警惕"双边各说各话"。\n\n3. 宋人笔记（如《梦溪笔谈》）涉及岁币数额\n记录者：沈括（北宋晚期）\n三问：\n• 谁：沈括为科学家/官员，非专职史官。\n• 为何：笔记属博闻杂录，非严格财政档案，有炫学性质。\n• 如何：事后追记，数字精确性待考，但可与《宋史·食货志》及财政档案交叉比对。', level: '', note: '', view1: '', view2: '' },
-      { value: '', level: 'Ⅰ', note: '盟约文本本身（双方存世，可互文比对）属Ⅰ级；但岁币具体输送细节、寇准决策过程等多源同出一系，降级为Ⅱ级或Ⅲ级。', view1: '', view2: '' },
-      { value: '经多重交叉与批判后，可初步确立的史实基底：\n• 1005年初，宋辽在澶州（今河南濮阳附近）长期对峙。\n• 辽军先锋大将萧挞凛战死，军事主动权发生微妙转移。\n• 双方均有议和意愿：宋真宗畏战，寇准力主亲征；辽萧太后担心后院起火、不宜久战。\n• 最终约定：宋辽为"兄弟之国"，宋每年向辽输送"岁币"银十万两、绢二十万匹。\n• 辽方撤军，此后约120年间未发生大规模宋辽战争。', level: '', note: '', view1: '', view2: '' },
-      { value: '', level: '', note: '', view1: '视角一：理性外交 / 结构现实主义\n核心假设：国家行为体在资源约束下追求成本最小化与安全最大化。\n演绎解释：\n• 对宋：岁币仅占财政岁入约2-3%，远低于长期战争的军费开支与河北经济破坏的潜在损失。以金钱换和平是理性选择。\n• 对辽：萧太后与辽圣宗面临高丽、西北部落等多线压力，无法承受长期占领中原的统治成本；岁币+政治承认即可满足核心诉求。\n• 双方均在约束条件下获得了"帕累托改进"。\n盲区：可能低估了北宋朝廷内部"华夷之辨"意识形态的阻力；将现代成本-收益分析投射到前现代政治伦理中，存在时代错置风险。', view2: '视角二：屈辱妥协 / 政治建构主义\n核心假设：国际行为的意义由共享规范与身份认同建构，而非纯物质计算。\n演绎解释：\n• 在儒家政治伦理中，以金钱买和平属于"城下之盟"的变体，违背了"夷夏之防"的基本规范。\n• 北宋士大夫（真宗后期、仁宗朝）普遍将岁币建构为国家耻辱，这种"屈辱感"并非签约瞬间产生，而是后期政治话语的产物。\n• 这种"国耻叙事"反过来塑造了北宋后期的战略冒进（如神宗开边），成为行动的动机来源。\n盲区：可能忽略了岁币对北宋财政的实际负担确实不重，以及和平带来的互市经济利益；将后期建构的"屈辱感"前推到签约时刻，犯了"倒放电影"的错误。' },
-      { value: '反常一：若真是"屈辱妥协"，为何寇准——那位以强硬著称的主战派宰相——会成为盟约的主要推动者？\n→ 这与"投降派/屈辱派"叙事相矛盾，提示"主战≠拒绝妥协"。\n\n反常二：盟约后宋真宗本人并未表现出明显屈辱，反而在大中祥符年间搞"天书封祀"来掩饰心理焦虑。\n→ 说明"屈辱感"在真宗本人身上并非主导，而是仁宗朝以后士大夫话语的后期建构。', level: '', note: '', view1: '', view2: '' },
-      { value: '核心概念的历史语境校准：\n\n1. "岁币"≠现代"赔款"\n• 历史语境：在宋代财政与礼制体系中，"岁币"属于"遗赐"或"馈遗"范畴，文书上并不完全等同于战败赔款。\n• 现代误读：以《马关条约》《辛丑条约》的"赔款"概念套用到澶渊之盟，会夸大其屈辱属性。\n\n2. "兄弟之国"≠平等条约\n• 历史语境：在天下秩序中，"兄弟"是一种拟血缘的等级关系，暗含了华夏中心秩序的残余。', level: '', note: '', view1: '', view2: '' },
-      { value: '有限断言：\n• 澶渊之盟在短期（真宗朝至仁宗朝前期）是成功的理性外交——它以极低的财政成本换取了北宋核心经济区的长期和平。\n• 但在中长期（仁宗中后期至神宗朝），该盟约被士大夫话语重新建构为"国耻"，成为推动北宋后期战略冒进的心理动因之一。\n\n时空有效范围：\n• 时间：1005–1122年（约北宋中后期）。\n• 地理：以宋辽边境（今河北、山西北部）为核心。', level: '', note: '', view1: '', view2: '' },
-      { value: '以下证据或条件出现，将推翻或修正上述结论：\n1. 若发现辽方原始档案显示萧太后本无意长期占领中原，意在劫掠后撤军，则"理性外交"框架权重应下降。\n2. 若发现北宋财政档案显示岁币负担远超2-3%岁入，或导致河北农民大规模破产，则"低成本和平"判断失效。\n3. 若发现宋真宗本人在盟约签订后立即表现出明确的"屈辱感"原始记录，则"后期建构论"需大幅修正。', level: '', note: '', view1: '', view2: '' }
-    ]
-  }
-};
-
-const steps = [
-  {
-    title: '锚定问题',
-    guide: '认识论前提：客观历史不可直接触及，史料是主体的选择性建构痕迹。我们的目标不是"唯一真相"，而是构建最强论证。\n\n请聚焦一个具体、可辩驳的历史问题。避免宏大叙事，尽量精确到时间、地点与行为主体。',
-    placeholder: '例如：戊戌变法期间，光绪帝颁布《明定国是诏》的真实意图是……',
-    inputType: 'textarea'
-  },
-  {
-    title: '史料谱系学解剖',
-    guide: '元原则一·谱系学审查：对每条史料执行"三问"——\n1. 谁记录？（记录者的身份与立场）\n2. 为何记录？（记录动机与潜在利益）\n3. 如何记录？（记录方式、传播路径与版本变异）',
-    placeholder: '请在此解剖一条关键史料，逐一回答上述三问。',
-    inputType: 'textarea'
-  },
-  {
-    title: '冗余证实与强度定级',
-    guide: '元原则二·冗余证实定级：按Ⅰ/Ⅱ/Ⅲ级为证据强度定级。\n• Ⅰ级：多源独立交叉证实\n• Ⅱ级：单一源头但内部自洽\n• Ⅲ级：孤证或存疑',
-    placeholder: '请选择级别并补充说明。',
-    inputType: 'select',
-    options: [
-      { value: 'Ⅰ', label: 'Ⅰ级（多源独立交叉证实）' },
-      { value: 'Ⅱ', label: 'Ⅱ级（单一源头内部自洽）' },
-      { value: 'Ⅲ', label: 'Ⅲ级（孤证或存疑）' }
-    ]
-  },
-  {
-    title: '史料批判归纳',
-    guide: '依据前述强度定级，审慎归纳出经得住考验的史实基底。注意：不要超越史料允许的范围，不要"倒放电影"。',
-    placeholder: '在此归纳你认为已初步确立的史实……',
-    inputType: 'textarea'
-  },
-  {
-    title: '多元理论竞解',
-    guide: '操作原则二·多元竞争：强制使用至少两个不同理论视角进行演绎解释，并指出各自的盲区。',
-    placeholder: '',
-    inputType: 'dual-textarea'
-  },
-  {
-    title: '强制反常检验',
-    guide: '操作原则一·反溯证伪：主动寻找与你的初步解释相矛盾或难以容纳的反常史实。这是防止"确认偏误"的关键环节。',
-    placeholder: '列出至少一条反常史实，并说明其对你当前解释的挑战……',
-    inputType: 'textarea'
-  },
-  {
-    title: '情境化归位',
-    guide: '操作原则三·理论情境化：校准核心概念的古今含义，避免以现代观念"误读"历史语境。',
-    placeholder: '用对比方式列出至少一组核心概念的历史语境义与现代常见理解……',
-    inputType: 'textarea'
-  },
-  {
-    title: '整合与明辨',
-    guide: '综合前述分析，形成有限断言，并明确其时空有效范围。记住：不追求唯一真相，只追求在当前证据下的最强论证。',
-    placeholder: '你的有限断言是……（请同时注明有效范围）',
-    inputType: 'textarea'
-  },
-  {
-    title: '可证伪性声明',
-    guide: '科学的历史解释必须可证伪。请列出能推翻你当前结论的具体证据或条件。如果你无法列出，说明你的结论可能过于绝对。',
-    placeholder: '如果发现以下史料/证据，我将修正或放弃上述结论……',
-    inputType: 'textarea'
-  }
-];
-
-const MIN_SHORT_LENGTH = 5
-const MIN_LONG_LENGTH = 10
-
-function validateStep(index: number, input: { value: string; level: string; note: string; view1: string; view2: string }): boolean {
-  if (!input) return false
-  switch (index) {
-    case 0: return (input.value || '').trim().length >= MIN_SHORT_LENGTH
-    case 1: return (input.value || '').trim().length >= MIN_LONG_LENGTH
-    case 2: return !!(input.level && (input.note || '').trim().length > 0)
-    case 3: return (input.value || '').trim().length >= MIN_LONG_LENGTH
-    case 4: return (input.view1 || '').trim().length >= MIN_SHORT_LENGTH && (input.view2 || '').trim().length >= MIN_SHORT_LENGTH
-    case 5: return (input.value || '').trim().length >= MIN_SHORT_LENGTH
-    case 6: return (input.value || '').trim().length >= MIN_SHORT_LENGTH
-    case 7: return (input.value || '').trim().length >= MIN_SHORT_LENGTH
-    case 8: return (input.value || '').trim().length >= MIN_SHORT_LENGTH
-    default: return false
-  }
-}
+import { steps, TEMPLATES, validateStep } from '../utils/dialectic-prompts'
+import type { StepInput } from '../utils/dialectic-prompts'
+import { callDialecticAI, generateDialecticReport } from '../utils/dialectic-ai'
+import { createChatThemeController } from '../utils/chat-theme-controller'
 
 type View = 'home' | 'dialectic' | 'report'
 
@@ -467,7 +203,7 @@ const { loadReports, addReport, findReport, deleteReport, clearAllReports } = us
 const view = ref<View>('home')
 const reports = ref<DialecticReport[]>([])
 const currentStep = ref(0)
-const inputs = ref(Array.from({ length: 9 }, () => ({ value: '', level: '', note: '', view1: '', view2: '' })))
+const inputs = ref<StepInput[]>(Array.from({ length: 9 }, () => ({ value: '', level: '', note: '', view1: '', view2: '' })))
 const cardAnimation = ref('card-enter')
 const reportLoading = ref(false)
 const aiResponse = ref('')
@@ -478,22 +214,9 @@ const matchedTemplate = ref<string | null>(null)
 const currentReport = ref<DialecticReport | null>(null)
 const notFound = ref(false)
 
-// --- Theme ---
-const THEME_KEY = 'cislunar-dialectic-theme'
+// --- Theme (via shared controller) ---
 const isDark = ref(false)
-
-function loadTheme(): boolean {
-  try {
-    const saved = localStorage.getItem(THEME_KEY)
-    if (saved === 'dark') return true
-    if (saved === 'light') return false
-  } catch {}
-  return false
-}
-
-function applyTheme() {
-  document.documentElement.setAttribute('data-chat-theme', isDark.value ? 'dark' : 'light')
-}
+const themeCtrl = createChatThemeController(isDark, 'cislunar-dialectic-theme')
 
 // --- Navigation ---
 function enterDialectic() {
@@ -562,7 +285,7 @@ function nextStep() {
       alert('请先完成当前步骤')
       return
     }
-    generateReport()
+    doGenerateReport()
     return
   }
   if (!validateStep(currentStep.value, inputs.value[currentStep.value])) {
@@ -637,36 +360,16 @@ function loadTemplate() {
   }
 }
 
-// --- AI assist ---
-function buildSystemPrompt(): string {
-  return `${GLOBAL_SYSTEM_PROMPT}\n\n${STEP_PROMPTS[currentStep.value]}`
-}
-
-function buildContext(): string {
-  let context = `【九步探究流程当前进度：第${currentStep.value + 1}步 / 共9步】\n\n`
-  for (let i = 0; i < currentStep.value; i++) {
-    const step = steps[i]
-    const input = inputs.value[i]
-    context += `【第${i + 1}步：${step.title}】\n`
-    if (step.inputType === 'select') {
-      context += `级别：${input.level || '未选择'}；说明：${input.note || '无'}\n`
-    } else if (step.inputType === 'dual-textarea') {
-      const v1 = input.view1 || '未填写'
-      const v2 = input.view2 || '未填写'
-      context += `视角一：${v1.substring(0, 200)}${v1.length > 200 ? '...' : ''}\n`
-      context += `视角二：${v2.substring(0, 200)}${v2.length > 200 ? '...' : ''}\n`
-    } else {
-      const v = input.value || '未填写'
-      context += `${v.substring(0, 300)}${v.length > 300 ? '...' : ''}\n`
-    }
-    context += '\n'
-  }
-  context += `【当前步骤：第${currentStep.value + 1}步：${steps[currentStep.value].title}】`
-  return context
-}
-
+// --- AI assist (via dialectic-ai transport seam) ---
 function onAIAssist() {
-  callAI()
+  isAILoading.value = true
+  aiResponse.value = ''
+  aiReasoning.value = ''
+  callDialecticAI(currentStep.value, inputs.value).then(result => {
+    isAILoading.value = false
+    aiResponse.value = result.content
+    aiReasoning.value = result.reasoning
+  })
 }
 
 function closeAIAssist() {
@@ -697,121 +400,31 @@ function adoptPolished() {
   alert('已采纳润色版')
 }
 
-async function callAI() {
-  const stepInput = inputs.value[currentStep.value]
-  let userContent = ''
-  if (steps[currentStep.value].inputType === 'select') {
-    userContent = `证据级别：${stepInput.level || '未选择'}\n说明：${stepInput.note || '未填写'}`
-  } else if (steps[currentStep.value].inputType === 'dual-textarea') {
-    userContent = `视角一：${stepInput.view1 || '未填写'}\n\n视角二：${stepInput.view2 || '未填写'}`
-  } else {
-    userContent = stepInput.value || '（用户尚未输入内容）'
-  }
-
-  const messages = [
-    { role: 'system', content: buildSystemPrompt() },
-    { role: 'user', content: buildContext() + '\n---用户当前步骤输入---\n' + userContent }
-  ]
-
-  isAILoading.value = true
-  aiResponse.value = ''
-  aiReasoning.value = ''
-
-  try {
-    const response = await fetch('/api/ai/chat/completions', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'deepseek-v4-pro',
-        messages,
-        temperature: 0.7,
-        max_tokens: 2048
-      })
-    })
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`)
-    }
-
-    const data = await response.json()
-    isAILoading.value = false
-
-    if (data.choices && data.choices[0]) {
-      const choice = data.choices[0].message
-      aiResponse.value = choice.content || ''
-      aiReasoning.value = choice.reasoning_content || ''
-    }
-  } catch (err) {
-    isAILoading.value = false
-    aiResponse.value = 'AI 请求失败，请检查网络或 API 配置。'
-    // AI call failed, error already shown to user via aiResponse
-  }
-}
-
-// --- Report generation ---
-async function generateReport() {
+// --- Report generation (via dialectic-ai transport seam) ---
+async function doGenerateReport() {
   reportLoading.value = true
+  const content = await generateDialecticReport(inputs.value)
+  reportLoading.value = false
 
-  let userPrompt = '【九步探究流程完整输入】\n\n'
-  inputs.value.forEach((input, i) => {
-    const step = steps[i]
-    userPrompt += `【第${i + 1}步：${step.title}】\n`
-    if (step.inputType === 'select') {
-      userPrompt += `级别：${input.level || '未选择'}\n说明：${input.note || '无'}\n`
-    } else if (step.inputType === 'dual-textarea') {
-      userPrompt += `视角一：${input.view1 || '未填写'}\n视角二：${input.view2 || '未填写'}\n`
-    } else {
-      userPrompt += `${input.value || '未填写'}\n`
-    }
-    userPrompt += '\n'
-  })
-  userPrompt += '请基于以上全部输入，撰写一份完整的思辨总结报告。要求：逻辑连贯、结构完整、语言学术化、不使用 Markdown 格式符号、列表转化为连贯段落、使用中文全角标点。报告应自然整合以下维度：问题回顾、史料与证据评估、理论竞争与反常检验、核心概念的历史语境校准、整合性断言及其时空有效范围、可证伪条件。'
-
-  try {
-    const response = await fetch('/api/ai/chat/completions', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'deepseek-v4-pro',
-        messages: [
-          { role: 'system', content: REPORT_SYSTEM_PROMPT },
-          { role: 'user', content: userPrompt }
-        ],
-        temperature: 0.7,
-        max_tokens: 4096
-      })
+  if (content) {
+    const reportData = addReport({
+      title: (inputs.value[0].value || '未命名报告').substring(0, 50),
+      content,
+      inputs: JSON.parse(JSON.stringify(inputs.value))
     })
-
-    reportLoading.value = false
-
-    if (response.ok) {
-      const data = await response.json()
-      if (data.choices && data.choices[0]) {
-        const content = data.choices[0].message.content || ''
-        const reportData = addReport({
-          title: (inputs.value[0].value || '未命名报告').substring(0, 50),
-          content,
-          inputs: JSON.parse(JSON.stringify(inputs.value))
-        })
-        currentReport.value = reportData
-        notFound.value = false
-        reports.value = loadReports()
-        view.value = 'report'
-        return
-      }
-    }
+    currentReport.value = reportData
+    notFound.value = false
+    reports.value = loadReports()
+    view.value = 'report'
+  } else {
     alert('AI 生成报告失败，请重试。')
-  } catch (err) {
-    reportLoading.value = false
-    alert('网络请求失败，请检查网络连接。')
-    // Report generation failed, error already shown to user via alert
   }
 }
 
 // --- Lifecycle ---
 onMounted(() => {
-  isDark.value = loadTheme()
-  applyTheme()
+  themeCtrl.loadTheme()
+  themeCtrl.applyTheme()
   reports.value = loadReports()
 
   // Check URL params for direct report access
