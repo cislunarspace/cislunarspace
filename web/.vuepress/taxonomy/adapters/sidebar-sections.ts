@@ -9,13 +9,7 @@
 import { engine } from '..'
 import type { Locale, NodeId } from '../types'
 import type { ViewNode } from '../view-engine'
-
-export interface VueSidebarItem {
-  text: string
-  link?: string
-  collapsible?: boolean
-  children?: Array<string | VueSidebarItem>
-}
+import type { VueSidebarItem } from '../../sidebar/types.ts'
 
 type SidebarEntry = string | VueSidebarItem
 

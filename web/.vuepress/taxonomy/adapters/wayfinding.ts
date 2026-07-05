@@ -9,15 +9,9 @@
  */
 import { engine, WAYFINDING_ROOT_ID } from '..'
 import type { Locale } from '../types'
+import type { VueSidebarItem } from '../../sidebar/types.ts'
 
 /** Mirrors `SidebarIntake.VueSidebarItem` (see sidebar/types.ts). */
-export interface VueSidebarItem {
-  text: string
-  link?: string
-  collapsible?: boolean
-  children?: Array<string | VueSidebarItem>
-}
-
 export interface WayfindingIntake {
   zh: VueSidebarItem
   en: VueSidebarItem

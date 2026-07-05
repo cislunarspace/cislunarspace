@@ -9,7 +9,7 @@
 通过 Hermes Agent v0.16.0 调度，Python 只负责去重、文件 I/O 和 README 更新。
 
 - 入口：`scripts/space-news-update-phase1-hermes.py`
-- 调用：`hermes chat -q -t web -m MiniMax-M3 --max-turns 3`
+- 调用：`hermes chat -q -t web -m mimo-v2.5-pro --max-turns 3`
 - 9 条 query 并行（4 CN + 5 INTL，关键词见 [SOURCES.md](SOURCES.md)）
 - 凭证：`~/.hermes/.env`
 - 检索窗口默认 3 天（`CUTOFF_DAYS=3`），中国航天占比目标 ≥30%
