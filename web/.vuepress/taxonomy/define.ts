@@ -50,11 +50,6 @@ export interface DefinedTaxonomy {
 
 interface FlattenContext {
   nodes: TaxonomyNode[]
-  /** Counter for the rare case where a display-only group somehow lacks
-   *  an explicit id despite the runtime check. Kept for parity with the
-   *  pre-refactor `section-taxonomy.ts` so the validator can detect the
-   *  duplicate-id issue in tests if the check is ever relaxed. */
-  syntheticCounter: number
 }
 
 function pathFor(
@@ -95,16 +90,17 @@ function combineLocales(parent: Locale[] | undefined, own: Locale[] | undefined)
   return intersection.length === 2 ? undefined : (intersection as Locale[])
 }
 
-function entryId(parentId: NodeId, entry: SidebarEntry, ctx: FlattenContext): NodeId {
+function entryId(parentId: NodeId, entry: SidebarEntry): NodeId {
   if (typeof entry.id === 'string' && entry.id.length > 0) return entry.id
   if (entry.slug !== undefined && entry.slug !== '') return `${parentId}/${entry.slug}`
   if (entry.slug === '') return `${parentId}/_index`
-  // Last-resort fallback if a display-only group ever slips through without
-  // an explicit id. Mirrors the original section-taxonomy.ts so existing
-  // tests / validators keep working; in practice the author-time check in
-  // flattenEntry catches this and throws a clearer message.
-  ctx.syntheticCounter += 1
-  return `${parentId}/_group-${ctx.syntheticCounter}`
+  // Unreachable in practice: flattenEntry throws for `slug === undefined`
+  // when no explicit id is provided before this id is observed. The throw
+  // exists only to satisfy the NodeId return type for that branch.
+  throw new Error(
+    `defineTaxonomy: SidebarEntry under "${parentId}" has slug === undefined and no explicit "id" field. ` +
+      `Display-only groups require an explicit id.`,
+  )
 }
 
 function flattenEntry(
@@ -116,7 +112,7 @@ function flattenEntry(
   ctx: FlattenContext,
 ): void {
   const effectiveLocales = combineLocales(parentLocales, entry.locales)
-  const id = entryId(parentId, entry, ctx)
+  const id = entryId(parentId, entry)
   if (entry.slug === undefined && (typeof entry.id !== 'string' || entry.id.length === 0)) {
     throw new Error(
       `defineTaxonomy: SidebarEntry under "${parentId}" has slug === undefined and no explicit "id" field. ` +
@@ -181,8 +177,14 @@ function flattenEntryWithLocaleScope(
     : entry.slug === ''
       ? `${scopedParentId}/_index@${scopeLocale}`
       : (() => {
-          ctx.syntheticCounter += 1
-          return `${scopedParentId}/_${scopeLocale}-group-${ctx.syntheticCounter}`
+          // Unreachable in practice: childrenByLocale entries with
+          // `slug === undefined` and no explicit id are not used by the
+          // current data. The throw mirrors entryId so the same shape
+          // failure mode surfaces clearly if it ever occurs.
+          throw new Error(
+            `defineTaxonomy: SidebarEntry under "${scopedParentId}" has slug === undefined and no explicit "id" field. ` +
+              `Display-only groups require an explicit id.`,
+          )
         })()
 
   const locales: Locale[] = [scopeLocale]
@@ -245,7 +247,7 @@ function flattenSection(section: SidebarSection, order: number, ctx: FlattenCont
  * not by a global sort.
  */
 export function defineTaxonomy(input: DefineTaxonomyInput): DefinedTaxonomy {
-  const ctx: FlattenContext = { nodes: [], syntheticCounter: 0 }
+  const ctx: FlattenContext = { nodes: [] }
 
   for (const node of input.flatNodes) {
     ctx.nodes.push(node)
