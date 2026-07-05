@@ -1,4 +1,4 @@
-import { normalizePageMetadata } from './page-metadata'
+import { normalizePageMetadata } from './utils/page-metadata'
 
 const ogMetaPlugin = {
   name: 'plugin-og-meta',

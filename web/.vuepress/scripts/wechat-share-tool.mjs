@@ -12,7 +12,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { resolveWechatShareFields } from '../page-metadata-core.mjs'
+import { resolveWechatShareFields } from '../utils/page-metadata-core.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -20,7 +20,7 @@ const root = path.resolve(__dirname, '../..')
 
 // ── Shared utilities ──────────────────────────────────────────────────────────
 
-const skipRel = new Set(['docs/seo-frontmatter-template.md'])
+const skipRel = new Set()
 
 function walk(dir, files = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {

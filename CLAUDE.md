@@ -45,7 +45,7 @@ Requires Node.js 18+ (CI and cron use v22.22.2).
 - `web/.vuepress/config.ts` — main config (locales, plugins, Vite bundler, KaTeX, proxy to DeepSeek API at `/api/ai`)
 - `web/.vuepress/navbar.ts` / `navbar-en.ts` — top navigation
 - `web/.vuepress/og-meta-plugin.ts` — Open Graph meta tag plugin
-- `web/.vuepress/page-metadata.ts` — page metadata utilities
+- `web/.vuepress/utils/page-metadata.ts` — page metadata utilities
 
 ### Sidebar Module (`web/.vuepress/sidebar/`)
 

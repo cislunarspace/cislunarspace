@@ -1,4 +1,4 @@
-import type { NormalizedPageMetadata } from '../../page-metadata'
+import type { NormalizedPageMetadata } from '../../utils/page-metadata'
 
 function setMeta(attr: string, key: string, content: string) {
   let el = document.querySelector(`meta[${attr}="${key}"]`)

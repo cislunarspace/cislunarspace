@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
-import { normalizePageMetadata } from './page-metadata'
+import { normalizePageMetadata } from './utils/page-metadata'
 // @ts-expect-error — .mjs sibling; we only need the runtime export for this test.
-import { resolveWechatShareFields, clipDescription, DESCRIPTION_CLIP_MAX } from './page-metadata-core.mjs'
+import { resolveWechatShareFields, clipDescription, DESCRIPTION_CLIP_MAX } from './utils/page-metadata-core.mjs'
 
 describe('normalizePageMetadata', () => {
   test('normalizes article metadata and share fields from standard frontmatter', () => {

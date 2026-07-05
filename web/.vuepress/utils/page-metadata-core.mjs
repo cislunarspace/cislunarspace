@@ -2,8 +2,8 @@
  * Pure ESM normalizer for page metadata.
  *
  * This is the single source of truth used by:
- *   - .vuepress/page-metadata.ts (typed re-export for VuePress plugin + client)
- *   - .vuepress/scripts/wechat-share-tool.mjs (CLI audit + inject)
+ *   - ./page-metadata.ts (typed re-export for VuePress plugin + client)
+ *   - ../scripts/wechat-share-tool.mjs (CLI audit + inject)
  *
  * Keeping the implementation in a `.mjs` lets the standalone CLI scripts
  * import it without a TypeScript loader while still being the only place

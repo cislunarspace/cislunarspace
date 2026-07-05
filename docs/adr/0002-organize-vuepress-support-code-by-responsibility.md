@@ -30,7 +30,7 @@ Organize VuePress support code into responsibility-scoped directories:
 | `.vuepress/taxonomy/` | Unified taxonomy module (unchanged) | `types.ts`, `data.ts`, `define.ts`, `adapters/` |
 | `.vuepress/intakes/` | Build-time data collection (unchanged) | `glossary-intake.ts`, `chat-index-intake.ts` |
 
-The VuePress config root (`.vuepress/config.ts`, `navbar.ts`, `navbar-en.ts`, `og-meta-plugin.ts`, `page-metadata.ts`) remains at the top level because these files are directly consumed by `config.ts` and there are few enough of them that a dedicated directory is not justified.
+The VuePress config root (`.vuepress/config.ts`, `navbar.ts`, `navbar-en.ts`, `og-meta-plugin.ts`) remains at the top level because these files are directly consumed by `config.ts` and there are few enough of them that a dedicated directory is not justified. `page-metadata.ts` (and its `.mjs` sibling) is a utility used by the plugin, the theme, and standalone CLI scripts; it lives in `.vuepress/utils/page-metadata.ts` alongside other VuePress config helpers.
 
 The build-time orchestrator (`generate.ts`) is a thin CLI entry point that delegates to the three generators; it no longer inlines any generation logic.
 
@@ -39,7 +39,7 @@ The build-time orchestrator (`generate.ts`) is a thin CLI entry point that deleg
 1. **No change to route URLs or page content.** All markdown files, page paths, and locale roots (`/` for zh, `/en/` for en) are unchanged.
 2. **No change to ADR-0001 taxonomy rules.** `TaxonomyNode`, `NodeId`, `LocalePath`, locale gating, and the adapter pattern remain as specified.
 3. **No change to content data sources.** `sidebar/data.ts` remains the manual definition source for knowledge-base sections; glossary and Space News remain filesystem-scanned.
-4. **No plugin directory.** With only two VuePress plugins (`og-meta-plugin.ts`, `page-metadata.ts`) and direct `config.ts` imports, a `plugins/` directory is not yet justified.
+4. **No plugin directory.** With only one VuePress plugin (`og-meta-plugin.ts`) and direct `config.ts` imports, a `plugins/` directory is not yet justified.
 5. **No reorganization of `gen-ai-chat-context.ts`.** It remains at the root because it is consumed by `generators/ai-chat.ts` at its current path and has no other dependents.
 
 ## Consequences
