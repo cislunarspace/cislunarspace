@@ -2,7 +2,7 @@
 layout: SpaceNewsArticle
 title: "Tianwen-2 Arrives at Earths Mini-Moon Kamoʻoalewa to Begin Sample Collection"
 description: "Chinas Tianwen-2 spacecraft arrives at near-Earth asteroid Kamoʻoalewa to collect samples that may confirm or challenge its hypothesized lunar origin, with return planned for late 2027."
-permalink: /en/space-news/2026/07/2026-07-01-tianwen-2-kamoʻoalewa-arrival/
+permalink: /en/space-news/2026/07/2026-07-01-tianwen-2-kamo-oalewa-arrival/
 author: Tianjiangshuo
 date: 2026-07-01
 lastUpdated: 2026-07-01

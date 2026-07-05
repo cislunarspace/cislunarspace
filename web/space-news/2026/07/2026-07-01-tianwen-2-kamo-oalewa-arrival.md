@@ -2,7 +2,7 @@
 layout: SpaceNewsArticle
 title: "天问二号抵达地球准卫星 Kamoʻoalewa，采样任务即将展开"
 description: "天问二号探测器于 2025 年 5 月发射后抵达地球准卫星 Kamoʻoalewa，将采集样品并于 2027 年底返回，新研究对其月球起源假说提出挑战。"
-permalink: /space-news/2026/07/2026-07-01-tianwen-2-kamoʻoalewa-arrival/
+permalink: /space-news/2026/07/2026-07-01-tianwen-2-kamo-oalewa-arrival/
 author: 天疆说
 date: 2026-07-01
 lastUpdated: 2026-07-01
