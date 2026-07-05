@@ -35,7 +35,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const webDir = path.join(__dirname, '..', '..')
 const repoRoot = path.join(webDir, '..')
-const shardBuildMjs = path.join(__dirname, '..', 'shard-build.mjs')
+const shardBuildMjs = path.join(__dirname, 'shard-build.mjs')
 
 interface CliArgs {
   label: string

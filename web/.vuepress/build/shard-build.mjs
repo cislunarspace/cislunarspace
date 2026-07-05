@@ -1,10 +1,10 @@
-// web/.vuepress/shard-build.mjs
+// web/.vuepress/build/shard-build.mjs
 // One-shot shard build: generates a shard-specific config that inherits from
 // web/.vuepress/config.ts with extra page-pattern exclusions, then runs
 // `vuepress build --config <shard-config.ts>`.
 //
 // Usage:
-//   node .vuepress/shard-build.mjs \
+//   node .vuepress/build/shard-build.mjs \
 //     --label shard0 \
 //     --dest /tmp/shard-build/shard0-dest \
 //     --temp /tmp/shard-build/shard0-temp \
@@ -19,7 +19,7 @@ import { fileURLToPath } from 'node:url'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const webDir = path.join(__dirname, '..')
+const webDir = path.join(__dirname, '..', '..')
 
 function parseArgs(argv) {
   const args = { label: 'shard', dest: '', temp: '', cache: '', exclude: [] }

@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { generateAiChatContext } from '../gen-ai-chat-context.ts'
+import { generateAiChatContext } from './ai-chat-context.ts'
 import { buildChatIndexIntake as buildChatIndex } from '../intakes/chat-index-intake.ts'
 import type { buildGlossaryScan } from '../intakes/glossary-intake.ts'
 import type { MarkdownFile } from '../utils/markdown-walker.ts'
