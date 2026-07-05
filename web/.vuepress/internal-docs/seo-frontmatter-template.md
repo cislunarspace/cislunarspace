@@ -10,6 +10,7 @@ keywords: 关键词1, 关键词2, 关键词3
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
+category: [关键词1, 关键词2]  # 必须为数组；单个分类也要写成单元素数组
 wechatShare:
   title: 微信分享标题
   desc: 微信分享描述
@@ -37,6 +38,7 @@ keywords: keyword1, keyword2, keyword3
 author: Tianjiang Shuo
 date: 2026-03-07
 lastUpdated: 2026-03-07
+category: [keyword1, keyword2]  # must be an array; single category also wraps in []
 wechatShare:
   title: WeChat Share Title
   desc: WeChat Share Description
@@ -63,6 +65,7 @@ twitter:
 5. **date/lastUpdated**: 发布时间和最后更新时间，有利于新鲜度排名
 6. **og/twitter**: Open Graph和Twitter卡片元数据，提升社交媒体分享效果
 7. **wechatShare**: 微信分享专用元数据
+8. **category**: 分类标签，**必须为数组**（即使只有一个分类），便于下游消费侧（archive / filter / sidebar）按统一形态处理。新建文章请直接写 `category: [foo]`；历史标量形式由 `scripts/maintenance/normalize-space-news-category.ts` 一次性脚本批量转换
 
 ## 页面分类和关键词建议
 
