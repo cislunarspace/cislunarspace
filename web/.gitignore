@@ -3,3 +3,6 @@
 .vuepress/public/ai-chat-context.json
 .vuepress/public/ai-chat-index.json
 .vuepress/space-news-sidebar-data.json
+# 与 .vuepress/public/ 同源脚本误输出位置：gen-ai-chat-context 实际写入目标是
+# .vuepress/public/，但旧版/早期构建有次次偶发漏到 web/public/。
+public/ai-chat-context.json
