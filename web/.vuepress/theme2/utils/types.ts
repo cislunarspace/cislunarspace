@@ -9,7 +9,7 @@ export interface ArticleItem {
   date: string | null
   lastUpdated: string | null
   author: string | null
-  category: string | string[] | null
+  category: string[] | null
   image: string | null
   relativePath?: string
 }

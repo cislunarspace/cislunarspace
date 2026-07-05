@@ -24,7 +24,7 @@ describe('buildSpaceNewsDirectoryView', () => {
   it('returns normalized articles sorted by newest valid date first', () => {
     const articles = [
       makeArticle({ title: 'No date', path: '/no-date/' }),
-      makeArticle({ title: 'Newest', path: '/newest/', date: '2026-05-13', category: 'artemis' }),
+      makeArticle({ title: 'Newest', path: '/newest/', date: '2026-05-13', category: ['artemis'] }),
       makeArticle({ title: 'Invalid date', path: '/invalid/', date: 'not-a-date' }),
       makeArticle({ title: 'Older', path: '/older/', date: '2026-05-11', category: ['commercial'] }),
     ]
@@ -43,8 +43,8 @@ describe('buildSpaceNewsDirectoryView', () => {
   it('filters drafts from all homepage article collections', () => {
     const result = buildSpaceNewsDirectoryView({
       articles: [
-        makeArticle({ title: 'Draft', path: '/draft/', date: '2026-05-13', draft: true, category: 'artemis' }),
-        makeArticle({ title: 'Published', path: '/published/', date: '2026-05-12', category: 'artemis' }),
+        makeArticle({ title: 'Draft', path: '/draft/', date: '2026-05-13', draft: true, category: ['artemis'] }),
+        makeArticle({ title: 'Published', path: '/published/', date: '2026-05-12', category: ['artemis'] }),
       ],
       locale: 'zh',
     })
@@ -58,9 +58,9 @@ describe('buildSpaceNewsDirectoryView', () => {
   it('normalizes category labels and colors with fallbacks', () => {
     const result = buildSpaceNewsDirectoryView({
       articles: [
-        makeArticle({ title: 'Known string', path: '/known-string/', date: '2026-05-13', category: 'artemis' }),
+        makeArticle({ title: 'Known string', path: '/known-string/', date: '2026-05-13', category: ['artemis'] }),
         makeArticle({ title: 'Known array', path: '/known-array/', date: '2026-05-12', category: ['commercial', 'artemis'] }),
-        makeArticle({ title: 'Unknown', path: '/unknown/', date: '2026-05-11', category: 'unknown-topic' }),
+        makeArticle({ title: 'Unknown', path: '/unknown/', date: '2026-05-11', category: ['unknown-topic'] }),
         makeArticle({ title: 'No category', path: '/no-category/', date: '2026-05-10' }),
       ],
       locale: 'en',
@@ -82,8 +82,8 @@ describe('buildSpaceNewsDirectoryView', () => {
 
   it('builds category sections localized per locale', () => {
     const articles = [
-      makeArticle({ title: 'Artemis', path: '/artemis/', date: '2026-05-13', category: 'artemis' }),
-      makeArticle({ title: 'Commercial', path: '/commercial/', date: '2026-05-12', category: 'commercial' }),
+      makeArticle({ title: 'Artemis', path: '/artemis/', date: '2026-05-13', category: ['artemis'] }),
+      makeArticle({ title: 'Commercial', path: '/commercial/', date: '2026-05-12', category: ['commercial'] }),
     ]
 
     const zh = buildSpaceNewsDirectoryView({ articles, locale: 'zh' })
@@ -101,13 +101,13 @@ describe('buildSpaceNewsDirectoryView', () => {
 
   it('builds homepage collections with existing limits and featured window', () => {
     const articles = [
-      makeArticle({ title: 'A1', path: '/a1/', date: '2026-05-13T10:00:00Z', category: 'artemis' }),
-      makeArticle({ title: 'A2', path: '/a2/', date: '2026-05-12T10:00:00Z', category: 'artemis' }),
-      makeArticle({ title: 'A3', path: '/a3/', date: '2026-05-11T10:00:00Z', category: 'artemis' }),
-      makeArticle({ title: 'A4', path: '/a4/', date: '2026-05-10T10:00:00Z', category: 'artemis' }),
-      makeArticle({ title: 'C1', path: '/c1/', date: '2026-05-09T10:00:00Z', category: 'commercial' }),
-      makeArticle({ title: 'C2', path: '/c2/', date: '2026-05-08T10:00:00Z', category: 'commercial' }),
-      makeArticle({ title: 'C3', path: '/c3/', date: '2026-05-07T10:00:00Z', category: 'commercial' }),
+      makeArticle({ title: 'A1', path: '/a1/', date: '2026-05-13T10:00:00Z', category: ['artemis'] }),
+      makeArticle({ title: 'A2', path: '/a2/', date: '2026-05-12T10:00:00Z', category: ['artemis'] }),
+      makeArticle({ title: 'A3', path: '/a3/', date: '2026-05-11T10:00:00Z', category: ['artemis'] }),
+      makeArticle({ title: 'A4', path: '/a4/', date: '2026-05-10T10:00:00Z', category: ['artemis'] }),
+      makeArticle({ title: 'C1', path: '/c1/', date: '2026-05-09T10:00:00Z', category: ['commercial'] }),
+      makeArticle({ title: 'C2', path: '/c2/', date: '2026-05-08T10:00:00Z', category: ['commercial'] }),
+      makeArticle({ title: 'C3', path: '/c3/', date: '2026-05-07T10:00:00Z', category: ['commercial'] }),
     ]
 
     const result = buildSpaceNewsDirectoryView({
@@ -122,9 +122,9 @@ describe('buildSpaceNewsDirectoryView', () => {
 
   it('groups articles by year/month from relativePath, newest month first', () => {
     const articles = [
-      makeArticle({ title: 'May-13', path: '/may-13/', date: '2026-05-13', relativePath: 'space-news/2026/05/may-13.md', category: 'artemis' }),
-      makeArticle({ title: 'May-01', path: '/may-01/', date: '2026-05-01', relativePath: 'space-news/2026/05/may-01.md', category: 'commercial' }),
-      makeArticle({ title: 'Apr-15', path: '/apr-15/', date: '2026-04-15', relativePath: 'space-news/2026/04/apr-15.md', category: 'artemis' }),
+      makeArticle({ title: 'May-13', path: '/may-13/', date: '2026-05-13', relativePath: 'space-news/2026/05/may-13.md', category: ['artemis'] }),
+      makeArticle({ title: 'May-01', path: '/may-01/', date: '2026-05-01', relativePath: 'space-news/2026/05/may-01.md', category: ['commercial'] }),
+      makeArticle({ title: 'Apr-15', path: '/apr-15/', date: '2026-04-15', relativePath: 'space-news/2026/04/apr-15.md', category: ['artemis'] }),
       makeArticle({ title: 'No-path', path: '/no-path/', date: '2026-05-10' }),  // missing relativePath → excluded
     ]
 
@@ -163,8 +163,8 @@ describe('buildSpaceNewsDirectoryView', () => {
     const result = buildSpaceNewsDirectoryView({
       articles: [
         makeArticle({ title: 'A', path: '/a/', date: '2026-05-13', category: ['artemis', 'unknown'] }),
-        makeArticle({ title: 'B', path: '/b/', date: '2026-05-12', category: 'commercial' }),
-        makeArticle({ title: 'C', path: '/c/', date: '2026-05-11', category: 'commercial' }),
+        makeArticle({ title: 'B', path: '/b/', date: '2026-05-12', category: ['commercial'] }),
+        makeArticle({ title: 'C', path: '/c/', date: '2026-05-11', category: ['commercial'] }),
       ],
       locale: 'en',
     })
@@ -178,8 +178,8 @@ describe('buildSpaceNewsDirectoryView', () => {
   it('drafts are excluded from monthGroups and usedCategories', () => {
     const result = buildSpaceNewsDirectoryView({
       articles: [
-        makeArticle({ title: 'Draft', path: '/d/', date: '2026-05-13', relativePath: 'space-news/2026/05/d.md', category: 'artemis', draft: true }),
-        makeArticle({ title: 'Pub', path: '/p/', date: '2026-05-12', relativePath: 'space-news/2026/05/p.md', category: 'commercial' }),
+        makeArticle({ title: 'Draft', path: '/d/', date: '2026-05-13', relativePath: 'space-news/2026/05/d.md', category: ['artemis'], draft: true }),
+        makeArticle({ title: 'Pub', path: '/p/', date: '2026-05-12', relativePath: 'space-news/2026/05/p.md', category: ['commercial'] }),
       ],
       locale: 'zh',
     })

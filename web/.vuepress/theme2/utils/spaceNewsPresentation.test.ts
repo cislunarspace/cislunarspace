@@ -42,21 +42,20 @@ describe('formatArticleDate', () => {
 describe('resolveCategoryColor / resolveCategoryLabel', () => {
   it('resolveCategoryColor falls back to grey for null and unknown keys', () => {
     expect(resolveCategoryColor(null)).toBe('#64748b')
-    expect(resolveCategoryColor('unknown')).toBe('#64748b')
+    expect(resolveCategoryColor(['unknown'])).toBe('#64748b')
     expect(resolveCategoryColor([])).toBe('#64748b')
   })
 
   it('resolveCategoryColor reads color from the first array entry', () => {
     expect(resolveCategoryColor(['artemis', 'something'])).toBe('#6366f1')
-    expect(resolveCategoryColor('artemis')).toBe('#6366f1')
   })
 
   it('resolveCategoryLabel returns localized label, falls back to raw key, empty for null', () => {
     expect(resolveCategoryLabel(null, 'zh')).toBe('')
-    expect(resolveCategoryLabel('artemis', 'zh')).toBe('Artemis')
+    expect(resolveCategoryLabel(['artemis'], 'zh')).toBe('Artemis')
     expect(resolveCategoryLabel(['artemis'], 'en')).toBe('Artemis')
     // Unknown key passes through.
-    expect(resolveCategoryLabel('unknown', 'en')).toBe('unknown')
+    expect(resolveCategoryLabel(['unknown'], 'en')).toBe('unknown')
   })
 })
 

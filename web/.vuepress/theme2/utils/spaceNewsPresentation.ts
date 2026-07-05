@@ -17,12 +17,6 @@ import { categoryMeta } from '../../../.vuepress/taxonomy/adapters/news-categori
 
 const FALLBACK_CATEGORY_COLOR = '#64748b'
 
-/** Extract the primary (first) category key from raw frontmatter category. */
-function primaryCategoryKey(category: string | string[] | null): string | null {
-  if (Array.isArray(category)) return category.length ? category[0] : null
-  return category ?? null
-}
-
 export type ArticleDateStyle = 'short' | 'long'
 
 /**
@@ -48,27 +42,27 @@ export function formatArticleDate(
 }
 
 /**
- * Resolve a category color from raw frontmatter `category` (string | string[] | null).
- * Used by surfaces that have not yet been mapped through `buildArticleView`
- * (e.g. the sidebar consuming pre-aggregated JSON).
+ * Resolve a category color from a normalized frontmatter `category` array.
+ * `category` is required to be a string[] (or null) by the SEO frontmatter
+ * template and normalized by scripts/maintenance/normalize-space-news-category.ts.
  */
 export function resolveCategoryColor(
-  category: string | string[] | null,
+  category: string[] | null,
 ): string {
-  const primary = primaryCategoryKey(category)
+  const primary = category?.[0]
   if (!primary) return FALLBACK_CATEGORY_COLOR
   return categoryMeta[primary]?.color ?? FALLBACK_CATEGORY_COLOR
 }
 
 /**
- * Resolve a category label from raw frontmatter `category`. Used by surfaces
- * that operate on raw frontmatter directly (e.g. ArticleHero).
+ * Resolve a category label from a normalized frontmatter `category` array.
+ * Used by surfaces that operate on raw frontmatter directly (e.g. ArticleHero).
  */
 export function resolveCategoryLabel(
-  category: string | string[] | null,
+  category: string[] | null,
   locale: SpaceNewsLocale,
 ): string {
-  const primary = primaryCategoryKey(category)
+  const primary = category?.[0]
   if (!primary) return ''
   return categoryMeta[primary]?.[locale] ?? primary
 }

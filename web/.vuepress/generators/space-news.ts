@@ -104,10 +104,12 @@ export function filesToArticles(
         imageUrl = mdDir + imageUrl.slice(2)
       }
 
-      const rawCategory = frontmatter.category || null
-      const categories = Array.isArray(rawCategory)
-        ? rawCategory
-        : rawCategory ? [rawCategory as string] : []
+      // `category` is required to be a string[] by the SEO frontmatter template
+      // (see web/docs/seo-frontmatter-template.md) and normalized across the
+      // corpus by scripts/maintenance/normalize-space-news-category.ts.
+      // We trust that invariant here so downstream consumers do not need to
+      // branch on scalar vs array.
+      const category = frontmatter.category as string[] | undefined
 
       return {
         relativePath: f.relPath,
@@ -117,7 +119,7 @@ export function filesToArticles(
         date: (frontmatter.date as string | undefined) || null,
         lastUpdated: (frontmatter.lastUpdated as string | undefined) || null,
         author: (frontmatter.author as string | undefined) || null,
-        category: categories.length ? categories : null,
+        category: category && category.length ? category : null,
         image: imageUrl,
       }
     })
@@ -142,13 +144,12 @@ export function buildSidebarData(
       title: a.title,
       path: a.path,
       date: a.date,
-      category: Array.isArray(a.category) ? a.category : a.category ? [a.category] : null,
+      category: a.category,
     }))
 
   const catCount: Record<string, number> = {}
   for (const a of articles) {
-    const cats = Array.isArray(a.category) ? a.category : a.category ? [a.category] : []
-    for (const c of cats) {
+    for (const c of a.category ?? []) {
       catCount[c] = (catCount[c] || 0) + 1
     }
   }

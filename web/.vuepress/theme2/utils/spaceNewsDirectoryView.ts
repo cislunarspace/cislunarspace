@@ -15,7 +15,7 @@ export interface RawSpaceNewsArticle {
   date: string | null
   lastUpdated: string | null
   author: string | null
-  category: string | string[] | null
+  category: string[] | null
   image: string | null
   relativePath?: string
   draft?: boolean
@@ -70,11 +70,6 @@ const LATEST_ITEMS_LIMIT = 6
 const CATEGORY_SECTION_LIMIT = 3
 const categoryOrder = ['artemis', 'spacex', 'china', 'nasa', 'esa', 'iss', 'launch', 'commercial', 'policy', 'science']
 
-function normalizeCategories(category: string | string[] | null): string[] | null {
-  if (Array.isArray(category)) return category.length ? [...category] : null
-  return category ? [category] : null
-}
-
 function timestamp(date: string | null): number {
   if (!date) return Number.NEGATIVE_INFINITY
   const value = new Date(date).getTime()
@@ -85,7 +80,7 @@ function buildArticleView(
   article: RawSpaceNewsArticle,
   locale: SpaceNewsLocale,
 ): SpaceNewsArticleView {
-  const category = normalizeCategories(article.category)
+  const category = article.category
   const primaryCategory = category?.[0] ?? null
   const meta = primaryCategory ? categoryMeta[primaryCategory] : undefined
 

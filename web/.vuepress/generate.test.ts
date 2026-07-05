@@ -135,9 +135,9 @@ describe('filesToArticles', () => {
     expect(result[0].image).toBe('/space-news/2024/01/fig1.png')
   })
 
-  it('handles single and array category', () => {
+  it('passes through array category as-is (single and multi-entry)', () => {
     const files = [
-      makeMarkdownFile({ relPath: 'space-news/2024/01/a.md', frontmatter: { title: 'A', category: 'artemis' } }),
+      makeMarkdownFile({ relPath: 'space-news/2024/01/a.md', frontmatter: { title: 'A', category: ['artemis'] } }),
       makeMarkdownFile({ relPath: 'space-news/2024/01/b.md', frontmatter: { title: 'B', category: ['artemis', 'commercial'] } }),
     ]
     const result = filesToArticles(files, 'space-news/', '/space-news/')

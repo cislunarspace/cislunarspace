@@ -29,7 +29,7 @@ const props = defineProps<{
   imageUrl: string | null
   author?: string | null
   date?: string | null
-  category?: string | string[] | null
+  category?: string[] | null
   isEn?: boolean
 }>()
 
