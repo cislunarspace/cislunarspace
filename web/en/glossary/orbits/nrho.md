@@ -32,7 +32,7 @@ permalink: /en/glossary/orbits/nrho/
 
 A Near-Rectilinear Halo Orbit (NRHO) is a sub-class of Halo orbits near the Earth-Moon collinear libration points $L_1$ or $L_2$. In the synodic reference frame, when the out-of-plane amplitude $A_z$ of a Halo orbit is much larger than the in-plane amplitude $A_y$, the orbit shape transitions from the classic "cashew-shaped" Halo orbit to an approximately linear reciprocating motion -- i.e., the NRHO. In other words, the NRHO corresponds to the extreme members of the Halo orbit family with large $A_z/A_y$ ratios.
 
-![Earth-Moon L1 Northern and L2 Southern Halo Orbits and NRHO](../../glossary/Figures/NRHO/em-l1-l2-halo-and-nrho.png)
+![Earth-Moon L1 Northern and L2 Southern Halo Orbits and NRHO](../../glossary/figures/nrho/em-l1-l2-halo-and-nrho.png)
 *Earth-Moon L1 northern family and L2 southern family Halo orbits, with the extreme configuration being the NRHO*
 
 

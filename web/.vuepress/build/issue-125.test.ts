@@ -4,7 +4,7 @@
  * Validates that:
  *   1. /glossary/nrho/ references retargeted to /glossary/orbits/nrho/
  *   2. /research-frontiers/directions/orbital-game/ includes security-governance/
- *   3. /glossary/Figures/ absolute image paths converted to relative paths
+ *   3. /glossary/figures/ absolute image paths converted to relative paths
  *   4. Category mismatch links retargeted to correct paths
  *   5. lEO-navigation case corrected to LEO-navigation
  */
@@ -61,44 +61,44 @@ describe('issue #125 — orbital-game path includes security-governance', () => 
 
 // ── B: Image absolute paths → relative ────────────────────────────────────────
 
-// Absolute path pattern: ](/glossary/Figures/ — the leading ]( ensures it's an absolute path ref, not ../../glossary/Figures/
-const ABS_FIGURES = '](/glossary/Figures/'
+// Absolute path pattern: ](/glossary/figures/ — the leading ]( ensures it's an absolute path ref, not ../../glossary/figures/
+const ABS_FIGURES = '](/glossary/figures/'
 
-describe('issue #125 — Figures image paths converted to relative', () => {
-  it('glossary/orbits/dro.md uses relative Figures path', () => {
+describe('issue #125 — figures image paths converted to relative', () => {
+  it('glossary/orbits/dro.md uses relative figures path', () => {
     const content = readFile('glossary/orbits/dro.md')
     expect(content).not.toContain(ABS_FIGURES)
-    expect(content).toContain('../Figures/DRO/')
+    expect(content).toContain('../figures/dro/')
   })
 
-  it('glossary/dynamics/cr3bp.md uses relative Figures path', () => {
+  it('glossary/dynamics/cr3bp.md uses relative figures path', () => {
     const content = readFile('glossary/dynamics/cr3bp.md')
     expect(content).not.toContain(ABS_FIGURES)
-    expect(content).toContain('../Figures/CRTBP/')
+    expect(content).toContain('../figures/cr3bp/')
   })
 
-  it('glossary/orbits/nrho.md uses relative Figures path', () => {
+  it('glossary/orbits/nrho.md uses relative figures path', () => {
     const content = readFile('glossary/orbits/nrho.md')
     expect(content).not.toContain(ABS_FIGURES)
-    expect(content).toContain('../Figures/NRHO/')
+    expect(content).toContain('../figures/nrho/')
   })
 
-  it('en/glossary/orbits/dro.md uses relative Figures path', () => {
+  it('en/glossary/orbits/dro.md uses relative figures path', () => {
     const content = readFile('en/glossary/orbits/dro.md')
     expect(content).not.toContain(ABS_FIGURES)
-    expect(content).toContain('../../glossary/Figures/DRO/')
+    expect(content).toContain('../../glossary/figures/dro/')
   })
 
-  it('en/glossary/orbits/nrho.md uses relative Figures path', () => {
+  it('en/glossary/orbits/nrho.md uses relative figures path', () => {
     const content = readFile('en/glossary/orbits/nrho.md')
     expect(content).not.toContain(ABS_FIGURES)
-    expect(content).toContain('../../glossary/Figures/NRHO/')
+    expect(content).toContain('../../glossary/figures/nrho/')
   })
 
-  it('en/cislunar-orbits/dro/family-classification.md uses relative Figures path', () => {
+  it('en/cislunar-orbits/dro/family-classification.md uses relative figures path', () => {
     const content = readFile('en/cislunar-orbits/dro/family-classification.md')
     expect(content).not.toContain(ABS_FIGURES)
-    expect(content).toContain('../../glossary/Figures/DRO/')
+    expect(content).toContain('../../glossary/figures/dro/')
   })
 })
 
