@@ -7,7 +7,7 @@
 自动检索（cron）和手工补稿都走 **Hermes Agent** 的 `web_search` 工具：
 
 ```bash
-hermes chat -q "Use web_search to find ..." -t web -m mimo-v2.5-pro --max-turns 3 -Q
+hermes chat -q "Use web_search to find ..." -t web --provider minimax-cn -m MiniMax-M3 --max-turns 3 -Q
 ```
 
 不要再手工解析 RSS 或抓 HTML 正文——那些代码路径已废弃。hermes 返回的 JSON 已经包含 title / url / description / date_iso / source_name。

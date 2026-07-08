@@ -35,7 +35,12 @@ LOG = sys.stderr
 
 # Hermes 适配
 HERMES_BIN = shutil.which("hermes") or "hermes"  # PATH miss 时 fallback 字符串
-HERMES_MODEL = "mimo-v2.5-pro"      # MiniMax MCP 已移除，改用 Xiaomi MIMO
+# Model/provider 显式固定：Xiaomi MIMO 默认 base_url (token-plan-cn) 当前 401，
+# 不传 --provider 时 hermes 按 default provider (minimax-cn) 走 MiniMax-M3。
+# 这里只固定 model 字符串并显式走 minimax-cn，避免 hermes 在两个 base URL 之间
+# 误路由到 Xiaomi 端点再次触发 401。
+HERMES_PROVIDER = "minimax-cn"
+HERMES_MODEL = "MiniMax-M3"
 HERMES_MAX_TURNS = "3"             # search/select 都给 3 turns
 HERMES_DRAFT_MAX_TURNS = "2"       # draft 给 2 turns
 HERMES_TIMEOUT_SEARCH = 180        # 实测 120s，留 50% 余量
@@ -143,6 +148,7 @@ def hermes_chat_json(prompt: str, *, timeout: int,
         proc = subprocess.run(
             [HERMES_BIN, "chat", "-q", full_prompt,
              "-t", "web", "-m", HERMES_MODEL,
+             "--provider", HERMES_PROVIDER,
              "--max-turns", max_turns, "-Q"],
             capture_output=True, text=True,
             timeout=timeout, check=False,
@@ -183,6 +189,7 @@ def hermes_chat_raw(prompt: str, *, timeout: int,
         proc = subprocess.run(
             [HERMES_BIN, "chat", "-q", prompt,
              "-t", "web", "-m", HERMES_MODEL,
+             "--provider", HERMES_PROVIDER,
              "--max-turns", max_turns, "-Q"],
             capture_output=True, text=True,
             timeout=timeout, check=False,
