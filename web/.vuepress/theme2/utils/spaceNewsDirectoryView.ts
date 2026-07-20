@@ -1,12 +1,12 @@
-import { categoryMeta } from '../../../.vuepress/taxonomy/adapters/news-categories'
-
 export type SpaceNewsLocale = 'zh' | 'en'
 
-export interface SpaceNewsCategoryMeta {
+export interface SpaceNewsCategoryMetaEntry {
   zh: string
   en: string
   color: string
 }
+
+export type SpaceNewsCategoryMeta = Record<string, SpaceNewsCategoryMetaEntry>
 
 export interface RawSpaceNewsArticle {
   path: string
@@ -61,6 +61,7 @@ export interface SpaceNewsDirectoryView {
 interface BuildSpaceNewsDirectoryViewOptions {
   articles: RawSpaceNewsArticle[]
   locale: SpaceNewsLocale
+  categoryMeta: SpaceNewsCategoryMeta
 }
 
 const FALLBACK_CATEGORY_COLOR = '#64748b'
@@ -79,6 +80,7 @@ function timestamp(date: string | null): number {
 function buildArticleView(
   article: RawSpaceNewsArticle,
   locale: SpaceNewsLocale,
+  categoryMeta: SpaceNewsCategoryMeta,
 ): SpaceNewsArticleView {
   const category = article.category
   const primaryCategory = category?.[0] ?? null
@@ -114,6 +116,7 @@ function isFeaturedArticle(article: SpaceNewsArticleView, latestDate: string | n
 function buildCategorySections(
   articles: SpaceNewsArticleView[],
   locale: SpaceNewsLocale,
+  categoryMeta: SpaceNewsCategoryMeta,
 ): SpaceNewsCategorySection[] {
   return categoryOrder.flatMap((categoryKey) => {
     const items = articles.filter(article => article.category?.includes(categoryKey)).slice(0, CATEGORY_SECTION_LIMIT)
@@ -180,6 +183,7 @@ function buildMonthGroups(
 function buildUsedCategories(
   articles: SpaceNewsArticleView[],
   locale: SpaceNewsLocale,
+  categoryMeta: SpaceNewsCategoryMeta,
 ): SpaceNewsUsedCategory[] {
   const seen = new Set<string>()
   for (const article of articles) {
@@ -197,9 +201,10 @@ function buildUsedCategories(
 }
 
 export function buildSpaceNewsDirectoryView(options: BuildSpaceNewsDirectoryViewOptions): SpaceNewsDirectoryView {
+  const { categoryMeta } = options
   const articles = options.articles
     .filter(article => article.draft !== true)
-    .map(article => buildArticleView(article, options.locale))
+    .map(article => buildArticleView(article, options.locale, categoryMeta))
     .sort((first, second) => timestamp(second.date) - timestamp(first.date))
 
   // Reference date: the latest article's date.
@@ -211,8 +216,8 @@ export function buildSpaceNewsDirectoryView(options: BuildSpaceNewsDirectoryView
     articles,
     featuredList: articles.filter(article => isFeaturedArticle(article, latestDate)).slice(0, FEATURED_ITEMS_LIMIT),
     latestItems: articles.slice(0, LATEST_ITEMS_LIMIT),
-    categorySections: buildCategorySections(articles, options.locale),
+    categorySections: buildCategorySections(articles, options.locale, categoryMeta),
     monthGroups: buildMonthGroups(articles, options.locale),
-    usedCategories: buildUsedCategories(articles, options.locale),
+    usedCategories: buildUsedCategories(articles, options.locale, categoryMeta),
   }
 }

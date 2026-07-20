@@ -3,7 +3,21 @@ import {
   buildSpaceNewsDirectoryView,
   formatMonthLabel,
   type RawSpaceNewsArticle,
+  type SpaceNewsCategoryMeta,
 } from './spaceNewsDirectoryView'
+
+const testCategoryMeta: SpaceNewsCategoryMeta = {
+  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
+  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
+  china: { zh: '中国航天', en: 'China', color: '#ef4444' },
+  nasa: { zh: 'NASA', en: 'NASA', color: '#3b82f6' },
+  launch: { zh: '发射', en: 'Launch', color: '#f59e0b' },
+  iss: { zh: '国际空间站', en: 'ISS', color: '#8b5cf6' },
+  science: { zh: '科学', en: 'Science', color: '#06b6d4' },
+  policy: { zh: '政策', en: 'Policy', color: '#64748b' },
+  spacex: { zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' },
+  esa: { zh: 'ESA', en: 'ESA', color: '#14b8a6' },
+}
 
 function makeArticle(partial: Partial<RawSpaceNewsArticle>): RawSpaceNewsArticle {
   return {
@@ -32,6 +46,7 @@ describe('buildSpaceNewsDirectoryView', () => {
     const result = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(result.articles.map(article => article.title)).toEqual(['Newest', 'Older', 'No date', 'Invalid date'])
@@ -47,6 +62,7 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'Published', path: '/published/', date: '2026-05-12', category: ['artemis'] }),
       ],
       locale: 'zh',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(result.articles.map(article => article.title)).toEqual(['Published'])
@@ -64,6 +80,7 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'No category', path: '/no-category/', date: '2026-05-10' }),
       ],
       locale: 'en',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(result.articles.map(article => ({
@@ -86,8 +103,8 @@ describe('buildSpaceNewsDirectoryView', () => {
       makeArticle({ title: 'Commercial', path: '/commercial/', date: '2026-05-12', category: ['commercial'] }),
     ]
 
-    const zh = buildSpaceNewsDirectoryView({ articles, locale: 'zh' })
-    const en = buildSpaceNewsDirectoryView({ articles, locale: 'en' })
+    const zh = buildSpaceNewsDirectoryView({ articles, locale: 'zh', categoryMeta: testCategoryMeta })
+    const en = buildSpaceNewsDirectoryView({ articles, locale: 'en', categoryMeta: testCategoryMeta })
 
     expect(zh.categorySections.map(section => ({ key: section.key, label: section.label, color: section.color }))).toEqual([
       { key: 'artemis', label: 'Artemis', color: '#6366f1' },
@@ -113,6 +130,7 @@ describe('buildSpaceNewsDirectoryView', () => {
     const result = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(result.latestItems.map(article => article.title)).toEqual(['A1', 'A2', 'A3', 'A4', 'C1', 'C2'])
@@ -131,6 +149,7 @@ describe('buildSpaceNewsDirectoryView', () => {
     const zh = buildSpaceNewsDirectoryView({
       articles,
       locale: 'zh',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(zh.monthGroups.map(group => ({ key: group.key, label: group.label, items: group.items.map(a => a.title) }))).toEqual([
@@ -141,6 +160,7 @@ describe('buildSpaceNewsDirectoryView', () => {
     const en = buildSpaceNewsDirectoryView({
       articles,
       locale: 'en',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(en.monthGroups[0].label).toBe('May 2026')
@@ -153,6 +173,7 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'En article', path: '/en/space-news/2026/05/a/', date: '2026-05-12', relativePath: 'en/space-news/2026/05/a.md' }),
       ],
       locale: 'en',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(result.monthGroups).toHaveLength(1)
@@ -167,6 +188,7 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'C', path: '/c/', date: '2026-05-11', category: ['commercial'] }),
       ],
       locale: 'en',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(result.usedCategories).toEqual([
@@ -182,6 +204,7 @@ describe('buildSpaceNewsDirectoryView', () => {
         makeArticle({ title: 'Pub', path: '/p/', date: '2026-05-12', relativePath: 'space-news/2026/05/p.md', category: ['commercial'] }),
       ],
       locale: 'zh',
+      categoryMeta: testCategoryMeta,
     })
 
     expect(result.monthGroups[0].items.map(a => a.title)).toEqual(['Pub'])

@@ -5,6 +5,12 @@ import {
   resolveCategoryColor,
   resolveCategoryLabel,
 } from './spaceNewsPresentation'
+import type { SpaceNewsCategoryMeta } from './spaceNewsDirectoryView'
+
+const testCategoryMeta: SpaceNewsCategoryMeta = {
+  artemis: { zh: 'Artemis', en: 'Artemis', color: '#6366f1' },
+  commercial: { zh: '商业航天', en: 'Commercial Space', color: '#059669' },
+}
 
 describe('formatArticleDate', () => {
   it('returns dash for null and raw string for invalid date', () => {
@@ -41,21 +47,21 @@ describe('formatArticleDate', () => {
 
 describe('resolveCategoryColor / resolveCategoryLabel', () => {
   it('resolveCategoryColor falls back to grey for null and unknown keys', () => {
-    expect(resolveCategoryColor(null)).toBe('#64748b')
-    expect(resolveCategoryColor(['unknown'])).toBe('#64748b')
-    expect(resolveCategoryColor([])).toBe('#64748b')
+    expect(resolveCategoryColor(null, testCategoryMeta)).toBe('#64748b')
+    expect(resolveCategoryColor(['unknown'], testCategoryMeta)).toBe('#64748b')
+    expect(resolveCategoryColor([], testCategoryMeta)).toBe('#64748b')
   })
 
   it('resolveCategoryColor reads color from the first array entry', () => {
-    expect(resolveCategoryColor(['artemis', 'something'])).toBe('#6366f1')
+    expect(resolveCategoryColor(['artemis', 'something'], testCategoryMeta)).toBe('#6366f1')
   })
 
   it('resolveCategoryLabel returns localized label, falls back to raw key, empty for null', () => {
-    expect(resolveCategoryLabel(null, 'zh')).toBe('')
-    expect(resolveCategoryLabel(['artemis'], 'zh')).toBe('Artemis')
-    expect(resolveCategoryLabel(['artemis'], 'en')).toBe('Artemis')
+    expect(resolveCategoryLabel(null, 'zh', testCategoryMeta)).toBe('')
+    expect(resolveCategoryLabel(['artemis'], 'zh', testCategoryMeta)).toBe('Artemis')
+    expect(resolveCategoryLabel(['artemis'], 'en', testCategoryMeta)).toBe('Artemis')
     // Unknown key passes through.
-    expect(resolveCategoryLabel(['unknown'], 'en')).toBe('unknown')
+    expect(resolveCategoryLabel(['unknown'], 'en', testCategoryMeta)).toBe('unknown')
   })
 })
 

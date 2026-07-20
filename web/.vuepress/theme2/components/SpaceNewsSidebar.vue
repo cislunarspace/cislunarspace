@@ -117,11 +117,24 @@ import { useRoute } from 'vue-router'
 import { useIsEn } from '../composables/useIsEn'
 import { resolveCategoryColor } from '../utils/spaceNewsPresentation'
 import { spaceNewsLabels } from '../utils/spaceNewsLabels'
-import sidebarRaw from '../../space-news-sidebar-data.json'
+import type { SpaceNewsCategoryMeta } from '../utils/spaceNewsDirectoryView'
 
 const route = useRoute()
 const isEn = useIsEn()
 const isHidden = ref(false)
+
+const sidebarRaw = ref<Record<string, any> | null>(null)
+const categoryMeta = ref<SpaceNewsCategoryMeta>({})
+
+onMounted(async () => {
+  const [sidebarResponse, articlesResponse] = await Promise.all([
+    fetch('/space-news-sidebar-data.json'),
+    fetch('/space-news-articles.json'),
+  ])
+  sidebarRaw.value = await sidebarResponse.json()
+  const articlesData = await articlesResponse.json()
+  categoryMeta.value = articlesData.categoryMeta ?? {}
+})
 
 const labels = computed(() => spaceNewsLabels.sidebar[isEn.value ? 'en' : 'zh'])
 
@@ -129,7 +142,8 @@ const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'
 const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))
 
 const sidebarData = computed(() => {
-  const data = (sidebarRaw as Record<string, any>)[isEn.value ? 'en' : 'zh']
+  if (!sidebarRaw.value) return { latest: [], categories: [], archive: [], stats: { total: 0 } }
+  const data = sidebarRaw.value[isEn.value ? 'en' : 'zh']
   return data || { latest: [], categories: [], archive: [], stats: { total: 0 } }
 })
 
@@ -166,7 +180,7 @@ function isActivePath(current: string, target: string) {
 }
 
 function catColor(cats: string[] | null) {
-  return resolveCategoryColor(cats)
+  return resolveCategoryColor(cats, categoryMeta.value)
 }
 
 function formatShortDate(raw: string | null) {

@@ -4,8 +4,8 @@
  * Uses ChatTransport (the shared network seam) instead of direct fetch().
  * Endpoint and model come from the same /ai-chat-config.json that powers AI Chat.
  */
-import { loadChatConfig } from './chat-config'
-import type { ChatTransport } from './chat-engine-seams'
+import { loadChatConfig } from '../chat/chat-config'
+import type { ChatTransport } from '../chat/chat-engine-seams'
 import type { StepInput } from './dialectic-prompts'
 import { GLOBAL_SYSTEM_PROMPT, REPORT_SYSTEM_PROMPT, STEP_PROMPTS, steps } from './dialectic-prompts'
 

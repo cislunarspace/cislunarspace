@@ -188,8 +188,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { useDialecticHistory } from '../composables/useDialecticHistory'
-import type { DialecticReport } from '../composables/useDialecticHistory'
+import { useDialecticHistory } from '../utils/useDialecticHistory'
+import type { DialecticReport } from '../utils/useDialecticHistory'
 import { steps, TEMPLATES, validateStep } from '../utils/dialectic-prompts'
 import type { StepInput } from '../utils/dialectic-prompts'
 import { callDialecticAI, generateDialecticReport } from '../utils/dialectic-ai'

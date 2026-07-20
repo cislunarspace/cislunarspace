@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import type { Message } from '../../utils/chat-types'
+import type { Message } from '../../chat/chat-types'
 
 const HISTORY_KEY = 'cislunar-chat-history'
 const MAX_SAVED = 30

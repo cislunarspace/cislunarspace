@@ -205,10 +205,8 @@ export function generateSpaceNewsArtifacts(files: MarkdownFile[], webRoot: strin
   const zhArticles = filesToArticles(files, 'space-news/', '/space-news/')
   const enArticles = filesToArticles(files, 'en/space-news/', '/en/space-news/')
 
-  fs.writeFileSync(
-    path.join(outDir, 'space-news-articles.json'),
-    JSON.stringify({ zh: zhArticles, en: enArticles }, null, 2),
-  )
+  const articlesJson = JSON.stringify({ zh: zhArticles, en: enArticles, categoryMeta }, null, 2)
+  fs.writeFileSync(path.join(outDir, 'space-news-articles.json'), articlesJson)
   console.log(`Generated space-news-articles.json (${zhArticles.length} zh, ${enArticles.length} en)`)
 
   const sidebarData = {
@@ -216,9 +214,16 @@ export function generateSpaceNewsArtifacts(files: MarkdownFile[], webRoot: strin
     en: buildSidebarData(enArticles, '/en/space-news/', 'en', categoryMeta),
   }
 
-  fs.writeFileSync(
-    path.join(outDir, 'space-news-sidebar-data.json'),
-    JSON.stringify(sidebarData, null, 2),
-  )
+  const sidebarJson = JSON.stringify(sidebarData, null, 2)
+  fs.writeFileSync(path.join(outDir, 'space-news-sidebar-data.json'), sidebarJson)
   console.log('Generated space-news-sidebar-data.json')
+
+  // Write to public/ for runtime fetching
+  const publicDir = path.join(outDir, 'public')
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true })
+  }
+  fs.writeFileSync(path.join(publicDir, 'space-news-articles.json'), articlesJson)
+  fs.writeFileSync(path.join(publicDir, 'space-news-sidebar-data.json'), sidebarJson)
+  console.log('Copied space-news JSON to public/')
 }

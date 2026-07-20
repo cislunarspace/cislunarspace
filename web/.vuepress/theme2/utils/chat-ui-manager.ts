@@ -7,7 +7,7 @@
 import type { Ref } from 'vue'
 import { ref } from 'vue'
 import { renderLinkedHtml } from './markdown-renderer'
-import type { Message } from './chat-types'
+import type { Message } from '../chat/chat-types'
 
 const DEFAULT_SUGGESTED_QUESTIONS = {
   en: [

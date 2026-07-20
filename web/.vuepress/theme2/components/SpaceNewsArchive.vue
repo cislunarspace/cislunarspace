@@ -56,14 +56,14 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, ref, watch, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import articlesData from '../../space-news-articles.json'
 import { useIsEn } from '../composables/useIsEn'
 import type { ArticlesData } from '../utils/types'
 import {
   buildSpaceNewsDirectoryView,
   type SpaceNewsArticleView,
+  type SpaceNewsCategoryMeta,
 } from '../utils/spaceNewsDirectoryView'
 import { articleCardBackground, formatArticleDate } from '../utils/spaceNewsPresentation'
 import { spaceNewsLabels } from '../utils/spaceNewsLabels'
@@ -71,6 +71,16 @@ import { spaceNewsLabels } from '../utils/spaceNewsLabels'
 const isEn = useIsEn()
 const route = useRoute()
 const activeFilter = ref('all')
+
+const articlesData = ref<ArticlesData | null>(null)
+const categoryMeta = ref<SpaceNewsCategoryMeta>({})
+
+onMounted(async () => {
+  const response = await fetch('/space-news-articles.json')
+  const data = await response.json() as ArticlesData
+  articlesData.value = data
+  categoryMeta.value = data.categoryMeta ?? {}
+})
 
 // 从 URL query 读取分类过滤
 watch(() => route.query.category, (cat) => {
@@ -81,16 +91,18 @@ watch(() => route.query.category, (cat) => {
   }
 }, { immediate: true })
 
-const data = articlesData as ArticlesData
-
-const directoryView = computed(() => buildSpaceNewsDirectoryView({
-  articles: isEn.value ? data.en : data.zh,
-  locale: isEn.value ? 'en' : 'zh',
-}))
+const directoryView = computed(() => {
+  if (!articlesData.value) return null
+  return buildSpaceNewsDirectoryView({
+    articles: isEn.value ? articlesData.value.en : articlesData.value.zh,
+    locale: isEn.value ? 'en' : 'zh',
+    categoryMeta: categoryMeta.value,
+  })
+})
 
 const labels = computed(() => spaceNewsLabels.archive[isEn.value ? 'en' : 'zh'])
-const usedCategories = computed(() => directoryView.value.usedCategories)
-const monthGroups = computed(() => directoryView.value.monthGroups)
+const usedCategories = computed(() => directoryView.value?.usedCategories ?? [])
+const monthGroups = computed(() => directoryView.value?.monthGroups ?? [])
 
 const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'))
 

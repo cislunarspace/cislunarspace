@@ -14,9 +14,16 @@ export interface ArticleItem {
   relativePath?: string
 }
 
+export interface CategoryMetaEntry {
+  zh: string
+  en: string
+  color: string
+}
+
 export interface ArticlesData {
   zh: ArticleItem[]
   en: ArticleItem[]
+  categoryMeta: Record<string, CategoryMetaEntry>
 }
 
 export interface PageData {

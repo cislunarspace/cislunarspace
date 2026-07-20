@@ -1,7 +1,7 @@
 import type { ComputedRef } from 'vue'
 import type { ChatStateMachine } from '../../utils/chat-state-machine'
 import type { ChatUIManager } from '../../utils/chat-ui-manager'
-import type { Message } from '../../utils/chat-types'
+import type { Message } from '../../chat/chat-types'
 
 export interface ChatHistoryApi {
   saveCurrentChat: (messages: Message[], isEn: boolean) => void

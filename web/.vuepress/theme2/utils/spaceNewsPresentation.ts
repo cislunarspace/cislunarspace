@@ -12,8 +12,7 @@
  * Dependency direction is one-way: presentation imports types from the
  * view-model, never the reverse.
  */
-import type { SpaceNewsArticleView, SpaceNewsLocale } from './spaceNewsDirectoryView'
-import { categoryMeta } from '../../../.vuepress/taxonomy/adapters/news-categories'
+import type { SpaceNewsArticleView, SpaceNewsLocale, SpaceNewsCategoryMeta } from './spaceNewsDirectoryView'
 
 const FALLBACK_CATEGORY_COLOR = '#64748b'
 
@@ -48,6 +47,7 @@ export function formatArticleDate(
  */
 export function resolveCategoryColor(
   category: string[] | null,
+  categoryMeta: SpaceNewsCategoryMeta,
 ): string {
   const primary = category?.[0]
   if (!primary) return FALLBACK_CATEGORY_COLOR
@@ -61,6 +61,7 @@ export function resolveCategoryColor(
 export function resolveCategoryLabel(
   category: string[] | null,
   locale: SpaceNewsLocale,
+  categoryMeta: SpaceNewsCategoryMeta,
 ): string {
   const primary = category?.[0]
   if (!primary) return ''

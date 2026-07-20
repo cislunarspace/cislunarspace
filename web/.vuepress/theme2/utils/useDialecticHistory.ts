@@ -1,5 +1,3 @@
-import { ref } from 'vue'
-
 export interface DialecticReport {
   id: number
   title: string

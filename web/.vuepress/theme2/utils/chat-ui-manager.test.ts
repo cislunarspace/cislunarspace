@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { createChatUIManager } from './chat-ui-manager'
-import type { Message } from './chat-types'
+import type { Message } from '../chat/chat-types'
 
 describe('createChatUIManager', () => {
   it('updates suggested questions by locale', () => {
