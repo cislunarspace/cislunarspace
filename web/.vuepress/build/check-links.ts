@@ -14,18 +14,15 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { walkDir, DEFAULT_EXCLUDED } from '../utils/markdown-walker.ts'
+import type { MarkdownFile } from '../utils/markdown-walker.ts'
+import { parseFrontmatterAndBody } from '../utils/frontmatter-parser.ts'
+
+export type { MarkdownFile }
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const webDir = path.join(__dirname, '..', '..')
-
-// ── Types ─────────────────────────────────────────────────────────────────────
-
-export interface MarkdownFile {
-  absPath: string
-  relPath: string
-  content: string
-}
 
 export type LinkKind = 'link' | 'image' | 'cite'
 export type LinkStatus =
@@ -84,15 +81,9 @@ export function extractFrontmatterField(
   content: string,
   field: string,
 ): string | null {
-  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
-  if (!match?.[1]) return null
-
-  const fm = match[1]
-  // Match `field: value` at any indentation level within frontmatter
-  // Handles quoted and unquoted values
-  const re = new RegExp(`^${escapeRegExp(field)}:\\s*["']?([^"'\\n\\r]+?)["']?\\s*$`, 'm')
-  const m = fm.match(re)
-  return m?.[1]?.trim() ?? null
+  const { frontmatter } = parseFrontmatterAndBody(content)
+  const val = frontmatter[field]
+  return typeof val === 'string' ? val : null
 }
 
 // ── Filesystem convention ─────────────────────────────────────────────────────
@@ -205,12 +196,21 @@ export function resolveLinks(files: MarkdownFile[], rootDir: string | null = nul
 
   for (const file of files) {
     // Strip frontmatter to get body; track line offset for accurate reporting
-    const fmMatch = file.content.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/)
-    const body = fmMatch ? file.content.slice(fmMatch[0].length) : file.content
-    const lineOffset = fmMatch ? fmMatch[0].replace(/\r?\n?$/, '').split('\n').length : 0
+    const { frontmatter, body: rawBody } = parseFrontmatterAndBody(file.content)
+    // The parser's regex does not consume the \n after closing ---, so body
+    // may start with that newline.  Count lines of the frontmatter block
+    // including the delimiter line itself, then strip the leading newline so
+    // extractLinks / findCommentedLines see 1-based body lines.
+    const hasLeadingNewline = rawBody.startsWith('\r\n') || rawBody.startsWith('\n')
+    const nlLen = rawBody.startsWith('\r\n') ? 2 : 1
+    const fmEnd = file.content.length - rawBody.length + (hasLeadingNewline ? nlLen : 0)
+    const lineOffset = fmEnd > 0
+      ? file.content.slice(0, fmEnd).replace(/\r?\n?$/, '').split('\n').length
+      : 0
+    const body = hasLeadingNewline ? rawBody.slice(nlLen) : rawBody
 
     // Frontmatter image field
-    const fmImage = extractFrontmatterField(file.content, 'image')
+    const fmImage = typeof frontmatter.image === 'string' ? frontmatter.image : null
     if (fmImage) {
       const resolved = resolveOneLink(fmImage, file.relPath, routeTable, 'image', rootDir)
       results.push({
@@ -271,9 +271,14 @@ export function resolveCites(
   const results: ResolvedLink[] = []
 
   for (const file of files) {
-    const fmMatch = file.content.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/)
-    const body = fmMatch ? file.content.slice(fmMatch[0].length) : file.content
-    const lineOffset = fmMatch ? fmMatch[0].replace(/\r?\n?$/, '').split('\n').length : 0
+    const { body: rawBody } = parseFrontmatterAndBody(file.content)
+    const hasLeadingNewline = rawBody.startsWith('\r\n') || rawBody.startsWith('\n')
+    const nlLen = rawBody.startsWith('\r\n') ? 2 : 1
+    const fmEnd = file.content.length - rawBody.length + (hasLeadingNewline ? nlLen : 0)
+    const lineOffset = fmEnd > 0
+      ? file.content.slice(0, fmEnd).replace(/\r?\n?$/, '').split('\n').length
+      : 0
+    const body = hasLeadingNewline ? rawBody.slice(nlLen) : rawBody
     const lines = body.split('\n')
 
     for (let i = 0; i < lines.length; i++) {
@@ -417,12 +422,6 @@ function splitAnchor(target: string): [string, string | null] {
   return [target.slice(0, hashIdx) || '/', target.slice(hashIdx + 1)]
 }
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
-
-function escapeRegExp(s: string): string {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-}
-
 // ── File discovery ────────────────────────────────────────────────────────────
 
 /**
@@ -430,25 +429,26 @@ function escapeRegExp(s: string): string {
  * Excludes: .vuepress/, node_modules/, docs/, _*.md
  */
 export function collectMarkdownFiles(root: string): MarkdownFile[] {
-  const excludes = ['.vuepress', 'node_modules', 'docs']
   const files: MarkdownFile[] = []
 
-  function walk(dir: string): void {
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      if (entry.isDirectory()) {
-        if (excludes.includes(entry.name) || entry.name.startsWith('_')) continue
-        walk(path.join(dir, entry.name))
-      } else if (entry.isFile() && entry.name.endsWith('.md')) {
-        if (entry.name.startsWith('_')) continue
-        const absPath = path.join(dir, entry.name)
-        const relPath = path.relative(root, absPath)
-        const content = fs.readFileSync(absPath, 'utf8')
-        files.push({ absPath, relPath, content })
-      }
-    }
-  }
+  walkDir(
+    root,
+    {
+      excludedDirs: new Set([...DEFAULT_EXCLUDED, 'docs']),
+      onEnterDir: (_abs, rel) => {
+        const name = path.basename(rel)
+        return !name.startsWith('_')
+      },
+      onFile: (abs, rel) => {
+        if (!/\.md$/i.test(abs)) return
+        const name = path.basename(rel)
+        if (name.startsWith('_')) return
+        const content = fs.readFileSync(abs, 'utf8')
+        files.push({ absPath: abs, relPath: rel, content })
+      },
+    },
+  )
 
-  walk(root)
   return files
 }
 
