@@ -99,16 +99,6 @@ function extractFrontmatterBlock(content: string): { lines: string[]; endIndex: 
 }
 
 /**
- * Parse frontmatter metadata from markdown content.
- * Returns an empty object if no frontmatter block is found.
- */
-export function parseFrontmatter(content: string): Frontmatter {
-  const block = extractFrontmatterBlock(content)
-  if (!block) return {}
-  return parseLines(block.lines)
-}
-
-/**
  * Parse frontmatter metadata and return the remaining body content.
  * If no frontmatter block is found, returns empty frontmatter and the
  * original content as body.

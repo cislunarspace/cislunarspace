@@ -1,6 +1,8 @@
 # Implementation Roadmap — Cislunar Space Content Audit Remediation
 
 > Generated from `docs/audits/site-content-audit-2026-06-04.md` and GitHub issues #61–#81.
+>
+> **计划已执行完毕。** 本文件作为历史归档保留，不再作为活跃执行计划。
 
 ## Issue Index
 

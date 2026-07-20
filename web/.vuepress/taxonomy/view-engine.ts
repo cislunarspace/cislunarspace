@@ -3,20 +3,18 @@
  *
  * Centralises the traversal logic that view adapters previously duplicated:
  * locale-filtered child lookup, locale-specific path and label resolution,
- * recursive tree building, and source-level children detection.
+ * and recursive tree building.
  *
  * Query DSL:
  *
  *   engine
  *     .fromRoot(id)             // anchor at a node (null = forest root)
  *     .withLocale(locale)       // set locale for resolution + gating
- *     .filter(predicate)       // narrow flat results (list / walk / select)
+ *     .filter(predicate)       // narrow flat results (list / walk)
  *     .list()                  //   → direct children as ViewNode[]
  *     .walk()                  //   → root + all descendants, depth-first
- *     .select(projection)      //   → map each node to a projection
- *     .build()                 //   → materialise projection as array
+ *     .root()                  //   → root node as ViewNode, or null
  *     .buildTree(projector)    //   → recursive tree; projector returns null to skip
- *     .hasSourceChildren()     //   → source-level children (ignoring locale gating)
  *
  * ViewNode pre-resolves the locale-specific path (including external-link
  * href) and label so projectors never touch raw TaxonomyNode locale maps.
@@ -31,10 +29,6 @@ export interface ViewNode {
   readonly label: string
 }
 
-export interface ViewSelection<T> {
-  build(): T[]
-}
-
 export interface ViewQuery {
   withLocale(locale: Locale): ViewQuery
   filter(predicate: (vn: ViewNode) => boolean): ViewQuery
@@ -44,10 +38,6 @@ export interface ViewQuery {
   walk(): ViewNode[]
   /** The root node as a ViewNode, or null when rootId is null. */
   root(): ViewNode | null
-  /** True when the root has children in the source, ignoring locale gating. */
-  hasSourceChildren(): boolean
-  /** Map each walked node through a projection (terminal via `.build()`). */
-  select<T>(projection: (vn: ViewNode) => T): ViewSelection<T>
   /**
    * Recursively build a tree. The projector receives the ViewNode and its
    * already-built children; returning null omits the node from the output.
@@ -114,13 +104,6 @@ function createQuery(
     return toVN(taxonomy.get(rootId))
   }
 
-  const hasSourceChildren = (): boolean => {
-    for (const node of taxonomy.all()) {
-      if (node.parentId === rootId) return true
-    }
-    return false
-  }
-
   const buildTree = <T>(
     projector: (vn: ViewNode, children: T[]) => T | null,
   ): T[] => {
@@ -144,10 +127,6 @@ function createQuery(
     list,
     walk,
     root,
-    hasSourceChildren,
-    select<T>(projection: (vn: ViewNode) => T): ViewSelection<T> {
-      return { build: () => walk().map(projection) }
-    },
     buildTree,
   }
 }

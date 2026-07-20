@@ -52,9 +52,7 @@ Requires Node.js 18+ (CI and cron use v22.22.2).
 All sidebar-related data, types, and runtime config construction:
 
 - `data.ts` — manual sidebar section definitions for knowledge-base sections
-- `types.ts` — unified sidebar type re-exports (from `intake.ts` + `runtime.ts`)
-- `intake.ts` — build-time sidebar types (VueSidebarItem, GlossaryScan, ChatIndexEntry, etc.)
-- `runtime.ts` — runtime sidebar types (Article, SidebarData, SidebarYear, etc.)
+- `types.ts` — sidebar types (VueSidebarItem, GlossaryScan, ChatIndexEntry, Article, SidebarData, etc.)
 - `config.ts` — runtime VuePress sidebar config builder (called by `config.ts`)
 
 ### Build-Time Generators (`web/.vuepress/generators/`)
@@ -64,6 +62,7 @@ One generator per output family. Orchestrated by `generate.ts` (the `npm run gen
 - `space-news.ts` — generates `sidebar.auto.json`, `space-news-articles.json`, `space-news-sidebar-data.json`
 - `ai-chat.ts` — generates `ai-chat-context.json` and `ai-chat-index.json`
 - `glossary.ts` — generates `sidebar-glossary.auto.json` and translation-gap reports
+- `bibliography.ts` — generates `bibliography.json` from `ref.bib` + citation scan
 
 ### Build Tooling (`web/.vuepress/build/`)
 
@@ -79,6 +78,7 @@ Build infrastructure scripts (no content knowledge):
 Unified taxonomy module. See [ADR-0001](docs/adr/0001-unified-taxonomy-module.md).
 
 - `types.ts` — TaxonomyNode, NodeId, LocalePath, NodeKind definitions
+- `view-engine.ts` — declarative query layer (ViewQuery: list, walk, root, buildTree)
 - `data.ts` — navbar, wayfinding, glossary-category, news-category nodes
 - `define.ts` — flattens sidebar/data.ts + flatNodes into unified TaxonomyModule
 - `adapters/` — sidebar-sections, wayfinding, navbar, glossary-categories, news-categories, chat-index-sections

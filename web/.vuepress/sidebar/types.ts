@@ -5,9 +5,6 @@
  * runtime generated artifact shapes (produced by
  * `web/.vuepress/generators/`) live in this one file, distinguished by
  * type name and section header rather than by separate shallow files.
- *
- * Cross-module re-exports at the bottom keep the sidebar entry point as
- * the one place callers import sidebar-related types from.
  */
 import type { GlossaryCategoryMeta } from '../taxonomy/adapters/glossary-categories.ts'
 
@@ -48,21 +45,6 @@ export interface GlossaryScanEntry {
 export interface GlossaryScan {
   zh: { entries: GlossaryScanEntry[]; missing: TranslationGap[] }
   en: { entries: GlossaryScanEntry[] }
-}
-
-export interface GlossaryIntake {
-  entries: Array<{
-    slug: string
-    title: string
-    path: string
-    categorySlug: string
-  }>
-  missing: TranslationGap[]
-}
-
-export interface ChatIndexIntake {
-  zh: ChatIndexCategory[]
-  en: ChatIndexCategory[]
 }
 
 export interface TranslationGapIntake {
@@ -148,16 +130,4 @@ export interface SidebarGenerationResult {
   chatContext: ChatContext
 }
 
-// === Sidebar data shapes (re-export from data.ts) ==========================
-// `data.ts` holds both the `SidebarSection`/`SidebarEntry` types and the
-// `sidebarSections` const data, so it stays a separate file; these types
-// are re-exported here so callers have one import surface.
 
-export type { SidebarSection, SidebarEntry } from './data.ts'
-
-// === Cross-module re-export ================================================
-// `GlossaryCategoryMeta` is authored in the taxonomy module and consumed
-// inside `GlossaryScanEntry` above; re-exported so sidebar callers do not
-// need a second import path.
-
-export type { GlossaryCategoryMeta }

@@ -207,25 +207,6 @@ describe('TaxonomyViewEngine', () => {
     })
   })
 
-  describe('select + build', () => {
-    it('projects walked nodes into a flat array', () => {
-      const entries = engine()
-        .fromRoot('section-a')
-        .withLocale('zh')
-        .filter((vn) => vn.path !== null && vn.node.kind !== 'index')
-        .select((vn) => ({ path: vn.path, title: vn.label }))
-        .build()
-      expect(entries).toContainEqual({
-        path: '/a/g1/p2',
-        title: '页二',
-      })
-      expect(entries).toContainEqual({
-        path: '/a/zh-only',
-        title: '仅中文',
-      })
-    })
-  })
-
   describe('buildTree', () => {
     it('recursively builds a tree, passing built children to the projector', () => {
       interface Item {
@@ -265,27 +246,6 @@ describe('TaxonomyViewEngine', () => {
         )
       const texts = (tree as Array<{ text: string }>).map((t) => t.text)
       expect(texts).not.toContain('甲首页')
-    })
-  })
-
-  describe('hasSourceChildren', () => {
-    it('returns true when the node has children in the source', () => {
-      expect(
-        engine().fromRoot('section-a/group-1').hasSourceChildren(),
-      ).toBe(true)
-    })
-
-    it('returns false for leaf nodes', () => {
-      expect(
-        engine().fromRoot('section-a/page-1').hasSourceChildren(),
-      ).toBe(false)
-    })
-
-    it('ignores locale gating', () => {
-      // zh-only has no children at all
-      expect(
-        engine().fromRoot('section-a/zh-only').hasSourceChildren(),
-      ).toBe(false)
     })
   })
 

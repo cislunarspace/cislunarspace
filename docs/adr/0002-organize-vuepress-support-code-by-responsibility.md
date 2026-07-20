@@ -62,3 +62,12 @@ The build-time orchestrator (`generate.ts`) is a thin CLI entry point that deleg
 - `npm run gen-sidebar` produces all six JSON artifacts with identical content to pre-refactor.
 - `npm run test` passes all tests except `navbar.test.ts` dialectic route (pre-existing failure unrelated to this change).
 - `npm run docs:build` has not been run in this issue to avoid build cost; it should be validated in CI.
+
+## 实施后记
+
+ADR 批准后实际落地时有以下偏差：
+
+1. **`sidebar/types.ts` 合并为单一文件**：ADR 原计划拆为 `intake.ts` + `runtime.ts` + `types.ts`（re-export hub），实际直接合并到 `types.ts` 一个文件，`intake.ts` 和 `runtime.ts` 未创建。re-export 层已在后续清理中移除。
+2. **`page-metadata.ts` 位置**：ADR 写"lives in `.vuepress/utils/page-metadata.ts`"，实际同时有 `.ts`（封装层）和 `.mjs`（核心实现）两个文件，测试后来从 `.vuepress/` 根移入 `utils/`。
+3. **`gb-t-7714.csl` 已删除**：bibliography generator 重写为自实现 GB/T 7714 格式化，不再依赖 CSL 文件。
+4. **`view-engine.ts` 的 `select`/`build`/`hasSourceChildren` 已移除**：这三个方法仅被测试调用，属于死代码。

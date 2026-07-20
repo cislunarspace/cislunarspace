@@ -36,11 +36,10 @@ describe('generateBibliographyArtifacts', () => {
       },
     ]
 
-    const cslPath = path.join(__dirname, 'gb-t-7714.csl')
     const outDir = path.join(tmpDir, '.vuepress')
 
     // Act
-    generateBibliographyArtifacts(mdFiles, tmpDir, outDir, cslPath)
+    generateBibliographyArtifacts(mdFiles, tmpDir, outDir)
 
     // Assert
     const outputPath = path.join(outDir, 'public', 'bibliography.json')

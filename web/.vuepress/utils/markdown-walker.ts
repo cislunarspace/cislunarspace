@@ -17,7 +17,6 @@ export interface FileSystemWalkerOptions {
   excludedDirs?: Set<string>
   onFile?: (absPath: string, relPath: string) => void
   onEnterDir?: (absPath: string, relPath: string) => boolean | void  // return false to skip recursion
-  onExitDir?: (absPath: string, relPath: string) => void
 }
 
 export function walkDir(
@@ -26,7 +25,6 @@ export function walkDir(
     excludedDirs = DEFAULT_EXCLUDED,
     onFile,
     onEnterDir,
-    onExitDir,
   }: FileSystemWalkerOptions,
   relRoot = '',
 ): void {
@@ -37,8 +35,7 @@ export function walkDir(
     if (entry.isDirectory()) {
       if (excludedDirs.has(entry.name)) continue
       const descend = onEnterDir?.(abs, rel) !== false
-      if (descend) walkDir(abs, { excludedDirs, onFile, onEnterDir, onExitDir }, rel)
-      onExitDir?.(abs, rel)
+      if (descend) walkDir(abs, { excludedDirs, onFile, onEnterDir }, rel)
     } else {
       onFile?.(abs, rel)
     }
