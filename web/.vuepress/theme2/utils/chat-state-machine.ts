@@ -9,7 +9,7 @@
  */
 import type { Ref } from 'vue'
 import { ref } from 'vue'
-import { sanitizeClientConfig } from './chat-config'
+import { loadChatConfig } from './chat-config'
 import type { ChatSession } from './chat-session'
 import type { HierarchicalSiteIndex, Message, NormalizedConfig, ProcessStepKey, ErrorKey, SseDelta } from './chat-types'
 import { beginStep, completeStep, finalizeSteps } from './chat-process-steps'
@@ -87,9 +87,7 @@ export function createChatStateMachine(): ChatStateMachine {
 
   async function loadConfig(t: (key: string) => string): Promise<void> {
     try {
-      const response = await fetch('/ai-chat-config.json', { cache: 'no-store' })
-      if (!response.ok) throw new Error(`HTTP ${response.status}`)
-      config.value = sanitizeClientConfig(await response.json())
+      config.value = await loadChatConfig()
       try {
         const idxRes = await fetch('/ai-chat-index.json', { cache: 'no-store' })
         siteIndex.value = idxRes.ok ? await idxRes.json() : { zh: [], en: [] }

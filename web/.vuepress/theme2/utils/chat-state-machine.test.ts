@@ -64,7 +64,7 @@ describe('createChatStateMachine', () => {
     const sm = createChatStateMachine()
     vi.stubGlobal('fetch', vi.fn(async () => new Response('', { status: 500 })))
     await sm.loadConfig(t)
-    expect(sm.messages.value).toEqual([{ role: 'assistant', content: 'config error HTTP 500' }])
+    expect(sm.messages.value).toEqual([{ role: 'assistant', content: 'config error Failed to load AI config: HTTP 500' }])
     expect(sm.config.value).toBeNull()
   })
 

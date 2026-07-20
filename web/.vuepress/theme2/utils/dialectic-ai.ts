@@ -2,9 +2,9 @@
  * AI integration for the Dialectic surface.
  *
  * Uses ChatTransport (the shared network seam) instead of direct fetch().
- * The Dialectic AI layer is intentionally separate from ChatSession —
- * it has different prompt structure, model config, and response handling.
+ * Endpoint and model come from the same /ai-chat-config.json that powers AI Chat.
  */
+import { loadChatConfig } from './chat-config'
 import type { ChatTransport } from './chat-engine-seams'
 import type { StepInput } from './dialectic-prompts'
 import { GLOBAL_SYSTEM_PROMPT, REPORT_SYSTEM_PROMPT, STEP_PROMPTS, steps } from './dialectic-prompts'
@@ -16,8 +16,6 @@ export interface DialecticAIResult {
 
 export interface DialecticAIDeps {
   transport?: ChatTransport
-  apiEndpoint?: string
-  model?: string
 }
 
 /** Build the system prompt for the current step's AI assist. */
@@ -71,15 +69,14 @@ export async function callDialecticAI(
   deps: DialecticAIDeps = {},
 ): Promise<DialecticAIResult> {
   const transport = deps.transport ?? (await import('./chat-engine-seams')).createFetchTransport()
-  const endpoint = deps.apiEndpoint ?? '/api/ai/chat/completions'
-  const model = deps.model ?? 'deepseek-v4-pro'
+  const config = await loadChatConfig()
 
   const input = inputs[stepIndex]
   const userContent = buildStepUserContent(stepIndex, input)
   const context = buildStepContext(stepIndex, inputs)
 
   const payload = {
-    model,
+    model: config.model,
     messages: [
       { role: 'system', content: buildStepSystemPrompt(stepIndex) },
       { role: 'user', content: context + '\n---用户当前步骤输入---\n' + userContent },
@@ -89,7 +86,7 @@ export async function callDialecticAI(
   }
 
   try {
-    const data = (await transport.completeJson(endpoint, payload, new AbortController().signal)) as {
+    const data = (await transport.completeJson(config.apiEndpoint, payload, new AbortController().signal)) as {
       choices?: Array<{ message?: { content?: string; reasoning_content?: string } }>
     }
     if (data?.choices?.[0]?.message) {
@@ -132,11 +129,10 @@ export async function generateDialecticReport(
   deps: DialecticAIDeps = {},
 ): Promise<string | null> {
   const transport = deps.transport ?? (await import('./chat-engine-seams')).createFetchTransport()
-  const endpoint = deps.apiEndpoint ?? '/api/ai/chat/completions'
-  const model = deps.model ?? 'deepseek-v4-pro'
+  const config = await loadChatConfig()
 
   const payload = {
-    model,
+    model: config.model,
     messages: [
       { role: 'system', content: REPORT_SYSTEM_PROMPT },
       { role: 'user', content: buildReportPrompt(inputs) },
@@ -146,7 +142,7 @@ export async function generateDialecticReport(
   }
 
   try {
-    const data = (await transport.completeJson(endpoint, payload, new AbortController().signal)) as {
+    const data = (await transport.completeJson(config.apiEndpoint, payload, new AbortController().signal)) as {
       choices?: Array<{ message?: { content?: string } }>
     }
     return data?.choices?.[0]?.message?.content || null
