@@ -109,12 +109,17 @@ const isEn = useIsEn()
 
 const articlesData = ref<ArticlesData | null>(null)
 const categoryMeta = ref<SpaceNewsCategoryMeta>({})
+const fetchError = ref(false)
 
 onMounted(async () => {
-  const response = await fetch('/space-news-articles.json')
-  const data = await response.json() as ArticlesData
-  articlesData.value = data
-  categoryMeta.value = data.categoryMeta ?? {}
+  try {
+    const response = await fetch('/space-news-articles.json')
+    const data = await response.json() as ArticlesData
+    articlesData.value = data
+    categoryMeta.value = data.categoryMeta ?? {}
+  } catch {
+    fetchError.value = true
+  }
 })
 
 const directoryView = computed(() => {

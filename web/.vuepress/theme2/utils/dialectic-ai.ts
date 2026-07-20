@@ -68,7 +68,7 @@ export async function callDialecticAI(
   inputs: StepInput[],
   deps: DialecticAIDeps = {},
 ): Promise<DialecticAIResult> {
-  const transport = deps.transport ?? (await import('./chat-engine-seams')).createFetchTransport()
+  const transport = deps.transport ?? (await import('../chat/chat-engine-seams')).createFetchTransport()
   const config = await loadChatConfig()
 
   const input = inputs[stepIndex]
@@ -128,7 +128,7 @@ export async function generateDialecticReport(
   inputs: StepInput[],
   deps: DialecticAIDeps = {},
 ): Promise<string | null> {
-  const transport = deps.transport ?? (await import('./chat-engine-seams')).createFetchTransport()
+  const transport = deps.transport ?? (await import('../chat/chat-engine-seams')).createFetchTransport()
   const config = await loadChatConfig()
 
   const payload = {

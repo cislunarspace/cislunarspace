@@ -78,13 +78,6 @@ export function createLLMRouter(deps: LLMRouterDeps): ChatRouter {
       const categories = siteIndex[locale] || []
       const maxPaths = config.routerMaxPaths ?? 8
 
-      const indexText = categories
-        .map((cat) => {
-          const entries = cat.entries.map((e) => `- ${e.title}: ${e.path}`).join('\n')
-          return `### ${cat.category}\n${entries}`
-        })
-        .join('\n')
-
       const mapText = buildSiteMapText(categories)
       const routerUser = buildRouterUserMessage(history, question, locale)
 
