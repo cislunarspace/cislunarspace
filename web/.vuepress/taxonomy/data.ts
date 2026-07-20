@@ -158,7 +158,7 @@ export const glossaryRoot: TaxonomyNode = {
   id: GLOSSARY_ROOT_ID,
   kind: 'group',
   label: { zh: '术语词典根', en: 'Glossary root' },
-  path: { zh: null, en: null },
+  path: { zh: '/glossary/', en: '/en/glossary/' },
   order: 20000,
   parentId: null,
 }

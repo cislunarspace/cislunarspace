@@ -4,7 +4,7 @@ import { buildGlossaryScan } from '../intakes/glossary-intake.ts'
 import { buildWayfindingIntake as buildWayfinding } from '../taxonomy/adapters/wayfinding.ts'
 import { glossaryCategories } from '../taxonomy/adapters/glossary-categories.ts'
 import { buildAllSectionSidebars } from '../taxonomy/adapters/sidebar-sections.ts'
-import { taxonomy } from '../taxonomy/index.ts'
+import { taxonomy, GLOSSARY_ROOT_ID } from '../taxonomy/index.ts'
 import { walkSiteMarkdown } from '../utils/markdown-walker.ts'
 import type { VueSidebarItem } from './types.ts'
 
@@ -16,7 +16,7 @@ function buildGlossarySidebar(
   scan: ReturnType<typeof buildGlossaryScan>,
   locale: 'zh' | 'en',
 ): VueSidebarItem {
-  const prefix = locale === 'en' ? '/en' : ''
+  const glossaryRootPath = taxonomy.get(GLOSSARY_ROOT_ID).path[locale]!
   const entries = locale === 'en' ? scan.en.entries : scan.zh.entries
 
   const byCategory = new Map<string, Array<{ slug: string; title: string; path: string }>>()
@@ -35,7 +35,7 @@ function buildGlossarySidebar(
         enCatEntries.push({
           slug: gap.slug,
           title: `${gap.zhTitle} (needs translation)`,
-          path: `/en/glossary/${catMeta.slug}/${gap.slug}/`,
+          path: `${glossaryRootPath}${catMeta.slug}/${gap.slug}/`,
         })
         byCategory.set(catMeta.slug, enCatEntries)
       }
@@ -46,7 +46,7 @@ function buildGlossarySidebar(
     ? 'Cislunar glossary (terms & definitions)'
     : '地月空间术语词典（定义与概念检索）'
 
-  const categoryChildren: Array<string | VueSidebarItem> = [`${prefix}/glossary/`]
+  const categoryChildren: Array<string | VueSidebarItem> = [glossaryRootPath]
 
   for (const catMeta of glossaryCategories) {
     const catEntries = byCategory.get(catMeta.slug) || []

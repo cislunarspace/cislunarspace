@@ -2,6 +2,7 @@
  * ChatIndexIntake — builds hierarchical AI chat index from GlossaryScan.
  */
 import { glossaryCategories, categoryRegistry } from '../taxonomy/adapters/glossary-categories.js'
+import { taxonomy, GLOSSARY_ROOT_ID } from '../taxonomy/index.js'
 import type { GlossaryScan } from '../sidebar/types.ts'
 import type { ChatIndexCategory, ChatIndexEntry } from '../sidebar/types.ts'
 import { buildSectionChatIndexCategories } from '../taxonomy/adapters/chat-index-sections.js'
@@ -19,12 +20,13 @@ export function buildChatIndexIntake(scan: GlossaryScan): { zh: ChatIndexCategor
     }
 
     if (locale === 'en') {
+      const enBase = taxonomy.get(GLOSSARY_ROOT_ID).path.en!
       for (const gap of scan.zh.missing) {
         const catMeta = categoryRegistry.getByLabel(gap.category, 'zh')
         if (!catMeta) continue
         const catLabel = catMeta.label.en
         const existing = byCategory.get(catLabel) || []
-        const gapPath = `/en/glossary/${catMeta.slug}/${gap.slug}/`
+        const gapPath = `${enBase}${catMeta.slug}/${gap.slug}/`
         if (!existing.some(e => e.path === gapPath)) {
           existing.push({ path: gapPath, title: `${gap.zhTitle} (needs translation)` })
           byCategory.set(catLabel, existing)
