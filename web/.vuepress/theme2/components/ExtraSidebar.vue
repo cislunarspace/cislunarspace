@@ -41,7 +41,7 @@ function hideToc(event: MouseEvent) {
 
 <style lang="scss">
 .page-sidebar {
-  font-size: 12px;
+  font-size: 0.75rem;
   width: 3.8rem;
   position: fixed;
   z-index: 11;
@@ -95,7 +95,7 @@ function hideToc(event: MouseEvent) {
     }
   }
   div.option-box {
-    font-size: 12px;
+    font-size: 0.75rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ function hideToc(event: MouseEvent) {
     .show-txt {
       color: var(--c-text-lighter);
       margin-top: 3px;
-      font-size: 11px;
+      font-size: 0.6875rem;
       transition: color 0.2s;
     }
   }

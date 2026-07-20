@@ -21,9 +21,9 @@
   --vp-c-bg-elv: #f1f5f9;
   --vp-sidebar-c-bg: #f8fafc;
 
-  /* ---- 文字：清晰易读 ---- */
-  --vp-c-text: #000000;
-  --vp-c-text-mute: #64748b;
+  /* ---- 文字：清晰易读（正文柔化为 slate-900，避免纯黑发硬）---- */
+  --vp-c-text: #0f172a;
+  --vp-c-text-mute: #475569;
   --vp-c-text-subtle: #94a3b8;
 
   /* ---- 边框：极淡 ---- */
@@ -50,7 +50,7 @@
   --c-brand-rgb: 37, 99, 235;
 
   /* ---- 文字 ---- */
-  --c-text: #000000;
+  --c-text: #0f172a;
   --c-text-light: #475569;
   --c-text-lighter: #64748b;
   --c-text-quote: #94a3b8;
@@ -107,7 +107,12 @@
   --radius-pill: 9999px;
 
   /* ---- 字体 ---- */
-  --font-family: system-ui, sans-serif;
+  --font-family: system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+
+  /* ---- Space News 深空表面（深浅主题共用，恒为深色）---- */
+  --sn-space-gradient: linear-gradient(155deg, #0f172a 0%, #17203a 55%, #1e3a8a 130%);
+  --sn-on-space-accent: #93c5fd;
 }
 
 /* 英文区域：西文优先字体栈 */
@@ -117,28 +122,28 @@
 
 /* ============================================
    深色主题
-   风格：温润深邃，沉稳红为点缀
+   风格：深空冷调，同一蓝色相提亮呈现
    ============================================ */
 [data-theme='dark'] {
-  /* ---- 强调色：温润红 ---- */
-  --vp-c-accent: #c2414d;
-  --vp-c-accent-bg: #9e2a35;
-  --vp-c-accent-hover: #d66873;
+  /* ---- 强调色：品牌蓝提亮（与浅色同一色相，保证深色下对比度）---- */
+  --vp-c-accent: #60a5fa;
+  --vp-c-accent-bg: #3b82f6;
+  --vp-c-accent-hover: #93c5fd;
   --vp-c-accent-text: #ffffff;
-  --vp-c-accent-soft: rgba(194, 65, 77, 0.12);
+  --vp-c-accent-soft: rgba(96, 165, 250, 0.14);
 
-  /* ---- 背景：暖深灰（非死黑）---- */
-  --vp-c-bg: #0f1115;
-  --vp-c-bg-alt: #16181e;
-  --vp-c-bg-elv: #1c1f26;
-  --vp-sidebar-c-bg: #0f1115;
+  /* ---- 背景：深空冷灰（非死黑）---- */
+  --vp-c-bg: #0d1117;
+  --vp-c-bg-alt: #151b23;
+  --vp-c-bg-elv: #1c2330;
+  --vp-sidebar-c-bg: #0d1117;
 
   /* ---- 文字：柔和灰白 ---- */
-  --vp-c-text: #ffffff;
-  --vp-c-text-mute: #9ca3af;
-  --vp-c-text-subtle: #6b7280;
+  --vp-c-text: #e2e8f0;
+  --vp-c-text-mute: #94a3b8;
+  --vp-c-text-subtle: #64748b;
 
-  /* ---- 边框：极淡暖白 ---- */
+  /* ---- 边框：极淡冷白 ---- */
   --vp-c-divider: rgba(255, 255, 255, 0.05);
   --vp-c-border: rgba(255, 255, 255, 0.08);
   --vp-c-border-hard: rgba(255, 255, 255, 0.14);
@@ -147,43 +152,43 @@
   --vp-c-shadow: rgb(0 0 0 / 40%);
 
   /* ---- 控件色 ---- */
-  --vp-c-control: rgba(194, 65, 77, 0.06);
-  --vp-c-control-hover: rgba(194, 65, 77, 0.10);
+  --vp-c-control: rgba(96, 165, 250, 0.08);
+  --vp-c-control-hover: rgba(96, 165, 250, 0.12);
   --vp-c-control-disabled: #2a2d35;
 
-  /* ---- 品牌变量（温润红）---- */
-  --c-brand: #c2414d;
-  --c-brand-light: #d66873;
-  --c-brand-dark: #9e2a35;
-  --c-brand-rgb: 194, 65, 77;
+  /* ---- 品牌变量（提亮蓝）---- */
+  --c-brand: #60a5fa;
+  --c-brand-light: #93c5fd;
+  --c-brand-dark: #3b82f6;
+  --c-brand-rgb: 96, 165, 250;
 
   /* ---- 文字 ---- */
-  --c-text: #ffffff;
+  --c-text: #e2e8f0;
   --c-text-light: #b0b8c1;
-  --c-text-lighter: #9ca3af;
-  --c-text-quote: #6b7280;
+  --c-text-lighter: #94a3b8;
+  --c-text-quote: #64748b;
 
   /* ---- 背景 ---- */
-  --c-bg: #0f1115;
-  --c-bg-light: #16181e;
-  --c-bg-lighter: #1c1f26;
-  --c-bg-navbar: rgba(15, 17, 21, 0.92);
+  --c-bg: #0d1117;
+  --c-bg-light: #151b23;
+  --c-bg-lighter: #1c2330;
+  --c-bg-navbar: rgba(13, 17, 23, 0.92);
 
   /* ---- 边框 ---- */
   --c-border: rgba(255, 255, 255, 0.06);
   --c-border-dark: rgba(255, 255, 255, 0.10);
 
   /* ---- 强调色 ---- */
-  --c-accent: #c2414d;
-  --c-accent-soft: rgba(194, 65, 77, 0.10);
-  --c-accent-medium: rgba(194, 65, 77, 0.14);
+  --c-accent: #60a5fa;
+  --c-accent-soft: rgba(96, 165, 250, 0.12);
+  --c-accent-medium: rgba(96, 165, 250, 0.16);
 
   /* ---- 阴影系统（柔和弥散）---- */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.2);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.25);
   --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.45), 0 8px 20px rgba(0, 0, 0, 0.3);
-  --shadow-glow: 0 0 24px rgba(194, 65, 77, 0.22);
+  --shadow-glow: 0 0 24px rgba(96, 165, 250, 0.22);
 
   /* ---- 滚动条 ---- */
   --scrollbar-thumb: #30363d;

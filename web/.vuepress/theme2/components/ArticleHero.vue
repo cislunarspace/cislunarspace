@@ -71,7 +71,7 @@ const displayDate = computed(() => {
 }
 
 .article-hero--plain {
-  background: linear-gradient(135deg, #0b1220 0%, #0f2847 40%, #0c4a6e 100%);
+  background: var(--sn-space-gradient);
   padding: 2rem 0;
   position: relative;
 

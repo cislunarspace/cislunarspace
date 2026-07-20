@@ -67,12 +67,11 @@ export function resolveCategoryLabel(
   return categoryMeta[primary]?.[locale] ?? primary
 }
 
-/** Card background style — image if present, otherwise gradient using the article's category color.
- *  When an image URL is present, a gradient fallback is stacked behind it via CSS multiple
- *  backgrounds so that if the image fails to load (404, slow connection, etc.) the card still
- *  shows a colored background instead of blank. */
+/** Card background style — image if present, otherwise the shared deep-space
+ *  gradient. Duplicated from `--sn-space-gradient` in styles/vars.scss because
+ *  inline styles cannot read CSS variables at build time; keep both in sync. */
 export function articleCardBackground(article: SpaceNewsArticleView): { background: string } {
-  const gradient = `linear-gradient(135deg, ${article.categoryColor} 0%, ${article.categoryColor}99 100%)`
+  const gradient = 'linear-gradient(155deg, #0f172a 0%, #17203a 55%, #1e3a8a 130%)'
   if (article.image) {
     // Multiple backgrounds: image on top, gradient behind it.
     // If the image URL 404s, the gradient is visible as fallback.

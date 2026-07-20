@@ -179,6 +179,11 @@ const glossaryCategoryNodes: TaxonomyNode[] = [
 // Each `news-category` node carries a 7-char hex `meta.color` consumed by
 // SpaceNewsHome / Sidebar / Archive components. The validator enforces
 // the hex shape at module load so a typo doesn't silently propagate.
+//
+// 配色约定（色相族收敛）：机构与公司用蓝族（与品牌蓝 #2563eb 同族），重大
+// 计划与科学用靛紫族，语义色只留少数几个（china 国旗红、launch 火焰橙、
+// commercial 商业绿、policy 政策金、human-spaceflight 玫红）。新增分类时
+// 先归入既有色相族，不要再引入新色相。
 
 const newsCategoryNodes: TaxonomyNode[] = [
   { id: 'artemis', kind: 'news-category', label: { zh: 'Artemis', en: 'Artemis' }, path: { zh: null, en: null }, order: 30010, parentId: null, meta: { color: '#6366f1' } },
@@ -186,16 +191,16 @@ const newsCategoryNodes: TaxonomyNode[] = [
   { id: 'china', kind: 'news-category', label: { zh: '中国航天', en: 'China Space' }, path: { zh: null, en: null }, order: 30030, parentId: null, meta: { color: '#dc2626' } },
   { id: 'nasa', kind: 'news-category', label: { zh: 'NASA', en: 'NASA' }, path: { zh: null, en: null }, order: 30040, parentId: null, meta: { color: '#2563eb' } },
   { id: 'esa', kind: 'news-category', label: { zh: 'ESA', en: 'ESA' }, path: { zh: null, en: null }, order: 30050, parentId: null, meta: { color: '#0891b2' } },
-  { id: 'iss', kind: 'news-category', label: { zh: '空间站', en: 'Space Station' }, path: { zh: null, en: null }, order: 30060, parentId: null, meta: { color: '#7c3aed' } },
+  { id: 'iss', kind: 'news-category', label: { zh: '空间站', en: 'Space Station' }, path: { zh: null, en: null }, order: 30060, parentId: null, meta: { color: '#4f46e5' } },
   { id: 'launch', kind: 'news-category', label: { zh: '发射', en: 'Launches' }, path: { zh: null, en: null }, order: 30070, parentId: null, meta: { color: '#ea580c' } },
   { id: 'commercial', kind: 'news-category', label: { zh: '商业航天', en: 'Commercial Space' }, path: { zh: null, en: null }, order: 30080, parentId: null, meta: { color: '#059669' } },
   { id: 'science', kind: 'news-category', label: { zh: '科学发现', en: 'Science' }, path: { zh: null, en: null }, order: 30090, parentId: null, meta: { color: '#8b5cf6' } },
   { id: 'policy', kind: 'news-category', label: { zh: '政策战略', en: 'Policy & Strategy' }, path: { zh: null, en: null }, order: 30100, parentId: null, meta: { color: '#ca8a04' } },
-  { id: 'blue-origin', kind: 'news-category', label: { zh: 'Blue Origin', en: 'Blue Origin' }, path: { zh: null, en: null }, order: 30110, parentId: null, meta: { color: '#4338ca' } },
+  { id: 'blue-origin', kind: 'news-category', label: { zh: 'Blue Origin', en: 'Blue Origin' }, path: { zh: null, en: null }, order: 30110, parentId: null, meta: { color: '#1e40af' } },
   { id: 'commercial-space', kind: 'news-category', label: { zh: '商业航天', en: 'Commercial Space' }, path: { zh: null, en: null }, order: 30120, parentId: null, meta: { color: '#059669' } },
-  { id: 'rocket-lab', kind: 'news-category', label: { zh: 'Rocket Lab', en: 'Rocket Lab' }, path: { zh: null, en: null }, order: 30130, parentId: null, meta: { color: '#0fbcf9' } },
+  { id: 'rocket-lab', kind: 'news-category', label: { zh: 'Rocket Lab', en: 'Rocket Lab' }, path: { zh: null, en: null }, order: 30130, parentId: null, meta: { color: '#0284c7' } },
   { id: 'technology', kind: 'news-category', label: { zh: '技术', en: 'Technology' }, path: { zh: null, en: null }, order: 30140, parentId: null, meta: { color: '#64748b' } },
-  { id: 'human-spaceflight', kind: 'news-category', label: { zh: '载人航天', en: 'Human Spaceflight' }, path: { zh: null, en: null }, order: 30150, parentId: null, meta: { color: '#dc2626' } },
+  { id: 'human-spaceflight', kind: 'news-category', label: { zh: '载人航天', en: 'Human Spaceflight' }, path: { zh: null, en: null }, order: 30150, parentId: null, meta: { color: '#e11d48' } },
 ]
 
 // ── Combined flat array ──────────────────────────────────────────────────────

@@ -267,12 +267,12 @@ watch(
   margin-left: -6px;
 
   &:hover {
-    color: var(--c-brand, #0ea5e9);
+    color: var(--c-brand, #2563eb);
     background: var(--c-accent-soft, rgba(14,165,233,0.06));
   }
 
   &.active {
-    color: var(--c-brand, #0ea5e9);
+    color: var(--c-brand, #2563eb);
     font-weight: 600;
     background: var(--c-accent-soft, rgba(14,165,233,0.06));
     padding-left: 10px;

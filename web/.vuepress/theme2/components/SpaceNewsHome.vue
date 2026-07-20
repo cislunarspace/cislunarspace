@@ -178,7 +178,7 @@ function formatDate(raw: string | null) {
 }
 
 .sn-hero {
-  background: linear-gradient(135deg, #0b1220 0%, #0f2847 40%, #0c4a6e 100%);
+  background: var(--sn-space-gradient);
   color: #fff;
   padding: 2.5rem 1.25rem 2.75rem;
   position: relative;
@@ -245,7 +245,7 @@ function formatDate(raw: string | null) {
   transition: background 0.2s, transform 0.2s;
 
   &.active {
-    background: #0284c7;
+    background: var(--vp-c-accent);
     transform: scale(1.25);
   }
 
@@ -377,7 +377,7 @@ function formatDate(raw: string | null) {
   margin-left: auto;
   font-size: 0.875rem;
   font-weight: 600;
-  color: var(--c-brand, #0284c7);
+  color: var(--c-brand, #2563eb);
   text-decoration: none;
   white-space: nowrap;
   position: relative;

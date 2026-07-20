@@ -82,15 +82,15 @@ onBeforeUnmount(() => {
   transition: all 0.2s;
 
   &:hover {
-    color: var(--c-brand, #3eaf7c);
-    border-color: var(--c-brand, #3eaf7c);
+    color: var(--c-brand, #2563eb);
+    border-color: var(--c-brand, #2563eb);
     background: var(--c-bg-lighter, #f0f4f8);
   }
 
   &.copied {
-    color: var(--c-brand, #3eaf7c);
-    border-color: var(--c-brand, #3eaf7c);
-    background: rgba(62, 175, 124, 0.08);
+    color: var(--c-brand, #2563eb);
+    border-color: var(--c-brand, #2563eb);
+    background: rgba(37, 99, 235, 0.08);
   }
 }
 </style>

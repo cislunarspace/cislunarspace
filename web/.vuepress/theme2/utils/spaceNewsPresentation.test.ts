@@ -74,11 +74,11 @@ describe('articleCardBackground', () => {
       categoryLabel: '',
       categoryColor: '#64748b',
     })).toEqual({
-      background: 'url(/img/x.png) center/cover no-repeat, linear-gradient(135deg, #64748b 0%, #64748b99 100%)',
+      background: 'url(/img/x.png) center/cover no-repeat, linear-gradient(155deg, #0f172a 0%, #17203a 55%, #1e3a8a 130%)',
     })
   })
 
-  it('falls back to gradient using the article category color', () => {
+  it('falls back to the shared deep-space gradient regardless of category color', () => {
     expect(articleCardBackground({
       path: '/x/',
       title: 'x',
@@ -91,6 +91,6 @@ describe('articleCardBackground', () => {
       primaryCategory: 'artemis',
       categoryLabel: 'Artemis',
       categoryColor: '#6366f1',
-    })).toEqual({ background: 'linear-gradient(135deg, #6366f1 0%, #6366f199 100%)' })
+    })).toEqual({ background: 'linear-gradient(155deg, #0f172a 0%, #17203a 55%, #1e3a8a 130%)' })
   })
 })

@@ -15,14 +15,14 @@ describe('theme text colors', () => {
     compiledCss = compileScss()
   })
 
-  test('light mode body text color is black', () => {
-    // :root should define --vp-c-text as black
-    expect(compiledCss).toContain('--vp-c-text: #000000')
-    expect(compiledCss).toContain('--c-text: #000000')
+  test('light mode body text color is slate-900', () => {
+    // :root should define --vp-c-text as slate-900 (softened from pure black)
+    expect(compiledCss).toContain('--vp-c-text: #0f172a')
+    expect(compiledCss).toContain('--c-text: #0f172a')
   })
 
-  test('dark mode body text color is white', () => {
-    // [data-theme="dark"] should define --vp-c-text as white
+  test('dark mode body text color is slate-200', () => {
+    // [data-theme="dark"] should define --vp-c-text as slate-200 (softened from pure white)
     const darkThemeStart = compiledCss.indexOf('[data-theme=dark]')
     expect(darkThemeStart).toBeGreaterThan(-1)
 
@@ -31,8 +31,8 @@ describe('theme text colors', () => {
     const darkThemeEnd = darkThemeSection.indexOf('}\n:root') // next :root or end
     const darkThemeBlock = darkThemeSection.slice(0, darkThemeEnd > 0 ? darkThemeEnd : undefined)
 
-    expect(darkThemeBlock).toContain('--vp-c-text: #ffffff')
-    expect(darkThemeBlock).toContain('--c-text: #ffffff')
+    expect(darkThemeBlock).toContain('--vp-c-text: #e2e8f0')
+    expect(darkThemeBlock).toContain('--c-text: #e2e8f0')
   })
 
   test('paragraphs use primary text color variable', () => {

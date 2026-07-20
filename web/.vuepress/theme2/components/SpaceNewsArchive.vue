@@ -121,11 +121,11 @@ function formatDate(raw: string | null) {
 .sn-archive {
   width: 100%;
   min-height: 60vh;
-  background: #f6f7f9;
+  background: var(--vp-c-bg);
 }
 
 .sna-hero {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background: var(--sn-space-gradient);
   color: #fff;
   padding: 2rem 1.25rem 2.25rem;
 }
@@ -145,7 +145,7 @@ function formatDate(raw: string | null) {
 
 .sna-hero__title {
   font-size: clamp(1.5rem, 3vw, 2rem);
-  font-weight: 800;
+  font-weight: 700;
   margin: 0 0 0.5rem;
 }
 
@@ -160,7 +160,7 @@ function formatDate(raw: string | null) {
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #7dd3fc;
+  color: var(--sn-on-space-accent);
   text-decoration: none;
 
   &:hover {
@@ -183,24 +183,24 @@ function formatDate(raw: string | null) {
 }
 
 .sna-filter-btn {
-  border: 1px solid #e2e8f0;
-  background: #fff;
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg-alt);
   border-radius: 20px;
   padding: 0.35rem 0.85rem;
   font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
-  color: #475569;
+  color: var(--vp-c-text-mute);
   transition: all 0.15s;
 
   &:hover {
-    border-color: #94a3b8;
+    border-color: var(--vp-c-text-subtle);
   }
 
   &.active {
-    background: #0f172a;
-    border-color: #0f172a;
-    color: #fff;
+    background: var(--vp-c-accent-bg);
+    border-color: var(--vp-c-accent-bg);
+    color: var(--vp-c-accent-text);
   }
 }
 
@@ -212,10 +212,10 @@ function formatDate(raw: string | null) {
 .sna-group__title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--vp-c-text);
   margin: 0 0 1rem;
   padding-bottom: 0.35rem;
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 2px solid var(--vp-c-border);
 }
 
 /* ---- Cards grid ---- */
@@ -231,17 +231,17 @@ function formatDate(raw: string | null) {
 .sna-card {
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: var(--vp-c-bg-alt);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--vp-c-border);
   transition: border-color 0.15s, box-shadow 0.15s;
 
   &:hover {
-    border-color: #bae6fd;
-    box-shadow: 0 4px 16px rgba(14, 165, 233, 0.12);
+    border-color: var(--vp-c-accent);
+    box-shadow: var(--shadow-glow);
   }
 }
 
@@ -263,10 +263,10 @@ function formatDate(raw: string | null) {
 
 .sna-card__title {
   font-size: 0.95rem;
-  font-weight: 650;
+  font-weight: 600;
   line-height: 1.35;
   margin: 0 0 0.35rem;
-  color: #0f172a;
+  color: var(--vp-c-text);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -276,7 +276,7 @@ function formatDate(raw: string | null) {
 .sna-card__deck {
   font-size: 0.82rem;
   line-height: 1.45;
-  color: #64748b;
+  color: var(--vp-c-text-mute);
   margin: 0 0 0.5rem;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -303,7 +303,7 @@ function formatDate(raw: string | null) {
   align-items: center;
   gap: 0.35rem;
   font-size: 0.78rem;
-  color: #64748b;
+  color: var(--vp-c-text-mute);
   margin-top: 0.25rem;
 }
 
@@ -317,11 +317,11 @@ function formatDate(raw: string | null) {
 
 /* ---- Empty ---- */
 .sna-empty {
-  background: #fff;
-  border: 1px dashed #cbd5e1;
+  background: var(--vp-c-bg-alt);
+  border: 1px dashed var(--vp-c-border-hard);
   border-radius: 8px;
   padding: 2rem;
   text-align: center;
-  color: #64748b;
+  color: var(--vp-c-text-mute);
 }
 </style>

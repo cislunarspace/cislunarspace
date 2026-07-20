@@ -66,7 +66,7 @@ html:not([data-theme='dark']) body {
 /* 深色主题：温润深空 */
 html[data-theme='dark'] body {
   background-image:
-    radial-gradient(ellipse at 20% 0%, rgba(194, 65, 77, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 0%, rgba(96, 165, 250, 0.05) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 100%, rgba(14, 165, 233, 0.02) 0%, transparent 50%),
     linear-gradient(180deg, var(--vp-c-bg) 0%, var(--vp-c-bg-alt) 100%) !important;
 }
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html[data-theme='dark'] .vp-sidebar-item.vp-sidebar-heading:hover {
-  border-inline-start-color: rgba(194, 65, 77, 0.25);
+  border-inline-start-color: rgba(96, 165, 250, 0.25);
 }
 
 .vp-sidebar-item.vp-sidebar-heading.collapsible {
@@ -411,25 +411,33 @@ html[data-theme='dark'] .vp-sidebar-children .vp-sidebar-children .vp-sidebar-ch
 [vp-content] h6 {
   font-family: var(--font-family);
   color: var(--vp-c-text);
-  font-weight: 700;
   scroll-margin-top: calc(var(--navbar-height) + 1rem);
 }
 
 [vp-content] h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
+  font-weight: 700;
   letter-spacing: -0.02em;
   border-bottom: 2px solid var(--vp-c-divider);
   padding-bottom: 0.5rem;
 }
 
 [vp-content] h2 {
-  font-size: 1.65rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   border-bottom: 1px solid var(--vp-c-divider);
   padding-bottom: 0.35rem;
 }
 
 [vp-content] h3 {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+[vp-content] h4,
+[vp-content] h5,
+[vp-content] h6 {
+  font-weight: 600;
 }
 
 /* VuePress 使用 headerLink：整段标题在 .header-anchor 内，不可用 opacity 隐藏锚点 */
@@ -773,11 +781,13 @@ html[data-theme='dark'] .vp-sidebar-children .vp-sidebar-children .vp-sidebar-ch
   position: absolute;
   inset: 0;
   z-index: 1;
+  /* 无图版：接近不透明的深空渐变即为卡片表面（与 --sn-space-gradient 同色系）；
+     将来接入 --module-card-bg 背景图时，把透明度调低让图片透出 */
   background: linear-gradient(
     155deg,
-    rgba(15, 23, 42, 0.93) 0%,
-    rgba(15, 23, 42, 0.72) 42%,
-    rgba(30, 64, 175, 0.52) 100%
+    rgba(15, 23, 42, 1) 0%,
+    rgba(23, 32, 58, 0.96) 55%,
+    rgba(30, 58, 138, 0.88) 130%
   );
   pointer-events: none;
 }
@@ -814,7 +824,7 @@ html[data-theme='dark'] .vp-sidebar-children .vp-sidebar-children .vp-sidebar-ch
 }
 
 .module-card:hover h3 {
-  color: #7dd3fc;
+  color: var(--sn-on-space-accent);
 }
 
 .module-card p {
