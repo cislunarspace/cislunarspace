@@ -1,12 +1,13 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch, type Ref } from 'vue'
-import { ChatSession } from '../../utils/chat-session'
+import { ChatSession } from '../../chat/chat-session'
 import { createChatStateMachine } from '../../utils/chat-state-machine'
 import { createChatThemeController } from '../../utils/chat-theme-controller'
 import { createChatUIManager } from '../../utils/chat-ui-manager'
 import { createChatActions } from './useChatActions'
 import { useChatHistory } from './useChatHistory'
 import { useChatI18n } from './useChatI18n'
-import type { HierarchicalSiteIndex, NormalizedConfig } from '../../utils/chat-types'
+import { useIsEn } from '../../composables/useIsEn'
+import type { HierarchicalSiteIndex, NormalizedConfig } from '../../chat/chat-types'
 
 /**
  * useChatSurface — composable that owns AI Chat surface state.
@@ -19,7 +20,7 @@ export function useChatSurface(
   inputRef: Ref<HTMLTextAreaElement | null>,
   messagesContainer: Ref<HTMLDivElement | null>,
 ) {
-  const isEn = computed(() => typeof window !== 'undefined' && window.location.pathname.startsWith('/en/'))
+  const isEn = useIsEn()
   const { t } = useChatI18n(() => isEn.value)
 
   const state = createChatStateMachine()

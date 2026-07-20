@@ -10,8 +10,14 @@ let tableEnhanceObserverActive = false
 let enhanceDebounceT: ReturnType<typeof setTimeout> | null = null
 const ENHANCE_DEBOUNCE_MS = 48
 
+let _isEnFn: () => boolean = () => false
+
+export function setIsEnFn(fn: () => boolean) {
+  _isEnFn = fn
+}
+
 function isEnPath(): boolean {
-  return (typeof window !== 'undefined' && window.location.pathname.startsWith('/en/'))
+  return _isEnFn()
 }
 
 function t(zh: string, en: string): string {

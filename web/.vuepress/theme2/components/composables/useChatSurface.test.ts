@@ -1,17 +1,17 @@
 import { afterEach, beforeEach, describe, it, expect, vi } from 'vitest'
-import { defineComponent, nextTick, reactive, ref } from 'vue'
+import { computed, defineComponent, nextTick, reactive, ref } from 'vue'
 import { useChatSurface } from './useChatSurface'
 
-function mockGlobals(initialPathname = '/zh/ai-chat') {
+const pagePath = ref('/zh/ai-chat')
+
+vi.mock('vuepress/client', () => ({
+  usePage: () => computed(() => ({ path: pagePath.value })),
+}))
+
+function mockGlobals() {
   const listeners: Array<{ type: string; handler: EventListener }> = []
-  const pathname = ref(initialPathname)
-  const location = reactive({
-    get pathname() {
-      return pathname.value
-    },
-  })
   vi.stubGlobal('window', {
-    location,
+    location: { origin: 'http://localhost' },
     addEventListener: vi.fn((type: string, handler: EventListener) => listeners.push({ type, handler })),
     removeEventListener: vi.fn((type: string, handler: EventListener) => {
       const idx = listeners.findIndex((l) => l.type === type && l.handler === handler)
@@ -23,7 +23,7 @@ function mockGlobals(initialPathname = '/zh/ai-chat') {
     getItem: vi.fn(() => null),
     setItem: vi.fn(),
   })
-  return { listeners, pathname }
+  return { listeners }
 }
 
 async function waitForMountedAsync() {
@@ -33,6 +33,7 @@ async function waitForMountedAsync() {
 
 describe('useChatSurface', () => {
   beforeEach(() => {
+    pagePath.value = '/zh/ai-chat'
     vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify({}), { status: 200 })))
   })
 
@@ -91,7 +92,8 @@ describe('useChatSurface', () => {
   })
 
   it('updates suggested questions when locale changes', async () => {
-    const { pathname } = mockGlobals('/zh/ai-chat')
+    pagePath.value = '/zh/ai-chat'
+    mockGlobals()
     const TestComponent = defineComponent({
       setup() {
         const surface = useChatSurface(ref(null), ref(null))
@@ -109,7 +111,7 @@ describe('useChatSurface', () => {
 
     expect((vm as any).surface.ui.suggestedQuestions.value[0]).toBe('什么是地月空间？')
 
-    pathname.value = '/en/ai-chat'
+    pagePath.value = '/en/ai-chat'
     await waitForMountedAsync()
 
     expect((vm as any).surface.ui.suggestedQuestions.value[0]).toBe('What is cislunar space?')

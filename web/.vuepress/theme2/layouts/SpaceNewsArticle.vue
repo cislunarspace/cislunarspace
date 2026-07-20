@@ -29,6 +29,7 @@
 import { computed } from 'vue'
 import { usePage } from 'vuepress/client'
 import { useRoute } from 'vue-router'
+import { useIsEn } from '../composables/useIsEn'
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
 import Footer from '../components/Footer.vue'
 import CopyPageButton from '../components/CopyPageButton.vue'
@@ -44,7 +45,7 @@ const page = usePage()
 const route = useRoute()
 
 const fm = computed(() => (page.value as PageData).frontmatter || {})
-const isEn = computed(() => (page.value.path || '').startsWith('/en/'))
+const isEn = useIsEn()
 
 const heroImageUrl = computed(() => resolveFrontmatterImage(fm.value.image, route.path) || null)
 const backToNews = computed(() => spaceNewsLabels.article[isEn.value ? 'en' : 'zh'].backToNews)

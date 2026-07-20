@@ -125,14 +125,18 @@ import CopyPageButton from '../components/CopyPageButton.vue'
 import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy'
 import {
   enhanceContentTables,
+  setIsEnFn,
   setupTableToolbar,
   startTableEnhanceObserver,
   teardownTableToolbar,
 } from '../composables/useTableEnhance'
 import { useLayoutType, useIsLayout, LayoutTypes } from '../composables/useLayoutType'
+import { useIsEn } from '../composables/useIsEn'
 
 const route = useRoute()
 const page = usePage()
+const isEn = useIsEn()
+setIsEnFn(() => isEn.value)
 
 const pageLayout = useLayoutType()
 const isSpaceNews = useIsLayout([LayoutTypes.SpaceNewsHome, LayoutTypes.SpaceNewsArticle, LayoutTypes.SpaceNewsArchive])
