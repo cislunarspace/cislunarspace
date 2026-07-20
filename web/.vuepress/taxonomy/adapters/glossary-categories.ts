@@ -5,8 +5,8 @@
  * The engine provides locale-filtered, sorted children of the glossary root.
  * The projection extracts slug, bilingual labels, and sibling order.
  */
-import { engine, GLOSSARY_ROOT_ID } from '..'
-import type { Locale, TaxonomyNode } from '../types'
+import { engine as defaultEngine, GLOSSARY_ROOT_ID, createViewEngine } from '..'
+import type { Locale, TaxonomyModule, TaxonomyNode } from '../types'
 
 export interface GlossaryCategoryMeta {
   slug: string
@@ -40,8 +40,9 @@ function slugFor(node: TaxonomyNode): string {
   return node.id.replace(/^glossary\//, '')
 }
 
-export function buildGlossaryCategories(): GlossaryCategoryMeta[] {
-  return engine
+export function buildGlossaryCategories(taxonomyModule?: TaxonomyModule): GlossaryCategoryMeta[] {
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
+  return viewEngine
     .fromRoot(GLOSSARY_ROOT_ID)
     .withLocale('zh')
     .filter((vn) => vn.node.kind === 'glossary-category')

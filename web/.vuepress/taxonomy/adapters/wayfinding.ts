@@ -7,8 +7,9 @@
  * engine provides locale-filtered children with pre-resolved paths/labels;
  * the projection maps each to a `{ text, link? }` item.
  */
-import { engine, WAYFINDING_ROOT_ID } from '..'
-import type { Locale } from '../types'
+import { engine as defaultEngine, WAYFINDING_ROOT_ID, createViewEngine } from '..'
+import type { Locale, TaxonomyModule } from '../types'
+import type { TaxonomyViewEngine } from '../view-engine'
 import type { VueSidebarItem } from '../../sidebar/types.ts'
 
 /** Mirrors `SidebarIntake.VueSidebarItem` (see sidebar/types.ts). */
@@ -17,8 +18,8 @@ export interface WayfindingIntake {
   en: VueSidebarItem
 }
 
-function buildSide(locale: Locale): VueSidebarItem {
-  const query = engine.fromRoot(WAYFINDING_ROOT_ID).withLocale(locale)
+function buildSide(locale: Locale, viewEngine: TaxonomyViewEngine): VueSidebarItem {
+  const query = viewEngine.fromRoot(WAYFINDING_ROOT_ID).withLocale(locale)
   const root = query.root()
   return {
     text: root!.label,
@@ -31,9 +32,10 @@ function buildSide(locale: Locale): VueSidebarItem {
   }
 }
 
-export function buildWayfindingIntake(): WayfindingIntake {
+export function buildWayfindingIntake(taxonomyModule?: TaxonomyModule): WayfindingIntake {
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
   return {
-    zh: buildSide('zh'),
-    en: buildSide('en'),
+    zh: buildSide('zh', viewEngine),
+    en: buildSide('en', viewEngine),
   }
 }

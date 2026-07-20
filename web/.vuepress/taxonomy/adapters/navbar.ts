@@ -7,8 +7,8 @@
  * ViewNode (+ children) to a navbar item.
  */
 import type { NavbarConfig } from 'vuepress'
-import { engine, NAVBAR_ROOT_ID } from '..'
-import type { Locale } from '../types'
+import { engine as defaultEngine, NAVBAR_ROOT_ID, createViewEngine } from '..'
+import type { Locale, TaxonomyModule } from '../types'
 import type { ViewNode } from '../view-engine'
 
 interface VuepressNavbarItem {
@@ -41,8 +41,9 @@ function navbarProjector(
 /**
  * Build the VuePress NavbarConfig for a single locale.
  */
-export function buildNavbar(locale: Locale): NavbarConfig {
-  const items = engine
+export function buildNavbar(locale: Locale, taxonomyModule?: TaxonomyModule): NavbarConfig {
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
+  const items = viewEngine
     .fromRoot(NAVBAR_ROOT_ID)
     .withLocale(locale)
     .buildTree(navbarProjector)

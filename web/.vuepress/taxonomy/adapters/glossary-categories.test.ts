@@ -1,68 +1,97 @@
-/**
- * Tests for GlossaryCategoryRegistry.
- * Run with: vitest run glossary-categories.test.ts
- */
 import { describe, it, expect } from 'vitest'
-import { GlossaryCategoryRegistry, categoryRegistry } from './glossary-categories.js'
+import { buildGlossaryCategories, GlossaryCategoryRegistry } from './glossary-categories'
+import { createTaxonomyModule } from '../module'
+import type { TaxonomyNode } from '../types'
 
-describe('GlossaryCategoryRegistry', () => {
-  describe('getBySlug', () => {
-    it('returns category for valid slug', () => {
-      const category = categoryRegistry.getBySlug('fundamentals')
-      expect(category).toBeDefined()
-      expect(category!.slug).toBe('fundamentals')
-      expect(category!.label.zh).toBe('基础概念')
-      expect(category!.label.en).toBe('Fundamentals')
-    })
+/**
+ * Minimal fixture: a glossary root with two glossary-category children.
+ *
+ *   glossary (root)
+ *   ├── glossary/fundamentals (glossary-category)
+ *   └── glossary/dynamics (glossary-category)
+ */
+const fixtureNodes: TaxonomyNode[] = [
+  {
+    id: 'glossary',
+    kind: 'navbar-root',
+    label: { zh: '术语', en: 'Glossary' },
+    path: { zh: '/glossary/', en: '/en/glossary/' },
+    order: 0,
+    parentId: null,
+  },
+  {
+    id: 'glossary/fundamentals',
+    kind: 'glossary-category',
+    label: { zh: '基础概念', en: 'Fundamentals' },
+    path: { zh: '/glossary/fundamentals/', en: '/en/glossary/fundamentals/' },
+    order: 10,
+    parentId: 'glossary',
+    meta: { slug: 'fundamentals' },
+  },
+  {
+    id: 'glossary/dynamics',
+    kind: 'glossary-category',
+    label: { zh: '动力学', en: 'Dynamics' },
+    path: { zh: '/glossary/dynamics/', en: '/en/glossary/dynamics/' },
+    order: 20,
+    parentId: 'glossary',
+    meta: { slug: 'dynamics' },
+  },
+]
 
-    it('returns undefined for unknown slug', () => {
-      const category = categoryRegistry.getBySlug('nonexistent')
-      expect(category).toBeUndefined()
-    })
+const fixtureModule = createTaxonomyModule(fixtureNodes)
+
+describe('buildGlossaryCategories', () => {
+  it('returns one entry per glossary-category node', () => {
+    const categories = buildGlossaryCategories(fixtureModule)
+    expect(categories).toHaveLength(2)
+    expect(categories.map((c) => c.slug)).toEqual(['fundamentals', 'dynamics'])
   })
 
-  describe('getByLabel', () => {
-    it('returns category for valid Chinese label', () => {
-      const category = categoryRegistry.getByLabel('基础概念', 'zh')
-      expect(category).toBeDefined()
-      expect(category!.slug).toBe('fundamentals')
-    })
-
-    it('returns category for valid English label', () => {
-      const category = categoryRegistry.getByLabel('Fundamentals', 'en')
-      expect(category).toBeDefined()
-      expect(category!.slug).toBe('fundamentals')
-    })
-
-    it('returns undefined for unknown label', () => {
-      const category = categoryRegistry.getByLabel('Unknown Category', 'en')
-      expect(category).toBeUndefined()
-    })
+  it('extracts bilingual labels and order', () => {
+    const categories = buildGlossaryCategories(fixtureModule)
+    const fundamentals = categories.find((c) => c.slug === 'fundamentals')!
+    expect(fundamentals.label).toEqual({ zh: '基础概念', en: 'Fundamentals' })
+    expect(fundamentals.order).toBe(10)
   })
 
-  describe('data integrity', () => {
-    it('contains all original glossaryCategories', () => {
-      const slugs = ['fundamentals', 'dynamics', 'orbits', 'navigation', 'observation', 'doctrine', 'organizations', 'other-tech']
-      for (const slug of slugs) {
-        expect(categoryRegistry.getBySlug(slug)).toBeDefined()
-      }
-    })
-
-    it('has correct order values', () => {
-      const category = categoryRegistry.getBySlug('fundamentals')
-      // 20010 is the segment base (glossary 20 000) + sibling offset 10
-      expect(category!.order).toBe(20010)
-    })
+  it('falls back to id-based slug when meta.slug is absent', () => {
+    const nodes: TaxonomyNode[] = [
+      ...fixtureNodes,
+      {
+        id: 'glossary/other',
+        kind: 'glossary-category',
+        label: { zh: '其他', en: 'Other' },
+        path: { zh: '/glossary/other/', en: '/en/glossary/other/' },
+        order: 30,
+        parentId: 'glossary',
+      },
+    ]
+    const mod = createTaxonomyModule(nodes)
+    const categories = buildGlossaryCategories(mod)
+    const other = categories.find((c) => c.label.zh === '其他')!
+    expect(other.slug).toBe('other')
   })
 })
 
-describe('GlossaryCategoryRegistry constructor', () => {
-  it('can be instantiated with custom data', () => {
-    const customData = [
-      { slug: 'test', label: { zh: '测试', en: 'Test' }, order: 99 },
-    ]
-    const customRegistry = new GlossaryCategoryRegistry(customData)
-    expect(customRegistry.getBySlug('test')?.label.zh).toBe('测试')
-    expect(customRegistry.getBySlug('test')?.label.en).toBe('Test')
+describe('GlossaryCategoryRegistry', () => {
+  it('can be instantiated with fixture data', () => {
+    const categories = buildGlossaryCategories(fixtureModule)
+    const registry = new GlossaryCategoryRegistry(categories)
+    expect(registry.getBySlug('fundamentals')).toBeDefined()
+    expect(registry.getBySlug('fundamentals')!.label.zh).toBe('基础概念')
+  })
+
+  it('returns undefined for unknown slug', () => {
+    const categories = buildGlossaryCategories(fixtureModule)
+    const registry = new GlossaryCategoryRegistry(categories)
+    expect(registry.getBySlug('nonexistent')).toBeUndefined()
+  })
+
+  it('getByLabel works for both locales', () => {
+    const categories = buildGlossaryCategories(fixtureModule)
+    const registry = new GlossaryCategoryRegistry(categories)
+    expect(registry.getByLabel('基础概念', 'zh')?.slug).toBe('fundamentals')
+    expect(registry.getByLabel('Fundamentals', 'en')?.slug).toBe('fundamentals')
   })
 })

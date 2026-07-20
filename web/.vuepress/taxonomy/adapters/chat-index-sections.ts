@@ -6,16 +6,18 @@
  * pages/groups with paths. Display-only groups (path === null) are not
  * entries but their children are collected. Index nodes are skipped.
  */
-import { engine } from '..'
-import type { Locale } from '../types'
+import { engine as defaultEngine, createViewEngine } from '..'
+import type { Locale, TaxonomyModule } from '../types'
+import type { TaxonomyViewEngine } from '../view-engine'
 import type { ChatIndexCategory, ChatIndexEntry } from '../../sidebar/types.ts'
 
 function sectionToChatIndexCategory(
   sectionId: string,
   sectionLabel: string,
   locale: Locale,
+  viewEngine: TaxonomyViewEngine,
 ): ChatIndexCategory {
-  const entries = engine
+  const entries = viewEngine
     .fromRoot(sectionId)
     .withLocale(locale)
     .walk()
@@ -25,11 +27,12 @@ function sectionToChatIndexCategory(
   return { category: sectionLabel, entries }
 }
 
-export function buildSectionChatIndexCategories(locale: Locale): ChatIndexCategory[] {
-  return engine
+export function buildSectionChatIndexCategories(locale: Locale, taxonomyModule?: TaxonomyModule): ChatIndexCategory[] {
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
+  return viewEngine
     .fromRoot(null)
     .withLocale(locale)
     .filter((vn) => vn.node.kind === 'section')
     .list()
-    .map((vn) => sectionToChatIndexCategory(vn.node.id, vn.label, locale))
+    .map((vn) => sectionToChatIndexCategory(vn.node.id, vn.label, locale, viewEngine))
 }

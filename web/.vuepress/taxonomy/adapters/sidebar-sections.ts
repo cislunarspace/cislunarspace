@@ -6,9 +6,9 @@
  * This adapter is a declarative projector: a pure function that maps each
  * ViewNode (+ its already-built children) to a sidebar entry.
  */
-import { engine } from '..'
-import type { Locale, NodeId } from '../types'
-import type { ViewNode } from '../view-engine'
+import { engine as defaultEngine, createViewEngine } from '..'
+import type { Locale, NodeId, TaxonomyModule } from '../types'
+import type { TaxonomyViewEngine, ViewNode } from '../view-engine'
 import type { VueSidebarItem } from '../../sidebar/types.ts'
 
 type SidebarEntry = string | VueSidebarItem
@@ -63,8 +63,9 @@ function sidebarProjector(
  * Build the VueSidebarItem tree for one section (e.g. `cislunar-orbits`)
  * in one locale.
  */
-export function buildSectionSidebar(sectionId: NodeId, locale: Locale): VueSidebarItem {
-  const query = engine.fromRoot(sectionId).withLocale(locale)
+export function buildSectionSidebar(sectionId: NodeId, locale: Locale, taxonomyModule?: TaxonomyModule): VueSidebarItem {
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
+  const query = viewEngine.fromRoot(sectionId).withLocale(locale)
   const root = query.root()
 
   if (!root || !root.path) {
@@ -86,14 +87,15 @@ export function buildSectionSidebar(sectionId: NodeId, locale: Locale): VueSideb
  * Build a map of section-id → per-locale VueSidebarItem for every
  * `kind: 'section'` node in the taxonomy.
  */
-export function buildAllSectionSidebars(): Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> {
+export function buildAllSectionSidebars(taxonomyModule?: TaxonomyModule): Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> {
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
   const result: Record<string, { zh: VueSidebarItem; en: VueSidebarItem }> = {}
-  const sections = engine.fromRoot(null).withLocale('zh').list()
+  const sections = viewEngine.fromRoot(null).withLocale('zh').list()
   for (const vn of sections) {
     if (vn.node.kind !== 'section') continue
     result[vn.node.id] = {
-      zh: buildSectionSidebar(vn.node.id, 'zh'),
-      en: buildSectionSidebar(vn.node.id, 'en'),
+      zh: buildSectionSidebar(vn.node.id, 'zh', taxonomyModule),
+      en: buildSectionSidebar(vn.node.id, 'en', taxonomyModule),
     }
   }
   return result

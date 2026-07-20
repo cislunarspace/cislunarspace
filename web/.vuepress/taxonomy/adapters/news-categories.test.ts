@@ -1,36 +1,62 @@
 import { describe, expect, it } from 'vitest'
-import { buildCategoryMeta, categoryMeta, resolveCategory } from './news-categories'
+import { buildCategoryMeta, resolveCategory, categoryMetaDefault } from './news-categories'
+import { createTaxonomyModule } from '../module'
+import type { TaxonomyNode } from '../types'
+
+/**
+ * Minimal fixture: three news-category nodes.
+ */
+const fixtureNodes: TaxonomyNode[] = [
+  {
+    id: 'spacex',
+    kind: 'news-category',
+    label: { zh: 'SpaceX', en: 'SpaceX' },
+    path: { zh: null, en: null },
+    order: 10,
+    parentId: null,
+    meta: { color: '#0ea5e9' },
+  },
+  {
+    id: 'china',
+    kind: 'news-category',
+    label: { zh: '中国航天', en: 'China Space' },
+    path: { zh: null, en: null },
+    order: 20,
+    parentId: null,
+    meta: { color: '#dc2626' },
+  },
+  {
+    id: 'tech',
+    kind: 'news-category',
+    label: { zh: '技术', en: 'Technology' },
+    path: { zh: null, en: null },
+    order: 30,
+    parentId: null,
+    // No color meta — tests the fallback.
+  },
+]
+
+const fixtureModule = createTaxonomyModule(fixtureNodes)
 
 describe('news-categories adapter', () => {
   it('produces a record with one entry per news-category node', () => {
-    const meta = buildCategoryMeta()
-    // 15 categories in data.ts; record key is the node id (== category key).
-    expect(Object.keys(meta).length).toBe(15)
-    expect(Object.keys(meta).sort()).toEqual([
-      'artemis', 'blue-origin', 'china', 'commercial', 'commercial-space',
-      'esa', 'human-spaceflight', 'iss', 'launch', 'nasa', 'policy',
-      'rocket-lab', 'science', 'spacex', 'technology',
-    ])
+    const meta = buildCategoryMeta(fixtureModule)
+    expect(Object.keys(meta).sort()).toEqual(['china', 'spacex', 'tech'])
   })
 
-  it('mirrors the historical category-meta.json labels and colors', () => {
-    const meta = buildCategoryMeta()
-    expect(meta.artemis).toEqual({ zh: 'Artemis', en: 'Artemis', color: '#6366f1' })
+  it('mirrors fixture labels and colors', () => {
+    const meta = buildCategoryMeta(fixtureModule)
     expect(meta.spacex).toEqual({ zh: 'SpaceX', en: 'SpaceX', color: '#0ea5e9' })
     expect(meta.china).toEqual({ zh: '中国航天', en: 'China Space', color: '#dc2626' })
-    expect(meta.technology).toEqual({ zh: '技术', en: 'Technology', color: '#64748b' })
+  })
+
+  it('falls back to default color when meta.color is absent', () => {
+    const meta = buildCategoryMeta(fixtureModule)
+    expect(meta.tech.color).toBe('#64748b')
   })
 
   it('resolveCategory returns the default for unknown keys', () => {
     const entry = resolveCategory('not-a-real-category', 'zh')
-    expect(entry).toEqual({ zh: '', en: '', color: '#64748b' })
-  })
-
-  it('module-level categoryMeta equals buildCategoryMeta() in shape', () => {
-    // The VuePress components import the named export, so it must be
-    // available at module load — same as the old `category-meta.json`.
-    // We check structural equality here because buildCategoryMeta()
-    // returns a fresh object on each call.
-    expect(categoryMeta).toEqual(buildCategoryMeta())
+    expect(entry).toEqual(categoryMetaDefault)
   })
 })

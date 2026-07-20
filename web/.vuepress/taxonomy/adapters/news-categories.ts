@@ -14,8 +14,8 @@
  * `theme2/utils/categoryMeta.ts` wrapper (which loads `category-meta.json`)
  * is the seam that PR 2 retires by re-pointing its import here.
  */
-import { taxonomy } from '..'
-import type { Locale, TaxonomyNode } from '../types'
+import { taxonomy as defaultTaxonomy } from '..'
+import type { Locale, TaxonomyModule, TaxonomyNode } from '../types'
 
 export interface CategoryMetaEntry {
   zh: string
@@ -45,9 +45,10 @@ function entryFor(node: TaxonomyNode): CategoryMetaEntry {
  * taxonomy's sibling-sorted output, but consumers treat the record as an
  * unordered map, so order is not significant.
  */
-export function buildCategoryMeta(): CategoryMeta {
+export function buildCategoryMeta(taxonomyModule?: TaxonomyModule): CategoryMeta {
+  const mod = taxonomyModule ?? defaultTaxonomy
   const out: CategoryMeta = {}
-  for (const node of taxonomy.byKind('news-category')) {
+  for (const node of mod.byKind('news-category')) {
     out[node.id] = entryFor(node)
   }
   return out
