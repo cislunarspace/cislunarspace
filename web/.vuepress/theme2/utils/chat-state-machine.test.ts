@@ -1,8 +1,8 @@
 import { describe, it, expect, vi } from 'vitest'
 import { nextTick } from 'vue'
 import { createChatStateMachine } from './chat-state-machine'
-import type { ChatSession } from './chat-session'
-import type { Message, NormalizedConfig, SseDelta } from './chat-types'
+import type { ChatSession } from '../chat/chat-session'
+import type { Message, NormalizedConfig, SseDelta } from '../chat/chat-types'
 
 const config: NormalizedConfig = {
   apiEndpoint: '/api/ai',

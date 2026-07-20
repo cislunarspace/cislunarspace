@@ -13,7 +13,6 @@ const strings: Record<string, Record<ChatLang, string>> = {
   },
   inputPlaceholder: { zh: '输入你的问题...', en: 'Type your question...' },
   send: { zh: '发送', en: 'Send' },
-  thinking: { zh: '正在思考...', en: 'Thinking...' },
   routerPhase: { zh: '正在匹配全站相关页面…', en: 'Matching site pages…' },
   processTitle: { zh: '处理过程', en: 'Progress' },
   reasoningTitle: { zh: '思考过程', en: 'Reasoning' },

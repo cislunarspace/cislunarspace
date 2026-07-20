@@ -9,10 +9,10 @@
  */
 import type { Ref } from 'vue'
 import { ref } from 'vue'
-import { loadChatConfig } from './chat-config'
-import type { ChatSession } from './chat-session'
-import type { HierarchicalSiteIndex, Message, NormalizedConfig, ProcessStepKey, ErrorKey, SseDelta } from './chat-types'
-import { beginStep, completeStep, finalizeSteps } from './chat-process-steps'
+import { loadChatConfig } from '../chat/chat-config'
+import type { ChatSession } from '../chat/chat-session'
+import type { HierarchicalSiteIndex, Message, NormalizedConfig, ProcessStepKey, ErrorKey, SseDelta } from '../chat/chat-types'
+import { beginStep, completeStep, finalizeSteps } from '../chat/chat-process-steps'
 
 export interface SendMessageDeps {
   /** Current locale for the session. */
@@ -106,7 +106,7 @@ export function createChatStateMachine(): ChatStateMachine {
     const locale = deps.locale
 
     messages.value = [...messages.value, { role: 'user', content: text }]
-    loadingPhase.value = 'answer'
+    loadingPhase.value = 'router'
     isLoading.value = true
     deps.onComplete?.()
 
@@ -120,7 +120,7 @@ export function createChatStateMachine(): ChatStateMachine {
         text,
         messages.value.slice(0, -1),
         {
-          onPathsChosen: () => {},
+          onPathsChosen: () => { loadingPhase.value = 'answer' },
           onExcerptsLoaded: () => {},
           onChunk: (delta: SseDelta) => {
             if (delta.reasoning_content !== undefined) {
