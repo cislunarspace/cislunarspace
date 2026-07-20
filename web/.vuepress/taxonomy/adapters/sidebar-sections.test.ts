@@ -41,13 +41,12 @@ describe('sidebar-sections adapter', () => {
     expect((children[3] as { text: string }).text).toBe('地月转移轨道')
   })
 
-  it('hides zh-only pages from the en sidebar', () => {
+  it('renders institution pages in both zh and en sidebars', () => {
     const zh = JSON.stringify(buildSectionSidebar('research-frontiers', 'zh'))
     const en = JSON.stringify(buildSectionSidebar('research-frontiers', 'en'))
 
     expect(zh).toContain('/research-frontiers/institutions/nudt/')
-    expect(en).not.toContain('/en/research-frontiers/institutions/nudt/')
-    expect(en).not.toContain('NUDT')
+    expect(en).toContain('/en/research-frontiers/institutions/nudt/')
   })
 
   it('preserves legacy empty group rendering when all children are gated out', () => {

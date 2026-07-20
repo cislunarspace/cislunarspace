@@ -37,12 +37,12 @@ describe('chat-index-sections adapter', () => {
     expect(resources.entries.filter(e => e.path === '/resources-tools/')).toHaveLength(1)
   })
 
-  it('hides zh-only pages from the en chat index', () => {
+  it('includes institution pages in both zh and en chat index', () => {
     const zhJson = JSON.stringify(buildSectionChatIndexCategories('zh'))
     const enJson = JSON.stringify(buildSectionChatIndexCategories('en'))
 
     expect(zhJson).toContain('/research-frontiers/institutions/nudt/')
-    expect(enJson).not.toContain('/en/research-frontiers/institutions/nudt/')
-    expect(enJson).not.toContain('NUDT')
+    expect(enJson).toContain('/en/research-frontiers/institutions/nudt/')
+    expect(enJson).toContain('NUDT')
   })
 })

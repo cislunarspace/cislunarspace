@@ -76,12 +76,12 @@ describe('navbar adapter', () => {
     ])
   })
 
-  it('en dropdown preserves the (intentional) unprefixed `/dialectic` route', () => {
-    // Historical note: dialectic is locale-shared, not /en/dialectic.
+  it('en dropdown excludes zh-only dialectic entry', () => {
+    // dialectic is zh-only (locales: ['zh']); it must not appear in en navbar.
     const en = buildNavbar('en') as Array<{ text: string; children?: Array<{ text: string; link?: string }> }>
     const inquiry = en[0].children!
     const dialectic = inquiry.find((c) => c.text === 'Historical Inquiry')
 
-    expect(dialectic?.link).toBe('/dialectic')
+    expect(dialectic).toBeUndefined()
   })
 })

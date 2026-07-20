@@ -26,7 +26,7 @@ The pair `{ zh, en }` of resolved URL paths for a `TaxonomyNode`. `null` on a lo
 
 ### Locale gating
 
-The convention that a `TaxonomyNode` declares its locale presence via an optional `locales: ('zh'|'en')[]` field. Undefined = both locales. `['zh']` = zh-only (and conversely). Used for content that is deliberately not translated (e.g. domestic institution pages like NUDT, NPU, SEU under `research-frontiers/institutions`).
+The convention that a `TaxonomyNode` declares its locale presence via an optional `locales: ('zh'|'en')[]` field. Undefined = both locales. `['zh']` = zh-only (and conversely). Used for content that is deliberately not translated (e.g. the dialectic surface under `navbar/dialectic`).
 
 ### Runtime locale detection
 

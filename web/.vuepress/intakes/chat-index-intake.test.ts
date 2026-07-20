@@ -50,12 +50,12 @@ describe('buildChatIndexIntake', () => {
     expect(enSection?.entries).toContainEqual({ path: '/en/cislunar-orbits/nrho/l1-nrho/', title: 'L1-NRHO' })
   })
 
-  it('excludes locale-gated zh-only pages from the en index', () => {
+  it('includes institution pages in both zh and en index', () => {
     const index = buildChatIndexIntake(makeScan())
     const zhJson = JSON.stringify(index.zh)
     const enJson = JSON.stringify(index.en)
 
     expect(zhJson).toContain('/research-frontiers/institutions/nudt/')
-    expect(enJson).not.toContain('/en/research-frontiers/institutions/nudt/')
+    expect(enJson).toContain('/en/research-frontiers/institutions/nudt/')
   })
 })
