@@ -15,6 +15,7 @@ import { citePlugin, loadBibliography } from './cite-plugin.ts'
 import { katexPlugin } from './katex-plugin.ts'
 import { rawContentPlugin } from './raw-content-plugin.ts'
 import { headScripts } from './head-scripts.ts'
+import { createSsrRenderCachePlugin } from './build/ssr-render-cache.ts'
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url))
 const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs()
@@ -63,6 +64,7 @@ export default defineUserConfig({
 
   bundler: viteBundler({
     viteOptions: {
+      plugins: [createSsrRenderCachePlugin()],
       server: {
         watch: {
           // Avoid ENOSPC: exclude VuePress-generated dirs from Vite's file watcher
@@ -124,6 +126,13 @@ export default defineUserConfig({
     docsBranch: 'master',
     docsDir: 'web',
     editLink: true,
+
+    // theme-default 默认开启的 plugin-git 会为每个页面 spawn 一次 git log
+    // （~2100 次/shard，在 FUSE 挂载的仓库上要 ~4 分钟），页脚“最近更新”
+    // 和 Contributors 功能随之关闭，换取构建速度。
+    plugins: {
+      git: false,
+    },
   }),
 
   plugins: [
