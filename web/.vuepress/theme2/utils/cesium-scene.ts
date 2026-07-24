@@ -44,6 +44,7 @@ export interface SceneLabels {
 export function rebuildScene(ctx: SceneContext): void {
   const { viewer } = ctx
   viewer.entities.removeAll()
+  viewer.scene.primitives.removeAll()
   addEquatorRing(ctx)
   addCoordAxes(ctx)
   addSunLine(ctx)

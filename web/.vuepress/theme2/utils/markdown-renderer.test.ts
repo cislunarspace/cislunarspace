@@ -192,6 +192,13 @@ Some intro text.
   it('handles empty input', () => {
     expect(renderLinkedHtml('')).toBe('')
   })
+
+  it('escapes quotes in href to prevent attribute injection', () => {
+    const input = '[click](https://evil.com/"onclick="alert(1))'
+    const result = renderLinkedHtml(input)
+    expect(result).not.toContain('onclick=')
+    expect(result).toContain('&quot;')
+  })
 })
 
 describe('sanitizeGeneratedHtml (browser)', () => {

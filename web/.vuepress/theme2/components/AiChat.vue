@@ -15,7 +15,12 @@
           v-for="(chat, idx) in surface.chatHistory"
           :key="idx"
           :class="['sidebar-item', { active: surface.activeChatIndex === idx }]"
+          tabindex="0"
+          role="button"
+          :aria-label="chat.title"
           @click="surface.actions.switchChat(idx)"
+          @keydown.enter="surface.actions.switchChat(idx)"
+          @keydown.space.prevent="surface.actions.switchChat(idx)"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
           <span class="sidebar-item-title">{{ chat.title }}</span>
@@ -156,6 +161,7 @@
             @keydown.enter.exact.prevent="surface.sendMessage"
             @input="surface.ui.autoResize(inputRef)"
             :placeholder="surface.t('inputPlaceholder')"
+            :aria-label="surface.t('inputPlaceholder')"
             :disabled="surface.state.isLoading.value || !surface.state.config.value"
             rows="1"
             class="chat-textarea"

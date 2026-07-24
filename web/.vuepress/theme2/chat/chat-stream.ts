@@ -99,6 +99,9 @@ export async function decodeStream(
 
     callbacks.onComplete()
   } catch (e) {
+    if (e instanceof Error && e.name === 'AbortError') throw e
     callbacks.onError(e instanceof Error ? e : new Error(String(e)))
+  } finally {
+    reader.cancel().catch(() => {})
   }
 }

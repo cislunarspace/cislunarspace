@@ -150,4 +150,47 @@ describe('createChatStateMachine', () => {
     const assistant = sm.messages.value[sm.messages.value.length - 1]
     expect(assistant.content).toContain('offline')
   })
+
+  it('switchChat aborts in-flight request before switching', () => {
+    const sm = createChatStateMachine()
+    const abortSpy = vi.fn()
+    sm.abortController.value = { abort: abortSpy } as unknown as AbortController
+    sm.isLoading.value = true
+
+    sm.switchChat([{ role: 'user', content: 'new' }])
+
+    expect(abortSpy).toHaveBeenCalled()
+    expect(sm.isLoading.value).toBe(false)
+    expect(sm.messages.value).toEqual([{ role: 'user', content: 'new' }])
+  })
+
+  it('switchChat with null keeps existing messages', () => {
+    const sm = createChatStateMachine()
+    sm.messages.value = [{ role: 'user', content: 'old' }]
+    sm.switchChat(null)
+    expect(sm.messages.value).toEqual([{ role: 'user', content: 'old' }])
+  })
+
+  it('calls onComplete only once, after save, in finally block', async () => {
+    const sm = createChatStateMachine()
+    sm.config.value = config
+    const callOrder: string[] = []
+    const session = createMockSession({
+      route: vi.fn(async (_q: string, _h: unknown, callbacks: Record<string, Function>) => {
+        callbacks.onComplete('answer', '')
+      }),
+    })
+    const save = vi.fn(() => callOrder.push('save'))
+
+    await sm.sendMessage('q', {
+      locale: 'zh',
+      t,
+      createSession: () => session,
+      saveCurrentChat: save,
+      onComplete: () => callOrder.push('onComplete'),
+    })
+
+    expect(callOrder.filter(c => c === 'onComplete')).toHaveLength(1)
+    expect(callOrder.indexOf('save')).toBeLessThan(callOrder.indexOf('onComplete'))
+  })
 })

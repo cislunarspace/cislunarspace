@@ -21,7 +21,10 @@ export async function loadChatConfig(): Promise<NormalizedConfig> {
       const res = await fetch('/ai-chat-config.json', { cache: 'no-store' })
       if (!res.ok) throw new Error(`Failed to load AI config: HTTP ${res.status}`)
       return sanitizeClientConfig(await res.json())
-    })()
+    })().catch((err) => {
+      cachedConfigPromise = null
+      throw err
+    })
   }
   return cachedConfigPromise
 }

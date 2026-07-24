@@ -28,7 +28,7 @@
               <span class="report-name">{{ report.title }}</span>
               <span class="report-date">{{ report.date }}</span>
             </div>
-            <button class="btn-delete" @click.stop="deleteReport(report.id)">删除</button>
+            <button class="btn-delete" @click.stop="removeReport(report.id)">删除</button>
           </div>
         </div>
       </div>
@@ -84,6 +84,7 @@
                 :value="inputs[currentStep].value"
                 @input="onInput"
                 :placeholder="steps[currentStep].placeholder"
+                :aria-label="steps[currentStep].title"
               ></textarea>
               <div
                 v-if="currentStep === 0 && showTemplateHint"
@@ -100,7 +101,8 @@
 
             <!-- select 类型输入 -->
             <template v-else-if="steps[currentStep].inputType === 'select'">
-              <div class="radio-group">
+              <fieldset class="radio-group">
+                <legend class="radio-legend">{{ steps[currentStep].title }}</legend>
                 <label
                   v-for="opt in steps[currentStep].options"
                   :key="opt.value"
@@ -113,13 +115,14 @@
                   />
                   <span>{{ opt.label }}</span>
                 </label>
-              </div>
+              </fieldset>
               <textarea
                 v-if="inputs[currentStep].level"
                 class="input-textarea"
                 :value="inputs[currentStep].note"
                 @input="onNoteInput"
-                placeholder="补充说明定级理由与来源情况..."
+                :placeholder="isEn ? 'Explain your rating and sources...' : '补充说明定级理由与来源情况...'"
+                :aria-label="isEn ? 'Rating explanation' : '定级说明'"
               ></textarea>
               <div v-else class="placeholder-hint">请先选择证据级别</div>
               <div class="ai-bar">
@@ -136,14 +139,16 @@
                   class="input-textarea half"
                   :value="inputs[currentStep].view1"
                   @input="(e) => onDualInput(e, 'view1')"
-                  placeholder="输入第一个理论视角及其演绎解释..."
+                  :placeholder="isEn ? 'First theoretical perspective...' : '输入第一个理论视角及其演绎解释...'"
+                  :aria-label="isEn ? 'Perspective 1' : '视角一'"
                 ></textarea>
-                <span class="box-label">视角二</span>
+                <span class="box-label">{{ isEn ? 'Perspective 2' : '视角二' }}</span>
                 <textarea
                   class="input-textarea half"
                   :value="inputs[currentStep].view2"
                   @input="(e) => onDualInput(e, 'view2')"
-                  placeholder="输入第二个理论视角及其演绎解释..."
+                  :placeholder="isEn ? 'Second theoretical perspective...' : '输入第二个理论视角及其演绎解释...'"
+                  :aria-label="isEn ? 'Perspective 2' : '视角二'"
                 ></textarea>
               </div>
               <div class="ai-bar">
@@ -168,7 +173,7 @@
 
           <div class="card-footer">
             <button v-if="currentStep > 0" class="btn-prev" @click="prevStep">上一步</button>
-            <button class="btn-submit" @click="nextStep">
+            <button class="btn-submit" :disabled="reportLoading" @click="nextStep">
               {{ currentStep === 8 ? '生成报告' : '确认并继续' }}
             </button>
           </div>
@@ -242,8 +247,15 @@ function enterDemo() {
 }
 
 function goHome() {
+  if (view.value === 'dialectic' && hasAnyInput()) {
+    if (!confirm(isEn.value ? 'Leave will discard current progress. Continue?' : '返回首页将丢失当前进度，确定继续？')) return
+  }
   view.value = 'home'
   reports.value = loadReports()
+}
+
+function hasAnyInput(): boolean {
+  return inputs.value.some(i => i.value || i.level || i.note || i.view1 || i.view2)
 }
 
 function startNew() {
@@ -267,6 +279,11 @@ function clearHistory() {
     clearAllReports()
     reports.value = []
   }
+}
+
+function removeReport(id: number) {
+  deleteReport(id)
+  reports.value = loadReports()
 }
 
 function copyReport() {
@@ -362,14 +379,22 @@ function loadTemplate() {
 
 // --- AI assist (via dialectic-ai transport seam) ---
 function onAIAssist() {
+  if (isAILoading.value) return
   isAILoading.value = true
   aiResponse.value = ''
   aiReasoning.value = ''
-  callDialecticAI(currentStep.value, inputs.value).then(result => {
-    isAILoading.value = false
-    aiResponse.value = result.content
-    aiReasoning.value = result.reasoning
-  })
+  callDialecticAI(currentStep.value, inputs.value)
+    .then(result => {
+      isAILoading.value = false
+      aiResponse.value = result.content
+      aiReasoning.value = result.reasoning
+    })
+    .catch(() => {
+      isAILoading.value = false
+      aiResponse.value = isEn.value
+        ? 'AI request failed. Please check your network and try again.'
+        : 'AI 请求失败，请检查网络后重试。'
+    })
 }
 
 function closeAIAssist() {
@@ -402,6 +427,7 @@ function adoptPolished() {
 
 // --- Report generation (via dialectic-ai transport seam) ---
 async function doGenerateReport() {
+  if (reportLoading.value) return
   reportLoading.value = true
   const content = await generateDialecticReport(inputs.value)
   reportLoading.value = false

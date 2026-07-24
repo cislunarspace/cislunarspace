@@ -97,13 +97,14 @@ function extractHeaders(): TocHeader[] {
   return result
 }
 
+const NAV_HEIGHT = 68
+
 function scrollTo(id: string) {
   const el = document.getElementById(id)
   if (el) {
-    const navHeight = 60
-    const top = el.getBoundingClientRect().top + window.scrollY - navHeight
+    const top = el.getBoundingClientRect().top + window.scrollY - NAV_HEIGHT
     window.scrollTo({ top, behavior: 'smooth' })
-    history.replaceState(null, '', '#' + id)
+    history.pushState(null, '', '#' + id)
     activeId.value = id
   }
 }
@@ -118,11 +119,10 @@ function updateActive() {
   }
   if (!allIds.length) return
 
-  const navHeight = 70
   let current = allIds[0]
   for (const id of allIds) {
     const el = document.getElementById(id)
-    if (el && el.getBoundingClientRect().top <= navHeight + 10) {
+    if (el && el.getBoundingClientRect().top <= NAV_HEIGHT + 10) {
       current = id
     }
   }
