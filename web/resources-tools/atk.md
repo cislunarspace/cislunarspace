@@ -21,7 +21,7 @@ ATK（Aerospace Tool Kit，航天任务工具箱）是由国防科技大学空�
 | **许可证** | 商业软件（已服务 300 余家单位） |
 | **最新版本** | 4.0（2026 年 4 月 11 日发布） |
 | **平台** | 适配国产操作系统与国产 CPU |
-| **文档站点** | [https://atkdocs.smsat.space](https://atkdocs.smsat.space) |
+| **文档站点** |[https://www.osredm.com/atknudt/atk/about](https://www.osredm.com/atknudt/atk/about)|
 
 ## 主要功能
 
@@ -68,7 +68,6 @@ ATK 4.0 包含 **5 大类 29 个模块**，覆盖航天任务全生命周期：
 
 ## 官方资源
 
-- **在线帮助文档**：[https://atkdocs.smsat.space](https://atkdocs.smsat.space)
 - **发布报道**：[国防科技大学报道](https://new.qq.com/rain/a/20260411A06VRP00)
 - **Python 二次开发指南**：[ATK Connect 模式 Python 二次开发](https://blog.csdn.net/qq_33254264/article/details/150386978)
 - **开源文档仓库**：[https://gitcode.com/jinke18/atk-doc](https://gitcode.com/jinke18/atk-doc)
