@@ -204,6 +204,8 @@ function startLoop() {
 
     sim.tick(wall)
     rotateGlobeToECI(simTime.value)
+    // updateSliders() 已从 rAF 移除 — 滑块渐变仅在 @input 和 preset 切换时更新，
+    // 避免每帧 querySelectorAll + inline style 导致 layout reflow。
     rafId = requestAnimationFrame(loop)
   }
   rafId = requestAnimationFrame(loop)

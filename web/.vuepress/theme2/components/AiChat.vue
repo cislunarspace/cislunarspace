@@ -176,6 +176,7 @@
           </button>
         </div>
         <p class="input-hint">{{ surface.isEn ? 'AI may produce inaccurate information. Press Enter to send.' : 'AI 可能产生不准确的信息，按 Enter 发送' }}</p>
+        <p v-if="surface.inputTooLong.value" class="input-too-long">{{ surface.isEn ? 'Message truncated to 2000 characters.' : '消息已截断至 2000 字符。' }}</p>
       </div>
     </main>
   </div>

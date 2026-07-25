@@ -124,8 +124,10 @@ function _saveCache() {
     }
     mkdirSync(CACHE_DIR, { recursive: true });
     writeFileSync(CACHE_FILE, JSON.stringify(_cache));
-    console.log('[ssr-render-cache] saved ' + Object.keys(_cache.entries).length + ' entries (hits=' + _stats.hits + ', misses=' + _stats.misses + ')');
-  } catch {}
+    process.stderr.write('[ssr-render-cache] saved ' + Object.keys(_cache.entries).length + ' entries (hits=' + _stats.hits + ', misses=' + _stats.misses + ')\n');
+  } catch (e) {
+    console.error('[ssr-render-cache] save failed:', (e as Error).message);
+  }
 }
 process.on('beforeExit', _saveCache);
 process.on('SIGINT', () => { _saveCache(); process.exit(0); });

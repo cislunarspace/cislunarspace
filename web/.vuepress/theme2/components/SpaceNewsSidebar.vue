@@ -1,6 +1,10 @@
 <template>
   <aside class="sn-sidebar" :class="{ 'is-hidden': isHidden }">
     <div class="sn-sidebar-inner">
+      <!-- Fetch Error -->
+      <div v-if="fetchError" class="sn-sidebar-error" style="padding:1rem;text-align:center;color:#ef4444;font-size:0.85rem;">
+        {{ isEn ? 'Failed to load sidebar data.' : '加载侧边栏数据失败。' }}
+      </div>
       <!-- Header -->
       <div class="sn-sidebar-header">
         <router-link :to="homePath" class="sn-sidebar-brand">

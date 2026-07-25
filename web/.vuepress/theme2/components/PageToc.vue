@@ -97,14 +97,13 @@ function extractHeaders(): TocHeader[] {
   return result
 }
 
-const NAV_HEIGHT = 68
-
 function scrollTo(id: string) {
   const el = document.getElementById(id)
   if (el) {
-    const top = el.getBoundingClientRect().top + window.scrollY - NAV_HEIGHT
+    const navHeight = 60
+    const top = el.getBoundingClientRect().top + window.scrollY - navHeight
     window.scrollTo({ top, behavior: 'smooth' })
-    history.pushState(null, '', '#' + id)
+    history.pushState(null, '', '#' + id) // pushState 保留历史条目，支持后退到上一个 TOC 锚点
     activeId.value = id
   }
 }
@@ -119,10 +118,11 @@ function updateActive() {
   }
   if (!allIds.length) return
 
+  const navHeight = 70
   let current = allIds[0]
   for (const id of allIds) {
     const el = document.getElementById(id)
-    if (el && el.getBoundingClientRect().top <= NAV_HEIGHT + 10) {
+    if (el && el.getBoundingClientRect().top <= navHeight + 10) {
       current = id
     }
   }

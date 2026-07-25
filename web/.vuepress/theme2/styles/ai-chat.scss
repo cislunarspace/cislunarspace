@@ -960,6 +960,20 @@
   padding: 0;
 }
 
+.input-too-long {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #ef4444;
+  margin: 0.25rem 0 0;
+  padding: 0;
+  animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+  0%, 70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 @media (max-width: 768px) {
   .ai-chat-root {
     height: 100vh;

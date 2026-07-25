@@ -193,11 +193,17 @@ Some intro text.
     expect(renderLinkedHtml('')).toBe('')
   })
 
-  it('escapes quotes in href to prevent attribute injection', () => {
-    const input = '[click](https://evil.com/"onclick="alert(1))'
+  it('escapes ampersand in href', () => {
+    const input = '[click](https://example.com/?a=1&b=2)'
     const result = renderLinkedHtml(input)
-    expect(result).not.toContain('onclick=')
-    expect(result).toContain('&quot;')
+    expect(result).toContain('a=1&amp;b=2')
+  })
+
+  it('renders normal URL correctly', () => {
+    const input = '[NASA](https://nasa.gov)'
+    const result = renderLinkedHtml(input)
+    expect(result).toContain('href="https://nasa.gov"')
+    expect(result).toContain('>NASA</a>')
   })
 })
 

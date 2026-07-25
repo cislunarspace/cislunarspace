@@ -28,6 +28,7 @@ export function useChatSurface(
   const state = createChatStateMachine()
   const theme = createChatThemeController(ref(false))
   const ui = createChatUIManager()
+  const inputTooLong = ref(false)
 
   const {
     chatHistory,
@@ -65,6 +66,8 @@ export function useChatSurface(
     if (!text) return
     if (text.length > MAX_INPUT_LENGTH) {
       ui.userInput.value = text.slice(0, MAX_INPUT_LENGTH)
+      inputTooLong.value = true
+      setTimeout(() => { inputTooLong.value = false }, 3000)
       return
     }
     ui.userInput.value = ''
@@ -112,5 +115,6 @@ export function useChatSurface(
     actions,
     sendMessage,
     sendSuggested,
+    inputTooLong,
   }
 }
