@@ -183,7 +183,8 @@
   flex-shrink: 0;
 }
 
-.sidebar-item:hover .sidebar-item-delete {
+.sidebar-item:hover .sidebar-item-delete,
+.sidebar-item.active .sidebar-item-delete {
   display: flex;
 }
 
