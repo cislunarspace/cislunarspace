@@ -91,7 +91,7 @@ function listMonths(dir: string): string[] {
     const yDir = path.join(dir, y.name)
     for (const m of readdirSync(yDir, { withFileTypes: true })) {
       if (!m.isDirectory() || !/^\d{2}$/.test(m.name)) continue
-      months.push(path.join(y.name, m.name))
+      months.push(`${y.name}/${m.name}`)
     }
   }
   return months.sort()
