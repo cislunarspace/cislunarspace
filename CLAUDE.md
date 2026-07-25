@@ -28,15 +28,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 All commands run from `web/`:
 
 ```bash
-npm run docs:dev      # gen-sidebar → vuepress dev server (host 0.0.0.0)
-npm run docs:build    # gen-sidebar → vuepress build → sync-figures
-npm run gen-sidebar   # regenerate all JSON artifacts (sidebar, articles, AI, glossary)
-npm run sync-figures  # copy figures/ into dist/ (required for images to display)
+npm run docs:dev          # gen-sidebar → vuepress dev server (host 0.0.0.0)
+npm run docs:build        # gen-sidebar → sharded-build (8 shards) → sync-figures
+npm run docs:build:single # gen-sidebar → single-process vuepress build → sync-figures
+npm run gen-sidebar       # regenerate all JSON artifacts (sidebar, articles, AI, glossary)
+npm run sync-figures      # copy figures/ into dist/ (required for images to display)
 ```
 
 Requires Node.js 18+ (CI and cron use v22.22.2).
 
-**Local AI chat (`/ai-chat`):** copy `web/.env.example` to `web/.env` and set `DEEPSEEK_API_KEY`. Vite dev server proxies `/api/ai` → `https://api.deepseek.com` (see `web/.vuepress/config.ts`). Production uses Nginx (`web/deploy/nginx-ai-proxy.conf`).
+**Local AI chat (`/ai-chat`):** copy `web/.env.example` to `web/.env` and set `DEEPSEEK_API_KEY`. Vite dev server proxies `/api/ai` → `https://api.deepseek.com` (see `web/.vuepress/config.ts`). Production uses Nginx (`web/deploy/nginx-ai-proxy.conf`). The chat component requires `ai-chat-config.json` (in `web/.vuepress/public/`) to specify the model; API key is injected by nginx.
 
 ## Architecture
 
@@ -70,6 +71,8 @@ Build infrastructure scripts (no content knowledge):
 
 - `sync-figures.js` — copies `figures/` dirs into `dist/`
 - `sharded-build.ts` — N-way parallel VuePress build
+- `shard-build.mjs` — single-shard build (called by sharded-build.ts)
+- `ssr-render-cache.ts` — Vite plugin that caches SSR-rendered pages to speed up incremental builds
 - `measure-build.ts` — build performance measurement
 - `verify-dist.ts` — dist verification checks
 
@@ -151,7 +154,18 @@ To regenerate: run `npm run gen-sidebar` or the full `npm run docs:build`.
 
 ## Deployment
 
-Nginx serves from `web/.vuepress/dist/` with SPA fallback. Config at `web/deploy/nginx-ai-proxy.conf`. The `/api/ai/` path proxies to DeepSeek API.
+Nginx serves from `/home/ubuntu/cislunarspace/` on the腾讯云 jump host (106.54.4.220). Config at `web/deploy/cislunarspace-site.conf`. The `/api/ai/` path proxies to DeepSeek API; API key is injected by nginx via `$DEEPSEEK_API_KEY`.
+
+SSH config: `jump` (ubuntu@106.54.4.220) for deployment, `local-server` (port 22220 via reverse tunnel) for internal access.
+
+Deploy steps:
+```bash
+cd web
+npm run docs:build                                    # build (8 shards + SSR cache)
+npm run sync-figures                                   # copy figures into dist/
+tar cf - dist/ | ssh jump "cd /home/ubuntu/cislunarspace && rm -rf * && tar xf - --strip-components=1"
+ssh jump "sudo nginx -s reload"
+```
 
 ## Space News Automation
 
@@ -162,6 +176,7 @@ Nginx serves from `web/.vuepress/dist/` with SPA fallback. Config at `web/deploy
 ## Maintenance Rules
 
 - **Do not edit auto-generated JSON files** — regenerate them via `npm run gen-sidebar`
+- **AI chat config** — `web/.vuepress/public/ai-chat-config.json` specifies the model for the AI chat; API key is injected by nginx, not stored in this file
 - **Add knowledge-base section/page** — update `web/.vuepress/sidebar/data.ts`
 - **Add Space News article** — create `YYYY-MM-DD-slug.md` in both `web/space-news/YYYY/MM/` and `web/en/space-news/YYYY/MM/`
 - **Add glossary entry** — create markdown in `web/glossary/<category>/`; categories defined in `taxonomy/data.ts`
