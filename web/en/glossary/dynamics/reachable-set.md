@@ -55,6 +55,7 @@ The reachable set describes all states the spacecraft can reach from an initial 
 ## Application in Cislunar SSA Architecture Resilience Analysis
 
 Klonowski (2025) utilized reachability theory to analyze the resilience of SSA architectures:
+
 1. **Precomputing reachable sets**: Precomputing low-thrust spacecraft reachable sets at grid points in cislunar space
 2. **Coverage analysis**: Comparing reachable sets with the architecture's detection areas to identify coverage blind spots
 3. **Resilience maps**: Generating heatmaps to visualize the evolution of the architecture's detection capability against spacecraft at any initial position over time
@@ -62,13 +63,17 @@ Klonowski (2025) utilized reachability theory to analyze the resilience of SSA a
 ## Key Elements
 
 ### Mathematical Definition
+
 The reachable set $\mathcal{R}^t(\mathcal{X}_0)$ contains all states that the system can reach at time $t$, starting from the initial set $\mathcal{X}_0$ under admissible control inputs.
 
 ### Key Properties
+
 The boundary of the reachable set describes the system's capability limits. For low-thrust spacecraft, the reachable set shape is influenced by thrust magnitude and direction constraints.
 
 ### Numerical Methods
+
 Numerical computation methods for reachable sets include:
+
 - Hyperrectangle approximation
 - Flow pipe approximation
 - Level set methods

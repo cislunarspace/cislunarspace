@@ -84,11 +84,11 @@ WSB transfers have important applications in:
 It should be noted that while WSB transfers have low impulse requirements, they have long transfer times and require high navigation precision. In practice, WSB transfers are often combined with Lunar Gravity Assist (LGA) or Powered Lunar Flyby (PLF) to balance impulse requirements and transfer time.
 
 ## Related Concepts
+
 - [Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - [Lunar Gravity Assist (LGA)](/en/glossary/other/lunar-gravity-assist/)
 - [Transfer Orbit](/en/glossary/orbits/transfer-orbit/)
 - [Libration Point](/en/glossary/dynamics/libration-point/)
-
 
 ## References
 

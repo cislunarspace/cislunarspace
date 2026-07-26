@@ -84,6 +84,7 @@ permalink: /glossary/orbits/low-energy-transfer/
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 
 ## 参考文献
+
 - Lo M W, Ross S D. Low-energy interplanetary transfers using the invariant manifolds of L1, L2 halo orbits[C]. AAS/AIAA Astrodynamics Specialist Conference, 1998.
 - Belbruno E, Miller J. Sun-perturbed Earth-to-Moon transfers with ballistic capture[J]. Journal of Guidance, Control, and Dynamics, 1993, 16(4): 770-775.
 - Koon W S, Lo M W, Marsden J E, et al. Dynamical Systems, the Three-Body Problem and Space Mission Design[M]. 2011.

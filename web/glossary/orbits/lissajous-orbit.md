@@ -46,7 +46,7 @@ Lissajous 轨道在 CR3BP 框架下的关键特性包括：
 ### Lissajous 轨道与 Halo 轨道的区别
 
 | 特征 | Halo 轨道 | Lissajous 轨道 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 周期性 | 精确周期，闭合 | 准周期，不闭合 |
 | 对称性 | 关于 $xOz$ 平面对称 | 无对称性 |
 | 频率关系 | $\omega_z / \omega_{xy} = 1$ | $\omega_z / \omega_{xy} \neq 1$ |
@@ -82,11 +82,13 @@ Lissajous 轨道在空间任务中有独特应用：
 - **入轨更容易**：某些情况下，进入 Lissajous 轨道的 $\Delta V$ 需求低于进入 Halo 轨道
 
 ## 相关概念
+
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Gomez G, Masdemont J, Simo C. Lissajous orbits around halo orbits[J]. Advances in the Astronautical Sciences, 1998.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025.

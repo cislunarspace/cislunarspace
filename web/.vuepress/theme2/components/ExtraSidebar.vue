@@ -13,9 +13,9 @@
         <div class="toc-container">
           <div class="pos-box">
             <div class="icon-arrow"></div>
-            <div class="scroll-box" style="text-align:center">
+            <div class="scroll-box" style="text-align: center">
               <span class="popover-title">{{ item.popoverTitle }}</span>
-              <img :src="item.popoverUrl" height="180px" style="margin:10px;" />
+              <img :src="item.popoverUrl" height="180px" style="margin: 10px" />
               <span>{{ item.popoverDesc }}</span>
             </div>
           </div>
@@ -26,16 +26,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-import extraSideBarConfig from '../data/wechat-widget.ts'
+import { ref } from 'vue';
+import extraSideBarConfig from '../data/wechat-widget.ts';
 
-const list = ref(extraSideBarConfig)
+const list = ref(extraSideBarConfig);
 
 function showToc(event: MouseEvent) {
-  ;(event.currentTarget as HTMLElement).className = 'option-box on'
+  (event.currentTarget as HTMLElement).className = 'option-box on';
 }
 function hideToc(event: MouseEvent) {
-  ;(event.currentTarget as HTMLElement).className = 'option-box'
+  (event.currentTarget as HTMLElement).className = 'option-box';
 }
 </script>
 
@@ -105,7 +105,10 @@ function hideToc(event: MouseEvent) {
     background-color: var(--c-bg);
     height: 60px;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s, transform 0.2s var(--ease-out-back);
+    transition:
+      background 0.2s,
+      color 0.2s,
+      transform 0.2s var(--ease-out-back);
     .show-txt {
       color: var(--c-text-lighter);
       margin-top: 3px;

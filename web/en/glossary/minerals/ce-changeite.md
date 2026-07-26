@@ -50,7 +50,7 @@ Changeite-Ce holds the following scientific value:
 Changeite-Ce belongs to the same **calcium rare-earth phosphate mineral** family as Changeite-Mg, but the two differ significantly in rare earth distribution:
 
 | Mineral | Rare Earth Characteristic | Occurrence |
-|:---:|:---:|:---:|
+| :---: | :---: | :---: |
 | Changeite-Ce | Rich in **light rare earth element cerium** | Lunar basaltic fragments |
 | Changeite-Mg | Rich in **magnesium and rare earth elements** | Lunar drilling basaltic fragments |
 | Changeite (original) | Calcium rare-earth phosphate | Lunar samples |

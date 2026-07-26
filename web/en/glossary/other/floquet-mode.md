@@ -45,7 +45,7 @@ The core idea of the Floquet mode method is: by applying control maneuvers, elim
 ## Comparison with Other Methods
 
 | Method | Design Approach | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Floquet mode method | Eliminate unstable components | Leverages dynamics, computationally efficient |
 | Targeting method | Minimize deviation-control weighted sum | General-purpose, controllable fuel consumption |
 | LQR | Optimal control theory | Requires precise model |

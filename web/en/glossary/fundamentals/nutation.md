@@ -43,7 +43,7 @@ Nutation is primarily caused by the motion of the lunar orbital plane (the lunar
 Nutation can be decomposed into two components:
 
 | Component | Definition | Typical Value |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Obliquity nutation $\Delta\varepsilon$ | Variation in the obliquity of the ecliptic | Maximum approximately +/- 9.2 arcsec |
 | Longitude nutation $\Delta\psi$ | Periodic displacement of the vernal equinox along the ecliptic | Maximum approximately +/- 17.2 arcsec |
 
@@ -60,7 +60,7 @@ where the argument is obtained from a linear combination of fundamental paramete
 ### Distinction from Precession
 
 | Characteristic | Precession | Nutation |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Period | Approximately 25,800 years | A few days to 18.6 years |
 | Amplitude | Approximately 50 arcsec/year | Maximum approximately 9.2 arcsec |
 | Trajectory | Smooth cone | Oscillation on the cone surface |

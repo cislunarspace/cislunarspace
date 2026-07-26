@@ -37,7 +37,7 @@ A libration point (also called equilibrium point or Lagrange point) is a point i
 There are five libration points in the CR3BP, divided into two categories:
 
 | Point | Location | Stability |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | L1 | Between the two primary bodies | Unstable |
 | L2 | Beyond the smaller primary body | Unstable |
 | L3 | Beyond the larger primary body | Unstable |

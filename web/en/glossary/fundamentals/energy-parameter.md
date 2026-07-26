@@ -49,7 +49,7 @@ Therefore $\gamma_k = 2r_k/r_{k,\text{circle}} = v_k^2 r_k / \mu_E$.
 ### Correspondence with Orbit Types
 
 | Orbit Type | Energy Parameter Range | Semi-major Axis | Specific Mechanical Energy |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Circular orbit | $\gamma = 1$ | $a = r$ | $\varepsilon < 0$ |
 | Elliptical orbit | $0 < \gamma < 2$ | $a > 0$ | $\varepsilon < 0$ |
 | Parabolic orbit | $\gamma = 2$ | $a \to \infty$ | $\varepsilon = 0$ |
@@ -60,7 +60,7 @@ Therefore $\gamma_k = 2r_k/r_{k,\text{circle}} = v_k^2 r_k / \mu_E$.
 The energy parameter is a core intermediate variable in ballistic computation, appearing in several key formulas:
 
 | Formula | Expression |
-|:---|:---|
+| :--- | :--- |
 | Semi-latus rectum | $p = r_k \gamma_k \cos^2\Theta_k$ |
 | Eccentricity | $e = \sqrt{1 - \gamma_k(2-\gamma_k)\cos^2\Theta_k}$ |
 | Semi-major axis | $a = r_k / (2 - \gamma_k)$ |

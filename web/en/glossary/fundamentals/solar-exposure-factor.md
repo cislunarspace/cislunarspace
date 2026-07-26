@@ -39,7 +39,7 @@ The solar exposure factor $K_S$ is the ratio of the time a satellite is illumina
 $$K_S = \frac{T_S}{T_0} \leq 1$$
 
 | Condition | $K_S$ | $R_S$ |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Full orbit in sunlight | 1 | 0 |
 | Full orbit in eclipse (theoretically impossible) | 0 | 1 |
 | General case | $0 < K_S < 1$ | $0 < R_S < 1$ |
@@ -53,7 +53,7 @@ where $\hat{h}$ is the unit normal vector of the orbital plane and $\hat{r}_S$ i
 ### Solar Exposure Factor for Special Cases
 
 | Angle $\gamma$ | Solar Exposure Factor $K_S$ | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $0°$ or $180°$ | 1 | Sunlight perpendicular to orbital plane, full orbit illuminated |
 | $90°$ | $\frac{1}{2} + \frac{\alpha}{180°}$ | Sunlight in the orbital plane |
 

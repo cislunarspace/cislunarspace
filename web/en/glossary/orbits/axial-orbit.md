@@ -48,7 +48,7 @@ Axial orbits possess the following properties within the CR3BP framework:
 Based on the libration point locations in the Earth-Moon system, axial orbits can be classified into the following families:
 
 | Orbit Family | Parent Libration Point | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | A1 (Axial L1) | L1 | Located between Earth and Moon, period approximately 17 days |
 | A2 (Axial L2) | L2 | Located on the far side of the Moon, period approximately 19 days |
 | A3 (Axial L3) | L3 | Located on the far side of the Earth from the Moon, period approximately 27 days |
@@ -59,7 +59,7 @@ Based on the libration point locations in the Earth-Moon system, axial orbits ca
 Using the Earth-Moon system as an example, the main parameter ranges for the axial orbit family are as follows (based on the dynamic catalog statistics by Guzzetti et al.):
 
 | Orbit Family | Jacobi Constant Range | Period Range (days) | Stability Index Range |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | A1 | 2.9918 ~ 3.0214 | 17.15 ~ 17.65 | 200 ~ 254 |
 | A2 | 2.9671 ~ 3.0138 | 18.72 ~ 19.20 | 128 ~ 168 |
 | A3 | 0.0165 ~ 1.8588 | 27.19 ~ 27.21 | 1.05 ~ 1.16 |
@@ -92,6 +92,7 @@ Axial orbits have the following potential applications in cislunar space mission
 - **Dynamical research foundation**: As an important component of the libration point orbit classification system, axial orbits are key to understanding the complex dynamical structure of cislunar space
 
 ## Related Concepts
+
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
 - [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)
@@ -99,6 +100,7 @@ Axial orbits have the following potential applications in cislunar space mission
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.

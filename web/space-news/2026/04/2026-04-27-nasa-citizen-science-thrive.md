@@ -43,7 +43,7 @@ Artemis II 宇航员在执行「月球飞越」（Lunar Flyby）机动时，观�
 
 NASA 在其官方网站提供多种公民科学项目供公众选择参与，涵盖天文学、地球科学、太阳物理学等多个领域。无需专业背景，只要有一台望远镜或互联网连接，即可为真实的科学研究做出贡献。
 
-更多信息请访问：https://science.nasa.gov/get-involved/citizen-science/
+更多信息请访问：<https://science.nasa.gov/get-involved/citizen-science/>
 
 ## 信息来源（原文）
 

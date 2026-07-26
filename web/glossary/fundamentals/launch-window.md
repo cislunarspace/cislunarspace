@@ -55,7 +55,7 @@ $$\Omega = \overline{S}(t_I) + \lambda_I - \arctan\left(\frac{\tan\varphi_I \cos
 ### 发射方向与轨道类型
 
 | 方位角范围 | 轨道类型 | 说明 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $0 < A_I < \pi$ | 顺行轨道 | $0 < i < \pi/2$ |
 | $\pi < A_I < 2\pi$ | 逆行轨道 | $\pi/2 < i < \pi$ |
 | $A_I = \pi/2$ | 向东发射 | $i = i_{\min} = \varphi_I$ |

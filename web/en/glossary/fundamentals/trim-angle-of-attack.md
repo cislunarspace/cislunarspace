@@ -43,7 +43,7 @@ $$C_N(x_p - x_g) = C_{x1}\delta$$
 where:
 
 | Symbol | Meaning |
-|:---|:---|
+| :--- | :--- |
 | $C_N$ | Total normal force coefficient |
 | $x_p$ | Center-of-pressure position |
 | $x_g$ | Center-of-mass position |
@@ -53,7 +53,7 @@ where:
 ### Flight Characteristics
 
 | Characteristic | Description |
-|:---|:---|
+| :--- | :--- |
 | Sideslip angle $\beta = 0$ | Aerodynamic force lies in the $o_1x_1y_1$ plane |
 | Angle of attack $\alpha < 0$ | Velocity axis lies within the right angle formed by the longitudinal and normal axes |
 | Lift-to-drag ratio | Generally no greater than 0.5 |

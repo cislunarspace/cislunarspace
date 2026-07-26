@@ -37,6 +37,7 @@ The instantaneous balance assumption is an important simplification used in powe
 ### Physical Meaning
 
 The instantaneous balance assumption implies:
+
 - The vehicle has no angular acceleration about its center of mass
 - Aerodynamic moments and control moments are balanced at every instant
 - The angle of attack $\alpha$ and sideslip angle $\beta$ are directly determined by the control deflection angle $\delta$
@@ -53,6 +54,7 @@ where $M_{z1}^\alpha$ is the derivative of the aerodynamic moment with respect t
 ### Introduced Errors
 
 The instantaneous balance assumption neglects:
+
 - The dynamic transient process of rotational motion about the center of mass
 - The effects of attitude angular velocity and angular acceleration
 - Control system delays and overshoot

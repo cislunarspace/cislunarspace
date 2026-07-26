@@ -41,7 +41,7 @@ In-Situ Resource Utilization (ISRU) refers to the technology of using local reso
 ### Resource Extraction
 
 | Technique | Description | Application |
-|-----|------|-----|
+| ----- | ------ | ----- |
 | Physical separation | Mechanical sorting, thermal fractionation, etc. | Extracting water ice, minerals |
 | Chemical extraction | Chemical reaction decomposition | Extracting oxygen from lunar regolith |
 | Electrolysis | Electrolysis of water to produce hydrogen and oxygen | Propellant production |

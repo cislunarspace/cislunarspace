@@ -17,7 +17,7 @@ GMAT (General Mission Analysis Tool) is an open-source space mission design, opt
 
 - **License**: NASA Open Source Agreement
 - **Source**: NASA AMMOS
-- **Official Docs**: https://gmat.sourceforge.net/
+- **Official Docs**: <https://gmat.sourceforge.net/>
 
 ## Key Features
 
@@ -34,6 +34,6 @@ GMAT (General Mission Analysis Tool) is an open-source space mission design, opt
 
 ## Official Resources
 
-- Website: https://gmat.sourceforge.net/
-- GitHub: https://github.com/NASA-AMMOS/GMAT
+- Website: <https://gmat.sourceforge.net/>
+- GitHub: <https://github.com/NASA-AMMOS/GMAT>
 - Latest version: R2026a

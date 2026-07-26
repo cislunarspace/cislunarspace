@@ -35,6 +35,7 @@ permalink: /en/glossary/dynamics/dynamic-programming/
 Dynamic Programming (DP) is a mathematical method for solving multi-stage decision process optimization by decomposing complex problems into interrelated subproblems, solving bottom-up and gradually constructing optimal solutions.
 
 The core characteristics of dynamic programming are:
+
 - **Optimal substructure**: Global optimal solution contains optimal solutions of local subproblems
 - **No aftereffect**: Current state choices only affect subsequent decisions, not past choices
 - **Overlapping subproblems**: Subproblems are repeatedly calculated multiple times and can be stored for reuse
@@ -54,6 +55,7 @@ For the State-Dependent Traveling Salesman Problem (SDTSP), Bellman's equation i
 $$J(S, j) = \min_{i \in S \setminus \{j\}} \{J(S \setminus \{j\}, i) + C(i, j, k)\}$$
 
 Where:
+
 - $J(S, j)$: Minimum cumulative cost for planning node $(S, j)$
 - $S$: Set of visited orbits
 - $j$: Current orbit
@@ -96,13 +98,14 @@ $$J_{final} = \min_{u \in V} (J(V, u) + C(u, i_{start}, N))$$
 ### State Compression Technique
 
 To improve computational efficiency, 胡敏等 (2026) used state compression:
+
 - Orbital subset $S$ is mapped to binary integer bitmask
 - Set inclusion test becomes efficient bitwise operation
 - Algorithm complexity reduces from exponential to polynomial
 
 ### Algorithm Flow
 
-```
+```text
 Input: Total number of targets N, State-dependent cost matrix C, Starting orbit i_start
 1. Initialize J to infinity, J[i_start, i_start] = 0
 2. Iterate through all possible orbital subsets m and current node u
@@ -114,7 +117,7 @@ Output: Optimal cost J and deployment sequence Π
 ### Complexity Analysis
 
 | Metric | Complexity | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Time | $O(N^2 \cdot 2^N)$ | Iterate through all state combinations |
 | Space | $O(N \cdot 2^N)$ | Store optimal cost array |
 
@@ -123,7 +126,7 @@ Output: Optimal cost J and deployment sequence Π
 Research results (胡敏等, 2026) show that in medium-orbit batch deployment missions:
 
 | Algorithm | N=8 Propellant (kg) | N=12 Propellant (kg) | Optimality |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | DP (This method) | 487.7 | 632.1 | Exact optimal |
 | GA | 507.8 | 632.1 | Heuristic |
 | Greedy | 502.2 | 669.1* | Locally optimal |
@@ -131,6 +134,7 @@ Research results (胡敏等, 2026) show that in medium-orbit batch deployment mi
 *Exceeds initial propellant capacity
 
 Dynamic programming performs optimally in medium-scale missions with N≤12, with advantages:
+
 - **Global optimality guarantee**: Ensures finding the optimal deployment sequence
 - **High computational efficiency**: CPU time only requires milliseconds
 - **Good robustness**: Not affected by initial solutions
@@ -138,7 +142,7 @@ Dynamic programming performs optimally in medium-scale missions with N≤12, wit
 ## Comparison with Other Algorithms
 
 | Characteristic | Dynamic Programming | Genetic Algorithm | Greedy Algorithm |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Optimality | Exact optimal | Probabilistic convergence | Locally optimal |
 | Time complexity | $O(N^2 \cdot 2^N)$ | Adjustable | $O(N^2)$ |
 | Space complexity | $O(N \cdot 2^N)$ | Medium | $O(N)$ |

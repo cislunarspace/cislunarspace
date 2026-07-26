@@ -54,7 +54,7 @@ where $n$ is the state dimension. The necessary and sufficient condition for com
 ### Observability Criteria
 
 | Criterion | Condition | Applicable Scenario |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Rank criterion | $\text{rank}(\mathcal{O}) = n$ | General linear systems |
 | GRAM criterion | $\mathcal{O}^T\mathcal{O}$ is positive definite | Continuous systems |
 | PBH criterion | $\text{rank}[s\mathbf{I}-\mathbf{A}, \mathbf{C}] = n, \forall s$ | Linear systems |

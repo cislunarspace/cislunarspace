@@ -35,7 +35,7 @@ The Quasi-zero Wind Layer (QZWL) refers to the atmospheric region at the bottom 
 ## Altitude Range
 
 | Name | Altitude Range | Typical Wind Speed |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Tropopause | 10-18 km | Variable |
 | Quasi-zero Wind Layer | 18-25 km | <10 m/s |
 | Westerly Jet Stream | 25-35 km | 30-100 m/s |
@@ -46,7 +46,7 @@ The Quasi-zero Wind Layer (QZWL) refers to the atmospheric region at the bottom 
 ### Thermodynamic Causes
 
 | Factor | Effect |
-|:---|:---|
+| :--- | :--- |
 | Temperature gradient | Stratospheric inversion suppresses turbulent exchange |
 | Ozone layer | Ozone absorbs UV forming stable stratification |
 | Radiative balance | Small diurnal heating difference |
@@ -56,7 +56,7 @@ The Quasi-zero Wind Layer (QZWL) refers to the atmospheric region at the bottom 
 ### Altitude Selection Strategy
 
 | Strategy | Advantage | Disadvantage |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | QZWL center (~21 km) | Minimum wind speed | Low pressure, reduced buoyancy |
 | QZWL bottom (~18 km) | Sufficient buoyancy | Slightly higher wind speed |
 | QZWL top (~25 km) | Balanced | Higher altitude control precision required |

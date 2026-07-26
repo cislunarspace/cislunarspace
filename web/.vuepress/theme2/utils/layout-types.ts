@@ -4,6 +4,6 @@ export const LayoutTypes = Object.freeze({
   SpaceNewsArchive: 'SpaceNewsArchive',
   OrbitSimLab: 'OrbitSimLab',
   Forum: 'Forum',
-} as const)
+} as const);
 
-export type LayoutType = (typeof LayoutTypes)[keyof typeof LayoutTypes]
+export type LayoutType = (typeof LayoutTypes)[keyof typeof LayoutTypes];

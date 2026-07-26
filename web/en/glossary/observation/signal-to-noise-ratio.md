@@ -53,7 +53,7 @@ $$\text{SNR}_S = \text{SNR}_O \cdot \sqrt{N}$$
 That is, the SNR improvement factor is $\sqrt{N}$. Sun et al. (2026) verified this relationship with actual observational data:
 
 | Stacked Frames $N$ | Theoretical Improvement ($\sqrt{N}$) | Measured Improvement |
-|:---:|:---:|:---:|
+| :---: | :---: | :---: |
 | 4 | 2.00× | 1.90× |
 | 6 | 2.45× | 2.29× |
 | 9 | 3.00× | 2.73× |

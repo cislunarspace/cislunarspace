@@ -79,11 +79,13 @@ Free-return trajectories have irreplaceable safety value in crewed cislunar miss
 - **Mission planning constraint**: The free-return constraint is one of the fundamental constraints in crewed mission orbit design
 
 ## Related Concepts
+
 - [Transfer Orbit](/en/glossary/orbits/transfer-orbit/)
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Lunar Gravity Assist](/en/glossary/other/lunar-gravity-assist/)
 
 ## References
+
 - Berry R L. Launch window and translunar, transearth trajectory analysis for the Apollo 11 lunar landing mission[R]. NASA, 1970.
 - Wei Z et al. Research on lunar gravity-assist injection into cislunar distant retrograde orbit families[J]. 2026.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.

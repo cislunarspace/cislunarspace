@@ -1,0 +1,34 @@
+{
+  "globs": ["**/*.md"],
+  "ignores": [
+    "node_modules",
+    "dist",
+    "figures",
+    "sidebar.auto.json",
+    "sidebar-glossary.auto.json",
+    "space-news-articles.json",
+    "space-news-sidebar-data.json",
+    "ai-chat-context.json",
+    "ai-chat-index.json",
+    "package-lock.json",
+  ],
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD024": false,
+    "MD025": false,
+    "MD028": false,
+    "MD033": false,
+    "MD036": false,
+    "MD041": false,
+    "MD046": {
+      "style": "fenced",
+    },
+    "MD049": {
+      "style": "consistent",
+    },
+    "MD052": false,
+    "MD056": false,
+    "MD060": false,
+  },
+}

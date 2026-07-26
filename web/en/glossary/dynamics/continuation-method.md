@@ -43,7 +43,7 @@ The continuation method (parameter continuation) is a numerical technique for co
 ## Types
 
 | Type | Description |
-|:---|:---|
+| :--- | :--- |
 | Natural continuation | Vary one parameter along an orbit family |
 | Pseudo-arclength continuation | Parameterize by arc length along the solution curve, allowing turning points |
 | Branch switching | At bifurcation points, switch to a different orbit family |

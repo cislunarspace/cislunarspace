@@ -68,6 +68,7 @@ $$\Delta V_{\text{total}} = \sum_{i=1}^{n} |\Delta \mathbf{v}_i|$$
 - **应急返回**：自由返回转移轨道为载人任务提供无需额外推进即可安全返回地球的能力
 
 ## 相关概念
+
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [月球借力（Lunar Gravity Assist）](/glossary/other/lunar-gravity-assist/)
@@ -76,6 +77,7 @@ $$\Delta V_{\text{total}} = \sum_{i=1}^{n} |\Delta \mathbf{v}_i|$$
 - [自由返回轨道（Free-Return Trajectory）](/glossary/orbits/free-return-trajectory/)
 
 ## 参考文献
+
 - Hohmann W. Die Erreichbarkeit der Himmelskörper[M]. 1925.
 - 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 2026.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

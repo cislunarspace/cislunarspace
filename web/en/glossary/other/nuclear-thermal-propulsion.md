@@ -45,7 +45,7 @@ The specific impulse of NTP, $I_{sp} = v_e / g_0$, depends primarily on exhaust 
 ## Solid Core vs. Liquid Core
 
 | Characteristic | Solid Core NTP | Liquid Core NTP |
-|------|---------------------------|---------------------------|
+| ------ | --------------------------- | --------------------------- |
 | Fuel form | Solid uranium compounds (e.g., UC₂ or UN) | Liquid uranium metal or uranium alloy |
 | Containment method | Mechanical fixation of solid fuel elements | Centrifugal force containment via high-speed rotation |
 | Maximum operating temperature | ~2,800-3,000 K | >4,000 K (far exceeding the melting point limits of solid cores) |
@@ -58,6 +58,7 @@ The specific impulse of NTP, $I_{sp} = v_e / g_0$, depends primarily on exhaust 
 In a liquid-core NTP system, liquid uranium serves as the fuel. High-speed rotation of the reactor (hundreds to thousands of RPM) generates centrifugal force that confines the liquid fuel to the reactor cavity wall, forming a stable annular fuel layer. The propellant (liquid hydrogen) is injected through a central channel and directly contacts the high-temperature liquid fuel layer for heat exchange, achieving significantly higher energy utilization efficiency and exhaust temperatures than solid-core systems.
 
 Key technical challenges of the liquid core approach include:
+
 - Maintaining hydrodynamic stability of liquid fuel under ultra-high temperatures and intense radiation
 - Control of liquid fuel evaporation losses and nuclear material loss through the propellant exhaust stream
 - Reliability of high-speed rotating mechanisms (bearings, seals, vibration)

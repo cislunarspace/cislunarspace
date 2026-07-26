@@ -24,7 +24,7 @@ An earlier test version of the spacecraft completed orbital verification on Marc
 The four candidate companies are leading players in China's commercial space sector:
 
 | Company | Primary Rocket | Configuration |
-|---------|---------------|---------------|
+| --------- | --------------- | --------------- |
 | Galactic Energy | Ceres-1/2 | Solid propellant, multiple successful orbits |
 | CAS Space | Lijian-2 | CBC configuration, maiden flight March 2026 |
 | Orienspace | Gravity-1 | Sea-launch capable, solid propellant |

@@ -35,7 +35,7 @@ The seven-node model divides the stratospheric airship thermodynamic system into
 ## Node Distribution
 
 | Node | Region | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 1 | Windward skin | Directly solar heated or wind-cooled |
 | 2 | Leeward skin | Shadow area, radiative cooling |
 | 3 | Top skin | Maximum solar direct exposure |
@@ -57,7 +57,7 @@ $$Q_{i,j}^{cond} = \frac{k_{ij}A_{ij}}{d_{ij}}(T_j - T_i)$$
 ## Model Validation
 
 | Test Condition | Two-node Error | Seven-node Error |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Daytime high temp | ±5 K | ±1 K |
 | Nighttime low temp | ±8 K | ±2 K |
 | Sunrise/sunset | ±10 K | ±3 K |

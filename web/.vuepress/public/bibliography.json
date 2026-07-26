@@ -59,35 +59,21 @@
       "what-is-cislunarspace/README.md",
       "what-is-cislunarspace/README.md"
     ],
-    "LiuWeiQiZuoZhanSheJiLun2020": [
-      "what-is-cislunarspace/README.md"
-    ],
-    "LiuWeiQiZuoZhanSheJiZhiShengWeiLaiZhiDao2018": [
-      "what-is-cislunarspace/README.md"
-    ],
-    "LuWenQiangDiYueKongJianZiYuanKaiFaDeZhanLueQianJing2026": [
-      "what-is-cislunarspace/README.md"
-    ],
+    "LiuWeiQiZuoZhanSheJiLun2020": ["what-is-cislunarspace/README.md"],
+    "LiuWeiQiZuoZhanSheJiZhiShengWeiLaiZhiDao2018": ["what-is-cislunarspace/README.md"],
+    "LuWenQiangDiYueKongJianZiYuanKaiFaDeZhanLueQianJing2026": ["what-is-cislunarspace/README.md"],
     "ShangGuanYongDiYueKongJianDaoHangXianZhuangYuJiShuFaZhanYanJiu2026": [
       "what-is-cislunarspace/README.md"
     ],
     "WeiZanDiYueYuanJuChiNiXingGuiDaoZuYueQiuJieLiZhuanYiRuGuiYanJiu2026": [
       "what-is-cislunarspace/README.md"
     ],
-    "YangLePingDiYueKongJianTaiKongAnQuanXinTiaoZhan2024": [
-      "what-is-cislunarspace/README.md"
-    ],
+    "YangLePingDiYueKongJianTaiKongAnQuanXinTiaoZhan2024": ["what-is-cislunarspace/README.md"],
     "YuZhiJianDiYueKongJianMuBiaoDiJiLeiDaTanCeGuanJianJiShuJiTiaoZhan2026": [
       "what-is-cislunarspace/README.md"
     ],
-    "ZhuYanWeiTaiKongZuoZhanGaiLun2026": [
-      "what-is-cislunarspace/README.md"
-    ],
-    "NASA2020Artemis": [
-      "what-is-cislunarspace/README.md"
-    ],
-    "shangGalacticCosmicRay2026": [
-      "what-is-cislunarspace/README.md"
-    ]
+    "ZhuYanWeiTaiKongZuoZhanGaiLun2026": ["what-is-cislunarspace/README.md"],
+    "NASA2020Artemis": ["what-is-cislunarspace/README.md"],
+    "shangGalacticCosmicRay2026": ["what-is-cislunarspace/README.md"]
   }
 }

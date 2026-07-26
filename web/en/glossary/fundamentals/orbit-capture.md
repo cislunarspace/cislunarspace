@@ -47,7 +47,7 @@ $$\begin{cases} \Delta a = \frac{2}{n\sqrt{1-e^2}}[e\sin f \cdot \Delta v_r + (1
 ### Adjustment Strategy
 
 | Orbital Element | Required Impulse Component | Optimal Application Point |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Semi-major axis $a$ | $\Delta v_r$, $\Delta v_t$ | Tangential at perigee |
 | Eccentricity $e$ | $\Delta v_r$, $\Delta v_t$ | Determined by specific deviation |
 | Inclination $i$ | $\Delta v_h$ | $u = 0°$ or $180°$ |

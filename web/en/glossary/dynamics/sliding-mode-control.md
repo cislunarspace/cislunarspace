@@ -57,7 +57,7 @@ $$\dot{s} = -\varepsilon \text{sgn}(s) - ks, \quad \varepsilon > 0, k > 0$$
 Chattering is an inherent issue caused by high-frequency switching:
 
 | Issue | Impact |
-|:---|:---|
+| :--- | :--- |
 | High-frequency switching | Actuator wear |
 | Energy consumption | Reduced efficiency |
 | Thermal effects | Controller overheating |
@@ -65,7 +65,7 @@ Chattering is an inherent issue caused by high-frequency switching:
 ### Suppression Methods
 
 | Method | Principle |
-|:---|:---|
+| :--- | :--- |
 | Boundary layer | Saturated function replaces sign function |
 | Higher-order SMC | Higher-order switching smoothing |
 | Observer-based | Estimate uncertainties to reduce switching |

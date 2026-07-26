@@ -43,7 +43,7 @@ $$I_{sun} = 1361 \pm 1 \text{ W/m}^2$$
 ## Spectral Distribution
 
 | Band | Wavelength | Energy Ratio | Effect on Airship |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | UV | <400 nm | ~7% | Envelope aging |
 | Visible | 400-700 nm | ~47% | Primary heat source |
 | NIR | 700-2500 nm | ~46% | Thermal effect |
@@ -53,7 +53,7 @@ $$I_{sun} = 1361 \pm 1 \text{ W/m}^2$$
 ### Radiation at 20 km
 
 | Component | Intensity | Note |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Direct radiation | ~1100 W/m² | Enhanced transmission |
 | Diffuse radiation | ~50 W/m² | Thin atmosphere |
 | Total radiation | ~1150 W/m² | Higher than ground |
@@ -61,7 +61,7 @@ $$I_{sun} = 1361 \pm 1 \text{ W/m}^2$$
 ## Diurnal Variation
 
 | Period | Radiation Characteristic |
-|:---|:---|
+| :--- | :--- |
 | Noon | Maximum, $T_{He}$ peak |
 | Sunrise/Sunset | Oblique incidence, reduced radiation |
 | Night | No solar radiation, relies on daytime heat storage |

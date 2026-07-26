@@ -27,6 +27,7 @@ image: ./figures/2026-05-13-google-spacex-orbital-data-center/hero.jpg
 ## 双方深度关联
 
 值得关注的是，谷歌与SpaceX之间存在显著的资本与人事关联：
+
 - 谷歌持有SpaceX约6.1%的股份，是SpaceX的外部投资者之一
 - 谷歌高管**唐·哈里森（Don Harrison）**目前担任SpaceX董事会成员
 
@@ -35,6 +36,7 @@ image: ./figures/2026-05-13-google-spacex-orbital-data-center/hero.jpg
 ## 竞争格局：合作与竞争并存
 
 太空数据中心是一个新兴但竞争激烈的领域：
+
 - **SpaceX**于今年初向联邦监管机构提交申请，计划发射多达100万颗卫星以推进其Starlink轨道数据中心愿景
 - **Anthropic**（谷歌投资的AI公司）已表达与SpaceX在轨道数据中心方面开展合作的意向
 - **Cowboy Space**等初创公司也在积极布局该领域
@@ -44,6 +46,7 @@ image: ./figures/2026-05-13-google-spacex-orbital-data-center/hero.jpg
 ## 太空计算的战略意义
 
 轨道数据中心被业界视为缓解地面数据中心土地与能耗瓶颈的潜在解决方案。太空环境的优势包括：
+
 - **近乎无限的电力来源**：太空中太阳能发电效率是地面的数倍，且无昼夜更替
 - **天然冷却条件**：太空低温环境可大幅降低冷却能耗
 - **消除土地成本**：无需占用地面空间

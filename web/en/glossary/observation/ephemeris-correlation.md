@@ -57,7 +57,7 @@ The basic ephemeris correlation workflow is:
 Residuals are the core metric for evaluating ephemeris correlation quality. Sun et al. (2026) performed residual analysis on the correlation results for 8-frame stacked images of the Chang'e-6 orbiter:
 
 | Direction | RMS Residual |
-|:---|:---:|
+| :--- | :---: |
 | Right Ascension (R.A.) | $1.942$ pixels |
 | Declination (decl.) | $1.098$ pixels |
 

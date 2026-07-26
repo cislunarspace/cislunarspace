@@ -18,7 +18,6 @@ wechatShare:
 
 **Summary:** On April 19, 2026, SpaceX successfully completed its 600th Falcon booster landing during the Starlink 17-22 mission from Vandenberg Space Force Base. The mission used booster B1097 (flying for the seventh time), marking the 191st landing on the drone ship "Of Course I Still Love You" and continuing SpaceX's dominance in orbital-class rocket reusability.
 
-
 ## Mission Overview
 
 The originally planned April 18 launch attempt was postponed, with SpaceX typically not disclosing specific reasons for such delays. The mission ultimately launched at 9:03:09 a.m. PDT (12:03:09 pm EDT / 1603:09 UTC) on April 19 from Space Launch Complex 4 East at Vandenberg Space Force Base.

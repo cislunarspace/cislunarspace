@@ -49,7 +49,7 @@ SYDs bear end-to-end management responsibility from requirements analysis to cap
 SYDs and MDs form a closed-loop "demand pull - capability supply" relationship:
 
 | Role | Responsibility | Parent Organization |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Mission Delta (MD) | Articulate operational needs, assess capability gaps, validate delivered systems | Space Operations Command (SpOC) |
 | System Delta (SYD) | Develop capability systems, manage acquisition programs, deploy operational equipment | Space Systems Command (SSC) |
 

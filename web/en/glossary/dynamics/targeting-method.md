@@ -51,7 +51,7 @@ where $\delta \mathbf{x}(t_f)$ is the orbit deviation at the target time, $\Delt
 ## Characteristics
 
 | Feature | Description |
-|:---|:---|
+| :--- | :--- |
 | Control type | Impulse thrust (discrete maneuvers) |
 | Optimality | Minimizes weighted deviation-control trade-off |
 | Robustness | Handles moderate orbit perturbations |

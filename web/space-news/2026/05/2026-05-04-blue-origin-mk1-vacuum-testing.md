@@ -28,8 +28,8 @@ MK1登月器在热真空A舱（Thermal Vacuum Chamber A）完成的测试，是N
 
 MK1（Endurance）是一款无人货运登月器，作为蓝色起源对NASA阿尔忒弥斯计划的商业贡献而研制。本次测试完成后，MK1将携带两项NASA科学技术载荷，执行向月球南极地区的运输任务：
 
-- ** Stereo Cameras for Lunar Plume-Surface Studies **：高分辨率相机阵列，将在降落过程中拍摄发动机羽流与月面的相互作用过程
-- ** Laser Retroreflective Array **：激光后向反射器阵列，用于帮助轨道飞行器利用激光反射精确定位自身位置
+- **Stereo Cameras for Lunar Plume-Surface Studies**：高分辨率相机阵列，将在降落过程中拍摄发动机羽流与月面的相互作用过程
+- **Laser Retroreflective Array**：激光后向反射器阵列，用于帮助轨道飞行器利用激光反射精确定位自身位置
 
 CLPS计划是NASA通过商业合作伙伴向月球运送科学仪器与技术演示装置的核心项目，旨在推进对月球环境的认知，并为未来的载人阿尔忒弥斯任务提供支撑。
 

@@ -28,7 +28,7 @@ permalink: /en/glossary/other/cislunar-navigation-prospects/
 >
 > Author: Tianjiang Talk
 >
-> Editor's source: https://cislunarspace.cn
+> Editor's source: <https://cislunarspace.cn>
 
 ## Development Evolution Direction
 
@@ -73,7 +73,7 @@ The development of cislunar navigation technology will provide a technical found
 Taking cislunar hybrid navigation as the core development direction, achieving rapid breakthroughs in weak-signal navigation, supported by inter-satellite links, and building lunar-specific navigation constellations over the long term, represents the optimal development pathway balancing technical feasibility, cost control, and mission requirements.
 
 | Phase | Key Focus Areas |
-|:---|:---|
+| :--- | :--- |
 | Near-term | GNSS weak-signal navigation (low cost, quick results, suitable for basic navigation and emergency backup) |
 | Mid-term | Cislunar hybrid navigation (5-10 years, primary solution for crewed lunar landing and lunar scientific research station) |
 | Long-term | Lunar navigation constellation (lunar base construction, resource development, sustained presence) |

@@ -58,7 +58,7 @@ GDMS is a significant supplier of tactical communications and satellite ground s
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Tactical Communications System | Communications Hardware | Military satellite communications ground stations and radios |
 | Intelligence Processing Platform | Software System | SIGINT and IMINT data processing |
 | Cybersecurity Solutions | Security System | Anti-cyberattack and secure communications |
@@ -79,6 +79,6 @@ GDMS's contributions to the cislunar space domain are primarily at the infrastru
 
 ## References
 
-- General Dynamics Mission Systems Official Website: https://www.gd.com
+- General Dynamics Mission Systems Official Website: <https://www.gd.com>
 - SpaceNews, "General Dynamics wins SDA ground system contract", 2024.
 - China's Ministry of Commerce Announcement No. 1, January 2, 2025.

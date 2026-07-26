@@ -13,7 +13,7 @@
   background: linear-gradient(165deg, #f0f9ff 0%, #f8fafc 38%, #ffffff 100%);
 }
 
-html[data-chat-theme="dark"] .ai-chat-layout {
+html[data-chat-theme='dark'] .ai-chat-layout {
   background: linear-gradient(165deg, #0c1222 0%, #0f172a 45%, #111827 100%);
 }
 
@@ -28,7 +28,7 @@ html[data-chat-theme="dark"] .ai-chat-layout {
 .ai-chat-layout .page-nav,
 .ai-chat-layout .page-meta,
 .ai-chat-layout .page-footer,
-.ai-chat-layout [class*="page-bottom"],
+.ai-chat-layout [class*='page-bottom'],
 .ai-chat-layout .theme-default-content h1 {
   display: none !important;
 }

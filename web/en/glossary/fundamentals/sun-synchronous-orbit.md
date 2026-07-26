@@ -45,7 +45,7 @@ Since $\cos i < 0$, the inclination of a sun-synchronous orbit is always greater
 ### Inclination-Altitude Relationship
 
 | Orbit Altitude | Inclination |
-|:---|:---|
+| :--- | :--- |
 | 200 km | ~96° |
 | 500 km | ~97.4° |
 | 800 km | ~98.8° |
@@ -57,7 +57,7 @@ Higher inclinations correspond to greater orbit altitudes, but an upper altitude
 ### Orbital Characteristics
 
 | Characteristic | Description |
-|:---|:---|
+| :--- | :--- |
 | Stable illumination conditions | The angle between the Sun direction vector and the orbit plane varies only slightly |
 | Consistent local solar time | When passing over the same ground target in the same direction, the local illumination conditions remain nearly constant |
 | No maneuver required | Synchronization with the Sun is achieved through natural perturbation |

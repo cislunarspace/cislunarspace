@@ -35,7 +35,7 @@ A lunar lander is a spacecraft specifically designed to perform soft landing on 
 ### By Purpose
 
 | Type | Description | Representative Examples |
-|-----|------|---------|
+| ----- | ------ | --------- |
 | Crewed Lander | Transports astronauts to the lunar surface | Artemis HLS Starship |
 | Robotic Lander | Autonomously performs surface missions | Chang'e series, Chandrayaan series |
 | Cargo Lander | Transports supplies and equipment | Future commercial lunar cargo |
@@ -87,7 +87,7 @@ The Apollo Lunar Module is humanity's most successful crewed lunar lander:
 ### 21st Century Lunar Exploration
 
 | Year | Country/Mission | Mission | Result |
-|-----|----------|------|-----|
+| ----- | ---------- | ------ | ----- |
 | 2013 | China | Chang'e 3 | Successful soft landing |
 | 2019 | Israel | Beresheet | Landing failure |
 | 2019 | India | Chandrayaan-2 | Landing failure |

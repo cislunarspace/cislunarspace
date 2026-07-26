@@ -39,7 +39,7 @@ $$\Delta\beta_{kc} = \frac{\partial\beta_{kc}}{\partial v_k}\Delta v_k + \frac{\
 ### 误差系数类型
 
 | 类型 | 符号 | 含义 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 纵向误差系数 | $\partial\beta_{kc}/\partial v_k$ | 速度大小偏差引起的射程偏差 |
 | 纵向误差系数 | $\partial\beta_{kc}/\partial\Theta_k$ | 速度倾角偏差引起的射程偏差 |
 | 纵向误差系数 | $\partial\beta_{kc}/\partial r_k$ | 地心距偏差引起的射程偏差 |
@@ -68,7 +68,7 @@ $$\frac{\partial\zeta_c}{\partial\alpha_k} = \sin\beta_{kc}, \quad \frac{\partia
 ### 误差系数的特性
 
 | 特性 | 说明 |
-|:---|:---|
+| :--- | :--- |
 | 最佳速度倾角处 | $\partial\beta_{ke}/\partial\Theta_k = 0$，速度倾角偏差不引起射程偏差 |
 | 速度大小误差系数 | $\gamma_k$ 越大，$\partial L_{ke}/\partial v_k$ 越大 |
 | 二阶误差 | 远程导弹的二阶误差系数不可忽略 |

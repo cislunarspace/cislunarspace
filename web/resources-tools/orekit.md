@@ -17,7 +17,7 @@ Orekit 是用 Java 编写的底层航天飞行动力学库，由 CS GROUP 维护
 
 - **许可证**：Apache License 2.0
 - **来源**：ESA / CS GROUP
-- **官方文档**：https://www.orekit.org/
+- **官方文档**：<https://www.orekit.org/>
 - **语言**：Java 8+
 - **数学依赖**：Hipparchus 4.0.3
 
@@ -37,7 +37,7 @@ Orekit 是用 Java 编写的底层航天飞行动力学库，由 CS GROUP 维护
 
 ## 官方资源
 
-- 官网：https://www.orekit.org/
-- GitLab：https://gitlab.orekit.org/orekit/orekit
-- GitHub 镜像：https://github.com/CS-SI/Orekit
+- 官网：<https://www.orekit.org/>
+- GitLab：<https://gitlab.orekit.org/orekit/orekit>
+- GitHub 镜像：<https://github.com/CS-SI/Orekit>
 - Python 封装：JCC / JPype

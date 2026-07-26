@@ -51,6 +51,7 @@ Q-law基于李雅普诺夫稳定性理论：
 $$Q(Z) = (1 + W_P P) \sum_{i=1}^{5} W_i S_i \left(\frac{\delta Z_i}{\max_L(\dot{X}_i)}\right)^2$$
 
 其中：
+
 - $W_i$：各轨道元素的权重
 - $P$：罚函数项
 - $S_i$：塑形函数

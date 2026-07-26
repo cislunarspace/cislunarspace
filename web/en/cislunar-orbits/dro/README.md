@@ -37,7 +37,7 @@ In the Earth-Moon rotating frame, a DRO's orbital morphology is approximately el
 ## Comparison with NRHO
 
 | Property | DRO | NRHO |
-|----------|-----|------|
+| ---------- | ----- | ------ |
 | Orbital distance | Large (0.5-2× Earth-Moon distance) | Near L1/L2 points |
 | Retrograde/prograde | Retrograde ($\dot{\theta} < 0$) | Near-rectilinear (mixed) |
 | Intrinsic stability | Higher | Moderate |
@@ -49,6 +49,7 @@ In the Earth-Moon rotating frame, a DRO's orbital morphology is approximately el
 ## Orbit Family Classification
 
 DROs can also be classified by their libration point into L1 DRO and L2 DRO families:
+
 - **L1 DRO**: Located inside the L1 point (toward Earth), with a smaller orbital radius
 - **L2 DRO**: Located outside the L2 point (away from Earth), with a larger orbital radius
 
@@ -57,6 +58,7 @@ Additionally, DROs exist in two north-south symmetric families, located on the n
 ## Mission Applications
 
 The primary engineering applications of DROs include:
+
 1. **Cislunar space staging**: Serving as a fuel-efficient waypoint for deep space missions
 2. **Contingency return trajectories**: A low ΔV corridor from DRO to atmospheric reentry
 3. **Relay and communications**: For missions with high field-of-view coverage requirements

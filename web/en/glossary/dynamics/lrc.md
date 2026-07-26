@@ -39,7 +39,7 @@ In the Circular Restricted Three-Body Problem, LRC simplifies to the L2 Libratio
 ## Coordinate Axis Definition
 
 | Axis | Direction | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **$x_2$ axis** | Parallel to GRC x-axis | Along Earth-Moon line direction |
 | **$z_2$ axis** | Parallel to GRC z-axis | Points toward instantaneous lunar orbital angular momentum direction |
 | **$y_2$ axis** | $x_2 \times z_2$ | Forms right-handed system with $x_2$, $z_2$ |
@@ -76,7 +76,7 @@ Transformation between LRC and J2000 geocentric inertial coordinate system requi
 ## Difference Between LRC and L2 Libration Point Synodic Coordinate System
 
 | Coordinate System | Origin Position | Angular Velocity |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **LRC** | Instantaneous L2 point (varies with time) | Varies with lunar orbit |
 | **L2 Synodic Coordinate System** | Fixed L2 point under CR3BP conditions | Constant (CR3BP assumption) |
 

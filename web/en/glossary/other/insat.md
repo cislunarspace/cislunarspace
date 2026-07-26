@@ -37,7 +37,7 @@ The Indian National Satellite (INSAT) system is a multi-purpose communications s
 ## System Evolution
 
 | Generation | First Launch | Primary Functions |
-|------------|-------------|-------------------|
+| ------------ | ------------- | ------------------- |
 | First Generation | 1983 | Communications, meteorology |
 | Second Generation | 1992 | Communications, enhanced meteorology |
 | Third Generation | 2000s | Broadband communications, digital multimedia |

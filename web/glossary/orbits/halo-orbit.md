@@ -54,7 +54,7 @@ $$T \approx T_0 + \alpha A_z^2$$
 根据地月系统中的平动点位置，Halo 轨道可分为以下族：
 
 | 轨道族 | 所属平动点 | 特征 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | H1（Halo L1） | L1 | 位于地月连线之间，周期约 7.8 ~ 13.6 天 |
 | H2（Halo L2） | L2 | 位于月球背向地球一侧，周期约 4.0 ~ 14.8 天 |
 | H3（Halo L3） | L3 | 位于地球背向月球一侧，周期约 22.6 ~ 27.1 天 |
@@ -64,7 +64,7 @@ $$T \approx T_0 + \alpha A_z^2$$
 以地月系统为例，Halo 轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
 
 | 轨道族 | Jacobi 常数范围 | 周期范围（天） | 稳定性指数范围 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | H1 | -1.0159 ~ 3.1743 | 7.83 ~ 13.56 | 1.0 ~ 1180.5 |
 | H2 | 3.0152 ~ 3.1519 | 4.00 ~ 14.83 | 1.0 ~ 603.9 |
 | H3 | 1.0519 ~ 2.4221 | 22.57 ~ 27.09 | 1.0 ~ 1.38 |
@@ -103,6 +103,7 @@ Halo 轨道在地月空间任务中具有核心应用价值：
 - **长期基础设施选址**：在 Guzzetti 等人提出的动态目录分析中，L1/L2 Halo 轨道因其适中的周期和稳定性特征被列为月球附近长期基础设施的候选轨道族
 
 ## 相关概念
+
 - [地月 L1/L2 Halo 轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
@@ -113,6 +114,7 @@ Halo 轨道在地月空间任务中具有核心应用价值：
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Farquhar R W. The utilization of halo orbits in advanced lunar operations[R]. NASA, 1971.
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.

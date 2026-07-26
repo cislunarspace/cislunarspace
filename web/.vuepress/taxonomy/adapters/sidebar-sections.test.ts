@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest'
-import { buildAllSectionSidebars, buildSectionSidebar } from './sidebar-sections'
-import { createTaxonomyModule } from '../module'
-import type { TaxonomyNode } from '../types'
+import { describe, expect, it } from 'vitest';
+import { buildAllSectionSidebars, buildSectionSidebar } from './sidebar-sections';
+import { createTaxonomyModule } from '../module';
+import type { TaxonomyNode } from '../types';
 
 /**
  * Minimal fixture with two sections:
@@ -72,48 +72,48 @@ const fixtureNodes: TaxonomyNode[] = [
     order: 10,
     parentId: 'research',
   },
-]
+];
 
-const fixtureModule = createTaxonomyModule(fixtureNodes)
+const fixtureModule = createTaxonomyModule(fixtureNodes);
 
 describe('sidebar-sections adapter', () => {
   it('builds all section sidebars from the fixture taxonomy', () => {
-    const sections = buildAllSectionSidebars(fixtureModule)
-    expect(Object.keys(sections).sort()).toEqual(['orbits', 'research'])
-  })
+    const sections = buildAllSectionSidebars(fixtureModule);
+    expect(Object.keys(sections).sort()).toEqual(['orbits', 'research']);
+  });
 
   it('section sidebar has the correct root text for each locale', () => {
-    const sections = buildAllSectionSidebars(fixtureModule)
-    expect(sections.orbits.zh.text).toBe('轨道')
-    expect(sections.orbits.en.text).toBe('Orbits')
-  })
+    const sections = buildAllSectionSidebars(fixtureModule);
+    expect(sections.orbits.zh.text).toBe('轨道');
+    expect(sections.orbits.en.text).toBe('Orbits');
+  });
 
   it('uses zh/en locale paths for the same section tree', () => {
-    const zh = buildSectionSidebar('orbits', 'zh', fixtureModule)
-    const en = buildSectionSidebar('orbits', 'en', fixtureModule)
+    const zh = buildSectionSidebar('orbits', 'zh', fixtureModule);
+    const en = buildSectionSidebar('orbits', 'en', fixtureModule);
 
     // First child is the index page path.
-    expect(zh.children?.[0]).toBe('/orbits/')
-    expect(en.children?.[0]).toBe('/en/orbits/')
-  })
+    expect(zh.children?.[0]).toBe('/orbits/');
+    expect(en.children?.[0]).toBe('/en/orbits/');
+  });
 
   it('preserves sibling ordering from the taxonomy source', () => {
-    const sidebar = buildSectionSidebar('orbits', 'zh', fixtureModule)
-    const children = sidebar.children ?? []
+    const sidebar = buildSectionSidebar('orbits', 'zh', fixtureModule);
+    const children = sidebar.children ?? [];
 
     // children[0] = root.path (prepended by adapter)
     // children[1..] = buildTree results (index, group, leaf page)
-    expect(children[0]).toBe('/orbits/')
-    expect(children[1]).toBe('/orbits/') // index node
-    expect((children[2] as { text: string }).text).toBe('近地轨道')
-    expect(children[3]).toBe('/orbits/deep-space/')
-  })
+    expect(children[0]).toBe('/orbits/');
+    expect(children[1]).toBe('/orbits/'); // index node
+    expect((children[2] as { text: string }).text).toBe('近地轨道');
+    expect(children[3]).toBe('/orbits/deep-space/');
+  });
 
   it('group contains its child pages', () => {
-    const sidebar = buildSectionSidebar('orbits', 'zh', fixtureModule)
-    const children = sidebar.children ?? []
-    const group = children[2] as { text: string; children: unknown[] }
-    expect(group.text).toBe('近地轨道')
-    expect(group.children).toContain('/orbits/near-earth/leo/')
-  })
-})
+    const sidebar = buildSectionSidebar('orbits', 'zh', fixtureModule);
+    const children = sidebar.children ?? [];
+    const group = children[2] as { text: string; children: unknown[] };
+    expect(group.text).toBe('近地轨道');
+    expect(group.children).toContain('/orbits/near-earth/leo/');
+  });
+});

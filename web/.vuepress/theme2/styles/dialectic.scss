@@ -47,10 +47,12 @@ $dialectic-dark-accent-hover: #d4b892;
   height: 100vh;
   background: var(--dialectic-bg);
   color: var(--dialectic-text);
-  font-family: "Songti SC", "SimSun", "Noto Serif SC", Georgia, serif;
+  font-family: 'Songti SC', 'SimSun', 'Noto Serif SC', Georgia, serif;
   overflow: hidden;
 
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     box-sizing: border-box;
   }
 
@@ -144,8 +146,12 @@ $dialectic-dark-accent-hover: #d4b892;
     cursor: pointer;
     transition: background 0.2s;
 
-    &:last-child { border-bottom: none; }
-    &:hover { background: rgba(109, 76, 65, 0.06); }
+    &:last-child {
+      border-bottom: none;
+    }
+    &:hover {
+      background: rgba(109, 76, 65, 0.06);
+    }
 
     .report-info {
       display: flex;
@@ -209,7 +215,7 @@ $dialectic-dark-accent-hover: #d4b892;
     line-height: 1.9;
     color: var(--dialectic-text);
     margin: 0;
-    font-family: "Songti SC", "SimSun", "Noto Serif SC", Georgia, serif;
+    font-family: 'Songti SC', 'SimSun', 'Noto Serif SC', Georgia, serif;
   }
 
   .report-not-found {
@@ -275,7 +281,7 @@ $dialectic-dark-accent-hover: #d4b892;
     font-size: 0.85rem;
     color: var(--dialectic-text-secondary);
     letter-spacing: 0.05em;
-    font-family: "Songti SC", "SimSun", serif;
+    font-family: 'Songti SC', 'SimSun', serif;
   }
 }
 
@@ -303,8 +309,14 @@ $dialectic-dark-accent-hover: #d4b892;
 }
 
 @keyframes cardEnter {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .card-header {
@@ -355,7 +367,7 @@ $dialectic-dark-accent-hover: #d4b892;
   background: #fffdf8;
   color: var(--dialectic-text);
   font-size: 0.95rem;
-  font-family: "Songti SC", "SimSun", "Noto Serif SC", Georgia, serif;
+  font-family: 'Songti SC', 'SimSun', 'Noto Serif SC', Georgia, serif;
   line-height: 1.8;
   resize: vertical;
   transition: border-color 0.2s;
@@ -425,11 +437,13 @@ $dialectic-dark-accent-hover: #d4b892;
     border: 1px solid var(--dialectic-border);
     border-radius: var(--dialectic-radius-md);
     cursor: pointer;
-    transition: background 0.2s, border-color 0.2s;
+    transition:
+      background 0.2s,
+      border-color 0.2s;
     font-size: 0.95rem;
     color: var(--dialectic-text);
 
-    input[type="radio"] {
+    input[type='radio'] {
       accent-color: var(--dialectic-accent);
       width: 16px;
       height: 16px;
@@ -556,12 +570,21 @@ $dialectic-dark-accent-hover: #d4b892;
   border: none;
   border-radius: var(--dialectic-radius-md);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
-  transition: background 0.2s, transform 0.1s;
+  font-family: 'Songti SC', 'SimSun', serif;
+  transition:
+    background 0.2s,
+    transform 0.1s;
 
-  &:hover { background: var(--dialectic-accent-hover); }
-  &:active { transform: scale(0.98); }
-  &:disabled { opacity: 0.5; cursor: not-allowed; }
+  &:hover {
+    background: var(--dialectic-accent-hover);
+  }
+  &:active {
+    transform: scale(0.98);
+  }
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 }
 
 .btn-secondary {
@@ -573,10 +596,12 @@ $dialectic-dark-accent-hover: #d4b892;
   border: 1.5px solid var(--dialectic-accent);
   border-radius: var(--dialectic-radius-md);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
   transition: background 0.2s;
 
-  &:hover { background: rgba(109, 76, 65, 0.08); }
+  &:hover {
+    background: rgba(109, 76, 65, 0.08);
+  }
 }
 
 .btn-text {
@@ -586,9 +611,11 @@ $dialectic-dark-accent-hover: #d4b892;
   font-size: 0.9rem;
   cursor: pointer;
   padding: 0.25rem 0.5rem;
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
 
-  &:hover { color: var(--dialectic-accent); }
+  &:hover {
+    color: var(--dialectic-accent);
+  }
 }
 
 .btn-delete {
@@ -598,9 +625,11 @@ $dialectic-dark-accent-hover: #d4b892;
   font-size: 0.88rem;
   cursor: pointer;
   padding: 0.25rem 0.5rem;
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
 
-  &:hover { color: #c0392b; }
+  &:hover {
+    color: #c0392b;
+  }
 }
 
 .btn-home {
@@ -614,10 +643,12 @@ $dialectic-dark-accent-hover: #d4b892;
   cursor: pointer;
   padding: 0.4rem 0.6rem;
   border-radius: var(--dialectic-radius-sm);
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
   transition: background 0.2s;
 
-  &:hover { background: rgba(109, 76, 65, 0.08); }
+  &:hover {
+    background: rgba(109, 76, 65, 0.08);
+  }
 }
 
 .btn-back {
@@ -628,10 +659,12 @@ $dialectic-dark-accent-hover: #d4b892;
   cursor: pointer;
   padding: 0.4rem 0.75rem;
   border-radius: var(--dialectic-radius-sm);
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
   transition: background 0.2s;
 
-  &:hover { background: rgba(109, 76, 65, 0.08); }
+  &:hover {
+    background: rgba(109, 76, 65, 0.08);
+  }
 }
 
 .btn-primary-sm {
@@ -643,10 +676,12 @@ $dialectic-dark-accent-hover: #d4b892;
   border: none;
   border-radius: var(--dialectic-radius-sm);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
   transition: background 0.2s;
 
-  &:hover { background: var(--dialectic-accent-hover); }
+  &:hover {
+    background: var(--dialectic-accent-hover);
+  }
 }
 
 .btn-secondary-sm {
@@ -658,10 +693,12 @@ $dialectic-dark-accent-hover: #d4b892;
   border: 1.5px solid var(--dialectic-border);
   border-radius: var(--dialectic-radius-sm);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
   transition: background 0.2s;
 
-  &:hover { background: rgba(109, 76, 65, 0.08); }
+  &:hover {
+    background: rgba(109, 76, 65, 0.08);
+  }
 }
 
 .btn-prev {
@@ -673,8 +710,10 @@ $dialectic-dark-accent-hover: #d4b892;
   border: 1px solid var(--dialectic-border);
   border-radius: var(--dialectic-radius-md);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
-  transition: background 0.2s, border-color 0.2s;
+  font-family: 'Songti SC', 'SimSun', serif;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
 
   &:hover {
     background: rgba(109, 76, 65, 0.06);
@@ -692,11 +731,17 @@ $dialectic-dark-accent-hover: #d4b892;
   border: none;
   border-radius: var(--dialectic-radius-md);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
-  transition: background 0.2s, transform 0.1s;
+  font-family: 'Songti SC', 'SimSun', serif;
+  transition:
+    background 0.2s,
+    transform 0.1s;
 
-  &:hover { background: var(--dialectic-accent-hover); }
-  &:active { transform: scale(0.99); }
+  &:hover {
+    background: var(--dialectic-accent-hover);
+  }
+  &:active {
+    transform: scale(0.99);
+  }
 }
 
 .btn-prev-sm {
@@ -707,10 +752,12 @@ $dialectic-dark-accent-hover: #d4b892;
   border: 1px solid var(--dialectic-border);
   border-radius: var(--dialectic-radius-sm);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
   transition: background 0.2s;
 
-  &:hover { background: rgba(109, 76, 65, 0.06); }
+  &:hover {
+    background: rgba(109, 76, 65, 0.06);
+  }
 }
 
 .btn-submit-sm {
@@ -721,10 +768,12 @@ $dialectic-dark-accent-hover: #d4b892;
   border: none;
   border-radius: var(--dialectic-radius-sm);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
+  font-family: 'Songti SC', 'SimSun', serif;
   transition: background 0.2s;
 
-  &:hover { background: var(--dialectic-accent-hover); }
+  &:hover {
+    background: var(--dialectic-accent-hover);
+  }
 }
 
 .ai-assist-btn {
@@ -736,8 +785,10 @@ $dialectic-dark-accent-hover: #d4b892;
   border: 1px solid var(--dialectic-border);
   border-radius: var(--dialectic-radius-md);
   cursor: pointer;
-  font-family: "Songti SC", "SimSun", serif;
-  transition: background 0.2s, border-color 0.2s;
+  font-family: 'Songti SC', 'SimSun', serif;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
 
   &:hover {
     background: rgba(109, 76, 65, 0.08);

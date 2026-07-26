@@ -56,7 +56,7 @@ permalink: /glossary/orbits/horseshoe-orbit/
 以地月系统为例，马蹄轨道的主要参数特征如下（基于 Guzzetti 等人的动态目录统计）：
 
 | 参数 | 典型范围 |
-|:---|:---|
+| :--- | :--- |
 | Jacobi 常数 | 约 2.5 |
 | 稳定性指数 | 中等偏高 |
 | 轨道周期 | 较长（数十至上百天） |
@@ -89,6 +89,7 @@ permalink: /glossary/orbits/horseshoe-orbit/
 - **任务设计参考**：作为平动点轨道分类体系的重要组成部分，马蹄轨道为设计覆盖大范围地月空间的任务轨迹提供了参考
 
 ## 相关概念
+
 - [短周期轨道（Short Period Orbit）](/glossary/orbits/short-period-orbit/)
 - [长周期轨道（Long Period Orbit）](/glossary/orbits/long-period-orbit/)
 - [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
@@ -96,6 +97,7 @@ permalink: /glossary/orbits/horseshoe-orbit/
 - [三角平动点（Triangular Libration Points）](/glossary/orbits/triangular-libration-points/)
 
 ## 参考文献
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Yarnoz D G, Sanchez J P, McInnes C R. Pure opportunities for asteroid retrieval missions[M]. Asteroids. Springer Berlin Heidelberg, 2013: 447-466.

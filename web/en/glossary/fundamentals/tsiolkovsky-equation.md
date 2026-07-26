@@ -35,6 +35,7 @@ The Tsiolkovsky rocket equation is the fundamental equation of rocket dynamics. 
 $$\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_f}$$
 
 where:
+
 - $\Delta v$: velocity increment
 - $I_{sp}$: engine specific impulse
 - $g_0$: standard gravitational acceleration (9.80665 m/s^2)

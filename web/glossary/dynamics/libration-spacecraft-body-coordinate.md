@@ -37,7 +37,7 @@ permalink: /glossary/dynamics/libration-spacecraft-body-coordinate/
 ## 坐标轴定义
 
 | 轴 | 名称 | 方向 | 说明 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | **X_b** | 滚动轴（Roll） | 沿飞行器某一特征轴方向 | 描述绕纵轴的旋转 |
 | **Y_b** | 俯仰轴（Pitch） | 沿飞行器另一特征轴方向 | 描述绕横轴的旋转 |
 | **Z_b** | 偏航轴（Yaw） | 沿飞行器第三特征轴方向 | 描述绕竖轴的旋转 |
@@ -69,7 +69,7 @@ $$\mathbf{y}_{\text{measured}} = \mathbf{R}_{b \to i} \cdot \mathbf{y}_{\text{bo
 ## 姿态控制术语
 
 | 术语 | 英文 | 描述 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 滚动 | Roll | 绕 X_b 轴的旋转 |
 | 俯仰 | Pitch | 绕 Y_b 轴的旋转 |
 | 偏航 | Yaw | 绕 Z_b 轴的旋转 |

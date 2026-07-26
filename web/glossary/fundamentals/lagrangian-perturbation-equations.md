@@ -41,7 +41,7 @@ $$\left\{\begin{array}{l} \dot{a} = \frac{2}{na}\frac{\partial R}{\partial M} \\
 ### 对称性特点
 
 | 轨道根数组 | 变化率依赖的偏导数 |
-|:---|:---|
+| :--- | :--- |
 | 前三个：$\dot{a}$、$\dot{e}$、$\dot{i}$ | 仅与 $\partial R/\partial\Omega$、$\partial R/\partial\omega$、$\partial R/\partial M$ 有关 |
 | 后三个：$\dot{\Omega}$、$\dot{\omega}$、$\dot{M}$ | 仅与 $\partial R/\partial a$、$\partial R/\partial e$、$\partial R/\partial i$ 有关 |
 
@@ -50,7 +50,7 @@ $$\left\{\begin{array}{l} \dot{a} = \frac{2}{na}\frac{\partial R}{\partial M} \\
 ### 与高斯型方程的比较
 
 | 特性 | 高斯型 | 拉格朗日型 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 适用摄动力 | 任意（保守+非保守） | 仅保守力 |
 | 输入量 | 摄动加速度三分量 | 摄动势函数偏导数 |
 | 物理揭示 | 直接反映力的作用 | 揭示势函数与轨道变化的关系 |

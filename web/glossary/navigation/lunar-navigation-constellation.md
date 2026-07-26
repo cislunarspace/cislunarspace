@@ -28,7 +28,7 @@ permalink: /glossary/navigation/lunar-navigation-constellation/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 背景与基本原理
 
@@ -51,7 +51,7 @@ permalink: /glossary/navigation/lunar-navigation-constellation/
 ## 性能与应用
 
 | 指标 | 性能 |
-|:---|:---|
+| :--- | :--- |
 | 定位精度 | 全月面亚米级至 1 米 |
 | 覆盖范围 | 全月面 + 近月全域 |
 | 系统可靠性 | 高 |
@@ -96,8 +96,8 @@ permalink: /glossary/navigation/lunar-navigation-constellation/
 
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
-- 地月混合导航
-- 星间链路导航
+- [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
 - 鹊桥中继卫星
 
 ## 参考文献

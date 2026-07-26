@@ -32,7 +32,7 @@ tags:
 According to data from CNSA and CAS Space, China's space launch frequency has grown by leaps and bounds from 2024 to 2026:
 
 | Year | Total Launches | Notes |
-|------|--------------|-------|
+| ------ | -------------- | ------- |
 | 2024 | 68 | — |
 | 2025 | 92 | All-time high |
 | 2026 (target) | ~140 | ~52% YoY increase |

@@ -13,7 +13,7 @@
  */
 
 /** Stable, locale-independent identity for a taxonomy node. */
-export type NodeId = string
+export type NodeId = string;
 
 /**
  * Open enum — new kinds may be added without an ADR amendment.
@@ -28,25 +28,25 @@ export type NodeKind =
   | 'news-category'
   | 'navbar-root'
   | 'navbar-link'
-  | 'external-link'
+  | 'external-link';
 
 export interface LocalePath {
-  zh: string | null
-  en: string | null
+  zh: string | null;
+  en: string | null;
 }
 
 export interface TaxonomyNode {
   /** Stable identity. Never reused after rename — renames mean new id + redirect. */
-  id: NodeId
-  kind: NodeKind
-  label: { zh: string; en: string }
-  path: LocalePath
+  id: NodeId;
+  kind: NodeKind;
+  label: { zh: string; en: string };
+  path: LocalePath;
   /** Explicit locale gating. Undefined = present in both. */
-  locales?: Array<'zh' | 'en'>
+  locales?: Array<'zh' | 'en'>;
   /** Sibling sort order. Lower = earlier. Stable within parent. */
-  order: number
+  order: number;
   /** Parent node id, or null for roots. */
-  parentId: NodeId | null
+  parentId: NodeId | null;
   /**
    * Adapter-specific metadata:
    *   - `meta.href` for external-link navbar items
@@ -54,24 +54,24 @@ export interface TaxonomyNode {
    *   - `meta.collapsible` for sidebar groups
    *   - `meta.indexLink: true` for an index-page sibling within a sidebar group
    */
-  meta?: Record<string, unknown>
+  meta?: Record<string, unknown>;
 }
 
-export type Locale = 'zh' | 'en'
+export type Locale = 'zh' | 'en';
 
 export interface TaxonomyModule {
   /** All nodes, in deterministic order (by id ascending). */
-  all(): readonly TaxonomyNode[]
+  all(): readonly TaxonomyNode[];
 
   /** Get one node by id. Throws if absent. */
-  get(id: NodeId): TaxonomyNode
+  get(id: NodeId): TaxonomyNode;
 
   /**
    * Children of a node, already sorted by `order` (ties broken by id) and
    * filtered by locale gating.
    */
-  children(parentId: NodeId | null, locale: Locale): readonly TaxonomyNode[]
+  children(parentId: NodeId | null, locale: Locale): readonly TaxonomyNode[];
 
   /** Filter by kind, optionally within a parent. */
-  byKind(kind: NodeKind, parentId?: NodeId | null): readonly TaxonomyNode[]
+  byKind(kind: NodeKind, parentId?: NodeId | null): readonly TaxonomyNode[];
 }

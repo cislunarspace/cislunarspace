@@ -42,4 +42,3 @@ The Circular Restricted Three-Body Problem (CRTBP) is one of the most fundamenta
 - Spatial Elliptic Restricted Three-Body Problem Model
 
 ## References
-

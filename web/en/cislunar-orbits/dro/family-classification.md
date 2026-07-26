@@ -14,7 +14,7 @@ wechatShare:
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)
 >
-> Source: https://cislunarspace.cn
+> Source: <https://cislunarspace.cn>
 
 # DRO Family Classification
 
@@ -27,7 +27,7 @@ The DRO family can be divided into two categories based on the libration point t
 **L2 DRO**: The orbit center is near the L2 point, with an x-coordinate of approximately $x_{L2} \approx 1.166$. L2 DROs generally have larger orbital radii, ranging from 0.8 to 2.0 times the Earth-Moon distance.
 
 | Property | L1 DRO | L2 DRO |
-|----------|--------|--------|
+| ---------- | -------- | -------- |
 | Libration point position (dimensionless x) | $x \approx 0.836$ | $x \approx 1.166$ |
 | Orbital radius range | 0.5-0.8 Earth-Moon distances | 0.8-2.0 Earth-Moon distances |
 | Typical period | 8-15 days | 12-25 days |
@@ -39,7 +39,7 @@ The DRO family can be divided into two categories based on the libration point t
 There is a one-to-one correspondence between DRO period and the Jacobi constant $C_J$. Typical DRO parameters:
 
 | Parameter | L1 DRO | L2 DRO |
-|----------|--------|--------|
+| ---------- | -------- | -------- |
 | Period range | 8-15 days | 12-25 days |
 | Semi-major axis $A_x$ | 20,000-50,000 km | 50,000-100,000 km |
 | Amplitude $A_z$ | 5,000-20,000 km | 10,000-40,000 km |

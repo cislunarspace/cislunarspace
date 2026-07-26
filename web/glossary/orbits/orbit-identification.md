@@ -41,7 +41,7 @@ permalink: /glossary/orbits/orbit-identification/
 轨道辨识与轨道设计是**互逆**的两个过程：
 
 | 过程 | 输入 | 输出 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **轨道设计** | 参考轨道的物理参数（周期、振幅等） | 在星历模型下的实际轨道（数值积分） |
 | **轨道辨识** | 观测到的实际轨道状态序列 | 对应的 CR3BP 参考轨道及其物理参数 |
 
@@ -101,7 +101,7 @@ Qiao et al. (2025) 对影响轨道辨识的两大因素进行了系统性分析�
 ### 1. 观测弧段长度
 
 | 弧段长度 | 辨识结果特征 |
-|:---|:---|
+| :--- | :--- |
 | 短弧（1小时） | 结果分散，主要沿等能量线分布，代表"瞬时轨道" |
 | 长弧（1个月） | 结果收敛至参考轨道，代表"平均轨道" |
 
@@ -150,7 +150,7 @@ Qiao et al. (2025) 对影响轨道辨识的两大因素进行了系统性分析�
 - [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
 - [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- 地月空间态势感知（Cislunar Space Situational Awareness）
+- [地月空间态势感知（Cislunar Space Situational Awareness）](/glossary/doctrine/cislunar-space-situational-awareness/)
 - 参考轨道（Reference Orbit）
 - 非合作目标（Non-cooperative Target）
 

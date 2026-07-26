@@ -69,7 +69,7 @@ The establishment of SPAFORGEN marks a significant cultural shift within the Spa
 SPAFORGEN draws from force generation experience across other services but is specifically adapted for space operations:
 
 | Dimension | Army ARFORGEN | Air Force AFFORGEN | Space Force SPAFORGEN |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Cycle Length | ~24 months | ~24 months | Flexible per mission domain |
 | Phases | Train-Deploy-Reset | Prepare-Ready-Commit-Reset | Prepare-Ready-Commit |
 | Core Difference | Brigade Combat Team units | Air Expeditionary Force units | Mission Delta units |

@@ -10,35 +10,35 @@
  * the title / description / image / locale / siteName rules live.
  */
 
-const DEFAULT_SITE_BASE_URL = 'https://cislunarspace.cn'
-const DEFAULT_IMAGE_PATH = '/logo.png'
+const DEFAULT_SITE_BASE_URL = 'https://cislunarspace.cn';
+const DEFAULT_IMAGE_PATH = '/logo.png';
 
 /** @param {unknown} value */
 function toStringValue(value) {
-  return typeof value === 'string' ? value : ''
+  return typeof value === 'string' ? value : '';
 }
 
 /** @param {string} path @returns {'zh-CN' | 'en-US'} */
 function resolveLocale(path) {
-  return path.startsWith('/en/') ? 'en-US' : 'zh-CN'
+  return path.startsWith('/en/') ? 'en-US' : 'zh-CN';
 }
 
 /** @param {'zh-CN' | 'en-US'} locale */
 function resolveSiteName(locale) {
-  return locale === 'en-US' ? "Cislunar Space Beginner's Guide" : '地月空间入门指南'
+  return locale === 'en-US' ? "Cislunar Space Beginner's Guide" : '地月空间入门指南';
 }
 
 /** @param {string} path */
 function resolvePageDirectory(path) {
-  return path.replace(/[^/]+\/?$/, '')
+  return path.replace(/[^/]+\/?$/, '');
 }
 
 /** @param {string} image @param {string} path @param {string} siteBaseUrl */
 function resolveImageUrl(image, path, siteBaseUrl) {
-  if (/^https?:\/\//i.test(image)) return image
-  if (image.startsWith('/')) return siteBaseUrl + image
-  if (image.startsWith('./')) return siteBaseUrl + resolvePageDirectory(path) + image.slice(2)
-  return siteBaseUrl + DEFAULT_IMAGE_PATH
+  if (/^https?:\/\//i.test(image)) return image;
+  if (image.startsWith('/')) return siteBaseUrl + image;
+  if (image.startsWith('./')) return siteBaseUrl + resolvePageDirectory(path) + image.slice(2);
+  return siteBaseUrl + DEFAULT_IMAGE_PATH;
 }
 
 /**
@@ -58,23 +58,25 @@ function resolveImageUrl(image, path, siteBaseUrl) {
  * }} input
  */
 export function normalizePageMetadata(input) {
-  const siteBaseUrl = input.siteBaseUrl ?? DEFAULT_SITE_BASE_URL
-  const locale = resolveLocale(input.path)
-  const title = toStringValue(input.frontmatter.wechatShare?.title)
-    || toStringValue(input.frontmatter.title)
-    || input.fallbackTitle
-    || ''
-  const description = toStringValue(input.frontmatter.wechatShare?.desc)
-    || toStringValue(input.frontmatter.description)
-    || input.fallbackDescription
-    || ''
+  const siteBaseUrl = input.siteBaseUrl ?? DEFAULT_SITE_BASE_URL;
+  const locale = resolveLocale(input.path);
+  const title =
+    toStringValue(input.frontmatter.wechatShare?.title) ||
+    toStringValue(input.frontmatter.title) ||
+    input.fallbackTitle ||
+    '';
+  const description =
+    toStringValue(input.frontmatter.wechatShare?.desc) ||
+    toStringValue(input.frontmatter.description) ||
+    input.fallbackDescription ||
+    '';
   const image = resolveImageUrl(
     toStringValue(input.frontmatter.wechatShare?.image) || toStringValue(input.frontmatter.image),
     input.path,
     siteBaseUrl,
-  )
-  const url = input.pageUrl ?? siteBaseUrl + input.path
-  const type = input.frontmatter.layout === 'SpaceNewsArticle' ? 'article' : 'website'
+  );
+  const url = input.pageUrl ?? siteBaseUrl + input.path;
+  const type = input.frontmatter.layout === 'SpaceNewsArticle' ? 'article' : 'website';
 
   return {
     title,
@@ -85,19 +87,19 @@ export function normalizePageMetadata(input) {
     url,
     type,
     share: { title, description, image, url },
-  }
+  };
 }
 
 /** Length cap for derived descriptions when no explicit description is present. */
-export const DESCRIPTION_CLIP_MAX = 220
+export const DESCRIPTION_CLIP_MAX = 220;
 
 /**
  * @param {string} value
  * @param {number} max
  */
 export function clipDescription(value, max = DESCRIPTION_CLIP_MAX) {
-  if (value.length <= max) return value
-  return `${value.slice(0, max - 1)}…`
+  if (value.length <= max) return value;
+  return `${value.slice(0, max - 1)}…`;
 }
 
 /**
@@ -113,20 +115,20 @@ export function clipDescription(value, max = DESCRIPTION_CLIP_MAX) {
  *          null when no title can be resolved (no point writing partial share data).
  */
 export function resolveWechatShareFields(frontmatter, fallbackTitle) {
-  const title = toStringValue(frontmatter.wechatShare?.title)
-    || toStringValue(frontmatter.title)
-    || fallbackTitle
-    || ''
-  if (!title) return null
+  const title =
+    toStringValue(frontmatter.wechatShare?.title) ||
+    toStringValue(frontmatter.title) ||
+    fallbackTitle ||
+    '';
+  if (!title) return null;
 
-  const rawDesc = toStringValue(frontmatter.wechatShare?.desc)
-    || toStringValue(frontmatter.description)
-    || ''
-  const desc = clipDescription((rawDesc.trim() || title).trim())
+  const rawDesc =
+    toStringValue(frontmatter.wechatShare?.desc) || toStringValue(frontmatter.description) || '';
+  const desc = clipDescription((rawDesc.trim() || title).trim());
 
-  const explicitImage = toStringValue(frontmatter.wechatShare?.image)
-    || toStringValue(frontmatter.image)
-  const image = explicitImage && explicitImage.length ? explicitImage : DEFAULT_IMAGE_PATH
+  const explicitImage =
+    toStringValue(frontmatter.wechatShare?.image) || toStringValue(frontmatter.image);
+  const image = explicitImage && explicitImage.length ? explicitImage : DEFAULT_IMAGE_PATH;
 
-  return { title, desc, image }
+  return { title, desc, image };
 }

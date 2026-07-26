@@ -24,7 +24,7 @@ On March 28, the European Space Agency (ESA) took a major step forward in streng
 ## Launch Details
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Launch Vehicle | Rocket Lab Electron |
 | Launch Site | Māhia Launch Complex, New Zealand |
 | Launch Time (CET) | March 28, 2026, 10:14 |
@@ -49,6 +49,7 @@ Additional launches in 2027 will bring the mission to its full configuration of 
 ## Key Benefits
 
 By flying closer to Earth, Celeste offers more robust signals and new frequencies. The mission will offer an in-orbit test bench for a broad range of applications:
+
 - Enhanced navigation capabilities for autonomous vehicles, railway, maritime, and aviation
 - Increased availability in urban canyons and remote polar and arctic regions
 - Enhanced positioning and messaging with emergency services during disasters

@@ -51,7 +51,7 @@ Therefore, specific angular momentum is a constant vector in inertial space, and
 The three components $h_X, h_Y, h_Z$ of the specific angular momentum are three integration constants for solving the two-body equations of motion, and can equivalently be replaced by:
 
 | Parameter | Definition | Described Property |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Inclination $i$ | $\cos i = h_Z / h$ | Angle between the orbital plane and the equatorial plane |
 | RAAN $\Omega$ | Determined by $h_X, h_Y$ | Orientation of the orbital plane in the equatorial plane |
 | Magnitude $h$ | $h = \|\boldsymbol{h}\|$ | Related to orbit size |

@@ -11,46 +11,47 @@
  * Adapters do not need to call this; it runs once when the taxonomy module
  * is constructed via `defineTaxonomy()` from `data.ts`.
  */
-import type { Locale, NodeId, TaxonomyNode } from './types'
+import type { Locale, NodeId, TaxonomyNode } from './types';
 
 export class TaxonomyValidationError extends Error {
   constructor(public readonly issues: readonly string[]) {
-    super(`Taxonomy validation failed:\n  - ${issues.join('\n  - ')}`)
-    this.name = 'TaxonomyValidationError'
+    super(`Taxonomy validation failed:\n  - ${issues.join('\n  - ')}`);
+    this.name = 'TaxonomyValidationError';
   }
 }
 
 function isSafeInternalPath(value: string): boolean {
-  if (!value.startsWith('/')) return false
-  if (/javascript:|data:|vbscript:/i.test(value)) return false
-  if (/[\x00-\x1f\x7f]/.test(value)) return false
-  return true
+  if (!value.startsWith('/')) return false;
+  if (/javascript:|data:|vbscript:/i.test(value)) return false;
+  if (/[\x00-\x1f\x7f]/.test(value)) return false;
+  return true;
 }
 
 function isSafeExternalHref(value: unknown): boolean {
-  if (typeof value !== 'string') return false
-  if (/[\x00-\x1f\x7f]/.test(value)) return false
+  if (typeof value !== 'string') return false;
+  if (/[\x00-\x1f\x7f]/.test(value)) return false;
   try {
-    const url = new URL(value)
-    return url.protocol === 'https:' || url.protocol === 'http:'
+    const url = new URL(value);
+    return url.protocol === 'https:' || url.protocol === 'http:';
   } catch {
-    return false
+    return false;
   }
 }
 
 export function validateTaxonomy(nodes: readonly TaxonomyNode[]): void {
-  const issues: string[] = []
-  const ids = new Set<NodeId>()
+  const issues: string[] = [];
+  const ids = new Set<NodeId>();
 
   for (const node of nodes) {
-    if (ids.has(node.id)) issues.push(`duplicate id "${node.id}"`)
-    ids.add(node.id)
-    if (!Number.isFinite(node.order)) issues.push(`node "${node.id}": order must be a finite number`)
+    if (ids.has(node.id)) issues.push(`duplicate id "${node.id}"`);
+    ids.add(node.id);
+    if (!Number.isFinite(node.order))
+      issues.push(`node "${node.id}": order must be a finite number`);
 
     const visibility: Record<Locale, boolean> = {
       zh: !node.locales || node.locales.includes('zh'),
       en: !node.locales || node.locales.includes('en'),
-    }
+    };
     // Kinds that are intentionally path-less in every locale.
     // - `navbar-root`: a synthetic tree root, not a routable page.
     // - `external-link`: a link to a URL outside the site, no internal path.
@@ -61,21 +62,24 @@ export function validateTaxonomy(nodes: readonly TaxonomyNode[]): void {
     // - `news-category`: a metadata-only node, identified by id but
     //   resolved at runtime via `taxonomy.byKind('news-category')`. It is
     //   never rendered as a routable page.
-    const pathLessKind = node.kind === 'navbar-root'
-      || node.kind === 'external-link'
-      || node.kind === 'group'
-      || node.kind === 'glossary-category'
-      || node.kind === 'news-category'
+    const pathLessKind =
+      node.kind === 'navbar-root' ||
+      node.kind === 'external-link' ||
+      node.kind === 'group' ||
+      node.kind === 'glossary-category' ||
+      node.kind === 'news-category';
     for (const locale of ['zh', 'en'] as const) {
-      const path = node.path[locale]
+      const path = node.path[locale];
       if (visibility[locale] && path === null && !pathLessKind) {
-        issues.push(`node "${node.id}": locale "${locale}" is visible but path.${locale} is null`)
+        issues.push(`node "${node.id}": locale "${locale}" is visible but path.${locale} is null`);
       }
       if (!visibility[locale] && path !== null) {
-        issues.push(`node "${node.id}": locale "${locale}" is gated out but path.${locale} is set`)
+        issues.push(`node "${node.id}": locale "${locale}" is gated out but path.${locale} is set`);
       }
       if (path !== null && !isSafeInternalPath(path)) {
-        issues.push(`node "${node.id}": path.${locale} must be a safe internal path starting with "/"`)
+        issues.push(
+          `node "${node.id}": path.${locale} must be a safe internal path starting with "/"`,
+        );
       }
     }
 
@@ -88,23 +92,25 @@ export function validateTaxonomy(nodes: readonly TaxonomyNode[]): void {
         if (node.path[locale] !== null) {
           issues.push(
             `node "${node.id}": ${node.kind} nodes must have path.${locale} === null ` +
-            `(they are metadata identifiers, not routable pages)`,
-          )
+              `(they are metadata identifiers, not routable pages)`,
+          );
         }
       }
     }
 
     if (node.kind === 'external-link' && !isSafeExternalHref(node.meta?.href)) {
-      issues.push(`node "${node.id}": external-link meta.href must be a safe http(s) URL`)
+      issues.push(`node "${node.id}": external-link meta.href must be a safe http(s) URL`);
     }
 
     // news-category nodes must carry a 7-char hex color (`#RRGGBB`).
     // Without this rule, a typo (`#fff`, `#abc123`, `red`) silently
     // propagates into the SpaceNews components and renders wrong.
     if (node.kind === 'news-category') {
-      const color = node.meta?.color
+      const color = node.meta?.color;
       if (typeof color !== 'string' || !/^#[0-9a-fA-F]{6}$/.test(color)) {
-        issues.push(`node "${node.id}": news-category meta.color must be a 7-char hex like "#6366f1" (got ${JSON.stringify(color)})`)
+        issues.push(
+          `node "${node.id}": news-category meta.color must be a 7-char hex like "#6366f1" (got ${JSON.stringify(color)})`,
+        );
       }
     }
   }
@@ -118,46 +124,46 @@ export function validateTaxonomy(nodes: readonly TaxonomyNode[]): void {
   // that share a parent but live in disjoint locales are fine. We track
   // the order each id was last seen at, so re-iteration of the same
   // `seenOrders` key for an order-equal sibling triggers a real conflict.
-  const seenOrders = new Map<string, { id: NodeId; order: number }>()
+  const seenOrders = new Map<string, { id: NodeId; order: number }>();
   for (const node of nodes) {
-    const locales = node.locales ?? (['zh', 'en'] as Locale[])
+    const locales = node.locales ?? (['zh', 'en'] as Locale[]);
     for (const locale of locales) {
-      const key = `${node.parentId ?? '__root__'}|${locale}`
-      const seen = seenOrders.get(key)
+      const key = `${node.parentId ?? '__root__'}|${locale}`;
+      const seen = seenOrders.get(key);
       if (seen && seen.id !== node.id && seen.order === node.order) {
         issues.push(
           `sibling order collision at parent "${node.parentId ?? '<root>'}" / locale "${locale}": ` +
             `nodes "${seen.id}" and "${node.id}" both have order ${node.order}`,
-        )
+        );
       } else if (!seen) {
-        seenOrders.set(key, { id: node.id, order: node.order })
+        seenOrders.set(key, { id: node.id, order: node.order });
       }
     }
   }
 
   // Parent existence
   for (const node of nodes) {
-    if (node.parentId === null) continue
+    if (node.parentId === null) continue;
     if (!ids.has(node.parentId)) {
-      issues.push(`node "${node.id}": parentId "${node.parentId}" does not exist`)
+      issues.push(`node "${node.id}": parentId "${node.parentId}" does not exist`);
     }
   }
 
   // Cycle detection
-  const parentOf = new Map<NodeId, NodeId | null>()
-  for (const node of nodes) parentOf.set(node.id, node.parentId)
+  const parentOf = new Map<NodeId, NodeId | null>();
+  for (const node of nodes) parentOf.set(node.id, node.parentId);
   for (const node of nodes) {
-    const visited = new Set<NodeId>([node.id])
-    let cursor: NodeId | null | undefined = node.parentId
+    const visited = new Set<NodeId>([node.id]);
+    let cursor: NodeId | null | undefined = node.parentId;
     while (cursor) {
       if (visited.has(cursor)) {
-        issues.push(`cycle detected at node "${node.id}"`)
-        break
+        issues.push(`cycle detected at node "${node.id}"`);
+        break;
       }
-      visited.add(cursor)
-      cursor = parentOf.get(cursor) ?? null
+      visited.add(cursor);
+      cursor = parentOf.get(cursor) ?? null;
     }
   }
 
-  if (issues.length) throw new TaxonomyValidationError(issues)
+  if (issues.length) throw new TaxonomyValidationError(issues);
 }

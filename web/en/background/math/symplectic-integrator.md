@@ -61,7 +61,7 @@ $$\mathbf{q} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{q}} V} \mathbf{q} \qua
 ## Comparison with Runge-Kutta Methods
 
 | Property | Symplectic Integrator | Standard Runge-Kutta |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Energy conservation | Long-term preservation | Systematic drift |
 | Phase space structure | Preserves symplectic form | Not preserved |
 | Accuracy | Comparable at same order | Comparable at same order |

@@ -37,7 +37,7 @@ The Satish Dhawan Space Centre SHAR (SDSC-SHAR) is the Indian Space Research Org
 ## Basic Information
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | Full Name | Sriharikota Space Centre - Satish Dhawan Space Centre |
 | Abbreviation | SDSC-SHAR |
 | Location | Sriharikota Island, Andhra Pradesh, India |

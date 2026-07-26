@@ -35,7 +35,7 @@ permalink: /glossary/fundamentals/high-altitude-airship/
 ## 技术特点
 
 | 特点 | 描述 |
-|:---|:---|
+| :--- | :--- |
 | 高度 | 18-25 km（典型），部分可达 30 km |
 | 航时 | 14-90 天（任务依赖） |
 | 有效载荷 | 50-500 kg |
@@ -48,7 +48,7 @@ permalink: /glossary/fundamentals/high-altitude-airship/
 ### 国际项目
 
 | 项目 | 国家 | 特点 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | HiSentinel | 美国 | 南开大学与陆军合作，50-80 km 高度 |
 | HALE-D | 美国 | DARPA 项目，验证长航时技术 |
 | Sceye HAPS | 美国 | 商业平台，太阳能驱动 |
@@ -62,7 +62,7 @@ permalink: /glossary/fundamentals/high-altitude-airship/
 
 ## 系统组成
 
-```
+```text
 ┌─────────────────────────────────────────────┐
 │                 蒙皮（Envelope）            │
 │  ┌───────────────────────────────────────┐  │

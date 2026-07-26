@@ -39,7 +39,7 @@ A celestial coordinate system is a coordinate framework established on the celes
 Uses the true horizon as the fundamental circle, the zenith as the pole, and the south point as the origin.
 
 | Coordinate | Definition | Range |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Azimuth $A$ | Angle from the south point clockwise along the horizon to the vertical circle passing through the object | 0 deg -- 360 deg |
 | Altitude $a$ (or zenith distance $z$) | Angle along the vertical circle from the object to the horizon | -90 deg -- +90 deg |
 
@@ -50,7 +50,7 @@ Applications: routine astronomical observation, meteorological instrument pointi
 Uses the celestial equator as the fundamental circle, the north celestial pole as the pole, and the intersection of the celestial meridian and the celestial equator (the upper culmination point) as the origin.
 
 | Coordinate | Definition | Range |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Hour angle $t$ | Angle from the upper culmination point westward along the celestial equator to the hour circle through the object | 0h -- 24h |
 | Declination $\delta$ | Angle along the hour circle from the object to the celestial equator | -90 deg -- +90 deg |
 
@@ -61,7 +61,7 @@ Applications: observation time planning, equatorial telescope drive, timekeeping
 Uses the celestial equator as the fundamental circle, the north celestial pole as the pole, and the vernal equinox $\gamma$ as the origin.
 
 | Coordinate | Definition | Range |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Right ascension $\alpha$ | Angle from the vernal equinox eastward along the celestial equator to the hour circle through the object | 0h -- 24h |
 | Declination $\delta$ | Same as in the hour-angle equatorial system | -90 deg -- +90 deg |
 
@@ -72,7 +72,7 @@ Applications: star catalog compilation, celestial body positioning, astronomical
 Uses the ecliptic as the fundamental circle, the north ecliptic pole as the pole, and the vernal equinox as the origin.
 
 | Coordinate | Definition | Range |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Ecliptic longitude $\lambda$ | Angle from the vernal equinox eastward along the ecliptic to the ecliptic longitude circle through the object | 0 deg -- 360 deg |
 | Ecliptic latitude $\beta$ | Angle along the ecliptic longitude circle from the object to the ecliptic | -90 deg -- +90 deg |
 

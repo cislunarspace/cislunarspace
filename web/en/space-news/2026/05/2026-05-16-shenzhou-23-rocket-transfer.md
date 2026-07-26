@@ -17,7 +17,7 @@ image: ./figures/2026-05-16-shenzhou-23-rocket-transfer/hero.jpg
 ## Mission Overview
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Mission | Shenzhou 23 Crewed Flight Mission |
 | Spacecraft | Shenzhou 23 Crew Spacecraft |
 | Rocket | Long March 2F Y23 |

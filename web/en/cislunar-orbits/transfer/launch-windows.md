@@ -35,6 +35,7 @@ When the launch direction (determined by Earth's rotation) and the Moon's orbita
 ## Window Frequency
 
 Typical TLI launch window frequency:
+
 - **Optimal windows**: Appear approximately every 14-15 days (half a synodic month)
 - **Sub-optimal windows**: Sub-optimal opportunities exist between the two optimal windows, but with higher energy requirements
 - **Missing a window**: If a launch window is missed, one typically waits for the next 14-15 day cycle
@@ -48,12 +49,14 @@ If the launch timing deviates from the optimal window, the main costs are:
 ### $C_3$ Increase
 
 Deviating from the optimal window causes the required $C_3$ to increase, with typical increases:
+
 - Deviating by 1 day: $C_3$ increases by approximately $0.05-0.1$ km$^2$/s$^2$
 - Deviating by 3 days: $C_3$ increases by approximately $0.2-0.3$ km$^2$/s$^2$
 
 ### $\Delta V$ Penalty
 
 The $C_3$ increase directly leads to increased $\Delta V$ required for TLI maneuvers:
+
 - For every $0.1$ km$^2$/s$^2$ increase in $C_3$, $\Delta V$ increases by approximately $50-100$ m/s
 
 ### Transfer Time Variation
@@ -65,6 +68,7 @@ Deviating from the optimal window may also cause transfer time to lengthen or sh
 ### GMAT
 
 NASA's **General Mission Analysis Tool** (GMAT) is an open-source orbital design tool that supports:
+
 - TLI launch window search and optimization
 - Pork-Chop plot generation
 - Multi-objective optimization (Pareto frontier computation)
@@ -72,6 +76,7 @@ NASA's **General Mission Analysis Tool** (GMAT) is an open-source orbital design
 ### STK
 
 **Systems Tool Kit** (STK, by AGI) is a professional orbital analysis software providing:
+
 - High-precision ephemeris calculations
 - Automatic launch window search
 - Mission trajectory visualization

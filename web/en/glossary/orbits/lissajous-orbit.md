@@ -46,7 +46,7 @@ Key characteristics of Lissajous orbits in the CR3BP framework include:
 ### Differences Between Lissajous and Halo Orbits
 
 | Feature | Halo Orbit | Lissajous Orbit |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Periodicity | Precisely periodic, closed | Quasi-periodic, not closed |
 | Symmetry | Symmetric about $xOz$ plane | No symmetry |
 | Frequency relation | $\omega_z / \omega_{xy} = 1$ | $\omega_z / \omega_{xy} \neq 1$ |
@@ -82,11 +82,13 @@ Lissajous orbits have unique applications in space missions:
 - **Easier injection**: In some cases, the $\Delta V$ required to enter a Lissajous orbit is less than for a Halo orbit
 
 ## Related Concepts
+
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Gomez G, Masdemont J, Simo C. Lissajous orbits around halo orbits[J]. Advances in the Astronautical Sciences, 1998.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025.

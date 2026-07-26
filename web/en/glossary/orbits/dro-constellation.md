@@ -28,7 +28,7 @@ permalink: /en/glossary/orbits/dro-constellation/
 >
 > Author: Tianjiang Says
 >
-> Editor's Source: https://cislunarspace.cn
+> Editor's Source: <https://cislunarspace.cn>
 
 ## Overview
 
@@ -37,6 +37,7 @@ In April 2025, the Chinese Academy of Sciences Space Applications Center success
 ## Breakthrough Achievements
 
 The DRO constellation achieved the following breakthroughs for the first time internationally (per CAS Space Applications Center announcement):
+
 - Per CAS Space Applications Center announcement, first achievement of low-energy orbit insertion into DRO for spacecraft
 - Per CAS Space Applications Center announcement, first verification of a 1.17 million km K-band inter-satellite microwave measurement and communication link
 - Breakthrough of key core technical bottlenecks in large-scale constellation construction in cislunar space

@@ -105,7 +105,7 @@ Combining traditional optimization algorithms (genetic algorithms, sequential qu
 ## Relationship with Game Theory Concepts
 
 | Concept | Meaning |
-|:---|:---|
+| :--- | :--- |
 | Saddle point | The equilibrium solution of the game |
 | Minimax principle | Evader maximizes, pursuer minimizes |
 | Payoff function | Function of pursuit-evasion time |
@@ -114,6 +114,7 @@ Combining traditional optimization algorithms (genetic algorithms, sequential qu
 ## Application Value
 
 The saddle-point strategy is the core solution concept for spacecraft pursuit-evasion games, providing a theoretical foundation for:
+
 - Optimal maneuver strategy design in space confrontation
 - Approach trajectory planning for non-cooperative targets in rendezvous and docking
 - Guidance law design for missile interception

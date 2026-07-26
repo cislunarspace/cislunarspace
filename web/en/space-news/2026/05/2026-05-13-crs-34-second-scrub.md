@@ -23,7 +23,7 @@ At 7:18 p.m. EDT on May 13 (23:18 UTC), NASA and SpaceX issued an update confirm
 ## Mission Details
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Mission | SpaceX CRS-34, the 34th Commercial Resupply Services mission for NASA |
 | Payload | Approximately 6,500 lbs (~2,948 kg) of science experiments and supplies |
 | Rocket | Falcon 9, Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station |

@@ -70,5 +70,5 @@ Reusable rockets introduce new complexity to POGO suppression:
 ## References
 
 - NASA SP-8055, Prevention of Coupled Structure-Propulsion Instability (POGO), 1970.
-- Rubin S. Longitudinal instability of liquid rockets due to propulsion feedback (POGO)[J]. Journal of Spacecraft and Rockets, 1966.
+- Rubin S. Longitudinal instability of liquid rockets due to propulsion feedback [POGO](J). Journal of Spacecraft and Rockets, 1966.
 - 2026 Aerospace Science and Technology Problems and Challenges Released, China Space Conference (CSC2026), 2026.

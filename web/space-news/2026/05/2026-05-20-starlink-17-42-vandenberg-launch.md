@@ -23,7 +23,7 @@ image: ./figures/2026-05-20-starlink-17-42-vandenberg-launch/hero.jpg
 ## 发射数据
 
 | 项目 | 数据 |
-|------|------|
+| ------ | ------ |
 | 任务名称 | Starlink 17-42 |
 | 载荷 | 24颗Starlink卫星 |
 | 发射时间 | PDT 2026年5月19日 19:46（UTC 5月20日 02:46） |

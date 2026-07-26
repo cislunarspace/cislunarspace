@@ -17,8 +17,8 @@ poliastro is a pure Python open-source astrodynamics library focused on orbital 
 
 - **License**: MIT
 - **Source**: poliastro Community
-- **Official Docs**: https://docs.poliastro.space
-- **GitHub**: https://github.com/poliastro/poliastro
+- **Official Docs**: <https://docs.poliastro.space>
+- **GitHub**: <https://github.com/poliastro/poliastro>
 - **Python versions**: 3.8 – 3.11
 
 ## Key Features
@@ -38,5 +38,5 @@ poliastro is a pure Python open-source astrodynamics library focused on orbital 
 
 ## Official Resources
 
-- Website: https://www.poliastro.space/
-- GitHub: https://github.com/poliastro/poliastro
+- Website: <https://www.poliastro.space/>
+- GitHub: <https://github.com/poliastro/poliastro>

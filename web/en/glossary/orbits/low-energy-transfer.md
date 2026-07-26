@@ -45,7 +45,6 @@ Compared to direct Hohmann-type transfers, low-energy transfers require signific
 
 ## Related Concepts
 
-
 - [Transfer Orbit](/en/glossary/orbits/transfer-orbit/)
 - [Ballistic Capture](/en/glossary/orbits/ballistic-capture/)
 

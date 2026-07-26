@@ -37,7 +37,7 @@ $$
 $$
 
 | State Component | Dimension | Description |
-|:---|:---:|:---|
+| :--- | :---: | :--- |
 | $\mathbf{r}_t = [x_t, y_t, z_t]$ | 3 | Position in rotating frame |
 | $\mathbf{v}_t = [\dot{x}_t, \dot{y}_t, \dot{z}_t]$ | 3 | Velocity in rotating frame |
 | $\tilde{m}_t$ | 1 | Normalized spacecraft mass |
@@ -54,7 +54,7 @@ This combination of absolute state and relative error simultaneously captures th
 The agent outputs a continuous action $\mathbf{a}_t = (a_1, a_2, a_3) \in [-1,1]^3$ at each time step, using spherical coordinate parameterization:
 
 | Action Component | Mapping | Physical Meaning |
-|:---:|:---|:---|
+| :---: | :--- | :--- |
 | $a_1$ | $\nu = (a_1 + 1)/2 \in [0,1]$ | Throttle (thrust magnitude fraction) |
 | $a_2$ | $\phi = \pi a_2 \in [-\pi, \pi]$ | Azimuth angle |
 | $a_3$ | $\theta = (\pi/2)a_3 \in [-\pi/2, \pi/2]$ | Elevation angle |
@@ -84,7 +84,7 @@ The exponential terms approach $w_2^{\text{pos}}, w_2^{\text{vel}}$ as $\Delta d
 ### Terminal Reward
 
 | Condition | Reward |
-|:---|---:|
+| :--- | ---: |
 | Successful orbit insertion | $+1000$ |
 | Moon collision / fuel depletion | $-1000$ |
 | Timeout | $0$ |
@@ -103,7 +103,7 @@ where $\beta = 3$ is the safety buffer multiplier and $R_M = 1737.4$ km is the M
 ## Episode Termination Conditions
 
 | Termination Type | Condition | Result |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Success | $\Delta d < \Delta d_{\text{thr}}$ and $\Delta v < \Delta v_{\text{thr}}$ | +1000 |
 | Moon collision | $r_{M,t} \leq R_M$ | -1000 |
 | Fuel depletion | $m_t \leq m_{\min}$ | -1000 |

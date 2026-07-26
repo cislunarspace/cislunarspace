@@ -39,7 +39,7 @@ $$\Delta\beta_{kc} = \frac{\partial\beta_{kc}}{\partial v_k}\Delta v_k + \frac{\
 ### Error Coefficient Types
 
 | Type | Symbol | Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Downrange error coefficient | $\partial\beta_{kc}/\partial v_k$ | Range deviation due to velocity magnitude error |
 | Downrange error coefficient | $\partial\beta_{kc}/\partial\Theta_k$ | Range deviation due to flight-path angle error |
 | Downrange error coefficient | $\partial\beta_{kc}/\partial r_k$ | Range deviation due to geocentric distance error |
@@ -68,7 +68,7 @@ $$\frac{\partial\zeta_c}{\partial\alpha_k} = \sin\beta_{kc}, \quad \frac{\partia
 ### Properties of Error Coefficients
 
 | Property | Description |
-|:---|:---|
+| :--- | :--- |
 | Optimal flight-path angle | $\partial\beta_{ke}/\partial\Theta_k = 0$; flight-path angle error causes no range deviation |
 | Velocity magnitude coefficient | The larger $\gamma_k$, the larger $\partial L_{ke}/\partial v_k$ |
 | Second-order errors | For long-range missiles, second-order error coefficients cannot be neglected |
@@ -87,5 +87,5 @@ Range error coefficients are the core tool for ballistic missile accuracy analys
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.

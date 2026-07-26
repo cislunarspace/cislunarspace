@@ -41,7 +41,7 @@ The true anomaly directly determines the radial distance through the orbit equat
 $$r = \frac{a(1-e^2)}{1 + e\cos f}$$
 
 | True Anomaly | Position | Radial Distance |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $f = 0°$ | Perigee | $r_p = a(1-e)$ |
 | $f = 90°$ | End of semi-latus rectum | $r = p = a(1-e^2)$ |
 | $f = 180°$ | Apogee | $r_a = a(1+e)$ |

@@ -61,7 +61,7 @@ When relative or absolute efficiency falls below the set threshold, the engine s
 The introduction of coasting arcs decouples propellant from time:
 
 | Optimization Objective | Efficiency Threshold | Coasting Arc Proportion | Characteristics |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Time minimization | $\eta_{rel}=0, \eta_{abs}=0$ | None | Full maximum thrust |
 | Propellant minimization | Higher threshold | More | Trade time for propellant |
 | Trade-off mode | Medium threshold | Moderate | Propellant-time compromise |
@@ -71,7 +71,7 @@ The introduction of coasting arcs decouples propellant from time:
 Simulation results from 胡敏等 (2026) verify the trade-off effect of coasting arcs:
 
 | Mission Objective | Propellant Mass (kg) | Transfer Time (d) |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Time minimization | 96.49 | 32.87 |
 | Propellant minimization | 76.07 | 37.55 |
 | Propellant-time trade-off | 85.12 | 35.87 |
@@ -83,6 +83,7 @@ Propellant savings approximately 21%, time increase approximately 14%.
 ### Mission Configuration Flexibility
 
 The coasting arc mechanism provides powerful configuration flexibility for batch deployment missions:
+
 - Flexible selection of optimization objectives based on mission requirements
 - When propellant budget is limited, mission duration can be extended by increasing coasting arcs
 - Multiple trade-off solutions provide diverse options for mission decision-making
@@ -90,6 +91,7 @@ The coasting arc mechanism provides powerful configuration flexibility for batch
 ### Q-law Controller Adaptation
 
 The Q-law controller automatically identifies low thrust efficiency intervals and shuts down the engine:
+
 - Real-time calculation of efficiency parameters for current state
 - Automatic switching between thrust arcs and coasting arcs
 - Adaptive control without manual intervention
@@ -97,6 +99,7 @@ The Q-law controller automatically identifies low thrust efficiency intervals an
 ### Coasting Arc and Mass Discontinuity
 
 The combination of coasting arc strategy and mass discontinuity characteristics:
+
 - In later mission phases when OTV mass is lighter, the same thrust produces greater acceleration
 - Efficiency parameters automatically reflect this change
 - Systematic optimization of propellant consumption across the entire mission profile

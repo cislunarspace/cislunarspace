@@ -51,7 +51,7 @@ $$\frac{d\boldsymbol{h}}{dt} = \boldsymbol{v} \times \boldsymbol{v} + \boldsymbo
 比动量矩的三个分量 $h_X, h_Y, h_Z$ 是求解二体运动方程的三个积分常数，可等价替换为：
 
 | 参数 | 定义 | 描述的特性 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 轨道倾角 $i$ | $\cos i = h_Z / h$ | 轨道面与赤道面的夹角 |
 | 升交点赤经 $\Omega$ | 由 $h_X, h_Y$ 确定 | 轨道面在赤道面内的方位 |
 | 比动量矩大小 $h$ | $h = \|\boldsymbol{h}\|$ | 与轨道尺寸相关 |

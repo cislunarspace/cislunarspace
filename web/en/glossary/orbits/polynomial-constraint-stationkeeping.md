@@ -39,7 +39,7 @@ permalink: /en/glossary/orbits/polynomial-constraint-stationkeeping/
 Orbit maintenance methods are generally divided into two categories:
 
 | Method Type | Description | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **"Tight" control** | Design a target orbit; the spacecraft must return to within a certain range of the target orbit after deviation | High control accuracy, but depends on pre-designed nominal orbit |
 | **"Loose" control** | No target orbit is specified; the spacecraft only needs to remain near the libration point | Higher computational cost, but more flexible |
 

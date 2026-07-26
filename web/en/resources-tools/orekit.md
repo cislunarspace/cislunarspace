@@ -17,7 +17,7 @@ Orekit is a low-level space flight dynamics library written in Java, maintained 
 
 - **License**: Apache License 2.0
 - **Source**: ESA / CS GROUP
-- **Official Docs**: https://www.orekit.org/
+- **Official Docs**: <https://www.orekit.org/>
 - **Language**: Java 8+
 - **Math dependency**: Hipparchus 4.0.3
 
@@ -37,7 +37,7 @@ Orekit is a low-level space flight dynamics library written in Java, maintained 
 
 ## Official Resources
 
-- Website: https://www.orekit.org/
-- GitLab: https://gitlab.orekit.org/orekit/orekit
-- GitHub mirror: https://github.com/CS-SI/Orekit
+- Website: <https://www.orekit.org/>
+- GitLab: <https://gitlab.orekit.org/orekit/orekit>
+- GitHub mirror: <https://github.com/CS-SI/Orekit>
 - Python wrappers: JCC / JPype

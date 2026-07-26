@@ -43,7 +43,7 @@ $$\max \quad J = J(\dot{\varphi}_{pr}(t), A_0)$$
 The constraints fall into three categories:
 
 | Constraint Type | Description | Example |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Dynamic equations | Differential equations governing center-of-mass motion | Equations of motion |
 | Initial/terminal state | Motion states at liftoff and engine cutoff | Orbit insertion elements, impact point location |
 | Path constraints | Limitations to be satisfied during flight | Load factor, dynamic pressure, debris impact zone |
@@ -53,7 +53,7 @@ The constraints fall into three categories:
 Determined by the flight mission, typical optimization objectives include:
 
 | Mission Type | Optimization Objective |
-|:---|:---|
+| :--- | :--- |
 | Launch vehicle | Maximum payload mass (equivalent to maximum residual propellant mass) |
 | Ballistic missile | Minimum impact point deviation |
 | General | Minimum fuel consumption, minimum flight time |
@@ -67,7 +67,7 @@ $$U = (A_0, \alpha_m, \dot{\varphi}_{p2}, t_{22}, \dot{\varphi}_{p31}, \dot{\var
 ### Solution Methods
 
 | Method Category | Typical Algorithms | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Shooting method | Genetic algorithms, simulated annealing | Global search, gradient-free |
 | Collocation method | Pseudospectral methods, convex optimization | Discretizes continuous problem |
 | Gradient-based | SQP | Fast convergence, local optimum |
@@ -75,7 +75,7 @@ $$U = (A_0, \alpha_m, \dot{\varphi}_{p2}, t_{22}, \dot{\varphi}_{p31}, \dot{\var
 ### Distinction from Trajectory Design
 
 | Comparison Item | Trajectory Design | Trajectory Optimization |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Objective | Find a feasible solution satisfying constraints | Find the solution with optimal performance index |
 | Method | Newton iteration, etc. | SQP, genetic algorithms, etc. |
 | Number of solutions | One feasible solution | Optimal solution |

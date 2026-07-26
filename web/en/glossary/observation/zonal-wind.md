@@ -37,7 +37,7 @@ Zonal wind is atmospheric horizontal motion blowing along latitude lines (east-w
 ### Three-cell Circulation Model
 
 | Circulation Cell | Latitude Range | Zonal Wind Characteristic |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Hadley Cell | 0-30° | NE/SE trade winds (Easterly) |
 | Ferrel Cell | 30-60° | Temperate westerlies |
 | Polar Cell | 60-90° | Polar Easterlies |
@@ -47,7 +47,7 @@ Zonal wind is atmospheric horizontal motion blowing along latitude lines (east-w
 ### Typical High-altitude Zonal Wind (@30°N)
 
 | Season | 20 km | 25 km | 30 km |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Winter | -20 m/s | -40 m/s | -60 m/s |
 | Spring | 0 m/s | -10 m/s | -30 m/s |
 | Summer | +20 m/s | +30 m/s | +50 m/s |
@@ -60,7 +60,7 @@ Note: Negative = Westerly, Positive = Easterly
 ### Trajectory Planning
 
 | Impact | Description |
-|:---|:---|
+| :--- | :--- |
 | Position drift | Wind-induced drift rate = $v_{wind} \times t$ |
 | Propulsion energy | Headwind navigation requires extra energy |
 | Station-keeping radius | Larger wind speed increases radius maintenance difficulty |
@@ -76,6 +76,7 @@ $$\bar{u}(h, \phi, t) = u_0(h) + \sum_{i=1}^{N} A_i(h) \cos(\omega_i t + \phi_i)
 ### Numerical Weather Prediction (NWP)
 
 Modern wind field forecasting uses:
+
 - WRF (Weather Research and Forecasting)
 - ECMWF Global Model
 - GFS Global Forecast System

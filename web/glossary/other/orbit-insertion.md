@@ -26,7 +26,7 @@ permalink: /glossary/other/orbit-insertion/
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本站地址：https://cislunarspace.cn
+> 本站地址：<https://cislunarspace.cn>
 
 ## 定义
 
@@ -55,6 +55,7 @@ $$\Delta v = I_{sp} \cdot g_0 \cdot \ln\frac{m_0}{m_f}$$
 $$\Delta v_{\text{total}} = \Delta v_1 + \Delta v_2 + \Delta v_3$$
 
 其中：
+
 - $\Delta v_1$：LEO 离轨脉冲（第一个脉冲）
 - $\Delta v_2$：近月点机动脉冲（第二个脉冲，在 PLF 过程中施加）
 - $\Delta v_3$：**DRO 入轨脉冲**（第三个脉冲，将航天器从月球-DRO 转移段送入目标 DRO）
@@ -70,6 +71,7 @@ $\Delta v_3$ 的大小取决于转移轨道终态与目标 DRO 之间的匹配�
 3. **任务窗口压缩**：高精度入轨可以减少轨道修正需求，延长任务寿命。
 
 入轨精度受以下因素影响：
+
 - **导航精度**：航天器位置和速度的测量精度。
 - **发动机推力精度**：推力大小和方向的偏差。
 - **点火时机**：脉冲施加时刻的误差。
@@ -100,7 +102,6 @@ $\Delta v_3$ 的大小取决于转移轨道终态与目标 DRO 之间的匹配�
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [脉冲机动（Impulsive Maneuver）](/glossary/dynamics/impulsive-maneuver/)
 - [有动力月球借力（PLF）](/glossary/other/powered-lunar-flyby/)
-
 
 ## 参考文献
 

@@ -17,6 +17,82 @@
   <SidebarToggle v-if="!isOrbitSim && !isForum" />
 </template>
 
+<script setup lang="ts">
+import { onMounted, onBeforeUnmount, watch, nextTick } from 'vue';
+import { useRoute } from 'vue-router';
+import { usePage } from 'vuepress/client';
+import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue';
+import Footer from '../components/Footer.vue';
+import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue';
+import PageSidebar from '../components/ExtraSidebar.vue';
+import PageToc from '../components/PageToc.vue';
+import SidebarToggle from '../components/SidebarToggle.vue';
+import CopyPageButton from '../components/CopyPageButton.vue';
+import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy';
+import {
+  enhanceContentTables,
+  setIsEnFn,
+  setupTableToolbar,
+  startTableEnhanceObserver,
+  teardownTableToolbar,
+} from '../composables/useTableEnhance';
+import { useLayoutType, useIsLayout, LayoutTypes } from '../composables/useLayoutType';
+import { useIsEn } from '../composables/useIsEn';
+
+const route = useRoute();
+const page = usePage();
+const isEn = useIsEn();
+setIsEnFn(() => isEn.value);
+
+const pageLayout = useLayoutType();
+const isSpaceNews = useIsLayout([
+  LayoutTypes.SpaceNewsHome,
+  LayoutTypes.SpaceNewsArticle,
+  LayoutTypes.SpaceNewsArchive,
+]);
+const isOrbitSim = useIsLayout(LayoutTypes.OrbitSimLab);
+const isForum = useIsLayout(LayoutTypes.Forum);
+
+function runTableEnhance() {
+  const run = () => {
+    enhanceContentTables();
+  };
+  nextTick(() => {
+    requestAnimationFrame(run);
+  });
+  // 与 MutationObserver 互补：<Content> 偶发晚于本帧
+  setTimeout(run, 0);
+  setTimeout(run, 160);
+}
+
+onMounted(() => {
+  setupMathCopy();
+  setupTableToolbar();
+  startTableEnhanceObserver();
+  runTableEnhance();
+});
+
+watch(
+  () => route.path,
+  () => {
+    runTableEnhance();
+  },
+);
+
+watch(
+  () => (page.value as { path?: string } | null)?.path,
+  () => {
+    runTableEnhance();
+  },
+  { flush: 'post' },
+);
+
+onBeforeUnmount(() => {
+  teardownMathCopy();
+  teardownTableToolbar();
+});
+</script>
+
 <style lang="scss">
 /* ---- 页面切换淡入 ---- */
 .page {
@@ -24,13 +100,21 @@
 }
 
 @keyframes pageFadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ---- 侧边栏展开/收起 ---- */
 .sidebar-container {
-  transition: transform 0.35s var(--ease-out-expo), opacity 0.3s var(--ease-smooth) !important;
+  transition:
+    transform 0.35s var(--ease-out-expo),
+    opacity 0.3s var(--ease-smooth) !important;
 }
 
 .theme-container {
@@ -111,78 +195,6 @@
 }
 </style>
 
-<script setup lang="ts">
-import { onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
-import { useRoute } from 'vue-router'
-import { usePage } from 'vuepress/client'
-import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
-import Footer from '../components/Footer.vue'
-import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue'
-import PageSidebar from '../components/ExtraSidebar.vue'
-import PageToc from '../components/PageToc.vue'
-import SidebarToggle from '../components/SidebarToggle.vue'
-import CopyPageButton from '../components/CopyPageButton.vue'
-import { setupMathCopy, teardownMathCopy } from '../composables/useMathCopy'
-import {
-  enhanceContentTables,
-  setIsEnFn,
-  setupTableToolbar,
-  startTableEnhanceObserver,
-  teardownTableToolbar,
-} from '../composables/useTableEnhance'
-import { useLayoutType, useIsLayout, LayoutTypes } from '../composables/useLayoutType'
-import { useIsEn } from '../composables/useIsEn'
-
-const route = useRoute()
-const page = usePage()
-const isEn = useIsEn()
-setIsEnFn(() => isEn.value)
-
-const pageLayout = useLayoutType()
-const isSpaceNews = useIsLayout([LayoutTypes.SpaceNewsHome, LayoutTypes.SpaceNewsArticle, LayoutTypes.SpaceNewsArchive])
-const isOrbitSim = useIsLayout(LayoutTypes.OrbitSimLab)
-const isForum = useIsLayout(LayoutTypes.Forum)
-
-function runTableEnhance() {
-  const run = () => {
-    enhanceContentTables()
-  }
-  nextTick(() => {
-    requestAnimationFrame(run)
-  })
-  // 与 MutationObserver 互补：<Content> 偶发晚于本帧
-  setTimeout(run, 0)
-  setTimeout(run, 160)
-}
-
-onMounted(() => {
-  setupMathCopy()
-  setupTableToolbar()
-  startTableEnhanceObserver()
-  runTableEnhance()
-})
-
-watch(
-  () => route.path,
-  () => {
-    runTableEnhance()
-  },
-)
-
-watch(
-  () => (page.value as { path?: string } | null)?.path,
-  () => {
-    runTableEnhance()
-  },
-  { flush: 'post' },
-)
-
-onBeforeUnmount(() => {
-  teardownMathCopy()
-  teardownTableToolbar()
-})
-</script>
-
 <style lang="scss">
 .math-block-wrapper {
   position: relative;
@@ -205,10 +217,11 @@ onBeforeUnmount(() => {
   color: var(--c-text-lighter);
   cursor: pointer;
   opacity: 0;
-  transition: opacity 0.25s var(--ease-smooth),
-              color 0.25s var(--ease-smooth),
-              background 0.25s var(--ease-smooth),
-              transform 0.2s var(--ease-smooth);
+  transition:
+    opacity 0.25s var(--ease-smooth),
+    color 0.25s var(--ease-smooth),
+    background 0.25s var(--ease-smooth),
+    transform 0.2s var(--ease-smooth);
 }
 
 .math-block-wrapper:hover .math-copy-btn {

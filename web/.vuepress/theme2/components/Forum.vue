@@ -38,12 +38,7 @@
       role="presentation"
       @click.self="showLoginModal = false"
     >
-      <div
-        class="modal-box"
-        role="dialog"
-        aria-modal="true"
-        :aria-labelledby="modalTitleId"
-      >
+      <div class="modal-box" role="dialog" aria-modal="true" :aria-labelledby="modalTitleId">
         <div class="modal-header">
           <h3 :id="modalTitleId">{{ activeTab === 'login' ? t('login') : t('register') }}</h3>
           <button
@@ -101,7 +96,13 @@
           <button type="button" class="btn btn-primary btn-block" @click="runAuth">
             {{ activeTab === 'login' ? t('login') : t('register') }}
           </button>
-          <p class="guest-hint" role="button" tabindex="0" @click="guestFromModal" @keydown.enter.prevent="guestFromModal">
+          <p
+            class="guest-hint"
+            role="button"
+            tabindex="0"
+            @click="guestFromModal"
+            @keydown.enter.prevent="guestFromModal"
+          >
             {{ t('orGuestEnter') }}
           </p>
         </div>
@@ -184,7 +185,11 @@
         </div>
         <div class="form-group">
           <label for="forum-new-title">{{ t('postTitle') }}</label>
-          <input id="forum-new-title" v-model="newPost.title" :placeholder="t('postTitlePlaceholder')" />
+          <input
+            id="forum-new-title"
+            v-model="newPost.title"
+            :placeholder="t('postTitlePlaceholder')"
+          />
         </div>
         <div class="form-group">
           <span class="form-label-block">{{ t('category') }}</span>
@@ -221,7 +226,9 @@
 
       <div v-if="currentView === 'detail' && selectedPost" class="forum-detail-view">
         <div class="view-header">
-          <button type="button" class="btn btn-sm btn-outline" @click="goList">&larr; {{ t('back') }}</button>
+          <button type="button" class="btn btn-sm btn-outline" @click="goList">
+            &larr; {{ t('back') }}
+          </button>
         </div>
         <div class="detail-post">
           <div class="detail-header">
@@ -230,7 +237,9 @@
             }}</span>
             <h2>{{ selectedPost.title }}</h2>
             <div class="detail-meta">
-              <span class="post-author">{{ selectedPost.isGuest ? t('guest') : selectedPost.author }}</span>
+              <span class="post-author">{{
+                selectedPost.isGuest ? t('guest') : selectedPost.author
+              }}</span>
               <span class="post-time">{{ formatTime(selectedPost.createdAt) }}</span>
             </div>
           </div>
@@ -257,7 +266,10 @@
 
         <div class="replies-section">
           <h3>{{ t('replies') }} ({{ selectedPost.replies ? selectedPost.replies.length : 0 }})</h3>
-          <div v-if="!selectedPost.replies || selectedPost.replies.length === 0" class="forum-empty">
+          <div
+            v-if="!selectedPost.replies || selectedPost.replies.length === 0"
+            class="forum-empty"
+          >
             <p>{{ t('noReplies') }}</p>
           </div>
           <div v-for="reply in selectedPost.replies" :key="reply.id" class="reply-card">
@@ -301,11 +313,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, ref } from 'vue'
-import type { ForumPost } from '../composables/useForum'
-import { useForum } from '../composables/useForum'
+import { computed, onMounted, onUnmounted, ref } from 'vue';
+import type { ForumPost } from '../composables/useForum';
+import { useForum } from '../composables/useForum';
 
-const modalTitleId = 'forum-modal-title'
+const modalTitleId = 'forum-modal-title';
 
 const {
   t,
@@ -328,114 +340,114 @@ const {
   getPreview,
   init,
   handleAuth,
-} = useForum()
+} = useForum();
 
-const showLoginModal = ref(false)
-const activeTab = ref<'login' | 'register'>('login')
-const authForm = ref({ username: '', password: '' })
-const authError = ref('')
+const showLoginModal = ref(false);
+const activeTab = ref<'login' | 'register'>('login');
+const authForm = ref({ username: '', password: '' });
+const authError = ref('');
 
-const currentView = ref<'list' | 'newpost' | 'detail'>('list')
-const selectedPost = ref<ForumPost | null>(null)
-const searchQuery = ref('')
-const activeCategory = ref('all')
-const newPost = ref({ title: '', content: '', category: 'discussion' })
-const replyContent = ref('')
+const currentView = ref<'list' | 'newpost' | 'detail'>('list');
+const selectedPost = ref<ForumPost | null>(null);
+const searchQuery = ref('');
+const activeCategory = ref('all');
+const newPost = ref({ title: '', content: '', category: 'discussion' });
+const replyContent = ref('');
 
-const categories = computed(() => [{ key: 'all', label: t('all') }, ...postCategories.value])
+const categories = computed(() => [{ key: 'all', label: t('all') }, ...postCategories.value]);
 
 const filteredPosts = computed(() => {
-  let list = posts.value.slice().sort((a, b) => b.createdAt - a.createdAt)
+  let list = posts.value.slice().sort((a, b) => b.createdAt - a.createdAt);
   if (activeCategory.value !== 'all') {
-    list = list.filter((p) => p.category === activeCategory.value)
+    list = list.filter((p) => p.category === activeCategory.value);
   }
-  const q = searchQuery.value.trim().toLowerCase()
+  const q = searchQuery.value.trim().toLowerCase();
   if (q) {
     list = list.filter(
       (p) =>
         p.title.toLowerCase().includes(q) ||
         p.content.toLowerCase().includes(q) ||
         p.author.toLowerCase().includes(q),
-    )
+    );
   }
-  return list
-})
+  return list;
+});
 
 function openLoginModal() {
-  showLoginModal.value = true
-  authError.value = ''
+  showLoginModal.value = true;
+  authError.value = '';
 }
 
 function onModalEscape(e: KeyboardEvent) {
   if (e.key === 'Escape' && showLoginModal.value) {
-    showLoginModal.value = false
+    showLoginModal.value = false;
   }
 }
 
 function openNewPost() {
   if (!currentUser.value) {
-    openLoginModal()
-    return
+    openLoginModal();
+    return;
   }
-  newPost.value = { title: '', content: '', category: 'discussion' }
-  currentView.value = 'newpost'
+  newPost.value = { title: '', content: '', category: 'discussion' };
+  currentView.value = 'newpost';
 }
 
 async function runAuth() {
-  authError.value = ''
-  const err = await handleAuth(activeTab.value, authForm.value.username, authForm.value.password)
+  authError.value = '';
+  const err = await handleAuth(activeTab.value, authForm.value.username, authForm.value.password);
   if (err) {
-    authError.value = err
-    return
+    authError.value = err;
+    return;
   }
-  showLoginModal.value = false
-  authForm.value = { username: '', password: '' }
+  showLoginModal.value = false;
+  authForm.value = { username: '', password: '' };
 }
 
 function onAuthEnter() {
-  void runAuth()
+  void runAuth();
 }
 
 function guestFromModal() {
-  enterAsGuest()
-  showLoginModal.value = false
+  enterAsGuest();
+  showLoginModal.value = false;
 }
 
 function openPost(post: ForumPost) {
-  selectedPost.value = post
-  replyContent.value = ''
-  currentView.value = 'detail'
+  selectedPost.value = post;
+  replyContent.value = '';
+  currentView.value = 'detail';
 }
 
 function goList() {
-  currentView.value = 'list'
-  selectedPost.value = null
+  currentView.value = 'list';
+  selectedPost.value = null;
 }
 
 function onSubmitPost() {
-  submitPost(newPost.value)
-  currentView.value = 'list'
+  submitPost(newPost.value);
+  currentView.value = 'list';
 }
 
 function onSubmitReply() {
-  if (!selectedPost.value) return
-  submitReply(selectedPost.value, replyContent.value)
-  replyContent.value = ''
+  if (!selectedPost.value) return;
+  submitReply(selectedPost.value, replyContent.value);
+  replyContent.value = '';
 }
 
 function onDeletePost(post: ForumPost) {
-  deletePost(post)
-  goList()
+  deletePost(post);
+  goList();
 }
 
 onMounted(() => {
-  init()
-  window.addEventListener('keydown', onModalEscape)
-})
+  init();
+  window.addEventListener('keydown', onModalEscape);
+});
 
 onUnmounted(() => {
-  window.removeEventListener('keydown', onModalEscape)
-})
+  window.removeEventListener('keydown', onModalEscape);
+});
 </script>
 
 <style scoped>
@@ -553,7 +565,10 @@ onUnmounted(() => {
   font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background var(--vp-t-color), border-color var(--vp-t-color), color var(--vp-t-color);
+  transition:
+    background var(--vp-t-color),
+    border-color var(--vp-t-color),
+    color var(--vp-t-color);
   line-height: 1.4;
 }
 .btn:disabled {
@@ -667,7 +682,9 @@ onUnmounted(() => {
   color: var(--c-text-lighter);
   cursor: pointer;
   border-bottom: 2px solid transparent;
-  transition: color var(--vp-t-color), border-color var(--vp-t-color);
+  transition:
+    color var(--vp-t-color),
+    border-color var(--vp-t-color);
 }
 .modal-tabs button.active {
   color: var(--c-brand);
@@ -760,7 +777,10 @@ onUnmounted(() => {
   font-size: 0.82rem;
   color: var(--c-text-light);
   cursor: pointer;
-  transition: border-color var(--vp-t-color), color var(--vp-t-color), background var(--vp-t-color);
+  transition:
+    border-color var(--vp-t-color),
+    color var(--vp-t-color),
+    background var(--vp-t-color);
 }
 .filter-btn:hover {
   border-color: var(--c-brand);
@@ -791,7 +811,9 @@ onUnmounted(() => {
   border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: border-color var(--vp-t-color), box-shadow var(--vp-t-color);
+  transition:
+    border-color var(--vp-t-color),
+    box-shadow var(--vp-t-color);
   background: var(--c-bg-light);
 }
 .post-card:hover,

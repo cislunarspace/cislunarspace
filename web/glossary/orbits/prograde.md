@@ -77,10 +77,12 @@ $$h_z = (\mathbf{r} \times \mathbf{v}) \cdot \hat{\mathbf{z}} > 0$$
 - **轨道保持策略**：顺行和逆行轨道的保持策略存在差异，科里奥利力方向的不同直接影响轨道控制策略的设计
 
 ## 相关概念
+
 - [逆行（Retrograde）](/glossary/orbits/retrograde/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 
 ## 参考文献
+
 - 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 2026.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. 2016.

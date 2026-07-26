@@ -14,7 +14,7 @@ wechatShare:
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)
 >
-> Source: https://cislunarspace.cn
+> Source: <https://cislunarspace.cn>
 
 # DRO Dynamics Mechanism
 

@@ -41,6 +41,7 @@ permalink: /glossary/fundamentals/gravitational-redshift/
 $$\frac{\Delta f}{f} = (1 + \alpha) \frac{\Delta U}{c^2}$$
 
 其中：
+
 - $\Delta f/f$ 是相对频率偏移
 - $\Delta U$ 是引力势差
 - $c$ 是真空光速
@@ -51,7 +52,7 @@ $$\frac{\Delta f}{f} = (1 + \alpha) \frac{\Delta U}{c^2}$$
 ## 历史验证实验
 
 | 实验 | 年份 | 精度 | 备注 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Pound-Rebka-Snider实验 | 1960s | ~1% | 哈佛大学地面实验 |
 | Tokyo Skytree实验 | 2020 | $1.4 \times 10^{-5}$ | 锶光晶格钟 |
 | Gravity Probe A | 1976 | $1.41 \times 10^{-4}$ | 空间maser钟 |

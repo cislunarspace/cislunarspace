@@ -37,7 +37,7 @@ permalink: /glossary/organizations/sriharikota/
 ## 基本信息
 
 | 参数 | 数值 |
-|------|------|
+| ------ | ------ |
 | 全称 | Sriharikota Space Centre - Satish Dhawan Space Centre |
 | 简称 | SDSC-SHAR |
 | 位置 | 印度安得拉邦斯里哈里科塔岛 |

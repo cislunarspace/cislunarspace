@@ -35,7 +35,7 @@ Insertion error refers to the deviation between the actual orbital state and the
 ## Error Sources
 
 | Error Type | Description |
-|:---|:---|
+| :--- | :--- |
 | Velocity error | Velocity magnitude and direction errors due to engine thrust deviations |
 | Position error | Deviation between the actual insertion point and the designed position |
 | Time error | Deviation between the actual insertion time and the designed time |

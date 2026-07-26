@@ -48,7 +48,7 @@ The development pathways adopted by India's space program:
 The development history of India's civil-military space integration:
 
 | Phase | Period | Characteristics |
-|-------|--------|-----------------|
+| ------- | -------- | ----------------- |
 | Initial Stage | 1960s--1970s | Establishment of the National Space Committee; beginning of space research |
 | Growth Stage | 1980s--1990s | Development of launch vehicles and application satellites |
 | Expansion Stage | 2000s--present | Simultaneous development of deep space exploration and military space |

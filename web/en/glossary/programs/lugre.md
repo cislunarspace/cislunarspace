@@ -28,7 +28,7 @@ permalink: /en/glossary/programs/lugre/
 >
 > Author: Tianjiang Talk
 >
-> Source: https://cislunarspace.cn
+> Source: <https://cislunarspace.cn>
 
 ## Overview
 

@@ -39,7 +39,7 @@ The motivation for this problem is as follows: the evader (typically a high-valu
 ### Three-Player Roles
 
 | Role | Objective | Typical Scenario |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Pursuer | Capture the evader | Enemy interceptor, pursuit satellite |
 | Evader | Avoid capture | High-value satellite, space station |
 | Defender | Assist the evader in evading the pursuer | Escort satellite, defense system |
@@ -47,6 +47,7 @@ The motivation for this problem is as follows: the evader (typically a high-valu
 ### Game Structure
 
 The pursuit-evasion-defense problem can be decomposed into two two-player zero-sum subgames:
+
 1. Pursuer vs. Evader (pursuit-evasion game)
 2. Defender vs. Pursuer (offense-defense game)
 
@@ -76,6 +77,7 @@ To address uncertainty in the pursuit-evasion-defense problem, a fuzzy comprehen
 ### Collaborative Optimization
 
 The defender's mission planning must consider:
+
 - Distributed online mission planning algorithms
 - Nash equilibrium-based task allocation
 - Collaborative optimization of orbital maneuvers

@@ -44,7 +44,7 @@ GPS 时的时间起点（零时刻）为 1980 年 1 月 6 日 0 时 UTC（此时
 ### 与 UTC、TAI 的关系
 
 | 关系 | 公式 |
-|:---|:---|
+| :--- | :--- |
 | GPS 时与 TAI | $\text{TAI} = \text{GPS Time} + 19\text{ s}$ |
 | GPS 时与 UTC | $\text{GPS Time} = \text{UTC} + n\text{ s}$（$n$ 为累计闰秒数） |
 

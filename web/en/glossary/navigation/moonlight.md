@@ -28,7 +28,7 @@ permalink: /en/glossary/navigation/moonlight/
 >
 > This article author: Tianjiang Shuo
 >
-> This article source: https://cislunarspace.cn
+> This article source: <https://cislunarspace.cn>
 
 ## Overview
 
@@ -37,13 +37,14 @@ The Moonlight Initiative is ESA's independent lunar navigation constellation res
 ## Constellation Composition
 
 The Moonlight constellation is a network of 5 lunar satellites, including:
+
 - 1 communication satellite weighing 1 ton
 - 4 navigation satellites based on Galileo satellite navigation system technology
 
 ## Implementation Plan
 
 | Phase | Timing |
-|:---|:---|
+| :--- | :--- |
 | Formal Implementation | 2026 |
 | Preliminary Service | 2028 |
 | Full Operational Capability | Before 2030 |

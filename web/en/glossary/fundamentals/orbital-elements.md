@@ -37,7 +37,7 @@ Orbital elements are the six independent integration constants required to solve
 ### Classical Orbital Elements
 
 | Element | Symbol | Definition | Property Described |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Semi-major axis | $a$ | Half the major axis of the conic section | Orbit size; determines energy and period |
 | Eccentricity | $e$ | Eccentricity of the conic section | Orbit shape |
 | Inclination | $i$ | Dihedral angle between the orbit plane and the equatorial plane | Tilt of the orbit plane |
@@ -48,7 +48,7 @@ Orbital elements are the six independent integration constants required to solve
 ### Singular Element Replacements for Special Orbits
 
 | Orbit Type | Singular Elements | Replacement Strategy |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Non-equatorial circular orbit ($e=0$) | $\omega, \tau$ undefined | Use argument of latitude $u$ to describe position |
 | Equatorial elliptical orbit ($i=0°$) | $\Omega, \omega$ undefined | Use longitude of perigee $\alpha_p$ to describe orientation |
 | Equatorial circular orbit | $\Omega, \omega, \tau$ undefined | Use right ascension $\alpha$ to describe position |
@@ -64,6 +64,7 @@ where $H$ and $K$ together describe the orbit's shape and orientation.
 ### Position-Velocity Conversion
 
 Converting between orbital elements and position-velocity vectors is a core computation in orbital mechanics:
+
 - **Forward conversion**: Computes position $\boldsymbol{r}$ and velocity $\boldsymbol{v}$ from $(a,e,i,\Omega,\omega,f)$, requiring coordinate rotations.
 - **Inverse conversion**: Computes orbital elements from $(\boldsymbol{r}, \boldsymbol{v})$, requiring sequential calculation of the specific angular momentum, eccentricity vector, and other fundamental vectors.
 

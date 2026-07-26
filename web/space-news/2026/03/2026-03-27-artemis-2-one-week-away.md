@@ -26,7 +26,7 @@ Artemis II 是美国 "阿尔忒弥斯"（Artemis）计划的第二步，也是�
 Artemis II 乘组共 **4 名宇航员**：
 
 | 姓名 | 国籍 | 角色 |
-|------|------|------|
+| ------ | ------ | ------ |
 | Reid Wiseman | 美国 | 指令长（Commander） |
 | Victor Glover | 美国 | 驾驶员（Pilot） |
 | Christina Koch | 美国 | 任务专家（Mission Specialist） |

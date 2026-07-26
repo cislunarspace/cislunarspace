@@ -35,7 +35,7 @@ The two-node model simplifies the stratospheric airship thermodynamic system int
 ## Model Structure
 
 | Node | Component | Temperature |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Node 1 | Skin (Envelope) | $T_{skin}$ |
 | Node 2 | Helium | $T_{He}$ |
 
@@ -52,7 +52,7 @@ $$C_{He}\frac{dT_{He}}{dt} = h_{int}A_{int}(T_{skin} - T_{He}) + Q_{int}$$
 ## Application Scenarios
 
 | Suitable | Not Suitable |
-|:---|:---|
+| :--- | :--- |
 | Initial design rapid estimation | Detailed performance analysis |
 | Preliminary controller design | Extreme condition analysis |
 | Parameter sensitivity analysis | Local hot-spot prediction |

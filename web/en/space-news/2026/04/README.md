@@ -16,7 +16,7 @@ wechatShare:
 ## New This Month
 
 | Date | Title |
-|-------|-------|
+| ------- | ------- |
 | 4-30 | [Dahang Yueqian Raises 500M RMB, Accelerating China's First Tower-Catch Reusable Rocket](./2026-04-30-dahang-yueqian-500m-funding/) |
 | 4-30 | [DAMPE Satellite Discovers Cosmic Ray 'Bump' Structure, Revealing Charge-Dependent Acceleration Limit](./2026-04-30-wukong-cosmic-ray-discovery/) |
 | 4-30 | [LandSpace Zhuque-3 Yao-2 Rocket Enters Factory Departure Phase, Targeting Q2 Launch](./2026-04-30-zhuque-3-yao2-leaves-factory/) |
@@ -94,7 +94,7 @@ wechatShare:
 ## All Articles
 
 | Date | Title |
-|------|-------|
+| ------ | ------- |
 | 4-1 | [Artemis II Successfully Launches: First Crewed Lunar Mission in 50+ Years](./2026-04-01-artemis-2-launch/) |
 | 4-1 | [Chinese Startup Sustain Space Validates Flexible Robotic Arm, Advancing On-Orbit Servicing](./2026-04-01-china-robotic-arm/) |
 | 4-2 | [Artemis II Flight Day 2: TLI Burn Complete, Orion Officially En Route to the Moon](./2026-04-02-artemis-2-tli-complete/) |

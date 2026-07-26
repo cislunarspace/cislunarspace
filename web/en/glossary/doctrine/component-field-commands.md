@@ -57,7 +57,7 @@ The organizational structure of Component Field Commands reflects the Space Forc
 The Component Field Command concept is not unique to the Space Force but is a standard organizational pattern across the U.S. joint operational framework:
 
 | Service | Component Type | Typical Designation |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Army | ARFOR (Army Forces) | ARFOR |
 | Navy | NAVFOR (Navy Forces) | NAVFOR |
 | Air Force | AFFOR (Air Forces) | AFFOR |

@@ -33,23 +33,23 @@
  *     gated by that locale; the id is scoped with `@<locale>` so zh and
  *     en sides of a same-slug pair never collide.
  */
-import type { Locale, NodeId, TaxonomyModule, TaxonomyNode } from './types'
-import { createTaxonomyModule } from './module'
-import { validateTaxonomy } from './validate'
-import type { SidebarEntry, SidebarSection } from '../sidebar/data.ts'
+import type { Locale, NodeId, TaxonomyModule, TaxonomyNode } from './types';
+import { createTaxonomyModule } from './module';
+import { validateTaxonomy } from './validate';
+import type { SidebarEntry, SidebarSection } from '../sidebar/data.ts';
 
 export interface DefineTaxonomyInput {
-  flatNodes: readonly TaxonomyNode[]
-  sections: readonly SidebarSection[]
+  flatNodes: readonly TaxonomyNode[];
+  sections: readonly SidebarSection[];
 }
 
 export interface DefinedTaxonomy {
-  nodes: readonly TaxonomyNode[]
-  taxonomy: TaxonomyModule
+  nodes: readonly TaxonomyNode[];
+  taxonomy: TaxonomyModule;
 }
 
 interface FlattenContext {
-  nodes: TaxonomyNode[]
+  nodes: TaxonomyNode[];
 }
 
 function pathFor(
@@ -57,50 +57,53 @@ function pathFor(
   slug: string | undefined,
   locales: Locale[] | undefined,
 ): { zh: string | null; en: string | null } {
-  const zhAllowed = !locales || locales.includes('zh')
-  const enAllowed = !locales || locales.includes('en')
+  const zhAllowed = !locales || locales.includes('zh');
+  const enAllowed = !locales || locales.includes('en');
 
   if (slug === undefined) {
-    return { zh: null, en: null }
+    return { zh: null, en: null };
   }
   if (slug === '') {
     return {
       zh: zhAllowed ? parentPath.zh : null,
       en: enAllowed ? parentPath.en : null,
-    }
+    };
   }
   return {
     zh: zhAllowed && parentPath.zh ? `${parentPath.zh}${slug}/` : null,
     en: enAllowed && parentPath.en ? `${parentPath.en}${slug}/` : null,
-  }
+  };
 }
 
 function entryKind(entry: SidebarEntry): TaxonomyNode['kind'] {
-  if (entry.slug === '') return 'index'
-  if (entry.children && entry.children.length > 0) return 'group'
-  if (entry.slug === undefined) return 'group'
-  return 'page'
+  if (entry.slug === '') return 'index';
+  if (entry.children && entry.children.length > 0) return 'group';
+  if (entry.slug === undefined) return 'group';
+  return 'page';
 }
 
-function combineLocales(parent: Locale[] | undefined, own: Locale[] | undefined): Locale[] | undefined {
-  if (!parent && !own) return undefined
-  if (!parent) return own
-  if (!own) return parent
-  const intersection = parent.filter((l) => own.includes(l))
-  return intersection.length === 2 ? undefined : (intersection as Locale[])
+function combineLocales(
+  parent: Locale[] | undefined,
+  own: Locale[] | undefined,
+): Locale[] | undefined {
+  if (!parent && !own) return undefined;
+  if (!parent) return own;
+  if (!own) return parent;
+  const intersection = parent.filter((l) => own.includes(l));
+  return intersection.length === 2 ? undefined : (intersection as Locale[]);
 }
 
 function entryId(parentId: NodeId, entry: SidebarEntry): NodeId {
-  if (typeof entry.id === 'string' && entry.id.length > 0) return entry.id
-  if (entry.slug !== undefined && entry.slug !== '') return `${parentId}/${entry.slug}`
-  if (entry.slug === '') return `${parentId}/_index`
+  if (typeof entry.id === 'string' && entry.id.length > 0) return entry.id;
+  if (entry.slug !== undefined && entry.slug !== '') return `${parentId}/${entry.slug}`;
+  if (entry.slug === '') return `${parentId}/_index`;
   // Unreachable in practice: flattenEntry throws for `slug === undefined`
   // when no explicit id is provided before this id is observed. The throw
   // exists only to satisfy the NodeId return type for that branch.
   throw new Error(
     `defineTaxonomy: SidebarEntry under "${parentId}" has slug === undefined and no explicit "id" field. ` +
       `Display-only groups require an explicit id.`,
-  )
+  );
 }
 
 function flattenEntry(
@@ -111,15 +114,15 @@ function flattenEntry(
   order: number,
   ctx: FlattenContext,
 ): void {
-  const effectiveLocales = combineLocales(parentLocales, entry.locales)
-  const id = entryId(parentId, entry)
+  const effectiveLocales = combineLocales(parentLocales, entry.locales);
+  const id = entryId(parentId, entry);
   if (entry.slug === undefined && (typeof entry.id !== 'string' || entry.id.length === 0)) {
     throw new Error(
       `defineTaxonomy: SidebarEntry under "${parentId}" has slug === undefined and no explicit "id" field. ` +
         `Display-only groups require an explicit id (the syntheticCounter fallback has been retired).`,
-    )
+    );
   }
-  const path = pathFor(parentPath, entry.slug, effectiveLocales)
+  const path = pathFor(parentPath, entry.slug, effectiveLocales);
 
   ctx.nodes.push({
     id,
@@ -130,16 +133,16 @@ function flattenEntry(
     order,
     parentId,
     ...(entry.collapsible !== undefined ? { meta: { collapsible: entry.collapsible } } : {}),
-  })
+  });
 
   if (entry.children && entry.children.length > 0) {
     // Display-only groups (slug === undefined) do NOT contribute a path
     // segment, so their children inherit the grandparent path.
-    const childParentPath = entry.slug === undefined ? parentPath : path
-    let childOrder = 10
+    const childParentPath = entry.slug === undefined ? parentPath : path;
+    let childOrder = 10;
     for (const child of entry.children) {
-      flattenEntry(child, id, childParentPath, effectiveLocales, childOrder, ctx)
-      childOrder += 10
+      flattenEntry(child, id, childParentPath, effectiveLocales, childOrder, ctx);
+      childOrder += 10;
     }
   }
 }
@@ -154,10 +157,10 @@ function flattenLocaleSpecificSubtree(
   // zh starts at 10, en at 1000 — keeps the two sides well-separated so a
   // single global order field can carry both without collisions even when
   // both subtrees have many entries.
-  let order = locale === 'zh' ? 10 : 1000
+  let order = locale === 'zh' ? 10 : 1000;
   for (const entry of entries) {
-    flattenEntryWithLocaleScope(entry, parentId, parentPath, locale, order, ctx)
-    order += 10
+    flattenEntryWithLocaleScope(entry, parentId, parentPath, locale, order, ctx);
+    order += 10;
   }
 }
 
@@ -171,24 +174,25 @@ function flattenEntryWithLocaleScope(
 ): void {
   // Scope id with the locale to keep zh + en sides of a childrenByLocale
   // distinct even when their slugs happen to match.
-  const scopedParentId = parentId
-  const baseId = entry.slug !== undefined && entry.slug !== ''
-    ? `${scopedParentId}/${entry.slug}@${scopeLocale}`
-    : entry.slug === ''
-      ? `${scopedParentId}/_index@${scopeLocale}`
-      : (() => {
-          // Unreachable in practice: childrenByLocale entries with
-          // `slug === undefined` and no explicit id are not used by the
-          // current data. The throw mirrors entryId so the same shape
-          // failure mode surfaces clearly if it ever occurs.
-          throw new Error(
-            `defineTaxonomy: SidebarEntry under "${scopedParentId}" has slug === undefined and no explicit "id" field. ` +
-              `Display-only groups require an explicit id.`,
-          )
-        })()
+  const scopedParentId = parentId;
+  const baseId =
+    entry.slug !== undefined && entry.slug !== ''
+      ? `${scopedParentId}/${entry.slug}@${scopeLocale}`
+      : entry.slug === ''
+        ? `${scopedParentId}/_index@${scopeLocale}`
+        : (() => {
+            // Unreachable in practice: childrenByLocale entries with
+            // `slug === undefined` and no explicit id are not used by the
+            // current data. The throw mirrors entryId so the same shape
+            // failure mode surfaces clearly if it ever occurs.
+            throw new Error(
+              `defineTaxonomy: SidebarEntry under "${scopedParentId}" has slug === undefined and no explicit "id" field. ` +
+                `Display-only groups require an explicit id.`,
+            );
+          })();
 
-  const locales: Locale[] = [scopeLocale]
-  const path = pathFor(parentPath, entry.slug, locales)
+  const locales: Locale[] = [scopeLocale];
+  const path = pathFor(parentPath, entry.slug, locales);
 
   ctx.nodes.push({
     id: baseId,
@@ -199,21 +203,21 @@ function flattenEntryWithLocaleScope(
     order,
     parentId: scopedParentId,
     ...(entry.collapsible !== undefined ? { meta: { collapsible: entry.collapsible } } : {}),
-  })
+  });
 
   if (entry.children && entry.children.length > 0) {
-    const childParentPath = entry.slug === undefined ? parentPath : path
-    let childOrder = 10
+    const childParentPath = entry.slug === undefined ? parentPath : path;
+    let childOrder = 10;
     for (const child of entry.children) {
-      flattenEntryWithLocaleScope(child, baseId, childParentPath, scopeLocale, childOrder, ctx)
-      childOrder += 10
+      flattenEntryWithLocaleScope(child, baseId, childParentPath, scopeLocale, childOrder, ctx);
+      childOrder += 10;
     }
   }
 }
 
 function flattenSection(section: SidebarSection, order: number, ctx: FlattenContext): void {
-  const id = section.slug
-  const parentPath = { zh: `/${section.slug}/`, en: `/en/${section.slug}/` }
+  const id = section.slug;
+  const parentPath = { zh: `/${section.slug}/`, en: `/en/${section.slug}/` };
 
   ctx.nodes.push({
     id,
@@ -222,18 +226,18 @@ function flattenSection(section: SidebarSection, order: number, ctx: FlattenCont
     path: parentPath,
     order,
     parentId: null,
-  })
+  });
 
   if (section.childrenByLocale) {
-    flattenLocaleSpecificSubtree(section.childrenByLocale.zh, id, parentPath, 'zh', ctx)
-    flattenLocaleSpecificSubtree(section.childrenByLocale.en, id, parentPath, 'en', ctx)
-    return
+    flattenLocaleSpecificSubtree(section.childrenByLocale.zh, id, parentPath, 'zh', ctx);
+    flattenLocaleSpecificSubtree(section.childrenByLocale.en, id, parentPath, 'en', ctx);
+    return;
   }
 
-  let childOrder = 10
+  let childOrder = 10;
   for (const child of section.children) {
-    flattenEntry(child, id, parentPath, undefined, childOrder, ctx)
-    childOrder += 10
+    flattenEntry(child, id, parentPath, undefined, childOrder, ctx);
+    childOrder += 10;
   }
 }
 
@@ -247,21 +251,21 @@ function flattenSection(section: SidebarSection, order: number, ctx: FlattenCont
  * not by a global sort.
  */
 export function defineTaxonomy(input: DefineTaxonomyInput): DefinedTaxonomy {
-  const ctx: FlattenContext = { nodes: [] }
+  const ctx: FlattenContext = { nodes: [] };
 
   for (const node of input.flatNodes) {
-    ctx.nodes.push(node)
+    ctx.nodes.push(node);
   }
 
-  let sectionOrder = 10
+  let sectionOrder = 10;
   for (const section of input.sections) {
-    flattenSection(section, sectionOrder, ctx)
-    sectionOrder += 10
+    flattenSection(section, sectionOrder, ctx);
+    sectionOrder += 10;
   }
 
-  const nodes = Object.freeze(ctx.nodes) as readonly TaxonomyNode[]
-  validateTaxonomy(nodes)
+  const nodes = Object.freeze(ctx.nodes) as readonly TaxonomyNode[];
+  validateTaxonomy(nodes);
 
-  const taxonomy = createTaxonomyModule(nodes)
-  return { nodes, taxonomy }
+  const taxonomy = createTaxonomyModule(nodes);
+  return { nodes, taxonomy };
 }

@@ -29,6 +29,7 @@ permalink: /glossary/dynamics/a2ppo/
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 > 校对记录：
+>
 > 1. 2026年4月29日：纠正了a2ppo词条的参考文献引用错误，补充了作者信息，修正了一处格式错误。
 
 ## 定义
@@ -76,7 +77,7 @@ A2PPO 采用渐进式课程学习策略，逐步收紧成功阈值：初始阶�
 在四个地月空间低推力转移场景中的评估结果：
 
 | 场景 | 描述 | ToF (天) | 燃料 (kg) | 对比直接配点 |
-|:---|:---|:---:|:---:|:---|
+| :--- | :--- | :---: | :---: | :--- |
 | S1 | L₂ Halo → Halo | 4.95 | 2.08 | 4.99天 / 1.28kg |
 | S2 | L₂ Halo → NRHO | 8.38 | 5.00 | 7.26天 / 5.29kg |
 | S3 | NRHO → DRO | 7.60 | 5.10 | 7.63天 / 5.11kg |
@@ -101,12 +102,15 @@ A2PPO 在无任何初始猜测的条件下，自主学习到的轨迹与直接�
 ## 核心要素
 
 ### 方向交叉注意力机制
+
 A2PPO 采用 Critic → Actor 的不对称交叉注意力设计，Actor 令牌作为 Query，Critic 令牌作为 Key 和 Value，通过多头注意力进行特征融合。这种方向性设计使策略网络能够选择性关注 Critic 评估认为对未来价值重要的状态特征。
 
 ### 复合损失函数
+
 A2PPO 优化策略裁剪损失、价值函数误差和策略熵正则化的加权组合，通过 GAE 进行优势估计，平衡探索与利用。
 
 ### 课程学习训练
+
 采用渐进式课程学习策略，从宽松的终端位置/速度容忍度逐步收紧至精确阈值，避免混沌动力学环境中的初期不稳定性。
 
 ## 应用价值
@@ -119,7 +123,6 @@ A2PPO 在地月空间低推力轨迹优化中展现出无需初始猜测即可�
 - [课程学习（Curriculum Learning）](/glossary/dynamics/curriculum-learning/)
 - [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)
 - [直接配点法（Direct Collocation）](/glossary/dynamics/direct-collocation/)
-
 
 ## 参考文献
 

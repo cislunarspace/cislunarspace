@@ -41,7 +41,7 @@ $$Q_{net} = Q_{solar} + Q_{albedo} + Q_{IR,earth} - Q_{IR,sky} - Q_{conv} - Q_{c
 ### 各分量表达式
 
 | 热量项 | 表达式 | 方向 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 太阳辐射 | $Q_{solar} = \alpha_{skin} I_{sun} A_{proj}$ | 吸收 |
 | 地球反照 | $Q_{albedo} = \alpha_{skin} \rho_{albedo} I_{sun} A_{proj}$ | 吸收 |
 | 地球红外 | $Q_{IR,earth} = \varepsilon_{skin} \sigma T_{earth}^4 A_{proj}$ | 吸收 |
@@ -56,7 +56,7 @@ $$Q_{net} = Q_{solar} + Q_{albedo} + Q_{IR,earth} - Q_{IR,sky} - Q_{conv} - Q_{c
 将飞艇简化为两个节点：
 
 | 节点 | 描述 | 热容 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 节点1（蒙皮） | 外表面薄层 | $C_{skin}$ |
 | 节点2（氦气） | 内部氦气 | $C_{He}$ |
 

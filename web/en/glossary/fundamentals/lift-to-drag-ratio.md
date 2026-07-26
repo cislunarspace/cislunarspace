@@ -49,7 +49,7 @@ The lift-to-drag ratio directly reflects the vehicle's gliding and maneuvering c
 ### Lift-to-Drag Ratios of Different Vehicles
 
 | Vehicle Type | Typical L/D | Aerodynamic Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Spherical warhead | Approx. 0 | No lift, pure ballistic flight |
 | Capsule return vehicle | 0.2–0.5 | Small lift generated via center-of-mass offset |
 | Space shuttle | 1–3 | Significant lift from large wing surfaces |

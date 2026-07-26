@@ -59,7 +59,7 @@ Sci-Tec's navigation sensors have the following potential applications in the ci
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Star Tracker | Attitude Sensor | High-precision attitude determination, with sub-arcsecond accuracy |
 | Sun Sensor | Attitude Sensor | Sun direction detection, attitude backup |
 | Inertial Reference Unit | Inertial Measurement | Angular rate and acceleration measurement |

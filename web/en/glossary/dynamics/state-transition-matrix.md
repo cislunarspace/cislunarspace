@@ -47,7 +47,7 @@ For the CR3BP, the state vector is 6-dimensional (position and velocity), so $\P
 ## Applications
 
 | Application | Description |
-|:---|:---|
+| :--- | :--- |
 | Stability analysis | Eigenvalues of the monodromy matrix determine orbital stability |
 | Differential correction | Used to solve boundary value problems for periodic orbits |
 | Orbit design | Sensitivity analysis for trajectory optimization |

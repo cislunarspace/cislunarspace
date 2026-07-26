@@ -66,7 +66,7 @@ permalink: /glossary/orbits/eml-halo/
 在 CR3BP 模型中，晕轨道具有精确的周期性。然而在实际多体环境中，晕轨道的稳定性需要关注：
 
 | 轨道类型 | 年维持 $\Delta v$ | 主要误差源 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | EML1 Halo | ~10 m/s/年 | 太阳辐射压、导航误差 |
 | EML2 Halo | < 5 m/s/年 | 太阳辐射压、残留 $\Delta v$ |
 | DRO | < 5 m/s/年（Ephemeris 模型中多 年稳定） | 基本无需维持 |
@@ -127,8 +127,8 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 - [地月平动点](/glossary/orbits/eml-halo/)（注意：本文即为此概念详情）
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [星伞（Starshade）](/glossary/other/starshade/)
-- 微分修正（Differential Correction）
-- 打靶法（Shooting Method）
+- [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
+- [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
 
 ## 核心要素
 
@@ -149,7 +149,6 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 - **微分修正算法**迭代收敛至周期轨道
 - **CR3BP 模型**中使用 ode113 进行动力学传播
 - **星历模型转换**通过多步打靶法精化
-
 
 ## 参考文献
 

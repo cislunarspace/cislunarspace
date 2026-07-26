@@ -7,35 +7,33 @@
  * engine provides locale-filtered children with pre-resolved paths/labels;
  * the projection maps each to a `{ text, link? }` item.
  */
-import { engine as defaultEngine, WAYFINDING_ROOT_ID, createViewEngine } from '..'
-import type { Locale, TaxonomyModule } from '../types'
-import type { TaxonomyViewEngine } from '../view-engine'
-import type { VueSidebarItem } from '../../sidebar/types.ts'
+import { engine as defaultEngine, WAYFINDING_ROOT_ID, createViewEngine } from '..';
+import type { Locale, TaxonomyModule } from '../types';
+import type { TaxonomyViewEngine } from '../view-engine';
+import type { VueSidebarItem } from '../../sidebar/types.ts';
 
 /** Mirrors `SidebarIntake.VueSidebarItem` (see sidebar/types.ts). */
 export interface WayfindingIntake {
-  zh: VueSidebarItem
-  en: VueSidebarItem
+  zh: VueSidebarItem;
+  en: VueSidebarItem;
 }
 
 function buildSide(locale: Locale, viewEngine: TaxonomyViewEngine): VueSidebarItem {
-  const query = viewEngine.fromRoot(WAYFINDING_ROOT_ID).withLocale(locale)
-  const root = query.root()
+  const query = viewEngine.fromRoot(WAYFINDING_ROOT_ID).withLocale(locale);
+  const root = query.root();
   return {
     text: root!.label,
     collapsible: false,
-    children: query.list().map((vn) =>
-      vn.path
-        ? { text: vn.label, link: vn.path }
-        : { text: vn.label },
-    ),
-  }
+    children: query
+      .list()
+      .map((vn) => (vn.path ? { text: vn.label, link: vn.path } : { text: vn.label })),
+  };
 }
 
 export function buildWayfindingIntake(taxonomyModule?: TaxonomyModule): WayfindingIntake {
-  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine;
   return {
     zh: buildSide('zh', viewEngine),
     en: buildSide('en', viewEngine),
-  }
+  };
 }

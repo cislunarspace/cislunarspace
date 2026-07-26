@@ -45,7 +45,7 @@ where $\theta_{\text{det}}$ is the line-of-sight angle from the sensor to the ta
 ### Typical Values
 
 | Sensor Type | Minimum Exclusion Angle |
-|:---|:---|
+| :--- | :--- |
 | Ground-based optical telescopes | 15 - 45 degrees |
 | Space-based optical sensors | 30 - 90 degrees |
 
@@ -56,6 +56,7 @@ Klonowski (2025) considered both illumination constraints and pointing constrain
 ### Dual Constraints
 
 A target must satisfy both conditions simultaneously:
+
 1. It must be illuminated by the Sun (illumination constraint)
 2. The sensor must maintain sufficient angular separation from the Sun when pointing at the target (pointing constraint)
 

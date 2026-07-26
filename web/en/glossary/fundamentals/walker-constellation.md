@@ -39,7 +39,7 @@ A Walker Constellation is a class of uniformly symmetric satellite constellation
 The $\delta$ constellation is the most widely used Walker Constellation, described by the notation $i:T/P/F$, where:
 
 | Parameter | Meaning |
-|:---|:---|
+| :--- | :--- |
 | $i$ | Orbital inclination |
 | $T$ | Total number of satellites |
 | $P$ | Number of orbital planes |

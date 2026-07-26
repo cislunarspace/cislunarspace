@@ -17,8 +17,8 @@ pykep 是 ESA 先进概念团队（ACT）主导开发的行星际轨迹设计与
 
 - **许可证**：MPL-2.0（Mozilla Public License 2.0）
 - **来源**：ESA
-- **官网/文档**：https://esa.github.io/pykep/
-- **GitHub**：https://github.com/esa/pykep
+- **官网/文档**：<https://esa.github.io/pykep/>
+- **GitHub**：<https://github.com/esa/pykep>
 - **语言**：C++23 + Python（3.11 – 3.14）
 
 ## 主要功能
@@ -35,5 +35,5 @@ pykep 是 ESA 先进概念团队（ACT）主导开发的行星际轨迹设计与
 
 ## 官方资源
 
-- 官网/文档：https://esa.github.io/pykep/
-- GitHub：https://github.com/esa/pykep
+- 官网/文档：<https://esa.github.io/pykep/>
+- GitHub：<https://github.com/esa/pykep>

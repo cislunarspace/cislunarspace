@@ -55,6 +55,7 @@ SEM 导航的核心优势在于其自主性强、敏感器配置简单、观测�
 $$\mathbf{y} = h(\mathbf{X}) + \mathbf{v}_{\text{noise}}$$
 
 其中 $h(\cdot)$ 为非线性观测函数，将航天器状态映射为理论观测值。典型的观测包括：
+
 - 太阳张角（Solar Angular Diameter）
 - 地球张角（Earth Angular Diameter）
 - 月球张角（Lunar Angular Diameter）
@@ -77,7 +78,7 @@ SEM 导航系统的典型敏感器配置包括三种方案：
 ### 方案一：太阳敏感器 + 地球敏感器 + 月球敏感器
 
 | 敏感器 | 观测信息 | 精度要求 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 太阳敏感器 | 太阳方位 | ~0.01° |
 | 地球敏感器 | 地球张角或地心方向 | ~0.1% |
 | 月球敏感器 | 月球张角或月心方向 | ~0.1% |
@@ -122,6 +123,7 @@ SEM 导航的可观测性受以下因素影响：
 ### 仿真验证
 
 仿真研究表明，针对地月 L2 点拟周期 Halo 轨道：
+
 - 采用方案一（太阳+地球+月球敏感器）可在 2-3 个轨道周期内实现状态收敛
 - 导航精度受测量噪声和采样弧长显著影响
 - 扩展卡尔曼滤波能够有效处理非线性观测方程
@@ -138,4 +140,4 @@ SEM 导航的可观测性受以下因素影响：
 ## 参考文献
 
 - 钱霙婧. 地月空间拟周期轨道上航天器自主导航与轨道保持研究[D]. 哈尔滨工业大学, 2014.
-- Hill K, Born G H. Linked autonomous interplanetary satellite orbit navigation (LiAISON)[C]. AAS/AIAA Astrodynamics Specialist Conference, 2005.
+- Hill K, Born G H. Linked autonomous interplanetary satellite orbit navigation [LiAISON](C). AAS/AIAA Astrodynamics Specialist Conference, 2005.

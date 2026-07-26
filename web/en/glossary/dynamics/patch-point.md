@@ -43,7 +43,7 @@ In multi-segment orbit design (e.g., transfer trajectories, multi-revolution orb
 ## Selection Criteria
 
 | Criterion | Description |
-|:---|:---|
+| :--- | :--- |
 | Geometric location | Place patch points at physically meaningful positions (e.g., perilune, apolune, crossing points) |
 | Dynamics | Choose points where the dynamics change character (e.g., near libration points) |
 | Numerical conditioning | Avoid placing patch points where the state transition matrix is ill-conditioned |

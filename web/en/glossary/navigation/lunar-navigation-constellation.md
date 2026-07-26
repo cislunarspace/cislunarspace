@@ -28,7 +28,7 @@ permalink: /en/glossary/navigation/lunar-navigation-constellation/
 >
 > This article author: Tianjiang Shuo
 >
-> This article source: https://cislunarspace.cn
+> This article source: <https://cislunarspace.cn>
 
 ## Background and Basic Principles
 
@@ -51,7 +51,7 @@ China's research team comprehensively evaluated relay communication, lunar surfa
 ## Performance and Applications
 
 | Metric | Performance |
-|:---|:---|
+| :--- | :--- |
 | Positioning Accuracy | Sub-meter to 1 meter across the full lunar surface |
 | Coverage | Full lunar surface + entire near-lunar space |
 | System Reliability | High |
@@ -69,7 +69,7 @@ The Lunar Navigation Constellation is the long-term development direction, orien
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Earth GNSS Weak Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
 - Earth-Moon Hybrid Navigation
-- Inter-Satellite Link Navigation
+- [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
 - Queqiao Relay Satellite
 
 ## References

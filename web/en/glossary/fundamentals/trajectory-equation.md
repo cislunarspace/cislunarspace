@@ -39,7 +39,7 @@ The trajectory equation is a system of differential equations describing the cen
 The trajectory equation consists of the following components:
 
 | Component | Content | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Dynamic equations | Newton's second law projected onto each axis | Core equations |
 | Kinematic equations | Differential relationships between velocity and position | $\dot{x} = v\cos\theta$, etc. |
 | Control equations | Attitude control commands | $\delta_\varphi = a_0^\varphi(\varphi - \varphi_{pr})$ |
@@ -58,7 +58,7 @@ Projected onto the three axes of the launch frame, this yields a system of scala
 Selecting the velocity frame as the computation frame allows the trajectory equation to be separated into longitudinal and lateral equations of motion:
 
 | Equation Type | Key Parameters | Described Motion |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Longitudinal equations | $v$, $\theta$, $x$, $y$ | Motion in the firing plane |
 | Lateral equations | $\sigma$, $z$ | Motion perpendicular to the firing plane |
 

@@ -26,7 +26,7 @@ Artemis II is the second step in NASA's Artemis program and the **first crewed f
 The Artemis II crew comprises **four astronauts**:
 
 | Name | Country | Role |
-|------|---------|------|
+| ------ | --------- | ------ |
 | Reid Wiseman | United States | Commander |
 | Victor Glover | United States | Pilot |
 | Christina Koch | United States | Mission Specialist |

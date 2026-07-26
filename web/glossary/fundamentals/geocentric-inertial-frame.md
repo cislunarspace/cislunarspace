@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/geocentric-inertial-frame/
 目前最广泛使用的 ECI 是 J2000.0 地心惯性坐标系，其定义为：
 
 | 要素 | 定义 |
-|:---|:---|
+| :--- | :--- |
 | 原点 | 地球质心 |
 | $X_I Y_I$ 平面 | J2000.0 天球平赤道面 |
 | $X_I$ 轴 | 由地球质心指向 J2000.0 平春分点 |
@@ -50,7 +50,7 @@ permalink: /glossary/fundamentals/geocentric-inertial-frame/
 ### 与地心固联坐标系的区别
 
 | 特征 | 地心惯性坐标系（ECI） | 地心固联坐标系（ECEF） |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 坐标轴 | 指向惯性空间固定方向 | 随地球自转 |
 | 是否惯性系 | 是（近似） | 否（非惯性系） |
 | 典型应用 | 轨道力学、弹道计算 | 地面定位、地图投影 |
@@ -76,4 +76,4 @@ permalink: /glossary/fundamentals/geocentric-inertial-frame/
 
 - 郑伟, 安雪滢, 周祥, 何睿智. 空天飞行力学[M]. 国防科技大学, 2026.
 - 任萱, 肖峰. 人造地球卫星轨道力学[M]. 国防科技大学出版社.
-- IAU SOFA. IERS Conventions (2010)[S].
+- IAU SOFA. IERS Conventions [2010](S).

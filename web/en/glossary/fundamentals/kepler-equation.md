@@ -41,7 +41,7 @@ where $M = n(t - \tau)$ is the mean anomaly, $E$ is the eccentric anomaly, $e$ i
 ### Three Anomalies
 
 | Anomaly | Symbol | Definition | Characteristics |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | True anomaly | $f$ | Central angle between the spacecraft and perigee | Directly describes position; varies non-uniformly |
 | Eccentric anomaly | $E$ | Central angle of the corresponding point on the auxiliary circle | Related to $f$ through the half-angle formula |
 | Mean anomaly | $M$ | $n(t-\tau)$; a fictitious angle that varies uniformly | Proportional to time |
@@ -53,7 +53,7 @@ Relationships among the three: when $f = 0°$ or $180°$, $M = E = f$; when $f \
 Common methods for finding the eccentric anomaly $E$ from the elapsed time (inverse solution of Kepler's equation):
 
 | Method | Iteration Formula | Applicable Scenario |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Simple iteration | $E_{k+1} = M + e\sin E_k$ | Low-eccentricity orbits |
 | Newton-Raphson | $E_{k+1} = E_k - \frac{E_k - e\sin E_k - M}{1 - e\cos E_k}$ | General purpose; fast convergence |
 | Series expansion | $E = M + e\sin M + \frac{e^2}{2}\sin 2M + \cdots$ | Low-eccentricity; analytical expression |

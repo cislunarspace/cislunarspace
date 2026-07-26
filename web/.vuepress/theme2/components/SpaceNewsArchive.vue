@@ -18,31 +18,47 @@
           class="sna-filter-btn"
           :class="{ active: activeFilter === 'all' }"
           @click="activeFilter = 'all'"
-        >{{ labels.all }}</button>
+        >
+          {{ labels.all }}
+        </button>
         <button
           v-for="cat in usedCategories"
           :key="cat.key"
           class="sna-filter-btn"
           :class="{ active: activeFilter === cat.key }"
-          :style="activeFilter === cat.key ? { background: cat.color, borderColor: cat.color, color: '#fff' } : {}"
+          :style="
+            activeFilter === cat.key
+              ? { background: cat.color, borderColor: cat.color, color: '#fff' }
+              : {}
+          "
           @click="activeFilter = cat.key"
-        >{{ cat.label }}</button>
+        >
+          {{ cat.label }}
+        </button>
       </nav>
 
-      <section v-for="(group, gIdx) in filteredGroups" :key="group.key" :id="group.key" class="sna-group scroll-reveal revealed" :class="`scroll-reveal-delay-${(gIdx % 3) + 1}`">
+      <section
+        v-for="(group, gIdx) in filteredGroups"
+        :id="group.key"
+        :key="group.key"
+        class="sna-group scroll-reveal revealed"
+        :class="`scroll-reveal-delay-${(gIdx % 3) + 1}`"
+      >
         <h2 class="sna-group__title">{{ group.label }}</h2>
         <ul class="sna-cards">
           <li v-for="item in group.items" :key="item.path" class="sna-cards__cell">
             <router-link :to="item.path" class="sna-card">
               <div class="sna-card__img" :style="cardBg(item)">
-                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
+                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{
+                  item.categoryLabel
+                }}</span>
               </div>
               <div class="sna-card__body">
                 <h3 class="sna-card__title">{{ item.title }}</h3>
                 <p class="sna-card__deck">{{ item.description }}</p>
                 <div class="sn-meta">
                   <span v-if="item.author" class="sn-meta__author">{{ item.author }}</span>
-                  <span class="sn-meta__dot" v-if="item.author && item.date">&middot;</span>
+                  <span v-if="item.author && item.date" class="sn-meta__dot">&middot;</span>
                   <time v-if="item.date" class="sn-meta__date">{{ formatDate(item.date) }}</time>
                 </div>
               </div>
@@ -59,25 +75,25 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watch, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
-import { useIsEn } from '../composables/useIsEn'
-import type { ArticlesData } from '../utils/types'
+import { computed, ref, watch, onMounted } from 'vue';
+import { useRoute } from 'vue-router';
+import { useIsEn } from '../composables/useIsEn';
+import type { ArticlesData } from '../utils/types';
 import {
   buildSpaceNewsDirectoryView,
   type SpaceNewsArticleView,
   type SpaceNewsCategoryMeta,
-} from '../utils/spaceNewsDirectoryView'
-import { articleCardBackground, formatArticleDate } from '../utils/spaceNewsPresentation'
-import { spaceNewsLabels } from '../utils/spaceNewsLabels'
+} from '../utils/spaceNewsDirectoryView';
+import { articleCardBackground, formatArticleDate } from '../utils/spaceNewsPresentation';
+import { spaceNewsLabels } from '../utils/spaceNewsLabels';
 
-const isEn = useIsEn()
-const route = useRoute()
-const activeFilter = ref('all')
+const isEn = useIsEn();
+const route = useRoute();
+const activeFilter = ref('all');
 
-const articlesData = ref<ArticlesData | null>(null)
-const categoryMeta = ref<SpaceNewsCategoryMeta>({})
-const fetchError = ref(false)
+const articlesData = ref<ArticlesData | null>(null);
+const categoryMeta = ref<SpaceNewsCategoryMeta>({});
+const fetchError = ref(false);
 
 onMounted(async () => {
   try {
@@ -87,9 +103,9 @@ onMounted(async () => {
     articlesData.value = data
     categoryMeta.value = data.categoryMeta ?? {}
   } catch {
-    fetchError.value = true
+    fetchError.value = true;
   }
-})
+});
 
 // 从 URL query 读取分类过滤（校验 category 是否有效）
 watch(() => route.query.category, (cat) => {
@@ -102,40 +118,40 @@ watch(() => route.query.category, (cat) => {
 }, { immediate: true })
 
 const directoryView = computed(() => {
-  if (!articlesData.value) return null
+  if (!articlesData.value) return null;
   return buildSpaceNewsDirectoryView({
     articles: isEn.value ? articlesData.value.en : articlesData.value.zh,
     locale: isEn.value ? 'en' : 'zh',
     categoryMeta: categoryMeta.value,
-  })
-})
+  });
+});
 
-const labels = computed(() => spaceNewsLabels.archive[isEn.value ? 'en' : 'zh'])
-const usedCategories = computed(() => directoryView.value?.usedCategories ?? [])
-const monthGroups = computed(() => directoryView.value?.monthGroups ?? [])
+const labels = computed(() => spaceNewsLabels.archive[isEn.value ? 'en' : 'zh']);
+const usedCategories = computed(() => directoryView.value?.usedCategories ?? []);
+const monthGroups = computed(() => directoryView.value?.monthGroups ?? []);
 
-const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'))
+const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'));
 
 const filteredGroups = computed(() => {
-  if (activeFilter.value === 'all') return monthGroups.value
+  if (activeFilter.value === 'all') return monthGroups.value;
   return monthGroups.value
-    .map(group => ({
+    .map((group) => ({
       ...group,
-      items: group.items.filter(article => article.category?.includes(activeFilter.value)),
+      items: group.items.filter((article) => article.category?.includes(activeFilter.value)),
     }))
-    .filter(group => group.items.length > 0)
-})
+    .filter((group) => group.items.length > 0);
+});
 
 function catStyle(article: SpaceNewsArticleView) {
-  return { background: article.categoryColor, color: '#fff' }
+  return { background: article.categoryColor, color: '#fff' };
 }
 
 function cardBg(article: SpaceNewsArticleView) {
-  return articleCardBackground(article)
+  return articleCardBackground(article);
 }
 
 function formatDate(raw: string | null) {
-  return formatArticleDate(raw, isEn.value ? 'en' : 'zh')
+  return formatArticleDate(raw, isEn.value ? 'en' : 'zh');
 }
 </script>
 
@@ -259,7 +275,9 @@ function formatDate(raw: string | null) {
   text-decoration: none;
   color: inherit;
   border: 1px solid var(--vp-c-border);
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
 
   &:hover {
     border-color: var(--vp-c-accent);

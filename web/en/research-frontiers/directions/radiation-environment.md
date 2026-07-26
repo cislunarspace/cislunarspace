@@ -33,4 +33,5 @@ A 2026 study discovered regions of significantly reduced GCR flux ("GCR cavity")
 ---
 
 **Related Links**
+
 - ↑ [Research Directions](../README.md) — Return to directions index

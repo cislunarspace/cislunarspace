@@ -48,7 +48,7 @@ permalink: /glossary/orbits/axial-orbit/
 根据地月系统中的平动点位置，轴向轨道可分为以下族：
 
 | 轨道族 | 所属平动点 | 特征 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | A1（Axial L1） | L1 | 位于地月连线之间，周期约 17 天 |
 | A2（Axial L2） | L2 | 位于月球背向地球一侧，周期约 19 天 |
 | A3（Axial L3） | L3 | 位于地球背向月球一侧，周期约 27 天 |
@@ -59,7 +59,7 @@ permalink: /glossary/orbits/axial-orbit/
 以地月系统为例，轴向轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
 
 | 轨道族 | Jacobi 常数范围 | 周期范围（天） | 稳定性指数范围 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | A1 | 2.9918 ~ 3.0214 | 17.15 ~ 17.65 | 200 ~ 254 |
 | A2 | 2.9671 ~ 3.0138 | 18.72 ~ 19.20 | 128 ~ 168 |
 | A3 | 0.0165 ~ 1.8588 | 27.19 ~ 27.21 | 1.05 ~ 1.16 |
@@ -92,6 +92,7 @@ A1 和 A2 轴向轨道的 Jacobi 常数范围与 L1/L2 Lyapunov 轨道的能量�
 - **动力学研究基础**：作为平动点轨道分类体系的重要组成部分，轴向轨道是理解地月空间复杂动力学结构的关键
 
 ## 相关概念
+
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - [垂直轨道（Vertical Orbit）](/glossary/orbits/vertical-orbit/)
@@ -99,6 +100,7 @@ A1 和 A2 轴向轨道的 Jacobi 常数范围与 L1/L2 Lyapunov 轨道的能量�
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.

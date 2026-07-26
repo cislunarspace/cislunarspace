@@ -58,7 +58,7 @@ Quindar's TT&C ground stations are related to cislunar space communications in t
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | TT&C Ground Station Antenna | Hardware | Multi-band satellite tracking and communications antenna |
 | Satellite Operations Management Platform | Software | Multi-satellite mission control and data processing |
 | Launch Tracking System | Systems Integration | Telemetry reception during rocket launch |

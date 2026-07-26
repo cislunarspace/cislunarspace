@@ -41,7 +41,7 @@ where $\mathbf{g}$ is the gravitational acceleration, $\mathbf{a}_e' = -\boldsym
 ### Comparison of Gravitation and Gravity
 
 | Characteristic | Gravitation | Gravity |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Source | Universal gravitation | Gravitation + centrifugal inertia force |
 | Direction | Toward the geocenter | Deviates from the geocenter (toward the equator) |
 | Magnitude variation | Varies only with geocentric distance | Varies with geocentric distance and latitude |
@@ -71,5 +71,5 @@ Correctly distinguishing between gravity and gravitation is fundamental to formu
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Ren Xuan, Xiao Feng. Artificial Satellite Orbital Mechanics (人造地球卫星轨道力学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Ren Xuan, Xiao Feng. Artificial Satellite Orbital Mechanics [人造地球卫星轨道力学](M). National University of Defense Technology Press.

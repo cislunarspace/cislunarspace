@@ -57,7 +57,7 @@ $$\Theta_{ke,\mathrm{opt}} = \frac{1}{4}(\pi - \beta_{ke,\max})$$
 ### Physical Significance
 
 | Property | Description |
-|:---|:---|
+| :--- | :--- |
 | Maximum range | At equal energy, $\Theta_{k,\mathrm{opt}}$ maximizes the range |
 | Minimum energy | At equal range, $\Theta_{k,\mathrm{opt}}$ minimizes the required energy |
 | Error sensitivity | At $\Theta_k = \Theta_{k,\mathrm{opt}}$, $\partial L/\partial\Theta_k = 0$, so velocity inclination deviations do not cause range deviations |

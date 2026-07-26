@@ -48,7 +48,7 @@ permalink: /glossary/orbits/short-period-orbit/
 Doedel 等人（2007）系统研究了三角平动点附近的周期轨道族，短周期轨道的主要特征如下：
 
 | 参数 | 特征 |
-|:---|:---|
+| :--- | :--- |
 | 振幅 | 小（L4/L5 附近） |
 | 轨道周期 | 短（相对 Long Period Orbit 和 Horseshoe Orbit） |
 | 轨道形状 | 近似椭圆 |

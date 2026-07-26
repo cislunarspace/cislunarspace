@@ -78,7 +78,7 @@ Typical sensor configurations for SEM navigation systems include three schemes:
 ### Scheme 1: Sun Sensor + Earth Sensor + Moon Sensor
 
 | Sensor | Measurement Information | Accuracy Requirement |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Sun sensor | Sun azimuth | ~0.01 degrees |
 | Earth sensor | Earth angular diameter or Earth-center direction | ~0.1% |
 | Moon sensor | Moon angular diameter or Moon-center direction | ~0.1% |

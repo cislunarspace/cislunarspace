@@ -43,7 +43,7 @@ Typical categories of noncooperative targets include:
 ## Comparison with Cooperative Targets
 
 | Feature | Cooperative Target | Noncooperative Target |
-|---------|-------------------|----------------------|
+| --------- | ------------------- | ---------------------- |
 | Communication | Active status data sharing | None or non-responsive |
 | Intent transparency | Known or negotiable | Unknown, must be inferred from observation |
 | Trajectory info | Precise (GNSS data sharing) | Requires ground/space-based observation |

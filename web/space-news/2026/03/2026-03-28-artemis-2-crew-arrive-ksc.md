@@ -20,8 +20,6 @@ wechatShare:
 
 NASA 的 Reid Wiseman（指令长）、Victor Glover（驾驶员）、Christina Koch（任务专家）及加拿大航天局的 Jeremy Hansen（任务专家），与备份航天员 NASA 的 Andre Douglas 和 CSA 的 Jenni Gibbons，一同从约翰逊航天中心出发，驾驶三架 T-38 喷气机于当日下午约 2:15（美国东部时间）降落在 KSC。乘组自 3 月 18 日起已进入 14 天隔离期。
 
-
-
 迎接仪式由 NASA 局长贾里德·艾萨克曼、加拿大航天局局长 Lisa Campbell 以及 NASA 探索系统开发代理副 administrator Lori Glaze 主持。
 
 ## 发射窗口
@@ -39,7 +37,7 @@ Artemis II 不会尝试绕月飞行或着陆，而是采用"自由返回"轨迹�
 ## 后续活动安排
 
 | 日期（美国东部时间） | 活动 |
-|------|------|
+| ------ | ------ |
 | 3 月 29 日 11:30 | 乘组在隔离区接受媒体提问 |
 | 3 月 29 日 14:00 | NASA 新闻发布会 |
 | 3 月 30 日 17:00 | 任务管理会议后 NASA 新闻发布会 |

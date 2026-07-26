@@ -44,61 +44,62 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
-import { useRoute } from 'vuepress/client'
-import { onContentUpdated } from 'vuepress/client'
-import { usePage } from 'vuepress/client'
-import type { PageData } from '../utils/types'
+import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue';
+import { useRoute } from 'vuepress/client';
+import { onContentUpdated } from 'vuepress/client';
+import { usePage } from 'vuepress/client';
+import type { PageData } from '../utils/types';
 
 interface TocHeader {
-  id: string
-  text: string
-  level: number
-  children: TocHeader[]
+  id: string;
+  text: string;
+  level: number;
+  children: TocHeader[];
 }
 
-const route = useRoute()
-const page = usePage()
-const activeId = ref('')
-const headerList = ref<TocHeader[]>([])
+const route = useRoute();
+const page = usePage();
+const activeId = ref('');
+const headerList = ref<TocHeader[]>([]);
 
 const pageTitle = computed(() => {
-  return (page.value as PageData).title || ''
-})
+  return (page.value as PageData).title || '';
+});
 
 function extractHeaders(): TocHeader[] {
-  const content = document.querySelector('[vp-content]') || document.querySelector('.theme-default-content')
-  if (!content) return []
+  const content =
+    document.querySelector('[vp-content]') || document.querySelector('.theme-default-content');
+  if (!content) return [];
 
-  const headingElements = content.querySelectorAll('h2, h3')
-  const result: TocHeader[] = []
-  let currentH2: TocHeader | null = null
+  const headingElements = content.querySelectorAll('h2, h3');
+  const result: TocHeader[] = [];
+  let currentH2: TocHeader | null = null;
 
   headingElements.forEach((el) => {
-    const id = el.getAttribute('id')
-    if (!id) return
-    const text = (el.textContent || '').replace(/^#\s*/, '').trim()
-    if (!text) return
+    const id = el.getAttribute('id');
+    if (!id) return;
+    const text = (el.textContent || '').replace(/^#\s*/, '').trim();
+    if (!text) return;
 
-    const level = parseInt(el.tagName[1], 10)
+    const level = parseInt(el.tagName[1], 10);
 
     if (level === 2) {
-      currentH2 = { id, text, level, children: [] }
-      result.push(currentH2)
+      currentH2 = { id, text, level, children: [] };
+      result.push(currentH2);
     } else if (level === 3) {
       if (currentH2) {
-        currentH2.children.push({ id, text, level, children: [] })
+        currentH2.children.push({ id, text, level, children: [] });
       } else {
-        result.push({ id, text, level, children: [] })
+        result.push({ id, text, level, children: [] });
       }
     }
-  })
+  });
 
-  return result
+  return result;
 }
 
 function scrollTo(id: string) {
-  const el = document.getElementById(id)
+  const el = document.getElementById(id);
   if (el) {
     const navHeight = 60
     const top = el.getBoundingClientRect().top + window.scrollY - navHeight
@@ -109,65 +110,65 @@ function scrollTo(id: string) {
 }
 
 function updateActive() {
-  const allIds: string[] = []
+  const allIds: string[] = [];
   for (const h of headerList.value) {
-    allIds.push(h.id)
+    allIds.push(h.id);
     for (const c of h.children) {
-      allIds.push(c.id)
+      allIds.push(c.id);
     }
   }
-  if (!allIds.length) return
+  if (!allIds.length) return;
 
-  const navHeight = 70
-  let current = allIds[0]
+  const navHeight = 70;
+  let current = allIds[0];
   for (const id of allIds) {
-    const el = document.getElementById(id)
+    const el = document.getElementById(id);
     if (el && el.getBoundingClientRect().top <= navHeight + 10) {
-      current = id
+      current = id;
     }
   }
-  activeId.value = current
+  activeId.value = current;
 }
 
 function refreshHeaders() {
-  headerList.value = extractHeaders()
+  headerList.value = extractHeaders();
   if (route.hash) {
-    activeId.value = route.hash.replace('#', '')
+    activeId.value = route.hash.replace('#', '');
   } else {
-    updateActive()
+    updateActive();
   }
 }
 
-let ticking = false
+let ticking = false;
 function onScroll() {
   if (!ticking) {
-    ticking = true
+    ticking = true;
     requestAnimationFrame(() => {
-      updateActive()
-      ticking = false
-    })
+      updateActive();
+      ticking = false;
+    });
   }
 }
 
 onMounted(() => {
-  window.addEventListener('scroll', onScroll, { passive: true })
-  nextTick(refreshHeaders)
-})
+  window.addEventListener('scroll', onScroll, { passive: true });
+  nextTick(refreshHeaders);
+});
 
 onBeforeUnmount(() => {
-  window.removeEventListener('scroll', onScroll)
-})
+  window.removeEventListener('scroll', onScroll);
+});
 
 onContentUpdated((reason) => {
   if (reason !== 'beforeUnmount') {
-    setTimeout(refreshHeaders, 100)
+    setTimeout(refreshHeaders, 100);
   }
-})
+});
 
 watch(
   () => route.path,
   () => setTimeout(refreshHeaders, 200),
-)
+);
 </script>
 
 <style lang="scss">
@@ -261,20 +262,22 @@ watch(
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  transition: color 0.25s var(--ease-smooth), padding-left 0.25s var(--ease-out-expo);
+  transition:
+    color 0.25s var(--ease-smooth),
+    padding-left 0.25s var(--ease-out-expo);
   border-radius: 4px;
   padding: 2px 6px;
   margin-left: -6px;
 
   &:hover {
     color: var(--c-brand, #2563eb);
-    background: var(--c-accent-soft, rgba(14,165,233,0.06));
+    background: var(--c-accent-soft, rgba(14, 165, 233, 0.06));
   }
 
   &.active {
     color: var(--c-brand, #2563eb);
     font-weight: 600;
-    background: var(--c-accent-soft, rgba(14,165,233,0.06));
+    background: var(--c-accent-soft, rgba(14, 165, 233, 0.06));
     padding-left: 10px;
   }
 }

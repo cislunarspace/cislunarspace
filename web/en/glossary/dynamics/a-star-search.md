@@ -22,11 +22,11 @@ wechatShare:
   image: "/logo.png"
 ---
 
-# A* Search Algorithm (A* Search)
+# A*Search Algorithm (A* Search)
 
 ## Definition
 
-The A* Search Algorithm, introduced by Hart, Nilsson, and Raphael in 1968, is an optimal path search algorithm that combines the shortest-path guarantee of Dijkstra's algorithm with the heuristic efficiency of greedy best-first search. A* algorithm guarantees finding the minimum-cost path from a start node to a goal node in weighted graph search.
+The A*Search Algorithm, introduced by Hart, Nilsson, and Raphael in 1968, is an optimal path search algorithm that combines the shortest-path guarantee of Dijkstra's algorithm with the heuristic efficiency of greedy best-first search. A* algorithm guarantees finding the minimum-cost path from a start node to a goal node in weighted graph search.
 
 ## Algorithm Principles
 
@@ -37,6 +37,7 @@ The A* algorithm uses the following evaluation function to select the next node 
 $$f(n) = g(n) + h(n)$$
 
 Where:
+
 - $g(n)$: The actual cost from the start node to the current node $n$
 - $h(n)$: The heuristic estimated cost from node $n$ to the goal
 
@@ -45,7 +46,7 @@ Where:
 The performance of the A* algorithm depends on the design of the heuristic function $h(n)$:
 
 | Condition | Property | Result |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $h(n) = 0$ | Degrades to Dijkstra | Guarantees optimality |
 | $h(n) \leq h^*(n)$ | Admissible | Guarantees optimality |
 | $h(n) > h^*(n)$ | Over-estimation | May be non-optimal |
@@ -64,6 +65,7 @@ The performance of the A* algorithm depends on the design of the heuristic funct
 ## Application in Persistent Detection Corridors
 
 Klonowski (2025) used the A* algorithm to search for continuously detectable paths in the detection graph for Persistent Detection Corridor (PDC) generation:
+
 - Nodes: Centroids of detectable regions
 - Edges: Connectivity between adjacent detectable regions
 - Edge weights: Control cost for traversing adjacent regions
@@ -73,12 +75,15 @@ The A* algorithm ensures finding the continuously detectable path with minimum c
 ## Core Elements
 
 ### Mathematical Definition
+
 The A* algorithm searches for minimum-cost paths on a graph $\mathcal{G} = (\mathcal{V}, \mathcal{E})$, with optimality guaranteed when the heuristic function $h(n)$ is admissible.
 
 ### Key Properties
+
 The time complexity of A* algorithm is $O(|E| \log|V|)$, and space complexity is $O(|V|)$. The design of the heuristic function directly affects algorithm efficiency.
 
 ### Application Scenarios
+
 A* algorithm is suitable for path planning, game AI, robot navigation, cislunar trajectory search, and other scenarios.
 
 ## Related Concepts

@@ -57,7 +57,7 @@ where $R$ is the Starshade radius and $s$ is the separation distance. For a 72 m
 Starshade technology has not yet reached mission-ready status (TRL 9). Primary challenges include:
 
 | Challenge | Description |
-|:---|:---|
+| :--- | :--- |
 | Solar glint | Solar reflections off the occulter surface causing interference |
 | Thermal control | Long-duration thermal stability in deep space |
 | Structural vibration dampening | Micro-vibration control of large deployable structures |

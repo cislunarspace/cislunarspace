@@ -37,7 +37,7 @@ The Geosynchronous Satellite Launch Vehicle (GSLV) is a large launch vehicle ser
 ## Technical Specifications
 
 | Parameter | GSLV Mark II | GSLV Mark III |
-|-----------|--------------|---------------|
+| ----------- | -------------- | --------------- |
 | GTO Payload Capacity | ~2,500 kg | ~4,000 kg |
 | GEO Payload Capacity | ~2,000 kg | ~3,000 kg |
 | Vehicle Type | Liquid/Cryogenic Upper Stage | Liquid/Cryogenic Upper Stage |

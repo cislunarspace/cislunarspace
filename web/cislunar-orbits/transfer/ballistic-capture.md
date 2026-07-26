@@ -16,7 +16,7 @@ permalink: /cislunar-orbits/transfer/ballistic-capture/
 >
 > 本文编辑来源：[CislunarSpace](https://cislunarspace.cn)
 >
-> 来源：https://cislunarspace.cn
+> 来源：<https://cislunarspace.cn>
 
 # 弹道捕获
 
@@ -29,10 +29,10 @@ permalink: /cislunar-orbits/transfer/ballistic-capture/
 ## Ballistic Capture vs 动力捕获
 
 | 特性 | 弹道捕获 | 动力捕获 |
-|------|----------|----------|
-| 月球附近推进 | 无需 | 需要（$\Delta V \sim 0.8-1.0$ km/s）|
+| ------ | ---------- | ---------- |
+| 月球附近推进 | 无需 | 需要（$\Delta V \sim 0.8-1.0$ km/s） |
 | 发射时机要求 | 非常精确（窗口窄） | 相对宽松 |
-| 转移时间 | 较长（1-3 个月） | 较短（3-5 天）|
+| 转移时间 | 较长（1-3 个月） | 较短（3-5 天） |
 | 燃料效率 | 高 | 中等 |
 | 任务适用性 | 小型探测器、立方星 | 载人、货运、紧急任务 |
 
@@ -67,6 +67,7 @@ WSB 理论由意大利数学家 Belbruno 和 Miller 于 1987 年提出，其核�
 ## 相关概念
 
 弹道捕获的动力学基础涉及限制性三体问题（CR3BP）和弱稳定边界理论。详见：
+
 - [限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [弱稳定边界（WSB）](/glossary/)
 

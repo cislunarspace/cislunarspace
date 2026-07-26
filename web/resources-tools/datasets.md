@@ -31,15 +31,18 @@ permalink: /resources-tools/datasets/
 ## JPL星历
 
 ### DE系列星历简介
+
 JPL星历（Development Ephemerides）是美国喷气推进实验室发布的高精度行星和月球位置数据，广泛应用于深空探测任务。
 
 ### 可用版本
 
 #### DE405（适用于一般地月任务）
+
 - **覆盖时间**：1600年-2200年
 - **精度**：月球位置精度约2-5米
 - **适用场景**：大多数地月空间任务分析
 - **下载链接**：
+
   ```bash
   # 官方FTP下载
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de405/
@@ -49,38 +52,46 @@ JPL星历（Development Ephemerides）是美国喷气推进实验室发布的高
   ```
 
 #### DE421
+
 - **覆盖时间**：1900年-2050年
 - **精度**：月球位置精度约1米
 - **特点**：包含更多小行星数据
 - **下载链接**：
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de421/
   ```
 
 #### DE430
+
 - **覆盖时间**：1550年-2650年
 - **精度**：月球位置精度约0.5米
 - **特点**：包含月球天平动数据
 - **下载链接**：
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de430/
   ```
 
 #### DE440（推荐用于高精度任务）
+
 - **覆盖时间**：1550年-2650年
 - **精度**：月球位置精度约0.1米
 - **特点**：基于更长的观测弧段和改进的月球星历拟合，适合高精度地月空间任务
 - **参考文献**：Park et al., 2021
 - **下载链接**：
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de440/
   ```
 
 #### DE441
+
 - **覆盖时间**：约前13200年-约后17191年
 - **精度**：与 DE440 相当，但时间跨度极长
 - **特点**：适用于历史回溯和长期轨道演化研究
 - **下载链接**：
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de441/
   ```
@@ -88,6 +99,7 @@ JPL星历（Development Ephemerides）是美国喷气推进实验室发布的高
 ### 数据格式说明
 
 #### ASCII格式
+
 ```plaintext
 # DE405头部信息示例
 *******************************************************************************
@@ -101,6 +113,7 @@ JPL星历（Development Ephemerides）是美国喷气推进实验室发布的高
 ```
 
 #### 二进制SPK格式
+
 ```bash
 # SPK文件下载
 https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de405.bsp
@@ -109,6 +122,7 @@ https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de405.bsp
 ### 使用示例
 
 #### Python读取DE星历
+
 ```python
 import numpy as np
 from astropy.time import Time
@@ -131,6 +145,7 @@ print(f"月球位置: {moon_pos} km")
 ```
 
 #### MATLAB读取DE星历
+
 ```matlab
 % 使用MATLAB Aerospace Toolbox
 jd = juliandate(datetime(2025,1,1));
@@ -146,26 +161,31 @@ disp(['月球位置: ', num2str(moon_pos), ' km']);
 ## 月球重力场模型
 
 ### 模型概述
+
 月球重力场模型用于精确计算月球引力势，对月球轨道设计和维持至关重要。
 
 ### 主要模型
 
 #### GRGM系列（GRAIL任务）
+
 - **GRGM900C**：900阶次，空间分辨率约5.6km
 - **GRGM1200A**：1200阶次，空间分辨率约4.2km
 - **GRGM660PRIM**：660阶次，针对极区优化
 
 #### GL系列（历史模型）
+
 - **GL0660B**：660阶次，基于历史数据
 - **GL0900D**：900阶次，结合多种数据源
 
 #### SGM系列（日本模型）
+
 - **SGM100i**：100阶次，基于Kaguya数据
 - **SGM150i**：150阶次，更高精度版本
 
 ### 下载链接
 
 #### NASA PDS存档
+
 ```bash
 # GRAIL重力场模型
 https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-gravity-v1/
@@ -175,6 +195,7 @@ https://pgda.gsfc.nasa.gov/products/71
 ```
 
 #### ISDC数据门户
+
 ```bash
 # 欧洲数据存档
 https://ssedata.gsfc.nasa.gov/archive/grail/
@@ -183,6 +204,7 @@ https://ssedata.gsfc.nasa.gov/archive/grail/
 ### 数据格式
 
 #### 球谐系数文件
+
 ```plaintext
 # GRGM900C头部示例
 Product_id           = "GRGM900C"
@@ -205,6 +227,7 @@ degree order C_nm S_nm sigma_C sigma_S
 ### 使用示例
 
 #### Python计算月球引力
+
 ```python
 import numpy as np
 import pyshtools
@@ -232,11 +255,13 @@ print(f"重力加速度: [{g_lat}, {g_lon}, {g_r}] m/s²")
 ### 太阳辐射数据
 
 #### 太阳常数
+
 - **平均值**：1361 W/m²
 - **变化范围**：±0.1%
 - **数据源**：SORCE/TIM, TSIS-1
 
 #### 下载链接
+
 ```bash
 # NASA太阳辐射数据
 https://lasp.colorado.edu/lisird/data/
@@ -248,16 +273,19 @@ https://www.ncei.noaa.gov/products/climate-data-records/solar-irradiance
 ### 地磁场模型
 
 #### IGRF模型
+
 - **国际地磁参考场**：每5年更新
 - **阶次**：13阶（1900-2020）
 - **精度**：约50nT
 
 #### WMM模型
+
 - **世界磁场模型**：每5年更新
 - **适用区域**：全球
 - **精度**：优于100nT
 
 #### 下载链接
+
 ```bash
 # IGRF模型
 https://www.ngdc.noaa.gov/IAGA/vmod/igrf.html
@@ -269,16 +297,19 @@ https://www.ncei.noaa.gov/products/world-magnetic-model
 ### 高层大气模型
 
 #### NRLMSISE-00
+
 - **覆盖高度**：0-1000km
 - **参数**：温度、密度、成分
 - **适用性**：地球轨道任务
 
 #### JB2008
+
 - **改进版本**：包含太阳活动影响
 - **精度**：优于15%
 - **适用性**：长期轨道衰减预测
 
 #### 下载链接
+
 ```bash
 # CelesTrak大气模型
 https://celestrak.org/SpaceData/
@@ -290,6 +321,7 @@ https://omniweb.gsfc.nasa.gov/
 ### 使用示例
 
 #### 计算大气密度
+
 ```python
 import numpy as np
 from spaceweather import sw_download
@@ -318,6 +350,7 @@ print(f"大气密度: {density['Total']} kg/m³")
 ### 数据预处理
 
 #### 格式转换
+
 ```python
 # 将ASCII星历转换为二进制
 from jplephem import ascii2bin
@@ -326,6 +359,7 @@ ascii2bin.convert('de405.asc', 'de405.bsp')
 ```
 
 #### 数据验证
+
 ```python
 # 检查数据完整性
 import hashlib
@@ -345,11 +379,13 @@ def verify_file(filepath, expected_md5):
 ### 最佳实践
 
 #### 数据管理
+
 1. **版本控制**：记录使用的数据版本
 2. **备份策略**：重要数据多重备份
 3. **元数据记录**：记录数据来源和处理过程
 
 #### 性能优化
+
 ```python
 # 使用内存映射提高大文件读取性能
 import numpy as np
@@ -361,6 +397,7 @@ data = np.memmap('large_data.bin', dtype='float64', mode='r')
 ### 常见问题
 
 #### 数据缺失处理
+
 ```python
 def handle_missing_data(data, method='interpolate'):
     """
@@ -382,6 +419,7 @@ def handle_missing_data(data, method='interpolate'):
 ```
 
 #### 数据更新策略
+
 ```bash
 # 自动更新脚本示例
 #!/bin/bash
@@ -394,16 +432,19 @@ python process_spaceweather.py f107.txt
 ### 资源链接
 
 #### 官方数据门户
+
 - [NASA行星数据系统](https://pds.nasa.gov/)
 - [ESA科学数据中心](https://www.cosmos.esa.int/)
 - [JAXA数据存档](https://data.darts.isas.jaxa.jp/)
 
 #### 社区资源
+
 - [空间数据共享平台](https://spacedata.org/)
 - [天体动力学数据交换](https://astrodynamics.org/data/)
 - [开源科学数据仓库](https://zenodo.org/)
 
 #### 工具软件
+
 - [SPICE工具包](https://naif.jpl.nasa.gov/naif/toolkit.html)
 - [HORIZONS系统](https://ssd.jpl.nasa.gov/horizons/)
 - [GMAT数据接口](https://github.com/NASA-AMMOS/GMAT/wiki/Data-Interfaces)

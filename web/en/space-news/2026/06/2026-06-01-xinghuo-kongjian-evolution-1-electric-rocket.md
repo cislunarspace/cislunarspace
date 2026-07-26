@@ -15,7 +15,7 @@ category: commercial
 ## Evolution-1 Key Specifications
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | Total Length | 27.5 m |
 | Body Diameter | 2.25 m |
 | Liftoff Thrust | 90 tons |

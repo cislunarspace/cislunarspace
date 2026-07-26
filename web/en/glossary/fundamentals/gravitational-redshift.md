@@ -41,6 +41,7 @@ Within the framework of general relativity, the relative frequency shift between
 $$\frac{\Delta f}{f} = (1 + \alpha) \frac{\Delta U}{c^2}$$
 
 Where:
+
 - $\Delta f/f$ is the relative frequency shift
 - $\Delta U$ is the gravitational potential difference
 - $c$ is the speed of light in vacuum
@@ -51,7 +52,7 @@ Gravitational redshift experiments constrain $\alpha$ to test the Einstein Equiv
 ## Historical Verification Experiments
 
 | Experiment | Year | Precision | Notes |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Pound-Rebka-Snider | 1960s | ~1% | Harvard ground experiment |
 | Tokyo Skytree | 2020 | $1.4 \times 10^{-5}$ | Strontium optical lattice clock |
 | Gravity Probe A | 1976 | $1.41 \times 10^{-4}$ | Spaceborne maser clock |

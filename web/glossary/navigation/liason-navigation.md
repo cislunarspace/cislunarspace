@@ -79,12 +79,14 @@ LiAISON 自主导航在地月空间探测中具有重要应用价值：
 - **地月空间基础设施**：支撑未来地月空间通信、导航和授时（PNT）体系建设
 
 ## 相关概念
+
 - [平动点（Libration Point）](/glossary/dynamics/libration-point/)
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
 - [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
 
 ## 参考文献
-- Hill K, Born G H. Linked autonomous interplanetary satellite orbit navigation (LiAISON)[C]. AAS/AIAA Astrodynamics Specialist Conference, 2005.
+
+- Hill K, Born G H. Linked autonomous interplanetary satellite orbit navigation [LiAISON](C). AAS/AIAA Astrodynamics Specialist Conference, 2005.
 - Hill K A. Autonomous Navigation in Libration Point Orbits[D]. University of Colorado, 2007.
 - 刘林等. 地月系平动点动力学与轨道设计[M]. 北京: 国防工业出版社, 2019.

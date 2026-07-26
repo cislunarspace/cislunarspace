@@ -40,6 +40,7 @@ The NASA recovery director directed team members from NASA and the U.S. military
 All four crew members are in good health and are currently undergoing post-mission medical evaluations in the medical bay of the USS John P. Murtha. They will subsequently return to shore to board a flight bound for NASA's Johnson Space Center.
 
 NASA will hold a post-splashdown press conference at 10:35 PM EDT on April 10 from the agency's Johnson Space Center in Houston, with participants including:
+
 - NASA Associate Administrator Amit Kshatriya
 - Lori Glaze, acting associate administrator, Exploration Systems Development Mission Directorate
 - Rick Henfling, entry flight director, Artemis II
@@ -49,6 +50,7 @@ NASA will hold a post-splashdown press conference at 10:35 PM EDT on April 10 fr
 ## Scientific Achievements
 
 During the 10-day mission, the Artemis II crew collected extensive scientific data:
+
 - Captured over 175 GB of image data during the lunar flyby
 - Successfully transmitted 20 GB of data via experimental laser communication payload in just 45 minutes
 - Transmission speeds far exceeded traditional S-band telemetry systems

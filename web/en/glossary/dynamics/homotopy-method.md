@@ -73,6 +73,7 @@ The bang-bang characteristics of fuel-optimal control cause discontinuities on t
 ### Application by Zhao Haihan et al. (2026)
 
 Zhao Haihan et al. combined RLEPSO with homotopy method:
+
 - RLEPSO quickly obtains high-quality energy-optimal initial co-states
 - Homotopy method smoothly transitions to fuel-optimal control
 - Solved fuel-optimal problem for long-distance cooperative rendezvous under J₂ perturbation
@@ -80,7 +81,7 @@ Zhao Haihan et al. combined RLEPSO with homotopy method:
 ## Comparison with Continuation Method
 
 | Characteristic | Homotopy Method | Continuation Method |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Purpose | Problem smoothing | Orbit family exploration |
 | Parameter | Homotopy parameter $\varepsilon$ | Orbit parameter (amplitude, period, etc.) |
 | Application | Optimal control transition | Periodic orbit family generation |

@@ -64,6 +64,7 @@ In spacecraft cooperative rendezvous problems, DDPG is used for hyperparameter a
 ### Application by Zhao Han et al. (2026)
 
 Zhao Han et al. combined DDPG with Hybrid Cluster Particle Swarm Optimization (HCPSO) to form the Reinforcement Learning Enhanced Particle Swarm Optimization (RLEPSO), which is used for:
+
 - Initial costate optimization in cooperative rendezvous fuel-optimal problems
 - Autonomous dynamic tuning of hyperparameters based on particle search conditions
 - Improving the searchability and convergence speed of the optimization algorithm

@@ -51,14 +51,16 @@ $$\nu = \frac{1}{2}\left(\|\lambda_i\| + \left\|\frac{1}{\lambda_i}\right\|\righ
 ## 核心要素
 
 ### 数学定义
+
 单值矩阵 $M = \Phi(T, 0)$ 是沿周期轨道积分一周（周期 $T$）得到的状态转移矩阵。
 
 ### 关键性质
+
 特征值以共轭形式成对出现：$\lambda_2 = 1/\lambda_1$、$\lambda_4 = 1/\lambda_3$、$\lambda_5 = \lambda_6 = 1$。所有特征值模为 1 时轨道稳定，存在模大于 1 的特征值时不稳定。
 
 ### 数值方法
-稳定性指数 $\nu = \frac{1}{2}(\|\lambda_i\| + \|1/\lambda_i\|)$ 用于量化稳定性，$\nu = 1$ 表示稳定，$\nu > 1$ 表示不稳定。
 
+稳定性指数 $\nu = \frac{1}{2}(\|\lambda_i\| + \|1/\lambda_i\|)$ 用于量化稳定性，$\nu = 1$ 表示稳定，$\nu > 1$ 表示不稳定。
 
 ## 应用价值
 
@@ -70,7 +72,7 @@ $$\nu = \frac{1}{2}\left(\|\lambda_i\| + \left\|\frac{1}{\lambda_i}\right\|\righ
 - [稳定性指数](/glossary/dynamics/stability-index/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- 倍周期分岔
+- [倍周期分岔](/glossary/other/period-doubling-bifurcation/)
 
 ## 参考文献
 

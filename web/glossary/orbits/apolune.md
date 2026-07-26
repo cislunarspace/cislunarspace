@@ -75,11 +75,13 @@ $$T = 2\pi\sqrt{\frac{a^3}{\mu_M}}$$
 - **轨道稳定性分析**：远月点位置的变化是判断轨道长期稳定性的重要指标
 
 ## 相关概念
+
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [近月点（Perilune）](/glossary/orbits/perilune/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 
 ## 参考文献
+
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.
 - 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 2026.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

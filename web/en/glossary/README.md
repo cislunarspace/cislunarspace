@@ -193,6 +193,7 @@ The number of entries is still growing. At the current stage, we prioritize high
 This page will continue to grow with new glossary entries and a more complete taxonomy of cislunar space terminology.
 
 **2026-04-29 Update (VI)**: New entries based on Li et al. (2026) *Gravitational redshift test in a lunar distant retrograde orbit using a compact hydrogen maser*:
+
 - Gravitational Redshift
 - Passive Hydrogen Maser (PHM)
 - Dual One-Way Ranging (DOWR)
@@ -200,11 +201,13 @@ This page will continue to grow with new glossary entries and a more complete ta
 - Allan Deviation (ADEV)
 
 **2026-04-29 Update (V)**: New entries based on KASA *Space Transportation / Satellite / Space Science Exploration Strategic Plan* (2024):
+
 - Organizations: Korea Aerospace Administration (KASA), Danuri Lunar Orbiter
 - Space Transportation: Reusable Launch Vehicle, Orbital Transfer Vehicle (OTV), Very Low Earth Orbit (VLEO), Lunar Lander, Korea Multi-Purpose Satellite (KOMPSAT), In-situ Resource Utilization (ISRU)
 - Navigation: Positioning, Navigation and Timing (PNT)
 
 **2026-04-29 Update (IV)**: New "Satellite Communication & TT&C" section with 6 entries based on Duan et al. (2026) on full-time cislunar communication using BeiDou satellites:
+
 - BeiDou Satellite System
 - Inter-Satellite Link (ISL)
 - All-Time Seamless Communication
@@ -213,6 +216,7 @@ This page will continue to grow with new glossary entries and a more complete ta
 - Laser-Microwave Communication
 
 **2026-04-29 Update (III)**: 29 new entries based on Chen Yuju (2024) dissertation on DRO orbit design and control for cislunar space situational awareness:
+
 - Dynamical Models: Libration Point, Jacobi Constant, State Transition Matrix, Monodromy Matrix, Stability Index, Chaos Effect, Two-Level Differential Correction, Shooting Method, Continuation Method, Patch Point, Targeting Method, Dynamic Target Method, Initial Value Optimization, Solar Radiation Pressure, Differential Evolution
 - Mission Orbits: Quasi-Periodic Orbit, Resonance Orbit, Orbit Keeping
 - Military Doctrine: Cislunar Space Situational Awareness
@@ -220,12 +224,14 @@ This page will continue to grow with new glossary entries and a more complete ta
 - DRO Orbit Design and Control: Impulse Thrust, Floquet Mode, Solar Constant, Reflection Coefficient, Insertion Error, Navigation Error, Actuator Error, Period-Doubling Bifurcation
 
 **2026-04-29 Update (II)**: New "Observation Techniques" section with 14 entries based on Sun et al. (2026) on optical survey for cislunar moving objects:
+
 - Image Stacking, Shift-and-Add (SAA), Synthetic Tracking, Sidereal Tracking
 - Signal-to-Noise Ratio (SNR), Astrometry, Source Extraction, Ephemeris Correlation
 - Cislunar Moving Objects, Lunar Glare Zone
 - Image Registration, Background Star Elimination, Segmentation Map, Hot Pixel
 
 **2026-04-29 Update**: New "Military Space Doctrine" section with 19 entries based on the USSF *Space Force Vector 2025* doctrine document:
+
 - Space Superiority, Competitive Endurance
 - DOTMLPF-P Framework, Mission Command
 - Force Design, Force Development, Force Generation, Force Employment
@@ -234,6 +240,7 @@ This page will continue to grow with new glossary entries and a more complete ta
 - Space Domain Awareness, Counterspace Operations, Resilient Architecture, OTTI, Golden Dome
 
 **2026-04-27 Update**: New entries based on Jing et al. (2025) on LLM-based spacecraft intention recognition:
+
 - Clohessy-Wiltshire (CW) Equation
 - Noncooperative Target
 - Spacecraft Intention Recognition
@@ -242,10 +249,12 @@ This page will continue to grow with new glossary entries and a more complete ta
 - Prompt Tuning (P-tuning)
 
 **2026-04-24 Update**: Two new lunar minerals discovered from Chang'e-5 sample research:
+
 - Changeite-Mg (Magnesium Changeite)
 - Changeite-Ce (Cerium Changeite)
 
 **2026-04-23 Update**: New entries added based on Qiao et al. (2025):
+
 - Birkhoff-Gustavson Normal Form
 - Central Manifold
 - Poincaré Section

@@ -48,7 +48,7 @@ Long Period Orbits possess the following properties within the CR3BP framework:
 The main characteristic parameters of Long Period Orbits:
 
 | Parameter | Characteristic |
-|:---|:---|
+| :--- | :--- |
 | Amplitude | Large (near L4/L5) |
 | Orbital Period | Long (relative to Short Period Orbits) |
 | Orbit Shape | Non-elliptical (affected by nonlinear effects) |

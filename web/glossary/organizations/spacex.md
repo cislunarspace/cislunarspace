@@ -69,9 +69,9 @@ SpaceX 的龙飞船是目前 NASA 商业载人项目（CCP）的主力载人飞�
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
-| 星链（Starlink）| 卫星互联网星座 | 规模最大的 LEO 宽带星座，8,460+ 在轨卫星 |
-| 星舰（Starship）| 运载火箭/飞船 | 完全可重复使用，LEO 运力 100 吨，月球着陆器 |
+| ----------- | ------ | ------ |
+| 星链（Starlink） | 卫星互联网星座 | 规模最大的 LEO 宽带星座，8,460+ 在轨卫星 |
+| 星舰（Starship） | 运载火箭/飞船 | 完全可重复使用，LEO 运力 100 吨，月球着陆器 |
 | 猎鹰 9 号 | 运载火箭 | 可重复使用，LEO 运力 22.8 吨 |
 | 猎鹰重型 | 运载火箭 | 三助推器并联，LEO 运力 63.8 吨 |
 | 龙飞船 | 载人飞船 | 商业载人，低地轨道任务 |
@@ -131,7 +131,7 @@ SpaceX 是地月空间经济开发最直接的驱动者之一，可重复使用�
 
 ## 参考文献
 
-- SpaceX 官网: https://www.spacex.com
+- SpaceX 官网: <https://www.spacex.com>
 - NASA Artemis, "SpaceX Starship HLS contract", 2021.
 - FCC, "Starlink Gen 2 approval order", 2022.
 - SpaceX Starship Launch Updates, 2024-2025.

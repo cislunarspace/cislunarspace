@@ -45,7 +45,7 @@ where the superscript $*$ denotes the nominal value and $\varepsilon$ denotes th
 ### Insertion Parameters
 
 | Parameter | Symbol | Physical Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Perigee geocentric distance | $r_p$ | Determines the perigee altitude of the orbit |
 | Perigee velocity | $V_p$ | Determines the orbit energy and semi-major axis |
 | Argument of perigee | $\omega$ | Determines the apse line direction of the orbit |
@@ -58,7 +58,7 @@ Insertion parameters can be computed from the position $\boldsymbol{r}_f$ and ve
 ### Insertion Requirements for Different Missions
 
 | Mission Type | Insertion Requirements |
-|:---|:---|
+| :--- | :--- |
 | Single satellite | Generally does not require RAAN and insertion-point phase |
 | Satellite constellation | All orbital elements must be satisfied |
 | Rendezvous and docking | All orbital elements and phase requirements must be satisfied |

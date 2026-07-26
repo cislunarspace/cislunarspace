@@ -41,7 +41,7 @@ The chaser spacecraft applies an impulse at point $P$ on the main orbit to enter
 ### Backward Phasing and Forward Phasing
 
 | Type | Target Position | Phasing Orbit Period | Impulse Direction |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Backward phasing | Target is behind | Greater than the main orbit period | Along the velocity direction |
 | Forward phasing | Target is ahead | Less than the main orbit period | Opposite to the velocity direction |
 

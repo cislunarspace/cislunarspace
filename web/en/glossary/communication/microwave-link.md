@@ -37,7 +37,7 @@ A Microwave Link is a radio link that uses microwave frequencies (typically in t
 Inter-satellite microwave signal frequencies show a trend from lower to higher bands:
 
 | Band | Frequency Range | Typical Application |
-|------|----------------|---------------------|
+| ------ | ---------------- | --------------------- |
 | S-band | 2-4 GHz | Traditional TT&C |
 | Ka-band | 26.5-40 GHz | BeiDou ISL, Queqiao-2 satellite-ground links |
 | K-band | 18-27 GHz | DRO three-satellite constellation ISL |

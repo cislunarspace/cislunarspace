@@ -45,7 +45,7 @@ where $a_E$ is the Earth's radius.
 ### Coverage Band Parameters
 
 | Parameter | Formula | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Half field-of-view angle | $\alpha = 90° - d$ | Angle between the satellite line of sight and the local horizon |
 | Coverage band width | $S_w = 2a_E d$ | Ground coverage band width |
 | Coverage area | $A = 2\pi a_E^2(1 - \cos d)$ | Spherical cap area |
@@ -75,5 +75,5 @@ The coverage angle is the core parameter for analyzing satellite Earth-coverage 
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.

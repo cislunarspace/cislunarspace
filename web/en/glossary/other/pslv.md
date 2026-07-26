@@ -37,7 +37,7 @@ The Polar Satellite Launch Vehicle (PSLV) is a large launch vehicle developed by
 ## Technical Specifications
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | LEO Payload Capacity | ~3,500 kg (400 km altitude) |
 | Sun-Synchronous Orbit Capacity | ~1,700 kg |
 | GTO Capacity | ~1,420 kg |

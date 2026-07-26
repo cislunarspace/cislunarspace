@@ -28,7 +28,7 @@ permalink: /glossary/navigation/gnss-weak-signal-navigation/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 背景与基本原理
 
@@ -51,7 +51,7 @@ permalink: /glossary/navigation/gnss-weak-signal-navigation/
 ## 性能与局限
 
 | 指标 | 性能 |
-|:---|:---|
+| :--- | :--- |
 | 定位精度 | 月表 ±15 m，地月转移 ±50 m |
 | 覆盖范围 | 地球可视区域，月背与极区覆盖能力弱 |
 | 可靠性 | 一般，受地球可见性限制 |
@@ -98,9 +98,9 @@ GNSS 弱信号导航是四大导航方案中成本最低、部署最快的路径
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
 - [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
-- 地月混合导航
-- 月球导航星座
-- 星间链路导航
+- [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
+- [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
 
 ## 参考文献
 

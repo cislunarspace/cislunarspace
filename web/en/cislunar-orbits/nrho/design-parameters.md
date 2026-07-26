@@ -14,7 +14,7 @@ wechatShare:
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)
 >
-> Source: https://cislunarspace.cn
+> Source: <https://cislunarspace.cn>
 
 # NRHO Design Parameters
 
@@ -23,7 +23,7 @@ wechatShare:
 Typical design parameters for L1/L2 NRHO are as follows:
 
 | Parameter | L1 NRHO | L2 NRHO |
-|-----------|---------|---------|
+| ----------- | --------- | --------- |
 | Period | 6.5-7.5 days | 7.0-8.0 days |
 | Semi-major axis $A_x$ | 2,000-4,000 km | 3,000-5,000 km |
 | Amplitude ratio $A_z/A_x$ | 0.5-2.0 | 0.5-2.0 |
@@ -40,6 +40,7 @@ In the CR3BP model, initial conditions for NRHO are typically selected at the pe
 $$\mathbf{X}_0 = [x_0, y_0, z_0, \dot{x}_0, \dot{y}_0, \dot{z}_0]$$
 
 For L1 NRHO, a typical perilune initial condition is approximately:
+
 - $x \approx 0.825$ (dimensionless, distance from L1)
 - $z \approx A_z$, $\dot{x} \approx 0$, $\dot{y} \approx \dot{y}_{halo}$
 

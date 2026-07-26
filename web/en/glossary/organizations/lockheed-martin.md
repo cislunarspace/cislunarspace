@@ -65,7 +65,7 @@ Lockheed Martin is the prime contractor for NASA's Orion crew spacecraft:
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Orion Spacecraft | Crewed Spacecraft | Artemis crewed lunar orbit and landing missions |
 | HALO Module | Gateway Segment | Lunar Gateway Habitation and Logistics Outpost |
 | DRACO NTP | Nuclear Thermal Propulsion | Cislunar nuclear thermal rocket flight demonstration (target 2027) |
@@ -89,7 +89,7 @@ Lockheed Martin is one of the most central contractors in the cislunar space mis
 
 ## References
 
-- Lockheed Martin Official Website: https://www.lockheedmartin.com
+- Lockheed Martin Official Website: <https://www.lockheedmartin.com>
 - NASA Artemis, "Gateway HALO contract", 2021.
 - DARPA, "DRACO program overview", 2023.
 - China's Ministry of Commerce Announcement No. 1, January 2, 2025.

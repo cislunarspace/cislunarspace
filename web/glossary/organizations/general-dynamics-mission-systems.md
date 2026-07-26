@@ -58,7 +58,7 @@ GDMS 是战术通信和卫星地面站系统的重要供应商：
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | 战术通信系统 | 通信硬件 | 军用卫星通信地面站和电台 |
 | 情报处理平台 | 软件系统 | SIGINT 和 IMINT 数据处理 |
 | 网络安全方案 | 安全系统 | 抗网络攻击和安全通信 |
@@ -114,6 +114,6 @@ GDMS 在地月空间领域的贡献主要体现在基础设施层面：
 
 ## 参考文献
 
-- General Dynamics Mission Systems 官网: https://www.gd.com
+- General Dynamics Mission Systems 官网: <https://www.gd.com>
 - SpaceNews, "General Dynamics wins SDA ground system contract", 2024.
 - 中国商务部公告 2025 年第 1 号，2025 年 1 月 2 日。

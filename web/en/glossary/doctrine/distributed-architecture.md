@@ -41,6 +41,7 @@ Cislunar space is vast in volume, making it difficult for a monolithic architect
 ### Orbit Family Selection
 
 Observation satellites in a distributed architecture are typically deployed in the following orbit families:
+
 - Distant Retrograde Orbit (DRO)
 - L1/L2 halo orbits
 - Resonant orbits (e.g., 2:1, 3:2 resonance)
@@ -49,6 +50,7 @@ Observation satellites in a distributed architecture are typically deployed in t
 ### Coverage Performance Evaluation
 
 Evaluation metrics include:
+
 - Volume coverage ratio
 - Trajectory coverage ratio
 - Resilience Map
@@ -57,7 +59,7 @@ Evaluation metrics include:
 ## Comparison with Monolithic Architecture
 
 | Characteristic | Monolithic Architecture | Distributed Architecture |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Coverage Scope | Limited | Full domain / critical areas |
 | Redundancy | Low | High |
 | Survivability | Poor | Good |
@@ -67,16 +69,19 @@ Evaluation metrics include:
 ## Core Elements
 
 ### Mathematical Description
+
 A distributed architecture consists of $N$ observation satellites. Each satellite $i$ has state $\mathbf{x}_i(t)$ and detection region $\mathcal{D}_i(t)$. The total architecture coverage is:
 
 $$\mathcal{D}_{\text{total}}(t) = \bigcup_{i=1}^{N} \mathcal{D}_i(t)$$
 
 ### Key Properties
+
 - The coverage performance of a distributed architecture grows approximately linearly with the number of satellites (with diminishing marginal returns)
 - Orbit configuration and initial phase selection significantly affect coverage performance
 - Collaborative scheduling can further improve coverage efficiency
 
 ### Application Scenarios
+
 Distributed architectures are suitable for cislunar space safety-critical missions such as high-value asset protection, crewed mission support, and deep space communication assurance.
 
 ## Related Concepts

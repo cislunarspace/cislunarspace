@@ -43,6 +43,7 @@ The PLF-based LEO-to-DRO transfer uses a three-burn architecture:
 $$\Delta v_{\text{total}} = \Delta v_1 + \Delta v_2 + \Delta v_3$$
 
 where:
+
 - $\Delta v_1$: **LEO de-orbit impulse** — applied at Low Earth Orbit to send the spacecraft onto the Earth-Moon transfer trajectory. This impulse determines the transfer trajectory's C3 energy and the lunar flyby geometry.
 - $\Delta v_2$: **Perilune maneuver impulse** — applied at the closest approach during the lunar flyby. This is the core impulse of the PLF scheme. Its magnitude and direction determine the flyby effect and directly influence the shape of the transfer trajectory's second half.
 - $\Delta v_3$: **DRO insertion impulse** — applied near the perilune of the target DRO to transfer the spacecraft from the Moon-DRO transfer segment into the target Distant Retrograde Orbit.
@@ -84,6 +85,7 @@ PLF schemes have important applications in:
 - **Cislunar space station logistics**: When future cislunar space stations are deployed in DRO, PLF schemes can provide economical transfer solutions for cargo and crew vehicles.
 
 ## Related Concepts
+
 - [Lunar Gravity Assist (LGA)](/en/glossary/other/lunar-gravity-assist/)
 - [Perilune](/en/glossary/orbits/perilune/)
 - [Transfer Orbit](/en/glossary/orbits/transfer-orbit/)

@@ -10,7 +10,7 @@ category: science
 image: ./figures/2026-06-05-milky-way-black-hole-wind/hero.jpg
 ---
 
-**Summary:** Researchers led by Northwestern University have used the Atacama Large Millimeter/submillimeter Array (ALMA) and NASA's Chandra X-ray Observatory to capture the first direct evidence of plasma winds blowing outward from Sagittarius A* (Sgr A*), the supermassive black hole at the center of the Milky Way. Published in The Astrophysical Journal Letters, the result closes a roughly 50-year-old gap between theory and observation.
+**Summary:** Researchers led by Northwestern University have used the Atacama Large Millimeter/submillimeter Array (ALMA) and NASA's Chandra X-ray Observatory to capture the first direct evidence of plasma winds blowing outward from Sagittarius A*(Sgr A*), the supermassive black hole at the center of the Milky Way. Published in The Astrophysical Journal Letters, the result closes a roughly 50-year-old gap between theory and observation.
 
 ![Composite view of the Milky Way's center from ALMA and Chandra. X-ray: NASA/CXC/Northwestern Univ./M. Gorski; Radio: ESO/NAOJ/NRAO/ALMA. Courtesy ESO/NAOJ/NRAO.](./figures/2026-06-05-milky-way-black-hole-wind/hero.jpg)
 

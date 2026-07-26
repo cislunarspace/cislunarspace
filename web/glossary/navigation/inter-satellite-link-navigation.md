@@ -28,7 +28,7 @@ permalink: /glossary/navigation/inter-satellite-link-navigation/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 背景与基本原理
 
@@ -45,7 +45,7 @@ permalink: /glossary/navigation/inter-satellite-link-navigation/
 ## 性能与局限
 
 | 指标 | 性能 |
-|:---|:---|
+| :--- | :--- |
 | 定位精度 | 地月空间百米级 |
 | 覆盖范围 | 星间链路可见区域 |
 | 主要功能 | 地月转移段定轨、时间同步、应急数据传输 |

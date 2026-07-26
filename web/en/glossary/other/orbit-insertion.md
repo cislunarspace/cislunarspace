@@ -55,6 +55,7 @@ In the PLF-based LEO-to-DRO transfer scheme, the insertion impulse is the third 
 $$\Delta v_{\text{total}} = \Delta v_1 + \Delta v_2 + \Delta v_3$$
 
 where:
+
 - $\Delta v_1$: LEO de-orbit impulse (first burn)
 - $\Delta v_2$: Perilune maneuver impulse (second burn, applied during PLF)
 - $\Delta v_3$: **DRO insertion impulse** (third burn, transferring the spacecraft from the Moon-DRO transfer segment into the target DRO)
@@ -70,6 +71,7 @@ Insertion accuracy is a critical factor for mission success. Insertion errors ca
 3. **Compressed mission window**: High-accuracy insertion reduces correction requirements, extending mission lifetime.
 
 Insertion accuracy is influenced by:
+
 - **Navigation accuracy**: Measurement precision of spacecraft position and velocity.
 - **Thrust accuracy**: Deviations in thrust magnitude and direction.
 - **Timing accuracy**: Errors in the impulse application moment.
@@ -95,6 +97,7 @@ Orbit insertion is a critical element in all orbital transfer missions, particul
 - **Interplanetary mission insertion**: Deep space probes arriving at a target planet must apply an insertion impulse to enter a parking orbit.
 
 ## Related Concepts
+
 - [Transfer Orbit](/en/glossary/orbits/transfer-orbit/)
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Impulsive Maneuver](/en/glossary/dynamics/impulsive-maneuver/)

@@ -43,7 +43,7 @@ The reentry corridor width is defined as $\Delta\Theta_e = |\Theta_e|_{\max} - |
 The reentry corridor is jointly determined by four boundaries:
 
 | Boundary Type | Constraint Condition | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Normal load factor limit | $n_y \leq n_{y\max}$ | Corresponds to $D = \frac{C_x}{C_L}g\,n_{y\max}$ |
 | Dynamic pressure limit | $q \leq q_{\max}$ | Corresponds to $D = \frac{C_x S_M}{m}q_{\max}$ |
 | Maximum heat flux limit | $q_s \leq (q_s)_{\max}$ | Corresponds to $D = \frac{C_x S_M}{2m}\frac{(q_s)_{\max}^2}{k_s^2 v^4}$ |
@@ -52,8 +52,8 @@ The reentry corridor is jointly determined by four boundaries:
 ### Corridor Widening Methods
 
 | Method | Principle |
-|:---|:---|
-| Negative-lift reentry | Produces negative lift at a negative angle of attack, bending the trajectory inward and lowering $|\Theta_e|_{\min}$ |
+| :--- | :--- |
+| Negative-lift reentry | Produces negative lift at a negative angle of attack, bending the trajectory inward and lowering $ | \Theta_e | _{\min}$ |
 | Positive-lift reentry | Produces positive lift at a positive angle of attack, flattening the trajectory and reducing peak load factor and heat flux |
 | Lift control | Adjusts the lift component through roll angle changes to widen the corridor |
 
@@ -64,6 +64,7 @@ In modern spacecraft design, the reentry corridor can be defined as a "tube" gui
 ### Relationship with Lift
 
 Ballistic reentry vehicles have a narrow corridor. Vehicles with lift can:
+
 - Achieve reentry through negative lift even when $|\Theta_e| < |\Theta_e|_{\min}$
 - Reduce the peak load factor and heat flux through positive lift, thereby lowering $|\Theta_e|_{\max}$
 

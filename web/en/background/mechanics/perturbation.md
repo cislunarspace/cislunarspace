@@ -41,7 +41,7 @@ Expanding the solution in a Taylor series about $\varepsilon = 0$ yields success
 ### Common Perturbative Forces
 
 | Perturbation | Source | Magnitude |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | J2 term | Earth's non-spherical gravity | $10^{-3}$ (LEO) |
 | Third-body gravity | Moon, Sun | $10^{-4}$–$10^{-8}$ |
 | Atmospheric drag | Earth's atmosphere | $10^{-7}$–$10^{-10}$ (LEO) |

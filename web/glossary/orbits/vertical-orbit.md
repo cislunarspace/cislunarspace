@@ -48,7 +48,7 @@ permalink: /glossary/orbits/vertical-orbit/
 根据地月系统中的平动点位置，垂直轨道可分为以下族：
 
 | 轨道族 | 所属平动点 | 特征 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | V1（Vertical L1） | L1 | 位于地月连线之间，$z$ 方向振幅中等 |
 | V2（Vertical L2） | L2 | 位于月球背向地球一侧，$z$ 方向振幅较大 |
 | V3（Vertical L3） | L3 | 位于地球背向月球一侧，周期较长 |
@@ -59,7 +59,7 @@ permalink: /glossary/orbits/vertical-orbit/
 以地月系统为例，垂直轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
 
 | 轨道族 | Jacobi 常数范围 | 周期范围（天） | 稳定性指数 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | V1 | 约 2.5 ~ 3.0 | 约 24 | 较高 |
 | V2 | 约 0.8 ~ 3.0 | 约 16 | 中等 |
 | V3 | 约 2.5 ~ 3.0 | 较长 | 较低 |
@@ -92,6 +92,7 @@ permalink: /glossary/orbits/vertical-orbit/
 - **任务设计参考**：作为平动点轨道分类体系的重要组成部分，垂直轨道是理解地月动力学结构和设计复杂任务轨迹的基础
 
 ## 相关概念
+
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - [轴向轨道（Axial Orbit）](/glossary/orbits/axial-orbit/)
@@ -99,6 +100,7 @@ permalink: /glossary/orbits/vertical-orbit/
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.

@@ -48,7 +48,7 @@ permalink: /glossary/orbits/long-period-orbit/
 长周期轨道的主要特征参数：
 
 | 参数 | 特征 |
-|:---|:---|
+| :--- | :--- |
 | 振幅 | 大（L4/L5 附近） |
 | 轨道周期 | 长（相对 Short Period Orbit） |
 | 轨道形状 | 非椭圆（受非线性效应影响） |
