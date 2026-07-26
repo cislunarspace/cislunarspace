@@ -102,7 +102,9 @@ const fetchError = ref(false);
 
 onMounted(async () => {
   try {
-    const articleFile = isEn.value ? '/space-news-articles-en.json' : '/space-news-articles-zh.json';
+    const articleFile = isEn.value
+      ? '/space-news-articles-en.json'
+      : '/space-news-articles-zh.json';
     const [articlesResponse, sidebarResponse] = await Promise.all([
       fetch(articleFile),
       fetch('/space-news-sidebar-data.json'),
