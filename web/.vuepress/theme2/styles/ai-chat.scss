@@ -173,7 +173,8 @@
 }
 
 .sidebar-item-delete {
-  display: none;
+  display: flex;
+  opacity: 0.4;
   background: none;
   border: none;
   color: var(--chat-text-tertiary);
@@ -181,11 +182,12 @@
   padding: 2px;
   border-radius: 4px;
   flex-shrink: 0;
+  transition: opacity 0.15s, color 0.15s;
 }
 
 .sidebar-item:hover .sidebar-item-delete,
 .sidebar-item.active .sidebar-item-delete {
-  display: flex;
+  opacity: 1;
 }
 
 .sidebar-item-delete:hover {
