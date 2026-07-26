@@ -1,0 +1,7 @@
+node_modules
+dist
+*.auto.json
+package-lock.json
+figures
+*.md
+bibliography.json
