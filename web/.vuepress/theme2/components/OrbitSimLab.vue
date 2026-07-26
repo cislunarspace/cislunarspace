@@ -333,55 +333,19 @@ function onResize() {
 <template>
   <!-- 占位：避免固定定位子元素使文档流高度为 0，页脚顶到导航栏下方 -->
   <div class="orbit-sim-page-slot">
-  <div ref="rootEl" class="orbit-sim-lab">
-    <div v-if="maskVisible || maskError" class="os-mask">
-      <template v-if="maskError">
-        <div class="os-err">
-          <p>⚠ {{ locale === 'en' ? 'Initialization failed' : '初始化失败' }}</p>
-          <p class="os-err-detail">
-            {{ locale === 'en' ? 'Use HTTP(S), check network / Cesium CDN.' : '请确保在 HTTP 服务环境下运行并检查网络。' }}
-            <br >
-            {{ maskError }}
-          </p>
-        </div>
-      </template>
-      <template v-else>
-        <div class="spin" />
-        <div class="ltxt">{{ ui.loading }}</div>
-        <div class="lprog"><div class="lbar" /></div>
-      </template>
-    </div>
-
-    <header class="os-topbar" :aria-label="ui.title">
-      <div class="os-topbar__brand">
-        <div class="os-logo" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <circle cx="12" cy="12" r="3" />
-            <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(-30 12 12)" stroke-dasharray="3 2" />
-            <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)" stroke-dasharray="3 2" />
-            <line x1="12" y1="2" x2="12" y2="22" />
-          </svg>
-        </div>
-        <div class="os-brand-text">
-          <span class="os-brand-text__title">{{ ui.titleShort }}</span>
-          <span class="os-brand-text__sub">{{ locale === 'en' ? 'Cesium · J2 · teaching' : 'Cesium · J2 · 教学沙盘' }}</span>
-        </div>
-      </div>
-      <div class="os-topbar__meta">
-        <span class="os-chip os-chip--pulse"><span class="os-chip__dot" aria-hidden="true" />{{ ui.live }}</span>
-        <span class="os-chip">{{ ui.frame }}</span>
-        <span class="os-chip">{{ ui.j2 }}</span>
-        <div class="os-time">{{ topTime }}</div>
-      </div>
-    </header>
-
-    <div class="os-layout" aria-describedby="os-kbhint">
-      <aside class="os-left" aria-label="orbit controls">
-        <div class="pscroll">
-          <div class="os-panel-intro">
-            <h2 class="sec-title">{{ ui.secOrb }}</h2>
-            <p class="os-panel-lead">
-              {{ locale === 'en' ? 'Drag sliders or pick a preset. Earth rotates in ECI frame.' : '拖动滑块或点选预设；地球在惯性系中自转显示。' }}
+    <div ref="rootEl" class="orbit-sim-lab">
+      <div v-if="maskVisible || maskError" class="os-mask">
+        <template v-if="maskError">
+          <div class="os-err">
+            <p>⚠ {{ locale === 'en' ? 'Initialization failed' : '初始化失败' }}</p>
+            <p class="os-err-detail">
+              {{
+                locale === 'en'
+                  ? 'Use HTTP(S), check network / Cesium CDN.'
+                  : '请确保在 HTTP 服务环境下运行并检查网络。'
+              }}
+              <br />
+              {{ maskError }}
             </p>
           </div>
         </template>
@@ -758,51 +722,6 @@ function onResize() {
 
           <div class="kbhint">{{ ui.kb }}</div>
         </div>
-      </aside>
-
-      <div class="os-right">
-        <div :id="'orbit-cesium-' + (locale || 'zh')" ref="viewerEl" class="cesiumViewer" />
-
-        <div class="hud hud-panel">
-          <section class="hud-section">
-            <h3 class="hud-section__title">{{ ui.hudSat }}</h3>
-            <div class="hrow"><span class="hk">{{ ui.lon }}</span><span class="hv">{{ hud.lon }}</span></div>
-            <div class="hrow"><span class="hk">{{ ui.lat }}</span><span class="hv">{{ hud.lat }}</span></div>
-            <div class="hrow"><span class="hk">{{ ui.alt }}</span><span class="hv">{{ hud.alt }}</span></div>
-            <div class="hrow"><span class="hk">{{ ui.angVel }}</span><span class="hv">{{ hud.spd }}</span></div>
-          </section>
-          <div class="hud-divider" role="presentation" />
-          <section class="hud-section">
-            <h3 class="hud-section__title">{{ ui.hudEci }}</h3>
-            <div class="hrow"><span class="hk">X</span><span class="hv">{{ hud.x }}</span></div>
-            <div class="hrow"><span class="hk">Y</span><span class="hv">{{ hud.y }}</span></div>
-            <div class="hrow"><span class="hk">Z</span><span class="hv">{{ hud.z }}</span></div>
-          </section>
-          <div class="hud-divider" role="presentation" />
-          <section class="hud-section">
-            <h3 class="hud-section__title">{{ ui.hudOrb }}</h3>
-            <div class="hrow"><span class="hk">{{ ui.type }}</span><span class="hv">{{ hud.type }}</span></div>
-            <div class="hrow"><span class="hk">{{ ui.period }}</span><span class="hv">{{ hud.inc }}</span></div>
-            <div class="hrow"><span class="hk">{{ ui.nu }}</span><span class="hv">{{ hud.nu }}</span></div>
-            <div class="hrow"><span class="hk">{{ ui.epoch }}</span><span class="hv">{{ hud.ep }}</span></div>
-          </section>
-        </div>
-
-        <div class="legend" role="region" :aria-label="ui.legend">
-          <div class="ltitle">{{ ui.legend }}</div>
-          <ul class="legend-grid">
-            <li class="li"><span class="ll ll--solid" style="--ll: #38bdf8" />{{ locale === 'en' ? 'Orbit' : '卫星轨道' }}</li>
-            <li class="li"><span class="ll ll--solid" style="--ll: #fbbf24" />{{ locale === 'en' ? 'Nadir' : '地心–卫星' }}</li>
-            <li class="li"><span class="ll ll--dash" style="--ll: #fb923c" />{{ locale === 'en' ? 'Earth–Sun' : '地心–太阳' }}</li>
-            <li class="li"><span class="ll ll--soft" style="--ll: rgba(56, 189, 248, 0.45)" />{{ locale === 'en' ? 'Equator' : '赤道面' }}</li>
-            <li class="li"><span class="ll ll--soft" style="--ll: rgba(251, 191, 36, 0.4)" />{{ locale === 'en' ? 'Ecliptic' : '黄道面' }}</li>
-            <li class="li"><span class="ld" style="background: #f43f5e" />X</li>
-            <li class="li"><span class="ld" style="background: #4ade80" />Y</li>
-            <li class="li"><span class="ld" style="background: #60a5fa" />Z</li>
-          </ul>
-        </div>
-
-        <div id="os-kbhint" class="kbhint">{{ ui.kb }}</div>
       </div>
 
       <div v-show="toastMsg" class="os-toast">{{ toastMsg }}</div>

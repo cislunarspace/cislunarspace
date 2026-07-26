@@ -25,12 +25,13 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import {
   formatArticleDate,
   resolveCategoryColor,
   resolveCategoryLabel,
 } from '../utils/spaceNewsPresentation';
+import type { SpaceNewsCategoryMeta } from '../utils/spaceNewsDirectoryView';
 
 const props = defineProps<{
   title: string;
@@ -43,10 +44,25 @@ const props = defineProps<{
 
 const locale = computed<'zh' | 'en'>(() => (props.isEn ? 'en' : 'zh'));
 
-const categoryLabel = computed(() => resolveCategoryLabel(props.category ?? null, locale.value));
+const categoryMeta = ref<SpaceNewsCategoryMeta>({});
+onMounted(async () => {
+  try {
+    const res = await fetch('/space-news-articles.json');
+    if (res.ok) {
+      const data = await res.json();
+      categoryMeta.value = data.categoryMeta ?? {};
+    }
+  } catch {
+    // SSR 或网络失败时 categoryMeta 保持 {}，函数会返回原始 category key
+  }
+});
+
+const categoryLabel = computed(() =>
+  resolveCategoryLabel(props.category ?? null, locale.value, categoryMeta.value),
+);
 
 const tagStyle = computed(() => ({
-  background: resolveCategoryColor(props.category ?? null),
+  background: resolveCategoryColor(props.category ?? null, categoryMeta.value),
   color: '#fff',
 }));
 
