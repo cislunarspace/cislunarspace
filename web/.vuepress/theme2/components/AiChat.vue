@@ -12,7 +12,7 @@
           {{ surface.isEn ? 'No conversations yet' : '暂无对话记录' }}
         </div>
         <div
-          v-for="(chat, idx) in surface.chatHistory"
+          v-for="(chat, idx) in surface.chatHistory.value"
           :key="idx"
           :class="['sidebar-item', { active: surface.activeChatIndex === idx }]"
           tabindex="0"
