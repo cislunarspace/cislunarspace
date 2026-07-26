@@ -47,8 +47,8 @@ fi
 # N=8+ offers no further gain — the ~714 non-space-news pages dominate each shard.
 # sharded-build.ts internally runs sync-figures + verify-dist, exits non-zero on FAIL.
 cd "$WEB" || { echo "FATAL: cd $WEB failed"; exit 1; }
-echo "[$(date -Iseconds)] phase 2: npm run docs:build:parallel (BUILD_SHARDS=${BUILD_SHARDS:-4})"
-BUILD_SHARDS="${BUILD_SHARDS:-4}" npm run docs:build:parallel 2>&1
+echo "[$(date -Iseconds)] phase 2: npm run docs:build"
+npm run docs:build 2>&1
 PHASE2_RC=$?
 echo "[$(date -Iseconds)] phase 2 exit=$PHASE2_RC"
 
