@@ -1,6 +1,6 @@
 {
-  "scanTime": "2026-06-17T00:21:39.161Z",
-  "filesScanned": 985,
+  "scanTime": "2026-07-26T13:54:35.959Z",
+  "filesScanned": 1081,
   "findings": [
     {
       "file": "en/background/control/optimal-control.md",
@@ -45,6 +45,16 @@
     {
       "file": "en/glossary/dynamics/bang-bang-control.md",
       "line": 79,
+      "column": 0,
+      "zone": "body",
+      "text": "赵海涵等",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/bang-bang-control.md",
+      "line": 81,
       "column": 1,
       "zone": "body",
       "text": "赵海涵等",
@@ -55,11 +65,21 @@
     {
       "file": "en/glossary/dynamics/bang-bang-control.md",
       "line": 100,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "关宇同",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/bang-bang-control.md",
+      "line": 103,
+      "column": 3,
       "zone": "references",
       "text": "关宇同",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -75,11 +95,21 @@
     {
       "file": "en/glossary/dynamics/barycentric-synodic.md",
       "line": 97,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/barycentric-synodic.md",
+      "line": 98,
+      "column": 3,
       "zone": "references",
       "text": "钱霙婧",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -95,6 +125,16 @@
     {
       "file": "en/glossary/dynamics/batch-deployment.md",
       "line": 90,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/batch-deployment.md",
+      "line": 97,
       "column": 1,
       "zone": "body",
       "text": "胡敏等",
@@ -105,11 +145,21 @@
     {
       "file": "en/glossary/dynamics/batch-deployment.md",
       "line": 109,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/batch-deployment.md",
+      "line": 116,
+      "column": 3,
       "zone": "references",
       "text": "胡敏",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -125,11 +175,21 @@
     {
       "file": "en/glossary/dynamics/co-state-normalization.md",
       "line": 102,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "关宇同",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/co-state-normalization.md",
+      "line": 105,
+      "column": 3,
       "zone": "references",
       "text": "关宇同",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -165,11 +225,21 @@
     {
       "file": "en/glossary/dynamics/coasting-arc.md",
       "line": 114,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/coasting-arc.md",
+      "line": 117,
+      "column": 3,
       "zone": "references",
       "text": "胡敏",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -205,6 +275,16 @@
     {
       "file": "en/glossary/dynamics/dynamic-programming.md",
       "line": 70,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 72,
       "column": 1,
       "zone": "body",
       "text": "胡敏等",
@@ -215,6 +295,16 @@
     {
       "file": "en/glossary/dynamics/dynamic-programming.md",
       "line": 98,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 100,
       "column": 1,
       "zone": "body",
       "text": "胡敏等",
@@ -225,6 +315,16 @@
     {
       "file": "en/glossary/dynamics/dynamic-programming.md",
       "line": 123,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 126,
       "column": 1,
       "zone": "body",
       "text": "胡敏等",
@@ -235,11 +335,21 @@
     {
       "file": "en/glossary/dynamics/dynamic-programming.md",
       "line": 157,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/dynamic-programming.md",
+      "line": 161,
+      "column": 3,
       "zone": "references",
       "text": "胡敏",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -255,6 +365,16 @@
     {
       "file": "en/glossary/dynamics/equinoctial-elements.md",
       "line": 53,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/equinoctial-elements.md",
+      "line": 54,
       "column": 1,
       "zone": "body",
       "text": "胡敏等",
@@ -265,6 +385,16 @@
     {
       "file": "en/glossary/dynamics/equinoctial-elements.md",
       "line": 82,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏等",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/equinoctial-elements.md",
+      "line": 83,
       "column": 1,
       "zone": "body",
       "text": "胡敏等",
@@ -275,11 +405,21 @@
     {
       "file": "en/glossary/dynamics/equinoctial-elements.md",
       "line": 139,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/equinoctial-elements.md",
+      "line": 140,
+      "column": 3,
       "zone": "references",
       "text": "胡敏",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -335,11 +475,21 @@
     {
       "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
       "line": 113,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "郭建宇",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/heteroclinic-orbit-transfer.md",
+      "line": 116,
+      "column": 3,
       "zone": "references",
       "text": "郭建宇",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -355,11 +505,21 @@
     {
       "file": "en/glossary/dynamics/homotopy-method.md",
       "line": 99,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "关宇同",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/homotopy-method.md",
+      "line": 100,
+      "column": 3,
       "zone": "references",
       "text": "关宇同",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -405,11 +565,21 @@
     {
       "file": "en/glossary/dynamics/invariant-manifold.md",
       "line": 122,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "钱霙婧",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/invariant-manifold.md",
+      "line": 123,
+      "column": 3,
       "zone": "references",
       "text": "钱霙婧",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -535,11 +705,21 @@
     {
       "file": "en/glossary/dynamics/mass-discontinuity.md",
       "line": 123,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "胡敏",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/dynamics/mass-discontinuity.md",
+      "line": 124,
+      "column": 3,
       "zone": "references",
       "text": "胡敏",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -665,7 +845,7 @@
     {
       "file": "en/glossary/fundamentals/coverage-angle.md",
       "line": 78,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -675,7 +855,7 @@
     {
       "file": "en/glossary/fundamentals/coverage-angle.md",
       "line": 79,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
@@ -705,21 +885,41 @@
     {
       "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
       "line": 78,
-      "column": 1,
-      "zone": "references",
+      "column": 0,
+      "zone": "body",
       "text": "郑伟",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
       "line": 79,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "刘林",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
+      "line": 79,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/earth-oblateness-perturbation.md",
+      "line": 80,
+      "column": 3,
       "zone": "references",
       "text": "刘林",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -835,27 +1035,47 @@
     {
       "file": "en/glossary/fundamentals/gravity-turn.md",
       "line": 85,
-      "column": 1,
-      "zone": "references",
+      "column": 0,
+      "zone": "body",
       "text": "郑伟",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/fundamentals/gravity-turn.md",
       "line": 86,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "贾沛然",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/gravity-turn.md",
+      "line": 88,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/gravity-turn.md",
+      "line": 89,
+      "column": 3,
       "zone": "references",
       "text": "贾沛然",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
       "file": "en/glossary/fundamentals/gravity-vs-gravitation.md",
       "line": 74,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -865,7 +1085,7 @@
     {
       "file": "en/glossary/fundamentals/gravity-vs-gravitation.md",
       "line": 75,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "人造地球卫星轨道力学",
       "severity": "info",
@@ -875,7 +1095,7 @@
     {
       "file": "en/glossary/fundamentals/hit-equation.md",
       "line": 84,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -885,7 +1105,7 @@
     {
       "file": "en/glossary/fundamentals/hit-equation.md",
       "line": 85,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
@@ -915,7 +1135,7 @@
     {
       "file": "en/glossary/fundamentals/inertial-navigation-system.md",
       "line": 78,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -925,7 +1145,7 @@
     {
       "file": "en/glossary/fundamentals/inertial-navigation-system.md",
       "line": 79,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
@@ -935,21 +1155,41 @@
     {
       "file": "en/glossary/fundamentals/instantaneous-balance.md",
       "line": 68,
-      "column": 1,
-      "zone": "references",
+      "column": 0,
+      "zone": "body",
       "text": "郑伟",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/fundamentals/instantaneous-balance.md",
       "line": 69,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "贾沛然",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/instantaneous-balance.md",
+      "line": 70,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/instantaneous-balance.md",
+      "line": 71,
+      "column": 3,
       "zone": "references",
       "text": "贾沛然",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -1015,21 +1255,41 @@
     {
       "file": "en/glossary/fundamentals/launch-azimuth.md",
       "line": 83,
-      "column": 1,
-      "zone": "references",
+      "column": 0,
+      "zone": "body",
       "text": "郑伟",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/fundamentals/launch-azimuth.md",
       "line": 84,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "贾沛然",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/launch-azimuth.md",
+      "line": 85,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/launch-azimuth.md",
+      "line": 86,
+      "column": 3,
       "zone": "references",
       "text": "贾沛然",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -1075,7 +1335,7 @@
     {
       "file": "en/glossary/fundamentals/newton-iteration-method.md",
       "line": 84,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -1085,7 +1345,7 @@
     {
       "file": "en/glossary/fundamentals/newton-iteration-method.md",
       "line": 85,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
@@ -1135,21 +1395,41 @@
     {
       "file": "en/glossary/fundamentals/orbital-elements.md",
       "line": 83,
-      "column": 1,
-      "zone": "references",
+      "column": 0,
+      "zone": "body",
       "text": "郑伟",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/fundamentals/orbital-elements.md",
       "line": 84,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "贾沛然",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/orbital-elements.md",
+      "line": 84,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/orbital-elements.md",
+      "line": 85,
+      "column": 3,
       "zone": "references",
       "text": "贾沛然",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -1175,21 +1455,41 @@
     {
       "file": "en/glossary/fundamentals/pitch-program.md",
       "line": 75,
-      "column": 1,
-      "zone": "references",
+      "column": 0,
+      "zone": "body",
       "text": "郑伟",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/fundamentals/pitch-program.md",
       "line": 76,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "贾沛然",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/pitch-program.md",
+      "line": 76,
+      "column": 3,
+      "zone": "references",
+      "text": "郑伟",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/pitch-program.md",
+      "line": 77,
+      "column": 3,
       "zone": "references",
       "text": "贾沛然",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -1235,7 +1535,7 @@
     {
       "file": "en/glossary/fundamentals/range-error-coefficient.md",
       "line": 90,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -1245,7 +1545,7 @@
     {
       "file": "en/glossary/fundamentals/range-error-coefficient.md",
       "line": 91,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
@@ -1275,7 +1575,7 @@
     {
       "file": "en/glossary/fundamentals/sequential-quadratic-programming.md",
       "line": 88,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -1285,7 +1585,7 @@
     {
       "file": "en/glossary/fundamentals/sequential-quadratic-programming.md",
       "line": 89,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
@@ -1315,7 +1615,7 @@
     {
       "file": "en/glossary/fundamentals/specific-impulse.md",
       "line": 84,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -1365,27 +1665,47 @@
     {
       "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
       "line": 81,
-      "column": 1,
-      "zone": "references",
+      "column": 0,
+      "zone": "body",
       "text": "空天飞行力学",
-      "severity": "info",
-      "rule": "allowlisted",
-      "allowlisted": true
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
     },
     {
       "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
       "line": 82,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "远程火箭弹道学",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
+      "line": 82,
+      "column": 77,
+      "zone": "references",
+      "text": "空天飞行力学",
+      "severity": "info",
+      "rule": "auto-whitelist-references",
+      "allowlisted": true
+    },
+    {
+      "file": "en/glossary/fundamentals/thrust-to-weight-ratio.md",
+      "line": 83,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
       "file": "en/glossary/fundamentals/thrust.md",
       "line": 82,
-      "column": 1,
+      "column": 77,
       "zone": "references",
       "text": "空天飞行力学",
       "severity": "info",
@@ -1395,7 +1715,7 @@
     {
       "file": "en/glossary/fundamentals/thrust.md",
       "line": 83,
-      "column": 1,
+      "column": 64,
       "zone": "references",
       "text": "远程火箭弹道学",
       "severity": "info",
@@ -1445,21 +1765,41 @@
     {
       "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
       "line": 84,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "郑伟",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
+      "line": 85,
+      "column": 3,
       "zone": "references",
       "text": "郑伟",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
       "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
       "line": 86,
-      "column": 1,
+      "column": 0,
+      "zone": "body",
+      "text": "贾沛然",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/glossary/fundamentals/tsiolkovsky-equation.md",
+      "line": 87,
+      "column": 3,
       "zone": "references",
       "text": "贾沛然",
       "severity": "info",
-      "rule": "allowlisted",
+      "rule": "auto-whitelist-references",
       "allowlisted": true
     },
     {
@@ -1805,6 +2145,16 @@
     {
       "file": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
       "line": 39,
+      "column": 0,
+      "zone": "body",
+      "text": "有害气体",
+      "severity": "warn",
+      "rule": "stale-allowlist",
+      "allowlisted": false
+    },
+    {
+      "file": "en/space-news/2026/03/2026-03-27-esa-artemis-2-european-service-module.md",
+      "line": 40,
       "column": 1,
       "zone": "body",
       "text": "有害气体",
@@ -2785,142 +3135,142 @@
     {
       "file": "en/space-news/2026/06/2026-06-05-qianfan-12-batch-long-march-8.md",
       "line": 4,
-      "column": 204,
+      "column": 1,
       "zone": "frontmatter-description",
       "text": "预定",
-      "severity": "error",
-      "rule": "chinese-in-frontmatter",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-05-qianfan-12-batch-long-march-8.md",
       "line": 15,
-      "column": 216,
+      "column": 1,
       "zone": "body",
       "text": "预定",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 47,
-      "column": 13,
+      "column": 1,
       "zone": "body",
       "text": "中文",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 49,
-      "column": 46,
+      "column": 1,
       "zone": "body",
       "text": "微流星体与空间碎片",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 50,
-      "column": 34,
+      "column": 1,
       "zone": "body",
       "text": "超高速冲击测试",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 51,
-      "column": 29,
+      "column": 1,
       "zone": "body",
       "text": "流星暴雨",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 52,
-      "column": 25,
+      "column": 1,
       "zone": "body",
       "text": "偶发背景",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 53,
-      "column": 35,
+      "column": 1,
       "zone": "body",
       "text": "流星体环境办公室",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 54,
-      "column": 35,
+      "column": 1,
       "zone": "body",
       "text": "美国流星协会",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 55,
-      "column": 49,
+      "column": 1,
       "zone": "body",
       "text": "月地转移轨道",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 56,
-      "column": 32,
+      "column": 1,
       "zone": "body",
       "text": "隔热瓦",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 57,
-      "column": 13,
+      "column": 1,
       "zone": "body",
       "text": "狮子座流星雨",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-07-meteor-storms-artemis-4-risk.md",
       "line": 58,
-      "column": 14,
+      "column": 1,
       "zone": "body",
       "text": "英仙座流星雨",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-08-quantum-space-spac-deal.md",
       "line": 20,
-      "column": 116,
+      "column": 1,
       "zone": "body",
       "text": "机动",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-09-iceye-1b-euro-funding.md",
@@ -2928,9 +3278,9 @@
       "column": 1,
       "zone": "frontmatter-author",
       "text": "天疆说",
-      "severity": "error",
-      "rule": "chinese-in-frontmatter",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-09-isar-aerospace-270m-series-d.md",
@@ -2938,9 +3288,9 @@
       "column": 1,
       "zone": "frontmatter-author",
       "text": "天疆说",
-      "severity": "error",
-      "rule": "chinese-in-frontmatter",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-09-new-glenn-rewrite-nasa-moon-base.md",
@@ -2948,9 +3298,9 @@
       "column": 1,
       "zone": "frontmatter-author",
       "text": "天疆说",
-      "severity": "error",
-      "rule": "chinese-in-frontmatter",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-09-zq-2e-y6-success-launch-commercial-rocket-engineering.md",
@@ -2958,9 +3308,9 @@
       "column": 4,
       "zone": "link-text",
       "text": "腾讯新闻",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-11-beidou-in-orbit-upgrade.md",
@@ -2968,19 +3318,19 @@
       "column": 4,
       "zone": "link-text",
       "text": "环球时报-环球网",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-11-china-long-march-5-comms-test-satellite-25.md",
       "line": 20,
-      "column": 55,
+      "column": 1,
       "zone": "body",
       "text": "通信技术试验卫星",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-11-china-long-march-5-comms-test-satellite-25.md",
@@ -2988,19 +3338,19 @@
       "column": 4,
       "zone": "link-text",
       "text": "中国航天科技集团（腾讯新闻聚合）",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-11-qianfan-constellation-10000-satellites-roadmap.md",
       "line": 16,
-      "column": 140,
+      "column": 1,
       "zone": "body",
       "text": "千帆星座",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-11-qianfan-constellation-10000-satellites-roadmap.md",
@@ -3008,9 +3358,9 @@
       "column": 4,
       "zone": "link-text",
       "text": "每日经济新闻",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-12-spacex-historic-ipo-listing.md",
@@ -3018,9 +3368,9 @@
       "column": 4,
       "zone": "link-text",
       "text": "腾讯新闻",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-12-spacex-nasdaq-ipo-2026.md",
@@ -3028,79 +3378,609 @@
       "column": 4,
       "zone": "link-text",
       "text": "环球市场播报",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-14-citic-spacex-ipo-valuation-anchor.md",
       "line": 24,
-      "column": 21,
+      "column": 4,
       "zone": "link-text",
       "text": "人民财讯",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-14-citic-spacex-ipo-valuation-anchor.md",
       "line": 25,
-      "column": 16,
+      "column": 4,
       "zone": "link-text",
       "text": "金十数据",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-cas-space-ipo-kinetica-1-booked.md",
+      "line": 24,
+      "column": 4,
+      "zone": "link-text",
+      "text": "之家",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-jwst-little-red-dots-blackhole-stars.md",
+      "line": 3,
+      "column": 1,
+      "zone": "frontmatter-title",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-jwst-little-red-dots-blackhole-stars.md",
+      "line": 12,
+      "column": 1,
+      "zone": "heading",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-jwst-little-red-dots-blackhole-stars.md",
+      "line": 14,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-15-lijian-1-y14-8-satellites-100-milestone.md",
       "line": 24,
-      "column": 9,
+      "column": 4,
       "zone": "link-text",
       "text": "央广网",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-15-lijian-1-y14-8-satellites-100-milestone.md",
       "line": 25,
-      "column": 24,
+      "column": 4,
       "zone": "link-text",
       "text": "中新社",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-15-lijian-1-y14-8-satellites-100-milestone.md",
       "line": 26,
-      "column": 28,
+      "column": 4,
       "zone": "link-text",
       "text": "中国经营报",
-      "severity": "error",
-      "rule": "chinese-in-link-text",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-15-tianzhou-10-record-payload.md",
+      "line": 14,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-amazon-kuiper-launch-bottleneck.md",
+      "line": 3,
+      "column": 1,
+      "zone": "frontmatter-title",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-amazon-kuiper-launch-bottleneck.md",
+      "line": 12,
+      "column": 1,
+      "zone": "heading",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-amazon-kuiper-launch-bottleneck.md",
+      "line": 16,
+      "column": 1,
+      "zone": "body",
+      "text": "【",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-amazon-kuiper-launch-bottleneck.md",
+      "line": 20,
+      "column": 1,
+      "zone": "body",
+      "text": "【",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-amazon-kuiper-launch-bottleneck.md",
+      "line": 22,
+      "column": 1,
+      "zone": "body",
+      "text": "【",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-16-chandra-m87-black-hole-jet.md",
       "line": 18,
-      "column": 458,
+      "column": 1,
       "zone": "body",
       "text": "【",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/space-news/2026/06/2026-06-16-chandra-m87-black-hole-jet.md",
       "line": 20,
-      "column": 469,
+      "column": 1,
       "zone": "body",
       "text": "【",
-      "severity": "error",
-      "rule": "chinese-in-body",
-      "allowlisted": false
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-chinese-zhuque-2e-debris-near-starlink.md",
+      "line": 4,
+      "column": 1,
+      "zone": "frontmatter-description",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-chinese-zhuque-2e-debris-near-starlink.md",
+      "line": 14,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-jwst-wasp-121b-extreme-weather-rubies-sapphires.md",
+      "line": 3,
+      "column": 1,
+      "zone": "frontmatter-title",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-jwst-wasp-121b-extreme-weather-rubies-sapphires.md",
+      "line": 12,
+      "column": 1,
+      "zone": "heading",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-long-march-3be-returns-to-flight-shijian-31.md",
+      "line": 4,
+      "column": 1,
+      "zone": "frontmatter-description",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-long-march-3be-returns-to-flight-shijian-31.md",
+      "line": 14,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-webb-hubble-terzan5-bulge-fossil.md",
+      "line": 3,
+      "column": 1,
+      "zone": "frontmatter-title",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-16-webb-hubble-terzan5-bulge-fossil.md",
+      "line": 13,
+      "column": 1,
+      "zone": "heading",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-ariane-6-va269-heaviest-payload-amazon-leo.md",
+      "line": 17,
+      "column": 1,
+      "zone": "body",
+      "text": "【",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-jwst-55-cancri-e-hydrogen-atmosphere.md",
+      "line": 16,
+      "column": 1,
+      "zone": "body",
+      "text": "【",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-jwst-massive-clusters-galaxy-building-blocks.md",
+      "line": 3,
+      "column": 1,
+      "zone": "frontmatter-title",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-jwst-massive-clusters-galaxy-building-blocks.md",
+      "line": 12,
+      "column": 1,
+      "zone": "heading",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-jwst-massive-clusters-galaxy-building-blocks.md",
+      "line": 20,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-kuaizhou-11-jiuquan-launch.md",
+      "line": 4,
+      "column": 1,
+      "zone": "frontmatter-description",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-kuaizhou-11-jiuquan-launch.md",
+      "line": 14,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-rocket-lab-strix-launch-10.md",
+      "line": 4,
+      "column": 1,
+      "zone": "frontmatter-description",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-rocket-lab-strix-launch-10.md",
+      "line": 15,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-shenzhou-23-tiangong-launch.md",
+      "line": 16,
+      "column": 1,
+      "zone": "body",
+      "text": "预定",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-shenzhou-23-tiangong-launch.md",
+      "line": 18,
+      "column": 1,
+      "zone": "body",
+      "text": "物资",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-17-shenzhou-23-tiangong-launch.md",
+      "line": 20,
+      "column": 1,
+      "zone": "body",
+      "text": "待",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-18-iss-canadarm2-repairs-crs34-departure.md",
+      "line": 3,
+      "column": 1,
+      "zone": "frontmatter-title",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-18-iss-canadarm2-repairs-crs34-departure.md",
+      "line": 12,
+      "column": 1,
+      "zone": "heading",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-18-tianwen3-vs-nasa-mars-sample-return.md",
+      "line": 4,
+      "column": 1,
+      "zone": "frontmatter-description",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-18-tianwen3-vs-nasa-mars-sample-return.md",
+      "line": 15,
+      "column": 1,
+      "zone": "body",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-20-zhuque-3-first-stage-hotfire-test.md",
+      "line": 25,
+      "column": 4,
+      "zone": "link-text",
+      "text": "浙江在线",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-22-china-spacesail-vs-starlink-ipo.md",
+      "line": 26,
+      "column": 4,
+      "zone": "link-text",
+      "text": "法国国际广播电台",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-24-zhuque-3-y2-recovery-attempt.md",
+      "line": 24,
+      "column": 4,
+      "zone": "link-text",
+      "text": "九阳工社",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-26-qianfan-satellite-direct-to-phone-terminal-debut.md",
+      "line": 27,
+      "column": 4,
+      "zone": "link-text",
+      "text": "快科技",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-28-shenzhou-23-one-month-mark.md",
+      "line": 17,
+      "column": 1,
+      "zone": "body",
+      "text": "预定",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-29-zhuque-3-y2-static-fire.md",
+      "line": 26,
+      "column": 4,
+      "zone": "link-text",
+      "text": "同花顺",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/2026-06-30-cnsa-nea-asteroid-monitoring-system.md",
+      "line": 25,
+      "column": 4,
+      "zone": "link-text",
+      "text": "腾讯新闻",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 24,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 29,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 44,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 55,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 56,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 63,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 78,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 79,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 81,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 89,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/06/README.md",
+      "line": 91,
+      "column": 11,
+      "zone": "link-text",
+      "text": "：",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
+    },
+    {
+      "file": "en/space-news/2026/07/2026-07-01-qianfan-beidou-augmentation.md",
+      "line": 27,
+      "column": 4,
+      "zone": "link-text",
+      "text": "腾讯新闻",
+      "severity": "info",
+      "rule": "allowlisted",
+      "allowlisted": true
     },
     {
       "file": "en/what-is-cislunarspace/README.md",
@@ -3114,15 +3994,17 @@
     }
   ],
   "summary": {
-    "total": 311,
+    "total": 399,
     "byZone": {
-      "body": 130,
+      "body": 182,
       "references": 123,
-      "link-text": 54,
-      "frontmatter-description": 1,
-      "frontmatter-author": 3
+      "link-text": 73,
+      "frontmatter-description": 6,
+      "frontmatter-author": 3,
+      "frontmatter-title": 6,
+      "heading": 6
     },
-    "allowlisted": 275,
-    "unexplained": 36
+    "allowlisted": 360,
+    "unexplained": 39
   }
 }
