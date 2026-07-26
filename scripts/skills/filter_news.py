@@ -14,9 +14,11 @@ import json
 import sys
 from pathlib import Path
 
-# 添加父目录到 Python 路径
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+# 添加项目根目录到 Python 路径
+REPO_ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(REPO_ROOT))
 
+# 导入现有模块
 from scripts.space_news_update_phase1_hermes import (
     select_articles_hermes,
     load_existing_recent,
