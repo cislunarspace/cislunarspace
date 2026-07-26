@@ -12,7 +12,7 @@
 //   - 热构建 (0 页变更): 从 ~221s 降到 ~5-10s
 //   - 增量 (50 页变更): 从 ~221s 降到 ~15-25s
 
-const CACHE_MAX_ENTRIES = 5000
+const CACHE_MAX_ENTRIES = 5000;
 
 /**
  * Create a Vite plugin that intercepts @vuepress/bundlerutils during SSR
@@ -22,9 +22,9 @@ const CACHE_MAX_ENTRIES = 5000
  * process exit handlers embedded in the generated module code.
  */
 export function createSsrRenderCachePlugin(): {
-  name: string
-  enforce: string
-  load(id: string): string | null
+  name: string;
+  enforce: string;
+  load(id: string): string | null;
 } {
   return {
     name: 'vuepress:ssr-render-cache',
@@ -33,17 +33,13 @@ export function createSsrRenderCachePlugin(): {
     load(id: string): string | null {
       // Only intercept the bundlerutils module during SSR build.
       // Vite resolves bare specifiers to absolute paths in node_modules.
-      if (
-        !id.includes('@vuepress/bundlerutils') ||
-        !id.includes('dist/index')
-      ) {
-        return null
+      if (!id.includes('@vuepress/bundlerutils') || !id.includes('dist/index')) {
+        return null;
       }
 
       // Resolve absolute path to webDir at plugin creation time (not at
       // runtime) so the generated code has a hardcoded correct path.
-      const webDir = new URL('../../', import.meta.url).pathname
-        .replace(/^\/([A-Z]:)/, '$1') // Windows: /D:/ → D:/
+      const webDir = new URL('../../', import.meta.url).pathname.replace(/^\/([A-Z]:)/, '$1'); // Windows: /D:/ → D:/
 
       // Return modified module: renderPageToString → cached wrapper.
       // createVueServerApp and getSsrTemplate are re-exported unchanged
@@ -132,7 +128,7 @@ function _saveCache() {
 process.on('beforeExit', _saveCache);
 process.on('SIGINT', () => { _saveCache(); process.exit(0); });
 process.on('SIGTERM', () => { _saveCache(); process.exit(0); });
-`
+`;
     },
-  }
+  };
 }

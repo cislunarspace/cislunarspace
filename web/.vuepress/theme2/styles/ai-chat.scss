@@ -188,7 +188,9 @@
   padding: 2px;
   border-radius: 4px;
   flex-shrink: 0;
-  transition: opacity 0.15s, color 0.15s;
+  transition:
+    opacity 0.15s,
+    color 0.15s;
 }
 
 .sidebar-item:hover .sidebar-item-delete,
@@ -1049,8 +1051,13 @@
 }
 
 @keyframes fadeOut {
-  0%, 70% { opacity: 1; }
-  100% { opacity: 0; }
+  0%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @media (max-width: 768px) {

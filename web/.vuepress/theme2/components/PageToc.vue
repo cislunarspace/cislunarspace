@@ -101,11 +101,11 @@ function extractHeaders(): TocHeader[] {
 function scrollTo(id: string) {
   const el = document.getElementById(id);
   if (el) {
-    const navHeight = 60
-    const top = el.getBoundingClientRect().top + window.scrollY - navHeight
-    window.scrollTo({ top, behavior: 'smooth' })
-    history.pushState(null, '', '#' + id) // pushState 保留历史条目，支持后退到上一个 TOC 锚点
-    activeId.value = id
+    const navHeight = 60;
+    const top = el.getBoundingClientRect().top + window.scrollY - navHeight;
+    window.scrollTo({ top, behavior: 'smooth' });
+    history.pushState(null, '', '#' + id); // pushState 保留历史条目，支持后退到上一个 TOC 锚点
+    activeId.value = id;
   }
 }
 

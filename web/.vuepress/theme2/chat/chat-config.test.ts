@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, afterEach } from 'vitest'
-import { normalizeApiEndpoint, sanitizeClientConfig, loadChatConfig } from './chat-config'
+import { describe, it, expect, vi, afterEach } from 'vitest';
+import { normalizeApiEndpoint, sanitizeClientConfig, loadChatConfig } from './chat-config';
 
 describe('normalizeApiEndpoint', () => {
   it('defaults to /api/ai/v1/chat/completions for non-string', () => {
@@ -59,28 +59,34 @@ describe('sanitizeClientConfig', () => {
   });
 
   it('normalizes apiEndpoint', () => {
-    const result = sanitizeClientConfig({ apiEndpoint: 'custom/api' })
-    expect(result.apiEndpoint).toBe('/custom/api')
-  })
-})
+    const result = sanitizeClientConfig({ apiEndpoint: 'custom/api' });
+    expect(result.apiEndpoint).toBe('/custom/api');
+  });
+});
 
 describe('loadChatConfig retry', () => {
   afterEach(() => {
-    vi.restoreAllMocks()
-    vi.resetModules()
-  })
+    vi.restoreAllMocks();
+    vi.resetModules();
+  });
 
   it('allows retry after fetch failure', async () => {
     // 第一次：fetch 返回 500
-    vi.stubGlobal('fetch', vi.fn(async () => new Response('', { status: 500 })))
-    const { loadChatConfig: load1 } = await import('./chat-config')
-    await expect(load1()).rejects.toThrow('HTTP 500')
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => new Response('', { status: 500 })),
+    );
+    const { loadChatConfig: load1 } = await import('./chat-config');
+    await expect(load1()).rejects.toThrow('HTTP 500');
 
     // 第二次：fetch 返回有效 config
-    const validConfig = { model: 'test', apiEndpoint: '/api' }
-    vi.stubGlobal('fetch', vi.fn(async () => new Response(JSON.stringify(validConfig))))
-    const { loadChatConfig: load2 } = await import('./chat-config')
-    const result = await load2()
-    expect(result.model).toBe('test')
-  })
-})
+    const validConfig = { model: 'test', apiEndpoint: '/api' };
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => new Response(JSON.stringify(validConfig))),
+    );
+    const { loadChatConfig: load2 } = await import('./chat-config');
+    const result = await load2();
+    expect(result.model).toBe('test');
+  });
+});

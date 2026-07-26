@@ -156,16 +156,16 @@ describe('decodeStream', () => {
 
     await decodeStream(reader, { onChunk, onComplete, onError: vi.fn() });
 
-    expect(onChunk).toHaveBeenCalledTimes(1)
-    expect(onChunk).toHaveBeenCalledWith({ content: 'no newline' })
-    expect(onComplete).toHaveBeenCalledTimes(1)
-  })
+    expect(onChunk).toHaveBeenCalledTimes(1);
+    expect(onChunk).toHaveBeenCalledWith({ content: 'no newline' });
+    expect(onComplete).toHaveBeenCalledTimes(1);
+  });
 
   it('releases reader on normal completion', async () => {
-    const reader = createMockReader(['data: {"choices":[{"delta":{"content":"hi"}}]}\n'])
-    await decodeStream(reader, { onChunk: vi.fn(), onComplete: vi.fn(), onError: vi.fn() })
-    expect(reader.cancel).toHaveBeenCalled()
-  })
+    const reader = createMockReader(['data: {"choices":[{"delta":{"content":"hi"}}]}\n']);
+    await decodeStream(reader, { onChunk: vi.fn(), onComplete: vi.fn(), onError: vi.fn() });
+    expect(reader.cancel).toHaveBeenCalled();
+  });
 
   it('releases reader on error', async () => {
     const reader = {
@@ -173,25 +173,25 @@ describe('decodeStream', () => {
       releaseLock: vi.fn(),
       cancel: vi.fn(),
       closed: Promise.resolve(undefined),
-    } as unknown as ReadableStreamDefaultReader<Uint8Array>
-    await decodeStream(reader, { onChunk: vi.fn(), onComplete: vi.fn(), onError: vi.fn() })
-    expect(reader.cancel).toHaveBeenCalled()
-  })
+    } as unknown as ReadableStreamDefaultReader<Uint8Array>;
+    await decodeStream(reader, { onChunk: vi.fn(), onComplete: vi.fn(), onError: vi.fn() });
+    expect(reader.cancel).toHaveBeenCalled();
+  });
 
   it('re-throws AbortError instead of calling onError', async () => {
-    const abortError = new DOMException('aborted', 'AbortError')
+    const abortError = new DOMException('aborted', 'AbortError');
     const reader = {
       read: vi.fn().mockRejectedValue(abortError),
       releaseLock: vi.fn(),
       cancel: vi.fn(),
       closed: Promise.resolve(undefined),
-    } as unknown as ReadableStreamDefaultReader<Uint8Array>
-    const onError = vi.fn()
+    } as unknown as ReadableStreamDefaultReader<Uint8Array>;
+    const onError = vi.fn();
 
     await expect(
       decodeStream(reader, { onChunk: vi.fn(), onComplete: vi.fn(), onError }),
-    ).rejects.toThrow('aborted')
-    expect(onError).not.toHaveBeenCalled()
-    expect(reader.cancel).toHaveBeenCalled()
-  })
-})
+    ).rejects.toThrow('aborted');
+    expect(onError).not.toHaveBeenCalled();
+    expect(reader.cancel).toHaveBeenCalled();
+  });
+});

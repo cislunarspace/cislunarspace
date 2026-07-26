@@ -11,7 +11,13 @@
 
     <div class="sna-body">
       <div v-if="fetchError" class="sna-fetch-error">
-        <p>{{ isEn ? 'Failed to load news data. Please refresh the page.' : '加载资讯数据失败，请刷新页面重试。' }}</p>
+        <p>
+          {{
+            isEn
+              ? 'Failed to load news data. Please refresh the page.'
+              : '加载资讯数据失败，请刷新页面重试。'
+          }}
+        </p>
       </div>
       <nav v-else class="sna-filters">
         <button
@@ -97,25 +103,29 @@ const fetchError = ref(false);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/space-news-articles.json')
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    const data = await response.json() as ArticlesData
-    articlesData.value = data
-    categoryMeta.value = data.categoryMeta ?? {}
+    const response = await fetch('/space-news-articles.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = (await response.json()) as ArticlesData;
+    articlesData.value = data;
+    categoryMeta.value = data.categoryMeta ?? {};
   } catch {
     fetchError.value = true;
   }
 });
 
 // 从 URL query 读取分类过滤（校验 category 是否有效）
-watch(() => route.query.category, (cat) => {
-  if (cat && typeof cat === 'string') {
-    const validKeys = usedCategories.value.map((c: { key: string }) => c.key)
-    activeFilter.value = validKeys.includes(cat) ? cat : 'all'
-  } else {
-    activeFilter.value = 'all'
-  }
-}, { immediate: true })
+watch(
+  () => route.query.category,
+  (cat) => {
+    if (cat && typeof cat === 'string') {
+      const validKeys = usedCategories.value.map((c: { key: string }) => c.key);
+      activeFilter.value = validKeys.includes(cat) ? cat : 'all';
+    } else {
+      activeFilter.value = 'all';
+    }
+  },
+  { immediate: true },
+);
 
 const directoryView = computed(() => {
   if (!articlesData.value) return null;

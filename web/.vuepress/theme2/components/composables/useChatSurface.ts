@@ -9,7 +9,7 @@ import { useChatI18n } from './useChatI18n';
 import { useIsEn } from '../../composables/useIsEn';
 import type { HierarchicalSiteIndex, NormalizedConfig } from '../../chat/chat-types';
 
-const MAX_INPUT_LENGTH = 2000
+const MAX_INPUT_LENGTH = 2000;
 
 /**
  * useChatSurface — composable that owns AI Chat surface state.
@@ -25,10 +25,10 @@ export function useChatSurface(
   const isEn = useIsEn();
   const { t } = useChatI18n(() => isEn.value);
 
-  const state = createChatStateMachine()
-  const theme = createChatThemeController(ref(false))
-  const ui = createChatUIManager()
-  const inputTooLong = ref(false)
+  const state = createChatStateMachine();
+  const theme = createChatThemeController(ref(false));
+  const ui = createChatUIManager();
+  const inputTooLong = ref(false);
 
   const {
     chatHistory,
@@ -62,17 +62,19 @@ export function useChatSurface(
   }));
 
   async function sendMessage() {
-    const text = ui.userInput.value.trim()
-    if (!text) return
+    const text = ui.userInput.value.trim();
+    if (!text) return;
     if (text.length > MAX_INPUT_LENGTH) {
-      ui.userInput.value = text.slice(0, MAX_INPUT_LENGTH)
-      inputTooLong.value = true
-      setTimeout(() => { inputTooLong.value = false }, 3000)
-      return
+      ui.userInput.value = text.slice(0, MAX_INPUT_LENGTH);
+      inputTooLong.value = true;
+      setTimeout(() => {
+        inputTooLong.value = false;
+      }, 3000);
+      return;
     }
-    ui.userInput.value = ''
-    if (inputRef.value) inputRef.value.style.height = 'auto'
-    await state.sendMessage(text, sendDeps.value)
+    ui.userInput.value = '';
+    if (inputRef.value) inputRef.value.style.height = 'auto';
+    await state.sendMessage(text, sendDeps.value);
   }
 
   function sendSuggested(question: string) {
@@ -116,5 +118,5 @@ export function useChatSurface(
     sendMessage,
     sendSuggested,
     inputTooLong,
-  }
+  };
 }

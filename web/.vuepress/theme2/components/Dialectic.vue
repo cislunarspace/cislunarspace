@@ -118,7 +118,9 @@
                 class="input-textarea"
                 :value="inputs[currentStep].note"
                 @input="onNoteInput"
-                :placeholder="isEn ? 'Explain your rating and sources...' : '补充说明定级理由与来源情况...'"
+                :placeholder="
+                  isEn ? 'Explain your rating and sources...' : '补充说明定级理由与来源情况...'
+                "
                 :aria-label="isEn ? 'Rating explanation' : '定级说明'"
               ></textarea>
               <div v-else class="placeholder-hint">请先选择证据级别</div>
@@ -136,7 +138,9 @@
                   class="input-textarea half"
                   :value="inputs[currentStep].view1"
                   @input="(e) => onDualInput(e, 'view1')"
-                  :placeholder="isEn ? 'First theoretical perspective...' : '输入第一个理论视角及其演绎解释...'"
+                  :placeholder="
+                    isEn ? 'First theoretical perspective...' : '输入第一个理论视角及其演绎解释...'
+                  "
                   :aria-label="isEn ? 'Perspective 1' : '视角一'"
                 ></textarea>
                 <span class="box-label">{{ isEn ? 'Perspective 2' : '视角二' }}</span>
@@ -144,7 +148,9 @@
                   class="input-textarea half"
                   :value="inputs[currentStep].view2"
                   @input="(e) => onDualInput(e, 'view2')"
-                  :placeholder="isEn ? 'Second theoretical perspective...' : '输入第二个理论视角及其演绎解释...'"
+                  :placeholder="
+                    isEn ? 'Second theoretical perspective...' : '输入第二个理论视角及其演绎解释...'
+                  "
                   :aria-label="isEn ? 'Perspective 2' : '视角二'"
                 ></textarea>
               </div>
@@ -253,14 +259,21 @@ function enterDemo() {
 
 function goHome() {
   if (view.value === 'dialectic' && hasAnyInput()) {
-    if (!confirm(isEn.value ? 'Leave will discard current progress. Continue?' : '返回首页将丢失当前进度，确定继续？')) return
+    if (
+      !confirm(
+        isEn.value
+          ? 'Leave will discard current progress. Continue?'
+          : '返回首页将丢失当前进度，确定继续？',
+      )
+    )
+      return;
   }
-  view.value = 'home'
-  reports.value = loadReports()
+  view.value = 'home';
+  reports.value = loadReports();
 }
 
 function hasAnyInput(): boolean {
-  return inputs.value.some(i => i.value || i.level || i.note || i.view1 || i.view2)
+  return inputs.value.some((i) => i.value || i.level || i.note || i.view1 || i.view2);
 }
 
 function startNew() {
@@ -287,8 +300,8 @@ function clearHistory() {
 }
 
 function removeReport(id: number) {
-  deleteReport(id)
-  reports.value = loadReports()
+  deleteReport(id);
+  reports.value = loadReports();
 }
 
 function copyReport() {
@@ -389,22 +402,22 @@ function loadTemplate() {
 
 // --- AI assist (via dialectic-ai transport seam) ---
 function onAIAssist() {
-  if (isAILoading.value) return
-  isAILoading.value = true
-  aiResponse.value = ''
-  aiReasoning.value = ''
+  if (isAILoading.value) return;
+  isAILoading.value = true;
+  aiResponse.value = '';
+  aiReasoning.value = '';
   callDialecticAI(currentStep.value, inputs.value)
-    .then(result => {
-      isAILoading.value = false
-      aiResponse.value = result.content
-      aiReasoning.value = result.reasoning
+    .then((result) => {
+      isAILoading.value = false;
+      aiResponse.value = result.content;
+      aiReasoning.value = result.reasoning;
     })
     .catch(() => {
-      isAILoading.value = false
+      isAILoading.value = false;
       aiResponse.value = isEn.value
         ? 'AI request failed. Please check your network and try again.'
-        : 'AI 请求失败，请检查网络后重试。'
-    })
+        : 'AI 请求失败，请检查网络后重试。';
+    });
 }
 
 function closeAIAssist() {
@@ -437,10 +450,10 @@ function adoptPolished() {
 
 // --- Report generation (via dialectic-ai transport seam) ---
 async function doGenerateReport() {
-  if (reportLoading.value) return
-  reportLoading.value = true
-  const content = await generateDialecticReport(inputs.value)
-  reportLoading.value = false
+  if (reportLoading.value) return;
+  reportLoading.value = true;
+  const content = await generateDialecticReport(inputs.value);
+  reportLoading.value = false;
 
   if (content) {
     const reportData = addReport({

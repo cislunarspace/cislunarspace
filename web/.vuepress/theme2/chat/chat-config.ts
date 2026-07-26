@@ -18,13 +18,13 @@ let cachedConfigPromise: Promise<NormalizedConfig> | null = null;
 export async function loadChatConfig(): Promise<NormalizedConfig> {
   if (!cachedConfigPromise) {
     cachedConfigPromise = (async () => {
-      const res = await fetch('/ai-chat-config.json', { cache: 'no-store' })
-      if (!res.ok) throw new Error(`Failed to load AI config: HTTP ${res.status}`)
-      return sanitizeClientConfig(await res.json())
+      const res = await fetch('/ai-chat-config.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`Failed to load AI config: HTTP ${res.status}`);
+      return sanitizeClientConfig(await res.json());
     })().catch((err) => {
-      cachedConfigPromise = null
-      throw err
-    })
+      cachedConfigPromise = null;
+      throw err;
+    });
   }
   return cachedConfigPromise;
 }

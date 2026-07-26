@@ -1,21 +1,21 @@
-import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { sitemapPlugin } from '@vuepress/plugin-sitemap'
-import { searchPlugin } from '@vuepress/plugin-search'
-import dotenv from 'dotenv'
-import path from 'path'
-import { fileURLToPath } from 'url'
-import theme from './theme2/index.js'
-import navbar from './navbar.ts'
-import navbarEn from './navbar-en.ts'
-import { buildSidebarConfigs } from './sidebar/config.ts'
-import ogMetaPlugin from './og-meta-plugin.ts'
-import { citePlugin, loadBibliography } from './cite-plugin.ts'
-import { katexPlugin } from './katex-plugin.ts'
-import { rawContentPlugin } from './raw-content-plugin.ts'
-import { headScripts } from './head-scripts.ts'
-import { createSsrRenderCachePlugin } from './build/ssr-render-cache.ts'
+import { defineUserConfig } from 'vuepress';
+import { viteBundler } from '@vuepress/bundler-vite';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { sitemapPlugin } from '@vuepress/plugin-sitemap';
+import { searchPlugin } from '@vuepress/plugin-search';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import theme from './theme2/index.js';
+import navbar from './navbar.ts';
+import navbarEn from './navbar-en.ts';
+import { buildSidebarConfigs } from './sidebar/config.ts';
+import ogMetaPlugin from './og-meta-plugin.ts';
+import { citePlugin, loadBibliography } from './cite-plugin.ts';
+import { katexPlugin } from './katex-plugin.ts';
+import { rawContentPlugin } from './raw-content-plugin.ts';
+import { headScripts } from './head-scripts.ts';
+import { createSsrRenderCachePlugin } from './build/ssr-render-cache.ts';
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url));
 const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs();

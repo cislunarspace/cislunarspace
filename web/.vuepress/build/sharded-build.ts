@@ -90,8 +90,8 @@ function listMonths(dir: string): string[] {
     if (!y.isDirectory() || !/^\d{4}$/.test(y.name)) continue;
     const yDir = path.join(dir, y.name);
     for (const m of readdirSync(yDir, { withFileTypes: true })) {
-      if (!m.isDirectory() || !/^\d{2}$/.test(m.name)) continue
-      months.push(`${y.name}/${m.name}`)
+      if (!m.isDirectory() || !/^\d{2}$/.test(m.name)) continue;
+      months.push(`${y.name}/${m.name}`);
     }
   }
   return months.sort();

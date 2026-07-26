@@ -10,10 +10,29 @@
 
     <div class="sn-body">
       <div v-if="fetchError" class="sn-fetch-error">
-        <p>{{ isEn ? 'Failed to load news data. Please refresh the page.' : '加载资讯数据失败，请刷新页面重试。' }}</p>
+        <p>
+          {{
+            isEn
+              ? 'Failed to load news data. Please refresh the page.'
+              : '加载资讯数据失败，请刷新页面重试。'
+          }}
+        </p>
       </div>
-      <div v-else-if="featuredList.length" class="sn-featured" @mouseenter="stopCarousel" @mouseleave="startCarousel" role="region" aria-roledescription="carousel" :aria-label="isEn ? 'Featured articles' : '精选文章'">
-        <router-link :to="featuredList[currentFeatured].path" class="sn-featured__link" :key="featuredList[currentFeatured].path" :aria-label="featuredList[currentFeatured].title">
+      <div
+        v-else-if="featuredList.length"
+        class="sn-featured"
+        @mouseenter="stopCarousel"
+        @mouseleave="startCarousel"
+        role="region"
+        aria-roledescription="carousel"
+        :aria-label="isEn ? 'Featured articles' : '精选文章'"
+      >
+        <router-link
+          :to="featuredList[currentFeatured].path"
+          class="sn-featured__link"
+          :key="featuredList[currentFeatured].path"
+          :aria-label="featuredList[currentFeatured].title"
+        >
           <div class="sn-featured__img" :style="cardBg(featuredList[currentFeatured])">
             <span
               v-if="featuredList[currentFeatured].primaryCategory"
@@ -47,7 +66,10 @@
             class="sn-featured__dot"
             :class="{ active: i === currentFeatured }"
             :aria-label="(isEn ? 'Go to slide ' : '切换到第 ') + (i + 1)"
-            @click="currentFeatured = i; startCarousel()"
+            @click="
+              currentFeatured = i;
+              startCarousel();
+            "
           ></button>
         </div>
       </div>
@@ -151,11 +173,11 @@ const fetchError = ref(false);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/space-news-articles.json')
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    const data = await response.json() as ArticlesData
-    articlesData.value = data
-    categoryMeta.value = data.categoryMeta ?? {}
+    const response = await fetch('/space-news-articles.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = (await response.json()) as ArticlesData;
+    articlesData.value = data;
+    categoryMeta.value = data.categoryMeta ?? {};
   } catch {
     fetchError.value = true;
   }
@@ -181,9 +203,13 @@ const currentFeatured = ref(0);
 let carouselTimer: ReturnType<typeof setInterval> | null = null;
 
 function startCarousel() {
-  stopCarousel()
-  if (featuredList.value.length <= 1) return
-  if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  stopCarousel();
+  if (featuredList.value.length <= 1) return;
+  if (
+    typeof window !== 'undefined' &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  )
+    return;
   carouselTimer = setInterval(() => {
     if (featuredList.value.length === 0) {
       stopCarousel();
