@@ -47,7 +47,7 @@ const locale = computed<'zh' | 'en'>(() => (props.isEn ? 'en' : 'zh'));
 const categoryMeta = ref<SpaceNewsCategoryMeta>({});
 onMounted(async () => {
   try {
-    const res = await fetch('/space-news-articles.json');
+    const res = await fetch('/space-news-sidebar-data.json');
     if (res.ok) {
       const data = await res.json();
       categoryMeta.value = data.categoryMeta ?? {};

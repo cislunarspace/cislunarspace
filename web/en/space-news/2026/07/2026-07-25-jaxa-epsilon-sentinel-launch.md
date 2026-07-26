@@ -1,7 +1,7 @@
 ---
 layout: SpaceNewsArticle
 title: "JAXAs Epsilon Rocket Launches ESAs Sentinel Satellite for Earth Observation"
-description: "A JAXA Epsilon rocket successfully launched an ESA Sentinel satellite to monitor Earths environment, marking a key step in international space cooperation. Date： 2026-07-25."
+description: "A JAXA Epsilon rocket successfully launched an ESA Sentinel satellite to monitor Earths environment, marking a key step in international space cooperation. Date: 2026-07-25."
 permalink: /en/space-news/2026/07/2026-07-25-jaxa-epsilon-sentinel-launch/
 author: Tianjiangshuo
 date: 2026-07-25
@@ -11,7 +11,7 @@ category: jaxa
 
 # JAXAs Epsilon Rocket Launches ESAs Sentinel Satellite for Earth Observation
 
-**Summary:** A JAXA Epsilon rocket successfully launched an ESA Sentinel satellite to monitor Earths environment, marking a key step in international space cooperation. Date： 2026-07-25.
+**Summary:** A JAXA Epsilon rocket successfully launched an ESA Sentinel satellite to monitor Earths environment, marking a key step in international space cooperation. Date: 2026-07-25.
 
 On July 25, 2026, the Japan Aerospace Exploration Agency (JAXA) successfully launched an ESA Sentinel satellite using an Epsilon rocket. The satellite is designed for Earth observation and environmental monitoring.
 

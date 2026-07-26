@@ -62,7 +62,7 @@ All sidebar-related data, types, and runtime config construction:
 
 One generator per output family. Orchestrated by `generate.ts` (the `npm run gen-sidebar` entry point):
 
-- `space-news.ts` — generates `sidebar.auto.json`, `space-news-articles.json`, `space-news-sidebar-data.json`
+- `space-news.ts` — generates `sidebar.auto.json`, `space-news-articles-zh.json`, `space-news-articles-en.json`, `space-news-sidebar-data.json`
 - `ai-chat.ts` — generates `ai-chat-context.json` and `ai-chat-index.json`
 - `glossary.ts` — generates `sidebar-glossary.auto.json` and translation-gap reports
 - `bibliography.ts` — generates `bibliography.json` from `ref.bib` + citation scan
@@ -138,7 +138,8 @@ The site has four content families with different management models:
 ### Auto-Generated Files (DO NOT EDIT)
 
 - `web/.vuepress/sidebar.auto.json` — Space News sidebar tree
-- `web/.vuepress/space-news-articles.json` — Space News article metadata
+- `web/.vuepress/space-news-articles-zh.json` — Space News 中文文章元数据
+- `web/.vuepress/space-news-articles-en.json` — Space News 英文文章元数据
 - `web/.vuepress/space-news-sidebar-data.json` — Space News custom sidebar data
 - `web/.vuepress/sidebar-glossary.auto.json` — glossary scan data
 - `web/.vuepress/public/ai-chat-index.json` — AI chat route index

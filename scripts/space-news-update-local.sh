@@ -67,7 +67,8 @@ else
     cd "$REPO" || exit 1
     git add web/space-news/ web/en/space-news/ \
            web/.vuepress/sidebar.auto.json \
-           web/.vuepress/space-news-articles.json 2>/dev/null || true
+           web/.vuepress/space-news-articles-zh.json \
+           web/.vuepress/space-news-articles-en.json 2>/dev/null || true
 
     if ! git diff --cached --quiet; then
         git commit -m "Update space news — $(date -u '+%Y-%m-%d %H:%M UTC')" >/dev/null

@@ -28,7 +28,7 @@ BUILD_SHARDS=4 npm run docs:build:parallel
 
 构建后验证：
 
-- `web/.vuepress/space-news-articles.json` 中中英新稿均已收录。
+- `web/.vuepress/space-news-articles-zh.json` 和 `space-news-articles-en.json` 中新稿均已收录。
 - `web/.vuepress/dist/space-news/YYYY/MM/<slug>/index.html` 存在且包含新稿关键词。
 - `web/.vuepress/dist/en/space-news/YYYY/MM/<slug>/index.html` 同上。
 - 新稿图片在中英 dist 路径可访问。
@@ -41,7 +41,8 @@ BUILD_SHARDS=4 npm run docs:build:parallel
 cd /home/ouyangjiahong/codes/cislunarspace
 git add web/space-news/ web/en/space-news/ \
        web/.vuepress/sidebar.auto.json \
-       web/.vuepress/space-news-articles.json
+       web/.vuepress/space-news-articles-zh.json \
+       web/.vuepress/space-news-articles-en.json
 git commit -m "Update space news — $(date -u '+%Y-%m-%d %H:%M UTC')"
 GIT_HTTP_VERSION=HTTP/1.1 git push origin master
 ```

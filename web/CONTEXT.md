@@ -15,6 +15,7 @@ The custom theme extends `@vuepress/theme-default` at `web/.vuepress/theme2/`. I
 ### Sidebar
 
 The sidebar configuration is generated from multiple sources:
+
 - Manual section definitions in `web/.vuepress/sidebar/data.ts`
 - Auto-generated JSON artifacts: `sidebar.auto.json`, `sidebar-glossary.auto.json`
 - Runtime construction in `web/.vuepress/sidebar/config.ts`
@@ -26,6 +27,7 @@ The unified taxonomy module at `web/.vuepress/taxonomy/` owns all taxonomy data 
 ### Generators
 
 Build-time generators in `web/.vuepress/generators/` produce JSON artifacts:
+
 - `space-news.ts` — Space News sidebar, articles, and sidebar data
 - `ai-chat.ts` — AI Chat context and index
 - `glossary.ts` — Glossary sidebar and translation gaps
@@ -34,6 +36,7 @@ Build-time generators in `web/.vuepress/generators/` produce JSON artifacts:
 ### Intakes
 
 Build-time data collection in `web/.vuepress/intakes/`:
+
 - `glossary-intake.ts` — scans glossary markdown files
 - `chat-index-intake.ts` — builds AI chat index from taxonomy
 - `translation-gap-intake.ts` — identifies missing glossary translations
@@ -41,6 +44,7 @@ Build-time data collection in `web/.vuepress/intakes/`:
 ### Content Families
 
 The site has four content families:
+
 1. **Knowledge-base sections** — `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, etc.
 2. **Glossary** — `web/glossary/`, `web/en/glossary/`
 3. **Space News** — `web/space-news/YYYY/MM/`, `web/en/space-news/YYYY/MM/`
@@ -49,6 +53,7 @@ The site has four content families:
 ### Build Pipeline
 
 `npm run docs:build` runs three steps:
+
 1. `generate.ts` (`npm run gen-sidebar`) — generates all JSON artifacts
 2. `vuepress build` — builds static site
 3. `sync-figures.js` (`npm run sync-figures`) — copies `figures/` dirs into `dist/`

@@ -390,7 +390,7 @@ npm run gen-sidebar
 
 **生成的文件**：
 - `web/.vuepress/sidebar.auto.json` - Space News sidebar tree
-- `web/.vuepress/space-news-articles.json` - 文章元数据
+- `web/.vuepress/space-news-articles-zh.json` 和 `space-news-articles-en.json` - 按语言拆分的文章元数据
 - `web/.vuepress/sidebar-glossary.auto.json` - Glossary scan data
 - `web/.vuepress/public/ai-chat-index.json` - AI chat route index
 - `web/.vuepress/public/ai-chat-context.json` - AI chat context corpus
@@ -443,7 +443,8 @@ cd /home/ouyangjiahong/codes/cislunarspace
 # 添加文件
 git add web/space-news/ web/en/space-news/ \
        web/.vuepress/sidebar.auto.json \
-       web/.vuepress/space-news-articles.json
+       web/.vuepress/space-news-articles-zh.json \
+       web/.vuepress/space-news-articles-en.json
 
 # 提交
 git commit -m "Update space news — $(date -u '+%Y-%m-%d %H:%M UTC')"

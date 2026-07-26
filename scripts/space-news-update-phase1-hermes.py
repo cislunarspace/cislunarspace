@@ -689,8 +689,8 @@ def save_article(zh: str, en: str, slug: str, date: str) -> bool:
     en_path = en_dir / filename
 
     try:
-        cn_path.write_text(zh, encoding="utf-8")
-        en_path.write_text(en, encoding="utf-8")
+        cn_path.write_text(zh.rstrip() + "\n", encoding="utf-8")
+        en_path.write_text(en.rstrip() + "\n", encoding="utf-8")
         print(f"  Saved: {cn_path}", file=LOG)
         print(f"  Saved: {en_path}", file=LOG)
         return True
@@ -823,7 +823,7 @@ def fetch_and_save_hero(meta: Dict) -> None:
         # 在 frontmatter 末尾追加 image 行
         fm_new = fm.rstrip() + f"\nimage: {image_rel}\n"
         content = f"---{fm_new}---{parts[2]}"
-        md_path.write_text(content, encoding="utf-8")
+        md_path.write_text(content.rstrip() + "\n", encoding="utf-8")
         print(f"  IMG: added image field to {md_path.name}", file=LOG)
 
 

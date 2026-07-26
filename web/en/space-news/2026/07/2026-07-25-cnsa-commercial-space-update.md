@@ -23,4 +23,4 @@ In recent years, the frequency of commercial space launches in China has risen s
 
 ## Sources (original pages)
 
-- [中国国家航天局](https://www.cnsa.gov.cn/n6758823/n6758836/c12345678/content.html)
+- [China National Space Administration (CNSA)](https://www.cnsa.gov.cn/n6758823/n6758836/c12345678/content.html)

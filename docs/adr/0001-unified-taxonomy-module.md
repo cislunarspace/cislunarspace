@@ -181,7 +181,7 @@ Amending this ADR is required only for changes to: the `TaxonomyNode` interface 
 - Adding a new section becomes a **single-file change** to `taxonomy/data.ts`. The build pipeline updates navbar, sidebar, wayfinding, and AI-chat together.
 - zh/en drift becomes a validation error, not a runtime 404.
 - AFK agents have one concept (`TaxonomyNode`) and one file to edit, with a typed validator that catches mistakes at build time.
-- Existing outputs (`sidebar.auto.json`, `space-news-articles.json`, navbar arrays) are unchanged in shape — downstream consumers (VuePress, theme components) are untouched.
+- Existing outputs (`sidebar.auto.json`, `space-news-articles-zh.json`, `space-news-articles-en.json`, navbar arrays) are unchanged in shape — downstream consumers (VuePress, theme components) are untouched.
 
 ### Negative
 

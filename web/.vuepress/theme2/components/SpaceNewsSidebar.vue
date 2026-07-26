@@ -162,14 +162,11 @@ const fetchError = ref(false);
 
 onMounted(async () => {
   try {
-    const [sidebarResponse, articlesResponse] = await Promise.all([
-      fetch('/space-news-sidebar-data.json'),
-      fetch('/space-news-articles.json'),
-    ]);
-    if (!sidebarResponse.ok || !articlesResponse.ok) throw new Error('fetch failed');
-    sidebarRaw.value = await sidebarResponse.json();
-    const articlesData = await articlesResponse.json();
-    categoryMeta.value = articlesData.categoryMeta ?? {};
+    const sidebarResponse = await fetch('/space-news-sidebar-data.json');
+    if (!sidebarResponse.ok) throw new Error('fetch failed');
+    const data = await sidebarResponse.json();
+    sidebarRaw.value = data;
+    categoryMeta.value = data.categoryMeta ?? {};
   } catch {
     fetchError.value = true;
   }

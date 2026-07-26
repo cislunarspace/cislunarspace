@@ -247,15 +247,19 @@ export function generateSpaceNewsArtifacts(
   const zhArticles = filesToArticles(files, 'space-news/', '/space-news/');
   const enArticles = filesToArticles(files, 'en/space-news/', '/en/space-news/');
 
-  const articlesJson = JSON.stringify({ zh: zhArticles, en: enArticles, categoryMeta }, null, 2);
-  fs.writeFileSync(path.join(outDir, 'space-news-articles.json'), articlesJson);
+  // Per-locale article files (no longer bundled together)
+  const zhArticlesJson = JSON.stringify(zhArticles, null, 2);
+  const enArticlesJson = JSON.stringify(enArticles, null, 2);
+  fs.writeFileSync(path.join(outDir, 'space-news-articles-zh.json'), zhArticlesJson);
+  fs.writeFileSync(path.join(outDir, 'space-news-articles-en.json'), enArticlesJson);
   console.log(
-    `Generated space-news-articles.json (${zhArticles.length} zh, ${enArticles.length} en)`,
+    `Generated space-news-articles-zh.json (${zhArticles.length}), space-news-articles-en.json (${enArticles.length})`,
   );
 
   const sidebarData = {
     zh: buildSidebarData(zhArticles, '/space-news/', 'zh', categoryMeta),
     en: buildSidebarData(enArticles, '/en/space-news/', 'en', categoryMeta),
+    categoryMeta,
   };
 
   const sidebarJson = JSON.stringify(sidebarData, null, 2);
@@ -267,7 +271,8 @@ export function generateSpaceNewsArtifacts(
   if (!fs.existsSync(publicDir)) {
     fs.mkdirSync(publicDir, { recursive: true });
   }
-  fs.writeFileSync(path.join(publicDir, 'space-news-articles.json'), articlesJson);
+  fs.writeFileSync(path.join(publicDir, 'space-news-articles-zh.json'), zhArticlesJson);
+  fs.writeFileSync(path.join(publicDir, 'space-news-articles-en.json'), enArticlesJson);
   fs.writeFileSync(path.join(publicDir, 'space-news-sidebar-data.json'), sidebarJson);
   console.log('Copied space-news JSON to public/');
 }
