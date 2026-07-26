@@ -28,10 +28,15 @@
           {{ surface.isEn ? 'No conversations yet' : '暂无对话记录' }}
         </div>
         <div
-          v-for="(chat, idx) in surface.chatHistory"
+          v-for="(chat, idx) in surface.chatHistory.value"
           :key="idx"
           :class="['sidebar-item', { active: surface.activeChatIndex === idx }]"
+          tabindex="0"
+          role="button"
+          :aria-label="chat.title"
           @click="surface.actions.switchChat(idx)"
+          @keydown.enter="surface.actions.switchChat(idx)"
+          @keydown.space.prevent="surface.actions.switchChat(idx)"
         >
           <svg
             width="16"
@@ -45,11 +50,13 @@
           >
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
           </svg>
-          <span class="sidebar-item-title">{{ chat.title }}</span>
+          <span class="sidebar-item-title">{{
+            chat.title || (surface.isEn ? 'Chat' : '对话')
+          }}</span>
           <button
             class="sidebar-item-delete"
-            :title="surface.isEn ? 'Delete' : '删除'"
             @click.stop="surface.actions.deleteChat(idx)"
+            :title="surface.isEn ? 'Delete' : '删除'"
           >
             <svg
               width="14"
@@ -419,6 +426,7 @@
             ref="inputRef"
             v-model="surface.ui.userInput.value"
             :placeholder="surface.t('inputPlaceholder')"
+            :aria-label="surface.t('inputPlaceholder')"
             :disabled="surface.state.isLoading.value || !surface.state.config.value"
             rows="1"
             class="chat-textarea"
@@ -456,6 +464,9 @@
               ? 'AI may produce inaccurate information. Press Enter to send.'
               : 'AI 可能产生不准确的信息，按 Enter 发送'
           }}
+        </p>
+        <p v-if="surface.inputTooLong.value" class="input-too-long">
+          {{ surface.isEn ? 'Message truncated to 2000 characters.' : '消息已截断至 2000 字符。' }}
         </p>
       </div>
     </main>

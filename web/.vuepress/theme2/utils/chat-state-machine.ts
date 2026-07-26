@@ -79,6 +79,7 @@ export function createChatStateMachine(): ChatStateMachine {
   }
 
   function switchChat(restored: Message[] | null) {
+    abortRequest();
     if (restored) {
       messages.value = restored;
     }
@@ -121,7 +122,6 @@ export function createChatStateMachine(): ChatStateMachine {
     messages.value = [...messages.value, { role: 'user', content: text }];
     loadingPhase.value = 'router';
     isLoading.value = true;
-    deps.onComplete?.();
 
     const assistantMessage: Message = {
       role: 'assistant',

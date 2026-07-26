@@ -51,7 +51,7 @@ export function formatArticleDate(
  */
 export function resolveCategoryColor(
   category: string[] | null,
-  categoryMeta: SpaceNewsCategoryMeta,
+  categoryMeta: SpaceNewsCategoryMeta = {},
 ): string {
   const primary = category?.[0];
   if (!primary) return FALLBACK_CATEGORY_COLOR;
@@ -65,7 +65,7 @@ export function resolveCategoryColor(
 export function resolveCategoryLabel(
   category: string[] | null,
   locale: SpaceNewsLocale,
-  categoryMeta: SpaceNewsCategoryMeta,
+  categoryMeta: SpaceNewsCategoryMeta = {},
 ): string {
   const primary = category?.[0];
   if (!primary) return '';

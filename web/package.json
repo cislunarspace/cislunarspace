@@ -26,14 +26,14 @@
     "@eslint/js": "^10.0.1",
     "@traptitech/markdown-it-katex": "^3.6.0",
     "@vitest/ui": "^3.1.4",
-    "@vuepress/bundler-vite": "2.0.0-rc.27",
-    "@vuepress/plugin-back-to-top": "2.0.0-rc.126",
-    "@vuepress/plugin-google-analytics": "2.0.0-rc.126",
-    "@vuepress/plugin-medium-zoom": "2.0.0-rc.126",
-    "@vuepress/plugin-prismjs": "2.0.0-rc.126",
-    "@vuepress/plugin-search": "^2.0.0-rc.126",
-    "@vuepress/plugin-sitemap": "2.0.0-rc.126",
-    "@vuepress/theme-default": "2.0.0-rc.126",
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/plugin-back-to-top": "2.0.0-rc.131",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.130",
+    "@vuepress/plugin-medium-zoom": "2.0.0-rc.131",
+    "@vuepress/plugin-prismjs": "2.0.0-rc.132",
+    "@vuepress/plugin-search": "2.0.0-rc.131",
+    "@vuepress/plugin-sitemap": "2.0.0-rc.132",
+    "@vuepress/theme-default": "2.0.0-rc.132",
     "dotenv": "^17.4.2",
     "eslint": "^10.8.0",
     "eslint-config-prettier": "^10.1.8",
@@ -43,16 +43,21 @@
     "katex": "^0.16.33",
     "markdownlint-cli2": "^0.23.1",
     "prettier": "^3.9.6",
-    "sass-embedded": "^1.87.0",
+    "sass-embedded": "^1.100.0",
     "tsx": "^4.19.4",
     "typescript-eslint": "^8.65.0",
     "vitest": "^3.1.4",
     "vue": "^3.5.0",
-    "vuepress": "2.0.0-rc.27"
+    "vuepress": "2.0.0-rc.30"
   },
   "dependencies": {
     "@citation-js/plugin-bibtex": "^0.7.21",
     "citation-js": "^0.7.22",
     "xlsx": "^0.18.5"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true,
+    "esbuild@0.28.1": true,
+    "citation-js@0.7.22": true
   }
 }

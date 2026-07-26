@@ -179,7 +179,8 @@
 }
 
 .sidebar-item-delete {
-  display: none;
+  display: flex;
+  opacity: 0.4;
   background: none;
   border: none;
   color: var(--chat-text-tertiary);
@@ -187,10 +188,14 @@
   padding: 2px;
   border-radius: 4px;
   flex-shrink: 0;
+  transition:
+    opacity 0.15s,
+    color 0.15s;
 }
 
-.sidebar-item:hover .sidebar-item-delete {
-  display: flex;
+.sidebar-item:hover .sidebar-item-delete,
+.sidebar-item.active .sidebar-item-delete {
+  opacity: 1;
 }
 
 .sidebar-item-delete:hover {
@@ -1034,6 +1039,25 @@
   color: var(--chat-text-tertiary);
   margin: 0.5rem 0 0;
   padding: 0;
+}
+
+.input-too-long {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #ef4444;
+  margin: 0.25rem 0 0;
+  padding: 0;
+  animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+  0%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @media (max-width: 768px) {

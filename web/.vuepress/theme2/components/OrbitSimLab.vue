@@ -89,7 +89,10 @@ function loadCss(href: string) {
     l.rel = 'stylesheet';
     l.href = href;
     l.onload = () => resolve();
-    l.onerror = () => reject(new Error(`CSS ${href}`));
+    l.onerror = () => {
+      l.remove();
+      reject(new Error(`CSS ${href}`));
+    };
     document.head.appendChild(l);
   });
 }
@@ -100,7 +103,10 @@ function loadScript(src: string) {
     s.src = src;
     s.async = true;
     s.onload = () => resolve();
-    s.onerror = () => reject(new Error(`Script ${src}`));
+    s.onerror = () => {
+      s.remove();
+      reject(new Error(`Script ${src}`));
+    };
     document.head.appendChild(s);
   });
 }
@@ -232,7 +238,8 @@ function startLoop() {
 
     sim.tick(wall);
     rotateGlobeToECI(simTime.value);
-    updateSliders();
+    // updateSliders() 已从 rAF 移除 — 滑块渐变仅在 @input 和 preset 切换时更新，
+    // 避免每帧 querySelectorAll + inline style 导致 layout reflow。
     rafId = requestAnimationFrame(loop);
   };
   rafId = requestAnimationFrame(loop);
@@ -308,6 +315,7 @@ onMounted(async () => {
       toast(ui.value.ready);
     }, 1200);
   } catch (err) {
+    maskVisible.value = false;
     maskError.value = err instanceof Error ? err.message : String(err);
   }
 });

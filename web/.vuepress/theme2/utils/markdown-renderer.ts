@@ -70,7 +70,7 @@ export function renderInlineMarkdown(text: string, placeholders: string[]): stri
   // [text](url) links
   html = html.replace(
     /\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)\)/g,
-    (_, label, href) => `<a href="${href}" class="chat-link">${label}</a>`,
+    (_, label, href) => `<a href="${escapeHtml(href)}" class="chat-link">${label}</a>`,
   );
 
   // Bold
@@ -83,12 +83,14 @@ export function renderInlineMarkdown(text: string, placeholders: string[]): stri
   // Auto-link bare https:// URLs
   html = html.replace(
     /(^|\s)(https?:\/\/[^\s<]+)/g,
-    (_, prefix, href) => `${prefix}<a href="${href}" class="chat-link">${href}</a>`,
+    (_, prefix, href) =>
+      `${prefix}<a href="${escapeHtml(href)}" class="chat-link">${escapeHtml(href)}</a>`,
   );
   // Auto-link bare internal paths
   html = html.replace(
     /(^|\s)(\/[A-Za-z0-9\-_/]+\/?(?:#[A-Za-z0-9\-_]+)?)/g,
-    (_, prefix, href) => `${prefix}<a href="${href}" class="chat-link">${href}</a>`,
+    (_, prefix, href) =>
+      `${prefix}<a href="${escapeHtml(href)}" class="chat-link">${escapeHtml(href)}</a>`,
   );
 
   return html;

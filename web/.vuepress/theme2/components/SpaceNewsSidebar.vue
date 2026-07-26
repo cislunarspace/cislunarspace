@@ -1,6 +1,14 @@
 <template>
   <aside class="sn-sidebar" :class="{ 'is-hidden': isHidden }">
     <div class="sn-sidebar-inner">
+      <!-- Fetch Error -->
+      <div
+        v-if="fetchError"
+        class="sn-sidebar-error"
+        style="padding: 1rem; text-align: center; color: #ef4444; font-size: 0.85rem"
+      >
+        {{ isEn ? 'Failed to load sidebar data.' : '加载侧边栏数据失败。' }}
+      </div>
       <!-- Header -->
       <div class="sn-sidebar-header">
         <router-link :to="homePath" class="sn-sidebar-brand">
@@ -150,15 +158,21 @@ const isHidden = ref(false);
 
 const sidebarRaw = ref<Record<string, any> | null>(null);
 const categoryMeta = ref<SpaceNewsCategoryMeta>({});
+const fetchError = ref(false);
 
 onMounted(async () => {
-  const [sidebarResponse, articlesResponse] = await Promise.all([
-    fetch('/space-news-sidebar-data.json'),
-    fetch('/space-news-articles.json'),
-  ]);
-  sidebarRaw.value = await sidebarResponse.json();
-  const articlesData = await articlesResponse.json();
-  categoryMeta.value = articlesData.categoryMeta ?? {};
+  try {
+    const [sidebarResponse, articlesResponse] = await Promise.all([
+      fetch('/space-news-sidebar-data.json'),
+      fetch('/space-news-articles.json'),
+    ]);
+    if (!sidebarResponse.ok || !articlesResponse.ok) throw new Error('fetch failed');
+    sidebarRaw.value = await sidebarResponse.json();
+    const articlesData = await articlesResponse.json();
+    categoryMeta.value = articlesData.categoryMeta ?? {};
+  } catch {
+    fetchError.value = true;
+  }
 });
 
 const labels = computed(() => spaceNewsLabels.sidebar[isEn.value ? 'en' : 'zh']);

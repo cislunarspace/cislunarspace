@@ -196,6 +196,19 @@ Some intro text.
   it('handles empty input', () => {
     expect(renderLinkedHtml('')).toBe('');
   });
+
+  it('escapes ampersand in href', () => {
+    const input = '[click](https://example.com/?a=1&b=2)';
+    const result = renderLinkedHtml(input);
+    expect(result).toContain('a=1&amp;b=2');
+  });
+
+  it('renders normal URL correctly', () => {
+    const input = '[NASA](https://nasa.gov)';
+    const result = renderLinkedHtml(input);
+    expect(result).toContain('href="https://nasa.gov"');
+    expect(result).toContain('>NASA</a>');
+  });
 });
 
 describe('sanitizeGeneratedHtml (browser)', () => {
