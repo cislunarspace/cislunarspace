@@ -14,6 +14,7 @@ import json
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from typing import Dict, List
 
 # 添加项目根目录到 Python 路径
 REPO_ROOT = Path(__file__).parent.parent.parent
@@ -29,7 +30,7 @@ from scripts.space_news_update_phase1_hermes import (
 )
 
 
-def search_news(queries: list[str], cutoff_days: int = 3) -> dict:
+def search_news(queries: List[str], cutoff_days: int = 3) -> Dict:
     """
     搜索新闻
 

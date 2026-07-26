@@ -13,6 +13,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from typing import Dict, List, Set
 
 # 添加项目根目录到 Python 路径
 REPO_ROOT = Path(__file__).parent.parent.parent
@@ -28,13 +29,13 @@ from scripts.space_news_update_phase1_hermes import (
 
 
 def filter_news(
-    candidates: list[dict],
-    existing_urls: set,
-    existing_titles: set,
-    existing_slugs: set,
-    existing_metas: list[dict],
+    candidates: List[Dict],
+    existing_urls: Set[str],
+    existing_titles: Set[str],
+    existing_slugs: Set[str],
+    existing_metas: List[Dict],
     cutoff_days: int = CUTOFF_DAYS
-) -> dict:
+) -> Dict:
     """
     筛选新闻
 
