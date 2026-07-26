@@ -39,10 +39,10 @@ permalink: /glossary/dynamics/deep-reinforcement-learning/
 强化学习问题建模为 MDP：$(S, A, P, R, \gamma)$
 
 | 要素 | 描述 |
-|:---|:---|
+| :--- | :--- |
 | $S$ | 状态空间（飞艇位置、速度、高度等） |
 | $A$ | 动作空间（推力方向、推进量等） |
-| $P$ | 状态转移概率 $P(s'|s,a)$ |
+| $P$ | 状态转移概率 $P(s' | s,a)$ |
 | $R$ | 奖励函数 $R(s,a,s')$ |
 | $\gamma$ | 折扣因子 |
 
@@ -55,7 +55,7 @@ $$\max_{\theta} J(\theta) = \mathbb{E}_{\pi_\theta}\left[\sum_{t=0}^{T} \gamma^t
 ### 策略梯度方法
 
 | 算法 | 特点 | 适用场景 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | REINFORCE | 蒙特卡洛估计 | 离散动作 |
 | PPO | 信赖域约束，稳定训练 | 连续动作 |
 | SAC | 最大熵，探索充分 | 连续动作 |
@@ -63,14 +63,14 @@ $$\max_{\theta} J(\theta) = \mathbb{E}_{\pi_\theta}\left[\sum_{t=0}^{T} \gamma^t
 ### 值函数方法
 
 | 算法 | 特点 | 适用场景 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | DQN | 经验回放，目标网络 | 离散低维 |
 | TD3 | 双 critic，减少过估计 | 连续动作 |
 | DDPG | Actor-Critic 框架 | 连续动作 |
 
 ### DDPG 算法结构
 
-```
+```text
 ┌─────────────────────────────────────────────┐
 │              Actor (策略网络)                │
 │  μ(s|θμ) → a                                │
@@ -87,7 +87,7 @@ $$\max_{\theta} J(\theta) = \mathbb{E}_{\pi_\theta}\left[\sum_{t=0}^{T} \gamma^t
 ### 状态空间设计
 
 | 状态变量 | 维度 | 说明 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 位置 $(x,y,z)$ | 3 | 地理坐标 |
 | 速度 $(v_x,v_y,v_z)$ | 3 | 地速 |
 | 风场估计 | 3 | 感知风扰 |
@@ -97,7 +97,7 @@ $$\max_{\theta} J(\theta) = \mathbb{E}_{\pi_\theta}\left[\sum_{t=0}^{T} \gamma^t
 ### 动作空间设计
 
 | 动作 | 范围 | 说明 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 推力方向 | $[0, 2\pi)$ | 水平推进方向 |
 | 推力大小 | $[0, F_{max}]$ | 推进功率 |
 | 高度调节 | $\pm \Delta h$ | 高度变更 |
@@ -107,7 +107,7 @@ $$\max_{\theta} J(\theta) = \mathbb{E}_{\pi_\theta}\left[\sum_{t=0}^{T} \gamma^t
 $$R = R_{position} + R_{altitude} + R_{energy} + R_{smoothness}$$
 
 | 奖励项 | 作用 |
-|:---|:---|
+| :--- | :--- |
 | $R_{position}$ | 惩罚偏离目标区域 |
 | $R_{altitude}$ | 惩罚高度偏差 |
 | $R_{energy}$ | 惩罚高能耗动作 |

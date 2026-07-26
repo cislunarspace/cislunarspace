@@ -35,6 +35,7 @@ permalink: /glossary/fundamentals/tsiolkovsky-equation/
 $$\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_f}$$
 
 其中：
+
 - $\Delta v$：速度增量
 - $I_{sp}$：发动机比冲
 - $g_0$：标准重力加速度（9.80665 m/s²）

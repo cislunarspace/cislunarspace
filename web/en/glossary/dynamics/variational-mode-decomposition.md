@@ -56,7 +56,7 @@ Where $f(t)$ is the original signal.
 ## Parameter Settings
 
 | Parameter | Meaning | Typical Value |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $K$ | Number of modes | 3-10 |
 | $\alpha$ | Penalty parameter | 1000-5000 |
 | $\tau$ | Noise tolerance | 0 |
@@ -71,7 +71,7 @@ Original wind speed signal $v(t)$ is decomposed into:
 $$v(t) = \sum_{k=1}^{K} IMF_k(t)$$
 
 | IMF Component | Characteristics | Prediction Method |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | IMF1 | High-frequency turbulence | LSTM/ARIMA |
 | IMF2 | Medium-frequency fluctuations | Periodic model |
 | IMF3+ | Low-frequency trends | Linear fitting |

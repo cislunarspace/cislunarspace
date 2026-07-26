@@ -55,7 +55,7 @@ Heteroclinic connections have the following dynamical properties:
 In the Earth-Moon system, typical heteroclinic connections include:
 
 | Connection Type | Connected Objects | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | L1-L2 connection | L1 Halo ↔ L2 Halo | Connects collinear libration point regions on both sides of the Moon |
 | L1-Lyapunov ↔ L2-Lyapunov | L1 planar orbit ↔ L2 planar orbit | Low-energy transfer channel within the orbital plane |
 | Butterfly orbit internal connection | L1 Halo ↔ L2 Halo (large amplitude) | Butterfly orbits themselves embody heteroclinic connections |

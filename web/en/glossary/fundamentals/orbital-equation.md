@@ -41,7 +41,7 @@ where $p = h^2/\mu_E$ is the semi-latus rectum and $e$ is the eccentricity. This
 ### Eccentricity and Orbit Shape
 
 | Eccentricity | Orbit Type | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $e = 0$ | Circular orbit | $r = a$, constant geocentric distance |
 | $0 < e < 1$ | Elliptical orbit | Periodic orbit with perigee and apogee |
 | $e = 1$ | Parabolic orbit | Escape orbit with apogee at infinity |
@@ -50,6 +50,7 @@ where $p = h^2/\mu_E$ is the semi-latus rectum and $e$ is the eccentricity. This
 ### Apsides and Apse Line
 
 The two vertices of the major axis of a conic section are called apsides. For an Earth-orbiting orbit:
+
 - Periapsis (perigee): at $f = 0°$, $r_{\min} = a(1-e)$
 - Apoapsis (apogee): at $f = 180°$, $r_{\max} = a(1+e)$
 

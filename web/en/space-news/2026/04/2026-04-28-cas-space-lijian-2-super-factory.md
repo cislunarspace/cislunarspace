@@ -32,7 +32,7 @@ Lian Jie, Deputy Chief Designer of the Lijian-2 rocket, explained that within 3 
 The Lijian-2 is China's first launch vehicle adopting the Common Booster Core (CBC) configuration, with the following technical parameters:
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | Common Core Diameter | 3.35m |
 | Fairing Diameter (Maiden Flight Configuration) | 4.2m |
 | Total Length | 53m |

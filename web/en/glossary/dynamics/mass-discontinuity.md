@@ -45,6 +45,7 @@ When the OTV successfully releases a small satellite to its target orbit, its to
 $$m_k = m_{k-1} - m_{sat, \pi_k}$$
 
 Where:
+
 - $m_k$: OTV mass before deploying the k-th small satellite
 - $m_{k-1}$: OTV mass before deploying the (k-1)-th satellite
 - $m_{sat, \pi_k}$: Mass of the k-th deployed small satellite
@@ -72,7 +73,7 @@ The same origin-destination combination has different transfer costs under diffe
 Research results (Hu Min et al., 2026):
 
 | Model Type | N=8 Propellant Consumption | N=12 Propellant Consumption | Feasibility |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | State-Dependent (SDTSP-DP) | 487.7 kg | 632.1 kg | Feasible |
 | State-Independent (SI-Greedy) | 602.5 kg | 902.1 kg* | Exceeded |
 

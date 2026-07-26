@@ -37,7 +37,7 @@ The thermo-mechanical coupling model describes how thermal state (temperature, p
 ### Thermal to Mechanical
 
 | Thermal Variable | Mechanical Effect | Physical Mechanism |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Helium temperature $T_{He}$ | Buoyancy change | $\rho_{He} = p/(RT_{He})$ |
 | Skin temperature $T_{skin}$ | Aerodynamic heating | Boundary layer effects |
 | Pressure $p_{He}$ | Envelope expansion | $V = nRT/p$ |
@@ -45,7 +45,7 @@ The thermo-mechanical coupling model describes how thermal state (temperature, p
 ### Mechanical to Thermal
 
 | Mechanical Variable | Thermal Effect | Physical Mechanism |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Altitude $h$ | Atmospheric density | $\rho_{air}(h)$ affects convection |
 | Velocity $v$ | Aerodynamic heating | $Q_{dyn} = \frac{1}{2}\rho v^3$ |
 | Attitude $\theta$ | Solar incidence angle | Affects direct solar input |
@@ -63,7 +63,7 @@ $$B = (\rho_{air} - \rho_{He}) V_{He} g$$
 ## Diurnal Cycle Effects
 
 | Time | $T_{He}$ | $B$ | Flight State |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Noon | High | Low | Net ascent tendency |
 | Midnight | Low | High | Net descent tendency |
 

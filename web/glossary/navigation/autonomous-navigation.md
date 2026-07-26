@@ -39,7 +39,7 @@ permalink: /glossary/navigation/autonomous-navigation/
 ## 与地基导航的区别
 
 | 特征 | 地基导航 | 自主导航 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 数据来源 | 地面测控站跟踪测量 | 星载传感器实时观测 |
 | 通信依赖 | 强依赖，需持续跟踪 | 弱依赖，可独立工作 |
 | 导航精度 | 公里级（DSN） | 米级至十米级（自主） |
@@ -103,5 +103,5 @@ permalink: /glossary/navigation/autonomous-navigation/
 ## 参考文献
 
 - 钱霙婧. 地月空间拟周期轨道上航天器自主导航与轨道保持研究[D]. 哈尔滨工业大学, 2014.
-- Hill K, Born G H. Linked autonomous interplanetary satellite orbit navigation (LiAISON)[C]. AAS/AIAA Astrodynamics Specialist Conference, 2005.
+- Hill K, Born G H. Linked autonomous interplanetary satellite orbit navigation [LiAISON](C). AAS/AIAA Astrodynamics Specialist Conference, 2005.
 - 丛佃伟，吴富梅，李崇辉，等．地月空间航天器自主导航技术及研究进展[J]．无线电工程，2025，55(2)：317-322.

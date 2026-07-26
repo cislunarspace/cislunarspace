@@ -4,7 +4,7 @@
  * 从 OrbitSimLab.vue 抽取。组件通过 `const ui = computed(() => orbitSimI18n(locale))` 调用。
  */
 export function orbitSimI18n(locale: string | undefined) {
-  const en = locale === 'en'
+  const en = locale === 'en';
   return {
     title: en
       ? 'Satellite Orbit Simulation Lab | 卫星轨道仿真'
@@ -66,13 +66,41 @@ export function orbitSimI18n(locale: string | undefined) {
           '高度 h 与半长轴 a 的联动采用常见教材约定与近似地球半径；工程星历需对照历元、椭球与任务口径。',
         ],
     labels: {
-      h: { name: en ? 'Altitude h' : '轨道高度 h', unit: 'km', desc: en ? 'Perigee altitude; drives period & speed' : '近地点高度，影响轨道周期与速度' },
-      a: { name: en ? 'Semi-major axis a' : '半长轴 a', unit: 'km', desc: en ? 'a = R⊕ + h' : '椭圆轨道长轴半径 a = R⊕ + h' },
-      e: { name: en ? 'Eccentricity e' : '离心率 e', unit: '', desc: en ? 'e=0 circle; e→1 parabolic' : '轨道椭圆度，e=0圆轨道，e→1抛物线' },
-      i: { name: en ? 'Inclination i' : '轨道倾角 i', unit: '°', desc: en ? 'Orbit plane tilt vs equator' : '轨道面与赤道面夹角，决定覆盖纬度' },
-      raan: { name: en ? 'RAAN Ω' : '升交点赤经 Ω', unit: '°', desc: en ? 'Ascending node longitude' : '升交点在赤道面上的位置，定义轨道面朝向' },
-      argp: { name: en ? 'Arg. of perigee ω' : '近地点幅角 ω', unit: '°', desc: en ? 'Perigee direction in orbit plane' : '从升交点到近地点的角度，定义椭圆方向' },
-      nu: { name: en ? 'True anomaly f' : '真近点角 f', unit: '°', desc: en ? 'Current position on orbit' : '卫星在轨道上的当前位置，初始相位' },
+      h: {
+        name: en ? 'Altitude h' : '轨道高度 h',
+        unit: 'km',
+        desc: en ? 'Perigee altitude; drives period & speed' : '近地点高度，影响轨道周期与速度',
+      },
+      a: {
+        name: en ? 'Semi-major axis a' : '半长轴 a',
+        unit: 'km',
+        desc: en ? 'a = R⊕ + h' : '椭圆轨道长轴半径 a = R⊕ + h',
+      },
+      e: {
+        name: en ? 'Eccentricity e' : '离心率 e',
+        unit: '',
+        desc: en ? 'e=0 circle; e→1 parabolic' : '轨道椭圆度，e=0圆轨道，e→1抛物线',
+      },
+      i: {
+        name: en ? 'Inclination i' : '轨道倾角 i',
+        unit: '°',
+        desc: en ? 'Orbit plane tilt vs equator' : '轨道面与赤道面夹角，决定覆盖纬度',
+      },
+      raan: {
+        name: en ? 'RAAN Ω' : '升交点赤经 Ω',
+        unit: '°',
+        desc: en ? 'Ascending node longitude' : '升交点在赤道面上的位置，定义轨道面朝向',
+      },
+      argp: {
+        name: en ? 'Arg. of perigee ω' : '近地点幅角 ω',
+        unit: '°',
+        desc: en ? 'Perigee direction in orbit plane' : '从升交点到近地点的角度，定义椭圆方向',
+      },
+      nu: {
+        name: en ? 'True anomaly f' : '真近点角 f',
+        unit: '°',
+        desc: en ? 'Current position on orbit' : '卫星在轨道上的当前位置，初始相位',
+      },
     },
-  }
+  };
 }

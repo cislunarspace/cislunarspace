@@ -52,12 +52,13 @@ $$\text{ADEV} = \sigma_y(\tau) = \sqrt{\sigma_y^2(\tau)}$$
 Traditional standard deviation (StdDev) has limitations when evaluating frequency stability: when noise type is flicker frequency noise, standard deviation diverges with increasing sample size—meaning infinite samples still cannot achieve convergence.
 
 ADEV advantages:
+
 - Converges for multiple noise types
 - Can identify noise power law types
 - Has clear correspondence with physical processes
 
 | Noise Type | StdDev Behavior | ADEV Behavior |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | White phase noise | Diverges | Converges $\propto \tau^{-1}$ |
 | Flicker phase noise | Diverges | Converges $\propto \tau^{0}$ |
 | White frequency noise | Converges | Converges $\propto \tau^{-1/2}$ |
@@ -71,6 +72,7 @@ The Modified Allan Deviation (MDEV) used in DRO-A gravitational redshift experim
 $$\text{MDEV} = \sqrt{\frac{1}{2(N-2\tau_0)} \sum_{i=1}^{N-2} \left( \frac{1}{\tau^2} \int_{\tau_0}^{\tau_0+\tau} \int_{\tau_0}^{\tau_0+\tau} \dot{x}(t_2) - \dot{x}(t_1) \, dt_1 \, dt_2 \right)^2}$$
 
 MDEV advantages over ADEV:
+
 - Better confidence for the same noise type
 - Can distinguish white frequency noise from flicker frequency noise
 
@@ -79,7 +81,7 @@ MDEV advantages over ADEV:
 Typical ADEV values for different atomic clock types:
 
 | Oscillator Type | $\tau = 1$ s | $\tau = 1000$ s | $\tau = 10000$ s |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Passive Hydrogen Maser (PHM) | $10^{-12}$ | $10^{-14}$ | $10^{-14}$ |
 | Cesium Beam Tube | $10^{-11}$ | $10^{-13}$ | $10^{-13}$ |
 | Rubidium | $10^{-11}$ | $10^{-12}$ | $10^{-12}$ |
@@ -90,13 +92,14 @@ Typical ADEV values for different atomic clock types:
 The DRO-A satellite gravitational redshift experiment measured satellite-ground time-frequency comparison stability:
 
 | Averaging Time | April 28 MDEV | April 29 MDEV |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 10 s | $6.14 \times 10^{-13}$ | $7.01 \times 10^{-13}$ |
 | 100 s | $8.03 \times 10^{-13}$ | $8.03 \times 10^{-13}$ |
 | 1000 s | $4.58 \times 10^{-14}$ | $6.98 \times 10^{-14}$ |
 | 2000 s | $1.27 \times 10^{-14}$ | $2.10 \times 10^{-14}$ |
 
 Key findings:
+
 - Stability at 1000s averaging exceeds $7 \times 10^{-14}$
 - Stability at 2000s averaging exceeds $2 \times 10^{-14}$
 - Stability outperforms accuracy by two orders of magnitude, meaning stability is the primary limiting factor for gravitational redshift measurements

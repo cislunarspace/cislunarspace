@@ -28,7 +28,7 @@ permalink: /en/glossary/navigation/earth-moon-hybrid-navigation/
 >
 > This article author: Tianjiang Shuo
 >
-> This article source: https://cislunarspace.cn
+> This article source: <https://cislunarspace.cn>
 
 ## Background and Basic Principles
 
@@ -47,7 +47,7 @@ Ultimately, GNSS systems achieve ±50 m-level basic positioning, combined with a
 ## Performance and Applications
 
 | Metric | Performance |
-|:---|:---|
+| :--- | :--- |
 | Positioning Accuracy | Near-lunar: ±0.5 m, Transfer orbit: ±10 m |
 | Coverage | Full lunar surface + entire Earth-Moon transfer |
 | System Reliability | Highest (multi-source redundancy, degradable) |

@@ -39,7 +39,7 @@ The essence of this problem is: in the standard orbit catalog established by CR3
 Orbit identification and orbit design are **inverse** processes:
 
 | Process | Input | Output |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **Orbit Design** | Physical parameters of reference orbit (period, amplitude, etc.) | Actual orbit under ephemeris model (numerical integration) |
 | **Orbit Identification** | Observed actual orbital state sequence | Corresponding CR3BP reference orbit and its physical parameters |
 
@@ -99,7 +99,7 @@ Qiao et al. (2025) systematically analyze two factors affecting orbit identifica
 ### 1. Observation Arc Length
 
 | Arc Length | Identification Result Characteristics |
-|:---|:---|
+| :--- | :--- |
 | Short arc (1 hour) | Results dispersed, mainly along equal-energy contours; represents "osculating orbit" |
 | Long arc (1 month) | Results converge to reference orbit; represents "mean orbit" |
 

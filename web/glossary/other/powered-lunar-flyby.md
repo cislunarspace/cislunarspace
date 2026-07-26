@@ -26,7 +26,7 @@ permalink: /glossary/other/powered-lunar-flyby/
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本站地址：https://cislunarspace.cn
+> 本站地址：<https://cislunarspace.cn>
 
 ## 定义
 
@@ -43,6 +43,7 @@ permalink: /glossary/other/powered-lunar-flyby/
 $$\Delta v_{\text{total}} = \Delta v_1 + \Delta v_2 + \Delta v_3$$
 
 其中：
+
 - $\Delta v_1$：**LEO 离轨脉冲**——在低地球轨道上施加，将航天器从 LEO 送入地月转移轨道。该脉冲决定了转移轨道的 C3 能量和飞向月球的几何构型。
 - $\Delta v_2$：**近月点机动脉冲**——在月球借力的近月点处施加，是 PLF 方案的核心脉冲。该脉冲的大小和方向决定了借力效果，直接影响转移轨道的后半段形状。
 - $\Delta v_3$：**DRO 入轨脉冲**——在到达目标 DRO 的近月点附近施加，将航天器从转移轨道送入目标远距离逆行轨道。

@@ -51,7 +51,7 @@ For long-duration or sensitive orbits, multiple shooting divides the trajectory 
 ## Applications
 
 | Application | Description |
-|:---|:---|
+| :--- | :--- |
 | Periodic orbit computation | Finding closed orbits that return to their starting point |
 | Transfer orbit design | Computing trajectories between two specified states |
 | Orbit continuation | Tracing orbit families as parameters vary |

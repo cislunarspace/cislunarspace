@@ -3,9 +3,9 @@
     v-if="!isAiChatPage"
     class="sidebar-toggle-btn"
     :class="{ 'is-hidden': isHidden }"
-    @click="toggle"
     :title="isHidden ? showLabel : hideLabel"
     aria-label="toggle sidebar"
+    @click="toggle"
   >
     <span class="sidebar-toggle-icon">
       <svg
@@ -42,53 +42,55 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
-import { useRoute } from 'vue-router'
-import { useIsEn } from '../composables/useIsEn'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
+import { useRoute } from 'vue-router';
+import { useIsEn } from '../composables/useIsEn';
 
-const route = useRoute()
-const isEn = useIsEn()
-const isHidden = ref(false)
+const route = useRoute();
+const isEn = useIsEn();
+const isHidden = ref(false);
 
-const showLabel = computed(() => (isEn.value ? 'Expand sidebar' : '展开侧边栏'))
-const hideLabel = computed(() => (isEn.value ? 'Collapse sidebar' : '收起侧边栏'))
+const showLabel = computed(() => (isEn.value ? 'Expand sidebar' : '展开侧边栏'));
+const hideLabel = computed(() => (isEn.value ? 'Collapse sidebar' : '收起侧边栏'));
 
 const isAiChatPage = computed(() => {
-  const p = route.path
-  return p === '/ai-chat' || p === '/ai-chat/' || p === '/en/ai-chat' || p === '/en/ai-chat/'
-})
+  const p = route.path;
+  return p === '/ai-chat' || p === '/ai-chat/' || p === '/en/ai-chat' || p === '/en/ai-chat/';
+});
 
 function toggle() {
-  isHidden.value = !isHidden.value
-  document.documentElement.classList.toggle('sidebar-hidden', isHidden.value)
+  isHidden.value = !isHidden.value;
+  document.documentElement.classList.toggle('sidebar-hidden', isHidden.value);
   try {
-    localStorage.setItem('sidebar-hidden', String(isHidden.value))
-  } catch (e) { console.warn('[SidebarToggle]', e) }
+    localStorage.setItem('sidebar-hidden', String(isHidden.value));
+  } catch (e) {
+    console.warn('[SidebarToggle]', e);
+  }
 }
 
 function onKeyDown(e: KeyboardEvent) {
   // Ctrl/Cmd + B 切换侧边栏
   if ((e.ctrlKey || e.metaKey) && e.key === 'b') {
-    e.preventDefault()
-    toggle()
+    e.preventDefault();
+    toggle();
   }
 }
 
 onMounted(() => {
   try {
-    const saved = localStorage.getItem('sidebar-hidden')
+    const saved = localStorage.getItem('sidebar-hidden');
     if (saved === 'true') {
-      isHidden.value = true
-      document.documentElement.classList.add('sidebar-hidden')
+      isHidden.value = true;
+      document.documentElement.classList.add('sidebar-hidden');
     }
   } catch {}
 
-  window.addEventListener('keydown', onKeyDown)
-})
+  window.addEventListener('keydown', onKeyDown);
+});
 
 onBeforeUnmount(() => {
-  window.removeEventListener('keydown', onKeyDown)
-})
+  window.removeEventListener('keydown', onKeyDown);
+});
 </script>
 
 <style lang="scss">
@@ -118,11 +120,12 @@ onBeforeUnmount(() => {
   border-radius: 0 12px 12px 0;
   box-shadow: var(--shadow-md);
 
-  transition: left var(--sn-sidebar-sync-duration) var(--ease-out-expo),
-              background 0.25s var(--ease-smooth),
-              color 0.25s var(--ease-smooth),
-              box-shadow 0.3s var(--ease-smooth),
-              transform 0.2s var(--ease-out-back);
+  transition:
+    left var(--sn-sidebar-sync-duration) var(--ease-out-expo),
+    background 0.25s var(--ease-smooth),
+    color 0.25s var(--ease-smooth),
+    box-shadow 0.3s var(--ease-smooth),
+    transform 0.2s var(--ease-out-back);
 
   .sidebar-toggle-icon {
     display: flex;
@@ -148,7 +151,9 @@ onBeforeUnmount(() => {
 
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.2s ease, transform 0.2s var(--ease-out-expo);
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s var(--ease-out-expo);
   }
 
   .sidebar-toggle-tooltip::before {

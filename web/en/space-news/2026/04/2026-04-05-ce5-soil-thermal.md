@@ -33,7 +33,7 @@ Porosity varies dramatically: agglutinates ~17.78%, rock fragments ~4.02%, glass
 The team used a custom-designed cantilever H-type micro/nano thermal bridge device in high vacuum to measure intrinsic thermal conductivity:
 
 | Particle Type | Thermal Conductivity (253 K) | Comparison |
-|--------------|------------------------------|------------|
+| -------------- | ------------------------------ | ------------ |
 | Agglutinate | ~8 mW·m⁻¹·K⁻¹ | Baseline |
 | Rock fragment | ~27–79 mW·m⁻¹·K⁻¹ | 3–5× agglutinate |
 | Glass bead | ~120–490 mW·m⁻¹·K⁻¹ | 1–2 orders higher |
@@ -43,6 +43,7 @@ Agglutinates are the most thermally insulating component in lunar soil, with con
 ## Physical Mechanism
 
 The ultra-low thermal conductivity of agglutinates stems from their multi-scale structure:
+
 - **Amorphous molten glass** binding diverse mineral fragments limits phonon mean free path
 - **Nano-to-micrometer hierarchical pore networks** enhance phonon scattering and interfacial thermal resistance
 - **Multi-phase interfaces** (plagioclase, olivine, etc. with glass phase) exhibit significant vibrational mismatch, with interfacial thermal resistance up to 1000× that of ideal crystal-crystal interfaces

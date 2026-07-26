@@ -46,7 +46,7 @@ According to Feng Shaowei, rocket expert from China Academy of Launch Vehicle Te
 Chang'e-7 is the second step of the Lunar Exploration Phase IV program:
 
 | Mission | Objective | Status |
-|---------|-----------|--------|
+| --------- | ----------- | -------- |
 | Chang'e-6 | Lunar far side sample return | ✅ Completed |
 | **Chang'e-7** | **Lunar South Pole Exploration** | **Upcoming Launch** |
 | Chang'e-8 | In-situ resource utilization technology demonstration | Planned |

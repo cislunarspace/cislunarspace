@@ -1,5 +1,5 @@
 <template>
-  <div :class="['dialectic-root', { 'dark': isDark }]">
+  <div :class="['dialectic-root', { dark: isDark }]">
     <!-- 首页视图 -->
     <div v-if="view === 'home'" class="view-home">
       <header class="home-header">
@@ -57,14 +57,14 @@
     <!-- 辩证流程视图 -->
     <div v-else-if="view === 'dialectic'" class="view-dialectic">
       <div class="top-bar">
-        <button class="btn-home" @click="goHome">
-          <span>⌂</span><span>首页</span>
-        </button>
+        <button class="btn-home" @click="goHome"><span>⌂</span><span>首页</span></button>
       </div>
 
       <div class="progress-track">
         <div :class="['progress-fill', `progress-step-${currentStep}`]"></div>
-        <span class="progress-text">Step {{ currentStep + 1 }} / 9 — {{ steps[currentStep].title }}</span>
+        <span class="progress-text"
+          >Step {{ currentStep + 1 }} / 9 — {{ steps[currentStep].title }}</span
+        >
       </div>
 
       <div class="card-container">
@@ -82,15 +82,17 @@
               <textarea
                 class="input-textarea"
                 :value="inputs[currentStep].value"
-                @input="onInput"
                 :placeholder="steps[currentStep].placeholder"
+                @input="onInput"
               ></textarea>
               <div
                 v-if="currentStep === 0 && showTemplateHint"
                 class="template-hint"
                 @click="loadTemplate"
               >
-                📜 检测到示例主题，点击加载「{{ matchedTemplate === 'chanyuan' ? '澶渊之盟' : matchedTemplate }}」引导骨架
+                📜 检测到示例主题，点击加载「{{
+                  matchedTemplate === 'chanyuan' ? '澶渊之盟' : matchedTemplate
+                }}」引导骨架
               </div>
               <div class="ai-bar">
                 <span v-if="isAILoading" class="ai-loading">AI 思辨引导思考中……</span>
@@ -106,11 +108,7 @@
                   :key="opt.value"
                   class="radio-item"
                 >
-                  <input
-                    type="radio"
-                    :value="opt.value"
-                    v-model="inputs[currentStep].level"
-                  />
+                  <input v-model="inputs[currentStep].level" type="radio" :value="opt.value" />
                   <span>{{ opt.label }}</span>
                 </label>
               </div>
@@ -118,8 +116,8 @@
                 v-if="inputs[currentStep].level"
                 class="input-textarea"
                 :value="inputs[currentStep].note"
-                @input="onNoteInput"
                 placeholder="补充说明定级理由与来源情况..."
+                @input="onNoteInput"
               ></textarea>
               <div v-else class="placeholder-hint">请先选择证据级别</div>
               <div class="ai-bar">
@@ -135,15 +133,15 @@
                 <textarea
                   class="input-textarea half"
                   :value="inputs[currentStep].view1"
-                  @input="(e) => onDualInput(e, 'view1')"
                   placeholder="输入第一个理论视角及其演绎解释..."
+                  @input="(e) => onDualInput(e, 'view1')"
                 ></textarea>
                 <span class="box-label">视角二</span>
                 <textarea
                   class="input-textarea half"
                   :value="inputs[currentStep].view2"
-                  @input="(e) => onDualInput(e, 'view2')"
                   placeholder="输入第二个理论视角及其演绎解释..."
+                  @input="(e) => onDualInput(e, 'view2')"
                 ></textarea>
               </div>
               <div class="ai-bar">
@@ -187,253 +185,266 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import { useDialecticHistory } from '../utils/useDialecticHistory'
-import type { DialecticReport } from '../utils/useDialecticHistory'
-import { steps, TEMPLATES, validateStep } from '../utils/dialectic-prompts'
-import type { StepInput } from '../utils/dialectic-prompts'
-import { callDialecticAI, generateDialecticReport } from '../utils/dialectic-ai'
-import { createChatThemeController } from '../utils/chat-theme-controller'
+import { ref, onMounted } from 'vue';
+import { useDialecticHistory } from '../utils/useDialecticHistory';
+import type { DialecticReport } from '../utils/useDialecticHistory';
+import { steps, TEMPLATES, validateStep } from '../utils/dialectic-prompts';
+import type { StepInput } from '../utils/dialectic-prompts';
+import { callDialecticAI, generateDialecticReport } from '../utils/dialectic-ai';
+import { createChatThemeController } from '../utils/chat-theme-controller';
 
-type View = 'home' | 'dialectic' | 'report'
+type View = 'home' | 'dialectic' | 'report';
 
 // --- State ---
-const { loadReports, addReport, findReport, deleteReport, clearAllReports } = useDialecticHistory()
+const { loadReports, addReport, findReport, deleteReport, clearAllReports } = useDialecticHistory();
 
-const view = ref<View>('home')
-const reports = ref<DialecticReport[]>([])
-const currentStep = ref(0)
-const inputs = ref<StepInput[]>(Array.from({ length: 9 }, () => ({ value: '', level: '', note: '', view1: '', view2: '' })))
-const cardAnimation = ref('card-enter')
-const reportLoading = ref(false)
-const aiResponse = ref('')
-const aiReasoning = ref('')
-const isAILoading = ref(false)
-const showTemplateHint = ref(false)
-const matchedTemplate = ref<string | null>(null)
-const currentReport = ref<DialecticReport | null>(null)
-const notFound = ref(false)
+const view = ref<View>('home');
+const reports = ref<DialecticReport[]>([]);
+const currentStep = ref(0);
+const inputs = ref<StepInput[]>(
+  Array.from({ length: 9 }, () => ({ value: '', level: '', note: '', view1: '', view2: '' })),
+);
+const cardAnimation = ref('card-enter');
+const reportLoading = ref(false);
+const aiResponse = ref('');
+const aiReasoning = ref('');
+const isAILoading = ref(false);
+const showTemplateHint = ref(false);
+const matchedTemplate = ref<string | null>(null);
+const currentReport = ref<DialecticReport | null>(null);
+const notFound = ref(false);
 
 // --- Theme (via shared controller) ---
-const isDark = ref(false)
-const themeCtrl = createChatThemeController(isDark, 'cislunar-dialectic-theme')
+const isDark = ref(false);
+const themeCtrl = createChatThemeController(isDark, 'cislunar-dialectic-theme');
 
 // --- Navigation ---
 function enterDialectic() {
-  view.value = 'dialectic'
-  currentStep.value = 0
-  inputs.value = Array.from({ length: 9 }, () => ({ value: '', level: '', note: '', view1: '', view2: '' }))
-  aiResponse.value = ''
-  aiReasoning.value = ''
-  isAILoading.value = false
-  cardAnimation.value = 'card-enter'
+  view.value = 'dialectic';
+  currentStep.value = 0;
+  inputs.value = Array.from({ length: 9 }, () => ({
+    value: '',
+    level: '',
+    note: '',
+    view1: '',
+    view2: '',
+  }));
+  aiResponse.value = '';
+  aiReasoning.value = '';
+  isAILoading.value = false;
+  cardAnimation.value = 'card-enter';
 }
 
 function enterDemo() {
-  const tpl = TEMPLATES['chanyuan']
-  if (!tpl) return
-  view.value = 'dialectic'
-  currentStep.value = 0
-  inputs.value = JSON.parse(JSON.stringify(tpl.inputs))
-  aiResponse.value = ''
-  aiReasoning.value = ''
-  isAILoading.value = false
-  cardAnimation.value = 'card-enter'
+  const tpl = TEMPLATES['chanyuan'];
+  if (!tpl) return;
+  view.value = 'dialectic';
+  currentStep.value = 0;
+  inputs.value = JSON.parse(JSON.stringify(tpl.inputs));
+  aiResponse.value = '';
+  aiReasoning.value = '';
+  isAILoading.value = false;
+  cardAnimation.value = 'card-enter';
 }
 
 function goHome() {
-  view.value = 'home'
-  reports.value = loadReports()
+  view.value = 'home';
+  reports.value = loadReports();
 }
 
 function startNew() {
-  enterDialectic()
+  enterDialectic();
 }
 
 function viewReport(id: number) {
-  const report = findReport(id)
+  const report = findReport(id);
   if (report) {
-    currentReport.value = report
-    notFound.value = false
-    view.value = 'report'
+    currentReport.value = report;
+    notFound.value = false;
+    view.value = 'report';
   } else {
-    notFound.value = true
-    view.value = 'report'
+    notFound.value = true;
+    view.value = 'report';
   }
 }
 
 function clearHistory() {
   if (confirm('确定清空所有历史报告吗？此操作不可恢复。')) {
-    clearAllReports()
-    reports.value = []
+    clearAllReports();
+    reports.value = [];
   }
 }
 
 function copyReport() {
-  if (!currentReport.value) return
-  navigator.clipboard.writeText(currentReport.value.content).then(() => {
-    alert('已复制到剪贴板')
-  }).catch(() => {
-    alert('复制失败，请手动复制')
-  })
+  if (!currentReport.value) return;
+  navigator.clipboard
+    .writeText(currentReport.value.content)
+    .then(() => {
+      alert('已复制到剪贴板');
+    })
+    .catch(() => {
+      alert('复制失败，请手动复制');
+    });
 }
 
 // --- Step navigation ---
 function nextStep() {
   if (currentStep.value === 8) {
     if (!validateStep(currentStep.value, inputs.value[currentStep.value])) {
-      alert('请先完成当前步骤')
-      return
+      alert('请先完成当前步骤');
+      return;
     }
-    doGenerateReport()
-    return
+    doGenerateReport();
+    return;
   }
   if (!validateStep(currentStep.value, inputs.value[currentStep.value])) {
-    alert('内容过于空洞或离题，请补充')
-    return
+    alert('内容过于空洞或离题，请补充');
+    return;
   }
-  aiResponse.value = ''
-  aiReasoning.value = ''
-  cardAnimation.value = ''
+  aiResponse.value = '';
+  aiReasoning.value = '';
+  cardAnimation.value = '';
   setTimeout(() => {
-    currentStep.value++
-    cardAnimation.value = 'card-enter'
-  }, 50)
+    currentStep.value++;
+    cardAnimation.value = 'card-enter';
+  }, 50);
 }
 
 function prevStep() {
   if (currentStep.value > 0) {
-    aiResponse.value = ''
-    aiReasoning.value = ''
-    cardAnimation.value = ''
+    aiResponse.value = '';
+    aiReasoning.value = '';
+    cardAnimation.value = '';
     setTimeout(() => {
-      currentStep.value--
-      cardAnimation.value = 'card-enter'
-    }, 50)
+      currentStep.value--;
+      cardAnimation.value = 'card-enter';
+    }, 50);
   }
 }
 
 // --- Input handlers ---
 function onInput(e: Event) {
-  const value = (e.target as HTMLTextAreaElement).value
-  inputs.value[currentStep.value].value = value
+  const value = (e.target as HTMLTextAreaElement).value;
+  inputs.value[currentStep.value].value = value;
   if (currentStep.value === 0) {
-    detectTemplate(value)
+    detectTemplate(value);
   }
 }
 
 function onNoteInput(e: Event) {
-  inputs.value[currentStep.value].note = (e.target as HTMLTextAreaElement).value
+  inputs.value[currentStep.value].note = (e.target as HTMLTextAreaElement).value;
 }
 
 function onDualInput(e: Event, field: 'view1' | 'view2') {
-  inputs.value[currentStep.value][field] = (e.target as HTMLTextAreaElement).value
+  inputs.value[currentStep.value][field] = (e.target as HTMLTextAreaElement).value;
 }
 
 function detectTemplate(text: string) {
   if (!text || text.length < 2) {
-    showTemplateHint.value = false
-    matchedTemplate.value = null
-    return
+    showTemplateHint.value = false;
+    matchedTemplate.value = null;
+    return;
   }
   for (const key in TEMPLATES) {
     if (TEMPLATES[key].trigger.test(text)) {
-      showTemplateHint.value = true
-      matchedTemplate.value = key
-      return
+      showTemplateHint.value = true;
+      matchedTemplate.value = key;
+      return;
     }
   }
-  showTemplateHint.value = false
-  matchedTemplate.value = null
+  showTemplateHint.value = false;
+  matchedTemplate.value = null;
 }
 
 function loadTemplate() {
-  const key = matchedTemplate.value
-  if (!key) return
-  const tpl = TEMPLATES[key]
-  if (!tpl) return
+  const key = matchedTemplate.value;
+  if (!key) return;
+  const tpl = TEMPLATES[key];
+  if (!tpl) return;
   if (confirm(`检测到示例主题「${tpl.name}」，是否加载引导骨架？加载后可在此基础上编辑修改。`)) {
-    inputs.value = JSON.parse(JSON.stringify(tpl.inputs))
-    showTemplateHint.value = false
-    cardAnimation.value = ''
-    setTimeout(() => { cardAnimation.value = 'card-enter' }, 50)
+    inputs.value = JSON.parse(JSON.stringify(tpl.inputs));
+    showTemplateHint.value = false;
+    cardAnimation.value = '';
+    setTimeout(() => {
+      cardAnimation.value = 'card-enter';
+    }, 50);
   }
 }
 
 // --- AI assist (via dialectic-ai transport seam) ---
 function onAIAssist() {
-  isAILoading.value = true
-  aiResponse.value = ''
-  aiReasoning.value = ''
-  callDialecticAI(currentStep.value, inputs.value).then(result => {
-    isAILoading.value = false
-    aiResponse.value = result.content
-    aiReasoning.value = result.reasoning
-  })
+  isAILoading.value = true;
+  aiResponse.value = '';
+  aiReasoning.value = '';
+  callDialecticAI(currentStep.value, inputs.value).then((result) => {
+    isAILoading.value = false;
+    aiResponse.value = result.content;
+    aiReasoning.value = result.reasoning;
+  });
 }
 
 function closeAIAssist() {
-  aiResponse.value = ''
-  aiReasoning.value = ''
+  aiResponse.value = '';
+  aiReasoning.value = '';
 }
 
 function adoptPolished() {
-  const text = aiResponse.value
-  const match = text.match(/【润色版】\s*([\s\S]*?)\s*【\/润色版】/)
+  const text = aiResponse.value;
+  const match = text.match(/【润色版】\s*([\s\S]*?)\s*【\/润色版】/);
   if (!match || !match[1].trim()) {
-    alert('未找到润色版标记')
-    return
+    alert('未找到润色版标记');
+    return;
   }
-  const polished = match[1].trim()
-  const idx = currentStep.value
-  const step = steps[idx]
+  const polished = match[1].trim();
+  const idx = currentStep.value;
+  const step = steps[idx];
   if (step.inputType === 'textarea') {
-    inputs.value[idx].value = polished
-    if (idx === 0) detectTemplate(polished)
+    inputs.value[idx].value = polished;
+    if (idx === 0) detectTemplate(polished);
   } else if (step.inputType === 'dual-textarea') {
-    alert('双栏输入请手动调整')
+    alert('双栏输入请手动调整');
   } else if (step.inputType === 'select') {
-    alert('级别选择请手动调整')
+    alert('级别选择请手动调整');
   }
-  aiResponse.value = ''
-  aiReasoning.value = ''
-  alert('已采纳润色版')
+  aiResponse.value = '';
+  aiReasoning.value = '';
+  alert('已采纳润色版');
 }
 
 // --- Report generation (via dialectic-ai transport seam) ---
 async function doGenerateReport() {
-  reportLoading.value = true
-  const content = await generateDialecticReport(inputs.value)
-  reportLoading.value = false
+  reportLoading.value = true;
+  const content = await generateDialecticReport(inputs.value);
+  reportLoading.value = false;
 
   if (content) {
     const reportData = addReport({
       title: (inputs.value[0].value || '未命名报告').substring(0, 50),
       content,
-      inputs: JSON.parse(JSON.stringify(inputs.value))
-    })
-    currentReport.value = reportData
-    notFound.value = false
-    reports.value = loadReports()
-    view.value = 'report'
+      inputs: JSON.parse(JSON.stringify(inputs.value)),
+    });
+    currentReport.value = reportData;
+    notFound.value = false;
+    reports.value = loadReports();
+    view.value = 'report';
   } else {
-    alert('AI 生成报告失败，请重试。')
+    alert('AI 生成报告失败，请重试。');
   }
 }
 
 // --- Lifecycle ---
 onMounted(() => {
-  themeCtrl.loadTheme()
-  themeCtrl.applyTheme()
-  reports.value = loadReports()
+  themeCtrl.loadTheme();
+  themeCtrl.applyTheme();
+  reports.value = loadReports();
 
   // Check URL params for direct report access
-  const urlParams = new URLSearchParams(window.location.search)
-  const reportId = urlParams.get('reportId')
+  const urlParams = new URLSearchParams(window.location.search);
+  const reportId = urlParams.get('reportId');
   if (reportId) {
-    viewReport(Number(reportId))
+    viewReport(Number(reportId));
   }
-})
+});
 </script>
 
 <style scoped lang="scss">

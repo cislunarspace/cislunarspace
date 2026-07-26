@@ -62,11 +62,11 @@ BAH 在美国太空军的数字化转型中发挥重要作用：
 ## 主要客户与合同
 
 | 客户 | 合同范围 |
-|------|----------|
+| ------ | ---------- |
 | 美国太空军 | JpOC 系统维护、SSA 软件开发、数字化转型 |
 | 美国国防部 | 网络作战、情报分析支持 |
 | NASA | 导航架构研究、系统集成 |
-| 国家地理空间情报局（NGA）| 图像情报分析 |
+| 国家地理空间情报局（NGA） | 图像情报分析 |
 
 ## 与地月空间任务的潜在关联
 
@@ -117,7 +117,7 @@ BAH 在美国太空军的数字化转型中发挥重要作用：
 
 ## 参考文献
 
-- Booz Allen Hamilton 官网: https://www.boozallen.com
+- Booz Allen Hamilton 官网: <https://www.boozallen.com>
 - SpaceNews, "Booz Allen wins $700M Space Force IT contract", 2024.
 - Inside GNSS, "BAH wins NASA navigation research contract for cislunar environment", 2024.
 - 中国商务部 2025 年第 1 号公告，博思艾伦（BAH）未被列入中国出口管制名单。

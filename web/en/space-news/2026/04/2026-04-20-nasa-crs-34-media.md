@@ -43,14 +43,14 @@ This mission will deliver over 5 metric tons of cargo, including:
 
 NASA media accreditation to cover prelaunch and launch activities is open for this mission. **The application deadline for U.S. citizens is 11:59 p.m. EDT on Wednesday, April 29.** All accreditation requests must be submitted by the deadline.
 
-Media accreditation portal: https://media.ksc.nasa.gov
+Media accreditation portal: <https://media.ksc.nasa.gov>
 
 Credentialed media will receive a confirmation email after approval. NASA's media accreditation policy is available online.
 
 ## Launch Information
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Rocket | Falcon 9 Block 5 |
 | Spacecraft | Dragon spacecraft |
 | Launch Site | Cape Canaveral SFS SLC-40 |

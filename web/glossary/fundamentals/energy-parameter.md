@@ -49,7 +49,7 @@ $$\gamma = 2 - \frac{r}{a}, \quad \varepsilon = -\frac{\mu_E}{2a} = \frac{v^2}{2
 ### 与轨道类型的对应关系
 
 | 轨道类型 | 能量参数范围 | 半长轴 | 比机械能 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | 圆轨道 | $\gamma = 1$ | $a = r$ | $\varepsilon < 0$ |
 | 椭圆轨道 | $0 < \gamma < 2$ | $a > 0$ | $\varepsilon < 0$ |
 | 抛物线轨道 | $\gamma = 2$ | $a \to \infty$ | $\varepsilon = 0$ |
@@ -60,7 +60,7 @@ $$\gamma = 2 - \frac{r}{a}, \quad \varepsilon = -\frac{\mu_E}{2a} = \frac{v^2}{2
 能量参数是弹道计算的核心中间变量，出现在多个关键公式中：
 
 | 公式 | 表达式 |
-|:---|:---|
+| :--- | :--- |
 | 半通径 | $p = r_k \gamma_k \cos^2\Theta_k$ |
 | 偏心率 | $e = \sqrt{1 - \gamma_k(2-\gamma_k)\cos^2\Theta_k}$ |
 | 半长轴 | $a = r_k / (2 - \gamma_k)$ |

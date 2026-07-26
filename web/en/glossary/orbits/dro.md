@@ -32,15 +32,11 @@ permalink: /en/glossary/orbits/dro/
 
 A Distant Retrograde Orbit (DRO) is a **stable periodic orbit** around the Moon in the Circular Restricted Three-Body Problem (CRTBP). In the synodic reference frame, a DRO moves in the opposite direction to the Moon's orbit around Earth, hence the term "retrograde" orbit.
 
-
 ![DRO Orbit Schematic](../../glossary/figures/dro/dro-schematic.png)
 *DRO orbit shape in the Earth-Moon synodic reference frame*
 
-
 ![Schematic of barycentric rotating reference frame and DRO orbit](../../glossary/figures/dro/barycentric-frame-and-dro-schematic.png)
 *Geometric configuration of DRO in the barycentric rotating reference frame*
-
-
 
 ## Geometric Characteristics
 
@@ -56,7 +52,7 @@ In the synodic reference frame, a planar DRO appears as an approximately ellipti
 DROs exhibit resonance relationships with the Moon's orbital period. When the DRO's orbital period $T$ and the Moon's orbital period $T_M$ satisfy $T/T_M \approx n/m$ (where $n$ and $m$ are positive integers), it is referred to as an $m:n$ resonant DRO.
 
 | Resonance Ratio | Characteristics |
-|:---|:---|
+| :--- | :--- |
 | 1:1, 2:1 (low-order resonance) | Closer to the Moon, with stronger stability |
 | 3:1, 4:1 (high-order resonance) | Farther from the Moon, larger orbital amplitude, providing greater potential energy advantage for transfers to cislunar space |
 
@@ -71,7 +67,7 @@ In the CRTBP, DROs exhibit dynamic symmetry about the $x$-axis: when the orbit c
 For the Earth-Moon system, the main parameter ranges of the DRO family (based on the dynamic catalog statistics by Guzzetti et al.) are as follows:
 
 | Parameter | Range |
-|:---|:---|
+| :--- | :--- |
 | Jacobi constant | 1.4352 – 3.0180 (mean 2.1184) |
 | Orbital period | 5.87 – 27.38 days (mean 24.63 days) |
 | Stability index | 1.0000 – 1.0002 (mean 1.0001) |
@@ -131,6 +127,7 @@ Ul Haq et al. (2026) used the A2PPO (Attention-Augmented Proximal Policy Optimiz
 Transfers between NRHO and DRO represent a challenging problem in low-thrust trajectory optimization: the two orbits lie in different dynamical corridors with no simple manifold connection paths. Without requiring an initial guess, A2PPO autonomously learned a transfer trajectory that closely matches the direct collocation method result (7.63 days / 5.11 kg).
 
 ## Related Concepts
+
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 - [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
 - [Distant Prograde Orbit (DPO)](/en/glossary/orbits/dpo/)

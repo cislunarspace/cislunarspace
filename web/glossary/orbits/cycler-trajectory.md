@@ -67,11 +67,13 @@ Aldrin 提出的地月循环轨道方案由两类飞行器组成：
 - **空间基础设施**：转移飞行器可作为长期在轨空间站使用
 
 ## 相关概念
+
 - [共振轨道（Resonance Orbit）](/glossary/orbits/resonance-orbit/)
 - [自由返回轨道（Free-Return Trajectory）](/glossary/orbits/free-return-trajectory/)
 - [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
 
 ## 参考文献
+
 - Aldrin B E. Cyclic Trajectory Concepts[J]. SAIC Presentation to the Interplanetary Rapid Transit Study Meeting, 1985.
 - Friedlander A L. Cislunar crew/cargo transportation system evaluation[J]. Journal of Spacecraft and Rockets, 1988.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.

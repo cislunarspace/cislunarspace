@@ -39,7 +39,7 @@ The Pitch Program Angle ($\varphi_{pr}$) is the pre-programmed time-varying refe
 The pitch program angle typically consists of three phases:
 
 | Phase | Time Range | Pitch Program Angle | Physical Meaning |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Vertical Segment | $0 \sim t_1$ | $\varphi_{pr} = 90°$ | Vertical liftoff, rapid transit through dense atmosphere |
 | Turning Segment | $t_1 \sim t_2$ | Gradually decreasing from 90° | Velocity vector turns from vertical toward target direction |
 | Aiming Segment | $t_2 \sim t_k$ | Maintains final value of turning segment | Preserves desired velocity direction, fine-tunes speed magnitude |
@@ -55,6 +55,7 @@ where $\delta_\varphi$ is the control deflection angle, $a_0^\varphi$ is the con
 ### Design of the Turning Segment
 
 The turning segment is the critical phase in flight program design. Its design must satisfy:
+
 - The flight-path angle at cutoff $\theta_k^*$ meets range or orbit insertion requirements
 - The angle of attack does not exceed aerodynamic load limits
 - The load factor does not exceed structural strength limits

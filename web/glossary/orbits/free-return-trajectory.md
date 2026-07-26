@@ -79,11 +79,13 @@ $$C_J = 2U(x, y) - v^2 = \text{const}$$
 - **任务规划约束**：自由返回约束是载人任务轨道设计的基本约束之一
 
 ## 相关概念
+
 - [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [月球借力（Lunar Gravity Assist）](/glossary/other/lunar-gravity-assist/)
 
 ## 参考文献
+
 - Berry R L. Launch window and translunar, transearth trajectory analysis for the Apollo 11 lunar landing mission[R]. NASA, 1970.
 - 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 2026.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.

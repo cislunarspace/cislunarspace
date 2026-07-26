@@ -37,7 +37,7 @@ An orbital maneuver is the process by which a spacecraft actively changes its fl
 ### Classification by Maneuver Task
 
 | Type | Description | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Orbit change | Initial and final orbits intersect; impulse applied at the intersection point | Single large impulse with significant orbital element changes |
 | Orbit transfer | Transfer from initial orbit to final orbit via a transfer orbit; the two orbits do not intersect | At least two impulses |
 | Orbit adjustment | Small impulses to correct minor deviations in orbital elements | Orbit capture, orbit keeping, etc. |
@@ -45,7 +45,7 @@ An orbital maneuver is the process by which a spacecraft actively changes its fl
 ### Classification by Thrust Duration
 
 | Type | Description |
-|:---|:---|
+| :--- | :--- |
 | Impulsive thrust maneuver | Thrust is large enough to produce an instantaneous velocity increment; position remains unchanged while velocity jumps |
 | Finite thrust maneuver | Thrust is limited; a finite duration is required to achieve the desired velocity increment |
 

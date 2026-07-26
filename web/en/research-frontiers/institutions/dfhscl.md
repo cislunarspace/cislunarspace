@@ -26,7 +26,7 @@ twitter:
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
-# DFH Satellite Co., Ltd.
+# DFH Satellite Co., Ltd
 
 China Satellite (中国卫星, SH600118) is a listed company controlled by the China Academy of Space Technology (CAST) under the China Aerospace Science and Technology Corporation (CASC). With registered capital of 1.182 billion yuan, it is a high-tech aerospace enterprise specializing in small and micro-satellite development, ground application system integration, terminal equipment manufacturing, and satellite operation services.
 

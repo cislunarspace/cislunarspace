@@ -5,43 +5,43 @@
  * The engine provides locale-filtered, sorted children of the glossary root.
  * The projection extracts slug, bilingual labels, and sibling order.
  */
-import { engine as defaultEngine, GLOSSARY_ROOT_ID, createViewEngine } from '..'
-import type { Locale, TaxonomyModule, TaxonomyNode } from '../types'
+import { engine as defaultEngine, GLOSSARY_ROOT_ID, createViewEngine } from '..';
+import type { Locale, TaxonomyModule, TaxonomyNode } from '../types';
 
 export interface GlossaryCategoryMeta {
-  slug: string
-  label: { zh: string; en: string }
-  order: number
+  slug: string;
+  label: { zh: string; en: string };
+  order: number;
 }
 
 export class GlossaryCategoryRegistry {
-  private bySlug: Map<string, GlossaryCategoryMeta>
-  private byLabelZh: Map<string, GlossaryCategoryMeta>
-  private byLabelEn: Map<string, GlossaryCategoryMeta>
+  private bySlug: Map<string, GlossaryCategoryMeta>;
+  private byLabelZh: Map<string, GlossaryCategoryMeta>;
+  private byLabelEn: Map<string, GlossaryCategoryMeta>;
 
   constructor(categories: GlossaryCategoryMeta[]) {
-    this.bySlug = new Map(categories.map(c => [c.slug, c]))
-    this.byLabelZh = new Map(categories.map(c => [c.label.zh, c]))
-    this.byLabelEn = new Map(categories.map(c => [c.label.en, c]))
+    this.bySlug = new Map(categories.map((c) => [c.slug, c]));
+    this.byLabelZh = new Map(categories.map((c) => [c.label.zh, c]));
+    this.byLabelEn = new Map(categories.map((c) => [c.label.en, c]));
   }
 
   getBySlug(slug: string): GlossaryCategoryMeta | undefined {
-    return this.bySlug.get(slug)
+    return this.bySlug.get(slug);
   }
 
   getByLabel(label: string, locale: Locale = 'zh'): GlossaryCategoryMeta | undefined {
-    return locale === 'zh' ? this.byLabelZh.get(label) : this.byLabelEn.get(label)
+    return locale === 'zh' ? this.byLabelZh.get(label) : this.byLabelEn.get(label);
   }
 }
 
 function slugFor(node: TaxonomyNode): string {
-  const slug = node.meta?.slug
-  if (typeof slug === 'string') return slug
-  return node.id.replace(/^glossary\//, '')
+  const slug = node.meta?.slug;
+  if (typeof slug === 'string') return slug;
+  return node.id.replace(/^glossary\//, '');
 }
 
 export function buildGlossaryCategories(taxonomyModule?: TaxonomyModule): GlossaryCategoryMeta[] {
-  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine
+  const viewEngine = taxonomyModule ? createViewEngine(taxonomyModule) : defaultEngine;
   return viewEngine
     .fromRoot(GLOSSARY_ROOT_ID)
     .withLocale('zh')
@@ -51,8 +51,8 @@ export function buildGlossaryCategories(taxonomyModule?: TaxonomyModule): Glossa
       slug: slugFor(vn.node),
       label: { zh: vn.node.label.zh, en: vn.node.label.en },
       order: vn.node.order,
-    }))
+    }));
 }
 
-export const glossaryCategories = buildGlossaryCategories()
-export const categoryRegistry = new GlossaryCategoryRegistry(glossaryCategories)
+export const glossaryCategories = buildGlossaryCategories();
+export const categoryRegistry = new GlossaryCategoryRegistry(glossaryCategories);

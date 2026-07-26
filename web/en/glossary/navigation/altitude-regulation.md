@@ -35,7 +35,7 @@ Altitude regulation is one of the core tasks of the stratospheric airship contro
 ## Control Objectives
 
 | Objective | Description | Typical Precision |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Altitude maintenance | Maintain nominal altitude | ±100 m |
 | Altitude tracking | Track desired altitude profile | ±50 m |
 | Altitude scheduling | Cross-altitude layer transfer | Fast and smooth |
@@ -45,14 +45,14 @@ Altitude regulation is one of the core tasks of the stratospheric airship contro
 ### Passive Altitude Control
 
 | Method | Principle | Application Scenario |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Static buoyancy trim | Buoyancy = gravity, no net vertical force | Steady-state station-keeping |
 | Altitude囊 design | Ballonet absorbs volume changes | Reduce altitude fluctuations |
 
 ### Active Altitude Control
 
 | Method | Principle | Energy Consumption |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Ballonet regulation | Inflate/deflate helium to change buoyancy | Medium |
 | Ballast adjustment | Jettison ballast or add weight | Low |
 | Powered climb/descent | Propeller generates vertical component | High |

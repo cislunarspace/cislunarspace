@@ -16,11 +16,11 @@ export type Zone =
   | 'body'
   | 'link-text'
   | 'image-path'
-  | 'references'
+  | 'references';
 
 // ── Severity ────────────────────────────────────────────────────────────────
 
-export type Severity = 'error' | 'warn' | 'info'
+export type Severity = 'error' | 'warn' | 'info';
 
 // ── Rule identifier ─────────────────────────────────────────────────────────
 
@@ -32,42 +32,42 @@ export type Rule =
   | 'chinese-in-image-path'
   | 'auto-whitelist-references'
   | 'allowlisted'
-  | 'stale-allowlist'
+  | 'stale-allowlist';
 
 // ── Finding ─────────────────────────────────────────────────────────────────
 
 export interface Finding {
-  file: string
-  line: number
-  column: number
-  zone: Zone
-  text: string
-  severity: Severity
-  rule: Rule
-  allowlisted: boolean
+  file: string;
+  line: number;
+  column: number;
+  zone: Zone;
+  text: string;
+  severity: Severity;
+  rule: Rule;
+  allowlisted: boolean;
 }
 
 // ── Allowlist entry ─────────────────────────────────────────────────────────
 
 export interface AllowlistEntry {
-  file: string
-  line: number
-  text: string
-  reason: string
+  file: string;
+  line: number;
+  text: string;
+  reason: string;
 }
 
 // ── Scan report ─────────────────────────────────────────────────────────────
 
 export interface ScanReport {
-  scanTime: string
-  filesScanned: number
-  findings: Finding[]
-  summary: ScanSummary
+  scanTime: string;
+  filesScanned: number;
+  findings: Finding[];
+  summary: ScanSummary;
 }
 
 export interface ScanSummary {
-  total: number
-  byZone: Partial<Record<Zone, number>>
-  allowlisted: number
-  unexplained: number
+  total: number;
+  byZone: Partial<Record<Zone, number>>;
+  allowlisted: number;
+  unexplained: number;
 }

@@ -19,6 +19,7 @@ image: ./figures/2026-05-18-vega-c-smile-launch/hero.jpg
 SMILE全称为Solar wind Magnetosphere Ionosphere Link Explorer（太阳风—磁层相互作用全景成像卫星），是我国与欧洲空间局（ESA）在中欧航天合作框架下联合研制的科学卫星。卫星采用创新性软X射线成像技术，将首次实现对地球磁层大尺度结构的整体成像。
 
 卫星配置了四台有效载荷：
+
 - **磁强计**（中国科学院研制）
 - **低能离子分析仪**（中国科学院研制）
 - **紫外极光成像仪**（中国科学院研制）
@@ -27,7 +28,7 @@ SMILE全称为Solar wind Magnetosphere Ionosphere Link Explorer（太阳风—�
 ## 发射时间线（UTC）
 
 | 事件 | 时间 |
-|------|------|
+| ------ | ------ |
 | 火箭起飞（库鲁当地时间00:52） | 03:52 UTC |
 | 星箭分离 | ~04:20 UTC |
 | 首次信号接收（新诺舍站） | 04:48 UTC |
@@ -38,6 +39,7 @@ SMILE全称为Solar wind Magnetosphere Ionosphere Link Explorer（太阳风—�
 欧洲空间局局长约瑟夫·阿施巴赫尔（Josef Aschbacher）表示：「我们将首次见证地球看不见的护盾在运作。SMILE任务将推动空间科学前沿，解答自七十年前人类发现地磁暴以来一直未解的重大科学问题。」
 
 SMILE的观测数据将有助于：
+
 - 深入认识太阳风—磁层耦合机理
 - 揭示空间天气成因
 - 提升空间环境预报能力

@@ -1,34 +1,34 @@
-import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { sitemapPlugin } from '@vuepress/plugin-sitemap'
-import { searchPlugin } from '@vuepress/plugin-search'
-import dotenv from 'dotenv'
-import path from 'path'
-import { fileURLToPath } from 'url'
-import theme from './theme2/index.js'
-import navbar from './navbar.ts'
-import navbarEn from './navbar-en.ts'
-import { buildSidebarConfigs } from './sidebar/config.ts'
-import ogMetaPlugin from './og-meta-plugin.ts'
-import { citePlugin, loadBibliography } from './cite-plugin.ts'
-import { katexPlugin } from './katex-plugin.ts'
-import { rawContentPlugin } from './raw-content-plugin.ts'
-import { headScripts } from './head-scripts.ts'
+import { defineUserConfig } from 'vuepress';
+import { viteBundler } from '@vuepress/bundler-vite';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { sitemapPlugin } from '@vuepress/plugin-sitemap';
+import { searchPlugin } from '@vuepress/plugin-search';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import theme from './theme2/index.js';
+import navbar from './navbar.ts';
+import navbarEn from './navbar-en.ts';
+import { buildSidebarConfigs } from './sidebar/config.ts';
+import ogMetaPlugin from './og-meta-plugin.ts';
+import { citePlugin, loadBibliography } from './cite-plugin.ts';
+import { katexPlugin } from './katex-plugin.ts';
+import { rawContentPlugin } from './raw-content-plugin.ts';
+import { headScripts } from './head-scripts.ts';
 
-const __configDir = path.dirname(fileURLToPath(import.meta.url))
-const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs()
+const __configDir = path.dirname(fileURLToPath(import.meta.url));
+const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs();
 
 // web/.env、web/.env.local（后者覆盖，便于本机覆写而无需改 .env）
-dotenv.config({ path: path.resolve(__configDir, '../.env'), quiet: true })
-dotenv.config({ path: path.resolve(__configDir, '../.env.local'), override: true, quiet: true })
+dotenv.config({ path: path.resolve(__configDir, '../.env'), quiet: true });
+dotenv.config({ path: path.resolve(__configDir, '../.env.local'), override: true, quiet: true });
 
-const domain = 'https://cislunarspace.cn'
+const domain = 'https://cislunarspace.cn';
 
 if (!process.env.DEEPSEEK_API_KEY && process.env.NODE_ENV !== 'production') {
   console.warn(
-    '[config] DEEPSEEK_API_KEY not set — 本地 /api/ai 代理将无法请求 DeepSeek。请复制 web/.env.example 为 web/.env 并填入密钥。'
-  )
+    '[config] DEEPSEEK_API_KEY not set — 本地 /api/ai 代理将无法请求 DeepSeek。请复制 web/.env.example 为 web/.env 并填入密钥。',
+  );
 }
 
 export default defineUserConfig({
@@ -48,16 +48,24 @@ export default defineUserConfig({
     '/en/': {
       lang: 'en-US',
       title: "Cislunar Space Beginner's Guide",
-      description: 'Systematically master cislunar space science, technology, and engineering practice',
+      description:
+        'Systematically master cislunar space science, technology, and engineering practice',
     },
   },
 
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' }],
-    ['meta', {
-      name: 'keywords',
-      content: '地月空间，航天，轨道动力学，拉格朗日点，NRHO, 阿耳忒弥斯，月球探测，航天器轨道，CR3BP，GNC',
-    }],
+    [
+      'link',
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' },
+    ],
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content:
+          '地月空间，航天，轨道动力学，拉格朗日点，NRHO, 阿耳忒弥斯，月球探测，航天器轨道，CR3BP，GNC',
+      },
+    ],
     ...headScripts,
   ],
 
@@ -80,11 +88,8 @@ export default defineUserConfig({
             rewrite: (p) => p.replace(/^\/api\/ai/, ''),
             configure: (proxy) => {
               proxy.on('proxyReq', (proxyReq) => {
-                proxyReq.setHeader(
-                  'Authorization',
-                  `Bearer ${process.env.DEEPSEEK_API_KEY || ''}`
-                )
-              })
+                proxyReq.setHeader('Authorization', `Bearer ${process.env.DEEPSEEK_API_KEY || ''}`);
+              });
             },
           },
         },
@@ -131,9 +136,9 @@ export default defineUserConfig({
     {
       name: 'vuepress-plugin-cite',
       extendsMarkdown: (md) => {
-        const bibPath = path.join(__configDir, 'public', 'bibliography.json')
-        const bibData = loadBibliography(bibPath)
-        citePlugin(md, { bibliographyData: bibData })
+        const bibPath = path.join(__configDir, 'public', 'bibliography.json');
+        const bibData = loadBibliography(bibPath);
+        citePlugin(md, { bibliographyData: bibData });
       },
     },
     katexPlugin,
@@ -151,4 +156,4 @@ export default defineUserConfig({
       },
     }),
   ],
-})
+});

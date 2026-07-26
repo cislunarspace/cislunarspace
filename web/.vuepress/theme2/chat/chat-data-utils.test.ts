@@ -1,115 +1,117 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect } from 'vitest';
 import {
   parseRouterResponse,
   normalizeAndValidatePaths,
   buildContextBlob,
-} from './chat-data-utils'
-import type { SiteContext } from './chat-types'
+} from './chat-data-utils';
+import type { SiteContext } from './chat-types';
 
 // ---------------------------------------------------------------------------
 // parseRouterResponse
 // ---------------------------------------------------------------------------
 describe('parseRouterResponse', () => {
   it('parses valid JSON with paths array', () => {
-    const raw = '{"paths": ["/a/", "/b/"]}'
-    expect(parseRouterResponse(raw)).toEqual({ paths: ['/a/', '/b/'] })
-  })
+    const raw = '{"paths": ["/a/", "/b/"]}';
+    expect(parseRouterResponse(raw)).toEqual({ paths: ['/a/', '/b/'] });
+  });
 
   it('parses JSON wrapped in ```json fenced block', () => {
-    const raw = '```json\n{"paths": ["/x/"]}\n```'
-    expect(parseRouterResponse(raw)).toEqual({ paths: ['/x/'] })
-  })
+    const raw = '```json\n{"paths": ["/x/"]}\n```';
+    expect(parseRouterResponse(raw)).toEqual({ paths: ['/x/'] });
+  });
 
   it('parses JSON wrapped in plain ``` fenced block', () => {
-    const raw = '```\n{"paths": ["/y/"]}\n```'
-    expect(parseRouterResponse(raw)).toEqual({ paths: ['/y/'] })
-  })
+    const raw = '```\n{"paths": ["/y/"]}\n```';
+    expect(parseRouterResponse(raw)).toEqual({ paths: ['/y/'] });
+  });
 
   it('returns empty paths for invalid JSON', () => {
-    expect(parseRouterResponse('{broken')).toEqual({ paths: [] })
-  })
+    expect(parseRouterResponse('{broken')).toEqual({ paths: [] });
+  });
 
   it('returns empty paths for empty string', () => {
-    expect(parseRouterResponse('')).toEqual({ paths: [] })
-  })
+    expect(parseRouterResponse('')).toEqual({ paths: [] });
+  });
 
   it('returns empty paths for whitespace-only string', () => {
-    expect(parseRouterResponse('   \n\t  ')).toEqual({ paths: [] })
-  })
+    expect(parseRouterResponse('   \n\t  ')).toEqual({ paths: [] });
+  });
 
   it('returns empty paths for non-string input', () => {
-    expect(parseRouterResponse(null as unknown as string)).toEqual({ paths: [] })
-  })
+    expect(parseRouterResponse(null as unknown as string)).toEqual({ paths: [] });
+  });
 
   it('returns empty paths when JSON has no paths key', () => {
-    expect(parseRouterResponse('{"other": 1}')).toEqual({ paths: [] })
-  })
+    expect(parseRouterResponse('{"other": 1}')).toEqual({ paths: [] });
+  });
 
   it('returns empty paths when paths is not an array', () => {
-    expect(parseRouterResponse('{"paths": "not-array"}')).toEqual({ paths: [] })
-  })
+    expect(parseRouterResponse('{"paths": "not-array"}')).toEqual({ paths: [] });
+  });
 
   it('ignores surrounding text before fenced block', () => {
-    const raw = 'Here is my answer:\n```json\n{"paths": ["/z/"]}\n```\nDone.'
-    expect(parseRouterResponse(raw)).toEqual({ paths: ['/z/'] })
-  })
-})
+    const raw = 'Here is my answer:\n```json\n{"paths": ["/z/"]}\n```\nDone.';
+    expect(parseRouterResponse(raw)).toEqual({ paths: ['/z/'] });
+  });
+});
 
 // ---------------------------------------------------------------------------
 // normalizeAndValidatePaths
 // ---------------------------------------------------------------------------
 describe('normalizeAndValidatePaths', () => {
-  const allowed = new Set(['/about/', '/guide/', '/faq/'])
+  const allowed = new Set(['/about/', '/guide/', '/faq/']);
 
   it('returns valid paths present in allowed set', () => {
     expect(normalizeAndValidatePaths(['/about/', '/guide/'], allowed, 10)).toEqual([
       '/about/',
       '/guide/',
-    ])
-  })
+    ]);
+  });
 
   it('normalizes paths missing leading/trailing slash', () => {
     expect(normalizeAndValidatePaths(['about', 'guide'], allowed, 10)).toEqual([
       '/about/',
       '/guide/',
-    ])
-  })
+    ]);
+  });
 
   it('filters out paths not in allowed set (hallucinated / external)', () => {
-    expect(normalizeAndValidatePaths(['/about/', '/nonexistent/', 'https://evil.com/'], allowed, 10)).toEqual([
-      '/about/',
-    ])
-  })
+    expect(
+      normalizeAndValidatePaths(['/about/', '/nonexistent/', 'https://evil.com/'], allowed, 10),
+    ).toEqual(['/about/']);
+  });
 
   it('returns empty array for empty input array', () => {
-    expect(normalizeAndValidatePaths([], allowed, 10)).toEqual([])
-  })
+    expect(normalizeAndValidatePaths([], allowed, 10)).toEqual([]);
+  });
 
   it('returns empty array for non-array input', () => {
-    expect(normalizeAndValidatePaths('not-array' as unknown, allowed, 10)).toEqual([])
-  })
+    expect(normalizeAndValidatePaths('not-array' as unknown, allowed, 10)).toEqual([]);
+  });
 
   it('returns empty array when all paths are empty strings', () => {
-    expect(normalizeAndValidatePaths(['', '  '], allowed, 10)).toEqual([])
-  })
+    expect(normalizeAndValidatePaths(['', '  '], allowed, 10)).toEqual([]);
+  });
 
   it('deduplicates paths', () => {
     expect(normalizeAndValidatePaths(['/about/', 'about', '/about/'], allowed, 10)).toEqual([
       '/about/',
-    ])
-  })
+    ]);
+  });
 
   it('respects max limit', () => {
     expect(normalizeAndValidatePaths(['/about/', '/guide/', '/faq/'], allowed, 2)).toEqual([
       '/about/',
       '/guide/',
-    ])
-  })
+    ]);
+  });
 
   it('blocks external URLs that are not in allowed set', () => {
-    expect(normalizeAndValidatePaths(['https://example.com/', 'http://evil.org/'], allowed, 10)).toEqual([])
-  })
-})
+    expect(
+      normalizeAndValidatePaths(['https://example.com/', 'http://evil.org/'], allowed, 10),
+    ).toEqual([]);
+  });
+});
 
 // ---------------------------------------------------------------------------
 // buildContextBlob
@@ -124,46 +126,46 @@ describe('buildContextBlob', () => {
       '/a/': { title: 'Page A', text: 'Content A' },
       '/b/': { title: 'Page B', text: 'Content B' },
     },
-  }
+  };
 
   it('returns concatenated blocks for valid paths (zh)', () => {
-    const result = buildContextBlob(ctx, 'zh', ['/a/', '/b/'], 10000, false)
-    expect(result).toContain('页面A')
-    expect(result).toContain('内容A')
-    expect(result).toContain('页面B')
-    expect(result).toContain('内容B')
-  })
+    const result = buildContextBlob(ctx, 'zh', ['/a/', '/b/'], 10000, false);
+    expect(result).toContain('页面A');
+    expect(result).toContain('内容A');
+    expect(result).toContain('页面B');
+    expect(result).toContain('内容B');
+  });
 
   it('returns English content for en locale', () => {
-    const result = buildContextBlob(ctx, 'en', ['/a/'], 10000, true)
-    expect(result).toContain('Page A')
-    expect(result).toContain('Content A')
-  })
+    const result = buildContextBlob(ctx, 'en', ['/a/'], 10000, true);
+    expect(result).toContain('Page A');
+    expect(result).toContain('Content A');
+  });
 
   it('skips paths not found in the context bag', () => {
-    const result = buildContextBlob(ctx, 'zh', ['/missing/'], 10000, false)
-    expect(result).toBeNull()
-  })
+    const result = buildContextBlob(ctx, 'zh', ['/missing/'], 10000, false);
+    expect(result).toBeNull();
+  });
 
   it('returns null for empty paths array', () => {
-    expect(buildContextBlob(ctx, 'zh', [], 10000, false)).toBeNull()
-  })
+    expect(buildContextBlob(ctx, 'zh', [], 10000, false)).toBeNull();
+  });
 
   it('truncates when content exceeds budget', () => {
     const bigCtx: SiteContext = {
       zh: { '/x/': { title: '大页面', text: '字'.repeat(5000) } },
       en: {},
-    }
-    const result = buildContextBlob(bigCtx, 'zh', ['/x/'], 500, false)
-    expect(result).toContain('已截断')
-  })
+    };
+    const result = buildContextBlob(bigCtx, 'zh', ['/x/'], 500, false);
+    expect(result).toContain('已截断');
+  });
 
   it('truncates with English label when isEn is true', () => {
     const bigCtx: SiteContext = {
       zh: {},
       en: { '/x/': { title: 'Big', text: 'w'.repeat(5000) } },
-    }
-    const result = buildContextBlob(bigCtx, 'en', ['/x/'], 500, true)
-    expect(result).toContain('truncated')
-  })
-})
+    };
+    const result = buildContextBlob(bigCtx, 'en', ['/x/'], 500, true);
+    expect(result).toContain('truncated');
+  });
+});

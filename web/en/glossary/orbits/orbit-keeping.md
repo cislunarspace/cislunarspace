@@ -35,14 +35,14 @@ Orbit keeping (station-keeping) refers to the set of control strategies and mane
 ## Classification by Control Mode
 
 | Mode | Description | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **Impulse thrust** | Discrete maneuvers at specific epochs | Closed-loop, lower fuel, coupled with orbit determination |
 | **Continuous thrust** | Persistent low-thrust propulsion | Open-loop, higher fuel, decoupled from orbit determination |
 
 ## Classification by Strategy
 
 | Strategy | Description |
-|:---|:---|
+| :--- | :--- |
 | **Targeting method** | Minimize weighted deviation-control cost at each epoch |
 | **Dynamic target method** | DE-optimized control parameters for lower fuel consumption |
 | **Floquet mode method** | Eliminate unstable perturbation components |

@@ -18,7 +18,6 @@ wechatShare:
 
 **Summary:** On April 14, 2026, SpaceX successfully launched the Starlink 10-24 mission from Cape Canaveral Space Force Station, deploying 29 Starlink broadband internet satellites into low Earth orbit. This was SpaceX's 37th dedicated Starlink mission of 2026 and brought the total number of Starlink satellites deployed this year to 1,002, marking a significant milestone in the company's rapid satellite constellation expansion.
 
-
 ## Mission Details
 
 The Starlink 10-24 mission lifted off at 5:33:10 a.m. EDT (0933:10 UTC) from Space Launch Complex 40 at Cape Canaveral Space Force Station. The rocket flew on a north-easterly trajectory, deploying 29 Starlink V2 Mini satellites into orbit approximately one hour after liftoff.

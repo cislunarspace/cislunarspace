@@ -83,7 +83,7 @@ There is a trade-off between normalization precision and computational cost. Qia
 ## Relationship with Other Methods
 
 | Method | Precision | Integrability | Limitations |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Linearization ($H_2$) | Low | Exactly integrable | Only applicable in the immediate vicinity of libration points |
 | B-G Normal Form (low-medium order) | Medium | Approximately integrable | Resonant terms eliminated; large errors for high-amplitude orbits |
 | **Complete B-G Normal Form ($N \to \infty$)** | **High** | **Integrable** | **Computational cost grows exponentially** |

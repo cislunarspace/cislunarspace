@@ -28,7 +28,7 @@ permalink: /glossary/navigation/gnss-weak-signal-navigation/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 背景与基本原理
 
@@ -51,7 +51,7 @@ permalink: /glossary/navigation/gnss-weak-signal-navigation/
 ## 性能与局限
 
 | 指标 | 性能 |
-|:---|:---|
+| :--- | :--- |
 | 定位精度 | 月表 ±15 m，地月转移 ±50 m |
 | 覆盖范围 | 地球可视区域，月背与极区覆盖能力弱 |
 | 可靠性 | 一般，受地球可见性限制 |

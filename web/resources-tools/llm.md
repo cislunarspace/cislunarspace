@@ -31,4 +31,4 @@ wechatShare:
 
 ## 官方资源
 
-- 平台集成于数字月球云平台：http://moon.bao.ac.cn/
+- 平台集成于数字月球云平台：<http://moon.bao.ac.cn/>

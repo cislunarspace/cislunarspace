@@ -62,7 +62,7 @@ BAH plays an important role in the U.S. Space Force's digital transformation:
 ## Major Customers and Contracts
 
 | Customer | Contract Scope |
-|------|----------|
+| ------ | ---------- |
 | U.S. Space Force | JpOC system maintenance, SSA software development, digital transformation |
 | U.S. Department of Defense | Cyber operations, intelligence analysis support |
 | NASA | Navigation architecture research, systems integration |
@@ -83,7 +83,7 @@ Booz Allen Hamilton's role in the cislunar space domain is primarily at the infr
 
 ## References
 
-- Booz Allen Hamilton Official Website: https://www.boozallen.com
+- Booz Allen Hamilton Official Website: <https://www.boozallen.com>
 - SpaceNews, "Booz Allen wins $700M Space Force IT contract", 2024.
 - Inside GNSS, "BAH wins NASA navigation research contract for cislunar environment", 2024.
 - Note: Booz Allen Hamilton (BAH) was NOT included in China's export control list per the January 2025 announcement by China's Ministry of Commerce.

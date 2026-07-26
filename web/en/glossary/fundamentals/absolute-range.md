@@ -65,7 +65,7 @@ where $A$, $B$, and $C$ are determined by the powered-phase terminal parameters 
 ### Factors Affecting Range
 
 | Parameter | Effect on Range |
-|:---|:---|
+| :--- | :--- |
 | Energy parameter $\gamma_k$ | Range increases as $\gamma_k$ increases |
 | Velocity inclination $\Theta_k$ | An optimal value $\Theta_{k,\mathrm{opt}}$ exists that maximizes range |
 | Cutoff altitude $h_k$ | As $h_k$ increases, the proportion of reentry-phase range decreases |

@@ -39,7 +39,7 @@ The free-flight trajectory is the motion path of an aerospace vehicle during the
 The inertial orientation, size, shape, and pointing of the free-flight trajectory are entirely determined by the position $\boldsymbol{r}_k$ and velocity $\boldsymbol{v}_k$ at the powered-phase terminal (engine cutoff point) K. Since the free-flight duration is less than one orbital period, the trajectory can be reduced from three dimensions to a two-dimensional planar trajectory, and the corresponding parameters simplify to:
 
 | Parameter | Symbol | Definition |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Semi-latus rectum | $p$ | $p = r_k \gamma_k \cos^2 \Theta_k$ |
 | Eccentricity | $e$ | $e = \sqrt{1 - \gamma_k(2-\gamma_k)\cos^2\Theta_k}$ |
 | True anomaly | $f_k$ | $f_k = \cos^{-1}\left[\frac{1}{e}\left(\frac{p}{r_k}-1\right)\right]$ |
@@ -47,7 +47,7 @@ The inertial orientation, size, shape, and pointing of the free-flight trajector
 ### Trajectory Shape Conditions
 
 | Trajectory Type | Energy Parameter Condition | Velocity Condition |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Circular | $\gamma_k = 1$ | $v_k = \sqrt{\mu_E/r_k}$ |
 | Elliptical | $0 < \gamma_k < 2$ | $v_k < \sqrt{2\mu_E/r_k}$ |
 | Parabolic | $\gamma_k = 2$ | $v_k = \sqrt{2\mu_E/r_k}$ |

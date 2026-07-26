@@ -16,7 +16,7 @@ wechatShare:
 ## 基本信息
 
 - **来源**：中国科学院国家天文台
-- **平台地址**：https://moon.bao.ac.cn/
+- **平台地址**：<https://moon.bao.ac.cn/>
 
 ## 主要功能
 
@@ -31,4 +31,4 @@ wechatShare:
 
 ## 官方资源
 
-- 平台地址：https://moon.bao.ac.cn/
+- 平台地址：<https://moon.bao.ac.cn/>

@@ -21,7 +21,7 @@ wechatShare:
 ## 栏目结构
 
 | 板块 | 内容侧重 |
-|------|-----------|
+| ------ | ----------- |
 | [研究方向](/research-frontiers/directions/) | 低能转移、轨道表征、仿真体系、轨道博弈等专题入口 |
 | [研究机构和组织](/research-frontiers/institutions/) | 高校与科研院所条目（持续扩充） |
 | [期刊与会议](/research-frontiers/journals-conferences) | 投稿与追踪渠道 |

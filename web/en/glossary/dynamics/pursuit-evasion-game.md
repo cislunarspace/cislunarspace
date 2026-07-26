@@ -37,7 +37,7 @@ The spacecraft pursuit-evasion game is a hot research topic in the field of spac
 Spacecraft pursuit-evasion problems can be classified along different dimensions:
 
 | Classification Criterion | Type |
-|:---|:---|
+| :--- | :--- |
 | Orbit type | Near-circular orbit, elliptical orbit |
 | Thrust form | Continuous low-thrust, impulsive thrust |
 | Number of players | Two-player, multi-spacecraft |

@@ -43,14 +43,14 @@ SpaceX CRS-34任务是NASA商业补给服务计划的一部分，将向国际空
 
 NASA credentialing 采访本次发射相关活动对美国媒体开放。**美国公民媒体申请截止日期为4月29日（星期三）23:59 EDT**。所有 credentialing 申请必须在截止日期前提交。
 
-媒体 accreditation 申请入口：https://media.ksc.nasa.gov
+媒体 accreditation 申请入口：<https://media.ksc.nasa.gov>
 
 认证媒体将在批准后收到确认邮件。NASA媒体认证政策可在线查阅。
 
 ## 发射场信息
 
 | 项目 | 详情 |
-|------|------|
+| ------ | ------ |
 | 火箭 | Falcon 9 Block 5 |
 | 飞船 | Dragon spacecraft |
 | 发射场 | 卡纳维拉尔角太空军基地 SLC-40 |

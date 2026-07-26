@@ -25,7 +25,7 @@ Celeste is ESA's initiative for **LEO-PNT (Low Earth Orbit Positioning, Navigati
 ## Mission Details
 
 | Item | Parameter |
-|------|-----------|
+| ------ | ----------- |
 | Satellites | 2 (IOD-1 and IOD-2, first batch) |
 | Total constellation | 11 satellites (demonstration phase) |
 | Launch vehicle | Rocket Lab Electron |
@@ -47,6 +47,7 @@ Celeste is ESA's initiative for **LEO-PNT (Low Earth Orbit Positioning, Navigati
 ## Technical Significance
 
 The Celeste in-orbit demonstration phase was approved at ESA's Council at Ministerial Level in 2022. The fleet is being developed through two parallel contracts:
+
 - **GMV (Spain)** leading, with **OHB (Germany)** as core partner
 - **Thales Alenia Space (France)** as prime, with their Italian counterpart responsible for the space segment
 
@@ -57,6 +58,7 @@ Celeste was further supported at ESA's Ministerial Council 2025 (CM25), towards 
 ## How to Watch
 
 The launch will be broadcast live on:
+
 - [ESA WebTV](https://watch.esa.int/Two/)
 - [ESA YouTube](https://www.youtube.com/live/jJxRic-a4SU)
 

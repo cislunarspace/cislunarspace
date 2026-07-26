@@ -28,7 +28,7 @@ permalink: /en/glossary/navigation/lunanet/
 >
 > This article author: Tianjiang Shuo
 >
-> This article source: https://cislunarspace.cn
+> This article source: <https://cislunarspace.cn>
 
 ## Background
 
@@ -37,6 +37,7 @@ Since no dedicated positioning and navigation system has been established on the
 ## Objectives
 
 LunaNet aims to provide:
+
 - High-precision positioning services on the lunar surface
 - Integrated communication and navigation services
 - Support for crewed lunar landing and uncrewed exploration missions

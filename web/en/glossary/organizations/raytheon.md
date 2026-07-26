@@ -61,7 +61,7 @@ Raytheon's sensor technology can be extended to target detection and tracking in
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | SM-3 Interceptor | Missile Interceptor | Sea-based mid-course intercept; SM-3 Block IIA can intercept ICBMs |
 | THAAD Interceptor | Terminal Interceptor | Land-based mobile terminal high-altitude intercept |
 | AN/TPY-2 Radar | Phased Array Radar | X-band fire control radar, supporting THAAD and BMD |
@@ -83,6 +83,6 @@ Raytheon Missiles & Defense's connection to the cislunar space domain is primari
 
 ## References
 
-- RTX Corporation Official Website: https://www.rtx.com
+- RTX Corporation Official Website: <https://www.rtx.com>
 - Missile Defense Agency, "SM-3 Block IIA intercept test", 2024.
 - China's Ministry of Commerce Announcement No. 1, January 2, 2025.

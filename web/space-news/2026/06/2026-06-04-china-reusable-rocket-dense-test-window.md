@@ -54,7 +54,7 @@ image: ./figures/2026-06-04-china-reusable-rocket-dense-test-window/hero.jpg
 ## 信息来源（原文）
 
 - [蓝箭航天朱雀三号等多型可回收火箭将开展密集试验——财联社 / 每日经济新闻（6/3 报道）](https://www.sohu.com/a/1031007375_115362) — 2026-06-02 13:00
-- 【盘前头条】商业航天突发利好消息——新浪财经（6/3 08:28）](http://finance.sina.com.cn/wm/2026-06-03/doc-iniaarqw2615156.shtml)
+- 【盘前头条】商业航天突发利好消息——新浪财经（6/3 08:28）](<http://finance.sina.com.cn/wm/2026-06-03/doc-iniaarqw2615156.shtml>)
 - [朱雀三号遥二火箭进入最后准备阶段，瞄准垂直回收技术新突破——澎湃（5/13 报道）](https://so.html5.qq.com/page/real/search_news?docid=70000021_5706a03541363852)
 - [蓝箭航天张晓东：朱雀三号 2026 上半年遥二箭回收试验 四季度力争首次复用飞行——同花顺财经（4/3 太空算力产业大会演讲）](http://stock.10jqka.com.cn/20260403/c675758324.shtml)
 - [蓝箭航天 220 吨级发动机完成长程试车——今日头条 / 蓝箭航天官方披露](https://www.toutiao.com/article/7614004787306119743/) — 2026-03-06

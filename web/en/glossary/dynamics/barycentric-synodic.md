@@ -39,7 +39,7 @@ In the barycentric synodic coordinate system, the $x_m$ axis points from the bar
 ## Coordinate Axis Definition
 
 | Axis | Direction | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **$x_m$ axis** | From Earth-Moon barycenter toward Moon | Rotates with lunar revolution |
 | **$z_m$ axis** | In the direction of system angular velocity | Perpendicular to Earth-Moon orbital plane |
 | **$y_m$ axis** | $x_m \times z_m$ | Forms right-handed system with $x_m$ and $z_m$ |
@@ -47,7 +47,7 @@ In the barycentric synodic coordinate system, the $x_m$ axis points from the bar
 ## Differences from GRC
 
 | Characteristic | Barycentric Synodic | Geocentric Rotating (GRC) |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **Origin** | Earth-Moon system barycenter | Earth center |
 | **x-axis direction** | Toward Moon | Toward Moon |
 | **Application** | CR3BP analysis | Orbit design under actual ephemeris conditions |
@@ -79,6 +79,7 @@ In the barycentric synodic coordinate system, L1, L2, and L3 points lie on the $
 ## Limitations
 
 The barycentric synodic coordinate system is based on CR3BP assumptions:
+
 1. Both primary bodies orbit the barycenter in circular motion
 2. The barycenter is an inertial point
 3. The orbital plane is fixed in inertial space

@@ -43,7 +43,7 @@ $$F_{net} = B - mg = (\rho_{air} - \rho_{He}) V_{He} g - m_{total} g$$
 $$\eta = \frac{B}{mg} = \frac{(\rho_{air} - \rho_{He}) V_{He}}{m_{total}}$$
 
 | $\eta$ Value | State |
-|:---|:---|
+| :--- | :--- |
 | $\eta > 1$ | Ascent |
 | $\eta = 1$ | Trim balance |
 | $\eta < 1$ | Descent |
@@ -53,7 +53,7 @@ $$\eta = \frac{B}{mg} = \frac{(\rho_{air} - \rho_{He}) V_{He}}{m_{total}}$$
 ### Helium-related
 
 | Cause | Effect | Variation |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Helium leakage | Buoyancy decrease | -0.5%/month |
 | Diurnal temperature variation | Buoyancy fluctuation | ±10%/day |
 | Pressure altitude change | Buoyancy change | Decreases with altitude |
@@ -63,14 +63,14 @@ $$\eta = \frac{B}{mg} = \frac{(\rho_{air} - \rho_{He}) V_{He}}{m_{total}}$$
 ### Passive Strategies
 
 | Method | Principle |
-|:---|:---|
+| :--- | :--- |
 | Overpressure design | Internal pressure reduces temperature sensitivity |
 | Ballonet | Absorbs volume changes to maintain constant pressure |
 
 ### Active Strategies
 
 | Method | Principle | Energy |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Helium inflation/deflation | Active helium volume regulation | Medium |
 | Ballast adjustment | Payload/ballast jettisoning | Low |
 | Altitude maneuvering | Use altitude to regulate buoyancy | Higher |

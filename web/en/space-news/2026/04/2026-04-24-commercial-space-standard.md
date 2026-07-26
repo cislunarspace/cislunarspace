@@ -31,7 +31,7 @@ wechatShare:
 The Commercial Space Standard System (Version 1.0) focuses on the overall layout of "rockets, satellites, launch sites, applications, and governance," centering on full industry chain innovation, development model transformation, and healthy ecosystem building. It establishes:
 
 | First-Level Branch | Second-Level Branch Count |
-|-------------------|-------------------------|
+| ------------------- | ------------------------- |
 | Industry Governance | Several |
 | R&D and Manufacturing | Several |
 | Launch, Tracking, and Control | Several |

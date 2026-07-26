@@ -49,18 +49,18 @@ $$J = \int_{t_0}^{t_f} L(\mathbf{x}, \mathbf{u}, t) dt + \phi(\mathbf{x}(t_f))$$
 Typical objectives:
 
 | Objective | Expression |
-|:---|:---|
+| :--- | :--- |
 | Minimum energy | $\min \int P_{prop} dt$ |
 | Minimum time | $\min (t_f - t_0)$ |
-| Minimum path length | $\min \int |\mathbf{v}| dt$ |
-| Maximum station-keeping precision | $\min \int ||\mathbf{p} - \mathbf{p}_d|| dt$ |
+| Minimum path length | $\min \int | \mathbf{v} | dt$ |
+| Maximum station-keeping precision | $\min \int | | \mathbf{p} - \mathbf{p}_d | | dt$ |
 
 ## Constraint Conditions
 
 ### Path Constraints
 
 | Constraint | Requirement |
-|:---|:---|
+| :--- | :--- |
 | Station-keeping region | $\mathbf{p} \in \mathcal{R}_{station}$ |
 | Maximum range | $d_{total} \leq D_{max}$ |
 | No-fly zone | $\mathbf{p} \notin \mathcal{R}_{forbidden}$ |
@@ -70,7 +70,7 @@ Typical objectives:
 ### Intelligent Optimization
 
 | Method | Characteristics |
-|:---|:---|
+| :--- | :--- |
 | Particle Swarm Optimization (PSO) | Global search |
 | Genetic Algorithm (GA) | Strong robustness |
 | Deep Reinforcement Learning (DRL) | Handles complex constraints |
@@ -86,7 +86,7 @@ $$E_{prop} = \int \frac{1}{2}\rho | \mathbf{v}_{rel} |^3 C_D S \cdot dt$$
 ### Optimal Strategy
 
 | Strategy | Condition |
-|:---|:---|
+| :--- | :--- |
 | Downwind navigation | $\mathbf{v}_{wind}$ pointing toward target |
 | Altitude scheduling | Utilizing vertical wind shear |
 | Wait/drift | During no-fly zones or low-wind periods |

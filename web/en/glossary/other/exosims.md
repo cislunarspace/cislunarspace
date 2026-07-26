@@ -49,7 +49,7 @@ EXOSIMS is primarily used for the following mission analysis scenarios:
 EXOSIMS adopts a modular design with the following main components:
 
 | Module | Function Description |
-|:---|:---|
+| :--- | :--- |
 | Orbit propagator | Orbit propagation (supports CR3BP and ephemeris models) |
 | Star catalog | Target star catalog management |
 | Observation schedule | Observation sequence scheduling |
@@ -74,7 +74,7 @@ $\Delta v$ maps were generated for different slew times (from 0.055 days to half
 HabEx-like 6 m telescope mission parameters were adopted:
 
 | Parameter | Symbol | Value |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Thruster force | $F_T$ | 264 N |
 | Specific impulse | $I_{sp}$ | 280 s |
 | Wet mass | $m_w$ | 14500 kg |
@@ -88,7 +88,7 @@ HabEx-like 6 m telescope mission parameters were adopted:
 The study also calculated differential acceleration comparisons between the Earth-Moon model and the Sun-Earth model:
 
 | Parameter | Earth-Moon System | Sun-Earth System |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Burn 1 $\vec{a}_{diff}$ | $9.557 \times 10^{-4}$ m/s² | $5.329 \times 10^{-6}$ m/s² |
 | Burn 2 $\vec{a}_{diff}$ | $9.58 \times 10^{-4}$ m/s² | $5.331 \times 10^{-6}$ m/s² |
 
@@ -108,7 +108,7 @@ Coordinate transformations are handled via Astropy coordinate methods. Position 
 
 EXOSIMS is open-source software hosted on GitHub:
 
-- Repository: https://github.com/dsavransky/EXOSIMS
+- Repository: <https://github.com/dsavransky/EXOSIMS>
 - Citation: Genszler et al. (2026) used commit `485f30d3aacf2bf0ff06abeb2ae23d069f1abdaf`
 
 ## Related Concepts
@@ -122,7 +122,7 @@ EXOSIMS is open-source software hosted on GitHub:
 
 ## References
 
-- Genszler G, Delacroix C, Garrett D, et al. EXOSIMS[EB/OL]. https://github.com/dsavransky/EXOSIMS.
+- Genszler G, Delacroix C, Garrett D, et al. EXOSIMS[EB/OL]. <https://github.com/dsavransky/EXOSIMS>.
 - Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. 2026.
 - Morgan R, Savransky D, Turmon M, et al. An exploration of expected number of exoplanets for a 6 m class direct imaging observatory[C]. SPIE, 2022.
 - Soto G J, Savransky D, Garrett D, et al. Parameterizing the search space of starshade fuel costs for optimal observation schedules[J]. JGCD, 2019.

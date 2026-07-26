@@ -43,7 +43,7 @@ In the DRO orbit family, as the orbital energy (Jacobi constant) changes:
 Period-doubling bifurcation and stability:
 
 | Before Bifurcation | Bifurcation Point | After Bifurcation |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Stable periodic orbit | Eigenvalues pass $-1$ | Unstable periodic orbit |
 | Period $T$ | Critical state | Period $2T$ |
 

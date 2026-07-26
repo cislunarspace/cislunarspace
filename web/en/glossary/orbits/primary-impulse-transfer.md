@@ -53,7 +53,7 @@ Primary impulse orbit transfer exploits this property:
 ### Comparison with Hohmann Two-Impulse Transfer
 
 | Feature | Primary Impulse Transfer | Hohmann Two-Impulse Transfer |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Number of impulses | 1 | 2 |
 | Energy consumption | Lower (uses invariant manifold) | Higher |
 | Transfer time | Longer | Shorter |
@@ -66,7 +66,7 @@ In the Earth-Moon restricted three-body model, primary impulse orbit transfer ca
 ### Typical Transfer Scenarios
 
 | Origin | Target | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Lunar orbit | L1 libration point | Relatively short transfer time |
 | Lunar orbit | L2 libration point | Uses L2 unstable manifold |
 | Earth orbit | L1 libration point | Long-distance transfer |

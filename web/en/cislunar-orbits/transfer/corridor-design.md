@@ -29,11 +29,13 @@ In the CR3BP model, transfer corridors correspond to invariant manifold tubes th
 Transfer corridors can be divided into two categories based on transfer energy:
 
 **High-Energy Corridor** (Direct Transfer Corridor):
+
 - Corresponds to higher $C_3$ values ($C_3 \approx -0.3$ to $-0.5$ km$^2$/s$^2$)
 - Short transfer time (3-5 days)
 - Narrow $\Delta V$ corridor width (approximately $\pm 50$ m/s)
 
 **Low-Energy Corridor**:
+
 - Corresponds to lower $C_3$ values ($C_3 \approx -0.8$ to $-1.0$ km$^2$/s$^2$)
 - Long transfer time (2-4 weeks)
 - Wide $\Delta V$ corridor width (approximately $\pm 200-300$ m/s)
@@ -43,11 +45,13 @@ The $\Delta V$ difference between the two corridor types is approximately 200-30
 ## Pork-Chop Plot
 
 The Pork-Chop plot is a standard tool for TLI launch window analysis, presented as a contour plot showing:
+
 - **x-axis**: Launch date
 - **y-axis**: Arrival date (or transfer time)
 - **Contours**: Total $\Delta V$ or $C_3$ values
 
 How to read a Pork-Chop plot:
+
 1. Locate the most indented region of the contours (the lowest-energy launch opportunity)
 2. The launch-arrival date pair in that region represents the optimal window
 3. The density of contours indicates how "steep" the corridor is
@@ -57,7 +61,7 @@ How to read a Pork-Chop plot:
 Earth-Moon transfer design is a typical time-fuel bi-objective optimization problem with core trade-offs:
 
 | Objective | Optimization Direction | Cost |
-|-----------|------------------------|------|
+| ----------- | ------------------------ | ------ |
 | Minimize $\Delta V$ | Low-energy corridor | Increased transfer time |
 | Minimize time | High-energy corridor | Increased $\Delta V$ |
 | Maximize window width | Compromise solution | Neither objective is optimal |
@@ -67,6 +71,7 @@ The Pareto frontier represents the set of optimal solutions where both objective
 ## NRHO Insertion Timing
 
 NRHO insertion after arriving in cislunar space is the final step of the transfer:
+
 - Insertion timing is determined by the lunar phase and orbital geometry at arrival
 - Optimal insertion window width is typically $\pm 1-2$ hours
 - Insertion $\Delta V$ is approximately 200-400 m/s

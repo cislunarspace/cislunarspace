@@ -28,7 +28,7 @@ permalink: /en/glossary/navigation/inter-satellite-link-navigation/
 >
 > This article author: Tianjiang Shuo
 >
-> This article source: https://cislunarspace.cn
+> This article source: <https://cislunarspace.cn>
 
 ## Background and Basic Principles
 
@@ -45,7 +45,7 @@ In 2024, China's DRO-A satellite in DRO orbit and low Earth orbit DRO-L satellit
 ## Performance and Limitations
 
 | Metric | Performance |
-|:---|:---|
+| :--- | :--- |
 | Positioning Accuracy | Cislunar space: meter-level |
 | Coverage | Inter-satellite link visible areas |
 | Primary Functions | Earth-Moon transfer orbit determination, time synchronization, emergency data transmission |

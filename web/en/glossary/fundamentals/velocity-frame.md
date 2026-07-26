@@ -37,7 +37,7 @@ The velocity frame is a coordinate system established with respect to the direct
 ### Axis Definitions
 
 | Axis | Definition |
-|:---|:---|
+| :--- | :--- |
 | $o_1 x_v$ | Along the flight velocity direction of the spacecraft |
 | $o_1 y_v$ | In the principal plane of symmetry, perpendicular to the $x_v$ axis |
 | $o_1 z_v$ | Perpendicular to the $x_v o_1 y_v$ plane, pointing to the right when viewed in the direction of flight |
@@ -47,7 +47,7 @@ The velocity frame is a coordinate system established with respect to the direct
 The relationship between the velocity frame and the body frame is defined by two angles:
 
 | Angle | Symbol | Definition |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Angle of attack | $\alpha$ | Angle between the projection of the velocity vector in the principal plane of symmetry and the $x_1$ axis |
 | Sideslip angle | $\beta$ | Angle between the velocity vector and the principal plane of symmetry |
 
@@ -60,7 +60,7 @@ $$\mathbf{V}_B = \mathbf{R}_x(-\beta) \cdot \mathbf{R}_y(\alpha)$$
 The relationship between the velocity frame and the launch frame is defined by three angles:
 
 | Angle | Symbol | Definition |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Flight path yaw angle | $\sigma$ | Angle between the projection of the velocity vector in the horizontal plane of the launch frame and the $x$ axis |
 | Flight path angle | $\theta$ | Angle between the velocity vector and the horizontal plane |
 | Bank angle | $\gamma_v$ | Rotation angle about the velocity vector |
@@ -70,7 +70,7 @@ The relationship between the velocity frame and the launch frame is defined by t
 In the velocity frame, aerodynamic forces naturally decompose into:
 
 | Component | Direction | Physical Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Drag $X$ | $-x_v$ direction | Opposing the velocity direction |
 | Lift $Y$ | $y_v$ direction | Perpendicular to velocity, in the principal plane of symmetry |
 | Side force $Z$ | $z_v$ direction | Perpendicular to velocity and the principal plane of symmetry |

@@ -53,7 +53,7 @@ $$\vec{M} = \frac{d\vec{H}}{dt} = \mathbf{I}\dot{\vec{\omega}} + \vec{\omega} \t
 Due to large volume and light weight, the inertia matrix has distinct characteristics:
 
 | Parameter | Characteristic |
-|:---|:---|
+| :--- | :--- |
 | $I_{xx}$ | Small (slim body) |
 | $I_{yy} = I_{zz}$ | Large |
 | $I_{xy} = I_{xz} = I_{yz}$ | Approximately zero (symmetry) |

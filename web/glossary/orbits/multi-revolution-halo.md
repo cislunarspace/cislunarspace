@@ -75,11 +75,13 @@ Peng 等提出的弧长延拓法是求解多圈 Halo 轨道的关键技术：
 - **平动点任务拓展**：为平动点附近的长期驻留任务提供更丰富的轨道选择
 
 ## 相关概念
+
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - [准周期轨道（Quasi-Periodic Orbit）](/glossary/orbits/quasi-periodic-orbit/)
 
 ## 参考文献
+
 - Peng H, Bai X. Constructing cislunar multi-revolution halo orbits in the elliptic restricted three-body problem[J]. Celestial Mechanics and Dynamical Astronomy, 2019.
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - 唐歌畅等. 椭圆限制性三体问题下周期轨道研究进展[J]. 力学学报, 2020.

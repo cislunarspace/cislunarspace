@@ -37,6 +37,7 @@ permalink: /glossary/fundamentals/instantaneous-balance/
 ### 物理含义
 
 瞬时平衡假设意味着：
+
 - 飞行器没有绕质心的角加速度
 - 气动力矩与控制力矩在任意时刻平衡
 - 攻角 $\alpha$ 和侧滑角 $\beta$ 由控制偏转角 $\delta$ 直接确定
@@ -53,6 +54,7 @@ $$\delta_\varphi = -\frac{M_{z1}^\alpha}{M_{z1}^\delta} \alpha = -\frac{Y_1^\alp
 ### 引入的误差
 
 瞬时平衡假设忽略了：
+
 - 绕质心运动的动态过渡过程
 - 姿态角速度和角加速度的影响
 - 控制系统的延迟和超调

@@ -43,7 +43,7 @@ $$\left\{\begin{array}{l} \dot{a} = \frac{2}{n\sqrt{1-e^2}}[e\sin f \cdot f_r + 
 ### Gaussian Type I Physical Characteristics
 
 | Characteristic | Description |
-|:---|:---|
+| :--- | :--- |
 | Orbit size and shape | Determined jointly by $f_r$ and $f_u$, independent of $f_h$ |
 | Orbital plane orientation change | Determined solely by $f_h$, independent of $f_r$ and $f_u$ |
 | $f_h$ at the node | Most significant effect on $i$, no effect on $\Omega$ |
@@ -54,7 +54,7 @@ $$\left\{\begin{array}{l} \dot{a} = \frac{2}{n\sqrt{1-e^2}}[e\sin f \cdot f_r + 
 The perturbation acceleration is decomposed into a tangential component $f_t$, a principal normal component $f_n$, and a binormal component $f_h$. This form is suitable for atmospheric drag analysis:
 
 | Characteristic | Description |
-|:---|:---|
+| :--- | :--- |
 | Orbit size change | Determined solely by the tangential component $f_t$ |
 | Orbit shape and mean position | Determined jointly by $f_t$ and $f_n$ |
 | Orbital plane orientation change | Determined solely by the binormal component $f_h$ |

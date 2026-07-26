@@ -37,7 +37,7 @@ This was the maiden flight of the Lijian-2 carrier rocket and the 12th launch of
 Lijian-2 Yao-1 maiden flight configuration:
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | Payload fairing diameter | 4.2 m |
 | Core stage diameter | 3.35 m |
 | Stage 1 with boosters diameter | 5.8 m |

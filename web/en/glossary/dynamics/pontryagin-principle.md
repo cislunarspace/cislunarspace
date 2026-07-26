@@ -84,6 +84,7 @@ Costate variables have profound physical significance:
 ## Relationship with Bang-Bang Control
 
 Pontryagin's Maximum Principle directly leads to the bang-bang characteristic of fuel-optimal control:
+
 - When the switching function $\rho_j > 0$, thrust is zero (coasting)
 - When the switching function $\rho_j < 0$, thrust is at maximum
 - Switching occurs when $\rho_j = 0$

@@ -34,6 +34,7 @@ In organ transplantation, time is life. Every hour matters from the moment an or
 ## Partnership Objectives
 
 This collaboration focuses on several key areas:
+
 - **High-speed transport vehicle design**: Leveraging aerospace aerodynamic and structural design concepts to develop more efficient organ transport containers
 - **Temperature control and monitoring**: Utilizing NASA's thermal management systems to ensure organs remain at optimal temperatures throughout transport
 - **Real-time tracking systems**: Integrating aerospace communication technologies for continuous position and status monitoring during transport

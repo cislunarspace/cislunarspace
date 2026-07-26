@@ -37,7 +37,7 @@ The body frame is a coordinate frame fixed to the vehicle. It is also referred t
 ### Axis Definitions
 
 | Axis | Definition |
-|:---|:---|
+| :--- | :--- |
 | $o_1 x_1$ | Principal longitudinal symmetry axis of the vehicle, pointing toward the nose |
 | $o_1 y_1$ | In the principal symmetry plane, perpendicular to the $x_1$ axis |
 | $o_1 z_1$ | Perpendicular to the principal symmetry plane, pointing to the right when viewed from behind along the direction of flight |
@@ -49,7 +49,7 @@ The principal symmetry plane coincides with the $xoy$ plane of the launch frame 
 The orientation of the body frame relative to the launch frame (or launch inertial frame) is described by three Euler angles (attitude angles) using a 3-2-1 rotation sequence:
 
 | Attitude Angle | Symbol | Definition |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Yaw | $\varphi$ | Rotation about the $z$-axis; angle between the projection of $x_1$ on the horizontal plane and the $x$-axis |
 | Pitch | $\psi$ | Rotation about the $y$-axis; angle between the $x_1$-axis and the horizontal plane |
 | Roll | $\gamma$ | Rotation about the $x$-axis; angle between the $y_1$-axis and the principal symmetry plane |

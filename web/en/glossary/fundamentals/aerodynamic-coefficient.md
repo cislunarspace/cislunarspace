@@ -65,7 +65,7 @@ For axisymmetric vehicles, $C_y^\alpha = -C_z^\beta$.
 ### Relationships Between Coefficients
 
 | Coefficient | Body Frame Representation | Velocity Frame Representation |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Axial force | $C_{x1}$ | — |
 | Normal force | $C_{y1} = C_{y1}^\alpha \cdot \alpha$ | — |
 | Drag | — | $C_x$ |

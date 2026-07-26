@@ -21,7 +21,7 @@ This section indexes **research directions, institutions, publication venues, an
 ## Section map
 
 | Block | Focus |
-|-------|--------|
+| ------- | -------- |
 | [Directions](/en/research-frontiers/directions/) | Topic hubs (transfers, characterization, simulation, etc.) |
 | [Institutions](/en/research-frontiers/institutions/) | Organization entries (growing) |
 | [Journals & conferences](/en/research-frontiers/journals-conferences) | Where work is published and presented |

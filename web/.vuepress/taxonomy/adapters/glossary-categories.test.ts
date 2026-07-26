@@ -1,7 +1,7 @@
-import { describe, it, expect } from 'vitest'
-import { buildGlossaryCategories, GlossaryCategoryRegistry } from './glossary-categories'
-import { createTaxonomyModule } from '../module'
-import type { TaxonomyNode } from '../types'
+import { describe, it, expect } from 'vitest';
+import { buildGlossaryCategories, GlossaryCategoryRegistry } from './glossary-categories';
+import { createTaxonomyModule } from '../module';
+import type { TaxonomyNode } from '../types';
 
 /**
  * Minimal fixture: a glossary root with two glossary-category children.
@@ -37,23 +37,23 @@ const fixtureNodes: TaxonomyNode[] = [
     parentId: 'glossary',
     meta: { slug: 'dynamics' },
   },
-]
+];
 
-const fixtureModule = createTaxonomyModule(fixtureNodes)
+const fixtureModule = createTaxonomyModule(fixtureNodes);
 
 describe('buildGlossaryCategories', () => {
   it('returns one entry per glossary-category node', () => {
-    const categories = buildGlossaryCategories(fixtureModule)
-    expect(categories).toHaveLength(2)
-    expect(categories.map((c) => c.slug)).toEqual(['fundamentals', 'dynamics'])
-  })
+    const categories = buildGlossaryCategories(fixtureModule);
+    expect(categories).toHaveLength(2);
+    expect(categories.map((c) => c.slug)).toEqual(['fundamentals', 'dynamics']);
+  });
 
   it('extracts bilingual labels and order', () => {
-    const categories = buildGlossaryCategories(fixtureModule)
-    const fundamentals = categories.find((c) => c.slug === 'fundamentals')!
-    expect(fundamentals.label).toEqual({ zh: '基础概念', en: 'Fundamentals' })
-    expect(fundamentals.order).toBe(10)
-  })
+    const categories = buildGlossaryCategories(fixtureModule);
+    const fundamentals = categories.find((c) => c.slug === 'fundamentals')!;
+    expect(fundamentals.label).toEqual({ zh: '基础概念', en: 'Fundamentals' });
+    expect(fundamentals.order).toBe(10);
+  });
 
   it('falls back to id-based slug when meta.slug is absent', () => {
     const nodes: TaxonomyNode[] = [
@@ -66,32 +66,32 @@ describe('buildGlossaryCategories', () => {
         order: 30,
         parentId: 'glossary',
       },
-    ]
-    const mod = createTaxonomyModule(nodes)
-    const categories = buildGlossaryCategories(mod)
-    const other = categories.find((c) => c.label.zh === '其他')!
-    expect(other.slug).toBe('other')
-  })
-})
+    ];
+    const mod = createTaxonomyModule(nodes);
+    const categories = buildGlossaryCategories(mod);
+    const other = categories.find((c) => c.label.zh === '其他')!;
+    expect(other.slug).toBe('other');
+  });
+});
 
 describe('GlossaryCategoryRegistry', () => {
   it('can be instantiated with fixture data', () => {
-    const categories = buildGlossaryCategories(fixtureModule)
-    const registry = new GlossaryCategoryRegistry(categories)
-    expect(registry.getBySlug('fundamentals')).toBeDefined()
-    expect(registry.getBySlug('fundamentals')!.label.zh).toBe('基础概念')
-  })
+    const categories = buildGlossaryCategories(fixtureModule);
+    const registry = new GlossaryCategoryRegistry(categories);
+    expect(registry.getBySlug('fundamentals')).toBeDefined();
+    expect(registry.getBySlug('fundamentals')!.label.zh).toBe('基础概念');
+  });
 
   it('returns undefined for unknown slug', () => {
-    const categories = buildGlossaryCategories(fixtureModule)
-    const registry = new GlossaryCategoryRegistry(categories)
-    expect(registry.getBySlug('nonexistent')).toBeUndefined()
-  })
+    const categories = buildGlossaryCategories(fixtureModule);
+    const registry = new GlossaryCategoryRegistry(categories);
+    expect(registry.getBySlug('nonexistent')).toBeUndefined();
+  });
 
   it('getByLabel works for both locales', () => {
-    const categories = buildGlossaryCategories(fixtureModule)
-    const registry = new GlossaryCategoryRegistry(categories)
-    expect(registry.getByLabel('基础概念', 'zh')?.slug).toBe('fundamentals')
-    expect(registry.getByLabel('Fundamentals', 'en')?.slug).toBe('fundamentals')
-  })
-})
+    const categories = buildGlossaryCategories(fixtureModule);
+    const registry = new GlossaryCategoryRegistry(categories);
+    expect(registry.getByLabel('基础概念', 'zh')?.slug).toBe('fundamentals');
+    expect(registry.getByLabel('Fundamentals', 'en')?.slug).toBe('fundamentals');
+  });
+});

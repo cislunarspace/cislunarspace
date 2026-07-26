@@ -65,7 +65,7 @@ Northrop Grumman provides key components for NASA's Lunar Gateway:
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Cygnus Spacecraft | Cargo Spacecraft | ISS commercial resupply, supporting lunar near-orbit logistics concept |
 | Next Gen OPIR | Missile Warning Satellite | Detects ballistic missiles and hypersonic glide vehicles |
 | Daedalus Docking System | Docking Mechanism | Lunar Gateway docking interface |
@@ -87,7 +87,7 @@ Northrop Grumman's importance in the cislunar space domain is reflected in the f
 
 ## References
 
-- Northrop Grumman Official Website: https://www.northropgrumman.com
+- Northrop Grumman Official Website: <https://www.northropgrumman.com>
 - NASA CRS, "Northrop Grumman's Cygnus spacecraft", 2024.
 - Space Development Agency, "Next Gen OPIR program", 2024.
 - China's Ministry of Commerce Announcement No. 1, January 2, 2025.

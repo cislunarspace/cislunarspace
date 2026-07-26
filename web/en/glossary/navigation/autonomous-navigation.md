@@ -39,7 +39,7 @@ In cislunar space missions, communication delays can reach the order of seconds 
 ## Differences from Ground-Based Navigation
 
 | Feature | Ground-Based Navigation | Autonomous Navigation |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Data source | Ground station tracking measurements | Onboard sensor real-time observations |
 | Communication dependence | Strong dependence, requires continuous tracking | Weak dependence, can operate independently |
 | Navigation accuracy | Kilometer level (DSN) | Meter to decameter level (autonomous) |

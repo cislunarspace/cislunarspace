@@ -33,6 +33,7 @@ NSGA II (Non-dominated Sorting Genetic Algorithm II) is a classic multi-objectiv
 ### Non-dominated Sorting
 
 NSGA II first performs non-dominated sorting on the population:
+
 1. Identify non-dominated solutions in the population (first layer of the Pareto front)
 2. After removing these solutions, identify new non-dominated solutions (second layer of the Pareto front)
 3. Repeat until all solutions are classified
@@ -47,12 +48,14 @@ where $M$ is the number of objective functions, and $f_m^{i+1}$ and $f_m^{i-1}$ 
 ### Selection Mechanism
 
 Based on non-dominated sorting rank and crowding distance, a new population is generated:
+
 1. Solutions with higher ranks (deeper front layers) are eliminated first
 2. When ranks are equal, solutions with smaller crowding distances are eliminated first
 
 ## Application in Cislunar SSA Architecture Design
 
 Klonowski (2025) used a hybrid algorithm of MO-MCTS and NSGA II to optimize observation satellite configurations in cislunar space situational awareness architecture design:
+
 - MO-MCTS for global search of Pareto-optimal architectures
 - NSGA II for local optimization and population update maintenance
 - Cluster analysis (e.g., K-Medoids) for identifying different types of architecture configurations
@@ -60,12 +63,15 @@ Klonowski (2025) used a hybrid algorithm of MO-MCTS and NSGA II to optimize obse
 ## Key Elements
 
 ### Mathematical Definition
+
 NSGA II classifies $N$ solutions into multiple front layers $\mathcal{F}_1, \mathcal{F}_2, ..., \mathcal{F}_k$ through non-dominated sorting, satisfying $\bigcup_i \mathcal{F}_i = \mathcal{P}$ (complete population), $\bigcap_i \mathcal{F}_i = \emptyset$ (no intersection between layers).
 
 ### Key Properties
+
 NSGA II has a computational complexity of $O(MN^2)$, where $M$ is the number of objectives and $N$ is the population size. The crowding distance mechanism ensures uniform distribution along the Pareto front.
 
 ### Application Scenarios
+
 NSGA II is suitable for multi-objective optimization problems with both continuous and discrete variables, and is widely applied in engineering design, scheduling optimization, machine learning hyperparameter tuning, and other fields.
 
 ## Related Concepts

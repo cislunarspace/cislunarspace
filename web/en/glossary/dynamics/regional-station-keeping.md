@@ -35,7 +35,7 @@ Regional station-keeping control refers to active control techniques that mainta
 ## Control Objectives
 
 | Metric | Description | Typical Requirement |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Horizontal position accuracy | Distance from target center | < 1-5 km |
 | Altitude accuracy | Deviation from nominal altitude | < 100 m |
 | Mission endurance | Single mission duration | 14-90 days |
@@ -68,7 +68,7 @@ Propulsion and thermal control compete for limited solar energy.
 ### Classical Control
 
 | Method | Advantages | Disadvantages |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | PID Control | Simple | Nonlinear handling difficult |
 | Sliding Mode Control | Robust | Chattering |
 | Backstepping SMC | Fast convergence | Computationally complex |
@@ -76,7 +76,7 @@ Propulsion and thermal control compete for limited solar energy.
 ### Intelligent Control
 
 | Method | Advantages | Disadvantages |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Fuzzy Backstepping | Suitable for nonlinear | Expert knowledge dependent |
 | Deep Reinforcement Learning | Strong self-learning | Training data requirements |
 | Gaussian Process Regression | Uncertainty quantification | Real-time performance |

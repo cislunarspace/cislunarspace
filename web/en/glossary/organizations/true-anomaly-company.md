@@ -62,7 +62,7 @@ True Anomaly provides high-resolution Space Domain Awareness data through its Ja
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Jackal | Autonomous Orbital Vehicle | Space domain awareness and proximity operations satellite |
 | GravityWorks | Ground Operations Center | Space mission ground control and data analysis |
 | Orbital Maneuvering Algorithms | Software/Algorithms | Autonomous proximity and orbital coordination control algorithms |
@@ -83,6 +83,6 @@ True Anomaly's connection to the cislunar space domain is primarily at the defen
 
 ## References
 
-- True Anomaly Official Website: https://www.trueanomaly.space
+- True Anomaly Official Website: <https://www.trueanomaly.space>
 - SpaceNews, "True Anomaly raises $100M, cuts workforce", April 2024.
 - Defense News, "Firefly Alpha to launch True Anomaly Jackal for Victus Haze", October 2024.

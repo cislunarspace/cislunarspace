@@ -23,6 +23,7 @@ wechatShare:
 NASA's **Lunar Gateway** is the cornerstone infrastructure of the Artemis program — a small space station planned for operation in cislunar space. Unlike the International Space Station (ISS), the Gateway does not occupy a continuous resident orbit; instead, it operates in an L1 NRHO, periodically visiting the lunar surface and supporting deep-space missions.
 
 NASA selected NRHO as the Gateway's operational orbit based on the following considerations:
+
 1. **Orbital Stability**: The quasi-periodic nature of NRHO in the CR3BP model reduces the propellant required for station-keeping
 2. **Lunar Surface Accessibility**: Transfer ΔV from NRHO to the lunar poles is approximately 200–400 m/s, superior to LEO
 3. **Communication Coverage**: NRHO provides good communication visibility to the lunar far side, especially the south pole
@@ -35,7 +36,7 @@ Gateway's target NRHO parameters: $A_x \approx 3100$ km, period approximately 6.
 The Gateway is one of the largest multilateral space cooperation projects to date, with each partner developing and operating different modules:
 
 | Partner | Module | Function |
-|---------|--------|----------|
+| --------- | -------- | ---------- |
 | NASA (USA) | PPE (Power and Propulsion), HALO (Habitation and Logistics Outpost) | Power, propulsion, life support |
 | ESA (Europe) | ESPRIT (European System Providing Refueling, Infrastructure and Telecommunications) | Propellant resupply, communications enhancement |
 | JAXA (Japan) | I-HAB (International Habitation Module) | Crew habitation, scientific experiments |
@@ -46,6 +47,7 @@ Each module is designed to operate independently or collaboratively in the Gatew
 ## Cis-Lunar Transfer Design
 
 Transfers from Earth to the Gateway NRHO are typically divided into two phases:
+
 1. **Trans-Lunar Injection (TLI)**: Launch from LEO or direct injection into a trans-lunar trajectory
 2. **NRHO Insertion**: Orbital maneuvers near the L1 point to insert the spacecraft into the NRHO
 
@@ -56,7 +58,7 @@ A typical TLI energy budget is approximately $\Delta V \approx 3.1–3.3$ km/s (
 During the Gateway planning phase, DRO was also considered as an alternative operational orbit. In comparison:
 
 | Characteristic | NRHO | DRO |
-|----------------|------|-----|
+| ---------------- | ------ | ----- |
 | Lunar Surface Accessibility | Good (200–400 m/s to poles) | Poor |
 | Station-Keeping ΔV | 30–80 m/s/year | 5–20 m/s/year |
 | Earth Communication | Good | Better |

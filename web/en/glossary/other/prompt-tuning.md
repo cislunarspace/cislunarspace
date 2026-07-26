@@ -62,7 +62,7 @@ where $\Delta\phi$ consists of the trained new parameters.
 The "soft prompts" in prompt tuning are fundamentally different from "hard prompts" (natural language text prompts):
 
 | Feature | Hard Prompt | Soft Prompt |
-|---------|------------|-------------|
+| --------- | ------------ | ------------- |
 | Form | Natural language text | Learnable parameters in continuous vector space |
 | Optimization | Manual design or search | Automatic optimization via gradient descent |
 | Expressiveness | Limited to discrete tokens in vocabulary | Can represent continuous semantics not in vocabulary |
@@ -71,7 +71,7 @@ The "soft prompts" in prompt tuning are fundamentally different from "hard promp
 ## Comparison with Full Fine-Tuning and LoRA
 
 | Feature | Full Fine-Tuning | P-tuning V2 | LoRA |
-|---------|-----------------|-------------|------|
+| --------- | ----------------- | ------------- | ------ |
 | Trainable parameters | 100% | <1% | 0.1%–3% |
 | Modification location | All layers | Input layer + layer-wise embeddings | Target layer weight matrices |
 | Inference overhead | None | Additional processing for soft prompt tokens | None (after merging) |

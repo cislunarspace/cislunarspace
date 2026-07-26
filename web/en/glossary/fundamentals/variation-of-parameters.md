@@ -41,7 +41,7 @@ where $\boldsymbol{\sigma}$ is the vector of six orbital elements or canonical p
 ### Comparison with Other Special Perturbation Methods
 
 | Method | Variables | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Cowell's method | Position and velocity | Direct integration, simplest principle, wide applicability |
 | Encke's method | Position and velocity deviations | Uses osculating orbit as reference, deviations are small quantities |
 | Variation of parameters | Orbital elements | Osculating orbit changes continuously, larger step sizes permissible |
@@ -55,7 +55,7 @@ where $\boldsymbol{\sigma}$ is the vector of six orbital elements or canonical p
 ### Typical Variation Equations
 
 | Equation Type | Applicable Scenario | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Gaussian Type I | Arbitrary perturbation forces | Perturbation force decomposed into radial, transverse, and normal components |
 | Gaussian Type II | Atmospheric drag analysis | Perturbation force decomposed into tangential, principal normal, and binormal components |
 | Lagrangian type | Conservative perturbation forces | Expressed via partial derivatives of the disturbing function |

@@ -33,6 +33,7 @@ L1 NRHOs and L2 NRHOs differ in their stability directions — an L1 NRHO posses
 ## Orbit Family Classification
 
 NRHOs can be classified into four families based on the Lagrange point (L1/L2) and amplitude (northern/southern):
+
 - L1 Northern NRHO and L1 Southern NRHO
 - L2 Northern NRHO and L2 Southern NRHO
 
@@ -41,6 +42,7 @@ The amplitude ratio $A_z/A_x$ is a key parameter distinguishing halo orbits from
 ## Engineering Applications
 
 The primary engineering value of NRHOs lies in their geometric position relative to the Moon:
+
 - **Lunar Gateway**: NASA's Artemis program selected an L1 NRHO as the Gateway's orbit, balancing Earth-Moon round trips and lunar surface access
 - **Relay and Observation**: An L2 NRHO can provide continuous communication coverage for the far side of the Moon (e.g., the Chang'e-4 landing region)
 - **Fuel Efficiency**: The ΔV budget for transfer from an NRHO to the lunar surface is approximately 200-400 m/s, superior to direct descent from LEO

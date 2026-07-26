@@ -14,7 +14,7 @@ wechatShare:
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)
 >
-> Source: https://cislunarspace.cn
+> Source: <https://cislunarspace.cn>
 
 # DRO Design Methods
 
@@ -25,6 +25,7 @@ The initial condition search is the first step in DRO orbit design. In the CR3BP
 ### Grid Search Method
 
 A straightforward approach is to perform a grid search in the phase space:
+
 1. Select grid points in the $(x, \dot{x}, C_J)$ parameter space
 2. Numerically integrate one period $T$ for each grid point
 3. Verify the periodicity condition: $\mathbf{X}(T) - \mathbf{X}(0) \approx \mathbf{0}$
@@ -34,6 +35,7 @@ This method is computationally expensive, but for DROs with clear geometric char
 ### Continuation Method
 
 A more efficient approach is to use continuation from a known periodic orbit:
+
 1. Start from a known Lyapunov orbit or boundary DRO
 2. Gradually vary the $C_J$ or amplitude parameters
 3. Use the shooting method at each step to correct the periodicity condition
@@ -68,6 +70,7 @@ DRO station-keeping design must consider the following factors:
 ### Maintenance Strategy
 
 The low maintenance ΔV budget of DROs (~5-20 m/s/year) allows simple impulsive maintenance to meet requirements:
+
 - **Maintenance Frequency**: Typically perform a small correction every 1-2 weeks ($\Delta V \approx 0.5-2$ m/s)
 - **Correction Direction**: Correct along the direction of the unstable Floquet modal direction
 - **Timing Selection**: Perform corrections at the orbit's velocity extremum points (minimum kinetic energy points)
@@ -75,7 +78,7 @@ The low maintenance ΔV budget of DROs (~5-20 m/s/year) allows simple impulsive 
 ### Maintenance ΔV Budget Breakdown
 
 | Perturbation Source | Contribution to Maintenance ΔV |
-|---------------------|----------------------------------|
+| --------------------- | ---------------------------------- |
 | Solar gravity | 3-8 m/s/year |
 | Lunar non-spherical | 1-3 m/s/year |
 | Solar radiation pressure | 0.5-2 m/s/year |

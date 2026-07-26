@@ -56,7 +56,7 @@ Horseshoe orbits primarily exist in the triangular libration point region of the
 Using the Earth-Moon system as an example, the main parameter characteristics of horseshoe orbits are as follows (based on the dynamic catalog statistics by Guzzetti et al.):
 
 | Parameter | Typical Range |
-|:---|:---|
+| :--- | :--- |
 | Jacobi Constant | Approximately 2.5 |
 | Stability Index | Moderately high |
 | Orbital Period | Long (tens to hundreds of days) |
@@ -89,6 +89,7 @@ Horseshoe orbits have the following potential applications in cislunar space mis
 - **Mission design reference**: As an important component of the libration point orbit classification system, horseshoe orbits provide a reference for designing mission trajectories that cover a wide range of cislunar space
 
 ## Related Concepts
+
 - [Short Period Orbit](/en/glossary/orbits/short-period-orbit/)
 - [Long Period Orbit](/en/glossary/orbits/long-period-orbit/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
@@ -96,6 +97,7 @@ Horseshoe orbits have the following potential applications in cislunar space mis
 - [Triangular Libration Points](/en/glossary/orbits/triangular-libration-points/)
 
 ## References
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Yarnoz D G, Sanchez J P, McInnes C R. Pure opportunities for asteroid retrieval missions[M]. Asteroids. Springer Berlin Heidelberg, 2013: 447-466.

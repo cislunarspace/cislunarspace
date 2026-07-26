@@ -39,7 +39,7 @@ In the Circular Restricted Three-Body Problem, GRC simplifies to the Geocentric 
 ## Coordinate Axis Definition
 
 | Axis | Direction | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **x-axis** | From Earth center toward Moon | Varies with lunar position in real-time |
 | **z-axis** | Direction of instantaneous lunar orbital angular momentum | Perpendicular to lunar orbital plane |
 | **y-axis** | x × z | Forms right-handed system with x and z |
@@ -75,7 +75,7 @@ In GRC, libration point positions are functions of time (instantaneous libration
 ## GRC and Other Coordinate Systems
 
 | Coordinate System | Origin | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **GRC** | Earth center | x-axis toward Moon, z-axis toward lunar orbital angular momentum |
 | **LRC** | L2 point | x, z, y axes parallel to GRC |
 | **Barycentric Synodic** | Earth-Moon barycenter | Used for CR3BP analysis |

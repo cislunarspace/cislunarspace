@@ -48,7 +48,7 @@ Vertical orbits possess the following properties within the CR3BP framework:
 Based on the libration point locations in the Earth-Moon system, vertical orbits can be classified into the following families:
 
 | Orbit Family | Parent Libration Point | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | V1 (Vertical L1) | L1 | Located between Earth and Moon, moderate $z$-direction amplitude |
 | V2 (Vertical L2) | L2 | Located on the far side of the Moon, large $z$-direction amplitude |
 | V3 (Vertical L3) | L3 | Located on the far side of the Earth from the Moon, long period |
@@ -59,7 +59,7 @@ Based on the libration point locations in the Earth-Moon system, vertical orbits
 Using the Earth-Moon system as an example, the main parameter ranges for the vertical orbit family are as follows (based on the dynamic catalog statistics by Guzzetti et al.):
 
 | Orbit Family | Jacobi Constant Range | Period Range (days) | Stability Index |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | V1 | Approximately 2.5 ~ 3.0 | Approximately 24 | Relatively high |
 | V2 | Approximately 0.8 ~ 3.0 | Approximately 16 | Moderate |
 | V3 | Approximately 2.5 ~ 3.0 | Relatively long | Relatively low |
@@ -92,6 +92,7 @@ Vertical orbits have the following potential applications in cislunar space miss
 - **Mission design reference**: As an important component of the libration point orbit classification system, vertical orbits are fundamental to understanding cislunar dynamical structures and designing complex mission trajectories
 
 ## Related Concepts
+
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
 - [Axial Orbit](/en/glossary/orbits/axial-orbit/)
@@ -99,6 +100,7 @@ Vertical orbits have the following potential applications in cislunar space miss
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.

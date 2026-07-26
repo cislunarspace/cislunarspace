@@ -34,6 +34,7 @@ The core idea is to utilize dynamical properties near libration points: within t
 ### Lissajous Relay Station Scheme
 
 Using Lissajous orbits as relay stations enables more flexible orbit design:
+
 - Lissajous orbits are quasi-periodic with larger amplitude ranges than Halo orbits
 - The manifold network of Lissajous orbits covers broader transfer requirements
 - Applicable to L1/L2 space stations, communication relays, and other mission scenarios
@@ -41,6 +42,7 @@ Using Lissajous orbits as relay stations enables more flexible orbit design:
 ### Orbit Optimization Methods
 
 Low-energy transfer design typically involves multi-objective optimization:
+
 - Minimize total velocity increment (Δv)
 - Minimize transfer time
 - Satisfy launch window constraints
@@ -57,5 +59,6 @@ Common methods include shooting methods, differential evolution algorithms, and 
 ---
 
 **Related Links**
+
 - ↑ [Orbit Design & Optimization](./README.md) — Back to direction homepage
 - ↔ [Orbit Parameter Characterization](./orbit-characterization.md) — Related subtopic

@@ -42,7 +42,7 @@ The successful launch marks an important breakthrough for China in direct-to-cel
 ## Mission Summary
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Launch Vehicle | Long March 2D (LM-2D) |
 | Launch Site | Xichang Satellite Launch Center |
 | Launch Time | April 24, 2026 14:35 BJT |

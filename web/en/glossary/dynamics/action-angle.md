@@ -68,7 +68,7 @@ where the subscript $c$ denotes the center motion mode and $s$ denotes the saddl
 Qiao et al. (2025) ultimately select a six-dimensional characteristic parameter set:
 
 | Parameter | Type | Definition | Physical Meaning |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | $q_1$ | Saddle coordinate | Retained directly (no action-angle transformation) | Degree of entry along the unstable manifold |
 | $p_1$ | Saddle momentum | Retained directly (no action-angle transformation) | Degree of entry along the stable manifold |
 | $I_2$ | Center action 1 | $I_2 = \frac{1}{2}(q_2^2 + p_2^2)$ | Amplitude of motion in the $XY$ plane |
@@ -79,6 +79,7 @@ Qiao et al. (2025) ultimately select a six-dimensional characteristic parameter 
 **Why not convert $q_1, p_1$ to action-angle form?**
 
 Qiao et al. (2025) give two reasons:
+
 1. The angle variable definition for the saddle involves complex variables, with abstract physical meaning, making practical application inconvenient.
 2. The numerical values of $q_1, p_1$ themselves are sufficient to describe the spacecraft's degree of entry into the unstable/stable manifold ($q_1$ growing exponentially indicates moving away along the unstable manifold, $p_1$ decaying exponentially to zero indicates approaching along the stable manifold).
 

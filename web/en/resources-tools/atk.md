@@ -16,7 +16,7 @@ ATK (Aerospace Tool Kit) is a domestically developed aerospace mission analysis 
 ## Key Information
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | **Developer** | School of Aerospace Science, NUDT |
 | **License** | Commercial software (serving 300+ organizations) |
 | **Latest Version** | 4.0 (released April 11, 2026) |

@@ -43,7 +43,7 @@ where $N$ and $D$ are the minimum number of revolutions and sidereal days requir
 ### Repeat Ground Track Orbit Characteristics
 
 | Characteristic | Description |
-|:---|:---|
+| :--- | :--- |
 | Repeat period | $D=1$ sidereal day |
 | Inter-revolution spacing | $L = 360°/N = 15°T$ |
 | Revolution number sequence | Westward order: 0-1-2-...-(N-1) |

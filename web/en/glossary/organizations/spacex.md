@@ -69,7 +69,7 @@ SpaceX's Crew Dragon is the primary crewed spacecraft for NASA's Commercial Crew
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Starlink | Satellite Internet Constellation | Largest LEO broadband constellation, 8,460+ satellites in orbit |
 | Starship | Launch Vehicle/Spacecraft | Fully reusable, 100-ton LEO capacity, lunar lander |
 | Falcon 9 | Launch Vehicle | Reusable, 22.8-ton LEO capacity |
@@ -94,7 +94,7 @@ SpaceX is one of the most direct drivers of cislunar space economic development:
 
 ## References
 
-- SpaceX Official Website: https://www.spacex.com
+- SpaceX Official Website: <https://www.spacex.com>
 - NASA Artemis, "SpaceX Starship HLS contract", 2021.
 - FCC, "Starlink Gen 2 approval order", 2022.
 - SpaceX Starship Launch Updates, 2024-2025.

@@ -59,7 +59,7 @@ Using vibration theory to analyze periodic orbits, reduced-order dynamic equatio
 ## Comparison with Traditional Methods
 
 | Method | Characteristics | Applicable Scenario |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Linearization method | Based on linear stability analysis | Small-amplitude orbits |
 | Lindstedt-Poincare perturbation method | Provides analytical approximate solutions | Initial guess generation |
 | Two-dominant invariant manifold method | Establishes nonlinear constraint relations | Orbit station-keeping constraints |
@@ -75,12 +75,15 @@ The main applications of the two-dominant invariant manifold method include:
 ## Key Elements
 
 ### Mathematical Definition
+
 The two-dominant invariant manifold method selects two directions of periodic orbit motion as principal motions, and expresses the third direction through an expanded polynomial relation, establishing nonlinear relationships among the three directions.
 
 ### Key Properties
+
 The nonlinear polynomial relations can reflect the intrinsic dynamical characteristics of periodic orbit motion. These relations can serve as new constraint conditions applied to orbit design and station-keeping at libration points.
 
 ### Numerical Methods
+
 Through vibration theory analysis combined with Legendre polynomial expansion, reduced-order dynamic equations and multi-order polynomial coefficients are obtained.
 
 ## Related Concepts

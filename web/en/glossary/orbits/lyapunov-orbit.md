@@ -50,7 +50,7 @@ Lyapunov orbit families are parameterized by the initial displacement $x_0$ on t
 Based on libration point locations in the Earth-Moon system, Lyapunov orbits can be classified into the following families:
 
 | Orbit Family | Libration Point | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Ly1 (Lyapunov L1) | L1 | Located between Earth and Moon along the line connecting them |
 | Ly2 (Lyapunov L2) | L2 | Located on the far side of the Moon, away from Earth |
 | Ly3 (Lyapunov L3) | L3 | Located on the far side of Earth, away from the Moon |
@@ -60,7 +60,7 @@ Based on libration point locations in the Earth-Moon system, Lyapunov orbits can
 For the Earth-Moon system, the main parameter ranges of Lyapunov orbit families (based on the dynamic catalog statistics by Guzzetti et al.) are as follows:
 
 | Orbit Family | Jacobi Constant Range | Period Range (days) | Stability Index |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Ly1 | ~3.188 – 2.124 | Moderate | Relatively high |
 | Ly2 | ~3.172 – 2.881 | Moderate | Relatively high |
 | Ly3 | ~2.5 | Relatively long | Moderate |
@@ -108,6 +108,7 @@ Lyapunov orbits have value in both theoretical research and practical missions:
 - **Education and introduction**: As the simplest periodic orbit family at libration points, Lyapunov orbits are an ideal starting point for orbital mechanics education
 
 ## Related Concepts
+
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
 - [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)
@@ -116,6 +117,7 @@ Lyapunov orbits have value in both theoretical research and practical missions:
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Szebehely V. Theory of Orbits: The Restricted Problem of Three Bodies[M]. Academic Press, 1967.
 - Gomez G, Masdemont J, Simo C. Quasihalo orbits associated with libration points[J]. Journal of the Astronautical Sciences, 1998.

@@ -16,7 +16,7 @@ wechatShare:
 ## 基本信息
 
 - **来源**：中国科学院地球化学研究所
-- **平台地址**：http://moon.bao.ac.cn/
+- **平台地址**：<http://moon.bao.ac.cn/>
 
 ## 主要功能
 
@@ -32,4 +32,4 @@ wechatShare:
 
 ## 官方资源
 
-- 平台地址：http://moon.bao.ac.cn/
+- 平台地址：<http://moon.bao.ac.cn/>

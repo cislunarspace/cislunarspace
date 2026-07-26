@@ -37,7 +37,7 @@ permalink: /glossary/fundamentals/orbital-elements/
 ### 经典轨道根数
 
 | 根数 | 符号 | 定义 | 描述的特性 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | 半长轴 | $a$ | 圆锥曲线长轴的一半 | 轨道尺寸，决定能量、周期 |
 | 偏心率 | $e$ | 圆锥曲线偏心率 | 轨道形状 |
 | 轨道倾角 | $i$ | 轨道面与赤道面的二面角 | 轨道面倾斜程度 |
@@ -48,7 +48,7 @@ permalink: /glossary/fundamentals/orbital-elements/
 ### 特殊轨道的根数替换
 
 | 轨道类型 | 奇异根数 | 替换方案 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 非赤道圆轨道 ($e=0$) | $\omega, \tau$ 不确定 | 用纬度幅角 $u$ 描述位置 |
 | 赤道椭圆轨道 ($i=0°$) | $\Omega, \omega$ 不确定 | 用近地点赤经 $\alpha_p$ 描述指向 |
 | 赤道圆轨道 | $\Omega, \omega, \tau$ 不确定 | 用卫星赤经 $\alpha$ 描述位置 |
@@ -64,6 +64,7 @@ $$\{a, i, \Omega, H=e\cos\omega, K=-e\sin\omega, L=M+\omega\}$$
 ### 位置速度互转
 
 轨道根数与位置速度之间的转换是轨道力学的核心计算：
+
 - **正向转换**：由 $(a,e,i,\Omega,\omega,f)$ 计算位置 $\boldsymbol{r}$ 和速度 $\boldsymbol{v}$，需经坐标旋转
 - **反向转换**：由 $(\boldsymbol{r}, \boldsymbol{v})$ 计算轨道根数，需依次求解比动量矩、偏心率矢量等基本矢量
 

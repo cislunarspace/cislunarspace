@@ -10,17 +10,34 @@
 
     <div class="sn-body">
       <div v-if="featuredList.length" class="sn-featured">
-        <router-link :to="featuredList[currentFeatured].path" class="sn-featured__link" :key="featuredList[currentFeatured].path">
+        <router-link
+          :key="featuredList[currentFeatured].path"
+          :to="featuredList[currentFeatured].path"
+          class="sn-featured__link"
+        >
           <div class="sn-featured__img" :style="cardBg(featuredList[currentFeatured])">
-            <span v-if="featuredList[currentFeatured].primaryCategory" class="sn-cat-tag" :style="catStyle(featuredList[currentFeatured])">{{ featuredList[currentFeatured].categoryLabel }}</span>
+            <span
+              v-if="featuredList[currentFeatured].primaryCategory"
+              class="sn-cat-tag"
+              :style="catStyle(featuredList[currentFeatured])"
+              >{{ featuredList[currentFeatured].categoryLabel }}</span
+            >
           </div>
           <div class="sn-featured__body">
             <h2 class="sn-featured__headline">{{ featuredList[currentFeatured].title }}</h2>
             <p class="sn-featured__deck">{{ featuredList[currentFeatured].description }}</p>
             <div class="sn-meta">
-              <span v-if="featuredList[currentFeatured].author" class="sn-meta__author">{{ featuredList[currentFeatured].author }}</span>
-              <span class="sn-meta__dot" v-if="featuredList[currentFeatured].author && featuredList[currentFeatured].date">&middot;</span>
-              <time v-if="featuredList[currentFeatured].date" class="sn-meta__date">{{ formatDate(featuredList[currentFeatured].date) }}</time>
+              <span v-if="featuredList[currentFeatured].author" class="sn-meta__author">{{
+                featuredList[currentFeatured].author
+              }}</span>
+              <span
+                v-if="featuredList[currentFeatured].author && featuredList[currentFeatured].date"
+                class="sn-meta__dot"
+                >&middot;</span
+              >
+              <time v-if="featuredList[currentFeatured].date" class="sn-meta__date">{{
+                formatDate(featuredList[currentFeatured].date)
+              }}</time>
             </div>
           </div>
         </router-link>
@@ -30,7 +47,10 @@
             :key="i"
             class="sn-featured__dot"
             :class="{ active: i === currentFeatured }"
-            @click="currentFeatured = i; startCarousel()"
+            @click="
+              currentFeatured = i;
+              startCarousel();
+            "
           ></button>
         </div>
       </div>
@@ -41,17 +61,24 @@
           <router-link class="sn-section__more" :to="archivePath">{{ labels.viewAll }}</router-link>
         </div>
         <ul class="sn-grid">
-          <li v-for="(item, idx) in latestItems" :key="item.path" class="sn-grid__cell scroll-reveal revealed" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
+          <li
+            v-for="(item, idx) in latestItems"
+            :key="item.path"
+            class="sn-grid__cell scroll-reveal revealed"
+            :class="`scroll-reveal-delay-${(idx % 3) + 1}`"
+          >
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
-                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
+                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{
+                  item.categoryLabel
+                }}</span>
               </div>
               <div class="sn-card__body">
                 <h3 class="sn-card__title">{{ item.title }}</h3>
                 <p class="sn-card__deck">{{ item.description }}</p>
                 <div class="sn-meta">
                   <span v-if="item.author" class="sn-meta__author">{{ item.author }}</span>
-                  <span class="sn-meta__dot" v-if="item.author && item.date">&middot;</span>
+                  <span v-if="item.author && item.date" class="sn-meta__dot">&middot;</span>
                   <time v-if="item.date" class="sn-meta__date">{{ formatDate(item.date) }}</time>
                 </div>
               </div>
@@ -60,25 +87,39 @@
         </ul>
       </section>
 
-      <section v-for="(sec, secIdx) in categorySections" :key="sec.key" class="sn-section scroll-reveal revealed" :class="`scroll-reveal-delay-${(secIdx % 2) + 1}`">
+      <section
+        v-for="(sec, secIdx) in categorySections"
+        :key="sec.key"
+        class="sn-section scroll-reveal revealed"
+        :class="`scroll-reveal-delay-${(secIdx % 2) + 1}`"
+      >
         <div class="sn-section__head">
           <h2 class="sn-section__title">
             <span class="sn-section__dot" :style="{ background: sec.color }"></span>
             {{ sec.label }}
           </h2>
-          <router-link class="sn-section__more" :to="archivePath + '#' + sec.key">{{ labels.viewMore }}</router-link>
+          <router-link class="sn-section__more" :to="archivePath + '#' + sec.key">{{
+            labels.viewMore
+          }}</router-link>
         </div>
         <ul class="sn-grid">
-          <li v-for="(item, idx) in sec.items" :key="item.path" class="sn-grid__cell scroll-reveal revealed" :class="`scroll-reveal-delay-${(idx % 3) + 1}`">
+          <li
+            v-for="(item, idx) in sec.items"
+            :key="item.path"
+            class="sn-grid__cell scroll-reveal revealed"
+            :class="`scroll-reveal-delay-${(idx % 3) + 1}`"
+          >
             <router-link :to="item.path" class="sn-card">
               <div class="sn-card__img" :style="cardBg(item)">
-                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{ item.categoryLabel }}</span>
+                <span v-if="item.primaryCategory" class="sn-cat-tag" :style="catStyle(item)">{{
+                  item.categoryLabel
+                }}</span>
               </div>
               <div class="sn-card__body">
                 <h3 class="sn-card__title">{{ item.title }}</h3>
                 <div class="sn-meta">
                   <span v-if="item.author" class="sn-meta__author">{{ item.author }}</span>
-                  <span class="sn-meta__dot" v-if="item.author && item.date">&middot;</span>
+                  <span v-if="item.author && item.date" class="sn-meta__dot">&middot;</span>
                   <time v-if="item.date" class="sn-meta__date">{{ formatDate(item.date) }}</time>
                 </div>
               </div>
@@ -93,96 +134,96 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, onMounted, onBeforeUnmount, watch } from 'vue'
-import Footer from './Footer.vue'
-import { useIsEn } from '../composables/useIsEn'
-import type { ArticlesData } from '../utils/types'
+import { computed, ref, onMounted, onBeforeUnmount, watch } from 'vue';
+import Footer from './Footer.vue';
+import { useIsEn } from '../composables/useIsEn';
+import type { ArticlesData } from '../utils/types';
 import {
   buildSpaceNewsDirectoryView,
   type SpaceNewsArticleView,
   type SpaceNewsCategoryMeta,
-} from '../utils/spaceNewsDirectoryView'
-import { articleCardBackground, formatArticleDate } from '../utils/spaceNewsPresentation'
-import { spaceNewsLabels } from '../utils/spaceNewsLabels'
+} from '../utils/spaceNewsDirectoryView';
+import { articleCardBackground, formatArticleDate } from '../utils/spaceNewsPresentation';
+import { spaceNewsLabels } from '../utils/spaceNewsLabels';
 
-const isEn = useIsEn()
+const isEn = useIsEn();
 
-const articlesData = ref<ArticlesData | null>(null)
-const categoryMeta = ref<SpaceNewsCategoryMeta>({})
-const fetchError = ref(false)
+const articlesData = ref<ArticlesData | null>(null);
+const categoryMeta = ref<SpaceNewsCategoryMeta>({});
+const fetchError = ref(false);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/space-news-articles.json')
-    const data = await response.json() as ArticlesData
-    articlesData.value = data
-    categoryMeta.value = data.categoryMeta ?? {}
+    const response = await fetch('/space-news-articles.json');
+    const data = (await response.json()) as ArticlesData;
+    articlesData.value = data;
+    categoryMeta.value = data.categoryMeta ?? {};
   } catch {
-    fetchError.value = true
+    fetchError.value = true;
   }
-})
+});
 
 const directoryView = computed(() => {
-  if (!articlesData.value) return null
+  if (!articlesData.value) return null;
   return buildSpaceNewsDirectoryView({
     articles: isEn.value ? articlesData.value.en : articlesData.value.zh,
     locale: isEn.value ? 'en' : 'zh',
     categoryMeta: categoryMeta.value,
-  })
-})
+  });
+});
 
-const labels = computed(() => spaceNewsLabels.home[isEn.value ? 'en' : 'zh'])
-const featuredList = computed(() => directoryView.value?.featuredList ?? [])
-const latestItems = computed(() => directoryView.value?.latestItems ?? [])
-const categorySections = computed(() => directoryView.value?.categorySections ?? [])
+const labels = computed(() => spaceNewsLabels.home[isEn.value ? 'en' : 'zh']);
+const featuredList = computed(() => directoryView.value?.featuredList ?? []);
+const latestItems = computed(() => directoryView.value?.latestItems ?? []);
+const categorySections = computed(() => directoryView.value?.categorySections ?? []);
 
-const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))
+const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'));
 
-const currentFeatured = ref(0)
-let carouselTimer: ReturnType<typeof setInterval> | null = null
+const currentFeatured = ref(0);
+let carouselTimer: ReturnType<typeof setInterval> | null = null;
 
 function startCarousel() {
-  stopCarousel()
-  if (featuredList.value.length <= 1) return
+  stopCarousel();
+  if (featuredList.value.length <= 1) return;
   carouselTimer = setInterval(() => {
     if (featuredList.value.length === 0) {
-      stopCarousel()
-      return
+      stopCarousel();
+      return;
     }
-    currentFeatured.value = (currentFeatured.value + 1) % featuredList.value.length
-  }, 5000)
+    currentFeatured.value = (currentFeatured.value + 1) % featuredList.value.length;
+  }, 5000);
 }
 
 function stopCarousel() {
   if (carouselTimer) {
-    clearInterval(carouselTimer)
-    carouselTimer = null
+    clearInterval(carouselTimer);
+    carouselTimer = null;
   }
 }
 
 watch(featuredList, () => {
-  currentFeatured.value = 0
-  startCarousel()
-})
+  currentFeatured.value = 0;
+  startCarousel();
+});
 
 onMounted(() => {
-  startCarousel()
-})
+  startCarousel();
+});
 
 onBeforeUnmount(() => {
-  stopCarousel()
-})
+  stopCarousel();
+});
 
 function catStyle(article: SpaceNewsArticleView) {
-  return { background: article.categoryColor, color: '#fff' }
+  return { background: article.categoryColor, color: '#fff' };
 }
 
 function cardBg(article: SpaceNewsArticleView) {
-  return articleCardBackground(article)
+  return articleCardBackground(article);
 }
 
 function formatDate(raw: string | null) {
-  return formatArticleDate(raw, isEn.value ? 'en' : 'zh', 'long')
+  return formatArticleDate(raw, isEn.value ? 'en' : 'zh', 'long');
 }
 </script>
 
@@ -258,7 +299,9 @@ function formatDate(raw: string | null) {
   padding: 0;
   background: #cbd5e1;
   cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
 
   &.active {
     background: var(--vp-c-accent);
@@ -280,8 +323,9 @@ function formatDate(raw: string | null) {
   color: inherit;
   box-shadow: var(--shadow-md);
   border: 1px solid var(--c-border);
-  transition: transform 0.35s var(--ease-out-expo),
-              box-shadow 0.35s var(--ease-out-expo);
+  transition:
+    transform 0.35s var(--ease-out-expo),
+    box-shadow 0.35s var(--ease-out-expo);
 
   &:hover {
     transform: translateY(-4px);
@@ -439,9 +483,10 @@ function formatDate(raw: string | null) {
   text-decoration: none;
   color: inherit;
   border: 1px solid var(--c-border, #e2e8f0);
-  transition: transform 0.35s var(--ease-out-expo),
-              border-color 0.25s var(--ease-smooth),
-              box-shadow 0.35s var(--ease-out-expo);
+  transition:
+    transform 0.35s var(--ease-out-expo),
+    border-color 0.25s var(--ease-smooth),
+    box-shadow 0.35s var(--ease-out-expo);
 
   &:hover {
     border-color: var(--c-brand-light);

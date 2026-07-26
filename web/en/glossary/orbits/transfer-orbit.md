@@ -68,6 +68,7 @@ Transfer orbit design has critical applications in cislunar missions:
 - **Emergency return**: Free-return transfer orbits provide crewed missions the ability to safely return to Earth without additional propulsion
 
 ## Related Concepts
+
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 - [Lunar Gravity Assist](/en/glossary/other/lunar-gravity-assist/)
@@ -76,6 +77,7 @@ Transfer orbit design has critical applications in cislunar missions:
 - [Free-Return Trajectory](/en/glossary/orbits/free-return-trajectory/)
 
 ## References
+
 - Hohmann W. Die Erreichbarkeit der Himmelskörper[M]. 1925.
 - Wei Z et al. Research on lunar gravity-assist injection into cislunar distant retrograde orbit families[J]. 2026.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

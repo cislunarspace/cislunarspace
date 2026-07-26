@@ -59,7 +59,7 @@ GITAI is a member of the MDA SHIELD IDIQ (a vendor pool led by Canadian company 
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | GITAI Robotic Arm | Robotic Arm | Dual robotic arm system specialized for space on-orbit servicing |
 | GITAI Rover | Lunar Rover | Lunar surface mobile operations platform |
 | Haptic Feedback System | Human-Machine Interaction | Enables remote operators to sense robotic arm contact forces |
@@ -80,6 +80,6 @@ GITAI is one of the most directly cislunar-related commercial companies:
 
 ## References
 
-- GITAI Official Website: https://www.gitai.space
+- GITAI Official Website: <https://www.gitai.space>
 - NASA, "GITAI selected for MDA SHIELD IDIQ", 2024.
 - JAXA Press Release, "JAXA selects GITAI for lunar rover robotic arm", 2024.

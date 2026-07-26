@@ -39,14 +39,13 @@ Spacecraft in cislunar space are poorly approximated by a single Keplerian cente
 ## Common mission orbit classes (conceptual)
 
 | Class | What it is (intro) | Where to read more |
-|-------|---------------------|--------------------|
+| ------- | --------------------- | -------------------- |
 | Earth–Moon transfer | From LEO or staging to lunar sphere of influence | Mission reports on TLI, mid-course correction |
 | Lunar orbits | Circular/elliptical/polar classes for remote sensing, landing prep | Lunar gravity field, frozen orbits |
 | Libration-point & halo families | Periodic/quasi-periodic motion near Earth–Moon libration points | See [glossary](/en/glossary/); NRHO/DRO entries mirror the Chinese section over time |
 | DRO | Distant retrograde class in the Earth–Moon rotating frame | Same as above |
 
 Detailed design needs ephemerides, force models, and program constraints. See [resources & tools](/en/resources-tools/) for datasets and libraries, and the [orbit simulation lab](/en/satellite-simulation/) for interactive experiments.
-
 
 ## Deep Dives: Three Key Topics
 

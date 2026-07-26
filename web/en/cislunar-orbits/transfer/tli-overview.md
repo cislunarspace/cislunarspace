@@ -39,6 +39,7 @@ Due to the orbital period relationship of the Earth-Moon system, suitable TLI la
 ### Cost of Window Deviation
 
 If the launch timing deviates from the optimal window:
+
 - Transfer energy $C_3$ increases (possibly reaching -0.3 km$^2$/s$^2$ or higher)
 - Transfer time varies (may lengthen or shorten)
 - Arrival phase at the Moon is unfavorable, affecting rendezvous/docking or landing
@@ -54,7 +55,7 @@ The velocity increment needed to go from LEO (185 km circular orbit, $v \approx 
 $$\Delta V_{TLI} = v_{escape} - v_{LEO} \approx 3.1-3.3 \text{ km/s}$$
 
 | Mission | LEO Parking Orbit | TLI ΔV | Notes |
-|---------|-------------------|---------|-------|
+| --------- | ------------------- | --------- | ------- |
 | Apollo 11 | 185 km | ~3.05 km/s | Saturn V S-IVB |
 | Chang'e 5 | 190 km | ~3.0 km/s | Orbiter+Return |
 | SLIM | 190 km | ~3.1 km/s | Small lander |
@@ -73,6 +74,7 @@ A typical TLI launch sequence:
 ## Launch Window Planning Tools
 
 Modern mission planning uses tools such as GMAT and STK for TLI launch window optimization:
+
 - **GMAT**: NASA's open-source orbit design tool, supporting TLI optimization and pork-chop plot generation
 - **STK** (Satellite Tool Kit): AGI's professional orbit analysis software, providing high-precision window calculations
 

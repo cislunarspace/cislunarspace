@@ -39,7 +39,7 @@ Skip reentry refers to a reentry mode in which a spacecraft enters the atmospher
 The main differences between skip reentry trajectories and ballistic and lifting trajectories:
 
 | Trajectory Type | Altitude Variation | Lift Utilization | Deceleration Method |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Ballistic reentry | Monotonic descent | None or uncontrolled | Single-pass atmospheric deceleration |
 | Lifting reentry | Gradual descent | Continuous utilization | Continuous atmospheric deceleration |
 | Skip reentry | Large oscillations | Intermittent utilization | Multiple-pass atmospheric deceleration |
@@ -47,6 +47,7 @@ The main differences between skip reentry trajectories and ballistic and lifting
 ### Physical Mechanism
 
 Skip reentry uses lift to achieve periodic altitude variations:
+
 1. Enter the atmosphere at a small reentry angle, generating lift
 2. Lift pushes the spacecraft out of the atmosphere into a ballistic flight segment
 3. In the vacuum segment, no aerodynamic forces act; the spacecraft follows an elliptical arc
@@ -56,6 +57,7 @@ Skip reentry uses lift to achieve periodic altitude variations:
 ### Trajectory Altitude Oscillations
 
 The altitude of a skip reentry trajectory exhibits large oscillations. During each atmospheric entry and exit:
+
 - Atmospheric entry phase: Aerodynamic drag decelerates the vehicle, causing aerodynamic heating
 - Extra-atmospheric phase: No aerodynamic forces; free flight along an elliptical arc
 - Deceleration effects accumulate with each atmospheric pass
@@ -63,7 +65,7 @@ The altitude of a skip reentry trajectory exhibits large oscillations. During ea
 ### Comparison with Ballistic Reentry
 
 | Comparison Item | Ballistic Reentry | Skip Reentry |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Reentry angle | Can be relatively large | Must be relatively small |
 | Deceleration process | Severe, completed in one pass | Gentle, distributed across multiple passes |
 | Peak load factor | Higher | Lower |

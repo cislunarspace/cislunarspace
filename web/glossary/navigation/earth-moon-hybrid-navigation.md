@@ -28,7 +28,7 @@ permalink: /glossary/navigation/earth-moon-hybrid-navigation/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 背景与基本原理
 
@@ -47,7 +47,7 @@ permalink: /glossary/navigation/earth-moon-hybrid-navigation/
 ## 性能与应用
 
 | 指标 | 性能 |
-|:---|:---|
+| :--- | :--- |
 | 定位精度 | 近月 ±0.5 m，转移轨道 ±10 m |
 | 覆盖范围 | 全月面 + 地月转移全程 |
 | 系统可靠性 | 最高（多源冗余，可降级使用） |

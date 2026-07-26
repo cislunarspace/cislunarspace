@@ -39,7 +39,7 @@ The Standard Atmosphere is an internationally recognized reference model that de
 Earth's atmosphere is divided into five layers based on temperature variation characteristics:
 
 | Layer | Altitude Range | Temperature Change | Characteristics |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Troposphere | 0–11 km | Approx. −6.5 °C/km | Primary weather phenomena layer |
 | Stratosphere | 11–50 km | Initially constant, then rising | Ozone layer absorbs ultraviolet radiation |
 | Mesosphere | 50–85 km | Approx. −3 °C/km | Coldest region of the atmosphere |

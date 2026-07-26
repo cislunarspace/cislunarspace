@@ -19,4 +19,5 @@ image: ./figures/2026-05-11-artemis-2-astronauts-lunar-training/hero.jpg
 **Summary:** NASA lunar science teams trained Artemis 2 astronauts in specialized observation techniques to prepare them for future lunar missions.
 
 ## Sources (original pages)
+
 - [How NASA lunar scientists taught Artemis 2 astronauts to see the moon with different eyes](https://www.space.com/space-exploration/artemis/how-nasa-lunar-scientists-taught-artemis-2-astronauts-to-see-the-moon-with-different-eyes)

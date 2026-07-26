@@ -1,16 +1,14 @@
 <template>
   <div class="references-root">
-    <div v-if="loading" class="references-loading">
-      Loading...
-    </div>
+    <div v-if="loading" class="references-loading">Loading...</div>
     <div v-else-if="error" class="references-error">
       {{ error }}
     </div>
     <ol v-else class="references-list">
       <li
         v-for="(entry, key) in sortedEntries"
-        :key="key"
         :id="String(key)"
+        :key="key"
         :class="['references-item', { 'cite-highlight': highlightedKey === key }]"
       >
         <span class="references-number">[{{ entry.number }}]</span>
@@ -21,60 +19,63 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, nextTick } from 'vue'
+import { ref, computed, onMounted, nextTick } from 'vue';
 
 interface BibliographyEntry {
-  number: number
-  formatted: string
+  number: number;
+  formatted: string;
 }
 
 interface BibliographyData {
-  entries: Record<string, BibliographyEntry>
-  citedBy: Record<string, string[]>
+  entries: Record<string, BibliographyEntry>;
+  citedBy: Record<string, string[]>;
 }
 
-const loading = ref(true)
-const error = ref<string | null>(null)
-const data = ref<BibliographyData | null>(null)
-const highlightedKey = ref<string | null>(null)
+const loading = ref(true);
+const error = ref<string | null>(null);
+const data = ref<BibliographyData | null>(null);
+const highlightedKey = ref<string | null>(null);
 
 const sortedEntries = computed(() => {
-  if (!data.value) return {}
-  const entries = data.value.entries
+  if (!data.value) return {};
+  const entries = data.value.entries;
   return Object.keys(entries)
     .sort((a, b) => entries[a].number - entries[b].number)
-    .reduce((acc, key) => {
-      acc[key] = entries[key]
-      return acc
-    }, {} as Record<string, BibliographyEntry>)
-})
+    .reduce(
+      (acc, key) => {
+        acc[key] = entries[key];
+        return acc;
+      },
+      {} as Record<string, BibliographyEntry>,
+    );
+});
 
 onMounted(async () => {
   try {
-    const response = await fetch('/bibliography.json')
-    if (!response.ok) throw new Error('Failed to load bibliography')
-    data.value = await response.json()
+    const response = await fetch('/bibliography.json');
+    if (!response.ok) throw new Error('Failed to load bibliography');
+    data.value = await response.json();
   } catch (e) {
-    error.value = 'Failed to load bibliography data.'
+    error.value = 'Failed to load bibliography data.';
   } finally {
-    loading.value = false
+    loading.value = false;
   }
 
-  await nextTick()
+  await nextTick();
 
   // Handle anchor highlight
-  const hash = window.location.hash.slice(1)
+  const hash = window.location.hash.slice(1);
   if (hash && data.value?.entries[hash]) {
-    highlightedKey.value = hash
-    const el = document.getElementById(hash)
+    highlightedKey.value = hash;
+    const el = document.getElementById(hash);
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
     setTimeout(() => {
-      highlightedKey.value = null
-    }, 2000)
+      highlightedKey.value = null;
+    }, 2000);
   }
-})
+});
 </script>
 
 <style scoped>

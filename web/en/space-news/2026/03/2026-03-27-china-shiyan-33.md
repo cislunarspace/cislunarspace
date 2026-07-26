@@ -23,7 +23,7 @@ China successfully launched the **Shiyan-33** (试验三十三号) satellite on 
 ## Mission Details
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Launch Vehicle | Long March 2C / Yuanzhang-1S Upper Stage |
 | Launch Site | Jiuquan Satellite Launch Center |
 | Launch Time (Beijing Time) | March 27, 2026, 12:11 |
@@ -39,7 +39,7 @@ The Shiyan-33 satellite was developed under the leadership of the **Chinese Acad
 ## Recent Chinese Space Launches
 
 | Date | Mission | Launch Site |
-|------|---------|-------------|
+| ------ | --------- | ------------- |
 | March 13 | Long March 8A + Long March 2C (dual launches) | Hainan / Xichang |
 | March 15 | Long March 6 modified - Yaogan-50-02 | Taiyuan |
 | March 16 | Kuaizhou 11 - 8 satellites | Jiuquan |

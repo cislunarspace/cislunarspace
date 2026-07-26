@@ -35,6 +35,7 @@ In cislunar SSA architecture design, CAs are modeled as transfer spacecraft depa
 ### Transfer Trajectory Generation
 
 CAs generate transfer trajectories through multi-objective optimization, simultaneously optimizing:
+
 1. **Photometric detection threshold maximization**: Utilizing the architecture's optical detection capability
 2. **Control cost minimization**: Minimizing $\Delta v$ consumption
 
@@ -47,13 +48,14 @@ $$\ddot{\mathbf{x}} = \mathbf{f}(\mathbf{x})$$
 ### Boundary Conditions
 
 | Destination | Initial Orbit | Target Orbit |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | L1 | GEO | L1 halo orbit |
 | L2 | GEO | L2 halo orbit |
 
 ## Architecture-Agent Interaction
 
 The interaction between CAs and the SSA architecture manifests as a cost allocation problem:
+
 - Architecture design must consider coverage of CA transfer trajectories
 - CAs can adjust trajectories to adapt to the architecture's existing detection capabilities
 - The Pareto optimal frontier describes the trade-off between architecture cost and CA cost
@@ -61,14 +63,17 @@ The interaction between CAs and the SSA architecture manifests as a cost allocat
 ## Core Elements
 
 ### Mathematical Definition
+
 A CA is a transfer trajectory $\tau(t)$ satisfying CR3BP dynamics, minimizing a multi-objective functional under given boundary conditions:
 
 $$\min J(\tau) = [-\text{photometric detection}, \Delta v]$$
 
 ### Key Properties
+
 CA trajectory generation involves multi-objective optimization, requiring trade-offs between detection capability utilization and fuel consumption. The CA-architecture interaction forms a bi-level optimization problem.
 
 ### Application Scenarios
+
 The CA concept applies to high-value asset mission planning in cislunar space crewed missions, commercial lunar missions, and other missions dependent on SSA support.
 
 ## Related Concepts

@@ -62,7 +62,7 @@ True Anomaly 通过其 Jackal 平台提供高分辨率的太空领域态势感�
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Jackal | 自主轨道飞行器 | 太空域态势感知和接近操作卫星 |
 | GravityWorks | 地面运营中心 | 太空任务地面控制与数据分析 |
 | 轨道机动算法 | 软件/算法 | 自主接近和轨道协调控制算法 |
@@ -118,6 +118,6 @@ True Anomaly 在地月空间领域的关联主要体现在防御态势感知层�
 
 ## 参考文献
 
-- True Anomaly 官网: https://www.trueanomaly.space
+- True Anomaly 官网: <https://www.trueanomaly.space>
 - SpaceNews, "True Anomaly raises $100M, cuts workforce", April 2024.
 - Defense News, "Firefly Alpha to launch True Anomaly Jackal for Victus Haze", October 2024.

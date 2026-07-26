@@ -63,7 +63,7 @@ At each step, the next point is predicted along the tangent direction of the sol
 In orbit family continuation, commonly used continuation parameters include:
 
 | Continuation Parameter | Applicable Scenario | Typical Application |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Amplitude $A_z$ | Periodic orbit family exploration | Halo orbit families, Lyapunov orbit families |
 | Orbital period $T$ | DRO orbit family | Period range of distant retrograde orbit families |
 | Perilune altitude $h_p$ | Lunar orbit families | Low to high lunar orbit families |

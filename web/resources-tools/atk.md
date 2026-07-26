@@ -16,12 +16,12 @@ ATK（Aerospace Tool Kit，航天任务工具箱）是由国防科技大学空�
 ## 基本信息
 
 | 项目 | 内容 |
-|------|------|
+| ------ | ------ |
 | **开发者** | 国防科技大学空天科学学院 |
 | **许可证** | 商业软件（已服务 300 余家单位） |
 | **最新版本** | 4.0（2026 年 4 月 11 日发布） |
 | **平台** | 适配国产操作系统与国产 CPU |
-| **文档站点** |[https://www.osredm.com/atknudt/atk/about](https://www.osredm.com/atknudt/atk/about)|
+| **文档站点** | [https://www.osredm.com/atknudt/atk/about](https://www.osredm.com/atknudt/atk/about) |
 
 ## 主要功能
 

@@ -31,4 +31,4 @@ The Lunar Science Multimodal Professional LLM is jointly developed by the Instit
 
 ## Official Resources
 
-- Integrated in Digital Lunar Cloud Platform: http://moon.bao.ac.cn/
+- Integrated in Digital Lunar Cloud Platform: <http://moon.bao.ac.cn/>

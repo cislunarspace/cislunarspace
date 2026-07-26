@@ -48,7 +48,7 @@ LoPO possesses the following properties within the CR3BP framework:
 Using the Earth-Moon system as an example, the main parameter ranges for the LoPO orbit family are as follows (based on the dynamic catalog statistics by Guzzetti et al.):
 
 | Parameter | Range |
-|:---|:---|
+| :--- | :--- |
 | Jacobi Constant | 3.1805 ~ 3.5268 (mean 3.2230) |
 | Orbital Period | 0.86 ~ 11.50 days (mean approximately 3–5 days) |
 | Stability Index | Wide variation range |
@@ -60,7 +60,7 @@ The high Jacobi constant of LoPO indicates that transferring from LEO to LoPO re
 LoPO, DPO, and DRO are three important categories within the lunar-centered orbit family:
 
 | Feature | DRO | DPO | LoPO |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Motion direction | Retrograde | Prograde | Prograde |
 | Orbital altitude | Far from Moon | Moderate | Near Moon |
 | Period range | 5.87 ~ 27.38 days | 5.82 ~ 28.00 days | 0.86 ~ 11.50 days |
@@ -94,6 +94,7 @@ LoPO has the following applications in cislunar space missions:
 - **Orbit comparison and selection**: In the dynamic catalog framework proposed by Guzzetti et al., LoPO is an important member of the lunar-centered orbit family, providing near-lunar orbital options for mission design
 
 ## Related Concepts
+
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Distant Prograde Orbit (DPO)](/en/glossary/orbits/dpo/)
 - [Prograde](/en/glossary/orbits/prograde/)
@@ -101,6 +102,7 @@ LoPO has the following applications in cislunar space missions:
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. AIAA Space Conference and Exposition, 2016.

@@ -11,44 +11,44 @@
 //   1  one or more checks failed
 //   2  invocation error (missing dist, bad args)
 
-import fs from 'node:fs'
-import path from 'node:path'
-import crypto from 'node:crypto'
-import { fileURLToPath } from 'node:url'
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const webDir = path.join(__dirname, '..', '..')
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const webDir = path.join(__dirname, '..', '..');
 
 // ── CLI parsing ──────────────────────────────────────────────────────────────
 
 interface CliArgs {
-  dist?: string
-  compare?: { oldDir: string; newDir: string }
-  showHelp: boolean
+  dist?: string;
+  compare?: { oldDir: string; newDir: string };
+  showHelp: boolean;
 }
 
 function parseArgs(argv: string[]): CliArgs {
-  const args: CliArgs = { showHelp: false }
+  const args: CliArgs = { showHelp: false };
   for (let i = 0; i < argv.length; i++) {
-    const a = argv[i]
-    if (a === undefined) continue
+    const a = argv[i];
+    if (a === undefined) continue;
     if (a === '-h' || a === '--help') {
-      args.showHelp = true
+      args.showHelp = true;
     } else if (a === '--dist') {
-      const v = argv[++i]
-      if (!v) throw new Error('--dist requires a path')
-      args.dist = v
+      const v = argv[++i];
+      if (!v) throw new Error('--dist requires a path');
+      args.dist = v;
     } else if (a === '--compare') {
-      const oldDir = argv[++i]
-      const newDir = argv[++i]
-      if (!oldDir || !newDir) throw new Error('--compare requires <old> <new>')
-      args.compare = { oldDir, newDir }
+      const oldDir = argv[++i];
+      const newDir = argv[++i];
+      if (!oldDir || !newDir) throw new Error('--compare requires <old> <new>');
+      args.compare = { oldDir, newDir };
     } else {
-      throw new Error(`Unknown argument: ${a}`)
+      throw new Error(`Unknown argument: ${a}`);
     }
   }
-  return args
+  return args;
 }
 
 function printHelp(): void {
@@ -75,39 +75,39 @@ Checks (current-dist mode):
 
 Output: human-readable sections, per-check [OK]/[WARN]/[FAIL] tags, summary.
 Any [FAIL] exits 1. [WARN] is informational and never blocks.
-`)
+`);
 }
 
 // ── Result accumulator ──────────────────────────────────────────────────────
 
-type Severity = 'ok' | 'warn' | 'fail'
+type Severity = 'ok' | 'warn' | 'fail';
 interface CheckResult {
-  name: string
-  severity: Severity
-  summary: string
-  details: string[]
+  name: string;
+  severity: Severity;
+  summary: string;
+  details: string[];
 }
 interface Summary {
-  oks: number
-  warns: number
-  fails: number
-  total: number
+  oks: number;
+  warns: number;
+  fails: number;
+  total: number;
 }
 
-const results: CheckResult[] = []
+const results: CheckResult[] = [];
 
 function record(c: CheckResult): void {
-  results.push(c)
-  printCheck(c)
+  results.push(c);
+  printCheck(c);
 }
 
 function summarize(): Summary {
   return {
-    oks: results.filter(x => x.severity === 'ok').length,
-    warns: results.filter(x => x.severity === 'warn').length,
-    fails: results.filter(x => x.severity === 'fail').length,
+    oks: results.filter((x) => x.severity === 'ok').length,
+    warns: results.filter((x) => x.severity === 'warn').length,
+    fails: results.filter((x) => x.severity === 'fail').length,
     total: results.length,
-  }
+  };
 }
 
 const C = {
@@ -118,21 +118,21 @@ const C = {
   yellow: '\x1b[33m',
   cyan: '\x1b[36m',
   bold: '\x1b[1m',
-}
+};
 
 function tag(s: Severity): string {
-  const label = s === 'ok' ? 'OK  ' : s === 'warn' ? 'WARN' : 'FAIL'
-  const color = s === 'ok' ? C.green : s === 'warn' ? C.yellow : C.red
-  return `${color}[${label}]${C.reset}`
+  const label = s === 'ok' ? 'OK  ' : s === 'warn' ? 'WARN' : 'FAIL';
+  const color = s === 'ok' ? C.green : s === 'warn' ? C.yellow : C.red;
+  return `${color}[${label}]${C.reset}`;
 }
 
 function printCheck(c: CheckResult): void {
-  console.log(`${tag(c.severity)} ${C.bold}${c.name}${C.reset} — ${c.summary}`)
+  console.log(`${tag(c.severity)} ${C.bold}${c.name}${C.reset} — ${c.summary}`);
   for (const d of c.details.slice(0, 10)) {
-    console.log(`        ${C.dim}${d}${C.reset}`)
+    console.log(`        ${C.dim}${d}${C.reset}`);
   }
   if (c.details.length > 10) {
-    console.log(`        ${C.dim}… and ${c.details.length - 10} more${C.reset}`)
+    console.log(`        ${C.dim}… and ${c.details.length - 10} more${C.reset}`);
   }
 }
 
@@ -140,33 +140,33 @@ function printCheck(c: CheckResult): void {
 
 function exists(p: string): boolean {
   try {
-    fs.accessSync(p)
-    return true
+    fs.accessSync(p);
+    return true;
   } catch {
-    return false
+    return false;
   }
 }
 
 function listFiles(dir: string, exts: string[], out: string[] = []): string[] {
-  if (!exists(dir)) return out
+  if (!exists(dir)) return out;
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    const full = path.join(dir, e.name)
-    if (e.isDirectory()) listFiles(full, exts, out)
-    else if (exts.some(x => e.name.endsWith(x))) out.push(full)
+    const full = path.join(dir, e.name);
+    if (e.isDirectory()) listFiles(full, exts, out);
+    else if (exts.some((x) => e.name.endsWith(x))) out.push(full);
   }
-  return out
+  return out;
 }
 
 function readSafe(p: string): string {
   try {
-    return fs.readFileSync(p, 'utf8')
+    return fs.readFileSync(p, 'utf8');
   } catch {
-    return ''
+    return '';
   }
 }
 
 function hashFile(p: string): string {
-  return crypto.createHash('sha1').update(fs.readFileSync(p)).digest('hex')
+  return crypto.createHash('sha1').update(fs.readFileSync(p)).digest('hex');
 }
 
 // ── Route resolution (mirrors VuePress output conventions) ─────────────────
@@ -178,35 +178,35 @@ function hashFile(p: string): string {
  * The sidebar may contain either form. We resolve both.
  */
 function resolveRoute(distRoot: string, route: string): string | null {
-  const clean = route.split('#')[0]?.split('?')[0] ?? ''
-  if (!clean.startsWith('/')) return null
-  const rel = clean.replace(/^\//, '')
+  const clean = route.split('#')[0]?.split('?')[0] ?? '';
+  if (!clean.startsWith('/')) return null;
+  const rel = clean.replace(/^\//, '');
 
   if (rel.endsWith('.html') || /\.[a-z0-9]+$/i.test(rel)) {
-    const p = path.join(distRoot, rel)
-    return exists(p) ? p : null
+    const p = path.join(distRoot, rel);
+    return exists(p) ? p : null;
   }
-  const idx = path.join(distRoot, rel, 'index.html')
-  if (exists(idx)) return idx
-  const html = path.join(distRoot, rel + '.html')
-  if (exists(html)) return html
-  return null
+  const idx = path.join(distRoot, rel, 'index.html');
+  if (exists(idx)) return idx;
+  const html = path.join(distRoot, rel + '.html');
+  if (exists(html)) return html;
+  return null;
 }
 
 // ── HTML checks ─────────────────────────────────────────────────────────────
 
 function checkHtmlShape(html: string, file: string): string[] {
-  const issues: string[] = []
+  const issues: string[] = [];
   if (!/^<!doctype html>/i.test(html.trimStart())) {
-    issues.push(`missing <!doctype html>: ${file}`)
+    issues.push(`missing <!doctype html>: ${file}`);
   }
   if (!/<\/html>\s*$/i.test(html)) {
-    issues.push(`missing </html> close: ${file}`)
+    issues.push(`missing </html> close: ${file}`);
   }
   if (!/<title>[^<]+<\/title>/i.test(html)) {
-    issues.push(`missing <title>: ${file}`)
+    issues.push(`missing <title>: ${file}`);
   }
-  return issues
+  return issues;
 }
 
 function checkMetadata(html: string): { ok: boolean; missing: string[] } {
@@ -219,99 +219,99 @@ function checkMetadata(html: string): { ok: boolean; missing: string[] } {
     [/<meta\s+property=["']og:site_name["']/i, 'og:site_name'],
     [/<meta\s+name=["']twitter:card["']/i, 'twitter:card'],
     [/<meta\s+name=["']description["']/i, 'description'],
-  ]
-  const missing = required.filter(([re]) => !re.test(html)).map(([, k]) => k)
-  return { ok: missing.length === 0, missing }
+  ];
+  const missing = required.filter(([re]) => !re.test(html)).map(([, k]) => k);
+  return { ok: missing.length === 0, missing };
 }
 
 // ── Asset sanity (no broken local hrefs on sampled pages) ───────────────────
 
 function checkLocalRefs(html: string, file: string, distRoot: string): string[] {
-  const re = /(?:href|src)=["']([^"']+)["']/gi
-  const issues: string[] = []
-  const absFile = path.isAbsolute(file) ? file : path.join(distRoot, file)
-  const displayFile = path.relative(distRoot, absFile)
-  const fileDir = path.dirname(absFile)
-  let m: RegExpExecArray | null
-  let scanned = 0
+  const re = /(?:href|src)=["']([^"']+)["']/gi;
+  const issues: string[] = [];
+  const absFile = path.isAbsolute(file) ? file : path.join(distRoot, file);
+  const displayFile = path.relative(distRoot, absFile);
+  const fileDir = path.dirname(absFile);
+  let m: RegExpExecArray | null;
+  let scanned = 0;
   while ((m = re.exec(html)) !== null && scanned < 500) {
-    scanned++
-    const url = m[1]
-    if (!url) continue
-    if (/^(https?:|mailto:|tel:|data:|#|javascript:)/i.test(url)) continue
-    if (url.startsWith('//')) continue
-    const clean = url.split('#')[0]?.split('?')[0] ?? ''
-    if (!clean) continue
+    scanned++;
+    const url = m[1];
+    if (!url) continue;
+    if (/^(https?:|mailto:|tel:|data:|#|javascript:)/i.test(url)) continue;
+    if (url.startsWith('//')) continue;
+    const clean = url.split('#')[0]?.split('?')[0] ?? '';
+    if (!clean) continue;
     // Site-absolute paths (e.g. /assets/app-XXX.js) resolve against the dist root,
     // not the file's directory. The site is mounted at "/", so /assets/foo = dist/assets/foo.
     const abs = clean.startsWith('/')
       ? path.join(distRoot, clean.replace(/^\/+/, ''))
-      : path.resolve(fileDir, clean)
+      : path.resolve(fileDir, clean);
     if (!exists(abs)) {
-      issues.push(`${displayFile}: broken local ref ${url}`)
+      issues.push(`${displayFile}: broken local ref ${url}`);
     }
   }
-  return issues
+  return issues;
 }
 
 // ── Sidebar loading ─────────────────────────────────────────────────────────
 
 interface SidebarNode {
-  text?: string
-  link?: string
-  children?: SidebarNode[] | Array<[string, string]>
+  text?: string;
+  link?: string;
+  children?: SidebarNode[] | Array<[string, string]>;
 }
-type SidebarSection = Array<[string, string]> | SidebarNode[] | undefined
-type SidebarJson = Record<string, SidebarSection>
+type SidebarSection = Array<[string, string]> | SidebarNode[] | undefined;
+type SidebarJson = Record<string, SidebarSection>;
 
 function loadSidebar(distRoot: string): SidebarJson | null {
-  const p = path.join(path.dirname(distRoot), 'sidebar.auto.json')
-  if (!exists(p)) return null
+  const p = path.join(path.dirname(distRoot), 'sidebar.auto.json');
+  if (!exists(p)) return null;
   try {
-    return JSON.parse(fs.readFileSync(p, 'utf8')) as SidebarJson
+    return JSON.parse(fs.readFileSync(p, 'utf8')) as SidebarJson;
   } catch {
-    return null
+    return null;
   }
 }
 
 function flattenRoutes(sidebar: SidebarJson): string[] {
-  const out: string[] = []
+  const out: string[] = [];
   const visit = (node: SidebarNode | [string, string]): void => {
     if (Array.isArray(node)) {
       if (typeof node[0] === 'string') {
-        out.push(node[0])
-        return
+        out.push(node[0]);
+        return;
       }
     }
     if (node && typeof node === 'object' && !Array.isArray(node)) {
-      if (node.link) out.push(node.link)
+      if (node.link) out.push(node.link);
       if (node.children) {
         for (const c of node.children) {
           if (Array.isArray(c) && typeof c[0] === 'string') {
-            out.push(c[0])
+            out.push(c[0]);
           } else if (Array.isArray(c) && Array.isArray(c[0])) {
             for (const sub of c as unknown as Array<[string, string]>) {
-              if (typeof sub[0] === 'string') out.push(sub[0])
+              if (typeof sub[0] === 'string') out.push(sub[0]);
             }
           } else {
-            visit(c as SidebarNode)
+            visit(c as SidebarNode);
           }
         }
       }
     }
-  }
+  };
   for (const section of Object.values(sidebar)) {
     if (Array.isArray(section)) {
       for (const n of section) {
         if (Array.isArray(n) && typeof n[0] === 'string') {
-          out.push(n[0])
+          out.push(n[0]);
         } else {
-          visit(n as SidebarNode)
+          visit(n as SidebarNode);
         }
       }
     }
   }
-  return Array.from(new Set(out))
+  return Array.from(new Set(out));
 }
 
 // ── Main check: current dist ────────────────────────────────────────────────
@@ -321,11 +321,11 @@ function isOpaqueDistFile(rel: string): boolean {
   //   - baidu_verify_*.html : third-party SEO verification (no doctype)
   //   - anything under */figures/* : image-internal HTML (some image hosts
   //     ship .html siblings; VuePress/sync-figures passes them through)
-  return /^baidu_verify_[^/]+\.html$/.test(rel) || /\/(?:[^/]+\/)*figures\//.test(rel)
+  return /^baidu_verify_[^/]+\.html$/.test(rel) || /\/(?:[^/]+\/)*figures\//.test(rel);
 }
 
 function verifyCurrent(distRoot: string): void {
-  console.log(`\n${C.cyan}Verifying dist:${C.reset} ${distRoot}\n`)
+  console.log(`\n${C.cyan}Verifying dist:${C.reset} ${distRoot}\n`);
 
   if (!exists(distRoot)) {
     record({
@@ -333,47 +333,45 @@ function verifyCurrent(distRoot: string): void {
       severity: 'fail',
       summary: `dist directory not found at ${distRoot}`,
       details: ['run `npm run docs:build` first'],
-    })
-    return
+    });
+    return;
   }
-  record({ name: 'dist exists', severity: 'ok', summary: distRoot, details: [] })
+  record({ name: 'dist exists', severity: 'ok', summary: distRoot, details: [] });
 
   // 1. Route inventory
-  const sidebar = loadSidebar(distRoot)
+  const sidebar = loadSidebar(distRoot);
   if (!sidebar) {
     record({
       name: 'routes',
       severity: 'warn',
       summary: 'sidebar.auto.json not found; skipping route inventory',
       details: [],
-    })
+    });
   } else {
-    const routes = flattenRoutes(sidebar)
-    const missing = routes
-      .map(r => ({ r, p: resolveRoute(distRoot, r) }))
-      .filter(x => !x.p)
-    const ok = routes.length - missing.length
+    const routes = flattenRoutes(sidebar);
+    const missing = routes.map((r) => ({ r, p: resolveRoute(distRoot, r) })).filter((x) => !x.p);
+    const ok = routes.length - missing.length;
     record({
       name: 'routes',
       severity: missing.length === 0 ? 'ok' : 'fail',
       summary: `${ok}/${routes.length} sidebar routes resolve to a file`,
-      details: missing.slice(0, 20).map(x => `missing: ${x.r}`),
-    })
+      details: missing.slice(0, 20).map((x) => `missing: ${x.r}`),
+    });
   }
 
   // 2. HTML shape — scan every html except opaque non-VuePress files
-  const allHtml = listFiles(distRoot, ['.html'])
-  const htmlFiles = allHtml.filter(f => !isOpaqueDistFile(path.relative(distRoot, f)))
-  const shapeIssues: string[] = []
+  const allHtml = listFiles(distRoot, ['.html']);
+  const htmlFiles = allHtml.filter((f) => !isOpaqueDistFile(path.relative(distRoot, f)));
+  const shapeIssues: string[] = [];
   for (const f of htmlFiles) {
-    shapeIssues.push(...checkHtmlShape(readSafe(f), path.relative(distRoot, f)))
+    shapeIssues.push(...checkHtmlShape(readSafe(f), path.relative(distRoot, f)));
   }
   record({
     name: 'html shape',
     severity: shapeIssues.length === 0 ? 'ok' : 'fail',
     summary: `${htmlFiles.length} html files scanned (${allHtml.length - htmlFiles.length} opaque skipped), ${shapeIssues.length} issues`,
     details: shapeIssues,
-  })
+  });
 
   // 3. Metadata — sample a handful of representative pages (404 is exempt:
   // VuePress's 404 template intentionally omits og-meta.)
@@ -382,54 +380,54 @@ function verifyCurrent(distRoot: string): void {
     path.join(distRoot, 'en', 'index.html'),
     path.join(distRoot, 'space-news', 'index.html'),
     path.join(distRoot, 'en', 'space-news', 'index.html'),
-  ]
+  ];
   const zhArticles = listFiles(path.join(distRoot, 'space-news'), ['.html'])
-    .filter(f => /space-news\/\d{4}\/\d{2}\/[\d-]+-[^/]+\/index\.html$/.test(f))
+    .filter((f) => /space-news\/\d{4}\/\d{2}\/[\d-]+-[^/]+\/index\.html$/.test(f))
     .sort()
-    .reverse()
-  if (zhArticles[0]) metaSamples.push(zhArticles[0])
+    .reverse();
+  if (zhArticles[0]) metaSamples.push(zhArticles[0]);
 
-  const metaIssues: string[] = []
+  const metaIssues: string[] = [];
   for (const f of metaSamples) {
     if (!exists(f)) {
-      metaIssues.push(`sample missing: ${path.relative(distRoot, f)}`)
-      continue
+      metaIssues.push(`sample missing: ${path.relative(distRoot, f)}`);
+      continue;
     }
-    const m = checkMetadata(readSafe(f))
-    if (!m.ok) metaIssues.push(`${path.relative(distRoot, f)}: missing ${m.missing.join(', ')}`)
+    const m = checkMetadata(readSafe(f));
+    if (!m.ok) metaIssues.push(`${path.relative(distRoot, f)}: missing ${m.missing.join(', ')}`);
   }
   record({
     name: 'metadata',
     severity: metaIssues.length === 0 ? 'ok' : 'fail',
     summary: `${metaSamples.length} pages sampled, ${metaIssues.length} pages incomplete`,
     details: metaIssues,
-  })
+  });
 
   // 4. Hreflang — cross-link zh and en homes
-  const enHome = path.join(distRoot, 'en', 'index.html')
-  const zhHome = path.join(distRoot, 'index.html')
-  const hreflangIssues: string[] = []
+  const enHome = path.join(distRoot, 'en', 'index.html');
+  const zhHome = path.join(distRoot, 'index.html');
+  const hreflangIssues: string[] = [];
   if (exists(zhHome)) {
-    const html = readSafe(zhHome)
+    const html = readSafe(zhHome);
     if (!/hreflang=["']zh-CN["']/.test(html)) {
-      hreflangIssues.push('index.html: missing hreflang="zh-CN" self')
+      hreflangIssues.push('index.html: missing hreflang="zh-CN" self');
     }
     if (!/hreflang=["']en-US["']/.test(html)) {
-      hreflangIssues.push('index.html: missing hreflang="en-US" alternate')
+      hreflangIssues.push('index.html: missing hreflang="en-US" alternate');
     }
   } else {
-    hreflangIssues.push('index.html missing')
+    hreflangIssues.push('index.html missing');
   }
   if (exists(enHome)) {
-    const html = readSafe(enHome)
+    const html = readSafe(enHome);
     if (!/hreflang=["']en-US["']/.test(html)) {
-      hreflangIssues.push('en/index.html: missing hreflang="en-US" self')
+      hreflangIssues.push('en/index.html: missing hreflang="en-US" self');
     }
     if (!/hreflang=["']zh-CN["']/.test(html)) {
-      hreflangIssues.push('en/index.html: missing hreflang="zh-CN" alternate')
+      hreflangIssues.push('en/index.html: missing hreflang="zh-CN" alternate');
     }
   } else {
-    hreflangIssues.push('en/index.html missing')
+    hreflangIssues.push('en/index.html missing');
   }
   record({
     name: 'hreflang',
@@ -439,40 +437,40 @@ function verifyCurrent(distRoot: string): void {
         ? 'zh and en homes cross-link via hreflang'
         : 'hreflang wiring incomplete (SEO best-practice, not blocking)',
     details: hreflangIssues,
-  })
+  });
 
   // 5. Figures sync — every source figures/ file must exist in dist
   const sourceSpaces = [
     { src: path.join(webDir, 'space-news'), mirror: 'space-news' },
     { src: path.join(webDir, 'en', 'space-news'), mirror: path.join('en', 'space-news') },
-  ]
-  const figureMisses: string[] = []
-  let totalFigures = 0
+  ];
+  const figureMisses: string[] = [];
+  let totalFigures = 0;
   for (const { src: srcRoot, mirror } of sourceSpaces) {
-    if (!exists(srcRoot)) continue
-    const figuresDirs: string[] = []
+    if (!exists(srcRoot)) continue;
+    const figuresDirs: string[] = [];
     const walk = (dir: string): void => {
       for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-        const full = path.join(dir, e.name)
+        const full = path.join(dir, e.name);
         if (e.isDirectory()) {
-          if (e.name === 'figures') figuresDirs.push(full)
-          else walk(full)
+          if (e.name === 'figures') figuresDirs.push(full);
+          else walk(full);
         }
       }
-    }
-    walk(srcRoot)
+    };
+    walk(srcRoot);
     for (const fdir of figuresDirs) {
-      const rel = path.relative(srcRoot, fdir)
-      const distMirror = path.join(distRoot, mirror, rel)
+      const rel = path.relative(srcRoot, fdir);
+      const distMirror = path.join(distRoot, mirror, rel);
       for (const e of fs.readdirSync(fdir, { withFileTypes: true })) {
-        if (!e.isFile()) continue
-        totalFigures++
-        const srcFile = path.join(fdir, e.name)
-        const dstFile = path.join(distMirror, e.name)
+        if (!e.isFile()) continue;
+        totalFigures++;
+        const srcFile = path.join(fdir, e.name);
+        const dstFile = path.join(distMirror, e.name);
         if (!exists(dstFile)) {
           figureMisses.push(
             `missing: ${path.relative(distRoot, dstFile)} (source: ${path.relative(webDir, srcFile)})`,
-          )
+          );
         }
       }
     }
@@ -482,7 +480,7 @@ function verifyCurrent(distRoot: string): void {
     severity: figureMisses.length === 0 ? 'ok' : 'fail',
     summary: `${totalFigures - figureMisses.length}/${totalFigures} source figures present in dist`,
     details: figureMisses,
-  })
+  });
 
   // 6. Key pages — user-facing entry points
   const keyPages = [
@@ -501,23 +499,23 @@ function verifyCurrent(distRoot: string): void {
     '404.html',
     'sitemap.xml',
     'robots.txt',
-  ]
-  const missingKeys = keyPages.filter(rel => !exists(path.join(distRoot, rel)))
+  ];
+  const missingKeys = keyPages.filter((rel) => !exists(path.join(distRoot, rel)));
   record({
     name: 'key pages',
     severity: missingKeys.length === 0 ? 'ok' : 'fail',
     summary: `${keyPages.length - missingKeys.length}/${keyPages.length} key pages present`,
-    details: missingKeys.map(rel => `missing: ${rel}`),
-  })
+    details: missingKeys.map((rel) => `missing: ${rel}`),
+  });
 
   // 6b. Key page content — guard against route-content mismatch
   // (e.g. a parallel-render bug that writes the wrong HTML to the right path).
   // For each key page, the title must CONTAIN at least one expected keyword and
   // must NOT contain any banned keyword.
   const contentRules: ReadonlyArray<{
-    rel: string
-    mustInclude?: string[]
-    mustExclude?: string[]
+    rel: string;
+    mustInclude?: string[];
+    mustExclude?: string[];
   }> = [
     {
       rel: 'index.html',
@@ -563,7 +561,7 @@ function verifyCurrent(distRoot: string): void {
     },
     {
       rel: 'en/ai-chat.html',
-      mustInclude: ['AI Q&A', "Cislunar Space"],
+      mustInclude: ['AI Q&A', 'Cislunar Space'],
     },
     {
       rel: 'forum.html',
@@ -573,20 +571,22 @@ function verifyCurrent(distRoot: string): void {
       rel: 'en/forum.html',
       mustInclude: ['Community Forum'],
     },
-  ]
-  const contentIssues: string[] = []
+  ];
+  const contentIssues: string[] = [];
   for (const rule of contentRules) {
-    const fp = path.join(distRoot, rule.rel)
-    if (!exists(fp)) continue // already reported by key-pages
-    const title = (/<title>([^<]+)<\/title>/i.exec(readSafe(fp))?.[1] ?? '').trim()
-    const og = (/<meta\s+property=["']og:title["']\s+content=["']([^"']+)/i.exec(readSafe(fp))?.[1] ?? '').trim()
-    const haystack = `${title}\n${og}`
-    const includeMisses = (rule.mustInclude ?? []).filter(k => !haystack.includes(k))
-    const excludeHits = (rule.mustExclude ?? []).filter(k => haystack.includes(k))
+    const fp = path.join(distRoot, rule.rel);
+    if (!exists(fp)) continue; // already reported by key-pages
+    const title = (/<title>([^<]+)<\/title>/i.exec(readSafe(fp))?.[1] ?? '').trim();
+    const og = (
+      /<meta\s+property=["']og:title["']\s+content=["']([^"']+)/i.exec(readSafe(fp))?.[1] ?? ''
+    ).trim();
+    const haystack = `${title}\n${og}`;
+    const includeMisses = (rule.mustInclude ?? []).filter((k) => !haystack.includes(k));
+    const excludeHits = (rule.mustExclude ?? []).filter((k) => haystack.includes(k));
     if (includeMisses.length > 0 || excludeHits.length > 0) {
       contentIssues.push(
         `${rule.rel}: include misses [${includeMisses.join(', ')}], exclude hits [${excludeHits.join(', ')}] (title="${title}", og="${og}")`,
-      )
+      );
     }
   }
   record({
@@ -594,39 +594,39 @@ function verifyCurrent(distRoot: string): void {
     severity: contentIssues.length === 0 ? 'ok' : 'fail',
     summary: `${contentRules.length - contentIssues.length}/${contentRules.length} key pages have expected content`,
     details: contentIssues,
-  })
+  });
 
   // 7. Asset sanity — homepage + 2 articles
   const assetSamples: string[] = [
     path.join(distRoot, 'index.html'),
     path.join(distRoot, 'en', 'index.html'),
     ...zhArticles.slice(0, 2),
-  ]
-  const assetIssues: string[] = []
+  ];
+  const assetIssues: string[] = [];
   for (const f of assetSamples) {
-    if (!exists(f)) continue
-    assetIssues.push(...checkLocalRefs(readSafe(f), path.relative(distRoot, f), distRoot))
+    if (!exists(f)) continue;
+    assetIssues.push(...checkLocalRefs(readSafe(f), path.relative(distRoot, f), distRoot));
   }
   record({
     name: 'asset sanity',
     severity: assetIssues.length === 0 ? 'ok' : 'fail',
     summary: `${assetSamples.length} pages scanned for broken local hrefs/src`,
     details: assetIssues,
-  })
+  });
 
   // 8. JSON endpoints — runtime configs the AI chat loads
-  const jsonEndpoints = ['ai-chat-config.json', 'ai-chat-context.json', 'ai-chat-index.json']
-  const jsonIssues: string[] = []
+  const jsonEndpoints = ['ai-chat-config.json', 'ai-chat-context.json', 'ai-chat-index.json'];
+  const jsonIssues: string[] = [];
   for (const rel of jsonEndpoints) {
-    const p = path.join(distRoot, rel)
+    const p = path.join(distRoot, rel);
     if (!exists(p)) {
-      jsonIssues.push(`missing: ${rel}`)
-      continue
+      jsonIssues.push(`missing: ${rel}`);
+      continue;
     }
     try {
-      JSON.parse(fs.readFileSync(p, 'utf8'))
+      JSON.parse(fs.readFileSync(p, 'utf8'));
     } catch (e) {
-      jsonIssues.push(`${rel}: invalid JSON (${(e as Error).message})`)
+      jsonIssues.push(`${rel}: invalid JSON (${(e as Error).message})`);
     }
   }
   record({
@@ -634,60 +634,60 @@ function verifyCurrent(distRoot: string): void {
     severity: jsonIssues.length === 0 ? 'ok' : 'fail',
     summary: `${jsonEndpoints.length - jsonIssues.length}/${jsonEndpoints.length} runtime JSONs parse`,
     details: jsonIssues,
-  })
+  });
 }
 
 // ── Compare mode: two dists ─────────────────────────────────────────────────
 
 interface CompareReport {
-  added: string[]
-  removed: string[]
-  changed: string[]
-  unchanged: number
+  added: string[];
+  removed: string[];
+  changed: string[];
+  unchanged: number;
 }
 
 function compareDists(oldDir: string, newDir: string): CompareReport {
   const oldFiles = new Set(
-    listFiles(oldDir, ['.html', '.css', '.js', '.json', '.xml', '.txt']).map(f =>
+    listFiles(oldDir, ['.html', '.css', '.js', '.json', '.xml', '.txt']).map((f) =>
       path.relative(oldDir, f),
     ),
-  )
+  );
   const newFiles = new Set(
-    listFiles(newDir, ['.html', '.css', '.js', '.json', '.xml', '.txt']).map(f =>
+    listFiles(newDir, ['.html', '.css', '.js', '.json', '.xml', '.txt']).map((f) =>
       path.relative(newDir, f),
     ),
-  )
-  const added: string[] = []
-  const removed: string[] = []
-  const changed: string[] = []
-  let unchanged = 0
+  );
+  const added: string[] = [];
+  const removed: string[] = [];
+  const changed: string[] = [];
+  let unchanged = 0;
   for (const rel of newFiles) {
     if (!oldFiles.has(rel)) {
-      added.push(rel)
-      continue
+      added.push(rel);
+      continue;
     }
     if (hashFile(path.join(oldDir, rel)) !== hashFile(path.join(newDir, rel))) {
-      changed.push(rel)
+      changed.push(rel);
     } else {
-      unchanged++
+      unchanged++;
     }
   }
   for (const rel of oldFiles) {
-    if (!newFiles.has(rel)) removed.push(rel)
+    if (!newFiles.has(rel)) removed.push(rel);
   }
-  return { added, removed, changed, unchanged }
+  return { added, removed, changed, unchanged };
 }
 
 function reportCompare(oldDir: string, newDir: string): void {
-  console.log(`\n${C.cyan}Comparing:${C.reset} ${oldDir}  →  ${newDir}\n`)
+  console.log(`\n${C.cyan}Comparing:${C.reset} ${oldDir}  →  ${newDir}\n`);
   if (!exists(oldDir)) {
     record({
       name: 'compare',
       severity: 'fail',
       summary: `old dir not found: ${oldDir}`,
       details: [],
-    })
-    return
+    });
+    return;
   }
   if (!exists(newDir)) {
     record({
@@ -695,52 +695,50 @@ function reportCompare(oldDir: string, newDir: string): void {
       severity: 'fail',
       summary: `new dir not found: ${newDir}`,
       details: [],
-    })
-    return
+    });
+    return;
   }
-  const r = compareDists(oldDir, newDir)
+  const r = compareDists(oldDir, newDir);
   record({
     name: 'compare',
     severity: 'ok',
     summary: `unchanged=${r.unchanged}, changed=${r.changed.length}, added=${r.added.length}, removed=${r.removed.length}`,
     details: [
-      ...r.changed.slice(0, 5).map(s => `changed: ${s}`),
-      ...r.added.slice(0, 5).map(s => `added:   ${s}`),
-      ...r.removed.slice(0, 5).map(s => `removed: ${s}`),
+      ...r.changed.slice(0, 5).map((s) => `changed: ${s}`),
+      ...r.added.slice(0, 5).map((s) => `added:   ${s}`),
+      ...r.removed.slice(0, 5).map((s) => `removed: ${s}`),
     ],
-  })
+  });
 }
 
 // ── Entry ──────────────────────────────────────────────────────────────────
 
 function main(): void {
-  let args: CliArgs
+  let args: CliArgs;
   try {
-    args = parseArgs(process.argv.slice(2))
+    args = parseArgs(process.argv.slice(2));
   } catch (e) {
-    console.error(`error: ${(e as Error).message}`)
-    process.exit(2)
+    console.error(`error: ${(e as Error).message}`);
+    process.exit(2);
   }
 
   if (args.showHelp) {
-    printHelp()
-    return
+    printHelp();
+    return;
   }
 
   if (args.compare) {
-    reportCompare(args.compare.oldDir, args.compare.newDir)
+    reportCompare(args.compare.oldDir, args.compare.newDir);
   } else {
-    const distRoot = args.dist
-      ? path.resolve(args.dist)
-      : path.join(webDir, '.vuepress', 'dist')
-    verifyCurrent(distRoot)
+    const distRoot = args.dist ? path.resolve(args.dist) : path.join(webDir, '.vuepress', 'dist');
+    verifyCurrent(distRoot);
   }
 
-  const s = summarize()
+  const s = summarize();
   console.log(
     `\n${C.bold}summary${C.reset}: ${C.green}${s.oks} ok${C.reset}, ${C.yellow}${s.warns} warn${C.reset}, ${C.red}${s.fails} fail${C.reset}`,
-  )
-  if (s.fails > 0) process.exit(1)
+  );
+  if (s.fails > 0) process.exit(1);
 }
 
-main()
+main();

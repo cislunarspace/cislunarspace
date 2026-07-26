@@ -50,7 +50,7 @@ DE evolves a population of candidate solutions through three operations:
 ## Applications in Orbital Mechanics
 
 | Application | Description |
-|:---|:---|
+| :--- | :--- |
 | Initial value search | Finding initial conditions for DRO computation in ephemeris models |
 | Orbit keeping optimization | Optimizing control parameters for station-keeping maneuvers |
 | Transfer orbit design | Searching for low-energy transfer trajectories |

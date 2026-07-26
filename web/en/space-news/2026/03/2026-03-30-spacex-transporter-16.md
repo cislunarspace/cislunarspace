@@ -32,7 +32,7 @@ The launch window opens at **6:20 AM EDT** (**10:20 UTC**).
 ## Mission Details
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Launch Vehicle | Falcon 9 |
 | Launch Site | Vandenberg SFB (SLC-4E) |
 | Launch Time | March 30, 6:20 AM EDT (~10:20 UTC) |

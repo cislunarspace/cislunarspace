@@ -120,7 +120,7 @@ The convergence of the EKF is influenced by the following factors:
 ### Advantages
 
 | Advantage | Description |
-|:---|:---|
+| :--- | :--- |
 | High computational efficiency | Jacobian matrix computation and matrix operations have computational complexity of $O(n^2)$ |
 | Engineering maturity | Well-established theory, rich code libraries, widely used in aerospace engineering |
 | Strong real-time capability | Suitable for online estimation with low storage requirements |
@@ -128,7 +128,7 @@ The convergence of the EKF is influenced by the following factors:
 ### Disadvantages
 
 | Disadvantage | Description |
-|:---|:---|
+| :--- | :--- |
 | Linearization error | First-order approximation may introduce significant errors for strongly nonlinear systems |
 | Convergence uncertainty | Global convergence is not guaranteed; divergence may occur |
 | Jacobian computation | Deriving the Jacobian matrix for complex systems is tedious and error-prone |

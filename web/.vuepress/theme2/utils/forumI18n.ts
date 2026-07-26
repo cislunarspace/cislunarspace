@@ -1,10 +1,11 @@
-export type ForumLang = 'zh' | 'en'
+export type ForumLang = 'zh' | 'en';
 
 const messages: Record<ForumLang, Record<string, string>> = {
   zh: {
     forumTitle: '社区论坛',
     forumEyebrow: '交流 · 问答 · 分享',
-    forumIntro: '欢迎就地月空间、轨道与任务等话题发帖讨论。以下为访客可读的本地演示区，数据仅存于当前浏览器。',
+    forumIntro:
+      '欢迎就地月空间、轨道与任务等话题发帖讨论。以下为访客可读的本地演示区，数据仅存于当前浏览器。',
     sessionLabel: '当前身份',
     login: '登录',
     register: '注册',
@@ -99,8 +100,8 @@ const messages: Record<ForumLang, Record<string, string>> = {
     closeModal: 'Close',
     forumAriaLabel: 'Community forum main area',
   },
-}
+};
 
 export function forumT(lang: ForumLang, key: string): string {
-  return messages[lang][key] ?? key
+  return messages[lang][key] ?? key;
 }

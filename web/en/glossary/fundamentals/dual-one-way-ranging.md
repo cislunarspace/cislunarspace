@@ -38,7 +38,7 @@ Dual One-Way Ranging (DOWR) is a precision measurement technique that performs s
 
 A DOWR system configuration:
 
-```
+```text
 Spaceborne PHM → TFDP → K-band Transponder → (Uplink 23 GHz) → Ground Station
                                        ↓
 Ground Station → (Downlink 26.5 GHz) → Spaceborne TFDP → PHM
@@ -51,6 +51,7 @@ Key processing steps:
 3. **Differential combination**: The two direction measurements are subtracted
 
 Key advantages of differential processing:
+
 - **Common error cancellation**: Common terms like satellite-ground clock offset and system delay are eliminated in the difference
 - **Signal enhancement**: Subtraction effectively doubles the gravitational redshift signal
 - **Environmental interference suppression**: Effects like atmospheric refraction and ionospheric delay are significantly reduced after differencing
@@ -60,11 +61,12 @@ Key advantages of differential processing:
 In the DRO-A satellite gravitational redshift experiment, DOWR enables satellite-ground time-frequency comparison:
 
 | Measurement Parameter | Precision |
-|:---|:---|
+| :--- | :--- |
 | Time comparison precision | >1 ns |
 | Frequency comparison stability (MDEV) | $10^{-14}$ @2000 s |
 
 DOWR is ideal for gravitational redshift measurements because:
+
 1. Gravitational redshift has opposite signs on uplink and downlink
 2. Differential extraction yields pure gravitational redshift signal
 3. Compared to triple-link schemes, DOWR reduces required links by one, lowering system complexity
@@ -74,7 +76,7 @@ DOWR is ideal for gravitational redshift measurements because:
 K-band (23/26.5 GHz) was chosen over lower frequencies because:
 
 | Factor | K-band Advantage |
-|:---|:---|
+| :--- | :--- |
 | Ionospheric delay | K-band is insensitive to ionosphere; TEC variations have minimal impact |
 | Atmospheric attenuation | Higher atmospheric transmittance at K-band |
 | Antenna size | Higher frequency allows smaller antenna aperture |

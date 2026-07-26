@@ -56,7 +56,7 @@ where $\lambda_{max}$ is the eigenvalue with the largest magnitude.
 Stability indices are used throughout periodic orbit analysis:
 
 | Application | How Stability Index is Used |
-|:---|:---|
+| :--- | :--- |
 | Orbit family characterization | Plotting $\nu$ or $L$ vs. orbit parameter reveals stable/unstable regions |
 | Bifurcation detection | $\nu = 1$ or $L = 1$ indicates bifurcation points |
 | Station-keeping planning | Higher instability requires more frequent or larger corrections |

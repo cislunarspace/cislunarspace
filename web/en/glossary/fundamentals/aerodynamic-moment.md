@@ -59,6 +59,7 @@ $$M_d = m_d^\omega \cdot q S_M l_k \cdot \frac{\omega l_k}{v}$$
 where $m_d^\omega$ is the damping moment coefficient derivative and $v$ is the flight velocity.
 
 Characteristics of the damping moment:
+
 - Direction is always opposite to the angular velocity
 - Magnitude is proportional to the angular velocity
 - Acts automatically during atmospheric flight without active control

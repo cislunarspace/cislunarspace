@@ -45,7 +45,7 @@ Compared to lifting reentry, the equations lack the lift term $Y/(mv)$, and the 
 ### Ballistic Characteristics
 
 | Characteristic | Description |
-|:---|:---|
+| :--- | :--- |
 | Large impact point dispersion | No lift control during reentry; deviations cannot be corrected |
 | Narrow reentry corridor | The reentry angle must be strictly limited to the allowable range |
 | High peak load factor | No lift buffer; deceleration is severe |
@@ -54,7 +54,7 @@ Compared to lifting reentry, the equations lack the lift term $Y/(mv)$, and the 
 ### Comparison with Lifting Reentry
 
 | Comparison Item | Zero-Angle-of-Attack Reentry | Lifting Reentry |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Lift | $L = 0$ | $L > 0$ |
 | Trajectory control | None | Adjustable via lift |
 | Peak load factor | Higher | Lower |
@@ -64,6 +64,7 @@ Compared to lifting reentry, the equations lack the lift term $Y/(mv)$, and the 
 ### Passive Phase Trajectory Differences
 
 The passive-phase trajectory considering atmospheric drag differs from the ideal elliptical trajectory in the following ways:
+
 - Velocities at corresponding points are unequal: $v_{\text{ascending}}(r) > v_{\text{descending}}(r)$
 - The descending arc is steeper than the ascending arc: $|\Theta_{\text{descending}}(r)| > |\Theta_{\text{ascending}}(r)|$
 - The minimum velocity point is not at the trajectory apex but on the descending arc

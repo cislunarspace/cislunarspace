@@ -50,7 +50,7 @@ $$H_2 = \lambda q_1 p_1 + \frac{\omega_p}{2}(q_2^2 + p_2^2) + \frac{\omega_\nu}{
 The three eigenvalues correspond to the following motion patterns:
 
 | Eigenvalue | Symbol | Motion Character |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $\lambda$ | Square root of $\eta_1 < 0$ | Hyperbolic: $q_1$ grows exponentially, $p_1$ decays exponentially |
 | $\omega_p$ | Square root of $\eta_2 > 0$ | Center: elliptical motion in the $XY$ plane |
 | $\omega_\nu$ | Square root of $\eta_3 > 0$ | Center: oscillatory motion in the $Z$ direction |
@@ -107,7 +107,7 @@ $$W_u = \{[q_1, p_1, I_2, \theta_2, I_3, \theta_3] \mid H_{CM} = C, \ p_1 = 0\}$
 Qiao et al. (2025) used central manifold theory to establish a six-dimensional characteristic parameter system for the neighborhood of Earth-Moon collinear libration points:
 
 | Parameter | Description | Physical Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $q_1$ | Hyperbolic direction coordinate | Degree of entry along the unstable manifold |
 | $p_1$ | Hyperbolic direction momentum | Degree of entry along the stable manifold |
 | $I_2$ | Central manifold action 1 | Amplitude of motion in the $XY$ plane |

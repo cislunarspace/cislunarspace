@@ -63,7 +63,7 @@ To display all orbit families (particularly the Halo orbit family at the torus c
 On the $\theta_3 = \pi/2$ section of Earth-Moon collinear libration points, different orbit families exhibit distinctly different geometric features:
 
 | Orbit Family | Section Signature |
-|:---|:---|
+| :--- | :--- |
 | **Lyapunov orbit** | Intersection curve with $I_3 = 0$ |
 | **Vertical Lyapunov orbit** | Intersection curve with $I_2 = 0$ |
 | **Lissajous orbit** | Trajectory fills the entire available region as $\theta_3$ varies over $[0, 2\pi)$ |

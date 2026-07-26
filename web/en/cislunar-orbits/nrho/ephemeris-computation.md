@@ -16,7 +16,7 @@ permalink: /en/cislunar-orbits/nrho/ephemeris-computation/
 >
 > Editor: [CislunarSpace](https://cislunarspace.cn)
 >
-> Source: https://cislunarspace.cn
+> Source: <https://cislunarspace.cn>
 
 # Multi-Revolution NRHO Ephemeris Computation
 
@@ -68,7 +68,7 @@ Each revolution is divided into $N$ segments: the first and last patch points ar
 Using JPL DE430 ephemeris with an initial epoch of January 1, 2025, the main results are:
 
 | Orbit Family | Valid Range | Min Segments $N$ | Achievable Revolutions |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | L1 NRHO | Perilune radius < 12,000 km | 2 (recommend 4) | 30+ |
 | L2 NRHO | Period < 8.8 days | 2 (recommend 4) | 30+ |
 

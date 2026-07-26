@@ -79,7 +79,7 @@ The J2000 Geocentric Equatorial Coordinate System is the reference basis for man
 ## Differences from Other Inertial Coordinate Systems
 
 | Coordinate System | Epoch | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | J2000 | 2000.0 | Currently most widely used inertial system |
 | GCRF | Current instant | Geocentric Inertial Reference Frame, similar to J2000 but rotates with true vernal equinox |
 | MOD | 1950.0 | Epoch inertial system used in past orbit calculations |

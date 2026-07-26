@@ -35,7 +35,7 @@ Navigation error refers to the deviation between the determined orbital state (t
 ## Error Sources
 
 | Error Type | Description |
-|:---|:---|
+| :--- | :--- |
 | Measurement noise | Random errors in range, range-rate, and angle observations |
 | Model error | Orbit prediction deviations due to imprecise dynamical models |
 | Time synchronization error | Errors due to inaccurate observation time tagging |

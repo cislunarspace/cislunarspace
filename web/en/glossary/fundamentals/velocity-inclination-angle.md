@@ -39,7 +39,7 @@ The velocity inclination angle ($\theta$) is the angle between the velocity vect
 The direction of the velocity vector in space is defined by two angles:
 
 | Angle | Symbol | Definition | Described Motion |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Velocity inclination angle | $\theta$ | Angle between the velocity vector and the horizontal plane | Ascent/descent in the longitudinal plane |
 | Flight path yaw angle | $\sigma$ | Angle of the velocity vector deviating from the firing plane | Lateral deviation |
 
@@ -64,6 +64,7 @@ $$A = A_0 + \sigma$$
 ### Cutoff-Point Velocity Inclination Angle
 
 The cutoff-point velocity inclination angle $\theta_k^*$ is a key parameter in trajectory design:
+
 - For ballistic missiles, $\theta_k^*$ determines the passive-phase range
 - For launch vehicles, $\theta_k^*$ determines the insertion orbit inclination
 - The optimal velocity inclination angle varies with range: for short ranges it approaches 45°, and for long ranges it gradually decreases

@@ -17,8 +17,8 @@ pykep is an interplanetary trajectory design and orbital mechanics scientific li
 
 - **License**: MPL-2.0 (Mozilla Public License 2.0)
 - **Source**: ESA
-- **Website/Docs**: https://esa.github.io/pykep/
-- **GitHub**: https://github.com/esa/pykep
+- **Website/Docs**: <https://esa.github.io/pykep/>
+- **GitHub**: <https://github.com/esa/pykep>
 - **Languages**: C++23 + Python (3.11 – 3.14)
 
 ## Key Features
@@ -35,5 +35,5 @@ pykep is an interplanetary trajectory design and orbital mechanics scientific li
 
 ## Official Resources
 
-- Website/Docs: https://esa.github.io/pykep/
-- GitHub: https://github.com/esa/pykep
+- Website/Docs: <https://esa.github.io/pykep/>
+- GitHub: <https://github.com/esa/pykep>

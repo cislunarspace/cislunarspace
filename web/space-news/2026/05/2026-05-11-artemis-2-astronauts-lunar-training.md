@@ -19,4 +19,5 @@ image: ./figures/2026-05-11-artemis-2-astronauts-lunar-training/hero.jpg
 **摘要：** NASA月球科学家团队训练 Artemis 2 航天员使用特殊视觉观测技术，为登月任务做准备。
 
 ## 信息来源（原文）
+
 - [How NASA lunar scientists taught Artemis 2 astronauts to see the moon with different eyes](https://www.space.com/space-exploration/artemis/how-nasa-lunar-scientists-taught-artemis-2-astronauts-to-see-the-moon-with-different-eyes)

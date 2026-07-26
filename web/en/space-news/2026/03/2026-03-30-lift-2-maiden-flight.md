@@ -24,7 +24,7 @@ wechatShare:
 The Lift-2, developed by CAS Space (中科宇航), is China's first Common Booster Core (CBC) configuration launch vehicle:
 
 | Parameter | Value |
-|-----------|-------|
+| ----------- | ------- |
 | Total length | 53 m |
 | Core stage diameter | 3.35 m |
 | Fairing diameter | 4.2 m |
@@ -37,6 +37,7 @@ The CBC architecture's key advantage is modularity — the core stage and booste
 ## Maiden Flight Payload
 
 Three satellites were carried on this inaugural flight:
+
 - **Xīnzhēngchéng-01**
 - **Xīnzhēngchéng-02** (Light Boat prototype spacecraft)
 - **Tiānshì-01**
@@ -48,6 +49,7 @@ The maiden flight directly served national strategic projects, representing the 
 Lift-2 Chief Commander Yang Haoliang stated that this maiden flight signals a key milestone in China's next-generation space cargo transportation system. Future plans include 100 km-class recovery tests, with mature recovery capability supporting the national satellite internet constellation (StarNet).
 
 CAS Space's product roadmap:
+
 - **Lift-2 Heavy**: Maiden flight planned for 2028
 - **Lift-3**: Maiden flight planned for 2030
 - **Lihong-2** (reusable vehicle): Maiden flight planned for late 2026 – Q1 2027

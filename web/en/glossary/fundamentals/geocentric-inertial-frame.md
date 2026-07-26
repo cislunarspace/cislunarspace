@@ -39,7 +39,7 @@ The Geocentric Inertial Frame (ECI) is a reference coordinate system with its or
 The most widely used ECI is the J2000.0 Geocentric Inertial Frame, defined as:
 
 | Element | Definition |
-|:---|:---|
+| :--- | :--- |
 | Origin | Earth's center of mass |
 | $X_I Y_I$ plane | J2000.0 mean celestial equator |
 | $X_I$ axis | Directed from Earth's center of mass toward the J2000.0 mean vernal equinox |
@@ -50,7 +50,7 @@ The most widely used ECI is the J2000.0 Geocentric Inertial Frame, defined as:
 ### Distinction from Earth-Centered Earth-Fixed Frame
 
 | Characteristic | ECI | ECEF |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Coordinate axes | Fixed directions in inertial space | Rotate with the Earth |
 | Inertial frame? | Yes (approximately) | No (non-inertial) |
 | Typical applications | Orbital mechanics, ballistic computation | Ground positioning, map projection |
@@ -75,4 +75,4 @@ The geocentric inertial frame is the fundamental reference frame for orbital mec
 
 - 郑伟, 安雪滢, 周祥, 何睿智. 空天飞行力学[M]. 国防科技大学, 2026.
 - 任萱, 肖峰. 人造地球卫星轨道力学[M]. 国防科技大学出版社.
-- IAU SOFA. IERS Conventions (2010)[S].
+- IAU SOFA. IERS Conventions [2010](S).

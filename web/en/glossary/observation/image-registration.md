@@ -52,7 +52,7 @@ The first step of image registration is to compute an astrometric solution for e
 To achieve subpixel alignment precision, interpolation algorithms are needed to resample pixel values. Common interpolation methods include:
 
 | Method | Characteristics |
-|:---|:---|
+| :--- | :--- |
 | Linear interpolation | Fast computation, moderate precision |
 | Cubic polynomial interpolation | Higher precision, moderate computational cost |
 | Cubic spline interpolation | Highest precision, largest computational cost |

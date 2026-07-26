@@ -69,12 +69,14 @@ This conference only offers online registration; there will be no on-site regist
 ### Sign-in Arrangement
 
 **Sign-in Time:**
+
 - April 22, 14:00-20:00
 - April 23-24, 8:00-20:00
 
 **Sign-in Location:** Chengdu Poly Huishengfang International Hotel (No. 99 Jirui 2nd Road, Wuhou District, Chengdu)
 
 **Sign-in Instructions:**
+
 - After successful payment, sign in on-site with your ID card to receive a real-name representative badge
 - Chinese Society of Astronautics student members must also present their student ID cards on-site
 
@@ -96,8 +98,9 @@ Recommended conference hotels are detailed on the conference website; please mak
 ## Information Inquiry Channels
 
 Please follow:
+
 - Chinese Society of Astronautics official website and WeChat official account
-- China Space Conference official website (https://hy.htgjjl.com/csc2026)
+- China Space Conference official website (<https://hy.htgjjl.com/csc2026>)
 
 Stay updated on the latest conference developments.
 

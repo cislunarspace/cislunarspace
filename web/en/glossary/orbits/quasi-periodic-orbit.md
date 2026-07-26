@@ -35,7 +35,7 @@ A quasi-periodic orbit is an orbit that traces out a bounded trajectory without 
 ## Characteristics
 
 | Feature | Periodic Orbit (CR3BP) | Quasi-Periodic Orbit (Ephemeris) |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Trajectory | Exactly closed | Never exactly closes |
 | Motion | Single frequency | Multiple incommensurate frequencies |
 | Geometry | 1D curve | Fills a 2D torus surface |

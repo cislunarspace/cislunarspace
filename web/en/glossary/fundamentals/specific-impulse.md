@@ -37,7 +37,7 @@ Specific impulse ($I_{SP}$) is the core metric for evaluating rocket engine perf
 ### Two Dimensional Definitions
 
 | Definition | Formula | Unit | Description |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Weight-specific impulse | $I_{SP} = \frac{P}{\dot{m} g_0}$ | seconds (s) | Most commonly used in engineering |
 | Mass-specific impulse | $I_{SP} = \frac{P}{\dot{m}}$ | m/s | Equivalent to effective exhaust velocity |
 
@@ -50,14 +50,14 @@ Substituting the thrust formula $P = \dot{m} u_e' - S_e p_H$ into the specific i
 $$I_{SP} = \frac{u_e'}{g_0} - \frac{S_e p_H}{\dot{m} g_0}$$
 
 | Condition | Specific Impulse |
-|:---|:---|
+| :--- | :--- |
 | Vacuum specific impulse | $I_{SP,v} = \frac{u_e'}{g_0}$ (maximum value) |
 | Sea-level specific impulse | $I_{SP,0} = \frac{u_e'}{g_0} - \frac{S_e p_0}{\dot{m} g_0}$ |
 
 ### Typical Engine Specific Impulse
 
 | Engine Type | Propellant | Vacuum Specific Impulse (s) |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Liquid engine | LH$_2$ + LOX | 430--460 |
 | Liquid engine | UDMH + N$_2$O$_4$ | 300--340 |
 | Solid engine | Composite propellant | 240--290 |
@@ -81,5 +81,5 @@ Specific impulse is the primary parameter for rocket engine selection and missio
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
 - Sutton G P, Biblarz O. Rocket Propulsion Elements[M]. 9th ed. Wiley, 2016.

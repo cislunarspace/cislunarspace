@@ -28,7 +28,7 @@ permalink: /glossary/programs/artemis/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 概述
 
@@ -56,7 +56,6 @@ permalink: /glossary/programs/artemis/
 
 阿尔忒弥斯（Artemis）计划是 NASA 主导的载人航天项目，旨在将宇航员送上月球并建立长期探索机制，通过国际合作和商业伙伴关系实现可持续的月球探测与开发。
 
-
 ## 核心要素
 
 ### 项目概况
@@ -80,11 +79,9 @@ permalink: /glossary/programs/artemis/
 - **星舰 HLS**：SpaceX 研制的月球表面着陆器
 - **SLS 火箭**：NASA 研制的重型运载火箭
 
-
 ## 应用价值
 
 阿尔忒弥斯计划是当前规模最大的地月空间探索项目，对地月空间导航技术提出了迫切需求。该计划推动了 LunaNet、Moonlight 等月球导航体系建设，催生了核热推进、在轨服务等关键技术突破，是地月空间基础设施建设的核心驱动力。
-
 
 ## 参考文献
 

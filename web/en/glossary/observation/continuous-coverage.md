@@ -55,10 +55,12 @@ where $l_1$ is the distance from the observation satellite to the Moon's center,
 For DRO orbits designed for situational awareness missions:
 
 **Observing DRO-M:**
+
 - CR3BP model: maximum CP = 99.1%, minimum CP = 98.1%
 - Ephemeris model: maximum CP = 99.1%, minimum CP = 98.1%
 
 **Observing South/North family NRHO:**
+
 - Maximum CP = 100%, minimum CP = 98.5%
 
 ## Related Concepts

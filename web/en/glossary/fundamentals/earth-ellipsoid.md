@@ -39,7 +39,7 @@ The Earth ellipsoid is the oblate spheroid that most closely approximates the sh
 The Earth ellipsoid is determined by two fundamental parameters:
 
 | Parameter | Symbol | WGS-84 Value |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Semi-major axis (equatorial radius) | $a$ | 6,378,137.0 m |
 | Flattening | $f$ | 1/298.257223563 |
 | Semi-minor axis (polar radius) | $b$ | 6,356,752.314 m |
@@ -52,7 +52,7 @@ WGS-84 (World Geodetic System 1984) is currently the most widely used reference 
 The position of a point on the Earth's surface can be described using two coordinate systems:
 
 | Coordinate System | Coordinates | Definition |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Geodetic system | Geodetic latitude $B$, geodetic longitude $L$, geodetic height $H$ | Latitude is the angle between the ellipsoid normal and the equatorial plane |
 | Geocentric system | Geocentric latitude $\varphi$, geocentric longitude $\lambda$, geocentric distance $r$ | Latitude is the angle between the geocentric line and the equatorial plane |
 

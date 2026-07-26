@@ -36,7 +36,7 @@
 
   /* ---- 控件色 ---- */
   --vp-c-control: rgba(37, 99, 235, 0.06);
-  --vp-c-control-hover: rgba(37, 99, 235, 0.10);
+  --vp-c-control-hover: rgba(37, 99, 235, 0.1);
   --vp-c-control-disabled: #e2e8f0;
 
   /* ---- VuePress 2 过渡 ---- */
@@ -63,7 +63,7 @@
 
   /* ---- 边框 ---- */
   --c-border: rgba(0, 0, 0, 0.06);
-  --c-border-dark: rgba(0, 0, 0, 0.10);
+  --c-border-dark: rgba(0, 0, 0, 0.1);
 
   /* ---- 强调色 ---- */
   --c-accent: #2563eb;
@@ -74,8 +74,8 @@
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 4px rgba(0, 0, 0, 0.02);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.03);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
-  --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.10), 0 8px 20px rgba(0, 0, 0, 0.05);
-  --shadow-glow: 0 0 24px rgba(37, 99, 235, 0.20);
+  --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 24px rgba(37, 99, 235, 0.2);
 
   /* ---- 缓动函数 ---- */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -107,8 +107,9 @@
   --radius-pill: 9999px;
 
   /* ---- 字体 ---- */
-  --font-family: system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB',
-    'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  --font-family:
+    system-ui, -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC',
+    sans-serif;
 
   /* ---- Space News 深空表面（深浅主题共用，恒为深色）---- */
   --sn-space-gradient: linear-gradient(155deg, #0f172a 0%, #17203a 55%, #1e3a8a 130%);
@@ -116,8 +117,9 @@
 }
 
 /* 英文区域：西文优先字体栈 */
-[lang="en-US"] {
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+[lang='en-US'] {
+  --font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* ============================================
@@ -176,7 +178,7 @@
 
   /* ---- 边框 ---- */
   --c-border: rgba(255, 255, 255, 0.06);
-  --c-border-dark: rgba(255, 255, 255, 0.10);
+  --c-border-dark: rgba(255, 255, 255, 0.1);
 
   /* ---- 强调色 ---- */
   --c-accent: #60a5fa;

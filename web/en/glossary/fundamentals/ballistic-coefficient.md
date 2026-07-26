@@ -45,7 +45,7 @@ $$\frac{\mathrm{d}v}{\mathrm{d}t} = -B\rho_0 e^{-\beta h} v^2$$
 The ballistic coefficient comprehensively reflects the vehicle's aerodynamic shape and mass characteristics:
 
 | Parameter | Effect |
-|:---|:---|
+| :--- | :--- |
 | Higher drag coefficient $C_x$ | Larger ballistic coefficient, stronger aerodynamic deceleration |
 | Larger reference area $S_M$ | Larger ballistic coefficient, stronger aerodynamic deceleration |
 | Greater mass $m$ | Smaller ballistic coefficient, weaker aerodynamic deceleration |

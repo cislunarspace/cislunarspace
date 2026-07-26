@@ -28,7 +28,7 @@ permalink: /glossary/navigation/lunanet/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 背景
 
@@ -37,6 +37,7 @@ permalink: /glossary/navigation/lunanet/
 ## 目标
 
 LunaNet 旨在提供：
+
 - 月球表面高精度定位服务
 - 通信与导航一体化服务
 - 支持载人登月和无人探测任务

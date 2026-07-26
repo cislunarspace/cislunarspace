@@ -56,6 +56,7 @@ Klonowski (2025) used K-Means and K-Medoids clustering methods to classify Paret
 ### Feature Extraction
 
 Extract feature vectors from architecture configurations:
+
 - Number of observation satellites
 - Orbital family distribution
 - Coverage performance metrics
@@ -70,15 +71,17 @@ Extract feature vectors from architecture configurations:
 ## Core Elements
 
 ### Mathematical Definition
+
 K-Means partitions dataset $\mathcal{X} = \{\mathbf{x}_1, ..., \mathbf{x}_N\}$ into $K$ disjoint clusters $\mathcal{C} = \{\mathcal{C}_1, ..., \mathcal{C}_K\}$, minimizing the SSE objective function.
 
 ### Key Properties
+
 K-Means time complexity is $O(I \cdot N \cdot K \cdot d)$, where $I$ is number of iterations, $N$ is number of data points, $K$ is number of clusters, and $d$ is dimensionality. The algorithm assumes spherical clusters of similar size.
 
 ### Comparison with K-Medoids
 
 | Characteristic | K-Means | K-Medoids |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Centroid type | Cluster mean (may not be data point) | Actual data point in cluster |
 | Noise robustness | Low | High |
 | Computational complexity | Low | Higher |

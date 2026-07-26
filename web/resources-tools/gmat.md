@@ -17,7 +17,7 @@ GMAT（General Mission Analysis Tool）是 NASA 和工业界合作开发的开�
 
 - **许可证**：NASA Open Source Agreement
 - **来源**：NASA AMMOS
-- **官方文档**：https://gmat.sourceforge.net/
+- **官方文档**：<https://gmat.sourceforge.net/>
 
 ## 主要功能
 
@@ -34,6 +34,6 @@ GMAT（General Mission Analysis Tool）是 NASA 和工业界合作开发的开�
 
 ## 官方资源
 
-- 官网：https://gmat.sourceforge.net/
-- GitHub：https://github.com/NASA-AMMOS/GMAT
+- 官网：<https://gmat.sourceforge.net/>
+- GitHub：<https://github.com/NASA-AMMOS/GMAT>
 - 最新版本：R2026a

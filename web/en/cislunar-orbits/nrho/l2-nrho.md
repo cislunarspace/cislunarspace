@@ -27,7 +27,7 @@ The geometry of the L2 NRHO is similar to that of the L1 NRHO: the spacecraft os
 ## Comparison with L1 NRHO
 
 | Property | L1 NRHO | L2 NRHO |
-|----------|----------|----------|
+| ---------- | ---------- | ---------- |
 | Distance from Earth | ~326,400 km | ~448,800 km |
 | One-way Communication Delay | ~1.1 s | ~1.5 s |
 | Lunar Farside Coverage | Moderate | Excellent (located on farside) |
@@ -43,6 +43,7 @@ L2 NRHO also exhibits a dipole frozen inclination. Its stability analysis requir
 ## Design Constraints
 
 The design constraints for L2 NRHO are similar to those for L1 NRHO, with additional considerations:
+
 1. **Solar Interference**: The L2 direction is more susceptible to solar activity, and the effect of solar radiation pressure on orbit maintenance requires dedicated modeling
 2. **Communication Geometry**: L2 NRHO provides better coverage of the lunar farside than L1, but Earth visibility may be obstructed by the Moon during certain orbital phases
 3. **Transfer Corridors**: Transfer corridor design from L2 NRHO to the lunar south/north poles must account for lunar surface shadow cycles
@@ -50,6 +51,7 @@ The design constraints for L2 NRHO are similar to those for L1 NRHO, with additi
 ## Lunar Farside Communication Applications
 
 The primary application value of L2 NRHO lies in its ability to provide continuous communication coverage for lunar farside missions. Since L2 itself is in the farside direction of the Moon, spacecraft on L2 NRHO can:
+
 - Have continuous visibility of the lunar farside (except for a few rare near-lunar shadow zones)
 - Provide data relay for lunar farside landers such as Chang'e-4/6
 - Support continuous observation of lunar surface resources and communication relay

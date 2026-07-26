@@ -43,7 +43,7 @@ where $k_s$ is a coefficient related to the vehicle geometry, $\rho$ is the atmo
 The stagnation heat flux is related to the following factors:
 
 | Parameter | Effect |
-|:---|:---|
+| :--- | :--- |
 | Atmospheric density $\rho$ | Heat flux is proportional to $\sqrt{\rho}$; lower altitude means higher density |
 | Flight velocity $v$ | Heat flux is proportional to $v^3$; velocity has the most significant effect |
 | Geometry coefficient $k_s$ | Depends on the vehicle nose shape and radius |
@@ -67,7 +67,7 @@ For zero-angle-of-attack reentry, the maximum heat flux occurs at specific altit
 ### Thermal Protection Design
 
 | Protection Method | Principle | Typical Application |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Ablative protection | Material ablation absorbs heat | Warheads, return capsules |
 | Radiation protection | High-temperature surface radiates heat | Space shuttles |
 | Insulation protection | Insulation layers block heat conduction | Various spacecraft |

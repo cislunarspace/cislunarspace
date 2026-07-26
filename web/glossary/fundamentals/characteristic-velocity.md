@@ -45,7 +45,7 @@ $$\frac{\Delta m}{m_0} = 1 - \exp\left(-\frac{v_{ch}}{I_{sp} g_0}\right)$$
 ### 典型轨道转移的特征速度
 
 | 转移方案 | 特征速度 |
-|:---|:---|
+| :--- | :--- |
 | 霍曼转移 | $v_{ch} = \Delta v_1 + \Delta v_2$ |
 | 双椭圆转移 | $v_{ch} = \Delta v_1 + \Delta v_2 + \Delta v_3$ |
 | 无限双椭圆转移 | $v_{ch} = (\sqrt{2}-1)\left(\sqrt{\mu/r_1} + \sqrt{\mu/r_2}\right)$ |

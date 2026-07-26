@@ -63,7 +63,7 @@ where $I_{\text{sp}}$ is the specific impulse, $g_0$ is the standard gravitation
 ### Typical Impulsive Maneuvers in Orbital Transfers
 
 | Maneuver Type | Description | Typical $\Delta v$ Magnitude |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **Hohmann Transfer** | Two-impulse coplanar circular orbit transfer | 3.2 km/s (LEO to GEO) |
 | **Bi-elliptic Transfer** | Three-impulse transfer, suitable for large radius ratios | Can be less than Hohmann |
 | **Plane Change** | Impulse to change orbital inclination | Depends on inclination change |
@@ -94,7 +94,7 @@ Lambert's problem is the fundamental tool for impulsive transfer design. By scan
 ### Comparison with Finite-Thrust Maneuvers
 
 | Feature | Impulsive Maneuver | Finite-Thrust Maneuver |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Thrust model | Infinite thrust, zero burn duration | Finite thrust, finite burn duration |
 | Position change | Position unchanged before and after maneuver | Position continuously changes during burn |
 | Computational complexity | Low (orbital mechanics only) | High (requires thrust vector control) |

@@ -48,7 +48,7 @@ DPO 在 CR3BP 框架下具有以下特性：
 以地月系统为例，DPO 轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
 
 | 参数 | 范围 |
-|:---|:---|
+| :--- | :--- |
 | Jacobi 常数 | 2.9941 ~ 3.1827（均值 3.1150） |
 | 轨道周期 | 5.82 ~ 28.00 天（均值 13.10 天） |
 | 稳定性指数 | 1.000 ~ 1342.8（均值 302.43） |
@@ -60,9 +60,9 @@ DPO 的轨道周期和稳定性指数分布较广，这意味着在轨道族内�
 DPO 和 DRO 是月心轨道家族中两个重要的对比对象：
 
 | 特征 | DRO（远距离逆行轨道） | DPO（远距离顺行轨道） |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 运动方向 | 逆行（顺时针） | 顺行（逆时针） |
-| 稳定性 |  predominantly 稳定 | 变化大，部分不稳定 |
+| 稳定性 | predominantly 稳定 | 变化大，部分不稳定 |
 | 典型应用 | 长期存储、态势感知 | 低能量转移、月球停泊 |
 | 周期范围 | 5.87 ~ 27.38 天 | 5.82 ~ 28.00 天 |
 | 能量水平 | 较低（JC 1.44 ~ 3.02） | 较高（JC 2.99 ~ 3.18） |
@@ -93,6 +93,7 @@ DPO 在地月空间任务中具有以下应用价值：
 - **动力学结构研究**：DPO 作为月心轨道家族的重要成员，是理解地月空间月心区域动力学结构的关键
 
 ## 相关概念
+
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [低顺行轨道（LoPO）](/glossary/orbits/lopo/)
 - [顺行（Prograde）](/glossary/orbits/prograde/)
@@ -100,6 +101,7 @@ DPO 在地月空间任务中具有以下应用价值：
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Mingotti G, Topputo F, Bernelli-Zazzera F. Exploiting distant periodic orbits and their invariant manifolds to design novel space trajectories to the Moon[C]. AAS/AIAA Space Flight Mechanics Meeting, 2010.
 - Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.

@@ -13,7 +13,7 @@ wechatShare:
 # 2026 · Archive
 
 | Month | Link |
-|-------|------|
+| ------- | ------ |
 | February | [February 2026](./02/) |
 | March | [March 2026](./03/) |
 | April | [April 2026](./04/) |

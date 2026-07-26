@@ -79,6 +79,7 @@ LGA technology has widespread applications in cislunar missions:
 Wei et al. (2026) studied LEO-to-DRO transfer schemes based on powered lunar flyby, finding that through properly designed three-burn transfers (LEO de-orbit + perilune maneuver + DRO insertion), efficient orbit insertion can be achieved within shorter transfer times.
 
 ## Related Concepts
+
 - [Powered Lunar Flyby (PLF)](/en/glossary/other/powered-lunar-flyby/)
 - [Weak Stability Boundary (WSB)](/en/glossary/other/weak-stability-boundary/)
 - [Transfer Orbit](/en/glossary/orbits/transfer-orbit/)

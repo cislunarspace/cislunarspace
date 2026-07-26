@@ -1,15 +1,15 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'fs';
+import path from 'path';
 
 export interface WriteArtifactOptions {
   /** Whether to create missing parent directories. Default: true. */
-  ensureDir?: boolean
+  ensureDir?: boolean;
   /** JSON.stringify space argument. Default: 2. */
-  jsonSpace?: string | number | undefined
+  jsonSpace?: string | number | undefined;
   /** Whether to append a trailing newline. Default: true. */
-  trailingNewline?: boolean
+  trailingNewline?: boolean;
   /** Optional log callback. */
-  log?: (message: string) => void
+  log?: (message: string) => void;
 }
 
 /**
@@ -23,18 +23,13 @@ export function writeArtifact(
   data: unknown,
   options: WriteArtifactOptions = {},
 ): void {
-  const {
-    ensureDir = true,
-    jsonSpace = 2,
-    trailingNewline = true,
-    log,
-  } = options
+  const { ensureDir = true, jsonSpace = 2, trailingNewline = true, log } = options;
 
   if (ensureDir) {
-    fs.mkdirSync(path.dirname(filePath), { recursive: true })
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
   }
 
-  const json = JSON.stringify(data, null, jsonSpace)
-  fs.writeFileSync(filePath, trailingNewline ? `${json}\n` : json)
-  log?.(`Generated ${path.basename(filePath)}`)
+  const json = JSON.stringify(data, null, jsonSpace);
+  fs.writeFileSync(filePath, trailingNewline ? `${json}\n` : json);
+  log?.(`Generated ${path.basename(filePath)}`);
 }

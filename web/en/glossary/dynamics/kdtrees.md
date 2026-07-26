@@ -43,6 +43,7 @@ class KDNode:
 ### Construction Algorithm
 
 KD-Tree construction process:
+
 1. Select splitting dimension: usually the dimension with maximum variance
 2. Select splitting point: the median point on that dimension
 3. Recursively partition data points into left and right parts, recursively build subtrees
@@ -65,19 +66,22 @@ Klonowski (2025) used KD-Tree for efficient neighbor node queries of detectable 
 ### Efficiency Advantages
 
 | Method | Nearest Neighbor Query Complexity | $N=10^6$ Time |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Brute force search | $O(N)$ | ~1s |
 | KD-Tree | $O(\log N)$ | ~0.001s |
 
 ## Core Elements
 
 ### Mathematical Definition
+
 KD-Tree recursively partitions $k$-dimensional space $\mathbb{R}^k$ into hyper-rectangular regions, with each node corresponding to a hyper-rectangle partition plane.
 
 ### Key Properties
+
 KD-Tree query efficiency depends on data distribution. In high-dimensional spaces ($k > 20$), KD-Tree efficiency degrades, known as the "curse of dimensionality."
 
 ### Application Scenarios
+
 KD-Tree is suitable for point cloud processing, $k$ nearest neighbor algorithms in machine learning, collision detection, trajectory planning, and other fields.
 
 ## Related Concepts

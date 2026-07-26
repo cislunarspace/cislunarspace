@@ -29,6 +29,7 @@ permalink: /glossary/dynamics/cr3bp-lt/
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 > 校对记录：
+>
 > 1. 2026年4月29日：纠低推力增强圆形限制性三体问题词条的参考文献引用错误和公式错误，删去了啰嗦的内容。
 
 ## 定义
@@ -62,7 +63,7 @@ $$
 CR3BP-LT 的特征归一化参数：
 
 | 参数 | 符号 | 地月系统值 |
-|:---|:---:|:---|
+| :--- | :---: | :--- |
 | 质量比 | $\mu$ | 0.01215 |
 | 特征长度 | $L^*$ | $3.844 \times 10^8$ m |
 | 特征时间 | $T^*$ | 375,132 s |
@@ -71,7 +72,7 @@ CR3BP-LT 的特征归一化参数：
 ## CR3BP-LT 与标准 CR3BP 的区别
 
 | 特性 | 标准 CR3BP | CR3BP-LT |
-|:---|:---:|:---:|
+| :--- | :---: | :---: |
 | 能量守恒 | Jacobi 常数守恒 | 连续低推力打破守恒 |
 | 动力学 | 可积（保守系统） | 非守恒、高度非线性 |
 | 轨道特性 | 周期/拟周期轨道 | 转移轨迹可自由设计 |
@@ -97,7 +98,6 @@ CR3BP-LT 模型是深度强化学习方法（如 A2PPO）用于低推力轨迹�
 - [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
 - [直接配点法（Direct Collocation）](/glossary/dynamics/direct-collocation/)
 - [低推力转移 MDP](/glossary/dynamics/lt-transfer-mdp/)
-
 
 ## 参考文献
 

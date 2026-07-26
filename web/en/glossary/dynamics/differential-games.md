@@ -46,7 +46,7 @@ Differential games is a branch of operations research and control theory that st
 Differential games can be classified according to different dimensions:
 
 | Classification Dimension | Types |
-|:---|:---|
+| :--- | :--- |
 | Information Structure | Complete information, Incomplete information |
 | Stochasticity | Deterministic, Stochastic |
 | Number of Players | Two-player, Multi-player |

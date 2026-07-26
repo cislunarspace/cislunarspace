@@ -23,6 +23,7 @@ tags:
 The Zhuque-2E (ZQ-2E) is a two-stage extended liquid oxygen/methane launch vehicle developed by Landspace. The May 14 mission demonstrated the rocket's enhanced capacity for large-payload missions.
 
 Key specifications:
+
 - Length: ~55.9m, Diameter: 3.35m, Fairing max diameter: 4.2m
 - Liftoff mass: ~267 tons (payload excluded), Thrust: 338 tons
 - First stage: 4x TQ-12A LOX/methane engines, 828kN sea-level thrust each (+108kN upgrade)
@@ -33,6 +34,7 @@ The 2.8-ton payload was designed for large constellation deployment, targeting a
 ## Technical Improvements
 
 The Zhuque-2E incorporates systematic design iterations over previous missions:
+
 - Extended first stage with increased propellant capacity and mass reduction
 - Engine thrust upgrade (+108kN per TQ-12A) with thrust self-correction capability
 - Overall performance optimization enabling multi-orbit mission adaptability

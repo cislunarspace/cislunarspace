@@ -37,7 +37,7 @@ GPS Aided GEO Augmented Navigation (GAGAN) is a Satellite-Based Augmentation Sys
 ## Technical Specifications
 
 | Parameter | Value |
-|------|------|
+| ------ | ------ |
 | GPS raw accuracy | 10--15 meters |
 | GAGAN augmented accuracy | Approximately 1 meter |
 | Coverage area | Indian mainland and surrounding regions |

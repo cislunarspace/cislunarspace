@@ -26,7 +26,7 @@ permalink: /glossary/other/weak-stability-boundary/
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本站地址：https://cislunarspace.cn
+> 本站地址：<https://cislunarspace.cn>
 
 ## 定义
 
@@ -89,7 +89,6 @@ WSB 转移在以下场景中具有重要应用价值：
 - [月球借力（LGA）](/glossary/other/lunar-gravity-assist/)
 - [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
 - [平动点（Libration Point）](/glossary/dynamics/libration-point/)
-
 
 ## 参考文献
 

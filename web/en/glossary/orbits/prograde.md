@@ -77,10 +77,12 @@ Prograde motion characteristics have fundamental significance in orbital mechani
 - **Orbit-keeping strategies**: Prograde and retrograde orbit maintenance strategies differ; the different Coriolis force directions directly affect orbit control strategy design
 
 ## Related Concepts
+
 - [Retrograde](/en/glossary/orbits/retrograde/)
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 
 ## References
+
 - Wei Z et al. Research on lunar gravity-assist injection into cislunar distant retrograde orbit families[J]. 2026.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. 2016.

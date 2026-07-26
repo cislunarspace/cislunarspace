@@ -53,6 +53,7 @@ $$
 $$
 
 where $\lambda \in [0,1]$ controls the bias-variance tradeoff:
+
 - $\lambda = 0$: Degenerates to one-step TD (low variance, high bias)
 - $\lambda = 1$: Similar to $n$-step returns (low bias, high variance)
 
@@ -69,7 +70,7 @@ where $d_t$ is the termination signal ($d_t=1$ indicates episode termination at 
 In the A2PPO algorithm, GAE is used for advantage estimation with the following hyperparameter settings:
 
 | Parameter | Value | Meaning |
-|:---|:---:|:---|
+| :--- | :---: | :--- |
 | $\gamma$ | 0.99 | Discount factor |
 | $\lambda$ (GAE-$\lambda$) | 0.915 | GAE parameter |
 

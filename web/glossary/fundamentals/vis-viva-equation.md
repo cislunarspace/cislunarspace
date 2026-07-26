@@ -45,7 +45,7 @@ $$v^2 = \mu_E\left(\frac{2}{r} - \frac{1}{a}\right)$$
 $$\varepsilon = \frac{1}{2}v^2 - \frac{\mu_E}{r} = -\frac{\mu_E}{2a}$$
 
 | 轨道类型 | 半长轴 | 比机械能 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 圆/椭圆轨道 | $a > 0$ | $\varepsilon < 0$ |
 | 抛物线轨道 | $a \to \infty$ | $\varepsilon = 0$ |
 | 双曲线轨道 | $a < 0$ | $\varepsilon > 0$ |
@@ -53,7 +53,7 @@ $$\varepsilon = \frac{1}{2}v^2 - \frac{\mu_E}{r} = -\frac{\mu_E}{2a}$$
 ### 特征速度
 
 | 速度 | 公式 | 含义 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 第一宇宙速度 | $v_I = \sqrt{\mu_E/R_E} = 7.9 \, \text{km/s}$ | 地表圆轨道速度 |
 | 第二宇宙速度 | $v_{II} = \sqrt{2\mu_E/R_E} = 11.2 \, \text{km/s}$ | 地表逃逸速度 |
 | 逃逸速度 | $v_{\text{esc}} = \sqrt{2\mu_E/r}$ | 任意高度的逃逸速度 |

@@ -41,7 +41,7 @@ $$\left\{\begin{array}{l} \dot{a} = \frac{2}{na}\frac{\partial R}{\partial M} \\
 ### Symmetry Properties
 
 | Orbital Element Group | Rate of Change Depends On |
-|:---|:---|
+| :--- | :--- |
 | First three: $\dot{a}$, $\dot{e}$, $\dot{i}$ | Only $\partial R/\partial\Omega$, $\partial R/\partial\omega$, $\partial R/\partial M$ |
 | Last three: $\dot{\Omega}$, $\dot{\omega}$, $\dot{M}$ | Only $\partial R/\partial a$, $\partial R/\partial e$, $\partial R/\partial i$ |
 
@@ -50,7 +50,7 @@ The rate of change of any group of orbital elements depends only on the partial 
 ### Comparison with Gaussian Equations
 
 | Property | Gaussian | Lagrangian |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Applicable perturbation forces | Arbitrary (conservative + non-conservative) | Conservative only |
 | Input quantities | Three perturbation acceleration components | Partial derivatives of disturbing function |
 | Physical insight | Directly reflects force action | Reveals relationship between disturbing function and orbital changes |

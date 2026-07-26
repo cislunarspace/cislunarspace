@@ -55,7 +55,7 @@ $$\begin{bmatrix} \dot{\varphi}_{pr}^{(k+1)} \\ A_0^{(k+1)} \end{bmatrix} = \beg
 The accuracy of partial derivatives significantly affects convergence. Common methods:
 
 | Method | Characteristics | Computational Cost |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Finite difference | Simple to implement, sensitive to step size selection | Low (1 extra trajectory per parameter) |
 | Richardson extrapolation | High accuracy, insensitive to step size | High (4 extra trajectories per parameter) |
 
@@ -66,7 +66,7 @@ $$\frac{\partial f}{\partial x_i} \approx \frac{f(x_i + \delta x_i) - f(x_i)}{\d
 ### Convergence Properties
 
 | Property | Description |
-|:---|:---|
+| :--- | :--- |
 | Fast convergence | Local superlinear convergence |
 | Sensitive to initial guess | Poor initial guess may cause divergence |
 | Finds a feasible solution | Only locates a solution satisfying the constraints, not necessarily the optimal one |
@@ -81,5 +81,5 @@ Newton's iteration method is the core numerical method for powered-phase traject
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.

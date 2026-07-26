@@ -78,12 +78,14 @@ permalink: /glossary/orbits/ballistic-capture/
 - **多目标任务**：节省的推进剂可用于增加科学载荷或延长任务寿命
 
 ## 相关概念
+
 - [弱稳定边界（Weak Stability Boundary）](/glossary/other/weak-stability-boundary/)
 - [月球引力辅助（Lunar Gravity Assist）](/glossary/other/lunar-gravity-assist/)
 - [低能量转移轨道（Low-Energy Transfer Orbit）](/glossary/orbits/low-energy-transfer/)
 - [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
 
 ## 参考文献
+
 - Belbruno E A. Capture Dynamics and Chaotic Motions in Celestial Mechanics[M]. Princeton University Press, 2004.
 - Belbruno E, Miller J. Sun-perturbed Earth-to-Moon transfers with ballistic capture[J]. Journal of Guidance, Control, and Dynamics, 1993, 16(4): 770-775.
 - Campagnola S, Boutonnet A, Schoenmaekers J, et al. Tisserand-leveraging transfers[J]. Journal of Guidance, Control, and Dynamics, 2014.

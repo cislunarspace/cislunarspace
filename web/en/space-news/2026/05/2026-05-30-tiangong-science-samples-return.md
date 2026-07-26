@@ -24,7 +24,7 @@ At 04:05 on May 30, life science samples were first transported to the Chinese A
 The 10th batch of scientific experiment samples returning aboard Shenzhou 22 covers 23 scientific experiment projects across three major categories:
 
 | Category | Count | Representative Samples | Total Weight |
-|----------|-------|------------------------|--------------|
+| ---------- | ------- | ------------------------ | -------------- |
 | Life Sciences | 9 types | Artificial embryos, brain organoids | ~41.14 kg total |
 | Materials Science | 12 types | Novel titanium alloys, high-strength steels, relaxor ferroelectric single crystals | (included in total) |
 | Combustion Science | 2 types | Combustor, soot collection plates | (included in total) |

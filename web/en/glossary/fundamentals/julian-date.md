@@ -53,7 +53,7 @@ The MJD epoch starts at midnight Universal Time on November 17, 1858, yielding s
 ### Common Epochs
 
 | Epoch | Julian Date | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | J2000.0 | 2451545.0 | January 1, 2000, 12:00 TDB |
 | J1950.0 | 2433282.423 | January 0.923, 1950 |
 | B1950.0 | 2433282.423 | Besselian epoch |

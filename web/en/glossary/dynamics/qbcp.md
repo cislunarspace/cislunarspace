@@ -58,7 +58,7 @@ where $\theta = \omega_s t$, and $\omega_s$ is the normalized solar motion frequ
 The QBCP occupies an intermediate position in the dynamics model precision hierarchy between CRTBP and the ephemeris model:
 
 | Model | Precision | Self-Consistency | Characteristics |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | CRTBP | Low | Self-consistent | Solar perturbation and lunar eccentricity ignored |
 | BCP | Medium | Non-self-consistent | Solar influence introduced but two three-body models independent |
 | **QBCP** | **Medium-High** | **Self-consistent** | **Modified BCP to satisfy Newton's laws for three massive bodies** |

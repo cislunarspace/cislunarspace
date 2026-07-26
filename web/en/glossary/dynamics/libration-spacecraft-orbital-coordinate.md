@@ -37,7 +37,7 @@ The Libration Point Spacecraft Orbital Coordinate System ($\mathcal{O}_o - X_o Y
 ## Coordinate Axis Definition
 
 | Axis | Direction | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **$Z_0$ axis** | From spacecraft center of mass toward central body center of mass | Radial direction |
 | **$X_0$ axis** | In the instantaneous orbital plane, perpendicular to $Z_0$ axis, pointing in velocity direction | Tangential direction |
 | **$Y_0$ axis** | Parallel to the normal vector of the instantaneous orbital plane | Forms right-handed system with $X_0$, $Z_0$ |
@@ -77,7 +77,7 @@ The state vector in the orbital coordinate system facilitates establishing corre
 ## Relationship with Other Coordinate Systems
 
 | Coordinate System | Origin | Purpose |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **Orbital Coordinate System** | Spacecraft center of mass | Describes relative orbital motion |
 | **Body Coordinate System** | Spacecraft center of mass | Describes attitude and sensor installation |
 | **GRC/LRC** | Earth center / L2 point | Describes absolute position and velocity |

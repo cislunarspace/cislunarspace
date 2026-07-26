@@ -19,6 +19,7 @@ The U.S. Federal Aviation Administration (FAA) announced on April 21 that it has
 On April 19, New Glenn lifted off from Launch Complex 36 at Cape Canaveral, Florida, carrying the BlueBird Block 2 FM2 mission. While the rocket lifted off successfully, **one of the two second stage engines malfunctioned** during flight, causing the payload to fail to reach its intended orbit. This marked New Glenn's **first launch failure**.
 
 Prior New Glenn flight history:
+
 - **NG-1 (January 2025)**: Successful orbit insertion, booster recovery failed
 - **NG-2 (January 6, 2026)**: Successful orbit insertion, booster recovery successful (first reuse)
 

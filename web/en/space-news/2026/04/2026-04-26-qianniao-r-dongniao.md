@@ -49,7 +49,7 @@ Nayuta Space has set its sights on achieving the Qianniao-R maiden flight in H1 
 ## Comparison with Other Reusable Rockets in China
 
 | Company | Rocket Model | Recovery Technology Route |
-|---------|-------------|--------------------------|
+| --------- | ------------- | -------------------------- |
 | CASC | Long March 10B (CZ-10B) | Sea-based net recovery (vertical landing) |
 | LandSpace | Zhuque-3 | Vertical landing (legs) |
 | Nayuta Space | Qianniao-R | Aerodynamic deceleration + horizontal landing |

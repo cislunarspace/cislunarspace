@@ -63,7 +63,7 @@ The ideal threshold should maximally remove stellar signals while preserving the
 
 In optical surveys of cislunar moving objects, background star elimination is a critical linking step in the image processing pipeline. Sun et al. (2026) place it after image registration and before the stacking search algorithm, forming the following processing chain:
 
-```
+```text
 Raw Images → Image Registration → Background Star Elimination → Stacking Search Algorithm (SAA) → Target Detection
 ```
 

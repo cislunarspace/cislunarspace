@@ -49,6 +49,7 @@ $$\|\bar{\boldsymbol{\lambda}}(t_0)\| = 1$$
 ### 物理意义
 
 协态归一化的物理意义：
+
 - 将协态变量约束在单位球面上
 - 消除了解的不唯一性（协态乘以任意非零常数仍满足方程）
 - 将搜索空间从无穷大缩减到单位球面
@@ -70,6 +71,7 @@ $$\|\bar{\boldsymbol{\lambda}}(t_0)\| = 1$$
 ### 归一化的优势
 
 通过协态归一化：
+
 1. 协态初值被限制在单位球面上（8维空间的7维流形）
 2. 定义 7 个角度变量 $\chi_\vartheta (\vartheta = 1, 2, \cdots, 7)$
 3. 将角度变量映射到 $[0, 1]$ 区间的优化变量 $X_\vartheta$
@@ -77,7 +79,7 @@ $$\|\bar{\boldsymbol{\lambda}}(t_0)\| = 1$$
 ### 角度变量映射
 
 | 变量范围 | 映射公式 |
-|:---|:---|
+| :--- | :--- |
 | $[0, \pi/2]$ | $\chi_\vartheta = \frac{\pi}{2}X_\vartheta, \quad \vartheta = 1,2,3$ |
 | $[-\pi/2, \pi/2]$ | $\chi_\vartheta = \pi\left(X_\vartheta - \frac{1}{2}\right), \quad \vartheta = 4,5$ |
 | $[0, 2\pi]$ | $\chi_\vartheta = 2\pi X_\vartheta, \quad \vartheta = 6,7$ |
@@ -85,6 +87,7 @@ $$\|\bar{\boldsymbol{\lambda}}(t_0)\| = 1$$
 ## 赵海涵等（2026）的应用
 
 在 RLEPSO-同伦方法中：
+
 1. RLEPSO 优化归一化协态（7 个角度变量 + 终端时间 = 8 维优化变量）
 2. 归一化协态作为同伦打靶的初始猜测
 3. 同伦参数递减至零，获得燃料最优协态

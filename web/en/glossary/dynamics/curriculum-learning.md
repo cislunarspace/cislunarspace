@@ -37,13 +37,14 @@ Ul Haq et al. (2026) applied curriculum learning to the A2PPO framework for cisl
 ### Curriculum Structure
 
 Define curriculum $C = \{(N_i, \Delta d_i, \Delta v_i)\}$, where:
+
 - $N_i$: Incremental global training step thresholds
 - $\Delta d_i, \Delta v_i$: Corresponding terminal position and velocity tolerances
 
 ### Threshold Progression
 
 | Phase | Global Steps $N_i$ | Position Tolerance $\Delta d$ | Velocity Tolerance $\Delta v$ |
-|:---:|:---:|:---:|:---:|
+| :---: | :---: | :---: | :---: |
 | Initial | 0 | $5 \times 10^{-3}$ | $5 \times 10^{-3}$ |
 | Transition | $N_1$ | $2 \times 10^{-3}$ | $2 \times 10^{-3}$ |
 | Final | $N_2$ | $1 \times 10^{-3}$ | $1 \times 10^{-3}$ |

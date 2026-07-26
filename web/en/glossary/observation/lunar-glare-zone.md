@@ -57,7 +57,7 @@ The actual extent of the lunar glare zone depends on several factors:
 The lunar glare zone is one of several major constraints on cislunar optical observation, compared with other limiting factors:
 
 | Constraint | Affected Region | Primary Effect |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Lunar glare zone | ~15° from Moon's center | SNR drops dramatically |
 | Solar avoidance zone | Solar elongation <30° | High sky background brightness |
 | Atmospheric extinction | Elevation <20° | Throughput loss, refraction distortion |

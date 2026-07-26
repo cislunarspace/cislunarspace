@@ -65,10 +65,10 @@ permalink: /glossary/organizations/lockheed-martin/
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | 猎户座飞船 | 载人航天器 | 阿尔忒弥斯载人绕月和登月任务 |
 | HALO 模块 | Gateway 舱段 | 月球门户居住与后勤前哨站 |
-| DRACO NTP | 核热推进 | 地月空间核热火箭飞行演示（目标 2027 年）|
+| DRACO NTP | 核热推进 | 地月空间核热火箭飞行演示（目标 2027 年） |
 | GPS III 卫星 | 导航卫星 | 第三代 GPS 卫星，更强的抗干扰能力 |
 | MUOS 卫星 | 军事通信 | 移动用户目标系统卫星通信 |
 
@@ -126,7 +126,7 @@ permalink: /glossary/organizations/lockheed-martin/
 
 ## 参考文献
 
-- Lockheed Martin 官网: https://www.lockheedmartin.com
+- Lockheed Martin 官网: <https://www.lockheedmartin.com>
 - NASA Artemis, "Gateway HALO contract", 2021.
 - DARPA, "DRACO program overview", 2023.
 - 中国商务部公告 2025 年第 1 号，2025 年 1 月 2 日。

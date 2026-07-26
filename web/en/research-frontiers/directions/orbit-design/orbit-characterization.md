@@ -40,6 +40,7 @@ These 6 characteristic parameters form an orbit's "fingerprint," uniquely identi
 The real Earth-Moon system's ephemeris model (e.g., DE430) includes solar perturbations, planetary perturbations, and other complex factors that cannot be directly analyzed. Dynamical substitute models aim to construct an equivalent simplified model based on CRTBP through Hamiltonian analysis, preserving key dynamical characteristics.
 
 The approach involves:
+
 1. **Hamiltonian formulation** of the ephemeris model
 2. **Canonical transformation** to separate forced motion (caused by the Sun and other major bodies) from free motion (intrinsic orbit motion)
 3. **Iterative frequency analysis** to extract characteristic frequencies and construct analytical expressions
@@ -72,5 +73,6 @@ Based on the parameterization methods above, an orbit cataloging and identificat
 ---
 
 **Related Links**
+
 - ↑ [Orbit Design & Optimization](./README.md) — Back to direction homepage
 - ↔ [Low-Energy Transfer Orbits](./low-energy-transfer.md) — Related subtopic

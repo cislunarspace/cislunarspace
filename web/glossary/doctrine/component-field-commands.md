@@ -57,7 +57,7 @@ permalink: /glossary/doctrine/component-field-commands/
 军种组成司令部的概念并非太空军独有，而是美军联合作战体系中的通用组织模式：
 
 | 军种 | 组成司令部类型 | 典型缩写 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 陆军 | ARFOR (Army Forces) | ARFOR |
 | 海军 | NAVFOR (Navy Forces) | NAVFOR |
 | 空军 | AFFOR (Air Forces) | AFFOR |

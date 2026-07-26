@@ -17,7 +17,7 @@ image: ./figures/2026-05-15-crs-34-launch-success/hero.jpg
 ## Mission Overview
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Mission | CRS-34 (SpaceX Commercial Resupply Services, Mission 34) |
 | Operator | SpaceX |
 | Vehicle | Falcon 9 |

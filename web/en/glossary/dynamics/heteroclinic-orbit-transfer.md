@@ -62,7 +62,7 @@ In 郭建宇 (2020)'s research, a heteroclinic orbit was used to find a path fro
 Heteroclinic orbits are essentially a special form of invariant manifolds:
 
 | Orbit Type | Start Point | End Point |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Homoclinic orbit | Libration point $L_i$ | Libration point $L_i$ (self) |
 | Heteroclinic orbit | Libration point $L_i$ | Libration point $L_j$ (different) |
 | Periodic orbit | Libration point $L_i$ | Libration point $L_i$ (homoclinic special case) |
@@ -82,7 +82,7 @@ Heteroclinic orbits are core components of the "Interplanetary Superhighway" the
 Heteroclinic orbit transfers provide extremely low-energy transfer solutions for deep space exploration:
 
 | Application | Description |
-|:---|:---|
+| :--- | :--- |
 | Cislunar missions | Low-energy transfer from Earth orbit to L2 Halo orbit |
 | Mars exploration | Low-energy transfer design using Sun-Mars L1/L2 heteroclinic orbits |
 | Asteroid exploration | Multi-target exploration missions using heteroclinic orbits |
@@ -91,12 +91,15 @@ Heteroclinic orbit transfers provide extremely low-energy transfer solutions for
 ## Core Elements
 
 ### Mathematical Definition
+
 A heteroclinic orbit connects two different equilibrium points of a dynamical system; in CR3BP, it connects two different libration points or a libration point with a periodic orbit.
 
 ### Key Properties
+
 Transfer along heteroclinic orbits requires no or minimal energy consumption, making it an important approach for low-energy deep space transfers.
 
 ### Numerical Methods
+
 Computing heteroclinic orbits requires precise numerical integration of invariant manifolds, along with detection and verification of homoclinic/heteroclinic orbits.
 
 ## Related Concepts

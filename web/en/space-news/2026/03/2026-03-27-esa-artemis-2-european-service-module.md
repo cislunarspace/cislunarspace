@@ -17,23 +17,24 @@ wechatShare:
 
 **Summary:** On **March 27, 2026**, ESA released a video titled **"How Europe will power the journey to the Moon and back"**, explaining the critical role of the **European Service Module (ESM)** in NASA's **Artemis II** mission — providing propulsion, power generation, and life support for the Orion spacecraft carrying four astronauts around the Moon.
 
-
-
 ## The Role of the European Service Module
 
 The **European Service Module (ESM)** is the power and propulsion core of NASA's Orion spacecraft, located beneath the crew capsule. For Artemis II, ESM provides:
 
 ### Propulsion
+
 - Generates thrust for lunar orbit insertion and return trajectory maneuvers
 - Houses the main engine and attitude control thrusters
 - Carries all propellant for orbital insertion and course corrections
 
 ### Power Generation
+
 - Deployable solar arrays generate electricity for the spacecraft
 - Stores and distributes power to all subsystems
 - Provides emergency power during eclipse periods
 
 ### Life Support
+
 - Maintains cabin temperature and atmospheric conditions
 - Provides oxygen and water for the crew
 - Manages waste and有害气体 removal

@@ -57,7 +57,7 @@ Astrometric precision depends on several factors:
 Astrometry relies on high-precision reference catalogs to establish the coordinate framework. Common catalogs include:
 
 | Catalog | Characteristics |
-|:---|:---|
+| :--- | :--- |
 | Tycho-2 | ~2.5 million stars, position precision ~7 mas |
 | Gaia DR3 | ~1.8 billion stars, sub-milliarcsecond precision |
 | UCAC4 | ~113 million stars, coverage to magnitude 16 |

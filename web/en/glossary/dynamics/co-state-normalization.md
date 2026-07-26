@@ -49,6 +49,7 @@ $$\|\bar{\boldsymbol{\lambda}}(t_0)\| = 1$$
 ### Physical Significance
 
 The physical significance of co-state normalization:
+
 - Constrains co-state variables to the unit sphere
 - Eliminates solution non-uniqueness (co-state multiplied by any non-zero constant still satisfies the equation)
 - Reduces the search space from infinite to the unit sphere
@@ -70,6 +71,7 @@ Co-state boundaries are free (determined by transversality conditions), with eac
 ### Advantages of Normalization
 
 Through co-state normalization:
+
 1. Initial co-state is constrained to the unit sphere (7-dimensional manifold in 8-dimensional space)
 2. Seven angular variables $\chi_\vartheta (\vartheta = 1, 2, \cdots, 7)$ are defined
 3. Angular variables are mapped to optimization variables $X_\vartheta$ in $[0, 1]$ interval
@@ -77,7 +79,7 @@ Through co-state normalization:
 ### Angular Variable Mapping
 
 | Variable Range | Mapping Formula |
-|:---|:---|
+| :--- | :--- |
 | $[0, \pi/2]$ | $\chi_\vartheta = \frac{\pi}{2}X_\vartheta, \quad \vartheta = 1,2,3$ |
 | $[-\pi/2, \pi/2]$ | $\chi_\vartheta = \pi\left(X_\vartheta - \frac{1}{2}\right), \quad \vartheta = 4,5$ |
 | $[0, 2\pi]$ | $\chi_\vartheta = 2\pi X_\vartheta, \quad \vartheta = 6,7$ |
@@ -85,6 +87,7 @@ Through co-state normalization:
 ## Application by Zhao Haihan et al. (2026)
 
 In the RLEPSO-Homotopy method:
+
 1. RLEPSO optimizes normalized co-states (7 angular variables + terminal time = 8 dimensional optimization variables)
 2. Normalized co-states serve as initial guesses for homotopy shooting
 3. Homotopy parameter decreases to zero to obtain fuel-optimal co-states

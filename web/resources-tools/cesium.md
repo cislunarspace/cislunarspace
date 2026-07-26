@@ -17,8 +17,8 @@ Cesium 是由美国 AGI 公司开发的开源 JavaScript 库，用于在 Web 浏
 
 - **许可证**：Apache 2.0（开源）
 - **来源**：AGI（Analytical Graphics, Inc.）
-- **官方文档**：https://cesium.com/docs/
-- **GitHub**：https://github.com/CesiumGS/cesium
+- **官方文档**：<https://cesium.com/docs/>
+- **GitHub**：<https://github.com/CesiumGS/cesium>
 
 ## 主要功能
 
@@ -43,7 +43,7 @@ Cesium 与 STK 均由 AGI 出品。STK 是专业的任务分析软件，Cesium �
 
 ## 官方资源
 
-- 官网：https://cesium.com/
-- 官方示例：https://sandcastle.cesium.com/
-- CesiumJS 文档：https://cesium.com/docs/cesiumjs-ref-doc/
-- GitHub：https://github.com/CesiumGS/cesium
+- 官网：<https://cesium.com/>
+- 官方示例：<https://sandcastle.cesium.com/>
+- CesiumJS 文档：<https://cesium.com/docs/cesiumjs-ref-doc/>
+- GitHub：<https://github.com/CesiumGS/cesium>

@@ -31,6 +31,7 @@ $$G(\mathbf{x}, \lambda, s) = \|\mathbf{x} - \mathbf{x}_0\|^2 + (\lambda - \lamb
 where $\Delta s$ is the prescribed arc-length step and $(\mathbf{x}_0, \lambda_0)$ is the current known solution.
 
 **Predictor-corrector steps:**
+
 1. **Predict**: advance one step along the tangent vector to get $(\mathbf{x}_p, \lambda_p)$
 2. **Correct**: use $(\mathbf{x}_p, \lambda_p)$ as initial guess and solve the coupled system of shooting equation and arc-length constraint via Newton iteration
 3. **Step size control**: adaptively adjust $\Delta s$ based on corrector convergence

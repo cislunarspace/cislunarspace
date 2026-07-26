@@ -6,17 +6,21 @@
  * touches the network) and the aggregated dependency type used by
  * ChatSession's constructor.
  */
-import type { ChatAnswerEngine } from './chat-answer-engine'
-import type { ChatContextManager } from './chat-context-manager'
-import type { ChatRouter } from './chat-router'
+import type { ChatAnswerEngine } from './chat-answer-engine';
+import type { ChatContextManager } from './chat-context-manager';
+import type { ChatRouter } from './chat-router';
 
 export interface ChatTransport {
-  completeJson(endpoint: string, payload: Record<string, unknown>, signal: AbortSignal): Promise<unknown>
+  completeJson(
+    endpoint: string,
+    payload: Record<string, unknown>,
+    signal: AbortSignal,
+  ): Promise<unknown>;
   completeStream(
     endpoint: string,
     payload: Record<string, unknown>,
     signal: AbortSignal,
-  ): Promise<ReadableStreamDefaultReader<Uint8Array> | null>
+  ): Promise<ReadableStreamDefaultReader<Uint8Array> | null>;
 }
 
 /** Default fetch-backed transport. */
@@ -28,9 +32,9 @@ export function createFetchTransport(): ChatTransport {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
         signal,
-      })
-      if (!res.ok) throw new Error(`HTTP ${res.status}`)
-      return res.json()
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
     },
     completeStream: async (endpoint, payload, signal) => {
       const res = await fetch(endpoint, {
@@ -38,18 +42,18 @@ export function createFetchTransport(): ChatTransport {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
         signal,
-      })
-      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`)
-      return res.body?.getReader() ?? null
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      return res.body?.getReader() ?? null;
     },
-  }
+  };
 }
 
 /** Aggregated dependency bundle for ChatSession. Each piece is independently
  *  swappable. If any is omitted, ChatSession wires in the default. */
 export interface ChatSessionDeps {
-  router?: ChatRouter
-  answerEngine?: ChatAnswerEngine
-  transport?: ChatTransport
-  contextManager?: ChatContextManager
+  router?: ChatRouter;
+  answerEngine?: ChatAnswerEngine;
+  transport?: ChatTransport;
+  contextManager?: ChatContextManager;
 }

@@ -37,7 +37,7 @@ The Libration Point Spacecraft Body Coordinate System ($\mathcal{O}_b - X_b Y_b 
 ## Coordinate Axis Definition
 
 | Axis | Name | Direction | Description |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | **$X_b$** | Roll axis | Along a characteristic axis of the spacecraft | Describes rotation about the longitudinal axis |
 | **$Y_b$** | Pitch axis | Along another characteristic axis of the spacecraft | Describes rotation about the transverse axis |
 | **$Z_b$** | Yaw axis | Along the third characteristic axis of the spacecraft | Describes rotation about the vertical axis |
@@ -69,7 +69,7 @@ Star sensor measures star direction projection in the body coordinate system; co
 ## Attitude Control Terminology
 
 | Terminology | English | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Roll | Roll | Rotation about $X_b$ axis |
 | Pitch | Pitch | Rotation about $Y_b$ axis |
 | Yaw | Yaw | Rotation about $Z_b$ axis |

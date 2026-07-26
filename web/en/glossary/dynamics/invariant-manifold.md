@@ -61,7 +61,7 @@ For collinear libration points, unstable manifolds correspond to trajectories di
 Collinear libration points (L₁, L₂, L₃) have a **saddle×center×center** dynamical structure:
 
 | Direction | Stability | Corresponding Manifold |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Crossing direction | Saddle (unstable) | One-dimensional unstable manifold |
 | In-plane perpendicular to line | Center (stable) | Two-dimensional stable/unstable manifold |
 | Perpendicular to orbital plane | Center (stable) | Two-dimensional stable/unstable manifold |
@@ -87,6 +87,7 @@ Invariant manifolds can be used to design low-energy transfer orbits:
 ### Libration Point Orbit Generation
 
 When designing periodic orbits near libration points:
+
 1. Calculate initial estimate of periodic orbit in CR3BP model
 2. Use stable/unstable manifolds to verify orbit stability
 3. Use invariant manifolds as convergence directions for orbit design

@@ -16,7 +16,7 @@ permalink: /cislunar-orbits/nrho/stability-maintenance/
 >
 > 本文编辑来源：[CislunarSpace](https://cislunarspace.cn)
 >
-> 来源：https://cislunarspace.cn
+> 来源：<https://cislunarspace.cn>
 
 # NRHO 稳定性与轨道维持
 
@@ -25,6 +25,7 @@ permalink: /cislunar-orbits/nrho/stability-maintenance/
 NRHO 虽然在 CR3BP 模型中表现为稳定的准周期轨道，但在真实星历环境中对初始条件误差和外部摄动表现出显著敏感性。这种敏感性可用 **Lyapunov 指数**（Lyapunov Exponent）来量化描述。
 
 Lyapunov 指数 $\lambda$ 表征相空间中相邻轨道的指数分离（或收敛）率：
+
 - $\lambda > 0$：轨道对初始误差指数放大（不稳定）
 - $\lambda < 0$：误差被抑制（稳定）
 - $\lambda = 0$：中性（沿轨道方向的边缘稳定性）
@@ -36,11 +37,13 @@ Lyapunov 指数 $\lambda$ 表征相空间中相邻轨道的指数分离（或收
 ## ΔV 维持预算
 
 NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典型的维持 ΔV 预算取决于：
+
 - 轨道位置（L1 vs L2）
 - 任务持续时间
 - 推进系统类型（电推 vs 化学推力）
 
 典型数值：
+
 - L1 NRHO：$\Delta V \approx 30-50$ m/s/年
 - L2 NRHO：$\Delta V \approx 40-80$ m/s/年（略高于 L1，因太阳引力摄动更强）
 

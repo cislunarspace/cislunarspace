@@ -41,7 +41,7 @@ NASA's newly released recap covers the following mission phases:
 ## Artemis II Mission Summary
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Launch Date | April 1, 2026 |
 | Splashdown Date | April 11, 2026 |
 | Crew | Reid Wiseman (Commander), Victor Glover (Pilot), Christina Koch (Mission Specialist), Jeremy Hansen (Mission Specialist) |

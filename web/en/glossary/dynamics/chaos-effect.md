@@ -37,7 +37,7 @@ The chaos effect refers to the phenomenon in nonlinear dynamical systems (such a
 In the three-body problem, chaos appears in several forms:
 
 | Manifestation | Description |
-|:---|:---|
+| :--- | :--- |
 | Exponential divergence | Nearby orbits separate at a rate proportional to $e^{\sigma t}$, where $\sigma$ is the Lyapunov exponent |
 | Poincaré section structure | Chaotic regions appear as scattered points rather than smooth curves |
 | Fractal boundaries | The boundaries between ordered and chaotic regions have fractal geometry |

@@ -33,7 +33,7 @@ Very Low Earth Orbit (VLEO) refers to Earth orbits at altitudes below 450 km, lo
 ## Orbital Altitude Range
 
 | Orbit Type | Altitude Range | Typical Applications |
-|---------|---------|---------|
+| --------- | --------- | --------- |
 | Very Low Earth Orbit (VLEO) | 150--450 km | High-resolution observation, scientific experiments |
 | Low Earth Orbit (LEO) | 200--2000 km | Communication satellites, space stations, Earth observation |
 | Medium Earth Orbit (MEO) | 2000--35786 km | Navigation satellites (GPS, BDS) |

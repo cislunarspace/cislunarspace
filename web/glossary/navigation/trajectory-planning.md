@@ -49,11 +49,11 @@ $$J = \int_{t_0}^{t_f} L(\mathbf{x}, \mathbf{u}, t) dt + \phi(\mathbf{x}(t_f))$$
 典型指标：
 
 | 目标 | 表达式 |
-|:---|:---|
+| :--- | :--- |
 | 能源最小 | $\min \int P_{prop} dt$ |
 | 时间最短 | $\min (t_f - t_0)$ |
-| 路径最短 | $\min \int |\mathbf{v}| dt$ |
-| 驻留精度最大 | $\min \int ||\mathbf{p} - \mathbf{p}_d|| dt$ |
+| 路径最短 | $\min \int | \mathbf{v} | dt$ |
+| 驻留精度最大 | $\min \int | | \mathbf{p} - \mathbf{p}_d | | dt$ |
 
 ## 约束条件
 
@@ -64,15 +64,15 @@ $$\dot{\mathbf{x}} = f(\mathbf{x}, \mathbf{u})$$
 ### 控制约束
 
 | 约束 | 范围 |
-|:---|:---|
-| 推力大小 | $0 \leq |T| \leq T_{max}$ |
+| :--- | :--- |
+| 推力大小 | $0 \leq | T | \leq T_{max}$ |
 | 推力方向 | 全向（欠驱动） |
-| 高度变化率 | $|\dot{h}| \leq \dot{h}_{max}$ |
+| 高度变化率 | $ | \dot{h} | \leq \dot{h}_{max}$ |
 
 ### 路径约束
 
 | 约束 | 要求 |
-|:---|:---|
+| :--- | :--- |
 | 驻留区域 | $\mathbf{p} \in \mathcal{R}_{station}$ |
 | 最大航程 | $d_{total} \leq D_{max}$ |
 | 禁飞区 | $\mathbf{p} \notin \mathcal{R}_{forbidden}$ |
@@ -82,14 +82,14 @@ $$\dot{\mathbf{x}} = f(\mathbf{x}, \mathbf{u})$$
 ### 解析方法
 
 | 方法 | 优点 | 缺点 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 极小值原理 | 全局最优 | 计算复杂 |
 | 梯度法 | 收敛快 | 局部最优 |
 
 ### 数值方法
 
 | 方法 | 适用场景 |
-|:---|:---|
+| :--- | :--- |
 | 直接_collocation | 数值稳定 |
 | 伪谱法 | 高精度 |
 | 模型预测控制（MPC） | 实时可行 |
@@ -97,7 +97,7 @@ $$\dot{\mathbf{x}} = f(\mathbf{x}, \mathbf{u})$$
 ### 智能优化
 
 | 方法 | 特点 |
-|:---|:---|
+| :--- | :--- |
 | 粒子群优化（PSO） | 全局搜索 |
 | 遗传算法（GA） | 鲁棒性强 |
 | 深度强化学习（DRL） | 处理复杂约束 |
@@ -117,7 +117,7 @@ $$\mathbf{v}_{rel} = \mathbf{v}_{airship} - \mathbf{v}_{wind}$$
 ### 最优策略
 
 | 策略 | 条件 |
-|:---|:---|
+| :--- | :--- |
 | 顺风航行 | $\mathbf{v}_{wind}$ 指向目标 |
 | 高度调度 | 利用垂直风切变 |
 | 等待/漂流 | 禁飞区或低风时段 |
