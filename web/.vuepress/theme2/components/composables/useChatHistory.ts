@@ -16,7 +16,15 @@ function loadFromStorage(): ChatHistoryEntry[] {
     const raw = localStorage.getItem(HISTORY_KEY)
     if (!raw) return []
     const parsed = JSON.parse(raw)
-    return Array.isArray(parsed) ? parsed : []
+    if (!Array.isArray(parsed)) return []
+    // Migrate old entries that lack a title field
+    return parsed.map((entry: ChatHistoryEntry) => {
+      if (!entry.title && entry.messages?.length) {
+        const first = entry.messages.find((m: Message) => m.role === 'user')
+        entry.title = first?.content?.slice(0, 30) || ''
+      }
+      return entry
+    })
   } catch {
     return []
   }
