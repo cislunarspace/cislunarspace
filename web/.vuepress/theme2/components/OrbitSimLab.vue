@@ -302,7 +302,7 @@ onMounted(async () => {
     await nextTick();
     initCesium();
     setTimeout(() => {
-      loadPreset('leo');
+      loadPresetWithToast('leo');
       startLoop();
       maskVisible.value = false;
       toast(ui.value.ready);
