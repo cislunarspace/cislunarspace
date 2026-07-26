@@ -39,8 +39,8 @@ HERMES_BIN = shutil.which("hermes") or "hermes"  # PATH miss 时 fallback 字符
 # 不传 --provider 时 hermes 按 default provider (minimax-cn) 走 MiniMax-M3。
 # 这里只固定 model 字符串并显式走 minimax-cn，避免 hermes 在两个 base URL 之间
 # 误路由到 Xiaomi 端点再次触发 401。
-HERMES_PROVIDER = "minimax-cn"
-HERMES_MODEL = "MiniMax-M3"
+HERMES_PROVIDER = "xiaomi"
+HERMES_MODEL = "mimo-v2.5-pro"
 HERMES_MAX_TURNS = "3"             # search/select 都给 3 turns
 HERMES_DRAFT_MAX_TURNS = "2"       # draft 给 2 turns
 HERMES_TIMEOUT_SEARCH = 180        # 实测 120s，留 50% 余量
