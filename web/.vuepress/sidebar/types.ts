@@ -102,6 +102,15 @@ export interface SidebarData {
   stats: { total: number };
 }
 
+/** categoryMeta is embedded alongside per-locale SidebarData so that
+ *  consumers (Sidebar, ArticleHero) can resolve category colours without
+ *  fetching the full articles JSON. */
+export type SpaceNewsSidebarDataFile = {
+  zh: SidebarData;
+  en: SidebarData;
+  categoryMeta: Record<string, { zh: string; en: string; color: string }>;
+};
+
 export interface MonthDir {
   month: number;
   path: string;
@@ -124,8 +133,9 @@ export interface ChatContext {
 
 export interface SidebarGenerationResult {
   sidebarAuto: { zh: unknown[]; en: unknown[] };
-  spaceNewsArticles: { zh: Article[]; en: Article[] };
-  spaceNewsSidebarData: { zh: SidebarData; en: SidebarData };
+  spaceNewsArticlesZh: Article[];
+  spaceNewsArticlesEn: Article[];
+  spaceNewsSidebarData: SpaceNewsSidebarDataFile;
   chatIndex: ChatIndex;
   chatContext: ChatContext;
 }

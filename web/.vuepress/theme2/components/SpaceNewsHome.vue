@@ -156,7 +156,6 @@
 import { computed, ref, onMounted, onBeforeUnmount, watch } from 'vue';
 import Footer from './Footer.vue';
 import { useIsEn } from '../composables/useIsEn';
-import type { ArticlesData } from '../utils/types';
 import {
   buildSpaceNewsDirectoryView,
   type SpaceNewsArticleView,
@@ -167,26 +166,30 @@ import { spaceNewsLabels } from '../utils/spaceNewsLabels';
 
 const isEn = useIsEn();
 
-const articlesData = ref<ArticlesData | null>(null);
+const articles = ref<any[] | null>(null);
 const categoryMeta = ref<SpaceNewsCategoryMeta>({});
 const fetchError = ref(false);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/space-news-articles.json');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = (await response.json()) as ArticlesData;
-    articlesData.value = data;
-    categoryMeta.value = data.categoryMeta ?? {};
+    const articleFile = isEn.value ? '/space-news-articles-en.json' : '/space-news-articles-zh.json';
+    const [articlesResponse, sidebarResponse] = await Promise.all([
+      fetch(articleFile),
+      fetch('/space-news-sidebar-data.json'),
+    ]);
+    if (!articlesResponse.ok || !sidebarResponse.ok) throw new Error(`HTTP error`);
+    articles.value = await articlesResponse.json();
+    const sidebarRaw = await sidebarResponse.json();
+    categoryMeta.value = sidebarRaw.categoryMeta ?? {};
   } catch {
     fetchError.value = true;
   }
 });
 
 const directoryView = computed(() => {
-  if (!articlesData.value) return null;
+  if (!articles.value) return null;
   return buildSpaceNewsDirectoryView({
-    articles: isEn.value ? articlesData.value.en : articlesData.value.zh,
+    articles: articles.value,
     locale: isEn.value ? 'en' : 'zh',
     categoryMeta: categoryMeta.value,
   });

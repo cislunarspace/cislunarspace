@@ -56,15 +56,15 @@ cd /home/ouyangjiahong/codes/cislunarspace/web
 npm run gen-sidebar
 ```
 
-检查 `space-news-articles.json`（注意结构是 `{ "zh": [...], "en": [...] }`，不是单层 dict）：
+检查 per-locale 文章文件（每个文件直接是文章数组）：
 
 ```python
 import json
 from pathlib import Path
-p = Path('/home/ouyangjiahong/codes/cislunarspace/web/.vuepress/space-news-articles.json')
-data = json.loads(p.read_text())
+base = Path('/home/ouyangjiahong/codes/cislunarspace/web/.vuepress')
 for locale in ['zh', 'en']:
-    hits = [a for a in data.get(locale, []) if 'YYYY-MM-DD-slug' in a.get('relativePath', '')]
+    data = json.loads((base / f'space-news-articles-{locale}.json').read_text())
+    hits = [a for a in data if 'YYYY-MM-DD-slug' in a.get('relativePath', '')]
     print(locale, len(hits), hits[:1])
 ```
 

@@ -1,5 +1,6 @@
 .vuepress/sidebar.auto.json
-.vuepress/space-news-articles.json
+.vuepress/space-news-articles-zh.json
+.vuepress/space-news-articles-en.json
 .vuepress/public/ai-chat-context.json
 .vuepress/public/ai-chat-index.json
 .vuepress/space-news-sidebar-data.json

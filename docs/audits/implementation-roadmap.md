@@ -202,7 +202,7 @@ Then human review: sample 5 entries per glossary subdirectory, 3 articles per Sp
 
 ## Rules for All Agents
 
-1. **Never edit auto-generated JSON** (`sidebar.auto.json`, `space-news-articles.json`, `sidebar-glossary.auto.json`, `ai-chat-context.json`, `ai-chat-index.json`).
+1. **Never edit auto-generated JSON** (`sidebar.auto.json`, `space-news-articles-zh.json`, `space-news-articles-en.json`, `sidebar-glossary.auto.json`, `ai-chat-context.json`, `ai-chat-index.json`).
 2. **PR scope = assigned subdirectory only**. Out-of-scope changes require a new PR.
 3. **Deliver artifacts**: (a) absolute paths of all modified files, (b) commands run (`gen-sidebar`, `check-links`, etc.), (c) unresolved issues list, (d) items needing human review.
 4. **After modifying any source `.md` file**: run `npm run gen-sidebar` to regenerate JSON artifacts before committing.
