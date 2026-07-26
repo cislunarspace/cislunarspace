@@ -94,11 +94,11 @@ NRHO 与晕轨道之间的转移需要显著的能量变化（$C_J$ 变化约 0.
 - [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
 - [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
 - [轨道辨识（Orbit Identification）](/glossary/orbits/orbit-identification/)
-- Halo 轨道
+- [Halo 轨道](/glossary/orbits/halo-orbit/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 平动点（拉格朗日点）
-- 星历模型
-- 不变流形
+- [星历模型](/glossary/dynamics/ephemeris-model/)
+- [不变流形](/glossary/dynamics/invariant-manifold/)
 
 ## 核心要素
 

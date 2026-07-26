@@ -96,8 +96,8 @@ permalink: /glossary/navigation/lunar-navigation-constellation/
 
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [地球 GNSS 弱信号导航](/glossary/navigation/gnss-weak-signal-navigation/)
-- 地月混合导航
-- 星间链路导航
+- [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
 - 鹊桥中继卫星
 
 ## 参考文献

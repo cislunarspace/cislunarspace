@@ -113,7 +113,7 @@ Poincaré 截面是平动点轨道分布可视化和轨道辨识的核心工具�
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 不变环面（Invariant Torus）
 - 分叉（Bifurcation）
-- 准周期轨道（Quasi-periodic Orbit）
+- [准周期轨道（Quasi-periodic Orbit）](/glossary/orbits/quasi-periodic-orbit/)
 
 ## 参考文献
 

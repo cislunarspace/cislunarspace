@@ -98,9 +98,9 @@ GNSS 弱信号导航是四大导航方案中成本最低、部署最快的路径
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
 - [X射线脉冲星导航](/glossary/navigation/xray-pulsar-navigation/)
-- 地月混合导航
-- 月球导航星座
-- 星间链路导航
+- [地月混合导航](/glossary/navigation/earth-moon-hybrid-navigation/)
+- [月球导航星座](/glossary/navigation/lunar-navigation-constellation/)
+- [星间链路导航](/glossary/navigation/inter-satellite-link-navigation/)
 
 ## 参考文献
 

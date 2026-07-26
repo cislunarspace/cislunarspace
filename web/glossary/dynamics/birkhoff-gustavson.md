@@ -123,7 +123,7 @@ B-G 标准型是平动点轨道族参数化和相空间结构分析的基础工�
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 李变换（Lie Transformation）
 - 哈密顿系统（Hamiltonian System）
-- Poincaré 截面（Poincaré Section）
+- [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
 
 ## 参考文献
 

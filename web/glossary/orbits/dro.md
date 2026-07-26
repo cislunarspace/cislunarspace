@@ -137,8 +137,8 @@ NRHO 与 DRO 之间的转移设计是低推力轨迹优化中的难题：两种�
 - [星伞（Starshade）](/glossary/other/starshade/)
 - [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
 - [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
-- 共振轨道
-- 拟周期轨道
+- [共振轨道](/glossary/orbits/resonance-orbit/)
+- [拟周期轨道](/glossary/orbits/quasi-periodic-orbit/)
 
 ## 核心要素
 

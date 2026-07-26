@@ -69,7 +69,7 @@ The Lunar Navigation Constellation is the long-term development direction, orien
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Earth GNSS Weak Signal Navigation](/en/glossary/navigation/gnss-weak-signal-navigation/)
 - Earth-Moon Hybrid Navigation
-- Inter-Satellite Link Navigation
+- [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
 - Queqiao Relay Satellite
 
 ## References

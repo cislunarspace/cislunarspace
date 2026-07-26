@@ -141,8 +141,8 @@ Transfers between NRHO and DRO represent a challenging problem in low-thrust tra
 - [Starshade](/en/glossary/other/starshade/)
 - [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
 - [Poincaré Section](/en/glossary/dynamics/poincare-section/)
-- Resonance orbit
-- Quasi-periodic orbit
+- [Resonance Orbit](/en/glossary/orbits/resonance-orbit/)
+- [Quasi-periodic Orbit](/en/glossary/orbits/quasi-periodic-orbit/)
 
 ## Core Elements
 

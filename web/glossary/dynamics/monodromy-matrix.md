@@ -70,7 +70,7 @@ $$\nu = \frac{1}{2}\left(\|\lambda_i\| + \left\|\frac{1}{\lambda_i}\right\|\righ
 - [稳定性指数](/glossary/dynamics/stability-index/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- 倍周期分岔
+- [倍周期分岔](/glossary/other/period-doubling-bifurcation/)
 
 ## 参考文献
 

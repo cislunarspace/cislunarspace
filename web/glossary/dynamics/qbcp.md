@@ -91,7 +91,7 @@ QBCP 为从简化模型向高精度星历模型的过渡提供了良好的中间
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 双圆限制性问题（BCP）
 - [星历模型](/glossary/dynamics/ephemeris-model/)
-- 同伦法
+- [同伦法](/glossary/dynamics/homotopy-method/)
 
 ## 参考文献
 

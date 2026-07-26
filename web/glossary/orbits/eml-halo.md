@@ -127,8 +127,8 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 - [地月平动点](/glossary/orbits/eml-halo/)（注意：本文即为此概念详情）
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [星伞（Starshade）](/glossary/other/starshade/)
-- 微分修正（Differential Correction）
-- 打靶法（Shooting Method）
+- [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
+- [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
 
 ## 核心要素
 

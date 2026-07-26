@@ -75,7 +75,7 @@ The QBCP provides a good intermediate level between simplified models and high-p
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Bicircular Restricted Problem (BCP)
 - [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
-- Homotopy Method
+- [Homotopy Method](/en/glossary/dynamics/homotopy-method/)
 
 ## References
 

@@ -150,7 +150,7 @@ Qiao et al. (2025) 对影响轨道辨识的两大因素进行了系统性分析�
 - [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
 - [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- 地月空间态势感知（Cislunar Space Situational Awareness）
+- [地月空间态势感知（Cislunar Space Situational Awareness）](/glossary/doctrine/cislunar-space-situational-awareness/)
 - 参考轨道（Reference Orbit）
 - 非合作目标（Non-cooperative Target）
 

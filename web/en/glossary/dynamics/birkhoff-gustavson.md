@@ -107,7 +107,7 @@ In Qiao et al. (2025), Birkhoff-Gustavson Normal Form combined with central mani
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Lie Transformation
 - Hamiltonian System
-- Poincare Section
+- [Poincare Section](/en/glossary/dynamics/poincare-section/)
 
 ## References
 
