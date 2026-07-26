@@ -198,7 +198,7 @@ describe('createChatStateMachine', () => {
     sm.config.value = config;
     const callOrder: string[] = [];
     const session = createMockSession({
-      route: vi.fn(async (_q: string, _h: unknown, callbacks: Record<string, Function>) => {
+      route: vi.fn(async (_q: string, _h: unknown, callbacks: Record<string, (...args: unknown[]) => unknown>) => {
         callbacks.onComplete('answer', '');
       }),
     });

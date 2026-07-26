@@ -196,6 +196,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
+import { useIsEn } from '../composables/useIsEn';
 import { useDialecticHistory } from '../utils/useDialecticHistory';
 import type { DialecticReport } from '../utils/useDialecticHistory';
 import { steps, TEMPLATES, validateStep } from '../utils/dialectic-prompts';
@@ -207,6 +208,7 @@ type View = 'home' | 'dialectic' | 'report';
 
 // --- State ---
 const { loadReports, addReport, findReport, deleteReport, clearAllReports } = useDialecticHistory();
+const isEn = useIsEn();
 
 const view = ref<View>('home');
 const reports = ref<DialecticReport[]>([]);
