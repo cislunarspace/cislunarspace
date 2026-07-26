@@ -23,4 +23,4 @@ Chinas Manned Space Agency stated that mission progress updates will continue to
 
 ## Sources (original pages)
 
-- [中国载人航天工程办公室](https://www.cmse.gov.cn/xwdt/202607/t20260725_00001.html)
+- [China Manned Space Engineering Office (CMSEO)](https://www.cmse.gov.cn/xwdt/202607/t20260725_00001.html)

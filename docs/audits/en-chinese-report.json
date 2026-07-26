@@ -1,6 +1,6 @@
 {
-  "scanTime": "2026-07-26T13:54:35.959Z",
-  "filesScanned": 1081,
+  "scanTime": "2026-07-26T14:02:18.615Z",
+  "filesScanned": 1088,
   "findings": [
     {
       "file": "en/background/control/optimal-control.md",
