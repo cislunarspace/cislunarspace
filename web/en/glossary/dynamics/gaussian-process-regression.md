@@ -49,7 +49,7 @@ Where $m(\mathbf{x})$ is the mean function, $k(\mathbf{x}, \mathbf{x}')$ is the 
 $$k_{RBF}(\mathbf{x}, \mathbf{x}') = \sigma_f^2 \exp\left(-\frac{||\mathbf{x} - \mathbf{x}'||^2}{2l^2}\right)$$
 
 | Parameter | Meaning |
-|:---|:---|
+| :--- | :--- |
 | $\sigma_f^2$ | Signal variance |
 | $l$ | Length scale |
 
@@ -82,7 +82,7 @@ $$\sigma^2(\mathbf{x}_*) = k(\mathbf{x}_*, \mathbf{x}_*) - \mathbf{k}_*^T \mathb
 ### Input Features
 
 | Feature | Description |
-|:---|:---|
+| :--- | :--- |
 | Time $t$ | Sampling time |
 | Altitude $h$ | Altitude layer |
 | Latitude $\phi$ | Geographic location |
@@ -99,7 +99,7 @@ This is critical for safety-critical control system decisions.
 ## Algorithm Advantages
 
 | Advantage | Description |
-|:---|:---|
+| :--- | :--- |
 | Small sample learning | $N$ can be very small (10-100) |
 | Uncertainty quantification | Automatic prediction variance |
 | Interpretability | Kernel function visualization |

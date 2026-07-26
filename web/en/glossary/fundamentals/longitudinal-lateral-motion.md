@@ -39,7 +39,7 @@ In the velocity coordinate frame, through the small-angle assumption and the ins
 Longitudinal motion describes the vehicle's motion within the firing plane, with the following principal parameters:
 
 | Parameter | Symbol | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Velocity magnitude | $v$ | Flight speed scalar |
 | Flight path angle | $\theta$ | Angle between the velocity vector and the horizontal plane |
 | Horizontal position | $x$ | Component along the launch frame $x$-axis |
@@ -54,7 +54,7 @@ $$\begin{cases} m\dot{v} = P_e - C_x q S_M + mg\sin\theta \\ mv\dot{\theta} = (P
 Lateral motion describes the vehicle's deviation from the firing plane, with the following principal parameters:
 
 | Parameter | Symbol | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Heading error angle | $\sigma$ | Angle of velocity vector deviation from the firing plane |
 | Lateral position | $z$ | Component along the launch frame $z$-axis |
 
@@ -63,6 +63,7 @@ Lateral motion is typically small and is maintained near the firing plane by the
 ### Decoupling Conditions
 
 The conditions for decoupling longitudinal and lateral motion:
+
 - Small-angle assumption ($\alpha$, $\beta$, $\sigma$, $\nu$ are small quantities)
 - Instantaneous balance assumption
 - Neglecting Earth rotation effects (for preliminary calculations)

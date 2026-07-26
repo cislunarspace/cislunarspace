@@ -35,8 +35,6 @@ permalink: /glossary/orbits/nrho/
 ![地月 L1 北族和 L2 南族 Halo 轨道与 NRHO](../figures/nrho/em-l1-l2-halo-and-nrho.png)
 *地月 L1 北族和 L2 南族 Halo 轨道，其中极端构型即为 NRHO*
 
-
-
 ## 几何特征
 
 - **近月点高度极低**：通常低于 100 km
@@ -49,7 +47,7 @@ permalink: /glossary/orbits/nrho/
 与 DRO 类似，NRHO 也存在与月球公转周期的共振关系。当轨道周期 $T$ 与月球公转周期 $T_M$ 满足 $T/T_M \approx n/m$ 时，称为 $m:n$ 会合共振 NRHO。
 
 | 共振比 | 特征与应用 |
-|:---|:---|
+| :--- | :--- |
 | 3:1, 4:1（低阶） | 近月点高度低，对月面探测和通信中继有利 |
 | **9:2** | **NASA 门户空间站选定轨道，稳定性好，适合长期驻留** |
 | 11:2（高阶） | 轨道稳定性更好，适合长期驻留任务 |
@@ -86,6 +84,7 @@ Ul Haq 等人（2026）使用 A2PPO（注意力增强近端策略优化）算法
 NRHO 与晕轨道之间的转移需要显著的能量变化（$C_J$ 变化约 0.08），是低推力轨迹优化中的高难度场景。A2PPO 能够在无需初始猜测的条件下自主学习高效转移策略。
 
 ## 相关概念
+
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [地月 L1/L2 晕轨道（EML1/EML2 Halo）](/glossary/orbits/eml-halo/)
 - [A2PPO（注意力增强近端策略优化）](/glossary/dynamics/a2ppo/)
@@ -94,11 +93,11 @@ NRHO 与晕轨道之间的转移需要显著的能量变化（$C_J$ 变化约 0.
 - [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)
 - [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
 - [轨道辨识（Orbit Identification）](/glossary/orbits/orbit-identification/)
-- Halo 轨道
+- [Halo 轨道](/glossary/orbits/halo-orbit/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 平动点（拉格朗日点）
-- 星历模型
-- 不变流形
+- [星历模型](/glossary/dynamics/ephemeris-model/)
+- [不变流形](/glossary/dynamics/invariant-manifold/)
 
 ## 核心要素
 
@@ -120,11 +119,9 @@ NRHO 与晕轨道之间的转移需要显著的能量变化（$C_J$ 变化约 0.
 - **共振比选择**：根据任务需求选择合适共振比（如 9:2、11:2）
 - **不变流形分析**：利用平动点区域不变流形设计转移轨道
 
-
 ## 应用价值
 
 NRHO 已成为当前地月空间任务的热门候选轨道，NASA 门户空间站计划部署于 L2 点南族 9:2 共振 NRHO。我国嫦娥四号中继星"鹊桥"已成功运行于 L2 点 Halo 轨道，验证了该轨道族在月球背面通信中继中的应用价值。
-
 
 ## 参考文献
 

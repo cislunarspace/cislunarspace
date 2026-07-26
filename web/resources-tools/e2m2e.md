@@ -39,7 +39,7 @@ permalink: /resources-tools/e2m2e/
 ## 支持的轨道类型
 
 | 轨道类型 | 描述 |
-|---------|------|
+| --------- | ------ |
 | **DRO** | 远距离逆行轨道 (Distant Retrograde Orbit) |
 | **RO** | 共振轨道 (Resonant Orbit)，支持 3:2、4:3 等多种共振 |
 | **ARO** | 轴向共振轨道 (Axial Resonant Orbit) |
@@ -100,6 +100,7 @@ pip install e2m2e
 ```
 
 开发依赖安装：
+
 ```bash
 pip install e2m2e[dev]
 ```
@@ -141,7 +142,7 @@ plotter.plot_family_2d(family, jacobi_values=family.get_jacobi_constants())
 
 ## 项目结构
 
-```
+```text
 e2m2e/
 ├── core/                          # 核心模块
 │   ├── system.py                  # CR3BP 系统定义

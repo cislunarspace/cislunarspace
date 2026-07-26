@@ -60,7 +60,7 @@ Turion Space provides space situational awareness data services through its plat
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | DROID Satellite Platform | Orbital Transfer Vehicle | Versatile orbital transfer and debris handling platform |
 | DROID.002 | Technology Demonstration Satellite | First on-orbit verification mission, orbital proximity and observation |
 | Debris Grasping System | Mechanical System | Target spacecraft and debris grasping and capture |
@@ -82,5 +82,5 @@ Turion Space's technology connects to cislunar space in the following ways:
 
 ## References
 
-- Turion Space Official Website: https://turionspace.com
+- Turion Space Official Website: <https://turionspace.com>
 - SpaceNews, "Turion Space DROID.002 launch and initial operations", 2024.

@@ -25,6 +25,7 @@ The typical ΔV budget from L1 DRO to atmospheric reentry is approximately 400-6
 ## Relay and Communications
 
 DRO offers relay communication advantages for certain mission profiles:
+
 - **Large field-of-view coverage**: DRO's high orbital position allows it to simultaneously observe a larger region of Earth and the Moon
 - **Sustained visibility**: For certain geometric configurations, DRO can provide continuous visibility of polar regions
 - **Low interference environment**: Compared to LEO, DRO is less affected by Earth's shadow
@@ -34,6 +35,7 @@ However, DRO's coverage of the lunar far side is inferior to L2 NRHO, which limi
 ## Formation Flying and Constellations
 
 Multi-spacecraft coordination is another application direction for DRO. Multiple spacecraft operating on DRO can:
+
 - Leverage DRO's inherent stability to reduce formation maintenance ΔV
 - Enable formation flying missions (such as synthetic aperture radar, gravitational wave detection, etc.)
 - Form "constellation" structures to improve coverage or redundancy
@@ -45,6 +47,7 @@ The typical formation maintenance ΔV budget is approximately 5-10 m/s/year, sig
 ### CAPSTONE
 
 NASA's **CAPSTONE** (Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment) was the first mission specifically designed to validate cislunar DRO, launched in 2022. CAPSTONE operated in L1 DRO to validate:
+
 - Long-term stability of DRO orbits
 - Autonomous navigation technologies
 - Communications with the Lunar Reconnaissance Orbiter (LRO)
@@ -54,6 +57,7 @@ CAPSTONE's success validated the feasibility of DRO as an operational orbit for 
 ### DRO in the Artemis Program
 
 In the Artemis program, DRO was considered as a backup operational orbit option. Although NASA ultimately chose NRHO as the Gateway's operational orbit, DRO offers advantages in:
+
 - Lower maintenance ΔV
 - Higher inherent stability
 - Simpler orbital design
@@ -61,7 +65,7 @@ In the Artemis program, DRO was considered as a backup operational orbit option.
 ## ΔV Budget Comparison Across Application Scenarios
 
 | Application Scenario | ΔV from LEO | Orbit Maintenance ΔV/year |
-|---------------------|-------------|---------------------------|
+| --------------------- | ------------- | --------------------------- |
 | L1 DRO | ~3.2 km/s | 5-10 m/s |
 | L2 DRO | ~3.3 km/s | 8-15 m/s |
 | L1 NRHO | ~3.1 km/s | 30-50 m/s |

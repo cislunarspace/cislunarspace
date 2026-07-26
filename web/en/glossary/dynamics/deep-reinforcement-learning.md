@@ -39,10 +39,10 @@ Deep Reinforcement Learning (DRL) combines deep learning's perception capabiliti
 RL problems are modeled as MDP: $(S, A, P, R, \gamma)$
 
 | Element | Description |
-|:---|:---|
+| :--- | :--- |
 | $S$ | State space (position, velocity, altitude, etc.) |
 | $A$ | Action space (thrust direction, magnitude, etc.) |
-| $P$ | State transition probability $P(s'|s,a)$ |
+| $P$ | State transition probability $P(s' | s,a)$ |
 | $R$ | Reward function $R(s,a,s')$ |
 | $\gamma$ | Discount factor |
 
@@ -51,7 +51,7 @@ RL problems are modeled as MDP: $(S, A, P, R, \gamma)$
 ### Policy Gradient Methods
 
 | Algorithm | Characteristic | Application |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | REINFORCE | Monte Carlo estimation | Discrete actions |
 | PPO | Trust region constraint | Continuous actions |
 | SAC | Maximum entropy | Continuous actions |
@@ -59,7 +59,7 @@ RL problems are modeled as MDP: $(S, A, P, R, \gamma)$
 ### Value Function Methods
 
 | Algorithm | Characteristic | Application |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | DQN | Experience replay, target network | Discrete, low-dim |
 | TD3 | Double critic | Continuous actions |
 | DDPG | Actor-Critic framework | Continuous actions |
@@ -69,7 +69,7 @@ RL problems are modeled as MDP: $(S, A, P, R, \gamma)$
 ### State Space Design
 
 | State Variable | Dimension | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Position $(x,y,z)$ | 3 | Geographic coordinates |
 | Velocity $(v_x,v_y,v_z)$ | 3 | Ground speed |
 | Wind estimation | 3 | Perceived wind disturbance |

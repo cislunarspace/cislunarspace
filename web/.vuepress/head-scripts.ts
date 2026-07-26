@@ -7,8 +7,11 @@
 
 /** Baidu Analytics tracking snippet. */
 function baiduAnalyticsScript(): ['script', Record<string, never>, string] {
-  const id = process.env.BAIDU_ANALYTICS_ID || '2675818a983a3131404cee835018f016'
-  return ['script', {}, `
+  const id = process.env.BAIDU_ANALYTICS_ID || '2675818a983a3131404cee835018f016';
+  return [
+    'script',
+    {},
+    `
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -16,7 +19,8 @@ function baiduAnalyticsScript(): ['script', Record<string, never>, string] {
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
-  `]
+  `,
+  ];
 }
 
 /**
@@ -24,7 +28,10 @@ function baiduAnalyticsScript(): ['script', Record<string, never>, string] {
  * Skips if the user has already chosen a locale (cislunar-lang-chosen).
  */
 function langDetectScript(): ['script', Record<string, never>, string] {
-  return ['script', {}, `
+  return [
+    'script',
+    {},
+    `
     (function() {
       if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
       if (window.location.pathname.startsWith('/en/')) return;
@@ -38,7 +45,8 @@ function langDetectScript(): ['script', Record<string, never>, string] {
         window.location.replace('/en/');
       }
     })();
-  `]
+  `,
+  ];
 }
 
 /** All client-side head scripts. */
@@ -46,4 +54,4 @@ export const headScripts = [
   baiduAnalyticsScript(),
   // Google Analytics loaded via googleAnalyticsPlugin, no manual script needed
   langDetectScript(),
-]
+];

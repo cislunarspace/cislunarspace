@@ -43,7 +43,7 @@ Additionally, citizen scientists participate in research projects across fields 
 
 NASA offers various citizen science projects on its official website for public participation, covering astronomy, Earth science, solar physics, and other fields. No professional background is required—just a telescope or internet connection to contribute to real scientific research.
 
-For more information: https://science.nasa.gov/get-involved/citizen-science/
+For more information: <https://science.nasa.gov/get-involved/citizen-science/>
 
 ## Sources (original pages)
 

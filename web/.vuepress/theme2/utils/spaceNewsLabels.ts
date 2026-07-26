@@ -10,47 +10,47 @@
  * Runtime detection of which locale to use stays at the call site
  * (`isEn` / `locale` computed); this module is a pure data table.
  */
-import type { SpaceNewsLocale } from './spaceNewsDirectoryView'
+import type { SpaceNewsLocale } from './spaceNewsDirectoryView';
 
 export interface HomeLabels {
-  kicker: string
-  title: string
-  lead: string
-  latest: string
-  viewAll: string
-  viewMore: string
+  kicker: string;
+  title: string;
+  lead: string;
+  latest: string;
+  viewAll: string;
+  viewMore: string;
 }
 
 export interface ArchiveLabels {
-  kicker: string
-  title: string
-  lead: string
-  backHome: string
-  empty: string
-  all: string
+  kicker: string;
+  title: string;
+  lead: string;
+  backHome: string;
+  empty: string;
+  all: string;
 }
 
 export interface SidebarLabels {
-  brandTitle: string
-  subtitle: string
-  home: string
-  archive: string
-  latest: string
-  more: string
-  categories: string
-  timeline: string
-  totalArticles: string
+  brandTitle: string;
+  subtitle: string;
+  home: string;
+  archive: string;
+  latest: string;
+  more: string;
+  categories: string;
+  timeline: string;
+  totalArticles: string;
 }
 
 export interface ArticleLabels {
-  backToNews: string
+  backToNews: string;
 }
 
 export const spaceNewsLabels: {
-  home: Record<SpaceNewsLocale, HomeLabels>
-  archive: Record<SpaceNewsLocale, ArchiveLabels>
-  sidebar: Record<SpaceNewsLocale, SidebarLabels>
-  article: Record<SpaceNewsLocale, ArticleLabels>
+  home: Record<SpaceNewsLocale, HomeLabels>;
+  archive: Record<SpaceNewsLocale, ArchiveLabels>;
+  sidebar: Record<SpaceNewsLocale, SidebarLabels>;
+  article: Record<SpaceNewsLocale, ArticleLabels>;
 } = {
   home: {
     zh: {
@@ -116,4 +116,4 @@ export const spaceNewsLabels: {
     zh: { backToNews: '返回航天动态' },
     en: { backToNews: 'Back to Space News' },
   },
-}
+};

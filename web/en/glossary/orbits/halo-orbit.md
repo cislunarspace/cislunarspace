@@ -79,6 +79,7 @@ Halo orbits have core application value in cislunar missions:
 - **Deep space exploration stepping stone**: Halo orbits can serve as transfer orbits for deeper space missions
 
 ## Related Concepts
+
 - [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
@@ -86,6 +87,7 @@ Halo orbits have core application value in cislunar missions:
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Farquhar R W. The utilization of halo orbits in advanced lunar operations[R]. NASA, 1971.
 - Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025.

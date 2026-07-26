@@ -7,43 +7,43 @@
  * and can be swapped (fetch vs. in-memory) without changing the answer
  * engine.
  */
-import type { SiteContext } from './chat-types'
+import type { SiteContext } from './chat-types';
 
 export interface ChatContextManager {
-  loadContext(signal: AbortSignal): Promise<SiteContext | null>
+  loadContext(signal: AbortSignal): Promise<SiteContext | null>;
 }
 
 /** Default fetch-backed manager with in-memory cache. */
 export function createFetchContextManager(endpoint = '/ai-chat-context.json'): ChatContextManager {
-  let cached: SiteContext | null = null
-  let inflight: Promise<SiteContext> | null = null
+  let cached: SiteContext | null = null;
+  let inflight: Promise<SiteContext> | null = null;
 
   return {
     async loadContext(signal) {
-      if (cached) return cached
-      if (inflight) return inflight
+      if (cached) return cached;
+      if (inflight) return inflight;
 
       inflight = fetch(endpoint, { cache: 'no-store', signal })
         .then((r) => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`)
-          return r.json() as Promise<SiteContext>
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          return r.json() as Promise<SiteContext>;
         })
         .then((data) => {
-          cached = data
-          return data
+          cached = data;
+          return data;
         })
         .catch((err) => {
-          if (err instanceof Error && err.name === 'AbortError') throw err
-          cached = { zh: {}, en: {} }
-          return cached
+          if (err instanceof Error && err.name === 'AbortError') throw err;
+          cached = { zh: {}, en: {} };
+          return cached;
         })
         .finally(() => {
-          inflight = null
-        })
+          inflight = null;
+        });
 
-      return inflight
+      return inflight;
     },
-  }
+  };
 }
 
 /** In-memory manager — always returns the injected context, no fetch.
@@ -51,7 +51,7 @@ export function createFetchContextManager(endpoint = '/ai-chat-context.json'): C
 export function createInMemoryContextManager(context: SiteContext | null): ChatContextManager {
   return {
     async loadContext() {
-      return context
+      return context;
     },
-  }
+  };
 }

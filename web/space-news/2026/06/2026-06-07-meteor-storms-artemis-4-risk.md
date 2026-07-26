@@ -45,7 +45,7 @@ NASA 也在 JWST 哈勃等旗舰轨道望远镜上部署了类似协议：在重
 ## 中英术语对照表
 
 | 中文 | 英文 | 简注 |
-|------|------|------|
+| ------ | ------ | ------ |
 | 微流星体与空间碎片 | Micrometeoroid and Orbital Debris (MMOD) | NASA 风险评估标准术语 |
 | 超高速冲击测试 | Hypervelocity impact testing | 用于验证 MMOD 防护设计 |
 | 流星暴雨 / 异常爆发 | Meteor storm / outburst | 显著超出偶发背景的强流星事件 |

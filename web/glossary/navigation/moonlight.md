@@ -28,7 +28,7 @@ permalink: /glossary/navigation/moonlight/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 概述
 
@@ -37,13 +37,14 @@ permalink: /glossary/navigation/moonlight/
 ## 星座构成
 
 月光星座由 5 颗月球卫星组成的网络集群，包括：
+
 - 1 颗 1 吨重的通信卫星
 - 4 颗基于伽利略卫星导航系统技术的导航卫星
 
 ## 实施计划
 
 | 阶段 | 时间 |
-|:---|:---|
+| :--- | :--- |
 | 正式实施 | 2026 年 |
 | 初步服务开启 | 2028 年 |
 | 全面投入运营 | 2030 年前 |

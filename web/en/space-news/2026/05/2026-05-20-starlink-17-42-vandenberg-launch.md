@@ -23,7 +23,7 @@ Booster B1103 — among SpaceX's most frequently reused first stages — success
 ## Launch Data
 
 | Item | Data |
-|------|------|
+| ------ | ------ |
 | Mission | Starlink 17-42 |
 | Payload | 24 Starlink satellites |
 | Launch Time | PDT May 19, 2026 19:46 (UTC May 20, 02:46) |

@@ -39,6 +39,7 @@ The SRP acceleration is given by:
 $$a_{SRP} = k C_R \frac{S_0}{c} \frac{A}{m} \left(\frac{R_0}{R}\right)^2 \hat{n}$$
 
 where:
+
 - $k$: shadow factor (1 in sunlight, 0 in shadow)
 - $C_R$: reflection coefficient (1 for diffuse, 2 for specular reflection)
 - $S_0$: solar constant ($\approx 1367$ W/m²)

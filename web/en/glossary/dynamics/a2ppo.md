@@ -69,7 +69,7 @@ A two-stage hyperparameter search (100 trials each) is conducted using the Optun
 Evaluation results across four cislunar low-thrust transfer scenarios:
 
 | Scenario | Description | ToF (days) | Fuel (kg) | vs. Direct Collocation |
-|:---|:---|:---:|:---:|:---|
+| :--- | :--- | :---: | :---: | :--- |
 | S1 | L₂ Halo → Halo | 4.95 | 2.08 | 4.99 days / 1.28 kg |
 | S2 | L₂ Halo → NRHO | 8.38 | 5.00 | 7.26 days / 5.29 kg |
 | S3 | NRHO → DRO | 7.60 | 5.10 | 7.63 days / 5.11 kg |

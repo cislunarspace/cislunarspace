@@ -41,6 +41,7 @@ permalink: /glossary/doctrine/distributed-architecture/
 ### 轨道族选择
 
 分布式架构中的观测卫星通常部署在以下轨道族：
+
 - 远距离逆行轨道（DRO）
 - L1/L2 晕轨道
 - 共振轨道（如 2:1、3:2 共振）
@@ -49,6 +50,7 @@ permalink: /glossary/doctrine/distributed-architecture/
 ### 覆盖性能评估
 
 评估指标包括：
+
 - 体积覆盖率
 - 轨迹覆盖率
 - 韧性地图（Resilience Map）
@@ -57,7 +59,7 @@ permalink: /glossary/doctrine/distributed-architecture/
 ## 与单星架构对比
 
 | 特性 | 单星架构 | 分布式架构 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 覆盖范围 | 有限 | 全域/关键区 |
 | 冗余度 | 低 | 高 |
 | 抗毁性 | 差 | 好 |
@@ -67,16 +69,19 @@ permalink: /glossary/doctrine/distributed-architecture/
 ## 核心要素
 
 ### 数学描述
+
 分布式架构由 $N$ 个观测卫星组成，每颗卫星 $i$ 的状态为 $\mathbf{x}_i(t)$，检测区域为 $\mathcal{D}_i(t)$，架构总覆盖为：
 
 $$\mathcal{D}_{\text{total}}(t) = \bigcup_{i=1}^{N} \mathcal{D}_i(t)$$
 
 ### 关键性质
+
 - 分布式架构的覆盖性能随卫星数量近似线性增长（边际效益递减）
 - 轨道配置和初相选择显著影响覆盖性能
 - 协同调度可进一步提升覆盖效率
 
 ### 应用场景
+
 分布式架构适用于高价值资产保护、载人任务支持、深空通信保障等地月空间安全关键任务。
 
 ## 相关概念

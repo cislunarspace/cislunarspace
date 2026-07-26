@@ -262,6 +262,7 @@ twitter:
 本页将随着站点内容建设持续补充新的术语条目与分类目录，逐步形成更完整的地月空间术语体系。
 
 **2026-04-29 更新（七）**：根据Li等(2026)《Gravitational redshift test in a lunar distant retrograde orbit using a compact hydrogen maser》论文，新增5个基本物理与时间频率技术术语：
+
 - 引力红移（Gravitational Redshift）
 - 被动氢原子钟（Passive Hydrogen Maser, PHM）
 - 双向单程测距（Dual One-Way Ranging, DOWR）
@@ -269,12 +270,14 @@ twitter:
 - 阿伦偏差（Allan Deviation, ADEV）
 
 **2026-04-29 更新（六）**：根据丰松江等(2021)《印度航天力量发展与战略重点探析》论文，新增 12 个术语：
+
 - 机构与组织：印度空间研究组织（ISRO）、斯里哈里科塔航天发射场（SDSC-SHAR）
 - 导航技术与系统：GPS辅助地球增强导航系统（GAGAN）、印度区域导航卫星系统（IRNSS）
 - 其他技术：极地轨道卫星运载火箭（PSLV）、地球同步轨道卫星运载火箭（GSLV）、印度卫星（INSat）
 - 军事太空条令：反卫星试验（ASAT）、定向能武器（DEW）、动能武器、制天权、军民一体化
 
 **2026-04-29 更新（五）**：根据KASA《Space Transportation / Satellite / Space Science Exploration Strategic Plan》(2024)战略文件，新增 9 个术语：
+
 - 机构与组织：韩国航空宇宙厅（KASA）、Danuri月球轨道器
 - 航天运输与发射：可重复使用运载火箭（Reusable Launch Vehicle）、轨道转移飞行器（OTV）
 - 任务轨道：超低地球轨道（VLEO）
@@ -282,6 +285,7 @@ twitter:
 - 导航技术与系统：定位导航授时（PNT）
 
 **2026-04-29 更新（四）**：根据段志慧等(2026)关于基于北斗卫星系统的地月空间全时通信论文，新增「卫星通信与测控」分类，共 6 个术语：
+
 - 北斗卫星系统（BeiDou Satellite System）
 - 星间链路（Inter-Satellite Link）
 - 全时无缝通信（All-Time Seamless Communication）
@@ -290,6 +294,7 @@ twitter:
 - 激光微波通信（Laser-Microwave Communication）
 
 **2026-04-29 更新（三）**：根据陈昱桔(2024)关于面向地月空间态势感知的DRO轨道设计与控制研究论文，新增 29 个术语：
+
 - 动力学与数学基础：平动点、Jacobi积分、状态转移矩阵、单值矩阵、稳定性指数、混沌效应、二级微分修正法、打靶法、延拓法、拼接点、靶点法、动态靶点法、初值优化、太阳辐射压、差分进化算法
 - 任务轨道：拟周期轨道、共振轨道、轨道保持
 - 军事太空条令：地月空间态势感知
@@ -297,12 +302,14 @@ twitter:
 - DRO轨道设计与控制：脉冲推力、Floquet模态法、太阳常数、反射系数、入轨误差、导航误差、执行机构误差、倍周期分岔
 
 **2026-04-29 更新（二）**：根据Sun等(2026)关于地月空间移动天体光学巡天论文，新增「天文观测技术」分类，共 14 个术语：
+
 - 图像叠加（Image Stacking）、移位叠加（SAA）、合成跟踪（Synthetic Tracking）、恒星跟踪（Sidereal Tracking）
 - 信噪比（SNR）、天体测量（Astrometry）、源提取（Source Extraction）、星历关联（Ephemeris Correlation）
 - 地月空间移动天体（Cislunar Moving Objects）、月球眩光区（Lunar Glare Zone）
 - 图像配准（Image Registration）、背景恒星消除、分割图（Segmentation Map）、热像素（Hot Pixel）
 
 **2026-04-29 更新**：根据美国太空军《Space Force Vector 2025》条令文件，新增「军事太空条令」分类，共 19 个术语：
+
 - 太空优势（Space Superiority）、竞争性耐力（Competitive Endurance）
 - DOTMLPF-P 条令框架、任务式指挥（Mission Command）
 - 力量设计（Force Design）、力量发展（Force Development）、力量生成（Force Generation）、力量运用（Force Employment）
@@ -311,6 +318,7 @@ twitter:
 - 空间域感知（SDA）、反空间作战（Counterspace Operations）、弹性分散式架构、OTTI、金穹（Golden Dome）
 
 **2026-04-27 更新**：根据Jing等(2025)关于基于大语言模型的航天器意图识别论文，新增以下术语：
+
 - CW方程（Clohessy-Wiltshire）
 - 非合作目标（Noncooperative Target）
 - 航天器意图识别（Spacecraft Intention Recognition）
@@ -319,16 +327,19 @@ twitter:
 - 提示调优（P-tuning）
 
 **2026-04-24 更新（二）**：根据2026年中国航天大会发布的宇航领域十大科学问题和技术难题，新增以下术语：
+
 - 地月空间时空基准（Cislunar Spatiotemporal Reference）
 - 纵向耦合振动（POGO）
 - 核热推进（NTP）
 - 太空交通管控（STM）
 
 **2026-04-24 更新**：新增嫦娥五号月球样品研究最新成果中的两种月球新矿物：
+
 - 镁嫦娥石（Changeite-Mg）
 - 铈嫦娥石（Changeite-Ce）
 
 **2026-04-23 更新**：新增以下来自乔晨远等 (2025) 论文的术语：
+
 - Birkhoff-Gustavson 标准型
 - 中心流形（Central Manifold）
 - 庞加莱截面（Poincaré Section）
@@ -336,25 +347,30 @@ twitter:
 - 轨道辨识（Orbit Identification）
 
 **2026-04-29 更新（八）**：根据张乘铭(2021)《航天器追逃博弈制导策略研究》论文，新增5个术语：
+
 - 动力学与数学基础：微分对策（Differential Games）、航天器追逃博弈（Spacecraft Pursuit-Evasion Game）、零控脱靶量（Zero-Effort Miss）、鞍点策略（Saddle-Point Strategy）
 - 其他技术：追逃防（Pursuit-Evasion-Defense Game）
 
 **2026-04-29 更新（九）**：根据钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》论文，新增5个术语：
+
 - 导航技术与系统：自主导航（Autonomous Navigation）、日地月信息自主导航（SEM Navigation）、可观测性（Observability）、扩展卡尔曼滤波（EKF）
 - 动力学与数学基础：改进的基准轨迹靶点法（Improved Baseline Control-Point Method）
 
 **2026-04-29 更新（十）**：根据钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》论文，新增13个动力学与坐标系统术语：
+
 - 坐标系：J2000地心赤道惯性坐标系、地心瞬时会合坐标系（GRC）、L2点瞬时会合坐标系（LRC）、质心会合坐标系、平动点飞行器轨道坐标系、平动点飞行器本体坐标系
 - 动力学方法：不不变流形（Invariant Manifold）、Lindstedt-Poincare法、伪弧长延拓法
 
 **2026-04-29 更新（十一）**：根据《平流层飞艇长航时区域驻留控制关键技术研究综述》论文，新增25个平流层飞艇与临近空间技术术语：
 
 基础概念：
+
 - 平流层飞艇（Stratospheric Airship）
 - 临近空间（Near-space）
 - 高空飞艇（HAA, High Altitude Airship）
 
 动力学与控制：
+
 - 区域驻留控制（Regional Station-keeping Control）
 - 滑模控制（Sliding Mode Control）
 - 反步滑模控制（Backstepping Sliding Mode Control）
@@ -373,11 +389,13 @@ twitter:
 - 高斯过程回归（GPR）
 
 观测与环境：
+
 - 准零风层（Quasi-zero Wind Layer）
 - 纬向风（Zonal Wind）
 - 太阳辐射（Solar Radiation）
 - 地球反照（Earth Albedo）
 
 导航技术：
+
 - 高度调控（Altitude Regulation）
 - 航迹规划（Trajectory Planning）

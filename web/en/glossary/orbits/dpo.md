@@ -48,7 +48,7 @@ DPO possesses the following properties within the CR3BP framework:
 Using the Earth-Moon system as an example, the main parameter ranges for the DPO orbit family are as follows (based on the dynamic catalog statistics by Guzzetti et al.):
 
 | Parameter | Range |
-|:---|:---|
+| :--- | :--- |
 | Jacobi Constant | 2.9941 ~ 3.1827 (mean 3.1150) |
 | Orbital Period | 5.82 ~ 28.00 days (mean 13.10 days) |
 | Stability Index | 1.000 ~ 1342.8 (mean 302.43) |
@@ -60,7 +60,7 @@ The wide distribution of DPO orbital periods and stability indices means that me
 DPO and DRO are two important comparative objects within the lunar-centered orbit family:
 
 | Feature | DRO (Distant Retrograde Orbit) | DPO (Distant Prograde Orbit) |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Motion direction | Retrograde (clockwise) | Prograde (counterclockwise) |
 | Stability | Predominantly stable | Highly variable, partially unstable |
 | Typical application | Long-term storage, situational awareness | Low-energy transfer, lunar parking |
@@ -93,6 +93,7 @@ DPO has the following applications in cislunar space missions:
 - **Dynamical structure research**: As an important member of the lunar-centered orbit family, DPO is key to understanding the dynamical structure of the lunar-centered region in cislunar space
 
 ## Related Concepts
+
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Low Prograde Orbit (LoPO)](/en/glossary/orbits/lopo/)
 - [Prograde](/en/glossary/orbits/prograde/)
@@ -100,6 +101,7 @@ DPO has the following applications in cislunar space missions:
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Mingotti G, Topputo F, Bernelli-Zazzera F. Exploiting distant periodic orbits and their invariant manifolds to design novel space trajectories to the Moon[C]. AAS/AIAA Space Flight Mechanics Meeting, 2010.
 - Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.

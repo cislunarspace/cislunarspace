@@ -16,7 +16,7 @@ The Digital Lunar Cloud Platform is led by the Institute of Geochemistry, Chines
 ## Basic Information
 
 - **Source**: Institute of Geochemistry, Chinese Academy of Sciences
-- **Platform URL**: http://moon.bao.ac.cn/
+- **Platform URL**: <http://moon.bao.ac.cn/>
 
 ## Key Features
 
@@ -32,4 +32,4 @@ The Digital Lunar Cloud Platform is led by the Institute of Geochemistry, Chines
 
 ## Official Resources
 
-- Platform URL: http://moon.bao.ac.cn/
+- Platform URL: <http://moon.bao.ac.cn/>

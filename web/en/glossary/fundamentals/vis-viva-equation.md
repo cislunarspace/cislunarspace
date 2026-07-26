@@ -45,7 +45,7 @@ From the vis-viva equation, the specific mechanical energy $\varepsilon$ depends
 $$\varepsilon = \frac{1}{2}v^2 - \frac{\mu_E}{r} = -\frac{\mu_E}{2a}$$
 
 | Orbit Type | Semi-Major Axis | Specific Mechanical Energy |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Circular / Elliptical orbit | $a > 0$ | $\varepsilon < 0$ |
 | Parabolic orbit | $a \to \infty$ | $\varepsilon = 0$ |
 | Hyperbolic orbit | $a < 0$ | $\varepsilon > 0$ |
@@ -53,7 +53,7 @@ $$\varepsilon = \frac{1}{2}v^2 - \frac{\mu_E}{r} = -\frac{\mu_E}{2a}$$
 ### Characteristic Velocities
 
 | Velocity | Formula | Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | First cosmic velocity | $v_I = \sqrt{\mu_E/R_E} = 7.9 \, \text{km/s}$ | Circular orbit velocity at Earth's surface |
 | Second cosmic velocity | $v_{II} = \sqrt{2\mu_E/R_E} = 11.2 \, \text{km/s}$ | Escape velocity at Earth's surface |
 | Escape velocity | $v_{\text{esc}} = \sqrt{2\mu_E/r}$ | Escape velocity at any altitude |

@@ -63,7 +63,7 @@ LoRA training follows these steps:
 ## Comparison with Full Fine-Tuning
 
 | Feature | Full Fine-Tuning | LoRA |
-|---------|-----------------|------|
+| --------- | ----------------- | ------ |
 | Trainable parameters | 100% | 0.1%–3% |
 | Memory requirements | High | Low |
 | Training speed | Slow | Fast |
@@ -76,7 +76,7 @@ LoRA training follows these steps:
 Both LoRA and P-tuning V2 are parameter-efficient fine-tuning methods, but they differ in strategy:
 
 | Feature | LoRA | P-tuning V2 |
-|---------|------|-------------|
+| --------- | ------ | ------------- |
 | Parameter modification | Constructs low-rank matrices externally | Adds soft prompts and embedding layers internally |
 | Modification location | Weight matrices at each target layer | Virtual prompts before input + embeddings at each layer |
 | Inference | No overhead after weight merging | Requires processing additional soft prompt tokens |

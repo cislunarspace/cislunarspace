@@ -45,14 +45,17 @@ The USS John P. Murtha has left port and is headed to the midway point toward th
 The crew will prepare for a full day of flight test objectives and return to Earth tasks on Wednesday, April 8. Key upcoming tests include:
 
 #### 1. Orthostatic Intolerance Garment Test
+
 NASA astronauts Reid Wiseman, Victor Glover, along with Koch and Hansen, will test an orthostatic intolerance garment. During the test, the crew will evaluate the garments—specialized equipment designed to help astronauts maintain blood pressure and circulation during the transition back to Earth's gravity.
 
 #### 2. Manual Control Demonstration
+
 Following the garment testing, the crew will take manual control of the spacecraft, using Orion's field of view to center a designated target before guiding the spacecraft to a tail-to-Sun attitude and comparing Orion's control modes. The manual piloting demonstration will begin at 9:59 p.m.
 
 ### Real-time Mission Updates
 
 NASA provides multiple channels for real-time updates:
+
 - Artemis II Multimedia Resource Page
 - X @NASAArtemis
 - Facebook @NASAArtemis

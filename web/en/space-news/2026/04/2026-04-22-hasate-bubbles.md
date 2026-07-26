@@ -37,7 +37,7 @@ The Bubbles mission designation corresponds to a specific scientific experiment,
 ## Launch Details
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Rocket | Electron |
 | Mission Designation | HASTE / Bubbles |
 | Launch Time | 2026-04-22 00:00 UTC |

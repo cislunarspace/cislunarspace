@@ -33,6 +33,7 @@ L1 NRHO 与 L2 NRHO 的稳定方向不同——L1 点的 NRHO 在某些方向上
 ## 轨道族分类
 
 NRHO 可按平动点（L1/L2）和振幅（南北族）分为四族：
+
 - L1 北族 NRHO（L1 Northern）和 L1 南族 NRHO（L1 Southern）
 - L2 北族 NRHO（L2 Northern）和 L2 南族 NRHO（L2 Southern）
 
@@ -41,6 +42,7 @@ NRHO 可按平动点（L1/L2）和振幅（南北族）分为四族：
 ## 工程应用
 
 NRHO 的主要工程价值在于其相对月球的特殊几何位置：
+
 - **月球门户（Gateway）**：NASA Artemis 计划选择 L1 NRHO 作为 Gateway 的轨道，兼顾地月往返与月面 접근
 - **中继与观测**：L2 NRHO 可为月球背面（如嫦娥四号着陆区）提供持续通信覆盖
 - **燃料效率**：从 NRHO 到月面的转移 ΔV 预算约为 200-400 m/s，优于从 LEO 直接下降

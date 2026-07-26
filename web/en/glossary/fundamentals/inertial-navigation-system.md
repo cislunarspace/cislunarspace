@@ -37,7 +37,7 @@ An inertial navigation system (INS) is a self-contained navigation system that u
 ### Core Sensors
 
 | Sensor | Function | Typical Accuracy |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Accelerometer | Measures specific force (non-gravitational acceleration) along the sensitive axis | Bias $10^{-5}$--$10^{-6}$ m/s$^2$ |
 | Gyroscope | Measures angular rate about the sensitive axis | Drift 0.001--0.01 deg/h |
 
@@ -75,5 +75,5 @@ Inertial navigation systems are the standard navigation solution for ballistic m
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.

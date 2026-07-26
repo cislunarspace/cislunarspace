@@ -101,12 +101,15 @@ $$
 ## 核心要素
 
 ### 数学定义
+
 星历模型采用 N 体运动方程描述航天器在多个天体引力作用下的运动，各天体位置和速度来自 JPL 行星精密星历表（如 DE440），而非简化的圆轨道假设。
 
 ### 关键性质
+
 星历模型是最接近真实引力场环境的动力学模型，CRTBP 下的严格周期轨道在星历模型中将演变为拟周期轨道。模型需要进行 J2000 地心惯性坐标系与地月会合坐标系之间的转换。
 
 ### 数值方法
+
 状态转移矩阵通过变分方程与运动方程同时积分（42 维增广状态向量）。轨道修正采用多步打靶法等方法进行位置和速度修正。
 
 ## 应用价值
@@ -119,7 +122,6 @@ $$
 - [拟双圆四体问题（QBCP）](/glossary/dynamics/qbcp/)
 - [二级微分修正法（Two-Level Differential Correction）](/glossary/dynamics/two-level-differential-correction/)
 - [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
-
 
 ## 参考文献
 

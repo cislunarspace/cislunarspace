@@ -48,7 +48,7 @@ SExtractor (Source Extractor) is the most widely used source extraction tool in 
 One of the core parameters in source extraction is the detection threshold, which determines how many times above the background noise a source signal must be to be considered a genuine detection. The threshold must balance sensitivity and reliability:
 
 | Application Scenario | Recommended Threshold | Notes |
-|:---|:---:|:---|
+| :--- | :---: | :--- |
 | Background star detection | $1.5\sigma$ | Lower threshold to ensure complete extraction of reference stars |
 | Candidate detection (after stacking) | $3\sigma$ | Higher threshold to reduce false alarm rate |
 

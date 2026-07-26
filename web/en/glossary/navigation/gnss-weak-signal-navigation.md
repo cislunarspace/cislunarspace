@@ -28,7 +28,7 @@ permalink: /en/glossary/navigation/gnss-weak-signal-navigation/
 >
 > This article author: Tianjiang Shuo
 >
-> This article source: https://cislunarspace.cn
+> This article source: <https://cislunarspace.cn>
 
 ## Background and Basic Principles
 
@@ -51,7 +51,7 @@ The implementation of weak signal navigation depends on four core technological 
 ## Performance and Limitations
 
 | Metric | Performance |
-|:---|:---|
+| :--- | :--- |
 | Positioning Accuracy | Lunar surface: ±15 m, Earth-Moon transfer: ±50 m |
 | Coverage | Earth-visible region, weak coverage on far side and polar regions |
 | Reliability | Moderate, limited by Earth visibility |
@@ -70,9 +70,9 @@ GNSS weak signal navigation is the lowest-cost and fastest-deploying path among 
 - [Near Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 - [Earth-Moon L1/L2 Halo Orbit (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
 - [X-ray Pulsar Navigation](/en/glossary/navigation/xray-pulsar-navigation/)
-- Earth-Moon Hybrid Navigation
-- Lunar Navigation Constellation
-- Inter-Satellite Link Navigation
+- [Earth-Moon Hybrid Navigation](/en/glossary/navigation/earth-moon-hybrid-navigation/)
+- [Lunar Navigation Constellation](/en/glossary/navigation/lunar-navigation-constellation/)
+- [Inter-Satellite Link Navigation](/en/glossary/navigation/inter-satellite-link-navigation/)
 
 ## References
 

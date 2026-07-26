@@ -45,7 +45,7 @@ The core principle of sidereal tracking is compensating for the apparent motion 
 ### Comparison with Other Tracking Modes
 
 | Tracking Mode | Tracking Target | Background Stars | Moving Objects |
-|--------------|----------------|-----------------|----------------|
+| -------------- | ---------------- | ----------------- | ---------------- |
 | Sidereal Tracking | Background stars | Stationary | Moving (trailing or displaced) |
 | Target Tracking | Specific object | Moving (trailing) | Stationary |
 | Fixed Pointing | No tracking | Trailing | Trailing (different rate) |

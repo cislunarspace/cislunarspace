@@ -63,11 +63,12 @@ The horizontal recovery approach, exemplified by Blue Origin's New Shepard rocke
 Reusable technology has a significant impact on launch costs:
 
 | Vehicle | Expendable Launch Cost | Reusable Launch Cost | Cost Reduction |
-|---------|--------------|----------------|------------|
+| --------- | -------------- | ---------------- | ------------ |
 | Falcon 9 | ~$60M | ~$50M | ~15% |
 | Starship (target) | Estimated hundreds of $M | Target <$10M | >95% |
 
 Key sources of cost reduction:
+
 - Hardware reuse reduces new rocket manufacturing costs
 - Higher launch frequency amortizes R&D costs
 - Mass production reduces per-unit costs

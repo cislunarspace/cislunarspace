@@ -35,7 +35,7 @@ Six-degree-of-freedom (6-DOF) motion equations describe complete motion state of
 ## Coordinate Systems
 
 | Frame | Origin | Axes | Purpose |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Earth Frame $(O_E)$ | Ground point | $E_N, E_E, E_D$ | Trajectory description |
 | Body Frame $(O_B)$ | Airship CG | $B_x, B_y, B_z$ | Force/moment description |
 | Velocity Frame $(O_A)$ | Airship CG | $A_x, A_y, A_z$ | Aerodynamic calculation |

@@ -59,7 +59,7 @@ GITAI 是 MDA SHIELD IDIQ（加拿大MDA公司主导的太空服务供应商库�
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | GITAI Robotic Arm | 机械臂 | 太空在轨服务专用双机械臂系统 |
 | GITAI Rover | 月球车 | 月面移动作业平台 |
 | 触觉反馈系统 | 人机交互 | 远程操作员可感知机械臂接触力 |
@@ -115,6 +115,6 @@ GITAI 是与地月空间直接相关的最重要的商业公司之一，其太�
 
 ## 参考文献
 
-- GITAI 官网: https://www.gitai.space
+- GITAI 官网: <https://www.gitai.space>
 - NASA, "GITAI selected for MDA SHIELD IDIQ", 2024.
 - JAXA Press Release, "JAXA selects GITAI for lunar rover robotic arm", 2024.

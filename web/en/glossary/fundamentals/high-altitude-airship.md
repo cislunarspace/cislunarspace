@@ -35,7 +35,7 @@ A High Altitude Airship (HAA) is an unmanned aerostat designed to operate at str
 ## Technical Specifications
 
 | Specification | Value |
-|:---|:---|
+| :--- | :--- |
 | Altitude | 18-25 km (typical), up to 30 km |
 | Mission duration | 14-90 days |
 | Payload capacity | 50-500 kg |
@@ -46,7 +46,7 @@ A High Altitude Airship (HAA) is an unmanned aerostat designed to operate at str
 ## Key Programs
 
 | Program | Country | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | HiSentinel | USA | 50-80 km altitude, Army research |
 | HALE-D | USA | DARPA program, endurance demonstration |
 | Sceye HAPS | USA | Commercial platform, solar-powered |

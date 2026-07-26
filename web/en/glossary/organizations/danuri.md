@@ -46,7 +46,7 @@ The primary mission objectives of Danuri include:
 Danuri carries several scientific payloads:
 
 | Payload | Function | Description |
-|---------|----------|-------------|
+| --------- | ---------- | ------------- |
 | Terrain Imager | High-resolution lunar surface imaging | Used for lunar terrain mapping |
 | Lunar Magnetometer | Lunar magnetic field measurement | Studying lunar magnetic field characteristics |
 | Gamma-Ray Spectrometer | Lunar surface elemental composition analysis | Detecting elemental distribution on the lunar surface |
@@ -70,7 +70,7 @@ Danuri employs a Ballistic Lunar Transfer (BLT) trajectory, using solar gravity 
 ## Mission Timeline
 
 | Date | Event |
-|------|-------|
+| ------ | ------- |
 | August 4, 2022 | Launched |
 | December 2022 | Entered lunar orbit |
 | 2023 to present | Continuing scientific exploration mission |

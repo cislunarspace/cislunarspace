@@ -21,7 +21,7 @@ image: ./figures/2026-04-26-china-2025-launch-stats/hero.jpg
 ## Key Figures
 
 | Metric | Value | Notes |
-|--------|-------|-------|
+| -------- | ------- | ------- |
 | Total orbital launches (2025) | 92 | Historic high; +35% vs 2024 |
 | Of which commercial launches | 50 | ~54% of total |
 | 2026 projected launches | ~140 | Per CAS Space chairman Yang Yiqiang |

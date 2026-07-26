@@ -75,11 +75,13 @@ Apolune parameters have important applications in orbital design:
 - **Orbital stability analysis**: Changes in apolune position are an important indicator for assessing long-term orbital stability
 
 ## Related Concepts
+
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Perilune](/en/glossary/orbits/perilune/)
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 
 ## References
+
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.
 - Wei Z et al. Research on lunar gravity-assist injection into cislunar distant retrograde orbit families[J]. 2026.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

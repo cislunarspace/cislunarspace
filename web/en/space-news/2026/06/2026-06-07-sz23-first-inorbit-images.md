@@ -41,7 +41,7 @@ Since Shenzhou-13, eight astronaut crews have completed six-month stays aboard t
 ## Crew Composition
 
 | Astronaut | Role | Background |
-|-----------|------|------------|
+| ----------- | ------ | ------------ |
 | Zhu Yangzhu | Commander / Flight Engineer | Previous in-orbit experience |
 | Zhang Zhiyuan | Pilot | Military pilot background |
 | Lai Ka-ying | Payload Specialist | Hong Kong's first astronaut; former HK police officer |

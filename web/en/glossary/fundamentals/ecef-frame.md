@@ -37,7 +37,7 @@ The Earth-Centered Earth-Fixed (ECEF) frame, also known as the Conventional Terr
 ### Frame Definition
 
 | Element | Definition |
-|:---|:---|
+| :--- | :--- |
 | Origin | Earth's center of mass |
 | $X_E Y_E$ plane | Conventional equatorial plane of the Earth |
 | $Z_E$ axis | Points toward the 1984.0 Conventional Terrestrial Pole (CTP) as defined by the BIH |
@@ -47,7 +47,7 @@ The Earth-Centered Earth-Fixed (ECEF) frame, also known as the Conventional Terr
 ### Conventional Terrestrial System Standards
 
 | Standard | Used By | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | WGS-84 | GPS navigation system | Internally adopted; high accuracy |
 | CGCS2000 | BeiDou navigation system | China's national geodetic datum |
 | ITRF | International Terrestrial Reference Frame | Highest accuracy; includes plate motion model |

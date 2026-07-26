@@ -16,6 +16,7 @@ wechatShare:
 # Kuaizhou-11 Yaoyi-7 rocket launches with 8 satellites
 
 **Summary:** According to **China National Space Administration (CNSA)**, the **Kuaizhou-11 Yaoyi-7** rocket launched on **March 16, 2026**, at **12:12 Beijing Time** from the **Jiuquan Satellite Launch Center**, carrying **8 satellites**:
+
 - Juntian-1 04A
 - Dongpo 11, 12, 16
 - Yuxing-3 05, 06

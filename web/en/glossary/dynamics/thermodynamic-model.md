@@ -41,7 +41,7 @@ $$Q_{net} = Q_{solar} + Q_{albedo} + Q_{IR,earth} - Q_{IR,sky} - Q_{conv} - Q_{c
 ## Two-node vs Seven-node Models
 
 | Model | Description | Application |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Two-node | Skin + Helium nodes | Preliminary analysis, fast estimation |
 | Seven-node | Distributed nodes by location | Detailed design, transient analysis |
 
@@ -50,7 +50,7 @@ $$Q_{net} = Q_{solar} + Q_{albedo} + Q_{IR,earth} - Q_{IR,sky} - Q_{conv} - Q_{c
 ### Coupling Variables
 
 | Variable | Thermal→Dynamic | Dynamic→Thermal |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Helium density $\rho_{He}$ | Affects buoyancy | Varies with altitude |
 | Volume $V_{He}$ | Thermal expansion | Deformation |
 | Temperature $T_{He}$ | Solar heating | Compression work |

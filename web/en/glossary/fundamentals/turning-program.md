@@ -37,7 +37,7 @@ The powered phase turning process is the complete maneuver of a vehicle from ver
 ### Three Phases of the Turn
 
 | Phase | Pitch Program Angle | Angle of Attack | Characteristics |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Vertical Segment | $\varphi_{pr} = 90°$ | $\alpha \approx 0$ | Vertical ascent, rapid transit through dense atmosphere |
 | Turning Segment | Gradually decreasing from 90° | $\alpha \neq 0$ | Generates normal force, velocity vector turns |
 | Aiming Segment | Constant | $\alpha \approx 0$ | Maintains desired velocity direction |
@@ -61,7 +61,7 @@ The control deflection angle $\delta_\varphi$ is determined by the difference be
 ### Turning Characteristics of Stable and Unstable Rockets
 
 | Type | $x_g - x_p$ | Angle of Attack Sign | Turning Characteristics |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Statically Stable Rocket | $< 0$ | $\delta_\varphi$ and $\alpha$ have the same sign | Naturally stable, requires continuous control to turn |
 | Statically Unstable Rocket | $> 0$ | $\delta_\varphi$ and $\alpha$ have opposite signs | Requires control system to maintain stability, fast turning response |
 

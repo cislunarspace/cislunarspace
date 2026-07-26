@@ -17,7 +17,7 @@ STK（Systems Tool Kit，原 Satellite Tool Kit）由美国 AGI 公司（现 Ans
 
 - **许可证**：商业软件（教育版免费）
 - **来源**：AGI / Ansys
-- **官方文档**：https://www.agi.com/products/stk
+- **官方文档**：<https://www.agi.com/products/stk>
 
 ## 主要功能
 
@@ -34,5 +34,5 @@ STK（Systems Tool Kit，原 Satellite Tool Kit）由美国 AGI 公司（现 Ans
 
 ## 官方资源
 
-- 官网：https://www.agi.com/products/stk
-- 教育版申请：https://www.agi.com/pages/academic
+- 官网：<https://www.agi.com/products/stk>
+- 教育版申请：<https://www.agi.com/pages/academic>

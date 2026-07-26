@@ -57,7 +57,7 @@ Anduril has built an orbital robotics business through acquisitions:
 ## Major Products and Technologies
 
 | Product/Technology | Type | Description |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Lattice | Software Platform | AI-driven multi-domain operations command system, supporting space situational awareness |
 | Prometheus Engine | Propulsion System | 3D-printed reusable rocket engine |
 | Roadrunner | UAV | Short takeoff and landing UAV powered by air-breathing engine (not space-specific) |
@@ -79,6 +79,6 @@ Anduril is competing for multiple on-orbit service contracts with the U.S. Space
 
 ## References
 
-- Anduril Industries Official Website: https://www.anduril.com
+- Anduril Industries Official Website: <https://www.anduril.com>
 - Defense News, "Anduril's space robotics ambitions take shape", 2024.
 - SpaceNews, "Anduril wins Space Force contracts for orbital debris tracking", 2024.

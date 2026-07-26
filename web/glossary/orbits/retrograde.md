@@ -74,10 +74,12 @@ $$\mathbf{h} = \mathbf{r} \times \mathbf{v}$$
 - **星座部署**：在 DRO 星座设计中，逆行特性影响卫星间的相对运动和覆盖特性
 
 ## 相关概念
+
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [顺行（Prograde）](/glossary/orbits/prograde/)
 
 ## 参考文献
+
 - 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 2026.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. 2016.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

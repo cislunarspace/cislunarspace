@@ -37,7 +37,7 @@ permalink: /glossary/fundamentals/two-body-problem/
 ### 基本假设
 
 | 假设 | 说明 |
-|:---|:---|
+| :--- | :--- |
 | 地球为均质球体 | 引力作用效果等价于质量集中于球心的质点 |
 | 飞行器为质点 | 尺寸远小于地心距，可忽略 |
 | 仅受中心引力 | 忽略大气阻力、第三体引力等摄动力 |
@@ -55,7 +55,7 @@ $$\ddot{\boldsymbol{r}} + \frac{\mu_E}{r^3}\boldsymbol{r} = 0$$
 二体运动方程存在以下守恒量：
 
 | 守恒量 | 数学表达 | 物理意义 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 比动量矩 | $\boldsymbol{h} = \boldsymbol{r} \times \boldsymbol{v} = \text{const}$ | 轨道面方位恒定 |
 | 比机械能 | $\varepsilon = \frac{1}{2}v^2 - \frac{\mu_E}{r} = \text{const}$ | 轨道尺寸恒定 |
 | 偏心率矢量 | $\boldsymbol{e} = \frac{1}{\mu_E}\left(\boldsymbol{v} \times \boldsymbol{h} - \frac{\mu_E}{r}\boldsymbol{r}\right) = \text{const}$ | 轨道形状和指向恒定 |

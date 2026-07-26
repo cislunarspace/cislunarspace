@@ -1,2 +1,2 @@
-import { runInject } from './wechat-share-tool.mjs'
-runInject()
+import { runInject } from './wechat-share-tool.mjs';
+runInject();

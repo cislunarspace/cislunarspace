@@ -10,19 +10,19 @@
  * 1. Add the layout type string to LayoutTypes in layout-types.ts
  * 2. Add a new computed property and corresponding :class binding in Layout.vue.
  */
-import { computed } from 'vue'
-import { usePage } from 'vuepress/client'
-import { LayoutTypes } from '../utils/layout-types'
+import { computed } from 'vue';
+import { usePage } from 'vuepress/client';
+import { LayoutTypes } from '../utils/layout-types';
 
 export function useLayoutType() {
-  const page = usePage()
-  return computed(() => String(page.value.frontmatter?.layout || ''))
+  const page = usePage();
+  return computed(() => String(page.value.frontmatter?.layout || ''));
 }
 
 export function useIsLayout(layoutType: LayoutTypes | LayoutTypes[]) {
-  const types = Array.isArray(layoutType) ? layoutType : [layoutType]
-  const layout = useLayoutType()
-  return computed(() => types.includes(layout.value as LayoutTypes))
+  const types = Array.isArray(layoutType) ? layoutType : [layoutType];
+  const layout = useLayoutType();
+  return computed(() => types.includes(layout.value as LayoutTypes));
 }
 
-export { LayoutTypes }
+export { LayoutTypes };

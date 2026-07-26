@@ -81,11 +81,13 @@ $$\Delta V_1 = |v_{\text{transfer}} - v_{\text{parking}}|$$
 - **商业发射实践**：现代商业地月任务（如 SpaceX 的月球任务）同样采用停泊轨道方案
 
 ## 相关概念
+
 - [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
 - [轨道入轨（Orbit Insertion）](/glossary/other/orbit-insertion/)
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 
 ## 参考文献
+
 - 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 2026.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.
 - Griffin M D, French J R. Space Vehicle Design[M]. 2nd ed. 2004.

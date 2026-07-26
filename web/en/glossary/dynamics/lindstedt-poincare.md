@@ -80,7 +80,7 @@ Richardson (1980) derived analytical solutions for libration point Lyapunov orbi
 Analytical solutions from the Lindstedt-Poincare method have limited accuracy, typically used as initial guesses for numerical computation:
 
 | Order | Accuracy | Applicable Scenario |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | First order | ~10⁻³ | Qualitative analysis |
 | Second order | ~10⁻⁵ | Initial guess |
 | Third order | ~10⁻⁷ | High-precision initial guess |
@@ -91,11 +91,12 @@ Analytical solutions from the Lindstedt-Poincare method have limited accuracy, t
 The Lindstedt-Poincare method and multiple shooting method represent two levels of periodic orbit solving:
 
 | Method | Type | Accuracy | Computational Efficiency |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | **Lindstedt-Poincare** | Analytical | Medium | High (closed-form solution) |
 | **Multiple Shooting** | Numerical | High | Lower (requires iteration) |
 
 Typical workflow:
+
 1. Use Lindstedt-Poincare method to obtain analytical solution as initial guess
 2. Use multiple shooting method for numerical refinement
 

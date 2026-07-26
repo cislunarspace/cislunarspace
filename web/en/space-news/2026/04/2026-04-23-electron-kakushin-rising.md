@@ -35,7 +35,7 @@ This mission was Rocket Lab's 85th Electron launch and its second dedicated laun
 This launch carried 8 Japanese satellites originally planned to launch on Japan's Epsilon-S rocket, but were delayed due to Epsilon-S test firing failures:
 
 | Satellite | Type | Description |
-|-----------|------|-------------|
+| ----------- | ------ | ------------- |
 | MAGNARO-II | Educational | Multi-compartment satellite platform |
 | KOSEN-2R | Educational | High school/university collaborative project |
 | WASEDA-SAT-ZERO-II | Educational | Waseda University student satellite |

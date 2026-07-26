@@ -57,10 +57,10 @@ permalink: /glossary/organizations/anduril/
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | Lattice | 软件平台 | AI 驱动的多域作战指控系统，支持太空态势感知 |
 | Prometheus 发动机 | 推进系统 | 3D 打印可复用火箭发动机 |
-| Roadrunner | 无人机 | 空气循环发动机驱动的短距起降无人机（非太空专用）|
+| Roadrunner | 无人机 | 空气循环发动机驱动的短距起降无人机（非太空专用） |
 | Ghost 4 | 无人机系统 | 自主飞行多域情报平台 |
 | Altius 无人机 | 无人机 | 长航时情报监视侦察无人机 |
 
@@ -114,6 +114,6 @@ permalink: /glossary/organizations/anduril/
 
 ## 参考文献
 
-- Anduril Industries 官网: https://www.anduril.com
+- Anduril Industries 官网: <https://www.anduril.com>
 - Defense News, "Anduril's space robotics ambitions take shape", 2024.
 - SpaceNews, "Anduril wins Space Force contracts for orbital debris tracking", 2024.

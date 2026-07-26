@@ -25,6 +25,7 @@ Starlink 10-47 任务是 SpaceX 扩展其超过 10,000 颗在轨卫星的 Starli
 ## 火箭与回收
 
 SpaceX 选用猎鹰九号芯一级 B1078 执行本次任务。B1078 此前已完成 27 次飞行，历史任务包括：
+
 - NASA Crew-6 载人龙飞船任务
 - USSF-124 国家太空部队任务
 - SES O3b mPOWER-B 通信卫星

@@ -43,6 +43,7 @@ Parker Solar Probe observed a Sun-directed jet of particles made of protons and 
 ## Parker Solar Probe Mission Overview
 
 Launched in 2018, Parker Solar Probe is humanity's first spacecraft to fly into the Sun's corona. Its primary objectives include:
+
 - Tracing how solar energy heats the corona and accelerates the solar wind
 - Determining the transport and dissipation mechanisms of solar plasma
 - Exploring the acceleration and transport processes of high-energy particles

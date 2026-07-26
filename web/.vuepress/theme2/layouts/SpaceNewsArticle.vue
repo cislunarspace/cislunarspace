@@ -26,31 +26,31 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
-import { usePage } from 'vuepress/client'
-import { useRoute } from 'vue-router'
-import { useIsEn } from '../composables/useIsEn'
-import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue'
-import Footer from '../components/Footer.vue'
-import CopyPageButton from '../components/CopyPageButton.vue'
-import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue'
-import PageToc from '../components/PageToc.vue'
-import ArticleHero from '../components/ArticleHero.vue'
-import SidebarToggle from '../components/SidebarToggle.vue'
-import { resolveFrontmatterImage } from '../utils/imageUrl'
-import { spaceNewsLabels } from '../utils/spaceNewsLabels'
-import type { PageData } from '../utils/types'
+import { computed } from 'vue';
+import { usePage } from 'vuepress/client';
+import { useRoute } from 'vue-router';
+import { useIsEn } from '../composables/useIsEn';
+import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue';
+import Footer from '../components/Footer.vue';
+import CopyPageButton from '../components/CopyPageButton.vue';
+import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue';
+import PageToc from '../components/PageToc.vue';
+import ArticleHero from '../components/ArticleHero.vue';
+import SidebarToggle from '../components/SidebarToggle.vue';
+import { resolveFrontmatterImage } from '../utils/imageUrl';
+import { spaceNewsLabels } from '../utils/spaceNewsLabels';
+import type { PageData } from '../utils/types';
 
-const page = usePage()
-const route = useRoute()
+const page = usePage();
+const route = useRoute();
 
-const fm = computed(() => (page.value as PageData).frontmatter || {})
-const isEn = useIsEn()
+const fm = computed(() => (page.value as PageData).frontmatter || {});
+const isEn = useIsEn();
 
-const heroImageUrl = computed(() => resolveFrontmatterImage(fm.value.image, route.path) || null)
-const backToNews = computed(() => spaceNewsLabels.article[isEn.value ? 'en' : 'zh'].backToNews)
+const heroImageUrl = computed(() => resolveFrontmatterImage(fm.value.image, route.path) || null);
+const backToNews = computed(() => spaceNewsLabels.article[isEn.value ? 'en' : 'zh'].backToNews);
 
-const newsHome = computed(() => isEn.value ? '/en/space-news/' : '/space-news/')
+const newsHome = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'));
 </script>
 
 <style lang="scss">

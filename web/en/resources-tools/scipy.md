@@ -29,7 +29,7 @@ SciPy is an open-source Python scientific computing library built on top of NumP
 ## Main Modules
 
 | Module | Function | Cislunar Application |
-|--------|----------|---------------------|
+| -------- | ---------- | --------------------- |
 | `scipy.integrate` | Numerical integration, ODE solvers | Orbit integration, dynamics propagation, state transition matrix |
 | `scipy.optimize` | Optimization algorithms, nonlinear & least-squares solvers | Orbit design, parameter optimization, Lambert problem solving |
 | `scipy.linalg` | Linear algebra operations, matrix decompositions | Matrix computation, eigenvalue analysis, covariance propagation |

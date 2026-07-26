@@ -87,7 +87,7 @@ Wei et al. (2026) used differential correction in their patched method for DRO t
 ### Single-Shooting vs. Multi-Shooting
 
 | Method | Description | Applicable Scenario |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **Single-shooting** | Integrate from initial point to terminal point in one pass, correct initial conditions using STM | Short arcs, simple constraints |
 | **Multi-shooting** | Divide the orbit into multiple segments, independently integrate each and impose continuity constraints at nodes | Long arcs, complex constraints, high precision |
 

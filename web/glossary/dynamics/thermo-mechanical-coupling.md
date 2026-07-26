@@ -37,7 +37,7 @@ permalink: /glossary/dynamics/thermo-mechanical-coupling/
 ### 热→力（Thermal to Mechanical）
 
 | 热变量 | 力效应 | 物理机制 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 氦气温度 $T_{He}$ | 浮力变化 | $\rho_{He} = p/(RT_{He})$ |
 | 蒙皮温度 $T_{skin}$ | 气动加热 | 影响边界层 |
 | 压力 $p_{He}$ | 囊体膨胀 | $V = nRT/p$ |
@@ -45,7 +45,7 @@ permalink: /glossary/dynamics/thermo-mechanical-coupling/
 ### 力→热（Mechanical to Thermal）
 
 | 力变量 | 热效应 | 物理机制 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 高度 $h$ | 大气密度 | $\rho_{air}(h)$ 影响对流 |
 | 速度 $v$ | 气动加热 | $Q_{dyn} = \frac{1}{2}\rho v^3$ |
 | 姿态 $\theta$ | 日照角变化 | 影响太阳直射量 |
@@ -99,7 +99,7 @@ $$\frac{\partial B}{\partial T_{He}} = -\frac{p_{He} M_{He}}{RT_{He}^2} V_{He} g
 ### 昼夜循环
 
 | 时刻 | $T_{He}$ | $B$ | 飞行状态 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | 正午 | 高 | 低 | 上浮趋势 |
 | 午夜 | 低 | 高 | 下沉趋势 |
 

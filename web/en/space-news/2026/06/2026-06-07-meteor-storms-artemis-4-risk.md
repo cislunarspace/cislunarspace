@@ -45,7 +45,7 @@ This article synthesizes the Space.com piece published on June 7, 2026, with all
 ## Bilingual term reference
 
 | English | 中文 | Brief note |
-|------|------|------|
+| ------ | ------ | ------ |
 | Micrometeoroid and Orbital Debris (MMOD) | 微流星体与空间碎片 | NASA risk-assessment standard term |
 | Hypervelocity impact testing | 超高速冲击测试 | Validates MMOD protection design |
 | Meteor storm / outburst | 流星暴雨 / 异常爆发 | Anomalously high meteor activity above sporadic background |

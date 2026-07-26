@@ -54,7 +54,7 @@ $$\mathcal{O} = \begin{bmatrix} \mathbf{C} \\ \mathbf{C}\mathbf{A} \\ \mathbf{C}
 ### 可观测性判据
 
 | 判据 | 条件 | 适用场景 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 秩判据 | $\text{rank}(\mathcal{O}) = n$ | 一般线性系统 |
 | GRAM 判据 | $\mathcal{O}^T\mathcal{O}$ 正定 | 连续系统 |
 | PBH 判据 | $\text{rank}[s\mathbf{I}-\mathbf{A}, \mathbf{C}] = n, \forall s$ | 线性系统 |

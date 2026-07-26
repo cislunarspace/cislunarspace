@@ -35,6 +35,7 @@ The generation of a PDC involves the following steps:
 ### 1. Graph Representation
 
 The architecture's time-evolving detectable regions are encoded as a graph structure:
+
 - **Nodes**: Centroids of detectable regions
 - **Edges**: Connectivity between adjacent detectable regions
 - **Edge Weights**: Control cost for traversing adjacent regions
@@ -50,20 +51,24 @@ where $c_e$ is the traversal cost of edge $e$, and $\mathcal{P}$ is the set of e
 ### 3. Trajectory Optimization
 
 Trajectory refinement is performed on the searched path using a collocation method (such as Hermite-Simpson):
+
 - Generate dynamically feasible trajectories that satisfy the dynamics constraints
 - Minimize the control cost $\Delta v$
 
 ## Core Elements
 
 ### Mathematical Definition
+
 The PDC is a spatial volume $\mathcal{C}$ satisfying the following condition: for any reference trajectory $\mathbf{x}(t) \in \mathcal{C}$, there exists a detection threshold $\lambda$ such that $\|\mathbf{x}(t) - \mathcal{D}(t)\| \leq \lambda$, where $\mathcal{D}(t)$ is the architecture's detectable region at time $t$.
 
 ### Key Properties
+
 - The PDC guarantees that a spacecraft at any position within the corridor can be detected by the architecture
 - Corridor width is related to the allowable perturbation magnitude
 - The PDC can be used for trajectory optimization and mission planning
 
 ### Application Scenarios
+
 The PDC is applicable to cislunar crewed mission planning, ensuring that astronauts remain within the detection range of ground stations or backup observation systems in emergency situations.
 
 ## Related Concepts

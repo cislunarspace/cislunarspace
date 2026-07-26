@@ -48,7 +48,7 @@ permalink: /glossary/orbits/butterfly-orbit/
 蝴蝶轨道目前主要发现存在于地月系统的 L1 和 L2 平动点附近：
 
 | 轨道族 | 所属平动点 | 特征 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Butterfly L1 | L1/L2 连接 | 环绕 L1 和 L2 的大振幅轨道，形似蝴蝶左翼 |
 | Butterfly L2 | L1/L2 连接 | 环绕 L1 和 L2 的大振幅轨道，形似蝴蝶右翼 |
 
@@ -78,6 +78,7 @@ permalink: /glossary/orbits/butterfly-orbit/
 - **轨道分类体系补充**：作为平动点轨道家族的新成员，蝴蝶轨道丰富了地月空间周期轨道的分类体系
 
 ## 相关概念
+
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - [垂直轨道（Vertical Orbit）](/glossary/orbits/vertical-orbit/)
@@ -86,6 +87,7 @@ permalink: /glossary/orbits/butterfly-orbit/
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Haapala A, Vaquero M, Pavlak T A, et al. Trajectory selection strategy for tours in the Earth-Moon system[C]. AAS/AIAA Astrodynamics Specialist Conference, 2013.

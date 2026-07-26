@@ -37,7 +37,7 @@ Coordinated Universal Time (UTC) is the internationally adopted time standard. B
 ### Coordination Between Atomic Time and Universal Time
 
 | Time System | Basis | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | International Atomic Time (TAI) | Cesium atomic transition frequency | Extremely uniform; does not reflect irregularities in Earth's rotation |
 | Universal Time (UT1) | Earth's rotation | Reflects actual Earth orientation, but non-uniform |
 | Coordinated Universal Time (UTC) | Atomic-time second + leap seconds | Balances precision with astronomical correspondence |
@@ -71,4 +71,4 @@ UTC is the time reference for global communications, navigation, and space missi
 
 - 郑伟, 安雪滢, 周祥, 何睿智. 空天飞行力学[M]. 国防科技大学, 2026.
 - 任萱, 肖峰. 人造地球卫星轨道力学[M]. 国防科技大学出版社.
-- IERS. IERS Conventions (2010)[S].
+- IERS. IERS Conventions [2010](S).

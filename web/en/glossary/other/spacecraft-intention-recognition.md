@@ -43,7 +43,7 @@ Jing et al. (2025) proposed an intention classification framework in the context
 Describe the orbital motion pattern of the target spacecraft relative to the operational spacecraft:
 
 | Intention | Description |
-|-----------|-------------|
+| ----------- | ------------- |
 | Hovering | Target maintains constant relative distance with zero relative velocity |
 | Flyby | Relative distance decreases then increases, but never reaches zero |
 | Flyaround | Relative distance is non-zero, fluctuating within a narrow range |
@@ -57,7 +57,7 @@ Describe the orbital motion pattern of the target spacecraft relative to the ope
 Describe specific operational actions the target spacecraft may perform:
 
 | Intention | Description |
-|-----------|-------------|
+| ----------- | ------------- |
 | Docking | Structural connection via robotic arm or docking mechanism |
 | Refueling | Fuel injection into the operational spacecraft |
 | Repair | Replacement or addition of equipment parts |
@@ -70,7 +70,7 @@ Describe specific operational actions the target spacecraft may perform:
 Combine motion and operation intentions to describe the overall mission purpose:
 
 | Intention | Description |
-|-----------|-------------|
+| ----------- | ------------- |
 | Detection | Noncooperative target, hovering + flyaround, photograph + information gathering |
 | Surveillance | Cooperative target, similar to detection but with cooperative nature |
 | Interference | Noncooperative target, hovering + rendezvous + flyaround, grabbing + electromagnetic interference |
@@ -105,7 +105,7 @@ Three prompt conditions were tested:
 ### Experimental Results
 
 | Model | Prompt Type | Accuracy |
-|-------|-------------|----------|
+| ------- | ------------- | ---------- |
 | ChatGLM2-6B base model | Basic/Instruction/CoT | Low (<50%) |
 | ChatGLM2-6B + P-tuning V2 | CoT | 99.81% |
 | ChatGLM3-6B base model | CoT | Better than ChatGLM2-6B |

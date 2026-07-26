@@ -33,6 +33,7 @@ permalink: /en/glossary/dynamics/zero-effort-miss/
 Zero-Effort Miss (ZEM) is the closest approach distance between the pursuer and the target at a future time, assuming both the pursuer and the target maintain their current states (no additional control inputs). When ZEM is zero, it indicates that the pursuer will successfully capture the target.
 
 ZEM is a core parameter in pursuit-evasion games and guidance law design, used for:
+
 - Assessing the feasibility of the current interception/pursuit scheme
 - Designing feedback guidance laws
 - Real-time threat assessment for the pursuing party
@@ -64,6 +65,7 @@ Zhang Chengming (2021) combined ZEM with fuzzy comprehensive evaluation methods 
 ### Fuzzy Comprehensive Evaluation
 
 Steps of the ZEM-based fuzzy comprehensive evaluation method:
+
 1. Establish membership functions between ZEM and threat levels
 2. Consider multiple factors comprehensively (ZEM, relative velocity, remaining fuel, etc.)
 3. Determine the fuzzy threat level for the pursuing party
@@ -85,7 +87,7 @@ In optimal guidance law design considering zero-effort miss, the objective is to
 ## Typical Values
 
 | ZEM Range | Tactical Meaning |
-|:---|:---|
+| :--- | :--- |
 | ZEM approx 0 | Interception/capture about to succeed |
 | ZEM > 0 | Possible miss, course correction needed |
 | ZEM >> intercept radius | Significant miss, replanning required |

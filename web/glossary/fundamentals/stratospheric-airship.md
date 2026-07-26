@@ -37,7 +37,7 @@ permalink: /glossary/fundamentals/stratospheric-airship/
 ### 主体结构
 
 | 组件 | 功能描述 |
-|:---|:---|
+| :--- | :--- |
 | 蒙皮（Envelope） | 充氦气密结构，外表面涂覆防辐射涂层 |
 | 副气囊（Ballonet） | 内部充气气囊，用于调节浮力和姿态 |
 | 囊体（Crew/Gondola） | 承载有效载荷、动力系统和控制设备 |

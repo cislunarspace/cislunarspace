@@ -14,7 +14,7 @@ wechatShare:
 
 > Author: [CislunarSpace](https://gitee.com/cislunarspace)
 >
-> Source: https://cislunarspace.cn
+> Source: <https://cislunarspace.cn>
 
 # NRHO Stability and Station-Keeping
 
@@ -23,6 +23,7 @@ wechatShare:
 Although NRHOs appear as stable quasi-periodic orbits in the CR3BP model, they exhibit significant sensitivity to initial condition errors and external perturbations in a real ephemeris environment. This sensitivity can be quantified using the **Lyapunov Exponent**.
 
 The Lyapunov exponent $\lambda$ characterizes the exponential separation (or convergence) rate of neighboring trajectories in phase space:
+
 - $\lambda > 0$: Orbital errors grow exponentially (unstable)
 - $\lambda < 0$: Errors are suppressed (stable)
 - $\lambda = 0$: Neutral (marginal stability along the orbital direction)
@@ -34,11 +35,13 @@ A typical NRHO Lyapunov exponent is on the order of $\lambda \sim 10^{-2}$ day$^
 ## ΔV Station-Keeping Budget
 
 Station-keeping for an NRHO requires periodic low-thrust corrections. The typical maintenance $\Delta V$ budget depends on:
+
 - Orbital location (L1 vs. L2)
 - Mission duration
 - Propulsion system type (electric vs. chemical)
 
 Typical values:
+
 - L1 NRHO: $\Delta V \approx 30-50$ m/s/year
 - L2 NRHO: $\Delta V \approx 40-80$ m/s/year (slightly higher than L1 due to stronger solar gravitational perturbations)
 

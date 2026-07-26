@@ -39,7 +39,7 @@ permalink: /en/resources-tools/e2m2e/
 ## Supported Orbit Types
 
 | Orbit Type | Description |
-|------------|-------------|
+| ------------ | ------------- |
 | **DRO** | Distant Retrograde Orbit |
 | **RO** | Resonant Orbit (3:2, 4:3, etc.) |
 | **ARO** | Axial Resonant Orbit |
@@ -100,6 +100,7 @@ pip install e2m2e
 ```
 
 Development dependencies:
+
 ```bash
 pip install e2m2e[dev]
 ```
@@ -141,7 +142,7 @@ plotter.plot_family_2d(family, jacobi_values=family.get_jacobi_constants())
 
 ## Project Structure
 
-```
+```text
 e2m2e/
 ├── core/                          # Core modules
 │   ├── system.py                  # CR3BP system definition

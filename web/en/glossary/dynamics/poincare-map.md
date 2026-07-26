@@ -41,7 +41,7 @@ In the study of cislunar Distant Retrograde Orbit (DRO) families, Poincaré Maps
 The Poincaré Map and Poincaré Section are closely related but have different emphases:
 
 | Concept | Emphasis | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **Poincaré Section** | Geometric object | An $(N-1)$-dimensional or $(N-2)$-dimensional hyperplane in phase space |
 | **Poincaré Map** | Mapping and visualization | The distribution diagram of orbit crossing points on the section |
 
@@ -60,7 +60,7 @@ where $\mathbf{x}_k$ is the state at the $k$-th crossing of $\Sigma$, and $\math
 The distribution patterns of discrete points in a Poincaré Map reflect the dynamical nature of the orbit:
 
 | Crossing Pattern | Corresponding Orbit Type |
-|:---|:---|
+| :--- | :--- |
 | **Isolated points** (finite number) | Periodic orbit (period is an integer multiple of the crossing count) |
 | **Closed curves** | Quasi-periodic orbit (orbit on a torus) |
 | **Dense scattered points filling a region** | Chaotic orbit |

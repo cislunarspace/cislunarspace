@@ -49,6 +49,7 @@ When the thrust ratio is 0 or 1, the control system is in the "off" or "on" extr
 ### Time Optimality
 
 Bang-bang control is the optimal control law for linear systems with time-optimal properties:
+
 - Thrust is always maximum or zero
 - No sustained burning at intermediate thrust values
 - Minimization of switching times
@@ -56,6 +57,7 @@ Bang-bang control is the optimal control law for linear systems with time-optima
 ### Numerical Difficulties
 
 Main numerical difficulties of bang-bang control:
+
 - Discontinuities on the right-hand side of differential equations
 - Direct numerical integration not possible
 - Precise determination of switching times is difficult
@@ -84,6 +86,7 @@ Gradually transitioning $\varepsilon$ from 1 to 0 to obtain fuel-optimal bang-ba
 ## Application in Spacecraft Rendezvous
 
 In spacecraft cooperative rendezvous problems:
+
 - The fuel-optimal control law takes bang-bang form
 - Suitable for finite-thrust propulsion systems
 - Homotopy methods effectively solve its numerical integration difficulties

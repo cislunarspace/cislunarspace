@@ -37,12 +37,15 @@ EXOSIMS（EXOplanet Observation and Science Mission Simulation）是一款**开�
 ## 核心要素
 
 ### 基本概念
+
 EXOSIMS 是一个模块化的任务仿真框架，通过集成轨道传播、观测调度和科学产出评估等功能，对系外行星直接成像任务的完整生命周期进行端到端仿真。其核心目标是在给定任务参数约束下，最大化科学产出并评估各分系统性能。
 
 ### 技术特征
+
 EXOSIMS 采用 Python 实现的面向对象架构，支持 CR3BP 和星历两种轨道传播模型。关键参数包括望远镜口径、星伞分离距离、推进系统性能和目标星目录。软件能够生成 $\Delta v$ 图谱，量化不同轨道和观测策略下的燃料消耗。
 
 ### 实现方法
+
 使用 EXOSIMS 时，首先配置任务参数（望远镜、星伞、推进系统），然后选择轨道类型和目标星目录，软件自动执行轨道传播、slew $\Delta v$ 计算和观测序列优化，最终输出科学产出评估报告和 $\Delta v$ 预算分析。
 
 ## 核心功能
@@ -60,7 +63,7 @@ EXOSIMS 主要用于以下任务分析场景：
 EXOSIMS 采用模块化设计，主要组成包括：
 
 | 模块 | 功能描述 |
-|:---|:---|
+| :--- | :--- |
 | Orbit propagator | 轨道传播（支持 CR3BP、星历模型） |
 | Star catalog | 目标恒星目录管理 |
 | Observation schedule | 观测序列调度 |
@@ -85,7 +88,7 @@ Genszler et al. (2026) 使用 EXOSIMS 研究了在地月空间晕轨道和 DRO �
 采用类似 HabEx 的 6 m 望远镜任务参数：
 
 | 参数 | 符号 | 值 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 发动机推力 | $F_T$ | 264 N |
 | 比冲 | $I_{sp}$ | 280 s |
 | 湿质量 | $m_w$ | 14500 kg |
@@ -99,7 +102,7 @@ Genszler et al. (2026) 使用 EXOSIMS 研究了在地月空间晕轨道和 DRO �
 研究还计算了地月模型和日地模型中的差分加速度对比：
 
 | 参数 | 地月系统 | 日地系统 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Burn 1 $\vec{a}_{diff}$ | $9.557 \times 10^{-4}$ m/s² | $5.329 \times 10^{-6}$ m/s² |
 | Burn 2 $\vec{a}_{diff}$ | $9.58 \times 10^{-4}$ m/s² | $5.331 \times 10^{-6}$ m/s² |
 
@@ -119,10 +122,11 @@ EXOSIMS 支持在仿真中集成不同的参考系和动力学模型：
 
 EXOSIMS 是开源软件，托管于 GitHub：
 
-- 仓库：https://github.com/dsavransky/EXOSIMS
+- 仓库：<https://github.com/dsavransky/EXOSIMS>
 - 论文引用：Genszler et al. (2026) 使用的版本为 commit `485f30d3aacf2bf0ff06abeb2ae23d069f1abdaf`
 
 ## 应用价值
+
 EXOSIMS 为系外行星直接成像任务的概念设计和参数优化提供了定量分析工具。在地月空间应用场景中，EXOSIMS 可用于评估在 DRO 和晕轨道上部署望远镜-星伞系统的可行性，量化不同轨道构型下的观测效率和燃料需求，为任务规划提供决策支持。
 
 ## 相关概念
@@ -136,7 +140,7 @@ EXOSIMS 为系外行星直接成像任务的概念设计和参数优化提供了
 
 ## 参考文献
 
-- Genszler G, Delacroix C, Garrett D, et al. EXOSIMS[EB/OL]. https://github.com/dsavransky/EXOSIMS.
+- Genszler G, Delacroix C, Garrett D, et al. EXOSIMS[EB/OL]. <https://github.com/dsavransky/EXOSIMS>.
 - Genszler G, Savransky D, Soto G J. Surveying orbits in cislunar space for telescope-starshade observatories[J]. 2026.
 - Morgan R, Savransky D, Turmon M, et al. An exploration of expected number of exoplanets for a 6 m class direct imaging observatory[C]. SPIE, 2022.
 - Soto G J, Savransky D, Garrett D, et al. Parameterizing the search space of starshade fuel costs for optimal observation schedules[J]. JGCD, 2019.

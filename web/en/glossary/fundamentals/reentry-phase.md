@@ -37,7 +37,7 @@ The reentry phase is the flight stage of an aerospace vehicle from the deorbit m
 ### Reentry Characteristics of Different Vehicles
 
 | Vehicle Type | Lift-to-Drag Ratio | Reentry Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Conventional warhead | Approx. 0 | No lift; rapid deceleration upon atmospheric entry with intense aerodynamic heating |
 | Capsule return vehicle | Small | Partial lift via center-of-mass offset extends range and reduces load factor and heating |
 | Glide warhead | Large | High lift-to-drag ratio enables large-scale maneuvering within the atmosphere with good penetration performance |

@@ -46,14 +46,14 @@ The core steps of the patched method are:
 
 $$\mathbf{r}_i^- = \mathbf{r}_i^+, \quad \mathbf{v}_i^- = \mathbf{v}_i^+ \quad (i = 1, 2, \ldots, N-1)$$
 
-4. **Iterative Correction**: If the states at the connection point do not satisfy matching conditions, adjust the free parameters of each arc through differential correction or optimization algorithms until all patching conditions converge.
+1. **Iterative Correction**: If the states at the connection point do not satisfy matching conditions, adjust the free parameters of each arc through differential correction or optimization algorithms until all patching conditions converge.
 
 ### Application to Cislunar DRO Transfers
 
 Wei et al. (2026), in their study of powered lunar flyby (PLF) transfer trajectories to cislunar DRO families, employed the patched method to split the trajectory at the perilune into two segments:
 
 | Segment | Arc Description | Dynamical Model | Key Parameters |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Segment 1 | LEO to perilune | Earth-Moon CR3BP or high-fidelity ephemeris model | LEO departure velocity, transfer time |
 | Segment 2 | Perilune to DRO | Earth-Moon CR3BP | Perilune altitude, DRO terminal state |
 
@@ -72,7 +72,7 @@ where $\Delta \mathbf{v}_{\text{PLF}}$ is the velocity increment applied at the 
 ### Comparison with Continuous Methods
 
 | Feature | Patched Method | Continuous Method (Direct Method) |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Model usage | Different models per segment | Unified model throughout |
 | Computational efficiency | Higher (independent solution per segment) | Lower (global optimization) |
 | Physical interpretability | Strong (each segment corresponds to a clear flight phase) | Weaker |

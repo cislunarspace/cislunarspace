@@ -45,7 +45,7 @@ The acquisition brings several strategic advantages:
 Laser communication provides transformative advantages over traditional radio frequency (RF) communications:
 
 | Advantage | Benefit |
-|-----------|---------|
+| ----------- | --------- |
 | Higher data rates | Faster data transfer between satellites and ground |
 | Increased security | More difficult to intercept than RF signals |
 | Scalability | Supports growing constellation architectures |

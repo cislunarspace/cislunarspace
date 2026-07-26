@@ -48,7 +48,7 @@ Where $\mathbf{m}_i$ is the actual center point of the $i$-th cluster and $D(\cd
 ### Comparison with K-Means
 
 | Characteristic | K-Means | K-Medoids |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Center point type | Cluster mean (may not be data point) | Actual data point in cluster |
 | Noise robustness | Low | High |
 | Distance function | Euclidean distance | Any distance metric |
@@ -57,6 +57,7 @@ Where $\mathbf{m}_i$ is the actual center point of the $i$-th cluster and $D(\cd
 ## Application in Cislunar SSA Architecture Analysis
 
 Klonowski (2025) used K-Medoids clustering to classify cislunar space SSA Pareto-optimal architectures:
+
 - K-Medoids center points are actual architecture configurations, facilitating interpretation and decision-making
 - Less sensitive to outliers on the Pareto frontier
 - Can identify architecture categories with different orbital family configurations
@@ -64,12 +65,15 @@ Klonowski (2025) used K-Medoids clustering to classify cislunar space SSA Pareto
 ## Core Elements
 
 ### Mathematical Definition
+
 K-Medoids partitions dataset $\mathcal{X} = \{\mathbf{x}_1, ..., \mathbf{x}_N\}$ into $K$ clusters, with each cluster represented by an actual data point $\mathbf{m}_i$, minimizing total distance cost.
 
 ### Key Properties
+
 K-Medoids is robust to noise and outliers because center points are actual data points rather than means. Computational complexity is higher than K-Means, but results are more stable.
 
 ### Application Scenarios
+
 K-Medoids is suitable for scenarios requiring robust clustering, such as anomaly detection, image segmentation, document clustering, and the SSA architecture classification focused on in this document.
 
 ## Related Concepts

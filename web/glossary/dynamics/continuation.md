@@ -29,6 +29,7 @@ permalink: /glossary/dynamics/continuation/
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 > 校对记录：
+>
 > 1. 2026年4月29日：纠正了参考文献错误
 
 ## 定义
@@ -66,7 +67,7 @@ $$\left\|\frac{d\mathbf{x}}{ds}\right\|^2 + \left(\frac{d\lambda}{ds}\right)^2 =
 在轨道族延拓中，常用的延拓参数包括：
 
 | 延拓参数 | 适用场景 | 典型应用 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 振幅 $A_z$ | 周期轨道族探索 | Halo 轨道族、Lyapunov 轨道族 |
 | 轨道周期 $T$ | DRO 轨道族 | 远距离逆行轨道族的周期范围 |
 | 近月点高度 $h_p$ | 月球轨道族 | 低月轨道至高月轨道族 |
@@ -118,7 +119,6 @@ $$\left\|\frac{d\mathbf{x}}{ds}\right\|^2 + \left(\frac{d\lambda}{ds}\right)^2 =
 - [拼接法（Patched Method）](/glossary/dynamics/patched-method/)
 - [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
 - [庞加莱图（Poincaré Map）](/glossary/dynamics/poincare-map/)
-
 
 ## 参考文献
 

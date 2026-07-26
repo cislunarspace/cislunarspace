@@ -80,7 +80,9 @@
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 .chat-sidebar {
@@ -92,7 +94,9 @@
   border-right: 1px solid var(--chat-border);
   display: flex;
   flex-direction: column;
-  transition: background 0.3s ease, border-color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .sidebar-header {
@@ -116,7 +120,9 @@
   font-weight: 600;
   font-family: var(--font-family);
   box-shadow: var(--chat-glow);
-  transition: background 0.2s ease, transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
+  transition:
+    background 0.2s ease,
+    transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
 }
 
 .sidebar-new-btn:hover:not(:disabled) {
@@ -209,7 +215,9 @@
   background: transparent;
   color: var(--chat-text-secondary);
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
 }
 
 .sidebar-icon-btn:hover {
@@ -240,7 +248,9 @@
   background: var(--chat-surface);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  transition: border-color 0.3s ease, background 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    background 0.3s ease;
 }
 
 .header-menu-btn {
@@ -281,8 +291,12 @@
 
 @keyframes routerPulse {
   0%,
-  100% { opacity: 0.9; }
-  50% { opacity: 0.5; }
+  100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
 .header-actions {
@@ -302,7 +316,9 @@
   background: transparent;
   color: var(--chat-text-secondary);
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
 }
 
 .header-icon-btn:hover:not(:disabled) {
@@ -365,8 +381,14 @@
 }
 
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(16px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .welcome-eyebrow {
@@ -401,7 +423,9 @@
   border-radius: 50%;
   color: var(--chat-accent);
   background: linear-gradient(145deg, rgba(37, 99, 235, 0.12) 0%, rgba(37, 99, 235, 0.08) 100%);
-  box-shadow: var(--chat-glow), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  box-shadow:
+    var(--chat-glow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.45);
   border: 1px solid rgba(37, 99, 235, 0.2);
 }
 
@@ -449,7 +473,10 @@
   text-align: left;
   font-size: 0.8125rem;
   line-height: 1.55;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
   box-shadow: var(--chat-shadow-sm);
 }
 
@@ -472,7 +499,9 @@
 .suggested-card-arrow {
   flex-shrink: 0;
   opacity: 0;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
   color: var(--chat-accent);
 }
 
@@ -487,8 +516,14 @@
 }
 
 @keyframes messageIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .message-row {
@@ -623,8 +658,12 @@
 
 @keyframes processPulse {
   0%,
-  100% { opacity: 1; }
-  50% { opacity: 0.4; }
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
 }
 
 .assistant-reasoning {
@@ -779,9 +818,15 @@
   line-height: 1.35;
 }
 
-.assistant-content :deep(h1) { font-size: 1.4rem; }
-.assistant-content :deep(h2) { font-size: 1.25rem; }
-.assistant-content :deep(h3) { font-size: 1.1rem; }
+.assistant-content :deep(h1) {
+  font-size: 1.4rem;
+}
+.assistant-content :deep(h2) {
+  font-size: 1.25rem;
+}
+.assistant-content :deep(h3) {
+  font-size: 1.1rem;
+}
 
 .assistant-content :deep(strong) {
   font-weight: 700;
@@ -842,8 +887,13 @@
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .typing-dots {
@@ -868,13 +918,27 @@
   animation: dotBounce 1.4s infinite ease-in-out;
 }
 
-.typing-dots span:nth-child(1) { animation-delay: 0s; }
-.typing-dots span:nth-child(2) { animation-delay: 0.2s; }
-.typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+.typing-dots span:nth-child(1) {
+  animation-delay: 0s;
+}
+.typing-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.typing-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
 
 @keyframes dotBounce {
-  0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
-  40% { transform: scale(1); opacity: 1; }
+  0%,
+  80%,
+  100% {
+    transform: scale(0.6);
+    opacity: 0.4;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .chat-input-wrapper {
@@ -883,7 +947,9 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid var(--chat-border);
-  transition: background 0.3s ease, border-color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .chat-input-box {
@@ -897,16 +963,23 @@
   border-radius: var(--chat-radius-lg);
   padding: 0.375rem 0.375rem 0.375rem 1rem;
   box-shadow: var(--chat-shadow-md);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.3s ease;
 }
 
 .chat-input-box:focus-within {
   border-color: var(--chat-input-focus);
-  box-shadow: var(--chat-shadow-md), 0 0 0 3px rgba(37, 99, 235, 0.18);
+  box-shadow:
+    var(--chat-shadow-md),
+    0 0 0 3px rgba(37, 99, 235, 0.18);
 }
 
 .ai-chat-root.dark .chat-input-box:focus-within {
-  box-shadow: var(--chat-shadow-md), 0 0 0 3px rgba(96, 165, 250, 0.2);
+  box-shadow:
+    var(--chat-shadow-md),
+    0 0 0 3px rgba(96, 165, 250, 0.2);
 }
 
 .chat-textarea {
@@ -939,7 +1012,10 @@
   color: #ffffff;
   cursor: pointer;
   flex-shrink: 0;
-  transition: background 0.15s ease, opacity 0.15s ease, transform 0.15s ease;
+  transition:
+    background 0.15s ease,
+    opacity 0.15s ease,
+    transform 0.15s ease;
 }
 
 .send-btn:hover:not(:disabled) {
@@ -993,8 +1069,12 @@
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   .header-menu-btn {

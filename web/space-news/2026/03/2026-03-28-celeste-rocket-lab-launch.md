@@ -20,7 +20,7 @@ wechatShare:
 ## 任务经过
 
 | 项目 | 参数 |
-|------|------|
+| ------ | ------ |
 | 运载火箭 | Rocket Lab Electron |
 | 发射场 | 新西兰 Māhia Launch Complex |
 | 发射时间（CET） | 2026 年 3 月 28 日 10:14 |
@@ -37,6 +37,7 @@ Celeste 是 ESA **低轨定位导航授时（LEO-PNT）** 计划的在轨演示�
 演示阶段星座规模为 **11 颗卫星**，将测试多个频率波段的新信号体制，验证低轨导航增强的技术可行性。Celeste 的成功将为后续更大规模的 LEO-PNT 星座奠定基础，并贡献于 ESA 新提出的 **"欧洲韧性从空间"（ERS）** 计划。
 
 Celeste 项目由两大主承包商团队并行推进：
+
 - **GMV（西班牙）** 牵头 + OHB（德国）作为核心合作方
 - **泰雷兹阿莱尼亚宇航（法国）** 担任主承包商 + 意大利子公司负责卫星平台
 
@@ -49,6 +50,7 @@ Celeste 在轨演示成功后，ESA 将进入 LEO-PNT 在轨预备（IOBP）阶�
 ## 观看方式
 
 发射精彩片段已在 ESA 官方平台发布：
+
 - [ESA WebTV](https://watch.esa.int/Two/)
 - [ESA YouTube](https://www.youtube.com/live/jJxRic-a4SU)
 

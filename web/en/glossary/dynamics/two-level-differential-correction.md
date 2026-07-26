@@ -50,7 +50,7 @@ The two-level differential correction method is an orbit computation technique t
 ## Advantages
 
 | Advantage | Description |
-|:---|:---|
+| :--- | :--- |
 | Good initial guess | CR3BP provides a qualitatively correct starting point |
 | Computational efficiency | Avoids searching from scratch in the high-dimensional ephemeris space |
 | Robustness | The two-level approach is more reliable than single-level correction |

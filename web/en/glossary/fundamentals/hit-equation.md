@@ -47,7 +47,7 @@ $$A\tan^2\frac{\beta_{kc}}{2} - B\tan\frac{\beta_{kc}}{2} + C = 0$$
 where the coefficients are:
 
 | Coefficient | Expression |
-|:---|:---|
+| :--- | :--- |
 | $A$ | $2R_E(1+\tan^2\Theta_k) - \gamma_k(R_E + r_k)$ |
 | $B$ | $2\gamma_k R_E \tan\Theta_k$ |
 | $C$ | $\gamma_k(R_E - r_k)$ |
@@ -59,7 +59,7 @@ $$\tan\frac{\beta_{kc}}{2} = \frac{B + \sqrt{B^2 - 4AC}}{2A}$$
 ### Passive-Phase Range and Free-Flight Range
 
 | Range Type | Definition | Geocentric Distance Substitution |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Passive-phase range $L_{kc}$ | Great-circle arc from the subsatellite point K' at burnout to the impact point C | Impact point $r_c = R_E$ |
 | Free-flight range $L_{ke}$ | Great-circle arc from K' at burnout to the subsatellite point E' at reentry | Reentry point $r_e = r_k$ |
 
@@ -81,5 +81,5 @@ The hit equation is the core tool for ballistic missile design. It enables direc
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.

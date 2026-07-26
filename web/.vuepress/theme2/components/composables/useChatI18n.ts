@@ -1,6 +1,6 @@
-import { computed } from 'vue'
+import { computed } from 'vue';
 
-type ChatLang = 'zh' | 'en'
+type ChatLang = 'zh' | 'en';
 
 const strings: Record<string, Record<ChatLang, string>> = {
   toolbarTitle: { zh: 'AI 问答', en: 'AI Chat' },
@@ -37,16 +37,16 @@ const strings: Record<string, Record<ChatLang, string>> = {
     zh: '请求失败，请检查网络或服务器代理配置。',
     en: 'Request failed. Please check the network or server proxy configuration.',
   },
-}
+};
 
 export function useChatI18n(isEn: () => boolean) {
-  const lang = computed<ChatLang>(() => (isEn() ? 'en' : 'zh'))
+  const lang = computed<ChatLang>(() => (isEn() ? 'en' : 'zh'));
 
   function t(key: string): string {
-    const item = strings[key]
-    if (!item) return key
-    return item[lang.value] ?? key
+    const item = strings[key];
+    if (!item) return key;
+    return item[lang.value] ?? key;
   }
 
-  return { t }
+  return { t };
 }

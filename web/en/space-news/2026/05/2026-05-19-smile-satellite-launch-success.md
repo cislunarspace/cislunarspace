@@ -26,7 +26,7 @@ SMILE is designed to capture the world's first X-ray images of Earth's magnetosp
 ## Launch Timeline (UTC)
 
 | Event | Time |
-|-------|------|
+| ------- | ------ |
 | Liftoff (00:52 local Kourou) | 03:52 UTC |
 | Spacecraft separation | ~04:20 UTC |
 | First signal received (New Norcia) | 04:48 UTC |
@@ -37,6 +37,7 @@ SMILE is designed to capture the world's first X-ray images of Earth's magnetosp
 ESA Director General Josef Aschbacher stated: "We are about to witness something we've never seen before — Earth's invisible armour in action. With Smile, we are pushing the boundaries of science in an effort to answer big questions that have remained a mystery since we discovered, over seventy years ago, the phenomenon of geomagnetic storms."
 
 The mission's scientific objectives include:
+
 - Advancing understanding of solar wind-magnetosphere coupling mechanisms
 - Revealing the causes of space weather events
 - Improving space environment forecasting capabilities

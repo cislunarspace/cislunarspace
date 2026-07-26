@@ -70,7 +70,7 @@ $$\mathbf{q} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{q}} V} \mathbf{q} \qua
 ## 与 Runge-Kutta 方法的对比
 
 | 特性 | 辛积分器 | 标准 Runge-Kutta |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 能量守恒 | 长期保持 | 系统性漂移 |
 | 相空间结构 | 保持辛形式 | 不保持 |
 | 精度 | 同阶数精度相当 | 同阶数精度相当 |

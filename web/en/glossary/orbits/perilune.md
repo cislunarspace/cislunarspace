@@ -73,11 +73,13 @@ Perilune parameters have core application value in cislunar missions:
 - **Scientific observation**: Low-perilune orbits are suitable for high-resolution lunar surface observation
 
 ## Related Concepts
+
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Apolune](/en/glossary/orbits/apolune/)
 - [Lunar Gravity Assist](/en/glossary/other/lunar-gravity-assist/)
 
 ## References
+
 - Wei Z et al. Research on lunar gravity-assist injection into cislunar distant retrograde orbit families[J]. 2026.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

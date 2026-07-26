@@ -41,7 +41,7 @@ permalink: /glossary/fundamentals/true-anomaly/
 $$r = \frac{a(1-e^2)}{1 + e\cos f}$$
 
 | 真近点角 | 位置 | 地心距 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $f = 0°$ | 近地点 | $r_p = a(1-e)$ |
 | $f = 90°$ | 通径端点 | $r = p = a(1-e^2)$ |
 | $f = 180°$ | 远地点 | $r_a = a(1+e)$ |

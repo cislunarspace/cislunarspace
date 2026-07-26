@@ -40,6 +40,7 @@ Weixing Technology expects to launch the first batch of 10 satellites by the end
 ## Space-Based Brain Product System Released
 
 The "Space-Based Brain" product system released at the conference is an intelligent application platform built on Tiankong Constellation data:
+
 - **Xinghuo (Star Fire)**: Focused on forest and grassland fire prevention, providing real-time fire point monitoring and early warning
 - **Xingjian (Star Inspection)**: Addressing overseas asset inventory needs, offering intelligent monitoring services based on infrared remote sensing
 - **Xingjing (Star Mirror)**: Dedicated to water environment governance, conducting water pollution and ecological change monitoring

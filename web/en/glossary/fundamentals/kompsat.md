@@ -77,7 +77,7 @@ The Korea Multi-Purpose Satellite (KOMPSAT) series is South Korea's Earth observ
 KOMPSAT series optical satellites:
 
 | Model | Resolution | Bands | Primary Applications |
-|-----|-------|------|---------|
+| ----- | ------- | ------ | --------- |
 | KOMPSAT-3A | 0.55 m | Panchromatic/Multispectral | High-resolution imaging |
 | KOMPSAT-7 | <0.3 m (target) | Panchromatic/Multispectral | Ultra-high-resolution observation |
 
@@ -86,7 +86,7 @@ KOMPSAT series optical satellites:
 KOMPSAT series SAR satellites:
 
 | Model | Resolution | Band | Primary Applications |
-|-----|-------|------|---------|
+| ----- | ------- | ------ | --------- |
 | KOMPSAT-5 | 1--20 m | X-band | All-weather observation |
 | KOMPSAT-6 | High performance | X-band | Interferometry |
 

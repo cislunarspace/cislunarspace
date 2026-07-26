@@ -31,6 +31,7 @@ $$G(\mathbf{x}, \lambda, s) = \|\mathbf{x} - \mathbf{x}_0\|^2 + (\lambda - \lamb
 其中 $\Delta s$ 为设定的弧长步长，$(\mathbf{x}_0, \lambda_0)$ 为当前已知解。
 
 **预测-校正步骤：**
+
 1. **预测**：沿切向量方向前进一步得到 $(\mathbf{x}_p, \lambda_p)$
 2. **校正**：以 $(\mathbf{x}_p, \lambda_p)$ 为初值，通过牛顿迭代求解打靶方程与弧长约束的联立方程组
 3. **步长控制**：根据校正收敛情况自适应调整 $\Delta s$

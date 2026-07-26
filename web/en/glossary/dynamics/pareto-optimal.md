@@ -50,12 +50,15 @@ Klonowski (2025) adopted multi-objective optimization methods in cislunar space 
 ## Key Elements
 
 ### Mathematical Definition
+
 Pareto Optimality means there is no feasible solution $\mathbf{x}$ such that $f_i(\mathbf{x}) \leq f_i(\mathbf{x}^*)$ for all $i$, with at least one inequality being strict. The Pareto front is the boundary formed by non-dominated solutions in the objective space.
 
 ### Key Properties
+
 The Pareto front represents the optimal trade-off set for a multi-objective optimization problem. The trade-offs between Pareto-optimal solutions can be quantified by moving along the Pareto front.
 
 ### Numerical Methods
+
 Computation of the Pareto front typically employs evolutionary algorithms (e.g., NSGA-II, MO-MCTS) or scalarization methods (e.g., weighted sum method, UTOPIS method).
 
 ## Related Concepts

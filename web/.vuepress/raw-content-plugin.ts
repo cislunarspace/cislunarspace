@@ -6,7 +6,7 @@ export const rawContentPlugin = {
   name: 'vuepress-plugin-raw-content',
   extendsPage: (page: any) => {
     if (page.content) {
-      page.frontmatter.__rawContent = page.content
+      page.frontmatter.__rawContent = page.content;
     }
   },
-}
+};

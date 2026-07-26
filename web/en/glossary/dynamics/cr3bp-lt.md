@@ -55,7 +55,7 @@ where $\tilde{c} = I_{sp} g_0 T^*/L^*$ is the dimensionless exhaust velocity.
 Characteristic normalization parameters for CR3BP-LT:
 
 | Parameter | Symbol | Earth-Moon Value |
-|:---|:---:|:---|
+| :--- | :---: | :--- |
 | Mass ratio | $\mu$ | 0.01215 |
 | Characteristic length | $L^*$ | $3.844 \times 10^8$ m |
 | Characteristic time | $T^*$ | 375,132 s |
@@ -64,7 +64,7 @@ Characteristic normalization parameters for CR3BP-LT:
 ## CR3BP-LT vs. Standard CR3BP
 
 | Property | Standard CR3BP | CR3BP-LT |
-|:---|:---:|:---:|
+| :--- | :---: | :---: |
 | Energy conservation | Jacobi constant conserved | Continuous low-thrust breaks conservation |
 | Dynamics | Integrable (conservative) | Non-conservative, highly nonlinear |
 | Orbit characteristics | Periodic/quasi-periodic orbits | Transfer trajectories freely designable |

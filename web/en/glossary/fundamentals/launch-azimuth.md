@@ -45,7 +45,7 @@ Therefore, given a target orbital inclination, the launch azimuth cannot be chos
 ### Role in Trajectory Design
 
 | Design Element | Description |
-|:---|:---|
+| :--- | :--- |
 | Primary Variable | Determined first among all design variables |
 | Determines Flight Plane | Specifies the planar direction of rocket flight |
 | Affects Impact Point | Directly influences lateral deviation of warhead or payload impact |
@@ -54,6 +54,7 @@ Therefore, given a target orbital inclination, the launch azimuth cannot be chos
 ### Design Method
 
 The launch azimuth is determined through iterative design:
+
 1. Provide an initial estimate of the launch azimuth
 2. Integrate the dynamics equations combined with the flight program angle
 3. Calculate terminal impact point deviation or orbit insertion parameter deviation
@@ -65,6 +66,7 @@ For ballistic missiles, the launch azimuth is determined by the geographic coord
 ### Constraint Conditions
 
 The launch azimuth design must also consider:
+
 - Launch site safety corridors (avoiding flight over densely populated areas)
 - Stage separation debris impact zone constraints
 - Tracking, telemetry, and command station coverage

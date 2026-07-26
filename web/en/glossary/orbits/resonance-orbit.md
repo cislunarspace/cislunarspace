@@ -35,7 +35,7 @@ A resonance orbit is a periodic orbit whose orbital period has a rational ratio 
 ## Common Resonance Ratios
 
 | Resonance | Period Ratio | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 1:1 | $T = T_M$ | Synchronous with the Moon, close to the Moon |
 | 2:1 | $T = T_M/2$ | Spacecraft completes 2 orbits per lunar orbit |
 | 3:1 | $T = T_M/3$ | Higher orbit, larger amplitude |

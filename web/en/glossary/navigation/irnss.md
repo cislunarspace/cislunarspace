@@ -37,7 +37,7 @@ The Indian Regional Navigation Satellite System (IRNSS) is an indigenous regiona
 ## Technical Parameters
 
 | Parameter | Value |
-|------|------|
+| ------ | ------ |
 | Number of satellites | 8 (3 geostationary + 5 inclined geosynchronous) |
 | Coverage area | 1500--2000 km (South Asia and Indian Ocean region) |
 | Positioning accuracy (Indian mainland) | Better than 10 meters |

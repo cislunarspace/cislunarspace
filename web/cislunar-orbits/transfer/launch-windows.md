@@ -16,7 +16,7 @@ permalink: /cislunar-orbits/transfer/launch-windows/
 >
 > 本文编辑来源：[CislunarSpace](https://cislunarspace.cn)
 >
-> 来源：https://cislunarspace.cn
+> 来源：<https://cislunarspace.cn>
 
 # 发射窗口分析
 
@@ -37,6 +37,7 @@ permalink: /cislunar-orbits/transfer/launch-windows/
 ## 窗口频率
 
 典型的 TLI 发射窗口频率：
+
 - **最佳窗口**：约每 14-15 天出现一次（半个朔望月）
 - **次优窗口**：在两次最佳窗口之间也存在次优机会，但能量较高
 - **错过窗口**：若错过发射窗口，通常需等待下一个 14-15 天周期
@@ -50,12 +51,14 @@ permalink: /cislunar-orbits/transfer/launch-windows/
 ### $C_3$ 增加
 
 偏离最佳窗口会导致所需 $C_3$ 增加，典型增加量：
+
 - 偏离 1 天：$C_3$ 增加约 $0.05-0.1$ km$^2$/s$^2$
 - 偏离 3 天：$C_3$ 增加约 $0.2-0.3$ km$^2$/s$^2$
 
 ### $\Delta V$ 惩罚
 
 $C_3$ 增加直接导致 TLI 机动所需 $\Delta V$ 增加：
+
 - $C_3$ 每增加 $0.1$ km$^2$/s$^2$，$\Delta V$ 约增加 $50-100$ m/s
 
 ### 转移时间变化
@@ -67,6 +70,7 @@ $C_3$ 增加直接导致 TLI 机动所需 $\Delta V$ 增加：
 ### GMAT
 
 NASA 的 **General Mission Analysis Tool**（GMAT）是开源轨道设计工具，支持：
+
 - TLI 发射窗口搜索与优化
 - Pork-Chop 图生成
 - 多目标优化（Pareto 前沿计算）
@@ -74,6 +78,7 @@ NASA 的 **General Mission Analysis Tool**（GMAT）是开源轨道设计工具�
 ### STK
 
 **Systems Tool Kit**（STK，AGI 公司）是专业轨道分析软件，提供：
+
 - 高精度星历计算
 - 发射窗口自动搜索
 - 任务轨迹可视化

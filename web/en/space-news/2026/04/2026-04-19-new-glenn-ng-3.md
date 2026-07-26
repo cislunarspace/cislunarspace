@@ -18,7 +18,6 @@ wechatShare:
 
 **Summary:** On April 19, 2026, Blue Origin successfully launched its third New Glenn rocket (NG-3) from Cape Canaveral Space Force Station, carrying AST SpaceMobile's BlueBird 7 satellite into low Earth orbit. The mission marked a critical milestone for Blue Origin, as it achieved the company's first-ever reuse of an orbital-class rocket booster—the "Never Tell Me the Odds" booster previously flown on NG-2 in late 2025.
 
-
 ## Mission Overview
 
 NG-3 lifted off during a two-hour window opening at 6:45 a.m. EDT (1045 UTC) from Pad 36 at Cape Canaveral Space Force Station. The mission carried a single BlueBird Block 2 satellite for AST SpaceMobile into low Earth orbit. Weather conditions were favorable with a 90% probability of acceptable conditions.

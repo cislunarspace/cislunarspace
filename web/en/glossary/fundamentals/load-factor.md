@@ -41,7 +41,7 @@ $$\mathbf{N} = m\dot{\mathbf{W}}$$
 The load factor is decomposed into three components in the body frame:
 
 | Component | Symbol | Direction | Physical Meaning |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Axial load factor | $N_{x1}$ | Along the vehicle longitudinal axis | Resultant of engine thrust and aerodynamic drag |
 | Normal load factor | $N_{y1}$ | Perpendicular to the longitudinal axis, within the plane of symmetry | Resultant of lift and normal thrust component |
 | Lateral load factor | $N_{z1}$ | Perpendicular to the plane of symmetry | Resultant of side force and lateral thrust component |

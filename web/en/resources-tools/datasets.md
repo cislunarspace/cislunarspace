@@ -31,15 +31,18 @@ permalink: /en/resources-tools/datasets/
 ## JPL Ephemeris
 
 ### DE Series Ephemeris Introduction
+
 The JPL Ephemeris (Development Ephemerides) is high-precision planetary and lunar position data published by the Jet Propulsion Laboratory, widely used in deep space exploration missions.
 
 ### Available Versions
 
 #### DE405 (For General Earth-Moon Missions)
+
 - **Time Coverage**: 1600–2200
 - **Accuracy**: Lunar position accuracy ~2–5 meters
 - **Use Cases**: Most cislunar space mission analysis
 - **Download Links**:
+
   ```bash
   # Official FTP download
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de405/
@@ -49,38 +52,46 @@ The JPL Ephemeris (Development Ephemerides) is high-precision planetary and luna
   ```
 
 #### DE421
+
 - **Time Coverage**: 1900–2050
 - **Accuracy**: Lunar position accuracy ~1 meter
 - **Features**: Includes more asteroid data
 - **Download Links**:
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de421/
   ```
 
 #### DE430
+
 - **Time Coverage**: 1550–2650
 - **Accuracy**: Lunar position accuracy ~0.5 meters
 - **Features**: Includes lunar libration data
 - **Download Links**:
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de430/
   ```
 
 #### DE440 (Recommended for High-Precision Missions)
+
 - **Time Coverage**: 1550–2650
 - **Accuracy**: Lunar position accuracy ~0.1 meters
 - **Features**: Based on longer observation arcs and improved lunar ephemeris fitting, suitable for high-precision cislunar missions
 - **Reference**: Park et al., 2021
 - **Download Links**:
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de440/
   ```
 
 #### DE441
+
 - **Time Coverage**: ~13200 BCE – ~17191 CE
 - **Accuracy**: Comparable to DE440, with extremely long time span
 - **Features**: Suitable for historical lookback and long-term orbit evolution studies
 - **Download Links**:
+
   ```bash
   ftp://ssd.jpl.nasa.gov/pub/eph/planets/ascii/de441/
   ```
@@ -88,6 +99,7 @@ The JPL Ephemeris (Development Ephemerides) is high-precision planetary and luna
 ### Data Format Description
 
 #### ASCII Format
+
 ```plaintext
 # DE405 header information example
 *******************************************************************************
@@ -101,6 +113,7 @@ The JPL Ephemeris (Development Ephemerides) is high-precision planetary and luna
 ```
 
 #### Binary SPK Format
+
 ```bash
 # SPK file download
 https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de405.bsp
@@ -109,6 +122,7 @@ https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de405.bsp
 ### Usage Examples
 
 #### Reading DE Ephemeris with Python
+
 ```python
 import numpy as np
 from astropy.time import Time
@@ -131,6 +145,7 @@ print(f"Moon position: {moon_pos} km")
 ```
 
 #### Reading DE Ephemeris with MATLAB
+
 ```matlab
 % Using MATLAB Aerospace Toolbox
 jd = juliandate(datetime(2025,1,1));
@@ -146,26 +161,31 @@ disp(['Moon position: ', num2str(moon_pos), ' km']);
 ## Lunar Gravity Field Models
 
 ### Model Overview
+
 Lunar gravity field models are used to accurately calculate the lunar gravitational potential, which is crucial for lunar orbit design and maintenance.
 
 ### Main Models
 
 #### GRGM Series (GRAIL Mission)
+
 - **GRGM900C**: Degree and order 900, spatial resolution ~5.6 km
 - **GRGM1200A**: Degree and order 1200, spatial resolution ~4.2 km
 - **GRGM660PRIM**: Degree and order 660, optimized for polar regions
 
 #### GL Series (Historical Models)
+
 - **GL0660B**: Degree and order 660, based on historical data
 - **GL0900D**: Degree and order 900, combining multiple data sources
 
 #### SGM Series (Japanese Models)
+
 - **SGM100i**: Degree and order 100, based on Kaguya data
 - **SGM150i**: Degree and order 150, higher precision version
 
 ### Download Links
 
 #### NASA PDS Archive
+
 ```bash
 # GRAIL gravity field models
 https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-gravity-v1/
@@ -175,6 +195,7 @@ https://pgda.gsfc.nasa.gov/products/71
 ```
 
 #### ISDC Data Portal
+
 ```bash
 # European data archive
 https://ssedata.gsfc.nasa.gov/archive/grail/
@@ -183,6 +204,7 @@ https://ssedata.gsfc.nasa.gov/archive/grail/
 ### Data Format
 
 #### Spherical Harmonic Coefficient Files
+
 ```plaintext
 # GRGM900C header example
 Product_id           = "GRGM900C"
@@ -205,6 +227,7 @@ degree order C_nm S_nm sigma_C sigma_S
 ### Usage Examples
 
 #### Computing Lunar Gravity with Python
+
 ```python
 import numpy as np
 import pyshtools
@@ -232,11 +255,13 @@ print(f"Gravitational acceleration: [{g_lat}, {g_lon}, {g_r}] m/s²")
 ### Solar Radiation Data
 
 #### Solar Constant
+
 - **Average**: 1361 W/m²
 - **Variation Range**: ±0.1%
 - **Data Sources**: SORCE/TIM, TSIS-1
 
 #### Download Links
+
 ```bash
 # NASA Solar Radiation Data
 https://lasp.colorado.edu/lisird/data/
@@ -248,16 +273,19 @@ https://www.ncei.noaa.gov/products/climate-data-records/solar-irradiance
 ### Geomagnetic Field Models
 
 #### IGRF Model
+
 - **International Geomagnetic Reference Field**: Updated every 5 years
 - **Degree**: 13 (1900–2020)
 - **Accuracy**: ~50 nT
 
 #### WMM Model
+
 - **World Magnetic Model**: Updated every 5 years
 - **Coverage**: Global
 - **Accuracy**: Better than 100 nT
 
 #### Download Links
+
 ```bash
 # IGRF Model
 https://www.ngdc.noaa.gov/IAGA/vmod/igrf.html
@@ -269,16 +297,19 @@ https://www.ncei.noaa.gov/products/world-magnetic-model
 ### Upper Atmosphere Models
 
 #### NRLMSISE-00
+
 - **Altitude Coverage**: 0–1000 km
 - **Parameters**: Temperature, density, composition
 - **Applicability**: Earth orbit missions
 
 #### JB2008
+
 - **Improved Version**: Includes solar activity effects
 - **Accuracy**: Better than 15%
 - **Applicability**: Long-term orbit decay prediction
 
 #### Download Links
+
 ```bash
 # CelesTrak Atmospheric Models
 https://celestrak.org/SpaceData/
@@ -290,6 +321,7 @@ https://omniweb.gsfc.nasa.gov/
 ### Usage Examples
 
 #### Computing Atmospheric Density
+
 ```python
 import numpy as np
 from spaceweather import sw_download
@@ -318,6 +350,7 @@ print(f"Atmospheric density: {density['Total']} kg/m³")
 ### Data Preprocessing
 
 #### Format Conversion
+
 ```python
 # Convert ASCII ephemeris to binary
 from jplephem import ascii2bin
@@ -326,6 +359,7 @@ ascii2bin.convert('de405.asc', 'de405.bsp')
 ```
 
 #### Data Verification
+
 ```python
 # Check data integrity
 import hashlib
@@ -345,11 +379,13 @@ def verify_file(filepath, expected_md5):
 ### Best Practices
 
 #### Data Management
+
 1. **Version Control**: Record the data version used
 2. **Backup Strategy**: Multiple backups for important data
 3. **Metadata Logging**: Record data sources and processing steps
 
 #### Performance Optimization
+
 ```python
 # Use memory mapping for improved large file reading performance
 import numpy as np
@@ -361,6 +397,7 @@ data = np.memmap('large_data.bin', dtype='float64', mode='r')
 ### FAQ
 
 #### Handling Missing Data
+
 ```python
 def handle_missing_data(data, method='interpolate'):
     """
@@ -382,6 +419,7 @@ def handle_missing_data(data, method='interpolate'):
 ```
 
 #### Data Update Strategy
+
 ```bash
 # Automated update script example
 #!/bin/bash
@@ -394,16 +432,19 @@ python process_spaceweather.py f107.txt
 ### Resource Links
 
 #### Official Data Portals
+
 - [NASA Planetary Data System](https://pds.nasa.gov/)
 - [ESA Science Data Centre](https://www.cosmos.esa.int/)
 - [JAXA Data Archive](https://data.darts.isas.jaxa.jp/)
 
 #### Community Resources
+
 - [Space Data Sharing Platform](https://spacedata.org/)
 - [Astrodynamics Data Exchange](https://astrodynamics.org/data/)
 - [Open Science Data Repository](https://zenodo.org/)
 
 #### Software Tools
+
 - [SPICE Toolkit](https://naif.jpl.nasa.gov/naif/toolkit.html)
 - [HORIZONS System](https://ssd.jpl.nasa.gov/horizons/)
 - [GMAT Data Interface](https://github.com/NASA-AMMOS/GMAT/wiki/Data-Interfaces)

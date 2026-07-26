@@ -35,7 +35,7 @@ Actuator error refers to the deviation between the actual thrust and the desired
 ## Error Sources
 
 | Error Type | Description |
-|:---|:---|
+| :--- | :--- |
 | Thrust magnitude error | Deviation of actual thrust magnitude from the nominal value |
 | Thrust direction error | Deviation of actual thrust direction from the desired direction |
 | Thrust duration error | Deviation in engine ignition time and duration |

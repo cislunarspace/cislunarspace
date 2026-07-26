@@ -41,7 +41,7 @@ NASA 此次发布的回顾内容涵盖以下阶段：
 ## Artemis II 任务概况
 
 | 项目 | 详情 |
-|------|------|
+| ------ | ------ |
 | 发射日期 | 2026年4月1日 |
 | 溅落日期 | 2026年4月11日 |
 | 航天员 | Reid Wiseman（指令长）、Victor Glover（飞行员）、Christina Koch（任务专家）、Jeremy Hansen（任务专家） |

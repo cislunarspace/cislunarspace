@@ -37,6 +37,7 @@ Christina Koch, who will break the record for furthest distance from Earth for a
 Following the crew briefing, NASA held a news conference to provide a mission status update. NASA Administrator Jared Isaacman, CSA President Lisa Campbell, and other NASA officials attended.
 
 Key points from NASA's update:
+
 - **Weather outlook**: As of Sunday morning, the Space Force's 45th Weather Squadron gives a 20% Probability of Violation (POV), meaning an 80% chance of "go" — but primary concerns include possible violations of the Cumulus Cloud Rule, Thick Cloud Layers Rule, and Ground Winds.
 - **Launch window**: Opens April 1 at 6:24 pm ET, remains open through April 6. If not launched by then, the next opportunity is April 30.
 - **Mission profile**: The crew will spend about a day in Earth orbit to check out systems before heading to the Moon on a free-return trajectory. The total mission duration is approximately 10 days.
@@ -45,7 +46,7 @@ Key points from NASA's update:
 ## Pre-Launch Schedule Ahead
 
 | Date (ET) | Event |
-|-----------|-------|
+| ----------- | ------- |
 | March 30, 5:00 pm | Post-Mission Management Team news conference |
 | March 31, 1:00 pm | Pre-launch news conference |
 | April 1, 7:45 am | Tanking operations begin |

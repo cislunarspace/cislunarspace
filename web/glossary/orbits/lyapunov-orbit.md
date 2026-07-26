@@ -50,7 +50,7 @@ Lyapunov 轨道族通过 $x$ 轴上的初始位移 $x_0$（相对于平动点）
 根据地月系统中的平动点位置，Lyapunov 轨道可分为以下族：
 
 | 轨道族 | 所属平动点 | 特征 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Ly1（Lyapunov L1） | L1 | 位于地月连线之间 |
 | Ly2（Lyapunov L2） | L2 | 位于月球背向地球一侧 |
 | Ly3（Lyapunov L3） | L3 | 位于地球背向月球一侧 |
@@ -60,7 +60,7 @@ Lyapunov 轨道族通过 $x$ 轴上的初始位移 $x_0$（相对于平动点）
 以地月系统为例，Lyapunov 轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
 
 | 轨道族 | Jacobi 常数范围 | 周期范围（天） | 稳定性指数 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Ly1 | 约 3.188 ~ 2.124 | 中等 | 较高 |
 | Ly2 | 约 3.172 ~ 2.881 | 中等 | 较高 |
 | Ly3 | 约 2.5 | 较长 | 中等 |
@@ -108,6 +108,7 @@ Lyapunov 轨道在理论研究和实际任务中均具有价值：
 - **教学与入门**：作为平动点轨道族中最简单的周期轨道，Lyapunov 轨道是轨道力学教学的理想起点
 
 ## 相关概念
+
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - [垂直轨道（Vertical Orbit）](/glossary/orbits/vertical-orbit/)
@@ -116,6 +117,7 @@ Lyapunov 轨道在理论研究和实际任务中均具有价值：
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
 - Szebehely V. Theory of Orbits: The Restricted Problem of Three Bodies[M]. Academic Press, 1967.
 - Gomez G, Masdemont J, Simo C. Quasihalo orbits associated with libration points[J]. Journal of the Astronautical Sciences, 1998.

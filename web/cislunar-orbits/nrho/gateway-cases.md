@@ -16,7 +16,7 @@ permalink: /cislunar-orbits/nrho/gateway-cases/
 >
 > 本文编辑来源：[CislunarSpace](https://cislunarspace.cn)
 >
-> 来源：https://cislunarspace.cn
+> 来源：<https://cislunarspace.cn>
 
 # Gateway 工程案例
 
@@ -25,6 +25,7 @@ permalink: /cislunar-orbits/nrho/gateway-cases/
 NASA 的**月球门户**（Lunar Gateway）是 Artemis 计划的核心基础设施，是一个计划在地月空间运行的小型空间站。与国际空间站（ISS）不同，Gateway 并非常驻轨道，而是运行在 L1 NRHO 上，周期性地访问月球表面并支持深空任务。
 
 Gateway 选择 NRHO 作为其运行轨道，主要基于以下考量：
+
 1. **轨道稳定性**：NRHO 在 CR3BP 模型中的准周期性减少维持所需推进剂
 2. **月面可达性**：从 NRHO 到月球两极的转移 ΔV 约为 200-400 m/s，优于 LEO
 3. **通信覆盖**：NRHO 对月球背面（尤其南极）有较好的通信可见性
@@ -37,7 +38,7 @@ Gateway 的目标 NRHO 参数：$A_x \approx 3100$ km，周期约 6.5 天，位�
 Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与方承担不同舱段的研制与运营：
 
 | 参与方 | 舱段 | 功能 |
-|--------|------|------|
+| -------- | ------ | ------ |
 | NASA（美国） | PPE（动力与推进）、HALO（居住与后勤） | 能源、推进、生活保障 |
 | ESA（欧洲） | ESPRIT（欧洲加油模块） | 推进剂补加、通信增强 |
 | JAXA（日本） | I-HAB（国际居住舱） | 人员居住、科学实验 |
@@ -48,6 +49,7 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 ## 地月转移设计
 
 从地球到 Gateway NRHO 的转移通常分为两个阶段：
+
 1. **地月转移轨道（TLI）**：从 LEO 或直接发射进入地月转移轨道
 2. **NRHO 插入**：在接近 L1 点时进行轨道机动，将航天器插入 NRHO
 
@@ -58,7 +60,7 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 在 Gateway 规划阶段，也曾考虑过 DRO 作为替代运行轨道。相比之下：
 
 | 特性 | NRHO | DRO |
-|------|------|-----|
+| ------ | ------ | ----- |
 | 月面可达性 | 较好（200-400 m/s 到两极） | 较差 |
 | 维持 ΔV | 30-80 m/s/年 | 5-20 m/s/年 |
 | 地球通信 | 好 | 较好 |

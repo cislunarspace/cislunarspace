@@ -60,7 +60,7 @@ Turion Space 通过其平台提供太空态势感知数据服务：
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | DROID 卫星平台 | 轨道转移飞行器 | 通用轨道转移和碎片处理平台 |
 | DROID.002 | 技术验证星 | 首次在轨验证任务，轨道接近和观测 |
 | 碎片抓取系统 | 机械系统 | 目标航天器和碎片的抓取捕获 |
@@ -118,5 +118,5 @@ Turion Space 的技术与地月空间直接相关，随着地月空间活动增�
 
 ## 参考文献
 
-- Turion Space 官网: https://turionspace.com
+- Turion Space 官网: <https://turionspace.com>
 - SpaceNews, "Turion Space DROID.002 launch and initial operations", 2024.

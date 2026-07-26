@@ -47,7 +47,7 @@ $C_R$ directly determines the magnitude of solar radiation pressure on the space
 ## Typical Values
 
 | Spacecraft Type | Typical $C_R$ Value |
-|:---|:---|
+| :--- | :--- |
 | Large solar panels | Close to 2 |
 | High-reflectivity satellites | 1.5 ~ 1.8 |
 | Dark-surface satellites | 1.0 ~ 1.3 |

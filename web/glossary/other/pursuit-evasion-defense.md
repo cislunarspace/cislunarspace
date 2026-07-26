@@ -39,7 +39,7 @@ permalink: /glossary/other/pursuit-evasion-defense/
 ### 三方角色
 
 | 角色 | 目标 | 典型场景 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 追踪方 | 捕获逃逸方 | 敌方拦截器、追击卫星 |
 | 逃逸方 | 避免被捕获 | 高价值卫星、空间站 |
 | 防御方 | 协助逃逸方躲避追踪方 | 护卫卫星、防御系统 |
@@ -47,6 +47,7 @@ permalink: /glossary/other/pursuit-evasion-defense/
 ### 博弈结构
 
 追逃防问题可分解为两个二人零和子博弈：
+
 1. 追踪方 vs 逃逸方（追逃博弈）
 2. 防御方 vs 追踪方（攻防博弈）
 
@@ -76,6 +77,7 @@ permalink: /glossary/other/pursuit-evasion-defense/
 ### 协同优化
 
 防御方的任务规划需考虑：
+
 - 分布式在线任务规划算法
 - 纳什均衡理论的任务分配
 - 轨道机动的协同优化

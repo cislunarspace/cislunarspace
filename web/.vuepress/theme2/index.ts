@@ -1,6 +1,6 @@
-import type { Theme } from 'vuepress'
-import { path } from '@vuepress/utils'
-import { defaultTheme } from '@vuepress/theme-default'
+import type { Theme } from 'vuepress';
+import { path } from '@vuepress/utils';
+import { defaultTheme } from '@vuepress/theme-default';
 
 export default ((options) => {
   return {
@@ -11,5 +11,5 @@ export default ((options) => {
       '@theme/Layout.vue': path.resolve(__dirname, 'layouts/Layout.vue'),
       '@theme/VPSidebar.vue': path.resolve(__dirname, 'components/VPSidebar.vue'),
     },
-  }
-}) as Theme
+  };
+}) as Theme;

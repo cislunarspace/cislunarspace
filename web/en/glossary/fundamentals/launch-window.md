@@ -55,7 +55,7 @@ where $\overline{S}(t_I)$ is the Greenwich mean sidereal time at the launch mome
 ### Launch Direction and Orbit Type
 
 | Azimuth Range | Orbit Type | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $0 < A_I < \pi$ | Prograde Orbit | $0 < i < \pi/2$ |
 | $\pi < A_I < 2\pi$ | Retrograde Orbit | $\pi/2 < i < \pi$ |
 | $A_I = \pi/2$ | Eastward Launch | $i = i_{\min} = \varphi_I$ |

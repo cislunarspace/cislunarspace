@@ -16,7 +16,7 @@ permalink: /cislunar-orbits/transfer/tli-overview/
 >
 > 本文编辑来源：[CislunarSpace](https://cislunarspace.cn)
 >
-> 来源：https://cislunarspace.cn
+> 来源：<https://cislunarspace.cn>
 
 # TLI 概览
 
@@ -41,6 +41,7 @@ TLI 的发射窗口由地月几何决定，主要考虑因素包括：
 ### 窗口偏离的代价
 
 若发射时机偏离最佳窗口，则：
+
 - 转移能量 $C_3$ 增加（可能达到 -0.3 km$^2$/s$^2$ 或更高）
 - 转移时间变化（可能延长或缩短）
 - 到达月球时的相位不利，影响交会对接或着陆
@@ -56,7 +57,7 @@ $$C_3 = v^2 - \frac{2\mu_E}{r}$$
 $$\Delta V_{TLI} = v_{escape} - v_{LEO} \approx 3.1-3.3 \text{ km/s}$$
 
 | 任务 | LEO 停泊轨道 | TLI ΔV | 备注 |
-|------|-------------|---------|------|
+| ------ | ------------- | --------- | ------ |
 | Apollo 11 | 185 km | ~3.05 km/s | 土星V第三级 |
 | 嫦娥五号 | 190 km | ~3.0 km/s | 轨道器+返回器 |
 | SLIM | 190 km | ~3.1 km/s | 小型着陆器 |
@@ -75,6 +76,7 @@ $$\Delta V_{TLI} = v_{escape} - v_{LEO} \approx 3.1-3.3 \text{ km/s}$$
 ## 发射窗口规划工具
 
 现代任务规划中使用 GMAT、STK 等工具进行 TLI 发射窗口优化：
+
 - **GMAT**：NASA 开源的轨道设计工具，支持 TLI 优化和 pork-chop 图生成
 - **STK**（Satellite Tool Kit）：AGI 公司的专业轨道分析软件，提供高精度的窗口计算
 

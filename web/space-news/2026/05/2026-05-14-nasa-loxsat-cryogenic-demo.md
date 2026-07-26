@@ -16,7 +16,6 @@ image: ./figures/2026-05-14-nasa-loxsat-cryogenic-demo/hero.jpg
 
 2026年5月12日，NASA 与总部位于佛罗里达州洛克里奇的 Eta Space 公司联合宣布，双方已正式完成液氧飞行演示任务（Liquid Oxygen Flight Satellite，LOXSAT）的合作签约工作。这颗专用于低温流体管理（Cryogenic Fluid Management，CFM）技术验证的小型卫星，计划于 2027 年由火箭实验室（Rocket Lab）的 Electron 火箭发射至近地轨道，在太空真实环境中验证液氧的长期无阻力储存与在轨管理能力。
 
-
 ## 为什么低温流体管理至关重要
 
 人类航天的下一步，是从近地轨道的"暂时到访"走向月球乃至火星的"长期驻留"。无论是 Artemis 计划的月球南极基地，还是未来火星表面任务，都面临一个核心瓶颈——推进剂的在轨补给。

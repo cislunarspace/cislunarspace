@@ -65,7 +65,7 @@ permalink: /glossary/organizations/northrop-grumman/
 ## 主要产品与技术
 
 | 产品/技术 | 类型 | 说明 |
-|-----------|------|------|
+| ----------- | ------ | ------ |
 | 天鹅座飞船 | 货运飞船 | ISS 商业补给，支持月球近轨道后勤概念 |
 | Next Gen OPIR | 导弹预警卫星 | 探测弹道导弹和高超音速滑翔飞行器 |
 | 代达罗斯对接系统 | 对接机构 | 月球门户对接接口 |
@@ -122,7 +122,7 @@ permalink: /glossary/organizations/northrop-grumman/
 
 ## 参考文献
 
-- Northrop Grumman 官网: https://www.northropgrumman.com
+- Northrop Grumman 官网: <https://www.northropgrumman.com>
 - NASA CRS, "Northrop Grumman's Cygnus spacecraft", 2024.
 - Space Development Agency, "Next Gen OPIR program", 2024.
 - 中国商务部公告 2025 年第 1 号，2025 年 1 月 2 日。

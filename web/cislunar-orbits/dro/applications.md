@@ -16,7 +16,7 @@ permalink: /cislunar-orbits/dro/applications/
 >
 > 本文编辑来源：[CislunarSpace](https://cislunarspace.cn)
 >
-> 来源：https://cislunarspace.cn
+> 来源：<https://cislunarspace.cn>
 
 # DRO 工程应用
 
@@ -29,6 +29,7 @@ DRO 的一个独特应用是作为**应急返回轨道**（Contingency Return Or
 ## 中继与通信
 
 DRO 对某些特定任务具有中继通信优势：
+
 - **大视场覆盖**：DRO 的高轨道位置使其能够同时看到较大范围的地球和月球区域
 - **持续可见性**：对于某些特定几何配置，DRO 可提供对极地区域的持续可见性
 - **低干扰环境**：相比 LEO，DRO 受到地球阴影的影响较小
@@ -38,6 +39,7 @@ DRO 对某些特定任务具有中继通信优势：
 ## 编队与星座
 
 多航天器协同是 DRO 的另一个应用方向。在 DRO 上运行的多个航天器可以：
+
 - 利用 DRO 的固有稳定性减少编队维持所需的 ΔV
 - 实现编队飞行任务（如合成孔径雷达、引力波探测等）
 - 形成"星座"结构，提高覆盖范围或冗余度
@@ -49,6 +51,7 @@ DRO 对某些特定任务具有中继通信优势：
 ### CAPSTONE
 
 NASA 的 **CAPSTONE**（Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment）是首个专门验证地月 DRO 的任务，于 2022 年发射。CAPSTONE 运行在 L1 DRO 上，用于验证：
+
 - DRO 轨道的长期稳定性
 - 自主导航技术
 - 与月球勘测轨道器（LRO）的通信
@@ -58,6 +61,7 @@ CAPSTONE 的成功验证了 DRO 作为地月空间任务运行轨道的可行性
 ### Artemis 计划中的 DRO
 
 在 Artemis 计划中，DRO 被考虑作为备用运行轨道方案。虽然 NASA 最终选择 NRHO 作为 Gateway 的运行轨道，但 DRO 在以下方面具有优势：
+
 - 更低的维持 ΔV
 - 更高的固有稳定性
 - 更简单的轨道设计
@@ -65,7 +69,7 @@ CAPSTONE 的成功验证了 DRO 作为地月空间任务运行轨道的可行性
 ## 各应用场景 ΔV 预算对比
 
 | 应用场景 | 从 LEO 出发 ΔV | 轨道维持 ΔV/年 |
-|----------|-----------------|----------------|
+| ---------- | ----------------- | ---------------- |
 | L1 DRO | ~3.2 km/s | 5-10 m/s |
 | L2 DRO | ~3.3 km/s | 8-15 m/s |
 | L1 NRHO | ~3.1 km/s | 30-50 m/s |

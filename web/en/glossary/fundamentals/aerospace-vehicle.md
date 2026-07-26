@@ -39,7 +39,7 @@ An aerospace vehicle is any vehicle that enters or passes through space, includi
 The motion of an aerospace vehicle can be divided into three fundamental phases:
 
 | Phase | Definition | Typical Vehicles |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Powered Phase | From liftoff to main engine cutoff | Ballistic missiles, launch vehicles, space shuttles |
 | Orbital Phase | On-orbit operation after main engine cutoff | Satellites, space stations, spacecraft |
 | Reentry Phase | From deorbit braking to landing | Spacecraft reentry capsules, space shuttles, warheads |

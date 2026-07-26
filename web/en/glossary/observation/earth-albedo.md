@@ -41,7 +41,7 @@ $$A_{planet} = \frac{\text{Reflected radiation}}{\text{Incoming radiation}} = \f
 ### Typical Values
 
 | Surface Type | Albedo |
-|:---|:---|
+| :--- | :--- |
 | Ocean | 0.05-0.15 |
 | Forest | 0.10-0.20 |
 | Desert | 0.25-0.40 |

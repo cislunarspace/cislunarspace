@@ -41,7 +41,7 @@ where $\dot{m}$ is the propellant mass flow rate, $u_e$ is the exhaust velocity,
 ### Components of Thrust
 
 | Component | Expression | Physical Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Momentum thrust (reaction force) | $\dot{m} u_e$ | Reaction force from the expelled gas; the dominant component of thrust |
 | Static thrust | $S_e(p_e - p_H)$ | Force produced by the pressure difference across the nozzle exit |
 
@@ -60,7 +60,7 @@ The effective exhaust velocity is independent of ambient atmospheric pressure an
 ### Vacuum Thrust and Sea-Level Thrust
 
 | Condition | Expression | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Vacuum thrust | $P_v = \dot{m} u_e'$ | Maximum thrust, no atmospheric pressure loss |
 | Sea-level thrust | $P_0 = \dot{m} u_e' - S_e p_0$ | Thrust at sea level |
 | General formula | $P = P_0 + S_e(p_0 - p_H)$ | Thrust at any altitude |
@@ -79,5 +79,5 @@ Thrust is the sole source of propulsion during a rocket's powered flight phase. 
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.

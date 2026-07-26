@@ -136,7 +136,7 @@ The improved method requires collaborative design with autonomous navigation sys
 ### Simulation Results
 
 | Metric | Traditional Method | Improved Method |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Orbit deviation control | Cannot converge | < 1 km |
 | Impulse consumption | Divergent | ~10 m/s/year |
 | Control period | Not applicable | ~7 days |
@@ -146,7 +146,7 @@ Results show the improved baseline control-point method achieves effective orbit
 ## Comparison with Other Methods
 
 | Method | Applicable Scenario | Advantages | Disadvantages |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | X-axis velocity constraint pulse | Halo orbit | Simple, intuitive | Only for specific orbits |
 | Floquet mode method | Periodic orbit | Theoretically complete | Computationally complex |
 | Traditional control-point | Strongly stable orbit | Mature, stable | Not suitable for weakly stable orbits |

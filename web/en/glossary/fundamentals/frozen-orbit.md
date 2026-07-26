@@ -43,14 +43,14 @@ $$\dot{\omega} = \frac{3J_2R_E^2}{2p^2}n\left(2 - \frac{5}{2}\sin^2 i\right)$$
 When $2 - \frac{5}{2}\sin^2 i = 0$, $\dot{\omega} = 0$, giving:
 
 | Critical Inclination | Orbit Type |
-|:---|:---|
+| :--- | :--- |
 | $i = 63.4°$ | Prograde frozen orbit |
 | $i = 116.6°$ | Retrograde frozen orbit |
 
 ### Apse Line Drift Pattern
 
 | Inclination Range | Drift Direction | Description |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $i < 63.4°$ | $\dot{\omega} > 0$, drifts in the direction of motion | Prograde orbit |
 | $63.4° < i < 116.6°$ | $\dot{\omega} < 0$, drifts opposite to the direction of motion | Includes polar orbits |
 | $i > 116.6°$ | $\dot{\omega} > 0$, drifts in the direction of motion | Retrograde orbit |
@@ -60,7 +60,7 @@ When $2 - \frac{5}{2}\sin^2 i = 0$, $\dot{\omega} = 0$, giving:
 The Soviet Union's Molniya satellite system employed a frozen orbit design:
 
 | Parameter | Value |
-|:---|:---|
+| :--- | :--- |
 | Orbital period | 12 sidereal hours |
 | Eccentricity | $e \approx 0.7$ |
 | Inclination | $i = 63.4°$ |

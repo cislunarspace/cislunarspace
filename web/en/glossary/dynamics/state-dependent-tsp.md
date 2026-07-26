@@ -37,7 +37,7 @@ In orbital deployment missions, the "state" in SDTSP typically refers to the mas
 ## Differences from Classical TSP
 
 | Feature | Classical TSP | State-Dependent TSP |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Transfer cost | Depends only on (i, j) | Depends on (i, j, k), where k is the current state |
 | Solution space | N! | N! x (number of states) |
 | Optimality | Unique global optimum | Sequence optimum depends on state sequence |
@@ -79,6 +79,7 @@ Hu Min et al. (2026) formulated the OTV batch deployment mission as an SDTSP:
 ### State-Dependent Cost Matrix
 
 The cost matrix $C(i, j, k)$ is three-dimensional:
+
 - $i$: Origin orbit
 - $j$: Destination orbit
 - $k$: Number of satellites already deployed (determines OTV mass state)
@@ -106,7 +107,7 @@ For medium-scale missions ($N \leq 12$), dynamic programming can guarantee a glo
 Research results (Hu Min et al., 2026) show:
 
 | Algorithm | Optimality Guarantee | Applicable Scale |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Dynamic Programming (DP) | Exact optimal | N <= 12 |
 | Genetic Algorithm (GA) | Heuristic, probabilistic convergence | Any scale |
 | Greedy Algorithm | Local optimal | N <= 8 |
@@ -114,12 +115,15 @@ Research results (Hu Min et al., 2026) show:
 ## Key Elements
 
 ### Mathematical Definition
+
 SDTSP is a state-dependent extension of the classical TSP, where transfer cost $C_{ij}^k$ depends on the current state $k$, making the problem more closely aligned with actual engineering constraints.
 
 ### Key Properties
+
 State dependence makes the problem more realistically reflect physical reality, particularly in space missions where mass changes are significant.
 
 ### Engineering Value
+
 Accurate SDTSP modeling is key to obtaining high-quality deployment plans. A state-independent model systematically underestimates costs in later stages.
 
 ## Related Concepts

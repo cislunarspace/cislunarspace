@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/free-flight-trajectory/
 自由段弹道的惯性方位、尺寸、形状和指向完全由主动段终点（关机点）K 处的位置 $\boldsymbol{r}_k$ 和速度 $\boldsymbol{v}_k$ 决定。由于自由段飞行时间不足一个轨道周期，弹道可从三维退化为二维平面弹道，对应参数简化为：
 
 | 参数 | 符号 | 含义 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 半通径 | $p$ | $p = r_k \gamma_k \cos^2 \Theta_k$ |
 | 偏心率 | $e$ | $e = \sqrt{1 - \gamma_k(2-\gamma_k)\cos^2\Theta_k}$ |
 | 真近点角 | $f_k$ | $f_k = \cos^{-1}\left[\frac{1}{e}\left(\frac{p}{r_k}-1\right)\right]$ |
@@ -47,7 +47,7 @@ permalink: /glossary/fundamentals/free-flight-trajectory/
 ### 弹道形状条件
 
 | 弹道类型 | 能量参数条件 | 速度条件 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 圆弹道 | $\gamma_k = 1$ | $v_k = \sqrt{\mu_E/r_k}$ |
 | 椭圆弹道 | $0 < \gamma_k < 2$ | $v_k < \sqrt{2\mu_E/r_k}$ |
 | 抛物线弹道 | $\gamma_k = 2$ | $v_k = \sqrt{2\mu_E/r_k}$ |

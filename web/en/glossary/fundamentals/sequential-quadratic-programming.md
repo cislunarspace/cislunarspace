@@ -70,7 +70,7 @@ $$H_{k+1} = H_k + \frac{s_k s_k^{\mathrm{T}}}{s_k^{\mathrm{T}} \delta_k} - \frac
 ### Comparison with Other Optimization Methods
 
 | Method | Characteristics | Applicable Scenarios |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | SQP | Gradient-based, fast convergence, local optimum | Continuously differentiable NLP problems |
 | Genetic Algorithm | Global search, gradient-free | Discrete or non-smooth problems |
 | Simulated Annealing | Global search, avoids local optima | Complex multimodal problems |
@@ -85,5 +85,5 @@ SQP is one of the core methods for trajectory optimization. In launch vehicle an
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.

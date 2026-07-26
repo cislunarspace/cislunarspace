@@ -24,7 +24,7 @@ Blue Origin's New Glenn currently uses a partially reusable design: the first st
 Blue Origin's disclosed production timeline:
 
 | Phase | Target | Notes |
-|-------|--------|-------|
+| ------- | -------- | ------- |
 | Current | 12/year | Active production rate |
 | Q3 2028 | 60/year | ~5 units per month |
 | 2029 | 100/year | Includes Quattro variants |
@@ -36,7 +36,7 @@ The core driver is demand for cislunar and lunar missions. High-frequency launch
 Blue Origin announced the Quattro upper stage upgrade program on May 1, 2026. Comparison before and after:
 
 | Metric | Current | Quattro Upgrade |
-|--------|---------|-----------------|
+| -------- | --------- | ----------------- |
 | First stage engines | 7 BE-4 | 9 BE-4 |
 | Upper stage engines | 2 BE-3U | 4 BE-3U |
 | Recovery mode | Droneship landing | Droneship landing |

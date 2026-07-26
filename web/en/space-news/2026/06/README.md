@@ -12,7 +12,7 @@ lastUpdated: 2026-07-02
 ## This Month's Additions
 
 | Date | Title |
-|------|-------|
+| ------ | ------- |
 | 6-30 | [China to Establish Ground-Space Integrated Near-Earth Asteroid Monitoring System, CNSA Announces](./2026-06-30-cnsa-nea-asteroid-monitoring-system/) |
 | 6-30 | [Rocket Lab Aborts Launch of Japanese IQPS Radar Satellite Grain Goddess](./2026-06-30-rocket-lab-abort-iqps-grain-goddess/) |
 | 6-29 | [LandSpace Zhuque-3 Y2 Faces Critical Technical Hurdles Ahead of Reuse Attempt](./2026-06-29-zhuque-3-y2-technical-challenges/) |
@@ -117,16 +117,16 @@ lastUpdated: 2026-07-02
 | 6-09 | [LandSpace ZQ-2E Y6 launches two Qianfan and China Mobile satellites on single rocket](./2026-06-09-zhuque-2e-y6-qianfan-dtc/) |
 | 6-08 | [Quantum Space to Go Public via SPAC Deal Valued at Over $1.1 Billion](./2026-06-08-quantum-space-spac-deal/) |
 | 6-08 | [FCC Grants Amazon Leo Deployment Extension but Temporarily Strips Spectrum Priority](./2026-06-08-fcc-amazon-leo-spectrum-penalty/) |
-|  6-08 | [Boston University Proposes StormWall: Spacecraft Fleet to Reinforce Earth's Magnetosphere](./2026-06-08-stormwall-magnetosphere-shield/) |
-|  6-08 | [CME Triggers G3 Geomagnetic Storm: Northern Lights May Reach Illinois on June 8](./2026-06-08-cme-geomagnetic-storm/) |
-|  6-08 | [UK Government and Vast Sign Agreement to Fly ESA Parastronaut John McFall to Haven-1](./2026-06-08-mcfall-vast-haven1/) |
-|  6-08 | [Prada and Axiom Unveil Artemis Moon Suit Cooling Garment](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
-|  6-08 | [SpaceX Falcon 9 Booster B1067 Completes Record-Breaking 35th Flight](./2026-06-08-falcon9-b1067-35th-flight/) |
-|  6-08 | [NASA Reveals Artemis 3 Crew: Commander Bresnik to Lead Four-Person Team Toward 2028 Moon Landing](./2026-06-08-artemis-3-crew-announcement/) |
-|  6-07 | [Shenzhou-23 Crew Releases First In-Orbit Work Images; One Member to Attempt China's First Year-Long Space Station Stay](./2026-06-07-sz23-first-inorbit-images/) |
-|  6-07 | [The Large Magellanic Cloud is tearing its smaller neighbor apart, VISTA's 11-year sky survey reveals](./2026-06-07-lmc-ripping-smc/) |
-|  6-07 | [Meteor storms may threaten Artemis 4: NASA weighs the risk to future moon missions](./2026-06-07-meteor-storms-artemis-4-risk/) |
-|  6-06 | [SpaceX launches 21 Starlink + 2 Starshield satellites from Vandenberg on June 6: OCISLY's 201st landing, SpaceX's 620th booster recovery overall](./2026-06-06-starlink-17-43-starshield-launch/) |
+| 6-08 | [Boston University Proposes StormWall: Spacecraft Fleet to Reinforce Earth's Magnetosphere](./2026-06-08-stormwall-magnetosphere-shield/) |
+| 6-08 | [CME Triggers G3 Geomagnetic Storm: Northern Lights May Reach Illinois on June 8](./2026-06-08-cme-geomagnetic-storm/) |
+| 6-08 | [UK Government and Vast Sign Agreement to Fly ESA Parastronaut John McFall to Haven-1](./2026-06-08-mcfall-vast-haven1/) |
+| 6-08 | [Prada and Axiom Unveil Artemis Moon Suit Cooling Garment](./2026-06-08-prada-axiom-lcvg-cooling-garment/) |
+| 6-08 | [SpaceX Falcon 9 Booster B1067 Completes Record-Breaking 35th Flight](./2026-06-08-falcon9-b1067-35th-flight/) |
+| 6-08 | [NASA Reveals Artemis 3 Crew: Commander Bresnik to Lead Four-Person Team Toward 2028 Moon Landing](./2026-06-08-artemis-3-crew-announcement/) |
+| 6-07 | [Shenzhou-23 Crew Releases First In-Orbit Work Images; One Member to Attempt China's First Year-Long Space Station Stay](./2026-06-07-sz23-first-inorbit-images/) |
+| 6-07 | [The Large Magellanic Cloud is tearing its smaller neighbor apart, VISTA's 11-year sky survey reveals](./2026-06-07-lmc-ripping-smc/) |
+| 6-07 | [Meteor storms may threaten Artemis 4: NASA weighs the risk to future moon missions](./2026-06-07-meteor-storms-artemis-4-risk/) |
+| 6-06 | [SpaceX launches 21 Starlink + 2 Starshield satellites from Vandenberg on June 6: OCISLY's 201st landing, SpaceX's 620th booster recovery overall](./2026-06-06-starlink-17-43-starshield-launch/) |
 | 6-05 | [NASA's X-59 quiet supersonic jet finally breaks the sound barrier: Mach 1.1, 713 mph, 43,400 feet](./2026-06-05-nasa-x59-quesst-supersonic/) |
 | 6-05 | [Astronomers Detect Long-Sought Wind From Milky Way's Central Black Hole](./2026-06-05-milky-way-black-hole-wind/) |
 | 6-05 | [ISS Crew Shelters in SpaceX Dragon as Cosmonauts Work to Seal Years-Long Air Leak](./2026-06-05-iss-shelter-dragon-air-leak/) |

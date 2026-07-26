@@ -1,13 +1,21 @@
 <template>
-  <div class="article-hero" :class="{ 'article-hero--img': imageUrl, 'article-hero--plain': !imageUrl }">
+  <div
+    class="article-hero"
+    :class="{ 'article-hero--img': imageUrl, 'article-hero--plain': !imageUrl }"
+  >
     <div v-if="imageUrl" class="article-hero__bg">
       <img :src="imageUrl" :alt="title" />
     </div>
     <div v-if="imageUrl" class="article-hero__overlay" />
     <div class="article-hero__content">
-      <span v-if="categoryLabel" class="article-hero__tag scroll-reveal" :style="tagStyle">{{ categoryLabel }}</span>
+      <span v-if="categoryLabel" class="article-hero__tag scroll-reveal" :style="tagStyle">{{
+        categoryLabel
+      }}</span>
       <h1 class="article-hero__title scroll-reveal scroll-reveal-delay-1">{{ title }}</h1>
-      <div v-if="author || displayDate" class="article-hero__meta scroll-reveal scroll-reveal-delay-2">
+      <div
+        v-if="author || displayDate"
+        class="article-hero__meta scroll-reveal scroll-reveal-delay-2"
+      >
         <span v-if="author">{{ author }}</span>
         <span v-if="author && displayDate" class="article-hero__dot">&middot;</span>
         <time v-if="displayDate">{{ displayDate }}</time>
@@ -17,39 +25,37 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed } from 'vue';
 import {
   formatArticleDate,
   resolveCategoryColor,
   resolveCategoryLabel,
-} from '../utils/spaceNewsPresentation'
+} from '../utils/spaceNewsPresentation';
 
 const props = defineProps<{
-  title: string
-  imageUrl: string | null
-  author?: string | null
-  date?: string | null
-  category?: string[] | null
-  isEn?: boolean
-}>()
+  title: string;
+  imageUrl: string | null;
+  author?: string | null;
+  date?: string | null;
+  category?: string[] | null;
+  isEn?: boolean;
+}>();
 
-const locale = computed<'zh' | 'en'>(() => (props.isEn ? 'en' : 'zh'))
+const locale = computed<'zh' | 'en'>(() => (props.isEn ? 'en' : 'zh'));
 
-const categoryLabel = computed(() =>
-  resolveCategoryLabel(props.category ?? null, locale.value),
-)
+const categoryLabel = computed(() => resolveCategoryLabel(props.category ?? null, locale.value));
 
 const tagStyle = computed(() => ({
   background: resolveCategoryColor(props.category ?? null),
   color: '#fff',
-}))
+}));
 
 const displayDate = computed(() => {
-  if (!props.date) return ''
+  if (!props.date) return '';
   // Empty-string for missing date preserved to keep the v-if conditional behaviour;
   // formatArticleDate would return '—' for null.
-  return formatArticleDate(props.date, locale.value, 'long')
-})
+  return formatArticleDate(props.date, locale.value, 'long');
+});
 </script>
 
 <style lang="scss" scoped>
@@ -80,11 +86,11 @@ const displayDate = computed(() => {
     position: absolute;
     inset: 0;
     background-image:
-      radial-gradient(1.5px 1.5px at 10% 20%, rgba(255,255,255,0.25), transparent),
-      radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.2), transparent),
-      radial-gradient(2px 2px at 50% 30%, rgba(255,255,255,0.3), transparent),
-      radial-gradient(1px 1px at 70% 70%, rgba(255,255,255,0.15), transparent),
-      radial-gradient(1.5px 1.5px at 90% 40%, rgba(255,255,255,0.25), transparent);
+      radial-gradient(1.5px 1.5px at 10% 20%, rgba(255, 255, 255, 0.25), transparent),
+      radial-gradient(1px 1px at 30% 60%, rgba(255, 255, 255, 0.2), transparent),
+      radial-gradient(2px 2px at 50% 30%, rgba(255, 255, 255, 0.3), transparent),
+      radial-gradient(1px 1px at 70% 70%, rgba(255, 255, 255, 0.15), transparent),
+      radial-gradient(1.5px 1.5px at 90% 40%, rgba(255, 255, 255, 0.25), transparent);
     pointer-events: none;
     animation: twinkle 4s ease-in-out infinite alternate;
   }

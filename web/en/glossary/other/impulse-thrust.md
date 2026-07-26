@@ -35,7 +35,7 @@ Impulse thrust is an idealized thrust model that assumes a velocity increment ($
 ## Comparison with Continuous Thrust
 
 | Feature | Impulse Thrust | Continuous Thrust |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Thrust duration | Extremely short (instantaneous) | Persistent |
 | Propulsion type | Chemical propulsion | Electric propulsion, solar radiation pressure |
 | Control mode | Closed-loop control | Open-loop control |

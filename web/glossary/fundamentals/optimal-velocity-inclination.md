@@ -57,7 +57,7 @@ $$\Theta_{ke,\mathrm{opt}} = \frac{1}{4}(\pi - \beta_{ke,\max})$$
 ### 物理含义
 
 | 特性 | 说明 |
-|:---|:---|
+| :--- | :--- |
 | 最大射程 | 同等能量下，$\Theta_{k,\mathrm{opt}}$ 使射程最大化 |
 | 最小能量 | 同等射程下，$\Theta_{k,\mathrm{opt}}$ 使所需能量最小 |
 | 误差敏感度 | $\Theta_k = \Theta_{k,\mathrm{opt}}$ 时，$\partial L/\partial\Theta_k = 0$，速度倾角偏差不引起射程偏差 |

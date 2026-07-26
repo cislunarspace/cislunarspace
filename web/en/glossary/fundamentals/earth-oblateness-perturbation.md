@@ -47,7 +47,7 @@ $$\left\{\begin{array}{l} \dot{a} = 0, \quad \dot{e} = 0, \quad \dot{i} = 0 \\ \
 ### Ascending Node Right Ascension Drift (Orbital Precession)
 
 | Condition | Drift Direction | Physical Mechanism |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Prograde orbit ($i < 90°$) | $\dot{\Omega} < 0$, ascending node regresses westward | Gravitational torque from equatorial bulge causes angular momentum precession |
 | Retrograde orbit ($i > 90°$) | $\dot{\Omega} > 0$, ascending node progresses eastward | Same mechanism, opposite direction |
 | Polar orbit ($i = 90°$) | $\dot{\Omega} = 0$ | $\cos i = 0$, unaffected by oblateness long-period terms |
@@ -61,6 +61,7 @@ The rate of change of the argument of perigee $\dot{\omega}$ is constant and dep
 ### Perturbation Decomposition
 
 Earth oblateness perturbation can be decomposed into:
+
 - **Long-period terms** $R_C$: Orbit-averaged values that cause monotonic changes in orbital elements
 - **Short-period terms** $R_S$: Terms whose orbit-average over one period is zero, producing no secular accumulation
 

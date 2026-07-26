@@ -25,7 +25,7 @@ Traditional Earth-Moon transfer (powered capture) requires a deceleration maneuv
 ## Ballistic Capture vs. Powered Capture
 
 | Characteristic | Ballistic Capture | Powered Capture |
-|----------------|-------------------|-----------------|
+| ---------------- | ------------------- | ----------------- |
 | Propulsion near Moon | None required | Required ($\Delta V \sim 0.8-1.0$ km/s) |
 | Launch timing requirement | Very precise (narrow window) | Relatively flexible |
 | Transfer duration | Longer (1-3 months) | Shorter (3-5 days) |
@@ -63,6 +63,7 @@ Japan's lunar probe **Hiten** (1991) was the first mission to validate WSB balli
 ## Related Concepts
 
 The dynamical foundation of ballistic capture involves the Circular Restricted Three-Body Problem (CR3BP) and Weak Stability Boundary theory. See also:
+
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - [Weak Stability Boundary (WSB)](/en/glossary/)
 

@@ -5,12 +5,12 @@
 
 export interface SidebarEntry {
   /** Path segment. Empty string = index page of parent. Undefined = display-only group header. */
-  slug?: string
-  label: { zh: string; en: string }
-  children?: SidebarEntry[]
-  collapsible?: boolean
+  slug?: string;
+  label: { zh: string; en: string };
+  children?: SidebarEntry[];
+  collapsible?: boolean;
   /** If set, only include in these locales. Undefined = both. */
-  locales?: Array<'zh' | 'en'>
+  locales?: Array<'zh' | 'en'>;
   /**
    * Explicit, stable id for this entry. Required when `slug === undefined`
    * (display-only group); optional otherwise — the default id is
@@ -20,33 +20,39 @@ export interface SidebarEntry {
    * id + a redirect entry, never an in-place rename. Display-only groups
    * have no slug to derive from, so the author must pick one.
    */
-  id?: string
+  id?: string;
 }
 
 export interface SidebarSection {
-  slug: string
-  label: { zh: string; en: string }
-  children: SidebarEntry[]
+  slug: string;
+  label: { zh: string; en: string };
+  children: SidebarEntry[];
   /**
    * Locale-specific children override. When set, `children` is ignored
    * and the builder uses children[locale] instead.
    * For sections where zh and en have different page slugs.
    */
-  childrenByLocale?: { zh: SidebarEntry[]; en: SidebarEntry[] }
+  childrenByLocale?: { zh: SidebarEntry[]; en: SidebarEntry[] };
 }
 
 export const sidebarSections: SidebarSection[] = [
   // ── 入门 ──
   {
     slug: 'what-is-cislunarspace',
-    label: { zh: '地月空间是什么（环境与概念入门）', en: 'What is cislunar space (environment & concepts)' },
+    label: {
+      zh: '地月空间是什么（环境与概念入门）',
+      en: 'What is cislunar space (environment & concepts)',
+    },
     children: [],
   },
 
   // ── 轨道 ──
   {
     slug: 'cislunar-orbits',
-    label: { zh: '地月空间飞行器运行轨道（任务轨道基础）', en: 'Cislunar spacecraft orbits (mission trajectories)' },
+    label: {
+      zh: '地月空间飞行器运行轨道（任务轨道基础）',
+      en: 'Cislunar spacecraft orbits (mission trajectories)',
+    },
     children: [
       {
         slug: 'nrho',
@@ -56,8 +62,14 @@ export const sidebarSections: SidebarSection[] = [
           { slug: '', label: { zh: '', en: '' } },
           { slug: 'l1-nrho', label: { zh: 'L1-NRHO', en: 'L1-NRHO' } },
           { slug: 'l2-nrho', label: { zh: 'L2-NRHO', en: 'L2-NRHO' } },
-          { slug: 'ephemeris-computation', label: { zh: '多圈星历计算', en: 'Ephemeris multi-rev computation' } },
-          { slug: 'stability-maintenance', label: { zh: '稳定性保持', en: 'Stability maintenance' } },
+          {
+            slug: 'ephemeris-computation',
+            label: { zh: '多圈星历计算', en: 'Ephemeris multi-rev computation' },
+          },
+          {
+            slug: 'stability-maintenance',
+            label: { zh: '稳定性保持', en: 'Stability maintenance' },
+          },
           { slug: 'gateway-cases', label: { zh: 'Gateway 案例', en: 'Gateway cases' } },
           { slug: 'design-parameters', label: { zh: '设计参数', en: 'Design parameters' } },
         ],
@@ -92,7 +104,10 @@ export const sidebarSections: SidebarSection[] = [
   // ── 研究前沿 ──
   {
     slug: 'research-frontiers',
-    label: { zh: '地月空间科学研究前沿（方向 · 机构 · 项目）', en: 'Research frontiers (directions · institutions · programs)' },
+    label: {
+      zh: '地月空间科学研究前沿（方向 · 机构 · 项目）',
+      en: 'Research frontiers (directions · institutions · programs)',
+    },
     children: [
       {
         slug: 'directions',
@@ -105,15 +120,48 @@ export const sidebarSections: SidebarSection[] = [
             collapsible: true,
             children: [
               { slug: 'low-energy-transfer', label: { zh: '低能转移', en: 'Low-energy transfer' } },
-              { slug: 'orbit-characterization', label: { zh: '轨道特性分析', en: 'Orbit characterization' } },
+              {
+                slug: 'orbit-characterization',
+                label: { zh: '轨道特性分析', en: 'Orbit characterization' },
+              },
             ],
           },
-          { slug: 'navigation', label: { zh: '导航与定轨', en: 'Navigation & Orbit Determination' }, collapsible: true, children: [] },
-          { slug: 'ssa', label: { zh: '空间态势感知', en: 'Space Situational Awareness' }, collapsible: true, children: [] },
-          { slug: 'communication', label: { zh: '通信与信息网络', en: 'Communication & Information Network' }, collapsible: true, children: [] },
-          { slug: 'reference-frame', label: { zh: '时空基准与测量', en: 'Spatiotemporal Reference & Measurement' }, collapsible: true, children: [] },
-          { slug: 'transportation', label: { zh: '航天运输体系', en: 'Space Transportation System' }, collapsible: true, children: [] },
-          { slug: 'formation-flying', label: { zh: '编队飞行', en: 'Formation Flying' }, collapsible: true, children: [] },
+          {
+            slug: 'navigation',
+            label: { zh: '导航与定轨', en: 'Navigation & Orbit Determination' },
+            collapsible: true,
+            children: [],
+          },
+          {
+            slug: 'ssa',
+            label: { zh: '空间态势感知', en: 'Space Situational Awareness' },
+            collapsible: true,
+            children: [],
+          },
+          {
+            slug: 'communication',
+            label: { zh: '通信与信息网络', en: 'Communication & Information Network' },
+            collapsible: true,
+            children: [],
+          },
+          {
+            slug: 'reference-frame',
+            label: { zh: '时空基准与测量', en: 'Spatiotemporal Reference & Measurement' },
+            collapsible: true,
+            children: [],
+          },
+          {
+            slug: 'transportation',
+            label: { zh: '航天运输体系', en: 'Space Transportation System' },
+            collapsible: true,
+            children: [],
+          },
+          {
+            slug: 'formation-flying',
+            label: { zh: '编队飞行', en: 'Formation Flying' },
+            collapsible: true,
+            children: [],
+          },
           {
             slug: 'security-governance',
             label: { zh: '安全与治理', en: 'Security & Governance' },
@@ -126,12 +174,20 @@ export const sidebarSections: SidebarSection[] = [
                 collapsible: true,
                 locales: ['zh'],
                 children: [
-                  { slug: 'orbital-game-inspection', label: { zh: '轨道博弈审查', en: 'Orbital game inspection' } },
+                  {
+                    slug: 'orbital-game-inspection',
+                    label: { zh: '轨道博弈审查', en: 'Orbital game inspection' },
+                  },
                 ],
               },
             ],
           },
-          { slug: 'infrastructure', label: { zh: '基础设施与经济', en: 'Infrastructure & Economy' }, collapsible: true, children: [] },
+          {
+            slug: 'infrastructure',
+            label: { zh: '基础设施与经济', en: 'Infrastructure & Economy' },
+            collapsible: true,
+            children: [],
+          },
           {
             slug: 'simulation',
             label: { zh: '仿真系统', en: 'Simulation Systems' },
@@ -140,7 +196,12 @@ export const sidebarSections: SidebarSection[] = [
               { slug: 'simulation-systems', label: { zh: '仿真系统', en: 'Simulation systems' } },
             ],
           },
-          { slug: 'radiation-environment', label: { zh: '空间辐射环境', en: 'Space Radiation Environment' }, collapsible: true, children: [] },
+          {
+            slug: 'radiation-environment',
+            label: { zh: '空间辐射环境', en: 'Space Radiation Environment' },
+            collapsible: true,
+            children: [],
+          },
         ],
       },
       {
@@ -164,7 +225,10 @@ export const sidebarSections: SidebarSection[] = [
   // ── 背景知识 ──
   {
     slug: 'background',
-    label: { zh: '背景知识（基础理论 · 数学工具）', en: 'Background Knowledge (Fundamentals & Math Tools)' },
+    label: {
+      zh: '背景知识（基础理论 · 数学工具）',
+      en: 'Background Knowledge (Fundamentals & Math Tools)',
+    },
     children: [
       {
         slug: 'math',
@@ -201,7 +265,10 @@ export const sidebarSections: SidebarSection[] = [
   // ── 资源与工具 ──
   {
     slug: 'resources-tools',
-    label: { zh: '资源与工具（数据、代码与数据集）', en: 'Resources & Tools (Data, Code & Datasets)' },
+    label: {
+      zh: '资源与工具（数据、代码与数据集）',
+      en: 'Resources & Tools (Data, Code & Datasets)',
+    },
     children: [
       {
         id: 'resources-tools/simulation-software',
@@ -232,9 +299,7 @@ export const sidebarSections: SidebarSection[] = [
         id: 'resources-tools/data-resources',
         label: { zh: '数据资源', en: 'Data Resources' },
         collapsible: true,
-        children: [
-          { slug: 'datasets', label: { zh: '数据集', en: 'Datasets' } },
-        ],
+        children: [{ slug: 'datasets', label: { zh: '数据集', en: 'Datasets' } }],
       },
       {
         id: 'resources-tools/ai-cloud-platforms',
@@ -248,4 +313,4 @@ export const sidebarSections: SidebarSection[] = [
       },
     ],
   },
-]
+];

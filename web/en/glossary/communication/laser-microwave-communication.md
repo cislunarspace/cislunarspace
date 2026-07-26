@@ -35,7 +35,7 @@ Laser-Microwave Communication refers to a hybrid inter-satellite link technology
 ## Comparison of Two Regimes
 
 | Characteristic | Microwave Communication | Laser Communication |
-|----------------|------------------------|---------------------|
+| ---------------- | ------------------------ | --------------------- |
 | Frequency band | Ka (~26 GHz), V (~70 GHz) | Optical (~THz) |
 | Data rate | 100 kbit/s ~ 10 Mbit/s | 100 Mbit/s ~ 10 Gbit/s |
 | Antenna size | Larger (phased-array or multi-beam) | Smaller (optical antenna) |

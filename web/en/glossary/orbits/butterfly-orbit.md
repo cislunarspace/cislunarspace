@@ -78,6 +78,7 @@ Butterfly orbits have the following potential applications in cislunar space mis
 - **Orbit classification complement**: As a new member of the libration point orbit family, butterfly orbits enrich the classification system of periodic orbits in cislunar space
 
 ## Related Concepts
+
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
 - [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)
@@ -86,6 +87,7 @@ Butterfly orbits have the following potential applications in cislunar space mis
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
 - Haapala A, Vaquero M, Pavlak T A, et al. Trajectory selection strategy for tours in the Earth-Moon system[C]. AAS/AIAA Astrodynamics Specialist Conference, 2013.

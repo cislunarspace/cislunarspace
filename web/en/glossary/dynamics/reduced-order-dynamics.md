@@ -70,12 +70,15 @@ The main applications of reduced-order dynamic equations include:
 ## Key Elements
 
 ### Mathematical Definition
+
 Reduced-order dynamic equations are obtained through the two-dominant invariant manifold method by selecting two principal motion directions and expressing the third direction as a nonlinear function, yielding lower-order dynamical equations.
 
 ### Key Properties
+
 Reduced-order equations preserve the principal dynamical characteristics of periodic orbits while greatly reducing computational complexity. The polynomial coefficients reflect the intrinsic dynamical structure of the system.
 
 ### Numerical Methods
+
 Solved using Legendre polynomial expansion combined with the Lindstedt-Poincare perturbation method to obtain multi-order approximate analytical solutions.
 
 ## Related Concepts

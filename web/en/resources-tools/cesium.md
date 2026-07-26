@@ -17,8 +17,8 @@ Cesium is an open-source JavaScript library developed by AGI (Analytical Graphic
 
 - **License**: Apache 2.0 (open-source)
 - **Developer**: AGI (Analytical Graphics, Inc.)
-- **Official Documentation**: https://cesium.com/docs/
-- **GitHub**: https://github.com/CesiumGS/cesium
+- **Official Documentation**: <https://cesium.com/docs/>
+- **GitHub**: <https://github.com/CesiumGS/cesium>
 
 ## Main Capabilities
 
@@ -43,7 +43,7 @@ Cesium and STK are both products of AGI. STK is a professional mission analysis 
 
 ## Official Resources
 
-- Website: https://cesium.com/
-- Sandcastle Examples: https://sandcastle.cesium.com/
-- CesiumJS Documentation: https://cesium.com/docs/cesiumjs-ref-doc/
-- GitHub: https://github.com/CesiumGS/cesium
+- Website: <https://cesium.com/>
+- Sandcastle Examples: <https://sandcastle.cesium.com/>
+- CesiumJS Documentation: <https://cesium.com/docs/cesiumjs-ref-doc/>
+- GitHub: <https://github.com/CesiumGS/cesium>

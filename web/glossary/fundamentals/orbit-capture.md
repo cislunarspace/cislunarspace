@@ -47,7 +47,7 @@ $$\begin{cases} \Delta a = \frac{2}{n\sqrt{1-e^2}}[e\sin f \cdot \Delta v_r + (1
 ### 调整策略
 
 | 轨道根数 | 所需冲量分量 | 最优施加位置 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | 半长轴 $a$ | $\Delta v_r$, $\Delta v_t$ | 近地点切向 |
 | 偏心率 $e$ | $\Delta v_r$, $\Delta v_t$ | 根据具体偏差确定 |
 | 轨道倾角 $i$ | $\Delta v_h$ | $u = 0°$ 或 $180°$ |

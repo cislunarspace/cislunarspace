@@ -79,6 +79,7 @@ For long-duration transfers or complex dynamics, single-shooting methods suffer 
 ### Numerical Difficulties
 
 The main difficulties in solving a TPBVP include:
+
 - Co-state variables lack intuitive physical meaning, making reasonable initial guesses difficult
 - The shooting function may be highly nonlinear with multiple local minima
 - Co-state normalization techniques reduce the search space from infinity to a unit sphere, significantly improving convergence

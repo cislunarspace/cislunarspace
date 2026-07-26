@@ -33,6 +33,7 @@ The Resilience Map is an SSA architecture evaluation visualization tool proposed
 ### Step 1: Precompute Reachable Sets
 
 Precompute the reachable sets of low-thrust spacecraft on a three-dimensional grid in cislunar space:
+
 - **Grid Resolution**: Covers critical regions of cislunar space
 - **Time Horizon**: Evaluation period (e.g., 7 days)
 - **Control Constraint**: Low-thrust upper bound
@@ -40,12 +41,14 @@ Precompute the reachable sets of low-thrust spacecraft on a three-dimensional gr
 ### Step 2: Coverage Overlay
 
 For each grid point and each time step:
+
 - Check whether the reachable set at that point intersects the architecture's detection region
 - Calculate the fraction of the reachable set that is detected
 
 ### Step 3: Heatmap Generation
 
 Visualize the coverage analysis results:
+
 - **Color Encoding**: Red indicates high coverage capability, blue indicates low coverage capability
 - **Time Dimension**: Animation showing how coverage evolves over time
 - **Spatial Dimension**: Two-dimensional slices or three-dimensional volume rendering
@@ -53,13 +56,14 @@ Visualize the coverage analysis results:
 ## Comparison with Traditional Volume Coverage Ratio
 
 | Metric | Description | Limitations |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Volume Coverage Ratio | Fraction of static points within the architecture's detection region | Cannot reflect dynamic target detection capability |
 | Resilience Map | Temporal match between reachable sets and detection regions | Higher computational cost |
 
 ## Core Elements
 
 ### Mathematical Definition
+
 The Resilience Map $\mathcal{RM}(\mathbf{x}_0, t)$ is defined as the fraction of the low-thrust reachable set $\mathcal{R}^t(\mathbf{x}_0)$ from initial position $\mathbf{x}_0$ that is detected by the architecture at time $t$:
 
 $$\mathcal{RM}(\mathbf{x}_0, t) = \frac{\text{Vol}(\mathcal{R}^t(\mathbf{x}_0) \cap \mathcal{D}(t))}{\text{Vol}(\mathcal{R}^t(\mathbf{x}_0))}$$
@@ -67,12 +71,15 @@ $$\mathcal{RM}(\mathbf{x}_0, t) = \frac{\text{Vol}(\mathcal{R}^t(\mathbf{x}_0) \
 where $\mathcal{D}(t)$ is the detection region at time $t$.
 
 ### Key Properties
+
 The Resilience Map can:
+
 - Identify temporal blind spots in architecture coverage
 - Quantify the architecture's detection capability for dynamic targets
 - Provide localized improvement directions for architecture optimization
 
 ### Application Scenarios
+
 The Resilience Map is applicable to SSA architecture performance evaluation, resource allocation optimization, and mission planning scenarios.
 
 ## Related Concepts

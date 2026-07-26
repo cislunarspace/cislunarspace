@@ -82,7 +82,7 @@ Initial conditions for Halo orbits are generated using:
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - [Starshade](/en/glossary/other/starshade/)
-- Lagrange Point
+- [Lagrange Point](/en/glossary/dynamics/libration-point/)
 - Formation Flying
 
 ## References

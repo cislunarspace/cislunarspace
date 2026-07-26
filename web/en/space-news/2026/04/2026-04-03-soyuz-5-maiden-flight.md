@@ -40,7 +40,7 @@ Full-scale static fire testing of the integrated first stage was completed in Ma
 ## Flight Overview
 
 | Parameter | Detail |
-|-----------|--------|
+| ----------- | -------- |
 | Vehicle | Soyuz-5 (Irtysh) |
 | Launch Site | Baikonur Cosmodrome, LC-45/1 |
 | Launch Time | April 3, 2026, 11:00 UTC |

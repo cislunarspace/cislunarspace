@@ -47,6 +47,7 @@ The Weak Equivalence Principle is the most classical statement of equivalence, a
 Mathematically: $\frac{m_i}{m_g} = 1$
 
 WEP verification experiments include:
+
 - Free fall experiments since Newton's era
 - Eötvös torsion balance experiments
 - MICROSCOPE satellite (precision reaching $10^{-15}$)
@@ -74,6 +75,7 @@ The relationship between gravitational redshift and LPI is described by introduc
 $$\frac{\Delta f}{f} = (1 + \alpha) \frac{\Delta U}{c^2}$$
 
 Where:
+
 - $\Delta f/f$ is the relative frequency shift between two clocks
 - $\Delta U$ is the gravitational potential difference
 - $c$ is the speed of light
@@ -84,7 +86,7 @@ If LPI holds, then $\alpha = 0$; if LPI is violated, $\alpha$ deviates from zero
 ## Testing Status of Sub-Principles
 
 | Sub-Principle | Testing Precision | Representative Experiment |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | WEP | $10^{-15}$ | MICROSCOPE satellite |
 | LLI | $10^{-22}$ | Atomic clock comparison |
 | LPI | $10^{-5}$ | Galileo satellite gravitational redshift |
@@ -96,6 +98,7 @@ Currently, LPI is the least rigorously tested sub-principle of EEP, which is why
 Gravitational redshift experiments are the primary means of testing LPI. By measuring the frequency difference between clocks at different gravitational potentials, one can constrain the LPI violation parameter $\alpha$.
 
 Historically significant gravitational redshift experiments:
+
 1. **Pound-Rebka-Snider** (1960s): Ground experiment, precision ~1%
 2. **Gravity Probe A** (1976): Space maser clock, precision $1.41 \times 10^{-4}$
 3. **Galileo Satellites** (2018): Elliptical orbit modulation, precision $0.19 \times 10^{-5}$

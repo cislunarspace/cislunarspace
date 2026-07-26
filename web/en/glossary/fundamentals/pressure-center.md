@@ -45,7 +45,7 @@ where $x_p$ and $x_g$ are the distances from the center of pressure and center o
 ### Effect of Center-of-Pressure Position on Stability
 
 | Condition | Effect | Stability |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | CP behind center of mass ($x_p > x_g$) | Aerodynamic moment reduces angle of attack | Statically stable |
 | CP ahead of center of mass ($x_p < x_g$) | Aerodynamic moment increases angle of attack | Statically unstable |
 | CP coincides with center of mass ($x_p = x_g$) | No moment | Neutrally stable |

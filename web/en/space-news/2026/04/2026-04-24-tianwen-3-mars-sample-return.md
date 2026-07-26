@@ -39,14 +39,17 @@ Tianwen-3 is a core component of China's planetary exploration program, aiming t
 Following the cooperation opportunity announcement issued in April 2025, CNSA received 28 letters of intent. Five projects were ultimately selected:
 
 **Orbiter Payloads (3):**
+
 - Mars PEX Spectrometer, led by the Committee on Space Research (COSPAR) Exploration Working Group, for Mars life-signature detection and mineral composition analysis
 - Mars Molecular Ion Composition Analyzer, led by Macau University of Science and Technology, for Mars atmospheric escape process detection
 - Laser Heterodyne Spectrometer, led by The Chinese University of Hong Kong, for Mars atmospheric water isotope profile and wind field detection
 
 **Server Payload (1):**
+
 - Mars Hyperspectral Imager, led by The University of Hong Kong, for life-signature, hydrated mineral, and resource surveys
 
 **Lander Payload (1):**
+
 - Laser Corner Reflector Array, led by Italy's National Institute for Nuclear Physics (INFN) — Frascata National Laboratory, for precise ground reference points on Mars
 
 ## Open International Cooperation

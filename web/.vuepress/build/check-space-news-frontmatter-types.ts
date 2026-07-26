@@ -3,37 +3,37 @@
  */
 
 /** Severity level for a detected issue. */
-export type Severity = 'error' | 'warning'
+export type Severity = 'error' | 'warning';
 
 /** The check dimension an issue belongs to. */
-export type CheckDimension = 'single-file' | 'cross-locale'
+export type CheckDimension = 'single-file' | 'cross-locale';
 
 /** A single frontmatter validation issue. */
 export interface FrontmatterIssue {
   /** Relative path to the file with the issue. */
-  filePath: string
+  filePath: string;
   /** Machine-readable rule identifier (e.g. 'missing-layout'). */
-  ruleId: string
+  ruleId: string;
   /** Severity level. */
-  severity: Severity
+  severity: Severity;
   /** Human-readable description. */
-  message: string
+  message: string;
   /** The frontmatter field involved, if applicable. */
-  field?: string
+  field?: string;
   /** Check dimension. */
-  dimension: CheckDimension
+  dimension: CheckDimension;
 }
 
 /** Summary counts grouped by rule id. */
 export interface RuleSummary {
-  ruleId: string
-  count: number
-  severity: Severity
+  ruleId: string;
+  count: number;
+  severity: Severity;
 }
 
 /** Result of a full validation run. */
 export interface ValidationResult {
-  issues: FrontmatterIssue[]
-  byRule: RuleSummary[]
-  total: number
+  issues: FrontmatterIssue[];
+  byRule: RuleSummary[];
+  total: number;
 }

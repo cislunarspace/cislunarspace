@@ -51,6 +51,7 @@ In orbit transfers, the Q function is defined as a weighted quadratic form of or
 $$Q(Z) = (1 + W_P P) \sum_{i=1}^{5} W_i S_i \left(\frac{\delta Z_i}{\max_L(\dot{X}_i)}\right)^2$$
 
 where:
+
 - $W_i$: weights for each orbital element
 - $P$: penalty function term
 - $S_i$: shaping function

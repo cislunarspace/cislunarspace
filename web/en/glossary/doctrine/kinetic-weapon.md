@@ -59,7 +59,7 @@ On March 27, 2019, India successfully conducted its first ground-based ASAT test
 According to India's *Technology Perspective and Capability Roadmap 2010--2025*:
 
 | Timeframe | Capability Objective |
-|-----------|----------------------|
+| ----------- | ---------------------- |
 | Before 2020 | Deploy kinetic-kill floating interceptors |
 | After 2022 | Develop ASAT weapons capable of physically destroying LEO and GEO satellites |
 | After 2027 | Field 4 ASAT missile systems |
@@ -69,7 +69,7 @@ According to India's *Technology Perspective and Capability Roadmap 2010--2025*:
 Characteristics of kinetic weapons compared to directed energy weapons:
 
 | Characteristic | Kinetic Weapon | Directed Energy Weapon |
-|----------------|----------------|------------------------|
+| ---------------- | ---------------- | ------------------------ |
 | Strike Speed | Requires flight time | Speed of light |
 | Kill Effect | Physical destruction | Controllable (interference to destruction) |
 | Weather Impact | Less affected | More affected |

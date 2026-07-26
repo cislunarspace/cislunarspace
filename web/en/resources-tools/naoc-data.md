@@ -16,7 +16,7 @@ The Lunar & Planetary Data Distribution System is hosted by the National Astrono
 ## Basic Information
 
 - **Source**: National Astronomical Observatory, Chinese Academy of Sciences
-- **Platform URL**: https://moon.bao.ac.cn/
+- **Platform URL**: <https://moon.bao.ac.cn/>
 
 ## Key Features
 
@@ -31,4 +31,4 @@ The Lunar & Planetary Data Distribution System is hosted by the National Astrono
 
 ## Official Resources
 
-- Platform URL: https://moon.bao.ac.cn/
+- Platform URL: <https://moon.bao.ac.cn/>

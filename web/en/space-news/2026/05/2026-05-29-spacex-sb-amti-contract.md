@@ -30,6 +30,7 @@ The May 29 SB-AMTI award brought SpaceX's total Space Force contracts to $64.5 b
 The SB-AMTI (Space-Based Airborne Mobile Target Indicator) system is designed to track aircraft, cruise missiles, and other aerial threats anywhere on Earth from orbit. Space-based systems offer advantages over ground or airborne radar: global coverage, real-time response, and no geographic limitations.
 
 According to the Space Force release, the SB-AMTI constellation will deliver:
+
 - **Global real-time tracking**: Coverage of aerial targets anywhere on Earth
 - **Multi-spectral sensing**: Integrated electro-optical, infrared, and radar sensors
 - **AI-driven processing**: Artificial intelligence algorithms for real-time analysis of massive datasets

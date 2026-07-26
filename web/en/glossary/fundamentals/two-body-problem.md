@@ -37,7 +37,7 @@ The two-body problem is a fundamental problem in celestial mechanics concerning 
 ### Fundamental Assumptions
 
 | Assumption | Description |
-|:---|:---|
+| :--- | :--- |
 | Earth as a homogeneous sphere | Gravitational effect is equivalent to a point mass concentrated at the center |
 | Vehicle as a point mass | Dimensions are negligibly small compared to the radial distance |
 | Central gravity only | Perturbing forces such as atmospheric drag and third-body gravity are neglected |
@@ -55,7 +55,7 @@ where $\mu_E = GM_E = 3.986 \times 10^{14} \, \text{m}^3/\text{s}^2$ is the Eart
 The two-body equations of motion admit the following conserved quantities:
 
 | Conserved Quantity | Mathematical Expression | Physical Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Specific angular momentum | $\boldsymbol{h} = \boldsymbol{r} \times \boldsymbol{v} = \text{const}$ | Orbit plane orientation is fixed |
 | Specific mechanical energy | $\varepsilon = \frac{1}{2}v^2 - \frac{\mu_E}{r} = \text{const}$ | Orbit size is fixed |
 | Eccentricity vector | $\boldsymbol{e} = \frac{1}{\mu_E}\left(\boldsymbol{v} \times \boldsymbol{h} - \frac{\mu_E}{r}\boldsymbol{r}\right) = \text{const}$ | Orbit shape and orientation are fixed |

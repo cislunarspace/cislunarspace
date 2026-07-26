@@ -24,7 +24,7 @@ The three astronauts will now enter a quarantine recovery period for comprehensi
 The Shenzhou-21 crew docked with the Tiangong Space Station's Tianhe core module on November 1, 2025, and spent 210 days on orbit — a new record for the longest single-crew mission in Chinese spaceflight history.
 
 | Astronaut | Role | Total Time in Orbit |
-|-----------|------|-------------------|
+| ----------- | ------ | ------------------- |
 | Zhang Lu | Commander | Over 400 days (2nd in Chinese history) |
 | Wu Fei | Astronaut | First flight |
 | Zhang Hongzhang | Payload Specialist | First flight |

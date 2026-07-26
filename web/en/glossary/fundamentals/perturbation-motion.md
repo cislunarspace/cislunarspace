@@ -37,7 +37,7 @@ Under the action of perturbation forces, the trajectory of an aerospace vehicle 
 ### Fundamental Forms of Perturbation
 
 | Perturbation Type | Description | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Secular perturbation | Causes orbital elements to increase or decrease monotonically | Cumulative effect, irreversible |
 | Long-period perturbation | Periodic perturbation with a period longer than the orbital period | Long cycle, sometimes treatable as secular |
 | Short-period perturbation | Periodic perturbation with a period shorter than the orbital period | Returns to zero after one orbital period, non-cumulative |
@@ -45,14 +45,14 @@ Under the action of perturbation forces, the trajectory of an aerospace vehicle 
 ### Classification of Perturbation Analysis Methods
 
 | Category | Methods | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Special perturbation | Cowell's method, Encke's method, variation of parameters | Numerical integration, suitable for short-term precision prediction |
 | General perturbation | Series expansion, mean element method, semi-analytical methods | Analytical or semi-analytical solutions, reveals physical mechanisms |
 
 ### Typical Perturbation Force Magnitudes (Low Earth Orbit)
 
 | Perturbation Force | Magnitude | Nature |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $J_2$ (Earth oblateness) | $10^{-3}$ | Conservative |
 | Atmospheric drag | $10^{-5}$ | Dissipative |
 | Lunar-solar perturbation | $10^{-5}$~$10^{-7}$ | Conservative |

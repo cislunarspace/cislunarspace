@@ -17,7 +17,7 @@ STK (Systems Tool Kit) is a leading commercial off-the-shelf (COTS) analysis sof
 
 - **License**: Commercial (Free academic license available)
 - **Source**: AGI / Ansys
-- **Official Docs**: https://www.agi.com/products/stk
+- **Official Docs**: <https://www.agi.com/products/stk>
 
 ## Key Features
 
@@ -34,5 +34,5 @@ STK (Systems Tool Kit) is a leading commercial off-the-shelf (COTS) analysis sof
 
 ## Official Resources
 
-- Website: https://www.agi.com/products/stk
-- Academic program: https://www.agi.com/pages/academic
+- Website: <https://www.agi.com/products/stk>
+- Academic program: <https://www.agi.com/pages/academic>

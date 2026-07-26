@@ -40,7 +40,7 @@ The core scientific objectives of the SMILE satellite include:
 The SMILE satellite carries four primary scientific payloads:
 
 | Payload | Function |
-|---------|----------|
+| --------- | ---------- |
 | Extreme Ultraviolet Imager (UVI) | Observes aurora and polar ionosphere |
 | Soft X-ray Imager (SXI) | Images magnetopause and polar cusp regions |
 | Low-energy Ion Detector (LID) | Measures low-energy ions and electrons |
@@ -49,7 +49,7 @@ The SMILE satellite carries four primary scientific payloads:
 ## Launch Details
 
 | Item | Details |
-|------|---------|
+| ------ | --------- |
 | Launch Vehicle | Vega-C |
 | Launch Site | Kourou Launch Center, French Guiana |
 | Scheduled Launch | April 9, 2026, local time |

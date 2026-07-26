@@ -35,8 +35,6 @@ A Near-Rectilinear Halo Orbit (NRHO) is a sub-class of Halo orbits near the Eart
 ![Earth-Moon L1 Northern and L2 Southern Halo Orbits and NRHO](../../glossary/figures/nrho/em-l1-l2-halo-and-nrho.png)
 *Earth-Moon L1 northern family and L2 southern family Halo orbits, with the extreme configuration being the NRHO*
 
-
-
 ## Geometric Characteristics
 
 - **Extremely low perilune altitude**: typically below 100 km
@@ -49,7 +47,7 @@ A Near-Rectilinear Halo Orbit (NRHO) is a sub-class of Halo orbits near the Eart
 Similar to DROs, NRHOs also exhibit resonance relationships with the Moon's orbital period. When the orbital period $T$ and the Moon's orbital period $T_M$ satisfy $T/T_M \approx n/m$, it is referred to as an $m:n$ synodic resonant NRHO.
 
 | Resonance Ratio | Characteristics and Applications |
-|:---|:---|
+| :--- | :--- |
 | 3:1, 4:1 (low-order) | Low perilune altitude, advantageous for lunar surface exploration and communications relay |
 | **9:2** | **NASA Gateway space station selected orbit -- good stability, suitable for long-term station-keeping** |
 | 11:2 (high-order) | Better orbital stability, suitable for long-duration mission |
@@ -86,6 +84,7 @@ Ul Haq et al. (2026) used the A2PPO (Attention-Augmented Proximal Policy Optimiz
 Transfers between NRHO and Halo orbits require significant energy change ($C_J$ change of ~0.08) and represent a high-difficulty scenario in low-thrust trajectory optimization. A2PPO is capable of autonomously learning efficient transfer strategies without requiring an initial guess.
 
 ## Related Concepts
+
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
 - [A2PPO (Attention-Augmented Proximal Policy Optimization)](/en/glossary/dynamics/a2ppo/)

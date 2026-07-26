@@ -35,7 +35,7 @@ Near-space refers to the atmospheric region between conventional airspace (below
 ## Altitude Stratification
 
 | Region | Altitude | Characteristics |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Conventional airspace | 0-20 km | Below commercial cruise altitudes |
 | Stratosphere | 18-50 km | Temperature inversion, ozone layer |
 | Mesosphere | 50-80 km | Temperature decrease, ice crystal clouds |

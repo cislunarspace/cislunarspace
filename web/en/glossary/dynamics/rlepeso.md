@@ -52,7 +52,7 @@ RLEPSO embeds the DDPG framework on top of HCPSO:
 RLEPSO uses the following state variables:
 
 | State Variable | Definition | Physical Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $T_{stop}$ | Stagnation start time | Detects whether the algorithm has stagnated |
 | $T_{dur}$ | Stagnation duration | Assesses the severity of stagnation |
 | $T_{run}$ | Iteration progress | Ratio of current iteration to maximum iterations |
@@ -79,7 +79,7 @@ Zhao Han et al. (2026) combined RLEPSO with the homotopy method to solve the fue
 ### Simulation Results
 
 | Parameter | RLEPSO-Homotopy | Homotopy-SQP Coupled |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Fuel consumption | 205.40 kg | 210.36 kg |
 | Rendezvous time | 208.89 TU | 225.44 TU |
 | Terminal rendezvous distance | 0.7078 km | 9.3624 km |

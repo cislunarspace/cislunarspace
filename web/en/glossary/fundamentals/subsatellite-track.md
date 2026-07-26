@@ -57,7 +57,7 @@ where $\overline{S}(t)$ is the Greenwich mean sidereal time.
 ### Influence of Orbital Elements on Track Geometry
 
 | Orbital Element | Effect |
-|:---|:---|
+| :--- | :--- |
 | Semi-major axis $a$ | Determines orbital period; affects longitude span and track density |
 | Eccentricity $e$ | Affects north-south symmetry; higher $e$ produces greater asymmetry |
 | Argument of perigee $\omega$ | Affects the smoothness/sharpness of tracks in the northern and southern hemispheres |

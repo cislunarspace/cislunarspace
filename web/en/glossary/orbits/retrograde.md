@@ -74,10 +74,12 @@ Retrograde motion characteristics have core value in cislunar mission design:
 - **Constellation deployment**: In DRO constellation design, retrograde characteristics affect inter-satellite relative motion and coverage properties
 
 ## Related Concepts
+
 - [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
 - [Prograde](/en/glossary/orbits/prograde/)
 
 ## References
+
 - Wei Z et al. Research on lunar gravity-assist injection into cislunar distant retrograde orbit families[J]. 2026.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. 2016.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

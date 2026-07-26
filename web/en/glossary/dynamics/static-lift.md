@@ -45,7 +45,7 @@ $$B = \rho_{air} V_{He} g - \rho_{He} V_{He} g = (\rho_{air} - \rho_{He}) V_{He}
 ## Altitude Effects
 
 | Altitude | $\rho_{air}$ | $\rho_{He}$ | Static Lift |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | 0 km | 1.225 kg/m³ | 0.169 kg/m³ | 100% |
 | 10 km | 0.414 kg/m³ | 0.057 kg/m³ | 34% |
 | 20 km | 0.089 kg/m³ | 0.012 kg/m³ | 7.3% |

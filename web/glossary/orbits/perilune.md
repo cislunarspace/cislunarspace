@@ -73,11 +73,13 @@ $$\sin\frac{\delta}{2} = \frac{1}{1 + \dfrac{r_p \cdot v_\infty^2}{\mu_M}}$$
 - **科学观测**：低近月点轨道适合高分辨率月球表面观测
 
 ## 相关概念
+
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [远月点（Apolune）](/glossary/orbits/apolune/)
 - [月球借力（Lunar Gravity Assist）](/glossary/other/lunar-gravity-assist/)
 
 ## 参考文献
+
 - 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 2026.
 - Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 4th ed. 2013.
 - Broucke R. Periodic orbits in the restricted three-body problem with Earth-Moon masses[R]. 1968.

@@ -48,7 +48,7 @@ Short Period Orbits possess the following properties within the CR3BP framework:
 Doedel et al. (2007) systematically studied periodic orbit families near the triangular libration points. The main characteristics of Short Period Orbits are as follows:
 
 | Parameter | Characteristic |
-|:---|:---|
+| :--- | :--- |
 | Amplitude | Small (near L4/L5) |
 | Orbital Period | Short (relative to Long Period and Horseshoe Orbits) |
 | Orbit Shape | Approximately elliptical |

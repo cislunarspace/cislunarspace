@@ -37,6 +37,7 @@ Batch deployment refers to a mission mode where an Orbital Transfer Vehicle (OTV
 ### Hub-and-Spoke Architecture
 
 The batch deployment mode typically adopts a hub-and-spoke architecture:
+
 - **Hub (Origin)**: Launch orbit (usually GEO or MEO)
 - **Spokes (Targets)**: Multiple target orbits for small satellite deployment
 - **OTV**: Performs orbit transfers between orbits, deploying satellites along the way
@@ -44,6 +45,7 @@ The batch deployment mode typically adopts a hub-and-spoke architecture:
 ### Dual Propulsion System
 
 The OTV typically uses a dual propulsion system:
+
 - **Chemical propulsion**: Provides high thrust for orbit raising and large maneuver requirements
 - **Electric propulsion**: Provides low thrust for fine orbit adjustments and efficient transfer
 
@@ -52,6 +54,7 @@ The OTV typically uses a dual propulsion system:
 ### Q-law Control Law
 
 The Q-law is a Lyapunov-based feedback control law for low-thrust orbit transfer:
+
 - Constructs a scalar Q function describing state error
 - Ensures Q function decreases monotonically
 - Guides spacecraft to converge autonomously to target orbit
@@ -59,6 +62,7 @@ The Q-law is a Lyapunov-based feedback control law for low-thrust orbit transfer
 ### State-Dependent Cost Matrix
 
 Due to mass discontinuity after each satellite deployment, the transfer cost matrix becomes three-dimensional:
+
 - **i**: Starting orbit
 - **j**: Target orbit
 - **k**: Number of satellites already deployed (determines OTV mass state)
@@ -66,6 +70,7 @@ Due to mass discontinuity after each satellite deployment, the transfer cost mat
 ### Coasting Arc Mechanism
 
 When thrust efficiency falls below a threshold, the engine shuts down and the spacecraft coasts:
+
 - Achieves propellant-time trade-off
 - Can save approximately 21% propellant with about 14% time increase
 
@@ -74,6 +79,7 @@ When thrust efficiency falls below a threshold, the engine shuts down and the sp
 ### State-Dependent Traveling Salesman Problem (SDTSP)
 
 The deployment sequence optimization problem is modeled as SDTSP:
+
 - Nodes represent target orbits
 - Edge weights are state-dependent orbit transfer costs
 - Constraint: Must visit all nodes with each node visited exactly once
@@ -82,6 +88,7 @@ The deployment sequence optimization problem is modeled as SDTSP:
 ### Dynamic Programming Solution
 
 For medium-scale missions (N ≤ 12), dynamic programming provides globally optimal solutions:
+
 - Time complexity: $O(N^2 \cdot 2^N)$
 - Space complexity: $O(N \cdot 2^N)$
 
@@ -90,7 +97,7 @@ For medium-scale missions (N ≤ 12), dynamic programming provides globally opti
 Research results (胡敏等, 2026) show:
 
 | Optimization Objective | Propellant (kg) | Transfer Time (d) | CPU Time (s) |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Time minimization | 96.49 | 32.87 | 0.00025 |
 | Propellant minimization | 76.07 | 37.55 | 0.00026 |
 | Trade-off | 85.12 | 35.87 | 0.00025 |

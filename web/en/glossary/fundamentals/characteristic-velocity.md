@@ -45,7 +45,7 @@ $$\frac{\Delta m}{m_0} = 1 - \exp\left(-\frac{v_{ch}}{I_{sp} g_0}\right)$$
 ### Characteristic Velocity for Typical Orbit Transfers
 
 | Transfer Scheme | Characteristic Velocity |
-|:---|:---|
+| :--- | :--- |
 | Hohmann transfer | $v_{ch} = \Delta v_1 + \Delta v_2$ |
 | Bi-elliptic transfer | $v_{ch} = \Delta v_1 + \Delta v_2 + \Delta v_3$ |
 | Infinite bi-elliptic transfer | $v_{ch} = (\sqrt{2}-1)\left(\sqrt{\mu/r_1} + \sqrt{\mu/r_2}\right)$ |

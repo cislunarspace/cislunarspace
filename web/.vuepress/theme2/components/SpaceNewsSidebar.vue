@@ -14,11 +14,19 @@
 
       <!-- Quick Nav -->
       <nav class="sn-sidebar-section">
-        <router-link :to="homePath" class="sn-quick-link" :class="{ active: isActivePath(route.path, homePath) }">
+        <router-link
+          :to="homePath"
+          class="sn-quick-link"
+          :class="{ active: isActivePath(route.path, homePath) }"
+        >
           <span class="sn-quick-link__icon">📰</span>
           <span>{{ labels.home }}</span>
         </router-link>
-        <router-link :to="archivePath" class="sn-quick-link" :class="{ active: isActivePath(route.path, archivePath) }">
+        <router-link
+          :to="archivePath"
+          class="sn-quick-link"
+          :class="{ active: isActivePath(route.path, archivePath) }"
+        >
           <span class="sn-quick-link__icon">📂</span>
           <span>{{ labels.archive }}</span>
         </router-link>
@@ -28,11 +36,17 @@
       <div class="sn-sidebar-section">
         <div class="sn-section-title">
           <span>{{ labels.latest }}</span>
-          <router-link :to="archivePath" class="sn-section-title__more">{{ labels.more }}</router-link>
+          <router-link :to="archivePath" class="sn-section-title__more">{{
+            labels.more
+          }}</router-link>
         </div>
         <ul class="sn-latest-list">
           <li v-for="item in sidebarData.latest" :key="item.path" class="sn-latest-item">
-            <router-link :to="item.path" class="sn-latest-link" :class="{ active: isActivePath(route.path, item.path) }">
+            <router-link
+              :to="item.path"
+              class="sn-latest-link"
+              :class="{ active: isActivePath(route.path, item.path) }"
+            >
               <span class="sn-latest-dot" :style="{ background: catColor(item.category) }"></span>
               <div class="sn-latest-body">
                 <div class="sn-latest-title">{{ item.title }}</div>
@@ -52,7 +66,11 @@
             :key="cat.key"
             :to="{ path: archivePath, query: { category: cat.key } }"
             class="sn-category-tag"
-            :style="{ background: cat.color + '18', color: cat.color, borderColor: cat.color + '30' }"
+            :style="{
+              background: cat.color + '18',
+              color: cat.color,
+              borderColor: cat.color + '30',
+            }"
           >
             <span class="sn-category-tag__label">{{ cat.label }}</span>
             <span class="sn-category-tag__count">{{ cat.count }}</span>
@@ -64,23 +82,30 @@
       <div class="sn-sidebar-section">
         <div class="sn-section-title">{{ labels.timeline }}</div>
         <div class="sn-archive-tree">
-          <div
-            v-for="yearNode in sidebarData.archive"
-            :key="yearNode.year"
-            class="sn-archive-year"
-          >
+          <div v-for="yearNode in sidebarData.archive" :key="yearNode.year" class="sn-archive-year">
             <button
               class="sn-archive-year__btn"
               :class="{ expanded: expandedYears.has(yearNode.year) }"
               @click="toggleYear(yearNode.year)"
             >
               <span class="sn-archive-arrow">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
                   <polyline points="9 18 15 12 9 6" />
                 </svg>
               </span>
               <span class="sn-archive-year__label">{{ yearNode.year }}</span>
-              <span class="sn-archive-year__count">{{ yearNode.months.reduce((s, m) => s + m.count, 0) }}</span>
+              <span class="sn-archive-year__count">{{
+                yearNode.months.reduce((s, m) => s + m.count, 0)
+              }}</span>
             </button>
             <Transition name="sn-expand">
               <ul v-show="expandedYears.has(yearNode.year)" class="sn-archive-months">
@@ -112,104 +137,103 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
-import { useRoute } from 'vue-router'
-import { useIsEn } from '../composables/useIsEn'
-import { resolveCategoryColor } from '../utils/spaceNewsPresentation'
-import { spaceNewsLabels } from '../utils/spaceNewsLabels'
-import type { SpaceNewsCategoryMeta } from '../utils/spaceNewsDirectoryView'
+import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue';
+import { useRoute } from 'vue-router';
+import { useIsEn } from '../composables/useIsEn';
+import { resolveCategoryColor } from '../utils/spaceNewsPresentation';
+import { spaceNewsLabels } from '../utils/spaceNewsLabels';
+import type { SpaceNewsCategoryMeta } from '../utils/spaceNewsDirectoryView';
 
-const route = useRoute()
-const isEn = useIsEn()
-const isHidden = ref(false)
+const route = useRoute();
+const isEn = useIsEn();
+const isHidden = ref(false);
 
-const sidebarRaw = ref<Record<string, any> | null>(null)
-const categoryMeta = ref<SpaceNewsCategoryMeta>({})
+const sidebarRaw = ref<Record<string, any> | null>(null);
+const categoryMeta = ref<SpaceNewsCategoryMeta>({});
 
 onMounted(async () => {
   const [sidebarResponse, articlesResponse] = await Promise.all([
     fetch('/space-news-sidebar-data.json'),
     fetch('/space-news-articles.json'),
-  ])
-  sidebarRaw.value = await sidebarResponse.json()
-  const articlesData = await articlesResponse.json()
-  categoryMeta.value = articlesData.categoryMeta ?? {}
-})
+  ]);
+  sidebarRaw.value = await sidebarResponse.json();
+  const articlesData = await articlesResponse.json();
+  categoryMeta.value = articlesData.categoryMeta ?? {};
+});
 
-const labels = computed(() => spaceNewsLabels.sidebar[isEn.value ? 'en' : 'zh'])
+const labels = computed(() => spaceNewsLabels.sidebar[isEn.value ? 'en' : 'zh']);
 
-const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'))
-const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'))
+const homePath = computed(() => (isEn.value ? '/en/space-news/' : '/space-news/'));
+const archivePath = computed(() => (isEn.value ? '/en/space-news/archive' : '/space-news/archive'));
 
 const sidebarData = computed(() => {
-  if (!sidebarRaw.value) return { latest: [], categories: [], archive: [], stats: { total: 0 } }
-  const data = sidebarRaw.value[isEn.value ? 'en' : 'zh']
-  return data || { latest: [], categories: [], archive: [], stats: { total: 0 } }
-})
+  if (!sidebarRaw.value) return { latest: [], categories: [], archive: [], stats: { total: 0 } };
+  const data = sidebarRaw.value[isEn.value ? 'en' : 'zh'];
+  return data || { latest: [], categories: [], archive: [], stats: { total: 0 } };
+});
 
 // 默认展开最新的两个年份
-const expandedYears = ref<Set<number>>(new Set())
+const expandedYears = ref<Set<number>>(new Set());
 
 watch(
   () => sidebarData.value.archive,
   (archive) => {
     if (archive && archive.length > 0) {
-      const set = new Set<number>()
-      archive.slice(0, 2).forEach((y: any) => set.add(y.year))
-      expandedYears.value = set
+      const set = new Set<number>();
+      archive.slice(0, 2).forEach((y: any) => set.add(y.year));
+      expandedYears.value = set;
     }
   },
   { immediate: true },
-)
+);
 
 function toggleYear(year: number) {
-  const set = new Set(expandedYears.value)
-  if (set.has(year)) set.delete(year)
-  else set.add(year)
-  expandedYears.value = set
+  const set = new Set(expandedYears.value);
+  if (set.has(year)) set.delete(year);
+  else set.add(year);
+  expandedYears.value = set;
 }
 
 function normalizePath(p: string) {
-  if (!p) return '/'
-  const s = p.endsWith('/') && p !== '/' ? p.slice(0, -1) : p
-  return s || '/'
+  if (!p) return '/';
+  const s = p.endsWith('/') && p !== '/' ? p.slice(0, -1) : p;
+  return s || '/';
 }
 
 function isActivePath(current: string, target: string) {
-  return normalizePath(current) === normalizePath(target)
+  return normalizePath(current) === normalizePath(target);
 }
 
 function catColor(cats: string[] | null) {
-  return resolveCategoryColor(cats, categoryMeta.value)
+  return resolveCategoryColor(cats, categoryMeta.value);
 }
 
 function formatShortDate(raw: string | null) {
-  if (!raw) return ''
-  const d = new Date(raw)
-  if (Number.isNaN(d.getTime())) return String(raw)
+  if (!raw) return '';
+  const d = new Date(raw);
+  if (Number.isNaN(d.getTime())) return String(raw);
   return isEn.value
     ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
-    : `${d.getMonth() + 1}/${d.getDate()}`
+    : `${d.getMonth() + 1}/${d.getDate()}`;
 }
 
 // 同步 sidebar-hidden 状态
 function syncHidden() {
-  isHidden.value = document.documentElement.classList.contains('sidebar-hidden')
+  isHidden.value = document.documentElement.classList.contains('sidebar-hidden');
 }
 
-let classObserver: MutationObserver | null = null
+let classObserver: MutationObserver | null = null;
 
 onMounted(() => {
-  syncHidden()
-  classObserver = new MutationObserver(syncHidden)
-  classObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
-})
+  syncHidden();
+  classObserver = new MutationObserver(syncHidden);
+  classObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+});
 
 onBeforeUnmount(() => {
-  classObserver?.disconnect()
-  classObserver = null
-})
-
+  classObserver?.disconnect();
+  classObserver = null;
+});
 </script>
 
 <style lang="scss" scoped>
@@ -354,7 +378,10 @@ onBeforeUnmount(() => {
   font-size: 0.9375rem;
   font-weight: 600;
   line-height: 1.4;
-  transition: background 0.2s, color 0.2s, transform 0.2s var(--ease-out-back);
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.2s var(--ease-out-back);
 
   &:hover {
     background: var(--vp-c-accent-soft);
@@ -393,7 +420,9 @@ onBeforeUnmount(() => {
   border-radius: 8px;
   text-decoration: none;
   color: var(--vp-c-text, #334155);
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 
   &:hover {
     background: var(--vp-c-accent-soft);
@@ -456,7 +485,10 @@ onBeforeUnmount(() => {
   font-weight: 600;
   line-height: 1.3;
   text-decoration: none;
-  transition: transform 0.2s var(--ease-out-back), box-shadow 0.2s, filter 0.2s;
+  transition:
+    transform 0.2s var(--ease-out-back),
+    box-shadow 0.2s,
+    filter 0.2s;
 
   &:hover {
     transform: translateY(-1px);
@@ -499,7 +531,9 @@ onBeforeUnmount(() => {
   font-weight: 600;
   line-height: 1.35;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
   text-align: left;
 
   &:hover {
@@ -554,7 +588,10 @@ onBeforeUnmount(() => {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.4;
-  transition: background 0.2s, color 0.2s, padding-left 0.25s var(--ease-out-expo);
+  transition:
+    background 0.2s,
+    color 0.2s,
+    padding-left 0.25s var(--ease-out-expo);
 
   &:hover {
     background: var(--vp-c-accent-soft);
@@ -578,7 +615,9 @@ onBeforeUnmount(() => {
 /* ---- Expand Animation ---- */
 .sn-expand-enter-active,
 .sn-expand-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s var(--ease-out-expo);
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s var(--ease-out-expo);
   transform-origin: top;
 }
 

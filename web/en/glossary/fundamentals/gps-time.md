@@ -44,7 +44,7 @@ The GPS Time epoch (zero point) is January 6, 1980, 00:00 UTC (at which time UTC
 ### Relationship with UTC and TAI
 
 | Relationship | Formula |
-|:---|:---|
+| :--- | :--- |
 | GPS Time and TAI | $\text{TAI} = \text{GPS Time} + 19\text{ s}$ |
 | GPS Time and UTC | $\text{GPS Time} = \text{UTC} + n\text{ s}$ ($n$ is the cumulative number of leap seconds) |
 

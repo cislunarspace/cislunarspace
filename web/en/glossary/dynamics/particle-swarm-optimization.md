@@ -37,7 +37,7 @@ Particle Swarm Optimization (PSO) is a metaheuristic optimization algorithm base
 Proposed by Kennedy and Eberhart in 1995 based on social cognitive models:
 
 | Source | Correspondence |
-|:---|:---|
+| :--- | :--- |
 | Bird flock foraging | Optimization search |
 | Individual experience | Individual best pbest |
 | Group collaboration | Global best gbest |
@@ -63,7 +63,7 @@ $$\mathbf{x}_i^{n+1} = \mathbf{x}_i^n + \mathbf{v}_i^{n+1}$$
 ## Parameter Description
 
 | Parameter | Meaning | Typical Value |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $w$ | Inertia weight | 0.4-0.9 |
 | $c_1$ | Individual learning factor | 2.0 |
 | $c_2$ | Social learning factor | 2.0 |
@@ -75,7 +75,7 @@ $$\mathbf{x}_i^{n+1} = \mathbf{x}_i^n + \mathbf{v}_i^{n+1}$$
 ### Trajectory Optimization
 
 | Optimization Variable | Dimension | Range |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Heading angle sequence | $N \times 1$ | $[0, 2\pi)$ |
 | Altitude profile | $N \times 1$ | $[h_{min}, h_{max}]$ |
 | Time allocation | $N \times 1$ | $[0, T_{max}]$ |

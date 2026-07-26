@@ -39,7 +39,7 @@ The U.S. Department of Defense estimates that over 100 cislunar missions will be
 ## Major Programs
 
 | Program | Description |
-|:---|:---|
+| :--- | :--- |
 | **Artemis Program** | NASA's return-to-Moon program using DRO as the staging orbit |
 | **CHPS/Oracle** | Air Force Research Laboratory's Cislunar Highway Patrol System |
 | **XGEO Architecture** | Expected to achieve CSSA capability by 2030 |

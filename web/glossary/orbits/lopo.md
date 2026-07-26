@@ -48,7 +48,7 @@ LoPO 在 CR3BP 框架下具有以下特性：
 以地月系统为例，LoPO 轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
 
 | 参数 | 范围 |
-|:---|:---|
+| :--- | :--- |
 | Jacobi 常数 | 3.1805 ~ 3.5268（均值 3.2230） |
 | 轨道周期 | 0.86 ~ 11.50 天（均值 约 3-5 天） |
 | 稳定性指数 | 变化范围较宽 |
@@ -60,7 +60,7 @@ LoPO 的高 Jacobi 常数表明从 LEO 转移到 LoPO 需要较高的能量注�
 LoPO、DPO 和 DRO 是月心轨道家族中三个重要的类别：
 
 | 特征 | DRO | DPO | LoPO |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | 运动方向 | 逆行 | 顺行 | 顺行 |
 | 轨道高度 | 远离月球 | 中等 | 靠近月球 |
 | 周期范围 | 5.87 ~ 27.38 天 | 5.82 ~ 28.00 天 | 0.86 ~ 11.50 天 |
@@ -94,6 +94,7 @@ LoPO 在地月空间任务中具有以下应用价值：
 - **轨道比较与选择**：在 Guzzetti 等人提出的动态目录框架中，LoPO 是月心轨道家族的重要成员，为任务设计提供了靠近月球的轨道选择
 
 ## 相关概念
+
 - [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
 - [远距离顺行轨道（DPO）](/glossary/orbits/dpo/)
 - [顺行（Prograde）](/glossary/orbits/prograde/)
@@ -101,6 +102,7 @@ LoPO 在地月空间任务中具有以下应用价值：
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
+
 - Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
 - Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.
 - Whitley R, Martinez R. Options for staging orbits in cislunar space[C]. AIAA Space Conference and Exposition, 2016.

@@ -17,8 +17,8 @@ poliastro 是纯 Python 开源天体力学库，专注于轨道力学计算和�
 
 - **许可证**：MIT
 - **来源**：poliastro Community
-- **官方文档**：https://docs.poliastro.space
-- **GitHub**：https://github.com/poliastro/poliastro
+- **官方文档**：<https://docs.poliastro.space>
+- **GitHub**：<https://github.com/poliastro/poliastro>
 - **Python 版本**：3.8 – 3.11
 
 ## 主要功能
@@ -38,5 +38,5 @@ poliastro 是纯 Python 开源天体力学库，专注于轨道力学计算和�
 
 ## 官方资源
 
-- 官网：https://www.poliastro.space/
-- GitHub：https://github.com/poliastro/poliastro
+- 官网：<https://www.poliastro.space/>
+- GitHub：<https://github.com/poliastro/poliastro>

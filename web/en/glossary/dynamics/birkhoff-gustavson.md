@@ -83,7 +83,7 @@ There is a trade-off between normalization precision and computational cost. Qia
 ## Relationship with Other Methods
 
 | Method | Precision | Integrability | Limitations |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | Linearization ($H_2$) | Low | Exactly integrable | Only applicable in the immediate vicinity of libration points |
 | B-G Normal Form (low-medium order) | Medium | Approximately integrable | Resonant terms eliminated; large errors for high-amplitude orbits |
 | **Complete B-G Normal Form ($N \to \infty$)** | **High** | **Integrable** | **Computational cost grows exponentially** |
@@ -107,7 +107,7 @@ In Qiao et al. (2025), Birkhoff-Gustavson Normal Form combined with central mani
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Lie Transformation
 - Hamiltonian System
-- Poincare Section
+- [Poincare Section](/en/glossary/dynamics/poincare-section/)
 
 ## References
 

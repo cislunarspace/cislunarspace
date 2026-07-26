@@ -46,8 +46,8 @@ For a Hamiltonian system like the CR3BP, the monodromy matrix has special eigenv
 - The remaining four eigenvalues determine orbital stability
 
 | Eigenvalue Configuration | Stability |
-|:---|:---|
-| All on unit circle ($|\lambda| = 1$) | Linearly stable |
+| :--- | :--- |
+| All on unit circle ($ | \lambda | = 1$) | Linearly stable |
 | Real pair off unit circle | Unstable (hyperbolic) |
 | Complex pair off unit circle | Unstable (complex hyperbolic) |
 

@@ -4,15 +4,15 @@
  * Owned by the session layer so that the view layer only renders steps —
  * it does not own the running→done transition state machine.
  */
-import type { ProcessStep, ProcessStepKey } from './chat-types'
+import type { ProcessStep, ProcessStepKey } from './chat-types';
 
-export type ProcessStepLabel = (key: ProcessStepKey) => string
+export type ProcessStepLabel = (key: ProcessStepKey) => string;
 
 /** Mark every prior `running` step as `done`. */
 export function completeRunningSteps(steps: readonly ProcessStep[]): ProcessStep[] {
   return steps.map((step) =>
     step.status === 'running' ? { ...step, status: 'done' as const } : step,
-  )
+  );
 }
 
 /**
@@ -28,7 +28,7 @@ export function beginStep(
   return [
     ...completeRunningSteps(steps),
     { label: labelFor(key), status: 'running', detail: detail ?? '' },
-  ]
+  ];
 }
 
 /**
@@ -40,21 +40,21 @@ export function completeStep(
   _key: ProcessStepKey,
   detail?: string,
 ): ProcessStep[] {
-  if (!steps.length) return [...steps]
-  const next = steps.slice()
-  const lastIndex = next.length - 1
-  const last = next[lastIndex]
+  if (!steps.length) return [...steps];
+  const next = steps.slice();
+  const lastIndex = next.length - 1;
+  const last = next[lastIndex];
   const updated: ProcessStep = {
     ...last,
     status: 'done',
     ...(detail != null && String(detail).length ? { detail: String(detail) } : {}),
-  }
-  next[lastIndex] = updated
-  return next
+  };
+  next[lastIndex] = updated;
+  return next;
 }
 
 /** Final flush — used in cleanup paths to guarantee no step is left `running`. */
 export function finalizeSteps(steps: readonly ProcessStep[] | undefined): ProcessStep[] {
-  if (!steps) return []
-  return completeRunningSteps(steps)
+  if (!steps) return [];
+  return completeRunningSteps(steps);
 }

@@ -17,8 +17,8 @@ Basilisk is an advanced spacecraft dynamics simulation framework developed by JP
 
 - **License**: NASA Open Source Agreement
 - **Source**: JPL / NASA
-- **Website**: https://avslab.github.io/basilisk/
-- **GitHub**: https://github.com/AVSLab/basilisk
+- **Website**: <https://avslab.github.io/basilisk/>
+- **GitHub**: <https://github.com/AVSLab/basilisk>
 
 ## Key Features
 
@@ -34,5 +34,5 @@ Basilisk is an advanced spacecraft dynamics simulation framework developed by JP
 
 ## Official Resources
 
-- Website: https://avslab.github.io/basilisk/
-- GitHub: https://github.com/AVSLab/basilisk
+- Website: <https://avslab.github.io/basilisk/>
+- GitHub: <https://github.com/AVSLab/basilisk>

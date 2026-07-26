@@ -53,7 +53,7 @@ where $a_e$ is Earth's equatorial radius, $\phi$ is geocentric latitude, $\lambd
 ### Normal and Disturbing Potentials
 
 | Concept | Definition | Physical Meaning |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Normal potential $V$ | Gravitational potential of the normal Earth model | Potential of a rotationally symmetric ellipsoid |
 | Disturbing potential $T$ | Difference between true and normal potentials | $T = U - V$, reflects irregularities in Earth's shape and density |
 

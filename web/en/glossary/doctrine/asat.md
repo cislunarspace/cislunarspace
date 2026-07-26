@@ -57,7 +57,7 @@ The success of India's ASAT test demonstrates:
 According to India's *Technology Perspective and Capability Roadmap 2010--2025*:
 
 | Phase | Timeline | Capability Objective |
-|-------|----------|----------------------|
+| ------- | ---------- | ---------------------- |
 | Near-term | Before 2020 | Deploy kinetic-kill floating interceptors |
 | Mid-term | After 2022 | Develop ASAT weapons capable of physically destroying LEO and GEO satellites |
 | Far-term | After 2027 | Field 4 ASAT missile systems |

@@ -66,7 +66,7 @@ The mission workflow described by Hu Min et al. (2026):
 
 The platform enables deployment missions to form a closed loop:
 
-```
+```text
 Platform -> OTV departure -> Sequential deployment -> OTV return -> Resupply and maintenance -> Platform -> OTV re-departure
 ```
 
@@ -87,7 +87,7 @@ The platform co-orbits with the OTV, offering the following advantages:
 The platform should possess the following resupply capabilities:
 
 | Resupply Type | Description |
-|:---|:---|
+| :--- | :--- |
 | Propellant resupply | Replenishing working fluid for OTVs |
 | Power resupply | Charging or powering OTVs |
 | Thermal management | Maintaining suitable temperature environment for OTVs |

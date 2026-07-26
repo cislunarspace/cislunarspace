@@ -51,7 +51,7 @@ Computing DRO orbits in the ephemeris model requires good initial guesses becaus
 ## Advantages
 
 | Advantage | Description |
-|:---|:---|
+| :--- | :--- |
 | Global search | Avoids local optima in the initial value space |
 | Robustness | Less sensitive to the choice of initial population |
 | Parallelizable | Population evaluation can be parallelized |

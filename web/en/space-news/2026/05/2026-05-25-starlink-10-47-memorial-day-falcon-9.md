@@ -25,6 +25,7 @@ This launch maintained SpaceX's high-frequency launch cadence, representing the 
 ## Rocket and Recovery
 
 Falcon 9 first stage B1078 performed its 28th flight, having previously supported missions including:
+
 - NASA Crew-6
 - USSF-124
 - SES O3b mPOWER-B

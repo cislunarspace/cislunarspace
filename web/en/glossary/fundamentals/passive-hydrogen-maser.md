@@ -44,6 +44,7 @@ The core of a PHM is a quartz bulb (storage bulb) coated with PTFE inner walls f
 4. **Frequency locking**: The atomic transition signal in the storage bulb is detected and used to lock an external oscillator via a phase-locked loop (PLL)
 
 Key performance specifications:
+
 - **Frequency accuracy**: Space-grade PHM can reach $5 \times 10^{-12}$
 - **Frequency stability**: ADEV at 1000s averaging time can reach $10^{-14}$
 - **Size/weight**: DRO-A satellite PHM weighs only 8.5 kg, with dimensions ~39 cm
@@ -53,7 +54,7 @@ Key performance specifications:
 Space environment effects on PHM include:
 
 | Environmental Factor | Sensitivity | Impact |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Temperature | $< 2 \times 10^{-14}/^\circ C$ | Frequency drift < $2 \times 10^{-14}$ for ±1°C variation |
 | Magnetic field | $2 \times 10^{-13}/G$ | Frequency drift < $1 \times 10^{-14}$ for <0.05 G variation |
 | Cosmic radiation | - | Requires shielding protection |

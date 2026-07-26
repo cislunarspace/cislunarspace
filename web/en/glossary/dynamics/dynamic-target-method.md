@@ -51,7 +51,7 @@ The dynamic target method improves upon the traditional targeting method by:
 ## Comparison with Traditional Targeting Method
 
 | Feature | Traditional Targeting | Dynamic Target |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Parameter selection | Fixed or locally optimized | Globally optimized by DE |
 | Search method | Gradient-based | Population-based (DE) |
 | Fuel consumption | Moderate | Lower |

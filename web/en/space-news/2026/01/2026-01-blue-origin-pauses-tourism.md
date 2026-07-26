@@ -19,6 +19,7 @@ wechatShare:
 **Summary:** *Space.com* reports on **January 30, 2026**, **Blue Origin** announced that **New Shepard** suborbital flights would pause for at least **2 years**, redirecting resources to **lunar capabilities development**. This decision impacted Blue Origin's space tourism operations.
 
 **Key Information:**
+
 - Blue Origin has a NASA contract to use the **Blue Moon** lander for **Artemis 5** (target 2029)
 - New Shepard has completed **38 flights**, including **17 crewed missions** with **98 people** reaching suborbital space
 - Blue Origin is also developing a **5,400-satellite** internet constellation called **"TeraWave"**

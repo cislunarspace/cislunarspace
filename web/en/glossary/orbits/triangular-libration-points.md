@@ -55,7 +55,7 @@ For the Earth-Moon system ($m_1 \gg m_2$), this condition is satisfied. The eige
 Three fundamental periodic orbit families exist near L4/L5:
 
 | Orbit Family | Characteristics | Period |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Short Period Orbit (SPO) | Small-amplitude rapid oscillation, approximately elliptical | Shorter |
 | Long Period Orbit (LPO) | Large-amplitude slow oscillation, non-elliptical | Longer |
 | Horseshoe Orbit (HS) | Large-scale horseshoe-shaped motion | Longest |
@@ -63,7 +63,7 @@ Three fundamental periodic orbit families exist near L4/L5:
 ### Differences from Collinear Libration Points
 
 | Characteristic | Triangular L4/L5 | Collinear L1/L2/L3 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Position | Equilateral triangle vertices | On the line connecting the two primaries |
 | Linear Stability | Stable (center x center) | Unstable (saddle x center) |
 | Nearby Periodic Orbits | SPO, LPO, Horseshoe | Halo, Lyapunov, Lissajous |

@@ -28,7 +28,7 @@ permalink: /glossary/programs/lugre/
 >
 > 本文作者：天疆说
 >
-> 本文编辑来源：https://cislunarspace.cn
+> 本文编辑来源：<https://cislunarspace.cn>
 
 ## 概述
 
@@ -77,11 +77,9 @@ LuGRE（Lunar GNSS Receiver Experiment）是 NASA 与意大利空间局联合开
 - **定位实现**：±15 米定位精度
 - **信号来源**：同时接收 GPS 和伽利略卫星旁瓣信号
 
-
 ## 应用价值
 
 LuGRE 实验首次在工程层面验证了利用地球 GNSS 信号实现月球表面导航的可行性，为地月空间四大导航技术路径之一的 GNSS 弱信号导航提供了关键在轨验证数据。这一突破为未来载人登月任务的基础导航和应急备份手段奠定了技术基础。
-
 
 ## 参考文献
 

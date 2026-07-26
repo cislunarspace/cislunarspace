@@ -49,7 +49,7 @@ From LEO (185 km circular orbit) to TLI, the typical $C_3 \approx -0.5$ km$^2$/s
 Earth-Moon transfer is a classic bi-objective optimization problem balancing time and fuel:
 
 | Transfer Type | Typical Duration | Typical ΔV | Suitable For |
-|---------------|-------------------|-------------|---------------|
+| --------------- | ------------------- | ------------- | --------------- |
 | Direct transfer | 3–5 days | ~3.2 km/s | Urgent missions, cargo |
 | Low-energy transfer | 2–4 weeks | ~3.0 km/s | Crewed missions, probes |
 | Ballistic capture | 1–3 months | ~2.9 km/s | Small probes, CubeSats |

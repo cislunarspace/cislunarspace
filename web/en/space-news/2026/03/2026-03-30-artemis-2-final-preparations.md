@@ -43,7 +43,7 @@ Teams will continue monitoring weather conditions in the coming days.
 ## Pre-Launch Schedule
 
 | Date (ET) | Event |
-|-----------|-------|
+| ----------- | ------- |
 | March 30, 5:00 pm | Post-Mission Management Team news conference |
 | March 31, 1:00 pm | Pre-launch news conference |
 | April 1, 7:45 am | Tanking operations begin |

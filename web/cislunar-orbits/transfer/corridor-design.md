@@ -16,7 +16,7 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 >
 > 本文编辑来源：[CislunarSpace](https://cislunarspace.cn)
 >
-> 来源：https://cislunarspace.cn
+> 来源：<https://cislunarspace.cn>
 
 # 转移走廊设计
 
@@ -31,11 +31,13 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 根据转移能量的不同，转移走廊可分为两类：
 
 **高能走廊**（Direct Transfer Corridor）：
+
 - 对应较高的 $C_3$ 值（$C_3 \approx -0.3$ 到 $-0.5$ km$^2$/s$^2$）
 - 转移时间短（3-5 天）
 - $\Delta V$ 走廊宽度较窄（约 $\pm 50$ m/s）
 
 **低能走廊**（Low-Energy Corridor）：
+
 - 对应较低的 $C_3$ 值（$C_3 \approx -0.8$ 到 $-1.0$ km$^2$/s$^2$）
 - 转移时间长（2-4 周）
 - $\Delta V$ 走廊宽度较宽（约 $\pm 200-300$ m/s）
@@ -45,11 +47,13 @@ permalink: /cislunar-orbits/transfer/corridor-design/
 ## Pork-Chop 图
 
 Pork-Chop 图是 TLI 发射窗口分析的标准工具，以等高线图的形式展示：
+
 - **x 轴**：发射日期
 - **y 轴**：到达日期（或转移时间）
 - **等高线**：总 $\Delta V$ 或 $C_3$ 值
 
 读取 Pork-Chop 图的方法：
+
 1. 找到等高线最凹陷的区域（能量最低的发射机会）
 2. 该区域的发射-到达日期对即为最优窗口
 3. 等高线的密集程度表示走廊的"陡峭程度"
@@ -59,7 +63,7 @@ Pork-Chop 图是 TLI 发射窗口分析的标准工具，以等高线图的形�
 地月转移设计是典型的时间-燃料双目标优化问题，核心权衡：
 
 | 目标 | 优化方向 | 代价 |
-|------|----------|------|
+| ------ | ---------- | ------ |
 | 最小化 $\Delta V$ | 低能走廊 | 转移时间增加 |
 | 最小化时间 | 高能走廊 | $\Delta V$ 增加 |
 | 最大化窗口宽度 | 折中方案 | 两种目标均非最优 |
@@ -69,6 +73,7 @@ Pareto 前沿表示在时间-燃料权衡中无法同时改进两者的最优解
 ## NRHO 插入时机
 
 到达地月空间后的 NRHO 插入是转移的最后一步：
+
 - 插入时机决定于到达时的月球相位和轨道几何
 - 最佳插入窗口宽度通常为 $\pm 1-2$ 小时
 - 插入 $\Delta V$ 约为 200-400 m/s

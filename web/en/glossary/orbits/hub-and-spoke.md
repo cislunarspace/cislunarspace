@@ -57,7 +57,7 @@ The operational workflow described by Hu et al. (2026):
 ### Engineering Advantages
 
 | Advantage | Description |
-|:---|:---|
+| :--- | :--- |
 | Reusability | OTV returns to the platform for propellant replenishment and maintenance |
 | Flexible deployment | Departs from a unified platform to flexibly address multi-plane, multi-altitude deployment requirements |
 | Extended lifespan | Small satellites do not consume their own propellant, extending on-orbit service life |

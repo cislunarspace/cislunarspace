@@ -72,15 +72,15 @@ $$\mathcal{L}(\{u_k\}, \{\omega_k\}, \lambda) = \alpha \sum_{k=1}^{K} ||\partial
 ### 更新公式
 
 | 变量 | 更新公式 |
-|:---|:---|
+| :--- | :--- |
 | $u_k^{n+1}$ | $\frac{f(t) - \sum_{i\neq k} u_i^{n+1} + \frac{\lambda^n}{2}}{1 + 2\alpha(\omega - \omega_k)^2}$ |
-| $\omega_k^{n+1}$ | $\frac{\int_0^\infty \omega |\hat{u}_k(\omega)|^2 d\omega}{\int_0^\infty |\hat{u}_k(\omega)|^2 d\omega}$ |
+| $\omega_k^{n+1}$ | $\frac{\int_0^\infty \omega | \hat{u}_k(\omega) | ^2 d\omega}{\int_0^\infty | \hat{u}_k(\omega) | ^2 d\omega}$ |
 | $\lambda^{n+1}$ | $\lambda^n + \gamma(f - \sum_k u_k^{n+1})$ |
 
 ## 参数设置
 
 | 参数 | 含义 | 典型值 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | $K$ | 模态数 | 3-10 |
 | $\alpha$ | 惩罚参数 | 1000-5000 |
 | $\tau$ | 噪声容限 | 0 |
@@ -95,14 +95,14 @@ $$\mathcal{L}(\{u_k\}, \{\omega_k\}, \lambda) = \alpha \sum_{k=1}^{K} ||\partial
 $$v(t) = \sum_{k=1}^{K} IMF_k(t)$$
 
 | IMF 分量 | 特征 | 预测方法 |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | IMF1 | 高频湍流 | LSTM/ARIMA |
 | IMF2 | 中频波动 | 周期模型 |
 | IMF3+ | 低频趋势 | 线性拟合 |
 
 ### 预测流程
 
-```
+```text
 原始风速信号
       ↓
    VMD 分解

@@ -92,7 +92,7 @@ CW equations are widely used in spacecraft engineering:
 Both CW equations and the Circular Restricted Three-Body Problem (CR3BP) describe relative motion, but they apply in different regimes:
 
 | Feature | CW Equations | CR3BP |
-|---------|-------------|-------|
+| --------- | ------------- | ------- |
 | Gravitational bodies | Two-body (central body + reference spacecraft) | Three-body (two primaries + massless particle) |
 | Orbit type | Relative motion near a circular orbit | Periodic/quasi-periodic orbits near libration points |
 | Linearization | Yes | Nonlinear (can be linearized near equilibrium points) |

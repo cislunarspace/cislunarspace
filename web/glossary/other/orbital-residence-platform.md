@@ -66,7 +66,7 @@ permalink: /glossary/other/orbital-residence-platform/
 
 平台的存在使部署任务形成闭环：
 
-```
+```text
 平台 → OTV出发 → 依次部署 → OTV返回 → 补给维护 → 平台 → OTV再出发
 ```
 
@@ -87,7 +87,7 @@ permalink: /glossary/other/orbital-residence-platform/
 平台应具备的补给能力：
 
 | 补给类型 | 说明 |
-|:---|:---|
+| :--- | :--- |
 | 推进剂补给 | 为OTV补加工质 |
 | 电力补给 | 为OTV充电或供电 |
 | 热控管理 | 维持OTV适宜温度环境 |

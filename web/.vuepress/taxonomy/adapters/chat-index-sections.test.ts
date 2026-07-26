@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest'
-import { buildSectionChatIndexCategories } from './chat-index-sections'
-import { createTaxonomyModule } from '../module'
-import type { TaxonomyNode } from '../types'
+import { describe, expect, it } from 'vitest';
+import { buildSectionChatIndexCategories } from './chat-index-sections';
+import { createTaxonomyModule } from '../module';
+import type { TaxonomyNode } from '../types';
 
 /**
  * Minimal fixture with one section containing pages, an index node, and a
@@ -63,53 +63,53 @@ const fixtureNodes: TaxonomyNode[] = [
     order: 40,
     parentId: 'orbits',
   },
-]
+];
 
-const fixtureModule = createTaxonomyModule(fixtureNodes)
+const fixtureModule = createTaxonomyModule(fixtureNodes);
 
 describe('chat-index-sections adapter', () => {
   it('builds zh section categories from the fixture taxonomy', () => {
-    const categories = buildSectionChatIndexCategories('zh', fixtureModule)
-    expect(categories).toHaveLength(1)
-    expect(categories[0].category).toBe('轨道')
-  })
+    const categories = buildSectionChatIndexCategories('zh', fixtureModule);
+    expect(categories).toHaveLength(1);
+    expect(categories[0].category).toBe('轨道');
+  });
 
   it('builds en entries with en-prefixed locale paths', () => {
-    const categories = buildSectionChatIndexCategories('en', fixtureModule)
-    const orbits = categories[0]
+    const categories = buildSectionChatIndexCategories('en', fixtureModule);
+    const orbits = categories[0];
     expect(orbits.entries[0]).toEqual({
       path: '/en/orbits/',
       title: 'Orbits',
-    })
+    });
     expect(orbits.entries).toContainEqual({
       path: '/en/orbits/nrho/',
       title: 'NRHO',
-    })
-  })
+    });
+  });
 
   it('skips index nodes as chat entries', () => {
-    const categories = buildSectionChatIndexCategories('zh', fixtureModule)
-    const orbits = categories[0]
+    const categories = buildSectionChatIndexCategories('zh', fixtureModule);
+    const orbits = categories[0];
     // The section's own index page is skipped (kind === 'index').
     // But the section root itself (path: '/orbits/') is included.
-    expect(orbits.entries.filter((e) => e.path === '/orbits/')).toHaveLength(1)
-  })
+    expect(orbits.entries.filter((e) => e.path === '/orbits/')).toHaveLength(1);
+  });
 
   it('includes children of display-only groups', () => {
-    const categories = buildSectionChatIndexCategories('zh', fixtureModule)
-    const orbits = categories[0]
+    const categories = buildSectionChatIndexCategories('zh', fixtureModule);
+    const orbits = categories[0];
     expect(orbits.entries).toContainEqual({
       path: '/orbits/display-group/child/',
       title: '子页面',
-    })
+    });
     // The display-only group itself (path null) is excluded.
-    expect(orbits.entries.some((e) => e.title === '展示组')).toBe(false)
-  })
+    expect(orbits.entries.some((e) => e.title === '展示组')).toBe(false);
+  });
 
   it('preserves sibling ordering', () => {
-    const categories = buildSectionChatIndexCategories('zh', fixtureModule)
-    const orbits = categories[0]
-    const titles = orbits.entries.map((e) => e.title)
-    expect(titles).toEqual(['轨道', 'NRHO', '子页面', '深空'])
-  })
-})
+    const categories = buildSectionChatIndexCategories('zh', fixtureModule);
+    const orbits = categories[0];
+    const titles = orbits.entries.map((e) => e.title);
+    expect(titles).toEqual(['轨道', 'NRHO', '子页面', '深空']);
+  });
+});

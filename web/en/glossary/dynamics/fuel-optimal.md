@@ -57,7 +57,7 @@ $\boldsymbol{\lambda}_v$ is the velocity co-state variable, and $\lambda_m$ is t
 ### Time-optimal vs. Fuel-optimal
 
 | Characteristic | Time-optimal | Fuel-optimal |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Performance index | $J = t_f - t_0$ (minimum time) | $J = \int u \, dt$ (minimum fuel) |
 | Thrust characteristic | Always maximum thrust | Bang-bang (on/off switching) |
 | Switching function | Linear function | Nonlinear function with co-state norm |

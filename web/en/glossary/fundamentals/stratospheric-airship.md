@@ -35,7 +35,7 @@ A stratospheric airship is a Lighter-Than-Air (LTA) aerostat designed to operate
 ## Structural Components
 
 | Component | Function |
-|:---|:---|
+| :--- | :--- |
 | Envelope | Helium-filled gas-tight structure with radiation-resistant outer coating |
 | Ballonet | Internal inflatable airbag for buoyancy and attitude regulation |
 | Gondola | Houses payload, power systems, and control equipment |

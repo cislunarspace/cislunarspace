@@ -17,7 +17,6 @@ wechatShare:
 
 **摘要：** 2026年4月13日，Rocket Lab公司宣布，其 canisterized Satellite Dispensers（CSD）卫星分离系统在Artemis II任务中发挥了关键作用，成功将4颗立方星部署至高地球轨道，最高运行高度达4万公里。这些立方星在SLS火箭上面级与猎户座飞船分离后约5小时部署，为未来月球及深空探测任务提供了重要的技术验证。
 
-
 ## 任务详情
 
 2026年4月1日，NASA执行了Artemis II载人绕月任务——这是50多年来首次人类登月相关飞行任务。在SLS火箭巨大的有效载荷整流罩内，集成在猎户座级间适配器（Orion Stage Adapter，OSA）中的4颗立方星也随之升空。这些立方星在OSA与猎户座飞船分离约5小时后，从Rocket Lab的CSD系统中被释放，开始执行高地球轨道实验任务。

@@ -45,7 +45,7 @@ When the angle of attack $\alpha = 0$, the aerodynamic normal force component is
 ### Comparison with Turning at Non-Zero Angle of Attack
 
 | Comparison Item | Gravity Turn | Turning at Non-Zero Angle of Attack |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Angle of Attack | $\alpha = 0$ | $\alpha \neq 0$ |
 | Aerodynamic Load | Low | Relatively High |
 | Turning Rate | Slow (limited by gravity) | Fast (assisted by aerodynamic force) |
@@ -55,10 +55,12 @@ When the angle of attack $\alpha = 0$, the aerodynamic normal force component is
 ### Application Timing
 
 During the turning process in the atmospheric flight phase:
+
 - **Non-zero angle-of-attack turning segment** ($t_1 \sim t_2$): Low dynamic pressure phase, using angle of attack to generate aerodynamic force for rapid turning
 - **High dynamic pressure turning segment** ($t_2 \sim t_3$): Transonic and high dynamic pressure phase, adopting gravity turn
 
 The gravity turn is mainly applied during the high dynamic pressure phase because:
+
 - Aerodynamic forces change dramatically in the transonic regime; maintaining zero angle of attack improves control system operating conditions
 - Reduces aerodynamic loads and aerodynamic disturbances
 - Reduces drag velocity losses
@@ -66,6 +68,7 @@ The gravity turn is mainly applied during the high dynamic pressure phase becaus
 ### Design Constraints
 
 The gravity turn segment design must satisfy:
+
 - Normal load factor limit: $n_y \leq (n_y)_{\max}$
 - Pitch rate limit: $|\dot{\varphi}_{pr}| \leq (\dot{\varphi}_{pr})_{\max}$
 - Pitch acceleration limit: $|\ddot{\varphi}_{pr}| \leq (\ddot{\varphi}_{pr})_{\max}$

@@ -27,6 +27,7 @@ As reported by multiple outlets including Caixin and TechWeb on May 13, Google i
 ## Deep Financial Ties
 
 A notable aspect of these negotiations is the significant financial relationship between the two companies:
+
 - Google holds approximately **6.1% stake in SpaceX**, making it one of SpaceX's external investors
 - Google's executive **Don Harrison** currently serves on SpaceX's board of directors
 
@@ -35,6 +36,7 @@ This deep entanglement means the negotiations carry strategic significance beyon
 ## Competing and Cooperating in Space Computing
 
 Orbital data centers represent an emerging but rapidly competitive domain:
+
 - **SpaceX** filed with federal regulators earlier this year to launch up to 1 million satellites to advance its Starlink orbital data center vision
 - **Anthropic** (a Google-backed AI company) has expressed interest in collaborating with SpaceX on orbital data centers
 - **Cowboy Space** and other startups are also actively entering this space
@@ -44,6 +46,7 @@ Just one week before the negotiation announcement, Anthropic announced a ground 
 ## Strategic Significance of Space Computing
 
 Orbital data centers are viewed by industry as a potential solution to the land and energy consumption bottlenecks of terrestrial data centers. Advantages of the space environment include:
+
 - **Virtually unlimited power**: Solar power generation efficiency in orbit is several times that on Earth, with no day-night cycles
 - **Natural cooling**: Space's low temperatures can significantly reduce cooling energy consumption
 - **No land costs**: No ground space required

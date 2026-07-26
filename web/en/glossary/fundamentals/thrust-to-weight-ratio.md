@@ -43,7 +43,7 @@ $$t_1 = \sqrt{\frac{40}{\frac{1}{\nu_0} - 1}}$$
 where $\nu_0 = G_0/P_0$ is the inverse of the thrust-to-weight ratio.
 
 | Thrust-to-Weight Ratio $P_0/G_0$ | Vertical Liftoff Time $t_1$ |
-|:---|:---|
+| :--- | :--- |
 | 1.0 | approximately 17 s |
 | 2.0 | approximately 6 s |
 | 3.0 | approximately 2 s |
@@ -53,7 +53,7 @@ A higher thrust-to-weight ratio indicates better launch acceleration performance
 ### Impact on Flight Program
 
 | Aspect | High Thrust-to-Weight Ratio | Low Thrust-to-Weight Ratio |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | Vertical liftoff time | Short | Long |
 | Speed at turn initiation | High | Low |
 | Normal force required for turn | Large | Small |
@@ -62,6 +62,7 @@ A higher thrust-to-weight ratio indicates better launch acceleration performance
 ### Design Constraints
 
 The choice of vertical liftoff time must satisfy:
+
 - Not too long: otherwise gravity velocity loss increases, and the velocity at turn initiation is too high, requiring large normal forces
 - Not too short: otherwise the engine may not have reached rated operating conditions at turn initiation, and the control actuators may not generate sufficient control force
 
@@ -78,5 +79,5 @@ The thrust-to-weight ratio is one of the core parameters in rocket overall desig
 
 ## References
 
-- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics (空天飞行力学)[M]. National University of Defense Technology, 2026.
-- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics (远程火箭弹道学)[M]. National University of Defense Technology Press.
+- Zheng Wei, An Xueying, Zhou Xiang, He Ruizhi. Aerospace Flight Mechanics [空天飞行力学](M). National University of Defense Technology, 2026.
+- Jia Peiran, Chen Kejun, et al. Long-Range Rocket Ballistics [远程火箭弹道学](M). National University of Defense Technology Press.
