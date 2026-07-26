@@ -85,24 +85,30 @@ const presetChips = computed(() => {
 
 function loadCss(href: string) {
   return new Promise<void>((resolve, reject) => {
-    const l = document.createElement('link')
-    l.rel = 'stylesheet'
-    l.href = href
-    l.onload = () => resolve()
-    l.onerror = () => { l.remove(); reject(new Error(`CSS ${href}`)) }
-    document.head.appendChild(l)
-  })
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = href;
+    l.onload = () => resolve();
+    l.onerror = () => {
+      l.remove();
+      reject(new Error(`CSS ${href}`));
+    };
+    document.head.appendChild(l);
+  });
 }
 
 function loadScript(src: string) {
   return new Promise<void>((resolve, reject) => {
-    const s = document.createElement('script')
-    s.src = src
-    s.async = true
-    s.onload = () => resolve()
-    s.onerror = () => { s.remove(); reject(new Error(`Script ${src}`)) }
-    document.head.appendChild(s)
-  })
+    const s = document.createElement('script');
+    s.src = src;
+    s.async = true;
+    s.onload = () => resolve();
+    s.onerror = () => {
+      s.remove();
+      reject(new Error(`Script ${src}`));
+    };
+    document.head.appendChild(s);
+  });
 }
 
 function toast(msg: string) {
@@ -230,13 +236,13 @@ function startLoop() {
     const wall = (now - lastWall) / 1000;
     lastWall = now;
 
-    sim.tick(wall)
-    rotateGlobeToECI(simTime.value)
+    sim.tick(wall);
+    rotateGlobeToECI(simTime.value);
     // updateSliders() 已从 rAF 移除 — 滑块渐变仅在 @input 和 preset 切换时更新，
     // 避免每帧 querySelectorAll + inline style 导致 layout reflow。
-    rafId = requestAnimationFrame(loop)
-  }
-  rafId = requestAnimationFrame(loop)
+    rafId = requestAnimationFrame(loop);
+  };
+  rafId = requestAnimationFrame(loop);
 }
 
 function initCesium() {
@@ -309,8 +315,8 @@ onMounted(async () => {
       toast(ui.value.ready);
     }, 1200);
   } catch (err) {
-    maskVisible.value = false
-    maskError.value = err instanceof Error ? err.message : String(err)
+    maskVisible.value = false;
+    maskError.value = err instanceof Error ? err.message : String(err);
   }
 });
 
