@@ -1,12 +1,13 @@
 ---
 layout: SpaceNewsArticle
-title: "Soyuz-5 (Irtysh) Medium-Launch Vehicle Flight Test from Baikonur"
-description: "Russia's next-generation medium-class launch vehicle Soyuz-5, also known as Irtysh, conducted its first test flight from Baikonur Cosmodrome on April 3. Launch result pending official confirmation."
+title: "Soyuz-5 Maiden Flight Postponed (Originally Scheduled April 3)"
+description: "Soyuz-5 maiden flight was originally scheduled for April 3 but postponed to April 30. This article records the early schedule. See 2026-05-01-soyuz-5-maiden-launch for actual launch details."
 permalink: /en/space-news/2026/04/2026-04-03-soyuz-5-maiden-flight/
 author: Tianjiang Shuo
 date: 2026-04-03
-lastUpdated: 2026-04-05
+lastUpdated: 2026-07-27
 category: launch
+draft: true
 image: ./figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg
 tags:
   - Soyuz-5

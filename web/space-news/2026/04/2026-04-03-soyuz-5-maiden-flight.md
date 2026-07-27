@@ -1,12 +1,13 @@
 ---
 layout: SpaceNewsArticle
-title: "联盟-5（额尔齐斯）运载火箭执行首飞测试：俄罗斯新一代中型火箭从拜科努尔发射"
-description: "俄罗斯与哈萨克斯坦联合研制的新一代中型运载火箭联盟-5（额尔齐斯）于 4 月 3 日在拜科努尔航天发射场执行首次飞行测试，发射结果待官方确认。"
+title: "联盟-5（额尔齐斯）运载火箭首飞推迟（原定4月3日）"
+description: "联盟-5运载火箭原定4月3日首飞，后推迟至4月30日成功发射。本文记录早期排期信息，实际发射详情见 2026-05-01-soyuz-5-maiden-launch。"
 permalink: /space-news/2026/04/2026-04-03-soyuz-5-maiden-flight/
 author: 天疆说
 date: 2026-04-03
-lastUpdated: 2026-04-05
+lastUpdated: 2026-07-27
 category: launch
+draft: true
 image: ./figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg
 tags:
   - 联盟-5

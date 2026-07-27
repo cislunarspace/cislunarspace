@@ -1,21 +1,21 @@
 ---
 layout: SpaceNewsArticle
-title: "Blue Origin's New Glenn Completes First Mission"
-description: "On November 13, 2025, Blue Origin's New Glenn rocket successfully completed its first operational mission, launching NASA's EscaPADE Mars probe."
+title: "Blue Origin New Glenn NG-2 Mission Succeeds: EscaPADE Launch and First Booster Recovery"
+description: "On November 13, 2025, Blue Origin's New Glenn rocket successfully completed the NG-2 mission from Cape Canaveral, launching NASA's EscaPADE Mars probe and achieving the first booster recovery."
 permalink: /en/space-news/2025/11/2025-11-13-new-glenn-escapade/
 author: Tianjiang Shuo
 date: 2025-11-13
-lastUpdated: 2025-11-13
+lastUpdated: 2026-07-27
 category: commercial
 wechatShare:
-  title: "Blue Origin's New Glenn Completes First Mission"
-  desc: "On November 13, 2025, Blue Origin's New Glenn rocket successfully completed its first operational mission, launching NASA's EscaPADE Mars probe."
+  title: "Blue Origin New Glenn NG-2 Mission Succeeds"
+  desc: "On November 13, 2025, Blue Origin's New Glenn rocket successfully completed the NG-2 mission from Cape Canaveral, launching NASA's EscaPADE Mars probe and achieving the first booster recovery."
   image: "/logo.png"
 ---
 
-# Blue Origin's New Glenn Completes First Mission
+# Blue Origin New Glenn NG-2 Mission Succeeds: EscaPADE Launch and First Booster Recovery
 
-**Summary:** On November 13, 2025 (Eastern Time), Blue Origin's New Glenn rocket successfully completed its maiden flight from Launch Complex 41 at Cape Canaveral, launching NASA's EscaPADE (Escape and Plasma Acceleration and Dynamics Explorers) Mars atmospheric probe to its target orbit. Standing approximately 98 meters tall, New Glenn is Blue Origin's reusable heavy-lift launch vehicle with a sun-synchronous orbit payload capacity of about 13 tons. The success of this mission marked Blue Origin's formal entry into the heavy-lift launch market and validated New Glenn's flight reliability.
+**Summary:** On November 13, 2025 (Eastern Time), Blue Origin's New Glenn rocket successfully completed the NG-2 mission from Launch Complex 41 at Cape Canaveral, launching NASA's EscaPADE (Escape and Plasma Acceleration and Dynamics Explorers) Mars atmospheric probe to its target orbit and achieving the first successful booster recovery. Standing approximately 98 meters tall, New Glenn has a sun-synchronous orbit payload capacity of about 13 tons. This was New Glenn's second flight, following the NG-1 maiden mission on January 16, 2025. Blue Origin became the second company after SpaceX to successfully vertically recover an orbital-class rocket booster.
 
 ## Sources (original pages)
 
