@@ -31,13 +31,17 @@ echo "PWD=$REPO"
 
 cd "$REPO" || { echo "FATAL: cd $REPO failed"; exit 1; }
 
-# --- Phase 1: search & draft new articles (lightweight Python script) ---
+# --- Phase 1: search & draft new articles (MIMO API with web_search) ---
 if [ "$SKIP_PHASE1" = "1" ]; then
     echo "[$(date -Iseconds)] phase 1: SKIPPED (SKIP_PHASE1=1)"
     PHASE1_RC=0
 else
-    echo "[$(date -Iseconds)] phase 1: python3 scripts/space-news-update-phase1-hermes.py"
-    python3 "$REPO/scripts/space-news-update-phase1-hermes.py" 2>&1
+    echo "[$(date -Iseconds)] phase 1: python3 scripts/space-news-update-phase1-mimo.py"
+    # MIMO_API_KEY 从环境变量或 .env 文件加载
+    if [ -z "$MIMO_API_KEY" ] && [ -f "$REPO/.env" ]; then
+        set -a; source "$REPO/.env"; set +a
+    fi
+    python3 "$REPO/scripts/space-news-update-phase1-mimo.py" 2>&1
     PHASE1_RC=$?
     echo "[$(date -Iseconds)] phase 1 exit=$PHASE1_RC"
 fi
