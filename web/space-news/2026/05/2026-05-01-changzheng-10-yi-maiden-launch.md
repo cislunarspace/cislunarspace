@@ -1,17 +1,16 @@
 ---
 layout: SpaceNewsArticle
-title: "长征十号乙运载火箭首飞成功，验证全球首创海上柔性网系回收技术"
-description: "2026年4月28日，长征十号乙运载火箭在海南文昌成功首飞，同步验证全球首创的海上柔性网系捕获回收技术，设计可复用次数不低于10次，发射间隔可缩短至72小时。"
+title: "长征十号乙运载火箭首飞推迟（原定4月28日，实际7月10日）"
+description: "长征十号乙运载火箭原定4月28日首飞，后推迟至7月10日成功首飞。本文记录早期排期信息。"
 wechatShare:
-  title: "长征十号乙运载火箭首飞成功，验证全球首创海上柔性网系回收技术"
-  desc: "2026年4月28日，长征十号乙运载火箭在海南文昌成功首飞，同步验证全球首创的海上柔性网系捕获回收技术，设计可复用次数不低于10次，发射间隔可缩短至72小时。"
-  image: "./figures/2026-05-01-changzheng-10-yi-maiden-launch/hero.png"
+  title: "长征十号乙运载火箭首飞推迟"
+  desc: "长征十号乙运载火箭原定4月28日首飞，后推迟至7月10日成功首飞。"
 permalink: /space-news/2026/05/2026-05-01-changzheng-10-yi-maiden-launch/
 author: 天疆说
-date: 2026-04-28
-lastUpdated: 2026-04-30
+date: 2026-05-01
+lastUpdated: 2026-07-27
 category: [china, commercial]
-image: ./figures/2026-05-01-changzheng-10-yi-maiden-launch/hero.png
+draft: true
 ---
 
 # 长征十号乙运载火箭首飞成功，验证全球首创海上柔性网系回收技术

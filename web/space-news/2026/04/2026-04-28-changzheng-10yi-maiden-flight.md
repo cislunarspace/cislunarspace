@@ -1,17 +1,16 @@
 ---
 layout: SpaceNewsArticle
-title: "长征十号乙运载火箭成功首飞，全球首创海上网系回收技术验证"
-description: "2026年4月28日，长征十号乙运载火箭在海南文昌商业航天发射场成功首飞，同步验证全球首创的海上网系回收技术，近地轨道运力达16吨，性能超越早期猎鹰9号。"
+title: "长征十号乙运载火箭首飞推迟（原定4月28日，实际7月10日）"
+description: "长征十号乙运载火箭原定4月28日首飞，后推迟至7月10日成功首飞。本文记录早期排期信息。"
 wechatShare:
-  title: "长征十号乙运载火箭成功首飞，全球首创海上网系回收技术验证"
-  desc: "2026年4月28日，长征十号乙运载火箭在海南文昌商业航天发射场成功首飞，同步验证全球首创的海上网系回收技术，近地轨道运力达16吨，性能超越早期猎鹰9号。"
-  image: "./figures/2026-04-28-changzheng-10yi-maiden-flight/hero.jpg"
+  title: "长征十号乙运载火箭首飞推迟"
+  desc: "长征十号乙运载火箭原定4月28日首飞，后推迟至7月10日成功首飞。"
 permalink: /space-news/2026/04/2026-04-28-changzheng-10yi-maiden-flight/
 author: 天疆说
 date: 2026-04-28
-lastUpdated: 2026-04-28
+lastUpdated: 2026-07-27
 category: [china, commercial]
-image: ./figures/2026-04-28-changzheng-10yi-maiden-flight/hero.jpg
+draft: true
 ---
 
 # 长征十号乙运载火箭成功首飞，全球首创海上网系回收技术验证
