@@ -1,12 +1,12 @@
 ---
-title: 牛顿迭代法（Newton's Iteration Method）
+title: "牛顿迭代法（Newton's Iteration Method）"
 description: 详细解析牛顿迭代法的基本原理、在弹道设计中的应用及偏导数计算方法
-keywords: 牛顿迭代法, Newton's Iteration Method, 牛顿-拉夫逊法, 弹道设计, 非线性方程求解
+keywords: "牛顿迭代法, Newton's Iteration Method, 牛顿-拉夫逊法, 弹道设计, 非线性方程求解"
 author: 天疆说
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
-  title: 牛顿迭代法（Newton's Iteration Method）
+  title: "牛顿迭代法（Newton's Iteration Method）"
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
