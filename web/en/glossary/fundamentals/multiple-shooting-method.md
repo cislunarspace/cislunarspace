@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multiple Shooting Method Explained | Term Definition
+  title: "Multiple Shooting Method Explained | Term Definition"
   description: A numerical method that divides the integration interval into subintervals, integrates independently on each, and enforces continuity between adjacent subint...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multiple Shooting Method Explained | Term Definition
+  title: "Multiple Shooting Method Explained | Term Definition"
   description: A numerical method that divides the integration interval into subintervals, integrates independently on each, and enforces continuity between adjacent subint...
   image: /logo.png
 permalink: /en/glossary/fundamentals/multiple-shooting-method/

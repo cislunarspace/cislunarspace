@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Sail Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Solar Sail Circular Restricted Three-Body Problem Explained | Term Definition"
   description: A dynamical model that extends the Circular Restricted Three-Body Problem by incorporating solar radiation pressure from a solar sail. In addition to the gravit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Sail Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Solar Sail Circular Restricted Three-Body Problem Explained | Term Definition"
   description: A dynamical model that extends the Circular Restricted Three-Body Problem by incorporating solar radiation pressure from a solar sail. In addition to the gravit
   image: /logo.png
 permalink: /en/glossary/dynamics/SSCRTBP/

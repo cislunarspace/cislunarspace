@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interior Transfer Explained | Term Definition
+  title: "Interior Transfer Explained | Term Definition"
   description: 从近地轨道出发，经地月L1点Lyapunov轨道的渐近轨道进入月球远距离逆行轨道的转移方式。转移路径处于地月系统内部，速度快但可用的发射窗口较窄。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interior Transfer Explained | Term Definition
+  title: "Interior Transfer Explained | Term Definition"
   description: 从近地轨道出发，经地月L1点Lyapunov轨道的渐近轨道进入月球远距离逆行轨道的转移方式。转移路径处于地月系统内部，速度快但可用的发射窗口较窄。
   image: /logo.png
 permalink: /en/glossary/orbits/interior-transfer/

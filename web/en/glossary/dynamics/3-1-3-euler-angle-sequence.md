@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 3-1-3 Euler Angle Sequence Explained | Term Definition
+  title: "3-1-3 Euler Angle Sequence Explained | Term Definition"
   description: "A sequence of three rotations that transforms the Sun–Earth rotating frame into the Earth–Moon rotating frame. The first angle α defines the lunar line of nodes"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 3-1-3 Euler Angle Sequence Explained | Term Definition
+  title: "3-1-3 Euler Angle Sequence Explained | Term Definition"
   description: "A sequence of three rotations that transforms the Sun–Earth rotating frame into the Earth–Moon rotating frame. The first angle α defines the lunar line of nodes"
   image: /logo.png
 permalink: /en/glossary/dynamics/3-1-3-euler-angle-sequence/

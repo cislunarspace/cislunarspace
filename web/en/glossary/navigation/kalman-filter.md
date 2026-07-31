@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kalman Filter Explained | Term Definition
+  title: "Kalman Filter Explained | Term Definition"
   description: An optimal recursive estimation algorithm based on state-space models that fuses prior estimates from system dynamics models with measurement information from observation data through a predict-upd...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kalman Filter Explained | Term Definition
+  title: "Kalman Filter Explained | Term Definition"
   description: An optimal recursive estimation algorithm based on state-space models that fuses prior estimates from system dynamics models with measurement information from observation data through a predict-upd...
   image: /logo.png
 permalink: /en/glossary/navigation/kalman-filter/

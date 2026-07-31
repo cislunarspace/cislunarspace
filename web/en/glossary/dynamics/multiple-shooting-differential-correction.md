@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multiple-Shooting Differential Correction Explained | Term Definition
+  title: "Multiple-Shooting Differential Correction Explained | Term Definition"
   description: A correction method that divides a long trajectory into multiple segments and simultaneously adjusts all segment states to satisfy constraints.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multiple-Shooting Differential Correction Explained | Term Definition
+  title: "Multiple-Shooting Differential Correction Explained | Term Definition"
   description: A correction method that divides a long trajectory into multiple segments and simultaneously adjusts all segment states to satisfy constraints.
   image: /logo.png
 permalink: /en/glossary/dynamics/multiple-shooting-differential-correction/

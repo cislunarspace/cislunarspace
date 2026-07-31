@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Precomputed Variational Data Explained | Term Definition
+  title: "Precomputed Variational Data Explained | Term Definition"
   description: A strategy of precomputing and storing state transition matrices and tensors by integrating variational equations around a reference trajectory. The time span...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Precomputed Variational Data Explained | Term Definition
+  title: "Precomputed Variational Data Explained | Term Definition"
   description: A strategy of precomputing and storing state transition matrices and tensors by integrating variational equations around a reference trajectory. The time span...
   image: /logo.png
 permalink: /en/glossary/fundamentals/precomputed-variational-data/

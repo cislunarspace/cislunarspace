@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Positive/Negative Branch Explained | Term Definition
+  title: "Manifold Positive/Negative Branch Explained | Term Definition"
   description: Each invariant manifold (stable or unstable) splits into a positive and a negative branch, corresponding to two distinct asymptotic directions in phase space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Positive/Negative Branch Explained | Term Definition
+  title: "Manifold Positive/Negative Branch Explained | Term Definition"
   description: Each invariant manifold (stable or unstable) splits into a positive and a negative branch, corresponding to two distinct asymptotic directions in phase space.
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-positive-negative-branch/

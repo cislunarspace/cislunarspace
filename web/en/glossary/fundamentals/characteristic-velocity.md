@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Characteristic Velocity | Terminology Definition
+  title: "Characteristic Velocity | Terminology Definition"
   description: A detailed analysis of the definition and calculation methods of characteristic velocity
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Characteristic Velocity | Terminology Definition
+  title: "Characteristic Velocity | Terminology Definition"
   description: A detailed analysis of the definition and calculation methods of characteristic velocity
   image: /logo.png
 permalink: /en/glossary/fundamentals/characteristic-velocity/

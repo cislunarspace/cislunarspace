@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Body Energy with Respect to the Moon Explained | Term Definition
+  title: "Two-Body Energy with Respect to the Moon Explained | Term Definition"
   description: The two-body orbital energy of a spacecraft relative to the Moon at its perilune. E < 0 is a necessary condition for ballistic capture; E > 0 permits only lunar flybys without orbital insertion. Low-e...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Body Energy with Respect to the Moon Explained | Term Definition
+  title: "Two-Body Energy with Respect to the Moon Explained | Term Definition"
   description: The two-body orbital energy of a spacecraft relative to the Moon at its perilune. E < 0 is a necessary condition for ballistic capture; E > 0 permits only lunar flybys without orbital insertion. Low-e...
   image: /logo.png
 permalink: /en/glossary/fundamentals/two-body-energy-with-respect-to-the-moon/

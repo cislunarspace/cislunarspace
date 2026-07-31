@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Markov Decision Process, MDP Explained | Term Definition
+  title: "Markov Decision Process, MDP Explained | Term Definition"
   description: A discrete-time stochastic process where the probability of each state depends only on the previous state. Defined by the tuple (S, A, T, R, γ) with state space, action space, transition probabilities
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Markov Decision Process, MDP Explained | Term Definition
+  title: "Markov Decision Process, MDP Explained | Term Definition"
   description: A discrete-time stochastic process where the probability of each state depends only on the previous state. Defined by the tuple (S, A, T, R, γ) with state space, action space, transition probabilities
   image: /logo.png
 permalink: /en/glossary/dynamics/markov-decision-process-mdp/

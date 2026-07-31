@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Engine Throttle Factor Explained | Term Definition
+  title: "Engine Throttle Factor Explained | Term Definition"
   description: A control variable u in [0, 1] for low-thrust engines. u=1 corresponds to full thrust and u=0 to engine-off. In energy-optimal and fuel-optimal control, the ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Engine Throttle Factor Explained | Term Definition
+  title: "Engine Throttle Factor Explained | Term Definition"
   description: A control variable u in [0, 1] for low-thrust engines. u=1 corresponds to full thrust and u=0 to engine-off. In energy-optimal and fuel-optimal control, the ...
   image: /logo.png
 permalink: /en/glossary/dynamics/engine-throttle-factor/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: numerical continuation Explained | Term Definition
+  title: "numerical continuation Explained | Term Definition"
   description: A numerical analysis method that obtains solutions over a wider parameter domain by progressively adjusting parameters from known solutions. The paper uses it...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: numerical continuation Explained | Term Definition
+  title: "numerical continuation Explained | Term Definition"
   description: A numerical analysis method that obtains solutions over a wider parameter domain by progressively adjusting parameters from known solutions. The paper uses it...
   image: /logo.png
 permalink: /en/glossary/dynamics/numerical-continuation/

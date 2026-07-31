@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Insertion Error Details | Critical Error Source for Orbital Missions
+  title: "Insertion Error Details | Critical Error Source for Orbital Missions"
   description: Detailed analysis of insertion error sources, types, and their impact on orbital dynamics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Insertion Error Details | Critical Error Source for Orbital Missions
+  title: "Insertion Error Details | Critical Error Source for Orbital Missions"
   description: Detailed analysis of insertion error sources, types, and their impact on orbital dynamics
   image: /logo.png
 permalink: /en/glossary/other/insertion-error/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tangential Thrust Explained | Term Definition
+  title: "Tangential Thrust Explained | Term Definition"
   description: A thrust mode where the thrust direction is always parallel to the velocity vector (i.e., along the trajectory tangent). The analytical derivation of exponential sinusoids assumes tangential thrust (α...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tangential Thrust Explained | Term Definition
+  title: "Tangential Thrust Explained | Term Definition"
   description: A thrust mode where the thrust direction is always parallel to the velocity vector (i.e., along the trajectory tangent). The analytical derivation of exponential sinusoids assumes tangential thrust (α...
   image: /logo.png
 permalink: /en/glossary/fundamentals/tangential-thrust/

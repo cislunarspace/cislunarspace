@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Mission Delta (MD) Explained | Unity of Command for Readiness
+  title: "Mission Delta (MD) Explained | Unity of Command for Readiness"
   description: Detailed explanation of the U.S. Space Force Mission Delta (MD) definition, unity of command architecture, resource integration functions, and central role in space force organization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mission Delta (MD) Explained | Unity of Command for Readiness
+  title: "Mission Delta (MD) Explained | Unity of Command for Readiness"
   description: Detailed explanation of the U.S. Space Force Mission Delta (MD) definition, unity of command architecture, resource integration functions, and central role in space force organization
   image: /logo.png
 permalink: /en/glossary/doctrine/mission-delta/

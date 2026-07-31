@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Belbruno-Miller Trajectory Explained | Term Definition
+  title: "Belbruno-Miller Trajectory Explained | Term Definition"
   description: Low-energy Earth-Moon transfer using the weak stability boundary concept, achieving ballistic capture with zero hyperbolic excess velocity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Belbruno-Miller Trajectory Explained | Term Definition
+  title: "Belbruno-Miller Trajectory Explained | Term Definition"
   description: Low-energy Earth-Moon transfer using the weak stability boundary concept, achieving ballistic capture with zero hyperbolic excess velocity.
   image: /logo.png
 permalink: /en/glossary/orbits/belbruno-miller-trajectory/

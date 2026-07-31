@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravitational Potential Explained | Term Definition
+  title: "Gravitational Potential Explained | Term Definition"
   description: "The potential energy per unit mass at a point in a celestial body's gravitational field, inversely proportional to the distance from the gravitational center."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Potential Explained | Term Definition
+  title: "Gravitational Potential Explained | Term Definition"
   description: "The potential energy per unit mass at a point in a celestial body's gravitational field, inversely proportional to the distance from the gravitational center."
   image: /logo.png
 permalink: /en/glossary/dynamics/gravitational-potential/

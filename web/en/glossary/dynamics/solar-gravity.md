@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Gravity Explained | Term Definition
+  title: "Solar Gravity Explained | Term Definition"
   description: The gravitational force exerted by the Sun on spacecraft within the Earth-Moon system, and the dominant perturbation source near triangular libration points. Incorporating solar gravity into the restr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Gravity Explained | Term Definition
+  title: "Solar Gravity Explained | Term Definition"
   description: The gravitational force exerted by the Sun on spacecraft within the Earth-Moon system, and the dominant perturbation source near triangular libration points. Incorporating solar gravity into the restr...
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-gravity/

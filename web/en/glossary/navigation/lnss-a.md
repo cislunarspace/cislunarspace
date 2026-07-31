@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LNSS-A Explained | Term Definition
+  title: "LNSS-A Explained | Term Definition"
   description: The first-phase lunar navigation satellite system designed in this paper.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LNSS-A Explained | Term Definition
+  title: "LNSS-A Explained | Term Definition"
   description: The first-phase lunar navigation satellite system designed in this paper.
   image: /logo.png
 permalink: /en/glossary/navigation/lnss-a/

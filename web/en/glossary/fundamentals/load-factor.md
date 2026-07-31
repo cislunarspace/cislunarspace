@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Load Factor | Terminology Definition
+  title: "Load Factor | Terminology Definition"
   description: A detailed analysis of the load factor and load factor coefficient definitions and their application in vehicle structural design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Load Factor | Terminology Definition
+  title: "Load Factor | Terminology Definition"
   description: A detailed analysis of the load factor and load factor coefficient definitions and their application in vehicle structural design
   image: /logo.png
 permalink: /en/glossary/fundamentals/load-factor/

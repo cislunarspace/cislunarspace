@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tube Topology Explained | Term Definition
+  title: "Tube Topology Explained | Term Definition"
   description: The tubular geometric structure formed by invariant manifolds of small-amplitude periodic orbits. The manifolds create tubes in phase space that constrain sp...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tube Topology Explained | Term Definition
+  title: "Tube Topology Explained | Term Definition"
   description: The tubular geometric structure formed by invariant manifolds of small-amplitude periodic orbits. The manifolds create tubes in phase space that constrain sp...
   image: /logo.png
 permalink: /en/glossary/dynamics/tube-topology/

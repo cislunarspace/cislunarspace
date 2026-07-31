@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Model-Noise Parameter (q) Explained | Term Definition
+  title: "Model-Noise Parameter (q) Explained | Term Definition"
   description: Parameter describing the statistical characteristics of random acceleration due to target maneuvering, related to maneuver standard deviation and time constant
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Model-Noise Parameter (q) Explained | Term Definition
+  title: "Model-Noise Parameter (q) Explained | Term Definition"
   description: Parameter describing the statistical characteristics of random acceleration due to target maneuvering, related to maneuver standard deviation and time constant
   image: /logo.png
 permalink: /en/glossary/dynamics/model-noise-parameter/

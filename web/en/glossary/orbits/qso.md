@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: QSO Explained | Term Definition
+  title: "QSO Explained | Term Definition"
   description: A family of periodic orbits in the restricted three-body problem, linearly stable and in close proximity to the secondary body, adopted for proximity operations around small celestial bodies.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: QSO Explained | Term Definition
+  title: "QSO Explained | Term Definition"
   description: A family of periodic orbits in the restricted three-body problem, linearly stable and in close proximity to the secondary body, adopted for proximity operations around small celestial bodies.
   image: /logo.png
 permalink: /en/glossary/orbits/qso/

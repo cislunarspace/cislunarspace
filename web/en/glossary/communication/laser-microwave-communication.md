@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Laser-Microwave Communication Details | Hybrid Inter-Satellite Link Technology
+  title: "Laser-Microwave Communication Details | Hybrid Inter-Satellite Link Technology"
   description: Hybrid inter-satellite link technology integrating both laser and microwave communication regimes
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Laser-Microwave Communication Details | Hybrid Inter-Satellite Link Technology
+  title: "Laser-Microwave Communication Details | Hybrid Inter-Satellite Link Technology"
   description: Hybrid inter-satellite link technology integrating both laser and microwave communication regimes
   image: /logo.png
 permalink: /en/glossary/communication/laser-microwave-communication/

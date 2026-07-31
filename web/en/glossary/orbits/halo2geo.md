@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition
+  title: "Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition"
   description: A transfer trajectory starting from an L1 halo orbit, performing a manifold insertion followed by an impulse maneuver into a connecting orbit to geosynchronous 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition
+  title: "Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition"
   description: A transfer trajectory starting from an L1 halo orbit, performing a manifold insertion followed by an impulse maneuver into a connecting orbit to geosynchronous 
   image: /logo.png
 permalink: /en/glossary/orbits/halo2geo/

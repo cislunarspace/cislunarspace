@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conjugate Point Explained | Term Definition
+  title: "Conjugate Point Explained | Term Definition"
   description: A point along a reference extremal at which a nontrivial Jacobi field vanishes in its state component at both the initial time and this time. The absence of conjugate points on the open interval (0, t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conjugate Point Explained | Term Definition
+  title: "Conjugate Point Explained | Term Definition"
   description: A point along a reference extremal at which a nontrivial Jacobi field vanishes in its state component at both the initial time and this time. The absence of conjugate points on the open interval (0, t
   image: /logo.png
 permalink: /en/glossary/fundamentals/conjugate-point/

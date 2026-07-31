@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: First-Order Necessary Conditions Explained | Term Definition
+  title: "First-Order Necessary Conditions Explained | Term Definition"
   description: "The set of conditions that any optimal solution must satisfy, derived from Pontryagin's maximum principle, including costate dynamics, the extremality condition"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: First-Order Necessary Conditions Explained | Term Definition
+  title: "First-Order Necessary Conditions Explained | Term Definition"
   description: "The set of conditions that any optimal solution must satisfy, derived from Pontryagin's maximum principle, including costate dynamics, the extremality condition"
   image: /logo.png
 permalink: /en/glossary/dynamics/first-order-necessary-conditions/

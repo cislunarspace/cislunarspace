@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravitational Asymmetry at Libration Points Explained | Term Definition
+  title: "Gravitational Asymmetry at Libration Points Explained | Term Definition"
   description: The gravitational field near libration points in the Earth-Moon three-body system lacks symmetry. This asymmetry endows orbits with unique size, shape, and abso
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Asymmetry at Libration Points Explained | Term Definition
+  title: "Gravitational Asymmetry at Libration Points Explained | Term Definition"
   description: The gravitational field near libration points in the Earth-Moon three-body system lacks symmetry. This asymmetry endows orbits with unique size, shape, and abso
   image: /logo.png
 permalink: /en/glossary/fundamentals/gravitational-asymmetry-at-libration-points/

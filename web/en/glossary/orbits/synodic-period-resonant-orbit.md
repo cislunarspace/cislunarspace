@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Period Resonant Orbit Explained | Term Definition
+  title: "Synodic Period Resonant Orbit Explained | Term Definition"
   description: Periodic orbits whose periods are integer multiples or fractions of the Earth-Moon synodic period (approximately 29.5 days). The paper uses Lyapunov, Halo, axial, and vertical orbits near L1/L2, and p
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Period Resonant Orbit Explained | Term Definition
+  title: "Synodic Period Resonant Orbit Explained | Term Definition"
   description: Periodic orbits whose periods are integer multiples or fractions of the Earth-Moon synodic period (approximately 29.5 days). The paper uses Lyapunov, Halo, axial, and vertical orbits near L1/L2, and p
   image: /logo.png
 permalink: /en/glossary/orbits/synodic-period-resonant-orbit/

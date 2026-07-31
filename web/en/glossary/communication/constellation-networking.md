@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Constellation Networking Details | Satellite Communication Networking Technology
+  title: "Constellation Networking Details | Satellite Communication Networking Technology"
   description: Technology for interconnecting multiple satellites into a unified operational network through inter-satellite links and routing protocols
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Constellation Networking Details | Satellite Communication Networking Technology
+  title: "Constellation Networking Details | Satellite Communication Networking Technology"
   description: Technology for interconnecting multiple satellites into a unified operational network through inter-satellite links and routing protocols
   image: /logo.png
 permalink: /en/glossary/communication/constellation-networking/

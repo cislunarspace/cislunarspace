@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Amplitude Explained | Term Definition
+  title: "Amplitude Explained | Term Definition"
   description: The maximum distance of a Halo orbit from the plane of its libration point, determining the scale and stability characteristics of the Halo orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Amplitude Explained | Term Definition
+  title: "Amplitude Explained | Term Definition"
   description: The maximum distance of a Halo orbit from the plane of its libration point, determining the scale and stability characteristics of the Halo orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/amplitude/

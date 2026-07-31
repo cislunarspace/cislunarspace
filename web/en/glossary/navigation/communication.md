@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Communication Explained | Term Definition
+  title: "Communication Explained | Term Definition"
   description: An integrated service capability combining communication, navigation, and timing functions. In cislunar space, CNT multi-function integration is a key developme
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Communication Explained | Term Definition
+  title: "Communication Explained | Term Definition"
   description: An integrated service capability combining communication, navigation, and timing functions. In cislunar space, CNT multi-function integration is a key developme
   image: /logo.png
 permalink: /en/glossary/navigation/communication/

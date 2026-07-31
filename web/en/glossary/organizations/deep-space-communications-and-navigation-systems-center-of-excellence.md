@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Space Communications and Navigation Systems Center of Excellence Explained | Term Definition
+  title: "Deep Space Communications and Navigation Systems Center of Excellence Explained | Term Definition"
   description: A NASA center established at JPL in 1998, dedicated to deep-space communications and navigation technology development.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Space Communications and Navigation Systems Center of Excellence Explained | Term Definition
+  title: "Deep Space Communications and Navigation Systems Center of Excellence Explained | Term Definition"
   description: A NASA center established at JPL in 1998, dedicated to deep-space communications and navigation technology development.
   image: /logo.png
 permalink: /en/glossary/organizations/deep-space-communications-and-navigation-systems-center-of-excellence/

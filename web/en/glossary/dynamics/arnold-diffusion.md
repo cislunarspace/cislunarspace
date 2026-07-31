@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Arnold Diffusion Explained | Term Definition
+  title: "Arnold Diffusion Explained | Term Definition"
   description: A mechanism in higher-dimensional Hamiltonian systems where heteroclinic connections of unstable manifolds cause slow energy drift. In conservative systems like
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Arnold Diffusion Explained | Term Definition
+  title: "Arnold Diffusion Explained | Term Definition"
   description: A mechanism in higher-dimensional Hamiltonian systems where heteroclinic connections of unstable manifolds cause slow energy drift. In conservative systems like
   image: /logo.png
 permalink: /en/glossary/dynamics/arnold-diffusion/

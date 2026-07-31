@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Simple Online and Realtime Tracking Explained | Term Definition
+  title: "Simple Online and Realtime Tracking Explained | Term Definition"
   description: A lightweight multi-object tracking algorithm based on Kalman filter and Hungarian algorithm.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Simple Online and Realtime Tracking Explained | Term Definition
+  title: "Simple Online and Realtime Tracking Explained | Term Definition"
   description: A lightweight multi-object tracking algorithm based on Kalman filter and Hungarian algorithm.
   image: /logo.png
 permalink: /en/glossary/observation/simple-online-and-realtime-tracking/

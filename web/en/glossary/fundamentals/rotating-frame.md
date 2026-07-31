@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Rotating Frame Explained | Term Definition
+  title: "Rotating Frame Explained | Term Definition"
   description: A reference frame centered at the barycenter of the two primary bodies, co-rotating with the line connecting them. In the rotating frame, both primary bodies are fixed, libration points are stationary, and the equations of motion are time-periodic, making it the standard reference framework for studying the restricted three-body problem. The paper establishes the Sun-Earth system equations of motion in an Earth-centered rotating frame.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Rotating Frame Explained | Term Definition
+  title: "Rotating Frame Explained | Term Definition"
   description: A reference frame centered at the barycenter of the two primary bodies, co-rotating with the line connecting them. In the rotating frame, both primary bodies are fixed, libration points are stationary, and the equations of motion are time-periodic, making it the standard reference framework for studying the restricted three-body problem. The paper establishes the Sun-Earth system equations of motion in an Earth-centered rotating frame.
   image: /logo.png
 permalink: /en/glossary/fundamentals/rotating-frame/

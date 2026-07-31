@@ -1,6 +1,6 @@
 ---
 title: Deep Space Gateway
-description: NASA's proposed crewed lunar space station concept to extend human long-term activity in cislunar space.
+description: "NASA's proposed crewed lunar space station concept to extend human long-term activity in cislunar space."
 keywords: Deep Space Gateway
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Space Gateway Explained | Term Definition
-  description: NASA's proposed crewed lunar space station concept to extend human long-term activity in cislunar space.
+  title: "Deep Space Gateway Explained | Term Definition"
+  description: "NASA's proposed crewed lunar space station concept to extend human long-term activity in cislunar space."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Space Gateway Explained | Term Definition
-  description: NASA's proposed crewed lunar space station concept to extend human long-term activity in cislunar space.
+  title: "Deep Space Gateway Explained | Term Definition"
+  description: "NASA's proposed crewed lunar space station concept to extend human long-term activity in cislunar space."
   image: /logo.png
 permalink: /en/glossary/programs/deep-space-gateway/
 ---

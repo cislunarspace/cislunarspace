@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adaptive Trajectory Design Explained | Term Definition
+  title: "Adaptive Trajectory Design Explained | Term Definition"
   description: An interactive trajectory design environment developed at Purdue University. It allows periodic orbits and transfer arcs selected from the reference catalog to 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adaptive Trajectory Design Explained | Term Definition
+  title: "Adaptive Trajectory Design Explained | Term Definition"
   description: An interactive trajectory design environment developed at Purdue University. It allows periodic orbits and transfer arcs selected from the reference catalog to 
   image: /logo.png
 permalink: /en/glossary/other/atd/

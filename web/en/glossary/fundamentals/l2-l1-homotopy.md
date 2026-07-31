@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L2-L1 Homotopy Explained | Term Definition
+  title: "L2-L1 Homotopy Explained | Term Definition"
   description: 一种连接能量最小化（L2范数）和最小燃料（L1范数）问题的同伦延拓方法。通过对两个代价函数取凸组合作为同伦族，从光滑的能量最小化解出发，逐步过渡到bang-bang结构的最小燃料解。缺点是在低推力下控制切换次数剧增，射方程精度恶化。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L2-L1 Homotopy Explained | Term Definition
+  title: "L2-L1 Homotopy Explained | Term Definition"
   description: 一种连接能量最小化（L2范数）和最小燃料（L1范数）问题的同伦延拓方法。通过对两个代价函数取凸组合作为同伦族，从光滑的能量最小化解出发，逐步过渡到bang-bang结构的最小燃料解。缺点是在低推力下控制切换次数剧增，射方程精度恶化。
   image: /logo.png
 permalink: /en/glossary/fundamentals/l2-l1-homotopy/

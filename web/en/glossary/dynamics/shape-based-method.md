@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Shape-Based Method Explained | Term Definition
+  title: "Shape-Based Method Explained | Term Definition"
   description: A class of approximate trajectory design methods that use predefined analytical functions (e.g., exponential sinusoids, polynomials, equinoctial elements) to re
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shape-Based Method Explained | Term Definition
+  title: "Shape-Based Method Explained | Term Definition"
   description: A class of approximate trajectory design methods that use predefined analytical functions (e.g., exponential sinusoids, polynomials, equinoctial elements) to re
   image: /logo.png
 permalink: /en/glossary/dynamics/shape-based-method/

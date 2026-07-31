@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobian Matrix Explained | Term Definition
+  title: "Jacobian Matrix Explained | Term Definition"
   description: A matrix composed of partial derivatives of multivariable functions, describing the local linear mapping from one vector space to another.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobian Matrix Explained | Term Definition
+  title: "Jacobian Matrix Explained | Term Definition"
   description: A matrix composed of partial derivatives of multivariable functions, describing the local linear mapping from one vector space to another.
   image: /logo.png
 permalink: /en/glossary/fundamentals/jacobian-matrix/

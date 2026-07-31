@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ant Colony Optimization Explained | Term Definition
+  title: "Ant Colony Optimization Explained | Term Definition"
   description: A swarm-intelligence metaheuristic optimization algorithm proposed by Dorigo et al. A population of search agents explores the solution space simultaneously,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ant Colony Optimization Explained | Term Definition
+  title: "Ant Colony Optimization Explained | Term Definition"
   description: A swarm-intelligence metaheuristic optimization algorithm proposed by Dorigo et al. A population of search agents explores the solution space simultaneously,...
   image: /logo.png
 permalink: /en/glossary/other/ant-colony-optimization/

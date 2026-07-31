@@ -1,23 +1,23 @@
 ---
-title: Newton's Iteration Method
-description: Basic principles of Newton's iteration method, its application in trajectory design, and partial derivative computation methods
-keywords: Newton's Iteration Method, Newton-Raphson Method, Trajectory Design, Nonlinear Equation Solver
+title: "Newton's Iteration Method"
+description: "Basic principles of Newton's iteration method, its application in trajectory design, and partial derivative computation methods"
+keywords: "Newton's Iteration Method, Newton-Raphson Method, Trajectory Design, Nonlinear Equation Solver"
 author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
-  title: Newton's Iteration Method
+  title: "Newton's Iteration Method"
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Newton's Iteration Method | Terminology Definition
-  description: Basic principles and application of Newton's iteration method in trajectory design
+  title: "Newton's Iteration Method | Terminology Definition"
+  description: "Basic principles and application of Newton's iteration method in trajectory design"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Newton's Iteration Method | Terminology Definition
-  description: Basic principles and application of Newton's iteration method in trajectory design
+  title: "Newton's Iteration Method | Terminology Definition"
+  description: "Basic principles and application of Newton's iteration method in trajectory design"
   image: /logo.png
 permalink: /en/glossary/fundamentals/newton-iteration-method/
 ---

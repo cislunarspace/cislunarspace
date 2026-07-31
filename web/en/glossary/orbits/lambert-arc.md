@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert Arc Explained | Term Definition
+  title: "Lambert Arc Explained | Term Definition"
   description: In the 4-maneuver far rendezvous refinement, an arc computed in the CR3BP that connects the end points of unstable and stable manifolds.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert Arc Explained | Term Definition
+  title: "Lambert Arc Explained | Term Definition"
   description: In the 4-maneuver far rendezvous refinement, an arc computed in the CR3BP that connects the end points of unstable and stable manifolds.
   image: /logo.png
 permalink: /en/glossary/orbits/lambert-arc/

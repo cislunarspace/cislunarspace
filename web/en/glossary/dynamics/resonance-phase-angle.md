@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonance Phase Angle (σ) Explained | Term Definition
+  title: "Resonance Phase Angle (σ) Explained | Term Definition"
   description: An angle variable in mean motion resonance that characterizes the relative geometric position of the spacecraft with respect to the Moon. Obtained through canon
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonance Phase Angle (σ) Explained | Term Definition
+  title: "Resonance Phase Angle (σ) Explained | Term Definition"
   description: An angle variable in mean motion resonance that characterizes the relative geometric position of the spacecraft with respect to the Moon. Obtained through canon
   image: /logo.png
 permalink: /en/glossary/dynamics/resonance-phase-angle/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Synodic Period Explained | Term Definition
+  title: "Solar Synodic Period Explained | Term Definition"
   description: In the Earth-Moon rotating frame, the time for the Sun to complete one full cycle relative to the Earth-Moon line. The ratio T_sun/T_m is approximately 1.0809. 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Synodic Period Explained | Term Definition
+  title: "Solar Synodic Period Explained | Term Definition"
   description: In the Earth-Moon rotating frame, the time for the Sun to complete one full cycle relative to the Earth-Moon line. The ratio T_sun/T_m is approximately 1.0809. 
   image: /logo.png
 permalink: /en/glossary/observation/T_sun/

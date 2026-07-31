@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Coasting Arc Explained | Low-Thrust Orbit Control Strategy
+  title: "Coasting Arc Explained | Low-Thrust Orbit Control Strategy"
   description: Analysis of the coasting arc concept and its propellant-time trade-off role in low-thrust orbit transfer
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coasting Arc Explained | Low-Thrust Orbit Control Strategy
+  title: "Coasting Arc Explained | Low-Thrust Orbit Control Strategy"
   description: Analysis of the coasting arc role in low-thrust orbit transfer
   image: /logo.png
 permalink: /en/glossary/dynamics/coasting-arc/

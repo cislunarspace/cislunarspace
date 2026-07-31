@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Cislunar Moving Objects Explained | Cislunar Space Observation
+  title: "Cislunar Moving Objects Explained | Cislunar Space Observation"
   description: Detailed explanation of cislunar moving objects including definition, motion characteristics, observation challenges, and applications in space situational awareness
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Moving Objects Explained | Cislunar Space Observation
+  title: "Cislunar Moving Objects Explained | Cislunar Space Observation"
   description: Detailed explanation of cislunar moving objects including definition, motion characteristics, observation challenges, and applications in space situational awareness
   image: /logo.png
 permalink: /en/glossary/observation/cislunar-moving-objects/

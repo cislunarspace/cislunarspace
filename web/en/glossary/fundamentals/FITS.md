@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flexible Image Transport System Explained | Term Definition
+  title: "Flexible Image Transport System Explained | Term Definition"
   description: The standard data exchange format in astronomy, supporting storage and transmission of images, spectra, and tabular data. Files contain header information descr
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flexible Image Transport System Explained | Term Definition
+  title: "Flexible Image Transport System Explained | Term Definition"
   description: The standard data exchange format in astronomy, supporting storage and transmission of images, spectra, and tabular data. Files contain header information descr
   image: /logo.png
 permalink: /en/glossary/fundamentals/FITS/

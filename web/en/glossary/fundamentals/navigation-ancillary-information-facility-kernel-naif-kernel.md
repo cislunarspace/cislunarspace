@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Navigation Ancillary Information Facility Kernel, NAIF Kernel (NAIF) Explained | Term Definition
+  title: "Navigation Ancillary Information Facility Kernel, NAIF Kernel (NAIF) Explained | Term Definition"
   description: NASA-provided ephemeris file format containing planetary and spacecraft position and velocity information, used in high-fidelity dynamical models.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Navigation Ancillary Information Facility Kernel, NAIF Kernel (NAIF) Explained | Term Definition
+  title: "Navigation Ancillary Information Facility Kernel, NAIF Kernel (NAIF) Explained | Term Definition"
   description: NASA-provided ephemeris file format containing planetary and spacecraft position and velocity information, used in high-fidelity dynamical models.
   image: /logo.png
 permalink: /en/glossary/fundamentals/navigation-ancillary-information-facility-kernel-naif-kernel/

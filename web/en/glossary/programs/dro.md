@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Distant Retrograde Orbit Service Station Explained | Term Definition
+  title: "Distant Retrograde Orbit Service Station Explained | Term Definition"
   description: An on-orbit refueling facility built on a lunar distant retrograde orbit (DRO), receiving transport vehicles from LEO service stations for propellant transfer. 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Distant Retrograde Orbit Service Station Explained | Term Definition
+  title: "Distant Retrograde Orbit Service Station Explained | Term Definition"
   description: An on-orbit refueling facility built on a lunar distant retrograde orbit (DRO), receiving transport vehicles from LEO service stations for propellant transfer. 
   image: /logo.png
 permalink: /en/glossary/programs/dro/

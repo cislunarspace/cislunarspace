@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Patchpoint Explained | Term Definition
+  title: "Patchpoint Explained | Term Definition"
   description: In multiple-shooting, the connection point between adjacent trajectory arcs after discretization.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Patchpoint Explained | Term Definition
+  title: "Patchpoint Explained | Term Definition"
   description: In multiple-shooting, the connection point between adjacent trajectory arcs after discretization.
   image: /logo.png
 permalink: /en/glossary/dynamics/patchpoint/

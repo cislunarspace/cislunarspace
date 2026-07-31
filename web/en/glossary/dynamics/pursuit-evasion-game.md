@@ -10,13 +10,13 @@ author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Spacecraft Pursuit-Evasion Game | Orbital Dynamics
+  title: "Spacecraft Pursuit-Evasion Game | Orbital Dynamics"
   description: Studies the dynamics of adversarial maneuvering between pursuing and evading spacecraft, applied to space security situational awareness
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spacecraft Pursuit-Evasion Game | Orbital Dynamics
+  title: "Spacecraft Pursuit-Evasion Game | Orbital Dynamics"
   description: Studies the dynamics of adversarial maneuvering between pursuing and evading spacecraft, applied to space security situational awareness
   image: /logo.png
 permalink: /en/glossary/dynamics/pursuit-evasion-game/

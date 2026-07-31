@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial Condition Sensitivity Explained | Term Definition
+  title: "Initial Condition Sensitivity Explained | Term Definition"
   description: "The degree to which insertion precision affects formation maintenance capability. Near triangular libration points, most formations require extremely stringent"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial Condition Sensitivity Explained | Term Definition
+  title: "Initial Condition Sensitivity Explained | Term Definition"
   description: "The degree to which insertion precision affects formation maintenance capability. Near triangular libration points, most formations require extremely stringent"
   image: /logo.png
 permalink: /en/glossary/dynamics/initial-condition-sensitivity/

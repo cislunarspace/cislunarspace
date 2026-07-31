@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Engine Limitation Explained | Term Definition
+  title: "Engine Limitation Explained | Term Definition"
   description: Physical constraints of the thruster on control commands, including minimum thrust (ignition threshold) and maximum thrust (output ceiling).
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Engine Limitation Explained | Term Definition
+  title: "Engine Limitation Explained | Term Definition"
   description: Physical constraints of the thruster on control commands, including minimum thrust (ignition threshold) and maximum thrust (output ceiling).
   image: /logo.png
 permalink: /en/glossary/navigation/engine-limitation/

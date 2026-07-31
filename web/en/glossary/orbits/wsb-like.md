@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary-like Ballistic Transfer, WSB-like Explained | Term Definition
+  title: "Weak Stability Boundary-like Ballistic Transfer, WSB-like Explained | Term Definition"
   description: A ballistic transfer method that uses solar gravity assist to achieve low-energy Earth-Moon transfer, distinct from the WSB concept of lunar gravitational captu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary-like Ballistic Transfer, WSB-like Explained | Term Definition
+  title: "Weak Stability Boundary-like Ballistic Transfer, WSB-like Explained | Term Definition"
   description: A ballistic transfer method that uses solar gravity assist to achieve low-energy Earth-Moon transfer, distinct from the WSB concept of lunar gravitational captu
   image: /logo.png
 permalink: /en/glossary/orbits/wsb-like/

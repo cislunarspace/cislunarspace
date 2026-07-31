@@ -1,6 +1,6 @@
 ---
 title: Synodic Resonance
-description: An integer-ratio relationship between a periodic orbit's period and the synodic period of the central body. For example, a 9:2 synodic resonance of a cislunar L2 NRHO means the orbit completes 9 re...
+description: "An integer-ratio relationship between a periodic orbit's period and the synodic period of the central body. For example, a 9:2 synodic resonance of a cislunar L2 NRHO means the orbit completes 9 re..."
 keywords: Synodic Resonance, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Resonance Explained | Term Definition
-  description: An integer-ratio relationship between a periodic orbit's period and the synodic period of the central body. For example, a 9:2 synodic resonance of a cislunar L2 NRHO means the orbit completes 9 re...
+  title: "Synodic Resonance Explained | Term Definition"
+  description: "An integer-ratio relationship between a periodic orbit's period and the synodic period of the central body. For example, a 9:2 synodic resonance of a cislunar L2 NRHO means the orbit completes 9 re..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Resonance Explained | Term Definition
-  description: An integer-ratio relationship between a periodic orbit's period and the synodic period of the central body. For example, a 9:2 synodic resonance of a cislunar L2 NRHO means the orbit completes 9 re...
+  title: "Synodic Resonance Explained | Term Definition"
+  description: "An integer-ratio relationship between a periodic orbit's period and the synodic period of the central body. For example, a 9:2 synodic resonance of a cislunar L2 NRHO means the orbit completes 9 re..."
   image: /logo.png
 permalink: /en/glossary/orbits/synodic-resonance/
 ---

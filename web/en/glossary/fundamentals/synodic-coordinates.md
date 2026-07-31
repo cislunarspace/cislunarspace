@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Coordinates Explained | Term Definition
+  title: "Synodic Coordinates Explained | Term Definition"
   description: A reference frame rotating with the two-body system, with the x-axis along the line connecting the two bodies.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Coordinates Explained | Term Definition
+  title: "Synodic Coordinates Explained | Term Definition"
   description: A reference frame rotating with the two-body system, with the x-axis along the line connecting the two bodies.
   image: /logo.png
 permalink: /en/glossary/fundamentals/synodic-coordinates/

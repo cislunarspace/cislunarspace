@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near-Moon Periodic Orbit Explained | Term Definition
+  title: "Near-Moon Periodic Orbit Explained | Term Definition"
   description: A collective term for periodic orbits near the Moon in the three-body problem, including Halo orbit families, Lyapunov orbit families, distant retrograde orbits
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-Moon Periodic Orbit Explained | Term Definition
+  title: "Near-Moon Periodic Orbit Explained | Term Definition"
   description: A collective term for periodic orbits near the Moon in the three-body problem, including Halo orbit families, Lyapunov orbit families, distant retrograde orbits
   image: /logo.png
 permalink: /en/glossary/orbits/near-moon-periodic-orbit/

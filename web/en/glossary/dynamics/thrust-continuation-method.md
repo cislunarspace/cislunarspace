@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Continuation Method Explained | Term Definition
+  title: "Thrust Continuation Method Explained | Term Definition"
   description: An iterative strategy that starts from a high thrust level and progressively reduces the thrust ceiling, using the previous optimal trajectory as the initial gu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Continuation Method Explained | Term Definition
+  title: "Thrust Continuation Method Explained | Term Definition"
   description: An iterative strategy that starts from a high thrust level and progressively reduces the thrust ceiling, using the previous optimal trajectory as the initial gu
   image: /logo.png
 permalink: /en/glossary/dynamics/thrust-continuation-method/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dual Navigation Satellite Scheme Explained | Term Definition
+  title: "Dual Navigation Satellite Scheme Explained | Term Definition"
   description: A constellation configuration that deploys two navigation satellites on the same halo orbit with initial phases 180 degrees apart. It addresses the insuffici...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dual Navigation Satellite Scheme Explained | Term Definition
+  title: "Dual Navigation Satellite Scheme Explained | Term Definition"
   description: A constellation configuration that deploys two navigation satellites on the same halo orbit with initial phases 180 degrees apart. It addresses the insuffici...
   image: /logo.png
 permalink: /en/glossary/navigation/dual-navigation-satellite-scheme/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Equivalent Isotropically Radiated Power Explained | Term Definition
+  title: "Equivalent Isotropically Radiated Power Explained | Term Definition"
   description: The sum of transmitter antenna gain and transmitter power (in dB), representing the equivalent power an isotropic antenna would need to radiate in the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Equivalent Isotropically Radiated Power Explained | Term Definition
+  title: "Equivalent Isotropically Radiated Power Explained | Term Definition"
   description: The sum of transmitter antenna gain and transmitter power (in dB), representing the equivalent power an isotropic antenna would need to radiate in the...
   image: /logo.png
 permalink: /en/glossary/navigation/equivalent-isotropically-radiated-power/

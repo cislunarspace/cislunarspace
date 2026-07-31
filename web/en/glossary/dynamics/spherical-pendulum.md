@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spherical Pendulum Explained | Term Definition
+  title: "Spherical Pendulum Explained | Term Definition"
   description: An example of an integrable Hamiltonian system where a particle moves constrained on a sphere.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spherical Pendulum Explained | Term Definition
+  title: "Spherical Pendulum Explained | Term Definition"
   description: An example of an integrable Hamiltonian system where a particle moves constrained on a sphere.
   image: /logo.png
 permalink: /en/glossary/dynamics/spherical-pendulum/

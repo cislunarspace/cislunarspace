@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: James Webb Space Telescope, JWST Explained | Term Definition
+  title: "James Webb Space Telescope, JWST Explained | Term Definition"
   description: Space telescope launched in 2021 by the US, operating in a Sun-Earth L₂ halo orbit; used as validation target for proximity operations and servicing scenarios...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: James Webb Space Telescope, JWST Explained | Term Definition
+  title: "James Webb Space Telescope, JWST Explained | Term Definition"
   description: Space telescope launched in 2021 by the US, operating in a Sun-Earth L₂ halo orbit; used as validation target for proximity operations and servicing scenarios...
   image: /logo.png
 permalink: /en/glossary/observation/james-webb-space-telescope-jwst/

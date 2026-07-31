@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Access Region, EA Region Explained | Term Definition
+  title: "Earth Access Region, EA Region Explained | Term Definition"
   description: An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Access Region, EA Region Explained | Term Definition
+  title: "Earth Access Region, EA Region Explained | Term Definition"
   description: An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment
   image: /logo.png
 permalink: /en/glossary/dynamics/EA/

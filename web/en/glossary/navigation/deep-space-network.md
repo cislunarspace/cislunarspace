@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Space Network Explained | Term Definition
+  title: "Deep Space Network Explained | Term Definition"
   description: A global deep space tracking and communication network operated by NASA, consisting of three Deep Space Complexes located in Madrid (Spain), Canberra (Australia
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Space Network Explained | Term Definition
+  title: "Deep Space Network Explained | Term Definition"
   description: A global deep space tracking and communication network operated by NASA, consisting of three Deep Space Complexes located in Madrid (Spain), Canberra (Australia
   image: /logo.png
 permalink: /en/glossary/navigation/deep-space-network/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial Basis Function Kernel, RBF Kernel Explained | Term Definition
+  title: "Radial Basis Function Kernel, RBF Kernel Explained | Term Definition"
   description: A kernel function in SVM that acts as a similarity measure.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial Basis Function Kernel, RBF Kernel Explained | Term Definition
+  title: "Radial Basis Function Kernel, RBF Kernel Explained | Term Definition"
   description: A kernel function in SVM that acts as a similarity measure.
   image: /logo.png
 permalink: /en/glossary/navigation/radial-basis-function-kernel-rbf-kernel/

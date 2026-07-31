@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Segment Explained | Term Definition
+  title: "Geocentric Segment Explained | Term Definition"
   description: The geocentric dynamic flight segment of Earth-Moon transfer trajectory, from Earth orbit to the EML1 libration point where it joins the selenocentric segment.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Segment Explained | Term Definition
+  title: "Geocentric Segment Explained | Term Definition"
   description: The geocentric dynamic flight segment of Earth-Moon transfer trajectory, from Earth orbit to the EML1 libration point where it joins the selenocentric segment.
   image: /logo.png
 permalink: /en/glossary/orbits/geocentric-segment/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Blended CR3BP Explained | Term Definition
+  title: "Blended CR3BP Explained | Term Definition"
   description: A method to model a four-body system by overlapping two circular restricted three-body problems (Sun–Earth and Earth–Moon) at their common body.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Blended CR3BP Explained | Term Definition
+  title: "Blended CR3BP Explained | Term Definition"
   description: A method to model a four-body system by overlapping two circular restricted three-body problems (Sun–Earth and Earth–Moon) at their common body.
   image: /logo.png
 permalink: /en/glossary/dynamics/blended-cr3bp/

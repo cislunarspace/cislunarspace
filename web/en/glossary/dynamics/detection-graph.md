@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Detection Graph Details | Graph Theory Tool in Space Situational Awareness
+  title: "Detection Graph Details | Graph Theory Tool in Space Situational Awareness"
   description: Detection graph models visibility relationships between celestial bodies and sensors in space situational awareness
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Detection Graph Details | Graph Theory Tool in Space Situational Awareness
+  title: "Detection Graph Details | Graph Theory Tool in Space Situational Awareness"
   description: Detection graph models visibility relationships between celestial bodies and sensors in space situational awareness
   image: /logo.png
 permalink: /en/glossary/dynamics/detection-graph/

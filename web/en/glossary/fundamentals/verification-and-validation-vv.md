@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Verification and Validation, V&V Explained | Term Definition
+  title: "Verification and Validation, V&V Explained | Term Definition"
   description: 评估制导和控制算法性能与鲁棒性的系统性方法，包括设计度量指标和相应的验证手段。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Verification and Validation, V&V Explained | Term Definition
+  title: "Verification and Validation, V&V Explained | Term Definition"
   description: 评估制导和控制算法性能与鲁棒性的系统性方法，包括设计度量指标和相应的验证手段。
   image: /logo.png
 permalink: /en/glossary/fundamentals/verification-and-validation-vv/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homoclinic Phasing Explained | Term Definition
+  title: "Homoclinic Phasing Explained | Term Definition"
   description: An indirect phasing strategy that uses homoclinic transfer trajectories of libration point orbits to achieve phase adjustment. The spacecraft enters a homoclini
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homoclinic Phasing Explained | Term Definition
+  title: "Homoclinic Phasing Explained | Term Definition"
   description: An indirect phasing strategy that uses homoclinic transfer trajectories of libration point orbits to achieve phase adjustment. The spacecraft enters a homoclini
   image: /logo.png
 permalink: /en/glossary/dynamics/homoclinic-phasing/

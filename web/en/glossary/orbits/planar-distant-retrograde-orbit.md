@@ -1,6 +1,6 @@
 ---
 title: Planar Distant Retrograde Orbit
-description: Large-eccentricity retrograde periodic orbits within the Moon's orbital plane, appearing teardrop-shaped in the rotating frame. DROs are linearly stable and commonly used as target orbits in lunar missions.
+description: "Large-eccentricity retrograde periodic orbits within the Moon's orbital plane, appearing teardrop-shaped in the rotating frame. DROs are linearly stable and commonly used as target orbits in lunar missions."
 keywords: Planar Distant Retrograde Orbit, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Distant Retrograde Orbit Explained | Term Definition
-  description: Large-eccentricity retrograde periodic orbits within the Moon's orbital plane, appearing teardrop-shaped in the rotating frame. DROs are linearly stable and commonly used as target orbits in lunar missions.
+  title: "Planar Distant Retrograde Orbit Explained | Term Definition"
+  description: "Large-eccentricity retrograde periodic orbits within the Moon's orbital plane, appearing teardrop-shaped in the rotating frame. DROs are linearly stable and commonly used as target orbits in lunar missions."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Distant Retrograde Orbit Explained | Term Definition
-  description: Large-eccentricity retrograde periodic orbits within the Moon's orbital plane, appearing teardrop-shaped in the rotating frame. DROs are linearly stable and commonly used as target orbits in lunar missions.
+  title: "Planar Distant Retrograde Orbit Explained | Term Definition"
+  description: "Large-eccentricity retrograde periodic orbits within the Moon's orbital plane, appearing teardrop-shaped in the rotating frame. DROs are linearly stable and commonly used as target orbits in lunar missions."
   image: /logo.png
 permalink: /en/glossary/orbits/planar-distant-retrograde-orbit/
 ---

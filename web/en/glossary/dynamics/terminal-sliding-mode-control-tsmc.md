@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Terminal Sliding Mode Control, TSMC Explained | Term Definition
+  title: "Terminal Sliding Mode Control, TSMC Explained | Term Definition"
   description: A variable structure control method incorporating nonlinear terms into the conventional sliding surface. The sliding surface s = ė + c·sig^α(e) with α ∈ (0,1...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Terminal Sliding Mode Control, TSMC Explained | Term Definition
+  title: "Terminal Sliding Mode Control, TSMC Explained | Term Definition"
   description: A variable structure control method incorporating nonlinear terms into the conventional sliding surface. The sliding surface s = ė + c·sig^α(e) with α ∈ (0,1...
   image: /logo.png
 permalink: /en/glossary/dynamics/terminal-sliding-mode-control-tsmc/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Force Employment | Space Force Operations
+  title: "Force Employment | Space Force Operations"
   description: Force Employment encapsulates the planning, force management, and decision making required to fulfill military objectives.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Force Employment | Space Force Operations
+  title: "Force Employment | Space Force Operations"
   description: Force Employment encapsulates the planning, force management, and decision making required to fulfill military objectives.
   image: /logo.png
 permalink: /en/glossary/doctrine/force-employment/

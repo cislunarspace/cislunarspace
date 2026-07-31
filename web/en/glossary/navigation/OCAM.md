@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Collision Avoidance Manoeuvre, OCAM Explained | Term Definition
+  title: "Optimal Collision Avoidance Manoeuvre, OCAM Explained | Term Definition"
   description: A single-burn collision avoidance scheme executed inside the KOZ. Optimized to push the closest approach vector outside the safety boundary with minimum delta-V
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Collision Avoidance Manoeuvre, OCAM Explained | Term Definition
+  title: "Optimal Collision Avoidance Manoeuvre, OCAM Explained | Term Definition"
   description: A single-burn collision avoidance scheme executed inside the KOZ. Optimized to push the closest approach vector outside the safety boundary with minimum delta-V
   image: /logo.png
 permalink: /en/glossary/navigation/OCAM/

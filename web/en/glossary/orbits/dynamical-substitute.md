@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamical Substitute Explained | Term Definition
+  title: "Dynamical Substitute Explained | Term Definition"
   description: In the real Earth-Moon system, collinear libration points are no longer equilibrium points due to perturbations from lunar orbital eccentricity and solar gravit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamical Substitute Explained | Term Definition
+  title: "Dynamical Substitute Explained | Term Definition"
   description: In the real Earth-Moon system, collinear libration points are no longer equilibrium points due to perturbations from lunar orbital eccentricity and solar gravit
   image: /logo.png
 permalink: /en/glossary/orbits/dynamical-substitute/

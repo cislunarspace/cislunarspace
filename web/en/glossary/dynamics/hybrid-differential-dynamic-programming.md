@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hybrid Differential Dynamic Programming Explained | Term Definition
+  title: "Hybrid Differential Dynamic Programming Explained | Term Definition"
   description: A nonlinear optimal control algorithm that extends Differential Dynamic Programming (DDP) with a trust region method and a range-space active set method for constraint handling. It iterates between ba...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hybrid Differential Dynamic Programming Explained | Term Definition
+  title: "Hybrid Differential Dynamic Programming Explained | Term Definition"
   description: A nonlinear optimal control algorithm that extends Differential Dynamic Programming (DDP) with a trust region method and a range-space active set method for constraint handling. It iterates between ba...
   image: /logo.png
 permalink: /en/glossary/dynamics/hybrid-differential-dynamic-programming/

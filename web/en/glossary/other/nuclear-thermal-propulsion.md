@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tools.
   image: /logo.png
 og:
-  title: Nuclear Thermal Propulsion (NTP) | Deep Space Propulsion Technology
+  title: "Nuclear Thermal Propulsion (NTP) | Deep Space Propulsion Technology"
   description: Detailed analysis of NTP fundamentals, technical differences between solid-core and liquid-core designs, and its application prospects in crewed deep space exploration
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nuclear Thermal Propulsion (NTP) | Deep Space Propulsion Technology
+  title: "Nuclear Thermal Propulsion (NTP) | Deep Space Propulsion Technology"
   description: Detailed analysis of NTP fundamentals, technical differences between solid-core and liquid-core designs, and its application prospects in crewed deep space exploration
   image: /logo.png
 permalink: /en/glossary/other/nuclear-thermal-propulsion/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Moon-Capture Spiral Explained | Term Definition
+  title: "Moon-Capture Spiral Explained | Term Definition"
   description: "The flight phase after the spacecraft enters the moon's gravitational dominance, where continuous low-thrust gradually shrinks the spiral orbit until capture in"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Moon-Capture Spiral Explained | Term Definition
+  title: "Moon-Capture Spiral Explained | Term Definition"
   description: "The flight phase after the spacecraft enters the moon's gravitational dominance, where continuous low-thrust gradually shrinks the spiral orbit until capture in"
   image: /logo.png
 permalink: /en/glossary/orbits/moon-capture-spiral/

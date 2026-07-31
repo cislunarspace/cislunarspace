@@ -1,6 +1,6 @@
 ---
 title: Terrestrial Time, TT
-description: The geocentric coordinate time defined by IAU, measured by an ideal clock on the Earth's surface. TT is the fundamental time scale for ground-based cislunar ...
+description: "The geocentric coordinate time defined by IAU, measured by an ideal clock on the Earth's surface. TT is the fundamental time scale for ground-based cislunar ..."
 keywords: Terrestrial Time, TT, TT
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Terrestrial Time, TT Explained | Term Definition
-  description: The geocentric coordinate time defined by IAU, measured by an ideal clock on the Earth's surface. TT is the fundamental time scale for ground-based cislunar ...
+  title: "Terrestrial Time, TT Explained | Term Definition"
+  description: "The geocentric coordinate time defined by IAU, measured by an ideal clock on the Earth's surface. TT is the fundamental time scale for ground-based cislunar ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Terrestrial Time, TT Explained | Term Definition
-  description: The geocentric coordinate time defined by IAU, measured by an ideal clock on the Earth's surface. TT is the fundamental time scale for ground-based cislunar ...
+  title: "Terrestrial Time, TT Explained | Term Definition"
+  description: "The geocentric coordinate time defined by IAU, measured by an ideal clock on the Earth's surface. TT is the fundamental time scale for ground-based cislunar ..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/terrestrial-time-tt/
 ---

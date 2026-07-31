@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trajectory Correction Maneuver (TCM) Explained | Term Definition
+  title: "Trajectory Correction Maneuver (TCM) Explained | Term Definition"
   description: Multiple small delta-V maneuvers performed during transfer to correct navigation errors, control errors, and other deviations. In PRM, the TCM plan includes fiv
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trajectory Correction Maneuver (TCM) Explained | Term Definition
+  title: "Trajectory Correction Maneuver (TCM) Explained | Term Definition"
   description: Multiple small delta-V maneuvers performed during transfer to correct navigation errors, control errors, and other deviations. In PRM, the TCM plan includes fiv
   image: /logo.png
 permalink: /en/glossary/navigation/trajectory-correction-maneuver/

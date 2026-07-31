@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Kalman Filter (KMF) Explained | Term Definition
+  title: "Linear Kalman Filter (KMF) Explained | Term Definition"
   description: A Kalman filter based on a linear system model and state transition matrix. The prediction step advances states using matrix exponential, and the update step fuses measurement data to correct state...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Kalman Filter (KMF) Explained | Term Definition
+  title: "Linear Kalman Filter (KMF) Explained | Term Definition"
   description: A Kalman filter based on a linear system model and state transition matrix. The prediction step advances states using matrix exponential, and the update step fuses measurement data to correct state...
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-kalman-filter/

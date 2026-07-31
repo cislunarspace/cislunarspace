@@ -1,6 +1,6 @@
 ---
 title: Lockheed Martin
-description: Introduction to Lockheed Martin's Gateway, DRACO nuclear thermal propulsion, and cislunar space mission business
+description: "Introduction to Lockheed Martin's Gateway, DRACO nuclear thermal propulsion, and cislunar space mission business"
 keywords: Lockheed Martin, Gateway, DRACO, nuclear thermal propulsion, cislunar space, deep space exploration
 author: Tianjiang Shuo
 date: 2026-04-26
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Lockheed Martin
-  description: Introduction to Lockheed Martin's Gateway and nuclear thermal propulsion business
+  description: "Introduction to Lockheed Martin's Gateway and nuclear thermal propulsion business"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Lockheed Martin
-  description: Introduction to Lockheed Martin's Gateway and nuclear thermal propulsion business
+  description: "Introduction to Lockheed Martin's Gateway and nuclear thermal propulsion business"
   image: /logo.png
 permalink: /en/glossary/organizations/lockheed-martin/
 ---

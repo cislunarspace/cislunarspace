@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unstable Mode Cancellation Explained | Term Definition
+  title: "Unstable Mode Cancellation Explained | Term Definition"
   description: "A stationkeeping strategy for libration point orbits. It applies an impulsive delta-V along the unstable direction to cancel the unstable component of the traje"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unstable Mode Cancellation Explained | Term Definition
+  title: "Unstable Mode Cancellation Explained | Term Definition"
   description: "A stationkeeping strategy for libration point orbits. It applies an impulsive delta-V along the unstable direction to cancel the unstable component of the traje"
   image: /logo.png
 permalink: /en/glossary/dynamics/unstable-mode-cancellation/

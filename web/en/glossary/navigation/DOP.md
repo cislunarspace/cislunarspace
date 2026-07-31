@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dilution of Precision, DOP Explained | Term Definition
+  title: "Dilution of Precision, DOP Explained | Term Definition"
   description: A parameter describing how satellite geometry amplifies ranging errors into position errors. Wider satellite spatial distribution yields smaller DOP and higher 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dilution of Precision, DOP Explained | Term Definition
+  title: "Dilution of Precision, DOP Explained | Term Definition"
   description: A parameter describing how satellite geometry amplifies ranging errors into position errors. Wider satellite spatial distribution yields smaller DOP and higher 
   image: /logo.png
 permalink: /en/glossary/navigation/DOP/

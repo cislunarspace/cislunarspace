@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: NRHO Transfer Explained | Term Definition
+  title: "NRHO Transfer Explained | Term Definition"
   description: Orbit transfer whose destination or origin is a near-rectilinear halo orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: NRHO Transfer Explained | Term Definition
+  title: "NRHO Transfer Explained | Term Definition"
   description: Orbit transfer whose destination or origin is a near-rectilinear halo orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/nrho-transfer/

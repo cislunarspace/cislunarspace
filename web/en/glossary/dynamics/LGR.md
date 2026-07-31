@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Legendre-Gauss-Radau Points Explained | Term Definition
+  title: "Legendre-Gauss-Radau Points Explained | Term Definition"
   description: Orthogonal nodes used in pseudospectral discretization, mapping continuous time intervals to discrete nodes for numerical solution.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Legendre-Gauss-Radau Points Explained | Term Definition
+  title: "Legendre-Gauss-Radau Points Explained | Term Definition"
   description: Orthogonal nodes used in pseudospectral discretization, mapping continuous time intervals to discrete nodes for numerical solution.
   image: /logo.png
 permalink: /en/glossary/dynamics/LGR/

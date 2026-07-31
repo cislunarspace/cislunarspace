@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Stable Halo Orbit Family Explained | Term Definition
+  title: "Stable Halo Orbit Family Explained | Term Definition"
   description: The subset of a halo orbit family for which both stability indices nu1 and nu2 are real-valued with absolute value at most 1. These orbits can be maintained...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stable Halo Orbit Family Explained | Term Definition
+  title: "Stable Halo Orbit Family Explained | Term Definition"
   description: The subset of a halo orbit family for which both stability indices nu1 and nu2 are real-valued with absolute value at most 1. These orbits can be maintained...
   image: /logo.png
 permalink: /en/glossary/orbits/stable-halo-orbit-family/

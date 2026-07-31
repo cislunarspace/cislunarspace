@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point. Explained | Term Definition
+  title: "The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point. Explained | Term Definition"
   description: 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point. Explained | Term Definition
+  title: "The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point. Explained | Term Definition"
   description: 
   image: /logo.png
 permalink: /en/glossary/orbits/the-location-on-a-halo-orbit-where-the-spacecraft-transitions-from-the-transfer-trajectory-onto-the-/

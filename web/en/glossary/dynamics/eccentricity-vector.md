@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eccentricity Vector Explained | Term Definition
+  title: "Eccentricity Vector Explained | Term Definition"
   description: A vector pointing toward periapsis with magnitude equal to the orbit eccentricity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eccentricity Vector Explained | Term Definition
+  title: "Eccentricity Vector Explained | Term Definition"
   description: A vector pointing toward periapsis with magnitude equal to the orbit eccentricity.
   image: /logo.png
 permalink: /en/glossary/dynamics/eccentricity-vector/

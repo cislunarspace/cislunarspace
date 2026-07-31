@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Abnormal Extremal Explained | Term Definition
+  title: "Abnormal Extremal Explained | Term Definition"
   description: An extremal in the Pontryagin maximum principle for which the cost multiplier p0 equals zero. The cost functional then vanishes from the Hamiltonian, and the optimal control is determined solely by th...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Abnormal Extremal Explained | Term Definition
+  title: "Abnormal Extremal Explained | Term Definition"
   description: An extremal in the Pontryagin maximum principle for which the cost multiplier p0 equals zero. The cost functional then vanishes from the Hamiltonian, and the optimal control is determined solely by th...
   image: /logo.png
 permalink: /en/glossary/fundamentals/abnormal-extremal/

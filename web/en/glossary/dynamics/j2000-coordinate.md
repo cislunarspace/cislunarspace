@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: J2000 Geocentric Equatorial Coordinate System Explained | Orbital Dynamics Reference
+  title: "J2000 Geocentric Equatorial Coordinate System Explained | Orbital Dynamics Reference"
   description: Detailed analysis of J2000 definition, origin, reference plane, principal direction, and application in orbital dynamics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: J2000 Geocentric Equatorial Coordinate System Explained | Orbital Dynamics Reference
+  title: "J2000 Geocentric Equatorial Coordinate System Explained | Orbital Dynamics Reference"
   description: Detailed analysis of J2000 definition, origin, reference plane, principal direction, and application in orbital dynamics
   image: /logo.png
 permalink: /en/glossary/dynamics/j2000-coordinate/

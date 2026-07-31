@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Post-Newtonian Parameter, gamma Explained | Term Definition
+  title: "Post-Newtonian Parameter, gamma Explained | Term Definition"
   description: A dimensionless parameter in post-Newtonian approximation characterizing the curvature of space, predicted to be unity in general relativity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Post-Newtonian Parameter, gamma Explained | Term Definition
+  title: "Post-Newtonian Parameter, gamma Explained | Term Definition"
   description: A dimensionless parameter in post-Newtonian approximation characterizing the curvature of space, predicted to be unity in general relativity.
   image: /logo.png
 permalink: /en/glossary/fundamentals/post-newtonian-parameter-gamma/

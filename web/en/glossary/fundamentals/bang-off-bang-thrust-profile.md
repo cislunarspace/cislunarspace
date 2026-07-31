@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bang-off-Bang Thrust Profile Explained | Term Definition
+  title: "Bang-off-Bang Thrust Profile Explained | Term Definition"
   description: 最小燃料最优控制的典型推力规律：发动机要么全开（bang）、要么关机（off），不存在中间节流状态。这是最小燃料问题的固有特征，由庞特里亚金最小值原理推出。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bang-off-Bang Thrust Profile Explained | Term Definition
+  title: "Bang-off-Bang Thrust Profile Explained | Term Definition"
   description: 最小燃料最优控制的典型推力规律：发动机要么全开（bang）、要么关机（off），不存在中间节流状态。这是最小燃料问题的固有特征，由庞特里亚金最小值原理推出。
   image: /logo.png
 permalink: /en/glossary/fundamentals/bang-off-bang-thrust-profile/

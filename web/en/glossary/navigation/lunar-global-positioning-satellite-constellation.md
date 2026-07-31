@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Global Positioning Satellite Constellation Explained | Term Definition
+  title: "Lunar Global Positioning Satellite Constellation Explained | Term Definition"
   description: A constellation system of satellites in circumlunar orbit that provides real-time positioning and timing services to lunar surface users, analogous to GPS or Be
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Global Positioning Satellite Constellation Explained | Term Definition
+  title: "Lunar Global Positioning Satellite Constellation Explained | Term Definition"
   description: A constellation system of satellites in circumlunar orbit that provides real-time positioning and timing services to lunar surface users, analogous to GPS or Be
   image: /logo.png
 permalink: /en/glossary/navigation/lunar-global-positioning-satellite-constellation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Impulse Maneuver, TI Explained | Term Definition
+  title: "Two-Impulse Maneuver, TI Explained | Term Definition"
   description: Transfer strategy between collinear libration point orbits using two impulsive velocity changes, solved via State Transition Matrix.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Impulse Maneuver, TI Explained | Term Definition
+  title: "Two-Impulse Maneuver, TI Explained | Term Definition"
   description: Transfer strategy between collinear libration point orbits using two impulsive velocity changes, solved via State Transition Matrix.
   image: /logo.png
 permalink: /en/glossary/dynamics/Two-Impulse-Maneuver-TI/

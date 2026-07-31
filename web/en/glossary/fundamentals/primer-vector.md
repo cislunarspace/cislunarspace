@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Primer vector Explained | Term Definition
+  title: "Primer vector Explained | Term Definition"
   description: The vector p(t) = -λ_v(t) defined by Lawden, where λ_v is the velocity adjoint vector. It determines the optimal thrust direction (impulses are aligned with p) 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Primer vector Explained | Term Definition
+  title: "Primer vector Explained | Term Definition"
   description: The vector p(t) = -λ_v(t) defined by Lawden, where λ_v is the velocity adjoint vector. It determines the optimal thrust direction (impulses are aligned with p) 
   image: /logo.png
 permalink: /en/glossary/fundamentals/primer-vector/

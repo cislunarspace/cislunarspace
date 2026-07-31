@@ -1,6 +1,6 @@
 ---
 title: General Dynamics Mission Systems
-description: Introduction to General Dynamics Mission Systems' cislunar space communications, ground systems, and intelligence processing business
+description: "Introduction to General Dynamics Mission Systems' cislunar space communications, ground systems, and intelligence processing business"
 keywords: General Dynamics, GDMS, mission systems, communications, ground systems, SDA, space architecture
 author: Tianjiang Shuo
 date: 2026-04-26
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: General Dynamics Mission Systems
-  description: Introduction to General Dynamics Mission Systems' space communications and ground systems business
+  description: "Introduction to General Dynamics Mission Systems' space communications and ground systems business"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: General Dynamics Mission Systems
-  description: Introduction to General Dynamics Mission Systems' space communications and ground systems business
+  description: "Introduction to General Dynamics Mission Systems' space communications and ground systems business"
   image: /logo.png
 permalink: /en/glossary/organizations/general-dynamics-mission-systems/
 ---

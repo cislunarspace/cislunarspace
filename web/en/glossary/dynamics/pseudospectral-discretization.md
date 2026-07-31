@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudospectral Discretization Explained | Term Definition
+  title: "Pseudospectral Discretization Explained | Term Definition"
   description: Method that transforms continuous optimal control problems into finite-dimensional parameter optimization problems using high-order orthogonal nodes.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudospectral Discretization Explained | Term Definition
+  title: "Pseudospectral Discretization Explained | Term Definition"
   description: Method that transforms continuous optimal control problems into finite-dimensional parameter optimization problems using high-order orthogonal nodes.
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudospectral-discretization/

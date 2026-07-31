@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low Earth Orbit Service Station Explained | Term Definition
+  title: "Low Earth Orbit Service Station Explained | Term Definition"
   description: "An on-orbit refueling and vehicle turnover facility in low Earth orbit, serving as the origin and destination of airline-flight-mode cislunar round-trip transport. In this paper, it orbits at 350 km altitude with 35° inclination, subject to Earth's central gravity and J2 perturbation, with a 3-day docking duration. Transport vehicles refuel here before departing for the DRO service station, and return here for recovery and reuse."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low Earth Orbit Service Station Explained | Term Definition
+  title: "Low Earth Orbit Service Station Explained | Term Definition"
   description: "An on-orbit refueling and vehicle turnover facility in low Earth orbit, serving as the origin and destination of airline-flight-mode cislunar round-trip transport. In this paper, it orbits at 350 km altitude with 35° inclination, subject to Earth's central gravity and J2 perturbation, with a 3-day docking duration. Transport vehicles refuel here before departing for the DRO service station, and return here for recovery and reuse."
   image: /logo.png
 permalink: /en/glossary/programs/low-earth-orbit-service-station/

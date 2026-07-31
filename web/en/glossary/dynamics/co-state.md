@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Co-state Explained | Term Definition
+  title: "Co-state Explained | Term Definition"
   description: Variables conjugate to the state in optimal control, used to enforce optimality constraints.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Co-state Explained | Term Definition
+  title: "Co-state Explained | Term Definition"
   description: Variables conjugate to the state in optimal control, used to enforce optimality constraints.
   image: /logo.png
 permalink: /en/glossary/dynamics/co-state/

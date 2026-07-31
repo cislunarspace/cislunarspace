@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sequential Convex Programming, SCP Explained | Term Definition
+  title: "Sequential Convex Programming, SCP Explained | Term Definition"
   description: A method that approximates a non-convex optimal control problem as a series of convex optimization subproblems through successive convexification. At each itera
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sequential Convex Programming, SCP Explained | Term Definition
+  title: "Sequential Convex Programming, SCP Explained | Term Definition"
   description: A method that approximates a non-convex optimal control problem as a series of convex optimization subproblems through successive convexification. At each itera
   image: /logo.png
 permalink: /en/glossary/dynamics/scp/

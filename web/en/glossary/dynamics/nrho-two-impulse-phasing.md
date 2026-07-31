@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: NRHO Two-Impulse Phasing Explained | Term Definition
+  title: "NRHO Two-Impulse Phasing Explained | Term Definition"
   description: A phasing maneuver on a Near-Rectilinear Halo Orbit where the chaser spacecraft executes two impulsive burns to rendezvous with a co-orbital target. The first b
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: NRHO Two-Impulse Phasing Explained | Term Definition
+  title: "NRHO Two-Impulse Phasing Explained | Term Definition"
   description: A phasing maneuver on a Near-Rectilinear Halo Orbit where the chaser spacecraft executes two impulsive burns to rendezvous with a co-orbital target. The first b
   image: /logo.png
 permalink: /en/glossary/dynamics/nrho-two-impulse-phasing/

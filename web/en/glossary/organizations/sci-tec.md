@@ -1,6 +1,6 @@
 ---
 title: Sci-Tec
-description: Introduction to Sci-Tec's space sensors, navigation instruments, and satellite payload business
+description: "Introduction to Sci-Tec's space sensors, navigation instruments, and satellite payload business"
 keywords: Sci-Tec, space sensors, navigation instruments, satellite payloads, Earth observation, star tracker, spectrometer
 author: Tianjiang Shuo
 date: 2026-04-26
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Sci-Tec
-  description: Introduction to Sci-Tec's space sensor and navigation instrument business
+  description: "Introduction to Sci-Tec's space sensor and navigation instrument business"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Sci-Tec
-  description: Introduction to Sci-Tec's space sensor and navigation instrument business
+  description: "Introduction to Sci-Tec's space sensor and navigation instrument business"
   image: /logo.png
 permalink: /en/glossary/organizations/sci-tec/
 ---

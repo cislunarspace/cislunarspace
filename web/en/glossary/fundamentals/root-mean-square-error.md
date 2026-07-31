@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Root Mean Square Error Explained | Term Definition
+  title: "Root Mean Square Error Explained | Term Definition"
   description: A statistical measure of estimator deviation from true values, computed as the square root of the mean squared error. Used in orbit determination analysis to quantify the estimation accuracy of an Extended Kalman Filter.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Root Mean Square Error Explained | Term Definition
+  title: "Root Mean Square Error Explained | Term Definition"
   description: A statistical measure of estimator deviation from true values, computed as the square root of the mean squared error. Used in orbit determination analysis to quantify the estimation accuracy of an Extended Kalman Filter.
   image: /logo.png
 permalink: /en/glossary/fundamentals/root-mean-square-error/

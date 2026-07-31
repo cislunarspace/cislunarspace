@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Line of Sight (LoS) Explained | Term Definition
+  title: "Line of Sight (LoS) Explained | Term Definition"
   description: The geometric line connecting a spacecraft and a GNSS satellite. LoS calculations account for signal blockages by Earth and Moon to determine which GNSS satelli
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Line of Sight (LoS) Explained | Term Definition
+  title: "Line of Sight (LoS) Explained | Term Definition"
   description: The geometric line connecting a spacecraft and a GNSS satellite. LoS calculations account for signal blockages by Earth and Moon to determine which GNSS satelli
   image: /logo.png
 permalink: /en/glossary/navigation/line-of-sight/

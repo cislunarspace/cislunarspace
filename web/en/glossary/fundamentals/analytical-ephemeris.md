@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Analytical Ephemeris Explained | Term Definition
+  title: "Analytical Ephemeris Explained | Term Definition"
   description: 用解析公式（通常是三角级数或开普勒根数的多项式展开）计算天体位置的近似方法。优点是计算速度快、无需存储大量数据；缺点是精度有限，对地月系平动点轨道预报而言，分析历表的低精度可能造成预报结果的定性偏差。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Analytical Ephemeris Explained | Term Definition
+  title: "Analytical Ephemeris Explained | Term Definition"
   description: 用解析公式（通常是三角级数或开普勒根数的多项式展开）计算天体位置的近似方法。优点是计算速度快、无需存储大量数据；缺点是精度有限，对地月系平动点轨道预报而言，分析历表的低精度可能造成预报结果的定性偏差。
   image: /logo.png
 permalink: /en/glossary/fundamentals/analytical-ephemeris/

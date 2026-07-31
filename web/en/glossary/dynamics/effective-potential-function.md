@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Effective Potential Function Explained | Term Definition
+  title: "Effective Potential Function Explained | Term Definition"
   description: "A scalar function in the circular restricted three-body problem formed by combining gravitational and centrifugal potentials: Ω = ½(x² + y²) + (1-μ)/r₁ + μ/r₂. It governs the motion constraints of an ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Effective Potential Function Explained | Term Definition
+  title: "Effective Potential Function Explained | Term Definition"
   description: "A scalar function in the circular restricted three-body problem formed by combining gravitational and centrifugal potentials: Ω = ½(x² + y²) + (1-μ)/r₁ + μ/r₂. It governs the motion constraints of an ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/effective-potential-function/

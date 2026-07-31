@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamic Traveling Salesman Problem Explained | Term Definition
+  title: "Dynamic Traveling Salesman Problem Explained | Term Definition"
   description: "A TSP variant where distances between nodes vary over time, applicable to time-varying transfer costs in orbital servicing networks."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamic Traveling Salesman Problem Explained | Term Definition
+  title: "Dynamic Traveling Salesman Problem Explained | Term Definition"
   description: "A TSP variant where distances between nodes vary over time, applicable to time-varying transfer costs in orbital servicing networks."
   image: /logo.png
 permalink: /en/glossary/dynamics/dynamic-traveling-salesman-problem/

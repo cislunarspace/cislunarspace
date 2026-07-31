@@ -1,6 +1,6 @@
 ---
 title: Low Prograde Orbit, LPO
-description: A low lunar orbit in the prograde direction (same as the Moon's rotation direction). The paper lists it as one of the candidate observer orbits.
+description: "A low lunar orbit in the prograde direction (same as the Moon's rotation direction). The paper lists it as one of the candidate observer orbits."
 keywords: Low Prograde Orbit, LPO
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low Prograde Orbit, LPO Explained | Term Definition
-  description: A low lunar orbit in the prograde direction (same as the Moon's rotation direction). The paper lists it as one of the candidate observer orbits.
+  title: "Low Prograde Orbit, LPO Explained | Term Definition"
+  description: "A low lunar orbit in the prograde direction (same as the Moon's rotation direction). The paper lists it as one of the candidate observer orbits."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low Prograde Orbit, LPO Explained | Term Definition
-  description: A low lunar orbit in the prograde direction (same as the Moon's rotation direction). The paper lists it as one of the candidate observer orbits.
+  title: "Low Prograde Orbit, LPO Explained | Term Definition"
+  description: "A low lunar orbit in the prograde direction (same as the Moon's rotation direction). The paper lists it as one of the candidate observer orbits."
   image: /logo.png
 permalink: /en/glossary/orbits/low-prograde-orbit-lpo/
 ---

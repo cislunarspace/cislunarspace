@@ -1,6 +1,6 @@
 ---
 title: Deficient Rank
-description: When a satellite orbits a single body and uses only inter-satellite range for orbit determination, the rotational symmetry of the central body's gravitationa...
+description: "When a satellite orbits a single body and uses only inter-satellite range for orbit determination, the rotational symmetry of the central body's gravitationa..."
 keywords: Deficient Rank, autonomous navigation, orbit determination, measurement
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deficient Rank Explained | Term Definition
-  description: When a satellite orbits a single body and uses only inter-satellite range for orbit determination, the rotational symmetry of the central body's gravitationa...
+  title: "Deficient Rank Explained | Term Definition"
+  description: "When a satellite orbits a single body and uses only inter-satellite range for orbit determination, the rotational symmetry of the central body's gravitationa..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deficient Rank Explained | Term Definition
-  description: When a satellite orbits a single body and uses only inter-satellite range for orbit determination, the rotational symmetry of the central body's gravitationa...
+  title: "Deficient Rank Explained | Term Definition"
+  description: "When a satellite orbits a single body and uses only inter-satellite range for orbit determination, the rotational symmetry of the central body's gravitationa..."
   image: /logo.png
 permalink: /en/glossary/navigation/deficient-rank/
 ---

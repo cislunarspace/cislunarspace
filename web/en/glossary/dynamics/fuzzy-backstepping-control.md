@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Fuzzy Backstepping Control | Intelligent Control
+  title: "Fuzzy Backstepping Control | Intelligent Control"
   description: A detailed analysis of fuzzy backstepping control principles, T-S fuzzy system modeling, and applications in stratospheric airship nonlinear control
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fuzzy Backstepping Control | Intelligent Control
+  title: "Fuzzy Backstepping Control | Intelligent Control"
   description: A detailed analysis of fuzzy backstepping control principles, T-S fuzzy system modeling, and applications in stratospheric airship nonlinear control
   image: /logo.png
 permalink: /en/glossary/dynamics/fuzzy-backstepping-control/

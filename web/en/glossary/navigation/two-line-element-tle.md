@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Line Element, TLE Explained | Term Definition
+  title: "Two-Line Element, TLE Explained | Term Definition"
   description: A standardized orbital data format maintained by NORAD, encoding classical orbital elements and epoch information in two lines of data. Widely used for near-...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Line Element, TLE Explained | Term Definition
+  title: "Two-Line Element, TLE Explained | Term Definition"
   description: A standardized orbital data format maintained by NORAD, encoding classical orbital elements and epoch information in two lines of data. Widely used for near-...
   image: /logo.png
 permalink: /en/glossary/navigation/two-line-element-tle/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variational Equation Explained | Term Definition
+  title: "Variational Equation Explained | Term Definition"
   description: The linearized Hamiltonian system along a reference extremal, governing the propagation of state-costate perturbations. Its solutions are Jacobi fields, used to compute conjugate points and verify ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variational Equation Explained | Term Definition
+  title: "Variational Equation Explained | Term Definition"
   description: The linearized Hamiltonian system along a reference extremal, governing the propagation of state-costate perturbations. Its solutions are Jacobi fields, used to compute conjugate points and verify ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/variational-equation/

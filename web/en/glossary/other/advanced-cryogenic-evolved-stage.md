@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Advanced Cryogenic Evolved Stage Explained | Term Definition
+  title: "Advanced Cryogenic Evolved Stage Explained | Term Definition"
   description: A high-performance space transfer vehicle using LOX/LH2 propellants, representing an advanced international direction for upper stage technology. It features...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Advanced Cryogenic Evolved Stage Explained | Term Definition
+  title: "Advanced Cryogenic Evolved Stage Explained | Term Definition"
   description: A high-performance space transfer vehicle using LOX/LH2 propellants, representing an advanced international direction for upper stage technology. It features...
   image: /logo.png
 permalink: /en/glossary/other/advanced-cryogenic-evolved-stage/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collision Curve Explained | Term Definition
+  title: "Collision Curve Explained | Term Definition"
   description: In the resonance phase plane (e.g., the e-σ plane), the curve along which the distance between the spacecraft and Moon equals zero. The collision curve marks the boundary of physically inaccessible...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collision Curve Explained | Term Definition
+  title: "Collision Curve Explained | Term Definition"
   description: In the resonance phase plane (e.g., the e-σ plane), the curve along which the distance between the spacecraft and Moon equals zero. The collision curve marks the boundary of physically inaccessible...
   image: /logo.png
 permalink: /en/glossary/dynamics/collision-curve/

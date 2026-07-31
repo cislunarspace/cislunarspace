@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Restricted Three-Body Problem, R3BP Explained | Term Definition
+  title: "Restricted Three-Body Problem, R3BP Explained | Term Definition"
   description: "A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by bot"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Restricted Three-Body Problem, R3BP Explained | Term Definition
+  title: "Restricted Three-Body Problem, R3BP Explained | Term Definition"
   description: "A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by bot"
   image: /logo.png
 permalink: /en/glossary/dynamics/r3bp/

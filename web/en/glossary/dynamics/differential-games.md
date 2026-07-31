@@ -6,13 +6,13 @@ author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Differential Games | Game Dynamics
+  title: "Differential Games | Game Dynamics"
   description: Mathematical theory describing multi-party gaming problems in continuous dynamic systems, applied to spacecraft pursuit-evasion and guidance law design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Games | Game Dynamics
+  title: "Differential Games | Game Dynamics"
   description: Mathematical theory describing multi-party gaming problems in continuous dynamic systems, applied to spacecraft pursuit-evasion and guidance law design
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-games/

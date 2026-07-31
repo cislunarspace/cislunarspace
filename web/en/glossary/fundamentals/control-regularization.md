@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Control Regularization Explained | Term Definition
+  title: "Control Regularization Explained | Term Definition"
   description: Replacing discontinuous optimal control profiles (such as bang-off-bang) with smooth parameterized functions to eliminate discontinuities and make the optimizat
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Control Regularization Explained | Term Definition
+  title: "Control Regularization Explained | Term Definition"
   description: Replacing discontinuous optimal control profiles (such as bang-off-bang) with smooth parameterized functions to eliminate discontinuities and make the optimizat
   image: /logo.png
 permalink: /en/glossary/fundamentals/control-regularization/

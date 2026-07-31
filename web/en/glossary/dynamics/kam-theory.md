@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: KAM Theory Explained | Term Definition
+  title: "KAM Theory Explained | Term Definition"
   description: Kolmogorov-Arnold-Moser theory, describing the stability of invariant tori in near-integrable Hamiltonian systems. In the restricted three-body problem, KAM curves act as topological barriers to di...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: KAM Theory Explained | Term Definition
+  title: "KAM Theory Explained | Term Definition"
   description: Kolmogorov-Arnold-Moser theory, describing the stability of invariant tori in near-integrable Hamiltonian systems. In the restricted three-body problem, KAM curves act as topological barriers to di...
   image: /logo.png
 permalink: /en/glossary/dynamics/kam-theory/

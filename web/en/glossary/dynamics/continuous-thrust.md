@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Continuous Thrust Explained | Term Definition
+  title: "Continuous Thrust Explained | Term Definition"
   description: Sustained low thrust from electric propulsion systems, requiring continuous or nearly continuous application. In optimization problems, controls are continuo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuous Thrust Explained | Term Definition
+  title: "Continuous Thrust Explained | Term Definition"
   description: Sustained low thrust from electric propulsion systems, requiring continuous or nearly continuous application. In optimization problems, controls are continuo...
   image: /logo.png
 permalink: /en/glossary/dynamics/continuous-thrust/

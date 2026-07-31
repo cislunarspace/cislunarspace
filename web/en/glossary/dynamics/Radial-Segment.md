@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial Segment Explained | Term Definition
+  title: "Radial Segment Explained | Term Definition"
   description: A ray emanating from the small primary at angle θ relative to the line connecting the two primaries. The WSB definition is based on transition points between st
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial Segment Explained | Term Definition
+  title: "Radial Segment Explained | Term Definition"
   description: A ray emanating from the small primary at angle θ relative to the line connecting the two primaries. The WSB definition is based on transition points between st
   image: /logo.png
 permalink: /en/glossary/dynamics/Radial-Segment/

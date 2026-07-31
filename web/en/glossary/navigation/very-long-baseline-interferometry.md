@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Very Long Baseline Interferometry (VLBI) Explained | Term Definition
+  title: "Very Long Baseline Interferometry (VLBI) Explained | Term Definition"
   description: A technique using geographically distributed radio telescopes to simultaneously observe the same radio source, achieving high angular resolution through the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Very Long Baseline Interferometry (VLBI) Explained | Term Definition
+  title: "Very Long Baseline Interferometry (VLBI) Explained | Term Definition"
   description: A technique using geographically distributed radio telescopes to simultaneously observe the same radio source, achieving high angular resolution through the...
   image: /logo.png
 permalink: /en/glossary/navigation/very-long-baseline-interferometry/

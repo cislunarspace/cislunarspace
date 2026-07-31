@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar DRO Insertion Delta-V Explained | Term Definition
+  title: "Lunar DRO Insertion Delta-V Explained | Term Definition"
   description: Velocity increment required to insert into lunar DRO at the end of a transfer trajectory, representing the main fuel consumption for LEO-to-DRO transfers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar DRO Insertion Delta-V Explained | Term Definition
+  title: "Lunar DRO Insertion Delta-V Explained | Term Definition"
   description: Velocity increment required to insert into lunar DRO at the end of a transfer trajectory, representing the main fuel consumption for LEO-to-DRO transfers.
   image: /logo.png
 permalink: /en/glossary/orbits/v/

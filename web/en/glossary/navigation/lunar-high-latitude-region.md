@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar High-Latitude Region Explained | Term Definition
+  title: "Lunar High-Latitude Region Explained | Term Definition"
   description: Lunar regions at high absolute latitude (typically near the poles), where traditional near-circular lunar orbit coverage is weakest and positioning accuracy ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar High-Latitude Region Explained | Term Definition
+  title: "Lunar High-Latitude Region Explained | Term Definition"
   description: Lunar regions at high absolute latitude (typically near the poles), where traditional near-circular lunar orbit coverage is weakest and positioning accuracy ...
   image: /logo.png
 permalink: /en/glossary/navigation/lunar-high-latitude-region/

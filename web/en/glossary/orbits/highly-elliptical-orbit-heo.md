@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Highly Elliptical Orbit, HEO (HEO) Explained | Term Definition
+  title: "Highly Elliptical Orbit, HEO (HEO) Explained | Term Definition"
   description: An elliptical orbit with high eccentricity, low perigee, and high apogee. In the cislunar context, when the orbital period forms an integer ratio with the lunar
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Highly Elliptical Orbit, HEO (HEO) Explained | Term Definition
+  title: "Highly Elliptical Orbit, HEO (HEO) Explained | Term Definition"
   description: An elliptical orbit with high eccentricity, low perigee, and high apogee. In the cislunar context, when the orbital period forms an integer ratio with the lunar
   image: /logo.png
 permalink: /en/glossary/orbits/highly-elliptical-orbit-heo/

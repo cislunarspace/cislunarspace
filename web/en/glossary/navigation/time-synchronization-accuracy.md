@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time Synchronization Accuracy Explained | Term Definition
+  title: "Time Synchronization Accuracy Explained | Term Definition"
   description: Time Synchronization Accuracy; the precision of time alignment between satellites achieved through ranging signals; this paper shows that a DRO-based LiAISON...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time Synchronization Accuracy Explained | Term Definition
+  title: "Time Synchronization Accuracy Explained | Term Definition"
   description: Time Synchronization Accuracy; the precision of time alignment between satellites achieved through ranging signals; this paper shows that a DRO-based LiAISON...
   image: /logo.png
 permalink: /en/glossary/navigation/time-synchronization-accuracy/

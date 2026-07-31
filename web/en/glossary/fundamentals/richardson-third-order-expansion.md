@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Richardson Third-Order Expansion Explained | Term Definition
+  title: "Richardson Third-Order Expansion Explained | Term Definition"
   description: A third-order approximate analytical solution for Halo orbits near collinear libration points in the CR3BP, obtained using the Lindstedt-Poincaré perturbation method. It serves as the starting poin...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Richardson Third-Order Expansion Explained | Term Definition
+  title: "Richardson Third-Order Expansion Explained | Term Definition"
   description: A third-order approximate analytical solution for Halo orbits near collinear libration points in the CR3BP, obtained using the Lindstedt-Poincaré perturbation method. It serves as the starting poin...
   image: /logo.png
 permalink: /en/glossary/fundamentals/richardson-third-order-expansion/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Selenocentric Celestial Reference System Explained | Term Definition
+  title: "Selenocentric Celestial Reference System Explained | Term Definition"
   description: "An inertial reference frame centered at the Moon's mass center with axes parallel to the International Celestial Reference System. Used to describe lunar orbital motion and celestial body positions fr..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Selenocentric Celestial Reference System Explained | Term Definition
+  title: "Selenocentric Celestial Reference System Explained | Term Definition"
   description: "An inertial reference frame centered at the Moon's mass center with axes parallel to the International Celestial Reference System. Used to describe lunar orbital motion and celestial body positions fr..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/selenocentric-celestial-reference-system/

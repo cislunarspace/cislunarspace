@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Propulsion Module, PM Explained | Term Definition
+  title: "Propulsion Module, PM Explained | Term Definition"
   description: The part of a manned lunar lander responsible for the main braking phase flight. Equipped with one main engine and thrust vector control, it serves as the primary deceleration power source from the po
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Propulsion Module, PM Explained | Term Definition
+  title: "Propulsion Module, PM Explained | Term Definition"
   description: The part of a manned lunar lander responsible for the main braking phase flight. Equipped with one main engine and thrust vector control, it serves as the primary deceleration power source from the po
   image: /logo.png
 permalink: /en/glossary/fundamentals/propulsion-module-pm/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cislunar Libration Point Constellation Explained | Term Definition
+  title: "Cislunar Libration Point Constellation Explained | Term Definition"
   description: A satellite constellation deployed at the Earth-Moon triangular libration points L3, L4, and L5. The three satellites are evenly distributed at 120-degree in...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Libration Point Constellation Explained | Term Definition
+  title: "Cislunar Libration Point Constellation Explained | Term Definition"
   description: A satellite constellation deployed at the Earth-Moon triangular libration points L3, L4, and L5. The three satellites are evenly distributed at 120-degree in...
   image: /logo.png
 permalink: /en/glossary/observation/cislunar-libration-point-constellation/

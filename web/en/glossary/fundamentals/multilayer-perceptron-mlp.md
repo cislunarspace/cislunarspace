@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multilayer Perceptron, MLP Explained | Term Definition
+  title: "Multilayer Perceptron, MLP Explained | Term Definition"
   description: A feedforward neural network consisting of an input layer, hidden layers, and an output layer with full connections between adjacent layers. Used in cislunar aw
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multilayer Perceptron, MLP Explained | Term Definition
+  title: "Multilayer Perceptron, MLP Explained | Term Definition"
   description: A feedforward neural network consisting of an input layer, hidden layers, and an output layer with full connections between adjacent layers. Used in cislunar aw
   image: /logo.png
 permalink: /en/glossary/fundamentals/multilayer-perceptron-mlp/

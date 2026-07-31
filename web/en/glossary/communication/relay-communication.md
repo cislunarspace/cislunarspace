@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relay Communication Explained | Term Definition
+  title: "Relay Communication Explained | Term Definition"
   description: Information transfer between two nodes that cannot communicate directly, achieved by relaying signals through an intermediary satellite. In lunar farside missio
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relay Communication Explained | Term Definition
+  title: "Relay Communication Explained | Term Definition"
   description: Information transfer between two nodes that cannot communicate directly, achieved by relaying signals through an intermediary satellite. In lunar farside missio
   image: /logo.png
 permalink: /en/glossary/communication/relay-communication/

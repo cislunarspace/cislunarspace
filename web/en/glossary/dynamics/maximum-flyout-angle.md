@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Maximum Flyout Angle Explained | Term Definition
+  title: "Maximum Flyout Angle Explained | Term Definition"
   description: Upper bound of flyout angle at which initial velocity equals local escape velocity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Maximum Flyout Angle Explained | Term Definition
+  title: "Maximum Flyout Angle Explained | Term Definition"
   description: Upper bound of flyout angle at which initial velocity equals local escape velocity.
   image: /logo.png
 permalink: /en/glossary/dynamics/maximum-flyout-angle/

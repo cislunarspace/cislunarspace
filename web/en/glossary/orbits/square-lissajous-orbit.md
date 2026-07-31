@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Square Lissajous orbit Explained | Term Definition
+  title: "Square Lissajous orbit Explained | Term Definition"
   description: A Lissajous orbit whose in-plane amplitude equals its out-of-plane amplitude. This constraint makes the in-plane and out-of-plane motion share the same period,
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Square Lissajous orbit Explained | Term Definition
+  title: "Square Lissajous orbit Explained | Term Definition"
   description: A Lissajous orbit whose in-plane amplitude equals its out-of-plane amplitude. This constraint makes the in-plane and out-of-plane motion share the same period,
   image: /logo.png
 permalink: /en/glossary/orbits/square-lissajous-orbit/

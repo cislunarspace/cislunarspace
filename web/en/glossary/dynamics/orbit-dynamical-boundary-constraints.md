@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit-dynamical Boundary Constraints Explained | Term Definition
+  title: "Orbit-dynamical Boundary Constraints Explained | Term Definition"
   description: Boundary conditions on the terminal position determined by orbital dynamics in the multiple-revolution Lambert problem, causing the proportion of feasible so...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit-dynamical Boundary Constraints Explained | Term Definition
+  title: "Orbit-dynamical Boundary Constraints Explained | Term Definition"
   description: Boundary conditions on the terminal position determined by orbital dynamics in the multiple-revolution Lambert problem, causing the proportion of feasible so...
   image: /logo.png
 permalink: /en/glossary/dynamics/orbit-dynamical-boundary-constraints/

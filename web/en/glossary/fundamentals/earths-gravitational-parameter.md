@@ -1,23 +1,23 @@
 ---
-title: Earth's Gravitational Parameter
-description: Earth's gravitational parameter, value 398600 km³/s². It is the product of the gravitational constant G and Earth's mass M, representing the strength of Earth's gravitational field in orbital mechanics calculations.
-keywords: Earth's Gravitational Parameter, μ, Orbital Mechanics, Gravitational Constant
+title: "Earth's Gravitational Parameter"
+description: "Earth's gravitational parameter, value 398600 km³/s². It is the product of the gravitational constant G and Earth's mass M, representing the strength of Earth's gravitational field in orbital mechanics calculations."
+keywords: "Earth's Gravitational Parameter, μ, Orbital Mechanics, Gravitational Constant"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Earth's Gravitational Parameter
+  title: "Earth's Gravitational Parameter"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth's Gravitational Parameter Explained | Term Definition
-  description: Earth's gravitational parameter, value 398600 km³/s², representing the strength of Earth's gravitational field in orbital mechanics.
+  title: "Earth's Gravitational Parameter Explained | Term Definition"
+  description: "Earth's gravitational parameter, value 398600 km³/s², representing the strength of Earth's gravitational field in orbital mechanics."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth's Gravitational Parameter Explained | Term Definition
-  description: Earth's gravitational parameter, value 398600 km³/s², representing the strength of Earth's gravitational field in orbital mechanics.
+  title: "Earth's Gravitational Parameter Explained | Term Definition"
+  description: "Earth's gravitational parameter, value 398600 km³/s², representing the strength of Earth's gravitational field in orbital mechanics."
   image: /logo.png
 permalink: /en/glossary/fundamentals/earths-gravitational-parameter/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Radial-Transverse-Normal Frame, RTH (RTH)
-description: A local coordinate frame attached to the spacecraft's orbit. The R-axis points radially outward along the position vector, the T-axis lies in the orbital pla...
+description: "A local coordinate frame attached to the spacecraft's orbit. The R-axis points radially outward along the position vector, the T-axis lies in the orbital pla..."
 keywords: Radial-Transverse-Normal Frame, RTH, RTH
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial-Transverse-Normal Frame, RTH Explained | Term Definition
-  description: A local coordinate frame attached to the spacecraft's orbit. The R-axis points radially outward along the position vector, the T-axis lies in the orbital pla...
+  title: "Radial-Transverse-Normal Frame, RTH Explained | Term Definition"
+  description: "A local coordinate frame attached to the spacecraft's orbit. The R-axis points radially outward along the position vector, the T-axis lies in the orbital pla..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial-Transverse-Normal Frame, RTH Explained | Term Definition
-  description: A local coordinate frame attached to the spacecraft's orbit. The R-axis points radially outward along the position vector, the T-axis lies in the orbital pla...
+  title: "Radial-Transverse-Normal Frame, RTH Explained | Term Definition"
+  description: "A local coordinate frame attached to the spacecraft's orbit. The R-axis points radially outward along the position vector, the T-axis lies in the orbital pla..."
   image: /logo.png
 permalink: /en/glossary/dynamics/radial-transverse-normal-frame-rth/
 ---

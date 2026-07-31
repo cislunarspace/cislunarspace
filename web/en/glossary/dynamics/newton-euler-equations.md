@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Newton-Euler Equations | Rigid Body Dynamics
+  title: "Newton-Euler Equations | Rigid Body Dynamics"
   description: A detailed analysis of Newton-Euler equations principles, force and moment vector expressions, and applications in aircraft dynamics modeling
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Newton-Euler Equations | Rigid Body Dynamics
+  title: "Newton-Euler Equations | Rigid Body Dynamics"
   description: A detailed analysis of Newton-Euler equations principles, force and moment vector expressions, and applications in aircraft dynamics modeling
   image: /logo.png
 permalink: /en/glossary/dynamics/newton-euler-equations/

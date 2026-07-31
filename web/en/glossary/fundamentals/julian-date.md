@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Julian Date | Terminology Definition
+  title: "Julian Date | Terminology Definition"
   description: Definition of the Julian Date system, calculation methods, and its use in astronomical and aerospace timekeeping
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Julian Date | Terminology Definition
+  title: "Julian Date | Terminology Definition"
   description: Definition of the Julian Date system, calculation methods, and its use in astronomical and aerospace timekeeping
   image: /logo.png
 permalink: /en/glossary/fundamentals/julian-date/

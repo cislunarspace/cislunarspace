@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Long Period Orbit Details | Large-Amplitude Slow Oscillation Near Triangular Libration Points
+  title: "Long Period Orbit Details | Large-Amplitude Slow Oscillation Near Triangular Libration Points"
   description: Detailed explanation of long period orbits — definition, dynamical characteristics, large-amplitude slow oscillation near L4/L5 triangular libration points, and classification
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Long Period Orbit Details | Large-Amplitude Slow Oscillation Near Triangular Libration Points
+  title: "Long Period Orbit Details | Large-Amplitude Slow Oscillation Near Triangular Libration Points"
   description: Detailed explanation of long period orbits — definition, dynamical characteristics, large-amplitude slow oscillation near L4/L5 triangular libration points, and classification
   image: /logo.png
 permalink: /en/glossary/orbits/long-period-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Reinforcement Learning Explained | Term Definition
+  title: "Deep Reinforcement Learning Explained | Term Definition"
   description: An intelligent decision-making method combining deep neural networks with reinforcement learning. The paper proposes applying it to dynamic scheduling of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Reinforcement Learning Explained | Term Definition
+  title: "Deep Reinforcement Learning Explained | Term Definition"
   description: An intelligent decision-making method combining deep neural networks with reinforcement learning. The paper proposes applying it to dynamic scheduling of...
   image: /logo.png
 permalink: /en/glossary/observation/deep-reinforcement-learning/

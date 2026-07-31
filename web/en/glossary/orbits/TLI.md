@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trans-Lunar Injection Explained | Term Definition
+  title: "Trans-Lunar Injection Explained | Term Definition"
   description: The maneuver of applying a velocity increment from Earth parking orbit to inject the spacecraft into a lunar transfer orbit. TLI is typically performed at the p
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trans-Lunar Injection Explained | Term Definition
+  title: "Trans-Lunar Injection Explained | Term Definition"
   description: The maneuver of applying a velocity increment from Earth parking orbit to inject the spacecraft into a lunar transfer orbit. TLI is typically performed at the p
   image: /logo.png
 permalink: /en/glossary/orbits/TLI/

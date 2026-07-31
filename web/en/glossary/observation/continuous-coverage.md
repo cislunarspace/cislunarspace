@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Continuous Coverage Details | Observation Performance Metric
+  title: "Continuous Coverage Details | Observation Performance Metric"
   description: Detailed analysis of the continuous coverage metric, its calculation, and application in situational awareness missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuous Coverage Details | Observation Performance Metric
+  title: "Continuous Coverage Details | Observation Performance Metric"
   description: Detailed analysis of the continuous coverage metric, its calculation, and application in situational awareness missions
   image: /logo.png
 permalink: /en/glossary/observation/continuous-coverage/

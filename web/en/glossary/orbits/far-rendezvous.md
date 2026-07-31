@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Far Rendezvous Explained | Term Definition
+  title: "Far Rendezvous Explained | Term Definition"
   description: The rendezvous phase that uses invariant manifold dynamics to transfer a chaser from its parking orbit to the target orbit, typically involving 3-4 maneuvers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Far Rendezvous Explained | Term Definition
+  title: "Far Rendezvous Explained | Term Definition"
   description: The rendezvous phase that uses invariant manifold dynamics to transfer a chaser from its parking orbit to the target orbit, typically involving 3-4 maneuvers.
   image: /logo.png
 permalink: /en/glossary/orbits/far-rendezvous/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Velocity Function Explained | Term Definition
+  title: "Velocity Function Explained | Term Definition"
   description: Expression for the magnitude of initial velocity as a function of flyout angle γ, derived directly from equations of motion.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity Function Explained | Term Definition
+  title: "Velocity Function Explained | Term Definition"
   description: Expression for the magnitude of initial velocity as a function of flyout angle γ, derived directly from equations of motion.
   image: /logo.png
 permalink: /en/glossary/dynamics/velocity-function/

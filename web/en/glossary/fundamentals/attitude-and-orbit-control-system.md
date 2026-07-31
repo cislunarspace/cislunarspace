@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Attitude and Orbit Control System Explained | Term Definition
+  title: "Attitude and Orbit Control System Explained | Term Definition"
   description: The subsystem performing attitude estimation, guidance, and control when orbit guidance is not performed on board, typical for LEO, MEO, and GEO missions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Attitude and Orbit Control System Explained | Term Definition
+  title: "Attitude and Orbit Control System Explained | Term Definition"
   description: The subsystem performing attitude estimation, guidance, and control when orbit guidance is not performed on board, typical for LEO, MEO, and GEO missions.
   image: /logo.png
 permalink: /en/glossary/fundamentals/attitude-and-orbit-control-system/

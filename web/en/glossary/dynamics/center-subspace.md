@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Center Subspace Explained | Term Definition
+  title: "Center Subspace Explained | Term Definition"
   description: In linearized analysis near a collinear libration point, the subspace spanned by eigenvectors corresponding to eigenvalues with modulus equal to 1. Both peri...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Center Subspace Explained | Term Definition
+  title: "Center Subspace Explained | Term Definition"
   description: In linearized analysis near a collinear libration point, the subspace spanned by eigenvectors corresponding to eigenvalues with modulus equal to 1. Both peri...
   image: /logo.png
 permalink: /en/glossary/dynamics/center-subspace/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time-to-Go Explained | Term Definition
+  title: "Time-to-Go Explained | Term Definition"
   description: The remaining time required for the spacecraft to fly from its current state to the terminal state, a key parameter in explicit guidance laws. For time-optimal 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time-to-Go Explained | Term Definition
+  title: "Time-to-Go Explained | Term Definition"
   description: The remaining time required for the spacecraft to fly from its current state to the terminal state, a key parameter in explicit guidance laws. For time-optimal 
   image: /logo.png
 permalink: /en/glossary/dynamics/tgo/

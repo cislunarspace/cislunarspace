@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inner-Loop Outer-Loop Structure Explained | Term Definition
+  title: "Inner-Loop Outer-Loop Structure Explained | Term Definition"
   description: The inner loop minimizes loss function residuals to obtain state and costate parameters; the outer loop optimizes switching times and final time, forming a t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inner-Loop Outer-Loop Structure Explained | Term Definition
+  title: "Inner-Loop Outer-Loop Structure Explained | Term Definition"
   description: The inner loop minimizes loss function residuals to obtain state and costate parameters; the outer loop optimizes switching times and final time, forming a t...
   image: /logo.png
 permalink: /en/glossary/dynamics/inner-loop-outer-loop-structure/

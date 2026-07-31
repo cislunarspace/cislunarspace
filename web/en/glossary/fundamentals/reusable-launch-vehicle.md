@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Reusable Launch Vehicle | Terminology Definition
+  title: "Reusable Launch Vehicle | Terminology Definition"
   description: Detailed explanation of reusable launch vehicle technical approaches and implementation methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reusable Launch Vehicle | Terminology Definition
+  title: "Reusable Launch Vehicle | Terminology Definition"
   description: Detailed explanation of reusable launch vehicle technical approaches and implementation methods
   image: /logo.png
 permalink: /en/glossary/fundamentals/reusable-launch-vehicle/

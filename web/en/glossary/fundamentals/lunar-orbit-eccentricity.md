@@ -1,6 +1,6 @@
 ---
 title: Lunar Orbit Eccentricity
-description: The eccentricity of the Moon's orbit around the Earth (approximately 0.0549). In high-fidelity ephemeris models, lunar orbit eccentricity significantly affects
+description: "The eccentricity of the Moon's orbit around the Earth (approximately 0.0549). In high-fidelity ephemeris models, lunar orbit eccentricity significantly affects"
 keywords: Lunar Orbit Eccentricity
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Orbit Eccentricity Explained | Term Definition
-  description: The eccentricity of the Moon's orbit around the Earth (approximately 0.0549). In high-fidelity ephemeris models, lunar orbit eccentricity significantly affects
+  title: "Lunar Orbit Eccentricity Explained | Term Definition"
+  description: "The eccentricity of the Moon's orbit around the Earth (approximately 0.0549). In high-fidelity ephemeris models, lunar orbit eccentricity significantly affects"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Orbit Eccentricity Explained | Term Definition
-  description: The eccentricity of the Moon's orbit around the Earth (approximately 0.0549). In high-fidelity ephemeris models, lunar orbit eccentricity significantly affects
+  title: "Lunar Orbit Eccentricity Explained | Term Definition"
+  description: "The eccentricity of the Moon's orbit around the Earth (approximately 0.0549). In high-fidelity ephemeris models, lunar orbit eccentricity significantly affects"
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-orbit-eccentricity/
 ---

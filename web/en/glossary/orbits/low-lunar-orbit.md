@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low Lunar Orbit Explained | Term Definition
+  title: "Low Lunar Orbit Explained | Term Definition"
   description: A circumlunar orbit at 300-500 km altitude, balancing station-keeping costs (which increase at lower altitudes due to lunar gravitational anomalies) against descent delta-v costs (which increase at higher altitudes). Inclination must exceed the landing site latitude for coverage.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low Lunar Orbit Explained | Term Definition
+  title: "Low Lunar Orbit Explained | Term Definition"
   description: A circumlunar orbit at 300-500 km altitude, balancing station-keeping costs (which increase at lower altitudes due to lunar gravitational anomalies) against descent delta-v costs (which increase at higher altitudes). Inclination must exceed the landing site latitude for coverage.
   image: /logo.png
 permalink: /en/glossary/orbits/low-lunar-orbit/

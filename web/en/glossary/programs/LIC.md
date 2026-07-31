@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar IceCube Explained | Term Definition
+  title: "Lunar IceCube Explained | Term Definition"
   description: A NASA planned mission to deliver a 6U CubeSat to low lunar orbit to investigate water transport across the lunar surface, equipped with a BIT-3 Busek ion...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar IceCube Explained | Term Definition
+  title: "Lunar IceCube Explained | Term Definition"
   description: A NASA planned mission to deliver a 6U CubeSat to low lunar orbit to investigate water transport across the lunar surface, equipped with a BIT-3 Busek ion...
   image: /logo.png
 permalink: /en/glossary/programs/LIC/

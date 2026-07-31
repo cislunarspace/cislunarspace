@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: KS Transformation / Kustaanheimo-Stiefel Transformation Explained | Term Definition
+  title: "KS Transformation / Kustaanheimo-Stiefel Transformation Explained | Term Definition"
   description: Coordinate transformation that regularizes two-body equations of motion by introducing fictitious time s
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: KS Transformation / Kustaanheimo-Stiefel Transformation Explained | Term Definition
+  title: "KS Transformation / Kustaanheimo-Stiefel Transformation Explained | Term Definition"
   description: Coordinate transformation that regularizes two-body equations of motion by introducing fictitious time s
   image: /logo.png
 permalink: /en/glossary/dynamics/ks-transformation-kustaanheimo-stiefel-transformation/

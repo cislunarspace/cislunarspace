@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Northern Halo Family Explained | Term Definition
+  title: "Northern Halo Family Explained | Term Definition"
   description: A family of Halo periodic orbits around a collinear libration point (L1 or L2) whose out-of-plane apoapsis lies above the x-y plane. Symmetric to the souther...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Northern Halo Family Explained | Term Definition
+  title: "Northern Halo Family Explained | Term Definition"
   description: A family of Halo periodic orbits around a collinear libration point (L1 or L2) whose out-of-plane apoapsis lies above the x-y plane. Symmetric to the souther...
   image: /logo.png
 permalink: /en/glossary/orbits/northern-halo-family/

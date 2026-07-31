@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Zero Acceleration Contour, ZAC Explained | Term Definition
+  title: "Zero Acceleration Contour, ZAC Explained | Term Definition"
   description: The locus of low-thrust equilibrium points, representing locations where the net acceleration acting on the spacecraft sums to zero.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero Acceleration Contour, ZAC Explained | Term Definition
+  title: "Zero Acceleration Contour, ZAC Explained | Term Definition"
   description: The locus of low-thrust equilibrium points, representing locations where the net acceleration acting on the spacecraft sums to zero.
   image: /logo.png
 permalink: /en/glossary/dynamics/zero-acceleration-contour-zac/

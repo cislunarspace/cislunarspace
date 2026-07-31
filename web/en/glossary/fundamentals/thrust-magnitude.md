@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Magnitude Explained | Term Definition
+  title: "Thrust Magnitude Explained | Term Definition"
   description: The magnitude of the thrust vector, measured in newtons. Electric propulsion engines typically produce millinewton-level thrust (0.15-0.3 N in this study), far 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Magnitude Explained | Term Definition
+  title: "Thrust Magnitude Explained | Term Definition"
   description: The magnitude of the thrust vector, measured in newtons. Electric propulsion engines typically produce millinewton-level thrust (0.15-0.3 N in this study), far 
   image: /logo.png
 permalink: /en/glossary/fundamentals/thrust-magnitude/

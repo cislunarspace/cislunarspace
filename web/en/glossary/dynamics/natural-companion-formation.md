@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Natural Companion Formation Explained | Term Definition
+  title: "Natural Companion Formation Explained | Term Definition"
   description: A formation exploiting the natural periodic solution of linearized relative motion near a DRO, where the deputy flies along a periodic trajectory ahead of or...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Natural Companion Formation Explained | Term Definition
+  title: "Natural Companion Formation Explained | Term Definition"
   description: A formation exploiting the natural periodic solution of linearized relative motion near a DRO, where the deputy flies along a periodic trajectory ahead of or...
   image: /logo.png
 permalink: /en/glossary/dynamics/natural-companion-formation/

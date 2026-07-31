@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Search and Rescue Constellation Explained | Term Definition
+  title: "Search and Rescue Constellation Explained | Term Definition"
   description: A constellation designed to provide search and rescue services when spacecraft in cislunar space experience accidents, with satellites rapidly reaching target r
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Search and Rescue Constellation Explained | Term Definition
+  title: "Search and Rescue Constellation Explained | Term Definition"
   description: A constellation designed to provide search and rescue services when spacecraft in cislunar space experience accidents, with satellites rapidly reaching target r
   image: /logo.png
 permalink: /en/glossary/other/search-and-rescue-constellation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Full-Ephemeris Model Explained | Term Definition
+  title: "Full-Ephemeris Model Explained | Term Definition"
   description: A high-fidelity dynamical model incorporating real ephemeris data (positions, velocities) of multiple celestial bodies, accounting for solar gravitational pertu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Full-Ephemeris Model Explained | Term Definition
+  title: "Full-Ephemeris Model Explained | Term Definition"
   description: A high-fidelity dynamical model incorporating real ephemeris data (positions, velocities) of multiple celestial bodies, accounting for solar gravitational pertu
   image: /logo.png
 permalink: /en/glossary/fundamentals/full-ephemeris-model/

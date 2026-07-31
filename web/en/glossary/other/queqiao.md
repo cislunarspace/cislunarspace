@@ -1,7 +1,7 @@
 ---
 title: Queqiao Relay Satellite
-description: Queqiao is China's relay communication satellite for the Chang'e 4 mission, operating in a halo orbit around the Earth-Moon L2 point.
-keywords: Queqiao, Relay Satellite, Chang'e 4, L2 Point, Halo Orbit, Deep Space Communication
+description: "Queqiao is China's relay communication satellite for the Chang'e 4 mission, operating in a halo orbit around the Earth-Moon L2 point."
+keywords: "Queqiao, Relay Satellite, Chang'e 4, L2 Point, Halo Orbit, Deep Space Communication"
 author: Tianjiang Shuo
 date: 2026-06-05
 lastUpdated: 2026-06-05
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Queqiao Relay Satellite Details | Other
-  description: Queqiao is China's relay communication satellite for the Chang'e 4 mission, operating in a halo orbit around the Earth-Moon L2 point.
+  title: "Queqiao Relay Satellite Details | Other"
+  description: "Queqiao is China's relay communication satellite for the Chang'e 4 mission, operating in a halo orbit around the Earth-Moon L2 point."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Queqiao Relay Satellite Details | Other
-  description: Queqiao is China's relay communication satellite for the Chang'e 4 mission, operating in a halo orbit around the Earth-Moon L2 point.
+  title: "Queqiao Relay Satellite Details | Other"
+  description: "Queqiao is China's relay communication satellite for the Chang'e 4 mission, operating in a halo orbit around the Earth-Moon L2 point."
   image: /logo.png
 permalink: /en/glossary/other/queqiao/
 ---

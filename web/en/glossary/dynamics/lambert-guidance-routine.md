@@ -1,6 +1,6 @@
 ---
 title: Lambert Guidance Routine
-description: A real-time guidance algorithm embedding Lambert problem solutions into the powered flight phase: at each integration step, solve the Lambert problem from current state to target to determine requi...
+description: "A real-time guidance algorithm embedding Lambert problem solutions into the powered flight phase: at each integration step, solve the Lambert problem from current state to target to determine requi..."
 keywords: Lambert Guidance Routine
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert Guidance Routine Explained | Term Definition
-  description: A real-time guidance algorithm embedding Lambert problem solutions into the powered flight phase: at each integration step, solve the Lambert problem from current state to target to determine requi...
+  title: "Lambert Guidance Routine Explained | Term Definition"
+  description: "A real-time guidance algorithm embedding Lambert problem solutions into the powered flight phase: at each integration step, solve the Lambert problem from current state to target to determine requi..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert Guidance Routine Explained | Term Definition
-  description: A real-time guidance algorithm embedding Lambert problem solutions into the powered flight phase: at each integration step, solve the Lambert problem from current state to target to determine requi...
+  title: "Lambert Guidance Routine Explained | Term Definition"
+  description: "A real-time guidance algorithm embedding Lambert problem solutions into the powered flight phase: at each integration step, solve the Lambert problem from current state to target to determine requi..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lambert-guidance-routine/
 ---

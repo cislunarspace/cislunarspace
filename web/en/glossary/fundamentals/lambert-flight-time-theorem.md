@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert Flight Time Theorem Explained | Term Definition
+  title: "Lambert Flight Time Theorem Explained | Term Definition"
   description: Theorem describing the relationship between transfer orbit flight time and orbital parameters between two given points
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert Flight Time Theorem Explained | Term Definition
+  title: "Lambert Flight Time Theorem Explained | Term Definition"
   description: Theorem describing the relationship between transfer orbit flight time and orbital parameters between two given points
   image: /logo.png
 permalink: /en/glossary/fundamentals/lambert-flight-time-theorem/

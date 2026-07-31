@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Floquet-Lyapunov Theorem Explained | Term Definition
+  title: "Floquet-Lyapunov Theorem Explained | Term Definition"
   description: The fundamental matrix solution of a periodic Hamiltonian system can be decomposed into the product of a periodic symplectic matrix and an exponential matrix.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Floquet-Lyapunov Theorem Explained | Term Definition
+  title: "Floquet-Lyapunov Theorem Explained | Term Definition"
   description: The fundamental matrix solution of a periodic Hamiltonian system can be decomposed into the product of a periodic symplectic matrix and an exponential matrix.
   image: /logo.png
 permalink: /en/glossary/dynamics/floquet-lyapunov-theorem/

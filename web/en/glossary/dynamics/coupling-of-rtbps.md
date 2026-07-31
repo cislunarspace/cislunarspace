@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coupling of RTBPs Explained | Term Definition
+  title: "Coupling of RTBPs Explained | Term Definition"
   description: Decoupling a four-body problem into two coupled restricted three-body problems (e.g., Sun-Earth+Moon system) for analysis.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coupling of RTBPs Explained | Term Definition
+  title: "Coupling of RTBPs Explained | Term Definition"
   description: Decoupling a four-body problem into two coupled restricted three-body problems (e.g., Sun-Earth+Moon system) for analysis.
   image: /logo.png
 permalink: /en/glossary/dynamics/coupling-of-rtbps/

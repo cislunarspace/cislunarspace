@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Moon-centered Orbit Explained | Term Definition
+  title: "Moon-centered Orbit Explained | Term Definition"
   description: Orbits that encircle the Moon, including distant retrograde orbits (DRO), distant prograde orbits (DPO), and low prograde orbits (LoPO), obtainable from init...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Moon-centered Orbit Explained | Term Definition
+  title: "Moon-centered Orbit Explained | Term Definition"
   description: Orbits that encircle the Moon, including distant retrograde orbits (DRO), distant prograde orbits (DPO), and low prograde orbits (LoPO), obtainable from init...
   image: /logo.png
 permalink: /en/glossary/orbits/moon-centered-orbit/

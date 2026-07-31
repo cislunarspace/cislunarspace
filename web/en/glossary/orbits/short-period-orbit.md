@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Short Period Orbit Details | Small-Amplitude Rapid Oscillation Near Triangular Libration Points
+  title: "Short Period Orbit Details | Small-Amplitude Rapid Oscillation Near Triangular Libration Points"
   description: Detailed explanation of short period orbits — definition, dynamical characteristics, small-amplitude rapid oscillation near L4/L5 triangular libration points, and classification
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Short Period Orbit Details | Small-Amplitude Rapid Oscillation Near Triangular Libration Points
+  title: "Short Period Orbit Details | Small-Amplitude Rapid Oscillation Near Triangular Libration Points"
   description: Detailed explanation of short period orbits — definition, dynamical characteristics, small-amplitude rapid oscillation near L4/L5 triangular libration points, and classification
   image: /logo.png
 permalink: /en/glossary/orbits/short-period-orbit/

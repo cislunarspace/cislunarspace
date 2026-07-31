@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Finite-Burn Pulse Explained | Term Definition
+  title: "Finite-Burn Pulse Explained | Term Definition"
   description: A control input model that simulates thruster operation as a fixed-duration pulse.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Finite-Burn Pulse Explained | Term Definition
+  title: "Finite-Burn Pulse Explained | Term Definition"
   description: A control input model that simulates thruster operation as a fixed-duration pulse.
   image: /logo.png
 permalink: /en/glossary/dynamics/FBP/

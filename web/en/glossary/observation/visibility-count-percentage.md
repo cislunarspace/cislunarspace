@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Visibility Count Percentage Explained | Term Definition
+  title: "Visibility Count Percentage Explained | Term Definition"
   description: The percentage of time steps during which an object is visible out of the total observation time, used to quantify object visibility. Computed as the sum of vis
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Visibility Count Percentage Explained | Term Definition
+  title: "Visibility Count Percentage Explained | Term Definition"
   description: The percentage of time steps during which an object is visible out of the total observation time, used to quantify object visibility. Computed as the sum of vis
   image: /logo.png
 permalink: /en/glossary/observation/visibility-count-percentage/

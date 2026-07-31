@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravitational Light Deflection Explained | Term Definition
+  title: "Gravitational Light Deflection Explained | Term Definition"
   description: A general-relativistic effect in which the gravitational field of a massive body bends the propagation path of an electromagnetic signal, causing the actual ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Light Deflection Explained | Term Definition
+  title: "Gravitational Light Deflection Explained | Term Definition"
   description: A general-relativistic effect in which the gravitational field of a massive body bends the propagation path of an electromagnetic signal, causing the actual ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/gravitational-light-deflection/

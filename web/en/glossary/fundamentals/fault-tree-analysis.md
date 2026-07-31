@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fault Tree Analysis Explained | Term Definition
+  title: "Fault Tree Analysis Explained | Term Definition"
   description: A top-down deductive failure analysis method that identifies all basic faults leading to a top-level failure state.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fault Tree Analysis Explained | Term Definition
+  title: "Fault Tree Analysis Explained | Term Definition"
   description: A top-down deductive failure analysis method that identifies all basic faults leading to a top-level failure state.
   image: /logo.png
 permalink: /en/glossary/fundamentals/fault-tree-analysis/

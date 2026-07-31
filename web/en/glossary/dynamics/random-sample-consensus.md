@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Random Sample Consensus Explained | Term Definition
+  title: "Random Sample Consensus Explained | Term Definition"
   description: A robust parameter estimation method that fits models to random minimum data subsets and iteratively rejects outliers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Random Sample Consensus Explained | Term Definition
+  title: "Random Sample Consensus Explained | Term Definition"
   description: A robust parameter estimation method that fits models to random minimum data subsets and iteratively rejects outliers.
   image: /logo.png
 permalink: /en/glossary/dynamics/random-sample-consensus/

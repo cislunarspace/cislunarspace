@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inner and Outer Transfer Explained | Term Definition
+  title: "Inner and Outer Transfer Explained | Term Definition"
   description: Two types of low-energy transfers via the LL2 point. Inner transfer is essentially transit through LL1
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inner and Outer Transfer Explained | Term Definition
+  title: "Inner and Outer Transfer Explained | Term Definition"
   description: Two types of low-energy transfers via the LL2 point. Inner transfer is essentially transit through LL1
   image: /logo.png
 permalink: /en/glossary/orbits/inner-and-outer-transfer/

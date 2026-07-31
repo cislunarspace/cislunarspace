@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertically Unstable Manifold Explained | Term Definition
+  title: "Vertically Unstable Manifold Explained | Term Definition"
   description: The unstable manifold associated with the vertical instability of planar Lyapunov orbits. Perturbations along the unstable eigenvector direction grow exponentially over time, providing natural transpo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertically Unstable Manifold Explained | Term Definition
+  title: "Vertically Unstable Manifold Explained | Term Definition"
   description: The unstable manifold associated with the vertical instability of planar Lyapunov orbits. Perturbations along the unstable eigenvector direction grow exponentially over time, providing natural transpo...
   image: /logo.png
 permalink: /en/glossary/dynamics/vertically-unstable-manifold/

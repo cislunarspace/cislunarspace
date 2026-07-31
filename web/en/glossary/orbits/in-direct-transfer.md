@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: In-Direct Transfer Explained | Term Definition
+  title: "In-Direct Transfer Explained | Term Definition"
   description: A lunar transfer method where the spacecraft inserts into the target NRHO directly after powered lunar swing-by at perilune, completing the process within ab...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-Direct Transfer Explained | Term Definition
+  title: "In-Direct Transfer Explained | Term Definition"
   description: A lunar transfer method where the spacecraft inserts into the target NRHO directly after powered lunar swing-by at perilune, completing the process within ab...
   image: /logo.png
 permalink: /en/glossary/orbits/in-direct-transfer/

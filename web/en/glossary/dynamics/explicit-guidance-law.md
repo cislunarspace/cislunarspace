@@ -1,6 +1,6 @@
 ---
 title: Explicit Guidance Law
-description: A guidance method that computes control commands in real time from the spacecraft's current state using explicit functional expressions. Unlike nominal traje...
+description: "A guidance method that computes control commands in real time from the spacecraft's current state using explicit functional expressions. Unlike nominal traje..."
 keywords: Explicit Guidance Law
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Explicit Guidance Law Explained | Term Definition
-  description: A guidance method that computes control commands in real time from the spacecraft's current state using explicit functional expressions. Unlike nominal traje...
+  title: "Explicit Guidance Law Explained | Term Definition"
+  description: "A guidance method that computes control commands in real time from the spacecraft's current state using explicit functional expressions. Unlike nominal traje..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Explicit Guidance Law Explained | Term Definition
-  description: A guidance method that computes control commands in real time from the spacecraft's current state using explicit functional expressions. Unlike nominal traje...
+  title: "Explicit Guidance Law Explained | Term Definition"
+  description: "A guidance method that computes control commands in real time from the spacecraft's current state using explicit functional expressions. Unlike nominal traje..."
   image: /logo.png
 permalink: /en/glossary/dynamics/explicit-guidance-law/
 ---

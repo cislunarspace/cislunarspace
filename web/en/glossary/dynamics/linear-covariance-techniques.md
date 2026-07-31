@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Covariance Techniques Explained | Term Definition
+  title: "Linear Covariance Techniques Explained | Term Definition"
   description: Method for closed-loop attitude determination and control analysis using linearized system equations and covariance propagation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Covariance Techniques Explained | Term Definition
+  title: "Linear Covariance Techniques Explained | Term Definition"
   description: Method for closed-loop attitude determination and control analysis using linearized system equations and covariance propagation
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-covariance-techniques/

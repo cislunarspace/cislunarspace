@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Polynomial Constraint Station-Keeping | Libration Point Orbit Control Method
+  title: "Polynomial Constraint Station-Keeping | Libration Point Orbit Control Method"
   description: Detailed explanation of the polynomial constraint station-keeping method — principles, comparison with traditional methods, and applications in libration point orbit maintenance
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Polynomial Constraint Station-Keeping | Libration Point Orbit Control Method
+  title: "Polynomial Constraint Station-Keeping | Libration Point Orbit Control Method"
   description: Detailed explanation of the polynomial constraint station-keeping method — principles, comparison with traditional methods, and applications in libration point orbit maintenance
   image: /logo.png
 permalink: /en/glossary/orbits/polynomial-constraint-stationkeeping/

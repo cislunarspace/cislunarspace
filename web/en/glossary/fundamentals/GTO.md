@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geostationary Transfer Orbit, GTO Explained | Term Definition
+  title: "Geostationary Transfer Orbit, GTO Explained | Term Definition"
   description: An intermediate orbit used by launch vehicles to deliver spacecraft to geostationary orbit, with perigee around 200-400 km and apogee near 35,786 km. Most launc
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geostationary Transfer Orbit, GTO Explained | Term Definition
+  title: "Geostationary Transfer Orbit, GTO Explained | Term Definition"
   description: An intermediate orbit used by launch vehicles to deliver spacecraft to geostationary orbit, with perigee around 200-400 km and apogee near 35,786 km. Most launc
   image: /logo.png
 permalink: /en/glossary/fundamentals/GTO/

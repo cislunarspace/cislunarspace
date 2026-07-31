@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adiabatic Index (k) Explained | Term Definition
+  title: "Adiabatic Index (k) Explained | Term Definition"
   description: Ratio of specific heat at constant pressure to specific heat at constant volume, affects nozzle flow calculations
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adiabatic Index (k) Explained | Term Definition
+  title: "Adiabatic Index (k) Explained | Term Definition"
   description: Ratio of specific heat at constant pressure to specific heat at constant volume, affects nozzle flow calculations
   image: /logo.png
 permalink: /en/glossary/fundamentals/adiabatic-index/

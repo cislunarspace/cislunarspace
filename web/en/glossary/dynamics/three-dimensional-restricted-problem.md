@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Three-Dimensional Restricted Problem Explained | Term Definition
+  title: "Three-Dimensional Restricted Problem Explained | Term Definition"
   description: "A variant of the restricted three-body problem where the third body moves in three-dimensional space rather than being confined to the plane of the primaries' m"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Three-Dimensional Restricted Problem Explained | Term Definition
+  title: "Three-Dimensional Restricted Problem Explained | Term Definition"
   description: "A variant of the restricted three-body problem where the third body moves in three-dimensional space rather than being confined to the plane of the primaries' m"
   image: /logo.png
 permalink: /en/glossary/dynamics/three-dimensional-restricted-problem/

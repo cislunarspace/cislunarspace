@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Lunar Lander | Terminology Definition
+  title: "Lunar Lander | Terminology Definition"
   description: Detailed explanation of the lunar lander definition, types, and technical challenges
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Lander | Terminology Definition
+  title: "Lunar Lander | Terminology Definition"
   description: Detailed explanation of the lunar lander definition, types, and technical challenges
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-lander/

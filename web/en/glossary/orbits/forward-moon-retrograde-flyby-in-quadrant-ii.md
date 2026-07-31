@@ -1,6 +1,6 @@
 ---
 title: Forward-Moon-Retrograde Flyby in Quadrant II (FMR-2)
-description: DRO capture method where the spacecraft's initial perilune resides in the second quadrant of the Moon-centered rotating frame and orbits the Moon retrograde.
+description: "DRO capture method where the spacecraft's initial perilune resides in the second quadrant of the Moon-centered rotating frame and orbits the Moon retrograde."
 keywords: Forward-Moon-Retrograde Flyby in Quadrant II, FMR-2
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Forward-Moon-Retrograde Flyby in Quadrant II (FMR-2) Explained | Term Definition
-  description: DRO capture method where the spacecraft's initial perilune resides in the second quadrant of the Moon-centered rotating frame and orbits the Moon retrograde.
+  title: "Forward-Moon-Retrograde Flyby in Quadrant II (FMR-2) Explained | Term Definition"
+  description: "DRO capture method where the spacecraft's initial perilune resides in the second quadrant of the Moon-centered rotating frame and orbits the Moon retrograde."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Forward-Moon-Retrograde Flyby in Quadrant II (FMR-2) Explained | Term Definition
-  description: DRO capture method where the spacecraft's initial perilune resides in the second quadrant of the Moon-centered rotating frame and orbits the Moon retrograde.
+  title: "Forward-Moon-Retrograde Flyby in Quadrant II (FMR-2) Explained | Term Definition"
+  description: "DRO capture method where the spacecraft's initial perilune resides in the second quadrant of the Moon-centered rotating frame and orbits the Moon retrograde."
   image: /logo.png
 permalink: /en/glossary/orbits/forward-moon-retrograde-flyby-in-quadrant-ii/
 ---

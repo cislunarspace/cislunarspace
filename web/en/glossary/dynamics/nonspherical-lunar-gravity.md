@@ -1,6 +1,6 @@
 ---
 title: Nonspherical Lunar Gravity
-description: The deviation of the Moon's gravity field from a perfect sphere, modeled by spherical harmonic expansion. For orbits with low perilune altitude (e.g., NRHOs)...
+description: "The deviation of the Moon's gravity field from a perfect sphere, modeled by spherical harmonic expansion. For orbits with low perilune altitude (e.g., NRHOs)..."
 keywords: Nonspherical Lunar Gravity
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nonspherical Lunar Gravity Explained | Term Definition
-  description: The deviation of the Moon's gravity field from a perfect sphere, modeled by spherical harmonic expansion. For orbits with low perilune altitude (e.g., NRHOs)...
+  title: "Nonspherical Lunar Gravity Explained | Term Definition"
+  description: "The deviation of the Moon's gravity field from a perfect sphere, modeled by spherical harmonic expansion. For orbits with low perilune altitude (e.g., NRHOs)..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nonspherical Lunar Gravity Explained | Term Definition
-  description: The deviation of the Moon's gravity field from a perfect sphere, modeled by spherical harmonic expansion. For orbits with low perilune altitude (e.g., NRHOs)...
+  title: "Nonspherical Lunar Gravity Explained | Term Definition"
+  description: "The deviation of the Moon's gravity field from a perfect sphere, modeled by spherical harmonic expansion. For orbits with low perilune altitude (e.g., NRHOs)..."
   image: /logo.png
 permalink: /en/glossary/dynamics/nonspherical-lunar-gravity/
 ---

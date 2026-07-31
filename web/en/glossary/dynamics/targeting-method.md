@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Targeting Method Details | Traditional Orbit Keeping Strategy
+  title: "Targeting Method Details | Traditional Orbit Keeping Strategy"
   description: Detailed analysis of the targeting method for orbit keeping and its comparison with other control strategies
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Targeting Method Details | Traditional Orbit Keeping Strategy
+  title: "Targeting Method Details | Traditional Orbit Keeping Strategy"
   description: Detailed analysis of the targeting method for orbit keeping and its comparison with other control strategies
   image: /logo.png
 permalink: /en/glossary/dynamics/targeting-method/

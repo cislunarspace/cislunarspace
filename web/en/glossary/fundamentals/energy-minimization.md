@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Energy Minimization Explained | Term Definition
+  title: "Energy Minimization Explained | Term Definition"
   description: An optimal control problem that minimizes the L2-norm of the control (squared control energy). Compared to the minimum-fuel problem (L1-norm), the energy minimization problem has a strictly concave an...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Energy Minimization Explained | Term Definition
+  title: "Energy Minimization Explained | Term Definition"
   description: An optimal control problem that minimizes the L2-norm of the control (squared control energy). Compared to the minimum-fuel problem (L1-norm), the energy minimization problem has a strictly concave an...
   image: /logo.png
 permalink: /en/glossary/fundamentals/energy-minimization/

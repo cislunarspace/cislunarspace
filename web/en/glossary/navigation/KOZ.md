@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Keep Out Zone, KOZ Explained | Term Definition
+  title: "Keep Out Zone, KOZ Explained | Term Definition"
   description: A 1km-radius safety sphere around the target. Normally the chaser must not enter, but during final approach it must pass through to complete docking, so the las
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Keep Out Zone, KOZ Explained | Term Definition
+  title: "Keep Out Zone, KOZ Explained | Term Definition"
   description: A 1km-radius safety sphere around the target. Normally the chaser must not enter, but during final approach it must pass through to complete docking, so the las
   image: /logo.png
 permalink: /en/glossary/navigation/KOZ/

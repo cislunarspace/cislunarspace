@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Newton Continuation Method Explained | Term Definition
+  title: "Newton Continuation Method Explained | Term Definition"
   description: A strategy of starting from a known solution at an initial parameter value and gradually solving by varying a continuation parameter using Newton iteration.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Newton Continuation Method Explained | Term Definition
+  title: "Newton Continuation Method Explained | Term Definition"
   description: A strategy of starting from a known solution at an initial parameter value and gradually solving by varying a continuation parameter using Newton iteration.
   image: /logo.png
 permalink: /en/glossary/dynamics/newton-continuation-method/

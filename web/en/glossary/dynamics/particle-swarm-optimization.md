@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Particle Swarm Optimization | Metaheuristic Optimization
+  title: "Particle Swarm Optimization | Metaheuristic Optimization"
   description: A detailed analysis of particle swarm optimization principles, algorithm flow, parameter settings, and applications in stratospheric airship trajectory planning
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Particle Swarm Optimization | Metaheuristic Optimization
+  title: "Particle Swarm Optimization | Metaheuristic Optimization"
   description: A detailed analysis of particle swarm optimization principles, algorithm flow, parameter settings, and applications in stratospheric airship trajectory planning
   image: /logo.png
 permalink: /en/glossary/dynamics/particle-swarm-optimization/

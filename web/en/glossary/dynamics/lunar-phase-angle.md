@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Phase Angle Explained | Term Definition
+  title: "Lunar Phase Angle Explained | Term Definition"
   description: The angle measured counter-clockwise from the Sun–Earth X-axis to the PS plane in the Sun–Earth rotating frame, typically ranging from 80° to 120°. Together with the Earth–Moon orientation angles (α a
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Phase Angle Explained | Term Definition
+  title: "Lunar Phase Angle Explained | Term Definition"
   description: The angle measured counter-clockwise from the Sun–Earth X-axis to the PS plane in the Sun–Earth rotating frame, typically ranging from 80° to 120°. Together with the Earth–Moon orientation angles (α a
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-phase-angle/

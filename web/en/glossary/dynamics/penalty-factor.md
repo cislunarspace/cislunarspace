@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Penalty Factor Explained | Term Definition
+  title: "Penalty Factor Explained | Term Definition"
   description: "The coefficient in the fitness function that penalizes the number of failed Monte Carlo runs."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Penalty Factor Explained | Term Definition
+  title: "Penalty Factor Explained | Term Definition"
   description: "The coefficient in the fitness function that penalizes the number of failed Monte Carlo runs."
   image: /logo.png
 permalink: /en/glossary/dynamics/penalty-factor/

@@ -1,6 +1,6 @@
 ---
 title: Indirect Heuristic Method
-description: Numerical method for low-thrust orbit transfer that combines necessary conditions for optimality (Pontryagin's Minimum Principle) with heuristic algorithms such
+description: "Numerical method for low-thrust orbit transfer that combines necessary conditions for optimality (Pontryagin's Minimum Principle) with heuristic algorithms such"
 keywords: Indirect Heuristic Method, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Heuristic Method Explained | Term Definition
-  description: Numerical method for low-thrust orbit transfer that combines necessary conditions for optimality (Pontryagin's Minimum Principle) with heuristic algorithms such
+  title: "Indirect Heuristic Method Explained | Term Definition"
+  description: "Numerical method for low-thrust orbit transfer that combines necessary conditions for optimality (Pontryagin's Minimum Principle) with heuristic algorithms such"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Heuristic Method Explained | Term Definition
-  description: Numerical method for low-thrust orbit transfer that combines necessary conditions for optimality (Pontryagin's Minimum Principle) with heuristic algorithms such
+  title: "Indirect Heuristic Method Explained | Term Definition"
+  description: "Numerical method for low-thrust orbit transfer that combines necessary conditions for optimality (Pontryagin's Minimum Principle) with heuristic algorithms such"
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-heuristic-method/
 ---

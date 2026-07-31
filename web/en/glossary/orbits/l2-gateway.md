@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L2 Gateway Explained | Term Definition
+  title: "L2 Gateway Explained | Term Definition"
   description: A narrow gateway region near the L2 libration point in the Earth-moon system through which trajectories pass to or from the exterior region.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L2 Gateway Explained | Term Definition
+  title: "L2 Gateway Explained | Term Definition"
   description: A narrow gateway region near the L2 libration point in the Earth-moon system through which trajectories pass to or from the exterior region.
   image: /logo.png
 permalink: /en/glossary/orbits/l2-gateway/

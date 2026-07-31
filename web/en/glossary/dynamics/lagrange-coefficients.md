@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lagrange Coefficients Explained | Term Definition
+  title: "Lagrange Coefficients Explained | Term Definition"
   description: Coefficient pairs (f, g, fdot, gdot) that linearly relate position and velocity at two points on an orbit, expressible in terms of change in true anomaly or time of flight in the two-body problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lagrange Coefficients Explained | Term Definition
+  title: "Lagrange Coefficients Explained | Term Definition"
   description: Coefficient pairs (f, g, fdot, gdot) that linearly relate position and velocity at two points on an orbit, expressible in terms of change in true anomaly or time of flight in the two-body problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/lagrange-coefficients/

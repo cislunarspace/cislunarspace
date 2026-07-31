@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial Amplitude Explained | Term Definition
+  title: "Radial Amplitude Explained | Term Definition"
   description: The maximum displacement of a halo orbit along the x-axis (the line connecting the two primary bodies) in the rotating frame. Unlike the out-of-plane amplitude 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial Amplitude Explained | Term Definition
+  title: "Radial Amplitude Explained | Term Definition"
   description: The maximum displacement of a halo orbit along the x-axis (the line connecting the two primary bodies) in the rotating frame. Unlike the out-of-plane amplitude 
   image: /logo.png
 permalink: /en/glossary/orbits/A_x/

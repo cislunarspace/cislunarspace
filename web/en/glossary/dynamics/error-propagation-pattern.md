@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Error Propagation Pattern Explained | Term Definition
+  title: "Error Propagation Pattern Explained | Term Definition"
   description: Pattern describing how initial state errors propagate and amplify through orbital states over prediction time. Collinear libration point orbits exhibit fundamentally different error propagation from n...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Error Propagation Pattern Explained | Term Definition
+  title: "Error Propagation Pattern Explained | Term Definition"
   description: Pattern describing how initial state errors propagate and amplify through orbital states over prediction time. Collinear libration point orbits exhibit fundamentally different error propagation from n...
   image: /logo.png
 permalink: /en/glossary/dynamics/error-propagation-pattern/

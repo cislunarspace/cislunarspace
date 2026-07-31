@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powered Explicit Guidance, PEG Explained | Term Definition
+  title: "Powered Explicit Guidance, PEG Explained | Term Definition"
   description: A bilinear tangent guidance law with constant thrust magnitude and linearly varying thrust direction, used for powered descent phases of rocket engines to contr
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Explicit Guidance, PEG Explained | Term Definition
+  title: "Powered Explicit Guidance, PEG Explained | Term Definition"
   description: A bilinear tangent guidance law with constant thrust magnitude and linearly varying thrust direction, used for powered descent phases of rocket engines to contr
   image: /logo.png
 permalink: /en/glossary/navigation/powered-explicit-guidance-peg/

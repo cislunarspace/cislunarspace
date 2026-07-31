@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mixed Integer Programming, MIP Explained | Term Definition
+  title: "Mixed Integer Programming, MIP Explained | Term Definition"
   description: A mathematical programming approach involving both integer and continuous real-valued variables. In multitarget rendezvous problems, the visiting sequence is...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mixed Integer Programming, MIP Explained | Term Definition
+  title: "Mixed Integer Programming, MIP Explained | Term Definition"
   description: A mathematical programming approach involving both integer and continuous real-valued variables. In multitarget rendezvous problems, the visiting sequence is...
   image: /logo.png
 permalink: /en/glossary/fundamentals/mixed-integer-programming-mip/

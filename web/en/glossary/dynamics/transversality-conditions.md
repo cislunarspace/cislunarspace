@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transversality Conditions Explained | Term Definition
+  title: "Transversality Conditions Explained | Term Definition"
   description: Boundary conditions that conjugate variables must satisfy at the terminal time in an optimal control problem. The paper states the transversality conditions as lambda(tf)=(dPhi/dx)^T·v, where v is the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transversality Conditions Explained | Term Definition
+  title: "Transversality Conditions Explained | Term Definition"
   description: Boundary conditions that conjugate variables must satisfy at the terminal time in an optimal control problem. The paper states the transversality conditions as lambda(tf)=(dPhi/dx)^T·v, where v is the...
   image: /logo.png
 permalink: /en/glossary/dynamics/transversality-conditions/

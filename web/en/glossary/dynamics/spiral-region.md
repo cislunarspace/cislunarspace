@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spiral Region Explained | Term Definition
+  title: "Spiral Region Explained | Term Definition"
   description: Region of the initial costate locus where S>12, corresponding to multi-revolution (10+) low-thrust spiral transfers with thrust direction approximately tange...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spiral Region Explained | Term Definition
+  title: "Spiral Region Explained | Term Definition"
   description: Region of the initial costate locus where S>12, corresponding to multi-revolution (10+) low-thrust spiral transfers with thrust direction approximately tange...
   image: /logo.png
 permalink: /en/glossary/dynamics/spiral-region/

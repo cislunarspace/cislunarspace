@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Permanence in Ballistic Capture Explained | Term Definition
+  title: "Time of Permanence in Ballistic Capture Explained | Term Definition"
   description: The duration from the first perilune to the moment the spacecraft escapes the lunar sphere of influence in a ballistic capture orbit. A key metric for evaluating capture orbit quality; longer permanen...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Permanence in Ballistic Capture Explained | Term Definition
+  title: "Time of Permanence in Ballistic Capture Explained | Term Definition"
   description: The duration from the first perilune to the moment the spacecraft escapes the lunar sphere of influence in a ballistic capture orbit. A key metric for evaluating capture orbit quality; longer permanen...
   image: /logo.png
 permalink: /en/glossary/dynamics/time-of-permanence-in-ballistic-capture/

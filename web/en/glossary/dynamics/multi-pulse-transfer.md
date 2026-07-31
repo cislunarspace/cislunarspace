@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Pulse Transfer Explained | Term Definition
+  title: "Multi-Pulse Transfer Explained | Term Definition"
   description: A control scheme where multiple maneuver points are selected along a reference trajectory, and velocity impulses are applied at each point so that the deputy tr
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Pulse Transfer Explained | Term Definition
+  title: "Multi-Pulse Transfer Explained | Term Definition"
   description: A control scheme where multiple maneuver points are selected along a reference trajectory, and velocity impulses are applied at each point so that the deputy tr
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-pulse-transfer/

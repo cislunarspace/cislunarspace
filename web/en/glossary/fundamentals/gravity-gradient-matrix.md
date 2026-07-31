@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravity gradient matrix Explained | Term Definition
+  title: "Gravity gradient matrix Explained | Term Definition"
   description: The 3×3 symmetric matrix G(r) = ∂g(r)/∂r, the partial derivative of gravitational acceleration with respect to position. It appears in the primer vector equatio
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravity gradient matrix Explained | Term Definition
+  title: "Gravity gradient matrix Explained | Term Definition"
   description: The 3×3 symmetric matrix G(r) = ∂g(r)/∂r, the partial derivative of gravitational acceleration with respect to position. It appears in the primer vector equatio
   image: /logo.png
 permalink: /en/glossary/fundamentals/gravity-gradient-matrix/

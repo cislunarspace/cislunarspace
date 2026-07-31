@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudospectral Convex Optimization Explained | Term Definition
+  title: "Pseudospectral Convex Optimization Explained | Term Definition"
   description: Trajectory optimization technique that discretizes optimal control problems using pseudospectral methods and solves them via convex optimization, achieving high
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudospectral Convex Optimization Explained | Term Definition
+  title: "Pseudospectral Convex Optimization Explained | Term Definition"
   description: Trajectory optimization technique that discretizes optimal control problems using pseudospectral methods and solves them via convex optimization, achieving high
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudospectral-convex-optimization/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Inter-Satellite Link Details | Core Satellite Communication Technology
+  title: "Inter-Satellite Link Details | Core Satellite Communication Technology"
   description: Direct communication links between satellites for tracking, telemetry, and command, including both microwave and laser technology regimes
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inter-Satellite Link Details | Core Satellite Communication Technology
+  title: "Inter-Satellite Link Details | Core Satellite Communication Technology"
   description: Direct communication links between satellites for tracking, telemetry, and command, including both microwave and laser technology regimes
   image: /logo.png
 permalink: /en/glossary/communication/inter-satellite-link/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periodic Orbit Explained | Term Definition
+  title: "Periodic Orbit Explained | Term Definition"
   description: An orbit in phase space that returns to its initial conditions. The study of periodic orbits is central to qualitative analysis of the restricted three-body pro
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periodic Orbit Explained | Term Definition
+  title: "Periodic Orbit Explained | Term Definition"
   description: An orbit in phase space that returns to its initial conditions. The study of periodic orbits is central to qualitative analysis of the restricted three-body pro
   image: /logo.png
 permalink: /en/glossary/orbits/periodic-orbit/

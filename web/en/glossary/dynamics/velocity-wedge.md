@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Velocity Wedge Explained | Term Definition
+  title: "Velocity Wedge Explained | Term Definition"
   description: In the phase space near a libration point, velocity boundary conditions defining transit orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity Wedge Explained | Term Definition
+  title: "Velocity Wedge Explained | Term Definition"
   description: In the phase space near a libration point, velocity boundary conditions defining transit orbits.
   image: /logo.png
 permalink: /en/glossary/dynamics/velocity-wedge/

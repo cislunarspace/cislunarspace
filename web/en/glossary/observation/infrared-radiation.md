@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Infrared Radiation Details | Other
+  title: "Infrared Radiation Details | Other"
   description: Infrared radiation is electromagnetic radiation with wavelengths between visible light and microwaves in the electromagnetic spectrum.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Infrared Radiation Details | Other
+  title: "Infrared Radiation Details | Other"
   description: Infrared radiation is electromagnetic radiation with wavelengths between visible light and microwaves in the electromagnetic spectrum.
   image: /logo.png
 permalink: /en/glossary/observation/infrared-radiation/

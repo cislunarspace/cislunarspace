@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local Vertical Local Horizontal, LVLH (LVLH) Explained | Term Definition
+  title: "Local Vertical Local Horizontal, LVLH (LVLH) Explained | Term Definition"
   description: Reference frame centered on the target spacecraft with axes along local vertical and local horizontal directions, commonly used for relative motion description.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local Vertical Local Horizontal, LVLH (LVLH) Explained | Term Definition
+  title: "Local Vertical Local Horizontal, LVLH (LVLH) Explained | Term Definition"
   description: Reference frame centered on the target spacecraft with axes along local vertical and local horizontal directions, commonly used for relative motion description.
   image: /logo.png
 permalink: /en/glossary/fundamentals/local-vertical-local-horizontal-lvlh/

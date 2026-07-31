@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homotopy Continuation Explained | Term Definition
+  title: "Homotopy Continuation Explained | Term Definition"
   description: A progressive root-finding algorithm that starts from a known solution of a simplified problem and gradually converges to the solution of a more complex problem by tracing an implicitly defined curve.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homotopy Continuation Explained | Term Definition
+  title: "Homotopy Continuation Explained | Term Definition"
   description: A progressive root-finding algorithm that starts from a known solution of a simplified problem and gradually converges to the solution of a more complex problem by tracing an implicitly defined curve.
   image: /logo.png
 permalink: /en/glossary/dynamics/homotopy-continuation/

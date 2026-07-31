@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Revolution Number, τ Explained | Term Definition
+  title: "Revolution Number, τ Explained | Term Definition"
   description: A phase parameter on a halo orbit, analogous to mean anomaly for conic orbits but ranging from [0,1] instead of an angle, advancing linearly with time. The r...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Revolution Number, τ Explained | Term Definition
+  title: "Revolution Number, τ Explained | Term Definition"
   description: A phase parameter on a halo orbit, analogous to mean anomaly for conic orbits but ranging from [0,1] instead of an angle, advancing linearly with time. The r...
   image: /logo.png
 permalink: /en/glossary/orbits/revolution-number/

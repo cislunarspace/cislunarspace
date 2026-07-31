@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptical Lunar Orbit, ELO Explained | Term Definition
+  title: "Elliptical Lunar Orbit, ELO Explained | Term Definition"
   description: Equatorial orbits with low perilune distance providing favorable access to the lunar surface at reduced cost from Earth.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptical Lunar Orbit, ELO Explained | Term Definition
+  title: "Elliptical Lunar Orbit, ELO Explained | Term Definition"
   description: Equatorial orbits with low perilune distance providing favorable access to the lunar surface at reduced cost from Earth.
   image: /logo.png
 permalink: /en/glossary/orbits/elliptical-lunar-orbit-elo/

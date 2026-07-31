@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homotopy Method Explained | Term Definition
+  title: "Homotopy Method Explained | Term Definition"
   description: A numerical continuation technique that gradually deforms an easily solvable problem into the target problem by introducing a continuously varying parameter,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homotopy Method Explained | Term Definition
+  title: "Homotopy Method Explained | Term Definition"
   description: A numerical continuation technique that gradually deforms an easily solvable problem into the target problem by introducing a continuously varying parameter,...
   image: /logo.png
 permalink: /en/glossary/fundamentals/homotopy-method/

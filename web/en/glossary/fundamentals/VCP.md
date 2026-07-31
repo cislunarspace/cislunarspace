@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vacuum Perigee Explained | Term Definition
+  title: "Vacuum Perigee Explained | Term Definition"
   description: The point of minimum geocentric distance on the Earth-return segment of a free-return trajectory. Located outside the atmosphere, its geocentric distance has an
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vacuum Perigee Explained | Term Definition
+  title: "Vacuum Perigee Explained | Term Definition"
   description: The point of minimum geocentric distance on the Earth-return segment of a free-return trajectory. Located outside the atmosphere, its geocentric distance has an
   image: /logo.png
 permalink: /en/glossary/fundamentals/VCP/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Lunar Base Details | Exploration Programs
+  title: "Lunar Base Details | Exploration Programs"
   description: A lunar base is a long-term habitation facility established on the lunar surface or in lunar orbit for scientific research, resource utilization, and deep-space exploration staging.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Base Details | Exploration Programs
+  title: "Lunar Base Details | Exploration Programs"
   description: A lunar base is a long-term habitation facility established on the lunar surface or in lunar orbit for scientific research, resource utilization, and deep-space exploration staging.
   image: /logo.png
 permalink: /en/glossary/programs/lunar-base/

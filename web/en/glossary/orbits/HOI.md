@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Insertion, HOI Explained | Term Definition
+  title: "Halo Orbit Insertion, HOI Explained | Term Definition"
   description: The insertion strategy in which the spacecraft performs its final maneuver directly onto the target Halo orbit at a specified position and time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Insertion, HOI Explained | Term Definition
+  title: "Halo Orbit Insertion, HOI Explained | Term Definition"
   description: The insertion strategy in which the spacecraft performs its final maneuver directly onto the target Halo orbit at a specified position and time.
   image: /logo.png
 permalink: /en/glossary/orbits/HOI/

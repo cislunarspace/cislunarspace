@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Patch Point Details | Key Nodes in Multi-Segment Orbit Computation
+  title: "Patch Point Details | Key Nodes in Multi-Segment Orbit Computation"
   description: Detailed analysis of patch point selection and its role in multi-segment orbit computation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Patch Point Details | Key Nodes in Multi-Segment Orbit Computation
+  title: "Patch Point Details | Key Nodes in Multi-Segment Orbit Computation"
   description: Detailed analysis of patch point selection and its role in multi-segment orbit computation
   image: /logo.png
 permalink: /en/glossary/dynamics/patch-point/

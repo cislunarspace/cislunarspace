@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hidden-Genes Genetic Algorithm Explained | Term Definition
+  title: "Hidden-Genes Genetic Algorithm Explained | Term Definition"
   description: A multi-objective optimization algorithm developed by Visonneau et al. for cislunar SSA architecture design. By introducing a hidden-genes mechanism in chrom...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hidden-Genes Genetic Algorithm Explained | Term Definition
+  title: "Hidden-Genes Genetic Algorithm Explained | Term Definition"
   description: A multi-objective optimization algorithm developed by Visonneau et al. for cislunar SSA architecture design. By introducing a hidden-genes mechanism in chrom...
   image: /logo.png
 permalink: /en/glossary/fundamentals/hidden-genes-genetic-algorithm/

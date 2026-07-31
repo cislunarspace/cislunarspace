@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hidden-Genes Genetic Algorithm, HGGA Explained | Term Definition
+  title: "Hidden-Genes Genetic Algorithm, HGGA Explained | Term Definition"
   description: A variant of genetic algorithm that handles variable-length decision vectors. It uses a fixed-length chromosome structure with tags to mark each gene as active or hidden, so that the objective function evaluates only variables corresponding to active genes, enabling efficient search in a variable-size design space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hidden-Genes Genetic Algorithm, HGGA Explained | Term Definition
+  title: "Hidden-Genes Genetic Algorithm, HGGA Explained | Term Definition"
   description: A variant of genetic algorithm that handles variable-length decision vectors. It uses a fixed-length chromosome structure with tags to mark each gene as active or hidden, so that the objective function evaluates only variables corresponding to active genes, enabling efficient search in a variable-size design space.
   image: /logo.png
 permalink: /en/glossary/dynamics/hidden-genes-genetic-algorithm-hgga/

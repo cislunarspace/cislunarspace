@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Temporary Capture Explained | Term Definition
+  title: "Temporary Capture Explained | Term Definition"
   description: A phenomenon where the third body lingers temporarily near the second primary without being permanently bound. In the CR3BP, trajectories in the unstable man...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Temporary Capture Explained | Term Definition
+  title: "Temporary Capture Explained | Term Definition"
   description: A phenomenon where the third body lingers temporarily near the second primary without being permanently bound. In the CR3BP, trajectories in the unstable man...
   image: /logo.png
 permalink: /en/glossary/dynamics/temporary-capture/

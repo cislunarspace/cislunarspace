@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local Vertical Local Horizon Explained | Term Definition
+  title: "Local Vertical Local Horizon Explained | Term Definition"
   description: A local reference frame defined with respect to the target spacecraft, with R-bar pointing to the primary body, H-bar perpendicular to the orbital plane, and V-
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local Vertical Local Horizon Explained | Term Definition
+  title: "Local Vertical Local Horizon Explained | Term Definition"
   description: A local reference frame defined with respect to the target spacecraft, with R-bar pointing to the primary body, H-bar perpendicular to the orbital plane, and V-
   image: /logo.png
 permalink: /en/glossary/fundamentals/local-vertical-local-horizon/

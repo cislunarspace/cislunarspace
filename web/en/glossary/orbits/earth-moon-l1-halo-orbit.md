@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon L1 Halo Orbit Explained | Term Definition
+  title: "Earth-Moon L1 Halo Orbit Explained | Term Definition"
   description: A halo orbit around the Earth-Moon L1 libration point, providing continuous communication coverage for the lunar far side.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon L1 Halo Orbit Explained | Term Definition
+  title: "Earth-Moon L1 Halo Orbit Explained | Term Definition"
   description: A halo orbit around the Earth-Moon L1 libration point, providing continuous communication coverage for the lunar far side.
   image: /logo.png
 permalink: /en/glossary/orbits/earth-moon-l1-halo-orbit/

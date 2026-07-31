@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Line-of-Sight Constraint, LOS Constraint (LOS) Explained | Term Definition
+  title: "Line-of-Sight Constraint, LOS Constraint (LOS) Explained | Term Definition"
   description: A geometric constraint in rendezvous and docking requiring the chaser spacecraft to remain within the sensor cone of the target docking port at all times....
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Line-of-Sight Constraint, LOS Constraint (LOS) Explained | Term Definition
+  title: "Line-of-Sight Constraint, LOS Constraint (LOS) Explained | Term Definition"
   description: A geometric constraint in rendezvous and docking requiring the chaser spacecraft to remain within the sensor cone of the target docking port at all times....
   image: /logo.png
 permalink: /en/glossary/dynamics/line-of-sight-constraint-los-constraint/

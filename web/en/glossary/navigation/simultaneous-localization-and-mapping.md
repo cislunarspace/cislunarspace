@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Simultaneous Localization and Mapping Explained | Term Definition
+  title: "Simultaneous Localization and Mapping Explained | Term Definition"
   description: Technique where a robot simultaneously estimates its position and constructs an environmental map in an unknown environment
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Simultaneous Localization and Mapping Explained | Term Definition
+  title: "Simultaneous Localization and Mapping Explained | Term Definition"
   description: Technique where a robot simultaneously estimates its position and constructs an environmental map in an unknown environment
   image: /logo.png
 permalink: /en/glossary/navigation/simultaneous-localization-and-mapping/

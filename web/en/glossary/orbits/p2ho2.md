@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: P2HO2 Orbit Explained | Term Definition
+  title: "P2HO2 Orbit Explained | Term Definition"
   description: A periodic orbit family used as a servicing hub, with characteristics related to the butterfly orbit family.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: P2HO2 Orbit Explained | Term Definition
+  title: "P2HO2 Orbit Explained | Term Definition"
   description: A periodic orbit family used as a servicing hub, with characteristics related to the butterfly orbit family.
   image: /logo.png
 permalink: /en/glossary/orbits/p2ho2/

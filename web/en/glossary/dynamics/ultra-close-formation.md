@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ultra-Close Formation Explained | Term Definition
+  title: "Ultra-Close Formation Explained | Term Definition"
   description: A formation flying mode with inter-spacecraft distances at or below the 100-meter scale. It demands extremely high control precision, as minor errors can cause 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ultra-Close Formation Explained | Term Definition
+  title: "Ultra-Close Formation Explained | Term Definition"
   description: A formation flying mode with inter-spacecraft distances at or below the 100-meter scale. It demands extremely high control precision, as minor errors can cause 
   image: /logo.png
 permalink: /en/glossary/dynamics/ultra-close-formation/

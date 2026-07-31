@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Maintenance Cost Explained | Term Definition
+  title: "Orbit Maintenance Cost Explained | Term Definition"
   description: The total delta-V required for station-keeping from orbit insertion to end of life (assumed 20 years in the paper), measured as a mass ratio. Stable orbits l...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Maintenance Cost Explained | Term Definition
+  title: "Orbit Maintenance Cost Explained | Term Definition"
   description: The total delta-V required for station-keeping from orbit insertion to end of life (assumed 20 years in the paper), measured as a mass ratio. Stable orbits l...
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-maintenance-cost/

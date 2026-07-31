@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperbolic Tangent Smoothing, HTS Explained | Term Definition
+  title: "Hyperbolic Tangent Smoothing, HTS Explained | Term Definition"
   description: A smoothing technique that approximates discontinuous bang-off-bang control inputs using a hyperbolic tangent function.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperbolic Tangent Smoothing, HTS Explained | Term Definition
+  title: "Hyperbolic Tangent Smoothing, HTS Explained | Term Definition"
   description: A smoothing technique that approximates discontinuous bang-off-bang control inputs using a hyperbolic tangent function.
   image: /logo.png
 permalink: /en/glossary/dynamics/HTS/

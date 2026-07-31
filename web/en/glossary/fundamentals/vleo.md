@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Very Low Earth Orbit (VLEO) | Terminology Definition
+  title: "Very Low Earth Orbit (VLEO) | Terminology Definition"
   description: Detailed analysis of Very Low Earth Orbit definition and applications
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Very Low Earth Orbit (VLEO) | Terminology Definition
+  title: "Very Low Earth Orbit (VLEO) | Terminology Definition"
   description: Detailed analysis of Very Low Earth Orbit definition and applications
   image: /logo.png
 permalink: /en/glossary/fundamentals/vleo/

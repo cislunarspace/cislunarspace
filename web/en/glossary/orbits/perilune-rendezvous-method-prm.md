@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Rendezvous Method (PRM) Explained | Term Definition
+  title: "Perilune Rendezvous Method (PRM) Explained | Term Definition"
   description: The foundational method of EPRM, achieving NRHO insertion at perilune with approximately 50 m/s delta-V and total delta-V of approximately 322 m/s.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Rendezvous Method (PRM) Explained | Term Definition
+  title: "Perilune Rendezvous Method (PRM) Explained | Term Definition"
   description: The foundational method of EPRM, achieving NRHO insertion at perilune with approximately 50 m/s delta-V and total delta-V of approximately 322 m/s.
   image: /logo.png
 permalink: /en/glossary/orbits/perilune-rendezvous-method-prm/

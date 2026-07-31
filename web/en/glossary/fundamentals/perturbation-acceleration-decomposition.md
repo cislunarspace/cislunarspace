@@ -1,6 +1,6 @@
 ---
 title: Perturbation Acceleration Decomposition (S, T, W)
-description: Decomposing the perturbation acceleration acting on a spacecraft into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). The Gauss-t
+description: "Decomposing the perturbation acceleration acting on a spacecraft into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). The Gauss-t"
 keywords: Perturbation Acceleration Decomposition, S, T, W
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perturbation Acceleration Decomposition (S, T, W) Explained | Term Definition
-  description: Decomposing the perturbation acceleration acting on a spacecraft into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). The Gauss-t
+  title: "Perturbation Acceleration Decomposition (S, T, W) Explained | Term Definition"
+  description: "Decomposing the perturbation acceleration acting on a spacecraft into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). The Gauss-t"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perturbation Acceleration Decomposition (S, T, W) Explained | Term Definition
-  description: Decomposing the perturbation acceleration acting on a spacecraft into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). The Gauss-t
+  title: "Perturbation Acceleration Decomposition (S, T, W) Explained | Term Definition"
+  description: "Decomposing the perturbation acceleration acting on a spacecraft into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). The Gauss-t"
   image: /logo.png
 permalink: /en/glossary/fundamentals/perturbation-acceleration-decomposition/
 ---

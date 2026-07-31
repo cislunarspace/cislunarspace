@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Delaunay Elements Explained | Term Definition
+  title: "Delaunay Elements Explained | Term Definition"
   description: A set of conjugate parameters that make the three-body equations of motion take Hamiltonian form, including L, G, H and their conjugate angular variables.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Delaunay Elements Explained | Term Definition
+  title: "Delaunay Elements Explained | Term Definition"
   description: A set of conjugate parameters that make the three-body equations of motion take Hamiltonian form, including L, G, H and their conjugate angular variables.
   image: /logo.png
 permalink: /en/glossary/dynamics/delaunay-elements/

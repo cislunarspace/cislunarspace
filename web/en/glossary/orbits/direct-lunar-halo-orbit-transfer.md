@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Lunar Halo Orbit Transfer Explained | Term Definition
+  title: "Direct Lunar Halo Orbit Transfer Explained | Term Definition"
   description: A two-burn transfer trajectory from Earth parking orbit directly to a lunar halo orbit. The first burn (trans-lunar injection) is performed from a LEO parking orbit; the second burn (manifold insertio...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Lunar Halo Orbit Transfer Explained | Term Definition
+  title: "Direct Lunar Halo Orbit Transfer Explained | Term Definition"
   description: A two-burn transfer trajectory from Earth parking orbit directly to a lunar halo orbit. The first burn (trans-lunar injection) is performed from a LEO parking orbit; the second burn (manifold insertio...
   image: /logo.png
 permalink: /en/glossary/orbits/direct-lunar-halo-orbit-transfer/

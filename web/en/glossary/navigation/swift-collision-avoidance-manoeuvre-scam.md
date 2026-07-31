@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Swift Collision Avoidance Manoeuvre, SCAM Explained | Term Definition
+  title: "Swift Collision Avoidance Manoeuvre, SCAM Explained | Term Definition"
   description: An emergency collision avoidance scheme inside the Safety Boundary. Uses maximum-thrust short burns to push the chaser radially away from the target. Faster response and lower delta-V than OCAM, witho...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Swift Collision Avoidance Manoeuvre, SCAM Explained | Term Definition
+  title: "Swift Collision Avoidance Manoeuvre, SCAM Explained | Term Definition"
   description: An emergency collision avoidance scheme inside the Safety Boundary. Uses maximum-thrust short burns to push the chaser radially away from the target. Faster response and lower delta-V than OCAM, witho...
   image: /logo.png
 permalink: /en/glossary/navigation/swift-collision-avoidance-manoeuvre-scam/

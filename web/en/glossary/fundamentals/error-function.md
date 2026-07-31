@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Error Function Explained | Term Definition
+  title: "Error Function Explained | Term Definition"
   description: A special mathematical function erf(x) = (1/sqrt(pi)) * integral(e^(-t^2)) dt. The paper finds that using erf as the smoothing function halves computation time 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Error Function Explained | Term Definition
+  title: "Error Function Explained | Term Definition"
   description: A special mathematical function erf(x) = (1/sqrt(pi)) * integral(e^(-t^2)) dt. The paper finds that using erf as the smoothing function halves computation time 
   image: /logo.png
 permalink: /en/glossary/fundamentals/error-function/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Commander, Space Forces (COMSPACEFOR) Explained | Space Force Vector 2025
+  title: "Commander, Space Forces (COMSPACEFOR) Explained | Space Force Vector 2025"
   description: Detailed explanation of U.S. Space Force COMSPACEFOR definition, command responsibilities, appointment mechanisms, and core leadership role within the Space Mission Task Force
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Commander, Space Forces (COMSPACEFOR) Explained | Space Force Vector 2025
+  title: "Commander, Space Forces (COMSPACEFOR) Explained | Space Force Vector 2025"
   description: Detailed explanation of U.S. Space Force COMSPACEFOR definition, command responsibilities, appointment mechanisms, and core leadership role within the Space Mission Task Force
   image: /logo.png
 permalink: /en/glossary/doctrine/comspacefor/

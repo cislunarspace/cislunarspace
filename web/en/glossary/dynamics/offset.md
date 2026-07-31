@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Offset Explained | Term Definition
+  title: "Offset Explained | Term Definition"
   description: "A parameter measuring the divergence of a perturbed DRO from an ideal DRO over a given mission lifetime. Computed as the sum of squared differences between the"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Offset Explained | Term Definition
+  title: "Offset Explained | Term Definition"
   description: "A parameter measuring the divergence of a perturbed DRO from an ideal DRO over a given mission lifetime. Computed as the sum of squared differences between the"
   image: /logo.png
 permalink: /en/glossary/dynamics/offset/

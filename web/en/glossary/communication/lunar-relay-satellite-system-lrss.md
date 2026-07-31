@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Relay Satellite System, LRSS Explained | Term Definition
+  title: "Lunar Relay Satellite System, LRSS Explained | Term Definition"
   description: A data relay station established using cislunar periodic orbits, providing communication relay between far-side lunar probes and Earth ground stations. This pap
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Relay Satellite System, LRSS Explained | Term Definition
+  title: "Lunar Relay Satellite System, LRSS Explained | Term Definition"
   description: A data relay station established using cislunar periodic orbits, providing communication relay between far-side lunar probes and Earth ground stations. This pap
   image: /logo.png
 permalink: /en/glossary/communication/lunar-relay-satellite-system-lrss/

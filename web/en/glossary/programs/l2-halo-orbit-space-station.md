@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L2 Halo Orbit Space Station Explained | Term Definition
+  title: "L2 Halo Orbit Space Station Explained | Term Definition"
   description: "A crewed space facility on a Halo orbit near the Earth-Moon L2 libration point. Since L2 lies behind the Moon, a direct station would suffer communication blackout; the Halo orbit's altitude avoids lu..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L2 Halo Orbit Space Station Explained | Term Definition
+  title: "L2 Halo Orbit Space Station Explained | Term Definition"
   description: "A crewed space facility on a Halo orbit near the Earth-Moon L2 libration point. Since L2 lies behind the Moon, a direct station would suffer communication blackout; the Halo orbit's altitude avoids lu..."
   image: /logo.png
 permalink: /en/glossary/programs/l2-halo-orbit-space-station/

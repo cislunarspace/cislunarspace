@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homotopy Iteration Method Explained | Term Definition
+  title: "Homotopy Iteration Method Explained | Term Definition"
   description: A numerical method for solving nonlinear equations. By constructing a continuous deformation path (homotopy path) from a known solution to the target solution, 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homotopy Iteration Method Explained | Term Definition
+  title: "Homotopy Iteration Method Explained | Term Definition"
   description: A numerical method for solving nonlinear equations. By constructing a continuous deformation path (homotopy path) from a known solution to the target solution, 
   image: /logo.png
 permalink: /en/glossary/fundamentals/homotopy-iteration-method/

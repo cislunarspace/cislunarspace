@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exterior Stable Manifold Explained | Term Definition
+  title: "Exterior Stable Manifold Explained | Term Definition"
   description: The half of the stable manifold of a halo orbit that extends away from the Moon. A spacecraft on the exterior stable manifold moves outward from the halo orbit and can be used to design exterior trans...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exterior Stable Manifold Explained | Term Definition
+  title: "Exterior Stable Manifold Explained | Term Definition"
   description: The half of the stable manifold of a halo orbit that extends away from the Moon. A spacecraft on the exterior stable manifold moves outward from the halo orbit and can be used to design exterior trans...
   image: /logo.png
 permalink: /en/glossary/dynamics/exterior-stable-manifold/

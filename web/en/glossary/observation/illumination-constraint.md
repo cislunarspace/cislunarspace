@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Illumination Constraint Explained | Cislunar Optical Detection
+  title: "Illumination Constraint Explained | Cislunar Optical Detection"
   description: Detailed explanation of the illumination constraint and its role in cislunar optical detection
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Illumination Constraint Explained | Cislunar Optical Detection
+  title: "Illumination Constraint Explained | Cislunar Optical Detection"
   description: Detailed explanation of the illumination constraint and its role in cislunar optical detection
   image: /logo.png
 permalink: /en/glossary/observation/illumination-constraint/

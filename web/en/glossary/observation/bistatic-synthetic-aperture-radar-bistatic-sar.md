@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bistatic Synthetic Aperture Radar, Bistatic SAR Explained | Term Definition
+  title: "Bistatic Synthetic Aperture Radar, Bistatic SAR Explained | Term Definition"
   description: A synthetic aperture radar with physically separated transmitting and receiving antennas. The bistatic configuration enables use of non-cooperative illuminators or dedicated transmitters, offering advantages such as covert operation, simple receivers, and multistatic cooperation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bistatic Synthetic Aperture Radar, Bistatic SAR Explained | Term Definition
+  title: "Bistatic Synthetic Aperture Radar, Bistatic SAR Explained | Term Definition"
   description: A synthetic aperture radar with physically separated transmitting and receiving antennas. The bistatic configuration enables use of non-cooperative illuminators or dedicated transmitters, offering advantages such as covert operation, simple receivers, and multistatic cooperation.
   image: /logo.png
 permalink: /en/glossary/observation/bistatic-synthetic-aperture-radar-bistatic-sar/

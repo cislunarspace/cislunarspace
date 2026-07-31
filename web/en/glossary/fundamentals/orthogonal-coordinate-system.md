@@ -1,6 +1,6 @@
 ---
 title: Orthogonal coordinate system
-description: A coordinate system defined by radial and chord unit vectors, used to derive geometric relations in Lambert's problem.
+description: "A coordinate system defined by radial and chord unit vectors, used to derive geometric relations in Lambert's problem."
 keywords: Orthogonal coordinate system
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orthogonal coordinate system Explained | Term Definition
-  description: A coordinate system defined by radial and chord unit vectors, used to derive geometric relations in Lambert's problem.
+  title: "Orthogonal coordinate system Explained | Term Definition"
+  description: "A coordinate system defined by radial and chord unit vectors, used to derive geometric relations in Lambert's problem."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orthogonal coordinate system Explained | Term Definition
-  description: A coordinate system defined by radial and chord unit vectors, used to derive geometric relations in Lambert's problem.
+  title: "Orthogonal coordinate system Explained | Term Definition"
+  description: "A coordinate system defined by radial and chord unit vectors, used to derive geometric relations in Lambert's problem."
   image: /logo.png
 permalink: /en/glossary/fundamentals/orthogonal-coordinate-system/
 ---

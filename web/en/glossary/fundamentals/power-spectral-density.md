@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Power Spectral Density Explained | Term Definition
+  title: "Power Spectral Density Explained | Term Definition"
   description: Power Spectral Density; a function describing the distribution of signal power in the frequency domain, representing signal power per unit frequency bandwidth, 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Power Spectral Density Explained | Term Definition
+  title: "Power Spectral Density Explained | Term Definition"
   description: Power Spectral Density; a function describing the distribution of signal power in the frequency domain, representing signal power per unit frequency bandwidth, 
   image: /logo.png
 permalink: /en/glossary/fundamentals/power-spectral-density/

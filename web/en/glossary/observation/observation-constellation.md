@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Observation Constellation Explained | Term Definition
+  title: "Observation Constellation Explained | Term Definition"
   description: Constellations designed for specific observation targets, such as constellations for Earth polar region or lunar south pole observation, leveraging orbits cl...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Observation Constellation Explained | Term Definition
+  title: "Observation Constellation Explained | Term Definition"
   description: Constellations designed for specific observation targets, such as constellations for Earth polar region or lunar south pole observation, leveraging orbits cl...
   image: /logo.png
 permalink: /en/glossary/observation/observation-constellation/

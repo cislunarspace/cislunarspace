@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Communications Relay Explained | Term Definition
+  title: "Lunar Communications Relay Explained | Term Definition"
   description: An architecture using libration point orbit satellites to relay communication signals between lunar surface facilities and Earth. First proposed by Farquhar in 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Communications Relay Explained | Term Definition
+  title: "Lunar Communications Relay Explained | Term Definition"
   description: An architecture using libration point orbit satellites to relay communication signals between lunar surface facilities and Earth. First proposed by Farquhar in 
   image: /logo.png
 permalink: /en/glossary/communication/lunar-communications-relay/

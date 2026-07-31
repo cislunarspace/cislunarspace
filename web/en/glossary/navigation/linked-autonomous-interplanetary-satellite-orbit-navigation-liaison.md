@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linked Autonomous Interplanetary Satellite Orbit Navigation, LiAISON Explained | Term Definition
+  title: "Linked Autonomous Interplanetary Satellite Orbit Navigation, LiAISON Explained | Term Definition"
   description: An autonomous orbit determination method relying solely on inter-satellite ranging without ground station support. It exploits the differential gravitational co
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linked Autonomous Interplanetary Satellite Orbit Navigation, LiAISON Explained | Term Definition
+  title: "Linked Autonomous Interplanetary Satellite Orbit Navigation, LiAISON Explained | Term Definition"
   description: An autonomous orbit determination method relying solely on inter-satellite ranging without ground station support. It exploits the differential gravitational co
   image: /logo.png
 permalink: /en/glossary/navigation/linked-autonomous-interplanetary-satellite-orbit-navigation-liaison/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tools.
   image: /logo.png
 og:
-  title: Longitudinal Coupling Vibration (POGO) | Liquid Rocket Dynamics
+  title: "Longitudinal Coupling Vibration (POGO) | Liquid Rocket Dynamics"
   description: "Detailed analysis of POGO: definition, generation mechanism, effects on liquid rockets, and suppression techniques"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Longitudinal Coupling Vibration (POGO) | Liquid Rocket Dynamics
+  title: "Longitudinal Coupling Vibration (POGO) | Liquid Rocket Dynamics"
   description: "Detailed analysis of POGO: definition, generation mechanism, effects on liquid rockets, and suppression techniques"
   image: /logo.png
 permalink: /en/glossary/other/pogo/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Continuous Thrust Model Explained | Term Definition
+  title: "Continuous Thrust Model Explained | Term Definition"
   description: A mathematical model where the propulsion system outputs a sustained force over time, with control acceleration applied continuously, typically for electric propulsion.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuous Thrust Model Explained | Term Definition
+  title: "Continuous Thrust Model Explained | Term Definition"
   description: A mathematical model where the propulsion system outputs a sustained force over time, with control acceleration applied continuously, typically for electric propulsion.
   image: /logo.png
 permalink: /en/glossary/dynamics/continuous-thrust-model/

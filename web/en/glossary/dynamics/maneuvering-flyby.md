@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Maneuvering flyby Explained | Term Definition
+  title: "Maneuvering flyby Explained | Term Definition"
   description: A relative motion mode in DRO formations where the spacecraft performs frequent impulsive maneuvers to quickly fly past the target spacecraft. Maneuver impulses cause abrupt changes in relative velocity, requiring faster orbit determination convergence.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Maneuvering flyby Explained | Term Definition
+  title: "Maneuvering flyby Explained | Term Definition"
   description: A relative motion mode in DRO formations where the spacecraft performs frequent impulsive maneuvers to quickly fly past the target spacecraft. Maneuver impulses cause abrupt changes in relative velocity, requiring faster orbit determination convergence.
   image: /logo.png
 permalink: /en/glossary/dynamics/maneuvering-flyby/

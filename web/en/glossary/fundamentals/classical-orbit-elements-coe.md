@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Classical Orbit Elements, COE Explained | Term Definition
+  title: "Classical Orbit Elements, COE Explained | Term Definition"
   description: A set of six parameters describing orbital state, including semi-major axis, eccentricity, inclination, right ascension of ascending node, argument of periapse, and true anomaly..
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Classical Orbit Elements, COE Explained | Term Definition
+  title: "Classical Orbit Elements, COE Explained | Term Definition"
   description: A set of six parameters describing orbital state, including semi-major axis, eccentricity, inclination, right ascension of ascending node, argument of periapse, and true anomaly..
   image: /logo.png
 permalink: /en/glossary/fundamentals/classical-orbit-elements-coe/

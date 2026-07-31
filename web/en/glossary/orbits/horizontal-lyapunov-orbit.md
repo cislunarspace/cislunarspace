@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Horizontal Lyapunov Orbit Explained | Term Definition
+  title: "Horizontal Lyapunov Orbit Explained | Term Definition"
   description: A planar periodic orbit near a collinear libration point, dominated by in-plane motion with zero out-of-plane component. In the CRTBP, Lyapunov orbits are cl...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Horizontal Lyapunov Orbit Explained | Term Definition
+  title: "Horizontal Lyapunov Orbit Explained | Term Definition"
   description: A planar periodic orbit near a collinear libration point, dominated by in-plane motion with zero out-of-plane component. In the CRTBP, Lyapunov orbits are cl...
   image: /logo.png
 permalink: /en/glossary/orbits/horizontal-lyapunov-orbit/

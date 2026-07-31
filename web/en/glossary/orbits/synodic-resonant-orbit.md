@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Resonant Orbit Explained | Term Definition
+  title: "Synodic Resonant Orbit Explained | Term Definition"
   description: Periodic orbits whose period relates to the lunar synodic period by a simple integer ratio, such as 9:2, 3:4, or 4:3 resonance. When resonance ratio and epoch are carefully selected, these orbits natu...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Resonant Orbit Explained | Term Definition
+  title: "Synodic Resonant Orbit Explained | Term Definition"
   description: Periodic orbits whose period relates to the lunar synodic period by a simple integer ratio, such as 9:2, 3:4, or 4:3 resonance. When resonance ratio and epoch are carefully selected, these orbits natu...
   image: /logo.png
 permalink: /en/glossary/orbits/synodic-resonant-orbit/

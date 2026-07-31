@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: SAR Details | Fundamental Concepts
+  title: "SAR Details | Fundamental Concepts"
   description: Synthetic Aperture Radar is an active microwave remote sensing technology that achieves high-resolution imaging by synthesizing a large aperture.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: SAR Details | Fundamental Concepts
+  title: "SAR Details | Fundamental Concepts"
   description: Synthetic Aperture Radar is an active microwave remote sensing technology that achieves high-resolution imaging by synthesizing a large aperture.
   image: /logo.png
 permalink: /en/glossary/fundamentals/sar/

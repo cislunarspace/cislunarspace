@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dual One-Way Ranging, DOWR Explained | Term Definition
+  title: "Dual One-Way Ranging, DOWR Explained | Term Definition"
   description: Satellites A and B transmit and receive ranging signals at the same epoch; by adding and subtracting the dual one-way pseudorange measurements, the geometric...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dual One-Way Ranging, DOWR Explained | Term Definition
+  title: "Dual One-Way Ranging, DOWR Explained | Term Definition"
   description: Satellites A and B transmit and receive ranging signals at the same epoch; by adding and subtracting the dual one-way pseudorange measurements, the geometric...
   image: /logo.png
 permalink: /en/glossary/navigation/DOWR/

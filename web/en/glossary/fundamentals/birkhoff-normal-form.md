@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Birkhoff Normal Form Explained | Term Definition
+  title: "Birkhoff Normal Form Explained | Term Definition"
   description: A canonical transformation that simplifies the Hamiltonian near an equilibrium point to a form depending only on action variables, eliminating non-resonant term
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Birkhoff Normal Form Explained | Term Definition
+  title: "Birkhoff Normal Form Explained | Term Definition"
   description: A canonical transformation that simplifies the Hamiltonian near an equilibrium point to a form depending only on action variables, eliminating non-resonant term
   image: /logo.png
 permalink: /en/glossary/fundamentals/birkhoff-normal-form/

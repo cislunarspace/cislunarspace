@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ballistic Coefficient Explained | Term Definition
+  title: "Ballistic Coefficient Explained | Term Definition"
   description: "A physical quantity describing a spacecraft's sensitivity to atmospheric drag, defined as the ratio of mass to the product of drag coefficient and cross-section"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Coefficient Explained | Term Definition
+  title: "Ballistic Coefficient Explained | Term Definition"
   description: "A physical quantity describing a spacecraft's sensitivity to atmospheric drag, defined as the ratio of mass to the product of drag coefficient and cross-section"
   image: /logo.png
 permalink: /en/glossary/dynamics/bc/

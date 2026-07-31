@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Terminal Coast Arc Explained | Term Definition
+  title: "Terminal Coast Arc Explained | Term Definition"
   description: An unpowered arc at the end of a transfer trajectory where the engine is off and the spacecraft coasts along an invariant manifold.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Terminal Coast Arc Explained | Term Definition
+  title: "Terminal Coast Arc Explained | Term Definition"
   description: An unpowered arc at the end of a transfer trajectory where the engine is off and the spacecraft coasts along an invariant manifold.
   image: /logo.png
 permalink: /en/glossary/orbits/terminal-coast-arc/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Allowable Control Set Explained | Term Definition
+  title: "Allowable Control Set Explained | Term Definition"
   description: In multi-stage optimal control problems, the finite set of all feasible control decisions satisfying stage-wise constraints.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Allowable Control Set Explained | Term Definition
+  title: "Allowable Control Set Explained | Term Definition"
   description: In multi-stage optimal control problems, the finite set of all feasible control decisions satisfying stage-wise constraints.
   image: /logo.png
 permalink: /en/glossary/dynamics/allowable-control-set/

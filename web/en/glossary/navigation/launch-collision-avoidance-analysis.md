@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Launch Collision Avoidance Analysis, LCOLA Explained | Term Definition
+  title: "Launch Collision Avoidance Analysis, LCOLA Explained | Term Definition"
   description: 美国对商业发射和再入任务执行的碰撞风险分析流程。在地月空间交通管理语境下，LCOLA存在明显局限：未充分评估真实碰撞风险，不适用于超地球同步轨道发射，且忽略空间天气和气象因素。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Launch Collision Avoidance Analysis, LCOLA Explained | Term Definition
+  title: "Launch Collision Avoidance Analysis, LCOLA Explained | Term Definition"
   description: 美国对商业发射和再入任务执行的碰撞风险分析流程。在地月空间交通管理语境下，LCOLA存在明显局限：未充分评估真实碰撞风险，不适用于超地球同步轨道发射，且忽略空间天气和气象因素。
   image: /logo.png
 permalink: /en/glossary/navigation/launch-collision-avoidance-analysis/

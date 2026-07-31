@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Stability Factor Explained | Term Definition
+  title: "Stability Factor Explained | Term Definition"
   description: Parameter measuring stability of libration point periodic orbits, defined as half the sum of absolute values of unstable and stable eigenvalues of the monodr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stability Factor Explained | Term Definition
+  title: "Stability Factor Explained | Term Definition"
   description: Parameter measuring stability of libration point periodic orbits, defined as half the sum of absolute values of unstable and stable eigenvalues of the monodr...
   image: /logo.png
 permalink: /en/glossary/dynamics/stability-factor/

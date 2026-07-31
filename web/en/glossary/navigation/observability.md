@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Observability Explained | A Core Concept in Navigation System Design
+  title: "Observability Explained | A Core Concept in Navigation System Design"
   description: An in-depth analysis of the definition of observability, linear and nonlinear system analysis methods, and its applications in autonomous navigation system design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Observability Explained | A Core Concept in Navigation System Design
+  title: "Observability Explained | A Core Concept in Navigation System Design"
   description: An in-depth analysis of the definition of observability, linear and nonlinear system analysis methods, and its applications in autonomous navigation system design
   image: /logo.png
 permalink: /en/glossary/navigation/observability/

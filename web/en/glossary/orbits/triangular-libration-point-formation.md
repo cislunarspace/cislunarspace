@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Triangular Libration Point Formation Explained | Term Definition
+  title: "Triangular Libration Point Formation Explained | Term Definition"
   description: Spacecraft formation configurations designed near the triangular (L4/L5) libration points of the Sun-Earth or Earth-Moon system. Unlike collinear points, triang
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Triangular Libration Point Formation Explained | Term Definition
+  title: "Triangular Libration Point Formation Explained | Term Definition"
   description: Spacecraft formation configurations designed near the triangular (L4/L5) libration points of the Sun-Earth or Earth-Moon system. Unlike collinear points, triang
   image: /logo.png
 permalink: /en/glossary/orbits/triangular-libration-point-formation/

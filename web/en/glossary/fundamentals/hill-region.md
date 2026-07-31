@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill Region Explained | Term Definition
+  title: "Hill Region Explained | Term Definition"
   description: In the Circular Restricted Three-Body Problem, the region of allowed motion in configuration space determined by the Jacobi constant. Zero-velocity surfaces divide the space into allowed and forbidden
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Region Explained | Term Definition
+  title: "Hill Region Explained | Term Definition"
   description: In the Circular Restricted Three-Body Problem, the region of allowed motion in configuration space determined by the Jacobi constant. Zero-velocity surfaces divide the space into allowed and forbidden
   image: /logo.png
 permalink: /en/glossary/fundamentals/hill-region/

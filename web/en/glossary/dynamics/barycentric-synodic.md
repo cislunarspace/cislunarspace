@@ -1,6 +1,6 @@
 ---
 title: Barycentric Synodic Coordinate System
-description: Detailed analysis of the barycentric synodic coordinate system's definition, differences from GRC, and applications in CR3BP analysis
+description: "Detailed analysis of the barycentric synodic coordinate system's definition, differences from GRC, and applications in CR3BP analysis"
 keywords: Barycentric Synodic Coordinate System, CR3BP, Restricted Three-Body Problem, Cislunar Space
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Barycentric Synodic Coordinate System Explained | Standard CR3BP Coordinate System
-  description: Detailed analysis of the barycentric synodic coordinate system's definition, differences from GRC, and applications in CR3BP analysis
+  title: "Barycentric Synodic Coordinate System Explained | Standard CR3BP Coordinate System"
+  description: "Detailed analysis of the barycentric synodic coordinate system's definition, differences from GRC, and applications in CR3BP analysis"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Synodic Coordinate System Explained | Standard CR3BP Coordinate System
-  description: Detailed analysis of the barycentric synodic coordinate system's definition, differences from GRC, and applications in CR3BP analysis
+  title: "Barycentric Synodic Coordinate System Explained | Standard CR3BP Coordinate System"
+  description: "Detailed analysis of the barycentric synodic coordinate system's definition, differences from GRC, and applications in CR3BP analysis"
   image: /logo.png
 permalink: /en/glossary/dynamics/barycentric-synodic/
 ---

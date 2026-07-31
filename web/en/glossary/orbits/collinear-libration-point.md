@@ -1,6 +1,6 @@
 ---
 title: Collinear Libration Point
-description: Libration points lying on the line connecting two primary bodies. In the Earth–Moon system there are three: L1 (between Earth and Moon), L2 (beyond the Moon, hosting relay satellites like Queqiao),...
+description: "Libration points lying on the line connecting two primary bodies. In the Earth–Moon system there are three: L1 (between Earth and Moon), L2 (beyond the Moon, hosting relay satellites like Queqiao),..."
 keywords: Collinear Libration Point, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collinear Libration Point Explained | Term Definition
-  description: Libration points lying on the line connecting two primary bodies. In the Earth–Moon system there are three: L1 (between Earth and Moon), L2 (beyond the Moon, hosting relay satellites like Queqiao),...
+  title: "Collinear Libration Point Explained | Term Definition"
+  description: "Libration points lying on the line connecting two primary bodies. In the Earth–Moon system there are three: L1 (between Earth and Moon), L2 (beyond the Moon, hosting relay satellites like Queqiao),..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collinear Libration Point Explained | Term Definition
-  description: Libration points lying on the line connecting two primary bodies. In the Earth–Moon system there are three: L1 (between Earth and Moon), L2 (beyond the Moon, hosting relay satellites like Queqiao),...
+  title: "Collinear Libration Point Explained | Term Definition"
+  description: "Libration points lying on the line connecting two primary bodies. In the Earth–Moon system there are three: L1 (between Earth and Moon), L2 (beyond the Moon, hosting relay satellites like Queqiao),..."
   image: /logo.png
 permalink: /en/glossary/orbits/collinear-libration-point/
 ---

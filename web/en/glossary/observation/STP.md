@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sensor Tasking Procedure, STP Explained | Term Definition
+  title: "Sensor Tasking Procedure, STP Explained | Term Definition"
   description: A scheduling strategy that determines when observers take measurements and which targets they observe.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sensor Tasking Procedure, STP Explained | Term Definition
+  title: "Sensor Tasking Procedure, STP Explained | Term Definition"
   description: A scheduling strategy that determines when observers take measurements and which targets they observe.
   image: /logo.png
 permalink: /en/glossary/observation/STP/

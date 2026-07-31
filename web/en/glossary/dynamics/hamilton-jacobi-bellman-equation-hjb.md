@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamilton-Jacobi-Bellman Equation, HJB Explained | Term Definition
+  title: "Hamilton-Jacobi-Bellman Equation, HJB Explained | Term Definition"
   description: A PDE whose viscosity solution zero-level set gives the exact reachable set.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamilton-Jacobi-Bellman Equation, HJB Explained | Term Definition
+  title: "Hamilton-Jacobi-Bellman Equation, HJB Explained | Term Definition"
   description: A PDE whose viscosity solution zero-level set gives the exact reachable set.
   image: /logo.png
 permalink: /en/glossary/dynamics/hamilton-jacobi-bellman-equation-hjb/

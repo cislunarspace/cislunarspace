@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Conic Method Explained | Term Definition
+  title: "Multi-Conic Method Explained | Term Definition"
   description: A rapid trajectory propagation method that divides transfer time into equal segments, approximates each segment with a conic arc, and applies averaged perturbation accelerations from the Moon and Sun ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Conic Method Explained | Term Definition
+  title: "Multi-Conic Method Explained | Term Definition"
   description: A rapid trajectory propagation method that divides transfer time into equal segments, approximates each segment with a conic arc, and applies averaged perturbation accelerations from the Moon and Sun ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/multi-conic-method/

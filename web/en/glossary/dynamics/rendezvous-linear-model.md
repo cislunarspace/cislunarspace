@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Rendezvous Linear Model (RLM) Explained | Term Definition
+  title: "Rendezvous Linear Model (RLM) Explained | Term Definition"
   description: First-order linearized model of relative motion equations, applicable to deep space GNC design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Rendezvous Linear Model (RLM) Explained | Term Definition
+  title: "Rendezvous Linear Model (RLM) Explained | Term Definition"
   description: First-order linearized model of relative motion equations, applicable to deep space GNC design.
   image: /logo.png
 permalink: /en/glossary/dynamics/rendezvous-linear-model/

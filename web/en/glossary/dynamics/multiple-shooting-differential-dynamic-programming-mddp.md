@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multiple-Shooting Differential Dynamic Programming, MDDP Explained | Term Definition
+  title: "Multiple-Shooting Differential Dynamic Programming, MDDP Explained | Term Definition"
   description: An optimization framework that decomposes multi-phase trajectories into independent segments, each running its own HDDP iteration. Unlike multiphase HDDP where derivatives couple across the full traje...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multiple-Shooting Differential Dynamic Programming, MDDP Explained | Term Definition
+  title: "Multiple-Shooting Differential Dynamic Programming, MDDP Explained | Term Definition"
   description: An optimization framework that decomposes multi-phase trajectories into independent segments, each running its own HDDP iteration. Unlike multiphase HDDP where derivatives couple across the full traje...
   image: /logo.png
 permalink: /en/glossary/dynamics/multiple-shooting-differential-dynamic-programming-mddp/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-shooting Convergence Method Explained | Term Definition
+  title: "Multi-shooting Convergence Method Explained | Term Definition"
   description: A numerical method that sets multiple shooting points along a trajectory and solves them jointly to obtain periodic orbit initial conditions; more robust than single shooting.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-shooting Convergence Method Explained | Term Definition
+  title: "Multi-shooting Convergence Method Explained | Term Definition"
   description: A numerical method that sets multiple shooting points along a trajectory and solves them jointly to obtain periodic orbit initial conditions; more robust than single shooting.
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-shooting-convergence-method/

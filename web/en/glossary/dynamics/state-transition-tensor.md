@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Transition Tensor Explained | Term Definition
+  title: "State Transition Tensor Explained | Term Definition"
   description: The second-order generalization of the State Transition Matrix (STM), capturing how small variations in initial orbital state nonlinearly propagate to affect...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Transition Tensor Explained | Term Definition
+  title: "State Transition Tensor Explained | Term Definition"
   description: The second-order generalization of the State Transition Matrix (STM), capturing how small variations in initial orbital state nonlinearly propagate to affect...
   image: /logo.png
 permalink: /en/glossary/dynamics/state-transition-tensor/

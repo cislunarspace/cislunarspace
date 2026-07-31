@@ -1,6 +1,6 @@
 ---
 title: China Deep Space Network, CDSN (CDSN)
-description: China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station in Zapala, Argentina, supplemented by ...
+description: "China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station in Zapala, Argentina, supplemented by ..."
 keywords: China Deep Space Network, CDSN, CDSN, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: China Deep Space Network, CDSN (CDSN) Explained | Term Definition
-  description: China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station in Zapala, Argentina, supplemented by ...
+  title: "China Deep Space Network, CDSN (CDSN) Explained | Term Definition"
+  description: "China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station in Zapala, Argentina, supplemented by ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: China Deep Space Network, CDSN (CDSN) Explained | Term Definition
-  description: China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station in Zapala, Argentina, supplemented by ...
+  title: "China Deep Space Network, CDSN (CDSN) Explained | Term Definition"
+  description: "China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station in Zapala, Argentina, supplemented by ..."
   image: /logo.png
 permalink: /en/glossary/observation/china-deep-space-network-cdsn/
 ---

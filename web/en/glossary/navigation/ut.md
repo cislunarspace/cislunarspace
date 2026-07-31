@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unscented Transformation, UT Explained | Term Definition
+  title: "Unscented Transformation, UT Explained | Term Definition"
   description: The core transformation technique of the Unscented Kalman Filter. A set of deterministic sigma points are drawn from the prior distribution such that their mean
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unscented Transformation, UT Explained | Term Definition
+  title: "Unscented Transformation, UT Explained | Term Definition"
   description: The core transformation technique of the Unscented Kalman Filter. A set of deterministic sigma points are drawn from the prior distribution such that their mean
   image: /logo.png
 permalink: /en/glossary/navigation/ut/

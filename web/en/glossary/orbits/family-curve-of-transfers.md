@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Family Curve of Transfers Explained | Term Definition
+  title: "Family Curve of Transfers Explained | Term Definition"
   description: Complete family of transfer solutions obtained via pseudo-arclength continuation, describing how transfer trajectories vary with energy (Jacobi constant), exhib
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Family Curve of Transfers Explained | Term Definition
+  title: "Family Curve of Transfers Explained | Term Definition"
   description: Complete family of transfer solutions obtained via pseudo-arclength continuation, describing how transfer trajectories vary with energy (Jacobi constant), exhib
   image: /logo.png
 permalink: /en/glossary/orbits/family-curve-of-transfers/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Layer Guidance and Control Explained | Term Definition
+  title: "Two-Layer Guidance and Control Explained | Term Definition"
   description: Guidance and control architecture with nonlinear optimal controller generating baseline trajectory and linear controller compensating deviations
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Layer Guidance and Control Explained | Term Definition
+  title: "Two-Layer Guidance and Control Explained | Term Definition"
   description: Guidance and control architecture with nonlinear optimal controller generating baseline trajectory and linear controller compensating deviations
   image: /logo.png
 permalink: /en/glossary/dynamics/two-layer-guidance-and-control/

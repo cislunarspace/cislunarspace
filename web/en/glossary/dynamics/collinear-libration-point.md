@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collinear Libration Point Explained | Term Definition
+  title: "Collinear Libration Point Explained | Term Definition"
   description: The three libration points L1, L2, L3 located on the line joining the two primaries, where centrifugal force and gravity are precisely balanced.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collinear Libration Point Explained | Term Definition
+  title: "Collinear Libration Point Explained | Term Definition"
   description: The three libration points L1, L2, L3 located on the line joining the two primaries, where centrifugal force and gravity are precisely balanced.
   image: /logo.png
 permalink: /en/glossary/dynamics/collinear-libration-point/

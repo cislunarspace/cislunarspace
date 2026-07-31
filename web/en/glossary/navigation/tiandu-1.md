@@ -1,6 +1,6 @@
 ---
 title: Tiandu-1
-description: An analysis of the breakthrough achievement of China's communication and navigation technology experimental satellite Tiandu-1, successfully completing lunar laser ranging in cislunar space during daytime for the first time.
+description: "An analysis of the breakthrough achievement of China's communication and navigation technology experimental satellite Tiandu-1, successfully completing lunar laser ranging in cislunar space during daytime for the first time."
 keywords: Tiandu-1, laser ranging, cislunar space, deep space exploration, daytime strong light, laser corner reflector, Chinese Academy of Sciences Space Applications Center
 author: Tianjiang Shuo
 date: 2026-04-25
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Tiandu-1 Detailed | Cislunar Space Laser Ranging Breakthrough
-  description: An analysis of the breakthrough achievement of China's communication and navigation technology experimental satellite Tiandu-1, successfully completing lunar laser ranging in cislunar space during daytime for the first time.
+  title: "Tiandu-1 Detailed | Cislunar Space Laser Ranging Breakthrough"
+  description: "An analysis of the breakthrough achievement of China's communication and navigation technology experimental satellite Tiandu-1, successfully completing lunar laser ranging in cislunar space during daytime for the first time."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tiandu-1 Detailed | Cislunar Space Laser Ranging Breakthrough
-  description: An analysis of the breakthrough achievement of China's communication and navigation technology experimental satellite Tiandu-1, successfully completing lunar laser ranging in cislunar space during daytime for the first time.
+  title: "Tiandu-1 Detailed | Cislunar Space Laser Ranging Breakthrough"
+  description: "An analysis of the breakthrough achievement of China's communication and navigation technology experimental satellite Tiandu-1, successfully completing lunar laser ranging in cislunar space during daytime for the first time."
   image: /logo.png
 permalink: /en/glossary/navigation/tiandu-1/
 ---

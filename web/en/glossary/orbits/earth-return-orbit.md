@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Return Orbit Explained | Term Definition
+  title: "Earth-Return Orbit Explained | Term Definition"
   description: "A family of unstable periodic orbits (the a family) discovered by Hénon in Hill's modification of the three-body problem."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Return Orbit Explained | Term Definition
+  title: "Earth-Return Orbit Explained | Term Definition"
   description: "A family of unstable periodic orbits (the a family) discovered by Hénon in Hill's modification of the three-body problem."
   image: /logo.png
 permalink: /en/glossary/orbits/earth-return-orbit/

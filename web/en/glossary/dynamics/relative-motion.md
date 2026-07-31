@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative Motion Explained | Term Definition
+  title: "Relative Motion Explained | Term Definition"
   description: The position and velocity of one satellite with respect to another (or with respect to a reference point) in a rotating coordinate frame. Near libration poin...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative Motion Explained | Term Definition
+  title: "Relative Motion Explained | Term Definition"
   description: The position and velocity of one satellite with respect to another (or with respect to a reference point) in a rotating coordinate frame. Near libration poin...
   image: /logo.png
 permalink: /en/glossary/dynamics/relative-motion/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Control Explained | Term Definition
+  title: "Low-Thrust Control Explained | Term Definition"
   description: An orbit correction approach using sustained, low-magnitude thrust. Unlike impulsive high-thrust maneuvers, low-thrust is applied continuously within each control interval at magnitudes far smaller...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Control Explained | Term Definition
+  title: "Low-Thrust Control Explained | Term Definition"
   description: An orbit correction approach using sustained, low-magnitude thrust. Unlike impulsive high-thrust maneuvers, low-thrust is applied continuously within each control interval at magnitudes far smaller...
   image: /logo.png
 permalink: /en/glossary/fundamentals/low-thrust-control/

@@ -7,7 +7,7 @@ date: 2026-04-23
 lastUpdated: 2026-04-23
 wechatShare:
   title: Starshade
-  desc: Cislunar Space Beginner's Guide - Technical glossary
+  desc: "Cislunar Space Beginner's Guide - Technical glossary"
   image: /logo.png
 og:
   title: Starshade - Starlight Suppression for Exoplanet Direct Imaging

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point Orbit Cataloging Explained | Term Definition
+  title: "Libration Point Orbit Cataloging Explained | Term Definition"
   description: The systematic process of identifying, tracking, recording, and classifying objects in Earth-Moon libration point regions. The paper proposes a cataloging...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Orbit Cataloging Explained | Term Definition
+  title: "Libration Point Orbit Cataloging Explained | Term Definition"
   description: The systematic process of identifying, tracking, recording, and classifying objects in Earth-Moon libration point regions. The paper proposes a cataloging...
   image: /logo.png
 permalink: /en/glossary/orbits/libration-point-orbit-cataloging/

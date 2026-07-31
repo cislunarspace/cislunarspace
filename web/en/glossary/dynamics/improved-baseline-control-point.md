@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Improved Baseline Control-Point Method Explained | Libration Point Orbit Keeping Control
+  title: "Improved Baseline Control-Point Method Explained | Libration Point Orbit Keeping Control"
   description: Detailed analysis of improved baseline control-point method principles, differences from traditional methods, and application in orbit keeping
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Improved Baseline Control-Point Method Explained | Libration Point Orbit Keeping Control
+  title: "Improved Baseline Control-Point Method Explained | Libration Point Orbit Keeping Control"
   description: Detailed analysis of improved baseline control-point method principles, differences from traditional methods, and application in orbit keeping
   image: /logo.png
 permalink: /en/glossary/dynamics/improved-baseline-control-point/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Point Method Explained | Term Definition
+  title: "Two-Point Method Explained | Term Definition"
   description: "Iterative method using two previous estimates of flyout angle and time of flight with the secant method to solve Lambert's problem."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Point Method Explained | Term Definition
+  title: "Two-Point Method Explained | Term Definition"
   description: "Iterative method using two previous estimates of flyout angle and time of flight with the secant method to solve Lambert's problem."
   image: /logo.png
 permalink: /en/glossary/dynamics/two-point-method/

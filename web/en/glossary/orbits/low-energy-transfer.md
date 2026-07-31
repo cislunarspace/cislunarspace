@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Low-Energy Transfer Orbit Details | Orbit Mechanics
+  title: "Low-Energy Transfer Orbit Details | Orbit Mechanics"
   description: Transfer trajectories designed using three-body dynamics to significantly reduce propellant requirements for cislunar missions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Energy Transfer Orbit Details | Orbit Mechanics
+  title: "Low-Energy Transfer Orbit Details | Orbit Mechanics"
   description: Transfer trajectories designed using three-body dynamics to significantly reduce propellant requirements for cislunar missions.
   image: /logo.png
 permalink: /en/glossary/orbits/low-energy-transfer/

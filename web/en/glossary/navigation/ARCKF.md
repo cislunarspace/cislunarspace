@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adaptive Robust Cubature Kalman Filter, ARCKF Explained | Term Definition
+  title: "Adaptive Robust Cubature Kalman Filter, ARCKF Explained | Term Definition"
   description: An enhanced CKF that simultaneously performs adaptive estimation of process noise covariance Q and measurement noise covariance R, while incorporating a robust 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adaptive Robust Cubature Kalman Filter, ARCKF Explained | Term Definition
+  title: "Adaptive Robust Cubature Kalman Filter, ARCKF Explained | Term Definition"
   description: An enhanced CKF that simultaneously performs adaptive estimation of process noise covariance Q and measurement noise covariance R, while incorporating a robust 
   image: /logo.png
 permalink: /en/glossary/navigation/ARCKF/

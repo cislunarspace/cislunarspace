@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Global Invariant Manifold Explained | Term Definition
+  title: "Global Invariant Manifold Explained | Term Definition"
   description: The global geometric structure formed by extending the unstable manifold of a periodic orbit outward, used for designing transfer trajectories.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Global Invariant Manifold Explained | Term Definition
+  title: "Global Invariant Manifold Explained | Term Definition"
   description: The global geometric structure formed by extending the unstable manifold of a periodic orbit outward, used for designing transfer trajectories.
   image: /logo.png
 permalink: /en/glossary/dynamics/global-invariant-manifold/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Confluent Hypergeometric Function Explained | Term Definition
+  title: "Confluent Hypergeometric Function Explained | Term Definition"
   description: "Special function obtained by the confluence of two regular singular points in Gauss's equation; its series converges for all x and has broad applications in astrodynamics."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Confluent Hypergeometric Function Explained | Term Definition
+  title: "Confluent Hypergeometric Function Explained | Term Definition"
   description: "Special function obtained by the confluence of two regular singular points in Gauss's equation; its series converges for all x and has broad applications in astrodynamics."
   image: /logo.png
 permalink: /en/glossary/fundamentals/confluent-hypergeometric-function/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Departure Excess Velocity Explained | Term Definition
+  title: "Departure Excess Velocity Explained | Term Definition"
   description: 航天器离开出发天体引力场时相对该天体的双曲超速的平方，即 C3 = v_infinity²。它是发射任务设计中的关键约束参数，决定了运载火箭的运力需求。论文以地球-火星转移为例，在未施加 C3 约束时最优解退化为弹道弧（J = 0），说明指数正弦曲线族主要适用于受推力驱动的低推力任务场景。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Departure Excess Velocity Explained | Term Definition
+  title: "Departure Excess Velocity Explained | Term Definition"
   description: 航天器离开出发天体引力场时相对该天体的双曲超速的平方，即 C3 = v_infinity²。它是发射任务设计中的关键约束参数，决定了运载火箭的运力需求。论文以地球-火星转移为例，在未施加 C3 约束时最优解退化为弹道弧（J = 0），说明指数正弦曲线族主要适用于受推力驱动的低推力任务场景。
   image: /logo.png
 permalink: /en/glossary/dynamics/departure-excess-velocity/

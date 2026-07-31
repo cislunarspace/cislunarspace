@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radio Navigation Satellite Service Explained | Term Definition
+  title: "Radio Navigation Satellite Service Explained | Term Definition"
   description: A service that uses radio signals transmitted by satellites to provide positioning, navigation, and timing to users. The paper assumes the near-lunar constellation provides RNSS for lunar surface targ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radio Navigation Satellite Service Explained | Term Definition
+  title: "Radio Navigation Satellite Service Explained | Term Definition"
   description: A service that uses radio signals transmitted by satellites to provide positioning, navigation, and timing to users. The paper assumes the near-lunar constellation provides RNSS for lunar surface targ...
   image: /logo.png
 permalink: /en/glossary/navigation/radio-navigation-satellite-service/

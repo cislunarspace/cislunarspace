@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adaptive Polynomial Chaos Expansion Explained | Term Definition
+  title: "Adaptive Polynomial Chaos Expansion Explained | Term Definition"
   description: An adaptive polynomial chaos expansion surrogate model that uses adaptive coefficient regression methods such as least angle regression to overcome the curse of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adaptive Polynomial Chaos Expansion Explained | Term Definition
+  title: "Adaptive Polynomial Chaos Expansion Explained | Term Definition"
   description: An adaptive polynomial chaos expansion surrogate model that uses adaptive coefficient regression methods such as least angle regression to overcome the curse of...
   image: /logo.png
 permalink: /en/glossary/dynamics/apce/

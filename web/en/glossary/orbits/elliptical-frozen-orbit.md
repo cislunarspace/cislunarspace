@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptical Frozen Orbit Explained | Term Definition
+  title: "Elliptical Frozen Orbit Explained | Term Definition"
   description: A lunar elliptical orbit whose eccentricity and argument of perilune remain constant over long periods. By selecting specific eccentricity (e.g., 0.185) and arg
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptical Frozen Orbit Explained | Term Definition
+  title: "Elliptical Frozen Orbit Explained | Term Definition"
   description: A lunar elliptical orbit whose eccentricity and argument of perilune remain constant over long periods. By selecting specific eccentricity (e.g., 0.185) and arg
   image: /logo.png
 permalink: /en/glossary/orbits/elliptical-frozen-orbit/

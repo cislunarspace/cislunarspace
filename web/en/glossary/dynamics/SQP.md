@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sequential Quadratic Programming Method Explained | Term Definition
+  title: "Sequential Quadratic Programming Method Explained | Term Definition"
   description: Sequential quadratic programming, which solves a sequence of quadratic programming subproblems to progressively approximate the optimal solution of a nonlinearl
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sequential Quadratic Programming Method Explained | Term Definition
+  title: "Sequential Quadratic Programming Method Explained | Term Definition"
   description: Sequential quadratic programming, which solves a sequence of quadratic programming subproblems to progressively approximate the optimal solution of a nonlinearl
   image: /logo.png
 permalink: /en/glossary/dynamics/SQP/

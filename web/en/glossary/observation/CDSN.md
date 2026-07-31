@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: China Deep Space Network, CDSN Explained | Term Definition
+  title: "China Deep Space Network, CDSN Explained | Term Definition"
   description: "China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station i"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: China Deep Space Network, CDSN Explained | Term Definition
+  title: "China Deep Space Network, CDSN Explained | Term Definition"
   description: "China's ground-based deep space tracking, telemetry and command network, consisting of Kashgar 35 m, Jiamusi 66 m deep space stations and the overseas station i"
   image: /logo.png
 permalink: /en/glossary/observation/CDSN/

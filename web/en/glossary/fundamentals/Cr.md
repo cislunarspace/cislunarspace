@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coefficient of Reflectivity Explained | Term Definition
+  title: "Coefficient of Reflectivity Explained | Term Definition"
   description: "A dimensionless parameter describing a spacecraft surface's reflectivity, ranging from 0 (fully absorbing) to 2 (fully specular reflection). The Cr value direct"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coefficient of Reflectivity Explained | Term Definition
+  title: "Coefficient of Reflectivity Explained | Term Definition"
   description: "A dimensionless parameter describing a spacecraft surface's reflectivity, ranging from 0 (fully absorbing) to 2 (fully specular reflection). The Cr value direct"
   image: /logo.png
 permalink: /en/glossary/fundamentals/Cr/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Diffuse Reflectance, a_diff Explained | Term Definition
+  title: "Diffuse Reflectance, a_diff Explained | Term Definition"
   description: The proportion of incident light that is scattered uniformly in all directions by the target surface. Together with specular reflectance, it determines the over
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Diffuse Reflectance, a_diff Explained | Term Definition
+  title: "Diffuse Reflectance, a_diff Explained | Term Definition"
   description: The proportion of incident light that is scattered uniformly in all directions by the target surface. Together with specular reflectance, it determines the over
   image: /logo.png
 permalink: /en/glossary/observation/a_diff/

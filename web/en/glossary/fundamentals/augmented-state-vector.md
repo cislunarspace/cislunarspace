@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Augmented State Vector Explained | Term Definition
+  title: "Augmented State Vector Explained | Term Definition"
   description: "A composite vector z = [x^T, lambda^T, J]^T that combines states, costates, and the performance metric into a single augmented dynamical system. Variational equ"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Augmented State Vector Explained | Term Definition
+  title: "Augmented State Vector Explained | Term Definition"
   description: "A composite vector z = [x^T, lambda^T, J]^T that combines states, costates, and the performance metric into a single augmented dynamical system. Variational equ"
   image: /logo.png
 permalink: /en/glossary/fundamentals/augmented-state-vector/

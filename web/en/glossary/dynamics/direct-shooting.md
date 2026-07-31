@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct-Shooting Explained | Term Definition
+  title: "Direct-Shooting Explained | Term Definition"
   description: A direct optimization method in trajectory optimization that discretizes the continuous control problem and iteratively searches for control parameters satisfying boundary constraints. The paper uses...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct-Shooting Explained | Term Definition
+  title: "Direct-Shooting Explained | Term Definition"
   description: A direct optimization method in trajectory optimization that discretizes the continuous control problem and iteratively searches for control parameters satisfying boundary constraints. The paper uses...
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-shooting/

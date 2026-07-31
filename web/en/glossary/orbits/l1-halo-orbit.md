@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L1 Halo Orbit Explained | Term Definition
+  title: "L1 Halo Orbit Explained | Term Definition"
   description: A Halo orbit around the Earth-Moon L1 libration point. L1 is located between the Earth and Moon. L1 Halo orbits typically have closer perilune distances and smaller variations in lunar apparent dia...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L1 Halo Orbit Explained | Term Definition
+  title: "L1 Halo Orbit Explained | Term Definition"
   description: A Halo orbit around the Earth-Moon L1 libration point. L1 is located between the Earth and Moon. L1 Halo orbits typically have closer perilune distances and smaller variations in lunar apparent dia...
   image: /logo.png
 permalink: /en/glossary/orbits/l1-halo-orbit/

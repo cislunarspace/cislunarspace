@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Flight, ToF Explained | Term Definition
+  title: "Time of Flight, ToF Explained | Term Definition"
   description: "The transfer time from initial to final position, one of the three boundary conditions in Lambert's problem."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Flight, ToF Explained | Term Definition
+  title: "Time of Flight, ToF Explained | Term Definition"
   description: "The transfer time from initial to final position, one of the three boundary conditions in Lambert's problem."
   image: /logo.png
 permalink: /en/glossary/dynamics/time-of-flight-tof/

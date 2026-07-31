@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Focal Plane Array Explained | Term Definition
+  title: "Focal Plane Array Explained | Term Definition"
   description: The photoelectric detector array at the focal plane of a telescope. This paper uses a 257×257 pixel FPA operating in the 0.4-0.7 μm visible band.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Focal Plane Array Explained | Term Definition
+  title: "Focal Plane Array Explained | Term Definition"
   description: The photoelectric detector array at the focal plane of a telescope. This paper uses a 257×257 pixel FPA operating in the 0.4-0.7 μm visible band.
   image: /logo.png
 permalink: /en/glossary/observation/focal-plane-array/

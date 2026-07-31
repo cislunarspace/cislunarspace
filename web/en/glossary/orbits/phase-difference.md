@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Difference Explained | Term Definition
+  title: "Phase Difference Explained | Term Definition"
   description: The angular separation between two spacecraft on the same Halo orbit. The phase difference determines the transfer time and velocity increment required for t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Difference Explained | Term Definition
+  title: "Phase Difference Explained | Term Definition"
   description: The angular separation between two spacecraft on the same Halo orbit. The phase difference determines the transfer time and velocity increment required for t...
   image: /logo.png
 permalink: /en/glossary/orbits/phase-difference/

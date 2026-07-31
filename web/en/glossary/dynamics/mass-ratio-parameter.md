@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mass Ratio Parameter Explained | Term Definition
+  title: "Mass Ratio Parameter Explained | Term Definition"
   description: CRTBP中定义的系统唯一参数，等于副天体质量与两天体质量之和的比值。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Ratio Parameter Explained | Term Definition
+  title: "Mass Ratio Parameter Explained | Term Definition"
   description: CRTBP中定义的系统唯一参数，等于副天体质量与两天体质量之和的比值。
   image: /logo.png
 permalink: /en/glossary/dynamics/mass-ratio-parameter/

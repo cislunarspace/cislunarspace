@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar System Barycenter Explained | Term Definition
+  title: "Solar System Barycenter Explained | Term Definition"
   description: Center of mass of the solar system, used as inertial reference point for pulsar observations and deep space navigation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar System Barycenter Explained | Term Definition
+  title: "Solar System Barycenter Explained | Term Definition"
   description: Center of mass of the solar system, used as inertial reference point for pulsar observations and deep space navigation.
   image: /logo.png
 permalink: /en/glossary/navigation/SSB/

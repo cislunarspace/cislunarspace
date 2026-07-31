@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: INSAT Explained | Indian Satellite System
+  title: "INSAT Explained | Indian Satellite System"
   description: INSAT is a multi-purpose communications satellite system developed by India, now in its fifth generation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: INSAT Explained | Indian Satellite System
+  title: "INSAT Explained | Indian Satellite System"
   description: INSAT is a multi-purpose communications satellite system developed by India, now in its fifth generation
   image: /logo.png
 permalink: /en/glossary/other/insat/

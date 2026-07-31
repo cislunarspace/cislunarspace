@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Equinoctial Orbital Elements Explained | Numerical Stability in Orbit Control
+  title: "Equinoctial Orbital Elements Explained | Numerical Stability in Orbit Control"
   description: Analysis of equinoctial orbital elements definition, advantages, and applications in orbit control
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Equinoctial Orbital Elements Explained | Numerical Stability in Orbit Control
+  title: "Equinoctial Orbital Elements Explained | Numerical Stability in Orbit Control"
   description: Analysis of advantages of equinoctial orbital elements compared to classical orbital elements
   image: /logo.png
 permalink: /en/glossary/dynamics/equinoctial-elements/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High-Order Sensitivity Matrix, HOSM Explained | Term Definition
+  title: "High-Order Sensitivity Matrix, HOSM Explained | Term Definition"
   description: A method that constructs polynomial surrogate models via Taylor expansion to replace per-sample integration for reachable domain computation. It expands the state propagation function to a specified o...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High-Order Sensitivity Matrix, HOSM Explained | Term Definition
+  title: "High-Order Sensitivity Matrix, HOSM Explained | Term Definition"
   description: A method that constructs polynomial surrogate models via Taylor expansion to replace per-sample integration for reachable domain computation. It expands the state propagation function to a specified o...
   image: /logo.png
 permalink: /en/glossary/dynamics/high-order-sensitivity-matrix-hosm/

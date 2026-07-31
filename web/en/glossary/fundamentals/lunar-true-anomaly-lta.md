@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar True Anomaly, LTA (LTA) Explained | Term Definition
+  title: "Lunar True Anomaly, LTA (LTA) Explained | Term Definition"
   description: "The Moon's angular position in its orbit around Earth, measured from perigee. Different LTAs correspond to varying Earth-Moon distances and directly affect..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar True Anomaly, LTA (LTA) Explained | Term Definition
+  title: "Lunar True Anomaly, LTA (LTA) Explained | Term Definition"
   description: "The Moon's angular position in its orbit around Earth, measured from perigee. Different LTAs correspond to varying Earth-Moon distances and directly affect..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-true-anomaly-lta/

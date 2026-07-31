@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conditionally Periodic Orbit Explained | Term Definition
+  title: "Conditionally Periodic Orbit Explained | Term Definition"
   description: An orbit whose motion is governed by two or more independent frequencies; the orbit is strictly closed only when the frequency ratios are rational. Near collinear libration points, the linearized solu...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conditionally Periodic Orbit Explained | Term Definition
+  title: "Conditionally Periodic Orbit Explained | Term Definition"
   description: An orbit whose motion is governed by two or more independent frequencies; the orbit is strictly closed only when the frequency ratios are rational. Near collinear libration points, the linearized solu...
   image: /logo.png
 permalink: /en/glossary/orbits/conditionally-periodic-orbit/

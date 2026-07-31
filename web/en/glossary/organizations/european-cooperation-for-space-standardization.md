@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: European Cooperation for Space Standardization Explained | Term Definition
+  title: "European Cooperation for Space Standardization Explained | Term Definition"
   description: The organization developing European space engineering standards and guidelines, whose document ECSS-E-ST-10-04C specifies space environment modeling standards.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: European Cooperation for Space Standardization Explained | Term Definition
+  title: "European Cooperation for Space Standardization Explained | Term Definition"
   description: The organization developing European space engineering standards and guidelines, whose document ECSS-E-ST-10-04C specifies space environment modeling standards.
   image: /logo.png
 permalink: /en/glossary/organizations/european-cooperation-for-space-standardization/

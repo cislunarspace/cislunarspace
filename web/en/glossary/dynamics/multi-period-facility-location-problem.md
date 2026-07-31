@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Period Facility Location Problem Explained | Term Definition
+  title: "Multi-Period Facility Location Problem Explained | Term Definition"
   description: "An extension of the facility location problem where location and allocation decisions are made across multiple time periods, used in supply chain and inventory"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Period Facility Location Problem Explained | Term Definition
+  title: "Multi-Period Facility Location Problem Explained | Term Definition"
   description: "An extension of the facility location problem where location and allocation decisions are made across multiple time periods, used in supply chain and inventory"
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-period-facility-location-problem/

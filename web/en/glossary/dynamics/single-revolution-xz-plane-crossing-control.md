@@ -1,6 +1,6 @@
 ---
 title: Single-Revolution xz-Plane Crossing Control
-description: A station-keeping strategy for libration point orbits: a single impulsive maneuver is applied each time the spacecraft crosses the xz-plane of the rotating frame, nullifying the x and z velocity co...
+description: "A station-keeping strategy for libration point orbits: a single impulsive maneuver is applied each time the spacecraft crosses the xz-plane of the rotating frame, nullifying the x and z velocity co..."
 keywords: Single-Revolution xz-Plane Crossing Control
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single-Revolution xz-Plane Crossing Control Explained | Term Definition
-  description: A station-keeping strategy for libration point orbits: a single impulsive maneuver is applied each time the spacecraft crosses the xz-plane of the rotating frame, nullifying the x and z velocity co...
+  title: "Single-Revolution xz-Plane Crossing Control Explained | Term Definition"
+  description: "A station-keeping strategy for libration point orbits: a single impulsive maneuver is applied each time the spacecraft crosses the xz-plane of the rotating frame, nullifying the x and z velocity co..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single-Revolution xz-Plane Crossing Control Explained | Term Definition
-  description: A station-keeping strategy for libration point orbits: a single impulsive maneuver is applied each time the spacecraft crosses the xz-plane of the rotating frame, nullifying the x and z velocity co...
+  title: "Single-Revolution xz-Plane Crossing Control Explained | Term Definition"
+  description: "A station-keeping strategy for libration point orbits: a single impulsive maneuver is applied each time the spacecraft crosses the xz-plane of the rotating frame, nullifying the x and z velocity co..."
   image: /logo.png
 permalink: /en/glossary/dynamics/single-revolution-xz-plane-crossing-control/
 ---

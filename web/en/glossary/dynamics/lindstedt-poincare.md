@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Lindstedt-Poincare Method Explained | Periodic Orbit Analytical Solution
+  title: "Lindstedt-Poincare Method Explained | Periodic Orbit Analytical Solution"
   description: Detailed analysis of Lindstedt-Poincare method principles, application in analytical solution of periodic orbits, and relationship with multiple shooting method
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lindstedt-Poincare Method Explained | Periodic Orbit Analytical Solution
+  title: "Lindstedt-Poincare Method Explained | Periodic Orbit Analytical Solution"
   description: Detailed analysis of Lindstedt-Poincare method principles, application in analytical solution of periodic orbits, and relationship with multiple shooting method
   image: /logo.png
 permalink: /en/glossary/dynamics/lindstedt-poincare/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Null Space Vector Explained | Term Definition
+  title: "Null Space Vector Explained | Term Definition"
   description: A vector in the null space of the Jacobian matrix. In pseudo-arc continuation, the null space vector direction serves as the search direction for the prediction step, enabling the correction step t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Null Space Vector Explained | Term Definition
+  title: "Null Space Vector Explained | Term Definition"
   description: A vector in the null space of the Jacobian matrix. In pseudo-arc continuation, the null space vector direction serves as the search direction for the prediction step, enabling the correction step t...
   image: /logo.png
 permalink: /en/glossary/dynamics/null-space-vector/

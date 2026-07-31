@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Source Extraction Details | Automated Source Detection in Astronomical Images
+  title: "Source Extraction Details | Automated Source Detection in Astronomical Images"
   description: Source extraction is the process of automatically detecting and measuring celestial sources in astronomical images, forming the foundational step in cislunar optical survey data processing
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Source Extraction Details | Automated Source Detection in Astronomical Images
+  title: "Source Extraction Details | Automated Source Detection in Astronomical Images"
   description: Source extraction is the process of automatically detecting and measuring celestial sources in astronomical images, forming the foundational step in cislunar optical survey data processing
   image: /logo.png
 permalink: /en/glossary/observation/source-extraction/

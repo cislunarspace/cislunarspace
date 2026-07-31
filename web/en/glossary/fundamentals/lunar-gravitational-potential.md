@@ -1,6 +1,6 @@
 ---
 title: Lunar Gravitational Potential
-description: The scalar potential function of the Moon's gravitational field, expanded in Legendre polynomials into zonal harmonics (longitude-independent axially...
+description: "The scalar potential function of the Moon's gravitational field, expanded in Legendre polynomials into zonal harmonics (longitude-independent axially..."
 keywords: Lunar Gravitational Potential
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Gravitational Potential Explained | Term Definition
-  description: The scalar potential function of the Moon's gravitational field, expanded in Legendre polynomials into zonal harmonics (longitude-independent axially...
+  title: "Lunar Gravitational Potential Explained | Term Definition"
+  description: "The scalar potential function of the Moon's gravitational field, expanded in Legendre polynomials into zonal harmonics (longitude-independent axially..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Gravitational Potential Explained | Term Definition
-  description: The scalar potential function of the Moon's gravitational field, expanded in Legendre polynomials into zonal harmonics (longitude-independent axially...
+  title: "Lunar Gravitational Potential Explained | Term Definition"
+  description: "The scalar potential function of the Moon's gravitational field, expanded in Legendre polynomials into zonal harmonics (longitude-independent axially..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-gravitational-potential/
 ---

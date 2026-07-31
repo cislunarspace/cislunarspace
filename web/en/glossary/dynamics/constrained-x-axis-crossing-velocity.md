@@ -1,6 +1,6 @@
 ---
 title: Constrained X-Axis Crossing Velocity
-description: A station-keeping strategy used by the ARTEMIS mission: applying control near the X-axis of the Earth-Moon synodic coordinate system, constraining the X-direction velocity to zero at X-axis crossing....
+description: "A station-keeping strategy used by the ARTEMIS mission: applying control near the X-axis of the Earth-Moon synodic coordinate system, constraining the X-direction velocity to zero at X-axis crossing...."
 keywords: Constrained X-Axis Crossing Velocity, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Constrained X-Axis Crossing Velocity Explained | Term Definition
-  description: A station-keeping strategy used by the ARTEMIS mission: applying control near the X-axis of the Earth-Moon synodic coordinate system, constraining the X-direction velocity to zero at X-axis crossing....
+  title: "Constrained X-Axis Crossing Velocity Explained | Term Definition"
+  description: "A station-keeping strategy used by the ARTEMIS mission: applying control near the X-axis of the Earth-Moon synodic coordinate system, constraining the X-direction velocity to zero at X-axis crossing...."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Constrained X-Axis Crossing Velocity Explained | Term Definition
-  description: A station-keeping strategy used by the ARTEMIS mission: applying control near the X-axis of the Earth-Moon synodic coordinate system, constraining the X-direction velocity to zero at X-axis crossing....
+  title: "Constrained X-Axis Crossing Velocity Explained | Term Definition"
+  description: "A station-keeping strategy used by the ARTEMIS mission: applying control near the X-axis of the Earth-Moon synodic coordinate system, constraining the X-direction velocity to zero at X-axis crossing...."
   image: /logo.png
 permalink: /en/glossary/dynamics/constrained-x-axis-crossing-velocity/
 ---

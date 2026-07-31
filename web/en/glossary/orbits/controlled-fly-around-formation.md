@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Controlled Fly-Around Formation Explained | Term Definition
+  title: "Controlled Fly-Around Formation Explained | Term Definition"
   description: A fly-around formation configuration on DRO achieved through active control, where the deputy performs controlled periodic fly-around motion around the chief. U
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Controlled Fly-Around Formation Explained | Term Definition
+  title: "Controlled Fly-Around Formation Explained | Term Definition"
   description: A fly-around formation configuration on DRO achieved through active control, where the deputy performs controlled periodic fly-around motion around the chief. U
   image: /logo.png
 permalink: /en/glossary/orbits/controlled-fly-around-formation/

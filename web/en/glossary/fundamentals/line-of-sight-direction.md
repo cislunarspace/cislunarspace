@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Line-of-sight direction Explained | Term Definition
+  title: "Line-of-sight direction Explained | Term Definition"
   description: The unit vector from the observing satellite to the target satellite, obtained by dividing the difference of their position vectors by its magnitude.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Line-of-sight direction Explained | Term Definition
+  title: "Line-of-sight direction Explained | Term Definition"
   description: The unit vector from the observing satellite to the target satellite, obtained by dividing the difference of their position vectors by its magnitude.
   image: /logo.png
 permalink: /en/glossary/fundamentals/line-of-sight-direction/

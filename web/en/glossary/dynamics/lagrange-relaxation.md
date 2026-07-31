@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lagrange Relaxation Explained | Term Definition
+  title: "Lagrange Relaxation Explained | Term Definition"
   description: Method transforming CMDP constrained optimization into an unconstrained MDP by introducing a Lagrange multiplier.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lagrange Relaxation Explained | Term Definition
+  title: "Lagrange Relaxation Explained | Term Definition"
   description: Method transforming CMDP constrained optimization into an unconstrained MDP by introducing a Lagrange multiplier.
   image: /logo.png
 permalink: /en/glossary/dynamics/lagrange-relaxation/

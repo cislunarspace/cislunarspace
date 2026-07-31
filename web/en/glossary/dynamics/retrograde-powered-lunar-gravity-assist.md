@@ -1,6 +1,6 @@
 ---
 title: Retrograde-Powered Lunar Gravity Assist
-description: A gravity assist technique in which a spacecraft approaches the Moon in the retrograde direction (opposite to the Moon's orbital motion) and applies an impul...
+description: "A gravity assist technique in which a spacecraft approaches the Moon in the retrograde direction (opposite to the Moon's orbital motion) and applies an impul..."
 keywords: Retrograde-Powered Lunar Gravity Assist
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Retrograde-Powered Lunar Gravity Assist Explained | Term Definition
-  description: A gravity assist technique in which a spacecraft approaches the Moon in the retrograde direction (opposite to the Moon's orbital motion) and applies an impul...
+  title: "Retrograde-Powered Lunar Gravity Assist Explained | Term Definition"
+  description: "A gravity assist technique in which a spacecraft approaches the Moon in the retrograde direction (opposite to the Moon's orbital motion) and applies an impul..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Retrograde-Powered Lunar Gravity Assist Explained | Term Definition
-  description: A gravity assist technique in which a spacecraft approaches the Moon in the retrograde direction (opposite to the Moon's orbital motion) and applies an impul...
+  title: "Retrograde-Powered Lunar Gravity Assist Explained | Term Definition"
+  description: "A gravity assist technique in which a spacecraft approaches the Moon in the retrograde direction (opposite to the Moon's orbital motion) and applies an impul..."
   image: /logo.png
 permalink: /en/glossary/dynamics/retrograde-powered-lunar-gravity-assist/
 ---

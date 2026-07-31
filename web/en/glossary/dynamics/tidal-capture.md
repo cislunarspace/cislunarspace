@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tidal Capture Explained | Term Definition
+  title: "Tidal Capture Explained | Term Definition"
   description: The process by which a third body enters the gravitational sphere of influence of a primary and becomes gravitationally bound. In the restricted three-body prob
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tidal Capture Explained | Term Definition
+  title: "Tidal Capture Explained | Term Definition"
   description: The process by which a third body enters the gravitational sphere of influence of a primary and becomes gravitationally bound. In the restricted three-body prob
   image: /logo.png
 permalink: /en/glossary/dynamics/tidal-capture/

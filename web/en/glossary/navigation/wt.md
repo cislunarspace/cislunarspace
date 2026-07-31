@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Wait Time Explained | Term Definition
+  title: "Wait Time Explained | Term Definition"
   description: The time a chaser spends waiting on a parking orbit to establish a favorable phase relationship with the target. A key parameter in the two-impulse phasing stra
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Wait Time Explained | Term Definition
+  title: "Wait Time Explained | Term Definition"
   description: The time a chaser spends waiting on a parking orbit to establish a favorable phase relationship with the target. A key parameter in the two-impulse phasing stra
   image: /logo.png
 permalink: /en/glossary/navigation/wt/

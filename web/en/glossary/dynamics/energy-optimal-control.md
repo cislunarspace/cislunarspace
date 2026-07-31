@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Energy-Optimal Control Explained | Term Definition
+  title: "Energy-Optimal Control Explained | Term Definition"
   description: An optimal control strategy that minimizes energy consumption (equivalent to the integral of squared thrust). The control law is a smooth curve that serves as the initial solution in homotopy metho...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Energy-Optimal Control Explained | Term Definition
+  title: "Energy-Optimal Control Explained | Term Definition"
   description: An optimal control strategy that minimizes energy consumption (equivalent to the integral of squared thrust). The control law is a smooth curve that serves as the initial solution in homotopy metho...
   image: /logo.png
 permalink: /en/glossary/dynamics/energy-optimal-control/

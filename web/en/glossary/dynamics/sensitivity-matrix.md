@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sensitivity Matrix Explained | Term Definition
+  title: "Sensitivity Matrix Explained | Term Definition"
   description: Matrix of partial derivatives of state with respect to control vector, used in deriving indirect methods for optimal control.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sensitivity Matrix Explained | Term Definition
+  title: "Sensitivity Matrix Explained | Term Definition"
   description: Matrix of partial derivatives of state with respect to control vector, used in deriving indirect methods for optimal control.
   image: /logo.png
 permalink: /en/glossary/dynamics/sensitivity-matrix/

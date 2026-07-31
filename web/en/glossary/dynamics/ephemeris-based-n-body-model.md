@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ephemeris-Based N-Body Model Explained | Term Definition
+  title: "Ephemeris-Based N-Body Model Explained | Term Definition"
   description: A high-fidelity orbital dynamics model with the Moon as the central body and Earth, Sun, Jupiter, etc. as perturbing bodies. It uses NAIF SPICE software and DE4
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ephemeris-Based N-Body Model Explained | Term Definition
+  title: "Ephemeris-Based N-Body Model Explained | Term Definition"
   description: A high-fidelity orbital dynamics model with the Moon as the central body and Earth, Sun, Jupiter, etc. as perturbing bodies. It uses NAIF SPICE software and DE4
   image: /logo.png
 permalink: /en/glossary/dynamics/ephemeris-based-n-body-model/

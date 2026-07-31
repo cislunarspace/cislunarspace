@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 3:1 Axial Resonant Orbit Explained | Term Definition
+  title: "3:1 Axial Resonant Orbit Explained | Term Definition"
   description: An axial resonant orbit with period ratio 3:1, translatable to other three-body systems (e.g., Saturn-Titan) via system translation technique.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 3:1 Axial Resonant Orbit Explained | Term Definition
+  title: "3:1 Axial Resonant Orbit Explained | Term Definition"
   description: An axial resonant orbit with period ratio 3:1, translatable to other three-body systems (e.g., Saturn-Titan) via system translation technique.
   image: /logo.png
 permalink: /en/glossary/orbits/31-axial-resonant-orbit/

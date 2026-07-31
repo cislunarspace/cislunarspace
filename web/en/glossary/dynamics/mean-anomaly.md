@@ -1,6 +1,6 @@
 ---
 title: Mean Anomaly
-description: An angular parameter describing a body's position along its orbit. Defined as the angle swept from periapsis by a fictitious body moving at a uniform mean an...
+description: "An angular parameter describing a body's position along its orbit. Defined as the angle swept from periapsis by a fictitious body moving at a uniform mean an..."
 keywords: Mean Anomaly, M
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mean Anomaly Explained | Term Definition
-  description: An angular parameter describing a body's position along its orbit. Defined as the angle swept from periapsis by a fictitious body moving at a uniform mean an...
+  title: "Mean Anomaly Explained | Term Definition"
+  description: "An angular parameter describing a body's position along its orbit. Defined as the angle swept from periapsis by a fictitious body moving at a uniform mean an..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mean Anomaly Explained | Term Definition
-  description: An angular parameter describing a body's position along its orbit. Defined as the angle swept from periapsis by a fictitious body moving at a uniform mean an...
+  title: "Mean Anomaly Explained | Term Definition"
+  description: "An angular parameter describing a body's position along its orbit. Defined as the angle swept from periapsis by a fictitious body moving at a uniform mean an..."
   image: /logo.png
 permalink: /en/glossary/dynamics/mean-anomaly/
 ---

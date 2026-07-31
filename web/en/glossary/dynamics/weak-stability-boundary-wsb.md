@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary (WSB) Explained | Term Definition
+  title: "Weak Stability Boundary (WSB) Explained | Term Definition"
   description: In the PCR3BP, the set of points along a radial segment from a small body where trajectory transitions from n-stable to n-unstable, useful for low-energy Earth-Moon transfers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary (WSB) Explained | Term Definition
+  title: "Weak Stability Boundary (WSB) Explained | Term Definition"
   description: In the PCR3BP, the set of points along a radial segment from a small body where trajectory transitions from n-stable to n-unstable, useful for low-energy Earth-Moon transfers.
   image: /logo.png
 permalink: /en/glossary/dynamics/weak-stability-boundary-wsb/

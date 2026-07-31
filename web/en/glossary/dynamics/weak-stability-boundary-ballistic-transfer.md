@@ -1,6 +1,6 @@
 ---
 title: Weak Stability Boundary Ballistic Transfer
-description: A low-energy transfer technique that exploits solar gravitational perturbation. When a spacecraft's orbital energy lies near the weak stability boundary, the...
+description: "A low-energy transfer technique that exploits solar gravitational perturbation. When a spacecraft's orbital energy lies near the weak stability boundary, the..."
 keywords: Weak Stability Boundary Ballistic Transfer, WSB Ballistic Transfer
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary Ballistic Transfer Explained | Term Definition
-  description: A low-energy transfer technique that exploits solar gravitational perturbation. When a spacecraft's orbital energy lies near the weak stability boundary, the...
+  title: "Weak Stability Boundary Ballistic Transfer Explained | Term Definition"
+  description: "A low-energy transfer technique that exploits solar gravitational perturbation. When a spacecraft's orbital energy lies near the weak stability boundary, the..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary Ballistic Transfer Explained | Term Definition
-  description: A low-energy transfer technique that exploits solar gravitational perturbation. When a spacecraft's orbital energy lies near the weak stability boundary, the...
+  title: "Weak Stability Boundary Ballistic Transfer Explained | Term Definition"
+  description: "A low-energy transfer technique that exploits solar gravitational perturbation. When a spacecraft's orbital energy lies near the weak stability boundary, the..."
   image: /logo.png
 permalink: /en/glossary/dynamics/weak-stability-boundary-ballistic-transfer/
 ---

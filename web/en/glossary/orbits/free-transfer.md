@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Free Transfer Explained | Term Definition
+  title: "Free Transfer Explained | Term Definition"
   description: An orbit transfer achieved entirely through natural dynamics of the system without any impulsive maneuver. A free transfer exists if and only if the initial and target orbits share the same Jacobi con...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free Transfer Explained | Term Definition
+  title: "Free Transfer Explained | Term Definition"
   description: An orbit transfer achieved entirely through natural dynamics of the system without any impulsive maneuver. A free transfer exists if and only if the initial and target orbits share the same Jacobi con...
   image: /logo.png
 permalink: /en/glossary/orbits/free-transfer/

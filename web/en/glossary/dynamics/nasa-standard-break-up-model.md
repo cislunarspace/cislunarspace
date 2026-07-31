@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: NASA Standard Break-up Model Explained | Term Definition
+  title: "NASA Standard Break-up Model Explained | Term Definition"
   description: A statistical debris model developed by NASA based on actual explosion and collision breakup event databases, providing distribution laws for fragment size
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: NASA Standard Break-up Model Explained | Term Definition
+  title: "NASA Standard Break-up Model Explained | Term Definition"
   description: A statistical debris model developed by NASA based on actual explosion and collision breakup event databases, providing distribution laws for fragment size
   image: /logo.png
 permalink: /en/glossary/dynamics/nasa-standard-break-up-model/

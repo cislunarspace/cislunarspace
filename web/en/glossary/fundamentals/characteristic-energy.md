@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Characteristic Energy Explained | Term Definition
+  title: "Characteristic Energy Explained | Term Definition"
   description: The characteristic energy parameter for launch, equal to the square of the hyperbolic excess velocity, a key metric for mission energy requirements.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Characteristic Energy Explained | Term Definition
+  title: "Characteristic Energy Explained | Term Definition"
   description: The characteristic energy parameter for launch, equal to the square of the hyperbolic excess velocity, a key metric for mission energy requirements.
   image: /logo.png
 permalink: /en/glossary/fundamentals/characteristic-energy/

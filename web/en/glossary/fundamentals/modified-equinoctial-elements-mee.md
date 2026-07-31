@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Modified Equinoctial Elements, MEE Explained | Term Definition
+  title: "Modified Equinoctial Elements, MEE Explained | Term Definition"
   description: An orbital element representation that avoids singularity issues, used for orbit propagation in high-fidelity dynamical models.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Modified Equinoctial Elements, MEE Explained | Term Definition
+  title: "Modified Equinoctial Elements, MEE Explained | Term Definition"
   description: An orbital element representation that avoids singularity issues, used for orbit propagation in high-fidelity dynamical models.
   image: /logo.png
 permalink: /en/glossary/fundamentals/modified-equinoctial-elements-mee/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Qualitative Analysis Method Explained | Term Definition
+  title: "Qualitative Analysis Method Explained | Term Definition"
   description: "Methods of studying properties of differential equation solutions through phase diagrams and stability analysis without seeking exact solutions, an important re"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Qualitative Analysis Method Explained | Term Definition
+  title: "Qualitative Analysis Method Explained | Term Definition"
   description: "Methods of studying properties of differential equation solutions through phase diagrams and stability analysis without seeking exact solutions, an important re"
   image: /logo.png
 permalink: /en/glossary/dynamics/qualitative-analysis-method/

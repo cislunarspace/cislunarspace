@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamiltonian Integrable Approximation Explained | Term Definition
+  title: "Hamiltonian Integrable Approximation Explained | Term Definition"
   description: An approximation method that simplifies the non-integrable Hamiltonian of the circular restricted three-body problem into an integrable form through averaging a
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian Integrable Approximation Explained | Term Definition
+  title: "Hamiltonian Integrable Approximation Explained | Term Definition"
   description: An approximation method that simplifies the non-integrable Hamiltonian of the circular restricted three-body problem into an integrable form through averaging a
   image: /logo.png
 permalink: /en/glossary/fundamentals/hamiltonian-integrable-approximation/

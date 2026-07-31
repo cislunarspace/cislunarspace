@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Noise Compensation Matrix Explained | Term Definition
+  title: "State Noise Compensation Matrix Explained | Term Definition"
   description: State Noise Compensation Matrix; a noise matrix in the Extended Kalman Filter used to compensate for unmodeled dynamic errors, diagonal matrix whose elements de
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Noise Compensation Matrix Explained | Term Definition
+  title: "State Noise Compensation Matrix Explained | Term Definition"
   description: State Noise Compensation Matrix; a noise matrix in the Extended Kalman Filter used to compensate for unmodeled dynamic errors, diagonal matrix whose elements de
   image: /logo.png
 permalink: /en/glossary/navigation/State-Noise-Compensation-Matri/

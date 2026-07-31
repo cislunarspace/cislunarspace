@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quasi-Circular Transfer Explained | Term Definition
+  title: "Quasi-Circular Transfer Explained | Term Definition"
   description: A slow spiral transfer between near-circular orbits under low thrust. Because the thrust level is very low, the orbit remains nearly circular throughout the tra
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-Circular Transfer Explained | Term Definition
+  title: "Quasi-Circular Transfer Explained | Term Definition"
   description: A slow spiral transfer between near-circular orbits under low thrust. Because the thrust level is very low, the orbit remains nearly circular throughout the tra
   image: /logo.png
 permalink: /en/glossary/fundamentals/qc/

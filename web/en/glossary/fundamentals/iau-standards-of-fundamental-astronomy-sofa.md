@@ -1,6 +1,6 @@
 ---
 title: IAU Standards of Fundamental Astronomy (SOFA)
-description: The authoritative software library maintained by IAU providing standard algorithms for reference frame conversions, time scale transformations, and other fundamental astronomical calculations. The paper uses SOFA for computing TDB-TT differences at Earth's surface with sub-nanosecond precision.
+description: "The authoritative software library maintained by IAU providing standard algorithms for reference frame conversions, time scale transformations, and other fundamental astronomical calculations. The paper uses SOFA for computing TDB-TT differences at Earth's surface with sub-nanosecond precision."
 keywords: IAU Standards of Fundamental Astronomy, SOFA, SOFA, fundamentals, coordinate systems
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: IAU Standards of Fundamental Astronomy (SOFA) Explained | Term Definition
+  title: "IAU Standards of Fundamental Astronomy (SOFA) Explained | Term Definition"
   description: The authoritative software library maintained by IAU providing standard algorithms for reference frame conversions, time scale transformations, and other fundamental astronomical calculations.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: IAU Standards of Fundamental Astronomy (SOFA) Explained | Term Definition
+  title: "IAU Standards of Fundamental Astronomy (SOFA) Explained | Term Definition"
   description: The authoritative software library maintained by IAU providing standard algorithms for reference frame conversions, time scale transformations, and other fundamental astronomical calculations.
   image: /logo.png
 permalink: /en/glossary/fundamentals/iau-standards-of-fundamental-astronomy-sofa/

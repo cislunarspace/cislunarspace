@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Lift-to-Drag Ratio | Terminology Definition
+  title: "Lift-to-Drag Ratio | Terminology Definition"
   description: A detailed analysis of the lift-to-drag ratio definition, physical significance, and its critical role in aerospace vehicles
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lift-to-Drag Ratio | Terminology Definition
+  title: "Lift-to-Drag Ratio | Terminology Definition"
   description: A detailed analysis of the lift-to-drag ratio definition, physical significance, and its critical role in aerospace vehicles
   image: /logo.png
 permalink: /en/glossary/fundamentals/lift-to-drag-ratio/

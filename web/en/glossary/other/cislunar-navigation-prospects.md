@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tools.
   image: /logo.png
 og:
-  title: Cislunar Navigation Prospects | Cislunar Navigation Technology Trends
+  title: "Cislunar Navigation Prospects | Cislunar Navigation Technology Trends"
   description: Analysis of the evolution of cislunar navigation technology from ground-based systems to multi-spacecraft constellation networks and multi-source fusion architectures, as well as international cooperation and deep space extension pathways
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Navigation Prospects | Cislunar Navigation Technology Trends
+  title: "Cislunar Navigation Prospects | Cislunar Navigation Technology Trends"
   description: Analysis of the evolution of cislunar navigation technology from ground-based systems to multi-spacecraft constellation networks and multi-source fusion architectures
   image: /logo.png
 permalink: /en/glossary/other/cislunar-navigation-prospects/

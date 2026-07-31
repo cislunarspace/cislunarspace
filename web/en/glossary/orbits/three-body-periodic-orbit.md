@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Three-Body Periodic Orbit Explained | Term Definition
+  title: "Three-Body Periodic Orbit Explained | Term Definition"
   description: Periodic orbits around libration points in the Earth-Moon three-body system, including NRHO, Halo, and DRO. Unlike Keplerian orbits, their shape and stabilit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Three-Body Periodic Orbit Explained | Term Definition
+  title: "Three-Body Periodic Orbit Explained | Term Definition"
   description: Periodic orbits around libration points in the Earth-Moon three-body system, including NRHO, Halo, and DRO. Unlike Keplerian orbits, their shape and stabilit...
   image: /logo.png
 permalink: /en/glossary/orbits/three-body-periodic-orbit/

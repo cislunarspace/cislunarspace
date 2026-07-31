@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Coordinate System Explained | Term Definition
+  title: "Synodic Coordinate System Explained | Term Definition"
   description: A coordinate system rotating with the primaries, in which the primaries remain fixed. The transformation from the inertial to the rotating frame eliminates explicit time dependence from the equations,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Coordinate System Explained | Term Definition
+  title: "Synodic Coordinate System Explained | Term Definition"
   description: A coordinate system rotating with the primaries, in which the primaries remain fixed. The transformation from the inertial to the rotating frame eliminates explicit time dependence from the equations,...
   image: /logo.png
 permalink: /en/glossary/dynamics/synodic-coordinate-system/

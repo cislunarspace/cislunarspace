@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Syzygy Frame Explained | Term Definition
+  title: "Syzygy Frame Explained | Term Definition"
   description: Rotating coordinate frame in the circular restricted three-body problem with origin at the barycenter of the three-body system, x-axis pointing from the primary to the secondary body, and z-axis along the angular momentum direction of the two primaries, forming a right-handed system with the xy plane.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Syzygy Frame Explained | Term Definition
+  title: "Syzygy Frame Explained | Term Definition"
   description: Rotating coordinate frame in the circular restricted three-body problem with origin at the barycenter of the three-body system, x-axis pointing from the primary to the secondary body, and z-axis along the angular momentum direction of the two primaries, forming a right-handed system with the xy plane.
   image: /logo.png
 permalink: /en/glossary/dynamics/syzygy-frame/

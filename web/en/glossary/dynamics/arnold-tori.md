@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Arnold Tori Explained | Term Definition
+  title: "Arnold Tori Explained | Term Definition"
   description: Phase space structure composed of invariant tori in nearly integrable Hamiltonian systems; the KAM theorem guarantees the persistence of some tori under non-res
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Arnold Tori Explained | Term Definition
+  title: "Arnold Tori Explained | Term Definition"
   description: Phase space structure composed of invariant tori in nearly integrable Hamiltonian systems; the KAM theorem guarantees the persistence of some tori under non-res
   image: /logo.png
 permalink: /en/glossary/dynamics/arnold-tori/

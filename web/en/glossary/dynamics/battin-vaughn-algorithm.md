@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Battin-Vaughn Algorithm Explained | Term Definition
+  title: "Battin-Vaughn Algorithm Explained | Term Definition"
   description: A Lambert problem solver based on the universal variable formulation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Battin-Vaughn Algorithm Explained | Term Definition
+  title: "Battin-Vaughn Algorithm Explained | Term Definition"
   description: A Lambert problem solver based on the universal variable formulation.
   image: /logo.png
 permalink: /en/glossary/dynamics/battin-vaughn-algorithm/

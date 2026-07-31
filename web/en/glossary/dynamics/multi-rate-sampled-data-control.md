@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Rate Sampled-Data Control (MR) Explained | Term Definition
+  title: "Multi-Rate Sampled-Data Control (MR) Explained | Term Definition"
   description: A digital control strategy that uses different sampling rates for measurement and actuation on the same system. For instance, measurements are sampled at...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Rate Sampled-Data Control (MR) Explained | Term Definition
+  title: "Multi-Rate Sampled-Data Control (MR) Explained | Term Definition"
   description: A digital control strategy that uses different sampling rates for measurement and actuation on the same system. For instance, measurements are sampled at...
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-rate-sampled-data-control/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Level Targeter, TLT Explained | Term Definition
+  title: "Two-Level Targeter, TLT Explained | Term Definition"
   description: A differential-correction-based guidance computation tool introduced by Howell and Pernicka in 1987. It places impulsive maneuvers at the endpoints of each guid
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Level Targeter, TLT Explained | Term Definition
+  title: "Two-Level Targeter, TLT Explained | Term Definition"
   description: A differential-correction-based guidance computation tool introduced by Howell and Pernicka in 1987. It places impulsive maneuvers at the endpoints of each guid
   image: /logo.png
 permalink: /en/glossary/dynamics/tlt/

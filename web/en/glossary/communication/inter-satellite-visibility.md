@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inter-Satellite Visibility Explained | Term Definition
+  title: "Inter-Satellite Visibility Explained | Term Definition"
   description: The geometric condition enabling inter-satellite link communication between two satellites. This paper shows that Halo orbiters provide coverage to LMO reaching
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inter-Satellite Visibility Explained | Term Definition
+  title: "Inter-Satellite Visibility Explained | Term Definition"
   description: The geometric condition enabling inter-satellite link communication between two satellites. This paper shows that Halo orbiters provide coverage to LMO reaching
   image: /logo.png
 permalink: /en/glossary/communication/inter-satellite-visibility/

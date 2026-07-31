@@ -1,6 +1,6 @@
 ---
 title: Exponential Divergence Rate
-description: Constant δ characterizing the rate of exponential error divergence, defined by the exponent coefficient in ||ΔX|| ~ e^(δT). For orbits around collinear libratio
+description: "Constant δ characterizing the rate of exponential error divergence, defined by the exponent coefficient in ||ΔX|| ~ e^(δT). For orbits around collinear libratio"
 keywords: Exponential Divergence Rate
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exponential Divergence Rate Explained | Term Definition
-  description: Constant δ characterizing the rate of exponential error divergence, defined by the exponent coefficient in ||ΔX|| ~ e^(δT). For orbits around collinear libratio
+  title: "Exponential Divergence Rate Explained | Term Definition"
+  description: "Constant δ characterizing the rate of exponential error divergence, defined by the exponent coefficient in ||ΔX|| ~ e^(δT). For orbits around collinear libratio"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exponential Divergence Rate Explained | Term Definition
-  description: Constant δ characterizing the rate of exponential error divergence, defined by the exponent coefficient in ||ΔX|| ~ e^(δT). For orbits around collinear libratio
+  title: "Exponential Divergence Rate Explained | Term Definition"
+  description: "Constant δ characterizing the rate of exponential error divergence, defined by the exponent coefficient in ||ΔX|| ~ e^(δT). For orbits around collinear libratio"
   image: /logo.png
 permalink: /en/glossary/dynamics/exponential-divergence-rate/
 ---

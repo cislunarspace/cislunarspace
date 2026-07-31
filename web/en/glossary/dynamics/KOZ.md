@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Keep Out Zone, KOZ Explained | Term Definition
+  title: "Keep Out Zone, KOZ Explained | Term Definition"
   description: A safety zone set around the leader spacecraft requiring the follower to maintain a minimum distance from it throughout the entire transfer arc.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Keep Out Zone, KOZ Explained | Term Definition
+  title: "Keep Out Zone, KOZ Explained | Term Definition"
   description: A safety zone set around the leader spacecraft requiring the follower to maintain a minimum distance from it throughout the entire transfer arc.
   image: /logo.png
 permalink: /en/glossary/dynamics/KOZ/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Bicircular Restricted Four-Body Problem, PBRFBP Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Problem, PBRFBP Explained | Term Definition"
   description: A four-body dynamics model combining two planar circular restricted three-body problems, with the Sun, Earth, and Moon as primary bodies and the spacecraft as...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Bicircular Restricted Four-Body Problem, PBRFBP Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Problem, PBRFBP Explained | Term Definition"
   description: A four-body dynamics model combining two planar circular restricted three-body problems, with the Sun, Earth, and Moon as primary bodies and the spacecraft as...
   image: /logo.png
 permalink: /en/glossary/dynamics/PBRFBP/

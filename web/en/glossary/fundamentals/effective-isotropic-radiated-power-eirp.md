@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Effective Isotropic Radiated Power, EIRP Explained | Term Definition
+  title: "Effective Isotropic Radiated Power, EIRP Explained | Term Definition"
   description: The product of transmit antenna gain and transmit power (dBW), representing the equivalent isotropic radiated power in the maximum radiation direction. In inter-satellite link budget analysis, EIRP to...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Effective Isotropic Radiated Power, EIRP Explained | Term Definition
+  title: "Effective Isotropic Radiated Power, EIRP Explained | Term Definition"
   description: The product of transmit antenna gain and transmit power (dBW), representing the equivalent isotropic radiated power in the maximum radiation direction. In inter-satellite link budget analysis, EIRP to...
   image: /logo.png
 permalink: /en/glossary/fundamentals/effective-isotropic-radiated-power-eirp/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tracking and Data Relay Satellite System Explained | Term Definition
+  title: "Tracking and Data Relay Satellite System Explained | Term Definition"
   description: "NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tracking and Data Relay Satellite System Explained | Term Definition
+  title: "Tracking and Data Relay Satellite System Explained | Term Definition"
   description: "NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication."
   image: /logo.png
 permalink: /en/glossary/navigation/TDRSS/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bouncing Trajectory Explained | Term Definition
+  title: "Bouncing Trajectory Explained | Term Definition"
   description: Orbits in phase space that approach L1 and then return toward Earth.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bouncing Trajectory Explained | Term Definition
+  title: "Bouncing Trajectory Explained | Term Definition"
   description: Orbits in phase space that approach L1 and then return toward Earth.
   image: /logo.png
 permalink: /en/glossary/orbits/bouncing-trajectory/

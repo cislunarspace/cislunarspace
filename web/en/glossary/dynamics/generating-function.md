@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Generating Function Explained | Term Definition
+  title: "Generating Function Explained | Term Definition"
   description: An auxiliary function in Lie transformation that achieves coordinate transformation through Poisson bracket operations. The nth-order generating function Gn is 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Generating Function Explained | Term Definition
+  title: "Generating Function Explained | Term Definition"
   description: An auxiliary function in Lie transformation that achieves coordinate transformation through Poisson bracket operations. The nth-order generating function Gn is 
   image: /logo.png
 permalink: /en/glossary/dynamics/generating-function/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Region, WSR Explained | Term Definition
+  title: "Weak Stability Region, WSR Explained | Term Definition"
   description: A corridor along the Earth-Moon line including the three collinear Lagrange points L1, L2, and L3, where a spacecraft can overcome Earth-Moon gravity without be
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Region, WSR Explained | Term Definition
+  title: "Weak Stability Region, WSR Explained | Term Definition"
   description: A corridor along the Earth-Moon line including the three collinear Lagrange points L1, L2, and L3, where a spacecraft can overcome Earth-Moon gravity without be
   image: /logo.png
 permalink: /en/glossary/dynamics/wsr/

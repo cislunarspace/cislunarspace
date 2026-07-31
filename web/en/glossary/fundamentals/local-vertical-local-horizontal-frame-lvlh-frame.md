@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local Vertical Local Horizontal Frame, LVLH Frame Explained | Term Definition
+  title: "Local Vertical Local Horizontal Frame, LVLH Frame Explained | Term Definition"
   description: A target-centered reference frame where the r-axis points toward the primary body (Moon), the h-axis is parallel to the orbital angular momentum, and the θ-axis completes the right-hand triad, used fo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local Vertical Local Horizontal Frame, LVLH Frame Explained | Term Definition
+  title: "Local Vertical Local Horizontal Frame, LVLH Frame Explained | Term Definition"
   description: A target-centered reference frame where the r-axis points toward the primary body (Moon), the h-axis is parallel to the orbital angular momentum, and the θ-axis completes the right-hand triad, used fo
   image: /logo.png
 permalink: /en/glossary/fundamentals/local-vertical-local-horizontal-frame-lvlh-frame/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Force Development | Space Force Optimization
+  title: "Force Development | Space Force Optimization"
   description: Force Development enhances and optimizes the fielded force through talent management, education, and training.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Force Development | Space Force Optimization
+  title: "Force Development | Space Force Optimization"
   description: Force Development enhances and optimizes the fielded force through talent management, education, and training.
   image: /logo.png
 permalink: /en/glossary/doctrine/force-development/

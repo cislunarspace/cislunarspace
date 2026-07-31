@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Distant Retrograde Orbit Explained | Term Definition
+  title: "Lunar Distant Retrograde Orbit Explained | Term Definition"
   description: "Large-amplitude retrograde orbit around the Moon in the Earth-Moon rotating frame, with period ~10 days, practically stable with low station-keeping cost."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Distant Retrograde Orbit Explained | Term Definition
+  title: "Lunar Distant Retrograde Orbit Explained | Term Definition"
   description: "Large-amplitude retrograde orbit around the Moon in the Earth-Moon rotating frame, with period ~10 days, practically stable with low station-keeping cost."
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-distant-retrograde-orbit/

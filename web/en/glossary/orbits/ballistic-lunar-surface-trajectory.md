@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ballistic Lunar Surface Trajectory Explained | Term Definition
+  title: "Ballistic Lunar Surface Trajectory Explained | Term Definition"
   description: A collective term for unpowered ballistic trajectories from Earth to the lunar surface. This study surveys the complete spectrum from direct transfers (~3 da...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Lunar Surface Trajectory Explained | Term Definition
+  title: "Ballistic Lunar Surface Trajectory Explained | Term Definition"
   description: A collective term for unpowered ballistic trajectories from Earth to the lunar surface. This study surveys the complete spectrum from direct transfers (~3 da...
   image: /logo.png
 permalink: /en/glossary/orbits/ballistic-lunar-surface-trajectory/

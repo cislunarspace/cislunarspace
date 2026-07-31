@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Noise Compensation Matrix (Qc) Explained | Term Definition
+  title: "State Noise Compensation Matrix (Qc) Explained | Term Definition"
   description: A noise matrix in the Extended Kalman Filter used to compensate for unmodeled dynamic errors, diagonal matrix whose elements depend on the magnitude of unmodeled errors, used to prevent the state covariance matrix from collapsing too rapidly.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Noise Compensation Matrix (Qc) Explained | Term Definition
+  title: "State Noise Compensation Matrix (Qc) Explained | Term Definition"
   description: A noise matrix in the Extended Kalman Filter used to compensate for unmodeled dynamic errors, diagonal matrix whose elements depend on the magnitude of unmodeled errors, used to prevent the state covariance matrix from collapsing too rapidly.
   image: /logo.png
 permalink: /en/glossary/navigation/state-noise-compensation-matrix/

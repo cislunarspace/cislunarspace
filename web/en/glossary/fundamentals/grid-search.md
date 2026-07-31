@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Grid Search Explained | Term Definition
+  title: "Grid Search Explained | Term Definition"
   description: A global optimization method that uniformly samples points in a parameter space, computes and evaluates each one. This study performs coarse and fine grid se...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Grid Search Explained | Term Definition
+  title: "Grid Search Explained | Term Definition"
   description: A global optimization method that uniformly samples points in a parameter space, computes and evaluates each one. This study performs coarse and fine grid se...
   image: /logo.png
 permalink: /en/glossary/fundamentals/grid-search/

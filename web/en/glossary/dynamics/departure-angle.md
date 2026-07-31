@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Departure Angle Explained | Term Definition
+  title: "Departure Angle Explained | Term Definition"
   description: The angle between the velocity vector and the lunar surface normal at departure. Zero degrees corresponds to orthogonal departure; 90 degrees to tangential departure. The departure angle correlates...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Departure Angle Explained | Term Definition
+  title: "Departure Angle Explained | Term Definition"
   description: The angle between the velocity vector and the lunar surface normal at departure. Zero degrees corresponds to orthogonal departure; 90 degrees to tangential departure. The departure angle correlates...
   image: /logo.png
 permalink: /en/glossary/dynamics/departure-angle/

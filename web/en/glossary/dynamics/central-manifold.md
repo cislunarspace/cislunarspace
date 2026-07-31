@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar research frontiers, terminology, and tools.
   image: /logo.png
 og:
-  title: Central Manifold | CR3BP Libration Point Orbit Parameterization
+  title: "Central Manifold | CR3BP Libration Point Orbit Parameterization"
   description: A detailed explanation of the role of central manifold theory in CR3BP libration point orbit parameterization, and the decoupling method for hyperbolic and center directions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Central Manifold | CR3BP Libration Point Orbit Parameterization
+  title: "Central Manifold | CR3BP Libration Point Orbit Parameterization"
   description: A detailed explanation of the role of central manifold theory in CR3BP libration point orbit parameterization, and the decoupling method for hyperbolic and center directions
   image: /logo.png
 permalink: /en/glossary/dynamics/central-manifold/

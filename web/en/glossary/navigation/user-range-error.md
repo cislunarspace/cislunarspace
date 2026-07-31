@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: User Range Error Explained | Term Definition
+  title: "User Range Error Explained | Term Definition"
   description: The equivalent ranging error incorporating satellite clock bias, atmospheric delay, multipath effects, and other error sources. Navigation positioning error equals GDOP multiplied by URE.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: User Range Error Explained | Term Definition
+  title: "User Range Error Explained | Term Definition"
   description: The equivalent ranging error incorporating satellite clock bias, atmospheric delay, multipath effects, and other error sources. Navigation positioning error equals GDOP multiplied by URE.
   image: /logo.png
 permalink: /en/glossary/navigation/user-range-error/

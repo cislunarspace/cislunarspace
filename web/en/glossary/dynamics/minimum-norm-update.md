@@ -1,6 +1,6 @@
 ---
 title: Minimum-Norm Update
-description: The solution method used in differential correction when the number of targeted state components is less than the control degrees of freedom: the velocity co...
+description: "The solution method used in differential correction when the number of targeted state components is less than the control degrees of freedom: the velocity co..."
 keywords: Minimum-Norm Update
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum-Norm Update Explained | Term Definition
-  description: The solution method used in differential correction when the number of targeted state components is less than the control degrees of freedom: the velocity co...
+  title: "Minimum-Norm Update Explained | Term Definition"
+  description: "The solution method used in differential correction when the number of targeted state components is less than the control degrees of freedom: the velocity co..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum-Norm Update Explained | Term Definition
-  description: The solution method used in differential correction when the number of targeted state components is less than the control degrees of freedom: the velocity co...
+  title: "Minimum-Norm Update Explained | Term Definition"
+  description: "The solution method used in differential correction when the number of targeted state components is less than the control degrees of freedom: the velocity co..."
   image: /logo.png
 permalink: /en/glossary/dynamics/minimum-norm-update/
 ---

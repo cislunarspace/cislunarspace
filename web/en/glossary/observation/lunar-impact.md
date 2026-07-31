@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Impact Explained | Term Definition
+  title: "Lunar Impact Explained | Term Definition"
   description: The event of debris impacting the lunar surface. The paper analyzes lunar impact characteristics from break-up events on different orbits (NRHO, Halo, DRO), inc
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Impact Explained | Term Definition
+  title: "Lunar Impact Explained | Term Definition"
   description: The event of debris impacting the lunar surface. The paper analyzes lunar impact characteristics from break-up events on different orbits (NRHO, Halo, DRO), inc
   image: /logo.png
 permalink: /en/glossary/observation/lunar-impact/

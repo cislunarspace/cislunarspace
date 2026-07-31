@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert patching method Explained | Term Definition
+  title: "Lambert patching method Explained | Term Definition"
   description: A hybrid low-energy transfer strategy that patches a Lambert transfer segment with a reverse-integrated trajectory along the principal stretching direction. The patching point requires an impulse to c...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert patching method Explained | Term Definition
+  title: "Lambert patching method Explained | Term Definition"
   description: A hybrid low-energy transfer strategy that patches a Lambert transfer segment with a reverse-integrated trajectory along the principal stretching direction. The patching point requires an impulse to c...
   image: /logo.png
 permalink: /en/glossary/orbits/lambert-patching-method/

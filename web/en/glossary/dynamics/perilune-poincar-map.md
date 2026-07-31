@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Poincaré Map Explained | Term Definition
+  title: "Perilune Poincaré Map Explained | Term Definition"
   description: A Poincaré section constructed at the perilune, used to filter transfer trajectories from DRO backward integration that satisfy WSB and perilune conditions, ser
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Poincaré Map Explained | Term Definition
+  title: "Perilune Poincaré Map Explained | Term Definition"
   description: A Poincaré section constructed at the perilune, used to filter transfer trajectories from DRO backward integration that satisfy WSB and perilune conditions, ser
   image: /logo.png
 permalink: /en/glossary/dynamics/perilune-poincar-map/

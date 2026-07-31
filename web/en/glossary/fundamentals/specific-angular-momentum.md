@@ -1,7 +1,7 @@
 ---
 title: Specific Angular Momentum
 description: A detailed analysis of the definition, physical significance, conservation properties, and role of specific angular momentum in describing the orbital plane
-keywords: Specific Angular Momentum, Angular Momentum Conservation, Orbital Plane, Areal Velocity, Kepler's Second Law
+keywords: "Specific Angular Momentum, Angular Momentum Conservation, Orbital Plane, Areal Velocity, Kepler's Second Law"
 author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Specific Angular Momentum | Terminology Definition
+  title: "Specific Angular Momentum | Terminology Definition"
   description: A detailed analysis of the definition, conservation properties, and role of specific angular momentum in describing the orbital plane
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Specific Angular Momentum | Terminology Definition
+  title: "Specific Angular Momentum | Terminology Definition"
   description: A detailed analysis of the definition, conservation properties, and role of specific angular momentum in describing the orbital plane
   image: /logo.png
 permalink: /en/glossary/fundamentals/specific-angular-momentum/

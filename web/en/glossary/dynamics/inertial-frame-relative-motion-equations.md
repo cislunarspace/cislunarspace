@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inertial Frame Relative Motion Equations Explained | Term Definition
+  title: "Inertial Frame Relative Motion Equations Explained | Term Definition"
   description: Equations of relative motion expressed in an inertial coordinate frame. Unlike rotating-frame formulations such as the CW equations, the inertial-frame description more directly reflects the actual dy...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inertial Frame Relative Motion Equations Explained | Term Definition
+  title: "Inertial Frame Relative Motion Equations Explained | Term Definition"
   description: Equations of relative motion expressed in an inertial coordinate frame. Unlike rotating-frame formulations such as the CW equations, the inertial-frame description more directly reflects the actual dy...
   image: /logo.png
 permalink: /en/glossary/dynamics/inertial-frame-relative-motion-equations/

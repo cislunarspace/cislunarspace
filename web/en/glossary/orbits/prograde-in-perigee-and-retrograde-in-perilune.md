@@ -1,6 +1,6 @@
 ---
 title: Prograde in Perigee and Retrograde in Perilune
-description: A classification of trans-lunar trajectories by orbital direction: the spacecraft moves prograde (same as Earth's rotation) in the geocentric segment and retrog
+description: "A classification of trans-lunar trajectories by orbital direction: the spacecraft moves prograde (same as Earth's rotation) in the geocentric segment and retrog"
 keywords: Prograde in Perigee and Retrograde in Perilune, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Prograde in Perigee and Retrograde in Perilune Explained | Term Definition
-  description: A classification of trans-lunar trajectories by orbital direction: the spacecraft moves prograde (same as Earth's rotation) in the geocentric segment and retrog
+  title: "Prograde in Perigee and Retrograde in Perilune Explained | Term Definition"
+  description: "A classification of trans-lunar trajectories by orbital direction: the spacecraft moves prograde (same as Earth's rotation) in the geocentric segment and retrog"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Prograde in Perigee and Retrograde in Perilune Explained | Term Definition
-  description: A classification of trans-lunar trajectories by orbital direction: the spacecraft moves prograde (same as Earth's rotation) in the geocentric segment and retrog
+  title: "Prograde in Perigee and Retrograde in Perilune Explained | Term Definition"
+  description: "A classification of trans-lunar trajectories by orbital direction: the spacecraft moves prograde (same as Earth's rotation) in the geocentric segment and retrog"
   image: /logo.png
 permalink: /en/glossary/orbits/prograde-in-perigee-and-retrograde-in-perilune/
 ---

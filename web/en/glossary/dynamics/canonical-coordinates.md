@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Canonical Coordinates Explained | Term Definition
+  title: "Canonical Coordinates Explained | Term Definition"
   description: Symplectic coordinates satisfying Poisson bracket relations, preserving the form of Hamiltonian equations.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Canonical Coordinates Explained | Term Definition
+  title: "Canonical Coordinates Explained | Term Definition"
   description: Symplectic coordinates satisfying Poisson bracket relations, preserving the form of Hamiltonian equations.
   image: /logo.png
 permalink: /en/glossary/dynamics/canonical-coordinates/

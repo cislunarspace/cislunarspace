@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adams-Cowell Integrator Explained | Term Definition
+  title: "Adams-Cowell Integrator Explained | Term Definition"
   description: A linear multistep numerical integration method combining Adams predictor-corrector and Cowell formulas. The Cowell formula solves second-order ODEs directly...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adams-Cowell Integrator Explained | Term Definition
+  title: "Adams-Cowell Integrator Explained | Term Definition"
   description: A linear multistep numerical integration method combining Adams predictor-corrector and Cowell formulas. The Cowell formula solves second-order ODEs directly...
   image: /logo.png
 permalink: /en/glossary/dynamics/adams-cowell-integrator/

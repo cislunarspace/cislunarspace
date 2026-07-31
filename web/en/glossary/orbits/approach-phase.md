@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: approach phase Explained | Term Definition
+  title: "approach phase Explained | Term Definition"
   description: "The flight segment in an Earth-Moon free-return trajectory where the spacecraft approaches the Moon from the transfer trajectory to the landing point. The paper divides this phase into a main elliptical arc and a pseudostate return arc, solving the main arc velocity via Lambert's problem and computing the return arc terminal state through pseudostate theory for high-precision rapid computation."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: approach phase Explained | Term Definition
+  title: "approach phase Explained | Term Definition"
   description: "The flight segment in an Earth-Moon free-return trajectory where the spacecraft approaches the Moon from the transfer trajectory to the landing point. The paper divides this phase into a main elliptical arc and a pseudostate return arc, solving the main arc velocity via Lambert's problem and computing the return arc terminal state through pseudostate theory for high-precision rapid computation."
   image: /logo.png
 permalink: /en/glossary/orbits/approach-phase/

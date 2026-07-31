@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nekhoroshev Theorem Explained | Term Definition
+  title: "Nekhoroshev Theorem Explained | Term Definition"
   description: A theorem stating that action variables remain bounded for long times in near-integrable Hamiltonian systems. Provides exponential stability time estimates and 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nekhoroshev Theorem Explained | Term Definition
+  title: "Nekhoroshev Theorem Explained | Term Definition"
   description: A theorem stating that action variables remain bounded for long times in near-integrable Hamiltonian systems. Provides exponential stability time estimates and 
   image: /logo.png
 permalink: /en/glossary/dynamics/nekhoroshev-theorem/

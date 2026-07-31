@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hénon f-Family Orbits Explained | Term Definition
+  title: "Hénon f-Family Orbits Explained | Term Definition"
   description: One of the periodic orbit families discovered by Hénon through numerical exploration of the restricted three-body problem. The f-family orbits are characterized by the spacecraft orbiting both primaries in the retrograde direction.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hénon f-Family Orbits Explained | Term Definition
+  title: "Hénon f-Family Orbits Explained | Term Definition"
   description: One of the periodic orbit families discovered by Hénon through numerical exploration of the restricted three-body problem. The f-family orbits are characterized by the spacecraft orbiting both primaries in the retrograde direction.
   image: /logo.png
 permalink: /en/glossary/dynamics/hnon-f-family-orbits/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cross-product Control Explained | Term Definition
+  title: "Cross-product Control Explained | Term Definition"
   description: Guidance control technique that forces the velocity-to-be-gained vector to become collinear with its own time derivative, using the cross-product signal as t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cross-product Control Explained | Term Definition
+  title: "Cross-product Control Explained | Term Definition"
   description: Guidance control technique that forces the velocity-to-be-gained vector to become collinear with its own time derivative, using the cross-product signal as t...
   image: /logo.png
 permalink: /en/glossary/dynamics/cross-product-control/

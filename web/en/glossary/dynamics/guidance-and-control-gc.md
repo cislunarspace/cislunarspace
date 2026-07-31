@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Guidance and Control, G&C Explained | Term Definition
+  title: "Guidance and Control, G&C Explained | Term Definition"
   description: 制导负责实时规划状态轨迹并计算控制力和力矩，控制负责基于实时状态更新追踪轨迹并处理干扰和测量噪声。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Guidance and Control, G&C Explained | Term Definition
+  title: "Guidance and Control, G&C Explained | Term Definition"
   description: 制导负责实时规划状态轨迹并计算控制力和力矩，控制负责基于实时状态更新追踪轨迹并处理干扰和测量噪声。
   image: /logo.png
 permalink: /en/glossary/dynamics/guidance-and-control-gc/

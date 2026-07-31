@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Maximum-thrust arc Explained | Term Definition
+  title: "Maximum-thrust arc Explained | Term Definition"
   description: An arc where S>0 (p>1) and the engine operates at maximum thrust T_max, alternating with null-thrust arcs to form the bang-bang optimal trajectory.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Maximum-thrust arc Explained | Term Definition
+  title: "Maximum-thrust arc Explained | Term Definition"
   description: An arc where S>0 (p>1) and the engine operates at maximum thrust T_max, alternating with null-thrust arcs to form the bang-bang optimal trajectory.
   image: /logo.png
 permalink: /en/glossary/fundamentals/maximum-thrust-arc/

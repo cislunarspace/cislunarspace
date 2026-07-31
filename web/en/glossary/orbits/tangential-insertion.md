@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tangential Insertion Explained | Term Definition
+  title: "Tangential Insertion Explained | Term Definition"
   description: A transfer trajectory arrival at the target orbit where the velocity is tangent to the orbit, meaning all velocity components except along-track are zero at...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tangential Insertion Explained | Term Definition
+  title: "Tangential Insertion Explained | Term Definition"
   description: A transfer trajectory arrival at the target orbit where the velocity is tangent to the orbit, meaning all velocity components except along-track are zero at...
   image: /logo.png
 permalink: /en/glossary/orbits/tangential-insertion/

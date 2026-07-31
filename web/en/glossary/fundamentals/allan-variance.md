@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Allan Variance Explained | Term Definition
+  title: "Allan Variance Explained | Term Definition"
   description: Allan Variance; a statistical measure characterizing clock stability by computing the variance of the difference between average fractional frequency deviations
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Allan Variance Explained | Term Definition
+  title: "Allan Variance Explained | Term Definition"
   description: Allan Variance; a statistical measure characterizing clock stability by computing the variance of the difference between average fractional frequency deviations
   image: /logo.png
 permalink: /en/glossary/fundamentals/allan-variance/

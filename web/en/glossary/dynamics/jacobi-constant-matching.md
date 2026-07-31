@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Constant Matching Explained | Term Definition
+  title: "Jacobi Constant Matching Explained | Term Definition"
   description: The condition in phase plots where Earth–Moon and Sun–Earth manifolds have equal Jacobi constant values, enabling intersection at the hyperplane projection.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Constant Matching Explained | Term Definition
+  title: "Jacobi Constant Matching Explained | Term Definition"
   description: The condition in phase plots where Earth–Moon and Sun–Earth manifolds have equal Jacobi constant values, enabling intersection at the hyperplane projection.
   image: /logo.png
 permalink: /en/glossary/dynamics/jacobi-constant-matching/

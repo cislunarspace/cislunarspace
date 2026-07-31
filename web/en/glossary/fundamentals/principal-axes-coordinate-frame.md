@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Principal Axes Coordinate Frame Explained | Term Definition
+  title: "Principal Axes Coordinate Frame Explained | Term Definition"
   description: A coordinate frame centered at the libration point (or lead satellite) with axes aligned to the principal axes of the elliptical orbit. Obtained by rotating ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Principal Axes Coordinate Frame Explained | Term Definition
+  title: "Principal Axes Coordinate Frame Explained | Term Definition"
   description: A coordinate frame centered at the libration point (or lead satellite) with axes aligned to the principal axes of the elliptical orbit. Obtained by rotating ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/principal-axes-coordinate-frame/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 6DOF Rendezvous and Docking Explained | Term Definition
+  title: "6DOF Rendezvous and Docking Explained | Term Definition"
   description: Rendezvous and docking operations that consider both relative translational and rotational states between chaser and target spacecraft simultaneously.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 6DOF Rendezvous and Docking Explained | Term Definition
+  title: "6DOF Rendezvous and Docking Explained | Term Definition"
   description: Rendezvous and docking operations that consider both relative translational and rotational states between chaser and target spacecraft simultaneously.
   image: /logo.png
 permalink: /en/glossary/dynamics/6dof-rendezvous-and-docking/

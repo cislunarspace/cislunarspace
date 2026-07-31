@@ -1,6 +1,6 @@
 ---
 title: Geostationary Orbit
-description: Circular geostationary orbit with period equal to Earth's rotation period, zero eccentricity and zero inclination; satellite appears stationary relative to E...
+description: "Circular geostationary orbit with period equal to Earth's rotation period, zero eccentricity and zero inclination; satellite appears stationary relative to E..."
 keywords: Geostationary Orbit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geostationary Orbit Explained | Term Definition
-  description: Circular geostationary orbit with period equal to Earth's rotation period, zero eccentricity and zero inclination; satellite appears stationary relative to E...
+  title: "Geostationary Orbit Explained | Term Definition"
+  description: "Circular geostationary orbit with period equal to Earth's rotation period, zero eccentricity and zero inclination; satellite appears stationary relative to E..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geostationary Orbit Explained | Term Definition
-  description: Circular geostationary orbit with period equal to Earth's rotation period, zero eccentricity and zero inclination; satellite appears stationary relative to E...
+  title: "Geostationary Orbit Explained | Term Definition"
+  description: "Circular geostationary orbit with period equal to Earth's rotation period, zero eccentricity and zero inclination; satellite appears stationary relative to E..."
   image: /logo.png
 permalink: /en/glossary/orbits/geostationary-orbit/
 ---

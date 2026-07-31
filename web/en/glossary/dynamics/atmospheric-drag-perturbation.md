@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Atmospheric Drag Perturbation Explained | Term Definition
+  title: "Atmospheric Drag Perturbation Explained | Term Definition"
   description: The orbital perturbation force caused by atmospheric drag on a spacecraft in near-Earth orbit. Although most of the Earth-Moon transfer orbit lies outside the atmosphere, the near-Earth segment near t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Atmospheric Drag Perturbation Explained | Term Definition
+  title: "Atmospheric Drag Perturbation Explained | Term Definition"
   description: The orbital perturbation force caused by atmospheric drag on a spacecraft in near-Earth orbit. Although most of the Earth-Moon transfer orbit lies outside the atmosphere, the near-Earth segment near t
   image: /logo.png
 permalink: /en/glossary/dynamics/atmospheric-drag-perturbation/

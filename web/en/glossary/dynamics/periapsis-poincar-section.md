@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periapsis Poincaré Section Explained | Term Definition
+  title: "Periapsis Poincaré Section Explained | Term Definition"
   description: A Poincaré section defined by the condition that the position vector relative to a central body is perpendicular to the velocity vector (r·v = 0) and the distance is decreasing.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periapsis Poincaré Section Explained | Term Definition
+  title: "Periapsis Poincaré Section Explained | Term Definition"
   description: A Poincaré section defined by the condition that the position vector relative to a central body is perpendicular to the velocity vector (r·v = 0) and the distance is decreasing.
   image: /logo.png
 permalink: /en/glossary/dynamics/periapsis-poincar-section/

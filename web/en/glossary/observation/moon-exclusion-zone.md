@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Moon Exclusion Zone Explained | Term Definition
+  title: "Moon Exclusion Zone Explained | Term Definition"
   description: Zone where an object is not visible when the angle between the object-observer line and the object-Moon line is below a threshold.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Moon Exclusion Zone Explained | Term Definition
+  title: "Moon Exclusion Zone Explained | Term Definition"
   description: Zone where an object is not visible when the angle between the object-observer line and the object-Moon line is below a threshold.
   image: /logo.png
 permalink: /en/glossary/observation/moon-exclusion-zone/

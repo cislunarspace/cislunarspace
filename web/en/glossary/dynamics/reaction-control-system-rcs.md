@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Reaction Control System, RCS Explained | Term Definition
+  title: "Reaction Control System, RCS Explained | Term Definition"
   description: A system that controls spacecraft attitude by generating reaction torques through jet thrust. The paper assumes 16 thrusters of 10 N each distributed on the chaser edges for attitude maneuvers and ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reaction Control System, RCS Explained | Term Definition
+  title: "Reaction Control System, RCS Explained | Term Definition"
   description: A system that controls spacecraft attitude by generating reaction torques through jet thrust. The paper assumes 16 thrusters of 10 N each distributed on the chaser edges for attitude maneuvers and ...
   image: /logo.png
 permalink: /en/glossary/dynamics/reaction-control-system-rcs/

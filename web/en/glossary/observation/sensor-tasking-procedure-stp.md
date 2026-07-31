@@ -1,6 +1,6 @@
 ---
 title: Sensor Tasking Procedure, STP
-description: A scheduling strategy that determines when observers take measurements and which targets they observe. Three procedures were tested: STP-A (all observers mea...
+description: "A scheduling strategy that determines when observers take measurements and which targets they observe. Three procedures were tested: STP-A (all observers mea..."
 keywords: Sensor Tasking Procedure, STP
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sensor Tasking Procedure, STP Explained | Term Definition
-  description: A scheduling strategy that determines when observers take measurements and which targets they observe. Three procedures were tested: STP-A (all observers mea...
+  title: "Sensor Tasking Procedure, STP Explained | Term Definition"
+  description: "A scheduling strategy that determines when observers take measurements and which targets they observe. Three procedures were tested: STP-A (all observers mea..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sensor Tasking Procedure, STP Explained | Term Definition
-  description: A scheduling strategy that determines when observers take measurements and which targets they observe. Three procedures were tested: STP-A (all observers mea...
+  title: "Sensor Tasking Procedure, STP Explained | Term Definition"
+  description: "A scheduling strategy that determines when observers take measurements and which targets they observe. Three procedures were tested: STP-A (all observers mea..."
   image: /logo.png
 permalink: /en/glossary/observation/sensor-tasking-procedure-stp/
 ---

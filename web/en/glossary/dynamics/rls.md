@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Robust Lambert Solver Explained | Term Definition
+  title: "Robust Lambert Solver Explained | Term Definition"
   description: "A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an initia"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Robust Lambert Solver Explained | Term Definition
+  title: "Robust Lambert Solver Explained | Term Definition"
   description: "A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an initia"
   image: /logo.png
 permalink: /en/glossary/dynamics/rls/

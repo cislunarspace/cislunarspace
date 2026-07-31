@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: X-ray Pulsar Navigation Explained | Term Definition
+  title: "X-ray Pulsar Navigation Explained | Term Definition"
   description: Navigation method using stable X-ray pulse signals from pulsars for spacecraft position and velocity determination.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: X-ray Pulsar Navigation Explained | Term Definition
+  title: "X-ray Pulsar Navigation Explained | Term Definition"
   description: Navigation method using stable X-ray pulse signals from pulsars for spacecraft position and velocity determination.
   image: /logo.png
 permalink: /en/glossary/navigation/x-ray-pulsar-navigation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Osculating Lissajous Elements Explained | Term Definition
+  title: "Osculating Lissajous Elements Explained | Term Definition"
   description: A set of six parameters [A1, A2, Ax, Az, Φxy, Φz] that characterize a libration point orbit by analogy with osculating Keplerian elements. They include the unst
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Osculating Lissajous Elements Explained | Term Definition
+  title: "Osculating Lissajous Elements Explained | Term Definition"
   description: A set of six parameters [A1, A2, Ax, Az, Φxy, Φz] that characterize a libration point orbit by analogy with osculating Keplerian elements. They include the unst
   image: /logo.png
 permalink: /en/glossary/orbits/osculating-lissajous-elements/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Gateway Station Explained | Term Definition
+  title: "Lunar Gateway Station Explained | Term Definition"
   description: A proposed NASA space station near the Earth-moon L1 libration point, serving as a stepping stone and transportation hub for deep space missions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Gateway Station Explained | Term Definition
+  title: "Lunar Gateway Station Explained | Term Definition"
   description: A proposed NASA space station near the Earth-moon L1 libration point, serving as a stepping stone and transportation hub for deep space missions.
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-gateway-station/

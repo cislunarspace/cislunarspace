@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bang-Bang Thrust Profile Explained | Term Definition
+  title: "Bang-Bang Thrust Profile Explained | Term Definition"
   description: A thrust sequence that switches between maximum and minimum thrust values; in optimal control for large planetary body landing, switches at most twice (max-m...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bang-Bang Thrust Profile Explained | Term Definition
+  title: "Bang-Bang Thrust Profile Explained | Term Definition"
   description: A thrust sequence that switches between maximum and minimum thrust values; in optimal control for large planetary body landing, switches at most twice (max-m...
   image: /logo.png
 permalink: /en/glossary/dynamics/bang-bang-thrust-profile/

@@ -1,23 +1,23 @@
 ---
-title: Pontryagin's Maximum Principle
-description: A detailed analysis of Pontryagin's Maximum Principle, the necessary conditions for optimal control, costate equations, switching functions, and applications in trajectory optimization
-keywords: Pontryagin's Maximum Principle, Pontryagin, Optimal Control, Maximum Principle, Costate Equation, Hamiltonian, Switching Function, Fuel-Optimal
+title: "Pontryagin's Maximum Principle"
+description: "A detailed analysis of Pontryagin's Maximum Principle, the necessary conditions for optimal control, costate equations, switching functions, and applications in trajectory optimization"
+keywords: "Pontryagin's Maximum Principle, Pontryagin, Optimal Control, Maximum Principle, Costate Equation, Hamiltonian, Switching Function, Fuel-Optimal"
 author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
-  title: Pontryagin's Maximum Principle
+  title: "Pontryagin's Maximum Principle"
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Pontryagin's Maximum Principle Explained | The Cornerstone of Optimal Control Theory
-  description: A detailed analysis of Pontryagin's Maximum Principle, the necessary conditions for optimal control, costate equations, switching functions, and applications in trajectory optimization
+  title: "Pontryagin's Maximum Principle Explained | The Cornerstone of Optimal Control Theory"
+  description: "A detailed analysis of Pontryagin's Maximum Principle, the necessary conditions for optimal control, costate equations, switching functions, and applications in trajectory optimization"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pontryagin's Maximum Principle Explained | The Cornerstone of Optimal Control Theory
-  description: A detailed analysis of Pontryagin's Maximum Principle, the necessary conditions for optimal control, costate equations, switching functions, and applications in trajectory optimization
+  title: "Pontryagin's Maximum Principle Explained | The Cornerstone of Optimal Control Theory"
+  description: "A detailed analysis of Pontryagin's Maximum Principle, the necessary conditions for optimal control, costate equations, switching functions, and applications in trajectory optimization"
   image: /logo.png
 permalink: /en/glossary/dynamics/pontryagin-principle/
 ---

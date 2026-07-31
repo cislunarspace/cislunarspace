@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition
+  title: "Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition"
   description: A density-based clustering algorithm that discovers clusters as groups of points with sufficiently dense local neighborhoods that are overlapping, labeling p...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition
+  title: "Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition"
   description: A density-based clustering algorithm that discovers clusters as groups of points with sufficiently dense local neighborhoods that are overlapping, labeling p...
   image: /logo.png
 permalink: /en/glossary/dynamics/density-based-spatial-clustering-of-applications-with-noise/

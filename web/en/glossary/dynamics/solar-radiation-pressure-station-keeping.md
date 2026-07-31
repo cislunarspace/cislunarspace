@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Radiation Pressure Station Keeping Explained | Term Definition
+  title: "Solar Radiation Pressure Station Keeping Explained | Term Definition"
   description: Station keeping using solar radiation pressure as the control force by changing the orientation of spacecraft sail surfaces, as an alternative to chemical propu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Radiation Pressure Station Keeping Explained | Term Definition
+  title: "Solar Radiation Pressure Station Keeping Explained | Term Definition"
   description: Station keeping using solar radiation pressure as the control force by changing the orientation of spacecraft sail surfaces, as an alternative to chemical propu
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-radiation-pressure-station-keeping/

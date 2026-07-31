@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Precession | Terminology Definition
+  title: "Precession | Terminology Definition"
   description: Definition of precession, causes, effects on celestial coordinate systems, and role in long-term orbit propagation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Precession | Terminology Definition
+  title: "Precession | Terminology Definition"
   description: Definition of precession, causes, effects on celestial coordinate systems, and role in long-term orbit propagation
   image: /logo.png
 permalink: /en/glossary/fundamentals/precession/

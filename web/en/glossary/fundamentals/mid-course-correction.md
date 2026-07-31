@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mid-course Correction (TCM) Explained | Term Definition
+  title: "Mid-course Correction (TCM) Explained | Term Definition"
   description: Orbital correction maneuvers performed during Earth-Moon transfer. Planning variables are the three-component velocity increments in the inertial frame, targeti
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mid-course Correction (TCM) Explained | Term Definition
+  title: "Mid-course Correction (TCM) Explained | Term Definition"
   description: Orbital correction maneuvers performed during Earth-Moon transfer. Planning variables are the three-component velocity increments in the inertial frame, targeti
   image: /logo.png
 permalink: /en/glossary/fundamentals/mid-course-correction/

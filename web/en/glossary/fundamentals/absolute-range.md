@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Absolute Range | Terminology Definition
+  title: "Absolute Range | Terminology Definition"
   description: Detailed analysis of absolute range definition and calculation methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Absolute Range | Terminology Definition
+  title: "Absolute Range | Terminology Definition"
   description: Detailed analysis of absolute range definition and calculation methods
   image: /logo.png
 permalink: /en/glossary/fundamentals/absolute-range/

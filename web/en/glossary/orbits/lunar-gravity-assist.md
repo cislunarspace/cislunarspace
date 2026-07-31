@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Gravity Assist Explained | Term Definition
+  title: "Lunar Gravity Assist Explained | Term Definition"
   description: Maneuver that uses lunar gravity to alter spacecraft orbital parameters.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Gravity Assist Explained | Term Definition
+  title: "Lunar Gravity Assist Explained | Term Definition"
   description: Maneuver that uses lunar gravity to alter spacecraft orbital parameters.
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-gravity-assist/

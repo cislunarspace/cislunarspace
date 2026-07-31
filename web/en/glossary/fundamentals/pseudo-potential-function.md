@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudo-Potential Function Explained | Term Definition
+  title: "Pseudo-Potential Function Explained | Term Definition"
   description: In the circular restricted three-body problem, the effective potential obtained by combining gravitational potential with centrifugal potential in the rotating frame. In normalized units, U = (x^2 + y
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudo-Potential Function Explained | Term Definition
+  title: "Pseudo-Potential Function Explained | Term Definition"
   description: In the circular restricted three-body problem, the effective potential obtained by combining gravitational potential with centrifugal potential in the rotating frame. In normalized units, U = (x^2 + y
   image: /logo.png
 permalink: /en/glossary/fundamentals/pseudo-potential-function/

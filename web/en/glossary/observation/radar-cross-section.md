@@ -1,6 +1,6 @@
 ---
 title: Radar Cross Section (RCS)
-description: A physical quantity characterizing a target's ability to reflect radar electromagnetic waves, measured in square meters. A larger RCS produces stronger radar echoes and makes the target easier to d...
+description: "A physical quantity characterizing a target's ability to reflect radar electromagnetic waves, measured in square meters. A larger RCS produces stronger radar echoes and makes the target easier to d..."
 keywords: Radar Cross Section, RCS, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radar Cross Section (RCS) Explained | Term Definition
-  description: A physical quantity characterizing a target's ability to reflect radar electromagnetic waves, measured in square meters. A larger RCS produces stronger radar echoes and makes the target easier to d...
+  title: "Radar Cross Section (RCS) Explained | Term Definition"
+  description: "A physical quantity characterizing a target's ability to reflect radar electromagnetic waves, measured in square meters. A larger RCS produces stronger radar echoes and makes the target easier to d..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radar Cross Section (RCS) Explained | Term Definition
-  description: A physical quantity characterizing a target's ability to reflect radar electromagnetic waves, measured in square meters. A larger RCS produces stronger radar echoes and makes the target easier to d...
+  title: "Radar Cross Section (RCS) Explained | Term Definition"
+  description: "A physical quantity characterizing a target's ability to reflect radar electromagnetic waves, measured in square meters. A larger RCS produces stronger radar echoes and makes the target easier to d..."
   image: /logo.png
 permalink: /en/glossary/observation/radar-cross-section/
 ---

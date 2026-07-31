@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperbolic Invariant Manifold Parameters Explained | Term Definition
+  title: "Hyperbolic Invariant Manifold Parameters Explained | Term Definition"
   description: Parameters q1 and p1 in the characteristic parameter set, describing spacecraft motion along stable and unstable manifolds. q1 approaching zero indicates app...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperbolic Invariant Manifold Parameters Explained | Term Definition
+  title: "Hyperbolic Invariant Manifold Parameters Explained | Term Definition"
   description: Parameters q1 and p1 in the characteristic parameter set, describing spacecraft motion along stable and unstable manifolds. q1 approaching zero indicates app...
   image: /logo.png
 permalink: /en/glossary/dynamics/hyperbolic-invariant-manifold-parameters/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geostationary Orbit, GEO Explained | Term Definition
+  title: "Geostationary Orbit, GEO Explained | Term Definition"
   description: "Circular orbit with period equal to Earth's rotation period; satellite appears stationary relative to Earth's surface."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geostationary Orbit, GEO Explained | Term Definition
+  title: "Geostationary Orbit, GEO Explained | Term Definition"
   description: "Circular orbit with period equal to Earth's rotation period; satellite appears stationary relative to Earth's surface."
   image: /logo.png
 permalink: /en/glossary/orbits/geostationary-orbit-geo/

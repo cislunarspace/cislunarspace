@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Soft Actor-Critic, SAC Explained | Term Definition
+  title: "Soft Actor-Critic, SAC Explained | Term Definition"
   description: "This concept is significant for cislunar space: 强化学习算法框架 由评论家网络近似价值函数评估当前策略 演员网络根据价值函数梯度更新策略参数"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Soft Actor-Critic, SAC Explained | Term Definition
+  title: "Soft Actor-Critic, SAC Explained | Term Definition"
   description: "This concept is significant for cislunar space: 强化学习算法框架 由评论家网络近似价值函数评估当前策略 演员网络根据价值函数梯度更新策略参数"
   image: /logo.png
 permalink: /en/glossary/dynamics/actor-critic-algorithm/

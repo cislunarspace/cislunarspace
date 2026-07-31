@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lindstedt-Poincaré Series Expansion Explained | Term Definition
+  title: "Lindstedt-Poincaré Series Expansion Explained | Term Definition"
   description: A high-order semi-analytical perturbation method for computing periodic orbits, quasi-periodic orbits, and their invariant manifolds near libration points. Solutions are expanded as series in amplitude parameters and phase variables, with frequency corrections determined order by order. The paper uses an order-25 procedure to directly produce high-accuracy initial conditions for invariant objects.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lindstedt-Poincaré Series Expansion Explained | Term Definition
+  title: "Lindstedt-Poincaré Series Expansion Explained | Term Definition"
   description: A high-order semi-analytical perturbation method for computing periodic orbits, quasi-periodic orbits, and their invariant manifolds near libration points. Solutions are expanded as series in amplitude parameters and phase variables, with frequency corrections determined order by order. The paper uses an order-25 procedure to directly produce high-accuracy initial conditions for invariant objects.
   image: /logo.png
 permalink: /en/glossary/fundamentals/lindstedt-poincar-series-expansion/

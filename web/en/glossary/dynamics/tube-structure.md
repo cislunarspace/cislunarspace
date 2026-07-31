@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tube Structure Explained | Term Definition
+  title: "Tube Structure Explained | Term Definition"
   description: The tubular topological structure formed by invariant manifolds of small-amplitude libration point periodic orbits in phase space. Spacecraft can travel...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tube Structure Explained | Term Definition
+  title: "Tube Structure Explained | Term Definition"
   description: The tubular topological structure formed by invariant manifolds of small-amplitude libration point periodic orbits in phase space. Spacecraft can travel...
   image: /logo.png
 permalink: /en/glossary/dynamics/tube-structure/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Spherical Gravity Explained | Term Definition
+  title: "Non-Spherical Gravity Explained | Term Definition"
   description: Non-central gravitational force due to uneven mass distribution of celestial bodies, described by spherical harmonic coefficients of the gravitational...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Spherical Gravity Explained | Term Definition
+  title: "Non-Spherical Gravity Explained | Term Definition"
   description: Non-central gravitational force due to uneven mass distribution of celestial bodies, described by spherical harmonic coefficients of the gravitational...
   image: /logo.png
 permalink: /en/glossary/dynamics/non-spherical-gravity/

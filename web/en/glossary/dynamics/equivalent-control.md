@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Equivalent Control Explained | Term Definition
+  title: "Equivalent Control Explained | Term Definition"
   description: In sliding mode control, the control input obtained by setting the time derivative of the sliding surface to zero, representing the nominal control required for
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Equivalent Control Explained | Term Definition
+  title: "Equivalent Control Explained | Term Definition"
   description: In sliding mode control, the control input obtained by setting the time derivative of the sliding surface to zero, representing the nominal control required for
   image: /logo.png
 permalink: /en/glossary/dynamics/equivalent-control/

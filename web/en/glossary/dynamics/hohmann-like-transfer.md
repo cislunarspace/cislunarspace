@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hohmann-like Transfer Explained | Term Definition
+  title: "Hohmann-like Transfer Explained | Term Definition"
   description: A two-impulse Earth-to-libration-point transfer analogous to the Hohmann transfer. The apogee of an Earth orbit is raised to the altitude of the target libra...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hohmann-like Transfer Explained | Term Definition
+  title: "Hohmann-like Transfer Explained | Term Definition"
   description: A two-impulse Earth-to-libration-point transfer analogous to the Hohmann transfer. The apogee of an Earth orbit is raised to the altitude of the target libra...
   image: /logo.png
 permalink: /en/glossary/dynamics/hohmann-like-transfer/

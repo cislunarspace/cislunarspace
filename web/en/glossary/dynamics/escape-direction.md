@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Escape Direction Explained | Term Definition
+  title: "Escape Direction Explained | Term Definition"
   description: A direction vector u in the xy-plane of the linearized dynamics near a collinear libration point. A velocity increment along this direction excites the exponentially growing unstable component A1, cau...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Escape Direction Explained | Term Definition
+  title: "Escape Direction Explained | Term Definition"
   description: A direction vector u in the xy-plane of the linearized dynamics near a collinear libration point. A velocity increment along this direction excites the exponentially growing unstable component A1, cau...
   image: /logo.png
 permalink: /en/glossary/dynamics/escape-direction/

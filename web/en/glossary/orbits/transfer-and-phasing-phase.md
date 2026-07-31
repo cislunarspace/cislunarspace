@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer and Phasing Phase Explained | Term Definition
+  title: "Transfer and Phasing Phase Explained | Term Definition"
   description: The phase where the chaser spacecraft performs far-range transfers from Earth, Moon or libration point orbits to NRHO, leveraging CGT-based flows for low-energy
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer and Phasing Phase Explained | Term Definition
+  title: "Transfer and Phasing Phase Explained | Term Definition"
   description: The phase where the chaser spacecraft performs far-range transfers from Earth, Moon or libration point orbits to NRHO, leveraging CGT-based flows for low-energy
   image: /logo.png
 permalink: /en/glossary/orbits/transfer-and-phasing-phase/

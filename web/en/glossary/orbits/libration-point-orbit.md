@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point Orbit Explained | Term Definition
+  title: "Libration Point Orbit Explained | Term Definition"
   description: A periodic or quasi-periodic orbit around a libration point (Lagrange point).
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Orbit Explained | Term Definition
+  title: "Libration Point Orbit Explained | Term Definition"
   description: A periodic or quasi-periodic orbit around a libration point (Lagrange point).
   image: /logo.png
 permalink: /en/glossary/orbits/libration-point-orbit/

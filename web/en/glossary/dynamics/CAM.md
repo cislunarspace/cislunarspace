@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collision Avoidance Maneuver, CAM Explained | Term Definition
+  title: "Collision Avoidance Maneuver, CAM Explained | Term Definition"
   description: Active maneuvers performed to prevent the follower from approaching or colliding with the leader. The paper embeds the collision avoidance constraint into the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collision Avoidance Maneuver, CAM Explained | Term Definition
+  title: "Collision Avoidance Maneuver, CAM Explained | Term Definition"
   description: Active maneuvers performed to prevent the follower from approaching or colliding with the leader. The paper embeds the collision avoidance constraint into the...
   image: /logo.png
 permalink: /en/glossary/dynamics/CAM/

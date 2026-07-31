@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lyapunov Family Explained | Term Definition
+  title: "Lyapunov Family Explained | Term Definition"
   description: A family of planar hyperbolic periodic orbits originating from equilibrium points near collinear libration points, serving as the starting point for halo orbits
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lyapunov Family Explained | Term Definition
+  title: "Lyapunov Family Explained | Term Definition"
   description: A family of planar hyperbolic periodic orbits originating from equilibrium points near collinear libration points, serving as the starting point for halo orbits
   image: /logo.png
 permalink: /en/glossary/orbits/lyapunov-family/

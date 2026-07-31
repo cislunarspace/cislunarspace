@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: x-Axis Crossing Control, XAC Explained | Term Definition
+  title: "x-Axis Crossing Control, XAC Explained | Term Definition"
   description: A shooting-based station-keeping method for cislunar libration point orbits. XAC executes maneuvers near perilune at the xz-plane crossing, matching the x-direc
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: x-Axis Crossing Control, XAC Explained | Term Definition
+  title: "x-Axis Crossing Control, XAC Explained | Term Definition"
   description: A shooting-based station-keeping method for cislunar libration point orbits. XAC executes maneuvers near perilune at the xz-plane crossing, matching the x-direc
   image: /logo.png
 permalink: /en/glossary/dynamics/xac/

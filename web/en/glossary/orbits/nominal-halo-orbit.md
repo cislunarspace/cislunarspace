@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nominal Halo Orbit Explained | Term Definition
+  title: "Nominal Halo Orbit Explained | Term Definition"
   description: The ideal Halo orbit given by the Richardson third-order analytical solution, serving as the reference for computing deviations and generating actual manifolds.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nominal Halo Orbit Explained | Term Definition
+  title: "Nominal Halo Orbit Explained | Term Definition"
   description: The ideal Halo orbit given by the Richardson third-order analytical solution, serving as the reference for computing deviations and generating actual manifolds.
   image: /logo.png
 permalink: /en/glossary/orbits/nominal-halo-orbit/

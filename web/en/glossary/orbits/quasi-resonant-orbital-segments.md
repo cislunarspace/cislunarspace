@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quasi-Resonant Orbital Segments Explained | Term Definition
+  title: "Quasi-Resonant Orbital Segments Explained | Term Definition"
   description: Orbital segments in the DRO capture phase exhibiting 2:1, 3:1, 4:1, and 5:1 resonant characteristics; the 4:1 quasi-resonant segment exists only at higher Jacob
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-Resonant Orbital Segments Explained | Term Definition
+  title: "Quasi-Resonant Orbital Segments Explained | Term Definition"
   description: Orbital segments in the DRO capture phase exhibiting 2:1, 3:1, 4:1, and 5:1 resonant characteristics; the 4:1 quasi-resonant segment exists only at higher Jacob
   image: /logo.png
 permalink: /en/glossary/orbits/quasi-resonant-orbital-segments/

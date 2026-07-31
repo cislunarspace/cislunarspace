@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Center of Pressure | Terminology Definition
+  title: "Center of Pressure | Terminology Definition"
   description: A detailed analysis of the center of pressure definition, its relationship with the center of mass, and its role in vehicle stability
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Center of Pressure | Terminology Definition
+  title: "Center of Pressure | Terminology Definition"
   description: A detailed analysis of the center of pressure definition, its relationship with the center of mass, and its role in vehicle stability
   image: /logo.png
 permalink: /en/glossary/fundamentals/pressure-center/

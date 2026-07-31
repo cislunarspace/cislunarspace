@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Restricted Region Explained | Term Definition
+  title: "Restricted Region Explained | Term Definition"
   description: A region on the lunar surface where direct-ascent transfer trajectories do not exist. Penzo (1961) found such a region near lunar longitude 270 deg. This study shows the region shifts with Jacobi constant and becomes less distinct when solar perturbations are included.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Restricted Region Explained | Term Definition
+  title: "Restricted Region Explained | Term Definition"
   description: A region on the lunar surface where direct-ascent transfer trajectories do not exist. Penzo (1961) found such a region near lunar longitude 270 deg. This study shows the region shifts with Jacobi constant and becomes less distinct when solar perturbations are included.
   image: /logo.png
 permalink: /en/glossary/dynamics/restricted-region/

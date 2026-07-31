@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Solar Constant Details | Fundamental Physical Quantity of Solar Radiation
+  title: "Solar Constant Details | Fundamental Physical Quantity of Solar Radiation"
   description: Detailed analysis of the solar constant definition, numerical value, and application in solar radiation pressure calculation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Constant Details | Fundamental Physical Quantity of Solar Radiation
+  title: "Solar Constant Details | Fundamental Physical Quantity of Solar Radiation"
   description: Detailed analysis of the solar constant definition, numerical value, and application in solar radiation pressure calculation
   image: /logo.png
 permalink: /en/glossary/other/solar-constant/

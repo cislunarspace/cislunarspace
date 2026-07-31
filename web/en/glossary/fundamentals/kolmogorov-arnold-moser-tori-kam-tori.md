@@ -1,6 +1,6 @@
 ---
 title: Kolmogorov-Arnold-Moser Tori, KAM Tori (KAM Tori)
-description: Fundamental invariant structures in Hamiltonian dynamics, guaranteed by the Kolmogorov-Arnold-Moser theorem: under small non-integrable perturbations, invariant tori sufficiently far from resonance...
+description: "Fundamental invariant structures in Hamiltonian dynamics, guaranteed by the Kolmogorov-Arnold-Moser theorem: under small non-integrable perturbations, invariant tori sufficiently far from resonance..."
 keywords: Kolmogorov-Arnold-Moser Tori, KAM Tori, KAM Tori, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kolmogorov-Arnold-Moser Tori, KAM Tori (KAM Tori) Explained | Term Definition
-  description: Fundamental invariant structures in Hamiltonian dynamics, guaranteed by the Kolmogorov-Arnold-Moser theorem: under small non-integrable perturbations, invariant tori sufficiently far from resonance...
+  title: "Kolmogorov-Arnold-Moser Tori, KAM Tori (KAM Tori) Explained | Term Definition"
+  description: "Fundamental invariant structures in Hamiltonian dynamics, guaranteed by the Kolmogorov-Arnold-Moser theorem: under small non-integrable perturbations, invariant tori sufficiently far from resonance..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kolmogorov-Arnold-Moser Tori, KAM Tori (KAM Tori) Explained | Term Definition
-  description: Fundamental invariant structures in Hamiltonian dynamics, guaranteed by the Kolmogorov-Arnold-Moser theorem: under small non-integrable perturbations, invariant tori sufficiently far from resonance...
+  title: "Kolmogorov-Arnold-Moser Tori, KAM Tori (KAM Tori) Explained | Term Definition"
+  description: "Fundamental invariant structures in Hamiltonian dynamics, guaranteed by the Kolmogorov-Arnold-Moser theorem: under small non-integrable perturbations, invariant tori sufficiently far from resonance..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/kolmogorov-arnold-moser-tori-kam-tori/
 ---

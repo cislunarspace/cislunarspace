@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Information Matrix Fusion Explained | Term Definition
+  title: "Information Matrix Fusion Explained | Term Definition"
   description: A special case of track-to-track fusion with memory that exhibits consistent and near-optimal fusion performance in practical tracking scenarios
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Information Matrix Fusion Explained | Term Definition
+  title: "Information Matrix Fusion Explained | Term Definition"
   description: A special case of track-to-track fusion with memory that exhibits consistent and near-optimal fusion performance in practical tracking scenarios
   image: /logo.png
 permalink: /en/glossary/navigation/information-matrix-fusion/

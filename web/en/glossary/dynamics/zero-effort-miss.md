@@ -10,13 +10,13 @@ author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Zero-Effort Miss (ZEM) | Guidance Terminology
+  title: "Zero-Effort Miss (ZEM) | Guidance Terminology"
   description: A parameter describing the degree to which the target would be missed if current states are maintained, applied in pursuit-evasion games and intercept guidance
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero-Effort Miss (ZEM) | Guidance Terminology
+  title: "Zero-Effort Miss (ZEM) | Guidance Terminology"
   description: A parameter describing the degree to which the target would be missed if current states are maintained, applied in pursuit-evasion games and intercept guidance
   image: /logo.png
 permalink: /en/glossary/dynamics/zero-effort-miss/

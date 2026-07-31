@@ -1,6 +1,6 @@
 ---
 title: Lunar Flyby-Assisted Plane Change
-description: Using the Moon's gravity to naturally adjust the out-of-plane component of the transfer trajectory, enabling the spacecraft to transition from a planar trans...
+description: "Using the Moon's gravity to naturally adjust the out-of-plane component of the transfer trajectory, enabling the spacecraft to transition from a planar trans..."
 keywords: Lunar Flyby-Assisted Plane Change
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Flyby-Assisted Plane Change Explained | Term Definition
-  description: Using the Moon's gravity to naturally adjust the out-of-plane component of the transfer trajectory, enabling the spacecraft to transition from a planar trans...
+  title: "Lunar Flyby-Assisted Plane Change Explained | Term Definition"
+  description: "Using the Moon's gravity to naturally adjust the out-of-plane component of the transfer trajectory, enabling the spacecraft to transition from a planar trans..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Flyby-Assisted Plane Change Explained | Term Definition
-  description: Using the Moon's gravity to naturally adjust the out-of-plane component of the transfer trajectory, enabling the spacecraft to transition from a planar trans...
+  title: "Lunar Flyby-Assisted Plane Change Explained | Term Definition"
+  description: "Using the Moon's gravity to naturally adjust the out-of-plane component of the transfer trajectory, enabling the spacecraft to transition from a planar trans..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-flyby-assisted-plane-change/
 ---

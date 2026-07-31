@@ -1,6 +1,6 @@
 ---
 title: Activity Radius / Sphere of Influence Radius
-description: The characteristic radius of a celestial body's gravitational sphere of influence; for a two-body system, the activity radius relative to body 1 is approximately r/D ≈ (M₂/M₁)^(2/5), where D is the...
+description: "The characteristic radius of a celestial body's gravitational sphere of influence; for a two-body system, the activity radius relative to body 1 is approximately r/D ≈ (M₂/M₁)^(2/5), where D is the..."
 keywords: Activity Radius / Sphere of Influence Radius, SOI
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Activity Radius / Sphere of Influence Radius Explained | Term Definition
-  description: The characteristic radius of a celestial body's gravitational sphere of influence; for a two-body system, the activity radius relative to body 1 is approximately r/D ≈ (M₂/M₁)^(2/5), where D is the...
+  title: "Activity Radius / Sphere of Influence Radius Explained | Term Definition"
+  description: "The characteristic radius of a celestial body's gravitational sphere of influence; for a two-body system, the activity radius relative to body 1 is approximately r/D ≈ (M₂/M₁)^(2/5), where D is the..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Activity Radius / Sphere of Influence Radius Explained | Term Definition
-  description: The characteristic radius of a celestial body's gravitational sphere of influence; for a two-body system, the activity radius relative to body 1 is approximately r/D ≈ (M₂/M₁)^(2/5), where D is the...
+  title: "Activity Radius / Sphere of Influence Radius Explained | Term Definition"
+  description: "The characteristic radius of a celestial body's gravitational sphere of influence; for a two-body system, the activity radius relative to body 1 is approximately r/D ≈ (M₂/M₁)^(2/5), where D is the..."
   image: /logo.png
 permalink: /en/glossary/orbits/activity-radius-sphere-of-influence-radius/
 ---

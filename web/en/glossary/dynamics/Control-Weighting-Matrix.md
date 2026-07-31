@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Control Weighting Matrix Explained | Term Definition
+  title: "Control Weighting Matrix Explained | Term Definition"
   description: A symmetric positive definite matrix in LQR used to weigh control effort, determining the relative cost of control.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Control Weighting Matrix Explained | Term Definition
+  title: "Control Weighting Matrix Explained | Term Definition"
   description: A symmetric positive definite matrix in LQR used to weigh control effort, determining the relative cost of control.
   image: /logo.png
 permalink: /en/glossary/dynamics/Control-Weighting-Matrix/

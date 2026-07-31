@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamiltonian Matrix Explained | Term Definition
+  title: "Hamiltonian Matrix Explained | Term Definition"
   description: A 2n×2n matrix satisfying A^T J + J A = 0; its exponential is symplectic.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian Matrix Explained | Term Definition
+  title: "Hamiltonian Matrix Explained | Term Definition"
   description: A 2n×2n matrix satisfying A^T J + J A = 0; its exponential is symplectic.
   image: /logo.png
 permalink: /en/glossary/dynamics/hamiltonian-matrix/

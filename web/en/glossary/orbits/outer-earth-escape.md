@@ -1,6 +1,6 @@
 ---
 title: Outer Earth Escape
-description: In outer transfer via LL2, the spacecraft escapes from the outer side of Earth's gravity boundary. The spacecraft truly crosses LL2 and achieves WSB transfer th
+description: "In outer transfer via LL2, the spacecraft escapes from the outer side of Earth's gravity boundary. The spacecraft truly crosses LL2 and achieves WSB transfer th"
 keywords: Outer Earth Escape
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Outer Earth Escape Explained | Term Definition
-  description: In outer transfer via LL2, the spacecraft escapes from the outer side of Earth's gravity boundary. The spacecraft truly crosses LL2 and achieves WSB transfer th
+  title: "Outer Earth Escape Explained | Term Definition"
+  description: "In outer transfer via LL2, the spacecraft escapes from the outer side of Earth's gravity boundary. The spacecraft truly crosses LL2 and achieves WSB transfer th"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Outer Earth Escape Explained | Term Definition
-  description: In outer transfer via LL2, the spacecraft escapes from the outer side of Earth's gravity boundary. The spacecraft truly crosses LL2 and achieves WSB transfer th
+  title: "Outer Earth Escape Explained | Term Definition"
+  description: "In outer transfer via LL2, the spacecraft escapes from the outer side of Earth's gravity boundary. The spacecraft truly crosses LL2 and achieves WSB transfer th"
   image: /logo.png
 permalink: /en/glossary/orbits/outer-earth-escape/
 ---

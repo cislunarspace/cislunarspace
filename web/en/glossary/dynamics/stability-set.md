@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Stability Set Details | Orbital Stability
+  title: "Stability Set Details | Orbital Stability"
   description: A concept describing motion stability regions near the smaller primary body in a three-body system, where stable and unstable regions alternate with increasing radius.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stability Set Details | Orbital Stability
+  title: "Stability Set Details | Orbital Stability"
   description: A concept describing motion stability regions near the smaller primary body in a three-body system, where stable and unstable regions alternate with increasing radius.
   image: /logo.png
 permalink: /en/glossary/dynamics/stability-set/

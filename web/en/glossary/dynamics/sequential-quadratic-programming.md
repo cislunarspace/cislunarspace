@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sequential Quadratic Programming Explained | Term Definition
+  title: "Sequential Quadratic Programming Explained | Term Definition"
   description: An iterative optimization algorithm for nonlinear programming that solves a quadratic programming subproblem at each iteration, suitable for solving optimal control problems after control parametrizat
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sequential Quadratic Programming Explained | Term Definition
+  title: "Sequential Quadratic Programming Explained | Term Definition"
   description: An iterative optimization algorithm for nonlinear programming that solves a quadratic programming subproblem at each iteration, suitable for solving optimal control problems after control parametrizat
   image: /logo.png
 permalink: /en/glossary/dynamics/sequential-quadratic-programming/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chattering Boundary Width Explained | Term Definition
+  title: "Chattering Boundary Width Explained | Term Definition"
   description: The boundary layer width parameter of the saturation function in sliding mode control. Within this width, the control signal varies linearly with the error for 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chattering Boundary Width Explained | Term Definition
+  title: "Chattering Boundary Width Explained | Term Definition"
   description: The boundary layer width parameter of the saturation function in sliding mode control. Within this width, the control signal varies linearly with the error for 
   image: /logo.png
 permalink: /en/glossary/dynamics/chattering-boundary-width/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamiltonian Explained | Term Definition
+  title: "Hamiltonian Explained | Term Definition"
   description: A scalar function constructed from state and costate variables in optimal control problems. In low-thrust trajectory optimization, it unifies the dynamics, cont
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian Explained | Term Definition
+  title: "Hamiltonian Explained | Term Definition"
   description: A scalar function constructed from state and costate variables in optimal control problems. In low-thrust trajectory optimization, it unifies the dynamics, cont
   image: /logo.png
 permalink: /en/glossary/fundamentals/hamiltonian/

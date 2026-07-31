@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normalized Parameter Explained | Term Definition
+  title: "Normalized Parameter Explained | Term Definition"
   description: Parameters that render physical quantities dimensionless. In the PBCR4BP model, distance, velocity, and time are normalized using the sum of Earth-Moon masses, the mean Earth-Moon distance, and the mean angular velocity of Earth-Moon rotation about their barycenter as reference quantities, simplifying dynamical equations and improving numerical efficiency.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normalized Parameter Explained | Term Definition
+  title: "Normalized Parameter Explained | Term Definition"
   description: Parameters that render physical quantities dimensionless. In the PBCR4BP model, distance, velocity, and time are normalized using the sum of Earth-Moon masses, the mean Earth-Moon distance, and the mean angular velocity of Earth-Moon rotation about their barycenter as reference quantities, simplifying dynamical equations and improving numerical efficiency.
   image: /logo.png
 permalink: /en/glossary/fundamentals/normalized-parameter/

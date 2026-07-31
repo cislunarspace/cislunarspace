@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sun-Earth Rotating Frame Explained | Term Definition
+  title: "Sun-Earth Rotating Frame Explained | Term Definition"
   description: A rotating coordinate frame centered at the Sun-Earth barycenter, with the x-axis pointing from the Sun to Earth, the y-axis along the orbital motion directi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun-Earth Rotating Frame Explained | Term Definition
+  title: "Sun-Earth Rotating Frame Explained | Term Definition"
   description: A rotating coordinate frame centered at the Sun-Earth barycenter, with the x-axis pointing from the Sun to Earth, the y-axis along the orbital motion directi...
   image: /logo.png
 permalink: /en/glossary/dynamics/sun-earth-rotating-frame/

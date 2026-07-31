@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Energy Explained | Term Definition
+  title: "Jacobi Energy Explained | Term Definition"
   description: The energy integral in the restricted three-body problem, defined as C = -2E = -(ẋ²+ẏ²) + 2Ω where Ω is the pseudo-potential function. Jacobi energy...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Energy Explained | Term Definition
+  title: "Jacobi Energy Explained | Term Definition"
   description: The energy integral in the restricted three-body problem, defined as C = -2E = -(ẋ²+ẏ²) + 2Ω where Ω is the pseudo-potential function. Jacobi energy...
   image: /logo.png
 permalink: /en/glossary/dynamics/jacobi-energy/

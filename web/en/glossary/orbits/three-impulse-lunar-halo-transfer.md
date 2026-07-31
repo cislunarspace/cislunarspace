@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Three-Impulse Lunar Halo Transfer Explained | Term Definition
+  title: "Three-Impulse Lunar Halo Transfer Explained | Term Definition"
   description: A three-burn transfer scheme from an Earth parking orbit to a lunar Halo orbit. The first burn (about 3.1 km/s) departs the parking orbit. After 3–10 days, a se
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Three-Impulse Lunar Halo Transfer Explained | Term Definition
+  title: "Three-Impulse Lunar Halo Transfer Explained | Term Definition"
   description: A three-burn transfer scheme from an Earth parking orbit to a lunar Halo orbit. The first burn (about 3.1 km/s) departs the parking orbit. After 3–10 days, a se
   image: /logo.png
 permalink: /en/glossary/orbits/three-impulse-lunar-halo-transfer/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudospectral Method Explained | Term Definition
+  title: "Pseudospectral Method Explained | Term Definition"
   description: A variant of the collocation method that uses Lagrange interpolating polynomials to approximate state variables and constructs constraints by enforcing differential equations at collocation points.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudospectral Method Explained | Term Definition
+  title: "Pseudospectral Method Explained | Term Definition"
   description: A variant of the collocation method that uses Lagrange interpolating polynomials to approximate state variables and constructs constraints by enforcing differential equations at collocation points.
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudospectral-method/

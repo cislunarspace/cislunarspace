@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tools.
   image: /logo.png
 og:
-  title: Space Traffic Management (STM) | Space Security and Governance
+  title: "Space Traffic Management (STM) | Space Security and Governance"
   description: Detailed analysis of STM concepts, key technical domains, and its importance in an increasingly congested orbital environment
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Traffic Management (STM) | Space Security and Governance
+  title: "Space Traffic Management (STM) | Space Security and Governance"
   description: Detailed analysis of STM concepts, key technical domains, and its importance in an increasingly congested orbital environment
   image: /logo.png
 permalink: /en/glossary/other/space-traffic-management/

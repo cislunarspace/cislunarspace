@@ -1,6 +1,6 @@
 ---
 title: Satish Dhawan Space Centre SHAR
-description: The Satish Dhawan Space Centre SHAR is India's primary space launch facility, located in Andhra Pradesh, with multi-orbit launch capabilities
+description: "The Satish Dhawan Space Centre SHAR is India's primary space launch facility, located in Andhra Pradesh, with multi-orbit launch capabilities"
 keywords: Sriharikota, India space launch site, ISRO launch facility, India launch complex, SHAR, spaceport, satellite launch
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Satish Dhawan Space Centre SHAR Explained | Glossary
-  description: India's primary space launch facility with multi-orbit launch capabilities
+  title: "Satish Dhawan Space Centre SHAR Explained | Glossary"
+  description: "India's primary space launch facility with multi-orbit launch capabilities"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Satish Dhawan Space Centre SHAR Explained | Glossary
-  description: India's primary space launch facility with multi-orbit launch capabilities
+  title: "Satish Dhawan Space Centre SHAR Explained | Glossary"
+  description: "India's primary space launch facility with multi-orbit launch capabilities"
   image: /logo.png
 permalink: /en/glossary/organizations/sriharikota/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: In-plane Amplitude Explained | Term Definition
+  title: "In-plane Amplitude Explained | Term Definition"
   description: The amplitude of the in-plane motion (in the xy plane of the synodic frame) of a Lissajous or halo orbit, denoted α₃.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-plane Amplitude Explained | Term Definition
+  title: "In-plane Amplitude Explained | Term Definition"
   description: The amplitude of the in-plane motion (in the xy plane of the synodic frame) of a Lissajous or halo orbit, denoted α₃.
   image: /logo.png
 permalink: /en/glossary/dynamics/in-plane-amplitude/

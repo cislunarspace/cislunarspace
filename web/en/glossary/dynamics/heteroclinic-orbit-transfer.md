@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway Theory
+  title: "Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway Theory"
   description: Detailed analysis of heteroclinic orbit definition, application in libration point transfer, and its position in the Interplanetary Superhighway theory
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway Theory
+  title: "Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway Theory"
   description: Detailed analysis of heteroclinic orbit definition, application in libration point transfer, and its position in the Interplanetary Superhighway theory
   image: /logo.png
 permalink: /en/glossary/dynamics/heteroclinic-orbit-transfer/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Method of Equivalent Cross Section Area Explained | Term Definition
+  title: "Method of Equivalent Cross Section Area Explained | Term Definition"
   description: A method that converts the projected areas of components of a complex spacecraft structure into equivalent circular areas for computing collision probability.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Method of Equivalent Cross Section Area Explained | Term Definition
+  title: "Method of Equivalent Cross Section Area Explained | Term Definition"
   description: A method that converts the projected areas of components of a complex spacecraft structure into equivalent circular areas for computing collision probability.
   image: /logo.png
 permalink: /en/glossary/dynamics/method-of-equivalent-cross-section-area/

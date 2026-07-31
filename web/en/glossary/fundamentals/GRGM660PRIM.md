@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GRGM660PRIM Lunar Gravity Field Model Explained | Term Definition
+  title: "GRGM660PRIM Lunar Gravity Field Model Explained | Term Definition"
   description: "A lunar gravity field spherical harmonic model derived from GRAIL mission data. The 'PRIM' designation indicates the use of a primary component solution method."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GRGM660PRIM Lunar Gravity Field Model Explained | Term Definition
+  title: "GRGM660PRIM Lunar Gravity Field Model Explained | Term Definition"
   description: "A lunar gravity field spherical harmonic model derived from GRAIL mission data. The 'PRIM' designation indicates the use of a primary component solution method."
   image: /logo.png
 permalink: /en/glossary/fundamentals/GRGM660PRIM/

@@ -1,6 +1,6 @@
 ---
 title: Earth-Atmosphere Off-Axis Angle
-description: The angle between the camera boresight and the tangent line from the satellite center to Earth's center. When this angle exceeds the camera design threshold,...
+description: "The angle between the camera boresight and the tangent line from the satellite center to Earth's center. When this angle exceeds the camera design threshold,..."
 keywords: Earth-Atmosphere Off-Axis Angle
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Atmosphere Off-Axis Angle Explained | Term Definition
-  description: The angle between the camera boresight and the tangent line from the satellite center to Earth's center. When this angle exceeds the camera design threshold,...
+  title: "Earth-Atmosphere Off-Axis Angle Explained | Term Definition"
+  description: "The angle between the camera boresight and the tangent line from the satellite center to Earth's center. When this angle exceeds the camera design threshold,..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Atmosphere Off-Axis Angle Explained | Term Definition
-  description: The angle between the camera boresight and the tangent line from the satellite center to Earth's center. When this angle exceeds the camera design threshold,...
+  title: "Earth-Atmosphere Off-Axis Angle Explained | Term Definition"
+  description: "The angle between the camera boresight and the tangent line from the satellite center to Earth's center. When this angle exceeds the camera design threshold,..."
   image: /logo.png
 permalink: /en/glossary/observation/earth-atmosphere-off-axis-angle/
 ---

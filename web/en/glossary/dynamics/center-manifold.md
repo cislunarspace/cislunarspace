@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Center Manifold Explained | Term Definition
+  title: "Center Manifold Explained | Term Definition"
   description: A local invariant manifold near a saddle-type equilibrium, spanned by eigendirections corresponding to purely imaginary eigenvalues. The linearization at a collinear libration point has one real eigenvalue pair (±d₁, unstable) and two purely imaginary pairs (±id₂, ±id₃, oscillatory). The center manifold, spanned by the two oscillatory eigenspaces, is the phase-space structure on which Lissajous and Halo orbits exist.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Center Manifold Explained | Term Definition
+  title: "Center Manifold Explained | Term Definition"
   description: A local invariant manifold near a saddle-type equilibrium, spanned by eigendirections corresponding to purely imaginary eigenvalues. The linearization at a collinear libration point has one real eigenvalue pair (±d₁, unstable) and two purely imaginary pairs (±id₂, ±id₃, oscillatory). The center manifold, spanned by the two oscillatory eigenspaces, is the phase-space structure on which Lissajous and Halo orbits exist.
   image: /logo.png
 permalink: /en/glossary/dynamics/center-manifold/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transitability Explained | Term Definition
+  title: "Transitability Explained | Term Definition"
   description: A binary measure indicating whether transit trajectories exist for given combinations of low-thrust acceleration magnitude, thrust angle, and low-thrust Hamiltonian value.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transitability Explained | Term Definition
+  title: "Transitability Explained | Term Definition"
   description: A binary measure indicating whether transit trajectories exist for given combinations of low-thrust acceleration magnitude, thrust angle, and low-thrust Hamiltonian value.
   image: /logo.png
 permalink: /en/glossary/dynamics/transitability/

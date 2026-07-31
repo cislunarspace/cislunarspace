@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Argument of Latitude Explained | Term Definition
+  title: "Argument of Latitude Explained | Term Definition"
   description: Angle in the orbital plane from the ascending node to the spacecraft position, equal to the sum of argument of perigee and true anomaly
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Argument of Latitude Explained | Term Definition
+  title: "Argument of Latitude Explained | Term Definition"
   description: Angle in the orbital plane from the ascending node to the spacecraft position, equal to the sum of argument of perigee and true anomaly
   image: /logo.png
 permalink: /en/glossary/orbits/argument-of-latitude/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: IRSIS Explained | Term Definition
+  title: "IRSIS Explained | Term Definition"
   description: An interoperability standard for rendezvous and docking published by ESA in 2019. Standardizes safety zones and safety constraints in rendezvous operations, providing normative basis for autonomous rendezvous mission design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: IRSIS Explained | Term Definition
+  title: "IRSIS Explained | Term Definition"
   description: An interoperability standard for rendezvous and docking published by ESA in 2019. Standardizes safety zones and safety constraints in rendezvous operations, providing normative basis for autonomous rendezvous mission design.
   image: /logo.png
 permalink: /en/glossary/navigation/international-rendezvous-system-interoperability-standard-irsis/

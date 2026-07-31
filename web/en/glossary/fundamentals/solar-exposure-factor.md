@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Solar Exposure Factor | Terminology Definition
+  title: "Solar Exposure Factor | Terminology Definition"
   description: Detailed analysis of the solar exposure factor definition and calculation methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Exposure Factor | Terminology Definition
+  title: "Solar Exposure Factor | Terminology Definition"
   description: Detailed analysis of the solar exposure factor definition and calculation methods
   image: /logo.png
 permalink: /en/glossary/fundamentals/solar-exposure-factor/

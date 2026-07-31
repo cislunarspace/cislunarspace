@@ -1,6 +1,6 @@
 ---
 title: MMX
-description: JAXA's planned Martian moon exploration mission, designed to conduct close proximity operations around Phobos and return samples.
+description: "JAXA's planned Martian moon exploration mission, designed to conduct close proximity operations around Phobos and return samples."
 keywords: MMX
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: MMX Explained | Term Definition
-  description: JAXA's planned Martian moon exploration mission, designed to conduct close proximity operations around Phobos and return samples.
+  title: "MMX Explained | Term Definition"
+  description: "JAXA's planned Martian moon exploration mission, designed to conduct close proximity operations around Phobos and return samples."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: MMX Explained | Term Definition
-  description: JAXA's planned Martian moon exploration mission, designed to conduct close proximity operations around Phobos and return samples.
+  title: "MMX Explained | Term Definition"
+  description: "JAXA's planned Martian moon exploration mission, designed to conduct close proximity operations around Phobos and return samples."
   image: /logo.png
 permalink: /en/glossary/programs/mmx/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point Explained | Term Definition
+  title: "Libration Point Explained | Term Definition"
   description: In the restricted three-body problem, five points where the gravitational pull of two massive bodies balances the centrifugal force in the rotating frame.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Explained | Term Definition
+  title: "Libration Point Explained | Term Definition"
   description: In the restricted three-body problem, five points where the gravitational pull of two massive bodies balances the centrifugal force in the rotating frame.
   image: /logo.png
 permalink: /en/glossary/fundamentals/libration-point/

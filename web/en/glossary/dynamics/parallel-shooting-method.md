@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parallel Shooting Method Explained | Term Definition
+  title: "Parallel Shooting Method Explained | Term Definition"
   description: An improved variant of the shooting method for solving high-order fixed points. The method introduces multiple intermediate Poincaré sections between the initial and final sections, dividing the lo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parallel Shooting Method Explained | Term Definition
+  title: "Parallel Shooting Method Explained | Term Definition"
   description: An improved variant of the shooting method for solving high-order fixed points. The method introduces multiple intermediate Poincaré sections between the initial and final sections, dividing the lo...
   image: /logo.png
 permalink: /en/glossary/dynamics/parallel-shooting-method/

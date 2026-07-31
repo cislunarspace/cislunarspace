@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo-to-halo Transfer Explained | Term Definition
+  title: "Halo-to-halo Transfer Explained | Term Definition"
   description: A trajectory transfer between halo orbits in two different systems, such as from an Earth–Moon L2 halo orbit to a Sun–Earth L2 halo orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo-to-halo Transfer Explained | Term Definition
+  title: "Halo-to-halo Transfer Explained | Term Definition"
   description: A trajectory transfer between halo orbits in two different systems, such as from an Earth–Moon L2 halo orbit to a Sun–Earth L2 halo orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/halo-to-halo-transfer/

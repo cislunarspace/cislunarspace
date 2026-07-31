@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum Norm Targeting Explained | Term Definition
+  title: "Minimum Norm Targeting Explained | Term Definition"
   description: A differential correction strategy that seeks the solution minimizing the norm of velocity corrections while satisfying multiple constraints. Compared to standa
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Norm Targeting Explained | Term Definition
+  title: "Minimum Norm Targeting Explained | Term Definition"
   description: A differential correction strategy that seeks the solution minimizing the norm of velocity corrections while satisfying multiple constraints. Compared to standa
   image: /logo.png
 permalink: /en/glossary/dynamics/minimum-norm-targeting/

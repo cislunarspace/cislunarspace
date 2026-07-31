@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unpowered Lunar Gravity Assist, Unpowered LGA Explained | Term Definition
+  title: "Unpowered Lunar Gravity Assist, Unpowered LGA Explained | Term Definition"
   description: A flyby technique relying solely on the lunar gravitational field to alter orbital parameters without applying thrust. Enables velocity magnitude and directi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unpowered Lunar Gravity Assist, Unpowered LGA Explained | Term Definition
+  title: "Unpowered Lunar Gravity Assist, Unpowered LGA Explained | Term Definition"
   description: A flyby technique relying solely on the lunar gravitational field to alter orbital parameters without applying thrust. Enables velocity magnitude and directi...
   image: /logo.png
 permalink: /en/glossary/orbits/unpowered-lunar-gravity-assist-unpowered-lga/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Runge-Kutta 7/8 Integrator Explained | Term Definition
+  title: "Runge-Kutta 7/8 Integrator Explained | Term Definition"
   description: A high-order numerical integration method used to numerically integrate trajectories in the Circular Restricted Three-Body Problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Runge-Kutta 7/8 Integrator Explained | Term Definition
+  title: "Runge-Kutta 7/8 Integrator Explained | Term Definition"
   description: A high-order numerical integration method used to numerically integrate trajectories in the Circular Restricted Three-Body Problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/runge-kutta-7-8-integrator/

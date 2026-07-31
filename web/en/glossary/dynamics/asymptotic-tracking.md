@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Asymptotic Tracking Explained | Term Definition
+  title: "Asymptotic Tracking Explained | Term Definition"
   description: A libration point orbit control strategy that designs a controller to drive the spacecraft state to converge asymptotically to a nominal orbit over time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Asymptotic Tracking Explained | Term Definition
+  title: "Asymptotic Tracking Explained | Term Definition"
   description: A libration point orbit control strategy that designs a controller to drive the spacecraft state to converge asymptotically to a nominal orbit over time.
   image: /logo.png
 permalink: /en/glossary/dynamics/asymptotic-tracking/

@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: True Anomaly
-  description: Introduction to True Anomaly's Jackal satellite and space defense technology
+  description: "Introduction to True Anomaly's Jackal satellite and space defense technology"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: True Anomaly
-  description: Introduction to True Anomaly's Jackal satellite and space defense technology
+  description: "Introduction to True Anomaly's Jackal satellite and space defense technology"
   image: /logo.png
 permalink: /en/glossary/organizations/true-anomaly-company/
 ---

@@ -1,6 +1,6 @@
 ---
 title: DRO Insertion Angle, τ (τ)
-description: An angular parameter describing the spacecraft's insertion position on a Distant Retrograde Orbit. In the rotating frame, τ advances clockwise at a constant rat
+description: "An angular parameter describing the spacecraft's insertion position on a Distant Retrograde Orbit. In the rotating frame, τ advances clockwise at a constant rat"
 keywords: DRO Insertion Angle, τ, τ
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO Insertion Angle, τ (τ) Explained | Term Definition
-  description: An angular parameter describing the spacecraft's insertion position on a Distant Retrograde Orbit. In the rotating frame, τ advances clockwise at a constant rat
+  title: "DRO Insertion Angle, τ (τ) Explained | Term Definition"
+  description: "An angular parameter describing the spacecraft's insertion position on a Distant Retrograde Orbit. In the rotating frame, τ advances clockwise at a constant rat"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO Insertion Angle, τ (τ) Explained | Term Definition
-  description: An angular parameter describing the spacecraft's insertion position on a Distant Retrograde Orbit. In the rotating frame, τ advances clockwise at a constant rat
+  title: "DRO Insertion Angle, τ (τ) Explained | Term Definition"
+  description: "An angular parameter describing the spacecraft's insertion position on a Distant Retrograde Orbit. In the rotating frame, τ advances clockwise at a constant rat"
   image: /logo.png
 permalink: /en/glossary/orbits/dro-insertion-angle/
 ---

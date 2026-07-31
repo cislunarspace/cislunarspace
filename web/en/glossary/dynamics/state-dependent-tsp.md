@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: State-Dependent Traveling Salesman Problem Explained | Orbital Deployment Sequence Optimization
+  title: "State-Dependent Traveling Salesman Problem Explained | Orbital Deployment Sequence Optimization"
   description: An analysis of the state-dependent traveling salesman problem (SDTSP), its differences from classical TSP, and applications in orbital deployment
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State-Dependent Traveling Salesman Problem Explained | Orbital Deployment Sequence Optimization
+  title: "State-Dependent Traveling Salesman Problem Explained | Orbital Deployment Sequence Optimization"
   description: An analysis of the state-dependent traveling salesman problem and its applications in orbital deployment sequence optimization
   image: /logo.png
 permalink: /en/glossary/dynamics/state-dependent-tsp/

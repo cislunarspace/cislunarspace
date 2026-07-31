@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Euler-Hill Coordinate Frame Explained | Term Definition
+  title: "Euler-Hill Coordinate Frame Explained | Term Definition"
   description: A relative motion coordinate frame centered on a spacecraft in a reference circular orbit. The x-axis points along the radial direction (positive away from t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Euler-Hill Coordinate Frame Explained | Term Definition
+  title: "Euler-Hill Coordinate Frame Explained | Term Definition"
   description: A relative motion coordinate frame centered on a spacecraft in a reference circular orbit. The x-axis points along the radial direction (positive away from t...
   image: /logo.png
 permalink: /en/glossary/fundamentals/euler-hill-coordinate-frame/

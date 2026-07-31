@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Invariant Manifold Tube Explained | Term Definition
+  title: "Invariant Manifold Tube Explained | Term Definition"
   description: A tube-shaped surface in phase space formed by the complete set of stable or unstable manifolds associated with a periodic orbit (e.g., a halo orbit). Transi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Invariant Manifold Tube Explained | Term Definition
+  title: "Invariant Manifold Tube Explained | Term Definition"
   description: A tube-shaped surface in phase space formed by the complete set of stable or unstable manifolds associated with a periodic orbit (e.g., a halo orbit). Transi...
   image: /logo.png
 permalink: /en/glossary/dynamics/invariant-manifold-tube/

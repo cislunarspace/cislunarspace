@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Monte Carlo Shooting Simulation Explained | Term Definition
+  title: "Monte Carlo Shooting Simulation Explained | Term Definition"
   description: A batch statistical simulation method that considers random distributions of model parameters and initial states. Through numerous randomly sampled single-run s
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Monte Carlo Shooting Simulation Explained | Term Definition
+  title: "Monte Carlo Shooting Simulation Explained | Term Definition"
   description: A batch statistical simulation method that considers random distributions of model parameters and initial states. Through numerous randomly sampled single-run s
   image: /logo.png
 permalink: /en/glossary/other/monte-carlo-shooting-simulation/

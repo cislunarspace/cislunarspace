@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trajectory Correction Manoeuvre, TCM Explained | Term Definition
+  title: "Trajectory Correction Manoeuvre, TCM Explained | Term Definition"
   description: Medium to small-scale maneuvers on transfer trajectories to correct injection errors. Typical Earth-Moon transfers require 2-3 TCMs with a total cost of approximately tens of meters per second.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trajectory Correction Manoeuvre, TCM Explained | Term Definition
+  title: "Trajectory Correction Manoeuvre, TCM Explained | Term Definition"
   description: Medium to small-scale maneuvers on transfer trajectories to correct injection errors. Typical Earth-Moon transfers require 2-3 TCMs with a total cost of approximately tens of meters per second.
   image: /logo.png
 permalink: /en/glossary/dynamics/trajectory-correction-manoeuvre-tcm/

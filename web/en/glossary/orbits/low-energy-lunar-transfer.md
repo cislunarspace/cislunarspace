@@ -1,6 +1,6 @@
 ---
 title: Low-Energy Lunar Transfer
-description: A 2.5-4 month Earth-Moon transfer that uses the Sun's gravity to reduce fuel requirements.
+description: "A 2.5-4 month Earth-Moon transfer that uses the Sun's gravity to reduce fuel requirements."
 keywords: Low-Energy Lunar Transfer, cislunar space, orbital mechanics, navigation, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Energy Lunar Transfer Explained | Term Definition
-  description: A 2.5-4 month Earth-Moon transfer that uses the Sun's gravity to reduce fuel requirements.
+  title: "Low-Energy Lunar Transfer Explained | Term Definition"
+  description: "A 2.5-4 month Earth-Moon transfer that uses the Sun's gravity to reduce fuel requirements."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Energy Lunar Transfer Explained | Term Definition
-  description: A 2.5-4 month Earth-Moon transfer that uses the Sun's gravity to reduce fuel requirements.
+  title: "Low-Energy Lunar Transfer Explained | Term Definition"
+  description: "A 2.5-4 month Earth-Moon transfer that uses the Sun's gravity to reduce fuel requirements."
   image: /logo.png
 permalink: /en/glossary/orbits/low-energy-lunar-transfer/
 ---

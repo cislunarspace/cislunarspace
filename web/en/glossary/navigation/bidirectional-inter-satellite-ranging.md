@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bidirectional Inter-Satellite Ranging Explained | Term Definition
+  title: "Bidirectional Inter-Satellite Ranging Explained | Term Definition"
   description: "A technique where two spacecraft simultaneously transmit ranging signals to each other and receive each other's reply signals, eliminating clock biases inherent in one-way ranging through bidirectional signal propagation time measurement to achieve high-precision relative distance measurement. The paper notes that using bidirectional inter-satellite ranging data between cislunar spacecraft, combined with relativistic corrections, enables autonomous orbit determination at libration points with accuracy superior to ground-based methods under 1 mm ranging error conditions. This technique is a key means for autonomous cislunar spacecraft orbit determination."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bidirectional Inter-Satellite Ranging Explained | Term Definition
+  title: "Bidirectional Inter-Satellite Ranging Explained | Term Definition"
   description: "A technique where two spacecraft simultaneously transmit ranging signals to each other and receive each other's reply signals, eliminating clock biases inherent in one-way ranging through bidirectional signal propagation time measurement to achieve high-precision relative distance measurement. The paper notes that using bidirectional inter-satellite ranging data between cislunar spacecraft, combined with relativistic corrections, enables autonomous orbit determination at libration points with accuracy superior to ground-based methods under 1 mm ranging error conditions. This technique is a key means for autonomous cislunar spacecraft orbit determination."
   image: /logo.png
 permalink: /en/glossary/navigation/bidirectional-inter-satellite-ranging/

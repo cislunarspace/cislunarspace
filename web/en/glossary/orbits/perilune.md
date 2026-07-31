@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Perilune Explained | Cislunar Space
+  title: "Perilune Explained | Cislunar Space"
   description: Detailed explanation of perilune definition, geometric significance, influence on lunar gravity assist, and role in orbital design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Explained | Cislunar Space
+  title: "Perilune Explained | Cislunar Space"
   description: Detailed explanation of perilune definition, geometric significance, influence on lunar gravity assist, and role in orbital design
   image: /logo.png
 permalink: /en/glossary/orbits/perilune/

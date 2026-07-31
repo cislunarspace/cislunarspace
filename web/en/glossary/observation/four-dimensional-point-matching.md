@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Four-Dimensional Point Matching Explained | Term Definition
+  title: "Four-Dimensional Point Matching Explained | Term Definition"
   description: Algorithm matching craters using 2D coordinates and two semi-axis lengths
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Four-Dimensional Point Matching Explained | Term Definition
+  title: "Four-Dimensional Point Matching Explained | Term Definition"
   description: Algorithm matching craters using 2D coordinates and two semi-axis lengths
   image: /logo.png
 permalink: /en/glossary/observation/four-dimensional-point-matching/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Maneuver Execution Error Explained | Term Definition
+  title: "Maneuver Execution Error Explained | Term Definition"
   description: Magnitude and direction deviations during corrective maneuver execution, possibly modeled as fixed-magnitude random-direction errors.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Maneuver Execution Error Explained | Term Definition
+  title: "Maneuver Execution Error Explained | Term Definition"
   description: Magnitude and direction deviations during corrective maneuver execution, possibly modeled as fixed-magnitude random-direction errors.
   image: /logo.png
 permalink: /en/glossary/dynamics/EX error/

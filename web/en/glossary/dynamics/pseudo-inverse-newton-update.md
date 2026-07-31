@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudo-inverse Newton Update Explained | Term Definition
+  title: "Pseudo-inverse Newton Update Explained | Term Definition"
   description: An iterative correction method in multiple shooting that uses a pseudo-inverse instead of the standard Newton update when the Jacobian matrix is not invertible.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudo-inverse Newton Update Explained | Term Definition
+  title: "Pseudo-inverse Newton Update Explained | Term Definition"
   description: An iterative correction method in multiple shooting that uses a pseudo-inverse instead of the standard Newton update when the Jacobian matrix is not invertible.
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudo-inverse-newton-update/

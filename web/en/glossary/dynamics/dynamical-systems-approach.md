@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamical Systems Approach Explained | Term Definition
+  title: "Dynamical Systems Approach Explained | Term Definition"
   description: Modern trajectory design method using dynamical systems theory (invariant manifolds, heteroclinic orbits, etc.), as opposed to traditional conic approach.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamical Systems Approach Explained | Term Definition
+  title: "Dynamical Systems Approach Explained | Term Definition"
   description: Modern trajectory design method using dynamical systems theory (invariant manifolds, heteroclinic orbits, etc.), as opposed to traditional conic approach.
   image: /logo.png
 permalink: /en/glossary/dynamics/dynamical-systems-approach/

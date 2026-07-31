@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GRGM1200A Lunar Gravity Field Model Explained | Term Definition
+  title: "GRGM1200A Lunar Gravity Field Model Explained | Term Definition"
   description: A lunar gravity field spherical harmonic model published by NASA Goddard Space Flight Center, expanded up to degree and order 1200. This paper truncates it to degree and order 8 for computing lunar gr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GRGM1200A Lunar Gravity Field Model Explained | Term Definition
+  title: "GRGM1200A Lunar Gravity Field Model Explained | Term Definition"
   description: A lunar gravity field spherical harmonic model published by NASA Goddard Space Flight Center, expanded up to degree and order 1200. This paper truncates it to degree and order 8 for computing lunar gr...
   image: /logo.png
 permalink: /en/glossary/observation/grgm1200a-lunar-gravity-field-model/

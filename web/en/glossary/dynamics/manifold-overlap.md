@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Overlap Explained | Term Definition
+  title: "Manifold Overlap Explained | Term Definition"
   description: "The phenomenon where the position projections of stable and unstable manifolds from different restricted three-body problems intersect on a Poincaré section. The overlapping region in yz-coordinates is the geometric prerequisite for constructing cross-system connecting trajectories: each point in the overlap corresponds to a pair of initial phases in the two RTBPs, which when joined yield a position-continuous transfer."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Overlap Explained | Term Definition
+  title: "Manifold Overlap Explained | Term Definition"
   description: "The phenomenon where the position projections of stable and unstable manifolds from different restricted three-body problems intersect on a Poincaré section. The overlapping region in yz-coordinates is the geometric prerequisite for constructing cross-system connecting trajectories: each point in the overlap corresponds to a pair of initial phases in the two RTBPs, which when joined yield a position-continuous transfer."
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-overlap/

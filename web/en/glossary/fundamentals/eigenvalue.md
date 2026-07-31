@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eigenvalue Explained | Term Definition
+  title: "Eigenvalue Explained | Term Definition"
   description: "A fundamental linear algebra concept. The monodromy matrix of a libration point periodic orbit in CRTBP has four eigenvalues: two equal to 1 (periodic direction"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eigenvalue Explained | Term Definition
+  title: "Eigenvalue Explained | Term Definition"
   description: "A fundamental linear algebra concept. The monodromy matrix of a libration point periodic orbit in CRTBP has four eigenvalues: two equal to 1 (periodic direction"
   image: /logo.png
 permalink: /en/glossary/fundamentals/eigenvalue/

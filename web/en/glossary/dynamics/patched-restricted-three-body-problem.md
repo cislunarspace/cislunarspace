@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Patched Restricted Three-Body Problem Explained | Term Definition
+  title: "Patched Restricted Three-Body Problem Explained | Term Definition"
   description: An approach that approximates the four-body problem by superposing two CRTBPs sharing a common primary (e.g., Sun-Earth and Earth-Moon). Transfer trajectories a
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Patched Restricted Three-Body Problem Explained | Term Definition
+  title: "Patched Restricted Three-Body Problem Explained | Term Definition"
   description: An approach that approximates the four-body problem by superposing two CRTBPs sharing a common primary (e.g., Sun-Earth and Earth-Moon). Transfer trajectories a
   image: /logo.png
 permalink: /en/glossary/dynamics/patched-restricted-three-body-problem/

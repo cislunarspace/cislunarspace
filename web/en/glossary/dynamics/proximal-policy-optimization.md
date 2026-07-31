@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Proximal Policy Optimization Explained | Term Definition
+  title: "Proximal Policy Optimization Explained | Term Definition"
   description: A state-of-the-art first-order policy optimization algorithm that ensures stable and convergent policy updates by introducing a clipped surrogate objective func
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Proximal Policy Optimization Explained | Term Definition
+  title: "Proximal Policy Optimization Explained | Term Definition"
   description: A state-of-the-art first-order policy optimization algorithm that ensures stable and convergent policy updates by introducing a clipped surrogate objective func
   image: /logo.png
 permalink: /en/glossary/dynamics/proximal-policy-optimization/

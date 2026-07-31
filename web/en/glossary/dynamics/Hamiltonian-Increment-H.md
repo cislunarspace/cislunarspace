@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamiltonian Increment, ΔH Explained | Term Definition
+  title: "Hamiltonian Increment, ΔH Explained | Term Definition"
   description: The difference between the Hamiltonian in the SBCM model and that in the CR3BP model, characterizing the magnitude of solar gravitational perturbation, being th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian Increment, ΔH Explained | Term Definition
+  title: "Hamiltonian Increment, ΔH Explained | Term Definition"
   description: The difference between the Hamiltonian in the SBCM model and that in the CR3BP model, characterizing the magnitude of solar gravitational perturbation, being th
   image: /logo.png
 permalink: /en/glossary/dynamics/Hamiltonian-Increment-H/

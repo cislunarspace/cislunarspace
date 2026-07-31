@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bayesian Compressive Sensing Explained | Term Definition
+  title: "Bayesian Compressive Sensing Explained | Term Definition"
   description: A sparse coefficient regression method for adaptive polynomial chaos expansion that uses a Bayesian inference framework to automatically select sparse terms.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bayesian Compressive Sensing Explained | Term Definition
+  title: "Bayesian Compressive Sensing Explained | Term Definition"
   description: A sparse coefficient regression method for adaptive polynomial chaos expansion that uses a Bayesian inference framework to automatically select sparse terms.
   image: /logo.png
 permalink: /en/glossary/dynamics/bayesian-compressive-sensing/

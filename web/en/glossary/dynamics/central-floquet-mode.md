@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Central Floquet Mode Explained | Term Definition
+  title: "Central Floquet Mode Explained | Term Definition"
   description: In Floquet theory, a mode with complex conjugate eigenvalue pairs of modulus one, corresponding to the central manifold near a periodic orbit and giving rise to quasi-periodic orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Central Floquet Mode Explained | Term Definition
+  title: "Central Floquet Mode Explained | Term Definition"
   description: In Floquet theory, a mode with complex conjugate eigenvalue pairs of modulus one, corresponding to the central manifold near a periodic orbit and giving rise to quasi-periodic orbits.
   image: /logo.png
 permalink: /en/glossary/dynamics/central-floquet-mode/

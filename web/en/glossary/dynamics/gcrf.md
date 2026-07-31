@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Celestial Reference Frame Explained | Term Definition
+  title: "Geocentric Celestial Reference Frame Explained | Term Definition"
   description: The current standard inertial coordinate system for Earth, referenced to the ICRF, officially adopted in 1997, effectively replacing the IAU-76/FK5 J2000 system
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Celestial Reference Frame Explained | Term Definition
+  title: "Geocentric Celestial Reference Frame Explained | Term Definition"
   description: The current standard inertial coordinate system for Earth, referenced to the ICRF, officially adopted in 1997, effectively replacing the IAU-76/FK5 J2000 system
   image: /logo.png
 permalink: /en/glossary/dynamics/gcrf/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocycler Orbit Explained | Term Definition
+  title: "Geocycler Orbit Explained | Term Definition"
   description: A class of periodic or quasi-periodic orbits in the Earth-Moon system where the spacecraft repeatedly traverses cislunar space, achieving sustained coverage over a large region. This study examines...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocycler Orbit Explained | Term Definition
+  title: "Geocycler Orbit Explained | Term Definition"
   description: A class of periodic or quasi-periodic orbits in the Earth-Moon system where the spacecraft repeatedly traverses cislunar space, achieving sustained coverage over a large region. This study examines...
   image: /logo.png
 permalink: /en/glossary/orbits/geocycler-orbit/

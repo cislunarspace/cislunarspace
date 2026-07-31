@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space Situational Awareness Explained | Term Definition
+  title: "Space Situational Awareness Explained | Term Definition"
   description: 对在轨运行物体的监视、跟踪和轨道预测能力。SSA提供空间交通管理所需的基础数据，包括目标识别、轨道确定、碰撞概率计算等。与SDA的区别：SSA聚焦技术层面的监视和预测，SDA在此基础上还包含对意图和威胁的理解。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Situational Awareness Explained | Term Definition
+  title: "Space Situational Awareness Explained | Term Definition"
   description: 对在轨运行物体的监视、跟踪和轨道预测能力。SSA提供空间交通管理所需的基础数据，包括目标识别、轨道确定、碰撞概率计算等。与SDA的区别：SSA聚焦技术层面的监视和预测，SDA在此基础上还包含对意图和威胁的理解。
   image: /logo.png
 permalink: /en/glossary/doctrine/space-situational-awareness-ssa/

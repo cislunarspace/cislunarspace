@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Free-variable and Constraint Method Explained | Term Definition
+  title: "Free-variable and Constraint Method Explained | Term Definition"
   description: "A differential corrections method based on multi-variable Newton's method, solving two-point boundary value problems through a free-variable vector and constrai"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free-variable and Constraint Method Explained | Term Definition
+  title: "Free-variable and Constraint Method Explained | Term Definition"
   description: "A differential corrections method based on multi-variable Newton's method, solving two-point boundary value problems through a free-variable vector and constrai"
   image: /logo.png
 permalink: /en/glossary/dynamics/free-variable-and-constraint-method/

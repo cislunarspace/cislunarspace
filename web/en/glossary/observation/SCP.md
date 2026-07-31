@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Surface Coverage Percentage, SCP Explained | Term Definition
+  title: "Surface Coverage Percentage, SCP Explained | Term Definition"
   description: The ratio of the lunar surface area continuously covered by at least one CN satellite (CTP = 100%) to the total lunar surface area. Computed by discretizing the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Surface Coverage Percentage, SCP Explained | Term Definition
+  title: "Surface Coverage Percentage, SCP Explained | Term Definition"
   description: The ratio of the lunar surface area continuously covered by at least one CN satellite (CTP = 100%) to the total lunar surface area. Computed by discretizing the
   image: /logo.png
 permalink: /en/glossary/observation/SCP/

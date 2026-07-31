@@ -1,6 +1,6 @@
 ---
 title: Lunar Global Positioning System, LGPS
-description: A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surface users. Its goal is continuous global lunar coverage, especially for polar and far-side regions. Analogous to Earth's GPS, it serves future lunar exploration and exploitation missions.
+description: "A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surface users. Its goal is continuous global lunar coverage, especially for polar and far-side regions. Analogous to Earth's GPS, it serves future lunar exploration and exploitation missions."
 keywords: Lunar Global Positioning System, LGPS, navigation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Global Positioning System, LGPS Explained | Term Definition
-  description: A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surface users. Its goal is continuous global lunar coverage, especially for polar and far-side regions. Analogous to Earth's GPS, it serves future lunar exploration and exploitation missions.
+  title: "Lunar Global Positioning System, LGPS Explained | Term Definition"
+  description: "A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surface users. Its goal is continuous global lunar coverage, especially for polar and far-side regions. Analogous to Earth's GPS, it serves future lunar exploration and exploitation missions."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Global Positioning System, LGPS Explained | Term Definition
-  description: A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surface users. Its goal is continuous global lunar coverage, especially for polar and far-side regions. Analogous to Earth's GPS, it serves future lunar exploration and exploitation missions.
+  title: "Lunar Global Positioning System, LGPS Explained | Term Definition"
+  description: "A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surface users. Its goal is continuous global lunar coverage, especially for polar and far-side regions. Analogous to Earth's GPS, it serves future lunar exploration and exploitation missions."
   image: /logo.png
 permalink: /en/glossary/navigation/lunar-global-positioning-system-lgps/
 ---

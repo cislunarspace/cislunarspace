@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Terrestrial Planet Finder, TPF Explained | Term Definition
+  title: "Terrestrial Planet Finder, TPF Explained | Term Definition"
   description: A NASA optical/infrared space interferometry program aimed at searching for terrestrial exoplanets and analyzing their atmospheric compositions. It planned a te
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Terrestrial Planet Finder, TPF Explained | Term Definition
+  title: "Terrestrial Planet Finder, TPF Explained | Term Definition"
   description: A NASA optical/infrared space interferometry program aimed at searching for terrestrial exoplanets and analyzing their atmospheric compositions. It planned a te
   image: /logo.png
 permalink: /en/glossary/programs/TPF/

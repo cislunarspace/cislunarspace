@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heliocentric Graveyard Orbit Explained | Term Definition
+  title: "Heliocentric Graveyard Orbit Explained | Term Definition"
   description: "An end-of-life disposal method for libration point missions: maneuvering the spacecraft into a heliocentric orbit far from Earth, ensuring it will not return to Earth's vicinity for hundreds of years,"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heliocentric Graveyard Orbit Explained | Term Definition
+  title: "Heliocentric Graveyard Orbit Explained | Term Definition"
   description: "An end-of-life disposal method for libration point missions: maneuvering the spacecraft into a heliocentric orbit far from Earth, ensuring it will not return to Earth's vicinity for hundreds of years,"
   image: /logo.png
 permalink: /en/glossary/orbits/heliocentric-graveyard-orbit/

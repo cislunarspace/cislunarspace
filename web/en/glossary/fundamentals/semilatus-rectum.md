@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Semilatus Rectum Explained | Term Definition
+  title: "Semilatus Rectum Explained | Term Definition"
   description: 圆锥曲线的几何参数，定义为 p=a(1-e^2)，其中a为半长轴，e为离心率。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Semilatus Rectum Explained | Term Definition
+  title: "Semilatus Rectum Explained | Term Definition"
   description: 圆锥曲线的几何参数，定义为 p=a(1-e^2)，其中a为半长轴，e为离心率。
   image: /logo.png
 permalink: /en/glossary/fundamentals/semilatus-rectum/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sun Exclusion Zone (SEZ) Explained | Term Definition
+  title: "Sun Exclusion Zone (SEZ) Explained | Term Definition"
   description: Zone where an object is not visible when the angle between the object-sun line as seen from the observer is below a threshold, protecting sensors from solar int
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun Exclusion Zone (SEZ) Explained | Term Definition
+  title: "Sun Exclusion Zone (SEZ) Explained | Term Definition"
   description: Zone where an object is not visible when the angle between the object-sun line as seen from the observer is below a threshold, protecting sensors from solar int
   image: /logo.png
 permalink: /en/glossary/observation/sun-exclusion-zone/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Allan Deviation (ADEV) | Terminology Definition
+  title: "Allan Deviation (ADEV) | Terminology Definition"
   description: Detailed analysis of Allan Deviation definition, calculation methods, and applications in atomic clock frequency stability evaluation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Allan Deviation (ADEV) | Terminology Definition
+  title: "Allan Deviation (ADEV) | Terminology Definition"
   description: Detailed analysis of Allan Deviation definition, calculation methods, and applications in atomic clock frequency stability evaluation
   image: /logo.png
 permalink: /en/glossary/fundamentals/allan-deviation/

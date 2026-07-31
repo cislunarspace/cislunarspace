@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Space Explained | Term Definition
+  title: "Phase Space Explained | Term Definition"
   description: A 2n-dimensional space spanned by position coordinates and velocity (momentum) coordinates, where n is the number of degrees of freedom.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Space Explained | Term Definition
+  title: "Phase Space Explained | Term Definition"
   description: A 2n-dimensional space spanned by position coordinates and velocity (momentum) coordinates, where n is the number of degrees of freedom.
   image: /logo.png
 permalink: /en/glossary/dynamics/phase-space/

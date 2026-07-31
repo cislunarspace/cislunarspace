@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chip Scale Atomic Clock Explained | Term Definition
+  title: "Chip Scale Atomic Clock Explained | Term Definition"
   description: A miniature atomic clock with small size and low power consumption, characterized by power spectral density coefficients h0 and h-1 for frequency stability. The Jackson Lab CSAC is used as the onboard
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chip Scale Atomic Clock Explained | Term Definition
+  title: "Chip Scale Atomic Clock Explained | Term Definition"
   description: A miniature atomic clock with small size and low power consumption, characterized by power spectral density coefficients h0 and h-1 for frequency stability. The Jackson Lab CSAC is used as the onboard
   image: /logo.png
 permalink: /en/glossary/navigation/chip-scale-atomic-clock/

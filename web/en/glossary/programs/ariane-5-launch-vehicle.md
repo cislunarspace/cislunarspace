@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ariane-5 Launch Vehicle Explained | Term Definition
+  title: "Ariane-5 Launch Vehicle Explained | Term Definition"
   description: The launch vehicle manufactured by Arianespace, used in the paper to launch the SMART-1 probe into Earth transfer orbit. SMART-1 entered GTO orbit after separat
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ariane-5 Launch Vehicle Explained | Term Definition
+  title: "Ariane-5 Launch Vehicle Explained | Term Definition"
   description: The launch vehicle manufactured by Arianespace, used in the paper to launch the SMART-1 probe into Earth transfer orbit. SMART-1 entered GTO orbit after separat
   image: /logo.png
 permalink: /en/glossary/programs/ariane-5-launch-vehicle/

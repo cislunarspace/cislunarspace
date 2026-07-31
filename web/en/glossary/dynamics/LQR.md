@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Quadratic Regulator Explained | Term Definition
+  title: "Linear Quadratic Regulator Explained | Term Definition"
   description: An optimal control law for linear systems based on quadratic performance index. It minimizes a weighted sum of state error and control input quadratics,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Quadratic Regulator Explained | Term Definition
+  title: "Linear Quadratic Regulator Explained | Term Definition"
   description: An optimal control law for linear systems based on quadratic performance index. It minimizes a weighted sum of state error and control input quadratics,...
   image: /logo.png
 permalink: /en/glossary/dynamics/LQR/

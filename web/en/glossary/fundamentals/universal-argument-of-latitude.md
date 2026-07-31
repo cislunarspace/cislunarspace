@@ -1,6 +1,6 @@
 ---
 title: Universal Argument of Latitude
-description: The angular parameter in unified orbital elements that defines the spacecraft's position, combining RAAN, argument of periapsis, and true anomaly into a...
+description: "The angular parameter in unified orbital elements that defines the spacecraft's position, combining RAAN, argument of periapsis, and true anomaly into a..."
 keywords: Universal Argument of Latitude, u
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Universal Argument of Latitude Explained | Term Definition
-  description: The angular parameter in unified orbital elements that defines the spacecraft's position, combining RAAN, argument of periapsis, and true anomaly into a...
+  title: "Universal Argument of Latitude Explained | Term Definition"
+  description: "The angular parameter in unified orbital elements that defines the spacecraft's position, combining RAAN, argument of periapsis, and true anomaly into a..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Universal Argument of Latitude Explained | Term Definition
-  description: The angular parameter in unified orbital elements that defines the spacecraft's position, combining RAAN, argument of periapsis, and true anomaly into a...
+  title: "Universal Argument of Latitude Explained | Term Definition"
+  description: "The angular parameter in unified orbital elements that defines the spacecraft's position, combining RAAN, argument of periapsis, and true anomaly into a..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/universal-argument-of-latitude/
 ---

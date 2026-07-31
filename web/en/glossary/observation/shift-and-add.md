@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Shift-and-Add (SAA) Explained | Moving Object Detection Technique
+  title: "Shift-and-Add (SAA) Explained | Moving Object Detection Technique"
   description: Shift-and-Add is an image processing technique that detects moving celestial objects by assuming target motion trajectories, shifting images accordingly, and then stacking them.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shift-and-Add (SAA) Explained | Moving Object Detection Technique
+  title: "Shift-and-Add (SAA) Explained | Moving Object Detection Technique"
   description: Shift-and-Add is an image processing technique that detects moving celestial objects by assuming target motion trajectories, shifting images accordingly, and then stacking them.
   image: /logo.png
 permalink: /en/glossary/observation/shift-and-add/

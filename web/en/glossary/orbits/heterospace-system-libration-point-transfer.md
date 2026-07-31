@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heterospace-system Libration Point Transfer Explained | Term Definition
+  title: "Heterospace-system Libration Point Transfer Explained | Term Definition"
   description: A transfer method connecting libration point orbits of different three-body systems (such as Sun-Earth and Earth-Moon systems), achieving cross-system transfer 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heterospace-system Libration Point Transfer Explained | Term Definition
+  title: "Heterospace-system Libration Point Transfer Explained | Term Definition"
   description: A transfer method connecting libration point orbits of different three-body systems (such as Sun-Earth and Earth-Moon systems), achieving cross-system transfer 
   image: /logo.png
 permalink: /en/glossary/orbits/heterospace-system-libration-point-transfer/

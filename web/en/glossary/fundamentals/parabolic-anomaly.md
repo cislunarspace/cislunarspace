@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parabolic Anomaly Explained | Term Definition
+  title: "Parabolic Anomaly Explained | Term Definition"
   description: An auxiliary angle for describing position in a parabolic orbit, defined as B = tan(ν/2), where ν is the true anomaly.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parabolic Anomaly Explained | Term Definition
+  title: "Parabolic Anomaly Explained | Term Definition"
   description: An auxiliary angle for describing position in a parabolic orbit, defined as B = tan(ν/2), where ν is the true anomaly.
   image: /logo.png
 permalink: /en/glossary/fundamentals/parabolic-anomaly/

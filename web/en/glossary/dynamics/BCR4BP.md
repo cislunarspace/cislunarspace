@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition
+  title: "Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition"
   description: A four-body model that introduces solar gravitational effects on top of the circular restricted three-body problem. The Sun is assumed to move along a circular 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition
+  title: "Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition"
   description: A four-body model that introduces solar gravitational effects on top of the circular restricted three-body problem. The Sun is assumed to move along a circular 
   image: /logo.png
 permalink: /en/glossary/dynamics/BCR4BP/

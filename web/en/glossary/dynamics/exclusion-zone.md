@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exclusion Zone Explained | Term Definition
+  title: "Exclusion Zone Explained | Term Definition"
   description: Region on a Lissajous orbit that a spacecraft must avoid (e.g., Sun-Earth exclusion zone) to maintain payload operation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exclusion Zone Explained | Term Definition
+  title: "Exclusion Zone Explained | Term Definition"
   description: Region on a Lissajous orbit that a spacecraft must avoid (e.g., Sun-Earth exclusion zone) to maintain payload operation.
   image: /logo.png
 permalink: /en/glossary/dynamics/exclusion-zone/

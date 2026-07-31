@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transportation Tube Wall Explained | Term Definition
+  title: "Transportation Tube Wall Explained | Term Definition"
   description: A 2D tubular wall structure formed by invariant manifolds of Halo or Lyapunov orbits in phase space. It encloses transiting trajectories inside the tube whil...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transportation Tube Wall Explained | Term Definition
+  title: "Transportation Tube Wall Explained | Term Definition"
   description: A 2D tubular wall structure formed by invariant manifolds of Halo or Lyapunov orbits in phase space. It encloses transiting trajectories inside the tube whil...
   image: /logo.png
 permalink: /en/glossary/dynamics/transportation-tube-wall/

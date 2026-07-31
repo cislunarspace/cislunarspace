@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Velocity-to-be-gained (vg) Explained | Term Definition
+  title: "Velocity-to-be-gained (vg) Explained | Term Definition"
   description: The difference between the actual velocity and the velocity required to satisfy terminal conditions; the core state variable in Q system guidance, directly invo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity-to-be-gained (vg) Explained | Term Definition
+  title: "Velocity-to-be-gained (vg) Explained | Term Definition"
   description: The difference between the actual velocity and the velocity required to satisfy terminal conditions; the core state variable in Q system guidance, directly invo
   image: /logo.png
 permalink: /en/glossary/dynamics/velocity-to-be-gained/

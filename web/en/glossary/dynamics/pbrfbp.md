@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Bicircular Restricted Four-Body Problem Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Problem Explained | Term Definition"
   description: Four-body model incorporating solar perturbation into PCRTBP, with the Sun revolving in a circular orbit around the Earth-Moon barycenter.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Bicircular Restricted Four-Body Problem Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Problem Explained | Term Definition"
   description: Four-body model incorporating solar perturbation into PCRTBP, with the Sun revolving in a circular orbit around the Earth-Moon barycenter.
   image: /logo.png
 permalink: /en/glossary/dynamics/pbrfbp/

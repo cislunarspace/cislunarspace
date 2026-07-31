@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Formation Stationkeeping Explained | Term Definition
+  title: "Formation Stationkeeping Explained | Term Definition"
   description: A control strategy in formation flight missions that periodically applies correction maneuvers to counteract the effects of navigation errors, execution...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Formation Stationkeeping Explained | Term Definition
+  title: "Formation Stationkeeping Explained | Term Definition"
   description: A control strategy in formation flight missions that periodically applies correction maneuvers to counteract the effects of navigation errors, execution...
   image: /logo.png
 permalink: /en/glossary/dynamics/formation-stationkeeping/

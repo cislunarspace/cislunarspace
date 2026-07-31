@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Euler-Lagrange Equations Explained | Term Definition
+  title: "Euler-Lagrange Equations Explained | Term Definition"
   description: Differential equations that render a functional stationary in the calculus of variations, describing the time evolution of states and costates in optimal control problems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Euler-Lagrange Equations Explained | Term Definition
+  title: "Euler-Lagrange Equations Explained | Term Definition"
   description: Differential equations that render a functional stationary in the calculus of variations, describing the time evolution of states and costates in optimal control problems.
   image: /logo.png
 permalink: /en/glossary/dynamics/euler-lagrange-equations/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kozai Method Explained | Term Definition
+  title: "Kozai Method Explained | Term Definition"
   description: A perturbation method for solving averaged co-orbital resonance problems, commonly used to analyze long-period orbital evolution of celestial bodies.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kozai Method Explained | Term Definition
+  title: "Kozai Method Explained | Term Definition"
   description: A perturbation method for solving averaged co-orbital resonance problems, commonly used to analyze long-period orbital evolution of celestial bodies.
   image: /logo.png
 permalink: /en/glossary/dynamics/kozai-method/

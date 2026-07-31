@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Auxiliary Longitude Explained | Term Definition
+  title: "Auxiliary Longitude Explained | Term Definition"
   description: An angular variable K used as independent variable instead of true longitude L, avoiding violation of monotonicity of true longitude with respect to time at...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Auxiliary Longitude Explained | Term Definition
+  title: "Auxiliary Longitude Explained | Term Definition"
   description: An angular variable K used as independent variable instead of true longitude L, avoiding violation of monotonicity of true longitude with respect to time at...
   image: /logo.png
 permalink: /en/glossary/dynamics/K/

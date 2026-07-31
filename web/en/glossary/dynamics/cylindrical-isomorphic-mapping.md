@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cylindrical Isomorphic Mapping Explained | Term Definition
+  title: "Cylindrical Isomorphic Mapping Explained | Term Definition"
   description: A geometric transformation that maps the Birkhoff state (x, y, γ) to cylindrical coordinates (X, Y, Z) defined by X = x - xL1, Y = ρcosγ, Z = ρsinγ (ρ = y - ymin).
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cylindrical Isomorphic Mapping Explained | Term Definition
+  title: "Cylindrical Isomorphic Mapping Explained | Term Definition"
   description: A geometric transformation that maps the Birkhoff state (x, y, γ) to cylindrical coordinates (X, Y, Z) defined by X = x - xL1, Y = ρcosγ, Z = ρsinγ (ρ = y - ymin).
   image: /logo.png
 permalink: /en/glossary/dynamics/cylindrical-isomorphic-mapping/

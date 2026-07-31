@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: On-Orbit Servicing Explained | Term Definition
+  title: "On-Orbit Servicing Explained | Term Definition"
   description: Services provided to operational spacecraft in orbit, including repair, refueling, upgrade, or life extension. Requires designing transfer trajectories between libration point orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: On-Orbit Servicing Explained | Term Definition
+  title: "On-Orbit Servicing Explained | Term Definition"
   description: Services provided to operational spacecraft in orbit, including repair, refueling, upgrade, or life extension. Requires designing transfer trajectories between libration point orbits.
   image: /logo.png
 permalink: /en/glossary/doctrine/on-orbit-servicing/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fast Transfer Trajectory Explained | Term Definition
+  title: "Fast Transfer Trajectory Explained | Term Definition"
   description: A transfer trajectory achieving rapid DRO insertion using the invariant manifold of LL1 Lyapunov orbit. The spacecraft accelerates twice into Hohmann transfe...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fast Transfer Trajectory Explained | Term Definition
+  title: "Fast Transfer Trajectory Explained | Term Definition"
   description: A transfer trajectory achieving rapid DRO insertion using the invariant manifold of LL1 Lyapunov orbit. The spacecraft accelerates twice into Hohmann transfe...
   image: /logo.png
 permalink: /en/glossary/orbits/fast-transfer-trajectory/

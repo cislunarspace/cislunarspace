@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Primary Impulse Orbit Transfer | Libration Point Transfer Orbit Design
+  title: "Primary Impulse Orbit Transfer | Libration Point Transfer Orbit Design"
   description: Detailed explanation of primary impulse orbit transfer — principles, comparison with Hohmann two-impulse transfer, and applications in the Earth-Moon system
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Primary Impulse Orbit Transfer | Libration Point Transfer Orbit Design
+  title: "Primary Impulse Orbit Transfer | Libration Point Transfer Orbit Design"
   description: Detailed explanation of primary impulse orbit transfer — principles, comparison with Hohmann two-impulse transfer, and applications in the Earth-Moon system
   image: /logo.png
 permalink: /en/glossary/orbits/primary-impulse-transfer/

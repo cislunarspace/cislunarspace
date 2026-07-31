@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptic Non-linear Equations of Relative Motion, ENERM Explained | Term Definition
+  title: "Elliptic Non-linear Equations of Relative Motion, ENERM Explained | Term Definition"
   description: Non-linear relative motion equations derived in the ER3BP framework, accounting for gravitational forces from both Moon and Earth on the chaser and rotational...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptic Non-linear Equations of Relative Motion, ENERM Explained | Term Definition
+  title: "Elliptic Non-linear Equations of Relative Motion, ENERM Explained | Term Definition"
   description: Non-linear relative motion equations derived in the ER3BP framework, accounting for gravitational forces from both Moon and Earth on the chaser and rotational...
   image: /logo.png
 permalink: /en/glossary/dynamics/ENERM/

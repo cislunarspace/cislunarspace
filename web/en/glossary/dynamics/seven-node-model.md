@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Seven-node Model | Detailed Thermal Analysis
+  title: "Seven-node Model | Detailed Thermal Analysis"
   description: A detailed analysis of seven-node thermodynamic model establishment, node distribution, mathematical formulation, and applications in detailed stratospheric airship thermal analysis
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Seven-node Model | Detailed Thermal Analysis
+  title: "Seven-node Model | Detailed Thermal Analysis"
   description: A detailed analysis of seven-node thermodynamic model establishment, node distribution, mathematical formulation, and applications in detailed stratospheric airship thermal analysis
   image: /logo.png
 permalink: /en/glossary/dynamics/seven-node-model/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Subsatellite Track | Terminology Definition
+  title: "Subsatellite Track | Terminology Definition"
   description: Definition of the subsatellite track and its calculation methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Subsatellite Track | Terminology Definition
+  title: "Subsatellite Track | Terminology Definition"
   description: Definition of the subsatellite track and its calculation methods
   image: /logo.png
 permalink: /en/glossary/fundamentals/subsatellite-track/

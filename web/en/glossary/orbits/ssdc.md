@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single-shooting Differential Corrector Explained | Term Definition
+  title: "Single-shooting Differential Corrector Explained | Term Definition"
   description: Single-shooting Differential Corrector; a shooting method that generates periodic orbits by adjusting initial velocity so that the trajectory crosses a specifie
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single-shooting Differential Corrector Explained | Term Definition
+  title: "Single-shooting Differential Corrector Explained | Term Definition"
   description: Single-shooting Differential Corrector; a shooting method that generates periodic orbits by adjusting initial velocity so that the trajectory crosses a specifie
   image: /logo.png
 permalink: /en/glossary/orbits/ssdc/

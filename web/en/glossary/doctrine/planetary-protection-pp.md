@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planetary Protection, PP Explained | Term Definition
+  title: "Planetary Protection, PP Explained | Term Definition"
   description: The principle of preventing biological contamination of celestial bodies by space activities and preventing extraterrestrial organisms from being brought back t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planetary Protection, PP Explained | Term Definition
+  title: "Planetary Protection, PP Explained | Term Definition"
   description: The principle of preventing biological contamination of celestial bodies by space activities and preventing extraterrestrial organisms from being brought back t
   image: /logo.png
 permalink: /en/glossary/doctrine/planetary-protection-pp/

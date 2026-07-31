@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Solar Radiation | Environmental Heat Transfer
+  title: "Solar Radiation | Environmental Heat Transfer"
   description: A detailed analysis of solar radiation characteristics, spectral distribution, insolation models, and effects on stratospheric airship thermodynamics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Radiation | Environmental Heat Transfer
+  title: "Solar Radiation | Environmental Heat Transfer"
   description: A detailed analysis of solar radiation characteristics, spectral distribution, insolation models, and effects on stratospheric airship thermodynamics
   image: /logo.png
 permalink: /en/glossary/observation/solar-radiation/

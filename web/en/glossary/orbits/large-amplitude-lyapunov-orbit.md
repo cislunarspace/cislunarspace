@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Large Amplitude Lyapunov Orbit Explained | Term Definition
+  title: "Large Amplitude Lyapunov Orbit Explained | Term Definition"
   description: A planar periodic orbit around an L1 or L2 collinear libration point in the Earth-Moon CR3BP with large enough amplitude to lose its tubular manifold structu...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Large Amplitude Lyapunov Orbit Explained | Term Definition
+  title: "Large Amplitude Lyapunov Orbit Explained | Term Definition"
   description: A planar periodic orbit around an L1 or L2 collinear libration point in the Earth-Moon CR3BP with large enough amplitude to lose its tubular manifold structu...
   image: /logo.png
 permalink: /en/glossary/orbits/large-amplitude-lyapunov-orbit/

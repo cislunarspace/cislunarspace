@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Parking Orbit Explained | Term Definition
+  title: "Lunar Parking Orbit Explained | Term Definition"
   description: A near-circular orbit around the Moon used for waiting at the transfer endpoint or executing subsequent missions. This paper selects a 100 km altitude orbit as...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Parking Orbit Explained | Term Definition
+  title: "Lunar Parking Orbit Explained | Term Definition"
   description: A near-circular orbit around the Moon used for waiting at the transfer endpoint or executing subsequent missions. This paper selects a 100 km altitude orbit as...
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-parking-orbit/

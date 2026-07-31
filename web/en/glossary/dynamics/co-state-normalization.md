@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Co-state Normalization Explained | Search Space Reduction in Orbit Optimization
+  title: "Co-state Normalization Explained | Search Space Reduction in Orbit Optimization"
   description: Detailed analysis of co-state normalization definition, application in two-point boundary value problems, normalization methods, and search strategies when co-state boundaries are unknown
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Co-state Normalization Explained | Search Space Reduction in Orbit Optimization
+  title: "Co-state Normalization Explained | Search Space Reduction in Orbit Optimization"
   description: Detailed analysis of co-state normalization definition, application in two-point boundary value problems, normalization methods, and search strategies when co-state boundaries are unknown
   image: /logo.png
 permalink: /en/glossary/dynamics/co-state-normalization/

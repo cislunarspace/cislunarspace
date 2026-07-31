@@ -1,6 +1,6 @@
 ---
 title: DRO Constellation
-description: Analysis of China's globally first cislunar space three-satellite constellation based on Distant Retrograde Orbit, successfully deployed in April 2025, achieving low-energy DRO orbit insertion and K-band inter-satellite link verification
+description: "Analysis of China's globally first cislunar space three-satellite constellation based on Distant Retrograde Orbit, successfully deployed in April 2025, achieving low-energy DRO orbit insertion and K-band inter-satellite link verification"
 keywords: DRO constellation, cislunar space, three-satellite networking, DRO-A, DRO-B, DRO-L, K-band, inter-satellite link, Chinese Academy of Sciences Space Applications Center
 author: Tianjiang Shuo
 date: 2026-04-25
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: DRO Constellation Details | World's First Cislunar Space Three-Satellite Constellation
-  description: Analysis of China's globally first cislunar space three-satellite constellation based on Distant Retrograde Orbit, successfully deployed in April 2025, achieving low-energy DRO orbit insertion and K-band inter-satellite link verification
+  title: "DRO Constellation Details | World's First Cislunar Space Three-Satellite Constellation"
+  description: "Analysis of China's globally first cislunar space three-satellite constellation based on Distant Retrograde Orbit, successfully deployed in April 2025, achieving low-energy DRO orbit insertion and K-band inter-satellite link verification"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO Constellation Details | World's First Cislunar Space Three-Satellite Constellation
-  description: Analysis of China's globally first cislunar space three-satellite constellation based on Distant Retrograde Orbit, successfully deployed in April 2025, achieving low-energy DRO orbit insertion and K-band inter-satellite link verification
+  title: "DRO Constellation Details | World's First Cislunar Space Three-Satellite Constellation"
+  description: "Analysis of China's globally first cislunar space three-satellite constellation based on Distant Retrograde Orbit, successfully deployed in April 2025, achieving low-energy DRO orbit insertion and K-band inter-satellite link verification"
   image: /logo.png
 permalink: /en/glossary/orbits/dro-constellation/
 ---

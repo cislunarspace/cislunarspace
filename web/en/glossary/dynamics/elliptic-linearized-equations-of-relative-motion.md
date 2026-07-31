@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: ELERM Explained | Term Definition
+  title: "ELERM Explained | Term Definition"
   description: Elliptic Linearized Equations of Relative Motion; linearized relative motion equations in ER3BP framework with time-varying coefficients.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: ELERM Explained | Term Definition
+  title: "ELERM Explained | Term Definition"
   description: Elliptic Linearized Equations of Relative Motion; linearized relative motion equations in ER3BP framework with time-varying coefficients.
   image: /logo.png
 permalink: /en/glossary/dynamics/elliptic-linearized-equations-of-relative-motion/

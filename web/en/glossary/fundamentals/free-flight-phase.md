@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Free-Flight Phase | Terminology Definition
+  title: "Free-Flight Phase | Terminology Definition"
   description: Detailed analysis of the ballistic missile free-flight phase definition, motion characteristics, and relationship with the orbital phase
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free-Flight Phase | Terminology Definition
+  title: "Free-Flight Phase | Terminology Definition"
   description: Detailed analysis of the ballistic missile free-flight phase definition, motion characteristics, and relationship with the orbital phase
   image: /logo.png
 permalink: /en/glossary/fundamentals/free-flight-phase/

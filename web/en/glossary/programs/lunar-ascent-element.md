@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LAE Explained | Term Definition
+  title: "LAE Explained | Term Definition"
   description: Lunar Ascent Element; vehicle ascending from lunar surface with samples, rendezvousing with L2 orbiting station.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LAE Explained | Term Definition
+  title: "LAE Explained | Term Definition"
   description: Lunar Ascent Element; vehicle ascending from lunar surface with samples, rendezvousing with L2 orbiting station.
   image: /logo.png
 permalink: /en/glossary/programs/lunar-ascent-element/

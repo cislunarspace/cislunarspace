@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Earth Oblateness Perturbation | Terminology Definition
+  title: "Earth Oblateness Perturbation | Terminology Definition"
   description: Detailed analysis of the long-term effects of Earth oblateness perturbation on orbital elements
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Oblateness Perturbation | Terminology Definition
+  title: "Earth Oblateness Perturbation | Terminology Definition"
   description: Detailed analysis of the long-term effects of Earth oblateness perturbation on orbital elements
   image: /logo.png
 permalink: /en/glossary/fundamentals/earth-oblateness-perturbation/

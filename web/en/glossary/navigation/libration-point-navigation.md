@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point Navigation Explained | Term Definition
+  title: "Libration Point Navigation Explained | Term Definition"
   description: A navigation method that achieves absolute positioning through inter-satellite links by utilizing gravitational asymmetry near the L1 and L2 libration points of the Earth-Moon system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Navigation Explained | Term Definition
+  title: "Libration Point Navigation Explained | Term Definition"
   description: A navigation method that achieves absolute positioning through inter-satellite links by utilizing gravitational asymmetry near the L1 and L2 libration points of the Earth-Moon system.
   image: /logo.png
 permalink: /en/glossary/navigation/libration-point-navigation/

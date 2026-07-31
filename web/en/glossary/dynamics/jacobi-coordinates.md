@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Coordinates Explained | Term Definition
+  title: "Jacobi Coordinates Explained | Term Definition"
   description: "A coordinate transformation that decomposes the N-body problem into a series of relative coordinate systems, facilitating analysis of relative motion."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Coordinates Explained | Term Definition
+  title: "Jacobi Coordinates Explained | Term Definition"
   description: "A coordinate transformation that decomposes the N-body problem into a series of relative coordinate systems, facilitating analysis of relative motion."
   image: /logo.png
 permalink: /en/glossary/dynamics/jacobi-coordinates/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Field Explained | Term Definition
+  title: "Jacobi Field Explained | Term Definition"
   description: A nontrivial solution of the variational (linearized Hamiltonian) equation along a reference extremal. A Jacobi field is said to be vertical at a time t if its state component vanishes. A positive tim...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Field Explained | Term Definition
+  title: "Jacobi Field Explained | Term Definition"
   description: A nontrivial solution of the variational (linearized Hamiltonian) equation along a reference extremal. A Jacobi field is said to be vertical at a time t if its state component vanishes. A positive tim...
   image: /logo.png
 permalink: /en/glossary/fundamentals/jacobi-field/

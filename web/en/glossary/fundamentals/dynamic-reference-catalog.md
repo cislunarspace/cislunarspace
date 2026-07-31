@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamic Reference Catalog Explained | Term Definition
+  title: "Dynamic Reference Catalog Explained | Term Definition"
   description: An interactive trajectory design tool for the Earth-Moon system. Unlike a static database, it computes periodic orbit family parameters (size, period, Jacobi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamic Reference Catalog Explained | Term Definition
+  title: "Dynamic Reference Catalog Explained | Term Definition"
   description: An interactive trajectory design tool for the Earth-Moon system. Unlike a static database, it computes periodic orbit family parameters (size, period, Jacobi...
   image: /logo.png
 permalink: /en/glossary/fundamentals/dynamic-reference-catalog/

@@ -1,7 +1,7 @@
 ---
 title: Bang-bang Control (Bang-bang Control)
 description: Detailed analysis of bang-bang control definition, time-optimal properties, application in fuel-optimal control, and relationship with homotopy methods
-keywords: Bang-bang control, time-optimal control, fuel-optimal, thrust switching control, optimal control, Pontryagin's Maximum Principle, homotopy method
+keywords: "Bang-bang control, time-optimal control, fuel-optimal, thrust switching control, optimal control, Pontryagin's Maximum Principle, homotopy method"
 author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Bang-bang Control Explained | Time-optimal Properties of Fuel-optimal Control
+  title: "Bang-bang Control Explained | Time-optimal Properties of Fuel-optimal Control"
   description: Detailed analysis of bang-bang control definition, time-optimal properties, application in fuel-optimal control, and relationship with homotopy methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bang-bang Control Explained | Time-optimal Properties of Fuel-optimal Control
+  title: "Bang-bang Control Explained | Time-optimal Properties of Fuel-optimal Control"
   description: Detailed analysis of bang-bang control definition, time-optimal properties, application in fuel-optimal control, and relationship with homotopy methods
   image: /logo.png
 permalink: /en/glossary/dynamics/bang-bang-control/

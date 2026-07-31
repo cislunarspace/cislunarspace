@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Matrix Differential Riccati Equation Explained | Term Definition
+  title: "Matrix Differential Riccati Equation Explained | Term Definition"
   description: A matrix differential equation appearing in LQR controller design, describing the evolution of optimal control gains over time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Matrix Differential Riccati Equation Explained | Term Definition
+  title: "Matrix Differential Riccati Equation Explained | Term Definition"
   description: A matrix differential equation appearing in LQR controller design, describing the evolution of optimal control gains over time.
   image: /logo.png
 permalink: /en/glossary/dynamics/matrix-differential-riccati-equation/

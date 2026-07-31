@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conjugate Point Mapping Explained | Term Definition
+  title: "Conjugate Point Mapping Explained | Term Definition"
   description: A Poincare map defined on a specific surface of section (such as x=K or y=0) using position-velocity representation (x-x-dot or y-y-dot)
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conjugate Point Mapping Explained | Term Definition
+  title: "Conjugate Point Mapping Explained | Term Definition"
   description: A Poincare map defined on a specific surface of section (such as x=K or y=0) using position-velocity representation (x-x-dot or y-y-dot)
   image: /logo.png
 permalink: /en/glossary/dynamics/conjugate-point-mapping/

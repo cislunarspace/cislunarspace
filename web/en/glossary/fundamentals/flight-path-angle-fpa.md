@@ -1,6 +1,6 @@
 ---
 title: Flight Path Angle, FPA
-description: The angle between the velocity vector and the local horizontal plane. For lunar landing, the FPA determines trajectory steepness: a vertical impact is 90 deg...
+description: "The angle between the velocity vector and the local horizontal plane. For lunar landing, the FPA determines trajectory steepness: a vertical impact is 90 deg..."
 keywords: Flight Path Angle, FPA, FPA
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flight Path Angle, FPA Explained | Term Definition
-  description: The angle between the velocity vector and the local horizontal plane. For lunar landing, the FPA determines trajectory steepness: a vertical impact is 90 deg...
+  title: "Flight Path Angle, FPA Explained | Term Definition"
+  description: "The angle between the velocity vector and the local horizontal plane. For lunar landing, the FPA determines trajectory steepness: a vertical impact is 90 deg..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flight Path Angle, FPA Explained | Term Definition
-  description: The angle between the velocity vector and the local horizontal plane. For lunar landing, the FPA determines trajectory steepness: a vertical impact is 90 deg...
+  title: "Flight Path Angle, FPA Explained | Term Definition"
+  description: "The angle between the velocity vector and the local horizontal plane. For lunar landing, the FPA determines trajectory steepness: a vertical impact is 90 deg..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/flight-path-angle-fpa/
 ---

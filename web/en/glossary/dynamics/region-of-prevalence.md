@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Region of Prevalence Explained | Term Definition
+  title: "Region of Prevalence Explained | Term Definition"
   description: In the bicircular restricted four-body problem, regions where different simplified models accurately describe the real dynamic behavior. The Sun-Earth model ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Region of Prevalence Explained | Term Definition
+  title: "Region of Prevalence Explained | Term Definition"
   description: In the bicircular restricted four-body problem, regions where different simplified models accurately describe the real dynamic behavior. The Sun-Earth model ...
   image: /logo.png
 permalink: /en/glossary/dynamics/region-of-prevalence/

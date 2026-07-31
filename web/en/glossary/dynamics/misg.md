@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Impulsive Staging Guidance, MISG Explained | Term Definition
+  title: "Multi-Impulsive Staging Guidance, MISG Explained | Term Definition"
   description: Numerical impulsive planning algorithm inspired by launcher staging mass optimization, using product of exponential velocity increments as cost function and sol
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Impulsive Staging Guidance, MISG Explained | Term Definition
+  title: "Multi-Impulsive Staging Guidance, MISG Explained | Term Definition"
   description: Numerical impulsive planning algorithm inspired by launcher staging mass optimization, using product of exponential velocity increments as cost function and sol
   image: /logo.png
 permalink: /en/glossary/dynamics/misg/

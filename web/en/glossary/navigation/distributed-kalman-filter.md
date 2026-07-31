@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Distributed Kalman Filter (DKF) Explained | Term Definition
+  title: "Distributed Kalman Filter (DKF) Explained | Term Definition"
   description: Architecture where each sensor node runs an independent Kalman filter and exchanges information to achieve network-level state estimation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Distributed Kalman Filter (DKF) Explained | Term Definition
+  title: "Distributed Kalman Filter (DKF) Explained | Term Definition"
   description: Architecture where each sensor node runs an independent Kalman filter and exchanges information to achieve network-level state estimation
   image: /logo.png
 permalink: /en/glossary/navigation/distributed-kalman-filter/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tool resources.
   image: /logo.png
 og:
-  title: Lindstedt-Poincaré Method Explained | Term Definition
+  title: "Lindstedt-Poincaré Method Explained | Term Definition"
   description: A semi-analytical series expansion method that constructs formal series solutions of periodic and quasi-periodic orbits and their manifolds in terms of amplitudes and phases. It incorporates high-order nonlinear terms of the equations of motion, achieving expansions up to order 25 or higher.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lindstedt-Poincaré Method Explained | Term Definition
+  title: "Lindstedt-Poincaré Method Explained | Term Definition"
   description: A semi-analytical series expansion method that constructs formal series solutions of periodic and quasi-periodic orbits and their manifolds in terms of amplitudes and phases. It incorporates high-order nonlinear terms of the equations of motion, achieving expansions up to order 25 or higher.
   image: /logo.png
 permalink: /en/glossary/fundamentals/lindstedt-poincar-method/

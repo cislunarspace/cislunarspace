@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonant Periodic Orbit Explained | Term Definition
+  title: "Resonant Periodic Orbit Explained | Term Definition"
   description: A periodic orbit whose period has an integer ratio (m:n resonance) with the synodic period of the Earth-moon system
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonant Periodic Orbit Explained | Term Definition
+  title: "Resonant Periodic Orbit Explained | Term Definition"
   description: A periodic orbit whose period has an integer ratio (m:n resonance) with the synodic period of the Earth-moon system
   image: /logo.png
 permalink: /en/glossary/orbits/resonant-periodic-orbit/

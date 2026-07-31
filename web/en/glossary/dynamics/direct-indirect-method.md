@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct/Indirect Method Explained | Term Definition
+  title: "Direct/Indirect Method Explained | Term Definition"
   description: "A hybrid trajectory optimization method combining indirect calculus of variations (costate equations from Pontryagin's minimum principle) with direct transcription."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct/Indirect Method Explained | Term Definition
+  title: "Direct/Indirect Method Explained | Term Definition"
   description: "A hybrid trajectory optimization method combining indirect calculus of variations (costate equations from Pontryagin's minimum principle) with direct transcription."
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-indirect-method/

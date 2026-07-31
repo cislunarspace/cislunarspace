@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quasi-random Process for Periodic Orbit Generation Explained | Term Definition
+  title: "Quasi-random Process for Periodic Orbit Generation Explained | Term Definition"
   description: A method for discovering periodic orbits by selecting an arbitrary initial position along the x-axis of the synodic reference frame and adjusting the y-directio
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-random Process for Periodic Orbit Generation Explained | Term Definition
+  title: "Quasi-random Process for Periodic Orbit Generation Explained | Term Definition"
   description: A method for discovering periodic orbits by selecting an arbitrary initial position along the x-axis of the synodic reference frame and adjusting the y-directio
   image: /logo.png
 permalink: /en/glossary/dynamics/quasi-random-process-for-periodic-orbit-generation/

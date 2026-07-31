@@ -1,6 +1,6 @@
 ---
 title: Low-Thrust Transfer
-description: An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operation over hundreds of revolutions with ...
+description: "An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operation over hundreds of revolutions with ..."
 keywords: Low-Thrust Transfer, LTT
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Transfer Explained | Term Definition
-  description: An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operation over hundreds of revolutions with ...
+  title: "Low-Thrust Transfer Explained | Term Definition"
+  description: "An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operation over hundreds of revolutions with ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Transfer Explained | Term Definition
-  description: An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operation over hundreds of revolutions with ...
+  title: "Low-Thrust Transfer Explained | Term Definition"
+  description: "An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operation over hundreds of revolutions with ..."
   image: /logo.png
 permalink: /en/glossary/orbits/low-thrust-transfer/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kappa Angle Explained | Term Definition
+  title: "Kappa Angle Explained | Term Definition"
   description: "The perigee location angle defined in the Sun–Earth rotating frame, measured counterclockwise from the x-axis."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kappa Angle Explained | Term Definition
+  title: "Kappa Angle Explained | Term Definition"
   description: "The perigee location angle defined in the Sun–Earth rotating frame, measured counterclockwise from the x-axis."
   image: /logo.png
 permalink: /en/glossary/dynamics/kappa-angle/

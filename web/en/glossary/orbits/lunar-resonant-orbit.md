@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Resonant Orbit Explained | Term Definition
+  title: "Lunar Resonant Orbit Explained | Term Definition"
   description: "An Earth orbit in resonance with the moon's orbit, such as the 3:1 resonant orbit occupied by the IBEX spacecraft, which exhibits long-term stability."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Resonant Orbit Explained | Term Definition
+  title: "Lunar Resonant Orbit Explained | Term Definition"
   description: "An Earth orbit in resonance with the moon's orbit, such as the 3:1 resonant orbit occupied by the IBEX spacecraft, which exhibits long-term stability."
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-resonant-orbit/

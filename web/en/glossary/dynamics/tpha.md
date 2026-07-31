@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: TPhA Explained | Term Definition
+  title: "TPhA Explained | Term Definition"
   description: A high-order target point approach for station-keeping of periodic orbits, where critical station-keeping epochs are determined by reaching prescribed...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: TPhA Explained | Term Definition
+  title: "TPhA Explained | Term Definition"
   description: A high-order target point approach for station-keeping of periodic orbits, where critical station-keeping epochs are determined by reaching prescribed...
   image: /logo.png
 permalink: /en/glossary/dynamics/tpha/

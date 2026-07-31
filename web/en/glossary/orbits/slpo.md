@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Special Long-Period Orbit, SLPO Explained | Term Definition
+  title: "Special Long-Period Orbit, SLPO Explained | Term Definition"
   description: A three-body dynamics orbit based on invariant manifold stitching, formed by connecting two L1 Halo orbits with their low-energy transfer trajectories, with a p...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Special Long-Period Orbit, SLPO Explained | Term Definition
+  title: "Special Long-Period Orbit, SLPO Explained | Term Definition"
   description: A three-body dynamics orbit based on invariant manifold stitching, formed by connecting two L1 Halo orbits with their low-energy transfer trajectories, with a p...
   image: /logo.png
 permalink: /en/glossary/orbits/slpo/

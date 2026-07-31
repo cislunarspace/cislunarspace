@@ -1,6 +1,6 @@
 ---
 title: z-direction Motion Amplitude
-description: The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit
+description: "The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit"
 keywords: z-direction Motion Amplitude, Zm, 轨道, Halo轨道, DRO, 共振轨道, 平动点
 author: 天疆说
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: z-direction Motion Amplitude Explained | Term Definition
-  description: The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit
+  title: "z-direction Motion Amplitude Explained | Term Definition"
+  description: "The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: z-direction Motion Amplitude Explained | Term Definition
-  description: The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit
+  title: "z-direction Motion Amplitude Explained | Term Definition"
+  description: "The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit"
   image: /logo.png
 permalink: /en/glossary/orbits/zm/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Access-profile-Pattern-Coverage Decomposition, APC Decomposition
-description: A method that decomposes constellation coverage optimization into three layers: the accessibility profile describes when a single observer can see a target, the constellation pattern vector captures t...
+description: "A method that decomposes constellation coverage optimization into three layers: the accessibility profile describes when a single observer can see a target, the constellation pattern vector captures t..."
 keywords: Access-profile-Pattern-Coverage Decomposition, APC Decomposition
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Access-profile-Pattern-Coverage Decomposition, APC Decomposition Explained | Term Definition
-  description: A method that decomposes constellation coverage optimization into three layers: the accessibility profile describes when a single observer can see a target, the constellation pattern vector captures t...
+  title: "Access-profile-Pattern-Coverage Decomposition, APC Decomposition Explained | Term Definition"
+  description: "A method that decomposes constellation coverage optimization into three layers: the accessibility profile describes when a single observer can see a target, the constellation pattern vector captures t..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Access-profile-Pattern-Coverage Decomposition, APC Decomposition Explained | Term Definition
-  description: A method that decomposes constellation coverage optimization into three layers: the accessibility profile describes when a single observer can see a target, the constellation pattern vector captures t...
+  title: "Access-profile-Pattern-Coverage Decomposition, APC Decomposition Explained | Term Definition"
+  description: "A method that decomposes constellation coverage optimization into three layers: the accessibility profile describes when a single observer can see a target, the constellation pattern vector captures t..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/access-profile-pattern-coverage-decomposition-apc-decomposition/
 ---

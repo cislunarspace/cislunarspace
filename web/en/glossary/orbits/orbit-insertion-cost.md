@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Insertion Cost Explained | Term Definition
+  title: "Orbit Insertion Cost Explained | Term Definition"
   description: The delta-V required for a satellite to transition from launch to its designated orbit, measured as the ratio of remaining mass to initial mass after the maneuver.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Insertion Cost Explained | Term Definition
+  title: "Orbit Insertion Cost Explained | Term Definition"
   description: The delta-V required for a satellite to transition from launch to its designated orbit, measured as the ratio of remaining mass to initial mass after the maneuver.
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-insertion-cost/

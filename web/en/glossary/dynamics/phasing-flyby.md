@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phasing Flyby Explained | Term Definition
+  title: "Phasing Flyby Explained | Term Definition"
   description: A strategy of multiple gravity flybys to adjust orbital phasing. At high Jacobi constants (low energies), phasing flybys of Earth or moon are the primary method
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phasing Flyby Explained | Term Definition
+  title: "Phasing Flyby Explained | Term Definition"
   description: A strategy of multiple gravity flybys to adjust orbital phasing. At high Jacobi constants (low energies), phasing flybys of Earth or moon are the primary method
   image: /logo.png
 permalink: /en/glossary/dynamics/phasing-flyby/

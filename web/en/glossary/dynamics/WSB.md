@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary, WSB Explained | Term Definition
+  title: "Weak Stability Boundary, WSB Explained | Term Definition"
   description: In the planar circular restricted three-body problem, the locus of points on a radial segment emanating from the small primary where trajectories transition fro
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary, WSB Explained | Term Definition
+  title: "Weak Stability Boundary, WSB Explained | Term Definition"
   description: In the planar circular restricted three-body problem, the locus of points on a radial segment emanating from the small primary where trajectories transition fro
   image: /logo.png
 permalink: /en/glossary/dynamics/WSB/

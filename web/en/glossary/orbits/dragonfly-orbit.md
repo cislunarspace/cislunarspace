@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dragonfly Orbit Explained | Term Definition
+  title: "Dragonfly Orbit Explained | Term Definition"
   description: A special family of periodic orbits in the Earth-moon three-body system, named for their dragonfly-like shape. These orbits have large periods and amplitude ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dragonfly Orbit Explained | Term Definition
+  title: "Dragonfly Orbit Explained | Term Definition"
   description: A special family of periodic orbits in the Earth-moon three-body system, named for their dragonfly-like shape. These orbits have large periods and amplitude ...
   image: /logo.png
 permalink: /en/glossary/orbits/dragonfly-orbit/

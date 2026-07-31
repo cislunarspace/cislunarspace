@@ -1,6 +1,6 @@
 ---
 title: Moonlight Initiative
-description: An analysis of ESA's independent lunar navigation constellation plan, consisting of 5 satellites, providing communication and navigation services for lunar exploration.
+description: "An analysis of ESA's independent lunar navigation constellation plan, consisting of 5 satellites, providing communication and navigation services for lunar exploration."
 keywords: Moonlight Initiative, Moonlight, ESA, lunar navigation, lunar satellite constellation, Galileo, integrated communication and navigation, European Space Agency
 author: Tianjiang Shuo
 date: 2026-04-25
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Moonlight Initiative Detailed | ESA Lunar Navigation Constellation
-  description: An analysis of ESA's independent lunar navigation constellation plan, consisting of 5 satellites, providing communication and navigation services for lunar exploration.
+  title: "Moonlight Initiative Detailed | ESA Lunar Navigation Constellation"
+  description: "An analysis of ESA's independent lunar navigation constellation plan, consisting of 5 satellites, providing communication and navigation services for lunar exploration."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Moonlight Initiative Detailed | ESA Lunar Navigation Constellation
-  description: An analysis of ESA's independent lunar navigation constellation plan, consisting of 5 satellites, providing communication and navigation services for lunar exploration.
+  title: "Moonlight Initiative Detailed | ESA Lunar Navigation Constellation"
+  description: "An analysis of ESA's independent lunar navigation constellation plan, consisting of 5 satellites, providing communication and navigation services for lunar exploration."
   image: /logo.png
 permalink: /en/glossary/navigation/moonlight/
 ---

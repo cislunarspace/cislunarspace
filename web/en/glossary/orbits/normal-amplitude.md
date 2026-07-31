@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normal Amplitude, Az Explained | Term Definition
+  title: "Normal Amplitude, Az Explained | Term Definition"
   description: A key parameter characterizing the size of a Halo orbit. A Halo orbit is symmetric about the xz-plane and intersects it at two points; the normal amplitude i...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normal Amplitude, Az Explained | Term Definition
+  title: "Normal Amplitude, Az Explained | Term Definition"
   description: A key parameter characterizing the size of a Halo orbit. A Halo orbit is symmetric about the xz-plane and intersects it at two points; the normal amplitude i...
   image: /logo.png
 permalink: /en/glossary/orbits/normal-amplitude/

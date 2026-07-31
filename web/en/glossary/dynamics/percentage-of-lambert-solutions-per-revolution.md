@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Percentage of Lambert Solutions per Revolution Explained | Term Definition
+  title: "Percentage of Lambert Solutions per Revolution Explained | Term Definition"
   description: The proportion of N-revolution Lambert solutions among complete uncertain Lambert solutions, influenced by orbit-dynamical boundary constraints and decreasing...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Percentage of Lambert Solutions per Revolution Explained | Term Definition
+  title: "Percentage of Lambert Solutions per Revolution Explained | Term Definition"
   description: The proportion of N-revolution Lambert solutions among complete uncertain Lambert solutions, influenced by orbit-dynamical boundary constraints and decreasing...
   image: /logo.png
 permalink: /en/glossary/dynamics/percentage-of-lambert-solutions-per-revolution/

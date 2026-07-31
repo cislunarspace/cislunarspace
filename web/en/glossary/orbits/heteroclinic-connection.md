@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Heteroclinic Connection Details | Invariant Manifold Channel Between Libration Point Orbits
+  title: "Heteroclinic Connection Details | Invariant Manifold Channel Between Libration Point Orbits"
   description: Detailed explanation of heteroclinic connection definition, dynamical characteristics, invariant manifold connections between libration point periodic orbits, and applications in trajectory design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heteroclinic Connection Details | Invariant Manifold Channel Between Libration Point Orbits
+  title: "Heteroclinic Connection Details | Invariant Manifold Channel Between Libration Point Orbits"
   description: Detailed explanation of heteroclinic connection definition, dynamical characteristics, invariant manifold connections between libration point periodic orbits, and applications in trajectory design
   image: /logo.png
 permalink: /en/glossary/orbits/heteroclinic-connection/

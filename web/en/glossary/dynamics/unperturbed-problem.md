@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unperturbed Problem Explained | Term Definition
+  title: "Unperturbed Problem Explained | Term Definition"
   description: "The form of the three-body problem considering only the primary gravitational effects without other perturbations. In the restricted three-body problem, this means neglecting the third body's influence on the primaries."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unperturbed Problem Explained | Term Definition
+  title: "Unperturbed Problem Explained | Term Definition"
   description: "The form of the three-body problem considering only the primary gravitational effects without other perturbations. In the restricted three-body problem, this means neglecting the third body's influence on the primaries."
   image: /logo.png
 permalink: /en/glossary/dynamics/unperturbed-problem/

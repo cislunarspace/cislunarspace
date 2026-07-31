@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normal to Orbital Plane (W) Explained | Term Definition
+  title: "Normal to Orbital Plane (W) Explained | Term Definition"
   description: "The direction perpendicular to the spacecraft's orbital plane, determined by the cross product of radial and tangential unit vectors (ŵ=r̂×t̂). The..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normal to Orbital Plane (W) Explained | Term Definition
+  title: "Normal to Orbital Plane (W) Explained | Term Definition"
   description: "The direction perpendicular to the spacecraft's orbital plane, determined by the cross product of radial and tangential unit vectors (ŵ=r̂×t̂). The..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/normal-to-orbital-plane/

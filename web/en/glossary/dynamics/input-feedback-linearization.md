@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Input Feedback Linearization (IFL) Explained | Term Definition
+  title: "Input Feedback Linearization (IFL) Explained | Term Definition"
   description: A nonlinear control method that transforms the original system into a linear one by exactly canceling nonlinear terms, then designs the controller as a linear s
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Input Feedback Linearization (IFL) Explained | Term Definition
+  title: "Input Feedback Linearization (IFL) Explained | Term Definition"
   description: A nonlinear control method that transforms the original system into a linear one by exactly canceling nonlinear terms, then designs the controller as a linear s
   image: /logo.png
 permalink: /en/glossary/dynamics/input-feedback-linearization/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: PDF Transformation Rule Explained | Term Definition
+  title: "PDF Transformation Rule Explained | Term Definition"
   description: Rule for transforming probability density functions between random vectors related by continuous one-to-one transformations, using the Jacobian determinant.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: PDF Transformation Rule Explained | Term Definition
+  title: "PDF Transformation Rule Explained | Term Definition"
   description: Rule for transforming probability density functions between random vectors related by continuous one-to-one transformations, using the Jacobian determinant.
   image: /logo.png
 permalink: /en/glossary/fundamentals/pdf-transformation-rule/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Trajectory Equation | Terminology Definition
+  title: "Trajectory Equation | Terminology Definition"
   description: A detailed analysis of the composition and numerical solution methods of the powered phase trajectory equation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trajectory Equation | Terminology Definition
+  title: "Trajectory Equation | Terminology Definition"
   description: A detailed analysis of the composition and numerical solution methods of the powered phase trajectory equation
   image: /logo.png
 permalink: /en/glossary/fundamentals/trajectory-equation/

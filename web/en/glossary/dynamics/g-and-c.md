@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Guidance and Control Explained | Term Definition
+  title: "Guidance and Control Explained | Term Definition"
   description: Guidance is the process of real-time state trajectory planning for spacecraft translation and rotation; control is responsible for following these trajectories based on real-time state updates in the presence of disturbances, measurement noise, and model uncertainties.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Guidance and Control Explained | Term Definition
+  title: "Guidance and Control Explained | Term Definition"
   description: Guidance is the process of real-time state trajectory planning for spacecraft translation and rotation; control is responsible for following these trajectories based on real-time state updates in the presence of disturbances, measurement noise, and model uncertainties.
   image: /logo.png
 permalink: /en/glossary/dynamics/g-and-c/

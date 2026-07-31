@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Celestial Reference System, GCRS Explained | Term Definition
+  title: "Geocentric Celestial Reference System, GCRS Explained | Term Definition"
   description: "A relativistic space reference frame centered at the Earth's center of mass, with spatial axes aligned with BCRS per IAU resolution (no rotation). Widely adopte"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Celestial Reference System, GCRS Explained | Term Definition
+  title: "Geocentric Celestial Reference System, GCRS Explained | Term Definition"
   description: "A relativistic space reference frame centered at the Earth's center of mass, with spatial axes aligned with BCRS per IAU resolution (no rotation). Widely adopte"
   image: /logo.png
 permalink: /en/glossary/fundamentals/geocentric-celestial-reference-system-gcrs/

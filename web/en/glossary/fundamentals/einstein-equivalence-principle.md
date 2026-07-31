@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Einstein Equivalence Principle (EEP) | Terminology Definition
-  description: Detailed analysis of EEP's three sub-principles and how gravitational redshift experiments test LPI
+  title: "Einstein Equivalence Principle (EEP) | Terminology Definition"
+  description: "Detailed analysis of EEP's three sub-principles and how gravitational redshift experiments test LPI"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Einstein Equivalence Principle (EEP) | Terminology Definition
-  description: Detailed analysis of EEP's three sub-principles and how gravitational redshift experiments test LPI
+  title: "Einstein Equivalence Principle (EEP) | Terminology Definition"
+  description: "Detailed analysis of EEP's three sub-principles and how gravitational redshift experiments test LPI"
   image: /logo.png
 permalink: /en/glossary/fundamentals/einstein-equivalence-principle/
 ---

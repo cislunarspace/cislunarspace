@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Floquet Modal Method Explained | Term Definition
+  title: "Floquet Modal Method Explained | Term Definition"
   description: A libration point orbit maintenance method based on Floquet theory. It decomposes the state deviation into six Floquet modes corresponding to unstable,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Floquet Modal Method Explained | Term Definition
+  title: "Floquet Modal Method Explained | Term Definition"
   description: A libration point orbit maintenance method based on Floquet theory. It decomposes the state deviation into six Floquet modes corresponding to unstable,...
   image: /logo.png
 permalink: /en/glossary/dynamics/floquet-modal-method/

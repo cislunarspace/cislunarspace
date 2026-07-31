@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Apse Map Explained | Term Definition
+  title: "Apse Map Explained | Term Definition"
   description: Short for Apse Poincare Map; a Poincare map defined at apse locations for trajectory design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Apse Map Explained | Term Definition
+  title: "Apse Map Explained | Term Definition"
   description: Short for Apse Poincare Map; a Poincare map defined at apse locations for trajectory design.
   image: /logo.png
 permalink: /en/glossary/dynamics/apse-map/

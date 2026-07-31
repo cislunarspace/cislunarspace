@@ -1,6 +1,6 @@
 ---
 title: Energetic Neutral Atom
-description: Neutral particles formed when charged ions from the solar wind or magnetosphere interact with lunar surface materials through sputtering and capture electrons. Since they are no longer deflected by electromagnetic fields, ENAs travel in straight lines, preserving the energy and directional information of their source ions. By detecting ENA energy spectra and fluxes, the lunar surface plasma environment and sputtering processes can be inferred. The Chang'e-4 neutral atom analyzer is the first instrument to conduct ENA detection on the lunar surface.
+description: "Neutral particles formed when charged ions from the solar wind or magnetosphere interact with lunar surface materials through sputtering and capture electrons. Since they are no longer deflected by electromagnetic fields, ENAs travel in straight lines, preserving the energy and directional information of their source ions. By detecting ENA energy spectra and fluxes, the lunar surface plasma environment and sputtering processes can be inferred. The Chang'e-4 neutral atom analyzer is the first instrument to conduct ENA detection on the lunar surface."
 keywords: Energetic Neutral Atom, observation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Energetic Neutral Atom Explained | Term Definition
-  description: Neutral particles formed when charged ions from the solar wind or magnetosphere interact with lunar surface materials through sputtering and capture electrons. Since they are no longer deflected by electromagnetic fields, ENAs travel in straight lines, preserving the energy and directional information of their source ions. By detecting ENA energy spectra and fluxes, the lunar surface plasma environment and sputtering processes can be inferred. The Chang'e-4 neutral atom analyzer is the first instrument to conduct ENA detection on the lunar surface.
+  title: "Energetic Neutral Atom Explained | Term Definition"
+  description: "Neutral particles formed when charged ions from the solar wind or magnetosphere interact with lunar surface materials through sputtering and capture electrons. Since they are no longer deflected by electromagnetic fields, ENAs travel in straight lines, preserving the energy and directional information of their source ions. By detecting ENA energy spectra and fluxes, the lunar surface plasma environment and sputtering processes can be inferred. The Chang'e-4 neutral atom analyzer is the first instrument to conduct ENA detection on the lunar surface."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Energetic Neutral Atom Explained | Term Definition
-  description: Neutral particles formed when charged ions from the solar wind or magnetosphere interact with lunar surface materials through sputtering and capture electrons. Since they are no longer deflected by electromagnetic fields, ENAs travel in straight lines, preserving the energy and directional information of their source ions. By detecting ENA energy spectra and fluxes, the lunar surface plasma environment and sputtering processes can be inferred. The Chang'e-4 neutral atom analyzer is the first instrument to conduct ENA detection on the lunar surface.
+  title: "Energetic Neutral Atom Explained | Term Definition"
+  description: "Neutral particles formed when charged ions from the solar wind or magnetosphere interact with lunar surface materials through sputtering and capture electrons. Since they are no longer deflected by electromagnetic fields, ENAs travel in straight lines, preserving the energy and directional information of their source ions. By detecting ENA energy spectra and fluxes, the lunar surface plasma environment and sputtering processes can be inferred. The Chang'e-4 neutral atom analyzer is the first instrument to conduct ENA detection on the lunar surface."
   image: /logo.png
 permalink: /en/glossary/observation/energetic-neutral-atom/
 ---

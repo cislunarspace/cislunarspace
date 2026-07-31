@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Amplitude Condition Explained | Term Definition
+  title: "Amplitude Condition Explained | Term Definition"
   description: The nonlinear coupling constraint between the in-plane amplitude Ax and out-of-plane amplitude Az in the circular restricted three-body problem, determined by fixed coefficients l₁, l₂, and Δ in the R
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Amplitude Condition Explained | Term Definition
+  title: "Amplitude Condition Explained | Term Definition"
   description: The nonlinear coupling constraint between the in-plane amplitude Ax and out-of-plane amplitude Az in the circular restricted three-body problem, determined by fixed coefficients l₁, l₂, and Δ in the R
   image: /logo.png
 permalink: /en/glossary/dynamics/amplitude-condition/

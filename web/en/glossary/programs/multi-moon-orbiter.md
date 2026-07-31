@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Moon Orbiter Explained | Term Definition
+  title: "Multi-Moon Orbiter Explained | Term Definition"
   description: A spacecraft concept that visits multiple moons sequentially using low-energy passageways with minimal propellant.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Moon Orbiter Explained | Term Definition
+  title: "Multi-Moon Orbiter Explained | Term Definition"
   description: A spacecraft concept that visits multiple moons sequentially using low-energy passageways with minimal propellant.
   image: /logo.png
 permalink: /en/glossary/programs/multi-moon-orbiter/

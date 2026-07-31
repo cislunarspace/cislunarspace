@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Lyapunov Orbit Explained | Term Definition
+  title: "Vertical Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit that oscillates out of the plane of a collinear libration point, piercing the plane at the libration point itself.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Lyapunov Orbit Explained | Term Definition
+  title: "Vertical Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit that oscillates out of the plane of a collinear libration point, piercing the plane at the libration point itself.
   image: /logo.png
 permalink: /en/glossary/orbits/vertical-lyapunov-orbit/

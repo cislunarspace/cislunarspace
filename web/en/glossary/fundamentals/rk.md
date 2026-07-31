@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Runge-Kutta Method Explained | Term Definition
+  title: "Runge-Kutta Method Explained | Term Definition"
   description: A family of numerical integration methods for solving ordinary differential equation initial-value problems. The fourth-order Runge-Kutta method (RK4) evaluates
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Runge-Kutta Method Explained | Term Definition
+  title: "Runge-Kutta Method Explained | Term Definition"
   description: A family of numerical integration methods for solving ordinary differential equation initial-value problems. The fourth-order Runge-Kutta method (RK4) evaluates
   image: /logo.png
 permalink: /en/glossary/fundamentals/rk/

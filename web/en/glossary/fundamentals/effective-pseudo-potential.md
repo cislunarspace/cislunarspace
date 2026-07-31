@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Effective Pseudo-Potential Explained | Term Definition
+  title: "Effective Pseudo-Potential Explained | Term Definition"
   description: In the rotating frame of the circular restricted three-body problem, the sum of gravitational potential energy and the rotational centrifugal potential. It determines the shape of zero-velocity surfac...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Effective Pseudo-Potential Explained | Term Definition
+  title: "Effective Pseudo-Potential Explained | Term Definition"
   description: In the rotating frame of the circular restricted three-body problem, the sum of gravitational potential energy and the rotational centrifugal potential. It determines the shape of zero-velocity surfac...
   image: /logo.png
 permalink: /en/glossary/fundamentals/effective-pseudo-potential/

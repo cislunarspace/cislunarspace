@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Navigation Update Interval Explained | Term Definition
+  title: "Navigation Update Interval Explained | Term Definition"
   description: The time interval between two navigation measurements. In cislunar continuous-thrust station-keeping, the navigation system cannot provide real-time state information; a typical interval is two day...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Navigation Update Interval Explained | Term Definition
+  title: "Navigation Update Interval Explained | Term Definition"
   description: The time interval between two navigation measurements. In cislunar continuous-thrust station-keeping, the navigation system cannot provide real-time state information; a typical interval is two day...
   image: /logo.png
 permalink: /en/glossary/navigation/navigation-update-interval/

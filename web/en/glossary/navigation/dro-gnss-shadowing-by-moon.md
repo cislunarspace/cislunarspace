@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO GNSS Shadowing by Moon Explained | Term Definition
+  title: "DRO GNSS Shadowing by Moon Explained | Term Definition"
   description: The phenomenon where the Moon blocks Earth-direction GNSS signal sources during distant retrograde orbits. Shorter-period DROs experience GNSS shadowing for...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO GNSS Shadowing by Moon Explained | Term Definition
+  title: "DRO GNSS Shadowing by Moon Explained | Term Definition"
   description: The phenomenon where the Moon blocks Earth-direction GNSS signal sources during distant retrograde orbits. Shorter-period DROs experience GNSS shadowing for...
   image: /logo.png
 permalink: /en/glossary/navigation/dro-gnss-shadowing-by-moon/

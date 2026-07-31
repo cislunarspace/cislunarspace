@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Argument of Periapsis Explained | Term Definition
+  title: "Argument of Periapsis Explained | Term Definition"
   description: The angular distance from the ascending node to the periapsis (the closest point of the orbit to the central body), measured along the direction of motion withi
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Argument of Periapsis Explained | Term Definition
+  title: "Argument of Periapsis Explained | Term Definition"
   description: The angular distance from the ascending node to the periapsis (the closest point of the orbit to the central body), measured along the direction of motion withi
   image: /logo.png
 permalink: /en/glossary/fundamentals/argument-of-periapsis/

@@ -1,6 +1,6 @@
 ---
 title: Perifocal Coordinate System
-description: A coordinate system with origin at the orbit's focus and axes along the orbital plane, convenient for describing orbital motion.
+description: "A coordinate system with origin at the orbit's focus and axes along the orbital plane, convenient for describing orbital motion."
 keywords: Perifocal Coordinate System
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perifocal Coordinate System Explained | Term Definition
-  description: A coordinate system with origin at the orbit's focus and axes along the orbital plane, convenient for describing orbital motion.
+  title: "Perifocal Coordinate System Explained | Term Definition"
+  description: "A coordinate system with origin at the orbit's focus and axes along the orbital plane, convenient for describing orbital motion."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perifocal Coordinate System Explained | Term Definition
-  description: A coordinate system with origin at the orbit's focus and axes along the orbital plane, convenient for describing orbital motion.
+  title: "Perifocal Coordinate System Explained | Term Definition"
+  description: "A coordinate system with origin at the orbit's focus and axes along the orbital plane, convenient for describing orbital motion."
   image: /logo.png
 permalink: /en/glossary/fundamentals/perifocal-coordinate-system/
 ---

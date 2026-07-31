@@ -1,6 +1,6 @@
 ---
 title: Orbital Insertion Direction
-description: The direction of spacecraft entry relative to the target orbit's velocity at insertion. Acceleration insertion enters from the orbit interior, deceleration f...
+description: "The direction of spacecraft entry relative to the target orbit's velocity at insertion. Acceleration insertion enters from the orbit interior, deceleration f..."
 keywords: Orbital Insertion Direction
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Insertion Direction Explained | Term Definition
-  description: The direction of spacecraft entry relative to the target orbit's velocity at insertion. Acceleration insertion enters from the orbit interior, deceleration f...
+  title: "Orbital Insertion Direction Explained | Term Definition"
+  description: "The direction of spacecraft entry relative to the target orbit's velocity at insertion. Acceleration insertion enters from the orbit interior, deceleration f..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Insertion Direction Explained | Term Definition
-  description: The direction of spacecraft entry relative to the target orbit's velocity at insertion. Acceleration insertion enters from the orbit interior, deceleration f...
+  title: "Orbital Insertion Direction Explained | Term Definition"
+  description: "The direction of spacecraft entry relative to the target orbit's velocity at insertion. Acceleration insertion enters from the orbit interior, deceleration f..."
   image: /logo.png
 permalink: /en/glossary/dynamics/orbital-insertion-direction/
 ---

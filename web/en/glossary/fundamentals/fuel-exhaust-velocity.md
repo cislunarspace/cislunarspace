@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fuel Exhaust Velocity Explained | Term Definition
+  title: "Fuel Exhaust Velocity Explained | Term Definition"
   description: The velocity at which a rocket engine expels propellant, equal to the product of specific impulse and standard gravitational acceleration (c = Isp · g₀). In the Tsiolkovsky rocket equation, exhaust ve...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fuel Exhaust Velocity Explained | Term Definition
+  title: "Fuel Exhaust Velocity Explained | Term Definition"
   description: The velocity at which a rocket engine expels propellant, equal to the product of specific impulse and standard gravitational acceleration (c = Isp · g₀). In the Tsiolkovsky rocket equation, exhaust ve...
   image: /logo.png
 permalink: /en/glossary/fundamentals/fuel-exhaust-velocity/

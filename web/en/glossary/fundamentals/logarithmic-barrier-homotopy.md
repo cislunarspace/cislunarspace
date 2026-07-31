@@ -1,6 +1,6 @@
 ---
 title: Logarithmic Barrier Homotopy
-description: A homotopy continuation method for bang-bang optimal control that adds logarithmic barrier terms to the cost functional, excluding both zero and saturated control values (0<|u|<1). This ensures the ma...
+description: "A homotopy continuation method for bang-bang optimal control that adds logarithmic barrier terms to the cost functional, excluding both zero and saturated control values (0<|u|<1). This ensures the ma..."
 keywords: Logarithmic Barrier Homotopy
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Logarithmic Barrier Homotopy Explained | Term Definition
-  description: A homotopy continuation method for bang-bang optimal control that adds logarithmic barrier terms to the cost functional, excluding both zero and saturated control values (0<|u|<1). This ensures the ma...
+  title: "Logarithmic Barrier Homotopy Explained | Term Definition"
+  description: "A homotopy continuation method for bang-bang optimal control that adds logarithmic barrier terms to the cost functional, excluding both zero and saturated control values (0<|u|<1). This ensures the ma..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Logarithmic Barrier Homotopy Explained | Term Definition
-  description: A homotopy continuation method for bang-bang optimal control that adds logarithmic barrier terms to the cost functional, excluding both zero and saturated control values (0<|u|<1). This ensures the ma...
+  title: "Logarithmic Barrier Homotopy Explained | Term Definition"
+  description: "A homotopy continuation method for bang-bang optimal control that adds logarithmic barrier terms to the cost functional, excluding both zero and saturated control values (0<|u|<1). This ensures the ma..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/logarithmic-barrier-homotopy/
 ---

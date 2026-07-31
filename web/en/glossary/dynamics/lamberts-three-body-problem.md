@@ -1,22 +1,22 @@
 ---
-title: Lambert's Three-Body Problem (L3BP)
+title: "Lambert's Three-Body Problem (L3BP)"
 description: The problem of finding a transfer trajectory given initial point, final point and time of flight with the gravitational effects of both primaries in the restricted three-body problem.
-keywords: Lambert's Three-Body Problem, L3BP, orbital dynamics, three-body problem, libration point, transfer trajectory
+keywords: "Lambert's Three-Body Problem, L3BP, orbital dynamics, three-body problem, libration point, transfer trajectory"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Lambert's Three-Body Problem (L3BP)
+  title: "Lambert's Three-Body Problem (L3BP)"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert's Three-Body Problem (L3BP) Explained | Term Definition
+  title: "Lambert's Three-Body Problem (L3BP) Explained | Term Definition"
   description: The problem of finding a transfer trajectory given initial point, final point and time of flight with the gravitational effects of both primaries in the restricted three-body problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert's Three-Body Problem (L3BP) Explained | Term Definition
+  title: "Lambert's Three-Body Problem (L3BP) Explained | Term Definition"
   description: The problem of finding a transfer trajectory given initial point, final point and time of flight in the restricted three-body problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/lamberts-three-body-problem/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Line Element Explained | Term Definition
+  title: "Two-Line Element Explained | Term Definition"
   description: An orbital data format for near-Earth space objects maintained by NORAD, with each record containing two lines of encoded mean orbital elements (semi-major axis, eccentricity, inclination, etc.) and epoch time. Combined with SGP4/SDP4 propagators, TLE enables rapid object position prediction and serves as the fundamental data source for near-Earth space situational awareness. However, TLE is fitted under a two-body model, making it unsuitable for the cislunar environment dominated by three-body dynamics, and public TLE catalogs do not include cislunar objects, necessitating independent methods for cislunar maneuver detection.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Line Element Explained | Term Definition
+  title: "Two-Line Element Explained | Term Definition"
   description: An orbital data format for near-Earth space objects maintained by NORAD, with each record containing two lines of encoded mean orbital elements (semi-major axis, eccentricity, inclination, etc.) and epoch time. Combined with SGP4/SDP4 propagators, TLE enables rapid object position prediction and serves as the fundamental data source for near-Earth space situational awareness. However, TLE is fitted under a two-body model, making it unsuitable for the cislunar environment dominated by three-body dynamics, and public TLE catalogs do not include cislunar objects, necessitating independent methods for cislunar maneuver detection.
   image: /logo.png
 permalink: /en/glossary/observation/two-line-element/

@@ -1,6 +1,6 @@
 ---
 title: Primaries
-description: The two massive bodies in circular orbital motion in the restricted three-body problem. The larger is denoted m₁ and the smaller m₂, while the third body's mass m₃ is much smaller than both.
+description: "The two massive bodies in circular orbital motion in the restricted three-body problem. The larger is denoted m₁ and the smaller m₂, while the third body's mass m₃ is much smaller than both."
 keywords: Primaries
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Primaries Explained | Term Definition
-  description: The two massive bodies in circular orbital motion in the restricted three-body problem. The larger is denoted m₁ and the smaller m₂, while the third body's mass m₃ is much smaller than both.
+  title: "Primaries Explained | Term Definition"
+  description: "The two massive bodies in circular orbital motion in the restricted three-body problem. The larger is denoted m₁ and the smaller m₂, while the third body's mass m₃ is much smaller than both."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Primaries Explained | Term Definition
-  description: The two massive bodies in circular orbital motion in the restricted three-body problem. The larger is denoted m₁ and the smaller m₂, while the third body's mass m₃ is much smaller than both.
+  title: "Primaries Explained | Term Definition"
+  description: "The two massive bodies in circular orbital motion in the restricted three-body problem. The larger is denoted m₁ and the smaller m₂, while the third body's mass m₃ is much smaller than both."
   image: /logo.png
 permalink: /en/glossary/dynamics/primaries/
 ---

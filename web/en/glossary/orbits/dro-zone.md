@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO Zone Explained | Term Definition
+  title: "DRO Zone Explained | Term Definition"
   description: The bounded region where a long term DRO predominantly resides during its mission lifetime, enclosed by two ideal DROs with the maximum and minimum Jacobi values observed along the perturbed trajec...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO Zone Explained | Term Definition
+  title: "DRO Zone Explained | Term Definition"
   description: The bounded region where a long term DRO predominantly resides during its mission lifetime, enclosed by two ideal DROs with the maximum and minimum Jacobi values observed along the perturbed trajec...
   image: /logo.png
 permalink: /en/glossary/orbits/dro-zone/

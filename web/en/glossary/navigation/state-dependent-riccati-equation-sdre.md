@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State-Dependent Riccati Equation, SDRE Explained | Term Definition
+  title: "State-Dependent Riccati Equation, SDRE Explained | Term Definition"
   description: A nonlinear control design method that parameterizes the nonlinear system in real-time as a state-dependent linear form, then solves the algebraic Riccati...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State-Dependent Riccati Equation, SDRE Explained | Term Definition
+  title: "State-Dependent Riccati Equation, SDRE Explained | Term Definition"
   description: A nonlinear control design method that parameterizes the nonlinear system in real-time as a state-dependent linear form, then solves the algebraic Riccati...
   image: /logo.png
 permalink: /en/glossary/navigation/state-dependent-riccati-equation-sdre/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Digital Beamforming Explained | Term Definition
+  title: "Digital Beamforming Explained | Term Definition"
   description: A technique that weighted-sums multi-channel antenna signals in the digital domain to form beams. Enables multi-beam, wide-coverage
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Digital Beamforming Explained | Term Definition
+  title: "Digital Beamforming Explained | Term Definition"
   description: A technique that weighted-sums multi-channel antenna signals in the digital domain to form beams. Enables multi-beam, wide-coverage
   image: /logo.png
 permalink: /en/glossary/observation/digital-beamforming/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lindstedt-Poincaré Method Explained | Term Definition
+  title: "Lindstedt-Poincaré Method Explained | Term Definition"
   description: A perturbation technique that eliminates secular terms from series expansions via timescale rescaling to obtain approximate analytical solutions of nonlinear pe
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lindstedt-Poincaré Method Explained | Term Definition
+  title: "Lindstedt-Poincaré Method Explained | Term Definition"
   description: A perturbation technique that eliminates secular terms from series expansions via timescale rescaling to obtain approximate analytical solutions of nonlinear pe
   image: /logo.png
 permalink: /en/glossary/dynamics/lindstedt-poincar-method/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Small Denominator Explained | Term Definition
+  title: "Small Denominator Explained | Term Definition"
   description: A situation in numerical computation where a denominator approaches zero. In the perturbation equations of unified orbital elements, as inclination i approaches 180°, the denominator of the 1/cos(i/2) factor approaches zero, causing the right-hand side of the equations to spike, forcing the integrator to dramatically reduce step size, and greatly increasing computation. This is the fundamental cause of computational efficiency degradation at i = 180°.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Small Denominator Explained | Term Definition
+  title: "Small Denominator Explained | Term Definition"
   description: A situation in numerical computation where a denominator approaches zero. In the perturbation equations of unified orbital elements, as inclination i approaches 180°, the denominator of the 1/cos(i/2) factor approaches zero, causing the right-hand side of the equations to spike, forcing the integrator to dramatically reduce step size, and greatly increasing computation. This is the fundamental cause of computational efficiency degradation at i = 180°.
   image: /logo.png
 permalink: /en/glossary/fundamentals/small-denominator/

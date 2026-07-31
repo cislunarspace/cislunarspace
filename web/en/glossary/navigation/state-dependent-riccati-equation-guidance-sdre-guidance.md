@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Dependent Riccati Equation Guidance, SDRE Guidance Explained | Term Definition
+  title: "State Dependent Riccati Equation Guidance, SDRE Guidance Explained | Term Definition"
   description: A nonlinear optimal guidance method that parameterizes relative motion dynamics into state-dependent coefficient form and solves time-varying feedback gains via
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Dependent Riccati Equation Guidance, SDRE Guidance Explained | Term Definition
+  title: "State Dependent Riccati Equation Guidance, SDRE Guidance Explained | Term Definition"
   description: A nonlinear optimal guidance method that parameterizes relative motion dynamics into state-dependent coefficient form and solves time-varying feedback gains via
   image: /logo.png
 permalink: /en/glossary/navigation/state-dependent-riccati-equation-guidance-sdre-guidance/

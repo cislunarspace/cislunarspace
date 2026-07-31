@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LVLH, Local-Vertical Local-Horizon Reference Frame Explained | Term Definition
+  title: "LVLH, Local-Vertical Local-Horizon Reference Frame Explained | Term Definition"
   description: A rotating reference frame centered at the target spacecraft center of mass, with one axis along the local vertical and another along the local horizontal. The i-axis points toward the Earth or along ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LVLH, Local-Vertical Local-Horizon Reference Frame Explained | Term Definition
+  title: "LVLH, Local-Vertical Local-Horizon Reference Frame Explained | Term Definition"
   description: A rotating reference frame centered at the target spacecraft center of mass, with one axis along the local vertical and another along the local horizontal. The i-axis points toward the Earth or along ...
   image: /logo.png
 permalink: /en/glossary/dynamics/lvlh-local-vertical-local-horizon-reference-frame/

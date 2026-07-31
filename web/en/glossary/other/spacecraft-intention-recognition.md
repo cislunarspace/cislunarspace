@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:
-  title: Spacecraft Intention Recognition | Space Security
+  title: "Spacecraft Intention Recognition | Space Security"
   description: Inferring the purpose of a target spacecraft from its orbital behavior and environmental context
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spacecraft Intention Recognition | Space Security
+  title: "Spacecraft Intention Recognition | Space Security"
   description: Inferring the purpose of a target spacecraft from its orbital behavior and environmental context
   image: /logo.png
 permalink: /en/glossary/other/spacecraft-intention-recognition/

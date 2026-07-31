@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Continuous-Thrust Station-Keeping Explained | Term Definition
+  title: "Continuous-Thrust Station-Keeping Explained | Term Definition"
   description: A station-keeping strategy that uses continuously operating thrusters (such as electric propulsion) to apply control forces without interruption, maintaining...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuous-Thrust Station-Keeping Explained | Term Definition
+  title: "Continuous-Thrust Station-Keeping Explained | Term Definition"
   description: A station-keeping strategy that uses continuously operating thrusters (such as electric propulsion) to apply control forces without interruption, maintaining...
   image: /logo.png
 permalink: /en/glossary/dynamics/continuous-thrust-station-keeping/

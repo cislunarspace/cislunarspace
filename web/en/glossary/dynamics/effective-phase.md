@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Effective Phase Explained | Term Definition
+  title: "Effective Phase Explained | Term Definition"
   description: A phase representation method for Lissajous orbits that unifies time and phase. In the effective phase plane, Lissajous orbits appear as straight lines with con
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Effective Phase Explained | Term Definition
+  title: "Effective Phase Explained | Term Definition"
   description: A phase representation method for Lissajous orbits that unifies time and phase. In the effective phase plane, Lissajous orbits appear as straight lines with con
   image: /logo.png
 permalink: /en/glossary/dynamics/effective-phase/

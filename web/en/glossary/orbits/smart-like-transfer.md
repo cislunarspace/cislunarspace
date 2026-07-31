@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: SMART-like Transfer Explained | Term Definition
+  title: "SMART-like Transfer Explained | Term Definition"
   description: "A class of low-energy cislunar transfer trajectories exemplified by ESA's SMART-1 mission. The spacecraft's Jacobi energy is just below the L₁ critical value with the neck region barely open, undergoi..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: SMART-like Transfer Explained | Term Definition
+  title: "SMART-like Transfer Explained | Term Definition"
   description: "A class of low-energy cislunar transfer trajectories exemplified by ESA's SMART-1 mission. The spacecraft's Jacobi energy is just below the L₁ critical value with the neck region barely open, undergoi..."
   image: /logo.png
 permalink: /en/glossary/orbits/smart-like-transfer/

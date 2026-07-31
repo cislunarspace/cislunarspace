@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Energy-Descent L₁ Transfer" Explained | Term Definition
+  title: "\"Energy-Descent L₁ Transfer\" Explained | Term Definition"
   description: "A transfer strategy for sending end-of-life GEO satellites to the Moon: low-thrust raises the satellite from GEO into a low-energy cislunar transfer, then low-thrust in the lunar region progressively reduces the spacecraft's energy (increases Jacobi energy) until the neck closes for permanent capture. The free-flying segment leverages natural dynamics to save fuel."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Energy-Descent L₁ Transfer" Explained | Term Definition
+  title: "\"Energy-Descent L₁ Transfer\" Explained | Term Definition"
   description: "A transfer strategy for sending end-of-life GEO satellites to the Moon: low-thrust raises the satellite from GEO into a low-energy cislunar transfer, then low-thrust in the lunar region progressively reduces the spacecraft's energy (increases Jacobi energy) until the neck closes for permanent capture. The free-flying segment leverages natural dynamics to save fuel."
   image: /logo.png
 permalink: /en/glossary/dynamics/energy-descent-l-transfer/

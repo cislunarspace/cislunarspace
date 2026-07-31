@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Probabilistic Roadmap, PRM Explained | Term Definition
+  title: "Probabilistic Roadmap, PRM Explained | Term Definition"
   description: 基于采样算法的运动规划方法，通过在配置空间随机采样并尝试连接来构建路线图，用于高维和复杂环境中的路径规划。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Probabilistic Roadmap, PRM Explained | Term Definition
+  title: "Probabilistic Roadmap, PRM Explained | Term Definition"
   description: 基于采样算法的运动规划方法，通过在配置空间随机采样并尝试连接来构建路线图，用于高维和复杂环境中的路径规划。
   image: /logo.png
 permalink: /en/glossary/dynamics/probabilistic-roadmap-prm/

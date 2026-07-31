@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition
+  title: "LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition"
   description: "Reference frame centered on the target's center of gravity with x-axis along the target's velocity direction and z-axis pointing from target to the primary..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition
+  title: "LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition"
   description: "Reference frame centered on the target's center of gravity with x-axis along the target's velocity direction and z-axis pointing from target to the primary..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/LVLH/

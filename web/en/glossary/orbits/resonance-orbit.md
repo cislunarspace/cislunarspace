@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Resonance Orbit Details | Period Ratios in DRO Family
+  title: "Resonance Orbit Details | Period Ratios in DRO Family"
   description: Detailed analysis of resonance relationships in DRO orbits and their significance for orbit design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonance Orbit Details | Period Ratios in DRO Family
+  title: "Resonance Orbit Details | Period Ratios in DRO Family"
   description: Detailed analysis of resonance relationships in DRO orbits and their significance for orbit design
   image: /logo.png
 permalink: /en/glossary/orbits/resonance-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sun-Earth+Moon Synodic Coordinate System Explained | Term Definition
+  title: "Sun-Earth+Moon Synodic Coordinate System Explained | Term Definition"
   description: A rotating coordinate system with the Sun as reference point and the Earth-Moon barycenter as origin, used for describing Poincare sections in Weak Stability Boundary transfers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun-Earth+Moon Synodic Coordinate System Explained | Term Definition
+  title: "Sun-Earth+Moon Synodic Coordinate System Explained | Term Definition"
   description: A rotating coordinate system with the Sun as reference point and the Earth-Moon barycenter as origin, used for describing Poincare sections in Weak Stability Boundary transfers.
   image: /logo.png
 permalink: /en/glossary/dynamics/sun-earthmoon-synodic-coordinate-system/

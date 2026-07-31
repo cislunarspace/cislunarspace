@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Shooting Variable Explained | Term Definition
+  title: "Shooting Variable Explained | Term Definition"
   description: 多步打靶方法中，每个离散点待求解的状态变量或参数。离散点状态可取为位置和速度，在打靶变量选取上做适当参数化可提高收敛率。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shooting Variable Explained | Term Definition
+  title: "Shooting Variable Explained | Term Definition"
   description: 多步打靶方法中，每个离散点待求解的状态变量或参数。离散点状态可取为位置和速度，在打靶变量选取上做适当参数化可提高收敛率。
   image: /logo.png
 permalink: /en/glossary/dynamics/shooting-variable/

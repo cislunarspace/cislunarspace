@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Self-cleaning Property Explained | Term Definition
+  title: "Self-cleaning Property Explained | Term Definition"
   description: The natural ability of an orbit to clear debris. NRHO and large Halo orbits can naturally clear most debris from the Earth-Moon system within 1-10 years (throug
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Self-cleaning Property Explained | Term Definition
+  title: "Self-cleaning Property Explained | Term Definition"
   description: The natural ability of an orbit to clear debris. NRHO and large Halo orbits can naturally clear most debris from the Earth-Moon system within 1-10 years (throug
   image: /logo.png
 permalink: /en/glossary/orbits/self-cleaning-property/

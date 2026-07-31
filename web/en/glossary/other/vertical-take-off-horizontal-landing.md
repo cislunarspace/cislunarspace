@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Take-off Horizontal Landing Explained | Term Definition
+  title: "Vertical Take-off Horizontal Landing Explained | Term Definition"
   description: A reusable launch vehicle that takes off vertically and lands horizontally. During launch it follows a conventional vertical ascent; during return it uses aerod...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Take-off Horizontal Landing Explained | Term Definition
+  title: "Vertical Take-off Horizontal Landing Explained | Term Definition"
   description: A reusable launch vehicle that takes off vertically and lands horizontally. During launch it follows a conventional vertical ascent; during return it uses aerod...
   image: /logo.png
 permalink: /en/glossary/other/vertical-take-off-horizontal-landing/

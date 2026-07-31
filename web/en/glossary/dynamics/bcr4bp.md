@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition
+  title: "Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition"
   description: A four-body model that introduces perturbation of a third body (such as the Moon or Sun) on the restricted three-body problem. In this model, two primary bodies
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition
+  title: "Bicircular Restricted Four-Body Problem, BCR4BP Explained | Term Definition"
   description: A four-body model that introduces perturbation of a third body (such as the Moon or Sun) on the restricted three-body problem. In this model, two primary bodies
   image: /logo.png
 permalink: /en/glossary/dynamics/bcr4bp/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: LunaNet Detailed Analysis | Lunar Communication and Navigation Architecture
+  title: "LunaNet Detailed Analysis | Lunar Communication and Navigation Architecture"
   description: An analysis of the U.S.-led lunar communication and navigation integrated architecture plan, providing high-precision spatial position information services for lunar astronauts and rovers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LunaNet Detailed Analysis | Lunar Communication and Navigation Architecture
+  title: "LunaNet Detailed Analysis | Lunar Communication and Navigation Architecture"
   description: An analysis of the U.S.-led lunar communication and navigation integrated architecture plan, providing high-precision spatial position information services for lunar astronauts and rovers.
   image: /logo.png
 permalink: /en/glossary/navigation/lunanet/

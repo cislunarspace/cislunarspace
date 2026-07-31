@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-arc Trajectory Optimization Explained | Term Definition
+  title: "Multi-arc Trajectory Optimization Explained | Term Definition"
   description: "Trajectory design approach where the transfer consists of multiple arcs, each possibly using different coordinate representations, with matching conditions enfo"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-arc Trajectory Optimization Explained | Term Definition
+  title: "Multi-arc Trajectory Optimization Explained | Term Definition"
   description: "Trajectory design approach where the transfer consists of multiple arcs, each possibly using different coordinate representations, with matching conditions enfo"
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-arc-trajectory-optimization/

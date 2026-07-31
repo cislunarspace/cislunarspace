@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: CLERM Explained | Term Definition
+  title: "CLERM Explained | Term Definition"
   description: Circular Linearized Equations of Relative Motion; linearized relative motion equations in CR3BP framework.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: CLERM Explained | Term Definition
+  title: "CLERM Explained | Term Definition"
   description: Circular Linearized Equations of Relative Motion; linearized relative motion equations in CR3BP framework.
   image: /logo.png
 permalink: /en/glossary/dynamics/circular-linearized-equations-of-relative-motion/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: North-South Halo Orbit Transfer Explained | Term Definition
+  title: "North-South Halo Orbit Transfer Explained | Term Definition"
   description: Transfer between northern and southern halo orbit families near the Earth-Moon L2 libration point. Northern and southern halo pairs are symmetric with respect t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: North-South Halo Orbit Transfer Explained | Term Definition
+  title: "North-South Halo Orbit Transfer Explained | Term Definition"
   description: Transfer between northern and southern halo orbit families near the Earth-Moon L2 libration point. Northern and southern halo pairs are symmetric with respect t
   image: /logo.png
 permalink: /en/glossary/orbits/north-south-halo-orbit-transfer/

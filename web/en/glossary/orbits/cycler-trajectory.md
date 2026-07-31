@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Cycler Trajectory Details | Orbit Mechanics
+  title: "Cycler Trajectory Details | Orbit Mechanics"
   description: A natural periodic orbit connecting two celestial bodies that enables continuous round-trip travel without orbital capture.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cycler Trajectory Details | Orbit Mechanics
+  title: "Cycler Trajectory Details | Orbit Mechanics"
   description: A natural periodic orbit connecting two celestial bodies that enables continuous round-trip travel without orbital capture.
   image: /logo.png
 permalink: /en/glossary/orbits/cycler-trajectory/

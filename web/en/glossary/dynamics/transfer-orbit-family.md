@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Orbit Family Explained | Term Definition
+  title: "Transfer Orbit Family Explained | Term Definition"
   description: A collection of transfer orbits satisfying the same dynamical symmetry and topological structure in restricted three-body or four-body models. These orbits are indexed by continuous parameters (such a...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Orbit Family Explained | Term Definition
+  title: "Transfer Orbit Family Explained | Term Definition"
   description: A collection of transfer orbits satisfying the same dynamical symmetry and topological structure in restricted three-body or four-body models. These orbits are indexed by continuous parameters (such a...
   image: /logo.png
 permalink: /en/glossary/dynamics/transfer-orbit-family/

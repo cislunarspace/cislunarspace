@@ -1,6 +1,6 @@
 ---
 title: Spherical Control Variables
-description: A parameterization of the thrust vector using three scalars: magnitude T, azimuth angle α, and elevation angle β. In CRTBP low-thrust optimization, the spher...
+description: "A parameterization of the thrust vector using three scalars: magnitude T, azimuth angle α, and elevation angle β. In CRTBP low-thrust optimization, the spher..."
 keywords: Spherical Control Variables
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spherical Control Variables Explained | Term Definition
-  description: A parameterization of the thrust vector using three scalars: magnitude T, azimuth angle α, and elevation angle β. In CRTBP low-thrust optimization, the spher...
+  title: "Spherical Control Variables Explained | Term Definition"
+  description: "A parameterization of the thrust vector using three scalars: magnitude T, azimuth angle α, and elevation angle β. In CRTBP low-thrust optimization, the spher..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spherical Control Variables Explained | Term Definition
-  description: A parameterization of the thrust vector using three scalars: magnitude T, azimuth angle α, and elevation angle β. In CRTBP low-thrust optimization, the spher...
+  title: "Spherical Control Variables Explained | Term Definition"
+  description: "A parameterization of the thrust vector using three scalars: magnitude T, azimuth angle α, and elevation angle β. In CRTBP low-thrust optimization, the spher..."
   image: /logo.png
 permalink: /en/glossary/dynamics/spherical-control-variables/
 ---

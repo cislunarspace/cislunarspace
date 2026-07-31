@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fixed-Time-of-Arrival Guidance Explained | Term Definition
+  title: "Fixed-Time-of-Arrival Guidance Explained | Term Definition"
   description: "A guidance law that drives the spacecraft to arrive at a target position at a specified time."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fixed-Time-of-Arrival Guidance Explained | Term Definition
+  title: "Fixed-Time-of-Arrival Guidance Explained | Term Definition"
   description: "A guidance law that drives the spacecraft to arrive at a target position at a specified time."
   image: /logo.png
 permalink: /en/glossary/dynamics/fixed-time-of-arrival-guidance/

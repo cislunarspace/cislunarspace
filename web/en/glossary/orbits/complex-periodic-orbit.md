@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Complex Periodic Orbit Explained | Term Definition
+  title: "Complex Periodic Orbit Explained | Term Definition"
   description: A periodic orbit formed by repeating a fixed sequence of transfers between multiple simple periodic orbits indefinitely. Complex periodic orbits also form conti
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Complex Periodic Orbit Explained | Term Definition
+  title: "Complex Periodic Orbit Explained | Term Definition"
   description: A periodic orbit formed by repeating a fixed sequence of transfers between multiple simple periodic orbits indefinitely. Complex periodic orbits also form conti
   image: /logo.png
 permalink: /en/glossary/orbits/complex-periodic-orbit/

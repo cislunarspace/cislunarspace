@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Robust Unscented Kalman Filter Explained | Term Definition
+  title: "Robust Unscented Kalman Filter Explained | Term Definition"
   description: Unscented Kalman filter variant resilient to measurement malfunctions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Robust Unscented Kalman Filter Explained | Term Definition
+  title: "Robust Unscented Kalman Filter Explained | Term Definition"
   description: Unscented Kalman filter variant resilient to measurement malfunctions
   image: /logo.png
 permalink: /en/glossary/dynamics/robust-unscented-kalman-filter/

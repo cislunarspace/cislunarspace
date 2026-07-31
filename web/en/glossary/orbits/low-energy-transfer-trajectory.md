@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Energy Transfer Trajectory Explained | Term Definition
+  title: "Low-Energy Transfer Trajectory Explained | Term Definition"
   description: Earth-Moon transfer trajectories consuming less energy than conventional Hohmann transfer, designed using dynamical properties of libration points and invariant
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Energy Transfer Trajectory Explained | Term Definition
+  title: "Low-Energy Transfer Trajectory Explained | Term Definition"
   description: Earth-Moon transfer trajectories consuming less energy than conventional Hohmann transfer, designed using dynamical properties of libration points and invariant
   image: /logo.png
 permalink: /en/glossary/orbits/low-energy-transfer-trajectory/

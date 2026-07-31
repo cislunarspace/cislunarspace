@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mass Leak Technique Explained | Term Definition
+  title: "Mass Leak Technique Explained | Term Definition"
   description: A technique that adds a small constant εT to the thrust magnitude formula T=√(Tx²+Ty²+Tz²+εT) to avoid numerical singularities during coast arcs where thrust is zero. Without this regularization, deri...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Leak Technique Explained | Term Definition
+  title: "Mass Leak Technique Explained | Term Definition"
   description: A technique that adds a small constant εT to the thrust magnitude formula T=√(Tx²+Ty²+Tz²+εT) to avoid numerical singularities during coast arcs where thrust is zero. Without this regularization, deri...
   image: /logo.png
 permalink: /en/glossary/dynamics/mass-leak-technique/

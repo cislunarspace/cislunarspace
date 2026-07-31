@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Solar Radiation Pressure Details | Primary Perturbation in Cislunar Space
+  title: "Solar Radiation Pressure Details | Primary Perturbation in Cislunar Space"
   description: Detailed analysis of the definition, formula, and effects of solar radiation pressure on spacecraft in cislunar space
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Radiation Pressure Details | Primary Perturbation in Cislunar Space
+  title: "Solar Radiation Pressure Details | Primary Perturbation in Cislunar Space"
   description: Detailed analysis of the definition, formula, and effects of solar radiation pressure on spacecraft in cislunar space
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-radiation-pressure/

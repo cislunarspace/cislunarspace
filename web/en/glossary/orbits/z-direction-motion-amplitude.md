@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: z-direction Motion Amplitude Explained | Term Definition
+  title: "z-direction Motion Amplitude Explained | Term Definition"
   description: 三维DRO在垂直于地月轨道面（z轴）方向上运动位置分量的最大值。振幅越大，DRO对月球高纬度地区的可见仰角越大，星座对极区的覆盖能力越强。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: z-direction Motion Amplitude Explained | Term Definition
+  title: "z-direction Motion Amplitude Explained | Term Definition"
   description: 三维DRO在垂直于地月轨道面（z轴）方向上运动位置分量的最大值。振幅越大，DRO对月球高纬度地区的可见仰角越大，星座对极区的覆盖能力越强。
   image: /logo.png
 permalink: /en/glossary/orbits/z-direction-motion-amplitude/

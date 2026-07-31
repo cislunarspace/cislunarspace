@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Revolution Transfer Structure Explained | Term Definition
+  title: "Multi-Revolution Transfer Structure Explained | Term Definition"
   description: A basic configuration for low-thrust transfer trajectories where the spacecraft performs multiple revolutions around the libration point under continuous low-thrust to reach the target orbit. Increasi
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Revolution Transfer Structure Explained | Term Definition
+  title: "Multi-Revolution Transfer Structure Explained | Term Definition"
   description: A basic configuration for low-thrust transfer trajectories where the spacecraft performs multiple revolutions around the libration point under continuous low-thrust to reach the target orbit. Increasi
   image: /logo.png
 permalink: /en/glossary/orbits/multi-revolution-transfer-structure/

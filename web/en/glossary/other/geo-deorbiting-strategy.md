@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GEO Deorbiting Strategy Explained | Term Definition
+  title: "GEO Deorbiting Strategy Explained | Term Definition"
   description: A strategy for driving end-of-life geostationary satellites into the lunar region for permanent disposal using low-energy cislunar transfer trajectories. The...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GEO Deorbiting Strategy Explained | Term Definition
+  title: "GEO Deorbiting Strategy Explained | Term Definition"
   description: A strategy for driving end-of-life geostationary satellites into the lunar region for permanent disposal using low-energy cislunar transfer trajectories. The...
   image: /logo.png
 permalink: /en/glossary/other/geo-deorbiting-strategy/

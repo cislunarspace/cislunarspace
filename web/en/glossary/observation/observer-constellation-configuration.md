@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Observer Constellation Configuration Explained | Term Definition
+  title: "Observer Constellation Configuration Explained | Term Definition"
   description: The number and orbital combination of observer satellites carrying optical sensors. This paper tests nine configurations (3-5 GEO satellites combined with 0-4 HEO satellites) and finds OCC has much le...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Observer Constellation Configuration Explained | Term Definition
+  title: "Observer Constellation Configuration Explained | Term Definition"
   description: The number and orbital combination of observer satellites carrying optical sensors. This paper tests nine configurations (3-5 GEO satellites combined with 0-4 HEO satellites) and finds OCC has much le...
   image: /logo.png
 permalink: /en/glossary/observation/observer-constellation-configuration/

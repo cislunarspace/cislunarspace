@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Lunar Capture Window Explained | Term Definition
+  title: "Lunar Capture Window Explained | Term Definition"
   description: "The time interval allowing a spacecraft to be captured by the Moon's gravity well, determined by solar phase angle and Halo orbit phase."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Capture Window Explained | Term Definition
+  title: "Lunar Capture Window Explained | Term Definition"
   description: "The time interval allowing a spacecraft to be captured by the Moon's gravity well, determined by solar phase angle and Halo orbit phase."
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-capture-window/

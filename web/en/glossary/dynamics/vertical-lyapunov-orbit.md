@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Lyapunov Orbit Explained | Term Definition
+  title: "Vertical Lyapunov Orbit Explained | Term Definition"
   description: Family of periodic orbits arising from the vertical center of the linearized equations at a collinear libration point; frequencies relate to both the planar and
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Lyapunov Orbit Explained | Term Definition
+  title: "Vertical Lyapunov Orbit Explained | Term Definition"
   description: Family of periodic orbits arising from the vertical center of the linearized equations at a collinear libration point; frequencies relate to both the planar and
   image: /logo.png
 permalink: /en/glossary/dynamics/vertical-lyapunov-orbit/

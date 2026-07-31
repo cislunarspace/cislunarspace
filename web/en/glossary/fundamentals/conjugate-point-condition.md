@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conjugate point condition Explained | Term Definition
+  title: "Conjugate point condition Explained | Term Definition"
   description: A second-order sufficient condition in the calculus of variations. The Jacobi no-conjugate-point condition requires that variational endpoints do not coalesce along the trajectory. Prussing and San...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conjugate point condition Explained | Term Definition
+  title: "Conjugate point condition Explained | Term Definition"
   description: A second-order sufficient condition in the calculus of variations. The Jacobi no-conjugate-point condition requires that variational endpoints do not coalesce along the trajectory. Prussing and San...
   image: /logo.png
 permalink: /en/glossary/fundamentals/conjugate-point-condition/

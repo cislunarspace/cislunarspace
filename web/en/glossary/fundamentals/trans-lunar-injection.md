@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trans-Lunar Injection Explained | Term Definition
+  title: "Trans-Lunar Injection Explained | Term Definition"
   description: An impulsive maneuver performed in low Earth orbit to accelerate the spacecraft to the velocity needed for a trans-lunar transfer trajectory. It marks the start
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trans-Lunar Injection Explained | Term Definition
+  title: "Trans-Lunar Injection Explained | Term Definition"
   description: An impulsive maneuver performed in low Earth orbit to accelerate the spacecraft to the velocity needed for a trans-lunar transfer trajectory. It marks the start
   image: /logo.png
 permalink: /en/glossary/fundamentals/trans-lunar-injection/

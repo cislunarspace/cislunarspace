@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative Floquet Stationkeeping, RFSK Explained | Term Definition
+  title: "Relative Floquet Stationkeeping, RFSK Explained | Term Definition"
   description: Stationkeeping controller using Floquet theory in relative phase space, hybridizing SDRE with energy-shaping constraints.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative Floquet Stationkeeping, RFSK Explained | Term Definition
+  title: "Relative Floquet Stationkeeping, RFSK Explained | Term Definition"
   description: Stationkeeping controller using Floquet theory in relative phase space, hybridizing SDRE with energy-shaping constraints.
   image: /logo.png
 permalink: /en/glossary/dynamics/relative-floquet-stationkeeping-rfsk/

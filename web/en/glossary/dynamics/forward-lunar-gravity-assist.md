@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Forward Lunar Gravity Assist Explained | Term Definition
+  title: "Forward Lunar Gravity Assist Explained | Term Definition"
   description: An assist mechanism during flight in the second and fourth quadrants of the energy coordinate system that uses solar gravitational perturbation to increase the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Forward Lunar Gravity Assist Explained | Term Definition
+  title: "Forward Lunar Gravity Assist Explained | Term Definition"
   description: An assist mechanism during flight in the second and fourth quadrants of the energy coordinate system that uses solar gravitational perturbation to increase the
   image: /logo.png
 permalink: /en/glossary/dynamics/forward-lunar-gravity-assist/

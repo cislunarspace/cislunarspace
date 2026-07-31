@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Preceding Phasing Explained | Term Definition
+  title: "Preceding Phasing Explained | Term Definition"
   description: "A phasing mode where the time phase difference is positive, meaning the phasing orbit reaches the target point earlier than the target spacecraft's natural moti"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Preceding Phasing Explained | Term Definition
+  title: "Preceding Phasing Explained | Term Definition"
   description: "A phasing mode where the time phase difference is positive, meaning the phasing orbit reaches the target point earlier than the target spacecraft's natural moti"
   image: /logo.png
 permalink: /en/glossary/dynamics/preceding-phasing/

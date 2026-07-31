@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-centered inertial frame Explained | Term Definition
+  title: "Earth-centered inertial frame Explained | Term Definition"
   description: "An inertial coordinate system centered at the Earth's center of mass, using the J2000.0 mean equator and mean equinox as reference. In the paper, libration poin"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-centered inertial frame Explained | Term Definition
+  title: "Earth-centered inertial frame Explained | Term Definition"
   description: "An inertial coordinate system centered at the Earth's center of mass, using the J2000.0 mean equator and mean equinox as reference. In the paper, libration poin"
   image: /logo.png
 permalink: /en/glossary/fundamentals/ECI/

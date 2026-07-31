@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flower Constellation, FC Explained | Term Definition
+  title: "Flower Constellation, FC Explained | Term Definition"
   description: A constellation design where all satellites share the same trajectory in a rotating reference frame, appearing as multi-petaled flowers with repeatable groun...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flower Constellation, FC Explained | Term Definition
+  title: "Flower Constellation, FC Explained | Term Definition"
   description: A constellation design where all satellites share the same trajectory in a rotating reference frame, appearing as multi-petaled flowers with repeatable groun...
   image: /logo.png
 permalink: /en/glossary/orbits/flower-constellation-fc/

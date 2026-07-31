@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Effective Sample Size Explained | Term Definition
+  title: "Effective Sample Size Explained | Term Definition"
   description: A metric measuring the degeneracy level of the particle set in particle filtering. Defined as the inverse of the sum of squared normalized particle weights. Whe
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Effective Sample Size Explained | Term Definition
+  title: "Effective Sample Size Explained | Term Definition"
   description: A metric measuring the degeneracy level of the particle set in particle filtering. Defined as the inverse of the sum of squared normalized particle weights. Whe
   image: /logo.png
 permalink: /en/glossary/dynamics/effective-sample-size/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fuel-optimal Control Explained | Term Definition
+  title: "Fuel-optimal Control Explained | Term Definition"
   description: Control strategy aimed at minimizing fuel consumption; critical for extending spacecraft mission lifetime since fuel determines remaining mission capability.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fuel-optimal Control Explained | Term Definition
+  title: "Fuel-optimal Control Explained | Term Definition"
   description: Control strategy aimed at minimizing fuel consumption; critical for extending spacecraft mission lifetime since fuel determines remaining mission capability.
   image: /logo.png
 permalink: /en/glossary/dynamics/fuel-optimal-control/

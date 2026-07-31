@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Prescribed Performance Control, PPC Explained | Term Definition
+  title: "Prescribed Performance Control, PPC Explained | Term Definition"
   description: A control framework proposed by Bechlioulis and Rovithakis in 2008. It defines a decreasing performance function to bound the allowable tracking error, then ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Prescribed Performance Control, PPC Explained | Term Definition
+  title: "Prescribed Performance Control, PPC Explained | Term Definition"
   description: A control framework proposed by Bechlioulis and Rovithakis in 2008. It defines a decreasing performance function to bound the allowable tracking error, then ...
   image: /logo.png
 permalink: /en/glossary/dynamics/prescribed-performance-control-ppc/

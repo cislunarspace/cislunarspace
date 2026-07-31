@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Anduril Industries
-  description: Introduction to Anduril Industries' main space products and cislunar-related business
+  description: "Introduction to Anduril Industries' main space products and cislunar-related business"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Anduril Industries
-  description: Introduction to Anduril Industries' main space products and cislunar-related business
+  description: "Introduction to Anduril Industries' main space products and cislunar-related business"
   image: /logo.png
 permalink: /en/glossary/organizations/anduril/
 ---

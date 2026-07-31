@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Maslov Index Explained | Term Definition
+  title: "Maslov Index Explained | Term Definition"
   description: A topological invariant of symplectic matrix paths, used in stability analysis of Hamiltonian systems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Maslov Index Explained | Term Definition
+  title: "Maslov Index Explained | Term Definition"
   description: A topological invariant of symplectic matrix paths, used in stability analysis of Hamiltonian systems.
   image: /logo.png
 permalink: /en/glossary/dynamics/maslov-index/

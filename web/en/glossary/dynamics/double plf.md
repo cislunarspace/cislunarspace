@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Double Powered Lunar Flyby Explained | Term Definition
+  title: "Double Powered Lunar Flyby Explained | Term Definition"
   description: A transfer strategy that performs two consecutive powered lunar flybys. The first applies an impulse at perilune to change in-plane velocity components and incl
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Double Powered Lunar Flyby Explained | Term Definition
+  title: "Double Powered Lunar Flyby Explained | Term Definition"
   description: A transfer strategy that performs two consecutive powered lunar flybys. The first applies an impulse at perilune to change in-plane velocity components and incl
   image: /logo.png
 permalink: /en/glossary/dynamics/double plf/

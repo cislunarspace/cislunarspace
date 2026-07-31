@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Asymptotic Orbit Explained | Term Definition
+  title: "Asymptotic Orbit Explained | Term Definition"
   description: An orbit that asymptotically approaches a libration point periodic orbit along its invariant manifold. Since the approach is asymptotic, the spacecraft spirals around the periodic orbit for multipl...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Asymptotic Orbit Explained | Term Definition
+  title: "Asymptotic Orbit Explained | Term Definition"
   description: An orbit that asymptotically approaches a libration point periodic orbit along its invariant manifold. Since the approach is asymptotic, the spacecraft spirals around the periodic orbit for multipl...
   image: /logo.png
 permalink: /en/glossary/orbits/asymptotic-orbit/

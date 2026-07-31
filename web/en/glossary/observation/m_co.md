@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cutoff Magnitude, m_co Explained | Term Definition
+  title: "Cutoff Magnitude, m_co Explained | Term Definition"
   description: The threshold magnitude for visibility determination. A target is deemed visible when its apparent magnitude is brighter (smaller) than this cutoff value. Lower
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cutoff Magnitude, m_co Explained | Term Definition
+  title: "Cutoff Magnitude, m_co Explained | Term Definition"
   description: The threshold magnitude for visibility determination. A target is deemed visible when its apparent magnitude is brighter (smaller) than this cutoff value. Lower
   image: /logo.png
 permalink: /en/glossary/observation/m_co/

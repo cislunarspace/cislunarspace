@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Scaling Factor Explained | Term Definition
+  title: "Scaling Factor Explained | Term Definition"
   description: In differential evolution, a parameter that controls the intensity of the mutant vector. A larger F value increases the search range but may slow convergence,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Scaling Factor Explained | Term Definition
+  title: "Scaling Factor Explained | Term Definition"
   description: In differential evolution, a parameter that controls the intensity of the mutant vector. A larger F value increases the search range but may slow convergence,...
   image: /logo.png
 permalink: /en/glossary/dynamics/scaling-factor/

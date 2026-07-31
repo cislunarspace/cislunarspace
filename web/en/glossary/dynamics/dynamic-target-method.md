@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Dynamic Target Method Details | Improved Low-Energy Orbit Keeping Strategy
+  title: "Dynamic Target Method Details | Improved Low-Energy Orbit Keeping Strategy"
   description: Detailed analysis of the dynamic target method for low-energy orbit keeping using differential evolution optimization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamic Target Method Details | Improved Low-Energy Orbit Keeping Strategy
+  title: "Dynamic Target Method Details | Improved Low-Energy Orbit Keeping Strategy"
   description: Detailed analysis of the dynamic target method for low-energy orbit keeping using differential evolution optimization
   image: /logo.png
 permalink: /en/glossary/dynamics/dynamic-target-method/

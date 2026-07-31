@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parallel Formation Explained | Term Definition
+  title: "Parallel Formation Explained | Term Definition"
   description: A formation in which all satellites share identical out-of-plane components at all times but maintain fixed phase offsets in the in-plane directions. Near trian
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parallel Formation Explained | Term Definition
+  title: "Parallel Formation Explained | Term Definition"
   description: A formation in which all satellites share identical out-of-plane components at all times but maintain fixed phase offsets in the in-plane directions. Near trian
   image: /logo.png
 permalink: /en/glossary/orbits/parallel-formation/

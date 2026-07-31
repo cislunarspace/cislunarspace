@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Integer Linear Programming, ILP (ILP) Explained | Term Definition
+  title: "Integer Linear Programming, ILP (ILP) Explained | Term Definition"
   description: An optimization method where decision variables are restricted to integers and both the objective function and constraints are linear. In constellation design,
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Integer Linear Programming, ILP (ILP) Explained | Term Definition
+  title: "Integer Linear Programming, ILP (ILP) Explained | Term Definition"
   description: An optimization method where decision variables are restricted to integers and both the objective function and constraints are linear. In constellation design,
   image: /logo.png
 permalink: /en/glossary/fundamentals/integer-linear-programming-ilp/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Skip Reentry | Terminology Definition
+  title: "Skip Reentry | Terminology Definition"
   description: A detailed analysis of the skip reentry definition and trajectory characteristics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Skip Reentry | Terminology Definition
+  title: "Skip Reentry | Terminology Definition"
   description: A detailed analysis of the skip reentry definition and trajectory characteristics
   image: /logo.png
 permalink: /en/glossary/fundamentals/skip-reentry/

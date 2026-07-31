@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heterogeneous Constellation Explained | Term Definition
+  title: "Heterogeneous Constellation Explained | Term Definition"
   description: A navigation constellation composed of satellites in multiple orbit types working in coordination. In cislunar space, a typical heterogeneous architecture...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heterogeneous Constellation Explained | Term Definition
+  title: "Heterogeneous Constellation Explained | Term Definition"
   description: A navigation constellation composed of satellites in multiple orbit types working in coordination. In cislunar space, a typical heterogeneous architecture...
   image: /logo.png
 permalink: /en/glossary/fundamentals/heterogeneous-constellation/

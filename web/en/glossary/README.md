@@ -11,13 +11,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Cislunar Space Glossary | Core Terminology for Earth-Moon Space Research
+  title: "Cislunar Space Glossary | Core Terminology for Earth-Moon Space Research"
   description: Authoritative glossary of cislunar space terminology, covering core concepts such as CR3BP and X-ray pulsar navigation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Space Glossary | Core Terminology for Earth-Moon Space Research
+  title: "Cislunar Space Glossary | Core Terminology for Earth-Moon Space Research"
   description: Authoritative glossary of cislunar space terminology, covering core concepts such as CR3BP and X-ray pulsar navigation.
   image: /logo.png
 ---

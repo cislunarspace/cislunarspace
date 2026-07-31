@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space Situational Awareness Explained | Term Definition
+  title: "Space Situational Awareness Explained | Term Definition"
   description: The capability to catalog, monitor, and predict all objects in the Earth orbital space environment.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Situational Awareness Explained | Term Definition
+  title: "Space Situational Awareness Explained | Term Definition"
   description: The capability to catalog, monitor, and predict all objects in the Earth orbital space environment.
   image: /logo.png
 permalink: /en/glossary/observation/space-situational-awareness/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mapped Adjoint Control Transformation, MACT Explained | Term Definition
+  title: "Mapped Adjoint Control Transformation, MACT Explained | Term Definition"
   description: A technique to expand the convergence domain of indirect optimal control methods by mapping costate variables to a transformed parameter space, reducing...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mapped Adjoint Control Transformation, MACT Explained | Term Definition
+  title: "Mapped Adjoint Control Transformation, MACT Explained | Term Definition"
   description: A technique to expand the convergence domain of indirect optimal control methods by mapping costate variables to a transformed parameter space, reducing...
   image: /logo.png
 permalink: /en/glossary/fundamentals/mapped-adjoint-control-transformation-mact/

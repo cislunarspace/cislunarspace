@@ -1,6 +1,6 @@
 ---
 title: Exponential Instability
-description: A dynamical property of periodic orbits near collinear libration points. Characterized by the Floquet multiplier lambda_5 > 1: the orbit diverges at an exponent
+description: "A dynamical property of periodic orbits near collinear libration points. Characterized by the Floquet multiplier lambda_5 > 1: the orbit diverges at an exponent"
 keywords: Exponential Instability
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exponential Instability Explained | Term Definition
-  description: A dynamical property of periodic orbits near collinear libration points. Characterized by the Floquet multiplier lambda_5 > 1: the orbit diverges at an exponent
+  title: "Exponential Instability Explained | Term Definition"
+  description: "A dynamical property of periodic orbits near collinear libration points. Characterized by the Floquet multiplier lambda_5 > 1: the orbit diverges at an exponent"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exponential Instability Explained | Term Definition
-  description: A dynamical property of periodic orbits near collinear libration points. Characterized by the Floquet multiplier lambda_5 > 1: the orbit diverges at an exponent
+  title: "Exponential Instability Explained | Term Definition"
+  description: "A dynamical property of periodic orbits near collinear libration points. Characterized by the Floquet multiplier lambda_5 > 1: the orbit diverges at an exponent"
   image: /logo.png
 permalink: /en/glossary/fundamentals/exponential-instability/
 ---

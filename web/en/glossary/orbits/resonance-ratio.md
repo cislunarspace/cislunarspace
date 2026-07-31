@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonance Ratio Explained | Term Definition
+  title: "Resonance Ratio Explained | Term Definition"
   description: The integer ratio between the DRO orbital period and the lunar sidereal period. For example, 4:1 means the DRO completes 4 revolutions around the Moon for each lunar orbit around the Earth. The res...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonance Ratio Explained | Term Definition
+  title: "Resonance Ratio Explained | Term Definition"
   description: The integer ratio between the DRO orbital period and the lunar sidereal period. For example, 4:1 means the DRO completes 4 revolutions around the Moon for each lunar orbit around the Earth. The res...
   image: /logo.png
 permalink: /en/glossary/orbits/resonance-ratio/

@@ -1,6 +1,6 @@
 ---
 title: Earth GNSS Weak Signal Navigation
-description: An analysis of the technical principles, key technologies, performance limitations, and development paths for achieving cislunar space navigation using Earth's GNSS satellite sidelobe signals.
+description: "An analysis of the technical principles, key technologies, performance limitations, and development paths for achieving cislunar space navigation using Earth's GNSS satellite sidelobe signals."
 keywords: GNSS weak signal navigation, cislunar space navigation, high-sensitivity receiver, ultra-low temperature quantum amplifier, adaptive array antenna, LuGRE, GPS, lunar navigation
 author: Tianjiang Shuo
 date: 2026-04-25
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Earth GNSS Weak Signal Navigation | Cislunar Space Navigation Technical Path
-  description: An analysis of the technical principles, key technologies, performance limitations, and development paths for achieving cislunar space navigation using Earth's GNSS satellite sidelobe signals.
+  title: "Earth GNSS Weak Signal Navigation | Cislunar Space Navigation Technical Path"
+  description: "An analysis of the technical principles, key technologies, performance limitations, and development paths for achieving cislunar space navigation using Earth's GNSS satellite sidelobe signals."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth GNSS Weak Signal Navigation | Cislunar Space Navigation Technical Path
-  description: An analysis of the technical principles, key technologies, performance limitations, and development paths for achieving cislunar space navigation using Earth's GNSS satellite sidelobe signals.
+  title: "Earth GNSS Weak Signal Navigation | Cislunar Space Navigation Technical Path"
+  description: "An analysis of the technical principles, key technologies, performance limitations, and development paths for achieving cislunar space navigation using Earth's GNSS satellite sidelobe signals."
   image: /logo.png
 permalink: /en/glossary/navigation/gnss-weak-signal-navigation/
 ---

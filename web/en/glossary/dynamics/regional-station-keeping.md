@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Regional Station-keeping Control | Airship Dynamics
+  title: "Regional Station-keeping Control | Airship Dynamics"
   description: A detailed analysis of regional station-keeping control definitions, control objectives, core challenges, and current research status for stratospheric airships
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Regional Station-keeping Control | Airship Dynamics
+  title: "Regional Station-keeping Control | Airship Dynamics"
   description: A detailed analysis of regional station-keeping control definitions, control objectives, core challenges, and current research status for stratospheric airships
   image: /logo.png
 permalink: /en/glossary/dynamics/regional-station-keeping/

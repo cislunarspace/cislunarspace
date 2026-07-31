@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adaptive Grid Subdivision Explained | Term Definition
+  title: "Adaptive Grid Subdivision Explained | Term Definition"
   description: A set-oriented numerical method that starts from an initial rectangle containing a target set and iteratively halves the radius along each coordinate direction, generating progressively finer grid families. After each subdivision step, only cells intersecting the target set are retained. Accuracy can be set independently in each dimension, making it applicable to invariant set computation in varying dimensions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adaptive Grid Subdivision Explained | Term Definition
+  title: "Adaptive Grid Subdivision Explained | Term Definition"
   description: A set-oriented numerical method that starts from an initial rectangle containing a target set and iteratively halves the radius along each coordinate direction, generating progressively finer grid families. After each subdivision step, only cells intersecting the target set are retained. Accuracy can be set independently in each dimension, making it applicable to invariant set computation in varying dimensions.
   image: /logo.png
 permalink: /en/glossary/fundamentals/adaptive-grid-subdivision/

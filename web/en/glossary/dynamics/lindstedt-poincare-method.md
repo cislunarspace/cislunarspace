@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lindstedt-Poincare Method Explained | Term Definition
+  title: "Lindstedt-Poincare Method Explained | Term Definition"
   description: A perturbation method for solving near-resonant solutions of nonlinear periodic systems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lindstedt-Poincare Method Explained | Term Definition
+  title: "Lindstedt-Poincare Method Explained | Term Definition"
   description: A perturbation method for solving near-resonant solutions of nonlinear periodic systems.
   image: /logo.png
 permalink: /en/glossary/dynamics/lindstedt-poincare-method/

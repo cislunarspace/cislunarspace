@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamiltonian Normal Form Explained | Term Definition
+  title: "Hamiltonian Normal Form Explained | Term Definition"
   description: Symplectic change of variables that reduces the second-order Hamiltonian near collinear libration points to diagonal (normal) form.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian Normal Form Explained | Term Definition
+  title: "Hamiltonian Normal Form Explained | Term Definition"
   description: Symplectic change of variables that reduces the second-order Hamiltonian near collinear libration points to diagonal (normal) form.
   image: /logo.png
 permalink: /en/glossary/dynamics/hamiltonian-normal-form/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative CR3BP Dynamics Explained | Term Definition
+  title: "Relative CR3BP Dynamics Explained | Term Definition"
   description: Modeling and analysis of relative orbital motion between two spacecraft within the Circular Restricted Three-Body Problem framework.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative CR3BP Dynamics Explained | Term Definition
+  title: "Relative CR3BP Dynamics Explained | Term Definition"
   description: Modeling and analysis of relative orbital motion between two spacecraft within the Circular Restricted Three-Body Problem framework.
   image: /logo.png
 permalink: /en/glossary/dynamics/relative-cr3bp-dynamics/

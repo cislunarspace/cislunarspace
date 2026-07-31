@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Batch Least-Squares Differential Correction Explained | Term Definition
+  title: "Batch Least-Squares Differential Correction Explained | Term Definition"
   description: A differential correction method that uses weighted least-squares to estimate orbital state by iteratively solving position observations combined with initial o
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Batch Least-Squares Differential Correction Explained | Term Definition
+  title: "Batch Least-Squares Differential Correction Explained | Term Definition"
   description: A differential correction method that uses weighted least-squares to estimate orbital state by iteratively solving position observations combined with initial o
   image: /logo.png
 permalink: /en/glossary/navigation/batch-least-squares-differential-correction/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coriolis Theorem Explained | Term Definition
+  title: "Coriolis Theorem Explained | Term Definition"
   description: A fundamental theorem describing the relationship between derivatives of the same physical quantity taken in an inertial reference frame and a rotating refer...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coriolis Theorem Explained | Term Definition
+  title: "Coriolis Theorem Explained | Term Definition"
   description: A fundamental theorem describing the relationship between derivatives of the same physical quantity taken in an inertial reference frame and a rotating refer...
   image: /logo.png
 permalink: /en/glossary/dynamics/coriolis-theorem/

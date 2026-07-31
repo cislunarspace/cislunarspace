@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collinear Singularity Explained | Term Definition
+  title: "Collinear Singularity Explained | Term Definition"
   description: Ill-conditioned phenomenon where velocity vectors become indeterminate when position vectors are collinear in Lambert problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collinear Singularity Explained | Term Definition
+  title: "Collinear Singularity Explained | Term Definition"
   description: Ill-conditioned phenomenon where velocity vectors become indeterminate when position vectors are collinear in Lambert problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/collinear-singularity/

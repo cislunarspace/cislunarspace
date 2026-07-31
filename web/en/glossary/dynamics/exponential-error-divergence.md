@@ -1,6 +1,6 @@
 ---
 title: Exponential Error Divergence
-description: Phenomenon in which orbit prediction errors around collinear libration points grow exponentially with time: ||ΔX|| ~ ||ΔX₀|| · e^(δT), where δ is the diverge...
+description: "Phenomenon in which orbit prediction errors around collinear libration points grow exponentially with time: ||ΔX|| ~ ||ΔX₀|| · e^(δT), where δ is the diverge..."
 keywords: Exponential Error Divergence, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exponential Error Divergence Explained | Term Definition
-  description: Phenomenon in which orbit prediction errors around collinear libration points grow exponentially with time: ||ΔX|| ~ ||ΔX₀|| · e^(δT), where δ is the diverge...
+  title: "Exponential Error Divergence Explained | Term Definition"
+  description: "Phenomenon in which orbit prediction errors around collinear libration points grow exponentially with time: ||ΔX|| ~ ||ΔX₀|| · e^(δT), where δ is the diverge..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exponential Error Divergence Explained | Term Definition
-  description: Phenomenon in which orbit prediction errors around collinear libration points grow exponentially with time: ||ΔX|| ~ ||ΔX₀|| · e^(δT), where δ is the diverge...
+  title: "Exponential Error Divergence Explained | Term Definition"
+  description: "Phenomenon in which orbit prediction errors around collinear libration points grow exponentially with time: ||ΔX|| ~ ||ΔX₀|| · e^(δT), where δ is the diverge..."
   image: /logo.png
 permalink: /en/glossary/dynamics/exponential-error-divergence/
 ---

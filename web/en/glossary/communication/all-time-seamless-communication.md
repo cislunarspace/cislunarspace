@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: All-Time Seamless Communication Details | Core Cislunar Communication Requirement
+  title: "All-Time Seamless Communication Details | Core Cislunar Communication Requirement"
   description: An uninterrupted communication mode where cislunar spacecraft can establish and maintain communication links at any time
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: All-Time Seamless Communication Details | Core Cislunar Communication Requirement
+  title: "All-Time Seamless Communication Details | Core Cislunar Communication Requirement"
   description: An uninterrupted communication mode where cislunar spacecraft can establish and maintain communication links at any time
   image: /logo.png
 permalink: /en/glossary/communication/all-time-seamless-communication/

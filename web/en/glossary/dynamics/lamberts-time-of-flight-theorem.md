@@ -1,22 +1,22 @@
 ---
-title: Lambert's Time-of-Flight Theorem
+title: "Lambert's Time-of-Flight Theorem"
 description: The theorem stating that flight time depends only on the semi-major axis and the distance between two fixed points.
-keywords: Lambert's Time-of-Flight Theorem
+keywords: "Lambert's Time-of-Flight Theorem"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Lambert's Time-of-Flight Theorem
+  title: "Lambert's Time-of-Flight Theorem"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert's Time-of-Flight Theorem Explained | Term Definition
+  title: "Lambert's Time-of-Flight Theorem Explained | Term Definition"
   description: The theorem stating that flight time depends only on the semi-major axis and the distance between two fixed points.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert's Time-of-Flight Theorem Explained | Term Definition
+  title: "Lambert's Time-of-Flight Theorem Explained | Term Definition"
   description: The theorem stating that flight time depends only on the semi-major axis and the distance between two fixed points.
   image: /logo.png
 permalink: /en/glossary/dynamics/lamberts-time-of-flight-theorem/

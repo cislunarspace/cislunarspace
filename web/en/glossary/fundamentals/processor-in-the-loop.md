@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Processor-in-the-Loop Explained | Term Definition
+  title: "Processor-in-the-Loop Explained | Term Definition"
   description: A verification method where target software runs on actual flight processors while interfacing with simulation environments.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Processor-in-the-Loop Explained | Term Definition
+  title: "Processor-in-the-Loop Explained | Term Definition"
   description: A verification method where target software runs on actual flight processors while interfacing with simulation environments.
   image: /logo.png
 permalink: /en/glossary/fundamentals/processor-in-the-loop/

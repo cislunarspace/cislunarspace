@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conservative System Explained | Term Definition
+  title: "Conservative System Explained | Term Definition"
   description: A dynamical system that preserves phase space volume. The criterion is that the absolute value of the Jacobian determinant equals one. Conservative systems cannot have dissipative terms.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conservative System Explained | Term Definition
+  title: "Conservative System Explained | Term Definition"
   description: A dynamical system that preserves phase space volume. The criterion is that the absolute value of the Jacobian determinant equals one. Conservative systems cannot have dissipative terms.
   image: /logo.png
 permalink: /en/glossary/dynamics/conservative-system/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nonlinear Tuning Explained | Term Definition
+  title: "Nonlinear Tuning Explained | Term Definition"
   description: "Adjusting parameters in the Lindstedt-Poincaré expansion to make in-plane and vertical frequencies equal, obtaining true periodic orbits."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nonlinear Tuning Explained | Term Definition
+  title: "Nonlinear Tuning Explained | Term Definition"
   description: "Adjusting parameters in the Lindstedt-Poincaré expansion to make in-plane and vertical frequencies equal, obtaining true periodic orbits."
   image: /logo.png
 permalink: /en/glossary/dynamics/nonlinear-tuning/

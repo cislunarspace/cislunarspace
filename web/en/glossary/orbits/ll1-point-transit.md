@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LL1 Point Transit Explained | Term Definition
+  title: "LL1 Point Transit Explained | Term Definition"
   description: "The dynamical process where a spacecraft crosses from Earth's gravity well to Moon's via LL1. Under SBCM, the time to reach or depart LL1 changes from infinite "
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LL1 Point Transit Explained | Term Definition
+  title: "LL1 Point Transit Explained | Term Definition"
   description: "The dynamical process where a spacecraft crosses from Earth's gravity well to Moon's via LL1. Under SBCM, the time to reach or depart LL1 changes from infinite "
   image: /logo.png
 permalink: /en/glossary/orbits/ll1-point-transit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: EL2 Lyapunov Orbit Explained | Term Definition
+  title: "EL2 Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit near the L2 point in the Sun-Earth system. Similar to EL1 Lyapunov orbit, its invariant manifold can patch with that of LL2 Lyapunov orbit t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: EL2 Lyapunov Orbit Explained | Term Definition
+  title: "EL2 Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit near the L2 point in the Sun-Earth system. Similar to EL1 Lyapunov orbit, its invariant manifold can patch with that of LL2 Lyapunov orbit t...
   image: /logo.png
 permalink: /en/glossary/orbits/el2-lyapunov-orbit/

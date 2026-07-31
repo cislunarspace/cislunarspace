@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Dynamic Programming, DDP Explained | Term Definition
+  title: "Differential Dynamic Programming, DDP Explained | Term Definition"
   description: A second-order trajectory optimization algorithm introduced by Mayne in 1966. It performs second-order expansions of the dynamics and cost function around a nominal trajectory, then iterates between a...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Dynamic Programming, DDP Explained | Term Definition
+  title: "Differential Dynamic Programming, DDP Explained | Term Definition"
   description: A second-order trajectory optimization algorithm introduced by Mayne in 1966. It performs second-order expansions of the dynamics and cost function around a nominal trajectory, then iterates between a...
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-dynamic-programming-ddp/

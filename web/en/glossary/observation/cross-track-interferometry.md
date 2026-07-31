@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cross-Track Interferometry Explained | Term Definition
+  title: "Cross-Track Interferometry Explained | Term Definition"
   description: A method that measures target height or terrain by using the phase difference of radar echoes acquired by two or more spatially separated antennas. Digital...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cross-Track Interferometry Explained | Term Definition
+  title: "Cross-Track Interferometry Explained | Term Definition"
   description: A method that measures target height or terrain by using the phase difference of radar echoes acquired by two or more spatially separated antennas. Digital...
   image: /logo.png
 permalink: /en/glossary/observation/cross-track-interferometry/

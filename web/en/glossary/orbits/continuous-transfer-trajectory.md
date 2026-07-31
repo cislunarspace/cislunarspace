@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Continuous Transfer Trajectory Explained | Term Definition
+  title: "Continuous Transfer Trajectory Explained | Term Definition"
   description: A multi-segment transfer trajectory that is continuous in both position and velocity, obtained by eliminating discontinuities between segments using a multiple...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuous Transfer Trajectory Explained | Term Definition
+  title: "Continuous Transfer Trajectory Explained | Term Definition"
   description: A multi-segment transfer trajectory that is continuous in both position and velocity, obtained by eliminating discontinuities between segments using a multiple...
   image: /logo.png
 permalink: /en/glossary/orbits/continuous-transfer-trajectory/

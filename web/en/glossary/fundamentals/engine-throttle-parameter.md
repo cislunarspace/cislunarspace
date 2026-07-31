@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Engine Throttle Parameter Explained | Term Definition
+  title: "Engine Throttle Parameter Explained | Term Definition"
   description: A dimensionless parameter controlling the ratio of actual thrust to maximum thrust, constrained within [0, 1]. In time-optimal control, the throttle paramete...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Engine Throttle Parameter Explained | Term Definition
+  title: "Engine Throttle Parameter Explained | Term Definition"
   description: A dimensionless parameter controlling the ratio of actual thrust to maximum thrust, constrained within [0, 1]. In time-optimal control, the throttle paramete...
   image: /logo.png
 permalink: /en/glossary/fundamentals/engine-throttle-parameter/

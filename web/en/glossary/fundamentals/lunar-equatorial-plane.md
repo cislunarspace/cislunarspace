@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Equatorial Plane Explained | Term Definition
+  title: "Lunar Equatorial Plane Explained | Term Definition"
   description: "过月球中心且垂直于月球自转轴的平面，作为月固坐标系和月心惯性坐标系的共同参考平面。月球赤道面相对于黄道面的夹角约为1°32'，倾角很小，因此太阳在月面的星下点纬度变化范围有限。论文中轨道坐标系到惯性坐标系的转换、惯性坐标系到月固坐标系的转换，均以月球赤道面为基准面。"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Equatorial Plane Explained | Term Definition
+  title: "Lunar Equatorial Plane Explained | Term Definition"
   description: "过月球中心且垂直于月球自转轴的平面，作为月固坐标系和月心惯性坐标系的共同参考平面。月球赤道面相对于黄道面的夹角约为1°32'，倾角很小，因此太阳在月面的星下点纬度变化范围有限。论文中轨道坐标系到惯性坐标系的转换、惯性坐标系到月固坐标系的转换，均以月球赤道面为基准面。"
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-equatorial-plane/

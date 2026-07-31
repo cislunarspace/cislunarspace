@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Static Lift | Buoyancy Principles
+  title: "Static Lift | Buoyancy Principles"
   description: A detailed analysis of static lift definitions, physical principles, calculation formulas, and its central role in stratospheric airship design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Static Lift | Buoyancy Principles
+  title: "Static Lift | Buoyancy Principles"
   description: A detailed analysis of static lift definitions, physical principles, calculation formulas, and its central role in stratospheric airship design
   image: /logo.png
 permalink: /en/glossary/dynamics/static-lift/

@@ -1,6 +1,6 @@
 ---
 title: Radial-Transverse-Normal Frame, RSW Frame
-description: A local orbital coordinate frame attached to the spacecraft with three axes: R (radial) along the position vector, S (transverse) perpendicular to R within the orbital plane pointing forward, and W (normal) along the angular momentum direction. In CRTBP low-thrust optimization, the RSW frame maps spherical control variables to Cartesian thrust components, with basis vectors computed in real time from the spacecraft's position and velocity relative to the central body. The frame degenerates when velocity is collinear with position, requiring a switch to Cartesian controls.
+description: "A local orbital coordinate frame attached to the spacecraft with three axes: R (radial) along the position vector, S (transverse) perpendicular to R within the orbital plane pointing forward, and W (normal) along the angular momentum direction. In CRTBP low-thrust optimization, the RSW frame maps spherical control variables to Cartesian thrust components, with basis vectors computed in real time from the spacecraft's position and velocity relative to the central body. The frame degenerates when velocity is collinear with position, requiring a switch to Cartesian controls."
 keywords: Radial-Transverse-Normal Frame, RSW Frame, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial-Transverse-Normal Frame, RSW Frame Explained | Term Definition
-  description: A local orbital coordinate frame attached to the spacecraft with three axes: R (radial) along the position vector, S (transverse) perpendicular to R within the orbital plane pointing forward, and W (normal) along the angular momentum direction. In CRTBP low-thrust optimization, the RSW frame maps spherical control variables to Cartesian thrust components, with basis vectors computed in real time from the spacecraft's position and velocity relative to the central body. The frame degenerates when velocity is collinear with position, requiring a switch to Cartesian controls.
+  title: "Radial-Transverse-Normal Frame, RSW Frame Explained | Term Definition"
+  description: "A local orbital coordinate frame attached to the spacecraft with three axes: R (radial) along the position vector, S (transverse) perpendicular to R within the orbital plane pointing forward, and W (normal) along the angular momentum direction. In CRTBP low-thrust optimization, the RSW frame maps spherical control variables to Cartesian thrust components, with basis vectors computed in real time from the spacecraft's position and velocity relative to the central body. The frame degenerates when velocity is collinear with position, requiring a switch to Cartesian controls."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial-Transverse-Normal Frame, RSW Frame Explained | Term Definition
-  description: A local orbital coordinate frame attached to the spacecraft with three axes: R (radial) along the position vector, S (transverse) perpendicular to R within the orbital plane pointing forward, and W (normal) along the angular momentum direction. In CRTBP low-thrust optimization, the RSW frame maps spherical control variables to Cartesian thrust components, with basis vectors computed in real time from the spacecraft's position and velocity relative to the central body. The frame degenerates when velocity is collinear with position, requiring a switch to Cartesian controls.
+  title: "Radial-Transverse-Normal Frame, RSW Frame Explained | Term Definition"
+  description: "A local orbital coordinate frame attached to the spacecraft with three axes: R (radial) along the position vector, S (transverse) perpendicular to R within the orbital plane pointing forward, and W (normal) along the angular momentum direction. In CRTBP low-thrust optimization, the RSW frame maps spherical control variables to Cartesian thrust components, with basis vectors computed in real time from the spacecraft's position and velocity relative to the central body. The frame degenerates when velocity is collinear with position, requiring a switch to Cartesian controls."
   image: /logo.png
 permalink: /en/glossary/dynamics/radial-transverse-normal-frame-rsw-frame/
 ---

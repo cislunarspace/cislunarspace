@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Two-Level Differential Correction Details | CR3BP to Ephemeris Conversion
+  title: "Two-Level Differential Correction Details | CR3BP to Ephemeris Conversion"
   description: Detailed analysis of the two-level differential correction method for converting CR3BP orbits to ephemeris models
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Level Differential Correction Details | CR3BP to Ephemeris Conversion
+  title: "Two-Level Differential Correction Details | CR3BP to Ephemeris Conversion"
   description: Detailed analysis of the two-level differential correction method for converting CR3BP orbits to ephemeris models
   image: /logo.png
 permalink: /en/glossary/dynamics/two-level-differential-correction/

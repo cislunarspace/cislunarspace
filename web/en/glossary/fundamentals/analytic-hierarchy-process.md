@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Analytic Hierarchy Process Explained | Term Definition
+  title: "Analytic Hierarchy Process Explained | Term Definition"
   description: A multi-criteria decision method that decomposes a complex problem into goal, criteria, and alternative layers, determines criterion weights through pairwise...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Analytic Hierarchy Process Explained | Term Definition
+  title: "Analytic Hierarchy Process Explained | Term Definition"
   description: A multi-criteria decision method that decomposes a complex problem into goal, criteria, and alternative layers, determines criterion weights through pairwise...
   image: /logo.png
 permalink: /en/glossary/fundamentals/analytic-hierarchy-process/

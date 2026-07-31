@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Finite State Machine Explained | Term Definition
+  title: "Finite State Machine Explained | Term Definition"
   description: 描述事件触发系统在有限状态间转移的数学模型，是模式管理系统的常用设计工具。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Finite State Machine Explained | Term Definition
+  title: "Finite State Machine Explained | Term Definition"
   description: 描述事件触发系统在有限状态间转移的数学模型，是模式管理系统的常用设计工具。
   image: /logo.png
 permalink: /en/glossary/dynamics/finite-state-machine/

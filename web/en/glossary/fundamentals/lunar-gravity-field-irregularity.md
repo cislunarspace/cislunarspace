@@ -1,6 +1,6 @@
 ---
 title: Lunar Gravity Field Irregularity
-description: The degree to which the Moon's gravitational field deviates from a uniform spherical distribution. Mass concentrations (mascons) and other anomalies cause strong perturbations on low-altitude orbit...
+description: "The degree to which the Moon's gravitational field deviates from a uniform spherical distribution. Mass concentrations (mascons) and other anomalies cause strong perturbations on low-altitude orbit..."
 keywords: Lunar Gravity Field Irregularity
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Gravity Field Irregularity Explained | Term Definition
-  description: The degree to which the Moon's gravitational field deviates from a uniform spherical distribution. Mass concentrations (mascons) and other anomalies cause strong perturbations on low-altitude orbit...
+  title: "Lunar Gravity Field Irregularity Explained | Term Definition"
+  description: "The degree to which the Moon's gravitational field deviates from a uniform spherical distribution. Mass concentrations (mascons) and other anomalies cause strong perturbations on low-altitude orbit..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Gravity Field Irregularity Explained | Term Definition
-  description: The degree to which the Moon's gravitational field deviates from a uniform spherical distribution. Mass concentrations (mascons) and other anomalies cause strong perturbations on low-altitude orbit...
+  title: "Lunar Gravity Field Irregularity Explained | Term Definition"
+  description: "The degree to which the Moon's gravitational field deviates from a uniform spherical distribution. Mass concentrations (mascons) and other anomalies cause strong perturbations on low-altitude orbit..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-gravity-field-irregularity/
 ---

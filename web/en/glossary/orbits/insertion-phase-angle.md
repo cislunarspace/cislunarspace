@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Insertion Phase Angle Explained | Term Definition
+  title: "Insertion Phase Angle Explained | Term Definition"
   description: "The angle from the positive direction of the y-axis to the position vector on the target DRO in the rotating coordinate system."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Insertion Phase Angle Explained | Term Definition
+  title: "Insertion Phase Angle Explained | Term Definition"
   description: "The angle from the positive direction of the y-axis to the position vector on the target DRO in the rotating coordinate system."
   image: /logo.png
 permalink: /en/glossary/orbits/insertion-phase-angle/

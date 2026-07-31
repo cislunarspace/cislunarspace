@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit-Raising Maneuver Explained | Term Definition
+  title: "Orbit-Raising Maneuver Explained | Term Definition"
   description: A strategy of repeated burns near periapsis to progressively raise apoapsis altitude. In the ARTEMIS mission, two spacecraft starting from highly elliptical ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit-Raising Maneuver Explained | Term Definition
+  title: "Orbit-Raising Maneuver Explained | Term Definition"
   description: A strategy of repeated burns near periapsis to progressively raise apoapsis altitude. In the ARTEMIS mission, two spacecraft starting from highly elliptical ...
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-raising-maneuver/

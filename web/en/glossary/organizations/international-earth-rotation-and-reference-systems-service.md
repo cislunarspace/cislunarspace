@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: International Earth Rotation and Reference Systems Service Explained | Term Definition
+  title: "International Earth Rotation and Reference Systems Service Explained | Term Definition"
   description: The international organization responsible for maintaining reference system definitions and providing Earth orientation parameters.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: International Earth Rotation and Reference Systems Service Explained | Term Definition
+  title: "International Earth Rotation and Reference Systems Service Explained | Term Definition"
   description: The international organization responsible for maintaining reference system definitions and providing Earth orientation parameters.
   image: /logo.png
 permalink: /en/glossary/organizations/international-earth-rotation-and-reference-systems-service/

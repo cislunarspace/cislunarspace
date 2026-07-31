@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Out-of-plane Thrust Angle Explained | Term Definition
+  title: "Out-of-plane Thrust Angle Explained | Term Definition"
   description: Angle representing the out-of-plane component of thrust direction relative to the orbital plane.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Out-of-plane Thrust Angle Explained | Term Definition
+  title: "Out-of-plane Thrust Angle Explained | Term Definition"
   description: Angle representing the out-of-plane component of thrust direction relative to the orbital plane.
   image: /logo.png
 permalink: /en/glossary/dynamics/out-of-plane-thrust-angle/

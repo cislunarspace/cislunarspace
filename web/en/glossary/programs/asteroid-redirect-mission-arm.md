@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Asteroid Redirect Mission, ARM Explained | Term Definition
+  title: "Asteroid Redirect Mission, ARM Explained | Term Definition"
   description: A NASA deep space mission concept that planned to capture a boulder from an asteroid and relocate it to a cislunar DRO for subsequent research and sample return. The mission demonstrated the potential...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Asteroid Redirect Mission, ARM Explained | Term Definition
+  title: "Asteroid Redirect Mission, ARM Explained | Term Definition"
   description: A NASA deep space mission concept that planned to capture a boulder from an asteroid and relocate it to a cislunar DRO for subsequent research and sample return. The mission demonstrated the potential...
   image: /logo.png
 permalink: /en/glossary/programs/asteroid-redirect-mission-arm/

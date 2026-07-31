@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perigee Geocentric Distance Explained | Term Definition
+  title: "Perigee Geocentric Distance Explained | Term Definition"
   description: "The distance from the perigee of a spacecraft orbit to the Earth's center. In DRO insertion design, the perigee geocentric distance, phase angle, and velocity impulse ratio jointly describe the shooting variables of the departure segment, determining the shape and energy of the initial orbit."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perigee Geocentric Distance Explained | Term Definition
+  title: "Perigee Geocentric Distance Explained | Term Definition"
   description: "The distance from the perigee of a spacecraft orbit to the Earth's center. In DRO insertion design, the perigee geocentric distance, phase angle, and velocity impulse ratio jointly describe the shooting variables of the departure segment, determining the shape and energy of the initial orbit."
   image: /logo.png
 permalink: /en/glossary/orbits/perigee-geocentric-distance/

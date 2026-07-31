@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Acceleration Explained | Term Definition
+  title: "Thrust Acceleration Explained | Term Definition"
   description: Acceleration magnitude produced by engine thrust, equal to thrust divided by instantaneous spacecraft mass. It is a key parameter in the equations of motion for
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Acceleration Explained | Term Definition
+  title: "Thrust Acceleration Explained | Term Definition"
   description: Acceleration magnitude produced by engine thrust, equal to thrust divided by instantaneous spacecraft mass. It is a key parameter in the equations of motion for
   image: /logo.png
 permalink: /en/glossary/dynamics/A/

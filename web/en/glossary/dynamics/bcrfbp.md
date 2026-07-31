@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bicircular Restricted Four-Body Problem Explained | Term Definition
+  title: "Bicircular Restricted Four-Body Problem Explained | Term Definition"
   description: A dynamical model approximating the Sun-Earth-Moon-spacecraft four-body system where Earth and Moon revolve in circular orbits around their barycenter, which in
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bicircular Restricted Four-Body Problem Explained | Term Definition
+  title: "Bicircular Restricted Four-Body Problem Explained | Term Definition"
   description: A dynamical model approximating the Sun-Earth-Moon-spacecraft four-body system where Earth and Moon revolve in circular orbits around their barycenter, which in
   image: /logo.png
 permalink: /en/glossary/dynamics/bcrfbp/

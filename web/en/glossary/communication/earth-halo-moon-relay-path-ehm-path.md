@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Halo-Moon Relay Path, EHM Path Explained | Term Definition
+  title: "Earth-Halo-Moon Relay Path, EHM Path Explained | Term Definition"
   description: The total signal path length from Earth through an L3 halo orbit relay satellite to the Moon. This distance directly affects the link budget and is a key constr
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Halo-Moon Relay Path, EHM Path Explained | Term Definition
+  title: "Earth-Halo-Moon Relay Path, EHM Path Explained | Term Definition"
   description: The total signal path length from Earth through an L3 halo orbit relay satellite to the Moon. This distance directly affects the link budget and is a key constr
   image: /logo.png
 permalink: /en/glossary/communication/earth-halo-moon-relay-path-ehm-path/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Six-Degree-of-Freedom, 6-DOF Explained | Term Definition
+  title: "Six-Degree-of-Freedom, 6-DOF Explained | Term Definition"
   description: A motion state descriptor that simultaneously captures position (3 translational DOFs) and attitude (3 rotational DOFs) of a spacecraft.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Six-Degree-of-Freedom, 6-DOF Explained | Term Definition
+  title: "Six-Degree-of-Freedom, 6-DOF Explained | Term Definition"
   description: A motion state descriptor that simultaneously captures position (3 translational DOFs) and attitude (3 rotational DOFs) of a spacecraft.
   image: /logo.png
 permalink: /en/glossary/fundamentals/six-degree-of-freedom-6-dof/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Primer Vector Explained | Term Definition
+  title: "Primer Vector Explained | Term Definition"
   description: The adjoint variable associated with velocity, central to primer vector theory for assessing trajectory optimality; its magnitude does not exceed 1 on an optimal trajectory.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Primer Vector Explained | Term Definition
+  title: "Primer Vector Explained | Term Definition"
   description: The adjoint variable associated with velocity, central to primer vector theory for assessing trajectory optimality; its magnitude does not exceed 1 on an optimal trajectory.
   image: /logo.png
 permalink: /en/glossary/dynamics/primer-vector/

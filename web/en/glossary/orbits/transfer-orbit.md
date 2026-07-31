@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Transfer Orbit Explained | Cislunar Space
+  title: "Transfer Orbit Explained | Cislunar Space"
   description: Detailed explanation of transfer orbit definition, design principles, energy trade-offs, and applications in cislunar transfer missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Orbit Explained | Cislunar Space
+  title: "Transfer Orbit Explained | Cislunar Space"
   description: Detailed explanation of transfer orbit definition, design principles, energy trade-offs, and applications in cislunar transfer missions
   image: /logo.png
 permalink: /en/glossary/orbits/transfer-orbit/

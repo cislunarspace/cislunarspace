@@ -1,6 +1,6 @@
 ---
 title: Indirect Optimization
-description: A trajectory optimization approach that transforms the optimal control problem into a two-point boundary value problem using Pontryagin's Minimum Principle. Unl
+description: "A trajectory optimization approach that transforms the optimal control problem into a two-point boundary value problem using Pontryagin's Minimum Principle. Unl"
 keywords: Indirect Optimization
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Optimization Explained | Term Definition
-  description: A trajectory optimization approach that transforms the optimal control problem into a two-point boundary value problem using Pontryagin's Minimum Principle. Unl
+  title: "Indirect Optimization Explained | Term Definition"
+  description: "A trajectory optimization approach that transforms the optimal control problem into a two-point boundary value problem using Pontryagin's Minimum Principle. Unl"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Optimization Explained | Term Definition
-  description: A trajectory optimization approach that transforms the optimal control problem into a two-point boundary value problem using Pontryagin's Minimum Principle. Unl
+  title: "Indirect Optimization Explained | Term Definition"
+  description: "A trajectory optimization approach that transforms the optimal control problem into a two-point boundary value problem using Pontryagin's Minimum Principle. Unl"
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-optimization/
 ---

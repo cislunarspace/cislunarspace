@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: S Parameter Explained | Term Definition
+  title: "S Parameter Explained | Term Definition"
   description: Parameter defined as S=√((R-1)/A), where R is the final orbit radius and A is the initial thrust acceleration.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: S Parameter Explained | Term Definition
+  title: "S Parameter Explained | Term Definition"
   description: Parameter defined as S=√((R-1)/A), where R is the final orbit radius and A is the initial thrust acceleration.
   image: /logo.png
 permalink: /en/glossary/dynamics/s-parameter/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point Navigation Constellation Explained | Term Definition
+  title: "Libration Point Navigation Constellation Explained | Term Definition"
   description: A navigation system deploying multiple satellites on Earth-Moon libration point orbits (e.g., Lyapunov or Vertical orbits at L3, L4, L5) and DRO, achieving a...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Navigation Constellation Explained | Term Definition
+  title: "Libration Point Navigation Constellation Explained | Term Definition"
   description: A navigation system deploying multiple satellites on Earth-Moon libration point orbits (e.g., Lyapunov or Vertical orbits at L3, L4, L5) and DRO, achieving a...
   image: /logo.png
 permalink: /en/glossary/navigation/libration-point-navigation-constellation/

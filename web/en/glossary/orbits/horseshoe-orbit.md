@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Horseshoe Orbit | Large-Scale Periodic Orbit Near Triangular Libration Points
+  title: "Horseshoe Orbit | Large-Scale Periodic Orbit Near Triangular Libration Points"
   description: Detailed explanation of horseshoe orbits — definitions, dynamical characteristics, large-scale periodic motion near L4/L5 libration points, and applications in cislunar space missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Horseshoe Orbit | Large-Scale Periodic Orbit Near Triangular Libration Points
+  title: "Horseshoe Orbit | Large-Scale Periodic Orbit Near Triangular Libration Points"
   description: Detailed explanation of horseshoe orbits — definitions, dynamical characteristics, large-scale periodic motion near L4/L5 libration points, and applications in cislunar space missions
   image: /logo.png
 permalink: /en/glossary/orbits/horseshoe-orbit/

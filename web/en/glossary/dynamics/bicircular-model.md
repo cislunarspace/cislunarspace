@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bicircular Model Explained | Term Definition
+  title: "Bicircular Model Explained | Term Definition"
   description: A four-body approximation model that considers the circular orbital motion of the Sun, Earth, and Moon simultaneously.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bicircular Model Explained | Term Definition
+  title: "Bicircular Model Explained | Term Definition"
   description: A four-body approximation model that considers the circular orbital motion of the Sun, Earth, and Moon simultaneously.
   image: /logo.png
 permalink: /en/glossary/dynamics/bicircular-model/

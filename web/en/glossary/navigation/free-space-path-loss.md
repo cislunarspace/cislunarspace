@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Free Space Path Loss (FSPL) Explained | Term Definition
+  title: "Free Space Path Loss (FSPL) Explained | Term Definition"
   description: The power衰减 of a signal propagating through free space due to geometric spreading, inversely proportional to the square of propagation distance. A core paramete
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free Space Path Loss (FSPL) Explained | Term Definition
+  title: "Free Space Path Loss (FSPL) Explained | Term Definition"
   description: The power衰减 of a signal propagating through free space due to geometric spreading, inversely proportional to the square of propagation distance. A core paramete
   image: /logo.png
 permalink: /en/glossary/navigation/free-space-path-loss/

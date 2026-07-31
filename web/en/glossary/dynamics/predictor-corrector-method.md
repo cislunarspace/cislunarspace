@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Predictor-Corrector Method Explained | Term Definition
+  title: "Predictor-Corrector Method Explained | Term Definition"
   description: An iterative algorithm that first estimates an initial guess via prediction, then refines it via differential correction.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Predictor-Corrector Method Explained | Term Definition
+  title: "Predictor-Corrector Method Explained | Term Definition"
   description: An iterative algorithm that first estimates an initial guess via prediction, then refines it via differential correction.
   image: /logo.png
 permalink: /en/glossary/dynamics/predictor-corrector-method/

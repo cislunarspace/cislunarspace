@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Extended Kalman Filter, EKF Explained | Term Definition
+  title: "Extended Kalman Filter, EKF Explained | Term Definition"
   description: A state estimation method that extends Kalman filtering to nonlinear systems by linearizing nonlinear functions via first-order Taylor expansion, propagating...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Extended Kalman Filter, EKF Explained | Term Definition
+  title: "Extended Kalman Filter, EKF Explained | Term Definition"
   description: A state estimation method that extends Kalman filtering to nonlinear systems by linearizing nonlinear functions via first-order Taylor expansion, propagating...
   image: /logo.png
 permalink: /en/glossary/dynamics/EKF/

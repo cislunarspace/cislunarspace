@@ -1,6 +1,6 @@
 ---
 title: Earth oblateness correction
-description: A correction applied to orbital calculations accounting for Earth's non-spherical gravitational effect, primarily from the J2 oblateness term. The paper introdu
+description: "A correction applied to orbital calculations accounting for Earth's non-spherical gravitational effect, primarily from the J2 oblateness term. The paper introdu"
 keywords: Earth oblateness correction, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth oblateness correction Explained | Term Definition
-  description: A correction applied to orbital calculations accounting for Earth's non-spherical gravitational effect, primarily from the J2 oblateness term. The paper introdu
+  title: "Earth oblateness correction Explained | Term Definition"
+  description: "A correction applied to orbital calculations accounting for Earth's non-spherical gravitational effect, primarily from the J2 oblateness term. The paper introdu"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth oblateness correction Explained | Term Definition
-  description: A correction applied to orbital calculations accounting for Earth's non-spherical gravitational effect, primarily from the J2 oblateness term. The paper introdu
+  title: "Earth oblateness correction Explained | Term Definition"
+  description: "A correction applied to orbital calculations accounting for Earth's non-spherical gravitational effect, primarily from the J2 oblateness term. The paper introdu"
   image: /logo.png
 permalink: /en/glossary/dynamics/earth-oblateness-correction/
 ---

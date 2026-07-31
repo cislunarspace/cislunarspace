@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Halo Orbit Explained | Cislunar Space
+  title: "Halo Orbit Explained | Cislunar Space"
   description: Detailed explanation of Halo orbit definition, dynamic characteristics, three-dimensional periodic motion around libration points, and applications in cislunar missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Explained | Cislunar Space
+  title: "Halo Orbit Explained | Cislunar Space"
   description: Detailed explanation of Halo orbit definition, dynamic characteristics, three-dimensional periodic motion around libration points, and applications in cislunar missions
   image: /logo.png
 permalink: /en/glossary/orbits/halo-orbit/

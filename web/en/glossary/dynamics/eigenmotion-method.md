@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eigenmotion Method Explained | Term Definition
+  title: "Eigenmotion Method Explained | Term Definition"
   description: A station-keeping strategy based on the eigenspectrum of the linearized dynamics near libration point orbits. By decomposing motion into unstable, stable, and center modes, the method selectively damp
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eigenmotion Method Explained | Term Definition
+  title: "Eigenmotion Method Explained | Term Definition"
   description: A station-keeping strategy based on the eigenspectrum of the linearized dynamics near libration point orbits. By decomposing motion into unstable, stable, and center modes, the method selectively damp
   image: /logo.png
 permalink: /en/glossary/dynamics/eigenmotion-method/

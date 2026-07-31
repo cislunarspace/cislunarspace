@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Rendezvous Method, PRM Explained | Term Definition
+  title: "Perilune Rendezvous Method, PRM Explained | Term Definition"
   description: A transfer method from Earth to NRHO. After TLI and a powered lunar swing-by deceleration, the spacecraft enters a long elliptical lunar orbit. When the orbital plane coincides with the target NRHO, a small velocity increment at perilune achieves NRHO insertion. Compared to the Lunar Fly-by Method, PRM directs most delta-V along the velocity vector, yielding higher propulsive efficiency suited for cargo missions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Rendezvous Method, PRM Explained | Term Definition
+  title: "Perilune Rendezvous Method, PRM Explained | Term Definition"
   description: A transfer method from Earth to NRHO. After TLI and a powered lunar swing-by deceleration, the spacecraft enters a long elliptical lunar orbit. When the orbital plane coincides with the target NRHO, a small velocity increment at perilune achieves NRHO insertion. Compared to the Lunar Fly-by Method, PRM directs most delta-V along the velocity vector, yielding higher propulsive efficiency suited for cargo missions.
   image: /logo.png
 permalink: /en/glossary/dynamics/perilune-rendezvous-method-prm/

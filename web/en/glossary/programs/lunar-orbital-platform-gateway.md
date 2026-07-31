@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Orbital Platform-Gateway (LOP-G) Explained | Term Definition
+  title: "Lunar Orbital Platform-Gateway (LOP-G) Explained | Term Definition"
   description: A space station planned by NASA and international partners in a 9:2 resonant NRHO around the Earth-Moon L2 point. With a ~7-day period and ~70,000km maximum distance from the Moon, it serves as a l...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Orbital Platform-Gateway (LOP-G) Explained | Term Definition
+  title: "Lunar Orbital Platform-Gateway (LOP-G) Explained | Term Definition"
   description: A space station planned by NASA and international partners in a 9:2 resonant NRHO around the Earth-Moon L2 point. With a ~7-day period and ~70,000km maximum distance from the Moon, it serves as a l...
   image: /logo.png
 permalink: /en/glossary/programs/lunar-orbital-platform-gateway/

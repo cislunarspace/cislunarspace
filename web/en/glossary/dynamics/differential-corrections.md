@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Corrections Explained | Term Definition
+  title: "Differential Corrections Explained | Term Definition"
   description: Iterative algorithm mapping terminal constraint residuals to initial velocity corrections via state transition matrix, used to enforce trajectory continuity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Corrections Explained | Term Definition
+  title: "Differential Corrections Explained | Term Definition"
   description: Iterative algorithm mapping terminal constraint residuals to initial velocity corrections via state transition matrix, used to enforce trajectory continuity.
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-corrections/

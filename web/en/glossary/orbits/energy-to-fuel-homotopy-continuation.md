@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Energy-to-Fuel Homotopy Continuation Explained | Term Definition
+  title: "Energy-to-Fuel Homotopy Continuation Explained | Term Definition"
   description: A numerical strategy for solving low-thrust fuel-optimal problems. It first solves the easier minimum-energy problem (ε=1), then gradually decreases the homo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Energy-to-Fuel Homotopy Continuation Explained | Term Definition
+  title: "Energy-to-Fuel Homotopy Continuation Explained | Term Definition"
   description: A numerical strategy for solving low-thrust fuel-optimal problems. It first solves the easier minimum-energy problem (ε=1), then gradually decreases the homo...
   image: /logo.png
 permalink: /en/glossary/orbits/energy-to-fuel-homotopy-continuation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Algebra Method Explained | Term Definition
+  title: "Differential Algebra Method Explained | Term Definition"
   description: A method that uses differential algebra tools to obtain higher-order state transition tensors for solving perturbed Lambert problems, offering high local...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Algebra Method Explained | Term Definition
+  title: "Differential Algebra Method Explained | Term Definition"
   description: A method that uses differential algebra tools to obtain higher-order state transition tensors for solving perturbed Lambert problems, offering high local...
   image: /logo.png
 permalink: /en/glossary/dynamics/DA方法/

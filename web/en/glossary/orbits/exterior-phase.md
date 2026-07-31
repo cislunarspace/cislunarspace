@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exterior Phase Explained | Term Definition
+  title: "Exterior Phase Explained | Term Definition"
   description: The phase of a low-energy transfer trajectory where the spacecraft exits the gravitational dominance region of the Earth-Moon system. During the exterior phase,
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exterior Phase Explained | Term Definition
+  title: "Exterior Phase Explained | Term Definition"
   description: The phase of a low-energy transfer trajectory where the spacecraft exits the gravitational dominance region of the Earth-Moon system. During the exterior phase,
   image: /logo.png
 permalink: /en/glossary/orbits/exterior-phase/

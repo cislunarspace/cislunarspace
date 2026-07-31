@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: KAM Theorem Explained | Term Definition
+  title: "KAM Theorem Explained | Term Definition"
   description: The Kolmogorov-Arnold-Moser theorem, stating that non-resonant invariant tori persist under sufficiently small perturbations in nearly integrable Hamiltonian systems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: KAM Theorem Explained | Term Definition
+  title: "KAM Theorem Explained | Term Definition"
   description: The Kolmogorov-Arnold-Moser theorem, stating that non-resonant invariant tori persist under sufficiently small perturbations in nearly integrable Hamiltonian systems.
   image: /logo.png
 permalink: /en/glossary/dynamics/kam-theorem/

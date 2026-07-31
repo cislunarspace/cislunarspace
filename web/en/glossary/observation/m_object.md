@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Apparent Magnitude Explained | Term Definition
+  title: "Apparent Magnitude Explained | Term Definition"
   description: A logarithmic measure of the brightness of a celestial body as seen by an observer. Using the Sun as reference, the apparent magnitude of a space object depends
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Apparent Magnitude Explained | Term Definition
+  title: "Apparent Magnitude Explained | Term Definition"
   description: A logarithmic measure of the brightness of a celestial body as seen by an observer. Using the Sun as reference, the apparent magnitude of a space object depends
   image: /logo.png
 permalink: /en/glossary/observation/m_object/

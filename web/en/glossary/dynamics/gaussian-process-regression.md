@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Gaussian Process Regression | Bayesian ML
+  title: "Gaussian Process Regression | Bayesian ML"
   description: A detailed analysis of Gaussian process regression principles, kernel function selection, hyperparameter optimization, and applications in wind prediction and uncertainty quantification
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gaussian Process Regression | Bayesian ML
+  title: "Gaussian Process Regression | Bayesian ML"
   description: A detailed analysis of Gaussian process regression principles, kernel function selection, hyperparameter optimization, and applications in wind prediction and uncertainty quantification
   image: /logo.png
 permalink: /en/glossary/dynamics/gaussian-process-regression/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flight-Path Angle Explained | Term Definition
+  title: "Flight-Path Angle Explained | Term Definition"
   description: The angle between the local velocity direction and the local horizontal plane. The flight-path angle determines the distribution of thrust between radial and tr
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flight-Path Angle Explained | Term Definition
+  title: "Flight-Path Angle Explained | Term Definition"
   description: The angle between the local velocity direction and the local horizontal plane. The flight-path angle determines the distribution of thrust between radial and tr
   image: /logo.png
 permalink: /en/glossary/dynamics/flight-path-angle/

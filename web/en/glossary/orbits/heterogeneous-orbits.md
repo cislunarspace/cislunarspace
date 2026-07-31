@@ -1,6 +1,6 @@
 ---
 title: Heterogeneous Orbits
-description: Satellite orbit configuration with different orbit types (e.g., circular and Halo orbits), where satellites complement each other's coverage to fill gaps of...
+description: "Satellite orbit configuration with different orbit types (e.g., circular and Halo orbits), where satellites complement each other's coverage to fill gaps of..."
 keywords: Heterogeneous Orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heterogeneous Orbits Explained | Term Definition
-  description: Satellite orbit configuration with different orbit types (e.g., circular and Halo orbits), where satellites complement each other's coverage to fill gaps of...
+  title: "Heterogeneous Orbits Explained | Term Definition"
+  description: "Satellite orbit configuration with different orbit types (e.g., circular and Halo orbits), where satellites complement each other's coverage to fill gaps of..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heterogeneous Orbits Explained | Term Definition
-  description: Satellite orbit configuration with different orbit types (e.g., circular and Halo orbits), where satellites complement each other's coverage to fill gaps of...
+  title: "Heterogeneous Orbits Explained | Term Definition"
+  description: "Satellite orbit configuration with different orbit types (e.g., circular and Halo orbits), where satellites complement each other's coverage to fill gaps of..."
   image: /logo.png
 permalink: /en/glossary/orbits/heterogeneous-orbits/
 ---

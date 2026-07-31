@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: East-West Control Explained | Term Definition
+  title: "East-West Control Explained | Term Definition"
   description: "A longitudinal station-keeping strategy that applies small thrust in the orbit-cross-track direction to correct the semi-major axis, thereby controlling the spacecraft's drift in longitude relative to."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: East-West Control Explained | Term Definition
+  title: "East-West Control Explained | Term Definition"
   description: "A longitudinal station-keeping strategy that applies small thrust in the orbit-cross-track direction to correct the semi-major axis, thereby controlling the spacecraft's drift in longitude relative to."
   image: /logo.png
 permalink: /en/glossary/orbits/east-west-control/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Lunar Gravity Assist (LGA) Explained | Cislunar Space
+  title: "Lunar Gravity Assist (LGA) Explained | Cislunar Space"
   description: Detailed explanation of lunar gravity assist definition, mechanics principles, and its key role in low-energy cislunar transfers
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Gravity Assist (LGA) Explained | Cislunar Space
+  title: "Lunar Gravity Assist (LGA) Explained | Cislunar Space"
   description: Detailed explanation of lunar gravity assist definition, mechanics principles, and its key role in low-energy cislunar transfers
   image: /logo.png
 permalink: /en/glossary/other/lunar-gravity-assist/

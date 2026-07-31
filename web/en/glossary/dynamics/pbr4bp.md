@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Bicircular Restricted Four-Body Problem Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Problem Explained | Term Definition"
   description: The planar form of the BR4BP, neglecting motion out of the orbital plane.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Bicircular Restricted Four-Body Problem Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Problem Explained | Term Definition"
   description: The planar form of the BR4BP, neglecting motion out of the orbital plane.
   image: /logo.png
 permalink: /en/glossary/dynamics/pbr4bp/

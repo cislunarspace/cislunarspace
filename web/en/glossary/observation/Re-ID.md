@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Person Re-Identification Explained | Term Definition
+  title: "Person Re-Identification Explained | Term Definition"
   description: A technique for recognizing the same person across different camera views or time points by extracting and comparing appearance feature vectors. DeepSORT incorp
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Person Re-Identification Explained | Term Definition
+  title: "Person Re-Identification Explained | Term Definition"
   description: A technique for recognizing the same person across different camera views or time points by extracting and comparing appearance feature vectors. DeepSORT incorp
   image: /logo.png
 permalink: /en/glossary/observation/Re-ID/

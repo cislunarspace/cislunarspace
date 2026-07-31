@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hardware-in-the-Loop Simulation Explained | Term Definition
+  title: "Hardware-in-the-Loop Simulation Explained | Term Definition"
   description: Testing method combining actual hardware with simulation environment to validate navigation algorithm performance and suitability on real flight processors.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hardware-in-the-Loop Simulation Explained | Term Definition
+  title: "Hardware-in-the-Loop Simulation Explained | Term Definition"
   description: Testing method combining actual hardware with simulation environment to validate navigation algorithm performance and suitability on real flight processors.
   image: /logo.png
 permalink: /en/glossary/navigation/hardware-in-the-loop-simulation/

@@ -1,6 +1,6 @@
 ---
 title: On-Board Software
-description: Software running on the spacecraft's on-board computer, executing GNC algorithms, function management, and interface interactions with platform subsystems.
+description: "Software running on the spacecraft's on-board computer, executing GNC algorithms, function management, and interface interactions with platform subsystems."
 keywords: On-Board Software, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: On-Board Software Explained | Term Definition
-  description: Software running on the spacecraft's on-board computer, executing GNC algorithms, function management, and interface interactions with platform subsystems.
+  title: "On-Board Software Explained | Term Definition"
+  description: "Software running on the spacecraft's on-board computer, executing GNC algorithms, function management, and interface interactions with platform subsystems."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: On-Board Software Explained | Term Definition
-  description: Software running on the spacecraft's on-board computer, executing GNC algorithms, function management, and interface interactions with platform subsystems.
+  title: "On-Board Software Explained | Term Definition"
+  description: "Software running on the spacecraft's on-board computer, executing GNC algorithms, function management, and interface interactions with platform subsystems."
   image: /logo.png
 permalink: /en/glossary/fundamentals/on-board-software/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Lunar Soft Landing Trajectory
-description: The flight trajectory descending from lunar orbit to the lunar surface, requiring velocity reduction to near zero for a damage-free landing. The referenced study in the paper's appendix parameterizes ...
+description: "The flight trajectory descending from lunar orbit to the lunar surface, requiring velocity reduction to near zero for a damage-free landing. The referenced study in the paper's appendix parameterizes ..."
 keywords: Lunar Soft Landing Trajectory
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Soft Landing Trajectory Explained | Term Definition
-  description: The flight trajectory descending from lunar orbit to the lunar surface, requiring velocity reduction to near zero for a damage-free landing. The referenced study in the paper's appendix parameterizes ...
+  title: "Lunar Soft Landing Trajectory Explained | Term Definition"
+  description: "The flight trajectory descending from lunar orbit to the lunar surface, requiring velocity reduction to near zero for a damage-free landing. The referenced study in the paper's appendix parameterizes ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Soft Landing Trajectory Explained | Term Definition
-  description: The flight trajectory descending from lunar orbit to the lunar surface, requiring velocity reduction to near zero for a damage-free landing. The referenced study in the paper's appendix parameterizes ...
+  title: "Lunar Soft Landing Trajectory Explained | Term Definition"
+  description: "The flight trajectory descending from lunar orbit to the lunar surface, requiring velocity reduction to near zero for a damage-free landing. The referenced study in the paper's appendix parameterizes ..."
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-soft-landing-trajectory/
 ---

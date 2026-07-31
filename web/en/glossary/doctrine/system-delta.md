@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: System Delta (SYD) Explained | Capability Development for Operational Needs
+  title: "System Delta (SYD) Explained | Capability Development for Operational Needs"
   description: Detailed explanation of the U.S. Space Force System Delta (SYD) definition, capability development functions, synergy with Mission Deltas, and role in space acquisition
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: System Delta (SYD) Explained | Capability Development for Operational Needs
+  title: "System Delta (SYD) Explained | Capability Development for Operational Needs"
   description: Detailed explanation of the U.S. Space Force System Delta (SYD) definition, capability development functions, synergy with Mission Deltas, and role in space acquisition
   image: /logo.png
 permalink: /en/glossary/doctrine/system-delta/

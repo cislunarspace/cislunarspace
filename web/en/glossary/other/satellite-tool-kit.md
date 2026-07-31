@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Satellite Tool Kit Explained | Term Definition
+  title: "Satellite Tool Kit Explained | Term Definition"
   description: A commercial space mission analysis software developed by Analytical Graphics, Inc. It provides a graphical environment for trajectory design and mission suppor
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Satellite Tool Kit Explained | Term Definition
+  title: "Satellite Tool Kit Explained | Term Definition"
   description: A commercial space mission analysis software developed by Analytical Graphics, Inc. It provides a graphical environment for trajectory design and mission suppor
   image: /logo.png
 permalink: /en/glossary/other/satellite-tool-kit/

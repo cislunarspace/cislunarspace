@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Resonant Periodic Orbit Explained | Term Definition
+  title: "Synodic Resonant Periodic Orbit Explained | Term Definition"
   description: Periodic orbits whose periods are integer multiples of the synodic period of the Earth-Moon-Sun system. Such orbits provide favorable geometric coverage and lig
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Resonant Periodic Orbit Explained | Term Definition
+  title: "Synodic Resonant Periodic Orbit Explained | Term Definition"
   description: Periodic orbits whose periods are integer multiples of the synodic period of the Earth-Moon-Sun system. Such orbits provide favorable geometric coverage and lig
   image: /logo.png
 permalink: /en/glossary/orbits/synodic-resonant-periodic-orbit/

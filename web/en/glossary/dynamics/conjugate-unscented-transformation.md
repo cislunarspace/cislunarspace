@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conjugate Unscented Transformation, CUT Explained | Term Definition
+  title: "Conjugate Unscented Transformation, CUT Explained | Term Definition"
   description: 一种非乘积型求积方法，通过在多维空间中的特殊轴上选择对称点来构造高阶求积规则，用最少数量的全模型传播计算高维期望积分。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conjugate Unscented Transformation, CUT Explained | Term Definition
+  title: "Conjugate Unscented Transformation, CUT Explained | Term Definition"
   description: 一种非乘积型求积方法，通过在多维空间中的特殊轴上选择对称点来构造高阶求积规则，用最少数量的全模型传播计算高维期望积分。
   image: /logo.png
 permalink: /en/glossary/dynamics/conjugate-unscented-transformation/

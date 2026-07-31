@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dissipative System Explained | Term Definition
+  title: "Dissipative System Explained | Term Definition"
   description: A dynamical system whose phase space volume contracts or expands with time. If the trace of the Jacobian is negative, volume contracts and the system tends t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dissipative System Explained | Term Definition
+  title: "Dissipative System Explained | Term Definition"
   description: A dynamical system whose phase space volume contracts or expands with time. If the trace of the Jacobian is negative, volume contracts and the system tends t...
   image: /logo.png
 permalink: /en/glossary/dynamics/dissipative-system/

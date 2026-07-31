@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Bicircular Four-Body Problem Details | Multi-Body Dynamics
+  title: "Bicircular Four-Body Problem Details | Multi-Body Dynamics"
   description: A four-body dynamical model accounting for solar gravitational influence by combining two independent CR3BP systems for the Earth-Moon and Sun-Earth-Moon barycenter.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bicircular Four-Body Problem Details | Multi-Body Dynamics
+  title: "Bicircular Four-Body Problem Details | Multi-Body Dynamics"
   description: A four-body dynamical model accounting for solar gravitational influence by combining two independent CR3BP systems for the Earth-Moon and Sun-Earth-Moon barycenter.
   image: /logo.png
 permalink: /en/glossary/dynamics/bicircular-four-body/

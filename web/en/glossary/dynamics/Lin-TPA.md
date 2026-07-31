@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear TPA Explained | Term Definition
+  title: "Linear TPA Explained | Term Definition"
   description: Target Point Approach computing corrective maneuvers via linear STM approximation, insufficiently accurate for large initial deviations.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear TPA Explained | Term Definition
+  title: "Linear TPA Explained | Term Definition"
   description: Target Point Approach computing corrective maneuvers via linear STM approximation, insufficiently accurate for large initial deviations.
   image: /logo.png
 permalink: /en/glossary/dynamics/Lin-TPA/

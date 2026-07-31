@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Numerical Continuation Explained | Term Definition
+  title: "Numerical Continuation Explained | Term Definition"
   description: A numerical method that traces a curve of solutions by incrementally varying a system parameter. In trajectory design, starting from one known solution, pred...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Numerical Continuation Explained | Term Definition
+  title: "Numerical Continuation Explained | Term Definition"
   description: A numerical method that traces a curve of solutions by incrementally varying a system parameter. In trajectory design, starting from one known solution, pred...
   image: /logo.png
 permalink: /en/glossary/fundamentals/numerical-continuation/

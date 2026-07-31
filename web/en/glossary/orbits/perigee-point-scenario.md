@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perigee-Point Scenario Explained | Term Definition
+  title: "Perigee-Point Scenario Explained | Term Definition"
   description: A baseline transfer configuration method for halo orbits that requires the manifold insertion maneuver to be performed at the perigee of the manifold segment...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perigee-Point Scenario Explained | Term Definition
+  title: "Perigee-Point Scenario Explained | Term Definition"
   description: A baseline transfer configuration method for halo orbits that requires the manifold insertion maneuver to be performed at the perigee of the manifold segment...
   image: /logo.png
 permalink: /en/glossary/orbits/perigee-point-scenario/

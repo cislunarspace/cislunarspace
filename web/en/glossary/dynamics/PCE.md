@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Polynomial Chaos Expansion Explained | Term Definition
+  title: "Polynomial Chaos Expansion Explained | Term Definition"
   description: An expansion that transforms nonlinear uncertainty mapping into a sum of orthogonal polynomials multiplied by coefficients, serving as a surrogate model...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Polynomial Chaos Expansion Explained | Term Definition
+  title: "Polynomial Chaos Expansion Explained | Term Definition"
   description: An expansion that transforms nonlinear uncertainty mapping into a sum of orthogonal polynomials multiplied by coefficients, serving as a surrogate model...
   image: /logo.png
 permalink: /en/glossary/dynamics/PCE/

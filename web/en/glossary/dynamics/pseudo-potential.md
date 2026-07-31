@@ -1,6 +1,6 @@
 ---
 title: Pseudo-potential
-description: The potential function in BCR4BP describing the gravitational and centrifugal forces on the third body, including the Sun's gravitational perturbation term.
+description: "The potential function in BCR4BP describing the gravitational and centrifugal forces on the third body, including the Sun's gravitational perturbation term."
 keywords: Pseudo-potential
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudo-potential Explained | Term Definition
-  description: The potential function in BCR4BP describing the gravitational and centrifugal forces on the third body, including the Sun's gravitational perturbation term.
+  title: "Pseudo-potential Explained | Term Definition"
+  description: "The potential function in BCR4BP describing the gravitational and centrifugal forces on the third body, including the Sun's gravitational perturbation term."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudo-potential Explained | Term Definition
-  description: The potential function in BCR4BP describing the gravitational and centrifugal forces on the third body, including the Sun's gravitational perturbation term.
+  title: "Pseudo-potential Explained | Term Definition"
+  description: "The potential function in BCR4BP describing the gravitational and centrifugal forces on the third body, including the Sun's gravitational perturbation term."
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudo-potential/
 ---

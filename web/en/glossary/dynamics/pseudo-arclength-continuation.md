@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Pseudo-Arclength Continuation Explained | Orbit Family Tracking Method
+  title: "Pseudo-Arclength Continuation Explained | Orbit Family Tracking Method"
   description: A detailed analysis of the pseudo-arclength continuation method, its differences from ordinary continuation, and applications in large-scale orbit family tracking
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudo-Arclength Continuation Explained | Orbit Family Tracking Method
+  title: "Pseudo-Arclength Continuation Explained | Orbit Family Tracking Method"
   description: A detailed analysis of the pseudo-arclength continuation method, its differences from ordinary continuation, and applications in large-scale orbit family tracking
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudo-arclength-continuation/

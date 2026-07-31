@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Out-of-Plane Difference Explained | Term Definition
+  title: "Out-of-Plane Difference Explained | Term Definition"
   description: The angle between two orbital planes. In three-impulse maneuver orbits, it refers to the angle between the ellipse transition orbit (ETO) and the target luna...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Out-of-Plane Difference Explained | Term Definition
+  title: "Out-of-Plane Difference Explained | Term Definition"
   description: The angle between two orbital planes. In three-impulse maneuver orbits, it refers to the angle between the ellipse transition orbit (ETO) and the target luna...
   image: /logo.png
 permalink: /en/glossary/fundamentals/out-of-plane-difference/

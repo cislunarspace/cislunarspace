@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exosystem Explained | Term Definition
+  title: "Exosystem Explained | Term Definition"
   description: In nonlinear regulation theory, an autonomous dynamical system describing the source of external signals (reference trajectories and disturbances). In Earth-Moo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exosystem Explained | Term Definition
+  title: "Exosystem Explained | Term Definition"
   description: In nonlinear regulation theory, an autonomous dynamical system describing the source of external signals (reference trajectories and disturbances). In Earth-Moo
   image: /logo.png
 permalink: /en/glossary/dynamics/exosystem/

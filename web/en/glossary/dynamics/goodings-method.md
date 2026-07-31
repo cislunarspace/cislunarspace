@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Gooding's Method" Explained | Term Definition
+  title: "\"Gooding's Method\" Explained | Term Definition"
   description: "The efficient and robust Lambert algorithm by Gooding (1990), one of the most widely used Lambert solvers, used as benchmark in this paper."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Gooding's Method" Explained | Term Definition
+  title: "\"Gooding's Method\" Explained | Term Definition"
   description: "The efficient and robust Lambert algorithm by Gooding (1990), one of the most widely used Lambert solvers, used as benchmark in this paper."
   image: /logo.png
 permalink: /en/glossary/dynamics/goodings-method/

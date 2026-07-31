@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direction Cosine Matrix Explained | Term Definition
+  title: "Direction Cosine Matrix Explained | Term Definition"
   description: In GNSS positioning, a matrix formed by unit direction vectors from the lunar surface user to each navigation satellite, used in least-squares solution for user
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direction Cosine Matrix Explained | Term Definition
+  title: "Direction Cosine Matrix Explained | Term Definition"
   description: In GNSS positioning, a matrix formed by unit direction vectors from the lunar surface user to each navigation satellite, used in least-squares solution for user
   image: /logo.png
 permalink: /en/glossary/navigation/DCM/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Axial Resonant Orbit, ARO Explained | Term Definition
+  title: "Axial Resonant Orbit, ARO Explained | Term Definition"
   description: A type of three-dimensional resonant orbit symmetric about the x-axis, analogous to axial orbits in libration point orbits, generated from planar resonant or...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Axial Resonant Orbit, ARO Explained | Term Definition
+  title: "Axial Resonant Orbit, ARO Explained | Term Definition"
   description: A type of three-dimensional resonant orbit symmetric about the x-axis, analogous to axial orbits in libration point orbits, generated from planar resonant or...
   image: /logo.png
 permalink: /en/glossary/orbits/axial-resonant-orbit-aro/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gaussian Mixture Model, GMM Explained | Term Definition
+  title: "Gaussian Mixture Model, GMM Explained | Term Definition"
   description: 用多个高斯分布的加权叠加来描述数据的概率密度模型。在地月空间目标轨道确定中，用于表示轨道状态的多峰概率分布，能在测量信息缺失时维持目标的持续跟踪。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gaussian Mixture Model, GMM Explained | Term Definition
+  title: "Gaussian Mixture Model, GMM Explained | Term Definition"
   description: 用多个高斯分布的加权叠加来描述数据的概率密度模型。在地月空间目标轨道确定中，用于表示轨道状态的多峰概率分布，能在测量信息缺失时维持目标的持续跟踪。
   image: /logo.png
 permalink: /en/glossary/fundamentals/gaussian-mixture-model/

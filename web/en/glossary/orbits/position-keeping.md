@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Position-Keeping Explained | Term Definition
+  title: "Position-Keeping Explained | Term Definition"
   description: An orbital control strategy to maintain a spacecraft near a target position. The paper adapts GEO satellite positioning techniques, combining east-west control 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Position-Keeping Explained | Term Definition
+  title: "Position-Keeping Explained | Term Definition"
   description: An orbital control strategy to maintain a spacecraft near a target position. The paper adapts GEO satellite positioning techniques, combining east-west control 
   image: /logo.png
 permalink: /en/glossary/orbits/position-keeping/

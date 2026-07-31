@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Microwave Link Details | Fundamental Satellite Communication Technology
+  title: "Microwave Link Details | Fundamental Satellite Communication Technology"
   description: Radio link technology using microwave frequency bands for inter-satellite communication
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Microwave Link Details | Fundamental Satellite Communication Technology
+  title: "Microwave Link Details | Fundamental Satellite Communication Technology"
   description: Radio link technology using microwave frequency bands for inter-satellite communication
   image: /logo.png
 permalink: /en/glossary/communication/microwave-link/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Korean Pathfinder Lunar Orbiter, KPLO Explained | Term Definition
+  title: "Korean Pathfinder Lunar Orbiter, KPLO Explained | Term Definition"
   description: "Lunar orbiter developed by Korea Aerospace Research Institute that utilizes NASA's Deep Space Network facilities for communications."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Korean Pathfinder Lunar Orbiter, KPLO Explained | Term Definition
+  title: "Korean Pathfinder Lunar Orbiter, KPLO Explained | Term Definition"
   description: "Lunar orbiter developed by Korea Aerospace Research Institute that utilizes NASA's Deep Space Network facilities for communications."
   image: /logo.png
 permalink: /en/glossary/programs/KPLO/

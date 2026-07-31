@@ -1,6 +1,6 @@
 ---
 title: Jacobi Constant-Velocity Increment Relationship
-description: The analytical relationship between the Jacobi constant C and velocity increment: delta_C = -2v*delta_v. This relationship yields three insights: first, the Jacobi constant and velocity increment have...
+description: "The analytical relationship between the Jacobi constant C and velocity increment: delta_C = -2v*delta_v. This relationship yields three insights: first, the Jacobi constant and velocity increment have..."
 keywords: Jacobi Constant-Velocity Increment Relationship, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Constant-Velocity Increment Relationship Explained | Term Definition
-  description: The analytical relationship between the Jacobi constant C and velocity increment: delta_C = -2v*delta_v. This relationship yields three insights: first, the Jacobi constant and velocity increment have...
+  title: "Jacobi Constant-Velocity Increment Relationship Explained | Term Definition"
+  description: "The analytical relationship between the Jacobi constant C and velocity increment: delta_C = -2v*delta_v. This relationship yields three insights: first, the Jacobi constant and velocity increment have..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Constant-Velocity Increment Relationship Explained | Term Definition
-  description: The analytical relationship between the Jacobi constant C and velocity increment: delta_C = -2v*delta_v. This relationship yields three insights: first, the Jacobi constant and velocity increment have...
+  title: "Jacobi Constant-Velocity Increment Relationship Explained | Term Definition"
+  description: "The analytical relationship between the Jacobi constant C and velocity increment: delta_C = -2v*delta_v. This relationship yields three insights: first, the Jacobi constant and velocity increment have..."
   image: /logo.png
 permalink: /en/glossary/dynamics/jacobi-constant-velocity-increment-relationship/
 ---

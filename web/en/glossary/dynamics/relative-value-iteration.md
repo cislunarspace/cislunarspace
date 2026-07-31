@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative Value Iteration Explained | Term Definition
+  title: "Relative Value Iteration Explained | Term Definition"
   description: Iterative algorithm for solving the optimal policy of truncated MDP problems, converging through continuous value function updates.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative Value Iteration Explained | Term Definition
+  title: "Relative Value Iteration Explained | Term Definition"
   description: Iterative algorithm for solving the optimal policy of truncated MDP problems, converging through continuous value function updates.
   image: /logo.png
 permalink: /en/glossary/dynamics/relative-value-iteration/

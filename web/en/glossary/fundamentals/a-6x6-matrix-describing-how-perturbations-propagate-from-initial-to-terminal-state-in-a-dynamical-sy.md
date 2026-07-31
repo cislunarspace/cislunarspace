@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: A 6x6 Matrix Describing How Perturbations Propagate from Initial to Terminal State in a Dynamical System | Term Definition
+  title: "A 6x6 Matrix Describing How Perturbations Propagate from Initial to Terminal State in a Dynamical System | Term Definition"
   description: A 6x6 matrix describing how perturbations propagate from initial to terminal state in a dynamical system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: A 6x6 Matrix Describing How Perturbations Propagate from Initial to Terminal State in a Dynamical System | Term Definition
+  title: "A 6x6 Matrix Describing How Perturbations Propagate from Initial to Terminal State in a Dynamical System | Term Definition"
   description: A 6x6 matrix describing how perturbations propagate from initial to terminal state in a dynamical system.
   image: /logo.png
 permalink: /en/glossary/fundamentals/a-6x6-matrix-describing-how-perturbations-propagate-from-initial-to-terminal-state-in-a-dynamical-sy/

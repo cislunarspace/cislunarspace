@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Propellant Infrastructure, PI (PI) Explained | Term Definition
+  title: "Propellant Infrastructure, PI (PI) Explained | Term Definition"
   description: A fuel storage facility in a long elliptical Earth orbit providing on-orbit refueling for reusable orbital transfer vehicles. With apogee ~230,000 km and...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Propellant Infrastructure, PI (PI) Explained | Term Definition
+  title: "Propellant Infrastructure, PI (PI) Explained | Term Definition"
   description: A fuel storage facility in a long elliptical Earth orbit providing on-orbit refueling for reusable orbital transfer vehicles. With apogee ~230,000 km and...
   image: /logo.png
 permalink: /en/glossary/programs/propellant-infrastructure-pi/

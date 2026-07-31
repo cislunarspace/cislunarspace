@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Singular Arc Explained | Term Definition
+  title: "Singular Arc Explained | Term Definition"
   description: A segment of the extremal flow where the switching function vanishes identically. In this case the control does not take boundary values but is given by the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Singular Arc Explained | Term Definition
+  title: "Singular Arc Explained | Term Definition"
   description: A segment of the extremal flow where the switching function vanishes identically. In this case the control does not take boundary values but is given by the...
   image: /logo.png
 permalink: /en/glossary/dynamics/singular-arc/

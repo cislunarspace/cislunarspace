@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Correction Principle Explained | Term Definition
+  title: "Differential Correction Principle Explained | Term Definition"
   description: An iterative orbit design method that corrects initial states using the state transition matrix (Jacobian matrix) based on the deviation between terminal and...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Correction Principle Explained | Term Definition
+  title: "Differential Correction Principle Explained | Term Definition"
   description: An iterative orbit design method that corrects initial states using the state transition matrix (Jacobian matrix) based on the deviation between terminal and...
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-correction-principle/

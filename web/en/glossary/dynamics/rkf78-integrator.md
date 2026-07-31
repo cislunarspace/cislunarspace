@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: RKF7(8) Integrator (RKF7(8)) Explained | Term Definition
+  title: "RKF7(8) Integrator (RKF7(8)) Explained | Term Definition"
   description: An adaptive step-size Runge-Kutta-Fehlberg method that uses a 7th-order formula to compute the solution and an 8th-order formula to estimate the error,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: RKF7(8) Integrator (RKF7(8)) Explained | Term Definition
+  title: "RKF7(8) Integrator (RKF7(8)) Explained | Term Definition"
   description: An adaptive step-size Runge-Kutta-Fehlberg method that uses a 7th-order formula to compute the solution and an 8th-order formula to estimate the error,...
   image: /logo.png
 permalink: /en/glossary/dynamics/rkf78-integrator/

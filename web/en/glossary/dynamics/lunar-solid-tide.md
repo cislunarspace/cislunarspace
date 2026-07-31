@@ -1,6 +1,6 @@
 ---
 title: Lunar Solid Tide
-description: Elastic deformation of the Moon's solid surface caused by Earth's gravitational pull, generating additional gravitational perturbations on orbits near the Mo...
+description: "Elastic deformation of the Moon's solid surface caused by Earth's gravitational pull, generating additional gravitational perturbations on orbits near the Mo..."
 keywords: Lunar Solid Tide
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Solid Tide Explained | Term Definition
-  description: Elastic deformation of the Moon's solid surface caused by Earth's gravitational pull, generating additional gravitational perturbations on orbits near the Mo...
+  title: "Lunar Solid Tide Explained | Term Definition"
+  description: "Elastic deformation of the Moon's solid surface caused by Earth's gravitational pull, generating additional gravitational perturbations on orbits near the Mo..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Solid Tide Explained | Term Definition
-  description: Elastic deformation of the Moon's solid surface caused by Earth's gravitational pull, generating additional gravitational perturbations on orbits near the Mo...
+  title: "Lunar Solid Tide Explained | Term Definition"
+  description: "Elastic deformation of the Moon's solid surface caused by Earth's gravitational pull, generating additional gravitational perturbations on orbits near the Mo..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-solid-tide/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Earth Observation (EO)
-description: Earth observation is a systematic technical framework for observing the Earth's surface and atmosphere using satellite and aircraft platforms.
+description: "Earth observation is a systematic technical framework for observing the Earth's surface and atmosphere using satellite and aircraft platforms."
 keywords: Earth Observation, EO, Remote Sensing, Satellite Observation, Earth Monitoring
 author: Tianjiang Shuo
 date: 2026-06-05
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Earth Observation Details | Fundamental Concepts
-  description: Earth observation is a systematic technical framework for observing the Earth's surface and atmosphere using satellite and aircraft platforms.
+  title: "Earth Observation Details | Fundamental Concepts"
+  description: "Earth observation is a systematic technical framework for observing the Earth's surface and atmosphere using satellite and aircraft platforms."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Observation Details | Fundamental Concepts
-  description: Earth observation is a systematic technical framework for observing the Earth's surface and atmosphere using satellite and aircraft platforms.
+  title: "Earth Observation Details | Fundamental Concepts"
+  description: "Earth observation is a systematic technical framework for observing the Earth's surface and atmosphere using satellite and aircraft platforms."
   image: /logo.png
 permalink: /en/glossary/fundamentals/eo/
 ---

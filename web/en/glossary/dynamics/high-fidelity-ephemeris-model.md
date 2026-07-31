@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High-fidelity Ephemeris Model Explained | Term Definition
+  title: "High-fidelity Ephemeris Model Explained | Term Definition"
   description: "A full solar system ephemeris model including gravitational attraction of all planets, the Moon, and the Sun using JPL planetary ephemerides (DE405), accurately"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High-fidelity Ephemeris Model Explained | Term Definition
+  title: "High-fidelity Ephemeris Model Explained | Term Definition"
   description: "A full solar system ephemeris model including gravitational attraction of all planets, the Moon, and the Sun using JPL planetary ephemerides (DE405), accurately"
   image: /logo.png
 permalink: /en/glossary/dynamics/high-fidelity-ephemeris-model/

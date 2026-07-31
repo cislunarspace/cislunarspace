@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Iterator Function Explained | Term Definition
+  title: "Iterator Function Explained | Term Definition"
   description: Function that iteratively estimates flyout angle using previous k estimates of flyout angle and time of flight to match desired transfer time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Iterator Function Explained | Term Definition
+  title: "Iterator Function Explained | Term Definition"
   description: Function that iteratively estimates flyout angle using previous k estimates of flyout angle and time of flight to match desired transfer time.
   image: /logo.png
 permalink: /en/glossary/dynamics/iterator-function/

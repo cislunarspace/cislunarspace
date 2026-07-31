@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Synodic Period Explained | Term Definition
+  title: "Lunar Synodic Period Explained | Term Definition"
   description: The time required for the Earth, Moon, and Sun to return to the same relative alignment, approximately 29.53 days. It determines the lunar phase cycle and...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Synodic Period Explained | Term Definition
+  title: "Lunar Synodic Period Explained | Term Definition"
   description: The time required for the Earth, Moon, and Sun to return to the same relative alignment, approximately 29.53 days. It determines the lunar phase cycle and...
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-synodic-period/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Electric Propulsion, SEP Explained | Term Definition
+  title: "Solar Electric Propulsion, SEP Explained | Term Definition"
   description: An electric propulsion system powered by solar arrays that converts electrical energy into propellant kinetic energy. It produces low thrust (typically ~10⁻⁵g₀) but high specific impulse (>3000 s),...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Electric Propulsion, SEP Explained | Term Definition
+  title: "Solar Electric Propulsion, SEP Explained | Term Definition"
   description: An electric propulsion system powered by solar arrays that converts electrical energy into propellant kinetic energy. It produces low thrust (typically ~10⁻⁵g₀) but high specific impulse (>3000 s),...
   image: /logo.png
 permalink: /en/glossary/fundamentals/solar-electric-propulsion-sep/

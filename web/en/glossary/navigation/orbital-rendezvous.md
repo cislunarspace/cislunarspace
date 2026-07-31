@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Rendezvous Explained | Term Definition
+  title: "Orbital Rendezvous Explained | Term Definition"
   description: "A controlled approach process in which two spacecraft match position and velocity on the same orbit. In the three-body framework, orbital rendezvous is far more complex than two-body: CR3BP admits no closed-form solutions, and transfer time, phase difference, and amplitude difference produce coupled effects on velocity increment. This paper studies rendezvous on Earth-Moon L2 Halo orbits, covering same-orbit different-phase and cross-amplitude cases."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Rendezvous Explained | Term Definition
+  title: "Orbital Rendezvous Explained | Term Definition"
   description: "A controlled approach process in which two spacecraft match position and velocity on the same orbit. In the three-body framework, orbital rendezvous is far more complex than two-body: CR3BP admits no closed-form solutions, and transfer time, phase difference, and amplitude difference produce coupled effects on velocity increment. This paper studies rendezvous on Earth-Moon L2 Halo orbits, covering same-orbit different-phase and cross-amplitude cases."
   image: /logo.png
 permalink: /en/glossary/navigation/orbital-rendezvous/

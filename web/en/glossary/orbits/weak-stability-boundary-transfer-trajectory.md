@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary Transfer Trajectory Explained | Term Definition
+  title: "Weak Stability Boundary Transfer Trajectory Explained | Term Definition"
   description: A transfer trajectory designed along the weak stability boundary, on which the spacecraft relies primarily on natural dynamics without requiring large amounts of propellant.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary Transfer Trajectory Explained | Term Definition
+  title: "Weak Stability Boundary Transfer Trajectory Explained | Term Definition"
   description: A transfer trajectory designed along the weak stability boundary, on which the spacecraft relies primarily on natural dynamics without requiring large amounts of propellant.
   image: /logo.png
 permalink: /en/glossary/orbits/weak-stability-boundary-transfer-trajectory/

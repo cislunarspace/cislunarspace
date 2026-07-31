@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Attitude Determination and Control System Explained | Term Definition
+  title: "Attitude Determination and Control System Explained | Term Definition"
   description: Attitude subsystem without orbit control capability, used for satellites without a propulsion subsystem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Attitude Determination and Control System Explained | Term Definition
+  title: "Attitude Determination and Control System Explained | Term Definition"
   description: Attitude subsystem without orbit control capability, used for satellites without a propulsion subsystem.
   image: /logo.png
 permalink: /en/glossary/fundamentals/attitude-determination-and-control-system/

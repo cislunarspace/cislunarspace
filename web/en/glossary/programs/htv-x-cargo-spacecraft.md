@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: HTV-X Cargo Spacecraft Explained | Term Definition
+  title: "HTV-X Cargo Spacecraft Explained | Term Definition"
   description: A cargo supply spacecraft designed by JAXA for the Gateway space station, an upgraded variant of the HTV series. The paper uses HTV-X as the application scenari
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: HTV-X Cargo Spacecraft Explained | Term Definition
+  title: "HTV-X Cargo Spacecraft Explained | Term Definition"
   description: A cargo supply spacecraft designed by JAXA for the Gateway space station, an upgraded variant of the HTV series. The paper uses HTV-X as the application scenari
   image: /logo.png
 permalink: /en/glossary/programs/htv-x-cargo-spacecraft/

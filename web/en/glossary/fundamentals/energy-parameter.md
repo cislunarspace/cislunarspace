@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Energy Parameter | Terminology Definition
+  title: "Energy Parameter | Terminology Definition"
   description: A detailed analysis of the definition and application of the energy parameter in ballistic computation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Energy Parameter | Terminology Definition
+  title: "Energy Parameter | Terminology Definition"
   description: A detailed analysis of the definition and application of the energy parameter in ballistic computation
   image: /logo.png
 permalink: /en/glossary/fundamentals/energy-parameter/

@@ -1,6 +1,6 @@
 ---
 title: SpaceX
-description: Introduction to SpaceX's cislunar transportation, Starlink constellation, Falcon rockets, and Starship business, including its connection to the Artemis program and cislunar space infrastructure
+description: "Introduction to SpaceX's cislunar transportation, Starlink constellation, Falcon rockets, and Starship business, including its connection to the Artemis program and cislunar space infrastructure"
 keywords: SpaceX, Starlink, Starship, Falcon 9, Falcon Heavy, cislunar space, Artemis, lunar lander
 author: Tianjiang Shuo
 date: 2026-04-26
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: SpaceX (Space Exploration Technologies)
-  description: Introduction to SpaceX's Starlink constellation and Starship business
+  description: "Introduction to SpaceX's Starlink constellation and Starship business"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: SpaceX (Space Exploration Technologies)
-  description: Introduction to SpaceX's Starlink constellation and Starship business
+  description: "Introduction to SpaceX's Starlink constellation and Starship business"
   image: /logo.png
 permalink: /en/glossary/organizations/spacex/
 ---

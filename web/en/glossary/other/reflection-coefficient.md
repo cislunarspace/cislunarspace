@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Reflection Coefficient Details | Key Parameter for Solar Radiation Pressure
+  title: "Reflection Coefficient Details | Key Parameter for Solar Radiation Pressure"
   description: Detailed analysis of the reflection coefficient definition, value range, and role in solar radiation pressure calculation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reflection Coefficient Details | Key Parameter for Solar Radiation Pressure
+  title: "Reflection Coefficient Details | Key Parameter for Solar Radiation Pressure"
   description: Detailed analysis of the reflection coefficient definition, value range, and role in solar radiation pressure calculation
   image: /logo.png
 permalink: /en/glossary/other/reflection-coefficient/

@@ -1,6 +1,6 @@
 ---
 title: Earth Non-Spherical Gravity Perturbation
-description: Additional gravitational acceleration due to Earth's non-uniform mass distribution, dominated by the J2 term (oblateness). In high-precision Earth-Moon transfer
+description: "Additional gravitational acceleration due to Earth's non-uniform mass distribution, dominated by the J2 term (oblateness). In high-precision Earth-Moon transfer"
 keywords: Earth Non-Spherical Gravity Perturbation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Non-Spherical Gravity Perturbation Explained | Term Definition
-  description: Additional gravitational acceleration due to Earth's non-uniform mass distribution, dominated by the J2 term (oblateness). In high-precision Earth-Moon transfer
+  title: "Earth Non-Spherical Gravity Perturbation Explained | Term Definition"
+  description: "Additional gravitational acceleration due to Earth's non-uniform mass distribution, dominated by the J2 term (oblateness). In high-precision Earth-Moon transfer"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Non-Spherical Gravity Perturbation Explained | Term Definition
-  description: Additional gravitational acceleration due to Earth's non-uniform mass distribution, dominated by the J2 term (oblateness). In high-precision Earth-Moon transfer
+  title: "Earth Non-Spherical Gravity Perturbation Explained | Term Definition"
+  description: "Additional gravitational acceleration due to Earth's non-uniform mass distribution, dominated by the J2 term (oblateness). In high-precision Earth-Moon transfer"
   image: /logo.png
 permalink: /en/glossary/dynamics/earth-non-spherical-gravity-perturbation/
 ---

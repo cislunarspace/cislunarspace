@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Uncertainty Propagation Explained | Term Definition
+  title: "Uncertainty Propagation Explained | Term Definition"
   description: The process by which initial orbital perturbations propagate and evolve over time in a dynamical system. In DRO close formation flight, uncertainty propagation analysis combines CGT (characterizing sensitivity) and unscented transformation (characterizing safety) to reveal error propagation patterns under different initial phases and coast durations, providing the basis for stationkeeping scheme design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Uncertainty Propagation Explained | Term Definition
+  title: "Uncertainty Propagation Explained | Term Definition"
   description: The process by which initial orbital perturbations propagate and evolve over time in a dynamical system. In DRO close formation flight, uncertainty propagation analysis combines CGT (characterizing sensitivity) and unscented transformation (characterizing safety) to reveal error propagation patterns under different initial phases and coast durations, providing the basis for stationkeeping scheme design.
   image: /logo.png
 permalink: /en/glossary/fundamentals/uncertainty-propagation/

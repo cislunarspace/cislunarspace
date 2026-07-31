@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Numerical Ephemeris Explained | Term Definition
+  title: "Numerical Ephemeris Explained | Term Definition"
   description: Database of celestial body positions derived from high-precision numerical integration, providing positions via lookup and interpolation. A representative example is the JPL DE series ephemeris. Its accuracy far exceeds analytical ephemerides but requires more storage. For libration point orbit prediction, the positions of the Sun and Moon must use numerical ephemerides to ensure accuracy.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Numerical Ephemeris Explained | Term Definition
+  title: "Numerical Ephemeris Explained | Term Definition"
   description: Database of celestial body positions derived from high-precision numerical integration, providing positions via lookup and interpolation. A representative example is the JPL DE series ephemeris. Its accuracy far exceeds analytical ephemerides but requires more storage. For libration point orbit prediction, the positions of the Sun and Moon must use numerical ephemerides to ensure accuracy.
   image: /logo.png
 permalink: /en/glossary/fundamentals/numerical-ephemeris/

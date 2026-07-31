@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chebyshev-Gauss-Lobatto Points, CGL Points Explained | Term Definition
+  title: "Chebyshev-Gauss-Lobatto Points, CGL Points Explained | Term Definition"
   description: A node distribution strategy using cosine mapping to concentrate nodes near boundaries, used for time domain discretization to compensate the Runge effect,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chebyshev-Gauss-Lobatto Points, CGL Points Explained | Term Definition
+  title: "Chebyshev-Gauss-Lobatto Points, CGL Points Explained | Term Definition"
   description: A node distribution strategy using cosine mapping to concentrate nodes near boundaries, used for time domain discretization to compensate the Runge effect,...
   image: /logo.png
 permalink: /en/glossary/dynamics/CGL点/

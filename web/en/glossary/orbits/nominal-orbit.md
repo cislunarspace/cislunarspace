@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nominal Orbit Explained | Term Definition
+  title: "Nominal Orbit Explained | Term Definition"
   description: The designed reference orbit state, such as the nominal Halo orbit, serving as the baseline for actual manifold deviation and optimization.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nominal Orbit Explained | Term Definition
+  title: "Nominal Orbit Explained | Term Definition"
   description: The designed reference orbit state, such as the nominal Halo orbit, serving as the baseline for actual manifold deviation and optimization.
   image: /logo.png
 permalink: /en/glossary/orbits/nominal-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dual One-Way Ranging, DOWR Explained | Term Definition
+  title: "Dual One-Way Ranging, DOWR Explained | Term Definition"
   description: A measurement technique in which two satellites simultaneously exchange signals and each records a code pseudo-range at the same epoch. Through linear combin...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dual One-Way Ranging, DOWR Explained | Term Definition
+  title: "Dual One-Way Ranging, DOWR Explained | Term Definition"
   description: A measurement technique in which two satellites simultaneously exchange signals and each records a code pseudo-range at the same epoch. Through linear combin...
   image: /logo.png
 permalink: /en/glossary/navigation/dual-one-way-ranging-dowr/

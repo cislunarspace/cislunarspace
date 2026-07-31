@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adaptive Trajectory Design Catalog Explained | Term Definition
+  title: "Adaptive Trajectory Design Catalog Explained | Term Definition"
   description: A trajectory design reference catalog developed collaboratively by Purdue University and NASA Goddard Space Flight Center. It contains data for various periodic
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adaptive Trajectory Design Catalog Explained | Term Definition
+  title: "Adaptive Trajectory Design Catalog Explained | Term Definition"
   description: A trajectory design reference catalog developed collaboratively by Purdue University and NASA Goddard Space Flight Center. It contains data for various periodic
   image: /logo.png
 permalink: /en/glossary/dynamics/atd/

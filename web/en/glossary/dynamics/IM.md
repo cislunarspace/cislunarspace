@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Insertion Maneuver, IM Explained | Term Definition
+  title: "Insertion Maneuver, IM Explained | Term Definition"
   description: The impulsive maneuver applied when a spacecraft reaches the connection point along the unstable manifold, causing it to transition onto the stable manifold...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Insertion Maneuver, IM Explained | Term Definition
+  title: "Insertion Maneuver, IM Explained | Term Definition"
   description: The impulsive maneuver applied when a spacecraft reaches the connection point along the unstable manifold, causing it to transition onto the stable manifold...
   image: /logo.png
 permalink: /en/glossary/dynamics/IM/

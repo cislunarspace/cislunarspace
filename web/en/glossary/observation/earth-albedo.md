@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Earth Albedo | Environmental Heat Transfer
+  title: "Earth Albedo | Environmental Heat Transfer"
   description: A detailed analysis of earth albedo definitions, albedo distribution, calculation models, and heating effects on the bottom skin of stratospheric airships
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Albedo | Environmental Heat Transfer
+  title: "Earth Albedo | Environmental Heat Transfer"
   description: A detailed analysis of earth albedo definitions, albedo distribution, calculation models, and heating effects on the bottom skin of stratospheric airships
   image: /logo.png
 permalink: /en/glossary/observation/earth-albedo/

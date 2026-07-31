@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Circular Restricted Three-Body Problem, PCRTBP Explained | Term Definition
+  title: "Planar Circular Restricted Three-Body Problem, PCRTBP Explained | Term Definition"
   description: A dynamics problem where two primary bodies move in coplanar circular orbits, and the spacecraft moves in the same plane under the gravitational action of both.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Circular Restricted Three-Body Problem, PCRTBP Explained | Term Definition
+  title: "Planar Circular Restricted Three-Body Problem, PCRTBP Explained | Term Definition"
   description: A dynamics problem where two primary bodies move in coplanar circular orbits, and the spacecraft moves in the same plane under the gravitational action of both.
   image: /logo.png
 permalink: /en/glossary/dynamics/pcrtbp/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Impulsive Station-Keeping Explained | Term Definition
+  title: "Impulsive Station-Keeping Explained | Term Definition"
   description: A station-keeping method that applies velocity corrections as discrete impulses rather than continuous thrust. More practical with current propulsion...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Impulsive Station-Keeping Explained | Term Definition
+  title: "Impulsive Station-Keeping Explained | Term Definition"
   description: A station-keeping method that applies velocity corrections as discrete impulses rather than continuous thrust. More practical with current propulsion...
   image: /logo.png
 permalink: /en/glossary/dynamics/impulsive-station-keeping/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low Earth Orbit Service Station Explained | Term Definition
+  title: "Low Earth Orbit Service Station Explained | Term Definition"
   description: An on-orbit refueling and vehicle turnover facility in low Earth orbit, serving as the origin and destination of airline-flight-mode cislunar round-trip transpo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low Earth Orbit Service Station Explained | Term Definition
+  title: "Low Earth Orbit Service Station Explained | Term Definition"
   description: An on-orbit refueling and vehicle turnover facility in low Earth orbit, serving as the origin and destination of airline-flight-mode cislunar round-trip transpo
   image: /logo.png
 permalink: /en/glossary/programs/leo/

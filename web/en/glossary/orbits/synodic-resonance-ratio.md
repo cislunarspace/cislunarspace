@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Resonance Ratio Explained | Term Definition
+  title: "Synodic Resonance Ratio Explained | Term Definition"
   description: The ratio of the lunar synodic period to the orbital period, determining NRHO characteristics for the LOP-G mission.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Resonance Ratio Explained | Term Definition
+  title: "Synodic Resonance Ratio Explained | Term Definition"
   description: The ratio of the lunar synodic period to the orbital period, determining NRHO characteristics for the LOP-G mission.
   image: /logo.png
 permalink: /en/glossary/orbits/synodic-resonance-ratio/

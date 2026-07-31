@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Evolutionary Algorithm Explained | Term Definition
+  title: "Evolutionary Algorithm Explained | Term Definition"
   description: A class of optimization algorithms simulating natural evolutionary processes, including genetic algorithms and particle swarm optimization. Advantages include n
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Evolutionary Algorithm Explained | Term Definition
+  title: "Evolutionary Algorithm Explained | Term Definition"
   description: A class of optimization algorithms simulating natural evolutionary processes, including genetic algorithms and particle swarm optimization. Advantages include n
   image: /logo.png
 permalink: /en/glossary/dynamics/evolutionary-algorithm/

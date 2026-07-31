@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Discrete Linear Quadratic Regulator (DLQR) Explained | Term Definition
+  title: "Discrete Linear Quadratic Regulator (DLQR) Explained | Term Definition"
   description: An optimal control strategy based on discrete dynamics. It constructs a quadratic performance index from state deviations and control increments, then solves th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Discrete Linear Quadratic Regulator (DLQR) Explained | Term Definition
+  title: "Discrete Linear Quadratic Regulator (DLQR) Explained | Term Definition"
   description: An optimal control strategy based on discrete dynamics. It constructs a quadratic performance index from state deviations and control increments, then solves th
   image: /logo.png
 permalink: /en/glossary/dynamics/discrete-linear-quadratic-regulator/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Floquet Decomposition Explained | Term Definition
+  title: "Floquet Decomposition Explained | Term Definition"
   description: A method that performs eigenvalue decomposition on the monodromy matrix of a linear system with periodic coefficients. The eigenvalues are classified into un...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Floquet Decomposition Explained | Term Definition
+  title: "Floquet Decomposition Explained | Term Definition"
   description: A method that performs eigenvalue decomposition on the monodromy matrix of a linear system with periodic coefficients. The eigenvalues are classified into un...
   image: /logo.png
 permalink: /en/glossary/dynamics/floquet-decomposition/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Method of Variation of Constants Explained | Term Definition
+  title: "Method of Variation of Constants Explained | Term Definition"
   description: A technique that replaces constant parameters in differential equations with undetermined functions, treating amplitudes and phases of periodic orbit solutions as time-varying functions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Method of Variation of Constants Explained | Term Definition
+  title: "Method of Variation of Constants Explained | Term Definition"
   description: A technique that replaces constant parameters in differential equations with undetermined functions, treating amplitudes and phases of periodic orbit solutions as time-varying functions.
   image: /logo.png
 permalink: /en/glossary/fundamentals/method-of-variation-of-constants/

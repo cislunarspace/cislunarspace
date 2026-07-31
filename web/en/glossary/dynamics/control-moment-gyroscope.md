@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Control Moment Gyroscope Explained | Term Definition
+  title: "Control Moment Gyroscope Explained | Term Definition"
   description: Attitude control actuator that generates large torques by changing the orientation of high-speed rotors
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Control Moment Gyroscope Explained | Term Definition
+  title: "Control Moment Gyroscope Explained | Term Definition"
   description: Attitude control actuator that generates large torques by changing the orientation of high-speed rotors
   image: /logo.png
 permalink: /en/glossary/dynamics/control-moment-gyroscope/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Zero-Angle-of-Attack Reentry | Terminology Definition
+  title: "Zero-Angle-of-Attack Reentry | Terminology Definition"
   description: A detailed analysis of the zero-angle-of-attack reentry definition and ballistic characteristics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero-Angle-of-Attack Reentry | Terminology Definition
+  title: "Zero-Angle-of-Attack Reentry | Terminology Definition"
   description: A detailed analysis of the zero-angle-of-attack reentry definition and ballistic characteristics
   image: /logo.png
 permalink: /en/glossary/fundamentals/zero-angle-of-attack-reentry/

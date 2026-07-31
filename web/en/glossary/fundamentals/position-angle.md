@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Position Angle Explained | Term Definition
+  title: "Position Angle Explained | Term Definition"
   description: The angular position of a spacecraft relative to the line connecting the two primary bodies in the synodic coordinate system. The triangular libration point L₄ 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Position Angle Explained | Term Definition
+  title: "Position Angle Explained | Term Definition"
   description: The angular position of a spacecraft relative to the line connecting the two primary bodies in the synodic coordinate system. The triangular libration point L₄ 
   image: /logo.png
 permalink: /en/glossary/fundamentals/position-angle/

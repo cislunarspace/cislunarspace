@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Backstepping Sliding Mode Control | Advanced Control
+  title: "Backstepping Sliding Mode Control | Advanced Control"
   description: A detailed analysis of backstepping sliding mode control principles, design procedures, and advantages in stratospheric airship attitude control applications
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Backstepping Sliding Mode Control | Advanced Control
+  title: "Backstepping Sliding Mode Control | Advanced Control"
   description: A detailed analysis of backstepping sliding mode control principles, design procedures, and advantages in stratospheric airship attitude control applications
   image: /logo.png
 permalink: /en/glossary/dynamics/backstepping-sliding-mode-control/

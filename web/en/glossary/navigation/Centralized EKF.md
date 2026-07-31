@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Centralized Extended Kalman Filter Explained | Term Definition
+  title: "Centralized Extended Kalman Filter Explained | Term Definition"
   description: A centralized nonlinear state estimation method that aggregates all inter-satellite link measurements to a central processor, jointly estimating position, veloc
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Centralized Extended Kalman Filter Explained | Term Definition
+  title: "Centralized Extended Kalman Filter Explained | Term Definition"
   description: A centralized nonlinear state estimation method that aggregates all inter-satellite link measurements to a central processor, jointly estimating position, veloc
   image: /logo.png
 permalink: /en/glossary/navigation/Centralized EKF/

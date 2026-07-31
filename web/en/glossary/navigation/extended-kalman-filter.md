@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Extended Kalman Filter Explained | Nonlinear State Estimation Method
+  title: "Extended Kalman Filter Explained | Nonlinear State Estimation Method"
   description: An in-depth analysis of the Extended Kalman Filter, including its principles, algorithm workflow, applications in autonomous navigation, and advantages and disadvantages
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Extended Kalman Filter Explained | Nonlinear State Estimation Method
+  title: "Extended Kalman Filter Explained | Nonlinear State Estimation Method"
   description: An in-depth analysis of the Extended Kalman Filter, including its principles, algorithm workflow, applications in autonomous navigation, and advantages and disadvantages
   image: /logo.png
 permalink: /en/glossary/navigation/extended-kalman-filter/

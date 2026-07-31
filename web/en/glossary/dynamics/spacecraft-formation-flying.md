@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spacecraft Formation Flying Explained | Term Definition
+  title: "Spacecraft Formation Flying Explained | Term Definition"
   description: A technology where multiple spacecraft fly cooperatively in a specific spatial configuration. Compared to a single large spacecraft, formation flying offers lower manufacturing difficulty, shorter ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spacecraft Formation Flying Explained | Term Definition
+  title: "Spacecraft Formation Flying Explained | Term Definition"
   description: A technology where multiple spacecraft fly cooperatively in a specific spatial configuration. Compared to a single large spacecraft, formation flying offers lower manufacturing difficulty, shorter ...
   image: /logo.png
 permalink: /en/glossary/dynamics/spacecraft-formation-flying/

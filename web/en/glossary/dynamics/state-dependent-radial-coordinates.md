@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State-Dependent Radial coordinates Explained | Term Definition
+  title: "State-Dependent Radial coordinates Explained | Term Definition"
   description: A coordinate parameterization method defining angular variables as functions of time or phase, used to uniformly express analytical forms of quasi-periodic m...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State-Dependent Radial coordinates Explained | Term Definition
+  title: "State-Dependent Radial coordinates Explained | Term Definition"
   description: A coordinate parameterization method defining angular variables as functions of time or phase, used to uniformly express analytical forms of quasi-periodic m...
   image: /logo.png
 permalink: /en/glossary/dynamics/state-dependent-radial-coordinates/

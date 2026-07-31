@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exterior Capture Low-Energy Transfer Orbit Explained | Term Definition
+  title: "Exterior Capture Low-Energy Transfer Orbit Explained | Term Definition"
   description: "A low-energy transfer orbit in which the spacecraft enters the Earth-Moon system from outside and is captured by the Moon, corresponding to Belbruno's weak stability boundary theory."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exterior Capture Low-Energy Transfer Orbit Explained | Term Definition
+  title: "Exterior Capture Low-Energy Transfer Orbit Explained | Term Definition"
   description: "A low-energy transfer orbit in which the spacecraft enters the Earth-Moon system from outside and is captured by the Moon, corresponding to Belbruno's weak stability boundary theory."
   image: /logo.png
 permalink: /en/glossary/orbits/exterior-capture-low-energy-transfer-orbit/

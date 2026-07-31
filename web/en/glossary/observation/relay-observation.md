@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relay Observation Explained | Term Definition
+  title: "Relay Observation Explained | Term Definition"
   description: An observation scheme where multiple satellites alternate to maintain continuous target coverage.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relay Observation Explained | Term Definition
+  title: "Relay Observation Explained | Term Definition"
   description: An observation scheme where multiple satellites alternate to maintain continuous target coverage.
   image: /logo.png
 permalink: /en/glossary/observation/relay-observation/

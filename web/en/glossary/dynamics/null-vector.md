@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Null Vector Explained | Term Definition
+  title: "Null Vector Explained | Term Definition"
   description: A vector in the null space of the Jacobian matrix, pointing in the tangent direction for family continuation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Null Vector Explained | Term Definition
+  title: "Null Vector Explained | Term Definition"
   description: A vector in the null space of the Jacobian matrix, pointing in the tangent direction for family continuation.
   image: /logo.png
 permalink: /en/glossary/dynamics/null-vector/

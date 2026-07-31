@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Visibility Matrix, A Explained | Term Definition
+  title: "Visibility Matrix, A Explained | Term Definition"
   description: A matrix describing the geometric relationship between a user and visible satellites in satellite navigation. Each row consists of the unit direction vector ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Visibility Matrix, A Explained | Term Definition
+  title: "Visibility Matrix, A Explained | Term Definition"
   description: A matrix describing the geometric relationship between a user and visible satellites in satellite navigation. Each row consists of the unit direction vector ...
   image: /logo.png
 permalink: /en/glossary/navigation/visibility-matrix/

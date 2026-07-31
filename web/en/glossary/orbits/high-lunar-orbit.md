@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High Lunar Orbit Explained | Term Definition
+  title: "High Lunar Orbit Explained | Term Definition"
   description: A high-altitude circular orbit around the Moon. In this study, HLO serves as an intermediate orbit that truncates the moon-capture spiral before reaching LLO, s
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High Lunar Orbit Explained | Term Definition
+  title: "High Lunar Orbit Explained | Term Definition"
   description: A high-altitude circular orbit around the Moon. In this study, HLO serves as an intermediate orbit that truncates the moon-capture spiral before reaching LLO, s
   image: /logo.png
 permalink: /en/glossary/orbits/high-lunar-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inter-Satellite Ranging Explained | Term Definition
+  title: "Inter-Satellite Ranging Explained | Term Definition"
   description: A technique for direct distance measurement between spacecraft through bidirectional radio signal exchange, already well-established in GNSS inter-satellite ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inter-Satellite Ranging Explained | Term Definition
+  title: "Inter-Satellite Ranging Explained | Term Definition"
   description: A technique for direct distance measurement between spacecraft through bidirectional radio signal exchange, already well-established in GNSS inter-satellite ...
   image: /logo.png
 permalink: /en/glossary/navigation/inter-satellite-ranging/

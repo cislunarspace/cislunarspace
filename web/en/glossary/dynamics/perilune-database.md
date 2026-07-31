@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Database Explained | Term Definition
+  title: "Perilune Database Explained | Term Definition"
   description: A trajectory segment database constructed through Monte Carlo trajectory shooting, storing the spacecraft state vectors at perilune arrival, velocity changes...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Database Explained | Term Definition
+  title: "Perilune Database Explained | Term Definition"
   description: A trajectory segment database constructed through Monte Carlo trajectory shooting, storing the spacecraft state vectors at perilune arrival, velocity changes...
   image: /logo.png
 permalink: /en/glossary/dynamics/perilune-database/

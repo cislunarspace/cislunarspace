@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linked, Autonomous, Interplanetary Satellite Orbit Navigation Explained | Term Definition
+  title: "Linked, Autonomous, Interplanetary Satellite Orbit Navigation Explained | Term Definition"
   description: An autonomous cislunar navigation method that uses inter-satellite link ranging and gravitational asymmetry in a three-body system to achieve overall constel...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linked, Autonomous, Interplanetary Satellite Orbit Navigation Explained | Term Definition
+  title: "Linked, Autonomous, Interplanetary Satellite Orbit Navigation Explained | Term Definition"
   description: An autonomous cislunar navigation method that uses inter-satellite link ranging and gravitational asymmetry in a three-body system to achieve overall constel...
   image: /logo.png
 permalink: /en/glossary/navigation/linked-autonomous-interplanetary-satellite-orbit-navigation/

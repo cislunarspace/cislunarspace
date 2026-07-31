@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sun-resonant Orbit Explained | Term Definition
+  title: "Sun-resonant Orbit Explained | Term Definition"
   description: 轨道周期与太阳运动周期成有理数比的周期轨道，可在准双圆问题中保持周期性质。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun-resonant Orbit Explained | Term Definition
+  title: "Sun-resonant Orbit Explained | Term Definition"
   description: 轨道周期与太阳运动周期成有理数比的周期轨道，可在准双圆问题中保持周期性质。
   image: /logo.png
 permalink: /en/glossary/orbits/sun-resonant-orbit/

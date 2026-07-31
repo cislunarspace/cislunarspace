@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Capture Set Details | Low-Energy Capture
+  title: "Capture Set Details | Low-Energy Capture"
   description: The set of initial conditions enabling ballistic capture in a celestial system, influenced by the orbital eccentricity of the planet.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Capture Set Details | Low-Energy Capture
+  title: "Capture Set Details | Low-Energy Capture"
   description: The set of initial conditions enabling ballistic capture in a celestial system, influenced by the orbital eccentricity of the planet.
   image: /logo.png
 permalink: /en/glossary/dynamics/capture-set/

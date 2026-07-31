@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lagrange-Jacobi Identity Explained | Term Definition
+  title: "Lagrange-Jacobi Identity Explained | Term Definition"
   description: An identity describing the relationship between the second derivative of the moment of inertia and the potential energy and total energy of the three-body sy...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lagrange-Jacobi Identity Explained | Term Definition
+  title: "Lagrange-Jacobi Identity Explained | Term Definition"
   description: An identity describing the relationship between the second derivative of the moment of inertia and the potential energy and total energy of the three-body sy...
   image: /logo.png
 permalink: /en/glossary/dynamics/lagrange-jacobi-identity/

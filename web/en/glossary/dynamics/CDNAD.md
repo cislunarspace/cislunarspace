@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Complex Dual Numbers Automatic Differentiation Explained | Term Definition
+  title: "Complex Dual Numbers Automatic Differentiation Explained | Term Definition"
   description: Automatic differentiation using complex dual numbers for computing both first and second derivatives simultaneously, avoiding complex analytical derivation of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Complex Dual Numbers Automatic Differentiation Explained | Term Definition
+  title: "Complex Dual Numbers Automatic Differentiation Explained | Term Definition"
   description: Automatic differentiation using complex dual numbers for computing both first and second derivatives simultaneously, avoiding complex analytical derivation of...
   image: /logo.png
 permalink: /en/glossary/dynamics/CDNAD/

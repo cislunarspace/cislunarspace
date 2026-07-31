@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Subarc Explained | Term Definition
+  title: "Subarc Explained | Term Definition"
   description: A continuous time segment in bang-bang optimal control where the control variable remains at a fixed extreme value (maximum or minimum thrust).
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Subarc Explained | Term Definition
+  title: "Subarc Explained | Term Definition"
   description: A continuous time segment in bang-bang optimal control where the control variable remains at a fixed extreme value (maximum or minimum thrust).
   image: /logo.png
 permalink: /en/glossary/dynamics/subarc/

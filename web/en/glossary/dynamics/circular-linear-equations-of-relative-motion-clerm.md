@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Linear Equations of Relative Motion, CLERM Explained | Term Definition
+  title: "Circular Linear Equations of Relative Motion, CLERM Explained | Term Definition"
   description: Linearized version of CNERM, expressed as a state-space equation affine in control, directly applicable to linear control design such as LQR. Position error less than 1 cm and velocity error less t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Linear Equations of Relative Motion, CLERM Explained | Term Definition
+  title: "Circular Linear Equations of Relative Motion, CLERM Explained | Term Definition"
   description: Linearized version of CNERM, expressed as a state-space equation affine in control, directly applicable to linear control design such as LQR. Position error less than 1 cm and velocity error less t...
   image: /logo.png
 permalink: /en/glossary/dynamics/circular-linear-equations-of-relative-motion-clerm/

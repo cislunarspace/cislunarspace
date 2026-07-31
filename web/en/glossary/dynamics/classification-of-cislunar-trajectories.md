@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Classification of Cislunar Trajectories Explained | Term Definition
+  title: "Classification of Cislunar Trajectories Explained | Term Definition"
   description: A methodology that classifies cislunar transfer trajectories into direct and low-energy types based on Jacobi energy and time of flight. Direct transfers have J
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Classification of Cislunar Trajectories Explained | Term Definition
+  title: "Classification of Cislunar Trajectories Explained | Term Definition"
   description: A methodology that classifies cislunar transfer trajectories into direct and low-energy types based on Jacobi energy and time of flight. Direct transfers have J
   image: /logo.png
 permalink: /en/glossary/dynamics/classification-of-cislunar-trajectories/

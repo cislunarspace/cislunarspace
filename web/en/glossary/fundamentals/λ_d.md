@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Debye Length Explained | Term Definition
+  title: "Debye Length Explained | Term Definition"
   description: The characteristic distance over which an electrostatic potential decays to 1/e due to shielding in a plasma. In Coulomb force formation, the Debye length deter
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Debye Length Explained | Term Definition
+  title: "Debye Length Explained | Term Definition"
   description: The characteristic distance over which an electrostatic potential decays to 1/e due to shielding in a plasma. In Coulomb force formation, the Debye length deter
   image: /logo.png
 permalink: /en/glossary/fundamentals/λ_d/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tool resources.
   image: /logo.png
 og:
-  title: Gauss Pseudospectral Method (GPM) Explained | Term Definition
+  title: "Gauss Pseudospectral Method (GPM) Explained | Term Definition"
   description: A direct method for solving optimal control problems. It discretizes the continuous optimal control problem into a nonlinear programming (NLP) problem using Legendre-Gauss collocation points. The KKT conditions at collocation points are equivalent to the first-order optimality conditions of the Pontryagin maximum principle.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gauss Pseudospectral Method (GPM) Explained | Term Definition
+  title: "Gauss Pseudospectral Method (GPM) Explained | Term Definition"
   description: A direct method for solving optimal control problems. It discretizes the continuous optimal control problem into a nonlinear programming (NLP) problem using Legendre-Gauss collocation points. The KKT conditions at collocation points are equivalent to the first-order optimality conditions of the Pontryagin maximum principle.
   image: /logo.png
 permalink: /en/glossary/fundamentals/gauss-pseudospectral-method-gpm/

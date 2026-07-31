@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GGM05C Earth Gravity Field Model Explained | Term Definition
+  title: "GGM05C Earth Gravity Field Model Explained | Term Definition"
   description: "An Earth gravity field model jointly derived from GRACE and GOCE satellite data, truncated to degree and order 20. Used for computing Earth's non-spherical grav"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GGM05C Earth Gravity Field Model Explained | Term Definition
+  title: "GGM05C Earth Gravity Field Model Explained | Term Definition"
   description: "An Earth gravity field model jointly derived from GRACE and GOCE satellite data, truncated to degree and order 20. Used for computing Earth's non-spherical grav"
   image: /logo.png
 permalink: /en/glossary/fundamentals/ggm05c-earth-gravity-field-model/

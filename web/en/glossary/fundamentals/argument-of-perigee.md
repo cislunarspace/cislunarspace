@@ -1,6 +1,6 @@
 ---
 title: Argument of Perigee, ω
-description: The angular distance of the perigee from the ascending node along the direction of the spacecraft's motion in an elliptical orbit. The argument of perigee de...
+description: "The angular distance of the perigee from the ascending node along the direction of the spacecraft's motion in an elliptical orbit. The argument of perigee de..."
 keywords: Argument of Perigee, ω, ω, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Argument of Perigee, ω Explained | Term Definition
-  description: The angular distance of the perigee from the ascending node along the direction of the spacecraft's motion in an elliptical orbit. The argument of perigee de...
+  title: "Argument of Perigee, ω Explained | Term Definition"
+  description: "The angular distance of the perigee from the ascending node along the direction of the spacecraft's motion in an elliptical orbit. The argument of perigee de..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Argument of Perigee, ω Explained | Term Definition
-  description: The angular distance of the perigee from the ascending node along the direction of the spacecraft's motion in an elliptical orbit. The argument of perigee de...
+  title: "Argument of Perigee, ω Explained | Term Definition"
+  description: "The angular distance of the perigee from the ascending node along the direction of the spacecraft's motion in an elliptical orbit. The argument of perigee de..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/argument-of-perigee/
 ---

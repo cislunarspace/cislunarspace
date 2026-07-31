@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perturbation Ratio Explained | Term Definition
+  title: "Perturbation Ratio Explained | Term Definition"
   description: Perturbation Ratio; the ratio of third-body acceleration to the sum of all accelerations in the system, used to characterize the strength of third-body...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perturbation Ratio Explained | Term Definition
+  title: "Perturbation Ratio Explained | Term Definition"
   description: Perturbation Ratio; the ratio of third-body acceleration to the sum of all accelerations in the system, used to characterize the strength of third-body...
   image: /logo.png
 permalink: /en/glossary/dynamics/perturbation-ratio/

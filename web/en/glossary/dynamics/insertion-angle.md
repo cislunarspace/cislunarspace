@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Insertion Angle Explained | Term Definition
+  title: "Insertion Angle Explained | Term Definition"
   description: The angle between the negative x-axis and the radial line connecting the Moon to the manifold insertion point in the xy-plane, describing the azimuth of the insertion point in the Moon-centered frame.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Insertion Angle Explained | Term Definition
+  title: "Insertion Angle Explained | Term Definition"
   description: The angle between the negative x-axis and the radial line connecting the Moon to the manifold insertion point in the xy-plane, describing the azimuth of the insertion point in the Moon-centered frame.
   image: /logo.png
 permalink: /en/glossary/dynamics/insertion-angle/

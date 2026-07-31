@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Clohessy-Wiltshire Equations Explained | Term Definition
+  title: "Clohessy-Wiltshire Equations Explained | Term Definition"
   description: A set of linearized equations describing the relative motion of a chaser spacecraft relative to a target in a two-body periselene frame.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Clohessy-Wiltshire Equations Explained | Term Definition
+  title: "Clohessy-Wiltshire Equations Explained | Term Definition"
   description: A set of linearized equations describing the relative motion of a chaser spacecraft relative to a target in a two-body periselene frame.
   image: /logo.png
 permalink: /en/glossary/dynamics/CW/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Necessary conditions Explained | Term Definition
+  title: "Necessary conditions Explained | Term Definition"
   description: "First-order conditions that an optimal trajectory must satisfy. For impulsive trajectories: p≤1, p=1 at impulse times with direction along Δv, ṗ=0 at intermedia"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Necessary conditions Explained | Term Definition
+  title: "Necessary conditions Explained | Term Definition"
   description: "First-order conditions that an optimal trajectory must satisfy. For impulsive trajectories: p≤1, p=1 at impulse times with direction along Δv, ṗ=0 at intermedia"
   image: /logo.png
 permalink: /en/glossary/fundamentals/NC/

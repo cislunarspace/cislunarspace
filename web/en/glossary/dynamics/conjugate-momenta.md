@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conjugate Momenta Explained | Term Definition
+  title: "Conjugate Momenta Explained | Term Definition"
   description: Momentum variables corresponding to generalized coordinates in Hamiltonian mechanics, obtained by partial derivative of Lagrangian with respect to generalized velocities..
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conjugate Momenta Explained | Term Definition
+  title: "Conjugate Momenta Explained | Term Definition"
   description: Momentum variables corresponding to generalized coordinates in Hamiltonian mechanics, obtained by partial derivative of Lagrangian with respect to generalized velocities..
   image: /logo.png
 permalink: /en/glossary/dynamics/conjugate-momenta/

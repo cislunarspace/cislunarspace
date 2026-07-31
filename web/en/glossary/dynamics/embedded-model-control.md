@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Embedded Model Control Explained | Term Definition
+  title: "Embedded Model Control Explained | Term Definition"
   description: A control design methodology built around a discrete-time state equation model (embedded model) running in parallel with the plant, combined with disturbance dynamics and noise estimation for uncertainty rejection.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Embedded Model Control Explained | Term Definition
+  title: "Embedded Model Control Explained | Term Definition"
   description: A control design methodology built around a discrete-time state equation model (embedded model) running in parallel with the plant, combined with disturbance dynamics and noise estimation for uncertainty rejection.
   image: /logo.png
 permalink: /en/glossary/dynamics/embedded-model-control/

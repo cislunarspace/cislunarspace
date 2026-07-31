@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Pitch Program Angle | Terminology Definition
+  title: "Pitch Program Angle | Terminology Definition"
   description: Detailed explanation of the pitch program angle, three flight phases, and its role in trajectory design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pitch Program Angle | Terminology Definition
+  title: "Pitch Program Angle | Terminology Definition"
   description: Detailed explanation of the pitch program angle, three flight phases, and its role in trajectory design
   image: /logo.png
 permalink: /en/glossary/fundamentals/pitch-program/

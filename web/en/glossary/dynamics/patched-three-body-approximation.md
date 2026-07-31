@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Patched Three-Body Approximation Explained | Term Definition
+  title: "Patched Three-Body Approximation Explained | Term Definition"
   description: Decomposing an N-body problem into multiple three-body subproblems, using three-body solutions as initial guesses converged to full solutions via differential correction.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Patched Three-Body Approximation Explained | Term Definition
+  title: "Patched Three-Body Approximation Explained | Term Definition"
   description: Decomposing an N-body problem into multiple three-body subproblems, using three-body solutions as initial guesses converged to full solutions via differential correction.
   image: /logo.png
 permalink: /en/glossary/dynamics/patched-three-body-approximation/

@@ -1,6 +1,6 @@
 ---
 title: Local Vertical Local Horizontal Frame, LVLH
-description: A local coordinate frame centered on the target spacecraft's orbit. R-bar points toward the primary body, H-bar is perpendicular to the orbital plane (negative 
+description: "A local coordinate frame centered on the target spacecraft's orbit. R-bar points toward the primary body, H-bar is perpendicular to the orbital plane (negative "
 keywords: Local Vertical Local Horizontal Frame, LVLH
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local Vertical Local Horizontal Frame, LVLH Explained | Term Definition
-  description: A local coordinate frame centered on the target spacecraft's orbit. R-bar points toward the primary body, H-bar is perpendicular to the orbital plane (negative 
+  title: "Local Vertical Local Horizontal Frame, LVLH Explained | Term Definition"
+  description: "A local coordinate frame centered on the target spacecraft's orbit. R-bar points toward the primary body, H-bar is perpendicular to the orbital plane (negative "
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local Vertical Local Horizontal Frame, LVLH Explained | Term Definition
-  description: A local coordinate frame centered on the target spacecraft's orbit. R-bar points toward the primary body, H-bar is perpendicular to the orbital plane (negative 
+  title: "Local Vertical Local Horizontal Frame, LVLH Explained | Term Definition"
+  description: "A local coordinate frame centered on the target spacecraft's orbit. R-bar points toward the primary body, H-bar is perpendicular to the orbital plane (negative "
   image: /logo.png
 permalink: /en/glossary/fundamentals/local-vertical-local-horizontal-frame-lvlh/
 ---

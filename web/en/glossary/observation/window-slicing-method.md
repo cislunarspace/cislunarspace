@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Window Slicing Method Explained | Term Definition
+  title: "Window Slicing Method Explained | Term Definition"
   description: 将长时间观测序列按固定宽度和步长切分为重叠或不重叠的短时间窗口，每个窗口作为一个独立样本送入分类器进行机动检测的数据预处理方法。本文设定切片宽度为20个时间步（时间分辨率900 s），切片步长为10个时间步，保证每个窗口内至多包含一次机动事件。窗口切片法将连续轨迹的机动检测问题转化为局部窗口的二分类问题，适配CNN等固
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Window Slicing Method Explained | Term Definition
+  title: "Window Slicing Method Explained | Term Definition"
   description: 将长时间观测序列按固定宽度和步长切分为重叠或不重叠的短时间窗口，每个窗口作为一个独立样本送入分类器进行机动检测的数据预处理方法。本文设定切片宽度为20个时间步（时间分辨率900 s），切片步长为10个时间步，保证每个窗口内至多包含一次机动事件。窗口切片法将连续轨迹的机动检测问题转化为局部窗口的二分类问题，适配CNN等固
   image: /logo.png
 permalink: /en/glossary/observation/window-slicing-method/

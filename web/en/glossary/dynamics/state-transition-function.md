@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Transition Function (f, g) Explained | Term Definition
+  title: "State Transition Function (f, g) Explained | Term Definition"
   description: Functions describing the relationship between position/velocity at any time and initial state on a Kepler orbit, used for orbit maneuver planning
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Transition Function (f, g) Explained | Term Definition
+  title: "State Transition Function (f, g) Explained | Term Definition"
   description: Functions describing the relationship between position/velocity at any time and initial state on a Kepler orbit, used for orbit maneuver planning
   image: /logo.png
 permalink: /en/glossary/dynamics/state-transition-function/

@@ -1,6 +1,6 @@
 ---
 title: Double-Pulse Orbit Transfer
-description: An orbit transfer method that applies one velocity impulse at each of the departure and arrival points, the classic application of Lambert's problem. The first impulse departs the initial orbit ont...
+description: "An orbit transfer method that applies one velocity impulse at each of the departure and arrival points, the classic application of Lambert's problem. The first impulse departs the initial orbit ont..."
 keywords: Double-Pulse Orbit Transfer, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Double-Pulse Orbit Transfer Explained | Term Definition
-  description: An orbit transfer method that applies one velocity impulse at each of the departure and arrival points, the classic application of Lambert's problem. The first impulse departs the initial orbit ont...
+  title: "Double-Pulse Orbit Transfer Explained | Term Definition"
+  description: "An orbit transfer method that applies one velocity impulse at each of the departure and arrival points, the classic application of Lambert's problem. The first impulse departs the initial orbit ont..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Double-Pulse Orbit Transfer Explained | Term Definition
-  description: An orbit transfer method that applies one velocity impulse at each of the departure and arrival points, the classic application of Lambert's problem. The first impulse departs the initial orbit ont...
+  title: "Double-Pulse Orbit Transfer Explained | Term Definition"
+  description: "An orbit transfer method that applies one velocity impulse at each of the departure and arrival points, the classic application of Lambert's problem. The first impulse departs the initial orbit ont..."
   image: /logo.png
 permalink: /en/glossary/dynamics/double-pulse-orbit-transfer/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Annual Station-Keeping Cost Explained | Term Definition
+  title: "Annual Station-Keeping Cost Explained | Term Definition"
   description: The total velocity increment consumed by a station-keeping strategy over one year, typically measured in m/s. It is the primary metric for evaluating the cost-effectiveness of different orbit types an...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Annual Station-Keeping Cost Explained | Term Definition
+  title: "Annual Station-Keeping Cost Explained | Term Definition"
   description: The total velocity increment consumed by a station-keeping strategy over one year, typically measured in m/s. It is the primary metric for evaluating the cost-effectiveness of different orbit types an...
   image: /logo.png
 permalink: /en/glossary/dynamics/annual-station-keeping-cost/

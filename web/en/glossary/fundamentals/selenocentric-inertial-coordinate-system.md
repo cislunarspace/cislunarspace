@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Selenocentric Inertial Coordinate System Explained | Term Definition
+  title: "Selenocentric Inertial Coordinate System Explained | Term Definition"
   description: An inertial coordinate system centered at the Moon. In this paper, the XY plane is defined as the lunar orbital plane with the X-axis aligned to the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Selenocentric Inertial Coordinate System Explained | Term Definition
+  title: "Selenocentric Inertial Coordinate System Explained | Term Definition"
   description: An inertial coordinate system centered at the Moon. In this paper, the XY plane is defined as the lunar orbital plane with the X-axis aligned to the...
   image: /logo.png
 permalink: /en/glossary/fundamentals/selenocentric-inertial-coordinate-system/

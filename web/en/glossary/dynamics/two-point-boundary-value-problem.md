@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Point Boundary Value Problem Explained | Term Definition
+  title: "Two-Point Boundary Value Problem Explained | Term Definition"
   description: A class of differential equation boundary value problems where part of the state variable boundary conditions are specified at the initial time and part at the terminal time. The necessary conditions ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Point Boundary Value Problem Explained | Term Definition
+  title: "Two-Point Boundary Value Problem Explained | Term Definition"
   description: A class of differential equation boundary value problems where part of the state variable boundary conditions are specified at the initial time and part at the terminal time. The necessary conditions ...
   image: /logo.png
 permalink: /en/glossary/dynamics/two-point-boundary-value-problem/

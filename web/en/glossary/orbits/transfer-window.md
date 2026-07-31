@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Window Explained | Term Definition
+  title: "Transfer Window Explained | Term Definition"
   description: The time interval allowing execution of low-energy Earth-Moon transfer. For libration point transit, the window is determined by solar phase β; for Halo orbi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Window Explained | Term Definition
+  title: "Transfer Window Explained | Term Definition"
   description: The time interval allowing execution of low-energy Earth-Moon transfer. For libration point transit, the window is determined by solar phase β; for Halo orbi...
   image: /logo.png
 permalink: /en/glossary/orbits/transfer-window/

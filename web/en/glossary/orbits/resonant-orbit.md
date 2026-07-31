@@ -1,6 +1,6 @@
 ---
 title: Resonant Orbit
-description: A periodic orbit whose period bears an integer-ratio relationship to the Moon's orbital period (e.g., 2:1, 3:1). While resonant families are common in solar system dynamics, they have limited appli...
+description: "A periodic orbit whose period bears an integer-ratio relationship to the Moon's orbital period (e.g., 2:1, 3:1). While resonant families are common in solar system dynamics, they have limited appli..."
 keywords: Resonant Orbit, RO
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonant Orbit Explained | Term Definition
-  description: A periodic orbit whose period bears an integer-ratio relationship to the Moon's orbital period (e.g., 2:1, 3:1). While resonant families are common in solar system dynamics, they have limited appli...
+  title: "Resonant Orbit Explained | Term Definition"
+  description: "A periodic orbit whose period bears an integer-ratio relationship to the Moon's orbital period (e.g., 2:1, 3:1). While resonant families are common in solar system dynamics, they have limited appli..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonant Orbit Explained | Term Definition
-  description: A periodic orbit whose period bears an integer-ratio relationship to the Moon's orbital period (e.g., 2:1, 3:1). While resonant families are common in solar system dynamics, they have limited appli...
+  title: "Resonant Orbit Explained | Term Definition"
+  description: "A periodic orbit whose period bears an integer-ratio relationship to the Moon's orbital period (e.g., 2:1, 3:1). While resonant families are common in solar system dynamics, they have limited appli..."
   image: /logo.png
 permalink: /en/glossary/orbits/resonant-orbit/
 ---

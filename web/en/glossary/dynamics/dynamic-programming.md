@@ -1,7 +1,7 @@
 ---
 title: Dynamic Programming (Dynamic Programming)
-description: Analysis of dynamic programming principles, Bellman's Principle of Optimality, and application in orbit deployment sequence optimization
-keywords: Dynamic Programming, Bellman's Principle of Optimality, Bellman, Sequence Optimization, Deployment Sequence, SDTSP
+description: "Analysis of dynamic programming principles, Bellman's Principle of Optimality, and application in orbit deployment sequence optimization"
+keywords: "Dynamic Programming, Bellman's Principle of Optimality, Bellman, Sequence Optimization, Deployment Sequence, SDTSP"
 author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Dynamic Programming Explained | Sequential Decision Optimization
+  title: "Dynamic Programming Explained | Sequential Decision Optimization"
   description: Analysis of dynamic programming principles and its application in orbit deployment sequence optimization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamic Programming Explained | Sequential Decision Optimization
+  title: "Dynamic Programming Explained | Sequential Decision Optimization"
   description: Analysis of dynamic programming principles and its application in orbit deployment sequence optimization
   image: /logo.png
 permalink: /en/glossary/dynamics/dynamic-programming/

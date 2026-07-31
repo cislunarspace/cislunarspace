@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Ballistic Capture Orbit Details | Orbit Mechanics
+  title: "Ballistic Capture Orbit Details | Orbit Mechanics"
   description: A low-energy unpowered capture trajectory exploiting the Weak Stability Boundary theory for lunar orbital insertion.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Capture Orbit Details | Orbit Mechanics
+  title: "Ballistic Capture Orbit Details | Orbit Mechanics"
   description: A low-energy unpowered capture trajectory exploiting the Weak Stability Boundary theory for lunar orbital insertion.
   image: /logo.png
 permalink: /en/glossary/orbits/ballistic-capture/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Julian Date, JD Explained | Term Definition
+  title: "Julian Date, JD Explained | Term Definition"
   description: The continuous count of days since January 1, 4713 BC at noon Greenwich time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Julian Date, JD Explained | Term Definition
+  title: "Julian Date, JD Explained | Term Definition"
   description: The continuous count of days since January 1, 4713 BC at noon Greenwich time.
   image: /logo.png
 permalink: /en/glossary/fundamentals/julian-date-jd/

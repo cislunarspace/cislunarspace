@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kustaanheimo-Stiefel Transformation, KS Transformation Explained | Term Definition
+  title: "Kustaanheimo-Stiefel Transformation, KS Transformation Explained | Term Definition"
   description: A coordinate transformation that regularizes the three-dimensional Kepler problem into a four-dimensional harmonic oscillator, eliminating collision...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kustaanheimo-Stiefel Transformation, KS Transformation Explained | Term Definition
+  title: "Kustaanheimo-Stiefel Transformation, KS Transformation Explained | Term Definition"
   description: A coordinate transformation that regularizes the three-dimensional Kepler problem into a four-dimensional harmonic oscillator, eliminating collision...
   image: /logo.png
 permalink: /en/glossary/dynamics/KS变换/

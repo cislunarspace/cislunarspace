@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interior Capture Low-Energy Transfer Orbit Explained | Term Definition
+  title: "Interior Capture Low-Energy Transfer Orbit Explained | Term Definition"
   description: A low-energy transfer orbit that remains entirely within the Earth-Moon system using invariant manifolds of L1 periodic orbits. Unlike exterior capture orbits t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interior Capture Low-Energy Transfer Orbit Explained | Term Definition
+  title: "Interior Capture Low-Energy Transfer Orbit Explained | Term Definition"
   description: A low-energy transfer orbit that remains entirely within the Earth-Moon system using invariant manifolds of L1 periodic orbits. Unlike exterior capture orbits t
   image: /logo.png
 permalink: /en/glossary/orbits/interior-capture-low-energy-transfer-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Low Earth Orbit (LEO) Explained | Cislunar Space
+  title: "Low Earth Orbit (LEO) Explained | Cislunar Space"
   description: Detailed explanation of Low Earth Orbit definition, altitude range, and its role in lunar transfer missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low Earth Orbit (LEO) Explained | Cislunar Space
+  title: "Low Earth Orbit (LEO) Explained | Cislunar Space"
   description: Detailed explanation of Low Earth Orbit definition, altitude range, and its role in lunar transfer missions
   image: /logo.png
 permalink: /en/glossary/other/leo/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Capture Trajectory Classification Explained | Term Definition
+  title: "Capture Trajectory Classification Explained | Term Definition"
   description: "In the grid scan method, initial conditions on a Poincaré section are classified into five sets by trajectory behavior: good capture (G, perilune altitude 100–400 km), low orbit (L, <100 km), high orbit (H, >400 km), collision (C), and escape (O). This classification provides a filtered candidate pool for subsequent optimization."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Capture Trajectory Classification Explained | Term Definition
+  title: "Capture Trajectory Classification Explained | Term Definition"
   description: "In the grid scan method, initial conditions on a Poincaré section are classified into five sets by trajectory behavior: good capture (G, perilune altitude 100–400 km), low orbit (L, <100 km), high orbit (H, >400 km), collision (C), and escape (O). This classification provides a filtered candidate pool for subsequent optimization."
   image: /logo.png
 permalink: /en/glossary/dynamics/capture-trajectory-classification/

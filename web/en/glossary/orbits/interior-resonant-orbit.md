@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interior Resonant Orbit Explained | Term Definition
+  title: "Interior Resonant Orbit Explained | Term Definition"
   description: "A resonant orbit where the spacecraft period is less than the primary body's period (p<q in period ratio p:q)."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interior Resonant Orbit Explained | Term Definition
+  title: "Interior Resonant Orbit Explained | Term Definition"
   description: "A resonant orbit where the spacecraft period is less than the primary body's period (p<q in period ratio p:q)."
   image: /logo.png
 permalink: /en/glossary/orbits/interior-resonant-orbit/

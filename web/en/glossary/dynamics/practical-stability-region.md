@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Practical Stability Region Explained | Term Definition
+  title: "Practical Stability Region Explained | Term Definition"
   description: Regions near the Earth-Moon triangular libration points (L4, L5) where spacecraft can remain for extended periods. Although linear stability analysis shows tria
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Practical Stability Region Explained | Term Definition
+  title: "Practical Stability Region Explained | Term Definition"
   description: Regions near the Earth-Moon triangular libration points (L4, L5) where spacecraft can remain for extended periods. Although linear stability analysis shows tria
   image: /logo.png
 permalink: /en/glossary/dynamics/practical-stability-region/

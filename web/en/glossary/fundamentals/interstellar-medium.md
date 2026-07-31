@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interstellar Medium Explained | Term Definition
+  title: "Interstellar Medium Explained | Term Definition"
   description: Matter existing between stars, including gas, dust, and energetic particles; a constituent of the Milky Way galaxy.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interstellar Medium Explained | Term Definition
+  title: "Interstellar Medium Explained | Term Definition"
   description: Matter existing between stars, including gas, dust, and energetic particles; a constituent of the Milky Way galaxy.
   image: /logo.png
 permalink: /en/glossary/fundamentals/interstellar-medium/

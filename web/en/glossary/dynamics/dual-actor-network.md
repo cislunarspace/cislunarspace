@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dual-Actor Network Explained | Term Definition
+  title: "Dual-Actor Network Explained | Term Definition"
   description: A dual-network architecture where separate actor networks output weights and effectivity thresholds for Earth-centered inertial and Moon-centered inertial Lyapu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dual-Actor Network Explained | Term Definition
+  title: "Dual-Actor Network Explained | Term Definition"
   description: A dual-network architecture where separate actor networks output weights and effectivity thresholds for Earth-centered inertial and Moon-centered inertial Lyapu
   image: /logo.png
 permalink: /en/glossary/dynamics/dual-actor-network/

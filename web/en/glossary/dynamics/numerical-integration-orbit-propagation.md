@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Numerical integration (orbit propagation) Explained | Term Definition
+  title: "Numerical integration (orbit propagation) Explained | Term Definition"
   description: Step-by-step numerical solution of the spacecraft equations of motion to obtain state vectors at discrete times, using methods such as Runge-Kutta or Gauss-Jack
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Numerical integration (orbit propagation) Explained | Term Definition
+  title: "Numerical integration (orbit propagation) Explained | Term Definition"
   description: Step-by-step numerical solution of the spacecraft equations of motion to obtain state vectors at discrete times, using methods such as Runge-Kutta or Gauss-Jack
   image: /logo.png
 permalink: /en/glossary/dynamics/numerical-integration-orbit-propagation/

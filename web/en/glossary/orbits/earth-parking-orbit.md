@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Parking Orbit Explained | Term Definition
+  title: "Earth Parking Orbit Explained | Term Definition"
   description: A circular or near-circular orbit in the vicinity of Earth where the spacecraft orbits after launch and before the trans-lunar injection burn. The spacecraft performs system checks and attitude adjustments on this orbit, waiting for the appropriate transfer window to ignite and enter the Earth-Moon transfer orbit. It is the segment of a lunar mission trajectory immediately following the launch orbit. The altitude and inclination of the parking orbit are determined by the launch site location and mission requirements.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Parking Orbit Explained | Term Definition
+  title: "Earth Parking Orbit Explained | Term Definition"
   description: A circular or near-circular orbit in the vicinity of Earth where the spacecraft orbits after launch and before the trans-lunar injection burn. The spacecraft performs system checks and attitude adjustments on this orbit, waiting for the appropriate transfer window to ignite and enter the Earth-Moon transfer orbit. It is the segment of a lunar mission trajectory immediately following the launch orbit. The altitude and inclination of the parking orbit are determined by the launch site location and mission requirements.
   image: /logo.png
 permalink: /en/glossary/orbits/earth-parking-orbit/

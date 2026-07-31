@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Moon-Centered Inertial Frame Explained | Term Definition
+  title: "Moon-Centered Inertial Frame Explained | Term Definition"
   description: "A reference frame centered at the Moon's mass center with axes fixed relative to inertial space. Unlike the Moon-Centered Rotating (MCR) frame, the Earth's posi"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Moon-Centered Inertial Frame Explained | Term Definition
+  title: "Moon-Centered Inertial Frame Explained | Term Definition"
   description: "A reference frame centered at the Moon's mass center with axes fixed relative to inertial space. Unlike the Moon-Centered Rotating (MCR) frame, the Earth's posi"
   image: /logo.png
 permalink: /en/glossary/fundamentals/mci/

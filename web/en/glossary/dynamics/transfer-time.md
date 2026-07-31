@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Time Explained | Term Definition
+  title: "Transfer Time Explained | Term Definition"
   description: The time required to travel along the stable manifold from the lunar surface to the vicinity of a libration point orbit (~70-90 km from the reference orbit).
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Time Explained | Term Definition
+  title: "Transfer Time Explained | Term Definition"
   description: The time required to travel along the stable manifold from the lunar surface to the vicinity of a libration point orbit (~70-90 km from the reference orbit).
   image: /logo.png
 permalink: /en/glossary/dynamics/transfer-time/

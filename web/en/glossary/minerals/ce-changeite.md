@@ -1,23 +1,23 @@
 ---
 title: Changeite-Ce (Cerium Changeite)
-description: Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples with rich light rare earth element cerium
-keywords: Changeite-Ce, cerium changeite, Chang'e-5, new lunar mineral, calcium rare-earth phosphate, light rare earth, lunar exploration
+description: "Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples with rich light rare earth element cerium"
+keywords: "Changeite-Ce, cerium changeite, Chang'e-5, new lunar mineral, calcium rare-earth phosphate, light rare earth, lunar exploration"
 author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 wechatShare:
   title: Changeite-Ce
-  desc: A new lunar mineral discovered from Chang'e-5 samples — Changeite-Ce
+  desc: "A new lunar mineral discovered from Chang'e-5 samples — Changeite-Ce"
   image: /logo.png
 og:
-  title: Changeite-Ce | Cislunar Space Glossary
-  description: Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples
+  title: "Changeite-Ce | Cislunar Space Glossary"
+  description: "Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Changeite-Ce | Cislunar Space Glossary
-  description: Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples
+  title: "Changeite-Ce | Cislunar Space Glossary"
+  description: "Detailed introduction of Changeite-Ce, a new lunar mineral discovered from Chang'e-5 samples"
   image: /logo.png
 permalink: /en/glossary/minerals/ce-changeite/
 ---

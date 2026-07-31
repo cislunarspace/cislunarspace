@@ -1,6 +1,6 @@
 ---
 title: Departure Velocity
-description: The speed of a spacecraft at departure from the lunar surface. Because geometric variations across the Moon's surface negligibly affect potential energy,...
+description: "The speed of a spacecraft at departure from the lunar surface. Because geometric variations across the Moon's surface negligibly affect potential energy,..."
 keywords: Departure Velocity
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Departure Velocity Explained | Term Definition
-  description: The speed of a spacecraft at departure from the lunar surface. Because geometric variations across the Moon's surface negligibly affect potential energy,...
+  title: "Departure Velocity Explained | Term Definition"
+  description: "The speed of a spacecraft at departure from the lunar surface. Because geometric variations across the Moon's surface negligibly affect potential energy,..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Departure Velocity Explained | Term Definition
-  description: The speed of a spacecraft at departure from the lunar surface. Because geometric variations across the Moon's surface negligibly affect potential energy,...
+  title: "Departure Velocity Explained | Term Definition"
+  description: "The speed of a spacecraft at departure from the lunar surface. Because geometric variations across the Moon's surface negligibly affect potential energy,..."
   image: /logo.png
 permalink: /en/glossary/dynamics/departure-velocity/
 ---

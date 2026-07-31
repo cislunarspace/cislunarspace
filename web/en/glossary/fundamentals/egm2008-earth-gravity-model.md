@@ -1,6 +1,6 @@
 ---
 title: EGM2008 Earth Gravity Model
-description: Spherical harmonic coefficient model describing Earth's gravitational field, with maximum degree and order of 2190. This paper uses EGM2008 in orbit analysis to
+description: "Spherical harmonic coefficient model describing Earth's gravitational field, with maximum degree and order of 2190. This paper uses EGM2008 in orbit analysis to"
 keywords: EGM2008 Earth Gravity Model
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: EGM2008 Earth Gravity Model Explained | Term Definition
-  description: Spherical harmonic coefficient model describing Earth's gravitational field, with maximum degree and order of 2190. This paper uses EGM2008 in orbit analysis to
+  title: "EGM2008 Earth Gravity Model Explained | Term Definition"
+  description: "Spherical harmonic coefficient model describing Earth's gravitational field, with maximum degree and order of 2190. This paper uses EGM2008 in orbit analysis to"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: EGM2008 Earth Gravity Model Explained | Term Definition
-  description: Spherical harmonic coefficient model describing Earth's gravitational field, with maximum degree and order of 2190. This paper uses EGM2008 in orbit analysis to
+  title: "EGM2008 Earth Gravity Model Explained | Term Definition"
+  description: "Spherical harmonic coefficient model describing Earth's gravitational field, with maximum degree and order of 2190. This paper uses EGM2008 in orbit analysis to"
   image: /logo.png
 permalink: /en/glossary/fundamentals/egm2008-earth-gravity-model/
 ---

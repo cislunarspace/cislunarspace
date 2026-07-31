@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative Hamiltonian Explained | Term Definition
+  title: "Relative Hamiltonian Explained | Term Definition"
   description: Hamiltonian describing relative motion of chaser with respect to target, accounting for rotating frame and gravitational interactions with two primaries.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative Hamiltonian Explained | Term Definition
+  title: "Relative Hamiltonian Explained | Term Definition"
   description: Hamiltonian describing relative motion of chaser with respect to target, accounting for rotating frame and gravitational interactions with two primaries.
   image: /logo.png
 permalink: /en/glossary/dynamics/relative-hamiltonian/

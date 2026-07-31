@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Fuel-optimal Control Details | Minimum Propellant Trajectory Design
+  title: "Fuel-optimal Control Details | Minimum Propellant Trajectory Design"
   description: Detailed explanation of fuel-optimal control definition, mathematical formulation, relationship with bang-bang control, and applications in cislunar space trajectory transfers
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fuel-optimal Control Details | Minimum Propellant Trajectory Design
+  title: "Fuel-optimal Control Details | Minimum Propellant Trajectory Design"
   description: Detailed explanation of fuel-optimal control definition, mathematical formulation, relationship with bang-bang control, and applications in cislunar space trajectory transfers
   image: /logo.png
 permalink: /en/glossary/dynamics/fuel-optimal/

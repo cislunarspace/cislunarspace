@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Direction Cosines Explained | Term Definition
+  title: "Thrust Direction Cosines Explained | Term Definition"
   description: The three projection components of the thrust unit vector onto the coordinate axes, denoted ar, at, and ah. Their squares always sum to unity. They are used in...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Direction Cosines Explained | Term Definition
+  title: "Thrust Direction Cosines Explained | Term Definition"
   description: The three projection components of the thrust unit vector onto the coordinate axes, denoted ar, at, and ah. Their squares always sum to unity. They are used in...
   image: /logo.png
 permalink: /en/glossary/dynamics/thrust-direction-cosines/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Right Ascension of Ascending Node Explained | Term Definition
+  title: "Right Ascension of Ascending Node Explained | Term Definition"
   description: The angle measured eastward from the vernal equinox to the ascending node, describing the orientation of the orbital plane in space. Together with orbital in...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Right Ascension of Ascending Node Explained | Term Definition
+  title: "Right Ascension of Ascending Node Explained | Term Definition"
   description: The angle measured eastward from the vernal equinox to the ascending node, describing the orientation of the orbital plane in space. Together with orbital in...
   image: /logo.png
 permalink: /en/glossary/orbits/right-ascension-of-ascending-node/

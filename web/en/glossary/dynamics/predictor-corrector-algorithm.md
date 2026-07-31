@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Predictor-Corrector Algorithm Explained | Term Definition
+  title: "Predictor-Corrector Algorithm Explained | Term Definition"
   description: "In homotopy continuation, an iterative strategy that first uses Euler's method to predict the next point, then Newton's method to correct it. The prediction..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Predictor-Corrector Algorithm Explained | Term Definition
+  title: "Predictor-Corrector Algorithm Explained | Term Definition"
   description: "In homotopy continuation, an iterative strategy that first uses Euler's method to predict the next point, then Newton's method to correct it. The prediction..."
   image: /logo.png
 permalink: /en/glossary/dynamics/predictor-corrector-algorithm/

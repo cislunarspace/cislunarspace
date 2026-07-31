@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Reaction Control System Explained | Term Definition
+  title: "Reaction Control System Explained | Term Definition"
   description: Propulsion system for spacecraft attitude control and fine adjustment
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reaction Control System Explained | Term Definition
+  title: "Reaction Control System Explained | Term Definition"
   description: Propulsion system for spacecraft attitude control and fine adjustment
   image: /logo.png
 permalink: /en/glossary/other/reaction-control-system/

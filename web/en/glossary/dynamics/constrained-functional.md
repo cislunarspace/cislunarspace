@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Constrained Functional Explained | Term Definition
+  title: "Constrained Functional Explained | Term Definition"
   description: A functional constructed via TFC that always satisfies prescribed boundary constraints regardless of the chosen free functions. For the Lambert problem, three constrained functionals are constructed f
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Constrained Functional Explained | Term Definition
+  title: "Constrained Functional Explained | Term Definition"
   description: A functional constructed via TFC that always satisfies prescribed boundary constraints regardless of the chosen free functions. For the Lambert problem, three constrained functionals are constructed f
   image: /logo.png
 permalink: /en/glossary/dynamics/constrained-functional/

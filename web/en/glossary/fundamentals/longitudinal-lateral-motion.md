@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Longitudinal and Lateral Motion | Terminology Definition
+  title: "Longitudinal and Lateral Motion | Terminology Definition"
   description: A detailed analysis of longitudinal and lateral motion equation definitions and their application in trajectory analysis
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Longitudinal and Lateral Motion | Terminology Definition
+  title: "Longitudinal and Lateral Motion | Terminology Definition"
   description: A detailed analysis of longitudinal and lateral motion equation definitions and their application in trajectory analysis
   image: /logo.png
 permalink: /en/glossary/fundamentals/longitudinal-lateral-motion/

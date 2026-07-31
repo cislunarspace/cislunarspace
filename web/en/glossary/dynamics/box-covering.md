@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Box Covering Explained | Term Definition
+  title: "Box Covering Explained | Term Definition"
   description: A set covering method implemented in GAIO software. By subdividing the high-dimensional space containing a Poincare map into progressively smaller rectangular b
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Box Covering Explained | Term Definition
+  title: "Box Covering Explained | Term Definition"
   description: A set covering method implemented in GAIO software. By subdividing the high-dimensional space containing a Poincare map into progressively smaller rectangular b
   image: /logo.png
 permalink: /en/glossary/dynamics/box-covering/

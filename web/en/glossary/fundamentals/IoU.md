@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Intersection over Union Explained | Term Definition
+  title: "Intersection over Union Explained | Term Definition"
   description: The ratio of intersection area to union area of two regions, measuring the degree of overlap between two bounding boxes. IoU = 0 means no overlap, IoU = 1 means
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Intersection over Union Explained | Term Definition
+  title: "Intersection over Union Explained | Term Definition"
   description: The ratio of intersection area to union area of two regions, measuring the degree of overlap between two bounding boxes. IoU = 0 means no overlap, IoU = 1 means
   image: /logo.png
 permalink: /en/glossary/fundamentals/IoU/

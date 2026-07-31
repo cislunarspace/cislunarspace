@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon Collinear Libration Points Explained | Term Definition
+  title: "Earth-Moon Collinear Libration Points Explained | Term Definition"
   description: Three libration points L1, L2, L3 located on the Earth-Moon line in the rotating coordinate frame. Their hyperbolic stability makes them suitable for mission...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Collinear Libration Points Explained | Term Definition
+  title: "Earth-Moon Collinear Libration Points Explained | Term Definition"
   description: Three libration points L1, L2, L3 located on the Earth-Moon line in the rotating coordinate frame. Their hyperbolic stability makes them suitable for mission...
   image: /logo.png
 permalink: /en/glossary/orbits/earth-moon-collinear-libration-points/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conley-McGehee Tube, C-M Tube Explained | Term Definition
+  title: "Conley-McGehee Tube, C-M Tube Explained | Term Definition"
   description: A 2D hypersurface formed by stable and unstable invariant manifolds of periodic orbits as proposed by Conley and McGehee, separating transit from non-transit tr
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conley-McGehee Tube, C-M Tube Explained | Term Definition
+  title: "Conley-McGehee Tube, C-M Tube Explained | Term Definition"
   description: A 2D hypersurface formed by stable and unstable invariant manifolds of periodic orbits as proposed by Conley and McGehee, separating transit from non-transit tr
   image: /logo.png
 permalink: /en/glossary/dynamics/c-m/

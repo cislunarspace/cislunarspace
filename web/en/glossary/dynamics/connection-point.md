@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Connection Point Explained | Term Definition
+  title: "Connection Point Explained | Term Definition"
   description: The intersection point of Sun-Earth manifold and Earth-Moon manifold on the Poincaré section, serving as the key location for achieving low-energy transfer thro
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Connection Point Explained | Term Definition
+  title: "Connection Point Explained | Term Definition"
   description: The intersection point of Sun-Earth manifold and Earth-Moon manifold on the Poincaré section, serving as the key location for achieving low-energy transfer thro
   image: /logo.png
 permalink: /en/glossary/dynamics/connection-point/

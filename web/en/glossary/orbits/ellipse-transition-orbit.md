@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ellipse Transition Orbit Explained | Term Definition
+  title: "Ellipse Transition Orbit Explained | Term Definition"
   description: Elliptical orbit segments near the Moon in the three-impulse maneuver scheme. A pulse at the perilune of the free-return trajectory enters the first transition...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ellipse Transition Orbit Explained | Term Definition
+  title: "Ellipse Transition Orbit Explained | Term Definition"
   description: Elliptical orbit segments near the Moon in the three-impulse maneuver scheme. A pulse at the perilune of the free-return trajectory enters the first transition...
   image: /logo.png
 permalink: /en/glossary/orbits/ellipse-transition-orbit/

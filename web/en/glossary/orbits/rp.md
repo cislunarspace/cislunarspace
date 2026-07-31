@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Radius Explained | Term Definition
+  title: "Perilune Radius Explained | Term Definition"
   description: The minimum distance from a halo orbit or DRO to the lunar surface, an important characteristic parameter of the halo orbit family.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Radius Explained | Term Definition
+  title: "Perilune Radius Explained | Term Definition"
   description: The minimum distance from a halo orbit or DRO to the lunar surface, an important characteristic parameter of the halo orbit family.
   image: /logo.png
 permalink: /en/glossary/orbits/rp/

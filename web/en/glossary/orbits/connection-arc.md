@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Connection Arc Explained | Term Definition
+  title: "Connection Arc Explained | Term Definition"
   description: "In L1-point transfer trajectories, a transition arc connecting the near-Earth parking orbit to the L1 stable manifold. Since the stable manifold's closest approach to Earth is ~0.1 Earth-Moon distance"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Connection Arc Explained | Term Definition
+  title: "Connection Arc Explained | Term Definition"
   description: "In L1-point transfer trajectories, a transition arc connecting the near-Earth parking orbit to the L1 stable manifold. Since the stable manifold's closest approach to Earth is ~0.1 Earth-Moon distance"
   image: /logo.png
 permalink: /en/glossary/orbits/connection-arc/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collinear Libration Point Orbit Explained | Term Definition
+  title: "Collinear Libration Point Orbit Explained | Term Definition"
   description: Periodic or quasi-periodic orbits around the collinear libration points L1 or L2 of the Earth-Moon system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collinear Libration Point Orbit Explained | Term Definition
+  title: "Collinear Libration Point Orbit Explained | Term Definition"
   description: Periodic or quasi-periodic orbits around the collinear libration points L1 or L2 of the Earth-Moon system.
   image: /logo.png
 permalink: /en/glossary/orbits/collinear-libration-point-orbit/

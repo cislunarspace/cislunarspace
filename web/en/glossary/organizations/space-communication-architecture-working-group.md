@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space Communication Architecture Working Group Explained | Term Definition
+  title: "Space Communication Architecture Working Group Explained | Term Definition"
   description: A dedicated NASA working group established for the return-to-the-Moon programme, aiming to improve lunar surface coverage and navigation accuracy.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Communication Architecture Working Group Explained | Term Definition
+  title: "Space Communication Architecture Working Group Explained | Term Definition"
   description: A dedicated NASA working group established for the return-to-the-Moon programme, aiming to improve lunar surface coverage and navigation accuracy.
   image: /logo.png
 permalink: /en/glossary/organizations/space-communication-architecture-working-group/

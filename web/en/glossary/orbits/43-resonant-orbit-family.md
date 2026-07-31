@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 4:3 Resonant Orbit Family Explained | Term Definition
+  title: "4:3 Resonant Orbit Family Explained | Term Definition"
   description: A family of resonant orbits with period ratio 4:3 in the Earth-moon system. All members are unstable in the Earth-moon system but offer continuous tour trajectories to all libration points.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 4:3 Resonant Orbit Family Explained | Term Definition
+  title: "4:3 Resonant Orbit Family Explained | Term Definition"
   description: A family of resonant orbits with period ratio 4:3 in the Earth-moon system. All members are unstable in the Earth-moon system but offer continuous tour trajectories to all libration points.
   image: /logo.png
 permalink: /en/glossary/orbits/43-resonant-orbit-family/

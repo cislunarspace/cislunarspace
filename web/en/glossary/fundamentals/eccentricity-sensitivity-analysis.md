@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eccentricity Sensitivity Analysis Explained | Term Definition
+  title: "Eccentricity Sensitivity Analysis Explained | Term Definition"
   description: A method that treats eccentricity as an augmented state variable and uses second-order STT to evaluate the validity of the CR3BP approximation in the ellipti...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eccentricity Sensitivity Analysis Explained | Term Definition
+  title: "Eccentricity Sensitivity Analysis Explained | Term Definition"
   description: A method that treats eccentricity as an augmented state variable and uses second-order STT to evaluate the validity of the CR3BP approximation in the ellipti...
   image: /logo.png
 permalink: /en/glossary/fundamentals/eccentricity-sensitivity-analysis/

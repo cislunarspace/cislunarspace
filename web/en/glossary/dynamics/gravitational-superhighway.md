@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravitational Superhighway Explained | Term Definition
+  title: "Gravitational Superhighway Explained | Term Definition"
   description: A network of low-energy transport channels formed by invariant manifolds in cislunar space. Wright et al. found that trajectories entering cislunar space via...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Superhighway Explained | Term Definition
+  title: "Gravitational Superhighway Explained | Term Definition"
   description: A network of low-energy transport channels formed by invariant manifolds in cislunar space. Wright et al. found that trajectories entering cislunar space via...
   image: /logo.png
 permalink: /en/glossary/dynamics/gravitational-superhighway/

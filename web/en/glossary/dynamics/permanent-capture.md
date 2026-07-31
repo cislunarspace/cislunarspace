@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Permanent Capture Explained | Term Definition
+  title: "Permanent Capture Explained | Term Definition"
   description: "The physical state in which a spacecraft's Jacobi constant drops below the critical value at L1, confining its motion to the vicinity of the Moon. In the PCR3BP, this is a strict condition: once met, the spacecraft cannot leave the lunar region without thrust."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Permanent Capture Explained | Term Definition
+  title: "Permanent Capture Explained | Term Definition"
   description: "The physical state in which a spacecraft's Jacobi constant drops below the critical value at L1, confining its motion to the vicinity of the Moon. In the PCR3BP, this is a strict condition: once met, the spacecraft cannot leave the lunar region without thrust."
   image: /logo.png
 permalink: /en/glossary/dynamics/permanent-capture/

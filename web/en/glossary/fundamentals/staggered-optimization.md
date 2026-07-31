@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Staggered Optimization Explained | Term Definition
+  title: "Staggered Optimization Explained | Term Definition"
   description: A multi-stage strategy for solving optimal control problems. Stage 1 uses a differentiable cost function (e.g., sum of squared velocity increments) to find a...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Staggered Optimization Explained | Term Definition
+  title: "Staggered Optimization Explained | Term Definition"
   description: A multi-stage strategy for solving optimal control problems. Stage 1 uses a differentiable cost function (e.g., sum of squared velocity increments) to find a...
   image: /logo.png
 permalink: /en/glossary/fundamentals/staggered-optimization/

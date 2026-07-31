@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multiple Solutions Phenomenon Explained | Term Definition
+  title: "Multiple Solutions Phenomenon Explained | Term Definition"
   description: In cislunar initial orbit determination using three optical observations under CR3BP dynamics, the IOD problem can yield up to four solutions, unlike the two...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multiple Solutions Phenomenon Explained | Term Definition
+  title: "Multiple Solutions Phenomenon Explained | Term Definition"
   description: In cislunar initial orbit determination using three optical observations under CR3BP dynamics, the IOD problem can yield up to four solutions, unlike the two...
   image: /logo.png
 permalink: /en/glossary/navigation/multiple-solutions-phenomenon/

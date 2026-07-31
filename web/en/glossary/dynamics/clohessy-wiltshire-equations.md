@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Clohessy-Wiltshire Equations Explained | Term Definition
+  title: "Clohessy-Wiltshire Equations Explained | Term Definition"
   description: "Linearized equations describing relative motion of spacecraft in near-circular orbits, also known as Hill's equations. Based on assumptions of central gravitati"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Clohessy-Wiltshire Equations Explained | Term Definition
+  title: "Clohessy-Wiltshire Equations Explained | Term Definition"
   description: "Linearized equations describing relative motion of spacecraft in near-circular orbits, also known as Hill's equations. Based on assumptions of central gravitati"
   image: /logo.png
 permalink: /en/glossary/dynamics/clohessy-wiltshire-equations/

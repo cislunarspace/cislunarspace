@@ -1,6 +1,6 @@
 ---
 title: Periapsis Distance
-description: The distance from the orbit's closest approach to Phobos (periapsis).
+description: "The distance from the orbit's closest approach to Phobos (periapsis)."
 keywords: Periapsis Distance, cislunar space, orbital mechanics, navigation, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periapsis Distance Explained | Term Definition
-  description: The distance from the orbit's closest approach to Phobos (periapsis).
+  title: "Periapsis Distance Explained | Term Definition"
+  description: "The distance from the orbit's closest approach to Phobos (periapsis)."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periapsis Distance Explained | Term Definition
-  description: The distance from the orbit's closest approach to Phobos (periapsis).
+  title: "Periapsis Distance Explained | Term Definition"
+  description: "The distance from the orbit's closest approach to Phobos (periapsis)."
   image: /logo.png
 permalink: /en/glossary/orbits/periapsis-distance/
 ---

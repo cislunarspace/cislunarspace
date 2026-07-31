@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Flight Explained | Term Definition
+  title: "Time of Flight Explained | Term Definition"
   description: Time interval from departure to arrival.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Flight Explained | Term Definition
+  title: "Time of Flight Explained | Term Definition"
   description: Time interval from departure to arrival.
   image: /logo.png
 permalink: /en/glossary/fundamentals/Time-of-Flight/

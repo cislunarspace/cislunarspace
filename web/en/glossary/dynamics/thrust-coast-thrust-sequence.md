@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust-Coast-Thrust Sequence Explained | Term Definition
+  title: "Thrust-Coast-Thrust Sequence Explained | Term Definition"
   description: A pre-structured flight profile for Earth-moon transfers consisting of a continuous-thrust Earth-escape spiral, a thrust-free translunar coast, and a...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust-Coast-Thrust Sequence Explained | Term Definition
+  title: "Thrust-Coast-Thrust Sequence Explained | Term Definition"
   description: A pre-structured flight profile for Earth-moon transfers consisting of a continuous-thrust Earth-escape spiral, a thrust-free translunar coast, and a...
   image: /logo.png
 permalink: /en/glossary/dynamics/thrust-coast-thrust-sequence/

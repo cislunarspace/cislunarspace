@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adaptive Multi-phase Pseudospectral Convex Optimization Explained | Term Definition
+  title: "Adaptive Multi-phase Pseudospectral Convex Optimization Explained | Term Definition"
   description: A powered descent guidance method that divides the descent process into multiple phases, discretizes using pseudospectral method, solves via convex...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adaptive Multi-phase Pseudospectral Convex Optimization Explained | Term Definition
+  title: "Adaptive Multi-phase Pseudospectral Convex Optimization Explained | Term Definition"
   description: A powered descent guidance method that divides the descent process into multiple phases, discretizes using pseudospectral method, solves via convex...
   image: /logo.png
 permalink: /en/glossary/dynamics/MPPCvx/

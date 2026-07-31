@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Gravity Turn | Terminology Definition
+  title: "Gravity Turn | Terminology Definition"
   description: Detailed explanation of the gravity turn definition and physical mechanism
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravity Turn | Terminology Definition
+  title: "Gravity Turn | Terminology Definition"
   description: Detailed explanation of the gravity turn definition and physical mechanism
   image: /logo.png
 permalink: /en/glossary/fundamentals/gravity-turn/

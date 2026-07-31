@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GL0660B Lunar Gravity Field Model Explained | Term Definition
+  title: "GL0660B Lunar Gravity Field Model Explained | Term Definition"
   description: A lunar gravity field model derived from GRAIL probe data, truncated to degree and order 20. Used for computing lunar non-spherical gravitational perturbation in orbit propagation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GL0660B Lunar Gravity Field Model Explained | Term Definition
+  title: "GL0660B Lunar Gravity Field Model Explained | Term Definition"
   description: A lunar gravity field model derived from GRAIL probe data, truncated to degree and order 20. Used for computing lunar non-spherical gravitational perturbation in orbit propagation.
   image: /logo.png
 permalink: /en/glossary/fundamentals/gl0660b-lunar-gravity-field-model/

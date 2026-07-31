@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon Rotating Frame Explained | Term Definition
+  title: "Earth-Moon Rotating Frame Explained | Term Definition"
   description: A rotating reference frame with origin at the Earth-Moon barycenter, x-axis pointing toward the Moon, and z-axis aligned with the lunar orbital angular momentum. In the CRTBP it rotates at constant angular velocity; in the ERTBP the angular velocity varies with the Earth-Moon distance. This frame is the standard reference for formulating restricted three-body dynamics in the Earth-Moon system, where libration points and invariant manifolds are defined.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Rotating Frame Explained | Term Definition
+  title: "Earth-Moon Rotating Frame Explained | Term Definition"
   description: A rotating reference frame with origin at the Earth-Moon barycenter, x-axis pointing toward the Moon, and z-axis aligned with the lunar orbital angular momentum. In the CRTBP it rotates at constant angular velocity; in the ERTBP the angular velocity varies with the Earth-Moon distance. This frame is the standard reference for formulating restricted three-body dynamics in the Earth-Moon system, where libration points and invariant manifolds are defined.
   image: /logo.png
 permalink: /en/glossary/dynamics/earth-moon-rotating-frame/

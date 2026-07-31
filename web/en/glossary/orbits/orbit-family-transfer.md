@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Family Transfer Explained | Term Definition
+  title: "Orbit Family Transfer Explained | Term Definition"
   description: Transfer design between orbit families of the same type, such as between Halo orbit families or from Halo orbit family to DRO orbit family.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Family Transfer Explained | Term Definition
+  title: "Orbit Family Transfer Explained | Term Definition"
   description: Transfer design between orbit families of the same type, such as between Halo orbit families or from Halo orbit family to DRO orbit family.
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-family-transfer/

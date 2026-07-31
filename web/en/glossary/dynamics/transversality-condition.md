@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transversality Condition Explained | Term Definition
+  title: "Transversality Condition Explained | Term Definition"
   description: The terminal constraint condition in optimal control problems that determines the values of adjoint variables at the final time. For free terminal time problems
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transversality Condition Explained | Term Definition
+  title: "Transversality Condition Explained | Term Definition"
   description: The terminal constraint condition in optimal control problems that determines the values of adjoint variables at the final time. For free terminal time problems
   image: /logo.png
 permalink: /en/glossary/dynamics/transversality-condition/

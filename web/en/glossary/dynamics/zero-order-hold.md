@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Zero-Order Hold Explained | Term Definition
+  title: "Zero-Order Hold Explained | Term Definition"
   description: A fundamental method in digital control systems for converting discrete sampled signals to continuous signals. It reads the control command at each sampling instant and holds that value constant over the entire interval until the next sampling instant. In digital implementation of orbit station-keeping, continuous-time controllers discretized via ZOH for direct use (emulation-based implementation) may suffer degraded closed-loop performance or even instability.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero-Order Hold Explained | Term Definition
+  title: "Zero-Order Hold Explained | Term Definition"
   description: A fundamental method in digital control systems for converting discrete sampled signals to continuous signals. It reads the control command at each sampling instant and holds that value constant over the entire interval until the next sampling instant. In digital implementation of orbit station-keeping, continuous-time controllers discretized via ZOH for direct use (emulation-based implementation) may suffer degraded closed-loop performance or even instability.
   image: /logo.png
 permalink: /en/glossary/dynamics/zero-order-hold/

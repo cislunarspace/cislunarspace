@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fuel Optimization Explained | Term Definition
+  title: "Fuel Optimization Explained | Term Definition"
   description: Orbit optimization targeting maximum remaining mass at destination. Equivalent to minimizing fuel consumption or velocity increment. In the paper, characterized by maximizing terminal mass, involving ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fuel Optimization Explained | Term Definition
+  title: "Fuel Optimization Explained | Term Definition"
   description: Orbit optimization targeting maximum remaining mass at destination. Equivalent to minimizing fuel consumption or velocity increment. In the paper, characterized by maximizing terminal mass, involving ...
   image: /logo.png
 permalink: /en/glossary/dynamics/fuel-optimization/

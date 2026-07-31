@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Discrete Homotopy Explained | Term Definition
+  title: "Discrete Homotopy Explained | Term Definition"
   description: A homotopy path tracking method. Divides the homotopy parameter from initial to target value into discrete steps, solving each sub-problem sequentially and u...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Discrete Homotopy Explained | Term Definition
+  title: "Discrete Homotopy Explained | Term Definition"
   description: A homotopy path tracking method. Divides the homotopy parameter from initial to target value into discrete steps, solving each sub-problem sequentially and u...
   image: /logo.png
 permalink: /en/glossary/dynamics/discrete-homotopy/

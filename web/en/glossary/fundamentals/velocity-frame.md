@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Velocity Frame | Terminology Definition
+  title: "Velocity Frame | Terminology Definition"
   description: A detailed analysis of the definition, axis conventions, and central role of the velocity frame in aerodynamic force analysis
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity Frame | Terminology Definition
+  title: "Velocity Frame | Terminology Definition"
   description: A detailed analysis of the definition, axis conventions, and central role of the velocity frame in aerodynamic force analysis
   image: /logo.png
 permalink: /en/glossary/fundamentals/velocity-frame/

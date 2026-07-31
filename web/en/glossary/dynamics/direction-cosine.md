@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direction Cosine Explained | Term Definition
+  title: "Direction Cosine Explained | Term Definition"
   description: Projection coefficients of the thrust vector onto coordinate axes, determined by normalized ratios of costate variables. Direction cosines transform costates into the physical thrust vector directi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direction Cosine Explained | Term Definition
+  title: "Direction Cosine Explained | Term Definition"
   description: Projection coefficients of the thrust vector onto coordinate axes, determined by normalized ratios of costate variables. Direction cosines transform costates into the physical thrust vector directi...
   image: /logo.png
 permalink: /en/glossary/dynamics/direction-cosine/

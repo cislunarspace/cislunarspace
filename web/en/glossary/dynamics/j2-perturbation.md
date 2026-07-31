@@ -1,6 +1,6 @@
 ---
 title: J2 Perturbation
-description: Perturbation caused by the second-degree zonal harmonic (J₂) of Earth's non-spherical gravitational potential, one of the dominant perturbations for near-Ear...
+description: "Perturbation caused by the second-degree zonal harmonic (J₂) of Earth's non-spherical gravitational potential, one of the dominant perturbations for near-Ear..."
 keywords: J2 Perturbation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: J2 Perturbation Explained | Term Definition
-  description: Perturbation caused by the second-degree zonal harmonic (J₂) of Earth's non-spherical gravitational potential, one of the dominant perturbations for near-Ear...
+  title: "J2 Perturbation Explained | Term Definition"
+  description: "Perturbation caused by the second-degree zonal harmonic (J₂) of Earth's non-spherical gravitational potential, one of the dominant perturbations for near-Ear..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: J2 Perturbation Explained | Term Definition
-  description: Perturbation caused by the second-degree zonal harmonic (J₂) of Earth's non-spherical gravitational potential, one of the dominant perturbations for near-Ear...
+  title: "J2 Perturbation Explained | Term Definition"
+  description: "Perturbation caused by the second-degree zonal harmonic (J₂) of Earth's non-spherical gravitational potential, one of the dominant perturbations for near-Ear..."
   image: /logo.png
 permalink: /en/glossary/dynamics/j2-perturbation/
 ---

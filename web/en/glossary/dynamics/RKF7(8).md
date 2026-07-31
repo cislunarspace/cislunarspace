@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Runge-Kutta-Fehlberg 7(8) Numerical Integration Explained | Term Definition
+  title: "Runge-Kutta-Fehlberg 7(8) Numerical Integration Explained | Term Definition"
   description: An adaptive step-size Runge-Kutta method comparing 7th and 8th order formulas to automatically adjust step size, ensuring accuracy while improving computational
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Runge-Kutta-Fehlberg 7(8) Numerical Integration Explained | Term Definition
+  title: "Runge-Kutta-Fehlberg 7(8) Numerical Integration Explained | Term Definition"
   description: An adaptive step-size Runge-Kutta method comparing 7th and 8th order formulas to automatically adjust step size, ensuring accuracy while improving computational
   image: /logo.png
 permalink: /en/glossary/dynamics/RKF7(8)/

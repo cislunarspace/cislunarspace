@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Launch Window | Terminology Definition
+  title: "Launch Window | Terminology Definition"
   description: Detailed explanation of the launch window definition and determination method
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Launch Window | Terminology Definition
+  title: "Launch Window | Terminology Definition"
   description: Detailed explanation of the launch window definition and determination method
   image: /logo.png
 permalink: /en/glossary/fundamentals/launch-window/

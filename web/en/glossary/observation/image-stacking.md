@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Image Stacking Explained | Core Astronomical Image Processing Technique
+  title: "Image Stacking Explained | Core Astronomical Image Processing Technique"
   description: Image stacking is an image processing technique that combines multiple frames to enhance signal-to-noise ratio and improve detection capabilities for faint celestial objects.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Image Stacking Explained | Core Astronomical Image Processing Technique
+  title: "Image Stacking Explained | Core Astronomical Image Processing Technique"
   description: Image stacking is an image processing technique that combines multiple frames to enhance signal-to-noise ratio and improve detection capabilities for faint celestial objects.
   image: /logo.png
 permalink: /en/glossary/observation/image-stacking/

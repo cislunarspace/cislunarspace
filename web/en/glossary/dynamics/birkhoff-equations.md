@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Birkhoff Equations Explained | Term Definition
+  title: "Birkhoff Equations Explained | Term Definition"
   description: A reformulation of the circular restricted three-body problem that replaces six state variables with five new ones (x, y, z, γ, νz), eliminating velocity mag...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Birkhoff Equations Explained | Term Definition
+  title: "Birkhoff Equations Explained | Term Definition"
   description: A reformulation of the circular restricted three-body problem that replaces six state variables with five new ones (x, y, z, γ, νz), eliminating velocity mag...
   image: /logo.png
 permalink: /en/glossary/dynamics/birkhoff-equations/

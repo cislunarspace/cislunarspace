@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Modified Delaunay Variables Explained | Term Definition
+  title: "Modified Delaunay Variables Explained | Term Definition"
   description: A set of canonical variables redefined from standard Delaunay variables to avoid singularities when eccentricity approaches zero. Defined as Λ = L, P = L - G, Q
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Modified Delaunay Variables Explained | Term Definition
+  title: "Modified Delaunay Variables Explained | Term Definition"
   description: A set of canonical variables redefined from standard Delaunay variables to avoid singularities when eccentricity approaches zero. Defined as Λ = L, P = L - G, Q
   image: /logo.png
 permalink: /en/glossary/fundamentals/modified-delaunay-variables/

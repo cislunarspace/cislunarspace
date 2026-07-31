@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High-Fidelity Model Explained | Term Definition
+  title: "High-Fidelity Model Explained | Term Definition"
   description: A dynamical model that includes all relevant perturbation sources in orbital motion simulations. The high-fidelity model in this work incorporates the lunar gravitational potential (with LP100K hig...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High-Fidelity Model Explained | Term Definition
+  title: "High-Fidelity Model Explained | Term Definition"
   description: A dynamical model that includes all relevant perturbation sources in orbital motion simulations. The high-fidelity model in this work incorporates the lunar gravitational potential (with LP100K hig...
   image: /logo.png
 permalink: /en/glossary/dynamics/high-fidelity-model/

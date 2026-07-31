@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near Resonance Theorem Explained | Term Definition
+  title: "Near Resonance Theorem Explained | Term Definition"
   description: A theory extending the Liouville and Hartman theorems to near-resonance cases, proving the existence of central manifolds and their interaction with stable...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near Resonance Theorem Explained | Term Definition
+  title: "Near Resonance Theorem Explained | Term Definition"
   description: A theory extending the Liouville and Hartman theorems to near-resonance cases, proving the existence of central manifolds and their interaction with stable...
   image: /logo.png
 permalink: /en/glossary/dynamics/near-resonance-theorem/

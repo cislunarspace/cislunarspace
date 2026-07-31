@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Sun-Earth-Moon Autonomous Navigation Explained | Libration-Point Probe Navigation Method
+  title: "Sun-Earth-Moon Autonomous Navigation Explained | Libration-Point Probe Navigation Method"
   description: An in-depth analysis of the Sun-Earth-Moon angular-position-based autonomous navigation method, including principles, sensor configurations, and applications for libration-point quasi-periodic orbit probes
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun-Earth-Moon Autonomous Navigation Explained | Libration-Point Probe Navigation Method
+  title: "Sun-Earth-Moon Autonomous Navigation Explained | Libration-Point Probe Navigation Method"
   description: An in-depth analysis of the Sun-Earth-Moon angular-position-based autonomous navigation method, including principles, sensor configurations, and applications for libration-point quasi-periodic orbit probes
   image: /logo.png
 permalink: /en/glossary/navigation/sem-autonomous-navigation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Periodic Orbit Explained | Term Definition
+  title: "Lunar Periodic Orbit Explained | Term Definition"
   description: A closed orbit encircling the Moon in the planar CR3BP. Like Lyapunov orbits about L1, these orbits can be analyzed together with invariant manifolds in the ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Periodic Orbit Explained | Term Definition
+  title: "Lunar Periodic Orbit Explained | Term Definition"
   description: A closed orbit encircling the Moon in the planar CR3BP. Like Lyapunov orbits about L1, these orbits can be analyzed together with invariant manifolds in the ...
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-periodic-orbit/

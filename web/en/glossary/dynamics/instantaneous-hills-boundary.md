@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Instantaneous Hill's Boundary" Explained | Term Definition
+  title: "\"Instantaneous Hill's Boundary\" Explained | Term Definition"
   description: "The boundary of the zero-velocity surface defined by the Hamiltonian function, varying periodically with time under solar gravitational perturbation, used to define equivalent libration points."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Instantaneous Hill's Boundary" Explained | Term Definition
+  title: "\"Instantaneous Hill's Boundary\" Explained | Term Definition"
   description: "The boundary of the zero-velocity surface defined by the Hamiltonian function, varying periodically with time under solar gravitational perturbation, used to define equivalent libration points."
   image: /logo.png
 permalink: /en/glossary/dynamics/instantaneous-hills-boundary/

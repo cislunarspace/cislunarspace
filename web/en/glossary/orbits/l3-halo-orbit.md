@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L3 Halo Orbit Explained | Term Definition
+  title: "L3 Halo Orbit Explained | Term Definition"
   description: Halo orbits about the third collinear Lagrangian point (L3) of the Earth-Moon system. L3 lies on the opposite side of Earth from the Moon. These orbits are unst
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L3 Halo Orbit Explained | Term Definition
+  title: "L3 Halo Orbit Explained | Term Definition"
   description: Halo orbits about the third collinear Lagrangian point (L3) of the Earth-Moon system. L3 lies on the opposite side of Earth from the Moon. These orbits are unst
   image: /logo.png
 permalink: /en/glossary/orbits/l3-halo-orbit/

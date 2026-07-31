@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Rendezvous and Docking, RVD Explained | Term Definition
+  title: "Rendezvous and Docking, RVD Explained | Term Definition"
   description: The process of a chaser spacecraft meeting and mechanically connecting with a target spacecraft on orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Rendezvous and Docking, RVD Explained | Term Definition
+  title: "Rendezvous and Docking, RVD Explained | Term Definition"
   description: The process of a chaser spacecraft meeting and mechanically connecting with a target spacecraft on orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/rendezvous-and-docking/

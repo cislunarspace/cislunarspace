@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust-Magnitude Continuation Explained | Term Definition
+  title: "Thrust-Magnitude Continuation Explained | Term Definition"
   description: Starting from a large thrust magnitude, the current solution serves as an initial guess for the next iteration with a reduced thrust value, progressively decrea
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust-Magnitude Continuation Explained | Term Definition
+  title: "Thrust-Magnitude Continuation Explained | Term Definition"
   description: Starting from a large thrust magnitude, the current solution serves as an initial guess for the next iteration with a reduced thrust value, progressively decrea
   image: /logo.png
 permalink: /en/glossary/orbits/thrust-magnitude-continuation/

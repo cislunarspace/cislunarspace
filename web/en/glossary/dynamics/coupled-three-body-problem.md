@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coupled Three-Body Problem Explained | Term Definition
+  title: "Coupled Three-Body Problem Explained | Term Definition"
   description: A dynamical framework that kinematically links the rotating frames of two circular restricted three-body problems through a relative orbital phase angle. For Ea
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coupled Three-Body Problem Explained | Term Definition
+  title: "Coupled Three-Body Problem Explained | Term Definition"
   description: A dynamical framework that kinematically links the rotating frames of two circular restricted three-body problems through a relative orbital phase angle. For Ea
   image: /logo.png
 permalink: /en/glossary/dynamics/coupled-three-body-problem/

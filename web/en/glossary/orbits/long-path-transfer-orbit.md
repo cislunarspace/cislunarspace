@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Long-Path Transfer Orbit Explained | Term Definition
+  title: "Long-Path Transfer Orbit Explained | Term Definition"
   description: One of two solution categories in the Lambert problem. The arc angle from departure to arrival exceeds 180 degrees, placing the two foci on opposite sides of th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Long-Path Transfer Orbit Explained | Term Definition
+  title: "Long-Path Transfer Orbit Explained | Term Definition"
   description: One of two solution categories in the Lambert problem. The arc angle from departure to arrival exceeds 180 degrees, placing the two foci on opposite sides of th
   image: /logo.png
 permalink: /en/glossary/orbits/long-path-transfer-orbit/

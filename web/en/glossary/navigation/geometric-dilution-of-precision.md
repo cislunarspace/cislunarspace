@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geometric Dilution of Precision Explained | Term Definition
+  title: "Geometric Dilution of Precision Explained | Term Definition"
   description: A factor measuring the effect of the geometric distribution of navigation satellites on positioning accuracy. Defined as the square root of the trace of (H^T...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geometric Dilution of Precision Explained | Term Definition
+  title: "Geometric Dilution of Precision Explained | Term Definition"
   description: A factor measuring the effect of the geometric distribution of navigation satellites on positioning accuracy. Defined as the square root of the trace of (H^T...
   image: /logo.png
 permalink: /en/glossary/navigation/geometric-dilution-of-precision/

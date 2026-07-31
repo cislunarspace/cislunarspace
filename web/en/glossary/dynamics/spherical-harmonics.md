@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spherical Harmonics Explained | Term Definition
+  title: "Spherical Harmonics Explained | Term Definition"
   description: Orthogonal basis functions used to expand the gravitational potential of a non-spherical body in spherical coordinates. Higher degree and order capture finer...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spherical Harmonics Explained | Term Definition
+  title: "Spherical Harmonics Explained | Term Definition"
   description: Orthogonal basis functions used to expand the gravitational potential of a non-spherical body in spherical coordinates. Higher degree and order capture finer...
   image: /logo.png
 permalink: /en/glossary/dynamics/spherical-harmonics/

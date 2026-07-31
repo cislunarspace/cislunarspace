@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial Solar Phase Angle Explained | Term Definition
+  title: "Initial Solar Phase Angle Explained | Term Definition"
   description: The angle between the Sun and the x-axis of the Earth-Moon rotating frame at the observation start time. This angle determines the spatiotemporal distribution of the solar exclusion cone within an orb...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial Solar Phase Angle Explained | Term Definition
+  title: "Initial Solar Phase Angle Explained | Term Definition"
   description: The angle between the Sun and the x-axis of the Earth-Moon rotating frame at the observation start time. This angle determines the spatiotemporal distribution of the solar exclusion cone within an orb...
   image: /logo.png
 permalink: /en/glossary/observation/initial-solar-phase-angle/

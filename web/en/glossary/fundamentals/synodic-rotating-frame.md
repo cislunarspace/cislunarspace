@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Rotating Frame Explained | Term Definition
+  title: "Synodic Rotating Frame Explained | Term Definition"
   description: A reference frame rotating with the line connecting two primary bodies. Its origin is at the Earth–Moon barycenter, the X-axis points toward the Moon, and th...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Rotating Frame Explained | Term Definition
+  title: "Synodic Rotating Frame Explained | Term Definition"
   description: A reference frame rotating with the line connecting two primary bodies. Its origin is at the Earth–Moon barycenter, the X-axis points toward the Moon, and th...
   image: /logo.png
 permalink: /en/glossary/fundamentals/synodic-rotating-frame/

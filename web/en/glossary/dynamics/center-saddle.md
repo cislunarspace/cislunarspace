@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Center-Saddle Explained | Term Definition
+  title: "Center-Saddle Explained | Term Definition"
   description: The linear stability character of collinear libration points in the CRTBP. In two dimensions it is center-saddle; in three dimensions it is center-center-saddle
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Center-Saddle Explained | Term Definition
+  title: "Center-Saddle Explained | Term Definition"
   description: The linear stability character of collinear libration points in the CRTBP. In two dimensions it is center-saddle; in three dimensions it is center-center-saddle
   image: /logo.png
 permalink: /en/glossary/dynamics/center-saddle/

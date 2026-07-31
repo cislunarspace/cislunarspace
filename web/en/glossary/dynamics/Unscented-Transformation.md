@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unscented Transformation Explained | Term Definition
+  title: "Unscented Transformation Explained | Term Definition"
   description: An algorithm that approximates the mean and covariance of a nonlinear transformation via deterministic sampling, applicable to orbital uncertainty propagation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unscented Transformation Explained | Term Definition
+  title: "Unscented Transformation Explained | Term Definition"
   description: An algorithm that approximates the mean and covariance of a nonlinear transformation via deterministic sampling, applicable to orbital uncertainty propagation.
   image: /logo.png
 permalink: /en/glossary/dynamics/Unscented-Transformation/

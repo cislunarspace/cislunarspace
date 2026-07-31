@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jump Condition Explained | Term Definition
+  title: "Jump Condition Explained | Term Definition"
   description: In optimal control problems with state constraints, the conditions governing possible discontinuities in adjoint variables and the Hamiltonian at the entry or e
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jump Condition Explained | Term Definition
+  title: "Jump Condition Explained | Term Definition"
   description: In optimal control problems with state constraints, the conditions governing possible discontinuities in adjoint variables and the Hamiltonian at the entry or e
   image: /logo.png
 permalink: /en/glossary/dynamics/jump-condition/

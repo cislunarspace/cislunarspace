@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Open-Point Scenario Explained | Term Definition
+  title: "Open-Point Scenario Explained | Term Definition"
   description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Open-Point Scenario Explained | Term Definition
+  title: "Open-Point Scenario Explained | Term Definition"
   description: 晕轨道转移的一种构型方法，将流形插入机动位置从传统的近地点点开放至流形上的任意点，从而增加了转移设计的自由度，可在更大的参数空间内搜索低能量转移轨道。外部流形最大传播时间为一个月，内部流形最大传播时间为两个月。
   image: /logo.png
 permalink: /en/glossary/orbits/open-point-scenario/

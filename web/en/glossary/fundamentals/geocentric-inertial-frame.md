@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Geocentric Inertial Frame (ECI) | Terminology Definition
+  title: "Geocentric Inertial Frame (ECI) | Terminology Definition"
   description: Definition of the Earth-Centered Inertial reference frame, the J2000.0 conventional celestial system, and applications in orbital mechanics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Inertial Frame (ECI) | Terminology Definition
+  title: "Geocentric Inertial Frame (ECI) | Terminology Definition"
   description: Definition of the Earth-Centered Inertial reference frame, the J2000.0 conventional celestial system, and applications in orbital mechanics
   image: /logo.png
 permalink: /en/glossary/fundamentals/geocentric-inertial-frame/

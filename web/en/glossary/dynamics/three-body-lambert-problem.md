@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: three-body Lambert problem Explained | Term Definition
+  title: "three-body Lambert problem Explained | Term Definition"
   description: The problem of finding a transfer trajectory between two points within a given time in the circular restricted three-body problem. Because no analytical solutio
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: three-body Lambert problem Explained | Term Definition
+  title: "three-body Lambert problem Explained | Term Definition"
   description: The problem of finding a transfer trajectory between two points within a given time in the circular restricted three-body problem. Because no analytical solutio
   image: /logo.png
 permalink: /en/glossary/dynamics/three-body-lambert-problem/

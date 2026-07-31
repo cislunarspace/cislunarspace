@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Circular Restricted Three-Body Problem, PCR3BP (PCR3BP) Explained | Term Definition
+  title: "Planar Circular Restricted Three-Body Problem, PCR3BP (PCR3BP) Explained | Term Definition"
   description: The two-dimensional specialization of the CR3BP, assuming the two primaries move in uniform circular motion in a common plane while the massless third body is c
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Circular Restricted Three-Body Problem, PCR3BP (PCR3BP) Explained | Term Definition
+  title: "Planar Circular Restricted Three-Body Problem, PCR3BP (PCR3BP) Explained | Term Definition"
   description: The two-dimensional specialization of the CR3BP, assuming the two primaries move in uniform circular motion in a common plane while the massless third body is c
   image: /logo.png
 permalink: /en/glossary/dynamics/planar-circular-restricted-three-body-problem-pcr3bp/

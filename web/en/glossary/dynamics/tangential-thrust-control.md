@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tangential Thrust Control Explained | Term Definition
+  title: "Tangential Thrust Control Explained | Term Definition"
   description: A simplified control strategy that always aligns the thrust direction with the velocity vector. For circular orbits in a central gravitational field, tangential thrust is the most efficient way to inc...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tangential Thrust Control Explained | Term Definition
+  title: "Tangential Thrust Control Explained | Term Definition"
   description: A simplified control strategy that always aligns the thrust direction with the velocity vector. For circular orbits in a central gravitational field, tangential thrust is the most efficient way to inc...
   image: /logo.png
 permalink: /en/glossary/dynamics/tangential-thrust-control/

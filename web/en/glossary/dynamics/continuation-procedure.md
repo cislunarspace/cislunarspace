@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Continuation Procedure Explained | Term Definition
+  title: "Continuation Procedure Explained | Term Definition"
   description: A numerical method that maps objects from one dynamical model to their counterparts in another by gradually varying a parameter. For libration points, continuation from CR3BP to B4BP uses a fraction o...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuation Procedure Explained | Term Definition
+  title: "Continuation Procedure Explained | Term Definition"
   description: A numerical method that maps objects from one dynamical model to their counterparts in another by gradually varying a parameter. For libration points, continuation from CR3BP to B4BP uses a fraction o...
   image: /logo.png
 permalink: /en/glossary/dynamics/continuation-procedure/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Symplectic Matrix Explained | Term Definition
+  title: "Symplectic Matrix Explained | Term Definition"
   description: A real square matrix satisfying M^T J M = J, where J is the canonical symplectic structure matrix. Symplectic matrix eigenvalues come in reciprocal pairs (lambda and 1/lambda). In Hamiltonian mechanics, the phase flow map of a Hamiltonian system preserves the symplectic structure, so its Jacobi matrix (linearized state transition matrix) is symplectic. The paper notes that the differential D_z P(z) of the Poincaré map is a symplectic matrix, which is the mathematical basis for determining Halo orbit stability.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Symplectic Matrix Explained | Term Definition
+  title: "Symplectic Matrix Explained | Term Definition"
   description: A real square matrix satisfying M^T J M = J, where J is the canonical symplectic structure matrix. Symplectic matrix eigenvalues come in reciprocal pairs (lambda and 1/lambda). In Hamiltonian mechanics, the phase flow map of a Hamiltonian system preserves the symplectic structure, so its Jacobi matrix (linearized state transition matrix) is symplectic. The paper notes that the differential D_z P(z) of the Poincaré map is a symplectic matrix, which is the mathematical basis for determining Halo orbit stability.
   image: /logo.png
 permalink: /en/glossary/fundamentals/symplectic-matrix/

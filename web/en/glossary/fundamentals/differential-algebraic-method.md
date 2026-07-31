@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Algebraic Method Explained | Term Definition
+  title: "Differential Algebraic Method Explained | Term Definition"
   description: A method that maps functions into equivalence classes and propagates derivative information of all orders through algebraic operations. Used to efficiently comp
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Algebraic Method Explained | Term Definition
+  title: "Differential Algebraic Method Explained | Term Definition"
   description: A method that maps functions into equivalence classes and propagates derivative information of all orders through algebraic operations. Used to efficiently comp
   image: /logo.png
 permalink: /en/glossary/fundamentals/differential-algebraic-method/

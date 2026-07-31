@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Buoyancy-weight Imbalance | Airship Dynamics
+  title: "Buoyancy-weight Imbalance | Airship Dynamics"
   description: A detailed analysis of buoyancy-weight imbalance definitions, cause analysis, quantitative description, and active control strategies for stratospheric airships
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Buoyancy-weight Imbalance | Airship Dynamics
+  title: "Buoyancy-weight Imbalance | Airship Dynamics"
   description: A detailed analysis of buoyancy-weight imbalance definitions, cause analysis, quantitative description, and active control strategies for stratospheric airships
   image: /logo.png
 permalink: /en/glossary/dynamics/buoyancy-weight-imbalance/

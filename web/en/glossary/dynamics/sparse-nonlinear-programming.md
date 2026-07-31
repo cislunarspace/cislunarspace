@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sparse Nonlinear Programming Explained | Term Definition
+  title: "Sparse Nonlinear Programming Explained | Term Definition"
   description: A large-scale nonlinear programming solution method that exploits sparse structures in constraint and objective function gradients to improve computational effi
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sparse Nonlinear Programming Explained | Term Definition
+  title: "Sparse Nonlinear Programming Explained | Term Definition"
   description: A large-scale nonlinear programming solution method that exploits sparse structures in constraint and objective function gradients to improve computational effi
   image: /logo.png
 permalink: /en/glossary/dynamics/sparse-nonlinear-programming/

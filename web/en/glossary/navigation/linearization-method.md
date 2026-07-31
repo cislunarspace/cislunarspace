@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linearization Method Explained | Term Definition
+  title: "Linearization Method Explained | Term Definition"
   description: An analytical method that approximates dynamical equations near an equilibrium point by their linear terms. Conley linearizes the restricted three-body...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linearization Method Explained | Term Definition
+  title: "Linearization Method Explained | Term Definition"
   description: An analytical method that approximates dynamical equations near an equilibrium point by their linear terms. Conley linearizes the restricted three-body...
   image: /logo.png
 permalink: /en/glossary/navigation/linearization-method/

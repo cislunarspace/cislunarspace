@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parameter Vector Explained | Term Definition
+  title: "Parameter Vector Explained | Term Definition"
   description: 直接打靶优化中待求解的参数集合。两脉冲转移的参数向量为[θf, ΔVf, tf]，其中θf为终止时刻的极角、ΔVf为终止脉冲速度增量、tf为转移时间。三脉冲转移则增加中间脉冲参数ΔV1和中间时刻t1。参数向量唯一确定一条转移轨道。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parameter Vector Explained | Term Definition
+  title: "Parameter Vector Explained | Term Definition"
   description: 直接打靶优化中待求解的参数集合。两脉冲转移的参数向量为[θf, ΔVf, tf]，其中θf为终止时刻的极角、ΔVf为终止脉冲速度增量、tf为转移时间。三脉冲转移则增加中间脉冲参数ΔV1和中间时刻t1。参数向量唯一确定一条转移轨道。
   image: /logo.png
 permalink: /en/glossary/dynamics/parameter-vector/

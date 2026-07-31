@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variable-Time Targeting Explained | Term Definition
+  title: "Variable-Time Targeting Explained | Term Definition"
   description: A differential correction method that treats flight time as a free variable, iterating it together with the initial state to solve for orbits satisfying constraints such as periodicity. Compared to fi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variable-Time Targeting Explained | Term Definition
+  title: "Variable-Time Targeting Explained | Term Definition"
   description: A differential correction method that treats flight time as a free variable, iterating it together with the initial state to solve for orbits satisfying constraints such as periodicity. Compared to fi...
   image: /logo.png
 permalink: /en/glossary/fundamentals/variable-time-targeting/

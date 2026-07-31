@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Gravitational Redshift | Terminology Definition
+  title: "Gravitational Redshift | Terminology Definition"
   description: Detailed analysis of gravitational redshift physics, experimental verification, and significance for cislunar space measurement
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Redshift | Terminology Definition
+  title: "Gravitational Redshift | Terminology Definition"
   description: Detailed analysis of gravitational redshift physics, experimental verification, and significance for cislunar space measurement
   image: /logo.png
 permalink: /en/glossary/fundamentals/gravitational-redshift/

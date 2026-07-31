@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition
+  title: "Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition"
   description: 将增广拉格朗日方法与迭代LQR相结合求解离散约束优化问题的算法，可处理脉冲和连续推力任务。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition
+  title: "Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition"
   description: 将增广拉格朗日方法与迭代LQR相结合求解离散约束优化问题的算法，可处理脉冲和连续推力任务。
   image: /logo.png
 permalink: /en/glossary/dynamics/augmented-lagrangian-iterative-lqr-alilqr/

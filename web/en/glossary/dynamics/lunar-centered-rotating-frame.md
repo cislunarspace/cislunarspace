@@ -1,6 +1,6 @@
 ---
 title: Lunar Centered Rotating Frame, LCROT
-description: A reference frame centered at the Moon's center, based on the three-body synodic coordinate system, with X-axis parallel to the instantaneous Earth-Moon dire...
+description: "A reference frame centered at the Moon's center, based on the three-body synodic coordinate system, with X-axis parallel to the instantaneous Earth-Moon dire..."
 keywords: Lunar Centered Rotating Frame, LCROT, LCROT, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Centered Rotating Frame, LCROT Explained | Term Definition
-  description: A reference frame centered at the Moon's center, based on the three-body synodic coordinate system, with X-axis parallel to the instantaneous Earth-Moon dire...
+  title: "Lunar Centered Rotating Frame, LCROT Explained | Term Definition"
+  description: "A reference frame centered at the Moon's center, based on the three-body synodic coordinate system, with X-axis parallel to the instantaneous Earth-Moon dire..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Centered Rotating Frame, LCROT Explained | Term Definition
-  description: A reference frame centered at the Moon's center, based on the three-body synodic coordinate system, with X-axis parallel to the instantaneous Earth-Moon dire...
+  title: "Lunar Centered Rotating Frame, LCROT Explained | Term Definition"
+  description: "A reference frame centered at the Moon's center, based on the three-body synodic coordinate system, with X-axis parallel to the instantaneous Earth-Moon dire..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-centered-rotating-frame/
 ---

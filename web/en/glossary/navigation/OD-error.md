@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Determination Error Explained | Term Definition
+  title: "Orbit Determination Error Explained | Term Definition"
   description: Position and velocity measurement deviations in the orbit determination process, modeled with zero-mean Gaussian distributions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Determination Error Explained | Term Definition
+  title: "Orbit Determination Error Explained | Term Definition"
   description: Position and velocity measurement deviations in the orbit determination process, modeled with zero-mean Gaussian distributions.
   image: /logo.png
 permalink: /en/glossary/navigation/OD-error/

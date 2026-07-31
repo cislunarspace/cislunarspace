@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Poincaré Map Explained | Term Definition
+  title: "Poincaré Map Explained | Term Definition"
   description: A dimension-reduction technique for studying high-dimensional dynamical systems through intersections of a section with the phase flow. Transforms continuous orbit problems into discrete maps, facilit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Poincaré Map Explained | Term Definition
+  title: "Poincaré Map Explained | Term Definition"
   description: A dimension-reduction technique for studying high-dimensional dynamical systems through intersections of a section with the phase flow. Transforms continuous orbit problems into discrete maps, facilit
   image: /logo.png
 permalink: /en/glossary/dynamics/poincar-map/

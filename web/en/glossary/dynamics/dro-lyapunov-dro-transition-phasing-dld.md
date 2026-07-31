@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO-Lyapunov-DRO Transition Phasing, DLD Explained | Term Definition
+  title: "DRO-Lyapunov-DRO Transition Phasing, DLD Explained | Term Definition"
   description: An indirect phasing strategy in which the spacecraft transfers tangentially from a DRO to a tangent Lyapunov transition orbit, orbits for several revolutions to
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO-Lyapunov-DRO Transition Phasing, DLD Explained | Term Definition
+  title: "DRO-Lyapunov-DRO Transition Phasing, DLD Explained | Term Definition"
   description: An indirect phasing strategy in which the spacecraft transfers tangentially from a DRO to a tangent Lyapunov transition orbit, orbits for several revolutions to
   image: /logo.png
 permalink: /en/glossary/dynamics/dro-lyapunov-dro-transition-phasing-dld/

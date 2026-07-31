@@ -1,6 +1,6 @@
 ---
 title: Indirect Optimal Control
-description: An approach to optimal control that solves a two-point boundary value problem of Hamilton's canonical equations. Based on Pontryagin's maximum principle, it ...
+description: "An approach to optimal control that solves a two-point boundary value problem of Hamilton's canonical equations. Based on Pontryagin's maximum principle, it ..."
 keywords: Indirect Optimal Control, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Optimal Control Explained | Term Definition
-  description: An approach to optimal control that solves a two-point boundary value problem of Hamilton's canonical equations. Based on Pontryagin's maximum principle, it ...
+  title: "Indirect Optimal Control Explained | Term Definition"
+  description: "An approach to optimal control that solves a two-point boundary value problem of Hamilton's canonical equations. Based on Pontryagin's maximum principle, it ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Optimal Control Explained | Term Definition
-  description: An approach to optimal control that solves a two-point boundary value problem of Hamilton's canonical equations. Based on Pontryagin's maximum principle, it ...
+  title: "Indirect Optimal Control Explained | Term Definition"
+  description: "An approach to optimal control that solves a two-point boundary value problem of Hamilton's canonical equations. Based on Pontryagin's maximum principle, it ..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/indirect-optimal-control/
 ---

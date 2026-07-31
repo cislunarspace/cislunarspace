@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Gravity vs Gravitation | Terminology Definition
+  title: "Gravity vs Gravitation | Terminology Definition"
   description: Distinction between gravity and gravitation and their significance in flight mechanics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravity vs Gravitation | Terminology Definition
+  title: "Gravity vs Gravitation | Terminology Definition"
   description: Distinction between gravity and gravitation and their significance in flight mechanics
   image: /logo.png
 permalink: /en/glossary/fundamentals/gravity-vs-gravitation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collision Avoidance Maneuver (CAM) Explained | Term Definition
+  title: "Collision Avoidance Maneuver (CAM) Explained | Term Definition"
   description: An emergency maneuver executed when a collision risk is detected, usually triggered when relative distance and velocity meet specific conditions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collision Avoidance Maneuver (CAM) Explained | Term Definition
+  title: "Collision Avoidance Maneuver (CAM) Explained | Term Definition"
   description: An emergency maneuver executed when a collision risk is detected, usually triggered when relative distance and velocity meet specific conditions.
   image: /logo.png
 permalink: /en/glossary/navigation/collision-avoidance-maneuver/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonance Hopping Explained | Term Definition
+  title: "Resonance Hopping Explained | Term Definition"
   description: "A phenomenon where a celestial body transitions from one orbital resonance ratio to another through temporary capture by a planet. Classic examples are Jupiter's comets Oterma and Gehrels 3, which hop..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonance Hopping Explained | Term Definition
+  title: "Resonance Hopping Explained | Term Definition"
   description: "A phenomenon where a celestial body transitions from one orbital resonance ratio to another through temporary capture by a planet. Classic examples are Jupiter's comets Oterma and Gehrels 3, which hop..."
   image: /logo.png
 permalink: /en/glossary/dynamics/resonance-hopping/

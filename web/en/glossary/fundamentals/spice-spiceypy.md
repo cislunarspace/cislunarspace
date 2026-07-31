@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: SPICE, SpiceyPy (SPICE) Explained | Term Definition
+  title: "SPICE, SpiceyPy (SPICE) Explained | Term Definition"
   description: A spacecraft mission toolkit developed by JPL and widely used in NASA planetary missions. Provides ephemeris computation, time conversion, and coordinate transf
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: SPICE, SpiceyPy (SPICE) Explained | Term Definition
+  title: "SPICE, SpiceyPy (SPICE) Explained | Term Definition"
   description: A spacecraft mission toolkit developed by JPL and widely used in NASA planetary missions. Provides ephemeris computation, time conversion, and coordinate transf
   image: /logo.png
 permalink: /en/glossary/fundamentals/spice-spiceypy/

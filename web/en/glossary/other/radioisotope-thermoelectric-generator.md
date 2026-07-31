@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radioisotope Thermoelectric Generator Explained | Term Definition
+  title: "Radioisotope Thermoelectric Generator Explained | Term Definition"
   description: "A nuclear power device that converts heat from radioactive isotope decay (such as 238Pu) directly into electricity through the Seebeck effect in thermocouples. The Chang'e-4 lander uses an RTG based o"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radioisotope Thermoelectric Generator Explained | Term Definition
+  title: "Radioisotope Thermoelectric Generator Explained | Term Definition"
   description: "A nuclear power device that converts heat from radioactive isotope decay (such as 238Pu) directly into electricity through the Seebeck effect in thermocouples. The Chang'e-4 lander uses an RTG based o"
   image: /logo.png
 permalink: /en/glossary/other/radioisotope-thermoelectric-generator/

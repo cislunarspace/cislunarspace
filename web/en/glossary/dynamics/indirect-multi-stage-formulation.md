@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Multi-Stage Formulation Explained | Term Definition
+  title: "Indirect Multi-Stage Formulation Explained | Term Definition"
   description: A method that divides a complete trajectory into a series of connected stages via equality constraints, optimizing control independently for each stage.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Multi-Stage Formulation Explained | Term Definition
+  title: "Indirect Multi-Stage Formulation Explained | Term Definition"
   description: A method that divides a complete trajectory into a series of connected stages via equality constraints, optimizing control independently for each stage.
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-multi-stage-formulation/

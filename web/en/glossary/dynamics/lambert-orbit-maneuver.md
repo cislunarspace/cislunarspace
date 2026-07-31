@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Lambert Orbit Maneuver Explained | Term Definition
+  title: "Lambert Orbit Maneuver Explained | Term Definition"
   description: "An orbital maneuver method that uses Lambert's problem to solve for optimal transfer trajectory and required velocity increment from current orbit position to target position."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert Orbit Maneuver Explained | Term Definition
+  title: "Lambert Orbit Maneuver Explained | Term Definition"
   description: "An orbital maneuver method that uses Lambert's problem to solve for optimal transfer trajectory and required velocity increment from current orbit position to target position."
   image: /logo.png
 permalink: /en/glossary/dynamics/lambert-orbit-maneuver/

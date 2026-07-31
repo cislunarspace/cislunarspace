@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Phase of Halo Orbit (τ)" Explained | Term Definition
+  title: "\"Phase of Halo Orbit (τ)\" Explained | Term Definition"
   description: "A phase parameter on a halo orbit, dividing the halo orbit into 360 equally-spaced points, used to select different departure/arrival points to increase transfer opportunities. Introducing the halo orbit phase as a second variable can greatly increase transfer opportunities."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Phase of Halo Orbit (τ)" Explained | Term Definition
+  title: "\"Phase of Halo Orbit (τ)\" Explained | Term Definition"
   description: "A phase parameter on a halo orbit, dividing the halo orbit into 360 equally-spaced points, used to select different departure/arrival points to increase transfer opportunities. Introducing the halo orbit phase as a second variable can greatly increase transfer opportunities."
   image: /logo.png
 permalink: /en/glossary/orbits/phase-of-halo-orbit/

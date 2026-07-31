@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mixed Method / Hybrid Method Explained | Term Definition
+  title: "Mixed Method / Hybrid Method Explained | Term Definition"
   description: A class of trajectory optimization methods. Uses the optimal control law derived from the indirect method without including other optimality conditions, and solves the problem via parameter optimizati...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mixed Method / Hybrid Method Explained | Term Definition
+  title: "Mixed Method / Hybrid Method Explained | Term Definition"
   description: A class of trajectory optimization methods. Uses the optimal control law derived from the indirect method without including other optimality conditions, and solves the problem via parameter optimizati...
   image: /logo.png
 permalink: /en/glossary/dynamics/mixed-method-hybrid-method/

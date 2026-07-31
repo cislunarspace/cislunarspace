@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nekhorosev Estimates Explained | Term Definition
+  title: "Nekhorosev Estimates Explained | Term Definition"
   description: Exponential lower bounds on the time scale for which orbits near an energy level remain close to integrable trajectories in near-integrable Hamiltonian systems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nekhorosev Estimates Explained | Term Definition
+  title: "Nekhorosev Estimates Explained | Term Definition"
   description: Exponential lower bounds on the time scale for which orbits near an energy level remain close to integrable trajectories in near-integrable Hamiltonian systems.
   image: /logo.png
 permalink: /en/glossary/dynamics/nekhorosev-estimates/

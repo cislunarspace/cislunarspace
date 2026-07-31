@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Theorem of Image Trajectories Explained | Term Definition
+  title: "Theorem of Image Trajectories Explained | Term Definition"
   description: If a trajectory is feasible in the CR3BP, then three trajectories generated via time reflection and sign changes (image trajectories) are also feasible. This th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Theorem of Image Trajectories Explained | Term Definition
+  title: "Theorem of Image Trajectories Explained | Term Definition"
   description: If a trajectory is feasible in the CR3BP, then three trajectories generated via time reflection and sign changes (image trajectories) are also feasible. This th
   image: /logo.png
 permalink: /en/glossary/dynamics/theorem-of-image-trajectories/

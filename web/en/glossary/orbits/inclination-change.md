@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inclination Change Explained | Term Definition
+  title: "Inclination Change Explained | Term Definition"
   description: The change in the angle between the orbital plane and a reference plane. In cislunar space, the inclination of vertically stable manifolds can be significantly amplified through multiple lunar flybys,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inclination Change Explained | Term Definition
+  title: "Inclination Change Explained | Term Definition"
   description: The change in the angle between the orbital plane and a reference plane. In cislunar space, the inclination of vertically stable manifolds can be significantly amplified through multiple lunar flybys,...
   image: /logo.png
 permalink: /en/glossary/orbits/inclination-change/

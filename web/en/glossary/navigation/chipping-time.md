@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chipping Time Explained | Term Definition
+  title: "Chipping Time Explained | Term Definition"
   description: The duration of a single chip of a GNSS pseudo-random code, equal to the reciprocal of the chipping rate. For the L1 C/A code, the chipping time is approxima...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chipping Time Explained | Term Definition
+  title: "Chipping Time Explained | Term Definition"
   description: The duration of a single chip of a GNSS pseudo-random code, equal to the reciprocal of the chipping rate. For the L1 C/A code, the chipping time is approxima...
   image: /logo.png
 permalink: /en/glossary/navigation/chipping-time/

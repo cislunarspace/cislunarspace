@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Image Registration Explained | Cislunar Image Processing
+  title: "Image Registration Explained | Cislunar Image Processing"
   description: Detailed explanation of image registration including definition, core algorithms, subpixel alignment techniques, and applications in cislunar moving object observation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Image Registration Explained | Cislunar Image Processing
+  title: "Image Registration Explained | Cislunar Image Processing"
   description: Detailed explanation of image registration including definition, core algorithms, subpixel alignment techniques, and applications in cislunar moving object observation
   image: /logo.png
 permalink: /en/glossary/observation/image-registration/

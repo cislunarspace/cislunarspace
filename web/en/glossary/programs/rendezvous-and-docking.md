@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Rendezvous and Docking Explained | Term Definition
+  title: "Rendezvous and Docking Explained | Term Definition"
   description: The process of two spacecraft approaching and mechanically connecting in orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Rendezvous and Docking Explained | Term Definition
+  title: "Rendezvous and Docking Explained | Term Definition"
   description: The process of two spacecraft approaching and mechanically connecting in orbit.
   image: /logo.png
 permalink: /en/glossary/programs/rendezvous-and-docking/

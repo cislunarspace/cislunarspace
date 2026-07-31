@@ -1,6 +1,6 @@
 ---
 title: Selenocentric Instantaneous Earth-Moon Plane Coordinate Frame
-description: A reference frame with origin at the Moon's center and axes aligned with the barycentric synodic frame. Since its axes do not rotate with the lunar body, the re
+description: "A reference frame with origin at the Moon's center and axes aligned with the barycentric synodic frame. Since its axes do not rotate with the lunar body, the re"
 keywords: Selenocentric Instantaneous Earth-Moon Plane Coordinate Frame, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Selenocentric Instantaneous Earth-Moon Plane Coordinate Frame Explained | Term Definition
-  description: A reference frame with origin at the Moon's center and axes aligned with the barycentric synodic frame. Since its axes do not rotate with the lunar body, the re
+  title: "Selenocentric Instantaneous Earth-Moon Plane Coordinate Frame Explained | Term Definition"
+  description: "A reference frame with origin at the Moon's center and axes aligned with the barycentric synodic frame. Since its axes do not rotate with the lunar body, the re"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Selenocentric Instantaneous Earth-Moon Plane Coordinate Frame Explained | Term Definition
-  description: A reference frame with origin at the Moon's center and axes aligned with the barycentric synodic frame. Since its axes do not rotate with the lunar body, the re
+  title: "Selenocentric Instantaneous Earth-Moon Plane Coordinate Frame Explained | Term Definition"
+  description: "A reference frame with origin at the Moon's center and axes aligned with the barycentric synodic frame. Since its axes do not rotate with the lunar body, the re"
   image: /logo.png
 permalink: /en/glossary/fundamentals/selenocentric-instantaneous-earth-moon-plane-coordinate-frame/
 ---

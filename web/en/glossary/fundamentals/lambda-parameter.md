@@ -1,6 +1,6 @@
 ---
 title: Lambda Parameter
-description: λ＝|r₁|V²/μ, a dimensionless parameter distinguishing trajectory types: λ<2 elliptical, λ=2 parabolic, λ>2 hyperbolic.
+description: "λ＝|r₁|V²/μ, a dimensionless parameter distinguishing trajectory types: λ<2 elliptical, λ=2 parabolic, λ>2 hyperbolic."
 keywords: Lambda Parameter, λ
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambda Parameter Explained | Term Definition
-  description: λ＝|r₁|V²/μ, a dimensionless parameter distinguishing trajectory types: λ<2 elliptical, λ=2 parabolic, λ>2 hyperbolic.
+  title: "Lambda Parameter Explained | Term Definition"
+  description: "λ＝|r₁|V²/μ, a dimensionless parameter distinguishing trajectory types: λ<2 elliptical, λ=2 parabolic, λ>2 hyperbolic."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambda Parameter Explained | Term Definition
-  description: λ＝|r₁|V²/μ, a dimensionless parameter distinguishing trajectory types: λ<2 elliptical, λ=2 parabolic, λ>2 hyperbolic.
+  title: "Lambda Parameter Explained | Term Definition"
+  description: "λ＝|r₁|V²/μ, a dimensionless parameter distinguishing trajectory types: λ<2 elliptical, λ=2 parabolic, λ>2 hyperbolic."
   image: /logo.png
 permalink: /en/glossary/fundamentals/lambda-parameter/
 ---

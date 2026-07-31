@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Differential Evolution Details | Global Optimization for Orbit Design
+  title: "Differential Evolution Details | Global Optimization for Orbit Design"
   description: Detailed analysis of the differential evolution algorithm and its applications in orbital mechanics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Evolution Details | Global Optimization for Orbit Design
+  title: "Differential Evolution Details | Global Optimization for Orbit Design"
   description: Detailed analysis of the differential evolution algorithm and its applications in orbital mechanics
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-evolution/

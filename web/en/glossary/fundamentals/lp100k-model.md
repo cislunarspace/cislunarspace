@@ -1,6 +1,6 @@
 ---
 title: LP100K Model
-description: A lunar gravity field model derived from Lunar Prospector mission data, providing zonal, tesseral, and sectoral harmonic coefficients up to degree and order 100. Terms with coefficients exceeding |...
+description: "A lunar gravity field model derived from Lunar Prospector mission data, providing zonal, tesseral, and sectoral harmonic coefficients up to degree and order 100. Terms with coefficients exceeding |..."
 keywords: LP100K Model, LP100K
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LP100K Model Explained | Term Definition
-  description: A lunar gravity field model derived from Lunar Prospector mission data, providing zonal, tesseral, and sectoral harmonic coefficients up to degree and order 100. Terms with coefficients exceeding |...
+  title: "LP100K Model Explained | Term Definition"
+  description: "A lunar gravity field model derived from Lunar Prospector mission data, providing zonal, tesseral, and sectoral harmonic coefficients up to degree and order 100. Terms with coefficients exceeding |..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LP100K Model Explained | Term Definition
-  description: A lunar gravity field model derived from Lunar Prospector mission data, providing zonal, tesseral, and sectoral harmonic coefficients up to degree and order 100. Terms with coefficients exceeding |...
+  title: "LP100K Model Explained | Term Definition"
+  description: "A lunar gravity field model derived from Lunar Prospector mission data, providing zonal, tesseral, and sectoral harmonic coefficients up to degree and order 100. Terms with coefficients exceeding |..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/lp100k-model/
 ---

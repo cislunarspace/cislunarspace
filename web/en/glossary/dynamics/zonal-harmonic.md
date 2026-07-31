@@ -1,6 +1,6 @@
 ---
 title: Zonal Harmonic
-description: Harmonic terms in Earth's gravitational potential depending only on latitude, such as J2, J3, J4.
+description: "Harmonic terms in Earth's gravitational potential depending only on latitude, such as J2, J3, J4."
 keywords: Zonal Harmonic, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Zonal Harmonic Explained | Term Definition
-  description: Harmonic terms in Earth's gravitational potential depending only on latitude, such as J2, J3, J4.
+  title: "Zonal Harmonic Explained | Term Definition"
+  description: "Harmonic terms in Earth's gravitational potential depending only on latitude, such as J2, J3, J4."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zonal Harmonic Explained | Term Definition
-  description: Harmonic terms in Earth's gravitational potential depending only on latitude, such as J2, J3, J4.
+  title: "Zonal Harmonic Explained | Term Definition"
+  description: "Harmonic terms in Earth's gravitational potential depending only on latitude, such as J2, J3, J4."
   image: /logo.png
 permalink: /en/glossary/dynamics/zonal-harmonic/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Lagrangian Point Explained | Term Definition
+  title: "Lagrangian Point Explained | Term Definition"
   description: The five equilibrium points in a two-body system where a third body can maintain fixed relative position with the two primaries. Collinear points (L1, L2, L3) are unstable but support halo, quasi-halo, and Lissajous orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lagrangian Point Explained | Term Definition
+  title: "Lagrangian Point Explained | Term Definition"
   description: The five equilibrium points in a two-body system where a third body can maintain fixed relative position with the two primaries. Collinear points (L1, L2, L3) are unstable but support halo, quasi-halo, and Lissajous orbits.
   image: /logo.png
 permalink: /en/glossary/orbits/lagrangian-point/

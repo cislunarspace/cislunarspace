@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dual-Period Motion Explained | Term Definition
+  title: "Dual-Period Motion Explained | Term Definition"
   description: Motion near triangular libration points that simultaneously contains both long-period and short-period frequency components. The resulting relative dynamics ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dual-Period Motion Explained | Term Definition
+  title: "Dual-Period Motion Explained | Term Definition"
   description: Motion near triangular libration points that simultaneously contains both long-period and short-period frequency components. The resulting relative dynamics ...
   image: /logo.png
 permalink: /en/glossary/dynamics/dual-period-motion/

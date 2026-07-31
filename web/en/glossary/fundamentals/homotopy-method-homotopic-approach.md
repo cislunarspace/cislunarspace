@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homotopy Method / Homotopic Approach Explained | Term Definition
+  title: "Homotopy Method / Homotopic Approach Explained | Term Definition"
   description: An optimization strategy that introduces a continuous parameter to gradually deform an easily solvable problem into the target difficult problem, thereby obtaining initial guesses and improving conver...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homotopy Method / Homotopic Approach Explained | Term Definition
+  title: "Homotopy Method / Homotopic Approach Explained | Term Definition"
   description: An optimization strategy that introduces a continuous parameter to gradually deform an easily solvable problem into the target difficult problem, thereby obtaining initial guesses and improving conver...
   image: /logo.png
 permalink: /en/glossary/fundamentals/homotopy-method-homotopic-approach/

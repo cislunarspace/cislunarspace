@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Impulse Thrust Details | Basic Propulsion Mode for Orbit Control
+  title: "Impulse Thrust Details | Basic Propulsion Mode for Orbit Control"
   description: Detailed analysis of impulse thrust definition, comparison with continuous thrust, and application in orbit keeping
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Impulse Thrust Details | Basic Propulsion Mode for Orbit Control
+  title: "Impulse Thrust Details | Basic Propulsion Mode for Orbit Control"
   description: Detailed analysis of impulse thrust definition, comparison with continuous thrust, and application in orbit keeping
   image: /logo.png
 permalink: /en/glossary/other/impulse-thrust/

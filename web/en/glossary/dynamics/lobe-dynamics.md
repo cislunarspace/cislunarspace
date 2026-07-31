@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Lobe Dynamics Explained | Term Definition
+  title: "Lobe Dynamics Explained | Term Definition"
   description: A theory and method for analyzing material transport between different regions of phase space, based on lobe structures enclosed by stable and unstable manifolds of saddle points on Poincare sections.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lobe Dynamics Explained | Term Definition
+  title: "Lobe Dynamics Explained | Term Definition"
   description: A theory and method for analyzing material transport between different regions of phase space, based on lobe structures enclosed by stable and unstable manifolds of saddle points on Poincare sections.
   image: /logo.png
 permalink: /en/glossary/dynamics/lobe-dynamics/

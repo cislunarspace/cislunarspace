@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geostationary Transfer Orbit Explained | Term Definition
+  title: "Geostationary Transfer Orbit Explained | Term Definition"
   description: A highly elliptical orbit with perigee at low Earth orbit altitude and apogee at geostationary orbit altitude (~35,786 km). The inclination is about 28.5 degrees, determined by launch site latitude...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geostationary Transfer Orbit Explained | Term Definition
+  title: "Geostationary Transfer Orbit Explained | Term Definition"
   description: A highly elliptical orbit with perigee at low Earth orbit altitude and apogee at geostationary orbit altitude (~35,786 km). The inclination is about 28.5 degrees, determined by launch site latitude...
   image: /logo.png
 permalink: /en/glossary/orbits/geostationary-transfer-orbit/

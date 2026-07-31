@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Dynamic Programming (DDP) Explained | Term Definition
+  title: "Differential Dynamic Programming (DDP) Explained | Term Definition"
   description: "An iterative nonlinear optimal control algorithm based on Bellman's principle of optimality. Instead of directly minimizing the global cost function, it..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Dynamic Programming (DDP) Explained | Term Definition
+  title: "Differential Dynamic Programming (DDP) Explained | Term Definition"
   description: "An iterative nonlinear optimal control algorithm based on Bellman's principle of optimality. Instead of directly minimizing the global cost function, it..."
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-dynamic-programming/

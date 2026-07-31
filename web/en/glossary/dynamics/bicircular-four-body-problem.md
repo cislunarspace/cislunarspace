@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bicircular Four-Body Problem Explained | Term Definition
+  title: "Bicircular Four-Body Problem Explained | Term Definition"
   description: A four-body dynamical model describing two primary bodies moving in circular orbits around their common barycenter with a test mass moving in their combined gravitational field, used to simulate the r...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bicircular Four-Body Problem Explained | Term Definition
+  title: "Bicircular Four-Body Problem Explained | Term Definition"
   description: A four-body dynamical model describing two primary bodies moving in circular orbits around their common barycenter with a test mass moving in their combined gravitational field, used to simulate the r...
   image: /logo.png
 permalink: /en/glossary/dynamics/bicircular-four-body-problem/

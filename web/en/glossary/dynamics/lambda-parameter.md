@@ -1,6 +1,6 @@
 ---
 title: Lambda Parameter, λ
-description: λ = |r|V²/μ, a dimensionless parameter representing twice kinetic energy divided by potential energy; it determines trajectory type: λ < 2 gives elliptical, ...
+description: "λ = |r|V²/μ, a dimensionless parameter representing twice kinetic energy divided by potential energy; it determines trajectory type: λ < 2 gives elliptical, ..."
 keywords: Lambda Parameter, λ
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambda Parameter, λ Explained | Term Definition
-  description: λ = |r|V²/μ, a dimensionless parameter representing twice kinetic energy divided by potential energy; it determines trajectory type: λ < 2 gives elliptical, ...
+  title: "Lambda Parameter, λ Explained | Term Definition"
+  description: "λ = |r|V²/μ, a dimensionless parameter representing twice kinetic energy divided by potential energy; it determines trajectory type: λ < 2 gives elliptical, ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambda Parameter, λ Explained | Term Definition
-  description: λ = |r|V²/μ, a dimensionless parameter representing twice kinetic energy divided by potential energy; it determines trajectory type: λ < 2 gives elliptical, ...
+  title: "Lambda Parameter, λ Explained | Term Definition"
+  description: "λ = |r|V²/μ, a dimensionless parameter representing twice kinetic energy divided by potential energy; it determines trajectory type: λ < 2 gives elliptical, ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lambda-parameter/
 ---

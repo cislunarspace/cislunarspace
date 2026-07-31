@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Shift-and-Add, SAA (SAA) Explained | Term Definition
+  title: "Shift-and-Add, SAA (SAA) Explained | Term Definition"
   description: An image-processing technique for detecting faint moving celestial objects. It assumes a series of trial displacements for the target, shifts multiple consecuti
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shift-and-Add, SAA (SAA) Explained | Term Definition
+  title: "Shift-and-Add, SAA (SAA) Explained | Term Definition"
   description: An image-processing technique for detecting faint moving celestial objects. It assumes a series of trial displacements for the target, shifts multiple consecuti
   image: /logo.png
 permalink: /en/glossary/observation/shift-and-add-saa/

@@ -1,6 +1,6 @@
 ---
 title: Gravitational Potential
-description: Detailed analysis of the definition of Earth's gravitational potential, spherical harmonic expansion, normal and disturbing potentials, and applications in orbital mechanics
+description: "Detailed analysis of the definition of Earth's gravitational potential, spherical harmonic expansion, normal and disturbing potentials, and applications in orbital mechanics"
 keywords: Gravitational Potential, gravitational field, spherical harmonics, disturbing potential, normal potential, Earth gravity
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Gravitational Potential | Terminology Definition
-  description: Detailed analysis of Earth's gravitational potential and its applications in orbital mechanics
+  title: "Gravitational Potential | Terminology Definition"
+  description: "Detailed analysis of Earth's gravitational potential and its applications in orbital mechanics"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Potential | Terminology Definition
-  description: Detailed analysis of Earth's gravitational potential and its applications in orbital mechanics
+  title: "Gravitational Potential | Terminology Definition"
+  description: "Detailed analysis of Earth's gravitational potential and its applications in orbital mechanics"
   image: /logo.png
 permalink: /en/glossary/fundamentals/gravitational-potential/
 ---

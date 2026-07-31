@@ -1,6 +1,6 @@
 ---
 title: Ballistic Capture
-description: The process by which a spacecraft enters a target body's capture region relying solely on natural dynamics, without or with minimal active propulsion. The paper
+description: "The process by which a spacecraft enters a target body's capture region relying solely on natural dynamics, without or with minimal active propulsion. The paper"
 keywords: Ballistic Capture, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ballistic Capture Explained | Term Definition
-  description: The process by which a spacecraft enters a target body's capture region relying solely on natural dynamics, without or with minimal active propulsion. The paper
+  title: "Ballistic Capture Explained | Term Definition"
+  description: "The process by which a spacecraft enters a target body's capture region relying solely on natural dynamics, without or with minimal active propulsion. The paper"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Capture Explained | Term Definition
-  description: The process by which a spacecraft enters a target body's capture region relying solely on natural dynamics, without or with minimal active propulsion. The paper
+  title: "Ballistic Capture Explained | Term Definition"
+  description: "The process by which a spacecraft enters a target body's capture region relying solely on natural dynamics, without or with minimal active propulsion. The paper"
   image: /logo.png
 permalink: /en/glossary/dynamics/ballistic-capture/
 ---

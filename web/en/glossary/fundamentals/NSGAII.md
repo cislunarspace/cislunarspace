@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Dominated Sorting Genetic Algorithm II Explained | Term Definition
+  title: "Non-Dominated Sorting Genetic Algorithm II Explained | Term Definition"
   description: An efficient multi-objective evolutionary algorithm that rapidly sorts the population into layers via non-dominated sorting, measures solution diversity using c
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Dominated Sorting Genetic Algorithm II Explained | Term Definition
+  title: "Non-Dominated Sorting Genetic Algorithm II Explained | Term Definition"
   description: An efficient multi-objective evolutionary algorithm that rapidly sorts the population into layers via non-dominated sorting, measures solution diversity using c
   image: /logo.png
 permalink: /en/glossary/fundamentals/NSGAII/

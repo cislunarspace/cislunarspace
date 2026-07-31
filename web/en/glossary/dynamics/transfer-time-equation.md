@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer time equation Explained | Term Definition
+  title: "Transfer time equation Explained | Term Definition"
   description: 将转移时间表示为通用变量x的函数T(x)，是Lambert求解器迭代求解的核心方程。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer time equation Explained | Term Definition
+  title: "Transfer time equation Explained | Term Definition"
   description: 将转移时间表示为通用变量x的函数T(x)，是Lambert求解器迭代求解的核心方程。
   image: /logo.png
 permalink: /en/glossary/dynamics/transfer-time-equation/

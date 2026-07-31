@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Verification and Validation Explained | Term Definition
+  title: "Verification and Validation Explained | Term Definition"
   description: Systematic methods for evaluating the performance and robustness of guidance and control algorithms, including design metrics and corresponding verification methods.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Verification and Validation Explained | Term Definition
+  title: "Verification and Validation Explained | Term Definition"
   description: Systematic methods for evaluating the performance and robustness of guidance and control algorithms, including design metrics and corresponding verification methods.
   image: /logo.png
 permalink: /en/glossary/fundamentals/v-and-v/

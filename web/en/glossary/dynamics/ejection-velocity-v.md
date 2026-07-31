@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ejection Velocity, ΔV Explained | Term Definition
+  title: "Ejection Velocity, ΔV Explained | Term Definition"
   description: "The velocity increment acquired by fragments upon separation from the parent spacecraft. In the NASA SBM, ejection velocity direction is uniformly distributed on a sphere, with magnitude determined by fragment area-to-mass ratio. The heaviest fragment's ejection velocity must be corrected to satisfy momentum conservation."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ejection Velocity, ΔV Explained | Term Definition
+  title: "Ejection Velocity, ΔV Explained | Term Definition"
   description: "The velocity increment acquired by fragments upon separation from the parent spacecraft. In the NASA SBM, ejection velocity direction is uniformly distributed on a sphere, with magnitude determined by fragment area-to-mass ratio. The heaviest fragment's ejection velocity must be corrected to satisfy momentum conservation."
   image: /logo.png
 permalink: /en/glossary/dynamics/ejection-velocity-v/

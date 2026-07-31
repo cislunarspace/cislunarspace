@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 9:2 Synodic Resonance Explained | Term Definition
+  title: "9:2 Synodic Resonance Explained | Term Definition"
   description: 轨道周期与月地连线旋转周期成9:2比例的共振关系。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 9:2 Synodic Resonance Explained | Term Definition
+  title: "9:2 Synodic Resonance Explained | Term Definition"
   description: 轨道周期与月地连线旋转周期成9:2比例的共振关系。
   image: /logo.png
 permalink: /en/glossary/orbits/92-synodic-resonance/

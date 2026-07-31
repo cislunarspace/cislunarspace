@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Communication and Navigation System Explained | Term Definition
+  title: "Lunar Communication and Navigation System Explained | Term Definition"
   description: System architecture using lunar orbit satellite constellations to provide communication and navigation services for the lunar surface and cislunar space, capable of decentralized filtering and autonom
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Communication and Navigation System Explained | Term Definition
+  title: "Lunar Communication and Navigation System Explained | Term Definition"
   description: System architecture using lunar orbit satellite constellations to provide communication and navigation services for the lunar surface and cislunar space, capable of decentralized filtering and autonom
   image: /logo.png
 permalink: /en/glossary/communication/lunar-communication-and-navigation-system/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Layer Normalization, LN Explained | Term Definition
+  title: "Layer Normalization, LN Explained | Term Definition"
   description: "A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization ac"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Layer Normalization, LN Explained | Term Definition
+  title: "Layer Normalization, LN Explained | Term Definition"
   description: "A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization ac"
   image: /logo.png
 permalink: /en/glossary/dynamics/Layer-Normalization-LN/

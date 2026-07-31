@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Primary Celestial Body Explained | Term Definition
+  title: "Primary Celestial Body Explained | Term Definition"
   description: The nearest large celestial body used as the observation reference in celestial navigation. For near-Earth orbit navigation, the primary body defaults to Ear...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Primary Celestial Body Explained | Term Definition
+  title: "Primary Celestial Body Explained | Term Definition"
   description: The nearest large celestial body used as the observation reference in celestial navigation. For near-Earth orbit navigation, the primary body defaults to Ear...
   image: /logo.png
 permalink: /en/glossary/navigation/primary-celestial-body/

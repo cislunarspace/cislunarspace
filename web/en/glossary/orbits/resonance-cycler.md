@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonance Cycler Explained | Term Definition
+  title: "Resonance Cycler Explained | Term Definition"
   description: "A cislunar transfer trajectory that maintains an integer-ratio period relationship with the Moon's orbital motion in the rotating frame. For example, a 1:2 reso"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonance Cycler Explained | Term Definition
+  title: "Resonance Cycler Explained | Term Definition"
   description: "A cislunar transfer trajectory that maintains an integer-ratio period relationship with the Moon's orbital motion in the rotating frame. For example, a 1:2 reso"
   image: /logo.png
 permalink: /en/glossary/orbits/resonance-cycler/

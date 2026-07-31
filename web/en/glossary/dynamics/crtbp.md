@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem Explained | Term Definition"
   description: The problem studying the motion of a small mass particle under the gravitational attraction of two primary bodies moving in circular orbits
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem Explained | Term Definition"
   description: The problem studying the motion of a small mass particle under the gravitational attraction of two primary bodies moving in circular orbits
   image: /logo.png
 permalink: /en/glossary/dynamics/crtbp/

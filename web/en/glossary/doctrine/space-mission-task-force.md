@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Space Mission Task Force (SMTF) Explained | Space Force Vector 2025
+  title: "Space Mission Task Force (SMTF) Explained | Space Force Vector 2025"
   description: Detailed explanation of the U.S. Space Force Space Mission Task Force (SMTF) definition, composition structure, command relationships, and role in joint operations
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Mission Task Force (SMTF) Explained | Space Force Vector 2025
+  title: "Space Mission Task Force (SMTF) Explained | Space Force Vector 2025"
   description: Detailed explanation of the U.S. Space Force Space Mission Task Force (SMTF) definition, composition structure, command relationships, and role in joint operations
   image: /logo.png
 permalink: /en/glossary/doctrine/space-mission-task-force/

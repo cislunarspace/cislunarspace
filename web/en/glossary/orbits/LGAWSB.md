@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LGA+WSB Transfer Explained | Term Definition
+  title: "LGA+WSB Transfer Explained | Term Definition"
   description: A low-energy transfer combining Lunar Gravity Assist (LGA) with Weak Stability Boundary (WSB). The spacecraft first flybys the Moon via a lunar transfer orbit, 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LGA+WSB Transfer Explained | Term Definition
+  title: "LGA+WSB Transfer Explained | Term Definition"
   description: A low-energy transfer combining Lunar Gravity Assist (LGA) with Weak Stability Boundary (WSB). The spacecraft first flybys the Moon via a lunar transfer orbit, 
   image: /logo.png
 permalink: /en/glossary/orbits/LGAWSB/

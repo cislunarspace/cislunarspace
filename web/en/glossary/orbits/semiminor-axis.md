@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Semiminor Axis Explained | Term Definition
+  title: "Semiminor Axis Explained | Term Definition"
   description: A characteristic dimension parameter of a DRO, describing the maximum extension of the orbit perpendicular to the Earth-Moon line. In the paper, DRO semiminor a
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Semiminor Axis Explained | Term Definition
+  title: "Semiminor Axis Explained | Term Definition"
   description: A characteristic dimension parameter of a DRO, describing the maximum extension of the orbit perpendicular to the Earth-Moon line. In the paper, DRO semiminor a
   image: /logo.png
 permalink: /en/glossary/orbits/semiminor-axis/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Phase Explained | Term Definition
+  title: "Solar Phase Explained | Term Definition"
   description: The angle β between the Earth-Moon line and the ecliptic, determining the positions and Hamiltonian values of equivalent libration points. Solar phase affects transportation tube wall deformation and ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Phase Explained | Term Definition
+  title: "Solar Phase Explained | Term Definition"
   description: The angle β between the Earth-Moon line and the ecliptic, determining the positions and Hamiltonian values of equivalent libration points. Solar phase affects transportation tube wall deformation and ...
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-phase/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Area-to-Mass Ratio Explained | Term Definition
+  title: "Area-to-Mass Ratio Explained | Term Definition"
   description: The ratio of fragment cross-sectional area to mass, a key parameter determining the magnitude of solar radiation pressure perturbation, and one of the core outp
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Area-to-Mass Ratio Explained | Term Definition
+  title: "Area-to-Mass Ratio Explained | Term Definition"
   description: The ratio of fragment cross-sectional area to mass, a key parameter determining the magnitude of solar radiation pressure perturbation, and one of the core outp
   image: /logo.png
 permalink: /en/glossary/dynamics/area-to-mass-ratio/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Shooting Function Explained | Term Definition
+  title: "Shooting Function Explained | Term Definition"
   description: A function mapping initial covector values to terminal state deviations. A zero of the shooting function corresponds to satisfied boundary conditions in minimum time problems. Tracking the zero-level ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shooting Function Explained | Term Definition
+  title: "Shooting Function Explained | Term Definition"
   description: A function mapping initial covector values to terminal state deviations. A zero of the shooting function corresponds to satisfied boundary conditions in minimum time problems. Tracking the zero-level ...
   image: /logo.png
 permalink: /en/glossary/dynamics/shooting-function/

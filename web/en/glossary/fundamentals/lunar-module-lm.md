@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Module (LM) Explained | Term Definition
+  title: "Lunar Module (LM) Explained | Term Definition"
   description: The part of a manned lunar lander responsible for lunar surface approach, hovering hazard avoidance, and final landing.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Module (LM) Explained | Term Definition
+  title: "Lunar Module (LM) Explained | Term Definition"
   description: The part of a manned lunar lander responsible for lunar surface approach, hovering hazard avoidance, and final landing.
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-module-lm/

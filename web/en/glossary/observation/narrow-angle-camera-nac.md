@@ -1,6 +1,6 @@
 ---
 title: Narrow Angle Camera, NAC
-description: A camera with narrow field of view, used for medium-range (1-10 km) relative navigation. Estimates range by measuring the target's angular size in images, an...
+description: "A camera with narrow field of view, used for medium-range (1-10 km) relative navigation. Estimates range by measuring the target's angular size in images, an..."
 keywords: Narrow Angle Camera, NAC, NAC
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Narrow Angle Camera, NAC Explained | Term Definition
-  description: A camera with narrow field of view, used for medium-range (1-10 km) relative navigation. Estimates range by measuring the target's angular size in images, an...
+  title: "Narrow Angle Camera, NAC Explained | Term Definition"
+  description: "A camera with narrow field of view, used for medium-range (1-10 km) relative navigation. Estimates range by measuring the target's angular size in images, an..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Narrow Angle Camera, NAC Explained | Term Definition
-  description: A camera with narrow field of view, used for medium-range (1-10 km) relative navigation. Estimates range by measuring the target's angular size in images, an...
+  title: "Narrow Angle Camera, NAC Explained | Term Definition"
+  description: "A camera with narrow field of view, used for medium-range (1-10 km) relative navigation. Estimates range by measuring the target's angular size in images, an..."
   image: /logo.png
 permalink: /en/glossary/observation/narrow-angle-camera-nac/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Three-Impulse Low-Energy Transfer
-description: A low-energy transfer scheme based on disturbed manifold and Lambert arc patching. Three impulses are applied: one to enter the disturbed manifold, and two a...
+description: "A low-energy transfer scheme based on disturbed manifold and Lambert arc patching. Three impulses are applied: one to enter the disturbed manifold, and two a..."
 keywords: Three-Impulse Low-Energy Transfer
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Three-Impulse Low-Energy Transfer Explained | Term Definition
-  description: A low-energy transfer scheme based on disturbed manifold and Lambert arc patching. Three impulses are applied: one to enter the disturbed manifold, and two a...
+  title: "Three-Impulse Low-Energy Transfer Explained | Term Definition"
+  description: "A low-energy transfer scheme based on disturbed manifold and Lambert arc patching. Three impulses are applied: one to enter the disturbed manifold, and two a..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Three-Impulse Low-Energy Transfer Explained | Term Definition
-  description: A low-energy transfer scheme based on disturbed manifold and Lambert arc patching. Three impulses are applied: one to enter the disturbed manifold, and two a...
+  title: "Three-Impulse Low-Energy Transfer Explained | Term Definition"
+  description: "A low-energy transfer scheme based on disturbed manifold and Lambert arc patching. Three impulses are applied: one to enter the disturbed manifold, and two a..."
   image: /logo.png
 permalink: /en/glossary/orbits/three-impulse-low-energy-transfer/
 ---

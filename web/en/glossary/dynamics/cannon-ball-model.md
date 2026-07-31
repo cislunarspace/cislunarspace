@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cannon Ball Model Explained | Term Definition
+  title: "Cannon Ball Model Explained | Term Definition"
   description: A simplified spacecraft solar radiation pressure model that treats the spacecraft as a sphere with constant cross-sectional area and uniform reflectivity. In...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cannon Ball Model Explained | Term Definition
+  title: "Cannon Ball Model Explained | Term Definition"
   description: A simplified spacecraft solar radiation pressure model that treats the spacecraft as a sphere with constant cross-sectional area and uniform reflectivity. In...
   image: /logo.png
 permalink: /en/glossary/dynamics/cannon-ball-model/

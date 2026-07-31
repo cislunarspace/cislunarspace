@@ -1,6 +1,6 @@
 ---
 title: Backward Lunar Gravity Assist
-description: An assist mechanism during flight in the first and third quadrants where solar gravitational perturbation decreases the spacecraft's Jacobi energy and angular m
+description: "An assist mechanism during flight in the first and third quadrants where solar gravitational perturbation decreases the spacecraft's Jacobi energy and angular m"
 keywords: Backward Lunar Gravity Assist
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Backward Lunar Gravity Assist Explained | Term Definition
-  description: An assist mechanism during flight in the first and third quadrants where solar gravitational perturbation decreases the spacecraft's Jacobi energy and angular m
+  title: "Backward Lunar Gravity Assist Explained | Term Definition"
+  description: "An assist mechanism during flight in the first and third quadrants where solar gravitational perturbation decreases the spacecraft's Jacobi energy and angular m"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Backward Lunar Gravity Assist Explained | Term Definition
-  description: An assist mechanism during flight in the first and third quadrants where solar gravitational perturbation decreases the spacecraft's Jacobi energy and angular m
+  title: "Backward Lunar Gravity Assist Explained | Term Definition"
+  description: "An assist mechanism during flight in the first and third quadrants where solar gravitational perturbation decreases the spacecraft's Jacobi energy and angular m"
   image: /logo.png
 permalink: /en/glossary/dynamics/backward-lunar-gravity-assist/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Force Generation | SPAFORGEN Model
+  title: "Force Generation | SPAFORGEN Model"
   description: Force Generation builds, sustains, and reconstitutes force elements using the SPAFORGEN rotational model.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Force Generation | SPAFORGEN Model
+  title: "Force Generation | SPAFORGEN Model"
   description: Force Generation builds, sustains, and reconstitutes force elements using the SPAFORGEN rotational model.
   image: /logo.png
 permalink: /en/glossary/doctrine/force-generation/

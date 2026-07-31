@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Minimum Energy Trajectory | Terminology Definition
+  title: "Minimum Energy Trajectory | Terminology Definition"
   description: Detailed explanation of the minimum energy trajectory definition and solution methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Energy Trajectory | Terminology Definition
+  title: "Minimum Energy Trajectory | Terminology Definition"
   description: Detailed explanation of the minimum energy trajectory definition and solution methods
   image: /logo.png
 permalink: /en/glossary/fundamentals/minimum-energy-trajectory/

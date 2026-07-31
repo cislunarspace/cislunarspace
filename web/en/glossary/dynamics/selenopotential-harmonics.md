@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Selenopotential Harmonics Explained | Term Definition
+  title: "Selenopotential Harmonics Explained | Term Definition"
   description: Spherical harmonic expansion of the lunar non-spherical gravitational potential, used for lunar gravitational perturbation in dynamical models.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Selenopotential Harmonics Explained | Term Definition
+  title: "Selenopotential Harmonics Explained | Term Definition"
   description: Spherical harmonic expansion of the lunar non-spherical gravitational potential, used for lunar gravitational perturbation in dynamical models.
   image: /logo.png
 permalink: /en/glossary/dynamics/selenopotential-harmonics/

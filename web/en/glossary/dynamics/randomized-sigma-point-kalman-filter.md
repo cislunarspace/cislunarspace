@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Randomized Sigma Point Kalman Filter (RSPKF) Explained | Term Definition
+  title: "Randomized Sigma Point Kalman Filter (RSPKF) Explained | Term Definition"
   description: Sigma point Kalman filter with randomized sampling step, eliminating systematic errors of classical methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Randomized Sigma Point Kalman Filter (RSPKF) Explained | Term Definition
+  title: "Randomized Sigma Point Kalman Filter (RSPKF) Explained | Term Definition"
   description: Sigma point Kalman filter with randomized sampling step, eliminating systematic errors of classical methods
   image: /logo.png
 permalink: /en/glossary/dynamics/randomized-sigma-point-kalman-filter/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inter-Satellite Link, ISL Explained | Term Definition
+  title: "Inter-Satellite Link, ISL Explained | Term Definition"
   description: A bidirectional ranging and data transmission link between navigation satellites. The BeiDou Phase II system uses inter-satellite links to achieve mutual measurement and communication between satellites, supporting autonomous navigation and ground-space/intersatellite joint orbit determination, significantly reducing dependence on ground systems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inter-Satellite Link, ISL Explained | Term Definition
+  title: "Inter-Satellite Link, ISL Explained | Term Definition"
   description: A bidirectional ranging and data transmission link between navigation satellites. The BeiDou Phase II system uses inter-satellite links to achieve mutual measurement and communication between satellites, supporting autonomous navigation and ground-space/intersatellite joint orbit determination, significantly reducing dependence on ground systems.
   image: /logo.png
 permalink: /en/glossary/communication/inter-satellite-link-isl/

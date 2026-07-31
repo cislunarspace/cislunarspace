@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Sequential Quadratic Programming | Terminology Definition
+  title: "Sequential Quadratic Programming | Terminology Definition"
   description: Basic principles and iterative process of the SQP algorithm
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sequential Quadratic Programming | Terminology Definition
+  title: "Sequential Quadratic Programming | Terminology Definition"
   description: Basic principles and iterative process of the SQP algorithm
   image: /logo.png
 permalink: /en/glossary/fundamentals/sequential-quadratic-programming/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill Frame Explained | Term Definition
+  title: "Hill Frame Explained | Term Definition"
   description: A local rectangular coordinate system with the reference spacecraft at the origin; the x-axis points radially outward from the primary body, the y-axis along the flight direction (orbital velocity), a
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Frame Explained | Term Definition
+  title: "Hill Frame Explained | Term Definition"
   description: A local rectangular coordinate system with the reference spacecraft at the origin; the x-axis points radially outward from the primary body, the y-axis along the flight direction (orbital velocity), a
   image: /logo.png
 permalink: /en/glossary/fundamentals/hill-frame/

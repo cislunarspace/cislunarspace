@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Trajectory Explained | Term Definition
+  title: "Low-Thrust Trajectory Explained | Term Definition"
   description: Spacecraft trajectories using continuous low-thrust engines such as electric propulsion.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Trajectory Explained | Term Definition
+  title: "Low-Thrust Trajectory Explained | Term Definition"
   description: Spacecraft trajectories using continuous low-thrust engines such as electric propulsion.
   image: /logo.png
 permalink: /en/glossary/orbits/low-thrust-trajectory/

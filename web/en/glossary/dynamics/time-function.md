@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time Function Explained | Term Definition
+  title: "Time Function Explained | Term Definition"
   description: Expression for time of flight as a function of flyout angle γ, valid uniformly for elliptical, parabolic, and hyperbolic transfer orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time Function Explained | Term Definition
+  title: "Time Function Explained | Term Definition"
   description: Expression for time of flight as a function of flyout angle γ, valid uniformly for elliptical, parabolic, and hyperbolic transfer orbits.
   image: /logo.png
 permalink: /en/glossary/dynamics/time-function/

@@ -1,6 +1,6 @@
 ---
 title: Natural Continuation
-description: A class of numerical methods that traces an orbit family continuously. Starting from a known orbit's initial conditions, the parameter (e.g., the apolune abs...
+description: "A class of numerical methods that traces an orbit family continuously. Starting from a known orbit's initial conditions, the parameter (e.g., the apolune abs..."
 keywords: Natural Continuation, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Natural Continuation Explained | Term Definition
-  description: A class of numerical methods that traces an orbit family continuously. Starting from a known orbit's initial conditions, the parameter (e.g., the apolune abs...
+  title: "Natural Continuation Explained | Term Definition"
+  description: "A class of numerical methods that traces an orbit family continuously. Starting from a known orbit's initial conditions, the parameter (e.g., the apolune abs..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Natural Continuation Explained | Term Definition
-  description: A class of numerical methods that traces an orbit family continuously. Starting from a known orbit's initial conditions, the parameter (e.g., the apolune abs...
+  title: "Natural Continuation Explained | Term Definition"
+  description: "A class of numerical methods that traces an orbit family continuously. Starting from a known orbit's initial conditions, the parameter (e.g., the apolune abs..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/natural-continuation/
 ---

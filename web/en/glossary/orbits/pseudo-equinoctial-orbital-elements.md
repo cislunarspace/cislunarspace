@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudo-Equinoctial Orbital Elements Explained | Term Definition
+  title: "Pseudo-Equinoctial Orbital Elements Explained | Term Definition"
   description: A set of quasi-orbital elements for trajectory design. Based on variants of equinoctial orbital elements, they provide an analytical framework for three-dime...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudo-Equinoctial Orbital Elements Explained | Term Definition
+  title: "Pseudo-Equinoctial Orbital Elements Explained | Term Definition"
   description: A set of quasi-orbital elements for trajectory design. Based on variants of equinoctial orbital elements, they provide an analytical framework for three-dime...
   image: /logo.png
 permalink: /en/glossary/orbits/pseudo-equinoctial-orbital-elements/

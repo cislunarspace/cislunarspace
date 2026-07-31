@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Zonal Wind | Atmospheric Circulation
+  title: "Zonal Wind | Atmospheric Circulation"
   description: A detailed analysis of zonal wind definitions, formation mechanisms, seasonal variation characteristics, and their effects on stratospheric airship trajectory planning
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zonal Wind | Atmospheric Circulation
+  title: "Zonal Wind | Atmospheric Circulation"
   description: A detailed analysis of zonal wind definitions, formation mechanisms, seasonal variation characteristics, and their effects on stratospheric airship trajectory planning
   image: /logo.png
 permalink: /en/glossary/observation/zonal-wind/

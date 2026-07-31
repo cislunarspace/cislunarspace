@@ -10,13 +10,13 @@ author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Pursuit-Evasion-Defense Game | Game Extension
+  title: "Pursuit-Evasion-Defense Game | Game Extension"
   description: A three-player pursuit-evasion game model introducing a defender, applied to space offense-defense strategy design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pursuit-Evasion-Defense Game | Game Extension
+  title: "Pursuit-Evasion-Defense Game | Game Extension"
   description: A three-player pursuit-evasion game model introducing a defender, applied to space offense-defense strategy design
   image: /logo.png
 permalink: /en/glossary/other/pursuit-evasion-defense/

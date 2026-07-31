@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Quadratic Optimal Control Explained | Term Definition
+  title: "Linear Quadratic Optimal Control Explained | Term Definition"
   description: For linear systems, a control design that minimizes a weighted quadratic cost of state deviation and control input. The optimal state-feedback gain is obtained by solving the Riccati equation; the wei...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Quadratic Optimal Control Explained | Term Definition
+  title: "Linear Quadratic Optimal Control Explained | Term Definition"
   description: For linear systems, a control design that minimizes a weighted quadratic cost of state deviation and control input. The optimal state-feedback gain is obtained by solving the Riccati equation; the wei...
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-quadratic-optimal-control/

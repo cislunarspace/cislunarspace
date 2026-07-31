@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cubature Kalman Filter Explained | Term Definition
+  title: "Cubature Kalman Filter Explained | Term Definition"
   description: Sigma point Kalman filter based on spherical-simplex cubature rule
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cubature Kalman Filter Explained | Term Definition
+  title: "Cubature Kalman Filter Explained | Term Definition"
   description: Sigma point Kalman filter based on spherical-simplex cubature rule
   image: /logo.png
 permalink: /en/glossary/dynamics/cubature-kalman-filter/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fast Lyapunov Indicator, FLI (FLI) Explained | Term Definition
+  title: "Fast Lyapunov Indicator, FLI (FLI) Explained | Term Definition"
   description: A numerical diagnostic tool for distinguishing between regular and chaotic regions in phase space. It measures the exponential divergence rate of nearby...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fast Lyapunov Indicator, FLI (FLI) Explained | Term Definition
+  title: "Fast Lyapunov Indicator, FLI (FLI) Explained | Term Definition"
   description: A numerical diagnostic tool for distinguishing between regular and chaotic regions in phase space. It measures the exponential divergence rate of nearby...
   image: /logo.png
 permalink: /en/glossary/fundamentals/fast-lyapunov-indicator-fli/

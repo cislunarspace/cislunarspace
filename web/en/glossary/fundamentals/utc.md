@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Coordinated Universal Time (UTC) | Terminology Definition
+  title: "Coordinated Universal Time (UTC) | Terminology Definition"
   description: Definition of UTC, the leap second mechanism, and applications in aerospace engineering
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coordinated Universal Time (UTC) | Terminology Definition
+  title: "Coordinated Universal Time (UTC) | Terminology Definition"
   description: Definition of UTC, the leap second mechanism, and applications in aerospace engineering
   image: /logo.png
 permalink: /en/glossary/fundamentals/utc/

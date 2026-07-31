@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: L2-centered Rotating Coordinate System Explained | Libration Point Local Analysis
+  title: "L2-centered Rotating Coordinate System Explained | Libration Point Local Analysis"
   description: Detailed analysis of L2-centered rotating coordinate system definition, relationship with GRC, and application in L2 orbit design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L2-centered Rotating Coordinate System Explained | Libration Point Local Analysis
+  title: "L2-centered Rotating Coordinate System Explained | Libration Point Local Analysis"
   description: Detailed analysis of L2-centered rotating coordinate system definition, relationship with GRC, and application in L2 orbit design
   image: /logo.png
 permalink: /en/glossary/dynamics/lrc/

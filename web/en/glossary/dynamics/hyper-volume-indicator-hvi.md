@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyper-volume Indicator, HVI Explained | Term Definition
+  title: "Hyper-volume Indicator, HVI Explained | Term Definition"
   description: A metric in multi-objective optimization measuring the area covered by a Pareto front. Defined as the hypervolume of the objective space bounded by a referen...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyper-volume Indicator, HVI Explained | Term Definition
+  title: "Hyper-volume Indicator, HVI Explained | Term Definition"
   description: A metric in multi-objective optimization measuring the area covered by a Pareto front. Defined as the hypervolume of the objective space bounded by a referen...
   image: /logo.png
 permalink: /en/glossary/dynamics/hyper-volume-indicator-hvi/

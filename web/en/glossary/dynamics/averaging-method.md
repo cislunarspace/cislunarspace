@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Averaging Method Explained | Term Definition
+  title: "Averaging Method Explained | Term Definition"
   description: 当控制幅值很小（低推力）时，以真近点角或经度为新的时间参数，对快速振荡系统进行平均以分析极值轨线行为的摄动方法。可将椭圆轨道的最优控制问题转化为以超椭圆积分为代价函数的问题。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Averaging Method Explained | Term Definition
+  title: "Averaging Method Explained | Term Definition"
   description: 当控制幅值很小（低推力）时，以真近点角或经度为新的时间参数，对快速振荡系统进行平均以分析极值轨线行为的摄动方法。可将椭圆轨道的最优控制问题转化为以超椭圆积分为代价函数的问题。
   image: /logo.png
 permalink: /en/glossary/dynamics/averaging-method/

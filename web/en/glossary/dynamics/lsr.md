@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Synodic Resonance Explained | Term Definition
+  title: "Lunar Synodic Resonance Explained | Term Definition"
   description: A 9:2 monthly resonance where the Gateway NRHO orbital period forms a specific resonant relationship with the lunar synodic period, preventing Earth eclipses.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Synodic Resonance Explained | Term Definition
+  title: "Lunar Synodic Resonance Explained | Term Definition"
   description: A 9:2 monthly resonance where the Gateway NRHO orbital period forms a specific resonant relationship with the lunar synodic period, preventing Earth eclipses.
   image: /logo.png
 permalink: /en/glossary/dynamics/lsr/

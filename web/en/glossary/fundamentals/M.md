@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mean Anomaly, M Explained | Term Definition
+  title: "Mean Anomaly, M Explained | Term Definition"
   description: Angle parameter describing position on orbit, M = 2πt/T where t is time from perilune and T is period
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mean Anomaly, M Explained | Term Definition
+  title: "Mean Anomaly, M Explained | Term Definition"
   description: Angle parameter describing position on orbit, M = 2πt/T where t is time from perilune and T is period
   image: /logo.png
 permalink: /en/glossary/fundamentals/M/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Delay-Locked Loop Explained | Term Definition
+  title: "Delay-Locked Loop Explained | Term Definition"
   description: A feedback loop in GNSS receivers used to track the phase of the pseudo-random code. By comparing early and late local code correlations with the received si...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Delay-Locked Loop Explained | Term Definition
+  title: "Delay-Locked Loop Explained | Term Definition"
   description: A feedback loop in GNSS receivers used to track the phase of the pseudo-random code. By comparing early and late local code correlations with the received si...
   image: /logo.png
 permalink: /en/glossary/navigation/delay-locked-loop/

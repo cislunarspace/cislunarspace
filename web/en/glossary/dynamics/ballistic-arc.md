@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ballistic Arc Explained | Term Definition
+  title: "Ballistic Arc Explained | Term Definition"
   description: A flight segment where the spacecraft is unpowered and subject only to gravitational forces. In the CR3BP, the Jacobi constant is conserved along a ballistic...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Arc Explained | Term Definition
+  title: "Ballistic Arc Explained | Term Definition"
   description: A flight segment where the spacecraft is unpowered and subject only to gravitational forces. In the CR3BP, the Jacobi constant is conserved along a ballistic...
   image: /logo.png
 permalink: /en/glossary/dynamics/ballistic-arc/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Fly-by Method Explained | Term Definition
+  title: "Lunar Fly-by Method Explained | Term Definition"
   description: The Earth-to-NRHO transfer method selected by NASA for the Orion crewed mission. After TLI, the spacecraft performs a powered lunar swing-by at perilune, follow
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Fly-by Method Explained | Term Definition
+  title: "Lunar Fly-by Method Explained | Term Definition"
   description: The Earth-to-NRHO transfer method selected by NASA for the Orion crewed mission. After TLI, the spacecraft performs a powered lunar swing-by at perilune, follow
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-fly-by-method/

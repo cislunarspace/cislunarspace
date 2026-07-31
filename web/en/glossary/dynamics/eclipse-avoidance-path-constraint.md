@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eclipse Avoidance Path Constraint Explained | Term Definition
+  title: "Eclipse Avoidance Path Constraint Explained | Term Definition"
   description: A path constraint embedded in the differential corrections process that forces transfer trajectories to remain outside the shadows of Earth and Moon. Formulated
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eclipse Avoidance Path Constraint Explained | Term Definition
+  title: "Eclipse Avoidance Path Constraint Explained | Term Definition"
   description: A path constraint embedded in the differential corrections process that forces transfer trajectories to remain outside the shadows of Earth and Moon. Formulated
   image: /logo.png
 permalink: /en/glossary/dynamics/eclipse-avoidance-path-constraint/

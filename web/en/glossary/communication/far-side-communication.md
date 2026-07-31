@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Far Side Communication Explained | Term Definition
+  title: "Far Side Communication Explained | Term Definition"
   description: Direct communication between lunar far side and Earth via a relay satellite in Earth-Moon L2 halo orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Far Side Communication Explained | Term Definition
+  title: "Far Side Communication Explained | Term Definition"
   description: Direct communication between lunar far side and Earth via a relay satellite in Earth-Moon L2 halo orbit.
   image: /logo.png
 permalink: /en/glossary/communication/far-side-communication/

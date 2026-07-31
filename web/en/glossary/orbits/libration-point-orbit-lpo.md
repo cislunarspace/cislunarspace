@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point Orbit, LPO Explained | Term Definition
+  title: "Libration Point Orbit, LPO Explained | Term Definition"
   description: Families of periodic orbits emanating from the vicinity of libration points, including Lyapunov, halo, vertical, and axial families.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Orbit, LPO Explained | Term Definition
+  title: "Libration Point Orbit, LPO Explained | Term Definition"
   description: Families of periodic orbits emanating from the vicinity of libration points, including Lyapunov, halo, vertical, and axial families.
   image: /logo.png
 permalink: /en/glossary/orbits/libration-point-orbit-lpo/

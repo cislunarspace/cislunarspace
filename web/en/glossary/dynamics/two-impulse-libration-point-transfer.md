@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Impulse Libration Point Transfer Explained | Term Definition
+  title: "Two-Impulse Libration Point Transfer Explained | Term Definition"
   description: A transfer scheme from a low Earth parking orbit to a libration point periodic orbit using only two impulsive maneuvers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Impulse Libration Point Transfer Explained | Term Definition
+  title: "Two-Impulse Libration Point Transfer Explained | Term Definition"
   description: A transfer scheme from a low Earth parking orbit to a libration point periodic orbit using only two impulsive maneuvers.
   image: /logo.png
 permalink: /en/glossary/dynamics/two-impulse-libration-point-transfer/

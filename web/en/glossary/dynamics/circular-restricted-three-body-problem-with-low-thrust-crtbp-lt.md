@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Restricted Three-Body Problem with Low-Thrust, CRTBP-LT Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem with Low-Thrust, CRTBP-LT Explained | Term Definition"
   description: An extension of the Circular Restricted Three-Body Problem (CRTBP) that incorporates continuous low-thrust engine dynamics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Restricted Three-Body Problem with Low-Thrust, CRTBP-LT Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem with Low-Thrust, CRTBP-LT Explained | Term Definition"
   description: An extension of the Circular Restricted Three-Body Problem (CRTBP) that incorporates continuous low-thrust engine dynamics.
   image: /logo.png
 permalink: /en/glossary/dynamics/circular-restricted-three-body-problem-with-low-thrust-crtbp-lt/

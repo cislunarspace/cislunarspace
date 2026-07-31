@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unmodelled Acceleration Explained | Term Definition
+  title: "Unmodelled Acceleration Explained | Term Definition"
   description: Acceleration disturbances not explicitly modeled in the dynamics, such as combined solar radiation pressure and solar gravity effects. Treated as process...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unmodelled Acceleration Explained | Term Definition
+  title: "Unmodelled Acceleration Explained | Term Definition"
   description: Acceleration disturbances not explicitly modeled in the dynamics, such as combined solar radiation pressure and solar gravity effects. Treated as process...
   image: /logo.png
 permalink: /en/glossary/dynamics/unmodelled-acceleration/

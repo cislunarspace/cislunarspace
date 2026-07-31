@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Multi-Impulse, Opt-MI (Opt-MI) Explained | Term Definition
+  title: "Optimal Multi-Impulse, Opt-MI (Opt-MI) Explained | Term Definition"
   description: Strategy that optimizes both the execution times and magnitudes of N impulses using linear programming with l¹-norm of total impulse as fuel consumption proxy.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Multi-Impulse, Opt-MI (Opt-MI) Explained | Term Definition
+  title: "Optimal Multi-Impulse, Opt-MI (Opt-MI) Explained | Term Definition"
   description: Strategy that optimizes both the execution times and magnitudes of N impulses using linear programming with l¹-norm of total impulse as fuel consumption proxy.
   image: /logo.png
 permalink: /en/glossary/dynamics/optimal-multi-impulse-opt-mi/

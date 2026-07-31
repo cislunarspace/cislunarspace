@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Model Predictive Guidance and Control, MPC Explained | Term Definition
+  title: "Model Predictive Guidance and Control, MPC Explained | Term Definition"
   description: A guidance and control strategy based on numerical optimization that minimizes a cost function within a prediction horizon, obtains a control sequence by solving a quadratic programming problem, and e
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Model Predictive Guidance and Control, MPC Explained | Term Definition
+  title: "Model Predictive Guidance and Control, MPC Explained | Term Definition"
   description: A guidance and control strategy based on numerical optimization that minimizes a cost function within a prediction horizon, obtains a control sequence by solving a quadratic programming problem, and e
   image: /logo.png
 permalink: /en/glossary/dynamics/model-predictive-guidance-and-control-mpc/

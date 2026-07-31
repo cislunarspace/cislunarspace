@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Energy Ballistic Transfer Explained | Term Definition
+  title: "Low-Energy Ballistic Transfer Explained | Term Definition"
   description: Earth-to-Moon transfers achieved using invariant manifolds and chaotic dynamics in multi-body systems, requiring low velocity increments.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Energy Ballistic Transfer Explained | Term Definition
+  title: "Low-Energy Ballistic Transfer Explained | Term Definition"
   description: Earth-to-Moon transfers achieved using invariant manifolds and chaotic dynamics in multi-body systems, requiring low velocity increments.
   image: /logo.png
 permalink: /en/glossary/orbits/low-energy-ballistic-transfer/

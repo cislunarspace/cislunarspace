@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normal Extremal Explained | Term Definition
+  title: "Normal Extremal Explained | Term Definition"
   description: An extremal in the Pontryagin maximum principle for which the cost multiplier p0 is nonzero, conventionally normalized to p0=-1. When the transfer time exceeds 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normal Extremal Explained | Term Definition
+  title: "Normal Extremal Explained | Term Definition"
   description: An extremal in the Pontryagin maximum principle for which the cost multiplier p0 is nonzero, conventionally normalized to p0=-1. When the transfer time exceeds 
   image: /logo.png
 permalink: /en/glossary/fundamentals/normal-extremal/

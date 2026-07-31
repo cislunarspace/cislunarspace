@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Complete Uncertain Lambert Solutions Explained | Term Definition
+  title: "Complete Uncertain Lambert Solutions Explained | Term Definition"
   description: The complete distribution of uncertain Lambert solutions considering all revolutions, where the probability density is a weighted sum of conditional probabiliti
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Complete Uncertain Lambert Solutions Explained | Term Definition
+  title: "Complete Uncertain Lambert Solutions Explained | Term Definition"
   description: The complete distribution of uncertain Lambert solutions considering all revolutions, where the probability density is a weighted sum of conditional probabiliti
   image: /logo.png
 permalink: /en/glossary/dynamics/complete-uncertain-lambert-solutions/

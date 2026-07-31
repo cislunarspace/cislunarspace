@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conic Approximation of Transfer Segment Explained | Term Definition
+  title: "Conic Approximation of Transfer Segment Explained | Term Definition"
   description: A computational strategy for transfer segments between a low-Earth parking orbit and an invariant manifold in the three-body model.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conic Approximation of Transfer Segment Explained | Term Definition
+  title: "Conic Approximation of Transfer Segment Explained | Term Definition"
   description: A computational strategy for transfer segments between a low-Earth parking orbit and an invariant manifold in the three-body model.
   image: /logo.png
 permalink: /en/glossary/dynamics/conic-approximation-of-transfer-segment/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Relay Communication Satellite Architecture Explained | Term Definition
+  title: "Lunar Relay Communication Satellite Architecture Explained | Term Definition"
   description: A communication network composed of multiple satellites operating in cislunar libration point orbits, designed to provide continuous communication coverage to t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Relay Communication Satellite Architecture Explained | Term Definition
+  title: "Lunar Relay Communication Satellite Architecture Explained | Term Definition"
   description: A communication network composed of multiple satellites operating in cislunar libration point orbits, designed to provide continuous communication coverage to t
   image: /logo.png
 permalink: /en/glossary/communication/lunar-relay-communication-satellite-architecture/

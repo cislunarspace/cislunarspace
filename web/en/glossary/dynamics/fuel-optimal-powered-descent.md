@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fuel-optimal Powered Descent Explained | Term Definition
+  title: "Fuel-optimal Powered Descent Explained | Term Definition"
   description: Optimal control problem for powered descent with fuel consumption as the performance index.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fuel-optimal Powered Descent Explained | Term Definition
+  title: "Fuel-optimal Powered Descent Explained | Term Definition"
   description: Optimal control problem for powered descent with fuel consumption as the performance index.
   image: /logo.png
 permalink: /en/glossary/dynamics/fuel-optimal-powered-descent/

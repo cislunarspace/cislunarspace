@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deflection Angle Explained | Term Definition
+  title: "Deflection Angle Explained | Term Definition"
   description: Angle of deflection of insertion impulse relative to DRO velocity direction, describing directional characteristics of the DRO insertion maneuver.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deflection Angle Explained | Term Definition
+  title: "Deflection Angle Explained | Term Definition"
   description: Angle of deflection of insertion impulse relative to DRO velocity direction, describing directional characteristics of the DRO insertion maneuver.
   image: /logo.png
 permalink: /en/glossary/dynamics/deflection-angle/

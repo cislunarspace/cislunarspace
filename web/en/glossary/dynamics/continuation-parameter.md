@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Continuation Parameter Explained | Term Definition
+  title: "Continuation Parameter Explained | Term Definition"
   description: A parameter introduced in continuation methods to trace a solution path from a trivial solution outward.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuation Parameter Explained | Term Definition
+  title: "Continuation Parameter Explained | Term Definition"
   description: A parameter introduced in continuation methods to trace a solution path from a trivial solution outward.
   image: /logo.png
 permalink: /en/glossary/dynamics/continuation-parameter/

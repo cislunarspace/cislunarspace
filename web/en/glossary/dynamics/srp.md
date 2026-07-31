@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Radiation Pressure Explained | Term Definition
+  title: "Solar Radiation Pressure Explained | Term Definition"
   description: The pressure exerted by solar photons on a spacecraft surface, causing long-term orbital drift
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Radiation Pressure Explained | Term Definition
+  title: "Solar Radiation Pressure Explained | Term Definition"
   description: The pressure exerted by solar photons on a spacecraft surface, causing long-term orbital drift
   image: /logo.png
 permalink: /en/glossary/dynamics/srp/

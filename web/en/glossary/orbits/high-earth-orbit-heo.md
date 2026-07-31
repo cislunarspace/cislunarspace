@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High Earth Orbit, HEO Explained | Term Definition
+  title: "High Earth Orbit, HEO Explained | Term Definition"
   description: A high-altitude orbit around Earth, specifically referring here to an orbit with semi-major axis of approximately 10 Earth radii. In SEP Earth-Moon transfers, H
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High Earth Orbit, HEO Explained | Term Definition
+  title: "High Earth Orbit, HEO Explained | Term Definition"
   description: A high-altitude orbit around Earth, specifically referring here to an orbit with semi-major axis of approximately 10 Earth radii. In SEP Earth-Moon transfers, H
   image: /logo.png
 permalink: /en/glossary/orbits/high-earth-orbit-heo/

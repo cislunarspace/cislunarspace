@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Element Drift Explained | Term Definition
+  title: "Orbital Element Drift Explained | Term Definition"
   description: The slow, continuous change of orbital elements (RAAN, inclination, eccentricity, etc.) over time due to perturbing forces such as non-spherical gravity fiel...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Element Drift Explained | Term Definition
+  title: "Orbital Element Drift Explained | Term Definition"
   description: The slow, continuous change of orbital elements (RAAN, inclination, eccentricity, etc.) over time due to perturbing forces such as non-spherical gravity fiel...
   image: /logo.png
 permalink: /en/glossary/dynamics/orbital-element-drift/

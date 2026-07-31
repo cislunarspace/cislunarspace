@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Artificial Libration Point Explained | Term Definition
+  title: "Artificial Libration Point Explained | Term Definition"
   description: New equilibrium positions that arise because solar radiation pressure alters the force balance on a spacecraft. Compared to natural libration points, artificial
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Artificial Libration Point Explained | Term Definition
+  title: "Artificial Libration Point Explained | Term Definition"
   description: New equilibrium positions that arise because solar radiation pressure alters the force balance on a spacecraft. Compared to natural libration points, artificial
   image: /logo.png
 permalink: /en/glossary/dynamics/artificial-libration-point/

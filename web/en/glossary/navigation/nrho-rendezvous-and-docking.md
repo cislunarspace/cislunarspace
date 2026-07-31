@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: NRHO Rendezvous and Docking Explained | Term Definition
+  title: "NRHO Rendezvous and Docking Explained | Term Definition"
   description: The complete process of performing rendezvous and docking with a space station operating in a near-rectilinear halo orbit. Unlike near-Earth rendezvous, the tar
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: NRHO Rendezvous and Docking Explained | Term Definition
+  title: "NRHO Rendezvous and Docking Explained | Term Definition"
   description: The complete process of performing rendezvous and docking with a space station operating in a near-rectilinear halo orbit. Unlike near-Earth rendezvous, the tar
   image: /logo.png
 permalink: /en/glossary/navigation/nrho-rendezvous-and-docking/

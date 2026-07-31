@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Centered Inertial Frame Explained | Term Definition
+  title: "Earth-Centered Inertial Frame Explained | Term Definition"
   description: "Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to No"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Centered Inertial Frame Explained | Term Definition
+  title: "Earth-Centered Inertial Frame Explained | Term Definition"
   description: "Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to No"
   image: /logo.png
 permalink: /en/glossary/dynamics/eci/

@@ -1,6 +1,6 @@
 ---
 title: Feed-Forward Network, FFN
-description: A fully connected network in Transformer architectures that applies non-linear transformations independently to each token. A2PPO's fusion module uses a token-wise feed-forward network (dimensions ...
+description: "A fully connected network in Transformer architectures that applies non-linear transformations independently to each token. A2PPO's fusion module uses a token-wise feed-forward network (dimensions ..."
 keywords: Feed-Forward Network, FFN, FFN
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Feed-Forward Network, FFN Explained | Term Definition
-  description: A fully connected network in Transformer architectures that applies non-linear transformations independently to each token. A2PPO's fusion module uses a token-wise feed-forward network (dimensions ...
+  title: "Feed-Forward Network, FFN Explained | Term Definition"
+  description: "A fully connected network in Transformer architectures that applies non-linear transformations independently to each token. A2PPO's fusion module uses a token-wise feed-forward network (dimensions ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Feed-Forward Network, FFN Explained | Term Definition
-  description: A fully connected network in Transformer architectures that applies non-linear transformations independently to each token. A2PPO's fusion module uses a token-wise feed-forward network (dimensions ...
+  title: "Feed-Forward Network, FFN Explained | Term Definition"
+  description: "A fully connected network in Transformer architectures that applies non-linear transformations independently to each token. A2PPO's fusion module uses a token-wise feed-forward network (dimensions ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/feed-forward-network-ffn/
 ---

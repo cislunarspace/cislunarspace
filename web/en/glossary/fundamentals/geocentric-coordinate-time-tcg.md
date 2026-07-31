@@ -1,6 +1,6 @@
 ---
 title: Geocentric Coordinate Time, TCG
-description: The relativistic coordinate time defined by IAU with origin at the Earth's center of mass, excluding the gravitational potential effect of Earth on time rate...
+description: "The relativistic coordinate time defined by IAU with origin at the Earth's center of mass, excluding the gravitational potential effect of Earth on time rate..."
 keywords: Geocentric Coordinate Time, TCG
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Coordinate Time, TCG Explained | Term Definition
-  description: The relativistic coordinate time defined by IAU with origin at the Earth's center of mass, excluding the gravitational potential effect of Earth on time rate...
+  title: "Geocentric Coordinate Time, TCG Explained | Term Definition"
+  description: "The relativistic coordinate time defined by IAU with origin at the Earth's center of mass, excluding the gravitational potential effect of Earth on time rate..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Coordinate Time, TCG Explained | Term Definition
-  description: The relativistic coordinate time defined by IAU with origin at the Earth's center of mass, excluding the gravitational potential effect of Earth on time rate...
+  title: "Geocentric Coordinate Time, TCG Explained | Term Definition"
+  description: "The relativistic coordinate time defined by IAU with origin at the Earth's center of mass, excluding the gravitational potential effect of Earth on time rate..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/geocentric-coordinate-time-tcg/
 ---

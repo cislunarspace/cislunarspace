@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Class I Halo Orbit Explained | Term Definition
+  title: "Class I Halo Orbit Explained | Term Definition"
   description: The northern halo orbit family, also called first class halo family, symmetric with respect to the z=0 plane.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Class I Halo Orbit Explained | Term Definition
+  title: "Class I Halo Orbit Explained | Term Definition"
   description: The northern halo orbit family, also called first class halo family, symmetric with respect to the z=0 plane.
   image: /logo.png
 permalink: /en/glossary/orbits/class-i-halo-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Targeting Maneuver Explained | Term Definition
+  title: "Lunar Targeting Maneuver Explained | Term Definition"
   description: A small correction maneuver performed in the final orbits before a lunar gravity assist, correcting execution errors from prior ORMs and aligning the spacecr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Targeting Maneuver Explained | Term Definition
+  title: "Lunar Targeting Maneuver Explained | Term Definition"
   description: A small correction maneuver performed in the final orbits before a lunar gravity assist, correcting execution errors from prior ORMs and aligning the spacecr...
   image: /logo.png
 permalink: /en/glossary/navigation/lunar-targeting-maneuver/

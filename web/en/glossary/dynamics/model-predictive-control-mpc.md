@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tool resources.
   image: /logo.png
 og:
-  title: Model Predictive Control (MPC) Explained | Term Definition
+  title: "Model Predictive Control (MPC) Explained | Term Definition"
   description: "An online rolling-horizon optimal control strategy: at each sampling instant, it solves a finite-horizon optimal control problem, applies the first control action, and re-solves at the next instant. It handles state and input constraints but faces challenges for computationally intensive scenarios."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Model Predictive Control (MPC) Explained | Term Definition
+  title: "Model Predictive Control (MPC) Explained | Term Definition"
   description: "An online rolling-horizon optimal control strategy: at each sampling instant, it solves a finite-horizon optimal control problem, applies the first control action, and re-solves at the next instant. It handles state and input constraints but faces challenges for computationally intensive scenarios."
   image: /logo.png
 permalink: /en/glossary/dynamics/model-predictive-control-mpc/

@@ -1,6 +1,6 @@
 ---
 title: Gauss-type Perturbation Equations
-description: Equations of variation for orbital elements derived by decomposing perturbation acceleration into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). Compared with Lagran...
+description: "Equations of variation for orbital elements derived by decomposing perturbation acceleration into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). Compared with Lagran..."
 keywords: Gauss-type Perturbation Equations
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gauss-type Perturbation Equations Explained | Term Definition
-  description: Equations of variation for orbital elements derived by decomposing perturbation acceleration into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). Compared with Lagran...
+  title: "Gauss-type Perturbation Equations Explained | Term Definition"
+  description: "Equations of variation for orbital elements derived by decomposing perturbation acceleration into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). Compared with Lagran..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gauss-type Perturbation Equations Explained | Term Definition
-  description: Equations of variation for orbital elements derived by decomposing perturbation acceleration into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). Compared with Lagran...
+  title: "Gauss-type Perturbation Equations Explained | Term Definition"
+  description: "Equations of variation for orbital elements derived by decomposing perturbation acceleration into three components: radial (S), tangential (T), and normal-to-orbital-plane (W). Compared with Lagran..."
   image: /logo.png
 permalink: /en/glossary/dynamics/gauss-type-perturbation-equations/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: EPnP Solver Explained | Term Definition
+  title: "EPnP Solver Explained | Term Definition"
   description: Closed-form solver for the Perspective-n-Points problem, converting 3D-2D point correspondences into pose estimation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: EPnP Solver Explained | Term Definition
+  title: "EPnP Solver Explained | Term Definition"
   description: Closed-form solver for the Perspective-n-Points problem, converting 3D-2D point correspondences into pose estimation
   image: /logo.png
 permalink: /en/glossary/navigation/epnp-solver/

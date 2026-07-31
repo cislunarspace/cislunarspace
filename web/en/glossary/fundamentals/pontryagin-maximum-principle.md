@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pontryagin Maximum Principle Explained | Term Definition
+  title: "Pontryagin Maximum Principle Explained | Term Definition"
   description: 最优控制理论的基本定理。规定最优控制必须全局极小化哈密顿函数，由此导出控制律和共态方程。与变分法不同，它能处理含不等式约束的控制问题，是求解燃料最优或时间最优轨迹的理论基础。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pontryagin Maximum Principle Explained | Term Definition
+  title: "Pontryagin Maximum Principle Explained | Term Definition"
   description: 最优控制理论的基本定理。规定最优控制必须全局极小化哈密顿函数，由此导出控制律和共态方程。与变分法不同，它能处理含不等式约束的控制问题，是求解燃料最优或时间最优轨迹的理论基础。
   image: /logo.png
 permalink: /en/glossary/fundamentals/pontryagin-maximum-principle/

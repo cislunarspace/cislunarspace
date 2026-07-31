@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Classical Exponential Sinusoid Explained | Term Definition
+  title: "Classical Exponential Sinusoid Explained | Term Definition"
   description: "The original form of the exponential sinusoid shape function: r = k0 exp[k1 sin(k2 θ + φ)], proposed by Petropoulos and Longuski for low-thrust trajectory design in the two-body framework. In the CR3B..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Classical Exponential Sinusoid Explained | Term Definition
+  title: "Classical Exponential Sinusoid Explained | Term Definition"
   description: "The original form of the exponential sinusoid shape function: r = k0 exp[k1 sin(k2 θ + φ)], proposed by Petropoulos and Longuski for low-thrust trajectory design in the two-body framework. In the CR3B..."
   image: /logo.png
 permalink: /en/glossary/orbits/classical-exponential-sinusoid/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Correlated Velocity Explained | Term Definition
+  title: "Correlated Velocity Explained | Term Definition"
   description: The velocity the spacecraft would need at its current position to reach terminal conditions under gravity alone; the reference quantity defining velocity-to-...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Correlated Velocity Explained | Term Definition
+  title: "Correlated Velocity Explained | Term Definition"
   description: The velocity the spacecraft would need at its current position to reach terminal conditions under gravity alone; the reference quantity defining velocity-to-...
   image: /logo.png
 permalink: /en/glossary/dynamics/correlated-velocity/

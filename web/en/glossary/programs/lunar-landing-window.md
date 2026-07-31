@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Landing Window Explained | Term Definition
+  title: "Lunar Landing Window Explained | Term Definition"
   description: "The time window permitting a lunar landing mission, jointly determined by ground launch windows, transfer trajectory constraints, and lunar orbit rendezvous con"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Landing Window Explained | Term Definition
+  title: "Lunar Landing Window Explained | Term Definition"
   description: "The time window permitting a lunar landing mission, jointly determined by ground launch windows, transfer trajectory constraints, and lunar orbit rendezvous con"
   image: /logo.png
 permalink: /en/glossary/programs/lunar-landing-window/

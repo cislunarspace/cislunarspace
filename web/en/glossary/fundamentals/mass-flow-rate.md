@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mass Flow Rate (ṁ) Explained | Term Definition
+  title: "Mass Flow Rate (ṁ) Explained | Term Definition"
   description: The rate of propellant consumption per unit time, equal to thrust divided by the product of specific impulse and gravitational acceleration (ṁ = T/(g₀Isp)). It 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Flow Rate (ṁ) Explained | Term Definition
+  title: "Mass Flow Rate (ṁ) Explained | Term Definition"
   description: The rate of propellant consumption per unit time, equal to thrust divided by the product of specific impulse and gravitational acceleration (ṁ = T/(g₀Isp)). It 
   image: /logo.png
 permalink: /en/glossary/fundamentals/mass-flow-rate/

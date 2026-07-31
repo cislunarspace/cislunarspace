@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normal Matrix Explained | Term Definition
+  title: "Normal Matrix Explained | Term Definition"
   description: In least-squares orbit determination, the matrix formed by H^T * H from the extended coefficient matrix H.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normal Matrix Explained | Term Definition
+  title: "Normal Matrix Explained | Term Definition"
   description: In least-squares orbit determination, the matrix formed by H^T * H from the extended coefficient matrix H.
   image: /logo.png
 permalink: /en/glossary/navigation/normal-matrix/

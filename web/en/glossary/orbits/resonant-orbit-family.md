@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonant Orbit Family Explained | Term Definition
+  title: "Resonant Orbit Family Explained | Term Definition"
   description: A family of periodic resonant orbits obtained by continuously varying the unperturbed eccentricity while maintaining the same resonance ratio (e.g., 1:2, 2:1) and resonance phase angle. Members of the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonant Orbit Family Explained | Term Definition
+  title: "Resonant Orbit Family Explained | Term Definition"
   description: A family of periodic resonant orbits obtained by continuously varying the unperturbed eccentricity while maintaining the same resonance ratio (e.g., 1:2, 2:1) and resonance phase angle. Members of the...
   image: /logo.png
 permalink: /en/glossary/orbits/resonant-orbit-family/

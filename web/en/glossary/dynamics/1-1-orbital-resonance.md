@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 1/1 Orbital Resonance Explained | Term Definition
+  title: "1/1 Orbital Resonance Explained | Term Definition"
   description: An orbital resonance where the orbital period ratio between the small body and the secondary mass is 1:1. The motion near triangular libration points...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 1/1 Orbital Resonance Explained | Term Definition
+  title: "1/1 Orbital Resonance Explained | Term Definition"
   description: An orbital resonance where the orbital period ratio between the small body and the secondary mass is 1:1. The motion near triangular libration points...
   image: /logo.png
 permalink: /en/glossary/dynamics/1-1-orbital-resonance/

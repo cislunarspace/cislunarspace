@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sliding Rule Explained | Term Definition
+  title: "Sliding Rule Explained | Term Definition"
   description: "A method for determining optimal initial and terminal coasting durations by sliding along contours on a cost map. Given the initial separation angle and total transfer time, allowing coasting shifts the sampling point on the contour plot: initial coasting moves along a line with slope 1/(ω1-ω2), while terminal coasting slides along a vertical line. Reaching a local minimum on the contour identifies the optimal coasting duration. This paper extends the concept from Lawden's necessary conditions for primer vector theory into a practical tool for finding globally optimal solutions."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sliding Rule Explained | Term Definition
+  title: "Sliding Rule Explained | Term Definition"
   description: "A method for determining optimal initial and terminal coasting durations by sliding along contours on a cost map. Given the initial separation angle and total transfer time, allowing coasting shifts the sampling point on the contour plot: initial coasting moves along a line with slope 1/(ω1-ω2), while terminal coasting slides along a vertical line. Reaching a local minimum on the contour identifies the optimal coasting duration. This paper extends the concept from Lawden's necessary conditions for primer vector theory into a practical tool for finding globally optimal solutions."
   image: /logo.png
 permalink: /en/glossary/dynamics/sliding-rule/

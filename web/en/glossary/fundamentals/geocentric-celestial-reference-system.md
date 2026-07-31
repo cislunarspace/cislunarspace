@@ -1,6 +1,6 @@
 ---
 title: Geocentric Celestial Reference System
-description: A reference system with its origin at Earth's center. Current Earth satellite ephemerides are described in this frame with time arguments being geocentric coordinate time (TCG) or Earth dynamic time (...
+description: "A reference system with its origin at Earth's center. Current Earth satellite ephemerides are described in this frame with time arguments being geocentric coordinate time (TCG) or Earth dynamic time (..."
 keywords: Geocentric Celestial Reference System, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Celestial Reference System Explained | Term Definition
-  description: A reference system with its origin at Earth's center. Current Earth satellite ephemerides are described in this frame with time arguments being geocentric coordinate time (TCG) or Earth dynamic time (...
+  title: "Geocentric Celestial Reference System Explained | Term Definition"
+  description: "A reference system with its origin at Earth's center. Current Earth satellite ephemerides are described in this frame with time arguments being geocentric coordinate time (TCG) or Earth dynamic time (..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Celestial Reference System Explained | Term Definition
-  description: A reference system with its origin at Earth's center. Current Earth satellite ephemerides are described in this frame with time arguments being geocentric coordinate time (TCG) or Earth dynamic time (...
+  title: "Geocentric Celestial Reference System Explained | Term Definition"
+  description: "A reference system with its origin at Earth's center. Current Earth satellite ephemerides are described in this frame with time arguments being geocentric coordinate time (TCG) or Earth dynamic time (..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/geocentric-celestial-reference-system/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Riccati Equation Explained | Term Definition
+  title: "Riccati Equation Explained | Term Definition"
   description: The matrix differential/algebraic equation used in linear quadratic optimal control (LQR) to solve for the optimal state-feedback gain, in the form A^T P + PA - PBR⁻¹B^T P + Q = 0. The symmetric posit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Riccati Equation Explained | Term Definition
+  title: "Riccati Equation Explained | Term Definition"
   description: The matrix differential/algebraic equation used in linear quadratic optimal control (LQR) to solve for the optimal state-feedback gain, in the form A^T P + PA - PBR⁻¹B^T P + Q = 0. The symmetric posit...
   image: /logo.png
 permalink: /en/glossary/dynamics/riccati-equation/

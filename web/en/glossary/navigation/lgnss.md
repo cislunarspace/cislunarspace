@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Global Navigation Satellite System Explained | Term Definition
+  title: "Lunar Global Navigation Satellite System Explained | Term Definition"
   description: A satellite constellation system providing global positioning, navigation, and timing services for users on the lunar surface and in near-lunar space. Its desig
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Global Navigation Satellite System Explained | Term Definition
+  title: "Lunar Global Navigation Satellite System Explained | Term Definition"
   description: A satellite constellation system providing global positioning, navigation, and timing services for users on the lunar surface and in near-lunar space. Its desig
   image: /logo.png
 permalink: /en/glossary/navigation/lgnss/

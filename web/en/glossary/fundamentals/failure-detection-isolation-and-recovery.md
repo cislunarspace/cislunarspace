@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Failure Detection, Isolation, and Recovery (FDIR) Explained | Term Definition
+  title: "Failure Detection, Isolation, and Recovery (FDIR) Explained | Term Definition"
   description: The system that oversees the malfunctioning of the GNC system with the goal of detecting the anomaly, isolating it, and computing recovery action to maintain mi
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Failure Detection, Isolation, and Recovery (FDIR) Explained | Term Definition
+  title: "Failure Detection, Isolation, and Recovery (FDIR) Explained | Term Definition"
   description: The system that oversees the malfunctioning of the GNC system with the goal of detecting the anomaly, isolating it, and computing recovery action to maintain mi
   image: /logo.png
 permalink: /en/glossary/fundamentals/failure-detection-isolation-and-recovery/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum Time of Flight, Min TOF Explained | Term Definition
+  title: "Minimum Time of Flight, Min TOF Explained | Term Definition"
   description: The shortest flight time from the minimum parking orbit to the lunar surface for a given Jacobi energy.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Time of Flight, Min TOF Explained | Term Definition
+  title: "Minimum Time of Flight, Min TOF Explained | Term Definition"
   description: The shortest flight time from the minimum parking orbit to the lunar surface for a given Jacobi energy.
   image: /logo.png
 permalink: /en/glossary/fundamentals/minimum-time-of-flight/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Hamiltonian Explained | Term Definition
+  title: "Low-Thrust Hamiltonian Explained | Term Definition"
   description: The Hamiltonian in CR3BP-LT, expressed as H_lt = H_nat - r·a_lt, which remains constant when the low-thrust acceleration vector is fixed in the rotating frame.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Hamiltonian Explained | Term Definition
+  title: "Low-Thrust Hamiltonian Explained | Term Definition"
   description: The Hamiltonian in CR3BP-LT, expressed as H_lt = H_nat - r·a_lt, which remains constant when the low-thrust acceleration vector is fixed in the rotating frame.
   image: /logo.png
 permalink: /en/glossary/dynamics/hlt/

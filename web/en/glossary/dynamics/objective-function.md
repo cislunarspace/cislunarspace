@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Objective Function Explained | Term Definition
+  title: "Objective Function Explained | Term Definition"
   description: "The mathematical function to be minimized or maximized in an optimization problem. The paper's objective function includes terms for closest approach altitude deviation and halo orbit insertion veloci"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Objective Function Explained | Term Definition
+  title: "Objective Function Explained | Term Definition"
   description: "The mathematical function to be minimized or maximized in an optimization problem. The paper's objective function includes terms for closest approach altitude deviation and halo orbit insertion veloci"
   image: /logo.png
 permalink: /en/glossary/dynamics/objective-function/

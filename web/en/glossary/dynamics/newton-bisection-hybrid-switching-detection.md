@@ -1,6 +1,6 @@
 ---
 title: Newton-Bisection Hybrid Switching Detection
-description: A hybrid algorithm for accurately detecting thrust switching times in bang-bang optimal control. Newton's method is used first for rapid convergence (typically 4-5 iterations to machine precision);...
+description: "A hybrid algorithm for accurately detecting thrust switching times in bang-bang optimal control. Newton's method is used first for rapid convergence (typically 4-5 iterations to machine precision);..."
 keywords: Newton-Bisection Hybrid Switching Detection, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Newton-Bisection Hybrid Switching Detection Explained | Term Definition
-  description: A hybrid algorithm for accurately detecting thrust switching times in bang-bang optimal control. Newton's method is used first for rapid convergence (typically 4-5 iterations to machine precision);...
+  title: "Newton-Bisection Hybrid Switching Detection Explained | Term Definition"
+  description: "A hybrid algorithm for accurately detecting thrust switching times in bang-bang optimal control. Newton's method is used first for rapid convergence (typically 4-5 iterations to machine precision);..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Newton-Bisection Hybrid Switching Detection Explained | Term Definition
-  description: A hybrid algorithm for accurately detecting thrust switching times in bang-bang optimal control. Newton's method is used first for rapid convergence (typically 4-5 iterations to machine precision);...
+  title: "Newton-Bisection Hybrid Switching Detection Explained | Term Definition"
+  description: "A hybrid algorithm for accurately detecting thrust switching times in bang-bang optimal control. Newton's method is used first for rapid convergence (typically 4-5 iterations to machine precision);..."
   image: /logo.png
 permalink: /en/glossary/dynamics/newton-bisection-hybrid-switching-detection/
 ---

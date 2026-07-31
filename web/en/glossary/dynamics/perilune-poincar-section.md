@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Poincaré Section Explained | Term Definition
+  title: "Perilune Poincaré Section Explained | Term Definition"
   description: Section formed by perilune intersection points of transfer trajectories on a projection surface, used to analyze translunar phase characteristics and lunar flyby parameter distributions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Poincaré Section Explained | Term Definition
+  title: "Perilune Poincaré Section Explained | Term Definition"
   description: Section formed by perilune intersection points of transfer trajectories on a projection surface, used to analyze translunar phase characteristics and lunar flyby parameter distributions.
   image: /logo.png
 permalink: /en/glossary/dynamics/perilune-poincar-section/

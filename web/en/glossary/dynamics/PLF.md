@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powered Lunar Flyby Transfer Explained | Term Definition
+  title: "Powered Lunar Flyby Transfer Explained | Term Definition"
   description: A transfer scheme from LEO to DRO. The spacecraft departs LEO, executes a powered maneuver at perilune to redirect its trajectory toward DRO, then performs an i
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Lunar Flyby Transfer Explained | Term Definition
+  title: "Powered Lunar Flyby Transfer Explained | Term Definition"
   description: A transfer scheme from LEO to DRO. The spacecraft departs LEO, executes a powered maneuver at perilune to redirect its trajectory toward DRO, then performs an i
   image: /logo.png
 permalink: /en/glossary/dynamics/PLF/

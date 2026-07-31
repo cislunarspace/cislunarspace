@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Navigation Error Details | Critical Error Source for Orbit Control
+  title: "Navigation Error Details | Critical Error Source for Orbit Control"
   description: Detailed analysis of navigation error sources, types, and their impact on orbit control
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Navigation Error Details | Critical Error Source for Orbit Control
+  title: "Navigation Error Details | Critical Error Source for Orbit Control"
   description: Detailed analysis of navigation error sources, types, and their impact on orbit control
   image: /logo.png
 permalink: /en/glossary/other/navigation-error/

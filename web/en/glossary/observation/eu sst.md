@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: EU Space Surveillance and Tracking Explained | Term Definition
+  title: "EU Space Surveillance and Tracking Explained | Term Definition"
   description: An EU-level space surveillance and tracking framework that integrates ground-based radars and telescopes from member states into a unified sensor network. Throu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: EU Space Surveillance and Tracking Explained | Term Definition
+  title: "EU Space Surveillance and Tracking Explained | Term Definition"
   description: An EU-level space surveillance and tracking framework that integrates ground-based radars and telescopes from member states into a unified sensor network. Throu
   image: /logo.png
 permalink: /en/glossary/observation/eu sst/

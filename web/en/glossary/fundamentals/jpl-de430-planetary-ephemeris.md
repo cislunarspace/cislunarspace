@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: JPL DE430 Planetary Ephemeris Explained | Term Definition
+  title: "JPL DE430 Planetary Ephemeris Explained | Term Definition"
   description: A precision planetary and lunar ephemeris published by JPL, providing positions and velocities of solar system bodies.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: JPL DE430 Planetary Ephemeris Explained | Term Definition
+  title: "JPL DE430 Planetary Ephemeris Explained | Term Definition"
   description: A precision planetary and lunar ephemeris published by JPL, providing positions and velocities of solar system bodies.
   image: /logo.png
 permalink: /en/glossary/fundamentals/jpl-de430-planetary-ephemeris/

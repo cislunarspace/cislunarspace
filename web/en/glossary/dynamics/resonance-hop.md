@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonance Hop Explained | Term Definition
+  title: "Resonance Hop Explained | Term Definition"
   description: The core maneuver strategy of SMART-1-like low-energy transfers. Each time the spacecraft crosses the L₁ neck region, its trajectory shifts from one near-resona
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonance Hop Explained | Term Definition
+  title: "Resonance Hop Explained | Term Definition"
   description: The core maneuver strategy of SMART-1-like low-energy transfers. Each time the spacecraft crosses the L₁ neck region, its trajectory shifts from one near-resona
   image: /logo.png
 permalink: /en/glossary/dynamics/resonance-hop/

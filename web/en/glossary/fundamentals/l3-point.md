@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L3 Point Explained | Term Definition
+  title: "L3 Point Explained | Term Definition"
   description: Libration point on the opposite side of Earth from the Moon, beyond the lunar orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L3 Point Explained | Term Definition
+  title: "L3 Point Explained | Term Definition"
   description: Libration point on the opposite side of Earth from the Moon, beyond the lunar orbit.
   image: /logo.png
 permalink: /en/glossary/fundamentals/l3-point/

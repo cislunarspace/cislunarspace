@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near-Rectilinear Halo Orbit (NRHO) Explained | Term Definition
+  title: "Near-Rectilinear Halo Orbit (NRHO) Explained | Term Definition"
   description: A class of near-rectilinear periodic orbits near Lagrange points, selected by NASA for the Lunar Gateway space station, close to the lunar polar regions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-Rectilinear Halo Orbit (NRHO) Explained | Term Definition
+  title: "Near-Rectilinear Halo Orbit (NRHO) Explained | Term Definition"
   description: A class of near-rectilinear periodic orbits near Lagrange points, selected by NASA for the Lunar Gateway space station, close to the lunar polar regions.
   image: /logo.png
 permalink: /en/glossary/orbits/near-rectilinear-halo-orbit-nrho/

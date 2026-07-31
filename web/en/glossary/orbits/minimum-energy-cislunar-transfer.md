@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum Energy Cislunar Transfer Explained | Term Definition
+  title: "Minimum Energy Cislunar Transfer Explained | Term Definition"
   description: Earth-to-Moon transfer with minimum energy consumption, achieved via LL1 point or halo orbit, with spacecraft eccentricity always less than 1 during transfer.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Energy Cislunar Transfer Explained | Term Definition
+  title: "Minimum Energy Cislunar Transfer Explained | Term Definition"
   description: Earth-to-Moon transfer with minimum energy consumption, achieved via LL1 point or halo orbit, with spacecraft eccentricity always less than 1 during transfer.
   image: /logo.png
 permalink: /en/glossary/orbits/minimum-energy-cislunar-transfer/

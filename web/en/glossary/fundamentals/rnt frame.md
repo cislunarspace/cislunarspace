@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial-Normal-Cross-Track Frame Explained | Term Definition
+  title: "Radial-Normal-Cross-Track Frame Explained | Term Definition"
   description: "A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital angul"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial-Normal-Cross-Track Frame Explained | Term Definition
+  title: "Radial-Normal-Cross-Track Frame Explained | Term Definition"
   description: "A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital angul"
   image: /logo.png
 permalink: /en/glossary/fundamentals/rnt frame/

@@ -1,6 +1,6 @@
 ---
 title: Phase Angle of Perigee
-description: In the Earth-Moon rotating frame, the phase angle of the perigee position relative to the Earth's velocity direction. Along with the phase angle of perilune, this angle determines the spatial configur...
+description: "In the Earth-Moon rotating frame, the phase angle of the perigee position relative to the Earth's velocity direction. Along with the phase angle of perilune, this angle determines the spatial configur..."
 keywords: Phase Angle of Perigee, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Angle of Perigee Explained | Term Definition
-  description: In the Earth-Moon rotating frame, the phase angle of the perigee position relative to the Earth's velocity direction. Along with the phase angle of perilune, this angle determines the spatial configur...
+  title: "Phase Angle of Perigee Explained | Term Definition"
+  description: "In the Earth-Moon rotating frame, the phase angle of the perigee position relative to the Earth's velocity direction. Along with the phase angle of perilune, this angle determines the spatial configur..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Angle of Perigee Explained | Term Definition
-  description: In the Earth-Moon rotating frame, the phase angle of the perigee position relative to the Earth's velocity direction. Along with the phase angle of perilune, this angle determines the spatial configur...
+  title: "Phase Angle of Perigee Explained | Term Definition"
+  description: "In the Earth-Moon rotating frame, the phase angle of the perigee position relative to the Earth's velocity direction. Along with the phase angle of perilune, this angle determines the spatial configur..."
   image: /logo.png
 permalink: /en/glossary/orbits/phase-angle-of-perigee/
 ---

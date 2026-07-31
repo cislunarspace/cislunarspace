@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Lunar Orbit, PLO Explained | Term Definition
+  title: "Planar Lunar Orbit, PLO Explained | Term Definition"
   description: Lunar orbit lying in the Earth-Moon orbital plane, exhibiting stable Keplerian motion characteristics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Lunar Orbit, PLO Explained | Term Definition
+  title: "Planar Lunar Orbit, PLO Explained | Term Definition"
   description: Lunar orbit lying in the Earth-Moon orbital plane, exhibiting stable Keplerian motion characteristics.
   image: /logo.png
 permalink: /en/glossary/orbits/planar-lunar-orbit-plo/

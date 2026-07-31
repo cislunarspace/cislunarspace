@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Constraint Explained | Term Definition
+  title: "State Constraint Explained | Term Definition"
   description: An inequality constraint in optimal control problems that restricts state variables (e.g., position, velocity) rather than control variables. Unlike control constraints, state constraints may cause adjoint variables to jump at constraint activation/exit times, complicating both theoretical analysis and numerical solution.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Constraint Explained | Term Definition
+  title: "State Constraint Explained | Term Definition"
   description: An inequality constraint in optimal control problems that restricts state variables (e.g., position, velocity) rather than control variables. Unlike control constraints, state constraints may cause adjoint variables to jump at constraint activation/exit times, complicating both theoretical analysis and numerical solution.
   image: /logo.png
 permalink: /en/glossary/dynamics/state-constraint/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Quasi-Bicircular Four-Body Problem Details | Multi-Body Dynamics
+  title: "Quasi-Bicircular Four-Body Problem Details | Multi-Body Dynamics"
   description: A self-consistent four-body dynamical model ensuring the Sun-Earth-Moon motion satisfies the three-body problem solution.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-Bicircular Four-Body Problem Details | Multi-Body Dynamics
+  title: "Quasi-Bicircular Four-Body Problem Details | Multi-Body Dynamics"
   description: A self-consistent four-body dynamical model ensuring the Sun-Earth-Moon motion satisfies the three-body problem solution.
   image: /logo.png
 permalink: /en/glossary/dynamics/quasi-bicircular-four-body/

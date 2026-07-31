@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Distance Explained | Term Definition
+  title: "Perilune Distance Explained | Term Definition"
   description: Distance from the satellite to the lunar surface at perilune; an important parameter in halo orbit selection, with stability correlated to perilune distance.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Distance Explained | Term Definition
+  title: "Perilune Distance Explained | Term Definition"
   description: Distance from the satellite to the lunar surface at perilune; an important parameter in halo orbit selection, with stability correlated to perilune distance.
   image: /logo.png
 permalink: /en/glossary/orbits/perilune-distance/

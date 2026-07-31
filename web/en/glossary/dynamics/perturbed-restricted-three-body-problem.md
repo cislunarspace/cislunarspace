@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perturbed Restricted Three-Body Problem Explained | Term Definition
+  title: "Perturbed Restricted Three-Body Problem Explained | Term Definition"
   description: "The circular restricted three-body problem augmented with gravitational perturbations from additional bodies (e.g., adding the Sun to the Earth-Moon system). Th"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perturbed Restricted Three-Body Problem Explained | Term Definition
+  title: "Perturbed Restricted Three-Body Problem Explained | Term Definition"
   description: "The circular restricted three-body problem augmented with gravitational perturbations from additional bodies (e.g., adding the Sun to the Earth-Moon system). Th"
   image: /logo.png
 permalink: /en/glossary/dynamics/perturbed-restricted-three-body-problem/

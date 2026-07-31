@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: HCPSO Algorithm Explained | Hybrid Cluster Particle Swarm Optimization
+  title: "HCPSO Algorithm Explained | Hybrid Cluster Particle Swarm Optimization"
   description: A detailed analysis of the HCPSO algorithm, its dual-strategy update mechanism, clustering mechanism, and applications in trajectory design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: HCPSO Algorithm Explained | Hybrid Cluster Particle Swarm Optimization
+  title: "HCPSO Algorithm Explained | Hybrid Cluster Particle Swarm Optimization"
   description: A detailed analysis of the HCPSO algorithm, its dual-strategy update mechanism, clustering mechanism, and applications in trajectory design
   image: /logo.png
 permalink: /en/glossary/dynamics/hcpso/

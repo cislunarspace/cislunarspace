@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptic Region Explained | Term Definition
+  title: "Elliptic Region Explained | Term Definition"
   description: 初始协态轨迹中1<S<12的区域，对应一至数圈的转移，协态点沿椭圆弧线分布。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptic Region Explained | Term Definition
+  title: "Elliptic Region Explained | Term Definition"
   description: 初始协态轨迹中1<S<12的区域，对应一至数圈的转移，协态点沿椭圆弧线分布。
   image: /logo.png
 permalink: /en/glossary/dynamics/elliptic-region/

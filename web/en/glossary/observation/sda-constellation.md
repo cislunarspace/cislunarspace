@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: SDA Constellation Explained | Term Definition
+  title: "SDA Constellation Explained | Term Definition"
   description: Constellations designed to monitor space objects within a specific range in cislunar space, including monitoring of specific volume regions and objects in specific orbits, requiring optical or other s.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: SDA Constellation Explained | Term Definition
+  title: "SDA Constellation Explained | Term Definition"
   description: Constellations designed to monitor space objects within a specific range in cislunar space, including monitoring of specific volume regions and objects in specific orbits, requiring optical or other s.
   image: /logo.png
 permalink: /en/glossary/observation/sda-constellation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-body Constellation Explained | Term Definition
+  title: "Multi-body Constellation Explained | Term Definition"
   description: A satellite constellation with spacecraft distributed across different orbital locations such as L1 and L2 halo orbits to achieve global or polar coverage.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-body Constellation Explained | Term Definition
+  title: "Multi-body Constellation Explained | Term Definition"
   description: A satellite constellation with spacecraft distributed across different orbital locations such as L1 and L2 halo orbits to achieve global or polar coverage.
   image: /logo.png
 permalink: /en/glossary/orbits/multi-body-constellation/

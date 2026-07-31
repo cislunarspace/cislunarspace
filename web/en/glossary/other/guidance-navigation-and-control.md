@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Guidance, Navigation and Control Explained | Term Definition
+  title: "Guidance, Navigation and Control Explained | Term Definition"
   description: Collective term for spacecraft guidance, navigation and control systems
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Guidance, Navigation and Control Explained | Term Definition
+  title: "Guidance, Navigation and Control Explained | Term Definition"
   description: Collective term for spacecraft guidance, navigation and control systems
   image: /logo.png
 permalink: /en/glossary/other/guidance-navigation-and-control/

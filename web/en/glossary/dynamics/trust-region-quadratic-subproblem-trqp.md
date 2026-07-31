@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trust-Region Quadratic Subproblem, TRQP (TRQP) Explained | Term Definition
+  title: "Trust-Region Quadratic Subproblem, TRQP (TRQP) Explained | Term Definition"
   description: A constrained quadratic optimization subproblem solved at each step within a trust-region framework. In HDDP, the control update δu at each stage must satisfy ‖D·δu‖≤Δ, where D is a scaling matrix ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trust-Region Quadratic Subproblem, TRQP (TRQP) Explained | Term Definition
+  title: "Trust-Region Quadratic Subproblem, TRQP (TRQP) Explained | Term Definition"
   description: A constrained quadratic optimization subproblem solved at each step within a trust-region framework. In HDDP, the control update δu at each stage must satisfy ‖D·δu‖≤Δ, where D is a scaling matrix ...
   image: /logo.png
 permalink: /en/glossary/dynamics/trust-region-quadratic-subproblem-trqp/

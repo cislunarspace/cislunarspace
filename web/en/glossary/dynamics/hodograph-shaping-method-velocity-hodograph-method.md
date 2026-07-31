@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hodograph Shaping Method, Velocity Hodograph Method Explained | Term Definition
+  title: "Hodograph Shaping Method, Velocity Hodograph Method Explained | Term Definition"
   description: A low-thrust trajectory design method. It expresses the velocity vector of a low-thrust transfer trajectory as a shape function of time or polar angle, then...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hodograph Shaping Method, Velocity Hodograph Method Explained | Term Definition
+  title: "Hodograph Shaping Method, Velocity Hodograph Method Explained | Term Definition"
   description: A low-thrust trajectory design method. It expresses the velocity vector of a low-thrust transfer trajectory as a shape function of time or polar angle, then...
   image: /logo.png
 permalink: /en/glossary/dynamics/hodograph-shaping-method-velocity-hodograph-method/

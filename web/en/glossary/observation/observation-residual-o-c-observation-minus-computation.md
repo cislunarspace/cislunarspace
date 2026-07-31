@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Observation Residual, O-C Explained | Term Definition
+  title: "Observation Residual, O-C Explained | Term Definition"
   description: The difference between the measured and theoretically computed observables. In cataloguing orbit determination, it is used to assess convergence of orbit improvement.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Observation Residual, O-C Explained | Term Definition
+  title: "Observation Residual, O-C Explained | Term Definition"
   description: The difference between the measured and theoretically computed observables. In cataloguing orbit determination, it is used to assess convergence of orbit improvement.
   image: /logo.png
 permalink: /en/glossary/observation/observation-residual-o-c-observation-minus-computation/

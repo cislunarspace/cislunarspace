@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Field-of-View Constraint Explained | Term Definition
+  title: "Field-of-View Constraint Explained | Term Definition"
   description: Constraint requiring the target to remain within the sensor field-of-view during proximity operations; couples attitude and translational dynamics through the s
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Field-of-View Constraint Explained | Term Definition
+  title: "Field-of-View Constraint Explained | Term Definition"
   description: Constraint requiring the target to remain within the sensor field-of-view during proximity operations; couples attitude and translational dynamics through the s
   image: /logo.png
 permalink: /en/glossary/dynamics/field-of-view-constraint/

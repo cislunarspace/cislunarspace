@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Permanent Ballistic Capture Explained | Term Definition
+  title: "Permanent Ballistic Capture Explained | Term Definition"
   description: "Spacecraft remains captured by the Moon indefinitely, requiring a dissipative force to occur."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Permanent Ballistic Capture Explained | Term Definition
+  title: "Permanent Ballistic Capture Explained | Term Definition"
   description: "Spacecraft remains captured by the Moon indefinitely, requiring a dissipative force to occur."
   image: /logo.png
 permalink: /en/glossary/orbits/permanent-ballistic-capture/

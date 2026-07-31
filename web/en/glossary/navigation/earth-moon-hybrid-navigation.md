@@ -1,6 +1,6 @@
 ---
 title: Earth-Moon Hybrid Navigation
-description: An analysis of the composite navigation architecture that integrates Earth's GNSS wide-area coverage with the high precision of lunar augmentation systems, and the "coarse positioning + precise positioning" technical path.
+description: "An analysis of the composite navigation architecture that integrates Earth's GNSS wide-area coverage with the high precision of lunar augmentation systems, and the \"coarse positioning + precise positioning\" technical path."
 keywords: Earth-Moon hybrid navigation, coarse positioning, precise positioning, bistatic navigation, Earth-Moon bistatic navigation, GNSS augmentation, lunar surface beacon station, multi-source fusion
 author: Tianjiang Shuo
 date: 2026-04-25
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Earth-Moon Hybrid Navigation | Cislunar Composite Navigation Architecture
-  description: An analysis of the composite navigation architecture that integrates Earth's GNSS wide-area coverage with the high precision of lunar augmentation systems, and the "coarse positioning + precise positioning" technical path.
+  title: "Earth-Moon Hybrid Navigation | Cislunar Composite Navigation Architecture"
+  description: "An analysis of the composite navigation architecture that integrates Earth's GNSS wide-area coverage with the high precision of lunar augmentation systems, and the \"coarse positioning + precise positioning\" technical path."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Hybrid Navigation | Cislunar Composite Navigation Architecture
-  description: An analysis of the composite navigation architecture that integrates Earth's GNSS wide-area coverage with the high precision of lunar augmentation systems, and the "coarse positioning + precise positioning" technical path.
+  title: "Earth-Moon Hybrid Navigation | Cislunar Composite Navigation Architecture"
+  description: "An analysis of the composite navigation architecture that integrates Earth's GNSS wide-area coverage with the high precision of lunar augmentation systems, and the \"coarse positioning + precise positioning\" technical path."
   image: /logo.png
 permalink: /en/glossary/navigation/earth-moon-hybrid-navigation/
 ---

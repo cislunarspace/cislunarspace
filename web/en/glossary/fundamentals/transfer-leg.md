@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Leg Explained | Term Definition
+  title: "Transfer Leg Explained | Term Definition"
   description: A single optimal trajectory segment between two adjacent patch points in a patched multi-segment low-thrust transfer.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Leg Explained | Term Definition
+  title: "Transfer Leg Explained | Term Definition"
   description: A single optimal trajectory segment between two adjacent patch points in a patched multi-segment low-thrust transfer.
   image: /logo.png
 permalink: /en/glossary/fundamentals/transfer-leg/

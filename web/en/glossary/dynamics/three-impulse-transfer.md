@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Three-Impulse Transfer Explained | Term Definition
+  title: "Three-Impulse Transfer Explained | Term Definition"
   description: A transfer scheme applying three impulses sequentially at departure, perilune, and orbit insertion for LEO-to-DRO powered lunar flyby transfers. The departure i
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Three-Impulse Transfer Explained | Term Definition
+  title: "Three-Impulse Transfer Explained | Term Definition"
   description: A transfer scheme applying three impulses sequentially at departure, perilune, and orbit insertion for LEO-to-DRO powered lunar flyby transfers. The departure i
   image: /logo.png
 permalink: /en/glossary/dynamics/three-impulse-transfer/

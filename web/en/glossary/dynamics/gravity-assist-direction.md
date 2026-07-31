@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravity Assist Direction Explained | Term Definition
+  title: "Gravity Assist Direction Explained | Term Definition"
   description: The relative orientation between spacecraft velocity direction at perilune and the insertion impulse during lunar gravity assist.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravity Assist Direction Explained | Term Definition
+  title: "Gravity Assist Direction Explained | Term Definition"
   description: The relative orientation between spacecraft velocity direction at perilune and the insertion impulse during lunar gravity assist.
   image: /logo.png
 permalink: /en/glossary/dynamics/gravity-assist-direction/

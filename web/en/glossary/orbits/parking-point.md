@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parking Point Explained | Term Definition
+  title: "Parking Point Explained | Term Definition"
   description: A designated orbital position where a space station remains. In libration point lunar missions, it specifically refers to L1 or L2 libration points and their ne
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parking Point Explained | Term Definition
+  title: "Parking Point Explained | Term Definition"
   description: A designated orbital position where a space station remains. In libration point lunar missions, it specifically refers to L1 or L2 libration points and their ne
   image: /logo.png
 permalink: /en/glossary/orbits/parking-point/

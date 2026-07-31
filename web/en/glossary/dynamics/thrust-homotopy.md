@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Homotopy Explained | Term Definition
+  title: "Thrust Homotopy Explained | Term Definition"
   description: A homotopy continuation method that uses thrust amplitude as the homotopy parameter, starting from a known high-thrust solution and gradually reducing thrust to the target value.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Homotopy Explained | Term Definition
+  title: "Thrust Homotopy Explained | Term Definition"
   description: A homotopy continuation method that uses thrust amplitude as the homotopy parameter, starting from a known high-thrust solution and gradually reducing thrust to the target value.
   image: /logo.png
 permalink: /en/glossary/dynamics/thrust-homotopy/

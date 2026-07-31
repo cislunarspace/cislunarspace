@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial Amplitude Explained | Term Definition
+  title: "Radial Amplitude Explained | Term Definition"
   description: Halo轨道在旋转坐标系中沿x轴（大天体到小天体连线方向）的最大偏移量。与面外振幅 A_z 和平面振幅 A_y 不同，A_x 反映轨道在两个主天体连线方向上的伸展范围。Richardson三阶近似解析解中，A_x 由 A_z 唯一确定，三者之间的约束关系是Halo轨道设计的基本约束。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial Amplitude Explained | Term Definition
+  title: "Radial Amplitude Explained | Term Definition"
   description: Halo轨道在旋转坐标系中沿x轴（大天体到小天体连线方向）的最大偏移量。与面外振幅 A_z 和平面振幅 A_y 不同，A_x 反映轨道在两个主天体连线方向上的伸展范围。Richardson三阶近似解析解中，A_x 由 A_z 唯一确定，三者之间的约束关系是Halo轨道设计的基本约束。
   image: /logo.png
 permalink: /en/glossary/orbits/radial-amplitude/

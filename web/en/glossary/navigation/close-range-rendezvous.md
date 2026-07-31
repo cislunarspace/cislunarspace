@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Close-Range Rendezvous Explained | Term Definition
+  title: "Close-Range Rendezvous Explained | Term Definition"
   description: 交会对接的第二个阶段，追踪航天器与目标距离从100公里接近到1公里，采用相对位置控制，可使用脉冲或连续推力。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Close-Range Rendezvous Explained | Term Definition
+  title: "Close-Range Rendezvous Explained | Term Definition"
   description: 交会对接的第二个阶段，追踪航天器与目标距离从100公里接近到1公里，采用相对位置控制，可使用脉冲或连续推力。
   image: /logo.png
 permalink: /en/glossary/navigation/close-range-rendezvous/

@@ -1,6 +1,6 @@
 ---
 title: DRO Capture Projection Surface
-description: A projection surface centered on the Moon with a radius set to five times the Moon's SOI radius. Used to record intersection points between DRO capture trajecto
+description: "A projection surface centered on the Moon with a radius set to five times the Moon's SOI radius. Used to record intersection points between DRO capture trajecto"
 keywords: DRO Capture Projection Surface
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO Capture Projection Surface Explained | Term Definition
-  description: A projection surface centered on the Moon with a radius set to five times the Moon's SOI radius. Used to record intersection points between DRO capture trajecto
+  title: "DRO Capture Projection Surface Explained | Term Definition"
+  description: "A projection surface centered on the Moon with a radius set to five times the Moon's SOI radius. Used to record intersection points between DRO capture trajecto"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO Capture Projection Surface Explained | Term Definition
-  description: A projection surface centered on the Moon with a radius set to five times the Moon's SOI radius. Used to record intersection points between DRO capture trajecto
+  title: "DRO Capture Projection Surface Explained | Term Definition"
+  description: "A projection surface centered on the Moon with a radius set to five times the Moon's SOI radius. Used to record intersection points between DRO capture trajecto"
   image: /logo.png
 permalink: /en/glossary/observation/dro-capture-projection-surface/
 ---

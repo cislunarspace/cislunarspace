@@ -1,6 +1,6 @@
 ---
 title: Precision Orbit Determination
-description: The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical models through statistical estimation methods. Precision orbit determination is a core technology for deep space exploration and cislunar navigation, as orbit determination accuracy directly affects mission success.
+description: "The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical models through statistical estimation methods. Precision orbit determination is a core technology for deep space exploration and cislunar navigation, as orbit determination accuracy directly affects mission success."
 keywords: Precision Orbit Determination, navigation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Precision Orbit Determination Explained | Term Definition
-  description: The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical models through statistical estimation methods. Precision orbit determination is a core technology for deep space exploration and cislunar navigation, as orbit determination accuracy directly affects mission success.
+  title: "Precision Orbit Determination Explained | Term Definition"
+  description: "The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical models through statistical estimation methods. Precision orbit determination is a core technology for deep space exploration and cislunar navigation, as orbit determination accuracy directly affects mission success."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Precision Orbit Determination Explained | Term Definition
-  description: The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical models through statistical estimation methods. Precision orbit determination is a core technology for deep space exploration and cislunar navigation, as orbit determination accuracy directly affects mission success.
+  title: "Precision Orbit Determination Explained | Term Definition"
+  description: "The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical models through statistical estimation methods. Precision orbit determination is a core technology for deep space exploration and cislunar navigation, as orbit determination accuracy directly affects mission success."
   image: /logo.png
 permalink: /en/glossary/navigation/precision-orbit-determination/
 ---

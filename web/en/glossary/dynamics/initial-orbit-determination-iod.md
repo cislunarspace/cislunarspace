@@ -1,6 +1,6 @@
 ---
 title: Initial Orbit Determination, IOD (IOD)
-description: The process of estimating a target's initial orbital elements from a small set of observations. For newly discovered cislunar objects, IOD is the prerequisit...
+description: "The process of estimating a target's initial orbital elements from a small set of observations. For newly discovered cislunar objects, IOD is the prerequisit..."
 keywords: Initial Orbit Determination, IOD, IOD
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial Orbit Determination, IOD Explained | Term Definition
-  description: The process of estimating a target's initial orbital elements from a small set of observations. For newly discovered cislunar objects, IOD is the prerequisit...
+  title: "Initial Orbit Determination, IOD Explained | Term Definition"
+  description: "The process of estimating a target's initial orbital elements from a small set of observations. For newly discovered cislunar objects, IOD is the prerequisit..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial Orbit Determination, IOD Explained | Term Definition
-  description: The process of estimating a target's initial orbital elements from a small set of observations. For newly discovered cislunar objects, IOD is the prerequisit...
+  title: "Initial Orbit Determination, IOD Explained | Term Definition"
+  description: "The process of estimating a target's initial orbital elements from a small set of observations. For newly discovered cislunar objects, IOD is the prerequisit..."
   image: /logo.png
 permalink: /en/glossary/dynamics/initial-orbit-determination-iod/
 ---

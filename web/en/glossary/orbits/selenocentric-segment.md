@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Selenocentric Segment Explained | Term Definition
+  title: "Selenocentric Segment Explained | Term Definition"
   description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Selenocentric Segment Explained | Term Definition
+  title: "Selenocentric Segment Explained | Term Definition"
   description: 地月转移轨道中从EML1平动点出发、最终到达月球轨道的月心动力学飞行段。
   image: /logo.png
 permalink: /en/glossary/orbits/selenocentric-segment/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sun-B1 Rotating Frame Explained | Term Definition
+  title: "Sun-B1 Rotating Frame Explained | Term Definition"
   description: A rotating coordinate frame centered at the Sun-Earth-Moon barycenter with the x-axis pointing toward the B1 point (approximately the Sun-Earth L1 direction)...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun-B1 Rotating Frame Explained | Term Definition
+  title: "Sun-B1 Rotating Frame Explained | Term Definition"
   description: A rotating coordinate frame centered at the Sun-Earth-Moon barycenter with the x-axis pointing toward the B1 point (approximately the Sun-Earth L1 direction)...
   image: /logo.png
 permalink: /en/glossary/fundamentals/sun-b1-rotating-frame/

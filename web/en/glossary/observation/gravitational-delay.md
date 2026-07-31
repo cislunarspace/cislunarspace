@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravitational Delay Explained | Term Definition
+  title: "Gravitational Delay Explained | Term Definition"
   description: The time delay in signal propagation through a gravitational field due to differences in gravitational potential, one of the model correction terms in...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Delay Explained | Term Definition
+  title: "Gravitational Delay Explained | Term Definition"
   description: The time delay in signal propagation through a gravitational field due to differences in gravitational potential, one of the model correction terms in...
   image: /logo.png
 permalink: /en/glossary/observation/gravitational-delay/

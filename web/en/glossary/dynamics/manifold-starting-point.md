@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Starting Point Explained | Term Definition
+  title: "Manifold Starting Point Explained | Term Definition"
   description: The initial point for numerical integration of an invariant manifold, offset from the corresponding Halo orbit, used to generate stable or unstable manifold ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Starting Point Explained | Term Definition
+  title: "Manifold Starting Point Explained | Term Definition"
   description: The initial point for numerical integration of an invariant manifold, offset from the corresponding Halo orbit, used to generate stable or unstable manifold ...
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-starting-point/

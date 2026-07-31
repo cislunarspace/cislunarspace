@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mascon (Mass Concentration) Explained | Term Definition
+  title: "Mascon (Mass Concentration) Explained | Term Definition"
   description: Regions of anomalously high density beneath the lunar surface that cause locally enhanced gravitational pull. Lunar mascons are primarily located beneath large...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mascon (Mass Concentration) Explained | Term Definition
+  title: "Mascon (Mass Concentration) Explained | Term Definition"
   description: Regions of anomalously high density beneath the lunar surface that cause locally enhanced gravitational pull. Lunar mascons are primarily located beneath large...
   image: /logo.png
 permalink: /en/glossary/dynamics/mascon-mass-concentration/

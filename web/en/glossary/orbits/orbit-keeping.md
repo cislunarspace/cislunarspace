@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Orbit Keeping Details | Maintaining Spacecraft on Reference Orbits
+  title: "Orbit Keeping Details | Maintaining Spacecraft on Reference Orbits"
   description: Detailed analysis of orbit keeping methods, strategies, and their application to DRO missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Keeping Details | Maintaining Spacecraft on Reference Orbits
+  title: "Orbit Keeping Details | Maintaining Spacecraft on Reference Orbits"
   description: Detailed analysis of orbit keeping methods, strategies, and their application to DRO missions
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-keeping/

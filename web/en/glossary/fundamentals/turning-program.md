@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Powered Phase Turning Process | Terminology Definition
+  title: "Powered Phase Turning Process | Terminology Definition"
   description: Detailed explanation of the three phases of powered phase turning and normal force generation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Phase Turning Process | Terminology Definition
+  title: "Powered Phase Turning Process | Terminology Definition"
   description: Detailed explanation of the three phases of powered phase turning and normal force generation
   image: /logo.png
 permalink: /en/glossary/fundamentals/turning-program/

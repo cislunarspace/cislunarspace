@@ -1,6 +1,6 @@
 ---
 title: Tracking and Data Relay Satellite System
-description: NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication.
+description: "NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication."
 keywords: Tracking and Data Relay Satellite System
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tracking and Data Relay Satellite System Explained | Term Definition
-  description: NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication.
+  title: "Tracking and Data Relay Satellite System Explained | Term Definition"
+  description: "NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tracking and Data Relay Satellite System Explained | Term Definition
-  description: NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication.
+  title: "Tracking and Data Relay Satellite System Explained | Term Definition"
+  description: "NASA's space tracking and data relay system supporting LEO spacecraft tracking and communication."
   image: /logo.png
 permalink: /en/glossary/navigation/tracking-and-data-relay-satellite-system/
 ---

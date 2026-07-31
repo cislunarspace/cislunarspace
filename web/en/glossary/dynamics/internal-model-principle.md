@@ -1,6 +1,6 @@
 ---
 title: Internal Model Principle (IMP)
-description: A fundamental principle in output regulation theory: the controller must internally contain a model of the exosystem (i.e., the generator of reference and di...
+description: "A fundamental principle in output regulation theory: the controller must internally contain a model of the exosystem (i.e., the generator of reference and di..."
 keywords: Internal Model Principle, IMP
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Internal Model Principle Explained | Term Definition
-  description: A fundamental principle in output regulation theory: the controller must internally contain a model of the exosystem (i.e., the generator of reference and di...
+  title: "Internal Model Principle Explained | Term Definition"
+  description: "A fundamental principle in output regulation theory: the controller must internally contain a model of the exosystem (i.e., the generator of reference and di..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Internal Model Principle Explained | Term Definition
-  description: A fundamental principle in output regulation theory: the controller must internally contain a model of the exosystem (i.e., the generator of reference and di...
+  title: "Internal Model Principle Explained | Term Definition"
+  description: "A fundamental principle in output regulation theory: the controller must internally contain a model of the exosystem (i.e., the generator of reference and di..."
   image: /logo.png
 permalink: /en/glossary/dynamics/internal-model-principle/
 ---

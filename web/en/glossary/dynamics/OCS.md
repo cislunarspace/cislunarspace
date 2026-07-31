@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Continuation Strategy, OCS Explained | Term Definition
+  title: "Optimal Continuation Strategy, OCS Explained | Term Definition"
   description: A stationkeeping maneuver algorithm for libration point orbits that does not require a reference trajectory. Using differential correction and nonlinear optimiz
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Continuation Strategy, OCS Explained | Term Definition
+  title: "Optimal Continuation Strategy, OCS Explained | Term Definition"
   description: A stationkeeping maneuver algorithm for libration point orbits that does not require a reference trajectory. Using differential correction and nonlinear optimiz
   image: /logo.png
 permalink: /en/glossary/dynamics/OCS/

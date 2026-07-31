@@ -1,6 +1,6 @@
 ---
 title: Retrograde Low Earth Orbit
-description: A low Earth orbit whose direction of motion is opposite to Earth's rotation. In the CR3BP rotating frame, the angular momentum direction of a retrograde orbit i
+description: "A low Earth orbit whose direction of motion is opposite to Earth's rotation. In the CR3BP rotating frame, the angular momentum direction of a retrograde orbit i"
 keywords: Retrograde Low Earth Orbit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Retrograde Low Earth Orbit Explained | Term Definition
-  description: A low Earth orbit whose direction of motion is opposite to Earth's rotation. In the CR3BP rotating frame, the angular momentum direction of a retrograde orbit i
+  title: "Retrograde Low Earth Orbit Explained | Term Definition"
+  description: "A low Earth orbit whose direction of motion is opposite to Earth's rotation. In the CR3BP rotating frame, the angular momentum direction of a retrograde orbit i"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Retrograde Low Earth Orbit Explained | Term Definition
-  description: A low Earth orbit whose direction of motion is opposite to Earth's rotation. In the CR3BP rotating frame, the angular momentum direction of a retrograde orbit i
+  title: "Retrograde Low Earth Orbit Explained | Term Definition"
+  description: "A low Earth orbit whose direction of motion is opposite to Earth's rotation. In the CR3BP rotating frame, the angular momentum direction of a retrograde orbit i"
   image: /logo.png
 permalink: /en/glossary/orbits/retrograde-low-earth-orbit/
 ---

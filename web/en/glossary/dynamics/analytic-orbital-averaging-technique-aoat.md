@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Analytic Orbital Averaging Technique, AOAT Explained | Term Definition
+  title: "Analytic Orbital Averaging Technique, AOAT Explained | Term Definition"
   description: A semi-analytic trajectory propagation method that computes per-revolution orbital element increments using analytic approximations of integrals over eccentr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Analytic Orbital Averaging Technique, AOAT Explained | Term Definition
+  title: "Analytic Orbital Averaging Technique, AOAT Explained | Term Definition"
   description: A semi-analytic trajectory propagation method that computes per-revolution orbital element increments using analytic approximations of integrals over eccentr...
   image: /logo.png
 permalink: /en/glossary/dynamics/analytic-orbital-averaging-technique-aoat/

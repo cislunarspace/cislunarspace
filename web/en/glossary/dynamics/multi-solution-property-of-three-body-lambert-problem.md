@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Solution Property of Three-Body Lambert Problem Explained | Term Definition
+  title: "Multi-Solution Property of Three-Body Lambert Problem Explained | Term Definition"
   description: The phenomenon that a three-body Lambert problem may admit multiple transfer trajectory solutions, caused by the nonlinear dynamics of the three-body system. Fo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Solution Property of Three-Body Lambert Problem Explained | Term Definition
+  title: "Multi-Solution Property of Three-Body Lambert Problem Explained | Term Definition"
   description: The phenomenon that a three-body Lambert problem may admit multiple transfer trajectory solutions, caused by the nonlinear dynamics of the three-body system. Fo
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-solution-property-of-three-body-lambert-problem/

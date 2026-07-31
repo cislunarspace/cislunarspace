@@ -1,6 +1,6 @@
 ---
 title: Truncation Strategy
-description: A strategy for trajectory database generation that uses the engine's terminal state and duty cycle to detect when trajectories enter a cost plateau, terminat...
+description: "A strategy for trajectory database generation that uses the engine's terminal state and duty cycle to detect when trajectories enter a cost plateau, terminat..."
 keywords: Truncation Strategy
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Truncation Strategy Explained | Term Definition
-  description: A strategy for trajectory database generation that uses the engine's terminal state and duty cycle to detect when trajectories enter a cost plateau, terminat...
+  title: "Truncation Strategy Explained | Term Definition"
+  description: "A strategy for trajectory database generation that uses the engine's terminal state and duty cycle to detect when trajectories enter a cost plateau, terminat..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Truncation Strategy Explained | Term Definition
-  description: A strategy for trajectory database generation that uses the engine's terminal state and duty cycle to detect when trajectories enter a cost plateau, terminat...
+  title: "Truncation Strategy Explained | Term Definition"
+  description: "A strategy for trajectory database generation that uses the engine's terminal state and duty cycle to detect when trajectories enter a cost plateau, terminat..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/truncation-strategy/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Shooting Constraint Explained | Term Definition
+  title: "Shooting Constraint Explained | Term Definition"
   description: Equality constraints in the multiple shooting method that ensure state continuity of adjacent trajectory segments at discrete nodes. Includes state continuity c
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shooting Constraint Explained | Term Definition
+  title: "Shooting Constraint Explained | Term Definition"
   description: Equality constraints in the multiple shooting method that ensure state continuity of adjacent trajectory segments at discrete nodes. Includes state continuity c
   image: /logo.png
 permalink: /en/glossary/dynamics/shooting-constraint/

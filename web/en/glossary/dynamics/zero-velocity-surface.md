@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Zero-Velocity Surface Details | CR3BP Dynamics
+  title: "Zero-Velocity Surface Details | CR3BP Dynamics"
   description: A surface in the CR3BP obtained by setting velocity to zero in the Jacobi integral, dividing space into accessible and forbidden regions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero-Velocity Surface Details | CR3BP Dynamics
+  title: "Zero-Velocity Surface Details | CR3BP Dynamics"
   description: A surface in the CR3BP obtained by setting velocity to zero in the Jacobi integral, dividing space into accessible and forbidden regions.
   image: /logo.png
 permalink: /en/glossary/dynamics/zero-velocity-surface/

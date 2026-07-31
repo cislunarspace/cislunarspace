@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Korea Multi-Purpose Satellite (KOMPSAT) | Terminology Definition
+  title: "Korea Multi-Purpose Satellite (KOMPSAT) | Terminology Definition"
   description: Detailed introduction to the Korea Multi-Purpose Satellite series
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Korea Multi-Purpose Satellite (KOMPSAT) | Terminology Definition
+  title: "Korea Multi-Purpose Satellite (KOMPSAT) | Terminology Definition"
   description: Detailed introduction to the Korea Multi-Purpose Satellite series
   image: /logo.png
 permalink: /en/glossary/fundamentals/kompsat/

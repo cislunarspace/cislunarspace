@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Switching Surface Explained | Term Definition
+  title: "Switching Surface Explained | Term Definition"
   description: A codimension-two submanifold in the cotangent bundle where the switching function vanishes. The extremal flow may switch control direction (from positive to...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Switching Surface Explained | Term Definition
+  title: "Switching Surface Explained | Term Definition"
   description: A codimension-two submanifold in the cotangent bundle where the switching function vanishes. The extremal flow may switch control direction (from positive to...
   image: /logo.png
 permalink: /en/glossary/dynamics/switching-surface/

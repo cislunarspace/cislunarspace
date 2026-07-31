@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert Transfer Explained | Term Definition
+  title: "Lambert Transfer Explained | Term Definition"
   description: Space Tongue refers to specialized terminology and technical expressions used in the field of orbital dynamics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert Transfer Explained | Term Definition
+  title: "Lambert Transfer Explained | Term Definition"
   description: Space Tongue refers to specialized terminology and technical expressions used in the field of orbital dynamics.
   image: /logo.png
 permalink: /en/glossary/orbits/lambert-transfer/

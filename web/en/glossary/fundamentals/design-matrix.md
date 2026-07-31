@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Design matrix Explained | Term Definition
+  title: "Design matrix Explained | Term Definition"
   description: In Kalman filtering, the partial derivative matrix of the measurement model with respect to the estimated state, describing the sensitivity of measurements to state changes. Used in EKF measurement update to compute the Kalman gain and update the state covariance.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Design matrix Explained | Term Definition
+  title: "Design matrix Explained | Term Definition"
   description: In Kalman filtering, the partial derivative matrix of the measurement model with respect to the estimated state, describing the sensitivity of measurements to state changes. Used in EKF measurement update to compute the Kalman gain and update the state covariance.
   image: /logo.png
 permalink: /en/glossary/fundamentals/design-matrix/

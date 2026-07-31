@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Dynamical Time, TDB Explained | Term Definition
+  title: "Barycentric Dynamical Time, TDB Explained | Term Definition"
   description: A time scale derived from TCB via a linear transformation that removes the secular drift relative to TT, keeping the two close. TDB and TT differ by an annual oscillation of approximately 1.66 ms ampl
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Dynamical Time, TDB Explained | Term Definition
+  title: "Barycentric Dynamical Time, TDB Explained | Term Definition"
   description: A time scale derived from TCB via a linear transformation that removes the secular drift relative to TT, keeping the two close. TDB and TT differ by an annual oscillation of approximately 1.66 ms ampl
   image: /logo.png
 permalink: /en/glossary/fundamentals/barycentric-dynamical-time-tdb/

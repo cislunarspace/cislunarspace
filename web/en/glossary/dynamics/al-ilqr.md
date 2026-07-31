@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition
+  title: "Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition"
   description: Algorithm combining augmented Lagrangian method with iterative LQR to solve discrete constrained optimization problems, applicable to both impulsive and continu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition
+  title: "Augmented Lagrangian Iterative LQR, AL-iLQR Explained | Term Definition"
   description: Algorithm combining augmented Lagrangian method with iterative LQR to solve discrete constrained optimization problems, applicable to both impulsive and continu
   image: /logo.png
 permalink: /en/glossary/dynamics/al-ilqr/

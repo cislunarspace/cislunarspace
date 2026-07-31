@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Gravitational Perturbation Explained | Term Definition
+  title: "Direct Gravitational Perturbation Explained | Term Definition"
   description: The direct gravitational acceleration of a third body (e.g., the Sun) on a spacecraft. In the Earth-Moon libration point navigation dynamics model, the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Gravitational Perturbation Explained | Term Definition
+  title: "Direct Gravitational Perturbation Explained | Term Definition"
   description: The direct gravitational acceleration of a third body (e.g., the Sun) on a spacecraft. In the Earth-Moon libration point navigation dynamics model, the...
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-gravitational-perturbation/

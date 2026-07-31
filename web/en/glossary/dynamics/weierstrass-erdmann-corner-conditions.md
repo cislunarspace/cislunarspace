@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weierstrass-Erdmann Corner Conditions Explained | Term Definition
+  title: "Weierstrass-Erdmann Corner Conditions Explained | Term Definition"
   description: Conditions in calculus of variations that require adjoint variables and Hamiltonian to be continuous at corners (points of control discontinuity) on an optimal 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weierstrass-Erdmann Corner Conditions Explained | Term Definition
+  title: "Weierstrass-Erdmann Corner Conditions Explained | Term Definition"
   description: Conditions in calculus of variations that require adjoint variables and Hamiltonian to be continuous at corners (points of control discontinuity) on an optimal 
   image: /logo.png
 permalink: /en/glossary/dynamics/weierstrass-erdmann-corner-conditions/

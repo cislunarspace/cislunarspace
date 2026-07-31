@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local Truncation Error Explained | Term Definition
+  title: "Local Truncation Error Explained | Term Definition"
   description: The error introduced in a single step of numerical integration due to approximating the exact integral with a finite-order method. Adaptive step-size integra...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local Truncation Error Explained | Term Definition
+  title: "Local Truncation Error Explained | Term Definition"
   description: The error introduced in a single step of numerical integration due to approximating the exact integral with a finite-order method. Adaptive step-size integra...
   image: /logo.png
 permalink: /en/glossary/fundamentals/local-truncation-error/

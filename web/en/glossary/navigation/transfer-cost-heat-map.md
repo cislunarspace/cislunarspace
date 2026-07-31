@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Cost Heat Map Explained | Term Definition
+  title: "Transfer Cost Heat Map Explained | Term Definition"
   description: A visualization tool with Jacobi Constant as axes, showing the estimated delta-V between two orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Cost Heat Map Explained | Term Definition
+  title: "Transfer Cost Heat Map Explained | Term Definition"
   description: A visualization tool with Jacobi Constant as axes, showing the estimated delta-V between two orbits.
   image: /logo.png
 permalink: /en/glossary/navigation/transfer-cost-heat-map/

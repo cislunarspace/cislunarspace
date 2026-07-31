@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Correction Method Explained | Term Definition
+  title: "Differential Correction Method Explained | Term Definition"
   description: A numerical method that uses the linear approximation of the state transition matrix to iteratively correct initial state deviations so that terminal states...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Correction Method Explained | Term Definition
+  title: "Differential Correction Method Explained | Term Definition"
   description: A numerical method that uses the linear approximation of the state transition matrix to iteratively correct initial state deviations so that terminal states...
   image: /logo.png
 permalink: /en/glossary/fundamentals/differential-correction-method/

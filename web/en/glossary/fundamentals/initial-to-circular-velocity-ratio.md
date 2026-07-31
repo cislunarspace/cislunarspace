@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial-to-Circular Velocity Ratio Explained | Term Definition
+  title: "Initial-to-Circular Velocity Ratio Explained | Term Definition"
   description: Ratio of initial velocity to local circular orbital velocity; β=1 gives circular velocity, β=√2 gives escape velocity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial-to-Circular Velocity Ratio Explained | Term Definition
+  title: "Initial-to-Circular Velocity Ratio Explained | Term Definition"
   description: Ratio of initial velocity to local circular orbital velocity; β=1 gives circular velocity, β=√2 gives escape velocity.
   image: /logo.png
 permalink: /en/glossary/fundamentals/initial-to-circular-velocity-ratio/

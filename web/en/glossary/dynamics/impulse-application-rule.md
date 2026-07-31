@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Impulse Application Rule Explained | Term Definition
+  title: "Impulse Application Rule Explained | Term Definition"
   description: "Two maneuver principles derived from the Jacobi constant-velocity increment relationship: first, deceleration maneuvers should be applied at velocity maxima..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Impulse Application Rule Explained | Term Definition
+  title: "Impulse Application Rule Explained | Term Definition"
   description: "Two maneuver principles derived from the Jacobi constant-velocity increment relationship: first, deceleration maneuvers should be applied at velocity maxima..."
   image: /logo.png
 permalink: /en/glossary/dynamics/impulse-application-rule/

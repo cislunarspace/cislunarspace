@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: EGM2008 Earth Gravitational Model Explained | Term Definition
+  title: "EGM2008 Earth Gravitational Model Explained | Term Definition"
   description: "Spherical harmonic coefficient model describing Earth's gravitational potential at 50×50 order/degree, used to compute non-spherical Earth gravity effects on spacecraft trajectories."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: EGM2008 Earth Gravitational Model Explained | Term Definition
+  title: "EGM2008 Earth Gravitational Model Explained | Term Definition"
   description: "Spherical harmonic coefficient model describing Earth's gravitational potential at 50×50 order/degree, used to compute non-spherical Earth gravity effects on spacecraft trajectories."
   image: /logo.png
 permalink: /en/glossary/dynamics/egm2008-earth-gravitational-model/

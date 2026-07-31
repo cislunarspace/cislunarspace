@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Safety Boundary, SB Explained | Term Definition
+  title: "Safety Boundary, SB Explained | Term Definition"
   description: A 100m-radius minimum safety sphere around the target, determined by the physical dimensions of the two vehicles. The chaser must enter in closed-loop control to perform docking or berthing.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Safety Boundary, SB Explained | Term Definition
+  title: "Safety Boundary, SB Explained | Term Definition"
   description: A 100m-radius minimum safety sphere around the target, determined by the physical dimensions of the two vehicles. The chaser must enter in closed-loop control to perform docking or berthing.
   image: /logo.png
 permalink: /en/glossary/navigation/safety-boundary-sb/

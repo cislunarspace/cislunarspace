@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Safe Transfer Formation Explained | Term Definition
+  title: "Safe Transfer Formation Explained | Term Definition"
   description: "An analytically designed formation transfer scheme that transfers the deputy from an initial point to a target point with safety guaranteed. The reference traje"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Safe Transfer Formation Explained | Term Definition
+  title: "Safe Transfer Formation Explained | Term Definition"
   description: "An analytically designed formation transfer scheme that transfers the deputy from an initial point to a target point with safety guaranteed. The reference traje"
   image: /logo.png
 permalink: /en/glossary/dynamics/safe-transfer-formation/

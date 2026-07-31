@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Divergent Solution Explained | Term Definition
+  title: "Divergent Solution Explained | Term Definition"
   description: A solution corresponding to the generalized eigenvector of unit eigenvalues in Floquet theory. The deputy drifts monotonically along the tangential direction re
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Divergent Solution Explained | Term Definition
+  title: "Divergent Solution Explained | Term Definition"
   description: A solution corresponding to the generalized eigenvector of unit eigenvalues in Floquet theory. The deputy drifts monotonically along the tangential direction re
   image: /logo.png
 permalink: /en/glossary/dynamics/divergent-solution/

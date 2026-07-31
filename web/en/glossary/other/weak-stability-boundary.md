@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary (WSB) Explained | Cislunar Space
+  title: "Weak Stability Boundary (WSB) Explained | Cislunar Space"
   description: Detailed explanation of weak stability boundary definition, three-body dynamics nature, and applications in low-energy orbital transfers
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary (WSB) Explained | Cislunar Space
+  title: "Weak Stability Boundary (WSB) Explained | Cislunar Space"
   description: Detailed explanation of weak stability boundary definition, three-body dynamics nature, and applications in low-energy orbital transfers
   image: /logo.png
 permalink: /en/glossary/other/weak-stability-boundary/

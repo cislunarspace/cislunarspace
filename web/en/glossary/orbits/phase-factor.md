@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Factor Explained | Term Definition
+  title: "Phase Factor Explained | Term Definition"
   description: Parameter characterizing DRO phase angle, ranging from 0 to 1; when σ approaches 0.5, DRO mechanical energy approaches WSB gateway value, requiring larger ca...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Factor Explained | Term Definition
+  title: "Phase Factor Explained | Term Definition"
   description: Parameter characterizing DRO phase angle, ranging from 0 to 1; when σ approaches 0.5, DRO mechanical energy approaches WSB gateway value, requiring larger ca...
   image: /logo.png
 permalink: /en/glossary/orbits/phase-factor/

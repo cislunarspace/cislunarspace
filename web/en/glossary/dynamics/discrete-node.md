@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Discrete Node Explained | Term Definition
+  title: "Discrete Node Explained | Term Definition"
   description: A time sampling point along the trajectory after discretization of the optimal control problem. The number of nodes directly affects optimization accuracy and c
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Discrete Node Explained | Term Definition
+  title: "Discrete Node Explained | Term Definition"
   description: A time sampling point along the trajectory after discretization of the optimal control problem. The number of nodes directly affects optimization accuracy and c
   image: /logo.png
 permalink: /en/glossary/dynamics/discrete-node/

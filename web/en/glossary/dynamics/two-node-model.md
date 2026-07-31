@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Two-node Model | Simplified Thermal Analysis
+  title: "Two-node Model | Simplified Thermal Analysis"
   description: A detailed analysis of two-node thermodynamic model establishment, simplified assumptions, mathematical formulation, and applications in preliminary stratospheric airship analysis
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-node Model | Simplified Thermal Analysis
+  title: "Two-node Model | Simplified Thermal Analysis"
   description: A detailed analysis of two-node thermodynamic model establishment, simplified assumptions, mathematical formulation, and applications in preliminary stratospheric airship analysis
   image: /logo.png
 permalink: /en/glossary/dynamics/two-node-model/

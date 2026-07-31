@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Reference Frame Explained | Term Definition
+  title: "Synodic Reference Frame Explained | Term Definition"
   description: A non-inertial reference frame centered at the barycenter of two primary bodies and rotating with their line of connection. In this frame, the two primaries rem
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Reference Frame Explained | Term Definition
+  title: "Synodic Reference Frame Explained | Term Definition"
   description: A non-inertial reference frame centered at the barycenter of two primary bodies and rotating with their line of connection. In this frame, the two primaries rem
   image: /logo.png
 permalink: /en/glossary/fundamentals/synodic-reference-frame/

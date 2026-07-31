@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: V-infinity Matching Explained | Term Definition
+  title: "V-infinity Matching Explained | Term Definition"
   description: A strategy that matches the hyperbolic excess velocities (v-infinity) before and after lunar gravity assist to connect the LEO-to-LGA and LGA-to-DRO trajectory segments. It adjusts perigee parameters ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: V-infinity Matching Explained | Term Definition
+  title: "V-infinity Matching Explained | Term Definition"
   description: A strategy that matches the hyperbolic excess velocities (v-infinity) before and after lunar gravity assist to connect the LEO-to-LGA and LGA-to-DRO trajectory segments. It adjusts perigee parameters ...
   image: /logo.png
 permalink: /en/glossary/dynamics/v-infinity-matching/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periodic Orbit Family Explained | Term Definition
+  title: "Periodic Orbit Family Explained | Term Definition"
   description: A continuous set of periodic orbits varying with a parameter, such as halo orbit families.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periodic Orbit Family Explained | Term Definition
+  title: "Periodic Orbit Family Explained | Term Definition"
   description: A continuous set of periodic orbits varying with a parameter, such as halo orbit families.
   image: /logo.png
 permalink: /en/glossary/orbits/periodic-orbit-family/

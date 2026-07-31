@@ -1,6 +1,6 @@
 ---
 title: High-Fidelity Simulation
-description: An orbit simulation approach using a complete force model (including Earth's nonsphericity, solar radiation pressure, and gravitational perturbations of all solar system bodies) with precise ephemerid...
+description: "An orbit simulation approach using a complete force model (including Earth's nonsphericity, solar radiation pressure, and gravitational perturbations of all solar system bodies) with precise ephemerid..."
 keywords: High-Fidelity Simulation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High-Fidelity Simulation Explained | Term Definition
-  description: An orbit simulation approach using a complete force model (including Earth's nonsphericity, solar radiation pressure, and gravitational perturbations of all solar system bodies) with precise ephemerid...
+  title: "High-Fidelity Simulation Explained | Term Definition"
+  description: "An orbit simulation approach using a complete force model (including Earth's nonsphericity, solar radiation pressure, and gravitational perturbations of all solar system bodies) with precise ephemerid..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High-Fidelity Simulation Explained | Term Definition
-  description: An orbit simulation approach using a complete force model (including Earth's nonsphericity, solar radiation pressure, and gravitational perturbations of all solar system bodies) with precise ephemerid...
+  title: "High-Fidelity Simulation Explained | Term Definition"
+  description: "An orbit simulation approach using a complete force model (including Earth's nonsphericity, solar radiation pressure, and gravitational perturbations of all solar system bodies) with precise ephemerid..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/high-fidelity-simulation/
 ---

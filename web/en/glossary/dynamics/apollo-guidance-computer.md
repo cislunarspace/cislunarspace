@@ -1,6 +1,6 @@
 ---
 title: Apollo Guidance Computer (AGC)
-description: Digital computer on Apollo spacecraft for guidance, navigation and control, featuring 16-bit word length and limited memory; the core of humanity's first fully...
+description: "Digital computer on Apollo spacecraft for guidance, navigation and control, featuring 16-bit word length and limited memory; the core of humanity's first fully..."
 keywords: Apollo Guidance Computer, AGC
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Apollo Guidance Computer Explained | Term Definition
-  description: Digital computer on Apollo spacecraft for guidance, navigation and control, featuring 16-bit word length and limited memory; the core of humanity's first fully...
+  title: "Apollo Guidance Computer Explained | Term Definition"
+  description: "Digital computer on Apollo spacecraft for guidance, navigation and control, featuring 16-bit word length and limited memory; the core of humanity's first fully..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Apollo Guidance Computer Explained | Term Definition
-  description: Digital computer on Apollo spacecraft for guidance, navigation and control, featuring 16-bit word length and limited memory; the core of humanity's first fully...
+  title: "Apollo Guidance Computer Explained | Term Definition"
+  description: "Digital computer on Apollo spacecraft for guidance, navigation and control, featuring 16-bit word length and limited memory; the core of humanity's first fully..."
   image: /logo.png
 permalink: /en/glossary/dynamics/apollo-guidance-computer/
 ---

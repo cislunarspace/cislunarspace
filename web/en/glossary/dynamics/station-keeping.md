@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Station-Keeping Explained | Term Definition
+  title: "Station-Keeping Explained | Term Definition"
   description: "The general term for control strategies that keep a spacecraft's actual trajectory close to the desired nominal orbit. In cislunar space, perturbations from solar gravity, solar radiation pressure, an"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Station-Keeping Explained | Term Definition
+  title: "Station-Keeping Explained | Term Definition"
   description: "The general term for control strategies that keep a spacecraft's actual trajectory close to the desired nominal orbit. In cislunar space, perturbations from solar gravity, solar radiation pressure, an"
   image: /logo.png
 permalink: /en/glossary/dynamics/station-keeping/

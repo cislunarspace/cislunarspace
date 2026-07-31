@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Asymmetry Explained | Term Definition
+  title: "Asymmetry Explained | Term Definition"
   description: A quantitative indicator of gravitational asymmetry, defined as the ratio of the third-body perturbation acceleration magnitude to the sum of all acceleratio...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Asymmetry Explained | Term Definition
+  title: "Asymmetry Explained | Term Definition"
   description: A quantitative indicator of gravitational asymmetry, defined as the ratio of the third-body perturbation acceleration magnitude to the sum of all acceleratio...
   image: /logo.png
 permalink: /en/glossary/dynamics/asymmetry/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Capture Orbit Explained | Term Definition
+  title: "Capture Orbit Explained | Term Definition"
   description: An orbit that sometimes crosses the equilibrium region L but ceases to do so after (or before) some finite time. For the Lagrange point between the two prima...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Capture Orbit Explained | Term Definition
+  title: "Capture Orbit Explained | Term Definition"
   description: An orbit that sometimes crosses the equilibrium region L but ceases to do so after (or before) some finite time. For the Lagrange point between the two prima...
   image: /logo.png
 permalink: /en/glossary/orbits/capture-orbit/

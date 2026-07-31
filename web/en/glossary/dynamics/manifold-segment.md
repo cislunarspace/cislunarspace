@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Segment Explained | Term Definition
+  title: "Manifold Segment Explained | Term Definition"
   description: A portion of the stable manifold of a halo orbit. A spacecraft on the manifold segment asymptotically approaches the target halo orbit along its unstable man...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Segment Explained | Term Definition
+  title: "Manifold Segment Explained | Term Definition"
   description: A portion of the stable manifold of a halo orbit. A spacecraft on the manifold segment asymptotically approaches the target halo orbit along its unstable man...
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-segment/

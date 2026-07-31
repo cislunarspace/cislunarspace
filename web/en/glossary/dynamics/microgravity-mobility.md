@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Microgravity Mobility Explained | Term Definition
+  title: "Microgravity Mobility Explained | Term Definition"
   description: Mobility technology in microgravity environments where weak gravitational fields can be leveraged as an asset (e.g., hopping platforms) or overcome as a challenge (e.g., wheeled or legged systems limi
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Microgravity Mobility Explained | Term Definition
+  title: "Microgravity Mobility Explained | Term Definition"
   description: Mobility technology in microgravity environments where weak gravitational fields can be leveraged as an asset (e.g., hopping platforms) or overcome as a challenge (e.g., wheeled or legged systems limi
   image: /logo.png
 permalink: /en/glossary/dynamics/microgravity-mobility/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Artificial Potential Function, APF Explained | Term Definition
+  title: "Artificial Potential Function, APF Explained | Term Definition"
   description: 用势函数在状态空间中表示机器人环境的方法，目标区域为吸引力势，障碍区域为排斥力势，梯度下降用于规划避障路径。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Artificial Potential Function, APF Explained | Term Definition
+  title: "Artificial Potential Function, APF Explained | Term Definition"
   description: 用势函数在状态空间中表示机器人环境的方法，目标区域为吸引力势，障碍区域为排斥力势，梯度下降用于规划避障路径。
   image: /logo.png
 permalink: /en/glossary/dynamics/artificial-potential-function-apf/

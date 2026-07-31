@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geometry-dependent constant Explained | Term Definition
+  title: "Geometry-dependent constant Explained | Term Definition"
   description: m = (-1)^N √(r₀ rf) cos(θ/2); its sign change in multi-revolution cases enables capturing multiple revolutions without an extra term.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geometry-dependent constant Explained | Term Definition
+  title: "Geometry-dependent constant Explained | Term Definition"
   description: m = (-1)^N √(r₀ rf) cos(θ/2); its sign change in multi-revolution cases enables capturing multiple revolutions without an extra term.
   image: /logo.png
 permalink: /en/glossary/dynamics/Geometry-dependent-constant/

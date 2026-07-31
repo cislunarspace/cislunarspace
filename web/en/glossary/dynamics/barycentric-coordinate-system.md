@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Coordinate System Explained | Term Definition
+  title: "Barycentric Coordinate System Explained | Term Definition"
   description: "A rotating coordinate frame with origin at the Earth-Moon system barycenter, rotating with the Moon's orbital angular velocity. Used for deriving CR3BP equations."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Coordinate System Explained | Term Definition
+  title: "Barycentric Coordinate System Explained | Term Definition"
   description: "A rotating coordinate frame with origin at the Earth-Moon system barycenter, rotating with the Moon's orbital angular velocity. Used for deriving CR3BP equations."
   image: /logo.png
 permalink: /en/glossary/dynamics/barycentric-coordinate-system/

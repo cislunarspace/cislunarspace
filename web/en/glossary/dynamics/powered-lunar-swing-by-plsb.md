@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powered Lunar Swing-By, PLSB Explained | Term Definition
+  title: "Powered Lunar Swing-By, PLSB Explained | Term Definition"
   description: A maneuver where the spacecraft applies thrust at the lunar perilune to combine lunar gravity with active deceleration, reducing orbital energy from the transfer orbit to a lunar capture orbit. PLS...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Lunar Swing-By, PLSB Explained | Term Definition
+  title: "Powered Lunar Swing-By, PLSB Explained | Term Definition"
   description: A maneuver where the spacecraft applies thrust at the lunar perilune to combine lunar gravity with active deceleration, reducing orbital energy from the transfer orbit to a lunar capture orbit. PLS...
   image: /logo.png
 permalink: /en/glossary/dynamics/powered-lunar-swing-by-plsb/

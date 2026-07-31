@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L5 Point Explained | Term Definition
+  title: "L5 Point Explained | Term Definition"
   description: One of triangular libration points in Earth-Moon system, trailing Earth-Moon by 60 degrees in orbital motion.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L5 Point Explained | Term Definition
+  title: "L5 Point Explained | Term Definition"
   description: One of triangular libration points in Earth-Moon system, trailing Earth-Moon by 60 degrees in orbital motion.
   image: /logo.png
 permalink: /en/glossary/fundamentals/l5-point/

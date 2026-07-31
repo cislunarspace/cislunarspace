@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Period-3 Distant Retrograde Orbit Explained | Term Definition
+  title: "Period-3 Distant Retrograde Orbit Explained | Term Definition"
   description: Period-3 orbit family bifurcating from the planar DRO family, denoted g3 by Hénon. Unlike stable DROs, P3DROs are unstable; their stable and unstable manifol...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Period-3 Distant Retrograde Orbit Explained | Term Definition
+  title: "Period-3 Distant Retrograde Orbit Explained | Term Definition"
   description: Period-3 orbit family bifurcating from the planar DRO family, denoted g3 by Hénon. Unlike stable DROs, P3DROs are unstable; their stable and unstable manifol...
   image: /logo.png
 permalink: /en/glossary/orbits/period-3-distant-retrograde-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hold Point, HP Explained | Term Definition
+  title: "Hold Point, HP Explained | Term Definition"
   description: A pre-determined waypoint during rendezvous approach where the chaser stops relative to the target, checks system status, and decides whether to abort or contin
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hold Point, HP Explained | Term Definition
+  title: "Hold Point, HP Explained | Term Definition"
   description: A pre-determined waypoint during rendezvous approach where the chaser stops relative to the target, checks system status, and decides whether to abort or contin
   image: /logo.png
 permalink: /en/glossary/navigation/HP/

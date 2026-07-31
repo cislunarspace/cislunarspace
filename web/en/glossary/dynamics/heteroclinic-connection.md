@@ -1,6 +1,6 @@
 ---
 title: Heteroclinic Connection
-description: A geometric connection between invariant manifolds of two distinct periodic orbits: the unstable manifold of one periodic orbit intersects the stable manifold o
+description: "A geometric connection between invariant manifolds of two distinct periodic orbits: the unstable manifold of one periodic orbit intersects the stable manifold o"
 keywords: Heteroclinic Connection
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heteroclinic Connection Explained | Term Definition
-  description: A geometric connection between invariant manifolds of two distinct periodic orbits: the unstable manifold of one periodic orbit intersects the stable manifold o
+  title: "Heteroclinic Connection Explained | Term Definition"
+  description: "A geometric connection between invariant manifolds of two distinct periodic orbits: the unstable manifold of one periodic orbit intersects the stable manifold o"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heteroclinic Connection Explained | Term Definition
-  description: A geometric connection between invariant manifolds of two distinct periodic orbits: the unstable manifold of one periodic orbit intersects the stable manifold o
+  title: "Heteroclinic Connection Explained | Term Definition"
+  description: "A geometric connection between invariant manifolds of two distinct periodic orbits: the unstable manifold of one periodic orbit intersects the stable manifold o"
   image: /logo.png
 permalink: /en/glossary/dynamics/heteroclinic-connection/
 ---

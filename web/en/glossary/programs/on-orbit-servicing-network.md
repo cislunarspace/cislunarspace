@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: On-Orbit Servicing Network Explained | Term Definition
+  title: "On-Orbit Servicing Network Explained | Term Definition"
   description: A network architecture consisting of servicer spacecraft and customer satellites, designed to complete multi-satellite servicing missions with minimum propellan
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: On-Orbit Servicing Network Explained | Term Definition
+  title: "On-Orbit Servicing Network Explained | Term Definition"
   description: A network architecture consisting of servicer spacecraft and customer satellites, designed to complete multi-satellite servicing missions with minimum propellan
   image: /logo.png
 permalink: /en/glossary/programs/on-orbit-servicing-network/

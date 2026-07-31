@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: South Pole-Aitken Basin Explained | Term Definition
+  title: "South Pole-Aitken Basin Explained | Term Definition"
   description: "The largest and oldest known impact basin on the Moon, located near the lunar south pole on the farside, with a diameter of about 2,500 km and depth of about 13 km. It preserves the Moon's oldest crus"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: South Pole-Aitken Basin Explained | Term Definition
+  title: "South Pole-Aitken Basin Explained | Term Definition"
   description: "The largest and oldest known impact basin on the Moon, located near the lunar south pole on the farside, with a diameter of about 2,500 km and depth of about 13 km. It preserves the Moon's oldest crus"
   image: /logo.png
 permalink: /en/glossary/fundamentals/south-pole-aitken-basin/

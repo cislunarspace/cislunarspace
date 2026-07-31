@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon Barycentric Rotating Frame Explained | Term Definition
+  title: "Earth-Moon Barycentric Rotating Frame Explained | Term Definition"
   description: A reference frame with its origin at the Earth-Moon barycenter, x-axis directed from Earth to Moon, rotating synchronously with the Earth-Moon orbital angular v
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Barycentric Rotating Frame Explained | Term Definition
+  title: "Earth-Moon Barycentric Rotating Frame Explained | Term Definition"
   description: A reference frame with its origin at the Earth-Moon barycenter, x-axis directed from Earth to Moon, rotating synchronously with the Earth-Moon orbital angular v
   image: /logo.png
 permalink: /en/glossary/fundamentals/rot frame/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Storage Orbit Explained | Term Definition
+  title: "Storage Orbit Explained | Term Definition"
   description: A periodic orbit selected for long-term parking of space-based infrastructure such as propellant depots or habitats. Selection criteria include low annual stati
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Storage Orbit Explained | Term Definition
+  title: "Storage Orbit Explained | Term Definition"
   description: A periodic orbit selected for long-term parking of space-based infrastructure such as propellant depots or habitats. Selection criteria include low annual stati
   image: /logo.png
 permalink: /en/glossary/orbits/storage-orbit/

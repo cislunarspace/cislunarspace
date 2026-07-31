@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Algebra, DA Explained | Term Definition
+  title: "Differential Algebra, DA Explained | Term Definition"
   description: 以多项式映射近似常微分方程解流的高效计算框架，可自动生成高阶展开式，用于快速轨道传播和机动计算。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Algebra, DA Explained | Term Definition
+  title: "Differential Algebra, DA Explained | Term Definition"
   description: 以多项式映射近似常微分方程解流的高效计算框架，可自动生成高阶展开式，用于快速轨道传播和机动计算。
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-algebra/

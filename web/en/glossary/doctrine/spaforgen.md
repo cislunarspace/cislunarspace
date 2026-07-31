@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Space Force Generation Process (SPAFORGEN) Explained | Space Force Vector 2025
+  title: "Space Force Generation Process (SPAFORGEN) Explained | Space Force Vector 2025"
   description: Detailed explanation of the U.S. Space Force SPAFORGEN rotational generation process, its three-phase cycle, readiness objectives, and role in space force generation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Force Generation Process (SPAFORGEN) Explained | Space Force Vector 2025
+  title: "Space Force Generation Process (SPAFORGEN) Explained | Space Force Vector 2025"
   description: Detailed explanation of the U.S. Space Force SPAFORGEN rotational generation process, its three-phase cycle, readiness objectives, and role in space force generation
   image: /logo.png
 permalink: /en/glossary/doctrine/spaforgen/

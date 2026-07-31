@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial-Tangential-Normal Coordinate System, RTN Explained | Term Definition
+  title: "Radial-Tangential-Normal Coordinate System, RTN Explained | Term Definition"
   description: A local orthogonal coordinate system with the radial axis along the spacecraft position direction, the tangential axis along the orbital velocity direction, ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial-Tangential-Normal Coordinate System, RTN Explained | Term Definition
+  title: "Radial-Tangential-Normal Coordinate System, RTN Explained | Term Definition"
   description: A local orthogonal coordinate system with the radial axis along the spacecraft position direction, the tangential axis along the orbital velocity direction, ...
   image: /logo.png
 permalink: /en/glossary/dynamics/radial-tangential-normal-coordinate-system-rtn/

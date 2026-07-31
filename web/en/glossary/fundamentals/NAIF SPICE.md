@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Navigation and Ancillary Information Facility Explained | Term Definition
+  title: "Navigation and Ancillary Information Facility Explained | Term Definition"
   description: A NASA Jet Propulsion Laboratory service providing high-precision ephemeris and ancillary information data for planetary bodies, used to obtain positions of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Navigation and Ancillary Information Facility Explained | Term Definition
+  title: "Navigation and Ancillary Information Facility Explained | Term Definition"
   description: A NASA Jet Propulsion Laboratory service providing high-precision ephemeris and ancillary information data for planetary bodies, used to obtain positions of...
   image: /logo.png
 permalink: /en/glossary/fundamentals/NAIF SPICE/

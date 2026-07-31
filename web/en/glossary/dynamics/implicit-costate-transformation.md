@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Implicit Costate Transformation Explained | Term Definition
+  title: "Implicit Costate Transformation Explained | Term Definition"
   description: Closed-form relation that maps the costate at the end of one arc to the costate at the beginning of the next arc in multi-arc optimal control problems, bypassin
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Implicit Costate Transformation Explained | Term Definition
+  title: "Implicit Costate Transformation Explained | Term Definition"
   description: Closed-form relation that maps the costate at the end of one arc to the costate at the beginning of the next arc in multi-arc optimal control problems, bypassin
   image: /logo.png
 permalink: /en/glossary/dynamics/implicit-costate-transformation/

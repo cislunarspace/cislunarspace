@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Backward Integration Method Explained | Term Definition
+  title: "Backward Integration Method Explained | Term Definition"
   description: A trajectory computation method that starts from the terminal state of a known optimal solution and integrates backward in time to reduce the departure orbit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Backward Integration Method Explained | Term Definition
+  title: "Backward Integration Method Explained | Term Definition"
   description: A trajectory computation method that starts from the terminal state of a known optimal solution and integrates backward in time to reduce the departure orbit...
   image: /logo.png
 permalink: /en/glossary/dynamics/backward-integration-method/

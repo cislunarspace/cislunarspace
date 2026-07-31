@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Frame Explained | Term Definition
+  title: "Synodic Frame Explained | Term Definition"
   description: 圆型限制性三体问题中常用的旋转参考坐标系。以两主天体的质心为原点，x轴由大质量主天体指向小质量主天体，z轴沿系统角动量方向，坐标系随两主天体连线同步旋转。在此坐标系下，两主天体位置固定不动，五个平动点成为定常平衡点，是研究平动点附近轨道动力学的标准框架。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Frame Explained | Term Definition
+  title: "Synodic Frame Explained | Term Definition"
   description: 圆型限制性三体问题中常用的旋转参考坐标系。以两主天体的质心为原点，x轴由大质量主天体指向小质量主天体，z轴沿系统角动量方向，坐标系随两主天体连线同步旋转。在此坐标系下，两主天体位置固定不动，五个平动点成为定常平衡点，是研究平动点附近轨道动力学的标准框架。
   image: /logo.png
 permalink: /en/glossary/fundamentals/synodic-frame/

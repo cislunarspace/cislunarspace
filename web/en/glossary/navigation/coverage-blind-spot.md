@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coverage Blind Spot Explained | Term Definition
+  title: "Coverage Blind Spot Explained | Term Definition"
   description: A spatial region where a navigation constellation cannot provide users with effective signal coverage. In cislunar space, GNSS signals suffer severe attenuation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coverage Blind Spot Explained | Term Definition
+  title: "Coverage Blind Spot Explained | Term Definition"
   description: A spatial region where a navigation constellation cannot provide users with effective signal coverage. In cislunar space, GNSS signals suffer severe attenuation
   image: /logo.png
 permalink: /en/glossary/navigation/coverage-blind-spot/

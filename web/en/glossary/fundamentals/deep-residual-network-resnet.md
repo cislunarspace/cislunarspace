@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Residual Network, ResNet (ResNet) Explained | Term Definition
+  title: "Deep Residual Network, ResNet (ResNet) Explained | Term Definition"
   description: A convolutional neural network architecture that solves the degradation problem of deep networks through skip connections (residual connections). Models like ResNet-50 serve as backbone networks fo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Residual Network, ResNet (ResNet) Explained | Term Definition
+  title: "Deep Residual Network, ResNet (ResNet) Explained | Term Definition"
   description: A convolutional neural network architecture that solves the degradation problem of deep networks through skip connections (residual connections). Models like ResNet-50 serve as backbone networks fo...
   image: /logo.png
 permalink: /en/glossary/fundamentals/deep-residual-network-resnet/

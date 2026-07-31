@@ -1,6 +1,6 @@
 ---
 title: Simple Periodic Orbit
-description: A class of basic periodic three-body orbits in the Stromgren classification: each orbit crosses the x-axis exactly twice per period, symmetric about the x-z ...
+description: "A class of basic periodic three-body orbits in the Stromgren classification: each orbit crosses the x-axis exactly twice per period, symmetric about the x-z ..."
 keywords: Simple Periodic Orbit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Simple Periodic Orbit Explained | Term Definition
-  description: A class of basic periodic three-body orbits in the Stromgren classification: each orbit crosses the x-axis exactly twice per period, symmetric about the x-z ...
+  title: "Simple Periodic Orbit Explained | Term Definition"
+  description: "A class of basic periodic three-body orbits in the Stromgren classification: each orbit crosses the x-axis exactly twice per period, symmetric about the x-z ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Simple Periodic Orbit Explained | Term Definition
-  description: A class of basic periodic three-body orbits in the Stromgren classification: each orbit crosses the x-axis exactly twice per period, symmetric about the x-z ...
+  title: "Simple Periodic Orbit Explained | Term Definition"
+  description: "A class of basic periodic three-body orbits in the Stromgren classification: each orbit crosses the x-axis exactly twice per period, symmetric about the x-z ..."
   image: /logo.png
 permalink: /en/glossary/orbits/simple-periodic-orbit/
 ---

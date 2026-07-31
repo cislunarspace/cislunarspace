@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geosynchronous Orbit Explained | Term Definition
+  title: "Geosynchronous Orbit Explained | Term Definition"
   description: "A man-made satellite orbit with a period matching Earth's rotation period (approximately 23 hours 56 minutes) at an altitude of approximately 35,786 km. When inclination and eccentricity are both zero, the satellite appears stationary from a ground observer's perspective—this is a geostationary orbit, a special case of GEO."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geosynchronous Orbit Explained | Term Definition
+  title: "Geosynchronous Orbit Explained | Term Definition"
   description: "A man-made satellite orbit with a period matching Earth's rotation period (approximately 23 hours 56 minutes) at an altitude of approximately 35,786 km. When inclination and eccentricity are both zero, the satellite appears stationary from a ground observer's perspective—this is a geostationary orbit, a special case of GEO."
   image: /logo.png
 permalink: /en/glossary/orbits/geosynchronous-orbit-geo/

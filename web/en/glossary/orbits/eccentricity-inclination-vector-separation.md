@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eccentricity/Inclination Vector Separation Explained | Term Definition
+  title: "Eccentricity/Inclination Vector Separation Explained | Term Definition"
   description: Method for safe formation flying using eccentricity and inclination vector differences
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eccentricity/Inclination Vector Separation Explained | Term Definition
+  title: "Eccentricity/Inclination Vector Separation Explained | Term Definition"
   description: Method for safe formation flying using eccentricity and inclination vector differences
   image: /logo.png
 permalink: /en/glossary/orbits/eccentricity-inclination-vector-separation/

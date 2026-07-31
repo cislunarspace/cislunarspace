@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Segment Constellation Explained | Term Definition
+  title: "Lunar Segment Constellation Explained | Term Definition"
   description: The lunar-coverage portion of a global lunar navigation and communication constellation. Deployed on stable halo orbits about L1 and L2, the segment distributes satellites so that at least four are vi
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Segment Constellation Explained | Term Definition
+  title: "Lunar Segment Constellation Explained | Term Definition"
   description: The lunar-coverage portion of a global lunar navigation and communication constellation. Deployed on stable halo orbits about L1 and L2, the segment distributes satellites so that at least four are vi
   image: /logo.png
 permalink: /en/glossary/programs/lunar-segment-constellation/

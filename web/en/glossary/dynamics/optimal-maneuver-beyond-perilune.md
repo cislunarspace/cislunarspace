@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Maneuver Beyond Perilune Explained | Term Definition
+  title: "Optimal Maneuver Beyond Perilune Explained | Term Definition"
   description: In multi-pulse DRO round-trip transfers, the optimal velocity pulse maneuver in the lunar vicinity is not necessarily at the exact perilune (true anomaly 0°), b
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Maneuver Beyond Perilune Explained | Term Definition
+  title: "Optimal Maneuver Beyond Perilune Explained | Term Definition"
   description: In multi-pulse DRO round-trip transfers, the optimal velocity pulse maneuver in the lunar vicinity is not necessarily at the exact perilune (true anomaly 0°), b
   image: /logo.png
 permalink: /en/glossary/dynamics/optimal-maneuver-beyond-perilune/

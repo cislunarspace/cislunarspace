@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperplane Surface of Section Explained | Term Definition
+  title: "Hyperplane Surface of Section Explained | Term Definition"
   description: Hyperplane section defined by rotation angle θ, used to reduce 4D trajectory and manifold information to 2D Poincaré section for analysis.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperplane Surface of Section Explained | Term Definition
+  title: "Hyperplane Surface of Section Explained | Term Definition"
   description: Hyperplane section defined by rotation angle θ, used to reduce 4D trajectory and manifold information to 2D Poincaré section for analysis.
   image: /logo.png
 permalink: /en/glossary/dynamics/hyperplane-surface-of-section/

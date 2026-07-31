@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tangent Circle Explained | Term Definition
+  title: "Tangent Circle Explained | Term Definition"
   description: In Poincare section analysis, the cut circles of stable and unstable manifolds whose topological properties (intact or broken) determine the complexity of subsequent dynamics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tangent Circle Explained | Term Definition
+  title: "Tangent Circle Explained | Term Definition"
   description: In Poincare section analysis, the cut circles of stable and unstable manifolds whose topological properties (intact or broken) determine the complexity of subsequent dynamics.
   image: /logo.png
 permalink: /en/glossary/dynamics/tangent-circle/

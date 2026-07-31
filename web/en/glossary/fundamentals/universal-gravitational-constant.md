@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Universal Gravitational Constant Explained | Term Definition
+  title: "Universal Gravitational Constant Explained | Term Definition"
   description: "The proportionality constant in Newton's law of gravitation, value 6.6742×10⁻¹¹ m³/(kg·s²)."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Universal Gravitational Constant Explained | Term Definition
+  title: "Universal Gravitational Constant Explained | Term Definition"
   description: "The proportionality constant in Newton's law of gravitation, value 6.6742×10⁻¹¹ m³/(kg·s²)."
   image: /logo.png
 permalink: /en/glossary/fundamentals/universal-gravitational-constant/

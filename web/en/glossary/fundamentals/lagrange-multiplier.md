@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lagrange Multiplier Explained | Term Definition
+  title: "Lagrange Multiplier Explained | Term Definition"
   description: An auxiliary variable introduced in constrained optimization to incorporate equality constraints into the objective function. In trajectory optimization, Lagran
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lagrange Multiplier Explained | Term Definition
+  title: "Lagrange Multiplier Explained | Term Definition"
   description: An auxiliary variable introduced in constrained optimization to incorporate equality constraints into the objective function. In trajectory optimization, Lagran
   image: /logo.png
 permalink: /en/glossary/fundamentals/lagrange-multiplier/

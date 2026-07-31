@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Outer Transfer Explained | Term Definition
+  title: "Outer Transfer Explained | Term Definition"
   description: One of the inner/outer transfers via LL2. It essentially achieves WSB transfer by patching the stable manifold of LL2 with the invariant manifolds of EL1 (or EL
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Outer Transfer Explained | Term Definition
+  title: "Outer Transfer Explained | Term Definition"
   description: One of the inner/outer transfers via LL2. It essentially achieves WSB transfer by patching the stable manifold of LL2 with the invariant manifolds of EL1 (or EL
   image: /logo.png
 permalink: /en/glossary/orbits/outer-transfer/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Amplitude Parameter Explained | Term Definition
+  title: "Amplitude Parameter Explained | Term Definition"
   description: A parameter describing the size of a distant retrograde orbit in the rotating frame, defined as the absolute difference between the initial x-position and the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Amplitude Parameter Explained | Term Definition
+  title: "Amplitude Parameter Explained | Term Definition"
   description: A parameter describing the size of a distant retrograde orbit in the rotating frame, defined as the absolute difference between the initial x-position and the...
   image: /logo.png
 permalink: /en/glossary/fundamentals/amplitude-parameter/

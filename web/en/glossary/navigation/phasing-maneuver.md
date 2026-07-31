@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phasing Maneuver Explained | Term Definition
+  title: "Phasing Maneuver Explained | Term Definition"
   description: An orbital maneuver performed between the end of the Earth–Moon transfer phase and the beginning of proximity operations in a cislunar rendezvous mission. When 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phasing Maneuver Explained | Term Definition
+  title: "Phasing Maneuver Explained | Term Definition"
   description: An orbital maneuver performed between the end of the Earth–Moon transfer phase and the beginning of proximity operations in a cislunar rendezvous mission. When 
   image: /logo.png
 permalink: /en/glossary/navigation/phasing-maneuver/

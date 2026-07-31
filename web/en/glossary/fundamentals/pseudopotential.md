@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudopotential Explained | Term Definition
+  title: "Pseudopotential Explained | Term Definition"
   description: "The effective potential function in the rotating frame of the CRTBP, defined as the sum of the centrifugal potential and the gravitational potentials of both primary bodies. In nondimensional form: U"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudopotential Explained | Term Definition
+  title: "Pseudopotential Explained | Term Definition"
   description: "The effective potential function in the rotating frame of the CRTBP, defined as the sum of the centrifugal potential and the gravitational potentials of both primary bodies. In nondimensional form: U"
   image: /logo.png
 permalink: /en/glossary/fundamentals/pseudopotential/

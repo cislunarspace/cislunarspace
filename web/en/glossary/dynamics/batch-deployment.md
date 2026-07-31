@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Batch Deployment Explained | OTV Mission Planning
+  title: "Batch Deployment Explained | OTV Mission Planning"
   description: Detailed analysis of batch deployment mission concepts, characteristics, and the SDTSP model for orbital transfer vehicle mission planning
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Batch Deployment Explained | OTV Mission Planning
+  title: "Batch Deployment Explained | OTV Mission Planning"
   description: Detailed analysis of batch deployment mission concepts, characteristics, and the SDTSP model for orbital transfer vehicle mission planning
   image: /logo.png
 permalink: /en/glossary/dynamics/batch-deployment/

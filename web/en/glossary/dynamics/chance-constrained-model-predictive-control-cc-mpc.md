@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chance-Constrained Model Predictive Control, CC-MPC Explained | Term Definition
+  title: "Chance-Constrained Model Predictive Control, CC-MPC Explained | Term Definition"
   description: "A robust model predictive control method that relaxes state constraints from deterministic satisfaction to probabilistic: constraints are required to hold with"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chance-Constrained Model Predictive Control, CC-MPC Explained | Term Definition
+  title: "Chance-Constrained Model Predictive Control, CC-MPC Explained | Term Definition"
   description: "A robust model predictive control method that relaxes state constraints from deterministic satisfaction to probabilistic: constraints are required to hold with"
   image: /logo.png
 permalink: /en/glossary/dynamics/chance-constrained-model-predictive-control-cc-mpc/

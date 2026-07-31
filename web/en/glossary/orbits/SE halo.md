@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: SE Halo Orbit Explained | Term Definition
+  title: "SE Halo Orbit Explained | Term Definition"
   description: A three-dimensional periodic orbit near the Sun–Earth L1 or L2 libration point.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: SE Halo Orbit Explained | Term Definition
+  title: "SE Halo Orbit Explained | Term Definition"
   description: A three-dimensional periodic orbit near the Sun–Earth L1 or L2 libration point.
   image: /logo.png
 permalink: /en/glossary/orbits/SE halo/

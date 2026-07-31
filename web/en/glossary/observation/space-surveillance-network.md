@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space Surveillance Network Explained | Term Definition
+  title: "Space Surveillance Network Explained | Term Definition"
   description: A space target detection system composed of optical telescopes, imaging radars, tracking radars, and passive RF signal detectors. The US Space Surveillance N...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Surveillance Network Explained | Term Definition
+  title: "Space Surveillance Network Explained | Term Definition"
   description: A space target detection system composed of optical telescopes, imaging radars, tracking radars, and passive RF signal detectors. The US Space Surveillance N...
   image: /logo.png
 permalink: /en/glossary/observation/space-surveillance-network/

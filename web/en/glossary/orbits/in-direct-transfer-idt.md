@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: In-Direct Transfer, IDT Explained | Term Definition
+  title: "In-Direct Transfer, IDT Explained | Term Definition"
   description: A fast but ΔV-expensive transfer method used by crewed vehicles (e.g., Orion) to reach NRHO within 7 days. After TLI and PLSB, the spacecraft spends only about 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-Direct Transfer, IDT Explained | Term Definition
+  title: "In-Direct Transfer, IDT Explained | Term Definition"
   description: A fast but ΔV-expensive transfer method used by crewed vehicles (e.g., Orion) to reach NRHO within 7 days. After TLI and PLSB, the spacecraft spends only about 
   image: /logo.png
 permalink: /en/glossary/orbits/in-direct-transfer-idt/

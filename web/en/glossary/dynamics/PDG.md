@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powered Descent Guidance Explained | Term Definition
+  title: "Powered Descent Guidance Explained | Term Definition"
   description: The technology that steers a vehicle to vertical landing through active deceleration and attitude adjustment during the final phase of spacecraft descent.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Descent Guidance Explained | Term Definition
+  title: "Powered Descent Guidance Explained | Term Definition"
   description: The technology that steers a vehicle to vertical landing through active deceleration and attitude adjustment during the final phase of spacecraft descent.
   image: /logo.png
 permalink: /en/glossary/dynamics/PDG/

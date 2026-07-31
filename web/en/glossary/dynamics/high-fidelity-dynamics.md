@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High-Fidelity Dynamics Explained | Term Definition
+  title: "High-Fidelity Dynamics Explained | Term Definition"
   description: High-accuracy orbital dynamics model incorporating non-spherical Earth/Moon gravity, third-body perturbations from Sun/planets, solar radiation pressure, and lu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High-Fidelity Dynamics Explained | Term Definition
+  title: "High-Fidelity Dynamics Explained | Term Definition"
   description: High-accuracy orbital dynamics model incorporating non-spherical Earth/Moon gravity, third-body perturbations from Sun/planets, solar radiation pressure, and lu
   image: /logo.png
 permalink: /en/glossary/dynamics/high-fidelity-dynamics/

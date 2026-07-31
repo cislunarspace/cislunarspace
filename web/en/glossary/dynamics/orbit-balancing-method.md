@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Balancing Method Explained | Term Definition
+  title: "Orbit Balancing Method Explained | Term Definition"
   description: A libration point orbit stationkeeping strategy, also called orbit continuation. Instead of targeting a predefined reference orbit, it selects maneuver locations on the current trajectory and sets velocity or energy goals several revolutions downstream to sustain the orbit. For example, the x-velocity at x-axis crossings is set slightly negative to keep the trajectory spiraling inward toward the libration point. The VF13AD optimizer determines the delta-V direction and timing subject to spin-plane constraints. Its advantage is independence from a reference orbit, making it suitable for missions like ARTEMIS that have no strict orbital requirements.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Balancing Method Explained | Term Definition
+  title: "Orbit Balancing Method Explained | Term Definition"
   description: A libration point orbit stationkeeping strategy, also called orbit continuation. Instead of targeting a predefined reference orbit, it selects maneuver locations on the current trajectory and sets velocity or energy goals several revolutions downstream to sustain the orbit. For example, the x-velocity at x-axis crossings is set slightly negative to keep the trajectory spiraling inward toward the libration point. The VF13AD optimizer determines the delta-V direction and timing subject to spin-plane constraints. Its advantage is independence from a reference orbit, making it suitable for missions like ARTEMIS that have no strict orbital requirements.
   image: /logo.png
 permalink: /en/glossary/dynamics/orbit-balancing-method/

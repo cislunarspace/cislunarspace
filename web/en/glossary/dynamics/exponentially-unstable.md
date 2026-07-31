@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exponentially Unstable Explained | Term Definition
+  title: "Exponentially Unstable Explained | Term Definition"
   description: The instability property where state deviations grow exponentially when the equilibrium has eigenvalues with nonzero real parts. The linearized system at a collinear libration point has a real eigenva
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exponentially Unstable Explained | Term Definition
+  title: "Exponentially Unstable Explained | Term Definition"
   description: The instability property where state deviations grow exponentially when the equilibrium has eigenvalues with nonzero real parts. The linearized system at a collinear libration point has a real eigenva
   image: /logo.png
 permalink: /en/glossary/dynamics/exponentially-unstable/

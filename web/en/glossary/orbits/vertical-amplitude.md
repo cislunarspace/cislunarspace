@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Amplitude Explained | Term Definition
+  title: "Vertical Amplitude Explained | Term Definition"
   description: Lissajous或Halo轨道在z方向（垂直于主天体运动平面）振荡的振幅，记为β。在线性化解中，β独立于平面振幅α，由初始条件确定；但对Halo轨道而言，α和β必须满足特定的共振关系（ω(α,β)=ν(α,β)）才能生成闭合的周期轨道。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Amplitude Explained | Term Definition
+  title: "Vertical Amplitude Explained | Term Definition"
   description: Lissajous或Halo轨道在z方向（垂直于主天体运动平面）振荡的振幅，记为β。在线性化解中，β独立于平面振幅α，由初始条件确定；但对Halo轨道而言，α和β必须满足特定的共振关系（ω(α,β)=ν(α,β)）才能生成闭合的周期轨道。
   image: /logo.png
 permalink: /en/glossary/orbits/vertical-amplitude/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Costate-Control Transformation Explained | Term Definition
+  title: "Costate-Control Transformation Explained | Term Definition"
   description: A method that replaces the design variables from initial costates to initial thrust steering angles and steering rates. Since control variables have more physic
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Costate-Control Transformation Explained | Term Definition
+  title: "Costate-Control Transformation Explained | Term Definition"
   description: A method that replaces the design variables from initial costates to initial thrust steering angles and steering rates. Since control variables have more physic
   image: /logo.png
 permalink: /en/glossary/dynamics/costate-control-transformation/

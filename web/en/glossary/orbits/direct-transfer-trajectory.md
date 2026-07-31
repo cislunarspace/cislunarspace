@@ -1,6 +1,6 @@
 ---
 title: Direct Transfer Trajectory
-description: A flight path that directly connects a near rectilinear halo orbit to a low lunar orbit through two impulsive maneuvers: the first at the NRHO departure poin...
+description: "A flight path that directly connects a near rectilinear halo orbit to a low lunar orbit through two impulsive maneuvers: the first at the NRHO departure poin..."
 keywords: Direct Transfer Trajectory
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Transfer Trajectory Explained | Term Definition
-  description: A flight path that directly connects a near rectilinear halo orbit to a low lunar orbit through two impulsive maneuvers: the first at the NRHO departure poin...
+  title: "Direct Transfer Trajectory Explained | Term Definition"
+  description: "A flight path that directly connects a near rectilinear halo orbit to a low lunar orbit through two impulsive maneuvers: the first at the NRHO departure poin..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Transfer Trajectory Explained | Term Definition
-  description: A flight path that directly connects a near rectilinear halo orbit to a low lunar orbit through two impulsive maneuvers: the first at the NRHO departure poin...
+  title: "Direct Transfer Trajectory Explained | Term Definition"
+  description: "A flight path that directly connects a near rectilinear halo orbit to a low lunar orbit through two impulsive maneuvers: the first at the NRHO departure poin..."
   image: /logo.png
 permalink: /en/glossary/orbits/direct-transfer-trajectory/
 ---

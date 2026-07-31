@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Costate Variable Explained | Term Definition
+  title: "Costate Variable Explained | Term Definition"
   description: Variable dual to the state in optimal control, whose dynamics are determined by partial derivatives of the Hamiltonian with respect to the state.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Costate Variable Explained | Term Definition
+  title: "Costate Variable Explained | Term Definition"
   description: Variable dual to the state in optimal control, whose dynamics are determined by partial derivatives of the Hamiltonian with respect to the state.
   image: /logo.png
 permalink: /en/glossary/dynamics/costate-variable/

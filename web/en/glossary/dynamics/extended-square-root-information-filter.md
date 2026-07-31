@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Extended Square-Root Information Filter, E-SRIF Explained | Term Definition
+  title: "Extended Square-Root Information Filter, E-SRIF Explained | Term Definition"
   description: 扩展卡尔曼滤波的平方根信息形式，提高数值稳定性。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Extended Square-Root Information Filter, E-SRIF Explained | Term Definition
+  title: "Extended Square-Root Information Filter, E-SRIF Explained | Term Definition"
   description: 扩展卡尔曼滤波的平方根信息形式，提高数值稳定性。
   image: /logo.png
 permalink: /en/glossary/dynamics/extended-square-root-information-filter/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gain Correction Factor Explained | Term Definition
+  title: "Gain Correction Factor Explained | Term Definition"
   description: A correction applied to convert antenna directivity to transmitter antenna gain. Gain equals directivity plus the gain correction factor (in dB)
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gain Correction Factor Explained | Term Definition
+  title: "Gain Correction Factor Explained | Term Definition"
   description: A correction applied to convert antenna directivity to transmitter antenna gain. Gain equals directivity plus the gain correction factor (in dB)
   image: /logo.png
 permalink: /en/glossary/navigation/gain-correction-factor/

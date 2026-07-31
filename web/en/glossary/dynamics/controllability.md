@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Controllability Explained | Term Definition
+  title: "Controllability Explained | Term Definition"
   description: The property that for any two given states, there exists an admissible control that drives the system from the first to the second. This paper proves that the three-body problem is controllable on the submanifold X_μ^1 when the Jacobi constant is less than the value at the L1 Lagrange point.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Controllability Explained | Term Definition
+  title: "Controllability Explained | Term Definition"
   description: The property that for any two given states, there exists an admissible control that drives the system from the first to the second. This paper proves that the three-body problem is controllable on the submanifold X_μ^1 when the Jacobi constant is less than the value at the L1 Lagrange point.
   image: /logo.png
 permalink: /en/glossary/dynamics/controllability/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Periodic Orbit Explained | Term Definition
+  title: "Vertical Periodic Orbit Explained | Term Definition"
   description: Lissajous轨道的一种特例，仅在z方向有运动分量，x-y平面投影为一点。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Periodic Orbit Explained | Term Definition
+  title: "Vertical Periodic Orbit Explained | Term Definition"
   description: Lissajous轨道的一种特例，仅在z方向有运动分量，x-y平面投影为一点。
   image: /logo.png
 permalink: /en/glossary/orbits/vertical-periodic-orbit/

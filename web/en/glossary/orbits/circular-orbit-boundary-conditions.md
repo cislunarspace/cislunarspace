@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Orbit Boundary Conditions Explained | Term Definition
+  title: "Circular Orbit Boundary Conditions Explained | Term Definition"
   description: Boundary condition setting that uses circular orbit position and velocity as the start and end points of the boundary value problem, a fundamental assumption in continuous-thrust transfer analysis.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Orbit Boundary Conditions Explained | Term Definition
+  title: "Circular Orbit Boundary Conditions Explained | Term Definition"
   description: Boundary condition setting that uses circular orbit position and velocity as the start and end points of the boundary value problem, a fundamental assumption in continuous-thrust transfer analysis.
   image: /logo.png
 permalink: /en/glossary/orbits/circular-orbit-boundary-conditions/

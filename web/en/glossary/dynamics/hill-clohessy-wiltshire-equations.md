@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill Clohessy Wiltshire Equations Explained | Term Definition
+  title: "Hill Clohessy Wiltshire Equations Explained | Term Definition"
   description: Set of linearized equations describing relative motion of a chaser satellite relative to a target in a near-circular orbit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Clohessy Wiltshire Equations Explained | Term Definition
+  title: "Hill Clohessy Wiltshire Equations Explained | Term Definition"
   description: Set of linearized equations describing relative motion of a chaser satellite relative to a target in a near-circular orbit
   image: /logo.png
 permalink: /en/glossary/dynamics/hill-clohessy-wiltshire-equations/

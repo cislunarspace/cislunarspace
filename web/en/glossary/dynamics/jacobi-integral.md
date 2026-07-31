@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Jacobi Constant Details | The Only Integral of Motion in CR3BP
+  title: "Jacobi Constant Details | The Only Integral of Motion in CR3BP"
   description: Detailed analysis of the definition, formula, and physical significance of the Jacobi constant in the Circular Restricted Three-Body Problem
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Constant Details | The Only Integral of Motion in CR3BP
+  title: "Jacobi Constant Details | The Only Integral of Motion in CR3BP"
   description: Detailed analysis of the definition, formula, and physical significance of the Jacobi constant in the Circular Restricted Three-Body Problem
   image: /logo.png
 permalink: /en/glossary/dynamics/jacobi-integral/

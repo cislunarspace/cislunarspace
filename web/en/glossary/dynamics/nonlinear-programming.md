@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nonlinear Programming Explained | Term Definition
+  title: "Nonlinear Programming Explained | Term Definition"
   description: A mathematical optimization problem where the objective function or constraints contain nonlinear relationships. Direct methods convert trajectory optimization into NLP problems through discretization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nonlinear Programming Explained | Term Definition
+  title: "Nonlinear Programming Explained | Term Definition"
   description: A mathematical optimization problem where the objective function or constraints contain nonlinear relationships. Direct methods convert trajectory optimization into NLP problems through discretization
   image: /logo.png
 permalink: /en/glossary/dynamics/nonlinear-programming/

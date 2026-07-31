@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Q System Guidance Explained | Term Definition
+  title: "Q System Guidance Explained | Term Definition"
   description: A guidance system invented by Battin and Laning, introducing the concepts of correlated velocity and velocity-to-be-gained to eliminate gravitational acceleration from guidance equations, significa...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Q System Guidance Explained | Term Definition
+  title: "Q System Guidance Explained | Term Definition"
   description: A guidance system invented by Battin and Laning, introducing the concepts of correlated velocity and velocity-to-be-gained to eliminate gravitational acceleration from guidance equations, significa...
   image: /logo.png
 permalink: /en/glossary/dynamics/q-system-guidance/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Legendre-Clebsch Condition Explained | Term Definition
+  title: "Legendre-Clebsch Condition Explained | Term Definition"
   description: Second-order necessary condition in optimal control theory, requiring the second partial derivative of the Hamiltonian with respect to control variables to b...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Legendre-Clebsch Condition Explained | Term Definition
+  title: "Legendre-Clebsch Condition Explained | Term Definition"
   description: Second-order necessary condition in optimal control theory, requiring the second partial derivative of the Hamiltonian with respect to control variables to b...
   image: /logo.png
 permalink: /en/glossary/dynamics/legendre-clebsch-condition/

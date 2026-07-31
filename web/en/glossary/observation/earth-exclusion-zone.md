@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Exclusion Zone (EEZ) Explained | Term Definition
+  title: "Earth Exclusion Zone (EEZ) Explained | Term Definition"
   description: Zone where an object is not visible when the angle between the object-observer line and the object-Earth line is below a threshold (e.g., 10 degrees).
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Exclusion Zone (EEZ) Explained | Term Definition
+  title: "Earth Exclusion Zone (EEZ) Explained | Term Definition"
   description: Zone where an object is not visible when the angle between the object-observer line and the object-Earth line is below a threshold (e.g., 10 degrees).
   image: /logo.png
 permalink: /en/glossary/observation/earth-exclusion-zone/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Piercing Point Explained | Term Definition
+  title: "Piercing Point Explained | Term Definition"
   description: The intersection point of an invariant manifold with a given reference plane. In Earth-Moon transfer design, the YZ plane passing through Earth (at x = -mu) in the CR3BP synodic frame is commonly used...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Piercing Point Explained | Term Definition
+  title: "Piercing Point Explained | Term Definition"
   description: The intersection point of an invariant manifold with a given reference plane. In Earth-Moon transfer design, the YZ plane passing through Earth (at x = -mu) in the CR3BP synodic frame is commonly used...
   image: /logo.png
 permalink: /en/glossary/dynamics/piercing-point/

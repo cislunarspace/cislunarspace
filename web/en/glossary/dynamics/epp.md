@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Effective Phases Plane Explained | Term Definition
+  title: "Effective Phases Plane Explained | Term Definition"
   description: Plane with effective phases (Φ,Ψ) as coordinates where Lissajous trajectories appear as straight lines; convenient for mission design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Effective Phases Plane Explained | Term Definition
+  title: "Effective Phases Plane Explained | Term Definition"
   description: Plane with effective phases (Φ,Ψ) as coordinates where Lissajous trajectories appear as straight lines; convenient for mission design.
   image: /logo.png
 permalink: /en/glossary/dynamics/epp/

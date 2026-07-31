@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Zero-Velocity Curve Explained | Term Definition
+  title: "Zero-Velocity Curve Explained | Term Definition"
   description: In the restricted circular three-body problem, the equipotential contour where velocity is zero, determined by the Jacobi constant. It partitions the configurat
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero-Velocity Curve Explained | Term Definition
+  title: "Zero-Velocity Curve Explained | Term Definition"
   description: In the restricted circular three-body problem, the equipotential contour where velocity is zero, determined by the Jacobi constant. It partitions the configurat
   image: /logo.png
 permalink: /en/glossary/fundamentals/ZVC/

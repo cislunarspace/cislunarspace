@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative State Transition Matrix, RSTM (RSTM) Explained | Term Definition
+  title: "Relative State Transition Matrix, RSTM (RSTM) Explained | Term Definition"
   description: Matrix describing propagation of linearized relative state, critical in relative Floquet analysis.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative State Transition Matrix, RSTM (RSTM) Explained | Term Definition
+  title: "Relative State Transition Matrix, RSTM (RSTM) Explained | Term Definition"
   description: Matrix describing propagation of linearized relative state, critical in relative Floquet analysis.
   image: /logo.png
 permalink: /en/glossary/dynamics/relative-state-transition-matrix-rstm/

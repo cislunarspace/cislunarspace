@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mixed-Integer Linear Programming Explained | Term Definition
+  title: "Mixed-Integer Linear Programming Explained | Term Definition"
   description: A linear programming problem containing both continuous and integer variables, suitable for encoding combinatorial decisions and efficiently solved under branch-and-bound frameworks.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mixed-Integer Linear Programming Explained | Term Definition
+  title: "Mixed-Integer Linear Programming Explained | Term Definition"
   description: A linear programming problem containing both continuous and integer variables, suitable for encoding combinatorial decisions and efficiently solved under branch-and-bound frameworks.
   image: /logo.png
 permalink: /en/glossary/dynamics/mixed-integer-linear-programming/

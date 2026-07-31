@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Theta-R Poincare Section Method Explained | Term Definition
+  title: "Theta-R Poincare Section Method Explained | Term Definition"
   description: A novel Poincare section representation method proposed by Zhang et al. to address the Jacobi energy non-conservation problem during manifold conjugation. It uses two independent variables, velocity direction angle θ and radial distance r from the section origin, to represent section points, replacing the traditional y-ẏ section. When coordinate transformations alter Jacobi energy, this method preserves velocity direction continuity and channels all velocity increments into energy matching, reducing fuel consumption at the conjugation point from 84.2 m/s to 69 m/s.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Theta-R Poincare Section Method Explained | Term Definition
+  title: "Theta-R Poincare Section Method Explained | Term Definition"
   description: A novel Poincare section representation method proposed by Zhang et al. to address the Jacobi energy non-conservation problem during manifold conjugation. It uses two independent variables, velocity direction angle θ and radial distance r from the section origin, to represent section points, replacing the traditional y-ẏ section. When coordinate transformations alter Jacobi energy, this method preserves velocity direction continuity and channels all velocity increments into energy matching, reducing fuel consumption at the conjugation point from 84.2 m/s to 69 m/s.
   image: /logo.png
 permalink: /en/glossary/fundamentals/theta-r-poincare-section-method/

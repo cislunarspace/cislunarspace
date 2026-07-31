@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fundamental Solution Set Explained | Term Definition
+  title: "Fundamental Solution Set Explained | Term Definition"
   description: A set of linearly independent solutions to a linearized equation with periodic coefficients, given by Floquet theory. For relative motion near a 2:1 DRO, the fundamental solution set consists of si...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fundamental Solution Set Explained | Term Definition
+  title: "Fundamental Solution Set Explained | Term Definition"
   description: A set of linearly independent solutions to a linearized equation with periodic coefficients, given by Floquet theory. For relative motion near a 2:1 DRO, the fundamental solution set consists of si...
   image: /logo.png
 permalink: /en/glossary/dynamics/fundamental-solution-set/

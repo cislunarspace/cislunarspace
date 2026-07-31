@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LP to T_min to CEV Continuation Chain Explained | Term Definition
+  title: "LP to T_min to CEV Continuation Chain Explained | Term Definition"
   description: Solution strategy proceeding from unperturbed limited power trajectory, through minimum-thrust trajectory for angular distance correction, to constant exhaust...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LP to T_min to CEV Continuation Chain Explained | Term Definition
+  title: "LP to T_min to CEV Continuation Chain Explained | Term Definition"
   description: Solution strategy proceeding from unperturbed limited power trajectory, through minimum-thrust trajectory for angular distance correction, to constant exhaust...
   image: /logo.png
 permalink: /en/glossary/dynamics/lp-to-t-min-to-cev-continuation-chain/

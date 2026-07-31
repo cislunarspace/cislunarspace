@@ -1,6 +1,6 @@
 ---
 title: Layer Normalization (LN)
-description: A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization across the query, key-value, and feed-forward network layers.
+description: "A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization across the query, key-value, and feed-forward network layers."
 keywords: Layer Normalization, LN, LN, orbital mechanics, optimal control
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Layer Normalization (LN) Explained | Term Definition
-  description: A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization across the query, key-value, and feed-forward network layers.
+  title: "Layer Normalization (LN) Explained | Term Definition"
+  description: "A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization across the query, key-value, and feed-forward network layers."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Layer Normalization (LN) Explained | Term Definition
-  description: A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization across the query, key-value, and feed-forward network layers.
+  title: "Layer Normalization (LN) Explained | Term Definition"
+  description: "A technique in neural networks to stabilize training by normalizing activations within each layer. A2PPO's cross-attention module applies layer normalization across the query, key-value, and feed-forward network layers."
   image: /logo.png
 permalink: /en/glossary/dynamics/layer-normalization-ln/
 ---

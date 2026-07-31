@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Cislunar Space Situational Awareness Details | New Frontier of Space Security
+  title: "Cislunar Space Situational Awareness Details | New Frontier of Space Security"
   description: Detailed analysis of the definition, mission content, major programs, and strategic significance of cislunar space situational awareness
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Space Situational Awareness Details | New Frontier of Space Security
+  title: "Cislunar Space Situational Awareness Details | New Frontier of Space Security"
   description: Detailed analysis of the definition, mission content, major programs, and strategic significance of cislunar space situational awareness
   image: /logo.png
 permalink: /en/glossary/doctrine/cislunar-space-situational-awareness/

@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Sliding Mode Control | Nonlinear Control
+  title: "Sliding Mode Control | Nonlinear Control"
   description: A detailed analysis of sliding mode control principles, mathematical formulation, chattering suppression techniques, and applications in stratospheric airship control
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sliding Mode Control | Nonlinear Control
+  title: "Sliding Mode Control | Nonlinear Control"
   description: A detailed analysis of sliding mode control principles, mathematical formulation, chattering suppression techniques, and applications in stratospheric airship control
   image: /logo.png
 permalink: /en/glossary/dynamics/sliding-mode-control/

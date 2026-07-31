@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Short-Reach Arrival Explained | Term Definition
+  title: "Short-Reach Arrival Explained | Term Definition"
   description: An arrival mode in which the Earth-Moon transfer flight time is less than half the period of the geocentric transfer orbit, i.e., the true anomaly at lunar a...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Short-Reach Arrival Explained | Term Definition
+  title: "Short-Reach Arrival Explained | Term Definition"
   description: An arrival mode in which the Earth-Moon transfer flight time is less than half the period of the geocentric transfer orbit, i.e., the true anomaly at lunar a...
   image: /logo.png
 permalink: /en/glossary/orbits/short-reach-arrival/

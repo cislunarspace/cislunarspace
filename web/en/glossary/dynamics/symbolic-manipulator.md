@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Symbolic Manipulator Explained | Term Definition
+  title: "Symbolic Manipulator Explained | Term Definition"
   description: A computer algebra system used for analytical derivation of normal form coefficients and coordinate transformations of the Hamiltonian.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Symbolic Manipulator Explained | Term Definition
+  title: "Symbolic Manipulator Explained | Term Definition"
   description: A computer algebra system used for analytical derivation of normal form coefficients and coordinate transformations of the Hamiltonian.
   image: /logo.png
 permalink: /en/glossary/dynamics/symbolic-manipulator/

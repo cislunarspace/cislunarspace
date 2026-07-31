@@ -1,6 +1,6 @@
 ---
 title: Thrust Steering Angle
-description: Two angles defining the thrust vector direction: u is the elevation angle above local horizontal in the longitude-radial plane, and v is the out-of-plane ang...
+description: "Two angles defining the thrust vector direction: u is the elevation angle above local horizontal in the longitude-radial plane, and v is the out-of-plane ang..."
 keywords: Thrust Steering Angle
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Steering Angle Explained | Term Definition
-  description: Two angles defining the thrust vector direction: u is the elevation angle above local horizontal in the longitude-radial plane, and v is the out-of-plane ang...
+  title: "Thrust Steering Angle Explained | Term Definition"
+  description: "Two angles defining the thrust vector direction: u is the elevation angle above local horizontal in the longitude-radial plane, and v is the out-of-plane ang..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Steering Angle Explained | Term Definition
-  description: Two angles defining the thrust vector direction: u is the elevation angle above local horizontal in the longitude-radial plane, and v is the out-of-plane ang...
+  title: "Thrust Steering Angle Explained | Term Definition"
+  description: "Two angles defining the thrust vector direction: u is the elevation angle above local horizontal in the longitude-radial plane, and v is the out-of-plane ang..."
   image: /logo.png
 permalink: /en/glossary/dynamics/thrust-steering-angle/
 ---

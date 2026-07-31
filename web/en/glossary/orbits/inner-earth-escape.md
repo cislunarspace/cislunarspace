@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inner Earth Escape Explained | Term Definition
+  title: "Inner Earth Escape Explained | Term Definition"
   description: 经由LL2点的内侧转移中，探测器从地球势垒内侧方向逃逸的方式。此时探测器仅到达LL2点而未能真正穿越，本质上仍是经由LL1点实现转移。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inner Earth Escape Explained | Term Definition
+  title: "Inner Earth Escape Explained | Term Definition"
   description: 经由LL2点的内侧转移中，探测器从地球势垒内侧方向逃逸的方式。此时探测器仅到达LL2点而未能真正穿越，本质上仍是经由LL1点实现转移。
   image: /logo.png
 permalink: /en/glossary/orbits/inner-earth-escape/

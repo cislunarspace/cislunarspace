@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space Manifold Dynamics, SMD Explained | Term Definition
+  title: "Space Manifold Dynamics, SMD Explained | Term Definition"
   description: A methodology that applies dynamical systems theory to spacecraft trajectory design, encompassing concepts such as stable/unstable manifolds and weak stability boundaries. It contrasts with the traditional patched conics approach.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Manifold Dynamics, SMD Explained | Term Definition
+  title: "Space Manifold Dynamics, SMD Explained | Term Definition"
   description: A methodology that applies dynamical systems theory to spacecraft trajectory design, encompassing concepts such as stable/unstable manifolds and weak stability boundaries. It contrasts with the traditional patched conics approach.
   image: /logo.png
 permalink: /en/glossary/dynamics/space-manifold-dynamics-smd/

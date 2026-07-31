@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Synodic Frame Explained | Term Definition
+  title: "Barycentric Synodic Frame Explained | Term Definition"
   description: A rotating reference frame centered at the barycenter of the two primaries, used to describe the motion of a small body in the restricted three-body problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Synodic Frame Explained | Term Definition
+  title: "Barycentric Synodic Frame Explained | Term Definition"
   description: A rotating reference frame centered at the barycenter of the two primaries, used to describe the motion of a small body in the restricted three-body problem.
   image: /logo.png
 permalink: /en/glossary/fundamentals/barycentric-synodic-frame/

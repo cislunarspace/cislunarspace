@@ -1,6 +1,6 @@
 ---
 title: Planar Circular Restricted Three-Body Problem
-description: The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass
+description: "The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass"
 keywords: Planar Circular Restricted Three-Body Problem, cislunar space, orbital mechanics, navigation, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Circular Restricted Three-Body Problem Explained | Term Definition
-  description: The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass
+  title: "Planar Circular Restricted Three-Body Problem Explained | Term Definition"
+  description: "The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Circular Restricted Three-Body Problem Explained | Term Definition
-  description: The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass
+  title: "Planar Circular Restricted Three-Body Problem Explained | Term Definition"
+  description: "The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass"
   image: /logo.png
 permalink: /en/glossary/fundamentals/planar-circular-restricted-three-body-problem/
 ---

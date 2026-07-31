@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Solution Set Explained | Term Definition
+  title: "Transfer Solution Set Explained | Term Definition"
   description: The set of all feasible transfer trajectories to a target DRO satisfying engineering constraints, obtained by grid search across departure impulse, insertion impulse, departure phase, and insertion phase. Results are visualized as distributions of transfer time versus total impulse, with adjacent solutions clustering into trajectory families.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Solution Set Explained | Term Definition
+  title: "Transfer Solution Set Explained | Term Definition"
   description: The set of all feasible transfer trajectories to a target DRO satisfying engineering constraints, obtained by grid search across departure impulse, insertion impulse, departure phase, and insertion phase. Results are visualized as distributions of transfer time versus total impulse, with adjacent solutions clustering into trajectory families.
   image: /logo.png
 permalink: /en/glossary/orbits/transfer-solution-set/

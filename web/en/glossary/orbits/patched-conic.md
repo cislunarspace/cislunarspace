@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Patched Conic Explained | Term Definition
+  title: "Patched Conic Explained | Term Definition"
   description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Patched Conic Explained | Term Definition
+  title: "Patched Conic Explained | Term Definition"
   description: 将多段圆锥曲线在特定点拼接形成完整转移轨道的经典方法。论文指出该方法在混沌动力学环境中不适用，转而采用基于不变流形的拼接三体方法。
   image: /logo.png
 permalink: /en/glossary/orbits/patched-conic/

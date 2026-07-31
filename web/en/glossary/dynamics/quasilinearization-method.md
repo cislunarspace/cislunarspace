@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quasilinearization Method Explained | Term Definition
+  title: "Quasilinearization Method Explained | Term Definition"
   description: A numerical method that transforms a nonlinear two-point boundary value problem into a series of iteratively solved linear TPBVPs. At each iteration, the dynami
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasilinearization Method Explained | Term Definition
+  title: "Quasilinearization Method Explained | Term Definition"
   description: A numerical method that transforms a nonlinear two-point boundary value problem into a series of iteratively solved linear TPBVPs. At each iteration, the dynami
   image: /logo.png
 permalink: /en/glossary/dynamics/quasilinearization-method/

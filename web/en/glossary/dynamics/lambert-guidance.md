@@ -1,6 +1,6 @@
 ---
 title: Lambert Guidance
-description: Real-time guidance technique based on Lambert's theorem, computing required velocity vectors online to intercept moving targets; one of the most computationa...
+description: "Real-time guidance technique based on Lambert's theorem, computing required velocity vectors online to intercept moving targets; one of the most computationa..."
 keywords: Lambert Guidance
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert Guidance Explained | Term Definition
-  description: Real-time guidance technique based on Lambert's theorem, computing required velocity vectors online to intercept moving targets; one of the most computationa...
+  title: "Lambert Guidance Explained | Term Definition"
+  description: "Real-time guidance technique based on Lambert's theorem, computing required velocity vectors online to intercept moving targets; one of the most computationa..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert Guidance Explained | Term Definition
-  description: Real-time guidance technique based on Lambert's theorem, computing required velocity vectors online to intercept moving targets; one of the most computationa...
+  title: "Lambert Guidance Explained | Term Definition"
+  description: "Real-time guidance technique based on Lambert's theorem, computing required velocity vectors online to intercept moving targets; one of the most computationa..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lambert-guidance/
 ---

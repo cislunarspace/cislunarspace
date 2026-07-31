@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Z-amplitude Explained | Term Definition
+  title: "Z-amplitude Explained | Term Definition"
   description: The difference between the maximum and minimum z-coordinates of a halo orbit, reflecting the vertical scale of the orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Z-amplitude Explained | Term Definition
+  title: "Z-amplitude Explained | Term Definition"
   description: The difference between the maximum and minimum z-coordinates of a halo orbit, reflecting the vertical scale of the orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/z-amplitude/

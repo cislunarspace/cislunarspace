@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Satellite-to-Satellite Tracking, SST Explained | Term Definition
+  title: "Satellite-to-Satellite Tracking, SST Explained | Term Definition"
   description: A technique for orbit determination by measuring the range and range-rate between satellites.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Satellite-to-Satellite Tracking, SST Explained | Term Definition
+  title: "Satellite-to-Satellite Tracking, SST Explained | Term Definition"
   description: A technique for orbit determination by measuring the range and range-rate between satellites.
   image: /logo.png
 permalink: /en/glossary/navigation/satellite-to-satellite-tracking-sst/

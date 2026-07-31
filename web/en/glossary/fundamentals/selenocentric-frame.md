@@ -1,6 +1,6 @@
 ---
 title: Selenocentric Frame
-description: A reference frame centered at the Moon's center of mass that follows the Moon's motion in space. The lunar Z-axis is perpendicular to the lunar orbital plane, the X-axis is along the intersection o...
+description: "A reference frame centered at the Moon's center of mass that follows the Moon's motion in space. The lunar Z-axis is perpendicular to the lunar orbital plane, the X-axis is along the intersection o..."
 keywords: Selenocentric Frame
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Selenocentric Frame Explained | Term Definition
-  description: A reference frame centered at the Moon's center of mass that follows the Moon's motion in space. The lunar Z-axis is perpendicular to the lunar orbital plane, the X-axis is along the intersection o...
+  title: "Selenocentric Frame Explained | Term Definition"
+  description: "A reference frame centered at the Moon's center of mass that follows the Moon's motion in space. The lunar Z-axis is perpendicular to the lunar orbital plane, the X-axis is along the intersection o..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Selenocentric Frame Explained | Term Definition
-  description: A reference frame centered at the Moon's center of mass that follows the Moon's motion in space. The lunar Z-axis is perpendicular to the lunar orbital plane, the X-axis is along the intersection o...
+  title: "Selenocentric Frame Explained | Term Definition"
+  description: "A reference frame centered at the Moon's center of mass that follows the Moon's motion in space. The lunar Z-axis is perpendicular to the lunar orbital plane, the X-axis is along the intersection o..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/selenocentric-frame/
 ---

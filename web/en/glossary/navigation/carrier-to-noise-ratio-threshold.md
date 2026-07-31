@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Carrier-to-Noise Ratio Threshold Explained | Term Definition
+  title: "Carrier-to-Noise Ratio Threshold Explained | Term Definition"
   description: The minimum carrier-to-noise ratio at which a GNSS receiver can effectively track and demodulate a signal. Signals below this threshold are deemed invalid an...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Carrier-to-Noise Ratio Threshold Explained | Term Definition
+  title: "Carrier-to-Noise Ratio Threshold Explained | Term Definition"
   description: The minimum carrier-to-noise ratio at which a GNSS receiver can effectively track and demodulate a signal. Signals below this threshold are deemed invalid an...
   image: /logo.png
 permalink: /en/glossary/navigation/carrier-to-noise-ratio-threshold/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fixed Point Explained | Term Definition
+  title: "Fixed Point Explained | Term Definition"
   description: "The equivalent representation obtained by discretizing a continuous Halo orbit. Treating the Halo orbit as a point on a Poincaré section, the state returns to t"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fixed Point Explained | Term Definition
+  title: "Fixed Point Explained | Term Definition"
   description: "The equivalent representation obtained by discretizing a continuous Halo orbit. Treating the Halo orbit as a point on a Poincaré section, the state returns to t"
   image: /logo.png
 permalink: /en/glossary/orbits/fixed-point/

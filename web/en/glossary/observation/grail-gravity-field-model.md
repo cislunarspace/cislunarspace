@@ -1,6 +1,6 @@
 ---
 title: GRAIL Gravity Field Model, GRGM660PRIM
-description: A lunar gravity field model derived from NASA's GRAIL (Gravity Recovery and Interior Laboratory) mission data. The GRGM660PRIM version is expanded to degree ...
+description: "A lunar gravity field model derived from NASA's GRAIL (Gravity Recovery and Interior Laboratory) mission data. The GRGM660PRIM version is expanded to degree ..."
 keywords: GRAIL Gravity Field Model, GRGM660PRIM, GRGM660PRIM, observation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GRAIL Gravity Field Model, GRGM660PRIM Explained | Term Definition
-  description: A lunar gravity field model derived from NASA's GRAIL (Gravity Recovery and Interior Laboratory) mission data. The GRGM660PRIM version is expanded to degree ...
+  title: "GRAIL Gravity Field Model, GRGM660PRIM Explained | Term Definition"
+  description: "A lunar gravity field model derived from NASA's GRAIL (Gravity Recovery and Interior Laboratory) mission data. The GRGM660PRIM version is expanded to degree ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GRAIL Gravity Field Model, GRGM660PRIM Explained | Term Definition
-  description: A lunar gravity field model derived from NASA's GRAIL (Gravity Recovery and Interior Laboratory) mission data. The GRGM660PRIM version is expanded to degree ...
+  title: "GRAIL Gravity Field Model, GRGM660PRIM Explained | Term Definition"
+  description: "A lunar gravity field model derived from NASA's GRAIL (Gravity Recovery and Interior Laboratory) mission data. The GRGM660PRIM version is expanded to degree ..."
   image: /logo.png
 permalink: /en/glossary/observation/grail-gravity-field-model/
 ---

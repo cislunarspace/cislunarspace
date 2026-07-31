@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Surface Coverage Assessment Explained | Term Definition
+  title: "Lunar Surface Coverage Assessment Explained | Term Definition"
   description: Assessment of the lunar surface regions reachable from a given orbit. NRHO, Halo, and DRO all achieve full lunar surface accessibility, but DRO requires...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Surface Coverage Assessment Explained | Term Definition
+  title: "Lunar Surface Coverage Assessment Explained | Term Definition"
   description: Assessment of the lunar surface regions reachable from a given orbit. NRHO, Halo, and DRO all achieve full lunar surface accessibility, but DRO requires...
   image: /logo.png
 permalink: /en/glossary/observation/lunar-surface-coverage-assessment/

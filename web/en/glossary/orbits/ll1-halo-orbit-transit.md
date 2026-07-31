@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LL1-Halo Orbit Transit Explained | Term Definition
+  title: "LL1-Halo Orbit Transit Explained | Term Definition"
   description: Earth-Moon transfer via Halo orbit near LL1. Halo orbit adds one more design dimension beyond libration points, providing more launch window options....
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LL1-Halo Orbit Transit Explained | Term Definition
+  title: "LL1-Halo Orbit Transit Explained | Term Definition"
   description: Earth-Moon transfer via Halo orbit near LL1. Halo orbit adds one more design dimension beyond libration points, providing more launch window options....
   image: /logo.png
 permalink: /en/glossary/orbits/ll1-halo-orbit-transit/

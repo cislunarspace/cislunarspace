@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Electrospray Propulsion Explained | Term Definition
+  title: "Electrospray Propulsion Explained | Term Definition"
   description: A micro-propulsion technology using strong electric fields to extract charged droplets or ion beams from liquid propellant, with specific impulse around 800 s and thrust in sub-millinewton range.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Electrospray Propulsion Explained | Term Definition
+  title: "Electrospray Propulsion Explained | Term Definition"
   description: A micro-propulsion technology using strong electric fields to extract charged droplets or ion beams from liquid propellant, with specific impulse around 800 s and thrust in sub-millinewton range.
   image: /logo.png
 permalink: /en/glossary/programs/electrospray-propulsion/

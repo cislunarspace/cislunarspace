@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Invariant Manifold Connection Explained | Term Definition
+  title: "Invariant Manifold Connection Explained | Term Definition"
   description: Natural transfer channels achieved through overlapping stable and unstable manifolds of different libration points or systems. It is the core of the space ma...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Invariant Manifold Connection Explained | Term Definition
+  title: "Invariant Manifold Connection Explained | Term Definition"
   description: Natural transfer channels achieved through overlapping stable and unstable manifolds of different libration points or systems. It is the core of the space ma...
   image: /logo.png
 permalink: /en/glossary/dynamics/invariant-manifold-connection/

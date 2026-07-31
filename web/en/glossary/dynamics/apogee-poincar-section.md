@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Apogee Poincaré Section Explained | Term Definition
+  title: "Apogee Poincaré Section Explained | Term Definition"
   description: Section formed by intersection points of transfer trajectory apogees with a projection surface in the Sun-centered rotating frame, used to analyze the extern...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Apogee Poincaré Section Explained | Term Definition
+  title: "Apogee Poincaré Section Explained | Term Definition"
   description: Section formed by intersection points of transfer trajectory apogees with a projection surface in the Sun-centered rotating frame, used to analyze the extern...
   image: /logo.png
 permalink: /en/glossary/dynamics/apogee-poincar-section/

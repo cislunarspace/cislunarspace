@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Cost Explained | Term Definition
+  title: "Transfer Cost Explained | Term Definition"
   description: The total velocity increment required to complete an orbital transfer, equal to the sum of departure and insertion impulses. Transfer cost is the primary met...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Cost Explained | Term Definition
+  title: "Transfer Cost Explained | Term Definition"
   description: The total velocity increment required to complete an orbital transfer, equal to the sum of departure and insertion impulses. Transfer cost is the primary met...
   image: /logo.png
 permalink: /en/glossary/dynamics/transfer-cost/

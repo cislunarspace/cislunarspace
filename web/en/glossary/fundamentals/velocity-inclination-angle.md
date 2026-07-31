@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Velocity Inclination Angle | Terminology Definition
+  title: "Velocity Inclination Angle | Terminology Definition"
   description: A detailed analysis of the definition and significance of the velocity inclination angle in trajectory design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity Inclination Angle | Terminology Definition
+  title: "Velocity Inclination Angle | Terminology Definition"
   description: A detailed analysis of the definition and significance of the velocity inclination angle in trajectory design
   image: /logo.png
 permalink: /en/glossary/fundamentals/velocity-inclination-angle/

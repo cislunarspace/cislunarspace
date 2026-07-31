@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO Low-energy Capture Explained | Term Definition
+  title: "DRO Low-energy Capture Explained | Term Definition"
   description: The capture process of entering a DRO with very small impulse through the weak stability boundary transfer mechanism, utilizing solar gravitational perturbation and lunar gravity assist.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO Low-energy Capture Explained | Term Definition
+  title: "DRO Low-energy Capture Explained | Term Definition"
   description: The capture process of entering a DRO with very small impulse through the weak stability boundary transfer mechanism, utilizing solar gravitational perturbation and lunar gravity assist.
   image: /logo.png
 permalink: /en/glossary/dynamics/dro-low-energy-capture/

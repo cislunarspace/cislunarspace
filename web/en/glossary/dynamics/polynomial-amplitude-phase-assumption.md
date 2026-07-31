@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Polynomial Amplitude-Phase Assumption Explained | Term Definition
+  title: "Polynomial Amplitude-Phase Assumption Explained | Term Definition"
   description: A shape function construction method proposed in this paper. It assumes that the amplitudes and phases of the approximate periodic orbit solution near libration points vary polynomially with time, ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Polynomial Amplitude-Phase Assumption Explained | Term Definition
+  title: "Polynomial Amplitude-Phase Assumption Explained | Term Definition"
   description: A shape function construction method proposed in this paper. It assumes that the amplitudes and phases of the approximate periodic orbit solution near libration points vary polynomially with time, ...
   image: /logo.png
 permalink: /en/glossary/dynamics/polynomial-amplitude-phase-assumption/

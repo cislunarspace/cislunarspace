@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Velocity-Normal-Binormal Frame Explained | Term Definition
+  title: "Velocity-Normal-Binormal Frame Explained | Term Definition"
   description: A local coordinate frame where the v-axis is aligned with the spacecraft velocity vector, the n-axis is in the direction of the angular momentum vector, and ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity-Normal-Binormal Frame Explained | Term Definition
+  title: "Velocity-Normal-Binormal Frame Explained | Term Definition"
   description: A local coordinate frame where the v-axis is aligned with the spacecraft velocity vector, the n-axis is in the direction of the angular momentum vector, and ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/velocity-normal-binormal-frame/

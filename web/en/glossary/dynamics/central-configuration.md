@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Central Configuration Explained | Term Definition
+  title: "Central Configuration Explained | Term Definition"
   description: 三天体加速度均指向质心且与矢径成正比时的构型。包括等边三角形拉格朗日构型和共线欧拉构型两种。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Central Configuration Explained | Term Definition
+  title: "Central Configuration Explained | Term Definition"
   description: 三天体加速度均指向质心且与矢径成正比时的构型。包括等边三角形拉格朗日构型和共线欧拉构型两种。
   image: /logo.png
 permalink: /en/glossary/dynamics/central-configuration/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unscented OCBE, U-OCBE Explained | Term Definition
+  title: "Unscented OCBE, U-OCBE Explained | Term Definition"
   description: A filter combining unscented Kalman filtering with optimal control based estimation to handle nonlinear unmodeled maneuvers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unscented OCBE, U-OCBE Explained | Term Definition
+  title: "Unscented OCBE, U-OCBE Explained | Term Definition"
   description: A filter combining unscented Kalman filtering with optimal control based estimation to handle nonlinear unmodeled maneuvers.
   image: /logo.png
 permalink: /en/glossary/navigation/u-ocbe/

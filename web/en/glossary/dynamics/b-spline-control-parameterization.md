@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: B-Spline Control Parameterization Explained | Term Definition
+  title: "B-Spline Control Parameterization Explained | Term Definition"
   description: A method of parameterizing continuous thrust control signals using B-spline basis functions. The control signal is expressed as a weighted sum of B-spline...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: B-Spline Control Parameterization Explained | Term Definition
+  title: "B-Spline Control Parameterization Explained | Term Definition"
   description: A method of parameterizing continuous thrust control signals using B-spline basis functions. The control signal is expressed as a weighted sum of B-spline...
   image: /logo.png
 permalink: /en/glossary/dynamics/b-spline-control-parameterization/

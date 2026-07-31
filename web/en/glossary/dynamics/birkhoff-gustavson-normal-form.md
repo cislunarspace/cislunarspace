@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Birkhoff-Gustavson Normal Form Explained | Term Definition
+  title: "Birkhoff-Gustavson Normal Form Explained | Term Definition"
   description: A canonical coordinate transformation near a Hamiltonian equilibrium that puts the Hamiltonian into a normal form containing only resonant terms.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Birkhoff-Gustavson Normal Form Explained | Term Definition
+  title: "Birkhoff-Gustavson Normal Form Explained | Term Definition"
   description: A canonical coordinate transformation near a Hamiltonian equilibrium that puts the Hamiltonian into a normal form containing only resonant terms.
   image: /logo.png
 permalink: /en/glossary/dynamics/birkhoff-gustavson-normal-form/

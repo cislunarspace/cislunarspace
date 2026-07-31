@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low Earth Orbit Explained | Term Definition
+  title: "Low Earth Orbit Explained | Term Definition"
   description: Earth orbit at approximately 200 to 2000 km altitude, used in this paper as one of the application scenarios for the uncertain Lambert problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low Earth Orbit Explained | Term Definition
+  title: "Low Earth Orbit Explained | Term Definition"
   description: Earth orbit at approximately 200 to 2000 km altitude, used in this paper as one of the application scenarios for the uncertain Lambert problem.
   image: /logo.png
 permalink: /en/glossary/orbits/LEO/

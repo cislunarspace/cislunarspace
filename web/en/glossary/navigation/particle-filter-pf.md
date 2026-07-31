@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Particle Filter, PF Explained | Term Definition
+  title: "Particle Filter, PF Explained | Term Definition"
   description: A recursive Bayesian filter based on Sequential Monte Carlo methods that approximates arbitrary probability densities using a set of weighted particles. Each particle represents a possible state sampl
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Particle Filter, PF Explained | Term Definition
+  title: "Particle Filter, PF Explained | Term Definition"
   description: A recursive Bayesian filter based on Sequential Monte Carlo methods that approximates arbitrary probability densities using a set of weighted particles. Each particle represents a possible state sampl
   image: /logo.png
 permalink: /en/glossary/navigation/particle-filter-pf/

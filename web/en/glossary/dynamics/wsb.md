@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary Explained | Term Definition
+  title: "Weak Stability Boundary Explained | Term Definition"
   description: The boundary of the gravitational balance region between the Sun, Earth, and Moon, where ballistic capture can be achieved.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary Explained | Term Definition
+  title: "Weak Stability Boundary Explained | Term Definition"
   description: The boundary of the gravitational balance region between the Sun, Earth, and Moon, where ballistic capture can be achieved.
   image: /logo.png
 permalink: /en/glossary/dynamics/wsb/

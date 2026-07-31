@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Body-Fixed Frame Explained | Term Definition
+  title: "Lunar Body-Fixed Frame Explained | Term Definition"
   description: "A coordinate system fixed to and rotating with the Moon. Its origin is at the Moon's center, the reference plane is the lunar equatorial plane, oxL lies along t"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Body-Fixed Frame Explained | Term Definition
+  title: "Lunar Body-Fixed Frame Explained | Term Definition"
   description: "A coordinate system fixed to and rotating with the Moon. Its origin is at the Moon's center, the reference plane is the lunar equatorial plane, oxL lies along t"
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-body-fixed-frame/

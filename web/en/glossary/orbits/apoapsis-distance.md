@@ -1,6 +1,6 @@
 ---
 title: Apoapsis Distance (r_apo)
-description: The distance from the orbit's farthest point from Phobos (apoapsis).
+description: "The distance from the orbit's farthest point from Phobos (apoapsis)."
 keywords: Apoapsis Distance, r_apo, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Apoapsis Distance (r_apo) Explained | Term Definition
-  description: The distance from the orbit's farthest point from Phobos (apoapsis).
+  title: "Apoapsis Distance (r_apo) Explained | Term Definition"
+  description: "The distance from the orbit's farthest point from Phobos (apoapsis)."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Apoapsis Distance (r_apo) Explained | Term Definition
-  description: The distance from the orbit's farthest point from Phobos (apoapsis).
+  title: "Apoapsis Distance (r_apo) Explained | Term Definition"
+  description: "The distance from the orbit's farthest point from Phobos (apoapsis)."
   image: /logo.png
 permalink: /en/glossary/orbits/apoapsis-distance/
 ---

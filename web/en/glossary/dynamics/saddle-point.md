@@ -1,6 +1,6 @@
 ---
 title: Saddle Point
-description: A fixed point on the Poincaré map with mixed stability: one eigenvalue of its monodromy matrix has modulus greater than one and the other less than one, corr...
+description: "A fixed point on the Poincaré map with mixed stability: one eigenvalue of its monodromy matrix has modulus greater than one and the other less than one, corr..."
 keywords: Saddle Point
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Saddle Point Explained | Term Definition
-  description: A fixed point on the Poincaré map with mixed stability: one eigenvalue of its monodromy matrix has modulus greater than one and the other less than one, corr...
+  title: "Saddle Point Explained | Term Definition"
+  description: "A fixed point on the Poincaré map with mixed stability: one eigenvalue of its monodromy matrix has modulus greater than one and the other less than one, corr..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Saddle Point Explained | Term Definition
-  description: A fixed point on the Poincaré map with mixed stability: one eigenvalue of its monodromy matrix has modulus greater than one and the other less than one, corr...
+  title: "Saddle Point Explained | Term Definition"
+  description: "A fixed point on the Poincaré map with mixed stability: one eigenvalue of its monodromy matrix has modulus greater than one and the other less than one, corr..."
   image: /logo.png
 permalink: /en/glossary/dynamics/saddle-point/
 ---

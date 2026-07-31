@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Background Star Elimination Explained | Cislunar Image Processing
+  title: "Background Star Elimination Explained | Cislunar Image Processing"
   description: Detailed explanation of background star elimination including definition, threshold selection, segmentation map masking, and applications in cislunar moving object detection
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Background Star Elimination Explained | Cislunar Image Processing
+  title: "Background Star Elimination Explained | Cislunar Image Processing"
   description: Detailed explanation of background star elimination including definition, threshold selection, segmentation map masking, and applications in cislunar moving object detection
   image: /logo.png
 permalink: /en/glossary/observation/background-star-elimination/

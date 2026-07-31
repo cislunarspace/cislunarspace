@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sub-Riemannian Structure Explained | Term Definition
+  title: "Sub-Riemannian Structure Explained | Term Definition"
   description: A geometric structure defined on a manifold by a distribution of rank less than the manifold dimension together with a Riemannian metric. The control vector ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sub-Riemannian Structure Explained | Term Definition
+  title: "Sub-Riemannian Structure Explained | Term Definition"
   description: A geometric structure defined on a manifold by a distribution of rank less than the manifold dimension together with a Riemannian metric. The control vector ...
   image: /logo.png
 permalink: /en/glossary/dynamics/sub-riemannian-structure/

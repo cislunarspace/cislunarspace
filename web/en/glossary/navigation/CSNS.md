@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cislunar Space Navigation System, CSNS Explained | Term Definition
+  title: "Cislunar Space Navigation System, CSNS Explained | Term Definition"
   description: A satellite navigation system deploying 34 navigation satellites on Special Long-Period Orbits, achieving autonomous orbit determination and time...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Space Navigation System, CSNS Explained | Term Definition
+  title: "Cislunar Space Navigation System, CSNS Explained | Term Definition"
   description: A satellite navigation system deploying 34 navigation satellites on Special Long-Period Orbits, achieving autonomous orbit determination and time...
   image: /logo.png
 permalink: /en/glossary/navigation/CSNS/

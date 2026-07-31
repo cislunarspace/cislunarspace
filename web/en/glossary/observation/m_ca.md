@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Critical Apparent Magnitude Explained | Term Definition
+  title: "Critical Apparent Magnitude Explained | Term Definition"
   description: The brightness threshold corresponding to a given observability ratio α. An object is considered observable when its apparent magnitude is less than (brighter t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Critical Apparent Magnitude Explained | Term Definition
+  title: "Critical Apparent Magnitude Explained | Term Definition"
   description: The brightness threshold corresponding to a given observability ratio α. An object is considered observable when its apparent magnitude is less than (brighter t
   image: /logo.png
 permalink: /en/glossary/observation/m_ca/

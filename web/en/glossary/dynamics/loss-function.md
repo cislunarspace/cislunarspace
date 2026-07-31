@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Loss Function Explained | Term Definition
+  title: "Loss Function Explained | Term Definition"
   description: An optimization objective function defined based on differential equation residuals; minimized via iterative least-squares in the TFC method to obtain optimal control solutions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Loss Function Explained | Term Definition
+  title: "Loss Function Explained | Term Definition"
   description: An optimization objective function defined based on differential equation residuals; minimized via iterative least-squares in the TFC method to obtain optimal control solutions.
   image: /logo.png
 permalink: /en/glossary/dynamics/loss-function/

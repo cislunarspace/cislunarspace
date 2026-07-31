@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Specific Impulse, Isp (Isp) Explained | Term Definition
+  title: "Specific Impulse, Isp (Isp) Explained | Term Definition"
   description: Impulse generated per unit weight of propellant; fundamental metric for propulsion system efficiency.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Specific Impulse, Isp (Isp) Explained | Term Definition
+  title: "Specific Impulse, Isp (Isp) Explained | Term Definition"
   description: Impulse generated per unit weight of propellant; fundamental metric for propulsion system efficiency.
   image: /logo.png
 permalink: /en/glossary/fundamentals/specific-impulse-isp/

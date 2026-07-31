@@ -1,6 +1,6 @@
 ---
 title: Obliquity of the Ecliptic, ε
-description: Angle between the ecliptic plane and Earth's equatorial plane, approximately 23.44 degrees
+description: "Angle between the ecliptic plane and Earth's equatorial plane, approximately 23.44 degrees"
 keywords: Obliquity of the Ecliptic, ε, ε, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Obliquity of the Ecliptic, ε Explained | Term Definition
-  description: Angle between the ecliptic plane and Earth's equatorial plane, approximately 23.44 degrees
+  title: "Obliquity of the Ecliptic, ε Explained | Term Definition"
+  description: "Angle between the ecliptic plane and Earth's equatorial plane, approximately 23.44 degrees"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Obliquity of the Ecliptic, ε Explained | Term Definition
-  description: Angle between the ecliptic plane and Earth's equatorial plane, approximately 23.44 degrees
+  title: "Obliquity of the Ecliptic, ε Explained | Term Definition"
+  description: "Angle between the ecliptic plane and Earth's equatorial plane, approximately 23.44 degrees"
   image: /logo.png
 permalink: /en/glossary/fundamentals/obliquity-of-the-ecliptic/
 ---

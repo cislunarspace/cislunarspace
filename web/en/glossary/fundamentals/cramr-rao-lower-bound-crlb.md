@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cramér-Rao Lower Bound, CRLB Explained | Term Definition
+  title: "Cramér-Rao Lower Bound, CRLB Explained | Term Definition"
   description: The theoretical lower bound on parameter estimation accuracy, representing the minimum variance achievable by an unbiased estimator under optimal conditions. In autonomous orbit determination, the CRLB validates observability of the measurement system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cramér-Rao Lower Bound, CRLB Explained | Term Definition
+  title: "Cramér-Rao Lower Bound, CRLB Explained | Term Definition"
   description: The theoretical lower bound on parameter estimation accuracy, representing the minimum variance achievable by an unbiased estimator under optimal conditions. In autonomous orbit determination, the CRLB validates observability of the measurement system.
   image: /logo.png
 permalink: /en/glossary/fundamentals/cramr-rao-lower-bound-crlb/

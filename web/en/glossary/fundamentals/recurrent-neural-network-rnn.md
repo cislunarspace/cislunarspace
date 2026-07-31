@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tool resources.
   image: /logo.png
 og:
-  title: Recurrent Neural Network (RNN) Explained | Term Definition
+  title: "Recurrent Neural Network (RNN) Explained | Term Definition"
   description: A neural network with recurrent connections that processes temporal dependencies in sequential data. In orbit prediction, it models temporal patterns in historical orbital data in the RTN coordinate frame, reducing TLE prediction errors by 45% within 16 days.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Recurrent Neural Network (RNN) Explained | Term Definition
+  title: "Recurrent Neural Network (RNN) Explained | Term Definition"
   description: A neural network with recurrent connections that processes temporal dependencies in sequential data. In orbit prediction, it models temporal patterns in historical orbital data in the RTN coordinate frame, reducing TLE prediction errors by 45% within 16 days.
   image: /logo.png
 permalink: /en/glossary/fundamentals/recurrent-neural-network-rnn/

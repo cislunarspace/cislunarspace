@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Control Integral, z Explained | Term Definition
+  title: "Control Integral, z Explained | Term Definition"
   description: The integral of the estimated control policy, representing the total estimated effort applied to the system, used as classifier input.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Control Integral, z Explained | Term Definition
+  title: "Control Integral, z Explained | Term Definition"
   description: The integral of the estimated control policy, representing the total estimated effort applied to the system, used as classifier input.
   image: /logo.png
 permalink: /en/glossary/navigation/control-integral-z/

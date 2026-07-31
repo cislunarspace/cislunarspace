@@ -1,6 +1,6 @@
 ---
 title: Optimal Relative Motion Control
-description: The problem of controlling a deputy satellite's relative state transfer with respect to a chief satellite under three-body dynamics. Given initial relative...
+description: "The problem of controlling a deputy satellite's relative state transfer with respect to a chief satellite under three-body dynamics. Given initial relative..."
 keywords: Optimal Relative Motion Control
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Relative Motion Control Explained | Term Definition
-  description: The problem of controlling a deputy satellite's relative state transfer with respect to a chief satellite under three-body dynamics. Given initial relative...
+  title: "Optimal Relative Motion Control Explained | Term Definition"
+  description: "The problem of controlling a deputy satellite's relative state transfer with respect to a chief satellite under three-body dynamics. Given initial relative..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Relative Motion Control Explained | Term Definition
-  description: The problem of controlling a deputy satellite's relative state transfer with respect to a chief satellite under three-body dynamics. Given initial relative...
+  title: "Optimal Relative Motion Control Explained | Term Definition"
+  description: "The problem of controlling a deputy satellite's relative state transfer with respect to a chief satellite under three-body dynamics. Given initial relative..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/optimal-relative-motion-control/
 ---

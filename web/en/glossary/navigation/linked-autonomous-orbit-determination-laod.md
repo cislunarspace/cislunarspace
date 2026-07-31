@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linked Autonomous Orbit Determination, LAOD (LAOD) Explained | Term Definition
+  title: "Linked Autonomous Orbit Determination, LAOD (LAOD) Explained | Term Definition"
   description: A navigation technique where multiple satellites jointly determine their orbits using only inter-satellite measurements without ground tracking. By exploiting the uniqueness of the navigation satel...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linked Autonomous Orbit Determination, LAOD (LAOD) Explained | Term Definition
+  title: "Linked Autonomous Orbit Determination, LAOD (LAOD) Explained | Term Definition"
   description: A navigation technique where multiple satellites jointly determine their orbits using only inter-satellite measurements without ground tracking. By exploiting the uniqueness of the navigation satel...
   image: /logo.png
 permalink: /en/glossary/navigation/linked-autonomous-orbit-determination-laod/

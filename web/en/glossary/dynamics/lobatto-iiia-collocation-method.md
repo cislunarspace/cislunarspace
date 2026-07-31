@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lobatto IIIA Collocation Method Explained | Term Definition
+  title: "Lobatto IIIA Collocation Method Explained | Term Definition"
   description: An implicit Runge-Kutta collocation method for solving boundary value problems. It satisfies state equations and boundary conditions simultaneously at each collocation point, converting optimal contro...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lobatto IIIA Collocation Method Explained | Term Definition
+  title: "Lobatto IIIA Collocation Method Explained | Term Definition"
   description: An implicit Runge-Kutta collocation method for solving boundary value problems. It satisfies state equations and boundary conditions simultaneously at each collocation point, converting optimal contro...
   image: /logo.png
 permalink: /en/glossary/dynamics/lobatto-iiia-collocation-method/

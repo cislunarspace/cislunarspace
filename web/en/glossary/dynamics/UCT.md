@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Upper Confidence Bounds Applied to Trees, UCT Explained | Term Definition
+  title: "Upper Confidence Bounds Applied to Trees, UCT Explained | Term Definition"
   description: The tree policy in Monte Carlo tree search for balancing exploration and exploitation. Formulated as U(s,a) = Q(s,a) + C*sqrt(ln(N(s))/N(s,a)), where Q is the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Upper Confidence Bounds Applied to Trees, UCT Explained | Term Definition
+  title: "Upper Confidence Bounds Applied to Trees, UCT Explained | Term Definition"
   description: The tree policy in Monte Carlo tree search for balancing exploration and exploitation. Formulated as U(s,a) = Q(s,a) + C*sqrt(ln(N(s))/N(s,a)), where Q is the...
   image: /logo.png
 permalink: /en/glossary/dynamics/UCT/

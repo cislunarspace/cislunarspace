@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Throttle Function Explained | Term Definition
+  title: "Throttle Function Explained | Term Definition"
   description: In a multimode propulsion system, the function characterizing propellant mass flow rate variation with time. In the dual-mode electric propulsion system studied, throttle functions delta_P1 and delta_
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Throttle Function Explained | Term Definition
+  title: "Throttle Function Explained | Term Definition"
   description: In a multimode propulsion system, the function characterizing propellant mass flow rate variation with time. In the dual-mode electric propulsion system studied, throttle functions delta_P1 and delta_
   image: /logo.png
 permalink: /en/glossary/dynamics/throttle-function/

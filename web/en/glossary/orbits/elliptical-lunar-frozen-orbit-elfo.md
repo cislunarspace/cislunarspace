@@ -1,6 +1,6 @@
 ---
 title: Elliptical Lunar Frozen Orbit, ELFO
-description: A highly stable lunar orbit whose shape varies minimally in the Moon's non-uniform gravity field, requiring little station-keeping for stable positioning. A can
+description: "A highly stable lunar orbit whose shape varies minimally in the Moon's non-uniform gravity field, requiring little station-keeping for stable positioning. A can"
 keywords: Elliptical Lunar Frozen Orbit, ELFO
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptical Lunar Frozen Orbit, ELFO Explained | Term Definition
-  description: A highly stable lunar orbit whose shape varies minimally in the Moon's non-uniform gravity field, requiring little station-keeping for stable positioning. A can
+  title: "Elliptical Lunar Frozen Orbit, ELFO Explained | Term Definition"
+  description: "A highly stable lunar orbit whose shape varies minimally in the Moon's non-uniform gravity field, requiring little station-keeping for stable positioning. A can"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptical Lunar Frozen Orbit, ELFO Explained | Term Definition
-  description: A highly stable lunar orbit whose shape varies minimally in the Moon's non-uniform gravity field, requiring little station-keeping for stable positioning. A can
+  title: "Elliptical Lunar Frozen Orbit, ELFO Explained | Term Definition"
+  description: "A highly stable lunar orbit whose shape varies minimally in the Moon's non-uniform gravity field, requiring little station-keeping for stable positioning. A can"
   image: /logo.png
 permalink: /en/glossary/orbits/elliptical-lunar-frozen-orbit-elfo/
 ---

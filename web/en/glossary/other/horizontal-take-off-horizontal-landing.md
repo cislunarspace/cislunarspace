@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Horizontal Take-off Horizontal Landing Explained | Term Definition
+  title: "Horizontal Take-off Horizontal Landing Explained | Term Definition"
   description: A reusable launch vehicle that takes off and lands horizontally. Similar to conventional aircraft operations, it can use airport runways, reducing infrastructur
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Horizontal Take-off Horizontal Landing Explained | Term Definition
+  title: "Horizontal Take-off Horizontal Landing Explained | Term Definition"
   description: A reusable launch vehicle that takes off and lands horizontally. Similar to conventional aircraft operations, it can use airport runways, reducing infrastructur
   image: /logo.png
 permalink: /en/glossary/other/horizontal-take-off-horizontal-landing/

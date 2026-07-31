@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Position Dilution of Precision, PDOP Explained | Term Definition
+  title: "Position Dilution of Precision, PDOP Explained | Term Definition"
   description: A metric evaluating the positioning accuracy of navigation constellations, reflecting how satellite-receiver geometric configuration amplifies three-dimensional positioning errors. Smaller PDOP values indicate more favorable spatial geometry and better constellation performance.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Position Dilution of Precision, PDOP Explained | Term Definition
+  title: "Position Dilution of Precision, PDOP Explained | Term Definition"
   description: A metric evaluating the positioning accuracy of navigation constellations, reflecting how satellite-receiver geometric configuration amplifies three-dimensional positioning errors. Smaller PDOP values indicate more favorable spatial geometry and better constellation performance.
   image: /logo.png
 permalink: /en/glossary/navigation/position-dilution-of-precision-pdop/

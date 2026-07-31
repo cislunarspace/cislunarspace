@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Holding Point Explained | Term Definition
+  title: "Holding Point Explained | Term Definition"
   description: A waiting point set during rendezvous where the chaser pauses or performs orbital adjustments to ensure timing coordination with the target.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Holding Point Explained | Term Definition
+  title: "Holding Point Explained | Term Definition"
   description: A waiting point set during rendezvous where the chaser pauses or performs orbital adjustments to ensure timing coordination with the target.
   image: /logo.png
 permalink: /en/glossary/navigation/Holding-Point/

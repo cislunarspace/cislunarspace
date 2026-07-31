@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum Euclidean Norm Explained | Term Definition
+  title: "Minimum Euclidean Norm Explained | Term Definition"
   description: A mathematical method for determining iteration step size in differential correction. When free variables exceed constraint variables (under-constrained system)
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Euclidean Norm Explained | Term Definition
+  title: "Minimum Euclidean Norm Explained | Term Definition"
   description: A mathematical method for determining iteration step size in differential correction. When free variables exceed constraint variables (under-constrained system)
   image: /logo.png
 permalink: /en/glossary/dynamics/minimum-euclidean-norm/

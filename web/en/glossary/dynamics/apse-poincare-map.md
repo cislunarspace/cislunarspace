@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Apse Poincare Map Explained | Term Definition
+  title: "Apse Poincare Map Explained | Term Definition"
   description: A Poincare map defined at apse locations using the condition r-bar dot v-bar = 0, used to identify potential transfer arcs by visualizing intersections of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Apse Poincare Map Explained | Term Definition
+  title: "Apse Poincare Map Explained | Term Definition"
   description: A Poincare map defined at apse locations using the condition r-bar dot v-bar = 0, used to identify potential transfer arcs by visualizing intersections of...
   image: /logo.png
 permalink: /en/glossary/dynamics/apse-poincare-map/

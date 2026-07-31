@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Novel Orbital and Moon Manufacturing, Materials, and Mass Efficient Design, NOM4D Explained | Term Definition
+  title: "Novel Orbital and Moon Manufacturing, Materials, and Mass Efficient Design, NOM4D Explained | Term Definition"
   description: A DARPA-funded program aimed at enabling space-based systems too large to launch from Earth by developing advanced in-orbit fabrication techniques. Current targ
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Novel Orbital and Moon Manufacturing, Materials, and Mass Efficient Design, NOM4D Explained | Term Definition
+  title: "Novel Orbital and Moon Manufacturing, Materials, and Mass Efficient Design, NOM4D Explained | Term Definition"
   description: A DARPA-funded program aimed at enabling space-based systems too large to launch from Earth by developing advanced in-orbit fabrication techniques. Current targ
   image: /logo.png
 permalink: /en/glossary/programs/novel-orbital-and-moon-manufacturing-materials-and-mass-efficient-design-nom4d/

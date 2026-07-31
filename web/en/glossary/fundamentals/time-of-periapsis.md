@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Periapsis Explained | Term Definition
+  title: "Time of Periapsis Explained | Term Definition"
   description: The time when the spacecraft passes periapsis.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Periapsis Explained | Term Definition
+  title: "Time of Periapsis Explained | Term Definition"
   description: The time when the spacecraft passes periapsis.
   image: /logo.png
 permalink: /en/glossary/fundamentals/time-of-periapsis/

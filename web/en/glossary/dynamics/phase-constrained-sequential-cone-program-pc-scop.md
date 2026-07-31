@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase-Constrained Sequential Cone Program, PC-SCoP Explained | Term Definition
+  title: "Phase-Constrained Sequential Cone Program, PC-SCoP Explained | Term Definition"
   description: An optimization-based station-keeping algorithm for libration point orbits. It formulates x-axis crossing control as a nonlinear program with a two-norm delt...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase-Constrained Sequential Cone Program, PC-SCoP Explained | Term Definition
+  title: "Phase-Constrained Sequential Cone Program, PC-SCoP Explained | Term Definition"
   description: An optimization-based station-keeping algorithm for libration point orbits. It formulates x-axis crossing control as a nonlinear program with a two-norm delt...
   image: /logo.png
 permalink: /en/glossary/dynamics/phase-constrained-sequential-cone-program-pc-scop/

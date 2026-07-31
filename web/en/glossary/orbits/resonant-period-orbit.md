@@ -1,6 +1,6 @@
 ---
 title: Resonant Period Orbit
-description: An orbit whose period forms an integer multiple of a reference orbit's period. In resonant constellation design, all orbits with periods that are integer multip
+description: "An orbit whose period forms an integer multiple of a reference orbit's period. In resonant constellation design, all orbits with periods that are integer multip"
 keywords: Resonant Period Orbit, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonant Period Orbit Explained | Term Definition
-  description: An orbit whose period forms an integer multiple of a reference orbit's period. In resonant constellation design, all orbits with periods that are integer multip
+  title: "Resonant Period Orbit Explained | Term Definition"
+  description: "An orbit whose period forms an integer multiple of a reference orbit's period. In resonant constellation design, all orbits with periods that are integer multip"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonant Period Orbit Explained | Term Definition
-  description: An orbit whose period forms an integer multiple of a reference orbit's period. In resonant constellation design, all orbits with periods that are integer multip
+  title: "Resonant Period Orbit Explained | Term Definition"
+  description: "An orbit whose period forms an integer multiple of a reference orbit's period. In resonant constellation design, all orbits with periods that are integer multip"
   image: /logo.png
 permalink: /en/glossary/orbits/resonant-period-orbit/
 ---

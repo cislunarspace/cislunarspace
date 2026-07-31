@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptical Lunar Frozen Orbit Explained | Term Definition
+  title: "Elliptical Lunar Frozen Orbit Explained | Term Definition"
   description: A lunar orbit whose inclination and eccentricity satisfy a specific constraint relation, keeping the argument of periapsis frozen over long durations. Its large
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptical Lunar Frozen Orbit Explained | Term Definition
+  title: "Elliptical Lunar Frozen Orbit Explained | Term Definition"
   description: A lunar orbit whose inclination and eccentricity satisfy a specific constraint relation, keeping the argument of periapsis frozen over long durations. Its large
   image: /logo.png
 permalink: /en/glossary/orbits/elliptical-lunar-frozen-orbit/

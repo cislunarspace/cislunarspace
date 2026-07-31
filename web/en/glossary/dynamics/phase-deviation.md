@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Deviation Explained | Term Definition
+  title: "Phase Deviation Explained | Term Definition"
   description: Position deviation of a spacecraft along the orbital direction relative to the reference trajectory on a periodic orbit. In cislunar libration point orbit stati
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Deviation Explained | Term Definition
+  title: "Phase Deviation Explained | Term Definition"
   description: Position deviation of a spacecraft along the orbital direction relative to the reference trajectory on a periodic orbit. In cislunar libration point orbit stati
   image: /logo.png
 permalink: /en/glossary/dynamics/phase-deviation/

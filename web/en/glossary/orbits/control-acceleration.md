@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Control Acceleration Explained | Term Definition
+  title: "Control Acceleration Explained | Term Definition"
   description: The acceleration produced per unit mass under continuous thrust, serving as the control input for orbit maintenance. In the paper, the control input vector U=[U
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Control Acceleration Explained | Term Definition
+  title: "Control Acceleration Explained | Term Definition"
   description: The acceleration produced per unit mass under continuous thrust, serving as the control input for orbit maintenance. In the paper, the control input vector U=[U
   image: /logo.png
 permalink: /en/glossary/orbits/control-acceleration/

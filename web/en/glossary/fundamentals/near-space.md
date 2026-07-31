@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Near-space | Stratospheric Environment
+  title: "Near-space | Stratospheric Environment"
   description: A detailed analysis of near-space definitions, altitude ranges, physical environment characteristics, and its importance in aerospace and military applications
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-space | Stratospheric Environment
+  title: "Near-space | Stratospheric Environment"
   description: A detailed analysis of near-space definitions, altitude ranges, physical environment characteristics, and its importance in aerospace and military applications
   image: /logo.png
 permalink: /en/glossary/fundamentals/near-space/

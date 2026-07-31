@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mass Parameter Explained | Term Definition
+  title: "Mass Parameter Explained | Term Definition"
   description: "The sole parameter characterizing a circular restricted three-body problem, defined as the ratio of the secondary body's mass to the total mass of both primaries. It determines Lagrange point location"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Parameter Explained | Term Definition
+  title: "Mass Parameter Explained | Term Definition"
   description: "The sole parameter characterizing a circular restricted three-body problem, defined as the ratio of the secondary body's mass to the total mass of both primaries. It determines Lagrange point location"
   image: /logo.png
 permalink: /en/glossary/fundamentals/mass-parameter/

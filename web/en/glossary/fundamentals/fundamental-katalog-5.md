@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fundamental Katalog 5 Explained | Term Definition
+  title: "Fundamental Katalog 5 Explained | Term Definition"
   description: 1979年发布的经典星表，是IAU-76/FK5 J2000参考系统的基础，已被ICRF取代。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fundamental Katalog 5 Explained | Term Definition
+  title: "Fundamental Katalog 5 Explained | Term Definition"
   description: 1979年发布的经典星表，是IAU-76/FK5 J2000参考系统的基础，已被ICRF取代。
   image: /logo.png
 permalink: /en/glossary/fundamentals/fundamental-katalog-5/

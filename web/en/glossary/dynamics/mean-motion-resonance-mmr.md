@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mean Motion Resonance Explained | Term Definition
+  title: "Mean Motion Resonance Explained | Term Definition"
   description: A dynamical locking state formed when the ratio of orbital mean motion frequencies of two bodies approaches a ratio of integers. MMR produces periodic close encounters that maintain long-term orbital configuration stability, serving as the foundation for constructing periodic orbits in cislunar space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mean Motion Resonance Explained | Term Definition
+  title: "Mean Motion Resonance Explained | Term Definition"
   description: A dynamical locking state formed when the ratio of orbital mean motion frequencies of two bodies approaches a ratio of integers. MMR produces periodic close encounters that maintain long-term orbital configuration stability, serving as the foundation for constructing periodic orbits in cislunar space.
   image: /logo.png
 permalink: /en/glossary/dynamics/mean-motion-resonance-mmr/

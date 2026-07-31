@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: CR3BP Lambert Problem Explained | Term Definition
+  title: "CR3BP Lambert Problem Explained | Term Definition"
   description: Using two-impulse Lambert approach in CR3BP framework to compute transfer trajectories
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: CR3BP Lambert Problem Explained | Term Definition
+  title: "CR3BP Lambert Problem Explained | Term Definition"
   description: Using two-impulse Lambert approach in CR3BP framework to compute transfer trajectories
   image: /logo.png
 permalink: /en/glossary/dynamics/cr3bp-lambert-problem/

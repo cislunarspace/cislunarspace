@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Take-off Vertical Landing Explained | Term Definition
+  title: "Vertical Take-off Vertical Landing Explained | Term Definition"
   description: A reusable launch vehicle that takes off and lands vertically. This is the dominant configuration for current international reusable launch vehicles, adopted by
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Take-off Vertical Landing Explained | Term Definition
+  title: "Vertical Take-off Vertical Landing Explained | Term Definition"
   description: A reusable launch vehicle that takes off and lands vertically. This is the dominant configuration for current international reusable launch vehicles, adopted by
   image: /logo.png
 permalink: /en/glossary/other/vertical-take-off-vertical-landing/

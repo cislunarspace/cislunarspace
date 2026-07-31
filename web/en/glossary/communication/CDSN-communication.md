@@ -1,6 +1,6 @@
 ---
 title: China Deep Space Network
-description: China's ground-based deep space tracking and communication network, comprising stations at Kashi (25 m dish), Kiamusze (35 m dish), and Argentina (35 m dish), p
+description: "China's ground-based deep space tracking and communication network, comprising stations at Kashi (25 m dish), Kiamusze (35 m dish), and Argentina (35 m dish), p"
 keywords: China Deep Space Network, communication, tracking, deep space network
 author: 天疆说
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: China Deep Space Network Explained | Term Definition
-  description: China's ground-based deep space tracking and communication network, comprising stations at Kashi (25 m dish), Kiamusze (35 m dish), and Argentina (35 m dish), p
+  title: "China Deep Space Network Explained | Term Definition"
+  description: "China's ground-based deep space tracking and communication network, comprising stations at Kashi (25 m dish), Kiamusze (35 m dish), and Argentina (35 m dish), p"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: China Deep Space Network Explained | Term Definition
-  description: China's ground-based deep space tracking and communication network, comprising stations at Kashi (25 m dish), Kiamusze (35 m dish), and Argentina (35 m dish), p
+  title: "China Deep Space Network Explained | Term Definition"
+  description: "China's ground-based deep space tracking and communication network, comprising stations at Kashi (25 m dish), Kiamusze (35 m dish), and Argentina (35 m dish), p"
   image: /logo.png
 permalink: /en/glossary/communication/CDSN-communication/
 ---

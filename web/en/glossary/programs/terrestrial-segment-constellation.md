@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Terrestrial Segment Constellation Explained | Term Definition
+  title: "Terrestrial Segment Constellation Explained | Term Definition"
   description: The terrestrial-coverage portion of an Earth-Moon communication constellation. Deployed on unstable L3 halo orbits, the segment provides line-of-sight relay between the Earth and Moon, enabling con...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Terrestrial Segment Constellation Explained | Term Definition
+  title: "Terrestrial Segment Constellation Explained | Term Definition"
   description: The terrestrial-coverage portion of an Earth-Moon communication constellation. Deployed on unstable L3 halo orbits, the segment provides line-of-sight relay between the Earth and Moon, enabling con...
   image: /logo.png
 permalink: /en/glossary/programs/terrestrial-segment-constellation/

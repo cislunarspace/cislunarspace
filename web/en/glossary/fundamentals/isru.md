@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: In-Situ Resource Utilization (ISRU) | Terminology Definition
+  title: "In-Situ Resource Utilization (ISRU) | Terminology Definition"
   description: Detailed introduction to ISRU definition and technical approaches
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-Situ Resource Utilization (ISRU) | Terminology Definition
+  title: "In-Situ Resource Utilization (ISRU) | Terminology Definition"
   description: Detailed introduction to ISRU definition and technical approaches
   image: /logo.png
 permalink: /en/glossary/fundamentals/isru/

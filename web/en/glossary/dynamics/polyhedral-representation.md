@@ -1,6 +1,6 @@
 ---
 title: Polyhedral Representation
-description: A method representing state components on invariant manifolds as piecewise linear functions of two parameters: the injection point time and the manifold time of
+description: "A method representing state components on invariant manifolds as piecewise linear functions of two parameters: the injection point time and the manifold time of"
 keywords: Polyhedral Representation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Polyhedral Representation Explained | Term Definition
-  description: A method representing state components on invariant manifolds as piecewise linear functions of two parameters: the injection point time and the manifold time of
+  title: "Polyhedral Representation Explained | Term Definition"
+  description: "A method representing state components on invariant manifolds as piecewise linear functions of two parameters: the injection point time and the manifold time of"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Polyhedral Representation Explained | Term Definition
-  description: A method representing state components on invariant manifolds as piecewise linear functions of two parameters: the injection point time and the manifold time of
+  title: "Polyhedral Representation Explained | Term Definition"
+  description: "A method representing state components on invariant manifolds as piecewise linear functions of two parameters: the injection point time and the manifold time of"
   image: /logo.png
 permalink: /en/glossary/dynamics/polyhedral-representation/
 ---

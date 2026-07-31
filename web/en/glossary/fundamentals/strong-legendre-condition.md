@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Strong Legendre Condition Explained | Term Definition
+  title: "Strong Legendre Condition Explained | Term Definition"
   description: A second-order necessary condition in optimal control requiring the Hessian of the maximized Hamiltonian with respect to the control to be uniformly negative definite along the reference extremal. An extremal satisfying this condition is called regular and admits a field of extremals, which is prerequisite for proving local optimality. The logarithmic barrier formulation naturally satisfies this condition.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Strong Legendre Condition Explained | Term Definition
+  title: "Strong Legendre Condition Explained | Term Definition"
   description: A second-order necessary condition in optimal control requiring the Hessian of the maximized Hamiltonian with respect to the control to be uniformly negative definite along the reference extremal. An extremal satisfying this condition is called regular and admits a field of extremals, which is prerequisite for proving local optimality. The logarithmic barrier formulation naturally satisfies this condition.
   image: /logo.png
 permalink: /en/glossary/fundamentals/strong-legendre-condition/

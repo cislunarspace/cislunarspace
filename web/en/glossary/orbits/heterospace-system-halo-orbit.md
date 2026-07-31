@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heterospace-system Halo Orbit Explained | Term Definition
+  title: "Heterospace-system Halo Orbit Explained | Term Definition"
   description: Halo orbits located in different three-body systems (such as Sun-Earth and Earth-Moon systems), serving as the two terminal orbits for heterospace libration point transfer.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heterospace-system Halo Orbit Explained | Term Definition
+  title: "Heterospace-system Halo Orbit Explained | Term Definition"
   description: Halo orbits located in different three-body systems (such as Sun-Earth and Earth-Moon systems), serving as the two terminal orbits for heterospace libration point transfer.
   image: /logo.png
 permalink: /en/glossary/orbits/heterospace-system-halo-orbit/

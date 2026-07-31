@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normalized Crowd Agreement Index Explained | Term Definition
+  title: "Normalized Crowd Agreement Index Explained | Term Definition"
   description: A normalized metric that measures the amount of information a clustering result shares with other results in the ensemble.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normalized Crowd Agreement Index Explained | Term Definition
+  title: "Normalized Crowd Agreement Index Explained | Term Definition"
   description: A normalized metric that measures the amount of information a clustering result shares with other results in the ensemble.
   image: /logo.png
 permalink: /en/glossary/dynamics/normalized-crowd-agreement-index/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Automatic Differentiation Explained | Term Definition
+  title: "Automatic Differentiation Explained | Term Definition"
   description: A numerical technique that computes exact derivatives of a computer program by decomposing it into elementary operations and applying the chain rule. Unlike sym
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Automatic Differentiation Explained | Term Definition
+  title: "Automatic Differentiation Explained | Term Definition"
   description: A numerical technique that computes exact derivatives of a computer program by decomposing it into elementary operations and applying the chain rule. Unlike sym
   image: /logo.png
 permalink: /en/glossary/fundamentals/ad/

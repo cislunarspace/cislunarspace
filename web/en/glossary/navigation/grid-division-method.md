@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Grid Division Method Explained | Term Definition
+  title: "Grid Division Method Explained | Term Definition"
   description: "A method to discretize the target service region into a grid point set for constellation performance evaluation. Using the Earth-Moon barycentric synodic coordinate system, a circular grid is drawn with the Earth-Moon distance as the reference radius, and a banded region is formed along the Moon's path through densification. This method converts continuous spatial regions into a finite number of computational points, enabling quantitative evaluation of constellation coverage, communication, and navigation performance."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Grid Division Method Explained | Term Definition
+  title: "Grid Division Method Explained | Term Definition"
   description: "A method to discretize the target service region into a grid point set for constellation performance evaluation. Using the Earth-Moon barycentric synodic coordinate system, a circular grid is drawn with the Earth-Moon distance as the reference radius, and a banded region is formed along the Moon's path through densification. This method converts continuous spatial regions into a finite number of computational points, enabling quantitative evaluation of constellation coverage, communication, and navigation performance."
   image: /logo.png
 permalink: /en/glossary/navigation/grid-division-method/

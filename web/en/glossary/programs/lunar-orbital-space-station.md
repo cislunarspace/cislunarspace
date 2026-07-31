@@ -1,6 +1,6 @@
 ---
 title: Lunar Orbital Space Station
-description: A crewed space station deployed on a periodic orbit in near-lunar space, serving as a transit hub for lunar landing missions. Typical deployment orbits include NRHO, L2 Halo, and DRO. Functions include logistics transfer, crew exchange, lunar tracking and communication, and deep-space mission staging. NASA's Gateway is a representative example.
+description: "A crewed space station deployed on a periodic orbit in near-lunar space, serving as a transit hub for lunar landing missions. Typical deployment orbits include NRHO, L2 Halo, and DRO. Functions include logistics transfer, crew exchange, lunar tracking and communication, and deep-space mission staging. NASA's Gateway is a representative example."
 keywords: Lunar Orbital Space Station, programs
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Orbital Space Station Explained | Term Definition
-  description: A crewed space station deployed on a periodic orbit in near-lunar space, serving as a transit hub for lunar landing missions. Typical deployment orbits include NRHO, L2 Halo, and DRO. Functions include logistics transfer, crew exchange, lunar tracking and communication, and deep-space mission staging. NASA's Gateway is a representative example.
+  title: "Lunar Orbital Space Station Explained | Term Definition"
+  description: "A crewed space station deployed on a periodic orbit in near-lunar space, serving as a transit hub for lunar landing missions. Typical deployment orbits include NRHO, L2 Halo, and DRO. Functions include logistics transfer, crew exchange, lunar tracking and communication, and deep-space mission staging. NASA's Gateway is a representative example."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Orbital Space Station Explained | Term Definition
-  description: A crewed space station deployed on a periodic orbit in near-lunar space, serving as a transit hub for lunar landing missions. Typical deployment orbits include NRHO, L2 Halo, and DRO. Functions include logistics transfer, crew exchange, lunar tracking and communication, and deep-space mission staging. NASA's Gateway is a representative example.
+  title: "Lunar Orbital Space Station Explained | Term Definition"
+  description: "A crewed space station deployed on a periodic orbit in near-lunar space, serving as a transit hub for lunar landing missions. Typical deployment orbits include NRHO, L2 Halo, and DRO. Functions include logistics transfer, crew exchange, lunar tracking and communication, and deep-space mission staging. NASA's Gateway is a representative example."
   image: /logo.png
 permalink: /en/glossary/programs/lunar-orbital-space-station/
 ---

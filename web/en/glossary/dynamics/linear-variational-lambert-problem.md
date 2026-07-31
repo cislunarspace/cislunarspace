@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Variational Lambert Problem Explained | Term Definition
+  title: "Linear Variational Lambert Problem Explained | Term Definition"
   description: The variational Lambert problem that obtains the mapping from given position variations to velocity variations near a nominal orbit in first-order linear approx
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Variational Lambert Problem Explained | Term Definition
+  title: "Linear Variational Lambert Problem Explained | Term Definition"
   description: The variational Lambert problem that obtains the mapping from given position variations to velocity variations near a nominal orbit in first-order linear approx
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-variational-lambert-problem/

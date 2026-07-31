@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Keep-Out Zone, KOZ (KOZ) Explained | Term Definition
+  title: "Keep-Out Zone, KOZ (KOZ) Explained | Term Definition"
   description: A path constraint region during rendezvous approach that prevents the chaser from entering a hazardous zone around the target. Defined as a cone or sphere...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Keep-Out Zone, KOZ (KOZ) Explained | Term Definition
+  title: "Keep-Out Zone, KOZ (KOZ) Explained | Term Definition"
   description: A path constraint region during rendezvous approach that prevents the chaser from entering a hazardous zone around the target. Defined as a cone or sphere...
   image: /logo.png
 permalink: /en/glossary/navigation/keep-out-zone-koz/

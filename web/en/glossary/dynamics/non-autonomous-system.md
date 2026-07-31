@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Autonomous System Explained | Term Definition
+  title: "Non-Autonomous System Explained | Term Definition"
   description: A system whose equations of motion explicitly depend on time; the effective potential varies with time, so no Jacobi integral exists.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Autonomous System Explained | Term Definition
+  title: "Non-Autonomous System Explained | Term Definition"
   description: A system whose equations of motion explicitly depend on time; the effective potential varies with time, so no Jacobi integral exists.
   image: /logo.png
 permalink: /en/glossary/dynamics/non-autonomous-system/

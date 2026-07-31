@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Smoothed Trajectory Explained | Term Definition
+  title: "Smoothed Trajectory Explained | Term Definition"
   description: A continuous trajectory in the ephemeris model obtained by applying multiple shooting corrections to an optimal trajectory originally computed in the CR3BP, sat
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Smoothed Trajectory Explained | Term Definition
+  title: "Smoothed Trajectory Explained | Term Definition"
   description: A continuous trajectory in the ephemeris model obtained by applying multiple shooting corrections to an optimal trajectory originally computed in the CR3BP, sat
   image: /logo.png
 permalink: /en/glossary/orbits/smoothed-trajectory/

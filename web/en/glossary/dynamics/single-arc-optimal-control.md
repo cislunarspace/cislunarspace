@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single-arc Optimal Control Explained | Term Definition
+  title: "Single-arc Optimal Control Explained | Term Definition"
   description: Optimal control problem where the transfer trajectory is treated as a single continuous arc.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single-arc Optimal Control Explained | Term Definition
+  title: "Single-arc Optimal Control Explained | Term Definition"
   description: Optimal control problem where the transfer trajectory is treated as a single continuous arc.
   image: /logo.png
 permalink: /en/glossary/dynamics/single-arc-optimal-control/

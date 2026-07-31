@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Aerodynamic Coefficient | Terminology Definition
+  title: "Aerodynamic Coefficient | Terminology Definition"
   description: A detailed analysis of drag coefficient, lift coefficient, and side force coefficient definitions and their application in aerodynamic calculations
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Aerodynamic Coefficient | Terminology Definition
+  title: "Aerodynamic Coefficient | Terminology Definition"
   description: A detailed analysis of drag coefficient, lift coefficient, and side force coefficient definitions and their application in aerodynamic calculations
   image: /logo.png
 permalink: /en/glossary/fundamentals/aerodynamic-coefficient/

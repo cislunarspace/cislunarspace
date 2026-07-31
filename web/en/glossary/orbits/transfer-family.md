@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Family Explained | Term Definition
+  title: "Transfer Family Explained | Term Definition"
   description: "A set of transfer trajectories sharing similar dynamical characteristics. For distant retrograde orbit design, transfer families are produced systematically via numerical continuation: starting from one transfer solution, the family is extended by varying the Jacobi constant, parking-orbit altitude, or insertion point. Each family corresponds to a distinct unstable Earth-return periodic orbit."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Family Explained | Term Definition
+  title: "Transfer Family Explained | Term Definition"
   description: "A set of transfer trajectories sharing similar dynamical characteristics. For distant retrograde orbit design, transfer families are produced systematically via numerical continuation: starting from one transfer solution, the family is extended by varying the Jacobi constant, parking-orbit altitude, or insertion point. Each family corresponds to a distinct unstable Earth-return periodic orbit."
   image: /logo.png
 permalink: /en/glossary/orbits/transfer-family/

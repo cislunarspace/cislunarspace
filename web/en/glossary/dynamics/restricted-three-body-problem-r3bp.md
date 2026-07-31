@@ -1,6 +1,6 @@
 ---
 title: Restricted Three-Body Problem, R3BP
-description: A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by both primaries but does not affect their...
+description: "A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by both primaries but does not affect their..."
 keywords: Restricted Three-Body Problem, R3BP, R3BP
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Restricted Three-Body Problem, R3BP Explained | Term Definition
-  description: A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by both primaries but does not affect their...
+  title: "Restricted Three-Body Problem, R3BP Explained | Term Definition"
+  description: "A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by both primaries but does not affect their..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Restricted Three-Body Problem, R3BP Explained | Term Definition
-  description: A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by both primaries but does not affect their...
+  title: "Restricted Three-Body Problem, R3BP Explained | Term Definition"
+  description: "A simplified model of the three-body problem: two massive primaries move under mutual gravitation, while a third massless body (spacecraft) is acted upon by both primaries but does not affect their..."
   image: /logo.png
 permalink: /en/glossary/dynamics/restricted-three-body-problem-r3bp/
 ---

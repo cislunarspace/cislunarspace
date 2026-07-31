@@ -1,6 +1,6 @@
 ---
 title: Projection Functional
-description: The component in the Theory of Functional Connections that projects constraint conditions into the solution space. Through cooperation with switching functions, it analytically 'embeds' boundary const...
+description: "The component in the Theory of Functional Connections that projects constraint conditions into the solution space. Through cooperation with switching functions, it analytically 'embeds' boundary const..."
 keywords: Projection Functional, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Projection Functional Explained | Term Definition
-  description: The component in the Theory of Functional Connections that projects constraint conditions into the solution space. Through cooperation with switching functions, it analytically 'embeds' boundary const...
+  title: "Projection Functional Explained | Term Definition"
+  description: "The component in the Theory of Functional Connections that projects constraint conditions into the solution space. Through cooperation with switching functions, it analytically 'embeds' boundary const..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Projection Functional Explained | Term Definition
-  description: The component in the Theory of Functional Connections that projects constraint conditions into the solution space. Through cooperation with switching functions, it analytically 'embeds' boundary const...
+  title: "Projection Functional Explained | Term Definition"
+  description: "The component in the Theory of Functional Connections that projects constraint conditions into the solution space. Through cooperation with switching functions, it analytically 'embeds' boundary const..."
   image: /logo.png
 permalink: /en/glossary/dynamics/projection-functional/
 ---

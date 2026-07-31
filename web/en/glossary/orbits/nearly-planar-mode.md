@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nearly Planar Mode Explained | Term Definition
+  title: "Nearly Planar Mode Explained | Term Definition"
   description: A phase during quasi-periodic orbital motion when the z-amplitude is near zero. In this mode, the orbit lies approximately in the plane connecting the two pr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nearly Planar Mode Explained | Term Definition
+  title: "Nearly Planar Mode Explained | Term Definition"
   description: A phase during quasi-periodic orbital motion when the z-amplitude is near zero. In this mode, the orbit lies approximately in the plane connecting the two pr...
   image: /logo.png
 permalink: /en/glossary/orbits/nearly-planar-mode/

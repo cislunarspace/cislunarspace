@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Surface Coverage Percentage Explained | Term Definition
+  title: "Surface Coverage Percentage Explained | Term Definition"
   description: The percentage of lunar surface area that is continuously covered by at least one communication/navigation satellite (single coverage). It is calculated by discretizing the lunar surface into a grid and statistically computing the proportion of grid points with 100% Continuous Coverage Time Percentage (CTP).
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Surface Coverage Percentage Explained | Term Definition
+  title: "Surface Coverage Percentage Explained | Term Definition"
   description: The percentage of lunar surface area that is continuously covered by at least one communication/navigation satellite (single coverage). It is calculated by discretizing the lunar surface into a grid and statistically computing the proportion of grid points with 100% Continuous Coverage Time Percentage (CTP).
   image: /logo.png
 permalink: /en/glossary/observation/surface-coverage-percentage-scp/

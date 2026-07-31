@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar research frontiers, terminology, and tools.
   image: /logo.png
 og:
-  title: Action-Angle Variables | Integrability of Hamiltonian Systems
+  title: "Action-Angle Variables | Integrability of Hamiltonian Systems"
   description: A detailed explanation of the definition of action-angle variables, their role in integrable Hamiltonian systems, and their specific application in characterizing cislunar libration point orbit parameters
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Action-Angle Variables | Integrability of Hamiltonian Systems
+  title: "Action-Angle Variables | Integrability of Hamiltonian Systems"
   description: A detailed explanation of the definition of action-angle variables, their role in integrable Hamiltonian systems, and their specific application in characterizing cislunar libration point orbit parameters
   image: /logo.png
 permalink: /en/glossary/dynamics/action-angle/

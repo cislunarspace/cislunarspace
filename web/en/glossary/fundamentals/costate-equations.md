@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Costate Equations Explained | Term Definition
+  title: "Costate Equations Explained | Term Definition"
   description: A system of first-order ordinary differential equations for the costate variables, derived from the Pontryagin Maximum Principle. They describe how costates ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Costate Equations Explained | Term Definition
+  title: "Costate Equations Explained | Term Definition"
   description: A system of first-order ordinary differential equations for the costate variables, derived from the Pontryagin Maximum Principle. They describe how costates ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/costate-equations/

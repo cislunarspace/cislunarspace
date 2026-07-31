@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold-Jump Transfer Explained | Term Definition
+  title: "Manifold-Jump Transfer Explained | Term Definition"
   description: A transfer strategy in which a small maneuver shifts a spacecraft from the vicinity of one invariant manifold to another, combining multiple manifold arcs into a trajectory that meets mission constrai
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold-Jump Transfer Explained | Term Definition
+  title: "Manifold-Jump Transfer Explained | Term Definition"
   description: A transfer strategy in which a small maneuver shifts a spacecraft from the vicinity of one invariant manifold to another, combining multiple manifold arcs into a trajectory that meets mission constrai
   image: /logo.png
 permalink: /en/glossary/orbits/manifold-jump-transfer/

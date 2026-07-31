@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: International Geomagnetic Reference Field Explained | Term Definition
+  title: "International Geomagnetic Reference Field Explained | Term Definition"
   description: "The worldwide standard model describing Earth's main magnetic field and its secular variation, updated at five-year intervals."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: International Geomagnetic Reference Field Explained | Term Definition
+  title: "International Geomagnetic Reference Field Explained | Term Definition"
   description: "The worldwide standard model describing Earth's main magnetic field and its secular variation, updated at five-year intervals."
   image: /logo.png
 permalink: /en/glossary/fundamentals/international-geomagnetic-reference-field/

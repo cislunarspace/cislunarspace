@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Energy Transfer Gateway Explained | Term Definition
+  title: "Low-Energy Transfer Gateway Explained | Term Definition"
   description: 弱稳定边界转移中，转移轨道与DRO捕获轨道在DRO捕获投影面上实现机械能匹配的交汇区域。是实现低能DRO插入的几何与能量条件。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Energy Transfer Gateway Explained | Term Definition
+  title: "Low-Energy Transfer Gateway Explained | Term Definition"
   description: 弱稳定边界转移中，转移轨道与DRO捕获轨道在DRO捕获投影面上实现机械能匹配的交汇区域。是实现低能DRO插入的几何与能量条件。
   image: /logo.png
 permalink: /en/glossary/dynamics/low-energy-transfer-gateway/

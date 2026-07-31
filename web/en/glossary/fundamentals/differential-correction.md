@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Correction Explained | Term Definition
+  title: "Differential Correction Explained | Term Definition"
   description: An iterative trajectory correction algorithm that linearizes the objective function via Taylor series expansion and corrects design variables using the inverse 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Correction Explained | Term Definition
+  title: "Differential Correction Explained | Term Definition"
   description: An iterative trajectory correction algorithm that linearizes the objective function via Taylor series expansion and corrects design variables using the inverse 
   image: /logo.png
 permalink: /en/glossary/fundamentals/differential-correction/

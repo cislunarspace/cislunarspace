@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Insertion Impulse Explained | Term Definition
+  title: "Insertion Impulse Explained | Term Definition"
   description: Final impulse applied at DRO insertion, combining with departure impulse to form total velocity increment; in Pareto front solutions, it decreases from 98.5 m/s
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Insertion Impulse Explained | Term Definition
+  title: "Insertion Impulse Explained | Term Definition"
   description: Final impulse applied at DRO insertion, combining with departure impulse to form total velocity increment; in Pareto front solutions, it decreases from 98.5 m/s
   image: /logo.png
 permalink: /en/glossary/dynamics/Insertion-Impulse/

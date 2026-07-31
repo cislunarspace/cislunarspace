@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Separatrix Explained | Term Definition
+  title: "Separatrix Explained | Term Definition"
   description: "In the planar CR3BP, the manifold tube surface separates two types of motion: transit orbits that pass through the tube interior and connect regions on opposite"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Separatrix Explained | Term Definition
+  title: "Separatrix Explained | Term Definition"
   description: "In the planar CR3BP, the manifold tube surface separates two types of motion: transit orbits that pass through the tube interior and connect regions on opposite"
   image: /logo.png
 permalink: /en/glossary/dynamics/separatrix/

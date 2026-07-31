@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Dependent Riccati Equation, SDRE (SDRE) Explained | Term Definition
+  title: "State Dependent Riccati Equation, SDRE (SDRE) Explained | Term Definition"
   description: A nonlinear optimal control method that converts the infinite-horizon quadratic cost function into an algebraic Riccati equation at each time instant via SDC pa
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Dependent Riccati Equation, SDRE (SDRE) Explained | Term Definition
+  title: "State Dependent Riccati Equation, SDRE (SDRE) Explained | Term Definition"
   description: A nonlinear optimal control method that converts the infinite-horizon quadratic cost function into an algebraic Riccati equation at each time instant via SDC pa
   image: /logo.png
 permalink: /en/glossary/dynamics/state-dependent-riccati-equation-sdre/

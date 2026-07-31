@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar South Pole Coverage Orbit Explained | Term Definition
+  title: "Lunar South Pole Coverage Orbit Explained | Term Definition"
   description: An orbit that provides continuous coverage of the lunar south pole region; certain L1 or L2 halo orbit family members maintain line-of-sight with the lunar south pole over most of the orbital period.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar South Pole Coverage Orbit Explained | Term Definition
+  title: "Lunar South Pole Coverage Orbit Explained | Term Definition"
   description: An orbit that provides continuous coverage of the lunar south pole region; certain L1 or L2 halo orbit family members maintain line-of-sight with the lunar south pole over most of the orbital period.
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-south-pole-coverage-orbit/

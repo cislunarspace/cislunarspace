@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Free-variable Constraint Explained | Term Definition
+  title: "Free-variable Constraint Explained | Term Definition"
   description: A constraint formulation in multiple shooting where a free variable vector and a constraint vector are defined to achieve a continuous trajectory.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free-variable Constraint Explained | Term Definition
+  title: "Free-variable Constraint Explained | Term Definition"
   description: A constraint formulation in multiple shooting where a free variable vector and a constraint vector are defined to achieve a continuous trajectory.
   image: /logo.png
 permalink: /en/glossary/dynamics/free-variable-constraint/

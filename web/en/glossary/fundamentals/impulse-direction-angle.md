@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Impulse Direction Angle Explained | Term Definition
+  title: "Impulse Direction Angle Explained | Term Definition"
   description: "The angle between the impulse thrust direction and the perpendicular to the radial vector. In Lawden's optimal transfer theory, this angle together with impulse magnitude determines the post-maneuver orbital parameters. Optimal transfers require impulses at apses perpendicular to the radius (zero direction angle) to maximize thrust contribution to velocity."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Impulse Direction Angle Explained | Term Definition
+  title: "Impulse Direction Angle Explained | Term Definition"
   description: "The angle between the impulse thrust direction and the perpendicular to the radial vector. In Lawden's optimal transfer theory, this angle together with impulse magnitude determines the post-maneuver orbital parameters. Optimal transfers require impulses at apses perpendicular to the radius (zero direction angle) to maximize thrust contribution to velocity."
   image: /logo.png
 permalink: /en/glossary/fundamentals/impulse-direction-angle/

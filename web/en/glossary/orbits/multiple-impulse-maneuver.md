@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multiple Impulse Maneuver Explained | Term Definition
+  title: "Multiple Impulse Maneuver Explained | Term Definition"
   description: An orbital transfer maneuver with multiple velocity impulses applied during flight.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multiple Impulse Maneuver Explained | Term Definition
+  title: "Multiple Impulse Maneuver Explained | Term Definition"
   description: An orbital transfer maneuver with multiple velocity impulses applied during flight.
   image: /logo.png
 permalink: /en/glossary/orbits/multiple-impulse-maneuver/

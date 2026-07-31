@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GNSS Sidelobe Signal Navigation Explained | Term Definition
+  title: "GNSS Sidelobe Signal Navigation Explained | Term Definition"
   description: A technique using sidelobe radiation signals from navigation satellite antennas to provide navigation services for high-orbit spacecraft. GNSS main lobe sign...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GNSS Sidelobe Signal Navigation Explained | Term Definition
+  title: "GNSS Sidelobe Signal Navigation Explained | Term Definition"
   description: A technique using sidelobe radiation signals from navigation satellite antennas to provide navigation services for high-orbit spacecraft. GNSS main lobe sign...
   image: /logo.png
 permalink: /en/glossary/navigation/gnss-sidelobe-signal-navigation/

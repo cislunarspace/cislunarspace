@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Autonomous Fault Detection and Isolation Explained | Term Definition
+  title: "Autonomous Fault Detection and Isolation Explained | Term Definition"
   description: A technology enabling spacecraft to autonomously identify navigation system fault patterns in orbit and implement isolation and recovery. The paper notes tha...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Autonomous Fault Detection and Isolation Explained | Term Definition
+  title: "Autonomous Fault Detection and Isolation Explained | Term Definition"
   description: A technology enabling spacecraft to autonomously identify navigation system fault patterns in orbit and implement isolation and recovery. The paper notes tha...
   image: /logo.png
 permalink: /en/glossary/navigation/autonomous-fault-detection-and-isolation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pendulous Integrating Gyro Assembly Explained | Term Definition
+  title: "Pendulous Integrating Gyro Assembly Explained | Term Definition"
   description: Gyroscopic device using pendulous integrating principle to measure thrust acceleration, with output proportional to velocity-to-be-gained components; key sensor in Q system guidance.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pendulous Integrating Gyro Assembly Explained | Term Definition
+  title: "Pendulous Integrating Gyro Assembly Explained | Term Definition"
   description: Gyroscopic device using pendulous integrating principle to measure thrust acceleration, with output proportional to velocity-to-be-gained components; key sensor in Q system guidance.
   image: /logo.png
 permalink: /en/glossary/dynamics/pendulous-integrating-gyro-assembly/

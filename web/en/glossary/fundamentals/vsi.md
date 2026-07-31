@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variable-specific-impulse engine Explained | Term Definition
+  title: "Variable-specific-impulse engine Explained | Term Definition"
   description: Also called power-limited engine. An electric propulsion engine with adjustable thrust and exhaust velocity, with a separate power source (e.g., solar panels) b
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variable-specific-impulse engine Explained | Term Definition
+  title: "Variable-specific-impulse engine Explained | Term Definition"
   description: Also called power-limited engine. An electric propulsion engine with adjustable thrust and exhaust velocity, with a separate power source (e.g., solar panels) b
   image: /logo.png
 permalink: /en/glossary/fundamentals/vsi/

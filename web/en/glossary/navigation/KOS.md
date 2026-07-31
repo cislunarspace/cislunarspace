@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Keep Out Sphere, KOS Explained | Term Definition
+  title: "Keep Out Sphere, KOS Explained | Term Definition"
   description: The innermost safety sphere centered on the target with radius typically 200 m, which the chaser must never enter to avoid collision.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Keep Out Sphere, KOS Explained | Term Definition
+  title: "Keep Out Sphere, KOS Explained | Term Definition"
   description: The innermost safety sphere centered on the target with radius typically 200 m, which the chaser must never enter to avoid collision.
   image: /logo.png
 permalink: /en/glossary/navigation/KOS/

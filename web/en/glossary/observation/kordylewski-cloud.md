@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kordylewski Cloud Explained | Term Definition
+  title: "Kordylewski Cloud Explained | Term Definition"
   description: Dust clouds concentrated near the triangular Lagrange points (L4, L5) of the Earth-Moon system, first reported by Polish astronomer Kordylewski in 1961. These c
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kordylewski Cloud Explained | Term Definition
+  title: "Kordylewski Cloud Explained | Term Definition"
   description: Dust clouds concentrated near the triangular Lagrange points (L4, L5) of the Earth-Moon system, first reported by Polish astronomer Kordylewski in 1961. These c
   image: /logo.png
 permalink: /en/glossary/observation/kordylewski-cloud/

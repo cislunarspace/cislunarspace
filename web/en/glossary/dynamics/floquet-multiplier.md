@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Floquet Multiplier Explained | Term Definition
+  title: "Floquet Multiplier Explained | Term Definition"
   description: "Eigenvalues of the monodromy matrix of a periodic orbit's linearized system. For typical unstable periodic orbits near collinear libration points, there are six eigenvalues: a real pair (mu1 > 1 and m"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Floquet Multiplier Explained | Term Definition
+  title: "Floquet Multiplier Explained | Term Definition"
   description: "Eigenvalues of the monodromy matrix of a periodic orbit's linearized system. For typical unstable periodic orbits near collinear libration points, there are six eigenvalues: a real pair (mu1 > 1 and m"
   image: /logo.png
 permalink: /en/glossary/dynamics/floquet-multiplier/

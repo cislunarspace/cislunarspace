@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Positively Invariant Constraint Admissible Set Explained | Term Definition
+  title: "Positively Invariant Constraint Admissible Set Explained | Term Definition"
   description: Maximum invariant set maintained by spacecraft under constraints, used for constraint-satisfying maneuver planning
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Positively Invariant Constraint Admissible Set Explained | Term Definition
+  title: "Positively Invariant Constraint Admissible Set Explained | Term Definition"
   description: Maximum invariant set maintained by spacecraft under constraints, used for constraint-satisfying maneuver planning
   image: /logo.png
 permalink: /en/glossary/dynamics/positively-invariant-constraint-admissible-set/

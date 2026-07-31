@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Six-DOF Motion Equations | Airship Dynamics
+  title: "Six-DOF Motion Equations | Airship Dynamics"
   description: A detailed analysis of six-degree-of-freedom motion equations for stratospheric airships, Newton-Euler equation derivation, and numerical solution methods
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Six-DOF Motion Equations | Airship Dynamics
+  title: "Six-DOF Motion Equations | Airship Dynamics"
   description: A detailed analysis of six-degree-of-freedom motion equations for stratospheric airships, Newton-Euler equation derivation, and numerical solution methods
   image: /logo.png
 permalink: /en/glossary/dynamics/six-dof-motion-equations/

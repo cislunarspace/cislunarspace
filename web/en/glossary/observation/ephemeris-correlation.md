@@ -1,7 +1,7 @@
 ---
 title: Ephemeris Correlation
 description: Ephemeris correlation is the process of matching observed candidate target positions against known spacecraft ephemeris data to confirm target identity
-keywords: Ephemeris Correlation, Orbit Determination, Chang'e-6, Residual Analysis, Cislunar Space, Target Identification, Spacecraft Ephemeris
+keywords: "Ephemeris Correlation, Orbit Determination, Chang'e-6, Residual Analysis, Cislunar Space, Target Identification, Spacecraft Ephemeris"
 author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Ephemeris Correlation Details | Target Identification via Ephemeris Matching
+  title: "Ephemeris Correlation Details | Target Identification via Ephemeris Matching"
   description: Ephemeris correlation is the process of matching observed candidate target positions against known spacecraft ephemeris data to confirm target identity
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ephemeris Correlation Details | Target Identification via Ephemeris Matching
+  title: "Ephemeris Correlation Details | Target Identification via Ephemeris Matching"
   description: Ephemeris correlation is the process of matching observed candidate target positions against known spacecraft ephemeris data to confirm target identity
   image: /logo.png
 permalink: /en/glossary/observation/ephemeris-correlation/

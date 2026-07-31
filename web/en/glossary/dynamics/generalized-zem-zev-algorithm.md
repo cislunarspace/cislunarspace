@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Generalized ZEM/ZEV Algorithm Explained | Term Definition
+  title: "Generalized ZEM/ZEV Algorithm Explained | Term Definition"
   description: An extended form of ZEM/ZEV guidance that replaces the fixed gain coefficients (KR=6, KV=-2) in the classical guidance law with variable gains KR and KV, to adapt to complex dynamic environments such ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Generalized ZEM/ZEV Algorithm Explained | Term Definition
+  title: "Generalized ZEM/ZEV Algorithm Explained | Term Definition"
   description: An extended form of ZEM/ZEV guidance that replaces the fixed gain coefficients (KR=6, KV=-2) in the classical guidance law with variable gains KR and KV, to adapt to complex dynamic environments such ...
   image: /logo.png
 permalink: /en/glossary/dynamics/generalized-zem-zev-algorithm/

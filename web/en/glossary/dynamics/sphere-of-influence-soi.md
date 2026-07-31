@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sphere of Influence (SOI) Explained | Term Definition
+  title: "Sphere of Influence (SOI) Explained | Term Definition"
   description: "A spherical region centered on a celestial body within which its gravitational influence dominates spacecraft motion. The Moon's SOI in the Earth-Moon system has a radius of approximately 66,000 km."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sphere of Influence (SOI) Explained | Term Definition
+  title: "Sphere of Influence (SOI) Explained | Term Definition"
   description: "A spherical region centered on a celestial body within which its gravitational influence dominates spacecraft motion. The Moon's SOI in the Earth-Moon system has a radius of approximately 66,000 km."
   image: /logo.png
 permalink: /en/glossary/dynamics/sphere-of-influence-soi/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parabolic Region Explained | Term Definition
+  title: "Parabolic Region Explained | Term Definition"
   description: Region of the initial costate locus where S≤1, corresponding to low-thrust transfers of less than approximately one-quarter revolution, solvable analytically un
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parabolic Region Explained | Term Definition
+  title: "Parabolic Region Explained | Term Definition"
   description: Region of the initial costate locus where S≤1, corresponding to low-thrust transfers of less than approximately one-quarter revolution, solvable analytically un
   image: /logo.png
 permalink: /en/glossary/dynamics/parabolic-region/

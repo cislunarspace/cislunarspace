@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Active Disturbance Rejection Control, LADRC Explained | Term Definition
+  title: "Linear Active Disturbance Rejection Control, LADRC Explained | Term Definition"
   description: A linearized form of active disturbance rejection control. It uses a linear extended state observer to estimate total system disturbance (including unmodeled...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Active Disturbance Rejection Control, LADRC Explained | Term Definition
+  title: "Linear Active Disturbance Rejection Control, LADRC Explained | Term Definition"
   description: A linearized form of active disturbance rejection control. It uses a linear extended state observer to estimate total system disturbance (including unmodeled...
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-active-disturbance-rejection-control-ladrc/

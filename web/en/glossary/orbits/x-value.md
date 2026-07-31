@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "x₀ Value" Explained | Term Definition
+  title: "\"x₀ Value\" Explained | Term Definition"
   description: "A key parameter identifying a halo orbit, defined as the x-coordinate of the halo orbit at the positive z-plane crossing in the Earth-Moon synodic coordinate system. Each halo orbit in a family can be uniquely specified by its x₀ value, which maps to the orbit's z-axis amplitude."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "x₀ Value" Explained | Term Definition
+  title: "\"x₀ Value\" Explained | Term Definition"
   description: "A key parameter identifying a halo orbit, defined as the x-coordinate of the halo orbit at the positive z-plane crossing in the Earth-Moon synodic coordinate system. Each halo orbit in a family can be uniquely specified by its x₀ value, which maps to the orbit's z-axis amplitude."
   image: /logo.png
 permalink: /en/glossary/orbits/x-value/

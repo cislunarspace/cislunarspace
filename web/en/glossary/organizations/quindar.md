@@ -1,6 +1,6 @@
 ---
 title: Quindar
-description: Introduction to Quindar's space telemetry, tracking, and communications infrastructure, and its potential applications in cislunar space communications
+description: "Introduction to Quindar's space telemetry, tracking, and communications infrastructure, and its potential applications in cislunar space communications"
 keywords: Quindar, telemetry, tracking, satellite communications, ground station, cislunar communications
 author: Tianjiang Shuo
 date: 2026-04-26
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Quindar
-  description: Introduction to Quindar's space telemetry, tracking, and communications business
+  description: "Introduction to Quindar's space telemetry, tracking, and communications business"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Quindar
-  description: Introduction to Quindar's space telemetry, tracking, and communications business
+  description: "Introduction to Quindar's space telemetry, tracking, and communications business"
   image: /logo.png
 permalink: /en/glossary/organizations/quindar/
 ---

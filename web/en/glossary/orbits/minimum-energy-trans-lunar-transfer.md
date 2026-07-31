@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum Energy Trans-lunar Transfer Explained | Term Definition
+  title: "Minimum Energy Trans-lunar Transfer Explained | Term Definition"
   description: Trans-lunar transfer with minimum energy consumption, achieved via LL2 point or halo orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Energy Trans-lunar Transfer Explained | Term Definition
+  title: "Minimum Energy Trans-lunar Transfer Explained | Term Definition"
   description: Trans-lunar transfer with minimum energy consumption, achieved via LL2 point or halo orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/minimum-energy-trans-lunar-transfer/

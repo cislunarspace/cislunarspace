@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eigenvector Explained | Term Definition
+  title: "Eigenvector Explained | Term Definition"
   description: A fundamental linear algebra concept. In libration point orbit dynamics, eigenvectors of the monodromy matrix indicate the initial perturbation direction of ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eigenvector Explained | Term Definition
+  title: "Eigenvector Explained | Term Definition"
   description: A fundamental linear algebra concept. In libration point orbit dynamics, eigenvectors of the monodromy matrix indicate the initial perturbation direction of ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/eigenvector/

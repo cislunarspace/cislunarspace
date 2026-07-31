@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Celestial Reference System Explained | Term Definition
+  title: "Barycentric Celestial Reference System Explained | Term Definition"
   description: A space-time reference system with its origin at the solar system barycenter, used to describe spacecraft position and velocity in cislunar inter-satellite link
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Celestial Reference System Explained | Term Definition
+  title: "Barycentric Celestial Reference System Explained | Term Definition"
   description: A space-time reference system with its origin at the solar system barycenter, used to describe spacecraft position and velocity in cislunar inter-satellite link
   image: /logo.png
 permalink: /en/glossary/fundamentals/BCRS/

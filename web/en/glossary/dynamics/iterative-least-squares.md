@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Iterative Least-Squares Explained | Term Definition
+  title: "Iterative Least-Squares Explained | Term Definition"
   description: A numerical method that converges to solutions of nonlinear differential equations by iteratively solving least-squares problems; used within the TFC framewo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Iterative Least-Squares Explained | Term Definition
+  title: "Iterative Least-Squares Explained | Term Definition"
   description: A numerical method that converges to solutions of nonlinear differential equations by iteratively solving least-squares problems; used within the TFC framewo...
   image: /logo.png
 permalink: /en/glossary/dynamics/iterative-least-squares/

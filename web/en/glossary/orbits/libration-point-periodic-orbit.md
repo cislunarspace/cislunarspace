@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point Periodic Orbit Explained | Term Definition
+  title: "Libration Point Periodic Orbit Explained | Term Definition"
   description: "A periodic orbit around a collinear or triangular libration point in the CR3BP. Periodic orbits near collinear libration points have a saddle-center stability structure: the periodic component generates the orbit, while stable and unstable manifolds provide zero-cost entry and exit channels. In the non-autonomous B4BP, libration points are replaced by periodic orbits."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Periodic Orbit Explained | Term Definition
+  title: "Libration Point Periodic Orbit Explained | Term Definition"
   description: "A periodic orbit around a collinear or triangular libration point in the CR3BP. Periodic orbits near collinear libration points have a saddle-center stability structure: the periodic component generates the orbit, while stable and unstable manifolds provide zero-cost entry and exit channels. In the non-autonomous B4BP, libration points are replaced by periodic orbits."
   image: /logo.png
 permalink: /en/glossary/orbits/libration-point-periodic-orbit/

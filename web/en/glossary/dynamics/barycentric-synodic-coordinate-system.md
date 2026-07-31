@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Synodic Coordinate System Explained | Term Definition
+  title: "Barycentric Synodic Coordinate System Explained | Term Definition"
   description: A rotating coordinate system with origin at the Earth-Moon barycenter, x-axis pointing from Earth to Moon, and z-axis in the direction of angular velocity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Synodic Coordinate System Explained | Term Definition
+  title: "Barycentric Synodic Coordinate System Explained | Term Definition"
   description: A rotating coordinate system with origin at the Earth-Moon barycenter, x-axis pointing from Earth to Moon, and z-axis in the direction of angular velocity.
   image: /logo.png
 permalink: /en/glossary/dynamics/barycentric-synodic-coordinate-system/

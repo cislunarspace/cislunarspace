@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Southern Family Explained | Term Definition
+  title: "Halo Southern Family Explained | Term Definition"
   description: Southern families of halo orbits around Earth-Moon L1 and L2 collinear libration points, featuring prolonged permanence in the southern hemisphere of the Moo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Southern Family Explained | Term Definition
+  title: "Halo Southern Family Explained | Term Definition"
   description: Southern families of halo orbits around Earth-Moon L1 and L2 collinear libration points, featuring prolonged permanence in the southern hemisphere of the Moo...
   image: /logo.png
 permalink: /en/glossary/orbits/halo-southern-family/

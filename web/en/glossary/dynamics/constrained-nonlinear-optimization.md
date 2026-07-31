@@ -1,6 +1,6 @@
 ---
 title: Constrained Nonlinear Optimization
-description: Nonlinear optimization methods that find optimal solutions under given constraints. MATLAB's fmincon is used in this paper to optimize direct transfer trajector
+description: "Nonlinear optimization methods that find optimal solutions under given constraints. MATLAB's fmincon is used in this paper to optimize direct transfer trajector"
 keywords: Constrained Nonlinear Optimization
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Constrained Nonlinear Optimization Explained | Term Definition
-  description: Nonlinear optimization methods that find optimal solutions under given constraints. MATLAB's fmincon is used in this paper to optimize direct transfer trajector
+  title: "Constrained Nonlinear Optimization Explained | Term Definition"
+  description: "Nonlinear optimization methods that find optimal solutions under given constraints. MATLAB's fmincon is used in this paper to optimize direct transfer trajector"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Constrained Nonlinear Optimization Explained | Term Definition
-  description: Nonlinear optimization methods that find optimal solutions under given constraints. MATLAB's fmincon is used in this paper to optimize direct transfer trajector
+  title: "Constrained Nonlinear Optimization Explained | Term Definition"
+  description: "Nonlinear optimization methods that find optimal solutions under given constraints. MATLAB's fmincon is used in this paper to optimize direct transfer trajector"
   image: /logo.png
 permalink: /en/glossary/dynamics/constrained-nonlinear-optimization/
 ---

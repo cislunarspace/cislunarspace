@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Particle Swarm Optimization, PSO Explained | Term Definition
+  title: "Particle Swarm Optimization, PSO Explained | Term Definition"
   description: A swarm-intelligence based stochastic optimization algorithm that simulates bird flock foraging behavior, where particles fly through the solution space and iteratively update their positions and velo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Particle Swarm Optimization, PSO Explained | Term Definition
+  title: "Particle Swarm Optimization, PSO Explained | Term Definition"
   description: A swarm-intelligence based stochastic optimization algorithm that simulates bird flock foraging behavior, where particles fly through the solution space and iteratively update their positions and velo
   image: /logo.png
 permalink: /en/glossary/dynamics/particle-swarm-optimization-pso/

@@ -1,6 +1,6 @@
 ---
 title: LL2 Point Transit
-description: The dynamical process achieving Earth-Moon transfer via LL2. Unlike LL1 transit, LL2 transit includes inner and outer transfers: inner is essentially LL1 transi
+description: "The dynamical process achieving Earth-Moon transfer via LL2. Unlike LL1 transit, LL2 transit includes inner and outer transfers: inner is essentially LL1 transi"
 keywords: LL2 Point Transit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LL2 Point Transit Explained | Term Definition
-  description: The dynamical process achieving Earth-Moon transfer via LL2. Unlike LL1 transit, LL2 transit includes inner and outer transfers: inner is essentially LL1 transi
+  title: "LL2 Point Transit Explained | Term Definition"
+  description: "The dynamical process achieving Earth-Moon transfer via LL2. Unlike LL1 transit, LL2 transit includes inner and outer transfers: inner is essentially LL1 transi"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LL2 Point Transit Explained | Term Definition
-  description: The dynamical process achieving Earth-Moon transfer via LL2. Unlike LL1 transit, LL2 transit includes inner and outer transfers: inner is essentially LL1 transi
+  title: "LL2 Point Transit Explained | Term Definition"
+  description: "The dynamical process achieving Earth-Moon transfer via LL2. Unlike LL1 transit, LL2 transit includes inner and outer transfers: inner is essentially LL1 transi"
   image: /logo.png
 permalink: /en/glossary/orbits/ll2-point-transit/
 ---

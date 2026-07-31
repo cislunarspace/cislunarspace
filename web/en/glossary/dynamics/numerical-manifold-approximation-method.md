@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Numerical Manifold Approximation Method Explained | Term Definition
+  title: "Numerical Manifold Approximation Method Explained | Term Definition"
   description: "A method that approximates invariant manifold state points using two-dimensional interpolation (e.g., bicubic convolution interpolation). By representing manifo"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Numerical Manifold Approximation Method Explained | Term Definition
+  title: "Numerical Manifold Approximation Method Explained | Term Definition"
   description: "A method that approximates invariant manifold state points using two-dimensional interpolation (e.g., bicubic convolution interpolation). By representing manifo"
   image: /logo.png
 permalink: /en/glossary/dynamics/numerical-manifold-approximation-method/

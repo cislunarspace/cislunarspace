@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lorentz Contraction Explained | Term Definition
+  title: "Lorentz Contraction Explained | Term Definition"
   description: A relativistic effect in GCRS-BCRS coordinate transformation arising from the different time definitions of the two frames, causing coordinate vectors to...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lorentz Contraction Explained | Term Definition
+  title: "Lorentz Contraction Explained | Term Definition"
   description: A relativistic effect in GCRS-BCRS coordinate transformation arising from the different time definitions of the two frames, causing coordinate vectors to...
   image: /logo.png
 permalink: /en/glossary/fundamentals/lorentz-contraction/

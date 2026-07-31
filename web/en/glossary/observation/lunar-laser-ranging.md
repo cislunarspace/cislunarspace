@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Laser Ranging Explained | Term Definition
+  title: "Lunar Laser Ranging Explained | Term Definition"
   description: A technique that precisely measures the Earth-Moon distance by transmitting laser pulses from ground stations to lunar surface reflectors and measuring the roun
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Laser Ranging Explained | Term Definition
+  title: "Lunar Laser Ranging Explained | Term Definition"
   description: A technique that precisely measures the Earth-Moon distance by transmitting laser pulses from ground stations to lunar surface reflectors and measuring the roun
   image: /logo.png
 permalink: /en/glossary/observation/lunar-laser-ranging/

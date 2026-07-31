@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inverse Polynomial Shape Function Explained | Term Definition
+  title: "Inverse Polynomial Shape Function Explained | Term Definition"
   description: A class of shape functions for low-thrust trajectory design. They describe the trajectory geometry using inverse polynomials (reciprocal forms of time polynomia
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inverse Polynomial Shape Function Explained | Term Definition
+  title: "Inverse Polynomial Shape Function Explained | Term Definition"
   description: A class of shape functions for low-thrust trajectory design. They describe the trajectory geometry using inverse polynomials (reciprocal forms of time polynomia
   image: /logo.png
 permalink: /en/glossary/dynamics/inverse-polynomial-shape-function/

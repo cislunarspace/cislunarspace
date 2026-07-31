@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Amplitude Explained | Term Definition
+  title: "Orbital Amplitude Explained | Term Definition"
   description: 周期轨道在轨道平面法向上的最大偏移量，记作Az。NRHO和Halo轨道的振幅决定其离月远近及对高纬度区域的覆盖能力。振幅越大，极区可见性越好。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Amplitude Explained | Term Definition
+  title: "Orbital Amplitude Explained | Term Definition"
   description: 周期轨道在轨道平面法向上的最大偏移量，记作Az。NRHO和Halo轨道的振幅决定其离月远近及对高纬度区域的覆盖能力。振幅越大，极区可见性越好。
   image: /logo.png
 permalink: /en/glossary/navigation/orbital-amplitude/

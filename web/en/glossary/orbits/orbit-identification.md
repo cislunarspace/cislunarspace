@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Orbit Identification | Cislunar Space Situational Awareness
+  title: "Orbit Identification | Cislunar Space Situational Awareness"
   description: Detailed explanation of orbit identification in cislunar space — identifying reference orbits from observed spacecraft state sequences using characteristic parameters
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Identification | Cislunar Space Situational Awareness
+  title: "Orbit Identification | Cislunar Space Situational Awareness"
   description: Detailed explanation of orbit identification in cislunar space — identifying reference orbits from observed spacecraft state sequences
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-identification/

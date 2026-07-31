@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geometric Argument of Periapsis (f) Explained | Term Definition
+  title: "Geometric Argument of Periapsis (f) Explained | Term Definition"
   description: "The angle in the orbital plane measuring the spacecraft's current position, measured from periapsis along the direction of motion to the current radius..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geometric Argument of Periapsis (f) Explained | Term Definition
+  title: "Geometric Argument of Periapsis (f) Explained | Term Definition"
   description: "The angle in the orbital plane measuring the spacecraft's current position, measured from periapsis along the direction of motion to the current radius..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/geometric-argument-of-periapsis/

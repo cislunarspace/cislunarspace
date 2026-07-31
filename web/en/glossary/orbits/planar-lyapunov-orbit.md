@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Lyapunov Orbit Explained | Term Definition
+  title: "Planar Lyapunov Orbit Explained | Term Definition"
   description: Planar periodic orbits around the collinear libration points (L1, L2, L3), confined to the xy-plane with zero z-component. They originate from the periodic s...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Lyapunov Orbit Explained | Term Definition
+  title: "Planar Lyapunov Orbit Explained | Term Definition"
   description: Planar periodic orbits around the collinear libration points (L1, L2, L3), confined to the xy-plane with zero z-component. They originate from the periodic s...
   image: /logo.png
 permalink: /en/glossary/orbits/planar-lyapunov-orbit/

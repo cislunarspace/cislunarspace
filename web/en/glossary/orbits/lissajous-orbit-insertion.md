@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lissajous Orbit Insertion Explained | Term Definition
+  title: "Lissajous Orbit Insertion Explained | Term Definition"
   description: A maneuver performed when a spacecraft reaches the vicinity of a libration point, transitioning it from the transfer trajectory into a Lissajous orbit around...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lissajous Orbit Insertion Explained | Term Definition
+  title: "Lissajous Orbit Insertion Explained | Term Definition"
   description: A maneuver performed when a spacecraft reaches the vicinity of a libration point, transitioning it from the transfer trajectory into a Lissajous orbit around...
   image: /logo.png
 permalink: /en/glossary/orbits/lissajous-orbit-insertion/

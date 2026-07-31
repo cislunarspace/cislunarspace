@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Damped Bisection Correction Explained | Term Definition
+  title: "Damped Bisection Correction Explained | Term Definition"
   description: A maneuver search algorithm for libration point orbit stationkeeping. When the differential correction iteration enters an erroneous region (integration reaches
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Damped Bisection Correction Explained | Term Definition
+  title: "Damped Bisection Correction Explained | Term Definition"
   description: A maneuver search algorithm for libration point orbit stationkeeping. When the differential correction iteration enters an erroneous region (integration reaches
   image: /logo.png
 permalink: /en/glossary/dynamics/damped-bisection-correction/

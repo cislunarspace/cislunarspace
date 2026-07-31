@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Demand Matrix Explained | Term Definition
+  title: "Demand Matrix Explained | Term Definition"
   description: A Boolean matrix that records whether each target exists at each time step, used to distinguish between static and dynamic demands.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Demand Matrix Explained | Term Definition
+  title: "Demand Matrix Explained | Term Definition"
   description: A Boolean matrix that records whether each target exists at each time step, used to distinguish between static and dynamic demands.
   image: /logo.png
 permalink: /en/glossary/observation/demand-matrix/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flow Function Construction Method Explained | Term Definition
+  title: "Flow Function Construction Method Explained | Term Definition"
   description: A novel method for computing periodic orbits by constructing flow functions using CRTBP symmetry, solving for intersections with the x-axis; can obtain numerica
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flow Function Construction Method Explained | Term Definition
+  title: "Flow Function Construction Method Explained | Term Definition"
   description: A novel method for computing periodic orbits by constructing flow functions using CRTBP symmetry, solving for intersections with the x-axis; can obtain numerica
   image: /logo.png
 permalink: /en/glossary/dynamics/flow-function-construction-method/

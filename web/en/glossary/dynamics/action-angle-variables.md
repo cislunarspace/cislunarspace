@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Action-Angle Variables Explained | Term Definition
+  title: "Action-Angle Variables Explained | Term Definition"
   description: A pair of canonically conjugate variables for completely integrable Hamiltonian systems. Action is conserved, angle variables vary uniformly in time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Action-Angle Variables Explained | Term Definition
+  title: "Action-Angle Variables Explained | Term Definition"
   description: A pair of canonically conjugate variables for completely integrable Hamiltonian systems. Action is conserved, angle variables vary uniformly in time.
   image: /logo.png
 permalink: /en/glossary/dynamics/action-angle-variables/

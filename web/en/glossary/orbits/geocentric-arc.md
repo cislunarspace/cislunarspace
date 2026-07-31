@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Arc Explained | Term Definition
+  title: "Geocentric Arc Explained | Term Definition"
   description: Orbit transfer arc dominated by Earth as the primary attracting body, propagated using Earth-centered modified equinoctial elements.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Arc Explained | Term Definition
+  title: "Geocentric Arc Explained | Term Definition"
   description: Orbit transfer arc dominated by Earth as the primary attracting body, propagated using Earth-centered modified equinoctial elements.
   image: /logo.png
 permalink: /en/glossary/orbits/geocentric-arc/

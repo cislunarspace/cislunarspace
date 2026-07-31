@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Beidou System Time, BDST Explained | Term Definition
+  title: "Beidou System Time, BDST Explained | Term Definition"
   description: The high-precision time reference of the Beidou satellite navigation system, used for external traceability and calibration of the CSNS constellation internal...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Beidou System Time, BDST Explained | Term Definition
+  title: "Beidou System Time, BDST Explained | Term Definition"
   description: The high-precision time reference of the Beidou satellite navigation system, used for external traceability and calibration of the CSNS constellation internal...
   image: /logo.png
 permalink: /en/glossary/navigation/BDST/

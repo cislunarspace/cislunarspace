@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Sidereal Tracking Explained | Cislunar Object Observation Mode
+  title: "Sidereal Tracking Explained | Cislunar Object Observation Mode"
   description: Sidereal Tracking is a telescope observation mode that tracks background stars as reference, suited for long-duration observations of cislunar objects governed by three-body dynamics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sidereal Tracking Explained | Cislunar Object Observation Mode
+  title: "Sidereal Tracking Explained | Cislunar Object Observation Mode"
   description: Sidereal Tracking is a telescope observation mode that tracks background stars as reference, suited for long-duration observations of cislunar objects governed by three-body dynamics.
   image: /logo.png
 permalink: /en/glossary/observation/sidereal-tracking/

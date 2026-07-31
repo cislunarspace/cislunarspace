@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Orbital Residence Platform Explained | Space Logistics Hub
-  description: Analysis of the Orbital Residence Platform's role in hub-and-spoke deployment architecture
+  title: "Orbital Residence Platform Explained | Space Logistics Hub"
+  description: "Analysis of the Orbital Residence Platform's role in hub-and-spoke deployment architecture"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Residence Platform Explained | Space Logistics Hub
-  description: Analysis of the Orbital Residence Platform's role in space logistics and satellite deployment
+  title: "Orbital Residence Platform Explained | Space Logistics Hub"
+  description: "Analysis of the Orbital Residence Platform's role in space logistics and satellite deployment"
   image: /logo.png
 permalink: /en/glossary/other/orbital-residence-platform/
 ---

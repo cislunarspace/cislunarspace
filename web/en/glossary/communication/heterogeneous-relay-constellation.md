@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heterogeneous Relay Constellation Explained | Term Definition
+  title: "Heterogeneous Relay Constellation Explained | Term Definition"
   description: Complementary-coverage relay constellation composed of ordinary circular orbit and Halo orbit satellites, compensating for the long coverage gaps of a single Ha
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heterogeneous Relay Constellation Explained | Term Definition
+  title: "Heterogeneous Relay Constellation Explained | Term Definition"
   description: Complementary-coverage relay constellation composed of ordinary circular orbit and Halo orbit satellites, compensating for the long coverage gaps of a single Ha
   image: /logo.png
 permalink: /en/glossary/communication/heterogeneous-relay-constellation/

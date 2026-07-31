@@ -1,6 +1,6 @@
 ---
 title: Relative Trajectory Following
-description: A stationkeeping algorithm concept for DRO formation flight: based on the target-point approach, correction impulses are applied at perilune. Using the state transition matrix to predict relative p...
+description: "A stationkeeping algorithm concept for DRO formation flight: based on the target-point approach, correction impulses are applied at perilune. Using the state transition matrix to predict relative p..."
 keywords: Relative Trajectory Following, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative Trajectory Following Explained | Term Definition
-  description: A stationkeeping algorithm concept for DRO formation flight: based on the target-point approach, correction impulses are applied at perilune. Using the state transition matrix to predict relative p...
+  title: "Relative Trajectory Following Explained | Term Definition"
+  description: "A stationkeeping algorithm concept for DRO formation flight: based on the target-point approach, correction impulses are applied at perilune. Using the state transition matrix to predict relative p..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative Trajectory Following Explained | Term Definition
-  description: A stationkeeping algorithm concept for DRO formation flight: based on the target-point approach, correction impulses are applied at perilune. Using the state transition matrix to predict relative p...
+  title: "Relative Trajectory Following Explained | Term Definition"
+  description: "A stationkeeping algorithm concept for DRO formation flight: based on the target-point approach, correction impulses are applied at perilune. Using the state transition matrix to predict relative p..."
   image: /logo.png
 permalink: /en/glossary/navigation/relative-trajectory-following/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L4 Planar Short-Period Orbit Explained | Term Definition
+  title: "L4 Planar Short-Period Orbit Explained | Term Definition"
   description: A short-period periodic orbit around the Earth-Moon L4 triangular libration point confined within the lunar orbital plane. Its short period and small deviation from the lunar plane make it useful for...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L4 Planar Short-Period Orbit Explained | Term Definition
+  title: "L4 Planar Short-Period Orbit Explained | Term Definition"
   description: A short-period periodic orbit around the Earth-Moon L4 triangular libration point confined within the lunar orbital plane. Its short period and small deviation from the lunar plane make it useful for...
   image: /logo.png
 permalink: /en/glossary/orbits/l4-planar-short-period-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Facility Location Problem Explained | Term Definition
+  title: "Facility Location Problem Explained | Term Definition"
   description: A class of mathematical programming frameworks in operations research for deciding the location of infrastructure assets and their assignments to clients.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Facility Location Problem Explained | Term Definition
+  title: "Facility Location Problem Explained | Term Definition"
   description: A class of mathematical programming frameworks in operations research for deciding the location of infrastructure assets and their assignments to clients.
   image: /logo.png
 permalink: /en/glossary/dynamics/facility-location-problem/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Access Time Explained | Term Definition
+  title: "Access Time Explained | Term Definition"
   description: The time interval during which a ground station or lunar facility maintains line-of-sight (unobstructed direct visibility) with a spacecraft. In constellation coverage analysis, access time percentage...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Access Time Explained | Term Definition
+  title: "Access Time Explained | Term Definition"
   description: The time interval during which a ground station or lunar facility maintains line-of-sight (unobstructed direct visibility) with a spacecraft. In constellation coverage analysis, access time percentage...
   image: /logo.png
 permalink: /en/glossary/observation/access-time/

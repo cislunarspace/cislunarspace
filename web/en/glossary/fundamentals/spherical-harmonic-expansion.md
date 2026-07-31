@@ -1,6 +1,6 @@
 ---
 title: Spherical Harmonic Expansion
-description: A mathematical method that expands a celestial body's gravitational potential as a series of spherical harmonic functions. Each term in the expansion has a c...
+description: "A mathematical method that expands a celestial body's gravitational potential as a series of spherical harmonic functions. Each term in the expansion has a c..."
 keywords: Spherical Harmonic Expansion
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spherical Harmonic Expansion Explained | Term Definition
-  description: A mathematical method that expands a celestial body's gravitational potential as a series of spherical harmonic functions. Each term in the expansion has a c...
+  title: "Spherical Harmonic Expansion Explained | Term Definition"
+  description: "A mathematical method that expands a celestial body's gravitational potential as a series of spherical harmonic functions. Each term in the expansion has a c..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spherical Harmonic Expansion Explained | Term Definition
-  description: A mathematical method that expands a celestial body's gravitational potential as a series of spherical harmonic functions. Each term in the expansion has a c...
+  title: "Spherical Harmonic Expansion Explained | Term Definition"
+  description: "A mathematical method that expands a celestial body's gravitational potential as a series of spherical harmonic functions. Each term in the expansion has a c..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/spherical-harmonic-expansion/
 ---

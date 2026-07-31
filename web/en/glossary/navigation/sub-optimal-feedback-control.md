@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sub-Optimal Feedback Control Explained | Term Definition
+  title: "Sub-Optimal Feedback Control Explained | Term Definition"
   description: A near-optimal control strategy for multi-revolution low-thrust transfers. Synthesized from numerical solutions of minimum-time low-thrust transfer problems between non-coplanar elliptical and circular orbits in a central gravity field, it expresses optimal thrust orientation angles (pitch and yaw) as lookup-table interpolation functions of osculating orbital elements (pericenter radius, apocenter radius, inclination). Near-optimal in the unperturbed averaged problem, it is robust against perturbing accelerations and control errors. Applied here to low-thrust transfers to Earth-Moon libration points and halo-orbits, reducing trajectory computation to a one-parameter boundary value problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sub-Optimal Feedback Control Explained | Term Definition
+  title: "Sub-Optimal Feedback Control Explained | Term Definition"
   description: A near-optimal control strategy for multi-revolution low-thrust transfers. Synthesized from numerical solutions of minimum-time low-thrust transfer problems between non-coplanar elliptical and circular orbits in a central gravity field, it expresses optimal thrust orientation angles (pitch and yaw) as lookup-table interpolation functions of osculating orbital elements (pericenter radius, apocenter radius, inclination). Near-optimal in the unperturbed averaged problem, it is robust against perturbing accelerations and control errors. Applied here to low-thrust transfers to Earth-Moon libration points and halo-orbits, reducing trajectory computation to a one-parameter boundary value problem.
   image: /logo.png
 permalink: /en/glossary/navigation/sub-optimal-feedback-control/

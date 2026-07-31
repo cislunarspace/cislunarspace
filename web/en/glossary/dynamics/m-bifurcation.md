@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: m-Bifurcation Explained | Term Definition
+  title: "m-Bifurcation Explained | Term Definition"
   description: An orbit in the planar DRO family that is not a bifurcation of its own family becomes one after m revolutions, giving rise to an m-bifurcation spatial periodic
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: m-Bifurcation Explained | Term Definition
+  title: "m-Bifurcation Explained | Term Definition"
   description: An orbit in the planar DRO family that is not a bifurcation of its own family becomes one after m revolutions, giving rise to an m-bifurcation spatial periodic
   image: /logo.png
 permalink: /en/glossary/dynamics/m-bifurcation/

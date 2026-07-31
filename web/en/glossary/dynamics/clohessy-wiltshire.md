@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:
-  title: Clohessy-Wiltshire (CW) Equation | Relative Orbital Dynamics
+  title: "Clohessy-Wiltshire (CW) Equation | Relative Orbital Dynamics"
   description: Linearized equations of relative orbital motion between two spacecraft, used in rendezvous and formation flying
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Clohessy-Wiltshire (CW) Equation | Relative Orbital Dynamics
+  title: "Clohessy-Wiltshire (CW) Equation | Relative Orbital Dynamics"
   description: Linearized equations of relative orbital motion between two spacecraft, used in rendezvous and formation flying
   image: /logo.png
 permalink: /en/glossary/dynamics/clohessy-wiltshire/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Augmented Earth-Moon Model Explained | Term Definition
+  title: "Augmented Earth-Moon Model Explained | Term Definition"
   description: An approximation in the circular restricted three-body problem that combines the Earth and Moon into a single second primary. The resulting mass ratio is approximately 3.04×10⁻⁶, and the parking orbit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Augmented Earth-Moon Model Explained | Term Definition
+  title: "Augmented Earth-Moon Model Explained | Term Definition"
   description: An approximation in the circular restricted three-body problem that combines the Earth and Moon into a single second primary. The resulting mass ratio is approximately 3.04×10⁻⁶, and the parking orbit
   image: /logo.png
 permalink: /en/glossary/fundamentals/augmented-earth-moon-model/

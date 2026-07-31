@@ -1,6 +1,6 @@
 ---
 title: Distant Retrograde Orbit, DRO (DRO)
-description: A large-amplitude retrograde orbit around the Moon, where the spacecraft moves in the opposite direction to the Moon's rotation. It can serve as a stable platform for lunar communications infrastru...
+description: "A large-amplitude retrograde orbit around the Moon, where the spacecraft moves in the opposite direction to the Moon's rotation. It can serve as a stable platform for lunar communications infrastru..."
 keywords: Distant Retrograde Orbit, DRO, DRO, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Distant Retrograde Orbit, DRO (DRO) Explained | Term Definition
-  description: A large-amplitude retrograde orbit around the Moon, where the spacecraft moves in the opposite direction to the Moon's rotation. It can serve as a stable platform for lunar communications infrastru...
+  title: "Distant Retrograde Orbit, DRO (DRO) Explained | Term Definition"
+  description: "A large-amplitude retrograde orbit around the Moon, where the spacecraft moves in the opposite direction to the Moon's rotation. It can serve as a stable platform for lunar communications infrastru..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Distant Retrograde Orbit, DRO (DRO) Explained | Term Definition
-  description: A large-amplitude retrograde orbit around the Moon, where the spacecraft moves in the opposite direction to the Moon's rotation. It can serve as a stable platform for lunar communications infrastru...
+  title: "Distant Retrograde Orbit, DRO (DRO) Explained | Term Definition"
+  description: "A large-amplitude retrograde orbit around the Moon, where the spacecraft moves in the opposite direction to the Moon's rotation. It can serve as a stable platform for lunar communications infrastru..."
   image: /logo.png
 permalink: /en/glossary/orbits/distant-retrograde-orbit-dro/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lie Transformation Explained | Term Definition
+  title: "Lie Transformation Explained | Term Definition"
   description: A canonical transformation method in Hamiltonian systems that constructs a generating function G to simplify the original Hamiltonian. The paper uses this method to decouple hyperbolic directions from...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lie Transformation Explained | Term Definition
+  title: "Lie Transformation Explained | Term Definition"
   description: A canonical transformation method in Hamiltonian systems that constructs a generating function G to simplify the original Hamiltonian. The paper uses this method to decouple hyperbolic directions from...
   image: /logo.png
 permalink: /en/glossary/dynamics/lie-transformation/

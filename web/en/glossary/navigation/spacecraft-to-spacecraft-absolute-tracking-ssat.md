@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Spacecraft-to-Spacecraft Absolute Tracking (SSAT)" Explained | Term Definition
+  title: "\"Spacecraft-to-Spacecraft Absolute Tracking (SSAT)\" Explained | Term Definition"
   description: "A navigation method that estimates the absolute state of multiple spacecraft using relative measurements, where both observer and target are estimated simultaneously without relying on external orbit determination."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Spacecraft-to-Spacecraft Absolute Tracking (SSAT)" Explained | Term Definition
+  title: "\"Spacecraft-to-Spacecraft Absolute Tracking (SSAT)\" Explained | Term Definition"
   description: "A navigation method that estimates the absolute state of multiple spacecraft using relative measurements, where both observer and target are estimated simultaneously without relying on external orbit determination."
   image: /logo.png
 permalink: /en/glossary/navigation/spacecraft-to-spacecraft-absolute-tracking-ssat/

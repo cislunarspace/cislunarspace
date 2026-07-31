@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cauchy-Green Tensor, CGT Explained | Term Definition
+  title: "Cauchy-Green Tensor, CGT Explained | Term Definition"
   description: The product of the state transition matrix and its transpose; used to extract principal stretching directions and magnitudes, serving as a core tool in...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cauchy-Green Tensor, CGT Explained | Term Definition
+  title: "Cauchy-Green Tensor, CGT Explained | Term Definition"
   description: The product of the state transition matrix and its transpose; used to extract principal stretching directions and magnitudes, serving as a core tool in...
   image: /logo.png
 permalink: /en/glossary/dynamics/CGT/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Out-of-Plane Amplitude Explained | Term Definition
+  title: "Out-of-Plane Amplitude Explained | Term Definition"
   description: The maximum displacement of a halo orbit in the z-direction of the synodic reference frame. In this paper, the target halo has A_z = 8000 km. It determines the three-dimensional envelope of the orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Out-of-Plane Amplitude Explained | Term Definition
+  title: "Out-of-Plane Amplitude Explained | Term Definition"
   description: The maximum displacement of a halo orbit in the z-direction of the synodic reference frame. In this paper, the target halo has A_z = 8000 km. It determines the three-dimensional envelope of the orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/out-of-plane-amplitude/

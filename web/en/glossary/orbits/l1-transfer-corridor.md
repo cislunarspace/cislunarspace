@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L1 Transfer Corridor Explained | Term Definition
+  title: "L1 Transfer Corridor Explained | Term Definition"
   description: In the circular restricted three-body problem, when the Jacobi constant drops to the critical value C1 at L1, the two zero-velocity surfaces enclosing Earth and Moon touch at L1, opening a narrow pass...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L1 Transfer Corridor Explained | Term Definition
+  title: "L1 Transfer Corridor Explained | Term Definition"
   description: In the circular restricted three-body problem, when the Jacobi constant drops to the critical value C1 at L1, the two zero-velocity surfaces enclosing Earth and Moon touch at L1, opening a narrow pass...
   image: /logo.png
 permalink: /en/glossary/orbits/l1-transfer-corridor/

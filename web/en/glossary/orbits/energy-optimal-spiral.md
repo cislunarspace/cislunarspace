@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Energy-Optimal Spiral Explained | Term Definition
+  title: "Energy-Optimal Spiral Explained | Term Definition"
   description: A spiral trajectory departing from apogee of a geostationary transfer orbit (GTO), with thrust vector aligned with the velocity vector to maximize the time r...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Energy-Optimal Spiral Explained | Term Definition
+  title: "Energy-Optimal Spiral Explained | Term Definition"
   description: A spiral trajectory departing from apogee of a geostationary transfer orbit (GTO), with thrust vector aligned with the velocity vector to maximize the time r...
   image: /logo.png
 permalink: /en/glossary/orbits/energy-optimal-spiral/

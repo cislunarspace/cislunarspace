@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: J2 term Explained | Term Definition
+  title: "J2 term Explained | Term Definition"
   description: "The second-order zonal coefficient in the Earth's gravitational potential spherical harmonic expansion, reflecting the main perturbation from Earth's oblateness. J2 ≈ 1.08263×10⁻³ causes orbital plane..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: J2 term Explained | Term Definition
+  title: "J2 term Explained | Term Definition"
   description: "The second-order zonal coefficient in the Earth's gravitational potential spherical harmonic expansion, reflecting the main perturbation from Earth's oblateness. J2 ≈ 1.08263×10⁻³ causes orbital plane..."
   image: /logo.png
 permalink: /en/glossary/dynamics/j2-term/

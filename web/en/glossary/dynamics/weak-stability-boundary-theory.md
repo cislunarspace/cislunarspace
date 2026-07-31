@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary Theory Explained | Term Definition
+  title: "Weak Stability Boundary Theory Explained | Term Definition"
   description: Belbruno于1987年提出的轨道设计理论。其核心思想是：在三体系统中，受第三体引力摄动的影响，绕主天体运行的航天器在某些区域的引力约束变得很弱（即弱稳定边界），无需推进剂即可自然脱离原天体的引力束缚。该理论成功应用于1991年日本「飞天」号探测器的低能月球转移。Koon等人后来用动力学系统理论对WSB转移给出了解
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary Theory Explained | Term Definition
+  title: "Weak Stability Boundary Theory Explained | Term Definition"
   description: Belbruno于1987年提出的轨道设计理论。其核心思想是：在三体系统中，受第三体引力摄动的影响，绕主天体运行的航天器在某些区域的引力约束变得很弱（即弱稳定边界），无需推进剂即可自然脱离原天体的引力束缚。该理论成功应用于1991年日本「飞天」号探测器的低能月球转移。Koon等人后来用动力学系统理论对WSB转移给出了解
   image: /logo.png
 permalink: /en/glossary/dynamics/weak-stability-boundary-theory/

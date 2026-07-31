@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Identifiability Information Matrix Explained | Term Definition
+  title: "Identifiability Information Matrix Explained | Term Definition"
   description: In navigation state estimation, a matrix constructed from the Jacobian of the observation function with respect to the initial state. Defined as the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Identifiability Information Matrix Explained | Term Definition
+  title: "Identifiability Information Matrix Explained | Term Definition"
   description: In navigation state estimation, a matrix constructed from the Jacobian of the observation function with respect to the initial state. Defined as the...
   image: /logo.png
 permalink: /en/glossary/navigation/identifiability-information-matrix/

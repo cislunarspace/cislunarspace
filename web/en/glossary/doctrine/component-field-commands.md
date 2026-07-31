@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Component Field Commands Explained | Integrating Space into Joint Operations
+  title: "Component Field Commands Explained | Integrating Space into Joint Operations"
   description: Detailed explanation of U.S. Space Force Component Field Commands definition, integration role in joint operations, construction progress, and significance for space power projection
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Component Field Commands Explained | Integrating Space into Joint Operations
+  title: "Component Field Commands Explained | Integrating Space into Joint Operations"
   description: Detailed explanation of U.S. Space Force Component Field Commands definition, integration role in joint operations, construction progress, and significance for space power projection
   image: /logo.png
 permalink: /en/glossary/doctrine/component-field-commands/

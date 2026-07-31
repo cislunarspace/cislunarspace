@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periodic Orbit Family at Triangular Libration Point Explained | Term Definition
+  title: "Periodic Orbit Family at Triangular Libration Point Explained | Term Definition"
   description: Families of periodic orbits around the triangular libration points L4 or L5, consisting of short-period and long-period families. The short-period family has...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periodic Orbit Family at Triangular Libration Point Explained | Term Definition
+  title: "Periodic Orbit Family at Triangular Libration Point Explained | Term Definition"
   description: Families of periodic orbits around the triangular libration points L4 or L5, consisting of short-period and long-period families. The short-period family has...
   image: /logo.png
 permalink: /en/glossary/dynamics/periodic-orbit-family-at-triangular-libration-point/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Propagation Explained | Term Definition
+  title: "Manifold Propagation Explained | Term Definition"
   description: The process of integrating forward along invariant manifold dynamics to obtain transfer trajectories.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Propagation Explained | Term Definition
+  title: "Manifold Propagation Explained | Term Definition"
   description: The process of integrating forward along invariant manifold dynamics to obtain transfer trajectories.
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-propagation/

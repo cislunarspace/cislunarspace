@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Low-Thrust Transfer Orbit Details | Electric Propulsion Orbital Transfer
+  title: "Low-Thrust Transfer Orbit Details | Electric Propulsion Orbital Transfer"
   description: A low-thrust transfer orbit uses continuous small thrust propulsion systems to achieve orbital transfer
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Transfer Orbit Details | Electric Propulsion Orbital Transfer
+  title: "Low-Thrust Transfer Orbit Details | Electric Propulsion Orbital Transfer"
   description: A low-thrust transfer orbit uses continuous small thrust propulsion systems to achieve orbital transfer
   image: /logo.png
 permalink: /en/glossary/orbits/lt-transfer/

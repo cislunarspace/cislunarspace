@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: P2HO Orbit Family Explained | Term Definition
+  title: "P2HO Orbit Family Explained | Term Definition"
   description: Orbit families that evolve from period-doubling bifurcations in the NRHO region of the L₂ halo family. Members have orbital periods approximately double that of
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: P2HO Orbit Family Explained | Term Definition
+  title: "P2HO Orbit Family Explained | Term Definition"
   description: Orbit families that evolve from period-doubling bifurcations in the NRHO region of the L₂ halo family. Members have orbital periods approximately double that of
   image: /logo.png
 permalink: /en/glossary/orbits/p2ho-orbit-family/

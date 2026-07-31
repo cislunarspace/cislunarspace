@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Upper Confidence Bound for Trees, UCT Explained | Term Definition
+  title: "Upper Confidence Bound for Trees, UCT Explained | Term Definition"
   description: The selection strategy in MCTS that balances exploration and exploitation via a multi-armed bandit formulation. At each node, the child maximizing Q(s,a) + C·√(
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Upper Confidence Bound for Trees, UCT Explained | Term Definition
+  title: "Upper Confidence Bound for Trees, UCT Explained | Term Definition"
   description: The selection strategy in MCTS that balances exploration and exploitation via a multi-armed bandit formulation. At each node, the child maximizing Q(s,a) + C·√(
   image: /logo.png
 permalink: /en/glossary/dynamics/upper-confidence-bound-for-trees-uct/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Synthetic Tracking Explained | Real-time Near-Earth Asteroid Detection
+  title: "Synthetic Tracking Explained | Real-time Near-Earth Asteroid Detection"
   description: Synthetic Tracking is a computationally enhanced implementation of Shift-and-Add that enables near-real-time blind search discovery and tracking of faint, fast-moving near-Earth asteroids.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synthetic Tracking Explained | Real-time Near-Earth Asteroid Detection
+  title: "Synthetic Tracking Explained | Real-time Near-Earth Asteroid Detection"
   description: Synthetic Tracking is a computationally enhanced implementation of Shift-and-Add that enables near-real-time blind search discovery and tracking of faint, fast-moving near-Earth asteroids.
   image: /logo.png
 permalink: /en/glossary/observation/synthetic-tracking/

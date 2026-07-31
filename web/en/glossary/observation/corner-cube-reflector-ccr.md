@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Corner Cube Reflector, CCR Explained | Term Definition
+  title: "Corner Cube Reflector, CCR Explained | Term Definition"
   description: A passive optical reflector composed of three mutually perpendicular reflective surfaces that retroreflects incident light back along its incident direction. Deployed on the lunar surface as target re
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Corner Cube Reflector, CCR Explained | Term Definition
+  title: "Corner Cube Reflector, CCR Explained | Term Definition"
   description: A passive optical reflector composed of three mutually perpendicular reflective surfaces that retroreflects incident light back along its incident direction. Deployed on the lunar surface as target re
   image: /logo.png
 permalink: /en/glossary/observation/corner-cube-reflector-ccr/

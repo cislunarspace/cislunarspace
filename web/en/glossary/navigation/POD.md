@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Precision Orbit Determination Explained | Term Definition
+  title: "Precision Orbit Determination Explained | Term Definition"
   description: "The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical mod"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Precision Orbit Determination Explained | Term Definition
+  title: "Precision Orbit Determination Explained | Term Definition"
   description: "The process of determining a spacecraft's high-precision orbital state using multiple observation types (ranging, Doppler, VLBI, etc.) and precise dynamical mod"
   image: /logo.png
 permalink: /en/glossary/navigation/POD/

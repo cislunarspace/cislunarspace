@@ -1,6 +1,6 @@
 ---
 title: Initial Orbit Determination (IOD)
-description: The process of determining orbital elements from limited observation data (angles, ranges, etc.). Typical methods include Laplace's method, Gauss's technique...
+description: "The process of determining orbital elements from limited observation data (angles, ranges, etc.). Typical methods include Laplace's method, Gauss's technique..."
 keywords: Initial Orbit Determination, IOD
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial Orbit Determination Explained | Term Definition
-  description: The process of determining orbital elements from limited observation data (angles, ranges, etc.). Typical methods include Laplace's method, Gauss's technique...
+  title: "Initial Orbit Determination Explained | Term Definition"
+  description: "The process of determining orbital elements from limited observation data (angles, ranges, etc.). Typical methods include Laplace's method, Gauss's technique..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial Orbit Determination Explained | Term Definition
-  description: The process of determining orbital elements from limited observation data (angles, ranges, etc.). Typical methods include Laplace's method, Gauss's technique...
+  title: "Initial Orbit Determination Explained | Term Definition"
+  description: "The process of determining orbital elements from limited observation data (angles, ranges, etc.). Typical methods include Laplace's method, Gauss's technique..."
   image: /logo.png
 permalink: /en/glossary/observation/initial-orbit-determination/
 ---

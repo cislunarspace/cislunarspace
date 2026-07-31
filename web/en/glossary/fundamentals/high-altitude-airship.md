@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: High Altitude Airship (HAA) | Stratospheric Platform
+  title: "High Altitude Airship (HAA) | Stratospheric Platform"
   description: A detailed analysis of High Altitude Airship (HAA) definitions, technical characteristics, typical programs, and current development status
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High Altitude Airship (HAA) | Stratospheric Platform
+  title: "High Altitude Airship (HAA) | Stratospheric Platform"
   description: A detailed analysis of High Altitude Airship (HAA) definitions, technical characteristics, typical programs, and current development status
   image: /logo.png
 permalink: /en/glossary/fundamentals/high-altitude-airship/

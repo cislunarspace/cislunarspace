@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Global Analysis of Invariant Objects Explained | Term Definition
+  title: "Global Analysis of Invariant Objects Explained | Term Definition"
   description: A set-oriented software package for analyzing the global structure of dynamical systems. It uses an adaptive grid subdivision tree structure and supports cov...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Global Analysis of Invariant Objects Explained | Term Definition
+  title: "Global Analysis of Invariant Objects Explained | Term Definition"
   description: A set-oriented software package for analyzing the global structure of dynamical systems. It uses an adaptive grid subdivision tree structure and supports cov...
   image: /logo.png
 permalink: /en/glossary/fundamentals/global-analysis-of-invariant-objects/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Neck Region Explained | Term Definition
+  title: "Neck Region Explained | Term Definition"
   description: A narrow passage near a collinear libration point that serves as the sole connection between the Earth region and the Moon region in cislunar space. The neck...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Neck Region Explained | Term Definition
+  title: "Neck Region Explained | Term Definition"
   description: A narrow passage near a collinear libration point that serves as the sole connection between the Earth region and the Moon region in cislunar space. The neck...
   image: /logo.png
 permalink: /en/glossary/dynamics/neck-region/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Measurement Jacobian Explained | Term Definition
+  title: "Measurement Jacobian Explained | Term Definition"
   description: A matrix describing the local sensitivity of measurements to system states, defined as the partial derivatives of the measurement function with respect to the s
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Measurement Jacobian Explained | Term Definition
+  title: "Measurement Jacobian Explained | Term Definition"
   description: A matrix describing the local sensitivity of measurements to system states, defined as the partial derivatives of the measurement function with respect to the s
   image: /logo.png
 permalink: /en/glossary/dynamics/measurement-jacobian/

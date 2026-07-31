@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Propulsion Error Explained | Term Definition
+  title: "Propulsion Error Explained | Term Definition"
   description: The deviation of actual thrust output from commanded thrust, caused by manufacturing tolerances, nozzle erosion, propellant supply fluctuations, and similar factors. In station-keeping Monte-Carlo sim...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Propulsion Error Explained | Term Definition
+  title: "Propulsion Error Explained | Term Definition"
   description: The deviation of actual thrust output from commanded thrust, caused by manufacturing tolerances, nozzle erosion, propellant supply fluctuations, and similar factors. In station-keeping Monte-Carlo sim...
   image: /logo.png
 permalink: /en/glossary/navigation/propulsion-error/

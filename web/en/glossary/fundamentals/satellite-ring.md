@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Satellite Ring | Terminology Definition
+  title: "Satellite Ring | Terminology Definition"
   description: Detailed analysis of satellite ring definition and coverage band calculation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Satellite Ring | Terminology Definition
+  title: "Satellite Ring | Terminology Definition"
   description: Detailed analysis of satellite ring definition and coverage band calculation
   image: /logo.png
 permalink: /en/glossary/fundamentals/satellite-ring/

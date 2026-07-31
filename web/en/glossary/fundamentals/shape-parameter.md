@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Shape Parameter Explained | Term Definition
+  title: "Shape Parameter Explained | Term Definition"
   description: 定义指数正弦曲线轨迹形状的四个参数 [k₀, k₁, k₂, φ]。k₀ 控制轨道大小（距离尺度），k₁ 控制振荡幅度，k₂ 控制角频率，φ 控制相位。当出发速度已知时，自由度降为单一参数 k₂，通过搜索 k₂ 来瞄准目标天体。论文中 k₂ 称为形状参数（shape parameter），在多圈 Lambert 问题求
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shape Parameter Explained | Term Definition
+  title: "Shape Parameter Explained | Term Definition"
   description: 定义指数正弦曲线轨迹形状的四个参数 [k₀, k₁, k₂, φ]。k₀ 控制轨道大小（距离尺度），k₁ 控制振荡幅度，k₂ 控制角频率，φ 控制相位。当出发速度已知时，自由度降为单一参数 k₂，通过搜索 k₂ 来瞄准目标天体。论文中 k₂ 称为形状参数（shape parameter），在多圈 Lambert 问题求
   image: /logo.png
 permalink: /en/glossary/fundamentals/shape-parameter/

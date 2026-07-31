@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Chain Explained | Term Definition
+  title: "Orbit Chain Explained | Term Definition"
   description: "A low-energy transfer path in the CRTBP constructed by linking multiple simple periodic orbits using the invariant manifolds (stable and unstable) of unstable periodic orbits. An orbit chain describes a spacecraft's complete itinerary of sequential transfers between orbits along natural dynamical structures."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Chain Explained | Term Definition
+  title: "Orbit Chain Explained | Term Definition"
   description: "A low-energy transfer path in the CRTBP constructed by linking multiple simple periodic orbits using the invariant manifolds (stable and unstable) of unstable periodic orbits. An orbit chain describes a spacecraft's complete itinerary of sequential transfers between orbits along natural dynamical structures."
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-chain/

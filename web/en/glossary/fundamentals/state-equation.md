@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Equation Explained | Term Definition
+  title: "State Equation Explained | Term Definition"
   description: A first-order differential equation system describing system dynamics using a state vector, in the form dx/dt = A(t)x + Bu, y = Cx. Converting second-order e...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Equation Explained | Term Definition
+  title: "State Equation Explained | Term Definition"
   description: A first-order differential equation system describing system dynamics using a state vector, in the form dx/dt = A(t)x + Bu, y = Cx. Converting second-order e...
   image: /logo.png
 permalink: /en/glossary/fundamentals/state-equation/

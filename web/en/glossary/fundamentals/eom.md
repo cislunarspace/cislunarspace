@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Equation of Motion Explained | Term Definition
+  title: "Equation of Motion Explained | Term Definition"
   description: The system of differential equations governing spacecraft motion in a given dynamical model. In the CR3BP, the EOMs are formulated in the synodic (rotating) ref
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Equation of Motion Explained | Term Definition
+  title: "Equation of Motion Explained | Term Definition"
   description: The system of differential equations governing spacecraft motion in a given dynamical model. In the CR3BP, the EOMs are formulated in the synodic (rotating) ref
   image: /logo.png
 permalink: /en/glossary/fundamentals/eom/

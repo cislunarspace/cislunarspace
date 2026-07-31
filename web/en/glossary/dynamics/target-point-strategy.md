@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Target Point Strategy Explained | Term Definition
+  title: "Target Point Strategy Explained | Term Definition"
   description: A station-keeping strategy for libration point orbits. It selects several nodal points on the nominal orbit and controls the spacecraft to minimize deviations b
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Target Point Strategy Explained | Term Definition
+  title: "Target Point Strategy Explained | Term Definition"
   description: A station-keeping strategy for libration point orbits. It selects several nodal points on the nominal orbit and controls the spacecraft to minimize deviations b
   image: /logo.png
 permalink: /en/glossary/dynamics/target-point-strategy/

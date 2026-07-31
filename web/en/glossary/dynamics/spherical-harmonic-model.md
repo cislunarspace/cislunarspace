@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spherical Harmonic Model Explained | Term Definition
+  title: "Spherical Harmonic Model Explained | Term Definition"
   description: Mathematical model representing gravitational potential using spherical harmonic expansion; describes non-spherical gravitational fields of celestial bodies.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spherical Harmonic Model Explained | Term Definition
+  title: "Spherical Harmonic Model Explained | Term Definition"
   description: Mathematical model representing gravitational potential using spherical harmonic expansion; describes non-spherical gravitational fields of celestial bodies.
   image: /logo.png
 permalink: /en/glossary/dynamics/spherical-harmonic-model/

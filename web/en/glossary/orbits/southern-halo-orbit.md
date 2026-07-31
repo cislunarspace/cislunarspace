@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Southern Halo Orbit Explained | Term Definition
+  title: "Southern Halo Orbit Explained | Term Definition"
   description: 晕轨道族中位于x-y平面下方的成员。由于圆形限制性三体问题的力场对x-y平面对称，南方晕轨道与北方晕轨道成对出现，两者沿x-y平面互为镜像。南方轨道上的卫星有一半以上时间位于月球轨道平面以下，利于与月球南半球目标通信。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Southern Halo Orbit Explained | Term Definition
+  title: "Southern Halo Orbit Explained | Term Definition"
   description: 晕轨道族中位于x-y平面下方的成员。由于圆形限制性三体问题的力场对x-y平面对称，南方晕轨道与北方晕轨道成对出现，两者沿x-y平面互为镜像。南方轨道上的卫星有一半以上时间位于月球轨道平面以下，利于与月球南半球目标通信。
   image: /logo.png
 permalink: /en/glossary/orbits/southern-halo-orbit/

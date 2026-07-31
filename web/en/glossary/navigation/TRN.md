@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Terrain Relative Navigation Explained | Term Definition
+  title: "Terrain Relative Navigation Explained | Term Definition"
   description: Autonomous navigation method by matching optical images with known terrain features.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Terrain Relative Navigation Explained | Term Definition
+  title: "Terrain Relative Navigation Explained | Term Definition"
   description: Autonomous navigation method by matching optical images with known terrain features.
   image: /logo.png
 permalink: /en/glossary/navigation/TRN/

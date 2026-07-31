@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mass Ratio Explained | Term Definition
+  title: "Mass Ratio Explained | Term Definition"
   description: "The fundamental dimensionless parameter of the circular restricted three-body problem, defined as the ratio of the secondary's mass to the total mass of both primaries."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Ratio Explained | Term Definition
+  title: "Mass Ratio Explained | Term Definition"
   description: "The fundamental dimensionless parameter of the circular restricted three-body problem, defined as the ratio of the secondary's mass to the total mass of both primaries."
   image: /logo.png
 permalink: /en/glossary/fundamentals/mass-ratio/

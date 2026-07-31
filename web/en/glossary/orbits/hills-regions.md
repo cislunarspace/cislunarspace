@@ -1,22 +1,22 @@
 ---
-title: Hill's Regions
+title: "Hill's Regions"
 description: The reachable region defined by the Jacobi integral in the restricted three-body problem.
-keywords: Hill's Regions
+keywords: "Hill's Regions"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Hill's Regions
+  title: "Hill's Regions"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill's Regions Explained | Term Definition
+  title: "Hill's Regions Explained | Term Definition"
   description: The reachable region defined by the Jacobi integral in the restricted three-body problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill's Regions Explained | Term Definition
+  title: "Hill's Regions Explained | Term Definition"
   description: The reachable region defined by the Jacobi integral in the restricted three-body problem.
   image: /logo.png
 permalink: /en/glossary/orbits/hills-regions/

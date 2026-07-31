@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Center-of-Mass Rotating Frame Explained | Term Definition
+  title: "Center-of-Mass Rotating Frame Explained | Term Definition"
   description: The standard reference frame for the circular restricted three-body problem. The origin is at the common center of mass of the two primary bodies, the x-axis points from the larger to the smaller body
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Center-of-Mass Rotating Frame Explained | Term Definition
+  title: "Center-of-Mass Rotating Frame Explained | Term Definition"
   description: The standard reference frame for the circular restricted three-body problem. The origin is at the common center of mass of the two primary bodies, the x-axis points from the larger to the smaller body
   image: /logo.png
 permalink: /en/glossary/fundamentals/center-of-mass-rotating-frame/

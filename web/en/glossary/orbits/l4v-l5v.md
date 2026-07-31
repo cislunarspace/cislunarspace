@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Orbit at Triangular Libration Point Explained | Term Definition
+  title: "Vertical Orbit at Triangular Libration Point Explained | Term Definition"
   description: Non-planar periodic orbits near the L4 or L5 triangular libration points, primarily extending in the direction perpendicular to the ecliptic plane. These orbits
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Orbit at Triangular Libration Point Explained | Term Definition
+  title: "Vertical Orbit at Triangular Libration Point Explained | Term Definition"
   description: Non-planar periodic orbits near the L4 or L5 triangular libration points, primarily extending in the direction perpendicular to the ecliptic plane. These orbits
   image: /logo.png
 permalink: /en/glossary/orbits/l4v-l5v/

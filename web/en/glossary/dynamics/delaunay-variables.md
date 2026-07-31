@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Delaunay Variables Explained | Term Definition
+  title: "Delaunay Variables Explained | Term Definition"
   description: Canonical action-angle variables used in the two-body problem and restricted three-body problem. Include pairs of conjugate variables such as mean anomaly M,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Delaunay Variables Explained | Term Definition
+  title: "Delaunay Variables Explained | Term Definition"
   description: Canonical action-angle variables used in the two-body problem and restricted three-body problem. Include pairs of conjugate variables such as mean anomaly M,...
   image: /logo.png
 permalink: /en/glossary/dynamics/delaunay-variables/

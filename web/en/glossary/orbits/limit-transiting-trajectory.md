@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Limit Transiting Trajectory Explained | Term Definition
+  title: "Limit Transiting Trajectory Explained | Term Definition"
   description: In CR3BP, transiting trajectories derived from transportation tube walls whose transfer time approaches infinity in the limit. Under SBCM, solar perturbation makes the transfer time finite and signifi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Limit Transiting Trajectory Explained | Term Definition
+  title: "Limit Transiting Trajectory Explained | Term Definition"
   description: In CR3BP, transiting trajectories derived from transportation tube walls whose transfer time approaches infinity in the limit. Under SBCM, solar perturbation makes the transfer time finite and signifi...
   image: /logo.png
 permalink: /en/glossary/orbits/limit-transiting-trajectory/

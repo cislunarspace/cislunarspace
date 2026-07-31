@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Inertial Navigation System | Terminology Definition
+  title: "Inertial Navigation System | Terminology Definition"
   description: Definition, architecture, core sensors, and the role of inertial navigation systems in spacecraft navigation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inertial Navigation System | Terminology Definition
+  title: "Inertial Navigation System | Terminology Definition"
   description: Definition, architecture, core sensors, and the role of inertial navigation systems in spacecraft navigation
   image: /logo.png
 permalink: /en/glossary/fundamentals/inertial-navigation-system/

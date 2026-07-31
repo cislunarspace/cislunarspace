@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Third-Body Perturbation Explained | Term Definition
+  title: "Third-Body Perturbation Explained | Term Definition"
   description: "Gravitational perturbation on a spacecraft's orbit caused by a third celestial body (such as the Sun or Moon) in addition to the primary body. Essential for..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Third-Body Perturbation Explained | Term Definition
+  title: "Third-Body Perturbation Explained | Term Definition"
   description: "Gravitational perturbation on a spacecraft's orbit caused by a third celestial body (such as the Sun or Moon) in addition to the primary body. Essential for..."
   image: /logo.png
 permalink: /en/glossary/dynamics/third-body-perturbation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Distant Retrograde Orbit (DRO) Explained | Term Definition
+  title: "Distant Retrograde Orbit (DRO) Explained | Term Definition"
   description: Large-amplitude retrograde orbit near the Moon, can serve as a staging point for cislunar transportation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Distant Retrograde Orbit (DRO) Explained | Term Definition
+  title: "Distant Retrograde Orbit (DRO) Explained | Term Definition"
   description: Large-amplitude retrograde orbit near the Moon, can serve as a staging point for cislunar transportation.
   image: /logo.png
 permalink: /en/glossary/orbits/distant-retrograde-orbit/

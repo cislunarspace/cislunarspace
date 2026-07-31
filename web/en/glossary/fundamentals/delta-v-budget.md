@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Delta-V Budget Explained | Term Definition
+  title: "Delta-V Budget Explained | Term Definition"
   description: A summary of required velocity increments across all mission phases, used to assess fuel requirements and feasibility. In this paper, the total delta-V is approximately 5289 m/s for NRHO, 5267 m/s for
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Delta-V Budget Explained | Term Definition
+  title: "Delta-V Budget Explained | Term Definition"
   description: A summary of required velocity increments across all mission phases, used to assess fuel requirements and feasibility. In this paper, the total delta-V is approximately 5289 m/s for NRHO, 5267 m/s for
   image: /logo.png
 permalink: /en/glossary/fundamentals/delta-v-budget/

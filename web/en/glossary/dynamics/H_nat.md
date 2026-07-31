@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Natural Hamiltonian, H_nat Explained | Term Definition
+  title: "Natural Hamiltonian, H_nat Explained | Term Definition"
   description: The Hamiltonian in CR3BP composed of kinetic and potential energy, H_nat = v²/2 - (x²+y²)/2 - (1-μ)/r_13 - μ/r_23, conserved in the unperturbed CR3BP.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Natural Hamiltonian, H_nat Explained | Term Definition
+  title: "Natural Hamiltonian, H_nat Explained | Term Definition"
   description: The Hamiltonian in CR3BP composed of kinetic and potential energy, H_nat = v²/2 - (x²+y²)/2 - (1-μ)/r_13 - μ/r_23, conserved in the unperturbed CR3BP.
   image: /logo.png
 permalink: /en/glossary/dynamics/H_nat/

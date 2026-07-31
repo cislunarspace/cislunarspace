@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Injection Energy Explained | Term Definition
+  title: "Injection Energy Explained | Term Definition"
   description: The specific mechanical energy of a spacecraft relative to the central body after launch insertion, equal to the square of velocity minus twice the gravitationa
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Injection Energy Explained | Term Definition
+  title: "Injection Energy Explained | Term Definition"
   description: The specific mechanical energy of a spacecraft relative to the central body after launch insertion, equal to the square of velocity minus twice the gravitationa
   image: /logo.png
 permalink: /en/glossary/fundamentals/injection-energy/

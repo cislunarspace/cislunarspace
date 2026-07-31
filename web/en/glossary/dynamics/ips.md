@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interplanetary Superhighway Explained | Term Definition
+  title: "Interplanetary Superhighway Explained | Term Definition"
   description: A network of low-energy transfer pathways formed by connecting invariant manifolds around libration points in different restricted three-body systems. Proposed 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interplanetary Superhighway Explained | Term Definition
+  title: "Interplanetary Superhighway Explained | Term Definition"
   description: A network of low-energy transfer pathways formed by connecting invariant manifolds around libration points in different restricted three-body systems. Proposed 
   image: /logo.png
 permalink: /en/glossary/dynamics/ips/

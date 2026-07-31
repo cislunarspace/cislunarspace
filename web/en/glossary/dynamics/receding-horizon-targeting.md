@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Receding Horizon Targeting Explained | Term Definition
+  title: "Receding Horizon Targeting Explained | Term Definition"
   description: A numerical method for constructing long-duration nominal orbits in the ephemeris model. It decomposes the integration into short segments, applying targeting corrections at each segment boundary to m
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Receding Horizon Targeting Explained | Term Definition
+  title: "Receding Horizon Targeting Explained | Term Definition"
   description: A numerical method for constructing long-duration nominal orbits in the ephemeris model. It decomposes the integration into short segments, applying targeting corrections at each segment boundary to m
   image: /logo.png
 permalink: /en/glossary/dynamics/receding-horizon-targeting/

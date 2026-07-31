@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Connection Explained | Term Definition
+  title: "Connection Explained | Term Definition"
   description: Natural transfer pathway between two orbits via invariant manifolds, typically zero-Δv free transfer.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Connection Explained | Term Definition
+  title: "Connection Explained | Term Definition"
   description: Natural transfer pathway between two orbits via invariant manifolds, typically zero-Δv free transfer.
   image: /logo.png
 permalink: /en/glossary/dynamics/connection/

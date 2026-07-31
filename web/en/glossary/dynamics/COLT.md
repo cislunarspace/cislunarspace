@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collocation with Optimization for Low-Thrust Explained | Term Definition
+  title: "Collocation with Optimization for Low-Thrust Explained | Term Definition"
   description: A direct collocation-based trajectory design and optimization tool for low-thrust transfers, integrating the IPOPT optimizer, mesh refinement strategies, and...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collocation with Optimization for Low-Thrust Explained | Term Definition
+  title: "Collocation with Optimization for Low-Thrust Explained | Term Definition"
   description: A direct collocation-based trajectory design and optimization tool for low-thrust transfers, integrating the IPOPT optimizer, mesh refinement strategies, and...
   image: /logo.png
 permalink: /en/glossary/dynamics/COLT/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Restricted Three-Body Problem, CR3BP Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem, CR3BP Explained | Term Definition"
   description: A three-body model where two primary bodies orbit each other in circular trajectories while a third negligible-mass body moves under their gravitational influence without affecting the primaries. The ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Restricted Three-Body Problem, CR3BP Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem, CR3BP Explained | Term Definition"
   description: A three-body model where two primary bodies orbit each other in circular trajectories while a third negligible-mass body moves under their gravitational influence without affecting the primaries. The ...
   image: /logo.png
 permalink: /en/glossary/dynamics/circular-restricted-three-body-problem-cr3bp/

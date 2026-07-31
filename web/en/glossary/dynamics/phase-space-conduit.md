@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Space Conduit Explained | Term Definition
+  title: "Phase Space Conduit Explained | Term Definition"
   description: Phase space structure connecting different energy regions; spacecraft can travel along it with low energy.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Space Conduit Explained | Term Definition
+  title: "Phase Space Conduit Explained | Term Definition"
   description: Phase space structure connecting different energy regions; spacecraft can travel along it with low energy.
   image: /logo.png
 permalink: /en/glossary/dynamics/phase-space-conduit/

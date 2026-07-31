@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Free-Flight Trajectory | Terminology Definition
+  title: "Free-Flight Trajectory | Terminology Definition"
   description: Detailed analysis of free-flight trajectory definition and its relationship with powered-phase terminal parameters
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free-Flight Trajectory | Terminology Definition
+  title: "Free-Flight Trajectory | Terminology Definition"
   description: Detailed analysis of free-flight trajectory definition and its relationship with powered-phase terminal parameters
   image: /logo.png
 permalink: /en/glossary/fundamentals/free-flight-trajectory/

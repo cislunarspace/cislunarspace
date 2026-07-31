@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: DOTMLPF-P Framework | Military Capability Building
+  title: "DOTMLPF-P Framework | Military Capability Building"
   description: DOTMLPF-P is a comprehensive military capability building framework covering eight dimensions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DOTMLPF-P Framework | Military Capability Building
+  title: "DOTMLPF-P Framework | Military Capability Building"
   description: DOTMLPF-P is a comprehensive military capability building framework covering eight dimensions.
   image: /logo.png
 permalink: /en/glossary/doctrine/dotmlpf-p/

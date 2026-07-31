@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flyby Direction Explained | Term Definition
+  title: "Flyby Direction Explained | Term Definition"
   description: The direction of spacecraft motion near perilune relative to the Moon in the Earth-Moon rotating frame. Clockwise is retrograde, counterclockwise is prograde. Retrograde flybys consume significantly l...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flyby Direction Explained | Term Definition
+  title: "Flyby Direction Explained | Term Definition"
   description: The direction of spacecraft motion near perilune relative to the Moon in the Earth-Moon rotating frame. Clockwise is retrograde, counterclockwise is prograde. Retrograde flybys consume significantly l...
   image: /logo.png
 permalink: /en/glossary/dynamics/flyby-direction/

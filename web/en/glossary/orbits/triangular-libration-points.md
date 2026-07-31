@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Triangular Libration Points Details | Stable Dynamical Equilibrium Regions in the Earth-Moon System
+  title: "Triangular Libration Points Details | Stable Dynamical Equilibrium Regions in the Earth-Moon System"
   description: Detailed explanation of triangular libration points L4 and L5 — definition, dynamical characteristics, stability analysis, and applications in cislunar space missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Triangular Libration Points Details | Stable Dynamical Equilibrium Regions in the Earth-Moon System
+  title: "Triangular Libration Points Details | Stable Dynamical Equilibrium Regions in the Earth-Moon System"
   description: Detailed explanation of triangular libration points L4 and L5 — definition, dynamical characteristics, stability analysis, and applications in cislunar space missions
   image: /logo.png
 permalink: /en/glossary/orbits/triangular-libration-points/

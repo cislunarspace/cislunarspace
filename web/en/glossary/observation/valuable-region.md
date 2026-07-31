@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Valuable Region Explained | Term Definition
+  title: "Valuable Region Explained | Term Definition"
   description: A protection region concept defined in the paper for the Gateway station. Using the CR3BP periodic solution as reference, a pseudo-toroidal envelope is const...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Valuable Region Explained | Term Definition
+  title: "Valuable Region Explained | Term Definition"
   description: A protection region concept defined in the paper for the Gateway station. Using the CR3BP periodic solution as reference, a pseudo-toroidal envelope is const...
   image: /logo.png
 permalink: /en/glossary/observation/valuable-region/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Observability Metric, Gamma Explained | Term Definition
+  title: "Observability Metric, Gamma Explained | Term Definition"
   description: The coverage metric defined in this paper. It represents the fraction of time over the observation campaign during which the targets in the grid are visible to 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Observability Metric, Gamma Explained | Term Definition
+  title: "Observability Metric, Gamma Explained | Term Definition"
   description: The coverage metric defined in this paper. It represents the fraction of time over the observation campaign during which the targets in the grid are visible to 
   image: /logo.png
 permalink: /en/glossary/observation/Gamma/

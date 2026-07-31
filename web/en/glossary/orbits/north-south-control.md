@@ -1,6 +1,6 @@
 ---
 title: North-South Control
-description: A latitudinal station-keeping strategy that applies small thrust in the orbit-normal direction to correct orbital inclination, controlling the spacecraft's o...
+description: "A latitudinal station-keeping strategy that applies small thrust in the orbit-normal direction to correct orbital inclination, controlling the spacecraft's o..."
 keywords: North-South Control, orbit design, transfer trajectory, periodic orbit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: North-South Control Explained | Term Definition
-  description: A latitudinal station-keeping strategy that applies small thrust in the orbit-normal direction to correct orbital inclination, controlling the spacecraft's o...
+  title: "North-South Control Explained | Term Definition"
+  description: "A latitudinal station-keeping strategy that applies small thrust in the orbit-normal direction to correct orbital inclination, controlling the spacecraft's o..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: North-South Control Explained | Term Definition
-  description: A latitudinal station-keeping strategy that applies small thrust in the orbit-normal direction to correct orbital inclination, controlling the spacecraft's o...
+  title: "North-South Control Explained | Term Definition"
+  description: "A latitudinal station-keeping strategy that applies small thrust in the orbit-normal direction to correct orbital inclination, controlling the spacecraft's o..."
   image: /logo.png
 permalink: /en/glossary/orbits/north-south-control/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamics-Based Statistical Orbit Determination Explained | Term Definition
+  title: "Dynamics-Based Statistical Orbit Determination Explained | Term Definition"
   description: An orbit determination method that linearizes nonlinear observation equations at a reference state and iteratively solves for corrections to estimated state var
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamics-Based Statistical Orbit Determination Explained | Term Definition
+  title: "Dynamics-Based Statistical Orbit Determination Explained | Term Definition"
   description: An orbit determination method that linearizes nonlinear observation equations at a reference state and iteratively solves for corrections to estimated state var
   image: /logo.png
 permalink: /en/glossary/observation/dynamics-based-statistical-orbit-determination/

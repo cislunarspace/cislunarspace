@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: lunar transfer orbit Explained | Term Definition
+  title: "lunar transfer orbit Explained | Term Definition"
   description: A transfer orbit departing from Earth parking orbit with an apogee near the lunar orbit distance. Commonly used as the initial segment of Earth-Moon transfers, with a perigee altitude typically around 200 km.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: lunar transfer orbit Explained | Term Definition
+  title: "lunar transfer orbit Explained | Term Definition"
   description: A transfer orbit departing from Earth parking orbit with an apogee near the lunar orbit distance. Commonly used as the initial segment of Earth-Moon transfers, with a perigee altitude typically around 200 km.
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-transfer-orbit/

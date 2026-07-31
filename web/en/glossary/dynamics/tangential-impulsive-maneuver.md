@@ -1,6 +1,6 @@
 ---
 title: Tangential Impulsive Maneuver
-description: An instantaneous velocity change applied along the direction of orbital velocity. In the paper's transfer trajectory design, two tangential constraints are imposed: at the initial time the transfer...
+description: "An instantaneous velocity change applied along the direction of orbital velocity. In the paper's transfer trajectory design, two tangential constraints are imposed: at the initial time the transfer..."
 keywords: Tangential Impulsive Maneuver
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tangential Impulsive Maneuver Explained | Term Definition
-  description: An instantaneous velocity change applied along the direction of orbital velocity. In the paper's transfer trajectory design, two tangential constraints are imposed: at the initial time the transfer...
+  title: "Tangential Impulsive Maneuver Explained | Term Definition"
+  description: "An instantaneous velocity change applied along the direction of orbital velocity. In the paper's transfer trajectory design, two tangential constraints are imposed: at the initial time the transfer..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tangential Impulsive Maneuver Explained | Term Definition
-  description: An instantaneous velocity change applied along the direction of orbital velocity. In the paper's transfer trajectory design, two tangential constraints are imposed: at the initial time the transfer...
+  title: "Tangential Impulsive Maneuver Explained | Term Definition"
+  description: "An instantaneous velocity change applied along the direction of orbital velocity. In the paper's transfer trajectory design, two tangential constraints are imposed: at the initial time the transfer..."
   image: /logo.png
 permalink: /en/glossary/dynamics/tangential-impulsive-maneuver/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Phasing Explained | Term Definition
+  title: "Indirect Phasing Explained | Term Definition"
   description: A phasing method that uses libration point orbits (such as Lyapunov orbits) and their invariant manifolds to construct transfer trajectories for phase adjust...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Phasing Explained | Term Definition
+  title: "Indirect Phasing Explained | Term Definition"
   description: A phasing method that uses libration point orbits (such as Lyapunov orbits) and their invariant manifolds to construct transfer trajectories for phase adjust...
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-phasing/

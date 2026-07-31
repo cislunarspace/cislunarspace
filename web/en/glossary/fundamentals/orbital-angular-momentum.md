@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Angular Momentum (h*) Explained | Term Definition
+  title: "Orbital Angular Momentum (h*) Explained | Term Definition"
   description: The cross product of position and velocity vectors of a spacecraft orbiting a central body (H = r × v). It is a constant of motion in a central force field, wit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Angular Momentum (h*) Explained | Term Definition
+  title: "Orbital Angular Momentum (h*) Explained | Term Definition"
   description: The cross product of position and velocity vectors of a spacecraft orbiting a central body (H = r × v). It is a constant of motion in a central force field, wit
   image: /logo.png
 permalink: /en/glossary/fundamentals/orbital-angular-momentum/

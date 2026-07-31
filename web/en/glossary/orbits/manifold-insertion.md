@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Insertion Explained | Term Definition
+  title: "Manifold Insertion Explained | Term Definition"
   description: The second impulsive maneuver in a direct lunar halo transfer, a tangential burn performed at some point on the manifold segment that injects the spacecraft...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Insertion Explained | Term Definition
+  title: "Manifold Insertion Explained | Term Definition"
   description: The second impulsive maneuver in a direct lunar halo transfer, a tangential burn performed at some point on the manifold segment that injects the spacecraft...
   image: /logo.png
 permalink: /en/glossary/orbits/manifold-insertion/

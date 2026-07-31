@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Poincaré Section Explained | Term Definition
+  title: "Poincaré Section Explained | Term Definition"
   description: A method to visualize high-dimensional dynamical behavior by examining intersections with a specific low-dimensional submanifold of phase space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Poincaré Section Explained | Term Definition
+  title: "Poincaré Section Explained | Term Definition"
   description: A method to visualize high-dimensional dynamical behavior by examining intersections with a specific low-dimensional submanifold of phase space.
   image: /logo.png
 permalink: /en/glossary/dynamics/poincar-section/

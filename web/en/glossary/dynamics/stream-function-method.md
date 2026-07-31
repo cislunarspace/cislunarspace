@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Stream Function Method Explained | Term Definition
+  title: "Stream Function Method Explained | Term Definition"
   description: A numerical method that tracks a family of periodic orbits continuously by varying the Jacobi constant. Using the Jacobi constant as a continuation parameter, i
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stream Function Method Explained | Term Definition
+  title: "Stream Function Method Explained | Term Definition"
   description: A numerical method that tracks a family of periodic orbits continuously by varying the Jacobi constant. Using the Jacobi constant as a continuation parameter, i
   image: /logo.png
 permalink: /en/glossary/dynamics/stream-function-method/

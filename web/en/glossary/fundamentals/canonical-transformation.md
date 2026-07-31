@@ -1,6 +1,6 @@
 ---
 title: Canonical Transformation
-description: A transformation of phase space variables that preserves the canonical form of Hamilton's equations. The new variables still satisfy Hamilton's canonical equ...
+description: "A transformation of phase space variables that preserves the canonical form of Hamilton's equations. The new variables still satisfy Hamilton's canonical equ..."
 keywords: Canonical Transformation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Canonical Transformation Explained | Term Definition
-  description: A transformation of phase space variables that preserves the canonical form of Hamilton's equations. The new variables still satisfy Hamilton's canonical equ...
+  title: "Canonical Transformation Explained | Term Definition"
+  description: "A transformation of phase space variables that preserves the canonical form of Hamilton's equations. The new variables still satisfy Hamilton's canonical equ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Canonical Transformation Explained | Term Definition
-  description: A transformation of phase space variables that preserves the canonical form of Hamilton's equations. The new variables still satisfy Hamilton's canonical equ...
+  title: "Canonical Transformation Explained | Term Definition"
+  description: "A transformation of phase space variables that preserves the canonical form of Hamilton's equations. The new variables still satisfy Hamilton's canonical equ..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/canonical-transformation/
 ---

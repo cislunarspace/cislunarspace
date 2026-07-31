@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit-to-Orbit Transfer Explained | Term Definition
+  title: "Orbit-to-Orbit Transfer Explained | Term Definition"
   description: Transfer of a spacecraft from one complete orbit to another. Unlike point-to-point transfers, orbit-to-orbit transfers do not fix departure and arrival locat...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit-to-Orbit Transfer Explained | Term Definition
+  title: "Orbit-to-Orbit Transfer Explained | Term Definition"
   description: Transfer of a spacecraft from one complete orbit to another. Unlike point-to-point transfers, orbit-to-orbit transfers do not fix departure and arrival locat...
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-to-orbit-transfer/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: hyperbolic excess velocity Explained | Term Definition
+  title: "hyperbolic excess velocity Explained | Term Definition"
   description: "The velocity of a spacecraft relative to a celestial body after subtracting the body's escape velocity, measured at the sphere of influence boundary. In an unpo"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: hyperbolic excess velocity Explained | Term Definition
+  title: "hyperbolic excess velocity Explained | Term Definition"
   description: "The velocity of a spacecraft relative to a celestial body after subtracting the body's escape velocity, measured at the sphere of influence boundary. In an unpo"
   image: /logo.png
 permalink: /en/glossary/dynamics/hyperbolic-excess-velocity/

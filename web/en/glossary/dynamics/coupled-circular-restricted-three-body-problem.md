@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coupled Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Coupled Circular Restricted Three-Body Problem Explained | Term Definition"
   description: A trajectory modeling approach that patches two Circular Restricted Three-Body Problems together via coordinate transformation. Typically the Sun-Earth CR3BP mo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coupled Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Coupled Circular Restricted Three-Body Problem Explained | Term Definition"
   description: A trajectory modeling approach that patches two Circular Restricted Three-Body Problems together via coordinate transformation. Typically the Sun-Earth CR3BP mo
   image: /logo.png
 permalink: /en/glossary/dynamics/coupled-circular-restricted-three-body-problem/

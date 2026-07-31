@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normalized Units Explained | Term Definition
+  title: "Normalized Units Explained | Term Definition"
   description: "Dimensionless units defined to simplify calculations in the restricted three-body problem. For the Earth-Moon system: unit length is the Earth-Moon distance (~390,877 km), unit time is derived from Ke"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normalized Units Explained | Term Definition
+  title: "Normalized Units Explained | Term Definition"
   description: "Dimensionless units defined to simplify calculations in the restricted three-body problem. For the Earth-Moon system: unit length is the Earth-Moon distance (~390,877 km), unit time is derived from Ke"
   image: /logo.png
 permalink: /en/glossary/fundamentals/normalized-units/

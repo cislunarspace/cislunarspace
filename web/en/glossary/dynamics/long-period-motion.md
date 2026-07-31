@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Long-period Motion Explained | Term Definition
+  title: "Long-period Motion Explained | Term Definition"
   description: One mode of relative motion near triangular libration points, with a period of approximately 458 days and an axis ratio of approximately 16/3. Pure long-peri...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Long-period Motion Explained | Term Definition
+  title: "Long-period Motion Explained | Term Definition"
   description: One mode of relative motion near triangular libration points, with a period of approximately 458 days and an axis ratio of approximately 16/3. Pure long-peri...
   image: /logo.png
 permalink: /en/glossary/dynamics/long-period-motion/

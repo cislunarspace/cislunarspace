@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Occultation Avoidance Explained | Term Definition
+  title: "Lunar Occultation Avoidance Explained | Term Definition"
   description: A constraint in libration point orbit design that prevents the Moon from blocking the line of communication between the spacecraft and Earth. When selecting hal
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Occultation Avoidance Explained | Term Definition
+  title: "Lunar Occultation Avoidance Explained | Term Definition"
   description: A constraint in libration point orbit design that prevents the Moon from blocking the line of communication between the spacecraft and Earth. When selecting hal
   image: /logo.png
 permalink: /en/glossary/observation/lunar-occultation-avoidance/

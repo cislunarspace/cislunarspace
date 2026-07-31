@@ -1,6 +1,6 @@
 ---
 title: Danuri Lunar Orbiter
-description: Introduction to South Korea's Danuri lunar orbiter, its scientific payloads, and its role in lunar exploration
+description: "Introduction to South Korea's Danuri lunar orbiter, its scientific payloads, and its role in lunar exploration"
 keywords: Danuri, lunar orbiter, Korean lunar exploration, KASA, Moon exploration, orbiter
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Danuri Lunar Orbiter Explained | Glossary
-  description: Introduction to South Korea's Danuri lunar orbiter and its scientific payloads
+  title: "Danuri Lunar Orbiter Explained | Glossary"
+  description: "Introduction to South Korea's Danuri lunar orbiter and its scientific payloads"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Danuri Lunar Orbiter Explained | Glossary
-  description: Introduction to South Korea's Danuri lunar orbiter and its scientific payloads
+  title: "Danuri Lunar Orbiter Explained | Glossary"
+  description: "Introduction to South Korea's Danuri lunar orbiter and its scientific payloads"
   image: /logo.png
 permalink: /en/glossary/organizations/danuri/
 ---

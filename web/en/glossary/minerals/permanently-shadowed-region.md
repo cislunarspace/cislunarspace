@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Permanently Shadowed Region Explained | Term Definition
+  title: "Permanently Shadowed Region Explained | Term Definition"
   description: Regions at the bottom of polar craters on the Moon that are permanently shielded from sunlight due to topographic obstruction. With extremely low temperatures, they may contain water ice and other volatiles, making them key targets for lunar resource development. The paper notes that permanently shadowed regions near the lunar south pole may harbor water ice and have become a focus of national lunar exploration.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Permanently Shadowed Region Explained | Term Definition
+  title: "Permanently Shadowed Region Explained | Term Definition"
   description: Regions at the bottom of polar craters on the Moon that are permanently shielded from sunlight due to topographic obstruction. With extremely low temperatures, they may contain water ice and other volatiles, making them key targets for lunar resource development. The paper notes that permanently shadowed regions near the lunar south pole may harbor water ice and have become a focus of national lunar exploration.
   image: /logo.png
 permalink: /en/glossary/minerals/permanently-shadowed-region/

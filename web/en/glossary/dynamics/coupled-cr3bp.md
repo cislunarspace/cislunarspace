@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coupled CR3BP Explained | Term Definition
+  title: "Coupled CR3BP Explained | Term Definition"
   description: An approximate model that couples the Sun-Earth and Earth-Moon CR3BPs by linking them through their orbital phases in inertial space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coupled CR3BP Explained | Term Definition
+  title: "Coupled CR3BP Explained | Term Definition"
   description: An approximate model that couples the Sun-Earth and Earth-Moon CR3BPs by linking them through their orbital phases in inertial space.
   image: /logo.png
 permalink: /en/glossary/dynamics/coupled-cr3bp/

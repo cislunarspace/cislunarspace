@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Drift Trajectory Explained | Term Definition
+  title: "Drift Trajectory Explained | Term Definition"
   description: An orbit constructed using directions corresponding to singular values close to 1 in the Cauchy-Green tensor, enabling a spacecraft to maintain controlled drift near the target halo orbit without dive
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Drift Trajectory Explained | Term Definition
+  title: "Drift Trajectory Explained | Term Definition"
   description: An orbit constructed using directions corresponding to singular values close to 1 in the Cauchy-Green tensor, enabling a spacecraft to maintain controlled drift near the target halo orbit without dive
   image: /logo.png
 permalink: /en/glossary/orbits/drift-trajectory/

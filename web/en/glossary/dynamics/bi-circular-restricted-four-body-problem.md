@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bi-Circular Restricted Four-Body Problem Explained | Term Definition
+  title: "Bi-Circular Restricted Four-Body Problem Explained | Term Definition"
   description: A dynamical model that extends CR3BP by incorporating solar gravitational effects, where the Earth and Moon orbit their common barycenter in circular motion and the Sun orbits in the same plane. Compa...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bi-Circular Restricted Four-Body Problem Explained | Term Definition
+  title: "Bi-Circular Restricted Four-Body Problem Explained | Term Definition"
   description: A dynamical model that extends CR3BP by incorporating solar gravitational effects, where the Earth and Moon orbit their common barycenter in circular motion and the Sun orbits in the same plane. Compa...
   image: /logo.png
 permalink: /en/glossary/dynamics/bi-circular-restricted-four-body-problem/

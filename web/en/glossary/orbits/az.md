@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Out-of-plane Amplitude Explained | Term Definition
+  title: "Out-of-plane Amplitude Explained | Term Definition"
   description: The maximum out-of-plane displacement of a halo orbit in the z-direction, characterizing its three-dimensional nature. In the L2 halo family, Az first increases
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Out-of-plane Amplitude Explained | Term Definition
+  title: "Out-of-plane Amplitude Explained | Term Definition"
   description: The maximum out-of-plane displacement of a halo orbit in the z-direction, characterizing its three-dimensional nature. In the L2 halo family, Az first increases
   image: /logo.png
 permalink: /en/glossary/orbits/az/

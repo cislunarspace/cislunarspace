@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Space Superiority | Space Domain Dominance
+  title: "Space Superiority | Space Domain Dominance"
   description: Space superiority refers to the degree of dominance in the space domain that enables friendly forces to access and exploit space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Superiority | Space Domain Dominance
+  title: "Space Superiority | Space Domain Dominance"
   description: Space superiority refers to the degree of dominance in the space domain that enables friendly forces to access and exploit space.
   image: /logo.png
 permalink: /en/glossary/doctrine/space-superiority/

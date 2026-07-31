@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Orbit Capture | Terminology Definition
+  title: "Orbit Capture | Terminology Definition"
   description: A detailed analysis of the definition and adjustment methods of orbit capture
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Capture | Terminology Definition
+  title: "Orbit Capture | Terminology Definition"
   description: A detailed analysis of the definition and adjustment methods of orbit capture
   image: /logo.png
 permalink: /en/glossary/fundamentals/orbit-capture/

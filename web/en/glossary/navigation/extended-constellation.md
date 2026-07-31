@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Extended Constellation Explained | Term Definition
+  title: "Extended Constellation Explained | Term Definition"
   description: A constellation augmented by adding spacecraft on libration point periodic orbits (from the restricted three-body problem) to a conventional two-body orbit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Extended Constellation Explained | Term Definition
+  title: "Extended Constellation Explained | Term Definition"
   description: A constellation augmented by adding spacecraft on libration point periodic orbits (from the restricted three-body problem) to a conventional two-body orbit...
   image: /logo.png
 permalink: /en/glossary/navigation/extended-constellation/

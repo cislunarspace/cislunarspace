@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Failure Mode Effects and Criticality Analysis, FMECA Explained | Term Definition
+  title: "Failure Mode Effects and Criticality Analysis, FMECA Explained | Term Definition"
   description: An inductive bottom-up failure analysis method used to evaluate potential effects of each failure mode on the system and identify critical items.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Failure Mode Effects and Criticality Analysis, FMECA Explained | Term Definition
+  title: "Failure Mode Effects and Criticality Analysis, FMECA Explained | Term Definition"
   description: An inductive bottom-up failure analysis method used to evaluate potential effects of each failure mode on the system and identify critical items.
   image: /logo.png
 permalink: /en/glossary/fundamentals/failure-mode-effects-and-criticality-analysis/

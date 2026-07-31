@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Translunar Station Explained | Term Definition
+  title: "Translunar Station Explained | Term Definition"
   description: A communication relay station in halo orbit near the L2 point of the Earth-Moon system, enabling continuous communication coverage with the far side of the Moon
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Translunar Station Explained | Term Definition
+  title: "Translunar Station Explained | Term Definition"
   description: A communication relay station in halo orbit near the L2 point of the Earth-Moon system, enabling continuous communication coverage with the far side of the Moon
   image: /logo.png
 permalink: /en/glossary/orbits/translunar-station/

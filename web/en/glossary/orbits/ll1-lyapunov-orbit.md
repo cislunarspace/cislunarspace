@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LL1 Lyapunov Orbit Explained | Term Definition
+  title: "LL1 Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit near the L1 point in the Earth-Moon system. LL1 Lyapunov orbit and its stable/unstable manifolds form the key component of Earth-Moon...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LL1 Lyapunov Orbit Explained | Term Definition
+  title: "LL1 Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit near the L1 point in the Earth-Moon system. LL1 Lyapunov orbit and its stable/unstable manifolds form the key component of Earth-Moon...
   image: /logo.png
 permalink: /en/glossary/orbits/ll1-lyapunov-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exterior Transfer Explained | Term Definition
+  title: "Exterior Transfer Explained | Term Definition"
   description: Transfer to a lunar DRO by patching together Sun-Earth and Earth-Moon three-body solutions, entering via the asymptotic orbit of the Earth-Moon L2 Lyapunov o...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exterior Transfer Explained | Term Definition
+  title: "Exterior Transfer Explained | Term Definition"
   description: Transfer to a lunar DRO by patching together Sun-Earth and Earth-Moon three-body solutions, entering via the asymptotic orbit of the Earth-Moon L2 Lyapunov o...
   image: /logo.png
 permalink: /en/glossary/orbits/exterior-transfer/

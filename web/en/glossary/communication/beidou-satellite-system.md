@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: BeiDou Satellite System Details | Cislunar Communication Infrastructure
+  title: "BeiDou Satellite System Details | Cislunar Communication Infrastructure"
   description: Constellation architecture, inter-satellite link capabilities, and extended applications in cislunar space communication of the BeiDou Satellite Navigation System
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: BeiDou Satellite System Details | Cislunar Communication Infrastructure
+  title: "BeiDou Satellite System Details | Cislunar Communication Infrastructure"
   description: Constellation architecture, inter-satellite link capabilities, and extended applications in cislunar space communication of the BeiDou Satellite Navigation System
   image: /logo.png
 permalink: /en/glossary/communication/beidou-satellite-system/

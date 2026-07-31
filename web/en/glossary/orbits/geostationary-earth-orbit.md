@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geostationary Earth Orbit Explained | Term Definition
+  title: "Geostationary Earth Orbit Explained | Term Definition"
   description: "A circular orbit at 35,793 km altitude with zero inclination and zero eccentricity. A satellite in GEO remains stationary relative to Earth's surface, enabling"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geostationary Earth Orbit Explained | Term Definition
+  title: "Geostationary Earth Orbit Explained | Term Definition"
   description: "A circular orbit at 35,793 km altitude with zero inclination and zero eccentricity. A satellite in GEO remains stationary relative to Earth's surface, enabling"
   image: /logo.png
 permalink: /en/glossary/orbits/geostationary-earth-orbit/

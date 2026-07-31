@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Shooting Method Details | Numerical Technique for Orbit Computation
+  title: "Shooting Method Details | Numerical Technique for Orbit Computation"
   description: Detailed analysis of the shooting method for solving boundary value problems in orbital mechanics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Shooting Method Details | Numerical Technique for Orbit Computation
+  title: "Shooting Method Details | Numerical Technique for Orbit Computation"
   description: Detailed analysis of the shooting method for solving boundary value problems in orbital mechanics
   image: /logo.png
 permalink: /en/glossary/dynamics/shooting-method/

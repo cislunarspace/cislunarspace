@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptic Linear Equations of Relative Motion (ELERM) Explained | Term Definition
+  title: "Elliptic Linear Equations of Relative Motion (ELERM) Explained | Term Definition"
   description: Linearized version of ENERM, obtained by first-order expansion of the non-linear gravitational terms.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptic Linear Equations of Relative Motion (ELERM) Explained | Term Definition
+  title: "Elliptic Linear Equations of Relative Motion (ELERM) Explained | Term Definition"
   description: Linearized version of ENERM, obtained by first-order expansion of the non-linear gravitational terms.
   image: /logo.png
 permalink: /en/glossary/dynamics/elliptic-linear-equations-of-relative-motion-elerm/

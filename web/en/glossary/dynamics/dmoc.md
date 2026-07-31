@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "DMOC" Explained | Term Definition
+  title: "\"DMOC\" Explained | Term Definition"
   description: "A direct local optimal control method based on direct discretization of the variational structure of the mechanical system (Lagrange-d'Alembert principle), using forced discrete Euler-Lagrange equations as equality constraints for nonlinear optimization solved by SQP."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "DMOC" Explained | Term Definition
+  title: "\"DMOC\" Explained | Term Definition"
   description: "A direct local optimal control method based on direct discretization of the variational structure of the mechanical system (Lagrange-d'Alembert principle), using forced discrete Euler-Lagrange equations as equality constraints for nonlinear optimization solved by SQP."
   image: /logo.png
 permalink: /en/glossary/dynamics/dmoc/

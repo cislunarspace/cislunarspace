@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Reentry Phase | Terminology Definition
+  title: "Reentry Phase | Terminology Definition"
   description: A detailed analysis of the reentry phase definition, flight characteristics, aerodynamic heating effects, and critical role
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reentry Phase | Terminology Definition
+  title: "Reentry Phase | Terminology Definition"
   description: A detailed analysis of the reentry phase definition, flight characteristics, aerodynamic heating effects, and critical role
   image: /logo.png
 permalink: /en/glossary/fundamentals/reentry-phase/

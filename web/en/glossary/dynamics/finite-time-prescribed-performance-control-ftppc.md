@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Finite-Time Prescribed Performance Control, FTPPC Explained | Term Definition
+  title: "Finite-Time Prescribed Performance Control, FTPPC Explained | Term Definition"
   description: A control method combining prescribed performance control with finite-time stability theory. By designing a finite-time convergent prescribed performance fun...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Finite-Time Prescribed Performance Control, FTPPC Explained | Term Definition
+  title: "Finite-Time Prescribed Performance Control, FTPPC Explained | Term Definition"
   description: A control method combining prescribed performance control with finite-time stability theory. By designing a finite-time convergent prescribed performance fun...
   image: /logo.png
 permalink: /en/glossary/dynamics/finite-time-prescribed-performance-control-ftppc/

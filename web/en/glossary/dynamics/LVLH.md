@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local Vertical Local Horizontal Frame Explained | Term Definition
+  title: "Local Vertical Local Horizontal Frame Explained | Term Definition"
   description: 当地垂线当地水平坐标系的英文缩写。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local Vertical Local Horizontal Frame Explained | Term Definition
+  title: "Local Vertical Local Horizontal Frame Explained | Term Definition"
   description: 当地垂线当地水平坐标系的英文缩写。
   image: /logo.png
 permalink: /en/glossary/dynamics/LVLH/

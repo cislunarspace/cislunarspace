@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Space Network, DSN Explained | Term Definition
+  title: "Deep Space Network, DSN Explained | Term Definition"
   description: A ground station network providing tracking measurement services including range, range rate, and angular measurement for deep space exploration and cislunar...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Space Network, DSN Explained | Term Definition
+  title: "Deep Space Network, DSN Explained | Term Definition"
   description: A ground station network providing tracking measurement services including range, range rate, and angular measurement for deep space exploration and cislunar...
   image: /logo.png
 permalink: /en/glossary/navigation/DSN/

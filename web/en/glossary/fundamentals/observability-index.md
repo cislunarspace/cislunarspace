@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Observability index Explained | Term Definition
+  title: "Observability index Explained | Term Definition"
   description: The minimum eigenvalue of the Gramian matrix. Used to measure the degree of system observability; values above 10^-3 indicate good observability. Independent...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Observability index Explained | Term Definition
+  title: "Observability index Explained | Term Definition"
   description: The minimum eigenvalue of the Gramian matrix. Used to measure the degree of system observability; values above 10^-3 indicate good observability. Independent...
   image: /logo.png
 permalink: /en/glossary/fundamentals/observability-index/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: x-z Plane Crossing Target Explained | Term Definition
+  title: "x-z Plane Crossing Target Explained | Term Definition"
   description: The core constraint formulation in the Optimal Continuation Strategy. Position or velocity components (e.g., x-velocity) at x-z plane crossings serve as targ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: x-z Plane Crossing Target Explained | Term Definition
+  title: "x-z Plane Crossing Target Explained | Term Definition"
   description: The core constraint formulation in the Optimal Continuation Strategy. Position or velocity components (e.g., x-velocity) at x-z plane crossings serve as targ...
   image: /logo.png
 permalink: /en/glossary/dynamics/x-z-plane-crossing-target/

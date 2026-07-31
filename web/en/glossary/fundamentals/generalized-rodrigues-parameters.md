@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Generalized Rodrigues Parameters Explained | Term Definition
+  title: "Generalized Rodrigues Parameters Explained | Term Definition"
   description: A non-singular attitude error parameter, related to modified Rodrigues parameters and Gibbs vector
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Generalized Rodrigues Parameters Explained | Term Definition
+  title: "Generalized Rodrigues Parameters Explained | Term Definition"
   description: A non-singular attitude error parameter, related to modified Rodrigues parameters and Gibbs vector
   image: /logo.png
 permalink: /en/glossary/fundamentals/generalized-rodrigues-parameters/

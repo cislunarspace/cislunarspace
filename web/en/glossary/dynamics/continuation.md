@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Continuation Method Explained | Orbit Family Parameter Exploration and Numerical Continuation
+  title: "Continuation Method Explained | Orbit Family Parameter Exploration and Numerical Continuation"
   description: Detailed explanation of continuation methods in orbital mechanics — mathematical principles, arc-length continuation algorithms, and applications in cislunar orbit family exploration
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuation Method Explained | Orbit Family Parameter Exploration and Numerical Continuation
+  title: "Continuation Method Explained | Orbit Family Parameter Exploration and Numerical Continuation"
   description: Detailed explanation of continuation methods in orbital mechanics — mathematical principles, arc-length continuation algorithms, and applications in cislunar orbit family exploration
   image: /logo.png
 permalink: /en/glossary/dynamics/continuation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Constant Error Constraint Explained | Term Definition
+  title: "Jacobi Constant Error Constraint Explained | Term Definition"
   description: Control strategy incorporating Jacobi constant error of reference orbit as constraint, combined with SDRE for stationkeeping.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Constant Error Constraint Explained | Term Definition
+  title: "Jacobi Constant Error Constraint Explained | Term Definition"
   description: Control strategy incorporating Jacobi constant error of reference orbit as constraint, combined with SDRE for stationkeeping.
   image: /logo.png
 permalink: /en/glossary/dynamics/jacobi-constant-error-constraint/

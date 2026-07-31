@@ -1,7 +1,7 @@
 ---
 title: Finite Thrust Maneuver
-description: Detailed analysis of finite thrust orbital maneuver optimal control models, the Hamiltonian function, and Pontryagin's minimum principle
-keywords: Finite Thrust Maneuver, optimal control, Hamiltonian function, Pontryagin's minimum principle, switching function
+description: "Detailed analysis of finite thrust orbital maneuver optimal control models, the Hamiltonian function, and Pontryagin's minimum principle"
+keywords: "Finite Thrust Maneuver, optimal control, Hamiltonian function, Pontryagin's minimum principle, switching function"
 author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Finite Thrust Maneuver | Terminology Definition
+  title: "Finite Thrust Maneuver | Terminology Definition"
   description: Detailed analysis of finite thrust orbital maneuver optimal control models
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Finite Thrust Maneuver | Terminology Definition
+  title: "Finite Thrust Maneuver | Terminology Definition"
   description: Detailed analysis of finite thrust orbital maneuver optimal control models
   image: /logo.png
 permalink: /en/glossary/fundamentals/finite-thrust-maneuver/

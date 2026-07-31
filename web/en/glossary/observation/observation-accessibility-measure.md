@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Observation Accessibility Measure Explained | Term Definition
+  title: "Observation Accessibility Measure Explained | Term Definition"
   description: A quantitative measure describing the capability of a moving observation platform to observe a region of space for most of the time, defined based on the cumula
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Observation Accessibility Measure Explained | Term Definition
+  title: "Observation Accessibility Measure Explained | Term Definition"
   description: A quantitative measure describing the capability of a moving observation platform to observe a region of space for most of the time, defined based on the cumula
   image: /logo.png
 permalink: /en/glossary/observation/observation-accessibility-measure/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flow Tube Explained | Term Definition
+  title: "Flow Tube Explained | Term Definition"
   description: The tubular structure formed by invariant manifolds of small-amplitude libration point periodic orbits in phase space. Transit orbits inside the flow tube enable low-energy transfers between Earth and...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flow Tube Explained | Term Definition
+  title: "Flow Tube Explained | Term Definition"
   description: The tubular structure formed by invariant manifolds of small-amplitude libration point periodic orbits in phase space. Transit orbits inside the flow tube enable low-energy transfers between Earth and...
   image: /logo.png
 permalink: /en/glossary/dynamics/flow-tube/

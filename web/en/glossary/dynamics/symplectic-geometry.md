@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Symplectic Geometry Explained | Term Definition
+  title: "Symplectic Geometry Explained | Term Definition"
   description: A branch of differential geometry studying symplectic manifolds and their properties, forming the mathematical foundation of Hamiltonian mechanics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Symplectic Geometry Explained | Term Definition
+  title: "Symplectic Geometry Explained | Term Definition"
   description: A branch of differential geometry studying symplectic manifolds and their properties, forming the mathematical foundation of Hamiltonian mechanics.
   image: /logo.png
 permalink: /en/glossary/dynamics/symplectic-geometry/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Vector Control, TVC Explained | Term Definition
+  title: "Thrust Vector Control, TVC Explained | Term Definition"
   description: "A technique that generates control torques by changing the direction of engine thrust. During lander main engine operation, the engine nozzle is gimbaled to cha"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Vector Control, TVC Explained | Term Definition
+  title: "Thrust Vector Control, TVC Explained | Term Definition"
   description: "A technique that generates control torques by changing the direction of engine thrust. During lander main engine operation, the engine nozzle is gimbaled to cha"
   image: /logo.png
 permalink: /en/glossary/fundamentals/thrust-vector-control-tvc/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dimensionality Reduction Explained | Term Definition
+  title: "Dimensionality Reduction Explained | Term Definition"
   description: In spatial CR3BP two-impulse transfer design, a procedure that fixes the initial speed magnitude and varies the velocity direction angle to find the closest projection point on a section, thereby simp...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dimensionality Reduction Explained | Term Definition
+  title: "Dimensionality Reduction Explained | Term Definition"
   description: In spatial CR3BP two-impulse transfer design, a procedure that fixes the initial speed magnitude and varies the velocity direction angle to find the closest projection point on a section, thereby simp...
   image: /logo.png
 permalink: /en/glossary/fundamentals/dimensionality-reduction/

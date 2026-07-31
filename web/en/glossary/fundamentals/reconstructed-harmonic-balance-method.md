@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Reconstructed Harmonic Balance Method Explained | Term Definition
+  title: "Reconstructed Harmonic Balance Method Explained | Term Definition"
   description: A numerical method for solving periodic orbits of nonlinear dynamical systems, using harmonic expansion and reconstruction techniques to obtain highly accurate
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reconstructed Harmonic Balance Method Explained | Term Definition
+  title: "Reconstructed Harmonic Balance Method Explained | Term Definition"
   description: A numerical method for solving periodic orbits of nonlinear dynamical systems, using harmonic expansion and reconstruction techniques to obtain highly accurate
   image: /logo.png
 permalink: /en/glossary/fundamentals/reconstructed-harmonic-balance-method/

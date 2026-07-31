@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Standard Convex Optimization (SCvx) Explained | Term Definition
+  title: "Standard Convex Optimization (SCvx) Explained | Term Definition"
   description: Convex optimization method using lower-order discretization such as trapezoidal method, with lower accuracy compared to pseudospectral convex optimization.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Standard Convex Optimization (SCvx) Explained | Term Definition
+  title: "Standard Convex Optimization (SCvx) Explained | Term Definition"
   description: Convex optimization method using lower-order discretization such as trapezoidal method, with lower accuracy compared to pseudospectral convex optimization.
   image: /logo.png
 permalink: /en/glossary/dynamics/standard-convex-optimization/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inertial Measurement Unit, IMU Explained | Term Definition
+  title: "Inertial Measurement Unit, IMU Explained | Term Definition"
   description: A sensor assembly consisting of gyroscopes and accelerometers that measures angular velocity and linear acceleration of a spacecraft, providing raw data for inertial navigation. It is the core sens...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inertial Measurement Unit, IMU Explained | Term Definition
+  title: "Inertial Measurement Unit, IMU Explained | Term Definition"
   description: A sensor assembly consisting of gyroscopes and accelerometers that measures angular velocity and linear acceleration of a spacecraft, providing raw data for inertial navigation. It is the core sens...
   image: /logo.png
 permalink: /en/glossary/fundamentals/inertial-measurement-unit-imu/

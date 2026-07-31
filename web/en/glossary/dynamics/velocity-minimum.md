@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Velocity Minimum Explained | Term Definition
+  title: "Velocity Minimum Explained | Term Definition"
   description: 航天器沿轨道运动时，速度大小达到局部最小值的点。在该点施加调向机动，可以最小化改变速度方向所需的能量代价。是四脉冲低能转移方案中第一次脉冲的施加位置。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity Minimum Explained | Term Definition
+  title: "Velocity Minimum Explained | Term Definition"
   description: 航天器沿轨道运动时，速度大小达到局部最小值的点。在该点施加调向机动，可以最小化改变速度方向所需的能量代价。是四脉冲低能转移方案中第一次脉冲的施加位置。
   image: /logo.png
 permalink: /en/glossary/dynamics/velocity-minimum/

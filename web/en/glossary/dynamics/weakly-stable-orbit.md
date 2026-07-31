@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weakly Stable Orbit Explained | Term Definition
+  title: "Weakly Stable Orbit Explained | Term Definition"
   description: An orbit near a libration point whose dynamical system has at least one positive characteristic exponent, causing initial errors to grow exponentially over time. Halo orbits and quasi-periodic orbits...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weakly Stable Orbit Explained | Term Definition
+  title: "Weakly Stable Orbit Explained | Term Definition"
   description: An orbit near a libration point whose dynamical system has at least one positive characteristic exponent, causing initial errors to grow exponentially over time. Halo orbits and quasi-periodic orbits...
   image: /logo.png
 permalink: /en/glossary/dynamics/weakly-stable-orbit/

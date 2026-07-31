@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collision Avoidance Manoeuvre, CAM Explained | Term Definition
+  title: "Collision Avoidance Manoeuvre, CAM Explained | Term Definition"
   description: "An active propulsion manoeuvre executed upon detecting collision risk, pushing the chaser away from the target's safety zones. Classified as Optimal CAM (for KO"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collision Avoidance Manoeuvre, CAM Explained | Term Definition
+  title: "Collision Avoidance Manoeuvre, CAM Explained | Term Definition"
   description: "An active propulsion manoeuvre executed upon detecting collision risk, pushing the chaser away from the target's safety zones. Classified as Optimal CAM (for KO"
   image: /logo.png
 permalink: /en/glossary/navigation/CAM/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Libration Point Spacecraft Body Coordinate System Explained | Attitude Reference
+  title: "Libration Point Spacecraft Body Coordinate System Explained | Attitude Reference"
   description: Detailed analysis of libration point spacecraft body coordinate system definition, coordinate axis directions, and relationship with sensor measurement coordinate system
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point Spacecraft Body Coordinate System Explained | Attitude Reference
+  title: "Libration Point Spacecraft Body Coordinate System Explained | Attitude Reference"
   description: Detailed analysis of libration point spacecraft body coordinate system definition, coordinate axis directions, and relationship with sensor measurement coordinate system
   image: /logo.png
 permalink: /en/glossary/dynamics/libration-spacecraft-body-coordinate/

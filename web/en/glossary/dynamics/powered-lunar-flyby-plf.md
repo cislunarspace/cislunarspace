@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powered Lunar Flyby, PLF Explained | Term Definition
+  title: "Powered Lunar Flyby, PLF Explained | Term Definition"
   description: A maneuver that applies a tangential velocity impulse at the perilune to utilize lunar gravity assist for orbital transfer.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Lunar Flyby, PLF Explained | Term Definition
+  title: "Powered Lunar Flyby, PLF Explained | Term Definition"
   description: A maneuver that applies a tangential velocity impulse at the perilune to utilize lunar gravity assist for orbital transfer.
   image: /logo.png
 permalink: /en/glossary/dynamics/powered-lunar-flyby-plf/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: An Iterative Method that Maps Terminal Constraint Residuals Back to Initial Velocity Corrections via the State Transfer Matrix | Term Definition
+  title: "An Iterative Method that Maps Terminal Constraint Residuals Back to Initial Velocity Corrections via the State Transfer Matrix | Term Definition"
   description: An iterative method that maps terminal constraint residuals back to initial velocity corrections via the state transfer matrix.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: An Iterative Method that Maps Terminal Constraint Residuals Back to Initial Velocity Corrections via the State Transfer Matrix | Term Definition
+  title: "An Iterative Method that Maps Terminal Constraint Residuals Back to Initial Velocity Corrections via the State Transfer Matrix | Term Definition"
   description: An iterative method that maps terminal constraint residuals back to initial velocity corrections via the state transfer matrix.
   image: /logo.png
 permalink: /en/glossary/dynamics/an-iterative-method-that-maps-terminal-constraint-residuals-back-to-initial-velocity-corrections-via/

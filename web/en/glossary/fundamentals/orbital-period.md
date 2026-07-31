@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Period Explained | Term Definition
+  title: "Orbital Period Explained | Term Definition"
   description: The time required for a spacecraft to complete one orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Period Explained | Term Definition
+  title: "Orbital Period Explained | Term Definition"
   description: The time required for a spacecraft to complete one orbit.
   image: /logo.png
 permalink: /en/glossary/fundamentals/orbital-period/

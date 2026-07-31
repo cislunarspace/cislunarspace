@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Pontryagin's Maximum Principle" Explained | Term Definition
+  title: "\"Pontryagin's Maximum Principle\" Explained | Term Definition"
   description: "A fundamental theory of optimal control stating that the optimal control minimizes the Hamiltonian at each instant. When control variables are bounded, the optimal control typically takes values on the boundary of the control domain, forming bang-bang control."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Pontryagin's Maximum Principle" Explained | Term Definition
+  title: "\"Pontryagin's Maximum Principle\" Explained | Term Definition"
   description: "A fundamental theory of optimal control stating that the optimal control minimizes the Hamiltonian at each instant. When control variables are bounded, the optimal control typically takes values on the boundary of the control domain, forming bang-bang control."
   image: /logo.png
 permalink: /en/glossary/dynamics/pontryagins-maximum-principle/

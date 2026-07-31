@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Northern and Southern NRHO Families Explained | Term Definition
+  title: "Northern and Southern NRHO Families Explained | Term Definition"
   description: Near Rectilinear Halo Orbits divided into northern and southern families by the sign of out-of-plane component. Symmetric about the xy-plane of the synodic...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Northern and Southern NRHO Families Explained | Term Definition
+  title: "Northern and Southern NRHO Families Explained | Term Definition"
   description: Near Rectilinear Halo Orbits divided into northern and southern families by the sign of out-of-plane component. Symmetric about the xy-plane of the synodic...
   image: /logo.png
 permalink: /en/glossary/navigation/northern-and-southern-nrho-families/

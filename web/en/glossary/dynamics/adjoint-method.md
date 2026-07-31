@@ -1,6 +1,6 @@
 ---
 title: Adjoint Method
-description: A method that constructs the dual system of an original system and uses the dual system's impulse response to compute optimal control inputs. Applicable to time-varying linear systems, transforming mu...
+description: "A method that constructs the dual system of an original system and uses the dual system's impulse response to compute optimal control inputs. Applicable to time-varying linear systems, transforming mu..."
 keywords: Adjoint Method, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adjoint Method Explained | Term Definition
-  description: A method that constructs the dual system of an original system and uses the dual system's impulse response to compute optimal control inputs. Applicable to time-varying linear systems, transforming mu...
+  title: "Adjoint Method Explained | Term Definition"
+  description: "A method that constructs the dual system of an original system and uses the dual system's impulse response to compute optimal control inputs. Applicable to time-varying linear systems, transforming mu..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adjoint Method Explained | Term Definition
-  description: A method that constructs the dual system of an original system and uses the dual system's impulse response to compute optimal control inputs. Applicable to time-varying linear systems, transforming mu...
+  title: "Adjoint Method Explained | Term Definition"
+  description: "A method that constructs the dual system of an original system and uses the dual system's impulse response to compute optimal control inputs. Applicable to time-varying linear systems, transforming mu..."
   image: /logo.png
 permalink: /en/glossary/dynamics/adjoint-method/
 ---

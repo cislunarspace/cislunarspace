@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Parameter Explained | Term Definition
+  title: "Manifold Parameter Explained | Term Definition"
   description: 描述不变流形上轨道的角参数和时间参数，用于表征稳定流形上任意插入点的位置。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Parameter Explained | Term Definition
+  title: "Manifold Parameter Explained | Term Definition"
   description: 描述不变流形上轨道的角参数和时间参数，用于表征稳定流形上任意插入点的位置。
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-parameter/

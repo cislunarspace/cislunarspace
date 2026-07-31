@@ -1,6 +1,6 @@
 ---
 title: Absolute Phase Bias
-description: A stationkeeping algorithm concept for DRO formation flight: by controlling the deputy's crossing time of the selenocentric X-Z plane to lag behind the chief...
+description: "A stationkeeping algorithm concept for DRO formation flight: by controlling the deputy's crossing time of the selenocentric X-Z plane to lag behind the chief..."
 keywords: Absolute Phase Bias
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Absolute Phase Bias Explained | Term Definition
-  description: A stationkeeping algorithm concept for DRO formation flight: by controlling the deputy's crossing time of the selenocentric X-Z plane to lag behind the chief...
+  title: "Absolute Phase Bias Explained | Term Definition"
+  description: "A stationkeeping algorithm concept for DRO formation flight: by controlling the deputy's crossing time of the selenocentric X-Z plane to lag behind the chief..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Absolute Phase Bias Explained | Term Definition
-  description: A stationkeeping algorithm concept for DRO formation flight: by controlling the deputy's crossing time of the selenocentric X-Z plane to lag behind the chief...
+  title: "Absolute Phase Bias Explained | Term Definition"
+  description: "A stationkeeping algorithm concept for DRO formation flight: by controlling the deputy's crossing time of the selenocentric X-Z plane to lag behind the chief..."
   image: /logo.png
 permalink: /en/glossary/dynamics/absolute-phase-bias/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary Low-energy Transfer Explained | Term Definition
+  title: "Weak Stability Boundary Low-energy Transfer Explained | Term Definition"
   description: A low-energy Earth-Moon transfer method that exploits the weak stability boundary, where the spacecraft transitions between orbits using solar perturbation w...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary Low-energy Transfer Explained | Term Definition
+  title: "Weak Stability Boundary Low-energy Transfer Explained | Term Definition"
   description: A low-energy Earth-Moon transfer method that exploits the weak stability boundary, where the spacecraft transitions between orbits using solar perturbation w...
   image: /logo.png
 permalink: /en/glossary/orbits/weak-stability-boundary-low-energy-transfer/

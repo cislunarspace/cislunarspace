@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Transition Matrix, STM Explained | Term Definition
+  title: "State Transition Matrix, STM Explained | Term Definition"
   description: A first-order approximation of a linear time-varying system that describes how initial perturbations propagate over time; the core tool for Floquet theory,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Transition Matrix, STM Explained | Term Definition
+  title: "State Transition Matrix, STM Explained | Term Definition"
   description: A first-order approximation of a linear time-varying system that describes how initial perturbations propagate over time; the core tool for Floquet theory,...
   image: /logo.png
 permalink: /en/glossary/dynamics/STM/

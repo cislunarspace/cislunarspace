@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Symplectic Transformation Explained | Term Definition
+  title: "Symplectic Transformation Explained | Term Definition"
   description: Canonical transformation that preserves the symplectic structure of the phase space in Hamiltonian systems. The paper uses symplectic transformations to extr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Symplectic Transformation Explained | Term Definition
+  title: "Symplectic Transformation Explained | Term Definition"
   description: Canonical transformation that preserves the symplectic structure of the phase space in Hamiltonian systems. The paper uses symplectic transformations to extr...
   image: /logo.png
 permalink: /en/glossary/dynamics/symplectic-transformation/

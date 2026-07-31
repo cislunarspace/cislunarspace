@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Slack Variable Explained | Term Definition
+  title: "Slack Variable Explained | Term Definition"
   description: An auxiliary variable introduced in nonlinear programming to convert inequality constraints into equality constraints. In multiple shooting, a slack variable tr
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Slack Variable Explained | Term Definition
+  title: "Slack Variable Explained | Term Definition"
   description: An auxiliary variable introduced in nonlinear programming to convert inequality constraints into equality constraints. In multiple shooting, a slack variable tr
   image: /logo.png
 permalink: /en/glossary/fundamentals/slack-variable/

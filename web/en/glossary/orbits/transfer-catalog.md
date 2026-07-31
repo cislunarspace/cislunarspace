@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer Catalog Explained | Term Definition
+  title: "Transfer Catalog Explained | Term Definition"
   description: A collection of available transfer trajectories between libration point orbits in the Earth-Moon system, classified by transfer type and constraints.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer Catalog Explained | Term Definition
+  title: "Transfer Catalog Explained | Term Definition"
   description: A collection of available transfer trajectories between libration point orbits in the Earth-Moon system, classified by transfer type and constraints.
   image: /logo.png
 permalink: /en/glossary/orbits/transfer-catalog/

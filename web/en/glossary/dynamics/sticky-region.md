@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sticky Region Explained | Term Definition
+  title: "Sticky Region Explained | Term Definition"
   description: A stable barrier formed by the stable region near DRO and the sticky region near P3DRO, preventing spacecraft from deviating from or entering DRO. The sticky...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sticky Region Explained | Term Definition
+  title: "Sticky Region Explained | Term Definition"
   description: A stable barrier formed by the stable region near DRO and the sticky region near P3DRO, preventing spacecraft from deviating from or entering DRO. The sticky...
   image: /logo.png
 permalink: /en/glossary/dynamics/sticky-region/

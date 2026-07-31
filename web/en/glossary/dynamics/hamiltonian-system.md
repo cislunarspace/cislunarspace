@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamiltonian System Explained | Term Definition
+  title: "Hamiltonian System Explained | Term Definition"
   description: A system described by a Hamiltonian function, whose canonical equations give the partial derivative of position with respect to momentum and the negative...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian System Explained | Term Definition
+  title: "Hamiltonian System Explained | Term Definition"
   description: A system described by a Hamiltonian function, whose canonical equations give the partial derivative of position with respect to momentum and the negative...
   image: /logo.png
 permalink: /en/glossary/dynamics/hamiltonian-system/

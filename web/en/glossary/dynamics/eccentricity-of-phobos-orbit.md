@@ -1,6 +1,6 @@
 ---
 title: Eccentricity of Phobos Orbit (e)
-description: The eccentricity of Phobos' orbit around Mars, a key parameter describing the elliptical motion of the primary body in ERTBP.
+description: "The eccentricity of Phobos' orbit around Mars, a key parameter describing the elliptical motion of the primary body in ERTBP."
 keywords: Eccentricity of Phobos Orbit, e, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eccentricity of Phobos Orbit (e) Explained | Term Definition
-  description: The eccentricity of Phobos' orbit around Mars, a key parameter describing the elliptical motion of the primary body in ERTBP.
+  title: "Eccentricity of Phobos Orbit (e) Explained | Term Definition"
+  description: "The eccentricity of Phobos' orbit around Mars, a key parameter describing the elliptical motion of the primary body in ERTBP."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eccentricity of Phobos Orbit (e) Explained | Term Definition
-  description: The eccentricity of Phobos' orbit around Mars, a key parameter describing the elliptical motion of the primary body in ERTBP.
+  title: "Eccentricity of Phobos Orbit (e) Explained | Term Definition"
+  description: "The eccentricity of Phobos' orbit around Mars, a key parameter describing the elliptical motion of the primary body in ERTBP."
   image: /logo.png
 permalink: /en/glossary/dynamics/eccentricity-of-phobos-orbit/
 ---

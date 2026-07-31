@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Strobe Map Details | Orbital Dynamics
+  title: "Strobe Map Details | Orbital Dynamics"
   description: A time-fixed map used to simplify the computation of quasi-periodic orbits by reducing the problem to finding invariant curves under a discrete map.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Strobe Map Details | Orbital Dynamics
+  title: "Strobe Map Details | Orbital Dynamics"
   description: A time-fixed map used to simplify the computation of quasi-periodic orbits by reducing the problem to finding invariant curves under a discrete map.
   image: /logo.png
 permalink: /en/glossary/dynamics/strobe-map/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Hill Three-Body Problem Details | Celestial Mechanics
+  title: "Hill Three-Body Problem Details | Celestial Mechanics"
   description: A simplified CR3BP model developed by Hill to study lunar motion by translating the coordinate origin to the second primary and linearizing gravitational terms.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Three-Body Problem Details | Celestial Mechanics
+  title: "Hill Three-Body Problem Details | Celestial Mechanics"
   description: A simplified CR3BP model developed by Hill to study lunar motion by translating the coordinate origin to the second primary and linearizing gravitational terms.
   image: /logo.png
 permalink: /en/glossary/dynamics/hill-three-body/

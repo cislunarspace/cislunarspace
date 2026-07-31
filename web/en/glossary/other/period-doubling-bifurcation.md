@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Period-Doubling Bifurcation Details | Key Phenomenon in Nonlinear Dynamics
+  title: "Period-Doubling Bifurcation Details | Key Phenomenon in Nonlinear Dynamics"
   description: Detailed analysis of the definition, dynamic mechanism, and manifestation of period-doubling bifurcation in DRO orbit families
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Period-Doubling Bifurcation Details | Key Phenomenon in Nonlinear Dynamics
+  title: "Period-Doubling Bifurcation Details | Key Phenomenon in Nonlinear Dynamics"
   description: Detailed analysis of the definition, dynamic mechanism, and manifestation of period-doubling bifurcation in DRO orbit families
   image: /logo.png
 permalink: /en/glossary/other/period-doubling-bifurcation/

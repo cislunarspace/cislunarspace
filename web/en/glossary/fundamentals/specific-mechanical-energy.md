@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Specific Mechanical Energy Explained | Term Definition
+  title: "Specific Mechanical Energy Explained | Term Definition"
   description: "The mechanical energy per unit mass of a spacecraft, defined as the sum of kinetic and potential energy: ξ = v²/2 - μ/r. For elliptical orbits ξ = -μ/(2a), for "
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Specific Mechanical Energy Explained | Term Definition
+  title: "Specific Mechanical Energy Explained | Term Definition"
   description: "The mechanical energy per unit mass of a spacecraft, defined as the sum of kinetic and potential energy: ξ = v²/2 - μ/r. For elliptical orbits ξ = -μ/(2a), for "
   image: /logo.png
 permalink: /en/glossary/fundamentals/specific-mechanical-energy/

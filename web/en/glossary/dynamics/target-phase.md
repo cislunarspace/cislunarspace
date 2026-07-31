@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Target Phase (TPh) Explained | Term Definition
+  title: "Target Phase (TPh) Explained | Term Definition"
   description: In TPhA, the phase angle at a prescribed Poincare section surface where the target state for correction maneuver is located.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Target Phase (TPh) Explained | Term Definition
+  title: "Target Phase (TPh) Explained | Term Definition"
   description: In TPhA, the phase angle at a prescribed Poincare section surface where the target state for correction maneuver is located.
   image: /logo.png
 permalink: /en/glossary/dynamics/target-phase/

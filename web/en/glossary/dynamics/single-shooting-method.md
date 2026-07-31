@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single Shooting Method Explained | Term Definition
+  title: "Single Shooting Method Explained | Term Definition"
   description: A shooting method that matches an integrated trajectory to target conditions through a single matching point. Used in generating periodic orbits in the three-body problem by converting period condi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single Shooting Method Explained | Term Definition
+  title: "Single Shooting Method Explained | Term Definition"
   description: A shooting method that matches an integrated trajectory to target conditions through a single matching point. Used in generating periodic orbits in the three-body problem by converting period condi...
   image: /logo.png
 permalink: /en/glossary/dynamics/single-shooting-method/

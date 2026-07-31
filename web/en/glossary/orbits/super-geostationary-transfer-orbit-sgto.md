@@ -1,6 +1,6 @@
 ---
 title: Super-Geostationary Transfer Orbit (sGTO)
-description: An elliptic transfer orbit with an apogee far beyond geosynchronous altitude, typically several times the GEO radius. In cislunar missions, sGTO serves as a departure orbit for low-thrust transfers, where its high apogee approaches the boundary of Earth's gravitational dominance, facilitating low-energy Earth-Moon transfers via invariant manifolds.
+description: "An elliptic transfer orbit with an apogee far beyond geosynchronous altitude, typically several times the GEO radius. In cislunar missions, sGTO serves as a departure orbit for low-thrust transfers, where its high apogee approaches the boundary of Earth's gravitational dominance, facilitating low-energy Earth-Moon transfers via invariant manifolds."
 keywords: Super-Geostationary Transfer Orbit, sGTO, sGTO, trajectory design, transfer orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Super-Geostationary Transfer Orbit (sGTO) Explained | Term Definition
+  title: "Super-Geostationary Transfer Orbit (sGTO) Explained | Term Definition"
   description: An elliptic transfer orbit with an apogee far beyond geosynchronous altitude, typically several times the GEO radius.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Super-Geostationary Transfer Orbit (sGTO) Explained | Term Definition
+  title: "Super-Geostationary Transfer Orbit (sGTO) Explained | Term Definition"
   description: An elliptic transfer orbit with an apogee far beyond geosynchronous altitude, typically several times the GEO radius.
   image: /logo.png
 permalink: /en/glossary/orbits/super-geostationary-transfer-orbit-sgto/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variable-Time Shooting Explained | Term Definition
+  title: "Variable-Time Shooting Explained | Term Definition"
   description: A shooting method that allows flight time to participate as a free variable in iterative correction.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variable-Time Shooting Explained | Term Definition
+  title: "Variable-Time Shooting Explained | Term Definition"
   description: A shooting method that allows flight time to participate as a free variable in iterative correction.
   image: /logo.png
 permalink: /en/glossary/dynamics/variable-time-shooting/

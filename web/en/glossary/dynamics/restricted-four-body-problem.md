@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Restricted Four-Body Problem Explained | Term Definition
+  title: "Restricted Four-Body Problem Explained | Term Definition"
   description: A dynamical model describing the motion of a spacecraft of negligible mass under the gravitational influence of Earth, Moon, and Sun. Compared with the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Restricted Four-Body Problem Explained | Term Definition
+  title: "Restricted Four-Body Problem Explained | Term Definition"
   description: A dynamical model describing the motion of a spacecraft of negligible mass under the gravitational influence of Earth, Moon, and Sun. Compared with the...
   image: /logo.png
 permalink: /en/glossary/dynamics/restricted-four-body-problem/

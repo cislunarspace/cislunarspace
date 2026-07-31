@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptic Linearized Equations of Motion, ELERM Explained | Term Definition
+  title: "Elliptic Linearized Equations of Motion, ELERM Explained | Term Definition"
   description: Relative motion equations linearized under the elliptic restricted three-body problem framework. Considering the time-varying angular velocity of the primari...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptic Linearized Equations of Motion, ELERM Explained | Term Definition
+  title: "Elliptic Linearized Equations of Motion, ELERM Explained | Term Definition"
   description: Relative motion equations linearized under the elliptic restricted three-body problem framework. Considering the time-varying angular velocity of the primari...
   image: /logo.png
 permalink: /en/glossary/dynamics/elliptic-linearized-equations-of-motion-elerm/

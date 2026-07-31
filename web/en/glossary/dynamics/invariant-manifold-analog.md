@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Invariant Manifold Analog Explained | Term Definition
+  title: "Invariant Manifold Analog Explained | Term Definition"
   description: Time-dependent trajectories in high-fidelity ephemeris models that mimic the behavior of CRTBP invariant manifolds. Computed by propagating the state transition matrix over multiple revolutions of ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Invariant Manifold Analog Explained | Term Definition
+  title: "Invariant Manifold Analog Explained | Term Definition"
   description: Time-dependent trajectories in high-fidelity ephemeris models that mimic the behavior of CRTBP invariant manifolds. Computed by propagating the state transition matrix over multiple revolutions of ...
   image: /logo.png
 permalink: /en/glossary/dynamics/invariant-manifold-analog/

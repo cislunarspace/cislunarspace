@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Propulsion Explained | Term Definition
+  title: "Low-Thrust Propulsion Explained | Term Definition"
   description: A propulsion method characterized by low thrust but long operating duration. Compared with chemical propulsion, low-thrust propulsion offers higher specific imp
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Propulsion Explained | Term Definition
+  title: "Low-Thrust Propulsion Explained | Term Definition"
   description: A propulsion method characterized by low thrust but long operating duration. Compared with chemical propulsion, low-thrust propulsion offers higher specific imp
   image: /logo.png
 permalink: /en/glossary/fundamentals/low-thrust-propulsion/

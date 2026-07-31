@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Collocation Explained | Term Definition
+  title: "Indirect Collocation Explained | Term Definition"
   description: Combining indirect optimal control with collocation to solve TPBVPs, discretizing state and costate trajectories at collocation points to improve convergence re
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Collocation Explained | Term Definition
+  title: "Indirect Collocation Explained | Term Definition"
   description: Combining indirect optimal control with collocation to solve TPBVPs, discretizing state and costate trajectories at collocation points to improve convergence re
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-collocation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Combined Autonomous Orbit Determination, CAOD Explained | Term Definition
+  title: "Combined Autonomous Orbit Determination, CAOD Explained | Term Definition"
   description: Autonomous orbit determination between a lunar satellite and a probe on a special orbit (CLP orbit or DRO), using inter-satellite range data to provide an ab...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Combined Autonomous Orbit Determination, CAOD Explained | Term Definition
+  title: "Combined Autonomous Orbit Determination, CAOD Explained | Term Definition"
   description: Autonomous orbit determination between a lunar satellite and a probe on a special orbit (CLP orbit or DRO), using inter-satellite range data to provide an ab...
   image: /logo.png
 permalink: /en/glossary/navigation/combined-autonomous-orbit-determination-caod/

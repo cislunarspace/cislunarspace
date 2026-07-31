@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Rendezvous Method Explained | Term Definition
+  title: "Perilune Rendezvous Method Explained | Term Definition"
   description: An Earth-to-Moon transfer method intermediate between direct transfer and WSB transfer. After powered lunar swing-by, the spacecraft enters an elongated elli...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Rendezvous Method Explained | Term Definition
+  title: "Perilune Rendezvous Method Explained | Term Definition"
   description: An Earth-to-Moon transfer method intermediate between direct transfer and WSB transfer. After powered lunar swing-by, the spacecraft enters an elongated elli...
   image: /logo.png
 permalink: /en/glossary/orbits/perilune-rendezvous-method/

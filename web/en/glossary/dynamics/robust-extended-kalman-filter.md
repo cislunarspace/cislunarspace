@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Robust Extended Kalman Filter (REKF) Explained | Term Definition
+  title: "Robust Extended Kalman Filter (REKF) Explained | Term Definition"
   description: Extended Kalman filter variant resilient to measurement malfunctions, adaptively adjusting measurement noise covariance via scale factors
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Robust Extended Kalman Filter (REKF) Explained | Term Definition
+  title: "Robust Extended Kalman Filter (REKF) Explained | Term Definition"
   description: Extended Kalman filter variant resilient to measurement malfunctions, adaptively adjusting measurement noise covariance via scale factors
   image: /logo.png
 permalink: /en/glossary/dynamics/robust-extended-kalman-filter/

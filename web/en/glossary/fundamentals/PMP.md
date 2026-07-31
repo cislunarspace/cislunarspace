@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pontryagin Maximum Principle Explained | Term Definition
+  title: "Pontryagin Maximum Principle Explained | Term Definition"
   description: A fundamental theorem of optimal control theory stating that the optimal control must minimize the Hamiltonian globally, yielding the control law and costate eq
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pontryagin Maximum Principle Explained | Term Definition
+  title: "Pontryagin Maximum Principle Explained | Term Definition"
   description: A fundamental theorem of optimal control theory stating that the optimal control must minimize the Hamiltonian globally, yielding the control law and costate eq
   image: /logo.png
 permalink: /en/glossary/fundamentals/PMP/

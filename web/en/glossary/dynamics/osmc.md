@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Sliding Mode Control, OSMC Explained | Term Definition
+  title: "Optimal Sliding Mode Control, OSMC Explained | Term Definition"
   description: A composite control method combining optimal control with sliding mode control. The sliding surface embeds the feedback gain of linear quadratic optimal control
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Sliding Mode Control, OSMC Explained | Term Definition
+  title: "Optimal Sliding Mode Control, OSMC Explained | Term Definition"
   description: A composite control method combining optimal control with sliding mode control. The sliding surface embeds the feedback gain of linear quadratic optimal control
   image: /logo.png
 permalink: /en/glossary/dynamics/osmc/

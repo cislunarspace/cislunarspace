@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normally Hyperbolic Invariant Manifold Explained | Term Definition
+  title: "Normally Hyperbolic Invariant Manifold Explained | Term Definition"
   description: 法向双曲不变流形，一种在双曲方向膨胀而在中心方向中性的不变集合，是相空间中的瓶颈结构。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normally Hyperbolic Invariant Manifold Explained | Term Definition
+  title: "Normally Hyperbolic Invariant Manifold Explained | Term Definition"
   description: 法向双曲不变流形，一种在双曲方向膨胀而在中心方向中性的不变集合，是相空间中的瓶颈结构。
   image: /logo.png
 permalink: /en/glossary/dynamics/normally-hyperbolic-invariant-manifold/

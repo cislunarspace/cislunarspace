@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parameter Condition Explained | Term Definition
+  title: "Parameter Condition Explained | Term Definition"
   description: Transversality condition satisfied by unknown time parameters (initial and final epochs) in optimal control problems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parameter Condition Explained | Term Definition
+  title: "Parameter Condition Explained | Term Definition"
   description: Transversality condition satisfied by unknown time parameters (initial and final epochs) in optimal control problems.
   image: /logo.png
 permalink: /en/glossary/dynamics/parameter-condition/

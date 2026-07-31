@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Four-Body Problem Explained | Term Definition
+  title: "Four-Body Problem Explained | Term Definition"
   description: The dynamical problem of four bodies under mutual gravitational attraction. In this paper, it extends the Earth-Moon restricted three-body problem by adding the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Four-Body Problem Explained | Term Definition
+  title: "Four-Body Problem Explained | Term Definition"
   description: The dynamical problem of four bodies under mutual gravitational attraction. In this paper, it extends the Earth-Moon restricted three-body problem by adding the
   image: /logo.png
 permalink: /en/glossary/dynamics/four-body-problem/

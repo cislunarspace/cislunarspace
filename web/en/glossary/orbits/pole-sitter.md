@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pole-Sitter Explained | Term Definition
+  title: "Pole-Sitter Explained | Term Definition"
   description: A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. In the Earth-moon system, pole-sitting requires continuous thrust to counteract the co
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pole-Sitter Explained | Term Definition
+  title: "Pole-Sitter Explained | Term Definition"
   description: A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. In the Earth-moon system, pole-sitting requires continuous thrust to counteract the co
   image: /logo.png
 permalink: /en/glossary/orbits/pole-sitter/

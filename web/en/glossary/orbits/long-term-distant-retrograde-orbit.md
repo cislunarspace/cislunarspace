@@ -1,6 +1,6 @@
 ---
 title: Long Term Distant Retrograde Orbit
-description: A lunar DRO that remains bounded under Sun's gravitational perturbation over a predefined mission lifetime. The orbit is quasi-periodic rather than strictly per
+description: "A lunar DRO that remains bounded under Sun's gravitational perturbation over a predefined mission lifetime. The orbit is quasi-periodic rather than strictly per"
 keywords: Long Term Distant Retrograde Orbit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Long Term Distant Retrograde Orbit Explained | Term Definition
-  description: A lunar DRO that remains bounded under Sun's gravitational perturbation over a predefined mission lifetime. The orbit is quasi-periodic rather than strictly per
+  title: "Long Term Distant Retrograde Orbit Explained | Term Definition"
+  description: "A lunar DRO that remains bounded under Sun's gravitational perturbation over a predefined mission lifetime. The orbit is quasi-periodic rather than strictly per"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Long Term Distant Retrograde Orbit Explained | Term Definition
-  description: A lunar DRO that remains bounded under Sun's gravitational perturbation over a predefined mission lifetime. The orbit is quasi-periodic rather than strictly per
+  title: "Long Term Distant Retrograde Orbit Explained | Term Definition"
+  description: "A lunar DRO that remains bounded under Sun's gravitational perturbation over a predefined mission lifetime. The orbit is quasi-periodic rather than strictly per"
   image: /logo.png
 permalink: /en/glossary/orbits/long-term-distant-retrograde-orbit/
 ---

@@ -1,23 +1,23 @@
 ---
 title: Changeite-Mg (Magnesium Changeite)
-description: Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples
-keywords: Changeite-Mg, magnesium changeite, Chang'e-5, new lunar mineral, calcium rare-earth phosphate, lunar exploration
+description: "Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples"
+keywords: "Changeite-Mg, magnesium changeite, Chang'e-5, new lunar mineral, calcium rare-earth phosphate, lunar exploration"
 author: Tianjiang Shuo
 date: 2026-04-24
 lastUpdated: 2026-04-24
 wechatShare:
   title: Changeite-Mg
-  desc: A new lunar mineral discovered from Chang'e-5 samples — Changeite-Mg
+  desc: "A new lunar mineral discovered from Chang'e-5 samples — Changeite-Mg"
   image: /logo.png
 og:
-  title: Changeite-Mg | Cislunar Space Glossary
-  description: Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples
+  title: "Changeite-Mg | Cislunar Space Glossary"
+  description: "Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Changeite-Mg | Cislunar Space Glossary
-  description: Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples
+  title: "Changeite-Mg | Cislunar Space Glossary"
+  description: "Detailed introduction of Changeite-Mg, a new mineral discovered from Chang'e-5 lunar samples"
   image: /logo.png
 permalink: /en/glossary/minerals/mg-changeite/
 ---

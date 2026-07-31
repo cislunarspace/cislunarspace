@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Total Velocity Impulse Explained | Term Definition
+  title: "Total Velocity Impulse Explained | Term Definition"
   description: The sum of all velocity impulses required to complete a full orbital transfer. In the paper, the total velocity impulse is approximately 3.28 km/s, including th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Total Velocity Impulse Explained | Term Definition
+  title: "Total Velocity Impulse Explained | Term Definition"
   description: The sum of all velocity impulses required to complete a full orbital transfer. In the paper, the total velocity impulse is approximately 3.28 km/s, including th
   image: /logo.png
 permalink: /en/glossary/dynamics/δvtotal/

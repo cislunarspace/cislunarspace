@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Surface-to-Mass Ratio Explained | Term Definition
+  title: "Surface-to-Mass Ratio Explained | Term Definition"
   description: "The ratio of a debris or spacecraft's cross-sectional area to its mass, typically measured in m²/kg. The surface-to-mass ratio determines the sensitivity of..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Surface-to-Mass Ratio Explained | Term Definition
+  title: "Surface-to-Mass Ratio Explained | Term Definition"
   description: "The ratio of a debris or spacecraft's cross-sectional area to its mass, typically measured in m²/kg. The surface-to-mass ratio determines the sensitivity of..."
   image: /logo.png
 permalink: /en/glossary/dynamics/surface-to-mass-ratio/

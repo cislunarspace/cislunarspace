@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relativistic Correction Explained | Term Definition
+  title: "Relativistic Correction Explained | Term Definition"
   description: "A technique for correcting time and space metric deviations caused by general relativity in high-precision navigation and orbit determination. In cislunar inter"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relativistic Correction Explained | Term Definition
+  title: "Relativistic Correction Explained | Term Definition"
   description: "A technique for correcting time and space metric deviations caused by general relativity in high-precision navigation and orbit determination. In cislunar inter"
   image: /logo.png
 permalink: /en/glossary/dynamics/relativistic-correction/

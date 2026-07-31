@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ballistic Lunar Transfer Explained | Term Definition
+  title: "Ballistic Lunar Transfer Explained | Term Definition"
   description: An Earth-Moon transfer trajectory that relies primarily on natural dynamics with minimal maneuvers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Lunar Transfer Explained | Term Definition
+  title: "Ballistic Lunar Transfer Explained | Term Definition"
   description: An Earth-Moon transfer trajectory that relies primarily on natural dynamics with minimal maneuvers.
   image: /logo.png
 permalink: /en/glossary/orbits/ballistic-lunar-transfer/

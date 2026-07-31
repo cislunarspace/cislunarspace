@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Stable Periodic Distant Retrograde Orbit, SPDRO Explained | Term Definition
+  title: "Stable Periodic Distant Retrograde Orbit, SPDRO Explained | Term Definition"
   description: A stable periodic orbit residing at the core of the distant retrograde region in the circular restricted three-body problem. It is symmetric about the x-axis of
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stable Periodic Distant Retrograde Orbit, SPDRO Explained | Term Definition
+  title: "Stable Periodic Distant Retrograde Orbit, SPDRO Explained | Term Definition"
   description: A stable periodic orbit residing at the core of the distant retrograde region in the circular restricted three-body problem. It is symmetric about the x-axis of
   image: /logo.png
 permalink: /en/glossary/orbits/spdro/

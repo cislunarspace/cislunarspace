@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Product Designed Quadrature Explained | Term Definition
+  title: "Non-Product Designed Quadrature Explained | Term Definition"
   description: A numerical integration method that minimizes the number of quadrature points. Unlike tensor-product quadrature whose point count grows exponentially with di...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Product Designed Quadrature Explained | Term Definition
+  title: "Non-Product Designed Quadrature Explained | Term Definition"
   description: A numerical integration method that minimizes the number of quadrature points. Unlike tensor-product quadrature whose point count grows exponentially with di...
   image: /logo.png
 permalink: /en/glossary/dynamics/non-product-designed-quadrature/

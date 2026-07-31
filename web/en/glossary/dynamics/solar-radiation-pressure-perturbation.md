@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Radiation Pressure Perturbation Explained | Term Definition
+  title: "Solar Radiation Pressure Perturbation Explained | Term Definition"
   description: Non-gravitational perturbation caused by solar photons hitting the satellite surface. Solar radiation pressure is one of the main perturbation sources for navigation satellites, and its precise modeli...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Radiation Pressure Perturbation Explained | Term Definition
+  title: "Solar Radiation Pressure Perturbation Explained | Term Definition"
   description: Non-gravitational perturbation caused by solar photons hitting the satellite surface. Solar radiation pressure is one of the main perturbation sources for navigation satellites, and its precise modeli...
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-radiation-pressure-perturbation/

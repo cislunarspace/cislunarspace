@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Primer Vector Theory Explained | Term Definition
+  title: "Primer Vector Theory Explained | Term Definition"
   description: Optimal trajectory theory proposed by Lawden. The primer vector is the negative of the costate velocity vector and determines the optimal thrust direction (along the primer vector) and the switching t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Primer Vector Theory Explained | Term Definition
+  title: "Primer Vector Theory Explained | Term Definition"
   description: Optimal trajectory theory proposed by Lawden. The primer vector is the negative of the costate velocity vector and determines the optimal thrust direction (along the primer vector) and the switching t...
   image: /logo.png
 permalink: /en/glossary/dynamics/primer-vector-theory/

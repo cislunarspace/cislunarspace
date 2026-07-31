@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Output Feedback Linearization Explained | Term Definition
+  title: "Output Feedback Linearization Explained | Term Definition"
   description: A control method that applies feedback linearization only to the system output rather than all states, suitable when only the output needs to be controlled.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Output Feedback Linearization Explained | Term Definition
+  title: "Output Feedback Linearization Explained | Term Definition"
   description: A control method that applies feedback linearization only to the system output rather than all states, suitable when only the output needs to be controlled.
   image: /logo.png
 permalink: /en/glossary/dynamics/output-feedback-linearization/

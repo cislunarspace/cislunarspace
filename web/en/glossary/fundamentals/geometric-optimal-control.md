@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geometric Optimal Control Explained | Term Definition
+  title: "Geometric Optimal Control Explained | Term Definition"
   description: A theoretical framework that applies differential geometry to optimal control problems. It treats optimal control problems as geometric objects on state spaces, using tools such as the maximum princip...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geometric Optimal Control Explained | Term Definition
+  title: "Geometric Optimal Control Explained | Term Definition"
   description: A theoretical framework that applies differential geometry to optimal control problems. It treats optimal control problems as geometric objects on state spaces, using tools such as the maximum princip...
   image: /logo.png
 permalink: /en/glossary/fundamentals/geometric-optimal-control/

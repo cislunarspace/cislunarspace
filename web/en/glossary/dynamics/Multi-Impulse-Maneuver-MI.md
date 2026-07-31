@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Impulse Maneuver, MI Explained | Term Definition
+  title: "Multi-Impulse Maneuver, MI Explained | Term Definition"
   description: Strategy using multiple impulses during transfer to increase flexibility, relax execution accuracy constraints, and accommodate navigation errors.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Impulse Maneuver, MI Explained | Term Definition
+  title: "Multi-Impulse Maneuver, MI Explained | Term Definition"
   description: Strategy using multiple impulses during transfer to increase flexibility, relax execution accuracy constraints, and accommodate navigation errors.
   image: /logo.png
 permalink: /en/glossary/dynamics/Multi-Impulse-Maneuver-MI/

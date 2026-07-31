@@ -1,6 +1,6 @@
 ---
 title: Halo Capture Stage
-description: The second phase of a translunar transfer trajectory. Using the exterior stable branch of the target halo orbit's invariant manifold in the EM CRTBP, the tra...
+description: "The second phase of a translunar transfer trajectory. Using the exterior stable branch of the target halo orbit's invariant manifold in the EM CRTBP, the tra..."
 keywords: Halo Capture Stage
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Capture Stage Explained | Term Definition
-  description: The second phase of a translunar transfer trajectory. Using the exterior stable branch of the target halo orbit's invariant manifold in the EM CRTBP, the tra...
+  title: "Halo Capture Stage Explained | Term Definition"
+  description: "The second phase of a translunar transfer trajectory. Using the exterior stable branch of the target halo orbit's invariant manifold in the EM CRTBP, the tra..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Capture Stage Explained | Term Definition
-  description: The second phase of a translunar transfer trajectory. Using the exterior stable branch of the target halo orbit's invariant manifold in the EM CRTBP, the tra...
+  title: "Halo Capture Stage Explained | Term Definition"
+  description: "The second phase of a translunar transfer trajectory. Using the exterior stable branch of the target halo orbit's invariant manifold in the EM CRTBP, the tra..."
   image: /logo.png
 permalink: /en/glossary/orbits/halo-capture-stage/
 ---

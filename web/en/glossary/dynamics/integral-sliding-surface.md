@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Integral Sliding Surface Explained | Term Definition
+  title: "Integral Sliding Surface Explained | Term Definition"
   description: A sliding surface design in sliding mode control that adds an integral term of state deviation to the conventional state deviation term. The integral term accum
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Integral Sliding Surface Explained | Term Definition
+  title: "Integral Sliding Surface Explained | Term Definition"
   description: A sliding surface design in sliding mode control that adds an integral term of state deviation to the conventional state deviation term. The integral term accum
   image: /logo.png
 permalink: /en/glossary/dynamics/integral-sliding-surface/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spatial Bi-Circular Model Explained | Term Definition
+  title: "Spatial Bi-Circular Model Explained | Term Definition"
   description: An analytical four-body model including gravitational forces from the Sun, Earth and Moon, assuming the Earth-Moon barycenter moves in Keplerian circular mot...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spatial Bi-Circular Model Explained | Term Definition
+  title: "Spatial Bi-Circular Model Explained | Term Definition"
   description: An analytical four-body model including gravitational forces from the Sun, Earth and Moon, assuming the Earth-Moon barycenter moves in Keplerian circular mot...
   image: /logo.png
 permalink: /en/glossary/dynamics/spatial-bi-circular-model/

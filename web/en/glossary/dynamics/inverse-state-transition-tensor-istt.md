@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inverse State Transition Tensor, ISTT Explained | Term Definition
+  title: "Inverse State Transition Tensor, ISTT Explained | Term Definition"
   description: High-order state transition tensors obtained by backward integration from the terminal time. When multiplied with forward STTs, they yield state transition r...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inverse State Transition Tensor, ISTT Explained | Term Definition
+  title: "Inverse State Transition Tensor, ISTT Explained | Term Definition"
   description: High-order state transition tensors obtained by backward integration from the terminal time. When multiplied with forward STTs, they yield state transition r...
   image: /logo.png
 permalink: /en/glossary/dynamics/inverse-state-transition-tensor-istt/

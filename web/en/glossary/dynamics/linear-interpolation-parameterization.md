@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Interpolation Parameterization Explained | Term Definition
+  title: "Linear Interpolation Parameterization Explained | Term Definition"
   description: A numerical method for discretizing continuous control functions. The function is evaluated at a set of control nodes with linear interpolation between them,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Interpolation Parameterization Explained | Term Definition
+  title: "Linear Interpolation Parameterization Explained | Term Definition"
   description: A numerical method for discretizing continuous control functions. The function is evaluated at a set of control nodes with linear interpolation between them,...
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-interpolation-parameterization/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hybrid Differential Dynamic Programming, HDDP (HDDP) Explained | Term Definition
+  title: "Hybrid Differential Dynamic Programming, HDDP (HDDP) Explained | Term Definition"
   description: A trajectory optimization algorithm that extends differential dynamic programming (DDP) with augmented Lagrangian constraint handling and trust-region regulariz
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hybrid Differential Dynamic Programming, HDDP (HDDP) Explained | Term Definition
+  title: "Hybrid Differential Dynamic Programming, HDDP (HDDP) Explained | Term Definition"
   description: A trajectory optimization algorithm that extends differential dynamic programming (DDP) with augmented Lagrangian constraint handling and trust-region regulariz
   image: /logo.png
 permalink: /en/glossary/dynamics/hybrid-differential-dynamic-programming-hddp/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Closest Approach Vector, CAV Explained | Term Definition
+  title: "Closest Approach Vector, CAV Explained | Term Definition"
   description: The relative position vector with the smallest norm between chaser and target, representing the time and direction of closest approach along a trajectory. Collision avoidance optimization aims to push the CAV outside the safety boundary.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Closest Approach Vector, CAV Explained | Term Definition
+  title: "Closest Approach Vector, CAV Explained | Term Definition"
   description: The relative position vector with the smallest norm between chaser and target, representing the time and direction of closest approach along a trajectory. Collision avoidance optimization aims to push the CAV outside the safety boundary.
   image: /logo.png
 permalink: /en/glossary/navigation/closest-approach-vector-cav/

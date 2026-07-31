@@ -1,6 +1,6 @@
 ---
 title: Hill Model
-description: An approximate model of the restricted three-body problem, applicable when the spacecraft's range of motion is much smaller than the distance between the two...
+description: "An approximate model of the restricted three-body problem, applicable when the spacecraft's range of motion is much smaller than the distance between the two..."
 keywords: Hill Model, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill Model Explained | Term Definition
-  description: An approximate model of the restricted three-body problem, applicable when the spacecraft's range of motion is much smaller than the distance between the two...
+  title: "Hill Model Explained | Term Definition"
+  description: "An approximate model of the restricted three-body problem, applicable when the spacecraft's range of motion is much smaller than the distance between the two..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Model Explained | Term Definition
-  description: An approximate model of the restricted three-body problem, applicable when the spacecraft's range of motion is much smaller than the distance between the two...
+  title: "Hill Model Explained | Term Definition"
+  description: "An approximate model of the restricted three-body problem, applicable when the spacecraft's range of motion is much smaller than the distance between the two..."
   image: /logo.png
 permalink: /en/glossary/dynamics/hill-model/
 ---

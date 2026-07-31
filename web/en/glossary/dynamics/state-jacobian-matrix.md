@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Jacobian Matrix Explained | Term Definition
+  title: "State Jacobian Matrix Explained | Term Definition"
   description: Matrix of partial derivatives of the nonlinear state transition function with respect to the state vector, used to compute the state transition matrix and linearize orbital dynamics in EKF.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Jacobian Matrix Explained | Term Definition
+  title: "State Jacobian Matrix Explained | Term Definition"
   description: Matrix of partial derivatives of the nonlinear state transition function with respect to the state vector, used to compute the state transition matrix and linearize orbital dynamics in EKF.
   image: /logo.png
 permalink: /en/glossary/dynamics/state-jacobian-matrix/

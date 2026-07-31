@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gauss Pseudospectral Method, GPM Explained | Term Definition
+  title: "Gauss Pseudospectral Method, GPM Explained | Term Definition"
   description: A pseudospectral method that discretizes continuous optimal control problems into nonlinear programming using Gauss points as nodes and Lagrange polynomials to...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gauss Pseudospectral Method, GPM Explained | Term Definition
+  title: "Gauss Pseudospectral Method, GPM Explained | Term Definition"
   description: A pseudospectral method that discretizes continuous optimal control problems into nonlinear programming using Gauss points as nodes and Lagrange polynomials to...
   image: /logo.png
 permalink: /en/glossary/dynamics/GPM/

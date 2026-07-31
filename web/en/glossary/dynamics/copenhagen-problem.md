@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Copenhagen Problem Explained | Term Definition
+  title: "Copenhagen Problem Explained | Term Definition"
   description: 质量比μ=1/2的限制性三体问题，此时两天体质量相等。该问题具有特殊对称性，在文献中常作为数值计算的基准案例。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Copenhagen Problem Explained | Term Definition
+  title: "Copenhagen Problem Explained | Term Definition"
   description: 质量比μ=1/2的限制性三体问题，此时两天体质量相等。该问题具有特殊对称性，在文献中常作为数值计算的基准案例。
   image: /logo.png
 permalink: /en/glossary/dynamics/copenhagen-problem/

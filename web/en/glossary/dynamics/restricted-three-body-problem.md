@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Restricted Three-Body Problem Explained | Term Definition
+  title: "Restricted Three-Body Problem Explained | Term Definition"
   description: A three-body system where two massive bodies (primaries) revolve around each other in circular orbits, while a third body (of negligible mass) is attracted by the primaries but does not influence thei...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Restricted Three-Body Problem Explained | Term Definition
+  title: "Restricted Three-Body Problem Explained | Term Definition"
   description: A three-body system where two massive bodies (primaries) revolve around each other in circular orbits, while a third body (of negligible mass) is attracted by the primaries but does not influence thei...
   image: /logo.png
 permalink: /en/glossary/dynamics/restricted-three-body-problem/

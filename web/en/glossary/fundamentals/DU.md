@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Distance Unit Explained | Term Definition
+  title: "Distance Unit Explained | Term Definition"
   description: Length reference in canonical units, equal to the mean equatorial radius of the primary body.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Distance Unit Explained | Term Definition
+  title: "Distance Unit Explained | Term Definition"
   description: Length reference in canonical units, equal to the mean equatorial radius of the primary body.
   image: /logo.png
 permalink: /en/glossary/fundamentals/DU/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hardware-in-the-Loop Explained | Term Definition
+  title: "Hardware-in-the-Loop Explained | Term Definition"
   description: A verification method that integrates real hardware subsystems into a closed-loop simulation environment to validate hardware-software integration.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hardware-in-the-Loop Explained | Term Definition
+  title: "Hardware-in-the-Loop Explained | Term Definition"
   description: A verification method that integrates real hardware subsystems into a closed-loop simulation environment to validate hardware-software integration.
   image: /logo.png
 permalink: /en/glossary/fundamentals/hardware-in-the-loop/

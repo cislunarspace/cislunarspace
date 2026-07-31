@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interior Interval Explained | Term Definition
+  title: "Interior Interval Explained | Term Definition"
   description: The subinterval of an optimal trajectory where a state constraint is inactive (i.e., holds as a strict inequality). The Lagrange multiplier for the constrain...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interior Interval Explained | Term Definition
+  title: "Interior Interval Explained | Term Definition"
   description: The subinterval of an optimal trajectory where a state constraint is inactive (i.e., holds as a strict inequality). The Lagrange multiplier for the constrain...
   image: /logo.png
 permalink: /en/glossary/dynamics/interior-interval/

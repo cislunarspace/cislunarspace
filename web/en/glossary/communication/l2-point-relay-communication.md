@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L2 Point Relay Communication Explained | Term Definition
+  title: "L2 Point Relay Communication Explained | Term Definition"
   description: Continuous communication between Earth and the lunar far side using relay satellites in orbits near the Earth-Moon L2 point. Satellites on L2 Halo orbits mainta
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L2 Point Relay Communication Explained | Term Definition
+  title: "L2 Point Relay Communication Explained | Term Definition"
   description: Continuous communication between Earth and the lunar far side using relay satellites in orbits near the Earth-Moon L2 point. Satellites on L2 Halo orbits mainta
   image: /logo.png
 permalink: /en/glossary/communication/l2-point-relay-communication/

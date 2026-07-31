@@ -1,6 +1,6 @@
 ---
 title: Non-Spherical Gravitational Potential
-description: Additional gravitational potential caused by a celestial body's oblateness and non-uniform mass distribution, after removing the point-mass gravity. The J₂ t...
+description: "Additional gravitational potential caused by a celestial body's oblateness and non-uniform mass distribution, after removing the point-mass gravity. The J₂ t..."
 keywords: Non-Spherical Gravitational Potential
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Spherical Gravitational Potential Explained | Term Definition
-  description: Additional gravitational potential caused by a celestial body's oblateness and non-uniform mass distribution, after removing the point-mass gravity. The J₂ t...
+  title: "Non-Spherical Gravitational Potential Explained | Term Definition"
+  description: "Additional gravitational potential caused by a celestial body's oblateness and non-uniform mass distribution, after removing the point-mass gravity. The J₂ t..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Spherical Gravitational Potential Explained | Term Definition
-  description: Additional gravitational potential caused by a celestial body's oblateness and non-uniform mass distribution, after removing the point-mass gravity. The J₂ t...
+  title: "Non-Spherical Gravitational Potential Explained | Term Definition"
+  description: "Additional gravitational potential caused by a celestial body's oblateness and non-uniform mass distribution, after removing the point-mass gravity. The J₂ t..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/non-spherical-gravitational-potential/
 ---

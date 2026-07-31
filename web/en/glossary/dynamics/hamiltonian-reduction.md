@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hamiltonian Reduction Explained | Term Definition
+  title: "Hamiltonian Reduction Explained | Term Definition"
   description: A method of reducing degrees of freedom in Hamiltonian systems using symmetries and conserved quantities.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian Reduction Explained | Term Definition
+  title: "Hamiltonian Reduction Explained | Term Definition"
   description: A method of reducing degrees of freedom in Hamiltonian systems using symmetries and conserved quantities.
   image: /logo.png
 permalink: /en/glossary/dynamics/hamiltonian-reduction/

@@ -1,6 +1,6 @@
 ---
 title: Orbital Boundary Value Problem
-description: The problem of finding an orbit given initial and terminal states; fundamental in trajectory design, including classic cases such as Lambert's problem.
+description: "The problem of finding an orbit given initial and terminal states; fundamental in trajectory design, including classic cases such as Lambert's problem."
 keywords: Orbital Boundary Value Problem
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Boundary Value Problem Explained | Term Definition
-  description: The problem of finding an orbit given initial and terminal states; fundamental in trajectory design, including classic cases such as Lambert's problem.
+  title: "Orbital Boundary Value Problem Explained | Term Definition"
+  description: "The problem of finding an orbit given initial and terminal states; fundamental in trajectory design, including classic cases such as Lambert's problem."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Boundary Value Problem Explained | Term Definition
-  description: The problem of finding an orbit given initial and terminal states; fundamental in trajectory design, including classic cases such as Lambert's problem.
+  title: "Orbital Boundary Value Problem Explained | Term Definition"
+  description: "The problem of finding an orbit given initial and terminal states; fundamental in trajectory design, including classic cases such as Lambert's problem."
   image: /logo.png
 permalink: /en/glossary/dynamics/orbital-boundary-value-problem/
 ---

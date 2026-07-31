@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 1-1 Resonance Explained | Term Definition
+  title: "1-1 Resonance Explained | Term Definition"
   description: The resonance when the short-period frequency equals the solar synodic frequency, identified as the source of unstable tori in the bicircular problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 1-1 Resonance Explained | Term Definition
+  title: "1-1 Resonance Explained | Term Definition"
   description: The resonance when the short-period frequency equals the solar synodic frequency, identified as the source of unstable tori in the bicircular problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/1-1-resonance/

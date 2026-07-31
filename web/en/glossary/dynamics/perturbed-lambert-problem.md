@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perturbed Lambert Problem Explained | Term Definition
+  title: "Perturbed Lambert Problem Explained | Term Definition"
   description: A two-point boundary value problem that extends the classical Lambert problem (finding a connecting orbit given two position vectors and flight time) by incorporating multi-body gravitational perturba...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perturbed Lambert Problem Explained | Term Definition
+  title: "Perturbed Lambert Problem Explained | Term Definition"
   description: A two-point boundary value problem that extends the classical Lambert problem (finding a connecting orbit given two position vectors and flight time) by incorporating multi-body gravitational perturba...
   image: /logo.png
 permalink: /en/glossary/dynamics/perturbed-lambert-problem/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Transfer Orbit (LTO) Explained | Term Definition
+  title: "Lunar Transfer Orbit (LTO) Explained | Term Definition"
   description: The elliptical orbit entered after TLI, with perigee near Earth and apogee extending into the lunar orbital region. The spacecraft flies along the LTO for approximately 5 days.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Transfer Orbit (LTO) Explained | Term Definition
+  title: "Lunar Transfer Orbit (LTO) Explained | Term Definition"
   description: The elliptical orbit entered after TLI, with perigee near Earth and apogee extending into the lunar orbital region. The spacecraft flies along the LTO for approximately 5 days.
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-transfer-orbit-lto/

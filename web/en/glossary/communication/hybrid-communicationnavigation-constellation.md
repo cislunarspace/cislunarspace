@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hybrid Communication/Navigation Constellation Explained | Term Definition
+  title: "Hybrid Communication/Navigation Constellation Explained | Term Definition"
   description: A lunar communication and navigation constellation composed of satellites in different orbital types. A typical scheme uses Halo orbit satellites to cover the polar regions and DRO satellites to cover the equatorial regions, achieving full lunar surface coverage through complementary coverage.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hybrid Communication/Navigation Constellation Explained | Term Definition
+  title: "Hybrid Communication/Navigation Constellation Explained | Term Definition"
   description: A lunar communication and navigation constellation composed of satellites in different orbital types. A typical scheme uses Halo orbit satellites to cover the polar regions and DRO satellites to cover the equatorial regions, achieving full lunar surface coverage through complementary coverage.
   image: /logo.png
 permalink: /en/glossary/communication/hybrid-communicationnavigation-constellation/

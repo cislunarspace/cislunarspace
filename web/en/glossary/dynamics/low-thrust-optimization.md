@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Optimization Explained | Term Definition
+  title: "Low-Thrust Optimization Explained | Term Definition"
   description: Numerical methods for optimizing low-thrust trajectories, including indirect and direct methods.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Optimization Explained | Term Definition
+  title: "Low-Thrust Optimization Explained | Term Definition"
   description: Numerical methods for optimizing low-thrust trajectories, including indirect and direct methods.
   image: /logo.png
 permalink: /en/glossary/dynamics/low-thrust-optimization/

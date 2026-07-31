@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Costate Normalization Explained | Term Definition
+  title: "Costate Normalization Explained | Term Definition"
   description: Technique of scaling the Hamiltonian to set one initial costate to unity, used to reduce scaling issues in numerical search.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Costate Normalization Explained | Term Definition
+  title: "Costate Normalization Explained | Term Definition"
   description: Technique of scaling the Hamiltonian to set one initial costate to unity, used to reduce scaling issues in numerical search.
   image: /logo.png
 permalink: /en/glossary/dynamics/costate-normalization/

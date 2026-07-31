@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Parameter Explained | Term Definition
+  title: "Phase Parameter Explained | Term Definition"
   description: A parameter describing the position of a point on a DRO within its orbital period, corresponding to the orbit state at time t. Together with the amplitude pa...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Parameter Explained | Term Definition
+  title: "Phase Parameter Explained | Term Definition"
   description: A parameter describing the position of a point on a DRO within its orbital period, corresponding to the orbit state at time t. Together with the amplitude pa...
   image: /logo.png
 permalink: /en/glossary/fundamentals/phase-parameter/

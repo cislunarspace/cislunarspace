@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Constraint Relaxation Explained | Term Definition
+  title: "Constraint Relaxation Explained | Term Definition"
   description: A technique that converts hard-to-satisfy strict constraints into weaker forms in an optimization problem. In low-energy transfer design, the original method requires exact intersection between the di...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Constraint Relaxation Explained | Term Definition
+  title: "Constraint Relaxation Explained | Term Definition"
   description: A technique that converts hard-to-satisfy strict constraints into weaker forms in an optimization problem. In low-energy transfer design, the original method requires exact intersection between the di...
   image: /logo.png
 permalink: /en/glossary/dynamics/constraint-relaxation/

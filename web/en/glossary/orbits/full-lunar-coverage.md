@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Full Lunar Surface Coverage Orbit Details | Orbit Mechanics
+  title: "Full Lunar Surface Coverage Orbit Details | Orbit Mechanics"
   description: Orbit designs enabling complete coverage of the lunar surface for comprehensive exploration and communication relay.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Full Lunar Surface Coverage Orbit Details | Orbit Mechanics
+  title: "Full Lunar Surface Coverage Orbit Details | Orbit Mechanics"
   description: Orbit designs enabling complete coverage of the lunar surface for comprehensive exploration and communication relay.
   image: /logo.png
 permalink: /en/glossary/orbits/full-lunar-coverage/

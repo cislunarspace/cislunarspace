@@ -1,6 +1,6 @@
 ---
 title: LVLH Frame / Local-Vertical-Local-Horizontal Frame
-description: A non-inertial reference frame with origin at the chief satellite's center of mass: the X-axis aligns with the chief's position vector, the Z-axis aligns with the chief's orbital angular momentum, and...
+description: "A non-inertial reference frame with origin at the chief satellite's center of mass: the X-axis aligns with the chief's position vector, the Z-axis aligns with the chief's orbital angular momentum, and..."
 keywords: LVLH Frame / Local-Vertical-Local-Horizontal Frame, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition
-  description: A non-inertial reference frame with origin at the chief satellite's center of mass: the X-axis aligns with the chief's position vector, the Z-axis aligns with the chief's orbital angular momentum, and...
+  title: "LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition"
+  description: "A non-inertial reference frame with origin at the chief satellite's center of mass: the X-axis aligns with the chief's position vector, the Z-axis aligns with the chief's orbital angular momentum, and..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition
-  description: A non-inertial reference frame with origin at the chief satellite's center of mass: the X-axis aligns with the chief's position vector, the Z-axis aligns with the chief's orbital angular momentum, and...
+  title: "LVLH Frame / Local-Vertical-Local-Horizontal Frame Explained | Term Definition"
+  description: "A non-inertial reference frame with origin at the chief satellite's center of mass: the X-axis aligns with the chief's position vector, the Z-axis aligns with the chief's orbital angular momentum, and..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/lvlh-frame-local-vertical-local-horizontal-frame/
 ---

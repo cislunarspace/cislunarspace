@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relative Invariant Manifold Explained | Term Definition
+  title: "Relative Invariant Manifold Explained | Term Definition"
   description: Geometric structures in relative phase space invariant under dynamics, including stable, unstable, and center manifolds.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relative Invariant Manifold Explained | Term Definition
+  title: "Relative Invariant Manifold Explained | Term Definition"
   description: Geometric structures in relative phase space invariant under dynamics, including stable, unstable, and center manifolds.
   image: /logo.png
 permalink: /en/glossary/dynamics/relative-invariant-manifold/

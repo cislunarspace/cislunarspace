@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Measurement noise Explained | Term Definition
+  title: "Measurement noise Explained | Term Definition"
   description: Random errors in measurement data, modeled as Gaussian white noise. Dominated by thermal noise in inter-satellite ranging links. The noise standard deviation de
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Measurement noise Explained | Term Definition
+  title: "Measurement noise Explained | Term Definition"
   description: Random errors in measurement data, modeled as Gaussian white noise. Dominated by thermal noise in inter-satellite ranging links. The noise standard deviation de
   image: /logo.png
 permalink: /en/glossary/fundamentals/measurement-noise/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Floquet Strategy Explained | Term Definition
+  title: "Floquet Strategy Explained | Term Definition"
   description: A station-keeping strategy for libration point orbits. It computes the state transition matrix at nodal points of the nominal orbit and uses Floquet decompositi
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Floquet Strategy Explained | Term Definition
+  title: "Floquet Strategy Explained | Term Definition"
   description: A station-keeping strategy for libration point orbits. It computes the state transition matrix at nodal points of the nominal orbit and uses Floquet decompositi
   image: /logo.png
 permalink: /en/glossary/dynamics/floquet-strategy/

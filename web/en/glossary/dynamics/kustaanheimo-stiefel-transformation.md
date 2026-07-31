@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kustaanheimo-Stiefel Transformation Explained | Term Definition
+  title: "Kustaanheimo-Stiefel Transformation Explained | Term Definition"
   description: A regularization transformation for collision singularities in the spatial three-body problem, mapping points in four-dimensional space to three-dimensional space while preserving Hamiltonian structur...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kustaanheimo-Stiefel Transformation Explained | Term Definition
+  title: "Kustaanheimo-Stiefel Transformation Explained | Term Definition"
   description: A regularization transformation for collision singularities in the spatial three-body problem, mapping points in four-dimensional space to three-dimensional space while preserving Hamiltonian structur...
   image: /logo.png
 permalink: /en/glossary/dynamics/kustaanheimo-stiefel-transformation/

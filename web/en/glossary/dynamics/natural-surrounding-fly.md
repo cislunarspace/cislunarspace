@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Natural surrounding fly Explained | Term Definition
+  title: "Natural surrounding fly Explained | Term Definition"
   description: A relative motion mode in DRO formations where the surrounding spacecraft orbits the target spacecraft without orbital maneuvers, relying solely on natural dynamics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Natural surrounding fly Explained | Term Definition
+  title: "Natural surrounding fly Explained | Term Definition"
   description: A relative motion mode in DRO formations where the surrounding spacecraft orbits the target spacecraft without orbital maneuvers, relying solely on natural dynamics.
   image: /logo.png
 permalink: /en/glossary/dynamics/natural-surrounding-fly/

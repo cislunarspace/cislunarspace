@@ -1,22 +1,22 @@
 ---
-title: Hill's Region
+title: "Hill's Region"
 description: Projection of the energy manifold onto configuration space, describing the accessible region for the third body at a given energy level.
-keywords: Hill's Region
+keywords: "Hill's Region"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Hill's Region
+  title: "Hill's Region"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill's Region Explained | Term Definition
+  title: "Hill's Region Explained | Term Definition"
   description: Projection of the energy manifold onto configuration space, describing the accessible region for the third body at a given energy level.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill's Region Explained | Term Definition
+  title: "Hill's Region Explained | Term Definition"
   description: Projection of the energy manifold onto configuration space, describing the accessible region for the third body at a given energy level.
   image: /logo.png
 permalink: /en/glossary/dynamics/hills-region/

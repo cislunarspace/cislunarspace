@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Timing Constraint Design Explained | Term Definition
+  title: "Timing Constraint Design Explained | Term Definition"
   description: The process of converting geometric solutions from the CR3BP into trajectories that satisfy timing conditions in the full ephemeris model. The core idea is t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Timing Constraint Design Explained | Term Definition
+  title: "Timing Constraint Design Explained | Term Definition"
   description: The process of converting geometric solutions from the CR3BP into trajectories that satisfy timing conditions in the full ephemeris model. The core idea is t...
   image: /logo.png
 permalink: /en/glossary/dynamics/timing-constraint-design/

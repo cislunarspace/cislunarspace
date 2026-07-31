@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Departure Time Explained | Term Definition
+  title: "Departure Time Explained | Term Definition"
   description: The instant when a spacecraft applies the departure impulse from a parking orbit (e.g., LEO). Departure time is a key parameter affecting the existence of trans
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Departure Time Explained | Term Definition
+  title: "Departure Time Explained | Term Definition"
   description: The instant when a spacecraft applies the departure impulse from a parking orbit (e.g., LEO). Departure time is a key parameter affecting the existence of trans
   image: /logo.png
 permalink: /en/glossary/orbits/departure-time/

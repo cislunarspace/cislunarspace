@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Transcription and Multiple Shooting Explained | Term Definition
+  title: "Direct Transcription and Multiple Shooting Explained | Term Definition"
   description: A method transforming optimal control problems into nonlinear programming problems. By dividing a trajectory into nodes of equal time intervals and using nod...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Transcription and Multiple Shooting Explained | Term Definition
+  title: "Direct Transcription and Multiple Shooting Explained | Term Definition"
   description: A method transforming optimal control problems into nonlinear programming problems. By dividing a trajectory into nodes of equal time intervals and using nod...
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-transcription-and-multiple-shooting/

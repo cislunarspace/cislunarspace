@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Weighting Matrix Explained | Term Definition
+  title: "State Weighting Matrix Explained | Term Definition"
   description: A symmetric positive semi-definite matrix in LQR used to weigh state errors, determining the relative importance of each state variable.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Weighting Matrix Explained | Term Definition
+  title: "State Weighting Matrix Explained | Term Definition"
   description: A symmetric positive semi-definite matrix in LQR used to weigh state errors, determining the relative importance of each state variable.
   image: /logo.png
 permalink: /en/glossary/dynamics/state-weighting-matrix/

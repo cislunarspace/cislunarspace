@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Gravitational Perturbation Explained | Term Definition
+  title: "Indirect Gravitational Perturbation Explained | Term Definition"
   description: 第三天体对中心天体的引力导致参考系非惯性而产生的等效力。在地月会合坐标系中，太阳对地球的引力使得该旋转参考系的角速度发生改变，由此引入的科里奥利力和离心力变化构成太阳的间接引力摄动项。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Gravitational Perturbation Explained | Term Definition
+  title: "Indirect Gravitational Perturbation Explained | Term Definition"
   description: 第三天体对中心天体的引力导致参考系非惯性而产生的等效力。在地月会合坐标系中，太阳对地球的引力使得该旋转参考系的角速度发生改变，由此引入的科里奥利力和离心力变化构成太阳的间接引力摄动项。
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-gravitational-perturbation/

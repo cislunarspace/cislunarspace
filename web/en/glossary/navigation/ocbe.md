@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Control Based Estimator, OCBE Explained | Term Definition
+  title: "Optimal Control Based Estimator, OCBE Explained | Term Definition"
   description: A filter that links measurement updates with optimal control estimation to handle unmodeled dynamics and maneuver detection, capable of reconstructing unmodeled
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Control Based Estimator, OCBE Explained | Term Definition
+  title: "Optimal Control Based Estimator, OCBE Explained | Term Definition"
   description: A filter that links measurement updates with optimal control estimation to handle unmodeled dynamics and maneuver detection, capable of reconstructing unmodeled
   image: /logo.png
 permalink: /en/glossary/navigation/ocbe/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Launch Velocity Error Explained | Term Definition
+  title: "Launch Velocity Error Explained | Term Definition"
   description: 运载火箭精度不足导致的实际发射速度与标称值的偏差。对Halo轨道任务影响尤其显著：在椭圆转移轨道远地点附近，速度随时间急剧下降，修正所需的速度增量随延迟时间快速增长。Genesis任务的预期误差为7 m/s（1σ），相对3200 m/s的加速量看似很小，但修正窗口仅有数天。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Launch Velocity Error Explained | Term Definition
+  title: "Launch Velocity Error Explained | Term Definition"
   description: 运载火箭精度不足导致的实际发射速度与标称值的偏差。对Halo轨道任务影响尤其显著：在椭圆转移轨道远地点附近，速度随时间急剧下降，修正所需的速度增量随延迟时间快速增长。Genesis任务的预期误差为7 m/s（1σ），相对3200 m/s的加速量看似很小，但修正窗口仅有数天。
   image: /logo.png
 permalink: /en/glossary/dynamics/launch-velocity-error/

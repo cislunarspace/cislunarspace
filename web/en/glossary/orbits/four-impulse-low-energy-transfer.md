@@ -1,6 +1,6 @@
 ---
 title: Four-Impulse Low-Energy Transfer
-description: A low-energy transfer scheme designed based on the relationship between Jacobi constant changes and velocity increments. Four impulses are applied at: the ve...
+description: "A low-energy transfer scheme designed based on the relationship between Jacobi constant changes and velocity increments. Four impulses are applied at: the ve..."
 keywords: Four-Impulse Low-Energy Transfer
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Four-Impulse Low-Energy Transfer Explained | Term Definition
-  description: A low-energy transfer scheme designed based on the relationship between Jacobi constant changes and velocity increments. Four impulses are applied at: the ve...
+  title: "Four-Impulse Low-Energy Transfer Explained | Term Definition"
+  description: "A low-energy transfer scheme designed based on the relationship between Jacobi constant changes and velocity increments. Four impulses are applied at: the ve..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Four-Impulse Low-Energy Transfer Explained | Term Definition
-  description: A low-energy transfer scheme designed based on the relationship between Jacobi constant changes and velocity increments. Four impulses are applied at: the ve...
+  title: "Four-Impulse Low-Energy Transfer Explained | Term Definition"
+  description: "A low-energy transfer scheme designed based on the relationship between Jacobi constant changes and velocity increments. Four impulses are applied at: the ve..."
   image: /logo.png
 permalink: /en/glossary/orbits/four-impulse-low-energy-transfer/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Fixed Coordinate System Explained | Term Definition
+  title: "Earth-Fixed Coordinate System Explained | Term Definition"
   description: "Coordinate system fixed relative to Earth's surface, with axes rotating with Earth's rotation. In libration point orbit prediction, the probe's position must be"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Fixed Coordinate System Explained | Term Definition
+  title: "Earth-Fixed Coordinate System Explained | Term Definition"
   description: "Coordinate system fixed relative to Earth's surface, with axes rotating with Earth's rotation. In libration point orbit prediction, the probe's position must be"
   image: /logo.png
 permalink: /en/glossary/fundamentals/earth-fixed-coordinate-system/

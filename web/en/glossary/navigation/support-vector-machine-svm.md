@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Support Vector Machine, SVM Explained | Term Definition
+  title: "Support Vector Machine, SVM Explained | Term Definition"
   description: A machine learning algorithm that projects input data into a space where it is easily separable by a hyperplane using a kernel function.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Support Vector Machine, SVM Explained | Term Definition
+  title: "Support Vector Machine, SVM Explained | Term Definition"
   description: A machine learning algorithm that projects input data into a space where it is easily separable by a hyperplane using a kernel function.
   image: /logo.png
 permalink: /en/glossary/navigation/support-vector-machine-svm/

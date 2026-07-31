@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near-Rectilinear Halo Orbit Insertion Explained | Term Definition
+  title: "Near-Rectilinear Halo Orbit Insertion Explained | Term Definition"
   description: The maneuver of applying a velocity increment at the NRHO perilune to insert the spacecraft into the target orbit. In IDT, NRHOI changes both velocity...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-Rectilinear Halo Orbit Insertion Explained | Term Definition
+  title: "Near-Rectilinear Halo Orbit Insertion Explained | Term Definition"
   description: The maneuver of applying a velocity increment at the NRHO perilune to insert the spacecraft into the target orbit. In IDT, NRHOI changes both velocity...
   image: /logo.png
 permalink: /en/glossary/orbits/near-rectilinear-halo-orbit-insertion/

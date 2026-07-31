@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Forbidden Region Explained | Term Definition
+  title: "Forbidden Region Explained | Term Definition"
   description: Region in configuration space that a spacecraft cannot reach due to insufficient kinetic energy under the Jacobi constant constraint.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Forbidden Region Explained | Term Definition
+  title: "Forbidden Region Explained | Term Definition"
   description: Region in configuration space that a spacecraft cannot reach due to insufficient kinetic energy under the Jacobi constant constraint.
   image: /logo.png
 permalink: /en/glossary/dynamics/forbidden-region/

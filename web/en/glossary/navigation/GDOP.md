@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GDOP Value Explained | Term Definition
+  title: "GDOP Value Explained | Term Definition"
   description: A numerical measure of Geometric Dilution of Precision, reflecting the amplification effect of visible navigation satellite spatial geometry on positioning accu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GDOP Value Explained | Term Definition
+  title: "GDOP Value Explained | Term Definition"
   description: A numerical measure of Geometric Dilution of Precision, reflecting the amplification effect of visible navigation satellite spatial geometry on positioning accu
   image: /logo.png
 permalink: /en/glossary/navigation/GDOP/

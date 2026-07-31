@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-objective Optimization Problem Explained | Term Definition
+  title: "Multi-objective Optimization Problem Explained | Term Definition"
   description: A mathematical programming problem that optimizes multiple objective functions simultaneously. Its solution is not a single optimum but a Pareto front composed of Pareto-optimal solutions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-objective Optimization Problem Explained | Term Definition
+  title: "Multi-objective Optimization Problem Explained | Term Definition"
   description: A mathematical programming problem that optimizes multiple objective functions simultaneously. Its solution is not a single optimum but a Pareto front composed of Pareto-optimal solutions.
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-objective-optimization-problem-moop/

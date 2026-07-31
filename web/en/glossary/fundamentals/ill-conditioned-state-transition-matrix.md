@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ill-Conditioned State Transition Matrix Explained | Term Definition
+  title: "Ill-Conditioned State Transition Matrix Explained | Term Definition"
   description: A phenomenon in solving the three-body Lambert problem where the state transition matrix inverse has an excessively large condition number, causing numerical iteration to diverge. When long-term integ
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ill-Conditioned State Transition Matrix Explained | Term Definition
+  title: "Ill-Conditioned State Transition Matrix Explained | Term Definition"
   description: A phenomenon in solving the three-body Lambert problem where the state transition matrix inverse has an excessively large condition number, causing numerical iteration to diverge. When long-term integ
   image: /logo.png
 permalink: /en/glossary/fundamentals/ill-conditioned-state-transition-matrix/

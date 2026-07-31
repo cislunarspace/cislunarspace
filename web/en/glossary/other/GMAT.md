@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: General Mission Analysis Tool, GMAT Explained | Term Definition
+  title: "General Mission Analysis Tool, GMAT Explained | Term Definition"
   description: NASA-developed astrodynamics software for high-fidelity orbital propagation, providing the LP-165 lunar gravity model up to 50th-degree spherical harmonics and...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: General Mission Analysis Tool, GMAT Explained | Term Definition
+  title: "General Mission Analysis Tool, GMAT Explained | Term Definition"
   description: NASA-developed astrodynamics software for high-fidelity orbital propagation, providing the LP-165 lunar gravity model up to 50th-degree spherical harmonics and...
   image: /logo.png
 permalink: /en/glossary/other/GMAT/

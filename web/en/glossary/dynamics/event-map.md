@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Event Map Explained | Term Definition
+  title: "Event Map Explained | Term Definition"
   description: A companion to the survival map using the same grid of initial conditions, but instead of showing lifetime
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Event Map Explained | Term Definition
+  title: "Event Map Explained | Term Definition"
   description: A companion to the survival map using the same grid of initial conditions, but instead of showing lifetime
   image: /logo.png
 permalink: /en/glossary/dynamics/event-map/

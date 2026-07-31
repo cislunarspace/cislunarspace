@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Reinforced Lyapunov Controller, RLC Explained | Term Definition
+  title: "Reinforced Lyapunov Controller, RLC Explained | Term Definition"
   description: A control framework combining Lyapunov control laws with reinforcement learning, where neural networks learn state-dependent weight parameters, retaining bot...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reinforced Lyapunov Controller, RLC Explained | Term Definition
+  title: "Reinforced Lyapunov Controller, RLC Explained | Term Definition"
   description: A control framework combining Lyapunov control laws with reinforcement learning, where neural networks learn state-dependent weight parameters, retaining bot...
   image: /logo.png
 permalink: /en/glossary/dynamics/reinforced-lyapunov-controller-rlc/

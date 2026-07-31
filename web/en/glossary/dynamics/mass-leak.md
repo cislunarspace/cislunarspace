@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mass Leak Explained | Term Definition
+  title: "Mass Leak Explained | Term Definition"
   description: A technique of introducing a tiny mass flow rate into the equations of motion with thrust input, to avoid singularities when mass approaches zero or when...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Leak Explained | Term Definition
+  title: "Mass Leak Explained | Term Definition"
   description: A technique of introducing a tiny mass flow rate into the equations of motion with thrust input, to avoid singularities when mass approaches zero or when...
   image: /logo.png
 permalink: /en/glossary/dynamics/mass-leak/

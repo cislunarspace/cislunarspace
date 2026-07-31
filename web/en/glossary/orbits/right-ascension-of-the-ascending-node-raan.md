@@ -1,6 +1,6 @@
 ---
 title: Right Ascension of the Ascending Node, RAAN
-description: One of the six classical orbital elements, defined as the angle from the vernal equinox to the orbit's ascending node (where the satellite crosses the equatoria
+description: "One of the six classical orbital elements, defined as the angle from the vernal equinox to the orbit's ascending node (where the satellite crosses the equatoria"
 keywords: Right Ascension of the Ascending Node, RAAN
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Right Ascension of the Ascending Node, RAAN Explained | Term Definition
-  description: One of the six classical orbital elements, defined as the angle from the vernal equinox to the orbit's ascending node (where the satellite crosses the equatoria
+  title: "Right Ascension of the Ascending Node, RAAN Explained | Term Definition"
+  description: "One of the six classical orbital elements, defined as the angle from the vernal equinox to the orbit's ascending node (where the satellite crosses the equatoria"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Right Ascension of the Ascending Node, RAAN Explained | Term Definition
-  description: One of the six classical orbital elements, defined as the angle from the vernal equinox to the orbit's ascending node (where the satellite crosses the equatoria
+  title: "Right Ascension of the Ascending Node, RAAN Explained | Term Definition"
+  description: "One of the six classical orbital elements, defined as the angle from the vernal equinox to the orbit's ascending node (where the satellite crosses the equatoria"
   image: /logo.png
 permalink: /en/glossary/orbits/right-ascension-of-the-ascending-node-raan/
 ---

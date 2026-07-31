@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Apsidal Transfer Explained | Term Definition
+  title: "Apsidal Transfer Explained | Term Definition"
   description: Two-impulse optimal control for coplanar elliptical orbit transfer via apsidal rotation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Apsidal Transfer Explained | Term Definition
+  title: "Apsidal Transfer Explained | Term Definition"
   description: Two-impulse optimal control for coplanar elliptical orbit transfer via apsidal rotation.
   image: /logo.png
 permalink: /en/glossary/dynamics/apsidal-transfer/

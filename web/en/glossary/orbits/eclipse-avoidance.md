@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Eclipse Avoidance Explained | Term Definition
+  title: "Eclipse Avoidance Explained | Term Definition"
   description: 平动点轨道任务中为避免日、地、月遮挡而进行的轨道机动。Lissajous轨道比Halo轨道更适合长任务周期的凌日回避。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Eclipse Avoidance Explained | Term Definition
+  title: "Eclipse Avoidance Explained | Term Definition"
   description: 平动点轨道任务中为避免日、地、月遮挡而进行的轨道机动。Lissajous轨道比Halo轨道更适合长任务周期的凌日回避。
   image: /logo.png
 permalink: /en/glossary/orbits/eclipse-avoidance/

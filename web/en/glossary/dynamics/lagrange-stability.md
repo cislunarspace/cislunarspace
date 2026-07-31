@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lagrange Stability Explained | Term Definition
+  title: "Lagrange Stability Explained | Term Definition"
   description: The property that an orbit remains bounded for all future time, a fundamental stability concept in three-body motion.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lagrange Stability Explained | Term Definition
+  title: "Lagrange Stability Explained | Term Definition"
   description: The property that an orbit remains bounded for all future time, a fundamental stability concept in three-body motion.
   image: /logo.png
 permalink: /en/glossary/dynamics/lagrange-stability/

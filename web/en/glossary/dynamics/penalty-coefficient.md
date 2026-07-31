@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Penalty Coefficient Explained | Term Definition
+  title: "Penalty Coefficient Explained | Term Definition"
   description: A weighting factor in the optimal control performance index that balances the collision probability term against the fuel consumption term. A larger coefficient prioritizes safety, requiring more fuel...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Penalty Coefficient Explained | Term Definition
+  title: "Penalty Coefficient Explained | Term Definition"
   description: A weighting factor in the optimal control performance index that balances the collision probability term against the fuel consumption term. A larger coefficient prioritizes safety, requiring more fuel...
   image: /logo.png
 permalink: /en/glossary/dynamics/penalty-coefficient/

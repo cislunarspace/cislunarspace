@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lyapunov-like Orbit Explained | Term Definition
+  title: "Lyapunov-like Orbit Explained | Term Definition"
   description: A planar periodic-orbit-like arc that forms naturally during transfer trajectories, resembling a large-amplitude Lyapunov orbit. In exterior NRHO-to-DRO transfe
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lyapunov-like Orbit Explained | Term Definition
+  title: "Lyapunov-like Orbit Explained | Term Definition"
   description: A planar periodic-orbit-like arc that forms naturally during transfer trajectories, resembling a large-amplitude Lyapunov orbit. In exterior NRHO-to-DRO transfe
   image: /logo.png
 permalink: /en/glossary/orbits/lyapunov-like-orbit/

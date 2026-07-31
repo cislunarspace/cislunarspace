@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Nuri Details | Fundamental Concepts
+  title: "Nuri Details | Fundamental Concepts"
   description: Nuri (KSLV-II) is a launch vehicle independently developed by South Korea.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nuri Details | Fundamental Concepts
+  title: "Nuri Details | Fundamental Concepts"
   description: Nuri (KSLV-II) is a launch vehicle independently developed by South Korea.
   image: /logo.png
 permalink: /en/glossary/fundamentals/nuri/

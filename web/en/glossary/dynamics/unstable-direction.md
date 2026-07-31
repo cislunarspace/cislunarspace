@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unstable Direction Explained | Term Definition
+  title: "Unstable Direction Explained | Term Definition"
   description: Direction corresponding to the eigenvector of the state transition matrix whose eigenvalue has magnitude greater than one. Orbit prediction errors around collinear libration points grow exponentially 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unstable Direction Explained | Term Definition
+  title: "Unstable Direction Explained | Term Definition"
   description: Direction corresponding to the eigenvector of the state transition matrix whose eigenvalue has magnitude greater than one. Orbit prediction errors around collinear libration points grow exponentially 
   image: /logo.png
 permalink: /en/glossary/dynamics/unstable-direction/

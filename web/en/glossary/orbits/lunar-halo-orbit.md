@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Halo Orbit Explained | Term Definition
+  title: "Lunar Halo Orbit Explained | Term Definition"
   description: A periodic orbit around the lunar L1 or L2 libration points, a known solution to the circular restricted three-body problem. Lunar halo orbits come in northe...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Halo Orbit Explained | Term Definition
+  title: "Lunar Halo Orbit Explained | Term Definition"
   description: A periodic orbit around the lunar L1 or L2 libration points, a known solution to the circular restricted three-body problem. Lunar halo orbits come in northe...
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-halo-orbit/

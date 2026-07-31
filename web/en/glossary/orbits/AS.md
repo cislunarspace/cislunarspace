@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Approach Sphere, AS Explained | Term Definition
+  title: "Approach Sphere, AS Explained | Term Definition"
   description: A safety zone centered on the target spacecraft. In rendezvous operations, the chaser vehicle must not enter this region before receiving approach authorization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Approach Sphere, AS Explained | Term Definition
+  title: "Approach Sphere, AS Explained | Term Definition"
   description: A safety zone centered on the target spacecraft. In rendezvous operations, the chaser vehicle must not enter this region before receiving approach authorization
   image: /logo.png
 permalink: /en/glossary/orbits/AS/

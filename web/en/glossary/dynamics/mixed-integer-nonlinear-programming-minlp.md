@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mixed Integer Nonlinear Programming, MINLP Explained | Term Definition
+  title: "Mixed Integer Nonlinear Programming, MINLP Explained | Term Definition"
   description: An optimization problem involving both integer and continuous variables with nonlinear constraints. The interplay of discrete choices and nonlinear dynamics ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mixed Integer Nonlinear Programming, MINLP Explained | Term Definition
+  title: "Mixed Integer Nonlinear Programming, MINLP Explained | Term Definition"
   description: An optimization problem involving both integer and continuous variables with nonlinear constraints. The interplay of discrete choices and nonlinear dynamics ...
   image: /logo.png
 permalink: /en/glossary/dynamics/mixed-integer-nonlinear-programming-minlp/

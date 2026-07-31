@@ -1,23 +1,23 @@
 ---
-title: Kepler's Equation
-description: A detailed analysis of Kepler's equation — the relationship between eccentric anomaly and mean anomaly, solution algorithms, and application in orbit prediction
+title: "Kepler's Equation"
+description: "A detailed analysis of Kepler's equation — the relationship between eccentric anomaly and mean anomaly, solution algorithms, and application in orbit prediction"
 keywords: Kepler equation, eccentric anomaly, mean anomaly, Newton iteration, orbit prediction, orbital period
 author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
-  title: Kepler's Equation
+  title: "Kepler's Equation"
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
   title: "Kepler's Equation | Terminology Definition"
-  description: A detailed analysis of Kepler's equation — its definition, solution algorithms, and application in orbit prediction
+  description: "A detailed analysis of Kepler's equation — its definition, solution algorithms, and application in orbit prediction"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: "Kepler's Equation | Terminology Definition"
-  description: A detailed analysis of Kepler's equation — its definition, solution algorithms, and application in orbit prediction
+  description: "A detailed analysis of Kepler's equation — its definition, solution algorithms, and application in orbit prediction"
   image: /logo.png
 permalink: /en/glossary/fundamentals/kepler-equation/
 ---

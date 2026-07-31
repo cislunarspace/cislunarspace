@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Body Energy (E₂) Explained | Term Definition
+  title: "Two-Body Energy (E₂) Explained | Term Definition"
   description: Two-body energy of spacecraft relative to the Moon, used to describe orbital characteristics in the DRO capture phase; greater than zero in non-ballistic captur
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Body Energy (E₂) Explained | Term Definition
+  title: "Two-Body Energy (E₂) Explained | Term Definition"
   description: Two-body energy of spacecraft relative to the Moon, used to describe orbital characteristics in the DRO capture phase; greater than zero in non-ballistic captur
   image: /logo.png
 permalink: /en/glossary/dynamics/two-body-energy/

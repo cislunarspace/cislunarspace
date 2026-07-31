@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: θ-r Section Method Explained | Term Definition
+  title: "θ-r Section Method Explained | Term Definition"
   description: A Poincare section construction method that uses angle and distance as coordinates. θ is the angle between the velocity direction and the section normal, and r 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: θ-r Section Method Explained | Term Definition
+  title: "θ-r Section Method Explained | Term Definition"
   description: A Poincare section construction method that uses angle and distance as coordinates. θ is the angle between the velocity direction and the section normal, and r 
   image: /logo.png
 permalink: /en/glossary/dynamics/r-section-method/

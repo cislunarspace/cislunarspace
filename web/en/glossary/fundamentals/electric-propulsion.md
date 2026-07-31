@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Electric Propulsion Explained | Term Definition
+  title: "Electric Propulsion Explained | Term Definition"
   description: A propulsion technology that uses electrical energy to accelerate propellant and generate thrust. Specific impulse is much higher than chemical propulsion (thousands of seconds), but thrust magnitude is small (typically millinewton to newton level). Suitable for long-duration continuous acceleration in orbital transfers, significantly improving payload mass fraction.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Electric Propulsion Explained | Term Definition
+  title: "Electric Propulsion Explained | Term Definition"
   description: A propulsion technology that uses electrical energy to accelerate propellant and generate thrust. Specific impulse is much higher than chemical propulsion (thousands of seconds), but thrust magnitude is small (typically millinewton to newton level). Suitable for long-duration continuous acceleration in orbital transfers, significantly improving payload mass fraction.
   image: /logo.png
 permalink: /en/glossary/fundamentals/electric-propulsion/

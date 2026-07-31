@@ -1,6 +1,6 @@
 ---
 title: A* Search Algorithm (A* Search)
-description: Detailed analysis of the A* search algorithm's principles, applications in persistent detection corridor path search, and its advantages in cislunar trajectory planning
+description: "Detailed analysis of the A* search algorithm's principles, applications in persistent detection corridor path search, and its advantages in cislunar trajectory planning"
 keywords: A* search, A* Search, path planning, graph search, heuristic search, persistent detection corridor, cislunar space, trajectory optimization
 author: Tianjiang Shuo
 date: 2026-04-29

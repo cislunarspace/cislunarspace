@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kustaanheimo-Stiefel Regularization Explained | Term Definition
+  title: "Kustaanheimo-Stiefel Regularization Explained | Term Definition"
   description: A regularization method using quaternion transformation to eliminate singularities in the two-body problem, extendable to the restricted three-body problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kustaanheimo-Stiefel Regularization Explained | Term Definition
+  title: "Kustaanheimo-Stiefel Regularization Explained | Term Definition"
   description: A regularization method using quaternion transformation to eliminate singularities in the two-body problem, extendable to the restricted three-body problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/kustaanheimo-stiefel-regularization/

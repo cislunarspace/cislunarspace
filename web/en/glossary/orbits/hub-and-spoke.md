@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Hub-and-Spoke Architecture | Satellite Deployment Model
+  title: "Hub-and-Spoke Architecture | Satellite Deployment Model"
   description: Explanation of the hub-and-spoke architecture and its application in satellite deployment
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hub-and-Spoke Architecture | Satellite Deployment Model
+  title: "Hub-and-Spoke Architecture | Satellite Deployment Model"
   description: Explanation of the hub-and-spoke deployment architecture and its integration with OTV
   image: /logo.png
 permalink: /en/glossary/orbits/hub-and-spoke/

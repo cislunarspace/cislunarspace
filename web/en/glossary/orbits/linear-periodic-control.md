@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Periodic Control Explained | Term Definition
+  title: "Linear Periodic Control Explained | Term Definition"
   description: A control method that designs a periodic time-varying state feedback law K(k) for linear time-periodic systems (coefficient matrices satisfying A(t+T)=A(t))...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Periodic Control Explained | Term Definition
+  title: "Linear Periodic Control Explained | Term Definition"
   description: A control method that designs a periodic time-varying state feedback law K(k) for linear time-periodic systems (coefficient matrices satisfying A(t+T)=A(t))...
   image: /logo.png
 permalink: /en/glossary/orbits/linear-periodic-control/

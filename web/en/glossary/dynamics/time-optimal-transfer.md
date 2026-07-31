@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time-Optimal Transfer Explained | Term Definition
+  title: "Time-Optimal Transfer Explained | Term Definition"
   description: An orbit optimization problem with minimum transfer time as the objective function. In the low-thrust scenario, the engine throttle parameter is always 1 (full 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time-Optimal Transfer Explained | Term Definition
+  title: "Time-Optimal Transfer Explained | Term Definition"
   description: An orbit optimization problem with minimum transfer time as the objective function. In the low-thrust scenario, the engine throttle parameter is always 1 (full 
   image: /logo.png
 permalink: /en/glossary/dynamics/time-optimal-transfer/

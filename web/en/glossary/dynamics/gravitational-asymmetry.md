@@ -1,6 +1,6 @@
 ---
 title: Gravitational Asymmetry
-description: The ratio of the third-body perturbation acceleration at a spacecraft's position to the sum of all accelerations. It is a key factor determining whether auto...
+description: "The ratio of the third-body perturbation acceleration at a spacecraft's position to the sum of all accelerations. It is a key factor determining whether auto..."
 keywords: Gravitational Asymmetry
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravitational Asymmetry Explained | Term Definition
-  description: The ratio of the third-body perturbation acceleration at a spacecraft's position to the sum of all accelerations. It is a key factor determining whether auto...
+  title: "Gravitational Asymmetry Explained | Term Definition"
+  description: "The ratio of the third-body perturbation acceleration at a spacecraft's position to the sum of all accelerations. It is a key factor determining whether auto..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravitational Asymmetry Explained | Term Definition
-  description: The ratio of the third-body perturbation acceleration at a spacecraft's position to the sum of all accelerations. It is a key factor determining whether auto...
+  title: "Gravitational Asymmetry Explained | Term Definition"
+  description: "The ratio of the third-body perturbation acceleration at a spacecraft's position to the sum of all accelerations. It is a key factor determining whether auto..."
   image: /logo.png
 permalink: /en/glossary/dynamics/gravitational-asymmetry/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Formation Flight Explained | Term Definition
+  title: "Formation Flight Explained | Term Definition"
   description: A space mission mode where multiple spacecraft fly in coordination with a specific relative spatial configuration. In DRO formations, maintaining formation conf
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Formation Flight Explained | Term Definition
+  title: "Formation Flight Explained | Term Definition"
   description: A space mission mode where multiple spacecraft fly in coordination with a specific relative spatial configuration. In DRO formations, maintaining formation conf
   image: /logo.png
 permalink: /en/glossary/orbits/formation-flight/

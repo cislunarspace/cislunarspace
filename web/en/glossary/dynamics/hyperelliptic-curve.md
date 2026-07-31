@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperelliptic Curve Explained | Term Definition
+  title: "Hyperelliptic Curve Explained | Term Definition"
   description: The algebraic curve appearing in the averaged Hamiltonian integral. For circular target orbits (p_θ=0), the integral reduces to a genus-2 hyperelliptic curve, affecting both the structure of the optimal control and numerical difficulty.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperelliptic Curve Explained | Term Definition
+  title: "Hyperelliptic Curve Explained | Term Definition"
   description: The algebraic curve appearing in the averaged Hamiltonian integral. For circular target orbits (p_θ=0), the integral reduces to a genus-2 hyperelliptic curve, affecting both the structure of the optimal control and numerical difficulty.
   image: /logo.png
 permalink: /en/glossary/dynamics/hyperelliptic-curve/

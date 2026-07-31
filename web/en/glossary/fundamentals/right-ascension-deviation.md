@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Right Ascension Deviation Explained | Term Definition
+  title: "Right Ascension Deviation Explained | Term Definition"
   description: The difference in right ascension between the spacecraft and the target body in the geocentric equatorial inertial frame. Used as an encounter condition in...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Right Ascension Deviation Explained | Term Definition
+  title: "Right Ascension Deviation Explained | Term Definition"
   description: The difference in right ascension between the spacecraft and the target body in the geocentric equatorial inertial frame. Used as an encounter condition in...
   image: /logo.png
 permalink: /en/glossary/fundamentals/right-ascension-deviation/

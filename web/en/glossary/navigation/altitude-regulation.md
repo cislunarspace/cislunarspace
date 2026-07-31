@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Altitude Regulation | Airship Control
+  title: "Altitude Regulation | Airship Control"
   description: A detailed analysis of altitude regulation definitions, control objectives, method classifications, and typical control law design for stratospheric airships
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Altitude Regulation | Airship Control
+  title: "Altitude Regulation | Airship Control"
   description: A detailed analysis of altitude regulation definitions, control objectives, method classifications, and typical control law design for stratospheric airships
   image: /logo.png
 permalink: /en/glossary/navigation/altitude-regulation/

@@ -1,6 +1,6 @@
 ---
 title: Near-Earth Object, NEO
-description: A small solar system body whose orbit intersects or closely approaches Earth's orbit, including near-Earth asteroids and near-Earth comets. Survey techniques for NEOs, such as shift-and-add and sidereal tracking, share much in common with cislunar object detection methods, and many approaches have been adapted from NEO search programs.
+description: "A small solar system body whose orbit intersects or closely approaches Earth's orbit, including near-Earth asteroids and near-Earth comets. Survey techniques for NEOs, such as shift-and-add and sidereal tracking, share much in common with cislunar object detection methods, and many approaches have been adapted from NEO search programs."
 keywords: Near-Earth Object, NEO, observation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near-Earth Object, NEO Explained | Term Definition
-  description: A small solar system body whose orbit intersects or closely approaches Earth's orbit, including near-Earth asteroids and near-Earth comets. Survey techniques for NEOs, such as shift-and-add and sidereal tracking, share much in common with cislunar object detection methods, and many approaches have been adapted from NEO search programs.
+  title: "Near-Earth Object, NEO Explained | Term Definition"
+  description: "A small solar system body whose orbit intersects or closely approaches Earth's orbit, including near-Earth asteroids and near-Earth comets. Survey techniques for NEOs, such as shift-and-add and sidereal tracking, share much in common with cislunar object detection methods, and many approaches have been adapted from NEO search programs."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-Earth Object, NEO Explained | Term Definition
-  description: A small solar system body whose orbit intersects or closely approaches Earth's orbit, including near-Earth asteroids and near-Earth comets. Survey techniques for NEOs, such as shift-and-add and sidereal tracking, share much in common with cislunar object detection methods, and many approaches have been adapted from NEO search programs.
+  title: "Near-Earth Object, NEO Explained | Term Definition"
+  description: "A small solar system body whose orbit intersects or closely approaches Earth's orbit, including near-Earth asteroids and near-Earth comets. Survey techniques for NEOs, such as shift-and-add and sidereal tracking, share much in common with cislunar object detection methods, and many approaches have been adapted from NEO search programs."
   image: /logo.png
 permalink: /en/glossary/observation/near-earth-object-neo/
 ---

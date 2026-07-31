@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fourth-Body Gravitational Perturbation Explained | Term Definition
+  title: "Fourth-Body Gravitational Perturbation Explained | Term Definition"
   description: 在地月限制性三体问题基础上，将太阳视为第四引力体所产生的摄动效应。太阳质量远大于地月系统质量比，其引力虽在远距离上表现为缓变力，但对绕L2点等敏感轨道的长期演化有显著影响，是四体建模的核心摄动源。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fourth-Body Gravitational Perturbation Explained | Term Definition
+  title: "Fourth-Body Gravitational Perturbation Explained | Term Definition"
   description: 在地月限制性三体问题基础上，将太阳视为第四引力体所产生的摄动效应。太阳质量远大于地月系统质量比，其引力虽在远距离上表现为缓变力，但对绕L2点等敏感轨道的长期演化有显著影响，是四体建模的核心摄动源。
   image: /logo.png
 permalink: /en/glossary/dynamics/fourth-body-gravitational-perturbation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Poincaré Map Representation Explained | Term Definition
+  title: "Poincaré Map Representation Explained | Term Definition"
   description: 用相轨道与z=0平面的交点来表示周期轨道和准周期轨道族的方法。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Poincaré Map Representation Explained | Term Definition
+  title: "Poincaré Map Representation Explained | Term Definition"
   description: 用相轨道与z=0平面的交点来表示周期轨道和准周期轨道族的方法。
   image: /logo.png
 permalink: /en/glossary/dynamics/poincar-map-representation/

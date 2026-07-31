@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periodic Orbit Stability Index Explained | Term Definition
+  title: "Periodic Orbit Stability Index Explained | Term Definition"
   description: An index describing the stability of a periodic orbit, defined as one-half the average of the absolute values of reciprocal eigenvalue pairs; nu=1 indicates ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periodic Orbit Stability Index Explained | Term Definition
+  title: "Periodic Orbit Stability Index Explained | Term Definition"
   description: An index describing the stability of a periodic orbit, defined as one-half the average of the absolute values of reciprocal eigenvalue pairs; nu=1 indicates ...
   image: /logo.png
 permalink: /en/glossary/dynamics/periodic-orbit-stability-index/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Phase Angle Explained | Term Definition
+  title: "Solar Phase Angle Explained | Term Definition"
   description: The angle formed by the Sun-target-observer line. The solar phase angle determines the illumination direction and intensity of the target, directly affecting ap
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Phase Angle Explained | Term Definition
+  title: "Solar Phase Angle Explained | Term Definition"
   description: The angle formed by the Sun-target-observer line. The solar phase angle determines the illumination direction and intensity of the target, directly affecting ap
   image: /logo.png
 permalink: /en/glossary/observation/solar-phase-angle/

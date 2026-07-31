@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: International Astronomical Union Explained | Term Definition
+  title: "International Astronomical Union Explained | Term Definition"
   description: The international professional organization responsible for defining celestial reference frames and astronomical constants.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: International Astronomical Union Explained | Term Definition
+  title: "International Astronomical Union Explained | Term Definition"
   description: The international professional organization responsible for defining celestial reference frames and astronomical constants.
   image: /logo.png
 permalink: /en/glossary/organizations/international-astronomical-union/

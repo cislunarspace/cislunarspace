@@ -1,6 +1,6 @@
 ---
 title: Chi-Square Test-Based Adaptive Forgetting Factor ARCKF
-description: An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal
+description: "An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal"
 keywords: Chi-Square Test-Based Adaptive Forgetting Factor ARCKF
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chi-Square Test-Based Adaptive Forgetting Factor ARCKF Explained | Term Definition
-  description: An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal
+  title: "Chi-Square Test-Based Adaptive Forgetting Factor ARCKF Explained | Term Definition"
+  description: "An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chi-Square Test-Based Adaptive Forgetting Factor ARCKF Explained | Term Definition
-  description: An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal
+  title: "Chi-Square Test-Based Adaptive Forgetting Factor ARCKF Explained | Term Definition"
+  description: "An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal"
   image: /logo.png
 permalink: /en/glossary/navigation/chi-square-test-based-adaptive-forgetting-factor-arckf/
 ---

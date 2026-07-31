@@ -1,7 +1,7 @@
 ---
 title: Minimum-Fuel / Fuel-Optimal
-description: An optimal control strategy that maximizes the spacecraft's remaining mass after soft landing, equivalent to minimizing total fuel consumption while satisfying terminal velocity and position constraints.
-keywords: Minimum-Fuel, Fuel-Optimal, optimal control, soft landing, bang-bang control, Pontryagin's maximum principle, trajectory optimization
+description: "An optimal control strategy that maximizes the spacecraft's remaining mass after soft landing, equivalent to minimizing total fuel consumption while satisfying terminal velocity and position constraints."
+keywords: "Minimum-Fuel, Fuel-Optimal, optimal control, soft landing, bang-bang control, Pontryagin's maximum principle, trajectory optimization"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum-Fuel / Fuel-Optimal Explained | Term Definition
-  description: An optimal control strategy that maximizes the spacecraft's remaining mass after soft landing, equivalent to minimizing total fuel consumption while satisfying terminal velocity and position constraints.
+  title: "Minimum-Fuel / Fuel-Optimal Explained | Term Definition"
+  description: "An optimal control strategy that maximizes the spacecraft's remaining mass after soft landing, equivalent to minimizing total fuel consumption while satisfying terminal velocity and position constraints."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum-Fuel / Fuel-Optimal Explained | Term Definition
-  description: An optimal control strategy that maximizes the spacecraft's remaining mass after soft landing, equivalent to minimizing total fuel consumption while satisfying terminal velocity and position constraints.
+  title: "Minimum-Fuel / Fuel-Optimal Explained | Term Definition"
+  description: "An optimal control strategy that maximizes the spacecraft's remaining mass after soft landing, equivalent to minimizing total fuel consumption while satisfying terminal velocity and position constraints."
   image: /logo.png
 permalink: /en/glossary/dynamics/minimum-fuel-fuel-optimal/
 ---

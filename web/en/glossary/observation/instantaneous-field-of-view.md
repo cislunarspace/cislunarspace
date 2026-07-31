@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Instantaneous Field of View Explained | Term Definition
+  title: "Instantaneous Field of View Explained | Term Definition"
   description: The angular extent of sky corresponding to a single pixel on the focal plane array.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Instantaneous Field of View Explained | Term Definition
+  title: "Instantaneous Field of View Explained | Term Definition"
   description: The angular extent of sky corresponding to a single pixel on the focal plane array.
   image: /logo.png
 permalink: /en/glossary/observation/instantaneous-field-of-view/

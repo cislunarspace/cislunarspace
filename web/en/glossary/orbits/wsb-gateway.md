@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: WSB Gateway Explained | Term Definition
+  title: "WSB Gateway Explained | Term Definition"
   description: The final intersection point of transfer trajectories with the projection surface before DRO insertion, serving as the last station before insertion with mechan
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: WSB Gateway Explained | Term Definition
+  title: "WSB Gateway Explained | Term Definition"
   description: The final intersection point of transfer trajectories with the projection surface before DRO insertion, serving as the last station before insertion with mechan
   image: /logo.png
 permalink: /en/glossary/orbits/wsb-gateway/

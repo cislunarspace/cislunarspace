@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perturbed Lambert Arc Explained | Term Definition
+  title: "Perturbed Lambert Arc Explained | Term Definition"
   description: A transfer orbit arc connecting two position vectors with solar and lunar gravitational perturbations taken into account. Unlike the classical Lambert problem, 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perturbed Lambert Arc Explained | Term Definition
+  title: "Perturbed Lambert Arc Explained | Term Definition"
   description: A transfer orbit arc connecting two position vectors with solar and lunar gravitational perturbations taken into account. Unlike the classical Lambert problem, 
   image: /logo.png
 permalink: /en/glossary/dynamics/perturbed-lambert-arc/

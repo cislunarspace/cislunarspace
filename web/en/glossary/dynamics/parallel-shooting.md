@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Parallel Shooting Explained | Term Definition
+  title: "Parallel Shooting Explained | Term Definition"
   description: An improvement on shooting methods that divides the trajectory into multiple segments and iterates simultaneously at each segment boundary. Has a larger...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Parallel Shooting Explained | Term Definition
+  title: "Parallel Shooting Explained | Term Definition"
   description: An improvement on shooting methods that divides the trajectory into multiple segments and iterates simultaneously at each segment boundary. Has a larger...
   image: /logo.png
 permalink: /en/glossary/dynamics/parallel-shooting/

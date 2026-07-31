@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Field of View Explained | Term Definition
+  title: "Field of View Explained | Term Definition"
   description: The angular extent of the observable region of an optical sensor. In optical navigation, the field of view must be large enough to fully capture the celestia...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Field of View Explained | Term Definition
+  title: "Field of View Explained | Term Definition"
   description: The angular extent of the observable region of an optical sensor. In optical navigation, the field of view must be large enough to fully capture the celestia...
   image: /logo.png
 permalink: /en/glossary/observation/field-of-view/

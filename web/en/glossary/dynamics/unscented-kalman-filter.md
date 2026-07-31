@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Unscented Kalman Filter Explained | Term Definition
+  title: "Unscented Kalman Filter Explained | Term Definition"
   description: A Kalman filter variant that estimates nonlinear system states by approximating probability distributions through statistical sampling (sigma points). Does n...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unscented Kalman Filter Explained | Term Definition
+  title: "Unscented Kalman Filter Explained | Term Definition"
   description: A Kalman filter variant that estimates nonlinear system states by approximating probability distributions through statistical sampling (sigma points). Does n...
   image: /logo.png
 permalink: /en/glossary/dynamics/unscented-kalman-filter/

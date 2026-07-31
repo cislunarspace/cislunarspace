@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Momentum Integral, MI Explained | Term Definition
+  title: "Momentum Integral, MI Explained | Term Definition"
   description: Line integral of the position vector along a trajectory, used to assess periodicity and boundedness of a path, and as a metric to detect departure from a refere
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Momentum Integral, MI Explained | Term Definition
+  title: "Momentum Integral, MI Explained | Term Definition"
   description: Line integral of the position vector along a trajectory, used to assess periodicity and boundedness of a path, and as a metric to detect departure from a refere
   image: /logo.png
 permalink: /en/glossary/dynamics/Momentum-Integral-MI/

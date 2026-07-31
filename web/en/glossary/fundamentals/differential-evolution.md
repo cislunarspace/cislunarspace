@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Differential Evolution Explained | Term Definition
+  title: "Differential Evolution Explained | Term Definition"
   description: A population-based stochastic global optimization algorithm in the evolutionary computation family. It iteratively searches for the global optimum in continuous spaces through mutation, crossover, and...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Evolution Explained | Term Definition
+  title: "Differential Evolution Explained | Term Definition"
   description: A population-based stochastic global optimization algorithm in the evolutionary computation family. It iteratively searches for the global optimum in continuous spaces through mutation, crossover, and...
   image: /logo.png
 permalink: /en/glossary/fundamentals/differential-evolution/

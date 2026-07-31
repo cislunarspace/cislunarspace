@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Momentum Integral, MI Explained | Term Definition
+  title: "Momentum Integral, MI Explained | Term Definition"
   description: 位置矢量沿轨迹的线积分，用于识别轨迹的周期性与有界性，也是判断飞行器是否已脱离参考轨道的度量。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Momentum Integral, MI Explained | Term Definition
+  title: "Momentum Integral, MI Explained | Term Definition"
   description: 位置矢量沿轨迹的线积分，用于识别轨迹的周期性与有界性，也是判断飞行器是否已脱离参考轨道的度量。
   image: /logo.png
 permalink: /en/glossary/dynamics/momentum-integral/

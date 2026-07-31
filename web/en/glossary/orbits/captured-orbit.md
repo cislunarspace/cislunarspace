@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Captured Orbit Explained | Term Definition
+  title: "Captured Orbit Explained | Term Definition"
   description: An orbit entering a bound state after gravitational capture by a primary, with negative Kepler energy. The WSB method can achieve nearly fuel-free ballistic ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Captured Orbit Explained | Term Definition
+  title: "Captured Orbit Explained | Term Definition"
   description: An orbit entering a bound state after gravitational capture by a primary, with negative Kepler energy. The WSB method can achieve nearly fuel-free ballistic ...
   image: /logo.png
 permalink: /en/glossary/orbits/captured-orbit/

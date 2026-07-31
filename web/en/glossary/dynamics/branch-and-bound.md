@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Branch and Bound Explained | Term Definition
+  title: "Branch and Bound Explained | Term Definition"
   description: A classical algorithm for solving integer programs and mixed-integer linear programs by systematically branching the solution space and pruning using bounds.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Branch and Bound Explained | Term Definition
+  title: "Branch and Bound Explained | Term Definition"
   description: A classical algorithm for solving integer programs and mixed-integer linear programs by systematically branching the solution space and pruning using bounds.
   image: /logo.png
 permalink: /en/glossary/dynamics/branch-and-bound/

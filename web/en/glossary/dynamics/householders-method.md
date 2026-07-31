@@ -1,23 +1,23 @@
 ---
-title: Householder's method
-description: A high-order iterative method for root-finding the transfer time equation; third-order Householder's method is used in this paper.
-keywords: Householder's method
+title: "Householder's method"
+description: "A high-order iterative method for root-finding the transfer time equation; third-order Householder's method is used in this paper."
+keywords: "Householder's method"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Householder's method
+  title: "Householder's method"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Householder's method Explained | Term Definition
-  description: A high-order iterative method for root-finding the transfer time equation; third-order Householder's method is used in this paper.
+  title: "Householder's method Explained | Term Definition"
+  description: "A high-order iterative method for root-finding the transfer time equation; third-order Householder's method is used in this paper."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Householder's method Explained | Term Definition
-  description: A high-order iterative method for root-finding the transfer time equation; third-order Householder's method is used in this paper.
+  title: "Householder's method Explained | Term Definition"
+  description: "A high-order iterative method for root-finding the transfer time equation; third-order Householder's method is used in this paper."
   image: /logo.png
 permalink: /en/glossary/dynamics/householders-method/
 ---

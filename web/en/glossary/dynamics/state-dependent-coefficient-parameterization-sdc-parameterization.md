@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: State Dependent Coefficient Parameterization, SDC Parameterization Explained | Term Definition
+  title: "State Dependent Coefficient Parameterization, SDC Parameterization Explained | Term Definition"
   description: A technique that expresses the state matrix of a nonlinear system as a function of the state itself. By rewriting the nonlinear equation in pseudo-linear form as ẋ=A(x)x+B(x)u, the SDRE method convert...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Dependent Coefficient Parameterization, SDC Parameterization Explained | Term Definition
+  title: "State Dependent Coefficient Parameterization, SDC Parameterization Explained | Term Definition"
   description: A technique that expresses the state matrix of a nonlinear system as a function of the state itself. By rewriting the nonlinear equation in pseudo-linear form as ẋ=A(x)x+B(x)u, the SDRE method convert...
   image: /logo.png
 permalink: /en/glossary/dynamics/state-dependent-coefficient-parameterization-sdc-parameterization/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inner Cislunar Transfer Explained | Term Definition
+  title: "Inner Cislunar Transfer Explained | Term Definition"
   description: A type of transfer trajectory transiting the LL2 point, essentially passing through the LL1 point, costing more fuel than direct transit via LL1 point.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inner Cislunar Transfer Explained | Term Definition
+  title: "Inner Cislunar Transfer Explained | Term Definition"
   description: A type of transfer trajectory transiting the LL2 point, essentially passing through the LL1 point, costing more fuel than direct transit via LL1 point.
   image: /logo.png
 permalink: /en/glossary/orbits/inner-cislunar-transfer/

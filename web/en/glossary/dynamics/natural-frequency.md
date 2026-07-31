@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Natural Frequency, ωn Explained | Term Definition
+  title: "Natural Frequency, ωn Explained | Term Definition"
   description: 二阶系统无阻尼振荡的频率。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Natural Frequency, ωn Explained | Term Definition
+  title: "Natural Frequency, ωn Explained | Term Definition"
   description: 二阶系统无阻尼振荡的频率。
   image: /logo.png
 permalink: /en/glossary/dynamics/natural-frequency/

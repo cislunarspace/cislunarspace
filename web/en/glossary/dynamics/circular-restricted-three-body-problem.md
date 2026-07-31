@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem Explained | Term Definition"
   description: A restricted three-body problem model where the secondary body moves in a circular orbit around the primary body.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Circular Restricted Three-Body Problem Explained | Term Definition"
   description: A restricted three-body problem model where the secondary body moves in a circular orbit around the primary body.
   image: /logo.png
 permalink: /en/glossary/dynamics/circular-restricted-three-body-problem/

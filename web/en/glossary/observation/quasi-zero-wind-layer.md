@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Quasi-zero Wind Layer | Stratospheric Wind
+  title: "Quasi-zero Wind Layer | Stratospheric Wind"
   description: A detailed analysis of quasi-zero wind layer definitions, altitude range, formation mechanisms, and utilization strategies for stratospheric airship regional station-keeping
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-zero Wind Layer | Stratospheric Wind
+  title: "Quasi-zero Wind Layer | Stratospheric Wind"
   description: A detailed analysis of quasi-zero wind layer definitions, altitude range, formation mechanisms, and utilization strategies for stratospheric airship regional station-keeping
   image: /logo.png
 permalink: /en/glossary/observation/quasi-zero-wind-layer/

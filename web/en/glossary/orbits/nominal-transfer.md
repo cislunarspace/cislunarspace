@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nominal Transfer Explained | Term Definition
+  title: "Nominal Transfer Explained | Term Definition"
   description: Reference transfer trajectory computed in the CR3BP model.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nominal Transfer Explained | Term Definition
+  title: "Nominal Transfer Explained | Term Definition"
   description: Reference transfer trajectory computed in the CR3BP model.
   image: /logo.png
 permalink: /en/glossary/orbits/nominal-transfer/

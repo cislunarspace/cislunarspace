@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: KSG Integrator Explained | Term Definition
+  title: "KSG Integrator Explained | Term Definition"
   description: A numerical integration method for solving satellite equations of motion. In cislunar space cataloguing orbit determination, it propagates the complete three-body dynamical model with a 60-second s...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: KSG Integrator Explained | Term Definition
+  title: "KSG Integrator Explained | Term Definition"
   description: A numerical integration method for solving satellite equations of motion. In cislunar space cataloguing orbit determination, it propagates the complete three-body dynamical model with a 60-second s...
   image: /logo.png
 permalink: /en/glossary/dynamics/ksg-integrator/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Space Maneuver Explained | Term Definition
+  title: "Deep Space Maneuver Explained | Term Definition"
   description: A large delta-V maneuver executed in the far-Earth segment of a lunar transfer trajectory, distinct from trajectory correction maneuvers that address small e...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Space Maneuver Explained | Term Definition
+  title: "Deep Space Maneuver Explained | Term Definition"
   description: A large delta-V maneuver executed in the far-Earth segment of a lunar transfer trajectory, distinct from trajectory correction maneuvers that address small e...
   image: /logo.png
 permalink: /en/glossary/orbits/deep-space-maneuver/

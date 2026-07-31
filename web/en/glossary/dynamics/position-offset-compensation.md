@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Position Offset Compensation Explained | Term Definition
+  title: "Position Offset Compensation Explained | Term Definition"
   description: Because the fourth-stage burn pushes the interceptor away from the target point, Lambert guidance leads it to an offset aimpoint R_offset = R_T − ΔR to compensate for the position deviation caused by
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Position Offset Compensation Explained | Term Definition
+  title: "Position Offset Compensation Explained | Term Definition"
   description: Because the fourth-stage burn pushes the interceptor away from the target point, Lambert guidance leads it to an offset aimpoint R_offset = R_T − ΔR to compensate for the position deviation caused by
   image: /logo.png
 permalink: /en/glossary/dynamics/position-offset-compensation/

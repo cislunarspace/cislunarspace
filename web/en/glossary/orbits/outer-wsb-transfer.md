@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Outer WSB Transfer Explained | Term Definition
+  title: "Outer WSB Transfer Explained | Term Definition"
   description: "Earth-Moon transfer trajectory with the same geometric shape as Belbruno's WSB theory, constructed by patching stable manifolds near the Sun-Earth L1/L2 points "
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Outer WSB Transfer Explained | Term Definition
+  title: "Outer WSB Transfer Explained | Term Definition"
   description: "Earth-Moon transfer trajectory with the same geometric shape as Belbruno's WSB theory, constructed by patching stable manifolds near the Sun-Earth L1/L2 points "
   image: /logo.png
 permalink: /en/glossary/orbits/outer-wsb-transfer/

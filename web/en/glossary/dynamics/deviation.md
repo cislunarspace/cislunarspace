@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deviation Explained | Term Definition
+  title: "Deviation Explained | Term Definition"
   description: The offset distance of the manifold starting point relative to the nominal Halo orbit, serving as a key optimization variable in the upper layer of the two-layer optimization algorithm.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deviation Explained | Term Definition
+  title: "Deviation Explained | Term Definition"
   description: The offset distance of the manifold starting point relative to the nominal Halo orbit, serving as a key optimization variable in the upper layer of the two-layer optimization algorithm.
   image: /logo.png
 permalink: /en/glossary/dynamics/deviation/

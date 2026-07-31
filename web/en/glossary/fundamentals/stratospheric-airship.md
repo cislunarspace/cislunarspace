@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Stratospheric Airship | Near-space Platform
+  title: "Stratospheric Airship | Near-space Platform"
   description: A detailed analysis of stratospheric airship definitions, structural characteristics, key technical challenges, and their central role in near-space applications
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stratospheric Airship | Near-space Platform
+  title: "Stratospheric Airship | Near-space Platform"
   description: A detailed analysis of stratospheric airship definitions, structural characteristics, key technical challenges, and their central role in near-space applications
   image: /logo.png
 permalink: /en/glossary/fundamentals/stratospheric-airship/

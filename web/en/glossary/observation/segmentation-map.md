@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Segmentation Map Explained | Astronomical Image Processing
+  title: "Segmentation Map Explained | Astronomical Image Processing"
   description: Detailed explanation of segmentation maps including definition, generation methods, data structures, and applications in astronomical image processing and cislunar observation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Segmentation Map Explained | Astronomical Image Processing
+  title: "Segmentation Map Explained | Astronomical Image Processing"
   description: Detailed explanation of segmentation maps including definition, generation methods, data structures, and applications in astronomical image processing and cislunar observation
   image: /logo.png
 permalink: /en/glossary/observation/segmentation-map/

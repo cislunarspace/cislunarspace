@@ -1,6 +1,6 @@
 ---
 title: Orbit Determination
-description: The process of determining a spacecraft's orbital parameters using observational data (range, range-rate, angular measurements, etc.). JPL obtained range and velocity information from Chandrayaan-1...
+description: "The process of determining a spacecraft's orbital parameters using observational data (range, range-rate, angular measurements, etc.). JPL obtained range and velocity information from Chandrayaan-1..."
 keywords: Orbit Determination, OD
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Determination Explained | Term Definition
-  description: The process of determining a spacecraft's orbital parameters using observational data (range, range-rate, angular measurements, etc.). JPL obtained range and velocity information from Chandrayaan-1...
+  title: "Orbit Determination Explained | Term Definition"
+  description: "The process of determining a spacecraft's orbital parameters using observational data (range, range-rate, angular measurements, etc.). JPL obtained range and velocity information from Chandrayaan-1..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Determination Explained | Term Definition
-  description: The process of determining a spacecraft's orbital parameters using observational data (range, range-rate, angular measurements, etc.). JPL obtained range and velocity information from Chandrayaan-1...
+  title: "Orbit Determination Explained | Term Definition"
+  description: "The process of determining a spacecraft's orbital parameters using observational data (range, range-rate, angular measurements, etc.). JPL obtained range and velocity information from Chandrayaan-1..."
   image: /logo.png
 permalink: /en/glossary/navigation/orbit-determination/
 ---

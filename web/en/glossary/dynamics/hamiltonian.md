@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Hamiltonian Details | Core Tool of Orbital Mechanics and Optimal Control
+  title: "Hamiltonian Details | Core Tool of Orbital Mechanics and Optimal Control"
   description: Detailed explanation of the Hamiltonian function in orbital mechanics, its mathematical formulation, and applications in optimal control and the three-body problem
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hamiltonian Details | Core Tool of Orbital Mechanics and Optimal Control
+  title: "Hamiltonian Details | Core Tool of Orbital Mechanics and Optimal Control"
   description: Detailed explanation of the Hamiltonian function in orbital mechanics, its mathematical formulation, and applications in optimal control and the three-body problem
   image: /logo.png
 permalink: /en/glossary/dynamics/hamiltonian/

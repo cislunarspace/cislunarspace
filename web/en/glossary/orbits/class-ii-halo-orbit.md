@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Class II Halo Orbit Explained | Term Definition
+  title: "Class II Halo Orbit Explained | Term Definition"
   description: The southern halo orbit family, also called second class halo family, symmetric to Class I with respect to the z=0 plane.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Class II Halo Orbit Explained | Term Definition
+  title: "Class II Halo Orbit Explained | Term Definition"
   description: The southern halo orbit family, also called second class halo family, symmetric to Class I with respect to the z=0 plane.
   image: /logo.png
 permalink: /en/glossary/orbits/class-ii-halo-orbit/

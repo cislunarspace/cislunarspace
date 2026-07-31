@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L2 Halo Orbit Explained | Term Definition
+  title: "L2 Halo Orbit Explained | Term Definition"
   description: 围绕地月 L2 平动点运行的 Halo 轨道。L2 位于月球外侧。其中幅值较小的 L2 Halo 轨道（如近直线 Halo 轨道 NRHO）是 Artemis 计划和 CAPSTONE 任务的基准轨道。较大幅值的 L2 Halo 轨道因远月点距月球较远，视直径变化范围大，对光学导航的相机参数要求更高。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L2 Halo Orbit Explained | Term Definition
+  title: "L2 Halo Orbit Explained | Term Definition"
   description: 围绕地月 L2 平动点运行的 Halo 轨道。L2 位于月球外侧。其中幅值较小的 L2 Halo 轨道（如近直线 Halo 轨道 NRHO）是 Artemis 计划和 CAPSTONE 任务的基准轨道。较大幅值的 L2 Halo 轨道因远月点距月球较远，视直径变化范围大，对光学导航的相机参数要求更高。
   image: /logo.png
 permalink: /en/glossary/orbits/l2-halo-orbit/

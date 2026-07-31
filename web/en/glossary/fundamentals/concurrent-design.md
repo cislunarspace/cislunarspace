@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Concurrent Design Explained | Term Definition
+  title: "Concurrent Design Explained | Term Definition"
   description: Multi-disciplinary team simultaneously designing system parts in parallel to detect interface conflicts early.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Concurrent Design Explained | Term Definition
+  title: "Concurrent Design Explained | Term Definition"
   description: Multi-disciplinary team simultaneously designing system parts in parallel to detect interface conflicts early.
   image: /logo.png
 permalink: /en/glossary/fundamentals/concurrent-design/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transfer angle Explained | Term Definition
+  title: "Transfer angle Explained | Term Definition"
   description: The geometric angle between the two position vectors; short-way transfer has θ<π, long-way has θ>π.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transfer angle Explained | Term Definition
+  title: "Transfer angle Explained | Term Definition"
   description: The geometric angle between the two position vectors; short-way transfer has θ<π, long-way has θ>π.
   image: /logo.png
 permalink: /en/glossary/fundamentals/transfer-angle/

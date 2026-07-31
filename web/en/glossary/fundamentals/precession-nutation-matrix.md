@@ -1,6 +1,6 @@
 ---
 title: Precession-Nutation Matrix
-description: Rotation matrix M(t) describing the directional changes of Earth's spin axis due to precession and nutation, used for transforming between the geocentric cel...
+description: "Rotation matrix M(t) describing the directional changes of Earth's spin axis due to precession and nutation, used for transforming between the geocentric cel..."
 keywords: Precession-Nutation Matrix
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Precession-Nutation Matrix Explained | Term Definition
-  description: Rotation matrix M(t) describing the directional changes of Earth's spin axis due to precession and nutation, used for transforming between the geocentric cel...
+  title: "Precession-Nutation Matrix Explained | Term Definition"
+  description: "Rotation matrix M(t) describing the directional changes of Earth's spin axis due to precession and nutation, used for transforming between the geocentric cel..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Precession-Nutation Matrix Explained | Term Definition
-  description: Rotation matrix M(t) describing the directional changes of Earth's spin axis due to precession and nutation, used for transforming between the geocentric cel...
+  title: "Precession-Nutation Matrix Explained | Term Definition"
+  description: "Rotation matrix M(t) describing the directional changes of Earth's spin axis due to precession and nutation, used for transforming between the geocentric cel..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/precession-nutation-matrix/
 ---

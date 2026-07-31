@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time Unit Explained | Term Definition
+  title: "Time Unit Explained | Term Definition"
   description: "Time reference in canonical units such that the primary body's gravitational parameter equals 1 DU³/TU²."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time Unit Explained | Term Definition
+  title: "Time Unit Explained | Term Definition"
   description: "Time reference in canonical units such that the primary body's gravitational parameter equals 1 DU³/TU²."
   image: /logo.png
 permalink: /en/glossary/fundamentals/Time-Unit/

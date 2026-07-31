@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Return Orbit, ERO (ERO) Explained | Term Definition
+  title: "Earth Return Orbit, ERO (ERO) Explained | Term Definition"
   description: When HLOs are continued to a close neighborhood of the Earth, they are categorized as EROs since they periodically approach and leave the vicinity of the Earth.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Return Orbit, ERO (ERO) Explained | Term Definition
+  title: "Earth Return Orbit, ERO (ERO) Explained | Term Definition"
   description: When HLOs are continued to a close neighborhood of the Earth, they are categorized as EROs since they periodically approach and leave the vicinity of the Earth.
   image: /logo.png
 permalink: /en/glossary/orbits/earth-return-orbit-ero/

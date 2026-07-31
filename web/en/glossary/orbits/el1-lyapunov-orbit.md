@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: EL1 Lyapunov Orbit Explained | Term Definition
+  title: "EL1 Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit near the L1 point in the Sun-Earth system. In the four-body model, the invariant manifold of EL1 Lyapunov orbit intersects that of LL2 Lyapunov orbit, enabling lunar ballistic capture...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: EL1 Lyapunov Orbit Explained | Term Definition
+  title: "EL1 Lyapunov Orbit Explained | Term Definition"
   description: A periodic orbit near the L1 point in the Sun-Earth system. In the four-body model, the invariant manifold of EL1 Lyapunov orbit intersects that of LL2 Lyapunov orbit, enabling lunar ballistic capture...
   image: /logo.png
 permalink: /en/glossary/orbits/el1-lyapunov-orbit/

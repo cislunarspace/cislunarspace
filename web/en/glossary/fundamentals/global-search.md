@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Global Search Explained | Term Definition
+  title: "Global Search Explained | Term Definition"
   description: A strategy for systematically searching for optimal solutions across the entire admissible space of initial conditions or costates, as opposed to local optim...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Global Search Explained | Term Definition
+  title: "Global Search Explained | Term Definition"
   description: A strategy for systematically searching for optimal solutions across the entire admissible space of initial conditions or costates, as opposed to local optim...
   image: /logo.png
 permalink: /en/glossary/fundamentals/global-search/

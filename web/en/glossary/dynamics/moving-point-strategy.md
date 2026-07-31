@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Moving Point Strategy Explained | Term Definition
+  title: "Moving Point Strategy Explained | Term Definition"
   description: In halo orbit transfer optimization, a strategy that generalizes point-to-point optimal solutions to orbit-to-orbit solutions by sliding departure and arrival p
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Moving Point Strategy Explained | Term Definition
+  title: "Moving Point Strategy Explained | Term Definition"
   description: In halo orbit transfer optimization, a strategy that generalizes point-to-point optimal solutions to orbit-to-orbit solutions by sliding departure and arrival p
   image: /logo.png
 permalink: /en/glossary/dynamics/moving-point-strategy/

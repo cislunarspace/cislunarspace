@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Zero-Velocity Curve Explained | Term Definition
+  title: "Zero-Velocity Curve Explained | Term Definition"
   description: 在圆型限制性三体问题中，由雅可比常数确定的等效势能等值线。它划分了探测器运动的允许区域和禁止区域：速度为零时，探测器只能在零速度曲线之外运动。雅可比常数越大，允许区域越小。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero-Velocity Curve Explained | Term Definition
+  title: "Zero-Velocity Curve Explained | Term Definition"
   description: 在圆型限制性三体问题中，由雅可比常数确定的等效势能等值线。它划分了探测器运动的允许区域和禁止区域：速度为零时，探测器只能在零速度曲线之外运动。雅可比常数越大，允许区域越小。
   image: /logo.png
 permalink: /en/glossary/dynamics/zero-velocity-curve/

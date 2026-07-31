@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Power-Limited Engine Explained | Term Definition
+  title: "Power-Limited Engine Explained | Term Definition"
   description: Propulsion system with bounded thrust power, such as electric propulsion. When power is constant, thrust is inversely proportional to specific impulse.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Power-Limited Engine Explained | Term Definition
+  title: "Power-Limited Engine Explained | Term Definition"
   description: Propulsion system with bounded thrust power, such as electric propulsion. When power is constant, thrust is inversely proportional to specific impulse.
   image: /logo.png
 permalink: /en/glossary/dynamics/power-limited-engine/

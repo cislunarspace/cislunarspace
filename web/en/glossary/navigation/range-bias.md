@@ -1,6 +1,6 @@
 ---
 title: Range Bias
-description: The systematic distance measurement error in inter-satellite ranging systems. In this paper's simulations, a system bias of 10m is assumed, and the range bias i
+description: "The systematic distance measurement error in inter-satellite ranging systems. In this paper's simulations, a system bias of 10m is assumed, and the range bias i"
 keywords: Range Bias
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Range Bias Explained | Term Definition
-  description: The systematic distance measurement error in inter-satellite ranging systems. In this paper's simulations, a system bias of 10m is assumed, and the range bias i
+  title: "Range Bias Explained | Term Definition"
+  description: "The systematic distance measurement error in inter-satellite ranging systems. In this paper's simulations, a system bias of 10m is assumed, and the range bias i"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Range Bias Explained | Term Definition
-  description: The systematic distance measurement error in inter-satellite ranging systems. In this paper's simulations, a system bias of 10m is assumed, and the range bias i
+  title: "Range Bias Explained | Term Definition"
+  description: "The systematic distance measurement error in inter-satellite ranging systems. In this paper's simulations, a system bias of 10m is assumed, and the range bias i"
   image: /logo.png
 permalink: /en/glossary/navigation/range-bias/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pontryagin Optimality Conditions Explained | Term Definition
+  title: "Pontryagin Optimality Conditions Explained | Term Definition"
   description: A set of necessary conditions derived from the Pontryagin Maximum Principle, including the optimal control law (analytical expressions for thrust direction and magnitude), costate differential equations, and transversality conditions. Indirect methods require all conditions to be satisfied simultaneously.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pontryagin Optimality Conditions Explained | Term Definition
+  title: "Pontryagin Optimality Conditions Explained | Term Definition"
   description: A set of necessary conditions derived from the Pontryagin Maximum Principle, including the optimal control law (analytical expressions for thrust direction and magnitude), costate differential equations, and transversality conditions. Indirect methods require all conditions to be satisfied simultaneously.
   image: /logo.png
 permalink: /en/glossary/fundamentals/pontryagin-optimality-conditions/

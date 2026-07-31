@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Direction Angle Explained | Term Definition
+  title: "Thrust Direction Angle Explained | Term Definition"
   description: Two angular parameters describing the thrust vector direction in the rotating frame. The horizontal angle θ₁ is the angle between the thrust vector and the x-axis in the xOy plane; the vertical angle θ₂ is the angle between the thrust vector and the xOy plane. Optimal control theory shows that the thrust direction should be antiparallel to the costate velocity vector.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Direction Angle Explained | Term Definition
+  title: "Thrust Direction Angle Explained | Term Definition"
   description: Two angular parameters describing the thrust vector direction in the rotating frame. The horizontal angle θ₁ is the angle between the thrust vector and the x-axis in the xOy plane; the vertical angle θ₂ is the angle between the thrust vector and the xOy plane. Optimal control theory shows that the thrust direction should be antiparallel to the costate velocity vector.
   image: /logo.png
 permalink: /en/glossary/dynamics/thrust-direction-angle/

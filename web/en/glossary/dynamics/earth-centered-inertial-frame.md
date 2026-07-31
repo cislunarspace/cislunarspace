@@ -1,6 +1,6 @@
 ---
 title: Earth-Centered Inertial Frame
-description: Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to North Pole. Also known as GCRF.
+description: "Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to North Pole. Also known as GCRF."
 keywords: Earth-Centered Inertial Frame, ECI
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Centered Inertial Frame Explained | Term Definition
-  description: Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to North Pole. Also known as GCRF.
+  title: "Earth-Centered Inertial Frame Explained | Term Definition"
+  description: "Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to North Pole. Also known as GCRF."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Centered Inertial Frame Explained | Term Definition
-  description: Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to North Pole. Also known as GCRF.
+  title: "Earth-Centered Inertial Frame Explained | Term Definition"
+  description: "Coordinate system with origin at Earth's center of mass, fundamental plane as Earth's equatorial plane, X-axis pointing to vernal equinox, K-axis pointing to North Pole. Also known as GCRF."
   image: /logo.png
 permalink: /en/glossary/dynamics/earth-centered-inertial-frame/
 ---

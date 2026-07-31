@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum Flyout Angle Explained | Term Definition
+  title: "Minimum Flyout Angle Explained | Term Definition"
   description: Lower bound of flyout angle corresponding to the most direct (minimum transfer time) trajectory.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Flyout Angle Explained | Term Definition
+  title: "Minimum Flyout Angle Explained | Term Definition"
   description: Lower bound of flyout angle corresponding to the most direct (minimum transfer time) trajectory.
   image: /logo.png
 permalink: /en/glossary/dynamics/minimum-flyout-angle/

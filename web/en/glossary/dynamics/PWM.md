@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pulse-Width Modulation, PWM Explained | Term Definition
+  title: "Pulse-Width Modulation, PWM Explained | Term Definition"
   description: A modulation strategy that converts the variable impulse output by MPC into the actual firing duration of a fixed-thrust engine.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pulse-Width Modulation, PWM Explained | Term Definition
+  title: "Pulse-Width Modulation, PWM Explained | Term Definition"
   description: A modulation strategy that converts the variable impulse output by MPC into the actual firing duration of a fixed-thrust engine.
   image: /logo.png
 permalink: /en/glossary/dynamics/PWM/

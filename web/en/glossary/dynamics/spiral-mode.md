@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spiral Mode Explained | Term Definition
+  title: "Spiral Mode Explained | Term Definition"
   description: A motion pattern where invariant manifolds spiral around a periodic orbit while departing or arriving. When the state transition matrix of a periodic orbit p...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spiral Mode Explained | Term Definition
+  title: "Spiral Mode Explained | Term Definition"
   description: A motion pattern where invariant manifolds spiral around a periodic orbit while departing or arriving. When the state transition matrix of a periodic orbit p...
   image: /logo.png
 permalink: /en/glossary/dynamics/spiral-mode/

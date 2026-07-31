@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perilune Radius Explained | Term Definition
+  title: "Perilune Radius Explained | Term Definition"
   description: The selenocentric distance at the closest approach point of a transfer trajectory or invariant manifold. This parameter is the central constraint in transfer trajectory design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perilune Radius Explained | Term Definition
+  title: "Perilune Radius Explained | Term Definition"
   description: The selenocentric distance at the closest approach point of a transfer trajectory or invariant manifold. This parameter is the central constraint in transfer trajectory design.
   image: /logo.png
 permalink: /en/glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Hot Pixel Explained | Astronomical Sensor Artifacts
+  title: "Hot Pixel Explained | Astronomical Sensor Artifacts"
   description: Detailed explanation of hot pixels including causes, impact on astronomical images, median filter removal methods, and applications in cislunar observation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hot Pixel Explained | Astronomical Sensor Artifacts
+  title: "Hot Pixel Explained | Astronomical Sensor Artifacts"
   description: Detailed explanation of hot pixels including causes, impact on astronomical images, median filter removal methods, and applications in cislunar observation
   image: /logo.png
 permalink: /en/glossary/observation/hot-pixel/

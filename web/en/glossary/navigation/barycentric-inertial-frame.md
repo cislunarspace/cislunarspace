@@ -1,6 +1,6 @@
 ---
 title: Barycentric Inertial Frame
-description: An inertial reference frame centered at the Sun-Earth barycenter. Formed by freezing the barycentric rotating frame at the initial epoch: z-axis along the ecliptic normal, x-axis pointing from Sun to...
+description: "An inertial reference frame centered at the Sun-Earth barycenter. Formed by freezing the barycentric rotating frame at the initial epoch: z-axis along the ecliptic normal, x-axis pointing from Sun to..."
 keywords: Barycentric Inertial Frame, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Inertial Frame Explained | Term Definition
-  description: An inertial reference frame centered at the Sun-Earth barycenter. Formed by freezing the barycentric rotating frame at the initial epoch: z-axis along the ecliptic normal, x-axis pointing from Sun to...
+  title: "Barycentric Inertial Frame Explained | Term Definition"
+  description: "An inertial reference frame centered at the Sun-Earth barycenter. Formed by freezing the barycentric rotating frame at the initial epoch: z-axis along the ecliptic normal, x-axis pointing from Sun to..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Inertial Frame Explained | Term Definition
-  description: An inertial reference frame centered at the Sun-Earth barycenter. Formed by freezing the barycentric rotating frame at the initial epoch: z-axis along the ecliptic normal, x-axis pointing from Sun to...
+  title: "Barycentric Inertial Frame Explained | Term Definition"
+  description: "An inertial reference frame centered at the Sun-Earth barycenter. Formed by freezing the barycentric rotating frame at the initial epoch: z-axis along the ecliptic normal, x-axis pointing from Sun to..."
   image: /logo.png
 permalink: /en/glossary/navigation/barycentric-inertial-frame/
 ---

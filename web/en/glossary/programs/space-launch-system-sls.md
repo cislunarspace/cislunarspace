@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tool resources.
   image: /logo.png
 og:
-  title: Space Launch System (SLS) Explained | Term Definition
+  title: "Space Launch System (SLS) Explained | Term Definition"
   description: A heavy-lift launch vehicle developed by NASA for the Artemis program, the most powerful rocket since the Saturn V. Its maiden flight in November 2022 sent the Orion spacecraft into lunar orbit and back safely.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Launch System (SLS) Explained | Term Definition
+  title: "Space Launch System (SLS) Explained | Term Definition"
   description: A heavy-lift launch vehicle developed by NASA for the Artemis program, the most powerful rocket since the Saturn V. Its maiden flight in November 2022 sent the Orion spacecraft into lunar orbit and back safely.
   image: /logo.png
 permalink: /en/glossary/programs/space-launch-system-sls/

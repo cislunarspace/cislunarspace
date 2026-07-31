@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Prograde Circular Orbit, PCO Explained | Term Definition
+  title: "Prograde Circular Orbit, PCO Explained | Term Definition"
   description: Circular orbits with radius up to 5000 km, highly stable and requiring almost zero corrections to maintain.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Prograde Circular Orbit, PCO Explained | Term Definition
+  title: "Prograde Circular Orbit, PCO Explained | Term Definition"
   description: Circular orbits with radius up to 5000 km, highly stable and requiring almost zero corrections to maintain.
   image: /logo.png
 permalink: /en/glossary/orbits/prograde-circular-orbit-pco/

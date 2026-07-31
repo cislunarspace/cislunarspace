@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homological Equation Explained | Term Definition
+  title: "Homological Equation Explained | Term Definition"
   description: An equation in normal form computation that determines the generating function; its denominators involve small divisor problems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homological Equation Explained | Term Definition
+  title: "Homological Equation Explained | Term Definition"
   description: An equation in normal form computation that determines the generating function; its denominators involve small divisor problems.
   image: /logo.png
 permalink: /en/glossary/dynamics/homological-equation/

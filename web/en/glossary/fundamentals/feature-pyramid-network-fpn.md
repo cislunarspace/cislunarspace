@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Feature Pyramid Network, FPN Explained | Term Definition
+  title: "Feature Pyramid Network, FPN Explained | Term Definition"
   description: A multi-scale feature extraction architecture that combines feature maps of different resolutions through bottom-up and top-down pathways, enabling neural ne...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Feature Pyramid Network, FPN Explained | Term Definition
+  title: "Feature Pyramid Network, FPN Explained | Term Definition"
   description: A multi-scale feature extraction architecture that combines feature maps of different resolutions through bottom-up and top-down pathways, enabling neural ne...
   image: /logo.png
 permalink: /en/glossary/fundamentals/feature-pyramid-network-fpn/

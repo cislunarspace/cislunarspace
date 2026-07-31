@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Planar Circular Restricted Three-Body Problem Explained | Term Definition"
   description: "The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass, the third body's mass is negli"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Circular Restricted Three-Body Problem Explained | Term Definition
+  title: "Planar Circular Restricted Three-Body Problem Explained | Term Definition"
   description: "The planar simplification of the restricted three-body problem: two primaries move in circular orbits about their center of mass, the third body's mass is negli"
   image: /logo.png
 permalink: /en/glossary/fundamentals/pcr3bp/

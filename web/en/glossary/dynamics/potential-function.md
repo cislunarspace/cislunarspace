@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Potential Function Explained | Term Definition
+  title: "Potential Function Explained | Term Definition"
   description: In the rotating frame of the CR3BP, the scalar function U = G(m_E/r_E + m_M/r_M) + ω²(x² + y²)/2 that describes the combined effect of gravitational and cent...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Potential Function Explained | Term Definition
+  title: "Potential Function Explained | Term Definition"
   description: In the rotating frame of the CR3BP, the scalar function U = G(m_E/r_E + m_M/r_M) + ω²(x² + y²)/2 that describes the combined effect of gravitational and cent...
   image: /logo.png
 permalink: /en/glossary/dynamics/potential-function/

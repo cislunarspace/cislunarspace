@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Mass Discontinuity Explained | Mass Variation in Orbital Deployment
+  title: "Mass Discontinuity Explained | Mass Variation in Orbital Deployment"
   description: Analysis of mass discontinuity concept and its impact on orbital transfer vehicle batch deployment
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Discontinuity Explained | Mass Variation in Orbital Deployment
+  title: "Mass Discontinuity Explained | Mass Variation in Orbital Deployment"
   description: Analysis of mass discontinuity impact on orbital deployment and importance of accurate modeling
   image: /logo.png
 permalink: /en/glossary/dynamics/mass-discontinuity/

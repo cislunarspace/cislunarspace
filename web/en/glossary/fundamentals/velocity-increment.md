@@ -1,6 +1,6 @@
 ---
 title: Velocity Increment
-description: The magnitude of change in a spacecraft's velocity vector, serving as the fundamental metric for fuel consumption in orbital transfers.
+description: "The magnitude of change in a spacecraft's velocity vector, serving as the fundamental metric for fuel consumption in orbital transfers."
 keywords: Velocity Increment, cislunar space, orbital mechanics, navigation, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Velocity Increment Explained | Term Definition
-  description: The magnitude of change in a spacecraft's velocity vector, serving as the fundamental metric for fuel consumption in orbital transfers.
+  title: "Velocity Increment Explained | Term Definition"
+  description: "The magnitude of change in a spacecraft's velocity vector, serving as the fundamental metric for fuel consumption in orbital transfers."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity Increment Explained | Term Definition
-  description: The magnitude of change in a spacecraft's velocity vector, serving as the fundamental metric for fuel consumption in orbital transfers.
+  title: "Velocity Increment Explained | Term Definition"
+  description: "The magnitude of change in a spacecraft's velocity vector, serving as the fundamental metric for fuel consumption in orbital transfers."
   image: /logo.png
 permalink: /en/glossary/fundamentals/velocity-increment/
 ---

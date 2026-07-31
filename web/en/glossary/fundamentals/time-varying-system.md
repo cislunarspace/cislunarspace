@@ -1,6 +1,6 @@
 ---
 title: Time-Varying System
-description: A linear system whose system matrices A(t), B(t), C(t) vary with time. Under the CR3BP framework, the coefficient matrices of the relative motion equations depend on the chief spacecraft's instantaneo...
+description: "A linear system whose system matrices A(t), B(t), C(t) vary with time. Under the CR3BP framework, the coefficient matrices of the relative motion equations depend on the chief spacecraft's instantaneo..."
 keywords: Time-Varying System, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time-Varying System Explained | Term Definition
-  description: A linear system whose system matrices A(t), B(t), C(t) vary with time. Under the CR3BP framework, the coefficient matrices of the relative motion equations depend on the chief spacecraft's instantaneo...
+  title: "Time-Varying System Explained | Term Definition"
+  description: "A linear system whose system matrices A(t), B(t), C(t) vary with time. Under the CR3BP framework, the coefficient matrices of the relative motion equations depend on the chief spacecraft's instantaneo..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time-Varying System Explained | Term Definition
-  description: A linear system whose system matrices A(t), B(t), C(t) vary with time. Under the CR3BP framework, the coefficient matrices of the relative motion equations depend on the chief spacecraft's instantaneo...
+  title: "Time-Varying System Explained | Term Definition"
+  description: "A linear system whose system matrices A(t), B(t), C(t) vary with time. Under the CR3BP framework, the coefficient matrices of the relative motion equations depend on the chief spacecraft's instantaneo..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/time-varying-system/
 ---

@@ -1,6 +1,6 @@
 ---
 title: GNC
-description: Guidance, Navigation and Control; core functions in spacecraft rendezvous: guidance determines trajectory, navigation provides state estimation, control exec...
+description: "Guidance, Navigation and Control; core functions in spacecraft rendezvous: guidance determines trajectory, navigation provides state estimation, control exec..."
 keywords: GNC
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GNC Explained | Term Definition
-  description: Guidance, Navigation and Control; core functions in spacecraft rendezvous: guidance determines trajectory, navigation provides state estimation, control exec...
+  title: "GNC Explained | Term Definition"
+  description: "Guidance, Navigation and Control; core functions in spacecraft rendezvous: guidance determines trajectory, navigation provides state estimation, control exec..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GNC Explained | Term Definition
-  description: Guidance, Navigation and Control; core functions in spacecraft rendezvous: guidance determines trajectory, navigation provides state estimation, control exec...
+  title: "GNC Explained | Term Definition"
+  description: "Guidance, Navigation and Control; core functions in spacecraft rendezvous: guidance determines trajectory, navigation provides state estimation, control exec..."
   image: /logo.png
 permalink: /en/glossary/navigation/gnc/
 ---

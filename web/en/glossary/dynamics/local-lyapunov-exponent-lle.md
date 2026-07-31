@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local Lyapunov Exponent, LLE Explained | Term Definition
+  title: "Local Lyapunov Exponent, LLE Explained | Term Definition"
   description: A measure of the maximum growth rate of terminal state deviations caused by small perturbations in initial conditions. In orbital error propagation analysis, a larger LLE indicates faster error divergence in that orbital arc, requiring more frequent midcourse corrections to suppress error accumulation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local Lyapunov Exponent, LLE Explained | Term Definition
+  title: "Local Lyapunov Exponent, LLE Explained | Term Definition"
   description: A measure of the maximum growth rate of terminal state deviations caused by small perturbations in initial conditions. In orbital error propagation analysis, a larger LLE indicates faster error divergence in that orbital arc, requiring more frequent midcourse corrections to suppress error accumulation.
   image: /logo.png
 permalink: /en/glossary/dynamics/local-lyapunov-exponent-lle/

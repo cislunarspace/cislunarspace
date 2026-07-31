@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lyapunov Periodic Orbit Explained | Term Definition
+  title: "Lyapunov Periodic Orbit Explained | Term Definition"
   description: A two-dimensional planar periodic orbit near a libration point, existing only in the XY plane of the Earth-Moon rotating frame with no Z-component. Since it app
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lyapunov Periodic Orbit Explained | Term Definition
+  title: "Lyapunov Periodic Orbit Explained | Term Definition"
   description: A two-dimensional planar periodic orbit near a libration point, existing only in the XY plane of the Earth-Moon rotating frame with no Z-component. Since it app
   image: /logo.png
 permalink: /en/glossary/orbits/lyapunov-periodic-orbit/

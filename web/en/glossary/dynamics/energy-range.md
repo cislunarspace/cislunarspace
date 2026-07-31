@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Energy Range Explained | Term Definition
+  title: "Energy Range Explained | Term Definition"
   description: "Feasible Earth-Moon transfer regions classified by Jacobi energy: cases a, b, c, d."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Energy Range Explained | Term Definition
+  title: "Energy Range Explained | Term Definition"
   description: "Feasible Earth-Moon transfer regions classified by Jacobi energy: cases a, b, c, d."
   image: /logo.png
 permalink: /en/glossary/dynamics/energy-range/

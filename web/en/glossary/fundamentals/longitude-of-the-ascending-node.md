@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Longitude of the Ascending Node Explained | Term Definition
+  title: "Longitude of the Ascending Node Explained | Term Definition"
   description: The longitude, measured in the reference plane, of the ascending node where the spacecraft crosses from the southern to the northern side of the reference plane
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Longitude of the Ascending Node Explained | Term Definition
+  title: "Longitude of the Ascending Node Explained | Term Definition"
   description: The longitude, measured in the reference plane, of the ascending node where the spacecraft crosses from the southern to the northern side of the reference plane
   image: /logo.png
 permalink: /en/glossary/fundamentals/longitude-of-the-ascending-node/

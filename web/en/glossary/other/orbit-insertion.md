@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Orbit Insertion Explained | Cislunar Space
+  title: "Orbit Insertion Explained | Cislunar Space"
   description: Detailed explanation of orbit insertion definition, impulse maneuver principles, and role in DRO transfers
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Insertion Explained | Cislunar Space
+  title: "Orbit Insertion Explained | Cislunar Space"
   description: Detailed explanation of orbit insertion definition, impulse maneuver principles, and role in DRO transfers
   image: /logo.png
 permalink: /en/glossary/other/orbit-insertion/

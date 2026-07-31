@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Survival Map Explained | Term Definition
+  title: "Survival Map Explained | Term Definition"
   description: A two-dimensional parametric map where initial conditions near the lunar L2 point are sampled and color-coded by orbital lifetime.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Survival Map Explained | Term Definition
+  title: "Survival Map Explained | Term Definition"
   description: A two-dimensional parametric map where initial conditions near the lunar L2 point are sampled and color-coded by orbital lifetime.
   image: /logo.png
 permalink: /en/glossary/dynamics/survival-map/

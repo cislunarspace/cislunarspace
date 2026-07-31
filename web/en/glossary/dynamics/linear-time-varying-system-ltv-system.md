@@ -1,6 +1,6 @@
 ---
 title: Linear Time-Varying System, LTV System
-description: A linear system whose state-space matrix A(t) varies with time: dx/dt = A(t)x + Bu. Unlike linear time-invariant (LTI) systems, the state transition matrix o...
+description: "A linear system whose state-space matrix A(t) varies with time: dx/dt = A(t)x + Bu. Unlike linear time-invariant (LTI) systems, the state transition matrix o..."
 keywords: Linear Time-Varying System, LTV System, LTV
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Time-Varying System, LTV System Explained | Term Definition
-  description: A linear system whose state-space matrix A(t) varies with time: dx/dt = A(t)x + Bu. Unlike linear time-invariant (LTI) systems, the state transition matrix o...
+  title: "Linear Time-Varying System, LTV System Explained | Term Definition"
+  description: "A linear system whose state-space matrix A(t) varies with time: dx/dt = A(t)x + Bu. Unlike linear time-invariant (LTI) systems, the state transition matrix o..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Time-Varying System, LTV System Explained | Term Definition
-  description: A linear system whose state-space matrix A(t) varies with time: dx/dt = A(t)x + Bu. Unlike linear time-invariant (LTI) systems, the state transition matrix o...
+  title: "Linear Time-Varying System, LTV System Explained | Term Definition"
+  description: "A linear system whose state-space matrix A(t) varies with time: dx/dt = A(t)x + Bu. Unlike linear time-invariant (LTI) systems, the state transition matrix o..."
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-time-varying-system-ltv-system/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powell Hybrid Algorithm Explained | Term Definition
+  title: "Powell Hybrid Algorithm Explained | Term Definition"
   description: Hybrid algorithm proposed by Powell for correcting results after each successful step of numerical integration in the continuation method.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powell Hybrid Algorithm Explained | Term Definition
+  title: "Powell Hybrid Algorithm Explained | Term Definition"
   description: Hybrid algorithm proposed by Powell for correcting results after each successful step of numerical integration in the continuation method.
   image: /logo.png
 permalink: /en/glossary/dynamics/powell-hybrid-algorithm/

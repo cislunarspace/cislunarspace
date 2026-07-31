@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Energy Transfer, LET (LET) Explained | Term Definition
+  title: "Low-Energy Transfer, LET (LET) Explained | Term Definition"
   description: An Earth-to-Moon transfer that exploits the invariant manifolds of libration point orbits in the Sun-Earth and Earth-Moon CR3BPs. The spacecraft departs from LE
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Energy Transfer, LET (LET) Explained | Term Definition
+  title: "Low-Energy Transfer, LET (LET) Explained | Term Definition"
   description: An Earth-to-Moon transfer that exploits the invariant manifolds of libration point orbits in the Sun-Earth and Earth-Moon CR3BPs. The spacecraft departs from LE
   image: /logo.png
 permalink: /en/glossary/orbits/low-energy-transfer-let/

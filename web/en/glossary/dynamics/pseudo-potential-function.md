@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudo-potential Function Explained | Term Definition
+  title: "Pseudo-potential Function Explained | Term Definition"
   description: In CR3BP, a potential function describing the motion of the third body, containing centrifugal potential and gravitational potentials of both primaries.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudo-potential Function Explained | Term Definition
+  title: "Pseudo-potential Function Explained | Term Definition"
   description: In CR3BP, a potential function describing the motion of the third body, containing centrifugal potential and gravitational potentials of both primaries.
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudo-potential-function/

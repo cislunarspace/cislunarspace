@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Operational Orbit Library Explained | Term Definition
+  title: "Operational Orbit Library Explained | Term Definition"
   description: A systematically generated and categorized database of periodic orbits under the CRTBP framework, encompassing 17 orbit families including DROs, Lyapunov, Ha...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Operational Orbit Library Explained | Term Definition
+  title: "Operational Orbit Library Explained | Term Definition"
   description: A systematically generated and categorized database of periodic orbits under the CRTBP framework, encompassing 17 orbit families including DROs, Lyapunov, Ha...
   image: /logo.png
 permalink: /en/glossary/orbits/operational-orbit-library/

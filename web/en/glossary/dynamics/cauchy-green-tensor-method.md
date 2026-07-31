@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cauchy-Green Tensor Method Explained | Term Definition
+  title: "Cauchy-Green Tensor Method Explained | Term Definition"
   description: A station-keeping approach that constructs the Cauchy-Green tensor from the deformation gradient (state transition matrix) of the dynamical flow, analyzing its...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cauchy-Green Tensor Method Explained | Term Definition
+  title: "Cauchy-Green Tensor Method Explained | Term Definition"
   description: A station-keeping approach that constructs the Cauchy-Green tensor from the deformation gradient (state transition matrix) of the dynamical flow, analyzing its...
   image: /logo.png
 permalink: /en/glossary/dynamics/cauchy-green-tensor-method/

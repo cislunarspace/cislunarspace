@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 2:1 Resonant DRO Explained | Term Definition
+  title: "2:1 Resonant DRO Explained | Term Definition"
   description: A Distant Retrograde Orbit whose period is half the lunar synodic period, approximately 14.77 days. A new mission opportunity arises twice every synodic month, advantageous for accommodating launch delays.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 2:1 Resonant DRO Explained | Term Definition
+  title: "2:1 Resonant DRO Explained | Term Definition"
   description: A Distant Retrograde Orbit whose period is half the lunar synodic period, approximately 14.77 days. A new mission opportunity arises twice every synodic month, advantageous for accommodating launch delays.
   image: /logo.png
 permalink: /en/glossary/orbits/21-resonant-dro/

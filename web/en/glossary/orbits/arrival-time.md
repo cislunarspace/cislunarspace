@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Arrival Time Explained | Term Definition
+  title: "Arrival Time Explained | Term Definition"
   description: The instant when a spacecraft arrives at the target orbit and applies the insertion impulse. The difference between arrival time and departure time is the time of flight; together they determine th...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Arrival Time Explained | Term Definition
+  title: "Arrival Time Explained | Term Definition"
   description: The instant when a spacecraft arrives at the target orbit and applies the insertion impulse. The difference between arrival time and departure time is the time of flight; together they determine th...
   image: /logo.png
 permalink: /en/glossary/orbits/arrival-time/

@@ -1,6 +1,6 @@
 ---
 title: Extremal Flow
-description: The family of trajectories satisfying Pontryagin's Maximum Principle. The extremal flow is driven by the co-state Hamiltonian equations, and splits into bang...
+description: "The family of trajectories satisfying Pontryagin's Maximum Principle. The extremal flow is driven by the co-state Hamiltonian equations, and splits into bang..."
 keywords: Extremal Flow
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Extremal Flow Explained | Term Definition
-  description: The family of trajectories satisfying Pontryagin's Maximum Principle. The extremal flow is driven by the co-state Hamiltonian equations, and splits into bang...
+  title: "Extremal Flow Explained | Term Definition"
+  description: "The family of trajectories satisfying Pontryagin's Maximum Principle. The extremal flow is driven by the co-state Hamiltonian equations, and splits into bang..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Extremal Flow Explained | Term Definition
-  description: The family of trajectories satisfying Pontryagin's Maximum Principle. The extremal flow is driven by the co-state Hamiltonian equations, and splits into bang...
+  title: "Extremal Flow Explained | Term Definition"
+  description: "The family of trajectories satisfying Pontryagin's Maximum Principle. The extremal flow is driven by the co-state Hamiltonian equations, and splits into bang..."
   image: /logo.png
 permalink: /en/glossary/dynamics/extremal-flow/
 ---

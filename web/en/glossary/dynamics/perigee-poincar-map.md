@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perigee Poincaré Map Explained | Term Definition
+  title: "Perigee Poincaré Map Explained | Term Definition"
   description: A Poincaré section at the perigee, with apogee geocentric distance on the x-axis and perigee inclination on the y-axis, used to evaluate the quality of transfer
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perigee Poincaré Map Explained | Term Definition
+  title: "Perigee Poincaré Map Explained | Term Definition"
   description: A Poincaré section at the perigee, with apogee geocentric distance on the x-axis and perigee inclination on the y-axis, used to evaluate the quality of transfer
   image: /logo.png
 permalink: /en/glossary/dynamics/perigee-poincar-map/

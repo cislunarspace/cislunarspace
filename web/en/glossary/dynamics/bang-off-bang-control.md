@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bang-off-Bang Control Explained | Term Definition
+  title: "Bang-off-Bang Control Explained | Term Definition"
   description: A thrust structure typical of minimum-fuel optimal control problems, switching between maximum thrust and zero thrust, forming a discontinuous thrust switchi...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bang-off-Bang Control Explained | Term Definition
+  title: "Bang-off-Bang Control Explained | Term Definition"
   description: A thrust structure typical of minimum-fuel optimal control problems, switching between maximum thrust and zero thrust, forming a discontinuous thrust switchi...
   image: /logo.png
 permalink: /en/glossary/dynamics/bang-off-bang-control/

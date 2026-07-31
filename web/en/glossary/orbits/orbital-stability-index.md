@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Stability Index Explained | Term Definition
+  title: "Orbital Stability Index Explained | Term Definition"
   description: An index measuring the long-term stability of DRO under multi-body perturbations. Multiple cross-sections through the lunar center, perpendicular to the x-y pla
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Stability Index Explained | Term Definition
+  title: "Orbital Stability Index Explained | Term Definition"
   description: An index measuring the long-term stability of DRO under multi-body perturbations. Multiple cross-sections through the lunar center, perpendicular to the x-y pla
   image: /logo.png
 permalink: /en/glossary/orbits/orbital-stability-index/

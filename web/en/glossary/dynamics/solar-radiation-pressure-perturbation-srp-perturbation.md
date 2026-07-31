@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Radiation Pressure Perturbation, SRP Perturbation Explained | Term Definition
+  title: "Solar Radiation Pressure Perturbation, SRP Perturbation Explained | Term Definition"
   description: Perturbation caused by momentum change from solar photons impinging on spacecraft surfaces, related to surface material reflectivity, exposed area, and attit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Radiation Pressure Perturbation, SRP Perturbation Explained | Term Definition
+  title: "Solar Radiation Pressure Perturbation, SRP Perturbation Explained | Term Definition"
   description: Perturbation caused by momentum change from solar photons impinging on spacecraft surfaces, related to surface material reflectivity, exposed area, and attit...
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-radiation-pressure-perturbation-srp-perturbation/

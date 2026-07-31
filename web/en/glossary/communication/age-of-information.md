@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Age of Information Explained | Term Definition
+  title: "Age of Information Explained | Term Definition"
   description: Time elapsed since the generation of the last successfully received status update, defined as t−r(t) where r(t) is the sampling time of the most recently rec...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Age of Information Explained | Term Definition
+  title: "Age of Information Explained | Term Definition"
   description: Time elapsed since the generation of the last successfully received status update, defined as t−r(t) where r(t) is the sampling time of the most recently rec...
   image: /logo.png
 permalink: /en/glossary/communication/age-of-information/

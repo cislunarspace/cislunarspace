@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tool resources.
   image: /logo.png
 og:
-  title: Unscented Transformation (UT) Explained | Term Definition
+  title: "Unscented Transformation (UT) Explained | Term Definition"
   description: The core transformation mechanism of the Unscented Kalman Filter. It selects a set of deterministic sigma points from the prior distribution with matching mean and covariance, propagates them through a nonlinear function, and uses the propagated points to re-estimate mean and covariance.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Unscented Transformation (UT) Explained | Term Definition
+  title: "Unscented Transformation (UT) Explained | Term Definition"
   description: The core transformation mechanism of the Unscented Kalman Filter. It selects a set of deterministic sigma points from the prior distribution with matching mean and covariance, propagates them through a nonlinear function, and uses the propagated points to re-estimate mean and covariance.
   image: /logo.png
 permalink: /en/glossary/navigation/unscented-transformation-ut/

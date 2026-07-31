@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Switching Function Explained | Term Definition
+  title: "Switching Function Explained | Term Definition"
   description: A function derived from the Pontryagin Minimum Principle that determines optimal thrust switching. Positive value means full thrust, negative means coast, an...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Switching Function Explained | Term Definition
+  title: "Switching Function Explained | Term Definition"
   description: A function derived from the Pontryagin Minimum Principle that determines optimal thrust switching. Positive value means full thrust, negative means coast, an...
   image: /logo.png
 permalink: /en/glossary/fundamentals/switching-function/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Deep Space Transport Explained | Term Definition
+  title: "Deep Space Transport Explained | Term Definition"
   description: A NASA concept for a transportation system serving cislunar and translunar space, aiming to establish a network linking destinations in cislunar and translun...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Space Transport Explained | Term Definition
+  title: "Deep Space Transport Explained | Term Definition"
   description: A NASA concept for a transportation system serving cislunar and translunar space, aiming to establish a network linking destinations in cislunar and translun...
   image: /logo.png
 permalink: /en/glossary/programs/deep-space-transport/

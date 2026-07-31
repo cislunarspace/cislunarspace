@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Attitude Control Thruster Explained | Term Definition
+  title: "Attitude Control Thruster Explained | Term Definition"
   description: Small thrust engines used to control satellite attitude.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Attitude Control Thruster Explained | Term Definition
+  title: "Attitude Control Thruster Explained | Term Definition"
   description: Small thrust engines used to control satellite attitude.
   image: /logo.png
 permalink: /en/glossary/dynamics/attitude-control-thruster/

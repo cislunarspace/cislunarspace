@@ -1,6 +1,6 @@
 ---
 title: Phase-Based Deployment Strategy
-description: A strategy for constructing an LPO communication and navigation constellation in three phases: Phase 1 uses a single NRHO satellite to achieve single coverag...
+description: "A strategy for constructing an LPO communication and navigation constellation in three phases: Phase 1 uses a single NRHO satellite to achieve single coverag..."
 keywords: Phase-Based Deployment Strategy, cislunar space, orbital mechanics, navigation, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase-Based Deployment Strategy Explained | Term Definition
-  description: A strategy for constructing an LPO communication and navigation constellation in three phases: Phase 1 uses a single NRHO satellite to achieve single coverag...
+  title: "Phase-Based Deployment Strategy Explained | Term Definition"
+  description: "A strategy for constructing an LPO communication and navigation constellation in three phases: Phase 1 uses a single NRHO satellite to achieve single coverag..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase-Based Deployment Strategy Explained | Term Definition
-  description: A strategy for constructing an LPO communication and navigation constellation in three phases: Phase 1 uses a single NRHO satellite to achieve single coverag...
+  title: "Phase-Based Deployment Strategy Explained | Term Definition"
+  description: "A strategy for constructing an LPO communication and navigation constellation in three phases: Phase 1 uses a single NRHO satellite to achieve single coverag..."
   image: /logo.png
 permalink: /en/glossary/navigation/phase-based-deployment-strategy/
 ---

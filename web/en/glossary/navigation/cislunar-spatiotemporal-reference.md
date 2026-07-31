@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Cislunar Spatiotemporal Reference | Core Cislunar Space Concept
+  title: "Cislunar Spatiotemporal Reference | Core Cislunar Space Concept"
   description: A detailed analysis of the definition, construction methods, traceability and transfer mechanisms of the cislunar spatiotemporal reference, and its application value in deep space exploration and lunar development.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Spatiotemporal Reference | Core Cislunar Space Concept
+  title: "Cislunar Spatiotemporal Reference | Core Cislunar Space Concept"
   description: A detailed analysis of the definition, construction methods, traceability and transfer mechanisms of the cislunar spatiotemporal reference, and its application value in deep space exploration and lunar development.
   image: /logo.png
 permalink: /en/glossary/navigation/cislunar-spatiotemporal-reference/

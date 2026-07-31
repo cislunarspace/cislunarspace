@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Line-of-Sight Corridor, LoS-C Explained | Term Definition
+  title: "Line-of-Sight Corridor, LoS-C Explained | Term Definition"
   description: A geometric strategy to define hold point positions, where the chaser always approaches the target along the docking port direction within the field of view of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Line-of-Sight Corridor, LoS-C Explained | Term Definition
+  title: "Line-of-Sight Corridor, LoS-C Explained | Term Definition"
   description: A geometric strategy to define hold point positions, where the chaser always approaches the target along the docking port direction within the field of view of...
   image: /logo.png
 permalink: /en/glossary/navigation/LoS-C/

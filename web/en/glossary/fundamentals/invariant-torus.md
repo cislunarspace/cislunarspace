@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Invariant Torus Explained | Term Definition
+  title: "Invariant Torus Explained | Term Definition"
   description: A higher-dimensional surface in phase space on which quasi-periodic orbits evolve. Each torus is characterized by its fundamental frequencies, which tend to the characteristic frequencies of the libra...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Invariant Torus Explained | Term Definition
+  title: "Invariant Torus Explained | Term Definition"
   description: A higher-dimensional surface in phase space on which quasi-periodic orbits evolve. Each torus is characterized by its fundamental frequencies, which tend to the characteristic frequencies of the libra...
   image: /logo.png
 permalink: /en/glossary/fundamentals/invariant-torus/

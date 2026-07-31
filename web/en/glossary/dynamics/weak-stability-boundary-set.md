@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Boundary Set Explained | Term Definition
+  title: "Weak Stability Boundary Set Explained | Term Definition"
   description: The set of WSB points for a given index n and eccentricity e. As eccentricity increases, the WSB set morphology changes significantly
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Boundary Set Explained | Term Definition
+  title: "Weak Stability Boundary Set Explained | Term Definition"
   description: The set of WSB points for a given index n and eccentricity e. As eccentricity increases, the WSB set morphology changes significantly
   image: /logo.png
 permalink: /en/glossary/dynamics/weak-stability-boundary-set/

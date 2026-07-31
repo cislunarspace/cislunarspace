@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near-planar DRO Explained | Term Definition
+  title: "Near-planar DRO Explained | Term Definition"
   description: A Distant Retrograde Orbit with small-amplitude motion in the Z-axis direction. Near-planar DROs are found to be more stable than fully three-dimensional DROs.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-planar DRO Explained | Term Definition
+  title: "Near-planar DRO Explained | Term Definition"
   description: A Distant Retrograde Orbit with small-amplitude motion in the Z-axis direction. Near-planar DROs are found to be more stable than fully three-dimensional DROs.
   image: /logo.png
 permalink: /en/glossary/orbits/near-planar-dro/

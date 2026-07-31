@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Method Explained | Term Definition
+  title: "Direct Method Explained | Term Definition"
   description: A trajectory optimization approach that discretizes the trajectory and control, converting the optimal control problem into a nonlinear programming problem. Less sensitive to initial guesses but may p...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Method Explained | Term Definition
+  title: "Direct Method Explained | Term Definition"
   description: A trajectory optimization approach that discretizes the trajectory and control, converting the optimal control problem into a nonlinear programming problem. Less sensitive to initial guesses but may p...
   image: /logo.png
 permalink: /en/glossary/fundamentals/direct-method/

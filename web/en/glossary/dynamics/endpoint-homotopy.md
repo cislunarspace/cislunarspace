@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Endpoint Homotopy Explained | Term Definition
+  title: "Endpoint Homotopy Explained | Term Definition"
   description: A continuation method that reduces the required thrust level by adjusting the departure point position on geostationary orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Endpoint Homotopy Explained | Term Definition
+  title: "Endpoint Homotopy Explained | Term Definition"
   description: A continuation method that reduces the required thrust level by adjusting the departure point position on geostationary orbit.
   image: /logo.png
 permalink: /en/glossary/dynamics/endpoint-homotopy/

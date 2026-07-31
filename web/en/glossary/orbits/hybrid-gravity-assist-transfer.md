@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hybrid Gravity Assist Transfer Explained | Term Definition
+  title: "Hybrid Gravity Assist Transfer Explained | Term Definition"
   description: A low-energy transfer method combining multiple gravity assist techniques, such as LGA with WSB transfer or LGA with invariant manifolds, to further reduce the required velocity increment by synerg...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hybrid Gravity Assist Transfer Explained | Term Definition
+  title: "Hybrid Gravity Assist Transfer Explained | Term Definition"
   description: A low-energy transfer method combining multiple gravity assist techniques, such as LGA with WSB transfer or LGA with invariant manifolds, to further reduce the required velocity increment by synerg...
   image: /logo.png
 permalink: /en/glossary/orbits/hybrid-gravity-assist-transfer/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radiation Pressure Model Explained | Term Definition
+  title: "Radiation Pressure Model Explained | Term Definition"
   description: Mathematical models describing the laws of solar radiation pressure effects on satellites. They are divided into empirical models (such as ECOM model), physical models (based on satellite attitude and
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radiation Pressure Model Explained | Term Definition
+  title: "Radiation Pressure Model Explained | Term Definition"
   description: Mathematical models describing the laws of solar radiation pressure effects on satellites. They are divided into empirical models (such as ECOM model), physical models (based on satellite attitude and
   image: /logo.png
 permalink: /en/glossary/dynamics/radiation-pressure-model/

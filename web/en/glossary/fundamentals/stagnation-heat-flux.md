@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Stagnation Heat Flux | Terminology Definition
+  title: "Stagnation Heat Flux | Terminology Definition"
   description: A detailed analysis of the stagnation heat flux definition and calculation formula
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stagnation Heat Flux | Terminology Definition
+  title: "Stagnation Heat Flux | Terminology Definition"
   description: A detailed analysis of the stagnation heat flux definition and calculation formula
   image: /logo.png
 permalink: /en/glossary/fundamentals/stagnation-heat-flux/

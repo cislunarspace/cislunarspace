@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Richardson Third-Order Analytical Approximation Explained | Term Definition
+  title: "Richardson Third-Order Analytical Approximation Explained | Term Definition"
   description: A third-order analytical approximation for Halo orbits proposed by Richardson in 1980. By expanding the nonlinear equations of motion near collinear libration points to third order, an analytical expr...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Richardson Third-Order Analytical Approximation Explained | Term Definition
+  title: "Richardson Third-Order Analytical Approximation Explained | Term Definition"
   description: A third-order analytical approximation for Halo orbits proposed by Richardson in 1980. By expanding the nonlinear equations of motion near collinear libration points to third order, an analytical expr...
   image: /logo.png
 permalink: /en/glossary/fundamentals/richardson-third-order-analytical-approximation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ground-Based Radio Tracking, Telemetry and Command Explained | Term Definition
+  title: "Ground-Based Radio Tracking, Telemetry and Command Explained | Term Definition"
   description: A navigation method using ground-based radio equipment for spacecraft ranging, Doppler, and angular measurement, currently the primary means of precision orbit determination for cislunar exploration spacecraft.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ground-Based Radio Tracking, Telemetry and Command Explained | Term Definition
+  title: "Ground-Based Radio Tracking, Telemetry and Command Explained | Term Definition"
   description: A navigation method using ground-based radio equipment for spacecraft ranging, Doppler, and angular measurement, currently the primary means of precision orbit determination for cislunar exploration spacecraft.
   image: /logo.png
 permalink: /en/glossary/navigation/ground-based-radio-tracking-telemetry-and-command/

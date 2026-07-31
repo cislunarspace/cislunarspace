@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Boundary Value Problem Explained | Term Definition
+  title: "Boundary Value Problem Explained | Term Definition"
   description: In solving differential equations, a problem where variable values at the boundaries of the domain (rather than initial values) are known, and the distribution of variables within the domain is to be
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Boundary Value Problem Explained | Term Definition
+  title: "Boundary Value Problem Explained | Term Definition"
   description: In solving differential equations, a problem where variable values at the boundaries of the domain (rather than initial values) are known, and the distribution of variables within the domain is to be
   image: /logo.png
 permalink: /en/glossary/fundamentals/boundary-value-problem/

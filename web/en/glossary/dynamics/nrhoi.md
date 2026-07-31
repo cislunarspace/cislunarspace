@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near-Rectilinear Halo Orbit Insertion, NRHOI Explained | Term Definition
+  title: "Near-Rectilinear Halo Orbit Insertion, NRHOI Explained | Term Definition"
   description: The critical maneuver of applying a velocity increment at the NRHO perilune to inject the spacecraft from an elliptical lunar orbit into NRHO. NRHOI magnitude d
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-Rectilinear Halo Orbit Insertion, NRHOI Explained | Term Definition
+  title: "Near-Rectilinear Halo Orbit Insertion, NRHOI Explained | Term Definition"
   description: The critical maneuver of applying a velocity increment at the NRHO perilune to inject the spacecraft from an elliptical lunar orbit into NRHO. NRHOI magnitude d
   image: /logo.png
 permalink: /en/glossary/dynamics/nrhoi/

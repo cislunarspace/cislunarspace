@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Switching Function Details | Thrust Switching in Fuel-Optimal Control
+  title: "Switching Function Details | Thrust Switching in Fuel-Optimal Control"
   description: The switching function is a scalar function in fuel-optimal control that determines thrust switching times
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Switching Function Details | Thrust Switching in Fuel-Optimal Control
+  title: "Switching Function Details | Thrust Switching in Fuel-Optimal Control"
   description: The switching function is a scalar function in fuel-optimal control that determines thrust switching times
   image: /logo.png
 permalink: /en/glossary/dynamics/switching-function/

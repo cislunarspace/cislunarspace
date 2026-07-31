@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Constant Exhaust Velocity Problem Explained | Term Definition
+  title: "Constant Exhaust Velocity Problem Explained | Term Definition"
   description: Optimal fuel trajectory optimization problem with constant exhaust velocity, bounded thrust with switching capability.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Constant Exhaust Velocity Problem Explained | Term Definition
+  title: "Constant Exhaust Velocity Problem Explained | Term Definition"
   description: Optimal fuel trajectory optimization problem with constant exhaust velocity, bounded thrust with switching capability.
   image: /logo.png
 permalink: /en/glossary/orbits/CEV/

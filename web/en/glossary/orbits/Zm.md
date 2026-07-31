@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: z-direction Motion Amplitude Explained | Term Definition
+  title: "z-direction Motion Amplitude Explained | Term Definition"
   description: "The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: z-direction Motion Amplitude Explained | Term Definition
+  title: "z-direction Motion Amplitude Explained | Term Definition"
   description: "The maximum value of the DRO's position component in the z-direction (perpendicular to the Earth-Moon orbital plane). A larger amplitude yields higher visibilit"
   image: /logo.png
 permalink: /en/glossary/orbits/Zm/

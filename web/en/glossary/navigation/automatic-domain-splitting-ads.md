@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Automatic Domain Splitting, ADS (ADS) Explained | Term Definition
+  title: "Automatic Domain Splitting, ADS (ADS) Explained | Term Definition"
   description: A strategy to automatically split the admissible region into smaller subdomains where all parameters within a subdomain can be safely approximated by polynomial equations.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Automatic Domain Splitting, ADS (ADS) Explained | Term Definition
+  title: "Automatic Domain Splitting, ADS (ADS) Explained | Term Definition"
   description: A strategy to automatically split the admissible region into smaller subdomains where all parameters within a subdomain can be safely approximated by polynomial equations.
   image: /logo.png
 permalink: /en/glossary/navigation/automatic-domain-splitting-ads/

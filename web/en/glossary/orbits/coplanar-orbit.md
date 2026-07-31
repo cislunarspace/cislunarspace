@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coplanar Orbit Explained | Term Definition
+  title: "Coplanar Orbit Explained | Term Definition"
   description: Two or more orbits lying in the same plane. Under coplanar conditions, the transfer problem reduces to two dimensions and impulses need only modify in-plane ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coplanar Orbit Explained | Term Definition
+  title: "Coplanar Orbit Explained | Term Definition"
   description: Two or more orbits lying in the same plane. Under coplanar conditions, the transfer problem reduces to two dimensions and impulses need only modify in-plane ...
   image: /logo.png
 permalink: /en/glossary/orbits/coplanar-orbit/

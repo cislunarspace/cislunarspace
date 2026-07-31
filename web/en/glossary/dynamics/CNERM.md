@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Non-linear Equations of Relative Motion, CNERM Explained | Term Definition
+  title: "Circular Non-linear Equations of Relative Motion, CNERM Explained | Term Definition"
   description: Non-linear relative motion equations based on the CR3BP assumption, neglecting the eccentricity of the primaries.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Non-linear Equations of Relative Motion, CNERM Explained | Term Definition
+  title: "Circular Non-linear Equations of Relative Motion, CNERM Explained | Term Definition"
   description: Non-linear relative motion equations based on the CR3BP assumption, neglecting the eccentricity of the primaries.
   image: /logo.png
 permalink: /en/glossary/dynamics/CNERM/

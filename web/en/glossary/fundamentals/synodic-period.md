@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Synodic Period Explained | Term Definition
+  title: "Synodic Period Explained | Term Definition"
   description: The time for the Sun-Earth-Moon system to return to the same relative configuration, approximately 29.5 days. In cislunar SDA, it serves as the natural times...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Synodic Period Explained | Term Definition
+  title: "Synodic Period Explained | Term Definition"
   description: The time for the Sun-Earth-Moon system to return to the same relative configuration, approximately 29.5 days. In cislunar SDA, it serves as the natural times...
   image: /logo.png
 permalink: /en/glossary/fundamentals/synodic-period/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Second-Order Cone Programming, SOCP Explained | Term Definition
+  title: "Second-Order Cone Programming, SOCP Explained | Term Definition"
   description: A class of convex optimization problems with a linear objective function and second-order cone constraints (i.e., the 2-norm of an affine function is bounded by another affine function). SOCP is easie...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Second-Order Cone Programming, SOCP Explained | Term Definition
+  title: "Second-Order Cone Programming, SOCP Explained | Term Definition"
   description: A class of convex optimization problems with a linear objective function and second-order cone constraints (i.e., the 2-norm of an affine function is bounded by another affine function). SOCP is easie...
   image: /logo.png
 permalink: /en/glossary/dynamics/second-order-cone-programming-socp/

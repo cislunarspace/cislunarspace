@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Coefficient (CT) Explained | Term Definition
+  title: "Thrust Coefficient (CT) Explained | Term Definition"
   description: Ratio of thrust to product of chamber pressure and throat area, used for nozzle sizing
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Coefficient (CT) Explained | Term Definition
+  title: "Thrust Coefficient (CT) Explained | Term Definition"
   description: Ratio of thrust to product of chamber pressure and throat area, used for nozzle sizing
   image: /logo.png
 permalink: /en/glossary/fundamentals/thrust-coefficient/

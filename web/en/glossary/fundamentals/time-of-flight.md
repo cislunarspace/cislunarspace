@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Flight Explained | Term Definition
+  title: "Time of Flight Explained | Term Definition"
   description: The duration a spacecraft spends traveling from departure to arrival along a trajectory, typically measured in days. In transfer trajectory design, TOF and propellant cost (total Δv) are two primary c...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Flight Explained | Term Definition
+  title: "Time of Flight Explained | Term Definition"
   description: The duration a spacecraft spends traveling from departure to arrival along a trajectory, typically measured in days. In transfer trajectory design, TOF and propellant cost (total Δv) are two primary c...
   image: /logo.png
 permalink: /en/glossary/fundamentals/time-of-flight/

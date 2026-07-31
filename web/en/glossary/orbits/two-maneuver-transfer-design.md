@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-maneuver transfer design Explained | Term Definition
+  title: "Two-maneuver transfer design Explained | Term Definition"
   description: "A low-energy transfer strategy from LEO to a libration point orbit using exactly two impulsive maneuvers: the first departs the LEO, and the second inserts..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-maneuver transfer design Explained | Term Definition
+  title: "Two-maneuver transfer design Explained | Term Definition"
   description: "A low-energy transfer strategy from LEO to a libration point orbit using exactly two impulsive maneuvers: the first departs the LEO, and the second inserts..."
   image: /logo.png
 permalink: /en/glossary/orbits/two-maneuver-transfer-design/

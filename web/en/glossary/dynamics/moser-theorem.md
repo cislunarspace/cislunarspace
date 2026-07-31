@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Moser Theorem Explained | Term Definition
+  title: "Moser Theorem Explained | Term Definition"
   description: 关于平衡点附近不变流形存在性的定理，是局部分析的理论基础。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Moser Theorem Explained | Term Definition
+  title: "Moser Theorem Explained | Term Definition"
   description: 关于平衡点附近不变流形存在性的定理，是局部分析的理论基础。
   image: /logo.png
 permalink: /en/glossary/dynamics/moser-theorem/

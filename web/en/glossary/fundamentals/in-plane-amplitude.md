@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: In-Plane Amplitude Explained | Term Definition
+  title: "In-Plane Amplitude Explained | Term Definition"
   description: The maximum oscillation displacement of a Lissajous orbit in the xy-plane (near the ecliptic), denoted A_x. Combined with the out-of-plane amplitude A_z, it det
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-Plane Amplitude Explained | Term Definition
+  title: "In-Plane Amplitude Explained | Term Definition"
   description: The maximum oscillation displacement of a Lissajous orbit in the xy-plane (near the ecliptic), denoted A_x. Combined with the out-of-plane amplitude A_z, it det
   image: /logo.png
 permalink: /en/glossary/fundamentals/in-plane-amplitude/

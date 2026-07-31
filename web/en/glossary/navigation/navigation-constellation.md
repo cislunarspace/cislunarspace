@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Navigation Constellation Explained | Term Definition
+  title: "Navigation Constellation Explained | Term Definition"
   description: A system of multiple navigation satellites arranged in a specific orbital configuration to provide positioning, navigation, and timing services to user...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Navigation Constellation Explained | Term Definition
+  title: "Navigation Constellation Explained | Term Definition"
   description: A system of multiple navigation satellites arranged in a specific orbital configuration to provide positioning, navigation, and timing services to user...
   image: /logo.png
 permalink: /en/glossary/navigation/navigation-constellation/

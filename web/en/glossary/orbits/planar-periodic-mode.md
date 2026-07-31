@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar periodic mode Explained | Term Definition
+  title: "Planar periodic mode Explained | Term Definition"
   description: One mode of bounded solutions for linearized relative motion on DRO, corresponding to the deputy spacecraft being on the reference DRO with a phase shift. This 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar periodic mode Explained | Term Definition
+  title: "Planar periodic mode Explained | Term Definition"
   description: One mode of bounded solutions for linearized relative motion on DRO, corresponding to the deputy spacecraft being on the reference DRO with a phase shift. This 
   image: /logo.png
 permalink: /en/glossary/orbits/planar-periodic-mode/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Angle-Distance Section Method Explained | Term Definition
+  title: "Angle-Distance Section Method Explained | Term Definition"
   description: A method using angular and radial quantities as Poincaré section coordinates, which maintains geometric clarity regardless of section inclination angle,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Angle-Distance Section Method Explained | Term Definition
+  title: "Angle-Distance Section Method Explained | Term Definition"
   description: A method using angular and radial quantities as Poincaré section coordinates, which maintains geometric clarity regardless of section inclination angle,...
   image: /logo.png
 permalink: /en/glossary/dynamics/angle-distance-section-method/

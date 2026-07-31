@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Homotopy Method Explained | Smooth Transition from Energy-Optimal to Fuel-Optimal
+  title: "Homotopy Method Explained | Smooth Transition from Energy-Optimal to Fuel-Optimal"
   description: Detailed analysis of homotopy method definition, smooth transition principle from energy-optimal to fuel-optimal, and application in orbit optimization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homotopy Method Explained | Smooth Transition from Energy-Optimal to Fuel-Optimal
+  title: "Homotopy Method Explained | Smooth Transition from Energy-Optimal to Fuel-Optimal"
   description: Detailed analysis of homotopy method definition, smooth transition principle from energy-optimal to fuel-optimal, and application in orbit optimization
   image: /logo.png
 permalink: /en/glossary/dynamics/homotopy-method/

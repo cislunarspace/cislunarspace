@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Atmospheric Drag Explained | Term Definition
+  title: "Atmospheric Drag Explained | Term Definition"
   description: The perturbing force on a spacecraft in low orbit due to interaction with a rarefied atmosphere, related to atmospheric density, relative wind velocity, and the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Atmospheric Drag Explained | Term Definition
+  title: "Atmospheric Drag Explained | Term Definition"
   description: The perturbing force on a spacecraft in low orbit due to interaction with a rarefied atmosphere, related to atmospheric density, relative wind velocity, and the
   image: /logo.png
 permalink: /en/glossary/dynamics/atmospheric-drag/

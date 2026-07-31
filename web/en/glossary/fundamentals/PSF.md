@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Point Spread Function Explained | Term Definition
+  title: "Point Spread Function Explained | Term Definition"
   description: A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction a
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Point Spread Function Explained | Term Definition
+  title: "Point Spread Function Explained | Term Definition"
   description: A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction a
   image: /logo.png
 permalink: /en/glossary/fundamentals/PSF/

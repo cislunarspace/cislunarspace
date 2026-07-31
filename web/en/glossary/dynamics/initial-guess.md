@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial Guess Explained | Term Definition
+  title: "Initial Guess Explained | Term Definition"
   description: The initial values provided for variables when iteratively solving nonlinear programming or optimal control problems. Direct collocation methods have some...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial Guess Explained | Term Definition
+  title: "Initial Guess Explained | Term Definition"
   description: The initial values provided for variables when iteratively solving nonlinear programming or optimal control problems. Direct collocation methods have some...
   image: /logo.png
 permalink: /en/glossary/dynamics/initial-guess/

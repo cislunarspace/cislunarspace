@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Initial Value Explained | Term Definition
+  title: "Manifold Initial Value Explained | Term Definition"
   description: "The initial state given when computing an invariant manifold, obtained by offsetting a point on the Halo orbit along the stable or unstable eigenvector directio"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Initial Value Explained | Term Definition
+  title: "Manifold Initial Value Explained | Term Definition"
   description: "The initial state given when computing an invariant manifold, obtained by offsetting a point on the Halo orbit along the stable or unstable eigenvector directio"
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-initial-value/

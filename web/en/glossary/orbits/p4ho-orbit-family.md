@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: P4HO Orbit Family Explained | Term Definition
+  title: "P4HO Orbit Family Explained | Term Definition"
   description: Orbit families evolving from period-quadrupling bifurcations in the NRHO region of the L₂ halo family. Members have orbital periods approximately quadruple that
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: P4HO Orbit Family Explained | Term Definition
+  title: "P4HO Orbit Family Explained | Term Definition"
   description: Orbit families evolving from period-quadrupling bifurcations in the NRHO region of the L₂ halo family. Members have orbital periods approximately quadruple that
   image: /logo.png
 permalink: /en/glossary/orbits/p4ho-orbit-family/

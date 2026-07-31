@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Newton Homotopy Explained | Term Definition
+  title: "Newton Homotopy Explained | Term Definition"
   description: A homotopy function construction method. Sets the initial homotopy problem as G(y) = F(y) - F(y₀), where y₀ is a known initial guess. As the homotopy parameter varies from 0 to 1, the problem transitions from near the initial guess to the original problem. Simple to construct, but requires a reasonable initial guess.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Newton Homotopy Explained | Term Definition
+  title: "Newton Homotopy Explained | Term Definition"
   description: A homotopy function construction method. Sets the initial homotopy problem as G(y) = F(y) - F(y₀), where y₀ is a known initial guess. As the homotopy parameter varies from 0 to 1, the problem transitions from near the initial guess to the original problem. Simple to construct, but requires a reasonable initial guess.
   image: /logo.png
 permalink: /en/glossary/dynamics/newton-homotopy/

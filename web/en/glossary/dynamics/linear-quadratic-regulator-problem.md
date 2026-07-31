@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear-Quadratic Regulator Problem Explained | Term Definition
+  title: "Linear-Quadratic Regulator Problem Explained | Term Definition"
   description: In TPhA, the problem of solving optimal correction maneuvers by minimizing a quadratic cost function containing maneuver magnitudes and state residuals.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear-Quadratic Regulator Problem Explained | Term Definition
+  title: "Linear-Quadratic Regulator Problem Explained | Term Definition"
   description: In TPhA, the problem of solving optimal correction maneuvers by minimizing a quadratic cost function containing maneuver magnitudes and state residuals.
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-quadratic-regulator-problem/

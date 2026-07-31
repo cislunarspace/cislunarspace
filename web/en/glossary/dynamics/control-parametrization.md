@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Control Parametrization Explained | Term Definition
+  title: "Control Parametrization Explained | Term Definition"
   description: A method of representing continuous control as finite parameters (such as polynomial or Fourier coefficients), transforming the optimal control problem into a n
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Control Parametrization Explained | Term Definition
+  title: "Control Parametrization Explained | Term Definition"
   description: A method of representing continuous control as finite parameters (such as polynomial or Fourier coefficients), transforming the optimal control problem into a n
   image: /logo.png
 permalink: /en/glossary/dynamics/control-parametrization/

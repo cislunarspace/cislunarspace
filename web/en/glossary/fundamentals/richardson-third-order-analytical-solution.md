@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Richardson Third-Order Analytical Solution Explained | Term Definition
+  title: "Richardson Third-Order Analytical Solution Explained | Term Definition"
   description: A third-order approximate expansion of Halo orbits in the circular restricted three-body problem, derived by Richardson (1980) using the Lindstedt-Poincaré meth
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Richardson Third-Order Analytical Solution Explained | Term Definition
+  title: "Richardson Third-Order Analytical Solution Explained | Term Definition"
   description: A third-order approximate expansion of Halo orbits in the circular restricted three-body problem, derived by Richardson (1980) using the Lindstedt-Poincaré meth
   image: /logo.png
 permalink: /en/glossary/fundamentals/richardson-third-order-analytical-solution/

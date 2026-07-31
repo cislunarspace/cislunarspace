@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Trajectory Design Explained | Term Definition
+  title: "Low-Thrust Trajectory Design Explained | Term Definition"
   description: Trajectory design methods for orbital transfer using high-specific-impulse low-thrust propulsion. Low-thrust propulsion offers high fuel efficiency but produces
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Trajectory Design Explained | Term Definition
+  title: "Low-Thrust Trajectory Design Explained | Term Definition"
   description: Trajectory design methods for orbital transfer using high-specific-impulse low-thrust propulsion. Low-thrust propulsion offers high fuel efficiency but produces
   image: /logo.png
 permalink: /en/glossary/orbits/low-thrust-trajectory-design/

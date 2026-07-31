@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO Benchmark Orbit Explained | Term Definition
+  title: "DRO Benchmark Orbit Explained | Term Definition"
   description: In DRO constellation design, the trajectory of one DRO period is treated as a reference orbit, on which other satellites are deployed at equal phase differences. The number, initial phase angle, z-dir...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO Benchmark Orbit Explained | Term Definition
+  title: "DRO Benchmark Orbit Explained | Term Definition"
   description: In DRO constellation design, the trajectory of one DRO period is treated as a reference orbit, on which other satellites are deployed at equal phase differences. The number, initial phase angle, z-dir...
   image: /logo.png
 permalink: /en/glossary/orbits/dro-benchmark-orbit/

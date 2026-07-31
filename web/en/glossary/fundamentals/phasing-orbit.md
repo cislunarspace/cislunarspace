@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Phasing Orbit | Terminology Definition
+  title: "Phasing Orbit | Terminology Definition"
   description: A detailed analysis of the principles and period design of phasing orbits
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phasing Orbit | Terminology Definition
+  title: "Phasing Orbit | Terminology Definition"
   description: A detailed analysis of the principles and period design of phasing orbits
   image: /logo.png
 permalink: /en/glossary/fundamentals/phasing-orbit/

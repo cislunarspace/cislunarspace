@@ -1,6 +1,6 @@
 ---
 title: GPS Aided GEO Augmented Navigation (GAGAN)
-description: GAGAN is India's GPS augmentation system, designed to correct and enhance GPS civil signals and improve positioning accuracy
+description: "GAGAN is India's GPS augmentation system, designed to correct and enhance GPS civil signals and improve positioning accuracy"
 keywords: GAGAN, GPS aided GEO augmented navigation, Indian navigation, GPS augmentation, satellite navigation, Indian regional navigation
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: GAGAN Explained | GPS Aided GEO Augmented Navigation System
-  description: GAGAN is India's GPS augmentation system, designed to correct and enhance GPS civil signals
+  title: "GAGAN Explained | GPS Aided GEO Augmented Navigation System"
+  description: "GAGAN is India's GPS augmentation system, designed to correct and enhance GPS civil signals"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GAGAN Explained | GPS Aided GEO Augmented Navigation System
-  description: GAGAN is India's GPS augmentation system, designed to correct and enhance GPS civil signals
+  title: "GAGAN Explained | GPS Aided GEO Augmented Navigation System"
+  description: "GAGAN is India's GPS augmentation system, designed to correct and enhance GPS civil signals"
   image: /logo.png
 permalink: /en/glossary/navigation/gagan/
 ---

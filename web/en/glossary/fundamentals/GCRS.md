@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Celestial Reference System Explained | Term Definition
+  title: "Geocentric Celestial Reference System Explained | Term Definition"
   description: "A space-time reference system with its origin at the Earth's center, which can be transformed to BCRS via Lorentz transformation."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Celestial Reference System Explained | Term Definition
+  title: "Geocentric Celestial Reference System Explained | Term Definition"
   description: "A space-time reference system with its origin at the Earth's center, which can be transformed to BCRS via Lorentz transformation."
   image: /logo.png
 permalink: /en/glossary/fundamentals/GCRS/

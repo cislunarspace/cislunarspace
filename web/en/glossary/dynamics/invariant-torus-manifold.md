@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Invariant Torus Manifold Explained | Term Definition
+  title: "Invariant Torus Manifold Explained | Term Definition"
   description: The stable or unstable manifold of an invariant torus in the bicircular four-body problem. On the Earth-Moon side, these manifolds resemble those of Lyapunov...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Invariant Torus Manifold Explained | Term Definition
+  title: "Invariant Torus Manifold Explained | Term Definition"
   description: The stable or unstable manifold of an invariant torus in the bicircular four-body problem. On the Earth-Moon side, these manifolds resemble those of Lyapunov...
   image: /logo.png
 permalink: /en/glossary/dynamics/invariant-torus-manifold/

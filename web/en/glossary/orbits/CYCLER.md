@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon Cycler Orbit Explained | Term Definition
+  title: "Earth-Moon Cycler Orbit Explained | Term Definition"
   description: A periodic trajectory that repeatedly transits between Earth and Moon without being captured near either body. It is a resonant periodic orbit in the Earth-Moon
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Cycler Orbit Explained | Term Definition
+  title: "Earth-Moon Cycler Orbit Explained | Term Definition"
   description: A periodic trajectory that repeatedly transits between Earth and Moon without being captured near either body. It is a resonant periodic orbit in the Earth-Moon
   image: /logo.png
 permalink: /en/glossary/orbits/CYCLER/

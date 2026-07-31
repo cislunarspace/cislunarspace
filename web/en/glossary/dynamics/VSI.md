@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variable Specific Impulse Engine, VSI Engine Explained | Term Definition
+  title: "Variable Specific Impulse Engine, VSI Engine Explained | Term Definition"
   description: An electric propulsion engine whose specific impulse varies with thrust level, allowing optimization of propellant consumption by adjusting exhaust velocity.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variable Specific Impulse Engine, VSI Engine Explained | Term Definition
+  title: "Variable Specific Impulse Engine, VSI Engine Explained | Term Definition"
   description: An electric propulsion engine whose specific impulse varies with thrust level, allowing optimization of propellant consumption by adjusting exhaust velocity.
   image: /logo.png
 permalink: /en/glossary/dynamics/VSI/

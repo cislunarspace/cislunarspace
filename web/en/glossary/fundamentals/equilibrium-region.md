@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Equilibrium Region Explained | Term Definition
+  title: "Equilibrium Region Explained | Term Definition"
   description: "Conley's term for the 'neck' region near a collinear Lagrange point where the Hill's region develops a narrow connecting passage when the Jacobi constant is slightly above the critical value. Orbital"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Equilibrium Region Explained | Term Definition
+  title: "Equilibrium Region Explained | Term Definition"
   description: "Conley's term for the 'neck' region near a collinear Lagrange point where the Hill's region develops a narrow connecting passage when the Jacobi constant is slightly above the critical value. Orbital"
   image: /logo.png
 permalink: /en/glossary/fundamentals/equilibrium-region/

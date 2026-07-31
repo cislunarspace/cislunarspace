@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Targeting Threshold Explained | Term Definition
+  title: "Targeting Threshold Explained | Term Definition"
   description: The tolerance used within the controller for convergence judgment. In PC-SCoP, explicitly given as constraint bounds, replacing the non-intuitive weight para...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Targeting Threshold Explained | Term Definition
+  title: "Targeting Threshold Explained | Term Definition"
   description: The tolerance used within the controller for convergence judgment. In PC-SCoP, explicitly given as constraint bounds, replacing the non-intuitive weight para...
   image: /logo.png
 permalink: /en/glossary/dynamics/targeting-threshold/

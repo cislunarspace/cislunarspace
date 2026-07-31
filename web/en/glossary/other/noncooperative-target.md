@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:
-  title: Noncooperative Target | Space Security
+  title: "Noncooperative Target | Space Security"
   description: Space objects that do not share intent or trajectory information, a core subject of space security research
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Noncooperative Target | Space Security
+  title: "Noncooperative Target | Space Security"
   description: Space objects that do not share intent or trajectory information, a core subject of space security research
   image: /logo.png
 permalink: /en/glossary/other/noncooperative-target/

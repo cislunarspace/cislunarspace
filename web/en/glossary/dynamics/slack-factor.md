@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Slack Factor Explained | Term Definition
+  title: "Slack Factor Explained | Term Definition"
   description: An auxiliary variable introduced in multiple-shooting differential correction to convert inequality constraints into equality constraints.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Slack Factor Explained | Term Definition
+  title: "Slack Factor Explained | Term Definition"
   description: An auxiliary variable introduced in multiple-shooting differential correction to convert inequality constraints into equality constraints.
   image: /logo.png
 permalink: /en/glossary/dynamics/slack-factor/

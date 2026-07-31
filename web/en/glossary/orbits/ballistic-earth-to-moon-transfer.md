@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ballistic Earth-to-Moon Transfer Explained | Term Definition
+  title: "Ballistic Earth-to-Moon Transfer Explained | Term Definition"
   description: An Earth-to-Moon transfer that relies solely on initial conditions and the natural gravitational environment without intermediate maneuvers. The ARTEMIS miss...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Earth-to-Moon Transfer Explained | Term Definition
+  title: "Ballistic Earth-to-Moon Transfer Explained | Term Definition"
   description: An Earth-to-Moon transfer that relies solely on initial conditions and the natural gravitational environment without intermediate maneuvers. The ARTEMIS miss...
   image: /logo.png
 permalink: /en/glossary/orbits/ballistic-earth-to-moon-transfer/

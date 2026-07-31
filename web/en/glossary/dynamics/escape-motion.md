@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Escape Motion Explained | Term Definition
+  title: "Escape Motion Explained | Term Definition"
   description: Motion in which at least one body tends toward infinity in a three-body system, with escape conditions determined by energy, Jacobi integral, and other paramete
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Escape Motion Explained | Term Definition
+  title: "Escape Motion Explained | Term Definition"
   description: Motion in which at least one body tends toward infinity in a three-body system, with escape conditions determined by energy, Jacobi integral, and other paramete
   image: /logo.png
 permalink: /en/glossary/dynamics/escape-motion/

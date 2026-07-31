@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pontryagin Minimum Principle Explained | Term Definition
+  title: "Pontryagin Minimum Principle Explained | Term Definition"
   description: A fundamental theorem of optimal control theory stating that the optimal control minimizes the Hamiltonian at every instant. For minimum-fuel problems, this yie
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pontryagin Minimum Principle Explained | Term Definition
+  title: "Pontryagin Minimum Principle Explained | Term Definition"
   description: A fundamental theorem of optimal control theory stating that the optimal control minimizes the Hamiltonian at every instant. For minimum-fuel problems, this yie
   image: /logo.png
 permalink: /en/glossary/fundamentals/pmp/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Transit Orbit Explained | Term Definition
+  title: "Non-Transit Orbit Explained | Term Definition"
   description: In the restricted three-body problem, an orbit type where the particle approaches the collinear libration point region but cannot pass through it, instead turni
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Transit Orbit Explained | Term Definition
+  title: "Non-Transit Orbit Explained | Term Definition"
   description: In the restricted three-body problem, an orbit type where the particle approaches the collinear libration point region but cannot pass through it, instead turni
   image: /logo.png
 permalink: /en/glossary/orbits/non-transit-orbit/

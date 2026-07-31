@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trajectory Section Width Explained | Term Definition
+  title: "Trajectory Section Width Explained | Term Definition"
   description: The unit of measurement for DRO orbital stability. Defined as the maximum distance between all trajectory intersection points on a given cross-section. A lar...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trajectory Section Width Explained | Term Definition
+  title: "Trajectory Section Width Explained | Term Definition"
   description: The unit of measurement for DRO orbital stability. Defined as the maximum distance between all trajectory intersection points on a given cross-section. A lar...
   image: /logo.png
 permalink: /en/glossary/orbits/trajectory-section-width/

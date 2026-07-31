@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamical Channel Explained | Term Definition
+  title: "Dynamical Channel Explained | Term Definition"
   description: Celestial transport pathway formed by invariant manifold structures in the solar system; explains motions of asteroids, comets, etc.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamical Channel Explained | Term Definition
+  title: "Dynamical Channel Explained | Term Definition"
   description: Celestial transport pathway formed by invariant manifold structures in the solar system; explains motions of asteroids, comets, etc.
   image: /logo.png
 permalink: /en/glossary/dynamics/dynamical-channel/

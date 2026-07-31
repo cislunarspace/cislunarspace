@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: deep space navigation constellation Explained | Term Definition
+  title: "deep space navigation constellation Explained | Term Definition"
   description: A satellite constellation deployed around libration point orbits in the Earth-Moon system to provide navigation support for deep space probes. It exploits th...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: deep space navigation constellation Explained | Term Definition
+  title: "deep space navigation constellation Explained | Term Definition"
   description: A satellite constellation deployed around libration point orbits in the Earth-Moon system to provide navigation support for deep space probes. It exploits th...
   image: /logo.png
 permalink: /en/glossary/navigation/deep-space-navigation-constellation/

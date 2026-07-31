@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sun-Earth Manifold Explained | Term Definition
+  title: "Sun-Earth Manifold Explained | Term Definition"
   description: The invariant manifold of a Sun-Earth libration point orbit, along which a spacecraft moves without energy expenditure, serving as a key pathway for heterospace-system transfers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun-Earth Manifold Explained | Term Definition
+  title: "Sun-Earth Manifold Explained | Term Definition"
   description: The invariant manifold of a Sun-Earth libration point orbit, along which a spacecraft moves without energy expenditure, serving as a key pathway for heterospace-system transfers.
   image: /logo.png
 permalink: /en/glossary/dynamics/sun-earth-manifold/

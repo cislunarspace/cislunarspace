@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variable Structure Sliding Mode Control (VSSMC) Explained | Term Definition
+  title: "Variable Structure Sliding Mode Control (VSSMC) Explained | Term Definition"
   description: A robust nonlinear control method that drives system states to a designed switching surface (sliding surface). Once on the surface, system dynamics depend...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variable Structure Sliding Mode Control (VSSMC) Explained | Term Definition
+  title: "Variable Structure Sliding Mode Control (VSSMC) Explained | Term Definition"
   description: A robust nonlinear control method that drives system states to a designed switching surface (sliding surface). Once on the surface, system dynamics depend...
   image: /logo.png
 permalink: /en/glossary/fundamentals/variable-structure-sliding-mode-control/

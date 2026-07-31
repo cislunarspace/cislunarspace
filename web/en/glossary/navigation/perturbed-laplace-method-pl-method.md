@@ -1,6 +1,6 @@
 ---
 title: Perturbed-Laplace Method, PL Method
-description: An initial orbit determination method derived similarly to conventional Laplace's method but incorporating lunar gravitational perturbations; transforms the ...
+description: "An initial orbit determination method derived similarly to conventional Laplace's method but incorporating lunar gravitational perturbations; transforms the ..."
 keywords: Perturbed-Laplace Method, PL Method, PL方法
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perturbed-Laplace Method, PL Method Explained | Term Definition
-  description: An initial orbit determination method derived similarly to conventional Laplace's method but incorporating lunar gravitational perturbations; transforms the ...
+  title: "Perturbed-Laplace Method, PL Method Explained | Term Definition"
+  description: "An initial orbit determination method derived similarly to conventional Laplace's method but incorporating lunar gravitational perturbations; transforms the ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perturbed-Laplace Method, PL Method Explained | Term Definition
-  description: An initial orbit determination method derived similarly to conventional Laplace's method but incorporating lunar gravitational perturbations; transforms the ...
+  title: "Perturbed-Laplace Method, PL Method Explained | Term Definition"
+  description: "An initial orbit determination method derived similarly to conventional Laplace's method but incorporating lunar gravitational perturbations; transforms the ..."
   image: /logo.png
 permalink: /en/glossary/navigation/perturbed-laplace-method-pl-method/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Signal-to-Noise Ratio (SNR) Details | Fundamental Measurement in Astronomical Observation
+  title: "Signal-to-Noise Ratio (SNR) Details | Fundamental Measurement in Astronomical Observation"
   description: SNR is the most fundamental measurement in astronomical observation, determining whether celestial targets can be effectively detected above background noise
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Signal-to-Noise Ratio (SNR) Details | Fundamental Measurement in Astronomical Observation
+  title: "Signal-to-Noise Ratio (SNR) Details | Fundamental Measurement in Astronomical Observation"
   description: SNR is the most fundamental measurement in astronomical observation, determining whether celestial targets can be effectively detected above background noise
   image: /logo.png
 permalink: /en/glossary/observation/signal-to-noise-ratio/

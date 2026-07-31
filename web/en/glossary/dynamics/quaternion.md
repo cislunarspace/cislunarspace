@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quaternion Explained | Term Definition
+  title: "Quaternion Explained | Term Definition"
   description: A four-parameter method for representing spacecraft attitude, consisting of a scalar and a 3D vector, avoiding singularity issues of Euler angles.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quaternion Explained | Term Definition
+  title: "Quaternion Explained | Term Definition"
   description: A four-parameter method for representing spacecraft attitude, consisting of a scalar and a 3D vector, avoiding singularity issues of Euler angles.
   image: /logo.png
 permalink: /en/glossary/dynamics/quaternion/

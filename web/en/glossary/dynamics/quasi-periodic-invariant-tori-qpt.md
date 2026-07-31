@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quasi-Periodic Invariant Tori, QPT Explained | Term Definition
+  title: "Quasi-Periodic Invariant Tori, QPT Explained | Term Definition"
   description: Closed bounded surfaces in the CRTBP covered by specific quasi-periodic non-resonant trajectories, surrounding a reference periodic orbit. The ratio of the main
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-Periodic Invariant Tori, QPT Explained | Term Definition
+  title: "Quasi-Periodic Invariant Tori, QPT Explained | Term Definition"
   description: Closed bounded surfaces in the CRTBP covered by specific quasi-periodic non-resonant trajectories, surrounding a reference periodic orbit. The ratio of the main
   image: /logo.png
 permalink: /en/glossary/dynamics/quasi-periodic-invariant-tori-qpt/

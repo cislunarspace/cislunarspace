@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gravity Assist / Swingby Explained | Term Definition
+  title: "Gravity Assist / Swingby Explained | Term Definition"
   description: Maneuvers that use celestial body gravity to alter spacecraft orbit and velocity. In low-energy transfers, lunar gravity assist is a key element in achieving...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gravity Assist / Swingby Explained | Term Definition
+  title: "Gravity Assist / Swingby Explained | Term Definition"
   description: Maneuvers that use celestial body gravity to alter spacecraft orbit and velocity. In low-energy transfers, lunar gravity assist is a key element in achieving...
   image: /logo.png
 permalink: /en/glossary/orbits/gravity-assist-swingby/

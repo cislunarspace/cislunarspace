@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-Body Dynamical Environment Explained | Term Definition
+  title: "Multi-Body Dynamical Environment Explained | Term Definition"
   description: The spacecraft operating space where gravitational fields of multiple celestial bodies significantly affect motion, distinct from two-body and restricted...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Body Dynamical Environment Explained | Term Definition
+  title: "Multi-Body Dynamical Environment Explained | Term Definition"
   description: The spacecraft operating space where gravitational fields of multiple celestial bodies significantly affect motion, distinct from two-body and restricted...
   image: /logo.png
 permalink: /en/glossary/fundamentals/multi-body-dynamical-environment/

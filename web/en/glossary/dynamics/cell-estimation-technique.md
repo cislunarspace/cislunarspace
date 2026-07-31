@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cell Estimation Technique Explained | Term Definition
+  title: "Cell Estimation Technique Explained | Term Definition"
   description: 一种避免逐条数值积分流形的高效搜索方法。预先对一族 Halo 轨道的流形管进行离散化，用解析近似关系将位置和速度信息存储在相空间「单元」中。搜索转移轨道时，只需判断进入哪个单元，即可快速估计所需机动量，将计算量从逐条积分降低为查表。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cell Estimation Technique Explained | Term Definition
+  title: "Cell Estimation Technique Explained | Term Definition"
   description: 一种避免逐条数值积分流形的高效搜索方法。预先对一族 Halo 轨道的流形管进行离散化，用解析近似关系将位置和速度信息存储在相空间「单元」中。搜索转移轨道时，只需判断进入哪个单元，即可快速估计所需机动量，将计算量从逐条积分降低为查表。
   image: /logo.png
 permalink: /en/glossary/dynamics/cell-estimation-technique/

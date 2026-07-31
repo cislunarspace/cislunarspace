@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Special Long-Period Orbit, SLPO Explained | Term Definition
+  title: "Special Long-Period Orbit, SLPO Explained | Term Definition"
   description: 基于平动点不变流形拼接形成的三体动力学轨道，由两条L1点Halo轨道及其低能转移轨道拼接而成，周期约79天，覆盖整个地月空间。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Special Long-Period Orbit, SLPO Explained | Term Definition
+  title: "Special Long-Period Orbit, SLPO Explained | Term Definition"
   description: 基于平动点不变流形拼接形成的三体动力学轨道，由两条L1点Halo轨道及其低能转移轨道拼接而成，周期约79天，覆盖整个地月空间。
   image: /logo.png
 permalink: /en/glossary/orbits/special-long-period-orbit/

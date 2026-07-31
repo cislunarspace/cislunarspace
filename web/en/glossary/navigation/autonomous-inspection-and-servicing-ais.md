@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Autonomous Inspection and Servicing, AIS Explained | Term Definition
+  title: "Autonomous Inspection and Servicing, AIS Explained | Term Definition"
   description: Autonomous proximity operations for inspecting and servicing spacecraft or space objects, aimed at extending satellite lifespan and reducing mission costs.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Autonomous Inspection and Servicing, AIS Explained | Term Definition
+  title: "Autonomous Inspection and Servicing, AIS Explained | Term Definition"
   description: Autonomous proximity operations for inspecting and servicing spacecraft or space objects, aimed at extending satellite lifespan and reducing mission costs.
   image: /logo.png
 permalink: /en/glossary/navigation/autonomous-inspection-and-servicing-ais/

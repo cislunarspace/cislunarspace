@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Invariant Manifold Attraction Explained | Term Definition
+  title: "Invariant Manifold Attraction Explained | Term Definition"
   description: Tendency of reachable trajectories to cluster around invariant manifold structures.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Invariant Manifold Attraction Explained | Term Definition
+  title: "Invariant Manifold Attraction Explained | Term Definition"
   description: Tendency of reachable trajectories to cluster around invariant manifold structures.
   image: /logo.png
 permalink: /en/glossary/dynamics/invariant-manifold-attraction/

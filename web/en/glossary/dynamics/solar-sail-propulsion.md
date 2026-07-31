@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Sail Propulsion Explained | Term Definition
+  title: "Solar Sail Propulsion Explained | Term Definition"
   description: A propulsion method that generates continuous thrust through momentum exchange between solar photons and a large thin-film sail. It requires no propellant as al
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Sail Propulsion Explained | Term Definition
+  title: "Solar Sail Propulsion Explained | Term Definition"
   description: A propulsion method that generates continuous thrust through momentum exchange between solar photons and a large thin-film sail. It requires no propellant as al
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-sail-propulsion/

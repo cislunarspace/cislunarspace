@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Maneuver Frequency Optimization Explained | Term Definition
+  title: "Maneuver Frequency Optimization Explained | Term Definition"
   description: The process of selecting the optimal time interval between stationkeeping maneuvers. For Earth-Moon libration point orbits, maneuver frequency directly...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Maneuver Frequency Optimization Explained | Term Definition
+  title: "Maneuver Frequency Optimization Explained | Term Definition"
   description: The process of selecting the optimal time interval between stationkeeping maneuvers. For Earth-Moon libration point orbits, maneuver frequency directly...
   image: /logo.png
 permalink: /en/glossary/orbits/maneuver-frequency-optimization/

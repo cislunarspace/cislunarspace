@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Aerobraking Return Explained | Term Definition
+  title: "Orbital Aerobraking Return Explained | Term Definition"
   description: "An orbital maneuver technique in which a vehicle returning from the DRO service station to LEO uses Earth's atmospheric drag to decelerate. Aerobraking is triggered when the vehicle enters below 200 km altitude. The paper models this as two instantaneous velocity pulses at a perigee height of approximately 80.7 km, reducing propellant consumption for the return leg. Compared to direct propulsive braking, it significantly saves fuel."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Aerobraking Return Explained | Term Definition
+  title: "Orbital Aerobraking Return Explained | Term Definition"
   description: "An orbital maneuver technique in which a vehicle returning from the DRO service station to LEO uses Earth's atmospheric drag to decelerate. Aerobraking is triggered when the vehicle enters below 200 km altitude. The paper models this as two instantaneous velocity pulses at a perigee height of approximately 80.7 km, reducing propellant consumption for the return leg. Compared to direct propulsive braking, it significantly saves fuel."
   image: /logo.png
 permalink: /en/glossary/dynamics/orbital-aerobraking-return/

@@ -1,6 +1,6 @@
 ---
 title: Poisson Bracket
-description: An operation defining the total time derivative in Hamiltonian systems: {F,G} = Σ(∂F/∂qj·∂G/∂pj - ∂F/∂pj·∂G/∂qj). Foundational tool for Lie transformation th...
+description: "An operation defining the total time derivative in Hamiltonian systems: {F,G} = Σ(∂F/∂qj·∂G/∂pj - ∂F/∂pj·∂G/∂qj). Foundational tool for Lie transformation th..."
 keywords: Poisson Bracket
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Poisson Bracket Explained | Term Definition
-  description: An operation defining the total time derivative in Hamiltonian systems: {F,G} = Σ(∂F/∂qj·∂G/∂pj - ∂F/∂pj·∂G/∂qj). Foundational tool for Lie transformation th...
+  title: "Poisson Bracket Explained | Term Definition"
+  description: "An operation defining the total time derivative in Hamiltonian systems: {F,G} = Σ(∂F/∂qj·∂G/∂pj - ∂F/∂pj·∂G/∂qj). Foundational tool for Lie transformation th..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Poisson Bracket Explained | Term Definition
-  description: An operation defining the total time derivative in Hamiltonian systems: {F,G} = Σ(∂F/∂qj·∂G/∂pj - ∂F/∂pj·∂G/∂qj). Foundational tool for Lie transformation th...
+  title: "Poisson Bracket Explained | Term Definition"
+  description: "An operation defining the total time derivative in Hamiltonian systems: {F,G} = Σ(∂F/∂qj·∂G/∂pj - ∂F/∂pj·∂G/∂qj). Foundational tool for Lie transformation th..."
   image: /logo.png
 permalink: /en/glossary/dynamics/poisson-bracket/
 ---

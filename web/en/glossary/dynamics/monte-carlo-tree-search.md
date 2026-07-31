@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Monte Carlo Tree Search Details | Search Algorithm for Intelligent Spacecraft Decision-Making
+  title: "Monte Carlo Tree Search Details | Search Algorithm for Intelligent Spacecraft Decision-Making"
   description: Monte Carlo Tree Search algorithm applied to spacecraft trajectory planning and space operations decision-making
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Monte Carlo Tree Search Details | Search Algorithm for Intelligent Spacecraft Decision-Making
+  title: "Monte Carlo Tree Search Details | Search Algorithm for Intelligent Spacecraft Decision-Making"
   description: Monte Carlo Tree Search algorithm applied to spacecraft trajectory planning and space operations decision-making
   image: /logo.png
 permalink: /en/glossary/dynamics/monte-carlo-tree-search/

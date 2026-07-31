@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Nutation | Terminology Definition
+  title: "Nutation | Terminology Definition"
   description: Definition of nutation, physical causes, principal periodic components, and its role in high-precision reference frames
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nutation | Terminology Definition
+  title: "Nutation | Terminology Definition"
   description: Definition of nutation, physical causes, principal periodic components, and its role in high-precision reference frames
   image: /logo.png
 permalink: /en/glossary/fundamentals/nutation/

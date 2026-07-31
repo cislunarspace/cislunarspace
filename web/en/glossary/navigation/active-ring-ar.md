@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Active Ring Explained | Term Definition
+  title: "Active Ring Explained | Term Definition"
   description: A docking mechanism ring mounted on the chaser vehicle. During proximity operations, the attitude and position of the Active Ring are actively controlled to align with the Passive Ring on the target spacecraft, achieving docking contact.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Active Ring Explained | Term Definition
+  title: "Active Ring Explained | Term Definition"
   description: A docking mechanism ring mounted on the chaser vehicle. During proximity operations, the attitude and position of the Active Ring are actively controlled to align with the Passive Ring on the target spacecraft, achieving docking contact.
   image: /logo.png
 permalink: /en/glossary/navigation/active-ring-ar/

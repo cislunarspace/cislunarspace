@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Inter-Satellite Link Navigation | Cislunar Space Ranging and Orbit Determination Technology
+  title: "Inter-Satellite Link Navigation | Cislunar Space Ranging and Orbit Determination Technology"
   description: An analysis of the technical principles and capabilities of using navigation satellite inter-satellite links to achieve large-scale ranging, time synchronization, and orbit determination navigation in cislunar space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inter-Satellite Link Navigation | Cislunar Space Ranging and Orbit Determination Technology
+  title: "Inter-Satellite Link Navigation | Cislunar Space Ranging and Orbit Determination Technology"
   description: An analysis of the technical principles and capabilities of using navigation satellite inter-satellite links to achieve large-scale ranging, time synchronization, and orbit determination navigation in cislunar space.
   image: /logo.png
 permalink: /en/glossary/navigation/inter-satellite-link-navigation/

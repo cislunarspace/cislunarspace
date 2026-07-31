@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Surface Capture Energy Explained | Term Definition
+  title: "Lunar Surface Capture Energy Explained | Term Definition"
   description: 将探测器永久捕获到月面所需的速度增量。通过Poincaré映射得出近月距达到1738km（月面）时所需的捕获能量，再根据速度增量公式计算。在不同引力模型下差异明显：二体模型695.7m/s，Hill模型656.8m/s，CR3BP模型649.2m/s，SBCM模型最小为642.9m/s。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Surface Capture Energy Explained | Term Definition
+  title: "Lunar Surface Capture Energy Explained | Term Definition"
   description: 将探测器永久捕获到月面所需的速度增量。通过Poincaré映射得出近月距达到1738km（月面）时所需的捕获能量，再根据速度增量公式计算。在不同引力模型下差异明显：二体模型695.7m/s，Hill模型656.8m/s，CR3BP模型649.2m/s，SBCM模型最小为642.9m/s。
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-surface-capture-energy/

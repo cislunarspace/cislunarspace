@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Standard Atmosphere | Terminology Definition
+  title: "Standard Atmosphere | Terminology Definition"
   description: A detailed analysis of the standard atmosphere definition, atmospheric layer structure, and its application in aerodynamic calculations
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Standard Atmosphere | Terminology Definition
+  title: "Standard Atmosphere | Terminology Definition"
   description: A detailed analysis of the standard atmosphere definition, atmospheric layer structure, and its application in aerodynamic calculations
   image: /logo.png
 permalink: /en/glossary/fundamentals/standard-atmosphere/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Orbit Explained | Term Definition
+  title: "Geocentric Orbit Explained | Term Definition"
   description: Orbit centered on the Earth, along which artificial satellites travel.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Orbit Explained | Term Definition
+  title: "Geocentric Orbit Explained | Term Definition"
   description: Orbit centered on the Earth, along which artificial satellites travel.
   image: /logo.png
 permalink: /en/glossary/orbits/geocentric-orbit/

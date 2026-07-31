@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase-Free DRO Explained | Term Definition
+  title: "Phase-Free DRO Explained | Term Definition"
   description: Distant retrograde orbit that permits spacecraft entry at any solar phase angle within the Earth-Moon barycentric rotating frame, accommodating DRO insertion at
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase-Free DRO Explained | Term Definition
+  title: "Phase-Free DRO Explained | Term Definition"
   description: Distant retrograde orbit that permits spacecraft entry at any solar phase angle within the Earth-Moon barycentric rotating frame, accommodating DRO insertion at
   image: /logo.png
 permalink: /en/glossary/orbits/phase-free-dro/

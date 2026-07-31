@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Obliquity of Lunar Orbit to Equatorial Plane Explained | Term Definition
+  title: "Obliquity of Lunar Orbit to Equatorial Plane Explained | Term Definition"
   description: "The angle between the lunar orbital plane (ecliptic of the Moon's orbit) and Earth's equatorial plane, varying between 18.5 and 28.5 degrees."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Obliquity of Lunar Orbit to Equatorial Plane Explained | Term Definition
+  title: "Obliquity of Lunar Orbit to Equatorial Plane Explained | Term Definition"
   description: "The angle between the lunar orbital plane (ecliptic of the Moon's orbit) and Earth's equatorial plane, varying between 18.5 and 28.5 degrees."
   image: /logo.png
 permalink: /en/glossary/dynamics/obliquity-of-lunar-orbit-to-equatorial-plane/

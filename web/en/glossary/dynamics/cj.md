@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Constant Explained | Term Definition
+  title: "Jacobi Constant Explained | Term Definition"
   description: The sole conserved quantity (integral of motion) in the CR3BP, defined as JC = 2U - ẋ² - ẏ² - ż². It combines the pseudo-potential and velocity components, play
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Constant Explained | Term Definition
+  title: "Jacobi Constant Explained | Term Definition"
   description: The sole conserved quantity (integral of motion) in the CR3BP, defined as JC = 2U - ẋ² - ẏ² - ż². It combines the pseudo-potential and velocity components, play
   image: /logo.png
 permalink: /en/glossary/dynamics/cj/

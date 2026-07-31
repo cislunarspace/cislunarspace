@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition
+  title: "Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition"
   description: 从L1点Halo轨道出发，经流形入轨后施加脉冲机动转入连接轨道，最终到达地球同步轨道的转移过程。论文中作为地月空间监视的典型目标轨道，转移历时约23天。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition
+  title: "Halo-to-GEO Transfer, Halo2GEO Explained | Term Definition"
   description: 从L1点Halo轨道出发，经流形入轨后施加脉冲机动转入连接轨道，最终到达地球同步轨道的转移过程。论文中作为地月空间监视的典型目标轨道，转移历时约23天。
   image: /logo.png
 permalink: /en/glossary/orbits/halo-to-geo-transfer/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Modified Julian Date Explained | Term Definition
+  title: "Modified Julian Date Explained | Term Definition"
   description: The Julian Date minus 2400000.5 days, starting at midnight rather than noon, reducing the number of significant digits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Modified Julian Date Explained | Term Definition
+  title: "Modified Julian Date Explained | Term Definition"
   description: The Julian Date minus 2400000.5 days, starting at midnight rather than noon, reducing the number of significant digits.
   image: /logo.png
 permalink: /en/glossary/fundamentals/modified-julian-date/

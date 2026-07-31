@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Axis Ratio Explained | Term Definition
+  title: "Axis Ratio Explained | Term Definition"
   description: The ratio of the semimajor axis to the semiminor axis of the elliptical orbit near a libration point. For triangular libration points, the long-period axis...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Axis Ratio Explained | Term Definition
+  title: "Axis Ratio Explained | Term Definition"
   description: The ratio of the semimajor axis to the semiminor axis of the elliptical orbit near a libration point. For triangular libration points, the long-period axis...
   image: /logo.png
 permalink: /en/glossary/dynamics/axis-ratio/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum-Time Continuous-Thrust Orbit Transfer Explained | Term Definition
+  title: "Minimum-Time Continuous-Thrust Orbit Transfer Explained | Term Definition"
   description: Orbital transfer problem that minimizes time for a spacecraft with steerable continuous thrust of constant magnitude, typically solved using Euler-Lagrange theo
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum-Time Continuous-Thrust Orbit Transfer Explained | Term Definition
+  title: "Minimum-Time Continuous-Thrust Orbit Transfer Explained | Term Definition"
   description: Orbital transfer problem that minimizes time for a spacecraft with steerable continuous thrust of constant magnitude, typically solved using Euler-Lagrange theo
   image: /logo.png
 permalink: /en/glossary/dynamics/minimum-time-continuous-thrust-orbit-transfer/

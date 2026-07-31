@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Intermediate thrust arc Explained | Term Definition
+  title: "Intermediate thrust arc Explained | Term Definition"
   description: A Lawden term for a trajectory segment where the switching function S(t)≡0, so the thrust acceleration magnitude is not determined by the minimum principle and 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Intermediate thrust arc Explained | Term Definition
+  title: "Intermediate thrust arc Explained | Term Definition"
   description: A Lawden term for a trajectory segment where the switching function S(t)≡0, so the thrust acceleration magnitude is not determined by the minimum principle and 
   image: /logo.png
 permalink: /en/glossary/fundamentals/IT/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbital Axis Slewing Explained | Term Definition
+  title: "Orbital Axis Slewing Explained | Term Definition"
   description: A two-impulse maneuver that rotates the major axis of an elliptical orbit without changing its shape or size. Lawden proved that the optimal slewing transfer ellipse is tangent to both terminal orbits...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Axis Slewing Explained | Term Definition
+  title: "Orbital Axis Slewing Explained | Term Definition"
   description: A two-impulse maneuver that rotates the major axis of an elliptical orbit without changing its shape or size. Lawden proved that the optimal slewing transfer ellipse is tangent to both terminal orbits...
   image: /logo.png
 permalink: /en/glossary/fundamentals/orbital-axis-slewing/

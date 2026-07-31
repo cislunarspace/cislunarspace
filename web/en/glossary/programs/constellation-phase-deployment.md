@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Constellation Phase Deployment Explained | Term Definition
+  title: "Constellation Phase Deployment Explained | Term Definition"
   description: The process of distributing multiple satellites from a single release point to different phase-angle positions along the same orbit. In the lunar far-side posit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Constellation Phase Deployment Explained | Term Definition
+  title: "Constellation Phase Deployment Explained | Term Definition"
   description: The process of distributing multiple satellites from a single release point to different phase-angle positions along the same orbit. In the lunar far-side posit
   image: /logo.png
 permalink: /en/glossary/programs/constellation-phase-deployment/

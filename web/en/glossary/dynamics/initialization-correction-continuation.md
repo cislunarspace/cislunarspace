@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initialization-Correction-Continuation Explained | Term Definition
+  title: "Initialization-Correction-Continuation Explained | Term Definition"
   description: The standard method for generating families of quasi-periodic invariant tori in the CRTBP. First, a grid of states is created near the center manifold of the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initialization-Correction-Continuation Explained | Term Definition
+  title: "Initialization-Correction-Continuation Explained | Term Definition"
   description: The standard method for generating families of quasi-periodic invariant tori in the CRTBP. First, a grid of states is created near the center manifold of the...
   image: /logo.png
 permalink: /en/glossary/dynamics/initialization-correction-continuation/

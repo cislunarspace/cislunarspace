@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collinear Libration Points Explained | Term Definition
+  title: "Collinear Libration Points Explained | Term Definition"
   description: Three libration points lying on the line connecting the two primaries, denoted L₁, L₂, and L₃. L₁ lies between the two bodies, L₂ is outward from the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collinear Libration Points Explained | Term Definition
+  title: "Collinear Libration Points Explained | Term Definition"
   description: Three libration points lying on the line connecting the two primaries, denoted L₁, L₂, and L₃. L₁ lies between the two bodies, L₂ is outward from the...
   image: /logo.png
 permalink: /en/glossary/dynamics/collinear-libration-points/

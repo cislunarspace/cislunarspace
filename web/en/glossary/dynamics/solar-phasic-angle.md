@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Solar Phasic Angle (β)" Explained | Term Definition
+  title: "\"Solar Phasic Angle (β)\" Explained | Term Definition"
   description: "The parameter measuring the included angle between the line from Earth to Moon and the intersecting line of the ecliptic and lunar planes, serving as a key variable determining cislunar transfer opportunities."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Solar Phasic Angle (β)" Explained | Term Definition
+  title: "\"Solar Phasic Angle (β)\" Explained | Term Definition"
   description: "The parameter measuring the included angle between the line from Earth to Moon and the intersecting line of the ecliptic and lunar planes, serving as a key variable determining cislunar transfer opportunities."
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-phasic-angle/

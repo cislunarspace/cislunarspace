@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fault Detection, Isolation and Recovery, FDIR Explained | Term Definition
+  title: "Fault Detection, Isolation and Recovery, FDIR Explained | Term Definition"
   description: Technology for detecting, isolating, and automatically recovering from system faults; a key enabling technology for improving mission reliability and autonomy.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fault Detection, Isolation and Recovery, FDIR Explained | Term Definition
+  title: "Fault Detection, Isolation and Recovery, FDIR Explained | Term Definition"
   description: Technology for detecting, isolating, and automatically recovering from system faults; a key enabling technology for improving mission reliability and autonomy.
   image: /logo.png
 permalink: /en/glossary/dynamics/fault-detection-isolation-and-recovery-fdir/

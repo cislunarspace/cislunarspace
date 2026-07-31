@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Super-Geostationary Transfer Orbit, sGTO Explained | Term Definition
+  title: "Super-Geostationary Transfer Orbit, sGTO Explained | Term Definition"
   description: An elliptic transfer orbit with an apogee far beyond geosynchronous altitude, typically several times the GEO radius.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Super-Geostationary Transfer Orbit, sGTO Explained | Term Definition
+  title: "Super-Geostationary Transfer Orbit, sGTO Explained | Term Definition"
   description: An elliptic transfer orbit with an apogee far beyond geosynchronous altitude, typically several times the GEO radius.
   image: /logo.png
 permalink: /en/glossary/orbits/sGTO/

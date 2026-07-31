@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Central Manifold Action Variable Explained | Term Definition
+  title: "Central Manifold Action Variable Explained | Term Definition"
   description: Parameters I2 and I3 in the characteristic parameter set, representing the amplitude of spacecraft motion on the central manifold. I2 denotes the amplitude i...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Central Manifold Action Variable Explained | Term Definition
+  title: "Central Manifold Action Variable Explained | Term Definition"
   description: Parameters I2 and I3 in the characteristic parameter set, representing the amplitude of spacecraft motion on the central manifold. I2 denotes the amplitude i...
   image: /logo.png
 permalink: /en/glossary/dynamics/central-manifold-action-variable/

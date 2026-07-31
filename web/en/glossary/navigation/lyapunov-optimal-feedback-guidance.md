@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lyapunov Optimal Feedback Guidance Explained | Term Definition
+  title: "Lyapunov Optimal Feedback Guidance Explained | Term Definition"
   description: A low-thrust guidance method that constructs a Lyapunov function from orbital element errors (semi-major axis
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lyapunov Optimal Feedback Guidance Explained | Term Definition
+  title: "Lyapunov Optimal Feedback Guidance Explained | Term Definition"
   description: A low-thrust guidance method that constructs a Lyapunov function from orbital element errors (semi-major axis
   image: /logo.png
 permalink: /en/glossary/navigation/lyapunov-optimal-feedback-guidance/

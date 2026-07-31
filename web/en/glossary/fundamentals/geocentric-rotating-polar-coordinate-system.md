@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Rotating Polar Coordinate System Explained | Term Definition
+  title: "Geocentric Rotating Polar Coordinate System Explained | Term Definition"
   description: 在地心旋转系中采用极坐标表示的坐标系统，用极径 r、极角 θ、径向速度 v_r 和横向速度 v_θ 描述航天器状态。适合描述共面地月转移轨道的动力学特性。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Rotating Polar Coordinate System Explained | Term Definition
+  title: "Geocentric Rotating Polar Coordinate System Explained | Term Definition"
   description: 在地心旋转系中采用极坐标表示的坐标系统，用极径 r、极角 θ、径向速度 v_r 和横向速度 v_θ 描述航天器状态。适合描述共面地月转移轨道的动力学特性。
   image: /logo.png
 permalink: /en/glossary/fundamentals/geocentric-rotating-polar-coordinate-system/

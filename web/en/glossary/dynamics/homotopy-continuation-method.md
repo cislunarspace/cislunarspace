@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homotopy Continuation Method Explained | Term Definition
+  title: "Homotopy Continuation Method Explained | Term Definition"
   description: Optimization technique connecting original problem with easily solvable problem via continuation parameter, solving original problem gradually.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homotopy Continuation Method Explained | Term Definition
+  title: "Homotopy Continuation Method Explained | Term Definition"
   description: Optimization technique connecting original problem with easily solvable problem via continuation parameter, solving original problem gradually.
   image: /logo.png
 permalink: /en/glossary/dynamics/homotopy-continuation-method/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Optimal Initial Costate Locus Explained | Term Definition
+  title: "Optimal Initial Costate Locus Explained | Term Definition"
   description: Graphical depiction of the functional relationship between optimal initial costate values and problem parameters (thrust acceleration A and final orbit radius R), exhibiting distinct characteristics i...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Optimal Initial Costate Locus Explained | Term Definition
+  title: "Optimal Initial Costate Locus Explained | Term Definition"
   description: Graphical depiction of the functional relationship between optimal initial costate values and problem parameters (thrust acceleration A and final orbit radius R), exhibiting distinct characteristics i...
   image: /logo.png
 permalink: /en/glossary/dynamics/optimal-initial-costate-locus/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Phase Transfer Explained | Term Definition
+  title: "Two-Phase Transfer Explained | Term Definition"
   description: 将地月低推力转移任务分为两个阶段的设计策略。第一阶段从近地轨道抬升至地球静止轨道高度，该区域第三体效应较弱，用经典形状函数即可；第二阶段从地球静止轨道转移至 L1 点，该区域双天体引力相当，需用修正形状函数。两段在连接点处满足位置和航迹角连续性约束。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Phase Transfer Explained | Term Definition
+  title: "Two-Phase Transfer Explained | Term Definition"
   description: 将地月低推力转移任务分为两个阶段的设计策略。第一阶段从近地轨道抬升至地球静止轨道高度，该区域第三体效应较弱，用经典形状函数即可；第二阶段从地球静止轨道转移至 L1 点，该区域双天体引力相当，需用修正形状函数。两段在连接点处满足位置和航迹角连续性约束。
   image: /logo.png
 permalink: /en/glossary/orbits/two-phase-transfer/

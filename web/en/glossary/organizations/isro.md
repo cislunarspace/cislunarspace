@@ -1,6 +1,6 @@
 ---
 title: Indian Space Research Organisation
-description: The Indian Space Research Organisation (ISRO) is India's core agency responsible for space mission planning and execution
+description: "The Indian Space Research Organisation (ISRO) is India's core agency responsible for space mission planning and execution"
 keywords: ISRO, Indian Space Research Organisation, India space, Indian satellite launch, Chandrayaan, Mangalyaan
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Indian Space Research Organisation Explained | ISRO
-  description: ISRO is India's core agency responsible for space mission planning and execution
+  title: "Indian Space Research Organisation Explained | ISRO"
+  description: "ISRO is India's core agency responsible for space mission planning and execution"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indian Space Research Organisation Explained | ISRO
-  description: ISRO is India's core agency responsible for space mission planning and execution
+  title: "Indian Space Research Organisation Explained | ISRO"
+  description: "ISRO is India's core agency responsible for space mission planning and execution"
   image: /logo.png
 permalink: /en/glossary/organizations/isro/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Runge-Kutta-Fehlberg 7(8) integrator Explained | Term Definition
+  title: "Runge-Kutta-Fehlberg 7(8) integrator Explained | Term Definition"
   description: An adaptive-step numerical integration method that simultaneously computes 7th-order and 8th-order solutions and adjusts step size by comparing their difference
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Runge-Kutta-Fehlberg 7(8) integrator Explained | Term Definition
+  title: "Runge-Kutta-Fehlberg 7(8) integrator Explained | Term Definition"
   description: An adaptive-step numerical integration method that simultaneously computes 7th-order and 8th-order solutions and adjusts step size by comparing their difference
   image: /logo.png
 permalink: /en/glossary/fundamentals/RKF7(8)/

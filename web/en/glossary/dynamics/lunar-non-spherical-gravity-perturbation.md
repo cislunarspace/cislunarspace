@@ -1,6 +1,6 @@
 ---
 title: Lunar Non-Spherical Gravity Perturbation
-description: Additional gravitational acceleration due to the Moon's non-uniform mass distribution, including mascons and other anomalous regions. The lunar gravity field...
+description: "Additional gravitational acceleration due to the Moon's non-uniform mass distribution, including mascons and other anomalous regions. The lunar gravity field..."
 keywords: Lunar Non-Spherical Gravity Perturbation, orbital dynamics, trajectory optimization, celestial mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Non-Spherical Gravity Perturbation Explained | Term Definition
-  description: Additional gravitational acceleration due to the Moon's non-uniform mass distribution, including mascons and other anomalous regions. The lunar gravity field...
+  title: "Lunar Non-Spherical Gravity Perturbation Explained | Term Definition"
+  description: "Additional gravitational acceleration due to the Moon's non-uniform mass distribution, including mascons and other anomalous regions. The lunar gravity field..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Non-Spherical Gravity Perturbation Explained | Term Definition
-  description: Additional gravitational acceleration due to the Moon's non-uniform mass distribution, including mascons and other anomalous regions. The lunar gravity field...
+  title: "Lunar Non-Spherical Gravity Perturbation Explained | Term Definition"
+  description: "Additional gravitational acceleration due to the Moon's non-uniform mass distribution, including mascons and other anomalous regions. The lunar gravity field..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-non-spherical-gravity-perturbation/
 ---

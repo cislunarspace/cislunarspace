@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Flight Time Equation Explained | Term Definition
+  title: "Flight Time Equation Explained | Term Definition"
   description: An equation describing the relationship between transfer time and parameters such as orbital semimajor axis and transfer angle in the Lambert problem, serving...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Flight Time Equation Explained | Term Definition
+  title: "Flight Time Equation Explained | Term Definition"
   description: An equation describing the relationship between transfer time and parameters such as orbital semimajor axis and transfer angle in the Lambert problem, serving...
   image: /logo.png
 permalink: /en/glossary/dynamics/flight-time-equation/

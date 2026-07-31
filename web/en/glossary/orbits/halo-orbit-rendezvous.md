@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Rendezvous Explained | Term Definition
+  title: "Halo Orbit Rendezvous Explained | Term Definition"
   description: The technology for two spacecraft to meet at a libration point Halo or near-Halo orbit. Using effective phase methods and phase impulse maneuvers can reduce...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Rendezvous Explained | Term Definition
+  title: "Halo Orbit Rendezvous Explained | Term Definition"
   description: The technology for two spacecraft to meet at a libration point Halo or near-Halo orbit. Using effective phase methods and phase impulse maneuvers can reduce...
   image: /logo.png
 permalink: /en/glossary/orbits/halo-orbit-rendezvous/

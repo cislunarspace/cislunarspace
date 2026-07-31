@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Fixed-Point Homotopy Explained | Term Definition
+  title: "Fixed-Point Homotopy Explained | Term Definition"
   description: A homotopy function construction method. Sets the initial homotopy problem as G(y) = y - y₀, where y₀ is a known initial guess. The homotopy function is H(y,...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Fixed-Point Homotopy Explained | Term Definition
+  title: "Fixed-Point Homotopy Explained | Term Definition"
   description: A homotopy function construction method. Sets the initial homotopy problem as G(y) = y - y₀, where y₀ is a known initial guess. The homotopy function is H(y,...
   image: /logo.png
 permalink: /en/glossary/dynamics/fixed-point-homotopy/

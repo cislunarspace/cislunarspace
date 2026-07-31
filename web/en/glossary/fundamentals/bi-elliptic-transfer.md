@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Bi-Elliptic Transfer | Terminology Definition
+  title: "Bi-Elliptic Transfer | Terminology Definition"
   description: A detailed analysis of the bi-elliptic transfer principle and optimal conditions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bi-Elliptic Transfer | Terminology Definition
+  title: "Bi-Elliptic Transfer | Terminology Definition"
   description: A detailed analysis of the bi-elliptic transfer principle and optimal conditions
   image: /logo.png
 permalink: /en/glossary/fundamentals/bi-elliptic-transfer/

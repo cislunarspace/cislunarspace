@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Method Explained | Term Definition
+  title: "Indirect Method Explained | Term Definition"
   description: A trajectory optimization approach that derives optimal control laws from necessary conditions (such as the Pontryagin Minimum Principle) and solves the resulti
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Method Explained | Term Definition
+  title: "Indirect Method Explained | Term Definition"
   description: A trajectory optimization approach that derives optimal control laws from necessary conditions (such as the Pontryagin Minimum Principle) and solves the resulti
   image: /logo.png
 permalink: /en/glossary/fundamentals/indirect-method/

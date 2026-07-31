@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Active Disturbance Rejection Control Explained | Term Definition
+  title: "Active Disturbance Rejection Control Explained | Term Definition"
   description: A robust control method that does not rely on an accurate mathematical model.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Active Disturbance Rejection Control Explained | Term Definition
+  title: "Active Disturbance Rejection Control Explained | Term Definition"
   description: A robust control method that does not rely on an accurate mathematical model.
   image: /logo.png
 permalink: /en/glossary/dynamics/active-disturbance-rejection-control/

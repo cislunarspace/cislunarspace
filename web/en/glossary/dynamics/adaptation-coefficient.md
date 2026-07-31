@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Adaptation Coefficient Explained | Term Definition
+  title: "Adaptation Coefficient Explained | Term Definition"
   description: A coefficient used in the adaptive weight strategy to scale the position weight, defined as α raised to the power of β, where α is the ratio of current relative distance to the target distance threshold, and β is an exponent related to relative velocity and remaining time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Adaptation Coefficient Explained | Term Definition
+  title: "Adaptation Coefficient Explained | Term Definition"
   description: A coefficient used in the adaptive weight strategy to scale the position weight, defined as α raised to the power of β.
   image: /logo.png
 permalink: /en/glossary/dynamics/adaptation-coefficient/

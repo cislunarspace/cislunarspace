@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Euler Quintic Equation Explained | Term Definition
+  title: "Euler Quintic Equation Explained | Term Definition"
   description: A quintic algebraic equation used to determine the distance parameter γ of collinear libration points in the circular restricted three-body problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Euler Quintic Equation Explained | Term Definition
+  title: "Euler Quintic Equation Explained | Term Definition"
   description: A quintic algebraic equation used to determine the distance parameter γ of collinear libration points in the circular restricted three-body problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/euler-quintic-equation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Extended Perilune Rendezvous Method, EPRM Explained | Term Definition
+  title: "Extended Perilune Rendezvous Method, EPRM Explained | Term Definition"
   description: A transfer method intermediate between IDT and WSB.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Extended Perilune Rendezvous Method, EPRM Explained | Term Definition
+  title: "Extended Perilune Rendezvous Method, EPRM Explained | Term Definition"
   description: A transfer method intermediate between IDT and WSB.
   image: /logo.png
 permalink: /en/glossary/orbits/extended-perilune-rendezvous-method-eprm/

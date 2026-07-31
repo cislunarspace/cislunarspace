@@ -1,6 +1,6 @@
 ---
 title: Resonant NRHO
-description: Near-rectilinear halo orbit resonant with the Sun, whose period has a specific integer ratio to the Sun's period.
+description: "Near-rectilinear halo orbit resonant with the Sun, whose period has a specific integer ratio to the Sun's period."
 keywords: Resonant NRHO
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonant NRHO Explained | Term Definition
-  description: Near-rectilinear halo orbit resonant with the Sun, whose period has a specific integer ratio to the Sun's period.
+  title: "Resonant NRHO Explained | Term Definition"
+  description: "Near-rectilinear halo orbit resonant with the Sun, whose period has a specific integer ratio to the Sun's period."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonant NRHO Explained | Term Definition
-  description: Near-rectilinear halo orbit resonant with the Sun, whose period has a specific integer ratio to the Sun's period.
+  title: "Resonant NRHO Explained | Term Definition"
+  description: "Near-rectilinear halo orbit resonant with the Sun, whose period has a specific integer ratio to the Sun's period."
   image: /logo.png
 permalink: /en/glossary/orbits/resonant-nrho/
 ---

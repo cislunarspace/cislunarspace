@@ -1,6 +1,6 @@
 ---
 title: Robust Lambert Solver, RLS (RLS)
-description: A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an...
+description: "A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an..."
 keywords: Robust Lambert Solver, RLS, RLS
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Robust Lambert Solver, RLS Explained | Term Definition
-  description: A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an...
+  title: "Robust Lambert Solver, RLS Explained | Term Definition"
+  description: "A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Robust Lambert Solver, RLS Explained | Term Definition
-  description: A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an...
+  title: "Robust Lambert Solver, RLS Explained | Term Definition"
+  description: "A robust Lambert solver based on Izzo's and Blanchard's algorithms, capable of solving single- and multi-revolution Lambert problems without requiring an..."
   image: /logo.png
 permalink: /en/glossary/dynamics/robust-lambert-solver-rls/
 ---

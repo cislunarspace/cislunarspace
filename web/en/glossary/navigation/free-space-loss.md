@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Free Space Loss Explained | Term Definition
+  title: "Free Space Loss Explained | Term Definition"
   description: Signal power attenuation due to wavefront spreading as electromagnetic waves propagate through vacuum, proportional to the square of the propagation distance...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free Space Loss Explained | Term Definition
+  title: "Free Space Loss Explained | Term Definition"
   description: Signal power attenuation due to wavefront spreading as electromagnetic waves propagate through vacuum, proportional to the square of the propagation distance...
   image: /logo.png
 permalink: /en/glossary/navigation/free-space-loss/

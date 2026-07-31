@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Target State Explained | Term Definition
+  title: "Lunar Target State Explained | Term Definition"
   description: A pre-selected initial state (position and velocity) near the lunar L2 point in the Earth-Moon CR3BP whose dynamical evolution leads to a desired outcome such as lunar impact or weak capture.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Target State Explained | Term Definition
+  title: "Lunar Target State Explained | Term Definition"
   description: A pre-selected initial state (position and velocity) near the lunar L2 point in the Earth-Moon CR3BP whose dynamical evolution leads to a desired outcome such as lunar impact or weak capture.
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-target-state/

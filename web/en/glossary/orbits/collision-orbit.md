@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collision Orbit Explained | Term Definition
+  title: "Collision Orbit Explained | Term Definition"
   description: An orbit that terminates at or originates from the surface of a celestial body. In the restricted three-body problem, computation of collision orbits forms t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collision Orbit Explained | Term Definition
+  title: "Collision Orbit Explained | Term Definition"
   description: An orbit that terminates at or originates from the surface of a celestial body. In the restricted three-body problem, computation of collision orbits forms t...
   image: /logo.png
 permalink: /en/glossary/orbits/collision-orbit/

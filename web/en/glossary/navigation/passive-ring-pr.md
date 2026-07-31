@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Passive Ring, PR Explained | Term Definition
+  title: "Passive Ring, PR Explained | Term Definition"
   description: "A docking mechanism ring mounted on the target spacecraft (e.g., Gateway) that does not actively control attitude. The chaser vehicle's Active Ring must align with the Passive Ring to complete docking..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Passive Ring, PR Explained | Term Definition
+  title: "Passive Ring, PR Explained | Term Definition"
   description: "A docking mechanism ring mounted on the target spacecraft (e.g., Gateway) that does not actively control attitude. The chaser vehicle's Active Ring must align with the Passive Ring to complete docking..."
   image: /logo.png
 permalink: /en/glossary/navigation/passive-ring-pr/

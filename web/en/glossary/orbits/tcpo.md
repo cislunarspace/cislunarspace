@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Touring Cislunar Periodic Orbit, TCPO Explained | Term Definition
+  title: "Touring Cislunar Periodic Orbit, TCPO Explained | Term Definition"
   description: A class of periodic orbits traversing wide spatial expanses of the Earth-Moon system, capable of periodically visiting the Earth, Moon, and multiple Lagrange po
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Touring Cislunar Periodic Orbit, TCPO Explained | Term Definition
+  title: "Touring Cislunar Periodic Orbit, TCPO Explained | Term Definition"
   description: A class of periodic orbits traversing wide spatial expanses of the Earth-Moon system, capable of periodically visiting the Earth, Moon, and multiple Lagrange po
   image: /logo.png
 permalink: /en/glossary/orbits/tcpo/

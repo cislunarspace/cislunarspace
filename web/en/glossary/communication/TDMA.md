@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time Division Multiple Access Explained | Term Definition
+  title: "Time Division Multiple Access Explained | Term Definition"
   description: A multiple access protocol where multiple satellites transmit and receive signals in different time slots to share inter-satellite links.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time Division Multiple Access Explained | Term Definition
+  title: "Time Division Multiple Access Explained | Term Definition"
   description: A multiple access protocol where multiple satellites transmit and receive signals in different time slots to share inter-satellite links.
   image: /logo.png
 permalink: /en/glossary/communication/TDMA/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Reflection Resonant Orbit, RRO Explained | Term Definition
+  title: "Reflection Resonant Orbit, RRO Explained | Term Definition"
   description: A type of three-dimensional resonant orbit symmetric about the x-z plane, analogous to halo orbits in libration point orbits, generated from planar resonant...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reflection Resonant Orbit, RRO Explained | Term Definition
+  title: "Reflection Resonant Orbit, RRO Explained | Term Definition"
   description: A type of three-dimensional resonant orbit symmetric about the x-z plane, analogous to halo orbits in libration point orbits, generated from planar resonant...
   image: /logo.png
 permalink: /en/glossary/orbits/RRO/

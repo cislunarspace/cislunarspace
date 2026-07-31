@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quasi-Periodic Distant Retrograde Orbit, QPDRO Explained | Term Definition
+  title: "Quasi-Periodic Distant Retrograde Orbit, QPDRO Explained | Term Definition"
   description: A quasi-periodic orbit that envelopes the stable periodic distant retrograde orbit. On a surface of section, QPDROs appear as closed curves surrounding the SPDR
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-Periodic Distant Retrograde Orbit, QPDRO Explained | Term Definition
+  title: "Quasi-Periodic Distant Retrograde Orbit, QPDRO Explained | Term Definition"
   description: A quasi-periodic orbit that envelopes the stable periodic distant retrograde orbit. On a surface of section, QPDROs appear as closed curves surrounding the SPDR
   image: /logo.png
 permalink: /en/glossary/orbits/qpdro/

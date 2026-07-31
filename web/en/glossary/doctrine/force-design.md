@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Force Design | Space Force Planning
+  title: "Force Design | Space Force Planning"
   description: Force Design determines the future space force through forecasting, concept development, wargaming, and experimentation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Force Design | Space Force Planning
+  title: "Force Design | Space Force Planning"
   description: Force Design determines the future space force through forecasting, concept development, wargaming, and experimentation.
   image: /logo.png
 permalink: /en/glossary/doctrine/force-design/

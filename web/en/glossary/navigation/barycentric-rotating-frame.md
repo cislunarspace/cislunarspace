@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Rotating Frame Explained | Term Definition
+  title: "Barycentric Rotating Frame Explained | Term Definition"
   description: A reference frame centered at the Sun-Earth barycenter that co-rotates with the Sun-Earth line. The x-axis always points from Sun to Earth, z-axis along the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Rotating Frame Explained | Term Definition
+  title: "Barycentric Rotating Frame Explained | Term Definition"
   description: A reference frame centered at the Sun-Earth barycenter that co-rotates with the Sun-Earth line. The x-axis always points from Sun to Earth, z-axis along the...
   image: /logo.png
 permalink: /en/glossary/navigation/barycentric-rotating-frame/

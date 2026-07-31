@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Intermediate Equations Explained | Term Definition
+  title: "Intermediate Equations Explained | Term Definition"
   description: A simplified model between the bicircular problem and the real equations of motion, retaining only the time-independent terms and periodic terms with the synodic period of the Sun, used for computing
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Intermediate Equations Explained | Term Definition
+  title: "Intermediate Equations Explained | Term Definition"
   description: A simplified model between the bicircular problem and the real equations of motion, retaining only the time-independent terms and periodic terms with the synodic period of the Sun, used for computing
   image: /logo.png
 permalink: /en/glossary/dynamics/intermediate-equations/

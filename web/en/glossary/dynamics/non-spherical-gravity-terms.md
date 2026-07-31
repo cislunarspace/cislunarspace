@@ -1,6 +1,6 @@
 ---
 title: Non-Spherical Gravity Terms
-description: The part of a celestial body's gravitational field that deviates from spherical symmetry, described by higher-order terms in a spherical harmonic expansion. ...
+description: "The part of a celestial body's gravitational field that deviates from spherical symmetry, described by higher-order terms in a spherical harmonic expansion. ..."
 keywords: Non-Spherical Gravity Terms
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Spherical Gravity Terms Explained | Term Definition
-  description: The part of a celestial body's gravitational field that deviates from spherical symmetry, described by higher-order terms in a spherical harmonic expansion. ...
+  title: "Non-Spherical Gravity Terms Explained | Term Definition"
+  description: "The part of a celestial body's gravitational field that deviates from spherical symmetry, described by higher-order terms in a spherical harmonic expansion. ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Spherical Gravity Terms Explained | Term Definition
-  description: The part of a celestial body's gravitational field that deviates from spherical symmetry, described by higher-order terms in a spherical harmonic expansion. ...
+  title: "Non-Spherical Gravity Terms Explained | Term Definition"
+  description: "The part of a celestial body's gravitational field that deviates from spherical symmetry, described by higher-order terms in a spherical harmonic expansion. ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/non-spherical-gravity-terms/
 ---

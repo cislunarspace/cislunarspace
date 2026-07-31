@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Transit Gate Explained | Term Definition
+  title: "Transit Gate Explained | Term Definition"
   description: A gate that opens on the energy surface near Lagrange points, allowing spacecraft to transit between different regions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Transit Gate Explained | Term Definition
+  title: "Transit Gate Explained | Term Definition"
   description: A gate that opens on the energy surface near Lagrange points, allowing spacecraft to transit between different regions.
   image: /logo.png
 permalink: /en/glossary/dynamics/transit-gate/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Planar Bicircular Restricted Four-Body Model Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Model Explained | Term Definition"
   description: A planar four-body dynamic model where two primary bodies revolve on coplanar circular orbits about their barycenter, a third body perturbates the system period
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Planar Bicircular Restricted Four-Body Model Explained | Term Definition
+  title: "Planar Bicircular Restricted Four-Body Model Explained | Term Definition"
   description: A planar four-body dynamic model where two primary bodies revolve on coplanar circular orbits about their barycenter, a third body perturbates the system period
   image: /logo.png
 permalink: /en/glossary/dynamics/pbrfbm/

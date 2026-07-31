@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time-Optimal Control Explained | Term Definition
+  title: "Time-Optimal Control Explained | Term Definition"
   description: Trajectory optimization objective of minimizing flight time. For low-thrust cases, minimizing time and minimizing propellant use are consistent.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time-Optimal Control Explained | Term Definition
+  title: "Time-Optimal Control Explained | Term Definition"
   description: Trajectory optimization objective of minimizing flight time. For low-thrust cases, minimizing time and minimizing propellant use are consistent.
   image: /logo.png
 permalink: /en/glossary/dynamics/time-optimal-control/

@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Thermodynamic Model | Airship Thermal Analysis
+  title: "Thermodynamic Model | Airship Thermal Analysis"
   description: A detailed analysis of thermodynamic model establishment methods for stratospheric airships, comparison of two-node and seven-node models, and thermo-mechanical coupling analysis
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thermodynamic Model | Airship Thermal Analysis
+  title: "Thermodynamic Model | Airship Thermal Analysis"
   description: A detailed analysis of thermodynamic model establishment methods for stratospheric airships, comparison of two-node and seven-node models, and thermo-mechanical coupling analysis
   image: /logo.png
 permalink: /en/glossary/dynamics/thermodynamic-model/

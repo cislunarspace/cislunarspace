@@ -1,6 +1,6 @@
 ---
 title: Orbit Phase
-description: A parameter ranging from 0 to 1 that describes a spacecraft's position along a periodic orbit, where 0 and 1 correspond to the same state. Given the Jacobi...
+description: "A parameter ranging from 0 to 1 that describes a spacecraft's position along a periodic orbit, where 0 and 1 correspond to the same state. Given the Jacobi..."
 keywords: Orbit Phase, tau
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Phase Explained | Term Definition
-  description: A parameter ranging from 0 to 1 that describes a spacecraft's position along a periodic orbit, where 0 and 1 correspond to the same state. Given the Jacobi...
+  title: "Orbit Phase Explained | Term Definition"
+  description: "A parameter ranging from 0 to 1 that describes a spacecraft's position along a periodic orbit, where 0 and 1 correspond to the same state. Given the Jacobi..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Phase Explained | Term Definition
-  description: A parameter ranging from 0 to 1 that describes a spacecraft's position along a periodic orbit, where 0 and 1 correspond to the same state. Given the Jacobi...
+  title: "Orbit Phase Explained | Term Definition"
+  description: "A parameter ranging from 0 to 1 that describes a spacecraft's position along a periodic orbit, where 0 and 1 correspond to the same state. Given the Jacobi..."
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-phase/
 ---

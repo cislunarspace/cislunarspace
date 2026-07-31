@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Ballistic Coefficient | Terminology Definition
+  title: "Ballistic Coefficient | Terminology Definition"
   description: A detailed analysis of the ballistic coefficient definition and physical significance
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ballistic Coefficient | Terminology Definition
+  title: "Ballistic Coefficient | Terminology Definition"
   description: A detailed analysis of the ballistic coefficient definition and physical significance
   image: /logo.png
 permalink: /en/glossary/fundamentals/ballistic-coefficient/

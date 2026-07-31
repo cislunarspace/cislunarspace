@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Sub-Satellite Track Explained | Term Definition
+  title: "Lunar Sub-Satellite Track Explained | Term Definition"
   description: The track formed by the vertical projection of a spacecraft or celestial body onto the lunar surface as it moves over time. In this paper, the lunar sub-sate...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Sub-Satellite Track Explained | Term Definition
+  title: "Lunar Sub-Satellite Track Explained | Term Definition"
   description: The track formed by the vertical projection of a spacecraft or celestial body onto the lunar surface as it moves over time. In this paper, the lunar sub-sate...
   image: /logo.png
 permalink: /en/glossary/fundamentals/lunar-sub-satellite-track/

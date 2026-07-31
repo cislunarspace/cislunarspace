@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Target Point, TP (TP) Explained | Term Definition
+  title: "Target Point, TP (TP) Explained | Term Definition"
   description: Designated positions along the reference orbit at future times in TPA, used to construct the cost function and compute position deviations.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Target Point, TP (TP) Explained | Term Definition
+  title: "Target Point, TP (TP) Explained | Term Definition"
   description: Designated positions along the reference orbit at future times in TPA, used to construct the cost function and compute position deviations.
   image: /logo.png
 permalink: /en/glossary/dynamics/target-point-tp/

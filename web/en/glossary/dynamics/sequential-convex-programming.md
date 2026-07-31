@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sequential Convex Programming Explained | Term Definition
+  title: "Sequential Convex Programming Explained | Term Definition"
   description: An iterative approach for solving non-convex optimal control problems through convexification.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sequential Convex Programming Explained | Term Definition
+  title: "Sequential Convex Programming Explained | Term Definition"
   description: An iterative approach for solving non-convex optimal control problems through convexification.
   image: /logo.png
 permalink: /en/glossary/dynamics/sequential-convex-programming/

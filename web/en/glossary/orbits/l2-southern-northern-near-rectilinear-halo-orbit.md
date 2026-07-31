@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L2 Southern/Northern Near-Rectilinear Halo Orbit Explained | Term Definition
+  title: "L2 Southern/Northern Near-Rectilinear Halo Orbit Explained | Term Definition"
   description: Near-rectilinear halo orbits near the Earth-Moon L2 point, split into southern (L2SH) and northern (L2NH) symmetric families. These are the preferred orbit t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L2 Southern/Northern Near-Rectilinear Halo Orbit Explained | Term Definition
+  title: "L2 Southern/Northern Near-Rectilinear Halo Orbit Explained | Term Definition"
   description: Near-rectilinear halo orbits near the Earth-Moon L2 point, split into southern (L2SH) and northern (L2NH) symmetric families. These are the preferred orbit t...
   image: /logo.png
 permalink: /en/glossary/orbits/l2-southern-northern-near-rectilinear-halo-orbit/

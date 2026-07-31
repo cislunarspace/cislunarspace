@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Kordylewski Clouds Explained | Term Definition
+  title: "Kordylewski Clouds Explained | Term Definition"
   description: Faint cloud-like satellites reported by Kordylewski near L5 in 1961; subsequent ground-based observations failed to confirm them.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Kordylewski Clouds Explained | Term Definition
+  title: "Kordylewski Clouds Explained | Term Definition"
   description: Faint cloud-like satellites reported by Kordylewski near L5 in 1961; subsequent ground-based observations failed to confirm them.
   image: /logo.png
 permalink: /en/glossary/observation/kordylewski-clouds/

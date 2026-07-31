@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Primer vector equation Explained | Term Definition
+  title: "Primer vector equation Explained | Term Definition"
   description: A second-order linear ODE p̈ = G(r) p governing the evolution of the primer vector along a trajectory, where G(r) is the gravity gradient matrix. Its transition matrix is identical to the state variat
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Primer vector equation Explained | Term Definition
+  title: "Primer vector equation Explained | Term Definition"
   description: A second-order linear ODE p̈ = G(r) p governing the evolution of the primer vector along a trajectory, where G(r) is the gravity gradient matrix. Its transition matrix is identical to the state variat
   image: /logo.png
 permalink: /en/glossary/fundamentals/primer-vector-equation/

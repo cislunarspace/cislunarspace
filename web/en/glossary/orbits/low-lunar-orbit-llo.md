@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low Lunar Orbit, LLO Explained | Term Definition
+  title: "Low Lunar Orbit, LLO Explained | Term Definition"
   description: Lunar orbits at altitudes of approximately 100 to 2000 km above the lunar surface, the most convenient parking orbits for lunar descent and safe touchdown.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low Lunar Orbit, LLO Explained | Term Definition
+  title: "Low Lunar Orbit, LLO Explained | Term Definition"
   description: Lunar orbits at altitudes of approximately 100 to 2000 km above the lunar surface, the most convenient parking orbits for lunar descent and safe touchdown.
   image: /logo.png
 permalink: /en/glossary/orbits/low-lunar-orbit-llo/

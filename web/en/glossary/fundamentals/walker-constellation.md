@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Walker Constellation | Terminology Definition
+  title: "Walker Constellation | Terminology Definition"
   description: Detailed analysis of Walker Constellation configuration classification and parameter descriptions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Walker Constellation | Terminology Definition
+  title: "Walker Constellation | Terminology Definition"
   description: Detailed analysis of Walker Constellation configuration classification and parameter descriptions
   image: /logo.png
 permalink: /en/glossary/fundamentals/walker-constellation/

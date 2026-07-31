@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Amplitude Explained | Term Definition
+  title: "Halo Orbit Amplitude Explained | Term Definition"
   description: Out-of-plane amplitude Az of a halo orbit, determining its size and lunar far-side communication exclusion angle.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Amplitude Explained | Term Definition
+  title: "Halo Orbit Amplitude Explained | Term Definition"
   description: Out-of-plane amplitude Az of a halo orbit, determining its size and lunar far-side communication exclusion angle.
   image: /logo.png
 permalink: /en/glossary/orbits/halo-orbit-amplitude/

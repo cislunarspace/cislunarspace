@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tadpole Orbit Explained | Term Definition
+  title: "Tadpole Orbit Explained | Term Definition"
   description: 在限制性三体问题中，在三角平动点L4或L5附近小幅振荡的粒子轨道，因形似蝌蚪而得名。其幅角范围有限，通常不超过L3点。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tadpole Orbit Explained | Term Definition
+  title: "Tadpole Orbit Explained | Term Definition"
   description: 在限制性三体问题中，在三角平动点L4或L5附近小幅振荡的粒子轨道，因形似蝌蚪而得名。其幅角范围有限，通常不超过L3点。
   image: /logo.png
 permalink: /en/glossary/orbits/tadpole-orbit/

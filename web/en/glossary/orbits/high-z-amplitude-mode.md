@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High z-Amplitude Mode Explained | Term Definition
+  title: "High z-Amplitude Mode Explained | Term Definition"
   description: A phase during quasi-periodic orbital motion when the z-amplitude reaches its peak, characterized by strong out-of-plane motion. On a Poincaré map, large quasi-Halo orbit crossings correspond to both...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High z-Amplitude Mode Explained | Term Definition
+  title: "High z-Amplitude Mode Explained | Term Definition"
   description: A phase during quasi-periodic orbital motion when the z-amplitude reaches its peak, characterized by strong out-of-plane motion. On a Poincaré map, large quasi-Halo orbit crossings correspond to both...
   image: /logo.png
 permalink: /en/glossary/orbits/high-z-amplitude-mode/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multicollinearity Explained | Term Definition
+  title: "Multicollinearity Explained | Term Definition"
   description: A near-linear dependence among column vectors of the extended coefficient matrix H. In SST orbit determination, the RAAN partial derivative columns for two same-type orbit satellites are nearly opp...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multicollinearity Explained | Term Definition
+  title: "Multicollinearity Explained | Term Definition"
   description: A near-linear dependence among column vectors of the extended coefficient matrix H. In SST orbit determination, the RAAN partial derivative columns for two same-type orbit satellites are nearly opp...
   image: /logo.png
 permalink: /en/glossary/dynamics/multicollinearity/

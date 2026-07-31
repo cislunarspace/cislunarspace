@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Closest Approach Altitude Explained | Term Definition
+  title: "Closest Approach Altitude Explained | Term Definition"
   description: The minimum altitude above Earth when backward-propagating the transfer trajectory. Used as a design constraint to ensure accurate velocity impulse calculati...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Closest Approach Altitude Explained | Term Definition
+  title: "Closest Approach Altitude Explained | Term Definition"
   description: The minimum altitude above Earth when backward-propagating the transfer trajectory. Used as a design constraint to ensure accurate velocity impulse calculati...
   image: /logo.png
 permalink: /en/glossary/orbits/closest-approach-altitude/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: GEO Deorbiting Explained | Term Definition
+  title: "GEO Deorbiting Explained | Term Definition"
   description: The technique of driving end-of-life geostationary orbit (GEO) satellites into permanent lunar-region storage, alleviating GEO orbital debris pressure. Lunar space has greater capacity than traditiona
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: GEO Deorbiting Explained | Term Definition
+  title: "GEO Deorbiting Explained | Term Definition"
   description: The technique of driving end-of-life geostationary orbit (GEO) satellites into permanent lunar-region storage, alleviating GEO orbital debris pressure. Lunar space has greater capacity than traditiona
   image: /logo.png
 permalink: /en/glossary/other/geo-deorbiting/

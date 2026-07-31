@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cislunar Highway Patrol System, CHPS Explained | Term Definition
+  title: "Cislunar Highway Patrol System, CHPS Explained | Term Definition"
   description: A US-planned space-based cislunar surveillance satellite system for persistent monitoring and tracking of objects in cislunar space. It is a key component of the US effort to develop space-based cislunar situational awareness capabilities.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Highway Patrol System, CHPS Explained | Term Definition
+  title: "Cislunar Highway Patrol System, CHPS Explained | Term Definition"
   description: A US-planned space-based cislunar surveillance satellite system for persistent monitoring and tracking of objects in cislunar space. It is a key component of the US effort to develop space-based cislunar situational awareness capabilities.
   image: /logo.png
 permalink: /en/glossary/programs/cislunar-highway-patrol-system-chps/

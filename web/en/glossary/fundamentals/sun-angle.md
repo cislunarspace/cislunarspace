@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sun Angle Explained | Term Definition
+  title: "Sun Angle Explained | Term Definition"
   description: Initial phase angle of the Sun in the Earth-Moon rotating coordinate system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sun Angle Explained | Term Definition
+  title: "Sun Angle Explained | Term Definition"
   description: Initial phase angle of the Sun in the Earth-Moon rotating coordinate system.
   image: /logo.png
 permalink: /en/glossary/fundamentals/sun-angle/

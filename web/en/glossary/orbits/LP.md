@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Limited Power Trajectory Explained | Term Definition
+  title: "Limited Power Trajectory Explained | Term Definition"
   description: Trajectory optimization problem with limited power, assuming continuously adjustable thrust and constant spacecraft mass, used to provide initial guess for...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Limited Power Trajectory Explained | Term Definition
+  title: "Limited Power Trajectory Explained | Term Definition"
   description: Trajectory optimization problem with limited power, assuming continuously adjustable thrust and constant spacecraft mass, used to provide initial guess for...
   image: /logo.png
 permalink: /en/glossary/orbits/LP/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: In-plane Thrust Angle Explained | Term Definition
+  title: "In-plane Thrust Angle Explained | Term Definition"
   description: Angle of thrust direction within the orbital plane measured from the radial direction.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-plane Thrust Angle Explained | Term Definition
+  title: "In-plane Thrust Angle Explained | Term Definition"
   description: Angle of thrust direction within the orbital plane measured from the radial direction.
   image: /logo.png
 permalink: /en/glossary/dynamics/in-plane-thrust-angle/

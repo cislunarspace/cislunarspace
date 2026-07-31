@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Proximity Explained | Term Definition
+  title: "Lunar Proximity Explained | Term Definition"
   description: The condition where a spacecraft performs a manifold insertion maneuver in close proximity to the Moon, resulting in minimum insertion cost and enabling low-energy transfers..
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Proximity Explained | Term Definition
+  title: "Lunar Proximity Explained | Term Definition"
   description: The condition where a spacecraft performs a manifold insertion maneuver in close proximity to the Moon, resulting in minimum insertion cost and enabling low-energy transfers..
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-proximity/

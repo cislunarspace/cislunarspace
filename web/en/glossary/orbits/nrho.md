@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Near-Rectilinear Halo Orbit (NRHO) Details | Candidate Orbit for Cislunar Space Station
+  title: "Near-Rectilinear Halo Orbit (NRHO) Details | Candidate Orbit for Cislunar Space Station"
   description: Detailed analysis of the definition, relationship with Halo orbits, resonance characteristics, stability analysis, and applications in cislunar space missions of the Near-Rectilinear Halo Orbit (NRHO)
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-Rectilinear Halo Orbit (NRHO) Details | Candidate Orbit for Cislunar Space Station
+  title: "Near-Rectilinear Halo Orbit (NRHO) Details | Candidate Orbit for Cislunar Space Station"
   description: Detailed analysis of the definition, relationship with Halo orbits, resonance characteristics, stability analysis, and applications in cislunar space missions of the Near-Rectilinear Halo Orbit (NRHO)
   image: /logo.png
 permalink: /en/glossary/orbits/nrho/

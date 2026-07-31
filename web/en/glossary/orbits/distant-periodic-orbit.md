@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Distant Periodic Orbit Explained | Term Definition
+  title: "Distant Periodic Orbit Explained | Term Definition"
   description: Periodic orbits far from the Moon, belonging to the Hénon g-family, exhibiting rich phase-space structures in the Earth-Moon RTBP and usable for low-energy E...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Distant Periodic Orbit Explained | Term Definition
+  title: "Distant Periodic Orbit Explained | Term Definition"
   description: Periodic orbits far from the Moon, belonging to the Hénon g-family, exhibiting rich phase-space structures in the Earth-Moon RTBP and usable for low-energy E...
   image: /logo.png
 permalink: /en/glossary/orbits/distant-periodic-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Birkhoff Normal Form Explained | Term Definition
+  title: "Birkhoff Normal Form Explained | Term Definition"
   description: Normal form expansion of a Hamiltonian system near an equilibrium point or periodic orbit. Through successive reduction in the nearly integrable subspace, it ca
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Birkhoff Normal Form Explained | Term Definition
+  title: "Birkhoff Normal Form Explained | Term Definition"
   description: Normal form expansion of a Hamiltonian system near an equilibrium point or periodic orbit. Through successive reduction in the nearly integrable subspace, it ca
   image: /logo.png
 permalink: /en/glossary/dynamics/birkhoff-normal-form/

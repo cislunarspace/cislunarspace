@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Grid Scan on Poincaré Section Explained | Term Definition
+  title: "Grid Scan on Poincaré Section Explained | Term Definition"
   description: A systematic method that discretizes feasible initial conditions on a Poincaré section into a dense grid, integrates each point forward, and classifies the resu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Grid Scan on Poincaré Section Explained | Term Definition
+  title: "Grid Scan on Poincaré Section Explained | Term Definition"
   description: A systematic method that discretizes feasible initial conditions on a Poincaré section into a dense grid, integrates each point forward, and classifies the resu
   image: /logo.png
 permalink: /en/glossary/dynamics/grid-scan-on-poincar-section/

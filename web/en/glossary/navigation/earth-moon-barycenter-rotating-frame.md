@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon Barycenter Rotating Frame Explained | Term Definition
+  title: "Earth-Moon Barycenter Rotating Frame Explained | Term Definition"
   description: A reference frame centered at the Earth-Moon barycenter, co-rotating with the Earth-Moon line. The x-axis points from Earth to Moon, the z-axis aligns with t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Barycenter Rotating Frame Explained | Term Definition
+  title: "Earth-Moon Barycenter Rotating Frame Explained | Term Definition"
   description: A reference frame centered at the Earth-Moon barycenter, co-rotating with the Earth-Moon line. The x-axis points from Earth to Moon, the z-axis aligns with t...
   image: /logo.png
 permalink: /en/glossary/navigation/earth-moon-barycenter-rotating-frame/

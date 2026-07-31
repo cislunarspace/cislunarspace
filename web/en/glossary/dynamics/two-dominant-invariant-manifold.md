@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Two-Dominant Invariant Manifold Method Explained | Libration Point Periodic Orbit Design
+  title: "Two-Dominant Invariant Manifold Method Explained | Libration Point Periodic Orbit Design"
   description: A detailed analysis of the two-dominant invariant manifold method, its principles, and applications in libration point periodic orbit design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Dominant Invariant Manifold Method Explained | Libration Point Periodic Orbit Design
+  title: "Two-Dominant Invariant Manifold Method Explained | Libration Point Periodic Orbit Design"
   description: A detailed analysis of the two-dominant invariant manifold method, its principles, and applications in libration point periodic orbit design
   image: /logo.png
 permalink: /en/glossary/dynamics/two-dominant-invariant-manifold/

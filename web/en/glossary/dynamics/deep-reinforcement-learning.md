@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Deep Reinforcement Learning | Intelligent Control
+  title: "Deep Reinforcement Learning | Intelligent Control"
   description: A detailed analysis of deep reinforcement learning principles, mainstream algorithms, and applications in stratospheric airship regional station-keeping control
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Deep Reinforcement Learning | Intelligent Control
+  title: "Deep Reinforcement Learning | Intelligent Control"
   description: A detailed analysis of deep reinforcement learning principles, mainstream algorithms, and applications in stratospheric airship regional station-keeping control
   image: /logo.png
 permalink: /en/glossary/dynamics/deep-reinforcement-learning/

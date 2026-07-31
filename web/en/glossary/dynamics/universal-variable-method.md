@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Universal Variable Method Explained | Term Definition
+  title: "Universal Variable Method Explained | Term Definition"
   description: "A numerical method for solving Lambert's problem that introduces universal variables to establish a unified time equation (without distinguishing between elliptic, parabolic, and hyperbolic orbit type."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Universal Variable Method Explained | Term Definition
+  title: "Universal Variable Method Explained | Term Definition"
   description: "A numerical method for solving Lambert's problem that introduces universal variables to establish a unified time equation (without distinguishing between elliptic, parabolic, and hyperbolic orbit type."
   image: /logo.png
 permalink: /en/glossary/dynamics/universal-variable-method/

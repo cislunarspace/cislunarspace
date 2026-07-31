@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Reduced-Order Dynamic Equations Explained | Libration Point Orbit Design
+  title: "Reduced-Order Dynamic Equations Explained | Libration Point Orbit Design"
   description: A detailed analysis of reduced-order dynamic equations, their application in the two-dominant invariant manifold method, and integration with the Lindstedt-Poincare perturbation method
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Reduced-Order Dynamic Equations Explained | Libration Point Orbit Design
+  title: "Reduced-Order Dynamic Equations Explained | Libration Point Orbit Design"
   description: A detailed analysis of reduced-order dynamic equations, their application in the two-dominant invariant manifold method, and integration with the Lindstedt-Poincare perturbation method
   image: /logo.png
 permalink: /en/glossary/dynamics/reduced-order-dynamics/

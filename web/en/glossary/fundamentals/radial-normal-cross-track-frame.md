@@ -1,6 +1,6 @@
 ---
 title: Radial-Normal-Cross-Track Frame
-description: A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital an...
+description: "A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital an..."
 keywords: Radial-Normal-Cross-Track Frame, spacecraft dynamics, orbital mechanics, coordinate system
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Radial-Normal-Cross-Track Frame Explained | Term Definition
-  description: A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital an...
+  title: "Radial-Normal-Cross-Track Frame Explained | Term Definition"
+  description: "A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital an..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Radial-Normal-Cross-Track Frame Explained | Term Definition
-  description: A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital an...
+  title: "Radial-Normal-Cross-Track Frame Explained | Term Definition"
+  description: "A local orbital coordinate frame centered at the apogee. The radial axis points from Earth's center to the apogee, the normal axis aligns with the orbital an..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/radial-normal-cross-track-frame/
 ---

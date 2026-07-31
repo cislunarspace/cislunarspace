@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamic Demand Explained | Term Definition
+  title: "Dynamic Demand Explained | Term Definition"
   description: Time-varying observation demand, typified by monitoring tasks when low-energy transfer orbits pass through specific regions during certain time windows.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamic Demand Explained | Term Definition
+  title: "Dynamic Demand Explained | Term Definition"
   description: Time-varying observation demand, typified by monitoring tasks when low-energy transfer orbits pass through specific regions during certain time windows.
   image: /logo.png
 permalink: /en/glossary/observation/dynamic-demand/

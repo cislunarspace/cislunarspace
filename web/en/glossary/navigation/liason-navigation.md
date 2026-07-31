@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: LiAISON Navigation Details | Cislunar Navigation
+  title: "LiAISON Navigation Details | Cislunar Navigation"
   description: Linked Autonomous Interplanetary Satellite Orbit Navigation using only inter-satellite measurements for absolute orbit determination at libration points.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LiAISON Navigation Details | Cislunar Navigation
+  title: "LiAISON Navigation Details | Cislunar Navigation"
   description: Linked Autonomous Interplanetary Satellite Orbit Navigation using only inter-satellite measurements for absolute orbit determination at libration points.
   image: /logo.png
 permalink: /en/glossary/navigation/liason-navigation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single-Step Method Explained | Term Definition
+  title: "Single-Step Method Explained | Term Definition"
   description: A numerical integration method that computes the next state using only the current state information, such as the Runge-Kutta and trapezoidal methods. Unlike mu
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single-Step Method Explained | Term Definition
+  title: "Single-Step Method Explained | Term Definition"
   description: A numerical integration method that computes the next state using only the current state information, such as the Runge-Kutta and trapezoidal methods. Unlike mu
   image: /logo.png
 permalink: /en/glossary/dynamics/single-step-method/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: central elliptical arc Explained | Term Definition
+  title: "central elliptical arc Explained | Term Definition"
   description: The flight arc on the central ellipse inside the pseudostate sphere within the approach phase of an Earth-Moon free-return trajectory. Its velocity is obtained 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: central elliptical arc Explained | Term Definition
+  title: "central elliptical arc Explained | Term Definition"
   description: The flight arc on the central ellipse inside the pseudostate sphere within the approach phase of an Earth-Moon free-return trajectory. Its velocity is obtained 
   image: /logo.png
 permalink: /en/glossary/orbits/central-elliptical-arc/

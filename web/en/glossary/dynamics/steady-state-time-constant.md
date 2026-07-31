@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Steady-State Time Constant Explained | Term Definition
+  title: "Steady-State Time Constant Explained | Term Definition"
   description: In steady-state Kalman filtering, the ratio coefficient between covariance matrix elements and sampling time, used to simplify model-noise parameter q...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Steady-State Time Constant Explained | Term Definition
+  title: "Steady-State Time Constant Explained | Term Definition"
   description: In steady-state Kalman filtering, the ratio coefficient between covariance matrix elements and sampling time, used to simplify model-noise parameter q...
   image: /logo.png
 permalink: /en/glossary/dynamics/steady-state-time-constant/

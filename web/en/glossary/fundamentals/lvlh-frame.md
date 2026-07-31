@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LVLH frame Explained | Term Definition
+  title: "LVLH frame Explained | Term Definition"
   description: A local position frame centered on the chief spacecraft, with x-axis along the position vector of chief spacecraft, z-axis along orbit normal, and y-axis com...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LVLH frame Explained | Term Definition
+  title: "LVLH frame Explained | Term Definition"
   description: A local position frame centered on the chief spacecraft, with x-axis along the position vector of chief spacecraft, z-axis along orbit normal, and y-axis com...
   image: /logo.png
 permalink: /en/glossary/fundamentals/lvlh-frame/

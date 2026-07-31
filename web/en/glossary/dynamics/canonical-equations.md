@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Canonical Equations Explained | Term Definition
+  title: "Canonical Equations Explained | Term Definition"
   description: Standard first-order differential equations describing system evolution in Hamiltonian mechanics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Canonical Equations Explained | Term Definition
+  title: "Canonical Equations Explained | Term Definition"
   description: Standard first-order differential equations describing system evolution in Hamiltonian mechanics.
   image: /logo.png
 permalink: /en/glossary/dynamics/canonical-equations/

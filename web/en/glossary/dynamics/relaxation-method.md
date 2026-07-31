@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Relaxation Method Explained | Term Definition
+  title: "Relaxation Method Explained | Term Definition"
   description: A strategy within direct methods that relaxes nonconvex dynamics or operational constraints into convex ones, transforming the original problem into a tractable
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Relaxation Method Explained | Term Definition
+  title: "Relaxation Method Explained | Term Definition"
   description: A strategy within direct methods that relaxes nonconvex dynamics or operational constraints into convex ones, transforming the original problem into a tractable
   image: /logo.png
 permalink: /en/glossary/dynamics/relaxation-method/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Extended Perilune Rendezvous Method, EPRM Explained | Term Definition
+  title: "Extended Perilune Rendezvous Method, EPRM Explained | Term Definition"
   description: A transfer method intermediate between IDT and WSB. After TLI and PLSB, the spacecraft enters an elliptical lunar orbit with a large semi-major axis and perform
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Extended Perilune Rendezvous Method, EPRM Explained | Term Definition
+  title: "Extended Perilune Rendezvous Method, EPRM Explained | Term Definition"
   description: A transfer method intermediate between IDT and WSB. After TLI and PLSB, the spacecraft enters an elliptical lunar orbit with a large semi-major axis and perform
   image: /logo.png
 permalink: /en/glossary/orbits/eprm/

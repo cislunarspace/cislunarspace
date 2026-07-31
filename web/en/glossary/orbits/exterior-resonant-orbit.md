@@ -1,6 +1,6 @@
 ---
 title: Exterior Resonant Orbit
-description: A resonant orbit where the spacecraft period is greater than the primary body's period (p>q in period ratio p:q).
+description: "A resonant orbit where the spacecraft period is greater than the primary body's period (p>q in period ratio p:q)."
 keywords: Exterior Resonant Orbit, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Exterior Resonant Orbit Explained | Term Definition
-  description: A resonant orbit where the spacecraft period is greater than the primary body's period (p>q in period ratio p:q).
+  title: "Exterior Resonant Orbit Explained | Term Definition"
+  description: "A resonant orbit where the spacecraft period is greater than the primary body's period (p>q in period ratio p:q)."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Exterior Resonant Orbit Explained | Term Definition
-  description: A resonant orbit where the spacecraft period is greater than the primary body's period (p>q in period ratio p:q).
+  title: "Exterior Resonant Orbit Explained | Term Definition"
+  description: "A resonant orbit where the spacecraft period is greater than the primary body's period (p>q in period ratio p:q)."
   image: /logo.png
 permalink: /en/glossary/orbits/exterior-resonant-orbit/
 ---

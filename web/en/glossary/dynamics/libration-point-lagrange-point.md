@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Libration Point / Lagrange Point Explained | Term Definition
+  title: "Libration Point / Lagrange Point Explained | Term Definition"
   description: Equilibrium points in the rotating frame where the third body remains fixed relative to the primaries. The restricted three-body problem has five libration poin
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Libration Point / Lagrange Point Explained | Term Definition
+  title: "Libration Point / Lagrange Point Explained | Term Definition"
   description: Equilibrium points in the rotating frame where the third body remains fixed relative to the primaries. The restricted three-body problem has five libration poin
   image: /logo.png
 permalink: /en/glossary/dynamics/libration-point-lagrange-point/

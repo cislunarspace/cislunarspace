@@ -1,6 +1,6 @@
 ---
 title: Double Pseudo-Range Method
-description: An initial orbit determination method. Given assumed pseudo-ranges at the first and last observation epochs, the target's position vectors are determined from angular data. A transfer arc (Lambert ...
+description: "An initial orbit determination method. Given assumed pseudo-ranges at the first and last observation epochs, the target's position vectors are determined from angular data. A transfer arc (Lambert ..."
 keywords: Double Pseudo-Range Method, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Double Pseudo-Range Method Explained | Term Definition
-  description: An initial orbit determination method. Given assumed pseudo-ranges at the first and last observation epochs, the target's position vectors are determined from angular data. A transfer arc (Lambert ...
+  title: "Double Pseudo-Range Method Explained | Term Definition"
+  description: "An initial orbit determination method. Given assumed pseudo-ranges at the first and last observation epochs, the target's position vectors are determined from angular data. A transfer arc (Lambert ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Double Pseudo-Range Method Explained | Term Definition
-  description: An initial orbit determination method. Given assumed pseudo-ranges at the first and last observation epochs, the target's position vectors are determined from angular data. A transfer arc (Lambert ...
+  title: "Double Pseudo-Range Method Explained | Term Definition"
+  description: "An initial orbit determination method. Given assumed pseudo-ranges at the first and last observation epochs, the target's position vectors are determined from angular data. A transfer arc (Lambert ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/double-pseudo-range-method/
 ---

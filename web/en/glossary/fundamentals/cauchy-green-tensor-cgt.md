@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cauchy-Green Tensor, CGT Explained | Term Definition
+  title: "Cauchy-Green Tensor, CGT Explained | Term Definition"
   description: A symmetric positive-definite matrix constructed from the state transition matrix as C = Φ^T Φ. It describes the stretching and compression characteristics of the linear dynamical flow near a referenc...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cauchy-Green Tensor, CGT Explained | Term Definition
+  title: "Cauchy-Green Tensor, CGT Explained | Term Definition"
   description: A symmetric positive-definite matrix constructed from the state transition matrix as C = Φ^T Φ. It describes the stretching and compression characteristics of the linear dynamical flow near a referenc...
   image: /logo.png
 permalink: /en/glossary/fundamentals/cauchy-green-tensor-cgt/

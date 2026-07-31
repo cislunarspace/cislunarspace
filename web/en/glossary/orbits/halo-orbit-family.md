@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Family Explained | Term Definition
+  title: "Halo Orbit Family Explained | Term Definition"
   description: A set of periodic orbits near collinear libration points; NRHOs constitute the first interval of linear stability along the halo families.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Family Explained | Term Definition
+  title: "Halo Orbit Family Explained | Term Definition"
   description: A set of periodic orbits near collinear libration points; NRHOs constitute the first interval of linear stability along the halo families.
   image: /logo.png
 permalink: /en/glossary/orbits/halo-orbit-family/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sensitivity Matrix Method Explained | Term Definition
+  title: "Sensitivity Matrix Method Explained | Term Definition"
   description: A method that uses first-order or higher-order sensitivity matrices to calculate the solution distribution of uncertain Lambert problems; the first-order method has limited accuracy while higher-or...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sensitivity Matrix Method Explained | Term Definition
+  title: "Sensitivity Matrix Method Explained | Term Definition"
   description: A method that uses first-order or higher-order sensitivity matrices to calculate the solution distribution of uncertain Lambert problems; the first-order method has limited accuracy while higher-or...
   image: /logo.png
 permalink: /en/glossary/dynamics/sensitivity-matrix-method/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near-Circular Halo Orbit Explained | Term Definition
+  title: "Near-Circular Halo Orbit Explained | Term Definition"
   description: "An alternative name for near-rectilinear halo orbit. With eccentricity near 1, the motion near apolune is approximately circular, hence the name. Emphasizes the"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near-Circular Halo Orbit Explained | Term Definition
+  title: "Near-Circular Halo Orbit Explained | Term Definition"
   description: "An alternative name for near-rectilinear halo orbit. With eccentricity near 1, the motion near apolune is approximately circular, hence the name. Emphasizes the"
   image: /logo.png
 permalink: /en/glossary/orbits/near-circular-halo-orbit/

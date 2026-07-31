@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: principal stretching direction Explained | Term Definition
+  title: "principal stretching direction Explained | Term Definition"
   description: The eigenvector corresponding to the largest singular value of the Cauchy-Green tensor. Impulses applied along this direction produce the maximum change in...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: principal stretching direction Explained | Term Definition
+  title: "principal stretching direction Explained | Term Definition"
   description: The eigenvector corresponding to the largest singular value of the Cauchy-Green tensor. Impulses applied along this direction produce the maximum change in...
   image: /logo.png
 permalink: /en/glossary/dynamics/principal-stretching-direction/

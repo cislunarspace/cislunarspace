@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Horizontal Lyapunov Orbit, HLO Explained | Term Definition
+  title: "Horizontal Lyapunov Orbit, HLO Explained | Term Definition"
   description: A family of unstable periodic orbits centered at L1 or L2 in the PCRTBP, which can be continued toward the second primary.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Horizontal Lyapunov Orbit, HLO Explained | Term Definition
+  title: "Horizontal Lyapunov Orbit, HLO Explained | Term Definition"
   description: A family of unstable periodic orbits centered at L1 or L2 in the PCRTBP, which can be continued toward the second primary.
   image: /logo.png
 permalink: /en/glossary/orbits/HLO/

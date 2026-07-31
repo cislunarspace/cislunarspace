@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multi-objective Optimization Algorithm Explained | Term Definition
+  title: "Multi-objective Optimization Algorithm Explained | Term Definition"
   description: Algorithms used in cislunar constellation design that simultaneously optimize multiple performance metrics, generating a Pareto front solution set that excels across various metrics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-objective Optimization Algorithm Explained | Term Definition
+  title: "Multi-objective Optimization Algorithm Explained | Term Definition"
   description: Algorithms used in cislunar constellation design that simultaneously optimize multiple performance metrics, generating a Pareto front solution set that excels across various metrics.
   image: /logo.png
 permalink: /en/glossary/dynamics/multi-objective-optimization-algorithm/

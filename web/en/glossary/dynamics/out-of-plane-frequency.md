@@ -1,6 +1,6 @@
 ---
 title: Out-of-Plane Frequency
-description: The angular frequency of oscillation perpendicular to the primaries' orbital plane (z-direction) for orbits near a libration point, denoted ν. When ω ≠ ν the orbit is a quasi-periodic Lissajous orbit; when ω = ν it becomes a periodic Halo orbit.
+description: "The angular frequency of oscillation perpendicular to the primaries' orbital plane (z-direction) for orbits near a libration point, denoted ν. When ω ≠ ν the orbit is a quasi-periodic Lissajous orbit; when ω = ν it becomes a periodic Halo orbit."
 keywords: Out-of-Plane Frequency, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Out-of-Plane Frequency Explained | Term Definition
-  description: The angular frequency of oscillation perpendicular to the primaries' orbital plane (z-direction) for orbits near a libration point, denoted ν. When ω ≠ ν the orbit is a quasi-periodic Lissajous orbit; when ω = ν it becomes a periodic Halo orbit.
+  title: "Out-of-Plane Frequency Explained | Term Definition"
+  description: "The angular frequency of oscillation perpendicular to the primaries' orbital plane (z-direction) for orbits near a libration point, denoted ν. When ω ≠ ν the orbit is a quasi-periodic Lissajous orbit; when ω = ν it becomes a periodic Halo orbit."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Out-of-Plane Frequency Explained | Term Definition
-  description: The angular frequency of oscillation perpendicular to the primaries' orbital plane (z-direction) for orbits near a libration point, denoted ν. When ω ≠ ν the orbit is a quasi-periodic Lissajous orbit; when ω = ν it becomes a periodic Halo orbit.
+  title: "Out-of-Plane Frequency Explained | Term Definition"
+  description: "The angular frequency of oscillation perpendicular to the primaries' orbital plane (z-direction) for orbits near a libration point, denoted ν. When ω ≠ ν the orbit is a quasi-periodic Lissajous orbit; when ω = ν it becomes a periodic Halo orbit."
   image: /logo.png
 permalink: /en/glossary/dynamics/out-of-plane-frequency/
 ---

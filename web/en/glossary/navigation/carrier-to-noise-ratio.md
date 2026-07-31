@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Carrier-to-Noise Ratio (C/N₀) Explained | Term Definition
+  title: "Carrier-to-Noise Ratio (C/N₀) Explained | Term Definition"
   description: A metric characterizing received signal quality, defined as the ratio of carrier power to noise power spectral density. Higher C/N₀ indicates easier signal acquisition and tracking. In cislunar spa...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Carrier-to-Noise Ratio (C/N₀) Explained | Term Definition
+  title: "Carrier-to-Noise Ratio (C/N₀) Explained | Term Definition"
   description: A metric characterizing received signal quality, defined as the ratio of carrier power to noise power spectral density. Higher C/N₀ indicates easier signal acquisition and tracking. In cislunar spa...
   image: /logo.png
 permalink: /en/glossary/navigation/carrier-to-noise-ratio/

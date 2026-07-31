@@ -1,6 +1,6 @@
 ---
 title: Point Spread Function
-description: A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction and aberrations produce a spread pattern approximated by a Gaussian distribution, with radius σ characterizing the optical system's spreading ratio.
+description: "A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction and aberrations produce a spread pattern approximated by a Gaussian distribution, with radius σ characterizing the optical system's spreading ratio."
 keywords: Point Spread Function, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Point Spread Function Explained | Term Definition
-  description: A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction and aberrations produce a spread pattern approximated by a Gaussian distribution, with radius σ characterizing the optical system's spreading ratio.
+  title: "Point Spread Function Explained | Term Definition"
+  description: "A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction and aberrations produce a spread pattern approximated by a Gaussian distribution, with radius σ characterizing the optical system's spreading ratio."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Point Spread Function Explained | Term Definition
-  description: A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction and aberrations produce a spread pattern approximated by a Gaussian distribution, with radius σ characterizing the optical system's spreading ratio.
+  title: "Point Spread Function Explained | Term Definition"
+  description: "A function describing the spatial response of an optical system to a point light source. Ideally a point source images as a point, but in practice diffraction and aberrations produce a spread pattern approximated by a Gaussian distribution, with radius σ characterizing the optical system's spreading ratio."
   image: /logo.png
 permalink: /en/glossary/fundamentals/point-spread-function/
 ---

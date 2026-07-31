@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Axial Orbit | Three-Dimensional Periodic Orbit at Libration Points
+  title: "Axial Orbit | Three-Dimensional Periodic Orbit at Libration Points"
   description: Detailed explanation of axial orbits — definitions, dynamical characteristics, periodic motion near libration points, and applications in cislunar space missions
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Axial Orbit | Three-Dimensional Periodic Orbit at Libration Points
+  title: "Axial Orbit | Three-Dimensional Periodic Orbit at Libration Points"
   description: Detailed explanation of axial orbits — definitions, dynamical characteristics, periodic motion near libration points, and applications in cislunar space missions
   image: /logo.png
 permalink: /en/glossary/orbits/axial-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Multirevolution Lambert Problem Explained | Term Definition
+  title: "Multirevolution Lambert Problem Explained | Term Definition"
   description: A generalization of the classical Lambert problem that allows transfer trajectories to complete multiple revolutions (N = 1, 2, ...) between two positions. F...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multirevolution Lambert Problem Explained | Term Definition
+  title: "Multirevolution Lambert Problem Explained | Term Definition"
   description: A generalization of the classical Lambert problem that allows transfer trajectories to complete multiple revolutions (N = 1, 2, ...) between two positions. F...
   image: /logo.png
 permalink: /en/glossary/dynamics/multirevolution-lambert-problem/

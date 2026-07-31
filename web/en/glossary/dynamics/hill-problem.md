@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill Problem Explained | Term Definition
+  title: "Hill Problem Explained | Term Definition"
   description: The limiting case of the restricted three-body problem as the mass parameter approaches zero, where an integral of motion exists and periodic orbits organize into one-parameter families. Serves as the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Problem Explained | Term Definition
+  title: "Hill Problem Explained | Term Definition"
   description: The limiting case of the restricted three-body problem as the mass parameter approaches zero, where an integral of motion exists and periodic orbits organize into one-parameter families. Serves as the
   image: /logo.png
 permalink: /en/glossary/dynamics/hill-problem/

@@ -1,6 +1,6 @@
 ---
 title: Dual-Layer Inter-Satellite Link
-description: A two-layer inter-satellite network in hybrid constellations: the first layer connects NRHO and DRO satellites for lunar proximity autonomous navigation; the second layer links NRHO/DRO to BDS GEO/...
+description: "A two-layer inter-satellite network in hybrid constellations: the first layer connects NRHO and DRO satellites for lunar proximity autonomous navigation; the second layer links NRHO/DRO to BDS GEO/..."
 keywords: Dual-Layer Inter-Satellite Link, Dual-layer ISL
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dual-Layer Inter-Satellite Link Explained | Term Definition
-  description: A two-layer inter-satellite network in hybrid constellations: the first layer connects NRHO and DRO satellites for lunar proximity autonomous navigation; the second layer links NRHO/DRO to BDS GEO/...
+  title: "Dual-Layer Inter-Satellite Link Explained | Term Definition"
+  description: "A two-layer inter-satellite network in hybrid constellations: the first layer connects NRHO and DRO satellites for lunar proximity autonomous navigation; the second layer links NRHO/DRO to BDS GEO/..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dual-Layer Inter-Satellite Link Explained | Term Definition
-  description: A two-layer inter-satellite network in hybrid constellations: the first layer connects NRHO and DRO satellites for lunar proximity autonomous navigation; the second layer links NRHO/DRO to BDS GEO/...
+  title: "Dual-Layer Inter-Satellite Link Explained | Term Definition"
+  description: "A two-layer inter-satellite network in hybrid constellations: the first layer connects NRHO and DRO satellites for lunar proximity autonomous navigation; the second layer links NRHO/DRO to BDS GEO/..."
   image: /logo.png
 permalink: /en/glossary/navigation/dual-layer-inter-satellite-link/
 ---

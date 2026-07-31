@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spiraling Motion Explained | Term Definition
+  title: "Spiraling Motion Explained | Term Definition"
   description: Motion pattern under continuous low thrust where the spacecraft gradually changes orbital semimajor axis and eccentricity, appearing as a spiral inward or outwa
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spiraling Motion Explained | Term Definition
+  title: "Spiraling Motion Explained | Term Definition"
   description: Motion pattern under continuous low thrust where the spacecraft gradually changes orbital semimajor axis and eccentricity, appearing as a spiral inward or outwa
   image: /logo.png
 permalink: /en/glossary/orbits/spiraling-motion/

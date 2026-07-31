@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Drag-Free and Attitude Control, DFAC Explained | Term Definition
+  title: "Drag-Free and Attitude Control, DFAC Explained | Term Definition"
   description: Attitude control technique that maintains a perturbation-free orbit by compensating non-gravitational perturbations such as atmospheric drag; GOCE satellite is 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Drag-Free and Attitude Control, DFAC Explained | Term Definition
+  title: "Drag-Free and Attitude Control, DFAC Explained | Term Definition"
   description: Attitude control technique that maintains a perturbation-free orbit by compensating non-gravitational perturbations such as atmospheric drag; GOCE satellite is 
   image: /logo.png
 permalink: /en/glossary/dynamics/dfac/

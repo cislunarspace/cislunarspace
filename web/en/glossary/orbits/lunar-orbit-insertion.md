@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Orbit Insertion Explained | Term Definition
+  title: "Lunar Orbit Insertion Explained | Term Definition"
   description: A deceleration maneuver performed when a spacecraft reaches the vicinity of the Moon, allowing it to be captured by lunar gravity from a transfer orbit into ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Orbit Insertion Explained | Term Definition
+  title: "Lunar Orbit Insertion Explained | Term Definition"
   description: A deceleration maneuver performed when a spacecraft reaches the vicinity of the Moon, allowing it to be captured by lunar gravity from a transfer orbit into ...
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-orbit-insertion/

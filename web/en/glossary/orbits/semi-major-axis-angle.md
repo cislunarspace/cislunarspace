@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Semi-Major Axis Angle Explained | Term Definition
+  title: "Semi-Major Axis Angle Explained | Term Definition"
   description: A parameter in PRM defined as the angle between the line connecting the perilune and apolune of each revolution and the Z-axis in the Moon-centered inertial ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Semi-Major Axis Angle Explained | Term Definition
+  title: "Semi-Major Axis Angle Explained | Term Definition"
   description: A parameter in PRM defined as the angle between the line connecting the perilune and apolune of each revolution and the Z-axis in the Moon-centered inertial ...
   image: /logo.png
 permalink: /en/glossary/orbits/semi-major-axis-angle/

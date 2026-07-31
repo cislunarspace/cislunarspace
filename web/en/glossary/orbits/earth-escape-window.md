@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Escape Window Explained | Term Definition
+  title: "Earth Escape Window Explained | Term Definition"
   description: "The time interval allowing a spacecraft to escape Earth's gravity well and transit into the Moon's via libration point or Halo orbit. The window is determined by solar phase angle β and Halo orbit pha..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Escape Window Explained | Term Definition
+  title: "Earth Escape Window Explained | Term Definition"
   description: "The time interval allowing a spacecraft to escape Earth's gravity well and transit into the Moon's via libration point or Halo orbit. The window is determined by solar phase angle β and Halo orbit pha..."
   image: /logo.png
 permalink: /en/glossary/orbits/earth-escape-window/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orthogonal Plane-Crossing Condition Explained | Term Definition
+  title: "Orthogonal Plane-Crossing Condition Explained | Term Definition"
   description: "A periodicity condition in halo orbit design, requiring the orbit to cross the x-z plane orthogonally twice (at t=0 and t=T/2). Orthogonality is ensured by spec"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orthogonal Plane-Crossing Condition Explained | Term Definition
+  title: "Orthogonal Plane-Crossing Condition Explained | Term Definition"
   description: "A periodicity condition in halo orbit design, requiring the orbit to cross the x-z plane orthogonally twice (at t=0 and t=T/2). Orthogonality is ensured by spec"
   image: /logo.png
 permalink: /en/glossary/orbits/orthogonal-plane-crossing-condition/

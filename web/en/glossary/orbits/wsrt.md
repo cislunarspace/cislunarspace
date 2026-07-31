@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weak Stability Region Transfer Explained | Term Definition
+  title: "Weak Stability Region Transfer Explained | Term Definition"
   description: Low-energy Earth-Moon transfer trajectory design utilizing the characteristics of the weak stability region, where spacecraft can travel long distances with min
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weak Stability Region Transfer Explained | Term Definition
+  title: "Weak Stability Region Transfer Explained | Term Definition"
   description: Low-energy Earth-Moon transfer trajectory design utilizing the characteristics of the weak stability region, where spacecraft can travel long distances with min
   image: /logo.png
 permalink: /en/glossary/orbits/wsrt/

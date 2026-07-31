@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DRO Phase Factor Explained | Term Definition
+  title: "DRO Phase Factor Explained | Term Definition"
   description: "The ratio of the spacecraft's moment on the DRO to the orbital period. Zero phase is defined as the instant when the spacecraft is at the right vertical crossin"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DRO Phase Factor Explained | Term Definition
+  title: "DRO Phase Factor Explained | Term Definition"
   description: "The ratio of the spacecraft's moment on the DRO to the orbital period. Zero phase is defined as the instant when the spacecraft is at the right vertical crossin"
   image: /logo.png
 permalink: /en/glossary/orbits/dro-phase-factor/

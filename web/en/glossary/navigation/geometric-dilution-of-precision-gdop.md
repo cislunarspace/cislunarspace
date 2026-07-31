@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geometric Dilution of Precision, GDOP Explained | Term Definition
+  title: "Geometric Dilution of Precision, GDOP Explained | Term Definition"
   description: A metric reflecting how satellite geometric configuration amplifies both positioning and timing errors.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geometric Dilution of Precision, GDOP Explained | Term Definition
+  title: "Geometric Dilution of Precision, GDOP Explained | Term Definition"
   description: A metric reflecting how satellite geometric configuration amplifies both positioning and timing errors.
   image: /logo.png
 permalink: /en/glossary/navigation/geometric-dilution-of-precision-gdop/

@@ -1,6 +1,6 @@
 ---
 title: Direct Transfer
-description: A transfer trajectory from a low-Earth parking orbit to a Distant Retrograde Orbit using only two maneuvers: a departure burn and a DRO insertion burn. Operationally simple with controllable flight...
+description: "A transfer trajectory from a low-Earth parking orbit to a Distant Retrograde Orbit using only two maneuvers: a departure burn and a DRO insertion burn. Operationally simple with controllable flight..."
 keywords: Direct Transfer, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Transfer Explained | Term Definition
-  description: A transfer trajectory from a low-Earth parking orbit to a Distant Retrograde Orbit using only two maneuvers: a departure burn and a DRO insertion burn. Operationally simple with controllable flight...
+  title: "Direct Transfer Explained | Term Definition"
+  description: "A transfer trajectory from a low-Earth parking orbit to a Distant Retrograde Orbit using only two maneuvers: a departure burn and a DRO insertion burn. Operationally simple with controllable flight..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Transfer Explained | Term Definition
-  description: A transfer trajectory from a low-Earth parking orbit to a Distant Retrograde Orbit using only two maneuvers: a departure burn and a DRO insertion burn. Operationally simple with controllable flight...
+  title: "Direct Transfer Explained | Term Definition"
+  description: "A transfer trajectory from a low-Earth parking orbit to a Distant Retrograde Orbit using only two maneuvers: a departure burn and a DRO insertion burn. Operationally simple with controllable flight..."
   image: /logo.png
 permalink: /en/glossary/orbits/direct-transfer/
 ---

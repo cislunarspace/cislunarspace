@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Global Positioning System, LGPS Explained | Term Definition
+  title: "Lunar Global Positioning System, LGPS Explained | Term Definition"
   description: A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surf
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Global Positioning System, LGPS Explained | Term Definition
+  title: "Lunar Global Positioning System, LGPS Explained | Term Definition"
   description: A navigation satellite constellation deployed at cislunar libration point orbits or around the Moon, providing ranging and positioning information to lunar surf
   image: /logo.png
 permalink: /en/glossary/navigation/LGPS/

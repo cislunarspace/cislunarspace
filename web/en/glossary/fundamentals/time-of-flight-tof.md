@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Flight, TOF Explained | Term Definition
+  title: "Time of Flight, TOF Explained | Term Definition"
   description: The time required for a spacecraft to travel from departure orbit to arrival orbit. In the paper, low-energy exterior transfers have a flight time of approximately 162 days, longer than high-energy transfers (typically dozens to within 100 days), but with significantly reduced velocity increment.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Flight, TOF Explained | Term Definition
+  title: "Time of Flight, TOF Explained | Term Definition"
   description: The time required for a spacecraft to travel from departure orbit to arrival orbit. In the paper, low-energy exterior transfers have a flight time of approximately 162 days, longer than high-energy transfers (typically dozens to within 100 days), but with significantly reduced velocity increment.
   image: /logo.png
 permalink: /en/glossary/fundamentals/time-of-flight-tof/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Escape Spiral Explained | Term Definition
+  title: "Earth-Escape Spiral Explained | Term Definition"
   description: "The flight phase from a low Earth parking orbit where continuous low-thrust gradually enlarges the spacecraft's spiral orbit until it escapes Earth's gravity. I"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Escape Spiral Explained | Term Definition
+  title: "Earth-Escape Spiral Explained | Term Definition"
   description: "The flight phase from a low Earth parking orbit where continuous low-thrust gradually enlarges the spacecraft's spiral orbit until it escapes Earth's gravity. I"
   image: /logo.png
 permalink: /en/glossary/orbits/earth-escape-spiral/

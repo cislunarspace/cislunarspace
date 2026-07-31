@@ -1,6 +1,6 @@
 ---
 title: 9:2 Synodic Resonant Orbit
-description: Resonant orbit where the synodic period to orbital period ratio is 9:2, adopted as baseline for NASA's Gateway L2 southern NRHO.
+description: "Resonant orbit where the synodic period to orbital period ratio is 9:2, adopted as baseline for NASA's Gateway L2 southern NRHO."
 keywords: 9:2 Synodic Resonant Orbit, orbit design, libration point, transfer trajectory
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 9:2 Synodic Resonant Orbit Explained | Term Definition
-  description: Resonant orbit where the synodic period to orbital period ratio is 9:2, adopted as baseline for NASA's Gateway L2 southern NRHO.
+  title: "9:2 Synodic Resonant Orbit Explained | Term Definition"
+  description: "Resonant orbit where the synodic period to orbital period ratio is 9:2, adopted as baseline for NASA's Gateway L2 southern NRHO."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 9:2 Synodic Resonant Orbit Explained | Term Definition
-  description: Resonant orbit where the synodic period to orbital period ratio is 9:2, adopted as baseline for NASA's Gateway L2 southern NRHO.
+  title: "9:2 Synodic Resonant Orbit Explained | Term Definition"
+  description: "Resonant orbit where the synodic period to orbital period ratio is 9:2, adopted as baseline for NASA's Gateway L2 southern NRHO."
   image: /logo.png
 permalink: /en/glossary/orbits/92-synodic-resonant-orbit/
 ---

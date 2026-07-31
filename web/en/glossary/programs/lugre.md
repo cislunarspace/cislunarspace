@@ -1,6 +1,6 @@
 ---
 title: LuGRE Experiment
-description: Analysis of NASA's and ASI's joint lunar GNSS receiver experiment, first to receive Earth's GNSS signals on the lunar surface
+description: "Analysis of NASA's and ASI's joint lunar GNSS receiver experiment, first to receive Earth's GNSS signals on the lunar surface"
 keywords: LuGRE, lunar GNSS, GPS signal reception, deep space navigation, NASA, ASI, weak-signal acquisition, lunar surface positioning
 author: Tianjiang Shuo
 date: 2026-04-25
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and resources.
   image: /logo.png
 og:
-  title: LuGRE Experiment Details | First Reception of Earth's GNSS Signals on the Lunar Surface
-  description: Analysis of NASA's and ASI's joint lunar GNSS receiver experiment, first to receive Earth's GNSS signals on the lunar surface
+  title: "LuGRE Experiment Details | First Reception of Earth's GNSS Signals on the Lunar Surface"
+  description: "Analysis of NASA's and ASI's joint lunar GNSS receiver experiment, first to receive Earth's GNSS signals on the lunar surface"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LuGRE Experiment Details | First Reception of Earth's GNSS Signals on the Lunar Surface
-  description: Analysis of NASA's and ASI's joint lunar GNSS receiver experiment, first to receive Earth's GNSS signals on the lunar surface
+  title: "LuGRE Experiment Details | First Reception of Earth's GNSS Signals on the Lunar Surface"
+  description: "Analysis of NASA's and ASI's joint lunar GNSS receiver experiment, first to receive Earth's GNSS signals on the lunar surface"
   image: /logo.png
 permalink: /en/glossary/programs/lugre/
 ---

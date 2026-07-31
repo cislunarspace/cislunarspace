@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Discrete-Time Linear Periodic System Explained | Term Definition
+  title: "Discrete-Time Linear Periodic System Explained | Term Definition"
   description: The discretized form of a linear periodic system, with state equation x(k+1)=A(k)x+B(k)u and coefficient matrices satisfying A(k+T_L)=A(k), B(k+T_L)=B(k). The paper discretizes the continuous error...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Discrete-Time Linear Periodic System Explained | Term Definition
+  title: "Discrete-Time Linear Periodic System Explained | Term Definition"
   description: The discretized form of a linear periodic system, with state equation x(k+1)=A(k)x+B(k)u and coefficient matrices satisfying A(k+T_L)=A(k), B(k+T_L)=B(k). The paper discretizes the continuous error...
   image: /logo.png
 permalink: /en/glossary/fundamentals/discrete-time-linear-periodic-system/

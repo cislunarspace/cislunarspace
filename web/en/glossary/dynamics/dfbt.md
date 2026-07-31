@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Fly-By Transfer, DFBT Explained | Term Definition
+  title: "Direct Fly-By Transfer, DFBT Explained | Term Definition"
   description: A lunar flyby transfer trajectory to libration point orbits that follows a relatively direct route to the rendezvous point after the powered lunar flyby maneuve
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Fly-By Transfer, DFBT Explained | Term Definition
+  title: "Direct Fly-By Transfer, DFBT Explained | Term Definition"
   description: A lunar flyby transfer trajectory to libration point orbits that follows a relatively direct route to the rendezvous point after the powered lunar flyby maneuve
   image: /logo.png
 permalink: /en/glossary/dynamics/dfbt/

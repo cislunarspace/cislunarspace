@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Keep-Out Sphere Explained | Term Definition
+  title: "Keep-Out Sphere Explained | Term Definition"
   description: A safety zone centered on the target spacecraft with a radius of 1 km, used for collision risk assessment and triggering collision avoidance maneuvers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Keep-Out Sphere Explained | Term Definition
+  title: "Keep-Out Sphere Explained | Term Definition"
   description: A safety zone centered on the target spacecraft with a radius of 1 km, used for collision risk assessment and triggering collision avoidance maneuvers.
   image: /logo.png
 permalink: /en/glossary/navigation/keep-out-sphere/

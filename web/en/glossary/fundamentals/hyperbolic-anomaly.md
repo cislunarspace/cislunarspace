@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperbolic Anomaly Explained | Term Definition
+  title: "Hyperbolic Anomaly Explained | Term Definition"
   description: An auxiliary angle for describing position in hyperbolic orbits, similar to eccentric anomaly but applicable to hyperbolas. It establishes the relationship betw
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperbolic Anomaly Explained | Term Definition
+  title: "Hyperbolic Anomaly Explained | Term Definition"
   description: An auxiliary angle for describing position in hyperbolic orbits, similar to eccentric anomaly but applicable to hyperbolas. It establishes the relationship betw
   image: /logo.png
 permalink: /en/glossary/fundamentals/hyperbolic-anomaly/

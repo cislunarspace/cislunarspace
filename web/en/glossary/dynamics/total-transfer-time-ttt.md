@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Total Transfer Time, TTT (TTT) Explained | Term Definition
+  title: "Total Transfer Time, TTT (TTT) Explained | Term Definition"
   description: Worst-case time from parking orbit insertion to completing rendezvous with target orbit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Total Transfer Time, TTT (TTT) Explained | Term Definition
+  title: "Total Transfer Time, TTT (TTT) Explained | Term Definition"
   description: Worst-case time from parking orbit insertion to completing rendezvous with target orbit
   image: /logo.png
 permalink: /en/glossary/dynamics/total-transfer-time-ttt/

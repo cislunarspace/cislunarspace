@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Modal Analysis Details | Core Method in Spacecraft Structural Dynamics
+  title: "Modal Analysis Details | Core Method in Spacecraft Structural Dynamics"
   description: Definition, methods, and applications of modal analysis in spacecraft structural dynamics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Modal Analysis Details | Core Method in Spacecraft Structural Dynamics
+  title: "Modal Analysis Details | Core Method in Spacecraft Structural Dynamics"
   description: Definition, methods, and applications of modal analysis in spacecraft structural dynamics
   image: /logo.png
 permalink: /en/glossary/dynamics/modal-analysis/

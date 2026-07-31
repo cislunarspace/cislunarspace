@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Genetic Algorithm, GA Explained | Term Definition
+  title: "Genetic Algorithm, GA Explained | Term Definition"
   description: An evolutionary optimization algorithm that searches the solution space through natural selection processes (selection, crossover, mutation). The paper uses ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Genetic Algorithm, GA Explained | Term Definition
+  title: "Genetic Algorithm, GA Explained | Term Definition"
   description: An evolutionary optimization algorithm that searches the solution space through natural selection processes (selection, crossover, mutation). The paper uses ...
   image: /logo.png
 permalink: /en/glossary/dynamics/genetic-algorithm/

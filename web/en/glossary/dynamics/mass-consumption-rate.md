@@ -1,6 +1,6 @@
 ---
 title: Mass Consumption Rate
-description: A constant parameter α in the fuel-optimal control model governing the rate of propellant mass depletion, appearing in the mass equation dm/dt = -α||T||. It ...
+description: "A constant parameter α in the fuel-optimal control model governing the rate of propellant mass depletion, appearing in the mass equation dm/dt = -α||T||. It ..."
 keywords: Mass Consumption Rate
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mass Consumption Rate Explained | Term Definition
-  description: A constant parameter α in the fuel-optimal control model governing the rate of propellant mass depletion, appearing in the mass equation dm/dt = -α||T||. It ...
+  title: "Mass Consumption Rate Explained | Term Definition"
+  description: "A constant parameter α in the fuel-optimal control model governing the rate of propellant mass depletion, appearing in the mass equation dm/dt = -α||T||. It ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mass Consumption Rate Explained | Term Definition
-  description: A constant parameter α in the fuel-optimal control model governing the rate of propellant mass depletion, appearing in the mass equation dm/dt = -α||T||. It ...
+  title: "Mass Consumption Rate Explained | Term Definition"
+  description: "A constant parameter α in the fuel-optimal control model governing the rate of propellant mass depletion, appearing in the mass equation dm/dt = -α||T||. It ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/mass-consumption-rate/
 ---

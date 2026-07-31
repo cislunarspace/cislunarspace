@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Natural Parameter Continuation Explained | Term Definition
+  title: "Natural Parameter Continuation Explained | Term Definition"
   description: A method of obtaining families of periodic orbits by gradually varying system parameters, starting from a known periodic orbit and generating the entire family 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Natural Parameter Continuation Explained | Term Definition
+  title: "Natural Parameter Continuation Explained | Term Definition"
   description: A method of obtaining families of periodic orbits by gradually varying system parameters, starting from a known periodic orbit and generating the entire family 
   image: /logo.png
 permalink: /en/glossary/dynamics/natural-parameter-continuation/

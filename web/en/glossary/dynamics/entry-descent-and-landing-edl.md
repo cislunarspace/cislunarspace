@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Entry, Descent and Landing, EDL Explained | Term Definition
+  title: "Entry, Descent and Landing, EDL Explained | Term Definition"
   description: "The process of reducing a spacecraft's velocity from orbital or interplanetary speeds to near-zero for soft landing, typically consisting of aerodynamic deceler"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Entry, Descent and Landing, EDL Explained | Term Definition
+  title: "Entry, Descent and Landing, EDL Explained | Term Definition"
   description: "The process of reducing a spacecraft's velocity from orbital or interplanetary speeds to near-zero for soft landing, typically consisting of aerodynamic deceler"
   image: /logo.png
 permalink: /en/glossary/dynamics/entry-descent-and-landing-edl/

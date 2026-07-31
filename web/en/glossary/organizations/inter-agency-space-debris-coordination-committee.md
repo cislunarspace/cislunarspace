@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Inter-Agency Space Debris Coordination Committee Explained | Term Definition
+  title: "Inter-Agency Space Debris Coordination Committee Explained | Term Definition"
   description: A technical coordination body composed of national space agencies that develops space debris mitigation guidelines. Its guidelines are the primary international...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Inter-Agency Space Debris Coordination Committee Explained | Term Definition
+  title: "Inter-Agency Space Debris Coordination Committee Explained | Term Definition"
   description: A technical coordination body composed of national space agencies that develops space debris mitigation guidelines. Its guidelines are the primary international...
   image: /logo.png
 permalink: /en/glossary/organizations/inter-agency-space-debris-coordination-committee/

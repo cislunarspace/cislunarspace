@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sigma Point Kalman Filter Explained | Term Definition
+  title: "Sigma Point Kalman Filter Explained | Term Definition"
   description: Nonlinear Kalman filter family that approximates state distribution through deterministic sampling (sigma points)
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sigma Point Kalman Filter Explained | Term Definition
+  title: "Sigma Point Kalman Filter Explained | Term Definition"
   description: Nonlinear Kalman filter family that approximates state distribution through deterministic sampling (sigma points)
   image: /logo.png
 permalink: /en/glossary/dynamics/sigma-point-kalman-filter/

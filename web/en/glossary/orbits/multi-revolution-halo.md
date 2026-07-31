@@ -1,6 +1,6 @@
 ---
 title: Multi-Revolution Halo Orbit
-description: Periodic orbits in the Elliptic Restricted Three-Body Problem with periods that are integer multiples of the smaller primary's orbital period.
+description: "Periodic orbits in the Elliptic Restricted Three-Body Problem with periods that are integer multiples of the smaller primary's orbital period."
 keywords: multi-revolution halo orbit, ERTBP, elliptic restricted three-body problem, arc-length continuation, periodic orbit
 author: CislunarSpace
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Multi-Revolution Halo Orbit Details | Orbit Mechanics
-  description: Periodic orbits in the Elliptic Restricted Three-Body Problem with periods that are integer multiples of the smaller primary's orbital period.
+  title: "Multi-Revolution Halo Orbit Details | Orbit Mechanics"
+  description: "Periodic orbits in the Elliptic Restricted Three-Body Problem with periods that are integer multiples of the smaller primary's orbital period."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Multi-Revolution Halo Orbit Details | Orbit Mechanics
-  description: Periodic orbits in the Elliptic Restricted Three-Body Problem with periods that are integer multiples of the smaller primary's orbital period.
+  title: "Multi-Revolution Halo Orbit Details | Orbit Mechanics"
+  description: "Periodic orbits in the Elliptic Restricted Three-Body Problem with periods that are integer multiples of the smaller primary's orbital period."
   image: /logo.png
 permalink: /en/glossary/orbits/multi-revolution-halo/
 ---

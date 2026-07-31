@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Rank Deficiency Problem Explained | Term Definition
+  title: "Rank Deficiency Problem Explained | Term Definition"
   description: In SST autonomous orbit determination, the state transition matrices of conventional two-body orbit constellations cause multi-collinearity among columns of the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Rank Deficiency Problem Explained | Term Definition
+  title: "Rank Deficiency Problem Explained | Term Definition"
   description: In SST autonomous orbit determination, the state transition matrices of conventional two-body orbit constellations cause multi-collinearity among columns of the
   image: /logo.png
 permalink: /en/glossary/navigation/rank-deficiency-problem/

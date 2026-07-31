@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Poincaré Section | Libration Point Orbit Distribution Visualization
+  title: "Poincaré Section | Libration Point Orbit Distribution Visualization"
   description: Detailed explanation of the Poincaré Section and its application in visualizing cislunar libration point orbit families
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Poincaré Section | Libration Point Orbit Distribution Visualization
+  title: "Poincaré Section | Libration Point Orbit Distribution Visualization"
   description: Detailed explanation of the Poincaré Section and its application in visualizing cislunar libration point orbit families
   image: /logo.png
 permalink: /en/glossary/dynamics/poincare-section/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Orbit Explained | Term Definition
+  title: "Lunar Orbit Explained | Term Definition"
   description: An orbit around the Moon. In this paper, it specifically refers to a lunar orbit at approximately 100 km altitude, serving as the terminal target orbit for...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Orbit Explained | Term Definition
+  title: "Lunar Orbit Explained | Term Definition"
   description: An orbit around the Moon. In this paper, it specifically refers to a lunar orbit at approximately 100 km altitude, serving as the terminal target orbit for...
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-orbit/

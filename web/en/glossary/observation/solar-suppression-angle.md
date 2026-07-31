@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Suppression Angle Explained | Term Definition
+  title: "Solar Suppression Angle Explained | Term Definition"
   description: The minimum angular distance from the Sun at which the camera can operate normally; it is complementary to the maximum observation phase angle. When the Sun is near the camera FOV, stray light overwhelms target signal and the camera must shut down. The paper calculates a demand of 50 degrees for GEO observations from cislunar libration points, with maximum observation phase angle approximately 128 degrees. This angle is critical for determining blackout durations in constellation design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Suppression Angle Explained | Term Definition
+  title: "Solar Suppression Angle Explained | Term Definition"
   description: The minimum angular distance from the Sun at which the camera can operate normally; it is complementary to the maximum observation phase angle. When the Sun is near the camera FOV, stray light overwhelms target signal and the camera must shut down. The paper calculates a demand of 50 degrees for GEO observations from cislunar libration points, with maximum observation phase angle approximately 128 degrees. This angle is critical for determining blackout durations in constellation design.
   image: /logo.png
 permalink: /en/glossary/observation/solar-suppression-angle/

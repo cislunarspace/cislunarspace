@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powered Descent Guidance (PDG) Explained | Term Definition
+  title: "Powered Descent Guidance (PDG) Explained | Term Definition"
   description: The guidance process in which a landing vehicle decelerates from high speed to near-zero speed and lands at a preflight-designated surface location by maneuvering a retropropulsion system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Descent Guidance (PDG) Explained | Term Definition
+  title: "Powered Descent Guidance (PDG) Explained | Term Definition"
   description: The guidance process in which a landing vehicle decelerates from high speed to near-zero speed and lands at a preflight-designated surface location by maneuvering a retropropulsion system.
   image: /logo.png
 permalink: /en/glossary/dynamics/powered-descent-guidance-pdg/

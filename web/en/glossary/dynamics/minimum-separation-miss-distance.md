@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Minimum Separation / Miss Distance Explained | Term Definition
+  title: "Minimum Separation / Miss Distance Explained | Term Definition"
   description: The distance between two objects at the point of closest approach during an encounter.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Minimum Separation / Miss Distance Explained | Term Definition
+  title: "Minimum Separation / Miss Distance Explained | Term Definition"
   description: The distance between two objects at the point of closest approach during an encounter.
   image: /logo.png
 permalink: /en/glossary/dynamics/minimum-separation-miss-distance/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Anti-Tangential Thrust Explained | Term Definition
+  title: "Anti-Tangential Thrust Explained | Term Definition"
   description: Thrust directed opposite to the orbital velocity vector. In lunar capture phases, anti-tangential thrust decelerates the spacecraft, progressively lowering its 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Anti-Tangential Thrust Explained | Term Definition
+  title: "Anti-Tangential Thrust Explained | Term Definition"
   description: Thrust directed opposite to the orbital velocity vector. In lunar capture phases, anti-tangential thrust decelerates the spacecraft, progressively lowering its 
   image: /logo.png
 permalink: /en/glossary/dynamics/anti-tangential-thrust/

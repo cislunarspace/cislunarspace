@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Thrust Transfer Explained | Term Definition
+  title: "Low-Thrust Transfer Explained | Term Definition"
   description: "An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operati"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Thrust Transfer Explained | Term Definition
+  title: "Low-Thrust Transfer Explained | Term Definition"
   description: "An orbital transfer executed with low-thrust engines such as electric propulsion. Thrust is much less than the spacecraft's weight, requiring continuous operati"
   image: /logo.png
 permalink: /en/glossary/orbits/LTT/

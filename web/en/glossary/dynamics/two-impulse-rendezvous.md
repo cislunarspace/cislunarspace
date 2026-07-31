@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Impulse Rendezvous Explained | Term Definition
+  title: "Two-Impulse Rendezvous Explained | Term Definition"
   description: An orbital rendezvous accomplished by applying exactly one velocity increment at departure and one at arrival. No thrust is applied during the coast phase betwe
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Impulse Rendezvous Explained | Term Definition
+  title: "Two-Impulse Rendezvous Explained | Term Definition"
   description: An orbital rendezvous accomplished by applying exactly one velocity increment at departure and one at arrival. No thrust is applied during the coast phase betwe
   image: /logo.png
 permalink: /en/glossary/dynamics/two-impulse-rendezvous/

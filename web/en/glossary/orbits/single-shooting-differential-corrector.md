@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single-shooting Differential Corrector Explained | Term Definition
+  title: "Single-shooting Differential Corrector Explained | Term Definition"
   description: 通过调整初始速度使轨迹在指定平面内垂直相交来生成周期轨道的打靶法，常用于在全星历模型中生成准周期DRO轨道。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single-shooting Differential Corrector Explained | Term Definition
+  title: "Single-shooting Differential Corrector Explained | Term Definition"
   description: 通过调整初始速度使轨迹在指定平面内垂直相交来生成周期轨道的打靶法，常用于在全星历模型中生成准周期DRO轨道。
   image: /logo.png
 permalink: /en/glossary/orbits/single-shooting-differential-corrector/

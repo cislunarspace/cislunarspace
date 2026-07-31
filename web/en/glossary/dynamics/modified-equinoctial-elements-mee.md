@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Modified Equinoctial Elements, MEE Explained | Term Definition
+  title: "Modified Equinoctial Elements, MEE Explained | Term Definition"
   description: A set of non-singular orbital elements [p, f, g, h, k, l] where p = a(1-e²), f = e cos(Ω+ω), g = e sin(Ω+ω), h = tan(i/2) cos Ω, k = tan(i/2) sin Ω, l = Ω+ω+ν. 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Modified Equinoctial Elements, MEE Explained | Term Definition
+  title: "Modified Equinoctial Elements, MEE Explained | Term Definition"
   description: A set of non-singular orbital elements [p, f, g, h, k, l] where p = a(1-e²), f = e cos(Ω+ω), g = e sin(Ω+ω), h = tan(i/2) cos Ω, k = tan(i/2) sin Ω, l = Ω+ω+ν. 
   image: /logo.png
 permalink: /en/glossary/dynamics/modified-equinoctial-elements-mee/

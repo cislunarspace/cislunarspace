@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Transfer Explained | Term Definition
+  title: "Halo Orbit Transfer Explained | Term Definition"
   description: A transfer maneuver from a halo orbit using its unstable manifold to reach a target orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Transfer Explained | Term Definition
+  title: "Halo Orbit Transfer Explained | Term Definition"
   description: A transfer maneuver from a halo orbit using its unstable manifold to reach a target orbit.
   image: /logo.png
 permalink: /en/glossary/orbits/halo-orbit-transfer/

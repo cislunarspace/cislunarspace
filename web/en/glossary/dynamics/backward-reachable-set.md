@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Backward Reachable Set Explained | Term Definition
+  title: "Backward Reachable Set Explained | Term Definition"
   description: The set of all states at time t that free-drift into an avoid set after a specified duration.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Backward Reachable Set Explained | Term Definition
+  title: "Backward Reachable Set Explained | Term Definition"
   description: The set of all states at time t that free-drift into an avoid set after a specified duration.
   image: /logo.png
 permalink: /en/glossary/dynamics/backward-reachable-set/

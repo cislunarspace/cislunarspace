@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coupling Maneuver Explained | Term Definition
+  title: "Coupling Maneuver Explained | Term Definition"
   description: 在耦合RTBP的两个限制性三体问题拼接点处所需的速度增量。由于两个RTBP独立求解的流形在截面上仅位置匹配而速度不连续，耦合机动弥补这一速度差。典型值从数百米/秒降至百米/秒量级，经精化可进一步减小。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coupling Maneuver Explained | Term Definition
+  title: "Coupling Maneuver Explained | Term Definition"
   description: 在耦合RTBP的两个限制性三体问题拼接点处所需的速度增量。由于两个RTBP独立求解的流形在截面上仅位置匹配而速度不连续，耦合机动弥补这一速度差。典型值从数百米/秒降至百米/秒量级，经精化可进一步减小。
   image: /logo.png
 permalink: /en/glossary/dynamics/coupling-maneuver/

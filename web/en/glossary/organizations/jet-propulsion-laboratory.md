@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jet Propulsion Laboratory Explained | Term Definition
+  title: "Jet Propulsion Laboratory Explained | Term Definition"
   description: A NASA center at the California Institute of Technology, dedicated to deep space mission design and navigation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jet Propulsion Laboratory Explained | Term Definition
+  title: "Jet Propulsion Laboratory Explained | Term Definition"
   description: A NASA center at the California Institute of Technology, dedicated to deep space mission design and navigation.
   image: /logo.png
 permalink: /en/glossary/organizations/jet-propulsion-laboratory/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Drift Explained | Term Definition
+  title: "Phase Drift Explained | Term Definition"
   description: A secular shift in the temporal location of a spacecraft along a libration point orbit relative to the baseline trajectory, arising because event-based targeting does not constrain the time component....
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Drift Explained | Term Definition
+  title: "Phase Drift Explained | Term Definition"
   description: A secular shift in the temporal location of a spacecraft along a libration point orbit relative to the baseline trajectory, arising because event-based targeting does not constrain the time component....
   image: /logo.png
 permalink: /en/glossary/dynamics/phase-drift/

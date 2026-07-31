@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space-Based Space Surveillance Explained | Term Definition
+  title: "Space-Based Space Surveillance Explained | Term Definition"
   description: "An on-orbit deployed space target surveillance satellite system, designed to compensate for the inability of ground-based detection networks to provide seamless"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space-Based Space Surveillance Explained | Term Definition
+  title: "Space-Based Space Surveillance Explained | Term Definition"
   description: "An on-orbit deployed space target surveillance satellite system, designed to compensate for the inability of ground-based detection networks to provide seamless"
   image: /logo.png
 permalink: /en/glossary/observation/space-based-space-surveillance/

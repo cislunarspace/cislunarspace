@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Piecewise Polynomial Control Explained | Term Definition
+  title: "Piecewise Polynomial Control Explained | Term Definition"
   description: A control parameterization method that represents the continuous control function as piecewise polynomials over the time interval, with polynomial coefficients 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Piecewise Polynomial Control Explained | Term Definition
+  title: "Piecewise Polynomial Control Explained | Term Definition"
   description: A control parameterization method that represents the continuous control function as piecewise polynomials over the time interval, with polynomial coefficients 
   image: /logo.png
 permalink: /en/glossary/fundamentals/piecewise-polynomial-control/

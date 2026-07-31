@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial Periodic Orbit (IPO) Explained | Term Definition
+  title: "Initial Periodic Orbit (IPO) Explained | Term Definition"
   description: The periodic orbit around Earth from which a spacecraft begins a low-thrust transfer. In this study, the IPO is a nearly circular, approximately one-day-period
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial Periodic Orbit (IPO) Explained | Term Definition
+  title: "Initial Periodic Orbit (IPO) Explained | Term Definition"
   description: The periodic orbit around Earth from which a spacecraft begins a low-thrust transfer. In this study, the IPO is a nearly circular, approximately one-day-period
   image: /logo.png
 permalink: /en/glossary/orbits/initial-periodic-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periodic Orbit Initial Conditions Explained | Term Definition
+  title: "Periodic Orbit Initial Conditions Explained | Term Definition"
   description: The starting point parameters of a periodic orbit expressed as a state vector, typically taking the form X=[x₀,0,z₀,0,ẏ₀,0]ᵀ
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periodic Orbit Initial Conditions Explained | Term Definition
+  title: "Periodic Orbit Initial Conditions Explained | Term Definition"
   description: The starting point parameters of a periodic orbit expressed as a state vector, typically taking the form X=[x₀,0,z₀,0,ẏ₀,0]ᵀ
   image: /logo.png
 permalink: /en/glossary/dynamics/periodic-orbit-initial-conditions/

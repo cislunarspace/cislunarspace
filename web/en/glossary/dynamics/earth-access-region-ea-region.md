@@ -1,6 +1,6 @@
 ---
 title: Earth Access Region, EA Region (EA)
-description: An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment for Earth-to-halo transfers: outboun...
+description: "An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment for Earth-to-halo transfers: outboun..."
 keywords: Earth Access Region, EA Region, EA, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Access Region, EA Region (EA) Explained | Term Definition
-  description: An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment for Earth-to-halo transfers: outboun...
+  title: "Earth Access Region, EA Region (EA) Explained | Term Definition"
+  description: "An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment for Earth-to-halo transfers: outboun..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Access Region, EA Region (EA) Explained | Term Definition
-  description: An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment for Earth-to-halo transfers: outboun...
+  title: "Earth Access Region, EA Region (EA) Explained | Term Definition"
+  description: "An arc along a halo orbit whose associated stable or unstable manifolds, upon globalization, pass close to the Earth. The EA region is a critical design segment for Earth-to-halo transfers: outboun..."
   image: /logo.png
 permalink: /en/glossary/dynamics/earth-access-region-ea-region/
 ---

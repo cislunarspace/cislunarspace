@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Arrival Deflection Angle Explained | Term Definition
+  title: "Arrival Deflection Angle Explained | Term Definition"
   description: The angle between the arrival impulse velocity vector and the local velocity vector on the DRO. Positive when counterclockwise, negative when clockwise.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Arrival Deflection Angle Explained | Term Definition
+  title: "Arrival Deflection Angle Explained | Term Definition"
   description: The angle between the arrival impulse velocity vector and the local velocity vector on the DRO. Positive when counterclockwise, negative when clockwise.
   image: /logo.png
 permalink: /en/glossary/dynamics/arrival-deflection-angle/

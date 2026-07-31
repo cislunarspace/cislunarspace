@@ -1,6 +1,6 @@
 ---
 title: Pseudostate Transformation Sphere (PTS)
-description: A sphere defined in the pseudostate theory, centered at the Moon's position at a given epoch with radius R_PTS, serving as the switching boundary between the Earth-centered and Moon-centered two-bo...
+description: "A sphere defined in the pseudostate theory, centered at the Moon's position at a given epoch with radius R_PTS, serving as the switching boundary between the Earth-centered and Moon-centered two-bo..."
 keywords: Pseudostate Transformation Sphere, PTS, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Pseudostate Transformation Sphere (PTS) Explained | Term Definition
-  description: A sphere defined in the pseudostate theory, centered at the Moon's position at a given epoch with radius R_PTS, serving as the switching boundary between the Earth-centered and Moon-centered two-bo...
+  title: "Pseudostate Transformation Sphere (PTS) Explained | Term Definition"
+  description: "A sphere defined in the pseudostate theory, centered at the Moon's position at a given epoch with radius R_PTS, serving as the switching boundary between the Earth-centered and Moon-centered two-bo..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Pseudostate Transformation Sphere (PTS) Explained | Term Definition
-  description: A sphere defined in the pseudostate theory, centered at the Moon's position at a given epoch with radius R_PTS, serving as the switching boundary between the Earth-centered and Moon-centered two-bo...
+  title: "Pseudostate Transformation Sphere (PTS) Explained | Term Definition"
+  description: "A sphere defined in the pseudostate theory, centered at the Moon's position at a given epoch with radius R_PTS, serving as the switching boundary between the Earth-centered and Moon-centered two-bo..."
   image: /logo.png
 permalink: /en/glossary/dynamics/pseudostate-transformation-sphere/
 ---

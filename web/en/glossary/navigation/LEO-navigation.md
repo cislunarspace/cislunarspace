@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: LEO Navigation Augmentation Details | Navigation
+  title: "LEO Navigation Augmentation Details | Navigation"
   description: LEO navigation augmentation is a technology that uses low Earth orbit satellite signals to enhance the performance of existing GNSS navigation systems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LEO Navigation Augmentation Details | Navigation
+  title: "LEO Navigation Augmentation Details | Navigation"
   description: LEO navigation augmentation is a technology that uses low Earth orbit satellite signals to enhance the performance of existing GNSS navigation systems.
   image: /logo.png
 permalink: /en/glossary/navigation/LEO-navigation/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Non-Escape Direction Explained | Term Definition
+  title: "Non-Escape Direction Explained | Term Definition"
   description: A direction vector s in the xy-plane, orthogonal to the escape direction. A velocity increment along this direction changes the orbit amplitude without excit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Non-Escape Direction Explained | Term Definition
+  title: "Non-Escape Direction Explained | Term Definition"
   description: A direction vector s in the xy-plane, orthogonal to the escape direction. A velocity increment along this direction changes the orbit amplitude without excit...
   image: /logo.png
 permalink: /en/glossary/dynamics/non-escape-direction/

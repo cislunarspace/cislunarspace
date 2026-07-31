@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Aerospace Vehicle | Terminology Definition
+  title: "Aerospace Vehicle | Terminology Definition"
   description: Detailed analysis of the definition, classification, flight phase division, and core role of aerospace vehicles
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Aerospace Vehicle | Terminology Definition
+  title: "Aerospace Vehicle | Terminology Definition"
   description: Detailed analysis of the definition, classification, flight phase division, and core role of aerospace vehicles
   image: /logo.png
 permalink: /en/glossary/fundamentals/aerospace-vehicle/

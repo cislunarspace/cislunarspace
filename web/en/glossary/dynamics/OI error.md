@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Injection Error Explained | Term Definition
+  title: "Orbit Injection Error Explained | Term Definition"
   description: Initial position and velocity deviations at orbit injection, modeled with zero-mean Gaussian distributions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Injection Error Explained | Term Definition
+  title: "Orbit Injection Error Explained | Term Definition"
   description: Initial position and velocity deviations at orbit injection, modeled with zero-mean Gaussian distributions.
   image: /logo.png
 permalink: /en/glossary/dynamics/OI error/

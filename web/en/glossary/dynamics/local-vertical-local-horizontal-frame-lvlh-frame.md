@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Local-Vertical-Local-Horizontal Frame, LVLH Frame Explained | Term Definition
+  title: "Local-Vertical-Local-Horizontal Frame, LVLH Frame Explained | Term Definition"
   description: "A relative motion coordinate frame centered at the chief spacecraft: x-axis points from the Moon toward the chief (radial), z-axis aligns with the chief's angul"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Local-Vertical-Local-Horizontal Frame, LVLH Frame Explained | Term Definition
+  title: "Local-Vertical-Local-Horizontal Frame, LVLH Frame Explained | Term Definition"
   description: "A relative motion coordinate frame centered at the chief spacecraft: x-axis points from the Moon toward the chief (radial), z-axis aligns with the chief's angul"
   image: /logo.png
 permalink: /en/glossary/dynamics/local-vertical-local-horizontal-frame-lvlh-frame/

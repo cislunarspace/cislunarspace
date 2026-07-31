@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Normalized Innovation Squared, NIS Explained | Term Definition
+  title: "Normalized Innovation Squared, NIS Explained | Term Definition"
   description: The squared Mahalanobis distance of the innovation vector with respect to its theoretical covariance matrix. Under optimal Kalman filter conditions, NIS...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Normalized Innovation Squared, NIS Explained | Term Definition
+  title: "Normalized Innovation Squared, NIS Explained | Term Definition"
   description: The squared Mahalanobis distance of the innovation vector with respect to its theoretical covariance matrix. Under optimal Kalman filter conditions, NIS...
   image: /logo.png
 permalink: /en/glossary/fundamentals/normalized-innovation-squared-nis/

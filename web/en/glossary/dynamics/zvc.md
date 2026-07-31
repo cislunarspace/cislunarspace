@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Zero-Velocity Curve Explained | Term Definition
+  title: "Zero-Velocity Curve Explained | Term Definition"
   description: "An equipotential contour determined by the Jacobi constant in the CR3BP. It separates the accessible and forbidden regions for a spacecraft: when velocity is ze"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero-Velocity Curve Explained | Term Definition
+  title: "Zero-Velocity Curve Explained | Term Definition"
   description: "An equipotential contour determined by the Jacobi constant in the CR3BP. It separates the accessible and forbidden regions for a spacecraft: when velocity is ze"
   image: /logo.png
 permalink: /en/glossary/dynamics/zvc/

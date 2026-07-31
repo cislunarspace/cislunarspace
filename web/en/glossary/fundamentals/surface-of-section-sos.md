@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Surface of Section, SOS Explained | Term Definition
+  title: "Surface of Section, SOS Explained | Term Definition"
   description: A hyperplane that reduces a continuous dynamical system to a discrete map. In the circular restricted three-body problem, the SOS is commonly defined by y=0 ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Surface of Section, SOS Explained | Term Definition
+  title: "Surface of Section, SOS Explained | Term Definition"
   description: A hyperplane that reduces a continuous dynamical system to a discrete map. In the circular restricted three-body problem, the SOS is commonly defined by y=0 ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/surface-of-section-sos/

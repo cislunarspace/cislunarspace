@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Lunar Glare Zone Explained | Cone of Shame
+  title: "Lunar Glare Zone Explained | Cone of Shame"
   description: Detailed explanation of the lunar glare zone (cone of shame) including definition, cause, extent, and impact on cislunar optical observation
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Glare Zone Explained | Cone of Shame
+  title: "Lunar Glare Zone Explained | Cone of Shame"
   description: Detailed explanation of the lunar glare zone (cone of shame) including definition, cause, extent, and impact on cislunar optical observation
   image: /logo.png
 permalink: /en/glossary/observation/lunar-glare-zone/

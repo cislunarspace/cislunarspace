@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Conley-McGehee Tube Explained | Term Definition
+  title: "Conley-McGehee Tube Explained | Term Definition"
   description: In the restricted three-body problem, the two-dimensional tubular structure formed by stable and unstable manifolds of a Lyapunov orbit expanding in configur...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Conley-McGehee Tube Explained | Term Definition
+  title: "Conley-McGehee Tube Explained | Term Definition"
   description: In the restricted three-body problem, the two-dimensional tubular structure formed by stable and unstable manifolds of a Lyapunov orbit expanding in configur...
   image: /logo.png
 permalink: /en/glossary/dynamics/conley-mcgehee-tube/

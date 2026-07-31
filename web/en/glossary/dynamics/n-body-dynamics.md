@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: N-Body Dynamics Explained | Term Definition
+  title: "N-Body Dynamics Explained | Term Definition"
   description: A dynamical model incorporating the motion of multiple gravitational bodies, higher-fidelity than CR3BP, including solar gravitational perturbations and planetary ephemerides.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: N-Body Dynamics Explained | Term Definition
+  title: "N-Body Dynamics Explained | Term Definition"
   description: A dynamical model incorporating the motion of multiple gravitational bodies, higher-fidelity than CR3BP, including solar gravitational perturbations and planetary ephemerides.
   image: /logo.png
 permalink: /en/glossary/dynamics/n-body-dynamics/

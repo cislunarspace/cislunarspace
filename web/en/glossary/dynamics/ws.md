@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Stable Manifold Explained | Term Definition
+  title: "Stable Manifold Explained | Term Definition"
   description: In manifold theory, the stable manifold of a periodic orbit consists of all phase trajectories that asymptotically approach it. A spacecraft on the stable manif
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stable Manifold Explained | Term Definition
+  title: "Stable Manifold Explained | Term Definition"
   description: In manifold theory, the stable manifold of a periodic orbit consists of all phase trajectories that asymptotically approach it. A spacecraft on the stable manif
   image: /logo.png
 permalink: /en/glossary/dynamics/ws/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Declination Deviation Explained | Term Definition
+  title: "Declination Deviation Explained | Term Definition"
   description: The difference in declination between the spacecraft and the target body in the geocentric equatorial inertial frame. Used together with right ascension...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Declination Deviation Explained | Term Definition
+  title: "Declination Deviation Explained | Term Definition"
   description: The difference in declination between the spacecraft and the target body in the geocentric equatorial inertial frame. Used together with right ascension...
   image: /logo.png
 permalink: /en/glossary/fundamentals/declination-deviation/

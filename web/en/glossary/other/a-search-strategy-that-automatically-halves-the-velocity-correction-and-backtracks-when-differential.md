@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: A search strategy that automatically halves the velocity correction and backtracks when differential correction iteration enters an erroneous region (integration reaches the fixed time limit without satisfying the flight path angle constraint). In the strongly nonlinear phase space around Halo orbits, standard differential correction tends to diverge or converge to large-impulse trajectories. Backstepping search progressively reduces the correction step size until the iteration escapes the erroneous region and finds a solution satisfying the termination condition, improving convergence robustness. Explained | Term Definition
+  title: "A search strategy that automatically halves the velocity correction and backtracks when differential correction iteration enters an erroneous region (integration reaches the fixed time limit without satisfying the flight path angle constraint). In the strongly nonlinear phase space around Halo orbits, standard differential correction tends to diverge or converge to large-impulse trajectories. Backstepping search progressively reduces the correction step size until the iteration escapes the erroneous region and finds a solution satisfying the termination condition, improving convergence robustness. Explained | Term Definition"
   description: 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: A search strategy that automatically halves the velocity correction and backtracks when differential correction iteration enters an erroneous region (integration reaches the fixed time limit without satisfying the flight path angle constraint). In the strongly nonlinear phase space around Halo orbits, standard differential correction tends to diverge or converge to large-impulse trajectories. Backstepping search progressively reduces the correction step size until the iteration escapes the erroneous region and finds a solution satisfying the termination condition, improving convergence robustness. Explained | Term Definition
+  title: "A search strategy that automatically halves the velocity correction and backtracks when differential correction iteration enters an erroneous region (integration reaches the fixed time limit without satisfying the flight path angle constraint). In the strongly nonlinear phase space around Halo orbits, standard differential correction tends to diverge or converge to large-impulse trajectories. Backstepping search progressively reduces the correction step size until the iteration escapes the erroneous region and finds a solution satisfying the termination condition, improving convergence robustness. Explained | Term Definition"
   description: 
   image: /logo.png
 permalink: /en/glossary/other/a-search-strategy-that-automatically-halves-the-velocity-correction-and-backtracks-when-differential/

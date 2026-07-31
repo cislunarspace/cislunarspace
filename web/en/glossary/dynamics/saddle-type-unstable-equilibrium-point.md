@@ -1,6 +1,6 @@
 ---
 title: Saddle-Type Unstable Equilibrium Point
-description: The dynamical nature of collinear libration points (L1, L2, L3): their linearized state matrices have eigenvalues with both positive and negative real parts, forming a saddle structure in phase space. A spacecraft near such a point diverges approximately exponentially along unstable manifolds under small perturbations, requiring continuous active control for sustained orbiting.
+description: "The dynamical nature of collinear libration points (L1, L2, L3): their linearized state matrices have eigenvalues with both positive and negative real parts, forming a saddle structure in phase space. A spacecraft near such a point diverges approximately exponentially along unstable manifolds under small perturbations, requiring continuous active control for sustained orbiting."
 keywords: Saddle-Type Unstable Equilibrium Point, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Saddle-Type Unstable Equilibrium Point Explained | Term Definition
-  description: The dynamical nature of collinear libration points (L1, L2, L3): their linearized state matrices have eigenvalues with both positive and negative real parts, forming a saddle structure in phase space. A spacecraft near such a point diverges approximately exponentially along unstable manifolds under small perturbations, requiring continuous active control for sustained orbiting.
+  title: "Saddle-Type Unstable Equilibrium Point Explained | Term Definition"
+  description: "The dynamical nature of collinear libration points (L1, L2, L3): their linearized state matrices have eigenvalues with both positive and negative real parts, forming a saddle structure in phase space. A spacecraft near such a point diverges approximately exponentially along unstable manifolds under small perturbations, requiring continuous active control for sustained orbiting."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Saddle-Type Unstable Equilibrium Point Explained | Term Definition
-  description: The dynamical nature of collinear libration points (L1, L2, L3): their linearized state matrices have eigenvalues with both positive and negative real parts, forming a saddle structure in phase space. A spacecraft near such a point diverges approximately exponentially along unstable manifolds under small perturbations, requiring continuous active control for sustained orbiting.
+  title: "Saddle-Type Unstable Equilibrium Point Explained | Term Definition"
+  description: "The dynamical nature of collinear libration points (L1, L2, L3): their linearized state matrices have eigenvalues with both positive and negative real parts, forming a saddle structure in phase space. A spacecraft near such a point diverges approximately exponentially along unstable manifolds under small perturbations, requiring continuous active control for sustained orbiting."
   image: /logo.png
 permalink: /en/glossary/dynamics/saddle-type-unstable-equilibrium-point/
 ---

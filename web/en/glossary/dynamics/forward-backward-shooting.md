@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Forward-Backward Shooting Explained | Term Definition
+  title: "Forward-Backward Shooting Explained | Term Definition"
   description: A numerical method that divides a transfer trajectory into forward and backward segments, integrates each separately, and matches the intermediate position t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Forward-Backward Shooting Explained | Term Definition
+  title: "Forward-Backward Shooting Explained | Term Definition"
   description: A numerical method that divides a transfer trajectory into forward and backward segments, integrates each separately, and matches the intermediate position t...
   image: /logo.png
 permalink: /en/glossary/dynamics/forward-backward-shooting/

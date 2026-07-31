@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Line Element Set Explained | Term Definition
+  title: "Two-Line Element Set Explained | Term Definition"
   description: A spacecraft orbital element data format published by US Air Force Space Command, encoded in two 69-character lines. Contains information including mean motion, eccentricity, and atmospheric drag parameters, used for orbit prediction. Widely used in commercial and military space situational awareness.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Line Element Set Explained | Term Definition
+  title: "Two-Line Element Set Explained | Term Definition"
   description: A spacecraft orbital element data format published by US Air Force Space Command, encoded in two 69-character lines. Contains information including mean motion, eccentricity, and atmospheric drag parameters, used for orbit prediction. Widely used in commercial and military space situational awareness.
   image: /logo.png
 permalink: /en/glossary/observation/two-line-element-set/

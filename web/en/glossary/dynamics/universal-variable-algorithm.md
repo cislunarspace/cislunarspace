@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Universal Variable Algorithm Explained | Term Definition
+  title: "Universal Variable Algorithm Explained | Term Definition"
   description: A semi-analytical method that uses Lagrange coefficients and Stumpff functions to construct an algebraic solution for the standard Lambert problem.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Universal Variable Algorithm Explained | Term Definition
+  title: "Universal Variable Algorithm Explained | Term Definition"
   description: A semi-analytical method that uses Lagrange coefficients and Stumpff functions to construct an algebraic solution for the standard Lambert problem.
   image: /logo.png
 permalink: /en/glossary/dynamics/universal-variable-algorithm/

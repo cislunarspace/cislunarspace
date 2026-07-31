@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chamber Pressure, pc Explained | Term Definition
+  title: "Chamber Pressure, pc Explained | Term Definition"
   description: Gas pressure inside rocket combustion chamber, key parameter in engine design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chamber Pressure, pc Explained | Term Definition
+  title: "Chamber Pressure, pc Explained | Term Definition"
   description: Gas pressure inside rocket combustion chamber, key parameter in engine design
   image: /logo.png
 permalink: /en/glossary/fundamentals/chamber-pressure/

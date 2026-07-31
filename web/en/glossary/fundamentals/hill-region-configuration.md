@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill Region Configuration Explained | Term Definition
+  title: "Hill Region Configuration Explained | Term Definition"
   description: "In the CRTBP, the values of the Jacobi constant at the five libration points divide the Hill regions into five configurations, each admitting different transpor"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Region Configuration Explained | Term Definition
+  title: "Hill Region Configuration Explained | Term Definition"
   description: "In the CRTBP, the values of the Jacobi constant at the five libration points divide the Hill regions into five configurations, each admitting different transpor"
   image: /logo.png
 permalink: /en/glossary/fundamentals/hill-region-configuration/

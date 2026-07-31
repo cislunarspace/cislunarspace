@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Methods Explained | Term Definition
+  title: "Indirect Methods Explained | Term Definition"
   description: A class of trajectory optimization methods that derives first-order necessary conditions (co-state equations, Hamiltonian, etc.) via variational calculus and Po
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Methods Explained | Term Definition
+  title: "Indirect Methods Explained | Term Definition"
   description: A class of trajectory optimization methods that derives first-order necessary conditions (co-state equations, Hamiltonian, etc.) via variational calculus and Po
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-methods/

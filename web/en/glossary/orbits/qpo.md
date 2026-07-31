@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Quasi-Periodic Orbit, QPO Explained | Term Definition
+  title: "Quasi-Periodic Orbit, QPO Explained | Term Definition"
   description: An orbit with multiple incommensurable frequencies that serves as a nominal trajectory, replacing the geometric libration point in the quasi-periodic model.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Quasi-Periodic Orbit, QPO Explained | Term Definition
+  title: "Quasi-Periodic Orbit, QPO Explained | Term Definition"
   description: An orbit with multiple incommensurable frequencies that serves as a nominal trajectory, replacing the geometric libration point in the quasi-periodic model.
   image: /logo.png
 permalink: /en/glossary/orbits/qpo/

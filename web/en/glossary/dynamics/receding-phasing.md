@@ -1,6 +1,6 @@
 ---
 title: Receding Phasing
-description: A phasing mode where the time phase difference is negative, meaning the phasing orbit reaches the target point later than the target spacecraft's natural mot...
+description: "A phasing mode where the time phase difference is negative, meaning the phasing orbit reaches the target point later than the target spacecraft's natural mot..."
 keywords: Receding Phasing
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Receding Phasing Explained | Term Definition
-  description: A phasing mode where the time phase difference is negative, meaning the phasing orbit reaches the target point later than the target spacecraft's natural mot...
+  title: "Receding Phasing Explained | Term Definition"
+  description: "A phasing mode where the time phase difference is negative, meaning the phasing orbit reaches the target point later than the target spacecraft's natural mot..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Receding Phasing Explained | Term Definition
-  description: A phasing mode where the time phase difference is negative, meaning the phasing orbit reaches the target point later than the target spacecraft's natural mot...
+  title: "Receding Phasing Explained | Term Definition"
+  description: "A phasing mode where the time phase difference is negative, meaning the phasing orbit reaches the target point later than the target spacecraft's natural mot..."
   image: /logo.png
 permalink: /en/glossary/dynamics/receding-phasing/
 ---

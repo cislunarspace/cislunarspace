@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Light Pressure Factor, β Explained | Term Definition
+  title: "Light Pressure Factor, β Explained | Term Definition"
   description: A dimensionless parameter characterizing the propulsion capability of a solar sail, defined as the ratio of solar radiation pressure force to solar gravitati...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Light Pressure Factor, β Explained | Term Definition
+  title: "Light Pressure Factor, β Explained | Term Definition"
   description: A dimensionless parameter characterizing the propulsion capability of a solar sail, defined as the ratio of solar radiation pressure force to solar gravitati...
   image: /logo.png
 permalink: /en/glossary/fundamentals/light-pressure-factor/

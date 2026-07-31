@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Disturbed Manifold Explained | Term Definition
+  title: "Disturbed Manifold Explained | Term Definition"
   description: A modified manifold formed by applying a velocity impulse along the natural unstable manifold. Since the natural manifold typically does not reach the target orbit altitude, a deliberate maneuver at a chosen point redirects the trajectory, enabling it to intersect the target orbit. Disturbed manifolds extend the feasible transfer region beyond the fixed intersection points of natural zero-cost trajectories.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Disturbed Manifold Explained | Term Definition
+  title: "Disturbed Manifold Explained | Term Definition"
   description: A modified manifold formed by applying a velocity impulse along the natural unstable manifold. Since the natural manifold typically does not reach the target orbit altitude, a deliberate maneuver at a chosen point redirects the trajectory, enabling it to intersect the target orbit. Disturbed manifolds extend the feasible transfer region beyond the fixed intersection points of natural zero-cost trajectories.
   image: /logo.png
 permalink: /en/glossary/dynamics/disturbed-manifold/

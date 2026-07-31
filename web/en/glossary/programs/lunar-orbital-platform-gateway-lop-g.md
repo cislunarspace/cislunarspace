@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Orbital Platform-Gateway, LOP-G Explained | Term Definition
+  title: "Lunar Orbital Platform-Gateway, LOP-G Explained | Term Definition"
   description: A NASA-led lunar orbital space station program, later renamed Gateway, as a key component of the Artemis program. The station operates on a 9:2 resonant southern NRHO near the Earth-Moon L2 point. It is designed to support crewed lunar landings, deep-space exploration preparation, and space science research, and serves as the landmark engineering application of NRHO orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Orbital Platform-Gateway, LOP-G Explained | Term Definition
+  title: "Lunar Orbital Platform-Gateway, LOP-G Explained | Term Definition"
   description: A NASA-led lunar orbital space station program, later renamed Gateway, as a key component of the Artemis program. The station operates on a 9:2 resonant southern NRHO near the Earth-Moon L2 point. It is designed to support crewed lunar landings, deep-space exploration preparation, and space science research, and serves as the landmark engineering application of NRHO orbits.
   image: /logo.png
 permalink: /en/glossary/programs/lunar-orbital-platform-gateway-lop-g/

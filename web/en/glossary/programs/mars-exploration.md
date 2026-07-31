@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Mars Exploration Details | Exploration Programs
+  title: "Mars Exploration Details | Exploration Programs"
   description: Mars exploration refers to robotic and crewed scientific activities exploring Mars and its surrounding space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mars Exploration Details | Exploration Programs
+  title: "Mars Exploration Details | Exploration Programs"
   description: Mars exploration refers to robotic and crewed scientific activities exploring Mars and its surrounding space.
   image: /logo.png
 permalink: /en/glossary/programs/mars-exploration/

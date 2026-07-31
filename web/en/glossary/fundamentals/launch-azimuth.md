@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Launch Azimuth | Terminology Definition
+  title: "Launch Azimuth | Terminology Definition"
   description: Detailed explanation of the launch azimuth definition and determination method
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Launch Azimuth | Terminology Definition
+  title: "Launch Azimuth | Terminology Definition"
   description: Detailed explanation of the launch azimuth definition and determination method
   image: /logo.png
 permalink: /en/glossary/fundamentals/launch-azimuth/

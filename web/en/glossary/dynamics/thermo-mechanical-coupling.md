@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Thermo-mechanical Coupling Model | Airship Dynamics
+  title: "Thermo-mechanical Coupling Model | Airship Dynamics"
   description: A detailed analysis of thermo-mechanical coupling modeling principles, coupling variables, cross-coupling mechanisms, and their effects on regional station-keeping control
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thermo-mechanical Coupling Model | Airship Dynamics
+  title: "Thermo-mechanical Coupling Model | Airship Dynamics"
   description: A detailed analysis of thermo-mechanical coupling modeling principles, coupling variables, cross-coupling mechanisms, and their effects on regional station-keeping control
   image: /logo.png
 permalink: /en/glossary/dynamics/thermo-mechanical-coupling/

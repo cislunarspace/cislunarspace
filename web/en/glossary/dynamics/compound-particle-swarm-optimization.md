@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Compound Particle Swarm Optimization Explained | Term Definition
+  title: "Compound Particle Swarm Optimization Explained | Term Definition"
   description: An improved particle swarm optimization algorithm that emphasizes the role of local optimal particles in the early stage to enhance global search capability
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Compound Particle Swarm Optimization Explained | Term Definition
+  title: "Compound Particle Swarm Optimization Explained | Term Definition"
   description: An improved particle swarm optimization algorithm that emphasizes the role of local optimal particles in the early stage to enhance global search capability
   image: /logo.png
 permalink: /en/glossary/dynamics/compound-particle-swarm-optimization/

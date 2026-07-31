@@ -1,7 +1,7 @@
 ---
 title: Co-state Variables
 description: Detailed explanation of co-state variables definition, physical meaning, mathematical formulation, and their central role in optimal control and trajectory optimization
-keywords: Co-state Variables, Lagrange multiplier, optimal control, Pontryagin's Maximum Principle, Hamiltonian, trajectory optimization
+keywords: "Co-state Variables, Lagrange multiplier, optimal control, Pontryagin's Maximum Principle, Hamiltonian, trajectory optimization"
 author: Tianjiang Shuo
 date: 2026-06-05
 lastUpdated: 2026-06-05
@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Co-state Variables Details | Hidden Variables in Optimal Control Theory
+  title: "Co-state Variables Details | Hidden Variables in Optimal Control Theory"
   description: Detailed explanation of co-state variables definition, physical meaning, mathematical formulation, and their central role in optimal control and trajectory optimization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Co-state Variables Details | Hidden Variables in Optimal Control Theory
+  title: "Co-state Variables Details | Hidden Variables in Optimal Control Theory"
   description: Detailed explanation of co-state variables definition, physical meaning, mathematical formulation, and their central role in optimal control and trajectory optimization
   image: /logo.png
 permalink: /en/glossary/dynamics/co-state-variables/

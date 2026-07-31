@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bang-bang Solution Explained | Term Definition
+  title: "Bang-bang Solution Explained | Term Definition"
   description: A typical solution structure for fuel-optimal control problems, where the control switches between maximum value and zero with no intermediate thrust arcs. T...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bang-bang Solution Explained | Term Definition
+  title: "Bang-bang Solution Explained | Term Definition"
   description: A typical solution structure for fuel-optimal control problems, where the control switches between maximum value and zero with no intermediate thrust arcs. T...
   image: /logo.png
 permalink: /en/glossary/dynamics/bang-bang-solution/

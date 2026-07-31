@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Three-Impulse Orbit Insertion Explained | Term Definition
+  title: "Three-Impulse Orbit Insertion Explained | Term Definition"
   description: The standard orbit insertion method from LEO to DRO. The first impulse departs LEO, the second at perilune redirects to DRO transfer, and the third at DRO inser
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Three-Impulse Orbit Insertion Explained | Term Definition
+  title: "Three-Impulse Orbit Insertion Explained | Term Definition"
   description: The standard orbit insertion method from LEO to DRO. The first impulse departs LEO, the second at perilune redirects to DRO transfer, and the third at DRO inser
   image: /logo.png
 permalink: /en/glossary/dynamics/three-impulse-orbit-insertion/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: In-Space Assembly and Manufacturing, ISAM Explained | Term Definition
+  title: "In-Space Assembly and Manufacturing, ISAM Explained | Term Definition"
   description: A technology paradigm for fabricating and assembling large structures directly on orbit. Unlike the traditional constraint of fitting components into a rocket...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-Space Assembly and Manufacturing, ISAM Explained | Term Definition
+  title: "In-Space Assembly and Manufacturing, ISAM Explained | Term Definition"
   description: A technology paradigm for fabricating and assembling large structures directly on orbit. Unlike the traditional constraint of fitting components into a rocket...
   image: /logo.png
 permalink: /en/glossary/fundamentals/ISAM/

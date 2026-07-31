@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Partner Transfer Explained | Term Definition
+  title: "Partner Transfer Explained | Term Definition"
   description: Paired transfers associated with L1 and L2 orbits that are geometrically nearly symmetric.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Partner Transfer Explained | Term Definition
+  title: "Partner Transfer Explained | Term Definition"
   description: Paired transfers associated with L1 and L2 orbits that are geometrically nearly symmetric.
   image: /logo.png
 permalink: /en/glossary/orbits/partner-transfer/

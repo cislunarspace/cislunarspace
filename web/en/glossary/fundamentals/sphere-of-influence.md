@@ -1,6 +1,6 @@
 ---
 title: Sphere of Influence
-description: The spherical region dominated by a celestial body's gravity, within which that body's gravity is the primary perturbation. Earth's SOI is approximately 927,000 km and Moon's SOI is approximately 66,0...
+description: "The spherical region dominated by a celestial body's gravity, within which that body's gravity is the primary perturbation. Earth's SOI is approximately 927,000 km and Moon's SOI is approximately 66,0..."
 keywords: Sphere of Influence, cislunar space, orbital mechanics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sphere of Influence Explained | Term Definition
-  description: The spherical region dominated by a celestial body's gravity, within which that body's gravity is the primary perturbation. Earth's SOI is approximately 927,000 km and Moon's SOI is approximately 66,0...
+  title: "Sphere of Influence Explained | Term Definition"
+  description: "The spherical region dominated by a celestial body's gravity, within which that body's gravity is the primary perturbation. Earth's SOI is approximately 927,000 km and Moon's SOI is approximately 66,0..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sphere of Influence Explained | Term Definition
-  description: The spherical region dominated by a celestial body's gravity, within which that body's gravity is the primary perturbation. Earth's SOI is approximately 927,000 km and Moon's SOI is approximately 66,0...
+  title: "Sphere of Influence Explained | Term Definition"
+  description: "The spherical region dominated by a celestial body's gravity, within which that body's gravity is the primary perturbation. Earth's SOI is approximately 927,000 km and Moon's SOI is approximately 66,0..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/sphere-of-influence/
 ---

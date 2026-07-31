@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Line-of-Sight Glide, LoS-G Explained | Term Definition
+  title: "Line-of-Sight Glide, LoS-G Explained | Term Definition"
   description: A geometric strategy where the chaser does not cross the line-of-sight but remains on the same side of the cone during approach.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Line-of-Sight Glide, LoS-G Explained | Term Definition
+  title: "Line-of-Sight Glide, LoS-G Explained | Term Definition"
   description: A geometric strategy where the chaser does not cross the line-of-sight but remains on the same side of the cone during approach.
   image: /logo.png
 permalink: /en/glossary/navigation/LoS-G/

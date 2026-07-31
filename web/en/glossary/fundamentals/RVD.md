@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Orbital Rendezvous and Docking, RVD Explained | Term Definition
+  title: "Lunar Orbital Rendezvous and Docking, RVD Explained | Term Definition"
   description: "The process by which the orbiter-return combination in lunar orbit rendezvous and docks with the ascent module. Used in Chang'e-5 and Chang'e-6 missions; after "
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Orbital Rendezvous and Docking, RVD Explained | Term Definition
+  title: "Lunar Orbital Rendezvous and Docking, RVD Explained | Term Definition"
   description: "The process by which the orbiter-return combination in lunar orbit rendezvous and docks with the ascent module. Used in Chang'e-5 and Chang'e-6 missions; after "
   image: /logo.png
 permalink: /en/glossary/fundamentals/RVD/

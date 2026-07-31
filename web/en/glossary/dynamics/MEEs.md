@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Modified Equinoctial Elements, MEEs Explained | Term Definition
+  title: "Modified Equinoctial Elements, MEEs Explained | Term Definition"
   description: A non-singular set of orbital elements for low-thrust trajectory optimization, consisting of the semilatus rectum P, eccentricity vector components (ex, ey),...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Modified Equinoctial Elements, MEEs Explained | Term Definition
+  title: "Modified Equinoctial Elements, MEEs Explained | Term Definition"
   description: A non-singular set of orbital elements for low-thrust trajectory optimization, consisting of the semilatus rectum P, eccentricity vector components (ex, ey),...
   image: /logo.png
 permalink: /en/glossary/dynamics/MEEs/

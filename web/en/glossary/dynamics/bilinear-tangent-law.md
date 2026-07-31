@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bilinear Tangent Law Explained | Term Definition
+  title: "Bilinear Tangent Law Explained | Term Definition"
   description: The propellant-optimal thrust attitude law for landing in a uniform gravity field. The tangent of the thrust angle is a rational function of time. Degenerate...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bilinear Tangent Law Explained | Term Definition
+  title: "Bilinear Tangent Law Explained | Term Definition"
   description: The propellant-optimal thrust attitude law for landing in a uniform gravity field. The tangent of the thrust angle is a rational function of time. Degenerate...
   image: /logo.png
 permalink: /en/glossary/dynamics/bilinear-tangent-law/

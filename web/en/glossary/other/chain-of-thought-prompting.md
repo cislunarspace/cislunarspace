@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:
-  title: Chain-of-Thought (CoT) Prompting | LLM Reasoning Enhancement
+  title: "Chain-of-Thought (CoT) Prompting | LLM Reasoning Enhancement"
   description: A prompting technique that guides LLMs to output intermediate reasoning steps, improving complex reasoning performance
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chain-of-Thought (CoT) Prompting | LLM Reasoning Enhancement
+  title: "Chain-of-Thought (CoT) Prompting | LLM Reasoning Enhancement"
   description: A prompting technique that guides LLMs to output intermediate reasoning steps, improving complex reasoning performance
   image: /logo.png
 permalink: /en/glossary/other/chain-of-thought-prompting/

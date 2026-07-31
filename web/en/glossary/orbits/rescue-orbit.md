@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Rescue Orbit Explained | Term Definition
+  title: "Rescue Orbit Explained | Term Definition"
   description: "A low-energy transfer path from a launch point on the Moon's surface to a libration point orbit (Halo or Lissajous) via the associated stable invariant manifold"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Rescue Orbit Explained | Term Definition
+  title: "Rescue Orbit Explained | Term Definition"
   description: "A low-energy transfer path from a launch point on the Moon's surface to a libration point orbit (Halo or Lissajous) via the associated stable invariant manifold"
   image: /logo.png
 permalink: /en/glossary/orbits/rescue-orbit/

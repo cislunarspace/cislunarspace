@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: High-Precision Cislunar Space-Time Benchmark Explained | Term Definition
+  title: "High-Precision Cislunar Space-Time Benchmark Explained | Term Definition"
   description: A foundational framework providing unified time and space references for high-precision navigation and positioning in cislunar space. The paper indicates that constructing and maintaining this benchma...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: High-Precision Cislunar Space-Time Benchmark Explained | Term Definition
+  title: "High-Precision Cislunar Space-Time Benchmark Explained | Term Definition"
   description: A foundational framework providing unified time and space references for high-precision navigation and positioning in cislunar space. The paper indicates that constructing and maintaining this benchma...
   image: /logo.png
 permalink: /en/glossary/navigation/high-precision-cislunar-space-time-benchmark/

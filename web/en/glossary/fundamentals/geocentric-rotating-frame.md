@@ -1,6 +1,6 @@
 ---
 title: Geocentric Rotating Frame
-description: A rotating reference frame with Earth's center as origin, the Earth-Moon line as x-axis, and the Moon's orbital angular momentum direction as z-axis. Unlike ...
+description: "A rotating reference frame with Earth's center as origin, the Earth-Moon line as x-axis, and the Moon's orbital angular momentum direction as z-axis. Unlike ..."
 keywords: Geocentric Rotating Frame
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Rotating Frame Explained | Term Definition
-  description: A rotating reference frame with Earth's center as origin, the Earth-Moon line as x-axis, and the Moon's orbital angular momentum direction as z-axis. Unlike ...
+  title: "Geocentric Rotating Frame Explained | Term Definition"
+  description: "A rotating reference frame with Earth's center as origin, the Earth-Moon line as x-axis, and the Moon's orbital angular momentum direction as z-axis. Unlike ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Rotating Frame Explained | Term Definition
-  description: A rotating reference frame with Earth's center as origin, the Earth-Moon line as x-axis, and the Moon's orbital angular momentum direction as z-axis. Unlike ...
+  title: "Geocentric Rotating Frame Explained | Term Definition"
+  description: "A rotating reference frame with Earth's center as origin, the Earth-Moon line as x-axis, and the Moon's orbital angular momentum direction as z-axis. Unlike ..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/geocentric-rotating-frame/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Legendre-Gauss Point, LG Point Explained | Term Definition
+  title: "Legendre-Gauss Point, LG Point Explained | Term Definition"
   description: The roots of Legendre polynomials in the open interval (-1, 1). Used as collocation points in the Gauss pseudospectral method, these K interior points exclude t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Legendre-Gauss Point, LG Point Explained | Term Definition
+  title: "Legendre-Gauss Point, LG Point Explained | Term Definition"
   description: The roots of Legendre polynomials in the open interval (-1, 1). Used as collocation points in the Gauss pseudospectral method, these K interior points exclude t
   image: /logo.png
 permalink: /en/glossary/fundamentals/lg点/

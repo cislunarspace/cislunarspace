@@ -1,6 +1,6 @@
 ---
 title: Permanent Lunar Capture
-description: The process of using low-thrust to increase a spacecraft's Jacobi energy beyond C₁, closing the neck region and permanently confining the spacecraft within the 
+description: "The process of using low-thrust to increase a spacecraft's Jacobi energy beyond C₁, closing the neck region and permanently confining the spacecraft within the "
 keywords: Permanent Lunar Capture, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Permanent Lunar Capture Explained | Term Definition
-  description: The process of using low-thrust to increase a spacecraft's Jacobi energy beyond C₁, closing the neck region and permanently confining the spacecraft within the 
+  title: "Permanent Lunar Capture Explained | Term Definition"
+  description: "The process of using low-thrust to increase a spacecraft's Jacobi energy beyond C₁, closing the neck region and permanently confining the spacecraft within the "
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Permanent Lunar Capture Explained | Term Definition
-  description: The process of using low-thrust to increase a spacecraft's Jacobi energy beyond C₁, closing the neck region and permanently confining the spacecraft within the 
+  title: "Permanent Lunar Capture Explained | Term Definition"
+  description: "The process of using low-thrust to increase a spacecraft's Jacobi energy beyond C₁, closing the neck region and permanently confining the spacecraft within the "
   image: /logo.png
 permalink: /en/glossary/dynamics/permanent-lunar-capture/
 ---

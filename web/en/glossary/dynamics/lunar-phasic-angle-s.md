@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Phasic Angle (θs) Explained | Term Definition
+  title: "Lunar Phasic Angle (θs) Explained | Term Definition"
   description: The parameter measuring the included angle between the line from the Sun to the barycenter of the Earth-Moon system and the intersecting line of the ecliptic and lunar planes.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Phasic Angle (θs) Explained | Term Definition
+  title: "Lunar Phasic Angle (θs) Explained | Term Definition"
   description: The parameter measuring the included angle between the line from the Sun to the barycenter of the Earth-Moon system and the intersecting line of the ecliptic and lunar planes.
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-phasic-angle-s/

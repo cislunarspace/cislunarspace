@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Selection Evaluation Explained | Term Definition
+  title: "Orbit Selection Evaluation Explained | Term Definition"
   description: "A quantitative comparison of candidate orbits across dimensions including delta-V, flight time, tracking and communication, lunar surface accessibility, landing"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Selection Evaluation Explained | Term Definition
+  title: "Orbit Selection Evaluation Explained | Term Definition"
   description: "A quantitative comparison of candidate orbits across dimensions including delta-V, flight time, tracking and communication, lunar surface accessibility, landing"
   image: /logo.png
 permalink: /en/glossary/programs/orbit-selection-evaluation/

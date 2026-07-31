@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Near Rectilinear Halo Orbit Explained | Term Definition
+  title: "Near Rectilinear Halo Orbit Explained | Term Definition"
   description: A family of halo orbits near Earth-Moon L1/L2 libration points, characterized by large vertical amplitude and nearly rectilinear shape, with orbital periods of 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Near Rectilinear Halo Orbit Explained | Term Definition
+  title: "Near Rectilinear Halo Orbit Explained | Term Definition"
   description: A family of halo orbits near Earth-Moon L1/L2 libration points, characterized by large vertical amplitude and nearly rectilinear shape, with orbital periods of 
   image: /logo.png
 permalink: /en/glossary/orbits/near-rectilinear-halo-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Theory of Functional Connections, TFC Explained | Term Definition
+  title: "Theory of Functional Connections, TFC Explained | Term Definition"
   description: A functional interpolation framework that derives constrained functionals analytically satisfying boundary constraints, converting two-point boundary value...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Theory of Functional Connections, TFC Explained | Term Definition
+  title: "Theory of Functional Connections, TFC Explained | Term Definition"
   description: A functional interpolation framework that derives constrained functionals analytically satisfying boundary constraints, converting two-point boundary value...
   image: /logo.png
 permalink: /en/glossary/dynamics/TFC/

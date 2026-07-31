@@ -1,6 +1,6 @@
 ---
 title: Earth-Moon Three-Body Problem with Solar Perturbation
-description: A planar dynamical model that extends the Earth-Moon CR3BP by adding the Sun's gravitational perturbation. Used to analyze solar perturbation effects on Earth-M
+description: "A planar dynamical model that extends the Earth-Moon CR3BP by adding the Sun's gravitational perturbation. Used to analyze solar perturbation effects on Earth-M"
 keywords: Earth-Moon Three-Body Problem with Solar Perturbation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon Three-Body Problem with Solar Perturbation Explained | Term Definition
-  description: A planar dynamical model that extends the Earth-Moon CR3BP by adding the Sun's gravitational perturbation. Used to analyze solar perturbation effects on Earth-M
+  title: "Earth-Moon Three-Body Problem with Solar Perturbation Explained | Term Definition"
+  description: "A planar dynamical model that extends the Earth-Moon CR3BP by adding the Sun's gravitational perturbation. Used to analyze solar perturbation effects on Earth-M"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Three-Body Problem with Solar Perturbation Explained | Term Definition
-  description: A planar dynamical model that extends the Earth-Moon CR3BP by adding the Sun's gravitational perturbation. Used to analyze solar perturbation effects on Earth-M
+  title: "Earth-Moon Three-Body Problem with Solar Perturbation Explained | Term Definition"
+  description: "A planar dynamical model that extends the Earth-Moon CR3BP by adding the Sun's gravitational perturbation. Used to analyze solar perturbation effects on Earth-M"
   image: /logo.png
 permalink: /en/glossary/dynamics/earth-moon-three-body-problem-with-solar-perturbation/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Rotating Coordinate System Explained | Term Definition
+  title: "Barycentric Rotating Coordinate System Explained | Term Definition"
   description: A rotating coordinate system centered at the barycenter of the Earth-Moon system, rotating together with the two primary bodies. In this frame, libration...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Rotating Coordinate System Explained | Term Definition
+  title: "Barycentric Rotating Coordinate System Explained | Term Definition"
   description: A rotating coordinate system centered at the barycenter of the Earth-Moon system, rotating together with the two primary bodies. In this frame, libration...
   image: /logo.png
 permalink: /en/glossary/dynamics/barycentric-rotating-coordinate-system/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Payload Field of View, PFOV (PFOV) Explained | Term Definition
+  title: "Payload Field of View, PFOV (PFOV) Explained | Term Definition"
   description: The angular range within which an optical observation payload can receive light, determining the spatial coverage per observation. In the paper, it is generally
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Payload Field of View, PFOV (PFOV) Explained | Term Definition
+  title: "Payload Field of View, PFOV (PFOV) Explained | Term Definition"
   description: The angular range within which an optical observation payload can receive light, determining the spatial coverage per observation. In the paper, it is generally
   image: /logo.png
 permalink: /en/glossary/observation/payload-field-of-view-pfov/

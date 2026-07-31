@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Full Lunar Surface Coverage Explained | Term Definition
+  title: "Full Lunar Surface Coverage Explained | Term Definition"
   description: A CN constellation achieves continuous 1-fold coverage of the entire lunar surface, including equatorial and polar regions. Neither a pure-halo nor a pure-DRO constellation can reach 100%; a hybrid...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Full Lunar Surface Coverage Explained | Term Definition
+  title: "Full Lunar Surface Coverage Explained | Term Definition"
   description: A CN constellation achieves continuous 1-fold coverage of the entire lunar surface, including equatorial and polar regions. Neither a pure-halo nor a pure-DRO constellation can reach 100%; a hybrid...
   image: /logo.png
 permalink: /en/glossary/orbits/full-lunar-surface-coverage/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Orbital Transfer Vehicle | Terminology Definition
+  title: "Orbital Transfer Vehicle | Terminology Definition"
   description: Detailed explanation of the Orbital Transfer Vehicle definition, functions, and applications
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Transfer Vehicle | Terminology Definition
+  title: "Orbital Transfer Vehicle | Terminology Definition"
   description: Detailed explanation of the Orbital Transfer Vehicle definition, functions, and applications
   image: /logo.png
 permalink: /en/glossary/fundamentals/orbital-transfer-vehicle/

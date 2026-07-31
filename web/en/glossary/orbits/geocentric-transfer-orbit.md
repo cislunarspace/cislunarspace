@@ -1,6 +1,6 @@
 ---
 title: Geocentric Transfer Orbit
-description: The Earth parking orbit entered after launch by Ariane-5, with GTO parameters: semiparameter 24661 km, eccentricity 0.716, inclination 7°, argument of perige...
+description: "The Earth parking orbit entered after launch by Ariane-5, with GTO parameters: semiparameter 24661 km, eccentricity 0.716, inclination 7°, argument of perige..."
 keywords: Geocentric Transfer Orbit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Geocentric Transfer Orbit Explained | Term Definition
-  description: The Earth parking orbit entered after launch by Ariane-5, with GTO parameters: semiparameter 24661 km, eccentricity 0.716, inclination 7°, argument of perige...
+  title: "Geocentric Transfer Orbit Explained | Term Definition"
+  description: "The Earth parking orbit entered after launch by Ariane-5, with GTO parameters: semiparameter 24661 km, eccentricity 0.716, inclination 7°, argument of perige..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Transfer Orbit Explained | Term Definition
-  description: The Earth parking orbit entered after launch by Ariane-5, with GTO parameters: semiparameter 24661 km, eccentricity 0.716, inclination 7°, argument of perige...
+  title: "Geocentric Transfer Orbit Explained | Term Definition"
+  description: "The Earth parking orbit entered after launch by Ariane-5, with GTO parameters: semiparameter 24661 km, eccentricity 0.716, inclination 7°, argument of perige..."
   image: /logo.png
 permalink: /en/glossary/orbits/geocentric-transfer-orbit/
 ---

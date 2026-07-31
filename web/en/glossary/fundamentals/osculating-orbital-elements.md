@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Osculating Orbital Elements Explained | Term Definition
+  title: "Osculating Orbital Elements Explained | Term Definition"
   description: The six Keplerian orbital elements of the ellipse a spacecraft would follow at any instant if all perturbations were frozen. As perturbations evolve, the trace 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Osculating Orbital Elements Explained | Term Definition
+  title: "Osculating Orbital Elements Explained | Term Definition"
   description: The six Keplerian orbital elements of the ellipse a spacecraft would follow at any instant if all perturbations were frozen. As perturbations evolve, the trace 
   image: /logo.png
 permalink: /en/glossary/fundamentals/osculating-orbital-elements/

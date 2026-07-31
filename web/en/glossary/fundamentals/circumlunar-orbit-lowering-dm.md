@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circumlunar Orbit Lowering, DM Explained | Term Definition
+  title: "Circumlunar Orbit Lowering, DM Explained | Term Definition"
   description: An orbital maneuver that reduces perilune altitude in lunar orbit to prepare for powered descent. In sampling and return missions, typically performed twice:...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circumlunar Orbit Lowering, DM Explained | Term Definition
+  title: "Circumlunar Orbit Lowering, DM Explained | Term Definition"
   description: An orbital maneuver that reduces perilune altitude in lunar orbit to prepare for powered descent. In sampling and return missions, typically performed twice:...
   image: /logo.png
 permalink: /en/glossary/fundamentals/circumlunar-orbit-lowering-dm/

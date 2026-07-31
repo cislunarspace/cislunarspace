@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Ion Propulsion Explained | Term Definition
+  title: "Ion Propulsion Explained | Term Definition"
   description: An electric propulsion technology that ionizes a noble gas (typically xenon) and accelerates it with electric fields. Exhaust velocities reach 20-50 km/s, far e
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Ion Propulsion Explained | Term Definition
+  title: "Ion Propulsion Explained | Term Definition"
   description: An electric propulsion technology that ionizes a noble gas (typically xenon) and accelerates it with electric fields. Exhaust velocities reach 20-50 km/s, far e
   image: /logo.png
 permalink: /en/glossary/fundamentals/IP/

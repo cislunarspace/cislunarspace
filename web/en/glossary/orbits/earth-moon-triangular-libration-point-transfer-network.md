@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon Triangular Libration Point Transfer Network Explained | Term Definition
+  title: "Earth-Moon Triangular Libration Point Transfer Network Explained | Term Definition"
   description: A transfer network with the Moon as the central hub linking Earth, low Earth orbit, and the triangular libration point (L4/L5) regions in the Earth-Moon system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon Triangular Libration Point Transfer Network Explained | Term Definition
+  title: "Earth-Moon Triangular Libration Point Transfer Network Explained | Term Definition"
   description: A transfer network with the Moon as the central hub linking Earth, low Earth orbit, and the triangular libration point (L4/L5) regions in the Earth-Moon system.
   image: /logo.png
 permalink: /en/glossary/orbits/earth-moon-triangular-libration-point-transfer-network/

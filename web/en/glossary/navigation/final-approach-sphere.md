@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Final Approach Sphere (FAS) Explained | Term Definition
+  title: "Final Approach Sphere (FAS) Explained | Term Definition"
   description: A spherical region at 200 m from the target; after entering, a straight-line approach mode is activated with maximum relative velocity limited to 10 cm/s.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Final Approach Sphere (FAS) Explained | Term Definition
+  title: "Final Approach Sphere (FAS) Explained | Term Definition"
   description: A spherical region at 200 m from the target; after entering, a straight-line approach mode is activated with maximum relative velocity limited to 10 cm/s.
   image: /logo.png
 permalink: /en/glossary/navigation/final-approach-sphere/

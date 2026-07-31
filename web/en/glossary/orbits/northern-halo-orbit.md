@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Northern Halo Orbit Explained | Term Definition
+  title: "Northern Halo Orbit Explained | Term Definition"
   description: Members of the halo orbit family with predominantly positive z-component, where the spacecraft spends most of the time above the rotating xy-plane.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Northern Halo Orbit Explained | Term Definition
+  title: "Northern Halo Orbit Explained | Term Definition"
   description: Members of the halo orbit family with predominantly positive z-component, where the spacecraft spends most of the time above the rotating xy-plane.
   image: /logo.png
 permalink: /en/glossary/orbits/northern-halo-orbit/

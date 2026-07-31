@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Zero Velocity Surface, ZVS Explained | Term Definition
+  title: "Zero Velocity Surface, ZVS Explained | Term Definition"
   description: In the CR3BP, the constant-energy surface where spacecraft velocity is zero, constraining motion within bounds defined by the Jacobi integral.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Zero Velocity Surface, ZVS Explained | Term Definition
+  title: "Zero Velocity Surface, ZVS Explained | Term Definition"
   description: In the CR3BP, the constant-energy surface where spacecraft velocity is zero, constraining motion within bounds defined by the Jacobi integral.
   image: /logo.png
 permalink: /en/glossary/dynamics/zero-velocity-surface-zvs/

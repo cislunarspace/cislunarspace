@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Actor-Critic Algorithm, AC Explained | Term Definition
+  title: "Actor-Critic Algorithm, AC Explained | Term Definition"
   description: A reinforcement learning framework where a critic network approximates the value function to evaluate the current policy, and an actor network updates policy pa
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Actor-Critic Algorithm, AC Explained | Term Definition
+  title: "Actor-Critic Algorithm, AC Explained | Term Definition"
   description: A reinforcement learning framework where a critic network approximates the value function to evaluate the current policy, and an actor network updates policy pa
   image: /logo.png
 permalink: /en/glossary/dynamics/AC/

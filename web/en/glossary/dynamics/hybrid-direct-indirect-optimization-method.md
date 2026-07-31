@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hybrid Direct/Indirect Optimization Method Explained | Term Definition
+  title: "Hybrid Direct/Indirect Optimization Method Explained | Term Definition"
   description: "A trajectory optimization method combining strengths of direct and indirect approaches: parameterizes controls using direct methods while leveraging necessary c"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hybrid Direct/Indirect Optimization Method Explained | Term Definition
+  title: "Hybrid Direct/Indirect Optimization Method Explained | Term Definition"
   description: "A trajectory optimization method combining strengths of direct and indirect approaches: parameterizes controls using direct methods while leveraging necessary c"
   image: /logo.png
 permalink: /en/glossary/dynamics/hybrid-direct-indirect-optimization-method/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Homoclinic Connection Explained | Term Definition
+  title: "Homoclinic Connection Explained | Term Definition"
   description: An orbit in phase space that belongs to both the stable and unstable invariant manifolds of the same periodic orbit, asymptotically approaching it in both fo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Homoclinic Connection Explained | Term Definition
+  title: "Homoclinic Connection Explained | Term Definition"
   description: An orbit in phase space that belongs to both the stable and unstable invariant manifolds of the same periodic orbit, asymptotically approaching it in both fo...
   image: /logo.png
 permalink: /en/glossary/dynamics/homoclinic-connection/

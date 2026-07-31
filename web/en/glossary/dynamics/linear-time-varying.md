@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Time-Varying Explained | Term Definition
+  title: "Linear Time-Varying Explained | Term Definition"
   description: Linear system with time-varying state matrix, as in linearized relative motion where target position varies with time.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Time-Varying Explained | Term Definition
+  title: "Linear Time-Varying Explained | Term Definition"
   description: Linear system with time-varying state matrix, as in linearized relative motion where target position varies with time.
   image: /logo.png
 permalink: /en/glossary/dynamics/linear-time-varying/

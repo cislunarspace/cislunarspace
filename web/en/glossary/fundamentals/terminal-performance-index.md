@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Terminal Performance Index Explained | Term Definition
+  title: "Terminal Performance Index Explained | Term Definition"
   description: A weighted objective function measuring the quality of the terminal soft landing state. The paper defines Omega as the weighted sum of absolute terminal velo...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Terminal Performance Index Explained | Term Definition
+  title: "Terminal Performance Index Explained | Term Definition"
   description: A weighted objective function measuring the quality of the terminal soft landing state. The paper defines Omega as the weighted sum of absolute terminal velo...
   image: /logo.png
 permalink: /en/glossary/fundamentals/terminal-performance-index/

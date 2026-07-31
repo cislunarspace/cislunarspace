@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jacobi Constant, JC Explained | Term Definition
+  title: "Jacobi Constant, JC Explained | Term Definition"
   description: The constant energy integral in the rotating frame, representing the energy level of a trajectory and useful for estimating minimum transfer costs between orbit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jacobi Constant, JC Explained | Term Definition
+  title: "Jacobi Constant, JC Explained | Term Definition"
   description: The constant energy integral in the rotating frame, representing the energy level of a trajectory and useful for estimating minimum transfer costs between orbit...
   image: /logo.png
 permalink: /en/glossary/dynamics/jc/

@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Variational Mode Decomposition | Signal Processing
+  title: "Variational Mode Decomposition | Signal Processing"
   description: A detailed analysis of variational mode decomposition principles, algorithm steps, parameter settings, and applications in wind signal processing
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variational Mode Decomposition | Signal Processing
+  title: "Variational Mode Decomposition | Signal Processing"
   description: A detailed analysis of variational mode decomposition principles, algorithm steps, parameter settings, and applications in wind signal processing
   image: /logo.png
 permalink: /en/glossary/dynamics/variational-mode-decomposition/

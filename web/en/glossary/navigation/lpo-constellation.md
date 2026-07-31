@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LPO Constellation Explained | Term Definition
+  title: "LPO Constellation Explained | Term Definition"
   description: A satellite constellation based on libration point orbits (LPOs), achieving communication and navigation services across cislunar space through optimized multi-satellite configurations.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LPO Constellation Explained | Term Definition
+  title: "LPO Constellation Explained | Term Definition"
   description: A satellite constellation based on libration point orbits (LPOs), achieving communication and navigation services across cislunar space through optimized multi-satellite configurations.
   image: /logo.png
 permalink: /en/glossary/navigation/lpo-constellation/

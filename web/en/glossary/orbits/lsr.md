@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Synodic Resonance, LSR Explained | Term Definition
+  title: "Lunar Synodic Resonance, LSR Explained | Term Definition"
   description: "An integer ratio relationship between the spacecraft's orbital period and the Moon's synodic (revolution) period. Gateway's NRHO employs a 9:2 lunar synodic res"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Synodic Resonance, LSR Explained | Term Definition
+  title: "Lunar Synodic Resonance, LSR Explained | Term Definition"
   description: "An integer ratio relationship between the spacecraft's orbital period and the Moon's synodic (revolution) period. Gateway's NRHO employs a 9:2 lunar synodic res"
   image: /logo.png
 permalink: /en/glossary/orbits/lsr/

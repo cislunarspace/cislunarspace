@@ -1,6 +1,6 @@
 ---
 title: Saddle-Point Strategy
-description: The saddle-point strategy is the optimal strategy combination for both players in a zero-sum differential game, where any unilateral deviation leads to a decrease in one's own payoff.
+description: "The saddle-point strategy is the optimal strategy combination for both players in a zero-sum differential game, where any unilateral deviation leads to a decrease in one's own payoff."
 wechatShare:
   title: Saddle-Point Strategy
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
@@ -10,13 +10,13 @@ author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: Saddle-Point Strategy | Game Theory
+  title: "Saddle-Point Strategy | Game Theory"
   description: The optimal strategy combination in zero-sum differential games; the optimal control law for both pursuer and evader in pursuit-evasion games
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Saddle-Point Strategy | Game Theory
+  title: "Saddle-Point Strategy | Game Theory"
   description: The optimal strategy combination in zero-sum differential games; the optimal control law for both pursuer and evader in pursuit-evasion games
   image: /logo.png
 permalink: /en/glossary/dynamics/saddle-point-strategy/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperbolic Excess Velocity Explained | Term Definition
+  title: "Hyperbolic Excess Velocity Explained | Term Definition"
   description: The velocity of a spacecraft relative to a celestial body after escaping its gravitational influence, i.e., the residual velocity beyond the gravity sphere. In 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperbolic Excess Velocity Explained | Term Definition
+  title: "Hyperbolic Excess Velocity Explained | Term Definition"
   description: The velocity of a spacecraft relative to a celestial body after escaping its gravitational influence, i.e., the residual velocity beyond the gravity sphere. In 
   image: /logo.png
 permalink: /en/glossary/fundamentals/v_∞/

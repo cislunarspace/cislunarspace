@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Powered Lunar Flyby, PLF Explained | Term Definition
+  title: "Powered Lunar Flyby, PLF Explained | Term Definition"
   description: An orbit transfer strategy that reduces transfer cost by performing a propulsive maneuver near lunar closest approach during a flyby. The burn exploits the Ober
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Powered Lunar Flyby, PLF Explained | Term Definition
+  title: "Powered Lunar Flyby, PLF Explained | Term Definition"
   description: An orbit transfer strategy that reduces transfer cost by performing a propulsive maneuver near lunar closest approach during a flyby. The burn exploits the Ober
   image: /logo.png
 permalink: /en/glossary/orbits/PLF/

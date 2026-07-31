@@ -1,6 +1,6 @@
 ---
 title: Love Number (k)
-description: A dimensionless parameter characterizing a planet's elastic response to tidal forcing, equal to the ratio of actual tidal deformation to equilibrium tide def...
+description: "A dimensionless parameter characterizing a planet's elastic response to tidal forcing, equal to the ratio of actual tidal deformation to equilibrium tide def..."
 keywords: Love Number, k
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Love Number Explained | Term Definition
-  description: A dimensionless parameter characterizing a planet's elastic response to tidal forcing, equal to the ratio of actual tidal deformation to equilibrium tide def...
+  title: "Love Number Explained | Term Definition"
+  description: "A dimensionless parameter characterizing a planet's elastic response to tidal forcing, equal to the ratio of actual tidal deformation to equilibrium tide def..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Love Number Explained | Term Definition
-  description: A dimensionless parameter characterizing a planet's elastic response to tidal forcing, equal to the ratio of actual tidal deformation to equilibrium tide def...
+  title: "Love Number Explained | Term Definition"
+  description: "A dimensionless parameter characterizing a planet's elastic response to tidal forcing, equal to the ratio of actual tidal deformation to equilibrium tide def..."
   image: /logo.png
 permalink: /en/glossary/dynamics/love-number/
 ---

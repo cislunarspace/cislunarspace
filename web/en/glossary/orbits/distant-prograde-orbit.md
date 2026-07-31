@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Distant Prograde Orbit (DPO) Explained | Term Definition
+  title: "Distant Prograde Orbit (DPO) Explained | Term Definition"
   description: A distant prograde three-body periodic orbit around the Moon.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Distant Prograde Orbit (DPO) Explained | Term Definition
+  title: "Distant Prograde Orbit (DPO) Explained | Term Definition"
   description: A distant prograde three-body periodic orbit around the Moon.
   image: /logo.png
 permalink: /en/glossary/orbits/distant-prograde-orbit/

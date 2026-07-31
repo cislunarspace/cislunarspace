@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: In-Plane Frequency Explained | Term Definition
+  title: "In-Plane Frequency Explained | Term Definition"
   description: The angular frequency of oscillation in the xy-plane of the synodic frame for orbits near a libration point, denoted ω. In the Lindstedt-Poincaré expansion, ω...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: In-Plane Frequency Explained | Term Definition
+  title: "In-Plane Frequency Explained | Term Definition"
   description: The angular frequency of oscillation in the xy-plane of the synodic frame for orbits near a libration point, denoted ω. In the Lindstedt-Poincaré expansion, ω...
   image: /logo.png
 permalink: /en/glossary/dynamics/in-plane-frequency/

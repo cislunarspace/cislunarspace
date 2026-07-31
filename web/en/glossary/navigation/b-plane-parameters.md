@@ -1,6 +1,6 @@
 ---
 title: B-Plane Parameters
-description: Targeting parameters in deep space trajectory design. The B-plane is a plane passing through the target body's center and perpendicular to the incoming hyperbolic asymptote. The B-vector is the pro...
+description: "Targeting parameters in deep space trajectory design. The B-plane is a plane passing through the target body's center and perpendicular to the incoming hyperbolic asymptote. The B-vector is the pro..."
 keywords: B-Plane Parameters
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: B-Plane Parameters Explained | Term Definition
-  description: Targeting parameters in deep space trajectory design. The B-plane is a plane passing through the target body's center and perpendicular to the incoming hyperbolic asymptote. The B-vector is the pro...
+  title: "B-Plane Parameters Explained | Term Definition"
+  description: "Targeting parameters in deep space trajectory design. The B-plane is a plane passing through the target body's center and perpendicular to the incoming hyperbolic asymptote. The B-vector is the pro..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: B-Plane Parameters Explained | Term Definition
-  description: Targeting parameters in deep space trajectory design. The B-plane is a plane passing through the target body's center and perpendicular to the incoming hyperbolic asymptote. The B-vector is the pro...
+  title: "B-Plane Parameters Explained | Term Definition"
+  description: "Targeting parameters in deep space trajectory design. The B-plane is a plane passing through the target body's center and perpendicular to the incoming hyperbolic asymptote. The B-vector is the pro..."
   image: /logo.png
 permalink: /en/glossary/navigation/b-plane-parameters/
 ---

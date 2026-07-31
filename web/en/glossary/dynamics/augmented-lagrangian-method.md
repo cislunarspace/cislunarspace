@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Augmented Lagrangian Method Explained | Term Definition
+  title: "Augmented Lagrangian Method Explained | Term Definition"
   description: A constraint-handling method that augments the objective function with both Lagrange multiplier terms and a quadratic penalty term. In HDDP, terminal constra...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Augmented Lagrangian Method Explained | Term Definition
+  title: "Augmented Lagrangian Method Explained | Term Definition"
   description: A constraint-handling method that augments the objective function with both Lagrange multiplier terms and a quadratic penalty term. In HDDP, terminal constra...
   image: /logo.png
 permalink: /en/glossary/dynamics/augmented-lagrangian-method/

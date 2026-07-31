@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: State Transition Matrix Details | Fundamental Tool for Orbital Analysis
+  title: "State Transition Matrix Details | Fundamental Tool for Orbital Analysis"
   description: Detailed analysis of the definition, computation method, and applications of the State Transition Matrix in orbital mechanics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: State Transition Matrix Details | Fundamental Tool for Orbital Analysis
+  title: "State Transition Matrix Details | Fundamental Tool for Orbital Analysis"
   description: Detailed analysis of the definition, computation method, and applications of the State Transition Matrix in orbital mechanics
   image: /logo.png
 permalink: /en/glossary/dynamics/state-transition-matrix/

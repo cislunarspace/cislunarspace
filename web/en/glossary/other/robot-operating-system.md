@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Robot Operating System Explained | Term Definition
+  title: "Robot Operating System Explained | Term Definition"
   description: Open-source robotics middleware framework for robot control and communication
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Robot Operating System Explained | Term Definition
+  title: "Robot Operating System Explained | Term Definition"
   description: Open-source robotics middleware framework for robot control and communication
   image: /logo.png
 permalink: /en/glossary/other/robot-operating-system/

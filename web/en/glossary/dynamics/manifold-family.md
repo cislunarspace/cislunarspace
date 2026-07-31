@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Manifold Family Explained | Term Definition
+  title: "Manifold Family Explained | Term Definition"
   description: A family of invariant manifolds obtained by integrating from different starting points on the same Halo orbit, forming a tubular channel covering a region of phase space.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Manifold Family Explained | Term Definition
+  title: "Manifold Family Explained | Term Definition"
   description: A family of invariant manifolds obtained by integrating from different starting points on the same Halo orbit, forming a tubular channel covering a region of phase space.
   image: /logo.png
 permalink: /en/glossary/dynamics/manifold-family/

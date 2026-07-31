@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertical Lyapunov Periodic Orbit Explained | Term Definition
+  title: "Vertical Lyapunov Periodic Orbit Explained | Term Definition"
   description: Periodic orbit around a collinear libration point oscillating in the orbital plane with frequency ωp.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertical Lyapunov Periodic Orbit Explained | Term Definition
+  title: "Vertical Lyapunov Periodic Orbit Explained | Term Definition"
   description: Periodic orbit around a collinear libration point oscillating in the orbital plane with frequency ωp.
   image: /logo.png
 permalink: /en/glossary/orbits/vertical-lyapunov-periodic-orbit/

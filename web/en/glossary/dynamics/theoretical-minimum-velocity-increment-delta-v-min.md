@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Theoretical Minimum Velocity Increment, delta-V min Explained | Term Definition
+  title: "Theoretical Minimum Velocity Increment, delta-V min Explained | Term Definition"
   description: The lower bound of velocity increment calculated from the difference in Jacobi constants between two orbits. Expressed using the velocities at perilune and the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Theoretical Minimum Velocity Increment, delta-V min Explained | Term Definition
+  title: "Theoretical Minimum Velocity Increment, delta-V min Explained | Term Definition"
   description: The lower bound of velocity increment calculated from the difference in Jacobi constants between two orbits. Expressed using the velocities at perilune and the
   image: /logo.png
 permalink: /en/glossary/dynamics/theoretical-minimum-velocity-increment-delta-v-min/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: DE440 Ephemeris Explained | Term Definition
+  title: "DE440 Ephemeris Explained | Term Definition"
   description: Planetary ephemeris model published by NASA Jet Propulsion Laboratory, used for precise calculation of solar system body positions and velocities at any time...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DE440 Ephemeris Explained | Term Definition
+  title: "DE440 Ephemeris Explained | Term Definition"
   description: Planetary ephemeris model published by NASA Jet Propulsion Laboratory, used for precise calculation of solar system body positions and velocities at any time...
   image: /logo.png
 permalink: /en/glossary/fundamentals/de440-ephemeris/

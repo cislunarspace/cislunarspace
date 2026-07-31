@@ -1,6 +1,6 @@
 ---
 title: Two-Step Optimization Algorithm
-description: A staged LPO constellation optimization method: the first step rapidly screens candidate families using orbit family as the parameter; the second step selects...
+description: "A staged LPO constellation optimization method: the first step rapidly screens candidate families using orbit family as the parameter; the second step selects..."
 keywords: Two-Step Optimization Algorithm
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Two-Step Optimization Algorithm Explained | Term Definition
-  description: A staged LPO constellation optimization method: the first step rapidly screens candidate families using orbit family as the parameter; the second step selects...
+  title: "Two-Step Optimization Algorithm Explained | Term Definition"
+  description: "A staged LPO constellation optimization method: the first step rapidly screens candidate families using orbit family as the parameter; the second step selects..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Two-Step Optimization Algorithm Explained | Term Definition
-  description: A staged LPO constellation optimization method: the first step rapidly screens candidate families using orbit family as the parameter; the second step selects...
+  title: "Two-Step Optimization Algorithm Explained | Term Definition"
+  description: "A staged LPO constellation optimization method: the first step rapidly screens candidate families using orbit family as the parameter; the second step selects..."
   image: /logo.png
 permalink: /en/glossary/navigation/two-step-optimization-algorithm/
 ---

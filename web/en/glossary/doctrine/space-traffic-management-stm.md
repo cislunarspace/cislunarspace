@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space Traffic Management, STM Explained | Term Definition
+  title: "Space Traffic Management, STM Explained | Term Definition"
   description: A comprehensive framework of rules, procedures, and technical standards for coordinating spacecraft operations to prevent collisions and ensure safety. While SD
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Traffic Management, STM Explained | Term Definition
+  title: "Space Traffic Management, STM Explained | Term Definition"
   description: A comprehensive framework of rules, procedures, and technical standards for coordinating spacecraft operations to prevent collisions and ensure safety. While SD
   image: /logo.png
 permalink: /en/glossary/doctrine/space-traffic-management-stm/

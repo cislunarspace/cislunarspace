@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Forward Pass and Backward Sweep Explained | Term Definition
+  title: "Forward Pass and Backward Sweep Explained | Term Definition"
   description: The two core computational steps of DDP algorithms. The forward pass propagates from the initial state through the equations of motion at each stage using th...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Forward Pass and Backward Sweep Explained | Term Definition
+  title: "Forward Pass and Backward Sweep Explained | Term Definition"
   description: The two core computational steps of DDP algorithms. The forward pass propagates from the initial state through the equations of motion at each stage using th...
   image: /logo.png
 permalink: /en/glossary/dynamics/forward-pass-and-backward-sweep/

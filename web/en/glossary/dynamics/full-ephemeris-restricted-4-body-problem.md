@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Full Ephemeris Restricted 4-Body Problem Explained | Term Definition
+  title: "Full Ephemeris Restricted 4-Body Problem Explained | Term Definition"
   description: A high-fidelity dynamics model that considers the Sun as a fourth body and uses precise ephemerides to compute the real motion of Earth and Moon, providing more accurate orbit predictions than CR3BP.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Full Ephemeris Restricted 4-Body Problem Explained | Term Definition
+  title: "Full Ephemeris Restricted 4-Body Problem Explained | Term Definition"
   description: A high-fidelity dynamics model that considers the Sun as a fourth body and uses precise ephemerides to compute the real motion of Earth and Moon, providing more accurate orbit predictions than CR3BP.
   image: /logo.png
 permalink: /en/glossary/dynamics/full-ephemeris-restricted-4-body-problem/

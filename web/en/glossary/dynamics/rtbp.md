@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Restricted Three-Body Problem, RTBP Explained | Term Definition
+  title: "Restricted Three-Body Problem, RTBP Explained | Term Definition"
   description: A model in celestial mechanics where a body of negligible mass moves under the gravitational attraction of two massive bodies; the foundational framework for ci
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Restricted Three-Body Problem, RTBP Explained | Term Definition
+  title: "Restricted Three-Body Problem, RTBP Explained | Term Definition"
   description: A model in celestial mechanics where a body of negligible mass moves under the gravitational attraction of two massive bodies; the foundational framework for ci
   image: /logo.png
 permalink: /en/glossary/dynamics/rtbp/

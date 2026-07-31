@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sub-Optimal Feedback Control Explained | Term Definition
+  title: "Sub-Optimal Feedback Control Explained | Term Definition"
   description: A near-optimal control strategy for multi-revolution low-thrust transfers. Synthesized from numerical solutions of minimum-time low-thrust transfer problems bet
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sub-Optimal Feedback Control Explained | Term Definition
+  title: "Sub-Optimal Feedback Control Explained | Term Definition"
   description: A near-optimal control strategy for multi-revolution low-thrust transfers. Synthesized from numerical solutions of minimum-time low-thrust transfer problems bet
   image: /logo.png
 permalink: /en/glossary/navigation/SOFC/

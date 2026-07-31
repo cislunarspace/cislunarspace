@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Free Transfer Explained | Term Definition
+  title: "Free Transfer Explained | Term Definition"
   description: A maneuver-free transfer that exploits the stable manifold of a libration point orbit. In the Sun-Earth system
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Free Transfer Explained | Term Definition
+  title: "Free Transfer Explained | Term Definition"
   description: A maneuver-free transfer that exploits the stable manifold of a libration point orbit. In the Sun-Earth system
   image: /logo.png
 permalink: /en/glossary/dynamics/free-transfer/

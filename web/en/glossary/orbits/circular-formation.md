@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Circular Formation Explained | Term Definition
+  title: "Circular Formation Explained | Term Definition"
   description: A formation in which satellites maintain constant relative distance from one another, appearing as a sphere in the satellite reference frame. Near triangular...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Circular Formation Explained | Term Definition
+  title: "Circular Formation Explained | Term Definition"
   description: A formation in which satellites maintain constant relative distance from one another, appearing as a sphere in the satellite reference frame. Near triangular...
   image: /logo.png
 permalink: /en/glossary/orbits/circular-formation/

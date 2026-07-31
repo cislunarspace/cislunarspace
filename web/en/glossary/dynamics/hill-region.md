@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill Region Explained | Term Definition
+  title: "Hill Region Explained | Term Definition"
   description: The region of permitted motion defined by the Jacobi integral in position space. In the (q1,q2)-plane, Hill regions are bounded by zero-velocity surfaces (level
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill Region Explained | Term Definition
+  title: "Hill Region Explained | Term Definition"
   description: The region of permitted motion defined by the Jacobi integral in position space. In the (q1,q2)-plane, Hill regions are bounded by zero-velocity surfaces (level
   image: /logo.png
 permalink: /en/glossary/dynamics/hill-region/

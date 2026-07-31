@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Flyby Explained | Term Definition
+  title: "Lunar Flyby Explained | Term Definition"
   description: A close approach to the Moon where the spacecraft passes through the lunar gravity field without being captured. By controlling the perilune altitude and app...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Flyby Explained | Term Definition
+  title: "Lunar Flyby Explained | Term Definition"
   description: A close approach to the Moon where the spacecraft passes through the lunar gravity field without being captured. By controlling the perilune altitude and app...
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-flyby/

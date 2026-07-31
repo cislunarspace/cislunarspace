@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Position Dilution of Precision Explained | Term Definition
+  title: "Position Dilution of Precision Explained | Term Definition"
   description: A dimensionless metric quantifying how reference-point geometry amplifies ranging errors into position errors. Lower PDOP indicates more favorable geometry. For
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Position Dilution of Precision Explained | Term Definition
+  title: "Position Dilution of Precision Explained | Term Definition"
   description: A dimensionless metric quantifying how reference-point geometry amplifies ranging errors into position errors. Lower PDOP indicates more favorable geometry. For
   image: /logo.png
 permalink: /en/glossary/navigation/position-dilution-of-precision/

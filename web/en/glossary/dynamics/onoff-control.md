@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: On/Off Control Explained | Term Definition
+  title: "On/Off Control Explained | Term Definition"
   description: An intermittent orbital control strategy where thrust maneuvers are applied only when deviation exceeds a threshold, maintaining the orbit by canceling unstable components.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: On/Off Control Explained | Term Definition
+  title: "On/Off Control Explained | Term Definition"
   description: An intermittent orbital control strategy where thrust maneuvers are applied only when deviation exceeds a threshold, maintaining the orbit by canceling unstable components.
   image: /logo.png
 permalink: /en/glossary/dynamics/onoff-control/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Autonomous Rendezvous and Docking, AR&D Explained | Term Definition
+  title: "Autonomous Rendezvous and Docking, AR&D Explained | Term Definition"
   description: 航天器不依赖地面指挥自主完成轨道交会、接近和对接的过程，是未来高频率空间任务的关键使能技术。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Autonomous Rendezvous and Docking, AR&D Explained | Term Definition
+  title: "Autonomous Rendezvous and Docking, AR&D Explained | Term Definition"
   description: 航天器不依赖地面指挥自主完成轨道交会、接近和对接的过程，是未来高频率空间任务的关键使能技术。
   image: /logo.png
 permalink: /en/glossary/navigation/autonomous-rendezvous-and-docking-ard/

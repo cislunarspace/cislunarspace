@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Transcription Explained | Term Definition
+  title: "Direct Transcription Explained | Term Definition"
   description: A class of methods that transcribe a continuous optimal control problem into a parameter optimization problem. By parameterizing state and control variables at discrete time points and using implic...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Transcription Explained | Term Definition
+  title: "Direct Transcription Explained | Term Definition"
   description: A class of methods that transcribe a continuous optimal control problem into a parameter optimization problem. By parameterizing state and control variables at discrete time points and using implic...
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-transcription/

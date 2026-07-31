@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Characteristic Parameter Explained | Term Definition
+  title: "Characteristic Parameter Explained | Term Definition"
   description: 描述共线平动点轨道特征的六个参数 [q₁, p₁, I₂, θ₂, I₃, θ₃]，其中 q₁ 和 p₁ 表征双曲不变流形运动，I₂ 和 θ₂ 表征XY平面内的中心流形运动，I₃ 和 θ₃ 表征Z方向的中心流形运动。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Characteristic Parameter Explained | Term Definition
+  title: "Characteristic Parameter Explained | Term Definition"
   description: 描述共线平动点轨道特征的六个参数 [q₁, p₁, I₂, θ₂, I₃, θ₃]，其中 q₁ 和 p₁ 表征双曲不变流形运动，I₂ 和 θ₂ 表征XY平面内的中心流形运动，I₃ 和 θ₃ 表征Z方向的中心流形运动。
   image: /logo.png
 permalink: /en/glossary/dynamics/characteristic-parameter/

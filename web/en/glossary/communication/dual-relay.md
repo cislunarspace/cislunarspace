@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dual-relay Explained | Term Definition
+  title: "Dual-relay Explained | Term Definition"
   description: Cislunar dual-relay communication architecture composed of one ordinary circular orbit satellite and one Halo orbit satellite.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dual-relay Explained | Term Definition
+  title: "Dual-relay Explained | Term Definition"
   description: Cislunar dual-relay communication architecture composed of one ordinary circular orbit satellite and one Halo orbit satellite.
   image: /logo.png
 permalink: /en/glossary/communication/dual-relay/

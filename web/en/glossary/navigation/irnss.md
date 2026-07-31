@@ -1,6 +1,6 @@
 ---
 title: Indian Regional Navigation Satellite System (IRNSS)
-description: IRNSS is India's indigenous regional satellite navigation system, providing positioning, navigation, and timing services to India and its surrounding 1500--2000 km range
+description: "IRNSS is India's indigenous regional satellite navigation system, providing positioning, navigation, and timing services to India and its surrounding 1500--2000 km range"
 keywords: IRNSS, Indian Regional Navigation Satellite System, Indian navigation, regional navigation, NavIC, satellite navigation, Indian independent navigation
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: IRNSS Explained | Indian Regional Navigation Satellite System
-  description: IRNSS is India's indigenous regional satellite navigation system
+  title: "IRNSS Explained | Indian Regional Navigation Satellite System"
+  description: "IRNSS is India's indigenous regional satellite navigation system"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: IRNSS Explained | Indian Regional Navigation Satellite System
-  description: IRNSS is India's indigenous regional satellite navigation system
+  title: "IRNSS Explained | Indian Regional Navigation Satellite System"
+  description: "IRNSS is India's indigenous regional satellite navigation system"
   image: /logo.png
 permalink: /en/glossary/navigation/irnss/
 ---

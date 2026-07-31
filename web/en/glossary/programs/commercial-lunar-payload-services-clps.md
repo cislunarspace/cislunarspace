@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Commercial Lunar Payload Services (CLPS) Explained | Term Definition
+  title: "Commercial Lunar Payload Services (CLPS) Explained | Term Definition"
   description: A NASA-led commercial partnership program that contracts companies like Astrobotic and Intuitive Machines to deliver scientific payloads to the lunar surface using commercial launch vehicles.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Commercial Lunar Payload Services (CLPS) Explained | Term Definition
+  title: "Commercial Lunar Payload Services (CLPS) Explained | Term Definition"
   description: A NASA-led commercial partnership program that contracts companies like Astrobotic and Intuitive Machines to deliver scientific payloads to the lunar surface using commercial launch vehicles.
   image: /logo.png
 permalink: /en/glossary/programs/commercial-lunar-payload-services-clps/

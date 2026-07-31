@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cislunar Space Domain Awareness Explained | Term Definition
+  title: "Cislunar Space Domain Awareness Explained | Term Definition"
   description: The capability to detect, track, identify, and catalog spacecraft, debris, and other objects in cislunar space to support safe and sustainable utilization of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Space Domain Awareness Explained | Term Definition
+  title: "Cislunar Space Domain Awareness Explained | Term Definition"
   description: The capability to detect, track, identify, and catalog spacecraft, debris, and other objects in cislunar space to support safe and sustainable utilization of...
   image: /logo.png
 permalink: /en/glossary/observation/cislunar-space-domain-awareness/

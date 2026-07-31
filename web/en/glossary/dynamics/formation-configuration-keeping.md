@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Formation Configuration Keeping Explained | Term Definition
+  title: "Formation Configuration Keeping Explained | Term Definition"
   description: The process of maintaining preset relative positions and attitudes among spacecraft during a formation flying mission through active control. After formation deployment, the keeping phase requires ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Formation Configuration Keeping Explained | Term Definition
+  title: "Formation Configuration Keeping Explained | Term Definition"
   description: The process of maintaining preset relative positions and attitudes among spacecraft during a formation flying mission through active control. After formation deployment, the keeping phase requires ...
   image: /logo.png
 permalink: /en/glossary/dynamics/formation-configuration-keeping/

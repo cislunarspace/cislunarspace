@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Horseshoe Map Explained | Term Definition
+  title: "Horseshoe Map Explained | Term Definition"
   description: A discrete map that generates chaotic dynamics, where orbits are repeatedly stretched and folded between horizontal and vertical strips.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Horseshoe Map Explained | Term Definition
+  title: "Horseshoe Map Explained | Term Definition"
   description: A discrete map that generates chaotic dynamics, where orbits are repeatedly stretched and folded between horizontal and vertical strips.
   image: /logo.png
 permalink: /en/glossary/dynamics/horseshoe-map/

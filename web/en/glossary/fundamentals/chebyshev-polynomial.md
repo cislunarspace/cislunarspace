@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chebyshev Polynomial Explained | Term Definition
+  title: "Chebyshev Polynomial Explained | Term Definition"
   description: An orthogonal polynomial system used to approximate the position and velocity of periodic orbits. The paper uses Chebyshev polynomials to express the position a
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chebyshev Polynomial Explained | Term Definition
+  title: "Chebyshev Polynomial Explained | Term Definition"
   description: An orthogonal polynomial system used to approximate the position and velocity of periodic orbits. The paper uses Chebyshev polynomials to express the position a
   image: /logo.png
 permalink: /en/glossary/fundamentals/chebyshev-polynomial/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Successive Convexification Explained | Term Definition
+  title: "Successive Convexification Explained | Term Definition"
   description: An optimization method that iteratively convexifies non-convex constraints to solve trajectory optimization problems.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Successive Convexification Explained | Term Definition
+  title: "Successive Convexification Explained | Term Definition"
   description: An optimization method that iteratively convexifies non-convex constraints to solve trajectory optimization problems.
   image: /logo.png
 permalink: /en/glossary/dynamics/SCvx/

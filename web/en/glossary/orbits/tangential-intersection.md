@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tangential Intersection Explained | Term Definition
+  title: "Tangential Intersection Explained | Term Definition"
   description: The state where two orbits intersect with tangential and similar velocity directions at the intersection point. Lyapunov orbits and DROs have tangential inte...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tangential Intersection Explained | Term Definition
+  title: "Tangential Intersection Explained | Term Definition"
   description: The state where two orbits intersect with tangential and similar velocity directions at the intersection point. Lyapunov orbits and DROs have tangential inte...
   image: /logo.png
 permalink: /en/glossary/orbits/tangential-intersection/

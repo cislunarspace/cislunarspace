@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Continuation Method Details | Tracing Orbit Families
+  title: "Continuation Method Details | Tracing Orbit Families"
   description: Detailed analysis of the continuation method for computing orbit families in orbital mechanics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Continuation Method Details | Tracing Orbit Families
+  title: "Continuation Method Details | Tracing Orbit Families"
   description: Detailed analysis of the continuation method for computing orbit families in orbital mechanics
   image: /logo.png
 permalink: /en/glossary/dynamics/continuation-method/

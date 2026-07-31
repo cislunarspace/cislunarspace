@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Geocentric Rotating Coordinate System Explained | Libration Point Orbit Design
+  title: "Geocentric Rotating Coordinate System Explained | Libration Point Orbit Design"
   description: Detailed analysis of GRC definition, relationship with J2000, and application in cislunar libration point orbit design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Geocentric Rotating Coordinate System Explained | Libration Point Orbit Design
+  title: "Geocentric Rotating Coordinate System Explained | Libration Point Orbit Design"
   description: Detailed analysis of GRC definition, relationship with J2000, and application in cislunar libration point orbit design
   image: /logo.png
 permalink: /en/glossary/dynamics/grc/

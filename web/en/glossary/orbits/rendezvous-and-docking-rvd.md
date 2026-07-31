@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Rendezvous and Docking, RVD Explained | Term Definition
+  title: "Rendezvous and Docking, RVD Explained | Term Definition"
   description: The process of bringing two spacecraft together in space and making a physical connection, critical for station assembly, crew rotations, and cargo delivery.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Rendezvous and Docking, RVD Explained | Term Definition
+  title: "Rendezvous and Docking, RVD Explained | Term Definition"
   description: The process of bringing two spacecraft together in space and making a physical connection, critical for station assembly, crew rotations, and cargo delivery.
   image: /logo.png
 permalink: /en/glossary/orbits/rendezvous-and-docking-rvd/

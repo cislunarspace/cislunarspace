@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Periodic Solution Explained | Term Definition
+  title: "Periodic Solution Explained | Term Definition"
   description: The bounded solution in the fundamental solution set of linearized relative motion corresponding to the neutral real eigenvalue λ=1 of the monodromy matrix. In nonlinear dynamics, the periodic solutio
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Periodic Solution Explained | Term Definition
+  title: "Periodic Solution Explained | Term Definition"
   description: The bounded solution in the fundamental solution set of linearized relative motion corresponding to the neutral real eigenvalue λ=1 of the monodromy matrix. In nonlinear dynamics, the periodic solutio
   image: /logo.png
 permalink: /en/glossary/orbits/periodic-solution/

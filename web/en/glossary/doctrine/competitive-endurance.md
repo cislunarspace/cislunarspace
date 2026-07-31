@@ -1,6 +1,6 @@
 ---
 title: Competitive Endurance
-description: Competitive Endurance is the U.S. Space Force's theory of success, guided by three core tenets for gaining and maintaining space superiority.
+description: "Competitive Endurance is the U.S. Space Force's theory of success, guided by three core tenets for gaining and maintaining space superiority."
 keywords: Competitive Endurance, Space Force, theory of success, avoid operational surprise, deny first-mover advantage, responsible counterspace campaigning
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Competitive Endurance | Space Force Theory of Success
-  description: Competitive Endurance is the U.S. Space Force's theory of success for gaining and maintaining space superiority.
+  title: "Competitive Endurance | Space Force Theory of Success"
+  description: "Competitive Endurance is the U.S. Space Force's theory of success for gaining and maintaining space superiority."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Competitive Endurance | Space Force Theory of Success
-  description: Competitive Endurance is the U.S. Space Force's theory of success for gaining and maintaining space superiority.
+  title: "Competitive Endurance | Space Force Theory of Success"
+  description: "Competitive Endurance is the U.S. Space Force's theory of success for gaining and maintaining space superiority."
   image: /logo.png
 permalink: /en/glossary/doctrine/competitive-endurance/
 ---

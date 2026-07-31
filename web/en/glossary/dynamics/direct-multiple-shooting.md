@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Direct Multiple Shooting Explained | Term Definition
+  title: "Direct Multiple Shooting Explained | Term Definition"
   description: A trajectory optimization method that decomposes the trajectory into multiple time segments, with unknown initial states and costates at each interior node, ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Multiple Shooting Explained | Term Definition
+  title: "Direct Multiple Shooting Explained | Term Definition"
   description: A trajectory optimization method that decomposes the trajectory into multiple time segments, with unknown initial states and costates at each interior node, ...
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-multiple-shooting/

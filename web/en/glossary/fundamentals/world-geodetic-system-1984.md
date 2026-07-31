@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: World Geodetic System 1984 Explained | Term Definition
+  title: "World Geodetic System 1984 Explained | Term Definition"
   description: 大地测量和卫星导航的标准参考椭球模型，定义地球平均赤道半径、扁率等参数，也是GPS使用的参考系统。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: World Geodetic System 1984 Explained | Term Definition
+  title: "World Geodetic System 1984 Explained | Term Definition"
   description: 大地测量和卫星导航的标准参考椭球模型，定义地球平均赤道半径、扁率等参数，也是GPS使用的参考系统。
   image: /logo.png
 permalink: /en/glossary/fundamentals/world-geodetic-system-1984/

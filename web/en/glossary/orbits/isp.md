@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interplanetary Superhighway, ISP Explained | Term Definition
+  title: "Interplanetary Superhighway, ISP Explained | Term Definition"
   description: A network of low-energy trajectories utilizing invariant manifolds around Lagrange points throughout the solar system, connecting planets with minimal propulsio
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interplanetary Superhighway, ISP Explained | Term Definition
+  title: "Interplanetary Superhighway, ISP Explained | Term Definition"
   description: A network of low-energy trajectories utilizing invariant manifolds around Lagrange points throughout the solar system, connecting planets with minimal propulsio
   image: /logo.png
 permalink: /en/glossary/orbits/isp/

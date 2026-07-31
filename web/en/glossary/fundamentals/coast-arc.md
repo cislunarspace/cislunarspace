@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Coast Arc Explained | Term Definition
+  title: "Coast Arc Explained | Term Definition"
   description: 轨迹中发动机关闭的自由飞行区段。小推力最优轨迹通常由推力弧和滑行弧交替组成。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Coast Arc Explained | Term Definition
+  title: "Coast Arc Explained | Term Definition"
   description: 轨迹中发动机关闭的自由飞行区段。小推力最优轨迹通常由推力弧和滑行弧交替组成。
   image: /logo.png
 permalink: /en/glossary/fundamentals/coast-arc/

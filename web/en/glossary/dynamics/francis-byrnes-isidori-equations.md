@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Francis-Byrnes-Isidori Equations Explained | Term Definition
+  title: "Francis-Byrnes-Isidori Equations Explained | Term Definition"
   description: The core equations in nonlinear output regulation theory, consisting of the matching condition and the invariant manifold condition. The matching condition requires the controlled output to agree with
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Francis-Byrnes-Isidori Equations Explained | Term Definition
+  title: "Francis-Byrnes-Isidori Equations Explained | Term Definition"
   description: The core equations in nonlinear output regulation theory, consisting of the matching condition and the invariant manifold condition. The matching condition requires the controlled output to agree with
   image: /logo.png
 permalink: /en/glossary/dynamics/francis-byrnes-isidori-equations/

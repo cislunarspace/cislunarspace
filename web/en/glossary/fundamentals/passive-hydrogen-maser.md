@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Passive Hydrogen Maser (PHM) | Terminology Definition
+  title: "Passive Hydrogen Maser (PHM) | Terminology Definition"
   description: Detailed analysis of passive hydrogen maser working principles and applications in space-based gravitational redshift measurements
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Passive Hydrogen Maser (PHM) | Terminology Definition
+  title: "Passive Hydrogen Maser (PHM) | Terminology Definition"
   description: Detailed analysis of passive hydrogen maser working principles and applications in space-based gravitational redshift measurements
   image: /logo.png
 permalink: /en/glossary/fundamentals/passive-hydrogen-maser/

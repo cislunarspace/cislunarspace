@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Energy Earth-Moon Transfer Explained | Term Definition
+  title: "Low-Energy Earth-Moon Transfer Explained | Term Definition"
   description: A low-propellant Earth-Moon transfer exploiting invariant manifolds of two coupled three-body systems (Sun-Barycenter and Earth-Moon). Characterized by long tra
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Energy Earth-Moon Transfer Explained | Term Definition
+  title: "Low-Energy Earth-Moon Transfer Explained | Term Definition"
   description: A low-propellant Earth-Moon transfer exploiting invariant manifolds of two coupled three-body systems (Sun-Barycenter and Earth-Moon). Characterized by long tra
   image: /logo.png
 permalink: /en/glossary/orbits/low-energy-earth-moon-transfer/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: CAPSTONE Mission Explained | Term Definition
+  title: "CAPSTONE Mission Explained | Term Definition"
   description: A NASA 12U CubeSat technology demonstration mission launched in 2022. CAPSTONE was the first spacecraft to operate in a near-rectilinear halo orbit in cislun...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: CAPSTONE Mission Explained | Term Definition
+  title: "CAPSTONE Mission Explained | Term Definition"
   description: A NASA 12U CubeSat technology demonstration mission launched in 2022. CAPSTONE was the first spacecraft to operate in a near-rectilinear halo orbit in cislun...
   image: /logo.png
 permalink: /en/glossary/programs/capstone-mission/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Rendezvous Explained | Term Definition
+  title: "Halo Orbit Rendezvous Explained | Term Definition"
   description: A control process for spacecraft to achieve relative position and velocity matching near a Halo orbit. Unlike low-Earth-orbit rendezvous, it faces strong nonlinear dynamics, inherent orbital instability along unstable manifolds, and large-scale relative motion due to multi-day orbital periods.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Rendezvous Explained | Term Definition
+  title: "Halo Orbit Rendezvous Explained | Term Definition"
   description: A control process for spacecraft to achieve relative position and velocity matching near a Halo orbit. Unlike low-Earth-orbit rendezvous, it faces strong nonlinear dynamics, inherent orbital instability along unstable manifolds, and large-scale relative motion due to multi-day orbital periods.
   image: /logo.png
 permalink: /en/glossary/navigation/halo-orbit-rendezvous/

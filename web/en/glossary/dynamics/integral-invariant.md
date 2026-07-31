@@ -1,6 +1,6 @@
 ---
 title: Integral Invariant
-description: The property that the volume in phase space remains invariant under time evolution in Hamiltonian systems, reflecting Liouville's theorem.
+description: "The property that the volume in phase space remains invariant under time evolution in Hamiltonian systems, reflecting Liouville's theorem."
 keywords: Integral Invariant, cislunar space, orbital mechanics, navigation, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Integral Invariant Explained | Term Definition
-  description: The property that the volume in phase space remains invariant under time evolution in Hamiltonian systems, reflecting Liouville's theorem.
+  title: "Integral Invariant Explained | Term Definition"
+  description: "The property that the volume in phase space remains invariant under time evolution in Hamiltonian systems, reflecting Liouville's theorem."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Integral Invariant Explained | Term Definition
-  description: The property that the volume in phase space remains invariant under time evolution in Hamiltonian systems, reflecting Liouville's theorem.
+  title: "Integral Invariant Explained | Term Definition"
+  description: "The property that the volume in phase space remains invariant under time evolution in Hamiltonian systems, reflecting Liouville's theorem."
   image: /logo.png
 permalink: /en/glossary/dynamics/integral-invariant/
 ---

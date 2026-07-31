@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mission Lifetime / DRO Lifetime Explained | Term Definition
+  title: "Mission Lifetime / DRO Lifetime Explained | Term Definition"
   description: The predefined duration for which a spacecraft must complete its mission. For long term DROs, the mission lifetime determines whether the orbit remains bound...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mission Lifetime / DRO Lifetime Explained | Term Definition
+  title: "Mission Lifetime / DRO Lifetime Explained | Term Definition"
   description: The predefined duration for which a spacecraft must complete its mission. For long term DROs, the mission lifetime determines whether the orbit remains bound...
   image: /logo.png
 permalink: /en/glossary/orbits/mission-lifetime-dro-lifetime/

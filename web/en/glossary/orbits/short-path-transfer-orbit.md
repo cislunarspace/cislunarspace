@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Short-Path Transfer Orbit Explained | Term Definition
+  title: "Short-Path Transfer Orbit Explained | Term Definition"
   description: One of two solution categories in the Lambert problem. The arc angle from departure to arrival is less than 180 degrees, with both foci on the same side of t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Short-Path Transfer Orbit Explained | Term Definition
+  title: "Short-Path Transfer Orbit Explained | Term Definition"
   description: One of two solution categories in the Lambert problem. The arc angle from departure to arrival is less than 180 degrees, with both foci on the same side of t...
   image: /logo.png
 permalink: /en/glossary/orbits/short-path-transfer-orbit/

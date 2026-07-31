@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Mildly Unstable Explained | Term Definition
+  title: "Mildly Unstable Explained | Term Definition"
   description: A characteristic of periodic orbits whose stability indices have magnitudes slightly greater than one. Such orbits are not strictly stable but diverge extrem...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mildly Unstable Explained | Term Definition
+  title: "Mildly Unstable Explained | Term Definition"
   description: A characteristic of periodic orbits whose stability indices have magnitudes slightly greater than one. Such orbits are not strictly stable but diverge extrem...
   image: /logo.png
 permalink: /en/glossary/orbits/mildly-unstable/

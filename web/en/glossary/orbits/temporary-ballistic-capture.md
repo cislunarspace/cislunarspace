@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Temporary Ballistic Capture Explained | Term Definition
+  title: "Temporary Ballistic Capture Explained | Term Definition"
   description: Spacecraft is ballistically captured by the Moon for finite times; energy is negative during capture and positive before and after.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Temporary Ballistic Capture Explained | Term Definition
+  title: "Temporary Ballistic Capture Explained | Term Definition"
   description: Spacecraft is ballistically captured by the Moon for finite times; energy is negative during capture and positive before and after.
   image: /logo.png
 permalink: /en/glossary/orbits/temporary-ballistic-capture/

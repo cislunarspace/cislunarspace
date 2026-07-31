@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Backward Stability Set Details | Orbital Stability
+  title: "Backward Stability Set Details | Orbital Stability"
   description: A concept describing motion stability when integrating backward in time, providing theoretical foundations for low-energy capture orbit design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Backward Stability Set Details | Orbital Stability
+  title: "Backward Stability Set Details | Orbital Stability"
   description: A concept describing motion stability when integrating backward in time, providing theoretical foundations for low-energy capture orbit design.
   image: /logo.png
 permalink: /en/glossary/dynamics/backward-stability-set/

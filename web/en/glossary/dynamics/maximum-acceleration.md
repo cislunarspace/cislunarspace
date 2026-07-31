@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Maximum Acceleration (umax) Explained | Term Definition
+  title: "Maximum Acceleration (umax) Explained | Term Definition"
   description: The upper bound on thrust acceleration magnitude. For low-thrust electric propulsion systems, the maximum acceleration is much smaller than chemical propulsion, making it a key parameter determinin...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Maximum Acceleration (umax) Explained | Term Definition
+  title: "Maximum Acceleration (umax) Explained | Term Definition"
   description: The upper bound on thrust acceleration magnitude. For low-thrust electric propulsion systems, the maximum acceleration is much smaller than chemical propulsion, making it a key parameter determinin...
   image: /logo.png
 permalink: /en/glossary/dynamics/maximum-acceleration/

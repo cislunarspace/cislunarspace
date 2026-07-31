@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:
-  title: Prompt Tuning (P-tuning) | Efficient LLM Fine-Tuning
+  title: "Prompt Tuning (P-tuning) | Efficient LLM Fine-Tuning"
   description: Parameter-efficient LLM fine-tuning via learnable soft prompt tokens
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Prompt Tuning (P-tuning) | Efficient LLM Fine-Tuning
+  title: "Prompt Tuning (P-tuning) | Efficient LLM Fine-Tuning"
   description: Parameter-efficient LLM fine-tuning via learnable soft prompt tokens
   image: /logo.png
 permalink: /en/glossary/other/prompt-tuning/

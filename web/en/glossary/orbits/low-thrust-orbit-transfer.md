@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-thrust Orbit Transfer Explained | Term Definition
+  title: "Low-thrust Orbit Transfer Explained | Term Definition"
   description: Orbital maneuver using continuous low-thrust propulsion, which requires less propellant than impulsive chemical thrust but results in longer transfer durations.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-thrust Orbit Transfer Explained | Term Definition
+  title: "Low-thrust Orbit Transfer Explained | Term Definition"
   description: Orbital maneuver using continuous low-thrust propulsion, which requires less propellant than impulsive chemical thrust but results in longer transfer durations.
   image: /logo.png
 permalink: /en/glossary/orbits/low-thrust-orbit-transfer/

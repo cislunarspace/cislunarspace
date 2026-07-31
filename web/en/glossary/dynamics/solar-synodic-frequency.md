@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Synodic Frequency Explained | Term Definition
+  title: "Solar Synodic Frequency Explained | Term Definition"
   description: The angular frequency of the Sun relative to the Earth-Moon rotating frame, a key external perturbation frequency in bicircular and quasi-periodic models.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Synodic Frequency Explained | Term Definition
+  title: "Solar Synodic Frequency Explained | Term Definition"
   description: The angular frequency of the Sun relative to the Earth-Moon rotating frame, a key external perturbation frequency in bicircular and quasi-periodic models.
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-synodic-frequency/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lissajous Trajectory Explained | Term Definition
+  title: "Lissajous Trajectory Explained | Term Definition"
   description: A quasi-periodic trajectory near a collinear libration point formed by the superposition of two in-plane oscillations at different frequencies and one out-of-plane oscillation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lissajous Trajectory Explained | Term Definition
+  title: "Lissajous Trajectory Explained | Term Definition"
   description: A quasi-periodic trajectory near a collinear libration point formed by the superposition of two in-plane oscillations at different frequencies and one out-of-plane oscillation.
   image: /logo.png
 permalink: /en/glossary/orbits/lissajous-trajectory/

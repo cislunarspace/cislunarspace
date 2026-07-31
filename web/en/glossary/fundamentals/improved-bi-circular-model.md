@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Improved Bi-Circular Model Explained | Term Definition
+  title: "Improved Bi-Circular Model Explained | Term Definition"
   description: "A dynamical approximation model adapted from Koon's bi-circular model, using the Earth-Moon barycenter as the origin of the Earth-Moon synodic frame. It decompo"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Improved Bi-Circular Model Explained | Term Definition
+  title: "Improved Bi-Circular Model Explained | Term Definition"
   description: "A dynamical approximation model adapted from Koon's bi-circular model, using the Earth-Moon barycenter as the origin of the Earth-Moon synodic frame. It decompo"
   image: /logo.png
 permalink: /en/glossary/fundamentals/improved-bi-circular-model/

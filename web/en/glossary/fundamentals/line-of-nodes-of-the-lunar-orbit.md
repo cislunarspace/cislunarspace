@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Line of Nodes of the Lunar Orbit Explained | Term Definition
+  title: "Line of Nodes of the Lunar Orbit Explained | Term Definition"
   description: The intersection line between the lunar orbital plane and the ecliptic, with ascending and descending nodes. In the tilted patched three-body approach, patching is performed on the line of nodes to en
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Line of Nodes of the Lunar Orbit Explained | Term Definition
+  title: "Line of Nodes of the Lunar Orbit Explained | Term Definition"
   description: The intersection line between the lunar orbital plane and the ecliptic, with ascending and descending nodes. In the tilted patched three-body approach, patching is performed on the line of nodes to en
   image: /logo.png
 permalink: /en/glossary/fundamentals/line-of-nodes-of-the-lunar-orbit/

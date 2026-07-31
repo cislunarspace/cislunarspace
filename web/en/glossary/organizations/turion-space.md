@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Turion Space
-  description: Introduction to Turion Space's DROID satellite and debris removal business
+  description: "Introduction to Turion Space's DROID satellite and debris removal business"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Turion Space
-  description: Introduction to Turion Space's DROID satellite and debris removal business
+  description: "Introduction to Turion Space's DROID satellite and debris removal business"
   image: /logo.png
 permalink: /en/glossary/organizations/turion-space/
 ---

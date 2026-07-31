@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: KAM Torus Explained | Term Definition
+  title: "KAM Torus Explained | Term Definition"
   description: Invariant tori surviving in near-integrable Hamiltonian systems under weak non-autonomous perturbations, with frequencies satisfying non-resonance conditions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: KAM Torus Explained | Term Definition
+  title: "KAM Torus Explained | Term Definition"
   description: Invariant tori surviving in near-integrable Hamiltonian systems under weak non-autonomous perturbations, with frequencies satisfying non-resonance conditions.
   image: /logo.png
 permalink: /en/glossary/dynamics/kam-torus/

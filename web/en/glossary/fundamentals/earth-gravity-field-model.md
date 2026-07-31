@@ -1,6 +1,6 @@
 ---
 title: Earth Gravity Field Model
-description: A mathematical model representing the Earth's non-uniform gravitational potential through spherical harmonic expansion. The paper uses JGM-series models in t...
+description: "A mathematical model representing the Earth's non-uniform gravitational potential through spherical harmonic expansion. The paper uses JGM-series models in t..."
 keywords: Earth Gravity Field Model
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth Gravity Field Model Explained | Term Definition
-  description: A mathematical model representing the Earth's non-uniform gravitational potential through spherical harmonic expansion. The paper uses JGM-series models in t...
+  title: "Earth Gravity Field Model Explained | Term Definition"
+  description: "A mathematical model representing the Earth's non-uniform gravitational potential through spherical harmonic expansion. The paper uses JGM-series models in t..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Gravity Field Model Explained | Term Definition
-  description: A mathematical model representing the Earth's non-uniform gravitational potential through spherical harmonic expansion. The paper uses JGM-series models in t...
+  title: "Earth Gravity Field Model Explained | Term Definition"
+  description: "A mathematical model representing the Earth's non-uniform gravitational potential through spherical harmonic expansion. The paper uses JGM-series models in t..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/earth-gravity-field-model/
 ---

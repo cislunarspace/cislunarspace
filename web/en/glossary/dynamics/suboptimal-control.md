@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Suboptimal Control Explained | Term Definition
+  title: "Suboptimal Control Explained | Term Definition"
   description: Technique for approximately solving optimal control problems for nonlinear systems through methods like mediation factor selection, applied in orbit maintenance and formation flying control.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Suboptimal Control Explained | Term Definition
+  title: "Suboptimal Control Explained | Term Definition"
   description: Technique for approximately solving optimal control problems for nonlinear systems through methods like mediation factor selection, applied in orbit maintenance and formation flying control.
   image: /logo.png
 permalink: /en/glossary/dynamics/suboptimal-control/

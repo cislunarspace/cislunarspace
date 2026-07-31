@@ -1,6 +1,6 @@
 ---
 title: Spherical Harmonic Gravity
-description: A model representing the Earth's gravitational potential using spherical harmonic expansion, accounting for the Earth's non-spherical gravitational effects. ...
+description: "A model representing the Earth's gravitational potential using spherical harmonic expansion, accounting for the Earth's non-spherical gravitational effects. ..."
 keywords: Spherical Harmonic Gravity
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spherical Harmonic Gravity Explained | Term Definition
-  description: A model representing the Earth's gravitational potential using spherical harmonic expansion, accounting for the Earth's non-spherical gravitational effects. ...
+  title: "Spherical Harmonic Gravity Explained | Term Definition"
+  description: "A model representing the Earth's gravitational potential using spherical harmonic expansion, accounting for the Earth's non-spherical gravitational effects. ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spherical Harmonic Gravity Explained | Term Definition
-  description: A model representing the Earth's gravitational potential using spherical harmonic expansion, accounting for the Earth's non-spherical gravitational effects. ...
+  title: "Spherical Harmonic Gravity Explained | Term Definition"
+  description: "A model representing the Earth's gravitational potential using spherical harmonic expansion, accounting for the Earth's non-spherical gravitational effects. ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/spherical-harmonic-gravity/
 ---

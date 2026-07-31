@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variational Equations Explained | Term Definition
+  title: "Variational Equations Explained | Term Definition"
   description: A system of differential equations governing the evolution of the state transition matrix along an orbit, in the form dPhi/dt = A * Phi, where A is the Jacobian of force F with respect to state X. The
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variational Equations Explained | Term Definition
+  title: "Variational Equations Explained | Term Definition"
   description: A system of differential equations governing the evolution of the state transition matrix along an orbit, in the form dPhi/dt = A * Phi, where A is the Jacobian of force F with respect to state X. The
   image: /logo.png
 permalink: /en/glossary/dynamics/variational-equations/

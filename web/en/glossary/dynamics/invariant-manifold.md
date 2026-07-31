@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
   image: /logo.png
 og:
-  title: Invariant Manifold Explained | Fundamentals of Libration Point Orbit Dynamics
+  title: "Invariant Manifold Explained | Fundamentals of Libration Point Orbit Dynamics"
   description: Detailed analysis of invariant manifold definition, stable and unstable manifold concepts, and their applications in libration point orbit design and low-energy transfers
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Invariant Manifold Explained | Fundamentals of Libration Point Orbit Dynamics
+  title: "Invariant Manifold Explained | Fundamentals of Libration Point Orbit Dynamics"
   description: Detailed analysis of invariant manifold definition, stable and unstable manifold concepts, and their applications in libration point orbit design and low-energy transfers
   image: /logo.png
 permalink: /en/glossary/dynamics/invariant-manifold/

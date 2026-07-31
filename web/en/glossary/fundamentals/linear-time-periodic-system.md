@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linear Time-Periodic System (LTP) Explained | Term Definition
+  title: "Linear Time-Periodic System (LTP) Explained | Term Definition"
   description: A linear system whose coefficient matrices vary periodically with time, satisfying A(t+T)=A(t), B(t+T)=B(t). It is the simplest and most important class of...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linear Time-Periodic System (LTP) Explained | Term Definition
+  title: "Linear Time-Periodic System (LTP) Explained | Term Definition"
   description: A linear system whose coefficient matrices vary periodically with time, satisfying A(t+T)=A(t), B(t+T)=B(t). It is the simplest and most important class of...
   image: /logo.png
 permalink: /en/glossary/fundamentals/linear-time-periodic-system/

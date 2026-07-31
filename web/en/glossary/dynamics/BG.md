@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Battin-Giorgi Approach, BG Approach Explained | Term Definition
+  title: "Battin-Giorgi Approach, BG Approach Explained | Term Definition"
   description: A nonlinear method for describing relative orbit motion between a chaser and a target spacecraft using a non-Keplerian reference orbit, without requiring...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Battin-Giorgi Approach, BG Approach Explained | Term Definition
+  title: "Battin-Giorgi Approach, BG Approach Explained | Term Definition"
   description: A nonlinear method for describing relative orbit motion between a chaser and a target spacecraft using a non-Keplerian reference orbit, without requiring...
   image: /logo.png
 permalink: /en/glossary/dynamics/BG/

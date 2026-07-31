@@ -1,6 +1,6 @@
 ---
 title: Semi-Major Axis (a)
-description: Half the major axis of an elliptical orbit, determining the orbit's size and period. In this paper, the semi-major axes of the three solutions (analytical, s...
+description: "Half the major axis of an elliptical orbit, determining the orbit's size and period. In this paper, the semi-major axes of the three solutions (analytical, s..."
 keywords: Semi-Major Axis, a
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Semi-Major Axis Explained | Term Definition
-  description: Half the major axis of an elliptical orbit, determining the orbit's size and period. In this paper, the semi-major axes of the three solutions (analytical, s...
+  title: "Semi-Major Axis Explained | Term Definition"
+  description: "Half the major axis of an elliptical orbit, determining the orbit's size and period. In this paper, the semi-major axes of the three solutions (analytical, s..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Semi-Major Axis Explained | Term Definition
-  description: Half the major axis of an elliptical orbit, determining the orbit's size and period. In this paper, the semi-major axes of the three solutions (analytical, s...
+  title: "Semi-Major Axis Explained | Term Definition"
+  description: "Half the major axis of an elliptical orbit, determining the orbit's size and period. In this paper, the semi-major axes of the three solutions (analytical, s..."
   image: /logo.png
 permalink: /en/glossary/fundamentals/semi-major-axis/
 ---

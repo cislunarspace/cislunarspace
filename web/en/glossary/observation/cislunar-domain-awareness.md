@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cislunar Domain Awareness (CDA) Explained | Term Definition
+  title: "Cislunar Domain Awareness (CDA) Explained | Term Definition"
   description: The capability to detect, track, catalog, and assess the intent of objects in cislunar space. Ground-based observation is limited by range (cislunar objects are
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Domain Awareness (CDA) Explained | Term Definition
+  title: "Cislunar Domain Awareness (CDA) Explained | Term Definition"
   description: The capability to detect, track, catalog, and assess the intent of objects in cislunar space. Ground-based observation is limited by range (cislunar objects are
   image: /logo.png
 permalink: /en/glossary/observation/cislunar-domain-awareness/

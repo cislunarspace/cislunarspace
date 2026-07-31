@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Chaos Effect Details | Nonlinear Dynamics in Three-Body Problem
+  title: "Chaos Effect Details | Nonlinear Dynamics in Three-Body Problem"
   description: Detailed analysis of chaos phenomena in the three-body problem and their impact on orbit design
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chaos Effect Details | Nonlinear Dynamics in Three-Body Problem
+  title: "Chaos Effect Details | Nonlinear Dynamics in Three-Body Problem"
   description: Detailed analysis of chaos phenomena in the three-body problem and their impact on orbit design
   image: /logo.png
 permalink: /en/glossary/dynamics/chaos-effect/

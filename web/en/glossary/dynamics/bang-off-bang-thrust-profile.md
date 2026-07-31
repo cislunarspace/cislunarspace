@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Bang-off-Bang Thrust Profile Explained | Term Definition
+  title: "Bang-off-Bang Thrust Profile Explained | Term Definition"
   description: The characteristic thrust profile of fuel-optimal low-thrust transfers. The engine alternates between maximum thrust (bang, throttle = 1) and shutdown (off, ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Bang-off-Bang Thrust Profile Explained | Term Definition
+  title: "Bang-off-Bang Thrust Profile Explained | Term Definition"
   description: The characteristic thrust profile of fuel-optimal low-thrust transfers. The engine alternates between maximum thrust (bang, throttle = 1) and shutdown (off, ...
   image: /logo.png
 permalink: /en/glossary/dynamics/bang-off-bang-thrust-profile/

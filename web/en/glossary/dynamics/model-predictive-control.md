@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Model Predictive Control Explained | Term Definition
+  title: "Model Predictive Control Explained | Term Definition"
   description: An advanced control method that handles system constraints by optimizing a sequence of control actions over a prediction horizon.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Model Predictive Control Explained | Term Definition
+  title: "Model Predictive Control Explained | Term Definition"
   description: An advanced control method that handles system constraints by optimizing a sequence of control actions over a prediction horizon.
   image: /logo.png
 permalink: /en/glossary/dynamics/model-predictive-control/

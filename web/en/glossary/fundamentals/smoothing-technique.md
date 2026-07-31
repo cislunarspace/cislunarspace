@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Smoothing Technique Explained | Term Definition
+  title: "Smoothing Technique Explained | Term Definition"
   description: A technique that approximates the discontinuous sign function in the switching function with differentiable parameterized functions, enabling indirect methods t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Smoothing Technique Explained | Term Definition
+  title: "Smoothing Technique Explained | Term Definition"
   description: A technique that approximates the discontinuous sign function in the switching function with differentiable parameterized functions, enabling indirect methods t
   image: /logo.png
 permalink: /en/glossary/fundamentals/smoothing-technique/

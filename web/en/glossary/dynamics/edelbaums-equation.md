@@ -1,22 +1,22 @@
 ---
-title: Edelbaum's Equation
+title: "Edelbaum's Equation"
 description: An analytic equation derived by Edelbaum in 1961 for estimating the velocity increment required by a low-thrust spacecraft transferring between two inclined circular orbits. The key expression DV² = V1² + V2² - 2V1V2·cos(pi·Di/2) unifies plane-change and speed-change costs into a single compact formula, widely used for rapid preliminary analysis of low-thrust missions.
-keywords: Edelbaum's Equation, orbital dynamics, three-body problem, libration point, low-thrust trajectory, velocity increment
+keywords: "Edelbaum's Equation, orbital dynamics, three-body problem, libration point, low-thrust trajectory, velocity increment"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Edelbaum's Equation
+  title: "Edelbaum's Equation"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Edelbaum's Equation Explained | Term Definition
+  title: "Edelbaum's Equation Explained | Term Definition"
   description: An analytic equation derived by Edelbaum in 1961 for estimating the velocity increment required by a low-thrust spacecraft transferring between two inclined circular orbits. The key expression DV² = V1² + V2² - 2V1V2·cos(pi·Di/2) unifies plane-change and speed-change costs into a single compact formula, widely used for rapid preliminary analysis of low-thrust missions.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Edelbaum's Equation Explained | Term Definition
+  title: "Edelbaum's Equation Explained | Term Definition"
   description: An analytic equation derived by Edelbaum in 1961 for estimating the velocity increment required by a low-thrust spacecraft transferring between two inclined circular orbits.
   image: /logo.png
 permalink: /en/glossary/dynamics/edelbaums-equation/

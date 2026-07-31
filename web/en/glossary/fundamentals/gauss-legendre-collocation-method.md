@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gauss-Legendre Collocation Method Explained | Term Definition
+  title: "Gauss-Legendre Collocation Method Explained | Term Definition"
   description: A discretization method for numerically solving differential equations. It uses Legendre polynomial roots (LG points) as collocation points, approximates the so
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gauss-Legendre Collocation Method Explained | Term Definition
+  title: "Gauss-Legendre Collocation Method Explained | Term Definition"
   description: A discretization method for numerically solving differential equations. It uses Legendre polynomial roots (LG points) as collocation points, approximates the so
   image: /logo.png
 permalink: /en/glossary/fundamentals/gauss-legendre-collocation-method/

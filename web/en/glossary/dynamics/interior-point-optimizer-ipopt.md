@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Interior Point Optimizer, IPOPT Explained | Term Definition
+  title: "Interior Point Optimizer, IPOPT Explained | Term Definition"
   description: Nonlinear interior-point optimizer used for three-impulse maneuver optimization in transfer trajectory design, minimizing total impulse.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Interior Point Optimizer, IPOPT Explained | Term Definition
+  title: "Interior Point Optimizer, IPOPT Explained | Term Definition"
   description: Nonlinear interior-point optimizer used for three-impulse maneuver optimization in transfer trajectory design, minimizing total impulse.
   image: /logo.png
 permalink: /en/glossary/dynamics/interior-point-optimizer-ipopt/

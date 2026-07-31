@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Effective Time of Flight Explained | Term Definition
+  title: "Effective Time of Flight Explained | Term Definition"
   description: In low-energy transfer design, the actual flight time after subtracting the winding time spent near the Lyapunov orbit. Since most time on a manifold trajectory is consumed winding on and off the periodic orbit, a small maneuver can skip this phase, leaving the effective time of flight as a more practical engineering measure.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Effective Time of Flight Explained | Term Definition
+  title: "Effective Time of Flight Explained | Term Definition"
   description: In low-energy transfer design, the actual flight time after subtracting the winding time spent near the Lyapunov orbit. Since most time on a manifold trajectory is consumed winding on and off the periodic orbit, a small maneuver can skip this phase, leaving the effective time of flight as a more practical engineering measure.
   image: /logo.png
 permalink: /en/glossary/orbits/effective-time-of-flight/

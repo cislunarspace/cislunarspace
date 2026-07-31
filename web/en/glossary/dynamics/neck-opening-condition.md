@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Neck Opening Condition Explained | Term Definition
+  title: "Neck Opening Condition Explained | Term Definition"
   description: 允许航天器通过L₁颈部区域的能量条件：雅可比能量C必须满足 C₂ < C < C₁（在地月系统中为 3.1722 < C < 3.1884）。当C略低于C₁时颈部刚好开启，允许低能量转移；当C < C₂时，L₂颈部也开启，航天器可进出外部区域。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Neck Opening Condition Explained | Term Definition
+  title: "Neck Opening Condition Explained | Term Definition"
   description: 允许航天器通过L₁颈部区域的能量条件：雅可比能量C必须满足 C₂ < C < C₁（在地月系统中为 3.1722 < C < 3.1884）。当C略低于C₁时颈部刚好开启，允许低能量转移；当C < C₂时，L₂颈部也开启，航天器可进出外部区域。
   image: /logo.png
 permalink: /en/glossary/dynamics/neck-opening-condition/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Low-Perilune Orbit Explained | Term Definition
+  title: "Low-Perilune Orbit Explained | Term Definition"
   description: A lunar elliptical orbit with a low perilune altitude, serving as a transport platform between the lunar surface and the working orbit. Due to the irregular lun
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Perilune Orbit Explained | Term Definition
+  title: "Low-Perilune Orbit Explained | Term Definition"
   description: A lunar elliptical orbit with a low perilune altitude, serving as a transport platform between the lunar surface and the working orbit. Due to the irregular lun
   image: /logo.png
 permalink: /en/glossary/orbits/LPO-lowperilun/

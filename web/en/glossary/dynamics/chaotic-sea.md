@@ -1,6 +1,6 @@
 ---
 title: Chaotic Sea
-description: A connected region on the Poincaré map filled with chaotic orbits, distinguished from regular 'island chains' enclosed by invariant tori.
+description: "A connected region on the Poincaré map filled with chaotic orbits, distinguished from regular 'island chains' enclosed by invariant tori."
 keywords: Chaotic Sea, cislunar space, orbital mechanics, navigation, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chaotic Sea Explained | Term Definition
-  description: A connected region on the Poincaré map filled with chaotic orbits, distinguished from regular 'island chains' enclosed by invariant tori.
+  title: "Chaotic Sea Explained | Term Definition"
+  description: "A connected region on the Poincaré map filled with chaotic orbits, distinguished from regular 'island chains' enclosed by invariant tori."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chaotic Sea Explained | Term Definition
-  description: A connected region on the Poincaré map filled with chaotic orbits, distinguished from regular 'island chains' enclosed by invariant tori.
+  title: "Chaotic Sea Explained | Term Definition"
+  description: "A connected region on the Poincaré map filled with chaotic orbits, distinguished from regular 'island chains' enclosed by invariant tori."
   image: /logo.png
 permalink: /en/glossary/dynamics/chaotic-sea/
 ---

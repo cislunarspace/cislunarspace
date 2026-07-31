@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Earth Ellipsoid | Terminology Definition
+  title: "Earth Ellipsoid | Terminology Definition"
   description: Definition of the Earth ellipsoid, reference ellipsoid parameters, ground-point coordinate systems, and its foundational role
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth Ellipsoid | Terminology Definition
+  title: "Earth Ellipsoid | Terminology Definition"
   description: Definition of the Earth ellipsoid, reference ellipsoid parameters, ground-point coordinate systems, and its foundational role
   image: /logo.png
 permalink: /en/glossary/fundamentals/earth-ellipsoid/

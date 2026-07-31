@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Entry Flight Path Angle Explained | Term Definition
+  title: "Entry Flight Path Angle Explained | Term Definition"
   description: Angle between velocity vector and local horizontal; critical navigation parameter for crewed spacecraft return.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Entry Flight Path Angle Explained | Term Definition
+  title: "Entry Flight Path Angle Explained | Term Definition"
   description: Angle between velocity vector and local horizontal; critical navigation parameter for crewed spacecraft return.
   image: /logo.png
 permalink: /en/glossary/navigation/entry-flight-path-angle/

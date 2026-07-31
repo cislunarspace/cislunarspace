@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Orbital Phase | Terminology Definition
+  title: "Orbital Phase | Terminology Definition"
   description: A detailed analysis of the definition, flight characteristics, force environment, and central role of the orbital phase
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbital Phase | Terminology Definition
+  title: "Orbital Phase | Terminology Definition"
   description: A detailed analysis of the definition, flight characteristics, force environment, and central role of the orbital phase
   image: /logo.png
 permalink: /en/glossary/fundamentals/orbital-phase/

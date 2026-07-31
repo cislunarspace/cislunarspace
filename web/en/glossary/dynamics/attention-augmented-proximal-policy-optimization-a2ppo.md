@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Attention-Augmented Proximal Policy Optimization, A2PPO Explained | Term Definition
+  title: "Attention-Augmented Proximal Policy Optimization, A2PPO Explained | Term Definition"
   description: A deep reinforcement learning framework that integrates a directional cross-attention mechanism into an actor-critic policy architecture for autonomous low-t...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Attention-Augmented Proximal Policy Optimization, A2PPO Explained | Term Definition
+  title: "Attention-Augmented Proximal Policy Optimization, A2PPO Explained | Term Definition"
   description: A deep reinforcement learning framework that integrates a directional cross-attention mechanism into an actor-critic policy architecture for autonomous low-t...
   image: /logo.png
 permalink: /en/glossary/dynamics/attention-augmented-proximal-policy-optimization-a2ppo/

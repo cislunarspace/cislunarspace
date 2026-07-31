@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial guess scheme Explained | Term Definition
+  title: "Initial guess scheme Explained | Term Definition"
   description: A scheme to provide initial guesses for the Lambert solver; this paper leverages the relation between transfer angle and universal variable to retain accuracy regardless of revolution count.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial guess scheme Explained | Term Definition
+  title: "Initial guess scheme Explained | Term Definition"
   description: A scheme to provide initial guesses for the Lambert solver; this paper leverages the relation between transfer angle and universal variable to retain accuracy regardless of revolution count.
   image: /logo.png
 permalink: /en/glossary/dynamics/initial-guess-scheme/

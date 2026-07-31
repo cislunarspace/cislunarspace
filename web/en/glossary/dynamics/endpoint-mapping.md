@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Endpoint Mapping Explained | Term Definition
+  title: "Endpoint Mapping Explained | Term Definition"
   description: A nonlinear mapping from control functions to terminal states. The optimal control in minimum time control is a critical point of the endpoint mapping; its g...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Endpoint Mapping Explained | Term Definition
+  title: "Endpoint Mapping Explained | Term Definition"
   description: A nonlinear mapping from control functions to terminal states. The optimal control in minimum time control is a critical point of the endpoint mapping; its g...
   image: /logo.png
 permalink: /en/glossary/dynamics/endpoint-mapping/

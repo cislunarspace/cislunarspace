@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Flow Structure Explained | Term Definition
+  title: "Phase Flow Structure Explained | Term Definition"
   description: The overall distribution and motion patterns of trajectories in the phase space of the restricted three-body problem, revealing periodic orbits, invariant ma...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Flow Structure Explained | Term Definition
+  title: "Phase Flow Structure Explained | Term Definition"
   description: The overall distribution and motion patterns of trajectories in the phase space of the restricted three-body problem, revealing periodic orbits, invariant ma...
   image: /logo.png
 permalink: /en/glossary/dynamics/phase-flow-structure/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Chi-Square Test-Based Adaptive Forgetting Factor ARCKF, AFF-ARCKF Explained | Term Definition
+  title: "Chi-Square Test-Based Adaptive Forgetting Factor ARCKF, AFF-ARCKF Explained | Term Definition"
   description: "An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Chi-Square Test-Based Adaptive Forgetting Factor ARCKF, AFF-ARCKF Explained | Term Definition
+  title: "Chi-Square Test-Based Adaptive Forgetting Factor ARCKF, AFF-ARCKF Explained | Term Definition"
   description: "An extension of ARCKF that dynamically adjusts the forgetting factor via a chi-square test on the normalized innovation squared: when the innovation is abnormal"
   image: /logo.png
 permalink: /en/glossary/navigation/AFF-ARCKF/

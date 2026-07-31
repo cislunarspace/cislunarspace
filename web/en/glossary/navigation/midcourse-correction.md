@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Midcourse Correction (TCM) Explained | Term Definition
+  title: "Midcourse Correction (TCM) Explained | Term Definition"
   description: Small velocity correction maneuvers performed during Earth-Moon transfer to eliminate accumulated effects of insertion errors, navigation errors, and control errors. The paper analyzes velocity inc...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Midcourse Correction (TCM) Explained | Term Definition
+  title: "Midcourse Correction (TCM) Explained | Term Definition"
   description: Small velocity correction maneuvers performed during Earth-Moon transfer to eliminate accumulated effects of insertion errors, navigation errors, and control errors. The paper analyzes velocity inc...
   image: /logo.png
 permalink: /en/glossary/navigation/midcourse-correction/

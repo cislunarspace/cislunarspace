@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Out-of-Plane Resonant Orbit Explained | Term Definition
+  title: "Out-of-Plane Resonant Orbit Explained | Term Definition"
   description: A periodic resonant orbit with nonzero z-component that is symmetric about the xz plane in the Earth-moon system.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Out-of-Plane Resonant Orbit Explained | Term Definition
+  title: "Out-of-Plane Resonant Orbit Explained | Term Definition"
   description: A periodic resonant orbit with nonzero z-component that is symmetric about the xz plane in the Earth-moon system.
   image: /logo.png
 permalink: /en/glossary/orbits/out-of-plane-resonant-orbit/

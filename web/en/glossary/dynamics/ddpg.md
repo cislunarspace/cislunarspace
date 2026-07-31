@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: DDPG Algorithm Explained | Deep Reinforcement Learning for Trajectory Optimization
+  title: "DDPG Algorithm Explained | Deep Reinforcement Learning for Trajectory Optimization"
   description: A detailed analysis of the DDPG algorithm, its Actor-Critic architecture, experience replay mechanism, and applications in spacecraft trajectory optimization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: DDPG Algorithm Explained | Deep Reinforcement Learning for Trajectory Optimization
+  title: "DDPG Algorithm Explained | Deep Reinforcement Learning for Trajectory Optimization"
   description: A detailed analysis of the DDPG algorithm, its Actor-Critic architecture, experience replay mechanism, and applications in spacecraft trajectory optimization
   image: /logo.png
 permalink: /en/glossary/dynamics/ddpg/

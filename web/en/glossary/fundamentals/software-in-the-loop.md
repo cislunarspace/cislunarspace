@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Software-in-the-Loop Explained | Term Definition
+  title: "Software-in-the-Loop Explained | Term Definition"
   description: A verification method where target software runs on a host computer while interfacing with real-time physical models. An important step in the V&V process.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Software-in-the-Loop Explained | Term Definition
+  title: "Software-in-the-Loop Explained | Term Definition"
   description: A verification method where target software runs on a host computer while interfacing with real-time physical models. An important step in the V&V process.
   image: /logo.png
 permalink: /en/glossary/fundamentals/software-in-the-loop/

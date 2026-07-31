@@ -1,6 +1,6 @@
 ---
 title: Barycentric Coordinate Time, TCB
-description: The relativistic coordinate time defined by IAU with origin at the solar system barycenter, incorporating the combined effects of Earth's velocity and external gravitational potentials on time rate. TCB and TCG have a secular drift between them, with precise conversion given by IAU 2000 resolutions.
+description: "The relativistic coordinate time defined by IAU with origin at the solar system barycenter, incorporating the combined effects of Earth's velocity and external gravitational potentials on time rate. TCB and TCG have a secular drift between them, with precise conversion given by IAU 2000 resolutions."
 keywords: Barycentric Coordinate Time, TCB, fundamentals
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Barycentric Coordinate Time, TCB Explained | Term Definition
-  description: The relativistic coordinate time defined by IAU with origin at the solar system barycenter, incorporating the combined effects of Earth's velocity and external gravitational potentials on time rate. TCB and TCG have a secular drift between them, with precise conversion given by IAU 2000 resolutions.
+  title: "Barycentric Coordinate Time, TCB Explained | Term Definition"
+  description: "The relativistic coordinate time defined by IAU with origin at the solar system barycenter, incorporating the combined effects of Earth's velocity and external gravitational potentials on time rate. TCB and TCG have a secular drift between them, with precise conversion given by IAU 2000 resolutions."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Barycentric Coordinate Time, TCB Explained | Term Definition
-  description: The relativistic coordinate time defined by IAU with origin at the solar system barycenter, incorporating the combined effects of Earth's velocity and external gravitational potentials on time rate. TCB and TCG have a secular drift between them, with precise conversion given by IAU 2000 resolutions.
+  title: "Barycentric Coordinate Time, TCB Explained | Term Definition"
+  description: "The relativistic coordinate time defined by IAU with origin at the solar system barycenter, incorporating the combined effects of Earth's velocity and external gravitational potentials on time rate. TCB and TCG have a secular drift between them, with precise conversion given by IAU 2000 resolutions."
   image: /logo.png
 permalink: /en/glossary/fundamentals/barycentric-coordinate-time-tcb/
 ---

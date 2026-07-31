@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Patched Method Explained | Segmented Trajectory Design and Dynamical Model Matching
+  title: "Patched Method Explained | Segmented Trajectory Design and Dynamical Model Matching"
   description: Detailed explanation of the patched method in orbital design — segmenting complex trajectories into arcs with different dynamical models, matched at connection points
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Patched Method Explained | Segmented Trajectory Design and Dynamical Model Matching
+  title: "Patched Method Explained | Segmented Trajectory Design and Dynamical Model Matching"
   description: Detailed explanation of the patched method in orbital design — segmenting complex trajectories into arcs with different dynamical models, matched at connection points
   image: /logo.png
 permalink: /en/glossary/dynamics/patched-method/

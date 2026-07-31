@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single-Shooting Explained | Term Definition
+  title: "Single-Shooting Explained | Term Definition"
   description: 利用单条轨迹弧通过修改初始状态使航天器到达预定位置的打靶方法。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single-Shooting Explained | Term Definition
+  title: "Single-Shooting Explained | Term Definition"
   description: 利用单条轨迹弧通过修改初始状态使航天器到达预定位置的打靶方法。
   image: /logo.png
 permalink: /en/glossary/dynamics/single-shooting/

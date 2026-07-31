@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Stable-Baselines3, SB3 Explained | Term Definition
+  title: "Stable-Baselines3, SB3 Explained | Term Definition"
   description: A PyTorch-based reinforcement learning library providing stable implementations of algorithms such as PPO and SAC. A2PPO extends the SB3 PPO implementation with
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stable-Baselines3, SB3 Explained | Term Definition
+  title: "Stable-Baselines3, SB3 Explained | Term Definition"
   description: A PyTorch-based reinforcement learning library providing stable implementations of algorithms such as PPO and SAC. A2PPO extends the SB3 PPO implementation with
   image: /logo.png
 permalink: /en/glossary/dynamics/stable-baselines3-sb3/

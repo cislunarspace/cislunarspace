@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hierarchical Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition
+  title: "Hierarchical Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition"
   description: A hierarchical density-based clustering algorithm that does not require a priori knowledge of the number of clusters or neighborhood size, can discover clusters
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hierarchical Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition
+  title: "Hierarchical Density-Based Spatial Clustering of Applications with Noise Explained | Term Definition"
   description: A hierarchical density-based clustering algorithm that does not require a priori knowledge of the number of clusters or neighborhood size, can discover clusters
   image: /logo.png
 permalink: /en/glossary/dynamics/hierarchical-density-based-spatial-clustering-of-applications-with-noise/

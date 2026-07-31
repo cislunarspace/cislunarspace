@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Q-bar Matrix, QBM Explained | Term Definition
+  title: "Q-bar Matrix, QBM Explained | Term Definition"
   description: 累积过程噪声协方差矩阵，描述随机扰动对状态弥散的累积效应。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Q-bar Matrix, QBM Explained | Term Definition
+  title: "Q-bar Matrix, QBM Explained | Term Definition"
   description: 累积过程噪声协方差矩阵，描述随机扰动对状态弥散的累积效应。
   image: /logo.png
 permalink: /en/glossary/dynamics/q-bar-matrix/

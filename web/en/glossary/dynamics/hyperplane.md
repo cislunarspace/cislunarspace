@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperplane (Σ) Explained | Term Definition
+  title: "Hyperplane (Σ) Explained | Term Definition"
   description: A geometric plane defined by a Sun angle value, used to record trajectory segment intersections for constructing phase maps.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperplane (Σ) Explained | Term Definition
+  title: "Hyperplane (Σ) Explained | Term Definition"
   description: A geometric plane defined by a Sun angle value, used to record trajectory segment intersections for constructing phase maps.
   image: /logo.png
 permalink: /en/glossary/dynamics/hyperplane/

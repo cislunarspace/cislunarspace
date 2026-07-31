@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trajectory Optimization with Sparse Optimal Control Software, TOSOCS Explained | Term Definition
+  title: "Trajectory Optimization with Sparse Optimal Control Software, TOSOCS Explained | Term Definition"
   description: A 3 degree-of-freedom, open-loop trajectory design and optimization tool developed internally at Lockheed Martin, built around the commercial optimization engin
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trajectory Optimization with Sparse Optimal Control Software, TOSOCS Explained | Term Definition
+  title: "Trajectory Optimization with Sparse Optimal Control Software, TOSOCS Explained | Term Definition"
   description: A 3 degree-of-freedom, open-loop trajectory design and optimization tool developed internally at Lockheed Martin, built around the commercial optimization engin
   image: /logo.png
 permalink: /en/glossary/dynamics/trajectory-optimization-with-sparse-optimal-control-software-tosocs/

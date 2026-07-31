@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Nondimensionalization Explained | Term Definition
+  title: "Nondimensionalization Explained | Term Definition"
   description: A mathematical procedure of scaling variables in physical equations using characteristic quantities (characteristic mass, length, time) to eliminate units and r
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Nondimensionalization Explained | Term Definition
+  title: "Nondimensionalization Explained | Term Definition"
   description: A mathematical procedure of scaling variables in physical equations using characteristic quantities (characteristic mass, length, time) to eliminate units and r
   image: /logo.png
 permalink: /en/glossary/fundamentals/nondimensionalization/

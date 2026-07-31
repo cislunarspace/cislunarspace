@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Triangular Libration Point Explained | Term Definition
+  title: "Triangular Libration Point Explained | Term Definition"
   description: 限制性三体问题中与两天体构成等边三角形关系的平衡点，共有两个，位于两天体连线的两侧，又称L4和L5点。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Triangular Libration Point Explained | Term Definition
+  title: "Triangular Libration Point Explained | Term Definition"
   description: 限制性三体问题中与两天体构成等边三角形关系的平衡点，共有两个，位于两天体连线的两侧，又称L4和L5点。
   image: /logo.png
 permalink: /en/glossary/dynamics/triangular-libration-point/

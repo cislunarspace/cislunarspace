@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: L1 Point Space Station Explained | Term Definition
+  title: "L1 Point Space Station Explained | Term Definition"
   description: A crewed space facility near the Earth-Moon L1 libration point. L1 lies between Earth and Moon, maintaining a fixed position relative to the Moon in the...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: L1 Point Space Station Explained | Term Definition
+  title: "L1 Point Space Station Explained | Term Definition"
   description: A crewed space facility near the Earth-Moon L1 libration point. L1 lies between Earth and Moon, maintaining a fixed position relative to the Moon in the...
   image: /logo.png
 permalink: /en/glossary/programs/l1-point-space-station/

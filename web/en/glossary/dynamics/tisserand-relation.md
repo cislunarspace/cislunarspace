@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Tisserand Relation Explained | Term Definition
+  title: "Tisserand Relation Explained | Term Definition"
   description: An approximate relation derived from the Jacobi integral in the restricted three-body problem, connecting orbital elements before and after a planetary encounte
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Tisserand Relation Explained | Term Definition
+  title: "Tisserand Relation Explained | Term Definition"
   description: An approximate relation derived from the Jacobi integral in the restricted three-body problem, connecting orbital elements before and after a planetary encounte
   image: /logo.png
 permalink: /en/glossary/dynamics/tisserand-relation/

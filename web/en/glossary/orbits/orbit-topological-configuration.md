@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Orbit Topological Configuration Explained | Term Definition
+  title: "Orbit Topological Configuration Explained | Term Definition"
   description: "The overall geometric shape and spatial envelope of an orbit in position space. Different libration point orbit types have different topological constraints: qu"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Orbit Topological Configuration Explained | Term Definition
+  title: "Orbit Topological Configuration Explained | Term Definition"
   description: "The overall geometric shape and spatial envelope of an orbit in position space. Different libration point orbit types have different topological constraints: qu"
   image: /logo.png
 permalink: /en/glossary/orbits/orbit-topological-configuration/

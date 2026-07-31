@@ -1,22 +1,22 @@
 ---
-title: Cowell's Perturbation Technique
+title: "Cowell's Perturbation Technique"
 description: Orbit integration method that adds external celestial body gravity as perturbation acceleration to the central gravitational field.
-keywords: Cowell's Perturbation Technique, orbit optimization, control theory, nonlinear control
+keywords: "Cowell's Perturbation Technique, orbit optimization, control theory, nonlinear control"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Cowell's Perturbation Technique
+  title: "Cowell's Perturbation Technique"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cowell's Perturbation Technique Explained | Term Definition
+  title: "Cowell's Perturbation Technique Explained | Term Definition"
   description: Orbit integration method that adds external celestial body gravity as perturbation acceleration to the central gravitational field.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cowell's Perturbation Technique Explained | Term Definition
+  title: "Cowell's Perturbation Technique Explained | Term Definition"
   description: Orbit integration method that adds external celestial body gravity as perturbation acceleration to the central gravitational field.
   image: /logo.png
 permalink: /en/glossary/dynamics/cowells-perturbation-technique/

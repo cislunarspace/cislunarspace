@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Spatio-Temporal DBSCAN Explained | Term Definition
+  title: "Spatio-Temporal DBSCAN Explained | Term Definition"
   description: An extension of DBSCAN that discovers clusters as members that simultaneously lie in sufficiently dense regions of two distinct feature vector spaces, supporting simultaneous clustering of spatial ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Spatio-Temporal DBSCAN Explained | Term Definition
+  title: "Spatio-Temporal DBSCAN Explained | Term Definition"
   description: An extension of DBSCAN that discovers clusters as members that simultaneously lie in sufficiently dense regions of two distinct feature vector spaces, supporting simultaneous clustering of spatial ...
   image: /logo.png
 permalink: /en/glossary/dynamics/spatio-temporal-dbscan/

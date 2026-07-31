@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Single-Step Prediction Method Explained | Term Definition
+  title: "Single-Step Prediction Method Explained | Term Definition"
   description: "A control optimization strategy for libration point orbit station-keeping. It exploits the property that the residual from the n-th revolution significantly aff"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Single-Step Prediction Method Explained | Term Definition
+  title: "Single-Step Prediction Method Explained | Term Definition"
   description: "A control optimization strategy for libration point orbit station-keeping. It exploits the property that the residual from the n-th revolution significantly aff"
   image: /logo.png
 permalink: /en/glossary/dynamics/single-step-prediction-method/

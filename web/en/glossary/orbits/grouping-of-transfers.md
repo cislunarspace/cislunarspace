@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Grouping of Transfers Explained | Term Definition
+  title: "Grouping of Transfers Explained | Term Definition"
   description: A set of transfer trajectories with similar geometry and clustered around similar Jacobi constant values.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Grouping of Transfers Explained | Term Definition
+  title: "Grouping of Transfers Explained | Term Definition"
   description: A set of transfer trajectories with similar geometry and clustered around similar Jacobi constant values.
   image: /logo.png
 permalink: /en/glossary/orbits/grouping-of-transfers/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Centered Earth-Fixed Frame (ECEF) Explained | Term Definition
+  title: "Earth-Centered Earth-Fixed Frame (ECEF) Explained | Term Definition"
   description: Coordinate system fixed to the rotating Earth, Z-axis parallel to the direction of the North Pole, X-axis defined as the intersection between the fundamental pl
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Centered Earth-Fixed Frame (ECEF) Explained | Term Definition
+  title: "Earth-Centered Earth-Fixed Frame (ECEF) Explained | Term Definition"
   description: Coordinate system fixed to the rotating Earth, Z-axis parallel to the direction of the North Pole, X-axis defined as the intersection between the fundamental pl
   image: /logo.png
 permalink: /en/glossary/dynamics/earth-centered-earth-fixed-frame/

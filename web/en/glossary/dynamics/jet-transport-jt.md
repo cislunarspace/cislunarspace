@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Jet Transport, JT Explained | Term Definition
+  title: "Jet Transport, JT Explained | Term Definition"
   description: An automatic differentiation technique that uses truncated Taylor polynomial algebra to compute high-order derivatives of nonlinear functions, enabling explicit
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Jet Transport, JT Explained | Term Definition
+  title: "Jet Transport, JT Explained | Term Definition"
   description: An automatic differentiation technique that uses truncated Taylor polynomial algebra to compute high-order derivatives of nonlinear functions, enabling explicit
   image: /logo.png
 permalink: /en/glossary/dynamics/jet-transport-jt/

@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Aerodynamic Moment | Terminology Definition
+  title: "Aerodynamic Moment | Terminology Definition"
   description: A detailed analysis of the stability moment and damping moment definitions, generation principles, and their roles in vehicle attitude motion
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Aerodynamic Moment | Terminology Definition
+  title: "Aerodynamic Moment | Terminology Definition"
   description: A detailed analysis of the stability moment and damping moment definitions, generation principles, and their roles in vehicle attitude motion
   image: /logo.png
 permalink: /en/glossary/fundamentals/aerodynamic-moment/

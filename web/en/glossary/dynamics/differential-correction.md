@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Differential Correction Explained | Iterative Orbital Initial Condition Solving
+  title: "Differential Correction Explained | Iterative Orbital Initial Condition Solving"
   description: Detailed explanation of differential correction — mathematical principles, state transition matrix linearization, and applications in solving cislunar periodic orbits
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Differential Correction Explained | Iterative Orbital Initial Condition Solving
+  title: "Differential Correction Explained | Iterative Orbital Initial Condition Solving"
   description: Detailed explanation of differential correction — mathematical principles, state transition matrix linearization, and applications in solving cislunar periodic orbits
   image: /logo.png
 permalink: /en/glossary/dynamics/differential-correction/

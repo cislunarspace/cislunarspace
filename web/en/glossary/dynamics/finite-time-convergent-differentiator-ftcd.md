@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Finite-Time-Convergent Differentiator, FTCD Explained | Term Definition
+  title: "Finite-Time-Convergent Differentiator, FTCD Explained | Term Definition"
   description: A signal differentiation estimator based on singular perturbation techniques. Given a measurable signal, it reconstructs the first and second derivatives wit...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Finite-Time-Convergent Differentiator, FTCD Explained | Term Definition
+  title: "Finite-Time-Convergent Differentiator, FTCD Explained | Term Definition"
   description: A signal differentiation estimator based on singular perturbation techniques. Given a measurable signal, it reconstructs the first and second derivatives wit...
   image: /logo.png
 permalink: /en/glossary/dynamics/finite-time-convergent-differentiator-ftcd/

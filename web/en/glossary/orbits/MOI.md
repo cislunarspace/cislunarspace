@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Stable Manifold Insertion, MOI Explained | Term Definition
+  title: "Stable Manifold Insertion, MOI Explained | Term Definition"
   description: The insertion strategy in which the final maneuver places the spacecraft onto the stable manifold of the Halo orbit, after which the spacecraft naturally winds...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Stable Manifold Insertion, MOI Explained | Term Definition
+  title: "Stable Manifold Insertion, MOI Explained | Term Definition"
   description: The insertion strategy in which the final maneuver places the spacecraft onto the stable manifold of the Halo orbit, after which the spacecraft naturally winds...
   image: /logo.png
 permalink: /en/glossary/orbits/MOI/

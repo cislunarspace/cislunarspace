@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Surface Capture Explained | Term Definition
+  title: "Lunar Surface Capture Explained | Term Definition"
   description: 将探测器从转移轨道捕获到月面环月轨道的过程。与传统的双曲线速度入轨不同，弹道捕获的能量阈值更低，从弹道捕获蜕变为永久捕获所需的ΔV远小于传统方式。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Surface Capture Explained | Term Definition
+  title: "Lunar Surface Capture Explained | Term Definition"
   description: 将探测器从转移轨道捕获到月面环月轨道的过程。与传统的双曲线速度入轨不同，弹道捕获的能量阈值更低，从弹道捕获蜕变为永久捕获所需的ΔV远小于传统方式。
   image: /logo.png
 permalink: /en/glossary/orbits/lunar-surface-capture/

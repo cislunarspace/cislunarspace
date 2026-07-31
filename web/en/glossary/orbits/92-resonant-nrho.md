@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: 9:2 Resonant NRHO Explained | Term Definition
+  title: "9:2 Resonant NRHO Explained | Term Definition"
   description: "A near-rectilinear halo orbit with a 9:2 resonance with the lunar period, with an orbital period of approximately 6.5 days, perilune of approximately 3200 km, a"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 9:2 Resonant NRHO Explained | Term Definition
+  title: "9:2 Resonant NRHO Explained | Term Definition"
   description: "A near-rectilinear halo orbit with a 9:2 resonance with the lunar period, with an orbital period of approximately 6.5 days, perilune of approximately 3200 km, a"
   image: /logo.png
 permalink: /en/glossary/orbits/92-resonant-nrho/

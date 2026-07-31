@@ -1,6 +1,6 @@
 ---
 title: Convex Cone
-description: The geometric representation of the glide slope constraint: a cone with its apex at the landing point, vertical axis, and half-angle β, whose interior defines...
+description: "The geometric representation of the glide slope constraint: a cone with its apex at the landing point, vertical axis, and half-angle β, whose interior defines..."
 keywords: Convex Cone
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Convex Cone Explained | Term Definition
-  description: The geometric representation of the glide slope constraint: a cone with its apex at the landing point, vertical axis, and half-angle β, whose interior defines...
+  title: "Convex Cone Explained | Term Definition"
+  description: "The geometric representation of the glide slope constraint: a cone with its apex at the landing point, vertical axis, and half-angle β, whose interior defines..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Convex Cone Explained | Term Definition
-  description: The geometric representation of the glide slope constraint: a cone with its apex at the landing point, vertical axis, and half-angle β, whose interior defines...
+  title: "Convex Cone Explained | Term Definition"
+  description: "The geometric representation of the glide slope constraint: a cone with its apex at the landing point, vertical axis, and half-angle β, whose interior defines..."
   image: /logo.png
 permalink: /en/glossary/dynamics/convex-cone/
 ---

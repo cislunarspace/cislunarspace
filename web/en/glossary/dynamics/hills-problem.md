@@ -1,22 +1,22 @@
 ---
-title: Hill's Problem
+title: "Hill's Problem"
 description: A limiting case of the restricted three-body problem, a simplified model for a small body orbiting a large body under the influence of a third body. Hill used t
-keywords: Hill's Problem
+keywords: "Hill's Problem"
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: Hill's Problem
+  title: "Hill's Problem"
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hill's Problem Explained | Term Definition
+  title: "Hill's Problem Explained | Term Definition"
   description: A limiting case of the restricted three-body problem, a simplified model for a small body orbiting a large body under the influence of a third body. Hill used t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hill's Problem Explained | Term Definition
+  title: "Hill's Problem Explained | Term Definition"
   description: A limiting case of the restricted three-body problem, a simplified model for a small body orbiting a large body under the influence of a third body. Hill used t
   image: /logo.png
 permalink: /en/glossary/dynamics/hills-problem/

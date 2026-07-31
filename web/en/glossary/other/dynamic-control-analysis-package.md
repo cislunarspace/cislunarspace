@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Dynamic Control Analysis Package Explained | Term Definition
+  title: "Dynamic Control Analysis Package Explained | Term Definition"
   description: ESA-developed multibody dynamics software
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Dynamic Control Analysis Package Explained | Term Definition
+  title: "Dynamic Control Analysis Package Explained | Term Definition"
   description: ESA-developed multibody dynamics software
   image: /logo.png
 permalink: /en/glossary/other/dynamic-control-analysis-package/

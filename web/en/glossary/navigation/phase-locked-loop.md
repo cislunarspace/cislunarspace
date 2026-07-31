@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase-Locked Loop Explained | Term Definition
+  title: "Phase-Locked Loop Explained | Term Definition"
   description: A feedback loop in GNSS receivers used to track carrier phase.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase-Locked Loop Explained | Term Definition
+  title: "Phase-Locked Loop Explained | Term Definition"
   description: A feedback loop in GNSS receivers used to track carrier phase.
   image: /logo.png
 permalink: /en/glossary/navigation/phase-locked-loop/

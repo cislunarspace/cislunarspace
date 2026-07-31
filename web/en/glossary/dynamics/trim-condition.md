@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
   image: /logo.png
 og:
-  title: Trim Condition Details | Equilibrium Condition in Spacecraft Flight Dynamics
+  title: "Trim Condition Details | Equilibrium Condition in Spacecraft Flight Dynamics"
   description: Definition, role, and computation of trim condition in spacecraft flight dynamics
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trim Condition Details | Equilibrium Condition in Spacecraft Flight Dynamics
+  title: "Trim Condition Details | Equilibrium Condition in Spacecraft Flight Dynamics"
   description: Definition, role, and computation of trim condition in spacecraft flight dynamics
   image: /logo.png
 permalink: /en/glossary/dynamics/trim-condition/

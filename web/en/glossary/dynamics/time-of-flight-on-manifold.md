@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Flight on Manifold Explained | Term Definition
+  title: "Time of Flight on Manifold Explained | Term Definition"
   description: The duration of flight along an invariant manifold from the injection point on a periodic orbit. Together with the injection point parameter ΔtP0, it forms the dual-parameter coordinate on the manifol...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Flight on Manifold Explained | Term Definition
+  title: "Time of Flight on Manifold Explained | Term Definition"
   description: The duration of flight along an invariant manifold from the injection point on a periodic orbit. Together with the injection point parameter ΔtP0, it forms the dual-parameter coordinate on the manifol...
   image: /logo.png
 permalink: /en/glossary/dynamics/time-of-flight-on-manifold/

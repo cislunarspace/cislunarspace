@@ -1,6 +1,6 @@
 ---
 title: LL2-Halo Orbit Transit
-description: WSB transfer via Halo orbit near LL2. Since Halo orbit phase becomes a design dimension, the transfer window expands to 3D: solar phase β, Halo orbit phase τ, and transfer type (inner/outer).
+description: "WSB transfer via Halo orbit near LL2. Since Halo orbit phase becomes a design dimension, the transfer window expands to 3D: solar phase β, Halo orbit phase τ, and transfer type (inner/outer)."
 keywords: LL2-Halo Orbit Transit
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LL2-Halo Orbit Transit Explained | Term Definition
-  description: WSB transfer via Halo orbit near LL2. Since Halo orbit phase becomes a design dimension, the transfer window expands to 3D: solar phase β, Halo orbit phase τ, and transfer type (inner/outer).
+  title: "LL2-Halo Orbit Transit Explained | Term Definition"
+  description: "WSB transfer via Halo orbit near LL2. Since Halo orbit phase becomes a design dimension, the transfer window expands to 3D: solar phase β, Halo orbit phase τ, and transfer type (inner/outer)."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LL2-Halo Orbit Transit Explained | Term Definition
-  description: WSB transfer via Halo orbit near LL2. Since Halo orbit phase becomes a design dimension, the transfer window expands to 3D: solar phase β, Halo orbit phase τ, and transfer type (inner/outer).
+  title: "LL2-Halo Orbit Transit Explained | Term Definition"
+  description: "WSB transfer via Halo orbit near LL2. Since Halo orbit phase becomes a design dimension, the transfer window expands to 3D: solar phase β, Halo orbit phase τ, and transfer type (inner/outer)."
   image: /logo.png
 permalink: /en/glossary/orbits/ll2-halo-orbit-transit/
 ---

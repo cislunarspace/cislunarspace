@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Numerical Continuation Strategy Explained | Term Definition
+  title: "Numerical Continuation Strategy Explained | Term Definition"
   description: A numerical method that progressively varies parameters to continuously trace a family of orbits based on an already-solved trajectory. In the paper, the SQP al
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Numerical Continuation Strategy Explained | Term Definition
+  title: "Numerical Continuation Strategy Explained | Term Definition"
   description: A numerical method that progressively varies parameters to continuously trace a family of orbits based on an already-solved trajectory. In the paper, the SQP al
   image: /logo.png
 permalink: /en/glossary/dynamics/numerical-continuation-strategy/

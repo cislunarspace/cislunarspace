@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Perturbational Lambert Problem Explained | Term Definition
+  title: "Perturbational Lambert Problem Explained | Term Definition"
   description: A two-point boundary value problem solved under multi-body gravitational perturbation environments. The classical Lambert problem solves a transfer orbit fro...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Perturbational Lambert Problem Explained | Term Definition
+  title: "Perturbational Lambert Problem Explained | Term Definition"
   description: A two-point boundary value problem solved under multi-body gravitational perturbation environments. The classical Lambert problem solves a transfer orbit fro...
   image: /logo.png
 permalink: /en/glossary/dynamics/perturbational-lambert-problem/

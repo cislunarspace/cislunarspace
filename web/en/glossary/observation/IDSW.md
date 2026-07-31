@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Identity Switch Explained | Term Definition
+  title: "Identity Switch Explained | Term Definition"
   description: A critical error type in multi-object tracking where the same target is assigned different identity labels across frames. The number of identity switches is a c
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Identity Switch Explained | Term Definition
+  title: "Identity Switch Explained | Term Definition"
   description: A critical error type in multi-object tracking where the same target is assigned different identity labels across frames. The number of identity switches is a c
   image: /logo.png
 permalink: /en/glossary/observation/IDSW/

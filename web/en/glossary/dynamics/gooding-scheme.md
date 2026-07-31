@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Gooding Scheme Explained | Term Definition
+  title: "Gooding Scheme Explained | Term Definition"
   description: An orbit determination method proposed by Gooding in 1996. It solves the minimal orbit determination problem from three lines of sight by iteratively solving the two-point boundary value problem (Lambert problem). The scheme naturally extends to multiple observations and is computationally efficient.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Gooding Scheme Explained | Term Definition
+  title: "Gooding Scheme Explained | Term Definition"
   description: An orbit determination method proposed by Gooding in 1996. It solves the minimal orbit determination problem from three lines of sight by iteratively solving the two-point boundary value problem (Lambert problem). The scheme naturally extends to multiple observations and is computationally efficient.
   image: /logo.png
 permalink: /en/glossary/dynamics/gooding-scheme/

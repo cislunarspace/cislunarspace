@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Full Force Model Explained | Term Definition
+  title: "Full Force Model Explained | Term Definition"
   description: A spacecraft equation of motion accounting for all major perturbation sources, including central body gravity, nonspherical gravitational perturbation, third-body perturbations from the Sun and major 
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Full Force Model Explained | Term Definition
+  title: "Full Force Model Explained | Term Definition"
   description: A spacecraft equation of motion accounting for all major perturbation sources, including central body gravity, nonspherical gravitational perturbation, third-body perturbations from the Sun and major 
   image: /logo.png
 permalink: /en/glossary/dynamics/full-force-model/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Along-Track Interferometry, ATI Explained | Term Definition
+  title: "Along-Track Interferometry, ATI Explained | Term Definition"
   description: An interferometric technique that measures target velocity by comparing time-delayed radar echoes acquired by two phase centers separated along the flight direc
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Along-Track Interferometry, ATI Explained | Term Definition
+  title: "Along-Track Interferometry, ATI Explained | Term Definition"
   description: An interferometric technique that measures target velocity by comparing time-delayed radar echoes acquired by two phase centers separated along the flight direc
   image: /logo.png
 permalink: /en/glossary/observation/along-track-interferometry-ati/

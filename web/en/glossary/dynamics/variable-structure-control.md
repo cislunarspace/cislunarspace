@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Variable Structure Control Explained | Term Definition
+  title: "Variable Structure Control Explained | Term Definition"
   description: A nonlinear control method that switches between different control structures during operation, driving system states to slide along a sliding surface for robus
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Variable Structure Control Explained | Term Definition
+  title: "Variable Structure Control Explained | Term Definition"
   description: A nonlinear control method that switches between different control structures during operation, driving system states to slide along a sliding surface for robus
   image: /logo.png
 permalink: /en/glossary/dynamics/variable-structure-control/

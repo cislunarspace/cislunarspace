@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Insertion Explained | Term Definition
+  title: "Halo Orbit Insertion Explained | Term Definition"
   description: The process of applying the second impulse to introduce a spacecraft from a transfer trajectory into a target halo orbit.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Insertion Explained | Term Definition
+  title: "Halo Orbit Insertion Explained | Term Definition"
   description: The process of applying the second impulse to introduce a spacecraft from a transfer trajectory into a target halo orbit.
   image: /logo.png
 permalink: /en/glossary/dynamics/halo-orbit-insertion/

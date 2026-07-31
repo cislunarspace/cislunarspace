@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Vertically Stable Manifold Explained | Term Definition
+  title: "Vertically Stable Manifold Explained | Term Definition"
   description: The stable manifold associated with the vertical instability of planar Lyapunov orbits. An initial small perturbation along the vertical stable eigenvector direction evolves along the stable manifold...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Vertically Stable Manifold Explained | Term Definition
+  title: "Vertically Stable Manifold Explained | Term Definition"
   description: The stable manifold associated with the vertical instability of planar Lyapunov orbits. An initial small perturbation along the vertical stable eigenvector direction evolves along the stable manifold...
   image: /logo.png
 permalink: /en/glossary/dynamics/vertically-stable-manifold/

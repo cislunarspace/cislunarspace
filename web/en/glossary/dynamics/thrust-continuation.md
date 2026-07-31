@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Thrust Continuation Explained | Term Definition
+  title: "Thrust Continuation Explained | Term Definition"
   description: A method to handle optimization difficulty at very low thrust acceleration levels. It starts from a high initial thrust level and gradually reduces the thrust c
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Thrust Continuation Explained | Term Definition
+  title: "Thrust Continuation Explained | Term Definition"
   description: A method to handle optimization difficulty at very low thrust acceleration levels. It starts from a high initial thrust level and gradually reduces the thrust c
   image: /logo.png
 permalink: /en/glossary/dynamics/thrust-continuation/

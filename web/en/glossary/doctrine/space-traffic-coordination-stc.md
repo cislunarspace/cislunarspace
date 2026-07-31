@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Space Traffic Coordination, STC Explained | Term Definition
+  title: "Space Traffic Coordination, STC Explained | Term Definition"
   description: The operational layer of STM, referring to the concrete processes through which different spacecraft operators share information and coordinate communications t
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Space Traffic Coordination, STC Explained | Term Definition
+  title: "Space Traffic Coordination, STC Explained | Term Definition"
   description: The operational layer of STM, referring to the concrete processes through which different spacecraft operators share information and coordinate communications t
   image: /logo.png
 permalink: /en/glossary/doctrine/space-traffic-coordination-stc/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: General Mission Analysis Tool Explained | Term Definition
+  title: "General Mission Analysis Tool Explained | Term Definition"
   description: An open-source space mission analysis tool developed by NASA. It provides a graphical environment supporting trajectory design with gravitational fields at vari
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: General Mission Analysis Tool Explained | Term Definition
+  title: "General Mission Analysis Tool Explained | Term Definition"
   description: An open-source space mission analysis tool developed by NASA. It provides a graphical environment supporting trajectory design with gravitational fields at vari
   image: /logo.png
 permalink: /en/glossary/other/gmat/

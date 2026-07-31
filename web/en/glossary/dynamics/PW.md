@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Progressive Widening, PW Explained | Term Definition
+  title: "Progressive Widening, PW Explained | Term Definition"
   description: A heuristic method for controlling the branching factor in Monte Carlo tree search. It increases the number of allowable actions at each node as k = ceil(C *...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Progressive Widening, PW Explained | Term Definition
+  title: "Progressive Widening, PW Explained | Term Definition"
   description: A heuristic method for controlling the branching factor in Monte Carlo tree search. It increases the number of allowable actions at each node as k = ceil(C *...
   image: /logo.png
 permalink: /en/glossary/dynamics/PW/

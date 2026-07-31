@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resonant Manifold Explained | Term Definition
+  title: "Resonant Manifold Explained | Term Definition"
   description: "Invariant manifold associated with a resonant orbit. The unstable manifold of a resonant orbit provides low-energy transfer paths from near-Earth orbits to vari"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resonant Manifold Explained | Term Definition
+  title: "Resonant Manifold Explained | Term Definition"
   description: "Invariant manifold associated with a resonant orbit. The unstable manifold of a resonant orbit provides low-energy transfer paths from near-Earth orbits to vari"
   image: /logo.png
 permalink: /en/glossary/dynamics/resonant-manifold/

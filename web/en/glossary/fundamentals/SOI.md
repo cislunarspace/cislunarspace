@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Sphere of Influence Explained | Term Definition
+  title: "Sphere of Influence Explained | Term Definition"
   description: The boundary around a celestial body where its gravity predominantly governs spacecraft motion. In the Earth-moon system it lies approximately 66,000 km from th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Sphere of Influence Explained | Term Definition
+  title: "Sphere of Influence Explained | Term Definition"
   description: The boundary around a celestial body where its gravity predominantly governs spacecraft motion. In the Earth-moon system it lies approximately 66,000 km from th
   image: /logo.png
 permalink: /en/glossary/fundamentals/SOI/

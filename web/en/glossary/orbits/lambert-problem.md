@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lambert Problem Explained | Term Definition
+  title: "Lambert Problem Explained | Term Definition"
   description: Problem of determining orbit parameters given two position vectors and time of flight, widely used in orbit determination and maneuver planning
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lambert Problem Explained | Term Definition
+  title: "Lambert Problem Explained | Term Definition"
   description: Problem of determining orbit parameters given two position vectors and time of flight, widely used in orbit determination and maneuver planning
   image: /logo.png
 permalink: /en/glossary/orbits/lambert-problem/

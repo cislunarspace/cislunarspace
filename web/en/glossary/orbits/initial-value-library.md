@@ -1,6 +1,6 @@
 ---
 title: Initial Value Library
-description: A database storing candidate initial values of libration point orbits, using a two-layer structure: the first layer classifies by orbit family, and the second layer stores orbit initial values with...
+description: "A database storing candidate initial values of libration point orbits, using a two-layer structure: the first layer classifies by orbit family, and the second layer stores orbit initial values with..."
 keywords: Initial Value Library
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Initial Value Library Explained | Term Definition
-  description: A database storing candidate initial values of libration point orbits, using a two-layer structure: the first layer classifies by orbit family, and the second layer stores orbit initial values with...
+  title: "Initial Value Library Explained | Term Definition"
+  description: "A database storing candidate initial values of libration point orbits, using a two-layer structure: the first layer classifies by orbit family, and the second layer stores orbit initial values with..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Initial Value Library Explained | Term Definition
-  description: A database storing candidate initial values of libration point orbits, using a two-layer structure: the first layer classifies by orbit family, and the second layer stores orbit initial values with...
+  title: "Initial Value Library Explained | Term Definition"
+  description: "A database storing candidate initial values of libration point orbits, using a two-layer structure: the first layer classifies by orbit family, and the second layer stores orbit initial values with..."
   image: /logo.png
 permalink: /en/glossary/orbits/initial-value-library/
 ---

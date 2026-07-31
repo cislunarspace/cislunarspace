@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Velocity Maximum Explained | Term Definition
+  title: "Velocity Maximum Explained | Term Definition"
   description: The point along a trajectory where the speed reaches a local maximum. Applying a deceleration maneuver at this point maximizes the change in Jacobi constant for
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Velocity Maximum Explained | Term Definition
+  title: "Velocity Maximum Explained | Term Definition"
   description: The point along a trajectory where the speed reaches a local maximum. Applying a deceleration maneuver at this point maximizes the change in Jacobi constant for
   image: /logo.png
 permalink: /en/glossary/dynamics/velocity-maximum/

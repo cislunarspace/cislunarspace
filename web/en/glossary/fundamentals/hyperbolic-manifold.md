@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hyperbolic Manifold Explained | Term Definition
+  title: "Hyperbolic Manifold Explained | Term Definition"
   description: The collection of stable and unstable invariant manifolds associated with the central manifold of a collinear libration point. Trajectories on the stable manifold approach the reference orbit exponent
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hyperbolic Manifold Explained | Term Definition
+  title: "Hyperbolic Manifold Explained | Term Definition"
   description: The collection of stable and unstable invariant manifolds associated with the central manifold of a collinear libration point. Trajectories on the stable manifold approach the reference orbit exponent
   image: /logo.png
 permalink: /en/glossary/fundamentals/hyperbolic-manifold/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Linearization Explained | Term Definition
+  title: "Linearization Explained | Term Definition"
   description: A method of approximating a nonlinear system near an equilibrium point by expanding nonlinear terms in a Taylor series and discarding higher-order terms. In ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Linearization Explained | Term Definition
+  title: "Linearization Explained | Term Definition"
   description: A method of approximating a nonlinear system near an equilibrium point by expanding nonlinear terms in a Taylor series and discarding higher-order terms. In ...
   image: /logo.png
 permalink: /en/glossary/fundamentals/linearization/

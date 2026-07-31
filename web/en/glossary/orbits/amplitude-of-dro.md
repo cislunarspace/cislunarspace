@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Amplitude of DRO Explained | Term Definition
+  title: "Amplitude of DRO Explained | Term Definition"
   description: The distance from the Moon when the DRO crosses the x-axis along the negative direction of the y-axis, defining the size of the DRO.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Amplitude of DRO Explained | Term Definition
+  title: "Amplitude of DRO Explained | Term Definition"
   description: The distance from the Moon when the DRO crosses the x-axis along the negative direction of the y-axis, defining the size of the DRO.
   image: /logo.png
 permalink: /en/glossary/orbits/amplitude-of-dro/

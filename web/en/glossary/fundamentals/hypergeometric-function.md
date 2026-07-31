@@ -1,6 +1,6 @@
 ---
 title: Hypergeometric Function (F(α,β;γ;x))
-description: Special functions defined by series, generalizing many classical functions; used in astrodynamics for Gaussian solutions to Lambert's problem and continued frac
+description: "Special functions defined by series, generalizing many classical functions; used in astrodynamics for Gaussian solutions to Lambert's problem and continued frac"
 keywords: Hypergeometric Function, F(α,β;γ;x)
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hypergeometric Function (F(α,β;γ;x)) Explained | Term Definition
-  description: Special functions defined by series, generalizing many classical functions; used in astrodynamics for Gaussian solutions to Lambert's problem and continued frac
+  title: "Hypergeometric Function (F(α,β;γ;x)) Explained | Term Definition"
+  description: "Special functions defined by series, generalizing many classical functions; used in astrodynamics for Gaussian solutions to Lambert's problem and continued frac"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hypergeometric Function (F(α,β;γ;x)) Explained | Term Definition
-  description: Special functions defined by series, generalizing many classical functions; used in astrodynamics for Gaussian solutions to Lambert's problem and continued frac
+  title: "Hypergeometric Function (F(α,β;γ;x)) Explained | Term Definition"
+  description: "Special functions defined by series, generalizing many classical functions; used in astrodynamics for Gaussian solutions to Lambert's problem and continued frac"
   image: /logo.png
 permalink: /en/glossary/fundamentals/hypergeometric-function/
 ---

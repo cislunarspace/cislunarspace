@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Hybrid Multi-Conic Method Explained | Term Definition
+  title: "Hybrid Multi-Conic Method Explained | Term Definition"
   description: A rapid trajectory generation method that approximates complex multi-body orbits by piecewise stitching multiple conic arc segments. Combined with...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Hybrid Multi-Conic Method Explained | Term Definition
+  title: "Hybrid Multi-Conic Method Explained | Term Definition"
   description: A rapid trajectory generation method that approximates complex multi-body orbits by piecewise stitching multiple conic arc segments. Combined with...
   image: /logo.png
 permalink: /en/glossary/orbits/hybrid-multi-conic-method/

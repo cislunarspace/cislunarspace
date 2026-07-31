@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Target Mode Explained | Term Definition
+  title: "Target Mode Explained | Term Definition"
   description: One of the two fundamental Halo orbit station-keeping strategies, proposed by Farquhar and Breakwell. It targets the nominal orbit, guiding the spacecraft to th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Target Mode Explained | Term Definition
+  title: "Target Mode Explained | Term Definition"
   description: One of the two fundamental Halo orbit station-keeping strategies, proposed by Farquhar and Breakwell. It targets the nominal orbit, guiding the spacecraft to th
   image: /logo.png
 permalink: /en/glossary/dynamics/target-mode/

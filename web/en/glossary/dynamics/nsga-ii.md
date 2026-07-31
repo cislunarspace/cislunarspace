@@ -10,13 +10,13 @@ author: Tianjiang Shuo
 date: 2026-04-29
 lastUpdated: 2026-04-29
 og:
-  title: NSGA II Algorithm Explained | Multi-Objective Evolutionary Algorithm
+  title: "NSGA II Algorithm Explained | Multi-Objective Evolutionary Algorithm"
   description: A detailed analysis of NSGA II algorithm principles, characteristics, and applications in multi-objective optimization of cislunar space situational awareness architectures
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: NSGA II Algorithm Explained | Multi-Objective Evolutionary Algorithm
+  title: "NSGA II Algorithm Explained | Multi-Objective Evolutionary Algorithm"
   description: A detailed analysis of NSGA II algorithm principles, characteristics, and applications in multi-objective optimization of cislunar space situational awareness architectures
   image: /logo.png
 permalink: /en/glossary/dynamics/nsga-ii/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Alignment Angle in Geocentric Rotating Frame Explained | Term Definition
+  title: "Alignment Angle in Geocentric Rotating Frame Explained | Term Definition"
   description: The angle between the spacecraft position vector and the negative x-axis of the geocentric rotating frame at trans-lunar injection, positive counterclockwise. T
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Alignment Angle in Geocentric Rotating Frame Explained | Term Definition
+  title: "Alignment Angle in Geocentric Rotating Frame Explained | Term Definition"
   description: The angle between the spacecraft position vector and the negative x-axis of the geocentric rotating frame at trans-lunar injection, positive counterclockwise. T
   image: /logo.png
 permalink: /en/glossary/orbits/alignment-angle-in-geocentric-rotating-frame/

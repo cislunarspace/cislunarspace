@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Collinear Lagrange Point Explained | Term Definition
+  title: "Collinear Lagrange Point Explained | Term Definition"
   description: The three collinear equilibrium points of the restricted three-body problem, lying on the line joining the two primary masses. At these points the Hessian of th
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Collinear Lagrange Point Explained | Term Definition
+  title: "Collinear Lagrange Point Explained | Term Definition"
   description: The three collinear equilibrium points of the restricted three-body problem, lying on the line joining the two primary masses. At these points the Hessian of th
   image: /logo.png
 permalink: /en/glossary/fundamentals/collinear-lagrange-point/

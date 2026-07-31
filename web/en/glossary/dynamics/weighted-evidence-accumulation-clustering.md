@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Weighted Evidence Accumulation Clustering Explained | Term Definition
+  title: "Weighted Evidence Accumulation Clustering Explained | Term Definition"
   description: A consensus clustering method that generates a robust final clustering result by combining multiple clustering results through a weighted ensemble co-associatio
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Weighted Evidence Accumulation Clustering Explained | Term Definition
+  title: "Weighted Evidence Accumulation Clustering Explained | Term Definition"
   description: A consensus clustering method that generates a robust final clustering result by combining multiple clustering results through a weighted ensemble co-associatio
   image: /logo.png
 permalink: /en/glossary/dynamics/weighted-evidence-accumulation-clustering/

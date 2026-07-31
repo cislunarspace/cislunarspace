@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Trajectory Splicing Database Explained | Term Definition
+  title: "Trajectory Splicing Database Explained | Term Definition"
   description: "A pre-computed database storing various typical trajectory segments (Earth departure, LGA, invariant manifold, orbit insertion, etc.) that enables rapid generat"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Trajectory Splicing Database Explained | Term Definition
+  title: "Trajectory Splicing Database Explained | Term Definition"
   description: "A pre-computed database storing various typical trajectory segments (Earth departure, LGA, invariant manifold, orbit insertion, etc.) that enables rapid generat"
   image: /logo.png
 permalink: /en/glossary/dynamics/trajectory-splicing-database/

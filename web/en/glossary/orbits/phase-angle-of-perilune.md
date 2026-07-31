@@ -1,6 +1,6 @@
 ---
 title: Phase Angle of Perilune (β₂)
-description: In the Earth-Moon rotating frame, the phase angle of the perilune position relative to the Moon's velocity direction. This angle determines the spatial orientation of the spacecraft at perilune and...
+description: "In the Earth-Moon rotating frame, the phase angle of the perilune position relative to the Moon's velocity direction. This angle determines the spatial orientation of the spacecraft at perilune and..."
 keywords: Phase Angle of Perilune, β₂, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Phase Angle of Perilune (β₂) Explained | Term Definition
-  description: In the Earth-Moon rotating frame, the phase angle of the perilune position relative to the Moon's velocity direction. This angle determines the spatial orientation of the spacecraft at perilune and...
+  title: "Phase Angle of Perilune (β₂) Explained | Term Definition"
+  description: "In the Earth-Moon rotating frame, the phase angle of the perilune position relative to the Moon's velocity direction. This angle determines the spatial orientation of the spacecraft at perilune and..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Phase Angle of Perilune (β₂) Explained | Term Definition
-  description: In the Earth-Moon rotating frame, the phase angle of the perilune position relative to the Moon's velocity direction. This angle determines the spatial orientation of the spacecraft at perilune and...
+  title: "Phase Angle of Perilune (β₂) Explained | Term Definition"
+  description: "In the Earth-Moon rotating frame, the phase angle of the perilune position relative to the Moon's velocity direction. This angle determines the spatial orientation of the spacecraft at perilune and..."
   image: /logo.png
 permalink: /en/glossary/orbits/phase-angle-of-perilune/
 ---

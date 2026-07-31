@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Halo Orbit Computation Explained | Term Definition
+  title: "Halo Orbit Computation Explained | Term Definition"
   description: Methods for computing Halo orbits, including Lindstedt-Poincaré analytical expansion and third-order Richardson expansion.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Halo Orbit Computation Explained | Term Definition
+  title: "Halo Orbit Computation Explained | Term Definition"
   description: Methods for computing Halo orbits, including Lindstedt-Poincaré analytical expansion and third-order Richardson expansion.
   image: /logo.png
 permalink: /en/glossary/dynamics/halo-orbit-computation/

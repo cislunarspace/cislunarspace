@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Earth-Moon L1 Point Explained | Term Definition
+  title: "Earth-Moon L1 Point Explained | Term Definition"
   description: The collinear libration point in the Earth-moon system located between Earth and the moon at about 320,000 km from Earth. Near this point the third body is...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Earth-Moon L1 Point Explained | Term Definition
+  title: "Earth-Moon L1 Point Explained | Term Definition"
   description: The collinear libration point in the Earth-moon system located between Earth and the moon at about 320,000 km from Earth. Near this point the third body is...
   image: /logo.png
 permalink: /en/glossary/orbits/earth-moon-l1-point/

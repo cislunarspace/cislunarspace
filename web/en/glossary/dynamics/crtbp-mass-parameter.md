@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: CRTBP Mass Parameter Explained | Term Definition
+  title: "CRTBP Mass Parameter Explained | Term Definition"
   description: "The fundamental parameter of the circular restricted three-body problem, defined as the ratio of the Moon's mass to the total Earth-Moon mass, i.e., μ = M₂/(M₁+"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: CRTBP Mass Parameter Explained | Term Definition
+  title: "CRTBP Mass Parameter Explained | Term Definition"
   description: "The fundamental parameter of the circular restricted three-body problem, defined as the ratio of the Moon's mass to the total Earth-Moon mass, i.e., μ = M₂/(M₁+"
   image: /logo.png
 permalink: /en/glossary/dynamics/crtbp-mass-parameter/

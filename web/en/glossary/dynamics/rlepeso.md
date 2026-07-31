@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: RLEPSO Algorithm Explained | Hyperparameter Auto-Tuning Particle Swarm
+  title: "RLEPSO Algorithm Explained | Hyperparameter Auto-Tuning Particle Swarm"
   description: A detailed analysis of the RLEPSO algorithm, its DDPG enhancement mechanism, state-action design, and applications in spacecraft cooperative rendezvous
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: RLEPSO Algorithm Explained | Hyperparameter Auto-Tuning Particle Swarm
+  title: "RLEPSO Algorithm Explained | Hyperparameter Auto-Tuning Particle Swarm"
   description: A detailed analysis of the RLEPSO algorithm, its DDPG enhancement mechanism, state-action design, and applications in spacecraft cooperative rendezvous
   image: /logo.png
 permalink: /en/glossary/dynamics/rlepeso/

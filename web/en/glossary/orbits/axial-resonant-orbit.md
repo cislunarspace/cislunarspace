@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Axial Resonant Orbit Explained | Term Definition
+  title: "Axial Resonant Orbit Explained | Term Definition"
   description: A 3-D asymmetric resonant orbit computed by slightly perturbing a bifurcating orbit in the z direction and enforcing periodicity constraints.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Axial Resonant Orbit Explained | Term Definition
+  title: "Axial Resonant Orbit Explained | Term Definition"
   description: A 3-D asymmetric resonant orbit computed by slightly perturbing a bifurcating orbit in the z direction and enforcing periodicity constraints.
   image: /logo.png
 permalink: /en/glossary/orbits/axial-resonant-orbit/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Resident Space Object, RSO Explained | Term Definition
+  title: "Resident Space Object, RSO Explained | Term Definition"
   description: Active satellites, orbital debris, and noncooperative satellites in cislunar space. SDA systems must detect, track, and characterize these objects.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Resident Space Object, RSO Explained | Term Definition
+  title: "Resident Space Object, RSO Explained | Term Definition"
   description: Active satellites, orbital debris, and noncooperative satellites in cislunar space. SDA systems must detect, track, and characterize these objects.
   image: /logo.png
 permalink: /en/glossary/observation/RSO/

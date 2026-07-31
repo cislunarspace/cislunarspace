@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Total Angle of Attack | Terminology Definition
+  title: "Total Angle of Attack | Terminology Definition"
   description: A detailed analysis of the total angle of attack definition and its relationship with angle of attack and sideslip angle
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Total Angle of Attack | Terminology Definition
+  title: "Total Angle of Attack | Terminology Definition"
   description: A detailed analysis of the total angle of attack definition and its relationship with angle of attack and sideslip angle
   image: /logo.png
 permalink: /en/glossary/fundamentals/total-angle-of-attack/

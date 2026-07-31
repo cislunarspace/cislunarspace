@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Elliptic Restricted Problem Explained | Term Definition
+  title: "Elliptic Restricted Problem Explained | Term Definition"
   description: A variant of the restricted three-body problem where the primaries move in elliptical rather than circular orbits. It is closer to actual celestial motion an...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Elliptic Restricted Problem Explained | Term Definition
+  title: "Elliptic Restricted Problem Explained | Term Definition"
   description: A variant of the restricted three-body problem where the primaries move in elliptical rather than circular orbits. It is closer to actual celestial motion an...
   image: /logo.png
 permalink: /en/glossary/dynamics/elliptic-restricted-problem/

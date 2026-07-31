@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Modified Multiple Shooting Explained | Term Definition
+  title: "Modified Multiple Shooting Explained | Term Definition"
   description: An iterative variant of the multiple shooting method that progressively reduces the coupling maneuver magnitude. Starting from a section-forced refined...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Modified Multiple Shooting Explained | Term Definition
+  title: "Modified Multiple Shooting Explained | Term Definition"
   description: An iterative variant of the multiple shooting method that progressively reduces the coupling maneuver magnitude. Starting from a section-forced refined...
   image: /logo.png
 permalink: /en/glossary/dynamics/modified-multiple-shooting/

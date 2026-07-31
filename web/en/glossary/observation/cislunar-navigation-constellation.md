@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Cislunar Navigation Constellation Explained | Term Definition
+  title: "Cislunar Navigation Constellation Explained | Term Definition"
   description: A satellite constellation deployed on typical cislunar orbits such as DRO and NRHO, serving dual functions of navigation/positioning and space-based tracking stations. The paper uses a four-satellite
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar Navigation Constellation Explained | Term Definition
+  title: "Cislunar Navigation Constellation Explained | Term Definition"
   description: A satellite constellation deployed on typical cislunar orbits such as DRO and NRHO, serving dual functions of navigation/positioning and space-based tracking stations. The paper uses a four-satellite
   image: /logo.png
 permalink: /en/glossary/observation/cislunar-navigation-constellation/

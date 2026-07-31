@@ -6,13 +6,13 @@ author: CislunarSpace
 date: 2026-04-27
 lastUpdated: 2026-04-27
 og:
-  title: Low-Rank Adaptation (LoRA) | Efficient LLM Fine-Tuning
+  title: "Low-Rank Adaptation (LoRA) | Efficient LLM Fine-Tuning"
   description: Parameter-efficient LLM fine-tuning via low-rank matrix decomposition
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Low-Rank Adaptation (LoRA) | Efficient LLM Fine-Tuning
+  title: "Low-Rank Adaptation (LoRA) | Efficient LLM Fine-Tuning"
   description: Parameter-efficient LLM fine-tuning via low-rank matrix decomposition
   image: /logo.png
 permalink: /en/glossary/other/lora-low-rank-adaptation/

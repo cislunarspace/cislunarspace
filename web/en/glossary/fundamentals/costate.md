@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Costate Explained | Term Definition
+  title: "Costate Explained | Term Definition"
   description: Variables dual to the state variables in optimal control theory, analogous to Lagrange multipliers. Their sensitivity to initial values is the main challenge of
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Costate Explained | Term Definition
+  title: "Costate Explained | Term Definition"
   description: Variables dual to the state variables in optimal control theory, analogous to Lagrange multipliers. Their sensitivity to initial values is the main challenge of
   image: /logo.png
 permalink: /en/glossary/fundamentals/costate/

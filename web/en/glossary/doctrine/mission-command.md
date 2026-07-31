@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Mission Command | Decentralized Command and Control
+  title: "Mission Command | Decentralized Command and Control"
   description: Mission Command is a decentralized command and control approach that empowers subordinate decision-making.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Mission Command | Decentralized Command and Control
+  title: "Mission Command | Decentralized Command and Control"
   description: Mission Command is a decentralized command and control approach that empowers subordinate decision-making.
   image: /logo.png
 permalink: /en/glossary/doctrine/mission-command/

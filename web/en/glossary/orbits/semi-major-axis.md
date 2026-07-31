@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Semi-major Axis Explained | Term Definition
+  title: "Semi-major Axis Explained | Term Definition"
   description: Half of the major axis of an elliptical orbit, determining orbit size and period
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Semi-major Axis Explained | Term Definition
+  title: "Semi-major Axis Explained | Term Definition"
   description: Half of the major axis of an elliptical orbit, determining orbit size and period
   image: /logo.png
 permalink: /en/glossary/orbits/semi-major-axis/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Time of Arrival Explained | Term Definition
+  title: "Time of Arrival Explained | Term Definition"
   description: Time when pulsar X-ray pulse arrives at spacecraft; core measurement for pulsar navigation.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Time of Arrival Explained | Term Definition
+  title: "Time of Arrival Explained | Term Definition"
   description: Time when pulsar X-ray pulse arrives at spacecraft; core measurement for pulsar navigation.
   image: /logo.png
 permalink: /en/glossary/navigation/time-of-arrival/

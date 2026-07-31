@@ -10,13 +10,13 @@ wechatShare:
   desc: One-stop learning for cislunar research frontiers, terminology, and tools.
   image: /logo.png
 og:
-  title: Birkhoff-Gustavson Normal Form | Hamiltonian System Canonical Transformation
+  title: "Birkhoff-Gustavson Normal Form | Hamiltonian System Canonical Transformation"
   description: A detailed explanation of the Birkhoff-Gustavson Normal Form definition, its application in Hamiltonian system canonical transformations, and its role in cislunar libration point orbit parameterization
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Birkhoff-Gustavson Normal Form | Hamiltonian System Canonical Transformation
+  title: "Birkhoff-Gustavson Normal Form | Hamiltonian System Canonical Transformation"
   description: A detailed explanation of the Birkhoff-Gustavson Normal Form definition, its application in Hamiltonian system canonical transformations, and its role in cislunar libration point orbit parameterization
   image: /logo.png
 permalink: /en/glossary/dynamics/birkhoff-gustavson/

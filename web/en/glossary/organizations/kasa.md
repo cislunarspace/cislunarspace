@@ -1,6 +1,6 @@
 ---
 title: Korea Aerospace Administration
-description: Introduction to the Korea Aerospace Administration (KASA), its organizational structure, mission, and core role in South Korea's space development strategy
+description: "Introduction to the Korea Aerospace Administration (KASA), its organizational structure, mission, and core role in South Korea's space development strategy"
 keywords: KASA, Korea Aerospace Administration, South Korea space, Nuri rocket, Naro, Korean space strategy
 author: Tianjiang Shuo
 date: 2026-04-29
@@ -10,14 +10,14 @@ wechatShare:
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
   image: /logo.png
 og:
-  title: Korea Aerospace Administration (KASA) Explained | Glossary
-  description: Introduction to KASA's organizational structure and space development strategy
+  title: "Korea Aerospace Administration (KASA) Explained | Glossary"
+  description: "Introduction to KASA's organizational structure and space development strategy"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Korea Aerospace Administration (KASA) Explained | Glossary
-  description: Introduction to KASA's organizational structure and space development strategy
+  title: "Korea Aerospace Administration (KASA) Explained | Glossary"
+  description: "Introduction to KASA's organizational structure and space development strategy"
   image: /logo.png
 permalink: /en/glossary/organizations/kasa/
 ---

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Solar Sail Artificial Libration Point Orbit Explained | Term Definition
+  title: "Solar Sail Artificial Libration Point Orbit Explained | Term Definition"
   description: Quasi-equilibrium orbits constructed near non-collinear positions or displaced from traditional libration points using continuous thrust from solar radiation pressure. The light pressure partially ...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Solar Sail Artificial Libration Point Orbit Explained | Term Definition
+  title: "Solar Sail Artificial Libration Point Orbit Explained | Term Definition"
   description: Quasi-equilibrium orbits constructed near non-collinear positions or displaced from traditional libration points using continuous thrust from solar radiation pressure. The light pressure partially ...
   image: /logo.png
 permalink: /en/glossary/dynamics/solar-sail-artificial-libration-point-orbit/

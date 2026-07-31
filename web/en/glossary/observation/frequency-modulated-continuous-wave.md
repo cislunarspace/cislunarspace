@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Frequency-Modulated Continuous Wave (FMCW) Explained | Term Definition
+  title: "Frequency-Modulated Continuous Wave (FMCW) Explained | Term Definition"
   description: A radar signal waveform that transmits a continuous wave whose frequency varies linearly over time. By mixing the received echo with the transmitted signal, the
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Frequency-Modulated Continuous Wave (FMCW) Explained | Term Definition
+  title: "Frequency-Modulated Continuous Wave (FMCW) Explained | Term Definition"
   description: A radar signal waveform that transmits a continuous wave whose frequency varies linearly over time. By mixing the received echo with the transmitted signal, the
   image: /logo.png
 permalink: /en/glossary/observation/frequency-modulated-continuous-wave/

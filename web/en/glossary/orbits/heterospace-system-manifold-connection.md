@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Heterospace-system Manifold Connection Explained | Term Definition
+  title: "Heterospace-system Manifold Connection Explained | Term Definition"
   description: Connecting invariant manifolds of the Sun-Earth and Earth-Moon systems on a Poincaré section to achieve low-energy orbit transfer across different three-body...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Heterospace-system Manifold Connection Explained | Term Definition
+  title: "Heterospace-system Manifold Connection Explained | Term Definition"
   description: Connecting invariant manifolds of the Sun-Earth and Earth-Moon systems on a Poincaré section to achieve low-energy orbit transfer across different three-body...
   image: /logo.png
 permalink: /en/glossary/orbits/heterospace-system-manifold-connection/

@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: LOEWE Explained | Term Definition
+  title: "LOEWE Explained | Term Definition"
   description: LOEWE (Lissajous Orbit Ever Without Eclipse) - a strategy of using single impulses to avoid eclipses on Lissajous orbits.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: LOEWE Explained | Term Definition
+  title: "LOEWE Explained | Term Definition"
   description: LOEWE (Lissajous Orbit Ever Without Eclipse) - a strategy of using single impulses to avoid eclipses on Lissajous orbits.
   image: /logo.png
 permalink: /en/glossary/orbits/loewe/

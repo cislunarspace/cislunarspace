@@ -10,13 +10,13 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Indirect Transfer Trajectory Explained | Term Definition
+  title: "Indirect Transfer Trajectory Explained | Term Definition"
   description: A transfer path departing from a low Earth parking orbit, flying toward the vicinity of the Moon for gravity assist and invariant manifold insertion, then coasting along the manifold to a libration...
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Indirect Transfer Trajectory Explained | Term Definition
+  title: "Indirect Transfer Trajectory Explained | Term Definition"
   description: A transfer path departing from a low Earth parking orbit, flying toward the vicinity of the Moon for gravity assist and invariant manifold insertion, then coasting along the manifold to a libration...
   image: /logo.png
 permalink: /en/glossary/orbits/indirect-transfer-trajectory/

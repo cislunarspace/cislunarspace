@@ -1,6 +1,6 @@
 ---
 title: Lunar Eccentricity Perturbation
-description: The periodic perturbation caused by the Moon's orbital eccentricity (about 0.0549) on orbits near the Earth-Moon libration points. As the Moon moves between ...
+description: "The periodic perturbation caused by the Moon's orbital eccentricity (about 0.0549) on orbits near the Earth-Moon libration points. As the Moon moves between ..."
 keywords: Lunar Eccentricity Perturbation
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -10,14 +10,14 @@ wechatShare:
   desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: Lunar Eccentricity Perturbation Explained | Term Definition
-  description: The periodic perturbation caused by the Moon's orbital eccentricity (about 0.0549) on orbits near the Earth-Moon libration points. As the Moon moves between ...
+  title: "Lunar Eccentricity Perturbation Explained | Term Definition"
+  description: "The periodic perturbation caused by the Moon's orbital eccentricity (about 0.0549) on orbits near the Earth-Moon libration points. As the Moon moves between ..."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lunar Eccentricity Perturbation Explained | Term Definition
-  description: The periodic perturbation caused by the Moon's orbital eccentricity (about 0.0549) on orbits near the Earth-Moon libration points. As the Moon moves between ...
+  title: "Lunar Eccentricity Perturbation Explained | Term Definition"
+  description: "The periodic perturbation caused by the Moon's orbital eccentricity (about 0.0549) on orbits near the Earth-Moon libration points. As the Moon moves between ..."
   image: /logo.png
 permalink: /en/glossary/dynamics/lunar-eccentricity-perturbation/
 ---
