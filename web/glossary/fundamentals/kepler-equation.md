@@ -1,12 +1,12 @@
 ---
-title: 开普勒方程（Kepler's Equation）
+title: "开普勒方程（Kepler's Equation）"
 description: 详细解析开普勒方程的定义、偏近点角与平近点角的关系、求解算法及在轨道预报中的应用
 keywords: 开普勒方程, Kepler Equation, 偏近点角, 平近点角, 牛顿迭代法, 轨道预报, 轨道周期
 author: 天疆说
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
-  title: 开普勒方程（Kepler's Equation）
+  title: "开普勒方程（Kepler's Equation）"
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
