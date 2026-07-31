@@ -1,79 +1,48 @@
 ---
 title: 初值优化法（Initial Value Optimization）
-description: 详细解析初值优化法的定义、与微分修正法的对比、在DRO轨道设计中的应用
-keywords: 初值优化法, Initial Value Optimization, DRO轨道设计, 差分进化, 微分修正, 轨道初值, 地月空间
+description: 通过建立初始协态与问题参数（A、R）之间的解析或经验模型，为打靶法提供良好初值以确保收敛的方法。
+keywords: 初值优化法, Initial Value Optimization, 轨道动力学, 轨道优化, 非线性动力学
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-07-31
 wechatShare:
   title: 初值优化法（Initial Value Optimization）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
-  title: 初值优化法详解 | DRO轨道高效设计方法
-  description: 详细解析初值优化法的定义、与微分修正法的对比、在DRO轨道设计中的应用
+  title: 初值优化法详解 | 术语定义
+  description: 通过建立初始协态与问题参数（A、R）之间的解析或经验模型，为打靶法提供良好初值以确保收敛的方法。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 初值优化法详解 | DRO轨道高效设计方法
-  description: 详细解析初值优化法的定义、与微分修正法的对比、在DRO轨道设计中的应用
+  title: 初值优化法详解 | 术语定义
+  description: 通过建立初始协态与问题参数（A、R）之间的解析或经验模型，为打靶法提供良好初值以确保收敛的方法。
   image: /logo.png
 permalink: /glossary/dynamics/initial-value-optimization/
 ---
 
-# 初值优化法
+# 初值优化法（Initial Value Optimization）
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+>本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## 定义
 
-初值优化法（Initial Value Optimization）是从优化思想的角度出发，采用优化算法在更广的初值范围内搜索寻优，求得 DRO 轨道精确初值及周期的方法。该方法省去了求近似解析解的繁琐步骤以及数值解的迭代过程。
-
-## 与微分修正法的对比
-
-| 特征 | 微分修正法 | 初值优化法 |
-| :--- | :--- | :--- |
-| 初值范围 | 较窄，需近似解析解 | 较宽，直接搜索 |
-| 迭代过程 | 需复杂的迭代 | 通过调整精度即可 |
-| 收敛性 | 对初值敏感 | 在更广范围内收敛 |
-| 计算效率 | 中等 | 更高 |
-
-## 基本原理
-
-固定 $x$ 方向位置 $x_0$，将 $y$ 方向速度 $\dot{y}_0$ 和周期 $T_0$ 作为优化参数，以轨道闭合程度（如半周期后 $x$ 方向速度 $|\dot{x}_{0.5}|$）为目标函数，利用差分进化算法寻找最优解。
-
-## 仿真结果
-
-对比微分修正法，初值优化法只需给出更广的初值范围即可求得收敛的 DRO 轨道，效率更高。目标函数 $J_2 = |\dot{x}_{0.5}|$ 的求解时间约为目标函数 $J_1 = |x_1 - x_0|$ 的一半。
-
-## 核心要素
-
-### 数学定义
-
-初值优化法固定 $x$ 方向位置 $x_0$，将 $y$ 方向速度 $\dot{y}_0$ 和周期 $T_0$ 作为优化参数，以轨道闭合程度（如半周期后 $x$ 方向速度 $|\dot{x}_{0.5}|$）为目标函数。
-
-### 关键性质
-
-相比微分修正法需要近似解析解作为初值，初值优化法在更广的初值范围内直接搜索，省去了繁琐的迭代过程，计算效率更高。
-
-### 数值方法
-
-采用差分进化算法作为全局优化器，在连续空间中搜索最优的 $\dot{y}_0$ 和 $T_0$。目标函数 $J_2 = |\dot{x}_{0.5}|$ 的求解时间约为 $J_1 = |x_1 - x_0|$ 的一半。
+通过建立初始协态与问题参数（A、R）之间的解析或经验模型，为打靶法提供良好初值以确保收敛的方法。
 
 ## 应用价值
 
-初值优化法为 DRO 轨道设计提供了高效的初值求解方法，避免了微分修正法对初值的敏感性问题，可在更广的参数范围内快速收敛到精确的 DRO 轨道初始条件。
+该方法可用于精确修正轨道偏差，提高轨道预报精度。
 
 ## 相关概念
 
-- [微分修正法](/glossary/dynamics/differential-correction/)
-- [差分进化算法](/glossary/dynamics/differential-evolution/)
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
-- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [希尔球半径（Hill Sphere Radius）](/glossary/dynamics/hill-sphere-radius/)
+- [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
+- [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincar-map-representation/)
+- [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/minimum-norm-targeting/)
 
 ## 参考文献
 
-- 陈昱桔. 面向地月空间态势感知的DRO轨道设计与控制研究[D]. 2024.
+- Thorne 1996
