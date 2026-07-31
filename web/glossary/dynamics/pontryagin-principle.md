@@ -1,12 +1,12 @@
 ---
-title: 庞特里亚金极值原理（Pontryagin's Maximum Principle）
+title: "庞特里亚金极值原理（Pontryagin's Maximum Principle）"
 description: 详细解析庞特里亚金极值原理的定义、最优控制的必要条件、协态方程、开关函数及在轨道优化中的应用
 keywords: 庞特里亚金极值原理, Pontryagin, 最优控制, 极值原理, 协态方程, Hamilton函数, 开关函数, 燃料最优
 author: 天疆说
 date: 2026-04-29
 lastUpdated: 2026-04-29
 wechatShare:
-  title: 庞特里亚金极值原理（Pontryagin's Maximum Principle）
+  title: "庞特里亚金极值原理（Pontryagin's Maximum Principle）"
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
