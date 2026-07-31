@@ -1,0 +1,49 @@
+---
+title: LP150Q Lunar Gravity Model
+description: Spherical harmonic coefficient model describing the lunar gravitational field, with maximum degree and order of 150. This paper uses LP150Q in lunar orbital ana
+keywords: LP150Q Lunar Gravity Model, LP150Q
+author: Tianjiang Shuo
+date: 2026-07-31
+lastUpdated: 2026-07-31
+wechatShare:
+  title: LP150Q Lunar Gravity Model
+  desc: Cislunar space research frontiers, term definitions, and tools resources.
+  image: /logo.png
+og:
+  title: LP150Q Lunar Gravity Model Explained | Term Definition
+  description: Spherical harmonic coefficient model describing the lunar gravitational field, with maximum degree and order of 150. This paper uses LP150Q in lunar orbital ana
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: LP150Q Lunar Gravity Model Explained | Term Definition
+  description: Spherical harmonic coefficient model describing the lunar gravitational field, with maximum degree and order of 150. This paper uses LP150Q in lunar orbital ana
+  image: /logo.png
+permalink: /en/glossary/fundamentals/lp150q-lunar-gravity-model/
+---
+
+# LP150Q Lunar Gravity Model
+
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
+>
+> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
+
+## Definition
+
+Spherical harmonic coefficient model describing the lunar gravitational field, with maximum degree and order of 150. This paper uses LP150Q in lunar orbital analysis to calculate the effects of the Moon's non-spherical gravitational field on spacecraft trajectories.
+
+## Application Value
+
+This concept plays an important role in cislunar space mission design and orbital dynamics analysis.
+
+## Related Concepts
+
+- [Local Vertical Local Horizon](/en/glossary/fundamentals/local-vertical-local-horizon/)
+- [Power Spectral Density](/en/glossary/fundamentals/power-spectral-density/)
+- [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
+- [Coplanar Orbital Plane Constraint](/en/glossary/orbits/coplanar-orbital-plane-constraint/)
+
+
+## References
+
+- Kikuchi et al. - 2024 - Comparison of transfer trajectory to NRHO and operation plan for logistics resupply mission to gateway
