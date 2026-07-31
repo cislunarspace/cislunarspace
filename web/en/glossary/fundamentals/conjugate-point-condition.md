@@ -1,0 +1,44 @@
+---
+title: Conjugate point condition
+description: A second-order sufficient condition in the calculus of variations. The Jacobi no-conjugate-point condition requires that variational endpoints do not coalesce along the trajectory. Prussing and San...
+keywords: Conjugate point condition, cislunar space, orbital mechanics
+author: Tianjiang Shuo
+date: 2026-07-31
+lastUpdated: 2026-07-31
+wechatShare:
+  title: Conjugate point condition
+  desc: Cislunar space research frontiers, term definitions, and tools resources.
+  image: /logo.png
+og:
+  title: Conjugate point condition Explained | Term Definition
+  description: A second-order sufficient condition in the calculus of variations. The Jacobi no-conjugate-point condition requires that variational endpoints do not coalesce along the trajectory. Prussing and San...
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: Conjugate point condition Explained | Term Definition
+  description: A second-order sufficient condition in the calculus of variations. The Jacobi no-conjugate-point condition requires that variational endpoints do not coalesce along the trajectory. Prussing and San...
+  image: /logo.png
+permalink: /en/glossary/fundamentals/conjugate-point-condition/
+---
+
+# Conjugate point condition
+
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
+>
+> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
+
+## Definition
+A second-order sufficient condition in the calculus of variations. The Jacobi no-conjugate-point condition requires that variational endpoints do not coalesce along the trajectory. Prussing and Sandrik (2005) applied it to verify optimality of continuous-thrust trajectories.
+
+## Application Value
+This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
+
+## Related Concepts
+- [Delta-v](/en/glossary/fundamentals/delta-v/)
+- [Sigmoid Function](/en/glossary/fundamentals/sigmoid-function/)
+- [Deep Residual Network, ResNet](/en/glossary/fundamentals/deep-residual-network-resnet/)
+- [Instantaneous Classical Orbit Elements](/en/glossary/fundamentals/instantaneous-classical-orbit-elements/)
+
+## References
+- Prussing - 2010 - Primer vector theory and applications
