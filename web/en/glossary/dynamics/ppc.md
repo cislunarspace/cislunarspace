@@ -1,0 +1,50 @@
+---
+title: Prescribed Performance Control
+description: A control framework proposed by Bechlioulis and Rovithakis in 2008. It defines a decreasing performance function to bound the allowable tracking error, then map
+keywords: Prescribed Performance Control, dynamics
+author: 天疆说
+date: 2026-07-31
+lastUpdated: 2026-07-31
+wechatShare:
+  title: Prescribed Performance Control
+  desc: Cislunar space research frontiers, term definitions, and tools resources.
+  image: /logo.png
+og:
+  title: Prescribed Performance Control Explained | Term Definition
+  description: A control framework proposed by Bechlioulis and Rovithakis in 2008. It defines a decreasing performance function to bound the allowable tracking error, then map
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: Prescribed Performance Control Explained | Term Definition
+  description: A control framework proposed by Bechlioulis and Rovithakis in 2008. It defines a decreasing performance function to bound the allowable tracking error, then map
+  image: /logo.png
+permalink: /en/glossary/dynamics/ppc/
+---
+
+# Prescribed Performance Control
+
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
+>
+> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
+
+## Definition
+
+A control framework proposed by Bechlioulis and Rovithakis in 2008. It defines a decreasing performance function to bound the allowable tracking error, then maps the constrained error system to an unconstrained one via an error transformation function. Controller design relies only on state feedback without precise model parameters, guaranteeing both transient and steady-state performance.
+
+## Application Value
+
+This term has significant practical applications in cislunar mission planning and execution.
+
+## Related Concepts
+
+- [Hidden-Genes Genetic Algorithm, HGGA](/en/glossary/dynamics/hgga/)
+- [Variable-Size Design Space, VSDS](/en/glossary/dynamics/vsds/)
+- [Station-Keeping](/en/glossary/dynamics/sk/)
+- [Target Point Method](/en/glossary/dynamics/tp/)
+
+## References
+
+- https://doi.org/10.1177/0954410020940892
+- https://doi.org/10.1109/TAC.2008.2006963
+- Liu 等 - 2025 - Rendezvous and docking operations in near rectilinear halo orbits
