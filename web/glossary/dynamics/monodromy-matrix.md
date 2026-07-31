@@ -1,80 +1,55 @@
 ---
 title: 单值矩阵（Monodromy Matrix）
-description: 详细解析单值矩阵的定义、计算方法、特征值结构及其在周期轨道稳定性分析中的应用
-keywords: 单值矩阵, Monodromy Matrix, 状态转移矩阵, 特征值, 稳定性分析, 周期轨道, 地月空间
+description: 周期轨道沿一个完整周期的变分方程状态转移矩阵。其四个特征值中，两个恒为1（对应周期轨道自身沿轨道方向的运动），一个大于1（对应不稳定流形方向），一个小于1（对应稳定流形方向）。通过特征值和特征向量，可定量确定不变流形在周期轨道上每一点的局部方向和扰动增长率。
+keywords: 单值矩阵, Monodromy Matrix, 轨道, 动力学, 控制
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-07-31
 wechatShare:
   title: 单值矩阵（Monodromy Matrix）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
-  title: 单值矩阵详解 | 周期轨道稳定性判据
-  description: 详细解析单值矩阵的定义、计算方法、特征值结构及其在周期轨道稳定性分析中的应用
+  title: 单值矩阵详解 | 术语定义
+  description: 周期轨道沿一个完整周期的变分方程状态转移矩阵。其四个特征值中，两个恒为1（对应周期轨道自身沿轨道方向的运动），一个大于1（对应不稳定流形方向），一个小于1（对应稳定流形方向）。通过特征值和特征向量，可定量确定不变流形在周期轨道上每一点的局部方向和扰动增长率。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 单值矩阵详解 | 周期轨道稳定性判据
-  description: 详细解析单值矩阵的定义、计算方法、特征值结构及其在周期轨道稳定性分析中的应用
+  title: 单值矩阵详解 | 术语定义
+  description: 周期轨道沿一个完整周期的变分方程状态转移矩阵。其四个特征值中，两个恒为1（对应周期轨道自身沿轨道方向的运动），一个大于1（对应不稳定流形方向），一个小于1（对应稳定流形方向）。通过特征值和特征向量，可定量确定不变流形在周期轨道上每一点的局部方向和扰动增长率。
   image: /logo.png
 permalink: /glossary/dynamics/monodromy-matrix/
 ---
 
-# 单值矩阵
+# 单值矩阵（Monodromy Matrix）
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+>本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## 定义
 
-单值矩阵（Monodromy Matrix）是沿周期轨道积分一周得到的状态转移矩阵。记单值矩阵为 $M$，则 $M = \Phi(T, 0)$，其中 $T$ 为轨道周期，$\Phi$ 为状态转移矩阵。
-
-## 特征值结构
-
-单值矩阵的特征值以共轭形式成对出现，反映了轨道的稳定性特征。记特征值为 $\lambda_i$（$i=1,2,...,6$），则其具有以下形式：
-
-$$\lambda_2 = \frac{1}{\lambda_1}, \quad \lambda_4 = \frac{1}{\lambda_3}, \quad \lambda_5 = \lambda_6 = 1$$
-
-当所有特征值的模均为 1 时，轨道是稳定的；当存在特征值的模大于 1 时，轨道是不稳定的。
-
-## 稳定性指数
-
-基于单值矩阵特征值可计算稳定性指数 $\nu$：
-
-$$\nu = \frac{1}{2}\left(\|\lambda_i\| + \left\|\frac{1}{\lambda_i}\right\|\right)$$
-
-当 $\nu = 1$ 时，轨道是稳定的。稳定性指数是衡量三体轨道在不施加机动控制下自身稳定性水平的重要指标。
-
-## 核心要素
-
-### 数学定义
-
-单值矩阵 $M = \Phi(T, 0)$ 是沿周期轨道积分一周（周期 $T$）得到的状态转移矩阵。
-
-### 关键性质
-
-特征值以共轭形式成对出现：$\lambda_2 = 1/\lambda_1$、$\lambda_4 = 1/\lambda_3$、$\lambda_5 = \lambda_6 = 1$。所有特征值模为 1 时轨道稳定，存在模大于 1 的特征值时不稳定。
-
-### 数值方法
-
-稳定性指数 $\nu = \frac{1}{2}(\|\lambda_i\| + \|1/\lambda_i\|)$ 用于量化稳定性，$\nu = 1$ 表示稳定，$\nu > 1$ 表示不稳定。
+周期轨道沿一个完整周期的变分方程状态转移矩阵。其四个特征值中，两个恒为1（对应周期轨道自身沿轨道方向的运动），一个大于1（对应不稳定流形方向），一个小于1（对应稳定流形方向）。通过特征值和特征向量，可定量确定不变流形在周期轨道上每一点的局部方向和扰动增长率。
 
 ## 应用价值
 
-单值矩阵是分析周期轨道稳定性的核心工具，广泛应用于 DRO、Halo 等三体轨道的稳定性判别和分岔分析。
+在轨道设计与转移任务中，该轨道类型可用于优化燃料消耗和飞行时间。不变流形理论是将低能量转移轨道设计与动力学分析相结合的关键工具。
 
 ## 相关概念
 
-- [状态转移矩阵](/glossary/dynamics/state-transition-matrix/)
-- [稳定性指数](/glossary/dynamics/stability-index/)
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
-- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [倍周期分岔](/glossary/other/period-doubling-bifurcation/)
+- [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
+- [空间流形动力学（Space Manifold Dynamics, SMD）](/glossary/dynamics/space-manifold-dynamics-smd/)
+- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/radial-transverse-normal-frame-rsw-frame/)
 
 ## 参考文献
 
-- Asano Y, Satoh S, Yamada K. Analysis of period-multiplying bifurcations of distant retrograde orbits in the Hill three-body problem[J]. Advances in Space Research, 2022.
-- 陈昱桔. 面向地月空间态势感知的DRO轨道设计与控制研究[D]. 2024.
+- 郑越和赵敏 2023, §1.2
+- /home/ouyangjiahong/Downloads/地月空间相关/output/Fu 等 - 2022 - Stochastic optimization for stationkeeping of periodic orbits using a high-order target point approa/hybrid_auto/Fu 等 - 2022 - Stochastic optimization for stationkeeping of periodic orbits using a high-order target point approa.md
+- Guzzetti 等 - 2016
+- Gómez et al. 2001, Ch.1
+- /home/ouyangjiahong/Downloads/地月空间相关/output/Gordon - 2008 - Transfers to Earth-moon L2 halo orbits using lunar proximity and invariant manifolds/hybrid_auto/Gordon - 2008 - Transfers to Earth-moon L2 halo orbits using lunar proximity and invariant manifolds.md
+- Perozzi和Ferraz-Mello - 2010 - Space manifold dynamics
+- Meyer和Offin - 2017
+- Marchal - 1990 - The three-body problem
+- Gómez 等 - 2001
