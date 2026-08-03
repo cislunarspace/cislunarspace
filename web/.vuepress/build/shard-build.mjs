@@ -38,15 +38,14 @@ function parseArgs(argv) {
 }
 
 function generateShardConfig(args) {
-  // Write shard config into web/.vuepress/.shard/ so it's in the same
-  // directory tree as the real config.ts; the relative import ../config.ts
-  // resolves correctly and esbuild externalizes it into the generated .mjs.
+  // Write shard config into web/.vuepress/build/.shard/; the relative import
+  // ../../config.ts resolves to web/.vuepress/config.ts (the real user config).
   const shardDir = path.join(__dirname, '.shard');
   mkdirSync(shardDir, { recursive: true });
   const cfgPath = path.join(shardDir, `${args.label}.ts`);
   const excludesTs = args.exclude.map((e) => `    '${e.replace(/'/g, "\\'")}'`).join(',\n');
   const cfgCode = `// Auto-generated shard config for ${args.label}.
-import userConfig from '../config.ts'
+import userConfig from '../../config.ts'
 
 export default {
   ...userConfig,
@@ -68,7 +67,7 @@ function runVuepressBuild(configPath, args) {
   const res = spawnSync(
     process.execPath,
     [
-      '--max-old-space-size=8192',
+      '--max-old-space-size=32768',
       cli,
       'build',
       webDir,

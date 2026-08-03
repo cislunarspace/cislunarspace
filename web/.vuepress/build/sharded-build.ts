@@ -138,9 +138,7 @@ function runShard(spec: ShardSpec, logPrefix: string): Promise<number> {
       `!en/space-news/${m}/**`,
     ]);
     const args = [shardBuildMjs, '--label', `shard-${spec.index}`, ...excludeArgs];
-    const nodeOptions = [process.env.NODE_OPTIONS, '--max-old-space-size=8192']
-      .filter(Boolean)
-      .join(' ');
+    const nodeOptions = process.env.NODE_OPTIONS || '--max-old-space-size=16384';
     const child = spawn(process.execPath, args, {
       cwd: webDir,
       env: { ...process.env, NODE_OPTIONS: nodeOptions },

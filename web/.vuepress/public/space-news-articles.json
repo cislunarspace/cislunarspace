@@ -96,7 +96,10 @@
       "date": "2025-05-11",
       "lastUpdated": "2025-05-11",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -107,7 +110,10 @@
       "date": "2025-05-13",
       "lastUpdated": "2025-05-13",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -118,7 +124,10 @@
       "date": "2025-05-14",
       "lastUpdated": "2025-05-14",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -679,7 +688,10 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-04-24",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-03-30-lijian-2-maiden-flight/hero.jpg"
     },
     {
@@ -734,7 +746,10 @@
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-03-spacex-ipo-sec-filing/hero.jpg"
     },
     {
@@ -855,7 +870,10 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": ["artemis", "science"],
+      "category": [
+        "artemis",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-05-saudi-shams-satellite/hero.jpg"
     },
     {
@@ -866,7 +884,10 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-05-shenzhou-21-five-months/hero.jpg"
     },
     {
@@ -877,7 +898,10 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "天疆说",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-05-starship-v3-delay/hero.jpg"
     },
     {
@@ -899,7 +923,10 @@
       "date": "2026-04-06",
       "lastUpdated": "2026-04-06",
       "author": "天疆说",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-06-csc2026-announcement/hero.jpg"
     },
     {
@@ -943,7 +970,10 @@
       "date": "2026-04-07",
       "lastUpdated": "2026-04-07",
       "author": "天疆说",
-      "category": ["nasa", "policy"],
+      "category": [
+        "nasa",
+        "policy"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-07-isaacman-nasa-budget/hero.jpg"
     },
     {
@@ -1009,7 +1039,10 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-10",
       "author": "天疆说",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": null
     },
     {
@@ -1031,7 +1064,10 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-10",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-09-long-march-6a-megaconstellation/hero.webp"
     },
     {
@@ -1042,7 +1078,10 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-27",
       "author": "天疆说",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-09-rocket-lab-iqps-three-launches/hero.jpg"
     },
     {
@@ -1064,7 +1103,11 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-09",
       "author": "天疆说",
-      "category": ["esa", "china", "science"],
+      "category": [
+        "esa",
+        "china",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-09-smile-postponed/hero.jpg"
     },
     {
@@ -1108,7 +1151,10 @@
       "date": "2026-04-10",
       "lastUpdated": "2026-04-10",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-10-china-megaconstellation-launches/hero.jpg"
     },
     {
@@ -1119,7 +1165,9 @@
       "date": "2026-04-10",
       "lastUpdated": "2026-04-10",
       "author": "天疆说",
-      "category": ["commercial"],
+      "category": [
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-10-esa-celeste/hero.jpg"
     },
     {
@@ -1141,7 +1189,10 @@
       "date": "2026-04-13",
       "lastUpdated": "2026-04-13",
       "author": "天疆说",
-      "category": ["iss", "commercial"],
+      "category": [
+        "iss",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-13-ng-crs24-cargo/hero.jpg"
     },
     {
@@ -1152,7 +1203,10 @@
       "date": "2026-04-13",
       "lastUpdated": "2026-04-13",
       "author": "天疆说",
-      "category": ["commercial", "artemis"],
+      "category": [
+        "commercial",
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -1163,7 +1217,10 @@
       "date": "2026-04-14",
       "lastUpdated": "2026-04-24",
       "author": "天疆说",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-14-rocket-lab-gauss-propulsion/hero.jpg"
     },
     {
@@ -1174,7 +1231,10 @@
       "date": "2026-04-14",
       "lastUpdated": "2026-04-14",
       "author": "天疆说",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-14-spacex-1000th-starlink/hero.jpg"
     },
     {
@@ -1207,7 +1267,10 @@
       "date": "2026-04-17",
       "lastUpdated": "2026-04-17",
       "author": "天疆说",
-      "category": ["blue-origin", "commercial"],
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-17-bluebird-7-orbit/hero.png"
     },
     {
@@ -1295,7 +1358,10 @@
       "date": "2026-04-19",
       "lastUpdated": "2026-04-20",
       "author": "天疆说",
-      "category": ["blue-origin", "commercial"],
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg"
     },
     {
@@ -1306,7 +1372,10 @@
       "date": "2026-04-19",
       "lastUpdated": "2026-04-19",
       "author": "天疆说",
-      "category": ["launch", "commercial"],
+      "category": [
+        "launch",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-19-new-glenn-ng-3/hero.jpg"
     },
     {
@@ -1493,7 +1562,10 @@
       "date": "2026-04-22",
       "lastUpdated": null,
       "author": null,
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -1515,7 +1587,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-daqi-2-launch/hero.jpg"
     },
     {
@@ -1526,7 +1601,11 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-23",
       "author": "天疆说",
-      "category": ["esa", "nasa", "launch"],
+      "category": [
+        "esa",
+        "nasa",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-esa-falcon-heavy-rosalind/hero.jpg"
     },
     {
@@ -1537,7 +1616,10 @@
       "date": "2026-04-22",
       "lastUpdated": null,
       "author": null,
-      "category": ["blue-origin", "commercial"],
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -1548,7 +1630,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-foreign-astronaut-selection/hero.jpg"
     },
     {
@@ -1581,7 +1666,11 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["nasa", "artemis", "science"],
+      "category": [
+        "nasa",
+        "artemis",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-infineon-artemis-ii/hero.jpg"
     },
     {
@@ -1603,7 +1692,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-23",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-jrti-final-flight/hero.jpg"
     },
     {
@@ -1647,7 +1739,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-nasa-pace-earth-views/hero.jpg"
     },
     {
@@ -1658,7 +1753,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["nasa", "commercial"],
+      "category": [
+        "nasa",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-nasa-sbir-2026/hero.jpg"
     },
     {
@@ -1669,7 +1767,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["nasa", "artemis"],
+      "category": [
+        "nasa",
+        "artemis"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-nasa-sxsw/hero.jpg"
     },
     {
@@ -1691,7 +1792,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["commercial", "launch"],
+      "category": [
+        "commercial",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-new-glenn-failure/hero.jpg"
     },
     {
@@ -1702,7 +1806,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-night-and-earth-day/hero.jpg"
     },
     {
@@ -1713,7 +1820,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-23",
       "author": "天疆说",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-rocket-lab-mynaric-acquisition/hero.jpg"
     },
     {
@@ -1735,7 +1845,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-22-tiankong-constellation-launch/hero.jpg"
     },
     {
@@ -1757,7 +1870,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-23-csc2026-opening/hero.jpg"
     },
     {
@@ -1812,7 +1928,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "天疆说",
-      "category": ["nasa", "iss"],
+      "category": [
+        "nasa",
+        "iss"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-23-nasa-crew-13/hero.jpg"
     },
     {
@@ -1900,7 +2019,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "天疆说",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-23-rocket-lab-85th-mission/hero.jpg"
     },
     {
@@ -1911,7 +2033,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-24",
       "author": "天疆说",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-23-space-art-culture-forum/hero.jpg"
     },
     {
@@ -1922,7 +2047,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-23-starlink-group-17-14/hero.png"
     },
     {
@@ -1966,7 +2094,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-24-commercial-space-mass-production/hero.jpg"
     },
     {
@@ -1977,7 +2108,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "天疆说",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-24-commercial-space-standard/hero.jpg"
     },
     {
@@ -1988,7 +2122,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "天疆说",
-      "category": ["china", "technology"],
+      "category": [
+        "china",
+        "technology"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-24-csc2026-10-challenges/hero.png"
     },
     {
@@ -2065,7 +2202,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "天疆说",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-24-tianwen-3-mars-sample-return/hero.jpg"
     },
     {
@@ -2098,7 +2238,10 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "天疆说",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-25-chang-e5-new-minerals/hero.png"
     },
     {
@@ -2120,7 +2263,10 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "天疆说",
-      "category": ["spacex", "policy"],
+      "category": [
+        "spacex",
+        "policy"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-25-golden-dome-interceptor/hero.jpg"
     },
     {
@@ -2131,7 +2277,11 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "天疆说",
-      "category": ["china", "launch", "commercial"],
+      "category": [
+        "china",
+        "launch",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg"
     },
     {
@@ -2142,7 +2292,10 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "天疆说",
-      "category": ["china", "human-spaceflight"],
+      "category": [
+        "china",
+        "human-spaceflight"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-25-pakistani-astronauts-training/hero.jpg"
     },
     {
@@ -2175,7 +2328,10 @@
       "date": "2026-04-26",
       "lastUpdated": "2026-04-26",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-26-china-2025-launch-stats/hero.jpg"
     },
     {
@@ -2186,7 +2342,10 @@
       "date": "2026-04-26",
       "lastUpdated": "2026-04-26",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-26-galaxy-8year/hero.jpg"
     },
     {
@@ -2230,7 +2389,10 @@
       "date": "2026-04-26",
       "lastUpdated": "2026-04-26",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-26-spacex-50th-falcon-9-launch/hero.jpg"
     },
     {
@@ -2252,7 +2414,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-27-commercial-space-enterprise-roundtable/hero.png"
     },
     {
@@ -2263,7 +2428,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "天疆说",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg"
     },
     {
@@ -2329,7 +2497,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "天疆说",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-27-rocket-lab-haste-190m-contract/hero.jpg"
     },
     {
@@ -2340,7 +2511,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "天疆说",
-      "category": ["rocket-lab", "artemis"],
+      "category": [
+        "rocket-lab",
+        "artemis"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-27-rocket-lab-solar-artemis-ii/hero.jpg"
     },
     {
@@ -2351,7 +2525,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "天疆说",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-27-space-metal-3d-printing/hero.jpg"
     },
     {
@@ -2362,7 +2539,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg"
     },
     {
@@ -2373,7 +2553,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-27-tianlian-2-05-launch/hero.jpg"
     },
     {
@@ -2395,7 +2578,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-28-cas-space-lijian-2-super-factory/hero.png"
     },
     {
@@ -2406,7 +2592,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-28-changzheng-10yi-maiden-flight/hero.jpg"
     },
     {
@@ -2428,7 +2617,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "天疆说",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg"
     },
     {
@@ -2439,7 +2631,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-28-futurex-fx-spacecraft/hero.jpg"
     },
     {
@@ -2450,7 +2645,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "天疆说",
-      "category": ["launch", "commercial"],
+      "category": [
+        "launch",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg"
     },
     {
@@ -2472,7 +2670,11 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["china", "commercial", "policy"],
+      "category": [
+        "china",
+        "commercial",
+        "policy"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-29-commercial-recoverable-rocket-window/hero.jpg"
     },
     {
@@ -2483,7 +2685,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-29-css-t-shape-expansion/hero.png"
     },
     {
@@ -2494,7 +2699,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg"
     },
     {
@@ -2505,7 +2713,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-29-ma-weiming-em-launch-concept/hero.jpg"
     },
     {
@@ -2516,7 +2727,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-29-microstar-ipo/hero.png"
     },
     {
@@ -2527,7 +2741,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-29-shenzhou-23-preparation/hero.jpg"
     },
     {
@@ -2538,7 +2755,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "天疆说",
-      "category": ["nasa", "commercial"],
+      "category": [
+        "nasa",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-29-starliner-1-cargo-only/hero.jpg"
     },
     {
@@ -2560,7 +2780,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-30-dahang-yueqian-500m-funding/hero.png"
     },
     {
@@ -2582,7 +2805,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/04/figures/2026-04-30-zhuque-3-yao2-leaves-factory/hero.jpg"
     },
     {
@@ -2593,7 +2819,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "天疆说",
-      "category": ["launch", "commercial"],
+      "category": [
+        "launch",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-amazon-leo-second-batch-launch/hero.jpg"
     },
     {
@@ -2626,7 +2855,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-30",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-changzheng-10-yi-maiden-launch/hero.png"
     },
     {
@@ -2637,7 +2869,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-dahang-yueqian-500m-funding/hero.jpg"
     },
     {
@@ -2648,7 +2883,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-30",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-falcon-heavy-viasat-3-f3-launch/hero.jpg"
     },
     {
@@ -2659,7 +2897,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-hainan-commercial-spaceport-phase2/hero.jpg"
     },
     {
@@ -2681,7 +2922,11 @@
       "date": "2026-04-20",
       "lastUpdated": "2026-05-01",
       "author": "天疆说",
-      "category": ["blue-origin", "launch", "commercial"],
+      "category": [
+        "blue-origin",
+        "launch",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-new-glenn-ng3-failure/hero.jpg"
     },
     {
@@ -2692,7 +2937,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "天疆说",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-pakistan-astronauts-china-training/hero.jpg"
     },
     {
@@ -2703,7 +2951,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-shanghai-offshore-launch-company/hero.jpg"
     },
     {
@@ -2747,7 +2998,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "天疆说",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-spacex-starship-15b-spending/hero.jpg"
     },
     {
@@ -2758,7 +3012,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "天疆说",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg"
     },
     {
@@ -2769,7 +3026,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "天疆说",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-01-wukong-cosmic-ray-mechanism/hero.png"
     },
     {
@@ -2791,7 +3051,10 @@
       "date": "2026-05-02",
       "lastUpdated": "2026-05-02",
       "author": "天疆说",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-02-cnsa-commercial-space-meeting/hero.png"
     },
     {
@@ -2813,7 +3076,10 @@
       "date": "2026-05-02",
       "lastUpdated": "2026-05-02",
       "author": "天疆说",
-      "category": ["spacex", "science"],
+      "category": [
+        "spacex",
+        "science"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-02-falcon9-derelict-moon-impact/hero.jpg"
     },
     {
@@ -2835,7 +3101,10 @@
       "date": "2026-05-02",
       "lastUpdated": "2026-05-02",
       "author": "天疆说",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -2846,7 +3115,10 @@
       "date": "2026-05-03",
       "lastUpdated": "2026-05-03",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg"
     },
     {
@@ -2879,7 +3151,11 @@
       "date": "2026-05-03",
       "lastUpdated": "2026-05-03",
       "author": "天疆说",
-      "category": ["china", "human-spaceflight", "international-cooperation"],
+      "category": [
+        "china",
+        "human-spaceflight",
+        "international-cooperation"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-03-pakistan-astronauts-chinese-space-suits/hero.jpg"
     },
     {
@@ -2901,7 +3177,11 @@
       "date": "2026-05-03",
       "lastUpdated": "2026-05-03",
       "author": "天疆说",
-      "category": ["china", "human-spaceflight", "commercial-space"],
+      "category": [
+        "china",
+        "human-spaceflight",
+        "commercial-space"
+      ],
       "image": null
     },
     {
@@ -3605,7 +3885,10 @@
       "date": "2026-05-12",
       "lastUpdated": "2026-05-12",
       "author": "天疆说",
-      "category": ["spacex", "iss"],
+      "category": [
+        "spacex",
+        "iss"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-12-crs-34-scrub-weather/hero.jpg"
     },
     {
@@ -3671,7 +3954,10 @@
       "date": "2026-05-11",
       "lastUpdated": "2026-05-13",
       "author": "天疆说",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-12-starship-v3-wet-checkout/hero.jpg"
     },
     {
@@ -3759,7 +4045,10 @@
       "date": "2026-05-13",
       "lastUpdated": "2026-05-13",
       "author": "天疆说",
-      "category": ["spacex", "iss"],
+      "category": [
+        "spacex",
+        "iss"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-13-crs-34-second-scrub/hero.jpg"
     },
     {
@@ -3781,7 +4070,10 @@
       "date": "2026-05-13",
       "lastUpdated": "2026-05-13",
       "author": "天疆说",
-      "category": ["commercial", "policy"],
+      "category": [
+        "commercial",
+        "policy"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-13-google-spacex-orbital-data-center/hero.jpg"
     },
     {
@@ -3803,7 +4095,10 @@
       "date": "2026-05-13",
       "lastUpdated": "2026-05-13",
       "author": "天疆说",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-13-nasa-iss-pneumonia-heart-research/hero.jpg"
     },
     {
@@ -3968,7 +4263,11 @@
       "date": "2026-05-15",
       "lastUpdated": "2026-05-16",
       "author": "天疆说",
-      "category": ["spacex", "iss", "launch"],
+      "category": [
+        "spacex",
+        "iss",
+        "launch"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-15-crs-34-launch-success/hero.jpg"
     },
     {
@@ -3990,7 +4289,10 @@
       "date": "2026-05-15",
       "lastUpdated": "2026-05-15",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-15-lijian-1-yao13-100stars/hero.jpg"
     },
     {
@@ -4089,7 +4391,10 @@
       "date": "2026-05-18",
       "lastUpdated": "2026-05-18",
       "author": "天疆说",
-      "category": ["policy", "commercial"],
+      "category": [
+        "policy",
+        "commercial"
+      ],
       "image": "/space-news/2026/05/figures/2026-05-18-starlink-megaconstellations/hero.jpg"
     },
     {
@@ -4716,7 +5021,10 @@
       "date": "2026-05-30",
       "lastUpdated": "2026-05-30",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -4738,7 +5046,10 @@
       "date": "2026-05-31",
       "lastUpdated": "2026-06-01",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -4903,7 +5214,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "天疆说",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-03-beijing-yizhuang-space-computing-symposium/hero.jpg"
     },
     {
@@ -4947,7 +5261,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "天疆说",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-03-nasa-maven-mission-end/hero.jpg"
     },
     {
@@ -4958,7 +5275,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "天疆说",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-03-roman-space-telescope-mirror-check/hero.jpg"
     },
     {
@@ -4969,7 +5289,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-03-starlink-10-43-scrub/hero.jpg"
     },
     {
@@ -4980,7 +5303,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-05",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/hero.jpg"
     },
     {
@@ -5024,7 +5350,10 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-04",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-04-china-reusable-rocket-dense-test-window/hero.jpg"
     },
     {
@@ -5046,7 +5375,11 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-05",
       "author": "天疆说",
-      "category": ["blue-origin", "nasa", "artemis"],
+      "category": [
+        "blue-origin",
+        "nasa",
+        "artemis"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-04-nasa-isaacman-blue-moon-launcher-swap/hero.jpg"
     },
     {
@@ -5068,7 +5401,10 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-05",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-04-qianfan-11-batch-long-march-6a/hero.jpg"
     },
     {
@@ -5090,7 +5426,10 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-05",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-04-starlink-10-43-cape-canaveral-success/hero.jpg"
     },
     {
@@ -5156,7 +5495,10 @@
       "date": "2026-06-05",
       "lastUpdated": "2026-06-05",
       "author": "天疆说",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-05-qianfan-12-batch-long-march-8/hero.jpg"
     },
     {
@@ -5200,7 +5542,10 @@
       "date": "2026-06-07",
       "lastUpdated": "2026-06-07",
       "author": "天疆说",
-      "category": ["nasa", "artemis"],
+      "category": [
+        "nasa",
+        "artemis"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-07-meteor-storms-artemis-4-risk/hero.jpg"
     },
     {
@@ -5211,7 +5556,10 @@
       "date": "2026-06-07",
       "lastUpdated": "2026-06-07",
       "author": "天疆说",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-07-sz23-first-inorbit-images/hero.jpg"
     },
     {
@@ -5222,7 +5570,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-10",
       "author": "天疆说",
-      "category": ["artemis", "nasa"],
+      "category": [
+        "artemis",
+        "nasa"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-08-artemis-3-crew-announcement/hero.jpg"
     },
     {
@@ -5244,7 +5595,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "天疆说",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-08-falcon9-b1067-35th-flight/hero.jpg"
     },
     {
@@ -5255,7 +5609,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "天疆说",
-      "category": ["commercial", "policy"],
+      "category": [
+        "commercial",
+        "policy"
+      ],
       "image": null
     },
     {
@@ -5266,7 +5623,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "天疆说",
-      "category": ["esa", "commercial"],
+      "category": [
+        "esa",
+        "commercial"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-08-mcfall-vast-haven1/hero.jpg"
     },
     {
@@ -5277,7 +5637,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "天疆说",
-      "category": ["artemis", "commercial"],
+      "category": [
+        "artemis",
+        "commercial"
+      ],
       "image": "/space-news/2026/06/figures/2026-06-08-prada-axiom-lcvg-cooling-garment/hero.jpg"
     },
     {
@@ -5288,7 +5651,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "天疆说",
-      "category": ["commercial", "policy"],
+      "category": [
+        "commercial",
+        "policy"
+      ],
       "image": null
     },
     {
@@ -5310,7 +5676,9 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["commercial"],
+      "category": [
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -5321,7 +5689,9 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["commercial"],
+      "category": [
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -5343,7 +5713,11 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["artemis", "nasa", "blue-origin"],
+      "category": [
+        "artemis",
+        "nasa",
+        "blue-origin"
+      ],
       "image": null
     },
     {
@@ -5354,7 +5728,10 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -5365,7 +5742,11 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["china", "launch", "commercial"],
+      "category": [
+        "china",
+        "launch",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -5398,7 +5779,10 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "天疆说",
-      "category": ["iss", "nasa"],
+      "category": [
+        "iss",
+        "nasa"
+      ],
       "image": null
     },
     {
@@ -5409,7 +5793,10 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "天疆说",
-      "category": ["artemis", "nasa"],
+      "category": [
+        "artemis",
+        "nasa"
+      ],
       "image": null
     },
     {
@@ -5420,7 +5807,11 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "天疆说",
-      "category": ["spacex", "launch", "commercial"],
+      "category": [
+        "spacex",
+        "launch",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -5442,7 +5833,11 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "天疆说",
-      "category": ["china", "launch", "commercial"],
+      "category": [
+        "china",
+        "launch",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -6513,6 +6908,787 @@
       "image": null
     },
     {
+      "relativePath": "space-news/2026/07/2026-07-24-iss-national-lab-crew-11-research.md",
+      "path": "/space-news/2026/07/2026-07-24-iss-national-lab-crew-11-research/",
+      "title": "ISS国家实验室为Crew-11任务搭载多项科研载荷",
+      "description": "2026年7月24日，ISS国家实验室宣布将在即将到来的SpaceX Crew-11任务中搭载多项科研载荷前往国际空间站。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "iss",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-24-jwst-black-hole-jet-structure.md",
+      "path": "/space-news/2026/07/2026-07-24-jwst-black-hole-jet-structure/",
+      "title": "韦布望远镜首次精细绘制超大质量黑洞相对论性喷流结构",
+      "description": "2026年7月24日发表的研究利用JWST数据绘制遥远星系中心黑洞相对论性喷流的精细结构，为理解黑洞能量机制提供新线索。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "blackhole",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-24-jwst-early-galaxy-black-hole-growth.md",
+      "path": "/space-news/2026/07/2026-07-24-jwst-early-galaxy-black-hole-growth/",
+      "title": "JWST 观测到宇宙早期星系中超大质量黑洞的快速增长",
+      "description": "JWST 新数据揭示宇宙诞生后 10 亿年内星系中超大质量黑洞的快速生长，对现有黑洞形成模型构成挑战。发表于 2026 年 7 月 24 日。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "blackhole",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-24-tiangong-fluid-physics-experiment.md",
+      "path": "/space-news/2026/07/2026-07-24-tiangong-fluid-physics-experiment/",
+      "title": "天宫空间站完成关键微重力流体力学实验 国际团队联合发表成果",
+      "description": "2026年7月24日，天宫空间站航天员完成微重力流体力学实验，成果由中外研究人员联合发表。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-24-tiangong-high-temperature-materials-experiment.md",
+      "path": "/space-news/2026/07/2026-07-24-tiangong-high-temperature-materials-experiment/",
+      "title": "天和核心舱高温材料实验柜完成多项合金凝固实验",
+      "description": "2026年7月24日，中国载人航天工程办公室公布，天和核心舱高温材料实验柜成功完成12种金属合金在微重力环境下的凝固实验，为新型材料研发提供关键数据。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-25-china-yaogan-46-long-march-7a.md",
+      "path": "/space-news/2026/07/2026-07-25-china-yaogan-46-long-march-7a/",
+      "title": "长征七号甲成功发射遥感四十六号卫星，验证新型整流罩",
+      "description": "2026年7月25日，中国使用长征七号甲运载火箭成功发射遥感四十六号卫星，并测试了该火箭的新整流罩构型。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-25-crew-dragon-expedition-74-august.md",
+      "path": "/space-news/2026/07/2026-07-25-crew-dragon-expedition-74-august/",
+      "title": "SpaceX Crew Dragon 下一次空间站乘组轮换任务定于8月发射",
+      "description": "7月25日，SpaceX 与 NASA 宣布下一次 Crew Dragon 载人任务定于2026年8月发射，搭载四名航天员执行第74远征队任务。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "spacex",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-25-deep-space-exploration-roadmap-lunar-mars.md",
+      "path": "/space-news/2026/07/2026-07-25-deep-space-exploration-roadmap-lunar-mars/",
+      "title": "多国航天机构公布未来十年深空探测路线图",
+      "description": "2026年7月25日，多国航天机构公布未来十年深空探测路线图，重点关注月球基地建设和火星载人任务",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "policy",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-25-jaxa-epsilon-s-launch-preparation.md",
+      "path": "/space-news/2026/07/2026-07-25-jaxa-epsilon-s-launch-preparation/",
+      "title": "JAXA Epsilon S固体火箭准备发射 因天气推迟后再次尝试",
+      "description": "2026年7月25日，JAXA的Epsilon S固体燃料火箭在内之浦宇宙空间观测所因天气推迟后再次进行发射准备。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "jaxa",
+      "image": "/space-news/2026/07/figures/2026-07-25-jaxa-epsilon-s-launch-preparation/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-25-jaxa-epsilon-sentinel-launch.md",
+      "path": "/space-news/2026/07/2026-07-25-jaxa-epsilon-sentinel-launch/",
+      "title": "JAXA Epsilon火箭发射ESA哨兵卫星用于地球观测",
+      "description": "7月25日，JAXA Epsilon火箭成功发射ESA哨兵卫星监测地球环境，标志着国际合作迈出关键一步。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "jaxa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-25-qianfan-constellation-launch.md",
+      "path": "/space-news/2026/07/2026-07-25-qianfan-constellation-launch/",
+      "title": "垣信卫星成功发射千帆星座第X批卫星",
+      "description": "7月25日，垣信卫星在酒泉发射千帆星座卫星，推进卫星互联网建设。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "qianfan",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-25-spacex-starlink-back-to-back-both-coasts.md",
+      "path": "/space-news/2026/07/2026-07-25-spacex-starlink-back-to-back-both-coasts/",
+      "title": "SpaceX 48小时内双海岸连续发射Starlink，2026年发射节奏再创新高",
+      "description": "SpaceX于2026年7月23日和25日分别从加州范登堡和佛州卡纳维拉尔角连续发射Falcon 9 Starlink任务，48小时内双海岸部署低轨卫星，延续2026年破纪录发射节奏。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "starlink",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-26-shenzhou-23-crew-two-months-in-orbit.md",
+      "path": "/space-news/2026/07/2026-07-26-shenzhou-23-crew-two-months-in-orbit/",
+      "title": "神舟二十三号乘组在轨满两月，平台照料与科学实验同步推进",
+      "description": "2026年7月26日，神舟二十三号乘组朱杨柱、张志远、黎家盈在轨驻留满两个月，空间站各项科学实验进展顺利，乘组同步进行平台照料与健康管理。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-26-tianwen-2-asteroid-probe-development.md",
+      "path": "/space-news/2026/07/2026-07-26-tianwen-2-asteroid-probe-development/",
+      "title": "天问二号小行星探测任务转入正样研制阶段",
+      "description": "中国航天科技集团2026年7月26日宣布，天问二号近地小行星取样返回和主带彗星探测任务已正式转入正样研制阶段，关键技术取得突破。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-27-esa-exoplanet-data-discovery.md",
+      "path": "/space-news/2026/07/2026-07-27-esa-exoplanet-data-discovery/",
+      "title": "ESA科学任务发现新系外行星数据",
+      "description": "2026年7月27日，ESA的太空望远镜提供了关于系外行星大气的新见解。",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "天疆说",
+      "category": "exoplanet",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-27-iss-spacewalk-solar-array-upgrade.md",
+      "path": "/space-news/2026/07/2026-07-27-iss-spacewalk-solar-array-upgrade/",
+      "title": "国际空间站宇航员执行太空行走 安装新型太阳电池阵",
+      "description": "7月27日，国际空间站宇航员执行舱外活动，安装新型太阳电池阵以升级空间站供电能力，由刚对接的载人龙飞船提供后勤支持。",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "天疆说",
+      "category": "iss",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07/2026-07-27-jwst-new-exoplanet-class-young-stars.md",
+      "path": "/space-news/2026/07/2026-07-27-jwst-new-exoplanet-class-young-stars/",
+      "title": "JWST数据揭示年轻恒星周围存在新型系外行星",
+      "description": "2026年7月27日，JWST望远镜数据分析揭示了一种此前未知的年轻恒星周围系外行星类型，拓展了人类对行星系统形成演化的认知。",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "天疆说",
+      "category": "exoplanet",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/2026-07-24-tianzhou-5-reentry.md",
+      "path": "/space-news/2026/07/2026-07-24-tianzhou-5-reentry/",
+      "title": "天舟五号货运飞船已受控再入大气层",
+      "description": "7月24日，天舟五号货运飞船完成受控再入大气层，绝大部分器件烧蚀销毁。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/2026-07-25-cas-space-lijian-1-y7-launch.md",
+      "path": "/space-news/2026/07/2026-07-25-cas-space-lijian-1-y7-launch/",
+      "title": "中科宇航运力箭一号遥七运载火箭成功发射",
+      "description": "2026年7月25日，中科宇航运力箭一号遥七在酒泉卫星发射中心成功发射，将多颗卫星送入太阳同步轨道。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "cas-space",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/2026-07-26-landspace-zhuque-3-reusable-rocket-test.md",
+      "path": "/space-news/2026/07/2026-07-26-landspace-zhuque-3-reusable-rocket-test/",
+      "title": "蓝箭航天朱雀三号可重复使用火箭完成关键试验",
+      "description": "2026年7月26日，蓝箭航天朱雀三号可重复使用运载火箭完成垂直起降试验，为后续入轨发射奠定基础。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "landspace",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/2026-07-26-shenzhou-18-spacewalk.md",
+      "path": "/space-news/2026/07/2026-07-26-shenzhou-18-spacewalk/",
+      "title": "神舟十八号航天员乘组完成出舱活动",
+      "description": "2026年7月26日，神舟十八号航天员乘组在中国空间站完成了一次出舱活动，进行了设备安装等工作。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/en-2026-07-24-tianzhou-5-reentry.md",
+      "path": "/en/space-news/2026/07/2026-07-24-tianzhou-5-reentry/",
+      "title": "Tianzhou-5 Cargo Spacecraft Completes Controlled Re-entry into Atmosphere",
+      "description": "On July 24, the Tianzhou-5 cargo spacecraft completed controlled re-entry into the atmosphere, with most components incinerated.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/en-2026-07-25-cas-space-lijian-1-y7-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-25-cas-space-lijian-1-y7-launch/",
+      "title": "CAS Spaces Lijian-1 Y7 Rocket Successfully Launches",
+      "description": "On July 25, 2026, CAS Spaces Lijian-1 Y7 rocket successfully launched from Jiuquan Satellite Launch Center, sending multiple satellites into sun-synchronous orbit.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "cas-space",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/en-2026-07-26-landspace-zhuque-3-reusable-rocket-test.md",
+      "path": "/en/space-news/2026/07/2026-07-26-landspace-zhuque-3-reusable-rocket-test/",
+      "title": "Landspaces Zhuque-3 Reusable Rocket Completes Key Test",
+      "description": "On July 26, 2026, Landspaces Zhuque-3 reusable rocket completed a vertical takeoff and landing test, laying the foundation for subsequent orbital launches.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "landspace",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup/en-2026-07-26-shenzhou-18-spacewalk.md",
+      "path": "/en/space-news/2026/07/2026-07-26-shenzhou-18-spacewalk/",
+      "title": "Shenzhou 18 Astronauts Complete Spacewalk",
+      "description": "On July 26, 2026, the Shenzhou 18 astronaut crew completed a spacewalk at the China Space Station, performing equipment installation and other tasks.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-24-artemis-iv-sls-hot-fire-test.md",
+      "path": "/space-news/2026/07/2026-07-24-artemis-iv-sls-hot-fire-test/",
+      "title": "NASA Artemis IV SLS核心级热火测试成功",
+      "description": "7月24日，Artemis IV的SLS核心级在斯坦尼斯航天中心完成全程热火测试，验证了RS-25推进系统性能。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-24-artemis-iv-sls-hot-fire-test/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-24-blue-origin-ns-32-launch.md",
+      "path": "/space-news/2026/07/2026-07-24-blue-origin-ns-32-launch/",
+      "title": "Blue Origin NS-32任务发射六名乘客至太空边缘",
+      "description": "2026年7月24日，Blue Origin从德克萨斯州西部发射New Shepard亚轨道飞行器NS-32，搭载六名乘客成功穿越卡门线。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "blue-origin",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-24-cas-space-lijian-first-commercial-launch.md",
+      "path": "/space-news/2026/07/2026-07-24-cas-space-lijian-first-commercial-launch/",
+      "title": "中科宇航力箭火箭完成首次商业发射",
+      "description": "7月24日，中科宇航力箭火箭成功执行首次商业发射任务，搭载多颗小卫星入轨。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "cas-space",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-24-cas-space-lijian-first-commercial-launch/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-24-changel7-lunar-probe-2026-launch-update.md",
+      "path": "/space-news/2026/07/2026-07-24-changel7-lunar-probe-2026-launch-update/",
+      "title": "嫦娥七号任务进展顺利 计划2026年内发射",
+      "description": "2026年7月24日，国家航天局宣布嫦娥七号月球探测器研制进展顺利，正按计划推进发射准备工作，计划2026年内发射",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-24-esa-jaxa-lunar-collaboration.md",
+      "path": "/space-news/2026/07/2026-07-24-esa-jaxa-lunar-collaboration/",
+      "title": "ESA与JAXA签署月球探索合作协议",
+      "description": "7月24日，ESA与JAXA签署新协议，将在月球探索任务中开展科学技术交流合作。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-24-shenzhou-17-crew-in-orbit-work.md",
+      "path": "/space-news/2026/07/2026-07-24-shenzhou-17-crew-in-orbit-work/",
+      "title": "神舟十七号航天员乘组在轨工作顺利",
+      "description": "2026年7月24日，神舟十七号航天员乘组在空间站内进行各项科学实验，工作状态良好。",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "天疆说",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-artemis-ii-august-launch-date.md",
+      "path": "/space-news/2026/07/2026-07-25-artemis-ii-august-launch-date/",
+      "title": "NASA 宣布 Artemis II 载人绕月任务目标发射窗口定于 8 月",
+      "description": "NASA 于 7 月 25 日宣布，Artemis II 载人绕月飞行任务目标发射窗口定于 8 月，将从肯尼迪航天中心升空。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "artemis",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-25-artemis-ii-august-launch-date/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-chang-e-7-lunar-south-pole-progress.md",
+      "path": "/space-news/2026/07/2026-07-25-chang-e-7-lunar-south-pole-progress/",
+      "title": "嫦娥七号月球南极探测任务各系统研制进展顺利",
+      "description": "国家航天局披露嫦娥七号月球南极探测任务各系统研制进展顺利，探测器将搭载新型水分子探测仪等先进载荷，预计2028年前后发射。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-cnsa-commercial-space-update.md",
+      "path": "/space-news/2026/07/2026-07-25-cnsa-commercial-space-update/",
+      "title": "中国国家航天局通报近期商业航天发射进展",
+      "description": "7月25日，中国国家航天局通报朱雀、力箭、快舟等商业火箭近期发射成就，肯定民营航天发展势头。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "policy",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-esa-jaxa-climate-satellite-launch.md",
+      "path": "/space-news/2026/07/2026-07-25-esa-jaxa-climate-satellite-launch/",
+      "title": "ESA与JAXA联合发射气候监测卫星",
+      "description": "2026年7月25日，ESA和JAXA成功发射一颗新的卫星用于从太空监测气候变化。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-esa-jaxa-joint-lunar-mission.md",
+      "path": "/space-news/2026/07/2026-07-25-esa-jaxa-joint-lunar-mission/",
+      "title": "ESA与JAXA联合宣布月球科学任务",
+      "description": "2026年7月25日，欧空局与日本宇宙航空研究开发机构联合公布一项月球科学任务，聚焦未来发射的科学实验。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-jwst-exoplanet-biosignatures.md",
+      "path": "/space-news/2026/07/2026-07-25-jwst-exoplanet-biosignatures/",
+      "title": "JWST在40光年外宜居带岩石行星大气中发现潜在生物特征信号",
+      "description": "NASA宣布JWST在距地球仅40光年的恒星宜居带内发现一颗岩石行星，其大气中显示可能的生物特征信号。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "exoplanet",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-25-jwst-exoplanet-biosignatures/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-jwst-exoplanet-water-vapor.md",
+      "path": "/space-news/2026/07/2026-07-25-jwst-exoplanet-water-vapor/",
+      "title": "JWST 直接拍摄到一颗拥有水蒸气的遥远系外行星",
+      "description": "2026年7月25日，天文学家利用 JWST 直接拍摄到一颗遥远系外行星的大气中含有水蒸气，拓展了系外行星大气特征化的前沿。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "exoplanet",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-long-march-5b-arrival-wenchang.md",
+      "path": "/space-news/2026/07/2026-07-25-long-march-5b-arrival-wenchang/",
+      "title": "长征五号B遥四运载火箭安全运抵文昌航天发射场",
+      "description": "7月25日，长征五号B遥四运载火箭运抵文昌发射场，将与梦天实验舱进行总装测试。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-next-gen-beidou-test-satellite-launch.md",
+      "path": "/space-news/2026/07/2026-07-25-next-gen-beidou-test-satellite-launch/",
+      "title": "下一代北斗导航试验卫星在西昌成功发射，北斗系统迈入升级换代新阶段",
+      "description": "7月25日，我国在西昌卫星发射中心使用长征三号乙运载火箭，成功将下一代北斗导航试验卫星送入预定轨道，标志着北斗系统升级换代迈入新阶段。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "beidou",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-25-shenzhou-20-tiangong-experiments-july-2026.md",
+      "path": "/space-news/2026/07/2026-07-25-shenzhou-20-tiangong-experiments-july-2026/",
+      "title": "神舟二十号乘组在天宫空间站开展多项在轨科学实验",
+      "description": "中国载人航天工程办公室2026年7月25日通报，神舟二十号航天员乘组在天宫空间站顺利开展空间生命科学、微重力物理等多项在轨科学实验。",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "天疆说",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-26-crew-15-begins-iss-mission.md",
+      "path": "/space-news/2026/07/2026-07-26-crew-15-begins-iss-mission/",
+      "title": "NASA Crew-15宇航员开始为期六个月的国际空间站任务",
+      "description": "7月26日，Crew-15与国际空间站对接，宇航员开始为期六个月的科学考察任务。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "iss",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-26-crew-15-begins-iss-mission/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-26-crew-dragon-docks-iss-expedition-72.md",
+      "path": "/space-news/2026/07/2026-07-26-crew-dragon-docks-iss-expedition-72/",
+      "title": "载人龙飞船对接国际空间站，第72远征队正式运作",
+      "description": "7月26日，载人龙飞船自主对接国际空间站，第72远征队新一轮在轨科研活动正式开始。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "iss",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-26-crew-dragon-docks-iss-expedition-72/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-26-esa-earthcare-launch.md",
+      "path": "/space-news/2026/07/2026-07-26-esa-earthcare-launch/",
+      "title": "ESA地球观测卫星EarthCARE搭乘SpaceX猎鹰9号发射升空",
+      "description": "ESA与JAXA联合任务EarthCARE卫星于2026年7月26日搭乘SpaceX猎鹰9号火箭发射升空，研究地球辐射平衡以改进气候模型。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-26-hera-dimorphos-close-up-images.md",
+      "path": "/space-news/2026/07/2026-07-26-hera-dimorphos-close-up-images/",
+      "title": "ESA Hera任务首次传回Dimorphos小行星近距离图像",
+      "description": "2026年7月26日，ESA的Hera小行星探测任务传回Dimorphos小行星首批近距离图像，揭示DART撞击点新科学数据。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-26-jaxa-rocket-launch-science-experiments.md",
+      "path": "/space-news/2026/07/2026-07-26-jaxa-rocket-launch-science-experiments/",
+      "title": "JAXA最新火箭发射携带科学实验",
+      "description": "2026年7月26日，JAXA发射一枚H3火箭，携带多项科学实验前往国际空间站。",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "天疆说",
+      "category": "jaxa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-27-chang-e-8-international-cooperation.md",
+      "path": "/space-news/2026/07/2026-07-27-chang-e-8-international-cooperation/",
+      "title": "嫦娥八号任务国际合作项目开始征集",
+      "description": "国家航天局2026年7月27日就嫦娥八号任务正式启动国际合作项目征集，旨在推动月球科研站建设。",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "天疆说",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/2026-07-27-china-space-environment-satellite.md",
+      "path": "/space-news/2026/07/2026-07-27-china-space-environment-satellite/",
+      "title": "中国成功发射空间环境探测卫星",
+      "description": "2026年7月27日13时10分，中国使用长征系列运载火箭成功将一颗空间环境探测卫星送入太空。",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "天疆说",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-24-artemis-iv-sls-hot-fire-test.md",
+      "path": "/en/space-news/2026/07/2026-07-24-artemis-iv-sls-hot-fire-test/",
+      "title": "NASA Artemis IV SLS Core Stage Hot Fire Test Succeeds",
+      "description": "The SLS core stage for Artemis IV completed a full-duration hot fire test at Stennis Space Center on 2026-07-24, validating RS-25 propulsion performance.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "artemis",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-24-artemis-iv-sls-hot-fire-test/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-24-blue-origin-ns-32-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-24-blue-origin-ns-32-launch/",
+      "title": "Blue Origin NS-32 mission launches six passengers to edge of space",
+      "description": "On July 24, 2026, Blue Origin launched its New Shepard suborbital vehicle NS-32 from West Texas, carrying six crew members on a successful trip past the Kármán line.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "blue-origin",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-24-cas-space-lijian-first-commercial-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-24-cas-space-lijian-first-commercial-launch/",
+      "title": "CAS Space Lijian Rocket Completes First Commercial Launch",
+      "description": "CAS Space Lijian rocket successfully completed its first commercial mission on July 24, 2026, deploying multiple small satellites into orbit.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "cas-space",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-24-cas-space-lijian-first-commercial-launch/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-24-changel7-lunar-probe-2026-launch-update.md",
+      "path": "/en/space-news/2026/07/2026-07-24-changel7-lunar-probe-2026-launch-update/",
+      "title": "Chinas Change-7 Lunar Probe on Track for 2026 Launch",
+      "description": "On July 24, 2026, CNSA announced that the Change-7 lunar probe is progressing smoothly in development, on track for launch within 2026",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-24-esa-jaxa-lunar-collaboration.md",
+      "path": "/en/space-news/2026/07/2026-07-24-esa-jaxa-lunar-collaboration/",
+      "title": "ESA and JAXA Sign Agreement for Lunar Exploration Collaboration",
+      "description": "ESA and JAXA have signed a new agreement to collaborate on lunar exploration missions, focusing on science and technology exchange. Date 2026-07-24.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-24-shenzhou-17-crew-in-orbit-work.md",
+      "path": "/en/space-news/2026/07/2026-07-24-shenzhou-17-crew-in-orbit-work/",
+      "title": "Shenzhou-17 Astronaut Crew Working Smoothly in Orbit",
+      "description": "On July 24, 2026, the Shenzhou-17 astronaut crew conducted various scientific experiments in the space station, working in good condition.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-artemis-ii-august-launch-date.md",
+      "path": "/en/space-news/2026/07/2026-07-25-artemis-ii-august-launch-date/",
+      "title": "Artemis II Mission Gets August Target Launch Date",
+      "description": "NASA announced on July 25, 2026 that the Artemis II crewed lunar flyby mission is targeting an August launch window from Kennedy Space Center.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "artemis",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-25-artemis-ii-august-launch-date/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-chang-e-7-lunar-south-pole-progress.md",
+      "path": "/en/space-news/2026/07/2026-07-25-chang-e-7-lunar-south-pole-progress/",
+      "title": "Change-7 Lunar South Pole Mission Systems Progressing Smoothly",
+      "description": "CNSA disclosed that the Change-7 lunar south pole exploration mission systems are progressing well, with the probe carrying a new water molecule detector and other advanced payloads, targeting launch around 2028.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-cnsa-commercial-space-update.md",
+      "path": "/en/space-news/2026/07/2026-07-25-cnsa-commercial-space-update/",
+      "title": "CNSA Releases Latest Commercial Space Launch Progress Report",
+      "description": "On July 25, 2026, CNSA released a progress report highlighting recent commercial launch achievements by Zhuque, Lijian, and Kuaizhou rockets, affirming the momentum of Chinas private space sector.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "policy",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-esa-jaxa-climate-satellite-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-25-esa-jaxa-climate-satellite-launch/",
+      "title": "ESA and JAXA Launch Joint Climate Monitoring Satellite",
+      "description": "On July 25, 2026, ESA and JAXA successfully launched a new satellite to monitor climate change from space.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-esa-jaxa-joint-lunar-mission.md",
+      "path": "/en/space-news/2026/07/2026-07-25-esa-jaxa-joint-lunar-mission/",
+      "title": "ESA and JAXA Announce Joint Lunar Science Mission",
+      "description": "ESA and JAXA unveiled a collaborative lunar science mission on July 25, 2026, focusing on experiments for future launches.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-jwst-exoplanet-biosignatures.md",
+      "path": "/en/space-news/2026/07/2026-07-25-jwst-exoplanet-biosignatures/",
+      "title": "JWST Detects Potential Biosignatures on Rocky Exoplanet in Nearby Stars Habitable Zone",
+      "description": "NASA announced that JWST has identified a rocky exoplanet in the habitable zone of a star just 40 light-years away, showing possible atmospheric biosignatures.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "exoplanet",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-25-jwst-exoplanet-biosignatures/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-jwst-exoplanet-water-vapor.md",
+      "path": "/en/space-news/2026/07/2026-07-25-jwst-exoplanet-water-vapor/",
+      "title": "JWST Directly Images a Distant Exoplanet With Water Vapor in Its Atmosphere",
+      "description": "On July 25, 2026, astronomers using JWST directly imaged a distant exoplanet with water vapor in its atmosphere, expanding the frontier of exoplanet atmospheric characterization.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "exoplanet",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-long-march-5b-arrival-wenchang.md",
+      "path": "/en/space-news/2026/07/2026-07-25-long-march-5b-arrival-wenchang/",
+      "title": "Long March 5B Y4 Rocket Safely Arrives at Wenchang Spacecraft Launch Site",
+      "description": "On July 25, the Long March 5B Y4 rocket arrived at Wenchang launch site to assemble and test with the Mengtian lab module.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-next-gen-beidou-test-satellite-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-25-next-gen-beidou-test-satellite-launch/",
+      "title": "Next-Generation BeiDou Navigation Test Satellite Successfully Launched, System Upgrade Enters New Phase",
+      "description": "On July 25, China successfully launched a next-generation BeiDou navigation test satellite from Xichang Satellite Launch Center using a Long March 3B rocket, marking a new phase in the BeiDou systems upgrade and evolution.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "beidou",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-25-shenzhou-20-tiangong-experiments-july-2026.md",
+      "path": "/en/space-news/2026/07/2026-07-25-shenzhou-20-tiangong-experiments-july-2026/",
+      "title": "Shenzhou-20 Crew Conducts Scientific Experiments Aboard Tiangong Space Station",
+      "description": "Chinas Manned Space Agency announced on July 25, 2026 that the Shenzhou-20 crew is conducting a range of scientific experiments aboard the Tiangong space station, covering space life sciences and microgravity physics.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-26-crew-15-begins-iss-mission.md",
+      "path": "/en/space-news/2026/07/2026-07-26-crew-15-begins-iss-mission/",
+      "title": "NASA Crew-15 Astronauts Begin Six-Month ISS Mission",
+      "description": "Crew-15 docked with the ISS on 2026-07-26, beginning a six-month science expedition aboard the orbital laboratory.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "iss",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-26-crew-15-begins-iss-mission/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-26-crew-dragon-docks-iss-expedition-72.md",
+      "path": "/en/space-news/2026/07/2026-07-26-crew-dragon-docks-iss-expedition-72/",
+      "title": "Crew Dragon Docks with ISS, Begins Expedition 72 Operations",
+      "description": "The Crew Dragon spacecraft autonomously docked with the International Space Station on July 26, 2026, marking the start of Expedition 72 research activities.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "iss",
+      "image": "/space-news/2026/07-backup-fake-urls/figures/2026-07-26-crew-dragon-docks-iss-expedition-72/hero.jpg"
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-26-esa-earthcare-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-26-esa-earthcare-launch/",
+      "title": "ESAs EarthCARE Satellite Launches on SpaceX Falcon 9 to Study Climate",
+      "description": "ESAs EarthCARE satellite, a joint mission with JAXA, launched on July 26, 2026, aboard a SpaceX Falcon 9 to study Earths radiation balance and improve climate models.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-26-hera-dimorphos-close-up-images.md",
+      "path": "/en/space-news/2026/07/2026-07-26-hera-dimorphos-close-up-images/",
+      "title": "ESAs Hera Mission Returns First Close-Up Images of Dimorphos Asteroid",
+      "description": "ESAs Hera asteroid mission returned the first close-up images of Dimorphos on July 26, 2026, providing new scientific data about the DART impact site.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "esa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-26-jaxa-rocket-launch-science-experiments.md",
+      "path": "/en/space-news/2026/07/2026-07-26-jaxa-rocket-launch-science-experiments/",
+      "title": "JAXAs Latest Rocket Launch Carries Science Experiments",
+      "description": "On July 26, 2026, JAXA launched an H3 rocket carrying multiple science experiments for the International Space Station.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "jaxa",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-27-chang-e-8-international-cooperation.md",
+      "path": "/en/space-news/2026/07/2026-07-27-chang-e-8-international-cooperation/",
+      "title": "Change-8 Mission International Cooperation Projects Now Open for Proposals",
+      "description": "CNSA officially opened international cooperation project proposals for the Change-8 mission on July 27, 2026, aimed at advancing lunar research station construction.",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "Tianjiangshuo",
+      "category": "moon",
+      "image": null
+    },
+    {
+      "relativePath": "space-news/2026/07-backup-fake-urls/en-2026-07-27-china-space-environment-satellite.md",
+      "path": "/en/space-news/2026/07/2026-07-27-china-space-environment-satellite/",
+      "title": "China Launches New Satellite for Space Environment Exploration",
+      "description": "China launched a new satellite for space environment exploration on July 27, 2026, at 1:10 p.m. Beijing Time using a Long March rocket.",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "Tianjiangshuo",
+      "category": "china",
+      "image": null
+    },
+    {
       "relativePath": "space-news/archive.md",
       "path": "/space-news/archive",
       "title": "按日期查阅 · Space News",
@@ -6621,7 +7797,10 @@
       "date": "2025-05-11",
       "lastUpdated": "2025-05-11",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -6632,7 +7811,10 @@
       "date": "2025-05-13",
       "lastUpdated": "2025-05-13",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -6643,7 +7825,10 @@
       "date": "2025-05-14",
       "lastUpdated": "2025-05-14",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -7138,7 +8323,10 @@
       "date": "2026-03-30",
       "lastUpdated": "2026-04-24",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/03/figures/2026-03-30-lijian-2-maiden-flight/hero.jpg"
     },
     {
@@ -7259,7 +8447,10 @@
       "date": "2026-04-03",
       "lastUpdated": "2026-04-05",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-03-spacex-ipo-sec-filing/hero.jpg"
     },
     {
@@ -7380,7 +8571,10 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "Tianjiang Shuo",
-      "category": ["artemis", "science"],
+      "category": [
+        "artemis",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-05-saudi-shams-satellite/hero.jpg"
     },
     {
@@ -7391,7 +8585,10 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "Tianjiang Shuo",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-05-shenzhou-21-five-months/hero.jpg"
     },
     {
@@ -7402,7 +8599,10 @@
       "date": "2026-04-05",
       "lastUpdated": "2026-04-05",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-05-starship-v3-delay/hero.jpg"
     },
     {
@@ -7424,7 +8624,10 @@
       "date": "2026-04-06",
       "lastUpdated": "2026-04-06",
       "author": "Tianjiang Shuo",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-06-csc2026-announcement/hero.jpg"
     },
     {
@@ -7468,7 +8671,10 @@
       "date": "2026-04-07",
       "lastUpdated": "2026-04-07",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "policy"],
+      "category": [
+        "nasa",
+        "policy"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-07-isaacman-nasa-budget/hero.jpg"
     },
     {
@@ -7534,7 +8740,10 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-10",
       "author": "Tianjiang Shuo",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": null
     },
     {
@@ -7556,7 +8765,10 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-10",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-09-long-march-6a-megaconstellation/hero.webp"
     },
     {
@@ -7567,7 +8779,10 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-27",
       "author": "Tianjiang Shuo",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-09-rocket-lab-iqps-three-launches/hero.jpg"
     },
     {
@@ -7589,7 +8804,11 @@
       "date": "2026-04-09",
       "lastUpdated": "2026-04-09",
       "author": "Tianjiang Shuo",
-      "category": ["esa", "china", "science"],
+      "category": [
+        "esa",
+        "china",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-09-smile-postponed/hero.jpg"
     },
     {
@@ -7633,7 +8852,10 @@
       "date": "2026-04-10",
       "lastUpdated": "2026-04-10",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-10-china-megaconstellation-launches/hero.jpg"
     },
     {
@@ -7644,7 +8866,9 @@
       "date": "2026-04-10",
       "lastUpdated": "2026-04-10",
       "author": "Tianjiang Shuo",
-      "category": ["commercial"],
+      "category": [
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-10-esa-celeste/hero.jpg"
     },
     {
@@ -7666,7 +8890,10 @@
       "date": "2026-04-13",
       "lastUpdated": "2026-04-13",
       "author": "Tianjiang Shuo",
-      "category": ["iss", "commercial"],
+      "category": [
+        "iss",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-13-ng-crs24-cargo/hero.jpg"
     },
     {
@@ -7677,7 +8904,10 @@
       "date": "2026-04-13",
       "lastUpdated": "2026-04-13",
       "author": "Tianjiang Shuo",
-      "category": ["commercial", "artemis"],
+      "category": [
+        "commercial",
+        "artemis"
+      ],
       "image": null
     },
     {
@@ -7688,7 +8918,10 @@
       "date": "2026-04-14",
       "lastUpdated": "2026-04-24",
       "author": "Tianjiang Shuo",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-14-rocket-lab-gauss-propulsion/hero.jpg"
     },
     {
@@ -7699,7 +8932,10 @@
       "date": "2026-04-14",
       "lastUpdated": "2026-04-14",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-14-spacex-1000th-starlink/hero.jpg"
     },
     {
@@ -7732,7 +8968,10 @@
       "date": "2026-04-17",
       "lastUpdated": "2026-04-17",
       "author": "Tianjiang Shuo",
-      "category": ["blue-origin", "commercial"],
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-17-bluebird-7-orbit/hero.png"
     },
     {
@@ -7820,7 +9059,10 @@
       "date": "2026-04-19",
       "lastUpdated": "2026-04-20",
       "author": "Tianjiang Shuo",
-      "category": ["blue-origin", "commercial"],
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg"
     },
     {
@@ -7831,7 +9073,10 @@
       "date": "2026-04-19",
       "lastUpdated": "2026-04-19",
       "author": "Tianjiang Shuo",
-      "category": ["launch", "commercial"],
+      "category": [
+        "launch",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-19-new-glenn-ng-3/hero.jpg"
     },
     {
@@ -8018,7 +9263,10 @@
       "date": "2026-04-22",
       "lastUpdated": null,
       "author": null,
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -8040,7 +9288,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-daqi-2-launch/hero.jpg"
     },
     {
@@ -8051,7 +9302,11 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-23",
       "author": "Tianjiang Shuo",
-      "category": ["esa", "nasa", "launch"],
+      "category": [
+        "esa",
+        "nasa",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-esa-falcon-heavy-rosalind/hero.jpg"
     },
     {
@@ -8062,7 +9317,10 @@
       "date": "2026-04-22",
       "lastUpdated": null,
       "author": null,
-      "category": ["blue-origin", "commercial"],
+      "category": [
+        "blue-origin",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -8073,7 +9331,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-foreign-astronaut-selection/hero.jpg"
     },
     {
@@ -8106,7 +9367,11 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "artemis", "science"],
+      "category": [
+        "nasa",
+        "artemis",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-infineon-artemis-ii/hero.jpg"
     },
     {
@@ -8128,7 +9393,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-23",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-jrti-final-flight/hero.jpg"
     },
     {
@@ -8172,7 +9440,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-nasa-pace-earth-views/hero.jpg"
     },
     {
@@ -8183,7 +9454,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "commercial"],
+      "category": [
+        "nasa",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-nasa-sbir-2026/hero.jpg"
     },
     {
@@ -8194,7 +9468,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "artemis"],
+      "category": [
+        "nasa",
+        "artemis"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-nasa-sxsw/hero.jpg"
     },
     {
@@ -8216,7 +9493,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["commercial", "launch"],
+      "category": [
+        "commercial",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-new-glenn-failure/hero.jpg"
     },
     {
@@ -8227,7 +9507,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-night-and-earth-day/hero.jpg"
     },
     {
@@ -8238,7 +9521,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-23",
       "author": "Tianjiang Shuo",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-rocket-lab-mynaric-acquisition/hero.jpg"
     },
     {
@@ -8260,7 +9546,10 @@
       "date": "2026-04-22",
       "lastUpdated": "2026-04-22",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-22-tiankong-constellation-launch/hero.jpg"
     },
     {
@@ -8282,7 +9571,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-23-csc2026-opening/hero.jpg"
     },
     {
@@ -8337,7 +9629,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "iss"],
+      "category": [
+        "nasa",
+        "iss"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-23-nasa-crew-13/hero.jpg"
     },
     {
@@ -8425,7 +9720,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "Tianjiang Shuo",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-23-rocket-lab-85th-mission/hero.jpg"
     },
     {
@@ -8436,7 +9734,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-24",
       "author": "Tianjiang Shuo",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-23-space-art-culture-forum/hero.jpg"
     },
     {
@@ -8447,7 +9748,10 @@
       "date": "2026-04-23",
       "lastUpdated": "2026-04-23",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-23-starlink-group-17-14/hero.png"
     },
     {
@@ -8491,7 +9795,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-24-commercial-space-mass-production/hero.jpg"
     },
     {
@@ -8502,7 +9809,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "Tianjiang Shuo",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-24-commercial-space-standard/hero.jpg"
     },
     {
@@ -8513,7 +9823,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "Tianjiang Shuo",
-      "category": ["china", "technology"],
+      "category": [
+        "china",
+        "technology"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-24-csc2026-10-challenges/hero.png"
     },
     {
@@ -8590,7 +9903,10 @@
       "date": "2026-04-24",
       "lastUpdated": "2026-04-24",
       "author": "Tianjiang Shuo",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-24-tianwen-3-mars-sample-return/hero.jpg"
     },
     {
@@ -8623,7 +9939,10 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "Tianjiang Shuo",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-25-chang-e5-new-minerals/hero.png"
     },
     {
@@ -8645,7 +9964,10 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "policy"],
+      "category": [
+        "spacex",
+        "policy"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-25-golden-dome-interceptor/hero.jpg"
     },
     {
@@ -8656,7 +9978,11 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch", "commercial"],
+      "category": [
+        "china",
+        "launch",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg"
     },
     {
@@ -8667,7 +9993,10 @@
       "date": "2026-04-25",
       "lastUpdated": "2026-04-25",
       "author": "Tianjiang Shuo",
-      "category": ["china", "human-spaceflight"],
+      "category": [
+        "china",
+        "human-spaceflight"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-25-pakistani-astronauts-training/hero.jpg"
     },
     {
@@ -8700,7 +10029,10 @@
       "date": "2026-04-26",
       "lastUpdated": "2026-04-26",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-26-china-2025-launch-stats/hero.jpg"
     },
     {
@@ -8711,7 +10043,10 @@
       "date": "2026-04-26",
       "lastUpdated": "2026-04-26",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-26-galaxy-8year/hero.jpg"
     },
     {
@@ -8755,7 +10090,10 @@
       "date": "2026-04-26",
       "lastUpdated": "2026-04-26",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-26-spacex-50th-falcon-9-launch/hero.jpg"
     },
     {
@@ -8777,7 +10115,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-27-commercial-space-enterprise-roundtable/hero.png"
     },
     {
@@ -8788,7 +10129,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg"
     },
     {
@@ -8854,7 +10198,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "Tianjiang Shuo",
-      "category": ["rocket-lab", "commercial"],
+      "category": [
+        "rocket-lab",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-27-rocket-lab-haste-190m-contract/hero.jpg"
     },
     {
@@ -8865,7 +10212,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "Tianjiang Shuo",
-      "category": ["rocket-lab", "artemis"],
+      "category": [
+        "rocket-lab",
+        "artemis"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-27-rocket-lab-solar-artemis-ii/hero.jpg"
     },
     {
@@ -8876,7 +10226,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "Tianjiang Shuo",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-27-space-metal-3d-printing/hero.jpg"
     },
     {
@@ -8887,7 +10240,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg"
     },
     {
@@ -8898,7 +10254,10 @@
       "date": "2026-04-27",
       "lastUpdated": "2026-04-27",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-27-tianlian-2-05-launch/hero.jpg"
     },
     {
@@ -8920,7 +10279,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-28-cas-space-lijian-2-super-factory/hero.png"
     },
     {
@@ -8931,7 +10293,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-28-changzheng-10yi-maiden-flight/hero.jpg"
     },
     {
@@ -8953,7 +10318,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "Tianjiang Shuo",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg"
     },
     {
@@ -8964,7 +10332,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-28-futurex-fx-spacecraft/hero.jpg"
     },
     {
@@ -8975,7 +10346,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-28",
       "author": "Tianjiang Shuo",
-      "category": ["launch", "commercial"],
+      "category": [
+        "launch",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg"
     },
     {
@@ -8997,7 +10371,11 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial", "policy"],
+      "category": [
+        "china",
+        "commercial",
+        "policy"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-29-commercial-recoverable-rocket-window/hero.jpg"
     },
     {
@@ -9008,7 +10386,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-29-css-t-shape-expansion/hero.png"
     },
     {
@@ -9019,7 +10400,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg"
     },
     {
@@ -9030,7 +10414,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-29-ma-weiming-em-launch-concept/hero.jpg"
     },
     {
@@ -9041,7 +10428,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-29-microstar-ipo/hero.png"
     },
     {
@@ -9052,7 +10442,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-29-shenzhou-23-preparation/hero.jpg"
     },
     {
@@ -9063,7 +10456,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-29",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "commercial"],
+      "category": [
+        "nasa",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-29-starliner-1-cargo-only/hero.jpg"
     },
     {
@@ -9085,7 +10481,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-30-dahang-yueqian-500m-funding/hero.png"
     },
     {
@@ -9107,7 +10506,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/04/figures/2026-04-30-zhuque-3-yao2-leaves-factory/hero.jpg"
     },
     {
@@ -9118,7 +10520,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "Tianjiang Shuo",
-      "category": ["launch", "commercial"],
+      "category": [
+        "launch",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-amazon-leo-second-batch-launch/hero.jpg"
     },
     {
@@ -9151,7 +10556,10 @@
       "date": "2026-04-28",
       "lastUpdated": "2026-04-30",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-changzheng-10-yi-maiden-launch/hero.png"
     },
     {
@@ -9162,7 +10570,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-dahang-yueqian-500m-funding/hero.jpg"
     },
     {
@@ -9173,7 +10584,10 @@
       "date": "2026-04-29",
       "lastUpdated": "2026-04-30",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-falcon-heavy-viasat-3-f3-launch/hero.jpg"
     },
     {
@@ -9184,7 +10598,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-hainan-commercial-spaceport-phase2/hero.jpg"
     },
     {
@@ -9206,7 +10623,11 @@
       "date": "2026-04-20",
       "lastUpdated": "2026-05-01",
       "author": "Tianjiang Shuo",
-      "category": ["blue-origin", "launch", "commercial"],
+      "category": [
+        "blue-origin",
+        "launch",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-new-glenn-ng3-failure/hero.jpg"
     },
     {
@@ -9217,7 +10638,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "Tianjiang Shuo",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-pakistan-astronauts-china-training/hero.jpg"
     },
     {
@@ -9228,7 +10652,10 @@
       "date": "2026-04-30",
       "lastUpdated": "2026-04-30",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-shanghai-offshore-launch-company/hero.jpg"
     },
     {
@@ -9272,7 +10699,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-spacex-starship-15b-spending/hero.jpg"
     },
     {
@@ -9283,7 +10713,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "Tianjiang Shuo",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg"
     },
     {
@@ -9294,7 +10727,10 @@
       "date": "2026-05-01",
       "lastUpdated": "2026-05-01",
       "author": "Tianjiang Shuo",
-      "category": ["china", "science"],
+      "category": [
+        "china",
+        "science"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-01-wukong-cosmic-ray-mechanism/hero.png"
     },
     {
@@ -9316,7 +10752,10 @@
       "date": "2026-05-02",
       "lastUpdated": "2026-05-02",
       "author": "Tianjiang Shuo",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-02-cnsa-commercial-space-meeting/hero.png"
     },
     {
@@ -9338,7 +10777,10 @@
       "date": "2026-05-02",
       "lastUpdated": "2026-05-02",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "science"],
+      "category": [
+        "spacex",
+        "science"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-02-falcon9-derelict-moon-impact/hero.jpg"
     },
     {
@@ -9360,7 +10802,10 @@
       "date": "2026-05-02",
       "lastUpdated": "2026-05-02",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -9371,7 +10816,10 @@
       "date": "2026-05-03",
       "lastUpdated": "2026-05-03",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg"
     },
     {
@@ -9404,7 +10852,11 @@
       "date": "2026-05-03",
       "lastUpdated": "2026-05-03",
       "author": "Tianjiang Shuo",
-      "category": ["china", "human-spaceflight", "international-cooperation"],
+      "category": [
+        "china",
+        "human-spaceflight",
+        "international-cooperation"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-03-pakistan-astronauts-chinese-space-suits/hero.jpg"
     },
     {
@@ -9426,7 +10878,11 @@
       "date": "2026-05-03",
       "lastUpdated": "2026-05-03",
       "author": "Tianjiang Shuo",
-      "category": ["china", "human-spaceflight", "commercial-space"],
+      "category": [
+        "china",
+        "human-spaceflight",
+        "commercial-space"
+      ],
       "image": null
     },
     {
@@ -10130,7 +11586,10 @@
       "date": "2026-05-12",
       "lastUpdated": "2026-05-12",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "iss"],
+      "category": [
+        "spacex",
+        "iss"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-12-crs-34-scrub-weather/hero.jpg"
     },
     {
@@ -10196,7 +11655,10 @@
       "date": "2026-05-11",
       "lastUpdated": "2026-05-13",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "commercial"],
+      "category": [
+        "spacex",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-12-starship-v3-wet-checkout/hero.jpg"
     },
     {
@@ -10284,7 +11746,10 @@
       "date": "2026-05-13",
       "lastUpdated": "2026-05-13",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "iss"],
+      "category": [
+        "spacex",
+        "iss"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-13-crs-34-second-scrub/hero.jpg"
     },
     {
@@ -10306,7 +11771,10 @@
       "date": "2026-05-13",
       "lastUpdated": "2026-05-13",
       "author": "Tianjiang Shuo",
-      "category": ["commercial", "policy"],
+      "category": [
+        "commercial",
+        "policy"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-13-google-spacex-orbital-data-center/hero.jpg"
     },
     {
@@ -10328,7 +11796,10 @@
       "date": "2026-05-13",
       "lastUpdated": "2026-05-13",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-13-nasa-iss-pneumonia-heart-research/hero.jpg"
     },
     {
@@ -10493,7 +11964,11 @@
       "date": "2026-05-15",
       "lastUpdated": "2026-05-16",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "iss", "launch"],
+      "category": [
+        "spacex",
+        "iss",
+        "launch"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-15-crs-34-launch-success/hero.jpg"
     },
     {
@@ -10515,7 +11990,10 @@
       "date": "2026-05-15",
       "lastUpdated": "2026-05-15",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-15-lijian-1-yao13-100stars/hero.jpg"
     },
     {
@@ -10614,7 +12092,10 @@
       "date": "2026-05-18",
       "lastUpdated": "2026-05-18",
       "author": "Tianjiang Shuo",
-      "category": ["policy", "commercial"],
+      "category": [
+        "policy",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/05/figures/2026-05-18-starlink-megaconstellations/hero.jpg"
     },
     {
@@ -11241,7 +12722,10 @@
       "date": "2026-05-30",
       "lastUpdated": "2026-05-30",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -11263,7 +12747,10 @@
       "date": "2026-05-31",
       "lastUpdated": "2026-06-01",
       "author": "Tianjiang Shuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": null
     },
     {
@@ -11428,7 +12915,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "Tianjiang Shuo",
-      "category": ["china", "policy"],
+      "category": [
+        "china",
+        "policy"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-03-beijing-yizhuang-space-computing-symposium/hero.jpg"
     },
     {
@@ -11472,7 +12962,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-03-nasa-maven-mission-end/hero.jpg"
     },
     {
@@ -11483,7 +12976,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "Tianjiang Shuo",
-      "category": ["nasa", "science"],
+      "category": [
+        "nasa",
+        "science"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-03-roman-space-telescope-mirror-check/hero.jpg"
     },
     {
@@ -11494,7 +12990,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-03",
       "author": "Tianjiang Shuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-03-starlink-10-43-scrub/hero.jpg"
     },
     {
@@ -11505,7 +13004,10 @@
       "date": "2026-06-03",
       "lastUpdated": "2026-06-05",
       "author": "Tianjiangshuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/hero.jpg"
     },
     {
@@ -11549,7 +13051,10 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-04",
       "author": "Tianjiang Shuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-04-china-reusable-rocket-dense-test-window/hero.jpg"
     },
     {
@@ -11571,7 +13076,11 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-05",
       "author": "Tianjiangshuo",
-      "category": ["blue-origin", "nasa", "artemis"],
+      "category": [
+        "blue-origin",
+        "nasa",
+        "artemis"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-04-nasa-isaacman-blue-moon-launcher-swap/hero.jpg"
     },
     {
@@ -11593,7 +13102,10 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-05",
       "author": "Tianjiangshuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-04-qianfan-11-batch-long-march-6a/hero.jpg"
     },
     {
@@ -11615,7 +13127,10 @@
       "date": "2026-06-04",
       "lastUpdated": "2026-06-05",
       "author": "Tianjiangshuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-04-starlink-10-43-cape-canaveral-success/hero.jpg"
     },
     {
@@ -11681,7 +13196,10 @@
       "date": "2026-06-05",
       "lastUpdated": "2026-06-05",
       "author": "Tianjiangshuo",
-      "category": ["china", "launch"],
+      "category": [
+        "china",
+        "launch"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-05-qianfan-12-batch-long-march-8/hero.jpg"
     },
     {
@@ -11725,7 +13243,10 @@
       "date": "2026-06-07",
       "lastUpdated": "2026-06-07",
       "author": "Tianjiangshuo",
-      "category": ["nasa", "artemis"],
+      "category": [
+        "nasa",
+        "artemis"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-07-meteor-storms-artemis-4-risk/hero.jpg"
     },
     {
@@ -11736,7 +13257,10 @@
       "date": "2026-06-07",
       "lastUpdated": "2026-06-07",
       "author": "Tianjiangshuo",
-      "category": ["china", "iss"],
+      "category": [
+        "china",
+        "iss"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-07-sz23-first-inorbit-images/hero.jpg"
     },
     {
@@ -11747,7 +13271,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-10",
       "author": "Tianjiangshuo",
-      "category": ["artemis", "nasa"],
+      "category": [
+        "artemis",
+        "nasa"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-08-artemis-3-crew-announcement/hero.jpg"
     },
     {
@@ -11769,7 +13296,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "Tianjiangshuo",
-      "category": ["spacex", "launch"],
+      "category": [
+        "spacex",
+        "launch"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-08-falcon9-b1067-35th-flight/hero.jpg"
     },
     {
@@ -11780,7 +13310,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "Tianjiangshuo",
-      "category": ["commercial", "policy"],
+      "category": [
+        "commercial",
+        "policy"
+      ],
       "image": null
     },
     {
@@ -11791,7 +13324,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "Tianjiangshuo",
-      "category": ["esa", "commercial"],
+      "category": [
+        "esa",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-08-mcfall-vast-haven1/hero.jpg"
     },
     {
@@ -11802,7 +13338,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "Tianjiangshuo",
-      "category": ["artemis", "commercial"],
+      "category": [
+        "artemis",
+        "commercial"
+      ],
       "image": "/en/space-news/2026/06/figures/2026-06-08-prada-axiom-lcvg-cooling-garment/hero.jpg"
     },
     {
@@ -11813,7 +13352,10 @@
       "date": "2026-06-08",
       "lastUpdated": "2026-06-08",
       "author": "Tianjiangshuo",
-      "category": ["commercial", "policy"],
+      "category": [
+        "commercial",
+        "policy"
+      ],
       "image": null
     },
     {
@@ -11835,7 +13377,9 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["commercial"],
+      "category": [
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -11846,7 +13390,9 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["commercial"],
+      "category": [
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -11868,7 +13414,11 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "天疆说",
-      "category": ["artemis", "nasa", "blue-origin"],
+      "category": [
+        "artemis",
+        "nasa",
+        "blue-origin"
+      ],
       "image": null
     },
     {
@@ -11879,7 +13429,10 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "Tianjiangshuo",
-      "category": ["china", "commercial"],
+      "category": [
+        "china",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -11890,7 +13443,11 @@
       "date": "2026-06-09",
       "lastUpdated": "2026-06-09",
       "author": "Tianjiangshuo",
-      "category": ["china", "launch", "commercial"],
+      "category": [
+        "china",
+        "launch",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -11923,7 +13480,10 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "Tianjiangshuo",
-      "category": ["iss", "nasa"],
+      "category": [
+        "iss",
+        "nasa"
+      ],
       "image": null
     },
     {
@@ -11934,7 +13494,10 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "Tianjiangshuo",
-      "category": ["artemis", "nasa"],
+      "category": [
+        "artemis",
+        "nasa"
+      ],
       "image": null
     },
     {
@@ -11945,7 +13508,11 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "Tianjiangshuo",
-      "category": ["spacex", "launch", "commercial"],
+      "category": [
+        "spacex",
+        "launch",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -11967,7 +13534,11 @@
       "date": "2026-06-10",
       "lastUpdated": "2026-06-10",
       "author": "Tianjiangshuo",
-      "category": ["china", "launch", "commercial"],
+      "category": [
+        "china",
+        "launch",
+        "commercial"
+      ],
       "image": null
     },
     {
@@ -13035,6 +14606,193 @@
       "lastUpdated": "2026-07-02",
       "author": "Tianjiangshuo",
       "category": "qianfan",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-24-iss-national-lab-crew-11-research.md",
+      "path": "/en/space-news/2026/07/2026-07-24-iss-national-lab-crew-11-research/",
+      "title": "ISS National Laboratory Sponsors Multiple Research Payloads on SpaceX Crew-11 Mission",
+      "description": "The ISS National Laboratory announced on July 24, 2026 that it is sponsoring multiple research payloads on the upcoming SpaceX Crew-11 mission.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "iss",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-24-jwst-black-hole-jet-structure.md",
+      "path": "/en/space-news/2026/07/2026-07-24-jwst-black-hole-jet-structure/",
+      "title": "Webb Telescope Maps Supermassive Black Hole Jet in Unprecedented Detail",
+      "description": "A study published on July 24, 2026 uses JWST data to map the structure of a relativistic jet from a supermassive black hole, offering new insights into energy mechanisms.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "blackhole",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-24-jwst-early-galaxy-black-hole-growth.md",
+      "path": "/en/space-news/2026/07/2026-07-24-jwst-early-galaxy-black-hole-growth/",
+      "title": "Black Hole Growth in Early Galaxies Observed by JWST",
+      "description": "New JWST data published July 24, 2026 reveals rapid supermassive black hole growth in galaxies within the universes first billion years, challenging current formation models.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "blackhole",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-24-tiangong-fluid-physics-experiment.md",
+      "path": "/en/space-news/2026/07/2026-07-24-tiangong-fluid-physics-experiment/",
+      "title": "Tiangong Station Completes Key Microgravity Fluid Physics Experiment With International Collaboration",
+      "description": "On July 24, 2026, astronauts aboard Chinas Tiangong station completed a microgravity fluid dynamics experiment, with results published jointly by Chinese and international researchers.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-24-tiangong-high-temperature-materials-experiment.md",
+      "path": "/en/space-news/2026/07/2026-07-24-tiangong-high-temperature-materials-experiment/",
+      "title": "Tiangongs High-Temperature Materials Rack Completes Alloy Solidification Experiments",
+      "description": "On July 24, 2026, Chinas CMSEO announced that the high-temperature materials experiment rack in the Tianhe core module successfully completed microgravity solidification experiments on 12 metal alloys, providing critical data for advanced materials R&D.",
+      "date": "2026-07-24",
+      "lastUpdated": "2026-07-24",
+      "author": "Tianjiangshuo",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-25-china-yaogan-46-long-march-7a.md",
+      "path": "/en/space-news/2026/07/2026-07-25-china-yaogan-46-long-march-7a/",
+      "title": "China Launches Yaogan-46 Satellite via Long March 7A, Testing New Fairing Variant",
+      "description": "China launched the Yaogan-46 remote sensing satellite via a Long March 7A rocket on July 25, 2026, testing a new fairing variant for the vehicle.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-25-crew-dragon-expedition-74-august.md",
+      "path": "/en/space-news/2026/07/2026-07-25-crew-dragon-expedition-74-august/",
+      "title": "Next ISS Crew Launch on SpaceX Crew Dragon Scheduled for August",
+      "description": "SpaceX and NASA announced on July 25 that the next Crew Dragon mission to the ISS is targeting an August 2026 launch, carrying a four-person crew for Expedition 74.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "spacex",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-25-deep-space-exploration-roadmap-lunar-mars.md",
+      "path": "/en/space-news/2026/07/2026-07-25-deep-space-exploration-roadmap-lunar-mars/",
+      "title": "International Space Agencies Unveil Next-Decade Deep Space Exploration Roadmap",
+      "description": "On July 25, 2026, multiple national space agencies published a 10-year deep space exploration roadmap, prioritizing lunar base construction and crewed Mars missions",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "policy",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-25-jaxa-epsilon-s-launch-preparation.md",
+      "path": "/en/space-news/2026/07/2026-07-25-jaxa-epsilon-s-launch-preparation/",
+      "title": "JAXA Prepares Epsilon S Rocket for Launch Attempt After Weather Delays",
+      "description": "JAXAs Epsilon S solid-fuel rocket is being prepared for a launch attempt from Uchinoura Space Center on July 25, 2026, after weather delays.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "jaxa",
+      "image": "/en/space-news/2026/07/figures/2026-07-25-jaxa-epsilon-s-launch-preparation/hero.jpg"
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-25-jaxa-epsilon-sentinel-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-25-jaxa-epsilon-sentinel-launch/",
+      "title": "JAXAs Epsilon Rocket Launches ESAs Sentinel Satellite for Earth Observation",
+      "description": "A JAXA Epsilon rocket successfully launched an ESA Sentinel satellite to monitor Earths environment, marking a key step in international space cooperation. Date： 2026-07-25.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "jaxa",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-25-qianfan-constellation-launch.md",
+      "path": "/en/space-news/2026/07/2026-07-25-qianfan-constellation-launch/",
+      "title": "Yuanxin Satellite Successfully Launches Batch of Qianfan Constellation Satellites",
+      "description": "On July 25, Yuanxin Satellite launched Qianfan constellation satellites from Jiuquan, advancing satellite internet development.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "qianfan",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-25-spacex-starlink-back-to-back-both-coasts.md",
+      "path": "/en/space-news/2026/07/2026-07-25-spacex-starlink-back-to-back-both-coasts/",
+      "title": "SpaceX Completes Back-to-Back Starlink Launches From Both Coasts in 48 Hours",
+      "description": "SpaceX maintained its record-setting 2026 launch tempo with Falcon 9 Starlink missions from Vandenberg SFB and Cape Canaveral SFS within a 48-hour window on July 23 and 25, 2026.",
+      "date": "2026-07-25",
+      "lastUpdated": "2026-07-25",
+      "author": "Tianjiangshuo",
+      "category": "starlink",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-26-shenzhou-23-crew-two-months-in-orbit.md",
+      "path": "/en/space-news/2026/07/2026-07-26-shenzhou-23-crew-two-months-in-orbit/",
+      "title": "Shenzhou-23 Crew Marks Two Months in Orbit, Advancing Platform Maintenance and Scientific Experiments",
+      "description": "On July 26, 2026, the Shenzhou-23 crew of Zhu Yangzhu, Zhang Zhiyuan, and Li Jiaying marked two months in orbit, with all scientific experiments on the space station progressing smoothly while the crew simultaneously conducted platform maintenance and health management.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "tiangong",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-26-tianwen-2-asteroid-probe-development.md",
+      "path": "/en/space-news/2026/07/2026-07-26-tianwen-2-asteroid-probe-development/",
+      "title": "Tianwen-2 Asteroid Probe Mission Enters Final Development Phase",
+      "description": "CASC announced on July 26, 2026, that the Tianwen-2 near-Earth asteroid sample return and main belt comet probe mission has officially entered the final development phase with key technology breakthroughs.",
+      "date": "2026-07-26",
+      "lastUpdated": "2026-07-26",
+      "author": "Tianjiangshuo",
+      "category": "china",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-27-esa-exoplanet-data-discovery.md",
+      "path": "/en/space-news/2026/07/2026-07-27-esa-exoplanet-data-discovery/",
+      "title": "ESAs Science Mission Discovers New Exoplanet Data",
+      "description": "On July 27, 2026, ESAs space telescope provided new insights into exoplanet atmospheres.",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "Tianjiangshuo",
+      "category": "exoplanet",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-27-iss-spacewalk-solar-array-upgrade.md",
+      "path": "/en/space-news/2026/07/2026-07-27-iss-spacewalk-solar-array-upgrade/",
+      "title": "ISS Crew Conducts Spacewalk for Solar Array Upgrades",
+      "description": "On July 27, 2026, ISS astronauts conducted a spacewalk to install new roll-out solar arrays, with logistics supported by the recently docked Crew Dragon capsule.",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "Tianjiangshuo",
+      "category": "iss",
+      "image": null
+    },
+    {
+      "relativePath": "en/space-news/2026/07/2026-07-27-jwst-new-exoplanet-class-young-stars.md",
+      "path": "/en/space-news/2026/07/2026-07-27-jwst-new-exoplanet-class-young-stars/",
+      "title": "JWST Data Suggests New Class of Exoplanets Around Young Stars",
+      "description": "On July 27, 2026, analysis of JWST telescope data reveals a previously unknown type of exoplanet around young stars, expanding our understanding of planetary system formation.",
+      "date": "2026-07-27",
+      "lastUpdated": "2026-07-27",
+      "author": "Tianjiangshuo",
+      "category": "exoplanet",
       "image": null
     },
     {
