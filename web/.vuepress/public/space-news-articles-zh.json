@@ -7352,6 +7352,17 @@
     "image": null
   },
   {
+    "relativePath": "space-news/2026/08/2026-08-02-iss-astronauts-shelter-crew-dragon.md",
+    "path": "/space-news/2026/08/2026-08-02-iss-astronauts-shelter-crew-dragon/",
+    "title": "国际空间站宇航员因空气泄漏加剧被要求进入龙飞船避难",
+    "description": "2026年8月2日，国际空间站星辰号服务舱PrK隧道空气泄漏加剧，NASA下令机组人员进入SpaceX龙飞船避险。",
+    "date": "2026-08-02",
+    "lastUpdated": "2026-08-02",
+    "author": "天疆说",
+    "category": "iss",
+    "image": "/space-news/2026/08/figures/2026-08-02-iss-astronauts-shelter-crew-dragon/hero.jpg"
+  },
+  {
     "relativePath": "space-news/2026/08/2026-08-02-shenzhou-23-space-rice-harvest.md",
     "path": "/space-news/2026/08/2026-08-02-shenzhou-23-space-rice-harvest/",
     "title": "神舟二十三号乘组收获首批太空水稻，空间多代遗传实验取得进展",
@@ -7374,10 +7385,54 @@
     "image": "/space-news/2026/08/figures/2026-08-02-shenzhou-23-space-rice-sampling/hero.jpg"
   },
   {
+    "relativePath": "space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale.md",
+    "path": "/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
+    "title": "中国航天下半年进入密集发射期，卫星产业迎来规模化拐点",
+    "description": "2026年8月3日，分析指出中国航天下半年发射计划密集，呈现国家队压阵、民营担纲、可回收突破特征，银河航天等企业卫星批产能力已达百颗级别。",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "天疆说",
+    "category": "china",
+    "image": "/space-news/2026/08/figures/2026-08-03-china-space-h2-intensive-launch-satellite-scale/hero.jpg"
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch.md",
+    "path": "/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch/",
+    "title": "蓝箭航天朱雀三号遥二火箭预计8月11日发射",
+    "description": "蓝箭航天朱雀三号遥二大型液氧甲烷可回收运载火箭预计于2026年8月11日上午在酒泉发射。",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "天疆说",
+    "category": "landspace",
+    "image": null
+  },
+  {
     "relativePath": "space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months.md",
     "path": "/space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months/",
     "title": "神舟二十三号乘组已在轨超过两个月",
     "description": "2026年8月3日，央视报道神舟二十三号航天员乘组已在轨工作生活超过两个月，空间站运行状态良好。",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "天疆说",
+    "category": "tiangong",
+    "image": null
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august.md",
+    "path": "/space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august/",
+    "title": "SpaceX猎鹰9号火箭计划于8月第一周从范登堡发射两次星链任务",
+    "description": "2026年8月3日，SpaceX猎鹰9号火箭计划于8月第一周从范登堡太空军基地执行两次星链卫星部署任务。",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "天疆说",
+    "category": "spacex",
+    "image": null
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone.md",
+    "path": "/space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone/",
+    "title": "中国空间站高温材料科学实验装置在轨运行超1200天，完成35项实验",
+    "description": "2026年8月3日，中国材料大会2026披露，中国空间站高温材料科学实验装置已在轨稳定运行超过1200天，先后完成35项空间材料实验。",
     "date": "2026-08-03",
     "lastUpdated": "2026-08-03",
     "author": "天疆说",

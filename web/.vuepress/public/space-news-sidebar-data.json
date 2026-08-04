@@ -8,8 +8,32 @@
         "category": "landspace"
       },
       {
+        "title": "中国航天下半年进入密集发射期，卫星产业迎来规模化拐点",
+        "path": "/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
+        "date": "2026-08-03",
+        "category": "china"
+      },
+      {
+        "title": "蓝箭航天朱雀三号遥二火箭预计8月11日发射",
+        "path": "/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch/",
+        "date": "2026-08-03",
+        "category": "landspace"
+      },
+      {
         "title": "神舟二十三号乘组已在轨超过两个月",
         "path": "/space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months/",
+        "date": "2026-08-03",
+        "category": "tiangong"
+      },
+      {
+        "title": "SpaceX猎鹰9号火箭计划于8月第一周从范登堡发射两次星链任务",
+        "path": "/space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august/",
+        "date": "2026-08-03",
+        "category": "spacex"
+      },
+      {
+        "title": "中国空间站高温材料科学实验装置在轨运行超1200天，完成35项实验",
+        "path": "/space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone/",
         "date": "2026-08-03",
         "category": "tiangong"
       },
@@ -24,73 +48,49 @@
         "path": "/space-news/2026/08/2026-08-03-tiangong-successive-rice-cultivation/",
         "date": "2026-08-03",
         "category": "tiangong"
-      },
-      {
-        "title": "神舟二十三号乘组收获首批太空水稻，空间多代遗传实验取得进展",
-        "path": "/space-news/2026/08/2026-08-02-shenzhou-23-space-rice-harvest/",
-        "date": "2026-08-02",
-        "category": "tiangong"
-      },
-      {
-        "title": "太空水稻采样完成！神舟二十三号乘组计划在轨连续培养两代水稻",
-        "path": "/space-news/2026/08/2026-08-02-shenzhou-23-space-rice-sampling/",
-        "date": "2026-08-02",
-        "category": "tiangong"
-      },
-      {
-        "title": "嫦娥七号探测器预计8月发射，将搭载7国载荷探测月球南极",
-        "path": "/space-news/2026/08/2026-08-01-chang-e-7-launch-international-payloads/",
-        "date": "2026-08-01",
-        "category": "moon"
-      },
-      {
-        "title": "嫦娥七号计划三季度发射，聚焦月球南极水冰探测",
-        "path": "/space-news/2026/08/2026-08-01-chang-e-7-q3-launch-lunar-south-pole/",
-        "date": "2026-08-01",
-        "category": "moon"
       }
     ],
     "categories": [
       {
         "key": "a",
         "label": "",
-        "count": 446,
+        "count": 451,
         "color": "#64748b"
       },
       {
         "key": "c",
         "label": "",
-        "count": 439,
+        "count": 442,
         "color": "#64748b"
       },
       {
         "key": "e",
         "label": "",
-        "count": 406,
+        "count": 408,
         "color": "#64748b"
       },
       {
         "key": "i",
         "label": "",
-        "count": 355,
+        "count": 358,
         "color": "#64748b"
       },
       {
         "key": "n",
         "label": "",
-        "count": 315,
+        "count": 319,
         "color": "#64748b"
       },
       {
         "key": "s",
         "label": "",
-        "count": 313,
+        "count": 317,
         "color": "#64748b"
       },
       {
         "key": "o",
         "label": "",
-        "count": 135,
+        "count": 136,
         "color": "#64748b"
       },
       {
@@ -102,7 +102,7 @@
       {
         "key": "l",
         "label": "",
-        "count": 130,
+        "count": 131,
         "color": "#64748b"
       },
       {
@@ -114,13 +114,13 @@
       {
         "key": "p",
         "label": "",
-        "count": 103,
+        "count": 105,
         "color": "#64748b"
       },
       {
         "key": "t",
         "label": "",
-        "count": 103,
+        "count": 104,
         "color": "#64748b"
       }
     ],
@@ -132,7 +132,7 @@
             "month": 8,
             "label": "2026年8月",
             "path": "/space-news/2026/08/",
-            "count": 14
+            "count": 19
           },
           {
             "month": 7,
@@ -233,7 +233,7 @@
       }
     ],
     "stats": {
-      "total": 640
+      "total": 645
     }
   },
   "en": {
@@ -245,8 +245,32 @@
         "category": "landspace"
       },
       {
+        "title": "Chinas Space Industry Enters Intensive Launch Period in H2, Satellite Sector Reaches Scale Inflection Point",
+        "path": "/en/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
+        "date": "2026-08-03",
+        "category": "china"
+      },
+      {
+        "title": "Landspaces Zhuque-3 Y2 Rocket Scheduled for August 11 Launch",
+        "path": "/en/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch/",
+        "date": "2026-08-03",
+        "category": "landspace"
+      },
+      {
         "title": "Shenzhou-23 Crew Has Been in Orbit for Over Two Months",
         "path": "/en/space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months/",
+        "date": "2026-08-03",
+        "category": "tiangong"
+      },
+      {
+        "title": "SpaceX Falcon 9 Rocket Scheduled for Two Starlink Missions from Vandenberg in First Week of August",
+        "path": "/en/space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august/",
+        "date": "2026-08-03",
+        "category": "spacex"
+      },
+      {
+        "title": "Chinas Space Station High-Temperature Material Science Experiment Device Completes 35 Experiments After Over 1200 Days in Orbit",
+        "path": "/en/space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone/",
         "date": "2026-08-03",
         "category": "tiangong"
       },
@@ -261,73 +285,49 @@
         "path": "/en/space-news/2026/08/2026-08-03-tiangong-successive-rice-cultivation/",
         "date": "2026-08-03",
         "category": "tiangong"
-      },
-      {
-        "title": "Shenzhou-23 Crew Harvests First Batch of Space Rice, Multi-Generation Genetic Experiment Advances",
-        "path": "/en/space-news/2026/08/2026-08-02-shenzhou-23-space-rice-harvest/",
-        "date": "2026-08-02",
-        "category": "tiangong"
-      },
-      {
-        "title": "Space Rice Sampling Completed! Shenzhou-23 Crew Plans to Cultivate Two Generations of Rice in Orbit",
-        "path": "/en/space-news/2026/08/2026-08-02-shenzhou-23-space-rice-sampling/",
-        "date": "2026-08-02",
-        "category": "tiangong"
-      },
-      {
-        "title": "Change-7 Probe Expected to Launch in August, Carrying Payloads from 7 Countries to Explore Lunar South Pole",
-        "path": "/en/space-news/2026/08/2026-08-01-chang-e-7-launch-international-payloads/",
-        "date": "2026-08-01",
-        "category": "moon"
-      },
-      {
-        "title": "Change-7 Scheduled for Q3 Launch, Focusing on Lunar South Pole Water Ice Detection",
-        "path": "/en/space-news/2026/08/2026-08-01-chang-e-7-q3-launch-lunar-south-pole/",
-        "date": "2026-08-01",
-        "category": "moon"
       }
     ],
     "categories": [
       {
         "key": "a",
         "label": "",
-        "count": 446,
+        "count": 451,
         "color": "#64748b"
       },
       {
         "key": "c",
         "label": "",
-        "count": 439,
+        "count": 442,
         "color": "#64748b"
       },
       {
         "key": "e",
         "label": "",
-        "count": 406,
+        "count": 408,
         "color": "#64748b"
       },
       {
         "key": "i",
         "label": "",
-        "count": 355,
+        "count": 358,
         "color": "#64748b"
       },
       {
         "key": "n",
         "label": "",
-        "count": 315,
+        "count": 319,
         "color": "#64748b"
       },
       {
         "key": "s",
         "label": "",
-        "count": 313,
+        "count": 317,
         "color": "#64748b"
       },
       {
         "key": "o",
         "label": "",
-        "count": 135,
+        "count": 136,
         "color": "#64748b"
       },
       {
@@ -339,7 +339,7 @@
       {
         "key": "l",
         "label": "",
-        "count": 130,
+        "count": 131,
         "color": "#64748b"
       },
       {
@@ -351,13 +351,13 @@
       {
         "key": "p",
         "label": "",
-        "count": 103,
+        "count": 105,
         "color": "#64748b"
       },
       {
         "key": "t",
         "label": "",
-        "count": 103,
+        "count": 104,
         "color": "#64748b"
       }
     ],
@@ -369,7 +369,7 @@
             "month": 8,
             "label": "August 2026",
             "path": "/en/space-news/2026/08/",
-            "count": 14
+            "count": 19
           },
           {
             "month": 7,
@@ -470,7 +470,7 @@
       }
     ],
     "stats": {
-      "total": 640
+      "total": 645
     }
   },
   "categoryMeta": {

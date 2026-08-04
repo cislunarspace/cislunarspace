@@ -7352,6 +7352,17 @@
     "image": null
   },
   {
+    "relativePath": "en/space-news/2026/08/2026-08-02-iss-astronauts-shelter-crew-dragon.md",
+    "path": "/en/space-news/2026/08/2026-08-02-iss-astronauts-shelter-crew-dragon/",
+    "title": "ISS Astronauts Ordered to Shelter in SpaceX Crew Dragon as Air Leak Worsens",
+    "description": "On August 2, 2026, as the air leak in the Zvezda modules PrK tunnel escalated, NASA ordered the ISS crew to shelter in the SpaceX Crew Dragon.",
+    "date": "2026-08-02",
+    "lastUpdated": "2026-08-02",
+    "author": "Tianjiangshuo",
+    "category": "iss",
+    "image": "/en/space-news/2026/08/figures/2026-08-02-iss-astronauts-shelter-crew-dragon/hero.jpg"
+  },
+  {
     "relativePath": "en/space-news/2026/08/2026-08-02-shenzhou-23-space-rice-harvest.md",
     "path": "/en/space-news/2026/08/2026-08-02-shenzhou-23-space-rice-harvest/",
     "title": "Shenzhou-23 Crew Harvests First Batch of Space Rice, Multi-Generation Genetic Experiment Advances",
@@ -7374,10 +7385,54 @@
     "image": "/en/space-news/2026/08/figures/2026-08-02-shenzhou-23-space-rice-sampling/hero.jpg"
   },
   {
+    "relativePath": "en/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale.md",
+    "path": "/en/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
+    "title": "Chinas Space Industry Enters Intensive Launch Period in H2, Satellite Sector Reaches Scale Inflection Point",
+    "description": "On August 3, 2026, analysis indicated that Chinas space launch schedule for the second half of the year is intensive, featuring state teams leading, private companies taking charge, and reusable breakthroughs, with companies like GalaxySpace achieving batch production capacity of hundreds of satellites.",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "Tianjiangshuo",
+    "category": "china",
+    "image": "/en/space-news/2026/08/figures/2026-08-03-china-space-h2-intensive-launch-satellite-scale/hero.jpg"
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch.md",
+    "path": "/en/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch/",
+    "title": "Landspaces Zhuque-3 Y2 Rocket Scheduled for August 11 Launch",
+    "description": "Landspaces Zhuque-3 Y2 large reusable liquid oxygen-methane rocket is scheduled to launch on the morning of August 11, 2026, from Jiuquan.",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "Tianjiangshuo",
+    "category": "landspace",
+    "image": null
+  },
+  {
     "relativePath": "en/space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months.md",
     "path": "/en/space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months/",
     "title": "Shenzhou-23 Crew Has Been in Orbit for Over Two Months",
     "description": "On August 3, 2026, CCTV reported that the Shenzhou-23 astronaut crew has been living and working in orbit for over two months, with the space station operating in good condition.",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "Tianjiangshuo",
+    "category": "tiangong",
+    "image": null
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august.md",
+    "path": "/en/space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august/",
+    "title": "SpaceX Falcon 9 Rocket Scheduled for Two Starlink Missions from Vandenberg in First Week of August",
+    "description": "On August 3, 2026, SpaceXs Falcon 9 rocket is scheduled to launch two Starlink satellite deployment missions from Vandenberg Space Force Base in the first week of August.",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "Tianjiangshuo",
+    "category": "spacex",
+    "image": null
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone.md",
+    "path": "/en/space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone/",
+    "title": "Chinas Space Station High-Temperature Material Science Experiment Device Completes 35 Experiments After Over 1200 Days in Orbit",
+    "description": "On August 3, 2026, it was revealed at the China Materials Conference 2026 that the high-temperature material science experiment device on Chinas space station has been operating stably in orbit for over 1200 days, completing 35 space material experiments.",
     "date": "2026-08-03",
     "lastUpdated": "2026-08-03",
     "author": "Tianjiangshuo",
