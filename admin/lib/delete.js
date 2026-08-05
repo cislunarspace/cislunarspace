@@ -346,6 +346,22 @@ export function listTrash() {
   return out;
 }
 
+/** 回收站时间戳目录的合法格式（executeDelete 生成） */
+const TRASH_STAMP_RE = /^\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z$/;
+
+/** 把回收站时间戳解析为绝对路径，拒绝穿越（stamp 必须严格匹配时间戳格式且在 TRASH_ROOT 内） */
+function resolveTrashStamp(stamp) {
+  const s = String(stamp);
+  if (!TRASH_STAMP_RE.test(s)) {
+    throw new PathError(`非法回收站时间戳: ${stamp}`);
+  }
+  const dir = path.resolve(TRASH_ROOT, s);
+  if (dir !== TRASH_ROOT && !dir.startsWith(TRASH_ROOT + path.sep)) {
+    throw new PathError(`回收站时间戳越界: ${stamp}`);
+  }
+  return dir;
+}
+
 /** 从回收站恢复单个文件到 web/ 原位置 */
 export function restoreFile(relPath, stamp) {
   const rel = String(relPath).replace(/\\/g, '/').replace(/^\/+/, '');
@@ -353,7 +369,7 @@ export function restoreFile(relPath, stamp) {
 
   let stampDir = null;
   if (stamp) {
-    stampDir = path.join(TRASH_ROOT, stamp);
+    stampDir = resolveTrashStamp(stamp);
     if (!fs.existsSync(stampDir)) throw new PathError(`回收站目录不存在: ${stamp}`);
   } else {
     // 未指定时间戳时，从最新的包含该文件的时间戳目录里恢复
@@ -361,6 +377,7 @@ export function restoreFile(relPath, stamp) {
       ? fs.readdirSync(TRASH_ROOT).sort().reverse()
       : [];
     for (const s of stamps) {
+      if (!TRASH_STAMP_RE.test(s)) continue;
       if (fs.existsSync(path.join(TRASH_ROOT, s, rel))) {
         stampDir = path.join(TRASH_ROOT, s);
         break;

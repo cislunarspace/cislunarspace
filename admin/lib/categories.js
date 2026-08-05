@@ -16,9 +16,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import YAML from 'yaml';
 import { WEB_ROOT, PathError, assertOperable, resolveInWeb } from './paths.js';
 import { readMd, classify } from './scan.js';
 import { splitFrontmatter, buildMarkdown } from './frontmatter.js';
+import { executeDelete } from './delete.js';
 import { log } from './log.js';
 
 const execFileP = promisify(execFile);
@@ -60,6 +62,8 @@ export async function addNewsCategory(name) {
   if (listTaxonomyNewsCategories().has(id)) {
     throw new PathError(`分类已存在: ${id}`);
   }
+  // 中文标签直接拼进 TS 单引号字符串，必须转义单引号/反斜杠，避免写坏源文件
+  const labelZh = String(name).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 
   // 从既有蓝族配色里挑一个可用色；color 列表来自 news-category 节点现有取值
   const palette = ['#2563eb', '#0ea5e9', '#0891b2', '#0284c7', '#1e40af'];
@@ -72,18 +76,21 @@ export async function addNewsCategory(name) {
   const node = `  {
     id: '${id}',
     kind: 'news-category',
-    label: { zh: '${name}', en: '${id}' },
+    label: { zh: '${labelZh}', en: '${id}' },
     path: { zh: null, en: null },
     order: ${nextOrder},
     parentId: null,
     meta: { color: '${color}' },
   },`;
 
-  // 插入到 newsCategoryNodes 数组的结尾（最后一个 } 前的分号处）
-  const marker = '];\n';
-  const idx = content.lastIndexOf(marker);
-  if (idx === -1) throw new PathError('未找到 taxonomy 数组结尾标记');
-  const updated = content.slice(0, idx) + node + '\n' + content.slice(idx);
+  // 插入到 newsCategoryNodes 数组的结尾（该数组声明为 `const newsCategoryNodes: TaxonomyNode[] = [`，
+  // 收尾是它的 `];`）。不能用全文件最后一个 `];`——那是 flatTaxonomyNodes 的收尾，会写错数组。
+  const arrStart = content.indexOf('const newsCategoryNodes: TaxonomyNode[] = [');
+  if (arrStart === -1) throw new PathError('未找到 newsCategoryNodes 数组声明');
+  const arrEndMarker = content.indexOf('];', arrStart);
+  if (arrEndMarker === -1) throw new PathError('未找到 newsCategoryNodes 数组结尾');
+  const endIdx = arrEndMarker + 1; // 保留 ']'
+  const updated = content.slice(0, endIdx) + '\n' + node + '\n' + content.slice(arrEndMarker + 1);
   fs.writeFileSync(TAXONOMY_FILE, updated, 'utf8');
   log('ADD_NEWS_CATEGORY', [`${id} -> ${path.relative(process.cwd(), TAXONOMY_FILE)}`]);
   return { ok: true, id, color, node: `taxonomy/data.ts: newsCategoryNodes + ${id}` };
@@ -132,17 +139,19 @@ export async function deleteNewsCategory(id, { deleteEntries = false } = {}) {
 
   const removedTagFrom = [];
   const deletedArticles = [];
-  const trashStamp = new Date().toISOString().replace(/[:.]/g, '-');
-  const trashRoot = path.join(WEB_ROOT, '..', 'admin', 'trash', trashStamp);
+  let trashStamp = null;
+  let readmesUpdated = [];
+  let genSidebarResult = null;
 
   for (const rel of rels) {
     if (deleteEntries) {
-      // 连删：移到回收站（保留原相对路径）
-      const src = path.join(WEB_ROOT, rel);
-      const dest = path.join(trashRoot, rel);
-      fs.mkdirSync(path.dirname(dest), { recursive: true });
-      fs.renameSync(src, dest);
+      // 连删：复用主删除流程（expandDeleteScope 会带出同 slug 中英镜像、figures/ 与
+      // README 索引引用；executeDelete 移到回收站 + 更新 README + 重跑 gen-sidebar）
+      const result = await executeDelete([rel], true);
       deletedArticles.push(rel);
+      trashStamp = result.trashStamp;
+      readmesUpdated = [...readmesUpdated, ...(result.readmesUpdated || [])];
+      genSidebarResult = result.genSidebar;
     } else {
       // 保条目：从 frontmatter 移除该标签
       const { raw, body } = readRawMd(rel);
@@ -154,14 +163,18 @@ export async function deleteNewsCategory(id, { deleteEntries = false } = {}) {
   }
 
   removeTaxonomyNode(norm);
-  await runGenSidebar();
+  // 保条目模式重跑 gen-sidebar；连删模式 executeDelete 已各自重跑，此处不重复
+  if (!deleteEntries) {
+    genSidebarResult = await runGenSidebar();
+  }
 
   log('DELETE_NEWS_CATEGORY', [
     `${norm} mode=${deleteEntries ? 'with-entries' : 'keep-entries'}`,
     `tagRemoved=${removedTagFrom.length}`,
     `deleted=${deletedArticles.length}`,
-    `trash=${deleteEntries ? path.relative(process.cwd(), trashRoot) : '-'}`,
-    `genSidebar=ok`,
+    `readmes=${readmesUpdated.length}`,
+    `trash=${deleteEntries ? path.relative(process.cwd(), path.join(WEB_ROOT, '..', 'admin', 'trash', trashStamp || '')) : '-'}`,
+    `genSidebar=${genSidebarResult?.ok ? 'ok' : genSidebarResult ? 'failed' : 'n/a'}`,
   ]);
   return {
     ok: true,
@@ -169,50 +182,61 @@ export async function deleteNewsCategory(id, { deleteEntries = false } = {}) {
     deleteEntries,
     removedTagFrom,
     deletedArticles,
+    readmesUpdated,
     articleCount: rels.length,
-    trashStamp: deleteEntries ? trashStamp : null,
+    trashStamp,
+    genSidebar: genSidebarResult,
   };
 }
 
 /** 从 frontmatter YAML 文本中移除指定 category 值（保条目用） */
 function stripCategory(raw, id) {
   if (!raw) return raw;
+  // 优先用 YAML 解析 → 过滤 category → 重新序列化，健壮处理标量/内联数组/多行块数组。
+  // 仅当 YAML 无法解析时回退到文本行过滤，避免把异常文件写坏。
+  try {
+    const parsed = YAML.parse(raw);
+    if (parsed && typeof parsed === 'object') {
+      const cat = parsed.category;
+      const arr = Array.isArray(cat)
+        ? cat
+        : cat !== undefined && cat !== null
+          ? [cat]
+          : [];
+      const kept = arr
+        .map((x) => String(x))
+        .filter((x) => x.toLowerCase() !== id);
+      if (kept.length) {
+        parsed.category = kept.map((x) => (x.includes(' ') ? `"${x}"` : x));
+      } else {
+        delete parsed.category;
+      }
+      return YAML.stringify(parsed, { lineWidth: 0 }).trimEnd();
+    }
+  } catch {
+    /* 解析失败走文本降级 */
+  }
+
+  // 文本降级：只处理 category 标量行与内联数组，其余行原样保留
   const lines = raw.split('\n');
   const out = [];
-  let inCategory = false;
   for (const line of lines) {
     const catMatch = line.match(/^category:\s*(.*)$/);
     if (catMatch) {
       const val = catMatch[1].trim();
       if (val.startsWith('[')) {
-        // 内联数组：解析并过滤
         const items = val
           .slice(1, -1)
           .split(',')
           .map((s) => s.trim().replace(/^['"]|['"]$/g, ''))
           .filter(Boolean);
         const kept = items.filter((s) => s.toLowerCase() !== id);
-        if (kept.length) {
-          out.push(`category: [${kept.map((s) => `"${s}"`).join(', ')}]`);
-        }
-        // 若 kept 为空，则该行直接省略（无 category）
-        inCategory = false;
-      } else {
-        // 标量：若匹配则删除该行，否则保留
-        if (val.toLowerCase() !== id) out.push(line);
-        inCategory = false;
+        if (kept.length) out.push(`category: [${kept.map((s) => `"${s}"`).join(', ')}]`);
+        // 若 kept 为空则省略该行
+      } else if (val.toLowerCase() !== id) {
+        out.push(line);
       }
       continue;
-    }
-    if (inCategory) {
-      // 多行数组（- item）的延续：属于 category 的条目
-      const itemMatch = line.match(/^\s+-\s+(.+)$/);
-      if (itemMatch) {
-        const v = itemMatch[1].trim().replace(/^['"]|['"]$/g, '').toLowerCase();
-        if (v !== id) out.push(line);
-        continue;
-      }
-      inCategory = false;
     }
     out.push(line);
   }
@@ -347,19 +371,23 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
     });
   }
 
-  log('DELETE_GLOSSARY_CATEGORY', [
-    `${norm} (with-entries)`,
-    `deleted=${deleted.length}`,
-    `trash=${path.relative(process.cwd(), trashRoot)}`,
-  ]);
-  return Promise.resolve({
-    ok: true,
-    slug: norm,
-    deleteEntries,
-    deleted,
-    trashStamp,
-    moved: [],
-    genSidebar: { ok: true },
+  // 连删：删除后也重跑 gen-sidebar，清理站点索引中的已删条目
+  return runGenSidebar().then((genSidebar) => {
+    log('DELETE_GLOSSARY_CATEGORY', [
+      `${norm} (with-entries)`,
+      `deleted=${deleted.length}`,
+      `trash=${path.relative(process.cwd(), trashRoot)}`,
+      `genSidebar=${genSidebar.ok ? 'ok' : 'failed'}`,
+    ]);
+    return {
+      ok: true,
+      slug: norm,
+      deleteEntries,
+      deleted,
+      trashStamp,
+      moved: [],
+      genSidebar,
+    };
   });
 }
 

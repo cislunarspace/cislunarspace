@@ -322,11 +322,14 @@ app.get(/^(?!\/api\/).*/, (_req, res) => {
 
 async function main() {
   await ensureFrontendBuilt();
-  app.listen(PORT, () => {
+  // 只绑定回环地址，确保纯本地运行：管理接口含内容修改/删除/执行 gen-sidebar，
+  // 绑定 0.0.0.0 会把整个内容仓库和一个命令执行通道暴露给局域网/外网。
+  const HOST = process.env.HOST || '127.0.0.1';
+  app.listen(PORT, HOST, () => {
     console.log('');
     console.log('==================================================');
     console.log('  地月空间内容管理器 (本地 GUI)');
-    console.log(`  访问: http://localhost:${PORT}`);
+    console.log(`  访问: http://${HOST}:${PORT}`);
     console.log(`  内容根: ${WEB_ROOT}`);
     console.log(`  回收站: ${path.join(ADMIN_ROOT, 'trash')}`);
     console.log('  （仅本地使用，不做任何 git 操作）');
