@@ -1,8 +1,24 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, watch, h } from 'vue';
+import {
+  NRadioGroup,
+  NRadioButton,
+  NInput,
+  NSelect,
+  NButton,
+  NTag,
+  NImage,
+  NDataTable,
+  NModal,
+  NAlert,
+  NSpin,
+  useMessage,
+} from 'naive-ui';
 import { api } from '../api';
+import SitePreviewModal from './SitePreviewModal.vue';
 
 const emit = defineEmits(['edit']);
+const message = useMessage();
 
 const type = ref('news');
 const q = ref('');
@@ -12,11 +28,11 @@ const items = ref([]);
 const error = ref('');
 const categories = ref([]);
 
-const TYPE_META = {
-  news: { label: '航天动态', plural: 'Space News' },
-  glossary: { label: '术语词典', plural: 'Glossary' },
-  kb: { label: '知识库章节', plural: '知识库' },
-};
+const TYPE_OPTIONS = [
+  { label: 'Space News', value: 'news' },
+  { label: 'Glossary', value: 'glossary' },
+  { label: '知识库章节', value: 'kb' },
+];
 
 async function loadCats() {
   try {
@@ -54,22 +70,27 @@ function switchType(t) {
   reloadAll();
 }
 
-function applyFilter() {
-  load();
-}
+// ---------- 搜索防抖：输入停止 300ms 后自动过滤 ----------
+let searchTimer = null;
+watch(q, () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(load, 300);
+});
+
+const catOptions = computed(() =>
+  categories.value.map((c) => ({ label: `${c.name}（${c.count}）`, value: c.name }))
+);
 
 // ---------- 删除流程 ----------
 const showModal = ref(false);
 const preview = ref(null);
 const previewLoading = ref(false);
 const deleting = ref(false);
-const deleteResult = ref(null);
 const deletePaths = ref([]);
 
 async function openDelete(item) {
   const paths = [item.zh?.relPath, item.en?.relPath].filter(Boolean);
   deletePaths.value = paths;
-  deleteResult.value = null;
   previewLoading.value = true;
   showModal.value = true;
   preview.value = null;
@@ -83,20 +104,21 @@ async function openDelete(item) {
   }
 }
 
-function closeModal() {
-  showModal.value = false;
-  preview.value = null;
-  deleteResult.value = null;
-}
-
 async function confirmDelete() {
   deleting.value = true;
   try {
     const data = await api.executeDelete(deletePaths.value, true);
-    deleteResult.value = data;
+    let text = `已删除 ${data.moved?.length ?? 0} 个文件`;
+    if (data.readmesUpdated?.length) text += `，更新 README ${data.readmesUpdated.length} 个`;
+    if (data.genSidebar && !data.genSidebar.ok) {
+      message.warning(`${text}；但 gen-sidebar 失败：${data.genSidebar.message}`);
+    } else {
+      message.success(`${text}，回收站：${data.trashDir}`);
+    }
     await load();
+    showModal.value = false;
   } catch (err) {
-    deleteResult.value = { error: err.message };
+    preview.value = { error: err.message };
   } finally {
     deleting.value = false;
   }
@@ -122,35 +144,27 @@ function openCatManager(t) {
   showCatModal.value = true;
 }
 
-function closeCatModal() {
-  showCatModal.value = false;
-}
-
 async function submitCategory() {
   catBusy.value = true;
   catMsg.value = null;
   try {
     if (catMode.value === 'add') {
       await api.addCategory(catType.value, catName.value);
-      catMsg.value = { type: 'success', text: `已添加分类：${catName.value}` };
+      message.success(`已添加分类：${catName.value}`);
+      showCatModal.value = false;
     } else {
       const opts = {};
       if (catType.value === 'glossary' && !catDeleteEntries.value) {
         opts.target = catTarget.value;
       }
-      if (catType.value === 'news') {
-        opts.deleteEntries = catDeleteEntries.value;
-      } else {
-        opts.deleteEntries = catDeleteEntries.value;
-      }
+      opts.deleteEntries = catDeleteEntries.value;
       const r = await api.deleteCategory(catType.value, catName.value, opts);
-      catMsg.value = {
-        type: 'success',
-        text: `已删除分类：${catName.value}（${catDeleteEntries.value ? '连带条目' : '保留条目'}）`,
-      };
-      if (r.removedTagFrom) catMsg.value.text += `；移除标签 ${r.removedTagFrom.length} 篇`;
-      if (r.deletedArticles) catMsg.value.text += `；删除 ${r.deletedArticles.length} 篇`;
-      if (r.moved) catMsg.value.text += `；移动条目 ${r.moved.length} 条`;
+      let text = `已删除分类：${catName.value}（${catDeleteEntries.value ? '连带条目' : '保留条目'}）`;
+      if (r.removedTagFrom) text += `；移除标签 ${r.removedTagFrom.length} 篇`;
+      if (r.deletedArticles) text += `；删除 ${r.deletedArticles.length} 篇`;
+      if (r.moved) text += `；移动条目 ${r.moved.length} 条`;
+      message.success(text);
+      showCatModal.value = false;
     }
     // 刷新分类与列表
     if (catType.value === type.value) {
@@ -166,8 +180,6 @@ async function submitCategory() {
 }
 
 // ---------- 图片预览 ----------
-const showImage = ref(null); // { src, alt }
-
 function imageFor(item) {
   // 取 zh 或 en 的 image frontmatter 字段，转成可访问的相对路径
   const s = item.zh?.image || item.en?.image;
@@ -186,401 +198,372 @@ function imageSrc(item) {
   return rel ? `/api/image?path=${encodeURIComponent(rel)}` : null;
 }
 
-// ---------- 页面预览 ----------
-const showPreview = ref(null); // { path, html, title }
-const previewLoading2 = ref(false);
+// ---------- 页面预览（整站效果） ----------
+const previewPath = ref('');
+const showSitePreview = ref(false);
 
-async function openPreview(item) {
-  const p = item.zh?.relPath || item.en?.relPath;
-  showPreview.value = null;
-  previewLoading2.value = true;
-  try {
-    const data = await api.content(p);
-    // 简易渲染：frontmatter 字段 + markdown 粗渲染
-    const title = data.frontmatter?.title || data.path;
-    const html = renderMarkdown(data.body);
-    showPreview.value = { path: data.path, html, title };
-  } catch (err) {
-    showPreview.value = { error: err.message };
-  } finally {
-    previewLoading2.value = false;
-  }
+function openPreview(item) {
+  previewPath.value = item.zh?.relPath || item.en?.relPath;
+  showSitePreview.value = true;
 }
 
-/** 简易 markdown 渲染：标题/粗体/斜体/链接/列表/段落（非完整引擎，够预览用） */
-function renderMarkdown(src) {
-  const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const lines = String(src || '').split('\n');
-  const out = [];
-  for (const line of lines) {
-    let l = esc(line);
-    let rendered = false;
-    const h = l.match(/^(#{1,6})\s+(.*)$/);
-    if (h) {
-      const level = h[1].length;
-      out.push(`<h${level}>${inline(h[2])}</h${level}>`);
-      rendered = true;
-    } else if (/^\s*[-*]\s+/.test(l)) {
-      out.push(`<li>${inline(l.replace(/^\s*[-*]\s+/, ''))}</li>`);
-      rendered = true;
-    } else if (/^\s*\d+\.\s+/.test(l)) {
-      out.push(`<li>${inline(l.replace(/^\s*\d+\.\s+/, ''))}</li>`);
-      rendered = true;
-    } else if (/^\s*$/.test(l)) {
-      out.push('');
-      rendered = true;
-    }
-    if (!rendered) out.push(`<p>${inline(l)}</p>`);
-  }
-  return out.join('\n');
-}
-
-function inline(s) {
-  return s
-    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
-}
-
-// ---------- 展示辅助 ----------
-const total = computed(() => items.value.length);
-
-function fmtCategory(cats) {
-  return Array.isArray(cats) ? cats.join('、') : '';
-}
-
-function translateBadge(item) {
+// ---------- 表格列 ----------
+function translateTag(item) {
   const zh = !!item.zh;
   const en = !!item.en;
-  if (zh && en) return '<span class="badge ok">中英齐全</span>';
-  if (zh) return '<span class="badge missing">缺英文</span>';
-  return '<span class="badge missing">缺中文</span>';
+  if (zh && en) return h(NTag, { size: 'small', type: 'success', bordered: false }, () => '中英齐全');
+  if (zh) return h(NTag, { size: 'small', type: 'warning', bordered: false }, () => '缺英文');
+  return h(NTag, { size: 'small', type: 'warning', bordered: false }, () => '缺中文');
 }
+
+function translateKey(item) {
+  if (item.zh && item.en) return 'full';
+  if (item.zh) return 'no-en';
+  return 'no-zh';
+}
+
+function statusTag(item) {
+  if (item.zh?.yamlError || item.en?.yamlError) {
+    return h(NTag, { size: 'small', type: 'error', bordered: false }, () => 'YAML 错误');
+  }
+  if (item.zh?.draft || item.en?.draft) {
+    return h(NTag, { size: 'small', type: 'info', bordered: false }, () => '草稿');
+  }
+  return h(NTag, { size: 'small', bordered: false }, () => '正常');
+}
+
+function statusKey(item) {
+  if (item.zh?.yamlError || item.en?.yamlError) return 'yaml';
+  if (item.zh?.draft || item.en?.draft) return 'draft';
+  return 'normal';
+}
+
+const columns = computed(() => [
+  {
+    title: '标题',
+    key: 'title',
+    sorter: (a, b) =>
+      String(a.zh?.title || a.en?.title || '').localeCompare(
+        String(b.zh?.title || b.en?.title || ''),
+        'zh-Hans-CN'
+      ),
+    render(item) {
+      const title = item.zh?.title || item.en?.title;
+      const path = item.zh?.relPath || item.en?.relPath;
+      return h('div', null, [
+        h('div', null, title),
+        h('div', { class: 'path-cell', style: 'margin-top: 2px' }, path),
+      ]);
+    },
+  },
+  {
+    title: '分类',
+    key: 'category',
+    filterMultiple: true,
+    filterOptions: categories.value.map((c) => ({ label: `${c.name}（${c.count}）`, value: c.name })),
+    filter: (value, item) =>
+      (item.zh?.category || item.en?.category || []).includes(value),
+    render(item) {
+      const cats = item.zh?.category || item.en?.category || [];
+      if (!cats.length) return h('span', { class: 'muted' }, '—');
+      return h(
+        'div',
+        { style: 'display: flex; gap: 4px; flex-wrap: wrap' },
+        cats.map((c) => h(NTag, { size: 'small', bordered: false }, () => c))
+      );
+    },
+  },
+  {
+    title: '日期',
+    key: 'date',
+    width: 120,
+    sorter: (a, b) =>
+      String(a.zh?.date || a.en?.date || '').localeCompare(String(b.zh?.date || b.en?.date || '')),
+    render: (item) => item.zh?.date || item.en?.date || '—',
+  },
+  {
+    title: '翻译',
+    key: 'translate',
+    width: 96,
+    filterOptions: [
+      { label: '中英齐全', value: 'full' },
+      { label: '缺英文', value: 'no-en' },
+      { label: '缺中文', value: 'no-zh' },
+    ],
+    filter: (value, item) => translateKey(item) === value,
+    render: translateTag,
+  },
+  {
+    title: '状态',
+    key: 'status',
+    width: 96,
+    filterOptions: [
+      { label: '正常', value: 'normal' },
+      { label: '草稿', value: 'draft' },
+      { label: 'YAML 错误', value: 'yaml' },
+    ],
+    filter: (value, item) => statusKey(item) === value,
+    render: statusTag,
+  },
+  {
+    title: '图片',
+    key: 'image',
+    width: 80,
+    align: 'center',
+    render(item) {
+      const src = imageSrc(item);
+      if (!src) return h('span', { class: 'muted' }, '—');
+      return h(NImage, {
+        src,
+        width: 56,
+        height: 36,
+        objectFit: 'cover',
+        style: 'border-radius: 4px; display: inline-block',
+      });
+    },
+  },
+  {
+    title: '操作',
+    key: 'actions',
+    width: 190,
+    align: 'right',
+    render(item) {
+      const path = item.zh?.relPath || item.en?.relPath;
+      return h('div', { class: 'row-actions' }, [
+        h(
+          NButton,
+          { size: 'small', type: 'primary', ghost: true, onClick: () => emit('edit', path) },
+          () => '编辑'
+        ),
+        h(NButton, { size: 'small', onClick: () => openPreview(item) }, () => '预览'),
+        h(
+          NButton,
+          { size: 'small', type: 'error', ghost: true, onClick: () => openDelete(item) },
+          () => '删除'
+        ),
+      ]);
+    },
+  },
+]);
 </script>
 
 <template>
   <div>
     <div class="toolbar">
-      <div class="type-tabs">
-        <button
-          class="btn"
-          :class="{ primary: type === 'news' }"
-          @click="switchType('news')"
-        >
-          Space News
-        </button>
-        <button
-          class="btn"
-          :class="{ primary: type === 'glossary' }"
-          @click="switchType('glossary')"
-        >
-          Glossary
-        </button>
-        <button
-          class="btn"
-          :class="{ primary: type === 'kb' }"
-          @click="switchType('kb')"
-        >
-          知识库章节
-        </button>
-      </div>
+      <n-radio-group :value="type" size="small" @update:value="switchType">
+        <n-radio-button v-for="t in TYPE_OPTIONS" :key="t.value" :value="t.value">
+          {{ t.label }}
+        </n-radio-button>
+      </n-radio-group>
 
-      <input
-        v-model="q"
-        class="input"
-        :placeholder="'按标题 / 路径 / 分类过滤…'"
-        @keyup.enter="applyFilter"
+      <n-input
+        v-model:value="q"
+        clearable
+        placeholder="按标题 / 路径 / 分类过滤…"
+        style="max-width: 260px"
+        @keyup.enter="load"
       />
 
-      <select v-model="cat" class="select" @change="applyFilter">
-        <option value="">全部分类</option>
-        <option v-for="c in categories" :key="c.name" :value="c.name">
-          {{ c.name }}（{{ c.count }}）
-        </option>
-      </select>
+      <n-select
+        v-model:value="cat"
+        clearable
+        placeholder="全部分类"
+        :options="catOptions"
+        style="max-width: 220px"
+        @update:value="load"
+      />
 
-      <button class="btn" @click="applyFilter">查询</button>
-      <button class="btn small" @click="q = ''; cat = ''; applyFilter()">清空</button>
+      <div class="toolbar-spacer"></div>
 
-      <button
-        v-if="type === 'news' || type === 'glossary'"
-        class="btn"
-        style="margin-left: auto"
-        @click="openCatManager(type)"
-      >
+      <n-button v-if="type === 'news' || type === 'glossary'" @click="openCatManager(type)">
         分类管理
-      </button>
+      </n-button>
 
-      <span v-if="!loading" class="badge">{{ total }} 条</span>
+      <n-tag :bordered="false">{{ items.length }} 条</n-tag>
     </div>
 
-    <div v-if="error" class="msg error">{{ error }}</div>
-    <div v-if="loading" class="loading">加载中…</div>
+    <n-alert v-if="error" type="error" style="margin-bottom: 12px">{{ error }}</n-alert>
 
-    <div v-else class="panel" style="padding: 0; overflow: hidden">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>标题</th>
-            <th>分类</th>
-            <th>日期</th>
-            <th>翻译</th>
-            <th>状态</th>
-            <th style="text-align: center">图片</th>
-            <th style="text-align: right">操作</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="item in items" :key="item.pairKey">
-            <td>
-              {{ item.zh?.title || item.en?.title }}
-              <div class="path-cell" style="margin-top: 2px">
-                {{ item.zh?.relPath || item.en?.relPath }}
-              </div>
-            </td>
-            <td>
-              <span class="badge" v-for="c in (item.zh?.category || item.en?.category || [])" :key="c">
-                {{ c }}
-              </span>
-            </td>
-            <td>{{ item.zh?.date || item.en?.date }}</td>
-            <td v-html="translateBadge(item)"></td>
-            <td>
-              <span v-if="item.zh?.draft || item.en?.draft" class="badge draft">草稿</span>
-              <span v-if="item.zh?.yamlError || item.en?.yamlError" class="badge yaml-error">YAML 错误</span>
-              <span v-if="!item.zh?.yamlError && !item.en?.yamlError && !item.zh?.draft && !item.en?.draft" class="badge">正常</span>
-            </td>
-            <td style="text-align: center">
-              <template v-if="imageSrc(item)">
-                <button class="btn small" @click="showImage = { src: imageSrc(item), rel: imageFor(item), alt: item.zh?.title || item.en?.title }">
-                  👁 图
-                </button>
-              </template>
-              <span v-else class="muted">—</span>
-            </td>
-            <td style="text-align: right">
-              <div class="row-actions">
-                <button
-                  class="btn small"
-                  @click="emit('edit', item.zh?.relPath || item.en?.relPath)"
-                >
-                  编辑
-                </button>
-                <button class="btn small" @click="openPreview(item)">预览</button>
-                <button class="btn small ghost-danger" @click="openDelete(item)">
-                  删除
-                </button>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div v-if="items.length === 0" class="empty">没有匹配的内容</div>
-    </div>
+    <n-data-table
+      :columns="columns"
+      :data="items"
+      :loading="loading"
+      :row-key="(item) => item.pairKey"
+      size="small"
+      :scroll-x="900"
+    />
 
-    <!-- 图片预览弹窗 -->
-    <div v-if="showImage" class="modal-mask" @click.self="showImage = null">
-      <div class="modal modal-img">
-        <div class="modal-head">
-          <span>{{ showImage.alt }}</span>
-          <button class="btn small" @click="showImage = null">关闭</button>
-        </div>
-        <img :src="showImage.src" :alt="showImage.alt" style="max-width: 100%; max-height: 70vh" @error="$event.target.style.display = 'none'" />
-        <div class="scope-line" style="margin-top: 8px; word-break: break-all">
-          <code>{{ showImage.rel }}</code>
-        </div>
-      </div>
-    </div>
-
-    <!-- 页面预览弹窗 -->
-    <div v-if="showPreview" class="modal-mask" @click.self="showPreview = null">
-      <div class="modal modal-preview">
-        <div class="modal-head">
-          <span>{{ showPreview.title }}</span>
-          <button class="btn small" @click="showPreview = null">关闭</button>
-        </div>
-        <div class="scope-line" style="margin-bottom: 8px">
-          <code>{{ showPreview.path }}</code>
-        </div>
-        <div v-if="previewLoading2" class="loading">加载预览…</div>
-        <div v-else-if="showPreview.error" class="msg error">{{ showPreview.error }}</div>
-        <div v-else class="preview-body" v-html="showPreview.html"></div>
-      </div>
-    </div>
+    <!-- 整站效果预览弹窗 -->
+    <SitePreviewModal v-model:show="showSitePreview" :path="previewPath" />
 
     <!-- 删除确认弹窗 -->
-    <div v-if="showModal" class="modal-mask" @click.self="closeModal">
-      <div class="modal">
-        <h3>删除确认</h3>
-        <p class="modal-sub">
-          请核对删除范围。文件将被移动到回收站
-          <code>admin/trash/&lt;时间戳&gt;/</code>，可在“回收站”页恢复。删除后会自动重跑
-          <code>npm run gen-sidebar</code>。
-        </p>
+    <n-modal
+      v-model:show="showModal"
+      preset="card"
+      title="删除确认"
+      style="max-width: 860px"
+    >
+      <p class="scope-line" style="margin-top: 0; font-size: 13px">
+        请核对删除范围。文件将被移动到回收站
+        <code>admin/trash/&lt;时间戳&gt;/</code>，可在“回收站”页恢复。删除后会自动重跑
+        <code>npm run gen-sidebar</code>。
+      </p>
 
-        <div v-if="previewLoading" class="loading">正在计算删除范围…</div>
+      <div v-if="previewLoading" style="text-align: center; padding: 24px 0">
+        <n-spin size="small" />
+        <div class="scope-line" style="margin-top: 8px">正在计算删除范围…</div>
+      </div>
 
-        <template v-else-if="preview">
-          <div v-if="preview.error" class="msg error">{{ preview.error }}</div>
-          <template v-else>
-            <div class="scope-section">
-              <h4>将删除的文件（{{ preview.files.length }}）</h4>
-              <ul class="scope-list">
-                <li v-for="f in preview.files" :key="f.path">
-                  <span v-if="f.type === 'figure'" style="color: var(--accent)">图:</span>
-                  {{ f.path }}
-                </li>
+      <template v-else-if="preview">
+        <n-alert v-if="preview.error" type="error">{{ preview.error }}</n-alert>
+        <template v-else>
+          <div class="scope-section">
+            <h4>将删除的文件（{{ preview.files.length }}）</h4>
+            <ul class="scope-list">
+              <li v-for="f in preview.files" :key="f.path">
+                <span v-if="f.type === 'figure'" style="color: #2563eb">图:</span>
+                {{ f.path }}
+              </li>
+            </ul>
+          </div>
+
+          <div v-if="preview.readmes.length" class="scope-section">
+            <h4>将更新的 README 索引（{{ preview.readmes.length }}）</h4>
+            <div v-for="r in preview.readmes" :key="r.path" class="scope-line" style="margin-bottom: 6px">
+              <code>{{ r.path }}</code>
+              <ul class="scope-list" style="max-height: 120px">
+                <li v-for="l in r.lines" :key="l.number">L{{ l.number }}: {{ l.text.slice(0, 120) }}</li>
               </ul>
             </div>
+          </div>
 
-            <div v-if="preview.readmes.length" class="scope-section">
-              <h4>将更新的 README 索引（{{ preview.readmes.length }}）</h4>
-              <div v-for="r in preview.readmes" :key="r.path" class="scope-line" style="margin-bottom: 6px">
-                <code>{{ r.path }}</code>
-                <ul class="scope-list" style="max-height: 120px">
-                  <li v-for="l in r.lines" :key="l.number">L{{ l.number }}: {{ l.text.slice(0, 120) }}</li>
-                </ul>
-              </div>
-            </div>
+          <div v-if="preview.references.length" class="scope-section">
+            <h4>
+              其他页面的引用（仅提示，不自动修改，共
+              {{ preview.references.length }} 处）
+            </h4>
+            <ul class="scope-list" style="max-height: 140px">
+              <li v-for="r in preview.references" :key="r.path">
+                <code>{{ r.path }}</code> — {{ r.lines[0]?.number }}
+              </li>
+            </ul>
+          </div>
 
-            <div v-if="preview.references.length" class="scope-section">
-              <h4>
-                其他页面的引用（仅提示，不自动修改，共
-                {{ preview.references.length }} 处）
-              </h4>
-              <ul class="scope-list" style="max-height: 140px">
-                <li v-for="r in preview.references" :key="r.path">
-                  <code>{{ r.path }}</code> — {{ r.lines[0]?.number }}
-                </li>
-              </ul>
-            </div>
-
-            <div v-if="!preview.readmes.length" class="msg info">未发现需要更新的 README 索引行。</div>
-          </template>
+          <n-alert v-if="!preview.readmes.length" type="info">
+            未发现需要更新的 README 索引行。
+          </n-alert>
         </template>
+      </template>
 
-        <div v-if="deleteResult" class="msg success" style="margin-top: 10px">
-          已删除 {{ deleteResult.moved?.length }} 个文件
-          <template v-if="deleteResult.readmesUpdated?.length">
-            ；更新 README：{{ deleteResult.readmesUpdated.length }} 个
-          </template>
-          <template v-if="deleteResult.genSidebar && !deleteResult.genSidebar.ok">
-            ；<b>gen-sidebar 失败</b>：{{ deleteResult.genSidebar.message }}
-          </template>
-          <div class="scope-line">回收站：<code>{{ deleteResult.trashDir }}</code></div>
-        </div>
-
-        <div class="modal-actions">
-          <button class="btn" @click="closeModal">关闭</button>
-          <button
-            v-if="!deleteResult"
-            class="btn danger"
+      <template #footer>
+        <div style="display: flex; justify-content: flex-end; gap: 10px">
+          <n-button @click="showModal = false">关闭</n-button>
+          <n-button
+            type="error"
+            :loading="deleting"
             :disabled="!preview || preview.error || previewLoading || preview.files?.length === 0"
             @click="confirmDelete"
           >
-            {{ deleting ? '删除中…' : '确认删除' }}
-          </button>
+            确认删除
+          </n-button>
         </div>
-      </div>
-    </div>
+      </template>
+    </n-modal>
 
     <!-- 分类管理弹窗 -->
-    <div v-if="showCatModal" class="modal-mask" @click.self="closeCatModal">
-      <div class="modal">
-        <div class="modal-head">
-          <h3 style="margin: 0">
-            分类管理 · {{ catType === 'news' ? 'Space News 标签' : 'Glossary 目录' }}
-          </h3>
-          <button class="btn small" @click="closeCatModal">关闭</button>
-        </div>
+    <n-modal
+      v-model:show="showCatModal"
+      preset="card"
+      :title="`分类管理 · ${catType === 'news' ? 'Space News 标签' : 'Glossary 目录'}`"
+      style="max-width: 640px"
+    >
+      <n-radio-group v-model:value="catMode" size="small" style="margin-bottom: 16px">
+        <n-radio-button value="add">➕ 添加分类</n-radio-button>
+        <n-radio-button value="delete">🗑 删除分类</n-radio-button>
+      </n-radio-group>
 
-        <div class="cat-mode-tabs" style="display: flex; gap: 8px; margin: 14px 0">
-          <button class="btn" :class="{ primary: catMode === 'add' }" @click="catMode = 'add'">
-            ➕ 添加分类
-          </button>
-          <button class="btn danger" :class="{ ghost: catMode === 'delete' }" @click="catMode = 'delete'">
-            🗑 删除分类
-          </button>
-        </div>
-
-        <template v-if="catMode === 'add'">
-          <div class="field">
-            <label>新分类名（英文 kebab-case，如 <code>deep-space</code>）</label>
-            <input v-model="catName" class="input" style="width: 100%" placeholder="输入分类名…" />
+      <template v-if="catMode === 'add'">
+        <div style="margin-bottom: 10px">
+          <div class="scope-line" style="margin-bottom: 6px">
+            新分类名（英文 kebab-case，如 <code>deep-space</code>）
           </div>
-          <div v-if="catType === 'news'" class="msg info" style="margin-top: 10px">
+          <n-input v-model:value="catName" placeholder="输入分类名…" />
+        </div>
+        <n-alert type="info">
+          <template v-if="catType === 'news'">
             添加 news 分类会在 <code>taxonomy/data.ts</code> 注册节点（含配色），
             站点侧边栏/分类页即可显示该分类。不修改任何文章。
-          </div>
-          <div v-else class="msg info" style="margin-top: 10px">
+          </template>
+          <template v-else>
             添加 glossary 分类会创建 <code>web/glossary/&lt;name&gt;/</code> 与
             <code>web/en/glossary/&lt;name&gt;/</code> 两个空目录。
-          </div>
-        </template>
+          </template>
+        </n-alert>
+      </template>
 
-        <template v-else>
-          <div class="field">
-            <label>选择要删除的分类</label>
-            <select v-model="catName" class="select" style="width: 100%">
-              <option value="" disabled>选择分类…</option>
-              <option v-for="c in categories" :key="c.name" :value="c.name">
-                {{ c.name }}（{{ c.count }} 条）
-              </option>
-            </select>
-          </div>
-
-          <div class="field" style="margin-top: 10px">
-            <label>删除方式</label>
-            <label class="radio-row">
-              <input type="radio" v-model="catDeleteEntries" :value="false" />
-              仅删分类，保留条目
-              <span v-if="catType === 'news'">（从所有文章移除该标签）</span>
-              <span v-else>（条目移到下面选的目标分类）</span>
-            </label>
-            <label class="radio-row">
-              <input type="radio" v-model="catDeleteEntries" :value="true" />
-              连同条目一起删除
-              <span v-if="catType === 'news'">（删除带该标签的文章）</span>
-              <span v-else>（删除目录下所有条目）</span>
-            </label>
-          </div>
-
-          <div v-if="catType === 'glossary' && !catDeleteEntries" class="field">
-            <label>条目移往的目标分类</label>
-            <select v-model="catTarget" class="select" style="width: 100%">
-              <option value="" disabled>选择目标分类…</option>
-              <option v-for="c in categories" :key="c.name" :value="c.name" :disabled="c.name === catName">
-                {{ c.name }}
-              </option>
-            </select>
-          </div>
-
-          <div v-if="catType === 'news' && catDeleteEntries" class="msg warn" style="margin-top: 10px">
-            警告：将删除带 <code>{{ catName || '该' }}</code> 标签的全部文章（中英镜像），
-            文件进入回收站，可恢复。
-          </div>
-        </template>
-
-        <div v-if="catMsg" class="msg" :class="catMsg.type" style="margin-top: 12px">
-          {{ catMsg.text }}
+      <template v-else>
+        <div style="margin-bottom: 12px">
+          <div class="scope-line" style="margin-bottom: 6px">选择要删除的分类</div>
+          <n-select
+            v-model:value="catName"
+            placeholder="选择分类…"
+            :options="catOptions"
+          />
         </div>
 
-        <div class="modal-actions">
-          <button class="btn" @click="closeCatModal">关闭</button>
-          <button
-            class="btn primary"
+        <div style="margin-bottom: 12px">
+          <div class="scope-line" style="margin-bottom: 6px">删除方式</div>
+          <n-radio-group v-model:value="catDeleteEntries">
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <n-radio :value="false">
+                仅删分类，保留条目
+                <span class="muted" v-if="catType === 'news'">（从所有文章移除该标签）</span>
+                <span class="muted" v-else>（条目移到下面选的目标分类）</span>
+              </n-radio>
+              <n-radio :value="true">
+                连同条目一起删除
+                <span class="muted" v-if="catType === 'news'">（删除带该标签的文章）</span>
+                <span class="muted" v-else>（删除目录下所有条目）</span>
+              </n-radio>
+            </div>
+          </n-radio-group>
+        </div>
+
+        <div v-if="catType === 'glossary' && !catDeleteEntries" style="margin-bottom: 12px">
+          <div class="scope-line" style="margin-bottom: 6px">条目移往的目标分类</div>
+          <n-select
+            v-model:value="catTarget"
+            placeholder="选择目标分类…"
+            :options="catOptions.filter((o) => o.value !== catName)"
+          />
+        </div>
+
+        <n-alert v-if="catType === 'news' && catDeleteEntries" type="warning">
+          警告：将删除带 <code>{{ catName || '该' }}</code> 标签的全部文章（中英镜像），
+          文件进入回收站，可恢复。
+        </n-alert>
+      </template>
+
+      <n-alert v-if="catMsg" :type="catMsg.type" style="margin-top: 12px">
+        {{ catMsg.text }}
+      </n-alert>
+
+      <template #footer>
+        <div style="display: flex; justify-content: flex-end; gap: 10px">
+          <n-button @click="showCatModal = false">关闭</n-button>
+          <n-button
+            type="primary"
+            :loading="catBusy"
             :disabled="
-              catBusy ||
               !catName ||
               (catMode === 'delete' && catType === 'glossary' && !catDeleteEntries && !catTarget)
             "
             @click="submitCategory"
           >
-            {{ catBusy ? '处理中…' : catMode === 'add' ? '添加分类' : '确认删除分类' }}
-          </button>
+            {{ catMode === 'add' ? '添加分类' : '确认删除分类' }}
+          </n-button>
         </div>
-      </div>
-    </div>
+      </template>
+    </n-modal>
   </div>
 </template>

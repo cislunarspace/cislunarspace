@@ -1,12 +1,31 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 import YAML from 'yaml';
+import {
+  NButton,
+  NInput,
+  NCheckbox,
+  NTag,
+  NAlert,
+  NSkeleton,
+  NCollapse,
+  NCollapseItem,
+  NCard,
+  NTooltip,
+  useMessage,
+  useDialog,
+} from 'naive-ui';
 import { api } from '../api';
+import SitePreviewModal from './SitePreviewModal.vue';
+import AiChatModal from './AiChatModal.vue';
 
 const props = defineProps({
   path: { type: String, required: true },
 });
 const emit = defineEmits(['close']);
+
+const message = useMessage();
+const dialog = useDialog();
 
 const loading = ref(true);
 const error = ref('');
@@ -14,7 +33,6 @@ const sides = ref([]); // [{ lang, path, body, yamlText, orig, form, changed, ra
 const kind = ref('news');
 const saving = ref(false);
 const validating = ref(false);
-const msg = ref(null); // { type, text }
 const dirty = ref(false);
 
 const FIELDS = [
@@ -81,7 +99,6 @@ function initSides(data) {
   }
   sides.value = arr;
   dirty.value = false;
-  msg.value = null;
 }
 
 /** 表单字段变更 → 合并进对象 → 重新序列化 YAML */
@@ -110,7 +127,6 @@ function patchForm(side, field) {
   // 注意：这里不重新赋值 side.form，避免把用户正在输入的原始文本规范化
   // （例如 category 多分类输入时若回写会折叠成单值），仅更新 yamlText。
   dirty.value = true;
-  msg.value = null;
 }
 
 /** 直接编辑原始 YAML 文本 */
@@ -118,7 +134,6 @@ function onYamlInput(side, value) {
   side.yamlText = value;
   side.rawTouched = true;
   dirty.value = true;
-  msg.value = null;
 }
 
 /** 放弃手动 YAML 编辑，回到表单生成 */
@@ -136,12 +151,10 @@ function resetRaw(side) {
 function onBodyInput(side, value) {
   side.body = value;
   dirty.value = true;
-  msg.value = null;
 }
 
 async function validateNow() {
   validating.value = true;
-  msg.value = null;
   try {
     const all = [];
     for (const s of sides.value) {
@@ -149,20 +162,20 @@ async function validateNow() {
       for (const e of r.errors || []) all.push(`${s.lang.toUpperCase()} ${e}`);
     }
     if (all.length) {
-      msg.value = { type: 'error', text: '校验未通过：' + all.join('；') };
+      message.error('校验未通过：' + all.join('；'));
     } else {
-      msg.value = { type: 'success', text: 'frontmatter 校验通过。' };
+      message.success('frontmatter 校验通过。');
     }
   } catch (err) {
-    msg.value = { type: 'error', text: err.message };
+    message.error(err.message);
   } finally {
     validating.value = false;
   }
 }
 
 async function saveNow() {
+  if (saving.value || !dirty.value) return;
   saving.value = true;
-  msg.value = null;
   try {
     const saves = sides.value.map((s) => ({
       path: s.path,
@@ -170,19 +183,48 @@ async function saveNow() {
       body: s.body,
     }));
     await api.save(saves);
-    msg.value = { type: 'success', text: '已保存。' };
+    message.success('已保存。');
     dirty.value = false;
     // 重新加载，刷新 orig 基线
     const data = await api.content(props.path);
     initSides(data);
   } catch (err) {
-    msg.value = { type: 'error', text: err.message };
+    message.error(err.message);
   } finally {
     saving.value = false;
   }
 }
 
+// ---------- 快捷键 Ctrl/Cmd+S 保存 ----------
+function onKeydown(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
+    e.preventDefault();
+    saveNow();
+  }
+}
+
+// ---------- 未保存保护 ----------
+function onBeforeUnload(e) {
+  if (dirty.value) e.preventDefault();
+}
+
+function backToList() {
+  if (!dirty.value) {
+    emit('close');
+    return;
+  }
+  dialog.warning({
+    title: '有未保存的修改',
+    content: '离开将丢弃当前未保存的修改，确定返回列表吗？',
+    positiveText: '丢弃并返回',
+    negativeText: '继续编辑',
+    onPositiveClick: () => emit('close'),
+  });
+}
+
 onMounted(async () => {
+  window.addEventListener('keydown', onKeydown);
+  window.addEventListener('beforeunload', onBeforeUnload);
   try {
     const data = await api.content(props.path);
     initSides(data);
@@ -192,93 +234,234 @@ onMounted(async () => {
     loading.value = false;
   }
 });
+
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', onKeydown);
+  window.removeEventListener('beforeunload', onBeforeUnload);
+});
+
+// ---------- 整站预览 ----------
+const showSitePreview = ref(false);
+
+// ---------- AI 选区润色 ----------
+const aiShow = ref(false);
+const aiContext = ref({ fieldLabel: '', selectedText: '', fullText: '', hasSelection: false, kind: 'news', lang: 'zh' });
+let aiTarget = null; // { side, fieldKey, field?, sel? }
+
+/** 在字段 wrapper 的 mouseup/keyup 上捕获原生选区（e.target 是真实 input/textarea） */
+function captureSel(side, fieldKey, e) {
+  const el = e.target;
+  if (typeof el?.selectionStart !== 'number') return;
+  if (el.selectionStart === el.selectionEnd) return;
+  side.sel = {
+    fieldKey,
+    start: el.selectionStart,
+    end: el.selectionEnd,
+    text: el.value.slice(el.selectionStart, el.selectionEnd),
+  };
+}
+
+function fieldFullText(side, fieldKey) {
+  if (fieldKey === 'body') return side.body;
+  if (fieldKey === 'yaml') return side.yamlText;
+  return String(side.form[fieldKey] ?? '');
+}
+
+function openAi(side, fieldKey, fieldLabel) {
+  const fullText = fieldFullText(side, fieldKey);
+  const sel = side.sel?.fieldKey === fieldKey ? side.sel : null;
+  aiTarget = { side, fieldKey, field: FIELDS.find((f) => f.key === fieldKey), sel };
+  aiContext.value = {
+    fieldLabel,
+    selectedText: sel ? sel.text : fullText,
+    fullText,
+    hasSelection: !!sel,
+    kind: kind.value,
+    lang: side.lang,
+  };
+  aiShow.value = true;
+}
+
+/** AI 结果写回：走既有的 patchForm/onBodyInput/onYamlInput，保证 dirty 与 YAML 同步不绕开 */
+function applyAi(text, mode) {
+  if (!aiTarget) return;
+  const { side, fieldKey, field, sel } = aiTarget;
+  const current = fieldFullText(side, fieldKey);
+  const next =
+    mode === 'selection' && sel
+      ? current.slice(0, sel.start) + text + current.slice(sel.end)
+      : text;
+  if (fieldKey === 'body') {
+    onBodyInput(side, next);
+  } else if (fieldKey === 'yaml') {
+    onYamlInput(side, next);
+  } else {
+    side.form[fieldKey] = next;
+    patchForm(side, field);
+  }
+}
 </script>
 
 <template>
   <div>
-    <div class="editor-header">
-      <div>
-        <button class="btn small" @click="emit('close')">← 返回列表</button>
-        <span class="editor-title" style="margin-left: 10px">
+    <div class="toolbar" style="justify-content: space-between">
+      <div style="display: flex; align-items: center; gap: 10px">
+        <n-button size="small" @click="backToList">← 返回列表</n-button>
+        <span style="font-weight: 600; font-size: 15px">
           编辑 · {{ kind === 'news' ? 'Space News' : kind === 'glossary' ? 'Glossary' : '知识库' }}
         </span>
+        <n-tag v-if="dirty" size="small" type="warning" :bordered="false">未保存</n-tag>
       </div>
-      <div class="editor-actions">
-        <button class="btn" :disabled="validating || !dirty" @click="validateNow">
-          {{ validating ? '校验中…' : '校验 YAML' }}
-        </button>
-        <button class="btn primary" :disabled="saving" @click="saveNow">
-          {{ saving ? '保存中…' : '保存' }}
-        </button>
+      <div style="display: flex; gap: 10px; align-items: center">
+        <span class="muted" style="font-size: 12px">Ctrl/⌘+S 保存</span>
+        <n-button :loading="validating" :disabled="!dirty" @click="validateNow">
+          校验 YAML
+        </n-button>
+        <n-tooltip :disabled="!dirty" placement="bottom">
+          <template #trigger>
+            <n-button @click="showSitePreview = true">预览</n-button>
+          </template>
+          预览展示的是已保存内容；当前有未保存修改，保存后刷新预览
+        </n-tooltip>
+        <n-button type="primary" :loading="saving" :disabled="!dirty" @click="saveNow">
+          保存
+        </n-button>
       </div>
     </div>
 
-    <div v-if="loading" class="loading">加载文件…</div>
-    <div v-else-if="error" class="msg error">{{ error }}</div>
+    <div v-if="loading">
+      <n-skeleton text :repeat="2" />
+      <n-skeleton text style="width: 60%; margin-top: 8px" />
+      <n-skeleton height="200px" style="margin-top: 16px" />
+    </div>
+    <n-alert v-else-if="error" type="error">{{ error }}</n-alert>
 
     <template v-else>
-      <div v-if="msg" class="msg" :class="msg.type">{{ msg.text }}</div>
-
-      <div v-if="sides.length === 1" class="msg info">
+      <n-alert v-if="sides.length === 1" type="info" style="margin-bottom: 14px">
         该页面只有 {{ sides[0].lang === 'zh' ? '中文' : '英文' }} 版本，暂无对应镜像文件。
-      </div>
+      </n-alert>
 
       <div class="editor-grid">
-        <div v-for="side in sides" :key="side.lang" class="editor-col">
-          <div class="editor-col-header">
-            <span class="lang-tag" :class="{ en: side.lang === 'en' }">
+        <n-card v-for="side in sides" :key="side.lang" size="small">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap">
+            <n-tag size="small" :type="side.lang === 'en' ? 'warning' : 'info'" :bordered="false">
               {{ side.lang === 'zh' ? '中文' : 'English' }}
-            </span>
+            </n-tag>
             <code class="path-cell" style="max-width: none">{{ side.path }}</code>
           </div>
 
-          <div v-if="side.rawTouched" class="msg warn" style="margin: 4px 0 10px">
+          <n-alert v-if="side.rawTouched" type="warning" style="margin-bottom: 10px">
             正在手动编辑原始 YAML，表单快捷编辑已停用。
-            <button class="btn small" style="margin-left: 8px" @click="resetRaw(side)">回到表单生成</button>
-          </div>
+            <n-button size="tiny" style="margin-left: 8px" @click="resetRaw(side)">
+              回到表单生成
+            </n-button>
+          </n-alert>
 
           <!-- 常用字段表单 -->
-          <div class="field" v-for="field in FIELDS" :key="field.key">
-            <label :for="'fm-' + side.lang + '-' + field.key">{{ field.label }}</label>
-            <input
-              v-if="field.type !== 'checkbox'"
-              :id="'fm-' + side.lang + '-' + field.key"
-              class="input"
+          <div
+            v-for="field in FIELDS"
+            :key="field.key"
+            style="margin-bottom: 8px"
+            @mouseup="captureSel(side, field.key, $event)"
+            @keyup="captureSel(side, field.key, $event)"
+          >
+            <div class="scope-line" style="margin-bottom: 3px; display: flex; align-items: center; justify-content: space-between">
+              <span>{{ field.label }}</span>
+              <n-button
+                v-if="field.type !== 'checkbox'"
+                text
+                size="tiny"
+                title="选中文字后点我，与 AI 对话润色"
+                @click="openAi(side, field.key, field.label)"
+              >
+                ✨ AI
+              </n-button>
+            </div>
+            <n-checkbox
+              v-if="field.type === 'checkbox'"
+              :checked="side.form[field.key]"
               :disabled="side.rawTouched"
-              v-model="side.form[field.key]"
-              @input="patchForm(side, field)"
+              @update:checked="side.form[field.key] = $event; patchForm(side, field)"
             />
-            <input
+            <n-input
               v-else
-              type="checkbox"
-              :id="'fm-' + side.lang + '-' + field.key"
+              size="small"
+              :value="side.form[field.key]"
               :disabled="side.rawTouched"
-              v-model="side.form[field.key]"
-              @change="patchForm(side, field)"
+              @update:value="side.form[field.key] = $event; patchForm(side, field)"
             />
           </div>
 
           <!-- 原始 YAML -->
-          <details class="raw-yaml">
-            <summary>原始 YAML frontmatter（高级）</summary>
-            <textarea
-              class="textarea yaml-textarea"
-              :value="side.yamlText"
-              @input="onYamlInput(side, $event.target.value)"
-            ></textarea>
-          </details>
+          <n-collapse style="margin-top: 4px">
+            <n-collapse-item name="yaml">
+              <template #header>
+                <span style="display: flex; align-items: center; gap: 8px">
+                  原始 YAML frontmatter（高级）
+                  <n-button
+                    text
+                    size="tiny"
+                    title="选中文字后点我，与 AI 对话润色"
+                    @click.stop="openAi(side, 'yaml', '原始 YAML frontmatter')"
+                  >
+                    ✨ AI
+                  </n-button>
+                </span>
+              </template>
+              <div
+                @mouseup="captureSel(side, 'yaml', $event)"
+                @keyup="captureSel(side, 'yaml', $event)"
+              >
+                <n-input
+                  type="textarea"
+                  size="small"
+                  :value="side.yamlText"
+                  :autosize="{ minRows: 6, maxRows: 16 }"
+                  style="font-family: var(--mono); font-size: 12px"
+                  @update:value="onYamlInput(side, $event)"
+                />
+              </div>
+            </n-collapse-item>
+          </n-collapse>
 
           <!-- 正文 -->
-          <div class="field" style="margin-top: 12px">
-            <label>正文 markdown</label>
-            <textarea
-              class="textarea body-textarea"
+          <div
+            style="margin-top: 12px"
+            @mouseup="captureSel(side, 'body', $event)"
+            @keyup="captureSel(side, 'body', $event)"
+          >
+            <div class="scope-line" style="margin-bottom: 3px; display: flex; align-items: center; justify-content: space-between">
+              <span>正文 markdown</span>
+              <n-button
+                text
+                size="tiny"
+                title="选中文字后点我，与 AI 对话润色"
+                @click="openAi(side, 'body', '正文 markdown')"
+              >
+                ✨ AI
+              </n-button>
+            </div>
+            <n-input
+              type="textarea"
               :value="side.body"
-              @input="onBodyInput(side, $event.target.value)"
-            ></textarea>
+              :autosize="{ minRows: 14, maxRows: 40 }"
+              style="font-family: var(--mono); font-size: 12px"
+              @update:value="onBodyInput(side, $event)"
+            />
           </div>
-        </div>
+        </n-card>
       </div>
     </template>
+
+    <SitePreviewModal v-model:show="showSitePreview" :path="path" />
+    <AiChatModal v-model:show="aiShow" :context="aiContext" @apply="applyAi" />
   </div>
 </template>
+
+<style scoped>
+.editor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+</style>

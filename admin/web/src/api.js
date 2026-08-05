@@ -90,4 +90,37 @@ export const api = {
       body: JSON.stringify({ relPath, stamp }),
     });
   },
+
+  /** 预览服务状态 */
+  previewStatus() {
+    return request('/api/preview/status');
+  },
+
+  /** 启动预览服务（等待就绪，可能耗时几十秒） */
+  previewStart() {
+    return request('/api/preview/start', { method: 'POST' });
+  },
+
+  /** md 路径 → 站点路由 */
+  previewRoute(path) {
+    return request(`/api/preview/route?path=${encodeURIComponent(path)}`);
+  },
+
+  /** 读取 AI 配置（脱敏） */
+  aiConfig() {
+    return request('/api/ai/config');
+  },
+
+  /** 保存 AI 配置 */
+  saveAiConfig(cfg) {
+    return request('/api/ai/config', { method: 'POST', body: JSON.stringify(cfg) });
+  },
+
+  /** AI 多轮对话 */
+  aiChat(messages, system) {
+    return request('/api/ai/chat', {
+      method: 'POST',
+      body: JSON.stringify({ messages, system }),
+    });
+  },
 };

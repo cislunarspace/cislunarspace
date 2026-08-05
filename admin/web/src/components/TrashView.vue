@@ -1,17 +1,33 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
+import {
+  NButton,
+  NTag,
+  NAlert,
+  NSpin,
+  NEmpty,
+  NCollapse,
+  NCollapseItem,
+  NList,
+  NListItem,
+  useMessage,
+  useDialog,
+} from 'naive-ui';
 import { api } from '../api';
+
+const message = useMessage();
+const dialog = useDialog();
 
 const loading = ref(false);
 const error = ref('');
 const trash = ref([]); // [{ stamp, files }]
 const restoring = ref(false);
-const msg = ref(null);
+
+const totalFiles = computed(() => trash.value.reduce((n, t) => n + t.files.length, 0));
 
 async function load() {
   loading.value = true;
   error.value = '';
-  msg.value = null;
   try {
     const data = await api.trash();
     trash.value = data.trash || [];
@@ -24,15 +40,24 @@ async function load() {
 
 onMounted(load);
 
+function confirmRestore(file, stamp) {
+  dialog.warning({
+    title: '恢复文件',
+    content: `将把 ${file} 移回 web/ 原位置，确定恢复吗？`,
+    positiveText: '恢复',
+    negativeText: '取消',
+    onPositiveClick: () => restore(file, stamp),
+  });
+}
+
 async function restore(file, stamp) {
   restoring.value = true;
-  msg.value = null;
   try {
-    const r = await api.restore(file, stamp);
-    msg.value = { type: 'success', text: `已恢复 ${file}` };
+    await api.restore(file, stamp);
+    message.success(`已恢复 ${file}`);
     await load();
   } catch (err) {
-    msg.value = { type: 'error', text: err.message };
+    message.error(err.message);
   } finally {
     restoring.value = false;
   }
@@ -42,30 +67,40 @@ async function restore(file, stamp) {
 <template>
   <div>
     <div class="toolbar">
-      <h2 class="panel-title" style="margin: 0">回收站</h2>
-      <button class="btn" :disabled="loading" @click="load">刷新</button>
-      <span class="badge">{{ trash.reduce((n, t) => n + t.files.length, 0) }} 个文件</span>
+      <span style="font-weight: 600; font-size: 15px">回收站</span>
+      <n-button size="small" :loading="loading" @click="load">刷新</n-button>
+      <n-tag size="small" :bordered="false">{{ totalFiles }} 个文件</n-tag>
     </div>
 
-    <div v-if="error" class="msg error">{{ error }}</div>
-    <div v-if="loading" class="loading">加载中…</div>
+    <n-alert v-if="error" type="error" style="margin-bottom: 12px">{{ error }}</n-alert>
 
-    <div v-if="msg" class="msg" :class="msg.type">{{ msg.text }}</div>
-
-    <div v-if="!loading && trash.length === 0" class="empty">
-      回收站是空的。删除的文件会移动到这里，恢复时移回 web/ 原位置。
+    <div v-if="loading" style="text-align: center; padding: 32px 0">
+      <n-spin size="small" />
     </div>
 
-    <div v-for="t in trash" :key="t.stamp" class="panel trash-stamp">
-      <div class="trash-stamp-title">🗑 {{ t.stamp }}</div>
-      <ul class="scope-list">
-        <li v-for="f in t.files" :key="f">
-          <code>{{ f }}</code>
-          <button class="btn small" style="margin-left: 10px" :disabled="restoring" @click="restore(f, t.stamp)">
-            恢复
-          </button>
-        </li>
-      </ul>
-    </div>
+    <n-empty
+      v-else-if="trash.length === 0"
+      description="回收站是空的。删除的文件会移动到这里，恢复时移回 web/ 原位置。"
+      style="padding: 40px 0"
+    />
+
+    <n-collapse v-else :default-expanded-names="trash[0]?.stamp ? [trash[0].stamp] : []">
+      <n-collapse-item v-for="t in trash" :key="t.stamp" :name="t.stamp">
+        <template #header>
+          🗑 <code style="margin-left: 6px">{{ t.stamp }}</code>
+          <n-tag size="tiny" :bordered="false" style="margin-left: 8px">{{ t.files.length }} 个</n-tag>
+        </template>
+        <n-list size="small" bordered>
+          <n-list-item v-for="f in t.files" :key="f">
+            <code style="font-size: 12px">{{ f }}</code>
+            <template #suffix>
+              <n-button size="tiny" :disabled="restoring" @click="confirmRestore(f, t.stamp)">
+                恢复
+              </n-button>
+            </template>
+          </n-list-item>
+        </n-list>
+      </n-collapse-item>
+    </n-collapse>
   </div>
 </template>
