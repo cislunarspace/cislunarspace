@@ -36,14 +36,12 @@ A micro-propulsion technology that uses strong electric fields to extract and ac
 
 Electrospray propulsion is a key technology for CubeSats and micro-nanosatellites to achieve high-performance orbital control. Compared to traditional chemical propellants, electrospray propulsion offers an order of magnitude higher specific impulse, producing greater velocity increment with the same propellant reserves. Although thrust is extremely small, it is highly practical for micro-nanosatellite orbital adjustment, attitude control, and constellation deployment. Research indicates that merely 0.7 mN of thrust is sufficient to maintain constellation formation or complete post-deployment orbital transfer in Earth-Moon halo orbits. This makes electrospray propulsion an important候选 propulsion方案 for future cislunar space small satellite missions, particularly suited for navigation satellite formation missions requiring long-term slow orbital correction.
 
-
 ## Related Concepts
 
 - [Electric Propulsion](/en/glossary/programs/electric-propulsion/)
 - [Specific Impulse](/en/glossary/programs/specific-impulse/)
 - [Micropropulsion](/en/glossary/programs/micropropulsion/)
 - [CubeSat](/en/glossary/programs/cubesat/)
-
 
 ## References
 

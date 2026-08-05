@@ -32,9 +32,7 @@ permalink: /en/glossary/navigation/northern-and-southern-nrho-families/
 
 Near Rectilinear Halo Orbits divided into northern and southern families by the sign of out-of-plane component. Symmetric about the xy-plane of the synodic coordinate system, their combined use enables coverage of both lunar hemispheres' high-latitude regions, serving as key orbital resources for lunar global navigation constellation design.
 
-
 ## Related Concepts
-
 
 ## References
 

@@ -35,12 +35,14 @@ The systematic process of identifying, tracking, recording, and classifying obje
 ## Application Value
 
 Libration Point Orbit Cataloging systematically identifies and classifies objects in cislunar space. Tracking sensor networks distinguish between different types of libration point orbit objects based on characteristic parameter cataloging data, supporting space domain awareness.
+
 ## Related Concepts
 
 - [Orbit Phase](/en/glossary/orbits/orbit-phase/)
 - [Hohmann Transfer](/en/glossary/orbits/hohmann-transfer/)
 - [Parking Orbit](/en/glossary/orbits/parking-orbit/)
 - [Translunar Orbit](/en/glossary/orbits/translunar-orbit/)
+
 ## References
 
 - Orbital parameter characterization and objects cataloging for Earth-moon collinear libration points

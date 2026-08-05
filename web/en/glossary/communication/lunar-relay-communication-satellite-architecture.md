@@ -36,13 +36,12 @@ A communication network composed of multiple satellites operating in cislunar li
 
 This term has important reference value in cislunar space research and engineering applications.
 
-
 ## Related Concepts
+
 - [Free-space Propagation Loss](/en/glossary/communication/free-space-propagation-loss/)
 - [Scheduling Strategy](/en/glossary/communication/scheduling-strategy/)
 - [Earth-Halo-Moon Relay Path, EHM Path](/en/glossary/communication/earth-halo-moon-relay-path-ehm-path/)
 
-
-
 ## References
+
 - Ozimek和Howell 2010

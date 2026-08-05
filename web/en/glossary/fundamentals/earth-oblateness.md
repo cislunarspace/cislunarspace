@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/earth-oblateness/
 
 The geometric property of the Earth caused by its rotation, resulting in an equatorial bulge that deviates from a perfect sphere, typically described by zonal harmonics (dominated by J2). For relative motion near triangular libration points, the error from Earth oblateness is only on the order of millimeters and is negligible.
 
-
 ## Related Concepts
-
 
 ## References
 

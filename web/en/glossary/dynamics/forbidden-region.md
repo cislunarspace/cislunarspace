@@ -35,7 +35,6 @@ Region in configuration space that a spacecraft cannot reach due to insufficient
 
 This concept plays a key role in trajectory transfer design, helping evaluate transfer costs and flight time to provide quantitative basis for mission trade studies. Combined with global search algorithms, multiple solution families and Pareto frontiers can be identified to guide orbital design decisions.
 
-
 ## Related Concepts
 
 - [Differential Correction](/glossary/fundamentals/differential-correction/)

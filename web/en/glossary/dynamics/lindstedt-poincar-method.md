@@ -42,4 +42,3 @@ A perturbation technique that eliminates secular terms from series expansions vi
 
 - Celletti - 2010 - Stability and chaos in celestial mechanics
 - Marchal - 1990 - The three-body problem
-

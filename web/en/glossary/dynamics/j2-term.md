@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/j2-term/
 
 The second-order zonal coefficient in the Earth's gravitational potential spherical harmonic expansion, reflecting the main perturbation from Earth's oblateness. J2 ≈ 1.08263×10⁻³ causes orbital plane precession and reduced orbital lifetime, essential for medium- and short-term orbit predictions.
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - Vallado - 2022 - Fundamentals of astrodynamics and applications
-

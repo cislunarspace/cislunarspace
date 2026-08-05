@@ -38,6 +38,7 @@ Eigenvalues of the monodromy matrix of a periodic orbit's linearized system. For
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Ivanyukhin and Petukhov, 2019, Cosmic Research, 57(5)

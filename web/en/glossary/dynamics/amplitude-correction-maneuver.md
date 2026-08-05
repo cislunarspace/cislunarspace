@@ -41,4 +41,3 @@ A velocity increment applied after the spacecraft reaches the target Lissajous o
 ## References
 
 - Canalias and Masdemont, Acta Astronautica, 2008
-

@@ -43,7 +43,6 @@ The exterior phase is characteristic of low-energy transfers to LEO, appearing a
 - [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
 - [Exterior Phase](/en/glossary/orbits/exterior-phase/)
 
-
 ## References
 
 - Zhang et al. 2021

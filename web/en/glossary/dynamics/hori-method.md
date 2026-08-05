@@ -35,12 +35,14 @@ A perturbation normal form method for Hamiltonian systems using canonical transf
 ## Application Value
 
 The Hori Method is a perturbation normal form method for Hamiltonian systems using canonical transformations via generating functions. It provides a systematic approach to analyzing perturbed Hamiltonian systems.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Gómez et al. 2001, Ch.2

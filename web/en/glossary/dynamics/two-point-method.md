@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/two-point-method/
 
 Iterative method using two previous estimates of flyout angle and time of flight with the secant method to solve Lambert's problem.
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - Alternative Approach to the Solution of Lambert's Problem
-

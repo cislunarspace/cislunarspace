@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/mcts/
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/pcrtbp/)
 - [插入速度增量（Insertion Delta-V）](/glossary/dynamics/insertion-delta-v/)
 - [动量积分（Momentum Integral, MI）](/glossary/dynamics/Momentum-Integral-MI/)
+
 ## 参考文献
 
 - Chao 等 - 2022。

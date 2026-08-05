@@ -35,12 +35,14 @@ Libration points forming equilateral triangles with Earth and Moon, i.e. L4 and 
 ## Application Value
 
 The Equilateral Triangle Libration Points (L4 and L5) form equilateral triangles with Earth and Moon, located 60 degrees from the Earth-Moon line on the Moon's orbit. They are stable equilibrium points and potential locations for cislunar infrastructure.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - 利用拉格朗日点的深空探测技术

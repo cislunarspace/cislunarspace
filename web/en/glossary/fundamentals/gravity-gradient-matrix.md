@@ -41,4 +41,3 @@ The 3×3 symmetric matrix G(r) = ∂g(r)/∂r, the partial derivative of gravita
 ## References
 
 - Prussing - 2010 - Primer vector theory and applications
-

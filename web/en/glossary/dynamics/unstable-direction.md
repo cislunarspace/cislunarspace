@@ -38,6 +38,7 @@ Direction corresponding to the eigenvector of the state transition matrix whose 
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Deng Hui et al., 2017, On-board orbit prediction for collinear libration point probes

@@ -42,6 +42,7 @@ permalink: /glossary/orbits/orbit-topological-configuration/
 - [共振循环轨道](/glossary/orbits/resonance-cycler/)
 - [周期轨道](/glossary/orbits/periodic-orbit/)
 - [动力学替代轨道](/glossary/orbits/dynamical-substitute/)
+
 ## 参考文献
 
 - 梁伟光 等, 2017, 深空探测学报, 4(2): 166-170

@@ -42,6 +42,7 @@ permalink: /glossary/orbits/vmi/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/wsb-like/)
 - [平面月球轨道（Planar Lunar Orbit, PLO）](/glossary/orbits/plo/)
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
+
 ## 参考文献
 
 - /home/ouyangjiahong/Downloads/地月空间相关/output/Parker和Born - 2008 - Direct lunar halo orbit transfers/hybrid_auto/Parker和Born - 2008 - Direct lunar halo orbit transfers.md。

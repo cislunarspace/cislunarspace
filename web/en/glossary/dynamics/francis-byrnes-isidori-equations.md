@@ -38,6 +38,7 @@ The core equations in nonlinear output regulation theory, consisting of the matc
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - - Francis 1977

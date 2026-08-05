@@ -42,6 +42,7 @@ SMART-1类低能量转移的核心机动策略。航天器每次飞越L₁颈部
 - [间接法](/glossary/dynamics/indirect-methods/)
 - [共振条件](/glossary/dynamics/resonance-condition/)
 - [低推力平衡点](/glossary/dynamics/low-thrust-equilibrium-point/)
+
 ## 参考文献
 
 - Liang et al. 2016

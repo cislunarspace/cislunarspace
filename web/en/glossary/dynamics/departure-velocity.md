@@ -35,12 +35,14 @@ The speed of a spacecraft at departure from the lunar surface. Because geometric
 ## Application Value
 
 When departing from the lunar surface, departure velocity primarily depends on the Jacobi constant of the target orbit, close to the lunar escape velocity of approximately 2.4 km/s. Orbit designers determine the precise departure velocity based on target orbit characteristics.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Alessi 等 - 2009 - Leaving the moon by means of invariant manifolds of libration point orbits

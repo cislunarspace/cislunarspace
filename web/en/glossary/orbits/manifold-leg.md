@@ -35,12 +35,14 @@ The first segment of a transfer trajectory, following the unstable manifold from
 ## Application Value
 
 流形段是不变流形的一段，对应特定的动力学演化路径，轨道设计师用流形段拼接实现低能转移。
+
 ## Related Concepts
 
 - [Orbit Phase](/en/glossary/orbits/orbit-phase/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Parking Orbit](/en/glossary/orbits/parking-orbit/)
 - [Hohmann Transfer](/en/glossary/orbits/hohmann-transfer/)
+
 ## References
 
 - Cheng 等 - 2017 - Study of the transfer between libration point orbits and lunar orbits in Earth–moon system

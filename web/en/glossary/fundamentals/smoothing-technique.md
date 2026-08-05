@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
 - [Coplanar Orbital Plane Constraint](/en/glossary/orbits/coplanar-orbital-plane-constraint/)
 
-
 ## References
 
 - Zhang et al. - 2025 - Smoothing technique for indirect low-thrust trajectory optimization in cislunar space

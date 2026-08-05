@@ -38,6 +38,7 @@ The Poincaré section at x=1-μs in the Sun-Earth+Moon synodic frame, used for p
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - - 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造

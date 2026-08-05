@@ -35,12 +35,14 @@ The direct gravitational acceleration of a third body (e.g., the Sun) on a space
 ## Application Value
 
 直接引力是第三体对航天器的直接引力加速度，是三体系统中主要的摄动源之一，轨道设计师计算轨道时必须考虑直接引力摄动。
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - 钱霙婧等, 2013, 宇航学报

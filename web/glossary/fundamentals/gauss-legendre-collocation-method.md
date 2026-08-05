@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/gauss-legendre-collocation-method/
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
 - [惯性坐标系](/glossary/fundamentals/inertial-reference-frame/)
 - [哈密顿量](/glossary/fundamentals/hamiltonian/)
+
 ## 参考文献
 
 - 平动点周期轨道间小推力转移的Gauss伪谱法

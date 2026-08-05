@@ -42,6 +42,7 @@ Based on its definition, this term has significant application value in cislunar
 - [Resonance Cycler](/en/glossary/orbits/resonance-cycler/)
 - [Periodic Orbit](/en/glossary/orbits/periodic-orbit/)
 - [Dynamical Substitute](/en/glossary/orbits/dynamical-substitute/)
+
 ## References
 
 - Vaquero and Howell — 2014

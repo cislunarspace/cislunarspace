@@ -36,7 +36,6 @@ Eigenvalues of the monodromy matrix C in Floquet theory. Characteristic multipli
 
 在特征乘子的设计与分析中，可用于优化转移方案，减少燃料消耗 该概念为地月空间任务设计提供了重要的理论基础 在实际工程中可用于轨道设计、任务规划或控制系统分析。
 
-
 ## Related Concepts
 
 - [对偶控制变换（Adjoint-Control Transformation）](/en/glossary/dynamics/adjoint-control-transformation/)
@@ -44,7 +43,6 @@ Eigenvalues of the monodromy matrix C in Floquet theory. Characteristic multipli
 - [Lyapunov轨道（Lyapunov Orbit）](/en/glossary/orbits/lyapunov-orbit/)
 - [状态转移矩阵（State Transition Matrix）](/en/glossary/dynamics/state-transition-matrix/)
 
-
 ## References
 
-- https://doi.org/10.3873/j.issn.1000-1328.2024.09.007
+- <https://doi.org/10.3873/j.issn.1000-1328.2024.09.007>

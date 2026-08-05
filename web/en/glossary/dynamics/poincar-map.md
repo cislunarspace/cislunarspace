@@ -38,6 +38,7 @@ A dimension-reduction technique for studying high-dimensional dynamical systems 
 - [PS Section](/en/glossary/dynamics/ps-section/)
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
+
 ## References
 
 - Gómez et al., 2001, Ch.2,3

@@ -35,12 +35,14 @@ Upper and lower limits on thrust magnitude, i.e., constraints on minimum and max
 ## Application Value
 
 推力边界定义了推进系统的最大推力限制，轨道设计师在规划低推力转移时根据推力边界约束确定最优推力剖面。
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Song 等 - 2021

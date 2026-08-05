@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/predictor-corrector-algorithm/
 
 In homotopy continuation, an iterative strategy that first uses Euler's method to predict the next point, then Newton's method to correct it. The prediction step gives an approximate direction, while the correction step solves linear equations to make the solution satisfy implicit constraints, alternating until convergence.
 
-
 ## Related Concepts
-
 
 ## References
 

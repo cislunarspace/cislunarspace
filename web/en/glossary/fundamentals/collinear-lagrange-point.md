@@ -41,4 +41,3 @@ The three collinear equilibrium points of the restricted three-body problem, lyi
 ## References
 
 - Conley - 1968 - Low energy transit orbits in restricted 3-body problem
-

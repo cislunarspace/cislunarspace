@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
 - [Exterior Phase](/en/glossary/orbits/exterior-phase/)
 
-
 ## References
 
 - Xu 等 - 2013 - On the construction of low-energy cislunar and trans-lunar transfers based on the libration points

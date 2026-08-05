@@ -42,6 +42,7 @@ Based on its definition, this term has significant application value in cislunar
 - [Indirect Methods](/en/glossary/dynamics/indirect-methods/)
 - [Resonance Condition](/en/glossary/dynamics/resonance-condition/)
 - [Low-Thrust Equilibrium Point](/en/glossary/dynamics/low-thrust-equilibrium-point/)
+
 ## References
 
 - (No references available)

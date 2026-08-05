@@ -34,8 +34,7 @@ Periodic orbit around a collinear libration point with in-plane amplitude and ze
 
 ## Application Value
 
-This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms. 
-
+This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms.
 
 ## Related Concepts
 
@@ -44,8 +43,6 @@ This term在cislunar space missions中has important application value. In orbit 
 - [Short-Path Transfer Orbit](/en/glossary/orbits/short-path-transfer-orbit/)
 - [Conic Orbit](/en/glossary/fundamentals/conic-orbit/)
 
-
 ## References
 
 - Belló 等 - 2010 - Invariant manifolds, Lagrangian trajectories and space mission design
-

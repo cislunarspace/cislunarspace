@@ -42,6 +42,7 @@ permalink: /glossary/orbits/low-energy-transfer-trajectory/
 - [共振循环轨道](/glossary/orbits/resonance-cycler/)
 - [周期轨道](/glossary/orbits/periodic-orbit/)
 - [动力学替代轨道](/glossary/orbits/dynamical-substitute/)
+
 ## 参考文献
 
 - 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造

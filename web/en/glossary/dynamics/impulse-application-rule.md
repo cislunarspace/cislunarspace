@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/impulse-application-rule/
 
 Two maneuver principles derived from the Jacobi constant-velocity increment relationship: first, deceleration maneuvers should be applied at velocity maxima with the impulse collinear and opposite to the velocity direction, minimizing the energy cost of deceleration; second, direction-adjustment maneuvers should be applied at velocity minima, reducing the energy penalty of changing the velocity direction.
 
-
 ## Related Concepts
-
 
 ## References
 

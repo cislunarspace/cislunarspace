@@ -40,6 +40,7 @@ permalink: /glossary/orbits/manifold-jump-transfer/
 
 - [Halo轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [弱稳定区转移（Weak Stability Region Transfer）](/glossary/orbits/weak-stability-region-transfer/)
+
 ## 参考文献
 
 - Folta 等 - 2012 - Applications of multi-body dynamical environments the ARTEMIS transfer trajectory design

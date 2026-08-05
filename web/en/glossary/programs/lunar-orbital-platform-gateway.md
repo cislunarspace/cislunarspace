@@ -29,15 +29,19 @@ permalink: /en/glossary/programs/lunar-orbital-platform-gateway/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 A space station planned by NASA and international partners in a 9:2 resonant NRHO around the Earth-Moon L2 point. With a ~7-day period and ~70,000km maximum distance from the Moon, it serves as a lunar transit hub and exploration outpost under the Artemis program.
 
 ## Application Value
+
 This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
 
 ## Related Concepts
+
 - [Queqiao-2 Relay Satellite](/en/glossary/programs/queqiao-2-relay-satellite/)
 - [Servicing Schedule / Scheduling](/en/glossary/programs/servicing-schedule-scheduling/)
 - [Next Generation Space Architecture](/en/glossary/programs/next-generation-space-architecture/)
 
 ## References
+
 - Bucchioni et al., 2022

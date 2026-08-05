@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/center-of-mass-rotating-frame/
 - [质量参数（Mass Parameter）](/glossary/fundamentals/mass-parameter/)
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
 - [归一化单位（Normalized Units）](/glossary/fundamentals/normalized-units/)
+
 ## 参考文献
 
 - 基于三体Lambert算法的平动点交会轨道设计

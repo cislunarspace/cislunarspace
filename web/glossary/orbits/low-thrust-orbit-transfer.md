@@ -42,6 +42,7 @@ permalink: /glossary/orbits/low-thrust-orbit-transfer/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/wsb-like/)
 - [平面月球轨道（Planar Lunar Orbit, PLO）](/glossary/orbits/plo/)
 - [单次打靶微分修正器（Single-shooting Differential Corrector）](/glossary/orbits/ssdc/)
+
 ## 参考文献
 
 - Pozzi 等 - 2025。

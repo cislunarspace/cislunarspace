@@ -38,6 +38,7 @@ Dimensionless units defined to simplify calculations in the restricted three-bod
 - [Mass Parameter](/en/glossary/fundamentals/mass-parameter/)
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+
 ## References
 
 - Li Xingming et al., 2024, Visibility analysis of Earth-Moon periodic orbits for Halo orbits near L1 and L2

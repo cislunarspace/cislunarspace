@@ -29,16 +29,20 @@ permalink: /en/glossary/fundamentals/conjugate-point-condition/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 A second-order sufficient condition in the calculus of variations. The Jacobi no-conjugate-point condition requires that variational endpoints do not coalesce along the trajectory. Prussing and Sandrik (2005) applied it to verify optimality of continuous-thrust trajectories.
 
 ## Application Value
+
 This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
 
 ## Related Concepts
+
 - [Delta-v](/en/glossary/fundamentals/delta-v/)
 - [Sigmoid Function](/en/glossary/fundamentals/sigmoid-function/)
 - [Deep Residual Network, ResNet](/en/glossary/fundamentals/deep-residual-network-resnet/)
 - [Instantaneous Classical Orbit Elements](/en/glossary/fundamentals/instantaneous-classical-orbit-elements/)
 
 ## References
+
 - Prussing - 2010 - Primer vector theory and applications

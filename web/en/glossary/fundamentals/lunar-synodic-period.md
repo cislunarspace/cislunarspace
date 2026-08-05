@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/lunar-synodic-period/
 
 The time required for the Earth, Moon, and Sun to return to the same relative alignment, approximately 29.53 days. It determines the lunar phase cycle and serves as the fundamental timescale for designing resonant DROs. A 2:1 resonant DRO has an orbital period of approximately 14.77 days, or half a synodic period.
 
-
 ## Related Concepts
-
 
 ## References
 

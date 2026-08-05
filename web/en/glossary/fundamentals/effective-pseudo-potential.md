@@ -30,13 +30,10 @@ permalink: /en/glossary/fundamentals/effective-pseudo-potential/
 
 In the rotating frame of the circular restricted three-body problem, the sum of gravitational potential energy and the rotational centrifugal potential. It determines the shape of zero-velocity surfaces and the accessible region of the spacecraft in the rotating frame.
 
-
 ## Application Value
 
 Correct reference frame selection is fundamental to orbital mechanics calculations; different mission phases may require switching between different reference frames.
 
-
 ## References
 
 - 地月远距离逆行轨道脉冲调相方法
-

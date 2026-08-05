@@ -32,9 +32,7 @@ permalink: /en/glossary/orbits/earth-moon-l1-point/
 
 The collinear libration point in the Earth-moon system located between Earth and the moon at about 320,000 km from Earth. Near this point the third body is subject to comparable gravitational attraction from both Earth and the moon; halo and quasi-halo orbits around L1 can serve as space station orbits, and their stable invariant manifolds connect to near-Earth orbits, making L1 an important target for low-energy transfer studies.
 
-
 ## Related Concepts
-
 
 ## References
 

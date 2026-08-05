@@ -43,7 +43,6 @@ This method approximates four-body dynamics by superposing two CRTBPs, computati
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - Zanzottera et al. 2011, §3

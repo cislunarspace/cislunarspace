@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/primer-vector-theory/
 
 Optimal trajectory theory proposed by Lawden. The primer vector is the negative of the costate velocity vector and determines the optimal thrust direction (along the primer vector) and the switching times for thrust magnitude. A trajectory satisfies the necessary conditions for optimality when the primer vector magnitude is ≤1 and is a unit vector at impulse points.
 
-
 ## Application Value
 
 This concept is of significant importance in cislunar space research and technical applications, helping to deepen understanding of related physical mechanisms and engineering implementations.
 
-
 ## References
 
 - Conway - 2010 - Spacecraft trajectory optimization
-

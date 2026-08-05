@@ -29,15 +29,19 @@ permalink: /en/glossary/orbits/lambert-transfer/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 Space Tongue refers to specialized terminology and technical expressions used in the field of orbital dynamics.
 
 ## Application Value
+
 This term has significant application value in cislunar space missions, supporting key technical areas such as spacecraft design, orbital maneuver, rendezvous and docking. The standardized terminology system improves design efficiency, reduces mission risks, and promotes technical exchange and knowledge transfer.
 
 ## Related Concepts
+
 - [Bi-elliptic Transfer](/en/glossary/orbits/bi-elliptic-transfer/)
 - [Orbit Transfer](/en/glossary/orbits/orbit-transfer/)
 - [Maneuver Strategy](/en/glossary/orbits/maneuver-strategy/)
 
 ## References
+
 - 包为民 等 - 2023 - 空间在轨服务系统导论

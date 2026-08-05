@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/successive-convex-optimization/
 
 An iterative method that converts a nonlinear optimal control problem into a sequence of convex optimization problems by successively updating the reference trajectory. In each iteration, the dynamics are linearized around the current optimal trajectory to form a convex subproblem.
 
-
 ## Related Concepts
-
 
 ## References
 

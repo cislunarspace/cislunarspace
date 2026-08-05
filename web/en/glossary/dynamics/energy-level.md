@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/energy-level/
 
 The dynamical energy level characterized by the Jacobi constant C. In the CR3BP, trajectories with the same Jacobi constant share the same energy level.
 
-
 ## Application Value
 
 This dynamic method or concept has significant application value in cislunar space mission analysis, helping to understand and optimize spacecraft motion characteristics.
 
-
 ## References
 
 - Vaquero和Howell - 2014
-

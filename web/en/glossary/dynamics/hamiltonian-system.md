@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/hamiltonian-system/
 
 A system described by a Hamiltonian function, whose canonical equations give the partial derivative of position with respect to momentum and the negative partial derivative of momentum with respect to position. The restricted three-body problem can be written in Hamiltonian form.
 
-
 ## Related Concepts
-
 
 ## References
 

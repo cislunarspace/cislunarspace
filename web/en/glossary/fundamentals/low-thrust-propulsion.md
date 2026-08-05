@@ -35,14 +35,12 @@ A propulsion method characterized by low thrust but long operating duration. Com
 
 This concept plays a key role in trajectory transfer design, helping evaluate transfer costs and flight time to provide quantitative basis for mission trade studies. Combined with global search algorithms, multiple solution families and Pareto frontiers can be identified to guide orbital design decisions.
 
-
 ## Related Concepts
 
 - [Characteristic Energy](/glossary/fundamentals/characteristic-energy/)
 - [Time of Flight](/glossary/fundamentals/time-of-flight/)
 - [Hybrid Propulsion Earth-Moon Transfer](/glossary/fundamentals/hybrid-propulsion-earth-moon-transfer/)
 - [Reference Ellipsoid](/glossary/fundamentals/reference-ellipsoid/)
-
 
 ## References
 

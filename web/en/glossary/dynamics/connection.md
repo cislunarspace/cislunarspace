@@ -35,12 +35,14 @@ Natural transfer pathway between two orbits via invariant manifolds, typically z
 ## Application Value
 
 A Connection is a natural transfer pathway between two orbits via invariant manifolds, typically providing zero-Δv free transfer. Orbit designers exploit connections to minimize propellant consumption during mission design.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Trajectory selection strategy for tours in the Earth-moon system

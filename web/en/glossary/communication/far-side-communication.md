@@ -36,14 +36,12 @@ Direct communication between lunar far side and Earth via a relay satellite in E
 
 Far Side Communication is cislunar space 通信系统 关键技术之一。在实际任务中，该技术可用于保障星间/星地通信链路、传递时空基准信息或扩展通信覆盖范围， for cislunar space 任务提供可靠 通信保障。
 
-
 ## Related Concepts
 
 - [Beam Width Angle](/en/glossary/communication/beam-width-angle/)
 - [Inter-Satellite Link](/en/glossary/communication/inter-satellite-link/)
 - [Age of Information](/en/glossary/communication/age-of-information/)
 - [Newton's Law of Gravitation](/en/glossary/fundamentals/newtons-law-of-gravitation/)
-
 
 ## References
 

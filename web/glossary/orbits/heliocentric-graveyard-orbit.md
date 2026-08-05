@@ -40,6 +40,7 @@ permalink: /glossary/orbits/heliocentric-graveyard-orbit/
 
 - [Halo轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [弱稳定区转移（Weak Stability Region Transfer）](/glossary/orbits/weak-stability-region-transfer/)
+
 ## 参考文献
 
 - Olikara Z P, Gómez G, Masdemont J J. Dynamic mechanisms for spacecraft disposal from Sun-Earth libration points[J]. JGCD, 2015, 38(10): 1976-1989

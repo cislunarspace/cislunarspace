@@ -40,4 +40,3 @@ The process of integrating forward along invariant manifold dynamics to obtain t
 ## References
 
 - Bucchioni和Innocenti 2021
-

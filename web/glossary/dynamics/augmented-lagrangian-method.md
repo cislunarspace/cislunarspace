@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/augmented-lagrangian-method/
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/formation-fixed-relative-to-inertial-frame/)
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/dynamics/perturbational-lambert-problem/)
 - [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
+
 ## 参考文献
 
 - Lantoine & Russell 2012, JOTA Part 1 & 2; Aziz et al. 2019, JGCD

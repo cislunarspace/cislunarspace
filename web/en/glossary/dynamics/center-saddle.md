@@ -39,4 +39,3 @@ The linear stability character of collinear libration points in the CRTBP. In tw
 ## References
 
 - Transfer to Distant Retrograde Orbits Using Manifold Theory
-

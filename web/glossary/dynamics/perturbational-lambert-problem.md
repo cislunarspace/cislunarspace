@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/perturbational-lambert-problem/
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/formation-fixed-relative-to-inertial-frame/)
 - [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
 - [遗传算法（Genetic Algorithm）](/glossary/dynamics/genetic-algorithm/)
+
 ## 参考文献
 
 - Debris Cloud Evolution in Cislunar Space Using Eulerian Perspective Method

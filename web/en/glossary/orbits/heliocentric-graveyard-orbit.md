@@ -36,6 +36,7 @@ An end-of-life disposal method for libration point missions: maneuvering the spa
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+
 ## References
 
 - - Olikara Z P, Gómez G, Masdemont J J. Dynamic mechanisms for spacecraft disposal from Sun-Earth libration points[J]. JGCD, 2015, 38(10): 1976-1989

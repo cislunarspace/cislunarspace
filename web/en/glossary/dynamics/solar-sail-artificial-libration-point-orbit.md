@@ -29,16 +29,20 @@ permalink: /en/glossary/dynamics/solar-sail-artificial-libration-point-orbit/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 Quasi-equilibrium orbits constructed near non-collinear positions or displaced from traditional libration points using continuous thrust from solar radiation pressure. The light pressure partially cancels gravitational imbalance, enabling quasi-periodic motion at positions where traditional libration points do not exist. Zhu Min studied its dynamics and active disturbance rejection station-keeping control.
 
 ## Application Value
+
 This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
 
 ## Related Concepts
+
 - [Elliptic Restricted Three-Body Problem](/en/glossary/dynamics/elliptic-restricted-three-body-problem/)
 - [Dynamical Consistency](/en/glossary/dynamics/dynamical-consistency/)
 - [Combined Covariance](/en/glossary/dynamics/combined-covariance/)
 - [Nekhorosev Estimates](/en/glossary/dynamics/nekhorosev-estimates/)
 
 ## References
+
 - Pan X, Xu M. Cislunar Navigation constellation by displaced solar sails[J]. Journal of Navigation, 2017, 70(5): 963-982

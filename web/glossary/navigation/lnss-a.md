@@ -44,4 +44,4 @@ permalink: /glossary/navigation/lnss-a/
 
 ## 参考文献
 
-- https://doi.org/10.1007/s11430-022-1069-7
+- <https://doi.org/10.1007/s11430-022-1069-7>

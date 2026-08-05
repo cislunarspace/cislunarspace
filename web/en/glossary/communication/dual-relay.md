@@ -36,11 +36,9 @@ Cislunar dual-relay communication architecture composed of one ordinary circular
 
 This type of orbit is used in mission design to achieve spacecraft transfers between different orbital states, fully utilizing celestial gravitational characteristics and dynamical mechanisms to reduce transfer velocity increment requirements.
 
-
 ## Related Concepts
 
 - [Dual-relay](/en/glossary/communication/dual-relay/)
-
 
 ## References
 

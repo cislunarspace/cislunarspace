@@ -36,14 +36,12 @@ A spacecraft concept that visits multiple moons sequentially, using low-energy p
 
 The multi-moon orbiter concept fully exploits natural dynamics channels in multi-body systems, such as invariant manifolds and resonance corridors, to transfer between multiple moons at extremely low propellant cost. In Jupiter's Galilean moon system, such a spacecraft can sequentially flyby Io, Europa, Ganymede, and Callisto, with each transfer utilizing low-energy corridors rather than conventional impulsive maneuvers. This concept is equally applicable to Saturn's multi-moon system, enabling close flyby or landing reconnaissance of multiple moons within a limited propellant budget. The multi-moon orbiter design approach also holds significant reference value for future asteroid multi-target sample return missions in cislunar space.
 
-
 ## Related Concepts
 
 - [Low-Energy Transfer](/en/glossary/orbits/low-energy-transfer/)
 - [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
 - [Resonance Channel](/en/glossary/dynamics/resonance-channel/)
 - [Multi-Target Mission](/en/glossary/programs/multi-target-mission/)
-
 
 ## References
 

@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - Li et al., 2026, Chinese Journal of Space Science, 46(1):175-188

@@ -38,4 +38,3 @@ A Lambert problem solver based on the universal variable formulation.
 ## References
 
 - （暂无参考文献）
-

@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 
-
 ## References
 
 - Colagrossi 等 - 2021

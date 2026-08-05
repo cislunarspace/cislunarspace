@@ -36,14 +36,12 @@ Ill-conditioned phenomenon in Lambert problem where velocity vectors become inde
 
 In orbital transfer design, the Lambert problem is the core mathematical tool for solving optimal transfer trajectories between two points. However, when departure and target positions happen to be collinear, standard Lambert solvers fail, with velocity vectors becoming indeterminate. In practical missions, this means such singular configurations must be avoided, which can be achieved by slightly adjusting transfer time or selecting different midcourse points. This phenomenon also reminds orbital designers to check whether input configurations approach collinear singularities when using Lambert tools for transfer trajectory calculation, employing regularization methods or numerical avoidance strategies when necessary.
 
-
 ## Related Concepts
 
 - [Lambert Orbit Maneuver](/en/glossary/dynamics/lambert-orbit-maneuver/)
 - [Orbital Transfer](/en/glossary/dynamics/orbital-transfer/)
 - [Two-Impulse Rendezvous Maneuver](/en/glossary/dynamics/two-impulse-rendezvous-maneuver/)
 - [Co-Orbital Rendezvous](/en/glossary/dynamics/co-orbital-rendezvous/)
-
 
 ## References
 

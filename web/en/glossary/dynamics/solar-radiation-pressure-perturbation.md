@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/solar-radiation-pressure-perturbation/
 
 Non-gravitational perturbation caused by solar photons hitting the satellite surface. Solar radiation pressure is one of the main perturbation sources for navigation satellites, and its precise modeling is crucial for high-precision orbit determination. Common radiation pressure models include empirical models, physical models, and semi-empirical/semi-physical models.
 
-
 ## Application Value
 
 This dynamic method or concept has significant application value in cislunar space mission analysis, helping to understand and optimize spacecraft motion characteristics.
 
-
 ## References
 
 - 肖峰 - 1989 - 球面天文学与天体力学基础
-

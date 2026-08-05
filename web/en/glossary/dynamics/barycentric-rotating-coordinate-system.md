@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/barycentric-rotating-coordinate-system/
 
 A rotating coordinate system centered at the barycenter of the Earth-Moon system, rotating together with the two primary bodies. In this frame, libration points are fixed and the equations of motion for the small mass possess conserved quantities such as the Jacobi integral, making it the standard coordinate system for studying the restricted three-body problem.
 
-
 ## Related Concepts
-
 
 ## References
 

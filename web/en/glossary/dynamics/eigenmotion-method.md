@@ -38,6 +38,7 @@ A station-keeping strategy based on the eigenspectrum of the linearized dynamics
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Shimane et al., 2025; Elango et al., 2022

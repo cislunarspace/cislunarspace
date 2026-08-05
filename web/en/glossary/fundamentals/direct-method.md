@@ -30,13 +30,10 @@ permalink: /en/glossary/fundamentals/direct-method/
 
 A trajectory optimization approach that discretizes the trajectory and control, converting the optimal control problem into a nonlinear programming problem. Less sensitive to initial guesses but may produce suboptimal solutions.
 
-
 ## Application Value
 
 In a linear quadratic optimal control framework, selecting appropriate weight matrices Q and R achieves a balance between tracking accuracy and control energy consumption, making it suitable for real-time control in cislunar orbit keeping.
 
-
 ## References
 
 - Zhang et al. - 2025 - Smoothing technique for indirect low-thrust trajectory optimization in cislunar space
-

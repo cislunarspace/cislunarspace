@@ -38,4 +38,3 @@ Algorithm that rapidly approximates reachable sets by sampling terminal costates
 ## References
 
 - Bowerfind和Taheri - 2024
-

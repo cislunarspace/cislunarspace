@@ -22,15 +22,13 @@ twitter:
 permalink: /en/glossary/fundamentals/stm/
 ---
 
-# A 6x6 matrix describing how perturbations propagate from initial to terminal state in a dynamical system. Its four sub-blocks represent partial derivative mappings for position-to-position (A), velocity-to-position (B), position-to-velocity (C), and velocity-to-velocity (D). In differential correction, the B and D sub-blocks provide sensitivities of terminal position and velocity to initial velocity, serving as the core mathematical tool for correction computation. The STM also yields the monodromy matrix for invariant manifold computation.
+# A 6x6 matrix describing how perturbations propagate from initial to terminal state in a dynamical system. Its four sub-blocks represent partial derivative mappings for position-to-position (A), velocity-to-position (B), position-to-velocity (C), and velocity-to-velocity (D). In differential correction, the B and D sub-blocks provide sensitivities of terminal position and velocity to initial velocity, serving as the core mathematical tool for correction computation. The STM also yields the monodromy matrix for invariant manifold computation
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
-
-
 
 ## Application Value
 

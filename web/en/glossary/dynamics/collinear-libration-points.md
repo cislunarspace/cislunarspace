@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/collinear-libration-points/
 
 Three libration points lying on the line connecting the two primaries, denoted L₁, L₂, and L₃. L₁ lies between the two bodies, L₂ is outward from the smaller body, and L₃ is outward from the larger body. These points are unstable saddle points.
 
-
 ## Related Concepts
-
 
 ## References
 

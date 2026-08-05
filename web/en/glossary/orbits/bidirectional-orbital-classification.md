@@ -41,4 +41,3 @@ A method of classifying planar trans-lunar trajectories into four combinations b
 ## References
 
 - 彭坤 等 - 2018 - 三体模型下二维平面地月转移轨道设计与特性分析
-

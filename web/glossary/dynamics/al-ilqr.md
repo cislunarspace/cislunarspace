@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/al-ilqr/
 - [有动力月球借力（Powered Lunar Flyby, PLF）](/glossary/dynamics/plf/)
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/pcrtbp/)
 - [插入速度增量（Insertion Delta-V）](/glossary/dynamics/insertion-delta-v/)
+
 ## 参考文献
 
 - Cuevas del Valle 等 - 2022。

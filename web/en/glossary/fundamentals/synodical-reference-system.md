@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/synodical-reference-system/
 
 A rotating reference frame in the circular restricted three-body problem, co-rotating with the line joining the two primaries. Origin at the system barycenter, x-axis along the primary line pointing toward the larger primary, z-axis along the angular velocity. In this frame the two primaries are fixed on the x-axis and all five libration points are stationary. The paper uses nondimensional units: the primary distance as length unit and the time unit is set so the mean motion n = 1.
 
-
 ## Related Concepts
-
 
 ## References
 

@@ -36,6 +36,7 @@ A basic configuration for low-thrust transfer trajectories where the spacecraft 
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+
 ## References
 
 - Du et al., 2023, Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits

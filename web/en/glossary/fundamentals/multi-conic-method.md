@@ -30,13 +30,10 @@ permalink: /en/glossary/fundamentals/multi-conic-method/
 
 A rapid trajectory propagation method that divides transfer time into equal segments, approximates each segment with a conic arc, and applies averaged perturbation accelerations from the Moon and Sun as corrections. It offers higher accuracy than simple conic patching and far better computational efficiency than full numerical integration. This paper introduces Earth oblateness (J2) correction, switching to a J2 model propagation when the spacecraft is near Earth, further improving accuracy in the near-Earth segment.
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - 陆林 等 - 2021 - 载人月球极地探测地月转移轨道设计
-

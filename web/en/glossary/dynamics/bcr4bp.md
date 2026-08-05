@@ -42,6 +42,7 @@ This provides a fundamental theoretical framework for cislunar dynamics modeling
 - [Powered Lunar Flyby, PLF](/en/glossary/dynamics/plf/)
 - [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
 - [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
+
 ## References
 
 - Campana 等 - 2024 - Low-energy earth–moon transfers via theory of functional connections and homotopy.

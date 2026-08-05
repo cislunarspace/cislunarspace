@@ -35,12 +35,14 @@ A numerical analysis method that obtains solutions over a wider parameter domain
 ## Application Value
 
 Numerical Continuation obtains solutions over a wider parameter domain by progressively adjusting parameters from known solutions. It is used to verify launch window robustness and analyze the impact of extended lunar surface stays on feasible windows.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - 丁百慧 等 - 2023 - 载人月球探测任务转移轨道及月面着陆区评估分析

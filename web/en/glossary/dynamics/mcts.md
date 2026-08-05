@@ -42,6 +42,7 @@ This concept plays an important role in cislunar orbit design and transfer analy
 - [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
 - [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
 - [Momentum Integral, MI](/en/glossary/dynamics/Momentum-Integral-MI/)
+
 ## References
 
 - Chao 等 - 2022.

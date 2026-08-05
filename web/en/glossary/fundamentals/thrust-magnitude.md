@@ -36,13 +36,12 @@ The magnitude of the thrust vector, measured in newtons. Electric propulsion eng
 
 Thrust Magnitude provides theoretical support for fundamental research in cislunar space.
 
-
 ## Related Concepts
+
 - [Map Projection](/en/glossary/fundamentals/map-projection/)
 - [L2 Norm Function](/en/glossary/fundamentals/l2-norm-function/)
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
-
 
 ## References
 

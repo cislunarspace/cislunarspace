@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/hill-model/
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/dynamics/perturbational-lambert-problem/)
 - [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
 - [遗传算法（Genetic Algorithm）](/glossary/dynamics/genetic-algorithm/)
+
 ## 参考文献
 
 - 基于三体Lambert算法的平动点交会轨道设计

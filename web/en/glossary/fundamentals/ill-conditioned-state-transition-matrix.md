@@ -38,6 +38,7 @@ A phenomenon in solving the three-body Lambert problem where the state transitio
 - [Mass Parameter](/en/glossary/fundamentals/mass-parameter/)
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+
 ## References
 
 - Three-body Lambert algorithm for libration point rendezvous orbit design

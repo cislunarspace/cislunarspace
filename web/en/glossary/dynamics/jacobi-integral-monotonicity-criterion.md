@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/jacobi-integral-monotonicity-criterion/
 
 An additional criterion for determining whether a low-thrust transfer trajectory is suitable for the backward integration method. It requires the Jacobi integral to vary monotonically along the escape segment, ensuring that the backward-integrated trajectory approximates tangential thrust control direction. Non-monotonic Jacobi integral causes the backward trajectory to deviate from tangential control, leading to computation failure.
 
-
 ## Related Concepts
-
 
 ## References
 

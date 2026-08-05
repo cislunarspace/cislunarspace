@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/el1-lyapunov-orbit/
 
 A periodic orbit near the L1 point in the Sun-Earth system. In the four-body model, the invariant manifold of EL1 Lyapunov orbit intersects that of LL2 Lyapunov orbit, enabling lunar ballistic capture.
 
-
 ## Application Value
 
 Lyapunov orbits are the most fundamental periodic orbit type near libration points, and their invariant manifolds provide natural pathways for low-energy transfers.
 
-
 ## References
 
 - 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造
-

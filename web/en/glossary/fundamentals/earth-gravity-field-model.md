@@ -34,8 +34,7 @@ A mathematical model representing the Earth's non-uniform gravitational potentia
 
 ## Application Value
 
-This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms. 
-
+This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms.
 
 ## Related Concepts
 
@@ -44,8 +43,6 @@ This term在cislunar space missions中has important application value. In orbit 
 - [Heliosphere](/en/glossary/fundamentals/heliosphere/)
 - [Kepler's Equation](/en/glossary/fundamentals/kepler-s-equation/)
 
-
 ## References
 
 - 刘磊 等 - 2008 - 多约束条件下的地月转移轨道设计
-

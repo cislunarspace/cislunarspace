@@ -43,7 +43,6 @@ This transfer network with the Moon as hub connects Earth, LEO, and L4/L5 region
 - [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
 - [Exterior Phase](/en/glossary/orbits/exterior-phase/)
 
-
 ## References
 
 - Capdevila和Howell - 2018

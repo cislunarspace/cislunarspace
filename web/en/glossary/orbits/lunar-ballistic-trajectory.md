@@ -36,6 +36,7 @@ A low-energy Earth-Moon transfer trajectory exploiting the intersection of invar
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+
 ## References
 
 - Peng Qibo and Zhang Hailian, 2016, Survey of Earth-Moon transfer orbit schemes for crewed lunar landing

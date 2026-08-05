@@ -41,4 +41,3 @@ A lunar DRO that remains bounded under Sun's gravitational perturbation over a p
 ## References
 
 - Tan Minghu et al., 2014, Transfer to long term distant retrograde orbits around the Moon
-

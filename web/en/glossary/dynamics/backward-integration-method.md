@@ -35,12 +35,14 @@ A trajectory computation method that starts from the terminal state of a known o
 ## Application Value
 
 反向积分法从终点向前积分求解轨道问题，是边值问题求解的常用方法之一。
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Du et al. 2024

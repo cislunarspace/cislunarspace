@@ -32,9 +32,7 @@ permalink: /en/glossary/navigation/extended-constellation/
 
 A constellation augmented by adding spacecraft on libration point periodic orbits (from the restricted three-body problem) to a conventional two-body orbit constellation. The dynamical property differences between the two force models break the systematic correlation, enabling absolute orientation determination via SST.
 
-
 ## Related Concepts
-
 
 ## References
 

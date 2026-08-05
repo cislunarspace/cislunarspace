@@ -36,13 +36,12 @@ A Poincaré section constructed at the perilune, used to filter transfer traject
 
 Perilune Poincaré Map plays an important role in orbit maneuver design, analysis, and transfer planning for cislunar missions.
 
-
 ## Related Concepts
+
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
 - [Map Projection](/en/glossary/fundamentals/map-projection/)
-
 
 ## References
 

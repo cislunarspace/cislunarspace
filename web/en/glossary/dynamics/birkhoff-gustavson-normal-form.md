@@ -35,12 +35,14 @@ A canonical coordinate transformation near a Hamiltonian equilibrium that puts t
 ## Application Value
 
 The Birkhoff-Gustavson Normal Form reduces the Hamiltonian to a normal form containing only resonant terms, serving as an important tool for analyzing near-resonance dynamical systems and helping understand resonance behavior near libration point orbits.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Gómez et al. 2001, Ch.2

@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - Klonowski 等 - 2024 - Cislunar space domain awareness architecture design and analysis for cooperative agents

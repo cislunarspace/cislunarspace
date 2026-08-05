@@ -39,7 +39,7 @@ permalink: /glossary/orbits/lagrangian-point/
 ## 相关概念
 
 - [晕轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
-- [ Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
+- [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
 - [平动点（Libration Point）](/glossary/orbits/libration-point/)
 

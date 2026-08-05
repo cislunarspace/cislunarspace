@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/inertial-frame-relative-motion-equations/
 
 Equations of relative motion expressed in an inertial coordinate frame. Unlike rotating-frame formulations such as the CW equations, the inertial-frame description more directly reflects the actual dynamical behavior in a multi-body environment, making it suitable for analyzing long-term formation evolution near libration points.
 
-
 ## Application Value
 
 This dynamic method or concept has significant application value in cislunar space mission analysis, helping to understand and optimize spacecraft motion characteristics.
 
-
 ## References
 
 - Héritier和Howell - 2014
-

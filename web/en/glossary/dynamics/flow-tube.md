@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/flow-tube/
 
 The tubular structure formed by invariant manifolds of small-amplitude libration point periodic orbits in phase space. Transit orbits inside the flow tube enable low-energy transfers between Earth and Moon regions but cannot directly reach low-Earth or low-lunar orbits. When the Lyapunov orbit amplitude increases beyond a threshold, the tubular structure degenerates into open sheets.
 
-
 ## Application Value
 
 Lyapunov orbits are the most fundamental periodic orbit type near libration points, and their invariant manifolds provide natural pathways for low-energy transfers.
 
-
 ## References
 
 - 郑越和赵敏 2023, §0, §1.2
-

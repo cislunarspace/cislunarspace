@@ -39,7 +39,7 @@ permalink: /glossary/orbits/lunar-capture-window/
 ## 相关概念
 
 - [弱稳定边界（Weak Stability Boundary）](/glossary/orbits/weak-stability-boundary/)
-- [ Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
+- [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [流形拼接（Manifold Patching）](/glossary/dynamics/manifold-patching/)
 - [太阳相位角（Solar Phase Angle）](/glossary/orbits/solar-phase-angle/)
 

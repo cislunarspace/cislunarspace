@@ -35,12 +35,14 @@ The scalar potential function of the Moon's gravitational field, expanded in Leg
 ## Application Value
 
 The Lunar Gravitational Potential is expanded in Legendre polynomials into zonal harmonics and tesseral/sectoral harmonics. The expansion coefficients are derived from tracking data of lunar probes such as Lunar Prospector.
+
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
 - [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
 - [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
+
 ## References
 
 - Sanna et al., 2024, Aerospace 11, 460

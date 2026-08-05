@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/node/
 
 Fixed points distributed along a trajectory for constraint application and differential correction, distributed equally in time or integration output.
 
-
 ## Related Concepts
-
 
 ## References
 

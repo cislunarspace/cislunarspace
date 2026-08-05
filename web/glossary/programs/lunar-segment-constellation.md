@@ -42,6 +42,7 @@ permalink: /glossary/programs/lunar-segment-constellation/
 - [在轨服务（On-Orbit Servicing）](/glossary/doctrine/on-orbit-servicing/)
 - [追踪器（Chaser）](/glossary/fundamentals/chaser/)
 - [搭乘部署（Ride-share）](/glossary/programs/ride-share/)
+
 ## 参考文献
 
 - Conti and Circi, 2025, Design of halo orbit constellation for lunar global positioning and communication services

@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/earth-escape-window/
 
 The time interval allowing a spacecraft to escape Earth's gravity well and transit into the Moon's via libration point or Halo orbit. The window is determined by solar phase angle β and Halo orbit phase, presenting a 3D distribution under SBCM.
 
-
 ## Application Value
 
 The Halo orbit family provides long-term stable parking points for cislunar space missions, serving as a transit station to the lunar south pole region and deep space.
 
-
 ## References
 
 - 徐明 - 2010 - 地月低能转移的发生条件及轨迹构造
-

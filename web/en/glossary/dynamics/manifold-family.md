@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/manifold-family/
 
 A family of invariant manifolds obtained by integrating from different starting points on the same Halo orbit, forming a tubular channel covering a region of phase space.
 
-
 ## Application Value
 
 The Halo orbit family provides long-term stable parking points for cislunar space missions, serving as a transit station to the lunar south pole region and deep space.
 
-
 ## References
 
 - 李宸硕 等 - 2024 - 基于弱稳定边界理论的低能地月转移轨道设计
-

@@ -38,6 +38,7 @@ A direct collocation method that uses third-order Hermite interpolation polynomi
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Kayama et al., 2022

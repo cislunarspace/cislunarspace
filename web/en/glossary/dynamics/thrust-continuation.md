@@ -38,4 +38,3 @@ A method to handle optimization difficulty at very low thrust acceleration level
 ## References
 
 - Kayama 等 - 2022
-

@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/halo-orbit-family/
 
 A set of periodic orbits near collinear libration points; NRHOs constitute the first interval of linear stability along the halo families.
 
-
 ## Application Value
 
 The Halo orbit family provides long-term stable parking points for cislunar space missions, serving as a transit station to the lunar south pole region and deep space.
 
-
 ## References
 
 - Gao 等 - 2023 - Low-thrust station-keeping control for lunar near rectilinear halo orbits
-

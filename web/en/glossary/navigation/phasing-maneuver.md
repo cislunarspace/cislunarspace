@@ -43,4 +43,3 @@ An orbital maneuver performed between the end of the Earth–Moon transfer phase
 - Fossà 等 - 2022 - Two and three impulses phasing strategy with a spacecraft orbiting on an Earth–Moon NRHO
 - Bucchioni和Innocenti 2021
 - 轨道力学 第6章
-

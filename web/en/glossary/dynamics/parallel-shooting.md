@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/parallel-shooting/
 
 An improvement on shooting methods that divides the trajectory into multiple segments and iterates simultaneously at each segment boundary. Has a larger convergence domain compared to traditional shooting methods.
 
-
 ## Related Concepts
-
 
 ## References
 

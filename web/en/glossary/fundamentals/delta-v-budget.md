@@ -38,6 +38,7 @@ A summary of required velocity increments across all mission phases, used to ass
 - [Mass Parameter](/en/glossary/fundamentals/mass-parameter/)
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+
 ## References
 
 - Zeng Hao et al., 2022, Analysis of three-body periodic orbit applications for crewed lunar exploration

@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/pseudo-inverse-newton-update/
 
 An iterative correction method in multiple shooting that uses a pseudo-inverse instead of the standard Newton update when the Jacobian matrix is not invertible.
 
-
 ## Application Value
 
 This concept is of significant importance in cislunar space research and technical applications, helping to deepen understanding of related physical mechanisms and engineering implementations.
 
-
 ## References
 
 - Kakoi 等 - 2014
-

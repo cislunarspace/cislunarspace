@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/heterogeneous-constellation/
 
 A navigation constellation composed of satellites in multiple orbit types working in coordination. In cislunar space, a typical heterogeneous architecture combines near-lunar orbits for high-precision lunar surface positioning, GNSS-like medium-to-high orbits for full lunar surface and circumlunar coverage, and libration point orbits to fill far-side blind spots and the Earth-Moon transfer segment. Compared with homogeneous constellations, heterogeneous designs achieve a better trade-off among coverage, accuracy, and lifecycle cost, but impose higher demands on orbital phase matching, cross-band inter-satellite link interoperability, and system operations management.
 
-
 ## Related Concepts
-
 
 ## References
 

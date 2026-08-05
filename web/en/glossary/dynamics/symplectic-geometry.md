@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/symplectic-geometry/
 
 A branch of differential geometry studying symplectic manifolds and their properties, forming the mathematical foundation of Hamiltonian mechanics.
 
-
 ## Application Value
 
 This concept is of significant importance in cislunar space research and technical applications, helping to deepen understanding of related physical mechanisms and engineering implementations.
 
-
 ## References
 
 - Meyer和Offin - 2017
-

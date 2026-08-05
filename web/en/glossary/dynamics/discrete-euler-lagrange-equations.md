@@ -39,4 +39,3 @@ Constraint equations derived from the discrete Lagrange-d'Alembert principle in 
 ## References
 
 - （暂无参考文献）
-

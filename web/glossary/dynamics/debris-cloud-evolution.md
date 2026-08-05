@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/debris-cloud-evolution/
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/formation-fixed-relative-to-inertial-frame/)
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/dynamics/perturbational-lambert-problem/)
 - [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
+
 ## 参考文献
 
 - Guardabasso 等 - 2023 - Analysis of accidental spacecraft break-up events in cislunar space

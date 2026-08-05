@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/time-of-permanence-in-ballistic-capture/
 
 The duration from the first perilune to the moment the spacecraft escapes the lunar sphere of influence in a ballistic capture orbit. A key metric for evaluating capture orbit quality; longer permanence implies greater orbital stability and better suitability for mission operations.
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - Sousa-Silva et al. (2018) Fast earth–moon transfers with ballistic capture
-

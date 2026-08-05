@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/line-of-nodes-of-the-lunar-orbit/
 - [质量参数（Mass Parameter）](/glossary/fundamentals/mass-parameter/)
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
 - [归一化单位（Normalized Units）](/glossary/fundamentals/normalized-units/)
+
 ## 参考文献
 
 - Sousa-Silva et al. (2018) Fast earth–moon transfers with ballistic capture

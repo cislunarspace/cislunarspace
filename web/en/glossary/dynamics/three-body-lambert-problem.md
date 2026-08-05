@@ -35,13 +35,11 @@ The problem of finding a transfer trajectory between two points within a given t
 
 This concept plays a key role in trajectory transfer design, helping evaluate transfer costs and flight time to provide quantitative basis for mission trade studies. Combined with global search algorithms, multiple solution families and Pareto frontiers can be identified to guide orbital design decisions.
 
-
 ## Related Concepts
 
 - [Orbit Improvement](/glossary/dynamics/orbit-improvement/)
 - [Cluster Aggregation](/glossary/dynamics/cluster-aggregation/)
 - [Pseudospectral Method](/glossary/dynamics/pseudospectral-method/)
-
 
 ## References
 

@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/declination-deviation/
 
 The difference in declination between the spacecraft and the target body in the geocentric equatorial inertial frame. Used together with right ascension deviation as terminal constraints in the first search layer.
 
-
 ## Related Concepts
-
 
 ## References
 

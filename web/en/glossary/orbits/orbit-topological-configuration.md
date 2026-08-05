@@ -35,14 +35,12 @@ The overall geometric shape and spatial envelope of an orbit in position space. 
 
 This concept plays a key role in trajectory transfer design, helping evaluate transfer costs and flight time to provide quantitative basis for mission trade studies. Combined with global search algorithms, multiple solution families and Pareto frontiers can be identified to guide orbital design decisions.
 
-
 ## Related Concepts
 
 - [Gravity Assist Flyby](/glossary/orbits/gravity-assist-flyby/)
 - [Resonance Cycler](/glossary/orbits/resonance-cycler/)
 - [Periodic Orbit](/glossary/orbits/periodic-orbit/)
 - [Dynamical Substitute](/glossary/orbits/dynamical-substitute/)
-
 
 ## References
 

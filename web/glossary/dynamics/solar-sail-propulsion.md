@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/solar-sail-propulsion/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - [共振条件](/glossary/dynamics/resonance-condition/)
 - [低推力平衡点](/glossary/dynamics/low-thrust-equilibrium-point/)
+
 ## 参考文献
 
 - 人工平动点附近混合推进航天器编队滑模控制保持

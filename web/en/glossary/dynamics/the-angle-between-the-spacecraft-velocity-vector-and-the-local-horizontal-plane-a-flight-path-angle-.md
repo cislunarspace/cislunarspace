@@ -22,15 +22,13 @@ twitter:
 permalink: /en/glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-and-the-local-horizontal-plane-a-flight-path-angle-/
 ---
 
-# The angle between the spacecraft velocity vector and the local horizontal plane. A flight path angle of zero indicates the velocity is tangent to the local horizontal, corresponding to the periapsis (or apoapsis) characteristic. The paper uses flight path angle as the differential correction termination condition: integration halts when the angle reaches zero with a negative derivative, identifying the perilune point for constraint evaluation.
+# The angle between the spacecraft velocity vector and the local horizontal plane. A flight path angle of zero indicates the velocity is tangent to the local horizontal, corresponding to the periapsis (or apoapsis) characteristic. The paper uses flight path angle as the differential correction termination condition: integration halts when the angle reaches zero with a negative derivative, identifying the perilune point for constraint evaluation
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
-
-
 
 ## Application Value
 

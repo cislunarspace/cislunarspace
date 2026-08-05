@@ -36,13 +36,11 @@ A satellite constellation based on libration point orbits (LPOs), achieving comm
 
 Navigation system design and implementation must account for observation geometry, error propagation, and signal transmission delay. This concept supports positioning accuracy evaluation, navigation filter design, and constellation optimization.
 
-
 ## Related Concepts
 
 - [Lunar Surface Receiver](/en/glossary/navigation/lunar-surface-receiver/)
 - [Geometric Dilution of Precision, GDOP](/en/glossary/navigation/geometric-dilution-of-precision-gdop/)
 - [Satellite-to-Satellite Tracking, SST](/en/glossary/navigation/satellite-to-satellite-tracking-sst/)
-
 
 ## References
 

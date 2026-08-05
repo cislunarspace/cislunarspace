@@ -39,4 +39,3 @@ A low-propellant Earth-Moon transfer exploiting invariant manifolds of two coupl
 
 - Ren et al., Celest. Mech. Dyn. Astron. (2012)
 - Grossi 等 - 2024
-

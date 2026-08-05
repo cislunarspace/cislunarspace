@@ -36,14 +36,12 @@ A mathematical model where the propulsion system outputs a sustained force over 
 
 The continuous thrust model is the core mathematical framework for electric propulsion orbital design. Unlike chemical propulsion's impulsive model, electric propulsion thrusts small but continuously for months, requiring time-continuous functions to describe control acceleration. In trajectory optimization, using B-splines or Fourier series parameterization substantially reduces optimization variable dimensionality, transforming an originally infinite-dimensional optimal control problem into a solvable numerical optimization problem. This model has wide applications in Earth-Moon transfers, lunar landing ascent, and interplanetary missions, particularly suited for mission profiles characterized by small thrust but long flight time.
 
-
 ## Related Concepts
 
 - [Impulsive Thrust Model](/en/glossary/dynamics/impulsive-thrust-model/)
 - [Electric Propulsion](/en/glossary/programs/electric-propulsion/)
 - [Trajectory Optimization](/en/glossary/fundamentals/trajectory-optimization/)
 - [Thrust Arc](/en/glossary/fundamentals/thrust-arc/)
-
 
 ## References
 

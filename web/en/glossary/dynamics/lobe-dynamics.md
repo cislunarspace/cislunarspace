@@ -36,14 +36,12 @@ A theory and method for analyzing material transport between different regions o
 
 Lobe dynamics is a precise tool for analyzing material transport in chaotic systems. In solar system interplanetary transfer missions, this method can identify natural transport channels utilizing planetary gravity assist, with transfer times reaching millions of years. By tracking lobe structures in phase space, orbital designers can determine which initial conditions spontaneously transport to target celestial body vicinity in the chaotic sea, enabling design of nearly-zero-propellant interplanetary transfer orbits. In cislunar space missions, lobe dynamics is equally applicable for analyzing particle transport characteristics near halo orbit regions, providing reference value for space debris protection and spacecraft collision early warning.
 
-
 ## Related Concepts
 
 - [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
 - [Poincare Section](/en/glossary/dynamics/poincare-section/)
 - [Chaotic Sea](/en/glossary/dynamics/chaotic-sea/)
 - [Low-Energy Transfer](/en/glossary/orbits/low-energy-transfer/)
-
 
 ## References
 

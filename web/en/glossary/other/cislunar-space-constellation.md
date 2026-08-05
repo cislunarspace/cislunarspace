@@ -36,12 +36,11 @@ A satellite network system deployed across multiple orbits in cislunar space to 
 
 This term has important reference value in cislunar space research and engineering applications.
 
-
 ## Related Concepts
+
 - [Vertical Take-off Vertical Landing](/en/glossary/other/vertical-take-off-vertical-landing/)
 - [On-Orbit Refueling](/en/glossary/other/on-orbit-refueling/)
 
-
-
 ## References
+
 - Zhang 等 - 2025 - Cislunar space constellation design for future lunar resource development and utilization

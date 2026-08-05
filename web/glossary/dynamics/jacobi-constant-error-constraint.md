@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/jacobi-constant-error-constraint/
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
+
 ## 参考文献
 
 - Cuevas del Valle 等 - 2023

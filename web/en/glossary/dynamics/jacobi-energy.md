@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/jacobi-energy/
 
 The energy integral in the restricted three-body problem, defined as C = -2E = -(ẋ²+ẏ²) + 2Ω where Ω is the pseudo-potential function. Jacobi energy partitions phase space accessible regions: below the L₁ threshold, transit through the L₁ neck is possible; below the L₂ threshold, travel between cislunar and exterior space becomes feasible. The core parameter for classifying cislunar transfer trajectories in this paper.
 
-
 ## Related Concepts
-
 
 ## References
 

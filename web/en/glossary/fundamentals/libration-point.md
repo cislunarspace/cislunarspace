@@ -36,13 +36,11 @@ In the restricted three-body problem, five points where the gravitational pull o
 
 在航天器动力学建模中，需要准确描述引力场、摄动力和坐标系变换。该概念是进行轨道力学分析、姿态控制和任务设计的基础。
 
-
 ## Related Concepts
 
 - [Jacobian Matrix](/en/glossary/fundamentals/jacobian-matrix/)
 - [Pseudo-Potential Function](/en/glossary/fundamentals/pseudo-potential-function/)
 - [Sun-Earth-Moon System](/en/glossary/fundamentals/sun-earth-moon-system/)
-
 
 ## References
 

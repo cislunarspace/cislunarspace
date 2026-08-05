@@ -23,6 +23,7 @@ permalink: /en/glossary/orbits/northern-halo-orbit/
 ---
 
 # Northern Halo Orbit
+>
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
@@ -35,14 +36,12 @@ Members of the halo orbit family with predominantly positive z-component, where 
 
 The Northern Halo Orbit is significant in cislunar space mission design, analysis, and control. It can be used for transfer trajectory optimization during orbital design, navigation and control for improved mission precision and reliability, and system analysis to understand multi-body dynamical behavior and guide mission planning.
 
-
 ## Related Concepts
 
 - [低月球轨道（Low Lunar Orbit, LLO）](/en/glossary/orbits/low-lunar-orbit-llo/)
 - [复合周期轨道（Complex Periodic Orbit）](/en/glossary/orbits/complex-periodic-orbit/)
 - [轨道转移级（Orbital Transfer Stage）](/en/glossary/other/orbital-transfer-stage/)
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/en/glossary/orbits/halo-orbit-insertion-hoi/)
-
 
 ## References
 

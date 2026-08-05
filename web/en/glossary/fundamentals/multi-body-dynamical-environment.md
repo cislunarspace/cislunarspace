@@ -35,12 +35,14 @@ The spacecraft operating space where gravitational fields of multiple celestial 
 ## Application Value
 
 In cislunar space, the combined gravitational influence of Earth, Moon, and Sun governs orbital evolution. Multi-body coupling produces orbital structures far more complex than two-body dynamics, but also provides pathways for low-energy transfers. Orbit designers must fully consider the multi-body dynamical environment.
+
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
 - [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
 - [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
+
 ## References
 
 - Folta 等 - 2012 - Applications of multi-body dynamical environments the ARTEMIS transfer trajectory design

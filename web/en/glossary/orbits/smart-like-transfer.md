@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/smart-like-transfer/
 
 A class of low-energy cislunar transfer trajectories exemplified by ESA's SMART-1 mission. The spacecraft's Jacobi energy is just below the L₁ critical value with the neck region barely open, undergoing multiple resonance hops near the Moon to progressively shift into new near-resonant states until entering the Moon's sphere of influence. Classified as cislunar (as opposed to translunar) transfers.
 
-
 ## Application Value
 
 根据Jacobi能量划分转移可行区域，可以快速筛选出满足任务约束的地月转移轨道方案，减少轨道优化的搜索空间。
 
-
 ## References
 
 - Liang et al. 2016
-

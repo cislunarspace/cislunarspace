@@ -42,6 +42,7 @@ This concept plays an important role in cislunar orbit design and transfer analy
 - [Powered Lunar Flyby, PLF](/en/glossary/dynamics/plf/)
 - [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
 - [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
+
 ## References
 
 - Wang 等 - 2025 - Mechanism analysis of the DRO low-energy transfer problem An energy perspective.

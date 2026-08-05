@@ -38,6 +38,7 @@ Mathematical models describing the laws of solar radiation pressure effects on s
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - - 王小亚 等 - 2017 - 导航卫星精密定轨技术

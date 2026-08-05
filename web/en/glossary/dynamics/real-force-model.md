@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/real-force-model/
 
 A realistic force model of the Earth-Moon system that includes the Moon's orbital eccentricity and solar gravitational perturbation, closer to actual flight conditions than the CRTBP model.
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - Liu 等 - 2014 - Application of two special orbits in the orbit determination of lunar satellites
-

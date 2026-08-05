@@ -35,12 +35,14 @@ A Poincare map defined at apse locations using the condition r-bar dot v-bar = 0
 ## Application Value
 
 The Apse Poincare Map is defined at apse locations using the condition r-dot v = 0, used to identify potential transfer arcs by visualizing intersections of resonant manifolds with conic arc segments.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Vaquero和Howell - 2014

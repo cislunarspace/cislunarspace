@@ -31,4 +31,3 @@ permalink: /en/glossary/dynamics/allowed-region/
 ## Definition
 
 Region in configuration space reachable by a spacecraft with sufficient kinetic energy under the Jacobi constant constraint.
-

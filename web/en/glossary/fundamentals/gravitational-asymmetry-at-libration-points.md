@@ -40,5 +40,4 @@ The gravitational field near libration points in the Earth-Moon three-body syste
 
 ## References
 
-- https://doi.org/10.1016/j.asr.2024.04.016
-
+- <https://doi.org/10.1016/j.asr.2024.04.016>

@@ -32,9 +32,7 @@ permalink: /en/glossary/navigation/navigation-constellation/
 
 A system of multiple navigation satellites arranged in a specific orbital configuration to provide positioning, navigation, and timing services to user spacecraft. Unlike near-Earth GNSS constellations, cislunar navigation constellations are deployed on special orbits such as libration point orbits and DROs, enabling long-term autonomous operation without ground support.
 
-
 ## Related Concepts
-
 
 ## References
 

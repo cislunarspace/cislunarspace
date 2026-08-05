@@ -38,6 +38,7 @@ The mathematical function to be minimized or maximized in an optimization proble
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
+
 ## References
 
 - - Neelakantan和Ramanan - 2022 - Two-impulse transfer to multi-revolution halo orbits in the Earth–moon elliptic restricted three bod

@@ -42,6 +42,7 @@ This concept has application value in cislunar space research and engineering pr
 - [Weak Stability Boundary-like Ballistic Transfer, WSB-like](/en/glossary/orbits/wsb-like/)
 - [Planar Lunar Orbit, PLO](/en/glossary/orbits/plo/)
 - [Low-thrust Orbit Transfer](/en/glossary/orbits/low-thrust-orbit-transfer/)
+
 ## References
 
 - /home/ouyangjiahong/Downloads/地月空间相关/output/Parker和Born - 2008 - Direct lunar halo orbit transfers/hybrid_auto/Parker和Born - 2008 - Direct lunar halo orbit transfers.md.

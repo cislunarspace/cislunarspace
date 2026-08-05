@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/gravitational-potential/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - [共振条件](/glossary/dynamics/resonance-condition/)
 - [低推力平衡点](/glossary/dynamics/low-thrust-equilibrium-point/)
+
 ## 参考文献
 
 - 黄勇 等 - 2023 - 地月空间探测器星间测距自主定轨

@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/indirect-optimal-control/
 - [网格搜索（Grid Search）](/glossary/fundamentals/grid-search/)
 - [Gauss求积公式（Gauss Quadrature Formula）](/glossary/fundamentals/gauss-quadrature-formula/)
 - [星座构型向量（Constellation Pattern Vector）](/glossary/fundamentals/constellation-pattern-vector/)
+
 ## 参考文献
 
 - Kulik et al., 2023, JGCD, doi:10.2514/1.G007311

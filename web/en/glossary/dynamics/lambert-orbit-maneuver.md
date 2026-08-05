@@ -36,14 +36,12 @@ An orbital maneuver method that uses Lambert's problem to solve for the optimal 
 
 Lambert orbit maneuver is a core orbital design tool in circumlunar rendezvous and lunar landing missions. By adjusting transfer time, orbital designers can find transfer trajectories with minimum velocity increment between given departure and arrival positions. The effect of transfer time on velocity increment exhibits periodic variation; at certain specific time windows, velocity increment can be substantially reduced. In actual missions, mission planners must comprehensively consider propellant budget, launch window, and orbit lifetime to select optimal transfer time. This method can be used for both single large orbital transfers and in-plane fine-tuning maneuvers, representing a fundamental technique in lunar mission orbital design.
 
-
 ## Related Concepts
 
 - [Lambert Problem](/en/glossary/fundamentals/lambert-problem/)
 - [Two-Impulse Rendezvous Maneuver](/en/glossary/dynamics/two-impulse-rendezvous-maneuver/)
 - [Delta-V](/en/glossary/fundamentals/delta-v/)
 - [Circumlunar Orbit](/en/glossary/orbits/circumlunar-orbit/)
-
 
 ## References
 

@@ -36,14 +36,12 @@ A single optimal trajectory segment between two adjacent patch points in a patch
 
 In low-thrust transfer missions to the Moon or beyond, flight times can extend to months or even years. The segmentation strategy of transfer legs decomposes this very long problem into several independently solvable two-point boundary value problems, substantially improving convergence of each subproblem. In engineering practice, orbits can be re-estimated at each patch point and control strategies corrected, effectively suppressing long-term integration error accumulation. This method is particularly important for halo orbit deployment and Lunar Gateway resupply missions, handling trajectory optimization challenges under extremely low thrust acceleration such as electric propulsion.
 
-
 ## Related Concepts
 
 - [Two-Point Boundary Value Problem](/en/glossary/fundamentals/two-point-boundary-value-problem/)
 - [Thrust Arc](/en/glossary/fundamentals/thrust-arc/)
 - [Coast Arc](/en/glossary/fundamentals/coast-arc/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
-
 
 ## References
 

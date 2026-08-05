@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - Howell and Kakoi, 2006, Acta Astronautica, Transfers between the Earth–Moon and Sun–Earth systems using manifolds and transit orbits

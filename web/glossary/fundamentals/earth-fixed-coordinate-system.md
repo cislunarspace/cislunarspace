@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/earth-fixed-coordinate-system/
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
 - [惯性坐标系](/glossary/fundamentals/inertial-reference-frame/)
 - [哈密顿量](/glossary/fundamentals/hamiltonian/)
+
 ## 参考文献
 
 - 邓辉 等 - 2017 - 地月系共线平动点探测器的星上轨道预报问题

@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/shape-method/
 
 A preliminary design method for low-thrust trajectories. It uses analytical functions with undetermined parameters (shape functions) to approximate the geometry of transfer trajectories and derives control accelerations as initial guesses for optimal control solvers. Common shape functions include inverse polynomials, exponential sinusoids, and Fourier series.
 
-
 ## Application Value
 
 In a linear quadratic optimal control framework, selecting appropriate weight matrices Q and R achieves a balance between tracking accuracy and control energy consumption, making it suitable for real-time control in cislunar orbit keeping.
 
-
 ## References
 
 - 平动点周期轨道间小推力转移的Gauss伪谱法
-

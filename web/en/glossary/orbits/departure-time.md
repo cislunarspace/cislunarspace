@@ -36,13 +36,12 @@ The instant when a spacecraft applies the departure impulse from a parking orbit
 
 Departure Time plays an important role in orbit maneuver design, analysis, and transfer planning for cislunar missions.
 
-
 ## Related Concepts
+
 - [Proximity Operations](/en/glossary/orbits/proximity-operations/)
 - [Lyapunov Periodic Orbit](/en/glossary/orbits/lyapunov-periodic-orbit/)
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
-
 
 ## References
 

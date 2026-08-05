@@ -36,13 +36,11 @@ An observation scheme where multiple satellites alternate to maintain continuous
 
 在观测系统设计中，需要考虑传感器性能、观测几何和数据处理方法。该概念支撑目标检测、跟踪和识别等任务。
 
-
 ## Related Concepts
 
 - [Cross-Track Baseline](/en/glossary/observation/cross-track-baseline/)
 - [SDA Constellation](/en/glossary/observation/sda-constellation/)
 - [Limiting Magnitude](/en/glossary/observation/limiting-magnitude/)
-
 
 ## References
 

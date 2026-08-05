@@ -41,4 +41,3 @@ A differential correction method that uses weighted least-squares to estimate or
 ## References
 
 - Uncertain Lambert Problem
-

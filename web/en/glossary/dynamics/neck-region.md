@@ -35,12 +35,14 @@ A narrow passage near a collinear libration point that serves as the sole connec
 ## Application Value
 
 The Neck Region near a collinear libration point serves as the sole connection between the Earth region and the Moon region in cislunar space. The neck barely opens when Jacobi energy is just below C₁, permitting low-energy transfers. Understanding neck region dynamics is critical for trajectory design between Earth and Moon regions.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Liang et al. 2016

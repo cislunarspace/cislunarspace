@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/tangential-thrust-control/
 
 A simplified control strategy that always aligns the thrust direction with the velocity vector. For circular orbits in a central gravitational field, tangential thrust is the most efficient way to increase orbital energy and semi-major axis in the shortest time. This strategy serves as a reliable approximation to the optimal escape program.
 
-
 ## Application Value
 
 In a linear quadratic optimal control framework, selecting appropriate weight matrices Q and R achieves a balance between tracking accuracy and control energy consumption, making it suitable for real-time control in cislunar orbit keeping.
 
-
 ## References
 
 - Du et al. 2024
-

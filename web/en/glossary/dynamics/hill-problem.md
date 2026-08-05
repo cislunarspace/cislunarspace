@@ -38,6 +38,7 @@ The limiting case of the restricted three-body problem as the mass parameter app
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Mingotti et al., 2012, Transfers to distant periodic orbits around the Moon via their invariant manifolds

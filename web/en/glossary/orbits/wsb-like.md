@@ -42,6 +42,7 @@ This concept plays an important role in cislunar orbit design and transfer analy
 - [Planar Lunar Orbit, PLO](/en/glossary/orbits/plo/)
 - [Low-thrust Orbit Transfer](/en/glossary/orbits/low-thrust-orbit-transfer/)
 - [Single-shooting Differential Corrector](/en/glossary/orbits/ssdc/)
+
 ## References
 
 - Chao 等 - 2022.

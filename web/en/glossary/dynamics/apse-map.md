@@ -35,12 +35,14 @@ Short for Apse Poincare Map; a Poincare map defined at apse locations for trajec
 ## Application Value
 
 The Apse Poincare Map records intersection distributions at apse sections, revealing the periodicity and chaos of dynamical systems. Orbit designers use it to assess the stability of transfer orbits.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Vaquero和Howell - 2014

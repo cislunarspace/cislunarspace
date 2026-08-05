@@ -32,9 +32,7 @@ permalink: /en/glossary/orbits/ll1-halo-orbit-transit/
 
 Earth-Moon transfer via Halo orbit near LL1. Halo orbit adds one more design dimension beyond libration points, providing more launch window options. (M,N)-loopy transiting trajectories from LL1-Halo transit serve for low-thrust transfer design.
 
-
 ## Related Concepts
-
 
 ## References
 

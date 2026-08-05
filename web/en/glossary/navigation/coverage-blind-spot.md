@@ -43,7 +43,6 @@ Coverage blind spots in cislunar navigation constellations result from GNSS sign
 - [Inter-Satellite Link Ranging](/en/glossary/observation/inter-satellite-link-ranging/)
 - [Relative Navigation](/en/glossary/navigation/relative-navigation/)
 
-
 ## References
 
 - 地月空间导航星座设计：架构特征、指标构建与技术演进

@@ -38,6 +38,7 @@ In the Circular Restricted Three-Body Problem, the region of allowed motion in c
 - [Mass Parameter](/en/glossary/fundamentals/mass-parameter/)
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+
 ## References
 
 - Szebehely, 1967, Theory of orbits

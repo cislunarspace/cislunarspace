@@ -23,6 +23,7 @@ permalink: /en/glossary/navigation/halo-orbit-rendezvous/
 ---
 
 # Halo Orbit Rendezvous
+>
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
@@ -35,7 +36,6 @@ A control process for spacecraft to achieve relative position and velocity match
 
 The Halo Orbit Rendezvous plays a significant role in cislunar space mission design, analysis, and control. In orbital design, it can be leveraged for transfer trajectory optimization; in navigation and control, it improves mission execution precision and reliability; in system analysis, it facilitates deeper understanding of complex multi-body dynamical behavior, guiding mission planning and risk assessment.
 
-
 ## Related Concepts
 
 - [High-Orbit GNSS Side Lobe Reception](/en/glossary/navigation/high-orbit-gnss-side-lobe-reception/)
@@ -43,7 +43,6 @@ The Halo Orbit Rendezvous plays a significant role in cislunar space mission des
 - [Maneuver Classification](/en/glossary/navigation/maneuver-classification/)
 - [Identifiability Degree](/en/glossary/navigation/identifiability-degree/)
 
-
 ## References
 
-- https://doi.org/10.1177/0954410020940892
+- <https://doi.org/10.1177/0954410020940892>

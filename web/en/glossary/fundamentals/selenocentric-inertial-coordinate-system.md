@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/selenocentric-inertial-coordinate-system/
 
 An inertial coordinate system centered at the Moon. In this paper, the XY plane is defined as the lunar orbital plane with the X-axis aligned to the Earth-Moon line at the initial epoch. This non-rotating frame is used to describe the state of libration point orbits in the selenocentric reference.
 
-
 ## Related Concepts
-
 
 ## References
 

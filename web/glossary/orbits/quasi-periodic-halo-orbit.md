@@ -41,6 +41,7 @@ permalink: /glossary/orbits/quasi-periodic-halo-orbit/
 - [稳定周期远距离逆行轨道（Stable Periodic Distant Retrograde Orbit, SPDRO）](/glossary/orbits/stable-periodic-distant-retrograde-orbit-spdro/)
 - [Halo轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [弱稳定区转移（Weak Stability Region Transfer）](/glossary/orbits/weak-stability-region-transfer/)
+
 ## 参考文献
 
 - Gómez et al. 2001, Ch.3

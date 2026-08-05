@@ -35,12 +35,14 @@ A staged LPO constellation optimization method: the first step rapidly screens c
 ## Application Value
 
 两步优化算法先进行全局搜索再进行局部优化，是求解复杂轨道优化问题的有效策略。
+
 ## Related Concepts
 
 - [Satellite-to-Satellite Tracking, SST](/en/glossary/navigation/satellite-to-satellite-tracking-sst/)
 - [Closest Approach Vector, CAV](/en/glossary/navigation/closest-approach-vector-cav/)
 - [Geometric Dilution of Precision](/en/glossary/navigation/geometric-dilution-of-precision/)
 - [Space-based Tracking Station](/en/glossary/navigation/space-based-tracking-station/)
+
 ## References
 
 - Xu et al., 2026, Tsinghua University Press

@@ -38,6 +38,7 @@ Control strategy incorporating Jacobi constant error of reference orbit as const
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
+
 ## References
 
 - Cuevas del Valle et al., 2023
