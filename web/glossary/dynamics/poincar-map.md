@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/poincar-map/
 - [PS截面（PS Section）](/glossary/dynamics/ps-section/)
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
+
 ## 参考文献
 
 - Gómez et al. 2001, Ch.2,3

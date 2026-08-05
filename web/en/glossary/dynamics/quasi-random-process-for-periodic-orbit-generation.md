@@ -36,13 +36,12 @@ A method for discovering periodic orbits by selecting an arbitrary initial posit
 
 Quasi-random Process for Periodic Orbit Generation plays an important role in orbit maneuver design, analysis, and transfer planning for cislunar missions.
 
-
 ## Related Concepts
+
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
 - [Map Projection](/en/glossary/fundamentals/map-projection/)
-
 
 ## References
 

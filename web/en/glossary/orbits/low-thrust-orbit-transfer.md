@@ -42,6 +42,7 @@ This concept plays an important role in cislunar orbit design and transfer analy
 - [Weak Stability Boundary-like Ballistic Transfer, WSB-like](/en/glossary/orbits/wsb-like/)
 - [Planar Lunar Orbit, PLO](/en/glossary/orbits/plo/)
 - [Single-shooting Differential Corrector](/en/glossary/orbits/ssdc/)
+
 ## References
 
 - Pozzi 等 - 2025.

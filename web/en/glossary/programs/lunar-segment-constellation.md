@@ -38,6 +38,7 @@ The lunar-coverage portion of a global lunar navigation and communication conste
 - [On-Orbit Servicing](/en/glossary/doctrine/on-orbit-servicing/)
 - [Chaser](/en/glossary/fundamentals/chaser/)
 - [Ride-share](/en/glossary/programs/ride-share/)
+
 ## References
 
 - Conti and Circi, 2025, Design of halo orbit constellation for lunar global positioning and communication services

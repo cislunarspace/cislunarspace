@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/an-iterative-method-that-maps-terminal-constraint-residuals-back-to-initial-velocity-corrections-via/
 ---
 
-# An Iterative Method that Maps Terminal Constraint Residuals Back to Initial Velocity Corrections via the State Transfer Matrix. In libration point Halo orbit transfer design, it uses perilune distance and flight path angle as constraints, computing velocity increment corrections through partial derivatives decomposed by the state transfer matrix. The algorithm converges quickly for strongly nonlinear problems but is sensitive to initial guesses, requiring invariant manifolds to provide starting values.
+# An Iterative Method that Maps Terminal Constraint Residuals Back to Initial Velocity Corrections via the State Transfer Matrix. In libration point Halo orbit transfer design, it uses perilune distance and flight path angle as constraints, computing velocity increment corrections through partial derivatives decomposed by the state transfer matrix. The algorithm converges quickly for strongly nonlinear problems but is sensitive to initial guesses, requiring invariant manifolds to provide starting values
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

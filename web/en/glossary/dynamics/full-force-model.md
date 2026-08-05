@@ -38,6 +38,7 @@ A spacecraft equation of motion accounting for all major perturbation sources, i
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Liu et al., 2024, A novel autonomous navigation constellation in the Earth-Moon system

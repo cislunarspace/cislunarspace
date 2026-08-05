@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
 - [Exterior Phase](/en/glossary/orbits/exterior-phase/)
 
-
 ## References
 
 - 丁百慧 等 - 2023 - 载人月球探测任务转移轨道及月面着陆区评估分析

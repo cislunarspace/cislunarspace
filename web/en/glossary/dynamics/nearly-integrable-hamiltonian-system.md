@@ -39,4 +39,3 @@ A system resulting from a small perturbation of an integrable Hamiltonian system
 ## References
 
 - Celletti - 2010 - Stability and chaos in celestial mechanics
-

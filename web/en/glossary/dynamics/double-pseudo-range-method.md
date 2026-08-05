@@ -29,16 +29,20 @@ permalink: /en/glossary/dynamics/double-pseudo-range-method/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 An initial orbit determination method. Given assumed pseudo-ranges at the first and last observation epochs, the target's position vectors are determined from angular data. A transfer arc (Lambert problem) is solved between these two positions, and theoretical angles at intermediate epochs are computed. The pseudo-ranges are iteratively refined by minimizing the residuals between theoretical and observed angles.
 
 ## Application Value
+
 This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
 
 ## Related Concepts
+
 - [Elliptic Restricted Three-Body Problem](/en/glossary/dynamics/elliptic-restricted-three-body-problem/)
 - [Dynamical Consistency](/en/glossary/dynamics/dynamical-consistency/)
 - [Combined Covariance](/en/glossary/dynamics/combined-covariance/)
 - [Nekhorosev Estimates](/en/glossary/dynamics/nekhorosev-estimates/)
 
 ## References
+
 - 侯锡云 等, 2025

@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - 基于三体Lambert算法的平动点交会轨道设计

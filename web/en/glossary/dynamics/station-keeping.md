@@ -38,6 +38,7 @@ The general term for control strategies that keep a spacecraft's actual trajecto
 - [Thruster Modulator](/en/glossary/dynamics/thruster-modulator/)
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
+
 ## References
 
 - Gómez et al., 2001, Ch.3

@@ -30,13 +30,10 @@ permalink: /en/glossary/fundamentals/fuel-exhaust-velocity/
 
 The velocity at which a rocket engine expels propellant, equal to the product of specific impulse and standard gravitational acceleration (c = Isp · g₀). In the Tsiolkovsky rocket equation, exhaust velocity directly determines the velocity increment for a given mass ratio, making it a fundamental engine performance parameter.
 
-
 ## Application Value
 
 This concept is of significant importance in cislunar space research and technical applications, helping to deepen understanding of related physical mechanisms and engineering implementations.
 
-
 ## References
 
 - Du et al. 2024
-

@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/dro-low-energy-capture/
 
 The capture process of entering a DRO with very small impulse through the weak stability boundary transfer mechanism, utilizing solar gravitational perturbation and lunar gravity assist.
 
-
 ## Application Value
 
 Multi-impulse maneuvers apply velocity increments in segments, enabling more flexible Earth-Moon transfer trajectory design and suitable for orbit transfers under complex mission constraints.
 
-
 ## References
 
 - Wang 等 - 2025 - Mechanism analysis of the DRO low-energy transfer problem An energy perspective
-

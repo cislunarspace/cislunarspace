@@ -35,12 +35,14 @@ A parameter describing the size of a distant retrograde orbit in the rotating fr
 ## Application Value
 
 振幅参数描述平动点轨道的大小，是平动点轨道分类和选型的重要参数。
+
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
 - [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
 - [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
+
 ## References
 
 - Tan Minghu et al., 2014, Transfer to long term distant retrograde orbits around the Moon

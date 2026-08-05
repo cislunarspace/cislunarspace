@@ -38,6 +38,7 @@ The intersection line between the lunar orbital plane and the ecliptic, with asc
 - [Mass Parameter](/en/glossary/fundamentals/mass-parameter/)
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+
 ## References
 
 - Sousa-Silva et al., 2018, Fast Earth-Moon transfers with ballistic capture

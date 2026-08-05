@@ -41,4 +41,3 @@ A transfer method connecting libration point orbits of different three-body syst
 ## References
 
 - 李宸硕 等 - 2024 - 基于弱稳定边界理论的低能地月转移轨道设计
-

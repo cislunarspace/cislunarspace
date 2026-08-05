@@ -41,4 +41,3 @@ The angle between the spacecraft position vector and the negative x-axis of the 
 ## References
 
 - 彭坤 等 - 2018 - 三体模型下二维平面地月转移轨道设计与特性分析
-

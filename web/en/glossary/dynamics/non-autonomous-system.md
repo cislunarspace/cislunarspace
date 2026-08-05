@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/non-autonomous-system/
 
 A system whose equations of motion explicitly depend on time; the effective potential varies with time, so no Jacobi integral exists.
 
-
 ## Application Value
 
 有效势能结合了引力和离心势能，决定了零速度曲面的形状和航天器的可达区域。
 
-
 ## References
 
 - Fu 等 - 2024 - A high-order target phase approach for the station-keeping of periodic orbits
-

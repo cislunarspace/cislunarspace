@@ -32,9 +32,7 @@ permalink: /en/glossary/navigation/dro-gnss-shadowing-by-moon/
 
 The phenomenon where the Moon blocks Earth-direction GNSS signal sources during distant retrograde orbits. Shorter-period DROs experience GNSS shadowing for a larger fraction of their orbital period, increasing signal outage and significantly enlarging orbit determination error variance. This is a key factor limiting GNSS-only orbit determination performance on such orbits.
 
-
 ## Related Concepts
-
 
 ## References
 

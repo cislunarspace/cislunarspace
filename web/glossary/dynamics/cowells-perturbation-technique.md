@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/cowells-perturbation-technique/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - [共振条件](/glossary/dynamics/resonance-condition/)
 - [低推力平衡点](/glossary/dynamics/low-thrust-equilibrium-point/)
+
 ## 参考文献
 
 - （暂无参考文献）

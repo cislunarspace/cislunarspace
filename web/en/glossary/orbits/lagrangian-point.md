@@ -36,14 +36,12 @@ The five equilibrium points in a two-body system where a third body of negligibl
 
 Lagrangian points are key strategic positions in cislunar space missions. The Earth-moon L1 point lies along the Earth-moon line and serves as a natural "gateway" into the Earth-moon system, suitable for deploying transfer trajectory transfer stations and communication relay satellites. The Earth-moon L2 point is located about 600,000 km behind the lunar far side, making it an ideal communication relay position for lunar far side exploration — Chang'e-4's Queqiao relay satellite operates in an L2 halo orbit. Utilizing invariant manifolds near L1/L2 points enables design of nearly-zero-propellant low-energy transfer trajectories, substantially reducing mission fuel budgets. L4 and L5 points in the Earth-Sun system are favorable positions for solar storm monitoring, with multiple satellites already operating there.
 
-
 ## Related Concepts
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
 - [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
 - [Libration Point](/en/glossary/orbits/libration-point/)
-
 
 ## References
 

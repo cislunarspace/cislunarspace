@@ -38,6 +38,7 @@ Technique of scaling the Hamiltonian to set one initial costate to unity, used t
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Thorne, 1996

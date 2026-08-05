@@ -23,6 +23,7 @@ permalink: /en/glossary/orbits/perigee-geocentric-distance/
 ---
 
 # Perigee Geocentric Distance
+>
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
@@ -35,14 +36,12 @@ The distance from the perigee of a spacecraft orbit to the Earth's center. In DR
 
 The Perigee Geocentric Distance plays a significant role in cislunar space mission design, analysis, and control. In orbital design, it can be leveraged for transfer trajectory optimization; in navigation and control, it improves mission execution precision and reliability; in system analysis, it facilitates deeper understanding of complex multi-body dynamical behavior, guiding mission planning and risk assessment.
 
-
 ## Related Concepts
 
 - [Football Orbit](/en/glossary/orbits/football-orbit/)
 - [Orbit Chain](/en/glossary/orbits/orbit-chain/)
 - [Prograde Polar Orbit](/en/glossary/orbits/prograde-polar-orbit/)
 - [偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）](/en/glossary/orbits/eccentricity-inclination-vector-separation/)
-
 
 ## References
 

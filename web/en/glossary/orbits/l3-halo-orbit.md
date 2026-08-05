@@ -43,7 +43,6 @@ L3 halo orbits provide line-of-sight relay between Earth and Moon with approxima
 - [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
 - [Exterior Phase](/en/glossary/orbits/exterior-phase/)
 
-
 ## References
 
 - Conti and Circi, 2025, Design of halo orbit constellation for lunar global positioning and communication services

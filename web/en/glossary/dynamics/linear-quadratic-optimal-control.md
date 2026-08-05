@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/linear-quadratic-optimal-control/
 
 For linear systems, a control design that minimizes a weighted quadratic cost of state deviation and control input. The optimal state-feedback gain is obtained by solving the Riccati equation; the weight matrices trade off tracking accuracy against control effort. In cislunar station-keeping, where nondimensional position and velocity errors are of similar magnitude, typical weights Q=10I and R=I yield favorable tracking performance.
 
-
 ## Application Value
 
 This control method can be applied to spacecraft attitude stabilization, orbit keeping, and maneuver trajectory optimization in cislunar space missions, improving mission execution flexibility and reliability.
 
-
 ## References
 
 - Zhang and Wang 2022 Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints
-

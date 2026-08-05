@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/moon-centered-inertial-frame/
 
 A reference frame centered at the Moon's mass center with axes fixed relative to inertial space. Unlike the Moon-Centered Rotating (MCR) frame, the Earth's position is time-varying in the MCI frame, making the CR3BP equations explicitly time-dependent. This paper formulates the CR3BP in the MCI frame rather than the MCR frame so that both two-body and three-body models share the same state vector basis, enabling seamless transition during dynamics continuation.
 
-
 ## Related Concepts
-
 
 ## References
 

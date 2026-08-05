@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/lambert-patching-method/
 
 A hybrid low-energy transfer strategy that patches a Lambert transfer segment with a reverse-integrated trajectory along the principal stretching direction. The patching point requires an impulse to connect the two segments, and the ratio of segment durations balances transfer time against fuel cost.
 
-
 ## Application Value
 
 Multi-impulse maneuvers apply velocity increments in segments, enabling more flexible Earth-Moon transfer trajectory design and suitable for orbit transfers under complex mission constraints.
 
-
 ## References
 
 - 彭蕾等, 基于三体问题的地月空间中转站轨道设计, 飞行力学学报, 2024
-

@@ -38,6 +38,7 @@ In the CR3BP, the constant-energy surface where spacecraft velocity is zero, con
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
+
 ## References
 
 - Spreen 2021

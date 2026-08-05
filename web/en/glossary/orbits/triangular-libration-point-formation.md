@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
 - [Exterior Phase](/en/glossary/orbits/exterior-phase/)
 
-
 ## References
 
 - Catlin and McLaughlin, 2007

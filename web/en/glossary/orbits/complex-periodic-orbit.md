@@ -41,4 +41,3 @@ A periodic orbit formed by repeating a fixed sequence of transfers between multi
 ## References
 
 - Parker et al. (2010) Chaining periodic three-body orbits in the Earth-Moon system
-

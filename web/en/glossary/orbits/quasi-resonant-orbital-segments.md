@@ -41,4 +41,3 @@ Orbital segments in the DRO capture phase exhibiting 2:1, 3:1, 4:1, and 5:1 reso
 ## References
 
 - Wang 等 - 2025
-

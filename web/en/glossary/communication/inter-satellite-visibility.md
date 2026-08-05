@@ -36,14 +36,12 @@ The geometric condition enabling inter-satellite link communication between two 
 
 在轨道设计阶段，可利用该轨道类型构建候选轨道池，为星座部署和任务轨道选择提供参考。在轨运行时，该轨道特性可用于轨道维持策略设计，降低推进剂消耗。在轨道转移规划中，其稳定流形结构可指导低能量转移走廊的搜索。
 
-
 ## Related Concepts
 
 - [Operational Orbit Library](/en/glossary/orbits/operational-orbit-library/)
 - [Lunar Free-Return Orbit, LFO](/en/glossary/orbits/lunar-free-return-orbit-lfo/)
 - [Critical Orbit](/en/glossary/orbits/critical-orbit/)
 - [Quasi-Periodic Distant Retrograde Orbit, QPDRO](/en/glossary/orbits/quasi-periodic-distant-retrograde-orbit-qpdro/)
-
 
 ## References
 

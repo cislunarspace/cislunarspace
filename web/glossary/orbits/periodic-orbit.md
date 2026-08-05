@@ -42,6 +42,7 @@ permalink: /glossary/orbits/periodic-orbit/
 - [共振循环轨道](/glossary/orbits/resonance-cycler/)
 - [周期轨道](/glossary/orbits/periodic-orbit/)
 - [动力学替代轨道](/glossary/orbits/dynamical-substitute/)
+
 ## 参考文献
 
 - Alessi 等 - 2009 - Leaving the moon by means of invariant manifolds of libration point orbits

@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/method-of-variation-of-constants/
 
 ## 相关概念
 
-- [ Gauss 伪谱法（Gauss Pseudospectral Method）](/glossary/fundamentals/gauss-pseudospectral-method/)
+- [Gauss 伪谱法（Gauss Pseudospectral Method）](/glossary/fundamentals/gauss-pseudospectral-method/)
 - [周期轨道（Periodic Orbit）](/glossary/orbits/periodic-orbit/)
-- [ Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
+- [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [形状函数（Shape Function）](/glossary/fundamentals/shape-function/)
 
 ## 参考文献

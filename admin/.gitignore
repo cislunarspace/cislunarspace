@@ -1,0 +1,5 @@
+# 构建产物与运行时数据（不提交）
+node_modules/
+web/dist/
+logs/
+trash/

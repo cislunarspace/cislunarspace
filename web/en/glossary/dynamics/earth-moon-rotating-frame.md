@@ -23,6 +23,7 @@ permalink: /en/glossary/dynamics/earth-moon-rotating-frame/
 ---
 
 # Earth-Moon Rotating Frame
+>
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
@@ -35,14 +36,12 @@ A rotating reference frame with origin at the Earth-Moon barycenter, x-axis poin
 
 The Earth-Moon Rotating Frame plays a significant role in cislunar space mission design, analysis, and control. In orbital design, it can be leveraged for transfer trajectory optimization; in navigation and control, it improves mission execution precision and reliability; in system analysis, it facilitates deeper understanding of complex multi-body dynamical behavior, guiding mission planning and risk assessment.
 
-
 ## Related Concepts
 
 - [J2-Invariant Orbit](/en/glossary/dynamics/j2-invariant-orbit/)
 - [Interior Point Optimization](/en/glossary/dynamics/interior-point-optimization/)
 - [N-Body Dynamics](/en/glossary/dynamics/n-body-dynamics/)
 - [Start-End State Constraint](/en/glossary/dynamics/start-end-state-constraint/)
-
 
 ## References
 

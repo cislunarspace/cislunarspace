@@ -32,9 +32,7 @@ permalink: /en/glossary/observation/lunar-surface-coverage-assessment/
 
 Assessment of the lunar surface regions reachable from a given orbit. NRHO, Halo, and DRO all achieve full lunar surface accessibility, but DRO requires longer transfer times and higher delta-V, while NRHO excels for polar observations and short-duration missions.
 
-
 ## Related Concepts
-
 
 ## References
 

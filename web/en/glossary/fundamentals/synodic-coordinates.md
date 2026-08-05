@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/synodic-coordinates/
 
 A reference frame rotating with the two-body system, with the x-axis along the line connecting the two bodies.
 
-
 ## Related Concepts
-
 
 ## References
 

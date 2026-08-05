@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/orbit-chaining/
 
 A technique to form initial guesses by connecting intermediate orbits within a halo orbit family. Since Jacobi constants vary continuously in the orbit family, inserting intermediate halo orbits between departure and target orbits yields a smooth energy transition for the initial guess.
 
-
 ## Application Value
 
 The Halo orbit family provides long-term stable parking points for cislunar space missions, serving as a transit station to the lunar south pole region and deep space.
 
-
 ## References
 
 - Kayama 等 - 2022
-

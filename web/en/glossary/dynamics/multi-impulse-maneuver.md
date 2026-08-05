@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/multi-impulse-maneuver/
 
 Multiple impulsive maneuvers in orbit transfer, enabling segmented adjustment of orbital parameters for more flexible trajectory design.
 
-
 ## Application Value
 
 Multi-impulse maneuvers apply velocity increments in segments, enabling more flexible Earth-Moon transfer trajectory design and suitable for orbit transfers under complex mission constraints.
 
-
 ## References
 
 - Chen 等 - 2026
-

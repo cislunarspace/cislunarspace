@@ -36,6 +36,7 @@ An orbit constructed using directions corresponding to singular values close to 
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+
 ## References
 
 - - Liu 等 - 2025 - Rendezvous and docking operations in near rectilinear halo orbits

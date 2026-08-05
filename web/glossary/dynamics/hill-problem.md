@@ -42,6 +42,7 @@ Hill问题是质量参数趋于零时的限制性三体问题极限情形，此�
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
 - [稳定性（Stability）](/glossary/dynamics/stability/)
+
 ## 参考文献
 
 - Mingotti et al., 2012, Transfers to distant periodic orbits around the Moon via their invariant manifolds

@@ -22,15 +22,13 @@ twitter:
 permalink: /en/glossary/dynamics/the-branch-of-the-eml2-halo-orbit-stable-manifold-that-extends-toward-the-moon-unlike-the-right-poin/
 ---
 
-# The branch of the EML2 Halo orbit stable manifold that extends toward the Moon. Unlike the right-pointing manifold which extends away from the Moon, the left-pointing stable manifold asymptotically approaches the Halo orbit in backward integration and moves along the Earth-Moon line toward the lunar side in forward integration, eventually reaching the Moon's vicinity. It is the key orbital structure for low-energy transfers from lunar orbit to EML2 Halo orbit.
+# The branch of the EML2 Halo orbit stable manifold that extends toward the Moon. Unlike the right-pointing manifold which extends away from the Moon, the left-pointing stable manifold asymptotically approaches the Halo orbit in backward integration and moves along the Earth-Moon line toward the lunar side in forward integration, eventually reaching the Moon's vicinity. It is the key orbital structure for low-energy transfers from lunar orbit to EML2 Halo orbit
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
-
-
 
 ## Application Value
 

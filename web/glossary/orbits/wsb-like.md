@@ -42,6 +42,7 @@ permalink: /glossary/orbits/wsb-like/
 - [平面月球轨道（Planar Lunar Orbit, PLO）](/glossary/orbits/plo/)
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
 - [单次打靶微分修正器（Single-shooting Differential Corrector）](/glossary/orbits/ssdc/)
+
 ## 参考文献
 
 - Chao 等 - 2022。

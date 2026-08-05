@@ -40,4 +40,3 @@ A trajectory optimization approach that transforms the optimal control problem i
 ## References
 
 - Singh et al., 2021
-

@@ -35,11 +35,13 @@ A libration point orbit maintenance method based on Floquet theory. It decompose
 ## Application Value
 
 The Floquet Modal Method decomposes state deviations into six Floquet modes corresponding to unstable, neutral, and stable components. Impulse control eliminates only the exponentially growing unstable component while neglecting slowly varying ones. Compared to nominal trajectory tracking, this method consumes less fuel and features long impulse intervals, making it suitable for deep-space missions sensitive to instrument disturbances.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
+
 ## References
 
-- https://doi.org/10.3873/j.issn.1000-1328.2024.09.007
+- <https://doi.org/10.3873/j.issn.1000-1328.2024.09.007>

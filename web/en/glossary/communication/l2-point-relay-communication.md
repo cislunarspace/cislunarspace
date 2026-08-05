@@ -35,13 +35,11 @@ Continuous communication between Earth and the lunar far side using relay satell
 
 In lunar far-side landing missions, L2 Halo orbit relay satellites maintain continuous communication with both Earth and the lunar far side, serving as critical infrastructure for Chang'e-4 and other far-side exploration missions. Mission designers utilize the L2 relay communication architecture to plan landing sequences, ensuring that far-side probes maintain constant contact with ground control.
 
-
 ## Related Concepts
 
 - [月球中继卫星系统（Lunar Relay Satellite System, LRSS）](/en/glossary/communication/lunar-relay-satellite-system-lrss/)
 - [天基测控站（Space-based Tracking Station）](/en/glossary/navigation/space-based-tracking-station/)
 - [双向相干多普勒（Two-Way Coherent Doppler）](/en/glossary/observation/two-way-coherent-doppler/)
-
 
 ## References
 

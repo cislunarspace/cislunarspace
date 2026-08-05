@@ -29,16 +29,20 @@ permalink: /en/glossary/fundamentals/delta-v/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 Sum of two impulsive velocity changes, representing the total transfer cost.
 
 ## Application Value
+
 This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
 
 ## Related Concepts
+
 - [Sigmoid Function](/en/glossary/fundamentals/sigmoid-function/)
 - [Deep Residual Network, ResNet](/en/glossary/fundamentals/deep-residual-network-resnet/)
 - [Instantaneous Classical Orbit Elements](/en/glossary/fundamentals/instantaneous-classical-orbit-elements/)
 - [Thrust Coefficient](/en/glossary/fundamentals/thrust-coefficient/)
 
 ## References
+
 - Topputo 2013

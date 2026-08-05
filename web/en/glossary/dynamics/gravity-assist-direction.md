@@ -36,13 +36,11 @@ The relative orientation between spacecraft velocity direction at perilune and t
 
 In orbital design, analysis, and control, dynamics models are used to predict spacecraft trajectories, with equations of motion solved numerically or analytically. This concept underpins critical mission capabilities including orbital maneuver design, orbit improvement, and formation flying.
 
-
 ## Related Concepts
 
 - [Orbit Improvement](/en/glossary/dynamics/orbit-improvement/)
 - [Cluster Aggregation](/en/glossary/dynamics/cluster-aggregation/)
 - [Pseudospectral Method](/en/glossary/dynamics/pseudospectral-method/)
-
 
 ## References
 

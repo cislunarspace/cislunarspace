@@ -22,15 +22,13 @@ twitter:
 permalink: /en/glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a-small-velocity-increment-adjustment-to-the-natura/
 ---
 
-# A modified invariant manifold formed by applying a small velocity increment adjustment to the natural invariant manifold. Since the natural manifold's perilune distance usually does not match the target lunar orbit radius, an impulse at the Halo orbit injection point reshapes the manifold to satisfy the selenocentric distance constraint. Perturbed manifolds extend the transfer phase range beyond the two fixed points of natural zero-cost trajectories.
+# A modified invariant manifold formed by applying a small velocity increment adjustment to the natural invariant manifold. Since the natural manifold's perilune distance usually does not match the target lunar orbit radius, an impulse at the Halo orbit injection point reshapes the manifold to satisfy the selenocentric distance constraint. Perturbed manifolds extend the transfer phase range beyond the two fixed points of natural zero-cost trajectories
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
-
-
 
 ## Application Value
 

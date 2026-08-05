@@ -35,12 +35,14 @@ A method using angular and radial quantities as Poincaré section coordinates, w
 ## Application Value
 
 The Angle-Distance Section Method uses angular and radial quantities as Poincare section coordinates, maintaining geometric clarity regardless of section inclination angle. It is superior to traditional coordinate representations for trajectory analysis.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - 利用拉格朗日点的深空探测技术

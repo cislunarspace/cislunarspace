@@ -45,4 +45,4 @@ permalink: /glossary/navigation/libration-point-navigation-constellation/
 
 ## 参考文献
 
-- https://doi.org/10.1016/j.asr.2024.04.016
+- <https://doi.org/10.1016/j.asr.2024.04.016>

@@ -43,7 +43,6 @@ Three-impulse insertion from LEO to DRO comprises departure, perilune redirectio
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - 魏赞等2026北航学报

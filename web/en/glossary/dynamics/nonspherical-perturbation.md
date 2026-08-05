@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/nonspherical-perturbation/
 
 The difference between a celestial body's actual gravitational field and that of an ideal point mass. The gravitational fields of the Earth and Moon are modeled via spherical harmonic expansion; higher expansion orders yield greater accuracy but increase computational cost. In cislunar guidance, near-Earth segments use high-order expansion (e.g., order 21), while distant segments can be reduced to low-order or point-mass models.
 
-
 ## Application Value
 
 This concept is of significant importance in cislunar space research and technical applications, helping to deepen understanding of related physical mechanisms and engineering implementations.
 
-
 ## References
 
 - Wang 等 - 2024 - Low-energy earth–moon transfer autonomous guidance considering high-fidelity orbital dynamics
-

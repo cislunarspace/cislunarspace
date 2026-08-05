@@ -38,4 +38,3 @@ An iterative strategy that starts from a high thrust level and progressively red
 ## References
 
 - Kayama 等 - 2022
-

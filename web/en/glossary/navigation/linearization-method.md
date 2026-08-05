@@ -32,9 +32,7 @@ permalink: /en/glossary/navigation/linearization-method/
 
 An analytical method that approximates dynamical equations near an equilibrium point by their linear terms. Conley linearizes the restricted three-body problem at a collinear Lagrange point, obtaining a Hamiltonian system with one real and one imaginary pair of eigenvalues. By Moser's generalization of Lyapunov's theorem, the nine classes of orbital behavior (transit, nontransit, and asymptotic, each in three variants) described by the linear equations carry over completely to the nonlinear case.
 
-
 ## Related Concepts
-
 
 ## References
 

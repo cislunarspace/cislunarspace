@@ -40,4 +40,3 @@ A transfer scheme applying three impulses sequentially at departure, perilune, a
 
 - 魏赞等2026北航学报
 - Vepa - 2024 - Space vehicle maneuvering, propulsion, dynamics and control
-

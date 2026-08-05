@@ -35,12 +35,14 @@ A numerical method that uses the linear approximation of the state transition ma
 ## Application Value
 
 The Differential Correction Method establishes a linear mapping between deviations and corrections using the state transition matrix, serving as the standard method for solving two-point boundary value problems in the three-body Lambert problem. Orbit designers use it to accurately compute libration point rendezvous orbits.
+
 ## Related Concepts
 
 - [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
 - [Multi-Body Dynamical Environment](/en/glossary/fundamentals/multi-body-dynamical-environment/)
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
 - [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
+
 ## References
 
 - 基于三体Lambert算法的平动点交会轨道设计

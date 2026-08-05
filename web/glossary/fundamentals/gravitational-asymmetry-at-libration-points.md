@@ -48,4 +48,4 @@ permalink: /glossary/fundamentals/gravitational-asymmetry-at-libration-points/
 
 ## 参考文献
 
-- https://doi.org/10.1016/j.asr.2024.04.016
+- <https://doi.org/10.1016/j.asr.2024.04.016>

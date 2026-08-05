@@ -42,6 +42,7 @@ Richardson（1980）利用Lindstedt-Poincaré方法得到的圆型限制性三�
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
 - [惯性坐标系](/glossary/fundamentals/inertial-reference-frame/)
 - [哈密顿量](/glossary/fundamentals/hamiltonian/)
+
 ## 参考文献
 
 - Halo轨道的航天器编队构型设计

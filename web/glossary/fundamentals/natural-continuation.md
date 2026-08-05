@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/natural-continuation/
 - [网格搜索（Grid Search）](/glossary/fundamentals/grid-search/)
 - [Gauss求积公式（Gauss Quadrature Formula）](/glossary/fundamentals/gauss-quadrature-formula/)
 - [星座构型向量（Constellation Pattern Vector）](/glossary/fundamentals/constellation-pattern-vector/)
+
 ## 参考文献
 
 - Conti and Circi, 2025, Design of halo orbit constellation for lunar global positioning and communication services

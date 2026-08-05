@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/third-body-perturbation/
 
 Gravitational perturbation on a spacecraft's orbit caused by a third celestial body (such as the Sun or Moon) in addition to the primary body. Essential for accurate trajectory computation in cislunar missions.
 
-
 ## Related Concepts
-
 
 ## References
 

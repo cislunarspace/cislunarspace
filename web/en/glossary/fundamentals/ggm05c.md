@@ -42,4 +42,4 @@ The GGM05C地球重力场模型 concept is applied in cislunar space research, p
 
 ## References
 
-- https://doi.org/10.1016/j.asr.2024.04.016
+- <https://doi.org/10.1016/j.asr.2024.04.016>

@@ -37,6 +37,7 @@ A halo orbit subjected to periodic perturbations (e.g. solar gravity) in the rea
 - [Stable Periodic Distant Retrograde Orbit, SPDRO](/en/glossary/orbits/stable-periodic-distant-retrograde-orbit-spdro/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+
 ## References
 
 - Gómez et al., 2001, Ch.3

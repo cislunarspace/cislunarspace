@@ -41,4 +41,3 @@ The terminal constraint condition in optimal control problems that determines th
 
 - You and Dai, 2022, JGCD, doi:10.2514/1.G006815
 - Ozimek和Howell 2010
-

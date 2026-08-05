@@ -35,12 +35,14 @@ The difference in right ascension between the spacecraft and the target body in 
 ## Application Value
 
 赤经偏差是实际位置与预期位置的赤经差异，导航系统设计师用它修正轨道确定误差。
+
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
 - [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
 - [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
+
 ## References
 
 - 高玉东 等 - 2006 - 地月空间飞行轨道分层搜索设计

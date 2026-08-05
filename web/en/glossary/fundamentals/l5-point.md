@@ -32,9 +32,7 @@ permalink: /en/glossary/fundamentals/l5-point/
 
 One of triangular libration points in Earth-Moon system, trailing Earth-Moon by 60 degrees in orbital motion.
 
-
 ## Related Concepts
-
 
 ## References
 

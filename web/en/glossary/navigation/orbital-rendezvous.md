@@ -23,6 +23,7 @@ permalink: /en/glossary/navigation/orbital-rendezvous/
 ---
 
 # Orbital Rendezvous
+>
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
@@ -35,14 +36,12 @@ A controlled approach process in which two spacecraft match position and velocit
 
 The Orbital Rendezvous plays a significant role in cislunar space mission design, analysis, and control. In orbital design, it can be leveraged for transfer trajectory optimization; in navigation and control, it improves mission execution precision and reliability; in system analysis, it facilitates deeper understanding of complex multi-body dynamical behavior, guiding mission planning and risk assessment.
 
-
 ## Related Concepts
 
 - [High-Orbit GNSS Side Lobe Reception](/en/glossary/navigation/high-orbit-gnss-side-lobe-reception/)
 - [Maneuver Classification](/en/glossary/navigation/maneuver-classification/)
 - [Identifiability Degree](/en/glossary/navigation/identifiability-degree/)
 - [A Priori Constraint](/en/glossary/navigation/a-priori-constraint/)
-
 
 ## References
 

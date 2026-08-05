@@ -36,13 +36,12 @@ A non-inertial reference frame centered at the barycenter of two primary bodies 
 
 Synodic Reference Frame has important applications in cislunar space navigation and orbit determination systems.
 
-
 ## Related Concepts
+
 - [Map Projection](/en/glossary/fundamentals/map-projection/)
 - [Thrust Magnitude](/en/glossary/fundamentals/thrust-magnitude/)
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
-
 
 ## References
 

@@ -30,13 +30,10 @@ permalink: /en/glossary/fundamentals/geometric-optimal-control/
 
 A theoretical framework that applies differential geometry to optimal control problems. It treats optimal control problems as geometric objects on state spaces, using tools such as the maximum principle, fields of extremals, and conjugate point theory to analyze the structure and local optimality of optimal trajectories. In astrodynamics, it provides a rigorous mathematical foundation for fuel-optimal trajectory design.
 
-
 ## Application Value
 
 In a linear quadratic optimal control framework, selecting appropriate weight matrices Q and R achieves a balance between tracking accuracy and control energy consumption, making it suitable for real-time control in cislunar orbit keeping.
 
-
 ## References
 
 - Caillau et al. 2012 - Minimum fuel control of the planar circular restricted three-body problem
-

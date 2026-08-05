@@ -45,4 +45,4 @@ permalink: /glossary/navigation/halo-orbit-rendezvous/
 
 ## 参考文献
 
-- https://doi.org/10.1177/0954410020940892
+- <https://doi.org/10.1177/0954410020940892>

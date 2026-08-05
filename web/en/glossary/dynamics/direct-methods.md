@@ -43,7 +43,6 @@ Direct methods transform infinite-dimensional optimal control into finite nonlin
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - Vellutini & Avanzini, 2014, Shape-based design of low-thrust trajectories to cislunar lagrangian point

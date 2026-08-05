@@ -35,13 +35,11 @@ A scalar function constructed from state and costate variables in optimal contro
 
 This concept plays a key role in trajectory transfer design, helping evaluate transfer costs and flight time to provide quantitative basis for mission trade studies. Combined with global search algorithms, multiple solution families and Pareto frontiers can be identified to guide orbital design decisions.
 
-
 ## Related Concepts
 
 - [Scheduled and Pinpoint Landing](/glossary/fundamentals/scheduled-and-pinpoint-landing/)
 - [Surface of Section, SOS](/glossary/fundamentals/surface-of-section-sos/)
 - [Truncation Strategy](/glossary/fundamentals/truncation-strategy/)
-
 
 ## References
 

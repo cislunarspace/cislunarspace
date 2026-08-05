@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/eigenmotion-method/
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
 - [稳定性（Stability）](/glossary/dynamics/stability/)
+
 ## 参考文献
 
 - Shimane et al. 2025; Elango et al. 2022

@@ -36,6 +36,7 @@ A transfer strategy in which a small maneuver shifts a spacecraft from the vicin
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+
 ## References
 
 - - Folta 等 - 2012 - Applications of multi-body dynamical environments the ARTEMIS transfer trajectory design

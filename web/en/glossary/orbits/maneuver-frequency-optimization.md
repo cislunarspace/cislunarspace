@@ -35,12 +35,14 @@ The process of selecting the optimal time interval between stationkeeping maneuv
 ## Application Value
 
 Maneuver Frequency Optimization selects the optimal time interval between station-keeping maneuvers. For Earth-Moon libration point orbits, maneuver frequency directly affects delta-V consumption and operational complexity. Weekly frequency effectively controls accumulated errors while matching navigation solution delivery cadence.
+
 ## Related Concepts
 
 - [Orbit Phase](/en/glossary/orbits/orbit-phase/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Parking Orbit](/en/glossary/orbits/parking-orbit/)
 - [Hohmann Transfer](/en/glossary/orbits/hohmann-transfer/)
+
 ## References
 
 - Folta et al. 2010

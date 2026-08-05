@@ -43,7 +43,6 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
 - [Coplanar Orbital Plane Constraint](/en/glossary/orbits/coplanar-orbital-plane-constraint/)
 
-
 ## References
 
 - 刘磊 等 - 2008 - 多约束条件下的地月转移轨道设计

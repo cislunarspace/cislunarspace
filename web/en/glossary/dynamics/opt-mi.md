@@ -42,6 +42,7 @@ This theory provides a mathematical basis for multi-objective optimization in ci
 - [Powered Lunar Flyby, PLF](/en/glossary/dynamics/plf/)
 - [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
 - [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
+
 ## References
 
 - Cuevas del Valle 等 - 2022.

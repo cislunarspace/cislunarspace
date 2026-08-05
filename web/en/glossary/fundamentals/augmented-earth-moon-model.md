@@ -38,6 +38,7 @@ An approximation in the circular restricted three-body problem that combines the
 - [Mass Parameter](/en/glossary/fundamentals/mass-parameter/)
 - [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+
 ## References
 
 - - Ocampo and Rosborough, 1993; Scott and Spencer, 2010, JGCD, DOI:10.2514/1.47791

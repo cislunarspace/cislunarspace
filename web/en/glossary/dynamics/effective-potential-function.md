@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/effective-potential-function/
 
 A scalar function in the circular restricted three-body problem formed by combining gravitational and centrifugal potentials: Ω = ½(x² + y²) + (1-μ)/r₁ + μ/r₂. It governs the motion constraints of an unpowered spacecraft. Orbit control essentially changes the value of Ω through propulsion to achieve a new trajectory with equivalent dynamical properties.
 
-
 ## Application Value
 
 This control method can be applied to spacecraft attitude stabilization, orbit keeping, and maneuver trajectory optimization in cislunar space missions, improving mission execution flexibility and reliability.
 
-
 ## References
 
 - 梁伟光 等, 2017, 深空探测学报, 4(2): 166-170
-

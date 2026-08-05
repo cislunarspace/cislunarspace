@@ -42,6 +42,7 @@ This concept has application value in cislunar space research and engineering pr
 - [Powered Lunar Flyby, PLF](/en/glossary/dynamics/plf/)
 - [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
 - [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
+
 ## References
 
 - Grossi 等 - 2024.

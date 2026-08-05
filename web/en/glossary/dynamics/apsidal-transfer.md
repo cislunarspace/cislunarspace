@@ -43,7 +43,6 @@ Apsidal transfer via two-impulse optimal control enables efficient coplanar elli
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - 章仁为 - 1998 - 卫星轨道姿态动力学与控制

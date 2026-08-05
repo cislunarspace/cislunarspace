@@ -41,4 +41,3 @@ A constellation system of satellites in circumlunar orbit that provides real-tim
 ## References
 
 - Zhou et al. 2024 - Design of circumlunar global positioning satellite constellation on DRO in the cislunar space
-

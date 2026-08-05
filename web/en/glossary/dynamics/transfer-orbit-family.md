@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/transfer-orbit-family/
 
 A collection of transfer orbits satisfying the same dynamical symmetry and topological structure in restricted three-body or four-body models. These orbits are indexed by continuous parameters (such as velocity components at a Poincaré section), forming a subset of phase space. The paper identified at least 16 families of low-energy lunar trajectories with flybys, each differing significantly in departure time, transfer duration, velocity increment, and perilune altitude distribution.
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - 韦炳威和李银山, 2017
-

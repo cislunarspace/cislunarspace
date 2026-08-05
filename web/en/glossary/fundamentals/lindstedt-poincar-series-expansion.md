@@ -23,6 +23,7 @@ permalink: /en/glossary/fundamentals/lindstedt-poincar-series-expansion/
 ---
 
 # Lindstedt-Poincaré Series Expansion
+>
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
@@ -35,14 +36,12 @@ A high-order semi-analytical perturbation method for computing periodic orbits, 
 
 The Lindstedt-Poincaré Series Expansion plays a significant role in cislunar space mission design, analysis, and control. In orbital design, it can be leveraged for transfer trajectory optimization; in navigation and control, it improves mission execution precision and reliability; in system analysis, it facilitates deeper understanding of complex multi-body dynamical behavior, guiding mission planning and risk assessment.
 
-
 ## Related Concepts
 
 - [Prograde Orbit](/en/glossary/fundamentals/prograde-orbit/)
 - [Strong Legendre Condition](/en/glossary/fundamentals/strong-legendre-condition/)
 - [Unified Orbital Elements](/en/glossary/fundamentals/unified-orbital-elements/)
 - [Small Denominator](/en/glossary/fundamentals/small-denominator/)
-
 
 ## References
 

@@ -41,4 +41,3 @@ Motion pattern under continuous low thrust where the spacecraft gradually change
 ## References
 
 - Pozzi 等 - 2025
-

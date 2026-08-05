@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/unmodelled-acceleration/
 
 Acceleration disturbances not explicitly modeled in the dynamics, such as combined solar radiation pressure and solar gravity effects. Treated as process noise in orbit determination to account for model errors and unmodelled perturbations.
 
-
 ## Related Concepts
-
 
 ## References
 

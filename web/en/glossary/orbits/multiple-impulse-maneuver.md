@@ -41,4 +41,3 @@ An orbital transfer maneuver with multiple velocity impulses applied during flig
 ## References
 
 - Bucchioni和Innocenti 2021
-

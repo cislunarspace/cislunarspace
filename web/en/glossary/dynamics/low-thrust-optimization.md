@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/low-thrust-optimization/
 
 Numerical methods for optimizing low-thrust trajectories, including indirect and direct methods.
 
-
 ## Application Value
 
 This control method can be applied to spacecraft attitude stabilization, orbit keeping, and maneuver trajectory optimization in cislunar space missions, improving mission execution flexibility and reliability.
 
-
 ## References
 
 - Ross 等 - 2022 - Dynamical systems, the three-body problem, and space mission design
-

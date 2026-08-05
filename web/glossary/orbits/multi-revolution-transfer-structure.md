@@ -40,6 +40,7 @@ permalink: /glossary/orbits/multi-revolution-transfer-structure/
 
 - [Halo轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [弱稳定区转移（Weak Stability Region Transfer）](/glossary/orbits/weak-stability-region-transfer/)
+
 ## 参考文献
 
 - Du et al., 2023, Two trajectory configurations for the low-thrust transfer between northern and southern halo orbits

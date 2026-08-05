@@ -36,14 +36,12 @@ A two-dimensional parametric map in the Earth-Moon CR3BP where initial condition
 
 Survival maps serve as a rapid screening tool in orbital design. Engineers can directly determine from colors which initial conditions allow a spacecraft to remain in lunar vicinity or ultimately achieve capture. When designing lunar landing missions, survival maps quickly narrow the search scope to find initial states achieving weak capture with minimum velocity increment. This tool is particularly valuable for halo orbit design near Earth-Moon L2 and halo orbit transfer scenario assessment, substantially reducing computational burden of numerical search.
 
-
 ## Related Concepts
 
 - [Weak Capture](/en/glossary/dynamics/weak-capture/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
 - [Libration Point](/en/glossary/orbits/libration-point/)
-
 
 ## References
 

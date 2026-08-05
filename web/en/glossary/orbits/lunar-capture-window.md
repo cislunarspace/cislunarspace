@@ -36,14 +36,12 @@ The time interval allowing a spacecraft to be captured by the Moon's gravity wel
 
 The lunar capture window is the critical time window for designing low-energy transfer missions. WSB transfer utilizes the lunar capture window to enter natural manifolds of halo orbits, achieving nearly zero-velocity-increment lunar capture. Mission planners must precisely calculate solar phase angle and halo orbit phase; only when both satisfy constraints can manifold patching be completed. Since the usable window set is very small, launch windows for such missions are extremely limited, often appearing only once every several months or even years. Precise calculation of lunar capture windows is a key factor in mission success for Chang'e missions and Artemis program trajectory designs.
 
-
 ## Related Concepts
 
 - [Weak Stability Boundary](/en/glossary/orbits/weak-stability-boundary/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Manifold Patching](/en/glossary/dynamics/manifold-patching/)
 - [Solar Phase Angle](/en/glossary/orbits/solar-phase-angle/)
-
 
 ## References
 

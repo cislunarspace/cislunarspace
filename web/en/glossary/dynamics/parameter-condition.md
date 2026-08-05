@@ -35,12 +35,14 @@ Transversality condition satisfied by unknown time parameters (initial and final
 ## Application Value
 
 参数条件是系统参数必须满足的约束条件，设计师在参数优化中确保满足参数条件以获得物理可行的解。
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Pozzi 等 - 2025

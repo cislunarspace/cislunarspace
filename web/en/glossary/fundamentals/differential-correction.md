@@ -35,14 +35,12 @@ An iterative trajectory correction algorithm that linearizes the objective funct
 
 This concept plays a key role in trajectory transfer design, helping evaluate transfer costs and flight time to provide quantitative basis for mission trade studies. Combined with global search algorithms, multiple solution families and Pareto frontiers can be identified to guide orbital design decisions.
 
-
 ## Related Concepts
 
 - [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
 - [Lunar Free-Return Orbit, LFO](/glossary/orbits/lunar-free-return-orbit/)
 - [Critical Orbit](/glossary/orbits/critical-orbit/)
 - [Quasi-Periodic Distant Retrograde Orbit, QPDRO](/glossary/orbits/quasi-periodic-distant-retrograde-orbit/)
-
 
 ## References
 

@@ -32,9 +32,7 @@ permalink: /en/glossary/orbits/hybrid-multi-conic-method/
 
 A rapid trajectory generation method that approximates complex multi-body orbits by piecewise stitching multiple conic arc segments. Combined with pseudo-perilune parameters, the paper uses this method with iterative correction to rapidly generate high-precision free-return transfer orbit solutions under departure, flyby, and reentry constraints, with computational efficiency far exceeding full numerical shooting.
 
-
 ## Related Concepts
-
 
 ## References
 

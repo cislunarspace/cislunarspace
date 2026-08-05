@@ -42,6 +42,7 @@ permalink: /glossary/orbits/92-synodic-resonant-orbit/
 - [共振循环轨道](/glossary/orbits/resonance-cycler/)
 - [周期轨道](/glossary/orbits/periodic-orbit/)
 - [动力学替代轨道](/glossary/orbits/dynamical-substitute/)
+
 ## 参考文献
 
 - /home/ouyangjiahong/Downloads/地月空间相关/output/Muralidharan和Howell - 2023 - Stretching directions in cislunar space applications for departures and transfer design/hybrid_auto/Muralidharan和Howell - 2023 - Stretching directions in cislunar space applications for departures and transfer design.md

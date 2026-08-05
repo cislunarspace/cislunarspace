@@ -32,9 +32,7 @@ permalink: /en/glossary/orbits/two-maneuver-transfer-design/
 
 A low-energy transfer strategy from LEO to a libration point orbit using exactly two impulsive maneuvers: the first departs the LEO, and the second inserts into either the target Lissajous orbit or a point on its stable invariant manifold. Total delta-v depends on LEO altitude, arrival orbit geometry, manifold insertion point, and insertion angle.
 
-
 ## Related Concepts
-
 
 ## References
 

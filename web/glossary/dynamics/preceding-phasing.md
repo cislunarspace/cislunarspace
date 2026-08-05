@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/preceding-phasing/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - [共振条件](/glossary/dynamics/resonance-condition/)
 - [低推力平衡点](/glossary/dynamics/low-thrust-equilibrium-point/)
+
 ## 参考文献
 
 - 地月远距离逆行轨道脉冲调相方法

@@ -34,8 +34,7 @@ A satellite constellation deployed around libration point orbits in the Earth-Mo
 
 ## Application Value
 
-This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms. 
-
+This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms.
 
 ## Related Concepts
 
@@ -44,8 +43,6 @@ This term在cislunar space missions中has important application value. In orbit 
 - [Core Spacecraft](/en/glossary/navigation/core-spacecraft/)
 - [Code Pseudo-range](/en/glossary/navigation/code-pseudo-range/)
 
-
 ## References
 
 - 刘斌 等 - 2017 - 基于地月三角平动点的卫星自主定轨
-

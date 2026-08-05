@@ -41,4 +41,3 @@ The complete process of performing rendezvous and docking with a space station o
 ## References
 
 - Xie et al., A guidance strategy for rendezvous and docking to the space station in the Earth-moon NRHO orbit, 2024
-

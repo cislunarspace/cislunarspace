@@ -36,13 +36,12 @@ A visualization tool with Jacobi Constant as axes, showing the estimated delta-V
 
 Transfer Cost Heat Map has important applications in cislunar space navigation and orbit determination systems.
 
-
 ## Related Concepts
+
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
 - [Cuboidal Spatial Grid](/en/glossary/navigation/cuboidal-spatial-grid/)
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
-
 
 ## References
 

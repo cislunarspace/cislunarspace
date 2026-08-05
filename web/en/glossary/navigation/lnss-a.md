@@ -36,14 +36,12 @@ The first-phase lunar navigation satellite system designed in this paper. It con
 
 Navigation system design and implementation must account for observation geometry, error propagation, and signal transmission delay. This concept supports positioning accuracy evaluation, navigation filter design, and constellation optimization.
 
-
 ## Related Concepts
 
 - [Lunar Surface Receiver](/en/glossary/navigation/lunar-surface-receiver/)
 - [Geometric Dilution of Precision, GDOP](/en/glossary/navigation/geometric-dilution-of-precision-gdop/)
 - [Satellite-to-Satellite Tracking, SST](/en/glossary/navigation/satellite-to-satellite-tracking-sst/)
 
-
 ## References
 
-- https://doi.org/10.1007/s11430-022-1069-7
+- <https://doi.org/10.1007/s11430-022-1069-7>

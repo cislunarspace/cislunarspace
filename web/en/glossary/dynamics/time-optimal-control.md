@@ -35,12 +35,14 @@ Trajectory optimization objective of minimizing flight time. For low-thrust case
 ## Application Value
 
 Time-Optimal Control minimizes flight time as the trajectory optimization objective. For low-thrust cases, minimizing time and minimizing propellant use are consistent objectives.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Conway - 2010 - Spacecraft trajectory optimization

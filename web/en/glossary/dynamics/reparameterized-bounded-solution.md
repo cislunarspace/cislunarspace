@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/reparameterized-bounded-solution/
 
 The bounded solution of linearized relative motion on DRO expressed as a function of three amplitudes and two initial phase angles, enabling parameterized design for rapid formation trajectory design.
 
-
 ## Related Concepts
-
 
 ## References
 

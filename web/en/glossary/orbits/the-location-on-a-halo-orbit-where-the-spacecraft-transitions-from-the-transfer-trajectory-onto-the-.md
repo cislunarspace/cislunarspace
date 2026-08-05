@@ -22,15 +22,13 @@ twitter:
 permalink: /en/glossary/orbits/the-location-on-a-halo-orbit-where-the-spacecraft-transitions-from-the-transfer-trajectory-onto-the-/
 ---
 
-# The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point.
+# The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
-
-
 
 ## Application Value
 

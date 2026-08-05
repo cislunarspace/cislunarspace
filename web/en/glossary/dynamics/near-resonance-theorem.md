@@ -35,12 +35,14 @@ A theory extending the Liouville and Hartman theorems to near-resonance cases, p
 ## Application Value
 
 The Near Resonance Theorem extends the Liouville and Hartman theorems to near-resonance cases, proving the existence of central manifolds and their interaction with stable and unstable manifolds. It provides theoretical foundation for understanding near-resonance dynamics.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Marchal - 1990 - The three-body problem

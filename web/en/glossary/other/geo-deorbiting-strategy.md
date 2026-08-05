@@ -36,14 +36,12 @@ A strategy for driving end-of-life geostationary satellites into the lunar regio
 
 In orbital design and transfer trajectory optimization, this method is used to determine optimal transfer timing and orbital geometry, minimizing propellant consumption or flight time. Feasible orbital solutions satisfying mission constraints can be obtained through numerical simulation and iterative optimization.
 
-
 ## Related Concepts
 
 - [Advanced Cryogenic Evolved Stage](/en/glossary/other/advanced-cryogenic-evolved-stage/)
 - [Integrated Communication, Navigation and Remote Sensing](/en/glossary/other/integrated-communication-navigation-and-remote-sensing/)
 - [Synodic Rotating Frame](/en/glossary/fundamentals/synodic-rotating-frame/)
 - [Grid Search](/en/glossary/fundamentals/grid-search/)
-
 
 ## References
 

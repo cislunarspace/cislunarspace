@@ -43,7 +43,6 @@ The linear variational Lambert problem maps position variations to velocity vari
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - Uncertain Lambert Problem

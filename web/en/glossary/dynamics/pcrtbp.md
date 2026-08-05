@@ -42,6 +42,7 @@ This provides a fundamental theoretical framework for cislunar dynamics modeling
 - [Powered Lunar Flyby, PLF](/en/glossary/dynamics/plf/)
 - [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
 - [Momentum Integral, MI](/en/glossary/dynamics/Momentum-Integral-MI/)
+
 ## References
 
 - Chao 等 - 2022.

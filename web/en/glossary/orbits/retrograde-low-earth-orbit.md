@@ -41,4 +41,3 @@ A low Earth orbit whose direction of motion is opposite to Earth's rotation. In 
 ## References
 
 - 张科 等 - 2015 - 圆型限制性三体问题中双脉冲地月转移轨道设计研究
-

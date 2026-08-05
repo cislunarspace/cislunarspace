@@ -41,4 +41,3 @@ The event of debris impacting the lunar surface. The paper analyzes lunar impact
 ## References
 
 - Guardabasso 等 - 2023 - Analysis of accidental spacecraft break-up events in cislunar space
-

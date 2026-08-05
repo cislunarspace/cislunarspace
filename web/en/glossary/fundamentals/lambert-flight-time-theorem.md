@@ -30,13 +30,10 @@ permalink: /en/glossary/fundamentals/lambert-flight-time-theorem/
 
 Theorem describing the relationship between transfer orbit flight time and orbital parameters between two given points
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - 任萱 - 1988 - 人造地球卫星轨道力学
-

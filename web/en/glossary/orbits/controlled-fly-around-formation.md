@@ -40,4 +40,3 @@ A fly-around formation configuration on DRO achieved through active control, whe
 ## References
 
 - Yang, Fu & Zhang 2023
-

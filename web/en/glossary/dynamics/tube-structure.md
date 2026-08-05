@@ -35,12 +35,14 @@ The tubular topological structure formed by invariant manifolds of small-amplitu
 ## Application Value
 
 管状结构描述动力学系统中不变流形形成的管状通道，轨道设计师利用管状结构规划低能转移路径。
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - DOI:10.16804/j.cnki.issn1006-3242.2023.05.009

@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/birkhoff-normal-form/
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
 - [惯性坐标系](/glossary/fundamentals/inertial-reference-frame/)
 - [哈密顿量](/glossary/fundamentals/hamiltonian/)
+
 ## 参考文献
 
 - Alessi 等 - 2009 - Leaving the moon by means of invariant manifolds of libration point orbits

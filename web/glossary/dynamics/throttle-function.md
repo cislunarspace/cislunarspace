@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/throttle-function/
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
 - [稳定性（Stability）](/glossary/dynamics/stability/)
+
 ## 参考文献
 
 - Zhang Z et al. 2026, Space Sci. Technol. 6:0441

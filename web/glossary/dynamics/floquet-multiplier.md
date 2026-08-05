@@ -42,6 +42,7 @@ Floquet乘子是周期轨道线化系统单值矩阵的特征值。当主导Floq
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
 - [稳定性（Stability）](/glossary/dynamics/stability/)
+
 ## 参考文献
 
 - Ivanyukhin and Petukhov, 2019, Cosmic Res., 57(5)

@@ -43,7 +43,6 @@ Impulse interval is a key station-keeping design parameter: longer intervals red
 - [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
-
 ## References
 
 - Zhang et al., 2022

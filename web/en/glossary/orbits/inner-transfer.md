@@ -36,13 +36,11 @@ One of the inner/outer transfers via LL2. The spacecraft only reaches LL2 withou
 
 在轨道设计与任务规划中，需要选择合适的轨道类型并分析其动力学特性。该概念对于转移轨道设计、轨道插入和轨道保持具有重要指导意义。
 
-
 ## Related Concepts
 
 - [Synodic Resonance Ratio](/en/glossary/orbits/synodic-resonance-ratio/)
 - [Exterior Capture Low-Energy Transfer Orbit](/en/glossary/orbits/exterior-capture-low-energy-transfer-orbit/)
 - [Orbit Insertion Cost](/en/glossary/orbits/orbit-insertion-cost/)
-
 
 ## References
 

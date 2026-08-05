@@ -38,6 +38,7 @@ The instability property where state deviations grow exponentially when the equi
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - On the control problem of keeping a spacecraft near collinear libration points

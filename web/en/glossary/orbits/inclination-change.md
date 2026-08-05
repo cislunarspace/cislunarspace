@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/inclination-change/
 
 The change in the angle between the orbital plane and a reference plane. In cislunar space, the inclination of vertically stable manifolds can be significantly amplified through multiple lunar flybys, serving as the key physical mechanism for designing NRHO-to-DRO transfers using vertical instability.
 
-
 ## Application Value
 
 DRO以其对初始相位角不敏感的优良特性，成为地月空间任务设计中的重要参考轨道。
 
-
 ## References
 
 - Oshima, 2019, Celestial Mechanics and Dynamical Astronomy
-

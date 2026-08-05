@@ -42,4 +42,3 @@ In nonlinear regulation theory, an autonomous dynamical system describing the so
 
 - Di Giamberardino & Monaco 1996
 - Elobaid et al. 2022
-

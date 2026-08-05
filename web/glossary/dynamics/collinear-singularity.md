@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/collinear-singularity/
 
 ## 相关概念
 
-- [ Lambert 轨道变轨（Lambert Orbit Maneuver）](/glossary/dynamics/lambert-orbit-maneuver/)
+- [Lambert 轨道变轨（Lambert Orbit Maneuver）](/glossary/dynamics/lambert-orbit-maneuver/)
 - [轨道转移（Orbital Transfer）](/glossary/dynamics/orbital-transfer/)
 - [双脉冲交会机动（Two-Impulse Rendezvous Maneuver）](/glossary/dynamics/two-impulse-rendezvous-maneuver/)
 - [共轨交会（Co-Orbital Rendezvous）](/glossary/dynamics/co-orbital-rendezvous/)

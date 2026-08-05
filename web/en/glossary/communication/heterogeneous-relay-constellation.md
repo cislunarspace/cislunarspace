@@ -36,11 +36,10 @@ Complementary-coverage relay constellation composed of ordinary circular orbit a
 
 Heterogeneous Relay Constellation has practical applications in cislunar space mission design and analysis.
 
-
 ## Related Concepts
+
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
-
 
 ## References
 

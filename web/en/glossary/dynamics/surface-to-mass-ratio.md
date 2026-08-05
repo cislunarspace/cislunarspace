@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/surface-to-mass-ratio/
 
 The ratio of a debris or spacecraft's cross-sectional area to its mass, typically measured in m²/kg. The surface-to-mass ratio determines the sensitivity of an object to non-gravitational perturbations such as solar radiation pressure and atmospheric drag. In breakup models, the surface-to-mass ratio of fragments has uncertainty and is a key parameter affecting long-term debris cloud evolution behavior. Larger surface-to-mass ratios lead to more significant perturbation effects and faster orbital evolution.
 
-
 ## Related Concepts
-
 
 ## References
 

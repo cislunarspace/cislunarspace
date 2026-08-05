@@ -29,16 +29,20 @@ permalink: /en/glossary/dynamics/central-floquet-mode/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 In Floquet theory, a mode with complex conjugate eigenvalue pairs of modulus one, corresponding to the central manifold near a periodic orbit and giving rise to quasi-periodic orbits.
 
 ## Application Value
+
 This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
 
 ## Related Concepts
+
 - [Elliptic Restricted Three-Body Problem](/en/glossary/dynamics/elliptic-restricted-three-body-problem/)
 - [Dynamical Consistency](/en/glossary/dynamics/dynamical-consistency/)
 - [Combined Covariance](/en/glossary/dynamics/combined-covariance/)
 - [Nekhorosev Estimates](/en/glossary/dynamics/nekhorosev-estimates/)
 
 ## References
+
 - Gao 等 - 2023 - Low-thrust station-keeping control for lunar near rectilinear halo orbits

@@ -42,6 +42,7 @@ permalink: /glossary/orbits/ssdc/
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/wsb-like/)
 - [平面月球轨道（Planar Lunar Orbit, PLO）](/glossary/orbits/plo/)
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
+
 ## 参考文献
 
 - Wang 等 - 2019 - Joint navigation performance of distant retrograde orbits and cislunar orbits via LiAISON。

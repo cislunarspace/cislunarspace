@@ -35,12 +35,14 @@ Equilibrium points maintaining fixed relative positions to two bodies in a two-b
 ## Application Value
 
 Lagrange Points are equilibrium points maintaining fixed relative positions to two bodies in a two-body system. The Earth-Moon system has five libration points (L1-L5), offering diverse locations for cislunar infrastructure.
+
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
 - [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
 - [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
 - [JPL DE430 Ephemeris](/en/glossary/fundamentals/jpl-de430-ephemeris/)
+
 ## References
 
 - Trajectory selection strategy for tours in the Earth-moon system

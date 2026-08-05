@@ -43,7 +43,6 @@ Slack variables transform inequality constraints into equality constraints in no
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
 - [Coplanar Orbital Plane Constraint](/en/glossary/orbits/coplanar-orbital-plane-constraint/)
 
-
 ## References
 
 - 张晨和张皓 - 2022 - 基于月球借力的低能DRO入轨策略

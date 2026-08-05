@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/energy-range/
 
 Feasible Earth-Moon transfer regions classified by Jacobi energy: cases a, b, c, d.
 
-
 ## Application Value
 
 根据Jacobi能量划分转移可行区域，可以快速筛选出满足任务约束的地月转移轨道方案，减少轨道优化的搜索空间。
 
-
 ## References
 
 - Topputo 2013
-

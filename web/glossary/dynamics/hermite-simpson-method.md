@@ -42,6 +42,7 @@ Hermite-Simpson方法是一类直接配点法，用于离散化连续最优控�
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
 - [稳定性（Stability）](/glossary/dynamics/stability/)
+
 ## 参考文献
 
 - Kayama 等 - 2022

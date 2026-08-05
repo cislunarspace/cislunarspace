@@ -36,13 +36,12 @@ One of the two fundamental Halo orbit station-keeping strategies, proposed by Fa
 
 Target Mode has practical applications in cislunar space mission design and analysis.
 
-
 ## Related Concepts
+
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
 - [Map Projection](/en/glossary/fundamentals/map-projection/)
-
 
 ## References
 

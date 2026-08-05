@@ -36,14 +36,12 @@ A matrix composed of partial derivatives of multivariable functions, describing 
 
 偏导数阵是地月空间研究的基础理论和方法。在实际应用中，该概念为轨道设计、导航计算和动力学分析提供了理论支撑，是理解更复杂空间任务问题的前提。
 
-
 ## Related Concepts
 
 - [牛顿万有引力定律（Newton's Law of Gravitation）](/en/glossary/fundamentals/newtons-law-of-gravitation/)
 - [三角级数（Trigonometric Series）](/en/glossary/fundamentals/trigonometric-series/)
 - [发射三要素（Three Launch Elements）](/en/glossary/fundamentals/three-launch-elements/)
 - [伪势（Pseudo-Potential）](/en/glossary/fundamentals/pseudo-potential/)
-
 
 ## References
 

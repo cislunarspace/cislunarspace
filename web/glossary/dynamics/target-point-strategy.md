@@ -42,6 +42,7 @@ permalink: /glossary/dynamics/target-point-strategy/
 - [间接法](/glossary/dynamics/indirect-methods/)
 - [共振条件](/glossary/dynamics/resonance-condition/)
 - [低推力平衡点](/glossary/dynamics/low-thrust-equilibrium-point/)
+
 ## 参考文献
 
 - Howell and Pernicka, 1993; Hou et al., 2011

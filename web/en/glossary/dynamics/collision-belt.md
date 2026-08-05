@@ -34,8 +34,7 @@ Regions in phase space where trajectories collide with the Moon, identified by x
 
 ## Application Value
 
-This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms. 
-
+This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms.
 
 ## Related Concepts
 
@@ -44,8 +43,6 @@ This term在cislunar space missions中has important application value. In orbit 
 - [Energy Dissipation Method](/en/glossary/dynamics/energy-dissipation-method/)
 - [Unstable Manifold](/en/glossary/dynamics/unstable-manifold/)
 
-
 ## References
 
 - Ren 等 - 2020
-

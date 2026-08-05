@@ -34,8 +34,7 @@ One of two solution categories in the Lambert problem. The arc angle from depart
 
 ## Application Value
 
-This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms. 
-
+This term在cislunar space missions中has important application value. In orbit design, it can be used foroptimizing transfer trajectories, reducing mission fuel consumption. In attitude control and dynamics analysis, it helps understandthe motion characteristics of spacecraft in complex gravitational fields, providing theoretical support for mission planning. In navigation and orbit determination, methods based on this termcan improve orbit prediction accuracy, supporting the development of autonomous navigation algorithms.
 
 ## Related Concepts
 
@@ -44,8 +43,6 @@ This term在cislunar space missions中has important application value. In orbit 
 - [Pseudo-Equinoctial Orbital Elements](/en/glossary/orbits/pseudo-equinoctial-orbital-elements/)
 - [Conic Orbit](/en/glossary/fundamentals/conic-orbit/)
 
-
 ## References
 
 - Shen和Tsiotras - 2003 - Optimal two-impulse rendezvous using multiple-revolution lambert solutions
-

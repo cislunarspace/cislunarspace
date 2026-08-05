@@ -36,6 +36,7 @@ A satellite concept that continuously hovers above a planetary or lunar pole, ma
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+
 ## References
 
 - - Grebow et al. 2008

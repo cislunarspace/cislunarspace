@@ -35,12 +35,14 @@ Using two-impulse Lambert approach in CR3BP framework to compute transfer trajec
 ## Application Value
 
 CR3BP兰伯特问题求解三体系统中两点间的转移轨道，是平动点轨道设计的基本问题，设计师用微分修正法求解此类边值问题。
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Bucchioni 等 - 2023 - Phasing with near rectilinear Halo orbits Design and comparison

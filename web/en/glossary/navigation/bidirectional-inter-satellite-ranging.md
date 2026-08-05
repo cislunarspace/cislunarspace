@@ -23,6 +23,7 @@ permalink: /en/glossary/navigation/bidirectional-inter-satellite-ranging/
 ---
 
 # Bidirectional Inter-Satellite Ranging
+>
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
@@ -35,14 +36,12 @@ A technique where two spacecraft simultaneously transmit ranging signals to each
 
 The Bidirectional Inter-Satellite Ranging plays a significant role in cislunar space mission design, analysis, and control. In orbital design, it can be leveraged for transfer trajectory optimization; in navigation and control, it improves mission execution precision and reliability; in system analysis, it facilitates deeper understanding of complex multi-body dynamical behavior, guiding mission planning and risk assessment.
 
-
 ## Related Concepts
 
 - [High-Orbit GNSS Side Lobe Reception](/en/glossary/navigation/high-orbit-gnss-side-lobe-reception/)
 - [Orbital Rendezvous](/en/glossary/navigation/orbital-rendezvous/)
 - [Maneuver Classification](/en/glossary/navigation/maneuver-classification/)
 - [Identifiability Degree](/en/glossary/navigation/identifiability-degree/)
-
 
 ## References
 

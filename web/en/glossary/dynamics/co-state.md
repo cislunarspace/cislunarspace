@@ -35,12 +35,14 @@ Variables conjugate to the state in optimal control, used to enforce optimality 
 ## Application Value
 
 Co-state variables are conjugate to the state in optimal control, used to enforce optimality constraints. They play a fundamental role in indirect optimization methods for trajectory design.
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Autonomous Optical-Only Spacecraft-to-Spacecraft Absolute Tracking and Maneuver Classification in Cislunar Space

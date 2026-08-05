@@ -35,14 +35,12 @@ The core maneuver strategy of SMART-1-like low-energy transfers. Each time the s
 
 This concept plays a key role in trajectory transfer design, helping evaluate transfer costs and flight time to provide quantitative basis for mission trade studies. Combined with global search algorithms, multiple solution families and Pareto frontiers can be identified to guide orbital design decisions.
 
-
 ## Related Concepts
 
 - [Differential Correction](/glossary/fundamentals/differential-correction/)
 - [Indirect Methods](/glossary/dynamics/indirect-methods/)
 - [Resonance Condition](/glossary/dynamics/resonance-condition/)
 - [Low Thrust Equilibrium Point](/glossary/dynamics/low-thrust-equilibrium-point/)
-
 
 ## References
 

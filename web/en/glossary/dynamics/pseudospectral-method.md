@@ -36,13 +36,11 @@ A variant of the collocation method that uses Lagrange interpolating polynomials
 
 In orbital design, analysis, and control, dynamics models are used to predict spacecraft trajectories, with equations of motion solved numerically or analytically. This concept underpins critical mission capabilities including orbital maneuver design, orbit improvement, and formation flying.
 
-
 ## Related Concepts
 
 - [Orbit Improvement](/en/glossary/dynamics/orbit-improvement/)
 - [Cluster Aggregation](/en/glossary/dynamics/cluster-aggregation/)
 - [Gravity Gradient Torque](/en/glossary/dynamics/gravity-gradient-torque/)
-
 
 ## References
 

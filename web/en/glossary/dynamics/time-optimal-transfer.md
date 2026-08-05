@@ -36,13 +36,12 @@ An orbit optimization problem with minimum transfer time as the objective functi
 
 Time-Optimal Transfer plays an important role in orbit maneuver design, analysis, and transfer planning for cislunar missions.
 
-
 ## Related Concepts
+
 - [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
 - [Optimal Sliding Mode Control, OSMC](/en/glossary/dynamics/optimal-sliding-mode-control/)
 - [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
 - [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
-
 
 ## References
 

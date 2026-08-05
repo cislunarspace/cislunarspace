@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/1-1-orbital-resonance/
 
 An orbital resonance where the orbital period ratio between the small body and the secondary mass is 1:1. The motion near triangular libration points belongs to this class. The stable region's angular momentum deviation scales as O(μ^(1/2)).
 
-
 ## Related Concepts
-
 
 ## References
 

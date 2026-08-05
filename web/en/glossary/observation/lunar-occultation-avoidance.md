@@ -43,7 +43,6 @@ This constraint ensures full-arc visibility of Earth communication links in L2 o
 - [Lunar Occultation Avoidance](/en/glossary/observation/lunar-occultation-avoidance/)
 - [Lunar Exclusion Angle](/en/glossary/observation/lunar-exclusion-angle/)
 
-
 ## References
 
 - 梁伟光 等, 2017, 深空探测学报, 4(2): 166-170

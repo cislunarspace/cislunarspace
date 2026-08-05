@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/formation-stationkeeping/
 
 A control strategy in formation flight missions that periodically applies correction maneuvers to counteract the effects of navigation errors, execution errors, and natural perturbations on the relative motion configuration, maintaining formation safety and configuration accuracy. DRO formation stationkeeping must jointly consider sensitivity propagation, safety constraints, and engineering constraints such as navigation convergence time.
 
-
 ## Related Concepts
-
 
 ## References
 

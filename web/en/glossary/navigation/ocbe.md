@@ -42,6 +42,7 @@ This control method is suitable for attitude and orbit control of cislunar space
 - [Keep-Out Sphere](/en/glossary/navigation/kos/)
 - [Final Approach Sphere](/en/glossary/navigation/fas/)
 - [Collision Avoidance Maneuver](/en/glossary/navigation/cam/)
+
 ## References
 
 - Autonomous Optical-Only Spacecraft-to-Spacecraft Absolute Tracking and Maneuver Classification in Cislunar Space.

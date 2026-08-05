@@ -29,16 +29,20 @@ permalink: /en/glossary/orbits/asymptotic-orbit/
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
+
 An orbit that asymptotically approaches a libration point periodic orbit along its invariant manifold. Since the approach is asymptotic, the spacecraft spirals around the periodic orbit for multiple revolutions without ever truly reaching it, significantly increasing transfer time. This is one of the core problems addressed by the paper.
 
 ## Application Value
+
 This term has application value in the design and analysis of cislunar space missions, supporting trajectory design, mission planning, and system optimization. Researchers can analyze its physical mechanisms and engineering applicability based on specific mission requirements to advance cislunar space exploration technology.
 
 ## Related Concepts
+
 - [Orbit Insertion Point Condition](/en/glossary/orbits/orbit-insertion-point-condition/)
 - [Hybrid Gravity Assist Transfer](/en/glossary/orbits/hybrid-gravity-assist-transfer/)
 - [Phase Angle of Perilune](/en/glossary/orbits/phase-angle-of-perilune/)
 - [Relative Periodic Orbit](/en/glossary/orbits/relative-periodic-orbit/)
 
 ## References
+
 - 郑越和赵敏 2023, §0, §1.2

@@ -32,9 +32,7 @@ permalink: /en/glossary/dynamics/b-spline-control-parameterization/
 
 A method of parameterizing continuous thrust control signals using B-spline basis functions. The control signal is expressed as a weighted sum of B-spline functions with control points as optimization variables. A q-th order B-spline with non-repeated internal knots ensures C^q continuity. This approach converts the infinite-dimensional continuous thrust problem into a finite-dimensional parameter optimization, widely used in trajectory optimization and attitude control.
 
-
 ## Related Concepts
-
 
 ## References
 

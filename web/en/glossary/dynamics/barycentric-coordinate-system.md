@@ -30,13 +30,10 @@ permalink: /en/glossary/dynamics/barycentric-coordinate-system/
 
 A rotating coordinate frame with origin at the Earth-Moon system barycenter, rotating with the Moon's orbital angular velocity. Used for deriving CR3BP equations.
 
-
 ## Application Value
 
 This dynamic method or concept has significant application value in cislunar space mission analysis, helping to understand and optimize spacecraft motion characteristics.
 
-
 ## References
 
 - Rendezvous and Proximity Operations in Cislunar Space Using Linearized Dynamics for Estimation
-

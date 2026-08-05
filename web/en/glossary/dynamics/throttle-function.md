@@ -38,6 +38,7 @@ In a multimode propulsion system, the function characterizing propellant mass fl
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - - Zhang Z et al. 2026, Space Sci. Technol. 6:0441

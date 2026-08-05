@@ -38,6 +38,7 @@ A topological invariant of symplectic matrix paths, used in stability analysis o
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 - [Stability](/en/glossary/dynamics/stability/)
+
 ## References
 
 - Meyer and Offin, 2017

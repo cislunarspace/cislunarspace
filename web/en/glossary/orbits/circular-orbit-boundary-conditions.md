@@ -30,13 +30,10 @@ permalink: /en/glossary/orbits/circular-orbit-boundary-conditions/
 
 Boundary condition setting that uses circular orbit position and velocity as the start and end points of the boundary value problem, a fundamental assumption in continuous-thrust transfer analysis.
 
-
 ## Application Value
 
 This orbital design method can be applied to transfer trajectory design, orbit keeping, and mission planning in cislunar space missions, improving spacecraft performance and mission flexibility.
 
-
 ## References
 
 - Thorne 1996
-

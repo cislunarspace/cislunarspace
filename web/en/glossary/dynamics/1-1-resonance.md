@@ -35,12 +35,14 @@ The resonance when the short-period frequency equals the solar synodic frequency
 ## Application Value
 
 1-1共振是周期比为1:1的轨道共振现象，在地月系统中表现为航天器轨道周期与月球轨道周期相同。
+
 ## Related Concepts
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
+
 ## References
 
 - Gómez 等 - 2001

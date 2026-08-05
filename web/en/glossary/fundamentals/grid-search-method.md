@@ -38,4 +38,3 @@ A method that searches for feasible trajectories by uniformly discretizing initi
 ## References
 
 - Liang et al. 2016
-

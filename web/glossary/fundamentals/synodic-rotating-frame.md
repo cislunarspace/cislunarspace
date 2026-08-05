@@ -42,6 +42,7 @@ permalink: /glossary/fundamentals/synodic-rotating-frame/
 - [Gauss求积公式（Gauss Quadrature Formula）](/glossary/fundamentals/gauss-quadrature-formula/)
 - [星座构型向量（Constellation Pattern Vector）](/glossary/fundamentals/constellation-pattern-vector/)
 - [着陆缓冲机构（Landing Impact Attenuation Mechanism）](/glossary/fundamentals/landing-impact-attenuation-mechanism/)
+
 ## 参考文献
 
 - Szebehely 1967
