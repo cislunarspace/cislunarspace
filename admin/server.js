@@ -25,6 +25,8 @@ import {
   deleteGlossaryCategory,
 } from './lib/categories.js';
 import { previewDelete, executeDelete, listTrash, restoreFile } from './lib/delete.js';
+import * as sitePreview from './lib/preview.js';
+import * as ai from './lib/ai.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -300,6 +302,68 @@ app.post('/api/trash/restore', (req, res) => {
     if (!relPath) throw new PathError('缺少 relPath');
     const result = restoreFile(relPath, stamp);
     res.json({ ok: true, ...result });
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/* ============ 整站预览 ============ */
+
+/** 预览服务状态：GET /api/preview/status */
+app.get('/api/preview/status', async (_req, res) => {
+  try {
+    res.json({ ok: true, ...(await sitePreview.status()) });
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/** 启动预览服务：POST /api/preview/start（幂等，等待就绪后返回 url） */
+app.post('/api/preview/start', async (_req, res) => {
+  try {
+    res.json({ ok: true, ...(await sitePreview.start()) });
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/** md 路径 → 站点路由：GET /api/preview/route?path=<相对路径> */
+app.get('/api/preview/route', (req, res) => {
+  try {
+    const rel = String(req.query.path || '');
+    assertEditableMd(rel);
+    res.json({ ok: true, route: sitePreview.pathToRoute(rel) });
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/* ============ AI 润色 ============ */
+
+/** 读取 AI 配置（脱敏）：GET /api/ai/config */
+app.get('/api/ai/config', (_req, res) => {
+  try {
+    res.json({ ok: true, ...ai.getPublicConfig() });
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/** 保存 AI 配置：POST /api/ai/config { provider, baseUrl, apiKey?, model } */
+app.post('/api/ai/config', (req, res) => {
+  try {
+    res.json({ ok: true, ...ai.saveConfig(req.body || {}) });
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/** AI 对话：POST /api/ai/chat { messages: [...], system? } */
+app.post('/api/ai/chat', async (req, res) => {
+  try {
+    const { messages, system } = req.body || {};
+    const reply = await ai.chat(messages, system);
+    res.json({ ok: true, reply });
   } catch (err) {
     sendError(res, err);
   }

@@ -3,6 +3,8 @@
 一个**纯本地**运行的网页内容管理器，用于管理本仓库 `web/` 下的三块内容：
 Space News（航天动态）、Glossary（术语词典）、知识库章节页面。
 
+技术栈：后端 Express（`server.js` + `lib/`），前端 Vue 3 + Naive UI + Vite（`web/src/`，构建产物在 `web/dist/`）。前端支持深浅双主题，跟随系统默认，可在页面头部切换。
+
 - 只跑在 `localhost`，不部署线上。
 - **不做任何 git 操作**（`add` / `commit` / `push` 都不做），git 交给你手动。
 - 删除不直接 `rm`，而是移动到回收站 `admin/trash/<时间戳>/`，可恢复。
@@ -39,8 +41,27 @@ node server.js
 - **分类筛选**：顶部下拉按分类过滤（Space News 按 `category` 标签、Glossary 按目录、
   知识库按章节），每项带条目数
 - 支持按标题、路径、分类关键字过滤
-- **图片预览**：条目若有 `image` frontmatter（news 配图），点「👁 图」在弹窗中查看
-- **页面预览**：点「预览」在弹窗中渲染该页正文（markdown 粗渲染），快速查看最终效果
+- **列排序与筛选**：标题/日期可排序，分类/翻译/状态可按值筛选（列表头操作）
+- **图片预览**：条目若有 `image` frontmatter（news 配图），列表内直接显示缩略图，点击放大
+- **整站预览**：点「预览」在弹窗中以 iframe 展示该页在最终网站（VuePress 站点）中的真实效果
+
+### 整站效果预览
+
+预览依赖站点的 VuePress dev server（`web/` 下 `npm run docs:dev`，默认 8080 端口）：
+
+- 预览弹窗会检测 dev server 是否在跑；未运行时点「启动站点预览服务」由管理器代为启动
+  （首次启动需几十秒，日志在 `admin/logs/site-preview.log`），admin 退出时 dev server 随之结束
+- 可用环境变量 `SITE_PREVIEW_URL` 指向自己另外启动的站点实例
+- 编辑页也有「预览」按钮；预览展示的是**已保存**的内容（dev server 热更新，保存后刷新即可）
+
+### AI 润色
+
+- 头部 ✨ 按钮打开「AI 设置」：选择接口协议（**OpenAI 兼容** / **Anthropic**）、
+  填 Base URL、API key、model。配置保存在服务端 `admin/ai-config.json`（已 gitignore），
+  AI 请求由本地后端代理，key 不经过浏览器
+- 编辑页每个内容输入框（frontmatter 字段、正文 markdown、原始 YAML）标签旁有「✨ AI」按钮：
+  **先选中要修改的文字**再点按钮，与 AI 多轮对话，用「替换选区 / 替换整个字段」把结果写回
+- 未选中文字时作用于整个字段
 
 ### 2. 分类管理（Space News 标签 / Glossary 目录）
 
