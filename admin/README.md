@@ -52,7 +52,7 @@ node server.js
 
 ### 整站效果预览
 
-预览依赖站点的 VuePress dev server（`web/` 下 `npm run docs:dev`，默认 8080 端口）：
+预览依赖站点的 VuePress dev server（`web/` 下 `npm run dev`，默认 8080 端口）：
 
 - 预览弹窗会检测 dev server 是否在跑；未运行时点「启动站点预览服务」由管理器代为启动
   （首次启动需几十秒，日志在 `admin/logs/site-preview.log`），admin 退出时 dev server 随之结束

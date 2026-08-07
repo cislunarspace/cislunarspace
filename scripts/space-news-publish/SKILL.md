@@ -19,7 +19,7 @@ description: >
 3. 用 [SOURCES.md](SOURCES.md) 的搜索策略（中文优先）找最近 24–48 小时新闻；自动检索走 Hermes Agent，手工补稿可直接调 `hermes chat -q -t web`。
 4. 按 [WRITING.md](WRITING.md) 写中英双语稿和月度 `README.md`；同一 slug、同一 date。
 5. 按 [IMAGES.md](IMAGES.md) 准备 `figures/<slug>/`；无可用图时删除 `image:` 字段，不留坏链接。
-6. 完整构建用 `cd web && npm run docs:build`；只需刷新索引时才单独跑 `npm run gen-sidebar`。按 [TROUBLESHOOTING.md](TROUBLESHOOTING.md) 验证 dist 内容。
+6. 完整构建用 `cd web && npm run build`；只需刷新索引时才单独跑 `npm run gen-sidebar`。按 [TROUBLESHOOTING.md](TROUBLESHOOTING.md) 验证 dist 内容。
 7. 自动化/部署流程见 [CRON.md](CRON.md)。
 
 ## 站点约定
@@ -80,7 +80,7 @@ cron 由 Hermes 调度，每小时触发 `scripts/space-news-update-local.sh`，
 cd /home/ouyangjiahong/codes/cislunarspace/web
 
 npm run gen-sidebar     # 只刷新索引（sidebar/articles/ai/glossary JSON）
-npm run docs:build      # 完整构建：gen-sidebar → vuepress build → sync-figures
+npm run build      # 完整构建：gen-sidebar → vuepress build → sync-figures
 
 # cron 包装（构建 + 部署）
 bash /home/ouyangjiahong/codes/cislunarspace/scripts/space-news-update-local.sh

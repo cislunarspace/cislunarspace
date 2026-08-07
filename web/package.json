@@ -3,23 +3,12 @@
   "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "gen-sidebar": "tsx .vuepress/generate.ts",
-    "docs:dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
-    "docs:build": "npm run gen-sidebar && node --max-old-space-size=8192 ./node_modules/vuepress/bin/vuepress.js build . && npm run sync-figures",
-    "docs:build:verify-dist": "tsx .vuepress/build/verify-dist.ts",
-    "docs:build:measure": "tsx .vuepress/build/measure-build.ts",
-    "docs:build:parallel": "npm run gen-sidebar && tsx .vuepress/build/sharded-build.ts",
-    "sync-figures": "tsx .vuepress/build/sync-figures.js",
-    "check:bilingual": "tsx .vuepress/build/check-bilingual-mirror.ts",
-    "check:en-chinese": "tsx .vuepress/build/check-en-chinese.ts",
-    "check:links": "tsx .vuepress/build/check-links.ts",
+    "dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
+    "build": "npm run gen-sidebar && node --max-old-space-size=8192 ./node_modules/vuepress/bin/vuepress.js build . && tsx .vuepress/build/sync-figures.js",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#dist\"",
-    "lint:code": "eslint .",
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "lint": "npm run lint:md && npm run lint:code && npm run format:check"
+    "gen-sidebar": "tsx .vuepress/generate.ts",
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#dist\" && eslint . && prettier --check .",
+    "check": "tsx .vuepress/build/check-bilingual-mirror.ts && tsx .vuepress/build/check-en-chinese.ts && tsx .vuepress/build/check-links.ts"
   },
   "license": "MIT",
   "devDependencies": {

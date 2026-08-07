@@ -85,7 +85,7 @@ watch(
 
     <template v-else-if="phase === 'stopped'">
       <n-alert type="info" style="margin-bottom: 12px">
-        整站预览依赖站点的 VuePress dev server（<code>web/</code> 下 <code>npm run docs:dev</code>），当前未运行。
+        整站预览依赖站点的 VuePress dev server（<code>web/</code> 下 <code>npm run dev</code>），当前未运行。
         点击下方按钮由管理器代为启动；启动日志见 <code>admin/logs/site-preview.log</code>。
       </n-alert>
       <div style="text-align: center">

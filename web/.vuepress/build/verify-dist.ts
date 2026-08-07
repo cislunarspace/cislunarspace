@@ -332,7 +332,7 @@ function verifyCurrent(distRoot: string): void {
       name: 'dist exists',
       severity: 'fail',
       summary: `dist directory not found at ${distRoot}`,
-      details: ['run `npm run docs:build` first'],
+      details: ['run `npm run build` first'],
     });
     return;
   }

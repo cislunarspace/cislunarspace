@@ -83,6 +83,6 @@ curl -A "Mozilla/5.0" -L --http1.1 \
 | 英文构建失败 | 只创建中文 figures | 删除 EN 旧目录后重新复制 |
 | `figures/figures/` 嵌套 | 复制前没删目标目录 | 删除嵌套目录，按上方命令重拷 |
 | 图片 1–2KB | 下载到错误页/占位符 | 换 URL、换扩展名或无图降级 |
-| rsync 后图片 404 | 构建后未跑 sync-figures 或未同步完整 dist | 重新 `npm run docs:build` 并整树 rsync |
+| rsync 后图片 404 | 构建后未跑 sync-figures 或未同步完整 dist | 重新 `npm run build` 并整树 rsync |
 
 更多构建/部署故障见 [TROUBLESHOOTING.md](TROUBLESHOOTING.md)。
