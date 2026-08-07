@@ -63,8 +63,9 @@ export function classify(rel) {
   if (m) {
     return { kind: 'news', year: m[2], month: m[3], stem: m[4], lang: m[1] ? 'en' : 'zh' };
   }
-  m = rel.match(/^(en\/)?glossary\/([^/]+)\/([^/]+)\.md$/);
+  m = rel.match(/^(en\/)?glossary\/((?:[^/]+\/)?[^/]+)\/([^/]+)\.md$/);
   if (m) {
+    // cat 为完整路径形：顶级分类 'orbits'，子分类 'orbits/halo'
     return { kind: 'glossary', cat: m[2], stem: m[3], lang: m[1] ? 'en' : 'zh' };
   }
   return { kind: 'kb', stem: path.posix.basename(rel, '.md'), lang: rel.startsWith('en/') ? 'en' : 'zh' };
@@ -145,9 +146,18 @@ function scanGlossary() {
     if (!fs.existsSync(baseAbs)) continue;
     for (const cat of listDirs(baseAbs)) {
       if (cat === 'figures') continue;
-      for (const f of listMdFiles(path.join(baseAbs, cat))) {
+      const catAbs = path.join(baseAbs, cat);
+      for (const f of listMdFiles(catAbs)) {
         if (f.toLowerCase() === 'readme.md') continue;
         out.push(buildItem(`${base}/${cat}/${f}`));
+      }
+      // 子分类：分类目录下的一级子目录
+      for (const sub of listDirs(catAbs)) {
+        if (sub === 'figures') continue;
+        for (const f of listMdFiles(path.join(catAbs, sub))) {
+          if (f.toLowerCase() === 'readme.md') continue;
+          out.push(buildItem(`${base}/${cat}/${sub}/${f}`));
+        }
       }
     }
   }

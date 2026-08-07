@@ -42,6 +42,11 @@ node server.js
   知识库按章节），每项带条目数
 - 支持按标题、路径、分类关键字过滤
 - **列排序与筛选**：标题/日期可排序，分类/翻译/状态可按值筛选（列表头操作）
+- **多选与批量删除**：表格首列勾选多条后，可一键批量删除（同样走删除预览 + 回收站流程）
+- **拖动修改分类**（Space News / Glossary）：拖动表格行（拖动已选中的行则拖动整个选中集）
+  时表格上方浮现分类放置条，拖到目标分类即可批量改分类——
+  Space News 改 frontmatter `category` 标签（可选「替换」或「追加」）；
+  Glossary 移动条目文件到目标目录（中英镜像一起），`glossary/README.md` 索引同步更新
 - **图片预览**：条目若有 `image` frontmatter（news 配图），列表内直接显示缩略图，点击放大
 - **整站预览**：点「预览」在弹窗中以 iframe 展示该页在最终网站（VuePress 站点）中的真实效果
 
@@ -70,7 +75,9 @@ node server.js
 - **添加分类**：
   - Space News：在 `web/.vuepress/taxonomy/data.ts` 注册 news-category 节点（含配色），
     站点侧边栏/分类页即可显示；不修改任何文章
-  - Glossary：创建 `web/glossary/<name>/` 与 `web/en/glossary/<name>/` 两个空目录
+  - Glossary：创建 `web/glossary/<name>/` 与 `web/en/glossary/<name>/` 目录并注册
+    taxonomy 节点；选择父分类则创建**子分类**（`web/glossary/<parent>/<name>/`，
+    只支持一层；词条也可直接放在分类根目录，表示未细分）
 - **删除分类**：
   - 默认「仅删分类，保留条目」
     - Space News：从所有文章 frontmatter 移除该 `category` 标签（文章保留）
@@ -139,8 +146,9 @@ mv admin/trash/2026-08-05T12-00-00-000Z/space-news/2026/01/xxx.md \
 |------|------|------|
 | GET  | `/api/contents?type=news\|glossary\|kb&q=&cat=` | 列出内容（按镜像分组，支持关键字与分类过滤） |
 | GET  | `/api/categories?type=` | 列出某类内容的分类及条目数 |
-| POST | `/api/categories/add` | 添加分类（news 注册 taxonomy 节点 / glossary 建目录） |
+| POST | `/api/categories/add` | 添加分类（news 注册 taxonomy 节点 / glossary 建目录并注册节点，glossary 支持 `parent` 建一级子分类、`labelZh` 设中文名） |
 | POST | `/api/categories/delete` | 删除分类（保条目或连删，glossary 可指定目标分类） |
+| POST | `/api/categories/assign` | 批量修改分类（news 改 category 标签，replace/append；glossary 移动条目目录并更新 README 索引） |
 | GET  | `/api/content?path=` | 读取单个 md（含中英镜像） |
 | GET  | `/api/image?path=` | 读取图片/附件（供预览） |
 | POST | `/api/content` | 保存一个或多个 md（frontmatter + 正文） |

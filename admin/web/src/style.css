@@ -121,6 +121,39 @@ body {
   opacity: 0.5;
 }
 
+/* ---------- 拖动改分类的放置条 ---------- */
+.drop-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1px dashed rgba(37, 99, 235, 0.5);
+  border-radius: 8px;
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.drop-bar-label {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.drop-target {
+  padding: 4px 12px;
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 14px;
+  font-size: 13px;
+  cursor: copy;
+  user-select: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.drop-target-hover {
+  border-color: #2563eb;
+  background: rgba(37, 99, 235, 0.15);
+}
+
 /* ---------- 弹窗内删除范围列表 ---------- */
 .scope-section {
   margin-bottom: 14px;

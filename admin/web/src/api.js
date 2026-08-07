@@ -34,11 +34,11 @@ export const api = {
     return request(`/api/categories?type=${encodeURIComponent(type)}`);
   },
 
-  /** 添加分类 */
-  addCategory(type, name) {
+  /** 添加分类（glossary 可带 parent 建子分类、labelZh 注册 taxonomy 中文名） */
+  addCategory(type, name, opts = {}) {
     return request('/api/categories/add', {
       method: 'POST',
-      body: JSON.stringify({ type, name }),
+      body: JSON.stringify({ type, name, ...opts }),
     });
   },
 
@@ -47,6 +47,14 @@ export const api = {
     return request('/api/categories/delete', {
       method: 'POST',
       body: JSON.stringify({ type, name, ...opts }),
+    });
+  },
+
+  /** 批量修改分类（news 改标签 / glossary 移目录） */
+  assignCategory(type, paths, target, mode) {
+    return request('/api/categories/assign', {
+      method: 'POST',
+      body: JSON.stringify({ type, paths, target, mode }),
     });
   },
 
