@@ -40,7 +40,7 @@ This concept provides fundamental support in cislunar space research and mission
 
 - [Planar Distant Retrograde Orbit](/en/glossary/orbits/planar-distant-retrograde-orbit/)
 - [Periselene](/en/glossary/orbits/periselene/)
-- [Axial Resonant Orbit](/en/glossary/orbits/axial-resonant-orbit/)
+- [Axial Resonant Orbit](/en/glossary/orbits/axial-orbit/)
 
 ## References
 

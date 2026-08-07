@@ -1,124 +1,99 @@
 ---
 title: Lyapunov Orbit
-description: Detailed explanation of Lyapunov orbit definition, planar periodic characteristics, relationship with Halo orbits, and fundamental role in libration point dynamics research
-keywords: Lyapunov Orbit, libration point, planar periodic orbit, Halo orbit, three-body problem, orbital dynamics
-author: CislunarSpace
-date: 2026-04-29
-lastUpdated: 2026-06-05
+description: A family of planar periodic orbits around a collinear libration point in the circular restricted three-body problem, whose existence is guaranteed by Lyapunov's center theorem; all members are unstable and carry invariant manifolds, making them the foundational structure for low-energy transfers, weak stability boundary patching, and temporary-capture studies.
+keywords: Lyapunov Orbit, planar periodic orbit, libration point orbit, invariant manifold, low-energy transfer
+author: Tianjiang Shuo
+date: 2026-07-31
+lastUpdated: 2026-08-07
 wechatShare:
   title: Lyapunov Orbit
-  desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
+  desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Lyapunov Orbit Explained | Cislunar Space"
-  description: Detailed explanation of Lyapunov orbit definition, planar periodic characteristics, relationship with Halo orbits, and fundamental role in libration point dynamics research
+  title: "Lyapunov Orbit Explained | Term Definition"
+  description: A family of planar periodic orbits around a collinear libration point in the circular restricted three-body problem, whose existence is guaranteed by Lyapunov's center theorem; all members are unstable and carry invariant manifolds, making them the foundational structure for low-energy transfers, weak stability boundary patching, and temporary-capture studies.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Lyapunov Orbit Explained | Cislunar Space"
-  description: Detailed explanation of Lyapunov orbit definition, planar periodic characteristics, relationship with Halo orbits, and fundamental role in libration point dynamics research
+  title: "Lyapunov Orbit Explained | Term Definition"
+  description: A family of planar periodic orbits around a collinear libration point in the circular restricted three-body problem, whose existence is guaranteed by Lyapunov's center theorem; all members are unstable and carry invariant manifolds, making them the foundational structure for low-energy transfers, weak stability boundary patching, and temporary-capture studies.
   image: /logo.png
 permalink: /en/glossary/orbits/lyapunov-orbit/
 ---
 
 # Lyapunov Orbit
 
-> Author: [CislunarSpace](https://gitee.com/cislunarspace)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
 
-A Lyapunov orbit is a **family of periodic orbits lying in the plane near a libration point**, named after Russian mathematician Aleksandr Lyapunov. Lyapunov orbits are the in-plane counterparts of Halo orbits -- when the $z$-direction amplitude of a Halo orbit approaches zero, the three-dimensional Halo orbit degenerates into a planar Lyapunov orbit. Lyapunov orbits serve as the foundation for studying libration point dynamics, providing the theoretical starting point for understanding more complex three-dimensional orbits. Lyapunov orbits belong to the Libration Point Orbit (LPO) family, together with Halo orbits, vertical orbits, and axial orbits.
+A Lyapunov orbit is a planar periodic orbit around a collinear libration point of the circular restricted three-body problem (CR3BP) — one family each at L1, L2, and L3 (Gómez 2001, Parker & Anderson 2014). Under linearization, the center subspace of a collinear point decomposes into two normal oscillations: in-plane (frequency ωp) and out-of-plane (frequency ωv); the periodic solution that excites only the in-plane center mode is the planar Lyapunov orbit (Belló 2010). The family's existence is guaranteed by Lyapunov's center theorem — hence the name (Alessi 2009) — and has nothing to do with "Lyapunov stability theory."
 
-## Key Elements
+What is usually meant by Lyapunov orbit is the planar family; the vertical family is its sibling family of the same rank (see [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)). Earth–Moon L1/L2 family periods run about 2–4 weeks (closer to 2 weeks the nearer the libration point), and the L3 family about 4 weeks (Parker & Anderson 2014).
 
-### Dynamic Characteristics of Lyapunov Orbits
+## Geometry and Symmetry
 
-Key characteristics of Lyapunov orbits in the CR3BP framework include:
+The orbit is symmetric about the rotating-frame x-axis and crosses it perpendicularly twice per revolution — a perpendicular crossing means zero x-velocity at the crossing point, velocity along y, and an initial state of the form [x₀, 0, 0, ẏ₀] (Parker & Anderson 2014, Tan 2014). The motion is prograde on the near-Moon side and retrograde on the far side (Oshima 2019, citing Lam & Whiffen 2005).
 
-- **Planar motion**: Lyapunov orbits lie strictly in the $xOy$ plane with no $z$-direction motion component
-- **Periodicity**: The orbits are precisely closed periodic orbits, forming closed curves in the synodic reference frame
-- **Symmetry**: Lyapunov orbits are symmetric about the $x$-axis; when crossing the $x$-axis, the $y$-direction velocity is zero
-- **Orbit shape**: Near the libration point, the shape is approximately elliptical; as amplitude increases, the shape gradually distorts, with the side far from the libration point becoming pointed or twisted
+## Stability and Manifolds
 
-Lyapunov orbit families are parameterized by the initial displacement $x_0$ on the $x$-axis (relative to the libration point). When $x_0$ is small, the orbit approximates linearized simple harmonic oscillation; as $x_0$ increases, nonlinear effects become significant and the orbit shape deviates from elliptical.
+All family members are unstable (Parker & Anderson 2014): the monodromy matrix eigenvalues are λ₁=λ₂=1 and λ₃=1/λ₄, giving the stable and unstable directions (Tan 2014). The manifolds form smooth tubes ahead of the Moon. Besides the in-plane hyperbolic mode, some members also carry a vertical instability mode — their out-of-plane stable/unstable manifolds are natural transport channels between in-plane and out-of-plane states, and can raise inclination through multiple lunar flybys (Oshima 2019).
 
-### Classification of Lyapunov Orbits
+Two important corollaries:
 
-Based on libration point locations in the Earth-Moon system, Lyapunov orbits can be classified into the following families:
+- At equal Jacobi constant, free (zero-maneuver) heteroclinic transfers exist between members of the LL1 and LL2 families, findable on Poincaré maps (Parker & Anderson 2014).
+- The stable manifolds of L1/L2 planar Lyapunov orbits mark the boundary of the WSB region, while the unstable manifolds govern temporary capture by the Moon (Fantino 2010); patching Sun–Earth EL1/EL2 Lyapunov manifolds to Earth–Moon LL2 ones is the classic construction of a weak stability boundary transfer (Xu 2010).
 
-| Orbit Family | Libration Point | Characteristics |
-| :--- | :--- | :--- |
-| Ly1 (Lyapunov L1) | L1 | Located between Earth and Moon along the line connecting them |
-| Ly2 (Lyapunov L2) | L2 | Located on the far side of the Moon, away from Earth |
-| Ly3 (Lyapunov L3) | L3 | Located on the far side of Earth, away from the Moon |
+## Relation to Other Families
 
-### Orbital Parameter Characteristics
+- **Bifurcating the halo family**: when the in-plane and out-of-plane frequencies become equal (1:1 resonance), the family member whose vertical stability turns critical bifurcates into the halo family (Belló 2010, Gómez 2001, Alessi 2009).
+- **Bifurcating the axial family**, at a location different from the halo bifurcation (He 2026).
+- **Sibling of the vertical family**: the planar Lyapunov is the Lissajous limit as out-of-plane amplitude → 0, the vertical orbit the limit as in-plane amplitude → 0; the two are connected by families of quasi-periodic tori (Belló 2010, Guzzetti 2016).
 
-For the Earth-Moon system, the main parameter ranges of Lyapunov orbit families (based on the dynamic catalog statistics by Guzzetti et al.) are as follows:
+## Parameterization and Notation
 
-| Orbit Family | Jacobi Constant Range | Period Range (days) | Stability Index |
-| :--- | :--- | :--- | :--- |
-| Ly1 | ~3.188 – 2.124 | Moderate | Relatively high |
-| Ly2 | ~3.172 – 2.881 | Moderate | Relatively high |
-| Ly3 | ~2.5 | Relatively long | Moderate |
+Family members can be labeled by x₀, ẏ₀, or the Jacobi constant C, and are commonly presented as x₀–C characteristic curves (Parker & Anderson 2014). Literature notation: ELi denotes an orbit at point Li of the Sun–Earth system, LLi one of the Earth–Moon system (Xu 2010, Parker & Anderson 2014).
 
-The Jacobi constant ranges of L1 and L2 Lyapunov orbits serve as important reference benchmarks for orbit comparison and selection in cislunar space. When the Jacobi constants of other orbit families (such as DRO, DPO, axial orbits, etc.) overlap with those of Lyapunov orbits, it suggests the existence of low-cost transfer corridors.
+## Large-Amplitude Members and Earth–Moon Transfers
 
-### Linearized Analysis of Lyapunov Orbits
+Members whose amplitude grows large enough to be tangent to lunar orbits have special transfer value: their stable manifolds no longer have tube topology but reach directly into near-Earth space — a single stable manifold connects a near-Earth orbit straight to a near-Moon orbit (first shown by Tan 2014; Zheng & Zhao 2023). Two-impulse Earth–Moon transfers designed on this basis save about 100 m/s over Hohmann transfers and take less time than WSB transfers (Tan 2014); the Zheng & Zhao 2023 example totals about 3921 m/s ΔV over 62 days. Xu 2010 gives the parameters of Lyapunov orbits tangent to large-amplitude DROs (for a DRO with Ax=90867 km, the tangent L1 Lyapunov has Ax=32828 km), used respectively for fast and low-energy entry into the DRO.
 
-Near the libration point, the linearized CR3BP equations of motion have the following eigenvalue structure in the plane:
+**Lyapunov-like orbits**: in NRHO→DRO outbound transfers, the arc after the lunar flyby often takes a large-amplitude Lyapunov shape — tangent to the DRO on one side and close to the Moon on the other, naturally accompanied by a lunar flyby, which favors low-impulse DRO insertion (Wang 2021, the term traced back to Zhang 2020). Wang 2025 (the WSB paper) further classifies the L1/L2 Lyapunov-like segments in DRO capture trajectories by arrival Jacobi energy: high energy enters directly on the near-Earth side; low energy goes through a more inclined, larger-amplitude Lyapunov-like segment to the far side.
 
-$$\lambda_{1,2} = \pm \sigma, \quad \lambda_{3,4} = \pm i\omega$$
+## Terminology Variants
 
-where $\sigma$ is a real eigenvalue (corresponding to stable/unstable manifolds) and $\omega$ is an imaginary eigenvalue (corresponding to periodic oscillation). Lyapunov orbits correspond to motion that excites only the imaginary eigenvalue mode:
-
-$$\mathbf{x}(t) = A \cos(\omega t + \phi) \mathbf{e}_{\text{center}} + \text{nonlinear corrections}$$
-
-where $\mathbf{e}_{\text{center}}$ is the direction vector of the center manifold.
-
-### Relationship Between Lyapunov and Halo Orbits
-
-There is a profound connection between Lyapunov and Halo orbits:
-
-- **Degeneration relationship**: Halo orbits degenerate into Lyapunov orbits as the $z$-direction amplitude $A_z \to 0$
-- **Bifurcation structure**: In the parameter space of orbit families, Lyapunov orbit families generate Halo orbit families through pitchfork bifurcation
-- **Frequency relationship**: Lyapunov orbits involve only the in-plane oscillation frequency $\omega_{xy}$, while Halo orbits require $\omega_{xy} = \omega_z$
-- **Stability differences**: Both are unstable, but the unstable mode structure of Lyapunov orbits is simpler (in-plane only)
-
-### Numerical Computation of Lyapunov Orbits
-
-Precise computation of Lyapunov orbits typically employs the following methods:
-
-1. **Linearized initial guess**: Using linearized analysis to obtain an approximate analytical solution
-2. **Differential correction**: Using a shooting method to correct initial conditions so the orbit precisely closes
-3. **Parameter continuation**: Starting from small-amplitude orbits, gradually increasing amplitude, using each orbit as the initial guess for the next
-
-## Application Value
-
-Lyapunov orbits have value in both theoretical research and practical missions:
-
-- **Foundation for dynamics research**: Lyapunov orbits are the foundation for understanding the phase space structure near libration points, and a prerequisite for learning about more complex orbits like Halo and Lissajous
-- **Invariant manifold analysis**: The stable and unstable manifolds of Lyapunov orbits form the skeleton of low-energy transfer channels near libration points
-- **Low-energy transfer design**: Using the invariant manifolds of Lyapunov orbits, low-energy transfer trajectories connecting different libration point regions can be designed
-- **Poincaré section analysis**: Lyapunov orbits are commonly used as reference orbits in Poincaré sections for analyzing the global structure of phase space
-- **Mission design reference**: In the dynamic catalog framework proposed by Guzzetti et al., the Jacobi constant ranges of L1/L2 Lyapunov orbits serve as key benchmarks for evaluating the accessibility of other orbit families
-- **Education and introduction**: As the simplest periodic orbit family at libration points, Lyapunov orbits are an ideal starting point for orbital mechanics education
+| Term | Meaning | Source |
+|------|---------|--------|
+| Lyapunov orbit family / periodic orbit | The planar Lyapunov family | Gómez 2001 |
+| Planar Lyapunov (periodic) orbit | Family of periodic solutions with zero out-of-plane amplitude and frequency ωp | Belló 2010 |
+| EL1/EL2/LL1/LL2 Lyapunov orbits | Lyapunov orbits at the corresponding points of the Sun–Earth / Earth–Moon systems | Xu 2010 |
+| Large-amplitude Lyapunov orbit | Family members tangent to lunar orbits, whose stable manifolds reach near-Earth space directly | Tan 2014, Zheng & Zhao 2023 |
+| Lyapunov-like orbit / segment | Transfer-arc portions with large-amplitude Lyapunov morphology | Wang 2021, Wang 2025 |
 
 ## Related Concepts
 
-- [Halo Orbit](/en/glossary/orbits/halo-orbit/)
-- [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
 - [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)
 - [Axial Orbit](/en/glossary/orbits/axial-orbit/)
-- [Butterfly Orbit](/en/glossary/orbits/butterfly-orbit/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [Halo Orbit](/en/glossary/orbits/halo-orbit/)
+- [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
+- [Manifold Connection](/en/glossary/orbits/manifold-connection/)
+- [Weak Stability Boundary Transfer Trajectory](/en/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 
 ## References
 
-- Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
-- Szebehely V. Theory of Orbits: The Restricted Problem of Three Bodies[M]. Academic Press, 1967.
-- Gomez G, Masdemont J, Simo C. Quasihalo orbits associated with libration points[J]. Journal of the Astronautical Sciences, 1998.
-- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
+- Gómez et al., 2001, Dynamics and Mission Design Near Libration Points, Vol. I
+- Alessi et al., 2009, Leaving the Moon by means of invariant manifolds of libration point orbits
+- Belló et al., 2010, Invariant manifolds, Lagrangian trajectories and space mission design
+- Fantino et al., 2010, A note on libration point orbits, temporary capture and low-energy transfers
+- Xu, 2010, Onset conditions and trajectory construction of Earth–Moon low-energy transfers
+- Parker & Anderson, 2014, Low-Energy Lunar Trajectory Design
+- Tan et al., 2014, Earth–Moon transfer trajectory design based on large-amplitude Lyapunov orbits
+- Guzzetti et al., 2016, Rapid trajectory design in the Earth–Moon ephemeris system via an interactive catalog of periodic and quasi-periodic orbits
+- Oshima, 2019, The use of vertical instability of L1 and L2 planar Lyapunov orbits for transfers from near rectilinear orbits
+- Wang et al., 2021, Transfers between NRHOs and DROs in the Earth-Moon system
+- Zheng & Zhao, 2023, Earth–Moon transfer method based on the stable manifolds of large-amplitude Lyapunov orbits
+- Wang et al., 2025, Mechanism and characteristics analysis of weak stability boundary transfers to the 2:1 DRO
+- He et al., 2026, A review of cislunar constellation design and optimization

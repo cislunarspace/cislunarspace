@@ -40,8 +40,8 @@ permalink: /glossary/orbits/v/
 
 - [im](/glossary/orbits/im/)
 - [slpo](/glossary/orbits/slpo/)
-- [em-halo](/glossary/orbits/em-halo/)
-- [rro](/glossary/orbits/rro/)
+- [em-halo](/glossary/orbits/halo-orbit/)
+- [rro](/glossary/orbits/resonant-orbit-family/)
 
 ## 参考文献
 

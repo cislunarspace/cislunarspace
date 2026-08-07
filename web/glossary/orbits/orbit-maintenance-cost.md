@@ -39,8 +39,7 @@ permalink: /glossary/orbits/orbit-maintenance-cost/
 ## 相关概念
 
 - [最小时间轨迹（Minimum-Time Trajectory）](/glossary/orbits/minimum-time-trajectory/)
-- [布鲁克轨道（Broucke Orbit）](/glossary/orbits/broucke-orbit/)
-- [北族Halo轨道（Northern Halo Family）](/glossary/orbits/northern-halo-family/)
+- [北族Halo轨道（Northern Halo Family）](/glossary/orbits/halo-orbit/)
 
 ## 参考文献
 

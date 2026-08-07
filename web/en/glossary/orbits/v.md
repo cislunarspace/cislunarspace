@@ -40,8 +40,8 @@ In the field of orbits, Lunar DRO Insertion Delta-V is a key element for underst
 
 - [im](/en/glossary/orbits/im/)
 - [slpo](/en/glossary/orbits/slpo/)
-- [em-halo](/en/glossary/orbits/em-halo/)
-- [rro](/en/glossary/orbits/rro/)
+- [em-halo](/en/glossary/orbits/halo-orbit/)
+- [rro](/en/glossary/orbits/resonant-orbit-family/)
 
 ## References
 

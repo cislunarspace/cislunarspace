@@ -38,10 +38,10 @@ permalink: /glossary/orbits/orbital-stability-index/
 
 ## 相关概念
 
-- [共谐共振周期轨道（Synodic Resonant Periodic Orbit）](/glossary/orbits/synodic-resonant-periodic-orbit/)
-- [晕轨道幅值（Halo Orbit Amplitude）](/glossary/orbits/halo-orbit-amplitude/)
+- [共谐共振周期轨道（Synodic Resonant Periodic Orbit）](/glossary/orbits/resonant-orbit-family/)
+- [晕轨道幅值（Halo Orbit Amplitude）](/glossary/orbits/halo-orbit/)
 - [近直线晕轨道（Near-Rectilinear Halo Orbit）](/glossary/orbits/near-rectilinear-halo-orbit/)
-- [NRHO转移（NRHO Transfer）](/glossary/orbits/nrho-transfer/)
+- [NRHO转移（NRHO Transfer）](/glossary/orbits/nrho/)
 
 ## 参考文献
 

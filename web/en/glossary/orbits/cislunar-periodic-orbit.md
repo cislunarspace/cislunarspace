@@ -39,7 +39,7 @@ A special class of resonance orbits in the Earth-Moon three-body system, lying i
 ## Related Concepts
 
 - [Orbit Phase](/en/glossary/orbits/orbit-phase/)
-- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
+- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
 - [Parking Orbit](/en/glossary/orbits/parking-orbit/)
 - [Hohmann Transfer](/en/glossary/orbits/hohmann-transfer/)
 

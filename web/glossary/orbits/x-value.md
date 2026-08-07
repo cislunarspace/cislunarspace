@@ -42,7 +42,7 @@ x₀值为月球探测任务提供了多样化的轨道选择方案，有助于�
 ## 相关概念
 
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
-- [垂直振幅（Vertical Amplitude）](/glossary/orbits/vertical-amplitude/)
+- [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/z-direction-motion-amplitude/)
 
 ## 参考文献

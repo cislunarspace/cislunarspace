@@ -38,7 +38,7 @@ permalink: /glossary/orbits/direct-transfer-trajectory/
 
 ## 相关概念
 
-- [DRO到地球轨道转移（DRO-to-Earth-Orbit Transfer）](/glossary/orbits/dro-to-earth-orbit-transfer/)
+- [DRO到地球轨道转移（DRO-to-Earth-Orbit Transfer）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [最大偏离距离（Maximum Excursion Distance）](/glossary/orbits/maximum-excursion-distance/)
 - [短路径转移轨道（Short-Path Transfer Orbit）](/glossary/orbits/short-path-transfer-orbit/)
 - [圆锥曲线轨道（Conic Orbit）](/glossary/fundamentals/conic-orbit/)

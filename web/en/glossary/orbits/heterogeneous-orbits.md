@@ -41,7 +41,6 @@ This concept is used in orbital analysis and has significant impact on mission d
 - [Low-Energy Transfer](/en/glossary/orbits/low-energy-transfer/)
 - [Quasi-Satellite Orbit](/en/glossary/orbits/quasi-satellite-orbit/)
 - [Hybrid Trajectory](/en/glossary/orbits/hybrid-trajectory/)
-- [Continuous Transfer Trajectory](/en/glossary/orbits/continuous-transfer-trajectory/)
 
 ## References
 

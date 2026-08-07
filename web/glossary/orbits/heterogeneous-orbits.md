@@ -41,7 +41,6 @@ permalink: /glossary/orbits/heterogeneous-orbits/
 - [低能转移（Low-Energy Transfer）](/glossary/orbits/low-energy-transfer/)
 - [准卫星轨道（Quasi-Satellite Orbit）](/glossary/orbits/quasi-satellite-orbit/)
 - [混合轨道（Hybrid Trajectory）](/glossary/orbits/hybrid-trajectory/)
-- [连续转移轨迹（Continuous Transfer Trajectory）](/glossary/orbits/continuous-transfer-trajectory/)
 
 ## 参考文献
 

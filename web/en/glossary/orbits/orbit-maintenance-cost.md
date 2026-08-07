@@ -39,8 +39,7 @@ This concept plays an important role in trajectory optimization and mission plan
 ## Related Concepts
 
 - [Minimum-Time Trajectory](/en/glossary/orbits/minimum-time-trajectory/)
-- [Broucke Orbit](/en/glossary/orbits/broucke-orbit/)
-- [Northern Halo Family](/en/glossary/orbits/northern-halo-family/)
+- [Northern Halo Family](/en/glossary/orbits/halo-orbit/)
 
 ## References
 

@@ -1,28 +1,28 @@
 ---
-title: Lissajous 轨道（Lissajous Orbit）
-description: 详细解析Lissajous轨道的定义、准周期特性、与Halo轨道的区别及其在地月空间任务中的应用
-keywords: Lissajous轨道, Lissajous Orbit, 平动点, 准周期轨道, Halo轨道, 三体问题, SOHO, 轨道设计
+title: 李萨如轨道（Lissajous Orbit）
+description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数；ARTEMIS 任务的 L1/L2 轨道即属此类。
+keywords: 李萨如轨道, Lissajous Orbit, 准周期轨道, quasi-halo, ARTEMIS, 平动点轨道
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-07
 wechatShare:
-  title: Lissajous 轨道（Lissajous Orbit）
+  title: 李萨如轨道（Lissajous Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
-  title: Lissajous 轨道（Lissajous Orbit）详解 | 平动点准周期轨道
-  description: 详细解析Lissajous轨道的定义、准周期特性、与Halo轨道的区别及其在地月空间任务中的应用
+  title: 李萨如轨道（Lissajous Orbit）详解 | 术语定义
+  description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数；ARTEMIS 任务的 L1/L2 轨道即属此类。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Lissajous 轨道（Lissajous Orbit）详解 | 平动点准周期轨道
-  description: 详细解析Lissajous轨道的定义、准周期特性、与Halo轨道的区别及其在地月空间任务中的应用
+  title: 李萨如轨道（Lissajous Orbit）详解 | 术语定义
+  description: 共线平动点附近中心流形上的准周期轨道，由一个面内振动和一个不同频率的面外振动叠加而成，面内/面外振幅为两个自由参数；ARTEMIS 任务的 L1/L2 轨道即属此类。
   image: /logo.png
 permalink: /glossary/orbits/lissajous-orbit/
 ---
 
-# Lissajous 轨道（Lissajous Orbit）
+# 李萨如轨道（Lissajous Orbit）
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
@@ -30,65 +30,55 @@ permalink: /glossary/orbits/lissajous-orbit/
 
 ## 定义
 
-Lissajous 轨道（Lissajous Orbit）是**环绕平动点的准周期轨道**，不闭合但保持在有限区域内。其名称来源于法国物理学家 Jules Antoine Lissajous 研究的利萨如图形——在旋转坐标系中，Lissajous 轨道的投影形状类似于利萨如曲线。与 Halo 轨道不同，Lissajous 轨道不具有对称性，且不精确闭合。
+李萨如轨道是共线平动点附近中心流形上的准周期轨道：一个面内（xy 平面）振动与一个不同频率的面外（z 方向）振动叠加而成，面内振幅 Ax 与面外振幅 Az 是两个自由参数（Canalias 2008、Renk 2010）。由于两频率一般不可通约，轨道不闭合但始终保持在平动点附近的有界区域内，投影呈李萨如图形。动力学上，李萨如轨道是围绕垂直（vertical）周期轨道的二维环面（Folta 2014）。名称来自法国物理学家 Jules Antoine Lissajous 研究的李萨如图形。
 
-## 核心要素
+## 与晕轨道的关系
 
-### Lissajous 轨道的动力学特性
+当面内、面外两个频率相等时，李萨如轨道退化为周期的晕轨道（Renk 2010、Gómez 2001）。对称性上两者相反：李萨如轨道对 xy 平面和 xz 平面均保持（准）对称，而晕轨道只关于 xz 平面对称、失去了 xy 平面对称（Renk 2010）。
 
-Lissajous 轨道在 CR3BP 框架下的关键特性包括：
+## 族内变体
 
-- **准周期性**：轨道不闭合，在会合坐标系中逐渐遍历一个环形区域，形如"毛线团"
-- **非对称性**：与 Halo 轨道的对称性不同，Lissajous 轨道不具有关于 $xOz$ 平面的对称性
-- **频率不共振**：Lissajous 轨道的平面内振荡频率 $\omega_{xy}$ 与 $z$ 方向振荡频率 $\omega_z$ 不满足共振关系，即 $\omega_z / \omega_{xy} \neq 1$
-- **有界运动**：尽管不闭合，轨道始终保持在平动点附近的有限区域内
+- **square 李萨如轨道**：面内振幅与面外振幅相等（α3=α4）的李萨如轨道（Alessi 2010）。注意「square」指振幅约束，两频率仍不同——不存在「运动周期相同」的性质。
+- **quasi-halo（准晕轨道）**：围绕晕轨道的准周期环面（Folta 2014）。生成关系：当面外振幅超过某一下界后，李萨如轨道失去 xy 平面对称、在主天体连线方向出现禁区，即成为 quasi-halo（Renk 2010）。故 quasi-halo 的面外振幅并不小——它对应李萨如族的大振幅端。
+- **高/低 z 幅值模式**：非线性模型中 z 幅值不再恒定，在高、低两种模式间循环；进入相位决定落在环面的哪个模式区。低 z 幅值模式又称近平面模式（nearly-planar mode）。ARTEMIS 在 L2 侧利用高 z 幅值模式适应弹道转移的面外到达条件，在 L1 侧则利用低 z 幅值（近平面）相位降低进入低倾角月球轨道的 ΔV（Folta 2014）。注意该模式是大准晕轨道（及一般准周期轨道）的性质——Folta 2014 明示李萨如轨道（庞加莱图中央区）不具备近平面模式。
 
-### Lissajous 轨道与 Halo 轨道的区别
+## 参数化
 
-| 特征 | Halo 轨道 | Lissajous 轨道 |
-| :--- | :--- | :--- |
-| 周期性 | 精确周期，闭合 | 准周期，不闭合 |
-| 对称性 | 关于 $xOz$ 平面对称 | 无对称性 |
-| 频率关系 | $\omega_z / \omega_{xy} = 1$ | $\omega_z / \omega_{xy} \neq 1$ |
-| 轨道形状 | 三维环状 | 三维准周期缠绕 |
-| 控制需求 | 需要维持控制 | 需要维持控制（且更复杂） |
+- **osculating 李萨如六要素**（Renk 2010）：类比开普勒根数——不稳定振幅 A1（指数增长项）、稳定振幅 A2（指数衰减项）、面内振幅 Ax（Ay 与 Ax 成比例，不单列）、面外振幅 Az、面内相位 Φxy、面外相位 Φz。取 A1=A2=0 即得李萨如轨道。
+- **有效相位面（EPP）**：有效相位 (Φ, Ψ) 与给定振幅的李萨如轨道状态一一对应，用于两星交会与避食设计（Perozzi & Ferraz-Mello 2010）。
 
-Lissajous 轨道可以看作 Halo 轨道的"推广"——当平面内和 $z$ 方向的频率比不为 1 时，周期轨道退化为准周期轨道。
+## 应用
 
-### Lissajous 轨道的线性近似
+- **ARTEMIS**：P1、P2 分别于 2010-08-25 和 2010-10-22 经一次李萨如入轨机动（LOI）进入地月 L2、L1 李萨如轨道（Folta 2012）。站保在星历模型含误差下以轨道延续法最优，消耗下限约 15 m/s/年、预算 25 m/s/年以内（Folta 2010）。事后用庞加莱图判定，ARTEMIS 三条平动点轨道实际是大 quasi-halo 轨道的弧段（Folta 2014）——设计口径称李萨如、事后判定称 quasi-halo，两种说法都有出处。
+- **日地↔地月自然转移**：两个三体系统的双曲流形在庞加莱截面上位置匹配，可实现李萨如轨道间的机动自由转移，多重打靶细化后耦合机动一般小于 100 m/s（Canalias 2008）。
+- **避食**：李萨如两参数族的形状可控性强，日食规避可以较低的代价实现（Alessi 2010）。
 
-在平动点附近的线性化框架下，Lissajous 轨道的运动可分解为三个模态：
+## 术语变体对照
 
-$$x(t) = A_{xy} \cos(\omega_{xy} t + \phi_{xy}) + \text{非线性修正}$$
-$$z(t) = A_z \cos(\omega_z t + \phi_z) + \text{非线性修正}$$
-
-其中 $A_{xy}$ 和 $A_z$ 分别为平面内和 $z$ 方向的振幅，$\phi_{xy}$ 和 $\phi_z$ 为初始相位。由于 $\omega_{xy}$ 和 $\omega_z$ 不可通约，轨道永不闭合。
-
-### 稳定性与控制
-
-与 Halo 轨道类似，Lissajous 轨道也是不稳定的，需要轨道维持控制。但由于 Lissajous 轨道不闭合，控制策略更为复杂：
-
-- **目标轨道的定义**：由于轨道不闭合，"目标轨道"不是一条精确的闭合曲线，而是一条随时间演化的参考轨迹
-- **控制频率**：通常需要更频繁的控制机动
-- **燃料消耗**：Lissajous 轨道的维持消耗通常略高于同等规模的 Halo 轨道
-
-## 应用价值
-
-Lissajous 轨道在空间任务中有独特应用：
-
-- **SOHO 卫星**：ESA/NASA 的太阳观测卫星 SOHO 运行在日-地 L1 点附近的 Lissajous 轨道上，是 Lissajous 轨道最著名的应用
-- **中继通信**：地月 L2 点附近的 Lissajous 轨道可用于月球背面通信中继
-- **轨道选择灵活性**：Lissajous 轨道的频率比可自由选择，提供了比 Halo 轨道更多的设计自由度
-- **入轨更容易**：某些情况下，进入 Lissajous 轨道的 $\Delta V$ 需求低于进入 Halo 轨道
+| 术语 | 含义 | 出处 |
+|------|------|------|
+| 李萨如轨迹（Lissajous trajectory） | 同李萨如轨道 | Canalias 2008 |
+| square 李萨如 | 面内=面外振幅的变体 | Alessi 2010 |
+| 李萨如入轨（LOI） | 从转移轨道进入李萨如轨道的机动 | Folta 2012 |
+| quasi-halo | 围绕晕轨道的准周期环面（李萨如大振幅端） | Renk 2010、Folta 2014 |
+| 高/低 z 幅值模式 | 环面上 z 幅值峰/谷的运行相位区 | Folta 2014 |
+| osculating 李萨如六要素 | A1、A2、Ax、Az、Φxy、Φz | Renk 2010 |
 
 ## 相关概念
 
-- [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
+- [晕轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
+- [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [准周期轨道（Quasi-Periodic Orbit, QPO）](/glossary/orbits/qpo/)
+- [弱稳定边界转移轨道（Weak Stability Boundary Transfer Trajectory）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 
 ## 参考文献
 
-- Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
-- Gomez G, Masdemont J, Simo C. Lissajous orbits around halo orbits[J]. Advances in the Astronautical Sciences, 1998.
-- Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025.
+- Canalias & Masdemont, 2008, Computing natural transfers between Sun–Earth and Earth–Moon Lissajous libration point orbits
+- Renk et al., 2010, 李萨如轨道与 quasi-halo 轨道相关研究
+- Alessi et al., 2010, Two-manoeuvres transfers between LEOs and Lissajous orbits in the Earth–Moon system
+- Folta et al., 2010, Stationkeeping of Lissajous trajectories in the Earth-Moon system with applications to ARTEMIS
+- Folta et al., 2012, ARTEMIS 转移与入轨相关研究
+- Folta et al., 2014, Earth–Moon libration point orbit stationkeeping: theory, modeling, and operations
+- Perozzi & Ferraz-Mello, 2010, 平动点轨道交会与避食的有效相位方法
+- Qiao et al., 2025, 地月平动点轨道任务综述

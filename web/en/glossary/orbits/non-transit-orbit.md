@@ -38,9 +38,9 @@ In the restricted three-body problem, an orbit type where the particle approache
 
 ## Related Concepts
 
-- [Synodic Resonant Periodic Orbit](/en/glossary/orbits/synodic-resonant-periodic-orbit/)
-- [Halo Orbit Amplitude](/en/glossary/orbits/halo-orbit-amplitude/)
-- [Low-Energy Phase Alignment](/en/glossary/orbits/low-energy-phase-alignment/)
+- [Synodic Resonant Periodic Orbit](/en/glossary/orbits/resonant-orbit-family/)
+- [Halo Orbit Amplitude](/en/glossary/orbits/halo-orbit/)
+- [Low-Energy Phase Alignment](/en/glossary/orbits/nrho/)
 - [Near Rectilinear Halo Orbit](/en/glossary/orbits/near-rectilinear-halo-orbit/)
 
 ## References

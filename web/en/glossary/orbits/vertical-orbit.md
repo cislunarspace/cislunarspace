@@ -1,106 +1,85 @@
 ---
 title: Vertical Orbit
-description: Detailed explanation of vertical orbits — definitions, dynamical characteristics, periodic motion near libration points, and applications in cislunar space missions
-keywords: Vertical Orbit, libration point, L1, L2, L3, L4, L5, three-body problem, orbital dynamics, cislunar space
+description: A family of periodic orbits near the collinear libration points dominated by out-of-plane (z-direction) oscillation, also called vertical Lyapunov orbits; doubly symmetric with a figure-eight yz projection, large-amplitude members bend toward the lunar poles, making them candidates for polar coverage and libration-point-to-libration-point transfers.
+keywords: Vertical Orbit, vertical Lyapunov orbit, libration point orbit, periodic orbit, cislunar space
 author: Tianjiang Shuo
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-07
 wechatShare:
   title: Vertical Orbit
-  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Vertical Orbit | Three-Dimensional Periodic Orbit at Libration Points"
-  description: Detailed explanation of vertical orbits — definitions, dynamical characteristics, periodic motion near libration points, and applications in cislunar space missions
+  title: "Vertical Orbit Explained | Term Definition"
+  description: A family of periodic orbits near the collinear libration points dominated by out-of-plane (z-direction) oscillation, also called vertical Lyapunov orbits; doubly symmetric with a figure-eight yz projection, large-amplitude members bend toward the lunar poles, making them candidates for polar coverage and libration-point-to-libration-point transfers.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Vertical Orbit | Three-Dimensional Periodic Orbit at Libration Points"
-  description: Detailed explanation of vertical orbits — definitions, dynamical characteristics, periodic motion near libration points, and applications in cislunar space missions
+  title: "Vertical Orbit Explained | Term Definition"
+  description: A family of periodic orbits near the collinear libration points dominated by out-of-plane (z-direction) oscillation, also called vertical Lyapunov orbits; doubly symmetric with a figure-eight yz projection, large-amplitude members bend toward the lunar poles, making them candidates for polar coverage and libration-point-to-libration-point transfers.
   image: /logo.png
 permalink: /en/glossary/orbits/vertical-orbit/
 ---
 
 # Vertical Orbit
 
-> Author: [Tianjiang Says](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
 
-A **Vertical Orbit** is a **three-dimensional periodic orbit family surrounding libration points**, belonging to an important category of Libration Point Orbits (LPO). Unlike the planar motion of Lyapunov orbits, vertical orbits have a significant periodic oscillation component in the $z$-direction while maintaining a certain range of motion in the $xOy$ plane, forming a unique three-dimensional spatial configuration. Vertical orbits exist near the L1, L2, and L3 collinear libration points as well as the L4 and L5 triangular libration points of the Earth-Moon system.
+A vertical orbit is a family of periodic orbits near a collinear libration point dominated by out-of-plane (z-direction) oscillation. Under linearization, the center subspace of a collinear point decomposes into two normal oscillations, in-plane (ωp) and out-of-plane (ωv); the periodic solution that excites only the out-of-plane center mode is the vertical orbit (Belló 2010). The literature also calls it the **vertical Lyapunov orbit** — like the planar Lyapunov family, its existence is guaranteed by Lyapunov's center theorem, and the two are sibling families of the same rank (Parker & Anderson 2014, Alessi 2009).
 
-## Core Elements
+Parker & Anderson 2014 describe it as "piercing the plane at the Lagrange point itself": the orbit's out-of-plane oscillation crosses up and down through the libration point as its center.
 
-### Dynamical Characteristics of Vertical Orbits
+## Geometry and Symmetry
 
-Vertical orbits possess the following properties within the CR3BP framework:
+A vertical orbit is **doubly symmetric**: symmetric about the xz-plane, and tracing the same path in the upper and lower half-planes (Parker & Anderson 2014, Grebow 2008). Its yz projection is a figure eight (Grebow 2008) — a nonlinear vertical orbit thus has appreciable in-plane motion, and the "xy projection collapses to a point" holds only in the linearized/Hill limit (Gómez 2001). As the family continues, large-amplitude vertical orbits can enclose both primaries and bend toward the lunar north and south poles (Grebow 2008).
 
-- **Three-dimensional motion**: Vertical orbits have non-zero amplitudes in the $x$, $y$, and $z$ directions; the $z$-direction oscillation is the source of their name and the most significant distinction from Lyapunov orbits
-- **Periodicity**: Vertical orbits are strictly periodic, closing precisely in the rotating coordinate system
-- **Symmetry**: Standard vertical orbits are symmetric with respect to the $xOz$ plane
-- **Amplitude parameterization**: The vertical orbit family can be parameterized by $z$-direction amplitude; different amplitudes correspond to different energy levels (Jacobi constant) and orbital periods
+## Relation to Other Families
 
-### Classification of Vertical Orbits
+- The vertical orbit is the **Lissajous limit as in-plane amplitude → 0**, with Lissajous tori winding around it (Belló 2010, Folta 2014); it is connected to the planar Lyapunov family by families of quasi-periodic tori (Guzzetti 2016: at JC∈[3.15, 3.17] the two L2 families are linked by same-energy tori).
+- The halo family passes near the vertical orbits as it continues; in Hill-problem analysis the L2 halo family terminates at a vertical collision orbit (Gómez 2001).
+- At L4/L5, the axial family bifurcates from the vertical Lyapunov family and is no longer symmetric (He 2026).
 
-Based on the libration point locations in the Earth-Moon system, vertical orbits can be classified into the following families:
+## History and Range of Existence
 
-| Orbit Family | Parent Libration Point | Characteristics |
-| :--- | :--- | :--- |
-| V1 (Vertical L1) | L1 | Located between Earth and Moon, moderate $z$-direction amplitude |
-| V2 (Vertical L2) | L2 | Located on the far side of the Moon, large $z$-direction amplitude |
-| V3 (Vertical L3) | L3 | Located on the far side of the Earth from the Moon, long period |
-| V4/V5 (Vertical L4/L5) | L4/L5 | Located near the triangular libration points, good stability |
+Moulton had already pointed out the existence of vertical orbits in 1920 (cited by Grebow 2008). Vertical families exist near the collinear points L1/L2/L3 as well as the triangular points L4/L5 (Folta 2015, Vaquero & Howell 2014, He 2026).
 
-### Orbital Parameter Characteristics
+## Applications
 
-Using the Earth-Moon system as an example, the main parameter ranges for the vertical orbit family are as follows (based on the dynamic catalog statistics by Guzzetti et al.):
+- **Polar coverage**: vertical orbits below 100,000 km altitude bend toward the poles and serve lunar south pole coverage constellations (Grebow 2008).
+- **Libration-point-to-libration-point transfers**: homoclinic connections of L2 vertical orbits, and L2↔L3 transfers via vertical-orbit manifolds (Haapala 2013).
+- **Space domain awareness**: the L1/L2 vertical families are listed as candidate observer orbit families for cislunar space domain awareness (Klonowski 2024).
 
-| Orbit Family | Jacobi Constant Range | Period Range (days) | Stability Index |
-| :--- | :--- | :--- | :--- |
-| V1 | Approximately 2.5 ~ 3.0 | Approximately 24 | Relatively high |
-| V2 | Approximately 0.8 ~ 3.0 | Approximately 16 | Moderate |
-| V3 | Approximately 2.5 ~ 3.0 | Relatively long | Relatively low |
+## Terminology Variants
 
-There is a nonlinear relationship between the Jacobi constant and orbital period of vertical orbits; as amplitude increases, orbital energy decreases (Jacobi constant decreases) and the period changes accordingly.
-
-### Relationship Between Vertical Orbits and Other Libration Point Orbits
-
-Vertical orbits belong to the same libration point orbit family as Lyapunov orbits, Halo orbits, and Axial orbits:
-
-- **Relationship with Lyapunov orbits**: Lyapunov orbits lie strictly in the $xOy$ plane and can be viewed as the degenerate form of vertical orbits when the $z$-direction amplitude approaches zero
-- **Relationship with Halo orbits**: Halo orbits are symmetric with respect to the $xOz$ plane, while vertical orbits also have significant $y$-direction amplitudes; both have three-dimensional characteristics but with different geometric configurations
-- **Relationship with Axial orbits**: Both Axial orbits and vertical orbits have three-dimensional characteristics, but their dominant oscillation directions differ
-
-### Stability Analysis
-
-The stability of vertical orbits varies depending on the associated libration point:
-
-- Vertical orbits near L1, L2, and L3 typically have unstable modes and require station-keeping maneuvers
-- Vertical orbits near L4 and L5 may have members with good long-term stability due to the inherent stability of the triangular libration points
-- The stability index is a key metric for evaluating the local stability of vertical orbits; an index closer to 1 indicates a more stable orbit
-
-## Application Value
-
-Vertical orbits have the following potential applications in cislunar space missions:
-
-- **Scientific observation platform**: The three-dimensional characteristics of vertical orbits enable unique observation geometries, suitable for space science and astronomical observation missions
-- **Communication relay**: L1/L2 vertical orbits can serve as Earth-Moon communication relays, covering both the near and far sides of the Moon
-- **Orbit transfer corridors**: The stable and unstable manifolds of vertical orbits can serve as low-energy transfer corridors connecting different regions of cislunar space
-- **Mission design reference**: As an important component of the libration point orbit classification system, vertical orbits are fundamental to understanding cislunar dynamical structures and designing complex mission trajectories
+| Term | Meaning | Source |
+|------|---------|--------|
+| Vertical Lyapunov orbit | Another name for the vertical orbit | Parker & Anderson 2014, Belló 2010 |
+| Vertical periodic orbit | Same; degenerates to a pure z-direction oscillation in the linear limit | Gómez 2001 |
 
 ## Related Concepts
 
-- [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
 - [Axial Orbit](/en/glossary/orbits/axial-orbit/)
+- [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [Butterfly Orbit](/en/glossary/orbits/butterfly-orbit/)
 
 ## References
 
-- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
-- Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
-- Richardson D L. Analytic construction of periodic orbits about the collinear points[J]. Celestial Mechanics, 1980, 22(3): 241-253.
+- Gómez et al., 2001, Dynamics and Mission Design Near Libration Points, Vol. I
+- Grebow et al., 2008, Multibody orbit architectures for lunar south pole coverage
+- Alessi et al., 2009, Leaving the Moon by means of invariant manifolds of libration point orbits
+- Belló et al., 2010, Invariant manifolds, Lagrangian trajectories and space mission design
+- Haapala & Howell, 2013, Homoclinic connections of vertical orbits and L2↔L3 transfers
+- Parker & Anderson, 2014, Low-Energy Lunar Trajectory Design
+- Folta et al., 2014, Earth–Moon libration point orbit stationkeeping: theory, modeling, and operations
+- Folta et al., 2015, An Earth-Moon system trajectory design reference catalog
+- Vaquero & Howell, 2014, Leveraging resonant-orbit manifolds to design transfers between libration-point orbits
+- Guzzetti et al., 2016, Rapid trajectory design in the Earth–Moon ephemeris system via an interactive catalog of periodic and quasi-periodic orbits
+- Klonowski et al., 2024, Cislunar space domain awareness architecture design and analysis for cooperative agents
+- He et al., 2026, A review of cislunar constellation design and optimization

@@ -41,7 +41,7 @@ This transfer network with the Moon as hub connects Earth, LEO, and L4/L5 region
 - [Coplanar Orbital Plane Constraint](/en/glossary/orbits/coplanar-orbital-plane-constraint/)
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
 - [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
-- [Exterior Phase](/en/glossary/orbits/exterior-phase/)
+- [Exterior Phase](/en/glossary/orbits/low-energy-transfer/)
 
 ## References
 

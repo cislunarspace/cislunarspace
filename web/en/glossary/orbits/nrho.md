@@ -1,131 +1,95 @@
 ---
 title: Near-Rectilinear Halo Orbit (NRHO)
-description: Detailed analysis of the definition, relationship with Halo orbits, resonance characteristics, stability analysis, and applications in cislunar space missions of the Near-Rectilinear Halo Orbit (NRHO)
-keywords: Near-Rectilinear Halo Orbit, NRHO, Near-Rectilinear Halo Orbit, Halo orbit, Earth-Moon libration point, L2 point, Gateway space station, Gateway
+description: A stability-defined subset of the halo orbit family — low perilune, large out-of-plane amplitude, linearly stable or nearly stable; its 9:2 lunar synodic resonant member (period ~6.56 days) is the Gateway baseline orbit, flight-proven by CAPSTONE.
+keywords: Near-Rectilinear Halo Orbit, NRHO, Gateway, CAPSTONE, Halo Orbit, cislunar space, periodic orbit
 author: Tianjiang Shuo
-date: 2026-04-04
-lastUpdated: 2026-06-05
+date: 2026-07-31
+lastUpdated: 2026-08-07
 wechatShare:
   title: Near-Rectilinear Halo Orbit (NRHO)
-  desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
+  desc: Cislunar space research frontiers, term definitions, and tools resources.
   image: /logo.png
 og:
-  title: "Near-Rectilinear Halo Orbit (NRHO) Details | Candidate Orbit for Cislunar Space Station"
-  description: Detailed analysis of the definition, relationship with Halo orbits, resonance characteristics, stability analysis, and applications in cislunar space missions of the Near-Rectilinear Halo Orbit (NRHO)
+  title: "Near-Rectilinear Halo Orbit (NRHO) Explained | Term Definition"
+  description: A stability-defined subset of the halo orbit family — low perilune, large out-of-plane amplitude, linearly stable or nearly stable; its 9:2 lunar synodic resonant member (period ~6.56 days) is the Gateway baseline orbit, flight-proven by CAPSTONE.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Near-Rectilinear Halo Orbit (NRHO) Details | Candidate Orbit for Cislunar Space Station"
-  description: Detailed analysis of the definition, relationship with Halo orbits, resonance characteristics, stability analysis, and applications in cislunar space missions of the Near-Rectilinear Halo Orbit (NRHO)
+  title: "Near-Rectilinear Halo Orbit (NRHO) Explained | Term Definition"
+  description: A stability-defined subset of the halo orbit family — low perilune, large out-of-plane amplitude, linearly stable or nearly stable; its 9:2 lunar synodic resonant member (period ~6.56 days) is the Gateway baseline orbit, flight-proven by CAPSTONE.
   image: /logo.png
 permalink: /en/glossary/orbits/nrho/
 ---
 
-# Near-Rectilinear Halo Orbit
+# Near-Rectilinear Halo Orbit (NRHO)
 
-> Author: [Tianjiang Says](https://blog.csdn.net/qq_33254264)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
 
-A Near-Rectilinear Halo Orbit (NRHO) is a sub-class of Halo orbits near the Earth-Moon collinear libration points $L_1$ or $L_2$. In the synodic reference frame, when the out-of-plane amplitude $A_z$ of a Halo orbit is much larger than the in-plane amplitude $A_y$, the orbit shape transitions from the classic "cashew-shaped" Halo orbit to an approximately linear reciprocating motion -- i.e., the NRHO. In other words, the NRHO corresponds to the extreme members of the Halo orbit family with large $A_z/A_y$ ratios.
+An NRHO is a stability-defined subset of the halo orbit family: the segment of halo orbits with bounded linear stability — stable or nearly stable members (Spreen 2021, Gao 2023). Concretely, L2 NRHOs are the halo orbits between the first and third stability changes along the family, with perilune radii of roughly 1832–17390 km; L1 NRHOs lie between the first and fourth stability changes, with perilune radii of roughly 900–19000 km and periods of 8–10 days (Spreen 2021, Jin 2025).
 
-![Earth-Moon L1 Northern and L2 Southern Halo Orbits and NRHO](../../glossary/figures/nrho/em-l1-l2-halo-and-nrho.png)
-*Earth-Moon L1 northern family and L2 southern family Halo orbits, with the extreme configuration being the NRHO*
+Morphologically, NRHOs combine a very low perilune with a large out-of-plane amplitude, stretching the orbit nearly straight (Singh 2021, Gao 2023). For the 9:2 NRHO, the three-directional amplitudes are [x, y, z] = [13090, 31925, 73197] km — the out-of-plane amplitude more than doubles each in-plane one (Spreen 2021, Appendix C). The term traces back to Howell & Breakwell's 1983 "almost rectilinear halo orbit" approximation (Spreen 2021).
 
-## Geometric Characteristics
+## The 9:2 Synodic Resonant Member
 
-- **Extremely low perilune altitude**: typically below 100 km
-- **Apolune**: located near the Earth-Moon $L_2$ point
-- **Orbital plane symmetric about the $xOz$ plane**: with southern and northern families as two branches
-- **Overall presents an approximately linear reciprocating motion**
+The most important NRHO is the L2 southern member in 9:2 resonance with the lunar synodic period: nine revolutions per two synodic months (≈29.53 days), giving a period of about 6.556 days. Precise CR3BP parameters: perilune radius 3153 km, apolune radius 71230 km, Jacobi constant 3.04719 (Spreen 2021, Appendix C); engineering literature rounds these to 6.5 days and 3200/70000 km (Capannolo 2023 — note these are Moon-centered radii, not altitudes).
 
-## Resonance Relationships
+Two points of usage:
 
-Similar to DROs, NRHOs also exhibit resonance relationships with the Moon's orbital period. When the orbital period $T$ and the Moon's orbital period $T_M$ satisfy $T/T_M \approx n/m$, it is referred to as an $m:n$ synodic resonant NRHO.
+- The resonance baseline is the **lunar synodic period**, not the tropical year. Some papers say "Sun-resonant NRHO" (Gao 2023), but in their model the Sun's apparent period in the Earth–Moon rotating frame numerically equals the lunar synodic period — the two phrasings describe the same resonance.
+- Synodic resonance makes the Earth–Moon–Sun geometry repeat every synodic month, which gives the 9:2 NRHO its eclipse-avoidance geometry and was one reason it was chosen as the Gateway baseline (Zimovan-Spreen 2022, Spreen 2021).
 
-| Resonance Ratio | Characteristics and Applications |
-| :--- | :--- |
-| 3:1, 4:1 (low-order) | Low perilune altitude, advantageous for lunar surface exploration and communications relay |
-| **9:2** | **NASA Gateway space station selected orbit -- good stability, suitable for long-term station-keeping** |
-| 11:2 (high-order) | Better orbital stability, suitable for long-duration mission |
+## Stability and Neighborhood Structure
 
-## Dynamic Symmetry
+Stability indices along the NRHO segment lie between 1 and 1.69, covering linearly stable and mildly unstable members (Spreen 2021; Jin 2025 reports indices "near ±1"). The NRHO neighborhood bifurcates into higher-period orbit families (P2HO1, i.e. the butterfly family, P2HO2, P4HO1/2, and others), whose manifolds can be exploited to build transfers between NRHOs and other orbits (Zimovan-Spreen 2022).
 
-Unlike DROs which exhibit symmetry about the $x$-axis, NRHOs display **mirror symmetry about the $xOz$ plane**. When an NRHO crosses the $xOz$ plane, the velocity components satisfy the conditions: $\dot{x}$ and $\dot{z}$ change sign while $\dot{y}$ remains unchanged. This symmetry provides natural shooting conditions for differential correction: select an initial point on the $xOz$ plane, retaining only $z_0$ and $\dot{y}_0$ as free variables, integrate for half a period, and verify the $xOz$ plane crossing conditions -- enabling iterative convergence to a periodic orbit.
+## Applications
 
-## Stability Characteristics
+- **Gateway and CAPSTONE**: the L2 southern 9:2 synodic resonant NRHO is the Gateway baseline orbit (Zimovan-Spreen 2022); CAPSTONE entered this orbit in 2022 and operated there, validating navigation and station-keeping (Jin 2025, Qiao 2025).
+- **Lunar navigation constellations**: NRHOs of the L1/L2 northern and southern families (parameterized by perilune radius 2000–16000 km) can build a lunar global positioning constellation; the best configuration is four orbits with 16 satellites, with polar GDOP better than comparably sized halo constellations (Jin 2025). In resonant-constellation studies, the L2 northern/southern NRHOs (denoted L2NH/L2SH, family period range ~1.37–3.42 time units) appear in the Rank 1/2 configurations of all three target regions (near-Earth, lunar, and combined) — the combined-region optimum pairs L2NH-L2SH with L4/L5 vertical orbits (He 2025).
+- **Formation flight**: the quasi-periodic tori (QPT) around Gateway serve as naturally bounded regions for Orion formation flight, with model predictive control handling phasing on the torus (Capannolo 2023).
 
-NRHO stability analysis requires attention to:
+## Getting There and Back
 
-- **Floquet multipliers**: eigenvalues of the monodromy matrix characterizing the amplification/attenuation characteristics of orbital perturbations in each direction
-- **Perilune distance $r_p$**: excessively small $r_p$ may risk lunar surface impact, while excessively large $r_p$ weakens communications and exploration advantages
-- **Coupling with invariant manifolds in the libration point region**: a unique dynamic characteristic distinguishing NRHOs from DROs
+- **NRHOI (NRHO insertion)**: the insertion maneuver into an NRHO. Two schemes compared (Kikuchi 2024): in the indirect transfer (IDT), NRHOI is applied at true anomaly 160° with a large non-velocity-direction component, about 240 m/s; in the perilune rendezvous method (PRM) it is applied along the velocity direction at perilune, only about 55 m/s — PRM first brakes into a long elliptical lunar orbit, waits about two weeks for the orbital plane to align with the NRHO, then inserts and rendezvous with Gateway in one go.
+- **Earth↔NRHO**: IDT about 5.8 days / 593 m/s (including TLI), PRM about 18.3 days / 545 m/s, WSB transfers over 100 days but only 60–100 m/s (Kikuchi 2024); low-thrust sGTO↔southern L2 NRHO transfers treat the stable manifold as a long coast arc, on the order of 93 days / 1541 m/s (Singh 2021).
+- **NRHO↔DRO**: two-impulse transfers exploit symmetry to simplify the search; via lunar flybys and Lyapunov-like legs the cost can be pushed down to 184–248 m/s (Wang 2021); using manifolds of the bifurcated neighborhood families takes about 20 days at ~200 m/s with eclipse avoidance throughout (Zimovan-Spreen 2022).
+- **Gateway↔elsewhere**: in a high-fidelity ephemeris model, Gateway (9:2 NRHO)↔LLO takes about 36 days and ↔LEO about 144–153 days by minimum-time low-thrust transfer in both directions (Pozzi 2025).
+- **Low-energy phasing (Liu 2025)**: since NRHOs lack well-defined invariant manifolds, escape/approach flows built from the maximum stretching directions of the Cauchy–Green tensor are intersected to align the chaser's phase with the target, saving considerably on propellant compared with impulsive phasing.
 
-## Engineering Applications
+## Terminology Variants
 
-NRHOs have become a popular candidate orbit for current cislunar space missions:
-
-- **China's Chang'e-4 relay satellite "Queqiao"**: successfully operating in an Earth-Moon $L_2$ point Halo orbit, providing communications relay services for lunar far-side exploration
-- **NASA "Gateway" space station**: planned deployment in the $L_2$ southern family 9:2 resonant NRHO
-- **Cislunar space situation awareness**: NRHOs, with their unique orbital position, are well-suited for deploying relay communications and observation platforms
-
-## Application in A2PPO Low-Thrust Transfer Research
-
-Ul Haq et al. (2026) used the A2PPO (Attention-Augmented Proximal Policy Optimization) algorithm to investigate autonomous low-thrust transfers from L₂ Halo orbit to NRHO (Scenario S2):
-
-- **Departure orbit**: L₂ southern Halo orbit ($C_J \approx 3.1211$, period 14.55 days)
-- **Target orbit**: L₂ southern NRHO ($C_J \approx 3.0395$, period 6.99 days)
-- **Transfer result**: 8.38 days, consuming 5.00 kg of propellant
-- **Transfer characteristics**: Forms a lunar flyby geometry
-
-Transfers between NRHO and Halo orbits require significant energy change ($C_J$ change of ~0.08) and represent a high-difficulty scenario in low-thrust trajectory optimization. A2PPO is capable of autonomously learning efficient transfer strategies without requiring an initial guess.
+| Term | Meaning | Source |
+|------|---------|--------|
+| 9:2 NRHO | L2 southern resonant member, 9 revolutions per 2 synodic months; Gateway baseline | Spreen 2021 |
+| Sun-resonant NRHO | Alternative phrasing; the baseline is actually the lunar synodic period | Gao 2023 |
+| NRHOI | NRHO insertion maneuver (PRM: along-velocity at perilune / IDT: at 160° true anomaly) | Kikuchi 2024 |
+| NRHO transfer | A transfer departing from or arriving at an NRHO | Pozzi 2025 |
+| QPT | Quasi-periodic torus around an NRHO, used for formation flight | Capannolo 2023 |
+| L2NH / L2SH | L2 northern / southern NRHOs (resonant navigation constellation context) | He 2025 |
 
 ## Related Concepts
 
-- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
-- [Earth-Moon L1/L2 Halo Orbits (EML1/EML2 Halo)](/en/glossary/orbits/eml-halo/)
-- [A2PPO (Attention-Augmented Proximal Policy Optimization)](/en/glossary/dynamics/a2ppo/)
-- [Starshade](/en/glossary/other/starshade/)
-- [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson/)
-- [Central Manifold](/en/glossary/dynamics/central-manifold/)
-- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
-- [Orbit Identification](/en/glossary/orbits/orbit-identification/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Libration Point (Lagrangian Point)](/en/glossary/dynamics/libration-point/)
-- [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
-- [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
-
-## Core Elements
-
-### Orbit Definition
-
-Near-Rectilinear Halo Orbit (NRHO) is an extreme sub-class of the Halo orbit family with large $A_z/A_y$ ratio. The orbit shape transitions from the classic "cashew" form to an approximately linear reciprocating motion. The perilune altitude is extremely low (typically < 100 km), and the apolune is located near the L₂ point.
-
-### Dynamic Characteristics
-
-- **Resonance relationships**: NASA Gateway selected the 9:2 resonant NRHO, offering good stability for long-term station-keeping
-- **Symmetry**: Mirror symmetry about the $xOz$ plane
-- **Stability**: Characterized through Floquet multipliers analyzing perturbation amplification/attenuation in each direction
-- **Maintenance cost**: Low (perilune distance requires precise control to balance exploration advantages against impact risk)
-
-### Design Methods
-
-- **Exploiting symmetry**: Select initial points on the $xOz$ plane, retaining $z_0$ and $\dot{y}_0$ as free variables
-- **Half-period integration**: Verify $xOz$ plane crossing conditions, iterating to convergence on a periodic orbit
-- **Resonance ratio selection**: Choose the appropriate resonance ratio based on mission requirements (e.g., 9:2, 11:2)
-- **Invariant manifold analysis**: Design transfer orbits using invariant manifolds in the libration point region
-
-## Application Value
-
-NRHO has become a popular candidate orbit for current cislunar space missions. NASA's Gateway space station is planned for deployment in the L₂ southern family 9:2 resonant NRHO. China's Chang'e-4 relay satellite "Queqiao" has successfully operated in an L₂ point Halo orbit, validating the application value of this orbit family for lunar far-side communications relay.
+- [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/distant-retrograde-orbit-dro/)
+- [Resonant Orbit Family](/en/glossary/orbits/resonant-orbit-family/)
+- [Weak Stability Boundary Transfer Trajectory](/en/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
 
 ## References
 
-- Zimovan E M. Rectilinear halo orbits and their applications in cislunar space[D]. Purdue University, 2017.
-- Williams J, Whitley R. Targeting cislunar rectilinear halo orbits for spacecraft missions[C]. 2017.
-- Wu Weiren. Chang'e-4 Lunar Far-Side Soft Landing Mission Design[J]. 2017.
-- Qiao C, Long X, Yang L, et al. Orbital parameter characterization and objects cataloging for Earth-Moon collinear libration points[J]. Chinese Journal of Aeronautics, 2025. doi: 10.1016/j.cja.2025.103869.
+- Spreen, 2021, Trajectory design and targeting for applications to the exploration program in cislunar space (thesis)
+- Zimovan-Spreen et al., 2022, Dynamical structures nearby NRHOs with applications to transfer design in cislunar space
+- Gao et al., 2023, Low-thrust station-keeping control for lunar near rectilinear halo orbits
+- Singh et al., 2021, Low-thrust transfers to southern L2 near-rectilinear halo orbits facilitated by invariant manifolds
+- Wang et al., 2021, Transfers between NRHOs and DROs in the Earth-Moon system
+- Bucchioni et al., 2023, Phasing with near rectilinear halo orbits: design and comparison
+- Capannolo et al., 2023, Model predictive control for formation reconfiguration exploiting quasi-periodic tori in the cislunar environment
+- Kikuchi et al., 2024, Comparison of transfer trajectories to NRHO and operation plan for logistics resupply mission to Gateway
+- Pozzi et al., 2025, Gateway↔LLO/LEO bidirectional low-thrust transfer study
+- Jin et al., 2025, NRHO-based lunar global positioning constellation study
+- Qiao et al., 2025, Review of cislunar libration-point missions

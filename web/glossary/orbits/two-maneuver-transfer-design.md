@@ -40,7 +40,7 @@ permalink: /glossary/orbits/two-maneuver-transfer-design/
 
 - [长期进动椭圆轨道（Secularly Precessing Elliptical Orbit）](/glossary/orbits/secularly-precessing-elliptical-orbit/)
 - [螺旋转移（Spiral Transfer）](/glossary/orbits/spiral-transfer/)
-- [Halo轨道类别（Halo Orbit Classification）](/glossary/orbits/halo-orbit-classification/)
+- [Halo轨道类别（Halo Orbit Classification）](/glossary/orbits/halo-orbit/)
 - [L4（L4）](/glossary/dynamics/l4/)
 
 ## 参考文献

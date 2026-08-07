@@ -39,7 +39,7 @@ permalink: /glossary/orbits/nominal-orbit/
 ## 相关概念
 
 - [同宿轨道连接（Homoclinic Connection）](/glossary/orbits/homoclinic-connection/)
-- [z振幅（Z-amplitude）](/glossary/orbits/z-amplitude/)
+- [z振幅（Z-amplitude）](/glossary/orbits/halo-orbit/)
 - [平面窗口（Plane Window）](/glossary/orbits/plane-window/)
 - [长路径转移轨道（Long-Path Transfer Orbit）](/glossary/orbits/long-path-transfer-orbit/)
 

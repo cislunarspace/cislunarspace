@@ -38,7 +38,7 @@ This term在cislunar space missions中has important application value. In orbit 
 
 ## Related Concepts
 
-- [DRO-to-Earth-Orbit Transfer](/en/glossary/orbits/dro-to-earth-orbit-transfer/)
+- [DRO-to-Earth-Orbit Transfer](/en/glossary/orbits/distant-retrograde-orbit-dro/)
 - [Maximum Excursion Distance](/en/glossary/orbits/maximum-excursion-distance/)
 - [Short-Path Transfer Orbit](/en/glossary/orbits/short-path-transfer-orbit/)
 - [Conic Orbit](/en/glossary/fundamentals/conic-orbit/)

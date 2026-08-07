@@ -1,6 +1,6 @@
 ---
 title: Pole-Sitter
-description: A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. In the Earth-moon system, pole-sitting requires continuous thrust to counteract the co
+description: A satellite concept that continuously hovers above a planetary or lunar pole for persistent polar observation; the concept comes from the displaced-orbit literature, and Grebow 2008 achieves equivalent coverage with two-satellite libration-point-orbit combinations instead.
 keywords: Pole-Sitter, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: "Pole-Sitter Explained | Term Definition"
-  description: A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. In the Earth-moon system, pole-sitting requires continuous thrust to counteract the co
+  description: A satellite concept that continuously hovers above a planetary or lunar pole for persistent polar observation; the concept comes from the displaced-orbit literature, and Grebow 2008 achieves equivalent coverage with two-satellite libration-point-orbit combinations instead.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: "Pole-Sitter Explained | Term Definition"
-  description: A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. In the Earth-moon system, pole-sitting requires continuous thrust to counteract the co
+  description: A satellite concept that continuously hovers above a planetary or lunar pole for persistent polar observation; the concept comes from the displaced-orbit literature, and Grebow 2008 achieves equivalent coverage with two-satellite libration-point-orbit combinations instead.
   image: /logo.png
 permalink: /en/glossary/orbits/pole-sitter/
 ---
@@ -30,7 +30,7 @@ permalink: /en/glossary/orbits/pole-sitter/
 
 ## Definition
 
-A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. In the Earth-moon system, pole-sitting requires continuous thrust to counteract the combined gravitational and centrifugal forces, making it difficult to implement. As an alternative, this paper investigates using natural motion properties of libration point orbits with dual-satellite combinations to achieve equivalent persistent polar visibility.
+A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. The pole-sitter concept comes from the displaced-orbit literature and requires continuous thrust (or solar sailing) to maintain — cited here only as background. Grebow 2008 instead achieves equivalent persistent polar visibility with natural libration-point-orbit motion using two-satellite combinations.
 
 ## Related Concepts
 

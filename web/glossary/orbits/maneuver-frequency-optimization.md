@@ -39,7 +39,7 @@ permalink: /glossary/orbits/maneuver-frequency-optimization/
 ## 相关概念
 
 - [轨道相位（Orbit Phase）](/glossary/orbits/orbit-phase/)
-- [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-orbit-cataloging/)
+- [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [泊松轨道（Parking Orbit）](/glossary/orbits/parking-orbit/)
 - [霍曼转移（Hohmann Transfer）](/glossary/orbits/hohmann-transfer/)
 

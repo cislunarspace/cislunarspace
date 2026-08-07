@@ -38,9 +38,9 @@ permalink: /glossary/orbits/non-transit-orbit/
 
 ## 相关概念
 
-- [共谐共振周期轨道（Synodic Resonant Periodic Orbit）](/glossary/orbits/synodic-resonant-periodic-orbit/)
-- [晕轨道幅值（Halo Orbit Amplitude）](/glossary/orbits/halo-orbit-amplitude/)
-- [低能量相位对准（Low-Energy Phase Alignment）](/glossary/orbits/low-energy-phase-alignment/)
+- [共谐共振周期轨道（Synodic Resonant Periodic Orbit）](/glossary/orbits/resonant-orbit-family/)
+- [晕轨道幅值（Halo Orbit Amplitude）](/glossary/orbits/halo-orbit/)
+- [低能量相位对准（Low-Energy Phase Alignment）](/glossary/orbits/nrho/)
 - [近直线晕轨道（Near-Rectilinear Halo Orbit）](/glossary/orbits/near-rectilinear-halo-orbit/)
 
 ## 参考文献
