@@ -40,7 +40,7 @@ The Near Resonance Theorem extends the Liouville and Hartman theorems to near-re
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
-- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
+- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
 
 ## References

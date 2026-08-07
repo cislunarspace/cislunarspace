@@ -41,7 +41,7 @@ permalink: /glossary/dynamics/jacobi-energy/
 - [L4（L4）](/glossary/dynamics/l4/)
 - [轨道内分量（In-Plane）](/glossary/dynamics/in-plane/)
 - [Hill方程（Hill's Equations）](/glossary/dynamics/hills-equations/)
-- [Halo轨道类别（Halo Orbit Classification）](/glossary/orbits/halo-orbit-classification/)
+- [Halo轨道类别（Halo Orbit Classification）](/glossary/orbits/halo-orbit/)
 
 ## 参考文献
 

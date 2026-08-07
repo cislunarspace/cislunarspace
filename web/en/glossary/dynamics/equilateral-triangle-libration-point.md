@@ -40,7 +40,7 @@ The Equilateral Triangle Libration Points (L4 and L5) form equilateral triangles
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
-- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
+- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
 
 ## References

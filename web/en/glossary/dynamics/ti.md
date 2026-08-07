@@ -40,7 +40,7 @@ The two-impulse maneuver is a fundamental strategy for transfer between libratio
 
 - [Multi-Impulse Maneuver (MI)](/en/glossary/dynamics/multi-impulse-maneuver/)
 - [State Transition Matrix](/en/glossary/dynamics/state-transition-matrix/)
-- [Collinear Libration Point Orbit](/en/glossary/orbits/collinear-libration-point-orbit/)
+- [Collinear Libration Point Orbit](/en/glossary/orbits/lagrangian-point/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 
 ## References

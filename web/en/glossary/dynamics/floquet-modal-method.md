@@ -40,7 +40,7 @@ The Floquet Modal Method decomposes state deviations into six Floquet modes corr
 
 - [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
-- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-orbit-cataloging/)
+- [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
 
 ## References
 

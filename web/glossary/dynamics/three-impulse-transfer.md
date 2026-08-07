@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/three-impulse-transfer/
 ## 相关概念
 
 - [轨道转移级（Orbital Transfer Stage）](/glossary/other/orbital-transfer-stage/)
-- [低能地月转移（Low-Energy Earth-Moon Transfer）](/glossary/orbits/low-energy-earth-moon-transfer/)
+- [低能地月转移（Low-Energy Earth-Moon Transfer）](/glossary/orbits/low-energy-transfer/)
 
 ## 参考文献
 

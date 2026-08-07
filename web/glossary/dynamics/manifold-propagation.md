@@ -41,7 +41,7 @@ permalink: /glossary/dynamics/manifold-propagation/
 
 - [轨道转移级（Orbital Transfer Stage）](/glossary/other/orbital-transfer-stage/)
 - [圆型线性化相对运动方程（CLERM）](/glossary/dynamics/clerm/)
-- [低能地月转移（Low-Energy Earth-Moon Transfer）](/glossary/orbits/low-energy-earth-moon-transfer/)
+- [低能地月转移（Low-Energy Earth-Moon Transfer）](/glossary/orbits/low-energy-transfer/)
 
 ## 参考文献
 

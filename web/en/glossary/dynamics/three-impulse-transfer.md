@@ -34,7 +34,7 @@ A transfer scheme applying three impulses sequentially at departure, perilune, a
 ## Related Concepts
 
 - [Orbital Transfer Stage](/en/glossary/other/orbital-transfer-stage/)
-- [Low-Energy Earth-Moon Transfer](/en/glossary/orbits/low-energy-earth-moon-transfer/)
+- [Low-Energy Earth-Moon Transfer](/en/glossary/orbits/low-energy-transfer/)
 
 ## References
 

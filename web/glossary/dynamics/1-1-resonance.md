@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/1-1-resonance/
 
 - [渐近解（Asymptotic Solution）](/glossary/dynamics/asymptotic-solution/)
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
-- [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-orbit-cataloging/)
+- [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
 
 ## 参考文献
