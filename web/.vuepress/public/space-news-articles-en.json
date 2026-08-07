@@ -7297,6 +7297,17 @@
     "image": null
   },
   {
+    "relativePath": "en/space-news/2026/08/2026-08-01-landspace-zhuque-3-re-flight.md",
+    "path": "/en/space-news/2026/08/2026-08-01-landspace-zhuque-3-re-flight/",
+    "title": "LandSpaces Zhuque-3 Y2 Rocket Scheduled for August Re-flight",
+    "description": "LandSpaces Zhuque-3 Y2 rocket is scheduled for a re-flight attempt in August 2026, aiming to achieve vertical soft landing and mark a major milestone for Chinas private reusable rocket technology.",
+    "date": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "author": "Tianjiangshuo",
+    "category": "landspace",
+    "image": null
+  },
+  {
     "relativePath": "en/space-news/2026/08/2026-08-01-lijian-1-y18-rocket-factory.md",
     "path": "/en/space-news/2026/08/2026-08-01-lijian-1-y18-rocket-factory/",
     "title": "Lijian-1 Y18 Rocket Successfully Leaves Factory",
@@ -7385,6 +7396,17 @@
     "image": "/en/space-news/2026/08/figures/2026-08-02-shenzhou-23-space-rice-sampling/hero.jpg"
   },
   {
+    "relativePath": "en/space-news/2026/08/2026-08-03-china-commercial-space-station-launch.md",
+    "path": "/en/space-news/2026/08/2026-08-03-china-commercial-space-station-launch/",
+    "title": "Chinas Commercial Space Station to Launch Soon",
+    "description": "On August 3, 2026, it was reported that Chinas commercial space station is about to launch, which will complement the Tiangong Space Station and alleviate its pressure.",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "Tianjiangshuo",
+    "category": "commercial",
+    "image": "/en/space-news/2026/08/figures/2026-08-03-china-commercial-space-station-launch/hero.webp"
+  },
+  {
     "relativePath": "en/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale.md",
     "path": "/en/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
     "title": "Chinas Space Industry Enters Intensive Launch Period in H2, Satellite Sector Reaches Scale Inflection Point",
@@ -7394,6 +7416,17 @@
     "author": "Tianjiangshuo",
     "category": "china",
     "image": "/en/space-news/2026/08/figures/2026-08-03-china-space-h2-intensive-launch-satellite-scale/hero.jpg"
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-03-commercial-space-stocks-surge.md",
+    "path": "/en/space-news/2026/08/2026-08-03-commercial-space-stocks-surge/",
+    "title": "Commercial Space Concept Stocks Surge on August 3, Shengjian Shares and Chengchang Technology Hit Daily Limit",
+    "description": "On August 3, 2026, commercial space concept stocks surged, with Shengjian Shares and Chengchang Technology hitting the daily limit, followed by Western Materials, Tongyu Communication, and Aerospace Huanyu.",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "Tianjiangshuo",
+    "category": "commercial",
+    "image": "/en/space-news/2026/08/figures/2026-08-03-commercial-space-stocks-surge/hero.png"
   },
   {
     "relativePath": "en/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch.md",
@@ -7440,6 +7473,17 @@
     "image": null
   },
   {
+    "relativePath": "en/space-news/2026/08/2026-08-03-tiangong-rice-two-generation-experiment.md",
+    "path": "/en/space-news/2026/08/2026-08-03-tiangong-rice-two-generation-experiment/",
+    "title": "Chinas First On-Orbit Continuous Two-Generation Rice Cultivation Experiment Progresses Smoothly",
+    "description": "On August 3, 2026, CCTV reported that the Shenzhou-23 crew successfully completed Chinas first on-orbit continuous two-generation rice cultivation experiment aboard the China Space Station.",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "Tianjiangshuo",
+    "category": "tiangong",
+    "image": null
+  },
+  {
     "relativePath": "en/space-news/2026/08/2026-08-03-tiangong-rice-two-generations.md",
     "path": "/en/space-news/2026/08/2026-08-03-tiangong-rice-two-generations/",
     "title": "Chinas Space Station Successfully Cultivates Two Generations of Rice in Orbit for First Time",
@@ -7459,6 +7503,72 @@
     "lastUpdated": "2026-08-03",
     "author": "Tianjiangshuo",
     "category": "tiangong",
+    "image": null
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-04-commercial-space-launch-outlook-august-2026.md",
+    "path": "/en/space-news/2026/08/2026-08-04-commercial-space-launch-outlook-august-2026/",
+    "title": "Global and China Commercial Space Launch Outlook for August 2026",
+    "description": "On August 4, 2026, an outlook article was published, outlining multiple important commercial launch missions for mid-August, including the LandSpace Zhuque-3 Y2 reusable rocket.",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "Tianjiangshuo",
+    "category": "commercial",
+    "image": "/en/space-news/2026/08/figures/2026-08-04-commercial-space-launch-outlook-august-2026/hero.jpg"
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-04-commercial-space-launches-august-2026.md",
+    "path": "/en/space-news/2026/08/2026-08-04-commercial-space-launches-august-2026/",
+    "title": "Outlook for Key Global and Chinese Commercial Space Launches in August 2026",
+    "description": "A report published on August 4, 2026, outlines key global and Chinese commercial space launches for August, including the Zhuque-3 Y2 reusable rocket verification and LEO constellation networking.",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "Tianjiangshuo",
+    "category": "commercial",
+    "image": "/en/space-news/2026/08/figures/2026-08-04-commercial-space-launches-august-2026/hero.jpg"
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-04-long-march-8a-guowang-launch.md",
+    "path": "/en/space-news/2026/08/2026-08-04-long-march-8a-guowang-launch/",
+    "title": "Long March 8A Rocket to Launch Guowang LEO Satellites from Hainan Commercial Space Launch Site on August 4",
+    "description": "On August 4, 2026, the Long March 8A rocket is scheduled to launch the Guowang LEO 23A-I satellites from the Hainan Commercial Space Launch Site.",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "Tianjiangshuo",
+    "category": "launch",
+    "image": "/en/space-news/2026/08/figures/2026-08-04-long-march-8a-guowang-launch/hero.jpg"
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-04-reusable-rocket-flight-tests.md",
+    "path": "/en/space-news/2026/08/2026-08-04-reusable-rocket-flight-tests/",
+    "title": "Commercial Space Online： Two Reusable Rockets to Conduct Flight Tests This Month",
+    "description": "On August 4, 2026, Commercial Space Online reported that LandSpaces Zhuque-3 Y2 reusable LOX-methane rocket is scheduled for launch on August 11 from Jiuquan, marking new progress in Chinas commercial reusable rocket development.",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "Tianjiangshuo",
+    "category": "commercial",
+    "image": "/en/space-news/2026/08/figures/2026-08-04-reusable-rocket-flight-tests/hero.webp"
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-04-tiangong-space-rice-sampling.md",
+    "path": "/en/space-news/2026/08/2026-08-04-tiangong-space-rice-sampling/",
+    "title": "China Space Station Update： Space Rice Sampling Conducted",
+    "description": "On August 4, 2026, sampling of space rice was conducted aboard the China Space Station, marking new progress in in-orbit life science experiments.",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "Tianjiangshuo",
+    "category": "tiangong",
+    "image": "/en/space-news/2026/08/figures/2026-08-04-tiangong-space-rice-sampling/hero.jpg"
+  },
+  {
+    "relativePath": "en/space-news/2026/08/2026-08-06-jingan-dream-star-satellite-launch.md",
+    "path": "/en/space-news/2026/08/2026-08-06-jingan-dream-star-satellite-launch/",
+    "title": "Jingan Dream Star Youth Science Experiment Satellite Scheduled for August 6 Launch",
+    "description": "The Jingan Dream Star youth science experiment satellite, developed by the Jingan education team, is scheduled to depart Shanghai on August 6, 2026, for launch from Taiyuan, Shanxi.",
+    "date": "2026-08-06",
+    "lastUpdated": "2026-08-06",
+    "author": "Tianjiangshuo",
+    "category": "launch",
     "image": null
   },
   {

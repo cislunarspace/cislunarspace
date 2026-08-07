@@ -7297,6 +7297,17 @@
     "image": null
   },
   {
+    "relativePath": "space-news/2026/08/2026-08-01-landspace-zhuque-3-re-flight.md",
+    "path": "/space-news/2026/08/2026-08-01-landspace-zhuque-3-re-flight/",
+    "title": "蓝箭航天朱雀三号遥二火箭计划8月择机复飞",
+    "description": "蓝箭航天朱雀三号遥二火箭计划于2026年8月择机复飞，若实现垂直软着陆，将标志中国民营火箭从成功入轨迈向回收复用闭环。",
+    "date": "2026-08-01",
+    "lastUpdated": "2026-08-01",
+    "author": "天疆说",
+    "category": "landspace",
+    "image": null
+  },
+  {
     "relativePath": "space-news/2026/08/2026-08-01-lijian-1-y18-rocket-factory.md",
     "path": "/space-news/2026/08/2026-08-01-lijian-1-y18-rocket-factory/",
     "title": "力箭一号遥十八运载火箭顺利出厂",
@@ -7385,6 +7396,17 @@
     "image": "/space-news/2026/08/figures/2026-08-02-shenzhou-23-space-rice-sampling/hero.jpg"
   },
   {
+    "relativePath": "space-news/2026/08/2026-08-03-china-commercial-space-station-launch.md",
+    "path": "/space-news/2026/08/2026-08-03-china-commercial-space-station-launch/",
+    "title": "我国商业空间站即将发射升空",
+    "description": "2026年8月3日，有消息称我国商业空间站即将发射升空，将与天宫空间站形成互补，缓解其压力。",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "天疆说",
+    "category": "commercial",
+    "image": "/space-news/2026/08/figures/2026-08-03-china-commercial-space-station-launch/hero.webp"
+  },
+  {
     "relativePath": "space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale.md",
     "path": "/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
     "title": "中国航天下半年进入密集发射期，卫星产业迎来规模化拐点",
@@ -7394,6 +7416,17 @@
     "author": "天疆说",
     "category": "china",
     "image": "/space-news/2026/08/figures/2026-08-03-china-space-h2-intensive-launch-satellite-scale/hero.jpg"
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-03-commercial-space-stocks-surge.md",
+    "path": "/space-news/2026/08/2026-08-03-commercial-space-stocks-surge/",
+    "title": "商业航天概念股8月3日异动拉升，神剑股份、铖昌科技涨停",
+    "description": "8月3日，商业航天概念股异动拉升，神剑股份、铖昌科技等涨停，西部材料、通宇通讯、航天环宇等跟涨。",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "天疆说",
+    "category": "commercial",
+    "image": "/space-news/2026/08/figures/2026-08-03-commercial-space-stocks-surge/hero.png"
   },
   {
     "relativePath": "space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch.md",
@@ -7440,6 +7473,17 @@
     "image": null
   },
   {
+    "relativePath": "space-news/2026/08/2026-08-03-tiangong-rice-two-generation-experiment.md",
+    "path": "/space-news/2026/08/2026-08-03-tiangong-rice-two-generation-experiment/",
+    "title": "中国空间站首次在轨连续培养两代水稻实验进展顺利",
+    "description": "2026年8月3日，央视网报道，神舟二十三号乘组在中国空间站首次成功完成在轨连续培养两代水稻实验，进展顺利。",
+    "date": "2026-08-03",
+    "lastUpdated": "2026-08-03",
+    "author": "天疆说",
+    "category": "tiangong",
+    "image": null
+  },
+  {
     "relativePath": "space-news/2026/08/2026-08-03-tiangong-rice-two-generations.md",
     "path": "/space-news/2026/08/2026-08-03-tiangong-rice-two-generations/",
     "title": "中国空间站首次在轨连续培养两代水稻实验进展顺利",
@@ -7459,6 +7503,72 @@
     "lastUpdated": "2026-08-03",
     "author": "天疆说",
     "category": "tiangong",
+    "image": null
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-04-commercial-space-launch-outlook-august-2026.md",
+    "path": "/space-news/2026/08/2026-08-04-commercial-space-launch-outlook-august-2026/",
+    "title": "2026年8月全球及中国商业航天发射任务展望",
+    "description": "2026年8月4日，一篇展望文章发布，概述了8月中旬蓝箭航天朱雀三号遥二可重复使用火箭等多次重要商业发射任务。",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "天疆说",
+    "category": "commercial",
+    "image": "/space-news/2026/08/figures/2026-08-04-commercial-space-launch-outlook-august-2026/hero.jpg"
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-04-commercial-space-launches-august-2026.md",
+    "path": "/space-news/2026/08/2026-08-04-commercial-space-launches-august-2026/",
+    "title": "2026年8月全球及中国商业航天重要发射任务展望",
+    "description": "2026年8月4日发布的报告展望了8月全球及中国商业航天的重要发射任务，包括朱雀三号遥二火箭的重复使用验证和低轨星座组网。",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "天疆说",
+    "category": "commercial",
+    "image": "/space-news/2026/08/figures/2026-08-04-commercial-space-launches-august-2026/hero.jpg"
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-04-long-march-8a-guowang-launch.md",
+    "path": "/space-news/2026/08/2026-08-04-long-march-8a-guowang-launch/",
+    "title": "8月4日长征八号甲火箭将在海南商业航天发射场发射星网低轨卫星",
+    "description": "8月4日，长征八号甲火箭将在海南商业航天发射场发射星网低轨23A-I卫星。",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "天疆说",
+    "category": "launch",
+    "image": "/space-news/2026/08/figures/2026-08-04-long-march-8a-guowang-launch/hero.jpg"
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-04-reusable-rocket-flight-tests.md",
+    "path": "/space-news/2026/08/2026-08-04-reusable-rocket-flight-tests/",
+    "title": "商业航天Online：本月2型可回收火箭即将实施飞行试验",
+    "description": "2026年8月4日，商业航天Online发布信息称，蓝箭航天朱雀三号遥二可重复使用液氧甲烷运载火箭预计于8月11日在酒泉发射，标志着中国商业航天在可回收火箭领域取得新进展。",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "天疆说",
+    "category": "commercial",
+    "image": "/space-news/2026/08/figures/2026-08-04-reusable-rocket-flight-tests/hero.webp"
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-04-tiangong-space-rice-sampling.md",
+    "path": "/space-news/2026/08/2026-08-04-tiangong-space-rice-sampling/",
+    "title": "中国空间站动态：“太空水稻”进行采样",
+    "description": "2026年8月4日，中国空间站内对“太空水稻”进行采样，标志着在轨生命科学实验取得新进展。",
+    "date": "2026-08-04",
+    "lastUpdated": "2026-08-04",
+    "author": "天疆说",
+    "category": "tiangong",
+    "image": "/space-news/2026/08/figures/2026-08-04-tiangong-space-rice-sampling/hero.jpg"
+  },
+  {
+    "relativePath": "space-news/2026/08/2026-08-06-jingan-dream-star-satellite-launch.md",
+    "path": "/space-news/2026/08/2026-08-06-jingan-dream-star-satellite-launch/",
+    "title": "静安梦想星青少年科学实验卫星计划8月6日发射",
+    "description": "由静安教育团队研制的青少年科学实验卫星静安梦想星，计划于2026年8月6日从上海启程，随后在山西太原发射。",
+    "date": "2026-08-06",
+    "lastUpdated": "2026-08-06",
+    "author": "天疆说",
+    "category": "launch",
     "image": null
   },
   {

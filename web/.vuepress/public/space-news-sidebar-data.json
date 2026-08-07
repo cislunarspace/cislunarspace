@@ -8,119 +8,119 @@
         "category": "landspace"
       },
       {
-        "title": "中国航天下半年进入密集发射期，卫星产业迎来规模化拐点",
-        "path": "/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
-        "date": "2026-08-03",
-        "category": "china"
+        "title": "静安梦想星青少年科学实验卫星计划8月6日发射",
+        "path": "/space-news/2026/08/2026-08-06-jingan-dream-star-satellite-launch/",
+        "date": "2026-08-06",
+        "category": "launch"
       },
       {
-        "title": "蓝箭航天朱雀三号遥二火箭预计8月11日发射",
-        "path": "/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch/",
-        "date": "2026-08-03",
-        "category": "landspace"
+        "title": "2026年8月全球及中国商业航天发射任务展望",
+        "path": "/space-news/2026/08/2026-08-04-commercial-space-launch-outlook-august-2026/",
+        "date": "2026-08-04",
+        "category": "commercial"
       },
       {
-        "title": "神舟二十三号乘组已在轨超过两个月",
-        "path": "/space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months/",
-        "date": "2026-08-03",
+        "title": "2026年8月全球及中国商业航天重要发射任务展望",
+        "path": "/space-news/2026/08/2026-08-04-commercial-space-launches-august-2026/",
+        "date": "2026-08-04",
+        "category": "commercial"
+      },
+      {
+        "title": "8月4日长征八号甲火箭将在海南商业航天发射场发射星网低轨卫星",
+        "path": "/space-news/2026/08/2026-08-04-long-march-8a-guowang-launch/",
+        "date": "2026-08-04",
+        "category": "launch"
+      },
+      {
+        "title": "商业航天Online：本月2型可回收火箭即将实施飞行试验",
+        "path": "/space-news/2026/08/2026-08-04-reusable-rocket-flight-tests/",
+        "date": "2026-08-04",
+        "category": "commercial"
+      },
+      {
+        "title": "中国空间站动态：“太空水稻”进行采样",
+        "path": "/space-news/2026/08/2026-08-04-tiangong-space-rice-sampling/",
+        "date": "2026-08-04",
         "category": "tiangong"
       },
       {
-        "title": "SpaceX猎鹰9号火箭计划于8月第一周从范登堡发射两次星链任务",
-        "path": "/space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august/",
+        "title": "我国商业空间站即将发射升空",
+        "path": "/space-news/2026/08/2026-08-03-china-commercial-space-station-launch/",
         "date": "2026-08-03",
-        "category": "spacex"
-      },
-      {
-        "title": "中国空间站高温材料科学实验装置在轨运行超1200天，完成35项实验",
-        "path": "/space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone/",
-        "date": "2026-08-03",
-        "category": "tiangong"
-      },
-      {
-        "title": "中国空间站首次在轨连续培养两代水稻实验进展顺利",
-        "path": "/space-news/2026/08/2026-08-03-tiangong-rice-two-generations/",
-        "date": "2026-08-03",
-        "category": "science"
-      },
-      {
-        "title": "中国空间站首次在轨连续培养两代水稻实验进展顺利",
-        "path": "/space-news/2026/08/2026-08-03-tiangong-successive-rice-cultivation/",
-        "date": "2026-08-03",
-        "category": "tiangong"
+        "category": "commercial"
       }
     ],
     "categories": [
       {
         "key": "a",
         "label": "",
-        "count": 451,
+        "count": 462,
         "color": "#64748b"
       },
       {
         "key": "c",
         "label": "",
-        "count": 442,
+        "count": 455,
         "color": "#64748b"
       },
       {
         "key": "e",
         "label": "",
-        "count": 408,
+        "count": 414,
         "color": "#64748b"
       },
       {
         "key": "i",
         "label": "",
-        "count": 358,
+        "count": 365,
         "color": "#64748b"
       },
       {
         "key": "n",
         "label": "",
-        "count": 319,
+        "count": 326,
         "color": "#64748b"
       },
       {
         "key": "s",
         "label": "",
-        "count": 317,
-        "color": "#64748b"
-      },
-      {
-        "key": "o",
-        "label": "",
-        "count": 136,
+        "count": 318,
         "color": "#64748b"
       },
       {
         "key": "m",
         "label": "",
-        "count": 134,
+        "count": 144,
+        "color": "#64748b"
+      },
+      {
+        "key": "o",
+        "label": "",
+        "count": 143,
         "color": "#64748b"
       },
       {
         "key": "l",
         "label": "",
-        "count": 131,
+        "count": 139,
         "color": "#64748b"
       },
       {
         "key": "r",
         "label": "",
-        "count": 121,
+        "count": 126,
         "color": "#64748b"
       },
       {
         "key": "p",
         "label": "",
-        "count": 105,
+        "count": 106,
         "color": "#64748b"
       },
       {
         "key": "t",
         "label": "",
-        "count": 104,
+        "count": 106,
         "color": "#64748b"
       }
     ],
@@ -132,7 +132,7 @@
             "month": 8,
             "label": "2026年8月",
             "path": "/space-news/2026/08/",
-            "count": 19
+            "count": 29
           },
           {
             "month": 7,
@@ -233,7 +233,7 @@
       }
     ],
     "stats": {
-      "total": 645
+      "total": 655
     }
   },
   "en": {
@@ -245,119 +245,119 @@
         "category": "landspace"
       },
       {
-        "title": "Chinas Space Industry Enters Intensive Launch Period in H2, Satellite Sector Reaches Scale Inflection Point",
-        "path": "/en/space-news/2026/08/2026-08-03-china-space-h2-intensive-launch-satellite-scale/",
-        "date": "2026-08-03",
-        "category": "china"
+        "title": "Jingan Dream Star Youth Science Experiment Satellite Scheduled for August 6 Launch",
+        "path": "/en/space-news/2026/08/2026-08-06-jingan-dream-star-satellite-launch/",
+        "date": "2026-08-06",
+        "category": "launch"
       },
       {
-        "title": "Landspaces Zhuque-3 Y2 Rocket Scheduled for August 11 Launch",
-        "path": "/en/space-news/2026/08/2026-08-03-landspace-zhuque-3-y2-launch/",
-        "date": "2026-08-03",
-        "category": "landspace"
+        "title": "Global and China Commercial Space Launch Outlook for August 2026",
+        "path": "/en/space-news/2026/08/2026-08-04-commercial-space-launch-outlook-august-2026/",
+        "date": "2026-08-04",
+        "category": "commercial"
       },
       {
-        "title": "Shenzhou-23 Crew Has Been in Orbit for Over Two Months",
-        "path": "/en/space-news/2026/08/2026-08-03-shenzhou-23-crew-two-months/",
-        "date": "2026-08-03",
+        "title": "Outlook for Key Global and Chinese Commercial Space Launches in August 2026",
+        "path": "/en/space-news/2026/08/2026-08-04-commercial-space-launches-august-2026/",
+        "date": "2026-08-04",
+        "category": "commercial"
+      },
+      {
+        "title": "Long March 8A Rocket to Launch Guowang LEO Satellites from Hainan Commercial Space Launch Site on August 4",
+        "path": "/en/space-news/2026/08/2026-08-04-long-march-8a-guowang-launch/",
+        "date": "2026-08-04",
+        "category": "launch"
+      },
+      {
+        "title": "Commercial Space Online： Two Reusable Rockets to Conduct Flight Tests This Month",
+        "path": "/en/space-news/2026/08/2026-08-04-reusable-rocket-flight-tests/",
+        "date": "2026-08-04",
+        "category": "commercial"
+      },
+      {
+        "title": "China Space Station Update： Space Rice Sampling Conducted",
+        "path": "/en/space-news/2026/08/2026-08-04-tiangong-space-rice-sampling/",
+        "date": "2026-08-04",
         "category": "tiangong"
       },
       {
-        "title": "SpaceX Falcon 9 Rocket Scheduled for Two Starlink Missions from Vandenberg in First Week of August",
-        "path": "/en/space-news/2026/08/2026-08-03-spacex-falcon9-starlink-vandenberg-august/",
+        "title": "Chinas Commercial Space Station to Launch Soon",
+        "path": "/en/space-news/2026/08/2026-08-03-china-commercial-space-station-launch/",
         "date": "2026-08-03",
-        "category": "spacex"
-      },
-      {
-        "title": "Chinas Space Station High-Temperature Material Science Experiment Device Completes 35 Experiments After Over 1200 Days in Orbit",
-        "path": "/en/space-news/2026/08/2026-08-03-tiangong-material-science-experiment-milestone/",
-        "date": "2026-08-03",
-        "category": "tiangong"
-      },
-      {
-        "title": "Chinas Space Station Successfully Cultivates Two Generations of Rice in Orbit for First Time",
-        "path": "/en/space-news/2026/08/2026-08-03-tiangong-rice-two-generations/",
-        "date": "2026-08-03",
-        "category": "science"
-      },
-      {
-        "title": "First Successive Generation Rice Cultivation Experiment on Chinas Space Station Progressing Smoothly",
-        "path": "/en/space-news/2026/08/2026-08-03-tiangong-successive-rice-cultivation/",
-        "date": "2026-08-03",
-        "category": "tiangong"
+        "category": "commercial"
       }
     ],
     "categories": [
       {
         "key": "a",
         "label": "",
-        "count": 451,
+        "count": 462,
         "color": "#64748b"
       },
       {
         "key": "c",
         "label": "",
-        "count": 442,
+        "count": 455,
         "color": "#64748b"
       },
       {
         "key": "e",
         "label": "",
-        "count": 408,
+        "count": 414,
         "color": "#64748b"
       },
       {
         "key": "i",
         "label": "",
-        "count": 358,
+        "count": 365,
         "color": "#64748b"
       },
       {
         "key": "n",
         "label": "",
-        "count": 319,
+        "count": 326,
         "color": "#64748b"
       },
       {
         "key": "s",
         "label": "",
-        "count": 317,
-        "color": "#64748b"
-      },
-      {
-        "key": "o",
-        "label": "",
-        "count": 136,
+        "count": 318,
         "color": "#64748b"
       },
       {
         "key": "m",
         "label": "",
-        "count": 134,
+        "count": 144,
+        "color": "#64748b"
+      },
+      {
+        "key": "o",
+        "label": "",
+        "count": 143,
         "color": "#64748b"
       },
       {
         "key": "l",
         "label": "",
-        "count": 131,
+        "count": 139,
         "color": "#64748b"
       },
       {
         "key": "r",
         "label": "",
-        "count": 121,
+        "count": 126,
         "color": "#64748b"
       },
       {
         "key": "p",
         "label": "",
-        "count": 105,
+        "count": 106,
         "color": "#64748b"
       },
       {
         "key": "t",
         "label": "",
-        "count": 104,
+        "count": 106,
         "color": "#64748b"
       }
     ],
@@ -369,7 +369,7 @@
             "month": 8,
             "label": "August 2026",
             "path": "/en/space-news/2026/08/",
-            "count": 19
+            "count": 29
           },
           {
             "month": 7,
@@ -470,7 +470,7 @@
       }
     ],
     "stats": {
-      "total": 645
+      "total": 655
     }
   },
   "categoryMeta": {
