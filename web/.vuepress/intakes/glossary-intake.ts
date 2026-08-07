@@ -25,8 +25,10 @@ export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
 
   for (const file of zhFiles.sort((a, b) => a.relPath.localeCompare(b.relPath))) {
     const parts = file.relPath.split('/');
-    if (parts.length !== 3) continue;
-    const [, categorySlug, filename] = parts;
+    // 接受 glossary/<cat>/<slug>.md 与 glossary/<cat>/<sub>/<slug>.md 两种深度
+    if (parts.length !== 3 && parts.length !== 4) continue;
+    const categorySlug = parts.slice(1, -1).join('/');
+    const filename = parts[parts.length - 1];
     const slug = filename.replace(/\.md$/i, '');
     const category = categoryRegistry.getBySlug(categorySlug);
     if (!category) continue;
@@ -44,8 +46,10 @@ export function buildGlossaryScan(files: MarkdownFile[]): GlossaryScan {
 
   for (const file of enFiles.sort((a, b) => a.relPath.localeCompare(b.relPath))) {
     const parts = file.relPath.split('/');
-    if (parts.length !== 4) continue;
-    const [, , categorySlug, filename] = parts;
+    // en 侧对应深度为 4 或 5（多一段 en/ 前缀）
+    if (parts.length !== 4 && parts.length !== 5) continue;
+    const categorySlug = parts.slice(2, -1).join('/');
+    const filename = parts[parts.length - 1];
     const slug = filename.replace(/\.md$/i, '');
     const category = categoryRegistry.getBySlug(categorySlug);
     if (!category) continue;

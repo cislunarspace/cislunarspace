@@ -50,12 +50,24 @@ function buildGlossarySidebar(
   const categoryChildren: Array<string | VueSidebarItem> = [glossaryRootPath];
 
   for (const catMeta of glossaryCategories) {
+    if (catMeta.parentSlug) continue; // 子分类随父分类组内嵌套处理
     const catEntries = byCategory.get(catMeta.slug) || [];
-    if (catEntries.length === 0) continue;
+    // 根级条目直接列为链接；每个非空子分类再嵌套一个折叠组
+    const children: Array<string | VueSidebarItem> = catEntries.map((e) => e.path);
+    for (const sub of glossaryCategories.filter((c) => c.parentSlug === catMeta.slug)) {
+      const subEntries = byCategory.get(sub.slug) || [];
+      if (subEntries.length === 0) continue;
+      children.push({
+        text: sub.label[locale],
+        collapsible: true,
+        children: subEntries.map((e) => e.path),
+      });
+    }
+    if (children.length === 0) continue;
     categoryChildren.push({
       text: catMeta.label[locale],
       collapsible: true,
-      children: catEntries.map((e) => e.path),
+      children,
     });
   }
 

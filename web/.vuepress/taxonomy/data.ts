@@ -12,6 +12,9 @@
  *   - `parentId` is either `null` (top-level) or the id of an existing
  *     root. This file uses four roots: `navbar`, `wayfinding`,
  *     `glossary`, plus 15 `news-category` nodes (each is its own root).
+ *     `glossary-category` nodes may also nest one level: a subcategory
+ *     node's `parentId` is its category node (e.g. `glossary/orbits`),
+ *     and its `meta.slug` is the full path form (`orbits/halo`).
  *   - Order ranges are by kind for validator sibling-order uniqueness:
  *     navbar subtree 0–9 999, wayfinding 10 000–19 999, glossary
  *     20 000–29 999, news-category 30 000–39 999. Section / page nodes
@@ -287,6 +290,14 @@ const glossaryCategoryNodes: TaxonomyNode[] = [
   },
 ];
 
+// ── Glossary subcategories ──────────────────────────────────────────────────
+//
+// 子分类 = 分类目录下的一级子目录（web/glossary/<cat>/<sub>/<slug>.md），
+// 只支持一层。kind 仍为 glossary-category，parentId 指向所属分类节点，
+// meta.slug 为完整路径形（'orbits/halo'）。词条也可直接放在分类根目录，
+// 表示未细分。admin 添加 glossary 子分类时会向本数组追加节点。
+const glossarySubcategoryNodes: TaxonomyNode[] = [];
+
 // ── News categories (15 roots) ───────────────────────────────────────────────
 //
 // Each `news-category` node carries a 7-char hex `meta.color` consumed by
@@ -445,5 +456,6 @@ export const flatTaxonomyNodes: TaxonomyNode[] = [
   ...wayfindingChildren,
   glossaryRoot,
   ...glossaryCategoryNodes,
+  ...glossarySubcategoryNodes,
   ...newsCategoryNodes,
 ];
