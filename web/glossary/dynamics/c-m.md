@@ -39,9 +39,9 @@ Conley和McGehee提出的周期轨道稳定和不稳定不变流形形成的二�
 ## 相关概念
 
 - [蒙特卡洛轨迹打靶法（Monte Carlo Trajectory Shooting, MCTS）](/glossary/dynamics/mcts/)
-- [有动力月球借力（Powered Lunar Flyby, PLF）](/glossary/dynamics/plf/)
+- 有动力月球借力（Powered Lunar Flyby, PLF）
 - [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/pcrtbp/)
-- [插入速度增量（Insertion Delta-V）](/glossary/dynamics/insertion-delta-v/)
+- 插入速度增量（Insertion Delta-V）
 
 ## 参考文献
 

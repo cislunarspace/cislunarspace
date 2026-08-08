@@ -38,10 +38,10 @@ The Perigee Geocentric Distance plays a significant role in cislunar space missi
 
 ## Related Concepts
 
-- [Football Orbit](/en/glossary/orbits/football-orbit/)
+- Football Orbit
 - [Orbit Chain](/en/glossary/orbits/orbit-chain/)
-- [Prograde Polar Orbit](/en/glossary/orbits/prograde-polar-orbit/)
-- [偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）](/en/glossary/orbits/eccentricity-inclination-vector-separation/)
+- Prograde Polar Orbit
+- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
 
 ## References
 

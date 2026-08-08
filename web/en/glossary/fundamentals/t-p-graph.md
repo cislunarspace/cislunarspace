@@ -39,9 +39,9 @@ Tisserand-Poincaré Graph is a fundamental concept in cislunar mission design, p
 ## Related Concepts
 
 - [Non-Dominated Sorting Genetic Algorithm II](/en/glossary/fundamentals/nsga-ii/)
-- [Ion Propulsion](/en/glossary/fundamentals/ip/)
-- [Mid-course Correction](/en/glossary/fundamentals/tcm/)
-- [Lunar Orbit Insertion, LOI](/en/glossary/fundamentals/loi/)
+- Ion Propulsion
+- Mid-course Correction
+- Lunar Orbit Insertion, LOI
 
 ## References
 

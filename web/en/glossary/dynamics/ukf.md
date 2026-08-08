@@ -38,9 +38,9 @@ Unscented Kalman Filter plays an important role in orbital mechanics and mission
 
 ## Related Concepts
 
-- [Libration Point Orbit](/en/glossary/orbits/lpo/)
-- [State Transition Matrix](/en/glossary/dynamics/stm/)
-- [Six-Degree-of-Freedom](/en/glossary/fundamentals/6-dof/)
+- [Libration Point Orbit](/en/glossary/orbits/libration-point-periodic-orbit/)
+- State Transition Matrix
+- Six-Degree-of-Freedom
 - [Gauss Pseudospectral Method](/en/glossary/dynamics/gpm/)
 
 ## References

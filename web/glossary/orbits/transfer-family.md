@@ -38,10 +38,10 @@ permalink: /glossary/orbits/transfer-family/
 
 ## 相关概念
 
-- [足球轨道（Football Orbit）](/glossary/orbits/football-orbit/)
+- 足球轨道（Football Orbit）
 - [轨道链（Orbit Chain）](/glossary/orbits/orbit-chain/)
-- [顺行极轨道（Prograde Polar Orbit）](/glossary/orbits/prograde-polar-orbit/)
-- [偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）](/glossary/orbits/eccentricity-inclination-vector-separation/)
+- 顺行极轨道（Prograde Polar Orbit）
+- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
 
 ## 参考文献
 

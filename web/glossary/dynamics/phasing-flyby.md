@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/phasing-flyby/
 
 ## 相关概念
 
-- [月球飞越法（Lunar Fly-by Method）](/glossary/dynamics/lunar-fly-by-method/)
-- [最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）](/glossary/dynamics/maximum-energy-escape-trajectory/)
+- 月球飞越法（Lunar Fly-by Method）
+- 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
 - [后向月球借力（Backward Lunar Gravity Assist）](/glossary/dynamics/backward-lunar-gravity-assist/)
-- [Lorillo稳定性准则（Lorillo Stability Criterion）](/glossary/dynamics/lorillo-stability-criterion/)
+- Lorillo稳定性准则（Lorillo Stability Criterion）
 
 ## 参考文献
 

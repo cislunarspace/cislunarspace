@@ -39,9 +39,9 @@ This provides a fundamental theoretical framework for cislunar dynamics modeling
 ## Related Concepts
 
 - [Monte Carlo Trajectory Shooting, MCTS](/en/glossary/dynamics/mcts/)
-- [Powered Lunar Flyby, PLF](/en/glossary/dynamics/plf/)
-- [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
-- [Momentum Integral, MI](/en/glossary/dynamics/Momentum-Integral-MI/)
+- Powered Lunar Flyby, PLF
+- Insertion Delta-V
+- Momentum Integral, MI
 
 ## References
 

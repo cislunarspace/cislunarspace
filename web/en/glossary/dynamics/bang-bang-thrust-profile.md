@@ -38,9 +38,9 @@ The control curve describes the range of attainable low-thrust Hamiltonian value
 
 ## Related Concepts
 
-- [Lyapunov Stability](/en/glossary/dynamics/lyapunov-stability/)
+- Lyapunov Stability
 - [Adams-Cowell Integrator](/en/glossary/dynamics/adams-cowell-integrator/)
-- [Hansen Coefficients](/en/glossary/dynamics/hansen-coefficients/)
+- Hansen Coefficients
 - [Control Curve, U_i](/en/glossary/dynamics/control-curve-ui/)
 
 ## References

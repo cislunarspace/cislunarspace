@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/backward-lunar-gravity-assist/
 
 ## 相关概念
 
-- [最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）](/glossary/dynamics/maximum-energy-escape-trajectory/)
-- [推力逃逸螺旋（Powered Escape Spiral）](/glossary/dynamics/powered-escape-spiral/)
-- [月球飞越法（Lunar Fly-by Method）](/glossary/dynamics/lunar-fly-by-method/)
-- [可达集（Reachability Set）](/glossary/dynamics/reachability-set/)
+- 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
+- 推力逃逸螺旋（Powered Escape Spiral）
+- 月球飞越法（Lunar Fly-by Method）
+- 可达集（Reachability Set）
 
 ## 参考文献
 

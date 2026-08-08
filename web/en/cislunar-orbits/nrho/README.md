@@ -54,5 +54,5 @@ Explore the orbital geometry and dynamical characteristics of NRHOs interactivel
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/distant-retrograde-orbit-dro/)
 - [Cislunar Orbit Families Overview](/en/cislunar-orbits/)

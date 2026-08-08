@@ -38,7 +38,7 @@ A computer algebra system used for analytical derivation of normal form coeffici
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/geocentric-celestial-reference-frame/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
 - [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)

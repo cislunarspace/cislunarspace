@@ -38,9 +38,9 @@ L₁点Lyapunov轨道稳定流形所能到达的最大近地点半径对应的�
 
 ## 相关概念
 
-- [平动点轨道（Libration Point Orbit, LPO）](/glossary/orbits/lpo/)
+- 平动点轨道（Libration Point Orbit, LPO）
 - [超地球同步转移轨道（Super-Geostationary Transfer Orbit, sGTO）](/glossary/orbits/sgto/)
-- [部署轨迹（Deployment Trajectory）](/glossary/orbits/d/)
+- 部署轨迹（Deployment Trajectory）
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
 
 ## 参考文献

@@ -38,7 +38,7 @@ CRTBP系统中唯一的运动积分，定义为C=2Ω-(v²)，其中Ω为旋转�
 
 ## 相关概念
 
-- [非线性规划（Nonlinear Programming）](/glossary/dynamics/nlp/)
+- 非线性规划（Nonlinear Programming）
 - [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/zvc/)
 - [形状基方法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
 

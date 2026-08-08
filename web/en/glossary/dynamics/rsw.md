@@ -38,7 +38,7 @@ The RSW坐标系 concept provides technical support and analytical methods for c
 
 ## Related Concepts
 
-- [Radial-Tangential-Normal Coordinate System, RTN](/en/glossary/dynamics/rtn/)
+- Radial-Tangential-Normal Coordinate System, RTN
 
 ## References
 

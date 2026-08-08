@@ -41,7 +41,7 @@ Region of the initial costate locus where S>12, corresponding to multi-revolutio
 - [Hill 模型（Hill Model）](/glossary/dynamics/hill-model/)
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/formation-fixed-relative-to-inertial-frame/)
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/dynamics/perturbational-lambert-problem/)
-- [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
+- 探测器定位（Probe Targeting）
 
 ## References
 

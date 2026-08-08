@@ -38,10 +38,10 @@ This concept plays an important role in cislunar space mission design and orbita
 
 ## Related Concepts
 
-- [Thruster Modulator](/en/glossary/dynamics/thruster-modulator/)
-- [Invariant Set](/en/glossary/dynamics/invariant-set/)
+- Thruster Modulator
+- Invariant Set
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
-- [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
+- Particle Swarm Optimizer
 
 ## References
 

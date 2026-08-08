@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/cpso/
 
 ## 相关概念
 
-- [RKF7(8)积分器（RKF7(8) Integrator）](/glossary/dynamics/rkf78/)
-- [平均运动共振（Mean Motion Resonance, MMR）](/glossary/dynamics/mmr/)
-- [推力加速度（Thrust Acceleration）](/glossary/dynamics/a/)
-- [马尔可夫决策过程（Markov Decision Process, MDP）](/glossary/dynamics/mdp/)
+- RKF7(8)积分器（RKF7(8) Integrator）
+- 平均运动共振（Mean Motion Resonance, MMR）
+- 推力加速度（Thrust Acceleration）
+- 马尔可夫决策过程（Markov Decision Process, MDP）
 
 ## 参考文献
 

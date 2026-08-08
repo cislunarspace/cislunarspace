@@ -26,4 +26,4 @@ Orbital game research analyzes strategic behavior, deterrence, inspection, proxi
 ## Related Pages
 
 - [Security & Governance](/en/research-frontiers/directions/security-governance/)
-- [Space Traffic Management](/en/glossary/other/space-traffic-management/)
+- Space Traffic Management

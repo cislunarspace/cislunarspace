@@ -38,10 +38,10 @@ Simulating potential functions guiding spacecraft motion through artificial pote
 
 ## Related Concepts
 
-- [Adaptive Multi-phase Pseudospectral Convex Optimization](/en/glossary/dynamics/MPPCvx/)
-- [Gauss Pseudospectral Method, GPM](/en/glossary/dynamics/GPM/)
-- [Moore-Penrose Pseudoinverse](/en/glossary/dynamics/moore-penrose-pseudoinverse/)
-- [Pseudo-Relative State Vector, ρ*](/en/glossary/dynamics/pseudo-relative-state-vector/)
+- Adaptive Multi-phase Pseudospectral Convex Optimization
+- [Gauss Pseudospectral Method, GPM](/en/glossary/dynamics/gpm/)
+- Moore-Penrose Pseudoinverse
+- Pseudo-Relative State Vector, ρ*
 
 ## References
 

@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/orbital-coordinate-system/
 
 ## 相关概念
 
-- [星载软件（On-Board Software）](/glossary/fundamentals/on-board-software/)
-- [质心坐标时（Barycentric Coordinate Time, TCB）](/glossary/fundamentals/barycentric-coordinate-time-tcb/)
-- [地平坐标系（Horizontal Coordinate System）](/glossary/fundamentals/horizontal-coordinate-system/)
+- 星载软件（On-Board Software）
+- 质心坐标时（Barycentric Coordinate Time, TCB）
+- 地平坐标系（Horizontal Coordinate System）
 
 ## 参考文献
 

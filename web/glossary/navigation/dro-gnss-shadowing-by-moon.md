@@ -38,10 +38,10 @@ permalink: /glossary/navigation/dro-gnss-shadowing-by-moon/
 
 ## 相关概念
 
-- [位置精度因子（Position Dilution of Precision）](/glossary/navigation/position-dilution-of-precision/)
-- [甚长基线干涉测量（Very Long Baseline Interferometry）](/glossary/navigation/very-long-baseline-interferometry/)
-- [轨道预报（Orbit Prediction）](/glossary/navigation/orbit-prediction/)
-- [初值点（Initial Epoch Point）](/glossary/navigation/initial-epoch-point/)
+- 位置精度因子（Position Dilution of Precision）
+- 甚长基线干涉测量（Very Long Baseline Interferometry）
+- 轨道预报（Orbit Prediction）
+- 初值点（Initial Epoch Point）
 
 ## 参考文献
 

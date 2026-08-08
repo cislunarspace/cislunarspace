@@ -38,10 +38,10 @@ A control parameterization method that represents the continuous control functio
 
 ## Related Concepts
 
-- [Reference Ellipsoid](/en/glossary/fundamentals/reference-ellipsoid/)
+- Reference Ellipsoid
 - [Low-Thrust Propulsion](/en/glossary/fundamentals/low-thrust-propulsion/)
 - [Primer vector](/en/glossary/fundamentals/primer-vector/)
-- [Kinematics](/en/glossary/fundamentals/kinematics/)
+- Kinematics
 
 ## References
 

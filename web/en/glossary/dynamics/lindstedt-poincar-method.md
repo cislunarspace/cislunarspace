@@ -33,9 +33,9 @@ A perturbation technique that eliminates secular terms from series expansions vi
 
 ## Related Concepts
 
-- [椭圆限制性三体问题](/en/glossary/dynamics/elliptic-restricted-three-body-problem/)
-- [动力一致性](/en/glossary/dynamics/dynamical-consistency/)
-- [组合协方差](/en/glossary/dynamics/combined-covariance/)
+- [椭圆限制性三体问题](/en/glossary/dynamics/er3bp/)
+- 动力一致性
+- 组合协方差
 - [尼霍罗舍夫估计](/en/glossary/dynamics/nekhorosev-estimates/)
 
 ## References

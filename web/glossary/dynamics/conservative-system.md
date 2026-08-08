@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/conservative-system/
 
 ## 相关概念
 
-- [空间流形动力学（Space Manifold Dynamics, SMD）](/glossary/dynamics/space-manifold-dynamics-smd/)
-- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/radial-transverse-normal-frame-rsw-frame/)
-- [轨道注入误差（Orbit Injection Error）](/glossary/dynamics/orbit-injection-error/)
+- 空间流形动力学（Space Manifold Dynamics, SMD）
+- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/rsw/)
+- 轨道注入误差（Orbit Injection Error）
 
 ## 参考文献
 

@@ -38,10 +38,10 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 
 ## Related Concepts
 
-- [Lunar-Based Low-Frequency Radio Astronomical Observation](/en/glossary/observation/lunar-based-low-frequency-radio-astronomical-observation/)
+- Lunar-Based Low-Frequency Radio Astronomical Observation
 - [Kordylewski Clouds](/en/glossary/observation/kordylewski-clouds/)
-- [Field of View](/en/glossary/observation/field-of-view/)
-- [Observation Accuracy](/en/glossary/observation/observation-accuracy/)
+- Field of View
+- Observation Accuracy
 
 ## References
 

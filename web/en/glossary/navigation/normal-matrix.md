@@ -38,10 +38,10 @@ This concept has practical applications in cislunar space science and engineerin
 
 ## Related Concepts
 
-- [Cislunar Space Navigation System](/en/glossary/navigation/cislunar-space-navigation-system/)
+- Cislunar Space Navigation System
 - [Lyapunov Optimal Feedback Guidance](/en/glossary/navigation/lyapunov-optimal-feedback-guidance/)
-- [Range Observability](/en/glossary/navigation/range-observability/)
-- [Sextant](/en/glossary/navigation/sextant/)
+- Range Observability
+- Sextant
 
 ## References
 

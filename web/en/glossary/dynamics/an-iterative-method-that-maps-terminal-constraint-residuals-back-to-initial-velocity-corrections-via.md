@@ -38,10 +38,10 @@ Based on the functionality and properties described in its definition, this term
 
 ## Related Concepts
 
-- [J2-Invariant Orbit](/en/glossary/dynamics/j2-invariant-orbit/)
-- [Interior Point Optimization](/en/glossary/dynamics/interior-point-optimization/)
+- J2-Invariant Orbit
+- Interior Point Optimization
 - [N-Body Dynamics](/en/glossary/dynamics/n-body-dynamics/)
-- [Start-End State Constraint](/en/glossary/dynamics/start-end-state-constraint/)
+- Start-End State Constraint
 
 ## References
 

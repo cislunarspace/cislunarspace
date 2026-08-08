@@ -38,7 +38,7 @@ The 直接飞越转移 concept is applied in cislunar space research, providing 
 
 ## Related Concepts
 
-- [Indirect Fly-By Transfer, IFBT](/en/glossary/dynamics/ifbt/)
+- Indirect Fly-By Transfer, IFBT
 
 ## References
 

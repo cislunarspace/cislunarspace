@@ -38,10 +38,10 @@ This term在cislunar space missions中has important application value. In orbit 
 
 ## Related Concepts
 
-- [Clock Bias](/en/glossary/navigation/clock-bias/)
-- [Apparent Diameter](/en/glossary/navigation/apparent-diameter/)
-- [Core Spacecraft](/en/glossary/navigation/core-spacecraft/)
-- [Code Pseudo-range](/en/glossary/navigation/code-pseudo-range/)
+- Clock Bias
+- Apparent Diameter
+- Core Spacecraft
+- Code Pseudo-range
 
 ## References
 

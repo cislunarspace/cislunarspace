@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/minimum-fuel-fuel-optimal/
 
 ## 相关概念
 
-- [月球飞越法（Lunar Fly-by Method）](/glossary/dynamics/lunar-fly-by-method/)
-- [可达集（Reachability Set）](/glossary/dynamics/reachability-set/)
-- [最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）](/glossary/dynamics/maximum-energy-escape-trajectory/)
-- [拉普拉斯方法（Laplace Method）](/glossary/dynamics/laplace-method/)
+- 月球飞越法（Lunar Fly-by Method）
+- 可达集（Reachability Set）
+- 最大能量逃逸轨迹（Maximum-Energy Escape Trajectory）
+- 拉普拉斯方法（Laplace Method）
 
 ## 参考文献
 

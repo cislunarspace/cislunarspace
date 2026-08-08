@@ -40,10 +40,10 @@ permalink: /glossary/orbits/periodic-solution/
 
 ## 相关概念
 
-- [远距离逆行轨道（Distant Retrograde Orbit）](/glossary/orbits/distant-retrograde-orbit/)
-- [近直线晕轨道（Near Rectilinear Halo Orbit）](/glossary/orbits/near-rectilinear-halo-orbit/)
-- [周期轨道（Periodic Orbit）](/glossary/orbits/periodic-orbit/)
-- [轨道转移（Orbital Transfer）](/glossary/orbits/orbital-transfer/)
+- [远距离逆行轨道（Distant Retrograde Orbit）](/glossary/orbits/distant-retrograde-orbit-dro/)
+- [近直线晕轨道（Near Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
+- 周期轨道（Periodic Orbit）
+- 轨道转移（Orbital Transfer）
 
 ## 参考文献
 

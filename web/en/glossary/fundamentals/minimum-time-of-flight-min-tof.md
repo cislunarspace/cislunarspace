@@ -39,9 +39,9 @@ Minimum Time of Flight, Min TOF is a fundamental concept in cislunar mission des
 ## Related Concepts
 
 - [Non-Dominated Sorting Genetic Algorithm II](/en/glossary/fundamentals/nsga-ii/)
-- [Ion Propulsion](/en/glossary/fundamentals/ip/)
+- Ion Propulsion
 - [Tisserand-Poincaré Graph](/en/glossary/fundamentals/t-p-graph/)
-- [Mid-course Correction](/en/glossary/fundamentals/tcm/)
+- Mid-course Correction
 
 ## References
 

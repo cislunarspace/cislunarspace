@@ -112,7 +112,7 @@ The core value of continuation methods in cislunar space orbit design lies in:
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Patched Method](/en/glossary/dynamics/patched-method/)
+- Patched Method
 - [Differential Correction](/en/glossary/dynamics/differential-correction/)
 - [Poincaré Map](/en/glossary/dynamics/poincare-map/)
 - [Continuation Background](/background/math/continuation/)

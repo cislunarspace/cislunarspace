@@ -36,10 +36,10 @@ A batch statistical simulation method that considers random distributions of mod
 
 ## Related Concepts
 
-- [Simplified Dynamic Orbit Determination](/en/glossary/navigation/simplified-dynamic-orbit-determination/)
-- [Horizon-Based Optical Navigation](/en/glossary/navigation/horizon-based-optical-navigation/)
-- [Centralized Extended Kalman Filter](/en/glossary/navigation/centralized-extended-kalman-filter/)
-- [Powered Explicit Guidance, PEG](/en/glossary/navigation/powered-explicit-guidance-peg/)
+- Simplified Dynamic Orbit Determination
+- Horizon-Based Optical Navigation
+- Centralized Extended Kalman Filter
+- Powered Explicit Guidance, PEG
 
 ## References
 

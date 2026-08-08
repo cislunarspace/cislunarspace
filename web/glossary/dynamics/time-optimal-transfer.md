@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/time-optimal-transfer/
 
 ## 相关概念
 
-- [偏转角（Deflection Angle）](/glossary/dynamics/deflection-angle/)
-- [最优滑模控制（Optimal Sliding Mode Control, OSMC）](/glossary/dynamics/optimal-sliding-mode-control-osmc/)
-- [双程测距求和组合（Summation Combination of Dual One-Way Ranging）](/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
+- 偏转角（Deflection Angle）
+- [最优滑模控制（Optimal Sliding Mode Control, OSMC）](/glossary/dynamics/osmc/)
+- 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/time-optimal-transfer/)
 
 ## 参考文献

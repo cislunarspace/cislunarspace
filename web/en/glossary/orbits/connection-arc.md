@@ -38,10 +38,10 @@ Connection arcs are transition trajectories between near-Earth parking orbits an
 
 ## Related Concepts
 
-- [Distant Retrograde Orbit](/en/glossary/orbits/distant-retrograde-orbit/)
-- [Near Rectilinear Halo Orbit](/en/glossary/orbits/near-rectilinear-halo-orbit/)
-- [Periodic Orbit](/en/glossary/orbits/periodic-orbit/)
-- [Orbital Transfer](/en/glossary/orbits/orbital-transfer/)
+- [Distant Retrograde Orbit](/en/glossary/orbits/distant-retrograde-orbit-dro/)
+- Near Rectilinear Halo Orbit
+- Periodic Orbit
+- Orbital Transfer
 
 ## References
 

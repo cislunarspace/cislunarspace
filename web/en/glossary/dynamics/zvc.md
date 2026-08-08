@@ -38,9 +38,9 @@ The zero-velocity curve delineates feasible motion regions, an important tool fo
 
 ## Related Concepts
 
-- [Nonlinear Programming](/en/glossary/dynamics/nlp/)
+- Nonlinear Programming
 - [Shape-Based Method](/en/glossary/dynamics/shape-based-method/)
-- [Departure Excess Velocity](/en/glossary/dynamics/c3/)
+- Departure Excess Velocity
 
 ## References
 

@@ -38,10 +38,10 @@ In SST autonomous orbit determination, the state transition matrices of conventi
 
 ## Related Concepts
 
-- [Pinpoint Landing](/en/glossary/navigation/pinpoint-landing/)
-- [GNSS Ultra-rapid ephemerides](/en/glossary/navigation/gnss-ultra-rapid-ephemerides/)
-- [Free Space Propagation Loss](/en/glossary/navigation/free-space-propagation-loss/)
-- [LNSS-B](/en/glossary/navigation/lnss-b/)
+- Pinpoint Landing
+- GNSS Ultra-rapid ephemerides
+- Free Space Propagation Loss
+- LNSS-B
 
 ## References
 

@@ -104,7 +104,7 @@ $$\lim_{t \to -\infty} x(t) = L_i, \quad \lim_{t \to +\infty} x(t) = L_j$$
 
 ## 相关概念
 
-- [一次冲量轨道转移](/glossary/orbits/primary-impulse-transfer/)
+- 一次冲量轨道转移
 - [不变流形](/glossary/dynamics/central-manifold/)
 - [平动点](/glossary/dynamics/libration-point/)
 - [星际高速公路](/glossary/orbits/low-energy-transfer/)

@@ -38,9 +38,9 @@ This concept has important application value in cislunar space research and miss
 
 ## Related Concepts
 
-- [Space Surveillance Network](/en/glossary/observation/ssn/)
-- [Space-Based Space Surveillance](/en/glossary/observation/sbss/)
-- [EU Space Surveillance and Tracking](/en/glossary/observation/eu-sst/)
+- Space Surveillance Network
+- Space-Based Space Surveillance
+- EU Space Surveillance and Tracking
 
 ## References
 

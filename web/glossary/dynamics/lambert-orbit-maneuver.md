@@ -38,10 +38,10 @@ Lambert轨道变轨是环月交会和月球着陆任务中的核心轨道设计�
 
 ## 相关概念
 
-- [Lambert 问题（Lambert Problem）](/glossary/fundamentals/lambert-problem/)
-- [双脉冲交会机动（Two-Impulse Rendezvous Maneuver）](/glossary/dynamics/two-impulse-rendezvous-maneuver/)
+- [Lambert 问题（Lambert Problem）](/glossary/fundamentals/lamberts-problem/)
+- 双脉冲交会机动（Two-Impulse Rendezvous Maneuver）
 - [速度增量（Delta-V）](/glossary/fundamentals/delta-v/)
-- [环月轨道（Circumlunar Orbit）](/glossary/orbits/circumlunar-orbit/)
+- 环月轨道（Circumlunar Orbit）
 
 ## 参考文献
 

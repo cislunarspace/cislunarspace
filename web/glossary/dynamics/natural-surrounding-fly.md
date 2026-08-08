@@ -38,8 +38,8 @@ DRO编队中绕飞航天器不进行轨道机动，仅依靠自然动力学环�
 
 ## 相关概念
 
-- [轨道改进（Orbit Improvement）](/glossary/dynamics/orbit-improvement/)
-- [聚类聚合（Cluster Aggregation）](/glossary/dynamics/cluster-aggregation/)
+- 轨道改进（Orbit Improvement）
+- 聚类聚合（Cluster Aggregation）
 - [伪谱法（Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
 
 ## 参考文献

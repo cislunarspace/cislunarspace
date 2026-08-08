@@ -40,7 +40,7 @@ permalink: /glossary/fundamentals/sun-earth-moon-system/
 
 - [雅可比矩阵（Jacobian Matrix）](/glossary/fundamentals/jacobian-matrix/)
 - [伪势函数（Pseudo-Potential Function）](/glossary/fundamentals/pseudo-potential-function/)
-- [处理器在回路测试（Processor-in-the-Loop）](/glossary/fundamentals/processor-in-the-loop/)
+- 处理器在回路测试（Processor-in-the-Loop）
 
 ## 参考文献
 

@@ -38,9 +38,9 @@ Based on its definition, the periodic perturbation caused by the moon's orbital 
 
 ## Related Concepts
 
-- [三体问题（Three-Body Problem）](/en/glossary/dynamics/three-body-problem/)
-- [最优控制（Optimal Control）](/en/glossary/dynamics/optimal-control/)
-- [轨迹优化（Trajectory Optimization）](/en/glossary/dynamics/trajectory-optimization/)
+- 三体问题（Three-Body Problem）
+- 最优控制（Optimal Control）
+- 轨迹优化（Trajectory Optimization）
 
 ## References
 

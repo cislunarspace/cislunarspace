@@ -38,9 +38,9 @@ This concept is fundamental to understanding cislunar space dynamics and plays a
 
 ## Related Concepts
 
-- [Time of Flight](/en/glossary/fundamentals/time-of-flight/)
-- [Hybrid Propulsion Earth-Moon Transfer](/en/glossary/fundamentals/hybrid-propulsion-earth-moon-transfer/)
-- [Reference Ellipsoid](/en/glossary/fundamentals/reference-ellipsoid/)
+- [Time of Flight](/en/glossary/dynamics/tof/)
+- Hybrid Propulsion Earth-Moon Transfer
+- Reference Ellipsoid
 - [Low-Thrust Propulsion](/en/glossary/fundamentals/low-thrust-propulsion/)
 
 ## References

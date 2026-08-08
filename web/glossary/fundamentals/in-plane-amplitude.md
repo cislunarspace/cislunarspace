@@ -38,8 +38,8 @@ Lissajous轨道在xy平面（黄道面附近）的振荡最大偏离量，记为
 
 ## 相关概念
 
-- [Pontryagin Maximum Principle](/glossary/fundamentals/pontryagin-maximum-principle/)
-- [Newton-Raphson Method](/glossary/fundamentals/newton-raphson-method/)
+- Pontryagin Maximum Principle
+- [Newton-Raphson Method](/glossary/dynamics/newton-raphson-method/)
 
 ## 参考文献
 

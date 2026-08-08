@@ -38,10 +38,10 @@ KAM Theorem plays an important role in orbital dynamics and attitude control, se
 
 ## Related Concepts
 
-- [Restricted Three-Body Problem](/en/glossary/dynamics/restricted-three-body-problem/)
-- [Hill Clohessy Wiltshire Equations](/en/glossary/dynamics/hill-clohessy-wiltshire-equations/)
-- [State Transition Function](/en/glossary/dynamics/state-transition-function/)
-- [Lagrangian Coefficients](/en/glossary/dynamics/lagrangian-coefficients/)
+- Restricted Three-Body Problem
+- Hill Clohessy Wiltshire Equations
+- State Transition Function
+- Lagrangian Coefficients
 
 ## References
 

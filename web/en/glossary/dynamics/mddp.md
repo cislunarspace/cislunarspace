@@ -39,7 +39,7 @@ The 多重打靶差分动态规划 concept provides technical support and analyt
 ## Related Concepts
 
 - [Hybrid Differential Dynamic Programming, HDDP](/en/glossary/dynamics/hddp/)
-- [Differential Dynamic Programming, DDP](/en/glossary/dynamics/ddp/)
+- Differential Dynamic Programming, DDP
 
 ## References
 

@@ -40,9 +40,9 @@ permalink: /glossary/fundamentals/lunar-gravity-field-irregularity/
 
 ## 相关概念
 
-- [虚拟共面起飞（Virtual Coplanar Takeoff）](/glossary/fundamentals/virtual-coplanar-takeoff/)
-- [LP100K模型（LP100K Model）](/glossary/fundamentals/lp100k-model/)
-- [月心固连坐标系（Lunar Fixed Coordinate System）](/glossary/fundamentals/lunar-fixed-coordinate-system/)
+- 虚拟共面起飞（Virtual Coplanar Takeoff）
+- [LP100K模型（LP100K Model）](/glossary/fundamentals/lp100k/)
+- 月心固连坐标系（Lunar Fixed Coordinate System）
 
 ## 参考文献
 

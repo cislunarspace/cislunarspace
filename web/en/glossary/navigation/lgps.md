@@ -39,9 +39,9 @@ Lunar Global Positioning System, LGPS provides precise positioning capabilities 
 ## Related Concepts
 
 - [Autonomous Orbit Determination](/en/glossary/navigation/aod/)
-- [Dilution of Precision, DOP](/en/glossary/navigation/dop/)
-- [Direction Cosine Matrix](/en/glossary/navigation/dcm/)
-- [Precision Orbit Determination](/en/glossary/navigation/pod/)
+- Dilution of Precision, DOP
+- Direction Cosine Matrix
+- Precision Orbit Determination
 
 ## References
 

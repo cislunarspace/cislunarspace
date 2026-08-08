@@ -38,9 +38,9 @@ permalink: /glossary/observation/relay-observation/
 
 ## 相关概念
 
-- [垂直航迹基线（Cross-Track Baseline）](/glossary/observation/cross-track-baseline/)
-- [空间态势感知星座（SDA Constellation）](/glossary/observation/sda-constellation/)
-- [极限星等（Limiting Magnitude）](/glossary/observation/limiting-magnitude/)
+- 垂直航迹基线（Cross-Track Baseline）
+- 空间态势感知星座（SDA Constellation）
+- 极限星等（Limiting Magnitude）
 
 ## 参考文献
 

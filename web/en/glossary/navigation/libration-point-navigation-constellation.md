@@ -38,10 +38,10 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 
 ## Related Concepts
 
-- [Linked, Autonomous, Interplanetary Satellite Orbit Navigation, LiAISON](/en/glossary/navigation/linked-autonomous-interplanetary-satellite-orbit-navigation-liaison/)
-- [Free Space Loss](/en/glossary/navigation/free-space-loss/)
-- [Flyby Phase](/en/glossary/navigation/flyby-phase/)
-- [Sum Linear Combination](/en/glossary/navigation/sum-linear-combination/)
+- Linked, Autonomous, Interplanetary Satellite Orbit Navigation, LiAISON
+- Free Space Loss
+- Flyby Phase
+- Sum Linear Combination
 
 ## References
 

@@ -38,10 +38,10 @@ permalink: /glossary/observation/access-time/
 
 ## 相关概念
 
-- [自适应阈值法（Adaptive Thresholding）](/glossary/observation/adaptive-thresholding/)
-- [观测需求满足率（Fraction of Observation Demand Met）](/glossary/observation/fraction-of-observation-demand-met/)
+- 自适应阈值法（Adaptive Thresholding）
+- 观测需求满足率（Fraction of Observation Demand Met）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/state-transition-matrix/)
+- 状态转移矩阵（State Transition Matrix）
 
 ## 参考文献
 

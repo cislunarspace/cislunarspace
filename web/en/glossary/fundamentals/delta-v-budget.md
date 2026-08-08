@@ -35,8 +35,8 @@ A summary of required velocity increments across all mission phases, used to ass
 ## Related Concepts
 
 - [Center-of-Mass Rotating Frame](/en/glossary/fundamentals/center-of-mass-rotating-frame/)
-- [Mass Parameter](/en/glossary/fundamentals/mass-parameter/)
-- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
+- Mass Parameter
+- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)
 
 ## References

@@ -39,8 +39,8 @@ permalink: /glossary/dynamics/manifold-interpolation-database/
 ## 相关概念
 
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- [月球自由返回轨道（Lunar Free-Return Orbit, LFO）](/glossary/orbits/lunar-free-return-orbit/)
-- [临界轨道（Critical Orbit）](/glossary/orbits/critical-orbit/)
+- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
+- 临界轨道（Critical Orbit）
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
 
 ## 参考文献

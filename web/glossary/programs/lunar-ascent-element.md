@@ -38,9 +38,9 @@ permalink: /glossary/programs/lunar-ascent-element/
 
 ## 相关概念
 
-- [搜索与救援（Search and Rescue, SAR）](/glossary/programs/sar/)
-- [在轨服务网络（On-Orbit Servicing Network）](/glossary/programs/osn/)
-- [交会与对接（Rendezvous and Docking）](/glossary/programs/rvd/)
+- 搜索与救援（Search and Rescue, SAR）
+- 在轨服务网络（On-Orbit Servicing Network）
+- 交会与对接（Rendezvous and Docking）
 
 ## 参考文献
 

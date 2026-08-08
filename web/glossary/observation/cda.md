@@ -38,10 +38,10 @@ permalink: /glossary/observation/cda/
 
 ## 相关概念
 
-- [极限星等（Cutoff Magnitude, m_co）](/glossary/observation/mco/)
-- [可观测性度量（Observability Metric, Gamma）](/glossary/observation/gamma/)
-- [漫反射率（Diffuse Reflectance, a_diff）](/glossary/observation/adiff/)
-- [镜面反射率（Specular Reflectance, a_spec）](/glossary/observation/aspec/)
+- 极限星等（Cutoff Magnitude, m_co）
+- 可观测性度量（Observability Metric, Gamma）
+- 漫反射率（Diffuse Reflectance, a_diff）
+- 镜面反射率（Specular Reflectance, a_spec）
 
 ## 参考文献
 

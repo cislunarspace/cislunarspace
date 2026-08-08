@@ -39,9 +39,9 @@ Elastic deformation of the Moon's solid surface caused by Earth's gravitational 
 ## Related Concepts
 
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- [月球自由返回轨道（Lunar Free-Return Orbit, LFO）](/glossary/orbits/lunar-free-return-orbit/)
-- [临界轨道（Critical Orbit）](/glossary/orbits/critical-orbit/)
-- [准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）](/glossary/orbits/quasi-periodic-distant-retrograde-orbit/)
+- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
+- 临界轨道（Critical Orbit）
+- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
 
 ## References
 

@@ -38,10 +38,10 @@ In orbit design and optimization, this concept is used to analyze spacecraft mot
 
 ## Related Concepts
 
-- [Lunar Fly-by Method](/en/glossary/dynamics/lunar-fly-by-method/)
+- Lunar Fly-by Method
 - [Backward Lunar Gravity Assist](/en/glossary/dynamics/backward-lunar-gravity-assist/)
-- [Close Lunar Flyby](/en/glossary/dynamics/close-lunar-flyby/)
-- [Reachability Set](/en/glossary/dynamics/reachability-set/)
+- Close Lunar Flyby
+- Reachability Set
 
 ## References
 

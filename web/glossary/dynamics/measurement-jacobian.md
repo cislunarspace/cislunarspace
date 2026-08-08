@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/measurement-jacobian/
 
 ## 相关概念
 
-- [希尔球半径（Hill Sphere Radius）](/glossary/dynamics/hill-sphere-radius/)
+- 希尔球半径（Hill Sphere Radius）
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincar-map-representation/)
 - [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/minimum-norm-targeting/)

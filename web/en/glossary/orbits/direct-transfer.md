@@ -38,10 +38,10 @@ This term has application value in the design and analysis of cislunar space mis
 
 ## Related Concepts
 
-- [Orbit Insertion Point Condition](/en/glossary/orbits/orbit-insertion-point-condition/)
-- [Hybrid Gravity Assist Transfer](/en/glossary/orbits/hybrid-gravity-assist-transfer/)
-- [Phase Angle of Perilune](/en/glossary/orbits/phase-angle-of-perilune/)
-- [Relative Periodic Orbit](/en/glossary/orbits/relative-periodic-orbit/)
+- Orbit Insertion Point Condition
+- Hybrid Gravity Assist Transfer
+- Phase Angle of Perilune
+- Relative Periodic Orbit
 
 ## References
 

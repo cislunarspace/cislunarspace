@@ -71,8 +71,8 @@ Floquet 模态法在平动点轨道保持中具有重要应用价值。相比靶
 ## 相关概念
 
 - [单值矩阵](/glossary/dynamics/monodromy-matrix/)
-- [轨道保持](/glossary/orbits/orbit-keeping/)
-- [稳定性指数](/glossary/dynamics/stability-index/)
+- 轨道保持
+- 稳定性指数
 - [平动点](/glossary/dynamics/libration-point/)
 
 ## 参考文献

@@ -38,10 +38,10 @@ This term has application value in the design and analysis of cislunar space mis
 
 ## Related Concepts
 
-- [Sigmoid Function](/en/glossary/fundamentals/sigmoid-function/)
-- [Deep Residual Network, ResNet](/en/glossary/fundamentals/deep-residual-network-resnet/)
-- [Instantaneous Classical Orbit Elements](/en/glossary/fundamentals/instantaneous-classical-orbit-elements/)
-- [Thrust Coefficient](/en/glossary/fundamentals/thrust-coefficient/)
+- Sigmoid Function
+- Deep Residual Network, ResNet
+- Instantaneous Classical Orbit Elements
+- Thrust Coefficient
 
 ## References
 

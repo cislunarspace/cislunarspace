@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/gravitational-light-deflection/
 
 ## 相关概念
 
-- [轨道力学（Orbital Mechanics）](/glossary/fundamentals/orbital-mechanics/)
-- [坐标系（Coordinate Frame）](/glossary/fundamentals/coordinate-frame/)
-- [积分（Integration）](/glossary/fundamentals/integration/)
+- 轨道力学（Orbital Mechanics）
+- 坐标系（Coordinate Frame）
+- 积分（Integration）
 
 ## 参考文献
 

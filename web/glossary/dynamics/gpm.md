@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/gpm/
 
 ## 相关概念
 
-- [利差点轨道（Libration Point Orbit）](/glossary/orbits/lpo/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/stm/)
-- [六自由度（Six-Degree-of-Freedom）](/glossary/fundamentals/6-dof/)
+- 利差点轨道（Libration Point Orbit）
+- 状态转移矩阵（State Transition Matrix）
+- 六自由度（Six-Degree-of-Freedom）
 - [圆型非线性相对运动方程（Circular Non-linear Equations of Relative Motion）](/glossary/dynamics/cnerm/)
 
 ## 参考文献

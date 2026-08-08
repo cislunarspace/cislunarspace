@@ -38,7 +38,7 @@ This concept plays an important role in cislunar space orbit design and optimiza
 
 ## Related Concepts
 
-- [Weak Stability Boundary](/en/glossary/dynamics/weak-stability-boundary/)
+- [Weak Stability Boundary](/en/glossary/dynamics/wsb/)
 
 ## References
 

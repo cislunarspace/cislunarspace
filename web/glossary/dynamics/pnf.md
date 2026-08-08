@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/pnf/
 ## 相关概念
 
 - [中心流形约化（Central Manifold Reduction）](/glossary/dynamics/)
-- [平动点（Libration Point）](/glossary/dynamics/l/)
+- [平动点（Libration Point）](/glossary/dynamics/libration-point/)
 - [共振项（Resonant Term）](/glossary/dynamics/)
 - [非共振项（Non-resonant Term）](/glossary/dynamics/)
 

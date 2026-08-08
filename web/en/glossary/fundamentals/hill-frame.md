@@ -38,10 +38,10 @@ Hill 坐标系以参考spacecraftfor 原点, x 沿径向、y 沿航迹方向、z
 
 ## Related Concepts
 
-- [Orbital State Vector](/en/glossary/fundamentals/orbital-state-vector/)
-- [Coordinate Time](/en/glossary/fundamentals/coordinate-time/)
-- [Kepler's Laws](/en/glossary/fundamentals/keplers-laws/)
-- [Lagrangian Coefficients](/en/glossary/fundamentals/lagrangian-coefficients/)
+- Orbital State Vector
+- Coordinate Time
+- Kepler's Laws
+- Lagrangian Coefficients
 
 ## References
 

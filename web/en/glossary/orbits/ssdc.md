@@ -38,9 +38,9 @@ This concept has application value in cislunar space research and engineering pr
 
 ## Related Concepts
 
-- [Lunar Free-Return Orbit, LFO](/en/glossary/orbits/lfo/)
+- Lunar Free-Return Orbit, LFO
 - [Weak Stability Boundary-like Ballistic Transfer, WSB-like](/en/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
-- [Planar Lunar Orbit, PLO](/en/glossary/orbits/plo/)
+- Planar Lunar Orbit, PLO
 - [Low-thrust Orbit Transfer](/en/glossary/orbits/low-thrust-orbit-transfer/)
 
 ## References

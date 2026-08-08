@@ -38,9 +38,9 @@ permalink: /glossary/observation/w/
 
 ## 相关概念
 
-- [太阳相位角（Solar Phase Angle）](/glossary/observation/太阳相位角/)
-- [太阳排除锥（Solar Exclusion Cone）](/glossary/observation/solar-exclusion-cone/)
-- [观测窗口（Observation Window）](/glossary/observation/观测窗口/)
+- 太阳相位角（Solar Phase Angle）
+- 太阳排除锥（Solar Exclusion Cone）
+- 观测窗口（Observation Window）
 
 ## 参考文献
 

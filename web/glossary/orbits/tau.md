@@ -38,10 +38,10 @@ permalink: /glossary/orbits/tau/
 
 ## 相关概念
 
-- [最小停泊轨道（Minimum Parking Orbit, MPO）](/glossary/orbits/MPO/)
-- [超地球同步转移轨道（Super-Geostationary Transfer Orbit, sGTO）](/glossary/orbits/sGTO/)
-- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/HOI/)
-- [低月球轨道（Low Lunar Orbit, LLO）](/glossary/orbits/LLO/)
+- [最小停泊轨道（Minimum Parking Orbit, MPO）](/glossary/orbits/mpo/)
+- [超地球同步转移轨道（Super-Geostationary Transfer Orbit, sGTO）](/glossary/orbits/sgto/)
+- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
+- 低月球轨道（Low Lunar Orbit, LLO）
 
 ## 参考文献
 

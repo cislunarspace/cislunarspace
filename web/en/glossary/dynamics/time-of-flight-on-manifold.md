@@ -38,9 +38,9 @@ The duration of flight along an invariant manifold from the injection point on a
 
 ## Related Concepts
 
-- [Bivariate Gaussian Distribution](/en/glossary/dynamics/bivariate-gaussian-distribution/)
-- [Midcourse Impulse](/en/glossary/dynamics/midcourse-impulse/)
-- [Zero-Thrust Reference Trajectory](/en/glossary/dynamics/zero-thrust-reference-trajectory/)
+- Bivariate Gaussian Distribution
+- Midcourse Impulse
+- Zero-Thrust Reference Trajectory
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/)
 
 ## References

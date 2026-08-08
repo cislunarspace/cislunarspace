@@ -38,10 +38,10 @@ Survival maps serve as a rapid screening tool in orbital design. Engineers can d
 
 ## Related Concepts
 
-- [Weak Capture](/en/glossary/dynamics/weak-capture/)
+- Weak Capture
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
-- [Libration Point](/en/glossary/orbits/libration-point/)
+- [Libration Point](/en/glossary/dynamics/libration-point/)
 
 ## References
 

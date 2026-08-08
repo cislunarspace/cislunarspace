@@ -38,10 +38,10 @@ This concept is used in orbital analysis and has significant impact on mission d
 
 ## Related Concepts
 
-- [Minimum Norm Solution](/en/glossary/dynamics/minimum-norm-solution/)
-- [Rigid Body Dynamics](/en/glossary/dynamics/rigid-body-dynamics/)
-- [Variable-Size Design Space, VSDS](/en/glossary/dynamics/variable-size-design-space-vsds/)
-- [Analytical Gradient](/en/glossary/dynamics/analytical-gradient/)
+- Minimum Norm Solution
+- Rigid Body Dynamics
+- Variable-Size Design Space, VSDS
+- Analytical Gradient
 
 ## References
 

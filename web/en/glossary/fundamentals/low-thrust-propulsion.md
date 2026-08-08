@@ -37,10 +37,10 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 
 ## Related Concepts
 
-- [Characteristic Energy](/glossary/fundamentals/characteristic-energy/)
-- [Time of Flight](/glossary/fundamentals/time-of-flight/)
-- [Hybrid Propulsion Earth-Moon Transfer](/glossary/fundamentals/hybrid-propulsion-earth-moon-transfer/)
-- [Reference Ellipsoid](/glossary/fundamentals/reference-ellipsoid/)
+- Characteristic Energy
+- [Time of Flight](/glossary/dynamics/tof/)
+- Hybrid Propulsion Earth-Moon Transfer
+- Reference Ellipsoid
 
 ## References
 

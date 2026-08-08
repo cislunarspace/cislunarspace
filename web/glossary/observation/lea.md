@@ -38,9 +38,9 @@ permalink: /glossary/observation/lea/
 
 ## 相关概念
 
-- [空间监视网络（Space Surveillance Network）](/glossary/observation/ssn/)
-- [天基空间监视系统（Space-Based Space Surveillance）](/glossary/observation/sbss/)
-- [欧盟空间监视与跟踪系统（EU Space Surveillance and Tracking）](/glossary/observation/eu-sst/)
+- 空间监视网络（Space Surveillance Network）
+- 天基空间监视系统（Space-Based Space Surveillance）
+- 欧盟空间监视与跟踪系统（EU Space Surveillance and Tracking）
 
 ## 参考文献
 

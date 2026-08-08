@@ -38,9 +38,9 @@ The maximum out-of-plane displacement of a periodic orbit, denoted Az. The orbit
 
 ## Related Concepts
 
-- [星地联合定轨](/en/glossary/navigation/星地联合定轨/)
-- [地月空间卫星导航系统](/en/glossary/navigation/地月空间卫星导航系统/)
-- [链路数量](/en/glossary/navigation/链路数量/)
+- 星地联合定轨
+- [地月空间卫星导航系统](/en/glossary/navigation/cislunar-space-satellite-navigation-system/)
+- 链路数量
 
 ## References
 

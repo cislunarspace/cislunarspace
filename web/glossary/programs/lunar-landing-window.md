@@ -39,9 +39,9 @@ permalink: /glossary/programs/lunar-landing-window/
 ## 相关概念
 
 - [轨道选择评估（Orbit Selection Evaluation）](/glossary/programs/orbit-selection-evaluation/)
-- [载人登月飞行模式（Human Lunar Exploration Flight Mode）](/glossary/programs/human-lunar-exploration-flight-mode/)
-- [月球照明计划（Moonlight Initiative）](/glossary/programs/moonlight-initiative/)
-- [归一化处理（normalization）](/glossary/programs/normalization/)
+- 载人登月飞行模式（Human Lunar Exploration Flight Mode）
+- 月球照明计划（Moonlight Initiative）
+- 归一化处理（normalization）
 
 ## 参考文献
 

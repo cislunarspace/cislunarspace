@@ -35,7 +35,7 @@ Control strategy incorporating Jacobi constant error of reference orbit as const
 ## Related Concepts
 
 - [Zero Velocity Surface, ZVS](/en/glossary/dynamics/zero-velocity-surface-zvs/)
-- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 

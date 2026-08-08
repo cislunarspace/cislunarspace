@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/piecewise-polynomial-control/
 
 ## 相关概念
 
-- [参考椭球（Reference Ellipsoid）](/glossary/fundamentals/reference-ellipsoid/)
+- 参考椭球（Reference Ellipsoid）
 - [低推力推进（Low-Thrust Propulsion）](/glossary/fundamentals/low-thrust-propulsion/)
 - [引燃矢量（Primer vector）](/glossary/fundamentals/primer-vector/)
-- [运动学（Kinematics）](/glossary/fundamentals/kinematics/)
+- 运动学（Kinematics）
 
 ## 参考文献
 

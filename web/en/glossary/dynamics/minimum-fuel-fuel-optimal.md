@@ -38,10 +38,10 @@ In low-thrust trajectory optimization, this propulsion approach achieves low-ene
 
 ## Related Concepts
 
-- [Lunar Fly-by Method](/en/glossary/dynamics/lunar-fly-by-method/)
-- [Reachability Set](/en/glossary/dynamics/reachability-set/)
-- [Maximum-Energy Escape Trajectory](/en/glossary/dynamics/maximum-energy-escape-trajectory/)
-- [Laplace Method](/en/glossary/dynamics/laplace-method/)
+- Lunar Fly-by Method
+- Reachability Set
+- Maximum-Energy Escape Trajectory
+- Laplace Method
 
 ## References
 

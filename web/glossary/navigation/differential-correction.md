@@ -38,9 +38,9 @@ permalink: /glossary/navigation/differential-correction/
 
 ## 相关概念
 
-- [伪解（Fake Solution）](/glossary/navigation/fake-solution/)
+- 伪解（Fake Solution）
 - [地月质心旋转坐标系（Earth-Moon Barycenter Rotating Frame）](/glossary/navigation/earth-moon-barycenter-rotating-frame/)
-- [视觉导航（Vision-Based Navigation）](/glossary/navigation/vision-based-navigation/)
+- 视觉导航（Vision-Based Navigation）
 
 ## 参考文献
 

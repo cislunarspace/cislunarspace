@@ -38,9 +38,9 @@ In the Moon-centered inertial frame, the Earth position varies with time, making
 
 ## Related Concepts
 
-- [Variable Structure Sliding Mode Control](/en/glossary/fundamentals/vssmc/)
+- Variable Structure Sliding Mode Control
 - [Pontryagin Minimum Principle](/en/glossary/fundamentals/pmp/)
-- [Error Function](/en/glossary/fundamentals/erf/)
+- Error Function
 
 ## References
 

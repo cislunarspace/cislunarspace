@@ -33,7 +33,7 @@ Algorithm that rapidly approximates reachable sets by sampling terminal costates
 
 ## Related Concepts
 
-- [Libration Point / Lagrange Point](/en/glossary/dynamics/libration-point-lagrange-point/)
+- Libration Point / Lagrange Point
 
 ## References
 

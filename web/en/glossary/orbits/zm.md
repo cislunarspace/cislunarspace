@@ -39,7 +39,7 @@ z-direction Motion Amplitude is an important orbit type in cislunar trajectory d
 ## Related Concepts
 
 - [Initial Periodic Orbit](/en/glossary/orbits/ipo/)
-- [Low-Thrust Transfer](/en/glossary/orbits/ltt/)
+- Low-Thrust Transfer
 - [Radial Amplitude](/en/glossary/orbits/ax/)
 - [Resonant Orbit](/en/glossary/orbits/ro/)
 

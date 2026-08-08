@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/shape-method/
 
 ## 相关概念
 
-- [混合差分动态规划（Hybrid Differential Dynamic Programming）](/glossary/dynamics/hybrid-differential-dynamic-programming/)
-- [差分动态规划（Differential Dynamic Programming, DDP）](/glossary/dynamics/differential-dynamic-programming-ddp/)
-- [二阶锥规划（Second-Order Cone Programming, SOCP）](/glossary/dynamics/second-order-cone-programming-socp/)
+- [混合差分动态规划（Hybrid Differential Dynamic Programming）](/glossary/dynamics/hddp/)
+- 差分动态规划（Differential Dynamic Programming, DDP）
+- 二阶锥规划（Second-Order Cone Programming, SOCP）
 - [流管（Flow Tube）](/glossary/dynamics/flow-tube/)
 
 ## 参考文献

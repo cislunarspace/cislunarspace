@@ -34,10 +34,10 @@ The core equations in nonlinear output regulation theory, consisting of the matc
 
 ## Related Concepts
 
-- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
-- [Stability](/en/glossary/dynamics/stability/)
+- Stability
 
 ## References
 

@@ -37,8 +37,8 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 
 ## Related Concepts
 
-- [Orbit Improvement](/glossary/dynamics/orbit-improvement/)
-- [Cluster Aggregation](/glossary/dynamics/cluster-aggregation/)
+- Orbit Improvement
+- Cluster Aggregation
 - [Pseudospectral Method](/glossary/dynamics/pseudospectral-method/)
 
 ## References

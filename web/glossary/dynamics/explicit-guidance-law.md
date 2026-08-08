@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/explicit-guidance-law/
 
 ## 相关概念
 
-- [月球自由返回轨道（Lunar Free-Return Orbit, LFO）](/glossary/orbits/lunar-free-return-orbit/)
-- [约束转化非线性规划（Constraint Conversion to Nonlinear Programming）](/glossary/fundamentals/constraint-conversion-to-nonlinear-programming/)
+- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
+- 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
-- [姿态确定与控制系统（Attitude Determination and Control System）](/glossary/fundamentals/attitude-determination-and-control-system/)
+- 姿态确定与控制系统（Attitude Determination and Control System）
 
 ## 参考文献
 

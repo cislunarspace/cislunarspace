@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/control-regularization/
 
 ## 相关概念
 
-- [Cholesky因子分解（Cholesky Factorization）](/glossary/fundamentals/cholesky-factorization/)
-- [SPICE 星历工具包（SPICE, SpiceyPy）](/glossary/fundamentals/spice-spiceypy/)
-- [抛物线轨道（Parabolic Orbit）](/glossary/fundamentals/parabolic-orbit/)
-- [地外行星（Exterior Planet）](/glossary/fundamentals/exterior-planet/)
+- Cholesky因子分解（Cholesky Factorization）
+- SPICE 星历工具包（SPICE, SpiceyPy）
+- 抛物线轨道（Parabolic Orbit）
+- 地外行星（Exterior Planet）
 
 ## 参考文献
 

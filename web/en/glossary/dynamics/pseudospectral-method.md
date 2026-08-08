@@ -38,9 +38,9 @@ In orbital design, analysis, and control, dynamics models are used to predict sp
 
 ## Related Concepts
 
-- [Orbit Improvement](/en/glossary/dynamics/orbit-improvement/)
-- [Cluster Aggregation](/en/glossary/dynamics/cluster-aggregation/)
-- [Gravity Gradient Torque](/en/glossary/dynamics/gravity-gradient-torque/)
+- Orbit Improvement
+- Cluster Aggregation
+- Gravity Gradient Torque
 
 ## References
 

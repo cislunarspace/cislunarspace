@@ -38,9 +38,9 @@ This concept plays an important role in trajectory optimization and mission plan
 
 ## Related Concepts
 
-- [Fake Solution](/en/glossary/navigation/fake-solution/)
+- Fake Solution
 - [Earth-Moon Barycenter Rotating Frame](/en/glossary/navigation/earth-moon-barycenter-rotating-frame/)
-- [Vision-Based Navigation](/en/glossary/navigation/vision-based-navigation/)
+- Vision-Based Navigation
 
 ## References
 

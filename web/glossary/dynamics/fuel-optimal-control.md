@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/fuel-optimal-control/
 
 ## 相关概念
 
-- [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-stability/)
+- 李雅普诺夫稳定性（Lyapunov Stability）
 - [Adams-Cowell积分器（Adams-Cowell Integrator）](/glossary/dynamics/adams-cowell-integrator/)
-- [汉森系数（Hansen Coefficients）](/glossary/dynamics/hansen-coefficients/)
+- 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)
 
 ## 参考文献

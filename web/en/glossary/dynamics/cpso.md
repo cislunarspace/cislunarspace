@@ -38,10 +38,10 @@ Compound Particle Swarm Optimization plays a critical role in trajectory optimiz
 
 ## Related Concepts
 
-- [RKF7(8) Integrator](/en/glossary/dynamics/rkf78/)
-- [Mean Motion Resonance, MMR](/en/glossary/dynamics/mmr/)
-- [Thrust Acceleration](/en/glossary/dynamics/a/)
-- [Markov Decision Process, MDP](/en/glossary/dynamics/mdp/)
+- RKF7(8) Integrator
+- Mean Motion Resonance, MMR
+- Thrust Acceleration
+- Markov Decision Process, MDP
 
 ## References
 

@@ -40,8 +40,8 @@ A formation configuration where the relative position and orientation between ch
 
 - [Hill 模型（Hill Model）](/glossary/dynamics/hill-model/)
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/dynamics/perturbational-lambert-problem/)
-- [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
-- [遗传算法（Genetic Algorithm）](/glossary/dynamics/genetic-algorithm/)
+- 探测器定位（Probe Targeting）
+- 遗传算法（Genetic Algorithm）
 
 ## References
 

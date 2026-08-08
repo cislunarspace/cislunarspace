@@ -38,10 +38,10 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 
 ## Related Concepts
 
-- [Analytic Hierarchy Process](/en/glossary/fundamentals/analytic-hierarchy-process/)
+- Analytic Hierarchy Process
 - [Costate Equations](/en/glossary/fundamentals/costate-equations/)
-- [Delta-v, Δv](/en/glossary/fundamentals/delta-v-v/)
-- [Continued Fraction](/en/glossary/fundamentals/continued-fraction/)
+- Delta-v, Δv
+- Continued Fraction
 
 ## References
 

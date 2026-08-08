@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/delta-v/
 
 ## 相关概念
 
-- [Sigmoid函数（Sigmoid Function）](/glossary/fundamentals/sigmoid-function/)
-- [深度残差网络（Deep Residual Network, ResNet）](/glossary/fundamentals/deep-residual-network-resnet/)
-- [瞬时轨道根数（Instantaneous Classical Orbit Elements）](/glossary/fundamentals/instantaneous-classical-orbit-elements/)
-- [推力系数（Thrust Coefficient）](/glossary/fundamentals/thrust-coefficient/)
+- Sigmoid函数（Sigmoid Function）
+- 深度残差网络（Deep Residual Network, ResNet）
+- 瞬时轨道根数（Instantaneous Classical Orbit Elements）
+- 推力系数（Thrust Coefficient）
 
 ## 参考文献
 

@@ -38,9 +38,9 @@ permalink: /glossary/observation/cislunar-libration-point-constellation/
 
 ## 相关概念
 
-- [月基低频射电天文观测（Lunar-Based Low-Frequency Radio Astronomical Observation）](/glossary/observation/lunar-based-low-frequency-radio-astronomical-observation/)
+- 月基低频射电天文观测（Lunar-Based Low-Frequency Radio Astronomical Observation）
 - [Kordylewski云（Kordylewski Clouds）](/glossary/observation/kordylewski-clouds/)
-- [视场角（Field of View）](/glossary/observation/field-of-view/)
+- 视场角（Field of View）
 - [观测星座（Observation Constellation）](/glossary/observation/observation-constellation/)
 
 ## 参考文献

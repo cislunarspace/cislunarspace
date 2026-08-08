@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/t-p-graph/
 ## 相关概念
 
 - [非劣排序遗传算法II（Non-Dominated Sorting Genetic Algorithm II）](/glossary/fundamentals/nsga-ii/)
-- [离子推进（Ion Propulsion）](/glossary/fundamentals/ip/)
-- [中途修正（Mid-course Correction）](/glossary/fundamentals/tcm/)
-- [近月制动（Lunar Orbit Insertion, LOI）](/glossary/fundamentals/loi/)
+- 离子推进（Ion Propulsion）
+- 中途修正（Mid-course Correction）
+- 近月制动（Lunar Orbit Insertion, LOI）
 
 ## 参考文献
 

@@ -38,9 +38,9 @@ permalink: /glossary/orbits/central-elliptical-arc/
 
 ## 相关概念
 
-- [轨道面共面约束（Coplanar Orbital Plane Constraint）](/glossary/orbits/coplanar-orbital-plane-constraint/)
+- 轨道面共面约束（Coplanar Orbital Plane Constraint）
 - [利萨如轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
-- [高地球轨道（High Earth Orbit, HEO）](/glossary/orbits/high-earth-orbit-heo/)
+- 高地球轨道（High Earth Orbit, HEO）
 - [外部相位（Exterior Phase）](/glossary/orbits/low-energy-transfer/)
 
 ## 参考文献

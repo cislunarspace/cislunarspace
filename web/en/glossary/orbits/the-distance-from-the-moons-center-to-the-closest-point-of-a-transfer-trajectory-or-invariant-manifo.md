@@ -38,10 +38,10 @@ This parameter plays a critical role in cislunar mission design, analysis, and c
 
 ## Related Concepts
 
-- [Football Orbit](/en/glossary/orbits/football-orbit/)
+- Football Orbit
 - [Orbit Chain](/en/glossary/orbits/orbit-chain/)
-- [Prograde Polar Orbit](/en/glossary/orbits/prograde-polar-orbit/)
-- [Eccentricity/Inclination Vector Separation](/en/glossary/orbits/eccentricity-inclination-vector-separation/)
+- Prograde Polar Orbit
+- Eccentricity/Inclination Vector Separation
 
 ## References
 

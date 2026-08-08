@@ -41,9 +41,9 @@ permalink: /glossary/navigation/orbital-amplitude/
 
 ## 相关概念
 
-- [星地联合定轨（Ground-Space Joint Orbit Determination）](/glossary/navigation/ground-space-joint-orbit-determination/)
+- 星地联合定轨（Ground-Space Joint Orbit Determination）
 - [地月空间卫星导航系统（Cislunar Space Satellite Navigation System）](/glossary/navigation/cislunar-space-satellite-navigation-system/)
-- [链路数量（Link Quantity）](/glossary/navigation/link-quantity/)
+- 链路数量（Link Quantity）
 
 ## 参考文献
 

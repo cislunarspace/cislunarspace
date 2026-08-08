@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/dae/
 
 ## 相关概念
 
-- [交并比（Intersection over Union）](/glossary/fundamentals/iou/)
-- [点扩散函数（Point Spread Function）](/glossary/fundamentals/psf/)
-- [FITS格式（Flexible Image Transport System）](/glossary/fundamentals/fits/)
-- [归一化新息平方（Normalized Innovation Squared, NIS）](/glossary/fundamentals/nis/)
+- 交并比（Intersection over Union）
+- 点扩散函数（Point Spread Function）
+- FITS格式（Flexible Image Transport System）
+- 归一化新息平方（Normalized Innovation Squared, NIS）
 
 ## 参考文献
 

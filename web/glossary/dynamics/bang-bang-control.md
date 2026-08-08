@@ -94,8 +94,8 @@ $$\varepsilon_d = 10^{-(d/15)}, \quad d = 1, 2, \cdots, 60$$
 ## 相关概念
 
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)
-- [庞特里亚金极值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagin-principle/)
-- [协态变量（Co-state Variables）](/glossary/dynamics/co-state-normalization/)
+- 庞特里亚金极值原理（Pontryagin's Maximum Principle）
+- [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
 - [燃料最优（Fuel-optimal Control）](/glossary/dynamics/fuel-optimal/)
 
 ## 参考文献

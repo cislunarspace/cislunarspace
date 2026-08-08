@@ -39,9 +39,9 @@ This concept is applicable in cislunar space mission design, orbit optimization,
 ## Related Concepts
 
 - [Control Regularization](/en/glossary/fundamentals/control-regularization/)
-- [Cholesky Factorization](/en/glossary/fundamentals/cholesky-factorization/)
-- [SPICE, SpiceyPy](/en/glossary/fundamentals/spice-spiceypy/)
-- [Parabolic Orbit](/en/glossary/fundamentals/parabolic-orbit/)
+- Cholesky Factorization
+- SPICE, SpiceyPy
+- Parabolic Orbit
 
 ## References
 

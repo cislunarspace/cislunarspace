@@ -54,5 +54,5 @@ NRHO 的主要工程价值在于其相对月球的特殊几何位置：
 ## 相关概念
 
 - [限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [地月空间轨道族总览](/cislunar-orbits/)

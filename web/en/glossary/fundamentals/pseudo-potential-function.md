@@ -39,9 +39,9 @@ In the circular restricted three-body problem, the effective potential obtained 
 ## Related Concepts
 
 - [Time-Varying System](/en/glossary/fundamentals/time-varying-system/)
-- [Lipschitz Condition](/en/glossary/fundamentals/lipschitz-condition/)
+- Lipschitz Condition
 - [Variable-Time Targeting](/en/glossary/fundamentals/variable-time-targeting/)
-- [Return Corridor](/en/glossary/fundamentals/return-corridor/)
+- Return Corridor
 
 ## References
 

@@ -43,7 +43,7 @@ permalink: /glossary/orbits/patched-conic/
 
 - [月心段（Selenocentric Segment）](/glossary/orbits/selenocentric-segment/)
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
-- [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/z-direction-motion-amplitude/)
+- [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
 
 ## 参考文献
 

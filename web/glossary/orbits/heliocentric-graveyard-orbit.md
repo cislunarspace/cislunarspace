@@ -39,7 +39,7 @@ permalink: /glossary/orbits/heliocentric-graveyard-orbit/
 ## 相关概念
 
 - [Halo轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
-- [弱稳定区转移（Weak Stability Region Transfer）](/glossary/orbits/weak-stability-region-transfer/)
+- [弱稳定区转移（Weak Stability Region Transfer）](/glossary/orbits/wsrt/)
 
 ## 参考文献
 

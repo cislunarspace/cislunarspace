@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/non-tangential-injection/
 
 ## 相关概念
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/geocentric-celestial-reference-frame/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- [临界轨道（Critical Orbit）](/glossary/orbits/critical-orbit/)
-- [约束转化非线性规划（Constraint Conversion to Nonlinear Programming）](/glossary/fundamentals/constraint-conversion-to-nonlinear-programming/)
+- 临界轨道（Critical Orbit）
+- 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
 
 ## 参考文献
 

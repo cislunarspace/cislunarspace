@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/adams-cowell-integrator/
 
 ## 相关概念
 
-- [李雅普诺夫稳定性（Lyapunov Stability）](/glossary/dynamics/lyapunov-stability/)
-- [汉森系数（Hansen Coefficients）](/glossary/dynamics/hansen-coefficients/)
+- 李雅普诺夫稳定性（Lyapunov Stability）
+- 汉森系数（Hansen Coefficients）
 - [控制曲线（Control Curve, U_i）](/glossary/dynamics/control-curve-ui/)
-- [拼接圆锥曲线法（Patched Conics Method）](/glossary/dynamics/patched-conics-method/)
+- 拼接圆锥曲线法（Patched Conics Method）
 
 ## 参考文献
 

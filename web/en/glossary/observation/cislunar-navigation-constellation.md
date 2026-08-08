@@ -38,10 +38,10 @@ The four-satellite constellation (2 DRO + 2 NRHO) serves simultaneously as a nav
 
 ## Related Concepts
 
-- [Pose Estimation](/en/glossary/observation/pose-estimation/)
-- [Wide Angle Camera](/en/glossary/observation/wide-angle-camera/)
-- [Corner Cube Reflector](/en/glossary/observation/corner-cube-reflector/)
-- [Visibility Check](/en/glossary/observation/visibility-check/)
+- Pose Estimation
+- Wide Angle Camera
+- Corner Cube Reflector
+- Visibility Check
 
 ## References
 

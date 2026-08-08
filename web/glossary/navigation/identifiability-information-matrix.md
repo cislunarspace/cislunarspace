@@ -38,10 +38,10 @@ permalink: /glossary/navigation/identifiability-information-matrix/
 
 ## 相关概念
 
-- [远距离交会段（Far-Range Guidance Section）](/glossary/navigation/far-range-guidance-section/)
-- [叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）](/glossary/fundamentals/cross-product-matrix-skew-symmetric-matrix/)
-- [组合协方差矩阵（Combined Covariance Matrix）](/glossary/fundamentals/combined-covariance-matrix/)
-- [力模型简化（Force Model Simplification）](/glossary/navigation/force-model-simplification/)
+- 远距离交会段（Far-Range Guidance Section）
+- 叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）
+- 组合协方差矩阵（Combined Covariance Matrix）
+- 力模型简化（Force Model Simplification）
 
 ## 参考文献
 

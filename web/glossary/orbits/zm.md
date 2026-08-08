@@ -39,7 +39,7 @@ z方向运动振幅是地月空间轨道设计中的重要轨道类型，在任�
 ## 相关概念
 
 - [初始周期轨道（Initial Periodic Orbit）](/glossary/orbits/ipo/)
-- [低推力转移（Low-Thrust Transfer）](/glossary/orbits/ltt/)
+- 低推力转移（Low-Thrust Transfer）
 - [径向振幅（Radial Amplitude）](/glossary/orbits/ax/)
 - [共振轨道（Resonant Orbit）](/glossary/orbits/ro/)
 

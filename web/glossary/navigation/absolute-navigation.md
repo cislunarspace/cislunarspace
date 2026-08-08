@@ -38,9 +38,9 @@ permalink: /glossary/navigation/absolute-navigation/
 
 ## 相关概念
 
-- [悬停控制（Hovering Control）](/glossary/navigation/hovering-control/)
-- [先验约束（Prior constraint）](/glossary/navigation/prior-constraint/)
-- [设备硬件延迟（Device Hardware Delay）](/glossary/navigation/device-hardware-delay/)
+- 悬停控制（Hovering Control）
+- 先验约束（Prior constraint）
+- 设备硬件延迟（Device Hardware Delay）
 
 ## 参考文献
 

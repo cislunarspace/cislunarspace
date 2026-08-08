@@ -33,7 +33,7 @@ A method to handle optimization difficulty at very low thrust acceleration level
 
 ## Related Concepts
 
-- [Libration Point / Lagrange Point](/en/glossary/dynamics/libration-point-lagrange-point/)
+- Libration Point / Lagrange Point
 
 ## References
 

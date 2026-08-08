@@ -60,7 +60,7 @@ For long-duration or sensitive orbits, multiple shooting divides the trajectory 
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/dynamics/differential-correction/)
-- [State Transition Matrix (STM)](/en/glossary/dynamics/state-transition-matrix/)
+- State Transition Matrix (STM)
 - [Patch Point](/en/glossary/dynamics/patch-point/)
 - [Continuation Method](/en/glossary/dynamics/continuation-method/)
 

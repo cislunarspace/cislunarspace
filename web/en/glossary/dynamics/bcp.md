@@ -39,7 +39,7 @@ The Bicircular Problem serves as a simplified test model for the four-body probl
 ## Related Concepts
 
 - [Restricted Three-Body Problem](/en/glossary/dynamics/rtbp/)
-- [Libration Point](/en/glossary/dynamics/l/)
+- [Libration Point](/en/glossary/dynamics/libration-point/)
 - [Circular Restricted Three-Body Problem](/en/glossary/dynamics/crtbp/)
 
 ## References

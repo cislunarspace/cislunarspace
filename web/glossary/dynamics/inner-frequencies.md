@@ -39,8 +39,8 @@ permalink: /glossary/dynamics/inner-frequencies/
 ## 相关概念
 
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- [准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）](/glossary/orbits/quasi-periodic-distant-retrograde-orbit/)
-- [推进制动返回（Propulsive Braking Return）](/glossary/programs/propulsive-braking-return/)
+- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
+- 推进制动返回（Propulsive Braking Return）
 - [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
 
 ## 参考文献

@@ -113,7 +113,7 @@ The control-point method for orbit keeping is essentially controlling spacecraft
 
 - [Libration Point](/en/glossary/dynamics/libration-point/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Weak Stability Boundary (WSB)](/en/glossary/other/weak-stability-boundary/)
+- [Weak Stability Boundary (WSB)](/en/glossary/dynamics/wsb/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Low Energy Transfer Orbit](/en/glossary/orbits/low-energy-transfer/)
 

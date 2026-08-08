@@ -38,9 +38,9 @@ The extended Kalman filter handles nonlinear problems through linearization, wid
 
 ## Related Concepts
 
-- [Geometric Dilution of Precision](/en/glossary/navigation/gdop/)
-- [Very Long Baseline Interferometry](/en/glossary/navigation/vlbi/)
-- [Deep Space Network](/en/glossary/navigation/dsn/)
+- Geometric Dilution of Precision
+- Very Long Baseline Interferometry
+- Deep Space Network
 
 ## References
 

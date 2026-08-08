@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/pseudo-potential-function/
 
 ## 相关概念
 
-- [自适应多阶段伪谱凸优化（Adaptive Multi-phase Pseudospectral Convex Optimization）](/glossary/dynamics/MPPCvx/)
-- [高斯伪谱法（Gauss Pseudospectral Method, GPM）](/glossary/dynamics/GPM/)
-- [Moore-Penrose伪逆（Moore-Penrose Pseudoinverse）](/glossary/dynamics/moore-penrose-pseudoinverse/)
-- [伪相对状态向量（Pseudo-Relative State Vector, ρ*）](/glossary/dynamics/pseudo-relative-state-vector/)
+- 自适应多阶段伪谱凸优化（Adaptive Multi-phase Pseudospectral Convex Optimization）
+- [高斯伪谱法（Gauss Pseudospectral Method, GPM）](/glossary/dynamics/gpm/)
+- Moore-Penrose伪逆（Moore-Penrose Pseudoinverse）
+- 伪相对状态向量（Pseudo-Relative State Vector, ρ*）
 
 ## 参考文献
 

@@ -39,9 +39,9 @@ The geometric condition enabling inter-satellite link communication between two 
 ## Related Concepts
 
 - [Operational Orbit Library](/en/glossary/orbits/operational-orbit-library/)
-- [Lunar Free-Return Orbit, LFO](/en/glossary/orbits/lunar-free-return-orbit-lfo/)
-- [Critical Orbit](/en/glossary/orbits/critical-orbit/)
-- [Quasi-Periodic Distant Retrograde Orbit, QPDRO](/en/glossary/orbits/quasi-periodic-distant-retrograde-orbit-qpdro/)
+- Lunar Free-Return Orbit, LFO
+- Critical Orbit
+- Quasi-Periodic Distant Retrograde Orbit, QPDRO
 
 ## References
 

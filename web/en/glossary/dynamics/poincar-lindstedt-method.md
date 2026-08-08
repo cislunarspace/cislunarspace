@@ -38,10 +38,10 @@ The Poincaré-Lindstedt method extends linear eigenvalue analysis to nonlinear c
 
 ## Related Concepts
 
-- [Richardson Third-Order Analytical Solution](/en/glossary/fundamentals/richardson/)
+- [Richardson Third-Order Analytical Solution](/en/glossary/dynamics/richardson-third-order-analytical-solution/)
 - [Lindstedt-Poincaré Method](/en/glossary/dynamics/lindstedt-poincare-method/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
-- [Periodic Orbit](/en/glossary/orbits/periodic-orbit/)
+- Periodic Orbit
 
 ## References
 

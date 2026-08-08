@@ -38,10 +38,10 @@ Halo轨道族为地月空间任务提供了长期稳定的停泊点，是通往�
 
 ## 相关概念
 
-- [混合差分动态规划（Hybrid Differential Dynamic Programming）](/glossary/dynamics/hybrid-differential-dynamic-programming/)
+- [混合差分动态规划（Hybrid Differential Dynamic Programming）](/glossary/dynamics/hddp/)
 - [形状法（Shape Method）](/glossary/dynamics/shape-method/)
-- [差分动态规划（Differential Dynamic Programming, DDP）](/glossary/dynamics/differential-dynamic-programming-ddp/)
-- [二阶锥规划（Second-Order Cone Programming, SOCP）](/glossary/dynamics/second-order-cone-programming-socp/)
+- 差分动态规划（Differential Dynamic Programming, DDP）
+- 二阶锥规划（Second-Order Cone Programming, SOCP）
 
 ## 参考文献
 

@@ -137,7 +137,7 @@ $$\|F(x, \lambda)\| < \epsilon_{F}, \quad |N| < \epsilon_{N}$$
 - [Multiple Shooting](/en/glossary/dynamics/shooting-method/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 - [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
-- [Period-Doubling Bifurcation](/en/glossary/other/period-doubling-bifurcation/)
+- Period-Doubling Bifurcation
 
 ## References
 

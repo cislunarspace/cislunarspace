@@ -38,10 +38,10 @@ This term在cislunar space missions中has important application value. In orbit 
 
 ## Related Concepts
 
-- [Conic Orbit](/en/glossary/fundamentals/conic-orbit/)
-- [Meshless Method](/en/glossary/fundamentals/meshless-method/)
-- [Heliosphere](/en/glossary/fundamentals/heliosphere/)
-- [Kepler's Equation](/en/glossary/fundamentals/kepler-s-equation/)
+- Conic Orbit
+- Meshless Method
+- Heliosphere
+- Kepler's Equation
 
 ## References
 

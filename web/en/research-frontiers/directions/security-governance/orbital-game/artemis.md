@@ -23,5 +23,5 @@ Artemis creates high-value cislunar infrastructure and operational patterns arou
 ## Related Pages
 
 - [Orbital Game](/en/research-frontiers/directions/security-governance/orbital-game/)
-- [Artemis Program](/en/glossary/programs/artemis/)
+- Artemis Program
 - [Near-Rectilinear Halo Orbit](/en/glossary/orbits/nrho/)

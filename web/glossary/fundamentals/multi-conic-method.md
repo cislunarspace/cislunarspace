@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/multi-conic-method/
 
 ## 相关概念
 
-- [月心旋转坐标系（Moon-Centered Rotating Frame）](/glossary/fundamentals/moon-centered-rotating-frame/)
+- 月心旋转坐标系（Moon-Centered Rotating Frame）
 - [有效势能（Effective Pseudo-Potential）](/glossary/fundamentals/effective-pseudo-potential/)
-- [比冲（Specific Impulse）](/glossary/fundamentals/specific-impulse/)
-- [月球二体能量（Two-Body Energy with Respect to the Moon）](/glossary/fundamentals/two-body-energy-with-respect-to-the-moon/)
+- 比冲（Specific Impulse）
+- 月球二体能量（Two-Body Energy with Respect to the Moon）
 
 ## 参考文献
 

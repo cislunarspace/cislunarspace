@@ -39,8 +39,8 @@ permalink: /glossary/fundamentals/delta-v-budget/
 ## 相关概念
 
 - [质心旋转坐标系（Center-of-Mass Rotating Frame）](/glossary/fundamentals/center-of-mass-rotating-frame/)
-- [质量参数（Mass Parameter）](/glossary/fundamentals/mass-parameter/)
-- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
+- 质量参数（Mass Parameter）
+- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
 - [归一化单位（Normalized Units）](/glossary/fundamentals/normalized-units/)
 
 ## 参考文献

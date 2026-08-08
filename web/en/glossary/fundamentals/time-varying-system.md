@@ -38,10 +38,10 @@ A linear system whose system matrices A(t), B(t), C(t) vary with time. Under the
 
 ## Related Concepts
 
-- [Lipschitz Condition](/en/glossary/fundamentals/lipschitz-condition/)
+- Lipschitz Condition
 - [Variable-Time Targeting](/en/glossary/fundamentals/variable-time-targeting/)
-- [Return Corridor](/en/glossary/fundamentals/return-corridor/)
-- [Intermediate thrust arc](/en/glossary/fundamentals/intermediate-thrust-arc/)
+- Return Corridor
+- [Intermediate thrust arc](/en/glossary/fundamentals/it/)
 
 ## References
 

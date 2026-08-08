@@ -38,10 +38,10 @@ This术语在地月空间任务的设计、分析和控制中具有important应�
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/geocentric-celestial-reference-frame/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
-- [准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）](/glossary/orbits/quasi-periodic-distant-retrograde-orbit/)
+- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
 
 ## References
 

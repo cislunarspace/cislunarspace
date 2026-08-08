@@ -38,9 +38,9 @@ Navigation system design and implementation must account for observation geometr
 
 ## Related Concepts
 
-- [Lunar Surface Receiver](/en/glossary/navigation/lunar-surface-receiver/)
-- [Geometric Dilution of Precision, GDOP](/en/glossary/navigation/geometric-dilution-of-precision-gdop/)
-- [Satellite-to-Satellite Tracking, SST](/en/glossary/navigation/satellite-to-satellite-tracking-sst/)
+- Lunar Surface Receiver
+- Geometric Dilution of Precision, GDOP
+- Satellite-to-Satellite Tracking, SST
 
 ## References
 

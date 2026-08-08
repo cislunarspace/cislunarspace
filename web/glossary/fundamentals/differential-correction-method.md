@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/differential-correction-method/
 
 ## 相关概念
 
-- [拉瓦尔喷管（Laval Nozzle）](/glossary/fundamentals/laval-nozzle/)
+- 拉瓦尔喷管（Laval Nozzle）
 - [多体动力学环境（Multi-Body Dynamical Environment）](/glossary/fundamentals/multi-body-dynamical-environment/)
 - [拉格朗日点（Lagrange Point）](/glossary/fundamentals/lagrange-point/)
-- [轨道根数（Orbital Elements）](/glossary/fundamentals/orbital-elements/)
+- 轨道根数（Orbital Elements）
 
 ## 参考文献
 

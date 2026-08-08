@@ -38,9 +38,9 @@ Perturbation forces arising from the deviation of a body's gravitational field f
 
 ## Related Concepts
 
-- [Lyapunov Stability](/en/glossary/dynamics/lyapunov-stability/)
+- Lyapunov Stability
 - [Adams-Cowell Integrator](/en/glossary/dynamics/adams-cowell-integrator/)
-- [Hansen Coefficients](/en/glossary/dynamics/hansen-coefficients/)
+- Hansen Coefficients
 - [Control Curve, U_i](/en/glossary/dynamics/control-curve-ui/)
 
 ## References

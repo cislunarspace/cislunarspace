@@ -38,10 +38,10 @@ permalink: /glossary/navigation/u-ocbe/
 
 ## 相关概念
 
-- [保持点（Holding Point）](/glossary/navigation/Holding-Point/)
-- [安全球（Keep-Out Sphere）](/glossary/navigation/kos/)
-- [最终接近球（Final Approach Sphere）](/glossary/navigation/fas/)
-- [碰撞规避机动（Collision Avoidance Maneuver）](/glossary/navigation/cam/)
+- 保持点（Holding Point）
+- 安全球（Keep-Out Sphere）
+- 最终接近球（Final Approach Sphere）
+- 碰撞规避机动（Collision Avoidance Maneuver）
 
 ## 参考文献
 

@@ -65,10 +65,10 @@ permalink: /glossary/dynamics/patch-point/
 
 ## 相关概念
 
-- [二级微分修正法](/glossary/dynamics/two-level-differential-correction/)
+- 二级微分修正法
 - [打靶法](/glossary/dynamics/shooting-method/)
-- [差分进化算法](/glossary/dynamics/differential-evolution/)
-- [星历模型](/glossary/dynamics/ephemeris-model/)
+- [差分进化算法](/glossary/dynamics/de/)
+- 星历模型
 
 ## 参考文献
 

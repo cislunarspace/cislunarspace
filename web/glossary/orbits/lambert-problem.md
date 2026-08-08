@@ -38,10 +38,10 @@ Lambert问题是轨道转移设计的基础，可求解两点边值问题。
 
 ## 相关概念
 
-- [同宿轨道连接（Homoclinic Connection）](/glossary/orbits/homoclinic-connection/)
+- 同宿轨道连接（Homoclinic Connection）
 - [z振幅（Z-amplitude）](/glossary/orbits/halo-orbit/)
 - [标称轨道（Nominal Orbit）](/glossary/orbits/nominal-orbit/)
-- [平面窗口（Plane Window）](/glossary/orbits/plane-window/)
+- 平面窗口（Plane Window）
 
 ## 参考文献
 

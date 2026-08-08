@@ -38,10 +38,10 @@ KAM定理在轨道动力学和姿态控制中具有重要作用，是分析航�
 
 ## 相关概念
 
-- [限制性三体问题（Restricted Three-Body Problem）](/glossary/dynamics/restricted-three-body-problem/)
-- [希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）](/glossary/dynamics/hill-clohessy-wiltshire-equations/)
-- [状态转移函数（State Transition Function）](/glossary/dynamics/state-transition-function/)
-- [拉格朗日系数（Lagrangian Coefficients）](/glossary/dynamics/lagrangian-coefficients/)
+- [限制性三体问题（Restricted Three-Body Problem）](/glossary/dynamics/r3bp/)
+- 希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）
+- 状态转移函数（State Transition Function）
+- 拉格朗日系数（Lagrangian Coefficients）
 
 ## 参考文献
 

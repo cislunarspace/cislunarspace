@@ -39,9 +39,9 @@ permalink: /glossary/dynamics/lm/
 ## 相关概念
 
 - [de](/glossary/dynamics/de/)
-- [ga](/glossary/dynamics/ga/)
-- [moop](/glossary/dynamics/moop/)
-- [aa](/glossary/dynamics/aa/)
+- ga
+- moop
+- aa
 
 ## 参考文献
 

@@ -33,9 +33,9 @@ The terminal constraint condition in optimal control problems that determines th
 
 ## Related Concepts
 
-- [Powered Explicit Guidance, PEG](/en/glossary/navigation/powered-explicit-guidance-peg/)
-- [Nonlinear Attitude Control](/en/glossary/dynamics/nonlinear-attitude-control/)
-- [Terminal Guidance](/en/glossary/navigation/terminal-guidance/)
+- Powered Explicit Guidance, PEG
+- Nonlinear Attitude Control
+- Terminal Guidance
 
 ## References
 

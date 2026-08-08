@@ -38,10 +38,10 @@ A staged LPO constellation optimization method: the first step rapidly screens c
 
 ## Related Concepts
 
-- [Satellite-to-Satellite Tracking, SST](/en/glossary/navigation/satellite-to-satellite-tracking-sst/)
-- [Closest Approach Vector, CAV](/en/glossary/navigation/closest-approach-vector-cav/)
-- [Geometric Dilution of Precision](/en/glossary/navigation/geometric-dilution-of-precision/)
-- [Space-based Tracking Station](/en/glossary/navigation/space-based-tracking-station/)
+- Satellite-to-Satellite Tracking, SST
+- Closest Approach Vector, CAV
+- Geometric Dilution of Precision
+- Space-based Tracking Station
 
 ## References
 

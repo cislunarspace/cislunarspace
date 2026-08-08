@@ -38,7 +38,7 @@ The eigenvector corresponding to the largest singular value of the Cauchy-Green 
 
 ## Related Concepts
 
-- [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
+- Asymptotic Solution
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)

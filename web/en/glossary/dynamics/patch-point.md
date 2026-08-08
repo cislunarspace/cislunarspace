@@ -61,7 +61,7 @@ For complex orbits, adaptive patch point selection adjusts the number and positi
 
 - [Shooting Method](/en/glossary/dynamics/shooting-method/)
 - [Differential Correction Method](/en/glossary/dynamics/differential-correction/)
-- [Two-Level Differential Correction](/en/glossary/dynamics/two-level-differential-correction/)
+- Two-Level Differential Correction
 
 ## References
 

@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/costate-equations/
 
 ## 相关概念
 
-- [层次分析法（Analytic Hierarchy Process）](/glossary/fundamentals/analytic-hierarchy-process/)
-- [速度增量（Delta-v, Δv）](/glossary/fundamentals/delta-v-v/)
-- [连分式（Continued Fraction）](/glossary/fundamentals/continued-fraction/)
-- [Sbplx局部优化算法（Sbplx Local Optimization Algorithm）](/glossary/fundamentals/sbplx-local-optimization-algorithm/)
+- 层次分析法（Analytic Hierarchy Process）
+- [速度增量（Delta-v, Δv）](/glossary/fundamentals/delta-v/)
+- 连分式（Continued Fraction）
+- Sbplx局部优化算法（Sbplx Local Optimization Algorithm）
 
 ## 参考文献
 

@@ -39,9 +39,9 @@ permalink: /glossary/navigation/lgps/
 ## 相关概念
 
 - [自主定轨（Autonomous Orbit Determination）](/glossary/navigation/aod/)
-- [精度因子（Dilution of Precision, DOP）](/glossary/navigation/dop/)
-- [方向余弦矩阵（Direction Cosine Matrix）](/glossary/navigation/dcm/)
-- [精密定轨（Precision Orbit Determination）](/glossary/navigation/pod/)
+- 精度因子（Dilution of Precision, DOP）
+- 方向余弦矩阵（Direction Cosine Matrix）
+- 精密定轨（Precision Orbit Determination）
 
 ## 参考文献
 

@@ -40,8 +40,8 @@ permalink: /glossary/dynamics/artificial-libration-point/
 
 - [航迹角γ（Flight-Path Angle）](/glossary/dynamics/flight-path-angle/)
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
-- [星历模型（Ephemeris Model）](/glossary/dynamics/ephemeris-model/)
-- [递归遗忘因子估计（Recursive Forgetting Factor Estimation）](/glossary/dynamics/recursive-forgetting-factor-estimation/)
+- 星历模型（Ephemeris Model）
+- 递归遗忘因子估计（Recursive Forgetting Factor Estimation）
 
 ## 参考文献
 

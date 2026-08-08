@@ -42,7 +42,7 @@ permalink: /glossary/fundamentals/shape-parameter/
 ## 相关概念
 
 - [Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）](/glossary/fundamentals/bang-off-bang-thrust-profile/)
-- [春分点（Vernal Equinox）](/glossary/fundamentals/vernal-equinox/)
+- 春分点（Vernal Equinox）
 - [L2-L1同伦法（L2-L1 Homotopy）](/glossary/fundamentals/l2-l1-homotopy/)
 
 ## 参考文献

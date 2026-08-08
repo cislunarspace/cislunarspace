@@ -38,7 +38,7 @@ bang-off-bang推力模式通过在合适时段关闭发动机来节省燃料，�
 
 ## 相关概念
 
-- [最小时间轨迹（Minimum-Time Trajectory）](/glossary/orbits/minimum-time-trajectory/)
+- 最小时间轨迹（Minimum-Time Trajectory）
 - [轨道维持代价（Orbit Maintenance Cost）](/glossary/orbits/orbit-maintenance-cost/)
 
 ## 参考文献

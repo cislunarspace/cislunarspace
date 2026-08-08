@@ -64,7 +64,7 @@ The Jacobi constant is a key parameter for orbit classification and design:
 
 - [Zero-Velocity Surface](/en/glossary/dynamics/zero-velocity-surface/)
 - [Libration Point](/en/glossary/dynamics/libration-point/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/distant-retrograde-orbit-dro/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References

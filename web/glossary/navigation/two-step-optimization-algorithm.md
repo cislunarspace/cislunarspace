@@ -38,10 +38,10 @@ permalink: /glossary/navigation/two-step-optimization-algorithm/
 
 ## 相关概念
 
-- [星间跟踪（Satellite-to-Satellite Tracking, SST）](/glossary/navigation/satellite-to-satellite-tracking-sst/)
-- [最近接近矢量（Closest Approach Vector, CAV）](/glossary/navigation/closest-approach-vector-cav/)
-- [几何精度衰减因子（Geometric Dilution of Precision）](/glossary/navigation/geometric-dilution-of-precision/)
-- [天基测控站（Space-based Tracking Station）](/glossary/navigation/space-based-tracking-station/)
+- 星间跟踪（Satellite-to-Satellite Tracking, SST）
+- 最近接近矢量（Closest Approach Vector, CAV）
+- 几何精度衰减因子（Geometric Dilution of Precision）
+- 天基测控站（Space-based Tracking Station）
 
 ## 参考文献
 

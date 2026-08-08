@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/absolute-phase-bias/
 
 ## 相关概念
 
-- [逆行（Retrograde Motion）](/glossary/dynamics/retrograde-motion/)
-- [相对姿态四元数（Relative Attitude Quaternion）](/glossary/dynamics/relative-attitude-quaternion/)
-- [径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）](/glossary/dynamics/radial-tangential-normal-coordinate-system-rtn/)
-- [帕累托前沿（Pareto Front）](/glossary/dynamics/pareto-front/)
+- 逆行（Retrograde Motion）
+- 相对姿态四元数（Relative Attitude Quaternion）
+- 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
+- 帕累托前沿（Pareto Front）
 
 ## 参考文献
 

@@ -34,9 +34,9 @@ A constellation system of satellites in circumlunar orbit that provides real-tim
 ## Related Concepts
 
 - [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
-- [Low Lunar Orbit, LLO](/en/glossary/orbits/low-lunar-orbit-llo/)
-- [Complex Periodic Orbit](/en/glossary/orbits/complex-periodic-orbit/)
-- [Orbital Transfer Stage](/en/glossary/other/orbital-transfer-stage/)
+- Low Lunar Orbit, LLO
+- Complex Periodic Orbit
+- Orbital Transfer Stage
 
 ## References
 

@@ -38,10 +38,10 @@ Electrospray propulsion is a key technology for CubeSats and micro-nanosatellite
 
 ## Related Concepts
 
-- [Electric Propulsion](/en/glossary/programs/electric-propulsion/)
-- [Specific Impulse](/en/glossary/programs/specific-impulse/)
-- [Micropropulsion](/en/glossary/programs/micropropulsion/)
-- [CubeSat](/en/glossary/programs/cubesat/)
+- [Electric Propulsion](/en/glossary/fundamentals/ep/)
+- Specific Impulse
+- Micropropulsion
+- CubeSat
 
 ## References
 

@@ -38,9 +38,9 @@ Based on its definition, a transfer trajectory achieving rapid dro insertion usi
 
 ## Related Concepts
 
-- [周期轨道（Periodic Orbit）](/en/glossary/orbits/periodic-orbit/)
-- [平动点轨道（Libration Point Orbit）](/en/glossary/orbits/libration-point-orbit/)
-- [轨道转移（Orbit Transfer）](/en/glossary/orbits/orbit-transfer/)
+- 周期轨道（Periodic Orbit）
+- 平动点轨道（Libration Point Orbit）
+- 轨道转移（Orbit Transfer）
 
 ## References
 

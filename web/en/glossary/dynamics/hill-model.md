@@ -40,8 +40,8 @@ An approximate model of the restricted three-body problem, applicable when the s
 
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/formation-fixed-relative-to-inertial-frame/)
 - [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/dynamics/perturbational-lambert-problem/)
-- [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
-- [遗传算法（Genetic Algorithm）](/glossary/dynamics/genetic-algorithm/)
+- 探测器定位（Probe Targeting）
+- 遗传算法（Genetic Algorithm）
 
 ## References
 

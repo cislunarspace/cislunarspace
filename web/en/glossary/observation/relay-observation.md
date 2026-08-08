@@ -38,9 +38,9 @@ An observation scheme where multiple satellites alternate to maintain continuous
 
 ## Related Concepts
 
-- [Cross-Track Baseline](/en/glossary/observation/cross-track-baseline/)
-- [SDA Constellation](/en/glossary/observation/sda-constellation/)
-- [Limiting Magnitude](/en/glossary/observation/limiting-magnitude/)
+- Cross-Track Baseline
+- SDA Constellation
+- Limiting Magnitude
 
 ## References
 

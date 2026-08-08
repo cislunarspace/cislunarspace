@@ -40,10 +40,10 @@ permalink: /glossary/navigation/normal-matrix/
 
 ## 相关概念
 
-- [地月空间导航系统（Cislunar Space Navigation System）](/glossary/navigation/cislunar-space-navigation-system/)
+- 地月空间导航系统（Cislunar Space Navigation System）
 - [Lyapunov最优反馈制导（Lyapunov Optimal Feedback Guidance）](/glossary/navigation/lyapunov-optimal-feedback-guidance/)
-- [距离可观测性（Range Observability）](/glossary/navigation/range-observability/)
-- [六分仪（Sextant）](/glossary/navigation/sextant/)
+- 距离可观测性（Range Observability）
+- 六分仪（Sextant）
 
 ## 参考文献
 

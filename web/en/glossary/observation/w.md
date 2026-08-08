@@ -38,9 +38,9 @@ Determining the spatiotemporal distribution of the solar exclusion cone within a
 
 ## Related Concepts
 
-- [Solar Phase Angle](/en/glossary/observation/太阳相位角/)
-- [Solar Exclusion Cone](/en/glossary/observation/solar-exclusion-cone/)
-- [Observation Window](/en/glossary/observation/观测窗口/)
+- Solar Phase Angle
+- Solar Exclusion Cone
+- Observation Window
 
 ## References
 

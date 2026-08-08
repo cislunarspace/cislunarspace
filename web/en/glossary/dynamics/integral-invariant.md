@@ -38,10 +38,10 @@ This concept has practical applications in cislunar space science and engineerin
 
 ## Related Concepts
 
-- [Multiple Segment Trajectory Design](/en/glossary/dynamics/multiple-segment-trajectory-design/)
+- Multiple Segment Trajectory Design
 - [Zero-Velocity Surface](/en/glossary/dynamics/zero-velocity-surface/)
 - [Null Vector](/en/glossary/dynamics/null-vector/)
-- [Circular Restricted Three-Body Problem](/en/glossary/dynamics/circular-restricted-three-body-problem/)
+- [Circular Restricted Three-Body Problem](/en/glossary/dynamics/cr3bp/)
 
 ## References
 

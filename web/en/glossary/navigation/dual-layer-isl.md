@@ -40,8 +40,8 @@ Dual-Layer Inter-Satellite Link provides precise positioning capabilities for ci
 
 - [Autonomous Orbit Determination](/en/glossary/navigation/aod/)
 - [Lunar Global Positioning System, LGPS](/en/glossary/navigation/lgps/)
-- [Dilution of Precision, DOP](/en/glossary/navigation/dop/)
-- [Direction Cosine Matrix](/en/glossary/navigation/dcm/)
+- Dilution of Precision, DOP
+- Direction Cosine Matrix
 
 ## References
 

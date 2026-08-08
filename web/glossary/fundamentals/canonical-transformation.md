@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/canonical-transformation/
 
 ## 相关概念
 
-- [约束转化非线性规划（Constraint Conversion to Nonlinear Programming）](/glossary/fundamentals/constraint-conversion-to-nonlinear-programming/)
+- 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
-- [万有引力常数（Universal Gravitational Constant）](/glossary/fundamentals/universal-gravitational-constant/)
-- [再入航迹角（Reentry Flight Path Angle）](/glossary/fundamentals/reentry-flight-path-angle/)
+- 万有引力常数（Universal Gravitational Constant）
+- 再入航迹角（Reentry Flight Path Angle）
 
 ## 参考文献
 

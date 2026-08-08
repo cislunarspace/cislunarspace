@@ -38,9 +38,9 @@ NASA主导的月球轨道空间站，计划部署在近直线晕轨道上，作�
 
 ## 相关概念
 
-- [推进舱模块（Propulsion Module）](/glossary/programs/propulsion-module/)
-- [月球轨道平台-门户（Lunar Orbital Platform-Gateway, LOP-G）](/glossary/programs/lunar-orbital-platform-gateway-lop-g/)
-- [在轨服务（In-orbit Servicing）](/glossary/programs/in-orbit-servicing/)
+- 推进舱模块（Propulsion Module）
+- 月球轨道平台-门户（Lunar Orbital Platform-Gateway, LOP-G）
+- 在轨服务（In-orbit Servicing）
 
 ## 参考文献
 

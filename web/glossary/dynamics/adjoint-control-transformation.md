@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/adjoint-control-transformation/
 
 ## 相关概念
 
-- [贝叶斯压缩感知（Bayesian Compressive Sensing）](/glossary/dynamics/bayesian-compressive-sensing/)
-- [达尔文-拉道关系（Darwin-Radau Relation）](/glossary/dynamics/darwin-radau-relation/)
+- 贝叶斯压缩感知（Bayesian Compressive Sensing）
+- 达尔文-拉道关系（Darwin-Radau Relation）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/state-transition-matrix/)
+- 状态转移矩阵（State Transition Matrix）
 
 ## 参考文献
 

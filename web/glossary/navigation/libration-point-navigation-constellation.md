@@ -38,10 +38,10 @@ permalink: /glossary/navigation/libration-point-navigation-constellation/
 
 ## 相关概念
 
-- [链路自主行星际卫星轨道导航（Linked, Autonomous, Interplanetary Satellite Orbit Navigation, LiAISON）](/glossary/navigation/linked-autonomous-interplanetary-satellite-orbit-navigation-liaison/)
-- [自由空间损耗（Free Space Loss）](/glossary/navigation/free-space-loss/)
-- [绕飞段（Flyby Phase）](/glossary/navigation/flyby-phase/)
-- [求和线性组合（Sum Linear Combination）](/glossary/navigation/sum-linear-combination/)
+- 链路自主行星际卫星轨道导航（Linked, Autonomous, Interplanetary Satellite Orbit Navigation, LiAISON）
+- 自由空间损耗（Free Space Loss）
+- 绕飞段（Flyby Phase）
+- 求和线性组合（Sum Linear Combination）
 
 ## 参考文献
 

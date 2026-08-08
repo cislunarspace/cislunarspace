@@ -37,8 +37,8 @@ This concept plays an important role in trajectory optimization and mission plan
 
 ## Related Concepts
 
-- [Scheduled and Pinpoint Landing](/en/glossary/fundamentals/scheduled-and-pinpoint-landing/)
-- [Surface of Section, SOS](/en/glossary/fundamentals/surface-of-section-sos/)
+- Scheduled and Pinpoint Landing
+- [Surface of Section, SOS](/en/glossary/fundamentals/sos/)
 - [Truncation Strategy](/en/glossary/fundamentals/truncation-strategy/)
 
 ## References

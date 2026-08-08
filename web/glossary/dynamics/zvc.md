@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/zvc/
 
 ## 相关概念
 
-- [非线性规划（Nonlinear Programming）](/glossary/dynamics/nlp/)
+- 非线性规划（Nonlinear Programming）
 - [形状基方法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
-- [出发超速（Departure Excess Velocity）](/glossary/dynamics/c3/)
+- 出发超速（Departure Excess Velocity）
 
 ## 参考文献
 

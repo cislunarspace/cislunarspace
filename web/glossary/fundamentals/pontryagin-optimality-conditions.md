@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/pontryagin-optimality-conditions/
 ## 相关概念
 
 - [Lindstedt-Poincaré级数展开（Lindstedt-Poincaré Series Expansion）](/glossary/fundamentals/lindstedt-poincar-series-expansion/)
-- [顺行轨道（Prograde Orbit）](/glossary/fundamentals/prograde-orbit/)
+- 顺行轨道（Prograde Orbit）
 - [强Legendre条件（Strong Legendre Condition）](/glossary/fundamentals/strong-legendre-condition/)
-- [统一轨道根数（Unified Orbital Elements）](/glossary/fundamentals/unified-orbital-elements/)
+- 统一轨道根数（Unified Orbital Elements）
 
 ## 参考文献
 

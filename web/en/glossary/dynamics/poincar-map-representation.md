@@ -38,10 +38,10 @@ This concept is applied in cislunar space: 该轨道类型可作为地月空间�
 
 ## Related Concepts
 
-- [希尔球半径（Hill Sphere Radius）](/en/glossary/dynamics/hill-sphere-radius/)
+- 希尔球半径（Hill Sphere Radius）
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/en/glossary/dynamics/pseudospectral-convex-optimization/)
 - [最小范数靶点法（Minimum Norm Targeting）](/en/glossary/dynamics/minimum-norm-targeting/)
-- [混合差分动态规划（Hybrid Differential Dynamic Programming, HDDP）](/en/glossary/dynamics/hybrid-differential-dynamic-programming-hddp/)
+- [混合差分动态规划（Hybrid Differential Dynamic Programming, HDDP）](/en/glossary/dynamics/hddp/)
 
 ## References
 

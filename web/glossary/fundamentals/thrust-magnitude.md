@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/thrust-magnitude/
 
 ## 相关概念
 
-- [地图投影（Map Projection）](/glossary/fundamentals/map-projection/)
-- [L2范数函数（L2 Norm Function）](/glossary/fundamentals/l2-norm-function/)
-- [偏转角（Deflection Angle）](/glossary/dynamics/deflection-angle/)
-- [双程测距求和组合（Summation Combination of Dual One-Way Ranging）](/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
+- 地图投影（Map Projection）
+- L2范数函数（L2 Norm Function）
+- 偏转角（Deflection Angle）
+- 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 
 ## 参考文献
 

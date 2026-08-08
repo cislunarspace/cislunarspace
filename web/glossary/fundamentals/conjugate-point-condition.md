@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/conjugate-point-condition/
 ## 相关概念
 
 - [速度增量（Delta-v）](/glossary/fundamentals/delta-v/)
-- [Sigmoid函数（Sigmoid Function）](/glossary/fundamentals/sigmoid-function/)
-- [深度残差网络（Deep Residual Network, ResNet）](/glossary/fundamentals/deep-residual-network-resnet/)
-- [瞬时轨道根数（Instantaneous Classical Orbit Elements）](/glossary/fundamentals/instantaneous-classical-orbit-elements/)
+- Sigmoid函数（Sigmoid Function）
+- 深度残差网络（Deep Residual Network, ResNet）
+- 瞬时轨道根数（Instantaneous Classical Orbit Elements）
 
 ## 参考文献
 

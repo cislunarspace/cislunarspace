@@ -39,9 +39,9 @@ Lawden术语，指切换函数S(t)≡0的一段轨迹，此时推力加速度大
 ## 相关概念
 
 - [非劣排序遗传算法II（Non-Dominated Sorting Genetic Algorithm II）](/glossary/fundamentals/nsga-ii/)
-- [离子推进（Ion Propulsion）](/glossary/fundamentals/ip/)
+- 离子推进（Ion Propulsion）
 - [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/fundamentals/t-p-graph/)
-- [中途修正（Mid-course Correction）](/glossary/fundamentals/tcm/)
+- 中途修正（Mid-course Correction）
 
 ## 参考文献
 

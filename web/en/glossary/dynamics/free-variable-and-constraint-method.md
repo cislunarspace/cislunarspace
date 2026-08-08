@@ -39,8 +39,8 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 
 - [Differential Correction](/glossary/fundamentals/differential-correction/)
 - [Indirect Methods](/glossary/dynamics/indirect-methods/)
-- [Resonance Condition](/glossary/dynamics/resonance-condition/)
-- [Low Thrust Equilibrium Point](/glossary/dynamics/low-thrust-equilibrium-point/)
+- Resonance Condition
+- Low Thrust Equilibrium Point
 
 ## References
 

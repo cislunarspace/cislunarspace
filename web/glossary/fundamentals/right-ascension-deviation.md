@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/right-ascension-deviation/
 ## 相关概念
 
 - [微分修正法（Differential Correction Method）](/glossary/fundamentals/differential-correction-method/)
-- [拉瓦尔喷管（Laval Nozzle）](/glossary/fundamentals/laval-nozzle/)
+- 拉瓦尔喷管（Laval Nozzle）
 - [拉格朗日点（Lagrange Point）](/glossary/fundamentals/lagrange-point/)
-- [轨道根数（Orbital Elements）](/glossary/fundamentals/orbital-elements/)
+- 轨道根数（Orbital Elements）
 
 ## 参考文献
 

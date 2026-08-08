@@ -76,9 +76,9 @@ NSGA II is suitable for multi-objective optimization problems with both continuo
 
 ## Related Concepts
 
-- [Pareto Optimality](/en/glossary/dynamics/pareto-optimal/)
-- [Multi-Objective Monte Carlo Tree Search (MO-MCTS)](/en/glossary/dynamics/mo-mcts/)
-- [K-Medoids Clustering](/en/glossary/dynamics/k-medoids/)
+- Pareto Optimality
+- Multi-Objective Monte Carlo Tree Search (MO-MCTS)
+- K-Medoids Clustering
 
 ## References
 

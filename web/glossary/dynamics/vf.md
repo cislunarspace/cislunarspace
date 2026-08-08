@@ -38,8 +38,8 @@ permalink: /glossary/dynamics/vf/
 
 ## 相关概念
 
-- [fta](/glossary/dynamics/fta/)
-- [fbp](/glossary/dynamics/fbp/)
+- fta
+- fbp
 - [im](/glossary/dynamics/im/)
 - [de](/glossary/dynamics/de/)
 

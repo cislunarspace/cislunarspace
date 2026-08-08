@@ -38,9 +38,9 @@ Hill 区域构型是地月空间研究的基础理论和方法。在实际应用
 
 ## 相关概念
 
-- [牛顿万有引力定律（Newton's Law of Gravitation）](/glossary/fundamentals/newtons-law-of-gravitation/)
-- [三角级数（Trigonometric Series）](/glossary/fundamentals/trigonometric-series/)
-- [发射三要素（Three Launch Elements）](/glossary/fundamentals/three-launch-elements/)
+- 牛顿万有引力定律（Newton's Law of Gravitation）
+- 三角级数（Trigonometric Series）
+- 发射三要素（Three Launch Elements）
 - [伪势（Pseudo-Potential）](/glossary/fundamentals/pseudo-potential/)
 
 ## 参考文献

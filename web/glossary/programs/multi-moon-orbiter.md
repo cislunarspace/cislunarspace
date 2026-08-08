@@ -40,8 +40,8 @@ permalink: /glossary/programs/multi-moon-orbiter/
 
 - [低能转移（Low-Energy Transfer）](/glossary/orbits/low-energy-transfer/)
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
-- [共振通道（Resonance Channel）](/glossary/dynamics/resonance-channel/)
-- [多目标探测（Multi-Target Mission）](/glossary/programs/multi-target-mission/)
+- 共振通道（Resonance Channel）
+- 多目标探测（Multi-Target Mission）
 
 ## 参考文献
 

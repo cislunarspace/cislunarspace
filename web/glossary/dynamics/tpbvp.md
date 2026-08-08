@@ -91,8 +91,8 @@ TPBVP 求解面临的主要困难：
 ## 相关概念
 
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
-- [协态归一化（Co-state Normalization）](/glossary/dynamics/co-state-normalization/)
-- [庞特里亚金极值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagin-principle/)
+- [协态归一化（Co-state Normalization）](/glossary/dynamics/costate-normalization/)
+- 庞特里亚金极值原理（Pontryagin's Maximum Principle）
 - [哈密顿函数（Hamiltonian）](/glossary/dynamics/hamiltonian/)
 - [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)

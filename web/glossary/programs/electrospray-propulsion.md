@@ -38,10 +38,10 @@ permalink: /glossary/programs/electrospray-propulsion/
 
 ## 相关概念
 
-- [电推进（Electric Propulsion）](/glossary/programs/electric-propulsion/)
-- [比冲（Specific Impulse）](/glossary/programs/specific-impulse/)
-- [微推进（Micropropulsion）](/glossary/programs/micropropulsion/)
-- [CubeSat](/glossary/programs/cubesat/)
+- [电推进（Electric Propulsion）](/glossary/fundamentals/ep/)
+- 比冲（Specific Impulse）
+- 微推进（Micropropulsion）
+- CubeSat
 
 ## 参考文献
 

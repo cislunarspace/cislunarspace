@@ -38,10 +38,10 @@ Solar Sail Circular Restricted Three-Body Problem plays a critical role in traje
 
 ## Related Concepts
 
-- [RKF7(8) Integrator](/en/glossary/dynamics/rkf78/)
+- RKF7(8) Integrator
 - [Compound Particle Swarm Optimization](/en/glossary/dynamics/cpso/)
-- [Mean Motion Resonance, MMR](/en/glossary/dynamics/mmr/)
-- [Thrust Acceleration](/en/glossary/dynamics/a/)
+- Mean Motion Resonance, MMR
+- Thrust Acceleration
 
 ## References
 

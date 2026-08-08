@@ -33,8 +33,8 @@ The process of integrating forward along invariant manifold dynamics to obtain t
 
 ## Related Concepts
 
-- [Orbital Transfer Stage](/en/glossary/other/orbital-transfer-stage/)
-- [CLERM](/en/glossary/dynamics/clerm/)
+- Orbital Transfer Stage
+- [CLERM](/en/glossary/dynamics/circular-linearized-equations-of-relative-motion/)
 - [Low-Energy Earth-Moon Transfer](/en/glossary/orbits/low-energy-transfer/)
 
 ## References

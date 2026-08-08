@@ -39,9 +39,9 @@ The Lunar Gravitational Potential is expanded in Legendre polynomials into zonal
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
-- [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
+- Laval Nozzle
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
-- [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
+- Orbital Elements
 
 ## References
 

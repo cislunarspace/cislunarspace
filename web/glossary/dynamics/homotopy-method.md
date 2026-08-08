@@ -89,9 +89,9 @@ $$\varepsilon_d = 10^{-(d/15)}, \quad d = 1, 2, \cdots, N$$
 
 ## 相关概念
 
-- [强化学习增强粒子群（RLEPSO）](/glossary/dynamics/rlepeso/)
+- 强化学习增强粒子群（RLEPSO）
 - [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)
-- [协态归一化（Co-state Normalization）](/glossary/dynamics/co-state-normalization/)
+- [协态归一化（Co-state Normalization）](/glossary/dynamics/costate-normalization/)
 - [延拓法（Continuation）](/glossary/dynamics/continuation/)
 - [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
 

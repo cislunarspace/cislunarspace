@@ -38,10 +38,10 @@ A navigation method that achieves absolute positioning through inter-satellite l
 
 ## Related Concepts
 
-- [Single-Difference Observation](/en/glossary/navigation/singledifference-observation/)
-- [Chip Scale Atomic Clock](/en/glossary/navigation/chip-scale-atomic-clock/)
-- [Particle Filter](/en/glossary/navigation/particle-filter/)
-- [Orbit Determination Error](/en/glossary/navigation/orbit-determination-error/)
+- Single-Difference Observation
+- Chip Scale Atomic Clock
+- Particle Filter
+- Orbit Determination Error
 
 ## References
 

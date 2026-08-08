@@ -39,9 +39,9 @@ Lagrange Points are equilibrium points maintaining fixed relative positions to t
 ## Related Concepts
 
 - [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
-- [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
-- [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
-- [JPL DE430 Ephemeris](/en/glossary/fundamentals/jpl-de430-ephemeris/)
+- Laval Nozzle
+- Orbital Elements
+- JPL DE430 Ephemeris
 
 ## References
 

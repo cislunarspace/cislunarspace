@@ -38,10 +38,10 @@ A differential correction strategy that seeks the solution minimizing the norm o
 
 ## Related Concepts
 
-- [Hill Sphere Radius](/en/glossary/dynamics/hill-sphere-radius/)
+- Hill Sphere Radius
 - [Pseudospectral Convex Optimization](/en/glossary/dynamics/pseudospectral-convex-optimization/)
 - [Poincaré Map Representation](/en/glossary/dynamics/poincar-map-representation/)
-- [Hybrid Differential Dynamic Programming, HDDP](/en/glossary/dynamics/hybrid-differential-dynamic-programming-hddp/)
+- [Hybrid Differential Dynamic Programming, HDDP](/en/glossary/dynamics/hddp/)
 
 ## References
 

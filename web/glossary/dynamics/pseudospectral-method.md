@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/pseudospectral-method/
 
 ## 相关概念
 
-- [轨道改进（Orbit Improvement）](/glossary/dynamics/orbit-improvement/)
-- [聚类聚合（Cluster Aggregation）](/glossary/dynamics/cluster-aggregation/)
-- [重力梯度转矩（Gravity Gradient Torque）](/glossary/dynamics/gravity-gradient-torque/)
+- 轨道改进（Orbit Improvement）
+- 聚类聚合（Cluster Aggregation）
+- 重力梯度转矩（Gravity Gradient Torque）
 
 ## 参考文献
 

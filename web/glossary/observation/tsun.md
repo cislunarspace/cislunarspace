@@ -38,10 +38,10 @@ permalink: /glossary/observation/tsun/
 
 ## 相关概念
 
-- [覆盖时间百分比（Coverage Time Percentage, CTP）](/glossary/observation/ctp/)
-- [载荷视场角（Payload Field of View, PFOV）](/glossary/observation/pfov/)
+- 覆盖时间百分比（Coverage Time Percentage, CTP）
+- 载荷视场角（Payload Field of View, PFOV）
 - [GRGM1200A 月球重力场模型（GRGM1200A Lunar Gravity Field Model）](/glossary/observation/grgm1200a/)
-- [表面覆盖百分比（Surface Coverage Percentage, SCP）](/glossary/observation/scp/)
+- 表面覆盖百分比（Surface Coverage Percentage, SCP）
 
 ## 参考文献
 

@@ -39,8 +39,8 @@ Three-impulse insertion from LEO to DRO comprises departure, perilune redirectio
 ## Related Concepts
 
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
-- [Thruster Modulator](/en/glossary/dynamics/thruster-modulator/)
-- [Particle Swarm Optimizer](/en/glossary/dynamics/particle-swarm-optimizer/)
+- Thruster Modulator
+- Particle Swarm Optimizer
 - [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
 
 ## References

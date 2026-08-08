@@ -38,9 +38,9 @@ Constructed from the state transition matrix to describe local dynamical stretch
 
 ## Related Concepts
 
-- [Gauss Pseudospectral Method, GPM](/en/glossary/dynamics/GPM/)
-- [Cauchy-Green Tensor, CGT](/en/glossary/dynamics/CGT/)
-- [Differential Algebra Method](/en/glossary/dynamics/DA方法/)
+- [Gauss Pseudospectral Method, GPM](/en/glossary/dynamics/gpm/)
+- Cauchy-Green Tensor, CGT
+- Differential Algebra Method
 
 ## References
 

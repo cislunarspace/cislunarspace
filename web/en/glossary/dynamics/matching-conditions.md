@@ -38,10 +38,10 @@ In orbit design and optimization, this concept is used to analyze spacecraft mot
 
 ## Related Concepts
 
-- [Lunar Fly-by Method](/en/glossary/dynamics/lunar-fly-by-method/)
-- [Reachability Set](/en/glossary/dynamics/reachability-set/)
-- [Maximum-Energy Escape Trajectory](/en/glossary/dynamics/maximum-energy-escape-trajectory/)
-- [Laplace Method](/en/glossary/dynamics/laplace-method/)
+- Lunar Fly-by Method
+- Reachability Set
+- Maximum-Energy Escape Trajectory
+- Laplace Method
 
 ## References
 

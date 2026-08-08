@@ -90,12 +90,12 @@ This method bypasses the difficulties of direct numerical integration in chaotic
 ## Related Concepts
 
 - [Central Manifold](/en/glossary/dynamics/central-manifold/)
-- [Action-Angle Variables](/en/glossary/dynamics/action-angle/)
-- [Orbit Identification](/en/glossary/orbits/orbit-identification/)
+- [Action-Angle Variables](/en/glossary/dynamics/action-angle-variables/)
+- Orbit Identification
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Invariant Torus
 - Bifurcation
-- [Quasi-periodic Orbit](/en/glossary/orbits/quasi-periodic-orbit/)
+- Quasi-periodic Orbit
 
 ## References
 

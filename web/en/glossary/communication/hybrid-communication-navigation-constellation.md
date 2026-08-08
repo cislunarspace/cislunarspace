@@ -38,7 +38,7 @@ This concept is significant for space-based optical observation and space situat
 
 ## Related Concepts
 
-- [China Deep Space Network](/en/glossary/communication/china-deep-space-network/)
+- China Deep Space Network
 
 ## References
 

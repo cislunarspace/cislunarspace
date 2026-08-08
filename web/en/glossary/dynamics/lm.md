@@ -39,9 +39,9 @@ In the field of dynamics, Lagrangian Relaxation Method is a key element for unde
 ## Related Concepts
 
 - [de](/en/glossary/dynamics/de/)
-- [ga](/en/glossary/dynamics/ga/)
-- [moop](/en/glossary/dynamics/moop/)
-- [aa](/en/glossary/dynamics/aa/)
+- ga
+- moop
+- aa
 
 ## References
 

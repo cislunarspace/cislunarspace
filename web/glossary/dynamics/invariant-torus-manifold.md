@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/invariant-torus-manifold/
 
 ## 相关概念
 
-- [相对运动周期性条件（Periodicity Conditions in Relative Orbital Motion）](/glossary/dynamics/periodicity-conditions-in-relative-orbital-motion/)
-- [螺旋式编队（Helix Formation）](/glossary/dynamics/helix-formation/)
-- [能量耗散法（Energy Dissipation Method）](/glossary/dynamics/energy-dissipation-method/)
-- [不稳定流形（Unstable Manifold）](/glossary/dynamics/unstable-manifold/)
+- 相对运动周期性条件（Periodicity Conditions in Relative Orbital Motion）
+- 螺旋式编队（Helix Formation）
+- 能量耗散法（Energy Dissipation Method）
+- [不稳定流形（Unstable Manifold）](/glossary/dynamics/wu/)
 
 ## 参考文献
 

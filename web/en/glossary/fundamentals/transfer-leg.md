@@ -38,8 +38,8 @@ In low-thrust transfer missions to the Moon or beyond, flight times can extend t
 
 ## Related Concepts
 
-- [Two-Point Boundary Value Problem](/en/glossary/fundamentals/two-point-boundary-value-problem/)
-- [Thrust Arc](/en/glossary/fundamentals/thrust-arc/)
+- [Two-Point Boundary Value Problem](/en/glossary/dynamics/tpbvp/)
+- Thrust Arc
 - [Coast Arc](/en/glossary/fundamentals/coast-arc/)
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 

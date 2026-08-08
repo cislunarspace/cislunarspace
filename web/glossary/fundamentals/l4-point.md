@@ -40,9 +40,9 @@ permalink: /glossary/fundamentals/l4-point/
 
 ## 相关概念
 
-- [虚拟共面起飞（Virtual Coplanar Takeoff）](/glossary/fundamentals/virtual-coplanar-takeoff/)
+- 虚拟共面起飞（Virtual Coplanar Takeoff）
 - [月球重力场不规则性（Lunar Gravity Field Irregularity）](/glossary/fundamentals/lunar-gravity-field-irregularity/)
-- [LP100K模型（LP100K Model）](/glossary/fundamentals/lp100k-model/)
+- [LP100K模型（LP100K Model）](/glossary/fundamentals/lp100k/)
 
 ## 参考文献
 

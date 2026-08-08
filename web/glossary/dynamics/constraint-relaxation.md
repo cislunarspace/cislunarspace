@@ -40,9 +40,9 @@ permalink: /glossary/dynamics/constraint-relaxation/
 
 ## 相关概念
 
-- [双变量高斯分布（Bivariate Gaussian Distribution）](/glossary/dynamics/bivariate-gaussian-distribution/)
-- [中途脉冲（Midcourse Impulse）](/glossary/dynamics/midcourse-impulse/)
-- [零推力参考轨迹（Zero-Thrust Reference Trajectory）](/glossary/dynamics/zero-thrust-reference-trajectory/)
+- 双变量高斯分布（Bivariate Gaussian Distribution）
+- 中途脉冲（Midcourse Impulse）
+- 零推力参考轨迹（Zero-Thrust Reference Trajectory）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
 
 ## 参考文献

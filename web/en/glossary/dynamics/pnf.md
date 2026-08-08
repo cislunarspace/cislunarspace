@@ -39,7 +39,7 @@ The Partial Normal Form method is essential when analyzing the dynamics near lib
 ## Related Concepts
 
 - [Central Manifold Reduction](/en/glossary/dynamics/)
-- [Libration Point](/en/glossary/dynamics/l/)
+- [Libration Point](/en/glossary/dynamics/libration-point/)
 - [Resonance](/en/glossary/dynamics/)
 
 ## References

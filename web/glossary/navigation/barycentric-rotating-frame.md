@@ -38,10 +38,10 @@ permalink: /glossary/navigation/barycentric-rotating-frame/
 
 ## 相关概念
 
-- [远距离交会段（Far-Range Guidance Section）](/glossary/navigation/far-range-guidance-section/)
-- [力模型简化（Force Model Simplification）](/glossary/navigation/force-model-simplification/)
-- [自主检查与服务（Autonomous Inspection and Servicing, AIS）](/glossary/navigation/autonomous-inspection-and-servicing-ais/)
-- [星上轨道预报（Onboard Orbit Prediction）](/glossary/navigation/onboard-orbit-prediction/)
+- 远距离交会段（Far-Range Guidance Section）
+- 力模型简化（Force Model Simplification）
+- 自主检查与服务（Autonomous Inspection and Servicing, AIS）
+- 星上轨道预报（Onboard Orbit Prediction）
 
 ## 参考文献
 

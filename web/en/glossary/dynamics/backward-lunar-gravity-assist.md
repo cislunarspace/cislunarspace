@@ -38,10 +38,10 @@ An assist mechanism during flight in the first and third quadrants where solar g
 
 ## Related Concepts
 
-- [Maximum-Energy Escape Trajectory](/en/glossary/dynamics/maximum-energy-escape-trajectory/)
-- [Powered Escape Spiral](/en/glossary/dynamics/powered-escape-spiral/)
-- [Lunar Fly-by Method](/en/glossary/dynamics/lunar-fly-by-method/)
-- [Reachability Set](/en/glossary/dynamics/reachability-set/)
+- Maximum-Energy Escape Trajectory
+- Powered Escape Spiral
+- Lunar Fly-by Method
+- Reachability Set
 
 ## References
 

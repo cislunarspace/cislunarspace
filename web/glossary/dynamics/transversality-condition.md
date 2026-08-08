@@ -39,9 +39,9 @@ permalink: /glossary/dynamics/transversality-condition/
 
 ## 相关概念
 
-- [动力显式制导（Powered Explicit Guidance, PEG）](/glossary/navigation/powered-explicit-guidance-peg/)
-- [非线性姿态控制（Nonlinear Attitude Control）](/glossary/dynamics/nonlinear-attitude-control/)
-- [末制导（Terminal Guidance）](/glossary/navigation/terminal-guidance/)
+- 动力显式制导（Powered Explicit Guidance, PEG）
+- 非线性姿态控制（Nonlinear Attitude Control）
+- 末制导（Terminal Guidance）
 
 ## 参考文献
 

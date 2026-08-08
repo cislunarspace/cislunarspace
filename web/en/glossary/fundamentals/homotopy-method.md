@@ -38,10 +38,10 @@ This concept is essential for understanding motion characteristics in spacecraft
 
 ## Related Concepts
 
-- [Suborbital](/en/glossary/fundamentals/suborbital/)
+- Suborbital
 - [Optimal Relative Motion Control](/en/glossary/fundamentals/optimal-relative-motion-control/)
-- [Rocket Staging](/en/glossary/fundamentals/rocket-staging/)
-- [Cross-Product Matrix / Skew-Symmetric Matrix](/en/glossary/fundamentals/cross-product-matrix-skew-symmetric-matrix/)
+- Rocket Staging
+- Cross-Product Matrix / Skew-Symmetric Matrix
 
 ## References
 

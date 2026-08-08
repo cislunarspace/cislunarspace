@@ -38,9 +38,9 @@ This term has application value in the design and analysis of cislunar space mis
 
 ## Related Concepts
 
-- [Elliptic Restricted Three-Body Problem](/en/glossary/dynamics/elliptic-restricted-three-body-problem/)
-- [Dynamical Consistency](/en/glossary/dynamics/dynamical-consistency/)
-- [Combined Covariance](/en/glossary/dynamics/combined-covariance/)
+- [Elliptic Restricted Three-Body Problem](/en/glossary/dynamics/er3bp/)
+- Dynamical Consistency
+- Combined Covariance
 - [Nekhorosev Estimates](/en/glossary/dynamics/nekhorosev-estimates/)
 
 ## References

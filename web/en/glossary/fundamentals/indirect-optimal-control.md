@@ -40,8 +40,8 @@ An approach to optimal control that solves a two-point boundary value problem of
 
 - [同步旋转坐标系（Synodic Rotating Frame）](/glossary/fundamentals/synodic-rotating-frame/)
 - [网格搜索（Grid Search）](/glossary/fundamentals/grid-search/)
-- [Gauss求积公式（Gauss Quadrature Formula）](/glossary/fundamentals/gauss-quadrature-formula/)
-- [星座构型向量（Constellation Pattern Vector）](/glossary/fundamentals/constellation-pattern-vector/)
+- Gauss求积公式（Gauss Quadrature Formula）
+- 星座构型向量（Constellation Pattern Vector）
 
 ## References
 

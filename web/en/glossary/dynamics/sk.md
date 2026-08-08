@@ -38,9 +38,9 @@ This term has significant practical applications in cislunar mission planning an
 
 ## Related Concepts
 
-- [Hidden-Genes Genetic Algorithm, HGGA](/en/glossary/dynamics/hgga/)
-- [Variable-Size Design Space, VSDS](/en/glossary/dynamics/vsds/)
-- [Target Point Method](/en/glossary/dynamics/tp/)
+- Hidden-Genes Genetic Algorithm, HGGA
+- Variable-Size Design Space, VSDS
+- Target Point Method
 - [Discrete Linear Quadratic Regulator](/en/glossary/dynamics/dlqr/)
 
 ## References

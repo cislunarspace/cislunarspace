@@ -53,8 +53,8 @@ The core idea of the Floquet mode method is: by applying control maneuvers, elim
 ## Related Concepts
 
 - [Monodromy Matrix](/en/glossary/dynamics/monodromy-matrix/)
-- [Orbit Keeping](/en/glossary/orbits/orbit-keeping/)
-- [Stability Index](/en/glossary/dynamics/stability-index/)
+- Orbit Keeping
+- Stability Index
 - [Libration Point](/en/glossary/dynamics/libration-point/)
 
 ## References

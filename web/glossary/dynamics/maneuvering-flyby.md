@@ -39,8 +39,8 @@ DRO轨道的线性稳定性使其成为月球任务目标轨道的首选方案�
 ## 相关概念
 
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
-- [空间流形动力学（Space Manifold Dynamics, SMD）](/glossary/dynamics/space-manifold-dynamics-smd/)
-- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/radial-transverse-normal-frame-rsw-frame/)
+- 空间流形动力学（Space Manifold Dynamics, SMD）
+- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/rsw/)
 
 ## 参考文献
 

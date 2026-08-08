@@ -38,10 +38,10 @@ permalink: /glossary/navigation/iterative-guidance/
 
 ## 相关概念
 
-- [定点着陆（Pinpoint Landing）](/glossary/navigation/pinpoint-landing/)
-- [GNSS超快星历（GNSS Ultra-rapid ephemerides）](/glossary/navigation/gnss-ultra-rapid-ephemerides/)
-- [自由空间传播损耗（Free Space Propagation Loss）](/glossary/navigation/free-space-propagation-loss/)
-- [月球导航卫星系统B（LNSS-B）](/glossary/navigation/lnss-b/)
+- 定点着陆（Pinpoint Landing）
+- GNSS超快星历（GNSS Ultra-rapid ephemerides）
+- 自由空间传播损耗（Free Space Propagation Loss）
+- 月球导航卫星系统B（LNSS-B）
 
 ## 参考文献
 

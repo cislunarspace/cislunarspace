@@ -38,9 +38,9 @@ Halo轨道上航天器从转移轨道进入周期轨道的位置。入轨点的�
 
 ## 相关概念
 
-- [地月转移窗口（Earth-Moon Transfer Window）](/glossary/orbits/earth-moon-transfer-window/)
-- [近月轨道（Lunar Orbit）](/glossary/orbits/lmo/)
-- [椭圆月球冻结轨道（Elliptical Lunar Frozen Orbit）](/glossary/orbits/elfo/)
+- 地月转移窗口（Earth-Moon Transfer Window）
+- 近月轨道（Lunar Orbit）
+- 椭圆月球冻结轨道（Elliptical Lunar Frozen Orbit）
 
 ## 参考文献
 

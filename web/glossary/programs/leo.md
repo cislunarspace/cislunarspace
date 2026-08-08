@@ -39,7 +39,7 @@ permalink: /glossary/programs/leo/
 ## 相关概念
 
 - [远距离逆行轨道服务站（Distant Retrograde Orbit Service Station）](/glossary/programs/dro/)
-- [小行星重定向任务（Asteroid Redirect Mission, ARM）](/glossary/programs/arm/)
+- 小行星重定向任务（Asteroid Redirect Mission, ARM）
 
 ## 参考文献
 

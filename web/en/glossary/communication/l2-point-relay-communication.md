@@ -37,9 +37,9 @@ In lunar far-side landing missions, L2 Halo orbit relay satellites maintain cont
 
 ## Related Concepts
 
-- [月球中继卫星系统（Lunar Relay Satellite System, LRSS）](/en/glossary/communication/lunar-relay-satellite-system-lrss/)
-- [天基测控站（Space-based Tracking Station）](/en/glossary/navigation/space-based-tracking-station/)
-- [双向相干多普勒（Two-Way Coherent Doppler）](/en/glossary/observation/two-way-coherent-doppler/)
+- 月球中继卫星系统（Lunar Relay Satellite System, LRSS）
+- 天基测控站（Space-based Tracking Station）
+- 双向相干多普勒（Two-Way Coherent Doppler）
 
 ## References
 

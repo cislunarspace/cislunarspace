@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/sampling-based-reachable-set-approximation-algorit
 
 ## 相关概念
 
-- [平动点（Libration Point / Lagrange Point）](/glossary/dynamics/libration-point-lagrange-point/)
+- [平动点（Libration Point / Lagrange Point）](/glossary/dynamics/libration-point/)
 
 ## 参考文献
 

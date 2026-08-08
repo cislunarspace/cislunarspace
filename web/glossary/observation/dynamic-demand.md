@@ -38,10 +38,10 @@ permalink: /glossary/observation/dynamic-demand/
 
 ## 相关概念
 
-- [区域凝视模式（Area Staring Mode）](/glossary/observation/area-staring-mode/)
-- [载荷视场角（Payload Field of View, PFOV）](/glossary/observation/payload-field-of-view-pfov/)
-- [地标整合（Landmark Integration）](/glossary/observation/landmark-integration/)
-- [合作代理（Cooperative Agent, CA）](/glossary/observation/cooperative-agent-ca/)
+- 区域凝视模式（Area Staring Mode）
+- 载荷视场角（Payload Field of View, PFOV）
+- 地标整合（Landmark Integration）
+- [合作代理（Cooperative Agent, CA）](/glossary/observation/ca/)
 
 ## 参考文献
 

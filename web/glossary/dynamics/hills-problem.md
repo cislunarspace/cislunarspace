@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/hills-problem/
 
 ## 相关概念
 
-- [月球飞越法（Lunar Fly-by Method）](/glossary/dynamics/lunar-fly-by-method/)
+- 月球飞越法（Lunar Fly-by Method）
 - [后向月球借力（Backward Lunar Gravity Assist）](/glossary/dynamics/backward-lunar-gravity-assist/)
-- [近距月球飞越（Close Lunar Flyby）](/glossary/dynamics/close-lunar-flyby/)
-- [可达集（Reachability Set）](/glossary/dynamics/reachability-set/)
+- 近距月球飞越（Close Lunar Flyby）
+- 可达集（Reachability Set）
 
 ## 参考文献
 

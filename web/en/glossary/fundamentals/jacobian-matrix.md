@@ -38,9 +38,9 @@ A matrix composed of partial derivatives of multivariable functions, describing 
 
 ## Related Concepts
 
-- [牛顿万有引力定律（Newton's Law of Gravitation）](/en/glossary/fundamentals/newtons-law-of-gravitation/)
-- [三角级数（Trigonometric Series）](/en/glossary/fundamentals/trigonometric-series/)
-- [发射三要素（Three Launch Elements）](/en/glossary/fundamentals/three-launch-elements/)
+- 牛顿万有引力定律（Newton's Law of Gravitation）
+- 三角级数（Trigonometric Series）
+- 发射三要素（Three Launch Elements）
 - [伪势（Pseudo-Potential）](/en/glossary/fundamentals/pseudo-potential/)
 
 ## References

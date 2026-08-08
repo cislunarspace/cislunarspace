@@ -39,8 +39,8 @@ Hénon在限制性三体问题中通过数值探索发现的周期轨道族之�
 ## 相关概念
 
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
-- [空间流形动力学（Space Manifold Dynamics, SMD）](/glossary/dynamics/space-manifold-dynamics-smd/)
-- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/radial-transverse-normal-frame-rsw-frame/)
+- 空间流形动力学（Space Manifold Dynamics, SMD）
+- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/rsw/)
 
 ## 参考文献
 

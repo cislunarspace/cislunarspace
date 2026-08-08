@@ -38,10 +38,10 @@ permalink: /glossary/observation/dynamics-based-statistical-orbit-determination/
 
 ## 相关概念
 
-- [天基光学观测（Space-Based Optical Observation）](/glossary/observation/space-based-optical-observation/)
-- [地月空间域感知（Cislunar Domain Awareness）](/glossary/observation/cislunar-domain-awareness/)
-- [星下点（Subsatellite Point）](/glossary/observation/subsatellite-point/)
-- [轨道预报精度（Orbit Prediction Accuracy）](/glossary/observation/orbit-prediction-accuracy/)
+- 天基光学观测（Space-Based Optical Observation）
+- [地月空间域感知（Cislunar Domain Awareness）](/glossary/observation/cda/)
+- 星下点（Subsatellite Point）
+- 轨道预报精度（Orbit Prediction Accuracy）
 
 ## 参考文献
 

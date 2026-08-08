@@ -38,9 +38,9 @@ permalink: /glossary/orbits/baseline-trajectory/
 
 ## 相关概念
 
-- [周期轨道（Periodic Orbit）](/glossary/orbits/periodic-orbit/)
-- [平动点轨道（Libration Point Orbit）](/glossary/orbits/libration-point-orbit/)
-- [轨道转移（Orbit Transfer）](/glossary/orbits/orbit-transfer/)
+- 周期轨道（Periodic Orbit）
+- 平动点轨道（Libration Point Orbit）
+- 轨道转移（Orbit Transfer）
 
 ## 参考文献
 

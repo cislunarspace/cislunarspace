@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/synodical-reference-system/
 ## 相关概念
 
 - [月心惯性坐标系（Moon-Centered Inertial Frame）](/glossary/fundamentals/moon-centered-inertial-frame/)
-- [NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）](/glossary/fundamentals/nrlmsise-00-atmospheric-model/)
-- [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/linear-time-periodic-system/)
-- [入射角（Impact Angle）](/glossary/fundamentals/impact-angle/)
+- NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）
+- [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/ltp/)
+- 入射角（Impact Angle）
 
 ## 参考文献
 

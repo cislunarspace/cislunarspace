@@ -73,11 +73,11 @@ $$U = -\frac{V}{m_1}$$
 
 ## 相关概念
 
-- [地球椭球体（Earth Ellipsoid）](/glossary/fundamentals/earth-ellipsoid/)
-- [重力与引力（Gravity vs Gravitation）](/glossary/fundamentals/gravity-vs-gravitation/)
-- [地心惯性坐标系（ECI）](/glossary/fundamentals/geocentric-inertial-frame/)
-- [主动段（Powered Phase）](/glossary/fundamentals/powered-phase/)
-- [在轨段（Orbital Phase）](/glossary/fundamentals/orbital-phase/)
+- 地球椭球体（Earth Ellipsoid）
+- 重力与引力（Gravity vs Gravitation）
+- [地心惯性坐标系（ECI）](/glossary/dynamics/eci/)
+- 主动段（Powered Phase）
+- 在轨段（Orbital Phase）
 
 ## 参考文献
 

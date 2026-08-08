@@ -38,8 +38,8 @@ permalink: /glossary/orbits/phasing-loop-transfer/
 
 ## 相关概念
 
-- [平面远距逆行轨道（Planar Distant Retrograde Orbit）](/glossary/orbits/planar-distant-retrograde-orbit/)
-- [近月点（Periselene）](/glossary/orbits/periselene/)
+- 平面远距逆行轨道（Planar Distant Retrograde Orbit）
+- 近月点（Periselene）
 - [轴向共振轨道（Axial Resonant Orbit）](/glossary/orbits/axial-orbit/)
 
 ## 参考文献

@@ -38,9 +38,9 @@ This term has important reference value in cislunar space research and engineeri
 
 ## Related Concepts
 
-- [Free-space Propagation Loss](/en/glossary/communication/free-space-propagation-loss/)
-- [Scheduling Strategy](/en/glossary/communication/scheduling-strategy/)
-- [Earth-Halo-Moon Relay Path, EHM Path](/en/glossary/communication/earth-halo-moon-relay-path-ehm-path/)
+- Free-space Propagation Loss
+- Scheduling Strategy
+- [Earth-Halo-Moon Relay Path, EHM Path](/en/glossary/communication/ehm/)
 
 ## References
 

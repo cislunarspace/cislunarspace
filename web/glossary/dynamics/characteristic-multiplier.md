@@ -39,9 +39,9 @@ Poincaré 映射的特征值，表征周期轨道对微小扰动的响应特性�
 ## 相关概念
 
 - [对偶控制变换（Adjoint-Control Transformation）](/glossary/dynamics/adjoint-control-transformation/)
-- [贝叶斯压缩感知（Bayesian Compressive Sensing）](/glossary/dynamics/bayesian-compressive-sensing/)
+- 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/state-transition-matrix/)
+- 状态转移矩阵（State Transition Matrix）
 
 ## 参考文献
 

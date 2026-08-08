@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/center-saddle/
 ## 相关概念
 
 - [流形传播（Manifold Propagation）](/glossary/dynamics/manifold-propagation/)
-- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/halo-orbit-insertion-hoi/)
+- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
 
 ## 参考文献
 

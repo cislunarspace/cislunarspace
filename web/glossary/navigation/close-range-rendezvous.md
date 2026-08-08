@@ -42,7 +42,7 @@ permalink: /glossary/navigation/close-range-rendezvous/
 ## 相关概念
 
 - [轨道振幅（Orbital Amplitude）](/glossary/navigation/orbital-amplitude/)
-- [星地联合定轨（Ground-Space Joint Orbit Determination）](/glossary/navigation/ground-space-joint-orbit-determination/)
+- 星地联合定轨（Ground-Space Joint Orbit Determination）
 - [地月空间卫星导航系统（Cislunar Space Satellite Navigation System）](/glossary/navigation/cislunar-space-satellite-navigation-system/)
 
 ## 参考文献

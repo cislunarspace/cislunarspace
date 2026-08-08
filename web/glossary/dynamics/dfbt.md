@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/dfbt/
 
 ## 相关概念
 
-- [间接飞越转移（Indirect Fly-By Transfer, IFBT）](/glossary/dynamics/ifbt/)
+- 间接飞越转移（Indirect Fly-By Transfer, IFBT）
 
 ## 参考文献
 

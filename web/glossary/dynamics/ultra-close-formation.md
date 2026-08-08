@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/ultra-close-formation/
 
 ## 相关概念
 
-- [Weak Stability Boundary](/glossary/dynamics/weak-stability-boundary/)
+- [Weak Stability Boundary](/glossary/dynamics/wsb/)
 - [Earth-Moon Manifold](/glossary/dynamics/earth-moon-manifold/)
 
 ## 参考文献

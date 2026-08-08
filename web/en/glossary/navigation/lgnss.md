@@ -38,9 +38,9 @@ The lunar global navigation satellite system can provide positioning services fo
 
 ## Related Concepts
 
-- [Geometric Dilution of Precision](/en/glossary/navigation/gdop/)
-- [Very Long Baseline Interferometry](/en/glossary/navigation/vlbi/)
-- [Deep Space Network](/en/glossary/navigation/dsn/)
+- Geometric Dilution of Precision
+- Very Long Baseline Interferometry
+- Deep Space Network
 
 ## References
 

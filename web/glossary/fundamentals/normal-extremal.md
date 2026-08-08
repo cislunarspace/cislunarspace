@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/normal-extremal/
 
 ## 相关概念
 
-- [转移时间（Time of Flight）](/glossary/fundamentals/time-of-flight/)
-- [混合推进地月转移（Hybrid Propulsion Earth-Moon Transfer）](/glossary/fundamentals/hybrid-propulsion-earth-moon-transfer/)
-- [参考椭球（Reference Ellipsoid）](/glossary/fundamentals/reference-ellipsoid/)
+- [转移时间（Time of Flight）](/glossary/dynamics/transfer-time/)
+- 混合推进地月转移（Hybrid Propulsion Earth-Moon Transfer）
+- 参考椭球（Reference Ellipsoid）
 - [低推力推进（Low-Thrust Propulsion）](/glossary/fundamentals/low-thrust-propulsion/)
 
 ## 参考文献

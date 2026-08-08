@@ -34,8 +34,8 @@ In the CR3BP, the constant-energy surface where spacecraft velocity is zero, con
 
 ## Related Concepts
 
-- [Sampling Zero-Dynamics](/en/glossary/dynamics/sampling-zero-dynamics/)
-- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
+- Sampling Zero-Dynamics
+- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
 

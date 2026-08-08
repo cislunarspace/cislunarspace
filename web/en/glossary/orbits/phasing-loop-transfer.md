@@ -38,8 +38,8 @@ This concept provides fundamental support in cislunar space research and mission
 
 ## Related Concepts
 
-- [Planar Distant Retrograde Orbit](/en/glossary/orbits/planar-distant-retrograde-orbit/)
-- [Periselene](/en/glossary/orbits/periselene/)
+- Planar Distant Retrograde Orbit
+- Periselene
 - [Axial Resonant Orbit](/en/glossary/orbits/axial-orbit/)
 
 ## References

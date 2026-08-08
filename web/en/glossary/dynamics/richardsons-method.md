@@ -38,10 +38,10 @@ This term has important application value in cislunar space missions. In orbit d
 
 ## Related Concepts
 
-- [Periodicity Conditions in Relative Orbital Motion](/en/glossary/dynamics/periodicity-conditions-in-relative-orbital-motion/)
-- [Helix Formation](/en/glossary/dynamics/helix-formation/)
-- [Energy Dissipation Method](/en/glossary/dynamics/energy-dissipation-method/)
-- [Unstable Manifold](/en/glossary/dynamics/unstable-manifold/)
+- Periodicity Conditions in Relative Orbital Motion
+- Helix Formation
+- Energy Dissipation Method
+- [Unstable Manifold](/en/glossary/dynamics/wu/)
 
 ## References
 

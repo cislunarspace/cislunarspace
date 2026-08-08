@@ -38,7 +38,7 @@ In deep space communication systems, this technology is used to achieve informat
 
 ## Related Concepts
 
-- [Queqiao-1 Relay Satellite](/en/glossary/programs/queqiao-1-relay-satellite/)
+- Queqiao-1 Relay Satellite
 
 ## References
 

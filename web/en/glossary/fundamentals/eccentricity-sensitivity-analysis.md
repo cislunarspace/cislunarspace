@@ -38,10 +38,10 @@ This concept has practical applications in cislunar space science and engineerin
 
 ## Related Concepts
 
-- [Stretching Direction of Error Hyper-Ellipsoid](/en/glossary/fundamentals/stretching-direction-of-error-hyper-ellipsoid/)
-- [Bayesian Update](/en/glossary/fundamentals/bayesian-update/)
-- [Real-Valued Stability Index](/en/glossary/fundamentals/real-valued-stability-index/)
-- [Flight-Path Angle](/en/glossary/fundamentals/flight-path-angle/)
+- Stretching Direction of Error Hyper-Ellipsoid
+- Bayesian Update
+- Real-Valued Stability Index
+- [Flight-Path Angle](/en/glossary/dynamics/flight-path-angle/)
 
 ## References
 

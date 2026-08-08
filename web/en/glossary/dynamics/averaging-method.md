@@ -38,9 +38,9 @@ A perturbation method for small control magnitude (low thrust) that uses the tru
 
 ## Related Concepts
 
-- [微分代数](/en/glossary/dynamics/微分代数/)
-- [羽流冲击](/en/glossary/dynamics/羽流冲击/)
-- [动量积分](/en/glossary/dynamics/动量积分/)
+- 微分代数
+- 羽流冲击
+- 动量积分
 
 ## References
 

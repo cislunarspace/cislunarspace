@@ -89,9 +89,9 @@ Zhao Haihan et al. combined RLEPSO with homotopy method:
 
 ## Related Concepts
 
-- [Reinforced Learning Enhanced PSO (RLEPSO)](/en/glossary/dynamics/rlepeso/)
+- Reinforced Learning Enhanced PSO (RLEPSO)
 - [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/)
-- [Co-state Normalization](/en/glossary/dynamics/co-state-normalization/)
+- Co-state Normalization
 - [Continuation Method](/en/glossary/dynamics/continuation/)
 - [Shooting Method](/en/glossary/dynamics/shooting-method/)
 

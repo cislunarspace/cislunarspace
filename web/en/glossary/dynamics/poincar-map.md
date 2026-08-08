@@ -34,9 +34,9 @@ A dimension-reduction technique for studying high-dimensional dynamical systems 
 
 ## Related Concepts
 
-- [Section-Forced Refinement](/en/glossary/dynamics/section-forced-refinement/)
+- Section-Forced Refinement
 - [PS Section](/en/glossary/dynamics/ps-section/)
-- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 
 ## References

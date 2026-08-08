@@ -38,10 +38,10 @@ Halo轨道族为地月空间任务提供了长期稳定的停泊点，是通往�
 
 ## 相关概念
 
-- [在轨测试与试验任务（On-orbit Testing Mission）](/glossary/programs/on-orbit-testing-mission/)
-- [可扩展设计（Scalable Design）](/glossary/programs/scalable-design/)
-- [承载设计（Load-bearing Design）](/glossary/programs/load-bearing-design/)
-- [在轨测试与试验（On-orbit Testing）](/glossary/programs/on-orbit-testing/)
+- 在轨测试与试验任务（On-orbit Testing Mission）
+- 可扩展设计（Scalable Design）
+- 承载设计（Load-bearing Design）
+- 在轨测试与试验（On-orbit Testing）
 
 ## 参考文献
 

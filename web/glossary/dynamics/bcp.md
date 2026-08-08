@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/bcp/
 ## 相关概念
 
 - [限制性三体问题（Restricted Three-Body Problem）](/glossary/dynamics/rtbp/)
-- [平动点（Libration Point）](/glossary/dynamics/l/)
+- [平动点（Libration Point）](/glossary/dynamics/libration-point/)
 - [圆型限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/crtbp/)
 
 ## 参考文献

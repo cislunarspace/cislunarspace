@@ -39,9 +39,9 @@ Autonomous Orbit Determination provides precise positioning capabilities for cis
 ## Related Concepts
 
 - [Lunar Global Positioning System, LGPS](/en/glossary/navigation/lgps/)
-- [Dilution of Precision, DOP](/en/glossary/navigation/dop/)
-- [Direction Cosine Matrix](/en/glossary/navigation/dcm/)
-- [Precision Orbit Determination](/en/glossary/navigation/pod/)
+- Dilution of Precision, DOP
+- Direction Cosine Matrix
+- Precision Orbit Determination
 
 ## References
 

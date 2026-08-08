@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/control-parametrization/
 
 ## 相关概念
 
-- [推力器调制器（Thruster Modulator）](/glossary/dynamics/thruster-modulator/)
-- [不变集（Invariant Set）](/glossary/dynamics/invariant-set/)
+- 推力器调制器（Thruster Modulator）
+- 不变集（Invariant Set）
 - [控制参数化（Control Parametrization）](/glossary/dynamics/control-parametrization/)
-- [粒子群优化器（Particle Swarm Optimizer）](/glossary/dynamics/particle-swarm-optimizer/)
+- 粒子群优化器（Particle Swarm Optimizer）
 
 ## 参考文献
 

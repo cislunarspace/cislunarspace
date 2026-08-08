@@ -38,8 +38,8 @@ permalink: /glossary/orbits/hybrid-multi-conic-method/
 
 ## 相关概念
 
-- [长期进动椭圆轨道（Secularly Precessing Elliptical Orbit）](/glossary/orbits/secularly-precessing-elliptical-orbit/)
-- [螺旋转移（Spiral Transfer）](/glossary/orbits/spiral-transfer/)
+- 长期进动椭圆轨道（Secularly Precessing Elliptical Orbit）
+- 螺旋转移（Spiral Transfer）
 - [Halo轨道类别（Halo Orbit Classification）](/glossary/orbits/halo-orbit/)
 - [两次机动转移设计（Two-maneuver transfer design）](/glossary/orbits/two-maneuver-transfer-design/)
 

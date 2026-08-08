@@ -39,8 +39,8 @@ This control theory is of significant application value in attitude and orbit co
 ## Related Concepts
 
 - [Conservative System](/en/glossary/dynamics/conservative-system/)
-- [Space Manifold Dynamics, SMD](/en/glossary/dynamics/space-manifold-dynamics-smd/)
-- [Radial-Transverse-Normal Frame, RSW Frame](/en/glossary/dynamics/radial-transverse-normal-frame-rsw-frame/)
+- Space Manifold Dynamics, SMD
+- [Radial-Transverse-Normal Frame, RSW Frame](/en/glossary/dynamics/rsw/)
 
 ## References
 

@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/coriolis-theorem/
 ## 相关概念
 
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
-- [速度函数（Velocity Function）](/glossary/dynamics/velocity-function/)
+- 速度函数（Velocity Function）
 - [非高斯分布（Non-Gaussian Distribution）](/glossary/dynamics/non-gaussian-distribution/)
 
 ## 参考文献

@@ -73,11 +73,11 @@ Gravitational potential is the foundation of Earth gravity field modeling and or
 
 ## Related Concepts
 
-- [Earth Ellipsoid](/en/glossary/fundamentals/earth-ellipsoid/)
-- [Gravity vs Gravitation](/en/glossary/fundamentals/gravity-vs-gravitation/)
-- [Geocentric Inertial Frame](/en/glossary/fundamentals/geocentric-inertial-frame/)
-- [Powered Phase](/en/glossary/fundamentals/powered-phase/)
-- [Orbital Phase](/en/glossary/fundamentals/orbital-phase/)
+- Earth Ellipsoid
+- Gravity vs Gravitation
+- Geocentric Inertial Frame
+- Powered Phase
+- Orbital Phase
 
 ## References
 

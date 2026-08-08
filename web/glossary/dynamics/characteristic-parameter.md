@@ -41,9 +41,9 @@ permalink: /glossary/dynamics/characteristic-parameter/
 
 ## 相关概念
 
-- [微分代数（Differential Algebra, DA）](/glossary/dynamics/differential-algebra/)
-- [羽流冲击（Plume Impingement）](/glossary/dynamics/plume-impingement/)
-- [动量积分（Momentum Integral, MI）](/glossary/dynamics/momentum-integral/)
+- 微分代数（Differential Algebra, DA）
+- 羽流冲击（Plume Impingement）
+- 动量积分（Momentum Integral, MI）
 
 ## 参考文献
 

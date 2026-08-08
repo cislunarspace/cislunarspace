@@ -38,9 +38,9 @@ This concept has application value in cislunar space research and engineering pr
 
 ## Related Concepts
 
-- [Search and Rescue, SAR](/en/glossary/programs/sar/)
-- [On-Orbit Servicing Network](/en/glossary/programs/osn/)
-- [Rendezvous and Docking](/en/glossary/programs/rvd/)
+- Search and Rescue, SAR
+- On-Orbit Servicing Network
+- Rendezvous and Docking
 
 ## References
 

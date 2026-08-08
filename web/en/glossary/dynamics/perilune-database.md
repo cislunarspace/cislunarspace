@@ -38,8 +38,8 @@ The Perilune Database stores extensive Monte Carlo trajectory shooting results. 
 
 ## Related Concepts
 
-- [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
-- [Non-axisymmetric Satellite](/en/glossary/dynamics/non-axisymmetric-satellite/)
+- Asymptotic Solution
+- Non-axisymmetric Satellite
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)
 

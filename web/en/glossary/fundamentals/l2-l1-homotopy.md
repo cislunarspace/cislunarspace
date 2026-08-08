@@ -38,9 +38,9 @@ L2-L1同伦法是地月空间研究的基础概念，为理解更复杂的航天
 
 ## Related Concepts
 
-- [Bang推力剖面](/en/glossary/fundamentals/bang推力剖面/)
-- [春分点](/en/glossary/fundamentals/春分点/)
-- [分析历表](/en/glossary/fundamentals/分析历表/)
+- Bang推力剖面
+- 春分点
+- [分析历表](/en/glossary/fundamentals/analytical-ephemeris/)
 
 ## References
 

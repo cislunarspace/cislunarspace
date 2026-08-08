@@ -39,9 +39,9 @@ GRGM1200A 月球重力场模型用于评估地月空间探测器的观测性能�
 ## 相关概念
 
 - [太阳会合周期（Solar Synodic Period）](/glossary/observation/tsun/)
-- [覆盖时间百分比（Coverage Time Percentage, CTP）](/glossary/observation/ctp/)
-- [载荷视场角（Payload Field of View, PFOV）](/glossary/observation/pfov/)
-- [表面覆盖百分比（Surface Coverage Percentage, SCP）](/glossary/observation/scp/)
+- 覆盖时间百分比（Coverage Time Percentage, CTP）
+- 载荷视场角（Payload Field of View, PFOV）
+- 表面覆盖百分比（Surface Coverage Percentage, SCP）
 
 ## 参考文献
 

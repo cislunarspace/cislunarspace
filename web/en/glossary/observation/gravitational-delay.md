@@ -38,10 +38,10 @@ This concept is essential for understanding motion characteristics in mission pl
 
 ## Related Concepts
 
-- [Monopulse Radar](/en/glossary/observation/monopulse-radar/)
-- [Pixel Skewing](/en/glossary/observation/pixel-skewing/)
-- [Ground Tracking](/en/glossary/observation/ground-tracking/)
-- [State Monitoring](/en/glossary/observation/state-monitoring/)
+- Monopulse Radar
+- Pixel Skewing
+- Ground Tracking
+- State Monitoring
 
 ## References
 

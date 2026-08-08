@@ -34,10 +34,10 @@ The Poincaré section at x=1-μs in the Sun-Earth+Moon synodic frame, used for p
 
 ## Related Concepts
 
-- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-constant-jc/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
 - [Hill Region](/en/glossary/fundamentals/hill-region/)
 - [Poincaré Map](/en/glossary/dynamics/poincar-map/)
-- [Stability](/en/glossary/dynamics/stability/)
+- Stability
 
 ## References
 

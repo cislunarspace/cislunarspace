@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/costate-variable/
 
 ## 相关概念
 
-- [椭圆限制性三体问题（Elliptic Restricted Three-Body Problem）](/glossary/dynamics/elliptic-restricted-three-body-problem/)
-- [动力一致性（Dynamical Consistency）](/glossary/dynamics/dynamical-consistency/)
-- [组合协方差（Combined Covariance）](/glossary/dynamics/combined-covariance/)
+- [椭圆限制性三体问题（Elliptic Restricted Three-Body Problem）](/glossary/dynamics/er3bp/)
+- 动力一致性（Dynamical Consistency）
+- 组合协方差（Combined Covariance）
 - [尼霍罗舍夫估计（Nekhorosev Estimates）](/glossary/dynamics/nekhorosev-estimates/)
 
 ## 参考文献

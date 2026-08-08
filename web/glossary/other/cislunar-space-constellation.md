@@ -38,8 +38,8 @@ DRO轨道的线性稳定性使其成为月球任务目标轨道的首选方案�
 
 ## 相关概念
 
-- [垂直起降运载火箭（Vertical Take-off Vertical Landing）](/glossary/other/vertical-take-off-vertical-landing/)
-- [在轨加注（On-Orbit Refueling）](/glossary/other/on-orbit-refueling/)
+- 垂直起降运载火箭（Vertical Take-off Vertical Landing）
+- 在轨加注（On-Orbit Refueling）
 
 ## 参考文献
 

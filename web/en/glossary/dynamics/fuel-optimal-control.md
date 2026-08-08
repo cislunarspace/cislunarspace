@@ -37,9 +37,9 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 
 ## Related Concepts
 
-- [Lyapunov Stability](/glossary/dynamics/lyapunov-stability/)
+- Lyapunov Stability
 - [Adams-CowellAdams-Cowell Integrator](/glossary/dynamics/adams-cowell-integrator/)
-- [Hansen Coefficients](/glossary/dynamics/hansen-coefficients/)
+- Hansen Coefficients
 - [Control Curve, U_i](/glossary/dynamics/control-curve-ui/)
 
 ## References

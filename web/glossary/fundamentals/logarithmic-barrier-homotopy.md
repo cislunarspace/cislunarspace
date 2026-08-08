@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/logarithmic-barrier-homotopy/
 ## 相关概念
 
 - [脉冲转向（Orbital Axis Slewing）](/glossary/fundamentals/orbital-axis-slewing/)
-- [推进剂质量比（Propellant Mass Fraction）](/glossary/fundamentals/propellant-mass-fraction/)
+- 推进剂质量比（Propellant Mass Fraction）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/state-transition-matrix/)
+- 状态转移矩阵（State Transition Matrix）
 
 ## 参考文献
 

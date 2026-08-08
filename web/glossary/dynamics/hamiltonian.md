@@ -74,8 +74,8 @@ $$\frac{\partial H}{\partial \mathbf{u}} = 0 \quad \text{（对连续控制）}$
 
 ## 相关概念
 
-- [庞特里亚金极值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagin-principle/)
+- 庞特里亚金极值原理（Pontryagin's Maximum Principle）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)
-- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle-variables/)
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson-normal-form/)

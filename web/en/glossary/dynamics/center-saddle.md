@@ -34,7 +34,7 @@ The linear stability character of collinear libration points in the CRTBP. In tw
 ## Related Concepts
 
 - [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
-- [Halo Orbit Insertion, HOI](/en/glossary/orbits/halo-orbit-insertion-hoi/)
+- Halo Orbit Insertion, HOI
 
 ## References
 

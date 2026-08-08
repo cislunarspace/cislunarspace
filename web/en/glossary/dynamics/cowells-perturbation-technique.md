@@ -40,8 +40,8 @@ Based on its definition, this term has significant application value in cislunar
 
 - [Differential Correction](/en/glossary/fundamentals/differential-correction/)
 - [Indirect Methods](/en/glossary/dynamics/indirect-methods/)
-- [Resonance Condition](/en/glossary/dynamics/resonance-condition/)
-- [Low-Thrust Equilibrium Point](/en/glossary/dynamics/low-thrust-equilibrium-point/)
+- Resonance Condition
+- Low-Thrust Equilibrium Point
 
 ## References
 

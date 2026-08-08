@@ -38,9 +38,9 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 ## Related Concepts
 
 - [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
-- [Lunar Free-Return Orbit, LFO](/glossary/orbits/lunar-free-return-orbit/)
-- [Critical Orbit](/glossary/orbits/critical-orbit/)
-- [Quasi-Periodic Distant Retrograde Orbit, QPDRO](/glossary/orbits/quasi-periodic-distant-retrograde-orbit/)
+- Lunar Free-Return Orbit, LFO
+- Critical Orbit
+- Quasi-Periodic Distant Retrograde Orbit, QPDRO
 
 ## References
 

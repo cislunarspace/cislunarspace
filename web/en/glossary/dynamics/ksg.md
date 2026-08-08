@@ -38,7 +38,7 @@ The KSG integrator is a high-precision numerical integration method for orbit ca
 
 ## Related Concepts
 
-- [Nonlinear Programming](/en/glossary/dynamics/nlp/)
+- Nonlinear Programming
 - [Zero-Velocity Curve](/en/glossary/dynamics/zvc/)
 - [Shape-Based Method](/en/glossary/dynamics/shape-based-method/)
 

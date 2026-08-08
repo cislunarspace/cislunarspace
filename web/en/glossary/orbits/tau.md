@@ -38,10 +38,10 @@ Combined with transfer cost maps, orbit phase enables rapid evaluation of transf
 
 ## Related Concepts
 
-- [Minimum Parking Orbit, MPO](/en/glossary/orbits/MPO/)
-- [Super-Geostationary Transfer Orbit, sGTO](/en/glossary/orbits/sGTO/)
-- [Halo Orbit Insertion, HOI](/en/glossary/orbits/HOI/)
-- [Low Lunar Orbit, LLO](/en/glossary/orbits/LLO/)
+- Minimum Parking Orbit, MPO
+- Super-Geostationary Transfer Orbit, sGTO
+- Halo Orbit Insertion, HOI
+- Low Lunar Orbit, LLO
 
 ## References
 

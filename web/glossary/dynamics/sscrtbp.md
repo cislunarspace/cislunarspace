@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/sscrtbp/
 
 ## 相关概念
 
-- [RKF7(8)积分器（RKF7(8) Integrator）](/glossary/dynamics/rkf78/)
+- RKF7(8)积分器（RKF7(8) Integrator）
 - [复合粒子群算法（Compound Particle Swarm Optimization）](/glossary/dynamics/cpso/)
-- [平均运动共振（Mean Motion Resonance, MMR）](/glossary/dynamics/mmr/)
-- [推力加速度（Thrust Acceleration）](/glossary/dynamics/a/)
+- 平均运动共振（Mean Motion Resonance, MMR）
+- 推力加速度（Thrust Acceleration）
 
 ## 参考文献
 

@@ -38,10 +38,10 @@ Pseudo-Manifold plays an important role in orbit maneuver design, analysis, and 
 
 ## Related Concepts
 
-- [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
+- Deflection Angle
 - [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
-- [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
-- [Map Projection](/en/glossary/fundamentals/map-projection/)
+- Summation Combination of Dual One-Way Ranging
+- Map Projection
 
 ## References
 

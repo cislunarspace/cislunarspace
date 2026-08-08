@@ -38,10 +38,10 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 
 ## Related Concepts
 
-- [Analytic Hierarchy Process](/en/glossary/fundamentals/analytic-hierarchy-process/)
-- [Delta-v, Δv](/en/glossary/fundamentals/delta-v-v/)
-- [Continued Fraction](/en/glossary/fundamentals/continued-fraction/)
-- [Sbplx Local Optimization Algorithm](/en/glossary/fundamentals/sbplx-local-optimization-algorithm/)
+- Analytic Hierarchy Process
+- Delta-v, Δv
+- Continued Fraction
+- Sbplx Local Optimization Algorithm
 
 ## References
 

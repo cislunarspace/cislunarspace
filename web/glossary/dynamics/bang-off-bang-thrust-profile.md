@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/bang-off-bang-thrust-profile/
 
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [科氏定理（Coriolis Theorem）](/glossary/dynamics/coriolis-theorem/)
-- [速度函数（Velocity Function）](/glossary/dynamics/velocity-function/)
+- 速度函数（Velocity Function）
 
 ## 参考文献
 

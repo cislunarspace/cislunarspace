@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/effective-pseudo-potential/
 
 ## 相关概念
 
-- [月心旋转坐标系（Moon-Centered Rotating Frame）](/glossary/fundamentals/moon-centered-rotating-frame/)
-- [比冲（Specific Impulse）](/glossary/fundamentals/specific-impulse/)
-- [月球二体能量（Two-Body Energy with Respect to the Moon）](/glossary/fundamentals/two-body-energy-with-respect-to-the-moon/)
-- [h-e 空间分析（h-e Space Analysis）](/glossary/fundamentals/h-e-space-analysis/)
+- 月心旋转坐标系（Moon-Centered Rotating Frame）
+- 比冲（Specific Impulse）
+- 月球二体能量（Two-Body Energy with Respect to the Moon）
+- h-e 空间分析（h-e Space Analysis）
 
 ## 参考文献
 

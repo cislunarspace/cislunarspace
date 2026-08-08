@@ -38,9 +38,9 @@ permalink: /glossary/other/a-search-strategy-that-automatically-halves-the-veloc
 
 ## 相关概念
 
-- [蚁群优化算法（Ant Colony Optimization）](/glossary/other/aco/)
-- [同位素温差发电器（Radioisotope Thermoelectric Generator）](/glossary/other/rtg/)
-- [垂直起降运载火箭（Vertical Take-off Vertical Landing）](/glossary/other/vtvl/)
+- 蚁群优化算法（Ant Colony Optimization）
+- 同位素温差发电器（Radioisotope Thermoelectric Generator）
+- 垂直起降运载火箭（Vertical Take-off Vertical Landing）
 
 ## 参考文献
 

@@ -40,8 +40,8 @@ permalink: /glossary/observation/kordylewski-cloud/
 ## 相关概念
 
 - [流形传播（Manifold Propagation）](/glossary/dynamics/manifold-propagation/)
-- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/halo-orbit-insertion-hoi/)
-- [碰撞预警（Collision Warning）](/glossary/observation/collision-warning/)
+- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
+- 碰撞预警（Collision Warning）
 
 ## 参考文献
 

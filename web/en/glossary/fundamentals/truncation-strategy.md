@@ -38,9 +38,9 @@ This concept plays an important role in trajectory optimization and mission plan
 
 ## Related Concepts
 
-- [Scheduled and Pinpoint Landing](/en/glossary/fundamentals/scheduled-and-pinpoint-landing/)
-- [Surface of Section, SOS](/en/glossary/fundamentals/surface-of-section-sos/)
-- [Barrier Function](/en/glossary/fundamentals/barrier-function/)
+- Scheduled and Pinpoint Landing
+- [Surface of Section, SOS](/en/glossary/fundamentals/sos/)
+- Barrier Function
 
 ## References
 

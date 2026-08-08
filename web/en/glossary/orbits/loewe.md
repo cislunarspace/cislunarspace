@@ -40,7 +40,7 @@ The LOEWE (Lissajous Orbit Ever Without Eclipse) strategy is an important refere
 
 - [Selenocentric Segment](/en/glossary/orbits/selenocentric-segment/)
 - [Vertical Amplitude](/en/glossary/orbits/halo-orbit/)
-- [z-direction Motion Amplitude](/en/glossary/orbits/z-direction-motion-amplitude/)
+- [z-direction Motion Amplitude](/en/glossary/orbits/zm/)
 
 ## References
 

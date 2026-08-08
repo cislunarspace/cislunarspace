@@ -38,10 +38,10 @@ Lambert orbit maneuver is a core orbital design tool in circumlunar rendezvous a
 
 ## Related Concepts
 
-- [Lambert Problem](/en/glossary/fundamentals/lambert-problem/)
-- [Two-Impulse Rendezvous Maneuver](/en/glossary/dynamics/two-impulse-rendezvous-maneuver/)
+- [Lambert Problem](/en/glossary/orbits/lambert-problem/)
+- Two-Impulse Rendezvous Maneuver
 - [Delta-V](/en/glossary/fundamentals/delta-v/)
-- [Circumlunar Orbit](/en/glossary/orbits/circumlunar-orbit/)
+- Circumlunar Orbit
 
 ## References
 

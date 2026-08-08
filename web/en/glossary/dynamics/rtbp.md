@@ -38,10 +38,10 @@ Restricted Three-Body Problem, RTBP plays an important role in orbital dynamics 
 
 ## Related Concepts
 
-- [KAM Theorem](/en/glossary/dynamics/kam-theorem/)
-- [Hill Clohessy Wiltshire Equations](/en/glossary/dynamics/hill-clohessy-wiltshire-equations/)
-- [State Transition Function](/en/glossary/dynamics/state-transition-function/)
-- [Lagrangian Coefficients](/en/glossary/dynamics/lagrangian-coefficients/)
+- [KAM Theorem](/en/glossary/dynamics/kam/)
+- Hill Clohessy Wiltshire Equations
+- State Transition Function
+- Lagrangian Coefficients
 
 ## References
 

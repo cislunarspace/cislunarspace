@@ -110,7 +110,7 @@ The core value of Poincaré Maps in cislunar space dynamics research lies in:
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - [Continuation](/en/glossary/dynamics/continuation/)
 - [Differential Correction](/en/glossary/dynamics/differential-correction/)
-- [Impulsive Maneuver](/en/glossary/dynamics/impulsive-maneuver/)
+- Impulsive Maneuver
 - Invariant Torus
 - Chaotic Orbit
 

@@ -37,9 +37,9 @@ This term has significant application value in cislunar space missions。In the 
 
 ## Related Concepts
 
-- [Characteristic Exponents](/en/glossary/dynamics/characteristic-exponents/)
-- [Capture Docking Phase](/en/glossary/navigation/capture-docking-phase/)
-- [Lunar Flyby Transfer](/en/glossary/orbits/lunar-flyby-transfer/)
+- Characteristic Exponents
+- Capture Docking Phase
+- Lunar Flyby Transfer
 
 ## References
 

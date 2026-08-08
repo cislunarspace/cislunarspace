@@ -38,9 +38,9 @@ This term has application value in the design and analysis of cislunar space mis
 
 ## Related Concepts
 
-- [Queqiao-2 Relay Satellite](/en/glossary/programs/queqiao-2-relay-satellite/)
-- [Servicing Schedule / Scheduling](/en/glossary/programs/servicing-schedule-scheduling/)
-- [Next Generation Space Architecture](/en/glossary/programs/next-generation-space-architecture/)
+- Queqiao-2 Relay Satellite
+- Servicing Schedule / Scheduling
+- Next Generation Space Architecture
 
 ## References
 

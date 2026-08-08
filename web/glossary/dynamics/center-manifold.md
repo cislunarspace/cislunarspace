@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/center-manifold/
 
 ## 相关概念
 
-- [J2不变量轨道（J2-Invariant Orbit）](/glossary/dynamics/j2-invariant-orbit/)
-- [内点法优化（Interior Point Optimization）](/glossary/dynamics/interior-point-optimization/)
+- J2不变量轨道（J2-Invariant Orbit）
+- 内点法优化（Interior Point Optimization）
 - [n体动力学（N-Body Dynamics）](/glossary/dynamics/n-body-dynamics/)
-- [始末状态约束（Start-End State Constraint）](/glossary/dynamics/start-end-state-constraint/)
+- 始末状态约束（Start-End State Constraint）
 
 ## 参考文献
 

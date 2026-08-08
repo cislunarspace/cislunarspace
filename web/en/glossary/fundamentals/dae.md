@@ -38,10 +38,10 @@ This term has significant practical applications in cislunar mission planning an
 
 ## Related Concepts
 
-- [Intersection over Union](/en/glossary/fundamentals/iou/)
-- [Point Spread Function](/en/glossary/fundamentals/psf/)
-- [Flexible Image Transport System](/en/glossary/fundamentals/fits/)
-- [Normalized Innovation Squared, NIS](/en/glossary/fundamentals/nis/)
+- Intersection over Union
+- Point Spread Function
+- Flexible Image Transport System
+- Normalized Innovation Squared, NIS
 
 ## References
 

@@ -38,9 +38,9 @@ Based on its definition, a numerical method that traces a curve of solutions by 
 
 ## Related Concepts
 
-- [轨道力学（Orbital Mechanics）](/en/glossary/fundamentals/orbital-mechanics/)
-- [坐标系（Coordinate Frame）](/en/glossary/fundamentals/coordinate-frame/)
-- [积分（Integration）](/en/glossary/fundamentals/integration/)
+- 轨道力学（Orbital Mechanics）
+- 坐标系（Coordinate Frame）
+- 积分（Integration）
 
 ## References
 

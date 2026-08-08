@@ -38,10 +38,10 @@ permalink: /glossary/orbits/low-thrust-trajectory/
 
 ## 相关概念
 
-- [接近操作（Proximity Operations）](/glossary/orbits/proximity-operations/)
+- 接近操作（Proximity Operations）
 - [Lyapunov周期轨道（Lyapunov Periodic Orbit）](/glossary/orbits/lyapunov-orbit/)
-- [偏转角（Deflection Angle）](/glossary/dynamics/deflection-angle/)
-- [双程测距求和组合（Summation Combination of Dual One-Way Ranging）](/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
+- 偏转角（Deflection Angle）
+- 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 
 ## 参考文献
 

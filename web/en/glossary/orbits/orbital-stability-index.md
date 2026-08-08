@@ -40,7 +40,7 @@ An index measuring the long-term stability of DRO under multi-body perturbations
 
 - [Synodic Resonant Periodic Orbit](/en/glossary/orbits/resonant-orbit-family/)
 - [Halo Orbit Amplitude](/en/glossary/orbits/halo-orbit/)
-- [Near Rectilinear Halo Orbit](/en/glossary/orbits/near-rectilinear-halo-orbit/)
+- Near Rectilinear Halo Orbit
 - [NRHO Transfer](/en/glossary/orbits/nrho/)
 
 ## References

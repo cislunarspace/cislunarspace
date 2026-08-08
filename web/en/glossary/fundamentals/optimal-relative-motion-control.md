@@ -38,10 +38,10 @@ This concept is used in orbital analysis and has significant impact on mission d
 
 ## Related Concepts
 
-- [Suborbital](/en/glossary/fundamentals/suborbital/)
-- [Rocket Staging](/en/glossary/fundamentals/rocket-staging/)
-- [Cross-Product Matrix / Skew-Symmetric Matrix](/en/glossary/fundamentals/cross-product-matrix-skew-symmetric-matrix/)
-- [Apsidal Line](/en/glossary/fundamentals/apsidal-line/)
+- Suborbital
+- Rocket Staging
+- Cross-Product Matrix / Skew-Symmetric Matrix
+- Apsidal Line
 
 ## References
 

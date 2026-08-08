@@ -38,10 +38,10 @@ A projection surface centered on the Moon with a radius set to five times the Mo
 
 ## Related Concepts
 
-- [On-orbit Calibration](/en/glossary/observation/on-orbit-calibration/)
-- [Multi-Source Information Fusion](/en/glossary/observation/multi-source-information-fusion/)
-- [Line-of-Sight Measurement](/en/glossary/observation/line-of-sight-measurement/)
-- [Precision Calibration](/en/glossary/observation/precision-calibration/)
+- On-orbit Calibration
+- Multi-Source Information Fusion
+- Line-of-Sight Measurement
+- Precision Calibration
 
 ## References
 

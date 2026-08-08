@@ -38,10 +38,10 @@ permalink: /glossary/observation/kordylewski-clouds/
 
 ## 相关概念
 
-- [月基低频射电天文观测（Lunar-Based Low-Frequency Radio Astronomical Observation）](/glossary/observation/lunar-based-low-frequency-radio-astronomical-observation/)
-- [视场角（Field of View）](/glossary/observation/field-of-view/)
+- 月基低频射电天文观测（Lunar-Based Low-Frequency Radio Astronomical Observation）
+- 视场角（Field of View）
 - [观测星座（Observation Constellation）](/glossary/observation/observation-constellation/)
-- [观测精度（Observation Accuracy）](/glossary/observation/observation-accuracy/)
+- 观测精度（Observation Accuracy）
 
 ## 参考文献
 

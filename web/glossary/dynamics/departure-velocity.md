@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/departure-velocity/
 
 ## 相关概念
 
-- [渐近解（Asymptotic Solution）](/glossary/dynamics/asymptotic-solution/)
+- 渐近解（Asymptotic Solution）
 - [近月点数据库（Perilune Database）](/glossary/dynamics/perilune-database/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)

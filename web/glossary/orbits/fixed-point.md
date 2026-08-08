@@ -38,10 +38,10 @@ permalink: /glossary/orbits/fixed-point/
 
 ## 相关概念
 
-- [真近点角（True Anomaly）](/glossary/orbits/true-anomaly/)
-- [多圈螺旋转移（Multi-Revolution Spiral Transfer）](/glossary/orbits/multi-revolution-spiral-transfer/)
+- 真近点角（True Anomaly）
+- 多圈螺旋转移（Multi-Revolution Spiral Transfer）
 - [正交穿平面条件（Orthogonal Plane-Crossing Condition）](/glossary/orbits/orthogonal-plane-crossing-condition/)
-- [三角平动点垂直轨道（Vertical Orbit at Triangular Libration Point）](/glossary/orbits/vertical-orbit-at-triangular-libration-point/)
+- 三角平动点垂直轨道（Vertical Orbit at Triangular Libration Point）
 
 ## 参考文献
 

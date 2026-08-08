@@ -38,9 +38,9 @@ This concept provides fundamental support in cislunar space research and mission
 
 ## Related Concepts
 
-- [On-Board Software](/en/glossary/fundamentals/on-board-software/)
-- [Barycentric Coordinate Time, TCB](/en/glossary/fundamentals/barycentric-coordinate-time-tcb/)
-- [Horizontal Coordinate System](/en/glossary/fundamentals/horizontal-coordinate-system/)
+- On-Board Software
+- Barycentric Coordinate Time, TCB
+- Horizontal Coordinate System
 
 ## References
 

@@ -94,8 +94,8 @@ In spacecraft cooperative rendezvous problems:
 ## Related Concepts
 
 - [Homotopy Method](/en/glossary/dynamics/homotopy-method/)
-- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagin-principle/)
-- [Co-state Normalization](/en/glossary/dynamics/co-state-normalization/)
+- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
+- Co-state Normalization
 - [Fuel-optimal Control](/en/glossary/dynamics/fuel-optimal/)
 
 ## References

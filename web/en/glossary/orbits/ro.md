@@ -39,7 +39,7 @@ Resonant Orbit is an important orbit type in cislunar trajectory design, widely 
 ## Related Concepts
 
 - [Initial Periodic Orbit](/en/glossary/orbits/ipo/)
-- [Low-Thrust Transfer](/en/glossary/orbits/ltt/)
+- Low-Thrust Transfer
 - [Radial Amplitude](/en/glossary/orbits/ax/)
 - [z-direction Motion Amplitude](/en/glossary/orbits/zm/)
 

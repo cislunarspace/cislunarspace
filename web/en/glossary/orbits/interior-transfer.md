@@ -38,9 +38,9 @@ Transfer to a lunar DRO via the asymptotic orbit of the Earth-Moon L1 Lyapunov o
 
 ## Related Concepts
 
-- [月心段](/en/glossary/orbits/月心段/)
-- [垂直振幅](/en/glossary/orbits/垂直振幅/)
-- [z方向运动振幅](/en/glossary/orbits/z方向运动振幅/)
+- [月心段](/en/glossary/orbits/selenocentric-segment/)
+- 垂直振幅
+- [z方向运动振幅](/en/glossary/orbits/zm/)
 
 ## References
 

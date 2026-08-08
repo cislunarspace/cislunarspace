@@ -38,9 +38,9 @@ permalink: /glossary/orbits/tmin/
 
 ## 相关概念
 
-- [利差点轨道（Libration Point Orbit）](/glossary/orbits/lpo/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/stm/)
-- [六自由度（Six-Degree-of-Freedom）](/glossary/fundamentals/6-dof/)
+- 利差点轨道（Libration Point Orbit）
+- 状态转移矩阵（State Transition Matrix）
+- 六自由度（Six-Degree-of-Freedom）
 - [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/gpm/)
 
 ## 参考文献

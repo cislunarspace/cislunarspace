@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/sk/
 
 ## 相关概念
 
-- [隐藏基因遗传算法（Hidden-Genes Genetic Algorithm, HGGA）](/glossary/dynamics/hgga/)
-- [变长设计空间（Variable-Size Design Space, VSDS）](/glossary/dynamics/vsds/)
-- [目标点法（Target Point Method）](/glossary/dynamics/tp/)
+- [隐藏基因遗传算法（Hidden-Genes Genetic Algorithm, HGGA）](/glossary/fundamentals/hidden-genes-genetic-algorithm/)
+- 变长设计空间（Variable-Size Design Space, VSDS）
+- 目标点法（Target Point Method）
 - [离散线性二次调节器（Discrete Linear Quadratic Regulator）](/glossary/dynamics/dlqr/)
 
 ## 参考文献

@@ -38,8 +38,8 @@ This concept plays an important role in cislunar space orbit design and optimiza
 
 ## Related Concepts
 
-- [Pontryagin Maximum Principle](/en/glossary/fundamentals/pontryagin-maximum-principle/)
-- [Newton-Raphson Method](/en/glossary/fundamentals/newton-raphson-method/)
+- Pontryagin Maximum Principle
+- [Newton-Raphson Method](/en/glossary/dynamics/newton-raphson-method/)
 
 ## References
 

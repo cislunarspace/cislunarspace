@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/gaio/
 
 ## 相关概念
 
-- [变结构滑模控制（Variable Structure Sliding Mode Control）](/glossary/fundamentals/vssmc/)
+- 变结构滑模控制（Variable Structure Sliding Mode Control）
 - [庞特里亚金最小值原理（Pontryagin Minimum Principle）](/glossary/fundamentals/pmp/)
-- [误差函数（Error Function）](/glossary/fundamentals/erf/)
+- 误差函数（Error Function）
 
 ## 参考文献
 

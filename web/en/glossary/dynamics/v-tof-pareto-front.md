@@ -40,7 +40,7 @@ This method is used in multi-objective trajectory optimization to balance confli
 
 - [Jacobi Integral](/en/glossary/dynamics/jacobi-integral/)
 - [Coriolis Theorem](/en/glossary/dynamics/coriolis-theorem/)
-- [Velocity Function](/en/glossary/dynamics/velocity-function/)
+- Velocity Function
 
 ## References
 

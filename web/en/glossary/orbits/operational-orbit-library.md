@@ -38,9 +38,9 @@ A systematically generated and categorized database of periodic orbits under the
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/geocentric-celestial-reference-frame/)
-- [月球自由返回轨道（Lunar Free-Return Orbit, LFO）](/glossary/orbits/lunar-free-return-orbit/)
-- [临界轨道（Critical Orbit）](/glossary/orbits/critical-orbit/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
+- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
+- 临界轨道（Critical Orbit）
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
 
 ## References

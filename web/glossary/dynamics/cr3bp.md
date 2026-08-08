@@ -174,12 +174,12 @@ CR3BP 是地月空间轨道设计的基础模型，可有效研究平动点附�
 - 平面椭圆限制性三体问题模型
 - 空间椭圆限制性三体问题模型
 - Hill 三体问题（HTBP）：CRTBP 的特殊情况，坐标中心移至较小主天体
-- [拟双圆四体问题（QBCP）](/glossary/dynamics/qbcp/)：在 CRTBP 基础上引入太阳摄动的自洽模型
-- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson/)：平动点邻域哈密顿量的正则变换与标准化方法
+- 拟双圆四体问题（QBCP）：在 CRTBP 基础上引入太阳摄动的自洽模型
+- [Birkhoff-Gustavson 标准型](/glossary/dynamics/birkhoff-gustavson-normal-form/)：平动点邻域哈密顿量的正则变换与标准化方法
 - [中心流形（Central Manifold）](/glossary/dynamics/central-manifold/)：平动点邻域相空间分解中的中心方向不变流形
-- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle/)：可积哈密顿系统的标准正则坐标
+- [作用角变量（Action-Angle Variables）](/glossary/dynamics/action-angle-variables/)：可积哈密顿系统的标准正则坐标
 - [Poincaré 截面（Poincaré Section）](/glossary/dynamics/poincare-section/)：高维相空间降维可视化工具
-- [轨道辨识（Orbit Identification）](/glossary/orbits/orbit-identification/)：基于特征参数的平动点轨道识别方法
+- 轨道辨识（Orbit Identification）：基于特征参数的平动点轨道识别方法
 
 ## 参考文献
 

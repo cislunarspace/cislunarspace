@@ -38,10 +38,10 @@ permalink: /glossary/navigation/orbital-rendezvous/
 
 ## 相关概念
 
-- [高轨GNSS旁瓣接收（High-Orbit GNSS Side Lobe Reception）](/glossary/navigation/high-orbit-gnss-side-lobe-reception/)
-- [机动分类（Maneuver Classification）](/glossary/navigation/maneuver-classification/)
-- [可辨识度（Identifiability Degree）](/glossary/navigation/identifiability-degree/)
-- [先验约束（A Priori Constraint）](/glossary/navigation/a-priori-constraint/)
+- 高轨GNSS旁瓣接收（High-Orbit GNSS Side Lobe Reception）
+- 机动分类（Maneuver Classification）
+- 可辨识度（Identifiability Degree）
+- 先验约束（A Priori Constraint）
 
 ## 参考文献
 

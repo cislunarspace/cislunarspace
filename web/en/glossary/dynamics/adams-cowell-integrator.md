@@ -38,10 +38,10 @@ A linear multistep numerical integration method combining Adams predictor-correc
 
 ## Related Concepts
 
-- [Lyapunov Stability](/en/glossary/dynamics/lyapunov-stability/)
-- [Hansen Coefficients](/en/glossary/dynamics/hansen-coefficients/)
+- Lyapunov Stability
+- Hansen Coefficients
 - [Control Curve, U_i](/en/glossary/dynamics/control-curve-ui/)
-- [Patched Conics Method](/en/glossary/dynamics/patched-conics-method/)
+- Patched Conics Method
 
 ## References
 

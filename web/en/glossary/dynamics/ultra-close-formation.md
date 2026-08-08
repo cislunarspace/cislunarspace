@@ -38,7 +38,7 @@ This propulsion technology is important for deep space missions, serving as a ke
 
 ## Related Concepts
 
-- [Weak Stability Boundary](/en/glossary/dynamics/weak-stability-boundary/)
+- [Weak Stability Boundary](/en/glossary/dynamics/wsb/)
 - [Earth-Moon Manifold](/en/glossary/dynamics/earth-moon-manifold/)
 
 ## References

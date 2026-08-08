@@ -36,9 +36,9 @@ This concept has important application value in cislunar space research and miss
 
 ## Related Concepts
 
-- [Ant Colony Optimization](/en/glossary/other/aco/)
-- [Radioisotope Thermoelectric Generator](/en/glossary/other/rtg/)
-- [Vertical Take-off Vertical Landing](/en/glossary/other/vtvl/)
+- Ant Colony Optimization
+- Radioisotope Thermoelectric Generator
+- Vertical Take-off Vertical Landing
 
 ## References
 

@@ -39,9 +39,9 @@ When a satellite orbits a single body and uses only inter-satellite range for or
 ## Related Concepts
 
 - [Liaison Navigation](/en/glossary/navigation/liaison-navigation/)
-- [Doppler velocity measurement](/en/glossary/navigation/doppler-velocity-measurement/)
-- [Astronometric Angle Measurement](/en/glossary/navigation/astronometric-angle-measurement/)
-- [International Rendezvous System Interoperability Standard, IRSIS](/en/glossary/navigation/international-rendezvous-system-interoperability-standard-irsis/)
+- Doppler velocity measurement
+- Astronometric Angle Measurement
+- International Rendezvous System Interoperability Standard, IRSIS
 
 ## References
 

@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/scp/
 
 ## 相关概念
 
-- [序贯二次规划（Sequential Quadratic Programming）](/glossary/dynamics/sqp/)
+- 序贯二次规划（Sequential Quadratic Programming）
 
 ## 参考文献
 

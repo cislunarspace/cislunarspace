@@ -38,9 +38,9 @@ The overall distribution and motion patterns of trajectories in the phase space 
 
 ## Related Concepts
 
-- [Lyapunov Stability](/en/glossary/dynamics/lyapunov-stability/)
+- Lyapunov Stability
 - [Adams-Cowell Integrator](/en/glossary/dynamics/adams-cowell-integrator/)
-- [Hansen Coefficients](/en/glossary/dynamics/hansen-coefficients/)
+- Hansen Coefficients
 - [Control Curve, U_i](/en/glossary/dynamics/control-curve-ui/)
 
 ## References

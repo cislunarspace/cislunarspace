@@ -38,7 +38,7 @@ RSW坐标系为地月空间相对运动分析提供了标准化的参考框架�
 
 ## 相关概念
 
-- [径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）](/glossary/dynamics/rtn/)
+- 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
 
 ## 参考文献
 

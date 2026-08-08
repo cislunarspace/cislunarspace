@@ -39,9 +39,9 @@ A differential correction method that treats flight time as a free variable, ite
 ## Related Concepts
 
 - [Time-Varying System](/en/glossary/fundamentals/time-varying-system/)
-- [Lipschitz Condition](/en/glossary/fundamentals/lipschitz-condition/)
-- [Return Corridor](/en/glossary/fundamentals/return-corridor/)
-- [Intermediate thrust arc](/en/glossary/fundamentals/intermediate-thrust-arc/)
+- Lipschitz Condition
+- Return Corridor
+- [Intermediate thrust arc](/en/glossary/fundamentals/it/)
 
 ## References
 

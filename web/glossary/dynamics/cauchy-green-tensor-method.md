@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/cauchy-green-tensor-method/
 
 ## 相关概念
 
-- [高斯伪谱法（Gauss Pseudospectral Method, GPM）](/glossary/dynamics/GPM/)
-- [Cauchy-Green张量（Cauchy-Green Tensor, CGT）](/glossary/dynamics/CGT/)
-- [微分代数法（Differential Algebra Method）](/glossary/dynamics/DA方法/)
+- [高斯伪谱法（Gauss Pseudospectral Method, GPM）](/glossary/dynamics/gpm/)
+- Cauchy-Green张量（Cauchy-Green Tensor, CGT）
+- 微分代数法（Differential Algebra Method）
 
 ## 参考文献
 

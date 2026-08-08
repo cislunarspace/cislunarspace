@@ -38,7 +38,7 @@ permalink: /glossary/communication/hybrid-communication-navigation-constellation
 
 ## 相关概念
 
-- [China Deep Space Network](/glossary/communication/china-deep-space-network/)
+- China Deep Space Network
 
 ## 参考文献
 

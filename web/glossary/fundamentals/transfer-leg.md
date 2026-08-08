@@ -38,8 +38,8 @@ permalink: /glossary/fundamentals/transfer-leg/
 
 ## 相关概念
 
-- [两点边值问题（Two-Point Boundary Value Problem）](/glossary/fundamentals/two-point-boundary-value-problem/)
-- [推力弧（Thrust Arc）](/glossary/fundamentals/thrust-arc/)
+- [两点边值问题（Two-Point Boundary Value Problem）](/glossary/dynamics/tpbvp/)
+- 推力弧（Thrust Arc）
 - [滑行弧（Coast Arc）](/glossary/fundamentals/coast-arc/)
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 

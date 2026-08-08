@@ -38,8 +38,8 @@ This concept provides fundamental support in cislunar space research and mission
 
 ## Related Concepts
 
-- [Hovering Control](/en/glossary/navigation/hovering-control/)
-- [Prior constraint](/en/glossary/navigation/prior-constraint/)
+- Hovering Control
+- Prior constraint
 - [Absolute Navigation](/en/glossary/navigation/absolute-navigation/)
 
 ## References

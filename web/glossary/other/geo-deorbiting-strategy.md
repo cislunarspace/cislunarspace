@@ -38,8 +38,8 @@ permalink: /glossary/other/geo-deorbiting-strategy/
 
 ## 相关概念
 
-- [高级低温上面级（Advanced Cryogenic Evolved Stage）](/glossary/other/advanced-cryogenic-evolved-stage/)
-- [通导遥一体化（Integrated Communication, Navigation and Remote Sensing）](/glossary/other/integrated-communication-navigation-and-remote-sensing/)
+- 高级低温上面级（Advanced Cryogenic Evolved Stage）
+- 通导遥一体化（Integrated Communication, Navigation and Remote Sensing）
 - [同步旋转坐标系（Synodic Rotating Frame）](/glossary/fundamentals/synodic-rotating-frame/)
 - [网格搜索（Grid Search）](/glossary/fundamentals/grid-search/)
 

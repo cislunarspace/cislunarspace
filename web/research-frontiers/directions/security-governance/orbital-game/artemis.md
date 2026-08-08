@@ -23,5 +23,5 @@ wechatShare:
 ## 相关页面
 
 - [轨道博弈](/research-frontiers/directions/orbital-game/)
-- [阿尔忒弥斯计划](/glossary/programs/artemis/)
+- 阿尔忒弥斯计划
 - [近直线晕轨道](/glossary/orbits/nrho/)

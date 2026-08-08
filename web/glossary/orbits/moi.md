@@ -38,10 +38,10 @@ permalink: /glossary/orbits/moi/
 
 ## 相关概念
 
-- [平动点轨道（Libration Point Orbit, LPO）](/glossary/orbits/lpo/)
+- 平动点轨道（Libration Point Orbit, LPO）
 - [最小停泊轨道（Minimum Parking Orbit, MPO）](/glossary/orbits/mpo/)
 - [超地球同步转移轨道（Super-Geostationary Transfer Orbit, sGTO）](/glossary/orbits/sgto/)
-- [部署轨迹（Deployment Trajectory）](/glossary/orbits/d/)
+- 部署轨迹（Deployment Trajectory）
 
 ## 参考文献
 

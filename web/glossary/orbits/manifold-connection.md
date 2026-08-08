@@ -38,9 +38,9 @@ permalink: /glossary/orbits/manifold-connection/
 
 ## 相关概念
 
-- [弹道月球转移（Ballistic Lunar Transfer）](/glossary/orbits/ballistic-lunar-transfer/)
+- 弹道月球转移（Ballistic Lunar Transfer）
 - [转移窗口（Transfer Window）](/glossary/orbits/transfer-family/)
-- [近直线晕轨道（Near Rectilinear Halo Orbit）](/glossary/orbits/near-rectilinear-halo-orbit/)
+- [近直线晕轨道（Near Rectilinear Halo Orbit）](/glossary/orbits/nrho/)
 - [标称Halo轨道（Nominal Halo Orbit）](/glossary/orbits/halo-orbit/)
 
 ## 参考文献

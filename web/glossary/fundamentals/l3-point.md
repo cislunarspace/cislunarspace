@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/l3-point/
 
 ## 相关概念
 
-- [层次分析法（Analytic Hierarchy Process）](/glossary/fundamentals/analytic-hierarchy-process/)
+- 层次分析法（Analytic Hierarchy Process）
 - [共态方程（Costate Equations）](/glossary/fundamentals/costate-equations/)
-- [速度增量（Delta-v, Δv）](/glossary/fundamentals/delta-v-v/)
-- [连分式（Continued Fraction）](/glossary/fundamentals/continued-fraction/)
+- [速度增量（Delta-v, Δv）](/glossary/fundamentals/delta-v/)
+- 连分式（Continued Fraction）
 
 ## 参考文献
 

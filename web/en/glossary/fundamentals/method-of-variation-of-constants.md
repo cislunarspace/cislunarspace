@@ -38,10 +38,10 @@ The method of variation of constants serves as an important bridge connecting an
 
 ## Related Concepts
 
-- [Gauss Pseudospectral Method](/en/glossary/fundamentals/gauss-pseudospectral-method/)
-- [Periodic Orbit](/en/glossary/orbits/periodic-orbit/)
+- Gauss Pseudospectral Method
+- Periodic Orbit
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
-- [Shape Function](/en/glossary/fundamentals/shape-function/)
+- Shape Function
 
 ## References
 

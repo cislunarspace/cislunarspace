@@ -77,9 +77,9 @@ $$x = \frac{1}{2} - \mu, \quad y = \pm \frac{\sqrt{3}}{2}$$
 
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [雅可比积分](/glossary/dynamics/jacobi-integral/)
-- [Halo 轨道](/glossary/orbits/eml-halo/)
+- Halo 轨道
 
 ## 参考文献
 

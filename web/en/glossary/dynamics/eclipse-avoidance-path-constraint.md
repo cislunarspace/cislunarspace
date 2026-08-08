@@ -38,7 +38,7 @@ A path constraint embedded in the differential corrections process that forces t
 
 ## Related Concepts
 
-- [Hill Sphere Radius](/en/glossary/dynamics/hill-sphere-radius/)
+- Hill Sphere Radius
 - [Pseudospectral Convex Optimization](/en/glossary/dynamics/pseudospectral-convex-optimization/)
 - [Poincaré Map Representation](/en/glossary/dynamics/poincar-map-representation/)
 - [Minimum Norm Targeting](/en/glossary/dynamics/minimum-norm-targeting/)

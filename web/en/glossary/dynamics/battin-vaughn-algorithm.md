@@ -33,7 +33,7 @@ A Lambert problem solver based on the universal variable formulation.
 
 ## Related Concepts
 
-- [Libration Point / Lagrange Point](/en/glossary/dynamics/libration-point-lagrange-point/)
+- Libration Point / Lagrange Point
 
 ## References
 

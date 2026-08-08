@@ -38,10 +38,10 @@ permalink: /glossary/programs/lunar-segment-constellation/
 
 ## 相关概念
 
-- [服务航天器（Servicer）](/glossary/programs/servicer/)
-- [在轨服务（On-Orbit Servicing）](/glossary/doctrine/on-orbit-servicing/)
-- [追踪器（Chaser）](/glossary/fundamentals/chaser/)
-- [搭乘部署（Ride-share）](/glossary/programs/ride-share/)
+- 服务航天器（Servicer）
+- 在轨服务（On-Orbit Servicing）
+- 追踪器（Chaser）
+- 搭乘部署（Ride-share）
 
 ## 参考文献
 

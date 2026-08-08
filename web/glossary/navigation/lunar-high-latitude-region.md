@@ -40,8 +40,8 @@ permalink: /glossary/navigation/lunar-high-latitude-region/
 
 - [联络导航（Liaison Navigation）](/glossary/navigation/liaison-navigation/)
 - [秩亏（Deficient Rank）](/glossary/navigation/deficient-rank/)
-- [多普勒测速（Doppler velocity measurement）](/glossary/navigation/doppler-velocity-measurement/)
-- [天文测角量（Astronometric Angle Measurement）](/glossary/navigation/astronometric-angle-measurement/)
+- 多普勒测速（Doppler velocity measurement）
+- 天文测角量（Astronometric Angle Measurement）
 
 ## 参考文献
 

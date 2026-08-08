@@ -38,9 +38,9 @@ This principle is central to optimal control theory, providing the theoretical f
 
 ## Related Concepts
 
-- [Variable Structure Sliding Mode Control](/en/glossary/fundamentals/vssmc/)
-- [Error Function](/en/glossary/fundamentals/erf/)
-- [Specific Impulse](/en/glossary/fundamentals/isp/)
+- Variable Structure Sliding Mode Control
+- Error Function
+- Specific Impulse
 
 ## References
 

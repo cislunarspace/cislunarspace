@@ -38,10 +38,10 @@ A latitudinal station-keeping strategy that applies small thrust in the orbit-no
 
 ## Related Concepts
 
-- [Heteroclinic Transfer](/en/glossary/orbits/heteroclinic-transfer/)
-- [Lunar Flyby](/en/glossary/orbits/lunar-flyby/)
-- [Geosynchronous Orbit, GEO](/en/glossary/orbits/geosynchronous-orbit-geo/)
-- [Deployment Trajectory](/en/glossary/orbits/deployment-trajectory/)
+- Heteroclinic Transfer
+- [Lunar Flyby](/en/glossary/dynamics/lunar-flyby/)
+- Geosynchronous Orbit, GEO
+- Deployment Trajectory
 
 ## References
 

@@ -38,9 +38,9 @@ This concept provides fundamental support in cislunar space research and mission
 
 ## Related Concepts
 
-- [Space Manifold Dynamics, SMD](/en/glossary/dynamics/space-manifold-dynamics-smd/)
-- [Radial-Transverse-Normal Frame, RSW Frame](/en/glossary/dynamics/radial-transverse-normal-frame-rsw-frame/)
-- [Orbit Injection Error](/en/glossary/dynamics/orbit-injection-error/)
+- Space Manifold Dynamics, SMD
+- [Radial-Transverse-Normal Frame, RSW Frame](/en/glossary/dynamics/rsw/)
+- Orbit Injection Error
 
 ## References
 

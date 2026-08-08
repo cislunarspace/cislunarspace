@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/rtbp/
 
 ## 相关概念
 
-- [KAM定理（KAM Theorem）](/glossary/dynamics/kam-theorem/)
-- [希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）](/glossary/dynamics/hill-clohessy-wiltshire-equations/)
-- [状态转移函数（State Transition Function）](/glossary/dynamics/state-transition-function/)
-- [拉格朗日系数（Lagrangian Coefficients）](/glossary/dynamics/lagrangian-coefficients/)
+- [KAM定理（KAM Theorem）](/glossary/dynamics/kam/)
+- 希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）
+- 状态转移函数（State Transition Function）
+- 拉格朗日系数（Lagrangian Coefficients）
 
 ## 参考文献
 

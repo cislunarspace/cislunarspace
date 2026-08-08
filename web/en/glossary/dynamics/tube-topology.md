@@ -40,7 +40,7 @@ This concept plays an important role in trajectory optimization and mission plan
 
 - [Jacobi Integral](/en/glossary/dynamics/jacobi-integral/)
 - [Coriolis Theorem](/en/glossary/dynamics/coriolis-theorem/)
-- [Velocity Function](/en/glossary/dynamics/velocity-function/)
+- Velocity Function
 
 ## References
 

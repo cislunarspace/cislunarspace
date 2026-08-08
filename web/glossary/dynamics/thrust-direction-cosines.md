@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/thrust-direction-cosines/
 
 ## 相关概念
 
-- [最小范数解（Minimum Norm Solution）](/glossary/dynamics/minimum-norm-solution/)
-- [刚体动力学（Rigid Body Dynamics）](/glossary/dynamics/rigid-body-dynamics/)
-- [变长设计空间（Variable-Size Design Space, VSDS）](/glossary/dynamics/variable-size-design-space-vsds/)
-- [分析梯度（Analytical Gradient）](/glossary/dynamics/analytical-gradient/)
+- 最小范数解（Minimum Norm Solution）
+- 刚体动力学（Rigid Body Dynamics）
+- 变长设计空间（Variable-Size Design Space, VSDS）
+- 分析梯度（Analytical Gradient）
 
 ## 参考文献
 

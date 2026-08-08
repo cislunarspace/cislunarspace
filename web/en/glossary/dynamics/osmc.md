@@ -38,8 +38,8 @@ The 最优滑模控制 concept is applied in cislunar space research, providing 
 
 ## Related Concepts
 
-- [Non-Singular Fast Terminal Sliding Mode Control, NFTSM](/en/glossary/dynamics/nftsm/)
-- [Double Threshold Sliding Mode Control, DTSM](/en/glossary/dynamics/dtsm/)
+- Non-Singular Fast Terminal Sliding Mode Control, NFTSM
+- Double Threshold Sliding Mode Control, DTSM
 
 ## References
 

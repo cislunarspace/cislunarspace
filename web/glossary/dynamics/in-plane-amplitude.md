@@ -38,9 +38,9 @@ Lissajous轨道或halo轨道在旋转坐标系xy平面内运动的振幅，记�
 
 ## 相关概念
 
-- [三体问题（Three-Body Problem）](/glossary/dynamics/three-body-problem/)
-- [最优控制（Optimal Control）](/glossary/dynamics/optimal-control/)
-- [轨迹优化（Trajectory Optimization）](/glossary/dynamics/trajectory-optimization/)
+- 三体问题（Three-Body Problem）
+- 最优控制（Optimal Control）
+- 轨迹优化（Trajectory Optimization）
 
 ## 参考文献
 

@@ -33,7 +33,7 @@ An iterative strategy that starts from a high thrust level and progressively red
 
 ## Related Concepts
 
-- [Libration Point / Lagrange Point](/en/glossary/dynamics/libration-point-lagrange-point/)
+- Libration Point / Lagrange Point
 
 ## References
 

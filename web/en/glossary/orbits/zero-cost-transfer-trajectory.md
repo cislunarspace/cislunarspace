@@ -41,7 +41,7 @@ A transfer trajectory from a lunar orbit to a libration point Halo orbit that re
 - [Synodic Resonant Periodic Orbit](/en/glossary/orbits/resonant-orbit-family/)
 - [Halo Orbit Amplitude](/en/glossary/orbits/halo-orbit/)
 - [Low-Energy Phase Alignment](/en/glossary/orbits/nrho/)
-- [Near Rectilinear Halo Orbit](/en/glossary/orbits/near-rectilinear-halo-orbit/)
+- Near Rectilinear Halo Orbit
 
 ## References
 

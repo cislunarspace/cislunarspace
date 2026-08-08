@@ -39,8 +39,8 @@ permalink: /glossary/dynamics/impulse-interval/
 ## 相关概念
 
 - [控制参数化（Control Parametrization）](/glossary/dynamics/control-parametrization/)
-- [推力器调制器（Thruster Modulator）](/glossary/dynamics/thruster-modulator/)
-- [粒子群优化器（Particle Swarm Optimizer）](/glossary/dynamics/particle-swarm-optimizer/)
+- 推力器调制器（Thruster Modulator）
+- 粒子群优化器（Particle Swarm Optimizer）
 - [脉冲间隔（Impulse Interval）](/glossary/dynamics/impulse-interval/)
 
 ## 参考文献

@@ -116,10 +116,10 @@ $$\begin{bmatrix} \delta \dot{y}_0 \\ \delta T/2 \end{bmatrix} = -\mathbf{M}^{-1
 ## 相关概念
 
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [拼接法（Patched Method）](/glossary/dynamics/patched-method/)
+- 拼接法（Patched Method）
 - [延拓（Continuation）](/glossary/dynamics/continuation/)
 - [庞加莱图（Poincaré Map）](/glossary/dynamics/poincare-map/)
-- [脉冲机动（Impulsive Maneuver）](/glossary/dynamics/impulsive-maneuver/)
+- 脉冲机动（Impulsive Maneuver）
 
 ## 参考文献
 

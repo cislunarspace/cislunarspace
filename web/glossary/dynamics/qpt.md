@@ -38,10 +38,10 @@ CRTBP中由拟周期非共振轨道覆盖的有界闭曲面，环绕参考周期
 
 ## 相关概念
 
-- [隐藏基因遗传算法（Hidden-Genes Genetic Algorithm, HGGA）](/glossary/dynamics/hgga/)
-- [变长设计空间（Variable-Size Design Space, VSDS）](/glossary/dynamics/vsds/)
+- [隐藏基因遗传算法（Hidden-Genes Genetic Algorithm, HGGA）](/glossary/fundamentals/hidden-genes-genetic-algorithm/)
+- 变长设计空间（Variable-Size Design Space, VSDS）
 - [驻留维持（Station-Keeping）](/glossary/dynamics/sk/)
-- [目标点法（Target Point Method）](/glossary/dynamics/tp/)
+- 目标点法（Target Point Method）
 
 ## 参考文献
 

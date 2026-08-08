@@ -38,10 +38,10 @@ permalink: /glossary/observation/dro-capture-projection-surface/
 
 ## 相关概念
 
-- [在轨标定（On-orbit Calibration）](/glossary/observation/on-orbit-calibration/)
-- [多源信息融合（Multi-Source Information Fusion）](/glossary/observation/multi-source-information-fusion/)
-- [视线测量（Line-of-Sight Measurement）](/glossary/observation/line-of-sight-measurement/)
-- [精度标校（Precision Calibration）](/glossary/observation/precision-calibration/)
+- 在轨标定（On-orbit Calibration）
+- 多源信息融合（Multi-Source Information Fusion）
+- 视线测量（Line-of-Sight Measurement）
+- 精度标校（Precision Calibration）
 
 ## 参考文献
 

@@ -40,8 +40,8 @@ permalink: /glossary/fundamentals/shooting-method/
 
 - [多重打靶法（Multiple Shooting Method）](/glossary/fundamentals/multiple-shooting-method/)
 - [连续小推力（Continuous Low Thrust）](/glossary/fundamentals/continuous-low-thrust/)
-- [双向链路（Two-Way Link）](/glossary/fundamentals/two-way-link/)
-- [惯性坐标系（Inertial Coordinate System）](/glossary/fundamentals/inertial-coordinate-system/)
+- 双向链路（Two-Way Link）
+- 惯性坐标系（Inertial Coordinate System）
 
 ## 参考文献
 

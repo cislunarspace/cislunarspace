@@ -38,8 +38,8 @@ In the field of dynamics, Insertion Impulse is a key element for understanding a
 
 ## Related Concepts
 
-- [fta](/en/glossary/dynamics/fta/)
-- [fbp](/en/glossary/dynamics/fbp/)
+- fta
+- fbp
 - [im](/en/glossary/dynamics/im/)
 - [de](/en/glossary/dynamics/de/)
 

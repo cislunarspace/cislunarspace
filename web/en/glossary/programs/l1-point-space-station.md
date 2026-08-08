@@ -38,10 +38,10 @@ This concept is essential for understanding motion characteristics in mission pl
 
 ## Related Concepts
 
-- [SpiderFab](/en/glossary/programs/spiderfab/)
-- [Minimum Velocity Deviation Point](/en/glossary/dynamics/minimum-velocity-deviation-point/)
-- [Space Nutation Rate](/en/glossary/dynamics/space-nutation-rate/)
-- [Sigma Point Kalman Filter](/en/glossary/dynamics/sigma-point-kalman-filter/)
+- SpiderFab
+- Minimum Velocity Deviation Point
+- Space Nutation Rate
+- Sigma Point Kalman Filter
 
 ## References
 

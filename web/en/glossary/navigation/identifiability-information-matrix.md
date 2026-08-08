@@ -38,10 +38,10 @@ This concept is essential for understanding motion characteristics in mission pl
 
 ## Related Concepts
 
-- [Far-Range Guidance Section](/en/glossary/navigation/far-range-guidance-section/)
-- [Cross-Product Matrix / Skew-Symmetric Matrix](/en/glossary/fundamentals/cross-product-matrix-skew-symmetric-matrix/)
-- [Combined Covariance Matrix](/en/glossary/fundamentals/combined-covariance-matrix/)
-- [Force Model Simplification](/en/glossary/navigation/force-model-simplification/)
+- Far-Range Guidance Section
+- Cross-Product Matrix / Skew-Symmetric Matrix
+- Combined Covariance Matrix
+- Force Model Simplification
 
 ## References
 

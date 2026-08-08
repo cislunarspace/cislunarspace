@@ -40,8 +40,8 @@ A two-point boundary value problem solved under multi-body gravitational perturb
 
 - [Hill 模型（Hill Model）](/glossary/dynamics/hill-model/)
 - [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/formation-fixed-relative-to-inertial-frame/)
-- [探测器定位（Probe Targeting）](/glossary/dynamics/probe-targeting/)
-- [遗传算法（Genetic Algorithm）](/glossary/dynamics/genetic-algorithm/)
+- 探测器定位（Probe Targeting）
+- 遗传算法（Genetic Algorithm）
 
 ## References
 

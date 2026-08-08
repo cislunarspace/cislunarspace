@@ -38,9 +38,9 @@ Electric propulsion offers high specific impulse with low thrust, suitable for d
 
 ## Related Concepts
 
-- [Variable Structure Sliding Mode Control](/en/glossary/fundamentals/vssmc/)
+- Variable Structure Sliding Mode Control
 - [Pontryagin Minimum Principle](/en/glossary/fundamentals/pmp/)
-- [Error Function](/en/glossary/fundamentals/erf/)
+- Error Function
 
 ## References
 

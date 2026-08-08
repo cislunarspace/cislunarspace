@@ -81,7 +81,7 @@ Fuel-optimal control has broad applications in cislunar space missions:
 ## Related Concepts
 
 - [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/)
-- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagin-principle/)
+- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/)
 - [Switching Function](/en/glossary/dynamics/switching-function/)
 - [Homotopy Method](/en/glossary/dynamics/homotopy-method/)

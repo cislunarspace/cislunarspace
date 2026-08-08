@@ -38,9 +38,9 @@ In the rotating frame of the CR3BP, the scalar function U = G(m_E/r_E + m_M/r_M)
 
 ## Related Concepts
 
-- [Lyapunov Stability](/en/glossary/dynamics/lyapunov-stability/)
+- Lyapunov Stability
 - [Adams-Cowell Integrator](/en/glossary/dynamics/adams-cowell-integrator/)
-- [Hansen Coefficients](/en/glossary/dynamics/hansen-coefficients/)
+- Hansen Coefficients
 - [Control Curve, U_i](/en/glossary/dynamics/control-curve-ui/)
 
 ## References

@@ -39,9 +39,9 @@ This concept plays an important role in cislunar orbit design and transfer analy
 ## Related Concepts
 
 - [Monte Carlo Trajectory Shooting, MCTS](/en/glossary/dynamics/mcts/)
-- [Powered Lunar Flyby, PLF](/en/glossary/dynamics/plf/)
+- Powered Lunar Flyby, PLF
 - [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
-- [Insertion Delta-V](/en/glossary/dynamics/insertion-delta-v/)
+- Insertion Delta-V
 
 ## References
 

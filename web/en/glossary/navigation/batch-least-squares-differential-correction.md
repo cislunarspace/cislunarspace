@@ -33,10 +33,10 @@ A differential correction method that uses weighted least-squares to estimate or
 
 ## Related Concepts
 
-- [Low Lunar Orbit, LLO](/en/glossary/orbits/low-lunar-orbit-llo/)
-- [Complex Periodic Orbit](/en/glossary/orbits/complex-periodic-orbit/)
-- [Orbital Transfer Stage](/en/glossary/other/orbital-transfer-stage/)
-- [Halo Orbit Insertion, HOI](/en/glossary/orbits/halo-orbit-insertion-hoi/)
+- Low Lunar Orbit, LLO
+- Complex Periodic Orbit
+- Orbital Transfer Stage
+- Halo Orbit Insertion, HOI
 
 ## References
 

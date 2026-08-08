@@ -68,8 +68,8 @@ In cislunar space trajectory optimization, co-state variables pervade the entire
 
 ## Related Concepts
 
-- [Co-state Normalization](/en/glossary/dynamics/co-state-normalization/)
-- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagin-principle/)
+- Co-state Normalization
+- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 - [Hamiltonian](/en/glossary/dynamics/hamiltonian/)
 - [Two-Point Boundary Value Problem (TPBVP)](/en/glossary/dynamics/tpbvp/)
 - [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/)

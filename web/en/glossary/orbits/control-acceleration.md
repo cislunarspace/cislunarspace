@@ -40,7 +40,7 @@ This class of orbits has significant application value in lunar mission site sel
 
 - [Synodic Resonant Periodic Orbit](/en/glossary/orbits/resonant-orbit-family/)
 - [Halo Orbit Amplitude](/en/glossary/orbits/halo-orbit/)
-- [Near Rectilinear Halo Orbit](/en/glossary/orbits/near-rectilinear-halo-orbit/)
+- Near Rectilinear Halo Orbit
 - [Orbital Stability Index](/en/glossary/orbits/orbital-stability-index/)
 
 ## References

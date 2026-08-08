@@ -38,9 +38,9 @@ This concept has important application value in cislunar space research and miss
 
 ## Related Concepts
 
-- [Nonlinear Programming](/en/glossary/dynamics/nlp/)
+- Nonlinear Programming
 - [Zero-Velocity Curve](/en/glossary/dynamics/zvc/)
-- [Departure Excess Velocity](/en/glossary/dynamics/c3/)
+- Departure Excess Velocity
 
 ## References
 

@@ -41,7 +41,7 @@ Bang-off-Bang推力剖面为航天器轨道力学研究提供了基本框架，�
 
 ## 相关概念
 
-- [春分点（Vernal Equinox）](/glossary/fundamentals/vernal-equinox/)
+- 春分点（Vernal Equinox）
 - [L2-L1同伦法（L2-L1 Homotopy）](/glossary/fundamentals/l2-l1-homotopy/)
 - [分析历表（Analytical Ephemeris）](/glossary/fundamentals/analytical-ephemeris/)
 

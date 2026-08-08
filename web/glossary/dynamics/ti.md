@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/ti/
 ## 相关概念
 
 - [多脉冲机动（Multi-Impulse Maneuver, MI）](/glossary/dynamics/multi-impulse-maneuver/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/state-transition-matrix/)
+- 状态转移矩阵（State Transition Matrix）
 - [共线平动点轨道（Collinear Libration Point Orbit）](/glossary/orbits/lagrangian-point/）
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 

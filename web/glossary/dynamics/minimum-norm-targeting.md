@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/minimum-norm-targeting/
 
 ## 相关概念
 
-- [希尔球半径（Hill Sphere Radius）](/glossary/dynamics/hill-sphere-radius/)
+- 希尔球半径（Hill Sphere Radius）
 - [伪谱凸优化（Pseudospectral Convex Optimization）](/glossary/dynamics/pseudospectral-convex-optimization/)
 - [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincar-map-representation/)
-- [混合差分动态规划（Hybrid Differential Dynamic Programming, HDDP）](/glossary/dynamics/hybrid-differential-dynamic-programming-hddp/)
+- [混合差分动态规划（Hybrid Differential Dynamic Programming, HDDP）](/glossary/dynamics/hddp/)
 
 ## 参考文献
 

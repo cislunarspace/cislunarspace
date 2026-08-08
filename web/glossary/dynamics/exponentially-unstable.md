@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/exponentially-unstable/
 
 ## 相关概念
 
-- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
+- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
-- [稳定性（Stability）](/glossary/dynamics/stability/)
+- 稳定性（Stability）
 
 ## 参考文献
 

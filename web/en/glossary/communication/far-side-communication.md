@@ -38,10 +38,10 @@ Far Side Communication is cislunar space 通信系统 关键技术之一。在�
 
 ## Related Concepts
 
-- [Beam Width Angle](/en/glossary/communication/beam-width-angle/)
-- [Inter-Satellite Link](/en/glossary/communication/inter-satellite-link/)
-- [Age of Information](/en/glossary/communication/age-of-information/)
-- [Newton's Law of Gravitation](/en/glossary/fundamentals/newtons-law-of-gravitation/)
+- Beam Width Angle
+- Inter-Satellite Link
+- Age of Information
+- Newton's Law of Gravitation
 
 ## References
 

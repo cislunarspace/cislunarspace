@@ -38,10 +38,10 @@ Quasi-Periodic Orbit, QPO is a key element in cislunar space orbit design, with 
 
 ## Related Concepts
 
-- [Earth-Moon L1 Halo Orbit](/en/glossary/orbits/earth-moon-l1-halo-orbit/)
-- [Ballistic Lunar Transfer](/en/glossary/orbits/ballistic-lunar-transfer/)
-- [Weak Stability Region](/en/glossary/orbits/weak-stability-region/)
-- [Triangular Libration Points](/en/glossary/orbits/triangular-libration-points/)
+- Earth-Moon L1 Halo Orbit
+- Ballistic Lunar Transfer
+- Weak Stability Region
+- [Triangular Libration Points](/en/glossary/dynamics/l4-l5/)
 
 ## References
 

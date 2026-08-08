@@ -38,10 +38,10 @@ permalink: /glossary/navigation/relative-trajectory-following/
 
 ## 相关概念
 
-- [碰撞规避机动（Collision Avoidance Maneuver）](/glossary/navigation/collision-avoidance-maneuver/)
-- [状态估计（State Estimation）](/glossary/navigation/state-estimation/)
-- [地月空间PNT服务（Positioning, Navigation and Timing Service in Cislunar Space, PNT）](/glossary/navigation/positioning-navigation-and-timing-service-in-cislunar-space-pnt/)
-- [历表参数压缩（Ephemeris Parameter Compression）](/glossary/navigation/ephemeris-parameter-compression/)
+- 碰撞规避机动（Collision Avoidance Maneuver）
+- 状态估计（State Estimation）
+- 地月空间PNT服务（Positioning, Navigation and Timing Service in Cislunar Space, PNT）
+- 历表参数压缩（Ephemeris Parameter Compression）
 
 ## 参考文献
 

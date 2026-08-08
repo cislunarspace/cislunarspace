@@ -38,9 +38,9 @@ The selenocentric dynamic flight segment of Earth-Moon transfer trajectory, from
 
 ## Related Concepts
 
-- [垂直振幅](/en/glossary/orbits/垂直振幅/)
-- [z方向运动振幅](/en/glossary/orbits/z方向运动振幅/)
-- [锥角](/en/glossary/orbits/锥角/)
+- 垂直振幅
+- [z方向运动振幅](/en/glossary/orbits/zm/)
+- 锥角
 
 ## References
 

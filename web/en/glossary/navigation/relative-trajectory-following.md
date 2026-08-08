@@ -38,10 +38,10 @@ This term has application value in the design and analysis of cislunar space mis
 
 ## Related Concepts
 
-- [Collision Avoidance Maneuver](/en/glossary/navigation/collision-avoidance-maneuver/)
-- [State Estimation](/en/glossary/navigation/state-estimation/)
-- [Positioning, Navigation and Timing Service in Cislunar Space, PNT](/en/glossary/navigation/positioning-navigation-and-timing-service-in-cislunar-space-pnt/)
-- [Ephemeris Parameter Compression](/en/glossary/navigation/ephemeris-parameter-compression/)
+- Collision Avoidance Maneuver
+- State Estimation
+- Positioning, Navigation and Timing Service in Cislunar Space, PNT
+- Ephemeris Parameter Compression
 
 ## References
 

@@ -40,9 +40,9 @@ permalink: /glossary/programs/terrestrial-segment-constellation/
 
 ## 相关概念
 
-- [在轨清理（On-orbit Debris Removal）](/glossary/programs/on-orbit-debris-removal/)
-- [部署策略（Deployment Strategy）](/glossary/programs/deployment-strategy/)
-- [在轨重组（On-orbit Reconfiguration）](/glossary/programs/on-orbit-reconfiguration/)
+- 在轨清理（On-orbit Debris Removal）
+- 部署策略（Deployment Strategy）
+- 在轨重组（On-orbit Reconfiguration）
 
 ## 参考文献
 

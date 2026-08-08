@@ -38,9 +38,9 @@ A theorem on the existence of invariant manifolds near equilibrium points, formi
 
 ## Related Concepts
 
-- [微分代数](/en/glossary/dynamics/微分代数/)
-- [羽流冲击](/en/glossary/dynamics/羽流冲击/)
-- [动量积分](/en/glossary/dynamics/动量积分/)
+- 微分代数
+- 羽流冲击
+- 动量积分
 
 ## References
 

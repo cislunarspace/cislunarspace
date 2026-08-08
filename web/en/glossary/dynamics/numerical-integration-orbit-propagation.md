@@ -38,7 +38,7 @@ Step-by-step numerical solution of the spacecraft equations of motion to obtain 
 
 ## Related Concepts
 
-- [Hill Sphere Radius](/en/glossary/dynamics/hill-sphere-radius/)
+- Hill Sphere Radius
 - [Pseudospectral Convex Optimization](/en/glossary/dynamics/pseudospectral-convex-optimization/)
 - [Poincaré Map Representation](/en/glossary/dynamics/poincar-map-representation/)
 - [Minimum Norm Targeting](/en/glossary/dynamics/minimum-norm-targeting/)

@@ -39,7 +39,7 @@ Variables dual to the state variables in optimal control theory, analogous to La
 ## Related Concepts
 
 - [Piecewise Polynomial Control](/en/glossary/fundamentals/piecewise-polynomial-control/)
-- [Reference Ellipsoid](/en/glossary/fundamentals/reference-ellipsoid/)
+- Reference Ellipsoid
 - [Low-Thrust Propulsion](/en/glossary/fundamentals/low-thrust-propulsion/)
 - [Primer vector](/en/glossary/fundamentals/primer-vector/)
 

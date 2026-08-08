@@ -38,10 +38,10 @@ This term has significant practical applications in cislunar mission planning an
 
 ## Related Concepts
 
-- [Cutoff Magnitude, m_co](/en/glossary/observation/mco/)
-- [Observability Metric, Gamma](/en/glossary/observation/gamma/)
-- [Diffuse Reflectance, a_diff](/en/glossary/observation/adiff/)
-- [Specular Reflectance, a_spec](/en/glossary/observation/aspec/)
+- Cutoff Magnitude, m_co
+- Observability Metric, Gamma
+- Diffuse Reflectance, a_diff
+- Specular Reflectance, a_spec
 
 ## References
 

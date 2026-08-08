@@ -38,10 +38,10 @@ permalink: /glossary/navigation/deep-space-navigation-constellation/
 
 ## 相关概念
 
-- [钟差（Clock Bias）](/glossary/navigation/clock-bias/)
-- [视直径（Apparent Diameter）](/glossary/navigation/apparent-diameter/)
-- [核心航天器（Core Spacecraft）](/glossary/navigation/core-spacecraft/)
-- [码伪距（Code Pseudo-range）](/glossary/navigation/code-pseudo-range/)
+- 钟差（Clock Bias）
+- 视直径（Apparent Diameter）
+- 核心航天器（Core Spacecraft）
+- 码伪距（Code Pseudo-range）
 
 ## 参考文献
 

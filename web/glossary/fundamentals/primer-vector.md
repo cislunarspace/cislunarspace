@@ -39,9 +39,9 @@ Lawden定义的向量 p(t) = -λ_v(t)，其中λ_v是速度协态变量。它决
 ## 相关概念
 
 - [低推力推进（Low-Thrust Propulsion）](/glossary/fundamentals/low-thrust-propulsion/)
-- [参考椭球（Reference Ellipsoid）](/glossary/fundamentals/reference-ellipsoid/)
-- [运动学（Kinematics）](/glossary/fundamentals/kinematics/)
-- [着陆稳定性（Landing Stability）](/glossary/fundamentals/landing-stability/)
+- 参考椭球（Reference Ellipsoid）
+- 运动学（Kinematics）
+- 着陆稳定性（Landing Stability）
 
 ## 参考文献
 

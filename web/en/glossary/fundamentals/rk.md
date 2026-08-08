@@ -38,9 +38,9 @@ The Runge-Kutta method is a fundamental numerical method for solving ordinary di
 
 ## Related Concepts
 
-- [Variable Structure Sliding Mode Control](/en/glossary/fundamentals/vssmc/)
+- Variable Structure Sliding Mode Control
 - [Pontryagin Minimum Principle](/en/glossary/fundamentals/pmp/)
-- [Error Function](/en/glossary/fundamentals/erf/)
+- Error Function
 
 ## References
 

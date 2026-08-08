@@ -39,9 +39,9 @@ GRGM1200A Lunar Gravity Field Model is used to evaluate the observation performa
 ## Related Concepts
 
 - [Solar Synodic Period](/en/glossary/observation/tsun/)
-- [Coverage Time Percentage, CTP](/en/glossary/observation/ctp/)
-- [Payload Field of View, PFOV](/en/glossary/observation/pfov/)
-- [Surface Coverage Percentage, SCP](/en/glossary/observation/scp/)
+- Coverage Time Percentage, CTP
+- Payload Field of View, PFOV
+- Surface Coverage Percentage, SCP
 
 ## References
 

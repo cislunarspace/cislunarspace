@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-a
 
 ## 相关概念
 
-- [非线性规划（Nonlinear Programming）](/glossary/dynamics/nlp/)
+- 非线性规划（Nonlinear Programming）
 - [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/zvc/)
 - [形状基方法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
 

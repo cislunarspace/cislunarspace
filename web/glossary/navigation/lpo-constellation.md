@@ -38,9 +38,9 @@ permalink: /glossary/navigation/lpo-constellation/
 
 ## 相关概念
 
-- [月面接收机（Lunar Surface Receiver）](/glossary/navigation/lunar-surface-receiver/)
-- [几何精度因子（Geometric Dilution of Precision, GDOP）](/glossary/navigation/geometric-dilution-of-precision-gdop/)
-- [星间测距（Satellite-to-Satellite Tracking, SST）](/glossary/navigation/satellite-to-satellite-tracking-sst/)
+- 月面接收机（Lunar Surface Receiver）
+- 几何精度因子（Geometric Dilution of Precision, GDOP）
+- [星间测距（Satellite-to-Satellite Tracking, SST）](/glossary/navigation/inter-satellite-ranging/)
 
 ## 参考文献
 

@@ -38,10 +38,10 @@ permalink: /glossary/programs/l1-point-space-station/
 
 ## 相关概念
 
-- [SpiderFab（SpiderFab）](/glossary/programs/spiderfab/)
-- [最小速度偏差点（Minimum Velocity Deviation Point）](/glossary/dynamics/minimum-velocity-deviation-point/)
-- [空间章动速率（Space Nutation Rate）](/glossary/dynamics/space-nutation-rate/)
-- [sigma点卡尔曼滤波器（Sigma Point Kalman Filter）](/glossary/dynamics/sigma-point-kalman-filter/)
+- SpiderFab（SpiderFab）
+- 最小速度偏差点（Minimum Velocity Deviation Point）
+- 空间章动速率（Space Nutation Rate）
+- sigma点卡尔曼滤波器（Sigma Point Kalman Filter）
 
 ## 参考文献
 

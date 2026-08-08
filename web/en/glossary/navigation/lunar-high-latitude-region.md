@@ -40,8 +40,8 @@ These coefficients form an important tool in lunar theory, essential for high-pr
 
 - [Liaison Navigation](/en/glossary/navigation/liaison-navigation/)
 - [Deficient Rank](/en/glossary/navigation/deficient-rank/)
-- [Doppler velocity measurement](/en/glossary/navigation/doppler-velocity-measurement/)
-- [Astronometric Angle Measurement](/en/glossary/navigation/astronometric-angle-measurement/)
+- Doppler velocity measurement
+- Astronometric Angle Measurement
 
 ## References
 

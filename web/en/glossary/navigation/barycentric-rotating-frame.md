@@ -38,10 +38,10 @@ This concept is applied in analysis and design, with important implications for 
 
 ## Related Concepts
 
-- [Far-Range Guidance Section](/en/glossary/navigation/far-range-guidance-section/)
-- [Force Model Simplification](/en/glossary/navigation/force-model-simplification/)
-- [Autonomous Inspection and Servicing, AIS](/en/glossary/navigation/autonomous-inspection-and-servicing-ais/)
-- [Onboard Orbit Prediction](/en/glossary/navigation/onboard-orbit-prediction/)
+- Far-Range Guidance Section
+- Force Model Simplification
+- Autonomous Inspection and Servicing, AIS
+- Onboard Orbit Prediction
 
 ## References
 

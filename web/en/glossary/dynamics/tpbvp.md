@@ -91,8 +91,8 @@ In cislunar space missions, the TPBVP is the core computational object of indire
 ## Related Concepts
 
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/)
-- [Co-state Normalization](/en/glossary/dynamics/co-state-normalization/)
-- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagin-principle/)
+- Co-state Normalization
+- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 - [Hamiltonian](/en/glossary/dynamics/hamiltonian/)
 - [Shooting Method](/en/glossary/dynamics/shooting-method/)
 - [Homotopy Method](/en/glossary/dynamics/homotopy-method/)

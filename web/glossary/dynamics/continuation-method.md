@@ -74,10 +74,10 @@ permalink: /glossary/dynamics/continuation-method/
 ## 相关概念
 
 - [微分修正法](/glossary/dynamics/differential-correction/)
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [雅可比积分](/glossary/dynamics/jacobi-integral/)
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [倍周期分岔](/glossary/other/period-doubling-bifurcation/)
+- 倍周期分岔
 
 ## 参考文献
 

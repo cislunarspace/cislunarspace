@@ -39,9 +39,9 @@ A reference frame with origin at the Moon's center and axes aligned with the bar
 ## Related Concepts
 
 - [Chebyshev Polynomial](/en/glossary/fundamentals/chebyshev-polynomial/)
-- [Powered Phase](/en/glossary/fundamentals/powered-phase/)
-- [Nuclear Electric Propulsion](/en/glossary/fundamentals/nuclear-electric-propulsion/)
-- [Mid-course Correction](/en/glossary/fundamentals/mid-course-correction/)
+- Powered Phase
+- Nuclear Electric Propulsion
+- Mid-course Correction
 
 ## References
 

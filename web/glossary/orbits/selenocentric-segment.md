@@ -42,8 +42,8 @@ permalink: /glossary/orbits/selenocentric-segment/
 ## 相关概念
 
 - [垂直振幅（Vertical Amplitude）](/glossary/orbits/halo-orbit/)
-- [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/z-direction-motion-amplitude/)
-- [锥角（Cone Angle）](/glossary/orbits/cone-angle/)
+- [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
+- 锥角（Cone Angle）
 
 ## 参考文献
 

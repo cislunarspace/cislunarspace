@@ -38,10 +38,10 @@ Synodic Reference Frame has important applications in cislunar space navigation 
 
 ## Related Concepts
 
-- [Map Projection](/en/glossary/fundamentals/map-projection/)
+- Map Projection
 - [Thrust Magnitude](/en/glossary/fundamentals/thrust-magnitude/)
-- [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
-- [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
+- Deflection Angle
+- Summation Combination of Dual One-Way Ranging
 
 ## References
 

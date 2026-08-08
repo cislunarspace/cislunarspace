@@ -40,7 +40,7 @@ This concept is applicable in cislunar space mission design, orbit optimization,
 
 - [Flight-Path Angle](/en/glossary/dynamics/flight-path-angle/)
 - [Spherical Harmonic Model](/en/glossary/dynamics/spherical-harmonic-model/)
-- [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
+- Ephemeris Model
 - [Artificial Libration Point](/en/glossary/dynamics/artificial-libration-point/)
 
 ## References

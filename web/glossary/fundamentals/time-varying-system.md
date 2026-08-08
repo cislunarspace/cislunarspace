@@ -40,10 +40,10 @@ permalink: /glossary/fundamentals/time-varying-system/
 
 ## 相关概念
 
-- [利普希茨条件（Lipschitz Condition）](/glossary/fundamentals/lipschitz-condition/)
+- 利普希茨条件（Lipschitz Condition）
 - [变时间瞄准（Variable-Time Targeting）](/glossary/fundamentals/variable-time-targeting/)
-- [返回走廊（Return Corridor）](/glossary/fundamentals/return-corridor/)
-- [中间推力弧（Intermediate thrust arc）](/glossary/fundamentals/intermediate-thrust-arc/)
+- 返回走廊（Return Corridor）
+- [中间推力弧（Intermediate thrust arc）](/glossary/fundamentals/it/)
 
 ## 参考文献
 

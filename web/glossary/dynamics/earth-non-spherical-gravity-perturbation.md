@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/earth-non-spherical-gravity-perturbation/
 
 - [航迹角γ（Flight-Path Angle）](/glossary/dynamics/flight-path-angle/)
 - [球谐函数模型（Spherical Harmonic Model）](/glossary/dynamics/spherical-harmonic-model/)
-- [星历模型（Ephemeris Model）](/glossary/dynamics/ephemeris-model/)
+- 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
 
 ## 参考文献

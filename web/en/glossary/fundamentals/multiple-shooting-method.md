@@ -39,9 +39,9 @@ The shooting method solves two-point boundary value problems through iterative a
 ## Related Concepts
 
 - [Continuous Low Thrust](/en/glossary/fundamentals/continuous-low-thrust/)
-- [Two-Way Link](/en/glossary/fundamentals/two-way-link/)
-- [Inertial Coordinate System](/en/glossary/fundamentals/inertial-coordinate-system/)
-- [Equivalent Illuminated Area](/en/glossary/fundamentals/equivalent-illuminated-area/)
+- Two-Way Link
+- Inertial Coordinate System
+- Equivalent Illuminated Area
 
 ## References
 

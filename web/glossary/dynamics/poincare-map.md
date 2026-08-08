@@ -110,7 +110,7 @@ $$P(\mathbf{x}_k) = \mathbf{x}_{k+1}$$
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [延拓（Continuation）](/glossary/dynamics/continuation/)
 - [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
-- [脉冲机动（Impulsive Maneuver）](/glossary/dynamics/impulsive-maneuver/)
+- 脉冲机动（Impulsive Maneuver）
 - 不变环面（Invariant Torus）
 - 混沌轨道（Chaotic Orbit）
 

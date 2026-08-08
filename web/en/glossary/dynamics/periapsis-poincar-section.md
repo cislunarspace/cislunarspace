@@ -38,8 +38,8 @@ In orbital design, analysis, and control, dynamics models are used to predict sp
 
 ## Related Concepts
 
-- [Orbit Improvement](/en/glossary/dynamics/orbit-improvement/)
-- [Cluster Aggregation](/en/glossary/dynamics/cluster-aggregation/)
+- Orbit Improvement
+- Cluster Aggregation
 - [Pseudospectral Method](/en/glossary/dynamics/pseudospectral-method/)
 
 ## References

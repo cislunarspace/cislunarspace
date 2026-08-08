@@ -38,9 +38,9 @@ NASA联合多国航天机构在地月L2点近直线晕轨道上规划建设的�
 
 ## 相关概念
 
-- [鹊桥二号中继星（Queqiao-2 Relay Satellite）](/glossary/programs/queqiao-2-relay-satellite/)
-- [服务周期（Servicing Schedule / Scheduling）](/glossary/programs/servicing-schedule-scheduling/)
-- [下一代太空体系架构（Next Generation Space Architecture）](/glossary/programs/next-generation-space-architecture/)
+- 鹊桥二号中继星（Queqiao-2 Relay Satellite）
+- 服务周期（Servicing Schedule / Scheduling）
+- 下一代太空体系架构（Next Generation Space Architecture）
 
 ## 参考文献
 

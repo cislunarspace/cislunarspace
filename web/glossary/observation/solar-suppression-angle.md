@@ -38,9 +38,9 @@ permalink: /glossary/observation/solar-suppression-angle/
 
 ## 相关概念
 
-- [保持监视（Custody Maintenance）](/glossary/observation/custody-maintenance/)
-- [孔径测光（Aperture Photometry）](/glossary/observation/aperture-photometry/)
-- [近地天体（Near-Earth Object, NEO）](/glossary/observation/near-earth-object-neo/)
+- 保持监视（Custody Maintenance）
+- 孔径测光（Aperture Photometry）
+- 近地天体（Near-Earth Object, NEO）
 
 ## 参考文献
 

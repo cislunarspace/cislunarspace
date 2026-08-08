@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/lindstedt-poincar-series-expansion/
 
 ## 相关概念
 
-- [顺行轨道（Prograde Orbit）](/glossary/fundamentals/prograde-orbit/)
+- 顺行轨道（Prograde Orbit）
 - [强Legendre条件（Strong Legendre Condition）](/glossary/fundamentals/strong-legendre-condition/)
-- [统一轨道根数（Unified Orbital Elements）](/glossary/fundamentals/unified-orbital-elements/)
+- 统一轨道根数（Unified Orbital Elements）
 - [小分母（Small Denominator）](/glossary/fundamentals/small-denominator/)
 
 ## 参考文献

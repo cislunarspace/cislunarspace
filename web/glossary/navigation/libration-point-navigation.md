@@ -40,10 +40,10 @@ permalink: /glossary/navigation/libration-point-navigation/
 
 ## 相关概念
 
-- [单差观测（Single-Difference Observation）](/glossary/navigation/singledifference-observation/)
-- [芯片级原子钟（Chip Scale Atomic Clock）](/glossary/navigation/chip-scale-atomic-clock/)
-- [粒子滤波（Particle Filter）](/glossary/navigation/particle-filter/)
-- [测轨误差（Orbit Determination Error）](/glossary/navigation/orbit-determination-error/)
+- 单差观测（Single-Difference Observation）
+- 芯片级原子钟（Chip Scale Atomic Clock）
+- 粒子滤波（Particle Filter）
+- 测轨误差（Orbit Determination Error）
 
 ## 参考文献
 

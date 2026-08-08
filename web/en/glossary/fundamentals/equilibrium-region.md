@@ -38,10 +38,10 @@ equilibriumregion is Hill region中雅可比constant略high于临界值When appe
 
 ## Related Concepts
 
-- [Orbital State Vector](/en/glossary/fundamentals/orbital-state-vector/)
-- [Coordinate Time](/en/glossary/fundamentals/coordinate-time/)
+- Orbital State Vector
+- Coordinate Time
 - [Hill Frame](/en/glossary/fundamentals/hill-frame/)
-- [Kepler's Laws](/en/glossary/fundamentals/keplers-laws/)
+- Kepler's Laws
 
 ## References
 

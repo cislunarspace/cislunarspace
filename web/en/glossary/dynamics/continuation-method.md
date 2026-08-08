@@ -61,8 +61,8 @@ Continuation methods are essential for:
 
 - [Differential Correction Method](/en/glossary/dynamics/differential-correction/)
 - [Shooting Method](/en/glossary/dynamics/shooting-method/)
-- [Stability Index](/en/glossary/dynamics/stability-index/)
-- [Period-Doubling Bifurcation](/en/glossary/other/period-doubling-bifurcation/)
+- Stability Index
+- Period-Doubling Bifurcation
 
 ## References
 

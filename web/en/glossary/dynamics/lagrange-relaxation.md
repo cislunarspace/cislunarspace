@@ -33,7 +33,7 @@ Method transforming CMDP constrained optimization into an unconstrained MDP by i
 
 ## Related Concepts
 
-- [Libration Point / Lagrange Point](/en/glossary/dynamics/libration-point-lagrange-point/)
+- Libration Point / Lagrange Point
 
 ## References
 

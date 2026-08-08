@@ -38,10 +38,10 @@ The Orbit Chain plays a significant role in cislunar space mission design, analy
 
 ## Related Concepts
 
-- [Football Orbit](/en/glossary/orbits/football-orbit/)
-- [Prograde Polar Orbit](/en/glossary/orbits/prograde-polar-orbit/)
-- [偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）](/en/glossary/orbits/eccentricity-inclination-vector-separation/)
-- [Earth-Moon L2 Halo Orbit](/en/glossary/orbits/earth-moon-l2-halo-orbit/)
+- Football Orbit
+- Prograde Polar Orbit
+- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
+- Earth-Moon L2 Halo Orbit
 
 ## References
 

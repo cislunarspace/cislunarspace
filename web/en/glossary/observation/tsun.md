@@ -38,10 +38,10 @@ Solar Synodic Period is used to evaluate the observation performance of cislunar
 
 ## Related Concepts
 
-- [Coverage Time Percentage, CTP](/en/glossary/observation/ctp/)
-- [Payload Field of View, PFOV](/en/glossary/observation/pfov/)
+- Coverage Time Percentage, CTP
+- Payload Field of View, PFOV
 - [GRGM1200A Lunar Gravity Field Model](/en/glossary/observation/grgm1200a/)
-- [Surface Coverage Percentage, SCP](/en/glossary/observation/scp/)
+- Surface Coverage Percentage, SCP
 
 ## References
 

@@ -39,9 +39,9 @@ An approximation method that simplifies the non-integrable Hamiltonian of the ci
 ## Related Concepts
 
 - [Chebyshev Polynomial](/en/glossary/fundamentals/chebyshev-polynomial/)
-- [Powered Phase](/en/glossary/fundamentals/powered-phase/)
-- [Nuclear Electric Propulsion](/en/glossary/fundamentals/nuclear-electric-propulsion/)
-- [Mid-course Correction](/en/glossary/fundamentals/mid-course-correction/)
+- Powered Phase
+- Nuclear Electric Propulsion
+- Mid-course Correction
 
 ## References
 

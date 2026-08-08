@@ -38,9 +38,9 @@ Navigation infrastructure deployed in cislunar space to provide spatiotemporal r
 
 ## Related Concepts
 
-- [轨道振幅](/en/glossary/navigation/轨道振幅/)
-- [星地联合定轨](/en/glossary/navigation/星地联合定轨/)
-- [链路数量](/en/glossary/navigation/链路数量/)
+- [轨道振幅](/en/glossary/navigation/orbital-amplitude/)
+- 星地联合定轨
+- 链路数量
 
 ## References
 

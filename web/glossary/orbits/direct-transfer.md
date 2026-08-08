@@ -38,10 +38,10 @@ permalink: /glossary/orbits/direct-transfer/
 
 ## 相关概念
 
-- [入轨点条件（Orbit Insertion Point Condition）](/glossary/orbits/orbit-insertion-point-condition/)
-- [混合引力辅助转移（Hybrid Gravity Assist Transfer）](/glossary/orbits/hybrid-gravity-assist-transfer/)
-- [近月点相位角（Phase Angle of Perilune）](/glossary/orbits/phase-angle-of-perilune/)
-- [相对周期轨道（Relative Periodic Orbit）](/glossary/orbits/relative-periodic-orbit/)
+- 入轨点条件（Orbit Insertion Point Condition）
+- 混合引力辅助转移（Hybrid Gravity Assist Transfer）
+- 近月点相位角（Phase Angle of Perilune）
+- 相对周期轨道（Relative Periodic Orbit）
 
 ## 参考文献
 

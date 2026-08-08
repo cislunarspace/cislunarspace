@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/n-body-dynamics/
 
 ## 相关概念
 
-- [J2不变量轨道（J2-Invariant Orbit）](/glossary/dynamics/j2-invariant-orbit/)
-- [内点法优化（Interior Point Optimization）](/glossary/dynamics/interior-point-optimization/)
-- [始末状态约束（Start-End State Constraint）](/glossary/dynamics/start-end-state-constraint/)
-- [故障检测与恢复（Fault Detection, Isolation and Recovery, FDIR）](/glossary/dynamics/fault-detection-isolation-and-recovery-fdir/)
+- J2不变量轨道（J2-Invariant Orbit）
+- 内点法优化（Interior Point Optimization）
+- 始末状态约束（Start-End State Constraint）
+- 故障检测与恢复（Fault Detection, Isolation and Recovery, FDIR）
 
 ## 参考文献
 

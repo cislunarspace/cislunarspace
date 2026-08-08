@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/relativistic-correction/
 
 ## 相关概念
 
-- [遭遇区域（Encounter Region）](/glossary/dynamics/encounter-region/)
-- [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/direct-fly-by-transfer-dfbt/)
+- 遭遇区域（Encounter Region）
+- [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/dfbt/)
 - [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/safe-transfer-formation/)
-- [应增距离（Distance-to-be-gained）](/glossary/dynamics/distance-to-be-gained/)
+- 应增距离（Distance-to-be-gained）
 
 ## 参考文献
 

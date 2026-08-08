@@ -38,10 +38,10 @@ The Reference Orbit plays a significant role in cislunar space mission design, a
 
 ## Related Concepts
 
-- [High-Orbit GNSS Side Lobe Reception](/en/glossary/navigation/high-orbit-gnss-side-lobe-reception/)
+- High-Orbit GNSS Side Lobe Reception
 - [Orbital Rendezvous](/en/glossary/navigation/orbital-rendezvous/)
-- [Maneuver Classification](/en/glossary/navigation/maneuver-classification/)
-- [Identifiability Degree](/en/glossary/navigation/identifiability-degree/)
+- Maneuver Classification
+- Identifiability Degree
 
 ## References
 

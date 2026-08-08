@@ -39,10 +39,10 @@ permalink: /glossary/other/monte-carlo-shooting-simulation/
 
 ## 相关概念
 
-- [简化动力学法定轨（Simplified Dynamic Orbit Determination）](/glossary/navigation/simplified-dynamic-orbit-determination/)
-- [地平线光学导航（Horizon-Based Optical Navigation）](/glossary/navigation/horizon-based-optical-navigation/)
-- [集中式扩展卡尔曼滤波（Centralized Extended Kalman Filter）](/glossary/navigation/centralized-extended-kalman-filter/)
-- [动力显式制导（Powered Explicit Guidance, PEG）](/glossary/navigation/powered-explicit-guidance-peg/)
+- 简化动力学法定轨（Simplified Dynamic Orbit Determination）
+- 地平线光学导航（Horizon-Based Optical Navigation）
+- 集中式扩展卡尔曼滤波（Centralized Extended Kalman Filter）
+- 动力显式制导（Powered Explicit Guidance, PEG）
 
 ## 参考文献
 

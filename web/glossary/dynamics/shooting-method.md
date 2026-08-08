@@ -66,8 +66,8 @@ permalink: /glossary/dynamics/shooting-method/
 ## 相关概念
 
 - [微分修正法](/glossary/dynamics/differential-correction/)
-- [状态转移矩阵](/glossary/dynamics/state-transition-matrix/)
-- [二级微分修正法](/glossary/dynamics/two-level-differential-correction/)
+- 状态转移矩阵
+- 二级微分修正法
 - [拼接点](/glossary/dynamics/patch-point/)
 
 ## 参考文献

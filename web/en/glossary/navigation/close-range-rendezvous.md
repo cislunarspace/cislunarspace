@@ -38,9 +38,9 @@ The second phase of rendezvous where the chaser approaches the target from 100 k
 
 ## Related Concepts
 
-- [轨道振幅](/en/glossary/navigation/轨道振幅/)
-- [星地联合定轨](/en/glossary/navigation/星地联合定轨/)
-- [地月空间卫星导航系统](/en/glossary/navigation/地月空间卫星导航系统/)
+- [轨道振幅](/en/glossary/navigation/orbital-amplitude/)
+- 星地联合定轨
+- [地月空间卫星导航系统](/en/glossary/navigation/cislunar-space-satellite-navigation-system/)
 
 ## References
 

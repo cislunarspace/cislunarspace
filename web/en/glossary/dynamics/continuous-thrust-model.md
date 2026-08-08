@@ -38,10 +38,10 @@ The continuous thrust model is the core mathematical framework for electric prop
 
 ## Related Concepts
 
-- [Impulsive Thrust Model](/en/glossary/dynamics/impulsive-thrust-model/)
-- [Electric Propulsion](/en/glossary/programs/electric-propulsion/)
-- [Trajectory Optimization](/en/glossary/fundamentals/trajectory-optimization/)
-- [Thrust Arc](/en/glossary/fundamentals/thrust-arc/)
+- Impulsive Thrust Model
+- [Electric Propulsion](/en/glossary/fundamentals/ep/)
+- Trajectory Optimization
+- Thrust Arc
 
 ## References
 

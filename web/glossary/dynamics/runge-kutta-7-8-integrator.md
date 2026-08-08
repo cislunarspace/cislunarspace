@@ -40,8 +40,8 @@ permalink: /glossary/dynamics/runge-kutta-7-8-integrator/
 
 - [微分改正法](/glossary/fundamentals/differential-correction/)
 - [间接法](/glossary/dynamics/indirect-methods/)
-- [共振条件](/glossary/dynamics/resonance-condition/)
-- [低推力平衡点](/glossary/dynamics/low-thrust-equilibrium-point/)
+- 共振条件
+- 低推力平衡点
 
 ## 参考文献
 

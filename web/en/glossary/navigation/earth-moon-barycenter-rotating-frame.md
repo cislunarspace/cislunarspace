@@ -38,9 +38,9 @@ This concept plays an important role in trajectory optimization and mission plan
 
 ## Related Concepts
 
-- [Fake Solution](/en/glossary/navigation/fake-solution/)
-- [Vision-Based Navigation](/en/glossary/navigation/vision-based-navigation/)
-- [Optical Navigation](/en/glossary/navigation/optical-navigation/)
+- Fake Solution
+- Vision-Based Navigation
+- Optical Navigation
 
 ## References
 

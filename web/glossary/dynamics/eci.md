@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/eci/
 
 ## 相关概念
 
-- [限制性三体问题（Restricted Three-Body Problem）](/glossary/dynamics/restricted-three-body-problem/)
-- [KAM定理（KAM Theorem）](/glossary/dynamics/kam-theorem/)
-- [希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）](/glossary/dynamics/hill-clohessy-wiltshire-equations/)
-- [状态转移函数（State Transition Function）](/glossary/dynamics/state-transition-function/)
+- [限制性三体问题（Restricted Three-Body Problem）](/glossary/dynamics/r3bp/)
+- [KAM定理（KAM Theorem）](/glossary/dynamics/kam/)
+- 希尔-克洛塞-威尔特希尔方程（Hill Clohessy Wiltshire Equations）
+- 状态转移函数（State Transition Function）
 
 ## 参考文献
 

@@ -38,7 +38,7 @@ When departing from the lunar surface, departure velocity primarily depends on t
 
 ## Related Concepts
 
-- [Asymptotic Solution](/en/glossary/dynamics/asymptotic-solution/)
+- Asymptotic Solution
 - [Perilune Database](/en/glossary/dynamics/perilune-database/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet Modal Method](/en/glossary/dynamics/floquet-modal-method/)

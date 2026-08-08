@@ -38,10 +38,10 @@ The Orbital Rendezvous plays a significant role in cislunar space mission design
 
 ## Related Concepts
 
-- [High-Orbit GNSS Side Lobe Reception](/en/glossary/navigation/high-orbit-gnss-side-lobe-reception/)
-- [Maneuver Classification](/en/glossary/navigation/maneuver-classification/)
-- [Identifiability Degree](/en/glossary/navigation/identifiability-degree/)
-- [A Priori Constraint](/en/glossary/navigation/a-priori-constraint/)
+- High-Orbit GNSS Side Lobe Reception
+- Maneuver Classification
+- Identifiability Degree
+- A Priori Constraint
 
 ## References
 

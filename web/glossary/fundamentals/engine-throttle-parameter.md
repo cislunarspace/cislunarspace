@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/engine-throttle-parameter/
 
 ## 相关概念
 
-- [圆锥曲线轨道（Conic Orbit）](/glossary/fundamentals/conic-orbit/)
-- [无网格方法（Meshless Method）](/glossary/fundamentals/meshless-method/)
-- [日光层（Heliosphere）](/glossary/fundamentals/heliosphere/)
-- [开普勒方程（Kepler's Equation）](/glossary/fundamentals/keplers-equation/)
+- 圆锥曲线轨道（Conic Orbit）
+- 无网格方法（Meshless Method）
+- 日光层（Heliosphere）
+- 开普勒方程（Kepler's Equation）
 
 ## 参考文献
 

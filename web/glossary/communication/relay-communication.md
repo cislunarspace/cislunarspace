@@ -38,7 +38,7 @@ permalink: /glossary/communication/relay-communication/
 
 ## 相关概念
 
-- [鹊桥一号中继星（Queqiao-1 Relay Satellite）](/glossary/programs/queqiao-1-relay-satellite/)
+- 鹊桥一号中继星（Queqiao-1 Relay Satellite）
 
 ## 参考文献
 

@@ -38,10 +38,10 @@ Slack variables transform inequality constraints into equality constraints in no
 
 ## Related Concepts
 
-- [Local Vertical Local Horizon](/en/glossary/fundamentals/local-vertical-local-horizon/)
-- [Power Spectral Density](/en/glossary/fundamentals/power-spectral-density/)
+- Local Vertical Local Horizon
+- Power Spectral Density
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
-- [Coplanar Orbital Plane Constraint](/en/glossary/orbits/coplanar-orbital-plane-constraint/)
+- Coplanar Orbital Plane Constraint
 
 ## References
 

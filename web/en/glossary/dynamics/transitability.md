@@ -38,10 +38,10 @@ When designing low-thrust Earth-Moon transfer trajectories, the first step is to
 
 ## Related Concepts
 
-- [Libration Point Orbit](/en/glossary/dynamics/libration-point-orbit/)
+- [Libration Point Orbit](/en/glossary/orbits/libration-point-periodic-orbit/)
 - [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
-- [Impulsive Maneuver](/en/glossary/dynamics/impulsive-maneuver/)
-- [Halo Orbit](/en/glossary/dynamics/halo-orbit/)
+- Impulsive Maneuver
+- [Halo Orbit](/en/glossary/orbits/halo-orbit/)
 
 ## References
 

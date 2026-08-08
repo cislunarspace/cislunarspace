@@ -38,9 +38,9 @@ DRO轨道的线性稳定性使其成为月球任务目标轨道的首选方案�
 
 ## 相关概念
 
-- [推进舱模块（Propulsion Module）](/glossary/programs/propulsion-module/)
-- [月球轨道平台-门户（Lunar Orbital Platform-Gateway, LOP-G）](/glossary/programs/lunar-orbital-platform-gateway-lop-g/)
-- [在轨服务（In-orbit Servicing）](/glossary/programs/in-orbit-servicing/)
+- 推进舱模块（Propulsion Module）
+- 月球轨道平台-门户（Lunar Orbital Platform-Gateway, LOP-G）
+- 在轨服务（In-orbit Servicing）
 
 ## 参考文献
 

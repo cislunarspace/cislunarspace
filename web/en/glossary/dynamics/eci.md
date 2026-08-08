@@ -38,10 +38,10 @@ Earth-Centered Inertial Frame plays an important role in orbital dynamics and at
 
 ## Related Concepts
 
-- [Restricted Three-Body Problem](/en/glossary/dynamics/restricted-three-body-problem/)
-- [KAM Theorem](/en/glossary/dynamics/kam-theorem/)
-- [Hill Clohessy Wiltshire Equations](/en/glossary/dynamics/hill-clohessy-wiltshire-equations/)
-- [State Transition Function](/en/glossary/dynamics/state-transition-function/)
+- Restricted Three-Body Problem
+- [KAM Theorem](/en/glossary/dynamics/kam/)
+- Hill Clohessy Wiltshire Equations
+- State Transition Function
 
 ## References
 

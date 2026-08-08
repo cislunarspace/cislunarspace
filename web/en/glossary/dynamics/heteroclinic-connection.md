@@ -38,10 +38,10 @@ A geometric connection between invariant manifolds of two distinct periodic orbi
 
 ## Related Concepts
 
-- [Lorillo Stability Criterion](/en/glossary/dynamics/lorillo-stability-criterion/)
-- [Stable Eigenvector](/en/glossary/dynamics/stable-eigenvector/)
-- [Lunar Fly-by Method](/en/glossary/dynamics/lunar-fly-by-method/)
-- [Reachability Set](/en/glossary/dynamics/reachability-set/)
+- Lorillo Stability Criterion
+- Stable Eigenvector
+- Lunar Fly-by Method
+- Reachability Set
 
 ## References
 

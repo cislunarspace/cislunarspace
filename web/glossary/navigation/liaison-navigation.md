@@ -39,9 +39,9 @@ permalink: /glossary/navigation/liaison-navigation/
 ## 相关概念
 
 - [秩亏（Deficient Rank）](/glossary/navigation/deficient-rank/)
-- [多普勒测速（Doppler velocity measurement）](/glossary/navigation/doppler-velocity-measurement/)
-- [天文测角量（Astronometric Angle Measurement）](/glossary/navigation/astronometric-angle-measurement/)
-- [交会对接互操作标准（International Rendezvous System Interoperability Standard, IRSIS）](/glossary/navigation/international-rendezvous-system-interoperability-standard-irsis/)
+- 多普勒测速（Doppler velocity measurement）
+- 天文测角量（Astronometric Angle Measurement）
+- 交会对接互操作标准（International Rendezvous System Interoperability Standard, IRSIS）
 
 ## 参考文献
 

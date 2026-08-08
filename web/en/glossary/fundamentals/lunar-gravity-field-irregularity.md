@@ -37,9 +37,9 @@ This term has significant application value in cislunar space missions。In the 
 
 ## Related Concepts
 
-- [Virtual Coplanar Takeoff](/en/glossary/fundamentals/virtual-coplanar-takeoff/)
-- [LP100K Model](/en/glossary/fundamentals/lp100k-model/)
-- [Lunar Fixed Coordinate System](/en/glossary/fundamentals/lunar-fixed-coordinate-system/)
+- Virtual Coplanar Takeoff
+- [LP100K Model](/en/glossary/fundamentals/lp100k/)
+- Lunar Fixed Coordinate System
 
 ## References
 

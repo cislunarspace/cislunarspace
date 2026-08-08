@@ -38,10 +38,10 @@ A set of transfer trajectories with similar geometry and clustered around simila
 
 ## Related Concepts
 
-- [Heteroclinic Transfer](/en/glossary/orbits/heteroclinic-transfer/)
-- [Lunar Flyby](/en/glossary/orbits/lunar-flyby/)
-- [Geosynchronous Orbit, GEO](/en/glossary/orbits/geosynchronous-orbit-geo/)
-- [Deployment Trajectory](/en/glossary/orbits/deployment-trajectory/)
+- Heteroclinic Transfer
+- [Lunar Flyby](/en/glossary/dynamics/lunar-flyby/)
+- Geosynchronous Orbit, GEO
+- Deployment Trajectory
 
 ## References
 

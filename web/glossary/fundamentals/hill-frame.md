@@ -40,10 +40,10 @@ Hill 坐标系以参考航天器为原点，x 沿径向、y 沿航迹方向、z 
 
 ## 相关概念
 
-- [轨道状态向量（Orbital State Vector）](/glossary/fundamentals/orbital-state-vector/)
-- [坐标时（Coordinate Time）](/glossary/fundamentals/coordinate-time/)
-- [开普勒定律（Kepler's Laws）](/glossary/fundamentals/keplers-laws/)
-- [拉格朗日系数（Lagrangian Coefficients）](/glossary/fundamentals/lagrangian-coefficients/)
+- 轨道状态向量（Orbital State Vector）
+- 坐标时（Coordinate Time）
+- 开普勒定律（Kepler's Laws）
+- 拉格朗日系数（Lagrangian Coefficients）
 
 ## 参考文献
 

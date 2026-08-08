@@ -38,9 +38,9 @@ A polar coordinate representation within the geocentric rotating frame, describi
 
 ## Related Concepts
 
-- [Bang推力剖面](/en/glossary/fundamentals/bang推力剖面/)
-- [春分点](/en/glossary/fundamentals/春分点/)
-- [L1同伦法](/en/glossary/fundamentals/l1同伦法/)
+- Bang推力剖面
+- 春分点
+- L1同伦法
 
 ## References
 

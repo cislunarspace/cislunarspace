@@ -39,7 +39,7 @@ This concept has important application value in cislunar space research and miss
 ## Related Concepts
 
 - [Low Earth Orbit Service Station](/en/glossary/programs/leo/)
-- [Asteroid Redirect Mission, ARM](/en/glossary/programs/arm/)
+- Asteroid Redirect Mission, ARM
 
 ## References
 

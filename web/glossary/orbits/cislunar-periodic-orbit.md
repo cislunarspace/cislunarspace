@@ -38,10 +38,10 @@ permalink: /glossary/orbits/cislunar-periodic-orbit/
 
 ## 相关概念
 
-- [轨道相位（Orbit Phase）](/glossary/orbits/orbit-phase/)
+- [轨道相位（Orbit Phase）](/glossary/orbits/tau/)
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
-- [泊松轨道（Parking Orbit）](/glossary/orbits/parking-orbit/)
-- [霍曼转移（Hohmann Transfer）](/glossary/orbits/hohmann-transfer/)
+- 泊松轨道（Parking Orbit）
+- 霍曼转移（Hohmann Transfer）
 
 ## 参考文献
 

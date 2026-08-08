@@ -38,10 +38,10 @@ An orbit determination method that linearizes nonlinear observation equations at
 
 ## Related Concepts
 
-- [Space-Based Optical Observation](/en/glossary/observation/space-based-optical-observation/)
-- [Cislunar Domain Awareness](/en/glossary/observation/cislunar-domain-awareness/)
-- [Subsatellite Point](/en/glossary/observation/subsatellite-point/)
-- [Orbit Prediction Accuracy](/en/glossary/observation/orbit-prediction-accuracy/)
+- Space-Based Optical Observation
+- [Cislunar Domain Awareness](/en/glossary/observation/cda/)
+- Subsatellite Point
+- Orbit Prediction Accuracy
 
 ## References
 

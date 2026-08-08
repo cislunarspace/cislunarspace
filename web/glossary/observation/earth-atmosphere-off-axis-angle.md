@@ -39,9 +39,9 @@ permalink: /glossary/observation/earth-atmosphere-off-axis-angle/
 ## 相关概念
 
 - [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
-- [帧叠加（Frame Stacking）](/glossary/observation/frame-stacking/)
-- [体积去相干（Volume Decorrelation）](/glossary/observation/volume-decorrelation/)
-- [观测相位角（Observation Phase Angle）](/glossary/observation/observation-phase-angle/)
+- 帧叠加（Frame Stacking）
+- 体积去相干（Volume Decorrelation）
+- 观测相位角（Observation Phase Angle）
 
 ## 参考文献
 

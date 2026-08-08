@@ -39,7 +39,7 @@ permalink: /glossary/programs/dro/
 ## 相关概念
 
 - [近地轨道服务站（Low Earth Orbit Service Station）](/glossary/programs/leo/)
-- [小行星重定向任务（Asteroid Redirect Mission, ARM）](/glossary/programs/arm/)
+- 小行星重定向任务（Asteroid Redirect Mission, ARM）
 
 ## 参考文献
 

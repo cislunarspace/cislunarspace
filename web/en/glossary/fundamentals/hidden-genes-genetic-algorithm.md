@@ -40,8 +40,8 @@ A multi-objective optimization algorithm developed by Visonneau et al. for cislu
 
 - [Multiple Shooting Method](/en/glossary/fundamentals/multiple-shooting-method/)
 - [Continuous Low Thrust](/en/glossary/fundamentals/continuous-low-thrust/)
-- [Two-Way Link](/en/glossary/fundamentals/two-way-link/)
-- [Inertial Coordinate System](/en/glossary/fundamentals/inertial-coordinate-system/)
+- Two-Way Link
+- Inertial Coordinate System
 
 ## References
 

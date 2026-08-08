@@ -38,9 +38,9 @@ The planar restricted three-body problem retains key dynamical features while re
 
 ## Related Concepts
 
-- [Variable Structure Sliding Mode Control](/en/glossary/fundamentals/vssmc/)
+- Variable Structure Sliding Mode Control
 - [Pontryagin Minimum Principle](/en/glossary/fundamentals/pmp/)
-- [Error Function](/en/glossary/fundamentals/erf/)
+- Error Function
 
 ## References
 

@@ -38,7 +38,7 @@ The process by which a spacecraft enters a target body's capture region relying 
 
 ## Related Concepts
 
-- [Hill Sphere Radius](/en/glossary/dynamics/hill-sphere-radius/)
+- Hill Sphere Radius
 - [Pseudospectral Convex Optimization](/en/glossary/dynamics/pseudospectral-convex-optimization/)
 - [Poincaré Map Representation](/en/glossary/dynamics/poincar-map-representation/)
 - [Minimum Norm Targeting](/en/glossary/dynamics/minimum-norm-targeting/)

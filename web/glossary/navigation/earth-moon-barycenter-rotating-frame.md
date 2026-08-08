@@ -38,9 +38,9 @@ permalink: /glossary/navigation/earth-moon-barycenter-rotating-frame/
 
 ## 相关概念
 
-- [伪解（Fake Solution）](/glossary/navigation/fake-solution/)
-- [视觉导航（Vision-Based Navigation）](/glossary/navigation/vision-based-navigation/)
-- [光学导航（Optical Navigation）](/glossary/navigation/optical-navigation/)
+- 伪解（Fake Solution）
+- 视觉导航（Vision-Based Navigation）
+- 光学导航（Optical Navigation）
 
 ## 参考文献
 

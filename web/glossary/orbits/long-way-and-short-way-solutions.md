@@ -38,10 +38,10 @@ Lambert 问题在无奇异情况下存在的两个可行解。短程解的转移
 
 ## 相关概念
 
-- [异宿轨道转移（Heteroclinic Transfer）](/glossary/orbits/heteroclinic-transfer/)
-- [月球借力（Lunar Flyby）](/glossary/orbits/lunar-flyby/)
-- [地球同步轨道（Geosynchronous Orbit, GEO）](/glossary/orbits/geosynchronous-orbit-geo/)
-- [部署轨迹（Deployment Trajectory）](/glossary/orbits/deployment-trajectory/)
+- [异宿轨道转移（Heteroclinic Transfer）](/glossary/dynamics/heteroclinic-orbit-transfer/)
+- 月球借力（Lunar Flyby）
+- 地球同步轨道（Geosynchronous Orbit, GEO）
+- 部署轨迹（Deployment Trajectory）
 
 ## 参考文献
 

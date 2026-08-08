@@ -38,8 +38,8 @@ permalink: /glossary/dynamics/osmc/
 
 ## 相关概念
 
-- [非奇异快速终端滑模控制（Non-Singular Fast Terminal Sliding Mode Control, NFTSM）](/glossary/dynamics/nftsm/)
-- [双阈值滑模控制（Double Threshold Sliding Mode Control, DTSM）](/glossary/dynamics/dtsm/)
+- 非奇异快速终端滑模控制（Non-Singular Fast Terminal Sliding Mode Control, NFTSM）
+- 双阈值滑模控制（Double Threshold Sliding Mode Control, DTSM）
 
 ## 参考文献
 

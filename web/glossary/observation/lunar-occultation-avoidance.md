@@ -38,10 +38,10 @@ permalink: /glossary/observation/lunar-occultation-avoidance/
 
 ## 相关概念
 
-- [星间测距（Inter-Satellite Link Ranging）](/glossary/observation/inter-satellite-link-ranging/)
-- [目标覆盖时间占比（Target Coverage Time Ratio）](/glossary/observation/target-coverage-time-ratio/)
+- [星间测距（Inter-Satellite Link Ranging）](/glossary/navigation/inter-satellite-ranging/)
+- 目标覆盖时间占比（Target Coverage Time Ratio）
 - [月掩规避（Lunar Occultation Avoidance）](/glossary/observation/lunar-occultation-avoidance/)
-- [月球排除角（Lunar Exclusion Angle）](/glossary/observation/lunar-exclusion-angle/)
+- [月球排除角（Lunar Exclusion Angle）](/glossary/observation/lea/)
 
 ## 参考文献
 

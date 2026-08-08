@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/osculating-orbital-elements/
 
 ## 相关概念
 
-- [着陆稳定性（Landing Stability）](/glossary/fundamentals/landing-stability/)
-- [转移时间（Time of Flight）](/glossary/fundamentals/time-of-flight/)
-- [混合推进地月转移（Hybrid Propulsion Earth-Moon Transfer）](/glossary/fundamentals/hybrid-propulsion-earth-moon-transfer/)
-- [参考椭球（Reference Ellipsoid）](/glossary/fundamentals/reference-ellipsoid/)
+- 着陆稳定性（Landing Stability）
+- [转移时间（Time of Flight）](/glossary/dynamics/transfer-time/)
+- 混合推进地月转移（Hybrid Propulsion Earth-Moon Transfer）
+- 参考椭球（Reference Ellipsoid）
 
 ## 参考文献
 

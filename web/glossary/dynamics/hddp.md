@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/hddp/
 
 ## 相关概念
 
-- [差分动态规划（Differential Dynamic Programming, DDP）](/glossary/dynamics/ddp/)
+- 差分动态规划（Differential Dynamic Programming, DDP）
 - [多重打靶差分动态规划（Multiple-Shooting Differential Dynamic Programming, MDDP）](/glossary/dynamics/mddp/)
 
 ## 参考文献

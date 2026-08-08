@@ -38,10 +38,10 @@ Departure Time plays an important role in orbit maneuver design, analysis, and t
 
 ## Related Concepts
 
-- [Proximity Operations](/en/glossary/orbits/proximity-operations/)
+- Proximity Operations
 - [Lyapunov Periodic Orbit](/en/glossary/orbits/lyapunov-orbit/)
-- [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
-- [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
+- Deflection Angle
+- Summation Combination of Dual One-Way Ranging
 
 ## References
 

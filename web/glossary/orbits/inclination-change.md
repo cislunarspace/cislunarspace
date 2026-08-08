@@ -40,7 +40,7 @@ DRO以其对初始相位角不敏感的优良特性，成为地月空间任务�
 
 - [异系统Halo轨道（Heterospace-system Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [晕轨道族（Halo Orbit Family）](/glossary/orbits/halo-orbit/)
-- [转移-停泊-交会一体化轨道设计（Integrated Transfer-Parking-Rendezvous Orbit Design）](/glossary/orbits/integrated-transfer-parking-rendezvous-orbit-design/)
+- 转移-停泊-交会一体化轨道设计（Integrated Transfer-Parking-Rendezvous Orbit Design）
 - [EL1-Lyapunov轨道（EL1 Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 
 ## 参考文献

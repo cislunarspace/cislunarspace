@@ -40,7 +40,7 @@ In low-thrust trajectory optimization, minimum-time trajectories serve as a prer
 
 - [Jacobi Integral](/en/glossary/dynamics/jacobi-integral/)
 - [Coriolis Theorem](/en/glossary/dynamics/coriolis-theorem/)
-- [Velocity Function](/en/glossary/dynamics/velocity-function/)
+- Velocity Function
 
 ## References
 

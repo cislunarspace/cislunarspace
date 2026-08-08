@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/short-period-motion/
 
 ## 相关概念
 
-- [有限时间收敛微分器（Finite-Time-Convergent Differentiator, FTCD）](/glossary/dynamics/FTCD/)
-- [规定性能控制（Prescribed Performance Control, PPC）](/glossary/dynamics/PPC/)
-- [规定性能函数（Prescribed Performance Function, PPF）](/glossary/dynamics/PPF/)
-- [终端滑模控制（Terminal Sliding Mode Control, TSMC）](/glossary/dynamics/TSMC/)
+- 有限时间收敛微分器（Finite-Time-Convergent Differentiator, FTCD）
+- 规定性能控制（Prescribed Performance Control, PPC）
+- 规定性能函数（Prescribed Performance Function, PPF）
+- 终端滑模控制（Terminal Sliding Mode Control, TSMC）
 
 ## 参考文献
 

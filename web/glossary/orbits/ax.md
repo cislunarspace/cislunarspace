@@ -39,7 +39,7 @@ Halo轨道在旋转坐标系中沿x轴（大天体到小天体连线方向）的
 ## 相关概念
 
 - [初始周期轨道（Initial Periodic Orbit）](/glossary/orbits/ipo/)
-- [低推力转移（Low-Thrust Transfer）](/glossary/orbits/ltt/)
+- 低推力转移（Low-Thrust Transfer）
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
 - [共振轨道（Resonant Orbit）](/glossary/orbits/ro/)
 

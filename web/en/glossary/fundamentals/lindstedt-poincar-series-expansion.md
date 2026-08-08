@@ -38,9 +38,9 @@ The Lindstedt-Poincaré Series Expansion plays a significant role in cislunar sp
 
 ## Related Concepts
 
-- [Prograde Orbit](/en/glossary/fundamentals/prograde-orbit/)
+- Prograde Orbit
 - [Strong Legendre Condition](/en/glossary/fundamentals/strong-legendre-condition/)
-- [Unified Orbital Elements](/en/glossary/fundamentals/unified-orbital-elements/)
+- Unified Orbital Elements
 - [Small Denominator](/en/glossary/fundamentals/small-denominator/)
 
 ## References

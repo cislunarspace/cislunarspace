@@ -104,7 +104,7 @@ Computing heteroclinic orbits requires precise numerical integration of invarian
 
 ## Related Concepts
 
-- [Primary Impulse Orbit Transfer](/en/glossary/orbits/primary-impulse-transfer/)
+- Primary Impulse Orbit Transfer
 - [Invariant Manifold](/en/glossary/dynamics/central-manifold/)
 - [Libration Point](/en/glossary/dynamics/libration-point/)
 - [Interplanetary Superhighway](/en/glossary/orbits/low-energy-transfer/)

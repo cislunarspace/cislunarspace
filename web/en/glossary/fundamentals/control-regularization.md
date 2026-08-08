@@ -38,10 +38,10 @@ This concept is applicable in cislunar space mission design, orbit optimization,
 
 ## Related Concepts
 
-- [Cholesky Factorization](/en/glossary/fundamentals/cholesky-factorization/)
-- [SPICE, SpiceyPy](/en/glossary/fundamentals/spice-spiceypy/)
-- [Parabolic Orbit](/en/glossary/fundamentals/parabolic-orbit/)
-- [Exterior Planet](/en/glossary/fundamentals/exterior-planet/)
+- Cholesky Factorization
+- SPICE, SpiceyPy
+- Parabolic Orbit
+- Exterior Planet
 
 ## References
 

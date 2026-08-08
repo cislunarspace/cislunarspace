@@ -38,10 +38,10 @@ This concept is applicable in cislunar space mission design, orbit optimization,
 
 ## Related Concepts
 
-- [Area Staring Mode](/en/glossary/observation/area-staring-mode/)
-- [Payload Field of View, PFOV](/en/glossary/observation/payload-field-of-view-pfov/)
-- [Landmark Integration](/en/glossary/observation/landmark-integration/)
-- [Cooperative Agent, CA](/en/glossary/observation/cooperative-agent-ca/)
+- Area Staring Mode
+- Payload Field of View, PFOV
+- Landmark Integration
+- [Cooperative Agent, CA](/en/glossary/observation/ca/)
 
 ## References
 

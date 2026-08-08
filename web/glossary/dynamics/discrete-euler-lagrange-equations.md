@@ -40,7 +40,7 @@ DMOC中由离散拉格朗日-达朗贝尔原理导出的约束方程，保证动
 ## 相关概念
 
 - [流形传播（Manifold Propagation）](/glossary/dynamics/manifold-propagation/)
-- [圆型线性化相对运动方程（CLERM）](/glossary/dynamics/clerm/)
+- [圆型线性化相对运动方程（CLERM）](/glossary/dynamics/circular-linearized-equations-of-relative-motion/)
 
 ## 参考文献
 

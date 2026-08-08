@@ -38,10 +38,10 @@ Coverage blind spots in cislunar navigation constellations result from GNSS sign
 
 ## Related Concepts
 
-- [Angles-Only Navigation](/en/glossary/navigation/angles-only-navigation/)
-- [Crosscovariance](/en/glossary/navigation/crosscovariance/)
-- [Inter-Satellite Link Ranging](/en/glossary/observation/inter-satellite-link-ranging/)
-- [Relative Navigation](/en/glossary/navigation/relative-navigation/)
+- Angles-Only Navigation
+- Crosscovariance
+- Inter-Satellite Link Ranging
+- Relative Navigation
 
 ## References
 

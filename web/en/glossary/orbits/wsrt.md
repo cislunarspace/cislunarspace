@@ -38,10 +38,10 @@ Weak Stability Region Transfer is a key element in cislunar space orbit design, 
 
 ## Related Concepts
 
-- [Earth-Moon L1 Halo Orbit](/en/glossary/orbits/earth-moon-l1-halo-orbit/)
-- [Ballistic Lunar Transfer](/en/glossary/orbits/ballistic-lunar-transfer/)
-- [Weak Stability Region](/en/glossary/orbits/weak-stability-region/)
-- [Quasi-Periodic Orbit](/en/glossary/orbits/quasi-periodic-orbit/)
+- Earth-Moon L1 Halo Orbit
+- Ballistic Lunar Transfer
+- Weak Stability Region
+- Quasi-Periodic Orbit
 
 ## References
 

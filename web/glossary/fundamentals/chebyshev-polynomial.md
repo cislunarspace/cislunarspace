@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/chebyshev-polynomial/
 
 ## 相关概念
 
-- [主动段（Powered Phase）](/glossary/fundamentals/powered-phase/)
-- [核电推进（Nuclear Electric Propulsion）](/glossary/fundamentals/nuclear-electric-propulsion/)
-- [中途修正（Mid-course Correction）](/glossary/fundamentals/mid-course-correction/)
-- [故障检测隔离与恢复（Failure Detection, Isolation, and Recovery）](/glossary/fundamentals/failure-detection-isolation-and-recovery/)
+- 主动段（Powered Phase）
+- 核电推进（Nuclear Electric Propulsion）
+- 中途修正（Mid-course Correction）
+- 故障检测隔离与恢复（Failure Detection, Isolation, and Recovery）
 
 ## 参考文献
 

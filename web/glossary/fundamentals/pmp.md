@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/pmp/
 
 ## 相关概念
 
-- [变结构滑模控制（Variable Structure Sliding Mode Control）](/glossary/fundamentals/vssmc/)
-- [误差函数（Error Function）](/glossary/fundamentals/erf/)
-- [比冲（Specific Impulse）](/glossary/fundamentals/isp/)
+- 变结构滑模控制（Variable Structure Sliding Mode Control）
+- 误差函数（Error Function）
+- 比冲（Specific Impulse）
 
 ## 参考文献
 

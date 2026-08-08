@@ -40,10 +40,10 @@ permalink: /glossary/dynamics/close-lunar-flyby-plane-change-transfer/
 
 ## 相关概念
 
-- [平动点轨道（Libration Point Orbit）](/glossary/dynamics/libration-point-orbit/)
+- 平动点轨道（Libration Point Orbit）
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
-- [脉冲机动（Impulsive Maneuver）](/glossary/dynamics/impulsive-maneuver/)
-- [Halo轨道（Halo Orbit）](/glossary/dynamics/halo-orbit/)
+- 脉冲机动（Impulsive Maneuver）
+- Halo轨道（Halo Orbit）
 
 ## 参考文献
 

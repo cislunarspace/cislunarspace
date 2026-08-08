@@ -38,10 +38,10 @@ permalink: /glossary/navigation/coverage-blind-spot/
 
 ## 相关概念
 
-- [单纯角度导航（Angles-Only Navigation）](/glossary/navigation/angles-only-navigation/)
-- [互协方差（Crosscovariance）](/glossary/navigation/crosscovariance/)
-- [星间测距（Inter-Satellite Link Ranging）](/glossary/observation/inter-satellite-link-ranging/)
-- [相对导航（Relative Navigation）](/glossary/navigation/relative-navigation/)
+- 单纯角度导航（Angles-Only Navigation）
+- 互协方差（Crosscovariance）
+- [星间测距（Inter-Satellite Link Ranging）](/glossary/navigation/inter-satellite-ranging/)
+- 相对导航（Relative Navigation）
 
 ## 参考文献
 

@@ -38,9 +38,9 @@ Quasi-circular transfer changes orbit shape through multiple small maneuvers, su
 
 ## Related Concepts
 
-- [Variable Structure Sliding Mode Control](/en/glossary/fundamentals/vssmc/)
+- Variable Structure Sliding Mode Control
 - [Pontryagin Minimum Principle](/en/glossary/fundamentals/pmp/)
-- [Error Function](/en/glossary/fundamentals/erf/)
+- Error Function
 
 ## References
 

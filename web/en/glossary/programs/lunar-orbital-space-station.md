@@ -38,9 +38,9 @@ This concept provides fundamental support in cislunar space research and mission
 
 ## Related Concepts
 
-- [Propulsion Module](/en/glossary/programs/propulsion-module/)
-- [Lunar Orbital Platform-Gateway, LOP-G](/en/glossary/programs/lunar-orbital-platform-gateway-lop-g/)
-- [In-orbit Servicing](/en/glossary/programs/in-orbit-servicing/)
+- Propulsion Module
+- Lunar Orbital Platform-Gateway, LOP-G
+- In-orbit Servicing
 
 ## References
 

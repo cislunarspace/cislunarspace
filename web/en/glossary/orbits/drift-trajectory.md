@@ -35,7 +35,7 @@ An orbit constructed using directions corresponding to singular values close to 
 ## Related Concepts
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
-- [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+- [Weak Stability Region Transfer](/en/glossary/orbits/wsrt/)
 
 ## References
 

@@ -42,7 +42,7 @@ L2-L1同伦法为航天器轨道力学研究提供了基本框架，是进一步
 ## 相关概念
 
 - [Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）](/glossary/fundamentals/bang-off-bang-thrust-profile/)
-- [春分点（Vernal Equinox）](/glossary/fundamentals/vernal-equinox/)
+- 春分点（Vernal Equinox）
 - [分析历表（Analytical Ephemeris）](/glossary/fundamentals/analytical-ephemeris/)
 
 ## 参考文献

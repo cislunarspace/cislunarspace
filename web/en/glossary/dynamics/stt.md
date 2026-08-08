@@ -38,7 +38,7 @@ State transition tensors contain second-order sensitivity information, used in H
 
 ## Related Concepts
 
-- [Nonlinear Programming](/en/glossary/dynamics/nlp/)
+- Nonlinear Programming
 - [Zero-Velocity Curve](/en/glossary/dynamics/zvc/)
 - [Shape-Based Method](/en/glossary/dynamics/shape-based-method/)
 

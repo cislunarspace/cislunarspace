@@ -34,10 +34,10 @@ The lunar-coverage portion of a global lunar navigation and communication conste
 
 ## Related Concepts
 
-- [Servicer](/en/glossary/programs/servicer/)
-- [On-Orbit Servicing](/en/glossary/doctrine/on-orbit-servicing/)
-- [Chaser](/en/glossary/fundamentals/chaser/)
-- [Ride-share](/en/glossary/programs/ride-share/)
+- Servicer
+- On-Orbit Servicing
+- Chaser
+- Ride-share
 
 ## References
 

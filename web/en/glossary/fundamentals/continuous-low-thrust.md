@@ -39,9 +39,9 @@ The control curve describes the range of attainable low-thrust Hamiltonian value
 ## Related Concepts
 
 - [Multiple Shooting Method](/en/glossary/fundamentals/multiple-shooting-method/)
-- [Two-Way Link](/en/glossary/fundamentals/two-way-link/)
-- [Inertial Coordinate System](/en/glossary/fundamentals/inertial-coordinate-system/)
-- [Equivalent Illuminated Area](/en/glossary/fundamentals/equivalent-illuminated-area/)
+- Two-Way Link
+- Inertial Coordinate System
+- Equivalent Illuminated Area
 
 ## References
 

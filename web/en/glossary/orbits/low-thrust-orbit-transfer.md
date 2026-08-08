@@ -38,9 +38,9 @@ This concept plays an important role in cislunar orbit design and transfer analy
 
 ## Related Concepts
 
-- [Lunar Free-Return Orbit, LFO](/en/glossary/orbits/lfo/)
+- Lunar Free-Return Orbit, LFO
 - [Weak Stability Boundary-like Ballistic Transfer, WSB-like](/en/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
-- [Planar Lunar Orbit, PLO](/en/glossary/orbits/plo/)
+- Planar Lunar Orbit, PLO
 - [Single-shooting Differential Corrector](/en/glossary/orbits/ssdc/)
 
 ## References

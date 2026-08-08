@@ -38,9 +38,9 @@ Earth-return orbit is the transfer trajectory for spacecraft returning from the 
 
 ## Related Concepts
 
-- [Earth-Moon Transfer Window](/en/glossary/orbits/earth-moon-transfer-window/)
-- [Lunar Orbit](/en/glossary/orbits/lmo/)
-- [Elliptical Lunar Frozen Orbit](/en/glossary/orbits/elfo/)
+- Earth-Moon Transfer Window
+- Lunar Orbit
+- Elliptical Lunar Frozen Orbit
 
 ## References
 

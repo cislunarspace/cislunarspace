@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/orbital-axis-slewing/
 
 ## 相关概念
 
-- [推进剂质量比（Propellant Mass Fraction）](/glossary/fundamentals/propellant-mass-fraction/)
-- [帕累托解（Pareto Solution）](/glossary/fundamentals/pareto-solution/)
+- 推进剂质量比（Propellant Mass Fraction）
+- 帕累托解（Pareto Solution）
 - [Lyapunov轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
-- [状态转移矩阵（State Transition Matrix）](/glossary/dynamics/state-transition-matrix/)
+- 状态转移矩阵（State Transition Matrix）
 
 ## 参考文献
 

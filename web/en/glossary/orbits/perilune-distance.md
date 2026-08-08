@@ -38,9 +38,9 @@ This concept plays an important role in cislunar space mission design and orbita
 
 ## Related Concepts
 
-- [Coplanar Orbital Plane Constraint](/en/glossary/orbits/coplanar-orbital-plane-constraint/)
+- Coplanar Orbital Plane Constraint
 - [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
-- [High Earth Orbit, HEO](/en/glossary/orbits/high-earth-orbit-heo/)
+- High Earth Orbit, HEO
 - [Exterior Phase](/en/glossary/orbits/low-energy-transfer/)
 
 ## References

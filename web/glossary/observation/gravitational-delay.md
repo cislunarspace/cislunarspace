@@ -38,10 +38,10 @@ permalink: /glossary/observation/gravitational-delay/
 
 ## 相关概念
 
-- [单脉冲雷达（Monopulse Radar）](/glossary/observation/monopulse-radar/)
-- [像素偏斜（Pixel Skewing）](/glossary/observation/pixel-skewing/)
-- [地面跟踪（Ground Tracking）](/glossary/observation/ground-tracking/)
-- [状态监测（State Monitoring）](/glossary/observation/state-monitoring/)
+- 单脉冲雷达（Monopulse Radar）
+- 像素偏斜（Pixel Skewing）
+- 地面跟踪（Ground Tracking）
+- 状态监测（State Monitoring）
 
 ## 参考文献
 

@@ -41,9 +41,9 @@ permalink: /glossary/fundamentals/variable-time-targeting/
 ## 相关概念
 
 - [时变系统（Time-Varying System）](/glossary/fundamentals/time-varying-system/)
-- [利普希茨条件（Lipschitz Condition）](/glossary/fundamentals/lipschitz-condition/)
-- [返回走廊（Return Corridor）](/glossary/fundamentals/return-corridor/)
-- [中间推力弧（Intermediate thrust arc）](/glossary/fundamentals/intermediate-thrust-arc/)
+- 利普希茨条件（Lipschitz Condition）
+- 返回走廊（Return Corridor）
+- [中间推力弧（Intermediate thrust arc）](/glossary/fundamentals/it/)
 
 ## 参考文献
 

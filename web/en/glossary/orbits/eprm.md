@@ -38,9 +38,9 @@ This concept has important application value in cislunar space research and miss
 
 ## Related Concepts
 
-- [Earth-Moon Transfer Window](/en/glossary/orbits/earth-moon-transfer-window/)
-- [Lunar Orbit](/en/glossary/orbits/lmo/)
-- [Elliptical Lunar Frozen Orbit](/en/glossary/orbits/elfo/)
+- Earth-Moon Transfer Window
+- Lunar Orbit
+- Elliptical Lunar Frozen Orbit
 
 ## References
 

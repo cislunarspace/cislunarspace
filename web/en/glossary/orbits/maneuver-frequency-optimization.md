@@ -38,10 +38,10 @@ Maneuver Frequency Optimization selects the optimal time interval between statio
 
 ## Related Concepts
 
-- [Orbit Phase](/en/glossary/orbits/orbit-phase/)
+- [Orbit Phase](/en/glossary/orbits/tau/)
 - [Libration Point Orbit Cataloging](/en/glossary/orbits/libration-point-periodic-orbit/)
-- [Parking Orbit](/en/glossary/orbits/parking-orbit/)
-- [Hohmann Transfer](/en/glossary/orbits/hohmann-transfer/)
+- Parking Orbit
+- Hohmann Transfer
 
 ## References
 

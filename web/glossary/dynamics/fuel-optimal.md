@@ -81,7 +81,7 @@ $\boldsymbol{\lambda}_v$ 为速度协态变量，$\lambda_m$ 为质量协态变�
 ## 相关概念
 
 - [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)
-- [庞特里亚金极值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagin-principle/)
+- 庞特里亚金极值原理（Pontryagin's Maximum Principle）
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
 - [开关函数（Switching Function）](/glossary/dynamics/switching-function/)
 - [同伦法（Homotopy Method）](/glossary/dynamics/homotopy-method/)

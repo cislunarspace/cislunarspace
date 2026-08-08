@@ -38,10 +38,10 @@ This concept has application value in cislunar space research and engineering pr
 
 ## Related Concepts
 
-- [Holding Point](/en/glossary/navigation/Holding-Point/)
-- [Keep-Out Sphere](/en/glossary/navigation/kos/)
-- [Final Approach Sphere](/en/glossary/navigation/fas/)
-- [Collision Avoidance Maneuver](/en/glossary/navigation/cam/)
+- Holding Point
+- Keep-Out Sphere
+- Final Approach Sphere
+- Collision Avoidance Maneuver
 
 ## References
 

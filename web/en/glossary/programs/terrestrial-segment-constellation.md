@@ -37,9 +37,9 @@ This term has significant application value in cislunar space missions。In the 
 
 ## Related Concepts
 
-- [On-orbit Debris Removal](/en/glossary/programs/on-orbit-debris-removal/)
-- [Deployment Strategy](/en/glossary/programs/deployment-strategy/)
-- [On-orbit Reconfiguration](/en/glossary/programs/on-orbit-reconfiguration/)
+- On-orbit Debris Removal
+- Deployment Strategy
+- On-orbit Reconfiguration
 
 ## References
 

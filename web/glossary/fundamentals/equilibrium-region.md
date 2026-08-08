@@ -40,10 +40,10 @@ Conley对共线拉格朗日点附近「颈」区域的命名，即Hill区域中�
 
 ## 相关概念
 
-- [轨道状态向量（Orbital State Vector）](/glossary/fundamentals/orbital-state-vector/)
-- [坐标时（Coordinate Time）](/glossary/fundamentals/coordinate-time/)
+- 轨道状态向量（Orbital State Vector）
+- 坐标时（Coordinate Time）
 - [Hill坐标系（Hill Frame）](/glossary/fundamentals/hill-frame/)
-- [开普勒定律（Kepler's Laws）](/glossary/fundamentals/keplers-laws/)
+- 开普勒定律（Kepler's Laws）
 
 ## 参考文献
 

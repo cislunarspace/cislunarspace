@@ -37,9 +37,9 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 
 ## Related Concepts
 
-- [Orbital Period](/glossary/fundamentals/orbital-period/)
+- Orbital Period
 - [Nondimensionalization](/glossary/fundamentals/nondimensionalization/)
-- [Inertial Reference Frame](/glossary/fundamentals/inertial-reference-frame/)
+- Inertial Reference Frame
 - [Hamiltonian](/glossary/fundamentals/hamiltonian/)
 
 ## References

@@ -39,9 +39,9 @@ In orbital transfer design, the Lambert problem is the core mathematical tool fo
 ## Related Concepts
 
 - [Lambert Orbit Maneuver](/en/glossary/dynamics/lambert-orbit-maneuver/)
-- [Orbital Transfer](/en/glossary/dynamics/orbital-transfer/)
-- [Two-Impulse Rendezvous Maneuver](/en/glossary/dynamics/two-impulse-rendezvous-maneuver/)
-- [Co-Orbital Rendezvous](/en/glossary/dynamics/co-orbital-rendezvous/)
+- Orbital Transfer
+- Two-Impulse Rendezvous Maneuver
+- Co-Orbital Rendezvous
 
 ## References
 

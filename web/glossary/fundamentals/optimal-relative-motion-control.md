@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/optimal-relative-motion-control/
 
 ## 相关概念
 
-- [亚轨道（Suborbital）](/glossary/fundamentals/suborbital/)
-- [火箭分级（Rocket Staging）](/glossary/fundamentals/rocket-staging/)
-- [叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）](/glossary/fundamentals/cross-product-matrix-skew-symmetric-matrix/)
-- [拱线（Apsidal Line）](/glossary/fundamentals/apsidal-line/)
+- 亚轨道（Suborbital）
+- 火箭分级（Rocket Staging）
+- 叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）
+- 拱线（Apsidal Line）
 
 ## 参考文献
 

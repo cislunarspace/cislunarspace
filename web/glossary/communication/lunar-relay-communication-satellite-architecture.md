@@ -38,9 +38,9 @@ permalink: /glossary/communication/lunar-relay-communication-satellite-architect
 
 ## 相关概念
 
-- [自由空间传播损耗（Free-space Propagation Loss）](/glossary/communication/free-space-propagation-loss/)
-- [调度策略（Scheduling Strategy）](/glossary/communication/scheduling-strategy/)
-- [地月Halo中继路径（Earth-Halo-Moon Relay Path, EHM Path）](/glossary/communication/earth-halo-moon-relay-path-ehm-path/)
+- 自由空间传播损耗（Free-space Propagation Loss）
+- 调度策略（Scheduling Strategy）
+- [地月Halo中继路径（Earth-Halo-Moon Relay Path, EHM Path）](/glossary/communication/ehm/)
 
 ## 参考文献
 

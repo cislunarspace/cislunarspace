@@ -116,7 +116,7 @@ $$\left\|\frac{d\mathbf{x}}{ds}\right\|^2 + \left(\frac{d\lambda}{ds}\right)^2 =
 ## 相关概念
 
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [拼接法（Patched Method）](/glossary/dynamics/patched-method/)
+- 拼接法（Patched Method）
 - [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
 - [庞加莱图（Poincaré Map）](/glossary/dynamics/poincare-map/)
 

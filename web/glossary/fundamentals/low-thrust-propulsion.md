@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/low-thrust-propulsion/
 
 ## 相关概念
 
-- [发射能量参数（Characteristic Energy）](/glossary/fundamentals/characteristic-energy/)
-- [转移时间（Time of Flight）](/glossary/fundamentals/time-of-flight/)
-- [混合推进地月转移（Hybrid Propulsion Earth-Moon Transfer）](/glossary/fundamentals/hybrid-propulsion-earth-moon-transfer/)
-- [参考椭球（Reference Ellipsoid）](/glossary/fundamentals/reference-ellipsoid/)
+- 发射能量参数（Characteristic Energy）
+- [转移时间（Time of Flight）](/glossary/dynamics/transfer-time/)
+- 混合推进地月转移（Hybrid Propulsion Earth-Moon Transfer）
+- 参考椭球（Reference Ellipsoid）
 
 ## 参考文献
 

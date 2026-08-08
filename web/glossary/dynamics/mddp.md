@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/mddp/
 ## 相关概念
 
 - [混合差分动态规划（Hybrid Differential Dynamic Programming, HDDP）](/glossary/dynamics/hddp/)
-- [差分动态规划（Differential Dynamic Programming, DDP）](/glossary/dynamics/ddp/)
+- 差分动态规划（Differential Dynamic Programming, DDP）
 
 ## 参考文献
 

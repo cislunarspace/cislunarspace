@@ -38,9 +38,9 @@ The direct/indirect method leverages the computational efficiency of direct tran
 
 ## Related Concepts
 
-- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagin-minimum-principle/)
+- Pontryagin's Minimum Principle
 - [Direct Transcription](/en/glossary/dynamics/direct-transcription/)
-- [Collocation Method](/en/glossary/dynamics/collocation-method/)
+- Collocation Method
 - [Hamiltonian](/en/glossary/dynamics/hamiltonian/)
 
 ## References

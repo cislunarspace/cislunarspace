@@ -38,9 +38,9 @@ This term has significant practical applications in cislunar mission planning an
 
 ## Related Concepts
 
-- [Libration Point Orbit, LPO](/en/glossary/orbits/lpo/)
+- Libration Point Orbit, LPO
 - [Super-Geostationary Transfer Orbit, sGTO](/en/glossary/orbits/sgto/)
-- [Deployment Trajectory](/en/glossary/orbits/d/)
+- Deployment Trajectory
 - [Halo Orbit Insertion, HOI](/en/glossary/orbits/hoi/)
 
 ## References

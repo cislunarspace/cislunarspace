@@ -40,10 +40,10 @@ permalink: /glossary/navigation/nrho-rendezvous-and-docking/
 
 ## 相关概念
 
-- [低月球轨道（Low Lunar Orbit, LLO）](/glossary/orbits/low-lunar-orbit-llo/)
-- [复合周期轨道（Complex Periodic Orbit）](/glossary/orbits/complex-periodic-orbit/)
-- [轨道转移级（Orbital Transfer Stage）](/glossary/other/orbital-transfer-stage/)
-- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/halo-orbit-insertion-hoi/)
+- 低月球轨道（Low Lunar Orbit, LLO）
+- 复合周期轨道（Complex Periodic Orbit）
+- 轨道转移级（Orbital Transfer Stage）
+- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
 
 ## 参考文献
 

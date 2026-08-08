@@ -38,10 +38,10 @@ The ratio of the third-body perturbation acceleration at a spacecraft's position
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/geocentric-celestial-reference-frame/)
-- [机动重构（Maneuver Reconstruction）](/glossary/dynamics/maneuver-reconstruction/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
+- 机动重构（Maneuver Reconstruction）
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
-- [功能连接理论（Theory of Functional Connections）](/glossary/dynamics/theory-of-functional-connections/)
+- 功能连接理论（Theory of Functional Connections）
 
 ## References
 

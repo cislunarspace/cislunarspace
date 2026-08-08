@@ -38,10 +38,10 @@ permalink: /glossary/communication/far-side-communication/
 
 ## 相关概念
 
-- [波束张角（Beam Width Angle）](/glossary/communication/beam-width-angle/)
-- [星间链路（Inter-Satellite Link）](/glossary/communication/inter-satellite-link/)
-- [信息年龄（Age of Information）](/glossary/communication/age-of-information/)
-- [牛顿万有引力定律（Newton's Law of Gravitation）](/glossary/fundamentals/newtons-law-of-gravitation/)
+- 波束张角（Beam Width Angle）
+- 星间链路（Inter-Satellite Link）
+- 信息年龄（Age of Information）
+- 牛顿万有引力定律（Newton's Law of Gravitation）
 
 ## 参考文献
 

@@ -38,10 +38,10 @@ permalink: /glossary/navigation/bidirectional-inter-satellite-ranging/
 
 ## 相关概念
 
-- [高轨GNSS旁瓣接收（High-Orbit GNSS Side Lobe Reception）](/glossary/navigation/high-orbit-gnss-side-lobe-reception/)
+- 高轨GNSS旁瓣接收（High-Orbit GNSS Side Lobe Reception）
 - [轨道交会（Orbital Rendezvous）](/glossary/navigation/orbital-rendezvous/)
-- [机动分类（Maneuver Classification）](/glossary/navigation/maneuver-classification/)
-- [可辨识度（Identifiability Degree）](/glossary/navigation/identifiability-degree/)
+- 机动分类（Maneuver Classification）
+- 可辨识度（Identifiability Degree）
 
 ## 参考文献
 

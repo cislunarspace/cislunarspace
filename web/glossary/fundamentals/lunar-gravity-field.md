@@ -40,10 +40,10 @@ permalink: /glossary/fundamentals/lunar-gravity-field/
 
 ## 相关概念
 
-- [误差超椭球拉伸方向（Stretching Direction of Error Hyper-Ellipsoid）](/glossary/fundamentals/stretching-direction-of-error-hyper-ellipsoid/)
-- [贝叶斯更新（Bayesian Update）](/glossary/fundamentals/bayesian-update/)
-- [实值稳定性指数（Real-Valued Stability Index）](/glossary/fundamentals/real-valued-stability-index/)
-- [航迹角（Flight-Path Angle）](/glossary/fundamentals/flight-path-angle/)
+- 误差超椭球拉伸方向（Stretching Direction of Error Hyper-Ellipsoid）
+- 贝叶斯更新（Bayesian Update）
+- 实值稳定性指数（Real-Valued Stability Index）
+- 航迹角（Flight-Path Angle）
 
 ## 参考文献
 

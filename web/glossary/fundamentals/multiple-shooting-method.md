@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/multiple-shooting-method/
 ## 相关概念
 
 - [连续小推力（Continuous Low Thrust）](/glossary/fundamentals/continuous-low-thrust/)
-- [双向链路（Two-Way Link）](/glossary/fundamentals/two-way-link/)
-- [惯性坐标系（Inertial Coordinate System）](/glossary/fundamentals/inertial-coordinate-system/)
-- [等效受照面积（Equivalent Illuminated Area）](/glossary/fundamentals/equivalent-illuminated-area/)
+- 双向链路（Two-Way Link）
+- 惯性坐标系（Inertial Coordinate System）
+- 等效受照面积（Equivalent Illuminated Area）
 
 ## 参考文献
 

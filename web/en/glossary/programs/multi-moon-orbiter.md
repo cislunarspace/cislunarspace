@@ -40,8 +40,8 @@ The multi-moon orbiter concept fully exploits natural dynamics channels in multi
 
 - [Low-Energy Transfer](/en/glossary/orbits/low-energy-transfer/)
 - [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
-- [Resonance Channel](/en/glossary/dynamics/resonance-channel/)
-- [Multi-Target Mission](/en/glossary/programs/multi-target-mission/)
+- Resonance Channel
+- Multi-Target Mission
 
 ## References
 

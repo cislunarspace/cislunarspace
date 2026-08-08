@@ -38,10 +38,10 @@ When flight time exceeds a single orbit period, multi-revolution Lambert problem
 
 ## Related Concepts
 
-- [Finite-Time-Convergent Differentiator, FTCD](/en/glossary/dynamics/FTCD/)
-- [Prescribed Performance Control, PPC](/en/glossary/dynamics/PPC/)
-- [Prescribed Performance Function, PPF](/en/glossary/dynamics/PPF/)
-- [Terminal Sliding Mode Control, TSMC](/en/glossary/dynamics/TSMC/)
+- Finite-Time-Convergent Differentiator, FTCD
+- Prescribed Performance Control, PPC
+- Prescribed Performance Function, PPF
+- Terminal Sliding Mode Control, TSMC
 
 ## References
 

@@ -40,10 +40,10 @@ permalink: /glossary/dynamics/throttle-factor/
 
 ## 相关概念
 
-- [多段轨迹设计（Multiple Segment Trajectory Design）](/glossary/dynamics/multiple-segment-trajectory-design/)
+- 多段轨迹设计（Multiple Segment Trajectory Design）
 - [零速度面（Zero-Velocity Surface）](/glossary/dynamics/zero-velocity-surface/)
 - [零向量（Null Vector）](/glossary/dynamics/null-vector/)
-- [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/circular-restricted-three-body-problem/)
+- [圆形限制性三体问题（Circular Restricted Three-Body Problem）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
 

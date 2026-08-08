@@ -38,10 +38,10 @@ A strategy of multiple gravity flybys to adjust orbital phasing. At high Jacobi 
 
 ## Related Concepts
 
-- [Lunar Fly-by Method](/en/glossary/dynamics/lunar-fly-by-method/)
-- [Maximum-Energy Escape Trajectory](/en/glossary/dynamics/maximum-energy-escape-trajectory/)
+- Lunar Fly-by Method
+- Maximum-Energy Escape Trajectory
 - [Backward Lunar Gravity Assist](/en/glossary/dynamics/backward-lunar-gravity-assist/)
-- [Lorillo Stability Criterion](/en/glossary/dynamics/lorillo-stability-criterion/)
+- Lorillo Stability Criterion
 
 ## References
 

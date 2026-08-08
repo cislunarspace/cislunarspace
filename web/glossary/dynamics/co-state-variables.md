@@ -68,8 +68,8 @@ $$\rho_j = 1 - \lambda_{mj} - \frac{I_{sp}g_0}{m_j}\|\boldsymbol{\lambda}_{vj}\|
 
 ## 相关概念
 
-- [协态归一化（Co-state Normalization）](/glossary/dynamics/co-state-normalization/)
-- [庞特里亚金极值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagin-principle/)
+- [协态归一化（Co-state Normalization）](/glossary/dynamics/costate-normalization/)
+- 庞特里亚金极值原理（Pontryagin's Maximum Principle）
 - [哈密顿函数（Hamiltonian）](/glossary/dynamics/hamiltonian/)
 - [两点边值问题（TPBVP）](/glossary/dynamics/tpbvp/)
 - [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)

@@ -38,7 +38,7 @@ DRO轨道稳定度的度量单元。定义为某一截面上轨道所有交点�
 
 ## 相关概念
 
-- [最小时间轨迹（Minimum-Time Trajectory）](/glossary/orbits/minimum-time-trajectory/)
+- 最小时间轨迹（Minimum-Time Trajectory）
 - [轨道维持代价（Orbit Maintenance Cost）](/glossary/orbits/orbit-maintenance-cost/)
 
 ## 参考文献

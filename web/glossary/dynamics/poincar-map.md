@@ -38,9 +38,9 @@ permalink: /glossary/dynamics/poincar-map/
 
 ## 相关概念
 
-- [截面强制精化（Section-Forced Refinement）](/glossary/dynamics/section-forced-refinement/)
+- 截面强制精化（Section-Forced Refinement）
 - [PS截面（PS Section）](/glossary/dynamics/ps-section/)
-- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
+- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 
 ## 参考文献

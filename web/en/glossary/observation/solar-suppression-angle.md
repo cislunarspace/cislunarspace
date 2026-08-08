@@ -38,9 +38,9 @@ This concept provides fundamental support in cislunar space research and mission
 
 ## Related Concepts
 
-- [Custody Maintenance](/en/glossary/observation/custody-maintenance/)
-- [Aperture Photometry](/en/glossary/observation/aperture-photometry/)
-- [Near-Earth Object, NEO](/en/glossary/observation/near-earth-object-neo/)
+- Custody Maintenance
+- Aperture Photometry
+- Near-Earth Object, NEO
 
 ## References
 

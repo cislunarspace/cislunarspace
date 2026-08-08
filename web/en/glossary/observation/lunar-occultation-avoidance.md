@@ -38,10 +38,10 @@ This constraint ensures full-arc visibility of Earth communication links in L2 o
 
 ## Related Concepts
 
-- [Inter-Satellite Link Ranging](/en/glossary/observation/inter-satellite-link-ranging/)
-- [Target Coverage Time Ratio](/en/glossary/observation/target-coverage-time-ratio/)
+- Inter-Satellite Link Ranging
+- Target Coverage Time Ratio
 - [Lunar Occultation Avoidance](/en/glossary/observation/lunar-occultation-avoidance/)
-- [Lunar Exclusion Angle](/en/glossary/observation/lunar-exclusion-angle/)
+- [Lunar Exclusion Angle](/en/glossary/observation/lea/)
 
 ## References
 

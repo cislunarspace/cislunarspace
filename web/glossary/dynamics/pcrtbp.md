@@ -39,9 +39,9 @@ permalink: /glossary/dynamics/pcrtbp/
 ## 相关概念
 
 - [蒙特卡洛轨迹打靶法（Monte Carlo Trajectory Shooting, MCTS）](/glossary/dynamics/mcts/)
-- [有动力月球借力（Powered Lunar Flyby, PLF）](/glossary/dynamics/plf/)
-- [插入速度增量（Insertion Delta-V）](/glossary/dynamics/insertion-delta-v/)
-- [动量积分（Momentum Integral, MI）](/glossary/dynamics/Momentum-Integral-MI/)
+- 有动力月球借力（Powered Lunar Flyby, PLF）
+- 插入速度增量（Insertion Delta-V）
+- 动量积分（Momentum Integral, MI）
 
 ## 参考文献
 

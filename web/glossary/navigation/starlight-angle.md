@@ -38,8 +38,8 @@ permalink: /glossary/navigation/starlight-angle/
 
 ## 相关概念
 
-- [悬停控制（Hovering Control）](/glossary/navigation/hovering-control/)
-- [先验约束（Prior constraint）](/glossary/navigation/prior-constraint/)
+- 悬停控制（Hovering Control）
+- 先验约束（Prior constraint）
 - [绝对导航（Absolute Navigation）](/glossary/navigation/absolute-navigation/)
 
 ## 参考文献

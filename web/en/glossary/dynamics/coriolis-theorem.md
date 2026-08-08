@@ -39,7 +39,7 @@ This technology is a key component of lunar sample return and crewed lunar landi
 ## Related Concepts
 
 - [Jacobi Integral](/en/glossary/dynamics/jacobi-integral/)
-- [Velocity Function](/en/glossary/dynamics/velocity-function/)
+- Velocity Function
 - [Non-Gaussian Distribution](/en/glossary/dynamics/non-gaussian-distribution/)
 
 ## References

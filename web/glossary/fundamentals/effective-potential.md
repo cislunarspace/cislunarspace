@@ -38,8 +38,8 @@ CRTBP旋转坐标系中将科里奥利力和离心力纳入势能函数后的综
 
 ## 相关概念
 
-- [定时定点着陆（Scheduled and Pinpoint Landing）](/glossary/fundamentals/scheduled-and-pinpoint-landing/)
-- [截面（Surface of Section, SOS）](/glossary/fundamentals/surface-of-section-sos/)
+- 定时定点着陆（Scheduled and Pinpoint Landing）
+- [截面（Surface of Section, SOS）](/glossary/fundamentals/sos/)
 - [截断策略（Truncation Strategy）](/glossary/fundamentals/truncation-strategy/)
 
 ## 参考文献

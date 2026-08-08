@@ -38,9 +38,9 @@ permalink: /glossary/orbits/orthogonal-plane-crossing-condition/
 
 ## 相关概念
 
-- [真近点角（True Anomaly）](/glossary/orbits/true-anomaly/)
-- [多圈螺旋转移（Multi-Revolution Spiral Transfer）](/glossary/orbits/multi-revolution-spiral-transfer/)
-- [三角平动点垂直轨道（Vertical Orbit at Triangular Libration Point）](/glossary/orbits/vertical-orbit-at-triangular-libration-point/)
+- 真近点角（True Anomaly）
+- 多圈螺旋转移（Multi-Revolution Spiral Transfer）
+- 三角平动点垂直轨道（Vertical Orbit at Triangular Libration Point）
 - [近直线晕轨道9:2共振（9:2 Resonant NRHO）](/glossary/orbits/nrho/)
 
 ## 参考文献

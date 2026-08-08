@@ -39,9 +39,9 @@ This concept is applicable in cislunar space mission design, orbit optimization,
 ## Related Concepts
 
 - [Flight-Path Angle](/en/glossary/dynamics/flight-path-angle/)
-- [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
+- Ephemeris Model
 - [Artificial Libration Point](/en/glossary/dynamics/artificial-libration-point/)
-- [Recursive Forgetting Factor Estimation](/en/glossary/dynamics/recursive-forgetting-factor-estimation/)
+- Recursive Forgetting Factor Estimation
 
 ## References
 

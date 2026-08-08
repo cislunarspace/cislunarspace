@@ -39,9 +39,9 @@ This term在cislunar space missions中has important application value. In orbit 
 ## Related Concepts
 
 - [DRO-to-Earth-Orbit Transfer](/en/glossary/orbits/distant-retrograde-orbit-dro/)
-- [Maximum Excursion Distance](/en/glossary/orbits/maximum-excursion-distance/)
+- Maximum Excursion Distance
 - [Pseudo-Equinoctial Orbital Elements](/en/glossary/orbits/pseudo-equinoctial-orbital-elements/)
-- [Conic Orbit](/en/glossary/fundamentals/conic-orbit/)
+- Conic Orbit
 
 ## References
 

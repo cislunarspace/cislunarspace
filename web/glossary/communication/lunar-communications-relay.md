@@ -41,9 +41,9 @@ permalink: /glossary/communication/lunar-communications-relay/
 ## 相关概念
 
 - [流形传播（Manifold Propagation）](/glossary/dynamics/manifold-propagation/)
-- [低月球轨道（Low Lunar Orbit, LLO）](/glossary/orbits/low-lunar-orbit-llo/)
-- [复合周期轨道（Complex Periodic Orbit）](/glossary/orbits/complex-periodic-orbit/)
-- [轨道转移级（Orbital Transfer Stage）](/glossary/other/orbital-transfer-stage/)
+- 低月球轨道（Low Lunar Orbit, LLO）
+- 复合周期轨道（Complex Periodic Orbit）
+- 轨道转移级（Orbital Transfer Stage）
 
 ## 参考文献
 

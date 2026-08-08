@@ -38,9 +38,9 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 
 ## Related Concepts
 
-- [Ballistic Lunar Transfer](/en/glossary/orbits/ballistic-lunar-transfer/)
+- Ballistic Lunar Transfer
 - [Transfer Window](/en/glossary/orbits/transfer-family/)
-- [Near Rectilinear Halo Orbit](/en/glossary/orbits/near-rectilinear-halo-orbit/)
+- Near Rectilinear Halo Orbit
 - [Nominal Halo Orbit](/en/glossary/orbits/halo-orbit/)
 
 ## References

@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/hamiltonian-integrable-approximation/
 ## 相关概念
 
 - [切比雪夫多项式（Chebyshev Polynomial）](/glossary/fundamentals/chebyshev-polynomial/)
-- [主动段（Powered Phase）](/glossary/fundamentals/powered-phase/)
-- [核电推进（Nuclear Electric Propulsion）](/glossary/fundamentals/nuclear-electric-propulsion/)
-- [中途修正（Mid-course Correction）](/glossary/fundamentals/mid-course-correction/)
+- 主动段（Powered Phase）
+- 核电推进（Nuclear Electric Propulsion）
+- 中途修正（Mid-course Correction）
 
 ## 参考文献
 

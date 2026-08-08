@@ -35,7 +35,7 @@ An end-of-life disposal method for libration point missions: maneuvering the spa
 ## Related Concepts
 
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
-- [Weak Stability Region Transfer](/en/glossary/orbits/weak-stability-region-transfer/)
+- [Weak Stability Region Transfer](/en/glossary/orbits/wsrt/)
 
 ## References
 

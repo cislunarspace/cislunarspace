@@ -38,10 +38,10 @@ permalink: /glossary/orbits/qpo/
 
 ## 相关概念
 
-- [地球-月球L1光环轨道（Earth-Moon L1 Halo Orbit）](/glossary/orbits/earth-moon-l1-halo-orbit/)
-- [弹道月球转移（Ballistic Lunar Transfer）](/glossary/orbits/ballistic-lunar-transfer/)
-- [弱稳定区（Weak Stability Region）](/glossary/orbits/weak-stability-region/)
-- [三角平动点（Triangular Libration Points）](/glossary/orbits/triangular-libration-points/)
+- 地球-月球L1光环轨道（Earth-Moon L1 Halo Orbit）
+- 弹道月球转移（Ballistic Lunar Transfer）
+- [弱稳定区（Weak Stability Region）](/glossary/dynamics/wsr/)
+- [三角平动点（Triangular Libration Points）](/glossary/dynamics/l4-l5/)
 
 ## 参考文献
 

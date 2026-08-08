@@ -38,10 +38,10 @@ The six Keplerian orbital elements of the ellipse a spacecraft would follow at a
 
 ## Related Concepts
 
-- [Landing Stability](/en/glossary/fundamentals/landing-stability/)
-- [Time of Flight](/en/glossary/fundamentals/time-of-flight/)
-- [Hybrid Propulsion Earth-Moon Transfer](/en/glossary/fundamentals/hybrid-propulsion-earth-moon-transfer/)
-- [Reference Ellipsoid](/en/glossary/fundamentals/reference-ellipsoid/)
+- Landing Stability
+- [Time of Flight](/en/glossary/dynamics/tof/)
+- Hybrid Propulsion Earth-Moon Transfer
+- Reference Ellipsoid
 
 ## References
 

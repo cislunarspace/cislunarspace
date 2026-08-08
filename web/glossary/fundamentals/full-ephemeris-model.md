@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/full-ephemeris-model/
 
 ## 相关概念
 
-- [本地垂线本地水平坐标系（Local Vertical Local Horizon）](/glossary/fundamentals/local-vertical-local-horizon/)
-- [功率谱密度（Power Spectral Density）](/glossary/fundamentals/power-spectral-density/)
+- 本地垂线本地水平坐标系（Local Vertical Local Horizon）
+- 功率谱密度（Power Spectral Density）
 - [控制参数化（Control Parametrization）](/glossary/dynamics/control-parametrization/)
-- [轨道面共面约束（Coplanar Orbital Plane Constraint）](/glossary/orbits/coplanar-orbital-plane-constraint/)
+- 轨道面共面约束（Coplanar Orbital Plane Constraint）
 
 ## 参考文献
 

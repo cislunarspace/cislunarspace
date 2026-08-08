@@ -40,8 +40,8 @@ permalink: /glossary/navigation/dual-layer-isl/
 
 - [自主定轨（Autonomous Orbit Determination）](/glossary/navigation/aod/)
 - [月球全球定位系统（Lunar Global Positioning System, LGPS）](/glossary/navigation/lgps/)
-- [精度因子（Dilution of Precision, DOP）](/glossary/navigation/dop/)
-- [方向余弦矩阵（Direction Cosine Matrix）](/glossary/navigation/dcm/)
+- 精度因子（Dilution of Precision, DOP）
+- 方向余弦矩阵（Direction Cosine Matrix）
 
 ## 参考文献
 

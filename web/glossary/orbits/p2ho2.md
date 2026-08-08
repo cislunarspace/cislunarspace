@@ -38,9 +38,9 @@ permalink: /glossary/orbits/p2ho2/
 
 ## 相关概念
 
-- [月球自由返回轨道（Lunar Free-Return Orbit, LFO）](/glossary/orbits/lfo/)
+- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - [弱稳定边界弹道转移（Weak Stability Boundary-like Ballistic Transfer, WSB-like）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
-- [平面月球轨道（Planar Lunar Orbit, PLO）](/glossary/orbits/plo/)
+- 平面月球轨道（Planar Lunar Orbit, PLO）
 - [低推力轨道转移（Low-thrust Orbit Transfer）](/glossary/orbits/low-thrust-orbit-transfer/)
 
 ## 参考文献

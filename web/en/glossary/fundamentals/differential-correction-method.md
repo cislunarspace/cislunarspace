@@ -38,10 +38,10 @@ The Differential Correction Method establishes a linear mapping between deviatio
 
 ## Related Concepts
 
-- [Laval Nozzle](/en/glossary/fundamentals/laval-nozzle/)
+- Laval Nozzle
 - [Multi-Body Dynamical Environment](/en/glossary/fundamentals/multi-body-dynamical-environment/)
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
-- [Orbital Elements](/en/glossary/fundamentals/orbital-elements/)
+- Orbital Elements
 
 ## References
 

@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/survival-map/
 
 ## 相关概念
 
-- [弱捕获（Weak Capture）](/glossary/dynamics/weak-capture/)
+- 弱捕获（Weak Capture）
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
-- [平动点（Libration Point）](/glossary/orbits/libration-point/)
+- [平动点（Libration Point）](/glossary/dynamics/libration-point/)
 
 ## 参考文献
 

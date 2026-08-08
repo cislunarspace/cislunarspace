@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/truncation-strategy/
 
 ## 相关概念
 
-- [定时定点着陆（Scheduled and Pinpoint Landing）](/glossary/fundamentals/scheduled-and-pinpoint-landing/)
-- [截面（Surface of Section, SOS）](/glossary/fundamentals/surface-of-section-sos/)
-- [障碍函数（Barrier Function）](/glossary/fundamentals/barrier-function/)
+- 定时定点着陆（Scheduled and Pinpoint Landing）
+- [截面（Surface of Section, SOS）](/glossary/fundamentals/sos/)
+- 障碍函数（Barrier Function）
 
 ## 参考文献
 

@@ -38,7 +38,7 @@ permalink: /glossary/orbits/v/
 
 ## 相关概念
 
-- [im](/glossary/orbits/im/)
+- im
 - [slpo](/glossary/orbits/slpo/)
 - [em-halo](/glossary/orbits/halo-orbit/)
 - [rro](/glossary/orbits/resonant-orbit-family/)

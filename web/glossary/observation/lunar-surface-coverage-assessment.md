@@ -38,10 +38,10 @@ permalink: /glossary/observation/lunar-surface-coverage-assessment/
 
 ## 相关概念
 
-- [碰撞解体（Catastrophic Collision）](/glossary/observation/catastrophic-collision/)
-- [传感器调度（Sensor Tasking）](/glossary/observation/sensor-tasking/)
-- [目标亮度解算（Object Brightness Measurement）](/glossary/observation/object-brightness-measurement/)
-- [多站雷达系统（Multistatic Radar System）](/glossary/observation/multistatic-radar-system/)
+- 碰撞解体（Catastrophic Collision）
+- 传感器调度（Sensor Tasking）
+- 目标亮度解算（Object Brightness Measurement）
+- 多站雷达系统（Multistatic Radar System）
 
 ## 参考文献
 

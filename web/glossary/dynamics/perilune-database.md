@@ -38,8 +38,8 @@ permalink: /glossary/dynamics/perilune-database/
 
 ## 相关概念
 
-- [渐近解（Asymptotic Solution）](/glossary/dynamics/asymptotic-solution/)
-- [非轴对称卫星（Non-axisymmetric Satellite）](/glossary/dynamics/non-axisymmetric-satellite/)
+- 渐近解（Asymptotic Solution）
+- 非轴对称卫星（Non-axisymmetric Satellite）
 - [平动点轨道编目（Libration Point Orbit Cataloging）](/glossary/orbits/libration-point-periodic-orbit/)
 - [Floquet模态法（Floquet Modal Method）](/glossary/dynamics/floquet-modal-method/)
 

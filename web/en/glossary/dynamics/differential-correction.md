@@ -116,10 +116,10 @@ The central role of differential correction in cislunar space orbit design is re
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Patched Method](/en/glossary/dynamics/patched-method/)
+- Patched Method
 - [Continuation](/en/glossary/dynamics/continuation/)
 - [Poincaré Map](/en/glossary/dynamics/poincare-map/)
-- [Impulsive Maneuver](/en/glossary/dynamics/impulsive-maneuver/)
+- Impulsive Maneuver
 
 ## References
 

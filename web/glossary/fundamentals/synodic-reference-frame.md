@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/synodic-reference-frame/
 
 ## 相关概念
 
-- [地图投影（Map Projection）](/glossary/fundamentals/map-projection/)
+- 地图投影（Map Projection）
 - [推力幅值（Thrust Magnitude）](/glossary/fundamentals/thrust-magnitude/)
-- [偏转角（Deflection Angle）](/glossary/dynamics/deflection-angle/)
-- [双程测距求和组合（Summation Combination of Dual One-Way Ranging）](/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
+- 偏转角（Deflection Angle）
+- 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 
 ## 参考文献
 

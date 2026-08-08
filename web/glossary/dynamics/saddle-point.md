@@ -40,7 +40,7 @@ Poincaré映射上稳定性混合的不动点：其单值矩阵的两个特征�
 
 - [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
 - [科氏定理（Coriolis Theorem）](/glossary/dynamics/coriolis-theorem/)
-- [速度函数（Velocity Function）](/glossary/dynamics/velocity-function/)
+- 速度函数（Velocity Function）
 
 ## 参考文献
 

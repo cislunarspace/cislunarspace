@@ -38,9 +38,9 @@ permalink: /glossary/navigation/lgnss/
 
 ## 相关概念
 
-- [几何精度衰减因子（Geometric Dilution of Precision）](/glossary/navigation/gdop/)
-- [甚长基线干涉测量（Very Long Baseline Interferometry）](/glossary/navigation/vlbi/)
-- [深空网络（Deep Space Network）](/glossary/navigation/dsn/)
+- 几何精度衰减因子（Geometric Dilution of Precision）
+- 甚长基线干涉测量（Very Long Baseline Interferometry）
+- 深空网络（Deep Space Network）
 
 ## 参考文献
 

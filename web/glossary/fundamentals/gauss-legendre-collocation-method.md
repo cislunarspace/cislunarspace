@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/gauss-legendre-collocation-method/
 
 ## 相关概念
 
-- [轨道周期](/glossary/fundamentals/orbital-period/)
+- 轨道周期
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
-- [惯性坐标系](/glossary/fundamentals/inertial-reference-frame/)
+- 惯性坐标系
 - [哈密顿量](/glossary/fundamentals/hamiltonian/)
 
 ## 参考文献

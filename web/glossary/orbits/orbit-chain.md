@@ -38,10 +38,10 @@ permalink: /glossary/orbits/orbit-chain/
 
 ## 相关概念
 
-- [足球轨道（Football Orbit）](/glossary/orbits/football-orbit/)
-- [顺行极轨道（Prograde Polar Orbit）](/glossary/orbits/prograde-polar-orbit/)
-- [偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）](/glossary/orbits/eccentricity-inclination-vector-separation/)
-- [地球-月球L2光环轨道（Earth-Moon L2 Halo Orbit）](/glossary/orbits/earth-moon-l2-halo-orbit/)
+- 足球轨道（Football Orbit）
+- 顺行极轨道（Prograde Polar Orbit）
+- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
+- 地球-月球L2光环轨道（Earth-Moon L2 Halo Orbit）
 
 ## 参考文献
 

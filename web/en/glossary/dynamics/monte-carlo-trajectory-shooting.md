@@ -38,10 +38,10 @@ Monte Carlo Trajectory Shooting plays an important role in orbit maneuver design
 
 ## Related Concepts
 
-- [J2不变量轨道（J2-Invariant Orbit）](/en/glossary/dynamics/j2-invariant-orbit/)
-- [内点法优化（Interior Point Optimization）](/en/glossary/dynamics/interior-point-optimization/)
+- J2不变量轨道（J2-Invariant Orbit）
+- 内点法优化（Interior Point Optimization）
 - [n体动力学（N-Body Dynamics）](/en/glossary/dynamics/n-body-dynamics/)
-- [始末状态约束（Start-End State Constraint）](/en/glossary/dynamics/start-end-state-constraint/)
+- 始末状态约束（Start-End State Constraint）
 
 ## References
 

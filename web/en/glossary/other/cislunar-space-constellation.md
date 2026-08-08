@@ -38,8 +38,8 @@ This term has important reference value in cislunar space research and engineeri
 
 ## Related Concepts
 
-- [Vertical Take-off Vertical Landing](/en/glossary/other/vertical-take-off-vertical-landing/)
-- [On-Orbit Refueling](/en/glossary/other/on-orbit-refueling/)
+- Vertical Take-off Vertical Landing
+- On-Orbit Refueling
 
 ## References
 

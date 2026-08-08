@@ -40,9 +40,9 @@ permalink: /glossary/dynamics/direct-indirect-method/
 
 ## 相关概念
 
-- [特征指数（Characteristic Exponents）](/glossary/dynamics/characteristic-exponents/)
-- [捕获对接段（Capture Docking Phase）](/glossary/navigation/capture-docking-phase/)
-- [月球借力转移（Lunar Flyby Transfer）](/glossary/orbits/lunar-flyby-transfer/)
+- 特征指数（Characteristic Exponents）
+- 捕获对接段（Capture Docking Phase）
+- 月球借力转移（Lunar Flyby Transfer）
 
 ## 参考文献
 

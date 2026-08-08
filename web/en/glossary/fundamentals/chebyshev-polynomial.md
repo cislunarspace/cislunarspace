@@ -38,10 +38,10 @@ An orthogonal polynomial system used to approximate the position and velocity of
 
 ## Related Concepts
 
-- [Powered Phase](/en/glossary/fundamentals/powered-phase/)
-- [Nuclear Electric Propulsion](/en/glossary/fundamentals/nuclear-electric-propulsion/)
-- [Mid-course Correction](/en/glossary/fundamentals/mid-course-correction/)
-- [Failure Detection, Isolation, and Recovery](/en/glossary/fundamentals/failure-detection-isolation-and-recovery/)
+- Powered Phase
+- Nuclear Electric Propulsion
+- Mid-course Correction
+- Failure Detection, Isolation, and Recovery
 
 ## References
 

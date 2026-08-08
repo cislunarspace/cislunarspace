@@ -38,9 +38,9 @@ DRO稳定区与P3DRO黏附区共同构成的稳定屏障，阻止航天器偏离
 
 ## 相关概念
 
-- [三体问题（Three-Body Problem）](/glossary/dynamics/three-body-problem/)
-- [最优控制（Optimal Control）](/glossary/dynamics/optimal-control/)
-- [轨迹优化（Trajectory Optimization）](/glossary/dynamics/trajectory-optimization/)
+- 三体问题（Three-Body Problem）
+- 最优控制（Optimal Control）
+- 轨迹优化（Trajectory Optimization）
 
 ## 参考文献
 

@@ -39,9 +39,9 @@ An autonomous navigation method for satellites in libration point orbits propose
 ## Related Concepts
 
 - [Deficient Rank](/en/glossary/navigation/deficient-rank/)
-- [Doppler velocity measurement](/en/glossary/navigation/doppler-velocity-measurement/)
-- [Astronometric Angle Measurement](/en/glossary/navigation/astronometric-angle-measurement/)
-- [International Rendezvous System Interoperability Standard, IRSIS](/en/glossary/navigation/international-rendezvous-system-interoperability-standard-irsis/)
+- Doppler velocity measurement
+- Astronometric Angle Measurement
+- International Rendezvous System Interoperability Standard, IRSIS
 
 ## References
 

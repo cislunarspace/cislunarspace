@@ -62,10 +62,10 @@ The monodromy matrix is used for:
 
 ## Related Concepts
 
-- [State Transition Matrix (STM)](/en/glossary/dynamics/state-transition-matrix/)
-- [Stability Index](/en/glossary/dynamics/stability-index/)
+- State Transition Matrix (STM)
+- Stability Index
 - [Floquet Mode Method](/en/glossary/other/floquet-mode/)
-- [Period-Doubling Bifurcation](/en/glossary/other/period-doubling-bifurcation/)
+- Period-Doubling Bifurcation
 
 ## References
 

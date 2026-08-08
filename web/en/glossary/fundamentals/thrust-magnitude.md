@@ -38,10 +38,10 @@ Thrust Magnitude provides theoretical support for fundamental research in cislun
 
 ## Related Concepts
 
-- [Map Projection](/en/glossary/fundamentals/map-projection/)
-- [L2 Norm Function](/en/glossary/fundamentals/l2-norm-function/)
-- [Deflection Angle](/en/glossary/dynamics/deflection-angle/)
-- [Summation Combination of Dual One-Way Ranging](/en/glossary/navigation/summation-combination-of-dual-one-way-ranging/)
+- Map Projection
+- L2 Norm Function
+- Deflection Angle
+- Summation Combination of Dual One-Way Ranging
 
 ## References
 

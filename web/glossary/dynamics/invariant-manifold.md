@@ -113,7 +113,7 @@ Belbruno 的弱稳定边界理论建立在不变流形的基础上：WSB 转移�
 
 - [平动点（Libration Point）](/glossary/dynamics/libration-point/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [弱稳定边界（WSB）](/glossary/other/weak-stability-boundary/)
+- [弱稳定边界（WSB）](/glossary/dynamics/wsb/)
 - [Halo轨道](/glossary/orbits/halo-orbit/)
 - [低能转移轨道（Low Energy Transfer）](/glossary/orbits/low-energy-transfer/)
 

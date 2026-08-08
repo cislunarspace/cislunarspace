@@ -38,9 +38,9 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 
 ## Related Concepts
 
-- [Lunar-Based Low-Frequency Radio Astronomical Observation](/en/glossary/observation/lunar-based-low-frequency-radio-astronomical-observation/)
+- Lunar-Based Low-Frequency Radio Astronomical Observation
 - [Kordylewski Clouds](/en/glossary/observation/kordylewski-clouds/)
-- [Field of View](/en/glossary/observation/field-of-view/)
+- Field of View
 - [Observation Constellation](/en/glossary/observation/observation-constellation/)
 
 ## References

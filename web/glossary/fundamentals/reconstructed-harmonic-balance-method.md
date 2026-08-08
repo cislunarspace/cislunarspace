@@ -39,9 +39,9 @@ permalink: /glossary/fundamentals/reconstructed-harmonic-balance-method/
 ## 相关概念
 
 - [控制正则化（Control Regularization）](/glossary/fundamentals/control-regularization/)
-- [Cholesky因子分解（Cholesky Factorization）](/glossary/fundamentals/cholesky-factorization/)
-- [SPICE 星历工具包（SPICE, SpiceyPy）](/glossary/fundamentals/spice-spiceypy/)
-- [抛物线轨道（Parabolic Orbit）](/glossary/fundamentals/parabolic-orbit/)
+- Cholesky因子分解（Cholesky Factorization）
+- SPICE 星历工具包（SPICE, SpiceyPy）
+- 抛物线轨道（Parabolic Orbit）
 
 ## 参考文献
 

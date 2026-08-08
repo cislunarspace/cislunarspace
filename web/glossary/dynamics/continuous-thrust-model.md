@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/continuous-thrust-model/
 
 ## 相关概念
 
-- [脉冲推力模型（Impulsive Thrust Model）](/glossary/dynamics/impulsive-thrust-model/)
-- [电推进（Electric Propulsion）](/glossary/programs/electric-propulsion/)
-- [轨道优化（Trajectory Optimization）](/glossary/fundamentals/trajectory-optimization/)
-- [推力弧（Thrust Arc）](/glossary/fundamentals/thrust-arc/)
+- 脉冲推力模型（Impulsive Thrust Model）
+- [电推进（Electric Propulsion）](/glossary/fundamentals/ep/)
+- 轨道优化（Trajectory Optimization）
+- 推力弧（Thrust Arc）
 
 ## 参考文献
 

@@ -38,10 +38,10 @@ permalink: /glossary/dynamics/heteroclinic-connection/
 
 ## 相关概念
 
-- [Lorillo稳定性准则（Lorillo Stability Criterion）](/glossary/dynamics/lorillo-stability-criterion/)
-- [稳定特征向量（Stable Eigenvector）](/glossary/dynamics/stable-eigenvector/)
-- [月球飞越法（Lunar Fly-by Method）](/glossary/dynamics/lunar-fly-by-method/)
-- [可达集（Reachability Set）](/glossary/dynamics/reachability-set/)
+- Lorillo稳定性准则（Lorillo Stability Criterion）
+- 稳定特征向量（Stable Eigenvector）
+- 月球飞越法（Lunar Fly-by Method）
+- 可达集（Reachability Set）
 
 ## 参考文献
 

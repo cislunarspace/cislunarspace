@@ -38,10 +38,10 @@ This concept has practical applications in cislunar space science and engineerin
 
 ## Related Concepts
 
-- [Cislunar Space Navigation System](/en/glossary/navigation/cislunar-space-navigation-system/)
-- [Range Observability](/en/glossary/navigation/range-observability/)
-- [Sextant](/en/glossary/navigation/sextant/)
-- [Sun Sensor](/en/glossary/navigation/sun-sensor/)
+- Cislunar Space Navigation System
+- Range Observability
+- Sextant
+- Sun Sensor
 
 ## References
 

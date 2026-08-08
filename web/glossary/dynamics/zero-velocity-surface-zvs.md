@@ -38,8 +38,8 @@ permalink: /glossary/dynamics/zero-velocity-surface-zvs/
 
 ## 相关概念
 
-- [采样零动态（Sampling Zero-Dynamics）](/glossary/dynamics/sampling-zero-dynamics/)
-- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-constant-jc/)
+- 采样零动态（Sampling Zero-Dynamics）
+- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
 - [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
 - [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
 

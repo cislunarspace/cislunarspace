@@ -38,7 +38,7 @@ The 序列凸规划 concept is applied in cislunar space research, providing tec
 
 ## Related Concepts
 
-- [Sequential Quadratic Programming](/en/glossary/dynamics/sqp/)
+- Sequential Quadratic Programming
 
 ## References
 

@@ -38,10 +38,10 @@ A transfer orbit arc connecting two position vectors with solar and lunar gravit
 
 ## Related Concepts
 
-- [Lorillo Stability Criterion](/en/glossary/dynamics/lorillo-stability-criterion/)
-- [Stable Eigenvector](/en/glossary/dynamics/stable-eigenvector/)
-- [Lunar Fly-by Method](/en/glossary/dynamics/lunar-fly-by-method/)
-- [Reachability Set](/en/glossary/dynamics/reachability-set/)
+- Lorillo Stability Criterion
+- Stable Eigenvector
+- Lunar Fly-by Method
+- Reachability Set
 
 ## References
 

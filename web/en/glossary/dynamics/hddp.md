@@ -38,7 +38,7 @@ The 混合差分动态规划 concept provides technical support and analytical m
 
 ## Related Concepts
 
-- [Differential Dynamic Programming, DDP](/en/glossary/dynamics/ddp/)
+- Differential Dynamic Programming, DDP
 - [Multiple-Shooting Differential Dynamic Programming, MDDP](/en/glossary/dynamics/mddp/)
 
 ## References

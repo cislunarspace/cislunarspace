@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/nsga-ii/
 
 ## 相关概念
 
-- [离子推进（Ion Propulsion）](/glossary/fundamentals/ip/)
+- 离子推进（Ion Propulsion）
 - [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/fundamentals/t-p-graph/)
-- [中途修正（Mid-course Correction）](/glossary/fundamentals/tcm/)
-- [近月制动（Lunar Orbit Insertion, LOI）](/glossary/fundamentals/loi/)
+- 中途修正（Mid-course Correction）
+- 近月制动（Lunar Orbit Insertion, LOI）
 
 ## 参考文献
 

@@ -68,7 +68,7 @@ Jacobi 常数在数值积分中作为守恒量可用于检验积分精度。在�
 
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [平动点](/glossary/dynamics/libration-point/)
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [庞加莱截面](/glossary/dynamics/poincare-section/)
 
 ## 参考文献

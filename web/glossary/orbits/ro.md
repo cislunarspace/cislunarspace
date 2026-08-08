@@ -39,7 +39,7 @@ permalink: /glossary/orbits/ro/
 ## 相关概念
 
 - [初始周期轨道（Initial Periodic Orbit）](/glossary/orbits/ipo/)
-- [低推力转移（Low-Thrust Transfer）](/glossary/orbits/ltt/)
+- 低推力转移（Low-Thrust Transfer）
 - [径向振幅（Radial Amplitude）](/glossary/orbits/ax/)
 - [z方向运动振幅（z-direction Motion Amplitude）](/glossary/orbits/zm/)
 

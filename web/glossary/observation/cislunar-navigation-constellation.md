@@ -40,10 +40,10 @@ permalink: /glossary/observation/cislunar-navigation-constellation/
 
 ## 相关概念
 
-- [姿态估计（Pose Estimation）](/glossary/observation/pose-estimation/)
-- [宽角相机（Wide Angle Camera）](/glossary/observation/wide-angle-camera/)
-- [角锥棱镜（Corner Cube Reflector）](/glossary/observation/corner-cube-reflector/)
-- [可见性判定（Visibility Check）](/glossary/observation/visibility-check/)
+- 姿态估计（Pose Estimation）
+- 宽角相机（Wide Angle Camera）
+- 角锥棱镜（Corner Cube Reflector）
+- 可见性判定（Visibility Check）
 
 ## 参考文献
 

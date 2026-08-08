@@ -39,9 +39,9 @@ permalink: /glossary/dynamics/spherical-harmonic-model/
 ## 相关概念
 
 - [航迹角γ（Flight-Path Angle）](/glossary/dynamics/flight-path-angle/)
-- [星历模型（Ephemeris Model）](/glossary/dynamics/ephemeris-model/)
+- 星历模型（Ephemeris Model）
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
-- [递归遗忘因子估计（Recursive Forgetting Factor Estimation）](/glossary/dynamics/recursive-forgetting-factor-estimation/)
+- 递归遗忘因子估计（Recursive Forgetting Factor Estimation）
 
 ## 参考文献
 
