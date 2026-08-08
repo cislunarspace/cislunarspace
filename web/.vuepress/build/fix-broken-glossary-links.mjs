@@ -23,7 +23,7 @@ const glossFiles = []; walkMd(path.join(root, 'glossary'), glossFiles); walkMd(p
 
 // core：去括号内容（全角／半角）、trim
 const coreRe = /[（(][^）)]*[）)]/g;
-const norm = (s) => (s || '').replace(coreRe, '').replace(/\s+/g, '').trim();
+const norm = (s) => (s || '').replace(coreRe, '').replace(/\s+/g, '').toLowerCase().trim();
 
 const titleCoreMap = new Map();   // core -> {cat, slug}
 const abbrevMap = new Map();      // abbrev -> {cat, slug}（仅当缩写唯一）
@@ -84,10 +84,11 @@ for (const f of allMd(root)) {
     const [full, bang, text, rawUrl] = m;
     if (bang === '!') continue;
     const urlPath = rawUrl.split(/\s+/)[0].replace(/[?#].*$/, '');
-    const g = urlPath.match(/^(\/?(?:en\/)?)glossary\/([^/]+)\/([^/]+)\/?$/);
+    const g = urlPath.match(/^(\/?(?:en\/)?)glossary\/([^/]+)(?:\/([^/?#]+))?\/?$/);
     if (!g) continue;
     const prefix = g[1], cat = g[2], slug = g[3];
-    if (existingKeys.has(`${cat}/${slug}`)) continue; // 目标存在，不动
+    // 有 slug 且现存 → 保留；分类索引页（无 slug，或 slug 不存在）→ 当断链处理
+    if (slug && existingKeys.has(`${cat}/${slug}`)) continue;
     // 断链：尝试恢复
     let target = null;
     const textCore = norm(text);

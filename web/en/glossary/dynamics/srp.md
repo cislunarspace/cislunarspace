@@ -38,8 +38,8 @@ Solar Radiation Pressure is a key perturbation factor affecting the orbital life
 
 ## Related Concepts
 
-- [Solar Radiation Pressure Perturbation](/en/glossary/dynamics/)
-- [Orbital Perturbation](/en/glossary/dynamics/)
+- [Solar Radiation Pressure Perturbation](/en/glossary/dynamics/solar-radiation-pressure-perturbation/)
+- Orbital Perturbation
 - [Restricted Three-Body Problem](/en/glossary/dynamics/rtbp/)
 - [Libration Point](/en/glossary/dynamics/libration-point/)
 

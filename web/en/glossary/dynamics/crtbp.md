@@ -40,8 +40,8 @@ The Circular Restricted Three-Body Problem is the core model for analyzing libra
 
 - [Restricted Three-Body Problem](/en/glossary/dynamics/rtbp/)
 - [Libration Point](/en/glossary/dynamics/libration-point/)
-- [halo Orbit](/en/glossary/dynamics/)
-- [Lissajous Orbit](/en/glossary/dynamics/)
+- [halo Orbit](/en/glossary/orbits/halo-orbit/)
+- [Lissajous Orbit](/en/glossary/orbits/lissajous-orbit/)
 
 ## References
 

@@ -40,8 +40,8 @@ permalink: /glossary/dynamics/crtbp/
 
 - [限制性三体问题（Restricted Three-Body Problem）](/glossary/dynamics/rtbp/)
 - [平动点（Libration Point）](/glossary/dynamics/libration-point/)
-- [halo轨道（halo Orbit）](/glossary/dynamics/)
-- [Lissajous轨道（Lissajous Orbit）](/glossary/dynamics/)
+- halo轨道（halo Orbit）
+- Lissajous轨道（Lissajous Orbit）
 
 ## 参考文献
 

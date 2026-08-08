@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/srp/
 ## 相关概念
 
 - [太阳光压摄动（Solar Radiation Pressure Perturbation）](/glossary/dynamics/srp/)
-- [轨道摄动（Orbital Perturbation）](/glossary/dynamics/)
+- 轨道摄动（Orbital Perturbation）
 - [限制性三体问题（Restricted Three-Body Problem）](/glossary/dynamics/rtbp/)
 - [平动点（Libration Point）](/glossary/dynamics/libration-point/)
 

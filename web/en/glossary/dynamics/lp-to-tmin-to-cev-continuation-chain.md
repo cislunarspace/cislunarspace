@@ -38,7 +38,6 @@ Solution strategy proceeding from unperturbed limited power trajectory, through 
 
 ## Related Concepts
 
-- [TODO](TODO)
 
 ## References
 
