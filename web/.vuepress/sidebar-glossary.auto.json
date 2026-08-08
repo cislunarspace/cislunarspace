@@ -17726,18 +17726,7 @@
         }
       }
     ],
-    "missing": [
-      {
-        "category": "动力学与数学基础",
-        "slug": "control-curve-ui",
-        "zhTitle": "控制曲线（Control Curve, U_i）"
-      },
-      {
-        "category": "基础概念",
-        "slug": "cowells-perturbation-method",
-        "zhTitle": "Cowell摄动法（Cowell's perturbation method）"
-      }
-    ]
+    "missing": []
   },
   "en": {
     "entries": [
@@ -19453,6 +19442,20 @@
         "slug": "continuous-thrust",
         "title": "Continuous Thrust",
         "path": "/en/glossary/dynamics/continuous-thrust/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020,
+          "parentSlug": null
+        }
+      },
+      {
+        "slug": "control-curve-ui",
+        "title": "Control Curve (U_i)",
+        "path": "/en/glossary/dynamics/control-curve-ui/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -29477,6 +29480,20 @@
         "slug": "costate",
         "title": "Costate",
         "path": "/en/glossary/fundamentals/costate/",
+        "category": {
+          "slug": "fundamentals",
+          "label": {
+            "zh": "基础概念",
+            "en": "Fundamentals"
+          },
+          "order": 20010,
+          "parentSlug": null
+        }
+      },
+      {
+        "slug": "cowells-perturbation-method",
+        "title": "Cowell's Perturbation Method",
+        "path": "/en/glossary/fundamentals/cowells-perturbation-method/",
         "category": {
           "slug": "fundamentals",
           "label": {
