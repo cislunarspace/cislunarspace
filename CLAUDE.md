@@ -30,11 +30,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 All commands run from `web/`:
 
 ```bash
-npm run docs:dev          # gen-sidebar → vuepress dev server (host 0.0.0.0)
-npm run docs:build        # gen-sidebar → sharded-build (8 shards) → sync-figures
-npm run docs:build:single # gen-sidebar → single-process vuepress build → sync-figures
-npm run gen-sidebar       # regenerate all JSON artifacts (sidebar, articles, AI, glossary)
-npm run sync-figures      # copy figures/ into dist/ (required for images to display)
+npm run dev          # gen-sidebar → vuepress dev server (host 0.0.0.0)
+npm run build        # gen-sidebar → build-cached.ts → sync-figures（图片同步已内置）
+npm run gen-sidebar  # regenerate all JSON artifacts (sidebar, articles, AI, glossary)
+npm run check        # bilingual-mirror + en-chinese + link checks
+npm run lint         # markdownlint + eslint + prettier --check
+npm test             # vitest run
 ```
 
 Requires Node.js 18+ (CI and cron use v22.22.2).
@@ -71,10 +72,11 @@ One generator per output family. Orchestrated by `generate.ts` (the `npm run gen
 
 Build infrastructure scripts (no content knowledge):
 
-- `sync-figures.js` — copies `figures/` dirs into `dist/`
-- `sharded-build.ts` — N-way parallel VuePress build
-- `shard-build.mjs` — single-shard build (called by sharded-build.ts)
-- `ssr-render-cache.ts` — Vite plugin that caches SSR-rendered pages to speed up incremental builds
+- `build-cached.ts` — `npm run build` 入口；worker 池并行渲染 + 每页 SSR 缓存（key 用 envHash）
+- `ssr-cache-patch.ts` — 运行时 patch bundlerutils/bundler-vite，提供每页 SSR 渲染缓存（被 `build-cached.ts` 用；日志前缀 `[ssr-render-cache]`）
+- `sync-figures.js` — 把 `figures/` 目录复制进 `.vuepress/dist/`
+- `sharded-build.ts` — N-way 分片并行构建（多进程），cron 自动化路径用（见 `scripts/space-news-publish/CRON.md`），内部串联 sync-figures + verify-dist
+- `shard-build.mjs` — 单分片构建，由 `sharded-build.ts` 调用
 - `measure-build.ts` — build performance measurement
 - `verify-dist.ts` — dist verification checks
 
@@ -145,28 +147,27 @@ The site has four content families with different management models:
 - `web/.vuepress/public/ai-chat-index.json` — AI chat route index
 - `web/.vuepress/public/ai-chat-context.json` — AI chat context corpus
 
-To regenerate: run `npm run gen-sidebar` or the full `npm run docs:build`.
+To regenerate: run `npm run gen-sidebar` or the full `npm run build`.
 
 ## Critical Build Pipeline
 
-`npm run docs:build` runs three steps in sequence. **Never skip `sync-figures`** — images won't appear in dist:
+`npm run build` 顺序执行三步。**图片同步（sync-figures）已内置在 build 中，不要拆分跳过**，否则 dist 里没有图片：
 
-1. `generate.ts` (`npm run gen-sidebar`) — generates all JSON artifacts
-2. `vuepress build` — builds static site
-3. `sync-figures.js` (`npm run sync-figures`) — copies `figures/` dirs into `dist/`
+1. `generate.ts`（`npm run gen-sidebar`）— 生成所有 JSON 产物
+2. `build-cached.ts` — vuepress build（worker 池并行 + 每页 SSR 缓存），产物输出到 `.vuepress/dist/`
+3. `sync-figures.js` — 把 `figures/` 目录复制进 `.vuepress/dist/`
 
 ## Deployment
 
-Nginx serves from `/home/ubuntu/cislunarspace/` on the腾讯云 jump host (106.54.4.220). Config at `web/deploy/cislunarspace-site.conf`. The `/api/ai/` path proxies to DeepSeek API; API key is injected by nginx via `$DEEPSEEK_API_KEY`.
+Nginx serves from `/home/ubuntu/cislunarspace/` on the 腾讯云 host (106.54.4.220). Config at `web/deploy/cislunarspace-site.conf`. The `/api/ai/` path proxies to DeepSeek API; API key is injected by nginx via `$DEEPSEEK_API_KEY`.
 
-SSH config: `jump` (ubuntu@106.54.4.220) for deployment, `local-server` (port 22220 via reverse tunnel) for internal access.
+SSH 配置（`~/.ssh/config`）：`jump` = 腾讯云（ubuntu@106.54.4.220，密钥 `~/.ssh/thinkstation.pem`，**部署目标**）；`local-server` = 本地内网服务器（经腾讯云 22220 端口反向隧道到达，ouyangjiahong）；`jump-lan` = 局域网备用。**部署一律用 `ssh jump`，不要用 `local-server`（它指向内网）。**
 
 Deploy steps:
 ```bash
 cd web
-npm run docs:build                                    # build (8 shards + SSR cache)
-npm run sync-figures                                   # copy figures into dist/
-tar cf - dist/ | ssh jump "cd /home/ubuntu/cislunarspace && rm -rf * && tar xf - --strip-components=1"
+npm run build                                                       # gen-sidebar → build → sync-figures（含图片）
+rsync -az --delete .vuepress/dist/ jump:/home/ubuntu/cislunarspace/  # 增量同步；--delete 保证与源一致
 ssh jump "sudo nginx -s reload"
 ```
 
