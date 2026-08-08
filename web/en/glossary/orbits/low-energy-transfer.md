@@ -1,6 +1,6 @@
 ---
 title: Low-Energy Transfer
-description: A collective term for Earth–Moon transfer trajectories that cost less energy than a Hohmann transfer but take longer; three technical routes deliver the savings — invariant manifolds, the weak stability boundary, and ballistic capture — and the literature applies three different "low-energy" criteria: total ΔV, instantaneous eccentricity, and arrival-end two-body energy.
+description: 'A collective term for Earth–Moon transfer trajectories that cost less energy than a Hohmann transfer but take longer; three technical routes deliver the savings — invariant manifolds, the weak stability boundary, and ballistic capture — and the literature applies three different "low-energy" criteria: total ΔV, instantaneous eccentricity, and arrival-end two-body energy.'
 keywords: Low-Energy Transfer, invariant manifold, weak stability boundary, ballistic capture, Earth–Moon transfer, cislunar space
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: "Low-Energy Transfer Explained | Term Definition"
-  description: A collective term for Earth–Moon transfer trajectories that cost less energy than a Hohmann transfer but take longer; three technical routes deliver the savings — invariant manifolds, the weak stability boundary, and ballistic capture — and the literature applies three different "low-energy" criteria: total ΔV, instantaneous eccentricity, and arrival-end two-body energy.
+  description: 'A collective term for Earth–Moon transfer trajectories that cost less energy than a Hohmann transfer but take longer; three technical routes deliver the savings — invariant manifolds, the weak stability boundary, and ballistic capture — and the literature applies three different "low-energy" criteria: total ΔV, instantaneous eccentricity, and arrival-end two-body energy.'
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: "Low-Energy Transfer Explained | Term Definition"
-  description: A collective term for Earth–Moon transfer trajectories that cost less energy than a Hohmann transfer but take longer; three technical routes deliver the savings — invariant manifolds, the weak stability boundary, and ballistic capture — and the literature applies three different "low-energy" criteria: total ΔV, instantaneous eccentricity, and arrival-end two-body energy.
+  description: 'A collective term for Earth–Moon transfer trajectories that cost less energy than a Hohmann transfer but take longer; three technical routes deliver the savings — invariant manifolds, the weak stability boundary, and ballistic capture — and the literature applies three different "low-energy" criteria: total ΔV, instantaneous eccentricity, and arrival-end two-body energy.'
   image: /logo.png
 permalink: /en/glossary/orbits/low-energy-transfer/
 ---
