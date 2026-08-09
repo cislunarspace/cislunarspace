@@ -127,7 +127,7 @@ In the specific case of impulsive thrust, the thrust direction simplifies to the
 
 - [Impulsive Maneuvers and Rendezvous (Two-Impulse Rendezvous)](/en/glossary/dynamics/two-impulse-rendezvous/) — Thrust-direction application strategies under the impulsive model
 
-- [Pontryagin's Minimum Principle](/en/glossary/fundamentals/pmp/) — The mathematical foundation for optimal thrust direction
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) — The mathematical foundation for optimal thrust direction
 
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/) — The physical quantity that determines optimal thrust direction
 

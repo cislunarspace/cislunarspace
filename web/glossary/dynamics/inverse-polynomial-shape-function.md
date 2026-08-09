@@ -66,7 +66,7 @@ $$
 
 - [直接配点法与最优控制数值方法](/glossary/dynamics/hermite-simpson-method/)
 
-- [高斯伪谱法（GPM）](/glossary/dynamics/gpm/)
+- [高斯伪谱法（GPM）](/glossary/dynamics/pseudospectral-method/)
 
 - [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/)
 

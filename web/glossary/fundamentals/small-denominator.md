@@ -40,7 +40,7 @@ permalink: /glossary/fundamentals/small-denominator/
 
 - [Lindstedt-Poincaré级数展开（Lindstedt-Poincaré Series Expansion）](/glossary/dynamics/poincare-section/)
 - 顺行轨道（Prograde Orbit）
-- [强Legendre条件（Strong Legendre Condition）](/glossary/fundamentals/strong-legendre-condition/)
+- [强Legendre条件（Strong Legendre Condition）](/glossary/fundamentals/conjugate-point/)
 - 统一轨道根数（Unified Orbital Elements）
 
 ## 参考文献

@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/energy-range/
 ## 相关概念
 
 - [混合差分动态规划（Hybrid Differential Dynamic Programming）](/glossary/dynamics/hddp/)
-- [形状法（Shape Method）](/glossary/dynamics/shape-method/)
+- [形状法（Shape Method）](/glossary/dynamics/shape-based-method/)
 - 差分动态规划（Differential Dynamic Programming, DDP）
 - 二阶锥规划（Second-Order Cone Programming, SOCP）
 

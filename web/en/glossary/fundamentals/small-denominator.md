@@ -40,7 +40,7 @@ The Small Denominator plays a significant role in cislunar space mission design,
 
 - [Lindstedt-Poincaré Series Expansion](/en/glossary/dynamics/poincare-section/)
 - Prograde Orbit
-- [Strong Legendre Condition](/en/glossary/fundamentals/strong-legendre-condition/)
+- [Strong Legendre Condition](/en/glossary/fundamentals/conjugate-point/)
 - Unified Orbital Elements
 
 ## References

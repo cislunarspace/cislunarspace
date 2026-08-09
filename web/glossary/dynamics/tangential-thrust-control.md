@@ -127,7 +127,7 @@ $$
 
 - [脉冲机动与交会（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/) — 脉冲模型下的推力方向施加策略
 
-- [庞特里亚金极小值原理](/glossary/fundamentals/pmp/) — 最优推力方向的数学基础
+- [庞特里亚金极小值原理](/glossary/dynamics/pontryagins-maximum-principle/) — 最优推力方向的数学基础
 
 - [协态变量](/glossary/dynamics/co-state-variables/) — 决定最优推力方向的物理量
 

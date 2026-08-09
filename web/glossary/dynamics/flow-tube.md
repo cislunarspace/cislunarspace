@@ -39,7 +39,7 @@ Lyapunov轨道是平动点附近最基础的周期轨道类型，其不变流形
 ## 相关概念
 
 - [混合差分动态规划（Hybrid Differential Dynamic Programming）](/glossary/dynamics/hddp/)
-- [形状法（Shape Method）](/glossary/dynamics/shape-method/)
+- [形状法（Shape Method）](/glossary/dynamics/shape-based-method/)
 - 差分动态规划（Differential Dynamic Programming, DDP）
 - 二阶锥规划（Second-Order Cone Programming, SOCP）
 

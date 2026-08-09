@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/terminal-performance-index/
 ## 相关概念
 
 - 层次分析法（Analytic Hierarchy Process）
-- [共态方程（Costate Equations）](/glossary/fundamentals/costate-equations/)
+- [共态方程（Costate Equations）](/glossary/dynamics/co-state-variables/)
 - [速度增量（Delta-v, Δv）](/glossary/fundamentals/delta-v/)
 - 连分式（Continued Fraction）
 

@@ -40,7 +40,7 @@ permalink: /glossary/orbits/slpo/
 
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
-- [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/gpm/)
+- [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
 - [圆型非线性相对运动方程（Circular Non-linear Equations of Relative Motion）](/glossary/dynamics/cnerm/)
 
 ## 参考文献

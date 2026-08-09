@@ -1,23 +1,23 @@
 ---
 title: Cauchy-Green Tensor Method
-description: A station-keeping approach that constructs the Cauchy-Green tensor from the deformation gradient (state transition matrix) of the dynamical flow, analyzing its...
-keywords: Cauchy-Green Tensor Method, orbital dynamics, control theory, nonlinear control, optimal control
-author: 天疆说
+description: Construct the finite-time Cauchy-Green strain tensor from the state transition matrix; its largest singular value defines the finite-time Lyapunov exponent (FTLE), and ridges of the FTLE field reveal Lagrangian coherent structures (LCS). Covers definition, distinctions from monodromy matrices and Poincaré sections, computation pipeline, and applications to CR3BP phase-space partitioning and Earth-Moon / Jovian-moon flow analysis.
+keywords: Cauchy-Green Tensor Method, CGT, FTLE, finite-time Lyapunov exponent, Lagrangian Coherent Structures, LCS, state transition matrix, manifolds
+author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
   title: Cauchy-Green Tensor Method
-  desc: Cislunar space research frontiers, term definitions, and tools resources.
+  desc: Build the CG tensor from the STM, take its FTLE, ridges are LCS — finite-time transport barriers.
   image: /logo.png
 og:
-  title: "Cauchy-Green Tensor Method Explained | Term Definition"
-  description: A station-keeping approach that constructs the Cauchy-Green tensor from the deformation gradient (state transition matrix) of the dynamical flow, analyzing its...
+  title: Cauchy-Green Tensor Method | FTLE and Lagrangian Coherent Structures
+  description: Construct the finite-time Cauchy-Green strain tensor from the state transition matrix; its largest singular value defines the FTLE, whose ridges reveal Lagrangian coherent structures. Covers the definition, distinctions from monodromy matrices and Poincaré sections, the computation pipeline, and applications in Earth-Moon and Jovian-moon flow analysis.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Cauchy-Green Tensor Method Explained | Term Definition"
-  description: A station-keeping approach that constructs the Cauchy-Green tensor from the deformation gradient (state transition matrix) of the dynamical flow, analyzing its...
+  title: Cauchy-Green Tensor Method | FTLE and Lagrangian Coherent Structures
+  description: Construct the finite-time Cauchy-Green strain tensor from the state transition matrix; its largest singular value defines the FTLE, whose ridges reveal Lagrangian coherent structures. Covers the definition, distinctions from monodromy matrices and Poincaré sections, the computation pipeline, and applications in Earth-Moon and Jovian-moon flow analysis.
   image: /logo.png
 permalink: /en/glossary/dynamics/cauchy-green-tensor-method/
 ---
@@ -30,18 +30,70 @@ permalink: /en/glossary/dynamics/cauchy-green-tensor-method/
 
 ## Definition
 
-A station-keeping approach that constructs the Cauchy-Green tensor from the deformation gradient (state transition matrix) of the dynamical flow, analyzing its eigenvalues to characterize local stretching and compression for optimal maneuver placement on libration point orbits.
+The **Cauchy-Green tensor method** uses the deformation gradient of a dynamical system's flow map — i.e. the [state transition matrix](/en/glossary/fundamentals/stm/) (STM) $\Phi(t_f,t_0)$ — to build the finite-time Cauchy-Green strain tensor (CGST)
 
-## Application Value
+$$
+C(t_0,t_f) = \Phi(t_f,t_0)^{\!\top}\Phi(t_f,t_0).
+$$
 
-Constructed from the state transition matrix to describe local dynamical stretching and compression characteristics, it predicts maximum propagation of initial errors for libration point orbit maneuver optimization.
+$C$ is symmetric positive definite; its largest eigenvalue $\lambda_1$ gives, for integration time $\Delta t=t_f-t_0$, the squared factor by which an initial small perturbation along the most-stretched direction is amplified. The **finite-time Lyapunov exponent** (FTLE) is
+
+$$
+\sigma(t_0,t_f) = \frac{1}{\Delta t}\ln\!\sqrt{\lambda_1(C)}.
+$$
+
+Evaluating $\sigma$ on a grid of initial conditions yields the FTLE field; ridges of high value in this field are **Lagrangian coherent structures** (LCS). LCS mark the most significant finite-time barriers separating regions of distinct flow behaviour — transit, capture, and escape trajectories are partitioned by LCS (Haller 2001; Shadden et al. 2005).
+
+## Distinction from Monodromy Matrices and Poincaré Sections
+
+The boundary between CGST/FTLE/LCS and traditional CR3BP geometrical tools needs to be drawn carefully:
+
+- **Monodromy matrix** ([monodromy matrix](/en/glossary/dynamics/monodromy-matrix/)): the STM integrated over one full period of a periodic orbit; its eigenvalues serve **local stability analysis of periodic orbits**. CGST is built from the STM along **any** trajectory over **finite** time, periodicity not required.
+- **Stable/unstable invariant manifolds** ([invariant manifold](/en/glossary/dynamics/invariant-manifold/)): spanned by the real eigenvectors of a periodic orbit's monodromy matrix; strictly autonomous geometric objects. LCS are "finite-time approximations" of transport barriers — when LCS are generated by integrating along a periodic orbit long enough, they align with the stable/unstable directions of its invariant manifolds; in non-autonomous or transient flows, LCS provide the working surrogate.
+- **Poincaré section** ([Poincaré section](/en/glossary/dynamics/poincare-section/)): a dimension-reduction visualisation tool; FTLE fields are routinely built on two-dimensional Poincaré sections (section + integration time $\Delta t$), projecting the stretching of a 4D flow onto a 2D map.
+
+In short: monodromy gives "is the orbit stable?", invariant manifolds give "the geometric corridors near a periodic orbit", and CGST/FTLE give "the finite-time transport barriers in any flow". The three are complementary.
+
+## Computation Pipeline
+
+The standard recipe for an FTLE map on a CR3BP section $\Sigma$ (Canales & Howell 2024):
+
+1. Lay an initial-condition grid $\{\vec q_i\}$ on $\Sigma$ (e.g. a $y\dot y$ section through $L_1$ or $L_2$).
+2. Complete each $\vec q_i$ to a full state at the chosen energy $C_J$ and propagate forward (or backward) for time $\Delta t$, integrating the STM alongside.
+3. At $t_f$ form $\Phi(t_f,t_0)$, build $C=\Phi^\top\Phi$, and extract the largest eigenvalue $\lambda_1$.
+4. Compute $\sigma_i=(1/\Delta t)\ln\sqrt{\lambda_1}$.
+5. Render $\sigma_i$ on the grid as a colour map or contour; the ridges are LCS.
+
+Backward integration yields "repelling" LCS (approximating future stable manifolds); forward integration yields "attracting" LCS (approximating future unstable manifolds). Their intersection points often coincide with the "neck" geometry at $L_1/L_2$ neighbourhoods (see [libration points](/en/glossary/fundamentals/libration-point/)).
+
+## Practical Notes
+
+- **Choice of $\Delta t$**: too short, the LCS does not form; too long, trajectories fall into a chaotic sea and FTLE values homogenise. Canales & Howell (2024) use roughly one host-planet orbital period near Ganymede.
+- **Resolution and cost**: a typical FTLE map needs $10^5$–$10^6$ trajectory integrations; recent work accelerates this with GPUs or high-order methods such as Jet Transport (Pérez-Palau et al. 2015).
+- **Energy-threshold identification**: inside LCS-bounded regions, trajectories can be classified as captured, impacting, or transiting — providing a decision map for Earth-Moon transfer and capture design.
+- **Symmetry acceleration**: the time-reflection symmetry of the CR3BP makes forward and backward LCS mirror images, halving the computation (Canales & Howell 2024).
+
+## Applications
+
+- **Cislunar transport analysis**: LCS identify low-energy transit corridors near $L_1/L_2$, informing [invariant-manifold](/en/glossary/dynamics/invariant-manifold/) patching strategies; Short & Howell (2014) used them for ARTEMIS stationkeeping assessment.
+- **Jovian and Saturnian moon tours**: Canales & Howell (2024) build an FTLE atlas around Ganymede and Europa to characterise the gateway geometry for endgame design.
+- **Asteroid neighbourhoods**: FTLE maps around rubble-pile bodies reveal stable rings, impact zones, and escape corridors, coupled with attitude dynamics.
+- **Debris cloud evolution**: long-term debris evolution analyses use FTLE maps to delineate capture belts and re-impact belts.
 
 ## Related Concepts
 
-- [Gauss Pseudospectral Method, GPM](/en/glossary/dynamics/gpm/)
-- Cauchy-Green Tensor, CGT
-- Differential Algebra Method
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+- [State Transition Matrix](/en/glossary/fundamentals/stm/)
+- [Monodromy Matrix](/en/glossary/dynamics/monodromy-matrix/)
+- [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
+- [Poincaré Section](/en/glossary/dynamics/poincare-section/)
+- [Libration Point](/en/glossary/fundamentals/libration-point/)
 
 ## References
 
-- Shimane et al. 2025; Guzzetti et al. 2017.
+- Haller, G. (2001). Distinguished material surfaces and coherent structures in three-dimensional fluid flows. *Physica D*, 149(4), 248–277.
+- Shadden, S. C., Lekien, F., & Marsden, J. E. (2005). Definition and properties of Lagrangian coherent structures from finite-time Lyapunov exponents in two-dimensional aperiodic flows. *Physica D*, 212(3–4), 271–304.
+- Gawlik, E. S., Marsden, J. E., Du Toit, P. C., & Campagnolo, S. (2009). Lagrangian coherent structures in the restricted three-body problem. *Celestial Mechanics and Dynamical Astronomy*, 103(3), 227–249.
+- Short, C., & Howell, K. C. (2014). Lagrangian coherent structures in various maps for Earth–Moon systems. *Acta Astronautica*, 94(1), 592–607.
+- Pérez-Palau, D., Barrabés, E., & Gomez, G. (2015). Dynamical indicators in the restricted three-body problem. *Celestial Mechanics and Dynamical Astronomy*, 122(4), 319–341.
+- Canales, D., & Howell, K. C. (2024). Understanding flow around planetary moons via finite-time Lyapunov exponent maps. *Celestial Mechanics and Dynamical Astronomy*, 136(2), 11.

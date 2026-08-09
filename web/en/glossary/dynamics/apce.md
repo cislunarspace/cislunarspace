@@ -41,7 +41,7 @@ Adaptive Polynomial Chaos Expansion plays an important role in orbital mechanics
 - [Libration Point Orbit](/en/glossary/orbits/libration-point-periodic-orbit/)
 - State Transition Matrix
 - Six-Degree-of-Freedom
-- [Gauss Pseudospectral Method](/en/glossary/dynamics/gpm/)
+- [Gauss Pseudospectral Method](/en/glossary/dynamics/pseudospectral-method/)
 
 ## References
 

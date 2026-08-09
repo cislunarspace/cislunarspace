@@ -41,7 +41,7 @@ permalink: /glossary/dynamics/de/
 - 利差点轨道（Libration Point Orbit）
 - 状态转移矩阵（State Transition Matrix）
 - 六自由度（Six-Degree-of-Freedom）
-- [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/gpm/)
+- [高斯伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
 
 ## 参考文献
 

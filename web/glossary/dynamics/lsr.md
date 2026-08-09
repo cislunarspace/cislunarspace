@@ -75,7 +75,7 @@ $$T_{3BP} = \frac{N}{M} \left| \frac{2\pi}{\omega_S} \right|$$
 
 - [Halo轨道计算（Halo Orbit Computation）](/glossary/dynamics/halo-orbit-computation/)
 
-- [日食规避路径约束（Eclipse Avoidance Path Constraint）](/glossary/dynamics/eclipse-avoidance-path-constraint/)
+- [日食规避路径约束（Eclipse Avoidance Path Constraint）](/glossary/dynamics/trajectory-constraints/)
 
 - [轨道维持（Station-Keeping）](/glossary/dynamics/station-keeping/)
 

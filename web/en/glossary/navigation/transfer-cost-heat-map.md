@@ -41,7 +41,7 @@ Transfer Cost Heat Map has important applications in cislunar space navigation a
 - Summation Combination of Dual One-Way Ranging
 - Cuboidal Spatial Grid
 - Deflection Angle
-- [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
+- [Time-Optimal Transfer](/en/glossary/dynamics/fuel-optimal/)
 
 ## References
 

@@ -75,7 +75,7 @@ Higher-period orbit families adjacent to NRHOs also host synodic resonant member
 
 - [Halo Orbit Computation](/en/glossary/dynamics/halo-orbit-computation/)
 
-- [Eclipse Avoidance Path Constraint](/en/glossary/dynamics/eclipse-avoidance-path-constraint/)
+- [Eclipse Avoidance Path Constraint](/en/glossary/dynamics/trajectory-constraints/)
 
 - [Station-Keeping](/en/glossary/dynamics/station-keeping/)
 

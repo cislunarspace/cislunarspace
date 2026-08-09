@@ -171,7 +171,7 @@ $$
 
 - [推力方向与控制（Tangential Thrust Control）](/glossary/dynamics/tangential-thrust-control/) — 推力方向的最优与简化策略
 
-- [庞特里亚金极小值原理](/glossary/fundamentals/pmp/) — 推导 Bang-bang 控制的数学基础
+- [庞特里亚金极小值原理](/glossary/dynamics/pontryagins-maximum-principle/) — 推导 Bang-bang 控制的数学基础
 
 - [协态变量](/glossary/dynamics/co-state-variables/) — 先驱向量的直接物理来源
 

@@ -92,7 +92,7 @@ This invariance is commonly used as a self-consistency check for numerical deriv
 
 - [State Transition Matrix](/en/glossary/fundamentals/stm/)
 
-- [Primer Vector](/en/glossary/fundamentals/primer-vector/)
+- [Primer Vector](/en/glossary/dynamics/primer-vector/)
 
 - [J2 Perturbation](/en/glossary/dynamics/non-spherical-gravity-perturbation/)
 

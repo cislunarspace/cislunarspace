@@ -92,7 +92,7 @@ $$\text{tr}(\mathbf{G}) = G_{xx} + G_{yy} + G_{zz} = 0$$
 
 - [状态转移矩阵（State Transition Matrix）](/glossary/fundamentals/stm/)
 
-- [初值向量（Primer Vector）](/glossary/fundamentals/primer-vector/)
+- [初值向量（Primer Vector）](/glossary/dynamics/primer-vector/)
 
 - [J2 摄动](/glossary/dynamics/non-spherical-gravity-perturbation/)
 

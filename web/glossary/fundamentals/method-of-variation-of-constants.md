@@ -38,7 +38,7 @@ permalink: /glossary/fundamentals/method-of-variation-of-constants/
 
 ## 相关概念
 
-- [Gauss 伪谱法（Gauss Pseudospectral Method）](/glossary/fundamentals/gpm/)
+- [Gauss 伪谱法（Gauss Pseudospectral Method）](/glossary/dynamics/pseudospectral-method/)
 - 周期轨道（Periodic Orbit）
 - [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - 形状函数（Shape Function）

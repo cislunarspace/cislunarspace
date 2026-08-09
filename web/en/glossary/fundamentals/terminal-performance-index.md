@@ -39,7 +39,7 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 ## Related Concepts
 
 - Analytic Hierarchy Process
-- [Costate Equations](/en/glossary/fundamentals/costate-equations/)
+- [Costate Equations](/en/glossary/dynamics/co-state-variables/)
 - Delta-v, Δv
 - Continued Fraction
 

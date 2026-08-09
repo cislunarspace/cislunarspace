@@ -94,7 +94,7 @@ NLP 解算器需要约束和目标函数的一阶导数（雅可比矩阵 $\math
 
 - [状态转移矩阵（STM）](/glossary/fundamentals/stm/)
 
-- [高斯伪谱法（GPM）](/glossary/dynamics/gpm/)
+- [高斯伪谱法（GPM）](/glossary/dynamics/pseudospectral-method/)
 
 - [形状基法（Shape-Based Method）](/glossary/dynamics/shape-based-method/)
 

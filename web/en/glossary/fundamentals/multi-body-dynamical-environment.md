@@ -40,7 +40,7 @@ In cislunar space, the combined gravitational influence of Earth, Moon, and Sun 
 
 - [Differential Correction Method](/en/glossary/dynamics/differential-correction/)
 - Laval Nozzle
-- [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
+- [Lagrange Point](/en/glossary/fundamentals/libration-point/)
 - Orbital Elements
 
 ## References

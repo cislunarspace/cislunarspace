@@ -75,7 +75,7 @@ Starting from a guess of $\boldsymbol{\lambda}(t_0)$, integrate forward, and use
 
 Co-state variables represent the "shadow price" of state constraints — the position co-state $\boldsymbol{\lambda}_r$ captures the cost pressure that the terminal position constraint exerts on the entire trajectory; the velocity co-state $\boldsymbol{\lambda}_v$ is the shadow price of terminal velocity. But their magnitudes and directions follow no simple heuristic, making reasonable initial guesses elusive. Under the CR3BP's nonlinear flow, small perturbations in $\boldsymbol{\lambda}(t_0)$ are amplified by long-duration integration, producing multi-peak, multi-valley structure in $\mathbf{F}$ (parallel to the initial-guess sensitivity of differential correction).
 
-[Co-state normalization](/en/glossary/dynamics/costate-normalization/) is a critical mitigation: normalize $(\boldsymbol{\lambda}(t_0),\lambda_m(t_0))$ onto the 7-dimensional unit sphere, reducing the search space from an infinite domain to a compact set — the initial guess need only "point in the right direction" (Jiang et al. 2012).
+[Co-state normalization](/en/glossary/dynamics/co-state-variables/) is a critical mitigation: normalize $(\boldsymbol{\lambda}(t_0),\lambda_m(t_0))$ onto the 7-dimensional unit sphere, reducing the search space from an infinite domain to a compact set — the initial guess need only "point in the right direction" (Jiang et al. 2012).
 
 ### Homotopy
 
@@ -107,7 +107,7 @@ Lambert's problem is a special case of the TPBVP under two-body dynamics — giv
 
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/)
 
-- [Co-state Normalization](/en/glossary/dynamics/costate-normalization/)
+- [Co-state Normalization](/en/glossary/dynamics/co-state-variables/)
 
 - [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 

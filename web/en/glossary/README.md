@@ -34,8 +34,8 @@ The Chinese edition ([术语词典](/glossary/)) is the authoritative source and
 
 ## Categories
 
-- **Fundamentals** (112 entries) — reference frames, time systems, physical constants, foundational concepts.
-- **Dynamics & Mathematical Foundations** (468 entries) — CR3BP, libration-point orbits, invariant manifolds, perturbation methods, numerical integrators.
+- **Fundamentals** (86 entries) — reference frames, time systems, physical constants, foundational concepts.
+- **Dynamics & Mathematical Foundations** (358 entries) — CR3BP, libration-point orbits, invariant manifolds, perturbation methods, numerical integrators.
 - **Mission Orbits** (143 entries) — NRHO, DRO, halo/Lissajous families, transfer trajectories, orbit families grouped by topology.
 - **Navigation Technology & Systems** (65 entries) — GNSS, radiometric tracking, autonomous navigation, orbit determination.
 - **Astronomical Observation** (24 entries) — sensors, radiometry, star trackers, observation geometry.

@@ -159,7 +159,7 @@ $\kappa=0$ 对应目标低推力（难），$\kappa=1$ 对应高推力（易）�
 
 - [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
 
-- [协态归一化（Co-state Normalization）](/glossary/dynamics/costate-normalization/)
+- [协态归一化（Co-state Normalization）](/glossary/dynamics/co-state-variables/)
 
 - [Bang-bang 控制（Bang-bang Control）](/glossary/dynamics/bang-bang-control/)
 

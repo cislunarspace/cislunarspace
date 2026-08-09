@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/minimum-euclidean-norm/
 ## 相关概念
 
 - 偏转角（Deflection Angle）
-- [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/time-optimal-transfer/)
+- [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 地图投影（Map Projection）
 

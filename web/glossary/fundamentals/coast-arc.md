@@ -41,7 +41,7 @@ permalink: /glossary/fundamentals/coast-arc/
 
 ## 相关概念
 
-- [Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）](/glossary/fundamentals/bang-off-bang-thrust-profile/)
+- [Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）](/glossary/dynamics/bang-bang-control/)
 - 春分点（Vernal Equinox）
 - [L2-L1同伦法（L2-L1 Homotopy）](/glossary/dynamics/continuation/)
 

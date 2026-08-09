@@ -40,7 +40,7 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 - Orbital Period
 - [Nondimensionalization](/glossary/fundamentals/nondimensionalization/)
 - Inertial Reference Frame
-- [Hamiltonian](/glossary/fundamentals/hamiltonian/)
+- [Hamiltonian](/en/glossary/dynamics/hamiltonian/)
 
 ## References
 

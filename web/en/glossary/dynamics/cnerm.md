@@ -41,7 +41,7 @@ Circular Non-linear Equations of Relative Motion, CNERM plays an important role 
 - [Libration Point Orbit](/en/glossary/orbits/libration-point-periodic-orbit/)
 - State Transition Matrix
 - Six-Degree-of-Freedom
-- [Gauss Pseudospectral Method](/en/glossary/dynamics/gpm/)
+- [Gauss Pseudospectral Method](/en/glossary/dynamics/pseudospectral-method/)
 
 ## References
 

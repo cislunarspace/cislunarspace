@@ -39,7 +39,7 @@ This concept has important application value in cislunar space research and miss
 ## Related Concepts
 
 - Variable Structure Sliding Mode Control
-- [Pontryagin Minimum Principle](/en/glossary/fundamentals/pmp/)
+- [Pontryagin Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 - Error Function
 
 ## References

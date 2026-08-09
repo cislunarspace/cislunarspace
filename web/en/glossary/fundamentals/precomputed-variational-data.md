@@ -39,7 +39,7 @@ This concept is essential for understanding motion characteristics in spacecraft
 ## Related Concepts
 
 - Suborbital
-- [Optimal Relative Motion Control](/en/glossary/fundamentals/optimal-relative-motion-control/)
+- [Optimal Relative Motion Control](/en/glossary/dynamics/fuel-optimal/)
 - Rocket Staging
 - Cross-Product Matrix / Skew-Symmetric Matrix
 

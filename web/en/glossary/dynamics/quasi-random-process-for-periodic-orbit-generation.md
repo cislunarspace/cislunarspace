@@ -39,7 +39,7 @@ Quasi-random Process for Periodic Orbit Generation plays an important role in or
 ## Related Concepts
 
 - Deflection Angle
-- [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
+- [Time-Optimal Transfer](/en/glossary/dynamics/fuel-optimal/)
 - Summation Combination of Dual One-Way Ranging
 - Map Projection
 

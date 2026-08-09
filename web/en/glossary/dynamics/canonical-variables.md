@@ -84,7 +84,7 @@ Value of the canonical framework: (1) systematic construction and analysis of th
 
 - [Hamiltonian](/glossary/dynamics/hamiltonian/)
 
-- [Symplectic Transformation](/glossary/dynamics/symplectic-transformation/)
+- [Symplectic Transformation](/en/glossary/dynamics/hamiltonian-normal-form/)
 
 - [Invariant Torus](/glossary/fundamentals/invariant-torus/)
 

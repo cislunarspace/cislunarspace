@@ -41,7 +41,7 @@ Axial Resonant Orbit, ARO is an important concept in cislunar orbit design, cruc
 - [Libration Point Orbit](/en/glossary/orbits/libration-point-periodic-orbit/)
 - State Transition Matrix
 - Six-Degree-of-Freedom
-- [Gauss Pseudospectral Method](/en/glossary/dynamics/gpm/)
+- [Gauss Pseudospectral Method](/en/glossary/dynamics/pseudospectral-method/)
 
 ## References
 

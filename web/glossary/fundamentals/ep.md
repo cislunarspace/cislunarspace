@@ -154,7 +154,7 @@ $$
 
 - [脉冲机动（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/) — 化学推进脉冲模型的机动方法
 
-- [庞特里亚金极小值原理](/glossary/fundamentals/pmp/)
+- [庞特里亚金极小值原理](/glossary/dynamics/pontryagins-maximum-principle/)
 
 - [协态变量](/glossary/dynamics/co-state-variables/)
 

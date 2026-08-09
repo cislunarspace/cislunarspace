@@ -72,37 +72,9 @@
         }
       },
       {
-        "slug": "adjoint-equations",
-        "title": "共轭方程（Adjoint Equations）",
-        "path": "/glossary/dynamics/adjoint-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "adjoint-method",
         "title": "伴随法（Adjoint Method）",
         "path": "/glossary/dynamics/adjoint-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "al-ilqr",
-        "title": "增广拉格朗日迭代LQR（Augmented Lagrangian Iterative LQR, AL-iLQR）",
-        "path": "/glossary/dynamics/al-ilqr/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -352,20 +324,6 @@
         }
       },
       {
-        "slug": "b-spline-control-parameterization",
-        "title": "B 样条控制参数化（B-Spline Control Parameterization）",
-        "path": "/glossary/dynamics/b-spline-control-parameterization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "backward-integration-method",
         "title": "反向积分法（Backward Integration Method）",
         "path": "/glossary/dynamics/backward-integration-method/",
@@ -408,79 +366,9 @@
         }
       },
       {
-        "slug": "bang-bang-solution",
-        "title": "Bang-bang解（Bang-bang Solution）",
-        "path": "/glossary/dynamics/bang-bang-solution/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "bang-bang-thrust-profile",
-        "title": "Bang-bang推力剖面（Bang-Bang Thrust Profile）",
-        "path": "/glossary/dynamics/bang-bang-thrust-profile/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "bang-off-bang-control",
-        "title": "Bang-off-Bang控制（Bang-off-Bang Control）",
-        "path": "/glossary/dynamics/bang-off-bang-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "bang-off-bang-thrust-profile",
-        "title": "bang-off-bang推力模式（Bang-off-Bang Thrust Profile）",
-        "path": "/glossary/dynamics/bang-off-bang-thrust-profile/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "battin-giorgi-method",
-        "title": "Battin-Giorgi方法（Battin-Giorgi Method）",
+        "title": "Battin-Giorgi 方法（Battin-Giorgi Method）",
         "path": "/glossary/dynamics/battin-giorgi-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "battin-vaughn-algorithm",
-        "title": "巴丁-沃恩算法（Battin-Vaughn Algorithm）",
-        "path": "/glossary/dynamics/battin-vaughn-algorithm/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -551,34 +439,6 @@
         "slug": "birkhoff-equations",
         "title": "Birkhoff方程（Birkhoff Equations）",
         "path": "/glossary/dynamics/birkhoff-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "birkhoff-gustavson-normal-form",
-        "title": "Birkhoff-Gustavson标准型（Birkhoff-Gustavson Normal Form）",
-        "path": "/glossary/dynamics/birkhoff-gustavson-normal-form/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "birkhoff-normal-form",
-        "title": "比尔克霍夫标准型（Birkhoff Normal Form）",
-        "path": "/glossary/dynamics/birkhoff-normal-form/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -815,22 +675,8 @@
       },
       {
         "slug": "co-state-variables",
-        "title": "协态变量（Co-state Variables）",
+        "title": "协态变量与共轭方程（Costate Variables and Adjoint Equations）",
         "path": "/glossary/dynamics/co-state-variables/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "co-state",
-        "title": "协态（Co-state）",
-        "path": "/glossary/dynamics/co-state/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -926,48 +772,6 @@
         }
       },
       {
-        "slug": "conjugate-momenta",
-        "title": "共轭动量（Conjugate Momenta）",
-        "path": "/glossary/dynamics/conjugate-momenta/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "conjugate-point-mapping",
-        "title": "共轭点映射（Conjugate Point Mapping）",
-        "path": "/glossary/dynamics/conjugate-point-mapping/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "conjugate-variables",
-        "title": "共轭变量（Conjugate Variables）",
-        "path": "/glossary/dynamics/conjugate-variables/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "conley-mcgehee-tube",
         "title": "Conley-McGehee管（Conley-McGehee Tube）",
         "path": "/glossary/dynamics/conley-mcgehee-tube/",
@@ -1052,34 +856,6 @@
         }
       },
       {
-        "slug": "constraint-conditions",
-        "title": "约束条件（Constraint Conditions）",
-        "path": "/glossary/dynamics/constraint-conditions/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "constraint-relaxation",
-        "title": "约束松弛（Constraint Relaxation）",
-        "path": "/glossary/dynamics/constraint-relaxation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "continuation",
         "title": "数值延拓（Numerical Continuation）",
         "path": "/glossary/dynamics/continuation/",
@@ -1109,7 +885,7 @@
       },
       {
         "slug": "control-parametrization",
-        "title": "控制参数化（Control Parametrization）",
+        "title": "控制参数化与节流因子（Control Parametrization, B-Spline, Spherical Variables and Throttle）",
         "path": "/glossary/dynamics/control-parametrization/",
         "category": {
           "slug": "dynamics",
@@ -1151,50 +927,8 @@
       },
       {
         "slug": "coriolis-theorem",
-        "title": "科氏定理（Coriolis Theorem）",
+        "title": "科氏定理（Coriolis Theorem / Transport Theorem）",
         "path": "/glossary/dynamics/coriolis-theorem/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-control-transformation",
-        "title": "协态控制变换法（Costate-Control Transformation）",
-        "path": "/glossary/dynamics/costate-control-transformation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-normalization",
-        "title": "协态归一化（Costate Normalization）",
-        "path": "/glossary/dynamics/costate-normalization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-variable",
-        "title": "协态变量（Costate Variable）",
-        "path": "/glossary/dynamics/costate-variable/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -1209,20 +943,6 @@
         "slug": "coupling-maneuver",
         "title": "耦合机动（Coupling Maneuver）",
         "path": "/glossary/dynamics/coupling-maneuver/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "cov",
-        "title": "变分法（Calculus of Variations）",
-        "path": "/glossary/dynamics/cov/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -1290,34 +1010,6 @@
         }
       },
       {
-        "slug": "damped-bisection-correction",
-        "title": "阻尼二分修正法（Damped Bisection Correction）",
-        "path": "/glossary/dynamics/damped-bisection-correction/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "dcnlp",
-        "title": "非线性规划直接配点法（Direct Collocation with Nonlinear Programming）",
-        "path": "/glossary/dynamics/dcnlp/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "de",
         "title": "差分进化算法（Differential Evolution）",
         "path": "/glossary/dynamics/de/",
@@ -1335,20 +1027,6 @@
         "slug": "debris-cloud-evolution",
         "title": "碎片云演化（Debris Cloud Evolution）",
         "path": "/glossary/dynamics/debris-cloud-evolution/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "defect-constraint",
-        "title": "缺陷约束（Defect Constraint）",
-        "path": "/glossary/dynamics/defect-constraint/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -1416,37 +1094,9 @@
         }
       },
       {
-        "slug": "direct-indirect-method",
-        "title": "直接/间接法（Direct/Indirect Method）",
-        "path": "/glossary/dynamics/direct-indirect-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "direct-methods",
-        "title": "直接法（Direct Methods）",
+        "title": "直接法（Direct Methods for Trajectory Optimization）",
         "path": "/glossary/dynamics/direct-methods/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "direct-transcription",
-        "title": "直接配点法（Direct Transcription）",
-        "path": "/glossary/dynamics/direct-transcription/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -1472,22 +1122,8 @@
         }
       },
       {
-        "slug": "discrete-euler-lagrange-equations",
-        "title": "离散欧拉-拉格朗日方程（Discrete Euler-Lagrange Equations）",
-        "path": "/glossary/dynamics/discrete-euler-lagrange-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "discrete-mechanics-and-optimal-control",
-        "title": "离散力学与最优控制（DMOC）",
+        "title": "离散力学与最优控制（Discrete Mechanics and Optimal Control, DMOC）",
         "path": "/glossary/dynamics/discrete-mechanics-and-optimal-control/",
         "category": {
           "slug": "dynamics",
@@ -1612,20 +1248,6 @@
         }
       },
       {
-        "slug": "eclipse-avoidance-path-constraint",
-        "title": "日食规避路径约束（Eclipse Avoidance Path Constraint）",
-        "path": "/glossary/dynamics/eclipse-avoidance-path-constraint/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "edelbaums-equation",
         "title": "Edelbaum公式（Edelbaum's Equation）",
         "path": "/glossary/dynamics/edelbaums-equation/",
@@ -1710,37 +1332,9 @@
         }
       },
       {
-        "slug": "energy-optimal-control",
-        "title": "能量最优控制（Energy-Optimal Control）",
-        "path": "/glossary/dynamics/energy-optimal-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "energy-range",
         "title": "能量范围（Energy Range）",
         "path": "/glossary/dynamics/energy-range/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "engine-throttle-factor",
-        "title": "发动机节流因子（Engine Throttle Factor）",
-        "path": "/glossary/dynamics/engine-throttle-factor/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -1850,20 +1444,6 @@
         }
       },
       {
-        "slug": "euler-lagrange-equations",
-        "title": "欧拉-拉格朗日方程（Euler-Lagrange Equations）",
-        "path": "/glossary/dynamics/euler-lagrange-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "euler-quintic-equation",
         "title": "欧拉五次方程（Euler Quintic Equation）",
         "path": "/glossary/dynamics/euler-quintic-equation/",
@@ -1920,20 +1500,6 @@
         }
       },
       {
-        "slug": "extremal-flow",
-        "title": "极值流（Extremal Flow）",
-        "path": "/glossary/dynamics/extremal-flow/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "extreme-terrain-mobility",
         "title": "极端地形机动（Extreme Terrain Mobility）",
         "path": "/glossary/dynamics/extreme-terrain-mobility/",
@@ -1951,20 +1517,6 @@
         "slug": "feedback-linearization",
         "title": "反馈线性化（Feedback Linearization）",
         "path": "/glossary/dynamics/feedback-linearization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "first-order-necessary-conditions",
-        "title": "一阶必要条件（First-Order Necessary Conditions）",
-        "path": "/glossary/dynamics/first-order-necessary-conditions/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2102,79 +1654,9 @@
         }
       },
       {
-        "slug": "free-variable-and-constraint-method",
-        "title": "自由变量约束法（Free-variable and Constraint Method）",
-        "path": "/glossary/dynamics/free-variable-and-constraint-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "free-variable-constraint",
-        "title": "自由变量约束（Free-variable Constraint）",
-        "path": "/glossary/dynamics/free-variable-constraint/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "fuel-optimal-control",
-        "title": "燃料最优控制（Fuel-Optimal Control）",
-        "path": "/glossary/dynamics/fuel-optimal-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "fuel-optimal-powered-descent",
-        "title": "燃料最优动力下降（Fuel-optimal Powered Descent）",
-        "path": "/glossary/dynamics/fuel-optimal-powered-descent/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "fuel-optimal",
         "title": "燃料最优控制（Fuel-optimal Control）",
         "path": "/glossary/dynamics/fuel-optimal/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "fuel-optimization",
-        "title": "燃料最优化（Fuel Optimization）",
-        "path": "/glossary/dynamics/fuel-optimization/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2228,65 +1710,9 @@
         }
       },
       {
-        "slug": "generalized-zem-zev-algorithm",
-        "title": "广义ZEM/ZEV算法（Generalized ZEM/ZEV Algorithm）",
-        "path": "/glossary/dynamics/generalized-zem-zev-algorithm/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "generating-function",
-        "title": "生成函数（Generating Function）",
-        "path": "/glossary/dynamics/generating-function/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "gooding-scheme",
-        "title": "古丁方案（Gooding Scheme）",
-        "path": "/glossary/dynamics/gooding-scheme/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "goodings-method",
-        "title": "Gooding方法（Gooding's method）",
+        "title": "Gooding 方法与轨道边值问题数值求解器（Gooding's Method, Lambert Solvers and BVP Iterative Methods）",
         "path": "/glossary/dynamics/goodings-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "gpm",
-        "title": "高斯伪谱法（Gauss Pseudospectral Method, GPM）",
-        "path": "/glossary/dynamics/gpm/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2312,20 +1738,6 @@
         }
       },
       {
-        "slug": "gst",
-        "title": "高斯平滑技术（Gaussian Smoothing Technique, GST）",
-        "path": "/glossary/dynamics/gst/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "halo-orbit-computation",
         "title": "Halo轨道计算（Halo Orbit Computation）",
         "path": "/glossary/dynamics/halo-orbit-computation/",
@@ -2340,51 +1752,9 @@
         }
       },
       {
-        "slug": "hamiltonian-matrix",
-        "title": "哈密顿矩阵（Hamiltonian Matrix）",
-        "path": "/glossary/dynamics/hamiltonian-matrix/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "hamiltonian-normal-form",
-        "title": "Hamiltonian归一化形式（Hamiltonian Normal Form）",
+        "title": "辛结构与哈密顿正规形（Symplectic Structure and Hamiltonian Normal Form）",
         "path": "/glossary/dynamics/hamiltonian-normal-form/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hamiltonian-reduction",
-        "title": "哈密顿约化（Hamiltonian Reduction）",
-        "path": "/glossary/dynamics/hamiltonian-reduction/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hamiltonian-system",
-        "title": "哈密顿系统（Hamiltonian System）",
-        "path": "/glossary/dynamics/hamiltonian-system/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2411,7 +1781,7 @@
       },
       {
         "slug": "hddp",
-        "title": "混合差分动态规划（Hybrid Differential Dynamic Programming, HDDP）",
+        "title": "差分动态规划与灵敏度矩阵方法（DDP, iLQR, HDDP and Sensitivity-Based Methods）",
         "path": "/glossary/dynamics/hddp/",
         "category": {
           "slug": "dynamics",
@@ -2522,51 +1892,9 @@
         }
       },
       {
-        "slug": "hlt",
-        "title": "低推力哈密顿量（Low-Thrust Hamiltonian, H_lt）",
-        "path": "/glossary/dynamics/hlt/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hnat",
-        "title": "自然哈密顿量（Natural Hamiltonian, H_nat）",
-        "path": "/glossary/dynamics/hnat/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "hnon-f-family-orbits",
         "title": "Hénon f族轨道（Hénon f-Family Orbits）",
         "path": "/glossary/dynamics/hnon-f-family-orbits/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hodograph-shaping-method-velocity-hodograph-method",
-        "title": "速度速率图法（Hodograph Shaping Method, Velocity Hodograph Method）",
-        "path": "/glossary/dynamics/hodograph-shaping-method-velocity-hodograph-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2592,20 +1920,6 @@
         }
       },
       {
-        "slug": "homological-equation",
-        "title": "同调方程（Homological Equation）",
-        "path": "/glossary/dynamics/homological-equation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "homotopy-method",
         "title": "同伦方法（Homotopy Method）",
         "path": "/glossary/dynamics/homotopy-method/",
@@ -2620,65 +1934,9 @@
         }
       },
       {
-        "slug": "hori-method",
-        "title": "Hori方法（Hori Method）",
-        "path": "/glossary/dynamics/hori-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "horseshoe-map",
         "title": "马蹄映射（Horseshoe Map）",
         "path": "/glossary/dynamics/horseshoe-map/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "householders-method",
-        "title": "Householder方法（Householder's method）",
-        "path": "/glossary/dynamics/householders-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hts",
-        "title": "双曲正切平滑法（Hyperbolic Tangent Smoothing, HTS）",
-        "path": "/glossary/dynamics/hts/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hybrid-direct-indirect-optimization-method",
-        "title": "混合直接间接优化法（Hybrid Direct/Indirect Optimization Method）",
-        "path": "/glossary/dynamics/hybrid-direct-indirect-optimization-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2732,48 +1990,6 @@
         }
       },
       {
-        "slug": "imf",
-        "title": "间接多阶段构型（Indirect Multi-Stage Formulation, IMF）",
-        "path": "/glossary/dynamics/imf/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "implicit-costate-transformation",
-        "title": "隐式协态变换（Implicit Costate Transformation）",
-        "path": "/glossary/dynamics/implicit-costate-transformation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-collocation",
-        "title": "间接配点法（Indirect Collocation）",
-        "path": "/glossary/dynamics/indirect-collocation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "indirect-gravitational-perturbation",
         "title": "间接引力（Indirect Gravitational Perturbation）",
         "path": "/glossary/dynamics/indirect-gravitational-perturbation/",
@@ -2788,37 +2004,9 @@
         }
       },
       {
-        "slug": "indirect-heuristic-method",
-        "title": "间接启发式方法（Indirect Heuristic Method）",
-        "path": "/glossary/dynamics/indirect-heuristic-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "indirect-methods",
         "title": "间接法（Indirect Methods）",
         "path": "/glossary/dynamics/indirect-methods/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-optimization",
-        "title": "间接优化方法（Indirect Optimization）",
-        "path": "/glossary/dynamics/indirect-optimization/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2847,20 +2035,6 @@
         "slug": "initial-condition-sensitivity",
         "title": "初始条件敏感性（Initial Condition Sensitivity）",
         "path": "/glossary/dynamics/initial-condition-sensitivity/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "initial-conjugate-variable-values",
-        "title": "共轭变量初值（Initial Conjugate Variable Values）",
-        "path": "/glossary/dynamics/initial-conjugate-variable-values/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -2914,51 +2088,9 @@
         }
       },
       {
-        "slug": "inner-loop-outer-loop-structure",
-        "title": "内层-外层循环结构（Inner-Loop Outer-Loop Structure）",
-        "path": "/glossary/dynamics/inner-loop-outer-loop-structure/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "instantaneous-hills-boundary",
-        "title": "瞬时Hill边界（Instantaneous Hill's Boundary）",
-        "path": "/glossary/dynamics/instantaneous-hills-boundary/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "integral-invariant",
         "title": "积分不变量（Integral Invariant）",
         "path": "/glossary/dynamics/integral-invariant/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "integral-sliding-surface",
-        "title": "积分型滑模面（Integral Sliding Surface）",
-        "path": "/glossary/dynamics/integral-sliding-surface/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -3068,20 +2200,6 @@
         }
       },
       {
-        "slug": "jump-condition",
-        "title": "跳跃条件（Jump Condition）",
-        "path": "/glossary/dynamics/jump-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "kam-theory",
         "title": "KAM理论与长期稳定性（KAM Theory and Long-Term Stability）",
         "path": "/glossary/dynamics/kam-theory/",
@@ -3167,7 +2285,7 @@
       },
       {
         "slug": "lagrange-coefficients",
-        "title": "Lagrange系数（Lagrange Coefficients）",
+        "title": "Lagrange 系数（Lagrange Coefficients / f and g Functions）",
         "path": "/glossary/dynamics/lagrange-coefficients/",
         "category": {
           "slug": "dynamics",
@@ -3278,20 +2396,6 @@
         }
       },
       {
-        "slug": "legendre-clebsch-condition",
-        "title": "Legendre-Clebsch条件（Legendre-Clebsch Condition）",
-        "path": "/glossary/dynamics/legendre-clebsch-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "levi-civita-transformation",
         "title": "列维-齐维塔变换（Levi-Civita Transformation）",
         "path": "/glossary/dynamics/levi-civita-transformation/",
@@ -3335,7 +2439,7 @@
       },
       {
         "slug": "linear-quadratic-optimal-control",
-        "title": "线性二次型最优控制（Linear Quadratic Optimal Control）",
+        "title": "线性二次型最优控制与 Riccati 方程（LQR and Riccati Equation）",
         "path": "/glossary/dynamics/linear-quadratic-optimal-control/",
         "category": {
           "slug": "dynamics",
@@ -3365,20 +2469,6 @@
         "slug": "lnc",
         "title": "Lawden必要条件（Lawden's Necessary Conditions）",
         "path": "/glossary/dynamics/lnc/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lobatto-iiia-collocation-method",
-        "title": "Lobatto IIIA配点法（Lobatto IIIA Collocation Method）",
-        "path": "/glossary/dynamics/lobatto-iiia-collocation-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -3614,20 +2704,6 @@
         }
       },
       {
-        "slug": "matrix-differential-riccati-equation",
-        "title": "Riccati矩阵微分方程（Matrix Differential Riccati Equation）",
-        "path": "/glossary/dynamics/matrix-differential-riccati-equation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "mcts",
         "title": "蒙特卡洛轨迹打靶法（Monte Carlo Trajectory Shooting, MCTS）",
         "path": "/glossary/dynamics/mcts/",
@@ -3670,20 +2746,6 @@
         }
       },
       {
-        "slug": "meyers-method",
-        "title": "迈塞尔方法（Meyer's Method）",
-        "path": "/glossary/dynamics/meyers-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "microgravity-mobility",
         "title": "微重力机动（Microgravity Mobility）",
         "path": "/glossary/dynamics/microgravity-mobility/",
@@ -3701,34 +2763,6 @@
         "slug": "minimum-euclidean-norm",
         "title": "最小欧氏范数（Minimum Euclidean Norm）",
         "path": "/glossary/dynamics/minimum-euclidean-norm/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "minimum-fuel-fuel-optimal",
-        "title": "燃耗最优（Minimum-Fuel / Fuel-Optimal）",
-        "path": "/glossary/dynamics/minimum-fuel-fuel-optimal/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "minimum-norm-update",
-        "title": "最小范数更新（Minimum-Norm Update）",
-        "path": "/glossary/dynamics/minimum-norm-update/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -3796,20 +2830,6 @@
         }
       },
       {
-        "slug": "moser-theorem",
-        "title": "Moser定理（Moser Theorem）",
-        "path": "/glossary/dynamics/moser-theorem/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "moving-point-strategy",
         "title": "动点策略（Moving Point Strategy）",
         "path": "/glossary/dynamics/moving-point-strategy/",
@@ -3841,20 +2861,6 @@
         "slug": "multi-arc-trajectory-optimization",
         "title": "多段轨迹优化（Multi-arc Trajectory Optimization）",
         "path": "/glossary/dynamics/multi-arc-trajectory-optimization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "multi-revolution-solution",
-        "title": "多圈解（Multi-Revolution Solution）",
-        "path": "/glossary/dynamics/multi-revolution-solution/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -3922,20 +2928,6 @@
         }
       },
       {
-        "slug": "nearly-integrable-hamiltonian-system",
-        "title": "近积分哈密顿系统（Nearly-Integrable Hamiltonian System）",
-        "path": "/glossary/dynamics/nearly-integrable-hamiltonian-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "neck-opening-condition",
         "title": "颈部开启条件（Neck Opening Condition）",
         "path": "/glossary/dynamics/neck-opening-condition/",
@@ -3967,20 +2959,6 @@
         "slug": "nekhorosev-estimates",
         "title": "尼霍罗舍夫估计（Nekhorosev Estimates）",
         "path": "/glossary/dynamics/nekhorosev-estimates/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "newton-bisection-hybrid-switching-detection",
-        "title": "牛顿二分切换点检测法（Newton-Bisection Hybrid Switching Detection）",
-        "path": "/glossary/dynamics/newton-bisection-hybrid-switching-detection/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -4062,51 +3040,9 @@
         }
       },
       {
-        "slug": "nonlinear-regulation",
-        "title": "非线性调节（Nonlinear Regulation）",
-        "path": "/glossary/dynamics/nonlinear-regulation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "nonlinear-tuning",
         "title": "非线性调优（Nonlinear Tuning）",
         "path": "/glossary/dynamics/nonlinear-tuning/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "normal-form-reduction",
-        "title": "标准型归约（Normal Form Reduction）",
-        "path": "/glossary/dynamics/normal-form-reduction/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "normal-form",
-        "title": "标准型（Normal Form）",
-        "path": "/glossary/dynamics/normal-form/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -4258,37 +3194,9 @@
         }
       },
       {
-        "slug": "optimal-initial-costate-locus",
-        "title": "初始协态轨迹（Optimal Initial Costate Locus）",
-        "path": "/glossary/dynamics/optimal-initial-costate-locus/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "optimal-maneuver-beyond-perilune",
         "title": "近月点外最优机动（Optimal Maneuver Beyond Perilune）",
         "path": "/glossary/dynamics/optimal-maneuver-beyond-perilune/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "orbit-dynamical-boundary-constraints",
-        "title": "轨道边界约束（Orbit-dynamical Boundary Constraints）",
-        "path": "/glossary/dynamics/orbit-dynamical-boundary-constraints/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -4371,7 +3279,7 @@
       },
       {
         "slug": "osmc",
-        "title": "最优滑模控制（Optimal Sliding Mode Control, OSMC）",
+        "title": "滑模控制与最优滑模控制（Sliding Mode Control and OSMC）",
         "path": "/glossary/dynamics/osmc/",
         "category": {
           "slug": "dynamics",
@@ -4387,20 +3295,6 @@
         "slug": "parabolic-region",
         "title": "抛物区域（Parabolic Region）",
         "path": "/glossary/dynamics/parabolic-region/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "parameter-condition",
-        "title": "参数条件（Parameter Condition）",
-        "path": "/glossary/dynamics/parameter-condition/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -4552,20 +3446,6 @@
         }
       },
       {
-        "slug": "pnf",
-        "title": "偏标准型（Partial Normal Form）",
-        "path": "/glossary/dynamics/pnf/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "poincare-map",
         "title": "庞加莱映射（Poincaré Map / Poincaré Return Map）",
         "path": "/glossary/dynamics/poincare-map/",
@@ -4594,20 +3474,6 @@
         }
       },
       {
-        "slug": "poisson-bracket",
-        "title": "泊松括号（Poisson Bracket）",
-        "path": "/glossary/dynamics/poisson-bracket/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "polyhedral-representation",
         "title": "多面体表示（Polyhedral Representation）",
         "path": "/glossary/dynamics/polyhedral-representation/",
@@ -4623,7 +3489,7 @@
       },
       {
         "slug": "pontryagins-maximum-principle",
-        "title": "庞特里亚金极大值原理（Pontryagin's Maximum Principle）",
+        "title": "庞特里亚金极值原理（Pontryagin's Maximum Principle）",
         "path": "/glossary/dynamics/pontryagins-maximum-principle/",
         "category": {
           "slug": "dynamics",
@@ -4664,20 +3530,6 @@
         }
       },
       {
-        "slug": "powell-hybrid-algorithm",
-        "title": "Powell混合算法（Powell Hybrid Algorithm）",
-        "path": "/glossary/dynamics/powell-hybrid-algorithm/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "power-limited-engine",
         "title": "功率受限发动机（Power-Limited Engine）",
         "path": "/glossary/dynamics/power-limited-engine/",
@@ -4695,20 +3547,6 @@
         "slug": "primaries",
         "title": "主天体（Primaries）",
         "path": "/glossary/dynamics/primaries/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "primer-vector-theory",
-        "title": "初始向量理论（Primer Vector Theory）",
-        "path": "/glossary/dynamics/primer-vector-theory/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -4818,22 +3656,8 @@
         }
       },
       {
-        "slug": "pseudospectral-discretization",
-        "title": "伪谱离散化（Pseudospectral Discretization）",
-        "path": "/glossary/dynamics/pseudospectral-discretization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "pseudospectral-method",
-        "title": "伪谱法（Pseudospectral Method）",
+        "title": "伪谱法（Pseudospectral Method / Spectral Collocation）",
         "path": "/glossary/dynamics/pseudospectral-method/",
         "category": {
           "slug": "dynamics",
@@ -4863,20 +3687,6 @@
         "slug": "quasi-random-process-for-periodic-orbit-generation",
         "title": "周期轨道生成拟随机法（Quasi-random Process for Periodic Orbit Generation）",
         "path": "/glossary/dynamics/quasi-random-process-for-periodic-orbit-generation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "quasilinearization-method",
-        "title": "拟线性化方法（Quasilinearization Method）",
-        "path": "/glossary/dynamics/quasilinearization-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -4919,20 +3729,6 @@
         "slug": "region-of-prevalence",
         "title": "主导区域（Region of Prevalence）",
         "path": "/glossary/dynamics/region-of-prevalence/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "relative-hamiltonian",
-        "title": "相对哈密顿量（Relative Hamiltonian）",
-        "path": "/glossary/dynamics/relative-hamiltonian/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5028,20 +3824,6 @@
         }
       },
       {
-        "slug": "riccati-equation",
-        "title": "Riccati方程（Riccati Equation）",
-        "path": "/glossary/dynamics/riccati-equation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "richardson-third-order-analytical-solution",
         "title": "Richardson三阶解析解（Richardson Third-Order Analytical Solution）",
         "path": "/glossary/dynamics/richardson-third-order-analytical-solution/",
@@ -5085,36 +3867,8 @@
       },
       {
         "slug": "scp",
-        "title": "序列凸规划（Sequential Convex Programming, SCP）",
+        "title": "序列凸规划（Sequential Convex Programming, SCP / Successive Convexification）",
         "path": "/glossary/dynamics/scp/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "sensitivity-matrix-method",
-        "title": "灵敏度矩阵法（Sensitivity Matrix Method）",
-        "path": "/glossary/dynamics/sensitivity-matrix-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "sensitivity-matrix",
-        "title": "灵敏度矩阵（Sensitivity Matrix）",
-        "path": "/glossary/dynamics/sensitivity-matrix/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5141,36 +3895,8 @@
       },
       {
         "slug": "shape-based-method",
-        "title": "形状基方法（Shape-Based Method）",
+        "title": "形状基方法与速度 Hodograph（Shape-Based Method and Velocity Hodograph）",
         "path": "/glossary/dynamics/shape-based-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "shape-method",
-        "title": "形状法（Shape Method）",
-        "path": "/glossary/dynamics/shape-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "single-arc-optimal-control",
-        "title": "单弧段最优控制（Single-arc Optimal Control）",
-        "path": "/glossary/dynamics/single-arc-optimal-control/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5199,20 +3925,6 @@
         "slug": "single-step-prediction-method",
         "title": "单步预测法（Single-Step Prediction Method）",
         "path": "/glossary/dynamics/single-step-prediction-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "singular-arc",
-        "title": "奇异弧（Singular Arc）",
-        "path": "/glossary/dynamics/singular-arc/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5364,20 +4076,6 @@
         }
       },
       {
-        "slug": "spherical-control-variables",
-        "title": "球面控制变量（Spherical Control Variables）",
-        "path": "/glossary/dynamics/spherical-control-variables/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "spherical-harmonic-gravity",
         "title": "球谐引力（Spherical Harmonic Gravity）",
         "path": "/glossary/dynamics/spherical-harmonic-gravity/",
@@ -5476,20 +4174,6 @@
         }
       },
       {
-        "slug": "state-constraint",
-        "title": "状态约束（State Constraint）",
-        "path": "/glossary/dynamics/state-constraint/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "state-jacobian-matrix",
         "title": "状态Jacobian矩阵（State Jacobian Matrix）",
         "path": "/glossary/dynamics/state-jacobian-matrix/",
@@ -5560,20 +4244,6 @@
         }
       },
       {
-        "slug": "strengthened-legendre-clebsch-condition",
-        "title": "弱化勒让德-克莱布什条件（Strengthened Legendre-Clebsch Condition）",
-        "path": "/glossary/dynamics/strengthened-legendre-clebsch-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "stt",
         "title": "状态转移张量（State Transition Tensor）",
         "path": "/glossary/dynamics/stt/",
@@ -5588,51 +4258,9 @@
         }
       },
       {
-        "slug": "sub-riemannian-structure",
-        "title": "次黎曼结构（Sub-Riemannian Structure）",
-        "path": "/glossary/dynamics/sub-riemannian-structure/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "subarc",
         "title": "子弧（Subarc）",
         "path": "/glossary/dynamics/subarc/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "subgradient-method",
-        "title": "次梯度法（Subgradient Method）",
-        "path": "/glossary/dynamics/subgradient-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "suboptimal-control",
-        "title": "次优控制（Suboptimal Control）",
-        "path": "/glossary/dynamics/suboptimal-control/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5672,20 +4300,6 @@
         }
       },
       {
-        "slug": "surrogate-model",
-        "title": "代理模型（Surrogate Model）",
-        "path": "/glossary/dynamics/surrogate-model/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "survival-map",
         "title": "生存图（Survival Map）",
         "path": "/glossary/dynamics/survival-map/",
@@ -5700,65 +4314,9 @@
         }
       },
       {
-        "slug": "switching-function",
-        "title": "切换函数（Switching Function）",
-        "path": "/glossary/dynamics/switching-function/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "switching-surface",
-        "title": "切换面（Switching Surface）",
-        "path": "/glossary/dynamics/switching-surface/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "symbolic-manipulator",
         "title": "符号处理器（Symbolic Manipulator）",
         "path": "/glossary/dynamics/symbolic-manipulator/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "symplectic-geometry",
-        "title": "辛几何（Symplectic Geometry）",
-        "path": "/glossary/dynamics/symplectic-geometry/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "symplectic-transformation",
-        "title": "辛变换（Symplectic Transformation）",
-        "path": "/glossary/dynamics/symplectic-transformation/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5952,79 +4510,9 @@
         }
       },
       {
-        "slug": "throttle-factor",
-        "title": "节流因子（Throttle Factor）",
-        "path": "/glossary/dynamics/throttle-factor/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "throttle-function",
-        "title": "油门函数（Throttle Function）",
-        "path": "/glossary/dynamics/throttle-function/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "tidal-capture",
         "title": "潮汐捕获（Tidal Capture）",
         "path": "/glossary/dynamics/tidal-capture/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "time-optimal-control",
-        "title": "时间最优控制（Time-Optimal Control）",
-        "path": "/glossary/dynamics/time-optimal-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "time-optimal-transfer",
-        "title": "时间最优转移（Time-Optimal Transfer）",
-        "path": "/glossary/dynamics/time-optimal-transfer/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "timing-constraint-design",
-        "title": "时间约束设计（Timing Constraint Design）",
-        "path": "/glossary/dynamics/timing-constraint-design/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -6106,6 +4594,20 @@
         }
       },
       {
+        "slug": "trajectory-constraints",
+        "title": "轨道优化中的约束（Trajectory Constraints）",
+        "path": "/glossary/dynamics/trajectory-constraints/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020,
+          "parentSlug": null
+        }
+      },
+      {
         "slug": "trajectory-splicing-database",
         "title": "轨迹拼接数据库（Trajectory Splicing Database）",
         "path": "/glossary/dynamics/trajectory-splicing-database/",
@@ -6123,34 +4625,6 @@
         "slug": "transportation-tube-wall",
         "title": "运输管壁（Transportation Tube Wall）",
         "path": "/glossary/dynamics/transportation-tube-wall/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "transversality-condition",
-        "title": "横截条件（Transversality Condition）",
-        "path": "/glossary/dynamics/transversality-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "transversality-conditions",
-        "title": "横截条件（Transversality Conditions）",
-        "path": "/glossary/dynamics/transversality-conditions/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -6235,20 +4709,6 @@
         "slug": "two-layer-guidance-and-control",
         "title": "双层制导控制（Two-Layer Guidance and Control）",
         "path": "/glossary/dynamics/two-layer-guidance-and-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "two-point-method",
-        "title": "双点迭代法（Two-Point Method）",
-        "path": "/glossary/dynamics/two-point-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -6554,20 +5014,6 @@
         }
       },
       {
-        "slug": "abnormal-extremal",
-        "title": "异常极值曲线（Abnormal Extremal）",
-        "path": "/glossary/fundamentals/abnormal-extremal/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "adaptive-grid-subdivision",
         "title": "自适应网格细分（Adaptive Grid Subdivision）",
         "path": "/glossary/fundamentals/adaptive-grid-subdivision/",
@@ -6624,34 +5070,6 @@
         }
       },
       {
-        "slug": "bang-off-bang-thrust-profile",
-        "title": "Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）",
-        "path": "/glossary/fundamentals/bang-off-bang-thrust-profile/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "birkhoff-normal-form",
-        "title": "Birkhoff正规形（Birkhoff Normal Form）",
-        "path": "/glossary/fundamentals/birkhoff-normal-form/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "chebyshev-polynomial",
         "title": "切比雪夫多项式（Chebyshev Polynomial）",
         "path": "/glossary/fundamentals/chebyshev-polynomial/",
@@ -6694,22 +5112,8 @@
         }
       },
       {
-        "slug": "conjugate-point-condition",
-        "title": "共轭点条件（Conjugate point condition）",
-        "path": "/glossary/fundamentals/conjugate-point-condition/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "conjugate-point",
-        "title": "共轭点（Conjugate Point）",
+        "title": "共轭点、极值曲线与二阶最优性条件（Conjugate Point, Extremal, and Second-Order Optimality）",
         "path": "/glossary/fundamentals/conjugate-point/",
         "category": {
           "slug": "fundamentals",
@@ -6725,34 +5129,6 @@
         "slug": "control-regularization",
         "title": "控制正则化（Control Regularization）",
         "path": "/glossary/fundamentals/control-regularization/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-equations",
-        "title": "共态方程（Costate Equations）",
-        "path": "/glossary/fundamentals/costate-equations/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate",
-        "title": "共态变量（Costate）",
-        "path": "/glossary/fundamentals/costate/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -6820,20 +5196,6 @@
         }
       },
       {
-        "slug": "direct-method",
-        "title": "直接法（Direct Method）",
-        "path": "/glossary/fundamentals/direct-method/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "dynamic-reference-catalog",
         "title": "动态参考目录（Dynamic Reference Catalog）",
         "path": "/glossary/fundamentals/dynamic-reference-catalog/",
@@ -6851,20 +5213,6 @@
         "slug": "energy-minimization",
         "title": "能量最小化（Energy Minimization）",
         "path": "/glossary/fundamentals/energy-minimization/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "engine-throttle-parameter",
-        "title": "发动机节流参数（Engine Throttle Parameter）",
-        "path": "/glossary/fundamentals/engine-throttle-parameter/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -6960,37 +5308,9 @@
         }
       },
       {
-        "slug": "geometric-optimal-control",
-        "title": "几何最优控制（Geometric Optimal Control）",
-        "path": "/glossary/fundamentals/geometric-optimal-control/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "global-search",
         "title": "全局搜索（Global Search）",
         "path": "/glossary/fundamentals/global-search/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "gpm",
-        "title": "Gauss伪谱法（Gauss Pseudospectral Method, GPM）",
-        "path": "/glossary/fundamentals/gpm/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -7100,34 +5420,6 @@
         }
       },
       {
-        "slug": "hamiltonian-integrable-approximation",
-        "title": "哈密顿可积近似（Hamiltonian Integrable Approximation）",
-        "path": "/glossary/fundamentals/hamiltonian-integrable-approximation/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hamiltonian",
-        "title": "哈密顿函数（Hamiltonian）",
-        "path": "/glossary/fundamentals/hamiltonian/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "heterogeneous-constellation",
         "title": "异构星座（Heterogeneous Constellation）",
         "path": "/glossary/fundamentals/heterogeneous-constellation/",
@@ -7173,34 +5465,6 @@
         "slug": "ill-conditioned-state-transition-matrix",
         "title": "状态转移矩阵病态（Ill-Conditioned State Transition Matrix）",
         "path": "/glossary/fundamentals/ill-conditioned-state-transition-matrix/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-method",
-        "title": "间接法（Indirect Method）",
-        "path": "/glossary/fundamentals/indirect-method/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-optimal-control",
-        "title": "间接最优控制（Indirect Optimal Control）",
-        "path": "/glossary/fundamentals/indirect-optimal-control/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -7299,34 +5563,6 @@
         "slug": "l5-point",
         "title": "L5点（L5 Point）",
         "path": "/glossary/fundamentals/l5-point/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lagrange-multiplier",
-        "title": "拉格朗日乘子（Lagrange Multiplier）",
-        "path": "/glossary/fundamentals/lagrange-multiplier/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lagrange-point",
-        "title": "拉格朗日点（Lagrange Point）",
-        "path": "/glossary/fundamentals/lagrange-point/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -7548,20 +5784,6 @@
         }
       },
       {
-        "slug": "normal-extremal",
-        "title": "正规极值曲线（Normal Extremal）",
-        "path": "/glossary/fundamentals/normal-extremal/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "nsga-ii",
         "title": "非劣排序遗传算法II（Non-Dominated Sorting Genetic Algorithm II）",
         "path": "/glossary/fundamentals/nsga-ii/",
@@ -7579,20 +5801,6 @@
         "slug": "numerical-ephemeris",
         "title": "数值历表（Numerical Ephemeris）与完整历表模型",
         "path": "/glossary/fundamentals/numerical-ephemeris/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "optimal-relative-motion-control",
-        "title": "相对运动最优控制（Optimal Relative Motion Control）",
-        "path": "/glossary/fundamentals/optimal-relative-motion-control/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -7688,34 +5896,6 @@
         }
       },
       {
-        "slug": "pmp",
-        "title": "庞特里亚金最小值原理（Pontryagin Minimum Principle）",
-        "path": "/glossary/fundamentals/pmp/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "pontryagin-optimality-conditions",
-        "title": "庞特里亚金最优性条件（Pontryagin Optimality Conditions）",
-        "path": "/glossary/fundamentals/pontryagin-optimality-conditions/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "position-angle",
         "title": "位置角（Position Angle）",
         "path": "/glossary/fundamentals/position-angle/",
@@ -7747,34 +5927,6 @@
         "slug": "precomputed-variational-data",
         "title": "预计算变分数据（Precomputed Variational Data）",
         "path": "/glossary/fundamentals/precomputed-variational-data/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "primer-vector-equation",
-        "title": "引燃矢量方程（Primer vector equation）",
-        "path": "/glossary/fundamentals/primer-vector-equation/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "primer-vector",
-        "title": "引燃矢量（Primer vector）",
-        "path": "/glossary/fundamentals/primer-vector/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -7912,20 +6064,6 @@
         }
       },
       {
-        "slug": "smoothing-technique",
-        "title": "平滑技术（Smoothing Technique）",
-        "path": "/glossary/fundamentals/smoothing-technique/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "staggered-optimization",
         "title": "逐级优化（Staggered Optimization）",
         "path": "/glossary/fundamentals/staggered-optimization/",
@@ -7954,51 +6092,9 @@
         }
       },
       {
-        "slug": "strong-legendre-condition",
-        "title": "强Legendre条件（Strong Legendre Condition）",
-        "path": "/glossary/fundamentals/strong-legendre-condition/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "sun-earth-moon-system",
         "title": "日地月系统（Sun-Earth-Moon System）",
         "path": "/glossary/fundamentals/sun-earth-moon-system/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "switching-function",
-        "title": "开关函数（Switching Function）",
-        "path": "/glossary/fundamentals/switching-function/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "symplectic-matrix",
-        "title": "辛矩阵（Symplectic Matrix）",
-        "path": "/glossary/fundamentals/symplectic-matrix/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -11445,37 +9541,9 @@
         }
       },
       {
-        "slug": "adjoint-equations",
-        "title": "Adjoint Equations",
-        "path": "/en/glossary/dynamics/adjoint-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "adjoint-method",
         "title": "Adjoint Method",
         "path": "/en/glossary/dynamics/adjoint-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "al-ilqr",
-        "title": "Augmented Lagrangian Iterative LQR, AL-iLQR",
-        "path": "/en/glossary/dynamics/al-ilqr/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -11725,20 +9793,6 @@
         }
       },
       {
-        "slug": "b-spline-control-parameterization",
-        "title": "B-Spline Control Parameterization",
-        "path": "/en/glossary/dynamics/b-spline-control-parameterization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "backward-integration-method",
         "title": "Backward Integration Method",
         "path": "/en/glossary/dynamics/backward-integration-method/",
@@ -11781,79 +9835,9 @@
         }
       },
       {
-        "slug": "bang-bang-solution",
-        "title": "Bang-bang Solution",
-        "path": "/en/glossary/dynamics/bang-bang-solution/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "bang-bang-thrust-profile",
-        "title": "Bang-Bang Thrust Profile",
-        "path": "/en/glossary/dynamics/bang-bang-thrust-profile/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "bang-off-bang-control",
-        "title": "Bang-off-Bang Control",
-        "path": "/en/glossary/dynamics/bang-off-bang-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "bang-off-bang-thrust-profile",
-        "title": "Bang-off-Bang Thrust Profile",
-        "path": "/en/glossary/dynamics/bang-off-bang-thrust-profile/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "battin-giorgi-method",
         "title": "Battin-Giorgi Method",
         "path": "/en/glossary/dynamics/battin-giorgi-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "battin-vaughn-algorithm",
-        "title": "Battin-Vaughn Algorithm",
-        "path": "/en/glossary/dynamics/battin-vaughn-algorithm/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -11924,34 +9908,6 @@
         "slug": "birkhoff-equations",
         "title": "Birkhoff Equations",
         "path": "/en/glossary/dynamics/birkhoff-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "birkhoff-gustavson-normal-form",
-        "title": "Birkhoff-Gustavson Normal Form",
-        "path": "/en/glossary/dynamics/birkhoff-gustavson-normal-form/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "birkhoff-normal-form",
-        "title": "Birkhoff Normal Form",
-        "path": "/en/glossary/dynamics/birkhoff-normal-form/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -12188,22 +10144,8 @@
       },
       {
         "slug": "co-state-variables",
-        "title": "Co-state Variables",
+        "title": "Costate Variables and Adjoint Equations",
         "path": "/en/glossary/dynamics/co-state-variables/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "co-state",
-        "title": "Co-state",
-        "path": "/en/glossary/dynamics/co-state/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -12299,48 +10241,6 @@
         }
       },
       {
-        "slug": "conjugate-momenta",
-        "title": "Conjugate Momenta",
-        "path": "/en/glossary/dynamics/conjugate-momenta/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "conjugate-point-mapping",
-        "title": "Conjugate Point Mapping",
-        "path": "/en/glossary/dynamics/conjugate-point-mapping/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "conjugate-variables",
-        "title": "Conjugate Variables",
-        "path": "/en/glossary/dynamics/conjugate-variables/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "conley-mcgehee-tube",
         "title": "Conley-McGehee Tube",
         "path": "/en/glossary/dynamics/conley-mcgehee-tube/",
@@ -12425,34 +10325,6 @@
         }
       },
       {
-        "slug": "constraint-conditions",
-        "title": "Constraint Conditions",
-        "path": "/en/glossary/dynamics/constraint-conditions/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "constraint-relaxation",
-        "title": "Constraint Relaxation",
-        "path": "/en/glossary/dynamics/constraint-relaxation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "continuation",
         "title": "Numerical Continuation",
         "path": "/en/glossary/dynamics/continuation/",
@@ -12482,7 +10354,7 @@
       },
       {
         "slug": "control-parametrization",
-        "title": "Control Parametrization",
+        "title": "Control Parametrization, B-Spline, Spherical Variables and Throttle",
         "path": "/en/glossary/dynamics/control-parametrization/",
         "category": {
           "slug": "dynamics",
@@ -12524,50 +10396,8 @@
       },
       {
         "slug": "coriolis-theorem",
-        "title": "Coriolis Theorem",
+        "title": "Coriolis Theorem (Transport Theorem)",
         "path": "/en/glossary/dynamics/coriolis-theorem/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-control-transformation",
-        "title": "Costate-Control Transformation",
-        "path": "/en/glossary/dynamics/costate-control-transformation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-normalization",
-        "title": "Costate Normalization",
-        "path": "/en/glossary/dynamics/costate-normalization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-variable",
-        "title": "Costate Variable",
-        "path": "/en/glossary/dynamics/costate-variable/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -12582,20 +10412,6 @@
         "slug": "coupling-maneuver",
         "title": "Coupling Maneuver",
         "path": "/en/glossary/dynamics/coupling-maneuver/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "cov",
-        "title": "Calculus of Variations",
-        "path": "/en/glossary/dynamics/cov/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -12663,34 +10479,6 @@
         }
       },
       {
-        "slug": "damped-bisection-correction",
-        "title": "Damped Bisection Correction",
-        "path": "/en/glossary/dynamics/damped-bisection-correction/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "dcnlp",
-        "title": "Direct Collocation with Nonlinear Programming",
-        "path": "/en/glossary/dynamics/dcnlp/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "de",
         "title": "Differential Evolution",
         "path": "/en/glossary/dynamics/de/",
@@ -12708,20 +10496,6 @@
         "slug": "debris-cloud-evolution",
         "title": "Debris Cloud Evolution",
         "path": "/en/glossary/dynamics/debris-cloud-evolution/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "defect-constraint",
-        "title": "Defect Constraint",
-        "path": "/en/glossary/dynamics/defect-constraint/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -12789,37 +10563,9 @@
         }
       },
       {
-        "slug": "direct-indirect-method",
-        "title": "Direct/Indirect Method",
-        "path": "/en/glossary/dynamics/direct-indirect-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "direct-methods",
-        "title": "Direct Methods",
+        "title": "Direct Methods (for Trajectory Optimization)",
         "path": "/en/glossary/dynamics/direct-methods/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "direct-transcription",
-        "title": "Direct Transcription",
-        "path": "/en/glossary/dynamics/direct-transcription/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -12845,22 +10591,8 @@
         }
       },
       {
-        "slug": "discrete-euler-lagrange-equations",
-        "title": "Discrete Euler-Lagrange Equations",
-        "path": "/en/glossary/dynamics/discrete-euler-lagrange-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "discrete-mechanics-and-optimal-control",
-        "title": "DMOC",
+        "title": "Discrete Mechanics and Optimal Control (DMOC)",
         "path": "/en/glossary/dynamics/discrete-mechanics-and-optimal-control/",
         "category": {
           "slug": "dynamics",
@@ -12985,20 +10717,6 @@
         }
       },
       {
-        "slug": "eclipse-avoidance-path-constraint",
-        "title": "Eclipse Avoidance Path Constraint",
-        "path": "/en/glossary/dynamics/eclipse-avoidance-path-constraint/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "edelbaums-equation",
         "title": "Edelbaum's Equation",
         "path": "/en/glossary/dynamics/edelbaums-equation/",
@@ -13083,37 +10801,9 @@
         }
       },
       {
-        "slug": "energy-optimal-control",
-        "title": "Energy-Optimal Control",
-        "path": "/en/glossary/dynamics/energy-optimal-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "energy-range",
         "title": "Energy Range",
         "path": "/en/glossary/dynamics/energy-range/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "engine-throttle-factor",
-        "title": "Engine Throttle Factor",
-        "path": "/en/glossary/dynamics/engine-throttle-factor/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -13223,20 +10913,6 @@
         }
       },
       {
-        "slug": "euler-lagrange-equations",
-        "title": "Euler-Lagrange Equations",
-        "path": "/en/glossary/dynamics/euler-lagrange-equations/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "euler-quintic-equation",
         "title": "Euler Quintic Equation",
         "path": "/en/glossary/dynamics/euler-quintic-equation/",
@@ -13293,20 +10969,6 @@
         }
       },
       {
-        "slug": "extremal-flow",
-        "title": "Extremal Flow",
-        "path": "/en/glossary/dynamics/extremal-flow/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "extreme-terrain-mobility",
         "title": "Extreme Terrain Mobility",
         "path": "/en/glossary/dynamics/extreme-terrain-mobility/",
@@ -13324,20 +10986,6 @@
         "slug": "feedback-linearization",
         "title": "Feedback Linearization",
         "path": "/en/glossary/dynamics/feedback-linearization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "first-order-necessary-conditions",
-        "title": "First-Order Necessary Conditions",
-        "path": "/en/glossary/dynamics/first-order-necessary-conditions/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -13475,79 +11123,9 @@
         }
       },
       {
-        "slug": "free-variable-and-constraint-method",
-        "title": "Free-variable and Constraint Method",
-        "path": "/en/glossary/dynamics/free-variable-and-constraint-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "free-variable-constraint",
-        "title": "Free-variable Constraint",
-        "path": "/en/glossary/dynamics/free-variable-constraint/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "fuel-optimal-control",
-        "title": "Fuel-optimal Control",
-        "path": "/en/glossary/dynamics/fuel-optimal-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "fuel-optimal-powered-descent",
-        "title": "Fuel-optimal Powered Descent",
-        "path": "/en/glossary/dynamics/fuel-optimal-powered-descent/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "fuel-optimal",
         "title": "Fuel-optimal Control",
         "path": "/en/glossary/dynamics/fuel-optimal/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "fuel-optimization",
-        "title": "Fuel Optimization",
-        "path": "/en/glossary/dynamics/fuel-optimization/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -13601,65 +11179,9 @@
         }
       },
       {
-        "slug": "generalized-zem-zev-algorithm",
-        "title": "Generalized ZEM/ZEV Algorithm",
-        "path": "/en/glossary/dynamics/generalized-zem-zev-algorithm/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "generating-function",
-        "title": "Generating Function",
-        "path": "/en/glossary/dynamics/generating-function/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "gooding-scheme",
-        "title": "Gooding Scheme",
-        "path": "/en/glossary/dynamics/gooding-scheme/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "goodings-method",
-        "title": "Gooding's Method",
+        "title": "Gooding's Method, Lambert Solvers and BVP Iterative Methods",
         "path": "/en/glossary/dynamics/goodings-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "gpm",
-        "title": "Gauss Pseudospectral Method, GPM",
-        "path": "/en/glossary/dynamics/gpm/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -13685,20 +11207,6 @@
         }
       },
       {
-        "slug": "gst",
-        "title": "Gaussian Smoothing Technique, GST",
-        "path": "/en/glossary/dynamics/gst/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "halo-orbit-computation",
         "title": "Halo Orbit Computation",
         "path": "/en/glossary/dynamics/halo-orbit-computation/",
@@ -13713,51 +11221,9 @@
         }
       },
       {
-        "slug": "hamiltonian-matrix",
-        "title": "Hamiltonian Matrix",
-        "path": "/en/glossary/dynamics/hamiltonian-matrix/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "hamiltonian-normal-form",
-        "title": "Hamiltonian Normal Form",
+        "title": "Symplectic Structure and Hamiltonian Normal Form",
         "path": "/en/glossary/dynamics/hamiltonian-normal-form/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hamiltonian-reduction",
-        "title": "Hamiltonian Reduction",
-        "path": "/en/glossary/dynamics/hamiltonian-reduction/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hamiltonian-system",
-        "title": "Hamiltonian System",
-        "path": "/en/glossary/dynamics/hamiltonian-system/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -13784,7 +11250,7 @@
       },
       {
         "slug": "hddp",
-        "title": "Hybrid Differential Dynamic Programming, HDDP",
+        "title": "Differential Dynamic Programming, iLQR, HDDP and Sensitivity-Based Methods",
         "path": "/en/glossary/dynamics/hddp/",
         "category": {
           "slug": "dynamics",
@@ -13895,51 +11361,9 @@
         }
       },
       {
-        "slug": "hlt",
-        "title": "Low-Thrust Hamiltonian",
-        "path": "/en/glossary/dynamics/hlt/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hnat",
-        "title": "Natural Hamiltonian",
-        "path": "/en/glossary/dynamics/hnat/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "hnon-f-family-orbits",
         "title": "Hénon f-Family Orbits",
         "path": "/en/glossary/dynamics/hnon-f-family-orbits/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hodograph-shaping-method-velocity-hodograph-method",
-        "title": "Hodograph Shaping Method, Velocity Hodograph Method",
-        "path": "/en/glossary/dynamics/hodograph-shaping-method-velocity-hodograph-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -13965,20 +11389,6 @@
         }
       },
       {
-        "slug": "homological-equation",
-        "title": "Homological Equation",
-        "path": "/en/glossary/dynamics/homological-equation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "homotopy-method",
         "title": "Homotopy Method",
         "path": "/en/glossary/dynamics/homotopy-method/",
@@ -13993,65 +11403,9 @@
         }
       },
       {
-        "slug": "hori-method",
-        "title": "Hori Method",
-        "path": "/en/glossary/dynamics/hori-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "horseshoe-map",
         "title": "Horseshoe Map",
         "path": "/en/glossary/dynamics/horseshoe-map/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "householders-method",
-        "title": "Householder's method",
-        "path": "/en/glossary/dynamics/householders-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hts",
-        "title": "Hyperbolic Tangent Smoothing",
-        "path": "/en/glossary/dynamics/hts/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hybrid-direct-indirect-optimization-method",
-        "title": "Hybrid Direct/Indirect Optimization Method",
-        "path": "/en/glossary/dynamics/hybrid-direct-indirect-optimization-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -14105,48 +11459,6 @@
         }
       },
       {
-        "slug": "imf",
-        "title": "Indirect Multi-Stage Formulation, IMF",
-        "path": "/en/glossary/dynamics/imf/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "implicit-costate-transformation",
-        "title": "Implicit Costate Transformation",
-        "path": "/en/glossary/dynamics/implicit-costate-transformation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-collocation",
-        "title": "Indirect Collocation",
-        "path": "/en/glossary/dynamics/indirect-collocation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "indirect-gravitational-perturbation",
         "title": "Indirect Gravitational Perturbation",
         "path": "/en/glossary/dynamics/indirect-gravitational-perturbation/",
@@ -14161,37 +11473,9 @@
         }
       },
       {
-        "slug": "indirect-heuristic-method",
-        "title": "Indirect Heuristic Method",
-        "path": "/en/glossary/dynamics/indirect-heuristic-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "indirect-methods",
         "title": "Indirect Methods",
         "path": "/en/glossary/dynamics/indirect-methods/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-optimization",
-        "title": "Indirect Optimization",
-        "path": "/en/glossary/dynamics/indirect-optimization/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -14220,20 +11504,6 @@
         "slug": "initial-condition-sensitivity",
         "title": "Initial Condition Sensitivity",
         "path": "/en/glossary/dynamics/initial-condition-sensitivity/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "initial-conjugate-variable-values",
-        "title": "Initial Conjugate Variable Values",
-        "path": "/en/glossary/dynamics/initial-conjugate-variable-values/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -14287,51 +11557,9 @@
         }
       },
       {
-        "slug": "inner-loop-outer-loop-structure",
-        "title": "Inner-Loop Outer-Loop Structure",
-        "path": "/en/glossary/dynamics/inner-loop-outer-loop-structure/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "instantaneous-hills-boundary",
-        "title": "Instantaneous Hill's Boundary",
-        "path": "/en/glossary/dynamics/instantaneous-hills-boundary/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "integral-invariant",
         "title": "Integral Invariant",
         "path": "/en/glossary/dynamics/integral-invariant/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "integral-sliding-surface",
-        "title": "Integral Sliding Surface",
-        "path": "/en/glossary/dynamics/integral-sliding-surface/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -14441,20 +11669,6 @@
         }
       },
       {
-        "slug": "jump-condition",
-        "title": "Jump Condition",
-        "path": "/en/glossary/dynamics/jump-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "kam-theory",
         "title": "KAM Theory and Long-Term Stability（KAM理论与长期稳定性）",
         "path": "/en/glossary/dynamics/kam-theory/",
@@ -14540,7 +11754,7 @@
       },
       {
         "slug": "lagrange-coefficients",
-        "title": "Lagrange Coefficients",
+        "title": "Lagrange Coefficients (f and g Functions)",
         "path": "/en/glossary/dynamics/lagrange-coefficients/",
         "category": {
           "slug": "dynamics",
@@ -14651,20 +11865,6 @@
         }
       },
       {
-        "slug": "legendre-clebsch-condition",
-        "title": "Legendre-Clebsch Condition",
-        "path": "/en/glossary/dynamics/legendre-clebsch-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "levi-civita-transformation",
         "title": "Levi-Civita Transformation",
         "path": "/en/glossary/dynamics/levi-civita-transformation/",
@@ -14708,7 +11908,7 @@
       },
       {
         "slug": "linear-quadratic-optimal-control",
-        "title": "Linear Quadratic Optimal Control",
+        "title": "LQR and the Riccati Equation",
         "path": "/en/glossary/dynamics/linear-quadratic-optimal-control/",
         "category": {
           "slug": "dynamics",
@@ -14738,20 +11938,6 @@
         "slug": "lnc",
         "title": "Lawden's Necessary Conditions",
         "path": "/en/glossary/dynamics/lnc/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lobatto-iiia-collocation-method",
-        "title": "Lobatto IIIA Collocation Method",
-        "path": "/en/glossary/dynamics/lobatto-iiia-collocation-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -14987,20 +12173,6 @@
         }
       },
       {
-        "slug": "matrix-differential-riccati-equation",
-        "title": "Matrix Differential Riccati Equation",
-        "path": "/en/glossary/dynamics/matrix-differential-riccati-equation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "mcts",
         "title": "Monte Carlo Trajectory Shooting, MCTS",
         "path": "/en/glossary/dynamics/mcts/",
@@ -15043,20 +12215,6 @@
         }
       },
       {
-        "slug": "meyers-method",
-        "title": "Meyer's Method",
-        "path": "/en/glossary/dynamics/meyers-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "microgravity-mobility",
         "title": "Microgravity Mobility",
         "path": "/en/glossary/dynamics/microgravity-mobility/",
@@ -15074,34 +12232,6 @@
         "slug": "minimum-euclidean-norm",
         "title": "Minimum Euclidean Norm",
         "path": "/en/glossary/dynamics/minimum-euclidean-norm/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "minimum-fuel-fuel-optimal",
-        "title": "Minimum-Fuel / Fuel-Optimal",
-        "path": "/en/glossary/dynamics/minimum-fuel-fuel-optimal/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "minimum-norm-update",
-        "title": "Minimum-Norm Update",
-        "path": "/en/glossary/dynamics/minimum-norm-update/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -15169,20 +12299,6 @@
         }
       },
       {
-        "slug": "moser-theorem",
-        "title": "Moser Theorem",
-        "path": "/en/glossary/dynamics/moser-theorem/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "moving-point-strategy",
         "title": "Moving Point Strategy",
         "path": "/en/glossary/dynamics/moving-point-strategy/",
@@ -15214,20 +12330,6 @@
         "slug": "multi-arc-trajectory-optimization",
         "title": "Multi-arc Trajectory Optimization",
         "path": "/en/glossary/dynamics/multi-arc-trajectory-optimization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "multi-revolution-solution",
-        "title": "Multi-Revolution Solution",
-        "path": "/en/glossary/dynamics/multi-revolution-solution/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -15295,20 +12397,6 @@
         }
       },
       {
-        "slug": "nearly-integrable-hamiltonian-system",
-        "title": "Nearly-Integrable Hamiltonian System",
-        "path": "/en/glossary/dynamics/nearly-integrable-hamiltonian-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "neck-opening-condition",
         "title": "Neck Opening Condition",
         "path": "/en/glossary/dynamics/neck-opening-condition/",
@@ -15340,20 +12428,6 @@
         "slug": "nekhorosev-estimates",
         "title": "Nekhorosev Estimates",
         "path": "/en/glossary/dynamics/nekhorosev-estimates/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "newton-bisection-hybrid-switching-detection",
-        "title": "Newton-Bisection Hybrid Switching Detection",
-        "path": "/en/glossary/dynamics/newton-bisection-hybrid-switching-detection/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -15435,51 +12509,9 @@
         }
       },
       {
-        "slug": "nonlinear-regulation",
-        "title": "Nonlinear Regulation",
-        "path": "/en/glossary/dynamics/nonlinear-regulation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "nonlinear-tuning",
         "title": "Nonlinear Tuning",
         "path": "/en/glossary/dynamics/nonlinear-tuning/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "normal-form-reduction",
-        "title": "Normal Form Reduction",
-        "path": "/en/glossary/dynamics/normal-form-reduction/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "normal-form",
-        "title": "Normal Form",
-        "path": "/en/glossary/dynamics/normal-form/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -15631,37 +12663,9 @@
         }
       },
       {
-        "slug": "optimal-initial-costate-locus",
-        "title": "Optimal Initial Costate Locus",
-        "path": "/en/glossary/dynamics/optimal-initial-costate-locus/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "optimal-maneuver-beyond-perilune",
         "title": "Optimal Maneuver Beyond Perilune",
         "path": "/en/glossary/dynamics/optimal-maneuver-beyond-perilune/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "orbit-dynamical-boundary-constraints",
-        "title": "Orbit-dynamical Boundary Constraints",
-        "path": "/en/glossary/dynamics/orbit-dynamical-boundary-constraints/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -15744,7 +12748,7 @@
       },
       {
         "slug": "osmc",
-        "title": "Optimal Sliding Mode Control, OSMC",
+        "title": "Sliding Mode Control and Optimal Sliding Mode Control (OSMC)",
         "path": "/en/glossary/dynamics/osmc/",
         "category": {
           "slug": "dynamics",
@@ -15760,20 +12764,6 @@
         "slug": "parabolic-region",
         "title": "Parabolic Region",
         "path": "/en/glossary/dynamics/parabolic-region/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "parameter-condition",
-        "title": "Parameter Condition",
-        "path": "/en/glossary/dynamics/parameter-condition/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -15925,20 +12915,6 @@
         }
       },
       {
-        "slug": "pnf",
-        "title": "Partial Normal Form",
-        "path": "/en/glossary/dynamics/pnf/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "poincare-map",
         "title": "Poincaré Map (Poincaré Return Map)",
         "path": "/en/glossary/dynamics/poincare-map/",
@@ -15956,20 +12932,6 @@
         "slug": "poincare-section",
         "title": "Poincaré Section (Surface of Section)",
         "path": "/en/glossary/dynamics/poincare-section/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "poisson-bracket",
-        "title": "Poisson Bracket",
-        "path": "/en/glossary/dynamics/poisson-bracket/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -16037,20 +12999,6 @@
         }
       },
       {
-        "slug": "powell-hybrid-algorithm",
-        "title": "Powell Hybrid Algorithm",
-        "path": "/en/glossary/dynamics/powell-hybrid-algorithm/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "power-limited-engine",
         "title": "Power-Limited Engine",
         "path": "/en/glossary/dynamics/power-limited-engine/",
@@ -16068,20 +13016,6 @@
         "slug": "primaries",
         "title": "Primaries",
         "path": "/en/glossary/dynamics/primaries/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "primer-vector-theory",
-        "title": "Primer Vector Theory",
-        "path": "/en/glossary/dynamics/primer-vector-theory/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -16191,22 +13125,8 @@
         }
       },
       {
-        "slug": "pseudospectral-discretization",
-        "title": "Pseudospectral Discretization",
-        "path": "/en/glossary/dynamics/pseudospectral-discretization/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "pseudospectral-method",
-        "title": "Pseudospectral Method",
+        "title": "Pseudospectral Method (Spectral Collocation)",
         "path": "/en/glossary/dynamics/pseudospectral-method/",
         "category": {
           "slug": "dynamics",
@@ -16236,20 +13156,6 @@
         "slug": "quasi-random-process-for-periodic-orbit-generation",
         "title": "Quasi-random Process for Periodic Orbit Generation",
         "path": "/en/glossary/dynamics/quasi-random-process-for-periodic-orbit-generation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "quasilinearization-method",
-        "title": "Quasilinearization Method",
-        "path": "/en/glossary/dynamics/quasilinearization-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -16292,20 +13198,6 @@
         "slug": "region-of-prevalence",
         "title": "Region of Prevalence",
         "path": "/en/glossary/dynamics/region-of-prevalence/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "relative-hamiltonian",
-        "title": "Relative Hamiltonian",
-        "path": "/en/glossary/dynamics/relative-hamiltonian/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -16401,20 +13293,6 @@
         }
       },
       {
-        "slug": "riccati-equation",
-        "title": "Riccati Equation",
-        "path": "/en/glossary/dynamics/riccati-equation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "richardson-third-order-analytical-solution",
         "title": "Richardson Third-Order Analytical Solution",
         "path": "/en/glossary/dynamics/richardson-third-order-analytical-solution/",
@@ -16458,36 +13336,8 @@
       },
       {
         "slug": "scp",
-        "title": "Sequential Convex Programming, SCP",
+        "title": "Sequential Convex Programming (SCP / Successive Convexification)",
         "path": "/en/glossary/dynamics/scp/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "sensitivity-matrix-method",
-        "title": "Sensitivity Matrix Method",
-        "path": "/en/glossary/dynamics/sensitivity-matrix-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "sensitivity-matrix",
-        "title": "Sensitivity Matrix",
-        "path": "/en/glossary/dynamics/sensitivity-matrix/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -16514,36 +13364,8 @@
       },
       {
         "slug": "shape-based-method",
-        "title": "Shape-Based Method",
+        "title": "Shape-Based Method and Velocity Hodograph",
         "path": "/en/glossary/dynamics/shape-based-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "shape-method",
-        "title": "Shape Method",
-        "path": "/en/glossary/dynamics/shape-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "single-arc-optimal-control",
-        "title": "Single-arc Optimal Control",
-        "path": "/en/glossary/dynamics/single-arc-optimal-control/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -16572,20 +13394,6 @@
         "slug": "single-step-prediction-method",
         "title": "Single-Step Prediction Method",
         "path": "/en/glossary/dynamics/single-step-prediction-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "singular-arc",
-        "title": "Singular Arc",
-        "path": "/en/glossary/dynamics/singular-arc/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -16737,20 +13545,6 @@
         }
       },
       {
-        "slug": "spherical-control-variables",
-        "title": "Spherical Control Variables",
-        "path": "/en/glossary/dynamics/spherical-control-variables/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "spherical-harmonic-gravity",
         "title": "Spherical Harmonic Gravity",
         "path": "/en/glossary/dynamics/spherical-harmonic-gravity/",
@@ -16849,20 +13643,6 @@
         }
       },
       {
-        "slug": "state-constraint",
-        "title": "State Constraint",
-        "path": "/en/glossary/dynamics/state-constraint/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "state-jacobian-matrix",
         "title": "State Jacobian Matrix",
         "path": "/en/glossary/dynamics/state-jacobian-matrix/",
@@ -16933,20 +13713,6 @@
         }
       },
       {
-        "slug": "strengthened-legendre-clebsch-condition",
-        "title": "Strengthened Legendre-Clebsch Condition",
-        "path": "/en/glossary/dynamics/strengthened-legendre-clebsch-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "stt",
         "title": "State Transition Tensor",
         "path": "/en/glossary/dynamics/stt/",
@@ -16961,51 +13727,9 @@
         }
       },
       {
-        "slug": "sub-riemannian-structure",
-        "title": "Sub-Riemannian Structure",
-        "path": "/en/glossary/dynamics/sub-riemannian-structure/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "subarc",
         "title": "Subarc",
         "path": "/en/glossary/dynamics/subarc/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "subgradient-method",
-        "title": "Subgradient Method",
-        "path": "/en/glossary/dynamics/subgradient-method/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "suboptimal-control",
-        "title": "Suboptimal Control",
-        "path": "/en/glossary/dynamics/suboptimal-control/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -17045,20 +13769,6 @@
         }
       },
       {
-        "slug": "surrogate-model",
-        "title": "Surrogate Model",
-        "path": "/en/glossary/dynamics/surrogate-model/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "survival-map",
         "title": "Survival Map",
         "path": "/en/glossary/dynamics/survival-map/",
@@ -17073,65 +13783,9 @@
         }
       },
       {
-        "slug": "switching-function",
-        "title": "Switching Function",
-        "path": "/en/glossary/dynamics/switching-function/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "switching-surface",
-        "title": "Switching Surface",
-        "path": "/en/glossary/dynamics/switching-surface/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "symbolic-manipulator",
         "title": "Symbolic Manipulator",
         "path": "/en/glossary/dynamics/symbolic-manipulator/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "symplectic-geometry",
-        "title": "Symplectic Geometry",
-        "path": "/en/glossary/dynamics/symplectic-geometry/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "symplectic-transformation",
-        "title": "Symplectic Transformation",
-        "path": "/en/glossary/dynamics/symplectic-transformation/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -17325,79 +13979,9 @@
         }
       },
       {
-        "slug": "throttle-factor",
-        "title": "Throttle Factor",
-        "path": "/en/glossary/dynamics/throttle-factor/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "throttle-function",
-        "title": "Throttle Function",
-        "path": "/en/glossary/dynamics/throttle-function/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "tidal-capture",
         "title": "Tidal Capture",
         "path": "/en/glossary/dynamics/tidal-capture/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "time-optimal-control",
-        "title": "Time-Optimal Control",
-        "path": "/en/glossary/dynamics/time-optimal-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "time-optimal-transfer",
-        "title": "Time-Optimal Transfer",
-        "path": "/en/glossary/dynamics/time-optimal-transfer/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "timing-constraint-design",
-        "title": "Timing Constraint Design",
-        "path": "/en/glossary/dynamics/timing-constraint-design/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -17479,6 +14063,20 @@
         }
       },
       {
+        "slug": "trajectory-constraints",
+        "title": "Trajectory Constraints",
+        "path": "/en/glossary/dynamics/trajectory-constraints/",
+        "category": {
+          "slug": "dynamics",
+          "label": {
+            "zh": "动力学与数学基础",
+            "en": "Dynamics & math"
+          },
+          "order": 20020,
+          "parentSlug": null
+        }
+      },
+      {
         "slug": "trajectory-splicing-database",
         "title": "Trajectory Splicing Database",
         "path": "/en/glossary/dynamics/trajectory-splicing-database/",
@@ -17496,34 +14094,6 @@
         "slug": "transportation-tube-wall",
         "title": "Transportation Tube Wall",
         "path": "/en/glossary/dynamics/transportation-tube-wall/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "transversality-condition",
-        "title": "Transversality Condition",
-        "path": "/en/glossary/dynamics/transversality-condition/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "transversality-conditions",
-        "title": "Transversality Conditions",
-        "path": "/en/glossary/dynamics/transversality-conditions/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -17608,20 +14178,6 @@
         "slug": "two-layer-guidance-and-control",
         "title": "Two-Layer Guidance and Control",
         "path": "/en/glossary/dynamics/two-layer-guidance-and-control/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "two-point-method",
-        "title": "Two-Point Method",
-        "path": "/en/glossary/dynamics/two-point-method/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -17927,20 +14483,6 @@
         }
       },
       {
-        "slug": "abnormal-extremal",
-        "title": "Abnormal Extremal",
-        "path": "/en/glossary/fundamentals/abnormal-extremal/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "adaptive-grid-subdivision",
         "title": "Adaptive Grid Subdivision",
         "path": "/en/glossary/fundamentals/adaptive-grid-subdivision/",
@@ -17997,34 +14539,6 @@
         }
       },
       {
-        "slug": "bang-off-bang-thrust-profile",
-        "title": "Bang-off-Bang Thrust Profile",
-        "path": "/en/glossary/fundamentals/bang-off-bang-thrust-profile/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "birkhoff-normal-form",
-        "title": "Birkhoff Normal Form",
-        "path": "/en/glossary/fundamentals/birkhoff-normal-form/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "chebyshev-polynomial",
         "title": "Chebyshev Polynomial",
         "path": "/en/glossary/fundamentals/chebyshev-polynomial/",
@@ -18067,22 +14581,8 @@
         }
       },
       {
-        "slug": "conjugate-point-condition",
-        "title": "Conjugate point condition",
-        "path": "/en/glossary/fundamentals/conjugate-point-condition/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "conjugate-point",
-        "title": "Conjugate Point",
+        "title": "Conjugate Point, Extremal, and Second-Order Optimality Conditions",
         "path": "/en/glossary/fundamentals/conjugate-point/",
         "category": {
           "slug": "fundamentals",
@@ -18098,34 +14598,6 @@
         "slug": "control-regularization",
         "title": "Control Regularization",
         "path": "/en/glossary/fundamentals/control-regularization/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate-equations",
-        "title": "Costate Equations",
-        "path": "/en/glossary/fundamentals/costate-equations/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "costate",
-        "title": "Costate",
-        "path": "/en/glossary/fundamentals/costate/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -18193,20 +14665,6 @@
         }
       },
       {
-        "slug": "direct-method",
-        "title": "Direct Method",
-        "path": "/en/glossary/fundamentals/direct-method/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "dynamic-reference-catalog",
         "title": "Dynamic Reference Catalog",
         "path": "/en/glossary/fundamentals/dynamic-reference-catalog/",
@@ -18224,20 +14682,6 @@
         "slug": "energy-minimization",
         "title": "Energy Minimization",
         "path": "/en/glossary/fundamentals/energy-minimization/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "engine-throttle-parameter",
-        "title": "Engine Throttle Parameter",
-        "path": "/en/glossary/fundamentals/engine-throttle-parameter/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -18333,37 +14777,9 @@
         }
       },
       {
-        "slug": "geometric-optimal-control",
-        "title": "Geometric Optimal Control",
-        "path": "/en/glossary/fundamentals/geometric-optimal-control/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "global-search",
         "title": "Global Search",
         "path": "/en/glossary/fundamentals/global-search/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "gpm",
-        "title": "Gauss Pseudospectral Method, GPM",
-        "path": "/en/glossary/fundamentals/gpm/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -18473,34 +14889,6 @@
         }
       },
       {
-        "slug": "hamiltonian-integrable-approximation",
-        "title": "Hamiltonian Integrable Approximation",
-        "path": "/en/glossary/fundamentals/hamiltonian-integrable-approximation/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "hamiltonian",
-        "title": "Hamiltonian",
-        "path": "/en/glossary/fundamentals/hamiltonian/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "heterogeneous-constellation",
         "title": "Heterogeneous Constellation",
         "path": "/en/glossary/fundamentals/heterogeneous-constellation/",
@@ -18546,34 +14934,6 @@
         "slug": "ill-conditioned-state-transition-matrix",
         "title": "Ill-Conditioned State Transition Matrix",
         "path": "/en/glossary/fundamentals/ill-conditioned-state-transition-matrix/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-method",
-        "title": "Indirect Method",
-        "path": "/en/glossary/fundamentals/indirect-method/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "indirect-optimal-control",
-        "title": "Indirect Optimal Control",
-        "path": "/en/glossary/fundamentals/indirect-optimal-control/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -18672,34 +15032,6 @@
         "slug": "l5-point",
         "title": "L5 Point",
         "path": "/en/glossary/fundamentals/l5-point/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lagrange-multiplier",
-        "title": "Lagrange Multiplier",
-        "path": "/en/glossary/fundamentals/lagrange-multiplier/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lagrange-point",
-        "title": "Lagrange Point",
-        "path": "/en/glossary/fundamentals/lagrange-point/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -18921,20 +15253,6 @@
         }
       },
       {
-        "slug": "normal-extremal",
-        "title": "Normal Extremal",
-        "path": "/en/glossary/fundamentals/normal-extremal/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "nsga-ii",
         "title": "Non-Dominated Sorting Genetic Algorithm II",
         "path": "/en/glossary/fundamentals/nsga-ii/",
@@ -18952,20 +15270,6 @@
         "slug": "numerical-ephemeris",
         "title": "Numerical Ephemeris (and the Full Ephemeris Model)",
         "path": "/en/glossary/fundamentals/numerical-ephemeris/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "optimal-relative-motion-control",
-        "title": "Optimal Relative Motion Control",
-        "path": "/en/glossary/fundamentals/optimal-relative-motion-control/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -19061,34 +15365,6 @@
         }
       },
       {
-        "slug": "pmp",
-        "title": "Pontryagin Minimum Principle",
-        "path": "/en/glossary/fundamentals/pmp/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "pontryagin-optimality-conditions",
-        "title": "Pontryagin Optimality Conditions",
-        "path": "/en/glossary/fundamentals/pontryagin-optimality-conditions/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "position-angle",
         "title": "Position Angle",
         "path": "/en/glossary/fundamentals/position-angle/",
@@ -19120,34 +15396,6 @@
         "slug": "precomputed-variational-data",
         "title": "Precomputed Variational Data",
         "path": "/en/glossary/fundamentals/precomputed-variational-data/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "primer-vector-equation",
-        "title": "Primer vector equation",
-        "path": "/en/glossary/fundamentals/primer-vector-equation/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "primer-vector",
-        "title": "Primer vector",
-        "path": "/en/glossary/fundamentals/primer-vector/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -19285,20 +15533,6 @@
         }
       },
       {
-        "slug": "smoothing-technique",
-        "title": "Smoothing Technique",
-        "path": "/en/glossary/fundamentals/smoothing-technique/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "staggered-optimization",
         "title": "Staggered Optimization",
         "path": "/en/glossary/fundamentals/staggered-optimization/",
@@ -19327,51 +15561,9 @@
         }
       },
       {
-        "slug": "strong-legendre-condition",
-        "title": "Strong Legendre Condition",
-        "path": "/en/glossary/fundamentals/strong-legendre-condition/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "sun-earth-moon-system",
         "title": "Sun-Earth-Moon System",
         "path": "/en/glossary/fundamentals/sun-earth-moon-system/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "switching-function",
-        "title": "Switching Function",
-        "path": "/en/glossary/fundamentals/switching-function/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "symplectic-matrix",
-        "title": "Symplectic Matrix",
-        "path": "/en/glossary/fundamentals/symplectic-matrix/",
         "category": {
           "slug": "fundamentals",
           "label": {

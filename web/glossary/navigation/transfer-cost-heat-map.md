@@ -41,7 +41,7 @@ permalink: /glossary/navigation/transfer-cost-heat-map/
 - 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
 - 长方体空间网格（Cuboidal Spatial Grid）
 - 偏转角（Deflection Angle）
-- [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/time-optimal-transfer/)
+- [时间最优转移（Time-Optimal Transfer）](/glossary/dynamics/fuel-optimal/)
 
 ## 参考文献
 

@@ -159,7 +159,7 @@ The two share path-following algorithms (natural-parameter, pseudo-arclength, pr
 
 - [Differential Correction](/en/glossary/dynamics/differential-correction/)
 
-- [Co-state Normalisation](/en/glossary/dynamics/costate-normalization/)
+- [Co-state Normalisation](/en/glossary/dynamics/co-state-variables/)
 
 - [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/)
 

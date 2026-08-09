@@ -84,7 +84,7 @@ Jacobi 坐标（Jacobi coordinates）是把 N 体问题化为一系列相对坐�
 
 - [哈密顿函数（Hamiltonian）](/glossary/dynamics/hamiltonian/)
 
-- [辛变换（Symplectic Transformation）](/glossary/dynamics/symplectic-transformation/)
+- [辛变换（Symplectic Transformation）](/glossary/dynamics/hamiltonian-normal-form/)
 
 - [不变环面（Invariant Torus）](/glossary/fundamentals/invariant-torus/)
 

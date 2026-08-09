@@ -154,7 +154,7 @@ Applying constant low thrust alters the equilibrium point positions and orbit fa
 
 - [Two-Impulse Rendezvous](/en/glossary/dynamics/two-impulse-rendezvous/) — Maneuver methods under the impulsive chemical-propulsion model
 
-- [Pontryagin's Minimum Principle](/en/glossary/fundamentals/pmp/)
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/)
 

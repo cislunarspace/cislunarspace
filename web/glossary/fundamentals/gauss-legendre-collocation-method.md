@@ -41,7 +41,7 @@ permalink: /glossary/fundamentals/gauss-legendre-collocation-method/
 - 轨道周期
 - [量纲归一化](/glossary/fundamentals/nondimensionalization/)
 - 惯性坐标系
-- [哈密顿量](/glossary/fundamentals/hamiltonian/)
+- [哈密顿量](/glossary/dynamics/hamiltonian/)
 
 ## 参考文献
 

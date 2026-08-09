@@ -39,7 +39,7 @@ GCRS与BCRS坐标转换中由两个参考系对时间的不同定义引起的相
 ## 相关概念
 
 - 亚轨道（Suborbital）
-- [相对运动最优控制（Optimal Relative Motion Control）](/glossary/fundamentals/optimal-relative-motion-control/)
+- [相对运动最优控制（Optimal Relative Motion Control）](/glossary/dynamics/fuel-optimal/)
 - 火箭分级（Rocket Staging）
 - 叉乘矩阵（Cross-Product Matrix / Skew-Symmetric Matrix）
 

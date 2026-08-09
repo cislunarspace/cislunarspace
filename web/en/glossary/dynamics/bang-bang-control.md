@@ -171,7 +171,7 @@ Under the cislunar CR3BP+LT model, bang-bang control is closely related to the f
 
 - [Tangential Thrust Control](/en/glossary/dynamics/tangential-thrust-control/) — Optimal and simplified strategies for thrust direction
 
-- [Pontryagin's Minimum Principle](/en/glossary/fundamentals/pmp/) — The mathematical foundation for deriving bang-bang control
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) — The mathematical foundation for deriving bang-bang control
 
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/) — The direct physical source of the primer vector
 

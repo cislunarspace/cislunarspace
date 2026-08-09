@@ -39,7 +39,7 @@ A Poincare section construction method that uses angle and distance as coordinat
 ## Related Concepts
 
 - Deflection Angle
-- [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
+- [Time-Optimal Transfer](/en/glossary/dynamics/fuel-optimal/)
 - Summation Combination of Dual One-Way Ranging
 - Map Projection
 

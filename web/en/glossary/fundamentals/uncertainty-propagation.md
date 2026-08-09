@@ -40,7 +40,7 @@ The Uncertainty Propagation plays a significant role in cislunar space mission d
 
 - [Lindstedt-Poincaré Series Expansion](/en/glossary/dynamics/poincare-section/)
 - Prograde Orbit
-- [Strong Legendre Condition](/en/glossary/fundamentals/strong-legendre-condition/)
+- [Strong Legendre Condition](/en/glossary/fundamentals/conjugate-point/)
 - Unified Orbital Elements
 
 ## References

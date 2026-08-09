@@ -65,7 +65,7 @@ For transfers between periodic orbits in the CR3BP (e.g., halo-to-DRO), the shap
 
 - [Direct Collocation Methods for Optimal Control](/en/glossary/dynamics/hermite-simpson-method/)
 
-- [Gauss Pseudospectral Method (GPM)](/en/glossary/dynamics/gpm/)
+- [Gauss Pseudospectral Method (GPM)](/en/glossary/dynamics/pseudospectral-method/)
 
 - [Indirect Methods for Optimal Control](/en/glossary/dynamics/indirect-methods/)
 

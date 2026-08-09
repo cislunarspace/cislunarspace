@@ -75,7 +75,7 @@ $$\mathbf{F}(\boldsymbol{\lambda}(t_0), t_f)=\begin{bmatrix}\mathbf{r}(t_f)-\mat
 
 协态变量的物理意义是"状态约束的影子价格"——位置协态 $\boldsymbol{\lambda}_r$ 表示终端位置约束对整条轨迹的"代价压力"；速度协态 $\boldsymbol{\lambda}_v$ 表示终端速度约束的影子价格。但它们的数值量级、方向无简单规则可循，难以给出合理初猜。在 CR3BP 的非线性流下，$\boldsymbol{\lambda}(t_0)$ 细微变化被长时间积分放大，打靶函数 $\mathbf{F}$ 呈现多峰、多谷结构（并行于微分修正的初猜敏感问题）。
 
-[协态归一化](/glossary/dynamics/costate-normalization/)是关键的应对技术：将 $(\boldsymbol{\lambda}(t_0),\lambda_m(t_0))$ 归一化到 7 维单位球面上，把搜索空间从无穷大缩减为有限紧致集合，初猜只需"指对方向"（Jiang et al. 2012）。
+[协态归一化](/glossary/dynamics/co-state-variables/)是关键的应对技术：将 $(\boldsymbol{\lambda}(t_0),\lambda_m(t_0))$ 归一化到 7 维单位球面上，把搜索空间从无穷大缩减为有限紧致集合，初猜只需"指对方向"（Jiang et al. 2012）。
 
 ### 同伦法
 
@@ -107,7 +107,7 @@ Lambert 问题是 TPBVP 在二体问题下的一个特例——给定两点间�
 
 - [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)
 
-- [协态归一化（Co-state Normalization）](/glossary/dynamics/costate-normalization/)
+- [协态归一化（Co-state Normalization）](/glossary/dynamics/co-state-variables/)
 
 - [庞特里亚金极值原理（Pontryagin's Maximum Principle）](/glossary/dynamics/pontryagins-maximum-principle/)
 

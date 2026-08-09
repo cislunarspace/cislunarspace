@@ -39,7 +39,7 @@ Ephemeris-Based N-Body Model plays an important role in orbit maneuver design, a
 ## Related Concepts
 
 - Deflection Angle
-- [Time-Optimal Transfer](/en/glossary/dynamics/time-optimal-transfer/)
+- [Time-Optimal Transfer](/en/glossary/dynamics/fuel-optimal/)
 - Summation Combination of Dual One-Way Ranging
 - Map Projection
 

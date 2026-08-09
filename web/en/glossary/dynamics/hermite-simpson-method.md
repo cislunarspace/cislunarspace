@@ -93,7 +93,7 @@ Direct collocation is widely used for cislunar trajectory optimization: low-thru
 
 - [State Transition Matrix (STM)](/en/glossary/fundamentals/stm/)
 
-- [Gauss Pseudospectral Method (GPM)](/en/glossary/dynamics/gpm/)
+- [Gauss Pseudospectral Method (GPM)](/en/glossary/dynamics/pseudospectral-method/)
 
 - [Shape-Based Methods](/en/glossary/dynamics/shape-based-method/)
 

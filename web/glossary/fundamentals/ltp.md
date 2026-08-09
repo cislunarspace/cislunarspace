@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/ltp/
 ## 相关概念
 
 - 变结构滑模控制（Variable Structure Sliding Mode Control）
-- [庞特里亚金最小值原理（Pontryagin Minimum Principle）](/glossary/fundamentals/pmp/)
+- [庞特里亚金最小值原理（Pontryagin Minimum Principle）](/glossary/dynamics/pontryagins-maximum-principle/)
 - 误差函数（Error Function）
 
 ## 参考文献
