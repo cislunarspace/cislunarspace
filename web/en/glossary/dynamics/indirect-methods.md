@@ -1,6 +1,6 @@
 ---
 title: Indirect Methods
-description: Unified framework of indirect methods for trajectory optimization: deriving the state-costate Hamilton canonical equations and transversality conditions from Pontryagin's Minimum Principle, formulating the two-point boundary-value problem, and solving it via shooting, collocation, heuristic, or hybrid strategies. Covers costate normalization, the free-variable/constraint method, switching-point detection, jump conditions, singular arcs, and the indirect multi-stage formulation, with a comparison to direct methods.
+description: "Unified framework of indirect methods for trajectory optimization: deriving the state-costate Hamilton canonical equations and transversality conditions from Pontryagin's Minimum Principle, formulating the two-point boundary-value problem, and solving it via shooting, collocation, heuristic, or hybrid strategies. Covers costate normalization, the free-variable/constraint method, switching-point detection, jump conditions, singular arcs, and the indirect multi-stage formulation, with a comparison to direct methods."
 keywords: indirect methods, Pontryagin minimum principle, two-point boundary value problem, shooting method, indirect collocation, indirect heuristic, hybrid direct-indirect, multi-stage formulation, IMF, free-variable constraint method, costate normalization, switching detection, jump condition
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Indirect Methods Explained | Trajectory Optimization
-  description: Unified framework of indirect methods for trajectory optimization: Pontryagin-derived state-costate Hamilton canonical equations, TPBVP, and shooting/collocation/heuristic/hybrid solvers. Covers costate normalization, free-variable constraint method, switching detection, jump conditions, and the indirect multi-stage formulation.
+  description: "Unified framework of indirect methods for trajectory optimization: Pontryagin-derived state-costate Hamilton canonical equations, TPBVP, and shooting/collocation/heuristic/hybrid solvers. Covers costate normalization, free-variable constraint method, switching detection, jump conditions, and the indirect multi-stage formulation."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Indirect Methods Explained | Trajectory Optimization
-  description: Unified framework of indirect methods for trajectory optimization: Pontryagin-derived state-costate Hamilton canonical equations, TPBVP, and shooting/collocation/heuristic/hybrid solvers.
+  description: "Unified framework of indirect methods for trajectory optimization: Pontryagin-derived state-costate Hamilton canonical equations, TPBVP, and shooting/collocation/heuristic/hybrid solvers."
   image: /logo.png
 permalink: /en/glossary/dynamics/indirect-methods/
 ---

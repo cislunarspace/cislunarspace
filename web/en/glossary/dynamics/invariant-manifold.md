@@ -1,6 +1,6 @@
 ---
 title: Invariant Manifold (Invariant Manifold / Stable & Unstable Manifolds)
-description: Stable and unstable invariant manifolds of libration-point periodic orbits in the circular restricted three-body problem: definition, monodromy-matrix computation, manifold tubes, branches, parameterization, engineering approximations, and Earth–Moon/Sun–Earth examples.
+description: "Stable and unstable invariant manifolds of libration-point periodic orbits in the circular restricted three-body problem: definition, monodromy-matrix computation, manifold tubes, branches, parameterization, engineering approximations, and Earth–Moon/Sun–Earth examples."
 keywords: Invariant Manifold, Stable Manifold, Unstable Manifold, Manifold Tube, Monodromy Matrix, Low-Energy Transfer, Libration Point Orbit, CR3BP
 author: Tianjiang Shuo
 date: 2026-07-31

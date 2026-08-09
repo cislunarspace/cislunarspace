@@ -11,7 +11,7 @@ wechatShare:
   image: /logo.png
 og:
   title: Phase Deviation — Detailed Definition
-  description: Phase drift on periodic orbits: x-axis crossing control leaves the time/phase component unconstrained, causing accumulating phase deviation. PC-SCoP formulates phase constraints as explicit SOCP constraints. Coverage of causes, consequences, and precise definitions.
+  description: "Phase drift on periodic orbits: x-axis crossing control leaves the time/phase component unconstrained, causing accumulating phase deviation. PC-SCoP formulates phase constraints as explicit SOCP constraints. Coverage of causes, consequences, and precise definitions."
   image: /logo.png
   type: article
 twitter:

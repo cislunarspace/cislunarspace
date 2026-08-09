@@ -1,6 +1,6 @@
 ---
 title: Discrete Mechanics and Optimal Control (DMOC)
-description: A structure-preserving direct method: discretize the Lagrange-d'Alembert principle (not the ODE) and use the forced discrete Euler-Lagrange equations as constraints. The discrete-action sum is the cost. Symplectic and momentum-preserving; for long-duration cislunar low-energy transfers, DMOC yields good energy behavior even at large step sizes.
+description: "A structure-preserving direct method: discretize the Lagrange-d'Alembert principle (not the ODE) and use the forced discrete Euler-Lagrange equations as constraints. The discrete-action sum is the cost. Symplectic and momentum-preserving; for long-duration cislunar low-energy transfers, DMOC yields good energy behavior even at large step sizes."
 keywords: Discrete Mechanics and Optimal Control, DMOC, Variational Integrator, Symplectic, Discrete Euler-Lagrange, Lagrange-d'Alembert, Junge-Marsden-Ober-Blöbaum
 author: Tianjiang Shuo
 date: 2026-07-31

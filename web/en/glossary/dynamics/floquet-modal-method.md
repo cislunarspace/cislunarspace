@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: Floquet Modal Method and Libration Point Stationkeeping
-  desc: Floquet-theory-based libration point stationkeeping: from unstable mode cancellation to orbit continuation.
+  desc: "Floquet-theory-based libration point stationkeeping: from unstable mode cancellation to orbit continuation."
   image: /logo.png
 og:
   title: Floquet Modal Method and Libration Point Stationkeeping | Glossary
@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: Floquet Modal Method and Libration Point Stationkeeping | Glossary
-  description: From Floquet theory to orbit continuation: the spectrum of stationkeeping strategies and engineering choices.
+  description: "From Floquet theory to orbit continuation: the spectrum of stationkeeping strategies and engineering choices."
   image: /logo.png
 permalink: /en/glossary/dynamics/floquet-modal-method/
 ---

@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: Synodic Frame (Rotating Frame)
-  desc: The standard reference frame of the CR3BP: origin at the barycenter, rotating with the primaries' line.
+  desc: "The standard reference frame of the CR3BP: origin at the barycenter, rotating with the primaries' line."
   image: /logo.png
 og:
   title: Synodic Frame (Rotating Frame) Explained | Term Definition

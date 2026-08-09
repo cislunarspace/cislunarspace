@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: LQR and the Riccati Equation
-  desc: Closed-form optimal feedback control for linear systems with a quadratic cost: Riccati equation, weighting matrices, output regulation, ZEM/ZEV guidance.
+  desc: "Closed-form optimal feedback control for linear systems with a quadratic cost: Riccati equation, weighting matrices, output regulation, ZEM/ZEV guidance."
   image: /logo.png
 og:
   title: LQR and the Riccati Equation Explained | Term Definition

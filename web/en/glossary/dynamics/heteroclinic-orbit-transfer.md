@@ -1,6 +1,6 @@
 ---
 title: Heteroclinic Orbit Transfer (Heteroclinic Orbit Transfer / Homoclinic Connections)
-description: Heteroclinic and homoclinic connections between libration-point periodic orbits in the restricted three-body problem: definition, Poincaré-section intersection, phasing strategies, and the Interplanetary Superhighway.
+description: "Heteroclinic and homoclinic connections between libration-point periodic orbits in the restricted three-body problem: definition, Poincaré-section intersection, phasing strategies, and the Interplanetary Superhighway."
 keywords: Heteroclinic Orbit, Homoclinic Orbit, Heteroclinic Connection, Homoclinic Connection, Phasing, Interplanetary Superhighway, Low-Energy Transfer
 author: Tianjiang Shuo
 date: 2026-07-31

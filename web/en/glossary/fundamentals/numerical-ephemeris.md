@@ -11,7 +11,7 @@ wechatShare:
   image: /logo.png
 og:
   title: Numerical Ephemeris | Glossary
-description: Tabulated positions and velocities of solar-system bodies from high-precision numerical integration, stored as Chebyshev-polynomial coefficients. JPL's DE series is the standard; the full ephemeris model brings CR3BP designs into a real N-body environment.
+  description: Tabulated positions and velocities of solar-system bodies from high-precision numerical integration, stored as Chebyshev-polynomial coefficients. JPL's DE series is the standard; the full ephemeris model brings CR3BP designs into a real N-body environment.
   image: /logo.png
   type: article
 twitter:

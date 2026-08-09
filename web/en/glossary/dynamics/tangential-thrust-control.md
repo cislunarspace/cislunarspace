@@ -91,7 +91,7 @@ Advantages of direction-cosine parameterization: (1) no singularities—any dire
 In indirect methods, thrust direction is not specified directly by design parameters but is determined as a function of the velocity costate ${\lambda}_v$:
 
 $$
-\boldsymbol{\alpha}^* = -\frac{{\lambda}_v}{\|{\lambda}_v\|}
+\boldsymbol{\alpha}^* = -\frac{\lambda}_v}{\|{\lambda}_v\|}
 $$
 
 No explicit angular or cosine parameterization is needed; the costate variables themselves are the solution of the differential equations. The advantage is automatic satisfaction of the optimality necessary condition; the drawback is that costate initial values have no physical meaning and are highly sensitive, making BVP convergence difficult (Zhu & Gao 2017).

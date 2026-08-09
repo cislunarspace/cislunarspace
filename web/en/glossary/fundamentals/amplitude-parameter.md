@@ -1,6 +1,6 @@
 ---
 title: Amplitude Parameter & Phase Parameter (振幅参数与相位参数)
-description: The two fundamental descriptive parameters for Distant Retrograde Orbits (DROs) in the synodic frame: the amplitude parameter characterizes the size of the DRO relative to the libration point, and the phase parameter indicates the position of a point along the DRO period. Together they uniquely determine the state at any point on a DRO for a given Jacobi constant.
+description: "The two fundamental descriptive parameters for Distant Retrograde Orbits (DROs) in the synodic frame: the amplitude parameter characterizes the size of the DRO relative to the libration point, and the phase parameter indicates the position of a point along the DRO period. Together they uniquely determine the state at any point on a DRO for a given Jacobi constant."
 keywords: Amplitude Parameter, Phase Parameter, DRO, Distant Retrograde Orbit, synodic frame, orbit parameterization, Jacobi constant, differential correction
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Amplitude Parameter & Phase Parameter — Detailed Definition
-  description: The two fundamental parameters for DROs in the synodic frame: amplitude parameter characterizes orbit size, phase parameter locates a point along the period. Together they uniquely determine the state at any point on a DRO for a given Jacobi constant.
+  description: "The two fundamental parameters for DROs in the synodic frame: amplitude parameter characterizes orbit size, phase parameter locates a point along the period. Together they uniquely determine the state at any point on a DRO for a given Jacobi constant."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Amplitude Parameter & Phase Parameter — Detailed Definition
-  description: The two fundamental parameters for DROs in the synodic frame: amplitude parameter characterizes orbit size, phase parameter locates a point along the period.
+  description: "The two fundamental parameters for DROs in the synodic frame: amplitude parameter characterizes orbit size, phase parameter locates a point along the period."
   image: /logo.png
 permalink: /en/glossary/fundamentals/amplitude-parameter/
 ---

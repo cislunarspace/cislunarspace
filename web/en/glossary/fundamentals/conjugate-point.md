@@ -1,6 +1,6 @@
 ---
 title: Conjugate Point, Extremal, and Second-Order Optimality Conditions
-description: Second-order necessary and sufficient conditions in optimal control: normal vs abnormal extremals, extremal flow, the Jacobi field and conjugate points, Legendre–Clebsch / strengthened Legendre–Clebsch conditions, geometric optimal control, and the sub-Riemannian structure of CR3BP.
+description: "Second-order necessary and sufficient conditions in optimal control: normal vs abnormal extremals, extremal flow, the Jacobi field and conjugate points, Legendre–Clebsch / strengthened Legendre–Clebsch conditions, geometric optimal control, and the sub-Riemannian structure of CR3BP."
 keywords: Conjugate Point, Jacobi Field, Abnormal Extremal, Normal Extremal, Extremal Flow, Legendre-Clebsch Condition, Strengthened Legendre-Clebsch, Geometric Optimal Control, Sub-Riemannian Structure, Second-Order Optimality
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Conjugate Point and Second-Order Optimality | Optimal Control
-  description: Second-order necessary and sufficient conditions in optimal control: extremal classification, Jacobi field and conjugate points, Legendre–Clebsch, geometric optimal control, sub-Riemannian structure of CR3BP.
+  description: "Second-order necessary and sufficient conditions in optimal control: extremal classification, Jacobi field and conjugate points, Legendre–Clebsch, geometric optimal control, sub-Riemannian structure of CR3BP."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Conjugate Point and Second-Order Optimality | Optimal Control
-  description: Second-order necessary and sufficient conditions in optimal control: extremal classification, Jacobi field and conjugate points, Legendre–Clebsch, geometric optimal control, sub-Riemannian structure of CR3BP.
+  description: "Second-order necessary and sufficient conditions in optimal control: extremal classification, Jacobi field and conjugate points, Legendre–Clebsch, geometric optimal control, sub-Riemannian structure of CR3BP."
   image: /logo.png
 permalink: /en/glossary/fundamentals/conjugate-point/
 ---

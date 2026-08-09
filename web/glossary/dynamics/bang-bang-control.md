@@ -65,7 +65,7 @@ $$
 代入动力学方程并分离与控制相关的项：
 
 $$
-H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - {\lambda}_v^{\mathrm{T}}\frac{\mu}{r^3}\mathbf{r} + F\left(\frac{{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
+H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - {\lambda}_v^{\mathrm{T}}\frac{\mu}{r^3}\mathbf{r} + F\left(\frac{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
 $$
 
 第三项对 $F$ 线性依赖——这直接导致了 Bang-bang 结构的出现。
@@ -75,7 +75,7 @@ $$
 定义**先驱向量**（primer vector）$\mathbf{p}(t) \equiv -{\lambda}_v(t)$（Lawden 1963, Ch. 3；Prussing 1993）。极小化哈密顿函数等价于令推力方向 $\boldsymbol{\alpha}$ 与 ${\lambda}_v$ 反向：
 
 $$
-\boldsymbol{\alpha}^* = -\frac{{\lambda}_v}{\|{\lambda}_v\|} = \frac{\mathbf{p}}{\|\mathbf{p}\|}
+\boldsymbol{\alpha}^* = -\frac{\lambda}_v}{\|{\lambda}_v\|} = \frac{\mathbf{p}}{\|\mathbf{p}\|}
 $$
 
 即最优推力方向与先驱向量方向一致。

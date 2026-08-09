@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: Weak Stability and Weak Stability Boundary (WSB) | Glossary
-  description: From Belbruno's algorithm to Hiten's flight: ballistic capture, WSR, weak instability, and practical stability regions.
+  description: "From Belbruno's algorithm to Hiten's flight: ballistic capture, WSR, weak instability, and practical stability regions."
   image: /logo.png
 permalink: /en/glossary/dynamics/wsb/
 ---

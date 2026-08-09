@@ -1,6 +1,6 @@
 ---
 title: Equation of Motion and State Equation
-description: The differential equations governing a spacecraft's motion. In the CR3BP they appear as three second-order ODEs in the synodic frame with Coriolis and centrifugal terms; rewriting them as a first-order system yields the state equation dx/dt = f(x,t) (linear: dx/dt = A(t)x + Bu) on which modern control theory operates. Covers the autonomous vs. non-autonomous and time-varying vs. time-invariant distinctions.
+description: "The differential equations governing a spacecraft's motion. In the CR3BP they appear as three second-order ODEs in the synodic frame with Coriolis and centrifugal terms; rewriting them as a first-order system yields the state equation dx/dt = f(x,t) (linear: dx/dt = A(t)x + Bu) on which modern control theory operates. Covers the autonomous vs. non-autonomous and time-varying vs. time-invariant distinctions."
 keywords: equation of motion, state equation, EOM, state-space, autonomous system, non-autonomous system, time-varying system, Coriolis term, CR3BP, cislunar dynamics
 author: Tianjiang Shuo
 date: 2026-07-31

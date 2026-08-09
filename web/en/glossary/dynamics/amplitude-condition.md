@@ -1,6 +1,6 @@
 ---
 title: Amplitude Condition & Effective Phase (振幅条件与有效相位)
-description: The amplitude-phase parameterization framework for Lissajous/Halo orbits near CR3BP libration points: the in-plane amplitude $A_x$ and out-of-plane amplitude $A_z$ are coupled by Richardson's third-order nonlinear amplitude constraint $l_1 A_x^2 + l_2 A_z^2 + \Delta = 0$ to yield a Halo periodic solution; the effective phases $(\Phi, \Psi)$ map the four-dimensional Lissajous torus onto a two-dimensional Effective Phases Plane (EPP), enabling simplified maneuver design and eclipse avoidance analysis.
+description: "The amplitude-phase parameterization framework for Lissajous/Halo orbits near CR3BP libration points: the in-plane amplitude $A_x$ and out-of-plane amplitude $A_z$ are coupled by Richardson's third-order nonlinear amplitude constraint $l_1 A_x^2 + l_2 A_z^2 + \\Delta = 0$ to yield a Halo periodic solution; the effective phases $(\\Phi, \\Psi)$ map the four-dimensional Lissajous torus onto a two-dimensional Effective Phases Plane (EPP), enabling simplified maneuver design and eclipse avoidance analysis."
 keywords: Amplitude Condition, Effective Phase, EPP, Effective Phases Plane, Richardson third-order solution, Halo orbit, Lissajous orbit, in-plane amplitude, out-of-plane amplitude, amplitude correction maneuver, LOEWE, eclipse avoidance
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,7 +11,7 @@ wechatShare:
   image: /logo.png
 og:
   title: Amplitude Condition & Effective Phase — Detailed Definition
-  description: The amplitude-phase parameterization framework for CR3BP Lissajous/Halo orbits: in-plane and out-of-plane amplitudes coupled by Richardson's third-order constraint to form a Halo periodic solution; effective phases map the 2-torus to the EPP for maneuver design and eclipse avoidance.
+  description: "The amplitude-phase parameterization framework for CR3BP Lissajous/Halo orbits: in-plane and out-of-plane amplitudes coupled by Richardson's third-order constraint to form a Halo periodic solution; effective phases map the 2-torus to the EPP for maneuver design and eclipse avoidance."
   image: /logo.png
   type: article
 twitter:

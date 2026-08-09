@@ -1,6 +1,6 @@
 ---
 title: Sequential Convex Programming (SCP / Successive Convexification)
-description: A direct method for nonconvex optimal control: linearize the dynamics at a reference trajectory, add a trust region, and losslessly convexify the control constraints, yielding a sequence of second-order cone programs (SOCP). Polynomial-time interior-point solves each subproblem with a deterministic stopping criterion — well-suited to real-time / on-board guidance. Covers lossless convexification, virtual control, trust-region rules, and applications to powered descent, low-thrust transfer, and entry guidance.
+description: "A direct method for nonconvex optimal control: linearize the dynamics at a reference trajectory, add a trust region, and losslessly convexify the control constraints, yielding a sequence of second-order cone programs (SOCP). Polynomial-time interior-point solves each subproblem with a deterministic stopping criterion — well-suited to real-time / on-board guidance. Covers lossless convexification, virtual control, trust-region rules, and applications to powered descent, low-thrust transfer, and entry guidance."
 keywords: Sequential Convex Programming, SCP, Successive Convexification, Convex Optimization, SOCP, Trust Region, Lossless Convexification, Virtual Control, Interior Point, Powered Descent Guidance
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Sequential Convex Programming Explained | Trajectory Optimization
-  description: A direct method for nonconvex optimal control: successive linearization + trust region + lossless convexification → a sequence of SOCP subproblems. Polynomial-time, deterministic stopping — fit for real-time / on-board guidance.
+  description: "A direct method for nonconvex optimal control: successive linearization + trust region + lossless convexification → a sequence of SOCP subproblems. Polynomial-time, deterministic stopping — fit for real-time / on-board guidance."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Sequential Convex Programming Explained | Trajectory Optimization
-  description: A direct method for nonconvex optimal control: successive linearization + trust region + lossless convexification → a sequence of SOCP subproblems. Polynomial-time, deterministic stopping — fit for real-time / on-board guidance.
+  description: "A direct method for nonconvex optimal control: successive linearization + trust region + lossless convexification → a sequence of SOCP subproblems. Polynomial-time, deterministic stopping — fit for real-time / on-board guidance."
   image: /logo.png
 permalink: /en/glossary/dynamics/scp/
 ---

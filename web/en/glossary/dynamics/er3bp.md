@@ -1,6 +1,6 @@
 ---
 title: Elliptic Restricted Three-Body Problem (ER3BP)
-description: The elliptical-orbit generalization of the CR3BP: both primaries revolve around their barycenter on Keplerian ellipses, making the system non-autonomous and destroying the Jacobi integral. Covers the pulsating synodic frame, equations of motion, Floquet-theoretic stability analysis, and the $e \to 0$ reduction to CR3BP.
+description: "The elliptical-orbit generalization of the CR3BP: both primaries revolve around their barycenter on Keplerian ellipses, making the system non-autonomous and destroying the Jacobi integral. Covers the pulsating synodic frame, equations of motion, Floquet-theoretic stability analysis, and the $e \\to 0$ reduction to CR3BP."
 keywords: Elliptic Restricted Three-Body Problem, ER3BP, elliptic three-body, ERTBP, pulsating frame, Floquet theory, non-autonomous system, periodic orbits
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Elliptic Restricted Three-Body Problem (ER3BP) | Cislunar Dynamics
-  description: The elliptical-orbit generalization of the CR3BP: non-autonomous dynamics, loss of the Jacobi integral, pulsating frame formulation, and Floquet stability analysis.
+  description: "The elliptical-orbit generalization of the CR3BP: non-autonomous dynamics, loss of the Jacobi integral, pulsating frame formulation, and Floquet stability analysis."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Elliptic Restricted Three-Body Problem (ER3BP) | Cislunar Dynamics
-  description: The elliptical-orbit generalization of the CR3BP: non-autonomous dynamics, loss of the Jacobi integral, pulsating frame formulation, and Floquet stability analysis.
+  description: "The elliptical-orbit generalization of the CR3BP: non-autonomous dynamics, loss of the Jacobi integral, pulsating frame formulation, and Floquet stability analysis."
   image: /logo.png
 permalink: /en/glossary/dynamics/er3bp/
 ---

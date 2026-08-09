@@ -65,7 +65,7 @@ $$
 Substituting the dynamics equations and separating the control-dependent terms:
 
 $$
-H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - {\lambda}_v^{\mathrm{T}}\frac{\mu}{r^3}\mathbf{r} + F\left(\frac{{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
+H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - {\lambda}_v^{\mathrm{T}}\frac{\mu}{r^3}\mathbf{r} + F\left(\frac{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
 $$
 
 The third term depends linearly on $F$—this directly gives rise to the bang-bang structure.
@@ -75,7 +75,7 @@ The third term depends linearly on $F$—this directly gives rise to the bang-ba
 Define the **primer vector** $\mathbf{p}(t) \equiv -{\lambda}_v(t)$ (Lawden 1963, Ch. 3; Prussing 1993). Minimizing the Hamiltonian is equivalent to aligning the thrust direction $\boldsymbol{\alpha}$ opposite to ${\lambda}_v$:
 
 $$
-\boldsymbol{\alpha}^* = -\frac{{\lambda}_v}{\|{\lambda}_v\|} = \frac{\mathbf{p}}{\|\mathbf{p}\|}
+\boldsymbol{\alpha}^* = -\frac{\lambda}_v}{\|{\lambda}_v\|} = \frac{\mathbf{p}}{\|\mathbf{p}\|}
 $$
 
 That is, the optimal thrust direction coincides with the primer vector direction.

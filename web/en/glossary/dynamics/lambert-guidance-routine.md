@@ -1,6 +1,6 @@
 ---
 title: Lambert Guidance Routine
-description: A real-time closed-loop guidance algorithm that embeds the solution of Lambert's problem in the powered-flight phase: at each guidance cycle, solve the Lambert problem from the current state to the target to obtain the required velocity; the difference between this and the current velocity is the velocity-to-be-gained, used as the thrust direction command; cut off when the remaining velocity-to-be-gained drops below a threshold and coast ballistically to the target. Covers velocity-to-be-gained $v_G$, the Lambert computational plane, the distinction from open-loop Lambert transfer and Q/explicit guidance, and the position-plus-velocity matching extension (Burns-Scherock 2004).
+description: "A real-time closed-loop guidance algorithm that embeds the solution of Lambert's problem in the powered-flight phase: at each guidance cycle, solve the Lambert problem from the current state to the target to obtain the required velocity; the difference between this and the current velocity is the velocity-to-be-gained, used as the thrust direction command; cut off when the remaining velocity-to-be-gained drops below a threshold and coast ballistically to the target. Covers velocity-to-be-gained $v_G$, the Lambert computational plane, the distinction from open-loop Lambert transfer and Q/explicit guidance, and the position-plus-velocity matching extension (Burns-Scherock 2004)."
 keywords: Lambert Guidance Routine, Lambert guidance, velocity-to-be-gained, closed-loop guidance, intercept guidance, boost-phase guidance
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Lambert Guidance Routine — Definition and Detailed Discussion
-  description: A real-time closed-loop guidance algorithm that embeds the solution of Lambert's problem in the powered-flight phase: at each guidance cycle, solve the Lambert problem from the current state to the target to obtain the required velocity; the difference from the current velocity is the velocity-to-be-gained, used as the thrust direction command; cut off when the residual drops below a threshold and coast ballistically to the target.
+  description: "A real-time closed-loop guidance algorithm that embeds the solution of Lambert's problem in the powered-flight phase: at each guidance cycle, solve the Lambert problem from the current state to the target to obtain the required velocity; the difference from the current velocity is the velocity-to-be-gained, used as the thrust direction command; cut off when the residual drops below a threshold and coast ballistically to the target."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Lambert Guidance Routine — Definition and Detailed Discussion
-  description: A real-time closed-loop guidance algorithm that embeds the solution of Lambert's problem in the powered-flight phase: at each guidance cycle, solve the Lambert problem from the current state to the target to obtain the required velocity; the difference from the current velocity is the velocity-to-be-gained, used as the thrust direction command; cut off when the residual drops below a threshold and coast ballistically to the target.
+  description: "A real-time closed-loop guidance algorithm that embeds the solution of Lambert's problem in the powered-flight phase: at each guidance cycle, solve the Lambert problem from the current state to the target to obtain the required velocity; the difference from the current velocity is the velocity-to-be-gained, used as the thrust direction command; cut off when the residual drops below a threshold and coast ballistically to the target."
   image: /logo.png
 permalink: /en/glossary/dynamics/lambert-guidance-routine/
 ---

@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: Monodromy Matrix and Floquet Stability Theory
-  desc: Fundamental framework for periodic orbit stability: from monodromy matrix to Floquet multiplier classification.
+  desc: "Fundamental framework for periodic orbit stability: from monodromy matrix to Floquet multiplier classification."
   image: /logo.png
 og:
   title: Monodromy Matrix and Floquet Stability Theory | Glossary
@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: Monodromy Matrix and Floquet Stability Theory | Glossary
-  description: From monodromy matrix to Floquet multipliers: the standard framework for periodic orbit stability and invariant manifold directions.
+  description: "From monodromy matrix to Floquet multipliers: the standard framework for periodic orbit stability and invariant manifold directions."
   image: /logo.png
 permalink: /en/glossary/dynamics/monodromy-matrix/
 ---

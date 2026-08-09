@@ -1,23 +1,23 @@
 ---
 title: 庞加莱映射（Poincaré Map / Poincaré Return Map）
-description: 由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。
+description: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。"
 keywords: 庞加莱映射, 庞加莱图, Poincaré Map, First Return Map, 近星点图, periapse map, Tisserand-Poincaré 图, 不动点, 单值矩阵, heteroclinic, homoclinic
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 庞加莱映射（Poincaré Map / Poincaré Return Map）
-  desc: 由庞加莱截面首次回归导出的离散映射 P: Σ → Σ；把连续流的周期/准周期/混沌分析转化为离散动力学问题。
+  desc: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ；把连续流的周期/准周期/混沌分析转化为离散动力学问题。"
   image: /logo.png
 og:
   title: 庞加莱映射（Poincaré Map）详解 | 术语定义
-  description: 由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。
+  description: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 庞加莱映射（Poincaré Map）详解 | 术语定义
-  description: 由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。
+  description: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。"
   image: /logo.png
 permalink: /glossary/dynamics/poincare-map/
 ---

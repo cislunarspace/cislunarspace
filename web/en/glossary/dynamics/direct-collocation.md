@@ -1,6 +1,6 @@
 ---
 title: Direct Collocation
-description: The most widely used direct method: low-degree piecewise polynomials (trapezoidal, Hermite-Simpson, fifth-order Gauss-Lobatto) interpolate the state on each sub-interval; dynamics enforced at collocation points yield sparse defect constraints. Covers the math of defect constraints, format selection, mesh refinement, knots, scaling, and comparison with pseudospectral and shooting methods.
+description: "The most widely used direct method: low-degree piecewise polynomials (trapezoidal, Hermite-Simpson, fifth-order Gauss-Lobatto) interpolate the state on each sub-interval; dynamics enforced at collocation points yield sparse defect constraints. Covers the math of defect constraints, format selection, mesh refinement, knots, scaling, and comparison with pseudospectral and shooting methods."
 keywords: Direct Collocation, Direct Transcription, DCNLP, Defect Constraint, Hermite-Simpson, Trapezoidal, Gauss-Lobatto, NLP, sparse
 author: Tianjiang Shuo
 date: 2026-07-31

@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: Long-, Short-, and Dual-Period Motion near L4/L5
-  desc: Two natural relative-motion modes at Earth–Moon L4/L5: long period (≈ 92 d, 16/3) and short period (≈ 1 month, 2); dual-period combination ≈ 458 d.
+  desc: "Two natural relative-motion modes at Earth–Moon L4/L5: long period (≈ 92 d, 16/3) and short period (≈ 1 month, 2); dual-period combination ≈ 458 d."
   image: /logo.png
 og:
   title: Long-, Short-, and Dual-Period Motion near L4/L5 | Glossary

@@ -1,6 +1,6 @@
 ---
 title: Circular Restricted Three-Body Problem (CR3BP)
-description: The foundational mathematical model for cislunar orbital dynamics: a massless spacecraft under the gravity of two primaries (Earth and Moon) in circular orbits about their barycentergoverning equations, nondimensionalization, mass parameter, Jacobi constant, zero-velocity surfaces, periodic orbit families, and model extensions.
+description: "The foundational mathematical model for cislunar orbital dynamics: a massless spacecraft under the gravity of two primaries (Earth and Moon) in circular orbits about their barycentergoverning equations, nondimensionalization, mass parameter, Jacobi constant, zero-velocity surfaces, periodic orbit families, and model extensions."
 keywords: Circular Restricted Three-Body Problem, CR3BP, CRTBP, R3BP, synodic frame, Jacobi constant, zero-velocity surface, mass parameter, nondimensionalization, libration points, periodic orbits, cislunar dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Circular Restricted Three-Body Problem (CR3BP) | Cislunar Dynamics Foundations
-  description: The foundational mathematical model for cislunar orbital dynamics: a massless spacecraft under the gravity of two primaries in circular orbits. Covers model assumptions, nondimensionalization, equations of motion, mass parameter, Jacobi constant, and extensions.
+  description: "The foundational mathematical model for cislunar orbital dynamics: a massless spacecraft under the gravity of two primaries in circular orbits. Covers model assumptions, nondimensionalization, equations of motion, mass parameter, Jacobi constant, and extensions."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Circular Restricted Three-Body Problem (CR3BP) | Cislunar Dynamics Foundations
-  description: The foundational mathematical model for cislunar orbital dynamics: a massless spacecraft under the gravity of two primaries in circular orbits. Covers model assumptions, nondimensionalization, equations of motion, and extensions.
+  description: "The foundational mathematical model for cislunar orbital dynamics: a massless spacecraft under the gravity of two primaries in circular orbits. Covers model assumptions, nondimensionalization, equations of motion, and extensions."
   image: /logo.png
 permalink: /en/glossary/dynamics/cr3bp/
 ---

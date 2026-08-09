@@ -1,6 +1,6 @@
 ---
 title: Station-Keeping / Orbit Maintenance
-description: The periodic control operation that counteracts perturbation-induced drift to maintain a spacecraft near its nominal orbit in cislunar space — covering NRHO, DRO, and halo orbits; impulsive vs. continuous-thrust approaches; and the four principal strategies: target point, Floquet mode, DLQR, and x-axis control.
+description: "The periodic control operation that counteracts perturbation-induced drift to maintain a spacecraft near its nominal orbit in cislunar space — covering NRHO, DRO, and halo orbits; impulsive vs. continuous-thrust approaches; and the four principal strategies: target point, Floquet mode, DLQR, and x-axis control."
 keywords: station-keeping, orbit maintenance, cislunar, NRHO, DRO, halo orbit, libration point, target point method, Floquet mode, DLQR, impulsive station-keeping, annual cost, solar radiation pressure
 author: Tianjiang Shuo
 date: 2026-07-31

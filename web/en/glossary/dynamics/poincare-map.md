@@ -1,23 +1,23 @@
 ---
 title: Poincaré Map (Poincaré Return Map)
-description: The discrete first-return map P: Σ → Σ induced by a Poincaré section, transforming the analysis of periodic, quasi-periodic and chaotic motion of a continuous flow into a discrete dynamical systems problem. Covers dimensionality and stability of fixed points in planar/spatial CR3BP, glyph visualization of higher-dimensional maps, the periapse map for transit classification, the Tisserand–Poincaré graph for gravity-assist sequencing, and applications to heteroclinic/homoclinic connections and transfer design.
+description: "The discrete first-return map P: Σ → Σ induced by a Poincaré section, transforming the analysis of periodic, quasi-periodic and chaotic motion of a continuous flow into a discrete dynamical systems problem. Covers dimensionality and stability of fixed points in planar/spatial CR3BP, glyph visualization of higher-dimensional maps, the periapse map for transit classification, the Tisserand–Poincaré graph for gravity-assist sequencing, and applications to heteroclinic/homoclinic connections and transfer design."
 keywords: Poincaré Map, First Return Map, periapse map, Tisserand-Poincaré graph, fixed point, monodromy matrix, heteroclinic, homoclinic, cislunar transfer design
 author: Tianjiang Shuo
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: Poincaré Map (Poincaré Return Map)
-  desc: The discrete first-return map P: Σ → Σ; transfers periodic/quasi-periodic/chaotic analysis of a flow into a discrete problem.
+  desc: "The discrete first-return map P: Σ → Σ; transfers periodic/quasi-periodic/chaotic analysis of a flow into a discrete problem."
   image: /logo.png
 og:
   title: "Poincaré Map Explained | Glossary"
-  description: The discrete first-return map P: Σ → Σ induced by a Poincaré section; covers dimensionality and fixed-point stability, glyph visualization, periapse and Tisserand-Poincaré maps, with applications to heteroclinic/homoclinic connections and transfer design.
+  description: "The discrete first-return map P: Σ → Σ induced by a Poincaré section; covers dimensionality and fixed-point stability, glyph visualization, periapse and Tisserand-Poincaré maps, with applications to heteroclinic/homoclinic connections and transfer design."
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: "Poincaré Map Explained | Glossary"
-  description: The discrete first-return map P: Σ → Σ induced by a Poincaré section; covers dimensionality and fixed-point stability, glyph visualization, periapse and Tisserand-Poincaré maps, with applications to heteroclinic/homoclinic connections and transfer design.
+  description: "The discrete first-return map P: Σ → Σ induced by a Poincaré section; covers dimensionality and fixed-point stability, glyph visualization, periapse and Tisserand-Poincaré maps, with applications to heteroclinic/homoclinic connections and transfer design."
   image: /logo.png
 permalink: /en/glossary/dynamics/poincare-map/
 ---
