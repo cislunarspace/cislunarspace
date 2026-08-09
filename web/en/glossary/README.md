@@ -5,7 +5,7 @@ description: A glossary of cislunar space terms spanning orbital dynamics, navig
 keywords: cislunar glossary, orbital dynamics, CR3BP, DRO, NRHO, libration points, navigation, observation, terminology
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-08
+lastUpdated: 2026-08-09
 wechatShare:
   title: Cislunar Space Glossary
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,8 +34,8 @@ The Chinese edition ([术语词典](/glossary/)) is the authoritative source and
 
 ## Categories
 
-- **Fundamentals** (218 entries) — reference frames, time systems, physical constants, foundational concepts.
-- **Dynamics & Mathematical Foundations** (817 entries) — CR3BP, libration-point orbits, invariant manifolds, perturbation methods, numerical integrators.
+- **Fundamentals** (207 entries) — reference frames, time systems, physical constants, foundational concepts.
+- **Dynamics & Mathematical Foundations** (808 entries) — CR3BP, libration-point orbits, invariant manifolds, perturbation methods, numerical integrators.
 - **Mission Orbits** (143 entries) — NRHO, DRO, halo/Lissajous families, transfer trajectories, orbit families grouped by topology.
 - **Navigation Technology & Systems** (65 entries) — GNSS, radiometric tracking, autonomous navigation, orbit determination.
 - **Astronomical Observation** (24 entries) — sensors, radiometry, star trackers, observation geometry.

@@ -34,7 +34,7 @@ An approximation in the circular restricted three-body problem that combines the
 
 ## Related Concepts
 
-- [Center-of-Mass Rotating Frame](/en/glossary/fundamentals/center-of-mass-rotating-frame/)
+- [Center-of-Mass Rotating Frame](/en/glossary/fundamentals/synodic-frame/)
 - Mass Parameter
 - [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
 - [Normalized Units](/en/glossary/fundamentals/normalized-units/)

@@ -5,7 +5,7 @@ description: 地月空间领域专业术语权威释义，覆盖动力学模型�
 keywords: 地月空间术语, 词典, CR3BP, DRO, NRHO, 平动点, 导航, 观测, 军事太空, 通信
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
   title: 地月空间术语词典
   desc: 地月空间领域专业术语权威释义。
@@ -28,11 +28,11 @@ twitter:
 
 # 地月空间术语词典
 
-地月空间研究涉及轨道动力学、导航制导与控制、深空探测任务设计、空间环境建模等多个方向，相关术语具有明显的学科交叉特征。本词典收录从基础概念到前沿方向的术语，按分类列出，便于查阅。
+地月空间的研究横跨轨道力学、制导导航与控制、任务设计、空间环境建模好几门学科，术语天然跨学科；不少关键概念又出自 Gateway、CAPSTONE 以来近十几年的英文文献，散在论文与报告里。读到 NRHO、不变流形、弱稳定边界这些词，往往要先翻几篇文献才弄清它指什么、怎么用、与相邻概念差在哪。本词典要把这道门槛拆掉：每条术语不止给一句释义，而是讲清定义、补上背后的数学与力学、给出工程上关心的参数与数字、辨析易混的变体，并为每处判断标出文献出处——做到能拿来读论文、做轨道设计。词条按八个主题分类，也可经侧边栏与搜索直达。
 
 ## 索引
 
-### 基础概念（fundamentals，218 条）
+### 基础概念（fundamentals，207 条）
 
 - [Bang-off-Bang推力剖面（Bang-off-Bang Thrust Profile）](/glossary/fundamentals/bang-off-bang-thrust-profile/)
 - [Birkhoff正规形（Birkhoff Normal Form）](/glossary/fundamentals/birkhoff-normal-form/)
@@ -70,10 +70,8 @@ twitter:
 - [中间推力弧（Intermediate thrust arc）](/glossary/fundamentals/it/)
 - [中间转移段（Transfer Leg）](/glossary/fundamentals/transfer-leg/)
 - [主轴坐标系（Principal Axes Coordinate Frame）](/glossary/fundamentals/principal-axes-coordinate-frame/)
-- [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodical-reference-system/)
 - [会合周期（Synodic Period）](/glossary/fundamentals/synodic-period/)
 - [会合坐标系（Synodic Frame）](/glossary/fundamentals/synodic-frame/)
-- [会合坐标（Synodic Coordinates）](/glossary/fundamentals/synodic-coordinates/)
 - [伪势函数（Pseudopotential）](/glossary/fundamentals/pseudopotential/)
 - [伪势（Pseudo-Potential）](/glossary/fundamentals/pseudo-potential/)
 - [位置角（Position Angle）](/glossary/fundamentals/position-angle/)
@@ -106,16 +104,11 @@ twitter:
 - [同伦方法（Homotopy Method / Homotopic Approach）](/glossary/fundamentals/homotopy-method-homotopic-approach/)
 - [同伦方法（Homotopy Method）](/glossary/fundamentals/homotopy-method/)
 - [同伦迭代法（Homotopy Iteration Method）](/glossary/fundamentals/homotopy-iteration-method/)
-- [同步旋转坐标系（Synodic Reference Frame）](/glossary/fundamentals/synodic-reference-frame/)
-- [同步旋转坐标系（Synodic Rotating Frame）](/glossary/fundamentals/synodic-rotating-frame/)
 - [后牛顿参数（Post-Newtonian Parameter, gamma）](/glossary/fundamentals/gamma/)
 - [吻切轨道根数（Osculating Orbital Elements）](/glossary/fundamentals/osculating-orbital-elements/)
 - [哈密顿函数（Hamiltonian）](/glossary/fundamentals/hamiltonian/)
 - [哈密顿可积近似（Hamiltonian Integrable Approximation）](/glossary/fundamentals/hamiltonian-integrable-approximation/)
 - [地固坐标系（Earth-Fixed Coordinate System）](/glossary/fundamentals/earth-fixed-coordinate-system/)
-- [地心旋转极坐标系（Geocentric Rotating Polar Coordinate System）](/glossary/fundamentals/geocentric-rotating-polar-coordinate-system/)
-- [地心旋转系（Geocentric Rotating Frame）](/glossary/fundamentals/geocentric-rotating-frame/)
-- [地月质心旋转坐标系（Earth-Moon Barycentric Rotating Frame）](/glossary/fundamentals/rot-frame/)
 - [地球引力场模型（Earth Gravity Field Model）](/glossary/fundamentals/earth-gravity-field-model/)
 - [地球扁率（Earth Oblateness）](/glossary/fundamentals/earth-oblateness/)
 - [增广状态向量（Augmented State Vector）](/glossary/fundamentals/augmented-state-vector/)
@@ -169,11 +162,9 @@ twitter:
 - [改进的双圆模型（Improved Bi-Circular Model）](/glossary/fundamentals/improved-bi-circular-model/)
 - [数值历表（Numerical Ephemeris）](/glossary/fundamentals/numerical-ephemeris/)
 - [数值延拓（Numerical Continuation）](/glossary/fundamentals/numerical-continuation/)
-- [旋转坐标系（Rotating Frame）](/glossary/fundamentals/rotating-frame/)
 - [无推力弧（Null-thrust arc）](/glossary/fundamentals/nt/)
 - [无迹卡尔曼滤波（Unscented Kalman Filter, UKF）](/glossary/fundamentals/ukf/)
 - [无量纲化（Nondimensionalization）](/glossary/fundamentals/nondimensionalization/)
-- [日-B1旋转坐标系（Sun-B1 Rotating Frame）](/glossary/fundamentals/sun-b1-rotating-frame/)
 - [日地月系统（Sun-Earth-Moon System）](/glossary/fundamentals/sun-earth-moon-system/)
 - [时变系统（Time-Varying System）](/glossary/fundamentals/time-varying-system/)
 - [映射伴随控制变换（Mapped Adjoint Control Transformation, MACT）](/glossary/fundamentals/mact/)
@@ -227,8 +218,6 @@ twitter:
 - [自适应网格细分（Adaptive Grid Subdivision）](/glossary/fundamentals/adaptive-grid-subdivision/)
 - [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/fundamentals/t-p-graph/)
 - [误差演化（Uncertainty Propagation）](/glossary/fundamentals/uncertainty-propagation/)
-- [质心旋转坐标系（Barycentric Synodic Frame）](/glossary/fundamentals/barycentric-synodic-frame/)
-- [质心旋转坐标系（Center-of-Mass Rotating Frame）](/glossary/fundamentals/center-of-mass-rotating-frame/)
 - [赤纬偏差（Declination Deviation）](/glossary/fundamentals/declination-deviation/)
 - [赤经偏差（Right Ascension Deviation）](/glossary/fundamentals/right-ascension-deviation/)
 - [轨道坐标系（Orbital Coordinate System）](/glossary/fundamentals/orbital-coordinate-system/)
@@ -253,7 +242,7 @@ twitter:
 - [预计算变分数据（Precomputed Variational Data）](/glossary/fundamentals/precomputed-variational-data/)
 - [高置信度仿真（High-Fidelity Simulation）](/glossary/fundamentals/high-fidelity-simulation/)
 
-### 动力学与数学基础（dynamics，816 条）
+### 动力学与数学基础（dynamics，807 条）
 
 - [1-1共振（1-1 Resonance）](/glossary/dynamics/1-1-resonance/)
 - [1/1轨道共振（1/1 Orbital Resonance）](/glossary/dynamics/1-1-orbital-resonance/)
@@ -324,7 +313,6 @@ twitter:
 - [Riccati矩阵微分方程（Matrix Differential Riccati Equation）](/glossary/dynamics/matrix-differential-riccati-equation/)
 - [Richardson三阶解析解（Richardson Third-Order Analytical Solution）](/glossary/dynamics/richardson-third-order-analytical-solution/)
 - [Richardson方法（Richardson's Method）](/glossary/dynamics/richardsons-method/)
-- [Syzygy旋转坐标系（Syzygy Rotating Frame）](/glossary/dynamics/syzygy-rotating-frame/)
 - [Weierstrass-Erdmann角点条件（Weierstrass-Erdmann Corner Conditions）](/glossary/dynamics/weierstrass-erdmann-corner-conditions/)
 - [bang-off-bang推力模式（Bang-off-Bang Thrust Profile）](/glossary/dynamics/bang-off-bang-thrust-profile/)
 - [beluga（beluga）](/glossary/dynamics/beluga/)
@@ -377,7 +365,6 @@ twitter:
 - [事件图（Event Map）](/glossary/dynamics/event-map/)
 - [人工平动点（Artificial Libration Point）](/glossary/dynamics/artificial-libration-point/)
 - [代理模型（Surrogate Model）](/glossary/dynamics/surrogate-model/)
-- [会合坐标系（Syzygy Frame）](/glossary/dynamics/syzygy-frame/)
 - [伪势函数（Pseudo-potential Function）](/glossary/dynamics/pseudo-potential-function/)
 - [伪弧长延拓（Pseudo-arclength Continuation）](/glossary/dynamics/pseudo-arclength-continuation/)
 - [伪弧长截面（Hyperplane Surface of Section）](/glossary/dynamics/hyperplane-surface-of-section/)
@@ -541,8 +528,6 @@ twitter:
 - [地心地固坐标系（Earth-Centered Earth-Fixed Frame）](/glossary/dynamics/ecef/)
 - [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
 - [地心惯性坐标系（Earth-Centered Inertial Frame）](/glossary/dynamics/eci/)
-- [地月周期轨道（Lunar Centered Rotating Frame）](/glossary/dynamics/lcrot/)
-- [地月旋转坐标系（Earth-Moon Rotating Frame）](/glossary/dynamics/earth-moon-rotating-frame/)
 - [地月流形（Earth-Moon Manifold）](/glossary/dynamics/earth-moon-manifold/)
 - [地月系统三体加太阳项（Earth-Moon Three-Body Problem with Solar Perturbation）](/glossary/dynamics/cr3bps/)
 - [地月转移轨道分类（Classification of Cislunar Trajectories）](/glossary/dynamics/classification-of-cislunar-trajectories/)
@@ -709,12 +694,9 @@ twitter:
 - [数值流形近似方法（Numerical Manifold Approximation Method）](/glossary/dynamics/numerical-manifold-approximation-method/)
 - [数值积分（轨道）（Numerical integration (orbit propagation)）](/glossary/dynamics/numerical-integration-orbit-propagation/)
 - [方向余弦（Direction Cosine）](/glossary/dynamics/direction-cosine/)
-- [旋转坐标系（Synodic Coordinate System）](/glossary/dynamics/synodic-coordinate-system/)
 - [无摄问题（Unperturbed Problem）](/glossary/dynamics/unperturbed-problem/)
 - [无迹卡尔曼滤波器（Unscented Kalman Filter）](/glossary/dynamics/ukf/)
 - [无阻力姿态控制（Drag-Free and Attitude Control, DFAC）](/glossary/dynamics/dfac/)
-- [日-地+月会合坐标系（Sun-Earth+Moon Synodic Coordinate System）](/glossary/dynamics/sun-earthmoon-synodic-coordinate-system/)
-- [日-地旋转坐标系（Sun-Earth Rotating Frame）](/glossary/dynamics/sun-earth-rotating-frame/)
 - [日地流形（Sun-Earth Manifold）](/glossary/dynamics/sun-earth-manifold/)
 - [日月地三体历表模型（Ephemeris-Based N-Body Model）](/glossary/dynamics/ephemeris-based-n-body-model/)
 - [日食规避路径约束（Eclipse Avoidance Path Constraint）](/glossary/dynamics/eclipse-avoidance-path-constraint/)
@@ -945,9 +927,7 @@ twitter:
 - [误差传播规律（Error Propagation Pattern）](/glossary/dynamics/error-propagation-pattern/)
 - [误差动力学（Error Dynamics）](/glossary/dynamics/error-dynamics/)
 - [误差指数发散（Exponential Error Divergence）](/glossary/dynamics/exponential-error-divergence/)
-- [质心会合坐标系（Barycentric Synodic Coordinate System）](/glossary/dynamics/barycentric-synodic-coordinate-system/)
 - [质心坐标系（Barycentric Coordinate System）](/glossary/dynamics/barycentric-coordinate-system/)
-- [质心旋转坐标系（Barycentric Rotating Coordinate System）](/glossary/dynamics/barycentric-rotating-coordinate-system/)
 - [质量泄漏技术（Mass Leak Technique）](/glossary/dynamics/mass-leak-technique/)
 - [质量泄漏（Mass Leak）](/glossary/dynamics/mass-leak/)
 - [质量消耗率（Mass Consumption Rate）](/glossary/dynamics/mass-consumption-rate/)
@@ -1362,11 +1342,11 @@ twitter:
 
 ## 统计
 
-- 总计：1304 个术语
+- 总计：1284 个术语
 - 分类：8 个
 
 ## 说明
 
-- 本词典持续更新中，词条按主题分类组织。
-- 每个词条包含定义、应用价值、相关概念、参考文献等部分。
-- 中文与英文版同步维护。
+- 词条围绕"把一个术语讲到能用"来组织：先给定义，再补数学与力学细节、工程参数与任务实例，必要时辨析易混变体，最后列相关概念与参考文献；每处判断尽量标到具体文献，可追溯。
+- 中文版收录全部条目，是英文版的翻译底本；英文版逐步镜像，未译条目随后补齐。
+- 词条末尾的"相关概念"互相链接，可顺链从一个术语扩展到相邻概念。

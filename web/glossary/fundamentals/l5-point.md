@@ -40,7 +40,7 @@ permalink: /glossary/fundamentals/l5-point/
 
 - [月心惯性坐标系（Moon-Centered Inertial Frame）](/glossary/fundamentals/moon-centered-inertial-frame/)
 - NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）
-- [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodical-reference-system/)
+- [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodic-frame/)
 - [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/ltp/)
 
 ## 参考文献

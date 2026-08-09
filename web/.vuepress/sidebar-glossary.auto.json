@@ -716,34 +716,6 @@
         }
       },
       {
-        "slug": "barycentric-rotating-coordinate-system",
-        "title": "质心旋转坐标系（Barycentric Rotating Coordinate System）",
-        "path": "/glossary/dynamics/barycentric-rotating-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "barycentric-synodic-coordinate-system",
-        "title": "质心会合坐标系（Barycentric Synodic Coordinate System）",
-        "path": "/glossary/dynamics/barycentric-synodic-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "battin-giorgi-method",
         "title": "Battin-Giorgi方法（Battin-Giorgi Method）",
         "path": "/glossary/dynamics/battin-giorgi-method/",
@@ -2637,20 +2609,6 @@
         "slug": "earth-moon-manifold",
         "title": "地月流形（Earth-Moon Manifold）",
         "path": "/glossary/dynamics/earth-moon-manifold/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "earth-moon-rotating-frame",
-        "title": "地月旋转坐标系（Earth-Moon Rotating Frame）",
-        "path": "/glossary/dynamics/earth-moon-rotating-frame/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -5591,20 +5549,6 @@
         "slug": "lawdens-necessary-conditions",
         "title": "Lawden 必要条件（Lawden's Necessary Conditions）",
         "path": "/glossary/dynamics/lawdens-necessary-conditions/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lcrot",
-        "title": "地月周期轨道（Lunar Centered Rotating Frame）",
-        "path": "/glossary/dynamics/lcrot/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -9788,34 +9732,6 @@
         }
       },
       {
-        "slug": "sun-earth-rotating-frame",
-        "title": "日-地旋转坐标系（Sun-Earth Rotating Frame）",
-        "path": "/glossary/dynamics/sun-earth-rotating-frame/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "sun-earthmoon-synodic-coordinate-system",
-        "title": "日-地+月会合坐标系（Sun-Earth+Moon Synodic Coordinate System）",
-        "path": "/glossary/dynamics/sun-earthmoon-synodic-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "surface-to-mass-ratio",
         "title": "面质比（Surface-to-Mass Ratio）",
         "path": "/glossary/dynamics/surface-to-mass-ratio/",
@@ -9928,20 +9844,6 @@
         }
       },
       {
-        "slug": "synodic-coordinate-system",
-        "title": "旋转坐标系（Synodic Coordinate System）",
-        "path": "/glossary/dynamics/synodic-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "system-to-system-transfer",
         "title": "系统间转移（System-to-System Transfer）",
         "path": "/glossary/dynamics/system-to-system-transfer/",
@@ -9959,34 +9861,6 @@
         "slug": "system-translation",
         "title": "系统平移（System Translation）",
         "path": "/glossary/dynamics/system-translation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "syzygy-frame",
-        "title": "会合坐标系（Syzygy Frame）",
-        "path": "/glossary/dynamics/syzygy-frame/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "syzygy-rotating-frame",
-        "title": "Syzygy旋转坐标系（Syzygy Rotating Frame）",
-        "path": "/glossary/dynamics/syzygy-rotating-frame/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -11552,20 +11426,6 @@
         }
       },
       {
-        "slug": "barycentric-synodic-frame",
-        "title": "质心旋转坐标系（Barycentric Synodic Frame）",
-        "path": "/glossary/fundamentals/barycentric-synodic-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "birkhoff-normal-form",
         "title": "Birkhoff正规形（Birkhoff Normal Form）",
         "path": "/glossary/fundamentals/birkhoff-normal-form/",
@@ -11583,20 +11443,6 @@
         "slug": "canonical-transformation",
         "title": "正则变换（Canonical Transformation）",
         "path": "/glossary/fundamentals/canonical-transformation/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "center-of-mass-rotating-frame",
-        "title": "质心旋转坐标系（Center-of-Mass Rotating Frame）",
-        "path": "/glossary/fundamentals/center-of-mass-rotating-frame/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -12227,34 +12073,6 @@
         "slug": "gauss-legendre-collocation-method",
         "title": "Gauss-Legendre配点法（Gauss-Legendre Collocation Method）",
         "path": "/glossary/fundamentals/gauss-legendre-collocation-method/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "geocentric-rotating-frame",
-        "title": "地心旋转系（Geocentric Rotating Frame）",
-        "path": "/glossary/fundamentals/geocentric-rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "geocentric-rotating-polar-coordinate-system",
-        "title": "地心旋转极坐标系（Geocentric Rotating Polar Coordinate System）",
-        "path": "/glossary/fundamentals/geocentric-rotating-polar-coordinate-system/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -13904,34 +13722,6 @@
         }
       },
       {
-        "slug": "rot-frame",
-        "title": "地月质心旋转坐标系（Earth-Moon Barycentric Rotating Frame）",
-        "path": "/glossary/fundamentals/rot-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "rotating-frame",
-        "title": "旋转坐标系（Rotating Frame）",
-        "path": "/glossary/fundamentals/rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "selenocentric-frame",
         "title": "月球中心坐标系（Selenocentric Frame）",
         "path": "/glossary/fundamentals/selenocentric-frame/",
@@ -14156,20 +13946,6 @@
         }
       },
       {
-        "slug": "sun-b1-rotating-frame",
-        "title": "日-B1旋转坐标系（Sun-B1 Rotating Frame）",
-        "path": "/glossary/fundamentals/sun-b1-rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "sun-earth-moon-system",
         "title": "日地月系统（Sun-Earth-Moon System）",
         "path": "/glossary/fundamentals/sun-earth-moon-system/",
@@ -14212,22 +13988,8 @@
         }
       },
       {
-        "slug": "synodic-coordinates",
-        "title": "会合坐标（Synodic Coordinates）",
-        "path": "/glossary/fundamentals/synodic-coordinates/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "synodic-frame",
-        "title": "会合坐标系（Synodic Frame）",
+        "title": "会合坐标系（Synodic Frame / Rotating Frame）",
         "path": "/glossary/fundamentals/synodic-frame/",
         "category": {
           "slug": "fundamentals",
@@ -14243,48 +14005,6 @@
         "slug": "synodic-period",
         "title": "会合周期（Synodic Period）",
         "path": "/glossary/fundamentals/synodic-period/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "synodic-reference-frame",
-        "title": "同步旋转坐标系（Synodic Reference Frame）",
-        "path": "/glossary/fundamentals/synodic-reference-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "synodic-rotating-frame",
-        "title": "同步旋转坐标系（Synodic Rotating Frame）",
-        "path": "/glossary/fundamentals/synodic-rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "synodical-reference-system",
-        "title": "会合参考系（Synodical Reference System）",
-        "path": "/glossary/fundamentals/synodical-reference-system/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -18445,34 +18165,6 @@
         }
       },
       {
-        "slug": "barycentric-rotating-coordinate-system",
-        "title": "Barycentric Rotating Coordinate System",
-        "path": "/en/glossary/dynamics/barycentric-rotating-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "barycentric-synodic-coordinate-system",
-        "title": "Barycentric Synodic Coordinate System",
-        "path": "/en/glossary/dynamics/barycentric-synodic-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "battin-giorgi-method",
         "title": "Battin-Giorgi Method",
         "path": "/en/glossary/dynamics/battin-giorgi-method/",
@@ -20380,20 +20072,6 @@
         "slug": "earth-moon-manifold",
         "title": "Earth-Moon Manifold",
         "path": "/en/glossary/dynamics/earth-moon-manifold/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "earth-moon-rotating-frame",
-        "title": "Earth-Moon Rotating Frame",
-        "path": "/en/glossary/dynamics/earth-moon-rotating-frame/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -23334,20 +23012,6 @@
         "slug": "lawdens-necessary-conditions",
         "title": "Lawden's Necessary Conditions",
         "path": "/en/glossary/dynamics/lawdens-necessary-conditions/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "lcrot",
-        "title": "Lunar Centered Rotating Frame",
-        "path": "/en/glossary/dynamics/lcrot/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -27531,34 +27195,6 @@
         }
       },
       {
-        "slug": "sun-earth-rotating-frame",
-        "title": "Sun-Earth Rotating Frame",
-        "path": "/en/glossary/dynamics/sun-earth-rotating-frame/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "sun-earthmoon-synodic-coordinate-system",
-        "title": "Sun-Earth+Moon Synodic Coordinate System",
-        "path": "/en/glossary/dynamics/sun-earthmoon-synodic-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "surface-to-mass-ratio",
         "title": "Surface-to-Mass Ratio",
         "path": "/en/glossary/dynamics/surface-to-mass-ratio/",
@@ -27671,20 +27307,6 @@
         }
       },
       {
-        "slug": "synodic-coordinate-system",
-        "title": "Synodic Coordinate System",
-        "path": "/en/glossary/dynamics/synodic-coordinate-system/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "system-to-system-transfer",
         "title": "System-to-System Transfer",
         "path": "/en/glossary/dynamics/system-to-system-transfer/",
@@ -27702,34 +27324,6 @@
         "slug": "system-translation",
         "title": "System Translation",
         "path": "/en/glossary/dynamics/system-translation/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "syzygy-frame",
-        "title": "Syzygy Frame",
-        "path": "/en/glossary/dynamics/syzygy-frame/",
-        "category": {
-          "slug": "dynamics",
-          "label": {
-            "zh": "动力学与数学基础",
-            "en": "Dynamics & math"
-          },
-          "order": 20020,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "syzygy-rotating-frame",
-        "title": "Syzygy Rotating Frame",
-        "path": "/en/glossary/dynamics/syzygy-rotating-frame/",
         "category": {
           "slug": "dynamics",
           "label": {
@@ -29295,20 +28889,6 @@
         }
       },
       {
-        "slug": "barycentric-synodic-frame",
-        "title": "Barycentric Synodic Frame",
-        "path": "/en/glossary/fundamentals/barycentric-synodic-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "birkhoff-normal-form",
         "title": "Birkhoff Normal Form",
         "path": "/en/glossary/fundamentals/birkhoff-normal-form/",
@@ -29326,20 +28906,6 @@
         "slug": "canonical-transformation",
         "title": "Canonical Transformation",
         "path": "/en/glossary/fundamentals/canonical-transformation/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "center-of-mass-rotating-frame",
-        "title": "Center-of-Mass Rotating Frame",
-        "path": "/en/glossary/fundamentals/center-of-mass-rotating-frame/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -29970,34 +29536,6 @@
         "slug": "gauss-legendre-collocation-method",
         "title": "Gauss-Legendre Collocation Method",
         "path": "/en/glossary/fundamentals/gauss-legendre-collocation-method/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "geocentric-rotating-frame",
-        "title": "Geocentric Rotating Frame",
-        "path": "/en/glossary/fundamentals/geocentric-rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "geocentric-rotating-polar-coordinate-system",
-        "title": "Geocentric Rotating Polar Coordinate System",
-        "path": "/en/glossary/fundamentals/geocentric-rotating-polar-coordinate-system/",
         "category": {
           "slug": "fundamentals",
           "label": {
@@ -31647,34 +31185,6 @@
         }
       },
       {
-        "slug": "rot-frame",
-        "title": "Earth-Moon Barycentric Rotating Frame",
-        "path": "/en/glossary/fundamentals/rot-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "rotating-frame",
-        "title": "Rotating Frame",
-        "path": "/en/glossary/fundamentals/rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "selenocentric-frame",
         "title": "Selenocentric Frame",
         "path": "/en/glossary/fundamentals/selenocentric-frame/",
@@ -31899,20 +31409,6 @@
         }
       },
       {
-        "slug": "sun-b1-rotating-frame",
-        "title": "Sun-B1 Rotating Frame",
-        "path": "/en/glossary/fundamentals/sun-b1-rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "sun-earth-moon-system",
         "title": "Sun-Earth-Moon System",
         "path": "/en/glossary/fundamentals/sun-earth-moon-system/",
@@ -31955,22 +31451,8 @@
         }
       },
       {
-        "slug": "synodic-coordinates",
-        "title": "Synodic Coordinates",
-        "path": "/en/glossary/fundamentals/synodic-coordinates/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
         "slug": "synodic-frame",
-        "title": "Synodic Frame",
+        "title": "Synodic Frame (Rotating Frame)",
         "path": "/en/glossary/fundamentals/synodic-frame/",
         "category": {
           "slug": "fundamentals",
@@ -31986,48 +31468,6 @@
         "slug": "synodic-period",
         "title": "Synodic Period",
         "path": "/en/glossary/fundamentals/synodic-period/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "synodic-reference-frame",
-        "title": "Synodic Reference Frame",
-        "path": "/en/glossary/fundamentals/synodic-reference-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "synodic-rotating-frame",
-        "title": "Synodic Rotating Frame",
-        "path": "/en/glossary/fundamentals/synodic-rotating-frame/",
-        "category": {
-          "slug": "fundamentals",
-          "label": {
-            "zh": "基础概念",
-            "en": "Fundamentals"
-          },
-          "order": 20010,
-          "parentSlug": null
-        }
-      },
-      {
-        "slug": "synodical-reference-system",
-        "title": "Synodical Reference System",
-        "path": "/en/glossary/fundamentals/synodical-reference-system/",
         "category": {
           "slug": "fundamentals",
           "label": {

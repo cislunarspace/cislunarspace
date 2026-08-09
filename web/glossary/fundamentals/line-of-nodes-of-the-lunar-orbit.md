@@ -38,7 +38,7 @@ permalink: /glossary/fundamentals/line-of-nodes-of-the-lunar-orbit/
 
 ## 相关概念
 
-- [质心旋转坐标系（Center-of-Mass Rotating Frame）](/glossary/fundamentals/center-of-mass-rotating-frame/)
+- [质心旋转坐标系（Center-of-Mass Rotating Frame）](/glossary/fundamentals/synodic-frame/)
 - 质量参数（Mass Parameter）
 - [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
 - [归一化单位（Normalized Units）](/glossary/fundamentals/normalized-units/)

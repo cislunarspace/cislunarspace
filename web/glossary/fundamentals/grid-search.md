@@ -38,7 +38,7 @@ permalink: /glossary/fundamentals/grid-search/
 
 ## 相关概念
 
-- [同步旋转坐标系（Synodic Rotating Frame）](/glossary/fundamentals/synodic-rotating-frame/)
+- [同步旋转坐标系（Synodic Rotating Frame）](/glossary/fundamentals/synodic-frame/)
 - Gauss求积公式（Gauss Quadrature Formula）
 - 星座构型向量（Constellation Pattern Vector）
 - 着陆缓冲机构（Landing Impact Attenuation Mechanism）

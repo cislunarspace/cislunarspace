@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-06-17T00:25:02.816Z",
+  "generatedAt": "2026-08-09T01:14:03.342Z",
   "summary": {
-    "total": 0,
-    "byFamily": {},
-    "bySeverity": {}
+    "total": 1,
+    "byFamily": {
+      "root": 1
+    },
+    "bySeverity": {
+      "warning": 1
+    }
   },
-  "gaps": [],
+  "gaps": [
+    {
+      "zhPath": "CONTEXT.md",
+      "expectedEnPath": "en/CONTEXT.md",
+      "family": "root",
+      "severity": "warning",
+      "zhTitle": "CONTEXT"
+    }
+  ],
   "exceptions": [
     {
       "pattern": "research-frontiers/directions/_templates/**",

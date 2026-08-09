@@ -40,7 +40,7 @@ In orbital design and transfer trajectory optimization, this method is used to d
 
 - Advanced Cryogenic Evolved Stage
 - Integrated Communication, Navigation and Remote Sensing
-- [Synodic Rotating Frame](/en/glossary/fundamentals/synodic-rotating-frame/)
+- [Synodic Rotating Frame](/en/glossary/fundamentals/synodic-frame/)
 - [Grid Search](/en/glossary/fundamentals/grid-search/)
 
 ## References
