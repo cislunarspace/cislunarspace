@@ -1,122 +1,120 @@
 ---
-title: Poincaré Map
-description: Detailed explanation of the Poincaré Map — definition, relationship with Poincaré Section, and applications in analyzing perilune distributions of cislunar orbit families
-keywords: Poincaré Map, Poincaré Section, phase space mapping, perilune distribution, discrete mapping, cislunar space, DRO
-author: CislunarSpace
-date: 2026-04-29
-lastUpdated: 2026-04-29
+title: Poincaré Map (Poincaré Return Map)
+description: The discrete first-return map P: Σ → Σ induced by a Poincaré section, transforming the analysis of periodic, quasi-periodic and chaotic motion of a continuous flow into a discrete dynamical systems problem. Covers dimensionality and stability of fixed points in planar/spatial CR3BP, glyph visualization of higher-dimensional maps, the periapse map for transit classification, the Tisserand–Poincaré graph for gravity-assist sequencing, and applications to heteroclinic/homoclinic connections and transfer design.
+keywords: Poincaré Map, First Return Map, periapse map, Tisserand-Poincaré graph, fixed point, monodromy matrix, heteroclinic, homoclinic, cislunar transfer design
+author: Tianjiang Shuo
+date: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
-  title: Poincaré Map
-  desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
+  title: Poincaré Map (Poincaré Return Map)
+  desc: The discrete first-return map P: Σ → Σ; transfers periodic/quasi-periodic/chaotic analysis of a flow into a discrete problem.
   image: /logo.png
 og:
-  title: "Poincaré Map Explained | Discretization and Visualization of Continuous Dynamical Systems"
-  description: Detailed explanation of the Poincaré Map — definition, relationship with Poincaré Section, and applications in analyzing perilune distributions of cislunar orbit families
+  title: "Poincaré Map Explained | Glossary"
+  description: The discrete first-return map P: Σ → Σ induced by a Poincaré section; covers dimensionality and fixed-point stability, glyph visualization, periapse and Tisserand-Poincaré maps, with applications to heteroclinic/homoclinic connections and transfer design.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Poincaré Map Explained | Discretization and Visualization of Continuous Dynamical Systems"
-  description: Detailed explanation of the Poincaré Map — definition, relationship with Poincaré Section, and applications in analyzing perilune distributions of cislunar orbit families
+  title: "Poincaré Map Explained | Glossary"
+  description: The discrete first-return map P: Σ → Σ induced by a Poincaré section; covers dimensionality and fixed-point stability, glyph visualization, periapse and Tisserand-Poincaré maps, with applications to heteroclinic/homoclinic connections and transfer design.
   image: /logo.png
 permalink: /en/glossary/dynamics/poincare-map/
 ---
 
-# Poincaré Map
+# Poincaré Map (Poincaré Return Map)
 
-> Author: [CislunarSpace](https://gitee.com/cislunarspace)
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
 
-A **Poincaré Map** is a visualization method that reduces a continuous dynamical system to a discrete mapping. Its basic idea is to select a lower-dimensional cross-section in phase space (called a **Poincaré Section**) and record the state points each time the orbit crosses this section, transforming the continuous orbital evolution into a distribution of discrete points on the section. The Poincaré Map is named after the French mathematician Henri Poincaré and is a vital tool for analyzing nonlinear dynamical systems, identifying periodic orbits, and detecting chaotic behavior.
+A **Poincaré map** is the discrete first-return map $P:\Sigma\to\Sigma$ induced by a [Poincaré section](/en/glossary/dynamics/poincare-section/) $\Sigma$: starting from a crossing $\mathbf{x}_k\in\Sigma$, integrate the flow until the next crossing in the prescribed direction; that next crossing is $\mathbf{x}_{k+1}=P(\mathbf{x}_k)$. Iterating $P$ converts the analysis of periodic, quasi-periodic and chaotic motion of the continuous flow into a problem in discrete dynamical systems (Poincaré 1892; Parker & Chua 1989).
 
-In the study of cislunar Distant Retrograde Orbit (DRO) families, Poincaré Maps are used to display the distribution characteristics of perilunes for family members in phase space, thereby revealing structural patterns of the orbit family and windows useful for transfer design.
+Closely related but distinct concepts:
 
-## Core Elements
-
-### Relationship with Poincaré Section
-
-The Poincaré Map and Poincaré Section are closely related but have different emphases:
-
-| Concept | Emphasis | Description |
+| Concept | Emphasis | Object |
 | :--- | :--- | :--- |
-| **Poincaré Section** | Geometric object | An $(N-1)$-dimensional or $(N-2)$-dimensional hyperplane in phase space |
-| **Poincaré Map** | Mapping and visualization | The distribution diagram of orbit crossing points on the section |
+| **Poincaré section** | Geometry | The hypersurface $\Sigma$ on which crossings are recorded |
+| **Poincaré map** | Dynamics | The discrete map $P$ and the patterns formed by its iterates |
 
-In short, the Poincaré Section is the "cutting plane," and the Poincaré Map is the "pattern seen when projecting onto that plane."
+Section versus map is analogous to "the cutting plane" versus "the pattern seen after projecting crossings onto it".
 
-### Mathematical Definition
+## Dimensionality and visualization
 
-Given a continuous dynamical system $\dot{\mathbf{x}} = \mathbf{f}(\mathbf{x})$, $\mathbf{x} \in \mathbb{R}^N$, select a section $\Sigma \subset \mathbb{R}^{N-1}$. The **First Return Map** $P: \Sigma \to \Sigma$ is defined as:
+Given a constraint on the Jacobi constant $C$, the section reduces the flow dimension by one, and the map operates on a $(N-2)$-dimensional state (Haapala & Howell 2014):
 
-$$P(\mathbf{x}_k) = \mathbf{x}_{k+1}$$
+- **Planar CR3BP**: the map is 2D; a planar projection fully represents the state, and contour intersections directly identify connections.
 
-where $\mathbf{x}_k$ is the state at the $k$-th crossing of $\Sigma$, and $\mathbf{x}_{k+1}$ is the state at the next crossing. This mapping is the Poincaré map, and its graphical representation is the Poincaré Map.
+- **Spatial CR3BP**: the map is 4D and cannot be fully represented by a planar projection. **Glyph representations** attach a vector (or a chain of vectors) to each base point: the base point encodes position $(y,z)$, the vector encodes the in-plane velocity $(\dot y,\dot z)$, and additional links encode out-of-plane components. Glyph maps make heteroclinic connections between halo orbits visually identifiable (Haapala & Howell 2014; Whittington 2022).
 
-### Physical Meaning of Crossing Point Patterns
+## Fixed points and stability
 
-The distribution patterns of discrete points in a Poincaré Map reflect the dynamical nature of the orbit:
+Periodic orbits of the continuous flow correspond to **fixed points** (or $k$-cycles) of $P$. The stability type is read off the eigenvalues of the **monodromy matrix** $DP$ linearized about the fixed point:
 
-| Crossing Pattern | Corresponding Orbit Type |
-| :--- | :--- |
-| **Isolated points** (finite number) | Periodic orbit (period is an integer multiple of the crossing count) |
-| **Closed curves** | Quasi-periodic orbit (orbit on a torus) |
-| **Dense scattered points filling a region** | Chaotic orbit |
-| **Sparse scattered points** | Long-period orbit or transitional orbit |
+- **Center-type fixed point**: stable periodic orbit; surrounding iterates form closed curves (quasi-periodic tori).
 
-### Application to DRO Orbit Families
+- **Saddle-type fixed point**: unstable periodic orbit (e.g. a Lyapunov orbit); iterates align with the stable/unstable manifolds.
 
-Wei et al. (2026) used Poincaré Maps in their study of cislunar DRO orbit families to display the perilune distribution of each DRO member:
+Iterates form closed curves on **invariant tori** (quasi-periodic motion) or fill regions densely (**chaotic orbits**). Locating periodic orbits via the map is often the first step of a multiple-shooting or [continuation](/en/glossary/dynamics/continuation/) scheme.
 
-1. **Section selection**: Using the perilune ($r = r_{\text{min}}$) as the section, recording the state $(r, v_r, v_t)$ or its projection each time the orbit passes through the perilune
-2. **Family member marking**: Plotting the perilunes of DRO orbits with different periods on the same Poincaré Map
-3. **Transfer window identification**: Observing the density and directional characteristics of perilune distributions on the Poincaré Map to identify windows suitable for powered lunar flyby injection
+## Specialized maps
 
-For a single DRO orbit, since DRO is a periodic orbit, its perilune appears as **fixed discrete points** on the Poincaré Map. The overall distribution of the DRO orbit family on the Poincaré Map exhibits a regular curvilinear structure, reflecting the continuous variation of perilune states with orbital parameters (such as period).
+### Periapse map
 
-### Classical Applications in Low-Dimensional Systems
+Defined on the [periapse section](/en/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$. In the planar problem its projection into configuration space fully represents the state and reveals escape/capture structure near the smaller primary (Villac & Scheeres 2004; Paskowitz & Scheeres 2006). Variants named by central body — **perigee map**, **perilune map**, **apse map** — are the same construction with a different reference primary; the perilune map is widely used to screen lunar-gravity-assist + WSB capture transfers from the Earth and to analyze the perilune distribution of DRO family members (Scott & Spencer 2010).
 
-In two-dimensional autonomous systems, the Poincaré Map reduces to a sequence of points on a one-dimensional section, offering the most intuitive visualization:
+### Tisserand–Poincaré (T-P) graph
 
-- **Center-type fixed points**: Correspond to stable periodic orbits, with surrounding points forming closed rings
-- **Saddle-type fixed points**: Correspond to unstable periodic orbits (e.g., Lyapunov orbits), with surrounding points arranged along stable/unstable manifolds
-- **Invariant tori**: Closed curves on the section, corresponding to quasi-periodic motion
+An extension of the Tisserand graph (a patched-conic gravity-assist sequencing tool) to the CR3BP, introduced by Campagnola & Russell (2010). Axes are osculating periapsis and apoapsis distances (or period) relative to the primary; contours of the Tisserand parameter $T=3-V_\infty^2$ are sampled once per revolution at a fixed Poincaré crossing (typically the negative-$x$ axis). The T-P graph covers the regime $T<3$ where $V_\infty$ becomes imaginary and the patched-conic Tisserand graph fails, enabling systematic design of high-altitude flyby sequences in planetary-moon tours (Lantoine & Russell 2010; Yang et al. 2023; Shen et al. 2026).
 
-In the planar restricted CR3BP, Poincaré Maps are commonly used to display crossing point distributions on the $x$-axis crossing section ($y = 0$, $\dot{y} > 0$), distinguishing different orbit family types and chaotic regions.
+## Applications
 
-### Key Numerical Implementation Considerations
+- **Heteroclinic and homoclinic connections**: on the $x=1-\mu$ map, intersections of the unstable manifold of one periodic orbit with the stable manifold of another identify maneuver-free transfers; planar cases reduce to contour intersections, spatial cases use glyph inspection followed by differential correction (Gómez et al. 2001; Haapala & Howell 2014).
 
-Producing high-quality Poincaré Maps requires attention to:
+- **Transfer initial-guess generation**: the map compresses a high-dimensional solution space into a 2D image, allowing interactive selection of transfer candidates that are then refined by [differential correction](/en/glossary/dynamics/differential-correction/) or multiple shooting.
 
-- **Propagation accuracy**: Long-duration propagation requires high-precision integrators (e.g., Runge-Kutta 8(9) or symplectic integrators)
-- **Crossing detection**: Detect crossing times through sign changes, then interpolate for precise crossing points
-- **Coordinate selection**: Choose section coordinates that make different orbit family features most visible
-- **Sufficient propagation time**: Chaotic orbits require enough propagation time to reveal their scattering characteristics
+- **Long-term-capture orbit search**: periapse maps classify non-transit (long-term-capture) trajectories; periodic orbits are seeded from nearby "mirror configurations" and refined by continuation (Haapala & Howell 2014).
 
-## Application Value
+- **DRO family analysis**: a perilune map of DRO members shows the distribution of perilune states versus orbit parameter, identifying windows suitable for lunar-gravity-assist insertion.
 
-The core value of Poincaré Maps in cislunar space dynamics research lies in:
+## Numerical notes
 
-- **Orbit Family Structure Visualization**: Reducing the high-dimensional phase space orbit family relationships to a 2D diagram, intuitively displaying topological relationships within the family
-- **Perilune Distribution Analysis**: For DRO transfer design, Poincaré Maps clearly show the position and velocity direction distributions of different DRO orbit perilunes
-- **Chaos Identification**: By observing whether crossing points form regular patterns, quickly determining whether an orbit is in a chaotic state
-- **Transfer Design Aid**: Combined with orbit family data generated by continuation methods, Poincaré Maps provide an intuitive "map" for transfer window screening
+A typical Earth–Moon map for ~1000 manifold trajectories integrated over ~1.2 years takes 2–3 seconds in MATLAB with C-integration subroutines; Sun–Earth maps over ~100 years take a comparable time (Haapala & Howell 2014). Symplectic integrators are preferred for very long integrations to suppress energy drift.
 
-## Related Concepts
+## Related concepts
 
 - [Poincaré Section](/en/glossary/dynamics/poincare-section/)
+
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
+
 - [Continuation](/en/glossary/dynamics/continuation/)
+
 - [Differential Correction](/en/glossary/dynamics/differential-correction/)
-- Impulsive Maneuver
-- Invariant Torus
-- Chaotic Orbit
+
+- [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
+
+- [Jacobi Constant](/en/glossary/dynamics/jacobi-integral/)
 
 ## References
 
-- Wei Z, et al. Research on powered lunar flyby transfer injection to cislunar distant retrograde orbit families[J]. Journal of Beijing University of Aeronautics and Astronautics, 2026.
-- Poincaré H. Les méthodes nouvelles de la mécanique céleste[M]. Gauthier-Villars, 1892.
-- Parker T S, Chua L O. Practical Numerical Algorithms for Chaotic Systems[M]. Springer, 1989.
-- Hénon M. Numerical exploration of the restricted problem, V: Hill's case[J]. Astronomy and Astrophysics, 1969, 1: 223-267.
+- Poincaré H. *Les méthodes nouvelles de la mécanique céleste*. Gauthier-Villars, 1892.
+
+- Parker T S, Chua L O. *Practical Numerical Algorithms for Chaotic Systems*. Springer, 1989.
+
+- Gómez G, Llibre J, Martínez R, Simó C. *Dynamics and Mission Design near Libration Points — Vol. II*. World Scientific, 2001.
+
+- Villac B F, Scheeres D J. On the concept of periapsis in Hill's problem. *Dynamics & Control of Systems*, 2004.
+
+- Paskowitz M E, Scheeres D J. Geometry of quasiperiodic orbits in the Hill problem. *Celestial Mechanics and Dynamical Astronomy*, 2006.
+
+- Campagnola S, Russell R P. The Tisserand-Poincaré graph for multi-body gravity assists. *AAS/AIAA Astrodynamics Specialist Conference*, 2010.
+
+- Haapala A F, Howell K C. Representations of higher-dimensional Poincaré maps with applications to spacecraft trajectory design. *Acta Astronautica*, 2014, 96: 23–46.
+
+- Scott C J, Spencer D B. Transfer and capture into distant retrograde orbits via Poincaré and Periapsis maps. *JGCD*, 2010. doi:10.2514/1.47791.
+
+- Whittington T R. *Multi-body trajectory design in the Earth-moon region utilizing Poincaré maps*. M.S. thesis, Purdue University, 2022.
+
+- Yang J, et al. Review of trajectory design and optimization for Jovian system exploration. *Acta Astronautica*, 2023.

@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/mcts/
 ## 相关概念
 
 - 有动力月球借力（Powered Lunar Flyby, PLF）
-- [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/pcrtbp/)
+- [平面圆形限制性三体问题（Planar Circular Restricted Three-Body Problem, PCRTBP）](/glossary/dynamics/cr3bp/)
 - 插入速度增量（Insertion Delta-V）
 - 动量积分（Momentum Integral, MI）
 

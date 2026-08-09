@@ -38,7 +38,7 @@ The designed reference orbit state, such as the nominal Halo orbit, serving as t
 
 ## Related Concepts
 
-- [Homoclinic Connection](/en/glossary/dynamics/homoclinic-connection/)
+- [Homoclinic Connection](/en/glossary/dynamics/heteroclinic-orbit-transfer/)
 - [Z-amplitude](/en/glossary/orbits/halo-orbit/)
 - Plane Window
 - [Long-Path Transfer Orbit](/en/glossary/orbits/long-path-transfer-orbit/)

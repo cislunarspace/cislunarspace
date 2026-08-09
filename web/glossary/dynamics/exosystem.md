@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/exosystem/
 
 ## 相关概念
 
-- [流形传播（Manifold Propagation）](/glossary/dynamics/manifold-propagation/)
+- [流形传播（Manifold Propagation）](/glossary/dynamics/invariant-manifold/)
 - 低月球轨道（Low Lunar Orbit, LLO）
 - [平动点引力不对称（Gravitational Asymmetry at Libration Points）](/glossary/fundamentals/gravitational-asymmetry-at-libration-points/)
 - 复合周期轨道（Complex Periodic Orbit）

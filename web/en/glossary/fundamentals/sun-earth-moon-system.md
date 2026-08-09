@@ -39,7 +39,7 @@ The full dynamical model including gravitational effects of the sun, Earth, and 
 ## Related Concepts
 
 - [Jacobian Matrix](/en/glossary/fundamentals/jacobian-matrix/)
-- [Pseudo-Potential Function](/en/glossary/fundamentals/pseudo-potential-function/)
+- [Pseudo-Potential Function](/en/glossary/dynamics/jacobi-integral/)
 - Processor-in-the-Loop
 
 ## References

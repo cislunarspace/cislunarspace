@@ -38,7 +38,7 @@ permalink: /glossary/fundamentals/strong-legendre-condition/
 
 ## 相关概念
 
-- [Lindstedt-Poincaré级数展开（Lindstedt-Poincaré Series Expansion）](/glossary/fundamentals/lindstedt-poincar-series-expansion/)
+- [Lindstedt-Poincaré级数展开（Lindstedt-Poincaré Series Expansion）](/glossary/dynamics/poincare-section/)
 - 顺行轨道（Prograde Orbit）
 - 统一轨道根数（Unified Orbital Elements）
 - [小分母（Small Denominator）](/glossary/fundamentals/small-denominator/)

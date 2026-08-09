@@ -40,7 +40,7 @@ A point along a reference extremal at which a nontrivial Jacobi field vanishes i
 
 - Orbital State Vector
 - Coordinate Time
-- [Hill Frame](/en/glossary/fundamentals/hill-frame/)
+- [Hill Frame](/en/glossary/dynamics/orbital-coordinate-frames/)
 - Kepler's Laws
 
 ## References

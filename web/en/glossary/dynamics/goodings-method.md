@@ -38,8 +38,8 @@ Gooding's method is a numerical algorithm for solving Lambert's problem, featuri
 
 ## Related Concepts
 
-- [Jacobi Constant](/en/glossary/dynamics/cj/)
-- [Hill Region](/en/glossary/fundamentals/hill-region/)
+- [Jacobi Constant](/en/glossary/dynamics/jacobi-integral/)
+- [Hill Region](/en/glossary/dynamics/hill-region-and-hill-problem/)
 - [Poincare Map](/en/glossary/dynamics/poincare-map/)
 - Stability
 

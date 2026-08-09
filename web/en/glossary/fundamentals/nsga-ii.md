@@ -39,7 +39,7 @@ Non-Dominated Sorting Genetic Algorithm II is a fundamental concept in cislunar 
 ## Related Concepts
 
 - Ion Propulsion
-- [Tisserand-Poincaré Graph](/en/glossary/fundamentals/t-p-graph/)
+- [Tisserand-Poincaré Graph](/en/glossary/dynamics/poincare-section/)
 - Mid-course Correction
 - Lunar Orbit Insertion, LOI
 

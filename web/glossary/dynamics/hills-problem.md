@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/hills-problem/
 ## 相关概念
 
 - 月球飞越法（Lunar Fly-by Method）
-- [后向月球借力（Backward Lunar Gravity Assist）](/glossary/dynamics/backward-lunar-gravity-assist/)
+- [后向月球借力（Backward Lunar Gravity Assist）](/glossary/dynamics/solar-perturbation-lga/)
 - 近距月球飞越（Close Lunar Flyby）
 - 可达集（Reachability Set）
 

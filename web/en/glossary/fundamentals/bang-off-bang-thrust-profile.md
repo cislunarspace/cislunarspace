@@ -40,7 +40,7 @@ Bang-off-Bang推力剖面是地月空间研究的基础概念，为理解更复�
 
 - 春分点
 - L1同伦法
-- [分析历表](/en/glossary/fundamentals/analytical-ephemeris/)
+- [分析历表](/en/glossary/fundamentals/numerical-ephemeris/)
 
 ## References
 

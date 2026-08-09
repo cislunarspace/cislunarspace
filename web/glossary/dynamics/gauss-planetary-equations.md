@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/gauss-planetary-equations/
 ## 相关概念
 
 - 逆行（Retrograde Motion）
-- [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/absolute-phase-bias/)
+- [绝对相位偏置（Absolute Phase Bias）](/glossary/dynamics/phase-deviation/)
 - 相对姿态四元数（Relative Attitude Quaternion）
 - 径向-切向-法向坐标系（Radial-Tangential-Normal Coordinate System, RTN）
 

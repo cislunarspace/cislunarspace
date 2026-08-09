@@ -38,7 +38,7 @@ The Pontryagin Optimality Conditions plays a significant role in cislunar space 
 
 ## Related Concepts
 
-- [Lindstedt-Poincaré Series Expansion](/en/glossary/fundamentals/lindstedt-poincar-series-expansion/)
+- [Lindstedt-Poincaré Series Expansion](/en/glossary/dynamics/poincare-section/)
 - Prograde Orbit
 - [Strong Legendre Condition](/en/glossary/fundamentals/strong-legendre-condition/)
 - Unified Orbital Elements

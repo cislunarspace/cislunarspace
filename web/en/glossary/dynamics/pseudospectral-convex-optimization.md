@@ -39,8 +39,8 @@ Trajectory optimization technique that discretizes optimal control problems usin
 ## Related Concepts
 
 - Hill Sphere Radius
-- [Poincaré Map Representation](/en/glossary/dynamics/poincar-map-representation/)
-- [Minimum Norm Targeting](/en/glossary/dynamics/minimum-norm-targeting/)
+- [Poincaré Map Representation](/en/glossary/dynamics/poincare-section/)
+- [Minimum Norm Targeting](/en/glossary/dynamics/differential-correction/)
 - [Hybrid Differential Dynamic Programming, HDDP](/en/glossary/dynamics/hddp/)
 
 ## References

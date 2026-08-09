@@ -40,9 +40,9 @@ Richardson 三阶近似解析解是分析地月空间动力学问题的理论基
 
 ## 相关概念
 
-- [时变系统（Time-Varying System）](/glossary/fundamentals/time-varying-system/)
+- [时变系统（Time-Varying System）](/glossary/fundamentals/eom/)
 - 利普希茨条件（Lipschitz Condition）
-- [变时间瞄准（Variable-Time Targeting）](/glossary/fundamentals/variable-time-targeting/)
+- [变时间瞄准（Variable-Time Targeting）](/glossary/dynamics/differential-correction/)
 - 返回走廊（Return Corridor）
 
 ## 参考文献

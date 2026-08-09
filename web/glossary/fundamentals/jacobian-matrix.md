@@ -41,7 +41,7 @@ permalink: /glossary/fundamentals/jacobian-matrix/
 - 牛顿万有引力定律（Newton's Law of Gravitation）
 - 三角级数（Trigonometric Series）
 - 发射三要素（Three Launch Elements）
-- [伪势（Pseudo-Potential）](/glossary/fundamentals/pseudo-potential/)
+- [伪势（Pseudo-Potential）](/glossary/dynamics/jacobi-integral/)
 
 ## 参考文献
 

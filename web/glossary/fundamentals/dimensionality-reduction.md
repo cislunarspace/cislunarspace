@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/dimensionality-reduction/
 ## 相关概念
 
 - 月心旋转坐标系（Moon-Centered Rotating Frame）
-- [有效势能（Effective Pseudo-Potential）](/glossary/fundamentals/effective-pseudo-potential/)
+- [有效势能（Effective Pseudo-Potential）](/glossary/dynamics/jacobi-integral/)
 - 比冲（Specific Impulse）
 - 月球二体能量（Two-Body Energy with Respect to the Moon）
 

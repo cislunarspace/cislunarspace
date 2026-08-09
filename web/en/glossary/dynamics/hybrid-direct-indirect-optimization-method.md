@@ -39,7 +39,7 @@ This concept has application value in cislunar space research and mission design
 ## Related Concepts
 
 - [Weak Stability Boundary](/en/glossary/dynamics/wsb/)
-- [Earth-Moon Manifold](/en/glossary/dynamics/earth-moon-manifold/)
+- [Earth-Moon Manifold](/en/glossary/dynamics/invariant-manifold/)
 
 ## References
 

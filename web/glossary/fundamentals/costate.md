@@ -38,9 +38,9 @@ permalink: /glossary/fundamentals/costate/
 
 ## 相关概念
 
-- [分段多项式控制（Piecewise Polynomial Control）](/glossary/fundamentals/piecewise-polynomial-control/)
+- [分段多项式控制（Piecewise Polynomial Control）](/glossary/dynamics/hermite-simpson-method/)
 - 参考椭球（Reference Ellipsoid）
-- [低推力推进（Low-Thrust Propulsion）](/glossary/fundamentals/low-thrust-propulsion/)
+- [低推力推进（Low-Thrust Propulsion）](/glossary/fundamentals/ep/)
 - [引燃矢量（Primer vector）](/glossary/fundamentals/primer-vector/)
 
 ## 参考文献

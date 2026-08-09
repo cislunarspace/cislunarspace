@@ -35,9 +35,9 @@ The mathematical function to be minimized or maximized in an optimization proble
 ## Related Concepts
 
 - Particle Swarm Optimization, PSO
-- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
-- [Hill Region](/en/glossary/fundamentals/hill-region/)
-- [Poincaré Map](/en/glossary/dynamics/poincar-map/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-integral/)
+- [Hill Region](/en/glossary/dynamics/hill-region-and-hill-problem/)
+- [Poincaré Map](/en/glossary/dynamics/poincare-section/)
 
 ## References
 

@@ -40,7 +40,7 @@ This term has significant practical applications in cislunar mission planning an
 
 - Hidden-Genes Genetic Algorithm, HGGA
 - Variable-Size Design Space, VSDS
-- [Station-Keeping](/en/glossary/dynamics/sk/)
+- [Station-Keeping](/en/glossary/dynamics/station-keeping/)
 - Target Point Method
 
 ## References

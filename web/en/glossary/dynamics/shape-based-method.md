@@ -39,7 +39,7 @@ This concept has important application value in cislunar space research and miss
 ## Related Concepts
 
 - Nonlinear Programming
-- [Zero-Velocity Curve](/en/glossary/dynamics/zvc/)
+- [Zero-Velocity Curve](/en/glossary/dynamics/jacobi-integral/)
 - Departure Excess Velocity
 
 ## References

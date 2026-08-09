@@ -34,7 +34,7 @@ The gravitational field near libration points in the Earth-Moon three-body syste
 ## Related Concepts
 
 - Simplified Dynamic Orbit Determination
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
 - Low Lunar Orbit, LLO
 - Horizon-Based Optical Navigation
 

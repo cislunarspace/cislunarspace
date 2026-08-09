@@ -38,7 +38,7 @@ One of two solution categories in the Lambert problem. The arc angle from depart
 
 ## Related Concepts
 
-- [Homoclinic Connection](/en/glossary/dynamics/homoclinic-connection/)
+- [Homoclinic Connection](/en/glossary/dynamics/heteroclinic-orbit-transfer/)
 - [Z-amplitude](/en/glossary/orbits/halo-orbit/)
 - [Nominal Orbit](/en/glossary/orbits/nominal-orbit/)
 - Plane Window

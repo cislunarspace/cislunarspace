@@ -40,8 +40,8 @@ Numerical method for low-thrust orbit transfer that combines necessary condition
 
 - Hill Sphere Radius
 - [Pseudospectral Convex Optimization](/en/glossary/dynamics/pseudospectral-convex-optimization/)
-- [Poincaré Map Representation](/en/glossary/dynamics/poincar-map-representation/)
-- [Minimum Norm Targeting](/en/glossary/dynamics/minimum-norm-targeting/)
+- [Poincaré Map Representation](/en/glossary/dynamics/poincare-section/)
+- [Minimum Norm Targeting](/en/glossary/dynamics/differential-correction/)
 
 ## References
 

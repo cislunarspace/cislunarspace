@@ -37,7 +37,7 @@ This concept has important application value in cislunar space research and miss
 ## Related Concepts
 
 - Nonlinear Programming
-- [Zero-Velocity Curve](/en/glossary/dynamics/zvc/)
+- [Zero-Velocity Curve](/en/glossary/dynamics/jacobi-integral/)
 - [Shape-Based Method](/en/glossary/dynamics/shape-based-method/)
 
 ## References

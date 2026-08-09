@@ -42,7 +42,7 @@ permalink: /glossary/fundamentals/gravitational-asymmetry-at-libration-points/
 ## 相关概念
 
 - 简化动力学法定轨（Simplified Dynamic Orbit Determination）
-- [流形传播（Manifold Propagation）](/glossary/dynamics/manifold-propagation/)
+- [流形传播（Manifold Propagation）](/glossary/dynamics/invariant-manifold/)
 - 低月球轨道（Low Lunar Orbit, LLO）
 - 地平线光学导航（Horizon-Based Optical Navigation）
 

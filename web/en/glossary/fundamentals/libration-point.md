@@ -39,7 +39,7 @@ In the restricted three-body problem, five points where the gravitational pull o
 ## Related Concepts
 
 - [Jacobian Matrix](/en/glossary/fundamentals/jacobian-matrix/)
-- [Pseudo-Potential Function](/en/glossary/fundamentals/pseudo-potential-function/)
+- [Pseudo-Potential Function](/en/glossary/dynamics/jacobi-integral/)
 - [Sun-Earth-Moon System](/en/glossary/fundamentals/sun-earth-moon-system/)
 
 ## References

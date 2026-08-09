@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/colt/
 
 - [隐藏基因遗传算法（Hidden-Genes Genetic Algorithm, HGGA）](/glossary/fundamentals/hidden-genes-genetic-algorithm/)
 - 变长设计空间（Variable-Size Design Space, VSDS）
-- [驻留维持（Station-Keeping）](/glossary/dynamics/sk/)
+- [驻留维持（Station-Keeping）](/glossary/dynamics/station-keeping/)
 - 目标点法（Target Point Method）
 
 ## 参考文献

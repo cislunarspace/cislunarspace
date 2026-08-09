@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/shape-based-method/
 ## 相关概念
 
 - 非线性规划（Nonlinear Programming）
-- [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/zvc/)
+- [零速度曲线（Zero-Velocity Curve）](/glossary/dynamics/jacobi-integral/)
 - 出发超速（Departure Excess Velocity）
 
 ## 参考文献

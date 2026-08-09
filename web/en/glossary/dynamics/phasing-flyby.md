@@ -40,7 +40,7 @@ A strategy of multiple gravity flybys to adjust orbital phasing. At high Jacobi 
 
 - Lunar Fly-by Method
 - Maximum-Energy Escape Trajectory
-- [Backward Lunar Gravity Assist](/en/glossary/dynamics/backward-lunar-gravity-assist/)
+- [Backward Lunar Gravity Assist](/en/glossary/dynamics/solar-perturbation-lga/)
 - Lorillo Stability Criterion
 
 ## References

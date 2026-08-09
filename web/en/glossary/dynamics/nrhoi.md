@@ -39,7 +39,7 @@ Near-rectilinear Halo orbit insertion requires precise control to ensure safe ca
 ## Related Concepts
 
 - Nonlinear Programming
-- [Zero-Velocity Curve](/en/glossary/dynamics/zvc/)
+- [Zero-Velocity Curve](/en/glossary/dynamics/jacobi-integral/)
 - [Shape-Based Method](/en/glossary/dynamics/shape-based-method/)
 
 ## References

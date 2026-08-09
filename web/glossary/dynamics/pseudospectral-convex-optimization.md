@@ -39,8 +39,8 @@ permalink: /glossary/dynamics/pseudospectral-convex-optimization/
 ## 相关概念
 
 - 希尔球半径（Hill Sphere Radius）
-- [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincar-map-representation/)
-- [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/minimum-norm-targeting/)
+- [庞加莱映射表示（Poincaré Map Representation）](/glossary/dynamics/poincare-section/)
+- [最小范数靶点法（Minimum Norm Targeting）](/glossary/dynamics/differential-correction/)
 - [混合差分动态规划（Hybrid Differential Dynamic Programming, HDDP）](/glossary/dynamics/hddp/)
 
 ## 参考文献

@@ -38,7 +38,7 @@ Refers to three-body systems governed by different primary bodies, such as the S
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）

@@ -62,7 +62,7 @@ The same definition applies to different primary pairs, and in practice the fram
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Jacobi Constant](/en/glossary/dynamics/jc/)
+- [Jacobi Constant](/en/glossary/dynamics/jacobi-integral/)
 - [Libration Point](/en/glossary/fundamentals/libration-point/)
 
 ## References

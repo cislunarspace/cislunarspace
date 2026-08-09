@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/libration-point/
 ## 相关概念
 
 - [雅可比矩阵（Jacobian Matrix）](/glossary/fundamentals/jacobian-matrix/)
-- [伪势函数（Pseudo-Potential Function）](/glossary/fundamentals/pseudo-potential-function/)
+- [伪势函数（Pseudo-Potential Function）](/glossary/dynamics/jacobi-integral/)
 - [日地月系统（Sun-Earth-Moon System）](/glossary/fundamentals/sun-earth-moon-system/)
 
 ## 参考文献

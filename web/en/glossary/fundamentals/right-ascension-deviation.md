@@ -38,7 +38,7 @@ The difference in right ascension between the spacecraft and the target body in 
 
 ## Related Concepts
 
-- [Differential Correction Method](/en/glossary/fundamentals/differential-correction-method/)
+- [Differential Correction Method](/en/glossary/dynamics/differential-correction/)
 - Laval Nozzle
 - [Lagrange Point](/en/glossary/fundamentals/lagrange-point/)
 - Orbital Elements

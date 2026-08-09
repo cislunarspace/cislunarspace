@@ -33,7 +33,7 @@ The three collinear equilibrium points of the restricted three-body problem, lyi
 
 ## Related Concepts
 
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
 - Low Lunar Orbit, LLO
 - Complex Periodic Orbit
 - Orbital Transfer Stage

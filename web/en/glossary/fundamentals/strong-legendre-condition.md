@@ -38,7 +38,7 @@ The Strong Legendre Condition plays a significant role in cislunar space mission
 
 ## Related Concepts
 
-- [Lindstedt-Poincaré Series Expansion](/en/glossary/fundamentals/lindstedt-poincar-series-expansion/)
+- [Lindstedt-Poincaré Series Expansion](/en/glossary/dynamics/poincare-section/)
 - Prograde Orbit
 - Unified Orbital Elements
 - [Small Denominator](/en/glossary/fundamentals/small-denominator/)

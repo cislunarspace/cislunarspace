@@ -36,7 +36,7 @@ During the orbit design phase，can be used toanalyzespacecraftin cislunar space
 
 ## Related Concepts
 
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
 - Low Lunar Orbit, LLO
 - Complex Periodic Orbit
 - Orbital Transfer Stage

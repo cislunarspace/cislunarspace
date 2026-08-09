@@ -41,8 +41,8 @@ permalink: /glossary/fundamentals/richardson-third-order-expansion/
 ## 相关概念
 
 - 虚拟共面起飞（Virtual Coplanar Takeoff）
-- [月球重力场不规则性（Lunar Gravity Field Irregularity）](/glossary/fundamentals/lunar-gravity-field-irregularity/)
-- [LP100K模型（LP100K Model）](/glossary/fundamentals/lp100k/)
+- [月球重力场不规则性（Lunar Gravity Field Irregularity）](/glossary/fundamentals/gravity-field-model/)
+- [LP100K模型（LP100K Model）](/glossary/fundamentals/gravity-field-model/)
 
 ## 参考文献
 

@@ -38,9 +38,9 @@ Francis-Byrnes-Isidori方程是非线性控制理论中的重要结果，描述�
 
 ## 相关概念
 
-- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
-- [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
-- [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
+- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-integral/)
+- [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
+- [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-section/)
 - 稳定性（Stability）
 
 ## 参考文献

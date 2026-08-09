@@ -39,7 +39,7 @@ Ballistic Coefficient plays an important role in orbital dynamics and attitude c
 ## Related Concepts
 
 - Restricted Three-Body Problem
-- [KAM Theorem](/en/glossary/dynamics/kam/)
+- [KAM Theorem](/en/glossary/dynamics/kam-theory/)
 - Hill Clohessy Wiltshire Equations
 - State Transition Function
 

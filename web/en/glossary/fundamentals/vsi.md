@@ -40,7 +40,7 @@ Variable-specific-impulse engine is a fundamental concept in cislunar mission de
 
 - [Non-Dominated Sorting Genetic Algorithm II](/en/glossary/fundamentals/nsga-ii/)
 - Ion Propulsion
-- [Tisserand-Poincaré Graph](/en/glossary/fundamentals/t-p-graph/)
+- [Tisserand-Poincaré Graph](/en/glossary/dynamics/poincare-section/)
 - Mid-course Correction
 
 ## References

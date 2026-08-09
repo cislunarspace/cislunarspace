@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/precession-nutation-matrix/
 ## 相关概念
 
 - 定时定点着陆（Scheduled and Pinpoint Landing）
-- [截面（Surface of Section, SOS）](/glossary/fundamentals/sos/)
+- [截面（Surface of Section, SOS）](/glossary/dynamics/poincare-section/)
 - [截断策略（Truncation Strategy）](/glossary/fundamentals/truncation-strategy/)
 
 ## 参考文献

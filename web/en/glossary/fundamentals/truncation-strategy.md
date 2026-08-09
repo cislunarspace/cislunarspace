@@ -39,7 +39,7 @@ This concept plays an important role in trajectory optimization and mission plan
 ## Related Concepts
 
 - Scheduled and Pinpoint Landing
-- [Surface of Section, SOS](/en/glossary/fundamentals/sos/)
+- [Surface of Section, SOS](/en/glossary/dynamics/poincare-section/)
 - Barrier Function
 
 ## References

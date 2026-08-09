@@ -41,7 +41,7 @@ This analysis method is used to evaluate the long-term stability of spacecraft o
 - [L4](/en/glossary/dynamics/l4/)
 - In-Plane
 - Hill's Equations
-- [Jacobi Energy](/en/glossary/dynamics/jacobi-energy/)
+- [Jacobi Energy](/en/glossary/dynamics/jacobi-integral/)
 
 ## References
 

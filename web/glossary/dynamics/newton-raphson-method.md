@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/newton-raphson-method/
 ## 相关概念
 
 - [Weak Stability Boundary](/glossary/dynamics/wsb/)
-- [Earth-Moon Manifold](/glossary/dynamics/earth-moon-manifold/)
+- [Earth-Moon Manifold](/glossary/dynamics/invariant-manifold/)
 
 ## 参考文献
 

@@ -38,8 +38,8 @@ Visonneau 等人开发的多目标优化算法，用于地月态势感知系统�
 
 ## 相关概念
 
-- [多重打靶法（Multiple Shooting Method）](/glossary/fundamentals/multiple-shooting-method/)
-- [连续小推力（Continuous Low Thrust）](/glossary/fundamentals/continuous-low-thrust/)
+- [多重打靶法（Multiple Shooting Method）](/glossary/dynamics/differential-correction/)
+- [连续小推力（Continuous Low Thrust）](/glossary/fundamentals/ep/)
 - 双向链路（Two-Way Link）
 - 惯性坐标系（Inertial Coordinate System）
 

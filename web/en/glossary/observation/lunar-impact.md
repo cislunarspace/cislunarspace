@@ -33,7 +33,7 @@ The event of debris impacting the lunar surface. The paper analyzes lunar impact
 
 ## Related Concepts
 
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
 - Low Lunar Orbit, LLO
 - [Gravitational Asymmetry at Libration Points](/en/glossary/fundamentals/gravitational-asymmetry-at-libration-points/)
 - Complex Periodic Orbit

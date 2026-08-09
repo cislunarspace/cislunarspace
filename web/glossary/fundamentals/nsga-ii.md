@@ -39,7 +39,7 @@ permalink: /glossary/fundamentals/nsga-ii/
 ## 相关概念
 
 - 离子推进（Ion Propulsion）
-- [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/fundamentals/t-p-graph/)
+- [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/dynamics/poincare-section/)
 - 中途修正（Mid-course Correction）
 - 近月制动（Lunar Orbit Insertion, LOI）
 

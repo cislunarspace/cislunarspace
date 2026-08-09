@@ -104,7 +104,7 @@ NLP 通常使用 Ipopt（内点法）或 SNOPT（序列二次规划）求解器�
 ## 相关概念
 
 - A2PPO（注意力增强近端策略优化）
-- [打靶法（Shooting Method）](/glossary/dynamics/shooting-method/)
+- [打靶法（Shooting Method）](/glossary/dynamics/differential-correction/)
 - 状态转移矩阵（State Transition Matrix, STM）
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 

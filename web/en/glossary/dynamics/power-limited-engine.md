@@ -41,7 +41,7 @@ This concept plays an important role in cislunar space mission design and orbita
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
 - Thruster Modulator
 - Particle Swarm Optimizer
-- [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
+- [Impulse Interval](/en/glossary/dynamics/two-impulse-rendezvous/)
 
 ## References
 

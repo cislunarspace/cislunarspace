@@ -77,5 +77,5 @@ The Hamiltonian has broad applications in cislunar space missions:
 - [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Action-Angle Variables](/en/glossary/dynamics/action-angle-variables/)
+- [Action-Angle Variables](/en/glossary/dynamics/canonical-variables/)
 - [Birkhoff-Gustavson Normal Form](/en/glossary/dynamics/birkhoff-gustavson-normal-form/)

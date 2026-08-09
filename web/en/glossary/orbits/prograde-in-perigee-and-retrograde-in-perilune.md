@@ -38,7 +38,7 @@ A classification of trans-lunar trajectories by orbital direction: the spacecraf
 
 ## Related Concepts
 
-- [Homoclinic Connection](/en/glossary/dynamics/homoclinic-connection/)
+- [Homoclinic Connection](/en/glossary/dynamics/heteroclinic-orbit-transfer/)
 - [Z-amplitude](/en/glossary/orbits/halo-orbit/)
 - [Nominal Orbit](/en/glossary/orbits/nominal-orbit/)
 - Plane Window

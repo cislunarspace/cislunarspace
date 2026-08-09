@@ -41,7 +41,7 @@ This method offers superior convergence compared to traditional differential cor
 - [Control Parametrization](/en/glossary/dynamics/control-parametrization/)
 - Thruster Modulator
 - Particle Swarm Optimizer
-- [Impulse Interval](/en/glossary/dynamics/impulse-interval/)
+- [Impulse Interval](/en/glossary/dynamics/two-impulse-rendezvous/)
 
 ## References
 

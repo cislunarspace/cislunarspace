@@ -39,7 +39,7 @@ This concept is fundamental to cislunar orbital mechanics and mission analysis, 
 ## Related Concepts
 
 - Retrograde Motion
-- [Absolute Phase Bias](/en/glossary/dynamics/absolute-phase-bias/)
+- [Absolute Phase Bias](/en/glossary/dynamics/phase-deviation/)
 - Relative Attitude Quaternion
 - Radial-Tangential-Normal Coordinate System, RTN
 

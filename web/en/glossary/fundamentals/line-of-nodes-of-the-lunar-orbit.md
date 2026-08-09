@@ -36,8 +36,8 @@ The intersection line between the lunar orbital plane and the ecliptic, with asc
 
 - [Center-of-Mass Rotating Frame](/en/glossary/fundamentals/synodic-frame/)
 - Mass Parameter
-- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
-- [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-integral/)
+- [Normalized Units](/en/glossary/fundamentals/nondimensionalization/)
 
 ## References
 

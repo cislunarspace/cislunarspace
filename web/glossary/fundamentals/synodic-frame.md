@@ -62,7 +62,7 @@ x 轴方向在不同文献里**并不统一**，读图、读方程前应先确�
 ## 相关概念
 
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [雅可比常数（Jacobi Constant）](/glossary/dynamics/jc/)
+- [雅可比常数（Jacobi Constant）](/glossary/dynamics/jacobi-integral/)
 - [平动点（Libration Point）](/glossary/fundamentals/libration-point/)
 
 ## 参考文献

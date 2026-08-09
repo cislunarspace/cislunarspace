@@ -38,7 +38,7 @@ permalink: /glossary/orbits/operational-orbit-library/
 
 ## 相关概念
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/fundamentals/inertial-reference-frames/)
 - 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
 - 临界轨道（Critical Orbit）
 - [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)

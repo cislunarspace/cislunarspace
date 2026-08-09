@@ -41,7 +41,7 @@ permalink: /glossary/dynamics/poisson-bracket/
 - 相对运动周期性条件（Periodicity Conditions in Relative Orbital Motion）
 - 螺旋式编队（Helix Formation）
 - 能量耗散法（Energy Dissipation Method）
-- [不稳定流形（Unstable Manifold）](/glossary/dynamics/wu/)
+- [不稳定流形（Unstable Manifold）](/glossary/dynamics/invariant-manifold/)
 
 ## 参考文献
 

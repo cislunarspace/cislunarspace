@@ -38,9 +38,9 @@ An optimal control problem that minimizes the L2-norm of the control (squared co
 
 ## Related Concepts
 
-- [Time-Varying System](/en/glossary/fundamentals/time-varying-system/)
+- [Time-Varying System](/en/glossary/fundamentals/eom/)
 - Lipschitz Condition
-- [Variable-Time Targeting](/en/glossary/fundamentals/variable-time-targeting/)
+- [Variable-Time Targeting](/en/glossary/dynamics/differential-correction/)
 - Return Corridor
 
 ## References

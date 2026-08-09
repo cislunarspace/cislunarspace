@@ -41,7 +41,7 @@ This term has significant application value in cislunar space missions. In orbit
 - Periodicity Conditions in Relative Orbital Motion
 - Helix Formation
 - Energy Dissipation Method
-- [Unstable Manifold](/en/glossary/dynamics/wu/)
+- [Unstable Manifold](/en/glossary/dynamics/invariant-manifold/)
 
 ## References
 

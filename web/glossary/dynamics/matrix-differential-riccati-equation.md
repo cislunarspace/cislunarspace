@@ -38,9 +38,9 @@ LQR控制器设计中出现的矩阵微分方程，描述最优控制增益随�
 
 ## 相关概念
 
-- [Hill 模型（Hill Model）](/glossary/dynamics/hill-model/)
-- [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/formation-fixed-relative-to-inertial-frame/)
-- [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/dynamics/perturbational-lambert-problem/)
+- [Hill 模型（Hill Model）](/glossary/dynamics/hill-region-and-hill-problem/)
+- [惯性坐标系固定编队（Formation Fixed Relative to Inertial Frame）](/glossary/dynamics/spacecraft-formation-flying/)
+- [受摄Lambert问题（Perturbational Lambert Problem）](/glossary/fundamentals/lamberts-problem/)
 - 探测器定位（Probe Targeting）
 
 ## 参考文献

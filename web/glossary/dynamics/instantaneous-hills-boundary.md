@@ -41,7 +41,7 @@ permalink: /glossary/dynamics/instantaneous-hills-boundary/
 - [L4（L4）](/glossary/dynamics/l4/)
 - 轨道内分量（In-Plane）
 - Hill方程（Hill's Equations）
-- [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-energy/)
+- [雅可比能量（Jacobi Energy）](/glossary/dynamics/jacobi-integral/)
 
 ## 参考文献
 

@@ -38,7 +38,7 @@ The vector p(t) = -λ_v(t) defined by Lawden, where λ_v is the velocity adjoint
 
 ## Related Concepts
 
-- [Low-Thrust Propulsion](/en/glossary/fundamentals/low-thrust-propulsion/)
+- [Low-Thrust Propulsion](/en/glossary/fundamentals/ep/)
 - Reference Ellipsoid
 - Kinematics
 - Landing Stability

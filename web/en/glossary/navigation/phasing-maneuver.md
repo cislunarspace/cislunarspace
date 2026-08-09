@@ -33,7 +33,7 @@ An orbital maneuver performed between the end of the Earth–Moon transfer phase
 
 ## Related Concepts
 
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
 - Low Lunar Orbit, LLO
 - [Gravitational Asymmetry at Libration Points](/en/glossary/fundamentals/gravitational-asymmetry-at-libration-points/)
 - Complex Periodic Orbit

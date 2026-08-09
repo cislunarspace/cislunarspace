@@ -40,7 +40,7 @@ permalink: /glossary/dynamics/state-constraint/
 
 - [保守系统（Conservative System）](/glossary/dynamics/conservative-system/)
 - 空间流形动力学（Space Manifold Dynamics, SMD）
-- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/rsw/)
+- [RSW坐标系（Radial-Transverse-Normal Frame, RSW Frame）](/glossary/dynamics/orbital-coordinate-frames/)
 
 ## 参考文献
 

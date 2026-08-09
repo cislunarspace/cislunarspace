@@ -39,7 +39,7 @@ In orbit design and optimization, this concept is used to analyze spacecraft mot
 ## Related Concepts
 
 - Lunar Fly-by Method
-- [Backward Lunar Gravity Assist](/en/glossary/dynamics/backward-lunar-gravity-assist/)
+- [Backward Lunar Gravity Assist](/en/glossary/dynamics/solar-perturbation-lga/)
 - Close Lunar Flyby
 - Reachability Set
 

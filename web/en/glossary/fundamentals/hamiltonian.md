@@ -38,7 +38,7 @@ This concept plays a key role in trajectory transfer design, helping evaluate tr
 ## Related Concepts
 
 - Scheduled and Pinpoint Landing
-- [Surface of Section, SOS](/glossary/fundamentals/sos/)
+- [Surface of Section, SOS](/en/glossary/dynamics/poincare-section/)
 - [Truncation Strategy](/glossary/fundamentals/truncation-strategy/)
 
 ## References

@@ -40,7 +40,7 @@ This theory provides a mathematical basis for multi-objective optimization in ci
 
 - [Monte Carlo Trajectory Shooting, MCTS](/en/glossary/dynamics/mcts/)
 - Powered Lunar Flyby, PLF
-- [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
+- [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/cr3bp/)
 - Insertion Delta-V
 
 ## References

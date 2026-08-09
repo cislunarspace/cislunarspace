@@ -33,8 +33,8 @@ A system resulting from a small perturbation of an integrable Hamiltonian system
 
 ## Related Concepts
 
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
-- [CLERM](/en/glossary/dynamics/circular-linearized-equations-of-relative-motion/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
+- [CLERM](/en/glossary/dynamics/relative-motion/)
 
 ## References
 

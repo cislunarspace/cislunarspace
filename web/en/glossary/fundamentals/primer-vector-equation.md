@@ -40,7 +40,7 @@ A second-order linear ODE p̈ = G(r) p governing the evolution of the primer vec
 
 - Orbital State Vector
 - Coordinate Time
-- [Hill Frame](/en/glossary/fundamentals/hill-frame/)
+- [Hill Frame](/en/glossary/dynamics/orbital-coordinate-frames/)
 - Kepler's Laws
 
 ## References

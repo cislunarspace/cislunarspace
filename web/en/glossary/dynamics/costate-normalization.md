@@ -34,9 +34,9 @@ Technique of scaling the Hamiltonian to set one initial costate to unity, used t
 
 ## Related Concepts
 
-- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
-- [Hill Region](/en/glossary/fundamentals/hill-region/)
-- [Poincaré Map](/en/glossary/dynamics/poincar-map/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-integral/)
+- [Hill Region](/en/glossary/dynamics/hill-region-and-hill-problem/)
+- [Poincaré Map](/en/glossary/dynamics/poincare-section/)
 - Stability
 
 ## References

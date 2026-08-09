@@ -1,28 +1,28 @@
 ---
-title: 微分修正（Differential Correction）
-description: 详细解析微分修正方法的定义、数学原理、状态转移矩阵线性化技术，以及在地月周期轨道求解中的应用
-keywords: 微分修正, Differential Correction, 状态转移矩阵, 打靶法, 轨道修正, 周期轨道, 地月空间
+title: 微分修正与打靶法（Differential Correction & Shooting Method）
+description: 轨道力学中求解边值问题的核心数值方法——以状态转移矩阵为线性化算子，通过 Newton-Raphson 迭代修正自由变量使终端约束收敛到零。覆盖自由变量/约束方程、定步/变步打靶、多重打靶与 Howell-Pernicka 两级修正、直接/间接公式，以及 CR3BP 周期轨道与星历模型转移轨道设计中的工程要点。
+keywords: 微分修正, 打靶法, differential correction, shooting method, 状态转移矩阵, 多重打靶, 两级微分修正, Newton-Raphson, 边值问题, 拼接点
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
-  title: 微分修正（Differential Correction）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  title: 微分修正与打靶法（Differential Correction & Shooting Method）
+  desc: 用状态转移矩阵把轨道边值问题线性化，再以 Newton 迭代打到目标——周期轨道与转移轨道设计的核心算法。
   image: /logo.png
 og:
-  title: 微分修正方法详解 | 轨道初始条件迭代求解技术
-  description: 详细解析微分修正方法的定义、数学原理、状态转移矩阵线性化技术，以及在地月周期轨道求解中的应用
+  title: 微分修正与打靶法详解 | 轨道力学核心数值方法
+  description: 轨道力学中求解边值问题的核心数值方法——以状态转移矩阵为线性化算子，通过 Newton-Raphson 迭代修正自由变量使终端约束收敛到零。覆盖自由变量/约束方程、定步/变步打靶、多重打靶与 Howell-Pernicka 两级修正、直接/间接公式，以及 CR3BP 周期轨道与星历模型转移轨道设计中的工程要点。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 微分修正方法详解 | 轨道初始条件迭代求解技术
-  description: 详细解析微分修正方法的定义、数学原理、状态转移矩阵线性化技术，以及在地月周期轨道求解中的应用
+  title: 微分修正与打靶法详解 | 轨道力学核心数值方法
+  description: 轨道力学中求解边值问题的核心数值方法——以状态转移矩阵为线性化算子，通过 Newton-Raphson 迭代修正自由变量使终端约束收敛到零。
   image: /logo.png
 permalink: /glossary/dynamics/differential-correction/
 ---
 
-# 微分修正（Differential Correction）
+# 微分修正与打靶法（Differential Correction & Shooting Method）
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
@@ -30,100 +30,126 @@ permalink: /glossary/dynamics/differential-correction/
 
 ## 定义
 
-微分修正（Differential Correction）是轨道力学中一种核心的迭代数值方法，利用**状态转移矩阵**（State Transition Matrix, STM）对轨道的初始条件进行线性化修正，使轨道逐步收敛至满足特定约束条件（如周期条件、近月点高度约束、过境点约束等）的解。它是打靶法（Shooting Method）的数学基础，也是几乎所有轨道数值设计流程中不可或缺的工具。
+微分修正（differential correction）是轨道力学中求解边值问题（BVP）的核心迭代算法。它把动力学方程在某条参考轨迹附近做一阶 Taylor 展开，用[状态转移矩阵](/glossary/fundamentals/stm/)（State Transition Matrix, STM）$\boldsymbol{\Phi}(t,t_0)=\partial\mathbf{x}(t)/\partial\mathbf{x}_0$ 作为线性化算子，把"如何调整初始自由变量才能消除末端约束残差"这件事化作一个线性代数问题，再用 [Newton-Raphson 迭代](/glossary/dynamics/newton-raphson-method/)反复线性化、求解，直至残差范数 $\|\mathbf{F}\|$ 进入容差（Muralidharan 2021 Ch. 3；Vallado 2022 §10.4）。
 
-在地月空间动力学研究中，微分修正广泛用于求解平动点附近的周期轨道（Halo 轨道、Lyapunov 轨道、DRO 等）的初始条件，以及拼接法中连接点处的状态匹配。
+打靶法（shooting method）是微分修正在边值问题上的标准用例：把 BVP 转化为初值问题（IVP），猜测缺失的初始条件、向前积分、检查终端残差、用 STM 反向修正，"打"中终端目标。两者在 CR3BP 文献里常被混用——**严格地说，微分修正指的是修正算法本身，打靶法指的是把它套到 BVP 上的求解策略**；微分修正也独立出现在轨道确定（OD）的最小二乘估计里（Vallado 2022 把 Algorithm 67 命名为 "Differential Correction"，即此意）。
 
-## 核心要素
+## 数学公式
 
-### 状态转移矩阵
+### 自由变量 / 约束方程
 
-状态转移矩阵 $\boldsymbol{\Phi}(t, t_0)$ 描述了轨道状态随初始条件变化的线性敏感性。设轨道状态向量为 $\mathbf{x} = [\mathbf{r}^T, \mathbf{v}^T]^T \in \mathbb{R}^6$，则：
+设 $\bar{X}\in\mathbb{R}^n$ 是待修正的自由变量（初始速度分量、轨道周期、[拼接点](/glossary/dynamics/patch-point/)状态等），$\bar{F}(\bar{X})\in\mathbb{R}^m$ 是约束残差向量（位置/速度不匹配、周期性条件、近月点高度等）。在当前迭代点 $\bar{X}_j$ 处一阶 Taylor 展开，并令 $\bar{F}(\bar{X}_{j+1})\approx\bar{0}$：
 
-$$\delta \mathbf{x}(t) = \boldsymbol{\Phi}(t, t_0) \cdot \delta \mathbf{x}(t_0)$$
+$$\bar{F}(\bar{X}_j)+D\bar{F}(\bar{X}_j)\,(\bar{X}_{j+1}-\bar{X}_j)=\bar{0}$$
 
-其中 $\delta \mathbf{x}$ 为状态偏差。STM 满足协变微分方程：
+其中 $D\bar{F}=\partial\bar{F}/\partial\bar{X}\in\mathbb{R}^{m\times n}$ 是约束对自由变量的雅可比矩阵。由于约束是终端状态的函数、终端状态由初始状态经动力学流映射得到，$D\bar{F}$ 的每一项都由对应弧段的 STM 给出。
 
-$$\dot{\boldsymbol{\Phi}}(t, t_0) = \mathbf{A}(t) \cdot \boldsymbol{\Phi}(t, t_0), \quad \boldsymbol{\Phi}(t_0, t_0) = \mathbf{I}_6$$
+### 三种求解形式
 
-其中 $\mathbf{A}(t) = \frac{\partial \mathbf{f}}{\partial \mathbf{x}}\bigg|_{\mathbf{x}(t)}$ 为动力学方程的雅可比矩阵。在数值积分中，STM 方程通常与轨道方程同时积分。
-
-### 基本修正算法
-
-设目标约束为 $\mathbf{g}(\mathbf{x}_f) = \mathbf{0}$（如周期条件要求末端状态与初始状态满足某种关系），当前轨道末端状态偏差为 $\Delta \mathbf{x}_f$。利用 STM 线性化：
-
-$$\Delta \mathbf{x}_f \approx \frac{\partial \mathbf{g}}{\partial \mathbf{x}_f} \cdot \boldsymbol{\Phi}(t_f, t_0) \cdot \Delta \mathbf{x}_0$$
-
-记约束对初始条件的敏感性矩阵为 $\mathbf{M} = \frac{\partial \mathbf{g}}{\partial \mathbf{x}_f} \cdot \boldsymbol{\Phi}(t_f, t_0)$，则初始条件修正量为：
-
-$$\Delta \mathbf{x}_0 = -\mathbf{M}^{\dagger} \cdot \mathbf{g}(\mathbf{x}_f)$$
-
-其中 $\mathbf{M}^{\dagger}$ 为 $\mathbf{M}$ 的伪逆（当 $\mathbf{M}$ 为方阵时即为逆矩阵）。迭代直至 $\|\mathbf{g}(\mathbf{x}_f)\| < \varepsilon$（$\varepsilon$ 为收敛容差）。
-
-### 周期轨道的微分修正
-
-对于 CR3BP 中的对称周期轨道（如 DRO），利用轨道的对称性可以简化微分修正：
-
-**DRO 的打靶条件（关于 $x$ 轴对称）：**
-
-DRO 轨道关于 $x$ 轴对称，因此只需对半周期进行积分。在 $x$ 轴穿越点处，约束条件为：
-
-$$y(t_f) = 0, \quad \dot{x}(t_f) = 0, \quad \dot{z}(t_f) = 0$$
-
-自由变量为初始条件中的 $\dot{y}_0$ 和轨道周期 $T$（或半周期 $T/2$）。修正方程为：
-
-$$\begin{bmatrix} \delta \dot{y}_0 \\ \delta T/2 \end{bmatrix} = -\mathbf{M}^{-1} \begin{bmatrix} y_f \\ \dot{x}_f \end{bmatrix}$$
-
-其中 $\mathbf{M}$ 为 $2 \times 2$ 敏感性矩阵，由 STM 的相关分量构成。
-
-### 在拼接法中的应用
-
-魏赞等（2026）在利用拼接法设计 DRO 转移轨道时，微分修正用于：
-
-1. **LEO 至近月点弧段修正**：调整 LEO 出发速度，使轨道到达月球附近时满足近月点高度约束
-2. **近月点至 DRO 弧段修正**：从近月点出发的初始条件修正，使末端状态收敛至目标 DRO 轨道
-3. **拼接点匹配修正**：当两段轨道在近月点处的速度不匹配时，修正各段参数以减小速度差 $\|\Delta \mathbf{v}_{\text{PLF}}\|$
-
-### 多步打靶与单步打靶
-
-| 方法 | 描述 | 适用场景 |
+| 条件 | 自由变量数 vs 约束数 | 更新公式 |
 | :--- | :--- | :--- |
-| **单步打靶** | 从初始点一次积分到末端，用 STM 修正初始条件 | 短弧段、约束简单 |
-| **多步打靶** | 将轨道分为多段，每段独立积分并在节点处施加连续性约束 | 长弧段、复杂约束、高精度要求 |
+| 适定 | $n=m$ | $\bar{X}_{j+1}=\bar{X}_j-[D\bar{F}]^{-1}\bar{F}$ |
+| 欠定（最小范数解） | $n>m$ | $\bar{X}_{j+1}=\bar{X}_j-D\bar{F}^{T}[D\bar{F}\,D\bar{F}^{T}]^{-1}\bar{F}$ |
+| 超定（最小二乘解） | $n<m$ | $\bar{X}_{j+1}=\bar{X}_j-[D\bar{F}^{T}D\bar{F}]^{-1}D\bar{F}^{T}\bar{F}$ |
 
-多步打靶在每段内使用各自的 STM，通过节点处的状态匹配约束将各段耦合。相比单步打靶，多步打靶具有更好的数值稳定性和更快的收敛速度。
+欠定情形在轨道保持、最小速度增量打靶中常见——多个自由变量满足同一组约束时，最小范数解给出"最省推进剂"的修正。Vallado（2022 §10.4）在轨道确定场景下用相同的最小二乘结构处理超定问题（观测数远大于状态维数）。
 
-### 收敛性分析
+### STM 与雅可比的耦合
 
-微分修正的收敛性受以下因素影响：
+状态转移矩阵满足协变微分方程（沿参考轨迹与运动方程同时积分）：
 
-- **初始猜测的质量**：距离真实解越近，线性化近似越准确，收敛越快
-- **约束条件的非线性程度**：强非线性约束可能需要更多迭代或阻尼策略
-- **STM 的数值精度**：长时间积分中 STM 可能积累误差，影响修正方向的准确性
-- **自由变量与约束的匹配**：自由变量数应等于约束数，否则为欠定或超定问题
+$$\dot{\boldsymbol{\Phi}}(t,t_0)=A(t)\,\boldsymbol{\Phi}(t,t_0),\quad \boldsymbol{\Phi}(t_0,t_0)=I_6,\quad A(t)=\left.\frac{\partial\mathbf{f}}{\partial\mathbf{x}}\right|_{\mathbf{x}(t)}$$
 
-典型收敛速度为**二次收敛**（牛顿法特性），在初始猜测较好时通常 3-5 次迭代即可达到 $10^{-12}$ 量级的精度。
+CR3BP 中 $\mathbf{x}\in\mathbb{R}^6$（位置 + 速度），STM 是 $6\times 6$；加上 6 个状态方程共 42 个常微分方程同步积分。
 
-## 应用价值
+## 打靶法的两种构型
 
-微分修正方法在地月空间轨道设计中的核心地位体现在：
+### 单步打靶（Single Shooting）
 
-- **周期轨道求解**：Halo 轨道、Lyapunov 轨道、DRO 等所有周期轨道族的初始条件都依赖微分修正求解
-- **转移轨道优化**：在拼接法和直接法中，微分修正用于调整设计参数以满足终端约束
-- **轨道保持策略**：轨道保持机动的设计本质上也是微分修正问题——确定最小速度增量使轨道回归标称轨迹
-- **任务可行性评估**：通过快速微分修正可以判断某一转移方案是否满足所有约束条件
+把整段轨迹作为一条弧，调整初始速度 $\mathbf{v}_0$（和可能的飞行时间 $T$），让末端状态命中目标。
+
+**固定时间位置目标**（Muralidharan 2021 §3.3.1）：自由变量 $\bar{X}=[\dot{x}_0,\dot{y}_0,\dot{z}_0]^T$，约束 $\bar{F}=\mathbf{r}(T)-\mathbf{r}_d$，雅可比 $D\bar{F}=\boldsymbol{\Phi}_{vr}(T,t_0)$（即 STM 的右上 $3\times3$ 子块，描述末端位置对初始速度的敏感性）。3 个方程 3 个未知量，适定求解。
+
+**变时间位置目标**（Muralidharan 2021 §3.3.2）：把飞行时间 $T$ 也作为自由变量，$\bar{X}=[\dot{x}_0,\dot{y}_0,\dot{z}_0,T]^T\in\mathbb{R}^4$，约束仍为 3 维末端位置残差，得欠定方程组，用最小范数解。雅可比新增的一列 $\partial\mathbf{r}(T)/\partial T=\dot{\mathbf{r}}(T)$ 即末端速度。变时间构型在周期轨道搜索中是标准做法——周期 $T$ 本身是未知量。
+
+### 多重打靶（Multiple Shooting）
+
+单步打靶在长弧段或穿越高敏感区（如近月点）时，STM 严重病态、初值敏感性放大，迭代易发散。多重打靶把整条轨迹切分为 $n$ 段子弧，在 $n-1$ 个内部[拼接点](/glossary/dynamics/patch-point/)处分别设未知状态 $\bar{x}_i$（fixed-time 版本：自由变量维度 $6n$；variable-time 版本再加 $n$ 段飞行时间，维度 $7n-1$），在各拼接点施加位置速度连续性约束（Muralidharan 2021 §3.4；Pavlak & Howell 2012）：
+
+$$\bar{F}_i(\bar{X})=\bar{x}_{i+1}-\boldsymbol{\Phi}_{i+1,i}\,\bar{x}_i=\mathbf{0},\quad i=1,\dots,n-1$$
+
+每段使用各自的 STM $\boldsymbol{\Phi}_{i+1,i}$。把所有约束叠加后做一次牛顿迭代，所有拼接点状态同时更新。代价是设计变量维度从 6/7 涨到 $6n$/$7n-1$，但收敛域扩大、对初猜的敏感性大幅降低——这是把 CR3BP 周期轨道过渡到高保真星历模型时的标准工具（Pavlak 2013；Muralidharan 2021 §4.4 用 40–50 圈 NRHO 拼接生成约 1 年的虚拟参考轨迹）。
+
+## Howell-Pernicka 两级修正
+
+准周期轨道（Lissajous、quasi-halo、拟周期 DRO）在 CR3BP 中不严格闭合，单层微分修正难以同时消除位置和速度残差。Howell & Pernicka（1987, 1990, 1993）的两级修正（two-level corrector，文献中又称 two-level targeter / TLT）把迭代分成两层：
+
+- **内层（位置连续）**：固定各拼接点位置，只修正各点速度，消除位置不连续；
+
+- **外层（速度连续）**：调整拼接点位置与各段时间，消除速度不连续。
+
+两层嵌套迭代直至位置和速度同时连续。这是计算 Lissajous 与 quasi-halo 轨道族、以及把这类轨道过渡到星历模型的标准算法。后续工作中，Pavlak & Howell（2012）用多重打靶把它推广到长基线轨迹的连续化拼接；Orion 飞船的自主地球返回制导（Wang 等 2024）在两层结构基础上加入任务约束，演化为带约束的两级靶点器。
+
+## 收敛行为与陷阱
+
+- **二阶收敛**：在解附近呈现 Newton 法特有的二阶收敛，初猜足够好时 3–5 次迭代即达到 $10^{-12}$ 量级。
+
+- **初猜质量决定成败**：远离真解时线性化失效，可能发散或陷入局部极小。常用对策是[延拓](/glossary/dynamics/continuation/)（沿轨道族逐步推进）和[同伦法](/glossary/dynamics/homotopy-method/)（从易问题连续过渡到难问题）。
+
+- **STM 的有效区间**：STM 是一阶近似，长时间传播或穿越近月点等高敏感区时误差显著。Muralidharan（2021 §5.10）指出在 9:2 NRHO 上以 6.5 圈下游穿越点为靶点时，1 cm/s 量级扰动经非线性流传播后已呈多峰非高斯分布，线性 STM 估计的机动方向会有偏差——这是单步打靶在长时域上失效的根因，也是多重打靶被引入的直接动机。
+
+- **自由变量与约束的配平**：变量数 > 约束数（欠定）取最小范数解；变量数 < 约束数（超定）取最小二乘解；两者不等时的物理含义不同，配置错误会导致修正方向无意义。
+
+## 直接法 vs 间接法（与最优控制的关系）
+
+在[最优控制](/glossary/dynamics/pontryagins-maximum-principle/)意义下的轨迹优化中，"打靶"有更具体的含义：
+
+- **间接打靶**：以协态初值 $\boldsymbol{\lambda}(t_0)$ 和终端时间 $t_f$ 为自由变量，积分 Hamilton 正则方程，使终端状态/横截条件满足。协态无物理直观、对初猜极敏感，典型困难见[两点边值问题](/glossary/dynamics/tpbvp/)。
+
+- **直接打靶 / 直接转录**：把连续控制 $\mathbf{u}(t)$ 离散化为参数序列，整个最优控制问题化为非线性规划（NLP），不显式引入协态。直接多重打靶（direct multiple shooting，Bock 1981；Sager 2009）在每段节点同时设状态与控制变量，段内用显式积分，是航天 NLP 求解器的标准底层算法之一。
+
+直接打靶收敛性更好但变量维度高；间接打靶维度低、精度高（满足 Pontryagin 必要条件），但初猜困难。实际工程中常用"直接法生成初猜 → 间接法精化"的组合策略。
+
+## 在地月空间中的应用
+
+- **周期轨道生成**：Halo、Lyapunov、DRO、NRHO、axial、vertical 等所有 CR3BP 周期轨道族的精确初始条件，都用对称性化简后的变时间单步打靶求解（半周期积分到 $x$ 轴穿越点，约束 $y=\dot{x}=\dot{z}=0$，自由变量为 $\dot{y}_0$ 和半周期 $T/2$）。
+
+- **转移轨道设计**：地月 LEO→DRO、地月 LEO→NRHO、星球间转移等，用单步/多重打靶匹配终端状态。低能转移常用[拼接点](/glossary/dynamics/patch-point/)处的微分修正消除段间速度跳变。
+
+- **星历模型过渡**：CR3BP 解 → 高保真星历模型解的过渡，几乎一律用多重打靶（典型 40–50 个拼接点，覆盖一年任务期）。
+
+- **轨道保持**：[Target Point 策略](/glossary/dynamics/target-point-strategy/)、x 轴穿越控制、$\dot{x}$-控制等[轨道保持](/glossary/dynamics/station-keeping/)算法本质上都是单步打靶——以未来某圈的下一次穿越点为目标，反解当前机动 $\Delta\mathbf{v}$。
+
+- **轨道确定**：地面观测确定航天器轨道的最小二乘估计，Vallado（2022 Algorithm 67）称之为"微分修正"，与 targeting 用同一套数学框架，只是观测残差代替终端约束。
 
 ## 相关概念
 
+- [状态转移矩阵（STM）](/glossary/fundamentals/stm/)
+
+- [拼接点（Patch Point）](/glossary/dynamics/patch-point/)
+
+- [两点边值问题（TPBVP）](/glossary/dynamics/tpbvp/)
+
 - [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- 拼接法（Patched Method）
-- [延拓（Continuation）](/glossary/dynamics/continuation/)
-- [庞加莱图（Poincaré Map）](/glossary/dynamics/poincare-map/)
-- 脉冲机动（Impulsive Maneuver）
+
+- [延拓法（Continuation）](/glossary/dynamics/continuation/)
+
+- [庞加莱截面（Poincaré Map）](/glossary/dynamics/poincare-map/)
+
+- [单值矩阵（Monodromy Matrix）](/glossary/dynamics/monodromy-matrix/)
+
+- [Newton-Raphson 迭代](/glossary/dynamics/newton-raphson-method/)
 
 ## 参考文献
 
-- 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 北京航空航天大学学报, 2026.
-- Zimovan E M. Characteristics and design strategies for near rectilinear halo orbits within the Earth-Moon system[D]. Purdue University, 2017.
-- Howell K C, Pernicka H J. Numerical determination of Lissajous trajectories in the restricted three-body problem[J]. Celestial Mechanics, 1987, 41(1-4): 107-124.
-- Pavlak T A, Howell K C. Trajectory design in the planar circular restricted three-body problem using polynomial target maps[C]. AAS/AIAA Astrodynamics Specialist Conference, 2010.
+- Muralidharan A. Stretching directions in cislunar space: stationkeeping and an application to transfer trajectory design[D]. Purdue University, 2021.（第 3 章 STM、微分修正、单/多重打靶的标准教科书式表述）
+
+- Howell K C, Pernicka H J. Numerical determination of Lissajous trajectories in the restricted three-body problem[J]. Celestial Mechanics, 1987, 41(1-4): 107-124.（两级微分修正的原始出处）
+
+- Pavlak T A. Trajectory design and orbit maintenance strategies in multi-body dynamical regimes[D]. Purdue University, 2013.（多重打靶生成长基线星历轨迹）
+
+- Vallado D A. Fundamentals of Astrodynamics and Applications[M]. 5th ed. Microcosm Press, 2022. §10.4, Algorithm 67.（轨道确定场景下的微分修正与最小二乘框架）
+
+- Wilson R S. Generation of accurate baseline numerical trajectories for the three-body problem[D]. Purdue University, 2003.（自由变量/约束方程的形式化）
+
+- Bock H G, Plitt K J. A multiple shooting algorithm for direct solution of optimal control problems. IFAC Proceedings Volumes, 1984.（直接多重打靶）

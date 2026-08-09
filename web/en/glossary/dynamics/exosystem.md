@@ -33,7 +33,7 @@ In nonlinear regulation theory, an autonomous dynamical system describing the so
 
 ## Related Concepts
 
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
 - Low Lunar Orbit, LLO
 - [Gravitational Asymmetry at Libration Points](/en/glossary/fundamentals/gravitational-asymmetry-at-libration-points/)
 - Complex Periodic Orbit

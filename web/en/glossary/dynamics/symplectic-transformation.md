@@ -38,7 +38,7 @@ This术语在地月空间任务的设计、分析和控制中具有important应�
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
 - [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
 - [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
 - 姿态确定与控制系统（Attitude Determination and Control System）

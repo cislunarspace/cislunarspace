@@ -40,8 +40,8 @@ permalink: /glossary/fundamentals/delta-v-budget/
 
 - [质心旋转坐标系（Center-of-Mass Rotating Frame）](/glossary/fundamentals/synodic-frame/)
 - 质量参数（Mass Parameter）
-- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
-- [归一化单位（Normalized Units）](/glossary/fundamentals/normalized-units/)
+- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-integral/)
+- [归一化单位（Normalized Units）](/glossary/fundamentals/nondimensionalization/)
 
 ## 参考文献
 

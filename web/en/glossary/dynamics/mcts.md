@@ -39,7 +39,7 @@ This concept plays an important role in cislunar orbit design and transfer analy
 ## Related Concepts
 
 - Powered Lunar Flyby, PLF
-- [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/pcrtbp/)
+- [Planar Circular Restricted Three-Body Problem, PCRTBP](/en/glossary/dynamics/cr3bp/)
 - Insertion Delta-V
 - Momentum Integral, MI
 

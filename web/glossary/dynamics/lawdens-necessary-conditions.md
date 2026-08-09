@@ -41,7 +41,7 @@ Lawden 必要条件在轨道设计和轨迹优化中用于将连续控制问题�
 - [控制参数化（Control Parametrization）](/glossary/dynamics/control-parametrization/)
 - 推力器调制器（Thruster Modulator）
 - 粒子群优化器（Particle Swarm Optimizer）
-- [脉冲间隔（Impulse Interval）](/glossary/dynamics/impulse-interval/)
+- [脉冲间隔（Impulse Interval）](/glossary/dynamics/two-impulse-rendezvous/)
 
 ## 参考文献
 

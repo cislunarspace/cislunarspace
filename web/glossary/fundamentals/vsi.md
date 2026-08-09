@@ -40,7 +40,7 @@ permalink: /glossary/fundamentals/vsi/
 
 - [非劣排序遗传算法II（Non-Dominated Sorting Genetic Algorithm II）](/glossary/fundamentals/nsga-ii/)
 - 离子推进（Ion Propulsion）
-- [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/fundamentals/t-p-graph/)
+- [蒂塞朗-庞加莱图（Tisserand-Poincaré Graph）](/glossary/dynamics/poincare-section/)
 - 中途修正（Mid-course Correction）
 
 ## 参考文献

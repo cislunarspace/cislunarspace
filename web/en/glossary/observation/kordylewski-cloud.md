@@ -33,7 +33,7 @@ Dust clouds concentrated near the triangular Lagrange points (L4, L5) of the Ear
 
 ## Related Concepts
 
-- [Manifold Propagation](/en/glossary/dynamics/manifold-propagation/)
+- [Manifold Propagation](/en/glossary/dynamics/invariant-manifold/)
 - Halo Orbit Insertion, HOI
 - Collision Warning
 

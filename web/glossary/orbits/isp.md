@@ -40,7 +40,7 @@ permalink: /glossary/orbits/isp/
 
 - 地球-月球L1光环轨道（Earth-Moon L1 Halo Orbit）
 - 弹道月球转移（Ballistic Lunar Transfer）
-- [弱稳定区（Weak Stability Region）](/glossary/dynamics/wsr/)
+- [弱稳定区（Weak Stability Region）](/glossary/dynamics/wsb/)
 - [准周期轨道（Quasi-Periodic Orbit）](/glossary/orbits/qpo/)
 
 ## 参考文献

@@ -42,7 +42,7 @@ permalink: /glossary/fundamentals/conjugate-point/
 
 - 轨道状态向量（Orbital State Vector）
 - 坐标时（Coordinate Time）
-- [Hill坐标系（Hill Frame）](/glossary/fundamentals/hill-frame/)
+- [Hill坐标系（Hill Frame）](/glossary/dynamics/orbital-coordinate-frames/)
 - 开普勒定律（Kepler's Laws）
 
 ## 参考文献

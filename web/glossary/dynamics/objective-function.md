@@ -39,9 +39,9 @@ permalink: /glossary/dynamics/objective-function/
 ## 相关概念
 
 - 粒子群优化（Particle Swarm Optimization, PSO）
-- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/cj/)
-- [希尔区域（Hill Region）](/glossary/fundamentals/hill-region/)
-- [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincar-map/)
+- [雅可比常数（Jacobi Constant, JC）](/glossary/dynamics/jacobi-integral/)
+- [希尔区域（Hill Region）](/glossary/dynamics/hill-region-and-hill-problem/)
+- [庞加莱映射（Poincaré Map）](/glossary/dynamics/poincare-section/)
 
 ## 参考文献
 

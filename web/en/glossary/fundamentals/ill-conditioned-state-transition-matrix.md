@@ -36,8 +36,8 @@ A phenomenon in solving the three-body Lambert problem where the state transitio
 
 - [Center-of-Mass Rotating Frame](/en/glossary/fundamentals/synodic-frame/)
 - Mass Parameter
-- [Jacobi Constant, JC](/en/glossary/dynamics/jc/)
-- [Normalized Units](/en/glossary/fundamentals/normalized-units/)
+- [Jacobi Constant, JC](/en/glossary/dynamics/jacobi-integral/)
+- [Normalized Units](/en/glossary/fundamentals/nondimensionalization/)
 
 ## References
 

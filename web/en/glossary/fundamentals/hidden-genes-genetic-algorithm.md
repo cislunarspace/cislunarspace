@@ -38,8 +38,8 @@ A multi-objective optimization algorithm developed by Visonneau et al. for cislu
 
 ## Related Concepts
 
-- [Multiple Shooting Method](/en/glossary/fundamentals/multiple-shooting-method/)
-- [Continuous Low Thrust](/en/glossary/fundamentals/continuous-low-thrust/)
+- [Multiple Shooting Method](/en/glossary/dynamics/differential-correction/)
+- [Continuous Low Thrust](/en/glossary/fundamentals/ep/)
 - Two-Way Link
 - Inertial Coordinate System
 

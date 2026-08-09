@@ -38,7 +38,7 @@ Symplectic change of variables that reduces the second-order Hamiltonian near co
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/glossary/dynamics/gcrf/)
+- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
 - [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
 - 相对论效应（Relativistic Effect）
 - [符号处理器（Symbolic Manipulator）](/glossary/dynamics/symbolic-manipulator/)

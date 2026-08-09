@@ -39,9 +39,9 @@ permalink: /glossary/dynamics/qualitative-analysis-method/
 ## 相关概念
 
 - 遭遇区域（Encounter Region）
-- [相对论效应修正（Relativistic Correction）](/glossary/dynamics/relativistic-correction/)
-- [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/dfbt/)
-- [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/safe-transfer-formation/)
+- [相对论效应修正（Relativistic Correction）](/glossary/fundamentals/orbital-perturbations/)
+- [直接飞越转移（Direct Fly-By Transfer, DFBT）](/glossary/dynamics/cislunar-transfer-design-elements/)
+- [安全转移编队（Safe Transfer Formation）](/glossary/dynamics/spacecraft-formation-flying/)
 
 ## 参考文献
 

@@ -38,9 +38,9 @@ A nontrivial solution of the variational (linearized Hamiltonian) equation along
 
 ## Related Concepts
 
-- [Time-Varying System](/en/glossary/fundamentals/time-varying-system/)
+- [Time-Varying System](/en/glossary/fundamentals/eom/)
 - Lipschitz Condition
-- [Variable-Time Targeting](/en/glossary/fundamentals/variable-time-targeting/)
+- [Variable-Time Targeting](/en/glossary/dynamics/differential-correction/)
 - Return Corridor
 
 ## References

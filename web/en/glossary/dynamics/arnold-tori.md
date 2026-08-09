@@ -40,8 +40,8 @@ Phase space structure composed of invariant tori in nearly integrable Hamiltonia
 
 - Hill Sphere Radius
 - [Pseudospectral Convex Optimization](/en/glossary/dynamics/pseudospectral-convex-optimization/)
-- [Poincaré Map Representation](/en/glossary/dynamics/poincar-map-representation/)
-- [Minimum Norm Targeting](/en/glossary/dynamics/minimum-norm-targeting/)
+- [Poincaré Map Representation](/en/glossary/dynamics/poincare-section/)
+- [Minimum Norm Targeting](/en/glossary/dynamics/differential-correction/)
 
 ## References
 

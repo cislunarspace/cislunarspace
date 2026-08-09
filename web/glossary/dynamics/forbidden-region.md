@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/forbidden-region/
 
 ## 相关概念
 
-- [微分改正法](/glossary/fundamentals/differential-correction/)
+- [微分改正法](/glossary/dynamics/differential-correction/)
 - [间接法](/glossary/dynamics/indirect-methods/)
 - 共振条件
 - 低推力平衡点
