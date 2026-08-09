@@ -30,7 +30,7 @@ twitter:
 
 Cislunar space research spans orbital dynamics, guidance-navigation-control, deep-space mission design, and space-environment modeling, so its terminology is inherently cross-disciplinary. This glossary collects terms ranging from foundational concepts to front-edge topics, grouped by category for easy reference.
 
-The Chinese edition ([术语词典](/glossary/)) is the authoritative source and lists every entry in full. This English edition mirrors it; entries that are not yet translated are being added progressively.
+The Chinese edition ([术语词典](/glossary/)) lists every entry in full and is the source text for the English edition. This English edition mirrors it; entries that are not yet translated are being added progressively.
 
 ## Categories
 
