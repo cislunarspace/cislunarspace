@@ -18,7 +18,7 @@ image: ./figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg
 
 **Summary:** China's Meteorological Administration announced on April 28 at a State Council Information Office press conference that during the 15th Five-Year Plan period (2026-2030), China will launch the world's first geostationary orbit microwave atmospheric sounding satellite — the Fengyun-4 Microwave Satellite — filling a global gap in all-weather, high-frequency, three-dimensional atmospheric observation. The satellite is scheduled for launch around 2026 aboard a Long March rocket and will operate in geostationary orbit, forming a network with the Fengyun-4 optical series and Fengyun-3 polar orbit satellites.
 
-![Fengyun-4 Microwave Satellite illustration](./figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg)
+![Fengyun-4 Microwave Satellite illustration](/space-news/2026/04/figures/2026-04-28-fengyun-4-microwave-satellite/hero.jpg)
 *Credit: via Tencent News / Guo Xin Wang*
 
 ## A World-First in Space-Based Atmospheric Sensing

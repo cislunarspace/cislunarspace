@@ -14,7 +14,7 @@ image: ./figures/2026-06-02-hot-jupiter-magnetic-field/hero.jpg
 
 **Summary:** A team led by the European Southern Observatory (ESO), using the Very Large Telescope (VLT) and Gemini North, has measured the atmospheric wind speeds of seven tidally locked hot-Jupiter exoplanets and discovered a counter-intuitive trend: the hotter the planet, the slower the wind. The team interpreted this as a magnetic-braking effect — global magnetic fields slowing charged particles in the upper atmosphere — and used the relationship to infer magnetic field strengths for the seven worlds of roughly four times Saturn's, half of Jupiter's. The result marks the first direct measurement of magnetic fields around planets outside the solar system, and gives exoplanet habitability studies a new dimension beyond orbit and atmosphere.
 
-![Artist's impression of a hot-Jupiter exoplanet, tidally locked to its host star with a permanent dayside and nightside, driving extreme atmospheric circulation. (Image credit: Space.com)](./figures/2026-06-02-hot-jupiter-magnetic-field/hero.jpg)
+![Artist's impression of a hot-Jupiter exoplanet, tidally locked to its host star with a permanent dayside and nightside, driving extreme atmospheric circulation. (Image credit: Space.com)](/space-news/2026/06/figures/2026-06-02-hot-jupiter-magnetic-field/hero.jpg)
 
 Team member Julia Seidel, an astronomer at the Observatoire de la Côte d'Azur's Laboratoire Lagrange, framed the significance: "This breakthrough opens a completely new window on exoplanet research. It's the first time we can compare the magnetic environments of other worlds — a key step toward ultimately understanding which planets can stay alive, keep their water, and perhaps even, one day, host life as we know it."
 

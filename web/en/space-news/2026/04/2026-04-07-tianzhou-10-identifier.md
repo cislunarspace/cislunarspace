@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** On April 7, 2026, the China Manned Space Engineering Office officially released the mission identifier for Tianzhou 10. The circular design symbolizes the successful completion of the mission and harmonious unity between heaven and Earth. The golden gradient lines on both sides symbolize the flourishing power and brilliant achievements embodied in the mission. Tianzhou 10 is a planned cargo mission scheduled for 2026.
 
-![Tianzhou 10 Mission Identifier (Credit: China Manned Space Engineering Office)](./figures/2026-04-07-tianzhou-10-identifier/hero.jpg)
+![Tianzhou 10 Mission Identifier (Credit: China Manned Space Engineering Office)](/space-news/2026/04/figures/2026-04-07-tianzhou-10-identifier/hero.jpg)
 *Credit: China Manned Space Engineering Office*
 
 ## Design Philosophy

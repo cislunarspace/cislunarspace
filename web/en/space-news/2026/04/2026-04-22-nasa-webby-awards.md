@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-nasa-webby-awards/hero.jpg
 
 **Summary:** On April 21, 2026, NASA was honored with two Webby Awards and five People's Voice Awards at the 30th Annual Webby Awards, one of the internet's most prestigious recognition programs. The awards highlight NASA's outstanding digital communications, online content, and public engagement efforts across its websites and digital platforms.
 
-![NASA received multiple Webby Awards in 2026 for its digital content and online platforms (NASA photo)](./figures/2026-04-22-nasa-webby-awards/hero.jpg)
+![NASA received multiple Webby Awards in 2026 for its digital content and online platforms (NASA photo)](/space-news/2026/04/figures/2026-04-22-nasa-webby-awards/hero.jpg)
 *Credit: NASA*
 
 ## NASA's Digital Excellence Recognized

@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-dahang-yueqian-500m-funding/hero.jpg
 
 **Summary:** On April 29, 2026, Shanghai-based commercial space company Dahang Yuetqian announced the completion of a 500 million RMB new financing round. Led by Qianhai Ark, Houji Capital, and Phua Capital, with participation from multiple other investors and Huaxing Capital as the long-term financial advisor, the funds will primarily support the development and maiden flight of the Yuetqian-1, China's first tower-capture reusable launch vehicle, along with a 100-ton-class liquid methalox engine. The company's first flight vehicle has entered the production and testing phase, with final assembly and testing scheduled for the second half of 2026 and a planned maiden flight in 2027.
 
-![Rendering of Dahang Yuetqian's Yuetqian-1 rocket (Credit: Dahang Yuetqian)](./figures/2026-05-01-dahang-yueqian-500m-funding/hero.jpg)
+![Rendering of Dahang Yuetqian's Yuetqian-1 rocket (Credit: Dahang Yuetqian)](/space-news/2026/05/figures/2026-05-01-dahang-yueqian-500m-funding/hero.jpg)
 
 ## Sources (original articles)
 

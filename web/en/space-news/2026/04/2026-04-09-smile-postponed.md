@@ -27,7 +27,7 @@ wechatShare:
 
 **Summary:** ESA announced ahead of the April 9 launch window that the joint China-ESA SMILE science satellite launch has been postponed. The cause is a technical issue discovered on a subsystem component production line after the VV29 launcher (Vega-C) had been fully integrated. A new launch date has not yet been determined.
 
-![SMILE satellite integrated with Vega-C rocket](./figures/2026-04-09-smile-postponed/hero.jpg)
+![SMILE satellite integrated with Vega-C rocket](/space-news/2026/04/figures/2026-04-09-smile-postponed/hero.jpg)
 
 *Credit: ESA*
 

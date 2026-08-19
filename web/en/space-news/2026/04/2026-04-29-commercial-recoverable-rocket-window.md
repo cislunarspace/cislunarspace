@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-commercial-recoverable-rocket-window/hero.jpg
 
 **Summary:** A forum on the development window for commercial recoverable rockets was successfully held in Beijing on April 29, bringing together representatives from major domestic commercial rocket companies and research institutions. Under the theme "Igniting the Innovation and Creativity of Space Culture," participants engaged in in-depth discussions on topics including technology pathways, business models, and policy support for recoverable rockets.
 
-![Forum venue (Our Space)](./figures/2026-04-29-commercial-recoverable-rocket-window/hero.jpg)
+![Forum venue (Our Space)](/space-news/2026/04/figures/2026-04-29-commercial-recoverable-rocket-window/hero.jpg)
 
 ## Sources (original pages)
 

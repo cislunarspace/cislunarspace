@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-starlink-group-17-14/hero.png
 
 **Summary:** On April 23, 2026 at 02:00 UTC, SpaceX successfully launched the Starlink Group 17-14 mission with 20 satellites from Vandenberg Space Force Base, California, aboard a Falcon 9 Block 5 rocket. The satellites were deployed to their target orbit and the mission was a complete success.
 
-![Falcon 9 rocket launch (file photo)](./figures/2026-04-23-starlink-group-17-14/hero.png)
+![Falcon 9 rocket launch (file photo)](/space-news/2026/04/figures/2026-04-23-starlink-group-17-14/hero.png)
 *Credit: SpaceX / TheSpaceDevs*
 
 The Starlink Group 17-14 mission represents another routine deployment in SpaceX's ongoing effort to provide global high-speed internet coverage through its large constellation of low-Earth orbit satellites. This launch used a flight-proven Falcon 9 first stage booster, which was successfully recovered for future reuse.

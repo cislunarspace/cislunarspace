@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** On April 24, at the opening ceremony of the 11th China Space Day, China's National Space Administration (CNSA) and the State Administration for Market Regulation (SAMR) jointly released the Commercial Space Standard System (Version 1.0). The system follows a "full-chain, full-domain, modular, reconfigurable" approach, focusing on the overall layout of "rockets, satellites, launch sites, applications, and governance." It establishes 6 first-level branches and 32 second-level branches, with over 1,000 planned standard projects, providing solid support for China's commercial space standardization and high-quality, safe development.
 
-![Release ceremony of Commercial Space Standard System 1.0 (Credit: CNSA)](./figures/2026-04-24-commercial-space-standard/hero.jpg)
+![Release ceremony of Commercial Space Standard System 1.0 (Credit: CNSA)](/space-news/2026/04/figures/2026-04-24-commercial-space-standard/hero.jpg)
 *Credit: CNSA (public domain image)*
 
 ## System Architecture: 6 First-Level Branches, 32 Second-Level Branches

@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** AST SpaceMobile's BlueBird 7 satellite, the latest addition to the company's planned direct-to-device mobile broadband constellation, was launched aboard Blue Origin's New Glenn rocket on April 16, 2026, but was deployed into an incorrect orbit. The operator has confirmed the satellite will be deorbited rather than salvaged, marking a setback for Blue Origin's first operational New Glenn mission with a commercial payload.
 
-![Artist's rendering of AST SpaceMobile's BlueBird satellite constellation in orbit over Earth](./figures/2026-04-17-bluebird-7-orbit/hero.png)
+![Artist's rendering of AST SpaceMobile's BlueBird satellite constellation in orbit over Earth](/space-news/2026/04/figures/2026-04-17-bluebird-7-orbit/hero.png)
 *Credit: AST SpaceMobile / Space.com*
 
 BlueBird 7 was one of the largest commercial communications satellites ever attempted, designed to provide direct broadband connectivity to standard mobile phones without requiring specialized handsets. The satellite was launched on Blue Origin's New Glenn NG-3 mission, which marked the first time Blue Origin reused a New Glenn first stage booster. While the booster landing and reuse were successful, the upper stage apparently delivered the payload to an incorrect orbit.

@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-jrti-final-flight/hero.jpg
 
 **Summary:** On April 21, 2026, a SpaceX Falcon 9 rocket successfully launched the GPS III SV10 satellite from Cape Canaveral. The first stage booster B1095.7 landed on the drone ship Just Read the Instructions (JRTI) in the Atlantic Ocean approximately 8.5 minutes after liftoff, completing its 7th flight and landing — and JRTI's 156th overall Falcon booster recovery. SpaceX subsequently announced that JRTI would no longer support Falcon 9 recovery missions, transitioning fully to support Starship operations.
 
-![SpaceX drone ship JRTI conducting Falcon booster recovery operations](./figures/2026-04-22-jrti-final-flight/hero.jpg)
+![SpaceX drone ship JRTI conducting Falcon booster recovery operations](/space-news/2026/04/figures/2026-04-22-jrti-final-flight/hero.jpg)
 *Credit: SpaceX / File photo*
 
 SpaceX currently operates three drone ships: Of Course I Still Love You (OCISLY) stationed off Cape Canaveral's coast, Just Read the Instructions (JRTI) also on the East Coast, and A Shortfall of Gravitas (ASOG) on the West Coast. The combined fleet has completed hundreds of booster recoveries, making the Falcon series the most frequently reused launch vehicle system in human history.

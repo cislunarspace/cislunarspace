@@ -24,7 +24,7 @@ tags:
 
 **Summary:** Rocket Lab announced the completion of its acquisition of Mynaric, incorporating laser optical communications technology into its growing space systems portfolio. The acquisition will significantly enhance Rocket Lab's ability to provide laser communication terminals for satellite constellations, complementing its existing satellite platform and separation systems business.
 
-![Rocket Lab laser communications concept image](./figures/2026-04-22-rocket-lab-mynaric-acquisition/hero.jpg)
+![Rocket Lab laser communications concept image](/space-news/2026/04/figures/2026-04-22-rocket-lab-mynaric-acquisition/hero.jpg)
 *Credit: Rocket Lab*
 
 ## Acquisition Background

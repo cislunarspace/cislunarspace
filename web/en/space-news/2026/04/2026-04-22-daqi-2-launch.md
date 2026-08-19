@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-daqi-2-launch/hero.jpg
 
 **Summary:** At 04:02 UTC on April 17, 2026, China's Long March 4C rocket successfully launched the Daqi-2 (AEMS) atmospheric environment monitoring satellite from Launch Area 94 (SLS-2/603) at the Jiuquan Satellite Launch Center. The satellite entered its preset orbit, and the launch mission was a complete success. Daqi-2 is China's second-generation atmospheric environment monitoring satellite, designed for comprehensive global atmospheric environment monitoring.
 
-![Long March 4C rocket file image](./figures/2026-04-22-daqi-2-launch/hero.jpg)
+![Long March 4C rocket file image](/space-news/2026/04/figures/2026-04-22-daqi-2-launch/hero.jpg)
 *Credit: CASC / File image*
 
 Daqi-2 (AEMS, Atmospheric Environment Monitoring Satellite) is a self-developed atmospheric environment monitoring satellite with the capability for comprehensive detection of global atmospheric composition, greenhouse gases, and aerosols. The satellite data will be used for environmental monitoring, climate change research, and air pollution control applications.

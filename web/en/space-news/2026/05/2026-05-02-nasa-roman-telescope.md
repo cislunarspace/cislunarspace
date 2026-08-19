@@ -24,7 +24,7 @@ tags:
 
 **Summary:** NASA announced on April 21, 2026, that its next-generation flagship observatory — the Nancy Grace Roman Space Telescope — has completed full assembly and testing. The $4.3 billion deep-space observatory, featuring a 12-meter-long structure and a 2.4-meter primary mirror matching Hubble's, is scheduled to launch in September 2026 aboard a SpaceX Falcon Heavy rocket from Kennedy Space Center, tasked with mapping cosmic structure, hunting exoplanets, and probing dark energy and dark matter.
 
-![Nancy Grace Roman Space Telescope (NASA/GSFC image)](./figures/2026-05-02-nasa-roman-telescope/hero.jpg)
+![Nancy Grace Roman Space Telescope (NASA/GSFC image)](/space-news/2026/05/figures/2026-05-02-nasa-roman-telescope/hero.jpg)
 *Image credit: NASA Goddard Space Flight Center (Public Domain)*
 
 On April 21, 2026, NASA held a press conference at the Goddard Space Flight Center to unveil the fully assembled Roman Space Telescope. Named after NASA's first chief astronomer Nancy Grace Roman, the observatory features a 12-meter-long body with tall orange solar arrays and a gleaming base. Its wide-field infrared instrument provides a field of view 100 times larger than Hubble's infrared instruments, capable of surveying an area of sky equivalent to 100 full moons in a single observation.

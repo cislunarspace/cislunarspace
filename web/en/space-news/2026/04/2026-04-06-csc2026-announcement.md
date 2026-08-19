@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** The China Space Conference, co-hosted by the Chinese Society of Astronautics and the China Space Foundation, is a comprehensive industry event with widespread influence in China's aerospace sector.
 
-![China Space Conference](./figures/2026-04-06-csc2026-announcement/hero.jpg)
+![China Space Conference](/space-news/2026/04/figures/2026-04-06-csc2026-announcement/hero.jpg)
 *Credit: Chinese Society of Astronautics* Founded in 2018, the "2026 China Space Conference (CSC2026)" will be held in Chengdu from April 23-26, 2026. Themed "Seventy Years Exploring the Heavens, Journeying the Nine Realms Together," the conference stands on the glorious 70-year journey of China's aerospace and the new journey of the "15th Five-Year Plan." It will invite renowned experts, scholars, and managers from domestic and international aerospace fields to discuss the blueprint for high-quality aerospace development, comprehensively showcase frontier aerospace technology achievements, and deepen pragmatic cooperation in the international aerospace field.
 
 ## Sources (original pages)

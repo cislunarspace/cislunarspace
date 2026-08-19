@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** Russia's next-generation medium-class launch vehicle, Soyuz-5 — also known as Irtysh — successfully completed its maiden flight test at 11:00 UTC on April 3, 2026, from Launch Complex 45/1 at the Baikonur Cosmodrome in Kazakhstan. The test flight carried a mass simulator to validate the rocket's systems. Developed jointly by Russia and Kazakhstan, Soyuz-5 is designed to replace the Zenit-2 and Proton Medium launch vehicles, and its first stage will serve as the foundation for the planned Yenisey super-heavy rocket capable of lifting 100 tons to low Earth orbit.
 
-![Soyuz-5 maiden flight illustration](./figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg)
+![Soyuz-5 maiden flight illustration](/space-news/2026/04/figures/2026-04-03-soyuz-5-maiden-flight/hero.jpg)
 *Credit: [RocketLaunch.Live](https://www.rocketlaunch.live/launch/soyuz-5-flight-test)*
 
 ## Program Background

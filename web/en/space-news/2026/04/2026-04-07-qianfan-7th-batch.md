@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** At 21:32 UTC on April 7, 2026, a Long March 8 launch vehicle lifted off from the Hainan Commercial Space Launch Site carrying 18 satellites for the Qianfan (千帆) LEO satellite internet constellation. The launch was declared a complete success, marking another milestone in China's ambitious satellite internet program.
 
-![Long March 8 launches Qianfan Batch 7 satellites (CNSA image)](./figures/2026-04-07-qianfan-7th-batch/qianfan-7-hero.png)
+![Long March 8 launches Qianfan Batch 7 satellites (CNSA image)](/space-news/2026/04/figures/2026-04-07-qianfan-7th-batch/qianfan-7-hero.png)
 *Credit: CNSA*
 
 ## Launch Details

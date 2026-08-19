@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** In-orbit servicing startup Starfish Space announced a new funding round exceeding $100 million. The company is developing the Otter servicing spacecraft, capable of satellite life extension, orbit transfer, and debris removal. The new funding will accelerate Otter's development and support its first geostationary orbit (GEO) mission.
 
-![Artist's concept of Starfish Space's Otter servicing vehicle on a GEO mission](./figures/2026-04-07-starfish-funding/hero.jpg)
+![Artist's concept of Starfish Space's Otter servicing vehicle on a GEO mission](/space-news/2026/04/figures/2026-04-07-starfish-funding/hero.jpg)
 
 *Credit: Starfish Space*
 

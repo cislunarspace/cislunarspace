@@ -18,7 +18,7 @@ image: ./figures/2026-04-24-nasa-missouri-students/hero.jpg
 
 **Summary:** On April 24, 2026, NASA announced that astronauts Jessica Meir and Jack Hathaway will answer pre-recorded STEM questions from Missouri students during their International Space Station mission. The event aims to inspire students to pursue studies in science, technology, engineering, and mathematics.
 
-![NASA astronauts Jessica Meir and Jack Hathaway (NASA image)](./figures/2026-04-24-nasa-missouri-students/hero.jpg)
+![NASA astronauts Jessica Meir and Jack Hathaway (NASA image)](/space-news/2026/04/figures/2026-04-24-nasa-missouri-students/hero.jpg)
 *Credit: NASA*
 
 Students in Missouri will have the opportunity to learn about the real work and life of astronauts aboard the orbital laboratory. Jessica Meir previously completed the first all-female spacewalk in history during Expedition 59/60 in 2019. Jack Hathaway, trained under NASA's Commercial Crew Program, will be flying to space for the first time on this mission.

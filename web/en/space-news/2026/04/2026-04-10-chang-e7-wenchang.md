@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** China's Chang'e-7 spacecraft has safely arrived at Wenchang Satellite Launch Center via air and land transportation, scheduled for launch in the second half of 2026. The mission will conduct lunar south pole environment and resource exploration with breakthrough technologies.
 
-![Chang'e-7 spacecraft arrives at Wenchang Launch Site (WeChat Account: China Manned Space)](./figures/2026-04-10-chang-e7-wenchang/hero.webp)
+![Chang'e-7 spacecraft arrives at Wenchang Launch Site (WeChat Account: China Manned Space)](/space-news/2026/04/figures/2026-04-10-chang-e7-wenchang/hero.webp)
 
 ## Sources (original pages)
 

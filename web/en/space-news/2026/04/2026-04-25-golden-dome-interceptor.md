@@ -18,7 +18,7 @@ image: ./figures/2026-04-25-golden-dome-interceptor/hero.jpg
 
 **Summary:** On April 25, the U.S. Space Force announced contracts worth up to $3.2 billion awarded to 12 companies—including SpaceX and Lockheed Martin—to develop space-based interceptor prototypes under President Trump's Golden Dome missile defense program. The interceptors are designed to destroy enemy missiles outside Earth's atmosphere and are required to demonstrate capabilities by 2028.
 
-![Artist's concept of a space-based interceptor](./figures/2026-04-25-golden-dome-interceptor/hero.jpg)
+![Artist's concept of a space-based interceptor](/space-news/2026/04/figures/2026-04-25-golden-dome-interceptor/hero.jpg)
 *Conceptual illustration of a space-based interceptor system (image: NASA)*
 
 ## Contract Background

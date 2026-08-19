@@ -23,7 +23,7 @@ tags:
 
 **Summary:** On April 24, 2026, the China National Space Administration (CNSA) officially unveiled the Tianwen-3 mission plan at the opening ceremony of the 11th China Space Day: launch is targeted for around 2028, with return of Mars samples to Earth around 2031. CNSA also released the Tianwen-3 Mars Sample Return Mission International Cooperation Opportunity Announcement, offering 20 kg of payload mass on the spacecraft for international partners.
 
-![Illustration of a Mars sample return mission (NASA / JPL-Caltech)](./figures/2026-04-24-tianwen-3-mars-sample-return/hero.jpg)
+![Illustration of a Mars sample return mission (NASA / JPL-Caltech)](/space-news/2026/04/figures/2026-04-24-tianwen-3-mars-sample-return/hero.jpg)
 *Credit: NASA / JPL-Caltech (illustrative image, for mission type only)*
 
 ## Tianwen-3 Mission Overview

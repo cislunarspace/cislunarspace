@@ -25,7 +25,7 @@ tags:
 
 **Summary:** On April 1, 2026, NASA conducted the Artemis II crewed lunar flyby mission—the first time humans traveled to lunar orbit in over 50 years. NASA's Ames Research Center made significant contributions across multiple technical areas, including heat shield sensor development, rocket vibration analysis, and crew science training.
 
-![Artemis II mission view from Orion spacecraft (NASA image)](./figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg)
+![Artemis II mission view from Orion spacecraft (NASA image)](/space-news/2026/04/figures/2026-04-21-nasa-ames-artemis-ii/hero.jpg)
 *Credit: NASA*
 
 ## Mission Overview

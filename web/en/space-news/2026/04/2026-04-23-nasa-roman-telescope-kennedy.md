@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-nasa-roman-telescope-kennedy/hero.jpg
 
 **Summary:** NASA's Kennedy Space Center is conducting thorough preparations to ensure the Nancy Grace Roman Space Telescope arrives safely and is ready for launch. The telescope is scheduled to launch no earlier than September aboard a SpaceX Falcon Heavy rocket from Kennedy Space Center.
 
-![NASA Kennedy Space Center facility preparations, NASA image](./figures/2026-04-23-nasa-roman-telescope-kennedy/hero.jpg)
+![NASA Kennedy Space Center facility preparations, NASA image](/space-news/2026/04/figures/2026-04-23-nasa-roman-telescope-kennedy/hero.jpg)
 *Credit: NASA*
 
 The Nancy Grace Roman Space Telescope is a major astronomical observatory that will help scientists study dark energy, dark matter, and exoplanets. The launch will be conducted by SpaceX's Falcon Heavy rocket from NASA's Kennedy Space Center.

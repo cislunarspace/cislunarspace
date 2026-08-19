@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-soyuz-5-maiden-launch/hero.jpg
 
 **Summary:** On May 1, 2026, Roscosmos announced that Russia's next-generation Soyuz-5 medium-lift launch vehicle conducted its inaugural launch from the Baiterek complex at the Baikonur Cosmodrome in Kazakhstan. The test flight proceeded as planned, marking the Soyuz-5's official entry into its flight test phase. The rocket was developed jointly by RKK Energia and the Progress Rocket and Space Center.
 
-![Soyuz-5 rocket launch (Credit: Sputnik News)](./figures/2026-05-01-soyuz-5-maiden-launch/hero.jpg)
+![Soyuz-5 rocket launch (Credit: Sputnik News)](/space-news/2026/05/figures/2026-05-01-soyuz-5-maiden-launch/hero.jpg)
 *Credit: Sputnik News (reproduced with permission)*
 
 The Soyuz-5 is a next-generation Russian medium-lift launch vehicle with a two/three-stage configuration, weighing approximately 530 tons at liftoff, measuring about 61.87 meters in length and 4.1 meters in diameter, powered by liquid oxygen and kerosene propellants. The first stage uses the RD-171MV engine — an upgraded version of the Soviet-era RD-171 engine that powered the Zenit rocket, with a sea-level thrust of 740 tons, earning it the nickname "Tsar Engine." The second stage is planned to use the RD-0124MS engine, with "hot staging" between stages — meaning the second stage engine ignites before physical separation occurs.

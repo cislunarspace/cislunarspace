@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** On Monday, April 20, 2026, Latvia's Minister for Education and Science Dace Melbārde signed the Artemis Accords at NASA Headquarters in Washington, officially becoming the 62nd signatory of the framework for responsible space exploration. NASA Administrator Jared Isaacman hosted the ceremony, stating: "Each new signatory strengthens a coalition committed to the transparent and peaceful exploration of space."
 
-![Latvia's Minister for Education and Science Dace Melbārde (center) signs the Artemis Accords, with NASA Administrator Jared Isaacman (second from left) and others in attendance (NASA/Joel Kowsky)](./figures/2026-04-20-latvia-artemis-accords/hero.jpg)
+![Latvia's Minister for Education and Science Dace Melbārde (center) signs the Artemis Accords, with NASA Administrator Jared Isaacman (second from left) and others in attendance (NASA/Joel Kowsky)](/space-news/2026/04/figures/2026-04-20-latvia-artemis-accords/hero.jpg)
 *Credit: NASA / Joel Kowsky (Public Domain)*
 
 ## Signing Ceremony

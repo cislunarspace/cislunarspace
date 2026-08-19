@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** From April 16 to 17, 2026, NASA transported the Mobile Launcher 1 used in the Artemis II mission from Launch Complex 39B back to the Vehicle Assembly Building (VAB) at Kennedy Space Center, initiating rocket stacking preparations for the Artemis III crewed lunar landing mission targeted for 2027. The 380-foot-tall mobile launcher traveled approximately 4 miles over 8 to 12 hours.
 
-![NASA's mobile launcher enters the Vehicle Assembly Building (NASA image)](./figures/2026-04-17-nasa-mobile-launcher-vab/hero.jpg)
+![NASA's mobile launcher enters the Vehicle Assembly Building (NASA image)](/space-news/2026/04/figures/2026-04-17-nasa-mobile-launcher-vab/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Sources (original pages)

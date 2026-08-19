@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** On April 20, 2026, NASA released a media advisory inviting media to cover SpaceX's 34th Commercial Resupply Services (CRS-34) mission, targeted for launch no earlier than Tuesday, May 12, from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The mission will deliver over 5 metric tons of science investigations, supplies, and equipment to the International Space Station. The application deadline for U.S. citizen media is 11:59 p.m. EDT on Wednesday, April 29.
 
-![SpaceX Dragon cargo spacecraft illustration (NASA image)](./figures/2026-04-20-nasa-crs-34-media/hero.jpg)
+![SpaceX Dragon cargo spacecraft illustration (NASA image)](/space-news/2026/04/figures/2026-04-20-nasa-crs-34-media/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Mission Overview

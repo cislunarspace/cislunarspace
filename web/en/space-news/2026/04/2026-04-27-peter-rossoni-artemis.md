@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-peter-rossoni-artemis/hero.jpg
 
 **Summary:** Peter Rossoni watched the Apollo missions launch with his family as a child. In April 2026, he became part of NASA's Artemis II mission, serving as the flight manager for the Orion Artemis II Optical Communications System, playing a key role in humanity's historic return to the Moon.
 
-![Peter Rossoni working in an optical lab at MIT Lincoln Laboratory](./figures/2026-04-27-peter-rossoni-artemis/hero.jpg)
+![Peter Rossoni working in an optical lab at MIT Lincoln Laboratory](/space-news/2026/04/figures/2026-04-27-peter-rossoni-artemis/hero.jpg)
 *Credit: MIT-LL / Kendall Murphy*
 
 ## From Apollo to Artemis

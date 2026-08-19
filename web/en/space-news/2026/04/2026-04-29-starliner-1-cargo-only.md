@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-starliner-1-cargo-only/hero.jpg
 
 **Summary:** On April 29, 2026, NASA and Boeing formally announced modifications to the Starliner commercial crew spacecraft contract. The first operational mission, Starliner-1, will no longer carry astronauts and has been converted to an uncrewed cargo verification flight to test propulsion system improvements. This marks another major adjustment for Boeing's Starliner program following the 2024 Crew Flight Test setbacks.
 
-![Starliner spacecraft docked with ISS (file photo)]( ./figures/2026-04-29-starliner-1-cargo-only/hero.jpg)
+![Starliner spacecraft docked with ISS (file photo)](/space-news/2026/04/figures/2026-04-29-starliner-1-cargo-only/hero.jpg)
 *Credit: SpacePolicyOnline.com*
 
 ## Sources (original pages)

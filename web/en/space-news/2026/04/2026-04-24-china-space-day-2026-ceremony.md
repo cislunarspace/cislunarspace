@@ -24,7 +24,7 @@ tags:
 
 **Summary:** April 24, 2026 marks the 11th China Space Day, coinciding with the 70th anniversary of China's space industry and the 10th anniversary of the Space Day designation. The opening ceremony in Chengdu, Sichuan released multiple major announcements: Tianwen-3 Mars sample return officially announced (launch ~2028, return ~2031), Chang'e-7 to launch this year, Beidou Navigation System to improve accuracy and user experience, and steady progress on next-gen crewed spacecraft and crewed lunar exploration.
 
-![2026 China Space Day main venue in Chengdu, Sichuan (CNSA image)](./figures/2026-04-24-china-space-day-2026-ceremony/hero.jpg)
+![2026 China Space Day main venue in Chengdu, Sichuan (CNSA image)](/space-news/2026/04/figures/2026-04-24-china-space-day-2026-ceremony/hero.jpg)
 *Credit: CNSA*
 
 ## Main Venue Overview

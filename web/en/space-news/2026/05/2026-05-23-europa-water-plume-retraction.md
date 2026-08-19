@@ -32,5 +32,5 @@ The team's research was published on May 5, 2026, in the journal *Astronomy & As
 
 Despite the new doubts, scientists remain unable to conclusively rule out water vapor plume existence on Europa, especially given that similar plumes have been more confidently detected on other Galilean moons. The final answer may come in 2030 when NASA's Europa Clipper mission arrives in the Jovian system, capable of directly sampling any active plumes.
 
-![Europa and Hubble Space Telescope](./figures/2026-05-23-europa-water-plume-retraction/hero.jpg)
+![Europa and Hubble Space Telescope](/space-news/2026/05/figures/2026-05-23-europa-water-plume-retraction/hero.jpg)
 *Europa, with its subsurface ocean, and an inset showing the Hubble Space Telescope. Credit: NASA*

@@ -18,7 +18,7 @@ image: ./figures/2026-04-24-space-public-welfare-ambassador/hero.png
 
 **Summary:** On April 24, the "China Space Public Welfare Ambassador" campus outreach event was successfully held at the Waterfront Hall of Sichuan University's Jiang'an Campus, organized jointly by the CNSA News and Publicity Center and Sichuan University. Xie Jun, Deputy Chief Designer of the Beidou Major Special Project, CAS Academic Zhang Bing, and Shenzhou-17 astronaut Jiang Xinlin engaged face-to-face with over 400 teachers and students, sharing space stories and promoting the space spirit.
 
-![Event venue at Sichuan University](./figures/2026-04-24-space-public-welfare-ambassador/hero.png)
+![Event venue at Sichuan University](/space-news/2026/04/figures/2026-04-24-space-public-welfare-ambassador/hero.png)
 *Credit: CNSA*
 
 Li Yang, Deputy Director of the CNSA News and Publicity Center, stated in his address that the brilliant achievements of China's space industry over the past 70 years have ignited the pride and dreams in the hearts of every Chinese person. The shining deeds of generations of space workers serve as an inspiring example for young students to strive forward. This campus event aims to popularize space knowledge, promote the space spirit, and spread space culture, hoping that young students will aim for the stars and brave the frontiers of science and technology, writing a chapter of struggle with youthful energy.

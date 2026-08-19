@@ -18,7 +18,7 @@ image: ./figures/2026-04-28-beijing-space-science-center/hero.jpg
 
 **Summary:** On April 28, 2026, the China (Beijing) Space Science Center officially opened at the Chaoji Heshenghui complex in Beijing's Changping District. The 3,700-square-meter immersive space science and education complex, guided by the Deep Space Exploration Laboratory and the Beijing Institute of Space Science and Technology Information, features six themed exhibition halls, four professional laboratories, and eight pioneering interactive experiences — offering visitors a first-hand perspective on China's space program.
 
-![The China (Beijing) Space Science Center opens to the public, showcasing space science exhibits (Photo: BJNews)](./figures/2026-04-28-beijing-space-science-center/hero.jpg)
+![The China (Beijing) Space Science Center opens to the public, showcasing space science exhibits (Photo: BJNews)](/space-news/2026/04/figures/2026-04-28-beijing-space-science-center/hero.jpg)
 *Credit: BJNews (reproduced with permission)*
 
 ## Six Themed Exhibition Halls: A Complete Journey from Earth to Deep Space

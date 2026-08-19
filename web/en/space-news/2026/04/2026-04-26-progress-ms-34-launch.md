@@ -18,7 +18,7 @@ image: ./figures/2026-04-26-progress-ms-34-launch/hero.jpg
 
 **Summary:** On April 26, 2026, Russia's Progress MS-34 cargo spacecraft was launched aboard a Soyuz-2.1a rocket from the Baikonur Cosmodrome in Kazakhstan, delivering over 2.5 tonnes of food, propellant, and other supplies to the International Space Station. The spacecraft has entered its designated orbit and is scheduled to dock with the Zvezda service module of the ISS Russian segment on April 28.
 
-![Soyuz rocket launches Progress MS-34 cargo spacecraft](./figures/2026-04-26-progress-ms-34-launch/hero.jpg)
+![Soyuz rocket launches Progress MS-34 cargo spacecraft](/space-news/2026/04/figures/2026-04-26-progress-ms-34-launch/hero.jpg)
 *Credit: Xinhua / Toutiao*
 
 ## Sources (original pages)

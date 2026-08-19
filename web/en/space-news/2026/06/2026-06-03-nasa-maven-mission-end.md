@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-nasa-maven-mission-end/hero.jpg
 
 **Summary:** After months of attempts to reestablish contact, NASA officially declared the MAVEN (Mars Atmosphere and Volatile EvolutioN) mission over on June 3. The spacecraft's last transmission was received by the Deep Space Network on December 6, 2025, just before MAVEN passed behind Mars; when it emerged on the other side, telemetry showed the probe had switched to safe mode, and all subsequent recovery efforts failed. Designed for a one-year primary mission, MAVEN operated for 12 years. Its departure leaves NASA with just two operational Mars orbiters — the 2001-launched Mars Odyssey and the 2005-launched Mars Reconnaissance Orbiter (MRO) — both also operating well past their design lifetimes.
 
-![MAVEN Mars orbiter artist rendering (NASA Goddard)](./figures/2026-06-03-nasa-maven-mission-end/hero.jpg)
+![MAVEN Mars orbiter artist rendering (NASA Goddard)](/space-news/2026/06/figures/2026-06-03-nasa-maven-mission-end/hero.jpg)
 
 MAVEN launched aboard a United Launch Alliance Atlas V in November 2013 and entered Mars orbit 10 months later. It was the first probe purpose-built to study how Mars' atmosphere escapes into space and how that process interacts with the solar wind. Across more than a decade of operations, the spacecraft's data underpinned major findings about the planet's transition from a wet, possibly habitable world to the cold desert seen today. Even after the spacecraft fell silent, researchers continued to extract new science from its archived data.
 

@@ -18,7 +18,7 @@ image: ./figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg
 
 **Summary:** On April 25, 2026 at 20:15 Beijing Time, China successfully launched Pakistan's PRSC-EO3 satellite using a Long March 6 carrier rocket from the Taiyuan Satellite Launch Center. The satellite entered its predetermined orbit and the launch mission was a complete success. This was the 640th flight of the Long March series of launch vehicles.
 
-![Long March 6 rocket launches from Taiyuan Satellite Launch Center](./figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg)
+![Long March 6 rocket launches from Taiyuan Satellite Launch Center](/space-news/2026/04/figures/2026-04-25-pakistan-prsc-eo3-launch/hero.jpg)
 *Long March 6 rocket launches from Taiyuan Satellite Launch Center. Credit: China News Service*
 
 ## Mission Overview

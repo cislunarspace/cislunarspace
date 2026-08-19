@@ -18,7 +18,7 @@ image: ./figures/2026-04-14-rocket-lab-gauss-propulsion/hero.jpg
 
 **Summary:** On April 14, 2026, Rocket Lab introduced the Gauss series of new Hall-effect satellite thrusters in Long Beach, California. Designed for high-volume production to meet the growing demand for reliable satellite positioning across mega-constellations ranging from hundreds to tens of thousands of satellites, the system marks a new era of commercial satellite propulsion technology entering mass production.
 
-![Rocket Lab Gauss Hall-effect propulsion system](./figures/2026-04-14-rocket-lab-gauss-propulsion/hero.jpg)
+![Rocket Lab Gauss Hall-effect propulsion system](/space-news/2026/04/figures/2026-04-14-rocket-lab-gauss-propulsion/hero.jpg)
 *Credit: Rocket Lab*
 
 ## Sources

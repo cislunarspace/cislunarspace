@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-nasa-chandra-stars-dim/hero.jpg
 
 **Summary:** A new study using NASA's Chandra X-ray Observatory has found that young Sun-like stars emit significantly less X-ray radiation than previously expected—only about a quarter to a third of predicted levels. The research, examining eight star clusters aged between 45 million and 750 million years old, suggests that the high-energy environment around young planetary systems may be less harsh than models predicted, potentially benefiting the development of conditions favorable to life on exoplanets.
 
-![Image from NASA's Chandra X-ray Observatory showing stellar X-ray emission](./figures/2026-04-23-nasa-chandra-stars-dim/hero.jpg)
+![Image from NASA's Chandra X-ray Observatory showing stellar X-ray emission](/space-news/2026/04/figures/2026-04-23-nasa-chandra-stars-dim/hero.jpg)
 *Credit: NASA*
 
 The study examined eight clusters of stars with ages ranging from 45 million to 750 million years old—relatively young in stellar terms. The researchers found that Sun-like stars in these clusters exhibited X-ray emission levels far below what standard models predicted. This "quieting" of young stars has significant implications for our understanding of the radiation environment around planetary systems during their formative years.

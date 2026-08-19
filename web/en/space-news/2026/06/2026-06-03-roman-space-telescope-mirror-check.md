@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-roman-space-telescope-mirror-check/hero.jpg
 
 **Summary:** Six weeks after declaring Roman "assembly complete," NASA on June 3 released the results of a milestone the team had reached on May 20: the final inspection of the observatory's 2.4-meter primary mirror. Using a newly developed method that pairs a high-resolution camera with a long-focal-length lens, engineers at Goddard Space Flight Center found no foreign-object debris and no measurable shifts on the mirror, and confirmed that the earlier "shake test" left no observable imprint on the optical surface. Roman project manager J. Scott Smith framed it as the last time the engineering team will lay eyes on the telescope before it ships to Kennedy Space Center and is encapsulated in a SpaceX Falcon Heavy fairing. The mission is now tracking a launch window that opens as early as Aug. 30.
 
-![Two views from Roman's final mirror inspection: Roman's deployable aperture cover being stowed (left), and a view down the telescope's barrel at its primary mirror (right). (Image: NASA / Sydney Rohde)](./figures/2026-06-03-roman-space-telescope-mirror-check/hero.jpg)
+![Two views from Roman's final mirror inspection: Roman's deployable aperture cover being stowed (left), and a view down the telescope's barrel at its primary mirror (right). (Image: NASA / Sydney Rohde)](/space-news/2026/06/figures/2026-06-03-roman-space-telescope-mirror-check/hero.jpg)
 
 ## Why the final inspection is more than a formality
 

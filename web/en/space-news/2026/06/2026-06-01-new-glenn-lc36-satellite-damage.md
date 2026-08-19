@@ -12,7 +12,7 @@ image: ./figures/2026-06-01-new-glenn-lc36-satellite-damage/hero.jpg
 
 # Viewing the New Glenn Explosion from Space: Planet Labs Imagery Shows LC-36 Pad Scorched, Bezos Tours Site with NASA Chief Isaacman and Pledges 'Gradatim Ferociter'
 
-![Planet Labs SkySat-C9 image of LC-36 captured on May 31, showing visible scorching from the explosion](./figures/2026-06-01-new-glenn-lc36-satellite-damage/hero.jpg)
+![Planet Labs SkySat-C9 image of LC-36 captured on May 31, showing visible scorching from the explosion](/space-news/2026/06/figures/2026-06-01-new-glenn-lc36-satellite-damage/hero.jpg)
 
 **Summary:** On May 28, Blue Origin's New Glenn rocket exploded during a static-fire test at Cape Canaveral's LC-36 launch complex, destroying the vehicle and severely damaging the pad. Four days later, Planet Labs' SkySat-C9 commercial Earth-observation satellite imaged LC-36 from orbit on May 31, and commercial space-imagery firm Spacefromspace processed and released enhanced views of the pad that clearly show burn scarring consistent with the ground reports. Space.com published the satellite-angle story on June 1. In parallel that week, Blue Origin CEO Dave Limp wrote on X on May 31: 'We will start clearing the pad soon and have a good rebuild plan in place'; founder Jeff Bezos and NASA Administrator Jared Isaacman toured LC-36 together on May 30, after which Bezos posted on X the Blue Origin signature Latin motto 'Gradatim Ferociter' ('step by step, ferociously') with the pledge: 'We will get back to flight, and we will get to the moon.'
 

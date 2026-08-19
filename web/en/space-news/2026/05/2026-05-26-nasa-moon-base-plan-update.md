@@ -19,8 +19,8 @@ image: ./figures/2026-05-26-nasa-moon-base-plan-update/hero.jpg
 - [Spaceflight Now — NASA outlines nearly $1 billion investment into initial Moon Base missions](https://spaceflightnow.com/2026/05/27/nasa-outlines-nearly-1-billion-investment-into-initial-moon-base-missions/)
 - [Space.com — Artemis moon base will cover 'hundreds of square miles' with hopping drones and new lunar rovers, NASA says](https://www.space.com/astronomy/moon/artemis-moon-base-will-cover-hundreds-of-square-miles-with-hopping-drones-and-new-lunar-rovers-nasa-says)
 
-![Blue Origin Blue Moon CLV-1 Lunar Terrain Vehicle](./figures/2026-05-26-nasa-moon-base-plan-update/blue-moon-clv1.jpg)
+![Blue Origin Blue Moon CLV-1 Lunar Terrain Vehicle](/space-news/2026/05/figures/2026-05-26-nasa-moon-base-plan-update/blue-moon-clv1.jpg)
 *Blue Origin Blue Moon Mark 1 lander concept | Credit: Spaceflight Now*
 
-![Firefly MoonFall Elytra deployment diagram](./figures/2026-05-26-nasa-moon-base-plan-update/moonfall-elytra.jpg)
+![Firefly MoonFall Elytra deployment diagram](/space-news/2026/05/figures/2026-05-26-nasa-moon-base-plan-update/moonfall-elytra.jpg)
 *Firefly Elytra Dark spacecraft deployment diagram | Credit: Spaceflight Now*

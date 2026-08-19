@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-nasa-lava-software/hero.jpg
 
 **Summary:** NASA has publicly released its internal Launch, Ascent, and Vehicle Aerodynamics (LAVA) software to the US aerospace industry. The software is primarily used to solve aerodynamic design challenges for advanced vehicles such as scramjet-powered aircraft, and has been validated through years of internal use at NASA.
 
-![NASA LAVA software aerodynamics research image (NASA image)](./figures/2026-04-23-nasa-lava-software/hero.jpg)
+![NASA LAVA software aerodynamics research image (NASA image)](/space-news/2026/04/figures/2026-04-23-nasa-lava-software/hero.jpg)
 *Credit: NASA*
 
 ## Sources (original pages)

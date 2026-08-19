@@ -14,7 +14,7 @@ image: ./figures/2026-06-02-ne-meteor-nasa-confirms/hero.jpg
 
 **Summary:** A daytime bolide broke up at roughly 40 miles (64 km) altitude over the Massachusetts-New Hampshire border on May 30 at 2:06 p.m. EDT, releasing energy equivalent to about 300 tons of TNT. NASA confirmed the event on June 1 using eyewitness reports submitted to the American Meteor Society and imagery from the GOES-19 weather satellite's Geostationary Lightning Mapper. Radar networks tracked the fragments as they fell into Cape Cod Bay.
 
-![GOES-19 lightning mapper imagery of the meteor flash paired with ground-based footage (CIRA/NOAA / R. Schott / American Meteor Society)](./figures/2026-06-02-ne-meteor-nasa-confirms/hero.jpg)
+![GOES-19 lightning mapper imagery of the meteor flash paired with ground-based footage (CIRA/NOAA / R. Schott / American Meteor Society)](/space-news/2026/06/figures/2026-06-02-ne-meteor-nasa-confirms/hero.jpg)
 
 ## Two independent lines of evidence
 

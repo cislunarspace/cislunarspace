@@ -18,7 +18,7 @@ image: ./figures/2026-04-30-wukong-cosmic-ray-discovery/hero.png
 
 **Summary:** China's DAMPE (Wukong, meaning "Monkey King") dark matter particle detection satellite has been operating smoothly in orbit for over 10 years since its launch in late 2015. Using the satellite's first 9 years (2016-2024) of observation data, an international research team led by the Purple Mountain Observatory of the Chinese Academy of Sciences precisely measured the energy spectra of five cosmic ray species: protons, helium, carbon, oxygen, and iron. For the first time, they directly observed a consistent "bump" structure in all five particle species at high energies — a sharp decrease in particle counts at a specific energy level. More importantly, the research team discovered that the "limit value" is determined by the particle's electric charge rather than its mass, providing the first observational evidence for the charge-dependent law of cosmic ray acceleration energy limits. The results were published online in the international academic journal Nature on April 29, 2026.
 
-![DAMPE satellite observation of cosmic ray spectral "bump" structure (Nature journal image)](./figures/2026-04-30-wukong-cosmic-ray-discovery/hero.png)
+![DAMPE satellite observation of cosmic ray spectral "bump" structure (Nature journal image)](/space-news/2026/04/figures/2026-04-30-wukong-cosmic-ray-discovery/hero.png)
 *Credit: Nature / DAMPE Collaboration*
 
 ## Scientific Significance

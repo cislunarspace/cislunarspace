@@ -18,7 +18,7 @@ image: ./figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg
 
 **Summary:** United Launch Alliance's Atlas V 551 rocket successfully placed 29 Amazon Project Kuiper internet satellites into low Earth orbit on April 27 at 20:53 EDT (08:53 Beijing Time April 28). This was one of the largest single-launch satellite deployment missions for the Kuiper constellation to date, as Amazon accelerates its competition with SpaceX's Starlink.
 
-![ULA Atlas V launches Kuiper satellites](./figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg)
+![ULA Atlas V launches Kuiper satellites](/space-news/2026/04/figures/2026-04-28-ula-atlas-v-kuiper-29-satellites/hero.jpg)
 *Credit: United Launch Alliance*
 
 ## Launch Overview

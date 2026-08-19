@@ -18,7 +18,7 @@ image: ./figures/2026-04-28-changzheng-2f-emergency-team-award/hero.jpg
 
 **Summary:** On April 27, 2026, the results of the 2026 China Youth May 4 Medal and New Era Youth Pioneer Award were officially announced. The Long March 2F launch vehicle emergency launch task team at China Academy of Launch Vehicle Technology (CALT), affiliated with China Aerospace Science and Technology Corporation, was honored with the "China Youth May 4 Medal Collective" award. This team of over 50 members has long been responsible for the development of the Long March 2F crewed launch vehicle, which is China's only professional team with full-process production capability for crewed rockets, maintaining a 100% product delivery success rate for Shenzhou spacecraft missions for consecutive years.
 
-![Long March 2F rocket emergency launch team receiving the China Youth May 4 Medal Collective Award (Tencent News image)](./figures/2026-04-28-changzheng-2f-emergency-team-award/hero.jpg)
+![Long March 2F rocket emergency launch team receiving the China Youth May 4 Medal Collective Award (Tencent News image)](/space-news/2026/04/figures/2026-04-28-changzheng-2f-emergency-team-award/hero.jpg)
 *Credit: Tencent News (reproduced with authorization)*
 
 ## Team Overview

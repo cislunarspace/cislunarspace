@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg
 
 **Summary:** After a weather-related scrub on April 27, SpaceX successfully launched the ViaSat-3 Flight 3 communications satellite aboard a Falcon Heavy rocket from NASA's Kennedy Space Center on April 28 (UTC). This marks the Falcon Heavy's first mission since late 2024, and ViaSat-3 F3 — the final satellite in the ViaSat-3 constellation — maintains the record for the world's highest-capacity communications satellite at approximately 1 Tbps.
 
-![Falcon Heavy stands at Kennedy Space Center Launch Complex 39A (Spaceflight Now)](./figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg)
+![Falcon Heavy stands at Kennedy Space Center Launch Complex 39A (Spaceflight Now)](/space-news/2026/04/figures/2026-04-27-spacex-viasat-3-scrub/hero.jpg)
 *Credit: Spaceflight Now*
 
 ## Mission Overview

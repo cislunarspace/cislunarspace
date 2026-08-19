@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** China successfully launched the High-Precision Greenhouse Gas Detection Satellite on April 17, 2026, at 12:10 PM Beijing Time from the Jiuquan Satellite Launch Center using a Long March-4C rocket. The satellite entered its planned orbit and the launch was a complete success. The satellite is equipped with five payloads capable of detecting greenhouse gases and pollutants with high precision, supporting China's carbon peaking and carbon neutrality goals.
 
-![High-Precision Greenhouse Gas Detection Satellite launch](./figures/2026-04-17-greenhouse-gas-satellite/hero.png)
+![High-Precision Greenhouse Gas Detection Satellite launch](/space-news/2026/04/figures/2026-04-17-greenhouse-gas-satellite/hero.png)
 *Credit: CNSA*
 
 The High-Precision Greenhouse Gas Detection Satellite is a mission satellite under China's civil space infrastructure medium- and long-term development plan. Operating in a sun-synchronous orbit, the satellite carries five payloads capable of detecting greenhouse gases and polluting gases through multiple methods, meeting the needs of natural resources, agriculture, forestry, grassland, and meteorology departments.

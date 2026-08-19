@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-new-glenn-ng3-failure/hero.jpg
 
 **Summary:** On April 19, 2026, Blue Origin's New Glenn rocket performed its third orbital mission (NG-3), carrying the BlueBird 7 satellite for AST SpaceMobile. The rocket's upper stage (second stage) malfunctioned during deployment, leaving the satellite in an orbit far below its designed operational altitude. AST SpaceMobile confirmed the satellite cannot maintain long-term operations and will be deorbited in a controlled re-entry. Blue Origin CEO Dave Limp subsequently said the company expects 8–12 New Glenn launches in 2026 and may attempt a lunar landing in the second half of the year.
 
-![New Glenn NG-3 launch with booster landing successfully but upper stage anomaly (via DoNews)](./figures/2026-05-01-new-glenn-ng3-failure/hero.jpg)
+![New Glenn NG-3 launch with booster landing successfully but upper stage anomaly (via DoNews)](/space-news/2026/05/figures/2026-05-01-new-glenn-ng3-failure/hero.jpg)
 *Credit: DoNews (CC BY-NC-ND)*
 
 ## Event Summary

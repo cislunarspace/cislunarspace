@@ -14,7 +14,7 @@ image: ./figures/2026-06-02-spacex-ipo-spcx/hero.jpg
 
 **Summary:** On June 2, 2026, SpaceX formally filed an S-1 registration statement with the U.S. Securities and Exchange Commission, planning to trade on public markets under the ticker symbol **SPCX**. According to experts cited by Space.com, the offering could value the company at roughly **1.75 to 2 trillion U.S. dollars**, making it a strong candidate for the largest initial public offering in history. The S-1 also positions SpaceX as "a conglomerate with exposure to AI, advertising, communications and space manufacturing and operations," explicitly stepping beyond its identity as a rocket company.
 
-![Artist's illustration of SpaceX Starship upper stages on the lunar surface (Credit: SpaceX)](./figures/2026-06-02-spacex-ipo-spcx/hero.jpg)
+![Artist's illustration of SpaceX Starship upper stages on the lunar surface (Credit: SpaceX)](/space-news/2026/06/figures/2026-06-02-spacex-ipo-spcx/hero.jpg)
 
 ## Key facts
 

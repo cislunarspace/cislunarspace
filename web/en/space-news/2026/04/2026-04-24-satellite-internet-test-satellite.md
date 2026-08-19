@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** On April 24, 2026 at 14:35 BJT, China successfully launched four satellite internet technology test satellites aboard a Long March 2D rocket from Xichang Satellite Launch Center. The satellites will be used to test direct-to-cell satellite broadband and integrated space-ground network technologies, marking an important breakthrough in China's satellite internet construction.
 
-![Long March 2D rocket launches four satellite internet test satellites (The Paper / Xu Lihao)](./figures/2026-04-24-satellite-internet-test-satellite/hero.jpg)
+![Long March 2D rocket launches four satellite internet test satellites (The Paper / Xu Lihao)](/space-news/2026/04/figures/2026-04-24-satellite-internet-test-satellite/hero.jpg)
 *Image credit: The Paper / Xu Lihao*
 
 On April 24, 2026 at 14:35 Beijing Time, China successfully launched four satellite internet technology test satellites from Xichang Satellite Launch Center using a Long March 2D carrier rocket. The launch was a complete success, with all satellites entering their predetermined orbits.

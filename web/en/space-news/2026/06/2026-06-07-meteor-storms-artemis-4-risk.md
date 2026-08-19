@@ -14,7 +14,7 @@ image: ./figures/2026-06-07-meteor-storms-artemis-4-risk/hero.jpg
 
 **Summary:** Space.com reported on June 7 that Artemis 4 — NASA's first crewed lunar landing mission since the Apollo era, currently slated to launch in early 2028 — could face scheduling friction with a predicted Perseid meteor outburst on August 12, 2028. American Meteor Society Fireball report coordinator Robert Lunsford told Space.com that four possible meteor outbursts have been identified over the next ten years, including Leonid peaks in 2033 and 2034. NASA Meteoroid Environments Office lead Bill Cooke noted that only a handful of the more than 1,000 known meteor showers exceed the sporadic background by more than 5%, citing the Geminids as the strongest annual shower. Orion has been validated through hypervelocity impact testing for MMOD protection, and the STS-51 Discovery delay in 1993 and an uncrewed Vandenberg science mission postponement in 2000 both established precedent for NASA scrubbing launches to dodge meteor storm peaks.
 
-![Orion spacecraft in cislunar space — NASA validates MMOD protection through hypervelocity impact testing](./figures/2026-06-07-meteor-storms-artemis-4-risk/hero.jpg)
+![Orion spacecraft in cislunar space — NASA validates MMOD protection through hypervelocity impact testing](/space-news/2026/06/figures/2026-06-07-meteor-storms-artemis-4-risk/hero.jpg)
 
 ## A timer from deep space
 

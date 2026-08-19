@@ -18,7 +18,7 @@ image: ./figures/2026-04-24-china-space-day-overview/hero.jpg
 
 **Summary:** April 24 marks the 11th China Space Day, coinciding with the 70th anniversary of China's space endeavors. Over seven decades, China has achieved historic leaps—from the "Two Bombs, One Satellite" project to crewed spaceflight, from lunar exploration to Mars sample return. The Shenzhou-21 crew has set new records for individual extravehicular activities (EVAs); the emergency launch capability was demonstrated in just 16 days; and China's space station operates routinely, continuously producing scientific results.
 
-![Shenzhou-21 crew astronaut Wu Fei during extravehicular work (Xinhua Photo by Zhang Fan)](./figures/2026-04-24-china-space-day-overview/hero.jpg)
+![Shenzhou-21 crew astronaut Wu Fei during extravehicular work (Xinhua Photo by Zhang Fan)](/space-news/2026/04/figures/2026-04-24-china-space-day-overview/hero.jpg)
 *Credit: Xinhua News Agency / Zhang Fan*
 
 ## Tiangong Space Station: Routine Operations and Frequent EVAs

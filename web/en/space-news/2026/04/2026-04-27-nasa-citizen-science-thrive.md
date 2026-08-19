@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg
 
 **Summary:** On April 27, NASA published an article titled "You Can Help Humans Thrive in Space," detailing how the public can participate in space exploration through citizen science projects. During the Artemis II mission, volunteer scientists assisted in observing lunar impact flashes, and NASA has invited the public to take part in pepper plant cultivation tests for future deep space missions.
 
-![NASA Citizen Science, astronaut Matthew Jerome Powell displays chili pepper plant growth chamber](./figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg)
+![NASA Citizen Science, astronaut Matthew Jerome Powell displays chili pepper plant growth chamber](/space-news/2026/04/figures/2026-04-27-nasa-citizen-science-thrive/hero.jpg)
 *Credit: NASA / Bryan Simpson*
 
 ## Citizen Science: Everyone Can Participate in Space Exploration

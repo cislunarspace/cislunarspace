@@ -24,7 +24,7 @@ tags:
 
 **Summary:** Astronomers have confirmed that a defunct SpaceX Falcon 9 upper stage will impact the Moon near Einstein Crater on August 5, 2026, traveling at approximately 2.43 km/s (about 7 times the speed of sound). The debris, designated 2025-010D, originated from the January 2025 launch of Firefly Aerospace's Blue Ghost Mission 1 lunar lander, and has been drifting in orbit for roughly 18 months. The impact site lies near the boundary between the Moon's near and far sides, potentially observable from Earth, though the brightness may fall short of the 2009 NASA LCROSS mission impact.
 
-![Illustration of Falcon 9 upper stage impacting the Moon](./figures/2026-05-02-falcon9-derelict-moon-impact/hero.jpg)
+![Illustration of Falcon 9 upper stage impacting the Moon](/space-news/2026/05/figures/2026-05-02-falcon9-derelict-moon-impact/hero.jpg)
 *Image: Getty Images / Illustration*
 
 ## Background: The Unexpected Fate of a Spent Rocket Stage

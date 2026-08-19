@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-tianlian-2-05-launch/hero.jpg
 
 **Summary:** On April 27, 2026, China successfully launched the Tianlian-2 05 satellite using a Long March rocket, further improving the Tianlian relay satellite system. The Tianlian relay satellite system is an independently developed satellite communication and tracking system primarily used to provide data relay and TT&C support for crewed spacecraft and satellites.
 
-![Tianlian-2 05 launch (CCTV News)](./figures/2026-04-27-tianlian-2-05-launch/hero.jpg)
+![Tianlian-2 05 launch (CCTV News)](/space-news/2026/04/figures/2026-04-27-tianlian-2-05-launch/hero.jpg)
 
 ## Sources (original pages)
 

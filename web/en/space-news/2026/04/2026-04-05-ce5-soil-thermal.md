@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** A joint research team from the Technology and Engineering Center for Space Utilization (CAS), Tsinghua University, and the Institute of Geochemistry (CAS) has achieved the first precise measurement of single-particle thermal conductivity in Chang'e-5 lunar soil. The study reveals that agglutinate particles exhibit thermal conductivity as low as ~8 mW·m⁻¹·K⁻¹ under vacuum conditions — rivaling high-performance synthetic aerogels and representing the lowest thermal conductivity ever reported for a natural material.
 
-![SEM images of different lunar soil particle types](./figures/2026-04-05-ce5-soil-thermal/hero.jpg)
+![SEM images of different lunar soil particle types](/space-news/2026/04/figures/2026-04-05-ce5-soil-thermal/hero.jpg)
 *Credit: CNSA*
 
 ## Background and Particle Classification

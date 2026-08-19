@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-electron-kakushin-rising/hero.jpg
 
 **Summary:** On April 23, 2026, Rocket Lab successfully executed its 85th Electron launch mission from Launch Complex 1 in Mahia Peninsula, New Zealand. Codenamed "Kakushin Rising," the mission carried 8 Japanese satellites including educational small satellites, an ocean monitoring satellite, and a multispectral camera demonstration satellite.
 
-![Rocket Lab 85th mission launch (Rocket Lab image)](./figures/2026-04-23-electron-kakushin-rising/hero.jpg)
+![Rocket Lab 85th mission launch (Rocket Lab image)](/space-news/2026/04/figures/2026-04-23-electron-kakushin-rising/hero.jpg)
 *Credit: Rocket Lab*
 
 ## Mission Overview

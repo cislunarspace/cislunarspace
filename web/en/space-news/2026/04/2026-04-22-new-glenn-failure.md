@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-new-glenn-failure/hero.jpg
 
 **Summary:** On April 19, 2026, Blue Origin's New Glenn heavy-lift rocket failed during the BlueBird Block 2 #2 satellite deployment mission. The rocket lifted off from Cape Canaveral Space Force Station but experienced issues during flight. This marks the second major setback for New Glenn since its debut.
 
-![New Glenn rocket on the launch pad](./figures/2026-04-22-new-glenn-failure/hero.jpg)
+![New Glenn rocket on the launch pad](/space-news/2026/04/figures/2026-04-22-new-glenn-failure/hero.jpg)
 *Credit: Blue Origin / File image*
 
 New Glenn is a large-capacity launch vehicle developed by Blue Origin, designed to deliver satellites to low Earth orbit and geostationary transfer orbit. The mission was intended to deploy ABL Space Systems' BlueBird Block 2 #2 communications satellite to orbit, but the rocket failed to complete its mission during flight.

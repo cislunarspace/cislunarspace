@@ -14,7 +14,7 @@ image: ./figures/2026-06-05-qianfan-12-batch-long-march-8/hero.jpg
 
 **Summary:** On June 5, 2026 at 14:34 Beijing time (06:34 UTC), a Long March 8 rocket lifted off from the Hainan Commercial Spaceport and successfully placed the 12th group of Qianfan polar-orbit satellites into the预定 orbit. The mission marks the first time the Hainan commercial spaceport has supported a Qianfan constellation launch, and comes less than 24 hours after the 11th batch flew from Taiyuan on a Long March 6 modified on June 4.
 
-![Long March 8 lifts off from the Hainan Commercial Spaceport](./figures/2026-06-05-qianfan-12-batch-long-march-8/hero.jpg)
+![Long March 8 lifts off from the Hainan Commercial Spaceport](/space-news/2026/06/figures/2026-06-05-qianfan-12-batch-long-march-8/hero.jpg)
 
 The Long March 8 used in this mission is the baseline variant, developed by the China Academy of Launch Vehicle Technology (CALT, the First Academy of CASC). The rocket family was designed primarily for sun-synchronous and low-Earth orbit commercial missions, with a maiden flight in 2020. Variants including Long March 8A and Long March 8 modified have since joined the family. The Hainan Commercial Spaceport, located in Wenchang on the island province of Hainan, is China's first launch site dedicated to commercial missions; pad 1 and pad 2 support the Long March 8 and Long March 12 families respectively.
 

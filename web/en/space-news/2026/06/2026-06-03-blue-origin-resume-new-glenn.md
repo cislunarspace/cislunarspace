@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-blue-origin-resume-new-glenn/hero.jpg
 
 **Summary:** Less than a week after the May 28 New Glenn NG-4 static-fire explosion, Blue Origin CEO Dave Limp published the latest damage assessment on X in the early hours of June 2: the core LC-36 infrastructure — the liquid oxygen, liquid hydrogen, and cryogenic methane propellant tanks, plus the water tower — all came through the blast in good shape, and the support tower can be repaired in place rather than demolished. The transporter-erector destroyed alongside NG-4 will not be replaced; the company is instead moving directly to a new vertical-integration approach. Limp also confirmed another New Glenn first stage and payload fairing are already on site at Cape Canaveral, with the goal of returning New Glenn to flight before the end of 2026.
 
-![LC-36 launch pad in the aftermath of the June 2 explosion assessment](./figures/2026-06-03-blue-origin-resume-new-glenn/hero.jpg)
+![LC-36 launch pad in the aftermath of the June 2 explosion assessment](/space-news/2026/06/figures/2026-06-03-blue-origin-resume-new-glenn/hero.jpg)
 
 ## From "rebuild" to "repair": Limp's tone shifts within a week
 

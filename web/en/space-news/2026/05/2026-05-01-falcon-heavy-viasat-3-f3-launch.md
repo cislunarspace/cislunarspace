@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-falcon-heavy-viasat-3-f3-launch/hero.jpg
 
 **Summary:** On April 29, 2026, SpaceX's Falcon Heavy successfully launched the ViaSat-3 F3 communications satellite from Launch Pad 39A at Kennedy Space Center in Florida. This marked the rocket's 12th flight and its first launch since the Europa Clipper mission in October 2024. The rocket's 27 Merlin engines generated approximately 5 million pounds of thrust at liftoff, sending the over-6-ton communications satellite into a geostationary transfer orbit. Approximately 2.5 minutes after liftoff, the two side boosters (B1072 and B1075) successfully landed at Cape Canaveral Space Force Station.
 
-![Falcon Heavy launching ViaSat-3 F3 (Credit: Spaceflight Now / SpaceX)](./figures/2026-05-01-falcon-heavy-viasat-3-f3-launch/hero.jpg)
+![Falcon Heavy launching ViaSat-3 F3 (Credit: Spaceflight Now / SpaceX)](/space-news/2026/05/figures/2026-05-01-falcon-heavy-viasat-3-f3-launch/hero.jpg)
 *Credit: Spaceflight Now / SpaceX*
 
 ## Sources (original pages)

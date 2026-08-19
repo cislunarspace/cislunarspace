@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-artemis-3-core-stage-arrives-ksc/hero.jpg
 
 **Summary:** On April 20, 2026 (EST), NASA's SLS rocket Core Stage for the Artemis III mission was successfully transported in two stages from the Michoud Assembly Facility to the Kennedy Space Center (KSC), followed by unloading and transfer to the Vehicle Assembly Building (VAB) on April 27–28. This marks the full-scale start of rocket assembly for Artemis III, bringing the crewed lunar return into its final sprint.
 
-![SLS Core Stage arrives at Kennedy Space Center (NASA/KSC image)](./figures/2026-05-01-artemis-3-core-stage-arrives-ksc/hero.jpg)
+![SLS Core Stage arrives at Kennedy Space Center (NASA/KSC image)](/space-news/2026/05/figures/2026-05-01-artemis-3-core-stage-arrives-ksc/hero.jpg)
 *Credit: NASA / Kennedy Space Center*
 
 The Artemis III Core Stage transport began on April 20, with NASA's Super Guppy transport aircraft carrying the complete rocket core in two stages from the Michoud Assembly Facility in Louisiana to KSC in Florida. On April 27, the core stage was unloaded outside the VAB, and over the following two days transferred into the assembly building via a special transporter, ready to begin integration with the intertank and engine avionics.

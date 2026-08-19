@@ -18,7 +18,7 @@ image: ./figures/2026-04-28-cas-space-lijian-2-super-factory/hero.png
 
 **Summary:** On April 28, 2026, CAS Space's Lijian-2 large liquid launch vehicle super factory in Keqiao District, Shaoxing, Zhejiang Province was fully completed and officially commissioned. As a key project in Zhejiang Province's "Thousands of Projects and Trillions" initiative, the factory has successfully completed the construction of core functional areas including R&D, production, assembly, testing, and operations. Once fully operational, it will have an annual production capacity of 12 Lijian-2 liquid launch vehicles, marking a significant milestone for China's commercial space industry transitioning from technology verification to mass production. Just over a month earlier, on March 30, 2026, the Lijian-2 Yaoyi-1 launch vehicle successfully completed its maiden flight, achieving a seamless connection between "successful maiden flight" and "production capacity delivery."
 
-![CAS Space Lijian-2 super factory completion, rocket production workshop (Sina News image)](./figures/2026-04-28-cas-space-lijian-2-super-factory/hero.png)
+![CAS Space Lijian-2 super factory completion, rocket production workshop (Sina News image)](/space-news/2026/04/figures/2026-04-28-cas-space-lijian-2-super-factory/hero.png)
 *Credit: Sina News*
 
 ## Factory Overview and Production Capacity

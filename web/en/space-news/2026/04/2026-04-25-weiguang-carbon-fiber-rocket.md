@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** At the 2026 China Aerospace Conference (CSC2026) held in Chengdu from April 23-26, Beijing Weiguang Qihang Technology Co., Ltd. unveiled its core product — the 'Weiguang-1' all-carbon fiber launch vehicle. As the world's first commercial launch vehicle integrating 'full-flow staged combustion cycle + carbon fiber composite + liquid oxygen methane' technologies, the Weiguang-1 significantly reduces structural dry mass through extensive use of carbon fiber composites, directly addressing the core challenge of 'cost per kilogram to orbit.'
 
-![Weiguang-1 all-carbon fiber launch vehicle displayed at CSC2026 (TakeFoto)](./figures/2026-04-25-weiguang-carbon-fiber-rocket/hero.png)
+![Weiguang-1 all-carbon fiber launch vehicle displayed at CSC2026 (TakeFoto)](/space-news/2026/04/figures/2026-04-25-weiguang-carbon-fiber-rocket/hero.png)
 *Image credit: TakeFoto*
 
 From April 23 to 26, 2026, the 2026 China Aerospace Conference (CSC2026) was held in Chengdu under the theme "70 Years of Space Exploration, Together Exploring the Nine Heavens." At this conference, Beijing Weiguang Qihang Technology Co., Ltd. ("Weiguang Qihang"), a rising force in China's commercial aerospace sector, showcased its core product — the 'Weiguang-1' all-carbon fiber launch vehicle — along with key exhibits including the full-flow staged combustion liquid oxygen methane engine and all-carbon fiber common bottom propellant tanks, attracting widespread industry attention.

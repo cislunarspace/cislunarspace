@@ -20,6 +20,6 @@ image: ./figures/2026-05-26-nasa-maven-mars-solar-wind-discovery/hero.png
 - [Nature Communications paper (published May 18, 2026)](https://www.nature.com/ncomms/)
 - [NASA MAVEN Mission Homepage](https://www.nasa.gov/mission_pages/maven/main/index.html)
 
-![MAVEN spacecraft illustration](./figures/2026-05-26-nasa-maven-mars-solar-wind-discovery/hero.png)
+![MAVEN spacecraft illustration](/space-news/2026/05/figures/2026-05-26-nasa-maven-mars-solar-wind-discovery/hero.png)
 
 Artist's concept of NASA's MAVEN spacecraft orbiting Mars. The Zwan-Wolf effect reveals how solar wind particles interact with the Martian atmosphere along temporary magnetic structures. (Credit: Space.com / LASP/CU Boulder)

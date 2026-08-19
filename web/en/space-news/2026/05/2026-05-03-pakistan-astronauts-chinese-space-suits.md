@@ -18,7 +18,7 @@ image: ./figures/2026-05-03-pakistan-astronauts-chinese-space-suits/hero.jpg
 
 **Summary:** As preparations for the Shenzhou-23 mission enter their final phase, two Pakistani astronauts — Muhammad Zeeshan Ali and Khurram Daud — have been photographed wearing China's domestically developed "Feitian" intravehicular spacesuit. The image shows the two Pakistani astronauts in pristine white Chinese spacesuits, with Shenzhou mission patches on their chests and Pakistan's national flag on their arm patches. The sight not only demonstrates the deep cooperation between China and Pakistan in crewed spaceflight but also highlights the international recognition of Chinese space equipment.
 
-![Pakistani astronauts in Chinese spacesuits](./figures/2026-05-03-pakistan-astronauts-chinese-space-suits/hero.jpg)
+![Pakistani astronauts in Chinese spacesuits](/space-news/2026/05/figures/2026-05-03-pakistan-astronauts-chinese-space-suits/hero.jpg)
 *Pakistani astronauts Muhammad Zeeshan Ali (left) and Khurram Daud (right) pose in China's "Feitian" intravehicular spacesuit. The caption reads "Pioneers of Pakistan's First Crewed Spaceflight Mission."*
 
 ## The "Feitian" Intravehicular Spacesuit: Standard Equipment for Chinese Astronauts

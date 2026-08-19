@@ -14,7 +14,7 @@ image: ./figures/2026-05-27-tiangong-first-hong-kong-astronaut/hero.jpg
 
 **Summary:** China's Foreign Ministry spokesperson Mao Ning said on May 27 that the successful launch of Shenzhou-23 and the arrival of China's first Hong Kong astronaut aboard the Tiangong space station marks not only another milestone in the country's crewed space program, but also a shared honor for all Hong Kong compatriots — a testament to the strong vitality and remarkable advantages of One Country, Two Systems.
 
-![Foreign Ministry spokesperson Mao Ning at the regular press conference](./figures/2026-05-27-tiangong-first-hong-kong-astronaut/hero.jpg)
+![Foreign Ministry spokesperson Mao Ning at the regular press conference](/space-news/2026/05/figures/2026-05-27-tiangong-first-hong-kong-astronaut/hero.jpg)
 
 Shenzhou-23 lifted off from the Jiuquan Satellite Launch Center at 23:08 Beijing Time on May 24, 2026. At 02:45 on May 25, the spacecraft successfully docked with the radial port of the Tianhe core module of the Tiangong space station. The Shenzhou-23 crew consists of Commander Zhu Yangzhu, Flight Engineer Zhang Zhiyuan, and Payload Specialist Li Jiaying — the latter from Hong Kong, making her China's first astronaut from the Hong Kong Special Administrative Region.
 

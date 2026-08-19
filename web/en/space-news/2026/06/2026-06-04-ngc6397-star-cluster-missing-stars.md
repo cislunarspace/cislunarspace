@@ -14,7 +14,7 @@ image: ./figures/2026-06-04-ngc6397-star-cluster-missing-stars/hero.jpg
 
 **Summary:** A 4 June 2026 release from the Space Telescope Science Institute (STScI) reports that ESA's Euclid space telescope has identified a conspicuous gap in the brightness–color (Hertzsprung–Russell) diagram of stars in NGC 6397, a globular cluster about 7,800 light-years from Earth. The gap appears in the red-dwarf sequence and is consistent with the structural transition from partially convective to fully convective stellar interiors — a brief phase in which stars change their luminosity and surface temperature and are therefore under-represented in any narrow brightness bin. The team did not set out to look for the gap; it surfaced while they were analyzing stellar motions.
 
-![Globular cluster NGC 6397 imaged by ESA's Euclid space telescope. NGC 6397 lies roughly 7,800 light-years from Earth and is among the closest globular clusters to the Sun (Image credit: ESA / NASA / Euclid Consortium)](./figures/2026-06-04-ngc6397-star-cluster-missing-stars/hero.jpg)
+![Globular cluster NGC 6397 imaged by ESA's Euclid space telescope. NGC 6397 lies roughly 7,800 light-years from Earth and is among the closest globular clusters to the Sun (Image credit: ESA / NASA / Euclid Consortium)](/space-news/2026/06/figures/2026-06-04-ngc6397-star-cluster-missing-stars/hero.jpg)
 
 ## A complete-looking diagram, with a single blank stripe
 

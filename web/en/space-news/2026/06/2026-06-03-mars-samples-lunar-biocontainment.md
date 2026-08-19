@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-mars-samples-lunar-biocontainment/hero.jpg
 
 **Summary:** A paper published online first in Springer Ambio on May 28, 2026, and reported by Space.com on June 3, makes a deliberately provocative case: before any sample from Mars, an asteroid, or an icy moon is allowed to return to Earth, it should pass through a dedicated extraterrestrial biocontainment facility on the lunar surface, handled only by robotic systems, and certified non-hazardous before being allowed inside Earth's biosphere. The authors — Frederick I. Moxley, director of Strategic Threat Analysis and Research (STAR) Laboratories in Star, Idaho, and Anthony Ricciardi, a McGill University invasion biologist — point out that neither NASA's Artemis lunar base plan nor the China-Russia led International Lunar Research Station (ILRS) has published explicit planetary protection procedures, and they want lunar biocontainment capability written into the next baseline of lunar base design.
 
-![The moon may become humanity's first line of biological defense](./figures/2026-06-03-mars-samples-lunar-biocontainment/hero.jpg)
+![The moon may become humanity's first line of biological defense](/space-news/2026/06/figures/2026-06-03-mars-samples-lunar-biocontainment/hero.jpg)
 
 ## A paper that landed in late May
 

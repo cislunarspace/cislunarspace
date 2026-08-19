@@ -863,7 +863,6 @@ def fetch_and_save_hero(meta: Dict) -> None:
         return
 
     cn_fig_dir = WEB / f"space-news/{year}/{month}/figures/{date}-{slug}"
-    en_fig_dir = WEB / f"en/space-news/{year}/{month}/figures/{date}-{slug}"
 
     ext = ".jpg"
     lower = img_url.split("?")[0].lower()
@@ -877,8 +876,8 @@ def fetch_and_save_hero(meta: Dict) -> None:
     if not ok:
         return
 
-    en_fig_dir.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(hero_path, en_fig_dir / f"hero{ext}")
+    # 图片单一来源（ADR-0004）：只存中文侧；英文侧 md 引用相同相对路径，
+    # dist 由 sync-figures 双拷，不再物理复制到 en figures 目录。
 
     image_rel = f"./figures/{date}-{slug}/hero{ext}"
     for lang_prefix in ("", "en/"):

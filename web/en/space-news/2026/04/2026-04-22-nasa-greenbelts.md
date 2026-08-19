@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** On April 22, 2026, NASA Earth Observatory published a photograph taken by an astronaut aboard the International Space Station, showing the distribution of green spaces along the northeastern section of the Capital Beltway (I-495) in Maryland. The image clearly depicts the spatial layout of the historic planned community of Greenbelt, NASA's Goddard Space Flight Center, and surrounding agricultural research land.
 
-![NASA Earth Observatory satellite image of green spaces in the Washington suburbs](./figures/2026-04-22-nasa-greenbelts/hero.jpg)
+![NASA Earth Observatory satellite image of green spaces in the Washington suburbs](/space-news/2026/04/figures/2026-04-22-nasa-greenbelts/hero.jpg)
 
 *Credit: NASA Earth Observatory (Public Domain)*
 

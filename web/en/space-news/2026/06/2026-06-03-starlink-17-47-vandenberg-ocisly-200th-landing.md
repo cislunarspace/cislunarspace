@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/hero.
 
 **Summary:** A SpaceX Falcon 9 lifted off from Space Launch Complex 4 East at Vandenberg Space Force Base at 11:40:39 a.m. EDT (15:40:39 UTC; 08:40:39 PDT) on June 3, 2026, sending 24 Starlink V2 Mini Optimized broadband satellites into low Earth orbit on the Starlink 17-47 mission. About eight minutes after liftoff, the first-stage booster B1088 — making its 16th flight — touched down on the drone ship Of Course I Still Love You (OCISLY) in the Pacific. The landing marked the 200th recovery on that vessel and SpaceX's 618th first-stage landing overall.
 
-![Falcon 9 climbs through a deep-blue sky over San Miguelito (Image credit: Spaceflight Now / San Miguelito)](./figures/2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/hero.jpg)
+![Falcon 9 climbs through a deep-blue sky over San Miguelito (Image credit: Spaceflight Now / San Miguelito)](/space-news/2026/06/figures/2026-06-03-starlink-17-47-vandenberg-ocisly-200th-landing/hero.jpg)
 
 ## Mission and hardware
 

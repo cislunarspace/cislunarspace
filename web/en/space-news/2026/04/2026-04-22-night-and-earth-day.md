@@ -24,7 +24,7 @@ tags:
 
 **Summary:** NASA released on April 22, 2026 (Earth Day) a striking image of Earth's terminator — the boundary between day and night hemispheres — captured by the Artemis II astronauts during their lunar flyby. The image was taken on April 2, 2026, offering a unique perspective of our home planet.
 
-![Artemis II crew captured this view of Earth's terminator (NASA image)](./figures/2026-04-22-night-and-earth-day/hero.jpg)
+![Artemis II crew captured this view of Earth's terminator (NASA image)](/space-news/2026/04/figures/2026-04-22-night-and-earth-day/hero.jpg)
 *Credit: NASA*
 
 On April 2, 2026, the Artemis II crew captured this unique view of Earth en route to the Moon. The image clearly shows Earth's terminator — the line that separates the day side from the night side of our planet.

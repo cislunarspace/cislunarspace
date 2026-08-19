@@ -23,7 +23,7 @@ tags:
 
 **Summary:** On April 20, 2026, NASA released a high-resolution image of the Trifid Nebula captured by the Hubble Space Telescope, celebrating the 36th anniversary of its launch on April 24. The visible-light image reveals intricate details of this star-formation region about 5,000 light-years from Earth, with colors reminiscent of fine-grained sediments fluttering through ocean depths.
 
-![Hubble Space Telescope image of the Trifid Nebula (NASA/ESA image)](./figures/2026-04-24-hubble-trifid-nebula/hero.jpg)
+![Hubble Space Telescope image of the Trifid Nebula (NASA/ESA image)](/space-news/2026/04/figures/2026-04-24-hubble-trifid-nebula/hero.jpg)
 *Credit: NASA, ESA, STScI; Image Processing: Joseph DePasquale (STScI)*
 
 The Trifid Nebula is a star-formation region where several massive stars (outside this field of view) have been shaping the region for at least 300,000 years. Their powerful winds continue to blow an enormous bubble, pushing and compressing the cloud's gas to create new stars. Hubble's visible-light image reveals intricate details within the nebula, including gaseous filaments, dust lanes, and glowing regions surrounding newborn stars.

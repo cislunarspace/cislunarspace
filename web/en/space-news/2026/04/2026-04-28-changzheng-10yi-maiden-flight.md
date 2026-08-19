@@ -17,7 +17,7 @@ draft: true
 
 **Summary:** On April 28, 2026, the Long March 10Yi (CZ-10B) rocket successfully conducted its maiden flight from the Wenchang Commercial Space Launch Site in Hainan Province, China. The mission not only achieved a successful inaugural launch but also simultaneously verified the world's first maritime net-based recovery technology for a first-stage booster, marking a major breakthrough for China's commercial aerospace industry in large-capacity reusable rockets.
 
-![Long March 10Yi rocket maiden flight (Sina News image)](./figures/2026-04-28-changzheng-10yi-maiden-flight/hero.jpg)
+![Long March 10Yi rocket maiden flight (Sina News image)](/space-news/2026/04/figures/2026-04-28-changzheng-10yi-maiden-flight/hero.jpg)
 *Credit: Sina News*
 
 ## Mission Overview

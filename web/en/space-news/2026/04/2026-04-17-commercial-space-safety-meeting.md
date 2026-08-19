@@ -22,7 +22,7 @@ wechatShare:
 
 **Summary:** On April 14, 2026, the China National Space Administration (CNSA) held a commercial space safety regulatory meeting in Beijing. The meeting conveyed and studied important instructions on commercial space, reviewed commercial space safety regulation work in 2025, and deployed key tasks for 2026. Shan Zhongde, Vice Minister of Industry and Information Technology and Administrator of CNSA, chaired the meeting and delivered remarks. Deputy Administrator Bian Zhigang and Chief Engineer Li Guoping also attended.
 
-![Meeting venue](./figures/2026-04-17-commercial-space-safety-meeting/hero.jpg)
+![Meeting venue](/space-news/2026/04/figures/2026-04-17-commercial-space-safety-meeting/hero.jpg)
 *Credit: CNSA*
 
 ## Meeting Background

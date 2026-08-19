@@ -24,7 +24,7 @@ tags:
 
 **Summary:** NASA's Langley Research Center has announced a research partnership with the United Network for Organ Sharing (UNOS) to explore how aerospace technologies can optimize high-speed organ transport, aiming to reduce delivery times from donor to recipient and improve transplant success rates.
 
-![NASA and UNOS partnership illustration](./figures/2026-04-21-nasa-organ-transplant/hero.jpg)
+![NASA and UNOS partnership illustration](/space-news/2026/04/figures/2026-04-21-nasa-organ-transplant/hero.jpg)
 *Credit: NASA*
 
 ## Research Background

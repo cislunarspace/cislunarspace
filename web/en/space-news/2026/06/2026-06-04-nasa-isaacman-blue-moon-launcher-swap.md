@@ -14,7 +14,7 @@ image: ./figures/2026-06-04-nasa-isaacman-blue-moon-launcher-swap/hero.jpg
 
 **Summary:** One week after Blue Origin's New Glenn exploded during a static-fire test at LC-36, NASA Administrator Jared Isaacman said in a FOX Business interview on Thursday (June 4) that NASA wants to move the Blue Moon MK1 cargo lander — and potentially the MK2 crewed lander — onto a rocket other than New Glenn. Isaacman kept Artemis 3 on track for a 2027 test mission and a 2028 crewed lunar landing, framing the agency's posture as a "whole-of-government response" to the May 28 incident.
 
-![Blue Moon MK1 lander rendering](./figures/2026-06-04-nasa-isaacman-blue-moon-launcher-swap/hero.jpg)
+![Blue Moon MK1 lander rendering](/space-news/2026/06/figures/2026-06-04-nasa-isaacman-blue-moon-launcher-swap/hero.jpg)
 
 ## "Decoupling the lander from the launch vehicle and the pad"
 
@@ -36,7 +36,7 @@ The May 28 anomaly is what Col. Brian Chatman, commander of Space Launch Delta 4
 
 The day after the explosion, Isaacman and several senior NASA engineers traveled to Florida to meet with Blue Origin engineers and survey the damage in person. On site, Isaacman pledged NASA's support to find the root cause and return New Glenn to flight "as soon as safely possible."
 
-![LC-36 site photo, June 2](./figures/2026-06-04-nasa-isaacman-blue-moon-launcher-swap/lc36.jpg)
+![LC-36 site photo, June 2](/space-news/2026/06/figures/2026-06-04-nasa-isaacman-blue-moon-launcher-swap/lc36.jpg)
 
 ## Blue Origin's own recovery timeline
 

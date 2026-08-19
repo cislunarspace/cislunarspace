@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-commercial-space-enterprise-roundtable/hero.png
 
 **Summary:** On April 21, 2026, Shan Zhongde, member of the Party Leadership Group and Vice Minister of the Ministry of Industry and Information Technology (MIIT) and Administrator of the China National Space Administration (CNSA), chaired a roundtable on high-quality commercial space development. The meeting focused on forming integrated development momentum across the "rocket-satellite-launch-site-spectrum-network" chain and heard reports and suggestions from 14 commercial space enterprises.
 
-![CNSA commercial space high-quality development enterprise roundtable (CNSA image)](./figures/2026-04-27-commercial-space-enterprise-roundtable/hero.png)
+![CNSA commercial space high-quality development enterprise roundtable (CNSA image)](/space-news/2026/04/figures/2026-04-27-commercial-space-enterprise-roundtable/hero.png)
 *Image source: CNSA*
 
 ## Meeting Background
@@ -37,7 +37,7 @@ Relevant departments and affiliated institutions of MIIT and CNSA responded to t
 
 The meeting noted that commercial space is an important force for developing new quality productive forces and building a space power. The CPC Central Committee attaches great importance to the high-quality development of commercial space. General Secretary Xi Jinping has clearly pointed out to "gradually release the development potential of emerging industries such as commercial space while ensuring safety," providing direction and fundamental guidance for commercial space development. The meeting emphasized the need to adhere to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era, thoroughly implement the spirit of the 20th CPC National Congress and subsequent plenary sessions, coordinate development and security, further improve top-level design for commercial space development, strengthen policy supply, continuously optimize commercial space entry-exit mechanisms and licensing approval processes, and promote high-quality commercial space development with a more open posture and more pragmatic measures.
 
-![Meeting scene (CNSA image)](./figures/2026-04-27-commercial-space-enterprise-roundtable/02.png)
+![Meeting scene (CNSA image)](/space-news/2026/04/figures/2026-04-27-commercial-space-enterprise-roundtable/02.png)
 *Image source: CNSA*
 
 ## Source (Original)

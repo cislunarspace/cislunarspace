@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-beijing-yizhuang-space-computing-symposium/hero.jpg
 
 **Summary:** On June 3, 2026, the Beijing Economic-Technological Development Area (commonly known as Beijing Yizhuang, or Beijing E-Town) convened a closed-door space-computing industry symposium attended by BOE, Galaxy Space, LandSpace, Galactic Energy, Guanyu Xinsuan, CXMT and other space-computing supply-chain leaders. The session was billed as the next operational step for the Beijing Space Computing Innovation Center, days after Yizhuang formally registered the Beijing Space Intelligent Computing Research Institute and hours before Beijing unveiled a parallel — and academic-led — Space Computing Industry Innovation Center in Haidian. A-share commercial-space names reacted immediately: China Satellite (600118.SH) jumped more than 8 percent intraday on June 3, with Sunway Communication (300136.SZ), Shanghai Hanxun (300762.SZ), Dianke Lantian (688818.SH) and Western Materials (002149.SZ) following.
 
-![PREFIRE CubeSat orbital rendering (NASA / public domain)](./figures/2026-06-03-beijing-yizhuang-space-computing-symposium/hero.jpg)
+![PREFIRE CubeSat orbital rendering (NASA / public domain)](/space-news/2026/06/figures/2026-06-03-beijing-yizhuang-space-computing-symposium/hero.jpg)
 
 ## A symposium, a research institute, and an "innovation center"
 

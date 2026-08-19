@@ -14,7 +14,7 @@ image: ./figures/2026-06-02-spacex-sb-amti-contract/hero.jpg
 
 **Summary:** On May 29, the U.S. Space Force announced a $4.16 billion contract award to SpaceX under the Space-Based Airborne Moving Target Indicator (SB-AMTI) program, a satellite constellation designed to "track and target airborne threats globally." SpaceX is the first of nine companies named to the SB-AMTI vendor pool; the remaining eight have not yet been publicly disclosed. The award reflects the service's push to move part of its airborne-target tracking workload from manned aircraft to orbit, in response to adversaries' anti-access/area-denial (A2/AD) defenses.
 
-![SpaceX wins $4.16 billion Space Force SB-AMTI contract. The image is a long-exposure composite of an aircraft trail and a satellite streak. (Credit: Daniel Garrido / Getty Images)](./figures/2026-06-02-spacex-sb-amti-contract/hero.jpg)
+![SpaceX wins $4.16 billion Space Force SB-AMTI contract. The image is a long-exposure composite of an aircraft trail and a satellite streak. (Credit: Daniel Garrido / Getty Images)](/space-news/2026/06/figures/2026-06-02-spacex-sb-amti-contract/hero.jpg)
 
 The Space Force framed the contract around a specific operational gap: in contested or denied airspace, the manned platforms that traditionally perform airborne target tracking become too exposed. SB-AMTI's premise is that a satellite layer can deliver "continuous oversight where traditional sensors cannot reach," in the words of USSF Col. Frazier, protecting the freedom of maneuver of joint forces.
 

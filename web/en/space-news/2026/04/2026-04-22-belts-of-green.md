@@ -24,7 +24,7 @@ tags:
 
 **Summary:** NASA Earth Observatory published on April 22, 2026 — Earth Day — an ISS astronaut photograph showing green spaces interwoven with urban development along the northeast side of the Capital Beltway in Maryland, released as the day's Image of the Day.
 
-![Green belts along the Capital Beltway in Maryland (NASA Earth Observatory / ISS)](./figures/2026-04-22-belts-of-green/hero.jpg)
+![Green belts along the Capital Beltway in Maryland (NASA Earth Observatory / ISS)](/space-news/2026/04/figures/2026-04-22-belts-of-green/hero.jpg)
 *Credit: NASA Earth Observatory / ISS*
 
 The photograph was captured by astronauts aboard the International Space Station (ISS), showcasing the landscape along the northeast section of the Capital Beltway (I-495/I-95) in Maryland. On both sides of this busy环形公路 (ring road), green spaces are artfully interspersed within the urban fabric, creating a distinctive ecological pattern.

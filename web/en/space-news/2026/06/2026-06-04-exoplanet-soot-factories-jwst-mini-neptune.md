@@ -14,7 +14,7 @@ image: ./figures/2026-06-04-exoplanet-soot-factories-jwst-mini-neptune/hero.jpg
 
 **Summary:** Reporting published on space.com on June 4, 2026, spotlights a new study that reframes a long-standing mystery in exoplanet chemistry. The James Webb Space Telescope (JWST) keeps returning near-featureless spectra whenever it looks at the atmosphere of a mini-Neptune — a class of planet that is the most common type found so far in the galaxy. University of Chicago chemical engineer Jeehyun Yang, who did his Ph.D. on combustion-engine exhaust, noticed that the smooth absorption curve from those atmospheres is essentially the same shape as the soot signal from a diesel engine. His team proposes that polycyclic aromatic hydrocarbons (PAHs) — honeycomb-shaped carbon particles produced when carbon, hydrogen and oxygen react at high temperature and pressure — are the missing ingredient. "It's like you have a natural diesel engine in the deep atmosphere of a planet," Yang said in a statement.
 
-![Artist's concept of a hazy mini-Neptune exoplanet with soot-rich atmosphere (Image credit: Louise Lerner / space.com)](./figures/2026-06-04-exoplanet-soot-factories-jwst-mini-neptune/hero.jpg)
+![Artist's concept of a hazy mini-Neptune exoplanet with soot-rich atmosphere (Image credit: Louise Lerner / space.com)](/space-news/2026/06/figures/2026-06-04-exoplanet-soot-factories-jwst-mini-neptune/hero.jpg)
 
 ## A chemical engineer walks into an exoplanet archive
 

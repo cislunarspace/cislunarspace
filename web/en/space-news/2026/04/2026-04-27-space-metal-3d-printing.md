@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-space-metal-3d-printing/hero.jpg
 
 **Summary:** A joint research team from the Chinese Academy of Sciences (CAS) Institute of Mechanics and the CAS Innovation Academy for Microsatellites has successfully demonstrated space metal additive manufacturing (3D printing) technology aboard the Light Ark test spaceship. The space metal additive manufacturing payload, launched aboard the Light Ark test spaceship by a CAS Space Kuaizhou-2 (力箭二号) rocket, completed its planned experimental mission at a 600 km orbit, marking China's preliminary capability in space-based metal manufacturing system verification.
 
-![Space metal additive manufacturing verification (CCTV News)](./figures/2026-04-27-space-metal-3d-printing/hero.jpg)
+![Space metal additive manufacturing verification (CCTV News)](/space-news/2026/04/figures/2026-04-27-space-metal-3d-printing/hero.jpg)
 
 ## Sources (original pages)
 

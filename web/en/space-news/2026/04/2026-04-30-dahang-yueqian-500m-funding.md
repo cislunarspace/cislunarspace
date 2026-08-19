@@ -18,7 +18,7 @@ image: ./figures/2026-04-30-dahang-yueqian-500m-funding/hero.png
 
 **Summary:** On April 30, Dahang Yuetian, China's only private rocket company focused on tower-catch ("chopsticks") recovery technology, announced the completion of a 500 million RMB funding round. The round was co-led by Qianhai Ark, Houji Capital, and Puhua Capital, with participation from over ten investment institutions and industrial partner Shenhan Cable. Funds will accelerate development and maiden launch of the Yueqian-1 reusable liquid launch vehicle, scheduled for its first flight in 2027.
 
-![Dahang Yuetian Yueqian-1 rocket concept (DoNews)](./figures/2026-04-30-dahang-yueqian-500m-funding/hero.png)
+![Dahang Yuetian Yueqian-1 rocket concept (DoNews)](/space-news/2026/04/figures/2026-04-30-dahang-yueqian-500m-funding/hero.png)
 *Credit: Dahang Yuetian / DoNews*
 
 ## About Yueqian-1

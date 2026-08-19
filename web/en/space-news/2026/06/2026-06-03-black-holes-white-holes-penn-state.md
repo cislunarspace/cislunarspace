@@ -12,7 +12,7 @@ image: ./figures/2026-06-03-black-holes-white-holes-penn-state/hero.jpg
 
 **Summary:** A research team at Penn State's Eberly College of Science, led by Daniel Paraizo, has recalculated the fate of primordial black holes (PBHs) under Hawking radiation using a semi-classical model. The team found that PBHs whose initial masses fall in a particular range do not simply "vanish" when they shrink to the Planck mass (~20 micrograms, roughly the weight of an eyebrow hair). Instead, they enter a stable end-state that, when observed from far away, is physically indistinguishable from a hypothetical white hole. A preprint of the work is available on arXiv.
 
-![Artist's impression of a primordial black hole evaporating under Hawking radiation and transitioning to a white-hole-like end-state](./figures/2026-06-03-black-holes-white-holes-penn-state/hero.jpg)
+![Artist's impression of a primordial black hole evaporating under Hawking radiation and transitioning to a white-hole-like end-state](/space-news/2026/06/figures/2026-06-03-black-holes-white-holes-penn-state/hero.jpg)
 
 ## Background: why primordial black holes
 

@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** NASA announced the successful completion of the first return correction burn on Artemis II mission day 7, with Orion spacecraft 'Integrity' igniting thrusters for 15 seconds to adjust the return trajectory. Astronauts are currently testing anti-gravity equipment and conducting manual control demonstrations.
 
-![NASA Artemis II Orion spacecraft executing return correction burn (NASA image)](./figures/2026-04-07-artemis-ii-return-burn/hero.png)
+![NASA Artemis II Orion spacecraft executing return correction burn (NASA image)](/space-news/2026/04/figures/2026-04-07-artemis-ii-return-burn/hero.png)
 
 ## Sources (original pages)
 

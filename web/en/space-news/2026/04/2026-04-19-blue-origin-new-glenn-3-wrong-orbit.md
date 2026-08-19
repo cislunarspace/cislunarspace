@@ -14,7 +14,7 @@ category: blue-origin
 image: ./figures/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/hero.jpg
 ---
 
-![Blue Origin New Glenn rocket lifts off from the launch pad (Spaceflight Now image)](./figures/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/hero.jpg)
+![Blue Origin New Glenn rocket lifts off from the launch pad (Spaceflight Now image)](/space-news/2026/04/figures/2026-04-19-blue-origin-new-glenn-3-wrong-orbit/hero.jpg)
 *Credit: Spaceflight Now*
 
 **Summary:** On April 19, 2026, Blue Origin launched its third New Glenn rocket from Cape Canaveral Space Force Station, Florida. The company successfully recovered and reused a previously flown booster for the first time. However, the payload — a direct-to-cellphone communications satellite — failed to reach its intended orbit, a defect confirmed by the company.

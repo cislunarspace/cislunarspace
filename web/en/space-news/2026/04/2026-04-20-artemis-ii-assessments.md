@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** On April 20, 2026, NASA released its initial post-flight assessment for the Artemis II mission. Following Orion's successful splashdown off the coast of San Diego on April 10, engineering teams completed preliminary data analysis. The heat shield performed better than expected — char loss behavior observed during re-entry was significantly reduced in both quantity and size compared to Artemis I, consistent with arc jet facility ground testing performed after Artemis I. The spacecraft splashed down within 2.9 miles of its target landing site, with entry velocity within one mile-per-hour of predictions.
 
-![Artemis II Orion spacecraft and SLS rocket at Launch Complex 39B at NASA's Kennedy Space Center (NASA/Michael DeMocker)](./figures/2026-04-20-artemis-ii-assessments/hero.jpg)
+![Artemis II Orion spacecraft and SLS rocket at Launch Complex 39B at NASA's Kennedy Space Center (NASA/Michael DeMocker)](/space-news/2026/04/figures/2026-04-20-artemis-ii-assessments/hero.jpg)
 *Credit: NASA / Michael DeMocker (Public Domain)*
 
 ## Mission Overview

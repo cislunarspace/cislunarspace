@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-nasa-dragonfly-rotorcraft-tested/hero.jpg
 
 **Summary:** NASA's Dragonfly mission to Saturn's largest moon Titan is entering its final assembly and testing phase — the team has begun installing the panels that make up the rotorcraft lander's body. These ultra-lightweight honeycomb panels were designed at the Johns Hopkins Applied Physics Laboratory (APL) and manufactured by Lockheed Martin. Dragonfly will be the first time NASA flies a multi-rotor vehicle for science on another planet, planned for launch no earlier than 2027 and expected to arrive at Titan in 2034.
 
-![NASA's Dragonfly rotorcraft undergoing panel fit-check testing](./figures/2026-04-23-nasa-dragonfly-rotorcraft-tested/hero.jpg)
+![NASA's Dragonfly rotorcraft undergoing panel fit-check testing](/space-news/2026/04/figures/2026-04-23-nasa-dragonfly-rotorcraft-tested/hero.jpg)
 *Credit: NASA / Johns Hopkins APL*
 
 NASA's Dragonfly rotorcraft is beginning to take shape — literally — with the delivery and installation of the panels that make up the rotorcraft lander's body. These ultra-lightweight honeycomb panels were designed at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, and manufactured by Lockheed Martin. APL manages the Dragonfly mission for NASA.

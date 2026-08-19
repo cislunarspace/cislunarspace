@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** China's manned space program completed its first selection of international astronauts in early April 2026. After rigorous screening, two Pakistani candidates—Muhammad Zeeshan Ali and Khurram Daud—were selected from numerous applicants. They will soon arrive in China as candidate astronauts, and after completing all required training and passing assessments, one of them will fly as a payload specialist aboard the Tiangong Space Station, becoming the first international astronaut to visit China's space station.
 
-![Announcement of China's first batch of international astronaut selection results (CMSA image)](./figures/2026-04-22-foreign-astronaut-selection/hero.jpg)
+![Announcement of China's first batch of international astronaut selection results (CMSA image)](/space-news/2026/04/figures/2026-04-22-foreign-astronaut-selection/hero.jpg)
 *Credit: China Manned Space Agency*
 
 ## Sources (original pages)

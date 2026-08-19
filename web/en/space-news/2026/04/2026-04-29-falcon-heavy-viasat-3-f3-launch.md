@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg
 
 **Summary:** On April 29, 2026 (Beijing Time), SpaceX's Falcon Heavy rocket conducted its 12th mission since 2018, successfully deploying the Viasat-3 ultra-high-throughput communications satellite to orbit. The 27 Merlin engines of the three Falcon boosters ignited at 10:13 AM EDT (14:13 UTC), launching from NASA's Kennedy Space Center Launch Complex 39A.
 
-![Falcon Heavy launch scene](./figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg)
+![Falcon Heavy launch scene](/space-news/2026/04/figures/2026-04-29-falcon-heavy-viasat-3-f3-launch/hero.jpg)
 *Credit: SpaceX*
 
 ## Mission Overview

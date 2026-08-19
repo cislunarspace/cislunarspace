@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** On April 22, 2026, NASA released a comprehensive image and video recap of the Artemis II mission, documenting the Orion spacecraft's journey from its April 1 launch through its translunar injection trajectory. As the first crewed flight of NASA's Artemis program, the mission successfully concluded with a splashdown on April 11, marking a significant milestone in humanity's return to lunar exploration.
 
-![Artemis II mission milestones (NASA image)](./figures/2026-04-22-artemis-ii-recap/hero.jpg)
+![Artemis II mission milestones (NASA image)](/space-news/2026/04/figures/2026-04-22-artemis-ii-recap/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Mission Overview

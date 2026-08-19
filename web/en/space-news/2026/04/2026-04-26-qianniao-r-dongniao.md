@@ -18,7 +18,7 @@ image: ./figures/2026-04-26-qianniao-r-dongniao/qianniao-preview.jpg
 
 **Summary:** On April 25, at the Space Day of China 2026 events, Nayuta Space's Co-CTO Wang Shilei announced that the company's full-scale test vehicle for the Qianniao-R—China's only rocket employing aerodynamic deceleration recovery—has been officially completed, with control surface electrical integration tests successfully conducted. The rocket uses a novel "aerodynamic deceleration + horizontal landing" technology route, distinctly different from SpaceX Falcon's vertical landing approach.
 
-![Nayuta Space's Qianniao-R full-scale test rocket](./figures/2026-04-26-qianniao-r-dongniao/qianniao-preview.jpg)
+![Nayuta Space's Qianniao-R full-scale test rocket](/space-news/2026/04/figures/2026-04-26-qianniao-r-dongniao/qianniao-preview.jpg)
 *Credit: Nayuta Space (Authorized for media use)*
 
 On April 25, at the Space Day of China 2026 activities, Nayuta Space's Co-CTO Wang Shilei introduced the latest progress of the Qianniao-R rocket to media. He announced that the full-scale test vehicle has been officially completed, and control surface electrical integration tests have been successfully conducted. Under servo system control, the control surfaces simulated four different rocket maneuver scenarios in various flight conditions, laying the foundation for subsequent flight tests.

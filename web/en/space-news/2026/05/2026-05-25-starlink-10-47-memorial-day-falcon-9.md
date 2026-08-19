@@ -14,7 +14,7 @@ image: ./figures/2026-05-25-starlink-10-47-memorial-day-falcon-9/hero.jpg
 
 **Summary:** On May 25, 2026 (U.S. Memorial Day), SpaceX successfully launched 29 Starlink V2 Mini Optimized satellites into low Earth orbit aboard a Falcon 9 from Launch Complex 40 at Cape Canaveral Space Force Station. The mission, Starlink 10-47, marked Falcon 9 first stage B1078's 28th flight and the 151st drone ship landing for the vessel "A Shortfall of Gravitas." This was SpaceX's 60th orbital flight of 2026.
 
-![Falcon 9 liftoff](./figures/2026-05-25-starlink-10-47-memorial-day-falcon-9/liftoff-ab.jpg)
+![Falcon 9 liftoff](/space-news/2026/05/figures/2026-05-25-starlink-10-47-memorial-day-falcon-9/liftoff-ab.jpg)
 
 ## Mission Overview
 
@@ -33,7 +33,7 @@ Falcon 9 first stage B1078 performed its 28th flight, having previously supporte
 
 Approximately 8.5 minutes after liftoff, B1078 landed on the drone ship "A Shortfall of Gravitas" (ASOG) positioned in the Atlantic Ocean off the coast of South Carolina. This was the 151st landing for this vessel.
 
-![Starlink 10-47 liftoff](./figures/2026-05-25-starlink-10-47-memorial-day-falcon-9/liftoff-jp.jpg)
+![Starlink 10-47 liftoff](/space-news/2026/05/figures/2026-05-25-starlink-10-47-memorial-day-falcon-9/liftoff-jp.jpg)
 
 ## Second Stage and Satellite Deployment
 
@@ -43,7 +43,7 @@ After stage separation, the Falcon 9 second stage shut down approximately 8 minu
 
 Conducting a launch on Memorial Day is relatively rare for SpaceX. The company proceeded with the mission after the 45th Weather Squadron forecast an 85% chance of favorable weather during the launch window.
 
-![Starlink 10-47 satellite transit](./figures/2026-05-25-starlink-10-47-memorial-day-falcon-9/transit.jpg)
+![Starlink 10-47 satellite transit](/space-news/2026/05/figures/2026-05-25-starlink-10-47-memorial-day-falcon-9/transit.jpg)
 
 ## Sources (original pages)
 

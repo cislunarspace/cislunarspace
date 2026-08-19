@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** April 24, 2026 marks the 36th anniversary of NASA's Hubble Space Telescope launch. NASA and ESA released a stunning new visible-light image of the Trifid Nebula (M20), a star-forming region in the constellation Sagittarius approximately 5,500 light-years from Earth. Using its upgraded Wide Field Camera 3 (WFC3), Hubble captured the nebula with significantly higher resolution than in 1997, revealing changes in the star-forming region on humanly perceptible timescales.
 
-![New Hubble image of the Trifid Nebula](./figures/2026-04-20-hubble-trifid-nebula/hero.jpg)
+![New Hubble image of the Trifid Nebula](/space-news/2026/04/figures/2026-04-20-hubble-trifid-nebula/hero.jpg)
 *Credit: NASA, ESA, STScI; Image Processing: Joseph DePasquale (STScI)*
 
 The Trifid Nebula is a well-known emission nebula and star-forming region, named for the dark dust lanes that appear to divide it into three lobes in visible light. Hubble first photographed the nebula in 1997 using the Wide Field Planetary Camera 2 (WFPC2), shortly after its second servicing mission. The new image, captured with the third-generation WFC3 instrument, reveals sharper details and a broader wavelength range.

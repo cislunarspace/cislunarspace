@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** According to **Guancha.cn** (citing **China Aerospace Science and Technology Corporation** via WeChat), at **06:51** on **March 26, 2026**, a **Long March 2D** rocket lifted off from **Taiyuan Satellite Launch Center** and delivered **Siwei Gaojing-2 05 and 06** into planned orbits. The satellites are operated by **China Siwei** and developed under **CASC**; after insertion they join **03/04** already on orbit in a **“four satellites, two groups”** pattern. This was the **634th** flight of the **Long March** launch vehicle family. The mission introduced a **4.2 m composite fairing** and a **wireless tank-wall temperature** measurement system for propellant.
 
-![Long March 2D liftoff (illustrative: Wikimedia Commons, historical VRSS-1 launch, CC BY 2.0—not the March 26, 2026 Taiyuan campaign photo)](./figures/2026-03-26-china-siwei-gaojing-2-05-06/01-long-march-2d-illustrative.jpg)
+![Long March 2D liftoff (illustrative: Wikimedia Commons, historical VRSS-1 launch, CC BY 2.0—not the March 26, 2026 Taiyuan campaign photo)](/space-news/2026/03/figures/2026-03-26-china-siwei-gaojing-2-05-06/01-long-march-2d-illustrative.jpg)
 
 *Caption: Illustrative **Long March 2D** launch image from Wikimedia Commons for context only; **not** an official on-site photo of this specific mission.*
 

@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** On April 17, 2026, China's National Space Administration (CNSA) held a press conference in Beijing to announce the activities for the 11th China Space Day on April 24. This year's event coincides with the 70th anniversary of China's space industry and the 10th anniversary of Space Day, themed "70 Years of Exploring the Celestial Path, Together We Reach for the Stars." The main venue will be in Chengdu, Sichuan Province, with Brazil as the guest of honor. Key announcements regarding deep space exploration, commercial spaceflight, and Chang'e-5 lunar sample research are expected.
 
-![2026 China Space Day promotional poster](./figures/2026-04-20-china-space-day-2026/hero.jpg)
+![2026 China Space Day promotional poster](/space-news/2026/04/figures/2026-04-20-china-space-day-2026/hero.jpg)
 *Credit: CNSA*
 
 ## Sources (original pages)

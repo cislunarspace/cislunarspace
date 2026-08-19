@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-rocket-lab-solar-artemis-ii/hero.jpg
 
 **Summary:** On April 14, 2026, Rocket Lab announced how its gallium arsenide solar cell arrays power NASA's Orion spacecraft on the Artemis II mission. On Day 1 of the Artemis II mission, a camera on the tip of one of Orion's solar arrays captured an image of Earth — these solar cells were provided by Rocket Lab's subsidiary, with tens of thousands of cells forming the array.
 
-![Earth captured by Orion's solar array camera on Day 1 of Artemis II (NASA image)](./figures/2026-04-27-rocket-lab-solar-artemis-ii/hero.jpg)
+![Earth captured by Orion's solar array camera on Day 1 of Artemis II (NASA image)](/space-news/2026/04/figures/2026-04-27-rocket-lab-solar-artemis-ii/hero.jpg)
 *Credit: NASA / Rocket Lab*
 
 ## Sources (original pages)

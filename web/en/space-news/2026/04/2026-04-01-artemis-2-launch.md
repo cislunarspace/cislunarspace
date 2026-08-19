@@ -21,7 +21,7 @@ wechatShare:
 
 # Artemis II Successfully Launches: First Crewed Lunar Mission in Over 50 Years
 
-![SLS rocket lifts off from Launch Pad 39B at Kennedy Space Center](./figures/2026-04-01-artemis-2-launch/hero.jpg)
+![SLS rocket lifts off from Launch Pad 39B at Kennedy Space Center](/space-news/2026/04/figures/2026-04-01-artemis-2-launch/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 **Summary:** According to *NASA*, the **Artemis II** mission launched successfully at **6:35 PM EDT** (22:35 UTC) on **April 1, 2026**, from **Launch Pad 39B** at NASA's **Kennedy Space Center** in Florida. This marks the first crewed flight of the **Space Launch System (SLS)** rocket and the **Orion spacecraft**, and the first time humans have flown toward the Moon since **Apollo 17 in 1972**. The crew consists of Commander **Reid Wiseman**, Pilot **Victor Glover**, and Mission Specialist **Christina Koch** (all NASA astronauts), along with Mission Specialist **Jeremy Hansen** of the Canadian Space Agency (CSA).

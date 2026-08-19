@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** NASA has released a spectacular new image of the Crab Nebula captured by the Hubble Space Telescope, offering an unparalleled, detailed look at the aftermath of a supernova and how it has evolved over the telescope's 36-year lifetime. The image reveals that the nebula's filamentary structure is expanding at a pace of 3.4 million miles per hour.
 
-![NASA Hubble Space Telescope image of the Crab Nebula supernova remnant](./figures/2026-04-21-crab-nebula-hubble/hero.webp)
+![NASA Hubble Space Telescope image of the Crab Nebula supernova remnant](/space-news/2026/04/figures/2026-04-21-crab-nebula-hubble/hero.webp)
 *Credit: NASA, ESA, STScI, William Blair (JHU); Image Processing: Joseph DePasquale (STScI)*
 
 The Crab Nebula, the result of a supernova explosion observed by Chinese astronomers in 1054 AD, has been one of Hubble's most-studied targets since its launch in 1990. This new observation, released on March 23, 2026 and featured by NASA on April 21, represents a landmark achievement in multi-wavelength astronomy.

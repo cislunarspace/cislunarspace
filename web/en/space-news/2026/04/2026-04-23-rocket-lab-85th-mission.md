@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-rocket-lab-85th-mission/hero.jpg
 
 **Summary:** On April 23, 2026, Rocket Lab successfully completed the 85th Electron launch from Launch Complex 1 in Mahia Peninsula, New Zealand, carrying the Japanese JAXA Kakushin Rising rideshare satellite to orbit. This mission marked Rocket Lab's first dedicated launch for the European Space Agency (ESA).
 
-![Rocket Lab Electron rocket lifts off](./figures/2026-04-23-rocket-lab-85th-mission/hero.jpg)
+![Rocket Lab Electron rocket lifts off](/space-news/2026/04/figures/2026-04-23-rocket-lab-85th-mission/hero.jpg)
 *Credit: Rocket Lab USA*
 
 ## Mission Overview

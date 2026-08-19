@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-artemis-ii-nasdaq-closing-bell/hero.jpg
 
 **Summary:** On May 1, 2026, the four astronauts of NASA's Artemis II mission rang the closing bell at the Nasdaq stock exchange in New York, celebrating the successful completion of humanity's first crewed lunar flyby mission in nearly 50 years. Artemis II successfully completed an approximately 10-day lunar flyby mission in April 2026, traveling about 1.127 million kilometers.
 
-![NASA Artemis II crew rings the Nasdaq closing bell (NASA image)](./figures/2026-05-01-artemis-ii-nasdaq-closing-bell/hero.jpg)
+![NASA Artemis II crew rings the Nasdaq closing bell (NASA image)](/space-news/2026/05/figures/2026-05-01-artemis-ii-nasdaq-closing-bell/hero.jpg)
 *Credit: NASA*
 
 ## Sources (original pages)

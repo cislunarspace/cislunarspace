@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** At 03:38 UTC on April 9, 2026, China successfully launched a batch of 21 low-Earth-orbit satellites for its satellite internet constellation, using the Long March 6 Modified (长征六号改) rocket from the Taiyuan Satellite Launch Center. The satellites entered their preset orbits and the launch was declared a complete success. This was the 637th flight of the Long March launch vehicle series.
 
-![Long March 6 Modified launches satellite internet LEO satellites (CNSA image)](./figures/2026-04-09-satellite-internet-low-orbit-21/satellite-internet-hero.jpg)
+![Long March 6 Modified launches satellite internet LEO satellites (CNSA image)](/space-news/2026/04/figures/2026-04-09-satellite-internet-low-orbit-21/satellite-internet-hero.jpg)
 *Credit: CNSA*
 
 ## Mission Overview

@@ -14,7 +14,7 @@ image: ./figures/2026-06-02-long-march-12b-maiden-flight/hero.jpg
 
 **Summary:** At 4:40 a.m. EDT on June 1, 2026 (08:40 UTC, 4:40 p.m. Beijing time on the same day), China Aerospace Science and Technology Corporation's (CASC) Long March 12B rocket lifted off from the Dongfeng Commercial Aerospace Innovation Test Zone in the Gobi Desert and successfully placed Qianfan constellation satellites into orbit. The rocket is the latest partially reusable medium-lift vehicle in China's line-up, with capabilities widely compared to SpaceX's Falcon 9. Unlike most Chinese launches, this one was carried out without the usual pre-launch airspace and maritime notices — news of the launch surfaced first on Chinese social media before being confirmed by CGTN, Xinhua, People's Daily and then Ars Technica, Scientific American, Live Science and other Western outlets.
 
-![Long March 12B lifts off on its maiden flight, June 1, 2026](./figures/2026-06-02-long-march-12b-maiden-flight/hero.jpg)
+![Long March 12B lifts off on its maiden flight, June 1, 2026](/space-news/2026/06/figures/2026-06-02-long-march-12b-maiden-flight/hero.jpg)
 
 ## Mission timeline
 

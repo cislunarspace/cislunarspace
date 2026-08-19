@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-microstar-ipo/hero.png
 
 **Summary:** On April 29, 2026, the China Securities Regulatory Commission's public issuance coaching disclosure system showed that Beijing MicroNano Star Technology Co., Ltd. (referred to as "MicroNano Star") had completed its IPO coaching and acceptance, with Guotai Haotong Securities Co., Ltd. as the coaching institution. MicroNano Star is a leading commercial satellite manufacturing company in China's private aerospace sector, specializing in satellite bus and ground station product R&D and manufacturing. The company began its IPO coaching in September 2025 and completed acceptance approximately 7 months later, marking a critical step toward listing.
 
-![MicroNano Star Company Logo (Image from MicroNano Star official website)](./figures/2026-04-29-microstar-ipo/hero.png)
+![MicroNano Star Company Logo (Image from MicroNano Star official website)](/space-news/2026/04/figures/2026-04-29-microstar-ipo/hero.png)
 *Credit: MicroNano Star Official Website*
 
 ## Company Overview

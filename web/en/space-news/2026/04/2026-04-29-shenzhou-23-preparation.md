@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-shenzhou-23-preparation/hero.jpg
 
 **Summary:** The Shenzhou-23 crewed spacecraft launch mission has entered a critical preparation phase. The Jiuquan Satellite Launch Center has completed key preparations including rocket ground testing and control equipment maintenance, spacecraft fueling drills, and emergency search and rescue exercises. According to mission planning, China will launch Shenzhou-23 and Shenzhou-24 from Jiuquan in 2026, with Shenzhou-22 and Shenzhou-23 spacecraft returning to the Dongfeng landing area in sequence.
 
-![Shenzhou-23 mission control hall at Jiuquan Satellite Launch Center](./figures/2026-04-29-shenzhou-23-preparation/01-launch-site.jpg)
+![Shenzhou-23 mission control hall at Jiuquan Satellite Launch Center](/space-news/2026/04/figures/2026-04-29-shenzhou-23-preparation/01-launch-site.jpg)
 *Jiuquan Satellite Launch Center mission control hall (file photo)*
 
 ## Launch Site Preparations Complete

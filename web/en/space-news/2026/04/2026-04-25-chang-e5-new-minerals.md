@@ -18,7 +18,7 @@ image: ./figures/2026-04-25-chang-e5-new-minerals/hero.png
 
 **Summary:** On April 24, 2026, at the ceremony for China's 11th Space Day, the China National Space Administration (CNSA) announced a major scientific achievement: two new lunar minerals — magnesium Chang'e stone and cerium Chang'e stone — were discovered in Chang'e-5 lunar samples. Both have been approved by the International Mineralogical Association's Commission on New Minerals, Nomenclature and Classification (IMA-CNMNC). These are China's's 2nd and 3rd lunar new minerals after the discovery of Chang'e Stone in 2022, and the 7th and 8th new minerals found in returned lunar regolith worldwide.
 
-![Two new lunar minerals discovered in Chang'e-5 samples](./figures/2026-04-25-chang-e5-new-minerals/hero.png)
+![Two new lunar minerals discovered in Chang'e-5 samples](/space-news/2026/04/figures/2026-04-25-chang-e5-new-minerals/hero.png)
 *Credit: CNSA*
 
 On April 24, 2026, at the main ceremony for China's 11th Space Day held in Chengdu, Sichuan Province, CNSA officially released the latest research findings from Chang'e-5 lunar samples. Chinese scientists discovered two new lunar minerals — **magnesium Chang'e stone** (ming-cha'e stone) and **cerium Chang'e stone** — both approved by the IMA-CNMNC.

@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-nasa-ivgen-mini/hero.jpg
 
 **Summary:** NASA has successfully demonstrated the IVGEN Mini system aboard the International Space Station, a compact device capable of producing intravenous (IV) fluid on-demand from station drinking water. The technology addresses a critical challenge for long-duration deep space missions where pre-packed IV fluid—currently limited to a 16-month shelf life—would be impractical to stock for journeys lasting up to three years. The system can generate 1.2 liters of IV fluid per hour and represents a key step toward sustaining crew health on future Mars missions.
 
-![NASA's IVGEN Mini hardware aboard the ISS](./figures/2026-04-23-nasa-ivgen-mini/hero.jpg)
+![NASA's IVGEN Mini hardware aboard the ISS](/space-news/2026/04/figures/2026-04-23-nasa-ivgen-mini/hero.jpg)
 *Credit: NASA*
 
 The IVGEN Mini system was operated aboard the ISS in April 2026, with astronauts producing 10 liters of IV fluid over two days of testing. The system works by connecting to the station's drinking water supply, which is then filtered through IVGEN Mini to remove particulates and mineral ions. The processed water flows into an output bag containing premeasured sodium chloride, creating a sterile IV solution ready for medical use.

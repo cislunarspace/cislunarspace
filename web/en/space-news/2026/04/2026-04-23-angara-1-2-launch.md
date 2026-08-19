@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** On April 23, 2026 at 11:29 Moscow Time, the Russian Aerospace Forces successfully launched an Angara-1.2 light rocket from the Plesetsk Cosmodrome in Arkhangelsk Oblast. The military satellite carried by the rocket entered its designated orbit and was taken under control by the Aerospace Forces' ground-based equipment.
 
-![Russian Angara-1.2 rocket launch (Russian Defense Ministry photo)](./figures/2026-04-23-angara-1-2-launch/hero.jpg)
+![Russian Angara-1.2 rocket launch (Russian Defense Ministry photo)](/space-news/2026/04/figures/2026-04-23-angara-1-2-launch/hero.jpg)
 *Credit: Sputnik News / Russian Defense Ministry*
 
 ## Sources (original pages)

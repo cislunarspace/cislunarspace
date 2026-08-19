@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** On April 17, 2026, engineers at NASA's Jet Propulsion Laboratory (JPL) in Southern California sent commands to shut down an instrument aboard Voyager 1 called the Low-energy Charged Particles experiment (LECP). The nuclear-powered spacecraft, now over 15 billion miles (25 billion kilometers) from Earth, is running low on power, and turning off LECP is considered the best way to keep humanity's first interstellar explorer operational.
 
-![Artist's concept of the Voyager spacecraft (NASA image)](./figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg)
+![Artist's concept of the Voyager spacecraft (NASA image)](/space-news/2026/04/figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg)
 *Credit: NASA / JPL-Caltech (Public Domain)*
 
 ## Background: Power Crisis and Instrument Shutdown
@@ -46,7 +46,7 @@ One part of the LECP—a small motor that spins the sensor in a circle to scan i
 
 Engineers are confident that shutting down the LECP will give Voyager 1 about a year of breathing room. They are using the time to finalize a more ambitious energy-saving fix for both Voyagers they call "the Big Bang," which is designed to further extend Voyager operations. The idea is to swap out a group of powered devices all at once—hence the nickname—turning some things off and replacing them with lower-power alternatives to keep the spacecraft warm enough to continue gathering science data.
 
-![Voyager spacecraft trajectory (NASA image)](./figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg)
+![Voyager spacecraft trajectory (NASA image)](/space-news/2026/04/figures/2026-04-17-voyager-1-instrument-shutdown/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Sources (original pages)

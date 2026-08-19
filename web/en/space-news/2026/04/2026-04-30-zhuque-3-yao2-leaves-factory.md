@@ -18,7 +18,7 @@ image: ./figures/2026-04-30-zhuque-3-yao2-leaves-factory/hero.jpg
 
 **Summary:** LandSpace announced on April 30 that its Zhuque-3 Yao-2 reusable liquid rocket has completed problem resolution and entered the factory exit phase, targeting a Q2 2026 launch. The rocket will conduct first-stage vertical landing recovery tests during this mission. If successful, Zhuque-3 Yao-2 will become the first Chinese commercial rocket to achieve vertical recovery and reuse, marking a major milestone in China's reusable rocket technology.
 
-![LandSpace Zhuque-3 rocket series](./figures/2026-04-30-zhuque-3-yao2-leaves-factory/hero.jpg)
+![LandSpace Zhuque-3 rocket series](/space-news/2026/04/figures/2026-04-30-zhuque-3-yao2-leaves-factory/hero.jpg)
 *Credit: LandSpace*
 
 ## Zhuque-3 Yao-2 Background

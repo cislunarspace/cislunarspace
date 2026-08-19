@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** NASA Administrator Jared Isaacman defended the administration's proposed FY2027 budget during congressional hearings. The proposal would cut NASA's budget from approximately $25 billion to around $20 billion — a roughly 20% reduction — with science programs bearing the brunt of the cuts. Isaacman argued NASA would use funds "more efficiently" and focus on "bold goals."
 
-![NASA Administrator Jared Isaacman testifies before Congress](./figures/2026-04-07-isaacman-nasa-budget/hero.jpg)
+![NASA Administrator Jared Isaacman testifies before Congress](/space-news/2026/04/figures/2026-04-07-isaacman-nasa-budget/hero.jpg)
 
 *Credit: NASA/Bill Ingalls*
 

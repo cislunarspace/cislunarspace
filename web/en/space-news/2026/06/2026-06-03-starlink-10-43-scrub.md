@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-starlink-10-43-scrub/hero.jpg
 
 **Summary:** SpaceX scrubbed the Starlink 10-43 mission at 7:24 a.m. EDT (11:24 UTC) on June 3, 2026, after a south-moving cool front pushed scattered marine showers and thick mid-level cloud decks into the Cape Canaveral launch window. The 45th Weather Squadron had assessed only a 30% chance of acceptable weather, flagging the cumulus cloud, thick cloud layer, and (under heavier showers) the surface electric fields rules. The next attempt opens at 4:00 a.m. EDT (08:00 UTC) on Thursday, June 4, with booster B1090 flying for the 12th time and targeting the drone ship A Shortfall of Gravitas — a successful touchdown would mark the vessel's 153rd landing and SpaceX's 619th booster recovery to date.
 
-![A Falcon 9 rocket carrying Starlink satellites lifts off from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station (image: NASA / Wikimedia Commons, Public Domain)](./figures/2026-06-03-starlink-10-43-scrub/hero.jpg)
+![A Falcon 9 rocket carrying Starlink satellites lifts off from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station (image: NASA / Wikimedia Commons, Public Domain)](/space-news/2026/06/figures/2026-06-03-starlink-10-43-scrub/hero.jpg)
 
 ## The call to scrub
 

@@ -14,7 +14,7 @@ image: ./figures/2026-06-07-sz23-first-inorbit-images/hero.jpg
 
 **Summary:** The China Manned Space Agency (CMSA) published the first batch of in-orbit work and life images from the Shenzhou-23 crew on June 7, 2026. Commander Zhu Yangzhu, pilot Zhang Zhiyuan, and payload specialist Lai Ka-ying have fully adapted to microgravity and are steadily advancing over 100 planned science experiments. One crew member will remain aboard the station across both the Shenzhou-23 and Shenzhou-24 missions, attempting China's first single-mission year-long space residency.
 
-![The Shenzhou-23 and Shenzhou-21 crews complete in-orbit handover inside the Tianhe core module](./figures/2026-06-07-sz23-first-inorbit-images/hero.jpg)
+![The Shenzhou-23 and Shenzhou-21 crews complete in-orbit handover inside the Tianhe core module](/space-news/2026/06/figures/2026-06-07-sz23-first-inorbit-images/hero.jpg)
 *Credit: China Manned Space Agency (CMSA)*
 
 ## Mission Background

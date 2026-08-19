@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-nasa-thailand-smoke/hero.jpg
 
 **Summary:** NASA's Earth observation satellite captured smoke from seasonal fires shrouding northern Thailand and Southeast Asia, with severe air quality impacts across the region.
 
-![NASA Terra satellite image of Southeast Asia smoke (NASA image)](./figures/2026-04-23-nasa-thailand-smoke/hero.jpg)
+![NASA Terra satellite image of Southeast Asia smoke (NASA image)](/space-news/2026/04/figures/2026-04-23-nasa-thailand-smoke/hero.jpg)
 *Credit: NASA*
 
 NASA's Terra satellite captured imagery on April 22, 2026 showing dense smoke from seasonal fires blanketing northern Thailand, severely impacting local air quality.

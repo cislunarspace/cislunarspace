@@ -18,7 +18,7 @@ image: ./figures/2026-04-24-xihe-2-intl-cooperation/hero.jpg
 
 **Summary:** On April 24, 2026, CNSA officially released the Xihe-2 International Cooperation Opportunity Announcement at the 11th China Space Day ceremony, offering approximately 15kg of payload resources and inviting international partners to jointly explore solar science.
 
-![Xihe-2 mission illustration](./figures/2026-04-24-xihe-2-intl-cooperation/hero.jpg)
+![Xihe-2 mission illustration](/space-news/2026/04/figures/2026-04-24-xihe-2-intl-cooperation/hero.jpg)
 *Credit: CNSA*
 
 On April 24, 2026, at the main venue ceremony for the 11th China Space Day in Chengdu, Sichuan Province, the China National Space Administration (CNSA) officially released the **Xihe-2 International Cooperation Opportunity Announcement**, welcoming international partners to participate in the Xihe-2 mission, jointly explore solar science, and expand human understanding of the Sun.

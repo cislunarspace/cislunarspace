@@ -16,7 +16,7 @@ wechatShare:
 
 Elon Musk announced on X (April 3) that the **Starship V3 first flight** has been delayed another 4–6 weeks, pushing the target from April to early May. This marks the **third consecutive delay**: January's "6 weeks," March's "4 weeks," and now "4–6 more weeks."
 
-![Starship V3 undergoing testing at SpaceX Starbase](./figures/2026-04-05-starship-v3-delay/hero.jpg)
+![Starship V3 undergoing testing at SpaceX Starbase](/space-news/2026/04/figures/2026-04-05-starship-v3-delay/hero.jpg)
 
 *Credit: SpaceX*
 

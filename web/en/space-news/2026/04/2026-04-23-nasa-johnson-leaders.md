@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-nasa-johnson-leaders/hero.jpg
 
 **Summary:** On March 13, 2026, the National Space Club & Foundation announced its 2026 award recipients at the 69th Annual Robert H. Goddard Memorial Dinner in Washington, D.C. Two dedicated leaders from NASA's Johnson Space Center were recognized for their contributions to human spaceflight. Orion Program Manager Howard Hu received the Norman L. Baker Astronautics Engineer Award for sustained technical contributions to multiple human spaceflight efforts.
 
-![2026 award recipients at the 69th Annual Robert H. Goddard Memorial Dinner](./figures/2026-04-23-nasa-johnson-leaders/hero.jpg)
+![2026 award recipients at the 69th Annual Robert H. Goddard Memorial Dinner](/space-news/2026/04/figures/2026-04-23-nasa-johnson-leaders/hero.jpg)
 *Credit: National Space Club & Foundation*
 
 ## Award Details

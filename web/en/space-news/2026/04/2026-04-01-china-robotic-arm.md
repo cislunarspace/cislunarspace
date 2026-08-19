@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** Chinese commercial space company Sustain Space (Sanyuan Aerospace) successfully completed on-orbit demonstrations of a flexible robotic arm aboard its Xiyuan-0 satellite. Launched March 16 on a Kuaizhou-11 rocket, the satellite tested simulated refueling operations, force-compliant manipulation, and precision control. On March 25, the company announced all on-orbit operations were successfully completed, with all four operation modes verified.
 
-![Xiyuan-0 satellite in orbit showing its flexible robotic arm](./figures/2026-04-01-china-robotic-arm/hero.jpg)
+![Xiyuan-0 satellite in orbit showing its flexible robotic arm](/space-news/2026/04/figures/2026-04-01-china-robotic-arm/hero.jpg)
 
 *Credit: Sustain Space*
 

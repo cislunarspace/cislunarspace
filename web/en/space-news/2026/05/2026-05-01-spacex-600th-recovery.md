@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-spacex-600th-recovery/hero.jpg
 
 **Summary:** On April 20, 2026, SpaceX launched a Falcon 9 booster (B1097.7) from Vandenberg Space Force Base, delivering 25 Starlink satellites to orbit while completing its 600th orbital-class rocket recovery. Just one day later, the GPS III SV10 mission pushed this figure to 601. The journey from 500 to 600 recoveries took only 7 months, as SpaceX has transformed rocket recovery into a routine operation.
 
-![Falcon 9 booster landing (NASA image)](./figures/2026-05-01-spacex-600th-recovery/hero.jpg)
+![Falcon 9 booster landing (NASA image)](/space-news/2026/05/figures/2026-05-01-spacex-600th-recovery/hero.jpg)
 *Credit: NASA*
 
 ## Sources (original pages)

@@ -14,7 +14,7 @@ image: ./figures/2026-06-05-spacex-177t-ipo-spcx-pricing/hero.jpg
 
 **Summary:** SpaceX disclosed this week that its IPO price will be 135 dollars per share, implying a 1.77 trillion dollar valuation. Trading will begin on the Nasdaq under the ticker SPCX on June 12, with the raise expected to eclipse Alibaba 2014 21.8 billion dollar record.
 
-![SpaceX Starship on its 12th test flight, May 22, 2026](./figures/2026-06-05-spacex-177t-ipo-spcx-pricing/hero.jpg)
+![SpaceX Starship on its 12th test flight, May 22, 2026](/space-news/2026/06/figures/2026-06-05-spacex-177t-ipo-spcx-pricing/hero.jpg)
 
 ## The Key Numbers
 

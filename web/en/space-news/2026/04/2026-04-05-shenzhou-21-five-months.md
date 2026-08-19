@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** The China Manned Space Engineering Office released the latest Tiangong TV video on April 5, 2026.
 
-![Shenzhou-21 astronauts aboard China Space Station](./figures/2026-04-05-shenzhou-21-five-months/hero.jpg)
+![Shenzhou-21 astronauts aboard China Space Station](/space-news/2026/04/figures/2026-04-05-shenzhou-21-five-months/hero.jpg)
 *Credit: China Manned Space Engineering Office* The Shenzhou-21 crew members Zhang Lu, Wu Fei, and Zhang Hongzhang have been in orbit for over five months since arriving at the China Space Station, with all tasks progressing steadily. The crew has completed space medicine experiments including trust and coordination mechanisms and human-spacecraft trust research, conducted space brain network time-varying characteristics experiments, and performed maintenance on combustion science, fluid physics, and containerless material processing experiment racks.
 
 ## Sources (original pages)

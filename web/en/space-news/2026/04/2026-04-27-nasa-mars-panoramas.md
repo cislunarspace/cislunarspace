@@ -18,7 +18,7 @@ image: ./figures/2026-04-27-nasa-mars-panoramas/hero.jpg
 
 **Summary:** NASA's Curiosity and Perseverance rovers have simultaneously released their respective 360-degree panoramic images of Mars. Curiosity's panorama, stitched from 1,031 images taken over nearly a month, focuses on ancient boxwork terrain in Gale Crater. Perseverance's panorama, composed of 980 images, captures the Jezero Crater rim area known as "Lac de Charmes." The two rovers—one old and one new, one climbing up and one descending—are effectively "time traveling" through Mars' geological history simultaneously, providing unprecedented comparative data for scientists understanding Mars' formation, watery past, and ancient habitable conditions.
 
-![Curiosity 360-degree panorama: Boxwork terrain near Nevado Sajama region (NASA/JPL-Caltech/ASU/MSSS/ESA/University of Arizona/JHUAPL/USGS)](./figures/2026-04-27-nasa-mars-panoramas/hero.jpg)
+![Curiosity 360-degree panorama: Boxwork terrain near Nevado Sajama region (NASA/JPL-Caltech/ASU/MSSS/ESA/University of Arizona/JHUAPL/USGS)](/space-news/2026/04/figures/2026-04-27-nasa-mars-panoramas/hero.jpg)
 *Credit: NASA/JPL-Caltech/ASU/MSSS/ESA/University of Arizona/JHUAPL/USGS*
 
 ## Curiosity: A Geological Time Machine Through 3.8 Billion Years

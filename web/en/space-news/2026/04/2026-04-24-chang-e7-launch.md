@@ -18,7 +18,7 @@ image: ./figures/2026-04-24-chang-e7-launch/hero.jpg
 
 **Summary:** On April 24, 2026, the 11th China Space Day, CNSA announced that Chang'e-7 will launch in 2026 to conduct lunar south pole exploration, searching for water ice resources.
 
-![Chang'e-7 spacecraft illustration](./figures/2026-04-24-chang-e7-launch/hero.jpg)
+![Chang'e-7 spacecraft illustration](/space-news/2026/04/figures/2026-04-24-chang-e7-launch/hero.jpg)
 *Credit: CNSA*
 
 On April 24, 2026, at the main venue ceremony for the 11th China Space Day in Chengdu, Sichuan Province, the China National Space Administration (CNSA) announced: **Chang'e-7 will launch in 2026** to conduct lunar south pole exploration missions.

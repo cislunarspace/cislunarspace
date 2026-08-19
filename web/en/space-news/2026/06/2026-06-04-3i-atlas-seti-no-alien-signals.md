@@ -14,7 +14,7 @@ image: ./figures/2026-06-04-3i-atlas-seti-no-alien-signals/hero.jpg
 
 **Summary:** On June 4, 2026, a SETI team published results from Allen Telescope Array observations of interstellar comet 3I/ATLAS. No narrowband radio signals matching an artificial transmitter were detected across multiple bands, reinforcing the natural-origin interpretation. The technosignature hunt follows May observations by Tianwen-1 from Mars orbit and the late-May archival discovery at the Vera C. Rubin Observatory.
 
-![Allen Telescope Array at the Hat Creek Radio Observatory in Northern California (Wikimedia Commons, brewbooks, CC BY-SA 2.0)](./figures/2026-06-04-3i-atlas-seti-no-alien-signals/hero.jpg)
+![Allen Telescope Array at the Hat Creek Radio Observatory in Northern California (Wikimedia Commons, brewbooks, CC BY-SA 2.0)](/space-news/2026/06/figures/2026-06-04-3i-atlas-seti-no-alien-signals/hero.jpg)
 
 3I/ATLAS, discovered in July 2025, is the third known interstellar object, following 1I/ʻOumuamua (2017) and 2I/Borisov (2019). With a hyperbolic orbit and eccentricity of about 6.14, it likely originated outside the Solar System billions of years ago. Its larger size and active dust coma have fueled speculation about an artificial origin since discovery. The SETI Institute team used the Allen Telescope Array at the Hat Creek Radio Observatory in Northern California to scan multiple narrowband radio frequencies commonly associated with artificial transmitters, finding no persistent, periodic, or band-matched signals above the natural background.
 

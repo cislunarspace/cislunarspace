@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** NASA officials confirm Artemis II Orion spacecraft thermal protection system performance is reliable, the heat shield will ensure crew safety during re-entry into Earth's atmosphere at 24,000 mph. This thermal shield has undergone rigorous testing and can guarantee the safe return of astronauts under extreme temperature conditions.
 
-![Artemis II thermal protection system undergoing inspections at Kennedy Space Center (April 2026)](./figures/2026-04-10-artemis-2-heat-shield/hero.webp)
+![Artemis II thermal protection system undergoing inspections at Kennedy Space Center (April 2026)](/space-news/2026/04/figures/2026-04-10-artemis-2-heat-shield/hero.webp)
 *Credit: Spaceflight Now / NASA*
 
 ## Thermal Protection System Technical Specifications

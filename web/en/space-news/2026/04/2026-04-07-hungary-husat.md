@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** On April 7, Hungary signed a contract with Northrop Grumman to build HUSAT, the country's first geostationary communications satellite. Developed jointly with Hungarian IT group 4iG, the satellite is expected to launch in 2028 and will provide communications and broadcasting services covering Central Europe and surrounding regions.
 
-![4iG Group and Northrop Grumman HUSAT satellite contract signing ceremony](./figures/2026-04-07-hungary-husat/hero.jpg)
+![4iG Group and Northrop Grumman HUSAT satellite contract signing ceremony](/space-news/2026/04/figures/2026-04-07-hungary-husat/hero.jpg)
 
 *Credit: Northrop Grumman*
 

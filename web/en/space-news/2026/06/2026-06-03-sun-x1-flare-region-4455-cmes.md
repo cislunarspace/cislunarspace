@@ -14,7 +14,7 @@ image: ./figures/2026-06-03-sun-x1-flare-region-4455-cmes/hero.jpg
 
 **Summary:** Between June 2 and 3 UTC, Earth-facing sunspot region AR4455 produced three significant solar flares in under 24 hours: an M9.3 peaking at 01:36 UTC June 3, an M7.9 at 07:00 UTC, and an X1.0 at 11:28 UTC, the strongest category of solar flare. The U.K. Met Office has confirmed the M9.3 flare was accompanied by a fast, Earth-directed coronal mass ejection (CME) expected to arrive June 4. NOAA's Space Weather Prediction Center has issued a strong (G3) geomagnetic storm watch for June 4-6, with a slight chance of isolated severe (G4) conditions. The trio of flares triggered R2-R3 radio blackouts across East Asia and North America.
 
-![Sunspot region AR4455 captured by NASA's Solar Dynamics Observatory](./figures/2026-06-03-sun-x1-flare-region-4455-cmes/hero.jpg)
+![Sunspot region AR4455 captured by NASA's Solar Dynamics Observatory](/space-news/2026/06/figures/2026-06-03-sun-x1-flare-region-4455-cmes/hero.jpg)
 
 ## Three Flares in Less Than a Day
 

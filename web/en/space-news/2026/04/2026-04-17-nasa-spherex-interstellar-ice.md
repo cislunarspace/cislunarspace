@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** NASA's SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) mission has mapped the chemical signatures of water ice and complex organic molecules across the Milky Way. The observatory, launched in March 2025, captured detailed images of interstellar ice in the Cygnus X star-forming region, revealing where most of the universe's water is formed and stored.
 
-![SPHEREx image of water ice in Cygnus X](./figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg)
+![SPHEREx image of water ice in Cygnus X](/space-news/2026/04/figures/2026-04-17-nasa-spherex-interstellar-ice/hero.jpg)
 *Credit: NASA/JPL-Caltech/IPAC/Hora et al.*
 
 ## Sources (original pages)

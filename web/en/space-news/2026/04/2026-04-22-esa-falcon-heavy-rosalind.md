@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-esa-falcon-heavy-rosalind/hero.jpg
 
 **Summary:** On April 16, 2026, NASA announced that implementation work had begun to launch the European Space Agency's Rosalind Franklin Mars rover in 2028 aboard a SpaceX Falcon Heavy rocket. This decision resolves years of launch uncertainties for the rover, which had faced multiple delays due to the breakdown of the Russian partnership, technical issues, and budget overruns.
 
-![Artist's rendering of the Rosalind Franklin Mars rover (NASA image)](./figures/2026-04-22-esa-falcon-heavy-rosalind/hero.jpg)
+![Artist's rendering of the Rosalind Franklin Mars rover (NASA image)](/space-news/2026/04/figures/2026-04-22-esa-falcon-heavy-rosalind/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 The Rosalind Franklin rover is the centerpiece of ESA's ExoMars program, designed to search for signs of past and present life on Mars. Equipped with a subsurface drilling system and automated sample collection and analysis instruments, the rover will study the Martian surface's geochemical environment. The mission was originally planned for launch with Russian cooperation, but the partnership fell apart following Russia's invasion of Ukraine in 2022, leaving the mission in limbo.

@@ -52,15 +52,23 @@ function syncFigures(sourceBase, destBase) {
   return { count, errors };
 }
 
+// 图片单一来源（ADR-0004）：figures 只存 zh 侧一份，构建时同时拷入 dist 的
+// zh/en 两个位置（en md 的 ./figures/... 引用是 URL 约定，不依赖仓库内副本）。
+// en 侧仓库中仅保留内容确实不同的图片（如 -en 后缀目录），最后拷入并覆盖同名文件。
 const zhResult = syncFigures(path.join(webDir, 'space-news'), path.join(distDir, 'space-news'));
+const zhToEnResult = syncFigures(
+  path.join(webDir, 'space-news'),
+  path.join(distDir, 'en/space-news'),
+);
 const enResult = syncFigures(
   path.join(webDir, 'en/space-news'),
   path.join(distDir, 'en/space-news'),
 );
 
-const totalErrors = zhResult.errors + enResult.errors;
+const totalErrors = zhResult.errors + zhToEnResult.errors + enResult.errors;
 console.log(
-  `Synced ${zhResult.count + enResult.count} figure files to dist/ (${zhResult.count} zh, ${enResult.count} en)${totalErrors ? ` — ${totalErrors} errors` : ''}`,
+  `Synced ${zhResult.count + zhToEnResult.count + enResult.count} figure files to dist/ ` +
+    `(${zhResult.count} zh, ${zhToEnResult.count} zh→en, ${enResult.count} en-only)${totalErrors ? ` — ${totalErrors} errors` : ''}`,
 );
 if (totalErrors > 0) {
   process.exitCode = 1;

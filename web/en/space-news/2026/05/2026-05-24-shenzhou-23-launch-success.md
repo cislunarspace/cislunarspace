@@ -32,7 +32,7 @@ The Shenzhou 23 crew consists of three astronauts:
 - **Pilot: Zhang Zhiyuan** — From China's third batch of astronauts; making his first spaceflight
 - **Payload Specialist: Lai Ka-ying** — From China's fourth batch of astronauts; Hong Kong's first astronaut; making his first spaceflight
 
-![Shenzhou 23 crew (from left): payload specialist Lai Ka-ying, commander Zhu Yangzhu, and pilot Zhang Zhiyuan](./figures/2026-05-24-shenzhou-23-launch-success/hero.jpg)
+![Shenzhou 23 crew (from left): payload specialist Lai Ka-ying, commander Zhu Yangzhu, and pilot Zhang Zhiyuan](/space-news/2026/05/figures/2026-05-24-shenzhou-23-launch-success/hero.jpg)
 
 *Image credit: CMSA/CCTV*
 

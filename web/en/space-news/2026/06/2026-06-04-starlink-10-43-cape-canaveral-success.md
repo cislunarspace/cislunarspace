@@ -14,7 +14,7 @@ image: ./figures/2026-06-04-starlink-10-43-cape-canaveral-success/hero.jpg
 
 **Summary:** Thirty-one hours after the original June 3 launch window was scrubbed when a cold front triggered cumulus cloud, thick-cloud, and surface electric field rules simultaneously, SpaceX finally got Starlink 10-43 off the ground on June 4, 2026 at 6:26 a.m. EDT (10:26 UTC) from Space Launch Complex 40 at Cape Canaveral Space Force Station. The Falcon 9 delivered 29 Starlink V2 Mini Optimized broadband satellites to low Earth orbit, with SpaceX confirming deployment roughly 65 minutes after liftoff. About eight minutes after launch, booster B1090 — flying for the 12th time — settled onto the deck of the A Shortfall of Gravitas (ASOG) droneship in the Atlantic, marking ASOG's 153rd successful recovery and SpaceX's 619th Falcon 9 first-stage recovery overall. Combined with the previous day's Starlink 17-47 launch from Vandenberg (15:40 UTC on June 3), the back-to-back missions added 53 Starlink satellites to the constellation in 19 hours, pushing the active on-orbit Starlink count above 10,500.
 
-![A SpaceX Falcon 9 climbs into a vibrant dawn sky after lifting off from SLC-40 at Cape Canaveral Space Force Station on June 4, 2026 (Image credit: SpaceX)](./figures/2026-06-04-starlink-10-43-cape-canaveral-success/hero.jpg)
+![A SpaceX Falcon 9 climbs into a vibrant dawn sky after lifting off from SLC-40 at Cape Canaveral Space Force Station on June 4, 2026 (Image credit: SpaceX)](/space-news/2026/06/figures/2026-06-04-starlink-10-43-cape-canaveral-success/hero.jpg)
 
 ## Mission and Hardware
 

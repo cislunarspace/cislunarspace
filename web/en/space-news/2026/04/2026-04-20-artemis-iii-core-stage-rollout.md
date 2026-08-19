@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** NASA rolled out the Space Launch System (SLS) core stage — the largest section of the rocket — for the Artemis III crewed Moon landing mission on April 20, 2026. The 212-foot core stage was transported from the Michoud Assembly Facility in New Orleans to NASA's Kennedy Space Center in Florida via the agency's Pegasus barge, marking key progress toward the first crewed lunar landing under Artemis in two years.
 
-![NASA's SLS core stage for Artemis III being transported to the Pegasus barge at Michoud Assembly Facility (NASA/Michael DeMocker)](./figures/2026-04-20-artemis-iii-core-stage-rollout/hero.jpg)
+![NASA's SLS core stage for Artemis III being transported to the Pegasus barge at Michoud Assembly Facility (NASA/Michael DeMocker)](/space-news/2026/04/figures/2026-04-20-artemis-iii-core-stage-rollout/hero.jpg)
 *Credit: NASA/Michael DeMocker (Public Domain)*
 
 ## Background

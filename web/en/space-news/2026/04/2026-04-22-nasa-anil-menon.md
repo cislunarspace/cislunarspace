@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-nasa-anil-menon/hero.jpg
 
 **Summary:** NASA will host a news conference at 1:45 p.m. EDT on Wednesday, April 29, from the agency's Johnson Space Center in Houston to preview astronaut Anil Menon's upcoming mission to the International Space Station. The news conference will stream live on NASA's YouTube channel.
 
-![NASA Astronaut Anil Menon (NASA image)](./figures/2026-04-22-nasa-anil-menon/hero.jpg)
+![NASA Astronaut Anil Menon (NASA image)](/space-news/2026/04/figures/2026-04-22-nasa-anil-menon/hero.jpg)
 *Credit: NASA*
 
 ## Sources (original pages)

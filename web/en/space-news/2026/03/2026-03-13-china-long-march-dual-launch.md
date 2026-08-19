@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** According to *China Daily* and Xinhua, on **Mar. 13, 2026**, at **3:48 a.m. Beijing Time**, a **Long March-8A** lifted off from the **Hainan commercial launch site**, deploying the **20th batch** of **low-orbit satellite internet** satellites. At **6:33 a.m. Beijing Time** the same morning, a **Long March-2D** launched from the **Xichang Satellite Launch Center** in a **two-satellite** mission, placing **Shiyan 30C and 30D** (试验三十号 03、04) into planned orbits. The two flights were separated by roughly **three hours**. The image below is an **illustrative** Long March launch from Wikimedia Commons, **not** an official photo of these flights.
 
-![Illustrative Long March launch (Wikimedia Commons, not this mission)](./figures/2026-03-13-china-long-march-dual-launch/01-long-march-illustrative.jpg)
+![Illustrative Long March launch (Wikimedia Commons, not this mission)](/space-news/2026/03/figures/2026-03-13-china-long-march-dual-launch/01-long-march-illustrative.jpg)
 
 *Caption: Licensed Wikimedia image for context only; see Xinhua/China Daily for mission photography.*
 

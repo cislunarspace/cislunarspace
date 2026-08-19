@@ -18,7 +18,7 @@ image: ./figures/2026-04-25-pakistani-astronauts-training/hero.jpg
 
 **Summary:** On April 24, 2026, the China Manned Space Agency announced that two Pakistani astronauts had officially entered the Astronaut Center of China in Beijing to begin training alongside their Chinese peers. This marks the first time in China's manned spaceflight history that foreign astronauts have participated in systematic training at the center.
 
-![Pakistani astronauts Muhammad Zeeshan Ali (left) and Khurram Daud (right) arrive at the Astronaut Center of China](./figures/2026-04-25-pakistani-astronauts-training/hero.jpg)
+![Pakistani astronauts Muhammad Zeeshan Ali (left) and Khurram Daud (right) arrive at the Astronaut Center of China](/space-news/2026/04/figures/2026-04-25-pakistani-astronauts-training/hero.jpg)
 *Pakistani astronauts Muhammad Zeeshan Ali (L) and Khurram Daud (R) arrive at the Astronaut Center of China. Credit: CCTV News*
 
 On April 24, 2026, the China Manned Space Agency announced that two Pakistani astronauts had officially entered the Astronaut Center of China in Beijing to begin training alongside their Chinese peers. This is the first time in China's manned spaceflight history that foreign astronauts have participated in systematic training, representing a landmark achievement.

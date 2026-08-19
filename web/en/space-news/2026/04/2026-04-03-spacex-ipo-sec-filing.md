@@ -23,7 +23,7 @@ wechatShare:
 
 **Summary:** SpaceX has confidentially submitted a draft IPO registration to the U.S. Securities and Exchange Commission (SEC) on April 2, Bloomberg reported. The company is targeting a valuation exceeding $1.75 trillion and could raise up to $50 billion, which would easily surpass Saudi Aramco's 2019 record of $29 billion. Morgan Stanley, Goldman Sachs, JPMorgan Chase, Bank of America, and Citigroup are serving as lead underwriters among 21 participating banks.
 
-![SpaceX IPO filing reported by CGTN](./figures/2026-04-03-spacex-ipo-sec-filing/hero.jpg)
+![SpaceX IPO filing reported by CGTN](/space-news/2026/04/figures/2026-04-03-spacex-ipo-sec-filing/hero.jpg)
 *Credit: CGTN*
 
 ## Key Details

@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** China conducted two separate Long March launches this week, adding new batches of satellites to its two Starlink-rival megaconstellation programs. On April 7, a Long March 8 lifted off from the Hainan Commercial Space Launch Site, deploying 18 satellites for the Thousand Sails constellation, bringing its total to 126 spacecraft. On April 8, a Long March 6A launched from Taiyuan carrying the 21st group of Guowang satellites (approximately 5), raising Guowang's operational constellation to 168 satellites. These were China's 20th and 21st orbital launch attempts of 2026.
 
-![Long March 6A lifts off from Taiyuan carrying the 21st group of Guowang satellites, April 8, 2026](./figures/2026-04-10-china-megaconstellation-launches/hero.jpg)
+![Long March 6A lifts off from Taiyuan carrying the 21st group of Guowang satellites, April 8, 2026](/space-news/2026/04/figures/2026-04-10-china-megaconstellation-launches/hero.jpg)
 *Credit: CASC*
 
 ## Thousand Sails (Qianfan) — Long March 8

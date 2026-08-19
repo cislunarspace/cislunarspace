@@ -18,7 +18,7 @@ image: ./figures/2026-04-23-johnson-leaders-national-space-club/hero.jpg
 
 **Summary:** Two outstanding leaders from NASA's Johnson Space Center were honored by the National Space Club & Foundation for their exceptional contributions to human spaceflight. The recognition acknowledges their significant roles in America's crewed space programs over the years.
 
-![NASA Johnson Space Center leaders at the National Space Club ceremony, NASA image](./figures/2026-04-23-johnson-leaders-national-space-club/hero.jpg)
+![NASA Johnson Space Center leaders at the National Space Club ceremony, NASA image](/space-news/2026/04/figures/2026-04-23-johnson-leaders-national-space-club/hero.jpg)
 *Credit: NASA*
 
 The National Space Club & Foundation is a prestigious honorific organization in the U.S. space community that annually recognizes individuals and teams for outstanding contributions to American space endeavors. This award reflects the continued efforts of Johnson Space Center leaders in international crewed space cooperation, mission planning, and astronaut development.

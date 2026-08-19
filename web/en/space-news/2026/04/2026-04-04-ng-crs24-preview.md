@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** NASA has announced that Northrop Grumman's 24th Commercial Resupply Services mission (CRS-24) is targeting no earlier than 8:49 a.m. EDT on Wednesday, April 8, launching from Space Launch Complex 40 at Cape Canaveral. The Cygnus XL spacecraft, aboard a SpaceX Falcon 9 rocket, will carry approximately 11,000 pounds of science investigations, supplies, and equipment to the International Space Station.
 
-![Cygnus spacecraft approaching the International Space Station](./figures/2026-04-04-ng-crs24-preview/hero.jpg)
+![Cygnus spacecraft approaching the International Space Station](/space-news/2026/04/figures/2026-04-04-ng-crs24-preview/hero.jpg)
 *Credit: NASA*
 
 ## Mission Overview

@@ -26,7 +26,7 @@ wechatShare:
 
 **Summary:** On April 21, 2026, NASA released a collection of Earth images captured during the Artemis II mission's lunar flyby, offering unique perspectives of our planet from lunar orbit. The images, captured by NASA's fleet of Earth-observing satellites working in concert, showcase phytoplankton blooms off the Kamchatka Peninsula, auroras, and dynamic atmospheric phenomena, providing unprecedented research material for scientists.
 
-![NASA Earth imagery captured during Artemis II — phytoplankton bloom off the Kamchatka Peninsula (NASA image)](./figures/2026-04-22-nasa-pace-earth-views/hero.jpg)
+![NASA Earth imagery captured during Artemis II — phytoplankton bloom off the Kamchatka Peninsula (NASA image)](/space-news/2026/04/figures/2026-04-22-nasa-pace-earth-views/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Image Content

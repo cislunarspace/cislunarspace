@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** The Artemis II mission is more than halfway to the Moon. NASA's Mission Control cancelled the first planned outbound trajectory correction burn as Orion's trajectory is already precise. NASA astronaut Christina Koch reported seeing the Moon through Orion's docking hatch: **"We all had a collective expression of joy... We can see the Moon out of the docking hatch right now. It's a beautiful sight."** The crew is preparing the cabin for the lunar observation period on April 6.
 
-![View from Orion during the Artemis II mission](./figures/2026-04-04-artemis-2-flight-day-3/hero.jpg)
+![View from Orion during the Artemis II mission](/space-news/2026/04/figures/2026-04-04-artemis-2-flight-day-3/hero.jpg)
 *Credit: NASA*
 
 ## Mission Progress

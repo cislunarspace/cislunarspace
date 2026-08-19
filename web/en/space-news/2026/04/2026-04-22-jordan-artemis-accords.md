@@ -23,7 +23,7 @@ tags:
 
 **Summary:** The Hashemite Kingdom of Jordan officially signed the Artemis Accords during a ceremony at NASA Headquarters on April 23, 2026, becoming the 63rd signatory globally. NASA Administrator Jared Isaacman and Jordan's Ambassador to the United States Dina Kawar attended the signing ceremony.
 
-![Jordan Signs Artemis Accords at NASA Headquarters](./figures/2026-04-22-jordan-artemis-accords/hero.jpg)
+![Jordan Signs Artemis Accords at NASA Headquarters](/space-news/2026/04/figures/2026-04-22-jordan-artemis-accords/hero.jpg)
 *Credit: NASA*
 
 ## Sources (original pages)

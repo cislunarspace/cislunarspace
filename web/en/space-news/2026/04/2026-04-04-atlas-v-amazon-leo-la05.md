@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** A United Launch Alliance (ULA) Atlas V 551 rocket lifted off from Space Launch Complex 41 at Cape Canaveral Space Force Station at 05:46 UTC on April 4, successfully delivering 29 Amazon Leo (formerly Project Kuiper) broadband internet satellites into low Earth orbit. This is the fifth batch of satellites launched for the Amazon Leo constellation, marking continued progress in Amazon's satellite internet deployment.
 
-![Atlas V 551 rocket](./figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg)
+![Atlas V 551 rocket](/space-news/2026/04/figures/2026-04-04-atlas-v-amazon-leo-la05/hero.jpg)
 *Credit: ULA*
 
 ## Mission Overview

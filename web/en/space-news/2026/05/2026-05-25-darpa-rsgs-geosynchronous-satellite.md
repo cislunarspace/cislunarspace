@@ -14,7 +14,7 @@ image: ./figures/2026-05-25-darpa-rsgs-geosynchronous-satellite/hero.jpg
 
 **Summary:** The U.S. Defense Advanced Research Projects Agency (DARPA) announced on May 20, 2026, that its long-delayed Robotic Servicing of Geosynchronous Satellites (RSGS) payload has completed integration and cryogenic thermal vacuum testing, targeting launch as soon as summer 2026. The mission will demonstrate dexterous robotic servicing, upgrades, inspections, and satellite relocation at geostationary orbit (GEO) approximately 22,000 miles (36,000 km) above Earth — a milestone that could shift space operations from a "disposable assets" model to one of sustainable maintenance and upgradability.
 
-![RSGS payload inside the cryogenic thermal vacuum chamber at the U.S. Naval Research Laboratory](./figures/2026-05-25-darpa-rsgs-geosynchronous-satellite/rsgs-diagram.jpg)
+![RSGS payload inside the cryogenic thermal vacuum chamber at the U.S. Naval Research Laboratory](/space-news/2026/05/figures/2026-05-25-darpa-rsgs-geosynchronous-satellite/rsgs-diagram.jpg)
 
 ## Background
 

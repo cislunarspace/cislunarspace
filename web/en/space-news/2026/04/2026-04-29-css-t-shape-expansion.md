@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-css-t-shape-expansion/hero.png
 
 **Summary:** April 29, 2026 marks the 5th anniversary of the Tianhe core module's orbital insertion. As the space station's mission portfolio expands with 267 scientific experiments deployed on-orbit, China plans a "second expansion" — adding a larger expansion module at the front docking port of the core module, transforming the station from a T-shaped to a cross-shaped configuration. The new module will provide additional docking ports, more EVA airlocks, and interfaces for future experiment modules.
 
-![Space station second expansion illustration](./figures/2026-04-29-css-t-shape-expansion/hero.png)
+![Space station second expansion illustration](/space-news/2026/04/figures/2026-04-29-css-t-shape-expansion/hero.png)
 *Credit: IT Home (mydrivers.com)*
 
 ## From T to Cross: Second Expansion Details

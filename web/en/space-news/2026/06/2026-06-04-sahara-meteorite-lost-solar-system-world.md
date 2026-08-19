@@ -14,7 +14,7 @@ image: ./figures/2026-06-04-sahara-meteorite-lost-solar-system-world/hero.jpg
 
 **Summary:** A study led by geoscientist Aaron Bell of the University of Colorado Boulder reports that NWA 12774, a meteorite recovered from the Sahara in 2019, contains clinopyroxene crystals exceptionally rich in aluminum — a chemical fingerprint of crystallization under far higher pressure than previously assumed for angrite parent bodies. The team argues the parent body may have approached lunar mass and followed a planetary formation pathway distinct from Earth and Mars. NWA 12774 belongs to the angrite class, of which only 68 specimens are known out of more than 80,000 recovered meteorites.
 
-![NWA 12774 meteorite thin section under cross-polarized light. Aluminum-rich clinopyroxene crystals (bright) indicate crystallization under high pressure in the parent body (Image credit: CU Boulder / John Kashuba)](./figures/2026-06-04-sahara-meteorite-lost-solar-system-world/hero.jpg)
+![NWA 12774 meteorite thin section under cross-polarized light. Aluminum-rich clinopyroxene crystals (bright) indicate crystallization under high pressure in the parent body (Image credit: CU Boulder / John Kashuba)](/space-news/2026/06/figures/2026-06-04-sahara-meteorite-lost-solar-system-world/hero.jpg)
 
 ## A rare sample's geochemistry
 

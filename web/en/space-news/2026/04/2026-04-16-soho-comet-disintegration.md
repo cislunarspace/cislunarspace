@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** On April 4, 2026, Comet C/2026 A1 (MAPS), a Kreutz sungrazing comet, disintegrated during its approach to the Sun. The coronagraph on the NASA/ESA SOHO spacecraft captured the comet approaching intact before it vanished behind the solar disk, only to reappear as a cloud of dust hours later.
 
-![Comet MAPS as captured by SOHO (NASA/ESA image)](./figures/2026-04-16-soho-comet-disintegration/hero.png)
+![Comet MAPS as captured by SOHO (NASA/ESA image)](/space-news/2026/04/figures/2026-04-16-soho-comet-disintegration/hero.png)
 *Credit: NASA / ESA (Public Domain)*
 
 ## Observation Record
@@ -40,7 +40,7 @@ However, a few hours later, SOHO saw nothing but a cloud of dust come out from t
 
 Comet MAPS was discovered on January 13, 2026, by a telescope in Chile belonging to the MAPS program led by amateur astronomers Alain Maury, Georges Attard, Daniel Parrott, and Florian Signoret. It belonged to a family of comets called Kreutz sungrazing comets, which all have similar orbits that take them very close to the Sun and are thought to be pieces of a larger comet that broke apart centuries ago.
 
-![SOHO spacecraft artist concept (NASA/ESA image)](./figures/2026-04-16-soho-comet-disintegration/hero.png)
+![SOHO spacecraft artist concept (NASA/ESA image)](/space-news/2026/04/figures/2026-04-16-soho-comet-disintegration/hero.png)
 *Credit: NASA / ESA (Public Domain)*
 
 ## Sources (original pages)

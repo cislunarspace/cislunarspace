@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** The European Space Agency's (ESA) Celeste satellite successfully broadcast its first navigation signal from low Earth orbit, marking Europe's first operational low-orbit navigation satellite and a significant milestone in the development of Europe's low-orbit navigation constellation.
 
-![ESA Celeste satellite concept](./figures/2026-04-10-esa-celeste/hero.jpg)
+![ESA Celeste satellite concept](/space-news/2026/04/figures/2026-04-10-esa-celeste/hero.jpg)
 *Credit: ESA*
 
 ## Sources (original pages)

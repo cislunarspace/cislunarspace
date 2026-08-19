@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** NASA has ordered a halt to construction of Mobile Launcher 2 (ML-2), the ground infrastructure designed for the SLS Block 1B rocket. Built by Bechtel under a contract initially valued at $383 million, the project has consumed over $1 billion with no completion in sight. The stop-work order directly threatens the Artemis IV mission timeline and beyond, as the enhanced lift capacity of SLS Block 1B requires ML-2 to launch.
 
-![ML-2 construction site at Kennedy Space Center, March 2026](./figures/2026-04-07-nasa-ml2-stop-work/hero.jpg)
+![ML-2 construction site at Kennedy Space Center, March 2026](/space-news/2026/04/figures/2026-04-07-nasa-ml2-stop-work/hero.jpg)
 
 *Credit: NASA/Jacob Dietrich*
 

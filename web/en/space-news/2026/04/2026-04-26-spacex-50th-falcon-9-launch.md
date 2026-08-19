@@ -18,7 +18,7 @@ image: ./figures/2026-04-26-spacex-50th-falcon-9-launch/hero.jpg
 
 **Summary:** On April 26, 2026, SpaceX successfully completed its 50th Falcon 9 launch of the year from Vandenberg Space Force Base in California, deploying 25 Starlink V2 Mini broadband internet satellites and adding another record to the company's 603-booster recovery tally.
 
-![Falcon 9 rocket lifts off from Vandenberg carrying 25 Starlink satellites (SpaceX image)](./figures/2026-04-26-spacex-50th-falcon-9-launch/hero.jpg)
+![Falcon 9 rocket lifts off from Vandenberg carrying 25 Starlink satellites (SpaceX image)](/space-news/2026/04/figures/2026-04-26-spacex-50th-falcon-9-launch/hero.jpg)
 *Credit: SpaceX via Spaceflight Now*
 
 At 7:37 a.m. PDT (10:37 a.m. EDT / 14:37 UTC) on April 26, a SpaceX Falcon 9 rocket lifted off from Space Launch Complex 4 East at Vandenberg Space Force Base, carrying the Starlink 17-16 mission under cloudy skies. The rocket placed 25 of SpaceX's Starlink V2 Mini broadband internet satellites into a southerly trajectory from the central California coast.

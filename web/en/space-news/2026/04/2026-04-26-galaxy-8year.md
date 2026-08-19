@@ -23,7 +23,7 @@ tags:
 
 **Summary:** On April 24, 2026 at 14:35 Beijing Time, China successfully launched four satellites, including a satellite internet technology test satellite developed by Galaxy Aerospace (银河航天), aboard a Long March 2D rocket from the Xichang Satellite Launch Center. The same day marked Galaxy Aerospace's 8th anniversary — having grown from scratch to become China's first commercial space unicorn, with 40+ self-developed satellites launched and the nation's first low-Earth-orbit broadband communication test constellation "Small Spider Web" operational.
 
-![Launch scene of Galaxy Aerospace's satellite internet technology test satellite](./figures/2026-04-26-galaxy-8year/hero.jpg)
+![Launch scene of Galaxy Aerospace's satellite internet technology test satellite](/space-news/2026/04/figures/2026-04-26-galaxy-8year/hero.jpg)
 *Image credit: Galaxy Aerospace (reproduced with authorization)*
 
 On April 24, 2026, four satellites including a satellite internet technology test satellite developed by Galaxy Aerospace were successfully delivered into their designated orbits via a Long March 2D launch vehicle from the Xichang Satellite Launch Center. This mission marked the 104th flight of the Long March 2D rocket and the 639th flight of the Long March rocket family.

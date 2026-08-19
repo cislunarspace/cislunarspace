@@ -23,7 +23,7 @@ tags:
 
 **Summary:** On March 30, 2026 at 19:00 Beijing Time, CAS Space's indigenously developed Lijian-2 (Yao-1) carrier rocket successfully lifted off from the Dongfeng Commercial Space Innovation Test Zone in Ejin Banner, Alxa League, Inner Mongolia, placing three satellites — Xinzhengcheng-01, Xinzhengcheng-02, and Tianshi-01 — into their target orbits. Lijian-2 is China's first rocket using the Common Booster Core (CBC) configuration, and its maiden flight already served national strategic and major engineering construction needs.
 
-![NASA's SLS rocket and Orion spacecraft rollout to Launch Pad 39B (NASA / Kennedy Space Center)](./figures/2026-03-30-lijian-2-maiden-flight/hero.jpg)
+![NASA's SLS rocket and Orion spacecraft rollout to Launch Pad 39B (NASA / Kennedy Space Center)](/space-news/2026/04/figures/2026-03-30-lijian-2-maiden-flight/hero.jpg)
 *Credit: NASA / Kennedy Space Center (public domain image, illustrating global rocket launch scenes)*
 
 ## Mission Overview

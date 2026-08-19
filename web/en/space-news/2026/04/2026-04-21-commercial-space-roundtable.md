@@ -18,7 +18,7 @@ image: ./figures/2026-04-21-commercial-space-roundtable/hero.png
 
 **Summary:** On April 21, Shan Zhongde, member of the Party Leadership Group and Vice Minister of the Ministry of Industry and Information Technology (MIIT) and Administrator of the China National Space Administration (CNSA), chaired a roundtable on high-quality commercial space development. The meeting focused on forming integrated development momentum across the "rocket-satellite-launch-site-spectrum-network" chain and accelerating commercial space industrialization. Fourteen commercial space enterprise leaders shared their situations, opinions, and suggestions.
 
-![CNSA holds enterprise roundtable on high-quality commercial space development](./figures/2026-04-21-commercial-space-roundtable/hero.png)
+![CNSA holds enterprise roundtable on high-quality commercial space development](/space-news/2026/04/figures/2026-04-21-commercial-space-roundtable/hero.png)
 *Image source: CNSA*
 
 At the meeting, leaders from 14 enterprises spanning rocket development, satellite manufacturing, commercial launch services, satellite tracking and control, constellation construction, and satellite applications engaged in discussions on development approaches, challenges, and suggestions regarding R&D and production, licensing and market access, launch applications, frequency coordination, in-orbit operations, and application promotion. Relevant departments and affiliated institutions of MIIT and CNSA responded to the enterprises' issues, demands, and suggestions on the spot.

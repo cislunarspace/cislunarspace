@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** NASA's X-59 Quiet SuperSonic (Quesst) research aircraft achieved its highest and fastest flights to date on April 14, 2026, successfully transitioning from ground-roll takeoffs to wheels-up flight operations over the Mojave Desert in California. The mission aims to demonstrate that supersonic flight is possible without generating loud sonic booms.
 
-![NASA's X-59 quiet supersonic aircraft in flight over the Mojave Desert](./figures/2026-04-20-nasa-x-59-wheels-up/hero.webp)
+![NASA's X-59 quiet supersonic aircraft in flight over the Mojave Desert](/space-news/2026/04/figures/2026-04-20-nasa-x-59-wheels-up/hero.webp)
 *Credit: NASA*
 
 During the latest test flights, the X-59 expanded its operational envelope, achieving the highest altitude and fastest speed in its flight history to date. Upcoming test phases will evaluate the aircraft's flight controls, structural loads and dynamics, and subsystems including hydraulics, fuel, avionics, and landing gear. The eXternal Vision System — a series of cameras mounted on the aircraft that replace the traditional forward windscreen, feeding imagery to a cockpit display — is also under evaluation.

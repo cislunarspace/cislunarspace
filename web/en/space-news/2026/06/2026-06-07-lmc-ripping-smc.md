@@ -12,7 +12,7 @@ image: ./figures/2026-06-07-lmc-ripping-smc/hero.jpg
 
 **Summary:** A team led by Sreepriya Vijayasree of the Leibniz Institute for Astrophysics Potsdam (AIP) has used 11 years of stellar motions from the VISTA Survey of the Magellanic Clouds (VMC) to show that the Small Magellanic Cloud's stars are not orbiting in a tidy rotating disk as long assumed. Instead, the stars stream outward along a southeast–northwest axis that, when extended, points straight back to the Large Magellanic Cloud — exactly the pattern expected if LMC tides are pulling SMC apart. VISTA also detected an older ~2-billion-year-old red-giant population drifting coherently northward, a fossil of a still-earlier gravitational encounter. The findings were released by AIP on June 7, 2026.
 
-![A visible-light mosaic showing the Large and Small Magellanic Clouds side by side; separated by about 21 degrees on the sky, the pair is easily visible to the naked eye from the Southern Hemisphere.](./figures/2026-06-07-lmc-ripping-smc/hero.jpg)
+![A visible-light mosaic showing the Large and Small Magellanic Clouds side by side; separated by about 21 degrees on the sky, the pair is easily visible to the naked eye from the Southern Hemisphere.](/space-news/2026/06/figures/2026-06-07-lmc-ripping-smc/hero.jpg)
 
 ## What the survey sees
 

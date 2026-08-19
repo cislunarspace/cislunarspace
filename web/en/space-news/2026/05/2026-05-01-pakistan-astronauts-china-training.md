@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-pakistan-astronauts-china-training/hero.jpg
 
 **Summary:** On April 24, 2026, the 11th China Space Day, China's Manned Space Engineering Office officially announced the completion of the first batch of foreign astronaut selection: two Pakistani astronauts — Lieutenant Colonel Muhammad Qasim Ali (Pakistan Air Force) and Lieutenant Colonel Gulam Daud (Pakistan Navy) — formally entered the China Astronaut Research and Training Center to train alongside Chinese astronauts. Both have extensive flying backgrounds and were selected through a rigorous process. Upon passing examinations, one will board a Shenzhou spacecraft to Tiangong Space Station in October–November 2026 as a payload specialist, becoming the first foreign astronaut on China's space station.
 
-![Pakistani astronauts begin training (Sohu News image)](./figures/2026-05-01-pakistan-astronauts-china-training/hero.jpg)
+![Pakistani astronauts begin training (Sohu News image)](/space-news/2026/05/figures/2026-05-01-pakistan-astronauts-china-training/hero.jpg)
 *Image: Sohu News, authorized for use*
 
 China's Manned Space Engineering Office announced on April 22, 2026, that the first batch of foreign astronaut selection had concluded, with two Pakistani candidates selected. On April 24, during the China Space Day celebrations, the two astronauts formally arrived at the China Astronaut Research and Training Center.

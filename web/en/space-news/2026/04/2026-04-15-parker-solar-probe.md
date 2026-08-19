@@ -25,7 +25,7 @@ wechatShare:
 
 **Summary:** On April 15, 2026, NASA released new research findings: Parker Solar Probe, during a 2022 solar flyby, passed through a magnetic reconnection event region and captured detailed data on charged particle acceleration. Surprisingly, the observations revealed that protons and heavy ions accelerate differently—this contradicts theoretical predictions that both particle types should follow the same mechanism.
 
-![Parker Solar Probe concept (NASA image)](./figures/2026-04-15-parker-solar-probe/hero.jpg)
+![Parker Solar Probe concept (NASA image)](/space-news/2026/04/figures/2026-04-15-parker-solar-probe/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Discovery: Different Particle Acceleration Mechanisms
@@ -48,7 +48,7 @@ Launched in 2018, Parker Solar Probe is humanity's first spacecraft to fly into 
 - Determining the transport and dissipation mechanisms of solar plasma
 - Exploring the acceleration and transport processes of high-energy particles
 
-![Parker Solar Probe studying the Sun (NASA image)](./figures/2026-04-15-parker-solar-probe/hero.jpg)
+![Parker Solar Probe studying the Sun (NASA image)](/space-news/2026/04/figures/2026-04-15-parker-solar-probe/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Sources (original pages)

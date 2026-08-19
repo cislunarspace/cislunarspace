@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg
 
 **Summary:** April 29 marked the 5th anniversary of the Tianhe core module's launch into orbit, the foundation of China's Tiangong Space Station. Over five years, Tianhe has operated stably and efficiently, hosting 267 scientific and application projects in orbit. The current space station features a stable "T-shaped" configuration, but with expanding research missions and international cooperation projects, the station faces increasing capacity constraints. China has announced plans for a major "second expansion": a new experiment module will be added to the forward docking port of the core module, forming a "cross-shaped" configuration. This new module will be larger than Tianhe itself, providing additional docking ports and a new airlock for extravehicular activities. The station will also welcome the Hubble-class Survey Space Telescope, and the Long March 5-B rocket will be upgraded with a larger payload fairing to support future missions. Upcoming crew rotations include astronauts from Hong Kong and Macau, and a Pakistani astronaut will visit as a payload specialist on a short-duration flight.
 
-![China Space Station illustration (Credit: Tencent News)](./figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg)
+![China Space Station illustration (Credit: Tencent News)](/space-news/2026/05/figures/2026-05-01-tianhe-core-5th-anniversary/hero.jpg)
 *Credit: Tencent News*
 
 ## Sources (original pages)

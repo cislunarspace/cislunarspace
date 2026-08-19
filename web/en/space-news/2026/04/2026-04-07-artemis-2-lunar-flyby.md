@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** Artemis II reached its historic milestone as the four astronauts successfully completed the lunar flyby. Orion passed approximately 6,500 km above the Moon's far side, reaching a maximum distance of 406,771 km (252,757 miles) from Earth — surpassing the 400,171 km (248,655 miles) crewed spaceflight distance record set by Apollo 13 in 1970. During the flyby, the crew conducted lunar surface science observations, coronal observations, and experienced approximately 40 minutes of planned communications blackout.
 
-![Artemis II Orion spacecraft approaching the Moon](./figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg)
+![Artemis II Orion spacecraft approaching the Moon](/space-news/2026/04/figures/2026-04-07-artemis-2-lunar-flyby/hero.jpg)
 
 *Credit: NASA*
 

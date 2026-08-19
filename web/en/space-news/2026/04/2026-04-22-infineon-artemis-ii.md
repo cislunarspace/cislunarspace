@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** NASA's Artemis II mission has successfully returned to Earth, completing not only a historic crewed lunar flyby but also providing critical real-world validation of on-board electronic equipment in the deep-space environment. Global semiconductor leader Infineon reported that its radiation-hardened semiconductors supplied for the Orion spacecraft maintained zero-failure operation throughout the mission, successfully supporting core functions including power management, system control, and data communications.
 
-![NASA's Artemis II SLS rocket and Orion spacecraft rollout to Launch Pad 39B (NASA image)](./figures/2026-04-22-infineon-artemis-ii/hero.jpg)
+![NASA's Artemis II SLS rocket and Orion spacecraft rollout to Launch Pad 39B (NASA image)](/space-news/2026/04/figures/2026-04-22-infineon-artemis-ii/hero.jpg)
 *Credit: NASA (Public Domain)*
 
 ## Sources (original pages)

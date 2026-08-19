@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** On the evening of April 10, US Eastern Time (morning of April 11, Beijing Time), NASA's Artemis II crew safely splashed down in the Pacific Ocean aboard the Orion spacecraft 'Integrity', marking the successful conclusion of the United States' first crewed lunar flyby mission in over 50 years. All four astronauts have been successfully recovered and are being transported to the USS John P. Murtha naval vessel for post-mission medical evaluations before returning to shore.
 
-![Artemis II Mission Poster](./figures/2026-04-11-artemis-2-splashdown/hero.webp)
+![Artemis II Mission Poster](/space-news/2026/04/figures/2026-04-11-artemis-2-splashdown/hero.webp)
 *Credit: NASA*
 
 ## Mission Completes Successfully

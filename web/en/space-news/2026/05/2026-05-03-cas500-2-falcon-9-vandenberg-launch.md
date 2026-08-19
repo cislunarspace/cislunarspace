@@ -18,7 +18,7 @@ image: ./figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg
 
 **Summary:** On May 3, 2026, SpaceX's Falcon 9 rocket successfully launched the CAS500-2 (Compact Aerospace Observatory 500-2) Earth observation satellite for South Korea from Vandenberg Space Force Base in California. The mission was a routine Falcon 9 launch, with the booster successfully landing at Landing Zone 4 at Vandenberg. CAS500-2 is operated by the Korea Aerospace Research Institute (KARI) and serves as a critical component of South Korea's high-resolution Earth observation satellite constellation.
 
-![SpaceX Falcon 9 launches CAS500-2 (Credit: SpaceX)](./figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg)
+![SpaceX Falcon 9 launches CAS500-2 (Credit: SpaceX)](/space-news/2026/05/figures/2026-05-03-cas500-2-falcon-9-vandenberg-launch/hero.jpg)
 *Credit: SpaceX*
 
 ## Sources

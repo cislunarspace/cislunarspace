@@ -14,7 +14,7 @@ image: ./figures/2026-06-08-prada-axiom-lcvg-cooling-garment/hero.jpg
 
 **Summary:** On June 7, 2026, Italian fashion house Prada and aerospace company Axiom Space held a press event at the Prada store in New York to officially reveal the Liquid Cooling and Ventilation Garment (LCVG) for NASA's Artemis program — the functional undergarment astronauts will wear inside the AxEMU lunar spacesuit. The LCVG merges space engineering with high-fashion design, marking the first cooling undergarment designed for lunar surface operations since the Apollo era.
 
-![Prada and Axiom Space Liquid Cooling and Ventilation Garment (LCVG)](./figures/2026-06-08-prada-axiom-lcvg-cooling-garment/hero.jpg)
+![Prada and Axiom Space Liquid Cooling and Ventilation Garment (LCVG)](/space-news/2026/06/figures/2026-06-08-prada-axiom-lcvg-cooling-garment/hero.jpg)
 
 *The Liquid Cooling and Ventilation Garment (LCVG) designed by Prada and Axiom Space. (Image credit: Axiom Space)*
 

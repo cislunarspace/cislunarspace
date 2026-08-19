@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** After years of extensive laboratory analysis, NASA has confirmed that a rock sample collected by the Curiosity Mars rover in 2020 contains the greatest diversity of organic molecules ever discovered on the Red Planet. Of the 21 carbon-containing molecules identified, seven were detected for the first time on Mars, including a nitrogen heterocycle considered a predecessor to RNA and DNA.
 
-![Curiosity rover selfie at Mary Anning drilling site on Mars](./figures/2026-04-21-curiosity-organics/hero.jpg)
+![Curiosity rover selfie at Mary Anning drilling site on Mars](/space-news/2026/04/figures/2026-04-21-curiosity-organics/hero.jpg)
 *Credit: NASA/JPL-Caltech/MSSS*
 
 The "Mary Anning 3" sample, collected on October 25, 2020 from a clay-enriched region on Mount Sharp, has yielded extraordinary results. After years of analysis using the Sample Analysis at Mars (SAM) instrument inside the rover's belly, scientists identified 21 different carbon-containing organic molecules — the most diverse collection ever found on Mars.

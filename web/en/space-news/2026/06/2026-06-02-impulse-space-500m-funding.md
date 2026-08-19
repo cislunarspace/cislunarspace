@@ -14,7 +14,7 @@ image: ./figures/2026-06-02-impulse-space-500m-funding/hero.jpg
 
 **Summary:** On June 2, 2026, California-based in-space mobility company Impulse Space — founded in 2021 by SpaceX's first engineer Tom Mueller — announced a $500 million Series D funding round co-led by 137 Ventures and Banner VC. The new capital will scale production of the Mira orbital transfer vehicle, accelerate the Helios kick stage toward its planned 2027 debut (which is already sold out), and add 200 new employees. The round brings Impulse's cumulative funding to more than $1 billion.
 
-![Impulse Space's Mira orbital transfer vehicle selfie in orbit (courtesy of Impulse Space)](./figures/2026-06-02-impulse-space-500m-funding/hero.jpg)
+![Impulse Space's Mira orbital transfer vehicle selfie in orbit (courtesy of Impulse Space)](/space-news/2026/06/figures/2026-06-02-impulse-space-500m-funding/hero.jpg)
 
 ## The "last mile" of space
 

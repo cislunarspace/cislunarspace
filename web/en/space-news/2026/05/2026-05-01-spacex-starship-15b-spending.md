@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-spacex-starship-15b-spending/hero.jpg
 
 **Summary:** On May 1, details from SpaceX's IPO registration filing submitted to the U.S. Securities and Exchange Commission (SEC) were partially disclosed. The filing shows SpaceX's Starship program has accumulated expenditures exceeding $15 billion, with the company preparing to launch upgraded Starship prototypes. SpaceX also disclosed approximately $3 billion in R&D spending for its space division in 2025, entirely directed toward Starship. The company plans to launch the first batch of new Starlink V3 satellites in the second half of 2026. SpaceX is advancing its IPO targeting mid-to-late 2026, with a valuation target of approximately $1.5 trillion, potentially surpassing Saudi Aramco's record for the largest global IPO.
 
-![Falcon Heavy launches ViaSat-3 satellite (Spaceflight Now file photo)](./figures/2026-05-01-spacex-starship-15b-spending/hero.jpg)
+![Falcon Heavy launches ViaSat-3 satellite (Spaceflight Now file photo)](/space-news/2026/05/figures/2026-05-01-spacex-starship-15b-spending/hero.jpg)
 *Credit: Spaceflight Now (authorized use)*
 
 ## Sources (original pages)

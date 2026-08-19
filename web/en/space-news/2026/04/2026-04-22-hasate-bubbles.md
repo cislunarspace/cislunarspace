@@ -24,7 +24,7 @@ wechatShare:
 
 **Summary:** Rocket Lab launched the HASTE (Hypersonic Accelerator Suborbital Test Experiment) mission on April 22, 2026 at 00:00 UTC (08:00 Beijing time) to launch the HASTE (Hypersonic Accelerator Suborbital Test Experiment) mission carrying the Bubbles scientific payload aboard an Electron rocket from Wallops Flight Facility in Virginia, USA. The HASTE program specializes in hypersonic accelerator suborbital testing, providing low-cost, high-frequency suborbital flight opportunities for research institutions and commercial clients.
 
-![Rocket Lab Electron rocket (file photo)](./figures/2026-04-22-hasate-bubbles/hero.jpg)
+![Rocket Lab Electron rocket (file photo)](/space-news/2026/04/figures/2026-04-22-hasate-bubbles/hero.jpg)
 
 *Credit: Rocket Lab / TheSpaceDevs*
 

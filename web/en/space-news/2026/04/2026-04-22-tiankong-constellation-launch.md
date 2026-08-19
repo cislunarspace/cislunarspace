@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-tiankong-constellation-launch/hero.jpg
 
 **Summary:** On April 22, the first Tiankong Infrared Satellite Industry Conference was held at the China Commercial Rocket Headquarters Park in Shanghai's Minhang District. At the event, Weixing Technology officially announced the launch of the Tiankong Constellation — China's first commercial infrared satellite constellation planned with 220 satellites. Featuring a sensing-computing integrated design with proprietary advanced infrared payload technology, the constellation will enable second-level target identification and minute-level early warning. The first batch of 10 satellites is planned for launch by the end of 2026, with full constellation completion targeted for 2030.
 
-![Tiankong Constellation launch event (Credit: The Paper)](./figures/2026-04-22-tiankong-constellation-launch/hero.jpg)
+![Tiankong Constellation launch event (Credit: The Paper)](/space-news/2026/04/figures/2026-04-22-tiankong-constellation-launch/hero.jpg)
 *Credit: The Paper*
 
 At the conference, Weixing Technology also formally settled into the China Commercial Rocket Headquarters Park and simultaneously released the "Space-Based Brain" product system, comprising three products — "Xinghuo" (Forest Fire), "Xingjian" (Overseas Asset Inspection), and "Xingjing" (Water Environment) — targeting forest fire prevention, overseas asset intelligence, and water environment governance respectively.

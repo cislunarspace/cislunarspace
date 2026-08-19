@@ -14,7 +14,7 @@ image: ./figures/2026-06-02-vampire-star-radio-signals/hero.jpg
 
 **Summary:** First detected in 2005, long-period radio transients (LPTs) — a rare class of celestial radio emission lasting minutes to over an hour, far longer than typical pulsar bursts — have puzzled astronomers for two decades. Roughly a dozen are now known, with the leading explanation being highly magnetic neutron stars called magnetars. New observations from the Australian SKA Pathfinder (ASKAP) array, led by University of Sydney PhD student Kovi Rose, show that at least one LPT — catalogued as ASKAP J1745-5051 — comes from a symbiotic binary: a white dwarf with a mass comparable to the Sun but a diameter no larger than Earth's, accreting material from a red dwarf companion about a tenth of the Sun's mass.
 
-![Artist's impression of the ASKAP J1745-5051 symbiotic binary. The white dwarf pulls material from its red dwarf companion, producing long-period radio bursts and X-ray flares. (Image credit: Space.com)](./figures/2026-06-02-vampire-star-radio-signals/hero.jpg)
+![Artist's impression of the ASKAP J1745-5051 symbiotic binary. The white dwarf pulls material from its red dwarf companion, producing long-period radio bursts and X-ray flares. (Image credit: Space.com)](/space-news/2026/06/figures/2026-06-02-vampire-star-radio-signals/hero.jpg)
 
 What sets ASKAP J1745-5051 apart is that it produces both long-period radio bursts and X-ray flares — a rare combination among the dozen known LPTs. "Long-period radio transients have puzzled astronomers for years," Rose said in the team's statement. "Now we've been able to show that the source for one of these transients comes from a white dwarf actively pulling material from a companion star."
 

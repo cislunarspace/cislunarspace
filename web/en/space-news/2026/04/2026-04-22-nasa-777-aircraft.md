@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-nasa-777-aircraft/hero.jpg
 
 **Summary:** NASA's Boeing 777 has returned to the agency's fleet after undergoing heavy structural modifications that transformed the former giant passenger plane into NASA's next-generation airborne science laboratory. After a check flight and a three-hour transit from Waco, the aircraft returned to NASA's Langley Research Center in Hampton, Virginia on April 22, with science flights on the horizon.
 
-![NASA's modified Boeing 777 aircraft (NASA image)](./figures/2026-04-22-nasa-777-aircraft/hero.jpg)
+![NASA's modified Boeing 777 aircraft (NASA image)](/space-news/2026/04/figures/2026-04-22-nasa-777-aircraft/hero.jpg)
 *Credit: NASA*
 
 ## Sources (original pages)

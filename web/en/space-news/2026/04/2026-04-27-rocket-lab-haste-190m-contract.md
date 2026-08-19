@@ -24,7 +24,7 @@ tags:
 
 **Summary:** On April 27, Rocket Lab announced its single largest launch agreement to date: a $190 million contract for a block buy of 20 HASTE hypersonic test flights with the US Department of Defense Test Resource Management Center (TRMC) Multi-Service Advanced Capability Hypersonics Test Bed (MACH-TB) 2.0 program. The program is executed in partnership with Naval Surface Warfare Center Crane Division (NSWC Crane) to rapidly accelerate hypersonic flight tests and advanced aerospace technologies.
 
-![Rocket Lab HASTE rocket launch (Rocket Lab image)](./figures/2026-04-27-rocket-lab-haste-190m-contract/hero.jpg)
+![Rocket Lab HASTE rocket launch (Rocket Lab image)](/space-news/2026/04/figures/2026-04-27-rocket-lab-haste-190m-contract/hero.jpg)
 *Credit: Rocket Lab*
 
 ## Contract Overview

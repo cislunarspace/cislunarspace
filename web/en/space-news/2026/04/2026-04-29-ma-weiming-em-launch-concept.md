@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-ma-weiming-em-launch-concept/hero.jpg
 
 **Summary:** Chinese Academy of Engineering academician Ma Weiming has proposed a bold concept to build a 2-kilometer electromagnetic launch track on the Qinghai-Tibet Plateau at an average altitude of 4,000 meters, using electromagnetic force to directly 'fling' rockets into space. If realized, this could reduce launch costs by 90% while leveraging the plateau's low atmospheric resistance advantage.
 
-![Concept diagram of electromagnetic launch track on Qinghai-Tibet Plateau](./figures/2026-04-29-ma-weiming-em-launch-concept/hero.jpg)
+![Concept diagram of electromagnetic launch track on Qinghai-Tibet Plateau](/space-news/2026/04/figures/2026-04-29-ma-weiming-em-launch-concept/hero.jpg)
 
 *Concept illustration of electromagnetic launch track (Image source: Internet)*
 

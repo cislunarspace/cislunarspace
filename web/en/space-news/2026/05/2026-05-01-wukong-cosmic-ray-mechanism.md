@@ -18,7 +18,7 @@ image: ./figures/2026-05-01-wukong-cosmic-ray-mechanism/hero.png
 
 **Summary:** On April 29, 2026, an international research team led by the Purple Mountain Observatory of the Chinese Academy of Sciences published a landmark discovery in Nature, using ten years of data from the Wukong dark matter particle detection satellite. The team found for the first time that the acceleration limit of cosmic rays depends on particle charge — revealing that nearby cosmic ray accelerators have a definitive upper limit for different charged particles. This finding is of great significance for understanding the origin of cosmic rays.
 
-![Conceptual illustration of the Wukong satellite (Credit: Purple Mountain Observatory / Nature)](./figures/2026-05-01-wukong-cosmic-ray-mechanism/hero.png)
+![Conceptual illustration of the Wukong satellite (Credit: Purple Mountain Observatory / Nature)](/space-news/2026/05/figures/2026-05-01-wukong-cosmic-ray-mechanism/hero.png)
 *Credit: Purple Mountain Observatory / Nature*
 
 The Wukong dark matter particle detection satellite was launched on December 17, 2015, and has been operating smoothly in orbit for over 10 years, continuing to deliver exceptional scientific results beyond its original design life. The satellite carries 75,916 signal channels, making it China's most electronically complex satellite in orbit and the world's widest-energy-range space detector with the best energy resolution.

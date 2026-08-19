@@ -18,7 +18,7 @@ image: ./figures/2026-05-02-blue-origin-quattro-upgrade/hero.jpg
 
 **Summary:** On May 1, 2026, Blue Origin announced its "Quattro" second-stage upgrade program for the New Glenn rocket, doubling the second-stage engine count from 2 to 4 BE-3U engines while retaining 9 BE-4 engines on the first stage — forming a "9x4" super heavy configuration. The upgrade will significantly boost payload capacity to over 70 tonnes to LEO, with first flight targeted for as early as next year. The company also revealed aggressive production ramp-up targets: 60 second stages per year by Q3 2028, scaling to 100 per year by 2029.
 
-![Blue Origin New Glenn rocket 9x4 configuration upgrade illustration](./figures/2026-05-02-blue-origin-quattro-upgrade/hero.jpg)
+![Blue Origin New Glenn rocket 9x4 configuration upgrade illustration](/space-news/2026/05/figures/2026-05-02-blue-origin-quattro-upgrade/hero.jpg)
 *Credit: Blue Origin*
 
 ## Sources (original pages)

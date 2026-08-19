@@ -18,7 +18,7 @@ image: ./figures/2026-04-29-tianhe-core-module-5th-anniversary/hero.jpg
 
 **Summary:** On April 29, 2026, the Tianhe Core Module of China's Tiangong Space Station celebrated five years of stable in-orbit operation. As the first module of China's space station, Tianhe has witnessed the docking of the Wentian and Mengtian laboratory modules, hosted 11 Shenzhou crewed spacecraft and 8 Tianzhou cargo vehicles, and welcomed 25 Chinese astronauts. Over five years, 267 scientific experiments have been conducted, more than 450TB of data collected, with several outcomes representing world firsts and already transitioned to practical applications.
 
-![Tianhe Core Module 5th anniversary (Image: Our Space China)](./figures/2026-04-29-tianhe-core-module-5th-anniversary/hero.jpg)
+![Tianhe Core Module 5th anniversary (Image: Our Space China)](/space-news/2026/04/figures/2026-04-29-tianhe-core-module-5th-anniversary/hero.jpg)
 *Credit: Our Space / China Manned Space Engineering Office*
 
 On April 29, 2021, the Long March 5B Y2 carrier rocket lifted off from the Wenchang Spacecraft Launch Site in Hainan, carrying the Tianhe Core Module into orbit. This marked the beginning of China's own space station construction, delivering the first "building block" of the "Tiangong" (Heavenly Palace) space station to space.

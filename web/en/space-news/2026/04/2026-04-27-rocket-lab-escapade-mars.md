@@ -24,7 +24,7 @@ tags:
 
 **Summary:** On April 27, Rocket Lab announced the successful completion of commissioning for the twin satellites of NASA's ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) Mars mission. Both spacecraft are now successfully operating at the Earth-Sun Lagrange Point 2 (L2) and preparing for handover to the University of California Berkeley Space Sciences Laboratory (UCB-SSL).
 
-![ESCAPADE mission satellites built by Rocket Lab (Rocket Lab image)](./figures/2026-04-27-rocket-lab-escapade-mars/hero.jpg)
+![ESCAPADE mission satellites built by Rocket Lab (Rocket Lab image)](/space-news/2026/04/figures/2026-04-27-rocket-lab-escapade-mars/hero.jpg)
 *Credit: Rocket Lab*
 
 ## Mission Overview

@@ -25,9 +25,9 @@ image: ./figures/2026-05-21-starlink-10-31-cape-canaveral-launch/hero.jpg
 
 The Falcon 9 rocket lifted off in darkness approximately 20 minutes before sunrise, with the rocket's exhaust plume illuminated by early morning light as it arced across the sky. The payload fairing separation occurred shortly after stage separation, creating the signature "jellyfish effect" that was visible to observers along the US East Coast.
 
-![Falcon 9 lifts off from Cape Canaveral on the Starlink 10-31 mission](./figures/2026-05-21-starlink-10-31-cape-canaveral-launch/02.jpg)
+![Falcon 9 lifts off from Cape Canaveral on the Starlink 10-31 mission](/space-news/2026/05/figures/2026-05-21-starlink-10-31-cape-canaveral-launch/02.jpg)
 
-![Starlink 10-31 launch trajectory](./figures/2026-05-21-starlink-10-31-cape-canaveral-launch/03.jpg)
+![Starlink 10-31 launch trajectory](/space-news/2026/05/figures/2026-05-21-starlink-10-31-cape-canaveral-launch/03.jpg)
 
 ## Weather Conditions
 

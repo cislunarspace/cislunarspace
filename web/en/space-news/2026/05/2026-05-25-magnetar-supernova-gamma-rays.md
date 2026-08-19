@@ -14,7 +14,7 @@ image: ./figures/2026-05-25-magnetar-supernova-gamma-rays/hero.jpg
 
 **Summary:** An international team of astronomers has published a paper announcing the first definitive detection of gamma-rays from a superluminous supernova, SN 2017egm, using NASA's Fermi Gamma-ray Space Telescope. The discovery confirms that the superluminous supernova's extraordinary luminosity is powered by a newborn magnetar formed during the stellar collapse, with a magnetar wind nebula boosting particle production and gamma-ray emission.
 
-![Superluminous supernova with magnetar illustration](./figures/2026-05-25-magnetar-supernova-gamma-rays/supernova-magnetar.png)
+![Superluminous supernova with magnetar illustration](/space-news/2026/05/figures/2026-05-25-magnetar-supernova-gamma-rays/supernova-magnetar.png)
 
 ## Discovery Overview
 
@@ -22,7 +22,7 @@ During core-collapse supernovae, stellar cores with between one and two times th
 
 For nearly 20 years, astronomers have searched Fermi data for gamma-ray signals from thousands of supernovae. While a few intriguing hints were reported, none were definitive until now. In 2024, the team announced the first confirmed detection of gamma-rays from superluminous supernova SN 2017egm, marking the first validated detection of its kind.
 
-![SN 2017egm host galaxy](./figures/2026-05-25-magnetar-supernova-gamma-rays/galaxy-supernova.png)
+![SN 2017egm host galaxy](/space-news/2026/05/figures/2026-05-25-magnetar-supernova-gamma-rays/galaxy-supernova.png)
 
 ## Magnetar Powering Mechanism
 

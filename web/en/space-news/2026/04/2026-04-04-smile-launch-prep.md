@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** The Solar wind Magnetosphere Ionosphere Link Explorer (SMILE), jointly developed by the Chinese Academy of Sciences (CAS) and the European Space Agency (ESA), has completed all launch preparations at the Guiana Space Centre in Kourou, French Guiana, including integration with its Vega-C launch vehicle. The launch window is confirmed for April 9 local time. This marks China's first mission-level, comprehensive deep cooperation in space science with ESA, and serves as the capstone of CAS's Space Science Priority Program Phase II.
 
-![SMILE satellite illustration](./figures/2026-04-04-smile-launch-prep/hero.jpg)
+![SMILE satellite illustration](/space-news/2026/04/figures/2026-04-04-smile-launch-prep/hero.jpg)
 *Credit: ESA*
 
 ## Mission Highlights

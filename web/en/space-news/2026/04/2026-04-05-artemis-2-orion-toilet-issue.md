@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** On April 3 (Flight Day 3), as Artemis II reached the midpoint of its trans-lunar coast, the four-person crew reported a burning odor from the Orion spacecraft's toilet area, while the main waste water vent appeared to be freezing up. Ground control assessed no major safety risk, advised the crew to temporarily use emergency urine collection bags, and is working on a solar-heating de-icing plan. This marks the second challenge for Orion's life support systems after a Day 1 toilet issue.
 
-![The Moon as seen from Orion spacecraft on Flight Day 2 (NASA image)](./figures/2026-04-05-artemis-2-orion-toilet-issue/hero.jpg)
+![The Moon as seen from Orion spacecraft on Flight Day 2 (NASA image)](/space-news/2026/04/figures/2026-04-05-artemis-2-orion-toilet-issue/hero.jpg)
 
 *Credit: NASA*
 

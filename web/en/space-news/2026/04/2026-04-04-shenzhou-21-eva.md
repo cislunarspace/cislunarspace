@@ -19,19 +19,19 @@ wechatShare:
 
 **Summary:** The Shenzhou-21 crew — Zhang Lu, Wu Fei, and Zhang Hongzhang — has successfully completed their second extravehicular activity (EVA) and continues a packed schedule of science experiments aboard China's Tiangong space station. Post-EVA tasks included spacesuit maintenance and on-orbit storage, along with pharmacokinetic saliva sample collection, combustion science experiment module servicing, and containerless experiment chamber sample cleanup.
 
-![Shenzhou-21 crew conducting experiments aboard Tiangong](./figures/2026-04-04-shenzhou-21-eva/hero.jpg)
+![Shenzhou-21 crew conducting experiments aboard Tiangong](/space-news/2026/04/figures/2026-04-04-shenzhou-21-eva/hero.jpg)
 *Credit: Our Space / CNSA*
 
 ## Mission Progress
 
 Beyond science experiments, the crew conducted a **full-system pressure emergency drill**, simulating an internal depressurization scenario to further sharpen emergency response and ground-space coordination.
 
-![Crew conducting full-system pressure emergency drill](./figures/2026-04-04-shenzhou-21-eva/eva-training.jpg)
+![Crew conducting full-system pressure emergency drill](/space-news/2026/04/figures/2026-04-04-shenzhou-21-eva/eva-training.jpg)
 *Credit: Our Space / CNSA*
 
 For health maintenance, the taikonauts performed abdominal, cardiac, and muscle ultrasound exams, bone density measurements, maximum isometric muscle strength tests, and hearing tests, while maintaining regular exercise using the space treadmill and other equipment.
 
-![Taikonauts undergoing medical examinations and exercise](./figures/2026-04-04-shenzhou-21-eva/health-check.jpg)
+![Taikonauts undergoing medical examinations and exercise](/space-news/2026/04/figures/2026-04-04-shenzhou-21-eva/health-check.jpg)
 *Credit: Our Space / CNSA*
 
 The Shenzhou-21 crew is approaching the **150-day on-orbit milestone**, with further activities planned in the weeks ahead.

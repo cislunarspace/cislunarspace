@@ -18,7 +18,7 @@ image: ./figures/2026-04-22-haste-bubbles/hero.jpg
 
 **Summary:** On April 22, 2026, Rocket Lab launched the second mission under its HASTE (Hypersonic Accelerator Suborbital Test Electron) program from Wallops Flight Facility in Virginia, USA. The mission continues Rocket Lab's exploration of hypersonic technology capabilities.
 
-![Rocket Lab HASTE mission launch (Rocket Lab image)](./figures/2026-04-22-haste-bubbles/hero.jpg)
+![Rocket Lab HASTE mission launch (Rocket Lab image)](/space-news/2026/04/figures/2026-04-22-haste-bubbles/hero.jpg)
 *Credit: Rocket Lab*
 
 ## Mission Overview

@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** The Artemis II Orion spacecraft "Integrity" has entered its return leg after completing a historic lunar flyby. The four crew members captured more than 175 GB of images during the April 6 flyby, with about 50 GB already returned via an experimental laser communications payload — including 20 GB transmitted in just over 45 minutes. NASA says all lunar science data will be publicly released within six months of splashdown. Splashdown is scheduled for 8:07 PM EDT on April 10, off the coast of San Diego, California.
 
-![Artemis II image of Earth setting behind the Moon during the April 6 flyby](./figures/2026-04-10-artemis-2-return-trip/hero.jpg)
+![Artemis II image of Earth setting behind the Moon during the April 6 flyby](/space-news/2026/04/figures/2026-04-10-artemis-2-return-trip/hero.jpg)
 *Credit: NASA*
 
 ## Return Journey and Science Data
@@ -41,7 +41,7 @@ The previously reported Orion spacecraft toilet malfunction — a partially bloc
 - **Splashdown location:** Off the coast of San Diego, California
 - **Science reports:** Two reports to be released within six months of splashdown — one on the science team's structure and operations, and a preliminary lunar science report addressing 10 pre-mission science objectives
 
-![Solar eclipse observed by Orion during the April 6 lunar flyby](./figures/2026-04-10-artemis-2-return-trip/01-eclipse.jpg)
+![Solar eclipse observed by Orion during the April 6 lunar flyby](/space-news/2026/04/figures/2026-04-10-artemis-2-return-trip/01-eclipse.jpg)
 *Solar eclipse as seen from the Orion spacecraft during the lunar flyby. Credit: NASA*
 
 ## Sources (original pages)

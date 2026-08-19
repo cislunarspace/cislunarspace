@@ -19,7 +19,7 @@ wechatShare:
 
 **Summary:** A research team led by Prof. Shi Quanqi at Shandong University has discovered a spatial region of significantly reduced galactic cosmic ray (GCR) flux near the Moon's orbit — a "cosmic ray cavity" — using over three years of continuous data from the Lunar Lander Neutron Dosimetry instrument aboard China's Chang'e-4 lander. The structure results from Earth's magnetic field modulating GCR propagation paths, demonstrating that Earth's magnetospheric influence extends far beyond what was previously understood, reaching lunar orbit and beyond.
 
-![Illustration of the cosmic ray cavity formation in the ecliptic plane](./figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg)
+![Illustration of the cosmic ray cavity formation in the ecliptic plane](/space-news/2026/04/figures/2026-04-05-ce4-cosmic-ray-cavity/hero.jpg)
 *Credit: CNSA*
 
 ## Key Finding

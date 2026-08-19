@@ -18,7 +18,7 @@ wechatShare:
 
 **Summary:** On April 19, 2026, Blue Origin's New Glenn rocket experienced an anomaly during its fourth flight, failing to deliver the AST SpaceMobile BlueBird Block 2 satellite to its intended orbit. The mission failure occurred just hours after Blue Origin celebrated a successful NG-3 mission with the BlueBird 7 satellite. This marks the first launch failure for the New Glenn vehicle since its inaugural flight in January 2025.
 
-![New Glenn rocket launch (archive image for illustration)](./figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg)
+![New Glenn rocket launch (archive image for illustration)](/space-news/2026/04/figures/2026-04-19-new-glenn-bluebird-failure/hero.jpg)
 *Credit: NASA / Kennedy Space Center*
 
 At 11:25 UTC on April 19, 2026, Blue Origin launched the BlueBird Block 2 satellite aboard a New Glenn rocket from Launch Complex 36 at Cape Canaveral Space Force Station, Florida. This was the fourth flight of the New Glenn rocket and the company's first attempt to fly the same booster for the third time at orbital velocity.

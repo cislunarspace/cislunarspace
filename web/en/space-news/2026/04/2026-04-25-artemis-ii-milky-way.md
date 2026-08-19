@@ -18,7 +18,7 @@ image: ./figures/2026-04-25-artemis-ii-milky-way/hero.jpg
 
 **Summary:** NASA's Artemis II crew captured a stunning photo of our galaxy, the Milky Way, on April 7, 2026, during their historic journey around the Moon aboard the Orion spacecraft. The image shows the galaxy's elegant spiral structure dominated by two major arms wrapping off the ends of a central bar of stars.
 
-![Artemis II crew captured view of the Milky Way from deep space](./figures/2026-04-25-artemis-ii-milky-way/hero.jpg)
+![Artemis II crew captured view of the Milky Way from deep space](/space-news/2026/04/figures/2026-04-25-artemis-ii-milky-way/hero.jpg)
 *Credit: NASA*
 
 On April 7, 2026, the four astronauts of NASA's Artemis II mission captured a breathtaking photo of the Milky Way galaxy from their position in deep space, approximately midway between Earth and the Moon. The image was released as part of NASA's "Starstruck" feature, showcasing the galactic vista that the crew witnessed during their journey beyond low Earth orbit.

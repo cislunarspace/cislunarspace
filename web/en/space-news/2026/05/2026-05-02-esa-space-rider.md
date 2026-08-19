@@ -24,7 +24,7 @@ tags:
 
 **Summary:** ESA announced on April 23, 2026, the completion of the first full-scale test model assembly of Space Rider, Europe's reusable space transportation system. The uncrewed robotic laboratory — roughly the size of two minivans — is being developed by ArianeGroup under ESA contract and designed to launch aboard Vega-C, stay in orbit for about two months, and return to Earth for recovery and reuse.
 
-![Space Rider full-scale test model (ESA image)](./figures/2026-05-02-esa-space-rider/hero.jpg)
+![Space Rider full-scale test model (ESA image)](/space-news/2026/05/figures/2026-05-02-esa-space-rider/hero.jpg)
 *Image credit: ESA (Used with permission)*
 
 Space Rider is Europe's first reusable space transportation system, developed by ArianeGroup under a contract with ESA. On April 23, 2026, ESA announced the completion of the spacecraft's first full-scale test model assembly — a key milestone toward establishing European independent and controllable reusable space cargo capabilities.

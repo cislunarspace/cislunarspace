@@ -14,9 +14,9 @@ image: ./figures/2026-05-26-starlink-17-37-vandenberg-launch/liftoff.jpg
 
 **Summary:** SpaceX successfully launched 24 Starlink 17-37 satellites aboard a Falcon 9 from Vandenberg Space Force Base on May 26, 2026. Liftoff occurred at 7:50:34 a.m. PDT (10:50:34 a.m. EDT / 1450:34 UTC). Booster B1100 completed its sixth flight, landing on the drone ship 'Of Course I Still Love You' in the Pacific Ocean approximately 8.5 minutes after liftoff — the 198th landing on that vessel and the 615th overall booster recovery for SpaceX.
 
-![Falcon 9 liftoff from Vandenberg](./figures/2026-05-26-starlink-17-37-vandenberg-launch/liftoff.jpg)
+![Falcon 9 liftoff from Vandenberg](/space-news/2026/05/figures/2026-05-26-starlink-17-37-vandenberg-launch/liftoff.jpg)
 
-![Starlink satellites transit](./figures/2026-05-26-starlink-17-37-vandenberg-launch/transit.jpg)
+![Starlink satellites transit](/space-news/2026/05/figures/2026-05-26-starlink-17-37-vandenberg-launch/transit.jpg)
 
 ## Sources (original pages)
 

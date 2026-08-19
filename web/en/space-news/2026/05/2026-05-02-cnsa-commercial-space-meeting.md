@@ -18,7 +18,7 @@ image: ./figures/2026-05-02-cnsa-commercial-space-meeting/hero.png
 
 **Summary:** On April 21, the National Space Administration (CNSA) hosted a commercial space development enterprise roundtable chaired by Director Shan Zhide. Representatives from 14 companies spanning rocket manufacturing, satellite production, commercial launch services, satellite tracking and control, constellation operations, and satellite applications gathered to discuss pathways for commercial space industrialization.
 
-![CNSA commercial space high-quality development enterprise roundtable](./figures/2026-05-02-cnsa-commercial-space-meeting/hero.png)
+![CNSA commercial space high-quality development enterprise roundtable](/space-news/2026/05/figures/2026-05-02-cnsa-commercial-space-meeting/hero.png)
 *Credit: CNSA*
 
 ## Meeting Background

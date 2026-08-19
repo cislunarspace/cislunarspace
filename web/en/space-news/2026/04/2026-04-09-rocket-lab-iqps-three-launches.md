@@ -24,7 +24,7 @@ tags:
 
 **Summary:** On April 9, 2026, Japanese radar satellite operator iQPS (iQPS Inc.) signed an agreement with Rocket Lab for three additional Electron rocket launches, further deepening their years-long partnership. iQPS operates a synthetic aperture radar (SAR) constellation focused on monitoring the Kyushu region. This contract reinforces Rocket Lab's position as the preferred launch provider for Japanese satellites.
 
-![iQPS and Rocket Lab signing ceremony](./figures/2026-04-09-rocket-lab-iqps-three-launches/hero.jpg)
+![iQPS and Rocket Lab signing ceremony](/space-news/2026/04/figures/2026-04-09-rocket-lab-iqps-three-launches/hero.jpg)
 *Credit: Rocket Lab USA*
 
 ## Contract Background

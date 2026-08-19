@@ -14,7 +14,7 @@ image: ./figures/2026-06-04-qianfan-11-batch-long-march-6a/hero.jpg
 
 **Summary:** On June 4, 2026 at 19:39 Beijing time (11:39 UTC), a Long March 6A modified (CZ-6A) rocket lifted off from the Taiyuan Satellite Launch Center and successfully deployed the Qianfan Polar Group 11 satellites — 18 satellites in a single launch — into the planned polar orbit. The mission marks the 648th flight of the Long March launch vehicle series, and the second constellation-deployment launch of June 2026, following the Long March 12B's maiden flight on June 1 with the Qianfan Group 08 batch.
 
-![Long March 6A modified rocket lifts off (Photo: Song Tianyu)](./figures/2026-06-04-qianfan-11-batch-long-march-6a/hero.jpg)
+![Long March 6A modified rocket lifts off (Photo: Song Tianyu)](/space-news/2026/06/figures/2026-06-04-qianfan-11-batch-long-march-6a/hero.jpg)
 
 ## Mission: CZ-6A + Qianfan Polar-11
 

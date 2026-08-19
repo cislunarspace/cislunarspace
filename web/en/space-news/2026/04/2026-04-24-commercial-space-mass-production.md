@@ -24,7 +24,7 @@ tags:
 
 **Summary:** In 2026, China's total space launches are projected to exceed 100, with over 60 from commercial launches and more than 30 from private rockets, officially marking the "mass production era" of commercial space. As of mid-April, 16 commercial launches had been completed domestically, placing over 130 commercial satellites in orbit — accounting for approximately 90% of all satellites launched during the same period. Leading companies Blue Arrow Space and CAS Space have both filed for STAR Market IPOs, intensifying the competition to become the "first listed commercial space company."
 
-![Artemis II rocket on the launch pad (NASA image)](./figures/2026-04-24-commercial-space-mass-production/hero.jpg)
+![Artemis II rocket on the launch pad (NASA image)](/space-news/2026/04/figures/2026-04-24-commercial-space-mass-production/hero.jpg)
 *Credit: NASA (public domain, illustrating global commercial space development trends)*
 
 ## Data: The "Mass Production Era" Has Arrived
