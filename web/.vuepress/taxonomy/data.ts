@@ -64,14 +64,6 @@ const navbarChildren: TaxonomyNode[] = [
     parentId: 'navbar/inquiry-tools',
   },
   {
-    id: 'navbar/glossary',
-    kind: 'page',
-    label: { zh: '地月空间术语词典', en: 'Cislunar Glossary' },
-    path: { zh: '/glossary/', en: '/en/glossary/' },
-    order: 40,
-    parentId: NAVBAR_ROOT_ID,
-  },
-  {
     id: 'navbar/resources-tools',
     kind: 'page',
     label: { zh: '资源与工具', en: 'Resources & Tools' },
@@ -93,14 +85,6 @@ const navbarChildren: TaxonomyNode[] = [
     label: { zh: 'AI问答', en: 'AI Q&A' },
     path: { zh: '/ai-chat', en: '/en/ai-chat' },
     order: 70,
-    parentId: NAVBAR_ROOT_ID,
-  },
-  {
-    id: 'navbar/forum',
-    kind: 'page',
-    label: { zh: '论坛', en: 'Forum' },
-    path: { zh: '/forum', en: '/en/forum' },
-    order: 80,
     parentId: NAVBAR_ROOT_ID,
   },
   {
