@@ -57,13 +57,11 @@ describe('gen-sidebar command generation', () => {
     );
     expect(writtenPaths).toEqual(
       expect.arrayContaining([
-        'sidebar.auto.json',
         'space-news-articles-zh.json',
         'space-news-articles-en.json',
         'space-news-sidebar-data.json',
         'ai-chat-index.json',
         'ai-chat-context.json',
-        'sidebar-glossary.auto.json',
       ]),
     );
   });

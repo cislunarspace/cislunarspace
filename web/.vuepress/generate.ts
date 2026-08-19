@@ -12,8 +12,8 @@ const webRoot = path.join(__dirname, '..');
 
 export function runGenerationCli(): void {
   const allFiles = walkSiteMarkdown(webRoot);
-  generateSpaceNewsArtifacts(allFiles, webRoot, __dirname);
-  const glossaryScan = generateGlossaryArtifacts(allFiles, __dirname);
+  generateSpaceNewsArtifacts(allFiles, __dirname);
+  const glossaryScan = generateGlossaryArtifacts(allFiles);
   generateAiChatArtifacts(allFiles, glossaryScan, __dirname);
   generateBibliographyArtifacts(allFiles, webRoot, __dirname);
 }

@@ -69,10 +69,8 @@ if [ "$SKIP_DEPLOY" = "1" ]; then
     PHASE3_RC=0; PHASE4_RC=0; PHASE5_RC=0
 else
     cd "$REPO" || exit 1
-    git add web/space-news/ web/en/space-news/ \
-           web/.vuepress/sidebar.auto.json \
-           web/.vuepress/space-news-articles-zh.json \
-           web/.vuepress/space-news-articles-en.json 2>/dev/null || true
+    # 只提交内容源；生成 JSON 已出 git（ADR-0004 资产分层），构建时由 gen-sidebar 重新产出
+    git add web/space-news/ web/en/space-news/ 2>/dev/null || true
 
     if ! git diff --cached --quiet; then
         git commit -m "Update space news — $(date -u '+%Y-%m-%d %H:%M UTC')" >/dev/null

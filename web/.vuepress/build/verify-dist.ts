@@ -69,7 +69,7 @@ Checks (current-dist mode):
   4. Metadata           og:title/description/url/type, twitter:card, description
   5. Hreflang           zh and en homes cross-link via rel=alternate
   6. Figures sync       every source figures/ file is present in dist
-  7. Key pages          index/glossary/space-news/ai-chat/forum/404/sitemap/robots
+  7. Key pages          index/space-news/ai-chat/forum/404/sitemap/robots
   8. Asset sanity       no broken local hrefs/src on sampled pages
   9. JSON endpoints     ai-chat-config/context/index parse as JSON
 
@@ -459,14 +459,20 @@ function verifyCurrent(distRoot: string): void {
       }
     };
     walk(srcRoot);
+    const collectFiles = (dir: string): string[] => {
+      const out: string[] = [];
+      for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+        if (e.isDirectory()) out.push(...collectFiles(path.join(dir, e.name)));
+        else if (e.isFile()) out.push(path.join(dir, e.name));
+      }
+      return out;
+    };
     for (const fdir of figuresDirs) {
       const rel = path.relative(srcRoot, fdir);
       const distMirror = path.join(distRoot, mirror, rel);
-      for (const e of fs.readdirSync(fdir, { withFileTypes: true })) {
-        if (!e.isFile()) continue;
+      for (const srcFile of collectFiles(fdir)) {
         totalFigures++;
-        const srcFile = path.join(fdir, e.name);
-        const dstFile = path.join(distMirror, e.name);
+        const dstFile = path.join(distMirror, path.relative(fdir, srcFile));
         if (!exists(dstFile)) {
           figureMisses.push(
             `missing: ${path.relative(distRoot, dstFile)} (source: ${path.relative(webDir, srcFile)})`,
@@ -483,11 +489,11 @@ function verifyCurrent(distRoot: string): void {
   });
 
   // 6. Key pages — user-facing entry points
+  // Glossary pages are deliberately excluded from the build (config.ts
+  // pagePatterns); no glossary entries here (ADR-0004).
   const keyPages = [
     'index.html',
     'en/index.html',
-    'glossary/index.html',
-    'en/glossary/index.html',
     'space-news/index.html',
     'en/space-news/index.html',
     'space-news/archive.html',
@@ -526,16 +532,6 @@ function verifyCurrent(distRoot: string): void {
       rel: 'en/index.html',
       mustInclude: ["Cislunar Space Beginner's Guide"],
       mustExclude: ['Community Forum', 'AI Q&A', 'Glossary', 'Archive'],
-    },
-    {
-      rel: 'glossary/index.html',
-      mustInclude: ['地月空间术语词典'],
-      mustExclude: ['社区论坛', '按日期查阅'],
-    },
-    {
-      rel: 'en/glossary/index.html',
-      mustInclude: ['Cislunar Space Glossary'],
-      mustExclude: ['Community Forum', 'Archive'],
     },
     {
       rel: 'space-news/index.html',

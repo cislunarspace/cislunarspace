@@ -10,102 +10,9 @@ import type {
   SidebarMonth,
   SidebarYear,
   SidebarData,
-  MonthDir,
-  YearDir,
 } from '../sidebar/types.ts';
 
 const categoryMetaDefault = { zh: '', en: '', color: '#64748b' };
-const monthsEn = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-];
-
-const localeSidebarConfig = {
-  zh: {
-    prefix: '/space-news/',
-    links: [
-      ['/space-news/', '门户首页（最新动态与摘要）'],
-      ['/space-news/archive', '按月存档（查阅全部条目）'],
-    ] as Array<[string, string]>,
-    monthLabel: (year: string, month: number) => `${year}年${month}月`,
-    title: '航天动态（行业新闻与按月归档）',
-  },
-  en: {
-    prefix: '/en/space-news/',
-    links: [
-      ['/en/space-news/', 'Portal (latest & highlights)'],
-      ['/en/space-news/archive', 'Monthly archive (all posts)'],
-    ] as Array<[string, string]>,
-    monthLabel: (_year: string, month: number) => `${monthsEn[month - 1]} ${_year}`,
-    title: 'Space news (industry & monthly archive)',
-  },
-} as const;
-
-function scanSpaceNewsDir(baseDir: string): YearDir[] {
-  const years: YearDir[] = [];
-  if (!fs.existsSync(baseDir)) return years;
-
-  const entries = fs.readdirSync(baseDir, { withFileTypes: true });
-  for (const entry of entries) {
-    if (!entry.isDirectory()) continue;
-    const yearMatch = entry.name.match(/^(\d{4})$/);
-    if (!yearMatch) continue;
-    const year = yearMatch[1];
-    const yearPath = path.join(baseDir, entry.name);
-    const months: MonthDir[] = [];
-
-    const monthEntries = fs.readdirSync(yearPath, { withFileTypes: true });
-    for (const monthEntry of monthEntries) {
-      if (!monthEntry.isDirectory()) continue;
-      const monthMatch = monthEntry.name.match(/^(\d{2})$/);
-      if (!monthMatch) continue;
-      const month = parseInt(monthMatch[1], 10);
-      const monthDir = path.join(yearPath, monthEntry.name);
-      if (fs.existsSync(path.join(monthDir, 'README.md'))) {
-        months.push({ month, path: monthDir });
-      }
-    }
-    if (months.length > 0) {
-      months.sort((a, b) => b.month - a.month);
-      years.push({ year, months });
-    }
-  }
-  years.sort((a, b) => parseInt(b.year) - parseInt(a.year));
-  return years;
-}
-
-function buildLocaleSidebar(years: YearDir[], locale: 'zh' | 'en') {
-  const cfg = localeSidebarConfig[locale];
-  const children: Array<
-    | [string, string]
-    | { text: string; link: string; collapsible: boolean; children: Array<[string, string]> }
-  > = [...cfg.links];
-  for (const { year, months } of years) {
-    children.push({
-      text: year,
-      link: `${cfg.prefix}${year}/`,
-      collapsible: true,
-      children: months.map(
-        (m) =>
-          [
-            `${cfg.prefix}${year}/${String(m.month).padStart(2, '0')}/`,
-            cfg.monthLabel(year, m.month),
-          ] as [string, string],
-      ),
-    });
-  }
-  return [{ text: cfg.title, collapsible: false, children }];
-}
 
 export function filesToArticles(
   files: MarkdownFile[],
@@ -226,32 +133,13 @@ export function buildSidebarData(
   return { latest, categories, archive, stats: { total: articles.length } };
 }
 
-export function generateSpaceNewsArtifacts(
-  files: MarkdownFile[],
-  webRoot: string,
-  outDir: string,
-): void {
-  const zhYears = scanSpaceNewsDir(path.join(webRoot, 'space-news'));
-  const enYears = scanSpaceNewsDir(path.join(webRoot, 'en/space-news'));
-
-  fs.writeFileSync(
-    path.join(outDir, 'sidebar.auto.json'),
-    JSON.stringify(
-      { zh: buildLocaleSidebar(zhYears, 'zh'), en: buildLocaleSidebar(enYears, 'en') },
-      null,
-      2,
-    ),
-  );
-  console.log('Generated sidebar.auto.json');
-
+export function generateSpaceNewsArtifacts(files: MarkdownFile[], outDir: string): void {
   const zhArticles = filesToArticles(files, 'space-news/', '/space-news/');
   const enArticles = filesToArticles(files, 'en/space-news/', '/en/space-news/');
 
   // Per-locale article files (no longer bundled together)
   const zhArticlesJson = JSON.stringify(zhArticles, null, 2);
   const enArticlesJson = JSON.stringify(enArticles, null, 2);
-  fs.writeFileSync(path.join(outDir, 'space-news-articles-zh.json'), zhArticlesJson);
-  fs.writeFileSync(path.join(outDir, 'space-news-articles-en.json'), enArticlesJson);
   console.log(
     `Generated space-news-articles-zh.json (${zhArticles.length}), space-news-articles-en.json (${enArticles.length})`,
   );
@@ -263,10 +151,9 @@ export function generateSpaceNewsArtifacts(
   };
 
   const sidebarJson = JSON.stringify(sidebarData, null, 2);
-  fs.writeFileSync(path.join(outDir, 'space-news-sidebar-data.json'), sidebarJson);
   console.log('Generated space-news-sidebar-data.json');
 
-  // Write to public/ for runtime fetching
+  // All artifacts are written to public/ only — the runtime fetch location.
   const publicDir = path.join(outDir, 'public');
   if (!fs.existsSync(publicDir)) {
     fs.mkdirSync(publicDir, { recursive: true });
@@ -274,5 +161,4 @@ export function generateSpaceNewsArtifacts(
   fs.writeFileSync(path.join(publicDir, 'space-news-articles-zh.json'), zhArticlesJson);
   fs.writeFileSync(path.join(publicDir, 'space-news-articles-en.json'), enArticlesJson);
   fs.writeFileSync(path.join(publicDir, 'space-news-sidebar-data.json'), sidebarJson);
-  console.log('Copied space-news JSON to public/');
 }

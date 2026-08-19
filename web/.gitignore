@@ -1,9 +1,7 @@
-.vuepress/sidebar.auto.json
-.vuepress/space-news-articles-zh.json
-.vuepress/space-news-articles-en.json
-.vuepress/public/ai-chat-context.json
+# 派生数据：全部由 generate.ts 在构建时产出，不进 git（ADR-0004 资产分层）
+.vuepress/*.auto.json
+.vuepress/public/space-news-articles-*.json
+.vuepress/public/space-news-sidebar-data.json
 .vuepress/public/ai-chat-index.json
-.vuepress/space-news-sidebar-data.json
-# 与 .vuepress/public/ 同源脚本误输出位置：gen-ai-chat-context 实际写入目标是
-# .vuepress/public/，但旧版/早期构建有次次偶发漏到 web/public/。
-public/ai-chat-context.json
+.vuepress/public/ai-chat-context.json
+.vuepress/public/bibliography.json
