@@ -59,7 +59,10 @@ export function generateAiChatContext(files: MarkdownFile[]): void {
     }
   }
 
-  const outDir = path.join(__dirname, '..', '..', 'public');
+  // .vuepress/public/ 是 VuePress 唯一认可的 public 目录（内容会进 dist）。
+  // 此前写成 '..','..','public'（即 web/public/），导致运行时 fetch
+  // /ai-chat-context.json 404，AI 问答静默降级为无语境料模式。
+  const outDir = path.join(__dirname, '..', 'public');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
   const contextPath = path.join(outDir, 'ai-chat-context.json');
