@@ -145,6 +145,24 @@ The custom Space News navigation rail rendered by `SpaceNewsSidebar`. It is deri
 
 A `TaxonomyNode` of kind `glossary-category` (today: entries in `glossaryCategories` in `glossary-meta.ts`). Defines the buckets under `/glossary/` and `/en/glossary/` (fundamentals, dynamics, orbits, …).
 
+### Content module
+
+The planned module at `web/.vuepress/content/` (see ADR-0003) that owns all content operations — list, read, write, create, delete, category add/remove, index refresh — behind one domain interface. The three content writers (admin GUI, space-news auto-update pipeline, agents/humans) all go through it. The content module is to content operations what the taxonomy module is to structure data; it is not a database, not a server process, and not part of the build pipeline.
+
+### Content family
+
+One of the three content kinds the content module operates on: `space-news`, `glossary`, `kb-section`. Path conventions, frontmatter rules, and bilingual pairing are defined per family in the content router — never re-expressed by callers. A content family is not a `NodeKind` and not a layout.
+
+### Content source / Derived artifact / Build output
+
+The three asset layers of the repository (see ADR-0004):
+
+- **Content source** — markdown, `taxonomy/`, `sidebar/data.ts`, figures (single zh-side copy), `ref.bib`, hand-maintained public assets. Tracked in git.
+- **Derived artifact** — everything `generate.ts` produces (`*.auto.json`, articles/AI-chat/bibliography JSON). Written only to `.vuepress/public/`, never tracked in git. "Derived artifact" names the layer; the existing term generated artifact continues to name individual JSON files.
+- **Build output** — `dist/`. Never tracked in git.
+
+Rules: derived artifacts are rebuildable from content source at any time (no consumer may rely on their git presence); sync-figures is the only channel that places figures into build output; en-locale md figure references are URL conventions resolved at build time, not physical file requirements.
+
 ## Terminology to avoid
 
 - "Sidebar config" as a synonym for taxonomy — taxonomy is the **concept**, sidebar configs are one **adapter output**.
@@ -174,6 +192,8 @@ A `TaxonomyNode` of kind `glossary-category` (today: entries in `glossaryCategor
 ## See also
 
 - [ADR-0001 — Unified Taxonomy Module](docs/adr/0001-unified-taxonomy-module.md)
+- [ADR-0003 — Content Module](docs/adr/0003-content-module.md)
+- [ADR-0004 — Asset Layering](docs/adr/0004-asset-layering.md)
 - [docs/agents/domain.md](docs/agents/domain.md) — how agents should consume this file
 - [docs/agents/issue-tracker.md](docs/agents/issue-tracker.md)
 - [docs/agents/triage-labels.md](docs/agents/triage-labels.md)

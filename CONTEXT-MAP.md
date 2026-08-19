@@ -14,10 +14,11 @@ This file points at one `CONTEXT.md` per context. Read each one relevant to the 
 1. **For domain vocabulary and taxonomy concepts**: Read `CONTEXT.md` at the repo root.
 2. **For VuePress configuration, theme, or build issues**: Read `web/CONTEXT.md`.
 3. **For architecture decisions**: Check `docs/adr/` for system-wide decisions, and `web/docs/adr/` for context-specific decisions (if they exist).
+4. **For content priorities, audience, and presentation decisions**: Read `docs/content-strategy.md`.
 
 ## File structure
 
-```
+```text
 /
 ├── CONTEXT-MAP.md
 ├── CONTEXT.md                          ← site-wide domain vocabulary
