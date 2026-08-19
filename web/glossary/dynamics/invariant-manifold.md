@@ -1,123 +1,138 @@
 ---
-title: 不变流形（Invariant Manifold）
-description: 详细解析不变流形的定义、稳定流形与不稳定流形的概念及其在平动点轨道设计和低能转移中的应用
-keywords: 不变流形, Invariant Manifold, 稳定流形, 不稳定流形, 平动点, 低能转移, 流形理论
+title: 不变流形（Invariant Manifold / Stable & Unstable Manifolds）
+description: 圆型限制性三体问题中平动点周期轨道的稳定与不稳定不变流形：定义、单值矩阵计算、流形管与分支、参数化、伪流形/扰动流形等工程近似，以及地月/日地系统实例与跨系统拼接。
+keywords: 不变流形, Invariant Manifold, 稳定流形, 不稳定流形, Stable Manifold, Unstable Manifold, 流形管, 单值矩阵, 低能转移, 平动点轨道
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
   title: 不变流形（Invariant Manifold）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: 三体问题中流形管、稳定/不稳定流形与低能转移设计的核心几何工具。
   image: /logo.png
 og:
-  title: 不变流形详解 | 平动点轨道动力学基础
-  description: 详细解析不变流形的定义、稳定流形与不稳定流形的概念及其在平动点轨道设计和低能转移中的应用
+  title: 不变流形详解 | 平动点轨道动力学
+  description: 圆型限制性三体问题中平动点周期轨道的稳定与不稳定不变流形：定义、单值矩阵计算、流形管与分支、参数化、工程近似与地月/日地系统实例。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 不变流形详解 | 平动点轨道动力学基础
-  description: 详细解析不变流形的定义、稳定流形与不稳定流形的概念及其在平动点轨道设计和低能转移中的应用
+  title: 不变流形详解 | 平动点轨道动力学
+  description: 圆型限制性三体问题中平动点周期轨道的稳定与不稳定不变流形：定义、单值矩阵计算、流形管与分支、参数化、工程近似与地月/日地系统实例。
   image: /logo.png
 permalink: /glossary/dynamics/invariant-manifold/
 ---
 
-# 不变流形（Invariant Manifold）
+# 不变流形（Invariant Manifold / Stable & Unstable Manifolds）
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本文参考：钱霙婧(2014)《地月空间拟周期轨道上航天器自主导航与轨道保持研究》
->
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## 定义
 
-不变流形（Invariant Manifold）是动力系统理论中的核心概念，指在系统演化过程中保持不变的集合。对于 Hamiltonian 系统，不变流形是由相空间中保持系统结构不变的几何结构。
+在动力系统理论中，**不变流形**（invariant manifold）是在系统流作用下保持不变的集合：若某时刻状态位于该集合上，则过去与未来所有时刻的状态仍位于其上（Gómez et al. 2001；Koon et al. 1999）。对圆型限制性三体问题（CR3BP），最常用的不变流形是平动点周期轨道（如 Halo、Lyapunov 轨道）的**稳定流形** $W^s$ 与**不稳定流形** $W^u$。
 
-在限制性三体问题中，不变流形描述了平动点附近周期轨道和拟周期轨道周围的流形结构，是理解平动点动力学和设计低能转移轨道的关键工具。
+设周期轨道为 $\Gamma$，其附近状态为 $x$，流映射为 $\phi^t$，则
 
-## 稳定流形与不稳定流形
+$$W^s(\Gamma)=\{x:\lim_{t\to+\infty}\mathrm{dist}(\phi^t(x),\Gamma)=0\},$$
 
-### 稳定流形（Stable Manifold）
+$$W^u(\Gamma)=\{x:\lim_{t\to-\infty}\mathrm{dist}(\phi^t(x),\Gamma)=0\}.$$
 
-稳定流形 $W^s$ 是指从该流形上任何点出发的轨线，随着时间 $t \to +\infty$，都渐近收敛到目标周期轨道或平衡点。
+稳定流形上的轨道在正向时间自然趋近目标周期轨道，可用于“捕获”或“到达”；不稳定流形上的轨道在反向时间趋近目标轨道、正向时间离开，可用于“出发”或“逃逸”。
 
-$$W^s(x_0) = \{ x \in \mathcal{M} : \lim_{t \to +\infty} \phi^t(x) = x_0 \}$$
+## 单值矩阵与局部线性化
 
-对于共线平动点（L₁、L₂、L₃），稳定流形对应于沿不稳定特征方向收敛到平动点的轨线。
+CR3BP 状态方程 $\dot{x}=f(x)$ 的变分方程为
 
-### 不稳定流形（Unstable Manifold）
+$$\dot{\Phi}(t,0)=A(t)\Phi(t,0),\quad A(t)=\frac{\partial f}{\partial x}\bigg|_{x(t)},\quad \Phi(0,0)=I.$$
 
-不稳定流形 $W^u$ 是指从该流形上任何点出发的轨线，随着时间 $t \to -\infty$，都渐近收敛到目标周期轨道或平衡点。
+沿周期轨道 $\Gamma$ 积分一个周期 $T$ 得到 **单值矩阵**（monodromy matrix） $M=\Phi(T,0)$。$M$ 的特征值决定局部稳定性：Hamilton 系统特征值成倒数与共轭对出现。共线平动点附近的周期轨道通常具有一对实特征值 $\lambda_s<1$、$\lambda_u=1/\lambda_s>1$（双曲方向），以及两对模为 1 的复特征值（中心方向），即 **saddle×center×center** 结构（Koon et al. 1999；Szebehely 1967）。
 
-$$W^u(x_0) = \{ x \in \mathcal{M} : \lim_{t \to -\infty} \phi^t(x) = x_0 \}$$
+对应 $\lambda_s$、$\lambda_u$ 的特征向量 $v_s$、$v_u$ 给出周期轨道上每一点的局部稳定/不稳定方向。若 $x_p(\tau)$ 为轨道上相位 $\tau\in[0,T)$ 处的状态，则流形初值可取
 
-对于共线平动点，不稳定流形对应于沿不稳定特征方向远离平动点的轨线。
+$$x(0)=x_p(\tau)\pm\varepsilon\,\Phi(\tau,0)v_{s/u},\quad 0<\varepsilon\ll1,$$
 
-## 动力学特性
+沿稳定方向正向积分、沿不稳定方向反向积分得到稳定流形，反之得到不稳定流形。符号“$\pm$”产生同一条流形的两个**分支**（branch），在位置空间中常分别指向不同区域。
 
-### 平动点的流形结构
+## 流形管、分支与方向约定
 
-共线平动点（L₁、L₂、L₃）具有 **鞍×中心×中心** 的动力学结构：
+CR3BP 中，周期轨道的全部稳定（或不稳定）流形在相空间中形成**流形管**（invariant manifold tube）。在平面问题中，流形管是 3 维能量面上分隔“穿越轨道”与“非穿越轨道”的分界线；在空间问题中，流形管仍是设计低能转移的拓扑通道（Gómez et al. 2001；Howell & Kakoi 2006）。
 
-| 方向 | 稳定性 | 对应流形 |
-| :--- | :--- | :--- |
-| 穿越方向 | 鞍点（不稳定） | 一维不稳定流形 |
-| 平面内垂直于连线方向 | 中心（稳定） | 二维稳定/不稳定流形 |
-| 垂直于轨道面方向 | 中心（稳定） | 二维稳定/不稳定流形 |
+对地月 $L_2$ Halo 轨道，稳定流形常分为：
 
-### 流形的几何形态
+- **内部稳定流形**（interior branch）：向月球方向延伸，可用于环月轨道到 Halo 轨道的低能转移；
 
-稳定流形和不稳定流形在相空间中形成"管状"结构：
+- **外部稳定流形**（exterior branch）：背离月球、向地月系统外侧延伸，可用于近地轨道到 Halo 轨道的转移。
 
-- 稳定流形管：从周期轨道附近出发，向内卷绕到周期轨道
-- 不稳定流形管：从周期轨道附近出发，向外发散
+类似地，不稳定流形也可按正向演化方向分为内部/外部分支。部分文献还把垂直于轨道平面的分支称为**垂直稳定/不稳定流形**，用于研究面外偏差演化。
 
-这些管状结构构成了**行星际高速公路**（Interplanetary Superhighway）的主体。
+## 计算与工程近似
 
-## 在轨道设计中的应用
+实际任务中，不变流形通常按以下步骤生成：
 
-### 低能转移轨道设计
+1. 用微分修正法求解目标周期轨道；
+2. 数值积分状态转移矩阵，计算单值矩阵与特征向量；
+3. 在周期轨道离散点上沿特征方向施加小扰动，得到**流形初值/起点**；
+4. 沿相应时间方向积分得到流形上的状态序列，即**流形传播**。
 
-利用不变流形可以设计低能转移轨道：
+为加速优化，常预计算**流形插值数据库**：以轨道相位 $\tau$ 和流形积分时间 $t$ 为双索引，存储六维状态，再用二维插值快速查询流形点（Pontani & Teofilatto 2016）。
 
-1. **稳定流形转移**：从目标轨道出发，沿稳定流形向外传播，找到与出发轨道相交的点
-2. **不稳定流形转移**：从出发轨道出发，沿不稳定流形向内收敛到目标轨道
+自然流形未必精确满足任务约束（如近月点高度、到达时间）。工程中引入两类近似：
 
-### 平动点轨道生成
+- **伪流形**（pseudo-manifold）：在理想 CR3BP 流形上施加微小速度增量，使轨迹满足约束，扩展可行域（Davis, Born & Butcher 2013）；
 
-在设计平动点附近的周期轨道时：
+- **扰动流形**（disturbed manifold）：在自然不稳定流形特定位置施加一次机动，改变演化路径以命中目标轨道。
 
-1. 在 CR3BP 模型中计算周期轨道的初始估计
-2. 利用稳定/不稳定流形检验轨道的稳定性
-3. 将不变流形作为轨道设计的收敛方向
+**穿刺点**（piercing point）是流形与参考平面的交点，例如地月转移中取过地球的 $yz$ 平面（$x=-\mu$）。穿刺点的地心距、倾角、偏心率是选择转移初始条件的重要依据。
 
-### 弱稳定边界（WSB）转移
+## 地月/日地流形与跨系统拼接
 
-Belbruno 的弱稳定边界理论建立在不变流形的基础上：WSB 转移利用不稳定流形的自然扩散效应，以极小的能量代价实现轨道转移。
+地月系统与日地系统的平动点轨道各自拥有不变流形。当两套流形在公共参考平面（如庞加莱截面）上的位置投影重叠时，可在交点处通过一次速度增量完成**系统间转移**（Howell & Kakoi 2006）。这类“流形交叠”是构造日地 $L_2$ ↔ 地月 $L_1/L_2$ 低能通道的几何前提，也是“星际高速公路”在地球邻域的具体实现。
 
-## 在轨道保持中的应用
+## 应用要点
 
-### 流形稳定性分析
+- **低能转移**：利用不稳定流形出发、稳定流形到达，可显著降低转移所需 $\Delta V$；
 
-通过分析周期轨道周围稳定流形和不稳定流形的相对位置，可以判断轨道的长期稳定性：
+- **轨道保持**：轨道保持的“靶点法”本质是让航天器沿稳定流形回到参考轨道；
 
-- 流形管不相交：轨道可能是稳定的
-- 流形管相交：轨道存在混沌行为
-
-### 靶点法
-
-轨道保持的靶点法本质上是通过控制使航天器沿稳定流形回归周期轨道。
+- **任务设计流程**：流形提供良好初值，随后用微分修正过渡到高精度星历模型。
 
 ## 相关概念
 
-- [平动点（Libration Point）](/glossary/dynamics/libration-point/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [弱稳定边界（WSB）](/glossary/other/weak-stability-boundary/)
-- [Halo轨道](/glossary/orbits/halo-orbit/)
-- [低能转移轨道（Low Energy Transfer）](/glossary/orbits/low-energy-transfer/)
+
+- [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
+
+- [单值矩阵（Monodromy Matrix）](/glossary/dynamics/monodromy-matrix/)
+
+- [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
+
+- [Halo 轨道](/glossary/orbits/halo-orbit/)
+
+- [Lyapunov 轨道](/glossary/orbits/lyapunov-orbit/)
+
+- [弱稳定边界（WSB）](/glossary/dynamics/wsb/)
+
+- [中心流形](/glossary/dynamics/center-manifold/)
 
 ## 参考文献
 
-- Koon W S, Lo M W, Marsden J E, et al. Dynamical systems, the three-body problem and space mission design[M]. 2011.
-- 钱霙婧. 地月空间拟周期轨道上航天器自主导航与轨道保持研究[D]. 哈尔滨工业大学, 2014.
+- Gómez, G., Koon, W. S., Lo, M. W., Marsden, J. E., Masdemont, J., & Ross, S. D. (2001). Invariant manifolds, the spatial three-body problem and space mission design.
+
+- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D. (1999). The Genesis trajectory and heteroclinic connections.
+
+- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D. (2006/2011). Dynamical systems, the three-body problem and space mission design.
+
+- Howell, K. C., & Kakoi, M. (2006). Transfers between the Earth–Moon and Sun–Earth systems using manifolds and transit orbits.
+
+- Szebehely, V. (1967). Theory of Orbits: The Restricted Problem of Three Bodies.
+
+- Vallado, D. A. (2022). Fundamentals of Astrodynamics and Applications.
+
+- Davis, K., Born, G., & Butcher, E. (2013). Transfers to Earth-Moon L3 Halo orbits. *Acta Astronautica*, 88, 116–128.
+
+- Pontani, M., & Teofilatto, P. (2016). Polyhedral representation of invariant manifolds applied to orbit transfers in the Earth–Moon system.
+
+- 钱霙婧. (2014). 地月空间拟周期轨道上航天器自主导航与轨道保持研究. 哈尔滨工业大学.
+
+- 彭坤 等. (2016). 基于不变流形的地月 L2 点 Halo 轨道转移轨道设计.

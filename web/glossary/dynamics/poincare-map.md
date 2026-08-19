@@ -1,28 +1,28 @@
 ---
-title: 庞加莱图（Poincaré Map）
-description: 详细解析庞加莱图的定义、与庞加莱截面的关系、在地月轨道族近月点分布分析中的应用
-keywords: 庞加莱图, Poincaré Map, 庞加莱截面, 相空间映射, 近月点分布, 离散映射, 地月空间, DRO
+title: 庞加莱映射（Poincaré Map / Poincaré Return Map）
+description: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。"
+keywords: 庞加莱映射, 庞加莱图, Poincaré Map, First Return Map, 近星点图, periapse map, Tisserand-Poincaré 图, 不动点, 单值矩阵, heteroclinic, homoclinic
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
-  title: 庞加莱图（Poincaré Map）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  title: 庞加莱映射（Poincaré Map / Poincaré Return Map）
+  desc: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ；把连续流的周期/准周期/混沌分析转化为离散动力学问题。"
   image: /logo.png
 og:
-  title: 庞加莱图详解 | 连续动力系统的离散化可视化方法
-  description: 详细解析庞加莱图的定义、与庞加莱截面的关系、在地月轨道族近月点分布分析中的应用
+  title: 庞加莱映射（Poincaré Map）详解 | 术语定义
+  description: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。"
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 庞加莱图详解 | 连续动力系统的离散化可视化方法
-  description: 详细解析庞加莱图的定义、与庞加莱截面的关系、在地月轨道族近月点分布分析中的应用
+  title: 庞加莱映射（Poincaré Map）详解 | 术语定义
+  description: "由庞加莱截面首次回归导出的离散映射 P: Σ → Σ，把连续流的周期/准周期/混沌分析转化为离散动力学问题。覆盖平面与空间 CR3BP 中映射的维度与不动点稳定性、高维映射的字形可视化、近星点图与 Tisserand-Poincaré 图等专门化映射，及其在 heteroclinic/homoclinic 连接、转移设计中的应用。"
   image: /logo.png
 permalink: /glossary/dynamics/poincare-map/
 ---
 
-# 庞加莱图（Poincaré Map）
+# 庞加莱映射（Poincaré Map / Poincaré Return Map）
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
@@ -30,93 +30,91 @@ permalink: /glossary/dynamics/poincare-map/
 
 ## 定义
 
-庞加莱图（Poincaré Map）是将连续动力系统降维为离散映射的可视化方法。其基本思想是在相空间中选取一个低维截面（称为**庞加莱截面**），记录轨道每次穿越该截面时的状态点，将连续的轨道演化转化为截面上一系列离散点的分布图。庞加莱图以法国数学家亨利·庞加莱（Henri Poincaré）命名，是分析非线性动力系统、识别周期轨道和混沌行为的重要工具。
+庞加莱映射（Poincaré map，又称首次回归映射 first return map）是由 [庞加莱截面](/glossary/dynamics/poincare-section/) $\Sigma$ 上的首次回归导出的离散映射 $P:\Sigma\to\Sigma$：从 $\mathbf{x}_k\in\Sigma$ 出发，沿相流积分至下一次按规定方向穿越 $\Sigma$ 的状态 $\mathbf{x}_{k+1}$，即 $P(\mathbf{x}_k)=\mathbf{x}_{k+1}$。反复迭代 $P$ 把连续流的周期/准周期/混沌分析转化为离散动力学问题（Poincaré 1892；Parker & Chua 1989）。
 
-在地月远距离逆行轨道（DRO）族的研究中，庞加莱图用于展示族内各成员轨道的近月点在相空间中的分布特征，从而揭示轨道族的结构规律和可用于转移设计的窗口。
+截面与映射紧密相关但侧重不同：
 
-## 核心要素
-
-### 与庞加莱截面的关系
-
-庞加莱图与庞加莱截面（Poincaré Section）密切相关但侧重不同：
-
-| 概念 | 侧重点 | 描述 |
+| 概念 | 侧重 | 描述对象 |
 | :--- | :--- | :--- |
-| **庞加莱截面** | 几何对象 | 相空间中的 $(N-1)$ 维或 $(N-2)$ 维超平面 |
-| **庞加莱图** | 映射与可视化 | 轨道穿越截面后的交点分布图 |
+| **庞加莱截面** | 几何 | 记录穿越的超曲面 $\Sigma$ |
+| **庞加莱映射** | 动力学 | 离散映射 $P$ 及其迭代点的分布图案 |
 
-简言之，庞加莱截面是"切面"，庞加莱图是"切面投影后看到的图案"。
+简言之，截面是"切面"，映射是"切面上点的回归规则"。
 
-### 数学定义
+## 维度与可视化
 
-设连续动力系统为 $\dot{\mathbf{x}} = \mathbf{f}(\mathbf{x})$，$\mathbf{x} \in \mathbb{R}^N$。选取截面 $\Sigma \subset \mathbb{R}^{N-1}$，定义**首次回归映射**（First Return Map）$P: \Sigma \to \Sigma$：
+在固定的 [雅可比常数](/glossary/dynamics/jacobi-integral/) $C$ 约束下，截面把流的维数降 1，映射作用于 $N-2$ 维状态上（Haapala & Howell 2014）：
 
-$$P(\mathbf{x}_k) = \mathbf{x}_{k+1}$$
+- **平面 CR3BP**：映射为二维，平面投影即可完整表示状态，等值线交点直接给出连接解。
 
-其中 $\mathbf{x}_k$ 为轨道第 $k$ 次穿越 $\Sigma$ 的状态，$\mathbf{x}_{k+1}$ 为下一次穿越的状态。这个映射即为庞加莱映射，其图像即为庞加莱图。
+- **空间 CR3BP**：映射为四维，平面投影无法完整表示。**字形（glyph）表示法**在每个基点附加一个向量（或向量链）：基点编码位置 $(y,z)$，向量编码面内速度 $(\dot y,\dot z)$，进一步链接编码面外分量。字形图使 halo 轨道之间的 heteroclinic 连接在视觉上可辨（Haapala & Howell 2014；Whittington 2022）。
 
-### 交点分布的物理含义
+## 不动点与稳定性
 
-庞加莱图中离散点的分布模式反映了轨道的动力学性质：
+周期轨道对应映射的**不动点**（或 $k$-周期点）。稳定性由不动点处线性化**单值矩阵** $DP$ 的特征值刻画：
 
-| 交点分布模式 | 对应的轨道类型 |
-| :--- | :--- |
-| **孤立点**（有限个） | 周期轨道（周期为穿越次数的整数倍） |
-| **闭合曲线** | 准周期轨道（环面上的轨道） |
-| **密集散点填充区域** | 混沌轨道 |
-| **稀疏散点** | 长周期轨道或过渡轨道 |
+- **中心型不动点**：稳定周期轨道，周围迭代点形成闭合环（准周期环面）。
 
-### 在 DRO 轨道族中的应用
+- **鞍型不动点**：不稳定周期轨道（如 Lyapunov 轨道），迭代点沿稳定/不稳定流形排列。
 
-魏赞等（2026）在研究地月 DRO 轨道族时，利用庞加莱图展示各 DRO 成员轨道的近月点分布：
+迭代点形成闭合曲线对应**不变环面**（准周期运动），密集填充区域对应**混沌轨道**。从映射上定位周期轨道常是 [延拓](/glossary/dynamics/continuation/) 与多次打靶法的初值来源。
 
-1. **截面选取**：以近月点（$r = r_{\text{min}}$ 处）为截面，记录每次轨道经过近月点时的状态 $(r, v_r, v_t)$ 或其投影
-2. **族内成员标记**：将不同周期的 DRO 轨道的近月点绘制在同一庞加莱图上
-3. **转移窗口识别**：通过观察近月点在庞加莱图上的分布密度和方向特征，识别适合进行月球借力入轨的窗口
+## 专门化映射
 
-对于单条 DRO 轨道，由于 DRO 是周期轨道，其近月点在庞加莱图上表现为**固定的离散点**。而 DRO 轨道族整体在庞加莱图上的分布则呈现出规律性的曲线结构，反映了族内近月点状态随轨道参数（如周期）的连续变化。
+### 近星点图（periapse map）
 
-### 低维系统的经典应用
+定义在 [近星点截面](/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$ 上。平面问题中，其投影到构型空间即可完整表示状态，揭示次天体附近的逃逸/捕获结构（Villac & Scheeres 2004；Paskowitz & Scheeres 2006）。按中心天体命名的变体——**近地点图**（perigee map）、**近月点图**（perilune map）、**近星点/近拱点图**（apse map）——构造等价，仅参考主天体不同；近月点图常用于筛选月球借力 + WSB 捕获的转移轨道、分析 DRO 轨道族近月点分布（Scott & Spencer 2010）。
 
-在二维自治系统中，庞加莱图退化为一维截面上的点列，具有最直观的可视化效果：
+### Tisserand-Poincaré 图（T-P graph）
 
-- **中心型不动点**：对应稳定的周期轨道，周围的点形成闭合环
-- **鞍型不动点**：对应不稳定的周期轨道（如 Lyapunov 轨道），周围的点沿稳定/不稳定流形排列
-- **不变环面**：截面上的闭合曲线，对应准周期运动
+Tisserand 图（基于拼接二体模型的重力辅助序列设计工具）在 CR3BP 中的推广，由 Campagnola & Russell（2010）提出。坐标轴为相对主天体的吻切近星点距离与远星点距离（或周期），Tisserand 参数 $T = 3 - V_\infty^2$ 的等值线在固定 Poincaré 穿越点（通常取负 $x$ 轴穿越）逐圈采样。T-P 图覆盖了 $T<3$（$V_\infty$ 为虚数、拼接圆锥 Tisserand 图失效）的区域，可用于行星卫星系高高度飞越序列的系统化设计（Lantoine & Russell 2010；Yang et al. 2023；Shen et al. 2026）。
 
-在 CR3BP 的平面限制性问题中，庞加莱图常用于展示 $x$ 轴穿越截面（$y = 0$, $\dot{y} > 0$）上的交点分布，从而区分不同类型轨道族和混沌区域。
+## 应用要点
 
-### 数值实现要点
+- **Heteroclinic / homoclinic 连接**：在 $x=1-\mu$ 映射上，某周期轨道的不稳定流形与另一周期轨道的稳定流形的交点给出无机动转移初值；平面情形即等值线相交，空间情形靠字形观察后再用微分修正收敛（Gómez et al. 2001；Haapala & Howell 2014）。
 
-绘制高质量的庞加莱图需要注意：
+- **转移初值生成**：把高维解空间压缩到二维图上，可交互式挑选转移候选，再由 [微分修正](/glossary/dynamics/differential-correction/) 或多次打靶收敛。
 
-- **积分精度**：长时间积分需要高精度积分器（如 Runge-Kutta 8(9) 阶或 Symplectic 积分器）
-- **截面穿越检测**：通过符号变化检测穿越时刻，再插值得到精确交点
-- **坐标选择**：选择合适的截面坐标使不同轨道族的特征最清晰
-- **足够的积分时间**：混沌轨道需要足够长的积分时间才能展现其散布特征
+- **长期捕获轨道搜索**：近星点图上 non-transit 点（长期捕获）附近存在周期轨道的种子；由"镜像构型"反推初值并延拓得到（Haapala & Howell 2014）。
 
-## 应用价值
+- **DRO 族分析**：DRO 各成员的近月点在映射上呈现规律性曲线结构，反映族内状态随轨道参数的连续变化，用于月球借力入轨窗口识别（Scott & Spencer 2010）。
 
-庞加莱图在地月空间动力学研究中的核心价值在于：
+## 数值实现备注
 
-- **轨道族结构可视化**：将高维相空间中的轨道族关系降维到二维图上，直观展示族内成员的拓扑关系
-- **近月点分布分析**：对于 DRO 转移设计，庞加莱图可以清晰展示不同 DRO 轨道近月点的位置和速度方向分布
-- **混沌识别**：通过观察交点分布是否形成规则图案，快速判断轨道是否处于混沌状态
-- **转移设计辅助**：结合延拓方法生成的轨道族数据，庞加莱图为转移窗口筛选提供直观的"地图"
+地月系中典型映射（~1000 条流形轨迹，积分约 1.2 年）在 MATLAB + C 积分子程序下耗时约 2-3 秒；日地系约 100 年积分量级类似（Haapala & Howell 2014）。长时间积分应优先选用辛积分器以抑制能量漂移。
 
 ## 相关概念
 
 - [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
-- [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+
 - [延拓（Continuation）](/glossary/dynamics/continuation/)
+
 - [微分修正（Differential Correction）](/glossary/dynamics/differential-correction/)
-- [脉冲机动（Impulsive Maneuver）](/glossary/dynamics/impulsive-maneuver/)
-- 不变环面（Invariant Torus）
-- 混沌轨道（Chaotic Orbit）
+
+- [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
+
+- [雅可比常数（Jacobi Constant）](/glossary/dynamics/jacobi-integral/)
 
 ## 参考文献
 
-- 魏赞等. 地月远距离逆行轨道族月球借力转移入轨研究[J]. 北京航空航天大学学报, 2026.
 - Poincaré H. Les méthodes nouvelles de la mécanique céleste[M]. Gauthier-Villars, 1892.
+
 - Parker T S, Chua L O. Practical Numerical Algorithms for Chaotic Systems[M]. Springer, 1989.
-- Hénon M. Numerical exploration of the restricted problem, V: Hill's case[J]. Astronomy and Astrophysics, 1969, 1: 223-267.
+
+- Gómez G, Llibre J, Martínez R, Simó C. Dynamics and Mission Design near Libration Points — Vol. II[M]. World Scientific, 2001.
+
+- Villac B F, Scheeres D J. On the concept of periapsis in Hill's problem[J]. Dynamics & Control of Systems, 2004.
+
+- Paskowitz M E, Scheeres D J. Geometry of quasiperiodic orbits in the Hill problem[J]. Celestial Mechanics and Dynamical Astronomy, 2006.
+
+- Campagnola S, Russell R P. The Tisserand-Poincaré graph for multi-body gravity assists[C]. AAS/AIAA Astrodynamics Specialist Conference, 2010.
+
+- Haapala A F, Howell K C. Representations of higher-dimensional Poincaré maps with applications to spacecraft trajectory design[J]. Acta Astronautica, 2014, 96: 23-46.
+
+- Scott C J, Spencer D B. Transfer and capture into distant retrograde orbits via Poincaré and Periapsis maps[J]. JGCD, 2010. doi:10.2514/1.47791.
+
+- Whittington T R. Multi-body trajectory design in the Earth-moon region utilizing Poincaré maps[D]. Purdue University, 2022.
+
+- Yang J, et al. Review of trajectory design and optimization for Jovian system exploration[J]. Acta Astronautica, 2023.

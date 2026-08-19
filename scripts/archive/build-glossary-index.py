@@ -5,7 +5,6 @@
 import re
 import sys
 from pathlib import Path
-from collections import defaultdict
 
 REPO = Path("/home/ouyangjiahong/codes/cislunarspace")
 GLOSSARY_ZH = REPO / "web/glossary"
@@ -23,6 +22,9 @@ CATEGORIES = [
     ("minerals", "矿物与资源"),
     ("other", "其他技术"),
 ]
+
+# 子分类中文名（slug 路径 → 显示名），未收录的子目录按 slug 原样显示
+SUBCATEGORY_LABELS = {}
 
 
 def get_title(md_path):
@@ -43,18 +45,32 @@ def get_title(md_path):
     return md_path.stem
 
 
+def collect_entries(dir_path):
+    """收集一个目录下的直接词条（不递归），返回 [(slug, title)] 按标题排序"""
+    items = []
+    if not dir_path.exists():
+        return items
+    for md in sorted(dir_path.glob("*.md")):
+        if md.name.lower() == "readme.md":
+            continue
+        items.append((md.stem, get_title(md)))
+    return sorted(items, key=lambda x: x[1])
+
+
 def main():
-    # 收集每个分类的条目
-    cat_items = defaultdict(list)
+    # 收集每个分类的条目：根级条目 + 一层子目录（子分类）
+    cat_items = {}
     for cat, _ in CATEGORIES:
         cat_dir = GLOSSARY_ZH / cat
         if not cat_dir.exists():
             continue
-        for md in sorted(cat_dir.glob("*.md")):
-            if md.name.lower() == "readme.md":
-                continue
-            title = get_title(md)
-            cat_items[cat].append((md.stem, title))
+        root_items = collect_entries(cat_dir)
+        subs = []
+        for sub_dir in sorted(p for p in cat_dir.iterdir() if p.is_dir()):
+            sub_items = collect_entries(sub_dir)
+            if sub_items:
+                subs.append((sub_dir.name, sub_items))
+        cat_items[cat] = (root_items, subs)
 
     # 生成 README
     lines = [
@@ -96,24 +112,33 @@ def main():
 
     total = 0
     for cat, cn_name in CATEGORIES:
-        items = cat_items.get(cat, [])
-        if not items:
+        if cat not in cat_items:
             continue
-        total += len(items)
-        lines.append(f"### {cn_name}（{cat}，{len(items)} 条）")
+        root_items, subs = cat_items[cat]
+        count = len(root_items) + sum(len(items) for _, items in subs)
+        if count == 0:
+            continue
+        total += count
+        lines.append(f"### {cn_name}（{cat}，{count} 条）")
         lines.append("")
-        # 按中文标题排序
-        items_sorted = sorted(items, key=lambda x: x[1])
-        for slug, title in items_sorted:
-            # 显示格式：标题（英文缩写）
+        for slug, title in root_items:
             lines.append(f"- [{title}](/glossary/{cat}/{slug}/)")
-        lines.append("")
+        if root_items:
+            lines.append("")
+        for sub, items in subs:
+            sub_path = f"{cat}/{sub}"
+            sub_label = SUBCATEGORY_LABELS.get(sub_path, sub)
+            lines.append(f"#### {sub_label}（{sub_path}，{len(items)} 条）")
+            lines.append("")
+            for slug, title in items:
+                lines.append(f"- [{title}](/glossary/{sub_path}/{slug}/)")
+            lines.append("")
 
     lines.extend([
         f"## 统计",
         "",
         f"- 总计：{total} 个术语",
-        f"- 分类：{len([c for c in CATEGORIES if cat_items.get(c[0])])} 个",
+        f"- 分类：{sum(1 for c, _ in CATEGORIES if c in cat_items and (cat_items[c][0] or cat_items[c][1]))} 个",
         "",
         "## 说明",
         "",

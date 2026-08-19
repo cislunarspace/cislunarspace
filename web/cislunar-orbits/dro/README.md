@@ -74,4 +74,4 @@ DRO 的主要工程应用包括：
 
 - [限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [NRHO（近直线晕轨道）](/cislunar-orbits/nrho/)
-- [远距离逆行轨道（DRO）词条](/glossary/orbits/dro/)
+- 远距离逆行轨道（DRO）词条

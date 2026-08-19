@@ -36,9 +36,9 @@ Space traffic management coordinates space asset operations.
 
 ## Related Concepts
 
-- [Variable Structure Sliding Mode Control](/en/glossary/fundamentals/vssmc/)
-- [Pontryagin Minimum Principle](/en/glossary/fundamentals/pmp/)
-- [Error Function](/en/glossary/fundamentals/erf/)
+- Variable Structure Sliding Mode Control
+- [Pontryagin Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
+- Error Function
 
 ## References
 

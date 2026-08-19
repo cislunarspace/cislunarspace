@@ -45,7 +45,7 @@ twitter:
 | 地月转移 | 从近地或停泊轨道到月球影响球的过渡段 | 文献与任务报告中的「转移窗口」「中途修正」 |
 | 绕月轨道 | 环月圆/椭圆、极地轨等，用于遥感、着陆准备 | 与月球引力场阶次、冻结轨道等相关 |
 | 平动点与晕族轨道 | 相对地–月平动点附近的周期/拟周期轨道，可用于网关、中继与观测 | 参见 [NRHO](/glossary/orbits/nrho/) 等词条 |
-| 远距离逆行轨道（DRO） | 相对地–月系逆行、尺度较大的族，适合演示与特定编队 | 参见 [DRO](/glossary/orbits/dro/) |
+| 远距离逆行轨道（DRO） | 相对地–月系逆行、尺度较大的族，适合演示与特定编队 | 参见 DRO |
 
 具体设计需结合星历、推力模型与任务条例；本站 [资源与工具](/resources-tools/) 汇总了常用数据与开源库，[卫星轨道仿真](/satellite-simulation/) 提供可交互的入门实验环境。
 
@@ -66,7 +66,7 @@ DRO（Distant Retrograde Orbit，远距离逆行轨道）是一类在旋转坐�
 ## 阅读路径建议
 
 1. 若尚未建立整体图景，请先读 [地月空间是什么](/what-is-cislunarspace/) 与 [环境](/what-is-cislunarspace/environment)。
-2. 需要查缩写与定义时，使用 [术语词典](/glossary/)（如 [CR3BP](/glossary/dynamics/cr3bp/)、[NRHO](/glossary/orbits/nrho/)、[DRO](/glossary/orbits/dro/)）。
+2. 需要查缩写与定义时，使用 [术语词典](/glossary/)（如 [CR3BP](/glossary/dynamics/cr3bp/)、[NRHO](/glossary/orbits/nrho/)、DRO）。
 3. 关注学界与工程动向时，进入 [研究前沿](/research-frontiers/)。
 
 *正文与算例仍在持续扩充；若你希望补充某一轨道族或案例，欢迎通过仓库提交 PR。*

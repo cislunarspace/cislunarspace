@@ -74,6 +74,51 @@ describe('buildGlossaryCategories', () => {
   });
 });
 
+describe('buildGlossaryCategories with subcategories', () => {
+  /**
+   * Fixture with a one-level subcategory:
+   *
+   *   glossary (root)
+   *   └── glossary/orbits (glossary-category)
+   *       └── glossary/orbits/halo (glossary-category, meta.slug 'orbits/halo')
+   */
+  const subFixture: TaxonomyNode[] = [
+    fixtureNodes[0],
+    {
+      id: 'glossary/orbits',
+      kind: 'glossary-category',
+      label: { zh: '任务轨道', en: 'Mission orbits' },
+      path: { zh: '/glossary/orbits/', en: '/en/glossary/orbits/' },
+      order: 10,
+      parentId: 'glossary',
+      meta: { slug: 'orbits' },
+    },
+    {
+      id: 'glossary/orbits/halo',
+      kind: 'glossary-category',
+      label: { zh: 'Halo 轨道族', en: 'Halo family' },
+      path: { zh: '/glossary/orbits/halo/', en: '/en/glossary/orbits/halo/' },
+      order: 10,
+      parentId: 'glossary/orbits',
+      meta: { slug: 'orbits/halo' },
+    },
+  ];
+
+  it('includes subcategories with parentSlug, depth-first after their parent', () => {
+    const categories = buildGlossaryCategories(createTaxonomyModule(subFixture));
+    expect(categories.map((c) => c.slug)).toEqual(['orbits', 'orbits/halo']);
+    expect(categories[0].parentSlug).toBeNull();
+    expect(categories[1].parentSlug).toBe('orbits');
+  });
+
+  it('registry resolves subcategory by full-path slug', () => {
+    const registry = new GlossaryCategoryRegistry(
+      buildGlossaryCategories(createTaxonomyModule(subFixture)),
+    );
+    expect(registry.getBySlug('orbits/halo')!.label.zh).toBe('Halo 轨道族');
+  });
+});
+
 describe('GlossaryCategoryRegistry', () => {
   it('can be instantiated with fixture data', () => {
     const categories = buildGlossaryCategories(fixtureModule);

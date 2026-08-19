@@ -1,0 +1,50 @@
+---
+title: 颈部开启条件（Neck Opening Condition）
+description: 允许航天器通过L₁颈部区域的能量条件：雅可比能量C必须满足 C₂ < C < C₁（在地月系统中为 3.1722 < C < 3.1884）。当C略低于C₁时颈部刚好开启，允许低能量转移；当C < C₂时，L₂颈部也开启，航天器可进出外部区域。
+keywords: 颈部开启条件, Neck Opening Condition, 轨道动力学, 三体问题, 平动点
+author: 天疆说
+date: 2026-07-31
+lastUpdated: 2026-07-31
+wechatShare:
+  title: 颈部开启条件（Neck Opening Condition）
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: 颈部开启条件详解 | 术语定义
+  description: 允许航天器通过L₁颈部区域的能量条件：雅可比能量C必须满足 C₂ < C < C₁（在地月系统中为 3.1722 < C < 3.1884）。当C略低于C₁时颈部刚好开启，允许低能量转移；当C < C₂时，L₂颈部也开启，航天器可进出外部区域。
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 颈部开启条件详解 | 术语定义
+  description: 允许航天器通过L₁颈部区域的能量条件：雅可比能量C必须满足 C₂ < C < C₁（在地月系统中为 3.1722 < C < 3.1884）。当C略低于C₁时颈部刚好开启，允许低能量转移；当C < C₂时，L₂颈部也开启，航天器可进出外部区域。
+  image: /logo.png
+permalink: /glossary/dynamics/neck-opening-condition/
+---
+
+# 颈部开启条件（Neck Opening Condition）
+
+> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
+>
+>本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+## 定义
+
+允许航天器通过L₁颈部区域的能量条件：雅可比能量C必须满足 C₂ < C < C₁（在地月系统中为 3.1722 < C < 3.1884）。当C略低于C₁时颈部刚好开启，允许低能量转移；当C < C₂时，L₂颈部也开启，航天器可进出外部区域。
+
+## 应用价值
+
+在颈部开启条件的分析中，可用于轨道传播和机动设计，帮助工程师评估航天器在不同动力学环境下的运动特性。
+该概念为地月空间任务设计提供了理论基础，尤其在平动点轨道设计和低能转移分析中具有重要应用价值。
+利用颈部开启条件进行轨迹优化，可以有效降低任务燃料消耗，提高任务经济效益。
+在任务设计中，颈部开启条件的分析有助于理解航天器在复杂引力场中的行为，指导轨道保持策略的制定。
+
+## 相关概念
+
+- 微分代数（Differential Algebra, DA）
+- 羽流冲击（Plume Impingement）
+- 动量积分（Momentum Integral, MI）
+
+## 参考文献
+
+- Liang et al. 2016

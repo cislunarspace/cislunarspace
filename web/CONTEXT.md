@@ -22,7 +22,7 @@ The sidebar configuration is generated from multiple sources:
 
 ### Taxonomy Module
 
-The unified taxonomy module at `web/.vuepress/taxonomy/` owns all taxonomy data and exposes typed views consumed by every site surface. See [ADR-0001](../docs/adr/0001-unified-taxonomy-module.md).
+The unified taxonomy module at `web/.vuepress/taxonomy/` owns all taxonomy data and exposes typed views consumed by every site surface. See [ADR-0001](https://github.com/cislunarspace/cislunarspace/blob/master/docs/adr/0001-unified-taxonomy-module.md).
 
 ### Generators
 

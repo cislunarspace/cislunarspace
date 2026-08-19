@@ -55,7 +55,7 @@ twitter:
 
 本栏目与技术词典互相链接，形成知识网络。例如：
 
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)的轨道设计大量依赖打靶法和弧长延续法
+- [远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)的轨道设计大量依赖打靶法和弧长延续法
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)中的晕轨道初始条件生成需要打靶-微分修正配合弧长延续
 
 ## 更新说明

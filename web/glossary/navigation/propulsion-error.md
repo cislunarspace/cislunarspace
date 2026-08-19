@@ -40,10 +40,10 @@ permalink: /glossary/navigation/propulsion-error/
 
 ## 相关概念
 
-- [简化运动学法定轨（Simplified Kinematic Orbit Determination）](/glossary/navigation/simplified-kinematic-orbit-determination/)
-- [延迟量测融合（Delayed Measurement Fusion）](/glossary/navigation/delayed-measurement-fusion/)
-- [近程导航（Proximity Navigation）](/glossary/navigation/proximity-navigation/)
-- [速度增益制导（Velocity-to-be-Gained Guidance）](/glossary/navigation/velocity-to-be-gained-guidance/)
+- 简化运动学法定轨（Simplified Kinematic Orbit Determination）
+- 延迟量测融合（Delayed Measurement Fusion）
+- 近程导航（Proximity Navigation）
+- 速度增益制导（Velocity-to-be-Gained Guidance）
 
 ## 参考文献
 

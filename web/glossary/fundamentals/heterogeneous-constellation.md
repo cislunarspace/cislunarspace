@@ -38,10 +38,10 @@ permalink: /glossary/fundamentals/heterogeneous-constellation/
 
 ## 相关概念
 
-- [月心惯性坐标系（Moon-Centered Inertial Frame）](/glossary/fundamentals/moon-centered-inertial-frame/)
-- [NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）](/glossary/fundamentals/nrlmsise-00-atmospheric-model/)
-- [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodical-reference-system/)
-- [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/linear-time-periodic-system/)
+- [月心惯性坐标系（Moon-Centered Inertial Frame）](/glossary/fundamentals/inertial-reference-frames/)
+- NRLMSISE-00大气模型（NRLMSISE-00 Atmospheric Model）
+- [会合参考系（Synodical Reference System）](/glossary/fundamentals/synodic-frame/)
+- [线性周期系统（Linear Time-Periodic System）](/glossary/fundamentals/ltp/)
 
 ## 参考文献
 

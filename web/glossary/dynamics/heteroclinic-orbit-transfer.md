@@ -1,118 +1,97 @@
 ---
-title: 异宿轨道转移（Heteroclinic Orbit Transfer）
-description: 详细解析异宿轨道的定义、在平动点转移中的应用、以及"星际高速公路"理论中的地位
-keywords: 异宿轨道, Heteroclinic Orbit, 星际高速公路, 低能耗转移, 平动点, Halo轨道, 不变流形
+title: 异宿轨道转移（Heteroclinic Orbit Transfer / Homoclinic Connections）
+description: 限制性三体问题中的异宿连接、同宿连接及其组合循环：定义、庞加莱截面求交法、调相策略，以及“星际高速公路”在任务设计中的典型应用。
+keywords: 异宿轨道, 同宿轨道, Heteroclinic, Homoclinic, 异宿连接, 同宿连接, 调相, 星际高速公路, 低能转移
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
   title: 异宿轨道转移（Heteroclinic Orbit Transfer）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  desc: 三体问题中流形管相交、异宿/同宿连接与星际高速公路。
   image: /logo.png
 og:
-  title: 异宿轨道转移详解 | 星际高速公路理论
-  description: 详细解析异宿轨道的定义、在平动点转移中的应用、以及"星际高速公路"理论中的地位
+  title: 异宿轨道转移详解 | 星际高速公路
+  description: 限制性三体问题中的异宿连接、同宿连接及其组合循环：定义、庞加莱截面求交法、调相策略，以及“星际高速公路”在任务设计中的典型应用。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 异宿轨道转移详解 | 星际高速公路理论
-  description: 详细解析异宿轨道的定义、在平动点转移中的应用、以及"星际高速公路"理论中的地位
+  title: 异宿轨道转移详解 | 星际高速公路
+  description: 限制性三体问题中的异宿连接、同宿连接及其组合循环：定义、庞加莱截面求交法、调相策略，以及“星际高速公路”在任务设计中的典型应用。
   image: /logo.png
 permalink: /glossary/dynamics/heteroclinic-orbit-transfer/
 ---
 
-# 异宿轨道转移
+# 异宿轨道转移（Heteroclinic Orbit Transfer / Homoclinic Connections）
 
-> 本文编辑来源：郭建宇 (2020) "基于双基不变流形法的平动点轨道设计及保持策略研究"
+> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## 定义
 
-异宿轨道（Heteroclinic Orbit）是连接动力系统中两个不同平衡点的轨道。在圆型限制性三体问题（CR3BP）中，异宿轨道连接两个不同的平动点（如 L1 和 L2），或连接平动点与周期轨道。沿异宿轨道转移是一种极低能量的转移方式，被誉为"星际高速公路"的重要组成部分。
+在动力系统理论中，**异宿轨道**（heteroclinic orbit）是连接两个不同不变集（平衡点或周期轨道）的轨道；若起点与终点为同一不变集，则称为**同宿轨道**（homoclinic orbit）。在 CR3BP 中，它们常表现为不同平动点周期轨道之间稳定流形与不稳定流形的几何交线（Koon et al. 1999）。
 
-## 理论基础
+设 $\mathcal{A}$、$\mathcal{B}$ 为两条周期轨道，记 $\mathcal{H}_{\mathcal{AB}}$ 为从 $\mathcal{A}$ 到 $\mathcal{B}$ 的异宿轨道，则
 
-### 异宿轨道的数学定义
+$$\lim_{t\to-\infty}\phi^t(x)\to\mathcal{A},\qquad \lim_{t\to+\infty}\phi^t(x)\to\mathcal{B}.$$
 
-在动力系统理论中，异宿轨道是满足以下条件的轨道：
+当同时存在 $\mathcal{H}_{\mathcal{AB}}$ 与 $\mathcal{H}_{\mathcal{BA}}$ 时，二者构成**异宿循环**（heteroclinic cycle）。同宿轨道 $
+\mathcal{H}_{\mathcal{AA}}$ 本身已是循环。
 
-$$\lim_{t \to -\infty} x(t) = L_i, \quad \lim_{t \to +\infty} x(t) = L_j$$
+## 庞加莱截面求交
 
-其中 $L_i$ 和 $L_j$ 是两个不同的平衡点（平动点）。当 $i = j$ 时，则称为同宿轨道（Homoclinic Orbit）。
+异宿连接对应于两条流形管的横截相交。直接求 6 维相空间中两个 2 维流形管的交非常困难。利用 Jacobi 积分将空间降为 5 维，再取一个横截于流的**庞加莱截面**（Poincaré section），流形管与该截面的交降为 1 维曲线；求两条曲线的交点即得到异宿连接候选（Koon et al. 1999）。
 
-### 在 CR3BP 中的存在性
+具体而言，为寻找从 $L_2$ 周期轨道到 $L_1$ 周期轨道的连接：
 
-在地月系统的共线平动点之间，异宿轨道的存在性已得到证明。这些异宿轨道沿着连接两个平动点不稳定流形的通道运行。
+1. 计算 $L_2$ 周期轨道的不稳定流形，正向积分至截面；
+2. 计算 $L_1$ 周期轨道的稳定流形，反向积分至同一截面；
+3. 在截面上寻找两族曲线交点；
+4. 从交点分别正向、反向积分得到近似异宿轨道，再微分修正。
 
-## 转移机制
+这种方法把高维“面—面相交”问题降为“线—线相交”，是空间流形动力学方法的核心。
 
-### 利用异宿轨道实现转移
+## 同宿/异宿调相
 
-郭建宇（2020）的研究中，利用异宿轨道找到了一条从地球转移到地月 L2 平动点附近 Halo 周期轨道的路径：
+同宿或异宿连接还可作为**间接调相**（phasing）策略。航天器离开目标轨道后沿不稳定流形演化，再沿另一周期轨道的稳定流形返回，通过选择不同连接组合积累相位差，燃耗通常仅为进出平动点轨道的少量脉冲。同宿调相在同一轨道的不稳定/稳定流形之间完成；异宿调相则跨两个平动点轨道完成。
 
-1. 从地球轨道出发，施加初始冲量进入异宿轨道
-2. 沿异宿轨道自然演化，无需额外推进剂
-3. 轨道自然连接至 L2 点附近的 Halo 周期轨道
-4. 被目标周期轨道捕获
+## 星际高速公路与任务实例
 
-### 异宿轨道与不变流形的关系
+由大量平动点流形管及其异宿/同宿连接构成的网络被称为**星际高速公路**（Interplanetary Superhighway）。其特点包括：
 
-异宿轨道本质上是不变流形的一种特殊形式：
+- **低能**：沿自然动力学通道运动，燃料消耗极低；
 
-| 轨道类型 | 起点 | 终点 |
-| :--- | :--- | :--- |
-| 同宿轨道 | 平动点 $L_i$ | 平动点 $L_i$（自身） |
-| 异宿轨道 | 平动点 $L_i$ | 平动点 $L_j$（不同） |
-| 周期轨道 | 平动点 $L_i$ | 平动点 $L_i$（同宿特例） |
+- **网络化**：不同系统的流形相互拼接，形成太阳系尺度转移网络；
 
-## 星际高速公路
+- **时间尺度长**：相比脉冲转移，飞行时间常以月甚至年计。
 
-异宿轨道是"星际高速公路"（Interplanetary Superhighway）理论的核心组成部分。Martin Lo 提出，利用平动点处的不变流形和异宿轨道，可以构建连接太阳系各行星轨道的低能量转移网络。
-
-### 星际高速公路特性
-
-- **低能量**：利用自然动力学通道，大幅降低转移所需能量
-- **网络化**：各平动点的流形相互连接，形成转移网络
-- **时间尺度**：转移时间可能很长（数月到数年）
-
-## 应用价值
-
-异宿轨道转移为深空探测提供了极低能量的转移方案：
-
-| 应用场景 | 说明 |
-| :--- | :--- |
-| 地月空间任务 | 从地球轨道到 L2 Halo 轨道的低能量转移 |
-| 火星探测 | 利用日火 L1/L2 异宿轨道设计低能量转移 |
-| 小行星探测 | 利用异宿轨道实现多目标探测任务 |
-| 深空导航 | 作为星际航线的"主干道" |
-
-## 核心要素
-
-### 数学定义
-
-异宿轨道是连接动力系统中两个不同平衡点的轨道，在 CR3BP 中连接两个不同的平动点或平动点与周期轨道。
-
-### 关键性质
-
-沿异宿轨道转移无需或仅需极少的能量消耗，是实现低能量深空转移的重要途径。
-
-### 数值方法
-
-异宿轨道的计算需要精确的不变流形数值积分，以及同宿/异宿轨道的检测和验证。
+典型实例是 Genesis 任务的返回段：航天器从日地 $L_1$ Halo 轨道经一次 $L_2$ 区域异宿循环再回到 $L_1$ 附近，完成数百万公里的日侧返回，仅需数 m/s 量级机动（Koon et al. 1999；Lo 2002）。
 
 ## 相关概念
 
-- [一次冲量轨道转移](/glossary/orbits/primary-impulse-transfer/)
-- [不变流形](/glossary/dynamics/central-manifold/)
-- [平动点](/glossary/dynamics/libration-point/)
-- [星际高速公路](/glossary/orbits/low-energy-transfer/)
-- [低能量转移轨道](/glossary/orbits/low-energy-transfer/)
+- [不变流形（Invariant Manifold）](/glossary/dynamics/invariant-manifold/)
+
+- [庞加莱截面（Poincaré Section）](/glossary/dynamics/poincare-section/)
+
 - [Halo 轨道](/glossary/orbits/halo-orbit/)
+
+- [Lyapunov 轨道](/glossary/orbits/lyapunov-orbit/)
+
+- [弱稳定边界（WSB）](/glossary/dynamics/wsb/)
+
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 
 ## 参考文献
 
-- 郭建宇. 基于双基不变流形法的平动点轨道设计及保持策略研究[D]. 北京工业大学, 2020.
-- Martin Lo W. The Interplanetary Superhighway and the Genesis Mission[R]. JPL, 2002.
-- Koon W S, Lo M W, Marsden J E, et al. Dynamical systems, the three-body problem and space mission design[J]. 2006.
+- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D. (1999). The Genesis trajectory and heteroclinic connections.
+
+- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D. (2006/2011). Dynamical systems, the three-body problem and space mission design.
+
+- Lo, M. W. (2002). The Interplanetary Superhighway and the Genesis Mission. JPL.
+
+- Gómez, G., et al. (2001). Invariant manifolds, the spatial three-body problem and space mission design.
+
+- Ren, Y., et al. (2011). On the mechanisms of natural transport in the solar system.
+
+- 郭建宇. (2020). 基于双基不变流形法的平动点轨道设计及保持策略研究. 北京工业大学.

@@ -74,10 +74,10 @@ LEO 不仅是航天活动的起点，更是地月空间基础设施的关键节�
 
 ## 相关概念
 
-- [地月空间（Cislunar Space）](/glossary/other/cislunar-space/)
-- [停泊轨道（Parking Orbit）](/glossary/orbits/parking-orbit/)
-- [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
-- [有动力月球借力（PLF）](/glossary/other/powered-lunar-flyby/)
+- 地月空间（Cislunar Space）
+- 停泊轨道（Parking Orbit）
+- 转移轨道（Transfer Orbit）
+- 有动力月球借力（PLF）
 
 ## 参考文献
 

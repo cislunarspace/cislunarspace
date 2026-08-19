@@ -6,7 +6,7 @@ wechatShare:
   title: "CNSA Holds Enterprise Roundtable on High-Quality Commercial Space Development"
   desc: "On April 21, 2026, CNSA Administrator Shan Zhongde chaired a roundtable with 14 commercial space enterprise leaders to discuss R&D, licensing, launch applications, and other key issues."
   image: "./figures/2026-04-27-commercial-space-enterprise-roundtable/hero.png"
-permalink: /space-news/2026/04/2026-04-27-commercial-space-enterprise-roundtable/
+permalink: /en/space-news/2026/04/2026-04-27-commercial-space-enterprise-roundtable/
 author: Tianjiang Shuo
 date: 2026-04-27
 lastUpdated: 2026-04-27

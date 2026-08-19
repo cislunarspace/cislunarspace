@@ -8,7 +8,7 @@
 //   tsx .vuepress/build/measure-build.ts --no-clean            # do not clear dist first
 //
 // This script does NOT change the build. It runs the same three commands as
-// `docs:build` (gen-sidebar, vuepress build, sync-figures), records per-phase
+// `build` (gen-sidebar, vuepress build, sync-figures), records per-phase
 // wall time, and writes a machine-readable JSON + a human log under
 // logs/build-speed/<timestamp>-<label>.{json,log}.
 //
@@ -85,7 +85,7 @@ function sanitizeLabel(s: string): string {
 }
 
 function printHelp(): void {
-  console.log(`measure-build — run docs:build with per-phase timing
+  console.log(`measure-build — run build with per-phase timing
 
 Usage:
   tsx .vuepress/build/measure-build.ts [options]
@@ -298,7 +298,7 @@ function main(): void {
     }
 
     if (!buildFailed) {
-      const sf = runPhase('sync-figures', 'npm', ['run', '--silent', 'sync-figures'], env, logPath);
+      const sf = runPhase('sync-figures', 'tsx', ['.vuepress/build/sync-figures.js'], env, logPath);
       phases.push(sf);
       if (sf.exitCode !== 0) buildFailed = true;
     }

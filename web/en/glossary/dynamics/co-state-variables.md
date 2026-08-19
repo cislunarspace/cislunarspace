@@ -1,76 +1,92 @@
 ---
-title: Co-state Variables
-description: Detailed explanation of co-state variables definition, physical meaning, mathematical formulation, and their central role in optimal control and trajectory optimization
-keywords: "Co-state Variables, Lagrange multiplier, optimal control, Pontryagin's Maximum Principle, Hamiltonian, trajectory optimization"
+title: Costate Variables and Adjoint Equations
+description: The Lagrange multipliers dual to the state in optimal control. Covers costate/adjoint variables, the adjoint equations, costate normalization, the adjoint-control transformation, and initial-costate sensitivity — the central object of indirect trajectory optimization in cislunar space.
+keywords: Costate Variables, Adjoint Equations, Lagrange Multiplier, Pontryagin's Maximum Principle, Costate Normalization, Adjoint-Control Transformation, Indirect Method, TPBVP
 author: Tianjiang Shuo
-date: 2026-06-05
-lastUpdated: 2026-06-05
+date: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
-  title: Co-state Variables
-  desc: One-stop learning for cislunar space research frontiers, terminology definitions, and tool resources.
+  title: Costate Variables and Adjoint Equations
+  desc: The dual variables of optimal control — definition, adjoint equations, normalization, and adjoint-control transformation.
   image: /logo.png
 og:
-  title: "Co-state Variables Details | Hidden Variables in Optimal Control Theory"
-  description: Detailed explanation of co-state variables definition, physical meaning, mathematical formulation, and their central role in optimal control and trajectory optimization
+  title: Costate Variables and Adjoint Equations | Optimal Control Theory
+  description: The Lagrange multipliers dual to the state in optimal control — adjoint equations, costate normalization, adjoint-control transformation, and applications in cislunar low-thrust trajectory optimization.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Co-state Variables Details | Hidden Variables in Optimal Control Theory"
-  description: Detailed explanation of co-state variables definition, physical meaning, mathematical formulation, and their central role in optimal control and trajectory optimization
+  title: Costate Variables and Adjoint Equations | Optimal Control Theory
+  description: The Lagrange multipliers dual to the state in optimal control — adjoint equations, costate normalization, adjoint-control transformation, and applications in cislunar low-thrust trajectory optimization.
   image: /logo.png
 permalink: /en/glossary/dynamics/co-state-variables/
 ---
 
-# Co-state Variables
+# Costate Variables and Adjoint Equations
 
-> Author: Tianjiang Shuo
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
-> Contributing Institution: School of Astronautics, Harbin Institute of Technology, National Key Laboratory of Rapid Design and Intelligent Swarm of Small Spacecraft
+> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
 
-Co-state Variables, also known as adjoint variables or Lagrange multipliers, are auxiliary variables introduced in optimal control theory paired with state variables. They do not correspond to any directly measurable physical quantity but rather describe the sensitivity of the optimal performance index with respect to state variables. Within the framework of Pontryagin's Maximum Principle, co-state variables form Hamilton's canonical equations together with state variables, determining the optimal trajectory and optimal control law.
+Costate variables (also adjoint, conjugate variables, or the Lagrange multipliers paired with the state) are dual variables introduced in an optimal-control problem to enforce the dynamics. They have no directly measurable physical counterpart; geometrically they are the sensitivity of the optimal cost-to-go to the state — $\lambda_i(t)=\partial J^*/\partial x_i(t)$ (Bryson & Ho 1975; Betts 2010). Pontryagin's Maximum Principle couples the costate to the state through a Hamiltonian canonical system, turning the problem into a TPBVP in $(\mathbf{x},\boldsymbol{\lambda})$.
 
-## Mathematical Description
+## Hamiltonian form and adjoint equations
 
-### Co-state Equations
+For $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$ and $J=\Phi(\mathbf{x}(t_f),t_f)+\int_{t_0}^{t_f}L\,dt$, define the control Hamiltonian $H=L+\boldsymbol{\lambda}^{\!\top}\mathbf{f}$. The two PMP conditions on the costate are (Conway 2010, Ch.1; Betts 2010):
 
-Let the state variables be $\mathbf{x} = [\mathbf{r}; \mathbf{v}; m]^T$ and the co-state variables be $\boldsymbol{\lambda} = [\boldsymbol{\lambda}_r; \boldsymbol{\lambda}_v; \lambda_m]^T$. Given the Hamiltonian $H$, the co-state variables satisfy the differential equation:
+1. **Adjoint (costate) equations** $\dot{\boldsymbol{\lambda}}=-\partial H/\partial\mathbf{x}$.
+2. **Transversality** $\boldsymbol{\lambda}(t_f)=\partial \Phi/\partial\mathbf{x}|_{t_f}+(\partial\boldsymbol{\Psi}/\partial\mathbf{x})^{\!\top}\boldsymbol{\nu}$, where $\boldsymbol{\Psi}=0$ collects terminal equality constraints with multipliers $\boldsymbol{\nu}$. Free $t_f$ adds $H(t_f)=0$.
 
-$$\dot{\boldsymbol{\lambda}} = -\frac{\partial H}{\partial \mathbf{x}}$$
+With $\dot{\mathbf{x}}=\partial H/\partial\boldsymbol{\lambda}$ and pointwise minimization of $H$ over $\mathbf{u}$, these define the optimal trajectory.
 
-Together with the state equations $\dot{\mathbf{x}} = \partial H / \partial \boldsymbol{\lambda}$, they form Hamilton's canonical equations, constituting a first-order differential equation boundary value problem.
+## Costate components in trajectory optimization
 
-### Co-state Variables in Spacecraft Trajectory Optimization
+For a continuous-thrust spacecraft with state $(\mathbf{r},\mathbf{v},m)$ and control $(\hat{\mathbf{T}},T)$,
 
-In spacecraft trajectory optimization, each co-state component has a specific mathematical role:
+$$H=L+\boldsymbol{\lambda}_r^{\!\top}\mathbf{v}+\boldsymbol{\lambda}_v^{\!\top}(\mathbf{g}(\mathbf{r})+T\hat{\mathbf{T}}/m)-\lambda_m T/(I_{sp}g_0).$$
 
-- **Position co-state $\boldsymbol{\lambda}_r$**: satisfies $\dot{\boldsymbol{\lambda}}_r = -\partial H / \partial \mathbf{r}$, related to gravitational gradients, influencing orbit shape
-- **Velocity co-state $\boldsymbol{\lambda}_v$**: satisfies $\dot{\boldsymbol{\lambda}}_v = -\partial H / \partial \mathbf{v}$, directly determining the optimal thrust direction
-- **Mass co-state $\lambda_m$**: satisfies $\dot{\lambda}_m = -\partial H / \partial m$, determining thrust on/off switching times
+- **Position costate $\boldsymbol{\lambda}_r$**: driven by the gravity gradient.
+- **Velocity costate $\boldsymbol{\lambda}_v$**: $\dot{\boldsymbol{\lambda}}_v=-\boldsymbol{\lambda}_r$ when $H$ has no explicit $\mathbf{v}$. The optimal thrust direction is $-\boldsymbol{\lambda}_v/\|\boldsymbol{\lambda}_v\|$; hence $-\boldsymbol{\lambda}_v$ is the **primer vector** (Lawden 1963).
+- **Mass costate $\lambda_m$**: monotone increasing, $\dot{\lambda}_m=\|\boldsymbol{\lambda}_v\|T/m^2\geq 0$. The **switching function** $\rho=1-\lambda_m I_{sp}g_0/m-\|\boldsymbol{\lambda}_v\|$ decides $T$ at its bounds, yielding bang-bang / bang-off-bang laws (see [Bang-Bang Control](/en/glossary/dynamics/bang-bang-control/), [Primer Vector](/en/glossary/dynamics/primer-vector/)).
 
-### Switching Function and Thrust Decisions
+## Costate normalization
 
-Co-state variables determine the optimal thrust ratio through the switching function $\rho$:
+For **free-final-state** problems, $(\boldsymbol{\lambda}(t_0),\lambda_0)$ can be rescaled by any positive constant without changing the trajectory (PMP homogeneity). Costate normalization fixes $\|\boldsymbol{\lambda}(t_0)\|=1$ (or one component to unity), reducing the search dimension by one and improving conditioning (Thorne 1996; Oshima et al. 2017). Minimum-time problems lose this homogeneity and replace it by $H\equiv -1$; minimum-fuel problems keep it.
 
-$$\rho_j = 1 - \lambda_{mj} - \frac{I_{sp}g_0}{m_j}\|\boldsymbol{\lambda}_{vj}\|$$
+## Adjoint-control transformation
 
-When $\rho_j < 0$, thrust is maximum; when $\rho_j > 0$, thrust is zero, forming a bang-bang control law.
+Initial costates have no physical meaning. The **adjoint-control transformation** (Kluever & Pierson 1995; Conway 2010, Ch.4) replaces $\boldsymbol{\lambda}(t_0)$ by intuitive variables — thrust angles $(\alpha,\beta)$, their rates $(\dot\alpha,\dot\beta)$, plus $\lambda_v$, $\dot{\lambda}_v$, $\lambda_m$. The **implicit costate transformation** (Pozzi et al. 2025) is the multi-arc analogue: a closed-form map carries the final costate of one arc into the initial costate of the next.
 
-## Role in Two-Point Boundary Value Problems
+## Initial-costate sensitivity
 
-When solving optimal control problems via indirect methods, the initial state $\mathbf{x}(t_0)$ is known, but the initial co-state $\boldsymbol{\lambda}(t_0)$ is unknown. Co-state boundaries are determined by transversality conditions, and each co-state component can take values in $[-\infty, +\infty]$, leading to an extremely large solution space for the shooting problem. Co-state normalization constrains $\boldsymbol{\lambda}(t_0)$ to a unit sphere, effectively reducing the search dimension.
+Indirect methods suffer because $\boldsymbol{\lambda}(t_0)$ is numerically unstable — small perturbations diverge by $t_f$. The **optimal initial costate locus** describes $\boldsymbol{\lambda}(t_0)$ as a curve over problem parameters with distinct behaviour in parabolic, elliptic, and spiral regimes (Thorne 1996). In practice, [homotopy methods](/en/glossary/dynamics/homotopy-method/) sweep from an easily solved energy-optimal problem to the fuel-optimal target.
 
-## Applications in Cislunar Space
+## Application notes
 
-In cislunar space trajectory optimization, co-state variables pervade the entire optimal control solution process. From fuel-optimal transfers from near-Earth orbit to DRO or NRHO, to multi-spacecraft cooperative rendezvous missions, the initial guess and iterative correction of co-state variables remain the central challenge of indirect methods. The normalization and physical interpretation of co-state variables serve as a critical bridge between mathematical optimality and engineering realizability.
+- The bottleneck in indirect methods is the initial-costate guess and homotopy design — an order of magnitude harder than guessing states.
+- $\lambda_m$ spans many decades in large-scale transfers; log-scaling or independent normalization avoids ill-conditioning.
+- In CR3BP-LT, $H_{lt}=H_{nat}-\boldsymbol{\lambda}^{\!\top}\mathbf{a}_{lt}$ becomes a new integral when $\mathbf{a}_{lt}$ is fixed in the rotating frame (Cox et al. 2021).
 
-## Related Concepts
+## Related concepts
 
-- [Co-state Normalization](/en/glossary/dynamics/co-state-normalization/)
-- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagin-principle/)
+- [Pontryagin's Maximum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 - [Hamiltonian](/en/glossary/dynamics/hamiltonian/)
-- [Two-Point Boundary Value Problem (TPBVP)](/en/glossary/dynamics/tpbvp/)
-- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/)
-- [Fuel-optimal Control](/en/glossary/dynamics/fuel-optimal/)
+- [Two-Point Boundary-Value Problem (TPBVP)](/en/glossary/dynamics/tpbvp/)
+- [Primer Vector](/en/glossary/dynamics/primer-vector/)
+- [Bang-Bang Control](/en/glossary/dynamics/bang-bang-control/)
+- [Homotopy Method](/en/glossary/dynamics/homotopy-method/)
+- [Indirect Methods](/en/glossary/dynamics/indirect-methods/)
+
+## References
+
+- Bryson, A. E., & Ho, Y.-C. (1975). *Applied Optimal Control*.
+- Lawden, D. F. (1963). *Optimal Trajectories for Space Navigation*.
+- Betts, J. T. (2010). *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming*, 2nd ed.
+- Conway, B. A. (Ed.) (2010). *Spacecraft Trajectory Optimization*, Ch. 1–2, 4.
+- Thorne, J. D. (1996). Optimal continuous-thrust orbit transfers. *Acta Astronautica*, 38(8), 565–578.
+- Kluever, C. A., & Pierson, B. L. (1995). Optimal Earth-Moon trajectories using nuclear electric propulsion. *JGCD*.
+- Oshima, K., et al. (2017). Earth-Moon transfer trajectories … *JGCD*.
+- Cox, A. B., et al. (2021). CR3BP with low-thrust.
+- Pozzi, E., et al. (2025). Implicit costate transformation for multi-arc optimal control.

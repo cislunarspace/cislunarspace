@@ -1,91 +1,92 @@
 ---
-title: 弹道捕获轨道（Ballistic Capture Orbit）
-description: 详细解析弹道捕获轨道的定义、弱稳定边界理论、无动力捕获机制及其在月球探测任务中的应用
-keywords: 弹道捕获轨道, Ballistic Capture Orbit, 弱稳定边界, 无动力捕获, 低能量转移, Hiten, GRAIL, 轨道设计
+title: 弹道捕获（Ballistic Capture）
+description: 航天器相对次主天体的二体（开普勒）能量由正转负、无需推进即被其引力束缚的捕获方式；地月转移中只能发生暂时捕获，永久捕获需耗散力；是低能转移的到达端机制，1991 年 Hiten 任务首次应用。
+keywords: 弹道捕获, Ballistic Capture, 暂时捕获, 永久捕获, 低能转移, 弱稳定边界
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-07
 wechatShare:
-  title: 弹道捕获轨道（Ballistic Capture Orbit）
+  title: 弹道捕获（Ballistic Capture）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
-  title: 弹道捕获轨道（Ballistic Capture Orbit）详解 | 低能量无动力捕获
-  description: 详细解析弹道捕获轨道的定义、弱稳定边界理论、无动力捕获机制及其在月球探测任务中的应用
+  title: 弹道捕获详解 | 术语定义
+  description: 航天器相对次主天体的二体（开普勒）能量由正转负、无需推进即被其引力束缚的捕获方式；地月转移中只能发生暂时捕获，永久捕获需耗散力；是低能转移的到达端机制，1991 年 Hiten 任务首次应用。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 弹道捕获轨道（Ballistic Capture Orbit）详解 | 低能量无动力捕获
-  description: 详细解析弹道捕获轨道的定义、弱稳定边界理论、无动力捕获机制及其在月球探测任务中的应用
+  title: 弹道捕获详解 | 术语定义
+  description: 航天器相对次主天体的二体（开普勒）能量由正转负、无需推进即被其引力束缚的捕获方式；地月转移中只能发生暂时捕获，永久捕获需耗散力；是低能转移的到达端机制，1991 年 Hiten 任务首次应用。
   image: /logo.png
 permalink: /glossary/orbits/ballistic-capture/
 ---
 
-# 弹道捕获轨道（Ballistic Capture Orbit）
+# 弹道捕获（Ballistic Capture）
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
 > 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
-## 定义
+## 定义与能量判据
 
-弹道捕获轨道（Ballistic Capture Orbit）是**利用弱稳定边界理论实现的低能量无动力捕获轨道**。当转移过程中探测器相对地球的远地点距离远大于月球轨道半径时，可利用太阳扰动力到达月球附近，无需施加捕获机动即可被月球临时捕获。相比霍曼转移可节省约 15% 速度增量。日本 Hiten 卫星是首个成功应用弹道捕获的任务，NASA 的 GRAIL 也采用了此方式。
+弹道捕获指航天器相对某天体的开普勒能量 H_k 由零（或正）转负、无需推进即被其引力束缚的过程（Belbruno & Miller 1993；Topputo 2013 定义：相对次主天体的二体能量 H₂≤0）。捕获轨道在近月点无双曲超速 V_∞，故随后稳定化捕获所需的能量大幅下降。操作定义：自然动力学下进入月球 Hill 半径（约 60,000 km）以内并绕月至少一圈，即称被月球弹道捕获，此时一个小 ΔV 即可实现稳定捕获（Ross 2022）。注意捕获对象是**次主天体**（地月系中为月球）。
 
-## 核心要素
+## 暂时与永久捕获
 
-### 弱稳定边界理论
+- **暂时弹道捕获**：某时间区间内 H₂≤0、之外为正（Topputo 2013）。平动点轨道的不稳定流形支配暂时捕获，母轨道越小（雅可比值越大），捕获圈数越多（Fantino 2010）。
+- **永久捕获**：某有限时刻之后一直 H₂≤0（Topputo 2013）。**地月转移框架下只能发生暂时弹道捕获；永久捕获必须有耗散力作用**（如大气制动或推进）。
+- 把弹道捕获稳定为永久捕获的代价明显小于 Hohmann 变轨（徐明 2010）。
 
-弹道捕获的理论基础是 Belbruno 提出的弱稳定边界（Weak Stability Boundary, WSB）理论：
+## 动力学机理
 
-- **WSB 定义**：在限制性三体问题中，存在一个薄层区域，该区域内的天体在足够长的时间后将自然地从一个天体的引力域转移到另一个天体
-- **太阳扰动作用**：当探测器远离地球（远地点大于月球轨道半径）时，太阳的引力扰动成为主导因素，可引导探测器滑入月球引力影响范围
-- **自然捕获**：探测器进入月球引力主导区域后，无需施加制动脉冲即可被月球临时捕获
+- **Conley 分类（Conley 1968）**：相对平动点颈部区域的长期行为，轨道分为振荡（无穷多次穿越）、渐近（趋向不稳定周期轨道）、捕获（有时穿越、但某有限时刻后不再穿越——对位于两天体间的平动点，即最终被其一天体俘获的轨道）等类；定理：任何穿越颈部的渐近轨道附近存在捕获轨道（Conley 自注：此类渐近轨道当时尚未被证实存在）。
+- **捕获弧与逃逸弧（Pergola 2010）**：天王星卫星巡游语境——捕获弧用卫星 L2 点稳定流形构造，把航天器从外侧区域引向卫星并绕其做多圈闭合轨道；随后经 L2 稳定流形与 L1 不稳定流形的异宿连接自然离开，前往下一卫星。停留数天到近一个月，圈数与时长依赖流形计算的扰动参数。
 
-### 弹道捕获的轨道特征
+## 捕获窗口与月面捕获
 
-弹道捕获轨道具有以下动力学特征：
+经 LL2-Halo 穿越的 WSB 转移，其捕获/逃逸窗口由太阳相位角 β 与 Halo 轨道相位 τ 共同决定，且可用集合很小（徐明 2010）。月面捕获能量（永久捕获到近月距 r_p=1738 km 的擦月面环月轨道所需 ΔV）：二体模型 695.7 m/s、Hill 模型 656.8 m/s、CR3BP 649.2 m/s、双圆四体模型最低 642.9 m/s——太阳摄动使捕获能量低于三体模型值（徐明 2010）。
 
-- **转移时间较长**：相比直接转移，弹道捕获通常需要更长的转移时间
-- **远地点设计**：转移轨道的远地点需足够大，使太阳扰动力能够有效改变轨道根数
-- **近月点自由**：捕获后的近月点高度取决于转移轨道的几何参数
-- **临时捕获**：弹道捕获形成的绕月轨道通常是临时的，需要后续机动维持或进一步调整
+## 谱系与任务
 
-### 与霍曼转移的比较
+- **月面弹道谱系（Anderson & Parker 2012）**：地到月面的弹道轨迹构成连续谱——飞行时间从 Apollo 式直接转移的 3.4 天到低能转移的 101 天；太阳摄动使直到雅可比常数 C≈3.16 仍存在源自地球的轨迹（无太阳时 C=2.8 以上即无）；月面大部分区域物理可达。
+- **任务**：Hiten（1991，首个弹道捕获转移）；GRAIL（2011，双星先后从低能转移直接插入月球轨道）；ARTEMIS（2010，「近弹道」转移——含一系列升轨机动、月球借力与修正机动，非严格无推力；Folta 2012）。
 
-弹道捕获相对于传统霍曼转移具有显著优势：
+## 非弹道对照
 
-- **速度增量节省**：弹道捕获可节省约 15% 的总速度增量 $\Delta V$
-- **无需捕获脉冲**：传统转移需在近月点施加制动脉冲进入绕月轨道，弹道捕获可省去此机动
-- **推进剂节省**：$\Delta V$ 的节省直接转化为推进剂的节省，降低发射质量或增加有效载荷
-- **转移时间代价**：弹道捕获的转移时间通常比霍曼转移长数天
+- **小推力螺旋捕获（Kluever 1995）**：LEO→LLO 最优低推力转移的末段——连续小推力制动、沿逐渐缩小的螺旋进入目标近月轨道（三段式「地球逃逸螺旋→跨月滑行→月捕获螺旋」）。它是小推力捕获，不是弹道捕获。
+- **非弹道捕获（Wang 2025，WSB 篇）**：DRO 捕获轨迹中二体能量大于零的捕获方式——雅可比能量较低时，轨迹在最终捕获前于 DRO 外停留一段时间，以非弹道方式进入。
 
-### 成功应用案例
+## 术语变体对照
 
-弹道捕获已在多次实际任务中得到验证：
-
-- **Hiten（1991）**：日本 ISAS 发射的 Hiten 卫星是首个成功应用弹道捕获的任务，Belbruno 利用 WSB 理论设计了拯救轨道
-- **GRAIL（2011）**：NASA 的重力恢复与内部实验室任务采用弹道捕获方式进入月球轨道
-- **SMART-1**：ESA 的月球探测器也采用了低能量转移策略
-
-## 应用价值
-
-弹道捕获轨道在月球探测中具有重要的工程应用价值：
-
-- **低成本月球探测**：$\Delta V$ 节省降低了任务对运载能力的要求
-- **小卫星和立方体月球任务**：弹道捕获使小型探测器的月球任务成为可能
-- **货运任务优化**：对于不要求快速到达的货运任务，弹道捕获可大幅降低运输成本
-- **多目标任务**：节省的推进剂可用于增加科学载荷或延长任务寿命
+| 术语 | 含义 | 出处 |
+|------|------|------|
+| 弹道捕获转移 | 以弹道捕获收尾的地月转移 | Belbruno & Miller 1993 |
+| 捕获轨道（capture orbit） | Conley 长期行为分类中的一类 | Conley 1968 |
+| 暂时 / 永久弹道捕获 | H₂≤0 的时间区间有限 / 无限 | Topputo 2013 |
+| 捕获弧 / 逃逸弧 | 沿 L2 稳定流形进入 / 沿 L1 不稳定流形离开的弧段 | Pergola 2010 |
+| 月面弹道轨迹 | 地到月面的弹道轨迹谱系（3.4~101 天） | Anderson & Parker 2012 |
+| 月球捕获窗口 | 由太阳相位与 Halo 相位决定的捕获时机集合 | 徐明 2010 |
+| 非弹道捕获 | 二体能量大于零的 DRO 捕获方式 | Wang 2025 |
 
 ## 相关概念
 
-- [弱稳定边界（Weak Stability Boundary）](/glossary/other/weak-stability-boundary/)
-- [月球引力辅助（Lunar Gravity Assist）](/glossary/other/lunar-gravity-assist/)
-- [低能量转移轨道（Low-Energy Transfer Orbit）](/glossary/orbits/low-energy-transfer/)
-- [转移轨道（Transfer Orbit）](/glossary/orbits/transfer-orbit/)
+- [低能转移（Low-Energy Transfer）](/glossary/orbits/low-energy-transfer/)
+- [弱稳定边界转移轨道（Weak Stability Boundary Transfer Trajectory）](/glossary/orbits/weak-stability-boundary-transfer-trajectory/)
+- [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
+- [远距离逆行轨道（Distant Retrograde Orbit, DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)
 
 ## 参考文献
 
-- Belbruno E A. Capture Dynamics and Chaotic Motions in Celestial Mechanics[M]. Princeton University Press, 2004.
-- Belbruno E, Miller J. Sun-perturbed Earth-to-Moon transfers with ballistic capture[J]. Journal of Guidance, Control, and Dynamics, 1993, 16(4): 770-775.
-- Campagnola S, Boutonnet A, Schoenmaekers J, et al. Tisserand-leveraging transfers[J]. Journal of Guidance, Control, and Dynamics, 2014.
+- Conley, 1968, Low energy transit orbits in the restricted three-body problem
+- Belbruno & Miller, 1993, Sun-perturbed Earth-to-Moon transfers with ballistic capture
+- Kluever & Pierson, 1995, Optimal low-thrust three-dimensional Earth–Moon trajectories
+- Fantino et al., 2010, A note on libration point orbits, temporary capture and low-energy transfers
+- Pergola et al., 2010, Three-body invariant manifold transition with electric propulsion
+- Belbruno, Gidea & Topputo, 2010, Weak stability boundary and invariant manifolds
+- 徐明, 2010, 地月低能转移的发生条件及轨迹构造
+- Anderson & Parker, 2012, Survey of ballistic transfers to the lunar surface
+- Folta et al., 2012, ARTEMIS 转移设计相关研究
+- Topputo, 2013, On optimal two-impulse Earth–Moon transfers in a four-body model
+- Ross et al., 2022, Dynamical Systems, the Three-Body Problem, and Space Mission Design
+- Wang et al., 2025, Mechanism and characteristics analysis of weak stability boundary transfers to the 2:1 DRO

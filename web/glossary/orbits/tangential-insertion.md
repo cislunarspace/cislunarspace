@@ -40,10 +40,10 @@ permalink: /glossary/orbits/tangential-insertion/
 
 ## 相关概念
 
-- [低能月球转移轨道（Low-Energy Lunar Transfer）](/glossary/orbits/low-energy-lunar-transfer/)
-- [内外侧转移（Inner and Outer Transfer）](/glossary/orbits/inner-and-outer-transfer/)
-- [调相轨迹（Phasing Trajectory）](/glossary/orbits/phasing-trajectory/)
-- [近火卫点距离（Periapsis Distance）](/glossary/orbits/periapsis-distance/)
+- [低能月球转移轨道（Low-Energy Lunar Transfer）](/glossary/orbits/low-energy-transfer/)
+- [内外侧转移（Inner and Outer Transfer）](/glossary/orbits/low-energy-transfer/)
+- 调相轨迹（Phasing Trajectory）
+- 近火卫点距离（Periapsis Distance）
 
 ## 参考文献
 

@@ -38,10 +38,10 @@ This concept has practical applications in cislunar space science and engineerin
 
 ## Related Concepts
 
-- [Low-Energy Lunar Transfer](/en/glossary/orbits/low-energy-lunar-transfer/)
-- [Inner and Outer Transfer](/en/glossary/orbits/inner-and-outer-transfer/)
-- [Phasing Trajectory](/en/glossary/orbits/phasing-trajectory/)
-- [Periapsis Distance](/en/glossary/orbits/periapsis-distance/)
+- [Low-Energy Lunar Transfer](/en/glossary/orbits/low-energy-transfer/)
+- [Inner and Outer Transfer](/en/glossary/orbits/low-energy-transfer/)
+- Phasing Trajectory
+- Periapsis Distance
 
 ## References
 

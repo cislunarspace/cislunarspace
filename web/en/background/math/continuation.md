@@ -47,7 +47,7 @@ Arc-length continuation extends the shooting method from single-orbit solving to
 ## Related Concepts
 
 - [Shooting Method](./shooting-method/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/dro/)
+- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/distant-retrograde-orbit-dro/)
 - [Near-Rectilinear Halo Orbit (NRHO)](/en/glossary/orbits/nrho/)
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 

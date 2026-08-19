@@ -1,118 +1,96 @@
 ---
-title: Heteroclinic Orbit Transfer (Heteroclinic Orbit Transfer)
-description: Detailed analysis of heteroclinic orbit definition, application in libration point transfer, and its position in the Interplanetary Superhighway theory
-keywords: Heteroclinic Orbit, Interplanetary Superhighway, Low-energy Transfer, Libration Point, Halo Orbit, Invariant Manifold
+title: Heteroclinic Orbit Transfer (Heteroclinic Orbit Transfer / Homoclinic Connections)
+description: "Heteroclinic and homoclinic connections between libration-point periodic orbits in the restricted three-body problem: definition, Poincaré-section intersection, phasing strategies, and the Interplanetary Superhighway."
+keywords: Heteroclinic Orbit, Homoclinic Orbit, Heteroclinic Connection, Homoclinic Connection, Phasing, Interplanetary Superhighway, Low-Energy Transfer
 author: Tianjiang Shuo
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-09
 wechatShare:
   title: Heteroclinic Orbit Transfer (Heteroclinic Orbit Transfer)
-  desc: Cislunar space research frontiers, terminology definitions, and tool resources in one-stop learning.
+  desc: Manifold-tube intersections, heteroclinic/homoclinic connections, and the interplanetary superhighway.
   image: /logo.png
 og:
-  title: "Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway Theory"
-  description: Detailed analysis of heteroclinic orbit definition, application in libration point transfer, and its position in the Interplanetary Superhighway theory
+  title: Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway
+  description: Heteroclinic and homoclinic connections between libration-point periodic orbits in the restricted three-body problem, including Poincaré-section intersection and phasing.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: "Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway Theory"
-  description: Detailed analysis of heteroclinic orbit definition, application in libration point transfer, and its position in the Interplanetary Superhighway theory
+  title: Heteroclinic Orbit Transfer Explained | Interplanetary Superhighway
+  description: Heteroclinic and homoclinic connections between libration-point periodic orbits in the restricted three-body problem, including Poincaré-section intersection and phasing.
   image: /logo.png
 permalink: /en/glossary/dynamics/heteroclinic-orbit-transfer/
 ---
 
-# Heteroclinic Orbit Transfer
+# Heteroclinic Orbit Transfer (Heteroclinic Orbit Transfer / Homoclinic Connections)
 
-> Editor Source: 郭建宇 (2020) "基于双基不变流形法的平动点轨道设计及保持策略研究"
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
 > Website: [https://cislunarspace.cn](https://cislunarspace.cn)
 
 ## Definition
 
-A heteroclinic orbit is an orbit connecting two different equilibrium points of a dynamical system. In the Circular Restricted Three-Body Problem (CR3BP), heteroclinic orbits connect two different libration points (such as L1 and L2), or connect libration points with periodic orbits. Transfer along heteroclinic orbits is an extremely low-energy transfer method, regarded as an important component of the "Interplanetary Superhighway."
+A **heteroclinic orbit** connects two different invariant sets (equilibrium points or periodic orbits); if the departure and arrival sets are the same, the orbit is called **homoclinic**. In the CR3BP, heteroclinic connections commonly appear as geometric intersections of the stable manifold of one libration-point periodic orbit with the unstable manifold of another (Koon et al. 1999).
 
-## Theoretical Foundation
+Let $\mathcal{A}$ and $\mathcal{B}$ be two periodic orbits and denote by $\mathcal{H}_{\mathcal{AB}}$ a heteroclinic orbit from $\mathcal{A}$ to $\mathcal{B}$. Then
 
-### Mathematical Definition of Heteroclinic Orbits
+$$\lim_{t\to-\infty}\phi^t(x)\to\mathcal{A},\qquad \lim_{t\to+\infty}\phi^t(x)\to\mathcal{B}.$$
 
-In dynamical systems theory, a heteroclinic orbit satisfies:
+When both $\mathcal{H}_{\mathcal{AB}}$ and $\mathcal{H}_{\mathcal{BA}}$ exist, they form a **heteroclinic cycle**. A homoclinic orbit $\mathcal{H}_{\mathcal{AA}}$ is already a cycle by itself.
 
-$$\lim_{t \to -\infty} x(t) = L_i, \quad \lim_{t \to +\infty} x(t) = L_j$$
+## Intersection via Poincaré Sections
 
-Where $L_i$ and $L_j$ are two different equilibrium points (libration points). When $i = j$, it is called a homoclinic orbit.
+A heteroclinic connection corresponds to a transverse intersection of two manifold tubes. Directly intersecting two 2-D tubes in 6-D phase space is difficult. Using the Jacobi integral reduces the space to 5-D; taking a transverse **Poincaré section** reduces the intersection of each tube with the section to a 1-D curve, and the intersection of two curves yields candidate heteroclinic connections (Koon et al. 1999).
 
-### Existence in CR3BP
+For example, to construct a connection from an $L_2$ periodic orbit to an $L_1$ periodic orbit:
 
-The existence of heteroclinic orbits between collinear libration points in the Earth-Moon system has been proven. These heteroclinic orbits travel along channels formed by unstable manifolds connecting two libration points.
+1. Compute the unstable manifold of the $L_2$ orbit and integrate it forward to the section;
+2. Compute the stable manifold of the $L_1$ orbit and integrate it backward to the same section;
+3. Locate intersections of the two resulting curves on the section;
+4. Integrate forward and backward from the intersection and differentially correct to obtain the heteroclinic orbit.
 
-## Transfer Mechanism
+This reduction from a surface-surface intersection problem to a curve-curve intersection problem is the core of the space-manifold-dynamics design approach.
 
-### Using Heteroclinic Orbits for Transfer
+## Homoclinic / Heteroclinic Phasing
 
-In 郭建宇 (2020)'s research, a heteroclinic orbit was used to find a path from Earth orbit to a Halo periodic orbit near the Earth-Moon L2 libration point:
+Homoclinic and heteroclinic connections can also be used for **indirect phasing**. A spacecraft leaves a target orbit along its unstable manifold, evolves along a connecting orbit, and returns along the stable manifold of another (or the same) periodic orbit. By choosing different connection combinations, a desired phase shift can be accumulated while paying only the small impulses needed to enter and exit the libration-point orbits.
 
-1. Depart from Earth orbit, apply initial impulse to enter heteroclinic orbit
-2. Evolve naturally along heteroclinic orbit, no additional propellant needed
-3. Orbit naturally connects to Halo periodic orbit near L2 point
-4. Captured by target periodic orbit
+## Interplanetary Superhighway and Mission Examples
 
-### Relationship with Invariant Manifolds
+The network formed by libration-point manifold tubes together with their heteroclinic and homoclinic connections is called the **Interplanetary Superhighway**. Its characteristics include:
 
-Heteroclinic orbits are essentially a special form of invariant manifolds:
+- **Low energy**: trajectories follow natural dynamical channels with very small fuel cost;
 
-| Orbit Type | Start Point | End Point |
-| :--- | :--- | :--- |
-| Homoclinic orbit | Libration point $L_i$ | Libration point $L_i$ (self) |
-| Heteroclinic orbit | Libration point $L_i$ | Libration point $L_j$ (different) |
-| Periodic orbit | Libration point $L_i$ | Libration point $L_i$ (homoclinic special case) |
+- **Networked**: manifolds of different systems splice together, forming a solar-system-scale transfer network;
 
-## Interplanetary Superhighway
+- **Long time scales**: transfer times are often measured in months or years rather than days.
 
-Heteroclinic orbits are core components of the "Interplanetary Superhighway" theory. Martin Lo proposed that using invariant manifolds at libration points and heteroclinic orbits, a low-energy transfer network connecting various planetary orbits in the solar system can be constructed.
-
-### Interplanetary Superhighway Characteristics
-
-- **Low energy**: Using natural dynamical channels significantly reduces transfer energy requirements
-- **Networked**: Manifolds at various libration points interconnect, forming a transfer network
-- **Time scale**: Transfer time may be very long (months to years)
-
-## Application Value
-
-Heteroclinic orbit transfers provide extremely low-energy transfer solutions for deep space exploration:
-
-| Application | Description |
-| :--- | :--- |
-| Cislunar missions | Low-energy transfer from Earth orbit to L2 Halo orbit |
-| Mars exploration | Low-energy transfer design using Sun-Mars L1/L2 heteroclinic orbits |
-| Asteroid exploration | Multi-target exploration missions using heteroclinic orbits |
-| Deep space navigation | As "main roads" for interplanetary routes |
-
-## Core Elements
-
-### Mathematical Definition
-
-A heteroclinic orbit connects two different equilibrium points of a dynamical system; in CR3BP, it connects two different libration points or a libration point with a periodic orbit.
-
-### Key Properties
-
-Transfer along heteroclinic orbits requires no or minimal energy consumption, making it an important approach for low-energy deep space transfers.
-
-### Numerical Methods
-
-Computing heteroclinic orbits requires precise numerical integration of invariant manifolds, along with detection and verification of homoclinic/heteroclinic orbits.
+A canonical example is the Genesis return trajectory. The spacecraft moved from a Sun–Earth $L_1$ halo orbit through an $L_2$-region heteroclinic cycle and back to the $L_1$ neighborhood, covering millions of kilometers with only a few m/s of deterministic $\Delta V$ (Koon et al. 1999; Lo 2002).
 
 ## Related Concepts
 
-- [Primary Impulse Orbit Transfer](/en/glossary/orbits/primary-impulse-transfer/)
-- [Invariant Manifold](/en/glossary/dynamics/central-manifold/)
-- [Libration Point](/en/glossary/dynamics/libration-point/)
-- [Interplanetary Superhighway](/en/glossary/orbits/low-energy-transfer/)
-- [Low Energy Transfer Orbit](/en/glossary/orbits/low-energy-transfer/)
+- [Invariant Manifold](/en/glossary/dynamics/invariant-manifold/)
+
+- [Poincaré Section](/en/glossary/dynamics/poincare-section/)
+
 - [Halo Orbit](/en/glossary/orbits/halo-orbit/)
+
+- [Lyapunov Orbit](/en/glossary/orbits/lyapunov-orbit/)
+
+- [Weak Stability Boundary (WSB)](/en/glossary/dynamics/wsb/)
+
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 
 ## References
 
-- 郭建宇. 基于双基不变流形法的平动点轨道设计及保持策略研究[D]. 北京工业大学, 2020.
-- Martin Lo W. The Interplanetary Superhighway and the Genesis Mission[R]. JPL, 2002.
-- Koon W S, Lo M W, Marsden J E, et al. Dynamical systems, the three-body problem and space mission design[J]. 2006.
+- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D. (1999). The Genesis trajectory and heteroclinic connections.
+
+- Koon, W. S., Lo, M. W., Marsden, J. E., & Ross, S. D. (2006/2011). *Dynamical systems, the three-body problem and space mission design*.
+
+- Lo, M. W. (2002). The Interplanetary Superhighway and the Genesis Mission. JPL.
+
+- Gómez, G., et al. (2001). *Invariant manifolds, the spatial three-body problem and space mission design*.
+
+- Ren, Y., et al. (2011). On the mechanisms of natural transport in the solar system.
+
+- Guo, J. (2020). Libration-point orbit design and maintenance based on double-baseline invariant manifolds. Beijing University of Technology.

@@ -80,7 +80,7 @@ $$\mathbf{q} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{q}} V} \mathbf{q} \qua
 ## 相关概念
 
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
-- [星历模型（Ephemeris Model）](/glossary/dynamics/ephemeris-model/)
+- 星历模型（Ephemeris Model）
 - [打靶法（Shooting Method）](./shooting-method/)
 
 ## 参考文献

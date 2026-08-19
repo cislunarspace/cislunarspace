@@ -39,9 +39,9 @@ Eigenvalues of the monodromy matrix C in Floquet theory. Characteristic multipli
 ## Related Concepts
 
 - [对偶控制变换（Adjoint-Control Transformation）](/en/glossary/dynamics/adjoint-control-transformation/)
-- [贝叶斯压缩感知（Bayesian Compressive Sensing）](/en/glossary/dynamics/bayesian-compressive-sensing/)
+- 贝叶斯压缩感知（Bayesian Compressive Sensing）
 - [Lyapunov轨道（Lyapunov Orbit）](/en/glossary/orbits/lyapunov-orbit/)
-- [状态转移矩阵（State Transition Matrix）](/en/glossary/dynamics/state-transition-matrix/)
+- 状态转移矩阵（State Transition Matrix）
 
 ## References
 

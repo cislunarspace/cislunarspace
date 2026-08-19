@@ -3,6 +3,7 @@ import { ref, computed, onMounted, watch, h } from 'vue';
 import {
   NRadioGroup,
   NRadioButton,
+  NRadio,
   NInput,
   NSelect,
   NButton,
@@ -49,6 +50,9 @@ async function load() {
   try {
     const data = await api.listContents(type.value, { q: q.value.trim(), cat: cat.value });
     items.value = data.items || [];
+    // 过滤后可能选中了已不可见的行，清掉避免误操作
+    const keys = new Set(items.value.map((it) => it.pairKey));
+    checkedRowKeys.value = checkedRowKeys.value.filter((k) => keys.has(k));
   } catch (err) {
     error.value = err.message;
     items.value = [];
@@ -67,6 +71,7 @@ onMounted(reloadAll);
 function switchType(t) {
   type.value = t;
   cat.value = '';
+  checkedRowKeys.value = [];
   reloadAll();
 }
 
@@ -81,6 +86,13 @@ const catOptions = computed(() =>
   categories.value.map((c) => ({ label: `${c.name}（${c.count}）`, value: c.name }))
 );
 
+// ---------- 多选与批量删除 ----------
+const checkedRowKeys = ref([]);
+
+const selectedItems = computed(() =>
+  items.value.filter((it) => checkedRowKeys.value.includes(it.pairKey))
+);
+
 // ---------- 删除流程 ----------
 const showModal = ref(false);
 const preview = ref(null);
@@ -88,8 +100,8 @@ const previewLoading = ref(false);
 const deleting = ref(false);
 const deletePaths = ref([]);
 
-async function openDelete(item) {
-  const paths = [item.zh?.relPath, item.en?.relPath].filter(Boolean);
+async function startDelete(paths) {
+  if (!paths.length) return;
   deletePaths.value = paths;
   previewLoading.value = true;
   showModal.value = true;
@@ -104,6 +116,14 @@ async function openDelete(item) {
   }
 }
 
+function openDelete(item) {
+  startDelete([item.zh?.relPath, item.en?.relPath].filter(Boolean));
+}
+
+function openBatchDelete() {
+  startDelete(selectedItems.value.flatMap((it) => [it.zh?.relPath, it.en?.relPath].filter(Boolean)));
+}
+
 async function confirmDelete() {
   deleting.value = true;
   try {
@@ -115,6 +135,7 @@ async function confirmDelete() {
     } else {
       message.success(`${text}，回收站：${data.trashDir}`);
     }
+    checkedRowKeys.value = [];
     await load();
     showModal.value = false;
   } catch (err) {
@@ -124,11 +145,78 @@ async function confirmDelete() {
   }
 }
 
+// ---------- 拖动修改分类 ----------
+const dragging = ref(false);
+const dragKeys = ref([]); // 正在拖动的条目 pairKey 列表
+const hoverCat = ref(''); // 拖动悬停的分类
+
+function rowProps(item) {
+  if (type.value === 'kb') return {};
+  return {
+    draggable: true,
+    onDragstart: (e) => {
+      // 拖已选中的行 → 拖动整个选中集；否则只拖这一行
+      dragKeys.value = checkedRowKeys.value.includes(item.pairKey)
+        ? [...checkedRowKeys.value]
+        : [item.pairKey];
+      dragging.value = true;
+      e.dataTransfer?.setData('text/plain', dragKeys.value.join('\n'));
+      if (e.dataTransfer) e.dataTransfer.effectAllowed = 'move';
+    },
+    onDragend: () => {
+      dragging.value = false;
+      hoverCat.value = '';
+    },
+  };
+}
+
+const showAssignModal = ref(false);
+const assignTarget = ref('');
+const assignMode = ref('replace');
+const assignBusy = ref(false);
+
+function onDropCategory(catName) {
+  dragging.value = false;
+  hoverCat.value = '';
+  if (!dragKeys.value.length) return;
+  assignTarget.value = catName;
+  assignMode.value = 'replace';
+  showAssignModal.value = true;
+}
+
+async function confirmAssign() {
+  assignBusy.value = true;
+  try {
+    const dragged = items.value.filter((it) => dragKeys.value.includes(it.pairKey));
+    const paths = dragged.flatMap((it) => [it.zh?.relPath, it.en?.relPath].filter(Boolean));
+    const r = await api.assignCategory(type.value, paths, assignTarget.value, assignMode.value);
+    const n = r.changed?.length ?? r.moved?.length ?? 0;
+    const skip = (r.unchanged?.length ?? 0) + (r.skipped?.length ?? 0);
+    let text = `已修改 ${n} 个文件`;
+    if (skip) text += `，跳过 ${skip}`;
+    if (r.errors?.length) text += `，失败 ${r.errors.length}`;
+    if (r.genSidebar && !r.genSidebar.ok) {
+      message.warning(`${text}；但 gen-sidebar 失败：${r.genSidebar.message || ''}`);
+    } else {
+      message.success(text);
+    }
+    showAssignModal.value = false;
+    checkedRowKeys.value = [];
+    await reloadAll();
+  } catch (err) {
+    message.error(err.message);
+  } finally {
+    assignBusy.value = false;
+  }
+}
+
 // ---------- 分类管理 ----------
 const showCatModal = ref(false);
 const catMode = ref('add'); // add | delete
 const catType = ref('news');
 const catName = ref('');
+const catParent = ref(null); // glossary 子分类的父分类（null = 顶级）
+const catLabelZh = ref(''); // glossary 分类的中文名（注册 taxonomy 用）
 const catDeleteEntries = ref(false);
 const catTarget = ref('');
 const catBusy = ref(false);
@@ -138,6 +226,8 @@ function openCatManager(t) {
   catType.value = t;
   catMode.value = 'add';
   catName.value = '';
+  catParent.value = null;
+  catLabelZh.value = '';
   catDeleteEntries.value = false;
   catTarget.value = '';
   catMsg.value = null;
@@ -149,8 +239,12 @@ async function submitCategory() {
   catMsg.value = null;
   try {
     if (catMode.value === 'add') {
-      await api.addCategory(catType.value, catName.value);
-      message.success(`已添加分类：${catName.value}`);
+      const opts =
+        catType.value === 'glossary'
+          ? { parent: catParent.value || '', labelZh: catLabelZh.value.trim() }
+          : {};
+      const r = await api.addCategory(catType.value, catName.value, opts);
+      message.success(`已添加分类：${r.slug || catName.value}`);
       showCatModal.value = false;
     } else {
       const opts = {};
@@ -238,7 +332,16 @@ function statusKey(item) {
   return 'normal';
 }
 
+// 条目在各类型下的展示分类：news 用 frontmatter category 标签，
+// glossary / kb 用所在目录（scan.js 的 section 字段）
+function displayCats(item) {
+  const side = item.zh || item.en || {};
+  if (type.value === 'news') return side.category || [];
+  return side.section ? [side.section] : [];
+}
+
 const columns = computed(() => [
+  { type: 'selection' },
   {
     title: '标题',
     key: 'title',
@@ -261,10 +364,9 @@ const columns = computed(() => [
     key: 'category',
     filterMultiple: true,
     filterOptions: categories.value.map((c) => ({ label: `${c.name}（${c.count}）`, value: c.name })),
-    filter: (value, item) =>
-      (item.zh?.category || item.en?.category || []).includes(value),
+    filter: (value, item) => displayCats(item).includes(value),
     render(item) {
-      const cats = item.zh?.category || item.en?.category || [];
+      const cats = displayCats(item);
       if (!cats.length) return h('span', { class: 'muted' }, '—');
       return h(
         'div',
@@ -373,6 +475,12 @@ const columns = computed(() => [
         @update:value="load"
       />
 
+      <template v-if="checkedRowKeys.length">
+        <n-tag :bordered="false" type="primary">已选 {{ checkedRowKeys.length }} 条</n-tag>
+        <n-button size="small" type="error" ghost @click="openBatchDelete">批量删除</n-button>
+        <n-button size="small" text @click="checkedRowKeys = []">清除</n-button>
+      </template>
+
       <div class="toolbar-spacer"></div>
 
       <n-button v-if="type === 'news' || type === 'glossary'" @click="openCatManager(type)">
@@ -384,17 +492,77 @@ const columns = computed(() => [
 
     <n-alert v-if="error" type="error" style="margin-bottom: 12px">{{ error }}</n-alert>
 
+    <!-- 拖动时浮现的分类放置条 -->
+    <div v-if="dragging" class="drop-bar">
+      <span class="drop-bar-label">拖到目标分类（{{ dragKeys.length }} 条）：</span>
+      <span
+        v-for="c in categories"
+        :key="c.name"
+        class="drop-target"
+        :class="{ 'drop-target-hover': hoverCat === c.name }"
+        @dragover.prevent
+        @dragenter.prevent="hoverCat = c.name"
+        @dragleave="hoverCat = ''"
+        @drop.prevent="onDropCategory(c.name)"
+      >
+        {{ c.name }}（{{ c.count }}）
+      </span>
+    </div>
+
     <n-data-table
       :columns="columns"
       :data="items"
       :loading="loading"
       :row-key="(item) => item.pairKey"
+      :checked-row-keys="checkedRowKeys"
+      :row-props="rowProps"
       size="small"
       :scroll-x="900"
+      @update:checked-row-keys="(keys) => (checkedRowKeys = keys)"
     />
 
     <!-- 整站效果预览弹窗 -->
     <SitePreviewModal v-model:show="showSitePreview" :path="previewPath" />
+
+    <!-- 拖动修改分类确认弹窗 -->
+    <n-modal
+      v-model:show="showAssignModal"
+      preset="card"
+      title="修改分类"
+      style="max-width: 520px"
+    >
+      <p style="margin-top: 0; font-size: 13px">
+        将 <strong>{{ dragKeys.length }}</strong> 个条目（含中英镜像）归入分类
+        <n-tag size="small" :bordered="false" style="margin: 0 2px">{{ assignTarget }}</n-tag>
+      </p>
+      <template v-if="type === 'news'">
+        <div class="scope-line" style="margin-bottom: 6px">
+          文章可有多个标签，选择处理方式：
+        </div>
+        <n-radio-group v-model:value="assignMode">
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <n-radio value="replace">
+              替换为该分类 <span class="muted">（移除原有标签）</span>
+            </n-radio>
+            <n-radio value="append">
+              追加该标签 <span class="muted">（保留原有标签）</span>
+            </n-radio>
+          </div>
+        </n-radio-group>
+      </template>
+      <n-alert v-else type="info">
+        条目文件将移动到 <code>glossary/{{ assignTarget }}/</code>（中英镜像一起），
+        <code>glossary/README.md</code> 索引同步更新。
+      </n-alert>
+      <template #footer>
+        <div style="display: flex; justify-content: flex-end; gap: 10px">
+          <n-button @click="showAssignModal = false">取消</n-button>
+          <n-button type="primary" :loading="assignBusy" @click="confirmAssign">
+            确认修改
+          </n-button>
+        </div>
+      </template>
+    </n-modal>
 
     <!-- 删除确认弹窗 -->
     <n-modal
@@ -483,11 +651,24 @@ const columns = computed(() => [
       </n-radio-group>
 
       <template v-if="catMode === 'add'">
+        <div v-if="catType === 'glossary'" style="margin-bottom: 10px">
+          <div class="scope-line" style="margin-bottom: 6px">父分类（不选 = 顶级分类）</div>
+          <n-select
+            v-model:value="catParent"
+            clearable
+            placeholder="顶级分类"
+            :options="catOptions.filter((o) => !o.value.includes('/'))"
+          />
+        </div>
         <div style="margin-bottom: 10px">
           <div class="scope-line" style="margin-bottom: 6px">
             新分类名（英文 kebab-case，如 <code>deep-space</code>）
           </div>
           <n-input v-model:value="catName" placeholder="输入分类名…" />
+        </div>
+        <div v-if="catType === 'glossary'" style="margin-bottom: 10px">
+          <div class="scope-line" style="margin-bottom: 6px">中文名（显示在站点侧边栏）</div>
+          <n-input v-model:value="catLabelZh" placeholder="缺省用分类名" />
         </div>
         <n-alert type="info">
           <template v-if="catType === 'news'">
@@ -496,7 +677,8 @@ const columns = computed(() => [
           </template>
           <template v-else>
             添加 glossary 分类会创建 <code>web/glossary/&lt;name&gt;/</code> 与
-            <code>web/en/glossary/&lt;name&gt;/</code> 两个空目录。
+            <code>web/en/glossary/&lt;name&gt;/</code> 目录（子分类则在父分类目录下），
+            并在 <code>taxonomy/data.ts</code> 注册节点，站点侧边栏即可显示。
           </template>
         </n-alert>
       </template>

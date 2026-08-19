@@ -120,15 +120,15 @@ for locale in ['space-news', 'en/space-news']:
 
 ```bash
 cd /home/ouyangjiahong/codes/cislunarspace/web
-npm run docs:build
+npm run build
 ```
 
-`docs:build` 应完成：生成索引 → VuePress build → `sync-figures.js`。构建产物在 `web/.vuepress/dist/`。
+`build` 应完成：生成索引 → VuePress build → `sync-figures.js`。构建产物在 `web/.vuepress/dist/`。
 
 需要更长超时：
 
 ```bash
-NODE_OPTIONS='--max-old-space-size=65536' npm run docs:build
+NODE_OPTIONS='--max-old-space-size=65536' npm run build
 ```
 
 ### 构建成功但内容错位
@@ -149,7 +149,7 @@ fgrep -c "English distinctive keyword" \
 rm -rf /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/.temp \
        /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/.cache \
        /home/ouyangjiahong/codes/cislunarspace/web/.vuepress/dist
-cd /home/ouyangjiahong/codes/cislunarspace/web && npm run docs:build
+cd /home/ouyangjiahong/codes/cislunarspace/web && npm run build
 ```
 
 ## 5. 去重判断

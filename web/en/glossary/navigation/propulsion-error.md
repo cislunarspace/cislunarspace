@@ -38,10 +38,10 @@ The deviation of actual thrust output from commanded thrust, caused by manufactu
 
 ## Related Concepts
 
-- [Simplified Kinematic Orbit Determination](/en/glossary/navigation/simplified-kinematic-orbit-determination/)
-- [Delayed Measurement Fusion](/en/glossary/navigation/delayed-measurement-fusion/)
-- [Proximity Navigation](/en/glossary/navigation/proximity-navigation/)
-- [Velocity-to-be-Gained Guidance](/en/glossary/navigation/velocity-to-be-gained-guidance/)
+- Simplified Kinematic Orbit Determination
+- Delayed Measurement Fusion
+- Proximity Navigation
+- Velocity-to-be-Gained Guidance
 
 ## References
 

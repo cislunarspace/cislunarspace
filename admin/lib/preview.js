@@ -1,7 +1,7 @@
 /**
  * 整站预览模块
  *
- * 预览依赖 web/ 下的 VuePress dev server（npm run docs:dev，默认 8080 端口）。
+ * 预览依赖 web/ 下的 VuePress dev server（npm run dev，默认 8080 端口）。
  * 本模块负责：探测 dev server 是否在跑、一键拉起、md 路径 → 站点路由映射。
  * dev server 作为 admin 的子进程运行，admin 退出时随之结束。
  */
@@ -47,7 +47,7 @@ export async function start() {
   starting = (async () => {
     fs.mkdirSync(LOG_DIR, { recursive: true });
     const out = fs.openSync(LOG_FILE, 'a');
-    child = spawn('npm', ['run', 'docs:dev'], {
+    child = spawn('npm', ['run', 'dev'], {
       cwd: WEB_ROOT,
       stdio: ['ignore', out, out],
       // 不 detach：作为 admin 的子进程，admin 退出时一起结束

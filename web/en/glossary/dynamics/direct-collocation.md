@@ -1,90 +1,102 @@
 ---
 title: Direct Collocation
-description: Direct Collocation is a trajectory optimization method that discretizes continuous optimal control problems into nonlinear programming problems for numerical solution, widely used in low-thrust transfer trajectory design
-keywords: Direct Collocation, trajectory optimization, nonlinear programming, low-thrust, Hermite-Simpson, collocation method, optimal control, boundary value problem
+description: "The most widely used direct method: low-degree piecewise polynomials (trapezoidal, Hermite-Simpson, fifth-order Gauss-Lobatto) interpolate the state on each sub-interval; dynamics enforced at collocation points yield sparse defect constraints. Covers the math of defect constraints, format selection, mesh refinement, knots, scaling, and comparison with pseudospectral and shooting methods."
+keywords: Direct Collocation, Direct Transcription, DCNLP, Defect Constraint, Hermite-Simpson, Trapezoidal, Gauss-Lobatto, NLP, sparse
 author: Tianjiang Shuo
-date: 2026-04-27
-lastUpdated: 2026-04-27
-og:
+date: 2026-07-31
+lastUpdated: 2026-08-09
+wechatShare:
   title: Direct Collocation
-  description: Discretizing continuous optimal control problems into NLPs for trajectory optimization
+  desc: Sparse-defect transcription of optimal control into NLPs — formats, mesh refinement, applications.
+  image: /logo.png
+og:
+  title: Direct Collocation Explained | Trajectory Optimization
+  description: The most widely used direct method. Low-degree piecewise polynomials interpolate the state, dynamics enforced at collocation points yield sparse defect constraints. Hermite-Simpson, trapezoidal, fifth-order Gauss-Lobatto, mesh refinement.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Direct Collocation
-  description: Discretizing continuous optimal control problems into NLPs for trajectory optimization
+  title: Direct Collocation Explained | Trajectory Optimization
+  description: The most widely used direct method. Low-degree piecewise polynomials interpolate the state, dynamics enforced at collocation points yield sparse defect constraints. Hermite-Simpson, trapezoidal, fifth-order Gauss-Lobatto, mesh refinement.
   image: /logo.png
 permalink: /en/glossary/dynamics/direct-collocation/
-wechatShare:
-  title: "Cislunar Space Guide | Direct Collocation"
-  desc: "Direct Collocation is a trajectory optimization method that discretizes continuous optimal control problems into nonlinear programming problems for numerical solution, widely used in low-thrust transfer trajectory design"
-  image: "/logo.png"
 ---
 
 # Direct Collocation
 
+> Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
+>
+> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
+
 ## Definition
 
-Direct Collocation is a class of methods that directly discretize Optimal Control Problems (OCP) into Nonlinear Programming Problems (NLP) for numerical solution. Unlike indirect methods that require analytical derivation of costate first-order optimality conditions, direct methods simultaneously discretize state and control variables through **collocation**, transforming the infinite-dimensional continuous OCP into a finite-dimensional NLP. It is currently one of the most widely used numerical methods in spacecraft trajectory optimization.
+Direct collocation (also called direct transcription, DCNLP) is the most widely used family of [direct methods](/en/glossary/dynamics/direct-methods/). The interval $[t_0,t_f]$ is divided into $N$ sub-intervals; on each sub-interval the state is interpolated by a low-degree piecewise polynomial and the control is discretized at the nodes. At collocation points within each sub-interval the dynamics $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$ are enforced. These collocation conditions are nonlinear algebraic constraints called *defect constraints*. Handing the defects, boundary conditions, path constraints, and the performance index to an NLP solver completes the transcription from the continuous OCP to a finite-dimensional NLP (Hargraves & Paris 1987; Betts 1998; Conway 2010).
 
-## Basic Principles
+## Mathematical form of defect constraints
 
-### Discretization Strategy
+Writing the $j$-th sub-interval $[t_j,t_{j+1}]$ with length $h_j=t_{j+1}-t_j$, the three most common collocation schemes are:
 
-In direct collocation, the transfer interval $[0, t_f]$ is divided into $N$ sub-intervals, with simultaneous satisfaction at collocation points in each sub-interval:
+- **Trapezoidal.** Linear state interpolation within the segment; defect
+$$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{2}\big[\mathbf{f}(\mathbf{x}_j,\mathbf{u}_j,t_j)+\mathbf{f}(\mathbf{x}_{j+1},\mathbf{u}_{j+1},t_{j+1})\big] = \mathbf{0}.$$
+Second-order accurate. Fewest NLP variables and sparsest Jacobian — useful for initial exploration.
 
-1. **State dynamics constraint**: Enforce $\dot{\mathbf{x}} = f(\mathbf{x}, \mathbf{u})$ at collocation points
-2. **Boundary conditions**: Initial state $\mathbf{x}(0) = \mathbf{x}_0$ and terminal constraint $\mathbf{x}(t_f) \in \mathcal{T}$
-3. **Path constraints**: Control constraints $\|\mathbf{u}\| \leq 1$, obstacle avoidance constraints, etc.
+- **Hermite-Simpson (separated form).** A midpoint state $\mathbf{x}_{j+1/2}$ is introduced; a cubic Hermite polynomial interpolates the state on the segment; the Simpson defect is enforced at the midpoint:
+$$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\mathbf{f}_j+4\mathbf{f}_{j+1/2}+\mathbf{f}_{j+1}\big] = \mathbf{0},$$
+with $\mathbf{f}_{j+1/2}=\mathbf{f}(\mathbf{x}_{j+1/2},\mathbf{u}_{j+1/2},t_{j+1/2})$ and the midpoint state given by Hermite interpolation. Third-order accurate. This is the default in Hargraves-Paris, OTIS, and many subsequent codes (Hargraves & Paris 1987; Betts 1998).
 
-### Hermite-Simpson Collocation
+- **Fifth-order Gauss-Lobatto (Herman-Conway).** Three collocation points per segment (including the endpoints) and a quintic polynomial. Fifth-order accurate, particularly useful for fast dynamics (e.g. coupled translational-rotational 6DOF), at the cost of more variables per segment (Herman & Conway 1996).
 
-The direct collocation implementation used in the A2PPO research employs the Hermite-Simpson collocation scheme:
+In every scheme, the defect $\boldsymbol{\zeta}_j=\mathbf{0}$ on segment $j$ couples only to the $O(n_x+n_u)$ variables at its two endpoints, so the global Jacobian is block-tridiagonal and sparse — this is what makes direct collocation tractable for tens of thousands of variables.
 
-- On each sub-interval $[t_i, t_{t+1}]$, state is interpolated using cubic Hermite polynomials
-- Dynamics defect constraints are enforced at the interval midpoint $t_{i+1/2}$
-- State accuracy at collocation points is third-order, defect constraint accuracy is third-order
+## Subtypes
 
-## Comparison with A2PPO
+By whether midpoint states are NLP variables:
 
-Ul Haq et al. (2026) used trajectories generated by the A2PPO policy as initial guesses for direct collocation, verifying consistency between the two across four scenarios:
+- **Hermite-Simpson separated (HSS).** Midpoint states are added as NLP variables; defects are equality constraints. Larger but sparser — usually preferred because NLP solvers exploit sparsity more than variable count.
+- **Hermite-Simpson compressed (HSC).** Midpoint states are eliminated algebraically; defects are written directly in endpoint variables. Fewer variables, denser Jacobian.
 
-| Scenario | A2PPO ToF (days) | Direct Collocation ToF (days) | A2PPO Fuel (kg) | Direct Collocation Fuel (kg) |
-| :--- | :---: | :---: | :---: | :---: |
-| S1 | 4.95 | 4.99 | 2.08 | 1.28 |
-| S2 | 8.38 | 7.26 | 5.00 | 5.29 |
-| S3 | 7.60 | 7.63 | 5.10 | 5.11 |
-| S4 | 33.6 | 33.12 | 0.97 | 0.97 |
+## Practical implementation
 
-Direct collocation typically achieves better fuel efficiency due to exploitation of complete continuous optimality conditions, but:
+- **Scaling.** State/control/time magnitudes in aerospace problems can span many orders of magnitude (cislunar distance vs. thrust acceleration). Without scaling the conditioning of the KKT system deteriorates badly. Normalization by nominal magnitude is standard (Betts 2010).
+- **Coordinate choice.** Cartesian coordinates perform poorly in NLPs — state variables change sign periodically and span large ranges. Switching to [orbital elements](/en/glossary/dynamics/orbital-coordinate-frames/) or equinoctial variables usually improves robustness significantly (Conway 2010, Ch. 3).
+- **Mesh refinement.** Begin with a coarse mesh (e.g. $N=20$), then refine based on per-segment error estimates — either by raising the order within a fixed segment (trapezoid → H-S → fifth-order G-L) or by inserting new nodes. Betts recommends at most five new nodes per original segment (Betts 2010).
+- **Knots.** State-discontinuous boundaries (sphere-of-influence transitions, gravity-assist flybys, stage separations) are inserted as zero-width segments; the collocation constraint there is replaced by nonlinear equations relating the left and right states (Conway 2010).
 
-- Requires good initial guesses (A2PPO provides high-quality initial solutions)
-- High computational cost, requiring re-solution for each transfer
-- Cannot be computed online in real-time
+## Comparison with pseudospectral and shooting
 
-A2PPO, after training, can perform real-time inference, providing near-instantaneous trajectory solutions.
+| Feature | Direct collocation | [Pseudospectral](/en/glossary/dynamics/pseudospectral-method/) | [Shooting](/en/glossary/dynamics/differential-correction/) |
+| :--- | :--- | :--- | :--- |
+| Polynomial | Piecewise low-order | Global high-order | No explicit parametrization |
+| Nodes / phase | tens–hundreds | tens–hundreds | only a few |
+| Jacobian sparsity | strong (block-tridiagonal) | weak (dense) | medium (block) |
+| Spectral convergence | no | yes | — |
+| Costate accuracy | coarse | accurate (covector mapping) | indirect native |
+| Best for | general transfers, 6DOF | smooth solutions needing costates | BVPs with good initial guess |
 
-## Direct vs. Indirect Methods
+## Applications
 
-| Property | Direct Collocation | Indirect Methods |
-| :--- | :--- | :--- |
-| Derivation difficulty | Lower (no analytical costate equations) | Higher (requires PMP derivation) |
-| Initial guess | More robust | Sensitive (to costate initial values) |
-| Solution accuracy | Higher | Extremely high (satisfies first-order optimality) |
-| Convergence | Better | Depends on initial guess quality |
-| Computational efficiency | Moderate (NLP solvers like Ipopt) | Higher (but narrow convergence basin) |
+- **Low-thrust transfers.** Earth-Moon low-energy transfers and transfers between libration-point orbits most often use direct collocation, with shape-based methods or [invariant-manifold](/en/glossary/dynamics/invariant-manifold/) stitching as the initial guess (Vellutini & Avanzini 2014).
+- **Multi-body and high-fidelity ephemeris.** Cartesian CR3BP is collocated directly; when transitioning to ephemeris models, equinoctial variables and knots at sphere-of-influence boundaries are used.
+- **NLP solvers.** CasADi + Ipopt is the current academic default; production codes often use SNOPT.
+- **Refining reinforcement-learning solutions.** The recent two-stage RL + collocation workflow uses RL to provide an initial guess and collocation to converge to a KKT-satisfying local optimum (Ul Haq et al. 2026).
 
-## NLP Solvers
+## Related concepts
 
-NLPs resulting from direct collocation discretization are typically solved using Sequential Quadratic Programming (SQP) or interior point method solvers:
-
-- **Ipopt**: Large-scale nonlinear programming solver based on interior point methods
-- **SNOPT**: Sequential Quadratic Programming solver
-- **CasADi**: Symbolic computation framework for constructing NLPs and calling the above solvers
+- [Direct Methods](/en/glossary/dynamics/direct-methods/)
+- [Pseudospectral Method](/en/glossary/dynamics/pseudospectral-method/)
+- [Shooting / Differential Correction](/en/glossary/dynamics/differential-correction/)
+- [Costate Variable](/en/glossary/dynamics/co-state-variables/)
+- [Homotopy Method](/en/glossary/dynamics/homotopy-method/)
+- [Orbital Coordinate Frames](/en/glossary/dynamics/orbital-coordinate-frames/)
+- [CR3BP](/en/glossary/dynamics/cr3bp/)
 
 ## References
 
-- Betts J T. Survey of numerical methods for trajectory optimization[J]. Journal of Guidance, Control, and Dynamics, 1998.
-- Ul Haq I U, Dai H, Du C. Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning[J]. Aerospace Science and Technology, 2026.
-- Hargraves C R, Paris S W. Direct trajectory optimization using nonlinear programming and collocation[J]. Journal of Guidance, Control, and Dynamics, 1987.
+- Hargraves, C. R., & Paris, S. W. (1987). Direct trajectory optimization using nonlinear programming and collocation. *J. Guidance, Control, and Dynamics*, 10(4), 338–342.
+- Betts, J. T. (1998). Survey of numerical methods for trajectory optimization. *J. Guidance, Control, and Dynamics*, 21(2), 193–207.
+- Betts, J. T. (2010). *Practical Methods for Optimal Control and Estimation Using Nonlinear Programming* (2nd ed.). SIAM.
+- Herman, A. L., & Conway, B. A. (1996). Direct optimization using collocation based on high-order Gauss-Lobatto quadrature rules. *J. Guidance, Control, and Dynamics*, 19(3), 592–599.
+- Conway, B. A. (Ed.). (2010). *Spacecraft Trajectory Optimization*. Cambridge University Press, Ch. 3.
+- Enright, P. J., & Conway, B. A. (1992). Discrete approximations to optimal trajectories using direct transcription and nonlinear programming. *J. Guidance, Control, and Dynamics*, 15(4), 994–1002.
+- Vellutini, D., & Avanzini, G. (2014). Shape-based design of low-thrust trajectories to cislunar Lagrangian point.
+- Ul Haq, I. U., Dai, H., & Du, C. (2026). Autonomous low-thrust trajectory optimization in cislunar space via attention-augmented reinforcement learning. *Aerospace Science and Technology*.

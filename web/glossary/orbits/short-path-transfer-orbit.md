@@ -38,10 +38,10 @@ Lambert问题中两类解之一。沿该轨道从起点到终点所经过的角�
 
 ## 相关概念
 
-- [DRO到地球轨道转移（DRO-to-Earth-Orbit Transfer）](/glossary/orbits/dro-to-earth-orbit-transfer/)
-- [最大偏离距离（Maximum Excursion Distance）](/glossary/orbits/maximum-excursion-distance/)
+- [DRO到地球轨道转移（DRO-to-Earth-Orbit Transfer）](/glossary/orbits/distant-retrograde-orbit-dro/)
+- 最大偏离距离（Maximum Excursion Distance）
 - [伪春分点轨道根数（Pseudo-Equinoctial Orbital Elements）](/glossary/orbits/pseudo-equinoctial-orbital-elements/)
-- [圆锥曲线轨道（Conic Orbit）](/glossary/fundamentals/conic-orbit/)
+- 圆锥曲线轨道（Conic Orbit）
 
 ## 参考文献
 

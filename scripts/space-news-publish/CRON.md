@@ -21,10 +21,10 @@
 
 ```bash
 cd /home/ouyangjiahong/codes/cislunarspace/web
-BUILD_SHARDS=4 npm run docs:build:parallel
+BUILD_SHARDS=4 npx tsx .vuepress/build/sharded-build.ts
 ```
 
-`docs:build:parallel` 串联：`gen-sidebar` → 4-way sharded `vuepress build` → `sync-figures` → `verify-dist`。构建产物在 `web/.vuepress/dist/`。
+`sharded-build` 串联：`gen-sidebar` → 4-way sharded `vuepress build` → `sync-figures` → `verify-dist`。构建产物在 `web/.vuepress/dist/`。
 
 构建后验证：
 

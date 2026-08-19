@@ -1,23 +1,23 @@
 ---
 title: 轴向轨道（Axial Orbit）
-description: 详细解析轴向轨道的定义、动力学特性、在平动点附近的周期运动及其在地月空间任务中的应用
-keywords: 轴向轨道, Axial Orbit, 平动点, L1, L2, L3, L4, L5, 三体问题, 轨道动力学, 地月空间
+description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支；L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
+keywords: 轴向轨道, Axial Orbit, 平动点轨道, 共振轨道, 系统平移, 周期轨道
 author: 天疆说
-date: 2026-04-29
-lastUpdated: 2026-04-29
+date: 2026-07-31
+lastUpdated: 2026-08-07
 wechatShare:
   title: 轴向轨道（Axial Orbit）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
   image: /logo.png
 og:
-  title: 轴向轨道（Axial Orbit）详解 | 平动点三维周期轨道
-  description: 详细解析轴向轨道的定义、动力学特性、在平动点附近的周期运动及其在地月空间任务中的应用
+  title: 轴向轨道（Axial Orbit）详解 | 术语定义
+  description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支；L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: 轴向轨道（Axial Orbit）详解 | 平动点三维周期轨道
-  description: 详细解析轴向轨道的定义、动力学特性、在平动点附近的周期运动及其在地月空间任务中的应用
+  title: 轴向轨道（Axial Orbit）详解 | 术语定义
+  description: 平动点轨道的一类三维周期轨道族：共线点处从平面 Lyapunov 族分岔产生（分岔位置与晕轨道族不同），关于 x 轴对称、分 axial-1/axial-2 两支；L4/L5 的轴向轨道线性稳定，可用于地月双覆盖与态势感知。
   image: /logo.png
 permalink: /glossary/orbits/axial-orbit/
 ---
@@ -30,77 +30,43 @@ permalink: /glossary/orbits/axial-orbit/
 
 ## 定义
 
-轴向轨道（Axial Orbit）是**环绕平动点的三维周期轨道族**，属于平动点轨道（Libration Point Orbit, LPO）的重要类别之一。轴向轨道的命名源于其运动特征——轨道在 $x$ 轴（地月连线方向）附近具有显著振荡，同时在 $z$ 方向也存在周期运动，形成沿轴向展开的三维空间构型。轴向轨道广泛存在于地月系统的 L1、L2、L3 共线平动点以及 L4、L5 三角平动点附近。
+轴向轨道是平动点轨道（LPO）的一类三维周期轨道族。共线点处，轴向族与晕轨道族分别从平面 Lyapunov 族的**不同位置**分岔产生；轴向族关于 **x 轴**对称，并因此分为 axial-1、axial-2 两支（He 2026）。三角点处，L4/L5 的轴向族从垂直 Lyapunov 族分岔，且不再具有对称性（He 2026）。在周期轨道目录体系中，轴向族与 Lyapunov、垂直、晕族并列为标准 LPO 族（Folta 2015、Guzzetti 2016）。
 
-## 核心要素
+## 稳定性
 
-### 轴向轨道的动力学特性
+L1/L2 轴向轨道全族强不稳定、无中心子空间（不能用于环面编队）（Guzzetti 2016）；L4 轴向轨道线性稳定，外推 120 年保持有界（Vaquero & Howell 2014）。早期目录给出的 L1/L2 轴向族稳定指数在百位量级（强不稳定），与上述定性结论一致。
 
-轴向轨道在 CR3BP 框架下具有以下特性：
+## 轴向共振轨道
 
-- **三维运动**：轴向轨道在 $x$ 方向具有最大振幅，同时在 $z$ 方向也有显著振荡，形成沿地月连线轴向展开的独特构型
-- **周期性**：轴向轨道是严格周期轨道，在会合坐标系中精确闭合
-- **对称性**：标准轴向轨道关于 $xOz$ 平面对称
-- **能量覆盖广**：轴向轨道族的 Jacobi 常数覆盖范围较宽，能够连接不同能量水平的地月空间区域
+三维**非对称**共振轨道称轴向共振轨道，由分叉轨道沿 z 方向微扰算得（Vaquero & Howell 2014）。其 3:1 成员可经**系统平移**（system translation，即质量参数 μ 延拓）从地月系直接迁移到其他三体系统（如土星-土卫六系），无需在新系统重做初猜-分岔-延拓流程（Vaquero & Howell 2014）。两点注意：
 
-### 轴向轨道的分类
+- 共振比有两种约定：Vaquero & Howell 的 3:1 指「航天器 3 圈 / 月球 1 圈」，而 Parker & Anderson 2014、Guzzetti 2016 的 p:q 约定是「月球 p 圈 : 航天器 q 圈」——同一轨道在两种约定下记号相反，引用须写明。
+- 系统平移不保持稳定性：地月系 4:3 共振族全不稳定，而土星-土卫六系同族大多线性稳定（Vaquero & Howell 2014）。
 
-根据地月系统中的平动点位置，轴向轨道可分为以下族：
+## 应用
 
-| 轨道族 | 所属平动点 | 特征 |
-| :--- | :--- | :--- |
-| A1（Axial L1） | L1 | 位于地月连线之间，周期约 17 天 |
-| A2（Axial L2） | L2 | 位于月球背向地球一侧，周期约 19 天 |
-| A3（Axial L3） | L3 | 位于地球背向月球一侧，周期约 27 天 |
-| A4/A5（Axial L4/L5） | L4/L5 | 位于三角平动点附近 |
+- **L4 轴向轨道转移**：LEO→L4 轴向轨道的三维转移——L2 轴向轨道稳定流形（天然经过地球附近）拼接 3:2 轴向共振轨道不稳定流形，ΔV 3.27 km/s、22.54 天；L4 轴向轨道线性稳定、对地月双覆盖、通信不中断（Vaquero & Howell 2014）。
+- **态势感知**：L4/L5 轴向轨道穿越地月空间大体积区域，在空间态势感知架构优化中高频入选，利于对平面机动目标的持续探测（Klonowski 2024）。
 
-### 轨道参数特征
+## 术语变体对照
 
-以地月系统为例，轴向轨道族的主要参数范围如下（基于 Guzzetti 等人的动态目录统计）：
-
-| 轨道族 | Jacobi 常数范围 | 周期范围（天） | 稳定性指数范围 |
-| :--- | :--- | :--- | :--- |
-| A1 | 2.9918 ~ 3.0214 | 17.15 ~ 17.65 | 200 ~ 254 |
-| A2 | 2.9671 ~ 3.0138 | 18.72 ~ 19.20 | 128 ~ 168 |
-| A3 | 0.0165 ~ 1.8588 | 27.19 ~ 27.21 | 1.05 ~ 1.16 |
-
-A1 和 A2 轴向轨道的 Jacobi 常数范围与 L1/L2 Lyapunov 轨道的能量范围高度重叠，这意味着它们之间可能存在低成本的轨道转移通道。
-
-### 轴向轨道与其他平动点轨道的关系
-
-轴向轨道与 Lyapunov 轨道、Halo 轨道、垂直轨道等同属平动点轨道家族：
-
-- **与 Lyapunov 轨道的关系**：轴向轨道可视为 Lyapunov 轨道在三维空间中的延伸，当 $z$ 方向振幅较小时趋近于平面 Lyapunov 轨道
-- **与 Halo 轨道的关系**：轴向轨道和 Halo 轨道均具有三维特性，但主导振荡方向不同；Halo 轨道以 $z$ 方向为主导，而轴向轨道以 $x$ 方向为主导
-- **与垂直轨道的关系**：垂直轨道以 $z$ 方向振荡为特征，与轴向轨道在三维空间中形成互补的轨道族
-
-### 稳定性与任务适用性
-
-轴向轨道的稳定性特征使其在任务设计中具有独特价值：
-
-- L1/L2 轴向轨道具有相对较低的周期（约 17~19 天）和适中的稳定性指数，适合长期驻留任务
-- A1/A2 轴向轨道的 Jacobi 常数完全落在 L1/L2 Lyapunov 轨道的能量范围内，表明它们可作为低能量转移的候选目标
-- 在 Guzzetti 等人提出的长期月球基础设施选址分析中，L1/L2 轴向轨道因其有利的周期和稳定性特征被列为候选轨道族
-
-## 应用价值
-
-轴向轨道在地月空间任务中具有以下潜在应用价值：
-
-- **长期基础设施选址**：L1/L2 轴向轨道具有适中的轨道周期和稳定性，适合作为地月空间长期基础设施的部署位置
-- **低能量转移节点**：由于轴向轨道与 Lyapunov 轨道能量范围重叠，可作为低能量转移网络的重要节点
-- **轨道停靠与补给**：轴向轨道的周期特性有利于任务规划和轨道停靠操作
-- **动力学研究基础**：作为平动点轨道分类体系的重要组成部分，轴向轨道是理解地月空间复杂动力学结构的关键
+| 术语 | 含义 | 出处 |
+|------|------|------|
+| axial-1 / axial-2 支 | 共线点轴向族关于 x 轴对称分出的两支 | He 2026 |
+| 轴向共振轨道 | z 向微扰分叉轨道得到的三维非对称共振轨道 | Vaquero & Howell 2014 |
+| 3:1 轴向共振轨道 | 可系统平移至其他三体系统的共振成员 | Vaquero & Howell 2014 |
 
 ## 相关概念
 
-- [Halo 轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
 - [Lyapunov 轨道（Lyapunov Orbit）](/glossary/orbits/lyapunov-orbit/)
 - [垂直轨道（Vertical Orbit）](/glossary/orbits/vertical-orbit/)
-- [Lissajous 轨道（Lissajous Orbit）](/glossary/orbits/lissajous-orbit/)
-- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
+- [晕轨道（Halo Orbit）](/glossary/orbits/halo-orbit/)
+- [共振轨道族（Resonant Orbit Family）](/glossary/orbits/resonant-orbit-family/)
 
 ## 参考文献
 
-- Guzzetti D, Bosanac N, Howell K C. A framework for efficient trajectory comparisons in the Earth-Moon design space[C]. AAS/AIAA Space Flight Mechanics Meeting, 2014.
-- Doedel E J, Romanov V A, Paffenroth R C, et al. Elemental periodic orbits associated with the libration points in the circular restricted 3-body problem[J]. International Journal of Bifurcation and Chaos, 2007, 17(8): 2625-2677.
-- Folta D, Bosanac N, Guzzetti D, et al. An Earth-Moon system trajectory design reference catalog[C]. 2nd IAA Conference on Dynamics and Control of Space Systems, 2014.
+- Vaquero & Howell, 2014, Leveraging resonant-orbit manifolds to design transfers between libration-point orbits
+- Folta et al., 2015, An Earth-Moon system trajectory design reference catalog
+- Guzzetti et al., 2016, Rapid trajectory design in the Earth–Moon ephemeris system via an interactive catalog of periodic and quasi-periodic orbits
+- Klonowski et al., 2024, Cislunar space domain awareness architecture design and analysis for cooperative agents
+- He et al., 2026, A review of cislunar constellation design and optimization

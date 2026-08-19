@@ -143,7 +143,7 @@ The custom Space News navigation rail rendered by `SpaceNewsSidebar`. It is deri
 
 ### Glossary category
 
-A `TaxonomyNode` of kind `glossary-category` (today: entries in `glossaryCategories` in `glossary-meta.ts`). Defines the buckets under `/glossary/` and `/en/glossary/` (fundamentals, dynamics, orbits, …).
+A `TaxonomyNode` of kind `glossary-category` (today: entries in `glossaryCategories` in `glossary-meta.ts`). Defines the buckets under `/glossary/` and `/en/glossary/` (fundamentals, dynamics, orbits, …). A category may nest **one level of subcategories**: a subcategory node parents at its category node (e.g. `glossary/orbits`), its `meta.slug` is the full path form (`orbits/halo`), and entries live in `glossary/<cat>/<sub>/<slug>.md`. Entries may also sit directly in the category root (unsorted).
 
 ### Content module
 

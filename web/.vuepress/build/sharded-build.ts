@@ -468,7 +468,7 @@ async function main(): Promise<void> {
 
   // Sync figures (critical — figures are not part of vuepress build output).
   console.log('[sharded-build] running sync-figures...');
-  const sf = spawnSync('npm', ['run', '--silent', 'sync-figures'], {
+  const sf = spawnSync('tsx', ['.vuepress/build/sync-figures.js'], {
     cwd: webDir,
     env: process.env,
     stdio: 'inherit',
@@ -480,7 +480,7 @@ async function main(): Promise<void> {
 
   // Verify dist.
   console.log('[sharded-build] running verify-dist...');
-  const vd = spawnSync('npm', ['run', '--silent', 'docs:build:verify-dist'], {
+  const vd = spawnSync('tsx', ['.vuepress/build/verify-dist.ts'], {
     cwd: webDir,
     env: process.env,
     stdio: 'inherit',

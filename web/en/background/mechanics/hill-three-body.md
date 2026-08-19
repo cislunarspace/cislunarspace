@@ -18,6 +18,6 @@ wechatShare:
 
 The Hill Three-Body Problem is a linearized approximation of the Circular Restricted Three-Body Problem (CR3BP), first proposed by G. W. Hill in 1878. Its core idea is to locally linearize the gravitational field near the secondary body (e.g., the Moon), simplifying the complex nonlinear three-body dynamics into a tractable linear system. This model is important for preliminary orbit analysis, keep-out zone design, and orbital stability assessment in cislunar space missions.
 
-> For detailed definitions and derivations, see the glossary entry on [Hill Three-Body Problem](/en/glossary/dynamics/hill-three-body/).
+> For detailed definitions and derivations, see the glossary entry on Hill Three-Body Problem.
 >
 > This is a placeholder page. Detailed content is to be added.

@@ -29,6 +29,7 @@ import {
   deleteNewsCategory,
   addGlossaryCategory,
   deleteGlossaryCategory,
+  assignCategory,
 } from './lib/categories.js';
 import { previewDelete, listTrash, restoreFile } from './lib/delete.js';
 import * as sitePreview from './lib/preview.js';
@@ -161,10 +162,10 @@ app.get('/api/categories', (req, res) => {
 
 /* ============ 分类管理 ============ */
 
-/** 添加分类：POST /api/categories/add { type, name } */
+/** 添加分类：POST /api/categories/add { type, name, parent?, labelZh? } */
 app.post('/api/categories/add', async (req, res) => {
   try {
-    const { type, name } = req.body || {};
+    const { type, name, parent, labelZh } = req.body || {};
     if (!['news', 'glossary'].includes(type)) {
       return res.status(400).json({ ok: false, error: '仅支持 news / glossary 分类管理' });
     }
@@ -172,7 +173,10 @@ app.post('/api/categories/add', async (req, res) => {
     const result =
       type === 'news'
         ? await addNewsCategory(String(name).trim())
-        : addGlossaryCategory(String(name).trim());
+        : addGlossaryCategory(String(name).trim(), {
+            parent: typeof parent === 'string' ? parent : '',
+            labelZh: typeof labelZh === 'string' ? labelZh : '',
+          });
     res.json({ ok: true, ...result });
   } catch (err) {
     sendError(res, err);
@@ -194,6 +198,29 @@ app.post('/api/categories/delete', async (req, res) => {
             deleteEntries: !!deleteEntries,
             target: typeof target === 'string' ? target : '',
           });
+    res.json({ ok: true, ...result });
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/** 批量修改分类：POST /api/categories/assign { type, paths, target, mode? } */
+app.post('/api/categories/assign', async (req, res) => {
+  try {
+    const { type, paths, target, mode } = req.body || {};
+    if (!['news', 'glossary'].includes(type)) {
+      return res.status(400).json({ ok: false, error: '仅支持 news / glossary 修改分类' });
+    }
+    if (!Array.isArray(paths) || paths.length === 0) throw new PathError('缺少要修改的路径');
+    const rels = paths.map((p) => {
+      const r = String(p).replace(/\\/g, '/').replace(/^\/+/, '');
+      assertEditableMd(r);
+      return r;
+    });
+    if (!target || !String(target).trim()) throw new PathError('目标分类不能为空');
+    const result = await assignCategory(type, rels, String(target).trim(), {
+      mode: mode === 'append' ? 'append' : 'replace',
+    });
     res.json({ ok: true, ...result });
   } catch (err) {
     sendError(res, err);

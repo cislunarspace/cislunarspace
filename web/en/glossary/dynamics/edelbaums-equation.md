@@ -38,9 +38,9 @@ Edelbaum's equation provides a theoretical foundation for cislunar space mission
 
 ## Related Concepts
 
-- [Differential Algebra (DA)](/en/glossary/dynamics/differential-algebra/)
-- [Plume Impingement](/en/glossary/dynamics/plume-impingement/)
-- [Momentum Integral (MI)](/en/glossary/dynamics/momentum-integral/)
+- Differential Algebra (DA)
+- Plume Impingement
+- Momentum Integral (MI)
 
 ## References
 

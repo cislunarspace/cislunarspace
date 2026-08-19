@@ -1,0 +1,50 @@
+---
+title: 近直线晕轨道交会对接（NRHO Rendezvous and Docking）
+description: 从地球轨道或其他位置出发，与运行在近直线晕轨道上的地月空间站完成交会对接的全过程。与近地交会不同，目标轨道是三体系统中的周期轨道，具有非自然稳定性特征，需要专门的制导方案。
+keywords: 近直线晕轨道交会对接, NRHO Rendezvous and Docking, 导航, 定轨, 制导, 滤波器
+author: 天疆说
+date: 2026-07-31
+lastUpdated: 2026-07-31
+wechatShare:
+  title: 近直线晕轨道交会对接（NRHO Rendezvous and Docking）
+  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
+  image: /logo.png
+og:
+  title: 近直线晕轨道交会对接详解 | 术语定义
+  description: 从地球轨道或其他位置出发，与运行在近直线晕轨道上的地月空间站完成交会对接的全过程。与近地交会不同，目标轨道是三体系统中的周期轨道，具有非自然稳定性特征，需要专门的制导方案。
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: 近直线晕轨道交会对接详解 | 术语定义
+  description: 从地球轨道或其他位置出发，与运行在近直线晕轨道上的地月空间站完成交会对接的全过程。与近地交会不同，目标轨道是三体系统中的周期轨道，具有非自然稳定性特征，需要专门的制导方案。
+  image: /logo.png
+permalink: /glossary/navigation/nrho-rendezvous-and-docking/
+---
+
+# 近直线晕轨道交会对接（NRHO Rendezvous and Docking）
+
+> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
+>
+>本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+
+## 定义
+
+从地球轨道或其他位置出发，与运行在近直线晕轨道上的地月空间站完成交会对接的全过程。与近地交会不同，目标轨道是三体系统中的周期轨道，具有非自然稳定性特征，需要专门的制导方案。
+
+## 应用价值
+
+在轨道设计阶段，可用于分析航天器在地月空间中的运动特性，评估不同轨道方案的可行性与效率。
+用于分析多天体引力场中的运动规律，支撑平动点轨道任务的设计与稳定化。
+用于分析周期轨道的稳定性与转移特性，支撑地月空间站轨道设计方案。
+
+## 相关概念
+
+- 低月球轨道（Low Lunar Orbit, LLO）
+- 复合周期轨道（Complex Periodic Orbit）
+- 轨道转移级（Orbital Transfer Stage）
+- [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
+
+## 参考文献
+
+- Xie et al., A guidance strategy for rendezvous and docking to the space station in the Earth-moon NRHO orbit, 2024

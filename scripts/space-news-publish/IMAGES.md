@@ -77,6 +77,6 @@ curl -A "Mozilla/5.0" -L --http1.1 \
 | `Could not resolve './figures/.../hero.jpg'` | 文件不存在或扩展名不匹配 | 改路径或删除 `image:` / 图片段落 |
 | dev 预览英文文章图裂 | en 侧无物理副本且回退中间件未生效 | 确认 `dev-figures-fallback` 已在 config.ts 的 viteOptions.plugins 中 |
 | 图片 1–2KB | 下载到错误页/占位符 | 换 URL、换扩展名或无图降级 |
-| rsync 后图片 404 | 构建后未跑 sync-figures 或未同步完整 dist | 重新 `npm run docs:build` 并整树 rsync |
+| rsync 后图片 404 | 构建后未跑 sync-figures 或未同步完整 dist | 重新 `npm run build` 并整树 rsync |
 
 更多构建/部署故障见 [TROUBLESHOOTING.md](TROUBLESHOOTING.md)。

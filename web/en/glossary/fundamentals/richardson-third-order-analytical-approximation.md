@@ -38,10 +38,10 @@ A third-order analytical approximation for Halo orbits proposed by Richardson in
 
 ## Related Concepts
 
-- [Time-Varying System](/en/glossary/fundamentals/time-varying-system/)
-- [Lipschitz Condition](/en/glossary/fundamentals/lipschitz-condition/)
-- [Variable-Time Targeting](/en/glossary/fundamentals/variable-time-targeting/)
-- [Return Corridor](/en/glossary/fundamentals/return-corridor/)
+- [Time-Varying System](/en/glossary/fundamentals/eom/)
+- Lipschitz Condition
+- [Variable-Time Targeting](/en/glossary/dynamics/differential-correction/)
+- Return Corridor
 
 ## References
 

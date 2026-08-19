@@ -57,7 +57,7 @@ description: >-
  ↓
 [6] 英文侧创建 placeholder 页面（如有需要）
  ↓
-[7] 构建验证：cd web && npm run docs:build
+[7] 构建验证：cd web && npm run build
 ```
 
 ### 子方向页面 frontmatter

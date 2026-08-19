@@ -72,4 +72,4 @@ Explore the orbital morphology of DROs interactively in the [Satellite Orbit Sim
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - [NRHO (Near-Rectilinear Halo Orbit)](/en/cislunar-orbits/nrho/)
-- [Distant Retrograde Orbit (DRO) Glossary Entry](/en/glossary/orbits/dro/)
+- Distant Retrograde Orbit (DRO) Glossary Entry

@@ -50,7 +50,7 @@ wechatShare:
 
 - [弧长延续法（Arc-length Continuation）](./continuation/)
 - [辛积分器（Symplectic Integrator）](./symplectic-integrator/)
-- [远距离逆行轨道（DRO）](/glossary/orbits/dro/)
+- [远距离逆行轨道（DRO）](/glossary/orbits/distant-retrograde-orbit-dro/)
 - [近直线晕轨道（NRHO）](/glossary/orbits/nrho/)
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 

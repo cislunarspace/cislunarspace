@@ -71,7 +71,7 @@ $$\mathbf{q} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{q}} V} \mathbf{q} \qua
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Ephemeris Model](/en/glossary/dynamics/ephemeris-model/)
+- Ephemeris Model
 - [Shooting Method](./shooting-method/)
 
 ## References

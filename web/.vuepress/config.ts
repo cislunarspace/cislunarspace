@@ -16,7 +16,6 @@ import { katexPlugin } from './katex-plugin.ts';
 import { devEnFiguresFallback } from './dev-figures-fallback.ts';
 import { rawContentPlugin } from './raw-content-plugin.ts';
 import { headScripts } from './head-scripts.ts';
-import { createSsrRenderCachePlugin } from './build/ssr-render-cache.ts';
 
 const __configDir = path.dirname(fileURLToPath(import.meta.url));
 const { zh: sidebar, en: sidebarEn } = buildSidebarConfigs();
@@ -38,19 +37,8 @@ export default defineUserConfig({
   title: '地月空间入门指南',
   description: '系统掌握地月空间科学、技术与工程实践',
 
-  // Exclude internal .vuepress/, helper files, and node_modules from site pages.
-  // Glossary entry pages (glossary/<cat>/<slug>.md) stay excluded — the
-  // client-side dictionary renders them; the two README.md dictionary pages
-  // at glossary/ root are included. tinyglobby applies negations last, so
-  // entries are excluded by exact depth instead of re-including the READMEs.
-  pagePatterns: [
-    '**/*.md',
-    '!**/_*.md',
-    '!.vuepress/**/*.md',
-    '!node_modules/**',
-    '!glossary/*/*.md',
-    '!en/glossary/*/*.md',
-  ],
+  // Exclude internal .vuepress/, helper files, and node_modules from site pages
+  pagePatterns: ['**/*.md', '!**/_*.md', '!.vuepress/**/*.md', '!node_modules/**'],
 
   locales: {
     '/': {
@@ -84,7 +72,7 @@ export default defineUserConfig({
 
   bundler: viteBundler({
     viteOptions: {
-      plugins: [createSsrRenderCachePlugin(), devEnFiguresFallback()],
+      plugins: [devEnFiguresFallback()],
       server: {
         watch: {
           // Avoid ENOSPC: exclude VuePress-generated dirs from Vite's file watcher

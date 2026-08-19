@@ -76,9 +76,9 @@ NSGA II 适用于连续和离散变量的多目标优化问题，广泛应用于
 
 ## 相关概念
 
-- [帕累托最优（Pareto Optimality）](/glossary/dynamics/pareto-optimal/)
-- [多目标蒙特卡洛树搜索（MO-MCTS）](/glossary/dynamics/mo-mcts/)
-- [K-Medoids 聚类](/glossary/dynamics/k-medoids/)
+- 帕累托最优（Pareto Optimality）
+- 多目标蒙特卡洛树搜索（MO-MCTS）
+- K-Medoids 聚类
 
 ## 参考文献
 

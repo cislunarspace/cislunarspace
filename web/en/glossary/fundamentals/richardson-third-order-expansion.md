@@ -37,9 +37,9 @@ This term has significant application value in cislunar space missions。In the 
 
 ## Related Concepts
 
-- [Virtual Coplanar Takeoff](/en/glossary/fundamentals/virtual-coplanar-takeoff/)
-- [Lunar Gravity Field Irregularity](/en/glossary/fundamentals/lunar-gravity-field-irregularity/)
-- [LP100K Model](/en/glossary/fundamentals/lp100k-model/)
+- Virtual Coplanar Takeoff
+- [Lunar Gravity Field Irregularity](/en/glossary/fundamentals/gravity-field-model/)
+- [LP100K Model](/en/glossary/fundamentals/gravity-field-model/)
 
 ## References
 
