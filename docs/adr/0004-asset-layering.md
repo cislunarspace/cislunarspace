@@ -126,9 +126,17 @@
 
 1. **阶段 0（速赢，纯删除与配置）**：删死产物与 `web/public/`；生成物 `git rm --cached` 并补 `.gitignore`；管线 `git add` 列表调整；`generators/space-news.ts` 停写 `.vuepress/` 根。实施前完成 gitee 消费者复核。
 2. **阶段 1（图片单一来源）**：md5 全量校验脚本 → 删 en 侧副本 → `sync-figures` 双拷 → `-zh`/`-en` 后缀目录统一 → `IMAGES.md` 更新 → 孤儿图清理。
-3. **阶段 2（glossary）**：摘死入口 → 停 sidebar 产物与占位注入 → 词条清洗（待 ADR-0003 内容操作模块就绪）→ 客户端词典页（见内容策略第五节）。
+3. **阶段 2（glossary）**：摘死入口 → 停 sidebar 产物与占位注入 → 词条清洗（内容操作模块就绪后）→ 客户端词典页（见内容策略第五节）。
 4. **阶段 3（目录归位）**：按第 4 节表格执行；`theme2` 改名单列一个 issue（波及面最大）。
 5. **阶段 4（检查收紧）**：`check-bilingual-mirror` 增规则、新增 `check-figures-references`、纳入 CI。
+
+## 实施后记
+
+阶段 0–2 于 2026-08-19/20 落地。阶段 3（目录归位）于 2026-08-20 落地时的偏差：
+
+1. **`patch-vuepress-concurrent.js` 归档而非纳入构建链**。实测该补丁与当前 `@vuepress/bundler-vite` 不兼容：patch 后并行渲染产生跨页内容错位（A 页标题渲染进 B 页路径），verify-dist 的 key page content 检查捕获。补丁与还原脚本已移入 `scripts/archive/`，`node_modules` 已还原；构建回归官方串行渲染（4m51s 基线）。若未来重新启用，必须先在当前 bundler 源码上重写补丁并通过 key page content 校验。
+2. `scripts/` 中的 skill 文档（`space-news-publish/`、`research-frontiers-publish/`、`skills/`）因引用链复杂暂未迁移，仍在 `scripts/` 下。
+3. `terms-classification.json`（4.2MB）无活跃引用（仅归档的 `prune-glossary.py` 使用），已随归档脚本一起出 git。
 
 ## Alternatives considered
 

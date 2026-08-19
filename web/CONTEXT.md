@@ -10,7 +10,7 @@ The static site generator used to build this knowledge base. VuePress 2 + Vue 3 
 
 ### Theme
 
-The custom theme extends `@vuepress/theme-default` at `web/.vuepress/theme2/`. It overrides Layout.vue and VPSidebar.vue via alias, and provides custom layouts for Space News, AI Chat, and Dialectic surfaces.
+The custom theme extends `@vuepress/theme-default` at `web/.vuepress/theme/`. It overrides Layout.vue and VPSidebar.vue via alias, and provides custom layouts for Space News, AI Chat, and Dialectic surfaces.
 
 ### Sidebar
 

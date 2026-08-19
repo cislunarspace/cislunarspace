@@ -96,7 +96,7 @@ Build-time data collection:
 - `chat-index-intake.ts` — builds AI chat index from taxonomy
 - `translation-gap-intake.ts` — identifies missing glossary translations
 
-### Custom Theme (`web/.vuepress/theme2/`)
+### Custom Theme (`web/.vuepress/theme/`)
 
 Extends `@vuepress/theme-default`:
 
@@ -183,7 +183,7 @@ ssh jump "sudo nginx -s reload"
 - **Add knowledge-base section/page** — update `web/.vuepress/sidebar/data.ts`
 - **Add Space News article** — create `YYYY-MM-DD-slug.md` in both `web/space-news/YYYY/MM/` and `web/en/space-news/YYYY/MM/`
 - **Add glossary entry** — create markdown in `web/glossary/<category>/`; categories defined in `taxonomy/data.ts`
-- **Add theme display data** — place in `web/.vuepress/theme2/data/`
+- **Add theme display data** — place in `web/.vuepress/theme/data/`
 - **Add build tooling** — place in `web/.vuepress/build/`
 - **Add VuePress plugin** — place in `web/.vuepress/` root (only 2 files; subdirectory not yet justified)
 - Math rendering uses KaTeX via `@traptitech/markdown-it-katex`

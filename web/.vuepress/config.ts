@@ -6,7 +6,7 @@ import { searchPlugin } from '@vuepress/plugin-search';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import theme from './theme2/index.js';
+import theme from './theme/index.js';
 import navbar from './navbar.ts';
 import navbarEn from './navbar-en.ts';
 import { buildSidebarConfigs } from './sidebar/config.ts';
@@ -38,7 +38,9 @@ export default defineUserConfig({
   title: '地月空间入门指南',
   description: '系统掌握地月空间科学、技术与工程实践',
 
-  // Exclude internal .vuepress/, helper files, and node_modules from site pages
+  // Exclude internal .vuepress/, helper files, and node_modules from site pages.
+  // Glossary entry pages stay excluded (client-side dictionary renders them);
+  // the two README.md dictionary pages are re-included after the negations.
   pagePatterns: [
     '**/*.md',
     '!**/_*.md',
@@ -46,6 +48,8 @@ export default defineUserConfig({
     '!node_modules/**',
     '!glossary/**',
     '!en/glossary/**',
+    'glossary/README.md',
+    'en/glossary/README.md',
   ],
 
   locales: {

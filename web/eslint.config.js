@@ -25,7 +25,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ['.vuepress/theme2/**/*.ts'],
+    files: ['.vuepress/theme/**/*.ts'],
     languageOptions: {
       globals: globals.browser,
     },

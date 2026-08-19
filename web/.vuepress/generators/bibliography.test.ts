@@ -26,7 +26,8 @@ describe('generateBibliographyArtifacts', () => {
   edition   = {2nd},
 }
 `;
-    fs.writeFileSync(path.join(tmpDir, 'ref.bib'), bibContent);
+    fs.mkdirSync(path.join(tmpDir, '.vuepress'), { recursive: true });
+    fs.writeFileSync(path.join(tmpDir, '.vuepress', 'ref.bib'), bibContent);
 
     const mdFiles = [
       {
@@ -67,7 +68,8 @@ describe('generateBibliographyArtifacts', () => {
   year = {2000},
 }
 `;
-    fs.writeFileSync(path.join(tmpDir, 'ref.bib'), bibContent);
+    fs.mkdirSync(path.join(tmpDir, '.vuepress'), { recursive: true });
+    fs.writeFileSync(path.join(tmpDir, '.vuepress', 'ref.bib'), bibContent);
 
     const mdFiles = [
       {
@@ -97,7 +99,8 @@ describe('generateBibliographyArtifacts', () => {
   year = {2001},
 }
 `;
-    fs.writeFileSync(path.join(tmpDir, 'ref.bib'), bibContent);
+    fs.mkdirSync(path.join(tmpDir, '.vuepress'), { recursive: true });
+    fs.writeFileSync(path.join(tmpDir, '.vuepress', 'ref.bib'), bibContent);
 
     const mdFiles = [
       {
@@ -132,7 +135,8 @@ describe('generateBibliographyArtifacts', () => {
   year = {2001},
 }
 `;
-    fs.writeFileSync(path.join(tmpDir, 'ref.bib'), bibContent);
+    fs.mkdirSync(path.join(tmpDir, '.vuepress'), { recursive: true });
+    fs.writeFileSync(path.join(tmpDir, '.vuepress', 'ref.bib'), bibContent);
 
     const mdFiles = [
       {
@@ -178,7 +182,8 @@ describe('generateBibliographyArtifacts', () => {
   year = {2000},
 }
 `;
-    fs.writeFileSync(path.join(tmpDir, 'ref.bib'), bibContent);
+    fs.mkdirSync(path.join(tmpDir, '.vuepress'), { recursive: true });
+    fs.writeFileSync(path.join(tmpDir, '.vuepress', 'ref.bib'), bibContent);
 
     const mdFiles = [
       {
@@ -213,7 +218,8 @@ describe('generateBibliographyArtifacts', () => {
   year = {2000},
 }
 `;
-    fs.writeFileSync(path.join(tmpDir, 'ref.bib'), bibContent);
+    fs.mkdirSync(path.join(tmpDir, '.vuepress'), { recursive: true });
+    fs.writeFileSync(path.join(tmpDir, '.vuepress', 'ref.bib'), bibContent);
 
     const mdFiles = [
       {

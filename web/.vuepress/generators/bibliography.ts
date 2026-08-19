@@ -121,7 +121,7 @@ export function generateBibliographyArtifacts(
   webRoot: string,
   outDir: string,
 ): BibliographyData {
-  const bibPath = path.join(webRoot, 'ref.bib');
+  const bibPath = path.join(webRoot, '.vuepress', 'ref.bib');
   if (!fs.existsSync(bibPath)) {
     throw new Error(`BibTeX file not found: ${bibPath}`);
   }

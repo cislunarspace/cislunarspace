@@ -11,7 +11,7 @@
  * `categoryMeta` and look up a category by its key. To keep their
  * behaviour intact while the data source migrates, the adapter produces
  * the same `Record<string, {zh, en, color}>` shape — the
- * `theme2/utils/categoryMeta.ts` wrapper (which loads `category-meta.json`)
+ * `theme/utils/categoryMeta.ts（历史位置，已删除）` wrapper (which loads `category-meta.json`)
  * is the seam that PR 2 retires by re-pointing its import here.
  */
 import { taxonomy as defaultTaxonomy } from '..';
