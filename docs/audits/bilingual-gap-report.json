@@ -1,31 +1,15 @@
 {
-  "generatedAt": "2026-08-19T15:48:20.377Z",
+  "generatedAt": "2026-08-19T16:56:12.605Z",
   "summary": {
-    "total": 3,
+    "total": 1,
     "byFamily": {
-      "glossary": 2,
       "root": 1
     },
     "bySeverity": {
-      "error": 2,
       "warning": 1
     }
   },
   "gaps": [
-    {
-      "zhPath": "glossary/动力学与数学基础/control-curve-ui.md",
-      "expectedEnPath": "en/glossary/动力学与数学基础/control-curve-ui.md",
-      "family": "glossary",
-      "severity": "error",
-      "zhTitle": "控制曲线（Control Curve, U_i）"
-    },
-    {
-      "zhPath": "glossary/基础概念/cowells-perturbation-method.md",
-      "expectedEnPath": "en/glossary/基础概念/cowells-perturbation-method.md",
-      "family": "glossary",
-      "severity": "error",
-      "zhTitle": "Cowell摄动法（Cowell's perturbation method）"
-    },
     {
       "zhPath": "CONTEXT.md",
       "expectedEnPath": "en/CONTEXT.md",
