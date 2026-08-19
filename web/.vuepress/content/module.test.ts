@@ -50,6 +50,30 @@ beforeEach(() => {
   write('space-news/2026/04/README.md', '---\ntitle: 2026年4月\n---\n\n月份索引。\n');
   write('glossary/fundamentals/ad.md', '---\ntitle: 自动微分\n---\n\n## 定义\n词条正文。\n');
   write('en/glossary/fundamentals/ad.md', '---\ntitle: Automatic Differentiation\n---\n\nBody.\n');
+  write('glossary/fundamentals/bvp.md', '---\ntitle: 边值问题\n---\n\n## 定义\n词条正文。\n');
+  write('glossary/observation/ssa.md', '---\ntitle: 空间态势感知\n---\n\n## 定义\n词条正文。\n');
+  write(
+    'glossary/README.md',
+    [
+      '---',
+      'title: 地月空间术语词典',
+      '---',
+      '',
+      '# 地月空间术语词典',
+      '',
+      '## 索引',
+      '',
+      '### 基础概念（fundamentals，2 条）',
+      '',
+      '- [自动微分（Automatic Differentiation）](/glossary/fundamentals/ad/)',
+      '- [边值问题（Boundary Value Problem）](/glossary/fundamentals/bvp/)',
+      '',
+      '### 观测技术（observation，1 条）',
+      '',
+      '- [空间态势感知（SSA）](/glossary/observation/ssa/)',
+      '',
+    ].join('\n'),
+  );
   write('cislunar-orbits/README.md', '---\ntitle: 地月轨道\n---\n\n章节首页。\n');
   write('en/cislunar-orbits/nrho/page.md', '---\ntitle: NRHO\n---\n\nNRHO page.\n');
 
@@ -84,7 +108,12 @@ describe('content / list', () => {
         .list('glossary')
         .map((e) => e.relPath)
         .sort(),
-    ).toEqual(['en/glossary/fundamentals/ad.md', 'glossary/fundamentals/ad.md']);
+    ).toEqual([
+      'en/glossary/fundamentals/ad.md',
+      'glossary/fundamentals/ad.md',
+      'glossary/fundamentals/bvp.md',
+      'glossary/observation/ssa.md',
+    ]);
     expect(
       content
         .list('kb-section')
@@ -143,5 +172,54 @@ describe('content / write', () => {
     expect(() => content.write('space-news/2026/04/README.md', { body: 'x' })).toThrow(
       /不是受管理的内容条目/,
     );
+  });
+});
+
+describe('content / delete', () => {
+  it('删除双语对应一起入回收站，glossary 索引行清理、计数更新、空节移除', () => {
+    const report = content.delete('glossary/fundamentals/ad.md', { withCounterpart: true });
+    expect(report.deletedFiles.sort()).toEqual([
+      'en/glossary/fundamentals/ad.md',
+      'glossary/fundamentals/ad.md',
+    ]);
+    expect(report.skipped).toEqual([]);
+    expect(report.readmeLinesRemoved).toEqual([{ file: 'glossary/README.md', count: 1 }]);
+    // 文件移入回收站且内容原样
+    const trashed = path.join(webRoot, report.trashedTo, 'glossary/fundamentals/ad.md');
+    expect(fs.existsSync(trashed)).toBe(true);
+    expect(fs.readFileSync(trashed, 'utf-8')).toContain('词条正文');
+    expect(fs.existsSync(path.join(webRoot, 'glossary/fundamentals/ad.md'))).toBe(false);
+    // README：计数 2→1，索引行消失，另一节不动
+    const readme = fs.readFileSync(path.join(webRoot, 'glossary/README.md'), 'utf-8');
+    expect(readme).toContain('### 基础概念（fundamentals，1 条）');
+    expect(readme).not.toContain('(/glossary/fundamentals/ad/)');
+    expect(readme).toContain('### 观测技术（observation，1 条）');
+    // 索引刷新已触发
+    expect(refreshSpy).toHaveBeenCalled();
+  });
+
+  it('deleteMany 清空一节时移除节标题，只刷新一次索引', () => {
+    refreshSpy.mockClear();
+    const report = content.deleteMany(
+      ['glossary/observation/ssa.md', 'glossary/fundamentals/bvp.md'],
+      { withCounterpart: false },
+    );
+    expect(report.deletedFiles).toHaveLength(2);
+    expect(refreshSpy).toHaveBeenCalledTimes(1);
+    const readme = fs.readFileSync(path.join(webRoot, 'glossary/README.md'), 'utf-8');
+    expect(readme).not.toContain('观测技术');
+    expect(readme).not.toContain('(/glossary/observation/ssa/');
+    expect(readme).toContain('### 基础概念（fundamentals，1 条）');
+    // 剩余条目仍可列出
+    expect(content.list('glossary').map((e) => e.relPath)).toContain('glossary/fundamentals/ad.md');
+  });
+
+  it('不识别与不存在路径进 skipped，不影响其他删除', () => {
+    const report = content.deleteMany(
+      ['glossary/fundamentals/bvp.md', 'glossary/README.md', 'glossary/fundamentals/none.md'],
+      { withCounterpart: false },
+    );
+    expect(report.skipped).toEqual(['glossary/README.md', 'glossary/fundamentals/none.md']);
+    expect(report.deletedFiles).toEqual(['glossary/fundamentals/bvp.md']);
   });
 });

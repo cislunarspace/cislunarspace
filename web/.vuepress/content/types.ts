@@ -44,6 +44,22 @@ export interface ContentUpdate {
   body?: string;
 }
 
+export interface DeleteOptions {
+  /** 连同双语对应文件一起删除（不存在时静默跳过）。 */
+  withCounterpart: boolean;
+}
+
+export interface DeleteReport {
+  /** 已删除（移入回收站）的相对路径，含双语对应文件。 */
+  deletedFiles: string[];
+  /** 回收站目录（相对 webRoot）。 */
+  trashedTo: string;
+  /** 被清理索引行的 README 文件与行数。 */
+  readmeLinesRemoved: Array<{ file: string; count: number }>;
+  /** 不识别或不存在而跳过的路径。 */
+  skipped: string[];
+}
+
 export interface ContentModule {
   /** 列出一个内容族的全部条目（含配对状态与 frontmatter 摘要）。 */
   list(family: ContentFamily): ContentEntry[];
@@ -51,6 +67,10 @@ export interface ContentModule {
   read(relPath: string): ContentDoc;
   /** 改一篇（须已存在）：局部合并落盘，写后触发索引刷新。 */
   write(relPath: string, next: ContentUpdate): void;
+  /** 删一篇：移入回收站、清 README 索引行、刷新索引。 */
+  delete(relPath: string, opts: DeleteOptions): DeleteReport;
+  /** 批量删除：回收站共用一个时间戳目录，索引只在结束时刷新一次。 */
+  deleteMany(relPaths: readonly string[], opts: DeleteOptions): DeleteReport;
   /** 重跑派生索引生成。write 内部已调用；幂等。 */
   refreshIndex(): void;
 }

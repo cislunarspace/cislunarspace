@@ -15,6 +15,8 @@ import type {
   ContentFamily,
   ContentModule,
   ContentUpdate,
+  DeleteOptions,
+  DeleteReport,
 } from './types.ts';
 
 export interface ContentDeps {
@@ -107,5 +109,114 @@ export function createContentModule(deps: ContentDeps): ContentModule {
     refresh();
   }
 
-  return { list, read, write, refreshIndex: refresh };
+  function deleteMany(relPaths: readonly string[], opts: DeleteOptions): DeleteReport {
+    const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const trashDir = path.join('.trash', stamp);
+    const targets = new Set<string>();
+    const skipped: string[] = [];
+    for (const rel of relPaths) {
+      const route = router.resolve(rel);
+      if (!route || !fs.existsSync(absOf(rel))) {
+        skipped.push(rel);
+        continue;
+      }
+      targets.add(rel);
+      if (
+        opts.withCounterpart &&
+        route.counterpartPath !== rel &&
+        fs.existsSync(absOf(route.counterpartPath))
+      ) {
+        targets.add(route.counterpartPath);
+      }
+    }
+    const deletedFiles: string[] = [];
+    for (const t of targets) {
+      const trashPath = path.join(deps.webRoot, trashDir, t);
+      fs.mkdirSync(path.dirname(trashPath), { recursive: true });
+      fs.renameSync(absOf(t), trashPath);
+      deletedFiles.push(t);
+    }
+    const report: DeleteReport = {
+      deletedFiles,
+      trashedTo: trashDir,
+      readmeLinesRemoved: [],
+      skipped,
+    };
+    if (deletedFiles.length > 0) {
+      report.readmeLinesRemoved = cleanupReadmes(deletedFiles);
+      refresh();
+    }
+    return report;
+  }
+
+  /**
+   * 清理 README 索引行：glossary 词条在 glossary/README.md 有
+   * `(/glossary/<cat>/<slug>/)` 形态的索引行；删除后清行、重算节计数、
+   * 移除空节。其他族暂无 README 索引维护需求（随 admin 迁移补充）。
+   */
+  function cleanupReadmes(deletedFiles: string[]): DeleteReport['readmeLinesRemoved'] {
+    const results: DeleteReport['readmeLinesRemoved'] = [];
+    const glossarySlugs = new Set(
+      deletedFiles.filter((f) => f.startsWith('glossary/') && f !== 'glossary/README.md'),
+    );
+    if (glossarySlugs.size === 0) return results;
+
+    const readmeAbs = path.join(deps.webRoot, 'glossary', 'README.md');
+    if (!fs.existsSync(readmeAbs)) return results;
+    const lines = fs.readFileSync(readmeAbs, 'utf-8').split('\n');
+
+    const isIndexLine = (line: string) => {
+      const m = line.match(/\]\(\/glossary\/([^/]+)\/([^/)]+)\/\)/);
+      return m !== null && glossarySlugs.has(`glossary/${m[1]}/${m[2]}.md`);
+    };
+    const removed = lines.filter(isIndexLine).length;
+    if (removed === 0) return results;
+
+    // 过滤索引行，同时按节重算
+    const outLines: string[] = [];
+    let sectionHeaderIdx = -1; // outLines 中当前节标题的位置
+    let sectionCount = 0;
+    const flushSection = () => {
+      if (sectionHeaderIdx < 0) return;
+      if (sectionCount === 0) {
+        // 空节：删除节标题与其后的空行，保留一个空行与后续内容分隔
+        outLines.splice(sectionHeaderIdx);
+        while (outLines.length > 0 && outLines[outLines.length - 1] === '') outLines.pop();
+        if (outLines.length > 0) outLines.push('');
+        sectionHeaderIdx = -1;
+      } else {
+        // 节标题形如「### 基础概念（fundamentals，218 条）」——重算计数
+        outLines[sectionHeaderIdx] = outLines[sectionHeaderIdx].replace(
+          /^(### .*?[（(][^,，]+[,，]\s*)\d+(\s*条[)）])/,
+          `$1${sectionCount}$2`,
+        );
+      }
+    };
+    for (const line of lines) {
+      if (line.startsWith('### ')) {
+        flushSection();
+        outLines.push(line);
+        sectionHeaderIdx = outLines.length - 1;
+        sectionCount = 0;
+      } else if (isIndexLine(line)) {
+        continue; // 已删除
+      } else {
+        if (line.startsWith('- [') && sectionHeaderIdx >= 0) sectionCount++;
+        outLines.push(line);
+      }
+    }
+    flushSection();
+    fs.writeFileSync(readmeAbs, `${outLines.join('\n').replace(/\n{3,}/g, '\n\n')}\n`, 'utf-8');
+    results.push({ file: 'glossary/README.md', count: removed });
+    return results;
+  }
+
+  return {
+    list,
+    read,
+    write,
+    delete: (relPath: string, o: DeleteOptions) => deleteMany([relPath], o),
+    deleteMany,
+    refreshIndex: refresh,
+  };
 }
