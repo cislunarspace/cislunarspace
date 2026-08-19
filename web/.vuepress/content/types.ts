@@ -1,0 +1,56 @@
+/**
+ * 内容操作模块（Content Module，ADR-0003）的类型定义。
+ *
+ * taxonomy 回答「站点结构是什么」；content 回答「内容如何被安全地增删改查」。
+ * 三个内容写入者（admin GUI、space-news 自动管线、agent/人工）都通过本模块
+ * 操作内容。本批为骨架：路由、list、read、write 与索引刷新；create/delete/
+ * 分类操作随 admin 迁移批次加入。
+ */
+
+/** 内容族：三类内容的路径约定与 frontmatter 规则各不相同。 */
+export type ContentFamily = 'space-news' | 'glossary' | 'kb-section';
+
+export type ContentLocale = 'zh' | 'en';
+
+/** 一条内容条目的路由信息，由 router 从相对路径推导。 */
+export interface ContentRoute {
+  /** 相对 web/ 的 md 路径，如 'space-news/2026/04/2026-04-01-x.md'。 */
+  relPath: string;
+  family: ContentFamily;
+  locale: ContentLocale;
+  /** 双语对应文件的相对路径（目录约定推导）；两侧各推得对方。 */
+  counterpartPath: string;
+}
+
+/** list() 返回的条目视图：路由 + frontmatter 摘要。 */
+export interface ContentEntry extends ContentRoute {
+  /** 双语对应文件是否存在于磁盘。 */
+  counterpartExists: boolean;
+  frontmatter: Record<string, unknown>;
+  /** frontmatter 解析失败时的错误信息（条目仍列出，便于修复）。 */
+  frontmatterError?: string;
+}
+
+/** read() 返回的完整文档。 */
+export interface ContentDoc {
+  frontmatter: Record<string, unknown>;
+  body: string;
+}
+
+/** write() 的局部更新：只给要改的部分，其余保持原样。 */
+export interface ContentUpdate {
+  /** 键级合并：给出的键覆盖旧值，未给出的键保留。 */
+  frontmatter?: Record<string, unknown>;
+  body?: string;
+}
+
+export interface ContentModule {
+  /** 列出一个内容族的全部条目（含配对状态与 frontmatter 摘要）。 */
+  list(family: ContentFamily): ContentEntry[];
+  /** 读一篇：frontmatter + 正文。路径不被 router 识别时抛错。 */
+  read(relPath: string): ContentDoc;
+  /** 改一篇（须已存在）：局部合并落盘，写后触发索引刷新。 */
+  write(relPath: string, next: ContentUpdate): void;
+  /** 重跑派生索引生成。write 内部已调用；幂等。 */
+  refreshIndex(): void;
+}

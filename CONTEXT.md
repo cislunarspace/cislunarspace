@@ -147,7 +147,7 @@ A `TaxonomyNode` of kind `glossary-category` (today: entries in `glossaryCategor
 
 ### Content module
 
-The planned module at `web/.vuepress/content/` (see ADR-0003) that owns all content operations — list, read, write, create, delete, category add/remove, index refresh — behind one domain interface. The three content writers (admin GUI, space-news auto-update pipeline, agents/humans) all go through it. The content module is to content operations what the taxonomy module is to structure data; it is not a database, not a server process, and not part of the build pipeline.
+The module at `web/.vuepress/content/` (see ADR-0003; skeleton landed 2026-08-19 — list/read/write/refreshIndex, with create/delete/categories to follow) that owns all content operations behind one domain interface. The three content writers (admin GUI, space-news auto-update pipeline, agents/humans) all go through it. The content module is to content operations what the taxonomy module is to structure data; it is not a database, not a server process, and not part of the build pipeline. Its frontmatter round-trip uses the `yaml` package (`parseMarkdownDoc`/`renderMarkdown`) — not `utils/frontmatter-parser.ts`, whose simplified parsing cannot round-trip nested frontmatter.
 
 ### Content family
 

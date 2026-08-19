@@ -134,3 +134,12 @@ admin 保留并重构为该模块的 GUI 壳：
 - **继续在 admin 内完善，不建共享模块**——否决。admin 的问题恰是它独占了一层本该共享的逻辑；再加功能只会加深与站点数据模型的耦合，agent 与管线也无法受益。
 - **做成 VuePress 插件或构建钩子**——否决。内容操作发生在构建之外（写源文件），插件是构建期概念，时机不对。
 - **数据库 + API 服务（headless CMS）**——否决。对单人加 AFK agent 的维护模式，文件系统加 git 就是存储与版本控制；引入数据库换不来对等收益，反而多一个要运维的东西。
+
+## 实施后记
+
+**Follow-up 1（骨架）已于 2026-08-19 落地**：`content/` 的 `types.ts`、`router.ts`、`frontmatter-writer.ts`、`module.ts`、`index.ts` 与 17 个接口测试（fixture 目录驱动）。落地时的偏差与发现：
+
+1. **frontmatter 读写改用 `yaml` 包**，未复用 `utils/frontmatter-parser.ts`。该简化解析器读侧覆盖不了嵌套对象（wechatShare 等解析为空串）与多行数组，作为写侧往返会损坏真实词条的 frontmatter。content 模块的 `parseMarkdownDoc`/`renderMarkdown` 走完整 YAML 解析与序列化；generators 的读路径不受影响。
+2. **kb-section 的 section 列表从 taxonomy 的 `kind:'section'` 节点动态派生**（`index.ts`），未引入第二份清单。
+3. **write 的合并语义**为键级合并（给出的键覆盖、未给出的保留），序列化不保留注释与空行——现有内容不使用注释。
+4. create/delete 与分类操作留给 follow-up 2/3，接口届时按 ADR 定义加入。
