@@ -57,11 +57,8 @@ describe('news-categories / validate', () => {
     expect(errors.some((e) => e.includes('order 越出'))).toBe(true);
   });
 
-  it('存量数据现状：commercial 与 commercial-space 标签重复（已知待修，见 ADR-0003）', () => {
-    // 记录性断言：修复合并这两个分类后本用例应改回期望通过
-    expect(validateNewsCategories(newsCategoryNodes).some((e) => e.includes('商业航天'))).toBe(
-      true,
-    );
+  it('存量数据通过校验（commercial-space 已合并，9d7af0fc）', () => {
+    expect(validateNewsCategories(newsCategoryNodes)).toEqual([]);
   });
 });
 

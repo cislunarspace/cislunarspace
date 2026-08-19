@@ -7,7 +7,7 @@ date: 2026-03-31
 lastUpdated: 2026-03-31
 source: Rocket Lab
 source_url: https://rocketlabcorp.com/updates/rocket-lab-receives-regulatory-approval-to-acquire-mynaric/
-category: commercial-space
+category: commercial
 tags: [Rocket Lab, Mynaric, laser communications, acquisition, satellite, optical terminal]
 related:
   - 2026-03-28-celeste-rocket-lab-launch

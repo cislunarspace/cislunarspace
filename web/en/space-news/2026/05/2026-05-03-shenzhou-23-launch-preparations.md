@@ -10,7 +10,7 @@ permalink: /en/space-news/2026/05/2026-05-03-shenzhou-23-launch-preparations/
 author: Tianjiang Shuo
 date: 2026-05-03
 lastUpdated: 2026-05-03
-category: [china, human-spaceflight, commercial-space]
+category: [china, human-spaceflight, commercial]
 ---
 
 # Shenzhou-23 Countdown: China's Space Station Crew Milestone, Global Launch Updates

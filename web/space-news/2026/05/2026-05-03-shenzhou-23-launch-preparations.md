@@ -10,7 +10,7 @@ permalink: /space-news/2026/05/2026-05-03-shenzhou-23-launch-preparations/
 author: 天疆说
 date: 2026-05-03
 lastUpdated: 2026-05-03
-category: [china, human-spaceflight, commercial-space]
+category: [china, human-spaceflight, commercial]
 ---
 
 # 神舟二十三号发射在即：SpaceX猎鹰重型执行任务，商业航天再添新动态

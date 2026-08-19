@@ -116,15 +116,6 @@ export const newsCategoryNodes: TaxonomyNode[] = [
     meta: { color: '#1e40af' },
   },
   {
-    id: 'commercial-space',
-    kind: 'news-category',
-    label: { zh: '商业航天', en: 'Commercial Space' },
-    path: { zh: null, en: null },
-    order: 30120,
-    parentId: null,
-    meta: { color: '#059669' },
-  },
-  {
     id: 'rocket-lab',
     kind: 'news-category',
     label: { zh: 'Rocket Lab', en: 'Rocket Lab' },
