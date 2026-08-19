@@ -17,7 +17,7 @@ export const WEB_ROOT = path.join(REPO_ROOT, 'web');
 /** admin/ 目录 */
 export const ADMIN_ROOT = path.resolve(__dirname, '..');
 /** 回收站目录 */
-export const TRASH_ROOT = path.join(ADMIN_ROOT, 'trash');
+export const TRASH_ROOT = path.join(WEB_ROOT, '.trash');
 /** 操作日志目录 */
 export const LOG_DIR = path.join(ADMIN_ROOT, 'logs');
 

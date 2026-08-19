@@ -1,23 +1,23 @@
 /**
  * 删除流程模块
  *
- * 负责：预览删除范围 → 移动到回收站 → 更新 README 索引 → 重跑 gen-sidebar。
+ * 负责：预览删除范围；执行侧走 content 模块（ADR-0003）——回收站、
+ * README 索引清理、figures 回收、索引刷新的真理都在 content。
  *
  * 安全约定：
  * - 只删除 web/ 内的 .md 与 figures/ 下的图片；
  * - 中英镜像（同 slug）一并纳入范围；
- * - 被删文件移动到 admin/trash/<时间戳>/ 下保留原相对路径；
- * - README 索引中的引用行被移除（仅结构化索引，如月份 README 表格、
- *   glossary/README.md 列表），其余页面引用仅提示不自动改动。
+ * - 被删文件移动到 web/.trash/<时间戳>/ 下保留原相对路径；
+ * - README 索引中的引用行被移除（content 模块维护），其余页面引用仅提示。
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { WEB_ROOT, TRASH_ROOT, PathError, assertOperable } from './paths.js';
-import { classify } from './scan.js';
-import { readMd } from './scan.js';
+import { classify, readMd } from './scan.js';
 import { log } from './log.js';
+import { contentBridge as content } from './content-bridge.ts';
 
 const execFileP = promisify(execFile);
 
@@ -277,44 +277,47 @@ export function previewDelete(paths) {
  * 3. 重跑 npm run gen-sidebar；
  * 4. 全部写操作日志。
  */
+/**
+ * 执行删除：委托 content.deleteMany（回收站、README 索引清理、figures
+ * 回收、索引刷新一体化）。paths 是前端预览后确认的完整集合（含用户
+ * 勾选的镜像两侧），因此 withCounterpart 关闭、由调用方控制粒度。
+ */
 export async function executeDelete(paths, confirmed) {
   if (confirmed !== true) {
     throw new PathError('必须确认删除后才能执行');
   }
-  const scope = expandDeleteScope(paths);
-  if (scope.md.length === 0) {
+  const mdPaths = paths.filter((p) => p.endsWith('.md'));
+  if (mdPaths.length === 0) {
     throw new PathError('没有可删除的文件');
   }
-
-  const stamp = new Date().toISOString().replace(/[:.]/g, '-');
-  const trashDir = path.join(TRASH_ROOT, stamp);
-
-  const moved = [];
-  for (const rel of [...scope.md, ...scope.figures]) {
-    if (moveToTrash(rel, trashDir)) moved.push(rel);
+  const report = content.deleteMany(mdPaths, { withCounterpart: false });
+  // 用户勾选之外的 figures（如 md 之外单独勾选的图）按原路径逐个回收
+  const extraFigures = paths.filter((p) => !p.endsWith('.md'));
+  for (const fig of extraFigures) {
+    const stamp = path.basename(report.trashedTo);
+    const src = path.join(WEB_ROOT, fig);
+    if (fs.existsSync(src)) {
+      const dest = path.join(TRASH_ROOT, stamp, fig);
+      fs.mkdirSync(path.dirname(dest), { recursive: true });
+      fs.renameSync(src, dest);
+      report.deletedFiles.push(fig);
+    }
   }
-
-  const readmesUpdated = [];
-  for (const r of scope.readmes) {
-    if (updateReadmeFile(r.path, r.tokens)) readmesUpdated.push(r.path);
-  }
-
-  const genSidebar = await runGenSidebar();
 
   log('DELETE', [
-    `trash=${path.relative(process.cwd(), trashDir) || trashDir}`,
-    `moved=${moved.join(',')}`,
-    `readmes=${readmesUpdated.join(',')}`,
-    `genSidebar=${genSidebar.ok ? 'ok' : 'failed'}`,
+    `trash=${report.trashedTo}`,
+    `moved=${report.deletedFiles.join(',')}`,
+    `readmeLines=${report.readmeLinesRemoved.map((r) => `${r.file}:${r.count}`).join(',')}`,
+    `skipped=${report.skipped.join(',')}`,
   ]);
 
   return {
-    trashDir: trashDir,
-    trashStamp: stamp,
-    moved,
-    figures: scope.figures,
-    readmesUpdated,
-    genSidebar,
+    trashDir: path.join(TRASH_ROOT, path.basename(report.trashedTo)),
+    trashStamp: path.basename(report.trashedTo),
+    moved: report.deletedFiles,
+    figures: report.deletedFiles.filter((p) => !p.endsWith('.md')),
+    readmesUpdated: report.readmeLinesRemoved.map((r) => r.file),
+    genSidebar: { ok: true, note: 'content.refreshIndex 内建' },
   };
 }
 

@@ -5,8 +5,9 @@
   "description": "地月空间入门指南 - 本地 GUI 网页内容管理器",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "build": "vite build --config web/vite.config.js"
+    "start": "tsx server.js",
+    "build": "vite build --config web/vite.config.js",
+    "dev": "tsx server.js"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
@@ -15,5 +16,8 @@
     "vite": "^6.3.5",
     "vue": "^3.5.13",
     "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
   }
 }

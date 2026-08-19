@@ -14,33 +14,22 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { execFile } from 'node:child_process';
-import { promisify } from 'node:util';
 import YAML from 'yaml';
 import { WEB_ROOT, PathError, assertOperable, resolveInWeb } from './paths.js';
 import { readMd, classify } from './scan.js';
 import { splitFrontmatter, buildMarkdown } from './frontmatter.js';
 import { executeDelete } from './delete.js';
 import { log } from './log.js';
+import {
+  newsCategoryNodes,
+  writeNewsCategoryNodes,
+} from '../../web/.vuepress/taxonomy/news-categories.ts';
+import { contentBridge as content } from './content-bridge.ts';
 
-const execFileP = promisify(execFile);
-
-/** taxonomy 分类节点文件路径（web/.vuepress/taxonomy/data.ts） */
-const TAXONOMY_FILE = path.join(WEB_ROOT, '.vuepress', 'taxonomy', 'data.ts');
+/** news-category 数据文件（web/.vuepress/taxonomy/news-categories.ts，序列化写回） */
+const NEWS_CATEGORIES_FILE = path.join(WEB_ROOT, '.vuepress', 'taxonomy', 'news-categories.ts');
 
 /* ============ News 标签分类 ============ */
-
-/** 列出 taxonomy 中已定义的 news-category 节点 id（用于配色同步） */
-function listTaxonomyNewsCategories() {
-  if (!fs.existsSync(TAXONOMY_FILE)) return new Set();
-  const content = fs.readFileSync(TAXONOMY_FILE, 'utf8');
-  const ids = new Set();
-  // 匹配任意 news-category 节点块里的 id（id 与 kind 之间可能隔着 label 行）
-  const re = /id:\s*'([^']+)',\s*\n([\s\S]*?)\n\s*kind:\s*'news-category'/g;
-  let m;
-  while ((m = re.exec(content))) ids.add(m[1]);
-  return ids;
-}
 
 /** 重新读一个 md 的原始 frontmatter + body（readMd 已有缓存，这里直接读文件保证最新） */
 function readRawMd(rel) {
@@ -57,43 +46,38 @@ function readRawMd(rel) {
 export async function addNewsCategory(name) {
   const id = String(name).trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
   if (!id) throw new PathError('分类名不能为空');
-  if (!fs.existsSync(TAXONOMY_FILE)) throw new PathError(`taxonomy 文件不存在: ${TAXONOMY_FILE}`);
-  const content = fs.readFileSync(TAXONOMY_FILE, 'utf8');
-  if (listTaxonomyNewsCategories().has(id)) {
+  if (newsCategoryNodes.some((n) => n.id === id)) {
     throw new PathError(`分类已存在: ${id}`);
   }
-  // 中文标签直接拼进 TS 单引号字符串，必须转义单引号/反斜杠，避免写坏源文件
-  const labelZh = String(name).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 
-  // 从既有蓝族配色里挑一个可用色；color 列表来自 news-category 节点现有取值
+  // 从既有蓝族配色里挑一个可用色（色相族收敛约定见 news-categories.ts 头注释）
   const palette = ['#2563eb', '#0ea5e9', '#0891b2', '#0284c7', '#1e40af'];
-  const used = new Set([...content.matchAll(/meta:\s*\{\s*color:\s*'([^']+)'/g)].map((m) => m[1]));
+  const used = new Set(newsCategoryNodes.map((n) => String(n.meta?.color ?? '')));
   const color = palette.find((c) => !used.has(c)) || '#2563eb';
 
-  const lastOrder = [...content.matchAll(/order:\s*(\d+)/g)].map((m) => Number(m[1])).filter((n) => n >= 30000);
-  const nextOrder = (lastOrder.length ? Math.max(...lastOrder) : 30000) + 10;
+  const nextOrder =
+    newsCategoryNodes.reduce((max, n) => Math.max(max, n.order), 30000) + 10;
 
-  const node = `  {
-    id: '${id}',
-    kind: 'news-category',
-    label: { zh: '${labelZh}', en: '${id}' },
-    path: { zh: null, en: null },
-    order: ${nextOrder},
-    parentId: null,
-    meta: { color: '${color}' },
-  },`;
-
-  // 插入到 newsCategoryNodes 数组的结尾（该数组声明为 `const newsCategoryNodes: TaxonomyNode[] = [`，
-  // 收尾是它的 `];`）。不能用全文件最后一个 `];`——那是 flatTaxonomyNodes 的收尾，会写错数组。
-  const arrStart = content.indexOf('const newsCategoryNodes: TaxonomyNode[] = [');
-  if (arrStart === -1) throw new PathError('未找到 newsCategoryNodes 数组声明');
-  const arrEndMarker = content.indexOf('];', arrStart);
-  if (arrEndMarker === -1) throw new PathError('未找到 newsCategoryNodes 数组结尾');
-  const endIdx = arrEndMarker + 1; // 保留 ']'
-  const updated = content.slice(0, endIdx) + '\n' + node + '\n' + content.slice(arrEndMarker + 1);
-  fs.writeFileSync(TAXONOMY_FILE, updated, 'utf8');
-  log('ADD_NEWS_CATEGORY', [`${id} -> ${path.relative(process.cwd(), TAXONOMY_FILE)}`]);
-  return { ok: true, id, color, node: `taxonomy/data.ts: newsCategoryNodes + ${id}` };
+  // 整文件序列化写回（ADR-0003：禁止对源文件做文本拼接/正则手术），
+  // 重复标签等错误由 writeNewsCategoryNodes 的校验拦截。
+  writeNewsCategoryNodes(
+    [
+      ...newsCategoryNodes,
+      {
+        id,
+        kind: 'news-category',
+        label: { zh: String(name).trim(), en: id },
+        path: { zh: null, en: null },
+        order: nextOrder,
+        parentId: null,
+        meta: { color },
+      },
+    ],
+    NEWS_CATEGORIES_FILE,
+  );
+  content.refreshIndexInBackground(`addNewsCategory:${id}`);
+  log('ADD_NEWS_CATEGORY', [`${id} -> taxonomy/news-categories.ts (serialized)`]);
+  return { ok: true, id, color, node: `taxonomy/news-categories.ts + ${id}` };
 }
 
 /**
@@ -163,10 +147,9 @@ export async function deleteNewsCategory(id, { deleteEntries = false } = {}) {
   }
 
   removeTaxonomyNode(norm);
-  // 保条目模式重跑 gen-sidebar；连删模式 executeDelete 已各自重跑，此处不重复
-  if (!deleteEntries) {
-    genSidebarResult = await runGenSidebar();
-  }
+  // 索引刷新统一走 content 模块（后台执行）
+  content.refreshIndexInBackground(`deleteNewsCategory:${norm}`);
+  genSidebarResult = { ok: true, note: 'background' };
 
   log('DELETE_NEWS_CATEGORY', [
     `${norm} mode=${deleteEntries ? 'with-entries' : 'keep-entries'}`,
@@ -243,30 +226,13 @@ function stripCategory(raw, id) {
   return out.join('\n');
 }
 
-/** 从 taxonomy/data.ts 移除 news-category 节点（连同其配置块） */
+/** 从 news-categories.ts 移除节点（序列化写回剩余节点） */
 function removeTaxonomyNode(id) {
-  if (!fs.existsSync(TAXONOMY_FILE)) return false;
-  const content = fs.readFileSync(TAXONOMY_FILE, 'utf8');
-  const lines = content.split('\n');
-
-  // 找到包含 `id: '<id>'` 的行
-  const idLineIdx = lines.findIndex((l) => l.includes(`id: '${id}'`));
-  if (idLineIdx === -1) return false;
-
-  // 向上找到节点起始行：该节点块是 2 空格缩进的 `  {`（在 newsCategoryNodes 数组内）
-  let startIdx = idLineIdx;
-  while (startIdx > 0 && !/^  \{$/.test(lines[startIdx])) startIdx--;
-  if (startIdx <= 0) return false;
-
-  // 向下找到节点结束行：`  },`（2 空格缩进的 },，且不是内嵌对象如 label 的结束）
-  let endIdx = idLineIdx;
-  while (endIdx < lines.length && !/^  \},$/.test(lines[endIdx])) endIdx++;
-  if (endIdx >= lines.length) return false;
-
-  // 删除 [startIdx, endIdx] 整段行
-  const updated = [...lines.slice(0, startIdx), ...lines.slice(endIdx + 1)].join('\n');
-  if (updated === content) return false;
-  fs.writeFileSync(TAXONOMY_FILE, updated, 'utf8');
+  if (!newsCategoryNodes.some((n) => n.id === id)) return false;
+  writeNewsCategoryNodes(
+    newsCategoryNodes.filter((n) => n.id !== id),
+    NEWS_CATEGORIES_FILE,
+  );
   return true;
 }
 
@@ -359,51 +325,18 @@ export function deleteGlossaryCategory(slug, { deleteEntries = false, target = '
     }
   }
 
+  content.refreshIndexInBackground(`deleteGlossaryCategory:${norm}`);
   if (!deleteEntries) {
-    // 移动后重跑 gen-sidebar，更新站点索引
-    return runGenSidebar().then((genSidebar) => {
-      log('DELETE_GLOSSARY_CATEGORY', [
-        `${norm} -> ${target} (keep-entries)`,
-        `moved=${moved.length}`,
-        `genSidebar=${genSidebar.ok ? 'ok' : 'failed'}`,
-      ]);
-      return { ok: true, slug: norm, deleteEntries, target, moved, deleted: [], genSidebar };
-    });
+    log('DELETE_GLOSSARY_CATEGORY', [`${norm} -> ${target} (keep-entries)`, `moved=${moved.length}`]);
+    return { ok: true, slug: norm, deleteEntries, target, moved, deleted: [], genSidebar: { ok: true, note: 'background' } };
   }
 
-  // 连删：删除后也重跑 gen-sidebar，清理站点索引中的已删条目
-  return runGenSidebar().then((genSidebar) => {
-    log('DELETE_GLOSSARY_CATEGORY', [
-      `${norm} (with-entries)`,
-      `deleted=${deleted.length}`,
-      `trash=${path.relative(process.cwd(), trashRoot)}`,
-      `genSidebar=${genSidebar.ok ? 'ok' : 'failed'}`,
-    ]);
-    return {
-      ok: true,
-      slug: norm,
-      deleteEntries,
-      deleted,
-      trashStamp,
-      moved: [],
-      genSidebar,
-    };
-  });
+  log('DELETE_GLOSSARY_CATEGORY', [
+    `${norm} (with-entries)`,
+    `deleted=${deleted.length}`,
+    `trash=${path.relative(process.cwd(), trashRoot)}`,
+  ]);
+  return { ok: true, slug: norm, deleteEntries, deleted, trashStamp, moved: [], genSidebar: { ok: true, note: 'background' } };
 }
 
-/** 在 web/ 目录执行 npm run gen-sidebar */
-async function runGenSidebar() {
-  try {
-    const { stdout, stderr } = await execFileP('npm', ['run', 'gen-sidebar'], {
-      cwd: WEB_ROOT,
-      timeout: 120000,
-    });
-    return { ok: true, stdout: stdout.slice(-600), stderr: stderr.slice(-600) };
-  } catch (err) {
-    return {
-      ok: false,
-      message: String(err.message || '').slice(0, 300),
-      stderr: String(err.stderr || '').slice(0, 600),
-    };
-  }
-}
+

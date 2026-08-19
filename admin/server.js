@@ -2,9 +2,14 @@
  * 地月空间内容管理器 - 后端入口
  *
  * 纯本地运行：不部署线上，不做任何 git 操作，只做 web/ 下的
- * 文件/文件夹读写删除。删除统一进回收站，全部操作写日志。
+ * 文件/文件夹读写删除。删除统一进回收站（web/.trash，ADR-0003
+ * content 模块管理），全部操作写日志。
  *
- * 启动：cd admin && npm install && node server.js
+ * 数据操作走 web/.vuepress/content 模块（ADR-0003）——路径约定、
+ * 双语配对、删除回收、索引刷新的真理在 content；本服务只做
+ * HTTP 形状适配。分类写回走 writeNewsCategoryNodes 序列化生成。
+ *
+ * 启动：cd admin && npm install && npm start（tsx 运行，可 import TS）
  * 访问：http://localhost:8765
  */
 import fs from 'node:fs';
@@ -18,13 +23,14 @@ import { log } from './lib/log.js';
 import { splitFrontmatter, parseFrontmatter, stringifyFrontmatter, buildMarkdown } from './lib/frontmatter.js';
 import { validateYaml, validateFile } from './lib/validate.js';
 import { listContents, listCategories, readMd, classify } from './lib/scan.js';
+import { contentBridge as content } from './lib/content-bridge.ts';
 import {
   addNewsCategory,
   deleteNewsCategory,
   addGlossaryCategory,
   deleteGlossaryCategory,
 } from './lib/categories.js';
-import { previewDelete, executeDelete, listTrash, restoreFile } from './lib/delete.js';
+import { previewDelete, listTrash, restoreFile } from './lib/delete.js';
 import * as sitePreview from './lib/preview.js';
 import * as ai from './lib/ai.js';
 
@@ -98,7 +104,7 @@ function readContent(relPath) {
   return base;
 }
 
-/** 保存一个 md 文件：frontmatterRaw 必须是合法 YAML */
+/** 保存一个 md 文件：frontmatterRaw 必须是合法 YAML；保存后后台刷新派生索引 */
 function saveMdFile({ path: rel, frontmatterRaw, body }) {
   const r = String(rel).replace(/\\/g, '/').replace(/^\/+/, '');
   assertEditableMd(r);
@@ -114,6 +120,7 @@ function saveMdFile({ path: rel, frontmatterRaw, body }) {
   const content = buildMarkdown(frontmatterRaw, body ?? '');
   fs.writeFileSync(full, content, 'utf8');
   log('SAVE', [r]);
+  content.refreshIndexInBackground(`save:${r}`);
   return readContent(r);
 }
 
@@ -253,6 +260,31 @@ app.post('/api/validate', (req, res) => {
       return;
     }
     throw new PathError('缺少 frontmatterRaw 或 path');
+  } catch (err) {
+    sendError(res, err);
+  }
+});
+
+/** 新建文章（content.create，admin 的「新建内容」缺口）：POST /api/content/create */
+app.post('/api/content/create', (req, res) => {
+  try {
+    const b = req.body || {};
+    const result = content.create('space-news', {
+      date: String(b.date || ''),
+      slug: String(b.slug || ''),
+      titleZh: String(b.titleZh || ''),
+      titleEn: String(b.titleEn || ''),
+      descriptionZh: b.descriptionZh ? String(b.descriptionZh) : undefined,
+      descriptionEn: b.descriptionEn ? String(b.descriptionEn) : undefined,
+      categoryZh: b.categoryZh ?? 'china',
+      categoryEn: b.categoryEn,
+      bodyZh: String(b.bodyZh || ''),
+      bodyEn: b.bodyEn ? String(b.bodyEn) : undefined,
+      sourceUrl: b.sourceUrl ? String(b.sourceUrl) : undefined,
+      withEn: b.withEn === true,
+    });
+    log('CREATE', [result.zhPath, result.enPath ?? '-']);
+    res.json({ ok: true, ...result });
   } catch (err) {
     sendError(res, err);
   }

@@ -7,7 +7,7 @@ Space News（航天动态）、Glossary（术语词典）、知识库章节页�
 
 - 只跑在 `localhost`，不部署线上。
 - **不做任何 git 操作**（`add` / `commit` / `push` 都不做），git 交给你手动。
-- 删除不直接 `rm`，而是移动到回收站 `admin/trash/<时间戳>/`，可恢复。
+- 删除不直接 `rm`，而是移动到回收站 `web/.trash/<时间戳>/`（content 模块管理），可恢复。
 - 所有增删改都会追加记录到 `admin/logs/manager.log`。
 
 ---
@@ -17,12 +17,12 @@ Space News（航天动态）、Glossary（术语词典）、知识库章节页�
 ```bash
 cd admin
 npm install          # 首次
-node server.js
+npm start    # tsx 运行（可 import web 侧 TS 的 content 模块）
 ```
 
 启动后浏览器访问 **http://localhost:8765**。
 
-- 端口可用环境变量覆盖：`PORT=9000 node server.js`
+- 端口可用环境变量覆盖：`PORT=9000 npm start    # tsx 运行（可 import web 侧 TS 的 content 模块）`
 - 首次启动如果 `admin/web/dist/` 不存在，会自动用 Vite 构建前端（需十几秒）。
   之后如果改了 `admin/web/src/` 下的前端代码，手动重新构建：
   ```bash
@@ -98,7 +98,7 @@ node server.js
    - README 索引中引用该条目的行（新闻的月份 README、glossary 主 README）
    - 其它页面的引用（仅提示，不自动改动）
 3. 确认后执行：
-   - 文件移动到 `admin/trash/<时间戳>/`（保留原相对路径）
+   - 文件移动到 `web/.trash/<时间戳>/`（保留原相对路径）
    - 自动更新 README 索引（移除引用行，刷新 `lastUpdated`）
    - 在 `web/` 目录重跑 `npm run gen-sidebar` 重新生成站点 JSON
 4. 全部写入 `admin/logs/manager.log`
@@ -115,11 +115,19 @@ node server.js
 
 ---
 
+## 内容操作架构（ADR-0003 follow-up 3b）
+
+- 数据操作走 `web/.vuepress/content` 模块：路径约定、双语配对、删除回收（`web/.trash`）、索引刷新的真理在 content；本服务只做 HTTP 形状适配（`lib/content-bridge.ts`）。
+- **保存后自动刷新派生索引**（后台执行 gen，编辑器不等待）——修复了此前“保存后列表/侧边栏数据陈旧”的问题。
+- **新建内容**：`POST /api/content/create`（content.create，自动定路径、建月份 README 索引行）；前端新建入口待后续版本。
+- **分类写回**：news 分类的增删经 `writeNewsCategoryNodes` 整文件序列化生成（含重复标签/颜色校验），不再对源文件做正则手术。
+- 列表/读取仍走本地 scan（迁移到 content.list 为后续批次）。
+
 ## 回收站恢复方式
 
 **界面恢复**：打开“回收站”tab，找到对应批次，点文件旁的“恢复”。
 
-**手动恢复**：被删文件位于 `admin/trash/<时间戳>/<原相对路径>`，
+**手动恢复**：被删文件位于 `web/.trash/<时间戳>/<原相对路径>`，
 把它移回 `web/` 下的原相对位置即可。例如：
 
 ```bash

@@ -223,3 +223,120 @@ describe('content / delete', () => {
     expect(report.deletedFiles).toEqual(['glossary/fundamentals/bvp.md']);
   });
 });
+
+describe('content / create（space-news）', () => {
+  it('新建中英文章：frontmatter 模板完整，月份 README 自动建表', () => {
+    const r = content.create('space-news', {
+      date: '2026-08-20',
+      slug: 'test-create-demo',
+      titleZh: '测试新建文章',
+      titleEn: 'Test create article',
+      categoryZh: ['china'],
+      bodyZh: '正文一段。\n',
+      bodyEn: 'Body paragraph.\n',
+      withEn: true,
+    });
+    expect(r.zhPath).toBe('space-news/2026/08/2026-08-20-test-create-demo.md');
+    expect(r.enPath).toBe('en/space-news/2026/08/2026-08-20-test-create-demo.md');
+    const zh = content.read(r.zhPath);
+    expect(zh.frontmatter.layout).toBe('SpaceNewsArticle');
+    expect(zh.frontmatter.permalink).toBe('/space-news/2026/08/2026-08-20-test-create-demo/');
+    expect(zh.frontmatter.category).toEqual(['china']);
+    // 月份 README 新建并含表格行
+    const readme = fs.readFileSync(path.join(webRoot, 'space-news/2026/08/README.md'), 'utf-8');
+    expect(readme).toContain('[测试新建文章](./2026-08-20-test-create-demo/)');
+    expect(refreshSpy).toHaveBeenCalled();
+  });
+
+  it('重复 slug 拒绝；非法 slug/date 拒绝；缺 bodyEn 的 withEn 拒绝', () => {
+    content.create('space-news', {
+      date: '2026-08-20',
+      slug: 'dup-check',
+      titleZh: 'x',
+      titleEn: 'x',
+      categoryZh: 'china',
+      bodyZh: 'x',
+      withEn: false,
+    });
+    expect(() =>
+      content.create('space-news', {
+        date: '2026-08-20',
+        slug: 'dup-check',
+        titleZh: 'x',
+        titleEn: 'x',
+        categoryZh: 'china',
+        bodyZh: 'x',
+        withEn: false,
+      }),
+    ).toThrow(/已存在/);
+    expect(() =>
+      content.create('space-news', {
+        date: '20260820',
+        slug: 'ok',
+        titleZh: 'x',
+        titleEn: 'x',
+        categoryZh: 'china',
+        bodyZh: 'x',
+        withEn: false,
+      }),
+    ).toThrow(/date/);
+    expect(() =>
+      content.create('space-news', {
+        date: '2026-08-20',
+        slug: 'Bad_Slug',
+        titleZh: 'x',
+        titleEn: 'x',
+        categoryZh: 'china',
+        bodyZh: 'x',
+        withEn: false,
+      }),
+    ).toThrow(/slug/);
+    expect(() =>
+      content.create('space-news', {
+        date: '2026-08-21',
+        slug: 'no-en',
+        titleZh: 'x',
+        titleEn: 'x',
+        categoryZh: 'china',
+        bodyZh: 'x',
+        withEn: true,
+      }),
+    ).toThrow(/bodyEn/);
+  });
+
+  it('create 后 delete：月份 README 表格行与 figures 目录一并回收', () => {
+    content.create('space-news', {
+      date: '2026-08-20',
+      slug: 'neighbor-entry',
+      titleZh: '邻行文章',
+      titleEn: 'Neighbor',
+      categoryZh: 'china',
+      bodyZh: 'x',
+      withEn: false,
+    });
+    const r = content.create('space-news', {
+      date: '2026-08-22',
+      slug: 'full-cycle',
+      titleZh: '全周期文章',
+      titleEn: 'Full cycle',
+      categoryZh: 'china',
+      bodyZh: '正文。\n',
+      withEn: true,
+      bodyEn: 'Body.\n',
+    });
+    const figDir = path.join(webRoot, 'space-news/2026/08/figures/2026-08-22-full-cycle');
+    fs.mkdirSync(figDir, { recursive: true });
+    fs.writeFileSync(path.join(figDir, 'hero.jpg'), 'fake');
+    const report = content.delete(r.zhPath, { withCounterpart: true });
+    expect(report.deletedFiles.sort()).toEqual([r.enPath, r.zhPath].sort());
+    expect(fs.existsSync(figDir)).toBe(false);
+    expect(
+      fs.existsSync(
+        path.join(webRoot, report.trashedTo, 'space-news/2026/08/figures/2026-08-22-full-cycle/hero.jpg'),
+      ),
+    ).toBe(true);
+    const readme = fs.readFileSync(path.join(webRoot, 'space-news/2026/08/README.md'), 'utf-8');
+    expect(readme).not.toContain('full-cycle');
+    expect(readme).toContain('neighbor-entry'); // 其他行保留
+  });
+});
