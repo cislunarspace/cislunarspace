@@ -32,6 +32,7 @@ export function buildSidebarConfigs(): {
   // no glossary sidebar is produced (ADR-0004).
   Object.assign(zhConfig, {
     '/': [wayfinding.zh],
+    '/glossary/': [wayfinding.zh],
     '/space-news/': [wayfinding.zh],
     '/en/space-news/': [wayfinding.zh],
     '/satellite-simulation/': false,
@@ -39,6 +40,7 @@ export function buildSidebarConfigs(): {
 
   Object.assign(enConfig, {
     '/en/': [wayfinding.en],
+    '/en/glossary/': [wayfinding.en],
     '/en/space-news/': [wayfinding.en],
     '/en/satellite-simulation/': false,
   });

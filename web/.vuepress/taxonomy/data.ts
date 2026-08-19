@@ -65,6 +65,14 @@ const navbarChildren: TaxonomyNode[] = [
     parentId: 'navbar/inquiry-tools',
   },
   {
+    id: 'navbar/glossary',
+    kind: 'page',
+    label: { zh: '地月空间术语词典', en: 'Cislunar Glossary' },
+    path: { zh: '/glossary/', en: '/en/glossary/' },
+    order: 40,
+    parentId: NAVBAR_ROOT_ID,
+  },
+  {
     id: 'navbar/resources-tools',
     kind: 'page',
     label: { zh: '资源与工具', en: 'Resources & Tools' },
@@ -259,7 +267,7 @@ const glossaryCategoryNodes: TaxonomyNode[] = [
     path: { zh: null, en: null },
     order: 20080,
     parentId: GLOSSARY_ROOT_ID,
-    meta: { slug: 'other-tech' },
+    meta: { slug: 'other' },
   },
 ];
 

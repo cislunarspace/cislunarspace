@@ -62,6 +62,7 @@ describe('gen-sidebar command generation', () => {
         'space-news-sidebar-data.json',
         'ai-chat-index.json',
         'ai-chat-context.json',
+        'glossary-dictionary.json',
       ]),
     );
   });

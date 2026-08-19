@@ -9,6 +9,7 @@ describe('buildSidebarConfigs', () => {
     expect(Object.keys(configs.zh).sort()).toEqual(
       [
         '/',
+        '/glossary/',
         '/what-is-cislunarspace/',
         '/cislunar-orbits/',
         '/research-frontiers/',
@@ -24,6 +25,7 @@ describe('buildSidebarConfigs', () => {
     expect(Object.keys(configs.en).sort()).toEqual(
       [
         '/en/',
+        '/en/glossary/',
         '/en/what-is-cislunarspace/',
         '/en/cislunar-orbits/',
         '/en/research-frontiers/',

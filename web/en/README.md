@@ -45,6 +45,10 @@ Build the big picture in three steps, in order:
 Just saw a launch headline and want the context? Space News is updated daily and archived by month — another way into this space. And whenever something is unclear, ask AI Q&A: it answers from this site's full content.
 
 <div class="module-grid">
+  <a href="/en/glossary/" class="module-card module-card--glossary">
+    <h3>Glossary</h3>
+    <p>Bilingual · searchable</p>
+  </a>
   <a href="/en/space-news/" class="module-card module-card--space-news">
     <h3>Space News</h3>
     <p>Daily industry archive</p>

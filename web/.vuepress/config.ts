@@ -39,17 +39,17 @@ export default defineUserConfig({
   description: '系统掌握地月空间科学、技术与工程实践',
 
   // Exclude internal .vuepress/, helper files, and node_modules from site pages.
-  // Glossary entry pages stay excluded (client-side dictionary renders them);
-  // the two README.md dictionary pages are re-included after the negations.
+  // Glossary entry pages (glossary/<cat>/<slug>.md) stay excluded — the
+  // client-side dictionary renders them; the two README.md dictionary pages
+  // at glossary/ root are included. tinyglobby applies negations last, so
+  // entries are excluded by exact depth instead of re-including the READMEs.
   pagePatterns: [
     '**/*.md',
     '!**/_*.md',
     '!.vuepress/**/*.md',
     '!node_modules/**',
-    '!glossary/**',
-    '!en/glossary/**',
-    'glossary/README.md',
-    'en/glossary/README.md',
+    '!glossary/*/*.md',
+    '!en/glossary/*/*.md',
   ],
 
   locales: {

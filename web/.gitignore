@@ -7,3 +7,4 @@
 .vuepress/public/bibliography.json
 # 内容删除回收站（content.delete，可整体恢复）
 .trash/
+.vuepress/public/glossary-dictionary.json

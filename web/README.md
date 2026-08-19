@@ -45,6 +45,10 @@ wechatShare:
 刚看到某条发射新闻，想知道背后的来龙去脉？航天动态每日更新、按月归档，是进入这片空间的另一条路。读到哪里不懂，随时问 AI 问答——它基于本站全部内容作答。
 
 <div class="module-grid">
+  <a href="/glossary/" class="module-card module-card--glossary">
+    <h3>术语词典</h3>
+    <p>中英对照 · 站内检索</p>
+  </a>
   <a href="/space-news/" class="module-card module-card--space-news">
     <h3>航天动态</h3>
     <p>每日新闻归档</p>

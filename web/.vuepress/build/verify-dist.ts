@@ -69,7 +69,7 @@ Checks (current-dist mode):
   4. Metadata           og:title/description/url/type, twitter:card, description
   5. Hreflang           zh and en homes cross-link via rel=alternate
   6. Figures sync       every source figures/ file is present in dist
-  7. Key pages          index/space-news/ai-chat/forum/404/sitemap/robots
+  7. Key pages          index/glossary/space-news/ai-chat/forum/404/sitemap/robots
   8. Asset sanity       no broken local hrefs/src on sampled pages
   9. JSON endpoints     ai-chat-config/context/index parse as JSON
 
@@ -494,6 +494,8 @@ function verifyCurrent(distRoot: string): void {
   const keyPages = [
     'index.html',
     'en/index.html',
+    'glossary/index.html',
+    'en/glossary/index.html',
     'space-news/index.html',
     'en/space-news/index.html',
     'space-news/archive.html',
@@ -532,6 +534,16 @@ function verifyCurrent(distRoot: string): void {
       rel: 'en/index.html',
       mustInclude: ["Cislunar Space Beginner's Guide"],
       mustExclude: ['Community Forum', 'AI Q&A', 'Glossary', 'Archive'],
+    },
+    {
+      rel: 'glossary/index.html',
+      mustInclude: ['地月空间术语词典'],
+      mustExclude: ['社区论坛', 'AI 问答', 'AI问答'],
+    },
+    {
+      rel: 'en/glossary/index.html',
+      mustInclude: ['Cislunar Space Glossary'],
+      mustExclude: ['Community Forum', 'AI Q&A'],
     },
     {
       rel: 'space-news/index.html',
