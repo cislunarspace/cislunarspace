@@ -66,8 +66,6 @@ The primary engineering applications of DROs include:
 
 ## Simulation Experiments
 
-Explore the orbital morphology of DROs interactively in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/), and understand its retrograde characteristics in the rotating frame.
-
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)

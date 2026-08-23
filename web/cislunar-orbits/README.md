@@ -47,7 +47,7 @@ twitter:
 | 平动点与晕族轨道 | 相对地–月平动点附近的周期/拟周期轨道，可用于网关、中继与观测 | 参见 [NRHO](/glossary/orbits/nrho/) 等词条 |
 | 远距离逆行轨道（DRO） | 相对地–月系逆行、尺度较大的族，适合演示与特定编队 | 参见 DRO |
 
-具体设计需结合星历、推力模型与任务条例；本站 [资源与工具](/resources-tools/) 汇总了常用数据与开源库，[卫星轨道仿真](/satellite-simulation/) 提供可交互的入门实验环境。
+具体设计需结合星历、推力模型与任务条例；本站 [资源与工具](/resources-tools/) 汇总了常用数据与开源库。
 
 ## 三大专题详解
 
@@ -71,6 +71,6 @@ DRO（Distant Retrograde Orbit，远距离逆行轨道）是一类在旋转坐�
 
 *正文与算例仍在持续扩充；若你希望补充某一轨道族或案例，欢迎通过仓库提交 PR。*
 
-## 仿真实验
+## 背景知识（延伸阅读）
 
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中交互式探索各类轨道的动力学特性。
+轨道教程涉及的数学与力学工具，另见[背景知识](/background/)栏目（不占导航入口，供深入时查阅）：[打靶法](/background/math/shooting-method)、[延拓法](/background/math/continuation)、[辛积分器](/background/math/symplectic-integrator)、[摄动理论](/background/mechanics/perturbation)、[最优控制](/background/control/optimal-control)。

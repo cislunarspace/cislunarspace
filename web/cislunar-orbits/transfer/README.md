@@ -66,8 +66,6 @@ $$C_3 = v^2 - \frac{2\mu}{r}$$
 
 ## 仿真实验
 
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中设计地月转移轨道，观察不同 $C_3$ 和发射窗口下的转移轨迹。
-
 ## 相关概念
 
 - [NRHO（近直线晕轨道）](/cislunar-orbits/nrho/)

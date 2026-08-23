@@ -16,7 +16,7 @@ const props = defineProps({
 });
 const emit = defineEmits(['update:show', 'apply']);
 
-const KIND_LABEL = { news: 'Space News 文章', glossary: '术语词典条目', kb: '知识库章节' };
+const KIND_LABEL = { glossary: '术语词典条目', kb: '知识库章节' };
 
 const messages = ref([]); // [{ role, content }]
 const draft = ref('');

@@ -6,8 +6,6 @@
  *   family + locale + 标识（由各族的路径模式承载）→ relPath
  *
  * 规则来源（沿用既有目录约定，未引入新约定）：
- *   - space-news 文章：(en/)?space-news/YYYY/MM/YYYY-MM-DD-slug.md
- *     （月份 README 是索引页，不是内容条目，不识别）
  *   - glossary 词条：(en/)?glossary/<category>/<slug>.md
  *     （glossary/README.md 同理不识别）
  *   - kb-section 页面：(en/)?<section>/ 下任意深度的 .md（含各层 README）。
@@ -16,7 +14,6 @@
  */
 import type { ContentFamily, ContentLocale, ContentRoute } from './types.ts';
 
-const SPACE_NEWS_ARTICLE = /^(?:en\/)?space-news\/(\d{4})\/(\d{2})\/(\d{4}-\d{2}-\d{2}-[^/]+)\.md$/;
 const GLOSSARY_ENTRY = /^(?:en\/)?glossary\/([^/]+)\/([^/]+)\.md$/;
 
 /** 路径的安全检查：拒绝绝对路径与穿越（router 只认 web/ 内的相对路径）。 */
@@ -53,10 +50,7 @@ export function createContentRouter(sectionDirs: readonly string[]): ContentRout
     if (!isSafeRelPath(relPath)) return null;
 
     let family: ContentFamily | null = null;
-    if (SPACE_NEWS_ARTICLE.test(relPath)) {
-      // 月份 README 已被文章正则排除（README.md 不匹配日期-slug 模式）
-      family = 'space-news';
-    } else if (GLOSSARY_ENTRY.test(relPath)) {
+    if (GLOSSARY_ENTRY.test(relPath)) {
       family = 'glossary';
     } else {
       const top = withoutLocalePrefix(relPath).split('/')[0] ?? '';

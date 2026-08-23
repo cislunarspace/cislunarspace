@@ -10,20 +10,17 @@
  *   - Every `id` is unique within the file. Sibling order is the only
  *     sort key (handled by `compareNodes` in `module.ts`).
  *   - `parentId` is either `null` (top-level) or the id of an existing
- *     root. This file uses four roots: `navbar`, `wayfinding`,
- *     `glossary`, plus 15 `news-category` nodes (each is its own root).
+ *     root. This file uses three roots: `navbar`, `wayfinding`,
+ *     `glossary`.
  *     `glossary-category` nodes may also nest one level: a subcategory
  *     node's `parentId` is its category node (e.g. `glossary/orbits`),
  *     and its `meta.slug` is the full path form (`orbits/halo`).
  *   - Order ranges are by kind for validator sibling-order uniqueness:
  *     navbar subtree 0–9 999, wayfinding 10 000–19 999, glossary
- *     20 000–29 999, news-category 30 000–39 999. Section / page nodes
+ *     20 000–29 999. Section / page nodes
  *     (in `sidebar/data.ts`) live in the same module after `defineTaxonomy`
  *     flattens the nested literal.
- *   - `news-category` nodes must carry `meta.color` as a 7-char hex
- *     (`#RRGGBB`); the validator enforces it.
  */
-import { newsCategoryNodes } from './news-categories';
 import type { TaxonomyNode } from './types';
 
 export const NAVBAR_ROOT_ID = 'navbar';
@@ -43,31 +40,6 @@ export const navbarRoot: TaxonomyNode = {
 
 const navbarChildren: TaxonomyNode[] = [
   {
-    id: 'navbar/inquiry-tools',
-    kind: 'group',
-    label: { zh: '探究工具', en: 'Inquiry Tools' },
-    path: { zh: null, en: null },
-    order: 10,
-    parentId: NAVBAR_ROOT_ID,
-  },
-  {
-    id: 'navbar/satellite-simulation',
-    kind: 'page',
-    label: { zh: '卫星轨道仿真教学平台', en: 'Satellite Simulation' },
-    path: { zh: '/satellite-simulation/', en: '/satellite-simulation/' },
-    order: 20,
-    parentId: 'navbar/inquiry-tools',
-  },
-  {
-    id: 'navbar/dialectic',
-    kind: 'page',
-    label: { zh: '史学思辨', en: 'Historical Inquiry' },
-    path: { zh: '/dialectic', en: null },
-    locales: ['zh'],
-    order: 30,
-    parentId: 'navbar/inquiry-tools',
-  },
-  {
     id: 'navbar/glossary',
     kind: 'page',
     label: { zh: '地月空间术语词典', en: 'Cislunar Glossary' },
@@ -81,14 +53,6 @@ const navbarChildren: TaxonomyNode[] = [
     label: { zh: '资源与工具', en: 'Resources & Tools' },
     path: { zh: '/resources-tools/', en: '/en/resources-tools/' },
     order: 50,
-    parentId: NAVBAR_ROOT_ID,
-  },
-  {
-    id: 'navbar/space-news',
-    kind: 'page',
-    label: { zh: 'Space News', en: 'Space News' },
-    path: { zh: '/space-news/', en: '/en/space-news/' },
-    order: 60,
     parentId: NAVBAR_ROOT_ID,
   },
   {
@@ -187,14 +151,6 @@ const wayfindingChildren: TaxonomyNode[] = [
     order: 10060,
     parentId: WAYFINDING_ROOT_ID,
   },
-  {
-    id: 'wayfinding/space-news',
-    kind: 'group',
-    label: { zh: '航天新闻归档', en: 'Space industry archive' },
-    path: { zh: '/space-news/', en: '/en/space-news/' },
-    order: 10070,
-    parentId: WAYFINDING_ROOT_ID,
-  },
 ];
 
 // ── Glossary subtree ─────────────────────────────────────────────────────────
@@ -282,18 +238,6 @@ const glossaryCategoryNodes: TaxonomyNode[] = [
 // 表示未细分。admin 添加 glossary 子分类时会向本数组追加节点。
 const glossarySubcategoryNodes: TaxonomyNode[] = [];
 
-// ── News categories (15 roots) ───────────────────────────────────────────────
-//
-// Each `news-category` node carries a 7-char hex `meta.color` consumed by
-// SpaceNewsHome / Sidebar / Archive components. The validator enforces
-// the hex shape at module load so a typo doesn't silently propagate.
-//
-// 配色约定（色相族收敛）：机构与公司用蓝族（与品牌蓝 #2563eb 同族），重大
-// 计划与科学用靛紫族，语义色只留少数几个（china 国旗红、launch 火焰橙、
-// commercial 商业绿、policy 政策金、human-spaceflight 玫红）。新增分类时
-// 先归入既有色相族，不要再引入新色相。
-
-
 // ── Combined flat array ──────────────────────────────────────────────────────
 
 export const flatTaxonomyNodes: TaxonomyNode[] = [
@@ -304,5 +248,4 @@ export const flatTaxonomyNodes: TaxonomyNode[] = [
   glossaryRoot,
   ...glossaryCategoryNodes,
   ...glossarySubcategoryNodes,
-  ...newsCategoryNodes,
 ];

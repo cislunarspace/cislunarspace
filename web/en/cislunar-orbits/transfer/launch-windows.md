@@ -84,7 +84,3 @@ NASA's **General Mission Analysis Tool** (GMAT) is an open-source orbital design
 ### Amateur Tools
 
 Enthusiasts can also use open-source tools such as **Firefly Aerospace's** transfer analysis tools or Python libraries (such as `poliastro`) for basic window analysis.
-
-## Simulation Experiments
-
-You can set different TLI launch timings in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe changes in transfer trajectories and arrival points.

@@ -79,7 +79,3 @@ $$\Delta V_{TLI} = v_{escape} - v_{LEO} \approx 3.1-3.3 \text{ km/s}$$
 
 - **GMAT**：NASA 开源的轨道设计工具，支持 TLI 优化和 pork-chop 图生成
 - **STK**（Satellite Tool Kit）：AGI 公司的专业轨道分析软件，提供高精度的窗口计算
-
-## 仿真实验
-
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中设计 TLI 机动，观察不同发射窗口下的转移轨道形态。

@@ -64,8 +64,6 @@ After arriving in cislunar space, the spacecraft must perform rendezvous and doc
 
 ## Simulation
 
-You can design Earth-Moon transfer orbits in the [Satellite Orbit Simulation Lab](/en/satellite-simulation/) and observe transfer trajectories under different $C_3$ values and launch windows.
-
 ## Related Concepts
 
 - [NRHO (Near-Rectilinear Halo Orbit)](/en/cislunar-orbits/nrho/)

@@ -55,7 +55,3 @@ The primary application value of L2 NRHO lies in its ability to provide continuo
 - Have continuous visibility of the lunar farside (except for a few rare near-lunar shadow zones)
 - Provide data relay for lunar farside landers such as Chang'e-4/6
 - Support continuous observation of lunar surface resources and communication relay
-
-## Simulation Experiments
-
-You can set L2 NRHO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to compare orbital characteristics with L1 NRHO.

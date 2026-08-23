@@ -15,14 +15,12 @@ import type {
   ContentFamily,
   ContentModule,
   ContentUpdate,
-  CreateResult,
-  CreateSpaceNewsInput,
   DeleteOptions,
   DeleteReport,
 } from './types.ts';
 
 export interface ContentDeps {
-  /** 站点根目录（含 space-news/、glossary/、各 section 目录）。 */
+  /** 站点根目录（含 glossary/、各 section 目录）。 */
   webRoot: string;
   /** kb-section 的顶层目录名列表。 */
   sectionDirs: readonly string[];
@@ -54,7 +52,6 @@ export function createContentModule(deps: ContentDeps): ContentModule {
 
   /** list 的遍历根：每个内容族 × 每个语言侧的具体目录列表。 */
   function familyRoots(family: ContentFamily): string[] {
-    if (family === 'space-news') return ['space-news', 'en/space-news'];
     if (family === 'glossary') return ['glossary', 'en/glossary'];
     // kb-section 逐 section 目录遍历，天然不会越过 locale 根
     return [...deps.sectionDirs, ...deps.sectionDirs.map((s) => `en/${s}`)];
@@ -111,131 +108,6 @@ export function createContentModule(deps: ContentDeps): ContentModule {
     refresh();
   }
 
-  /**
-   * 新建 Space News 文章：zh 必建，en 镜像可选；月份 README 不存在则创建，
-   * 存在则按日期序插入表格行。配图（figures）由图片流程单独补，不在此建。
-   */
-  function createSpaceNews(input: CreateSpaceNewsInput): CreateResult {
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(input.date)) {
-      throw new Error(`content.create: date 应为 YYYY-MM-DD: ${input.date}`);
-    }
-    if (!/^[a-z0-9-]+$/.test(input.slug)) {
-      throw new Error(`content.create: slug 只允许小写字母数字连字符: ${input.slug}`);
-    }
-    if (input.withEn && !input.bodyEn) {
-      throw new Error('content.create: withEn 需要 bodyEn');
-    }
-    const year = input.date.slice(0, 4);
-    const month = input.date.slice(5, 7);
-    const stem = `${input.date}-${input.slug}`;
-    const zhPath = `space-news/${year}/${month}/${stem}.md`;
-    const enPath = `en/space-news/${year}/${month}/${stem}.md`;
-    if (fs.existsSync(absOf(zhPath)) || (input.withEn && fs.existsSync(absOf(enPath)))) {
-      throw new Error(`content.create: 目标文章已存在: ${stem}`);
-    }
-
-    const makeDoc = (
-      title: string,
-      description: string | undefined,
-      category: string | string[] | undefined,
-      body: string,
-      locale: 'zh' | 'en',
-    ): ContentDoc => ({
-      frontmatter: {
-        layout: 'SpaceNewsArticle',
-        title,
-        description: description ?? title,
-        permalink: `/${locale === 'en' ? 'en/' : ''}space-news/${year}/${month}/${stem}/`,
-        author: '天疆说',
-        date: input.date,
-        lastUpdated: input.date,
-        ...(category !== undefined ? { category } : {}),
-        ...(input.sourceUrl ? { source_url: input.sourceUrl } : {}),
-      },
-      body,
-    });
-
-    fs.mkdirSync(path.dirname(absOf(zhPath)), { recursive: true });
-    fs.writeFileSync(
-      absOf(zhPath),
-      renderMarkdown(
-        makeDoc(input.titleZh, input.descriptionZh, input.categoryZh, input.bodyZh, 'zh'),
-      ),
-      'utf-8',
-    );
-    if (input.withEn) {
-      fs.mkdirSync(path.dirname(absOf(enPath)), { recursive: true });
-      fs.writeFileSync(
-        absOf(enPath),
-        renderMarkdown(
-          makeDoc(
-            input.titleEn,
-            input.descriptionEn,
-            input.categoryEn ?? input.categoryZh,
-            input.bodyEn!,
-            'en',
-          ),
-        ),
-        'utf-8',
-      );
-    }
-    upsertMonthReadmeRow(year, month, input.date, input.titleZh, stem);
-    refresh();
-    return { zhPath, enPath: input.withEn ? enPath : null };
-  }
-
-  /** 月份 README 不存在则建，存在则按日期序插入一行表格索引。 */
-  function upsertMonthReadmeRow(
-    year: string,
-    month: string,
-    date: string,
-    title: string,
-    stem: string,
-  ): void {
-    const readme = `space-news/${year}/${month}/README.md`;
-    const abs = absOf(readme);
-    const row = `| ${Number(month)}-${Number(date.slice(8, 10))} | [${title}](./${stem}/) |`;
-    if (!fs.existsSync(abs)) {
-      fs.mkdirSync(path.dirname(abs), { recursive: true });
-      fs.writeFileSync(
-        abs,
-        [
-          '---',
-          `title: 航天动态 · ${year} 年 ${Number(month)} 月`,
-          `description: ${year} 年 ${Number(month)} 月航天新闻条目索引。`,
-          `permalink: /space-news/${year}/${month}/`,
-          'author: 天疆说',
-          `date: ${date}`,
-          `lastUpdated: ${date}`,
-          '---',
-          '',
-          `# ${year} 年 ${Number(month)} 月`,
-          '',
-          '## 本月条目',
-          '',
-          '| 日期 | 标题 |',
-          '| ------ | ------ |',
-          row,
-          '',
-        ].join('\n'),
-        'utf-8',
-      );
-      return;
-    }
-    const lines = fs.readFileSync(abs, 'utf-8').split('\n');
-    const rowIndex = lines.findIndex((l) => l.includes(`(./${stem}/)`));
-    if (rowIndex >= 0) {
-      lines[rowIndex] = row; // 已有条目：更新标题
-    } else {
-      // 插到最后一个表格行之后（表格行以 '| ' 开头）
-      let insertAt = lines.findIndex((l) => l.startsWith('| ------'));
-      insertAt = insertAt >= 0 ? insertAt + 1 : lines.length;
-      while (insertAt < lines.length && lines[insertAt].startsWith('| ')) insertAt++;
-      lines.splice(insertAt, 0, row);
-    }
-    fs.writeFileSync(abs, lines.join('\n'), 'utf-8');
-  }
-
   function deleteMany(relPaths: readonly string[], opts: DeleteOptions): DeleteReport {
     const stamp = new Date().toISOString().replace(/[:.]/g, '-');
     const trashDir = path.join('.trash', stamp);
@@ -262,20 +134,6 @@ export function createContentModule(deps: ContentDeps): ContentModule {
       fs.mkdirSync(path.dirname(trashPath), { recursive: true });
       fs.renameSync(absOf(t), trashPath);
       deletedFiles.push(t);
-      // Space News 文章删除时连 zh 侧 figures/<date>-<slug>/ 目录一并回收
-      // （图片单一来源后 en 侧无物理副本）
-      const figMatch = t.match(
-        /^(?:en\/)?space-news\/(\d{4}\/\d{2})\/(\d{4}-\d{2}-\d{2}-[^/]+)\.md$/,
-      );
-      if (figMatch) {
-        const figDir = `space-news/${figMatch[1]}/figures/${figMatch[2]}`;
-        const figAbs = absOf(figDir);
-        if (fs.existsSync(figAbs) && fs.statSync(figAbs).isDirectory()) {
-          const figTrash = path.join(deps.webRoot, trashDir, figDir);
-          fs.mkdirSync(path.dirname(figTrash), { recursive: true });
-          fs.renameSync(figAbs, figTrash);
-        }
-      }
     }
     const report: DeleteReport = {
       deletedFiles,
@@ -292,39 +150,10 @@ export function createContentModule(deps: ContentDeps): ContentModule {
 
   /**
    * 清理 README 索引行：glossary 词条在 glossary/README.md 有
-   * `(/glossary/<cat>/<slug>/)` 形态的索引行；space-news 文章在月份
-   * README 有 `| M-DD | [标题](./YYYY-MM-DD-slug/) |` 表格行。
+   * `(/glossary/<cat>/<slug>/)` 形态的索引行。
    */
   function cleanupReadmes(deletedFiles: string[]): DeleteReport['readmeLinesRemoved'] {
-    const results: DeleteReport['readmeLinesRemoved'] = [];
-    results.push(...cleanupGlossaryReadme(deletedFiles));
-    results.push(...cleanupMonthReadmes(deletedFiles));
-    return results;
-  }
-
-  /** 月份 README 的表格行清理：删除含 `](./YYYY-MM-DD-slug/)` 的行。 */
-  function cleanupMonthReadmes(deletedFiles: string[]): DeleteReport['readmeLinesRemoved'] {
-    const results: DeleteReport['readmeLinesRemoved'] = [];
-    const byReadme = new Map<string, Set<string>>();
-    for (const f of deletedFiles) {
-      const m = f.match(/^(?:en\/)?space-news\/(\d{4}\/\d{2})\/(\d{4}-\d{2}-\d{2}-[^/]+)\.md$/);
-      if (!m) continue;
-      const readme = `space-news/${m[1]}/README.md`;
-      if (!byReadme.has(readme)) byReadme.set(readme, new Set());
-      byReadme.get(readme)!.add(`(./${m[2]}/)`);
-    }
-    for (const [readme, markers] of byReadme) {
-      const abs = absOf(readme);
-      if (!fs.existsSync(abs)) continue;
-      const lines = fs.readFileSync(abs, 'utf-8').split('\n');
-      const kept = lines.filter((l) => ![...markers].some((mk) => l.includes(mk)));
-      const removed = lines.length - kept.length;
-      if (removed > 0) {
-        fs.writeFileSync(abs, kept.join('\n'), 'utf-8');
-        results.push({ file: readme, count: removed });
-      }
-    }
-    return results;
+    return cleanupGlossaryReadme(deletedFiles);
   }
 
   function cleanupGlossaryReadme(deletedFiles: string[]): DeleteReport['readmeLinesRemoved'] {
@@ -388,12 +217,6 @@ export function createContentModule(deps: ContentDeps): ContentModule {
     list,
     read,
     write,
-    create: (family: 'space-news', input: CreateSpaceNewsInput) => {
-      if (family !== 'space-news') {
-        throw new Error(`content.create: 暂不支持内容族 ${family}`);
-      }
-      return createSpaceNews(input);
-    },
     delete: (relPath: string, o: DeleteOptions) => deleteMany([relPath], o),
     deleteMany,
     refreshIndex: refresh,

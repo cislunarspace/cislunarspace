@@ -31,7 +31,6 @@ import { runChecker } from './checker-runner';
 const FAMILY_SEVERITY: Record<ContentFamily, Severity> = {
   glossary: 'error',
   'knowledge-base': 'error',
-  'space-news': 'warning',
   root: 'warning',
 };
 
@@ -43,7 +42,6 @@ const KB_PREFIXES = [
   'background/',
   'resources-tools/',
   'what-is-cislunarspace/',
-  'satellite-simulation/',
 ];
 
 const isReadme = (relPath: string) => path.basename(relPath).startsWith('README');
@@ -78,74 +76,6 @@ export function detectKnowledgeBaseGaps(files: MarkdownFile[]): BilingualGap[] {
         expectedEnPath: expectedEn,
         family: 'knowledge-base',
         severity: FAMILY_SEVERITY['knowledge-base'],
-        zhTitle: title,
-      });
-    }
-  }
-
-  return gaps.sort((a, b) => a.zhPath.localeCompare(b.zhPath));
-}
-
-// ── Space News detection ─────────────────────────────────────────────────────
-
-const SPACE_NEWS_RE = /^(?:en\/)?space-news\/\d{4}\/\d{2}\/(\d{4}-\d{2}-\d{2}-.+)\.md$/;
-
-/**
- * Extract the article slug from a space-news relPath.
- * Returns null for READMEs and non-article files.
- */
-export function extractSpaceNewsSlug(relPath: string): string | null {
-  const m = SPACE_NEWS_RE.exec(relPath);
-  return m?.[1] ?? null;
-}
-
-/**
- * Detect space-news articles that exist in one locale but not the other.
- */
-export function detectSpaceNewsGaps(files: MarkdownFile[]): BilingualGap[] {
-  const zhSlugs = new Map<string, MarkdownFile>();
-  const enSlugs = new Map<string, MarkdownFile>();
-
-  for (const f of files) {
-    const slug = extractSpaceNewsSlug(f.relPath);
-    if (!slug) continue;
-
-    const { frontmatter } = parseFrontmatterAndBody(f.content);
-    if (frontmatter.draft === true) continue;
-
-    if (f.relPath.startsWith('en/')) {
-      enSlugs.set(slug, f);
-    } else {
-      zhSlugs.set(slug, f);
-    }
-  }
-
-  const gaps: BilingualGap[] = [];
-
-  for (const [slug, file] of zhSlugs) {
-    if (!enSlugs.has(slug)) {
-      const { frontmatter } = parseFrontmatterAndBody(file.content);
-      const title = (frontmatter.title && String(frontmatter.title)) || slug;
-      gaps.push({
-        zhPath: file.relPath,
-        expectedEnPath: `en/${file.relPath}`,
-        family: 'space-news',
-        severity: FAMILY_SEVERITY['space-news'],
-        zhTitle: title,
-      });
-    }
-  }
-
-  for (const [slug, file] of enSlugs) {
-    if (!zhSlugs.has(slug)) {
-      const zhEquivalent = file.relPath.replace(/^en\//, '');
-      const { frontmatter } = parseFrontmatterAndBody(file.content);
-      const title = (frontmatter.title && String(frontmatter.title)) || slug;
-      gaps.push({
-        zhPath: file.relPath,
-        expectedEnPath: zhEquivalent,
-        family: 'space-news',
-        severity: FAMILY_SEVERITY['space-news'],
         zhTitle: title,
       });
     }
@@ -203,14 +133,13 @@ export function detectRootPageGaps(files: MarkdownFile[]): BilingualGap[] {
  */
 export const EXCEPTION_RULES: ExceptionRule[] = [
   {
-    pattern: 'research-frontiers/directions/_templates/**',
-    reason: 'non-user-visible template directory',
-  },
-  {
     pattern: 'research-frontiers/directions/security-governance/orbital-game/**',
     reason: 'zh-only content',
   },
-  { pattern: 'dialectic.md', reason: 'zh-only special surface' },
+  {
+    pattern: 'CONTEXT.md',
+    reason: 'repo-internal doc, not a site page',
+  },
 ];
 
 /**
@@ -293,7 +222,6 @@ export function detectGaps(
       zhTitle: g.zhTitle,
     })),
     ...detectKnowledgeBaseGaps(files),
-    ...detectSpaceNewsGaps(files),
     ...detectRootPageGaps(files),
   ];
 

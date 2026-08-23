@@ -99,24 +99,15 @@ export function buildSidebarConfigs(scan?: ReturnType<typeof buildGlossaryScan>)
   }
 
   // Non-section prefixes are declared once. Locale roots carry wayfinding
-  // only; glossary carries wayfinding + the glossary sidebar; space-news
-  // carries wayfinding only (its custom rail is a runtime component, not a
-  // VuePress sidebar entry); satellite-simulation is disabled. The
-  // `/en/space-news/` entry inside the zh config keeps zh chrome consistent
-  // if a zh visitor lands on an en space-news URL.
+  // only; glossary carries wayfinding + the glossary sidebar.
   Object.assign(zhConfig, {
     '/': [wayfinding.zh],
     '/glossary/': [wayfinding.zh, glossaryZh],
-    '/space-news/': [wayfinding.zh],
-    '/en/space-news/': [wayfinding.zh],
-    '/satellite-simulation/': false,
   });
 
   Object.assign(enConfig, {
     '/en/': [wayfinding.en],
     '/en/glossary/': [wayfinding.en, glossaryEn],
-    '/en/space-news/': [wayfinding.en],
-    '/en/satellite-simulation/': false,
   });
 
   return { zh: zhConfig, en: enConfig };

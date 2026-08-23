@@ -59,7 +59,6 @@ Expanding the solution in a Taylor series about $\varepsilon = 0$ yields success
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - Ephemeris Model
-- [Hill Three-Body Problem](./hill-three-body/)
 
 ## References
 

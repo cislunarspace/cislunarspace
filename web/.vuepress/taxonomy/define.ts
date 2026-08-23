@@ -9,7 +9,7 @@
  * order / path / locale-gate semantics.
  *
  * Two input kinds:
- *   - `flatNodes`  : the navbar / wayfinding / glossary / news-category
+ *   - `flatNodes`  : the navbar / wayfinding / glossary
  *                    subtrees, authored as explicit TaxonomyNode literals.
  *                    Passed through unchanged.
  *   - `sections`   : the section / page / group / index tree, authored as
@@ -246,7 +246,7 @@ function flattenSection(section: SidebarSection, order: number, ctx: FlattenCont
  * TaxonomyModule. Throws TaxonomyValidationError if the array is invalid.
  *
  * Order is sibling-scoped (per ADR-0001). Different segments (sections,
- * flatNodes such as navbar / wayfinding / glossary / news-category) do not
+ * flatNodes such as navbar / wayfinding / glossary) do not
  * need a global offset because the module buckets children by parentId,
  * not by a global sort.
  */

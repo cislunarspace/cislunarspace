@@ -1,33 +1,12 @@
 {
-  "generatedAt": "2026-08-19T16:56:12.605Z",
+  "generatedAt": "2026-08-23T13:55:10.143Z",
   "summary": {
-    "total": 1,
-    "byFamily": {
-      "root": 1
-    },
-    "bySeverity": {
-      "warning": 1
-    }
+    "total": 0,
+    "byFamily": {},
+    "bySeverity": {}
   },
-  "gaps": [
-    {
-      "zhPath": "CONTEXT.md",
-      "expectedEnPath": "en/CONTEXT.md",
-      "family": "root",
-      "severity": "warning",
-      "zhTitle": "CONTEXT"
-    }
-  ],
+  "gaps": [],
   "exceptions": [
-    {
-      "pattern": "research-frontiers/directions/_templates/**",
-      "reason": "non-user-visible template directory",
-      "matchedPaths": [
-        "research-frontiers/directions/_templates/direction-index.md",
-        "research-frontiers/directions/_templates/institution.md",
-        "research-frontiers/directions/_templates/subtopic.md"
-      ]
-    },
     {
       "pattern": "research-frontiers/directions/security-governance/orbital-game/**",
       "reason": "zh-only content",
@@ -36,10 +15,10 @@
       ]
     },
     {
-      "pattern": "dialectic.md",
-      "reason": "zh-only special surface",
+      "pattern": "CONTEXT.md",
+      "reason": "repo-internal doc, not a site page",
       "matchedPaths": [
-        "dialectic.md"
+        "CONTEXT.md"
       ]
     }
   ]

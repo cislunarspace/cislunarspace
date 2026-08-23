@@ -8,7 +8,7 @@
 //   tsx .vuepress/build/measure-build.ts --no-clean            # do not clear dist first
 //
 // This script does NOT change the build. It runs the same three commands as
-// `build` (gen-sidebar, vuepress build, sync-figures), records per-phase
+// `build` (gen-sidebar, vuepress build), records per-phase
 // wall time, and writes a machine-readable JSON + a human log under
 // logs/build-speed/<timestamp>-<label>.{json,log}.
 //
@@ -295,12 +295,6 @@ function main(): void {
       );
       phases.push(vp);
       if (vp.exitCode !== 0) buildFailed = true;
-    }
-
-    if (!buildFailed) {
-      const sf = runPhase('sync-figures', 'tsx', ['.vuepress/build/sync-figures.js'], env, logPath);
-      phases.push(sf);
-      if (sf.exitCode !== 0) buildFailed = true;
     }
   }
 

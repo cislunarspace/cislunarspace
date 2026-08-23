@@ -10,12 +10,12 @@ const router = createContentRouter([
 ]);
 
 describe('createContentRouter / resolve', () => {
-  it('识别中文侧 space-news 文章', () => {
-    expect(router.resolve('space-news/2026/04/2026-04-01-artemis-2-launch.md')).toEqual({
-      relPath: 'space-news/2026/04/2026-04-01-artemis-2-launch.md',
-      family: 'space-news',
+  it('识别中文侧 glossary 词条并推到英文侧', () => {
+    expect(router.resolve('glossary/fundamentals/ad.md')).toEqual({
+      relPath: 'glossary/fundamentals/ad.md',
+      family: 'glossary',
       locale: 'zh',
-      counterpartPath: 'en/space-news/2026/04/2026-04-01-artemis-2-launch.md',
+      counterpartPath: 'en/glossary/fundamentals/ad.md',
     });
   });
 
@@ -38,8 +38,7 @@ describe('createContentRouter / resolve', () => {
     });
   });
 
-  it('不识别月份 README、glossary 根 README 与未知目录', () => {
-    expect(router.resolve('space-news/2026/04/README.md')).toBeNull();
+  it('不识别 glossary 根 README 与未知目录', () => {
     expect(router.resolve('glossary/README.md')).toBeNull();
     expect(router.resolve('unknown-section/page.md')).toBeNull();
     expect(router.resolve('README.md')).toBeNull();
@@ -49,18 +48,18 @@ describe('createContentRouter / resolve', () => {
   it('拒绝绝对路径与穿越路径', () => {
     expect(router.resolve('/etc/passwd')).toBeNull();
     expect(router.resolve('../outside.md')).toBeNull();
-    expect(router.resolve('space-news/../../evil.md')).toBeNull();
+    expect(router.resolve('cislunar-orbits/../../evil.md')).toBeNull();
     expect(router.resolve('')).toBeNull();
   });
 });
 
 describe('createContentRouter / counterpart', () => {
   it('双向推导', () => {
-    expect(router.counterpart('space-news/2026/04/2026-04-01-x.md')).toBe(
-      'en/space-news/2026/04/2026-04-01-x.md',
+    expect(router.counterpart('glossary/fundamentals/ad.md')).toBe(
+      'en/glossary/fundamentals/ad.md',
     );
-    expect(router.counterpart('en/space-news/2026/04/2026-04-01-x.md')).toBe(
-      'space-news/2026/04/2026-04-01-x.md',
+    expect(router.counterpart('en/glossary/fundamentals/ad.md')).toBe(
+      'glossary/fundamentals/ad.md',
     );
   });
 

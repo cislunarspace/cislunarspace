@@ -7,7 +7,7 @@
  *
  * 数据操作走 web/.vuepress/content 模块（ADR-0003）——路径约定、
  * 双语配对、删除回收、索引刷新的真理在 content；本服务只做
- * HTTP 形状适配。分类写回走 writeNewsCategoryNodes 序列化生成。
+ * HTTP 形状适配。
  *
  * 启动：cd admin && npm install && npm start（tsx 运行，可 import TS）
  * 访问：http://localhost:8765
@@ -25,8 +25,6 @@ import { validateYaml, validateFile } from './lib/validate.js';
 import { listContents, listCategories, readMd, classify } from './lib/scan.js';
 import { contentBridge as content } from './lib/content-bridge.ts';
 import {
-  addNewsCategory,
-  deleteNewsCategory,
   addGlossaryCategory,
   deleteGlossaryCategory,
   assignCategory,
@@ -131,13 +129,13 @@ app.get('/api/health', (_req, res) => {
   res.json({ ok: true, name: 'cislunarspace-admin', web: WEB_ROOT });
 });
 
-/** 列出内容：/api/contents?type=news|glossary|kb&q=关键词&cat=分类 */
+/** 列出内容：/api/contents?type=glossary|kb&q=关键词&cat=分类 */
 app.get('/api/contents', (req, res) => {
   try {
-    const type = req.query.type || 'news';
+    const type = req.query.type || 'glossary';
     const q = typeof req.query.q === 'string' ? req.query.q : '';
     const cat = typeof req.query.cat === 'string' ? req.query.cat : '';
-    if (!['news', 'glossary', 'kb'].includes(type)) {
+    if (!['glossary', 'kb'].includes(type)) {
       return res.status(400).json({ ok: false, error: '未知类型: ' + type });
     }
     const list = listContents(type, { q, cat });
@@ -147,11 +145,11 @@ app.get('/api/contents', (req, res) => {
   }
 });
 
-/** 列出某类内容的分类及条目数：/api/categories?type=news|glossary|kb */
+/** 列出某类内容的分类及条目数：/api/categories?type=glossary|kb */
 app.get('/api/categories', (req, res) => {
   try {
-    const type = req.query.type || 'news';
-    if (!['news', 'glossary', 'kb'].includes(type)) {
+    const type = req.query.type || 'glossary';
+    if (!['glossary', 'kb'].includes(type)) {
       return res.status(400).json({ ok: false, error: '未知类型: ' + type });
     }
     res.json({ ok: true, type, categories: listCategories(type) });
@@ -166,17 +164,14 @@ app.get('/api/categories', (req, res) => {
 app.post('/api/categories/add', async (req, res) => {
   try {
     const { type, name, parent, labelZh } = req.body || {};
-    if (!['news', 'glossary'].includes(type)) {
-      return res.status(400).json({ ok: false, error: '仅支持 news / glossary 分类管理' });
+    if (type !== 'glossary') {
+      return res.status(400).json({ ok: false, error: '仅支持 glossary 分类管理' });
     }
     if (!name || !String(name).trim()) throw new PathError('分类名不能为空');
-    const result =
-      type === 'news'
-        ? await addNewsCategory(String(name).trim())
-        : addGlossaryCategory(String(name).trim(), {
-            parent: typeof parent === 'string' ? parent : '',
-            labelZh: typeof labelZh === 'string' ? labelZh : '',
-          });
+    const result = addGlossaryCategory(String(name).trim(), {
+      parent: typeof parent === 'string' ? parent : '',
+      labelZh: typeof labelZh === 'string' ? labelZh : '',
+    });
     res.json({ ok: true, ...result });
   } catch (err) {
     sendError(res, err);
@@ -187,17 +182,14 @@ app.post('/api/categories/add', async (req, res) => {
 app.post('/api/categories/delete', async (req, res) => {
   try {
     const { type, name, deleteEntries, target } = req.body || {};
-    if (!['news', 'glossary'].includes(type)) {
-      return res.status(400).json({ ok: false, error: '仅支持 news / glossary 分类管理' });
+    if (type !== 'glossary') {
+      return res.status(400).json({ ok: false, error: '仅支持 glossary 分类管理' });
     }
     if (!name || !String(name).trim()) throw new PathError('分类名不能为空');
-    const result =
-      type === 'news'
-        ? await deleteNewsCategory(String(name).trim(), { deleteEntries: !!deleteEntries })
-        : await deleteGlossaryCategory(String(name).trim(), {
-            deleteEntries: !!deleteEntries,
-            target: typeof target === 'string' ? target : '',
-          });
+    const result = await deleteGlossaryCategory(String(name).trim(), {
+      deleteEntries: !!deleteEntries,
+      target: typeof target === 'string' ? target : '',
+    });
     res.json({ ok: true, ...result });
   } catch (err) {
     sendError(res, err);
@@ -208,8 +200,8 @@ app.post('/api/categories/delete', async (req, res) => {
 app.post('/api/categories/assign', async (req, res) => {
   try {
     const { type, paths, target, mode } = req.body || {};
-    if (!['news', 'glossary'].includes(type)) {
-      return res.status(400).json({ ok: false, error: '仅支持 news / glossary 修改分类' });
+    if (type !== 'glossary') {
+      return res.status(400).json({ ok: false, error: '仅支持 glossary 修改分类' });
     }
     if (!Array.isArray(paths) || paths.length === 0) throw new PathError('缺少要修改的路径');
     const rels = paths.map((p) => {
@@ -287,31 +279,6 @@ app.post('/api/validate', (req, res) => {
       return;
     }
     throw new PathError('缺少 frontmatterRaw 或 path');
-  } catch (err) {
-    sendError(res, err);
-  }
-});
-
-/** 新建文章（content.create，admin 的「新建内容」缺口）：POST /api/content/create */
-app.post('/api/content/create', (req, res) => {
-  try {
-    const b = req.body || {};
-    const result = content.create('space-news', {
-      date: String(b.date || ''),
-      slug: String(b.slug || ''),
-      titleZh: String(b.titleZh || ''),
-      titleEn: String(b.titleEn || ''),
-      descriptionZh: b.descriptionZh ? String(b.descriptionZh) : undefined,
-      descriptionEn: b.descriptionEn ? String(b.descriptionEn) : undefined,
-      categoryZh: b.categoryZh ?? 'china',
-      categoryEn: b.categoryEn,
-      bodyZh: String(b.bodyZh || ''),
-      bodyEn: b.bodyEn ? String(b.bodyEn) : undefined,
-      sourceUrl: b.sourceUrl ? String(b.sourceUrl) : undefined,
-      withEn: b.withEn === true,
-    });
-    log('CREATE', [result.zhPath, result.enPath ?? '-']);
-    res.json({ ok: true, ...result });
   } catch (err) {
     sendError(res, err);
   }

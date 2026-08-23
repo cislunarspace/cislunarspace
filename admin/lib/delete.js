@@ -68,14 +68,6 @@ export function expandDeleteScope(paths) {
         figureSet.add(resolved);
       }
     }
-    // 新闻类：整目录 figures/<stem>/ 视为该文章私有图片目录，一并纳入
-    const cls = classify(rel);
-    if (cls.kind === 'news') {
-      const figDir = path.posix.join(mdDir, 'figures', cls.stem);
-      if (fs.existsSync(path.join(WEB_ROOT, figDir))) {
-        collectDirFiles(figDir, figureSet);
-      }
-    }
   }
 
   const md = [...mdSet].sort();
@@ -103,12 +95,7 @@ function collectReadmeRefs(mdList) {
   for (const rel of mdList) {
     const cls = classify(rel);
     let candidates = [];
-    if (cls.kind === 'news') {
-      candidates = [
-        { path: `space-news/${cls.year}/${cls.month}/README.md`, token: `./${cls.stem}/` },
-        { path: `en/space-news/${cls.year}/${cls.month}/README.md`, token: `./${cls.stem}/` },
-      ];
-    } else if (cls.kind === 'glossary') {
+    if (cls.kind === 'glossary') {
       candidates = [
         { path: 'glossary/README.md', token: `/glossary/${cls.cat}/${cls.stem}/` },
       ];

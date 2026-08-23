@@ -71,5 +71,3 @@ For a given L1/L2 DRO, its northern and southern families share identical dynami
 The figure above shows the morphology of DRO orbits in the Earth-Moon rotating frame, clearly demonstrating their retrograde characteristic (motion opposite to the rotating frame).
 
 ## Simulation Experiment
-
-You can set up different $C_J$ values for L1/L2 DRO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe how the orbit family evolves with parameters.

@@ -8,11 +8,7 @@
         :placeholder="isEn ? 'Search terms (zh/en)…' : '搜索术语（中英）…'"
       />
       <div class="dict-cats">
-        <button
-          class="dict-chip"
-          :class="{ active: activeCat === null }"
-          @click="activeCat = null"
-        >
+        <button class="dict-chip" :class="{ active: activeCat === null }" @click="activeCat = null">
           {{ isEn ? 'All' : '全部' }} ({{ totalCount }})
         </button>
         <button
@@ -31,7 +27,9 @@
     <p v-else-if="!ready" class="dict-msg">{{ isEn ? 'Loading…' : '加载中…' }}</p>
     <template v-else>
       <section v-for="c in visibleCategories" :key="c.slug" class="dict-section">
-        <h3 :id="c.slug">{{ c.label }}<span class="dict-count">（{{ c.entries.length }}）</span></h3>
+        <h3 :id="c.slug">
+          {{ c.label }}<span class="dict-count">（{{ c.entries.length }}）</span>
+        </h3>
         <div v-for="e in filtered(c.entries)" :key="e.slug" class="dict-entry">
           <div class="dict-titles">
             <span class="dict-title">{{ e.title }}</span>
@@ -75,9 +73,7 @@ const categories = ref<DictCategory[]>([]);
 const ready = ref(false);
 const error = ref('');
 
-const totalCount = computed(() =>
-  categories.value.reduce((n, c) => n + c.entries.length, 0),
-);
+const totalCount = computed(() => categories.value.reduce((n, c) => n + c.entries.length, 0));
 
 const visibleCategories = computed(() =>
   activeCat.value === null
@@ -104,7 +100,10 @@ onMounted(async () => {
   try {
     const res = await fetch('/glossary-dictionary.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = (await res.json()) as { zh: { categories: DictCategory[] }; en: { categories: DictCategory[] } };
+    const data = (await res.json()) as {
+      zh: { categories: DictCategory[] };
+      en: { categories: DictCategory[] };
+    };
     categories.value = (isEn.value ? data.en : data.zh).categories;
     ready.value = true;
   } catch (err) {

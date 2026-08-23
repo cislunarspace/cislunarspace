@@ -68,7 +68,3 @@ Gateway 是迄今为止规模最大的多边航天合作项目之一，各参与
 | 工程成熟度 | 较低（Gateway 是首个大规模应用） | 较高（CAPSTONE 已验证） |
 
 最终 NASA 选择 NRHO 作为 Gateway 的运行轨道，主要是考虑到其对月球表面（尤其是南极 landing zone）的可达性优势。
-
-## 仿真实验
-
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中设置 Gateway 典型 NRHO 参数，观察其轨道形态并设计与月面的转移轨道。

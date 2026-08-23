@@ -65,5 +65,3 @@ $$v_x^2 + v_y^2 + v_z^2 = 2\Omega - C_J$$
 The retrograde characteristic implies $v_y < 0$ (assuming the rotation direction is positive y), but this does not mean the entire orbit is "reversing" — rather, it refers to negative net angular momentum. The $v_x$ component of a DRO may be positive or negative at different orbital phases, forming an approximately elliptical orbital shape.
 
 ## Simulation Experiment
-
-You can set DRO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe its retrograde orbital shape in the rotating frame and compare the differences with NRHOs.

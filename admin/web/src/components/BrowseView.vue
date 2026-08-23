@@ -21,7 +21,7 @@ import SitePreviewModal from './SitePreviewModal.vue';
 const emit = defineEmits(['edit']);
 const message = useMessage();
 
-const type = ref('news');
+const type = ref('glossary');
 const q = ref('');
 const cat = ref('');
 const loading = ref(false);
@@ -30,7 +30,6 @@ const error = ref('');
 const categories = ref([]);
 
 const TYPE_OPTIONS = [
-  { label: 'Space News', value: 'news' },
   { label: 'Glossary', value: 'glossary' },
   { label: '知识库章节', value: 'kb' },
 ];
@@ -172,7 +171,6 @@ function rowProps(item) {
 
 const showAssignModal = ref(false);
 const assignTarget = ref('');
-const assignMode = ref('replace');
 const assignBusy = ref(false);
 
 function onDropCategory(catName) {
@@ -180,7 +178,6 @@ function onDropCategory(catName) {
   hoverCat.value = '';
   if (!dragKeys.value.length) return;
   assignTarget.value = catName;
-  assignMode.value = 'replace';
   showAssignModal.value = true;
 }
 
@@ -189,7 +186,7 @@ async function confirmAssign() {
   try {
     const dragged = items.value.filter((it) => dragKeys.value.includes(it.pairKey));
     const paths = dragged.flatMap((it) => [it.zh?.relPath, it.en?.relPath].filter(Boolean));
-    const r = await api.assignCategory(type.value, paths, assignTarget.value, assignMode.value);
+    const r = await api.assignCategory(type.value, paths, assignTarget.value);
     const n = r.changed?.length ?? r.moved?.length ?? 0;
     const skip = (r.unchanged?.length ?? 0) + (r.skipped?.length ?? 0);
     let text = `已修改 ${n} 个文件`;
@@ -213,7 +210,7 @@ async function confirmAssign() {
 // ---------- 分类管理 ----------
 const showCatModal = ref(false);
 const catMode = ref('add'); // add | delete
-const catType = ref('news');
+const catType = ref('glossary');
 const catName = ref('');
 const catParent = ref(null); // glossary 子分类的父分类（null = 顶级）
 const catLabelZh = ref(''); // glossary 分类的中文名（注册 taxonomy 用）
@@ -332,11 +329,10 @@ function statusKey(item) {
   return 'normal';
 }
 
-// 条目在各类型下的展示分类：news 用 frontmatter category 标签，
+// 条目在各类型下的展示分类：
 // glossary / kb 用所在目录（scan.js 的 section 字段）
 function displayCats(item) {
   const side = item.zh || item.en || {};
-  if (type.value === 'news') return side.category || [];
   return side.section ? [side.section] : [];
 }
 
@@ -483,7 +479,7 @@ const columns = computed(() => [
 
       <div class="toolbar-spacer"></div>
 
-      <n-button v-if="type === 'news' || type === 'glossary'" @click="openCatManager(type)">
+      <n-button v-if="type === 'glossary'" @click="openCatManager(type)">
         分类管理
       </n-button>
 
@@ -535,22 +531,7 @@ const columns = computed(() => [
         将 <strong>{{ dragKeys.length }}</strong> 个条目（含中英镜像）归入分类
         <n-tag size="small" :bordered="false" style="margin: 0 2px">{{ assignTarget }}</n-tag>
       </p>
-      <template v-if="type === 'news'">
-        <div class="scope-line" style="margin-bottom: 6px">
-          文章可有多个标签，选择处理方式：
-        </div>
-        <n-radio-group v-model:value="assignMode">
-          <div style="display: flex; flex-direction: column; gap: 8px">
-            <n-radio value="replace">
-              替换为该分类 <span class="muted">（移除原有标签）</span>
-            </n-radio>
-            <n-radio value="append">
-              追加该标签 <span class="muted">（保留原有标签）</span>
-            </n-radio>
-          </div>
-        </n-radio-group>
-      </template>
-      <n-alert v-else type="info">
+      <n-alert type="info">
         条目文件将移动到 <code>glossary/{{ assignTarget }}/</code>（中英镜像一起），
         <code>glossary/README.md</code> 索引同步更新。
       </n-alert>
@@ -642,7 +623,7 @@ const columns = computed(() => [
     <n-modal
       v-model:show="showCatModal"
       preset="card"
-      :title="`分类管理 · ${catType === 'news' ? 'Space News 标签' : 'Glossary 目录'}`"
+      :title="`分类管理 · Glossary 目录`"
       style="max-width: 640px"
     >
       <n-radio-group v-model:value="catMode" size="small" style="margin-bottom: 16px">
@@ -671,15 +652,9 @@ const columns = computed(() => [
           <n-input v-model:value="catLabelZh" placeholder="缺省用分类名" />
         </div>
         <n-alert type="info">
-          <template v-if="catType === 'news'">
-            添加 news 分类会在 <code>taxonomy/data.ts</code> 注册节点（含配色），
-            站点侧边栏/分类页即可显示该分类。不修改任何文章。
-          </template>
-          <template v-else>
-            添加 glossary 分类会创建 <code>web/glossary/&lt;name&gt;/</code> 与
-            <code>web/en/glossary/&lt;name&gt;/</code> 目录（子分类则在父分类目录下），
-            并在 <code>taxonomy/data.ts</code> 注册节点，站点侧边栏即可显示。
-          </template>
+          添加 glossary 分类会创建 <code>web/glossary/&lt;name&gt;/</code> 与
+          <code>web/en/glossary/&lt;name&gt;/</code> 目录（子分类则在父分类目录下），
+          并在 <code>taxonomy/data.ts</code> 注册节点，站点侧边栏即可显示。
         </n-alert>
       </template>
 
@@ -699,19 +674,17 @@ const columns = computed(() => [
             <div style="display: flex; flex-direction: column; gap: 8px">
               <n-radio :value="false">
                 仅删分类，保留条目
-                <span class="muted" v-if="catType === 'news'">（从所有文章移除该标签）</span>
-                <span class="muted" v-else>（条目移到下面选的目标分类）</span>
+                <span class="muted">（条目移到下面选的目标分类）</span>
               </n-radio>
               <n-radio :value="true">
                 连同条目一起删除
-                <span class="muted" v-if="catType === 'news'">（删除带该标签的文章）</span>
-                <span class="muted" v-else>（删除目录下所有条目）</span>
+                <span class="muted">（删除目录下所有条目）</span>
               </n-radio>
             </div>
           </n-radio-group>
         </div>
 
-        <div v-if="catType === 'glossary' && !catDeleteEntries" style="margin-bottom: 12px">
+        <div v-if="!catDeleteEntries" style="margin-bottom: 12px">
           <div class="scope-line" style="margin-bottom: 6px">条目移往的目标分类</div>
           <n-select
             v-model:value="catTarget"
@@ -720,10 +693,6 @@ const columns = computed(() => [
           />
         </div>
 
-        <n-alert v-if="catType === 'news' && catDeleteEntries" type="warning">
-          警告：将删除带 <code>{{ catName || '该' }}</code> 标签的全部文章（中英镜像），
-          文件进入回收站，可恢复。
-        </n-alert>
       </template>
 
       <n-alert v-if="catMsg" :type="catMsg.type" style="margin-top: 12px">

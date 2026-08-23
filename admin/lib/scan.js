@@ -59,11 +59,7 @@ function listMdFiles(dir) {
 
 /** 解析相对路径的类别信息 */
 export function classify(rel) {
-  let m = rel.match(/^(en\/)?space-news\/(\d{4})\/(\d{2})\/([^/]+)\.md$/);
-  if (m) {
-    return { kind: 'news', year: m[2], month: m[3], stem: m[4], lang: m[1] ? 'en' : 'zh' };
-  }
-  m = rel.match(/^(en\/)?glossary\/((?:[^/]+\/)?[^/]+)\/([^/]+)\.md$/);
+  const m = rel.match(/^(en\/)?glossary\/((?:[^/]+\/)?[^/]+)\/([^/]+)\.md$/);
   if (m) {
     // cat 为完整路径形：顶级分类 'orbits'，子分类 'orbits/halo'
     return { kind: 'glossary', cat: m[2], stem: m[3], lang: m[1] ? 'en' : 'zh' };
@@ -72,14 +68,12 @@ export function classify(rel) {
 }
 
 function pairKeyOf(rel, cls) {
-  if (cls.kind === 'news') return `news:${cls.year}/${cls.month}/${cls.stem}`;
   if (cls.kind === 'glossary') return `glossary:${cls.cat}/${cls.stem}`;
   const stripped = rel.startsWith('en/') ? rel.slice(3) : rel;
   return `kb:${stripped.replace(/\.md$/, '')}`;
 }
 
 function sectionOf(rel, cls) {
-  if (cls.kind === 'news') return `${cls.year}/${cls.month}`;
   if (cls.kind === 'glossary') return cls.cat;
   const stripped = rel.startsWith('en/') ? rel.slice(3) : rel;
   return stripped.split('/')[0] || '';
@@ -110,33 +104,6 @@ function buildItem(rel) {
     yamlOk: info?.yamlOk ?? true,
     yamlError: info?.yamlError ?? null,
   };
-}
-
-/** 通用：扫描某 zh 根目录 + 其 en/ 镜像目录下同结构的 md 文件 */
-function scanBothLocales(zhRoot) {
-  // zhRoot: 'space-news' | 'glossary'，en 镜像为 'en/<zhRoot>'
-  const roots = [zhRoot, `en/${zhRoot}`];
-  const out = [];
-  for (const base of roots) {
-    const baseAbs = path.join(WEB_ROOT, base);
-    if (!fs.existsSync(baseAbs)) continue;
-    for (const year of listDirs(baseAbs)) {
-      if (!/^\d{4}$/.test(year)) continue;
-      for (const month of listDirs(path.join(baseAbs, year))) {
-        if (!/^\d{2}$/.test(month)) continue;
-        const dir = path.join(baseAbs, year, month);
-        for (const f of listMdFiles(dir)) {
-          if (f.toLowerCase() === 'readme.md') continue;
-          out.push(buildItem(`${base}/${year}/${month}/${f}`));
-        }
-      }
-    }
-  }
-  return out;
-}
-
-function scanNews() {
-  return scanBothLocales('space-news');
 }
 
 function scanGlossary() {
@@ -197,7 +164,7 @@ function scanKb() {
 export function listContents(kind, opts = {}) {
   const q = typeof opts === 'string' ? opts : (opts.q || '');
   const cat = typeof opts === 'object' ? (opts.cat || '') : '';
-  const items = kind === 'news' ? scanNews() : kind === 'glossary' ? scanGlossary() : scanKb();
+  const items = kind === 'glossary' ? scanGlossary() : scanKb();
 
   const map = new Map();
   for (const it of items) {
@@ -207,8 +174,7 @@ export function listContents(kind, opts = {}) {
       if (!hay.includes(needle)) continue;
     }
     if (cat) {
-      // news 按 category 标签筛；glossary 按目录(section)；kb 按顶层章节
-      const hit = kind === 'news' ? it.category.includes(cat) : it.section === cat;
+      const hit = it.section === cat;
       if (!hit) continue;
     }
     if (!map.has(it.pairKey)) {
@@ -232,14 +198,14 @@ export function countByKind(kind) {
 
 /**
  * 列出某类内容的全部分类及条目数（用于分类筛选下拉）。
- * news → frontmatter category 标签；glossary → 目录；kb → 顶层章节。
+ * glossary → 目录；kb → 顶层章节。
  * 返回 [{ name, count }]，按数量降序。
  */
 export function listCategories(kind) {
-  const items = kind === 'news' ? scanNews() : kind === 'glossary' ? scanGlossary() : scanKb();
+  const items = kind === 'glossary' ? scanGlossary() : scanKb();
   const counts = new Map();
   for (const it of items) {
-    const names = kind === 'news' ? it.category : [it.section];
+    const names = [it.section];
     for (const n of names) {
       if (!n) continue;
       counts.set(n, (counts.get(n) || 0) + 1);

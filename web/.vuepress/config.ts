@@ -13,7 +13,6 @@ import { buildSidebarConfigs } from './sidebar/config.ts';
 import ogMetaPlugin from './og-meta-plugin.ts';
 import { citePlugin, loadBibliography } from './cite-plugin.ts';
 import { katexPlugin } from './katex-plugin.ts';
-import { devEnFiguresFallback } from './dev-figures-fallback.ts';
 import { rawContentPlugin } from './raw-content-plugin.ts';
 import { headScripts } from './head-scripts.ts';
 
@@ -72,7 +71,6 @@ export default defineUserConfig({
 
   bundler: viteBundler({
     viteOptions: {
-      plugins: [devEnFiguresFallback()],
       server: {
         watch: {
           // Avoid ENOSPC: exclude VuePress-generated dirs from Vite's file watcher

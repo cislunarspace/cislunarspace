@@ -66,7 +66,3 @@ The dynamical foundation of ballistic capture involves the Circular Restricted T
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
 - [Weak Stability Boundary (WSB)](/en/glossary/)
-
-## Simulation Experiments
-
-Design ballistic capture transfers in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) and observe lunar capture effects under different launch timing conditions.

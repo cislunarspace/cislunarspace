@@ -83,7 +83,3 @@ The low maintenance ΔV budget of DROs (~5-20 m/s/year) allows simple impulsive 
 | Lunar non-spherical | 1-3 m/s/year |
 | Solar radiation pressure | 0.5-2 m/s/year |
 | Others | < 1 m/s/year |
-
-## Simulation Experiments
-
-You can set DRO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe its long-term evolution under perturbations and evaluate orbit maintenance requirements.

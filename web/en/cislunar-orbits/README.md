@@ -45,7 +45,7 @@ Spacecraft in cislunar space are poorly approximated by a single Keplerian cente
 | Libration-point & halo families | Periodic/quasi-periodic motion near Earth–Moon libration points | See [glossary](/en/glossary/); NRHO/DRO entries mirror the Chinese section over time |
 | DRO | Distant retrograde class in the Earth–Moon rotating frame | Same as above |
 
-Detailed design needs ephemerides, force models, and program constraints. See [resources & tools](/en/resources-tools/) for datasets and libraries, and the [orbit simulation lab](/en/satellite-simulation/) for interactive experiments.
+Detailed design needs ephemerides, force models, and program constraints. See [resources & tools](/en/resources-tools/) for datasets and libraries.
 
 ## Deep Dives: Three Key Topics
 
@@ -70,5 +70,3 @@ Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and l
 *Deep-dive articles and worked examples are expanding—contributions via the repository are welcome.*
 
 ## Simulation Lab
-
-Explore the dynamical characteristics of various orbit classes interactively in the [Satellite Orbit Simulation Lab](/en/satellite-simulation/).

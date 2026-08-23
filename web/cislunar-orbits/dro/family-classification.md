@@ -71,7 +71,3 @@ CR3BP 的旋转坐标系具有关于 $x$-$y$ 平面的反射对称性（$z \to -
 ![DRO轨道示意图](../../glossary/figures/dro/barycentric-frame-and-dro-schematic.png)
 
 上图展示了在地月旋转坐标系中的 DRO 轨道形态，清晰显示了其逆行特征（相对旋转坐标系的反向运动）。
-
-## 仿真实验
-
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中设置不同 $C_J$ 值的 L1/L2 DRO 初始条件，观察轨道族随参数的演化。

@@ -74,7 +74,3 @@ The Moon's non-spherical gravitational terms (J2 term, $C_{22}$ term, etc.) have
 ### Solar Radiation Pressure
 
 For spacecraft with large solar panels or high area-to-mass ratios, Solar Radiation Pressure (SRP) is also a perturbation source that requires dedicated modeling.
-
-## Simulation Experiments
-
-In the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/), you can set NRHO initial conditions and add perturbation models to observe long-term orbital evolution and drift trends.

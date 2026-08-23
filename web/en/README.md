@@ -40,26 +40,18 @@ Build the big picture in three steps, in order:
   </a>
 </div>
 
-## From the News to the Knowledge
+## Explore Further
 
-Just saw a launch headline and want the context? Space News is updated daily and archived by month — another way into this space. And whenever something is unclear, ask AI Q&A: it answers from this site's full content.
+Whenever something is unclear, ask AI Q&A: it answers from this site's full content.
 
 <div class="module-grid">
   <a href="/en/glossary/" class="module-card module-card--glossary">
     <h3>Glossary</h3>
     <p>Bilingual · searchable</p>
   </a>
-  <a href="/en/space-news/" class="module-card module-card--space-news">
-    <h3>Space News</h3>
-    <p>Daily industry archive</p>
-  </a>
   <a href="/en/ai-chat" class="module-card module-card--ai-chat">
     <h3>AI Q&amp;A</h3>
     <p>Ask anything across the site</p>
-  </a>
-  <a href="/en/satellite-simulation/" class="module-card module-card--simulation">
-    <h3>Orbit Simulation</h3>
-    <p>Tune orbits in your browser</p>
   </a>
   <a href="/en/resources-tools/" class="module-card module-card--resources">
     <h3>Data &amp; Code</h3>

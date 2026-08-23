@@ -49,8 +49,6 @@ The primary engineering value of NRHOs lies in their geometric position relative
 
 ## Simulation Experiments
 
-Explore the orbital geometry and dynamical characteristics of NRHOs interactively in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/).
-
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
