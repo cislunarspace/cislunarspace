@@ -30,9 +30,9 @@ permalink: /en/glossary/dynamics/bang-bang-control/
 
 ## Definition
 
-**Bang-bang control** is the standard form of thrust magnitude in fuel-optimal control problems: the control variable switches only between the two extreme values of the allowable range—thrust either takes the maximum value $F = F_{\max}$ ("on") or is zero $F = 0$ ("off")—with no sustained burning at intermediate thrust values. The name "bang-bang" originates from the sound made when a relay switch engages or disengages.
+**Bang-bang control** is the standard form of thrust magnitude in fuel-optimal control problems: the control variable switches only between the two extreme values of the allowable range: thrust either takes the maximum value $F = F_{\max}$ (on) or is zero $F = 0$ (off), with no sustained burning at intermediate thrust values. The name bang-bang originates from the sound made when a relay switch engages or disengages.
 
-This is a direct consequence of Pontryagin's Minimum Principle. Under a fuel-optimal objective, the Hamiltonian depends linearly on the thrust magnitude $F$, so minimizing the Hamiltonian is equivalent to pushing the thrust magnitude to the boundaries of the constraint—either maximum or minimum (zero). Only when the switching function is identically zero may an intermediate value appear; this constitutes a singular arc requiring additional analysis.
+This is a direct consequence of Pontryagin's Minimum Principle. Under a fuel-optimal objective, the Hamiltonian depends linearly on the thrust magnitude $F$, so minimizing the Hamiltonian is equivalent to pushing the thrust magnitude to the boundaries of the constraint, either maximum or minimum (zero). Only when the switching function is identically zero may an intermediate value appear; this constitutes a singular arc requiring additional analysis.
 
 In his foundational work *Optimal Trajectories for Space Navigation*, Lawden (1963) classified thrust trajectories by their magnitude characteristics into three types of arcs (arc), a classification that remains the basic terminology of thrust optimization theory:
 
@@ -68,7 +68,7 @@ $$
 H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - {\lambda}_v^{\mathrm{T}}\frac{\mu}{r^3}\mathbf{r} + F\left(\frac{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
 $$
 
-The third term depends linearly on $F$—this directly gives rise to the bang-bang structure.
+The third term depends linearly on $F$, this directly gives rise to the bang-bang structure.
 
 ### Optimal Thrust Direction: Lawden's Primer Vector
 
@@ -98,7 +98,7 @@ F_{\max}, & S < 0 \quad \text{(Maximum-thrust arc)} \\[4pt]
 \end{cases}
 $$
 
-The sign of $S(t)$ changes during flight, producing alternating "on-off-on-off" bang-bang structures. The key challenge: the switching instants (times when $S(t)=0$) and the number of switches are unknown a priori and must be solved as part of the optimization problem.
+The sign of $S(t)$ changes during flight, producing alternating on-off-on-off bang-bang structures. The key challenge: the switching instants (times when $S(t)=0$) and the number of switches are unknown a priori and must be solved as part of the optimization problem.
 
 In nondimensionalized form, defining thrust ratio $u = F/F_{\max} \in [0,1]$, the switching function has an equivalent expression (Zhu & Gao 2017):
 
@@ -116,7 +116,7 @@ When $S(t) \equiv 0$ holds identically over a finite time interval, first-order 
 
 Lawden's (1963) three-arc classification has clear physical meaning beyond the mathematical formulation:
 
-1. **Maximum-thrust arc (MT)**: Engine at full power. Appears on arcs where orbital energy or angular momentum must be changed rapidly—such as the thrusting phase of an Earth-escape spiral and the deceleration phase of a lunar-capture spiral. At these locations, the energy-change efficiency per unit thrust is highest.
+1. **Maximum-thrust arc (MT)**: Engine at full power. Appears on arcs where orbital energy or angular momentum must be changed rapidly, such as the thrusting phase of an Earth-escape spiral and the deceleration phase of a lunar-capture spiral. At these locations, the energy-change efficiency per unit thrust is highest.
 2. **Null-thrust arc (NT)**: Engine off, coasting. Appears when the spacecraft traverses large regions of cislunar space, and on arcs where the switching function indicates that not thrusting is actually more optimal. Coasting arcs exploit the natural evolution of orbits under gravity, saving propellant.
 3. **Intermediate thrust arc (IT / singular arc)**: Arises when second-order conditions dictate an intermediate thrust value. Extremely rare in practice; usually signals some symmetry or simplifying assumption in the optimization problem. Most practical solutions assume the absence of singular arcs to avoid numerical complexity.
 
@@ -163,23 +163,23 @@ Under the cislunar CR3BP+LT model, bang-bang control is closely related to the f
 
 - **TCT sequence**: The Thrust-Coast-Thrust pattern in cislunar transfers naturally corresponds to MT-NT-MT, a direct manifestation of the bang-bang structure in a specific mission context.
 
-- **Continuous-thrust station-keeping**: For long-term station-keeping of libration-point orbits such as NRHO and Halo, the optimal control law also exhibits bang-bang character—thrust is applied only when the orbital deviation exceeds a threshold (Zhang and Wang 2022).
+- **Continuous-thrust station-keeping**: For long-term station-keeping of libration-point orbits such as NRHO and Halo, the optimal control law also exhibits bang-bang character: thrust is applied only when the orbital deviation exceeds a threshold (Zhang and Wang 2022).
 
 ## Related Concepts
 
-- [Electric Propulsion (EP)](/en/glossary/fundamentals/ep/) — The physical carrier of bang-bang control; the propulsion foundation of low-thrust systems
+- [Electric Propulsion (EP)](/en/glossary/fundamentals/ep/): The physical carrier of bang-bang control; the propulsion foundation of low-thrust systems
 
-- [Tangential Thrust Control](/en/glossary/dynamics/tangential-thrust-control/) — Optimal and simplified strategies for thrust direction
+- [Tangential Thrust Control](/en/glossary/dynamics/tangential-thrust-control/): Optimal and simplified strategies for thrust direction
 
-- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) — The mathematical foundation for deriving bang-bang control
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/): The mathematical foundation for deriving bang-bang control
 
-- [Co-state Variables](/en/glossary/dynamics/co-state-variables/) — The direct physical source of the primer vector
+- [Co-state Variables](/en/glossary/dynamics/co-state-variables/): The direct physical source of the primer vector
 
-- [Primer Vector](/en/glossary/dynamics/primer-vector/) — Lawden's tool for optimal thrust direction determination
+- [Primer Vector](/en/glossary/dynamics/primer-vector/): Lawden's tool for optimal thrust direction determination
 
-- [Homotopy Method](/en/glossary/dynamics/homotopy-method/) — The core technique for numerical solution of bang-bang control
+- [Homotopy Method](/en/glossary/dynamics/homotopy-method/): The core technique for numerical solution of bang-bang control
 
-- [Two-Impulse Rendezvous](/en/glossary/dynamics/two-impulse-rendezvous/) — Maneuver methods under the impulsive propulsion model; two-impulse solutions provide initial guesses for the impulse limit of bang-bang control
+- [Two-Impulse Rendezvous](/en/glossary/dynamics/two-impulse-rendezvous/): Maneuver methods under the impulsive propulsion model; two-impulse solutions provide initial guesses for the impulse limit of bang-bang control
 
 ## References
 

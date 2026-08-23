@@ -36,7 +36,7 @@ $$
 \vec r(t) = f\,\vec r_0 + g\,\vec v_0,\qquad \vec v(t) = \dot f\,\vec r_0 + \dot g\,\vec v_0.
 $$
 
-The four coefficients $f, g, \dot f, \dot g$ are the **Lagrange coefficients** (or **f and g functions**). Lagrange introduced this form for lunar-motion studies in the 18th century; it gives a linear statement of "how to compute the state at one epoch from the state at another in a central gravity field" — Kepler's problem — and underpins two-body propagation, initial orbit determination, and the [Lambert problem](/en/glossary/fundamentals/lamberts-problem/).
+The four coefficients $f, g, \dot f, \dot g$ are the **Lagrange coefficients** (or **f and g functions**). Lagrange introduced this form for lunar-motion studies in the 18th century; it gives a linear statement of how to compute the state at one epoch from the state at another in a central gravity field (Kepler's problem) and underpins two-body propagation, initial orbit determination, and the [Lambert problem](/en/glossary/fundamentals/lamberts-problem/).
 
 ## Fundamental Identity
 
@@ -50,7 +50,7 @@ This identity is a free accuracy check in numerical implementations: any closed-
 
 ## Closed Forms by Independent Variable
 
-The explicit form of the Lagrange coefficients depends on "what is known" — typically some orbital-anomaly difference (Vallado 2022, §2.5).
+The explicit form of the Lagrange coefficients depends on what is known, typically some orbital-anomaly difference (Vallado 2022, §2.5).
 
 ### By true-anomaly difference $\Delta\nu$
 
@@ -135,13 +135,13 @@ with $\tau=t-t_0$ and the derivatives of $u$ evaluated at $t_0$. The series conv
 
 - **Two-body propagation**: given $\vec r_0, \vec v_0$ and a flight time, solve Kepler's equation for $\Delta E$ (or $\Delta H$) and substitute into the corresponding closed form to obtain $\vec r(t),\vec v(t)$.
 - **Lambert's problem**: [Lambert's problem](/en/glossary/fundamentals/lamberts-problem/) uses $f$ to turn the position relation $\vec r_0\to\vec r$ into a single transcendental equation in the semi-major axis $a$; multi-revolution solutions and universal-variable algorithms (Battin-Vaughan, Gooding) are all built on the $f, g$ expressions.
-- **Initial orbit determination**: Gauss's method uses the series form of $f, g$ to couple position-velocity at three observation epochs into an iteration over $\vec r_2$ — the classical method for determining an orbit from angles-only (or angles-plus-some-ranges) observations.
+- **Initial orbit determination**: Gauss's method uses the series form of $f, g$ to couple position-velocity at three observation epochs into an iteration over $\vec r_2$, the classical method for determining an orbit from angles-only (or angles-plus-some-ranges) observations.
 - **Accuracy check**: after each propagation step, the residual of $f\dot g-\dot f g-1$ provides a free estimate of integration error.
 
 ## Common Confusions
 
-- **Lagrange coefficients vs. Lagrange's planetary equations**: the former is the linear transfer between two-body states; the latter are variational equations for the orbital elements under perturbing accelerations (resolved along R/S/W). Same name "Lagrange", different objects.
-- **f, g vs. universal variable**: $\chi$ is the independent variable; $f$ and $g$ are coefficients expressed in terms of it. Saying "propagate with the universal-variable method" really means "propagate with the $f, g$ functions written in $\chi$".
+- **Lagrange coefficients vs. Lagrange's planetary equations**: the former is the linear transfer between two-body states; the latter are variational equations for the orbital elements under perturbing accelerations (resolved along R/S/W). Same name Lagrange, different objects.
+- **f, g vs. universal variable**: $\chi$ is the independent variable; $f$ and $g$ are coefficients expressed in terms of it. Saying propagate with the universal-variable method really means propagate with the $f, g$ functions written in $\chi$.
 - **f, g in Lambert's problem**: there, $\vec r_0, \vec r$ are known and $\vec v_0, \vec v$ are sought; from $\vec r=f\vec r_0+g\vec v_0$ solve $\vec v_0=(\vec r-f\vec r_0)/g$ and then $\vec v=\dot f\vec r_0+\dot g\vec v_0$. This is the role of $f, g$ in boundary-value problems.
 
 ## Related Concepts

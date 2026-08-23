@@ -36,7 +36,7 @@ $$\mathbf{F}(\mathbf{x},\lambda)=\mathbf{0},\qquad \mathbf{x}\in\mathbb{R}^n,\ \
 
 解曲线的一类数值方法。其基本思想是：在已知一个解 $(\mathbf{x}_0,\lambda_0)$ 的前提下，以它为起点，沿解曲线逐步推进到参数 $\lambda$ 的相邻取值，每一步以上一步的解作为下一步的初值猜测，从而扫出整条解分支（Seydel 2010；Allgower & Georg 1990）。
 
-在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 中，$\mathbf{F}$ 通常是周期性条件（状态向量返回初值的打靶方程）加上一个约束，$\mathbf{x}$ 是初始状态与周期等自由变量，$\lambda$ 是沿族推进的参数（雅可比常数 $C$、振幅 $A_z$、近月点高度等）。延拓是 [周期轨道族](/glossary/orbits/periodic-orbit-family/)（Halo、Lyapunov、[DRO](/glossary/orbits/distant-retrograde-orbit-dro/)、[NRHO](/glossary/orbits/nrho/)、butterfly 等）系统化计算与分岔分析的标准工具，由庞加莱首次提出并在 20 世纪 60—70 年代随数字计算普及而成熟（Gómez et al. 2001；Zhang 2019）。
+在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 中，$\mathbf{F}$ 通常是周期性条件（状态向量返回初值的打靶方程）加上一个约束，$\mathbf{x}$ 是初始状态与周期等自由变量，$\lambda$ 是沿族推进的参数（雅可比常数 $C$、振幅 $A_z$、近月点高度等）。延拓是 [周期轨道族](/glossary/orbits/periodic-orbit-family/)（Halo、Lyapunov、[DRO](/glossary/orbits/distant-retrograde-orbit-dro/)、[NRHO](/glossary/orbits/nrho/)、butterfly 等）系统化计算与分岔分析的标准工具，由庞加莱首次提出并在 20 世纪 60 至 70 年代随数字计算普及而成熟（Gómez et al. 2001；Zhang 2019）。
 
 ## 一般形式
 
@@ -48,7 +48,7 @@ $$\mathbf{F}(\mathbf{x}(s),\lambda(s))=\mathbf{0}.$$
 
 $$\mathbf{F}_\mathbf{x}\,\dot{\mathbf{x}}+\mathbf{F}_\lambda\,\dot{\lambda}=\mathbf{0},$$
 
-即雅可比 $\mathbf{F}_\mathbf{x}$ 在非退化点（满秩）处唯一确定切线方向（差一个归一化）。各类延拓算法的差异主要在"如何选步进方向、如何校正、如何处理转向点"。
+即雅可比 $\mathbf{F}_\mathbf{x}$ 在非退化点（满秩）处唯一确定切线方向（差一个归一化）。各类延拓算法的差异主要在如何选步进方向、如何校正、如何处理转向点。
 
 ## 主要变体
 
@@ -58,7 +58,7 @@ $$\mathbf{F}_\mathbf{x}\,\dot{\mathbf{x}}+\mathbf{F}_\lambda\,\dot{\lambda}=\mat
 
 $$\mathbf{F}(\mathbf{x}_k,\lambda_k)=\mathbf{0},\quad \text{初值}\ \mathbf{x}_k^{(0)}=\mathbf{x}_{k-1}.$$
 
-实现简单、对光滑且单调的分支有效。**致命局限**：当解曲线对 $\lambda$ 出现转向点（fold / turning point，即 $d\lambda/ds=0$）时，$\lambda$ 不再单调，方法失效。CR3BP 中周期—能量关系普遍存在转折，因此自然参数延拓只用于快速预扫，正式计算需用伪弧长。
+实现简单、对光滑且单调的分支有效。**致命局限**：当解曲线对 $\lambda$ 出现转向点（fold / turning point，即 $d\lambda/ds=0$）时，$\lambda$ 不再单调，方法失效。CR3BP 中周期-能量关系普遍存在转折，因此自然参数延拓只用于快速预扫，正式计算需用伪弧长。
 
 ### 2. 牛顿延拓（Newton Continuation）
 
@@ -66,7 +66,7 @@ $$\mathbf{F}(\mathbf{x}_k,\lambda_k)=\mathbf{0},\quad \text{初值}\ \mathbf{x}_
 
 $$\mathbf{x}_k^{(j+1)}=\mathbf{x}_k^{(j)}-\mathbf{F}_\mathbf{x}^{-1}\mathbf{F}(\mathbf{x}_k^{(j)},\lambda_k).$$
 
-所谓"牛顿"指的是校正环节采用牛顿迭代，本质仍是自然参数延拓；同样无法穿越转向点。文献中有时把它与下文的牛顿同伦（构造同伦函数的特定方式，见 [同伦方法](/glossary/dynamics/homotopy-method/)）相混，两者并非一回事。
+所谓牛顿指的是校正环节采用牛顿迭代，本质仍是自然参数延拓；同样无法穿越转向点。文献中有时把它与下文的牛顿同伦（构造同伦函数的特定方式，见 [同伦方法](/glossary/dynamics/homotopy-method/)）相混，两者并非一回事。
 
 ### 3. 伪弧长延拓（Pseudo-arclength Continuation）
 
@@ -78,19 +78,19 @@ $$\begin{cases}\mathbf{F}(\mathbf{x},\lambda)=\mathbf{0},\\[2pt] \dot{\mathbf{x}
 
 $$\begin{bmatrix}\mathbf{F}_\mathbf{x} & \mathbf{F}_\lambda \\ \dot{\mathbf{x}}_{k-1}^{\,T} & \dot{\lambda}_{k-1}\end{bmatrix}$$
 
-在标准雅可比 $\mathbf{F}_\mathbf{x}$ 奇异的转向点处仍非奇异，使方法可以平滑地"绕过"折叠（Allgower & Georg 1990；Seydel 2010）。
+在标准雅可比 $\mathbf{F}_\mathbf{x}$ 奇异的转向点处仍非奇异，使方法可以平滑地绕过折叠（Allgower & Georg 1990；Seydel 2010）。
 
 **预测-校正（predictor-corrector）实现**：每步先沿切向作预测 $\tilde{\mathbf{x}}=\mathbf{x}_{k-1}+\Delta s\,\dot{\mathbf{x}}_{k-1}$，$\tilde{\lambda}=\lambda_{k-1}+\Delta s\,\dot{\lambda}_{k-1}$，再用牛顿法联立上述两式校正回解曲线。在 CR3BP 周期轨道族的计算中，这是 Halo、Lyapunov、DRO 等族全分支扫描与分岔跟踪的标准做法（Doedel et al. 2007 AUTO；Galan-Vioque et al. 2014；Zhang 2019）。
 
 ### 4. 分段线性（Piecewise-Linear / Simplicial）延拓
 
-不依赖导数、对 $\mathbf{F}$ 仅要求连续的"鲁棒"实现：在 $(\mathbf{x},\lambda)$ 空间布单纯形剖分，跟踪完全标号单纯形来近似解曲线。优点是无需雅可比、对不可微问题也能工作，缺点是步进精度低、计算量大，远慢于预测-校正法（Allgower & Georg 1990；Haberkorn et al. 2004）。在轨道力学中很少使用，只在雅可比不可计算或同伦曲线高度不规则时作为后备。
+不依赖导数、对 $\mathbf{F}$ 仅要求连续的鲁棒实现：在 $(\mathbf{x},\lambda)$ 空间布单纯形剖分，跟踪完全标号单纯形来近似解曲线。优点是无需雅可比、对不可微问题也能工作，缺点是步进精度低、计算量大，远慢于预测-校正法（Allgower & Georg 1990；Haberkorn et al. 2004）。在轨道力学中很少使用，只在雅可比不可计算或同伦曲线高度不规则时作为后备。
 
 ## 转向点与分岔
 
 延拓过程中真正有价值的发现通常发生在解曲线的**奇点**上：
 
-- **转向点（fold / saddle-node）**：$\lambda$ 沿曲线方向局部极值，意味着同一 $\lambda$ 值对应多个解或解消失。CR3BP 周期—能量关系图上频繁出现，是族存在性边界的标志。
+- **转向点（fold / saddle-node）**：$\lambda$ 沿曲线方向局部极值，意味着同一 $\lambda$ 值对应多个解或解消失。CR3BP 周期-能量关系图上频繁出现，是族存在性边界的标志。
 
 - **分岔点（branching / bifurcation）**：两条或多条解分支相交。Halo 轨道族即从平面 Lyapunov 族经过 pitchfork 分岔产生（后者关于 $z\to -z$ 对称性破缺）；DRO、NRHO、butterfly 等族之间的连接点也都通过延拓过程中检测雅可比零空间或 Floquet 乘子穿越 $+1$ 来识别（Galan-Vioque et al. 2014；Zhang 2019）。
 
@@ -114,7 +114,7 @@ $$\begin{bmatrix}\mathbf{F}_\mathbf{x} & \mathbf{F}_\lambda \\ \dot{\mathbf{x}}_
 ## 应用要点
 
 1. **族的系统化扫描**。给定一条种子周期轨道（通常由 [微分修正](/glossary/dynamics/differential-correction/) 求得），延拓可一次生成整族数千条轨道，避免逐个孤立的初值猜测；这是 Halo/Lyapunov/DRO/NRHO 族图谱的工业级生成方式（Zhang 2019）。
-2. **模型间的过渡（model continuation）**。把"参数"取为模型保真度（如 CR3BP→双圆四体→星历 N 体），每步对当前模型求解平动点或周期轨道，得到保真度递增的解序列。这一思路由 Ren et al.（2012）、Dei Tos & Topputo（2017）系统化，是把 CR3BP 设计的轨道移植到真实星历环境的标配流程。
+2. **模型间的过渡（model continuation）**。把参数取为模型保真度（如 CR3BP→双圆四体→星历 N 体），每步对当前模型求解平动点或周期轨道，得到保真度递增的解序列。这一思路由 Ren et al.（2012）、Dei Tos & Topputo（2017）系统化，是把 CR3BP 设计的轨道移植到真实星历环境的标配流程。
 3. **准周期不变环面族的延拓**。在参考周期轨道的中心流形附近建立状态网格，施加频闪映射固定、沿环面无漂移、周期匹配等约束修正后，沿族的切向扰动延拓；这是 CR3BP 中准周期 Lissajous / quasi-Halo 族生成的标准方法（Capannolo et al. 2023；Gómez et al. 2001）。
 4. **发射窗口与鲁棒性分析**。把出发时刻、月面停留时长等工程参数作为延拓变量，从最优解出发扫描可行区间，评估窗口宽度与备份能力（丁百慧等 2023）。
 
@@ -146,7 +146,7 @@ $$\begin{bmatrix}\mathbf{F}_\mathbf{x} & \mathbf{F}_\lambda \\ \dot{\mathbf{x}}_
 
 - Galan-Vioque J, Almendral J A, McGrath M. 2014. Continuation of periodic orbits in symmetric Hamiltonian and conservative systems. *Discrete Contin. Dyn. Syst. Ser. S*.（保守系统周期轨道延拓的理论与 AUTO 实践）
 
-- Gómez G, Mondelo J M. 2001. *Dynamics and Mission Design near Libration Points — vol. II*. World Scientific.（CR3BP 周期轨道族延拓的标准做法）
+- Gómez G, Mondelo J M. 2001. *Dynamics and Mission Design near Libration Points: vol. II*. World Scientific.（CR3BP 周期轨道族延拓的标准做法）
 
 - Zhang C. 2019. Numerical continuation of families of periodic orbits in the circular restricted three-body problem.（地月系周期轨道族延拓综述性算例）
 

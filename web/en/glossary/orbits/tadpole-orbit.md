@@ -30,7 +30,7 @@ permalink: /en/glossary/orbits/tadpole-orbit/
 
 ## Definition
 
-In the restricted three-body problem, a particle started close to L4 or L5 executes small-amplitude libration about the equilibrium point; increasing the initial separation elongates the orbit toward the L3 direction. These elongated zero-velocity curves give the orbit its name — tadpole orbit (Murray & Dermott 1999, §3.9). The angular extent is limited: the critical tadpole orbit just reaches the L3 direction (minimum angular distance 23.5°, i.e., maximum angular range ~156.5°, terminating at L3 without encircling it); larger amplitudes transition into [horseshoe orbits](/en/glossary/orbits/horseshoe-orbit/) librating about L3, L4, and L5. The triangular points are linearly stable (see [Libration Point](/en/glossary/orbits/lagrangian-point/)), but individual family members vary in stability.
+In the restricted three-body problem, a particle started close to L4 or L5 executes small-amplitude libration about the equilibrium point; increasing the initial separation elongates the orbit toward the L3 direction. These elongated zero-velocity curves give the orbit its name: tadpole orbit (Murray & Dermott 1999, §3.9). The angular extent is limited: the critical tadpole orbit just reaches the L3 direction (minimum angular distance 23.5°, i.e., maximum angular range ~156.5°, terminating at L3 without encircling it); larger amplitudes transition into [horseshoe orbits](/en/glossary/orbits/horseshoe-orbit/) librating about L3, L4, and L5. The triangular points are linearly stable (see [Libration Point](/en/glossary/orbits/lagrangian-point/)), but individual family members vary in stability.
 
 ## L4/L5 Periodic-Orbit Families
 
@@ -40,9 +40,9 @@ Planar motion near the triangular points has two modal frequencies: short-period
 - **Long-period family**: limiting period about 91.6 days.
 - **Vertical family (L4V/L5V)**: non-planar periodic orbits extending mainly perpendicular to the Earth–Moon orbital plane (rotating-frame z direction), symmetric about the XZ plane; combined with L2 northern/southern NRHOs they form the optimal resonant navigation constellation (He 2025).
 
-**SPO (short-period orbit)**: representative L4/L5 short-period members selected as transfer-network nodes have period 28.3488 days and Jacobi constant 2.9132, with L4 and L5 being mirror images (about the rotating-frame x-axis); they are "practically stable" with no usable manifolds for transfer design (Capdevila & Howell 2018). He 2025's L4P/L5P families (~27.3-day period) and Xu 2026's "L4 planar short-period orbit" are different names for members of the same family.
+**SPO (short-period orbit)**: representative L4/L5 short-period members selected as transfer-network nodes have period 28.3488 days and Jacobi constant 2.9132, with L4 and L5 being mirror images (about the rotating-frame x-axis); they are practically stable with no usable manifolds for transfer design (Capdevila & Howell 2018). He 2025's L4P/L5P families (~27.3-day period) and Xu 2026's L4 planar short-period orbit are different names for members of the same family.
 
-**Planar orbits (SDA context)**: the cislunar SDA observer catalog includes L4/L5 planar orbits, but almost no planar observers appear in the Pareto front — planar observers have observation gaps due to sun-pointing constraints when viewing planar transfer trajectories, while non-planar observers (such as L4/L5 axial orbits) can fill those gaps with their z-direction motion (Klonowski 2024).
+**Planar orbits (SDA context)**: the cislunar SDA observer catalog includes L4/L5 planar orbits, but almost no planar observers appear in the Pareto front: planar observers have observation gaps due to sun-pointing constraints when viewing planar transfer trajectories, while non-planar observers (such as L4/L5 axial orbits) can fill those gaps with their z-direction motion (Klonowski 2024).
 
 ## Applications
 

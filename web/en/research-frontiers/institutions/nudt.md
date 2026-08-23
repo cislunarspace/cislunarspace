@@ -30,7 +30,7 @@ twitter:
 
 The National University of Defense Technology (NUDT, 国防科技大学) traces its origins to the People's Liberation Army Military Engineering Institute (哈军工), established in Harbin in 1953 under the leadership of General Chen Geng. It was the PRC's first higher military engineering institution. In 1970, the main body relocated to Changsha and was renamed Changsha Institute of Technology. In 1978, it was reorganized as the PLA National University of Defense Technology. In 2017, NUDT was rebuilt under the Central Military Commission by merging several military academies and research institutes.
 
-NUDT has received sustained attention from the CPC Central Committee and the Central Military Commission. It was among the 20 national key universities designated in 1959, one of the first institutions authorized to grant master's and doctoral degrees, and the only military institution in both "Project 985" and the first round of "Double First-Class" construction. The university's academic system covers six discipline categories — science, engineering, military science, management, law, and literature — with 61 undergraduate programs, 26 master's first-discipline authorization points, and 23 doctoral first-discipline authorization points. Five disciplines — Information and Communication Engineering, Computer Science and Technology, Aeronautical and Astronautical Science and Technology, Software Engineering, and Management Science and Engineering — are on the national "Double First-Class" list.
+NUDT has received sustained attention from the CPC Central Committee and the Central Military Commission. It was among the 20 national key universities designated in 1959, one of the first institutions authorized to grant master's and doctoral degrees, and the only military institution in both Project 985 and the first round of Double First-Class construction. The university's academic system covers six discipline categories (science, engineering, military science, management, law, and literature) with 61 undergraduate programs, 26 master's first-discipline authorization points, and 23 doctoral first-discipline authorization points. Five disciplines (Information and Communication Engineering, Computer Science and Technology, Aeronautical and Astronautical Science and Technology, Software Engineering, and Management Science and Engineering) are on the national Double First-Class list.
 
 NUDT's research output relevant to cislunar space includes work on space security strategy, low-energy transfer orbit design, and orbital parameter characterization for cislunar libration points.
 
@@ -50,7 +50,7 @@ NUDT's research output relevant to cislunar space includes work on space securit
 
 **Reference:** Yang L, Peng W. Space security development trends and impacts over the next 30 years[J/OL]. National Defense Science & Technology, 2021, 42(6): 1-4, 14.
 
-**Abstract:** In recent years, the Atlantic Council, the Space Foundation, and KPMG International have published reports analyzing future space security development. Based on comprehensive analysis, this paper identifies three trends: human activities are becoming increasingly dependent on space; resource competition is moving into space; and national security is relying more heavily on space. The paper concludes that the purpose of human space activity is transitioning from "exploration and discovery" toward "commercial activation" and "security dominance," accelerating the formation of an integrated military-civilian-commercial space development pattern. Defense space innovation continues to accelerate, and cislunar space will open new frontiers for the space economy and military operations.
+**Abstract:** In recent years, the Atlantic Council, the Space Foundation, and KPMG International have published reports analyzing future space security development. Based on comprehensive analysis, this paper identifies three trends: human activities are becoming increasingly dependent on space; resource competition is moving into space; and national security is relying more heavily on space. The paper concludes that the purpose of human space activity is transitioning from exploration and discovery toward commercial activation and security dominance, accelerating the formation of an integrated military-civilian-commercial space development pattern. Defense space innovation continues to accelerate, and cislunar space will open new frontiers for the space economy and military operations.
 
 ### Cislunar low-energy transfer orbits
 
@@ -72,7 +72,7 @@ NUDT's research output relevant to cislunar space includes work on space securit
 
 **Reference:** Qiao C, Long X, Yang L, et al. Calculation of a dynamical substitute for the real earth-moon system based on hamiltonian analysis[J]. Astrophysical Journal, 2025, 991(1): 46-59.
 
-**Abstract:** The Earth-Moon libration points no longer exhibit the dynamical characteristics of "equilibrium points" due to perturbation effects when applying the ephemeris model. By decoupling the forced motions within the ephemeris model and computing the dynamical substitute trajectories, we can reconstruct a dynamical system that recovers the "equilibrium points" feature. This paper presents a novel method for calculating dynamical substitute based on the Hamiltonian mechanics framework. The Hamiltonian equations for the ephemeris model are formulated, the decoupling problem is reformulated as solving a nonautonomous differential equation through canonical transformations, and an iterative method based on frequency analysis is employed. Approximate analytical solutions for five libration points over a 360-year period are provided, in excellent agreement with numerical integration results.
+**Abstract:** The Earth-Moon libration points no longer exhibit the dynamical characteristics of equilibrium points due to perturbation effects when applying the ephemeris model. By decoupling the forced motions within the ephemeris model and computing the dynamical substitute trajectories, we can reconstruct a dynamical system that recovers the equilibrium points feature. This paper presents a novel method for calculating dynamical substitute based on the Hamiltonian mechanics framework. The Hamiltonian equations for the ephemeris model are formulated, the decoupling problem is reformulated as solving a nonautonomous differential equation through canonical transformations, and an iterative method based on frequency analysis is employed. Approximate analytical solutions for five libration points over a 360-year period are provided, in excellent agreement with numerical integration results.
 
 ## Zhu Yanwei
 
@@ -84,7 +84,7 @@ NUDT's research output relevant to cislunar space includes work on space securit
 
 **Reference:** Zhu Y, Huang H, Cai W, et al. Introduction to Space Operations[M]. National Defense Industry Press, 2026.
 
-**Summary:** This book is a systematic summary of the authors' team's years of teaching and research, organized along the main thread of "technical foundations — mission domains — command and control," featuring a prominent integration of technology and military science. It covers the basic concepts, historical development, technical foundations, mission domains, and command and control of space operations, with detailed analysis of four major mission domains: space information support, space situational awareness, space offensive and defensive operations, and space mission support. The book also discusses the impact of space law and operational doctrine on command and control, using the U.S. space operations C2 system as a reference.
+**Summary:** This book is a systematic summary of the authors' team's years of teaching and research, organized along the main thread of technical foundations, mission domains, and command and control, featuring a prominent integration of technology and military science. It covers the basic concepts, historical development, technical foundations, mission domains, and command and control of space operations, with detailed analysis of four major mission domains: space information support, space situational awareness, space offensive and defensive operations, and space mission support. The book also discusses the impact of space law and operational doctrine on command and control, using the U.S. space operations C2 system as a reference.
 
 ### Cislunar simulation system design
 
@@ -94,7 +94,7 @@ NUDT's research output relevant to cislunar space includes work on space securit
 
 - **Abstract:**
   - **Purpose:** Cislunar orbits are characterized by long periods, strong chaos, and high sensitivity to perturbations. Cislunar situational awareness missions exhibit significant dynamic variability and uncertainty, urgently requiring advanced virtual simulation, test-bedding, and AI techniques.
-  - **Method:** A three-layer intelligent simulation system architecture — "infrastructure support + service support + typical applications" — is designed based on container cloud + microservices.
+  - **Method:** A three-layer intelligent simulation system architecture (infrastructure support + service support + typical applications) is designed based on container cloud + microservices.
   - **Result:** A cislunar situational awareness simulation system covering scenario design, situational awareness, mission planning, system-of-systems simulation, experiment design, and evaluation modules.
   - **Conclusion:** The system supports forward design and iterative optimization, with 15-year resident orbit integration achieving minute-level performance under high-precision ephemeris models.
 
@@ -120,7 +120,7 @@ NUDT's research output relevant to cislunar space includes work on space securit
 
 **Reference:** Qiao C, Long X, Yang L, et al. Calculation of a dynamical substitute for the real earth-moon system based on hamiltonian analysis[J]. Astrophysical Journal, 2025, 991(1): 46-59.
 
-**Abstract:** A novel method for calculating dynamical substitute based on Hamiltonian mechanics is presented. By decoupling forced motions within the ephemeris model and computing dynamical substitute trajectories, a dynamical system recovering "equilibrium points" features is reconstructed. Approximate analytical solutions for five libration points over a 360-year period are provided.
+**Abstract:** A novel method for calculating dynamical substitute based on Hamiltonian mechanics is presented. By decoupling forced motions within the ephemeris model and computing dynamical substitute trajectories, a dynamical system recovering equilibrium points features is reconstructed. Approximate analytical solutions for five libration points over a 360-year period are provided.
 
 ## Hu Jiaxin
 

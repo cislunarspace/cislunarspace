@@ -20,15 +20,15 @@ wechatShare:
 
 ## Definition and Physical Background
 
-An NRHO (Near-Rectilinear Halo Orbit) is a special type of periodic orbit in the Circular Restricted Three-Body Problem (CR3BP), existing near the L1 and L2 Lagrange points of the Earth-Moon system. The name "near-rectilinear" derives from the orbit's nearly linear geometric shape in the synodic (rotating) reference frame — a spacecraft near the L1 point moves back and forth along an approximately straight line, with a large amplitude ratio $A_z/A_x$ and an orbital plane nearly perpendicular to the Earth-Moon line.
+An NRHO (Near-Rectilinear Halo Orbit) is a special type of periodic orbit in the Circular Restricted Three-Body Problem (CR3BP), existing near the L1 and L2 Lagrange points of the Earth-Moon system. The name near-rectilinear derives from the orbit's nearly linear geometric shape in the synodic (rotating) reference frame: a spacecraft near the L1 point moves back and forth along an approximately straight line, with a large amplitude ratio $A_z/A_x$ and an orbital plane nearly perpendicular to the Earth-Moon line.
 
-Halo orbits and NRHOs are related but not identical. A halo orbit is the general term for periodic or quasi-periodic orbits near the L1/L2 Lagrange points, emphasizing their "halo-like" three-dimensional shape. An NRHO places greater emphasis on the near-rectilinear geometric characteristic and typically refers to the class of halo orbits with large amplitudes and high inclinations. In engineering discourse, "NRHO" has become the proper name for the specific orbit type selected for the Gateway mission.
+Halo orbits and NRHOs are related but not identical. A halo orbit is the general term for periodic or quasi-periodic orbits near the L1/L2 Lagrange points, emphasizing their halo-like three-dimensional shape. An NRHO places greater emphasis on the near-rectilinear geometric characteristic and typically refers to the class of halo orbits with large amplitudes and high inclinations. In engineering discourse, NRHO has become the proper name for the specific orbit type selected for the Gateway mission.
 
 ## Dynamical Characteristics
 
 The dynamics of an NRHO are governed by the Jacobi constant $C_J$ in the Earth-Moon CR3BP. Near the critical value $C_J \approx 3$, the orbit exhibits quasi-periodic behavior: the spacecraft oscillates near the L1/L2 point with a period of approximately 6.5 to 8 Earth days.
 
-L1 NRHOs and L2 NRHOs differ in their stability directions — an L1 NRHO possesses locally stable manifolds in certain directions, facilitating low-energy transfer from the Earth direction; an L2 NRHO is better suited for communication relay and observation missions on the far side of the Moon.
+L1 NRHOs and L2 NRHOs differ in their stability directions: an L1 NRHO possesses locally stable manifolds in certain directions, facilitating low-energy transfer from the Earth direction; an L2 NRHO is better suited for communication relay and observation missions on the far side of the Moon.
 
 ## Orbit Family Classification
 

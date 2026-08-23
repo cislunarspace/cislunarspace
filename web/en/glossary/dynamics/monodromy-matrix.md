@@ -1,4 +1,4 @@
----
+﻿---
 title: Monodromy Matrix and Floquet Stability Theory（单值矩阵与Floquet稳定性分析）
 description: The monodromy matrix is the state transition matrix integrated over one complete period of a periodic orbit. Its eigenvalues (Floquet multipliers) classify orbital stability — real multipliers $\lambda_1\lambda_2=1$ define the saddle structure, unit-modulus complex-conjugate pairs describe oscillatory modes. Covers Floquet theory, eigen-decomposition of collinear libration point orbits, Lyapunov exponents, error divergence rates, and bifurcation criteria.
 keywords: monodromy matrix, Floquet multipliers, Floquet theory, periodic orbit stability, saddle structure, Lyapunov exponent, state transition matrix, eigenvalue decomposition, libration point, CR3BP, center-saddle
@@ -34,17 +34,17 @@ The monodromy matrix $M = \Phi(T, 0)$ is the state transition matrix of a period
 
 The Floquet-Lyapunov theorem states that the state transition matrix of a periodic Hamiltonian system can be uniquely decomposed as the product of a periodic symplectic matrix and an exponential matrix: $\Phi(t, 0) = P(t) e^{t K}$, where $P(t+T) = P(t)$ and $K$ is constant. The monodromy matrix equals $M = e^{T K}$, and its eigenvalues $\lambda_i$ are classified by magnitude into three modal types:
 
-- $|\lambda_i| > 1$: **unstable mode** — neighboring trajectories diverge exponentially;
+- $|\lambda_i| > 1$: **unstable mode**: neighboring trajectories diverge exponentially;
 
-- $|\lambda_i| = 1$: **neutral / center mode** — periodic or quasi-periodic oscillation;
+- $|\lambda_i| = 1$: **neutral / center mode**: periodic or quasi-periodic oscillation;
 
-- $|\lambda_i| < 1$: **stable mode** — neighboring trajectories converge exponentially.
+- $|\lambda_i| < 1$: **stable mode**: neighboring trajectories converge exponentially.
 
 ## Floquet Mode Decomposition of CR3BP Periodic Orbits
 
 The full CR3BP state space is 6-dimensional (3 positions + 3 velocities), but the Jacobi constant imposes a first-order conservation law. Consequently, the 6 Floquet multipliers of the monodromy matrix satisfy symplectic pairing: if $\lambda$ is a multiplier, then $\bar{\lambda}, 1/\lambda, 1/\bar{\lambda}$ are also multipliers (Meyer, Hall & Offin 2017). For periodic orbits near collinear libration points, the typical configuration is:
 
-1. **One real pair**: $\lambda_1 > 1$, $\lambda_2 = 1/\lambda_1 < 1$, characterizing the saddle (center-saddle) structure. $\lambda_1$ corresponds to the unstable direction — its right eigenvector $w_u$ gives the local direction of exponential divergence along the unstable manifold. $\lambda_2$ corresponds to the stable direction — its right eigenvector $w_s$ gives the local direction of convergence along the stable manifold. Together they define the local tangent space of the invariant manifolds at every point on the periodic orbit (Gómez et al. 2001, Ch.1).
+1. **One real pair**: $\lambda_1 > 1$, $\lambda_2 = 1/\lambda_1 < 1$, characterizing the saddle (center-saddle) structure. $\lambda_1$ corresponds to the unstable direction: its right eigenvector $w_u$ gives the local direction of exponential divergence along the unstable manifold. $\lambda_2$ corresponds to the stable direction: its right eigenvector $w_s$ gives the local direction of convergence along the stable manifold. Together they define the local tangent space of the invariant manifolds at every point on the periodic orbit (Gómez et al. 2001, Ch.1).
 
 2. **One complex-conjugate pair**: $|\lambda_{3,4}| = 1$, describing the in-plane oscillatory mode of the Lyapunov center family. The associated central Floquet mode generates quasi-periodic orbits (e.g., quasi-Halo, quasi-periodic DRO).
 
@@ -62,9 +62,9 @@ $$
 \delta \approx \frac{\ln|\lambda_u|}{P}
 $$
 
-Deng et al. (2017) report $\delta \approx 0.5\ \text{day}^{-1}$ for Earth-Moon collinear libration point orbits, meaning a position error of several tens of meters diverges to several tens of kilometers in roughly 10 days. Understanding $\delta$ is essential for designing onboard orbit prediction systems — it dictates the re-determination cadence and the maximum valid prediction window.
+Deng et al. (2017) report $\delta \approx 0.5\ \text{day}^{-1}$ for Earth-Moon collinear libration point orbits, meaning a position error of several tens of meters diverges to several tens of kilometers in roughly 10 days. Understanding $\delta$ is essential for designing onboard orbit prediction systems: it dictates the re-determination cadence and the maximum valid prediction window.
 
-Notably, irrespective of the initial error direction, the long-term error vector tends to align with the dominant unstable eigenvector $w_u$ — a property known in engineering as "unstable direction alignment." This means stationkeeping control should prioritize canceling the component along $w_u$.
+Notably, irrespective of the initial error direction, the long-term error vector tends to align with the dominant unstable eigenvector $w_u$, a property known in engineering as unstable direction alignment. This means stationkeeping control should prioritize canceling the component along $w_u$.
 
 ## Bifurcation Criteria: Floquet Multipliers Crossing the Unit Circle
 
@@ -84,15 +84,15 @@ Floquet mode decomposition of periodic orbits is built upon the linearization an
 
 - **Collinear points** ($L_1, L_2, L_3$): The linearized system has one real pair $\pm d_1$ plus two pure imaginary pairs $\pm i \lambda_2$, $\pm i \lambda_3$, exhibiting a **center-center-saddle** structure in the full 3D phase space. The center directions support bounded motion while the saddle (hyperbolic) direction is the geometric origin of stable and unstable invariant manifolds (Szebehely 1967; Meyer, Hall & Offin 2017).
 
-- **Triangular points** ($L_4, L_5$): When $\mu < \mu_0 \approx 0.0385$ (the Earth-Moon system satisfies this, with $\mu \approx 0.01215$), the linearized system has three pure imaginary pairs — a **center-center-center** structure, indicating linear stability. However, nonlinear effects and solar gravity perturbations introduce weak instability on practical time scales.
+- **Triangular points** ($L_4, L_5$): When $\mu < \mu_0 \approx 0.0385$ (the Earth-Moon system satisfies this, with $\mu \approx 0.01215$), the linearized system has three pure imaginary pairs, a **center-center-center** structure, indicating linear stability. However, nonlinear effects and solar gravity perturbations introduce weak instability on practical time scales.
 
-Conley's (1968) equilibrium region theory reveals a key geometric feature near collinear points: when the Jacobi constant is slightly above the critical value $C_i$, a narrow connecting channel (the "neck") opens in the Hill region, permitting trajectory passage between the two primaries. The dynamics within the equilibrium region are precisely characterized by the linearized equations, and, via Moser's extension of Lyapunov's theorem, all qualitative results from the linear analysis extend to the full nonlinear system. This observation is the geometric foundation of all subsequent invariant-manifold patching theory and low-energy transfer design (e.g., lobe dynamics in interplanetary transfers).
+Conley's (1968) equilibrium region theory reveals a key geometric feature near collinear points: when the Jacobi constant is slightly above the critical value $C_i$, a narrow connecting channel (the neck) opens in the Hill region, permitting trajectory passage between the two primaries. The dynamics within the equilibrium region are precisely characterized by the linearized equations, and, via Moser's extension of Lyapunov's theorem, all qualitative results from the linear analysis extend to the full nonlinear system. This observation is the geometric foundation of all subsequent invariant-manifold patching theory and low-energy transfer design (e.g., lobe dynamics in interplanetary transfers).
 
 ## Practical Considerations
 
 - **Stability Assessment**: Computing the Floquet multipliers of a numerically generated reference orbit is the standard first step in stability evaluation. Any multiplier with $|\lambda| > 1$ signals the necessity of stationkeeping control.
 
-- **Invariant Manifold Directions**: The eigenvectors $w_u$ and $w_s$ provide the local tangent of the manifolds at each point on the periodic orbit — the input for globally computed manifolds and Poincaré-section patching.
+- **Invariant Manifold Directions**: The eigenvectors $w_u$ and $w_s$ provide the local tangent of the manifolds at each point on the periodic orbit, the input for globally computed manifolds and Poincaré-section patching.
 
 - **Onboard Prediction Window**: The divergence rate $\delta$ determines the maximum valid prediction interval before re-initialization or stationkeeping is required.
 
@@ -122,7 +122,7 @@ Conley's (1968) equilibrium region theory reveals a key geometric feature near c
 
 ## References
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points — Vol. I*, Ch.1 (definition of monodromy matrix, Floquet multiplier modal classification, and eigenvectors)
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points. Vol. I*, Ch.1 (definition of monodromy matrix, Floquet multiplier modal classification, and eigenvectors)
 
 - Meyer, Hall & Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, 3rd ed., Springer (Floquet theorem, symplectic eigenvalue pairing properties)
 

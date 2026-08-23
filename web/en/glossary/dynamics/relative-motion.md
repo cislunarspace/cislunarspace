@@ -1,4 +1,4 @@
----
+﻿---
 title: Relative Motion
 description: The position and velocity of one spacecraft (deputy/interceptor) relative to another (chief/target) as functions of time. The dynamical foundation of formation flying, rendezvous, and proximity operations in two-body and three-body regimes.
 keywords: relative motion, Hill's equations, Clohessy-Wiltshire equations, HCW, Hill frame, CR3BP relative dynamics, CLERM, ELERM, CNERM, relative orbit determination
@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/relative-motion/
 
 ## Definition
 
-**Relative motion** is the position and velocity of one spacecraft (the deputy or interceptor) expressed relative to another (the chief or target), as functions of time. It is the fundamental dynamical description underlying all formation flying, rendezvous, docking, and proximity operations — whether in the two-body Keplerian regime or in the multi-body cislunar environment.
+**Relative motion** is the position and velocity of one spacecraft (the deputy or interceptor) expressed relative to another (the chief or target), as functions of time. It is the fundamental dynamical description underlying all formation flying, rendezvous, docking, and proximity operations, whether in the two-body Keplerian regime or in the multi-body cislunar environment.
 
 A relative motion model expresses the state vector $\delta\mathbf{r} = \mathbf{r}_{\text{deputy}} - \mathbf{r}_{\text{chief}}$ in a reference frame attached to the chief. The choice of the dynamical model (two-body vs. CR3BP) and the linearization strategy (linear vs. nonlinear, circular vs. elliptic) determines the equation structure and the domain of validity.
 
@@ -58,7 +58,7 @@ z(t) &= z_0\cos(nt) + \frac{\dot{z}_0}{n}\sin(nt)
 \end{aligned}
 $$
 
-The **drift term** in $y(t)$ — $- (6n x_0 + 3\dot{y}_0)t$ — is the central experimental fact of HCW dynamics: unless the initial conditions satisfy $6n x_0 + 3\dot{y}_0 = 0$, the deputy drifts secularly along-track. When this condition holds, the deputy traces a closed elliptical path around the chief with a semi-minor (radial) to semi-major (along-track) axis ratio of 1:2 — the classic 2:1 relative ellipse geometry used worldwide in Earth-orbiting formation design.
+The **drift term** in $y(t)$ ($- (6n x_0 + 3\dot{y}_0)t$) is the central experimental fact of HCW dynamics: unless the initial conditions satisfy $6n x_0 + 3\dot{y}_0 = 0$, the deputy drifts secularly along-track. When this condition holds, the deputy traces a closed elliptical path around the chief with a semi-minor (radial) to semi-major (along-track) axis ratio of 1:2, the classic 2:1 relative ellipse geometry used worldwide in Earth-orbiting formation design.
 
 **Limitations**: The HCW model assumes circular chief motion. For eccentric orbits, error grows significantly (Vallado 2022, Fig. 6-37: ~9 km/day drift error for a LEO $e=0.152$ orbit). The **Tschauner–Hempel equations** extend to elliptic chief orbits. All two-body relative models neglect the third-body gravity of the Moon or Sun; they fail in cislunar space where these effects are of the same order as the primary central-body gravity.
 
@@ -94,7 +94,7 @@ $$
 \end{aligned}
 $$
 
-where $\xi_r$, $\eta_r$, $\zeta_r$ are the relative coordinates in the principal frame centered at the leader spacecraft. By selecting initial conditions that excite only $s_1$ or only $s_2$, one can isolate a pure long-period or pure short-period relative ellipse — useful for designing natural parallel or leader–follower formations. The analytical model's total range error is under 3% of the maximum motion amplitude when compared to numerically integrated CR3BP trajectories.
+where $\xi_r$, $\eta_r$, $\zeta_r$ are the relative coordinates in the principal frame centered at the leader spacecraft. By selecting initial conditions that excite only $s_1$ or only $s_2$, one can isolate a pure long-period or pure short-period relative ellipse, useful for designing natural parallel or leader–follower formations. The analytical model's total range error is under 3% of the maximum motion amplitude when compared to numerically integrated CR3BP trajectories.
 
 ## Related Concepts
 

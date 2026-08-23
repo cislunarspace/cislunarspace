@@ -21,7 +21,7 @@ wechatShare:
 
 Low-energy transfer orbits are a key enabling technology for cislunar missions. Traditional Hohmann transfers require large velocity increments (Δv ~3.2 km/s), while leveraging invariant manifold structures in three-body dynamics can achieve significant fuel savings.
 
-The core idea is to utilize dynamical properties near libration points: within the CRTBP framework, periodic/quasi-periodic orbits (such as Halo and Lissajous orbits) exist around libration points (especially L1 and L2), and their stable/unstable manifolds form "tubes" in phase space that naturally connect different regions.
+The core idea is to utilize dynamical properties near libration points: within the CRTBP framework, periodic/quasi-periodic orbits (such as Halo and Lissajous orbits) exist around libration points (especially L1 and L2), and their stable/unstable manifolds form tubes in phase space that naturally connect different regions.
 
 ## Key Techniques
 
@@ -60,5 +60,5 @@ Common methods include shooting methods, differential evolution algorithms, and 
 
 **Related Links**
 
-- ↑ [Orbit Design & Optimization](./README.md) — Back to direction homepage
-- ↔ [Orbit Parameter Characterization](./orbit-characterization.md) — Related subtopic
+- ↑ [Orbit Design & Optimization](./README.md): Back to direction homepage
+- ↔ [Orbit Parameter Characterization](./orbit-characterization.md): Related subtopic

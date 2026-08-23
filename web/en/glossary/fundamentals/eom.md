@@ -52,7 +52,7 @@ $$
 \ddot{x} - 2\dot{y} = \Omega_x, \qquad \ddot{y} + 2\dot{x} = \Omega_y, \qquad \ddot{z} = \Omega_z.
 $$
 
-Because time does not appear explicitly, this system is **autonomous**, and admits the Jacobi integral $C = 2\Omega - (\dot x^2 + \dot y^2 + \dot z^2)$ as a conserved quantity — the foundation on which zero-velocity surfaces, libration points, and all CR3BP-based mission design rest (Szebehely 1967, §1.6).
+Because time does not appear explicitly, this system is **autonomous**, and admits the Jacobi integral $C = 2\Omega - (\dot x^2 + \dot y^2 + \dot z^2)$ as a conserved quantity, the foundation on which zero-velocity surfaces, libration points, and all CR3BP-based mission design rest (Szebehely 1967, §1.6).
 
 ## The state equation
 
@@ -68,13 +68,13 @@ $$
 \dot{\mathbf x} = \mathbf A(t)\,\mathbf x + \mathbf B(t)\,\mathbf u, \qquad \mathbf y = \mathbf C(t)\,\mathbf x.
 $$
 
-This is the **state equation** (state-space form). Casting the dynamics in first-order form is the prerequisite for applying optimal control, state feedback, and state-observer techniques. In the CR3BP, when the reference is a periodic orbit, $\mathbf A(t)$ is periodic with the orbit's period — this is the **linear time-periodic** structure that underpins Floquet analysis of relative motion about libration-point orbits.
+This is the **state equation** (state-space form). Casting the dynamics in first-order form is the prerequisite for applying optimal control, state feedback, and state-observer techniques. In the CR3BP, when the reference is a periodic orbit, $\mathbf A(t)$ is periodic with the orbit's period: this is the **linear time-periodic** structure that underpins Floquet analysis of relative motion about libration-point orbits.
 
 ## Autonomous vs. non-autonomous; time-varying vs. time-invariant
 
 A system is **autonomous** (time-invariant) when $\mathbf f$ does not depend explicitly on $t$; otherwise it is **non-autonomous** (time-varying). The CR3BP state equation is autonomous because both primaries are stationary in the synodic frame. The bi-circular problem, the elliptic restricted three-body problem, and the full ephemeris (N-body) model all introduce explicit time dependence through the moving third body or the real planetary positions; they are non-autonomous, lose the Jacobi integral, and require quasi-periodic or entirely numerical methods (Baresi 2023).
 
-Autonomous systems are invariant under time shifts: a trajectory launched at $t_0$ and one launched at $t_0 + \Delta t$ have the same shape. Non-autonomous systems lose this symmetry — launch epoch matters, and numerical integration must carry the absolute time along with the state. The added difficulty is not cosmetic: the entire apparatus of Poincaré sections, invariant manifolds, and Jacobi-constrained transit-orbit theory relies on autonomy and is unavailable in the ephemeris model without modification.
+Autonomous systems are invariant under time shifts: a trajectory launched at $t_0$ and one launched at $t_0 + \Delta t$ have the same shape. Non-autonomous systems lose this symmetry: launch epoch matters, and numerical integration must carry the absolute time along with the state. The added difficulty is not cosmetic: the entire apparatus of Poincaré sections, invariant manifolds, and Jacobi-constrained transit-orbit theory relies on autonomy and is unavailable in the ephemeris model without modification.
 
 ## Related entries
 
@@ -88,12 +88,12 @@ Autonomous systems are invariant under time shifts: a trajectory launched at $t_
 
 ## References
 
-- Szebehely, 1967, *Theory of Orbits*, §§1.5–1.6 — dimensional and dimensionless CR3BP equations, derivation of the Jacobi integral.
+- Szebehely, 1967, *Theory of Orbits*, §§1.5–1.6: dimensional and dimensionless CR3BP equations, derivation of the Jacobi integral.
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3 — restricted three-body problem and synodic-frame equations.
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3: restricted three-body problem and synodic-frame equations.
 
-- Baresi, 2023, "Transition of two-dimensional quasi-periodic invariant tori in the real-ephemeris model of the Earth–Moon system" — non-autonomous dynamics in the full ephemeris model.
+- Baresi, 2023, "Transition of two-dimensional quasi-periodic invariant tori in the real-ephemeris model of the Earth–Moon system": non-autonomous dynamics in the full ephemeris model.
 
 - Fossà et al., 2022, "Two- and three-impulse phasing strategy with a spacecraft orbiting an Earth–Moon NRHO."
 
-- Xu Ming & Xu Shijie, 2008, "Linear periodic station-keeping control strategy for halo orbits" — state equation and periodic $\mathbf A(t)$ for halo station-keeping.
+- Xu Ming & Xu Shijie, 2008, "Linear periodic station-keeping control strategy for halo orbits": state equation and periodic $\mathbf A(t)$ for halo station-keeping.

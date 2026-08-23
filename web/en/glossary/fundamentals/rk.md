@@ -31,17 +31,17 @@ y_{n+1} &= y_n + \tfrac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) + O(h^5)
 \end{aligned}
 $$
 
-The method is called "fourth-order" because it is locally accurate to order 4 (the Taylor series is matched through $h^4$ terms); its local truncation error is $O(h^5)$ and its global error is $O(h^4)$ (Berry 2004). Each step costs four function evaluations—four calls to the force model, which is usually the bottleneck in orbit propagation.
+The method is called fourth-order because it is locally accurate to order 4 (the Taylor series is matched through $h^4$ terms); its local truncation error is $O(h^5)$ and its global error is $O(h^4)$ (Berry 2004). Each step costs four function evaluations: four calls to the force model, which is usually the bottleneck in orbit propagation.
 
 For the satellite problem, the state is $y = [\vec{r}; \vec{v}]$, so $f(t, y) = [\vec{v}; \vec{a}(\vec{r}, \vec{v}, t)]$, where $\vec{a}$ is the total acceleration from the force model (Vallado 2022, Eq. 8-7).
 
 ## Embedded Runge-Kutta and Variable Step-Size Control
 
-A fixed step size is wasteful: near apoapsis the satellite moves slowly and a large step suffices; near periapsis the motion is fast and a small step is needed. The solution is **embedded Runge-Kutta**—at each step, two approximations of different orders are computed from the same stage evaluations, and their difference estimates the local truncation error.
+A fixed step size is wasteful: near apoapsis the satellite moves slowly and a large step suffices; near periapsis the motion is fast and a small step is needed. The solution is **embedded Runge-Kutta**: at each step, two approximations of different orders are computed from the same stage evaluations, and their difference estimates the local truncation error.
 
 The classic embedded pair is **Runge-Kutta-Fehlberg** (Fehlberg 1968, 1969): a six-stage scheme producing both a fourth-order and a fifth-order approximation (abbreviated RK45, 6 stages). The difference $\|y_{5}-y_{4}\|$ is compared against a user-specified tolerance $\varepsilon$; if it exceeds the tolerance the step is rejected and $h$ is reduced; if it is well below tolerance, $h$ is increased for the next step. This keeps the error roughly constant throughout the integration.
 
-A widely-used alternative is the **Dormand-Prince** pair (DOPRI5/4, 7 stages), which is the default in MATLAB's `ode45`. It carefully selects the coefficients so that the fifth-order formula is used for the actual integration ("local extrapolation"), giving better accuracy for the same number of stages.
+A widely-used alternative is the **Dormand-Prince** pair (DOPRI5/4, 7 stages), which is the default in MATLAB's `ode45`. It carefully selects the coefficients so that the fifth-order formula is used for the actual integration (local extrapolation), giving better accuracy for the same number of stages.
 
 ## High-Order Runge-Kutta and RK7/8
 
@@ -59,7 +59,7 @@ Convention (Berry 2004): a method is termed $p$-th order if it is locally accura
 
 In orbit propagation the integration step size is tied to the highest frequency in the force model (typically the orbital frequency). A rule of thumb: 100 steps per revolution for moderate-accuracy propagation (Vallado 2022, Sec. 8.5.1). For LEO, this means step sizes of 10–60 seconds; for GEO, minutes; for cislunar trajectories (CR3BP), 60–120 seconds is typical.
 
-Runge-Kutta methods are preferred for eccentric orbits with thrusting or drag because they handle variable step sizes naturally and do not depend on equally-spaced back values. For near-circular orbits without thrust, multi-step methods (Gauss-Jackson, Adams-Bashforth-Moulton) are often more efficient—one order of magnitude for LEO orbits (Herrick 1972).
+Runge-Kutta methods are preferred for eccentric orbits with thrusting or drag because they handle variable step sizes naturally and do not depend on equally-spaced back values. For near-circular orbits without thrust, multi-step methods (Gauss-Jackson, Adams-Bashforth-Moulton) are often more efficient: one order of magnitude for LEO orbits (Herrick 1972).
 
 ## Single-Step vs. Multi-Step Methods
 

@@ -64,11 +64,11 @@ $$
 
 ## 在非线性系统中的延伸
 
-LQR 本身只对线性系统最优，但在地月空间任务中绝大多数场景是非线性的，因此衍生出多种"近似 LQR"用法：
+LQR 本身只对线性系统最优，但在地月空间任务中绝大多数场景是非线性的，因此衍生出多种近似 LQR 用法：
 
 **参考轨迹线性化 LQR。** 沿标称轨道 $\bar{\boldsymbol{x}}(t)$（如 Halo、NRHO）展开动力学 $\delta\dot{\boldsymbol{x}} = \boldsymbol{A}(t)\delta\boldsymbol{x} + \boldsymbol{B}\delta\boldsymbol{u}$，对偏差系统设计 LQR 反馈。这是平动点轨道保持最常见的形式，$\boldsymbol{A}(t)$ 可由状态转移矩阵（[STM](/glossary/dynamics/variational-equations/)）给出。
 
-**次优控制与 SDRE。** 把非线性系统改写为"状态依赖线性"形式 $\dot{\boldsymbol{x}} = \boldsymbol{A}(\boldsymbol{x})\boldsymbol{x} + \boldsymbol{B}(\boldsymbol{x})\boldsymbol{u}$，在每个状态点处瞬时求解代数 Riccati 方程，得到状态依赖的 Riccati 增益。这类方法在中文文献中常与"调解因子"（mediation factor）一起讨论，用以逼近原非线性最优解；优点是无需积分伴随方程，缺点是缺乏全局最优性保证，且参数化不唯一。
+**次优控制与 SDRE。** 把非线性系统改写为状态依赖线性形式 $\dot{\boldsymbol{x}} = \boldsymbol{A}(\boldsymbol{x})\boldsymbol{x} + \boldsymbol{B}(\boldsymbol{x})\boldsymbol{u}$，在每个状态点处瞬时求解代数 Riccati 方程，得到状态依赖的 Riccati 增益。这类方法在中文文献中常与调解因子（mediation factor）一起讨论，用以逼近原非线性最优解；优点是无需积分伴随方程，缺点是缺乏全局最优性保证，且参数化不唯一。
 
 **非线性输出调节（Francis-Byrnes-Isidori 方程）。** 当参考信号和扰动都可由一个外系统（exosystem）生成（如准 Halo 轨道与周期偏心率扰动），输出调节理论给出同时实现跟踪与扰动抑制的反馈律，关键在于求解一组称为 FBI 方程的结构方程（Isidori & Byrnes 1990；Di Giamberardino & Monaco 1996）。该方法在平动点轨道保持中可与 LQR/SDRE 嵌套使用（Elobaid et al. 2022）。
 
@@ -100,9 +100,9 @@ $$
 
 - Kalman, R. E., 1960, *Contributions to the Theory of Optimal Control*（LQR 与 Riccati 方程的奠基论文）。
 - Anderson, B. D. O., Moore, J. B., 1990, *Optimal Control: Linear Quadratic Methods*（LQR 理论与权矩阵选取的系统教材）。
-- Safonov, M. G., Athans, M., 1977, "Gain and phase margin for multiloop LQG regulators"，*IEEE Trans. Autom. Control* 22(2)（LQR 鲁棒裕度的经典结论）。
-- Isidori, A., Byrnes, C. I., 1990, "Output regulation of nonlinear systems"，*IEEE Trans. Autom. Control* 35(2)（非线性输出调节与 FBI 方程）。
-- Ebrahimi, M., Bahrami, M., Rossi, F., 2008, "Optimal sliding-mode guidance with terminal velocity constraint for a lunar lander"；同作者 2008 关于 ZEM/ZEV 在非匀重力场的推广。
-- Zhang, R., Wang, Y., 2022, "Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints"，*Adv. Space Res.*（Q=10I、R=I 的权矩阵选取与 OSMC vs LQR 对比）。
-- Scorsoglio, A., Furfaro, R., et al., 2023, "Relative motion guidance for near-rectilinear lunar orbits with path constraints"，*Adv. Space Res.*（广义 ZEM/ZEV 在 NRHO 的应用）。
+- Safonov, M. G., Athans, M., 1977, Gain and phase margin for multiloop LQG regulators，*IEEE Trans. Autom. Control* 22(2)（LQR 鲁棒裕度的经典结论）。
+- Isidori, A., Byrnes, C. I., 1990, Output regulation of nonlinear systems，*IEEE Trans. Autom. Control* 35(2)（非线性输出调节与 FBI 方程）。
+- Ebrahimi, M., Bahrami, M., Rossi, F., 2008, Optimal sliding-mode guidance with terminal velocity constraint for a lunar lander；同作者 2008 关于 ZEM/ZEV 在非匀重力场的推广。
+- Zhang, R., Wang, Y., 2022, Continuous-thrust station-keeping of cis-lunar orbits using optimal sliding mode control with practical constraints，*Adv. Space Res.*（Q=10I、R=I 的权矩阵选取与 OSMC vs LQR 对比）。
+- Scorsoglio, A., Furfaro, R., et al., 2023, Relative motion guidance for near-rectilinear lunar orbits with path constraints，*Adv. Space Res.*（广义 ZEM/ZEV 在 NRHO 的应用）。
 - Elobaid, M., et al., 2022（非线性调节在平动点保持的应用）。

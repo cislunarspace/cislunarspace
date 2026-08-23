@@ -70,7 +70,7 @@ $$
 u^{*}=\begin{cases}0,&\rho>0\\1,&\rho<0\\\text{indeterminate},&\rho=0\end{cases}
 $$
 
-$\rho=0$ corresponds to a **singular arc**, where the first-order condition is insufficient and the Legendre-Clebsch second-order condition is needed. Singular arcs are rare in standard fuel-optimal problems; most solutions exhibit **Bang-off-Bang** structure — alternating MT arcs ($u=1$) and NT arcs ($u=0$) with no intermediate thrust (Lawden 1963; see [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/)).
+$\rho=0$ corresponds to a **singular arc**, where the first-order condition is insufficient and the Legendre-Clebsch second-order condition is needed. Singular arcs are rare in standard fuel-optimal problems; most solutions exhibit **Bang-off-Bang** structure: alternating MT arcs ($u=1$) and NT arcs ($u=0$) with no intermediate thrust (Lawden 1963; see [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/)).
 
 ### Energy-optimal as the homotopy start
 
@@ -80,21 +80,21 @@ $$
 J_\varepsilon=\int_{t_0}^{t_f}\!\bigl[u-\varepsilon\,u(1-u)\bigr]dt,
 $$
 
-bridging $\varepsilon=1$ (energy-optimal, smooth) to $\varepsilon\to 0$ (fuel-optimal, Bang-off-Bang). Each subproblem along the path uses the previous solution as initial guess — the bridge that makes indirect methods engineering-feasible (see [Homotopy Method](/en/glossary/dynamics/homotopy-method/)).
+bridging $\varepsilon=1$ (energy-optimal, smooth) to $\varepsilon\to 0$ (fuel-optimal, Bang-off-Bang). Each subproblem along the path uses the previous solution as initial guess: the bridge that makes indirect methods engineering-feasible (see [Homotopy Method](/en/glossary/dynamics/homotopy-method/)).
 
 ### The special case of time-optimal control
 
-The time-optimal cost is independent of $u$ explicitly; combined with $H\equiv 0$ (free-final-time condition) it implies $u^{*}=1$ throughout — full thrust with direction $\boldsymbol{\alpha}^{*}=\mathbf{p}/\|\mathbf{p}\|$. There are no switches, which makes time-optimal problems relatively tractable and a common starting point for thrust-amplitude homotopy (Caillau & Daoud 2012).
+The time-optimal cost is independent of $u$ explicitly; combined with $H\equiv 0$ (free-final-time condition) it implies $u^{*}=1$ throughout, i.e., full thrust with direction $\boldsymbol{\alpha}^{*}=\mathbf{p}/\|\mathbf{p}\|$. There are no switches, which makes time-optimal problems relatively tractable and a common starting point for thrust-amplitude homotopy (Caillau & Daoud 2012).
 
 ## Fuel-time trade-off
 
-Real missions usually bound the transfer time. Define the time ratio $c_{t_f}=t_f/t_f^{\min}$; final mass increases with $c_{t_f}$ but saturates for $c_{t_f}\gtrsim 2$ (Caillau et al. 2012, Fig. 4) — diminishing returns. Designs pick a point on this Pareto front: $c_{t_f}\approx 1.5$ favors time for crewed missions; $c_{t_f}\approx 2$--3 favors fuel for cargo.
+Real missions usually bound the transfer time. Define the time ratio $c_{t_f}=t_f/t_f^{\min}$; final mass increases with $c_{t_f}$ but saturates for $c_{t_f}\gtrsim 2$ (Caillau et al. 2012, Fig. 4), diminishing returns. Designs pick a point on this Pareto front: $c_{t_f}\approx 1.5$ favors time for crewed missions; $c_{t_f}\approx 2$--3 favors fuel for cargo.
 
 ## Application notes
 
 ### Powered descent
 
-Lunar or planetary powered descent is a canonical fuel-optimal problem with terminal state constraint and cost $J=m(t_f)$. The resulting thrust law typically shows "always-braking" or Bang-off-Bang behavior. For standard soft-landing formulations, non-trivial singular arcs can be ruled out (You & Dai 2022), justifying the Bang-off-Bang assumption.
+Lunar or planetary powered descent is a canonical fuel-optimal problem with terminal state constraint and cost $J=m(t_f)$. The resulting thrust law typically shows always-braking or Bang-off-Bang behavior. For standard soft-landing formulations, non-trivial singular arcs can be ruled out (You & Dai 2022), justifying the Bang-off-Bang assumption.
 
 ### Cislunar low-thrust transfers
 
@@ -118,13 +118,13 @@ Empirical rule: at $\varepsilon\sim 10^{-5}$ the throttle profile is visually in
 
 ## Related concepts
 
-- [Primer Vector](/en/glossary/dynamics/primer-vector/) — the adjoint quantity determining optimal thrust direction and impulse times
-- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/) — the typical structure of fuel-optimal solutions
-- [Homotopy Method](/en/glossary/dynamics/homotopy-method/) — the numerical workhorse for Bang-off-Bang fuel-optimal solutions
-- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) — the theorem behind optimal control laws
-- [Co-state Variables](/en/glossary/dynamics/co-state-variables/) — the source of the switching function
-- [Indirect Methods](/en/glossary/dynamics/indirect-methods/) — the method framework for fuel-optimal problems
-- [Electric Propulsion](/en/glossary/fundamentals/ep/) — the physical carrier of fuel-optimal low-thrust control
+- [Primer Vector](/en/glossary/dynamics/primer-vector/): the adjoint quantity determining optimal thrust direction and impulse times
+- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/): the typical structure of fuel-optimal solutions
+- [Homotopy Method](/en/glossary/dynamics/homotopy-method/): the numerical workhorse for Bang-off-Bang fuel-optimal solutions
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/): the theorem behind optimal control laws
+- [Co-state Variables](/en/glossary/dynamics/co-state-variables/): the source of the switching function
+- [Indirect Methods](/en/glossary/dynamics/indirect-methods/): the method framework for fuel-optimal problems
+- [Electric Propulsion](/en/glossary/fundamentals/ep/): the physical carrier of fuel-optimal low-thrust control
 
 ## References
 

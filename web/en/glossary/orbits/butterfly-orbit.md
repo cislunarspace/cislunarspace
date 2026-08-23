@@ -30,7 +30,7 @@ permalink: /en/glossary/orbits/butterfly-orbit/
 
 ## Definition
 
-A butterfly orbit is a three-dimensional periodic orbit family among the libration point orbits, also called the P2HO1 family: it is born by period-doubling bifurcation from the NRHO segment of the L2 halo family (Grebow 2008, Zimovan-Spreen 2022). The orbit's projection is a figure eight whose two lobes lie on the **Moon's** L1 side and L2 side respectively — that is, the orbit wraps around the Moon across its two sides, rather than connecting the L1 and L2 libration points (Zimovan-Spreen 2022). The name comes from this butterfly/figure-eight shape (Grebow 2008).
+A butterfly orbit is a three-dimensional periodic orbit family among the libration point orbits, also called the P2HO1 family: it is born by period-doubling bifurcation from the NRHO segment of the L2 halo family (Grebow 2008, Zimovan-Spreen 2022). The orbit's projection is a figure eight whose two lobes lie on the **Moon's** L1 side and L2 side respectively, that is, the orbit wraps around the Moon across its two sides, rather than connecting the L1 and L2 libration points (Zimovan-Spreen 2022). The name comes from this butterfly/figure-eight shape (Grebow 2008).
 
 Like the vertical orbit, motion along a butterfly orbit traces a figure eight, but it loops around the Moon's near and far sides, keeping the lunar south pole in view for almost the entire period (Grebow 2008).
 

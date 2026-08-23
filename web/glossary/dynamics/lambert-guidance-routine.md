@@ -32,7 +32,7 @@ permalink: /glossary/dynamics/lambert-guidance-routine/
 
 Lambert 制导例程（Lambert Guidance Routine，LGR；亦简称 Lambert 制导）是一种把 [Lambert 问题](/glossary/fundamentals/lamberts-problem/) 的求解嵌入主动段（boost phase）实时闭环制导的算法。每个制导周期执行以下三步（Burns & Scherock 2004）：
 
-1. 用当前状态 $(\vec r_M,\vec v_M)$ 与预定的目标点 $\vec r_2$、剩余飞行时间 $t_f$ 解一次 Lambert 问题，得到"应当具备的速度"$\vec v_{\text{LAMBERT}}$；
+1. 用当前状态 $(\vec r_M,\vec v_M)$ 与预定的目标点 $\vec r_2$、剩余飞行时间 $t_f$ 解一次 Lambert 问题，得到应当具备的速度 $\vec v_{\text{LAMBERT}}$；
 2. 计算速度待飞量 $\vec v_G=\vec v_{\text{LAMBERT}}-\vec v_M$；
 3. 命令推力沿 $\vec v_G$ 方向，当 $|\vec v_G|$ 小于阈值时关机，转入弹道飞行至目标。
 
@@ -40,7 +40,7 @@ Lambert 制导例程（Lambert Guidance Routine，LGR；亦简称 Lambert 制导
 
 ## Lambert 计算平面与坐标转换
 
-$\vec r_1$（当前导弹/航天器位置）与 $\vec r_2$（目标点）唯一确定一个平面，称为 Lambert 计算平面。平面内用二维 Lambert 方程求出 $\vec v_{\text{LAMBERT}}^{(2D)}$，再通过两次绕 $Z$、绕 $Y'$ 的旋转和一次绕 $X''$ 的滚转，转换回 ECI 惯性系（Burns & Scherock 2004 附录）。这种"二维求解 + 三维映射"的写法避免了直接在三维里迭代。
+$\vec r_1$（当前导弹/航天器位置）与 $\vec r_2$（目标点）唯一确定一个平面，称为 Lambert 计算平面。平面内用二维 Lambert 方程求出 $\vec v_{\text{LAMBERT}}^{(2D)}$，再通过两次绕 $Z$、绕 $Y'$ 的旋转和一次绕 $X''$ 的滚转，转换回 ECI 惯性系（Burns & Scherock 2004 附录）。这种二维求解 + 三维映射的写法避免了直接在三维里迭代。
 
 转移角 $\theta_f$ 由两矢量点积给出：
 
@@ -52,11 +52,11 @@ $$
 
 ## 与开环 Lambert 转移、其它制导的区别
 
-- **与开环 Lambert 转移**（"Lambert 轨道变轨"）：开环用法是离线地解一次 Lambert 问题得到初始速度增量 $\Delta\vec v$，施加后弹道飞行，不做实时修正；LGR 是**每个制导周期都重解**，自动修正偏差。前者是轨道设计工具，后者是制导律。
+- **与开环 Lambert 转移**（Lambert 轨道变轨）：开环用法是离线地解一次 Lambert 问题得到初始速度增量 $\Delta\vec v$，施加后弹道飞行，不做实时修正；LGR 是**每个制导周期都重解**，自动修正偏差。前者是轨道设计工具，后者是制导律。
 
-- **与 Q 制导、显式制导（[显式制导律](/glossary/dynamics/explicit-guidance-law/)）**：Q 制导基于协态-增益矩阵；显式制导直接积分标称方程并要求满足终端约束。LGR 的特征是显式调用 Lambert 求解器作为"应当具备的速度"的计算模块。
+- **与 Q 制导、显式制导（[显式制导律](/glossary/dynamics/explicit-guidance-law/)）**：Q 制导基于协态-增益矩阵；显式制导直接积分标称方程并要求满足终端约束。LGR 的特征是显式调用 Lambert 求解器作为应当具备的速度的计算模块。
 
-- **与 Apollo 登月舱 P64 制导**：P64 是多项式 / Lambda 制导，**不是** Lambert 制导。中文文献里偶见"阿波罗制导计算机最繁重的任务之一是 Lambert 制导"的说法，是混淆——Apollo 的 Lambert 解算用于任务规划（地面），而非实时飞行制导。
+- **与 Apollo 登月舱 P64 制导**：P64 是多项式 / Lambda 制导，**不是** Lambert 制导。中文文献里偶见阿波罗制导计算机最繁重的任务之一是 Lambert 制导的说法，是混淆，Apollo 的 Lambert 解算用于任务规划（地面），而非实时飞行制导。
 
 - **与中途 Lambert 修正**：Lambert 解也用于中途轨道修正的参考脉冲计算（见 [多脉冲机动](/glossary/dynamics/two-impulse-rendezvous/)），那是离线脉冲设计，与 LGR 不同。
 
@@ -68,11 +68,11 @@ $$
 
 - **大气层内的俯仰程序**：低空段使用固定的飞出俯仰角程序（fly-out flight-path angle schedule）抑制气动损耗，出大气后再切到纯 Lambert 指令。
 
-- **目标位置偏置（White offset）**：补偿"Lambert 假设瞬时燃烧、均匀重力场"等近似带来的系统偏差，将制导目标人为偏置一个小量，使真实弹道落在期望点。
+- **目标位置偏置（White offset）**：补偿Lambert 假设瞬时燃烧、均匀重力场等近似带来的系统偏差，将制导目标人为偏置一个小量，使真实弹道落在期望点。
 
 ## 扩展：位置 + 速度双匹配
 
-经典 LGR 只保证末端**位置**匹配。Burns-Scherock (2004) 在拦截弹场景中增加一个第四级短脉冲，使末端**速度**也与目标一致——位置 + 速度同时匹配后，拦截器沿目标弹道随飞。做法：
+经典 LGR 只保证末端**位置**匹配。Burns-Scherock (2004) 在拦截弹场景中增加一个第四级短脉冲，使末端**速度**也与目标一致，位置 + 速度同时匹配后，拦截器沿目标弹道随飞。做法：
 
 1. 第一轮用 LGR 制导到目标位置 $\vec R_T$，在最接近点估算 $\Delta\vec V$；
 2. 把制导目标偏置到 $\vec R_{\text{offset}}=\vec R_T-\Delta\vec R$（$\Delta\vec R$ 为第四级脉冲引起的位置偏差）；

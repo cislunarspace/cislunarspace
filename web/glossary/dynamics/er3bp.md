@@ -36,9 +36,9 @@ permalink: /glossary/dynamics/er3bp/
 
 - 两主天体间距 $r_{12}$ 不再是常数，而是其真近点角 $f$ 的周期函数：$r_{12}(f) = a(1-e^2)/(1+e\cos f)$，其中 $a$ 为半长轴。
 
-- 系统**不再自治**——运动方程显含时间（或等价地显含真近点角 $f$），主天体位置随时间周期性变化。
+- 系统**不再自治**：运动方程显含时间（或等价地显含真近点角 $f$），主天体位置随时间周期性变化。
 
-- **雅可比积分不再存在**——时变系统的能量不守恒，航天器可以在不消耗推进剂的情况下改变其机械能。
+- **雅可比积分不再存在**：时变系统的能量不守恒，航天器可以在不消耗推进剂的情况下改变其机械能。
 
 当日-月、日-地或地-月系统的偏心率不可忽略时（例如月球公转偏心率约 $0.0549$），ER3BP 比 CR3BP 更逼近真实动力学，但由于失去自治性和守恒量，分析难度显著上升。
 
@@ -92,10 +92,10 @@ $$\delta \mathbf{x}'(f) = \mathbf{A}(f)\,\delta \mathbf{x}(f), \quad \mathbf{A}(
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies* — 第 10 章系统论述 ER3BP 的脉动坐标系与运动方程。
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*：第 10 章系统论述 ER3BP 的脉动坐标系与运动方程。
 
-- Broucke, 1969, "Periodic Orbits in the Elliptic Restricted Three-Body Problem" — ER3BP 周期轨道的早期系统化研究。
+- Broucke, 1969, Periodic Orbits in the Elliptic Restricted Three-Body Problem：ER3BP 周期轨道的早期系统化研究。
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. III — 讨论 ER3BP 中平动点周期轨道的延拓与 Floquet 稳定性。
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. III：讨论 ER3BP 中平动点周期轨道的延拓与 Floquet 稳定性。
 
-- Campagnola, 2010, *New Techniques in Astrodynamics for Moon Systems Exploration*, Ph.D. — 含 ER3BP 轨道设计的实际数值方法。
+- Campagnola, 2010, *New Techniques in Astrodynamics for Moon Systems Exploration*, Ph.D.：含 ER3BP 轨道设计的实际数值方法。

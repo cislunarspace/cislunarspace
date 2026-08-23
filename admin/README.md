@@ -1,7 +1,7 @@
 # 地月空间内容管理器（本地 GUI）
 
-一个**纯本地**运行的网页内容管理器，用于管理本仓库 `web/` 下的三块内容：
-Space News（航天动态）、Glossary（术语词典）、知识库章节页面。
+一个**纯本地**运行的网页内容管理器，用于管理本仓库 `web/` 下的两块内容：
+Glossary（术语词典）、知识库章节页面。
 
 技术栈：后端 Express（`server.js` + `lib/`），前端 Vue 3 + Naive UI + Vite（`web/src/`，构建产物在 `web/dist/`）。前端支持深浅双主题，跟随系统默认，可在页面头部切换。
 
@@ -35,19 +35,17 @@ npm start    # tsx 运行（可 import web 侧 TS 的 content 模块）
 
 ### 1. 内容浏览（三个 tab）
 
-- **Space News** / **Glossary** / **知识库章节**
+- **Glossary** / **知识库章节**
 - 列出：路径、标题（frontmatter `title`）、日期、分类、翻译状态（中英镜像是否齐全）、
   草稿 / YAML 错误状态
-- **分类筛选**：顶部下拉按分类过滤（Space News 按 `category` 标签、Glossary 按目录、
-  知识库按章节），每项带条目数
+- **分类筛选**：顶部下拉按分类过滤（Glossary 按目录、知识库按章节），每项带条目数
 - 支持按标题、路径、分类关键字过滤
 - **列排序与筛选**：标题/日期可排序，分类/翻译/状态可按值筛选（列表头操作）
 - **多选与批量删除**：表格首列勾选多条后，可一键批量删除（同样走删除预览 + 回收站流程）
-- **拖动修改分类**（Space News / Glossary）：拖动表格行（拖动已选中的行则拖动整个选中集）
-  时表格上方浮现分类放置条，拖到目标分类即可批量改分类——
-  Space News 改 frontmatter `category` 标签（可选「替换」或「追加」）；
+- **拖动修改分类**（Glossary）：拖动表格行（拖动已选中的行则拖动整个选中集）
+  时表格上方浮现分类放置条，拖到目标分类即可批量改分类：
   Glossary 移动条目文件到目标目录（中英镜像一起），`glossary/README.md` 索引同步更新
-- **图片预览**：条目若有 `image` frontmatter（news 配图），列表内直接显示缩略图，点击放大
+- **图片预览**：条目若有 `image` frontmatter（配图），列表内直接显示缩略图，点击放大
 - **整站预览**：点「预览」在弹窗中以 iframe 展示该页在最终网站（VuePress 站点）中的真实效果
 
 ### 整站效果预览
@@ -68,41 +66,35 @@ npm start    # tsx 运行（可 import web 侧 TS 的 content 模块）
   **先选中要修改的文字**再点按钮，与 AI 多轮对话，用「替换选区 / 替换整个字段」把结果写回
 - 未选中文字时作用于整个字段
 
-### 2. 分类管理（Space News 标签 / Glossary 目录）
+### 2. 分类管理（Glossary 目录）
 
 顶部「分类管理」按钮打开管理弹窗：
 
 - **添加分类**：
-  - Space News：在 `web/.vuepress/taxonomy/data.ts` 注册 news-category 节点（含配色），
-    站点侧边栏/分类页即可显示；不修改任何文章
   - Glossary：创建 `web/glossary/<name>/` 与 `web/en/glossary/<name>/` 目录并注册
     taxonomy 节点；选择父分类则创建**子分类**（`web/glossary/<parent>/<name>/`，
     只支持一层；词条也可直接放在分类根目录，表示未细分）
 - **删除分类**：
-  - 默认「仅删分类，保留条目」
-    - Space News：从所有文章 frontmatter 移除该 `category` 标签（文章保留）
-    - Glossary：把该目录下所有条目移到选定的目标分类
-  - 可选「连同条目一起删除」
-    - Space News：删除带该标签的全部文章（中英镜像，进回收站）
-    - Glossary：删除该目录下全部条目（中英镜像，进回收站），目录一并删除
+  - 默认「仅删分类，保留条目」：把该目录下所有条目移到选定的目标分类
+  - 可选「连同条目一起删除」：删除该目录下全部条目（中英镜像，进回收站），目录一并删除
   - 所有操作记日志，gen-sidebar 自动重跑
 
 ### 2. 编辑器
 
-- 点击“编辑”进入，**中英镜像页并排**（同 slug 的 zh / en 文件）
+- 点击编辑进入，**中英镜像页并排**（同 slug 的 zh / en 文件）
 - 常用字段表单：title、description、keywords、author、date、lastUpdated、
   category、draft、permalink、image、layout
-- 高级：可展开“原始 YAML frontmatter”直接编辑完整块
+- 高级：可展开原始 YAML frontmatter 直接编辑完整块
 - 正文 markdown 直接用 textarea 编辑
-- 保存前可“校验 YAML”，校验通过才允许保存
+- 保存前可校验 YAML，校验通过才允许保存
 
 ### 3. 删除流程
 
-1. 点击“删除”
+1. 点击删除
 2. 弹出确认框，**预览删除范围**：
    - 同 slug 的中英 `.md` 文件
    - 该文章正文引用的 `./figures/...` 图片
-   - README 索引中引用该条目的行（新闻的月份 README、glossary 主 README）
+   - README 索引中引用该条目的行（glossary 主 README）
    - 其它页面的引用（仅提示，不自动改动）
 3. 确认后执行：
    - 文件移动到 `web/.trash/<时间戳>/`（保留原相对路径）
@@ -117,30 +109,29 @@ npm start    # tsx 运行（可 import web 侧 TS 的 content 模块）
 
 ### 5. 回收站
 
-- “回收站”tab 列出所有删除批次与文件
-- 点“恢复”把文件移回 `web/` 原位置（非破坏性复制后删除回收站副本）
+- 回收站 tab 列出所有删除批次与文件
+- 点恢复把文件移回 `web/` 原位置（非破坏性复制后删除回收站副本）
 
 ---
 
 ## 内容操作架构（ADR-0003 follow-up 3b）
 
 - 数据操作走 `web/.vuepress/content` 模块：路径约定、双语配对、删除回收（`web/.trash`）、索引刷新的真理在 content；本服务只做 HTTP 形状适配（`lib/content-bridge.ts`）。
-- **保存后自动刷新派生索引**（后台执行 gen，编辑器不等待）——修复了此前“保存后列表/侧边栏数据陈旧”的问题。
+- **保存后自动刷新派生索引**（后台执行 gen，编辑器不等待），修复了此前保存后列表与侧边栏数据陈旧的问题。
 - **新建内容**：`POST /api/content/create`（content.create，自动定路径、建月份 README 索引行）；前端新建入口待后续版本。
-- **分类写回**：news 分类的增删经 `writeNewsCategoryNodes` 整文件序列化生成（含重复标签/颜色校验），不再对源文件做正则手术。
 - 列表/读取仍走本地 scan（迁移到 content.list 为后续批次）。
 
 ## 回收站恢复方式
 
-**界面恢复**：打开“回收站”tab，找到对应批次，点文件旁的“恢复”。
+**界面恢复**：打开回收站 tab，找到对应批次，点文件旁的恢复按钮。
 
 **手动恢复**：被删文件位于 `web/.trash/<时间戳>/<原相对路径>`，
 把它移回 `web/` 下的原相对位置即可。例如：
 
 ```bash
-# 把 2026 年 1 月某篇文章恢复
-mv admin/trash/2026-08-05T12-00-00-000Z/space-news/2026/01/xxx.md \
-   web/space-news/2026/01/xxx.md
+# 把某个 glossary 词条恢复
+mv admin/trash/2026-08-05T12-00-00-000Z/glossary/orbits/xxx.md \
+   web/glossary/orbits/xxx.md
 ```
 
 注意：删除时更新了月份 README 索引、重跑了 `gen-sidebar`；手动恢复后如
@@ -152,11 +143,11 @@ mv admin/trash/2026-08-05T12-00-00-000Z/space-news/2026/01/xxx.md \
 
 | 方法 | 路径 | 说明 |
 |------|------|------|
-| GET  | `/api/contents?type=news\|glossary\|kb&q=&cat=` | 列出内容（按镜像分组，支持关键字与分类过滤） |
+| GET  | `/api/contents?type=glossary\|kb&q=&cat=` | 列出内容（按镜像分组，支持关键字与分类过滤） |
 | GET  | `/api/categories?type=` | 列出某类内容的分类及条目数 |
-| POST | `/api/categories/add` | 添加分类（news 注册 taxonomy 节点 / glossary 建目录并注册节点，glossary 支持 `parent` 建一级子分类、`labelZh` 设中文名） |
-| POST | `/api/categories/delete` | 删除分类（保条目或连删，glossary 可指定目标分类） |
-| POST | `/api/categories/assign` | 批量修改分类（news 改 category 标签，replace/append；glossary 移动条目目录并更新 README 索引） |
+| POST | `/api/categories/add` | 添加分类（glossary 建目录并注册 taxonomy 节点，支持 `parent` 建一级子分类、`labelZh` 设中文名） |
+| POST | `/api/categories/delete` | 删除分类（保条目或连删，可指定目标分类） |
+| POST | `/api/categories/assign` | 批量修改分类（glossary 移动条目目录并更新 README 索引） |
 | GET  | `/api/content?path=` | 读取单个 md（含中英镜像） |
 | GET  | `/api/image?path=` | 读取图片/附件（供预览） |
 | POST | `/api/content` | 保存一个或多个 md（frontmatter + 正文） |
@@ -203,7 +194,7 @@ admin/
 │   ├── frontmatter.js frontmatter 读写
 │   ├── validate.js    YAML 校验
 │   ├── scan.js        内容扫描与镜像分组
-│   ├── categories.js  分类管理（news 标签 / glossary 目录）
+│   ├── categories.js  分类管理（glossary 目录）
 │   └── delete.js      删除预览 / 执行 / 回收站
 ├── trash/             回收站（删除的文件按时间戳存放）
 ├── logs/              操作日志

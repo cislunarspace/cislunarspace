@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/three-body-lambert-problem/
 
 ## Definition
 
-The Three-Body Lambert Problem (3BLP; also written L3BP — Lambert Three-Body Problem; in the CR3BP model, the CR3BP Lambert problem) is the extension of [Lambert's problem](/en/glossary/fundamentals/lamberts-problem/) to three-body dynamics: in the [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/), given an initial position $\vec r_1$ (at time $t_1$), a final position $\vec r_2$ (at time $t_2$), and the time of flight $\Delta t=t_2-t_1$, find the connecting trajectory and the endpoint velocities (Sun et al. 2017).
+The Three-Body Lambert Problem (3BLP; also written L3BP: Lambert Three-Body Problem; in the CR3BP model, the CR3BP Lambert problem) is the extension of [Lambert's problem](/en/glossary/fundamentals/lamberts-problem/) to three-body dynamics: in the [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/), given an initial position $\vec r_1$ (at time $t_1$), a final position $\vec r_2$ (at time $t_2$), and the time of flight $\Delta t=t_2-t_1$, find the connecting trajectory and the endpoint velocities (Sun et al. 2017).
 
 Because the CR3BP equations of motion are non-integrable and highly sensitive to initial conditions, the three-body Lambert problem has **no analytical solution** and can only be solved numerically; initial-guess construction is the central difficulty, and simple Newton-Raphson shooting barely converges for long-duration transfers.
 
@@ -71,13 +71,13 @@ For [Halo orbit computation](/en/glossary/dynamics/halo-orbit-computation/) and 
 
 ## Application Notes
 
-- **Libration-point rendezvous and docking**: transfers between two spacecraft in different phases of the same Halo orbit, or between Halos of different amplitudes — a foundational tool for building a cislunar $L_2$ space station (Sun et al. 2017).
+- **Libration-point rendezvous and docking**: transfers between two spacecraft in different phases of the same Halo orbit, or between Halos of different amplitudes, a foundational tool for building a cislunar $L_2$ space station (Sun et al. 2017).
 
 - **Low-energy Earth-Moon transfer**: design of WSB and manifold-patching transfers exploiting solar perturbation.
 
 - **Multi-arc patching**: decompose a cislunar transfer into several three-body Lambert arcs, solve each independently, then patch.
 
-- **No analytical shortcut**: every application needs a stable numerical pipeline and a good initial guess — the biggest practical difference from two-body Lambert.
+- **No analytical shortcut**: every application needs a stable numerical pipeline and a good initial guess, the biggest practical difference from two-body Lambert.
 
 ## Related Concepts
 

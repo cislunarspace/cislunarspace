@@ -30,9 +30,9 @@ permalink: /en/glossary/dynamics/ballistic-capture/
 
 ## Definition
 
-Ballistic capture is the mechanism by which a spacecraft, **without applying any active retro-burn impulse**, is naturally "captured" into a gravitationally bound orbit around a target body (in this context, the Moon) through the natural dynamics of the multi-body gravitational environment (Belbruno & Miller 1993; Parker & Anderson 2014). In the classical two-body orbital transfer framework, transitioning from a hyperbolic trajectory to an elliptical orbit requires a retro-burn (about 0.6--0.8 km/s of $\Delta v$ for lunar capture). Ballistic capture instead exploits solar gravitational perturbations or the natural structure of invariant manifolds to achieve capture without expending additional propellant.
+Ballistic capture is the mechanism by which a spacecraft, **without applying any active retro-burn impulse**, is naturally captured into a gravitationally bound orbit around a target body (in this context, the Moon) through the natural dynamics of the multi-body gravitational environment (Belbruno & Miller 1993; Parker & Anderson 2014). In the classical two-body orbital transfer framework, transitioning from a hyperbolic trajectory to an elliptical orbit requires a retro-burn (about 0.6--0.8 km/s of $\Delta v$ for lunar capture). Ballistic capture instead exploits solar gravitational perturbations or the natural structure of invariant manifolds to achieve capture without expending additional propellant.
 
-Ballistic capture is not a specific orbit type but a **dynamical phenomenon**: the spacecraft's Jacobi constant slowly changes due to third-body perturbations, gradually lowering its energy from an "escapable" state to a "bound" state. Within the framework of the circular restricted three-body problem (CR3BP), this transition corresponds to the spacecraft crossing the "neck" region of the zero-velocity surfaces — the energetic gateways near the $L_1$ or $L_2$ libration points (Koon et al. 2000).
+Ballistic capture is not a specific orbit type but a **dynamical phenomenon**: the spacecraft's Jacobi constant slowly changes due to third-body perturbations, gradually lowering its energy from an escapable state to a bound state. Within the framework of the circular restricted three-body problem (CR3BP), this transition corresponds to the spacecraft crossing the neck region of the zero-velocity surfaces, the energetic gateways near the $L_1$ or $L_2$ libration points (Koon et al. 2000).
 
 ## Physical Mechanism
 
@@ -40,9 +40,9 @@ Ballistic capture is not a specific orbit type but a **dynamical phenomenon**: t
 
 In the CR3BP, the spacecraft's motion is constrained by the Jacobi constant $C$. Let $C_1, C_2, C_3$ denote the Jacobi constant values at $L_1, L_2, L_3$, respectively (Earth-Moon system: $C_1 \approx 3.188$, $C_2 \approx 3.172$, $C_3 \approx 3.012$, in nondimensional units). The topology of the zero-velocity surfaces changes with $C$ (Szebehely 1967):
 
-- $C > C_1$: The ZVS completely separates the Earth and Moon realms — no passage possible.
+- $C > C_1$: The ZVS completely separates the Earth and Moon realms: no passage possible.
 
-- $C_2 < C < C_1$: A "neck" opens at $L_1$, allowing transit between Earth and Moon realms — this is the **energy interval where ballistic capture can occur**.
+- $C_2 < C < C_1$: A neck opens at $L_1$, allowing transit between Earth and Moon realms, this is the **energy interval where ballistic capture can occur**.
 
 - $C_3 < C < C_2$: A neck also opens at $L_2$, allowing escape to outer space.
 
@@ -52,17 +52,17 @@ Once the spacecraft enters the lunar realm, if its energy is further lowered thr
 
 ### The Belbruno-Miller Mechanism
 
-Belbruno and Miller (1993) first demonstrated the engineering feasibility of ballistic capture in the Sun-Earth-Moon four-body problem. The key idea: after launch from Earth, the spacecraft enters a highly elliptical orbit with apogee beyond the Moon's orbit; near apogee, solar gravitational perturbation alters its angular momentum, allowing the Moon's gravity to capture it. This mechanism was used to rescue Japan's Hiten spacecraft — the probe successfully entered a lunar orbit via ballistic capture alone, saving the substantial $\Delta v$ required by conventional methods.
+Belbruno and Miller (1993) first demonstrated the engineering feasibility of ballistic capture in the Sun-Earth-Moon four-body problem. The key idea: after launch from Earth, the spacecraft enters a highly elliptical orbit with apogee beyond the Moon's orbit; near apogee, solar gravitational perturbation alters its angular momentum, allowing the Moon's gravity to capture it. This mechanism was used to rescue Japan's Hiten spacecraft: the probe successfully entered a lunar orbit via ballistic capture alone, saving the substantial $\Delta v$ required by conventional methods.
 
 ### Conley's Theorem and Invariant Manifolds
 
-Conley (1968) proved a fundamental topological theorem in the CR3BP framework: **if a crossing asymptotic orbit exists, then arbitrarily close to it there exists a capture orbit**. Here, a "crossing asymptotic orbit" is an orbit lying on the invariant manifolds of Lyapunov/Halo periodic orbits around $L_1$ or $L_2$.
+Conley (1968) proved a fundamental topological theorem in the CR3BP framework: **if a crossing asymptotic orbit exists, then arbitrarily close to it there exists a capture orbit**. Here, a crossing asymptotic orbit is an orbit lying on the invariant manifolds of Lyapunov/Halo periodic orbits around $L_1$ or $L_2$.
 
 Giancotti et al. (2012) visualized the geometric essence of Conley's theorem using a cylindrical isomorphic mapping: the **homoclinic intersections** of stable and unstable manifold tubes form the topological boundaries separating temporary capture from permanent capture. The denser the manifold tube overlap, the higher the degree of chaos, and the wider the distribution of capture durations.
 
 ### Weak Stability Boundary (WSB)
 
-The Weak Stability Boundary (WSB) is another capture-oriented concept introduced by Belbruno (2004). The WSB defines a fuzzy region where the spacecraft's motion is extremely sensitive to initial conditions — a small perturbation can change the outcome between capture and escape. From an engineering perspective, the WSB is the "target window" where ballistic capture occurs. Regarding the relationship between WSB and invariant manifolds, Garcia & Gómez (2007) found that within the WSB region, the spacecraft's motion can be described by the stable/unstable manifold tubes of libration point orbits; the two frameworks represent the same dynamical phenomenon through different mathematical descriptions (Li et al. 2021).
+The Weak Stability Boundary (WSB) is another capture-oriented concept introduced by Belbruno (2004). The WSB defines a fuzzy region where the spacecraft's motion is extremely sensitive to initial conditions, a small perturbation can change the outcome between capture and escape. From an engineering perspective, the WSB is the target window where ballistic capture occurs. Regarding the relationship between WSB and invariant manifolds, Garcia & Gómez (2007) found that within the WSB region, the spacecraft's motion can be described by the stable/unstable manifold tubes of libration point orbits; the two frameworks represent the same dynamical phenomenon through different mathematical descriptions (Li et al. 2021).
 
 ## Types of Capture
 
@@ -70,13 +70,13 @@ The Weak Stability Boundary (WSB) is another capture-oriented concept introduced
 
 Temporary capture refers to the phenomenon where a spacecraft orbits the secondary primary a finite number of times before ultimately escaping (Fantino et al. 2010). Its characteristics:
 
-- The local two-body Keplerian energy relative to the secondary is temporarily negative ($E_{\text{Kep}} < 0$), meaning the spacecraft is locally "bound";
+- The local two-body Keplerian energy relative to the secondary is temporarily negative ($E_{\text{Kep}} < 0$), meaning the spacecraft is locally bound;
 
 - Under multi-body perturbations, the energy gradually becomes positive or the spacecraft impacts the secondary, terminating the capture;
 
-- Capture duration and number of revolutions depend on initial conditions — the closer the orbit is to a libration point periodic orbit (lower energy, larger $C$), the longer the capture persists.
+- Capture duration and number of revolutions depend on initial conditions, the closer the orbit is to a libration point periodic orbit (lower energy, larger $C$), the longer the capture persists.
 
-In celestial mechanics, temporary capture explains the phenomenon of temporary Earth satellites (minimoons) — asteroids temporarily captured by Earth's gravity for months to years (Granvik et al. 2012).
+In celestial mechanics, temporary capture explains the phenomenon of temporary Earth satellites (minimoons): asteroids temporarily captured by Earth's gravity for months to years (Granvik et al. 2012).
 
 ### Permanent Capture
 
@@ -84,13 +84,13 @@ Permanent capture refers to the state where the spacecraft's Jacobi constant **p
 
 By realization method:
 
-- **Natural permanent capture**: achieved purely through gravitational mechanisms (e.g., solar perturbations or manifold splicing) lowering the spacecraft's energy below the neck-closing threshold — impossible in CR3BP (Jacobi constant is conserved), but possible in the four-body problem (Sun-Earth-Moon) or the elliptic restricted three-body problem.
+- **Natural permanent capture**: achieved purely through gravitational mechanisms (e.g., solar perturbations or manifold splicing) lowering the spacecraft's energy below the neck-closing threshold, impossible in CR3BP (Jacobi constant is conserved), but possible in the four-body problem (Sun-Earth-Moon) or the elliptic restricted three-body problem.
 
-- **Thrust-assisted permanent capture**: first use ballistic mechanisms to enter the lunar region (when $C_2 < C < C_1$), then use low-thrust to gradually lower energy and increase $C$, eventually closing the neck — as in the GEO satellite end-of-life lunar disposal scheme proposed by Liang et al. (2016).
+- **Thrust-assisted permanent capture**: first use ballistic mechanisms to enter the lunar region (when $C_2 < C < C_1$), then use low-thrust to gradually lower energy and increase $C$, eventually closing the neck, as in the GEO satellite end-of-life lunar disposal scheme proposed by Liang et al. (2016).
 
 ### Capture Dwell Time
 
-The time of permanence in ballistic capture is a key metric for capture "depth." Through grid scanning on a Poincaré section, initial conditions can be classified into five categories according to their capture behavior (Sousa-Silva et al. 2018):
+The time of permanence in ballistic capture is a key metric for capture depth. Through grid scanning on a Poincaré section, initial conditions can be classified into five categories according to their capture behavior (Sousa-Silva et al. 2018):
 
 - **G (Good capture)**: stable multiple revolutions, ultimately remaining near the Moon
 
@@ -102,7 +102,7 @@ The time of permanence in ballistic capture is a key metric for capture "depth."
 
 - **O (Out/escape)**: not captured, leaves the lunar region
 
-Capture energy (capture $\Delta v$) is defined as the minimum velocity increment required to "pull" a spacecraft from an uncaptured trajectory into a captured state. Different dynamical models yield notably different estimates for the lunar surface capture $\Delta v$: two-body model ~695.7 m/s, Hill model ~656.8 m/s, CR3BP ~649.2 m/s, spatial bicircular model (SBCM) ~642.9 m/s (Xu 2010). Multi-body models give lower estimates because they account for third-body gravity-assist effects.
+Capture energy (capture $\Delta v$) is defined as the minimum velocity increment required to pull a spacecraft from an uncaptured trajectory into a captured state. Different dynamical models yield notably different estimates for the lunar surface capture $\Delta v$: two-body model ~695.7 m/s, Hill model ~656.8 m/s, CR3BP ~649.2 m/s, spatial bicircular model (SBCM) ~642.9 m/s (Xu 2010). Multi-body models give lower estimates because they account for third-body gravity-assist effects.
 
 ## Escape and Non-Escape Directions
 

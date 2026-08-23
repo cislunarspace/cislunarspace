@@ -1,4 +1,4 @@
----
+﻿---
 title: Spacecraft Formation Flying
 description: A multi-spacecraft mission concept where satellites maintain a prescribed relative geometry (distance and/or orientation) for a shared objective — interferometry, deep-space imaging, communications relay. Distinct from constellations (coverage-driven) and clusters (no precise relative geometry).
 keywords: spacecraft formation flying, formation keeping, formation reconfiguration, relative motion, libration point formation, DRO formation, inertial-frame-fixed formation, LQR formation control, ultra-close formation, natural formation
@@ -30,9 +30,9 @@ permalink: /en/glossary/dynamics/spacecraft-formation-flying/
 
 ## Definition
 
-Spacecraft **formation flying** is a mission concept in which multiple spacecraft maintain a prescribed relative geometry — fixed or time-varying mutual distances and pointing directions — to collectively accomplish a single scientific or engineering objective (interferometry, deep-space imaging, communications relay, etc.).
+Spacecraft **formation flying** is a mission concept in which multiple spacecraft maintain a prescribed relative geometry (fixed or time-varying mutual distances and pointing directions) to collectively accomplish a single scientific or engineering objective (interferometry, deep-space imaging, communications relay, etc.).
 
-It is **not** a **constellation** (multiple satellites on diverse orbital planes for coverage, e.g., GNSS) and not a **cluster/swarm** (spatially proximate but without a precisely required relative geometry). A formation demands actively or passively bounded relative motion between members — the relative position vector between chief and deputy must satisfy a prescribed envelope over time.
+It is **not** a **constellation** (multiple satellites on diverse orbital planes for coverage, e.g., GNSS) and not a **cluster/swarm** (spatially proximate but without a precisely required relative geometry). A formation demands actively or passively bounded relative motion between members: the relative position vector between chief and deputy must satisfy a prescribed envelope over time.
 
 Formation flying reduces the per-element manufacturing complexity and mission risk compared to a monolithic spacecraft: a failure in one member does not necessarily abort the entire mission (Catlin & McLaughlin 2007). It also yields configurable distributed apertures unobtainable with a single platform.
 
@@ -40,9 +40,9 @@ Formation flying reduces the per-element manufacturing complexity and mission ri
 
 Marchand & Howell (2005) classify formation configurations by the reference frame in which the relative geometry is specified:
 
-1. **Formation fixed relative to the inertial frame**: The relative position vector between chief and deputy remains constant in an inertial (ECI, for example) frame. Because the rotating-frame components vary over time, maintaining this configuration in a multi-body environment requires persistent control; it is a "non-natural" formation (Marchand & Howell 2005).
+1. **Formation fixed relative to the inertial frame**: The relative position vector between chief and deputy remains constant in an inertial (ECI, for example) frame. Because the rotating-frame components vary over time, maintaining this configuration in a multi-body environment requires persistent control; it is a non-natural formation (Marchand & Howell 2005).
 
-2. **Formation fixed relative to the rotating frame**: The relative position vector is constant in the rotating (synodic) frame. Near the libration points, spacecraft tend not to naturally maintain this geometry — active control is required.
+2. **Formation fixed relative to the rotating frame**: The relative position vector is constant in the rotating (synodic) frame. Near the libration points, spacecraft tend not to naturally maintain this geometry: active control is required.
 
 3. **Distance tracking**: Only the scalar distance between members is prescribed, not the full vector direction. This is the least constrained formation type and can sometimes exploit natural dynamics.
 
@@ -58,7 +58,7 @@ Marchand & Howell (2005) classify formation configurations by the reference fram
 
 **Natural formations** exploit the inherent multi-body dynamics. Héritier & Howell (2014) showed that regions along a reference trajectory can be identified in the inertial frame where the variation of mutual distance and pointing direction is minimal. These regions approximate quadric surfaces; their characteristics are linked to the eigenstructure (Floquet modes) of the reference orbit.
 
-Barden & Howell (1998) and Barden, Howell & Lo (1996) discovered a six-spacecraft natural formation existing on the center manifold near the Sun–Earth $L_1$/$L_2$ libration points. In such formations, relative distances remain bounded without active control over many orbital periods — the control cost is essentially station-keeping for the reference orbit alone.
+Barden & Howell (1998) and Barden, Howell & Lo (1996) discovered a six-spacecraft natural formation existing on the center manifold near the Sun–Earth $L_1$/$L_2$ libration points. In such formations, relative distances remain bounded without active control over many orbital periods: the control cost is essentially station-keeping for the reference orbit alone.
 
 A **natural companion formation** is a specific case in DRO vicinity: the deputy is placed at an initial condition satisfying the linearized relative periodicity condition, so that it follows the chief along the DRO with bounded relative motion, at separations from meters to hundreds of kilometers (张如悦 et al. 2025).
 

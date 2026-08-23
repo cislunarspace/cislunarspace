@@ -48,7 +48,7 @@ where $\mu_E = 3.986 \times 10^{5} \text{ km}^3/\text{s}^2$ is Earth's gravitati
 
 In Earth-Moon transfer missions, LEO typically serves as the spacecraft's **parking orbit**. The launch vehicle first delivers the spacecraft to LEO, and then at the appropriate phase and timing, an Earth-Moon transfer impulse is applied to enter the transfer trajectory.
 
-This "LEO parking — Earth-Moon transfer" mission architecture offers several advantages:
+This LEO parking and Earth-Moon transfer mission architecture offers several advantages:
 
 1. **Mission flexibility**: The spacecraft can wait in LEO for the optimal launch window, rather than being strictly constrained by ground-based launch windows.
 2. **System verification**: During the LEO parking phase, all spacecraft systems can be thoroughly checked before executing the deep space transfer.
@@ -70,7 +70,7 @@ LEO serves not only as the starting point for space activities but also as a key
 
 - **Space stations**: China's Tiangong Space Station and the International Space Station both operate in LEO, providing platforms for long-duration human spaceflight.
 - **Satellite constellations**: Large communication constellations such as Starlink and OneWeb are deployed in LEO.
-- **Cislunar transportation hub**: LEO is expected to evolve into a "transportation hub" for cislunar space, handling on-orbit refueling and cargo transfer functions.
+- **Cislunar transportation hub**: LEO is expected to evolve into a transportation hub for cislunar space, handling on-orbit refueling and cargo transfer functions.
 
 ## Related Concepts
 

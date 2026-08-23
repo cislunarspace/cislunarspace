@@ -1,4 +1,4 @@
----
+﻿---
 title: Sequential Convex Programming (SCP / Successive Convexification)
 description: "A direct method for nonconvex optimal control: linearize the dynamics at a reference trajectory, add a trust region, and losslessly convexify the control constraints, yielding a sequence of second-order cone programs (SOCP). Polynomial-time interior-point solves each subproblem with a deterministic stopping criterion — well-suited to real-time / on-board guidance. Covers lossless convexification, virtual control, trust-region rules, and applications to powered descent, low-thrust transfer, and entry guidance."
 keywords: Sequential Convex Programming, SCP, Successive Convexification, Convex Optimization, SOCP, Trust Region, Lossless Convexification, Virtual Control, Interior Point, Powered Descent Guidance
@@ -38,7 +38,7 @@ Unlike general [direct collocation](/en/glossary/dynamics/direct-collocation/) N
 - User-supplied initial guesses do not affect interior-point startup (self-dual embedding constructs a feasible start).
 - Subproblem-level global optimality is guaranteed (though the original nonconvex problem still admits only local optimality).
 
-These properties make SCP well suited to **real-time / on-board** applications — the core distinction from general NLP direct methods (Acikmese & Ploen 2007).
+These properties make SCP well suited to **real-time / on-board** applications: the core distinction from general NLP direct methods (Acikmese & Ploen 2007).
 
 ## Mathematical form
 
@@ -53,13 +53,13 @@ A trust-region constraint $\|\mathbf{x}-\mathbf{x}^{(n-1)}\|\leq \delta_n$ limit
 
 ### Lossless convexification
 
-Many aerospace problems have nonconvex control constraints, not nonconvex dynamics. The canonical example is powered descent: $\rho_2\leq\|\mathbf{T}_c\|\leq\rho_1$ — the lower bound (nonzero) makes the feasible set an annulus, nonconvex. Introduce a slack $\Gamma\geq\|\mathbf{T}_c\|$ and replace the control constraint by the convex cone $\|\mathbf{T}_c\|\leq\Gamma,\ \rho_2\leq\Gamma\leq\rho_1$, giving a *relaxed problem*.
+Many aerospace problems have nonconvex control constraints, not nonconvex dynamics. The canonical example is powered descent: $\rho_2\leq\|\mathbf{T}_c\|\leq\rho_1$: the lower bound (nonzero) makes the feasible set an annulus, nonconvex. Introduce a slack $\Gamma\geq\|\mathbf{T}_c\|$ and replace the control constraint by the convex cone $\|\mathbf{T}_c\|\leq\Gamma,\ \rho_2\leq\Gamma\leq\rho_1$, giving a *relaxed problem*.
 
-The key Lemma of Acikmese & Ploen (2007) shows that, under mild conditions, the optimal solution of the relaxed problem lies on the boundary of the original nonconvex feasible set — so **relaxation costs nothing in optimality** (lossless). The result was later generalized to control-affine problems (Wang & Grant 2018).
+The key Lemma of Acikmese & Ploen (2007) shows that, under mild conditions, the optimal solution of the relaxed problem lies on the boundary of the original nonconvex feasible set, so **relaxation costs nothing in optimality** (lossless). The result was later generalized to control-affine problems (Wang & Grant 2018).
 
 ### Virtual control
 
-Linearization may produce *artificial infeasibility* — subproblems that are infeasible even though the original is feasible. An unconstrained *virtual control* $\boldsymbol{\nu}$ is added to the linearized dynamics to guarantee subproblem feasibility; $\|\boldsymbol{\nu}\|$ is heavily penalized in the cost to force $\boldsymbol{\nu}\to\mathbf{0}$ at convergence. If $\boldsymbol{\nu}=\mathbf{0}$ at convergence, the subproblem solution satisfies the nonlinear dynamics exactly (Szmuk et al. 2017).
+Linearization may produce *artificial infeasibility*: subproblems that are infeasible even though the original is feasible. An unconstrained *virtual control* $\boldsymbol{\nu}$ is added to the linearized dynamics to guarantee subproblem feasibility; $\|\boldsymbol{\nu}\|$ is heavily penalized in the cost to force $\boldsymbol{\nu}\to\mathbf{0}$ at convergence. If $\boldsymbol{\nu}=\mathbf{0}$ at convergence, the subproblem solution satisfies the nonlinear dynamics exactly (Szmuk et al. 2017).
 
 ### Trust region and convergence
 
@@ -69,11 +69,11 @@ Convergence criteria usually combine: dynamics violation $\epsilon_c\to 0$, cost
 
 ## Variants
 
-- **SCvx** (Szmuk et al.) — classical trust region + virtual control, with the most complete convergence proof.
-- **GUSTO** (Mao, Szmuk, Acikmese) — a success/failure-step strategy; implementation-friendly.
-- **ECIPS / cvxgen** — embedded code generation for on-board real-time solves.
-- **PC-SCoP** (phase-constrained sequential cone program) — multiphase extension with linearized inter-phase event constraints.
-- **Successive convex optimization + switching-time extraction** (Hofmann-Topputo 2021) — FRPM discretization with bang-off-bang mesh refinement, accurately capturing switching structure.
+- **SCvx** (Szmuk et al.): classical trust region + virtual control, with the most complete convergence proof.
+- **GUSTO** (Mao, Szmuk, Acikmese): a success/failure-step strategy; implementation-friendly.
+- **ECIPS / cvxgen**: embedded code generation for on-board real-time solves.
+- **PC-SCoP** (phase-constrained sequential cone program): multiphase extension with linearized inter-phase event constraints.
+- **Successive convex optimization + switching-time extraction** (Hofmann-Topputo 2021): FRPM discretization with bang-off-bang mesh refinement, accurately capturing switching structure.
 
 ## Comparison with direct collocation / pseudospectral
 
@@ -88,7 +88,7 @@ Convergence criteria usually combine: dynamics violation $\epsilon_c\to 0$, cost
 
 ## Applications
 
-- **Powered descent guidance.** Mars / Moon pinpoint landing is SCP's killer app — Acikmese & Ploen's lossless convexification was tailor-made for this; derivatives are used for SpaceX Starship on-board real-time planning (Acikmese & Ploen 2007; Song et al. 2021).
+- **Powered descent guidance.** Mars / Moon pinpoint landing is SCP's killer app: Acikmese & Ploen's lossless convexification was tailor-made for this; derivatives are used for SpaceX Starship on-board real-time planning (Acikmese & Ploen 2007; Song et al. 2021).
 - **Low-thrust transfers.** Wang & Grant first applied SCP to time- and fuel-optimal low-thrust orbit transfers; Hofmann & Topputo extended it to interplanetary transfers with hp-Radau + bang-off-bang refinement (Wang & Grant 2018; Hofmann & Topputo 2021).
 - **Earth-Moon libration transfers.** Halo ↔ NRHO and other highly nonlinear regimes: Kayama et al. (2022) show SCP still converges in the CR3BP neighborhood, but a *thrust-continuation method* (gradually lowering thrust acceleration from a large value to the mission value) is required at low acceleration levels to avoid divergence.
 - **Collision avoidance and rendezvous.** Near-field RPO and passively safe rendezvous with convexified keep-out constraints (Elango et al. 2025).

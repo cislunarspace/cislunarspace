@@ -1,10 +1,10 @@
-# Site Content Audit — 2026-06-04
+# Site Content Audit: 2026-06-04
 
 > Generated from parallel sub-agent audit of `web/` content site. Covers bilingual mirror gaps, broken links, translation quality, factual risks, and automation follow-ups.
 
 ## Audit Scope and Rules
 
-- **Scope**: `web/` content site (Chinese pages, English mirrors, glossary, Space News, resource/tool pages, special pages).
+- **Scope**: `web/` content site (Chinese pages, English mirrors, glossary, resource/tool pages, special pages).
 - **English mirror policy**: strict mirror. Chinese content pages must have corresponding `web/en/` pages unless documented as intentionally Chinese-only or component-handled.
 - **Link policy**: internal links and image paths treated as confirmed issues when statically resolvable as missing/malformed. External links were not mass-fetched.
 - **Translation quality**: page-level issues preferred.
@@ -19,23 +19,23 @@
 
 ## Confirmed Issues
 
-### ISSUE-001 — Large glossary/fundamentals English mirror gap
+### ISSUE-001: Large glossary/fundamentals English mirror gap
 
 **Priority**: P0 | **Type**: coverage-gap | **Area**: glossary/fundamentals | **Mode**: batch
 
 90 Chinese fundamentals glossary pages missing English mirrors. Representative:
-- `web/glossary/fundamentals/vis-viva-equation.md:2` — `title: 活力公式（Vis-Viva Equation）`
-- `web/glossary/fundamentals/kepler-equation.md:2` — `title: 开普勒方程（Kepler's Equation）`
-- `web/glossary/fundamentals/two-body-problem.md:2` — `title: 二体问题（Two-Body Problem）`
-- `web/glossary/fundamentals/orbital-elements.md:2` — `title: 轨道根数（Orbital Elements）`
-- `web/glossary/fundamentals/hohmann-transfer.md:2` — `title: 霍曼转移（Hohmann Transfer）`
-- `web/glossary/fundamentals/sun-synchronous-orbit.md:2` — `title: 太阳同步轨道（Sun-Synchronous Orbit）`
+- `web/glossary/fundamentals/vis-viva-equation.md:2`: `title: 活力公式（Vis-Viva Equation）`
+- `web/glossary/fundamentals/kepler-equation.md:2`: `title: 开普勒方程（Kepler's Equation）`
+- `web/glossary/fundamentals/two-body-problem.md:2`: `title: 二体问题（Two-Body Problem）`
+- `web/glossary/fundamentals/orbital-elements.md:2`: `title: 轨道根数（Orbital Elements）`
+- `web/glossary/fundamentals/hohmann-transfer.md:2`: `title: 霍曼转移（Hohmann Transfer）`
+- `web/glossary/fundamentals/sun-synchronous-orbit.md:2`: `title: 太阳同步轨道（Sun-Synchronous Orbit）`
 
 → **GitHub Issue**: #69
 
 ---
 
-### ISSUE-002 — Non-fundamentals glossary English mirror gaps
+### ISSUE-002: Non-fundamentals glossary English mirror gaps
 
 **Priority**: P0 | **Type**: coverage-gap | **Area**: glossary | **Mode**: batch
 
@@ -53,20 +53,20 @@
 
 ---
 
-### ISSUE-003 — Research-frontiers and special pages missing English mirrors
+### ISSUE-003: Research-frontiers and special pages missing English mirrors
 
 **Priority**: P1 | **Type**: coverage-gap | **Area**: research-frontiers, cislunar-orbits, root pages | **Mode**: batch
 
 - 14 research-frontiers Chinese pages missing English mirrors (institutions: npu, thu, dfhscl, nudt, seu; security-governance: strategy, orbital-game; simulation; templates)
-- `web/cislunar-orbits/nrho/ephemeris-computation.md:2` — `title: 多圈 NRHO 星历模型计算`
-- `web/references.md`, `web/dialectic.md` — component wrappers needing policy decision
+- `web/cislunar-orbits/nrho/ephemeris-computation.md:2`: `title: 多圈 NRHO 星历模型计算`
+- `web/references.md` and `web/dialectic.md`: component wrappers needing policy decision
 - EN-only orphan pages: `en/research-frontiers/directions.md`, `en/research-frontiers/institutions.md`
 
 → **GitHub Issues**: #77, #63
 
 ---
 
-### ISSUE-004 — Broken absolute glossary links
+### ISSUE-004: Broken absolute glossary links
 
 **Priority**: P1 | **Type**: broken-link | **Area**: glossary | **Mode**: batch
 
@@ -78,47 +78,15 @@
 
 ---
 
-### ISSUE-005 — Broken relative links in Space News indexes
+### ISSUE-005: Broken relative link in contributors page
 
-**Priority**: P1 | **Type**: broken-link | **Area**: space-news | **Mode**: single-page
+**Priority**: P2 | **Type**: broken-link | **Area**: docs | **Mode**: single-page
 
-- `space-news/2026/04/README.md:67` → `./2026-04-21-gps-iii-sv10-hedy-lamar-launch/` (missing)
-- `space-news/2026/04/README.md:100` → `./2026-04-02-artemis-2-tli-go/` (missing)
-- `space-news/2026/05/README.md:43` → `./2026-05-27-nasa-moon-base-1b-contracts/` (missing)
-- `en/space-news/2026/04/README.md:142` → `./2026-04-17-commercial-space-safety-meeting/` (EN missing)
 - `docs/contributors.md:21` → `./README.md` (wrong relative path)
 
-→ **GitHub Issue**: #72
-
 ---
 
-### ISSUE-006 — Space News frontmatter and bilingual defects
-
-**Priority**: P1 | **Type**: frontmatter-consistency, translation-completeness | **Area**: space-news | **Mode**: batch
-
-- Missing `layout: SpaceNewsArticle`: `2026-05-03-dahang-yueqian-500m-funding.md:1`, `2026-05-03-shenzhou-21-six-months-station.md:1`
-- EN title/H1 untranslated: `en/.../2026-05-24-exoplanet-interior-structure.md:3,13`
-- Missing EN counterpart: `2026-04-17-commercial-space-safety-meeting.md`
-- Category mismatches: rocket-lab-mynaric (`[commercial, spacex]` vs `[rocket-lab, commercial]`), space-public-welfare (`[china, iss]` vs `china`), cas500-2 (`[spacex, launch, commercial]` vs `[spacex, launch]`), trump-nasa-budget (`NASA` vs `policy`)
-- Date mismatch: `2026-05-03-trump-nasa-budget-cuts.md` CN `date: 2026-05-02` vs slug `2026-05-03`
-- Missing CN description: `2026-05-03-dahang-yueqian-500m-funding.md`, `2026-05-03-shenzhou-21-six-months-station.md`
-- Leading-space image path: `2026-04-29-starliner-1-cargo-only.md` (CN + EN)
-
-→ **GitHub Issue**: #70
-
----
-
-### ISSUE-007 — Missing or stale Space News figure references
-
-**Priority**: P2 | **Type**: broken-image | **Area**: space-news/2026/03 | **Mode**: batch
-
-Multiple 2026-03 articles reference missing figure files (Celeste, SMILE, Transporter-16, Artemis 2, Starship static fire). Some inside HTML comments (not breaking render), some live references.
-
-→ **GitHub Issue**: #73
-
----
-
-### ISSUE-008 — English pages contain Chinese text, metadata, inconsistent author rendering
+### ISSUE-008: English pages contain Chinese text, metadata, inconsistent author rendering
 
 **Priority**: P1 | **Type**: translation-quality, untranslated-chinese | **Area**: web/en | **Mode**: batch
 
@@ -128,13 +96,12 @@ Multiple 2026-03 articles reference missing figure files (Celeste, SMILE, Transp
 - Chinese `wechatShare.desc` in EN pages: `force-design.md:10`, `lockheed-martin.md:10`, `spacex.md:10`, etc.
 - Chinese fragments in EN body: `altitude-regulation.md:50` (Altitude囊), `regional-station-keeping.md:52` (Low-drag外形), `co-state-normalization.md:85` (赵海涵), `heteroclinic-orbit-transfer.md:27,53` (郭建宇), `differential-games.md:29` (张乘铭)
 - Chinese references in EN pages: `barycentric-synodic.md:97`, `j2000-coordinate.md:96`, `grc.md:94`, `differential-games.md:77`, `heteroclinic-orbit-transfer.md:113`, `co-state-normalization.md:102`, `bang-bang-control.md:100`
-- Chinese in Space News EN articles: `2026-04-30-dahang-yueqian-500m-funding.md:62-65`, `2026-04-29-shenzhou-23-preparation.md:38-41`, `2026-04-30-wukong-cosmic-ray-discovery.md:32-35`, `2026-05-11-shenzhou-23-mission-badge.md:22-23`, `2026-03-31-artemis-2-solar-flare.md:25`
 
 → **GitHub Issues**: #76, #65
 
 ---
 
-### ISSUE-009 — English DRO and Lyapunov pages substantially shorter
+### ISSUE-009: English DRO and Lyapunov pages substantially shorter
 
 **Priority**: P1 | **Type**: content-mismatch | **Area**: glossary/orbits | **Mode**: batch
 
@@ -144,7 +111,7 @@ Chinese `dro.md` includes orbital parameter characteristics (lines 65–75), ope
 
 ---
 
-### ISSUE-010 — Background section relative links broken
+### ISSUE-010: Background section relative links broken
 
 **Priority**: P1 | **Type**: broken-link | **Area**: background | **Mode**: single-page
 
@@ -158,20 +125,20 @@ Chinese `dro.md` includes orbital parameter characteristics (lines 65–75), ope
 
 ---
 
-### ISSUE-011 — Resource/tool pages with stale or incorrect URLs/versions
+### ISSUE-011: Resource/tool pages with stale or incorrect URLs/versions
 
 **Priority**: P1 | **Type**: outdated-tool-description, incorrect-url | **Area**: resources-tools | **Mode**: batch
 
-- `basilisk.md:20` — official site `https://bsk-lair.com/` (should be `https://avslab.github.io/basilisk/`)
-- `basilisk.md:22` — GitHub `https://github.com/AstroYuvPA/basilisk` (should be `https://github.com/AVSLab/basilisk`)
-- `gmat.md:39` — `最新版本：R2024a` (should be R2026a)
-- `datasets.md:60` — DE430 labeled latest; DE440/DE441 absent
+- `basilisk.md:20`: official site `https://bsk-lair.com/` (should be `https://avslab.github.io/basilisk/`)
+- `basilisk.md:22`: GitHub `https://github.com/AstroYuvPA/basilisk` (should be `https://github.com/AVSLab/basilisk`)
+- `gmat.md:39`: `最新版本：R2024a` (should be R2026a)
+- `datasets.md:60`: DE430 labeled latest; DE440/DE441 absent
 
 → **GitHub Issue**: #66
 
 ---
 
-### ISSUE-012 — Typo in public image directory `envrionment`
+### ISSUE-012: Typo in public image directory `envrionment`
 
 **Priority**: P2 | **Type**: url-format | **Area**: what-is-cislunarspace | **Mode**: single-page
 
@@ -183,37 +150,37 @@ Chinese `dro.md` includes orbital parameter characteristics (lines 65–75), ope
 
 ## Needs Review Candidates
 
-### ISSUE-013 — Helium-3 energy equivalence claim
+### ISSUE-013: Helium-3 energy equivalence claim
 
 **Priority**: P1 | **Type**: factual-review | **Area**: what-is-cislunarspace | **Mode**: manual-review
 
-`what-is-cislunarspace/README.md:41` — `30t氦-3产生的能量就可满足美国1年的能源需求`. Widely cited alternative: `100吨氦-3便能提供全世界使用一年的能源总量`. At US share ~15–17% of global energy, 30 tons appears inconsistent. Needs primary-source verification.
+`what-is-cislunarspace/README.md:41`: `30t氦-3产生的能量就可满足美国1年的能源需求`. Widely cited alternative: `100吨氦-3便能提供全世界使用一年的能源总量`. At US share ~15–17% of global energy, 30 tons appears inconsistent. Needs primary-source verification.
 
 → **GitHub Issue**: #67
 
 ---
 
-### ISSUE-014 — "Most complete lunar data platform" claim
+### ISSUE-014: Claim of most complete lunar data platform
 
 **Priority**: P2 | **Type**: factual-review | **Area**: resources-tools | **Mode**: manual-review
 
-`digital-lunar.md:14` — `目前国际上月球探测数据最齐全的云平台`. Unverifiable without comparing all international platforms. Both `digital-lunar.md` and `naoc-data.md` reference `moon.bao.ac.cn`.
+`digital-lunar.md:14`: `目前国际上月球探测数据最齐全的云平台`. Unverifiable without comparing all international platforms. Both `digital-lunar.md` and `naoc-data.md` reference `moon.bao.ac.cn`.
 
 → **GitHub Issue**: #67
 
 ---
 
-### ISSUE-015 — HIT satellite count and "world first" claims
+### ISSUE-015: HIT satellite count and world-first claims
 
 **Priority**: P3 | **Type**: factual-review | **Area**: research-frontiers/institutions | **Mode**: manual-review
 
-`hit.md:33` — 36 satellites as of 2025-05 (may have changed). `hit.md:43` — "world's first microsatellite independently completing lunar transfer" (well-supported by Xinhua/CNKI). "First university to send spacecraft to lunar orbit" (broader claim, harder to verify globally).
+`hit.md:33`: 36 satellites as of 2025-05 (may have changed). `hit.md:43`: world's first microsatellite independently completing lunar transfer (well-supported by Xinhua/CNKI). The broader claim of first university to send spacecraft to lunar orbit is harder to verify globally.
 
 → **GitHub Issue**: #67
 
 ---
 
-### ISSUE-016 — Chinese-named image files in English pages
+### ISSUE-016: Chinese-named image files in English pages
 
 **Priority**: P3 | **Type**: translation-quality | **Area**: glossary/orbits | **Mode**: batch
 
@@ -225,23 +192,19 @@ Chinese `dro.md` includes orbital parameter characteristics (lines 65–75), ope
 
 ## Engineering Follow-up Issues
 
-### ISSUE-017 — Bilingual mirror gap checker
+### ISSUE-017: Bilingual mirror gap checker
 
 → **GitHub Issue**: #61
 
-### ISSUE-018 — Internal link/image resolver
+### ISSUE-018: Internal link/image resolver
 
 → **GitHub Issue**: #62
 
-### ISSUE-019 — Space News frontmatter/schema validator
-
-→ **GitHub Issue**: #70
-
-### ISSUE-020 — English-locale Chinese-character scanner
+### ISSUE-020: English-locale Chinese-character scanner
 
 → **GitHub Issue**: #76
 
-### ISSUE-021 — Resources/tools stale-version review workflow
+### ISSUE-021: Resources/tools stale-version review workflow
 
 → **GitHub Issue**: #66
 

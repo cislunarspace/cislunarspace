@@ -50,7 +50,7 @@ This is the natural clock for any phenomenon driven by the Sun–Earth–Moon an
 
 ## The solar synodic frequency in the Earth–Moon frame
 
-When the Earth–Moon barycentric rotating frame is used (with angular rate $n_\text{EM} = 2\pi/S_\text{Moon}$), the Sun does not stand still: it completes one revolution in that frame every Earth **sidereal** year, which translated into the rotating frame becomes one cycle per synodic period of the Sun as seen from the Earth–Moon binary — about 29.5 d × correction. In the bicircular and quasi-bicircular models of the Earth–Moon–Sun system, this **solar synodic frequency** $\omega_\odot$ enters as the leading external forcing frequency, modulating otherwise-autonomous Earth–Moon dynamics and producing the quasi-periodic perturbation that governs long-term stability near $L_4/L_5$ and along ballistic-capture trajectories (Gómez et al. 2001, vol. II).
+When the Earth–Moon barycentric rotating frame is used (with angular rate $n_\text{EM} = 2\pi/S_\text{Moon}$), the Sun does not stand still: it completes one revolution in that frame every Earth **sidereal** year, which translated into the rotating frame becomes one cycle per synodic period of the Sun as seen from the Earth–Moon binary, about 29.5 d × correction. In the bicircular and quasi-bicircular models of the Earth–Moon–Sun system, this **solar synodic frequency** $\omega_\odot$ enters as the leading external forcing frequency, modulating otherwise-autonomous Earth–Moon dynamics and producing the quasi-periodic perturbation that governs long-term stability near $L_4/L_5$ and along ballistic-capture trajectories (Gómez et al. 2001, vol. II).
 
 ## Inter-satellite phasing
 
@@ -60,7 +60,7 @@ $$
 \tau_\text{wait} = \frac{\vartheta - \vartheta_i + 2\pi k}{\omega_\text{int} - \omega_\text{tgt}},
 $$
 
-where $\vartheta$ is the required phase-angle separation and $k$ counts the revolutions (Vallado 2022, §6.5). Two satellites in similar orbits have a very long synodic period; two in widely separated orbits phase quickly — the counter-intuitive rule that drives launch-window design.
+where $\vartheta$ is the required phase-angle separation and $k$ counts the revolutions (Vallado 2022, §6.5). Two satellites in similar orbits have a very long synodic period; two in widely separated orbits phase quickly, the counter-intuitive rule that drives launch-window design.
 
 ## Related entries
 
@@ -72,14 +72,14 @@ where $\vartheta$ is the required phase-angle separation and $k$ counts the revo
 
 ## References
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §6.5 and §3.4 — synodic period in inter-satellite phasing; barycentric time scales.
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §6.5 and §3.4: synodic period in inter-satellite phasing; barycentric time scales.
 
-- Szebehely, 1967, *Theory of Orbits*, §1.5 — dimensionless synodic system and the role of the angular rate $n$.
+- Szebehely, 1967, *Theory of Orbits*, §1.5: dimensionless synodic system and the role of the angular rate $n$.
 
-- Gómez, Jorba, Llibre, Masdemont, Simó, 2001, *Dynamics and Mission Design near Libration Points*, vol. II — solar synodic perturbation in the bicircular model.
+- Gómez, Jorba, Llibre, Masdemont, Simó, 2001, *Dynamics and Mission Design near Libration Points*, vol. II: solar synodic perturbation in the bicircular model.
 
-- Welch, Barden, Howell, 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit — 2:1 resonant DRO at half the lunar synodic period.
+- Welch, Barden, Howell, 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit: 2:1 resonant DRO at half the lunar synodic period.
 
-- Vendl & Holzinger, 2021, "Cislunar periodic orbit analysis for persistent space object detection capability" — synodic-period cadence for sensor coverage.
+- Vendl & Holzinger, 2021, "Cislunar periodic orbit analysis for persistent space object detection capability": synodic-period cadence for sensor coverage.
 
-- Thornton et al., 2022 — simulation baseline spanning full synodic cycles.
+- Thornton et al., 2022: simulation baseline spanning full synodic cycles.

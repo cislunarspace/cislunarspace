@@ -38,11 +38,11 @@ Given a Lagrangian $L(\mathbf{q},\dot{\mathbf{q}},t)$, define the conjugate mome
 
 $$H(\mathbf{q},\mathbf{p},t)=\mathbf{p}^{\!\top}\dot{\mathbf{q}}-L(\mathbf{q},\dot{\mathbf{q}},t).$$
 
-This yields the canonical equations. When $H$ is independent of $t$, $dH/dt=\partial H/\partial t=0$, i.e. $H$ is conserved. A **natural Hamiltonian** has the form $H=T(\mathbf{p})+V(\mathbf{q})$ (kinetic plus potential energy) — the prototype of mechanical systems.
+This yields the canonical equations. When $H$ is independent of $t$, $dH/dt=\partial H/\partial t=0$, i.e. $H$ is conserved. A **natural Hamiltonian** has the form $H=T(\mathbf{p})+V(\mathbf{q})$ (kinetic plus potential energy), the prototype of mechanical systems.
 
 ## Hamiltonian matrix and symplectic structure
 
-The coefficient matrix $A(t)$ of the linearization $\dot{\mathbf{z}}=A\mathbf{z}$ of a Hamiltonian system on phase space $\mathbf{z}=(\mathbf{q},\mathbf{p})$ satisfies $A^{\!\top}J+JA=0$ where $J=\begin{pmatrix}0&I\\-I&0\end{pmatrix}$. Such $A$ are **Hamiltonian matrices**; their spectra are symmetric under $\lambda\mapsto -\lambda$ (Proposition 2.3.1, Meyer & Offin 2017). The matrix exponential of a Hamiltonian matrix is a **symplectic matrix** $M$ satisfying $M^{\!\top}JM=J$, whose eigenvalues come in reciprocal pairs $\lambda,1/\lambda$. The state-transition matrix of any Hamiltonian flow is symplectic — this is the algebraic origin of the saddle×center×center structure at collinear libration points (see [Symplectic Structure & Hamiltonian Normal Form](/en/glossary/dynamics/hamiltonian-normal-form/)).
+The coefficient matrix $A(t)$ of the linearization $\dot{\mathbf{z}}=A\mathbf{z}$ of a Hamiltonian system on phase space $\mathbf{z}=(\mathbf{q},\mathbf{p})$ satisfies $A^{\!\top}J+JA=0$ where $J=\begin{pmatrix}0&I\\-I&0\end{pmatrix}$. Such $A$ are **Hamiltonian matrices**; their spectra are symmetric under $\lambda\mapsto -\lambda$ (Proposition 2.3.1, Meyer & Offin 2017). The matrix exponential of a Hamiltonian matrix is a **symplectic matrix** $M$ satisfying $M^{\!\top}JM=J$, whose eigenvalues come in reciprocal pairs $\lambda,1/\lambda$. The state-transition matrix of any Hamiltonian flow is symplectic; this is the algebraic origin of the saddle×center×center structure at collinear libration points (see [Symplectic Structure & Hamiltonian Normal Form](/en/glossary/dynamics/hamiltonian-normal-form/)).
 
 ## CR3BP Hamiltonian and the Jacobi constant
 
@@ -50,7 +50,7 @@ In the synodic frame of the circular restricted three-body problem, the autonomo
 
 $$H=\tfrac12(p_x^2+p_y^2+p_z^2)+yp_x-xp_y-\frac{1-\mu}{r_1}-\frac{\mu}{r_2},$$
 
-with $r_1,r_2$ the distances to the primaries (Szebehely 1967; Meyer & Offin 2017). The Coriolis and centrifugal terms appear as $yp_x-xp_y$. The Jacobi constant is $C=-2H$ — the sole integral of CR3BP, gating the Hill region through the zero-velocity surfaces (see [Jacobi Integral](/en/glossary/dynamics/jacobi-integral/)).
+with $r_1,r_2$ the distances to the primaries (Szebehely 1967; Meyer & Offin 2017). The Coriolis and centrifugal terms appear as $yp_x-xp_y$. The Jacobi constant is $C=-2H$, the sole integral of CR3BP, gating the Hill region through the zero-velocity surfaces (see [Jacobi Integral](/en/glossary/dynamics/jacobi-integral/)).
 
 Cox et al. (2021) split $H$ into the **natural Hamiltonian**
 
@@ -60,11 +60,11 @@ $$H_{nat}=\tfrac12 v^2-\tfrac12(x^2+y^2)-\frac{1-\mu}{r_1}-\frac{\mu}{r_2}$$
 
 ## Nearly-integrable Hamiltonian systems
 
-A system is **integrable** if it has $n$ independent integrals in involution (mutual Poisson brackets zero). A **nearly-integrable Hamiltonian** has the form $H=H_0(I)+\varepsilon H_1(I,\varphi)$, where $(I,\varphi)$ are action-angle variables of the integrable part and $\varepsilon\ll 1$. KAM and Nekhoroshev theorems describe its long-term dynamics (Celletti 2010; see [KAM Theory](/en/glossary/dynamics/kam-theory/)). **Hamiltonian integrable approximation** averages $H_1$ over fast angles to obtain an integrable $\bar H$ that captures mean-motion resonances — used to seed continuation of resonant orbit families in cislunar space (Ding et al. 2025).
+A system is **integrable** if it has $n$ independent integrals in involution (mutual Poisson brackets zero). A **nearly-integrable Hamiltonian** has the form $H=H_0(I)+\varepsilon H_1(I,\varphi)$, where $(I,\varphi)$ are action-angle variables of the integrable part and $\varepsilon\ll 1$. KAM and Nekhoroshev theorems describe its long-term dynamics (Celletti 2010; see [KAM Theory](/en/glossary/dynamics/kam-theory/)). **Hamiltonian integrable approximation** averages $H_1$ over fast angles to obtain an integrable $\bar H$ that captures mean-motion resonances, used to seed continuation of resonant orbit families in cislunar space (Ding et al. 2025).
 
 ## Hamiltonian reduction
 
-When $H$ admits symmetries, Noether's theorem yields conserved quantities (linear momentum, angular momentum, Jacobi integral). **Hamiltonian reduction** quotients the phase space by the symmetry group to lower the effective degrees of freedom — Meyer–Marsden–Weinstein reduction is the standard framework (Meyer & Ofin 2017, Ch.7). The planar CR3BP with fixed Jacobi constant reduces to a 2-D Hamiltonian flow on the Hill region.
+When $H$ admits symmetries, Noether's theorem yields conserved quantities (linear momentum, angular momentum, Jacobi integral). **Hamiltonian reduction** quotients the phase space by the symmetry group to lower the effective degrees of freedom: Meyer–Marsden–Weinstein reduction is the standard framework (Meyer & Ofin 2017, Ch.7). The planar CR3BP with fixed Jacobi constant reduces to a 2-D Hamiltonian flow on the Hill region.
 
 ## Optimal-control Hamiltonian
 
@@ -78,7 +78,7 @@ and the optimal control pointwise minimizes $H$ over $\mathbf{u}$. This Hamilton
 
 - Conservation of $H$ in autonomous problems is a cheap and stringent accuracy check for numerical integration.
 - CR3BP-LT with rotating-frame-fixed thrust inherits a conserved $H_{lt}$, enabling energy-based trajectory design analogous to the Jacobi-constant gating of CR3BP.
-- The symplectic spectrum of the monodromy matrix — read off from $H$'s second variation — determines stable/unstable/center manifolds of libration-point orbits.
+- The symplectic spectrum of the monodromy matrix, read off from $H$'s second variation, determines stable/unstable/center manifolds of libration-point orbits.
 
 ## Related concepts
 

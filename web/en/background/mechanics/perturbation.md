@@ -20,7 +20,7 @@ wechatShare:
 
 ## Definition
 
-Perturbation theory studies the motion of celestial bodies under perturbations on top of the primary body's gravitational attraction. In spacecraft orbital dynamics, perturbation theory analyzes the effects of various perturbing forces — beyond the central body's gravity — on orbits.
+Perturbation theory studies the motion of celestial bodies under perturbations on top of the primary body's gravitational attraction. In spacecraft orbital dynamics, perturbation theory analyzes the effects of various perturbing forces (beyond the central body's gravity) on orbits.
 
 ## Principles
 
@@ -50,7 +50,7 @@ Expanding the solution in a Taylor series about $\varepsilon = 0$ yields success
 
 ## Applications in Cislunar Space
 
-- **J2 perturbation**: Earth's non-spherical gravity (J2 term) significantly affects LEO orbit lifetime and right ascension of ascending node drift — critical for LEO orbit design
+- **J2 perturbation**: Earth's non-spherical gravity (J2 term) significantly affects LEO orbit lifetime and right ascension of ascending node drift, critical for LEO orbit design
 - **Third-body gravity**: Major impact on long-term stability of Earth-Moon transfer orbits and L1/L2 orbits; third-body perturbation is a key factor in NRHO long-term stability
 - **Lunar gravity non-sphericity**: Lunar J2 term affects lunar satellite orbit lifetime and orbital plane evolution
 - **Resonance effects**: gravitational perturbations from asteroid belt objects on probes can be exploited for low-energy transfer trajectory design

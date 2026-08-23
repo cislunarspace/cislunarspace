@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/shape-based-method/
 
 ## 定义
 
-形状基方法（shape-based method）是一类小推力轨迹的**近似解析设计法**：用含少量待定参数的解析函数（"形状函数"）描述转移轨道的几何形状——通常是极径 $r(\theta)$ 或速度矢量 $\boldsymbol{v}(t)$——再由逆动力学（inverse dynamics）从形状反算出推力加速度 $\boldsymbol{u}(t)$ 和飞行时间。它**不求解完整的最优控制问题**，只把无限维的轨迹优化降为有限维参数优化，因此算得快、便于全局搜索，但形状受所选函数族限制，得到的解一般非真正最优（Petropoulos & Longuski 2004；Conway 2010；Vellutini & Avanzini 2014）。
+形状基方法（shape-based method）是一类小推力轨迹的**近似解析设计法**：用含少量待定参数的解析函数（形状函数）描述转移轨道的几何形状，通常是极径 $r(\theta)$ 或速度矢量 $\boldsymbol{v}(t)$，再由逆动力学（inverse dynamics）从形状反算出推力加速度 $\boldsymbol{u}(t)$ 和飞行时间。它**不求解完整的最优控制问题**，只把无限维的轨迹优化降为有限维参数优化，因此算得快、便于全局搜索，但形状受所选函数族限制，得到的解一般非真正最优（Petropoulos & Longuski 2004；Conway 2010；Vellutini & Avanzini 2014）。
 
-工程上的定位：形状基方法**用于初值生成和全局剪枝**——在大量候选方案中快速找到近似可行的转移，再交给 [直接配点](/glossary/dynamics/differential-correction/)、[HDDP](/glossary/dynamics/hddp/) 或 [间接法](/glossary/dynamics/indirect-methods/) 做精确优化。
+工程上的定位：形状基方法**用于初值生成和全局剪枝**：在大量候选方案中快速找到近似可行的转移，再交给 [直接配点](/glossary/dynamics/differential-correction/)、[HDDP](/glossary/dynamics/hddp/) 或 [间接法](/glossary/dynamics/indirect-methods/) 做精确优化。
 
 ## Petropoulos 指数正弦曲线
 
@@ -52,11 +52,11 @@ $$
 
 **可行性条件 $|k_1 k_2^2|<1$。** 当 $|k_1 k_2^2|\ge 1$ 时 $\dot\theta^2$ 在某些 $\theta$ 处变负（角速率虚化）、或 $a$ 发散，形状不可飞。这是形状基方法最重要的约束。
 
-**Izzo（2006）的多圈 Lambert 类比。** 给定 $r_1, r_2, \Delta\theta$ 与转移时间 $t_f$，把多圈 Lambert 问题推广到指数正弦：$k_2$ 固定时一族以 $\gamma_1$（初始航迹角）为参数的曲线穿过两端点，可行性给出 $\tan\gamma_1$ 的二次不等式，从而解析界定 $\gamma_1$ 的可行区间。这是低推力全局优化的"低推力 Lambert 求解器"。
+**Izzo（2006）的多圈 Lambert 类比。** 给定 $r_1, r_2, \Delta\theta$ 与转移时间 $t_f$，把多圈 Lambert 问题推广到指数正弦：$k_2$ 固定时一族以 $\gamma_1$（初始航迹角）为参数的曲线穿过两端点，可行性给出 $\tan\gamma_1$ 的二次不等式，从而解析界定 $\gamma_1$ 的可行区间。这是低推力全局优化的低推力 Lambert 求解器。
 
 ## 其他形状函数族
 
-**逆多项式（Wall & Conway）。** Wall 与 Conway（2010）提出五阶、六阶逆多项式 $r(\theta)=1/\sum_{i} a_i\theta^i$，参数更多、能拟合更一般的轨迹（含非切向推力分量），适合交会、拦截等固定时间问题，但代价是"维度灾难"——参数空间的网格搜索成本随阶数增长。
+**逆多项式（Wall & Conway）。** Wall 与 Conway（2010）提出五阶、六阶逆多项式 $r(\theta)=1/\sum_{i} a_i\theta^i$，参数更多、能拟合更一般的轨迹（含非切向推力分量），适合交会、拦截等固定时间问题，但代价是维度灾难：参数空间的网格搜索成本随阶数增长。
 
 **速度 Hodograph 法。** 把速度矢量 $\boldsymbol{v}(t)$（而非位置）表示为时间或真近点角的形状函数，由 $\dot{\boldsymbol{r}}=\boldsymbol{v}$ 反求位置、由运动方程反求推力。优点是速度边界条件直接、便于处理速度匹配的交会问题，被用于地球–火星、地球–水星、小行星/彗星任务。
 

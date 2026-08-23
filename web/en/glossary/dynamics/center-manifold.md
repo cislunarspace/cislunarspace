@@ -40,7 +40,7 @@ The existence of the center manifold allows the high-dimensional system to be re
 
 ## Normally Hyperbolic Invariant Manifold (NHIM)
 
-A **NHIM** is a generalization of the center-manifold idea: it is an invariant manifold that may itself be multi-dimensional, with strong hyperbolicity in the normal directions (exponential contraction/expansion) and neutral or weakly hyperbolic behavior in the tangential directions. In the CR3BP, a libration-point periodic orbit itself is a 1-D NHIM: the direction tangent to the orbit is neutral, while the normal directions contain stable, unstable, and center components. NHIMs act as “bottlenecks” controlling phase-space transport and form the foundation for heteroclinic cycles and invariant tori (Wiggins 1994; Ross 2022).
+A **NHIM** is a generalization of the center-manifold idea: it is an invariant manifold that may itself be multi-dimensional, with strong hyperbolicity in the normal directions (exponential contraction/expansion) and neutral or weakly hyperbolic behavior in the tangential directions. In the CR3BP, a libration-point periodic orbit itself is a 1-D NHIM: the direction tangent to the orbit is neutral, while the normal directions contain stable, unstable, and center components. NHIMs act as bottlenecks controlling phase-space transport and form the foundation for heteroclinic cycles and invariant tori (Wiggins 1994; Ross 2022).
 
 ## Relative Center Manifold
 

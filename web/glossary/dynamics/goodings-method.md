@@ -30,13 +30,13 @@ permalink: /glossary/dynamics/goodings-method/
 
 ## 定义
 
-地月空间任务大量出现"两端状态已知、中间动力学已知、求控制或轨道"的两点边值问题（TPBVP）：Lambert 问题、初轨确定、平动点轨道保持机动定位等。本词条合并收录这类问题在数值上常用的求解器：Gooding 系列（Lambert 算法 + 三视线初轨确定）、单变量根迭代法（Householder、Powell 混合、割线/双点法）、非线性 TPBVP 的拟线性化方法，以及 Halo 轨道保持专用的阻尼二分修正法。
+地月空间任务大量出现两端状态已知、中间动力学已知、求控制或轨道的两点边值问题（TPBVP）：Lambert 问题、初轨确定、平动点轨道保持机动定位等。本词条合并收录这类问题在数值上常用的求解器：Gooding 系列（Lambert 算法 + 三视线初轨确定）、单变量根迭代法（Householder、Powell 混合、割线/双点法）、非线性 TPBVP 的拟线性化方法，以及 Halo 轨道保持专用的阻尼二分修正法。
 
 ## Gooding 的两个不同方法
 
 **Gooding（1990）Lambert 算法。** 现代最广泛使用的 Lambert 求解器之一，给出由 $\boldsymbol{r}_1, \boldsymbol{r}_2, t_f$ 计算 $\boldsymbol{v}_1$ 的高效稳定算法。算法用 Lagrange 形式的飞行时间方程（半长轴或等价变量的函数），结合超几何函数与一个高效率的初值猜测（覆盖多圈、短/长途径、椭圆/抛物/双曲分支），数值性能与稳健性优于 Gauss 原始方法（Battin 1999；Vallado 2022）。多数现代 Lambert 实现都以 Gooding 算法作为基准。
 
-**Gooding（1996）三视线初轨确定（IOD）方案。** 与 Lambert 算法不同——这是从三个视线方向观测确定一条轨道的方法。最小情况下仅需三个方向观测 $\hat{\boldsymbol{\rho}}_1, \hat{\boldsymbol{\rho}}_2, \hat{\boldsymbol{\rho}}_3$，方案把 IOD 化为反复求解一个 Lambert 问题（给定两端距离 + 时间，求速度），迭代收敛到一致的轨道。形式简洁、计算高效，可自然推广到多观测数据。
+**Gooding（1996）三视线初轨确定（IOD）方案。** 与 Lambert 算法不同，这是从三个视线方向观测确定一条轨道的方法。最小情况下仅需三个方向观测 $\hat{\boldsymbol{\rho}}_1, \hat{\boldsymbol{\rho}}_2, \hat{\boldsymbol{\rho}}_3$，方案把 IOD 化为反复求解一个 Lambert 问题（给定两端距离 + 时间，求速度），迭代收敛到一致的轨道。形式简洁、计算高效，可自然推广到多观测数据。
 
 读 Gooding 论文时**先确认是哪一个**：1990 是 Lambert solver，1996 是 IOD scheme。
 
@@ -54,7 +54,7 @@ $$
 \gamma_{n+1} = \gamma_n - (\gamma_n - \gamma_{n-1})\frac{t_n - t_f}{t_n - t_{n-1}},
 $$
 
-每步只需一次函数求值（无需导数），实现简单。Nelson & Zarchan（1992）把这一思路用于 Lambert 问题，把迭代变量从半长轴换成"出离角"（flight-path angle），因为飞行时间对出离角的二阶导较小，割线法表现良好；典型算例 8 位有效精度只需数次迭代。
+每步只需一次函数求值（无需导数），实现简单。Nelson & Zarchan（1992）把这一思路用于 Lambert 问题，把迭代变量从半长轴换成出离角（flight-path angle），因为飞行时间对出离角的二阶导较小，割线法表现良好；典型算例 8 位有效精度只需数次迭代。
 
 **取舍。** Householder 收敛快但需高阶导；Newton（二阶）折中；割线/双点法只需函数值但收敛阶 $\approx 1.618$。Lambert 问题中飞行时间函数性态良好，工程上**Gooding 算法 + 内置切换的多圈处理**通常胜过裸用上述任一方法。
 
@@ -70,7 +70,7 @@ $$
 
 ## 阻尼二分修正（Damped Bisection Correction）
 
-平动点轨道保持的机动定位中，标准微分修正（基于一阶 STM）在 Halo 轨道附近的强非线性相空间中容易发散，或收敛到所需 $\Delta V$ 过大的解。**阻尼二分修正法**（Folta 等 2010）是一种鲁棒的回退策略：当迭代进入"错误区域"（积分到达时间上限仍未满足约束条件）时，自动把速度修正量减半并回退，逐步缩小修正步长，直至迭代跳出错误区域并找到满足终止条件的解。
+平动点轨道保持的机动定位中，标准微分修正（基于一阶 STM）在 Halo 轨道附近的强非线性相空间中容易发散，或收敛到所需 $\Delta V$ 过大的解。**阻尼二分修正法**（Folta 等 2010）是一种鲁棒的回退策略：当迭代进入错误区域（积分到达时间上限仍未满足约束条件）时，自动把速度修正量减半并回退，逐步缩小修正步长，直至迭代跳出错误区域并找到满足终止条件的解。
 
 算法流程：
 
@@ -100,12 +100,12 @@ $$
 
 ## 参考文献
 
-- Gooding, R. H., 1990, "A procedure for the solution of Lambert's orbital boundary-value problem," *Celest. Mech. Dyn. Astron.*（Gooding Lambert 算法）。
-- Gooding, R. H., 1996, "A new procedure for the solution of the classical problem of minimal orbit determination from three lines of sight," *Celest. Mech. Dyn. Astron.*（Gooding 三视线 IOD 方案）。
+- Gooding, R. H., 1990, A procedure for the solution of Lambert's orbital boundary-value problem, *Celest. Mech. Dyn. Astron.*（Gooding Lambert 算法）。
+- Gooding, R. H., 1996, A new procedure for the solution of the classical problem of minimal orbit determination from three lines of sight, *Celest. Mech. Dyn. Astron.*（Gooding 三视线 IOD 方案）。
 - Battin, R. H., 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*（Lambert 问题与飞行时间方程的经典教材）。
 - Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*（现代 Lambert 算法的工程对比基准）。
-- Nelson, S., Zarchan, P., 1992, "Alternative approach to the solution of Lambert's problem," *J. Guid. Control Dyn.*（出离角迭代 + 双点/割线法）。
-- Powell, M. J. D., 1970, "A hybrid method for nonlinear equations"（Powell 混合算法）。
-- Wang, Y., et al., 2024, "Low-energy earth–moon transfer autonomous guidance considering high-fidelity orbital dynamics"（拟线性化用于地月低能转移自主制导）。
+- Nelson, S., Zarchan, P., 1992, Alternative approach to the solution of Lambert's problem, *J. Guid. Control Dyn.*（出离角迭代 + 双点/割线法）。
+- Powell, M. J. D., 1970, A hybrid method for nonlinear equations（Powell 混合算法）。
+- Wang, Y., et al., 2024, Low-energy earth–moon transfer autonomous guidance considering high-fidelity orbital dynamics（拟线性化用于地月低能转移自主制导）。
 - Folta, D., et al., 2010（阻尼二分修正应用于平动点轨道保持）。
-- Yoon, S., Petukhov, V., 2023, "Minimum-fuel low-thrust trajectories to the moon"（Powell 混合在延拓法中的应用）。
+- Yoon, S., Petukhov, V., 2023, Minimum-fuel low-thrust trajectories to the moon（Powell 混合在延拓法中的应用）。

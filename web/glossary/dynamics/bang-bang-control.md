@@ -30,9 +30,9 @@ permalink: /glossary/dynamics/bang-bang-control/
 
 ## 定义
 
-**Bang-bang 控制**是燃耗最优控制问题中推力幅值的标准形式：控制量仅在允许范围的两个极值间切换——推力要么取最大值 $F = F_{\max}$（"开"），要么为零 $F = 0$（"关"）——不存在中间推力值的持续燃烧。"bang-bang"一词源于继电器开关切换时发出的"砰"声。
+**Bang-bang 控制**是燃耗最优控制问题中推力幅值的标准形式：控制量仅在允许范围的两个极值间切换：推力要么取最大值 $F = F_{\max}$（开），要么为零 $F = 0$（关），不存在中间推力值的持续燃烧。bang-bang 一词源于继电器开关切换时发出的砰声。
 
-这是庞特里亚金极值原理（Pontryagin's Minimum Principle）的直接推论。在燃耗最省目标下，哈密顿函数对推力幅值 $F$ 呈线性依赖关系，极小化哈密顿函数等价于将推力幅值推向约束的边界——要么最大、要么最小（零）。仅当切换函数恒为零时可能出现中间值，此即奇异弧，需要额外分析。
+这是庞特里亚金极值原理（Pontryagin's Minimum Principle）的直接推论。在燃耗最省目标下，哈密顿函数对推力幅值 $F$ 呈线性依赖关系，极小化哈密顿函数等价于将推力幅值推向约束的边界，要么最大、要么最小（零）。仅当切换函数恒为零时可能出现中间值，此即奇异弧，需要额外分析。
 
 Lawden (1963) 在其奠基性著作《Optimal Trajectories for Space Navigation》中将推力轨迹按幅值特征划分为三类弧段（arc），这一分类至今仍是推力优化理论的基础术语：
 
@@ -68,7 +68,7 @@ $$
 H = {\lambda}_r^{\mathrm{T}}\mathbf{v} - {\lambda}_v^{\mathrm{T}}\frac{\mu}{r^3}\mathbf{r} + F\left(\frac{\lambda}_v^{\mathrm{T}}\boldsymbol{\alpha}}{m} - \frac{\lambda_m}{g_0 I_{sp}}\right)
 $$
 
-第三项对 $F$ 线性依赖——这直接导致了 Bang-bang 结构的出现。
+第三项对 $F$ 线性依赖，这直接导致了 Bang-bang 结构的出现。
 
 ### 最优推力方向：Lawden 先驱向量
 
@@ -98,7 +98,7 @@ F_{\max}, & S < 0 \quad \text{(最大推力弧 / Maximum-thrust)} \\[4pt]
 \end{cases}
 $$
 
-$S(t)$ 的符号在飞行过程中变化，形成"开-关-开-关"交替的 Bang-bang 结构。关键在于：开关时刻（$S(t)=0$ 的时刻）和开关次数事先未知，必须作为优化问题的一部分求解。
+$S(t)$ 的符号在飞行过程中变化，形成开-关-开-关交替的 Bang-bang 结构。关键在于：开关时刻（$S(t)=0$ 的时刻）和开关次数事先未知，必须作为优化问题的一部分求解。
 
 在无量纲化下，可定义推力比 $u = F/F_{\max} \in [0,1]$，开关函数等价表示为（朱政帆和高扬 2017）：
 
@@ -116,7 +116,7 @@ Bang-bang 条件变为：$\rho > 0 \Rightarrow u^*=0$，$\rho < 0 \Rightarrow u^
 
 Lawden (1963) 的三类弧分类不仅是数学表述，更有清晰的物理内涵：
 
-1. **最大推力弧（MT）**：发动机全开。出现在需要迅速改变轨道能量或角动量的弧段——如地球逃逸螺旋的推力段和月球捕获螺旋的减速段。在这些位置，单位推力的能量改变效率最高。
+1. **最大推力弧（MT）**：发动机全开。出现在需要迅速改变轨道能量或角动量的弧段，如地球逃逸螺旋的推力段和月球捕获螺旋的减速段。在这些位置，单位推力的能量改变效率最高。
 2. **无推力弧（NT）**：发动机关机滑行。出现在航天器穿越大范围地月空间时，以及切换函数预示当前不施加推力反而更优的弧段。滑行段利用引力场自然演化轨道，节省推进剂。
 3. **中间推力弧（IT / 奇异弧）**：出现于二阶条件决定推力为中间值的特殊情形。在实践中极少遇到，通常意味着优化问题的某些对称性或简化假设在起作用。大多数实际求解中假定不存在奇异弧，以避开数值复杂性。
 
@@ -163,23 +163,23 @@ $$
 
 - **TCT 序列**：地月转移中的 Thrust-Coast-Thrust 天然对应 MT-NT-MT，是 Bang-bang 结构在特定任务中的直接体现。
 
-- **连续推力轨道保持**（Station-Keeping）：在 NRHO、Halo 等平动点轨道的长期保持中，最优控制律同样呈 Bang-bang 特征——仅在轨道偏差超过阈值时施加推力（Zhang and Wang 2022）。
+- **连续推力轨道保持**（Station-Keeping）：在 NRHO、Halo 等平动点轨道的长期保持中，最优控制律同样呈 Bang-bang 特征，仅在轨道偏差超过阈值时施加推力（Zhang and Wang 2022）。
 
 ## 相关概念
 
-- [电推进（Electric Propulsion）](/glossary/fundamentals/ep/) — Bang-bang 控制的物理载体，低推力系统的推进基础
+- [电推进（Electric Propulsion）](/glossary/fundamentals/ep/)：Bang-bang 控制的物理载体，低推力系统的推进基础
 
-- [推力方向与控制（Tangential Thrust Control）](/glossary/dynamics/tangential-thrust-control/) — 推力方向的最优与简化策略
+- [推力方向与控制（Tangential Thrust Control）](/glossary/dynamics/tangential-thrust-control/)：推力方向的最优与简化策略
 
-- [庞特里亚金极小值原理](/glossary/dynamics/pontryagins-maximum-principle/) — 推导 Bang-bang 控制的数学基础
+- [庞特里亚金极小值原理](/glossary/dynamics/pontryagins-maximum-principle/)：推导 Bang-bang 控制的数学基础
 
-- [协态变量](/glossary/dynamics/co-state-variables/) — 先驱向量的直接物理来源
+- [协态变量](/glossary/dynamics/co-state-variables/)：先驱向量的直接物理来源
 
-- [先驱向量（Primer Vector）](/glossary/dynamics/primer-vector/) — Lawden 提出的最优推力方向判定工具
+- [先驱向量（Primer Vector）](/glossary/dynamics/primer-vector/)：Lawden 提出的最优推力方向判定工具
 
-- [同伦法](/glossary/dynamics/homotopy-method/) — Bang-bang 控制数值求解的核心技术
+- [同伦法](/glossary/dynamics/homotopy-method/)：Bang-bang 控制数值求解的核心技术
 
-- [脉冲机动（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/) — 脉冲推进模型下的机动方法，双脉冲是 Bang-bang 控制脉冲极限的初值来源
+- [脉冲机动（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/)：脉冲推进模型下的机动方法，双脉冲是 Bang-bang 控制脉冲极限的初值来源
 
 ## 参考文献
 

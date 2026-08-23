@@ -55,7 +55,7 @@ This principle reduces the continuous optimization problem to selecting the opti
 ## Applications in Cislunar Space
 
 - **Minimum-fuel orbital transfer**: using the Pontryagin Maximum Principle to derive optimal low-thrust transfer trajectories in cislunar space, producing fuel-optimal delta-V trajectories
-- **Low-thrust trajectory optimization**: trajectory design for low-thrust propulsion (ion thrusters, electric propulsion) —本质上是最优控制问题，常用间接法（极大值原理）或直接法（伪谱法）求解
+- **Low-thrust trajectory optimization**: trajectory design for low-thrust propulsion (ion thrusters, electric propulsion)：本质上是最优控制问题，常用间接法（极大值原理）或直接法（伪谱法）求解
 - **Soft landing guidance**: fuel-optimal descent trajectory design for lunar/Mars landing with thrust magnitude, thrust direction, terminal altitude, and velocity constraints
 - **Attitude maneuver optimization**: multi-objective time-fuel optimization for large-angle spacecraft attitude reorientation
 

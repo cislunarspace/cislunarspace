@@ -1,4 +1,4 @@
----
+﻿---
 title: Shape-Based Method and Velocity Hodograph
 description: Shape-based methods use predefined analytical shape functions (exponential sinusoids, inverse polynomials, Fourier series, etc.) to approximate the geometry of a low-thrust trajectory, then recover the thrust profile by inverse dynamics, reducing an infinite-dimensional optimal control problem to a finite-dimensional parameter optimization. This entry covers the Petropoulos exponential sinusoid and its multi-revolution Lambert analogue (Izzo 2006), the Wall-Conway inverse polynomial, velocity-hodograph shaping, the CR3BP-modified exponential sinusoid (Vellutini & Avanzini 2014), amplitude-phase shape functions for libration-point periodic orbits, the origin of the feasibility condition |k1·k2²|<1, the cost of the tangential-thrust assumption, and the engineering role in global search and initial-guess generation.
 keywords: shape-based method, shape method, exponential sinusoid, inverse polynomial, velocity hodograph, Petropoulos, Wall-Conway, Vellutini, low-thrust trajectory design, libration point orbit
@@ -30,9 +30,9 @@ permalink: /en/glossary/dynamics/shape-based-method/
 
 ## Definition
 
-A shape-based method is an **approximate analytical design technique** for low-thrust trajectories: an analytical function with a few free parameters (the "shape function") describes the trajectory geometry — typically the polar radius $r(\theta)$ or the velocity vector $\boldsymbol{v}(t)$ — and inverse dynamics recovers the thrust acceleration $\boldsymbol{u}(t)$ and time of flight from the shape. It **does not solve the full optimal control problem**; instead it reduces an infinite-dimensional trajectory optimization to a finite-dimensional parameter optimization. It is fast and well-suited to global search, but the achievable shapes are limited by the chosen function family, so the solution is generally not truly optimal (Petropoulos & Longuski 2004; Conway 2010; Vellutini & Avanzini 2014).
+A shape-based method is an **approximate analytical design technique** for low-thrust trajectories: an analytical function with a few free parameters (the shape function) describes the trajectory geometry (typically the polar radius $r(\theta)$ or the velocity vector $\boldsymbol{v}(t)$), and inverse dynamics recovers the thrust acceleration $\boldsymbol{u}(t)$ and time of flight from the shape. It **does not solve the full optimal control problem**; instead it reduces an infinite-dimensional trajectory optimization to a finite-dimensional parameter optimization. It is fast and well-suited to global search, but the achievable shapes are limited by the chosen function family, so the solution is generally not truly optimal (Petropoulos & Longuski 2004; Conway 2010; Vellutini & Avanzini 2014).
 
-Engineering role: shape-based methods are **initial-guess generators and global pruners** — rapidly producing near-feasible transfers among many candidates, then handing them off to [direct collocation](/en/glossary/dynamics/differential-correction/), [HDDP](/en/glossary/dynamics/hddp/), or [indirect methods](/en/glossary/dynamics/indirect-methods/) for refinement.
+Engineering role: shape-based methods are **initial-guess generators and global pruners**: rapidly producing near-feasible transfers among many candidates, then handing them off to [direct collocation](/en/glossary/dynamics/differential-correction/), [HDDP](/en/glossary/dynamics/hddp/), or [indirect methods](/en/glossary/dynamics/indirect-methods/) for refinement.
 
 ## The Petropoulos Exponential Sinusoid
 
@@ -52,11 +52,11 @@ where $\tan\gamma=k_1 k_2\cos(k_2\theta+\phi)$ and $s=\sin(k_2\theta+\phi)$.
 
 **Feasibility condition $|k_1 k_2^2|<1$.** When $|k_1 k_2^2|\ge 1$, $\dot\theta^2$ becomes negative for some $\theta$ (imaginary angular rate) or $a$ diverges; the shape is unflyable. This is the most important constraint of shape-based methods.
 
-**Izzo's multi-revolution Lambert analogue (2006).** Given $r_1, r_2, \Delta\theta$ and a transfer time $t_f$, the multi-revolution Lambert problem generalizes to exponential sinusoids: with $k_2$ fixed, a one-parameter family (parameterized by initial flight-path angle $\gamma_1$) passes through both endpoints; feasibility reduces to a quadratic inequality in $\tan\gamma_1$, analytically bounding the feasible interval. This is a "low-thrust Lambert solver" for global optimization.
+**Izzo's multi-revolution Lambert analogue (2006).** Given $r_1, r_2, \Delta\theta$ and a transfer time $t_f$, the multi-revolution Lambert problem generalizes to exponential sinusoids: with $k_2$ fixed, a one-parameter family (parameterized by initial flight-path angle $\gamma_1$) passes through both endpoints; feasibility reduces to a quadratic inequality in $\tan\gamma_1$, analytically bounding the feasible interval. This is a low-thrust Lambert solver for global optimization.
 
 ## Other Shape Function Families
 
-**Inverse polynomial (Wall & Conway).** Wall and Conway (2010) proposed fifth- and sixth-order inverse polynomials $r(\theta)=1/\sum_{i} a_i\theta^i$, with more parameters and the ability to fit more general trajectories (including non-tangential thrust components), suitable for fixed-time rendezvous and interception. The price is the "curse of dimensionality" — grid search cost grows with order.
+**Inverse polynomial (Wall & Conway).** Wall and Conway (2010) proposed fifth- and sixth-order inverse polynomials $r(\theta)=1/\sum_{i} a_i\theta^i$, with more parameters and the ability to fit more general trajectories (including non-tangential thrust components), suitable for fixed-time rendezvous and interception. The price is the curse of dimensionality: grid search cost grows with order.
 
 **Velocity hodograph method.** Represent the velocity vector $\boldsymbol{v}(t)$ (rather than position) as a shape function of time or true anomaly; recover position via $\dot{\boldsymbol{r}}=\boldsymbol{v}$ and thrust via the equations of motion. The advantage is direct handling of velocity boundary conditions, useful for rendezvous with velocity matching; the method has been applied to Earth–Mars, Earth–Mercury, asteroid and comet missions.
 
@@ -74,7 +74,7 @@ where the amplitude $k_3\theta$ of the cosine term grows linearly with angular t
 
 ## Amplitude-Phase Shape Functions for Libration-Point Periodic Orbits
 
-For low-thrust transfers between libration-point periodic orbits (Halo, Lissajous), Chinese-language literature has introduced shape functions in which amplitude and phase vary polynomially, embedding the dynamics of the collinear libration neighbourhood — [center manifold](/en/glossary/dynamics/invariant-manifold/), [zero-velocity surfaces](/en/glossary/dynamics/zero-velocity-surface/) — into the parametrization. These express dynamically meaningful transfers with fewer parameters than generic shapes; the resulting initial guess is refined by [Gauss pseudospectral methods](/en/glossary/dynamics/direct-methods/) or HDDP.
+For low-thrust transfers between libration-point periodic orbits (Halo, Lissajous), Chinese-language literature has introduced shape functions in which amplitude and phase vary polynomially, embedding the dynamics of the collinear libration neighbourhood ([center manifold](/en/glossary/dynamics/invariant-manifold/), [zero-velocity surfaces](/en/glossary/dynamics/zero-velocity-surface/)) into the parametrization. These express dynamically meaningful transfers with fewer parameters than generic shapes; the resulting initial guess is refined by [Gauss pseudospectral methods](/en/glossary/dynamics/direct-methods/) or HDDP.
 
 ## Practical Notes
 

@@ -36,7 +36,7 @@ $$
 \vec r(t) = f\,\vec r_0 + g\,\vec v_0,\qquad \vec v(t) = \dot f\,\vec r_0 + \dot g\,\vec v_0.
 $$
 
-四个系数 $f, g, \dot f, \dot g$ 称为 **Lagrange 系数**（Lagrange coefficients）或 **f, g 函数**（f and g functions）。Lagrange 在 18 世纪为月球运动研究提出此形式；它把"在中心引力场中如何由一段状态推算另一段状态"——开普勒问题——线性化地表达出来，是二体传播、初轨确定与 [兰伯特问题](/glossary/fundamentals/lamberts-problem/) 求解的基础构件。
+四个系数 $f, g, \dot f, \dot g$ 称为 **Lagrange 系数**（Lagrange coefficients）或 **f, g 函数**（f and g functions）。Lagrange 在 18 世纪为月球运动研究提出此形式；它把在中心引力场中如何由一段状态推算另一段状态（开普勒问题）线性化地表达出来，是二体传播、初轨确定与 [兰伯特问题](/glossary/fundamentals/lamberts-problem/) 求解的基础构件。
 
 ## 基本恒等式
 
@@ -50,7 +50,7 @@ $$
 
 ## 按不同自变量的封闭形式
 
-Lagrange 系数的具体表达式取决于"知道什么量"——通常以某个轨道异常量之差作为自变量（Vallado 2022, §2.5）。
+Lagrange 系数的具体表达式取决于知道什么量，通常以某个轨道异常量之差作为自变量（Vallado 2022, §2.5）。
 
 ### 由真近点角差 $\Delta\nu$
 
@@ -143,7 +143,7 @@ $$
 ## 易混点
 
 - **Lagrange 系数 vs. Lagrange 行星运动方程**：前者是二体状态的线性传递关系，后者是轨道根数随时间的变分方程（用摄动加速度的 R/S/W 分量表达）。同名 Lagrange，截然不同的对象。
-- **f, g 函数 vs. 通用变量**：通用变量 $\chi$ 是自变量；f, g 是用它表达的系数对。说"用通用变量法传播"实际指"用 $\chi$ 表达的 f, g 函数传播"。
+- **f, g 函数 vs. 通用变量**：通用变量 $\chi$ 是自变量；f, g 是用它表达的系数对。所谓用通用变量法传播，实际指用 $\chi$ 表达的 f, g 函数传播。
 - **f, g 在兰伯特问题里**：兰伯特问题里 $\vec r_0, \vec r$ 已知，$\vec v_0, \vec v$ 待求；由 $\vec r=f\vec r_0+g\vec v_0$ 反解 $\vec v_0=(\vec r-f\vec r_0)/g$，再由 $\vec v=\dot f\vec r_0+\dot g\vec v_0$ 得 $\vec v$。这是 $f,g$ 在边值问题中的角色。
 
 ## 相关概念

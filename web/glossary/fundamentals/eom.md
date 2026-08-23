@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/eom/
 
 ## 定义
 
-**运动方程**（equation of motion, EOM）是描述航天器位置在指定力学模型下随时间演化的微分方程组。在圆型限制性三体问题中，运动方程写在会合（旋转）坐标系下，是三个二阶常微分方程，右端项由两个主天体的引力与旋转系带来的科氏、离心项共同构成。把任何二阶方程组改写为一阶系统，就得到**状态方程**——这是现代控制理论处理动力学问题的标准形式。
+**运动方程**（equation of motion, EOM）是描述航天器位置在指定力学模型下随时间演化的微分方程组。在圆型限制性三体问题中，运动方程写在会合（旋转）坐标系下，是三个二阶常微分方程，右端项由两个主天体的引力与旋转系带来的科氏、离心项共同构成。把任何二阶方程组改写为一阶系统，就得到**状态方程**，这是现代控制理论处理动力学问题的标准形式。
 
 ## CR3BP 运动方程
 
@@ -52,7 +52,7 @@ $$
 \ddot{x} - 2\dot{y} = \Omega_x, \qquad \ddot{y} + 2\dot{x} = \Omega_y, \qquad \ddot{z} = \Omega_z.
 $$
 
-由于时间 $t$ 不显式出现，该系统是**自治的**，并存在雅可比积分 $C = 2\Omega - (\dot x^2 + \dot y^2 + \dot z^2)$ 作为守恒量——这是零速度曲面、平动点和一切 CR3BP 任务设计的根基（Szebehely 1967, §1.6）。
+由于时间 $t$ 不显式出现，该系统是**自治的**，并存在雅可比积分 $C = 2\Omega - (\dot x^2 + \dot y^2 + \dot z^2)$ 作为守恒量，这是零速度曲面、平动点和一切 CR3BP 任务设计的根基（Szebehely 1967, §1.6）。
 
 ## 状态方程
 
@@ -68,13 +68,13 @@ $$
 \dot{\mathbf x} = \mathbf A(t)\,\mathbf x + \mathbf B(t)\,\mathbf u, \qquad \mathbf y = \mathbf C(t)\,\mathbf x.
 $$
 
-这就是**状态方程**（状态空间形式）。把动力学写成这一形式是应用最优控制、状态反馈、状态观测等方法的前提。在 CR3BP 中，当参考是周期轨道时，$\mathbf A(t)$ 随参考轨道周期变化——这就是平动点轨道相对运动 Floquet 分析所依赖的**线性周期系统**结构。
+这就是**状态方程**（状态空间形式）。把动力学写成这一形式是应用最优控制、状态反馈、状态观测等方法的前提。在 CR3BP 中，当参考是周期轨道时，$\mathbf A(t)$ 随参考轨道周期变化，这就是平动点轨道相对运动 Floquet 分析所依赖的**线性周期系统**结构。
 
 ## 自治 vs. 非自治；时变 vs. 时不变
 
 状态方程不显含 $t$ 时，系统是**自治**（时不变）的；显含 $t$ 时则是**非自治**（时变）的。CR3BP 因两主天体在会合系下固定，状态方程是自治的。双圆模型、椭圆限制性三体问题、完整历表（n 体）模型则因第三体的真实运动或行星的真实位置而引入显式时间依赖，是非自治的，丢失雅可比积分，必须改用准周期或纯数值方法（Baresi 2023）。
 
-自治系统具有时间平移不变性：$t_0$ 时刻发射的轨迹与 $t_0 + \Delta t$ 时刻发射的轨迹形状一致。非自治系统失去这种对称——发射历元本身成为变量，数值积分必须把绝对时间与状态一并推进。这一增加的复杂性并非形式上的：庞加莱截面、不变流形、雅可比约束下的穿越轨道理论等工具都依赖于自治性，在历表模型中不再直接可用。
+自治系统具有时间平移不变性：$t_0$ 时刻发射的轨迹与 $t_0 + \Delta t$ 时刻发射的轨迹形状一致。非自治系统失去这种对称：发射历元本身成为变量，数值积分必须把绝对时间与状态一并推进。这一增加的复杂性并非形式上的：庞加莱截面、不变流形、雅可比约束下的穿越轨道理论等工具都依赖于自治性，在历表模型中不再直接可用。
 
 ## 相关概念
 
@@ -88,12 +88,12 @@ $$
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits*, §§1.5–1.6——量纲与无量纲 CR3BP 运动方程、雅可比积分推导。
+- Szebehely, 1967, *Theory of Orbits*, §§1.5–1.6：量纲与无量纲 CR3BP 运动方程、雅可比积分推导。
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3——限制性三体问题与会合系方程。
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3：限制性三体问题与会合系方程。
 
-- Baresai, 2023, Transition of two-dimensional quasi-periodic invariant tori in the real-ephemeris model of the Earth–Moon system——完整历表模型中的非自治动力学。
+- Baresai, 2023, Transition of two-dimensional quasi-periodic invariant tori in the real-ephemeris model of the Earth–Moon system：完整历表模型中的非自治动力学。
 
 - Fossà 等, 2022, Two and three impulses phasing strategy with a spacecraft orbiting on an Earth–Moon NRHO.
 
-- 徐明、徐世杰, 2008, Halo 轨道维持的线性周期控制策略——状态方程与平动点轨道维持中的周期 $\mathbf A(t)$。
+- 徐明、徐世杰, 2008, Halo 轨道维持的线性周期控制策略：状态方程与平动点轨道维持中的周期 $\mathbf A(t)$。

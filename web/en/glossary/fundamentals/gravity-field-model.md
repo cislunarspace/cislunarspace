@@ -36,7 +36,7 @@ $$U(r,\phi,\lambda) = \frac{\mu}{r} \left[ 1 + \sum_{\ell=2}^{N} \sum_{m=0}^{\el
 
 where $N$ is the truncation degree and $\bar{C}_{\ell m}$, $\bar{S}_{\ell m}$ is a published set of Stokes coefficients, with $R$ being the reference radius. The coefficients are typically recovered from satellite tracking data, GNSS, satellite altimetry, lunar laser ranging, or dedicated gravity missions (GRACE, GOCE, GRAIL) (Yin et al. 2024). Once published, users simply read the coefficients to recover the corresponding gravitational acceleration in an orbit integrator.
 
-A gravity field model can be understood as the discrete, engineering-ready implementation of the mathematical concept of "gravitational potential." Multiple model versions exist for the same body, differing primarily in observational data, solution strategies, and truncation degree.
+A gravity field model can be understood as the discrete, engineering-ready implementation of the mathematical concept of gravitational potential. Multiple model versions exist for the same body, differing primarily in observational data, solution strategies, and truncation degree.
 
 ## Common Earth Gravity Field Models
 
@@ -58,7 +58,7 @@ EGM2008 is one of the most widely used static Earth gravity field models, with i
 | **LP165P** | Lunar Prospector | 165 | Lunar orbit computation |
 | **LP100K** | Lunar Prospector | 100 | Low lunar orbit segment prediction |
 
-The lunar gravity field is more irregular than Earth's: the presence of significant mascons on the lunar near side causes high-degree harmonic coefficients to decay more slowly. Degree selection for lunar models is more sensitive than for Earth — for low lunar orbits (50–100 km altitude), insufficient truncation degree will underestimate the long-term drift and decay of the orbital plane (Trofimov et al. 2020).
+The lunar gravity field is more irregular than Earth's: the presence of significant mascons on the lunar near side causes high-degree harmonic coefficients to decay more slowly. Degree selection for lunar models is more sensitive than for Earth: for low lunar orbits (50–100 km altitude), insufficient truncation degree will underestimate the long-term drift and decay of the orbital plane (Trofimov et al. 2020).
 
 ## Engineering Principles for Degree Selection
 
@@ -91,14 +91,14 @@ A higher truncation degree $N$ is not always better. Selection criteria typicall
 
 ## References
 
-- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1 — Mathematical foundation of gravity field modeling and normalization.
+- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1: Mathematical foundation of gravity field modeling and normalization.
 
-- Yin, Z., Zhang, K., Duan, Y., Liu, J., Mu, Q., 2024, Theoretical research progress of gravitational field modeling in Earth science and deep-space exploration, *Reviews of Geophysics and Planetary Physics*, 55(5): 501–512. — Systematic review of Earth and deep-space gravity field modeling theory and methods.
+- Yin, Z., Zhang, K., Duan, Y., Liu, J., Mu, Q., 2024, Theoretical research progress of gravitational field modeling in Earth science and deep-space exploration, *Reviews of Geophysics and Planetary Physics*, 55(5): 501–512. Systematic review of Earth and deep-space gravity field modeling theory and methods.
 
-- Pavlis, N. K. et al., 2012, The development and evaluation of the Earth Gravitational Model 2008 (EGM2008), *Journal of Geophysical Research: Solid Earth*, 117(B4). — Source and accuracy of EGM2008.
+- Pavlis, N. K. et al., 2012, The development and evaluation of the Earth Gravitational Model 2008 (EGM2008), *Journal of Geophysical Research: Solid Earth*, 117(B4). Source and accuracy of EGM2008.
 
-- Konopliv, A. S. et al., 2013, The JPL lunar gravity field to spherical harmonic degree 660 from the GRAIL Primary Mission, *Journal of Geophysical Research: Planets*, 118(7): 1415–1434. — Theoretical basis of GRGM660PRIM and GL0660B.
+- Konopliv, A. S. et al., 2013, The JPL lunar gravity field to spherical harmonic degree 660 from the GRAIL Primary Mission, *Journal of Geophysical Research: Planets*, 118(7): 1415–1434. Theoretical basis of GRGM660PRIM and GL0660B.
 
-- Trofimov, S. et al., 2020, Transfers from NRHOs to low-perilune orbits, *Acta Astronautica*, 167: 260–271. — Impact of irregular lunar gravity on low-perilune orbits.
+- Trofimov, S. et al., 2020, Transfers from NRHOs to low-perilune orbits, *Acta Astronautica*, 167: 260–271. Impact of irregular lunar gravity on low-perilune orbits.
 
-- Zuber, M. T. et al., 2013, Gravity field of the Moon from the Gravity Recovery and Interior Laboratory (GRAIL) mission, *Science*, 339(6120): 668–671. — GRAIL mission and lunar gravity field models.
+- Zuber, M. T. et al., 2013, Gravity field of the Moon from the Gravity Recovery and Interior Laboratory (GRAIL) mission, *Science*, 339(6120): 668–671. GRAIL mission and lunar gravity field models.

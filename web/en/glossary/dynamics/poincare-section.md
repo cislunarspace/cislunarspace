@@ -1,4 +1,4 @@
----
+﻿---
 title: Poincaré Section (Surface of Section)
 description: A lower-dimensional submanifold Σ in phase space used to reduce a continuous flow to a discrete point sequence; when combined with an energy integral (Jacobi constant in CR3BP) it lowers the effective dimension by two. Covers configuration hyperplanes (y=0, x=1−μ), event-defined sections (periapse ρ̇=0, ρ̈>0), pseudo-arclength hyperplanes, and their use in libration-point orbit family identification and transfer seeding.
 keywords: Poincaré Section, Surface of Section, SOS, phase space reduction, Jacobi constant, periapse section, libration point orbit, invariant manifold, cislunar space
@@ -30,9 +30,9 @@ permalink: /en/glossary/dynamics/poincare-section/
 
 ## Definition
 
-A **Poincaré section** (also: *surface of section*, SOS) is a lower-dimensional submanifold $\Sigma$ of phase space used to reduce a continuous flow to a discrete sequence of points. Classical definition: for an autonomous flow $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x})$, $\mathbf{x}\in\mathbb{R}^N$, choose an $(N-1)$-dimensional hypersurface $\Sigma$ and record every crossing of $\Sigma$ in a fixed direction ("one-sided section"); the set of crossings is the Poincaré section plot. When the system has an energy integral (e.g. the Jacobi constant $C$ in CR3BP), the flow is confined to an energy surface, and combining that with the section reduces dimension by two — the planar CR3BP collapses to a 2D map, the spatial problem to a 4D map (Poincaré 1892; Hénon 1969; Haapala & Howell 2014).
+A **Poincaré section** (also: *surface of section*, SOS) is a lower-dimensional submanifold $\Sigma$ of phase space used to reduce a continuous flow to a discrete sequence of points. Classical definition: for an autonomous flow $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x})$, $\mathbf{x}\in\mathbb{R}^N$, choose an $(N-1)$-dimensional hypersurface $\Sigma$ and record every crossing of $\Sigma$ in a fixed direction (one-sided section); the set of crossings is the Poincaré section plot. When the system has an energy integral (e.g. the Jacobi constant $C$ in CR3BP), the flow is confined to an energy surface, and combining that with the section reduces dimension by two: the planar CR3BP collapses to a 2D map, the spatial problem to a 4D map (Poincaré 1892; Hénon 1969; Haapala & Howell 2014).
 
-The section is only the "cut"; the first-return map $P:\Sigma\to\Sigma$ induced on it is the [Poincaré map](/en/glossary/dynamics/poincare-map/). The two are sometimes conflated in the literature, but separating the section (a geometric object) from the map (a discrete dynamical system) keeps the concepts clear.
+The section is only the cut; the first-return map $P:\Sigma\to\Sigma$ induced on it is the [Poincaré map](/en/glossary/dynamics/poincare-map/). The two are sometimes conflated in the literature, but separating the section (a geometric object) from the map (a discrete dynamical system) keeps the concepts clear.
 
 ## Three families of section construction
 
@@ -44,7 +44,7 @@ The most common choice: $\Sigma$ is the plane on which one coordinate equals a c
 
 - **$x=1-\mu$ section** (the $x$ location of $P_2$): the de facto standard for $L_1$/$L_2$ manifold patching and near-libration-point transfers in the Earth–Moon and Sun–Earth systems (Gómez et al. 2001; Haapala & Howell 2014). Allows 2D or 4D plots of $(y,z)$-related variables.
 
-- **$x=x_{L_i}$ section**: taken at a libration point to study transit/non-transit trajectories through the "gateways" (Koon et al. 2000).
+- **$x=x_{L_i}$ section**: taken at a libration point to study transit/non-transit trajectories through the gateways (Koon et al. 2000).
 
 ### 2. Event-defined sections
 
@@ -76,7 +76,7 @@ Crossings are usually recorded in a fixed direction (e.g. $\dot{x}>0$), giving a
 
 - **Grid scan**: seed a uniform grid on $\Sigma$, integrate each point, and classify by crossing behavior; a standard method for systematic identification of ballistic capture solutions and transfer seeds.
 
-- **Energy stacking**: overlay contours of varying Jacobi constant on a single section (e.g. $\theta_3=\pi/2$) to compose a "map" of all orbit families on one figure (Qiao et al. 2025).
+- **Energy stacking**: overlay contours of varying Jacobi constant on a single section (e.g. $\theta_3=\pi/2$) to compose a map of all orbit families on one figure (Qiao et al. 2025).
 
 ## Applications
 
@@ -86,7 +86,7 @@ Crossings are usually recorded in a fixed direction (e.g. $\dot{x}>0$), giving a
 
 - **Capture and escape analysis**: on a periapse section, the boundary between transit and non-transit points is carved out by the invariant manifold tubes asymptotic to Lyapunov orbits (Conley 1968; Koon et al. 2000).
 
-- **Orbit identification and cataloguing**: projecting an observed state onto a section "map" identifies the orbit family of an unknown spacecraft, like looking up a dictionary (Qiao et al. 2025).
+- **Orbit identification and cataloguing**: projecting an observed state onto a section map identifies the orbit family of an unknown spacecraft, like looking up a dictionary (Qiao et al. 2025).
 
 ## Related concepts
 
@@ -116,7 +116,7 @@ Crossings are usually recorded in a fixed direction (e.g. $\dot{x}>0$), giving a
 
 - Paskowitz M E, Scheeres D J. Geometry of quasiperiodic orbits in the Hill problem. *Celestial Mechanics and Dynamical Astronomy*, 2006.
 
-- Gómez G, Llibre J, Martínez R, Simó C. *Dynamics and Mission Design near Libration Points — Vol. II*. World Scientific, 2001.
+- Gómez G, Llibre J, Martínez R, Simó C. *Dynamics and Mission Design near Libration Points. Vol. II*. World Scientific, 2001.
 
 - Haapala A F, Howell K C. Representations of higher-dimensional Poincaré maps with applications to spacecraft trajectory design. *Acta Astronautica*, 2014, 96: 23–46.
 

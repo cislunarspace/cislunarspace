@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 ## 定义
 
-三体 Lambert 问题（Three-Body Lambert Problem，3BLP；亦记 L3BP——Lambert Three-Body Problem；在 CR3BP 模型下又称 CR3BP Lambert 问题）是 [Lambert 问题](/glossary/fundamentals/lamberts-problem/) 在三体动力学框架下的推广：在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 模型下，给定起点 $\vec r_1$（时刻 $t_1$）、终点 $\vec r_2$（时刻 $t_2$）、飞行时间 $\Delta t=t_2-t_1$，求连接两端的轨道及两端的速度（孙俞 等 2017）。
+三体 Lambert 问题（Three-Body Lambert Problem，3BLP；亦记 L3BP，即 Lambert Three-Body Problem；在 CR3BP 模型下又称 CR3BP Lambert 问题）是 [Lambert 问题](/glossary/fundamentals/lamberts-problem/) 在三体动力学框架下的推广：在 [圆型限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) 模型下，给定起点 $\vec r_1$（时刻 $t_1$）、终点 $\vec r_2$（时刻 $t_2$）、飞行时间 $\Delta t=t_2-t_1$，求连接两端的轨道及两端的速度（孙俞 等 2017）。
 
 由于 CR3BP 运动方程不可积、对初值高度敏感，三体 Lambert 问题**不存在解析解**，只能数值求解；初值估计是核心难点，简单的 Newton-Raphson 打靶对长时间转移几乎不收敛。
 
@@ -71,7 +71,7 @@ permalink: /glossary/dynamics/three-body-lambert-problem/
 
 ## 应用要点
 
-- **平动点交会对接**：同一 Halo 轨道不同相位两航天器间的转移、不同振幅 Halo 间的转移——是地月 $L_2$ 空间站建设的基础工具（孙俞 等 2017）。
+- **平动点交会对接**：同一 Halo 轨道不同相位两航天器间的转移、不同振幅 Halo 间的转移，是地月 $L_2$ 空间站建设的基础工具（孙俞 等 2017）。
 
 - **低能地月转移**：配合日地摄动设计 WSB、流形拼接转移。
 

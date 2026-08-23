@@ -16,13 +16,13 @@ Direct collocation (also called direct transcription) converts a continuous opti
 
 ## Why Direct Collocation?
 
-- **No adjoint derivation required.** Unlike [indirect methods](/en/glossary/dynamics/indirect-methods/), direct methods do not need the costate equations, transversality conditions, or the maximum principle—the user provides only the dynamics, constraints, and objective.
+- **No adjoint derivation required.** Unlike [indirect methods](/en/glossary/dynamics/indirect-methods/), direct methods do not need the costate equations, transversality conditions, or the maximum principle; the user provides only the dynamics, constraints, and objective.
 
 - **No a priori arc-sequence specification.** Path inequality constraints are handled by the NLP active-set strategy; the user need not guess which subarcs are constrained vs. unconstrained.
 
 - **Sparse NLP structure.** The defect constraints couple only adjacent mesh points, producing sparse Jacobian and Hessian matrices that sparse NLP solvers exploit.
 
-The main drawback: the NLP can be large—a problem with 7 states, 2 controls, 100 mesh points per phase, and 5 phases yields $n \approx 4500$ NLP variables (Betts 1998). Efficient exploitation of sparsity is essential.
+The main drawback: the NLP can be large: a problem with 7 states, 2 controls, 100 mesh points per phase, and 5 phases yields $n \approx 4500$ NLP variables (Betts 1998). Efficient exploitation of sparsity is essential.
 
 ## Hermite-Simpson Defect
 
@@ -44,7 +44,7 @@ where $\bar{\mathbf{f}}_{j+\frac12} = \mathbf{f}(\bar{\mathbf{y}}_{j+\frac12}, \
 
 The continuous control function $\mathbf{u}(t)$ must be represented using a finite set of parameters. Common choices, from simplest to most flexible:
 
-- **Linear interpolation parameterization:** control values are specified at mesh points and linearly interpolated between them. This is the simplest scheme and corresponds to piecewise-linear control—sufficient for many low-thrust transfer problems (Kluever 1997).
+- **Linear interpolation parameterization:** control values are specified at mesh points and linearly interpolated between them. This is the simplest scheme and corresponds to piecewise-linear control, sufficient for many low-thrust transfer problems (Kluever 1997).
 
 - **Piecewise polynomial control:** the control is represented as a polynomial on each mesh interval, with the polynomial coefficients as NLP variables. Higher-degree polynomials allow smoother control profiles and fewer mesh intervals for the same accuracy. This is a direct generalization of linear interpolation.
 
@@ -52,13 +52,13 @@ The continuous control function $\mathbf{u}(t)$ must be represented using a fini
 
 ## Differential-Algebraic Equations (DAE) in Optimal Control
 
-The optimal control necessary conditions themselves form a DAE system: the state equations $\dot{\mathbf{y}} = \mathbf{f}$ (differential), the optimality condition $\mathbf{H}_{\mathbf{u}}^{\top} = 0$ (algebraic), and the costate equations. The **index** of a DAE measures how many differentiations are needed to convert the algebraic equations to explicit ODEs (Betts 1998, Sec. V.A). Index-1 DAEs (where $\partial\mathbf{g}/\partial\mathbf{u}$ is full rank, with $\mathbf{g}$ being path constraints) can be solved by standard methods like DASSL (Petzold). Higher-index DAEs (index $\ge 2$) require index reduction—differentiating the algebraic constraints—which introduces numerical drift; specialized collocation schemes are needed.
+The optimal control necessary conditions themselves form a DAE system: the state equations $\dot{\mathbf{y}} = \mathbf{f}$ (differential), the optimality condition $\mathbf{H}_{\mathbf{u}}^{\top} = 0$ (algebraic), and the costate equations. The **index** of a DAE measures how many differentiations are needed to convert the algebraic equations to explicit ODEs (Betts 1998, Sec. V.A). Index-1 DAEs (where $\partial\mathbf{g}/\partial\mathbf{u}$ is full rank, with $\mathbf{g}$ being path constraints) can be solved by standard methods like DASSL (Petzold). Higher-index DAEs (index $\ge 2$) require index reduction (differentiating the algebraic constraints), which introduces numerical drift; specialized collocation schemes are needed.
 
 In direct transcription, the NLP is itself a large system of algebraic constraints (the defect constraints), and the implicit function theorem ensures that, for index-1 formulations, the NLP is well-posed if the mesh is sufficiently fine.
 
 ## Automatic Differentiation (AD) in Direct Collocation
 
-The NLP solver requires first derivatives (the Jacobian $\mathbf{G}$) and preferably second derivatives (the Hessian $\mathbf{H}_L$) of the constraints and objective. Computing these by hand is exhaustive; finite differences introduce truncation error and scale poorly. **Automatic differentiation (AD)** operates on the source code of the dynamics $\mathbf{f}$ and constraints $\mathbf{g}$, propagating derivatives through elementary operations via the chain rule—yielding machine-precision gradients and Hessians with no truncation error (Betts 1998, Sec. VI.F.2).
+The NLP solver requires first derivatives (the Jacobian $\mathbf{G}$) and preferably second derivatives (the Hessian $\mathbf{H}_L$) of the constraints and objective. Computing these by hand is exhaustive; finite differences introduce truncation error and scale poorly. **Automatic differentiation (AD)** operates on the source code of the dynamics $\mathbf{f}$ and constraints $\mathbf{g}$, propagating derivatives through elementary operations via the chain rule, yielding machine-precision gradients and Hessians with no truncation error (Betts 1998, Sec. VI.F.2).
 
 Early trajectory optimization tools relied on sparse finite differencing. The ADIFOR software (Bischof et al.) and more recent frameworks (CasADi, algorithmic differentiation in C++) now make AD the preferred approach, especially when the DAE right-hand-side matrices $\mathbf{f}_{\mathbf{y}}$, $\mathbf{f}_{\mathbf{u}}$ are sparse.
 

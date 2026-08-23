@@ -38,7 +38,7 @@ permalink: /glossary/dynamics/scp/
 - 用户提供初值不影响内点法启动（self-dual embedding 自动构造可行起点）；
 - 全局最优性在子问题级别可保证（虽然原非凸问题仍是局部最优）。
 
-这些性质使 SCP 适合**实时/on-board** 应用——这是它与一般 NLP 直接法的核心区别（Acikmese & Ploen 2007）。
+这些性质使 SCP 适合**实时/on-board** 应用，这是它与一般 NLP 直接法的核心区别（Acikmese & Ploen 2007）。
 
 ## 数学形式
 
@@ -56,9 +56,9 @@ $$A(t)=\frac{\partial\mathbf{f}}{\partial\mathbf{x}}\bigg|_{\mathbf{x}^{(n-1)}},
 
 ### 无损凸化（lossless convexification）
 
-很多航天问题的非凸性来自控制约束，而非动力学。典型例子是动力下降的推力幅值约束 $\rho_2\leq\|\mathbf{T}_c\|\leq\rho_1$——下界非零导致可行集是「环」，非凸。引入松弛变量 $\Gamma\geq\|\mathbf{T}_c\|$，把控制约束改为凸锥 $\|\mathbf{T}_c\|\leq\Gamma,\ \rho_2\leq\Gamma\leq\rho_1$，构造**松弛问题**。
+很多航天问题的非凸性来自控制约束，而非动力学。典型例子是动力下降的推力幅值约束 $\rho_2\leq\|\mathbf{T}_c\|\leq\rho_1$：下界非零导致可行集是「环」，非凸。引入松弛变量 $\Gamma\geq\|\mathbf{T}_c\|$，把控制约束改为凸锥 $\|\mathbf{T}_c\|\leq\Gamma,\ \rho_2\leq\Gamma\leq\rho_1$，构造**松弛问题**。
 
-Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛问题的最优解必然落在原始非凸可行集上——因此**松弛不损失最优性**（lossless）。这一结果后来推广到一般控制仿射问题（Wang & Grant 2018）。
+Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛问题的最优解必然落在原始非凸可行集上，因此**松弛不损失最优性**（lossless）。这一结果后来推广到一般控制仿射问题（Wang & Grant 2018）。
 
 ### 虚拟控制（virtual control）
 
@@ -76,7 +76,7 @@ Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛�
 - **GUSTO**（Mao, Szmuk, Acikmese）：基于成功步/失败步的两阶段策略，工程实现友好。
 - **ECIPS / cvxgen**：嵌入式代码生成，用于星载实时求解。
 - **PC-SCoP**（相位约束序列锥规划）：多相问题扩展，在相间事件处施加线性化约束。
-- **逐次凸优化 + 切换时刻提取**（Hofmann-Topputo 2021）：用 FRPM 离散化，配合 bang-off-bang 控制的网加密——可精确捕捉低推力燃料最优的开关结构。
+- **逐次凸优化 + 切换时刻提取**（Hofmann-Topputo 2021）：用 FRPM 离散化，配合 bang-off-bang 控制的网加密，可精确捕捉低推力燃料最优的开关结构。
 
 ## 与直接配点 / 伪谱法的对比
 
@@ -91,7 +91,7 @@ Acikmese & Ploen（2007）的关键 Lemma 证明：在一定条件下，松弛�
 
 ## 应用要点
 
-- **动力下降制导**：火星/月球定点着陆是 SCP 的「杀手锏」应用——Acikmese & Ploen 的 lossless convexification 是为该问题量身定做，已用于 SpaceX Starship 的 on-board 实时规划（Acikmese & Ploen 2007；Song et al. 2021）。
+- **动力下降制导**：火星/月球定点着陆是 SCP 的「杀手锏」应用：Acikmese & Ploen 的 lossless convexification 是为该问题量身定做，已用于 SpaceX Starship 的 on-board 实时规划（Acikmese & Ploen 2007；Song et al. 2021）。
 - **低推力转移**：日地/地月低推力多圈燃料最优转移，Wang & Grant 首次把 SCP 用于该类问题；Hofmann-Topputo 推广到行星际、配合 hp-Radau + bang-off-bang 加密（Wang & Grant 2018；Hofmann & Topputo 2021）。
 - **地月平动点转移**：Halo↔NRHO 等高非线性区域，Kayama 等（2022）证明 SCP 在 CR3BP 邻域仍可收敛，但需「推力延续法」（从大加速度逐步降至任务推力）才能在低加速度下不出发散。
 - **碰撞规避与交会**：近场 RPO、被动安全交会，用 SCP 求解带凸化保持约束的转移（Elango et al. 2025）。

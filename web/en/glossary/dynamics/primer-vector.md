@@ -1,4 +1,4 @@
----
+﻿---
 title: Primer Vector
 description: The primer vector p(t)=-λ_v(t) introduced by Lawden (1963), the unifying adjoint quantity for first-order necessary conditions of both continuous-thrust and impulsive optimal transfers. Covers the primer vector equation, the Lawden-Lion-Handelsman impulsive necessary conditions, the adjoint-control transformation, switching-function-based throttle, and cislunar application notes.
 keywords: primer vector, Lawden, costate velocity, switching function, optimal thrust direction, impulsive transfer optimality, Lion-Handelsman, Jezewski-Rozendaal, indirect method
@@ -36,7 +36,7 @@ $$
 \mathbf{p}(t)\equiv-\boldsymbol{\lambda}_v(t).
 $$
 
-It is the central adjoint quantity produced by [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) for optimal spacecraft control: it fixes the optimal thrust direction and throttle-switching instants in the continuous-thrust case, and the impulse times, directions, and the question of whether to add further impulses in the impulsive case. Lawden explained the name in a 1990 letter to Prussing: he served in the artillery during World War II, where a primer charge initiates the burning of cordite; analogously, "$p=1$" is the signal for the rocket motor to ignite (Prussing 2010).
+It is the central adjoint quantity produced by [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) for optimal spacecraft control: it fixes the optimal thrust direction and throttle-switching instants in the continuous-thrust case, and the impulse times, directions, and the question of whether to add further impulses in the impulsive case. Lawden explained the name in a 1990 letter to Prussing: he served in the artillery during World War II, where a primer charge initiates the burning of cordite; analogously, $p=1$ is the signal for the rocket motor to ignite (Prussing 2010).
 
 ## Derivation: from the Minimum Principle to the primer vector
 
@@ -64,7 +64,7 @@ $$
 \Phi(t)=-T_{\max}\!\left(\frac{\|\mathbf{p}\|}{m}+\frac{\lambda_m}{c}\right).
 $$
 
-The Minimum Principle then gives $u^{*}=0$ when $\Phi>0$ (coast) and $u^{*}=1$ when $\Phi<0$ (full thrust) — the structure underlying [Bang-bang control](/en/glossary/dynamics/bang-bang-control/).
+The Minimum Principle then gives $u^{*}=0$ when $\Phi>0$ (coast) and $u^{*}=1$ when $\Phi<0$ (full thrust), the structure underlying [Bang-bang control](/en/glossary/dynamics/bang-bang-control/).
 
 ## The primer vector equation
 
@@ -102,8 +102,8 @@ For linear systems these conditions are also sufficient and bound the number of 
 
 In practice, given a fixed transfer time and boundary conditions, one usually starts from a non-optimal $N$-impulse solution (e.g., a two-impulse Lambert solution). Lion and Handelsman (1968) derived the cost gradients with respect to three corrective operations:
 
-- **Terminal coast**: shifting the first/last impulse time — gradient $\partial J/\partial t_i=\pm\|\dot{\mathbf{p}}(t_i)\|$;
-- **Midcourse impulse**: adding an impulse on a sub-arc where $\|\mathbf{p}\|>1$ — gradient $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$;
+- **Terminal coast**: shifting the first/last impulse time: gradient $\partial J/\partial t_i=\pm\|\dot{\mathbf{p}}(t_i)\|$;
+- **Midcourse impulse**: adding an impulse on a sub-arc where $\|\mathbf{p}\|>1$: gradient $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$;
 - **Impulse time iteration**: nudging impulse times by the residual of $\dot{\mathbf{p}}$.
 
 Jezewski and Rozendaal (1968) embedded these gradients in a nonlinear-programming framework (see [Indirect Methods](/en/glossary/dynamics/indirect-methods/)), yielding an algorithm that automatically decides when to add impulses and when to introduce coasts. It remains the standard tool for verifying and improving impulsive-transfer optimality.
@@ -121,14 +121,14 @@ Because $u^{*}=\mathrm{sign}(-\Phi)$ with $\Phi$ expressible through $\mathbf{p}
 
 ## Related concepts
 
-- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/) — the throttle structure derived from primer vector magnitude via the switching function
-- [Co-state Variables](/en/glossary/dynamics/co-state-variables/) — the costate origin of the primer vector
-- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) — the mathematical foundation
-- [Homotopy Method](/en/glossary/dynamics/homotopy-method/) — the numerical workhorse for the primer vector BVP
-- [Fuel-optimal Control](/en/glossary/dynamics/fuel-optimal/) — the dominant cost type for which the primer vector is applied
-- [Adjoint-Control Transformation](/en/glossary/dynamics/adjoint-control-transformation/) — replacing the full costate by $(\mathbf{p},\lambda_m)$
-- [Indirect Methods](/en/glossary/dynamics/indirect-methods/) — the multiple-shooting NLP framework implementing Lion-Handelsman gradients
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/) — the dynamical setting for cislunar primer vector applications
+- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/): the throttle structure derived from primer vector magnitude via the switching function
+- [Co-state Variables](/en/glossary/dynamics/co-state-variables/): the costate origin of the primer vector
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/): the mathematical foundation
+- [Homotopy Method](/en/glossary/dynamics/homotopy-method/): the numerical workhorse for the primer vector BVP
+- [Fuel-optimal Control](/en/glossary/dynamics/fuel-optimal/): the dominant cost type for which the primer vector is applied
+- [Adjoint-Control Transformation](/en/glossary/dynamics/adjoint-control-transformation/): replacing the full costate by $(\mathbf{p},\lambda_m)$
+- [Indirect Methods](/en/glossary/dynamics/indirect-methods/): the multiple-shooting NLP framework implementing Lion-Handelsman gradients
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/): the dynamical setting for cislunar primer vector applications
 
 ## References
 

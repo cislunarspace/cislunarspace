@@ -30,9 +30,9 @@ permalink: /en/glossary/fundamentals/osculating-orbital-elements/
 
 ## Definition
 
-Osculating orbital elements are the instantaneous Keplerian orbit elements corresponding to every moment along a perturbed trajectory. The word "osculate" comes from the Latin *osculari* (to kiss), referring to the fact that the instantaneous Keplerian ellipse "kisses" (is tangent to) the actual perturbed trajectory at the current position (Vallado 2022). More precisely: if at time $t$ all perturbing forces were suddenly removed, the spacecraft would thereafter follow a Keplerian ellipse determined by its current position $\vec{r}$ and velocity $\vec{v}$ — this ellipse is the osculating ellipse at that instant, and its six orbital elements are the osculating elements.
+Osculating orbital elements are the instantaneous Keplerian orbit elements corresponding to every moment along a perturbed trajectory. The word osculate comes from the Latin *osculari* (to kiss), referring to the fact that the instantaneous Keplerian ellipse kisses (is tangent to) the actual perturbed trajectory at the current position (Vallado 2022). More precisely: if at time $t$ all perturbing forces were suddenly removed, the spacecraft would thereafter follow a Keplerian ellipse determined by its current position $\vec{r}$ and velocity $\vec{v}$: this ellipse is the osculating ellipse at that instant, and its six orbital elements are the osculating elements.
 
-Osculating elements are time-varying: they contain all three types of perturbation effects — secular, long-periodic, and short-periodic — and therefore represent the high-precision instantaneous trajectory. They are used for real-time pointing, tracking, and orbit determination operations (Vallado 2022).
+Osculating elements are time-varying: they contain all three types of perturbation effects (secular, long-periodic, and short-periodic) and therefore represent the high-precision instantaneous trajectory. They are used for real-time pointing, tracking, and orbit determination operations (Vallado 2022).
 
 ## Mathematical Formulation
 
@@ -75,7 +75,7 @@ where $\dot{c}_1$ is the secular coefficient, and the remaining terms represent 
 
 - **Lunar parking orbit design**: The drift of osculating elements in lunar orbit is driven jointly by lunar non-spherical gravity ($J_2, J_3, \dots$) and Earth's third-body perturbation; the drift behavior directly informs parking orbit design constraints (Chen et al. 2023).
 
-- **Orbit determination**: What a least-squares or filtering process recovers from measurements is a set of osculating elements at a specific epoch — not mean elements.
+- **Orbit determination**: What a least-squares or filtering process recovers from measurements is a set of osculating elements at a specific epoch, not mean elements.
 
 ## Related Concepts
 

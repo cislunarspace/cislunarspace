@@ -12,7 +12,7 @@ description: A class of trajectory design techniques that parameterize the geome
 
 ## Definition
 
-A shape-based method prescribes the geometry of a low-thrust trajectory—typically the radial distance $r(t)$ or the polar angle $\theta(t)$ as a function of time—using a parametric analytical function. From the prescribed shape and the equations of motion, the required thrust acceleration profile $\mathbf{a}_T(t)$ is solved analytically. This bypasses the full optimal control problem and provides a fast, approximate trajectory that can serve as an initial guess for a higher-fidelity numerical optimization (direct collocation or indirect shooting) (Petropoulos and Longuski 2004).
+A shape-based method prescribes the geometry of a low-thrust trajectory (typically the radial distance $r(t)$ or the polar angle $\theta(t)$ as a function of time), using a parametric analytical function. From the prescribed shape and the equations of motion, the required thrust acceleration profile $\mathbf{a}_T(t)$ is solved analytically. This bypasses the full optimal control problem and provides a fast, approximate trajectory that can serve as an initial guess for a higher-fidelity numerical optimization (direct collocation or indirect shooting) (Petropoulos and Longuski 2004).
 
 Shape-based methods are especially useful in the **initial design phase** of low-thrust missions, where the design space is large and good initial guesses for NLP solvers are hard to come by.
 
@@ -24,9 +24,9 @@ $$
 r(\theta) = \frac{1}{a_0 + a_1\theta + a_2\theta^2 + \dots + a_n\theta^n}
 $$
 
-where $\theta$ is the polar angle (often the true anomaly or a generalized angular coordinate). The coefficients $a_i$ are design variables chosen to satisfy boundary conditions—initial and final positions and velocities—while keeping the thrust magnitude within admissible limits.
+where $\theta$ is the polar angle (often the true anomaly or a generalized angular coordinate). The coefficients $a_i$ are design variables chosen to satisfy boundary conditions (initial and final positions and velocities) while keeping the thrust magnitude within admissible limits.
 
-The term "inverse" reflects the representation $r = 1/P(\theta)$ rather than $r = P(\theta)$, which has advantages for representing trajectories with large radial excursions (since $r \to \infty$ corresponds to $P(\theta) \to 0$, a well-behaved limit).
+The term inverse reflects the representation $r = 1/P(\theta)$ rather than $r = P(\theta)$, which has advantages for representing trajectories with large radial excursions (since $r \to \infty$ corresponds to $P(\theta) \to 0$, a well-behaved limit).
 
 The thrust profile is derived by substituting the shape into the polar equations of motion:
 

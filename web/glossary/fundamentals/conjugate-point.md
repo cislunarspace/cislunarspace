@@ -51,11 +51,11 @@ $$\dot{\mathbf{z}}=A(t)\mathbf{z},\quad A(t)=\frac{\partial \mathbf{F}}{\partial
 
 $$\frac{\partial^2 H}{\partial \mathbf{u}^2}\succeq 0$$
 
-（对极小化问题）。**强化 Legendre-Clebsch 条件**（强 Legendre 条件）要求严格正定 $\partial^2 H/\partial\mathbf{u}^2\succ 0$，配合无共轭点即可保证局部最优，并保证极值曲线可嵌入极值曲线场（Kluever & Pierson 1995；Caillau et al. 2012）。它也用来确定推力方向余弦等量的符号。原始 $L^1$ 最小燃料问题不满足强化条件，对数障碍同伦法恢复了该条件——这是间接低推力优化采用光滑化技术的根据之一。
+（对极小化问题）。**强化 Legendre-Clebsch 条件**（强 Legendre 条件）要求严格正定 $\partial^2 H/\partial\mathbf{u}^2\succ 0$，配合无共轭点即可保证局部最优，并保证极值曲线可嵌入极值曲线场（Kluever & Pierson 1995；Caillau et al. 2012）。它也用来确定推力方向余弦等量的符号。原始 $L^1$ 最小燃料问题不满足强化条件，对数障碍同伦法恢复了该条件，这是间接低推力优化采用光滑化技术的根据之一。
 
 ## 几何最优控制视角
 
-**几何最优控制**把最优控制问题视为状态流形上的几何对象：极值曲线、极值流、共轭轨迹（conjugate locus）、切割轨迹（cut locus）。微分几何工具——分布、向量场的 Lie 括号、次黎曼结构——给出超越逐点 PMP 的全局结构结论。对带推力方向约束的 CR3BP 问题，控制分布的秩小于状态维数，与黎曼度量一起定义**次黎曼结构**，正规/异常的区分转化为关于分布可达性的 Chow 定理问题（Caillau & Daoud 2012）。
+**几何最优控制**把最优控制问题视为状态流形上的几何对象：极值曲线、极值流、共轭轨迹（conjugate locus）、切割轨迹（cut locus）。微分几何工具（分布、向量场的 Lie 括号、次黎曼结构）给出超越逐点 PMP 的全局结构结论。对带推力方向约束的 CR3BP 问题，控制分布的秩小于状态维数，与黎曼度量一起定义**次黎曼结构**，正规/异常的区分转化为关于分布可达性的 Chow 定理问题（Caillau & Daoud 2012）。
 
 ## 共轭点映射与应用
 

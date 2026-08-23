@@ -52,7 +52,7 @@ The eigenvectors $v_s$ and $v_u$ associated with $\lambda_s$ and $\lambda_u$ giv
 
 $$x(0)=x_p(\tau)\pm\varepsilon\,\Phi(\tau,0)v_{s/u},\quad 0<\varepsilon\ll1,$$
 
-where the stable direction is integrated forward and the unstable direction backward to obtain the stable manifold, and vice versa for the unstable manifold. The “$\pm$” sign produces the two **branches** of the same manifold, which often extend into different regions of configuration space.
+where the stable direction is integrated forward and the unstable direction backward to obtain the stable manifold, and vice versa for the unstable manifold. The $\pm$ sign produces the two **branches** of the same manifold, which often extend into different regions of configuration space.
 
 ## Manifold Tubes, Branches, and Direction Conventions
 
@@ -87,7 +87,7 @@ A **piercing point** is the intersection of a manifold with a reference plane; i
 
 ## Earth–Moon / Sun–Earth Manifolds and Cross-System Splicing
 
-Libration-point orbits in the Earth–Moon and Sun–Earth systems each possess invariant manifolds. When the position projections of the two manifold tubes overlap on a common reference plane (a Poincaré section), a small maneuver at the overlap region can splice the two systems, enabling low-energy Sun–Earth $L_2$ ↔ Earth–Moon $L_1/L_2$ transfers (Howell & Kakoi 2006). This overlap is the geometric basis of the “interplanetary superhighway” in the Earth neighborhood.
+Libration-point orbits in the Earth–Moon and Sun–Earth systems each possess invariant manifolds. When the position projections of the two manifold tubes overlap on a common reference plane (a Poincaré section), a small maneuver at the overlap region can splice the two systems, enabling low-energy Sun–Earth $L_2$ ↔ Earth–Moon $L_1/L_2$ transfers (Howell & Kakoi 2006). This overlap is the geometric basis of the interplanetary superhighway in the Earth neighborhood.
 
 ## Application Highlights
 

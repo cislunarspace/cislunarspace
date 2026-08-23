@@ -98,12 +98,12 @@ $$\text{tr}(\mathbf{G}) = G_{xx} + G_{yy} + G_{zz} = 0$$
 
 ## 参考文献
 
-- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1, Eq. 8-24~8-27 — 球谐引力位的梯度与 Hessian 计算。
+- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1, Eq. 8-24~8-27：球谐引力位的梯度与 Hessian 计算。
 
-- Prussing, J. E. & Conway, B. A., 1993, *Orbital Mechanics*, Oxford University Press. Ch. 2 — 重力梯度矩阵在状态转移与初值向量方程中的应用。
+- Prussing, J. E. & Conway, B. A., 1993, *Orbital Mechanics*, Oxford University Press. Ch. 2：重力梯度矩阵在状态转移与初值向量方程中的应用。
 
-- Prussing, J. E., 2010, Primer vector theory and applications, *Advances in the Astronautical Sciences*, 136: 829–852. — 初值向量方程中的重力梯度项。
+- Prussing, J. E., 2010, Primer vector theory and applications, *Advances in the Astronautical Sciences*, 136: 829–852. 初值向量方程中的重力梯度项。
 
-- Canuto, E., 2018, *Spacecraft Dynamics and Control*, Cambridge University Press. Sec. 4.2.6 — 重力梯度矩阵与重力梯度力矩。
+- Canuto, E., 2018, *Spacecraft Dynamics and Control*, Cambridge University Press. Sec. 4.2.6：重力梯度矩阵与重力梯度力矩。
 
-- Battin, R. H., 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, AIAA. Ch. 10 — 状态转移矩阵的线性化推导。
+- Battin, R. H., 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, AIAA. Ch. 10：状态转移矩阵的线性化推导。

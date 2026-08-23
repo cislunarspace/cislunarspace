@@ -34,11 +34,11 @@ An **invariant torus** is a closed higher-dimensional surface in phase space spa
 
 ## Two-Dimensional Invariant Tori and Lissajous / Halo Orbits
 
-The two center frequencies in the center manifold of a collinear libration point can be parameterized by action-angle variables. For given amplitudes, an irrational frequency ratio yields a 2-D invariant torus. When one amplitude vanishes, the torus degenerates to a planar Lyapunov orbit; when the frequencies satisfy a resonance relation, periodic solutions such as halo orbits can bifurcate. Thus periodic orbits can be viewed as resonant “slices” or bifurcation products of invariant torus families.
+The two center frequencies in the center manifold of a collinear libration point can be parameterized by action-angle variables. For given amplitudes, an irrational frequency ratio yields a 2-D invariant torus. When one amplitude vanishes, the torus degenerates to a planar Lyapunov orbit; when the frequencies satisfy a resonance relation, periodic solutions such as halo orbits can bifurcate. Thus periodic orbits can be viewed as resonant slices or bifurcation products of invariant torus families.
 
 ## Quasi-Periodic Invariant Tori (QPT)
 
-**QPTs** are bounded closed surfaces covered by quasi-periodic non-resonant orbits in the CRTBP. Unlike strictly periodic halo orbits, QPT orbits do not repeat and naturally drift around the reference periodic orbit, forming a natural “enclosing” structure. Because motion on the torus is bounded, QPTs are useful for designing long-term stable relative trajectories for formation flying: spacecraft placed on different sections of the same torus family remain naturally bounded relative to each other (Capannolo et al. 2023).
+**QPTs** are bounded closed surfaces covered by quasi-periodic non-resonant orbits in the CRTBP. Unlike strictly periodic halo orbits, QPT orbits do not repeat and naturally drift around the reference periodic orbit, forming a natural enclosing structure. Because motion on the torus is bounded, QPTs are useful for designing long-term stable relative trajectories for formation flying: spacecraft placed on different sections of the same torus family remain naturally bounded relative to each other (Capannolo et al. 2023).
 
 ## Torus Manifolds in the Bicircular Four-Body Problem
 
@@ -48,7 +48,7 @@ In the bicircular restricted four-body problem (BCR4BP), the Sun appears as a fo
 
 - **Formation flying**: use different initial phases on the same QPT family to build long-term passive deputy trajectories;
 
-- **Station-keeping**: quasi-periodic orbits are more “flexible” than periodic orbits and can reduce station-keeping cost in some missions;
+- **Station-keeping**: quasi-periodic orbits are more flexible than periodic orbits and can reduce station-keeping cost in some missions;
 
 - **Model transition**: tori and their manifolds provide initial structures for transitioning solutions from the CR3BP to high-fidelity ephemeris models.
 

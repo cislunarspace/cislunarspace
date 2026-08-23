@@ -30,17 +30,17 @@ permalink: /en/glossary/orbits/lyapunov-orbit/
 
 ## Definition
 
-A Lyapunov orbit is a planar periodic orbit around a collinear libration point of the circular restricted three-body problem (CR3BP) — one family each at L1, L2, and L3 (Gómez 2001, Parker & Anderson 2014). Under linearization, the center subspace of a collinear point decomposes into two normal oscillations: in-plane (frequency ωp) and out-of-plane (frequency ωv); the periodic solution that excites only the in-plane center mode is the planar Lyapunov orbit (Belló 2010). The family's existence is guaranteed by Lyapunov's center theorem — hence the name (Alessi 2009) — and has nothing to do with "Lyapunov stability theory."
+A Lyapunov orbit is a planar periodic orbit around a collinear libration point of the circular restricted three-body problem (CR3BP), one family each at L1, L2, and L3 (Gómez 2001, Parker & Anderson 2014). Under linearization, the center subspace of a collinear point decomposes into two normal oscillations: in-plane (frequency ωp) and out-of-plane (frequency ωv); the periodic solution that excites only the in-plane center mode is the planar Lyapunov orbit (Belló 2010). The family's existence is guaranteed by Lyapunov's center theorem (hence the name; Alessi 2009) and has nothing to do with Lyapunov stability theory.
 
 What is usually meant by Lyapunov orbit is the planar family; the vertical family is its sibling family of the same rank (see [Vertical Orbit](/en/glossary/orbits/vertical-orbit/)). Earth–Moon L1/L2 family periods run about 2–4 weeks (closer to 2 weeks the nearer the libration point), and the L3 family about 4 weeks (Parker & Anderson 2014).
 
 ## Geometry and Symmetry
 
-The orbit is symmetric about the rotating-frame x-axis and crosses it perpendicularly twice per revolution — a perpendicular crossing means zero x-velocity at the crossing point, velocity along y, and an initial state of the form [x₀, 0, 0, ẏ₀] (Parker & Anderson 2014, Tan 2014). The motion is prograde on the near-Moon side and retrograde on the far side (Oshima 2019, citing Lam & Whiffen 2005).
+The orbit is symmetric about the rotating-frame x-axis and crosses it perpendicularly twice per revolution: a perpendicular crossing means zero x-velocity at the crossing point, velocity along y, and an initial state of the form [x₀, 0, 0, ẏ₀] (Parker & Anderson 2014, Tan 2014). The motion is prograde on the near-Moon side and retrograde on the far side (Oshima 2019, citing Lam & Whiffen 2005).
 
 ## Stability and Manifolds
 
-All family members are unstable (Parker & Anderson 2014): the monodromy matrix eigenvalues are λ₁=λ₂=1 and λ₃=1/λ₄, giving the stable and unstable directions (Tan 2014). The manifolds form smooth tubes ahead of the Moon. Besides the in-plane hyperbolic mode, some members also carry a vertical instability mode — their out-of-plane stable/unstable manifolds are natural transport channels between in-plane and out-of-plane states, and can raise inclination through multiple lunar flybys (Oshima 2019).
+All family members are unstable (Parker & Anderson 2014): the monodromy matrix eigenvalues are λ₁=λ₂=1 and λ₃=1/λ₄, giving the stable and unstable directions (Tan 2014). The manifolds form smooth tubes ahead of the Moon. Besides the in-plane hyperbolic mode, some members also carry a vertical instability mode: their out-of-plane stable/unstable manifolds are natural transport channels between in-plane and out-of-plane states, and can raise inclination through multiple lunar flybys (Oshima 2019).
 
 Two important corollaries:
 
@@ -59,9 +59,9 @@ Family members can be labeled by x₀, ẏ₀, or the Jacobi constant C, and are
 
 ## Large-Amplitude Members and Earth–Moon Transfers
 
-Members whose amplitude grows large enough to be tangent to lunar orbits have special transfer value: their stable manifolds no longer have tube topology but reach directly into near-Earth space — a single stable manifold connects a near-Earth orbit straight to a near-Moon orbit (first shown by Tan 2014; Zheng & Zhao 2023). Two-impulse Earth–Moon transfers designed on this basis save about 100 m/s over Hohmann transfers and take less time than WSB transfers (Tan 2014); the Zheng & Zhao 2023 example totals about 3921 m/s ΔV over 62 days. Xu 2010 gives the parameters of Lyapunov orbits tangent to large-amplitude DROs (for a DRO with Ax=90867 km, the tangent L1 Lyapunov has Ax=32828 km), used respectively for fast and low-energy entry into the DRO.
+Members whose amplitude grows large enough to be tangent to lunar orbits have special transfer value: their stable manifolds no longer have tube topology but reach directly into near-Earth space: a single stable manifold connects a near-Earth orbit straight to a near-Moon orbit (first shown by Tan 2014; Zheng & Zhao 2023). Two-impulse Earth–Moon transfers designed on this basis save about 100 m/s over Hohmann transfers and take less time than WSB transfers (Tan 2014); the Zheng & Zhao 2023 example totals about 3921 m/s ΔV over 62 days. Xu 2010 gives the parameters of Lyapunov orbits tangent to large-amplitude DROs (for a DRO with Ax=90867 km, the tangent L1 Lyapunov has Ax=32828 km), used respectively for fast and low-energy entry into the DRO.
 
-**Lyapunov-like orbits**: in NRHO→DRO outbound transfers, the arc after the lunar flyby often takes a large-amplitude Lyapunov shape — tangent to the DRO on one side and close to the Moon on the other, naturally accompanied by a lunar flyby, which favors low-impulse DRO insertion (Wang 2021, the term traced back to Zhang 2020). Wang 2025 (the WSB paper) further classifies the L1/L2 Lyapunov-like segments in DRO capture trajectories by arrival Jacobi energy: high energy enters directly on the near-Earth side; low energy goes through a more inclined, larger-amplitude Lyapunov-like segment to the far side.
+**Lyapunov-like orbits**: in NRHO→DRO outbound transfers, the arc after the lunar flyby often takes a large-amplitude Lyapunov shape: tangent to the DRO on one side and close to the Moon on the other, naturally accompanied by a lunar flyby, which favors low-impulse DRO insertion (Wang 2021, the term traced back to Zhang 2020). Wang 2025 (the WSB paper) further classifies the L1/L2 Lyapunov-like segments in DRO capture trajectories by arrival Jacobi energy: high energy enters directly on the near-Earth side; low energy goes through a more inclined, larger-amplitude Lyapunov-like segment to the far side.
 
 ## Terminology Variants
 

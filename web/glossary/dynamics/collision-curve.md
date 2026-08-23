@@ -26,7 +26,7 @@ permalink: /glossary/dynamics/collision-curve/
 
 > 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
 >
-> 本文来源：Ding et al., 2025 — Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits
+> 本文来源：Ding et al., 2025：Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits
 >
 > 站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
 
@@ -46,4 +46,4 @@ permalink: /glossary/dynamics/collision-curve/
 
 ## 参考文献
 
-- Ding et al., 2025 — Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits
+- Ding et al., 2025：Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits

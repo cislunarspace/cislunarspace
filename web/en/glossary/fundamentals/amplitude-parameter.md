@@ -30,11 +30,11 @@ permalink: /en/glossary/fundamentals/amplitude-parameter/
 
 ## Definition
 
-Distant Retrograde Orbits (DROs) in the synodic frame are characterized by the Jacobi constant $C_J$ (or equivalently, the energy level) and two parameters — the **amplitude parameter** gives the size of the orbit, and the **phase parameter** indicates the position of a point along the orbit.
+Distant Retrograde Orbits (DROs) in the synodic frame are characterized by the Jacobi constant $C_J$ (or equivalently, the energy level) and two parameters: the **amplitude parameter** gives the size of the orbit, and the **phase parameter** indicates the position of a point along the orbit.
 
 The amplitude parameter describes the size of a DRO relative to a libration point in the synodic frame, typically defined as the absolute difference between the initial x-coordinate and the x-coordinate of the Earth-Moon $L_1$ or $L_2$ point (Tan 2014). For a given Jacobi constant, there is a one-to-one correspondence between the amplitude parameter and the DRO size. The phase parameter describes the location of a point on the DRO within the orbital period, corresponding to the orbital phase angle at time $t$. Together, for a specified Jacobi constant, they uniquely determine the state (position and velocity) at any point on a DRO in the synodic frame (Tan 2014).
 
-DROs form a family of periodic orbits that enclose the Moon and travel in the direction opposite to the synodic frame rotation (retrograde). At high Jacobi constants they lie close to the Moon; at low Jacobi constants the orbit size increases (Scott 2010). The amplitude parameter effectively serves as a label for this one-parameter orbit family — different amplitudes correspond to different DRO sizes and different stability characteristics.
+DROs form a family of periodic orbits that enclose the Moon and travel in the direction opposite to the synodic frame rotation (retrograde). At high Jacobi constants they lie close to the Moon; at low Jacobi constants the orbit size increases (Scott 2010). The amplitude parameter effectively serves as a label for this one-parameter orbit family: different amplitudes correspond to different DRO sizes and different stability characteristics.
 
 ## Role in Numerical Solution
 

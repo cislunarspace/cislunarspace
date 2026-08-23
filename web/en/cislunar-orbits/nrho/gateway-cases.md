@@ -20,7 +20,7 @@ wechatShare:
 
 ## Lunar Gateway Overview
 
-NASA's **Lunar Gateway** is the cornerstone infrastructure of the Artemis program — a small space station planned for operation in cislunar space. Unlike the International Space Station (ISS), the Gateway does not occupy a continuous resident orbit; instead, it operates in an L1 NRHO, periodically visiting the lunar surface and supporting deep-space missions.
+NASA's **Lunar Gateway** is the cornerstone infrastructure of the Artemis program, a small space station planned for operation in cislunar space. Unlike the International Space Station (ISS), the Gateway does not occupy a continuous resident orbit; instead, it operates in an L1 NRHO, periodically visiting the lunar surface and supporting deep-space missions.
 
 NASA selected NRHO as the Gateway's operational orbit based on the following considerations:
 

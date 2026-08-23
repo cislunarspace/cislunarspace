@@ -2,7 +2,7 @@
 
 - **Date:** 2026-08-20
 - **数据:** 对现存 zh 侧词条全量重扫（714 个 md），分档明细见 [glossary-rescan-2026-08-20.json](glossary-rescan-2026-08-20.json)
-- **背景:** 决策记录要求"对现存词条做一次新扫描 + 抽查 10–20 条合并质量，确认主词条未夹带模板壳"。
+- **背景:** 决策记录要求对现存词条做一次新扫描 + 抽查 10–20 条合并质量，确认主词条未夹带模板壳。
 
 ## 一、分档结果
 
@@ -18,8 +18,8 @@
 
 ## 二、抽查（16 条）
 
-- **深档样例**（adams-cowell-integrator、bang-bang-control、battin-giorgi-method、bcr4bp 等）：正文数千字、有公式推导与真实应用语境，bcr4bp 已是 08-09 合并重写过的主词条形态（覆盖 BCP/BCR4BP/FER4BP 谱系）——合并质量良好。
-- **浅档样例**（dld、collision-belt、control-curve-ui、nsga-ii 等）：约 380–730 字，正文基本是定义句 + 通用填充，frontmatter 仍是 2026-07-31 批量生成日期——**模板壳仍在库中**。
+- **深档样例**（adams-cowell-integrator、bang-bang-control、battin-giorgi-method、bcr4bp 等）：正文数千字、有公式推导与真实应用语境，bcr4bp 已是 08-09 合并重写过的主词条形态（覆盖 BCP/BCR4BP/FER4BP 谱系），合并质量良好。
+- **浅档样例**（dld、collision-belt、control-curve-ui、nsga-ii 等）：约 380–730 字，正文基本是定义句 + 通用填充，frontmatter 仍是 2026-07-31 批量生成日期，**模板壳仍在库中**。
 
 ## 三、结论
 

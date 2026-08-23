@@ -84,13 +84,13 @@ The full ephemeris model is the final validation environment for any trajectory 
 
 ## References
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, Chaps. 3, 8, 10 — time scales $T_\text{eph}$/TDB/TT, third-body perturbation modelling, JPL DE Chebyshev block structure and accuracy.
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, Chaps. 3, 8, 10: time scales $T_\text{eph}$/TDB/TT, third-body perturbation modelling, JPL DE Chebyshev block structure and accuracy.
 
 - Standish, 1990, "The observational basis for JPL's DE200, the planetary ephemerides of the Astronomical Almanac," *A&A* 233:252–271.
 
-- Deng Hui et al., 2017, "On-board orbit prediction for cislunar collinear-libration-point probes" — motivation for using numerical ephemerides in libration-point forecasting.
+- Deng Hui et al., 2017, "On-board orbit prediction for cislunar collinear-libration-point probes": motivation for using numerical ephemerides in libration-point forecasting.
 
-- Welch, Barden, Howell, 2015, "Mission considerations for transfers to a distant retrograde orbit" — full ephemeris validation of a DRO designed in the CR3BP.
+- Welch, Barden, Howell, 2015, "Mission considerations for transfers to a distant retrograde orbit": full ephemeris validation of a DRO designed in the CR3BP.
 
 - Baresi, 2023, "Transition of two-dimensional quasi-periodic invariant tori in the real-ephemeris model of the Earth–Moon system."
 

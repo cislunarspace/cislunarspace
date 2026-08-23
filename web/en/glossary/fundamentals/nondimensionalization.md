@@ -30,7 +30,7 @@ permalink: /en/glossary/fundamentals/nondimensionalization/
 
 ## Definition
 
-**Nondimensionalization** rescales the variables of a physical equation of motion by characteristic quantities of the same dimension so that the new variables carry no units. In the restricted three-body problem this procedure strips the equations of all dimensional constants and leaves a single dimensionless parameter — the **mass ratio** $\mu = m_2/(m_1 + m_2)$. The scaled quantities are referred to as **normalized** (or canonical, dimensionless) units.
+**Nondimensionalization** rescales the variables of a physical equation of motion by characteristic quantities of the same dimension so that the new variables carry no units. In the restricted three-body problem this procedure strips the equations of all dimensional constants and leaves a single dimensionless parameter: the **mass ratio** $\mu = m_2/(m_1 + m_2)$. The scaled quantities are referred to as **normalized** (or canonical, dimensionless) units.
 
 ## Choosing the characteristic quantities
 
@@ -58,7 +58,7 @@ Values vary slightly between references depending on whether the semi-major axis
 
 ## Why it matters
 
-Nondimensionalization serves three purposes. (i) **Generality**: a single dimensionless parameter $\mu$ describes every Earth–Moon-like, Sun–Earth-like, or Sun–Jupiter-like system — results carry over by scaling. (ii) **Numerical conditioning**: with $l^*$, $t^*$ as the working units, position, velocity, and time are all $O(1)$, which limits floating-point cancellation in long integrations. (iii) **Conceptual clarity**: the relative importance of terms in the equations (Coriolis vs. gravity vs. centrifugal) is read off directly from the dimensionless form.
+Nondimensionalization serves three purposes. (i) **Generality**: a single dimensionless parameter $\mu$ describes every Earth–Moon-like, Sun–Earth-like, or Sun–Jupiter-like system: results carry over by scaling. (ii) **Numerical conditioning**: with $l^*$, $t^*$ as the working units, position, velocity, and time are all $O(1)$, which limits floating-point cancellation in long integrations. (iii) **Conceptual clarity**: the relative importance of terms in the equations (Coriolis vs. gravity vs. centrifugal) is read off directly from the dimensionless form.
 
 A practical caveat: the dimensionless equations do **not** assume the actual inter-primary distance is one physical unit (Szebehely 1967, §1.5). They hold for any physical system after scaling; recovering dimensional outputs requires multiplying by $l^*$, $t^*$, $v^*$ appropriately.
 
@@ -74,10 +74,10 @@ A practical caveat: the dimensionless equations do **not** assume the actual int
 
 ## References
 
-- Szebehely, 1967, *Theory of Orbits*, §§1.2–1.5 — dimensional-to-dimensionless derivation and the warning against reading dimensionless units as physical units.
+- Szebehely, 1967, *Theory of Orbits*, §§1.2–1.5: dimensional-to-dimensionless derivation and the warning against reading dimensionless units as physical units.
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3 — non-dimensional CR3BP equations and the mass parameter.
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3: non-dimensional CR3BP equations and the mass parameter.
 
-- 李星明 等, 2024, 地月周期轨道对地月 L1 与 L2 附近 Halo 轨道的可见性分析——典型 Earth–Moon canonical-unit numerical setup.
+- 李星明 等, 2024, 地月周期轨道对地月 L1 与 L2 附近 Halo 轨道的可见性分析: 典型 Earth–Moon canonical-unit numerical setup.
 
-- 张晨, 2024, 北京航空航天大学学报——PBCR4BP normalization using Earth–Moon total mass, mean distance, and mean angular rate.
+- 张晨, 2024, 北京航空航天大学学报: PBCR4BP normalization using Earth–Moon total mass, mean distance, and mean angular rate.

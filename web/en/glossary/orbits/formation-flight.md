@@ -30,13 +30,13 @@ permalink: /en/glossary/orbits/formation-flight/
 
 ## Definition
 
-Formation flight is a mission mode in which multiple spacecraft fly cooperatively while maintaining a specific relative configuration. In the three-body environment, relative motion is analyzed with the linearized relative-motion equations plus Floquet decomposition: the bounded solution set already contains periodic and quasi-periodic solutions, and only the divergent ones need to be removed — boundedness is the essential requirement for preventing drift and collision between members (Yang, Wang & Zhang 2023). Compared with two-body orbits, the strong nonlinearity of three-body dynamics makes formation keeping more dependent on the choice of dynamical structure.
+Formation flight is a mission mode in which multiple spacecraft fly cooperatively while maintaining a specific relative configuration. In the three-body environment, relative motion is analyzed with the linearized relative-motion equations plus Floquet decomposition: the bounded solution set already contains periodic and quasi-periodic solutions, and only the divergent ones need to be removed: boundedness is the essential requirement for preventing drift and collision between members (Yang, Wang & Zhang 2023). Compared with two-body orbits, the strong nonlinearity of three-body dynamics makes formation keeping more dependent on the choice of dynamical structure.
 
 ## Triangular Libration Point Formations
 
 Catlin & McLaughlin 2007 derived the relative motion near Earth–Moon L4 in the CR3BP, decomposing it into long-period and short-period components that are designed separately (when both periods coexist the relative motion is a complex curve with axis ratio about 16/5 and period 458 days, unsuitable for formations):
 
-- **Parallel formation**: members keep a fixed in-plane phase offset while their out-of-plane components are identical at all times. The most tolerant of injection errors (under the maintenance constraint, an initial-value accuracy of 1000% — i.e. 26 km and 1 m/s — suffices), it is the most robust natural formation in the paper.
+- **Parallel formation**: members keep a fixed in-plane phase offset while their out-of-plane components are identical at all times. The most tolerant of injection errors (under the maintenance constraint, an initial-value accuracy of 1000% (i.e. 26 km and 1 m/s) suffices), it is the most robust natural formation in the paper.
 - **Leader–follower formation**: members trail one another along the same trajectory.
 - **Circular formation**: the long-period motion has an ellipse axis ratio of about 16/3 (period about 92 days), so a natural circular formation is impossible; the short-period motion (axis ratio about 2, period about one month) yields, by planar approximation, an approximate circle inclined about 60°, but it requires active control to maintain (an impulse reset at the end of each revolution, or continuous correction).
 
@@ -47,15 +47,15 @@ Background and value: no spacecraft had yet reached the triangular libration poi
 For a reference DRO (13.64 days, 2:1 resonance), the bounded solutions of the linearized relative motion combine into three modes (Yang, Wang & Zhang 2023):
 
 - **Planar periodic mode (also called natural periodic mode)**: the deputy sits on the reference DRO with a phase offset; the trajectory stays on one side of the chief only, suiting it as a parking orbit for rendezvous and docking.
-- **Planar quasi-periodic mode**: composed of two periodic components, the trajectory rotates around the chief within a bounded hollow region — the basic mode for fly-around formations. Note that the geometry of purely natural long-term fly-around is irregular; the engineering fly-around is a patchwork of "a natural segment within one DRO period + a transfer segment," needing only two impulses per revolution and less than 1 cm/s of fuel per revolution for a 1 km-scale formation.
-- **Normal quasi-periodic mode**: contains only the normal (z) component and serves to extend a planar formation into three dimensions — it can only be superimposed on a planar formation, never forms a formation alone.
+- **Planar quasi-periodic mode**: composed of two periodic components, the trajectory rotates around the chief within a bounded hollow region, the basic mode for fly-around formations. Note that the geometry of purely natural long-term fly-around is irregular; the engineering fly-around is a patchwork of a natural segment within one DRO period + a transfer segment, needing only two impulses per revolution and less than 1 cm/s of fuel per revolution for a 1 km-scale formation.
+- **Normal quasi-periodic mode**: contains only the normal (z) component and serves to extend a planar formation into three dimensions: it can only be superimposed on a planar formation, never forms a formation alone.
 
 ## DRO Formation Design
 
-Yang et al. 2023 (Chinese Journal of Aeronautics, Chinese-language edition — a sister paper by the same team as the English paper above) give two designs:
+Yang et al. 2023 (Chinese Journal of Aeronautics, Chinese-language edition, a sister paper by the same team as the English paper above) give two designs:
 
 - **Natural accompanying formation**: based on the periodic solutions among the bounded ones, the deputy accompanies the chief a few meters to several hundred kilometers ahead or behind, long-term and low-fuel; but the natural configurations are very limited and the relative motion is slow.
-- **Circular controlled fly-around formation**: with a spatial circle as the reference trajectory, impulses are applied at evenly spaced maneuver points to control the deputy's fly-around (the example uses 10 maneuver points per revolution, at scales of 1–100 km); the fuel cost depends on the circle's normal direction, center position, and scale — this is impulsive control, not continuous thrust.
+- **Circular controlled fly-around formation**: with a spatial circle as the reference trajectory, impulses are applied at evenly spaced maneuver points to control the deputy's fly-around (the example uses 10 maneuver points per revolution, at scales of 1–100 km); the fuel cost depends on the circle's normal direction, center position, and scale; this is impulsive control, not continuous thrust.
 
 ## Phase Difference and Rendezvous
 

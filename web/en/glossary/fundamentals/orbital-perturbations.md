@@ -30,7 +30,7 @@ permalink: /en/glossary/fundamentals/orbital-perturbations/
 
 ## Definition
 
-Orbital perturbations are deviations of a spacecraft's actual motion from the idealised Keplerian two-body orbit. Two-body motion assumes a spherically symmetric central body and no other forces—a useful analytical baseline, but the real spacecraft additionally feels the non-spherical gravity field of the central body, the gravity of other celestial bodies, atmospheric drag, solar-radiation pressure, and other effects. These forces form a perturbation acceleration $\mathbf{a}_p$ that is added to the two-body acceleration:
+Orbital perturbations are deviations of a spacecraft's actual motion from the idealised Keplerian two-body orbit. Two-body motion assumes a spherically symmetric central body and no other forces, a useful analytical baseline, but the real spacecraft additionally feels the non-spherical gravity field of the central body, the gravity of other celestial bodies, atmospheric drag, solar-radiation pressure, and other effects. These forces form a perturbation acceleration $\mathbf{a}_p$ that is added to the two-body acceleration:
 
 $$
 \ddot{\mathbf{r}} = -\frac{\mu}{r^3}\mathbf{r} + \mathbf{a}_p
@@ -38,9 +38,9 @@ $$
 
 This form is called **Cowell's formulation** (Vallado 2022, Ch. 8).
 
-"Cowell's formulation" and "Cowell's method" are distinct: the formulation is a way of writing the equation of motion (perturbation acceleration added linearly to the two-body term), whereas the method is a specific numerical-integration technique (see "Perturbation Handling Methods" below). Because each perturbing acceleration can be added linearly, $\mathbf{a}_p = \sum_i \mathbf{a}_{p_i}$ (Vallado 2022).
+Cowell's formulation and Cowell's method are distinct: the formulation is a way of writing the equation of motion (perturbation acceleration added linearly to the two-body term), whereas the method is a specific numerical-integration technique (see Perturbation Handling Methods below). Because each perturbing acceleration can be added linearly, $\mathbf{a}_p = \sum_i \mathbf{a}_{p_i}$ (Vallado 2022).
 
-It is worth noting that perturbations are not necessarily "small." When a spacecraft re-enters the atmosphere, drag is comparable to two-body gravity; in the three-body problem, the third-body force can exceed the primary attraction. In such cases, the problem is no longer a "perturbation" of a different dynamical system (Vallado 2022, Ch. 8).
+It is worth noting that perturbations are not necessarily small. When a spacecraft re-enters the atmosphere, drag is comparable to two-body gravity; in the three-body problem, the third-body force can exceed the primary attraction. In such cases, the problem is no longer a perturbation of a different dynamical system (Vallado 2022, Ch. 8).
 
 ## Classification of Perturbation Sources
 
@@ -82,13 +82,13 @@ $$
 \mathbf{a}_{3\text{rd}} = \mu_3 \left( \frac{\mathbf{r}_{sat-3}}{r_{sat-3}^3} - \frac{\mathbf{r}_{\oplus-3}}{r_{\oplus-3}^3} \right)
 $$
 
-The first term is the **direct effect** (the Sun's direct attraction on the spacecraft) and the second is the **indirect effect** (the Sun's attraction on the geocenter). The two are of similar magnitude and their subtraction can produce numerical cancellation errors (Vallado 2022, Ch. 8.6.3). Expanding the direct term in Legendre polynomials reveals that the lowest-order term cancels the indirect term exactly—this is the algebraic reason why third-body perturbations are usually small in near-Earth orbits.
+The first term is the **direct effect** (the Sun's direct attraction on the spacecraft) and the second is the **indirect effect** (the Sun's attraction on the geocenter). The two are of similar magnitude and their subtraction can produce numerical cancellation errors (Vallado 2022, Ch. 8.6.3). Expanding the direct term in Legendre polynomials reveals that the lowest-order term cancels the indirect term exactly: this is the algebraic reason why third-body perturbations are usually small in near-Earth orbits.
 
-In cislunar space, the lunar third body far exceeds the solar one: the Moon orbits Earth at only ~384,400 km, so the perturbation-to-two-body ratio near the libration points is $\mathcal{O}(1)$. The dynamics are no longer a "perturbed two-body problem" but require the restricted three-body problem (CR3BP) as the model.
+In cislunar space, the lunar third body far exceeds the solar one: the Moon orbits Earth at only ~384,400 km, so the perturbation-to-two-body ratio near the libration points is $\mathcal{O}(1)$. The dynamics are no longer a perturbed two-body problem but require the restricted three-body problem (CR3BP) as the model.
 
 ## Lunar Eccentricity Perturbation
 
-The Earth-Moon three-body model is typically simplified to the circular CR3BP (circular lunar orbit, constant Earth-Moon distance). In reality the lunar orbital eccentricity is $e \approx 0.0549$, and the Earth-Moon distance varies periodically between 363,000 and 405,000 km with a period of ~27.3 days (sidereal month). This eccentricity makes the libration-point positions and the geometry/period of orbit families such as halo and NRHO vary with lunar phase—this is one of the fundamental reasons Earth-Moon libration-point orbits are harder to maintain than Sun-Earth ones. Folta et al. (2010) note that to fully capture this periodic effect, a simulation must span at least one lunar orbital period (~27.3 days).
+The Earth-Moon three-body model is typically simplified to the circular CR3BP (circular lunar orbit, constant Earth-Moon distance). In reality the lunar orbital eccentricity is $e \approx 0.0549$, and the Earth-Moon distance varies periodically between 363,000 and 405,000 km with a period of ~27.3 days (sidereal month). This eccentricity makes the libration-point positions and the geometry/period of orbit families such as halo and NRHO vary with lunar phase: this is one of the fundamental reasons Earth-Moon libration-point orbits are harder to maintain than Sun-Earth ones. Folta et al. (2010) note that to fully capture this periodic effect, a simulation must span at least one lunar orbital period (~27.3 days).
 
 ## Relativistic Correction
 
@@ -112,9 +112,9 @@ The perturbation acceleration $\mathbf{a}_p$ is computed directly and the equati
 
 - **Cowell's method**: directly integrates the full acceleration (including the two-body term). All modern high-precision orbit-propagation software (GMAT, ODTK, STK/OD) uses Cowell's formulation with a high-order integrator (Runge-Kutta-Fehlberg, Gauss-Jackson, Adams-Cowell).
 
-- **Encke's method**: uses a two-body osculating orbit as a reference and integrates only the deviation $\delta\mathbf{r}$ caused by perturbations. Because the deviation is small, this was historically more efficient than Cowell's under limited computing resources, but modern computing has made it largely unnecessary (Vallado 2022, Ch. 8.3). Its core idea—integrating the deviation from a reference orbit—still finds use in orbit determination and accuracy analysis.
+- **Encke's method**: uses a two-body osculating orbit as a reference and integrates only the deviation $\delta\mathbf{r}$ caused by perturbations. Because the deviation is small, this was historically more efficient than Cowell's under limited computing resources, but modern computing has made it largely unnecessary (Vallado 2022, Ch. 8.3). Its core idea (integrating the deviation from a reference orbit) still finds use in orbit determination and accuracy analysis.
 
-In practice, **time-regularised Cowell integration** (s-integration) is widely adopted: instead of uniform time steps, the integration proceeds in uniform steps of an orbital reference variable (eccentric or true anomaly), automatically shrinking the time step at periapsis and lengthening it at apoapsis—dramatically improving the efficiency of eccentric-orbit integration (Vallado 2022, Ch. 8.5.1).
+In practice, **time-regularised Cowell integration** (s-integration) is widely adopted: instead of uniform time steps, the integration proceeds in uniform steps of an orbital reference variable (eccentric or true anomaly), automatically shrinking the time step at periapsis and lengthening it at apoapsis, dramatically improving the efficiency of eccentric-orbit integration (Vallado 2022, Ch. 8.5.1).
 
 ### General Perturbations (Analytical / Semi-Analytical)
 
@@ -122,7 +122,7 @@ Closed-form or series expressions for the rates of change of the orbital element
 
 - **Lagrange Planetary Equations**: applicable to conservative perturbations; express the rates of the six orbital elements in terms of partial derivatives of the disturbing function $R$.
 
-- **Gaussian VOP (Gauss-type Perturbation Equations)**: applicable to non-conservative perturbations; decompose the perturbation acceleration into radial ($S$), transverse ($T$), and normal ($W$) components and directly derive the element rates—well-suited to forces such as low-thrust and atmospheric drag that have no potential. A typical form is (Vallado 2022, Eq. 9-14):
+- **Gaussian VOP (Gauss-type Perturbation Equations)**: applicable to non-conservative perturbations; decompose the perturbation acceleration into radial ($S$), transverse ($T$), and normal ($W$) components and directly derive the element rates, well-suited to forces such as low-thrust and atmospheric drag that have no potential. A typical form is (Vallado 2022, Eq. 9-14):
 
 $$
 \frac{da}{dt} = \frac{2a^2 v}{\mu} a_S, \quad
@@ -133,7 +133,7 @@ $$
 
 ### Semianalytical Methods
 
-Analytical treatment of secular effects combined with numerical integration of periodic effects—e.g. the Draper Semianalytical Satellite Theory (DSST). A trade-off between efficiency and accuracy.
+Analytical treatment of secular effects combined with numerical integration of periodic effects, e.g. the Draper Semianalytical Satellite Theory (DSST). A trade-off between efficiency and accuracy.
 
 ## Cislunar Perturbation Modelling in Practice
 
@@ -175,7 +175,7 @@ Under this framework, propagation span accuracies (PSAs) up to 2 years were obta
 
 ## References
 
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications (Ch. 8 Special Perturbations—definition of perturbations, Cowell/Encke formulations, numerical-integration implementation; Ch. 9 General Perturbations—variation of parameters, Gauss/Lagrange equations; Ch. 8.6.3 Third-Body Perturbations—third-body acceleration formula).
+- Vallado, 2022, Fundamentals of Astrodynamics and Applications (Ch. 8 Special Perturbations: definition of perturbations, Cowell/Encke formulations, numerical-integration implementation; Ch. 9 General Perturbations: variation of parameters, Gauss/Lagrange equations; Ch. 8.6.3 Third-Body Perturbations: third-body acceleration formula).
 
 - A model framework for high-accuracy orbit determination and propagation of cislunar space debris, 2023 (cislunar-debris model selection: SH[5,5] + DE440 point masses + cannonball SRP + RKF7(8); validated up to 2-year forecast accuracy).
 

@@ -40,17 +40,17 @@ $$
 
 ## 月球会合周期
 
-月球的**恒星周期**（相对恒星转一圈）是 27.3217 天；此期间地球自己也绕日走了约 $27°$，月球需再多走 $27°$ 才回到同样的日—地—月夹角。由此得到**月球会合周期**，即月相循环一次的时长（一个朔望月）：
+月球的**恒星周期**（相对恒星转一圈）是 27.3217 天；此期间地球自己也绕日走了约 $27°$，月球需再多走 $27°$ 才回到同样的日-地-月夹角。由此得到**月球会合周期**，即月相循环一次的时长（一个朔望月）：
 
 $$
 \frac{1}{S_\text{月}} = \frac{1}{27.3217} - \frac{1}{365.256} \;\Longrightarrow\; S_\text{月} \approx 29.5306\ \text{天}.
 $$
 
-这是任何受日—地—月夹角驱动的现象的自然节拍：潮汐、月相照明、传感器覆盖中的太阳回避窗口、以及共振 DRO 的设计。例如 2:1 共振 DRO 的轨道周期即 $S_\text{月}/2 \approx 14.77$ 天（Welch et al. 2015）。地月空间态势感知仿真通常覆盖整数个会合周期，以保证太阳回避窗口的统计具有代表性（Vendl & Holzinger 2021）。
+这是任何受日-地-月夹角驱动的现象的自然节拍：潮汐、月相照明、传感器覆盖中的太阳回避窗口、以及共振 DRO 的设计。例如 2:1 共振 DRO 的轨道周期即 $S_\text{月}/2 \approx 14.77$ 天（Welch et al. 2015）。地月空间态势感知仿真通常覆盖整数个会合周期，以保证太阳回避窗口的统计具有代表性（Vendl & Holzinger 2021）。
 
 ## 地月旋转系中的太阳会合频率
 
-在地月会合旋转系（角速度 $n_\text{EM} = 2\pi/S_\text{月}$）中，太阳并非静止：它在旋转系中每年（地球恒星年）走完一圈。地月双星系统的太阳会合频率，即旋转系中太阳方向的角速度，记为 $\omega_\odot$。在日—地—月系统的双圆模型与拟双圆模型中，$\omega_\odot$ 是首要的外部摄动频率，调制原本自治的地月动力学，是 $L_4/L_5$ 邻域长期稳定性与弹道捕获转移行为的支配因素（Gómez 等 2001, vol. II）。
+在地月会合旋转系（角速度 $n_\text{EM} = 2\pi/S_\text{月}$）中，太阳并非静止：它在旋转系中每年（地球恒星年）走完一圈。地月双星系统的太阳会合频率，即旋转系中太阳方向的角速度，记为 $\omega_\odot$。在日-地-月系统的双圆模型与拟双圆模型中，$\omega_\odot$ 是首要的外部摄动频率，调制原本自治的地月动力学，是 $L_4/L_5$ 邻域长期稳定性与弹道捕获转移行为的支配因素（Gómez 等 2001, vol. II）。
 
 ## 卫星交会中的会合周期
 
@@ -60,7 +60,7 @@ $$
 \tau_\text{wait} = \frac{\vartheta - \vartheta_i + 2\pi k}{\omega_\text{int} - \omega_\text{tgt}},
 $$
 
-其中 $\vartheta$ 是所要求的相位角分离，$k$ 为圈数（Vallado 2022, §6.5）。两卫星轨道越接近，会合周期越长；轨道差距越大，反而越快相位——这是发射窗口设计中的反直觉规律。
+其中 $\vartheta$ 是所要求的相位角分离，$k$ 为圈数（Vallado 2022, §6.5）。两卫星轨道越接近，会合周期越长；轨道差距越大，反而越快相位，这是发射窗口设计中的反直觉规律。
 
 ## 相关概念
 
@@ -72,14 +72,14 @@ $$
 
 ## 参考文献
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §6.5 与 §3.4——卫星交会中的会合周期；质心时间系统。
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §6.5 与 §3.4：卫星交会中的会合周期；质心时间系统。
 
-- Szebehely, 1967, *Theory of Orbits*, §1.5——无量纲会合系与角速度 $n$ 的定义。
+- Szebehely, 1967, *Theory of Orbits*, §1.5：无量纲会合系与角速度 $n$ 的定义。
 
-- Gómez, Jorba, Llibre, Masdemont, Simó, 2001, *Dynamics and Mission Design near Libration Points*, vol. II——双圆模型中的太阳会合摄动。
+- Gómez, Jorba, Llibre, Masdemont, Simó, 2001, *Dynamics and Mission Design near Libration Points*, vol. II：双圆模型中的太阳会合摄动。
 
-- Welch, Barden, Howell, 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit——2:1 共振 DRO 与半个月球会合周期。
+- Welch, Barden, Howell, 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit：2:1 共振 DRO 与半个月球会合周期。
 
-- Vendl & Holzinger, 2021, "Cislunar periodic orbit analysis for persistent space object detection capability"——会合周期作为传感器覆盖仿真节拍。
+- Vendl & Holzinger, 2021, "Cislunar periodic orbit analysis for persistent space object detection capability"：会合周期作为传感器覆盖仿真节拍。
 
-- Thornton et al., 2022——覆盖完整会合周期的仿真基线。
+- Thornton et al., 2022：覆盖完整会合周期的仿真基线。

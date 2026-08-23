@@ -32,7 +32,7 @@ permalink: /en/glossary/dynamics/lambert-guidance-routine/
 
 The Lambert Guidance Routine (LGR; also called Lambert guidance) is a real-time closed-loop guidance algorithm for the powered-flight phase that embeds the solution of [Lambert's problem](/en/glossary/fundamentals/lamberts-problem/). Each guidance cycle executes three steps (Burns & Scherock 2004):
 
-1. Solve Lambert's problem with the current state $(\vec r_M,\vec v_M)$, the target point $\vec r_2$, and the remaining time of flight $t_f$ to obtain the "velocity to be had" $\vec v_{\text{LAMBERT}}$;
+1. Solve Lambert's problem with the current state $(\vec r_M,\vec v_M)$, the target point $\vec r_2$, and the remaining time of flight $t_f$ to obtain the velocity to be had $\vec v_{\text{LAMBERT}}$;
 2. Compute the velocity-to-be-gained $\vec v_G=\vec v_{\text{LAMBERT}}-\vec v_M$;
 3. Command thrust along $\vec v_G$; when $|\vec v_G|$ falls below a threshold, cut off and coast ballistically to the target.
 
@@ -40,7 +40,7 @@ This is a **closed-loop** iterative process: every cycle re-solves Lambert from 
 
 ## Lambert Computational Plane and Coordinate Conversion
 
-$\vec r_1$ (current vehicle position) and $\vec r_2$ (target) define a unique plane, the Lambert computational plane. The two-dimensional Lambert equation is solved in this plane to give $\vec v_{\text{LAMBERT}}^{(2D)}$, which is then mapped back to the ECI inertial frame by two rotations about $Z$ and $Y'$ followed by a roll about $X''$ (Burns & Scherock 2004, Appendix). The "solve in 2D, map to 3D" pattern avoids direct 3D iteration.
+$\vec r_1$ (current vehicle position) and $\vec r_2$ (target) define a unique plane, the Lambert computational plane. The two-dimensional Lambert equation is solved in this plane to give $\vec v_{\text{LAMBERT}}^{(2D)}$, which is then mapped back to the ECI inertial frame by two rotations about $Z$ and $Y'$ followed by a roll about $X''$ (Burns & Scherock 2004, Appendix). The solve-in-2D, map-to-3D pattern avoids direct 3D iteration.
 
 The transfer angle $\theta_f$ follows from the dot product:
 
@@ -52,11 +52,11 @@ The dimensionless energy parameter $\lambda=|\vec r_1|V^2/\mu$ (twice the ratio 
 
 ## Distinction from Open-Loop Lambert Transfer and Other Guidance Schemes
 
-- **vs. open-loop Lambert transfer** ("Lambert orbit manoeuvre"): the open-loop use solves Lambert once offline to obtain an initial $\Delta\vec v$, applies it, and coasts without real-time correction; LGR **re-solves every cycle** and naturally corrects deviations. The former is a trajectory-design tool, the latter is a guidance law.
+- **vs. open-loop Lambert transfer** (Lambert orbit manoeuvre): the open-loop use solves Lambert once offline to obtain an initial $\Delta\vec v$, applies it, and coasts without real-time correction; LGR **re-solves every cycle** and naturally corrects deviations. The former is a trajectory-design tool, the latter is a guidance law.
 
-- **vs. Q-guidance and explicit guidance ([Explicit Guidance Law](/en/glossary/dynamics/explicit-guidance-law/))**: Q-guidance uses costate-gain matrices; explicit guidance integrates the nominal equations and enforces terminal constraints. LGR is characterised by the explicit call to a Lambert solver as the module computing the "velocity to be had".
+- **vs. Q-guidance and explicit guidance ([Explicit Guidance Law](/en/glossary/dynamics/explicit-guidance-law/))**: Q-guidance uses costate-gain matrices; explicit guidance integrates the nominal equations and enforces terminal constraints. LGR is characterised by the explicit call to a Lambert solver as the module computing the velocity to be had.
 
-- **vs. Apollo LM P64 guidance**: P64 is polynomial / Lambda guidance, **not** Lambert guidance. The occasional Chinese-literature claim that "Lambert guidance was one of the Apollo Guidance Computer's heaviest tasks" is a confusion — Apollo used Lambert solutions for mission planning (on the ground), not for real-time flight guidance.
+- **vs. Apollo LM P64 guidance**: P64 is polynomial / Lambda guidance, **not** Lambert guidance. The occasional Chinese-literature claim that Lambert guidance was one of the Apollo Guidance Computer's heaviest tasks is a confusion; Apollo used Lambert solutions for mission planning (on the ground), not for real-time flight guidance.
 
 - **vs. midcourse Lambert correction**: Lambert solutions are also used to compute reference impulses for midcourse corrections (see [multi-impulse manoeuvres](/en/glossary/dynamics/two-impulse-rendezvous/)); that is offline impulse design, distinct from LGR.
 
@@ -64,20 +64,20 @@ The dimensionless energy parameter $\lambda=|\vec r_1|V^2/\mu$ (twice the ratio 
 
 - **Scheduled arrival time $T_A$ / time of flight $t_f$**: determines the trajectory shape (high loft vs. low loft) and the terminal velocity-matching $\Delta v$. Longer $t_f$ implies a higher loft and lower terminal velocity, hence a larger velocity deficit to make up; Powell's method is commonly used to optimise $t_f$ (equivalently, launch delay $T_D$) for minimum terminal $\Delta v$ (Burns & Scherock 2004).
 
-- **Cutoff threshold**: shut down main thrust once $|\vec v_G|$ falls below threshold. Too low — tight cycles, demanding real-time performance; too high — large residuals.
+- **Cutoff threshold**: shut down main thrust once $|\vec v_G|$ falls below threshold. Too low: tight cycles, demanding real-time performance; too high: large residuals.
 
 - **Atmospheric pitch program**: in the low-atmosphere segment, a fixed fly-out flight-path-angle schedule suppresses drag losses; the loop switches to pure Lambert commands above the atmosphere.
 
-- **Target position offset (White offset)**: compensates the systematic bias from Lambert's "instantaneous burn, uniform gravity" assumptions by deliberately biasing the guidance target by a small amount so that the true trajectory lands at the intended point.
+- **Target position offset (White offset)**: compensates the systematic bias from Lambert's instantaneous burn, uniform gravity assumptions by deliberately biasing the guidance target by a small amount so that the true trajectory lands at the intended point.
 
 ## Extension: Position and Velocity Matching
 
-Classical LGR only matches terminal **position**. Burns-Scherock (2004), in an interceptor scenario, add a short fourth-stage impulse so that terminal **velocity** also matches the target — once both position and velocity match, the interceptor follows the target's trajectory. Procedure:
+Classical LGR only matches terminal **position**. Burns-Scherock (2004), in an interceptor scenario, add a short fourth-stage impulse so that terminal **velocity** also matches the target; once both position and velocity match, the interceptor follows the target's trajectory. Procedure:
 
 1. First pass: guide with LGR to the target position $\vec R_T$; estimate $\Delta\vec V$ at closest approach;
 2. Bias the guidance target to $\vec R_{\text{offset}}=\vec R_T-\Delta\vec R$ ($\Delta\vec R$ is the position deviation induced by the fourth-stage impulse);
 3. The fourth stage ignites along $\Delta\vec V$ at time $\Delta T$ before the target;
-4. Because the second-pass path differs slightly, $\Delta\vec V$ must be iterated to convergence — typically within 2-3 iterations.
+4. Because the second-pass path differs slightly, $\Delta\vec V$ must be iterated to convergence, typically within 2-3 iterations.
 
 ## Application Notes
 

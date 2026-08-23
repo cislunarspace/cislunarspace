@@ -44,4 +44,4 @@ Determining the spatiotemporal distribution of the solar exclusion cone within a
 
 ## References
 
-- Ding et al., 2025 — Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits
+- Ding et al., 2025. Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits

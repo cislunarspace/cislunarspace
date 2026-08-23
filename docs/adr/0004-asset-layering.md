@@ -1,4 +1,4 @@
-# ADR 0004 — 资产分层与仓库形态
+# ADR 0004: 资产分层与仓库形态
 
 - **Status:** Proposed
 - **Date:** 2026-08-19
@@ -7,35 +7,35 @@
 
 ## Context
 
-仓库里实际存在三类数据，但边界模糊：**内容源**（markdown、taxonomy 数据、图片——git 该管的）、**派生数据**（`generate.ts` 从内容源算出的 JSON——构建该管的）、**构建产物**（`dist/`）。下面的证据说明三层数据今天互相混置。
+仓库里实际存在三类数据，但边界模糊：**内容源**（markdown、taxonomy 数据、图片，git 该管的）、**派生数据**（`generate.ts` 从内容源算出的 JSON，构建该管的）、**构建产物**（`dist/`）。下面的证据说明三层数据今天互相混置。
 
 ### 派生数据混进 git，且与源码同目录
 
 - `web/.vuepress/` 根层：`config.ts` 旁边躺着 `sidebar.auto.json`、`sidebar-glossary.auto.json`（1.1MB、39009 行）等生成 JSON。
-- 全仓检索确认：这些 JSON 没有任何远端或 CI 消费者。唯一引用点是自动更新管线 phase 3 的 `git add` 列表惯性地把它们加入提交；而真正的发布通道是 phase 4 的 `rsync dist`——生成物提交纯属历史惯性。
+- 全仓检索确认：这些 JSON 没有任何远端或 CI 消费者。唯一引用点是自动更新管线 phase 3 的 `git add` 列表惯性地把它们加入提交；而真正的发布通道是 phase 4 的 `rsync dist`，生成物提交纯属历史惯性。
 - 同一数据双写：`generators/space-news.ts` 把三份 space-news JSON 同时写到 `.vuepress/` 根和 `.vuepress/public/`。构建期没有任何代码读根目录那几份（theme2 运行时组件 fetch 的是 `public/` 份）。
-- 死产物：`public/space-news-articles.json`（901KB，旧 schema）——生成器已不产出，全仓无引用。
+- 死产物：`public/space-news-articles.json`（901KB，旧 schema）：生成器已不产出，全仓无引用。
 - `web/public/`：一个靠 gitignore 遮住的误输出残留目录（`.gitignore` 注释自述此事）。
 
 ### 图片三套约定并存，约 230MB 字节级冗余
 
-- space-news 每月 figures 目录，`scripts/space-news-publish/IMAGES.md` 规定英文侧 `cp -r` 整目录复制——zh 侧约 237MB、en 侧约 229MB，抽样 md5 相同。
-- 关键事实：md 里的 `./figures/...` 只是 URL 约定，`build/sync-figures.js` 才是图片进 `dist/` 的唯一通道。因此"物理只存一份、构建期拷到 dist 的两个位置"即可去重，md 一行都不用改。
+- space-news 每月 figures 目录，`scripts/space-news-publish/IMAGES.md` 规定英文侧 `cp -r` 整目录复制：zh 侧约 237MB、en 侧约 229MB，抽样 md5 相同。
+- 关键事实：md 里的 `./figures/...` 只是 URL 约定，`build/sync-figures.js` 才是图片进 `dist/` 的唯一通道。因此物理只存一份、构建期拷到 dist 的两个位置即可去重，md 一行都不用改。
 - 另有两套并存：`.vuepress/public/` 绝对路径图、glossary 同目录 figures。还有孤儿图（`space-news/2026/04/figures/` 根下 10 张无引用散图）。
 - figures 目录命名不统一：带 `-zh`/`-en` 后缀的目录 zh 侧 3 个、en 侧 9 个，其余不带。
 
 ### glossary 名实分离
 
 - `config.ts` 的 `pagePatterns` 排除 `glossary/**` 与 `en/glossary/**`（构建提速 4500 → 1489 页），词条页面不再 SSR。
-- theme2 没有任何客户端渲染组件消费 glossary 页面，`dist/glossary/` 不存在——**线上没有词典页面**。
-- 但全套维护机制仍在运转：navbar 挂着"地月空间术语词典"入口、`sidebar/config.ts` 仍构建 glossary 树、1.1MB 的 `sidebar-glossary.auto.json` 每次构建生成并提交（且无构建期消费者）、translation-gap 机制仍向侧边栏注入占位。
+- theme2 没有任何客户端渲染组件消费 glossary 页面，`dist/glossary/` 不存在，**线上没有词典页面**。
+- 但全套维护机制仍在运转：navbar 挂着地月空间术语词典入口、`sidebar/config.ts` 仍构建 glossary 树、1.1MB 的 `sidebar-glossary.auto.json` 每次构建生成并提交（且无构建期消费者）、translation-gap 机制仍向侧边栏注入占位。
 - 词条 md 的真实现存价值：`generators/ai-chat-context.ts` 全站扫描把它们作为 AI 问答语料，`chat-index-intake` 把它们编入 AI 路由索引。
 
 ### 目录职责混杂
 
 - 仓库根 `scripts/` 六类并存：运行管线（space-news-update-\*）、一次性脚本、4.2MB 数据文件（`terms-classification.json`）、`__pycache__`、agent skill 文档、nginx 配置。
 - `.vuepress/theme2/` 命名遗留；`.vuepress/internal-docs/` 文档塞在配置目录；`.vuepress/scripts/`（微信签名 mjs）与根 `scripts/` 同名；`web/deploy/` 放部署配置；5.4MB 的 `ref.bib` 放 `web/` 根。
-- `patch-vuepress-concurrent.js` 直接改 `node_modules`，且不在任何 npm script 里——重装依赖即失效，靠人记得手工执行。
+- `patch-vuepress-concurrent.js` 直接改 `node_modules`，且不在任何 npm script 里，重装依赖即失效，靠人记得手工执行。
 
 ### 双语镜像有实际错位
 
@@ -54,7 +54,7 @@
 配套改动：
 
 - `generators/space-news.ts` 停写 `.vuepress/` 根那 4 份（无构建期消费者，theme2 fetch 的是 `public/` 份）；`generate.test.ts` 同步调整断言。
-- `git rm --cached` 已跟踪的生成物，`.gitignore` 补齐（`sidebar.auto.json` 属"先提交后 ignore"，必须显式 rm 才生效）。
+- `git rm --cached` 已跟踪的生成物，`.gitignore` 补齐（`sidebar.auto.json` 属先提交后 ignore，必须显式 rm 才生效）。
 - 管线 phase 3 的 `git add` 列表删去生成物，只 add 内容源目录。实施前复核 gitee 侧是否另有消费仓库生成物的构建脚本（未发现，但该服务器不在本仓库管辖内）。
 - 删除死产物与残留：`public/space-news-articles.json`、`web/public/` 整目录。
 
@@ -65,11 +65,11 @@
 - en 侧物理副本删除的前置条件：全量 md5 对比 zh/en 同名目录，全部一致才删；带 `-zh`/`-en` 后缀的 12 个目录（内容可能与对侧不同）逐一人工确认后统一为无后缀命名。
 - 孤儿图经引用完整性检查（见第 5 节）确认后删除。
 - `IMAGES.md` 废除 `cp -r` 条款。
-- 公共图（logo、示意图等）一律 `.vuepress/public/`，词条/文章配图一律同目录 figures——两套约定各管一类，不再交叉。
+- 公共图（logo、示意图等）一律 `.vuepress/public/`，词条/文章配图一律同目录 figures：两套约定各管一类，不再交叉。
 
 ### 3. glossary：清洗后双定位（已确认）
 
-现状必须终结——"页面不存在、入口还在、机制全在跑"。站长已确认方向（见[内容资源与受众分析](../content-strategy.md)第五节）：**删掉短词条与低价值词条；保留的词条既是 AI 语料库，也是词典。**
+现状必须终结：页面不存在、入口还在、机制全在跑。站长已确认方向（见[内容资源与受众分析](../content-strategy.md)第五节）：**删掉短词条与低价值词条；保留的词条既是 AI 语料库，也是词典。**
 
 - **清洗**：删除模板化短词条（判定标准见内容策略），批量删除走 ADR-0003 内容操作模块的 `delete`（带回收站），不走裸脚本。
 - **语料**：保留词条继续作为 AI 问答语料与路由索引输入。
@@ -104,20 +104,20 @@
 1. 不改线上内容 URL（glossary 决策本身除外）。
 2. 不做图床或 CDN，图片仍随仓库与 dist。
 3. 不重写构建链（VuePress 2 保留；concurrent 补丁只做脚本化收纳）。
-4. 不重写 git 历史——已有的大文件体积留在历史里，本次只保证增量干净。
+4. 不重写 git 历史：已有的大文件体积留在历史里，本次只保证增量干净。
 
 ## Consequences
 
 ### Positive
 
 - 仓库工作区瘦身约 230MB（en 侧图片）+ 消除每次内容提交的 MB 级 JSON churn，diff 回到纯内容。
-- "源 / 派生 / 产物"三层在目录与 git 层面直接可见。
+- 源 / 派生 / 产物三层在目录与 git 层面直接可见。
 - glossary 名实一致。
 - 镜像错位与孤儿资源有构建期拦截，整理成果不再腐化。
 
 ### Negative
 
-- 生成物不进 git 后，克隆仓库须先跑 `gen-sidebar` 才能构建——`docs:dev`/`docs:build` 已内建此前置，实际无感，仅直接调 vuepress 命令的场合需要注意。
+- 生成物不进 git 后，克隆仓库须先跑 `gen-sidebar` 才能构建（`docs:dev`/`docs:build` 已内建此前置），实际无感，仅直接调 vuepress 命令的场合需要注意。
 - en 侧图片删除是一次性大改动（约 229MB、上千文件），需脚本化执行加校验报告。
 - `sync-figures` 双拷使 dist 构建时间略增（文件级复制，可忽略）。
 - `theme2` 改名波及全部 alias 与 import 路径。
@@ -140,6 +140,6 @@
 
 ## Alternatives considered
 
-- **生成物保留提交，换取远端/CI 构建**——否决。当前发布通道是本地构建加 rsync dist，git 里的生成物没有消费者，保留只是每次内容提交的 MB 级噪声。
-- **图片改图床或外链**——否决（本期）。物理单份已消除冗余，引入外部依赖与迁移成本不成比例。
-- **glossary 恢复 SSR 全量页面**——否决。当初为构建提速而排除（4500 → 1489 页），恢复与该决策相悖；客户端渲染（方案 B）或语料化（方案 A）是仅有的两个名实一致的方向。
+- **生成物保留提交，换取远端/CI 构建**：否决。当前发布通道是本地构建加 rsync dist，git 里的生成物没有消费者，保留只是每次内容提交的 MB 级噪声。
+- **图片改图床或外链**：否决（本期）。物理单份已消除冗余，引入外部依赖与迁移成本不成比例。
+- **glossary 恢复 SSR 全量页面**：否决。当初为构建提速而排除（4500 → 1489 页），恢复与该决策相悖；客户端渲染（方案 B）或语料化（方案 A）是仅有的两个名实一致的方向。

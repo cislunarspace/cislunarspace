@@ -34,9 +34,9 @@ permalink: /glossary/dynamics/lunar-flyby-plane-change/
 
 ## 几何与节省量
 
-飞越的转向角 $\delta$ 在低近月点高度下很大（见 [月球飞越](/glossary/dynamics/lunar-flyby/)），若入射 $\vec v_\infty$ 在地月轨道面内、所选 B 平面瞄准点让出射 $\vec v_\infty(t_{\rm out})$ 带可观的 $z$ 分量，飞越就相当于用月球引力"免费"做了一次面外机动——等效 $\Delta v$ 可达 $10^2$ m/s 量级（Zanzottera et al. 2011, §5.1）。Peng 等（2024）在 GTO–DRO 转移里实测：飞越后落到地月轨道面所需的面内显式脉冲 $\Delta v_\Sigma$ 可压到 5 m/s 以内，而飞越本身等效提供了超过 200 m/s 的 $z$ 方向速度变化。
+飞越的转向角 $\delta$ 在低近月点高度下很大（见 [月球飞越](/glossary/dynamics/lunar-flyby/)），若入射 $\vec v_\infty$ 在地月轨道面内、所选 B 平面瞄准点让出射 $\vec v_\infty(t_{\rm out})$ 带可观的 $z$ 分量，飞越就相当于用月球引力免费做了一次面外机动，等效 $\Delta v$ 可达 $10^2$ m/s 量级（Zanzottera et al. 2011, §5.1）。Peng 等（2024）在 GTO–DRO 转移里实测：飞越后落到地月轨道面所需的面内显式脉冲 $\Delta v_\Sigma$ 可压到 5 m/s 以内，而飞越本身等效提供了超过 200 m/s 的 $z$ 方向速度变化。
 
-对于面内出发到 halo 轨道稳定流形的转移，这正是"单脉冲转移"成立的机理：飞越把面内的地月转移弧弯出地月轨道面、直接搭上 halo 稳定流形，省去了原本独立的面外变轨。
+对于面内出发到 halo 轨道稳定流形的转移，这正是单脉冲转移成立的机理：飞越把面内的地月转移弧弯出地月轨道面、直接搭上 halo 稳定流形，省去了原本独立的面外变轨。
 
 ## 方法：二体筛查 + BCR4BP 修正
 
@@ -48,7 +48,7 @@ permalink: /glossary/dynamics/lunar-flyby-plane-change/
 
 - **地月到 halo 的转移**：Zanzottera 等（2011）用太阳摄动下的月球飞越搭接面内地球出发弧与三维 halo 稳定流形，是经典的单脉冲 Earth-to-halo 转移。
 
-- **近距月球飞越**：另一分类里的"近距月球飞越面外转移（close lunar flyby plane change transfer）"是同一机制的另一称呼，强调用极近的近月点把转向角做到最大。
+- **近距月球飞越**：另一分类里的近距月球飞越面外转移（close lunar flyby plane change transfer）是同一机制的另一称呼，强调用极近的近月点把转向角做到最大。
 
 ## 相关概念
 

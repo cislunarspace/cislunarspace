@@ -18,9 +18,9 @@ wechatShare:
 
 ## Principles
 
-Ballistic Capture is a technique for Earth-Moon transfer that leverages lunar gravity assist. The core idea is that a spacecraft can be "naturally captured" by the Moon's gravity without performing any propulsion-based deceleration.
+Ballistic Capture is a technique for Earth-Moon transfer that leverages lunar gravity assist. The core idea is that a spacecraft can be naturally captured by the Moon's gravity without performing any propulsion-based deceleration.
 
-Traditional Earth-Moon transfer (powered capture) requires a deceleration maneuver when approaching the Moon to enter lunar orbit. Ballistic capture, on the other hand, exploits the dynamical characteristics of the lunar orbit: if a spacecraft is launched with precise aim at where the Moon will be at a future time, then when the spacecraft arrives at that location, the Moon's gravity will "pull it in" to a relatively stable orbit—even without deceleration.
+Traditional Earth-Moon transfer (powered capture) requires a deceleration maneuver when approaching the Moon to enter lunar orbit. Ballistic capture, on the other hand, exploits the dynamical characteristics of the lunar orbit: if a spacecraft is launched with precise aim at where the Moon will be at a future time, then when the spacecraft arrives at that location, the Moon's gravity will pull it in to a relatively stable orbit, even without deceleration.
 
 ## Ballistic Capture vs. Powered Capture
 
@@ -36,7 +36,7 @@ Traditional Earth-Moon transfer (powered capture) requires a deceleration maneuv
 
 Ballistic capture is the core implementation mechanism of the **Weak Stability Boundary** (WSB) transfer theory.
 
-WSB theory was proposed by Italian mathematicians Belbruno and Miller in 1987. Their key discovery was that there exists a "weak stability boundary" in the Earth-Moon system, and transfers crossing this boundary can be completed with extremely low energy. The specific process is:
+WSB theory was proposed by Italian mathematicians Belbruno and Miller in 1987. Their key discovery was that there exists a weak stability boundary in the Earth-Moon system, and transfers crossing this boundary can be completed with extremely low energy. The specific process is:
 
 1. Launch with aim at a point ahead of the Moon (not at the Moon itself)
 2. Exploit the interaction between solar gravity perturbations and lunar gravity

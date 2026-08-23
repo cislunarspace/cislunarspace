@@ -48,7 +48,7 @@ $$v = \sqrt{\frac{\mu_E}{r}}$$
 
 在地月转移任务中，LEO 通常充当航天器的**停泊轨道**（Parking Orbit）。航天器首先由运载火箭送入 LEO，然后在合适的相位和时机施加地月转移脉冲，进入地月转移轨道。
 
-这种"LEO 停泊—地月转移"的任务架构具有以下优势：
+这种由 LEO 停泊至地月转移的任务架构具有以下优势：
 
 1. **任务灵活性**：航天器可在 LEO 等待最佳发射窗口，而不受地面发射窗口的严格约束。
 2. **系统验证**：在 LEO 停泊期间可以对航天器各系统进行全面检查，确认状态正常后再执行深空转移。
@@ -70,7 +70,7 @@ LEO 不仅是航天活动的起点，更是地月空间基础设施的关键节�
 
 - **空间站**：中国空间站（天宫）、国际空间站均运行在 LEO，为长期载人航天提供平台。
 - **卫星星座**：Starlink、OneWeb 等大型通信星座部署在 LEO，为全球提供互联网服务。
-- **地月交通枢纽**：未来 LEO 有望发展为地月空间的"交通枢纽"，承担在轨加注、货物中转等功能。
+- **地月交通枢纽**：未来 LEO 有望发展为地月空间的交通枢纽，承担在轨加注、货物中转等功能。
 
 ## 相关概念
 
@@ -81,6 +81,6 @@ LEO 不仅是航天活动的起点，更是地月空间基础设施的关键节�
 
 ## 参考文献
 
-- 魏赞等, "地月远距离逆行轨道族月球借力转移入轨研究", 2026.
-- Vallado D A, "Fundamentals of Astrodynamics and Applications", 4th ed., Microcosm Press, 2013.
-- Wertz J R, Everett D F, Puschell J J, "Space Mission Engineering: The New SMAD", Microcosm Press, 2011.
+- 魏赞等, 地月远距离逆行轨道族月球借力转移入轨研究, 2026.
+- Vallado D A, Fundamentals of Astrodynamics and Applications, 4th ed., Microcosm Press, 2013.
+- Wertz J R, Everett D F, Puschell J J, Space Mission Engineering: The New SMAD, Microcosm Press, 2011.

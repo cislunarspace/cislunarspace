@@ -30,7 +30,7 @@ TLI launch windows are determined by the Earth-Moon geometry, with the main cons
 
 ### Lunar Phase
 
-The optimal TLI launch window occurs when the Moon is near **perigee**, when the Moon is closest to Earth and the transfer requires the least energy. Lunar phase (the angle relative to the Sun) is also an important parameter — the ideal launch timing is when the Moon's position in the sky favors observation and communication.
+The optimal TLI launch window occurs when the Moon is near **perigee**, when the Moon is closest to Earth and the transfer requires the least energy. Lunar phase (the angle relative to the Sun) is also an important parameter: the ideal launch timing is when the Moon's position in the sky favors observation and communication.
 
 ### Launch Opportunity Frequency
 

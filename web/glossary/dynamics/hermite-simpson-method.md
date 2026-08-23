@@ -13,17 +13,17 @@ keywords: 直接配点法, 直接转录, Hermite-Simpson, 最优控制, 非线�
 
 ## 定义
 
-直接配点法（direct collocation）又称直接转录（direct transcription），将连续最优控制问题转化为有限维非线性规划（NLP）。时间域被分割为 $M$ 个区间——网格点 $t_0 < t_1 < \dots < t_M = t_f$。NLP 决策变量是每个网格点上的状态值 $\mathbf{y}_j$ 和控制值 $\mathbf{u}_j$（外加参数 $\mathbf{p}$ 和可选的时间 $t_0$、$t_f$）。在每个区间上，插值多项式逼近状态，一个**缺陷约束（defect constraint）**迫使其导数与动力学方程 $\mathbf{f}(\mathbf{y}, \mathbf{u}, \mathbf{p}, t)$ 在该区间内若干**配点（collocation point）**处匹配，从而将 ODE 系统替换为代数等式约束 $\boldsymbol{\zeta}_j = 0$（Betts 1998）。
+直接配点法（direct collocation）又称直接转录（direct transcription），将连续最优控制问题转化为有限维非线性规划（NLP）。时间域被分割为 $M$ 个区间，网格点 $t_0 < t_1 < \dots < t_M = t_f$。NLP 决策变量是每个网格点上的状态值 $\mathbf{y}_j$ 和控制值 $\mathbf{u}_j$（外加参数 $\mathbf{p}$ 和可选的时间 $t_0$、$t_f$）。在每个区间上，插值多项式逼近状态，一个**缺陷约束（defect constraint）**迫使其导数与动力学方程 $\mathbf{f}(\mathbf{y}, \mathbf{u}, \mathbf{p}, t)$ 在该区间内若干**配点（collocation point）**处匹配，从而将 ODE 系统替换为代数等式约束 $\boldsymbol{\zeta}_j = 0$（Betts 1998）。
 
 ## 为什么用直接配点
 
-- **无需推导伴随方程。**与[间接法](/glossary/dynamics/indirect-methods/)不同，直接法不需要协态方程、横截条件或极大值原理——用户只需提供动力学、约束和目标函数。
+- **无需推导伴随方程。**与[间接法](/glossary/dynamics/indirect-methods/)不同，直接法不需要协态方程、横截条件或极大值原理，用户只需提供动力学、约束和目标函数。
 
 - **无需事先指定约束子弧序列。**路径不等式约束由 NLP 的 active-set 策略处理，用户不必猜测哪些子弧受约束、哪些自由。
 
 - **NLP 稀疏结构。**缺陷约束仅耦合相邻网格点，雅可比矩阵和 Hessian 矩阵具有稀疏性，可被稀疏 NLP 解算器高效利用。
 
-主要代价：NLP 规模大——一个 7 状态、2 控制、每段 100 网格点、共 5 段的问题，产生约 4500 个 NLP 变量（Betts 1998）。稀疏性的高效利用是关键。
+主要代价：NLP 规模大，一个 7 状态、2 控制、每段 100 网格点、共 5 段的问题，产生约 4500 个 NLP 变量（Betts 1998）。稀疏性的高效利用是关键。
 
 ## Hermite-Simpson 缺陷
 
@@ -45,7 +45,7 @@ $$
 
 连续控制函数 $\mathbf{u}(t)$ 必须用有限参数表达。常见方案由简至繁：
 
-- **线性插值参数化：**控制值在网格点上定义，网格点之间线性插值。最简单的方案，对应分段线性控制——对小推力转移等许多问题已足够（Kluever 1997）。
+- **线性插值参数化：**控制值在网格点上定义，网格点之间线性插值。最简单的方案，对应分段线性控制，对小推力转移等许多问题已足够（Kluever 1997）。
 
 - **分段多项式控制：**控制函数在各网格区间上表示为一个多项式，多项系数作为 NLP 变量。高次多项式可用较少网格区间达到同等精度，是线性插值的推广。
 
@@ -53,7 +53,7 @@ $$
 
 ## 最优控制中的微分代数方程（DAE）
 
-最优控制必要条件本身就是 DAE 系统：状态方程 $\dot{\mathbf{y}} = \mathbf{f}$（微分部分），最优性条件 $\mathbf{H}_{\mathbf{u}}^{\top} = 0$（代数部分），以及协态方程。DAE 的**指标（index）**衡量将代数方程化为显式 ODE 所需的微分次数（Betts 1998, Sec. V.A）。指标 1 的 DAE（路径约束矩阵 $\partial\mathbf{g}/\partial\mathbf{u}$ 满秩）可用 DASSL 等标准方法求解（Petzold 1982）；指标 $\ge 2$ 需指标约减——对代数约束微分——引入数值漂移，需要专门的配点格式。
+最优控制必要条件本身就是 DAE 系统：状态方程 $\dot{\mathbf{y}} = \mathbf{f}$（微分部分），最优性条件 $\mathbf{H}_{\mathbf{u}}^{\top} = 0$（代数部分），以及协态方程。DAE 的**指标（index）**衡量将代数方程化为显式 ODE 所需的微分次数（Betts 1998, Sec. V.A）。指标 1 的 DAE（路径约束矩阵 $\partial\mathbf{g}/\partial\mathbf{u}$ 满秩）可用 DASSL 等标准方法求解（Petzold 1982）；指标 $\ge 2$ 需指标约减（对代数约束微分）引入数值漂移，需要专门的配点格式。
 
 在直接转录中，NLP 本身就是一个大的代数约束系统（缺陷约束）；对指标 1 的问题，只要网格足够密，由隐函数定理保证 NLP 是良定的。
 

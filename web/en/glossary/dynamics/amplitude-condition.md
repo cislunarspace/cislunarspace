@@ -30,17 +30,17 @@ permalink: /en/glossary/dynamics/amplitude-condition/
 
 ## What Is the Amplitude Condition?
 
-The linearized motion near CR3BP libration points decomposes into two approximately independent harmonic oscillations: one in the xy-plane and one out of plane. The in-plane frequency is $\omega$ and the out-of-plane frequency is $\nu$ — these are generally incommensurable, giving Lissajous-type trajectories as the linear approximation (Richardson 1980).
+The linearized motion near CR3BP libration points decomposes into two approximately independent harmonic oscillations: one in the xy-plane and one out of plane. The in-plane frequency is $\omega$ and the out-of-plane frequency is $\nu$, these are generally incommensurable, giving Lissajous-type trajectories as the linear approximation (Richardson 1980).
 
-Halo-type periodic orbits require the in-plane and out-of-plane frequencies to become equal after nonlinear corrections. When Richardson (1980) constructed the third-order analytical approximation using the Lindstedt-Poincaré method, secular terms appeared in the third-order z-equation that could not be eliminated through frequency expansion alone. To complete a secular-term-free third-order expansion, a nonlinear algebraic constraint must be imposed between the in-plane amplitude $A_x$ and the out-of-plane amplitude $A_z$ — this is the **amplitude condition** (Richardson 1980):
+Halo-type periodic orbits require the in-plane and out-of-plane frequencies to become equal after nonlinear corrections. When Richardson (1980) constructed the third-order analytical approximation using the Lindstedt-Poincaré method, secular terms appeared in the third-order z-equation that could not be eliminated through frequency expansion alone. To complete a secular-term-free third-order expansion, a nonlinear algebraic constraint must be imposed between the in-plane amplitude $A_x$ and the out-of-plane amplitude $A_z$: this is the **amplitude condition** (Richardson 1980):
 
 $$
 l_1 A_x^2 + l_2 A_z^2 + \Delta = 0 \tag{18}
 $$
 
-where $l_1$, $l_2$, and $\Delta$ are constant coefficients determined by the libration point position and the mass parameter $\mu$ (specific values are given in Richardson 1980, Appendix I; tabulated values for Sun-Earth libration points are in the paper's table). This condition implies that **$A_x$ and $A_z$ are not independent parameters** — choosing one constrains the other. When the amplitude condition is not satisfied, the orbit degenerates into a non-closed Lissajous-type trajectory with incommensurable in-plane and out-of-plane frequencies, rather than a periodic Halo orbit.
+where $l_1$, $l_2$, and $\Delta$ are constant coefficients determined by the libration point position and the mass parameter $\mu$ (specific values are given in Richardson 1980, Appendix I; tabulated values for Sun-Earth libration points are in the paper's table). This condition implies that **$A_x$ and $A_z$ are not independent parameters**, choosing one constrains the other. When the amplitude condition is not satisfied, the orbit degenerates into a non-closed Lissajous-type trajectory with incommensurable in-plane and out-of-plane frequencies, rather than a periodic Halo orbit.
 
-The amplitude condition also has two branches (n = 1 and n = 3), distinguished by the switch function $\delta_n = 2-n$ in the phase-angle constraint $\psi = \phi + n\pi/2$ — this corresponds to the bifurcation into the Northern and Southern Halo orbit families (Richardson 1980). Changing the sign of $A_z$ switches from the Northern to the Southern family.
+The amplitude condition also has two branches (n = 1 and n = 3), distinguished by the switch function $\delta_n = 2-n$ in the phase-angle constraint $\psi = \phi + n\pi/2$, this corresponds to the bifurcation into the Northern and Southern Halo orbit families (Richardson 1980). Changing the sign of $A_z$ switches from the Northern to the Southern family.
 
 The amplitude condition determines the minimum permissible $A_x$ for Halo orbits: when $A_z = 0$, $A_{x,\min} = \sqrt{-\Delta/l_1}$. For the Sun-Earth $L_1$ point, $A_{x,\min}$ is about 14% of the normalized distance, corresponding to approximately 200,000 km (Richardson 1980).
 
@@ -76,9 +76,9 @@ which collapse time and the original phases into two angular variables. On a Lis
 
 The **Effective Phases Plane (EPP)** is the 2D plane with coordinates $(\Phi, \Psi)$. In the EPP:
 
-- A Lissajous trajectory is a straight line of slope $\nu/\omega$ (approximately 0.966–0.965 for Sun-Earth $L_1$/$L_2$) that propagates with constant velocity components $\omega$ and $\nu$ in the $\Phi$ and $\Psi$ directions — when compactly represented in $[0, 2\pi] \times [0, 2\pi]$, it becomes a periodically wrapping segmented line.
+- A Lissajous trajectory is a straight line of slope $\nu/\omega$ (approximately 0.966–0.965 for Sun-Earth $L_1$/$L_2$) that propagates with constant velocity components $\omega$ and $\nu$ in the $\Phi$ and $\Psi$ directions, when compactly represented in $[0, 2\pi] \times [0, 2\pi]$, it becomes a periodically wrapping segmented line.
 
-- An exclusion zone (e.g., the 3° solar disk cone for Sun-Earth $L_1$, or the Earth's penumbra disk for $L_2$) appears in the EPP as quasi-elliptic closed curves. **The time to eclipse is simply proportional to the distance from the current point to the first intersection of the trajectory line with an exclusion-zone curve** — converting eclipse prediction from a high-dimensional integration problem into a geometric calculation (Belló et al. 2010).
+- An exclusion zone (e.g., the 3° solar disk cone for Sun-Earth $L_1$, or the Earth's penumbra disk for $L_2$) appears in the EPP as quasi-elliptic closed curves. **The time to eclipse is simply proportional to the distance from the current point to the first intersection of the trajectory line with an exclusion-zone curve**, converting eclipse prediction from a high-dimensional integration problem into a geometric calculation (Belló et al. 2010).
 
 ### Maneuver Design via the EPP
 

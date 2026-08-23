@@ -1,4 +1,4 @@
----
+﻿---
 title: Sliding Mode Control and Optimal Sliding Mode Control (OSMC)
 description: Sliding Mode Control (SMC) shapes a switching control law that drives the state onto a prescribed sliding surface and then slides along it, achieving invariance to matched uncertainties and disturbances. Optimal Sliding Mode Control (OSMC) embeds the LQR gain in an integral sliding surface so that the sliding motion is optimal for a quadratic cost, while a discontinuous switching term rejects disturbances. This entry covers SMC's mathematical structure (equivalent control, switching term, Lyapunov stability, chattering), integral sliding surface design, the coupling of LQR and SMC in OSMC, and engineering tuning for cislunar libration-point station-keeping.
 keywords: sliding mode control, SMC, optimal sliding mode control, OSMC, integral sliding surface, equivalent control, chattering, Lyapunov stability, libration point station-keeping
@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/osmc/
 
 ## Definition
 
-**Sliding Mode Control (SMC)** is a variable-structure control method: a lower-dimensional manifold — the **sliding surface** $s(\boldsymbol{x},t)=0$ — is designed in state space, and the control law switches between structures in different regions to drive the state onto the surface in finite time and then slide along it. Once on the sliding surface, the closed-loop behaviour is governed by the surface equation, **achieving invariance to matched model uncertainties and disturbances** (Utkin 1977; Slotine & Li 1991).
+**Sliding Mode Control (SMC)** is a variable-structure control method: a lower-dimensional manifold (the **sliding surface** $s(\boldsymbol{x},t)=0$) is designed in state space, and the control law switches between structures in different regions to drive the state onto the surface in finite time and then slide along it. Once on the sliding surface, the closed-loop behaviour is governed by the surface equation, **achieving invariance to matched model uncertainties and disturbances** (Utkin 1977; Slotine & Li 1991).
 
 **Optimal Sliding Mode Control (OSMC)** embeds the [LQR](/en/glossary/dynamics/linear-quadratic-optimal-control/) feedback gain in the sliding surface so that sliding motion is optimal for a predefined quadratic cost, while a discontinuous switching term compensates for disturbances. This combines LQR optimality with SMC robustness (Utkin & Shi 1996; Zhang & Wang 2022).
 

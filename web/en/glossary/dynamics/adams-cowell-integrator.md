@@ -14,7 +14,7 @@ description: A family of linear multi-step numerical integrators—predictor-cor
 
 A multi-step integrator advances the solution from $t_n$ to $t_{n+1}$ using the current state *plus* a history of previously computed function values (back values). This distinguishes it from single-step methods like Runge-Kutta, which use only the state at $t_n$. Multi-step methods typically operate in **predictor-corrector** pairs: a predictor formula gives an initial estimate $y_{n+1}^p$, then a corrector formula refines it using the predicted state's derivative (Vallado 2022, Sec. 8.5–8.6).
 
-Because they reuse past evaluations, multi-step methods can achieve high accuracy with just **one or two force-model calls per step**—far fewer than the $s$ stages of an Runge-Kutta step. The trade-off: they are not self-starting, they store a history of back values and summed differences, and variable step-size control is significantly more complex.
+Because they reuse past evaluations, multi-step methods can achieve high accuracy with just **one or two force-model calls per step**, far fewer than the $s$ stages of an Runge-Kutta step. The trade-off: they are not self-starting, they store a history of back values and summed differences, and variable step-size control is significantly more complex.
 
 In astrodynamics, multi-step methods fall into two broad families based on the equation they solve:
 
@@ -22,7 +22,7 @@ In astrodynamics, multi-step methods fall into two broad families based on the e
 
 - **Double-integration methods** (second-order ODEs, e.g., $\ddot{\vec{r}} = \vec{a}(\vec{r}, \vec{v}, t)$): Stormer (predictor) + Cowell (corrector), and the summed Gauss-Jackson form.
 
-The "Cowell formulation" does not refer to a specific integrator but to the practice of directly integrating the second-order equations of motion without introducing velocity as an intermediate variable—originally used by Philip Cowell in 1909 to predict Halley's Comet (Vallado 2022).
+The Cowell formulation does not refer to a specific integrator but to the practice of directly integrating the second-order equations of motion without introducing velocity as an intermediate variable, originally used by Philip Cowell in 1909 to predict Halley's Comet (Vallado 2022).
 
 ## Adams-Bashforth-Moulton (Single-Integration)
 
@@ -42,7 +42,7 @@ Higher-order variants (8th, 12th) are common in operational software (Maury and 
 
 The Cowell formulation integrates $\ddot{\vec{r}} = \vec{a}$ directly. A Stormer predictor estimates position; a Cowell corrector refines it. For near-circular orbits without non-conservative forces (no velocity dependence), this skips the intermediate velocity computation entirely.
 
-**Gauss-Jackson** is the fixed-step, summed-ordinate form of Stormer-Cowell—the workhorse of long-arc orbit ephemeris generation. It uses summed back differences $\vec{S}_n^{\text{I}}$ and $\vec{S}_n^{\text{II}}$ to suppress round-off error. Herrick (1972) notes that for near-circular LEO orbits Gauss-Jackson is roughly one order of magnitude more efficient than RK4. The predictor (Gauss summed-ordinate, order $j$):
+**Gauss-Jackson** is the fixed-step, summed-ordinate form of Stormer-Cowell, the workhorse of long-arc orbit ephemeris generation. It uses summed back differences $\vec{S}_n^{\text{I}}$ and $\vec{S}_n^{\text{II}}$ to suppress round-off error. Herrick (1972) notes that for near-circular LEO orbits Gauss-Jackson is roughly one order of magnitude more efficient than RK4. The predictor (Gauss summed-ordinate, order $j$):
 $$
 \dot{\vec{r}}_{n+1}^p = h\left\{\alpha_{So}\vec{S}_n^{\text{II}} + \alpha_{S1}\vec{S}_n^{\text{I}} + \sum_{i=0}^{j}\beta_{Si}\ddot{\vec{r}}_{n-i}\right\}
 $$

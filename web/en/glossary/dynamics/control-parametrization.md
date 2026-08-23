@@ -46,7 +46,7 @@ $$
 
 where $\boldsymbol{P}_i$ are control points (optimization variables) and $B_{i,q}(t)$ are $q$-th order ($q-1$ degree) B-spline basis functions. **Key properties**:
 
-- **Compact support.** Each $B_{i,q}$ is nonzero only on $q$ knot intervals; adjusting one control point affects the profile only locally — an advantage over global bases when the control contains switches.
+- **Compact support.** Each $B_{i,q}$ is nonzero only on $q$ knot intervals; adjusting one control point affects the profile only locally, an advantage over global bases when the control contains switches.
 - **Continuity order.** With non-repeated interior knots, a $q$-th order B-spline is $C^{q-1}$; repeating a knot lowers continuity at that point, useful for representing discontinuities such as mode switches in multi-mode propulsion.
 - **Convex hull.** The curve lies within the convex hull of its control points, which makes thrust-magnitude constraints easy to impose.
 

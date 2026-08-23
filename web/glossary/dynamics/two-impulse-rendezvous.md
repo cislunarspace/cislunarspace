@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/two-impulse-rendezvous/
 
 ## 定义
 
-脉冲机动（impulsive maneuver）是对化学推进航天器轨道机动的一种数学近似：假设发动机推力 $F \to \infty$、燃烧时间 $\Delta t \to 0$，使得冲量 $F\Delta t$ 有限且轨道速度发生瞬时阶跃变化。这一近似成立的条件是燃烧时间远小于轨道周期——对于典型的高推力化学火箭（推力数十万牛、比冲 300--400 s），这在地球低轨转移中基本成立（Vallado 2022）。
+脉冲机动（impulsive maneuver）是对化学推进航天器轨道机动的一种数学近似：假设发动机推力 $F \to \infty$、燃烧时间 $\Delta t \to 0$，使得冲量 $F\Delta t$ 有限且轨道速度发生瞬时阶跃变化。这一近似成立的条件是燃烧时间远小于轨道周期，对于典型的高推力化学火箭（推力数十万牛、比冲 300--400 s），这在地球低轨转移中基本成立（Vallado 2022）。
 
 脉冲机动使轨道设计退化为求解速度增量 $\Delta v$（模与方向）的问题，而不必处理连续推力积分。两个核心性能指标：
 
@@ -54,7 +54,7 @@ Lambert 问题的解通过 Lagrange 系数或 Gibbs 方法得到，存在长程�
 
 - **三脉冲转移**：在地月 DRO 入轨的标准构型中，依次在离轨点、近月点和入轨点施加三次脉冲。离轨脉冲将航天器从地球停泊轨道送入地月转移段；近月点脉冲施加在月球飞掠近地点，借力改变飞行方向进入月球至 DRO 的转移段；入轨脉冲在 DRO 插入点完成轨道匹配。总脉冲为近月点脉冲与入轨脉冲之和（魏赞等 2026）。
 
-- **三脉冲入轨**：三脉冲转移在 DRO 捕获场景的具体表述——第一脉冲低轨离轨、第二脉冲近月点转向、第三脉冲 DRO 插入。
+- **三脉冲入轨**：三脉冲转移在 DRO 捕获场景的具体表述：第一脉冲低轨离轨、第二脉冲近月点转向、第三脉冲 DRO 插入。
 
 - **多脉冲机动**：轨道转移中使用的多次脉冲机动，可分段调整轨道参数，实现更灵活的转移轨迹设计。在转移时间长、约束多的复杂任务中，增加脉冲次数通常能降低总燃耗，代价是增加操纵复杂度。
 
@@ -70,7 +70,7 @@ Lambert 问题的解通过 Lagrange 系数或 Gibbs 方法得到，存在长程�
 2. **滑行段**：航天器在拼接段上沿引力自然飞行。
 3. **第二次脉冲**（到达）：在流形拼接点处匹配目标轨道的状态，之后沿稳定流形无动力趋向目标周期轨道。
 
-双脉冲平动点转移之所以仅需两次脉冲即可完成，关键在于利用了流形的自然动力学——滑行段不是自由的 Lambert 弧，而是被流形引导的"自动"轨道转换。
+双脉冲平动点转移之所以仅需两次脉冲即可完成，关键在于利用了流形的自然动力学：滑行段不是自由的 Lambert 弧，而是被流形引导的自动轨道转换。
 
 ### NRHO 脉冲交会调相
 
@@ -104,7 +104,7 @@ Fossa et al. (2022) 进一步研究了 NRHO 上的两脉冲与三脉冲调相策
 
 - 对于不稳定轨道（如 Halo），过长的间隔导致轨道指数级发散，需要较短的脉冲间隔（若干小时至半天）。
 
-脉冲施加法则给出了脉冲方向和位置的最优选择，脉冲间隔则将其嵌入时间调度框架——二者共同定义了完整的脉冲式轨道保持策略。
+脉冲施加法则给出了脉冲方向和位置的最优选择，脉冲间隔则将其嵌入时间调度框架，二者共同定义了完整的脉冲式轨道保持策略。
 
 ## 与连续推力控制的对比
 
@@ -122,19 +122,19 @@ Fossa et al. (2022) 进一步研究了 NRHO 上的两脉冲与三脉冲调相策
 
 ## 相关概念
 
-- [电推进（EP）](/glossary/fundamentals/ep/) — 连续推力系统的物理基础，脉冲模型的互补推力类型
+- [电推进（EP）](/glossary/fundamentals/ep/)：连续推力系统的物理基础，脉冲模型的互补推力类型
 
-- [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/) — 连续推力燃耗最优的脉冲式开关逻辑，双脉冲解是其延拓初值
+- [Bang-bang 控制与 Lawden 弧定律](/glossary/dynamics/bang-bang-control/)：连续推力燃耗最优的脉冲式开关逻辑，双脉冲解是其延拓初值
 
-- [推力方向与控制（Tangential Thrust Control）](/glossary/dynamics/tangential-thrust-control/) — 连续推力下的推力方向策略
+- [推力方向与控制（Tangential Thrust Control）](/glossary/dynamics/tangential-thrust-control/)：连续推力下的推力方向策略
 
-- [CR3BP（圆形限制性三体问题）](/glossary/dynamics/cr3bp/) — 平动点脉冲转移的动力框架
+- [CR3BP（圆形限制性三体问题）](/glossary/dynamics/cr3bp/)：平动点脉冲转移的动力框架
 
-- [零速度面](/glossary/dynamics/zero-velocity-surface/) — 雅可比常数决定的可达区域边界，脉冲施加法则的几何背景
+- [零速度面](/glossary/dynamics/zero-velocity-surface/)：雅可比常数决定的可达区域边界，脉冲施加法则的几何背景
 
-- [平动点（Libration Point）](/glossary/fundamentals/libration-point/) — 平动点轨道脉冲转移的基准目标
+- [平动点（Libration Point）](/glossary/fundamentals/libration-point/)：平动点轨道脉冲转移的基准目标
 
-- [Halo 轨道](/glossary/orbits/halo-orbit/) — 双脉冲与多脉冲转移的典型目标轨道族
+- [Halo 轨道](/glossary/orbits/halo-orbit/)：双脉冲与多脉冲转移的典型目标轨道族
 
 ## 参考文献
 

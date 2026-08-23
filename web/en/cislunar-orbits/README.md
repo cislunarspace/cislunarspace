@@ -51,7 +51,7 @@ Detailed design needs ephemerides, force models, and program constraints. See [r
 
 ### NRHO (Near-Rectilinear Halo Orbit)
 
-NRHO (Near-Rectilinear Halo Orbit) is a class of periodic orbits near the Earth-Moon libration points, named for their elongated "near-linear" appearance in the rotating frame. These orbits offer favorable communication visibility to the lunar south pole and require relatively low delta-v to reach the lunar surface, making them the preferred operational orbit for NASA's Lunar Gateway station in the Artemis program. NRHOs are solutions to the restricted three-body problem—they are not asymptotically stable and require periodic station-keeping—but their dynamical properties have been validated by numerous missions and remain a hot research topic in cislunar operations.
+NRHO (Near-Rectilinear Halo Orbit) is a class of periodic orbits near the Earth-Moon libration points, named for their elongated near-linear appearance in the rotating frame. These orbits offer favorable communication visibility to the lunar south pole and require relatively low delta-v to reach the lunar surface, making them the preferred operational orbit for NASA's Lunar Gateway station in the Artemis program. NRHOs are solutions to the restricted three-body problem; they are not asymptotically stable and require periodic station-keeping, but their dynamical properties have been validated by numerous missions and remain a hot research topic in cislunar operations.
 
 ### DRO (Distant Retrograde Orbit)
 
@@ -59,7 +59,7 @@ DRO (Distant Retrograde Orbit) refers to quasi-periodic orbits that are retrogra
 
 ### Earth-Moon Transfer Orbits
 
-Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and lunar orbit or the Moon's sphere of influence. Common transfer strategies include Hohmann transfers, low-energy transfers (Lunar Transfer Orbit, LTO), and the increasingly studied multi-body gravity-assist transfers. Each approach trades off propellant, transfer time, and launch window flexibility—fast transfers consume more fuel, while low-energy transfers can take months but require much less delta-v. Mission planners weigh these factors against schedule, launch vehicle capacity, and tracking coverage to select the best fit.
+Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and lunar orbit or the Moon's sphere of influence. Common transfer strategies include Hohmann transfers, low-energy transfers (Lunar Transfer Orbit, LTO), and the increasingly studied multi-body gravity-assist transfers. Each approach trades off propellant, transfer time, and launch window flexibility: fast transfers consume more fuel, while low-energy transfers can take months but require much less delta-v. Mission planners weigh these factors against schedule, launch vehicle capacity, and tracking coverage to select the best fit.
 
 ## Suggested reading order
 
@@ -67,6 +67,6 @@ Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and l
 2. [Glossary](/en/glossary/) for abbreviations (e.g. [CR3BP](/en/glossary/dynamics/cr3bp/)).
 3. [Research frontiers](/en/research-frontiers/) for active topics and references.
 
-*Deep-dive articles and worked examples are expanding—contributions via the repository are welcome.*
+*Deep-dive articles and worked examples are expanding; contributions via the repository are welcome.*
 
 ## Simulation Lab

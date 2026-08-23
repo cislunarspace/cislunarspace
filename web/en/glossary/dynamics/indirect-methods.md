@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/indirect-methods/
 
 ## Definition
 
-**Indirect methods** solve trajectory optimization problems by first applying [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) to derive a set of necessary conditions — the state-costate Hamilton canonical equations plus transversality conditions — that together form a **two-point boundary-value problem** (TPBVP), which is then solved numerically by shooting, collocation, or other root-finding techniques (Betts 1998; Conway 2010; Bryson & Ho 1975).
+**Indirect methods** solve trajectory optimization problems by first applying [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) to derive a set of necessary conditions (the state-costate Hamilton canonical equations plus transversality conditions) that together form a **two-point boundary-value problem** (TPBVP), which is then solved numerically by shooting, collocation, or other root-finding techniques (Betts 1998; Conway 2010; Bryson & Ho 1975).
 
 In contrast to **direct methods** (which discretize the state-control history directly into NLP parameters), indirect methods first resolve the optimality conditions analytically and only then seek a numerical solution. Their strengths are strict satisfaction of first-order necessary conditions, low parameter dimension, and high accuracy (routinely to machine precision). Their weaknesses are a narrow convergence basin, extreme sensitivity to the initial costate guess, and Jacobian difficulties at discontinuous (Bang-bang) controls.
 
@@ -73,13 +73,13 @@ Stacking state and costate into $\mathbf{y}=[\mathbf{x};\boldsymbol{\lambda}]$ w
 ### Single vs. multiple shooting
 
 - **Single shooting**: integrate the whole trajectory as one IVP, apply Newton's method to $\mathbf{z}$. Simple but ill-conditioned for long transfers.
-- **Multiple shooting**: divide $[t_0,t_f]$ into segments, integrate each independently, and stitch with continuity match conditions. The free-variable/constraint method is the engineering form of multiple shooting — all nodal states, costates, and parameters are stacked into a free-variable vector $\mathbf{V}$, all continuity and endpoint conditions into a constraint vector $\mathbf{C}(\mathbf{V})=\mathbf{0}$, solved by Newton iteration (Spreen 2021; [Differential Correction](/en/glossary/dynamics/differential-correction/)).
+- **Multiple shooting**: divide $[t_0,t_f]$ into segments, integrate each independently, and stitch with continuity match conditions. The free-variable/constraint method is the engineering form of multiple shooting: all nodal states, costates, and parameters are stacked into a free-variable vector $\mathbf{V}$, all continuity and endpoint conditions into a constraint vector $\mathbf{C}(\mathbf{V})=\mathbf{0}$, solved by Newton iteration (Spreen 2021; [Differential Correction](/en/glossary/dynamics/differential-correction/)).
 
 ### Indirect collocation
 
 **Indirect collocation** discretizes both state and costate equations (e.g., Dickmanns-Wells Hermite-Simpson) and solves the resulting algebraic system, eliminating the forward-integration ill-conditioning of shooting. The trade-off is much larger parameter dimension.
 
-Note: Hargraves and Paris (1987) observed that eliminating the costate and collocating state-control directly (i.e., **direct collocation**) is more robust — the starting point of the direct-method era. Modern indirect collocation is mostly used when strict PMP satisfaction is mandatory (e.g., inside differentiable NLP solvers).
+Note: Hargraves and Paris (1987) observed that eliminating the costate and collocating state-control directly (i.e., **direct collocation**) is more robust; the starting point of the direct-method era. Modern indirect collocation is mostly used when strict PMP satisfaction is mandatory (e.g., inside differentiable NLP solvers).
 
 ### Indirect heuristic methods
 
@@ -87,7 +87,7 @@ Note: Hargraves and Paris (1987) observed that eliminating the costate and collo
 
 ### Hybrid direct-indirect methods
 
-**Hybrid direct-indirect** strategies use indirect optimality conditions to reduce the control parameter dimension, then a direct-method NLP solver for the remaining parameters (Kluever & Pierson 1997). For example, the per-arc thrust direction is given in closed form by $\boldsymbol{\alpha}^{*}=\mathbf{p}/\|\mathbf{p}\|$, and only impulse times, throttle switches, and arc-boundary times are NLP variables. This combines indirect "control reduction" with direct "costate insensitivity" — a common engineering compromise.
+**Hybrid direct-indirect** strategies use indirect optimality conditions to reduce the control parameter dimension, then a direct-method NLP solver for the remaining parameters (Kluever & Pierson 1997). For example, the per-arc thrust direction is given in closed form by $\boldsymbol{\alpha}^{*}=\mathbf{p}/\|\mathbf{p}\|$, and only impulse times, throttle switches, and arc-boundary times are NLP variables. This combines indirect control reduction with direct costate insensitivity, a common engineering compromise.
 
 ### Indirect Multi-Stage Formulation (IMF)
 
@@ -97,7 +97,7 @@ The **Indirect Multi-Stage Formulation** (IMF) partitions the trajectory into st
 
 ### Costate normalization
 
-Because the Hamiltonian system is invariant under a positive scaling of $\boldsymbol{\lambda}$ ($H$ and $\boldsymbol{\lambda}$ scaled by the same constant still satisfy the NC), one can fix $\|\boldsymbol{\lambda}(t_0)\|=1$, restricting the search from $\mathbb{R}^n$ to the unit sphere $S^{n-1}$ — one dimension fewer, with improved conditioning (Taheri et al. 2016; [Co-state Variables](/en/glossary/dynamics/co-state-variables/)).
+Because the Hamiltonian system is invariant under a positive scaling of $\boldsymbol{\lambda}$ ($H$ and $\boldsymbol{\lambda}$ scaled by the same constant still satisfy the NC), one can fix $\|\boldsymbol{\lambda}(t_0)\|=1$, restricting the search from $\mathbb{R}^n$ to the unit sphere $S^{n-1}$, one dimension fewer, with improved conditioning (Taheri et al. 2016; [Co-state Variables](/en/glossary/dynamics/co-state-variables/)).
 
 ### Switching-point detection
 
@@ -115,11 +115,11 @@ When the constraint is time-independent, $H$ stays continuous across the jump. T
 
 ### Smoothing and homotopy
 
-To bypass Bang-bang discontinuity and costate sensitivity, the mainstream approach is the **homotopy method** that gradually deforms a smooth "easy sister problem" (e.g., energy-optimal) into the target (e.g., fuel-optimal Bang-off-Bang). Cost-function homotopy, thrust-amplitude homotopy, and sigmoid smoothing are standardized in the literature (Bertrand & Epenoy 2002; Taheri et al. 2016; Zhang et al. 2025). See [Homotopy Method](/en/glossary/dynamics/homotopy-method/).
+To bypass Bang-bang discontinuity and costate sensitivity, the mainstream approach is the **homotopy method** that gradually deforms a smooth easy sister problem (e.g., energy-optimal) into the target (e.g., fuel-optimal Bang-off-Bang). Cost-function homotopy, thrust-amplitude homotopy, and sigmoid smoothing are standardized in the literature (Bertrand & Epenoy 2002; Taheri et al. 2016; Zhang et al. 2025). See [Homotopy Method](/en/glossary/dynamics/homotopy-method/).
 
 ### Inner-loop / outer-loop structure
 
-Parametric optimal control (e.g., Theory-of-Functional-Connections shape approximations) often uses an **inner-loop outer-loop structure**: the inner loop minimizes residuals for state and cost vectors; the outer loop optimizes switching times and final time (Johnston et al. 2020). Conceptually akin to multiple shooting — separating "fast" and "slow" variables into different solvers.
+Parametric optimal control (e.g., Theory-of-Functional-Connections shape approximations) often uses an **inner-loop outer-loop structure**: the inner loop minimizes residuals for state and cost vectors; the outer loop optimizes switching times and final time (Johnston et al. 2020). Conceptually akin to multiple shooting: separating fast and slow variables into different solvers.
 
 ## Comparison with direct methods
 
@@ -139,19 +139,19 @@ A common engineering practice is to obtain a coarse solution via direct or heuri
 - **Cislunar low-thrust transfers**: $L_1$/$L_2$ Halo-to-Halo and LEO-to-NRHO fuel-optimal transfers are the main theater for indirect + homotopy methods.
 - **Multi-impulse optimization**: primer vector gradients decide impulse count and times; indirect methods then refine the impulsive model to finite thrust.
 - **Station-keeping and collision avoidance**: small fixed-horizon TPBVPs solved in real time for NRHO continuous-thrust station-keeping and collision avoidance.
-- **Relative motion optimal control**: controlling a deputy relative to a chief in three-body dynamics — via variational equations and pre-computed state transition matrices, any boundary condition can be approximated in $O(mn^3)$ operations (Kulik et al. 2023).
+- **Relative motion optimal control**: controlling a deputy relative to a chief in three-body dynamics, via variational equations and pre-computed state transition matrices, any boundary condition can be approximated in $O(mn^3)$ operations (Kulik et al. 2023).
 
 ## Related concepts
 
-- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) — the mathematical starting point
-- [Co-state Variables](/en/glossary/dynamics/co-state-variables/) — the central unknown of the TPBVP
-- [Primer Vector](/en/glossary/dynamics/primer-vector/) — the physical embodiment of the velocity costate, fixing optimal thrust direction
-- [Homotopy Method](/en/glossary/dynamics/homotopy-method/) — the numerical workhorse for indirect Bang-bang control
-- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/) — the typical control structure derived indirectly
-- [Fuel-optimal Control](/en/glossary/dynamics/fuel-optimal/) — the dominant problem class for indirect methods
-- [Adjoint-Control Transformation](/en/glossary/dynamics/adjoint-control-transformation/) — reducing shooting dimension via the primer vector
-- [Differential Correction](/en/glossary/dynamics/differential-correction/) — the Newton iteration behind the free-variable/constraint method
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/) — the dynamical setting for cislunar indirect optimization
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/): the mathematical starting point
+- [Co-state Variables](/en/glossary/dynamics/co-state-variables/): the central unknown of the TPBVP
+- [Primer Vector](/en/glossary/dynamics/primer-vector/): the physical embodiment of the velocity costate, fixing optimal thrust direction
+- [Homotopy Method](/en/glossary/dynamics/homotopy-method/): the numerical workhorse for indirect Bang-bang control
+- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/): the typical control structure derived indirectly
+- [Fuel-optimal Control](/en/glossary/dynamics/fuel-optimal/): the dominant problem class for indirect methods
+- [Adjoint-Control Transformation](/en/glossary/dynamics/adjoint-control-transformation/): reducing shooting dimension via the primer vector
+- [Differential Correction](/en/glossary/dynamics/differential-correction/): the Newton iteration behind the free-variable/constraint method
+- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/): the dynamical setting for cislunar indirect optimization
 
 ## References
 

@@ -38,14 +38,14 @@ L1/L2 axial orbits are strongly unstable throughout the family, with no center s
 
 ## Axial Resonant Orbits
 
-Three-dimensional **asymmetric** resonant orbits are called axial resonant orbits, computed by perturbing a bifurcating orbit in the z direction (Vaquero & Howell 2014). Its 3:1 member can be migrated directly from the Earth–Moon system to other three-body systems (such as Saturn–Titan) by **system translation** — continuation in the mass parameter μ — without redoing the initial-guess–bifurcation–continuation pipeline in the new system (Vaquero & Howell 2014). Two caveats:
+Three-dimensional **asymmetric** resonant orbits are called axial resonant orbits, computed by perturbing a bifurcating orbit in the z direction (Vaquero & Howell 2014). Its 3:1 member can be migrated directly from the Earth–Moon system to other three-body systems (such as Saturn–Titan) by **system translation** (continuation in the mass parameter μ) without redoing the initial-guess–bifurcation–continuation pipeline in the new system (Vaquero & Howell 2014). Two caveats:
 
-- Resonance ratios have two conventions: Vaquero & Howell's 3:1 means "3 spacecraft revolutions per 1 lunar revolution," while Parker & Anderson 2014 and Guzzetti 2016 use the p:q convention "p lunar revolutions : q spacecraft revolutions" — the same orbit carries reversed labels under the two conventions, so state the convention when citing.
+- Resonance ratios have two conventions: Vaquero & Howell's 3:1 means 3 spacecraft revolutions per 1 lunar revolution, while Parker & Anderson 2014 and Guzzetti 2016 use the p:q convention p lunar revolutions : q spacecraft revolutions; the same orbit carries reversed labels under the two conventions, so state the convention when citing.
 - System translation does not preserve stability: the Earth–Moon 4:3 resonant family is entirely unstable, while the same family at Saturn–Titan is mostly linearly stable (Vaquero & Howell 2014).
 
 ## Applications
 
-- **Transfers to L4 axial orbits**: a three-dimensional transfer from LEO to an L4 axial orbit — patching the stable manifold of an L2 axial orbit (which passes near the Earth naturally) to the unstable manifold of a 3:2 axial resonant orbit, at ΔV 3.27 km/s over 22.54 days; the L4 axial orbit is linearly stable, covers both Earth and Moon, and never loses communication (Vaquero & Howell 2014).
+- **Transfers to L4 axial orbits**: a three-dimensional transfer from LEO to an L4 axial orbit, patching the stable manifold of an L2 axial orbit (which passes near the Earth naturally) to the unstable manifold of a 3:2 axial resonant orbit, at ΔV 3.27 km/s over 22.54 days; the L4 axial orbit is linearly stable, covers both Earth and Moon, and never loses communication (Vaquero & Howell 2014).
 - **Space domain awareness**: L4/L5 axial orbits traverse large volumes of cislunar space and are frequently selected in space domain awareness architecture optimization, favoring persistent detection of targets maneuvering in the plane (Klonowski 2024).
 
 ## Terminology Variants

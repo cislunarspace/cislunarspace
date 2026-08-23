@@ -30,16 +30,16 @@ permalink: /en/glossary/dynamics/cr3bp/
 
 ## Definition and Hierarchy
 
-The Circular Restricted Three-Body Problem (CR3BP, also written CRTBP) is the most widely used mathematical model in cislunar orbital dynamics. It belongs to the **Restricted Three-Body Problem** (R3BP) family — a special case of the classical three-body problem defined by two fundamental simplifications (Szebehely 1967; Vallado 2022):
+The Circular Restricted Three-Body Problem (CR3BP, also written CRTBP) is the most widely used mathematical model in cislunar orbital dynamics. It belongs to the **Restricted Three-Body Problem** (R3BP) family: a special case of the classical three-body problem defined by two fundamental simplifications (Szebehely 1967; Vallado 2022):
 
 1. **Restricted assumption**: The third body (spacecraft) has negligible mass; it is attracted by the two primaries but does not affect their motion.
 2. **Gravity-only assumption**: Only point-mass gravitation acts; no other forces.
 
-The CR3BP adds a **circular-orbit assumption**: both primaries orbit their common barycenter in uniform circular motion. If the primaries move on elliptical orbits, the model becomes the **Elliptic Restricted Three-Body Problem** (ER3BP). If a fourth body is introduced, one arrives at the **Bicircular Restricted Four-Body Problem** (BCR4BP). In engineering practice, "restricted three-body problem" implicitly refers to the CR3BP unless eccentricity effects are explicitly of interest (Koon et al. 2011).
+The CR3BP adds a **circular-orbit assumption**: both primaries orbit their common barycenter in uniform circular motion. If the primaries move on elliptical orbits, the model becomes the **Elliptic Restricted Three-Body Problem** (ER3BP). If a fourth body is introduced, one arrives at the **Bicircular Restricted Four-Body Problem** (BCR4BP). In engineering practice, restricted three-body problem implicitly refers to the CR3BP unless eccentricity effects are explicitly of interest (Koon et al. 2011).
 
 ## Synodic Frame and Nondimensionalization
 
-The standard framework for the CR3BP is the **synodic frame** (rotating frame) — a reference frame with origin at the barycenter, rotating with the primaries' mean motion. In this frame, both primaries are fixed on the x-axis; the equations of motion become autonomous at the cost of introducing Coriolis and centrifugal terms. See [Synodic Frame](/en/glossary/fundamentals/synodic-frame/) for details.
+The standard framework for the CR3BP is the **synodic frame** (rotating frame): a reference frame with origin at the barycenter, rotating with the primaries' mean motion. In this frame, both primaries are fixed on the x-axis; the equations of motion become autonomous at the cost of introducing Coriolis and centrifugal terms. See [Synodic Frame](/en/glossary/fundamentals/synodic-frame/) for details.
 
 To eliminate order-of-magnitude disparities and reduce the number of independent parameters, the CR3BP is conventionally nondimensionalized (Szebehely 1967; Gómez et al. 2001):
 
@@ -88,17 +88,17 @@ $$
 
 with $r_1 = \sqrt{(x+\mu)^2 + y^2 + z^2}$ (distance to $P_1$) and $r_2 = \sqrt{(x-1+\mu)^2 + y^2 + z^2}$ (distance to $P_2$).
 
-The terms $-2\dot{y}$ and $+2\dot{x}$ represent the **Coriolis force**; the gradient of $\frac{1}{2}(x^2+y^2)$ corresponds to the **centrifugal force**. Coriolis force is linear in velocity and does zero net work on the system — this is the dynamical origin of the Jacobi constant's conservation.
+The terms $-2\dot{y}$ and $+2\dot{x}$ represent the **Coriolis force**; the gradient of $\frac{1}{2}(x^2+y^2)$ corresponds to the **centrifugal force**. Coriolis force is linear in velocity and does zero net work on the system; this is the dynamical origin of the Jacobi constant's conservation.
 
 ## Jacobi Constant and Allowable Regions
 
-The CR3BP possesses exactly one integral of motion — the **Jacobi constant** $C$ (Jacobi 1836):
+The CR3BP possesses exactly one integral of motion: the **Jacobi constant** $C$ (Jacobi 1836):
 
 $$C = 2\Omega - v^2, \quad v^2 = \dot{x}^2 + \dot{y}^2 + \dot{z}^2$$
 
 This is the energy-like quantity in the rotating frame: larger $C$ implies lower kinetic energy and a more restricted reachable region.
 
-Setting $v=0$ yields the **zero-velocity surface** (ZVS): $2\Omega(x,y,z) = C$. In the planar case it reduces to a **zero-velocity curve** (ZVC). The ZVS partitions configuration space — a spacecraft cannot exist where $2\Omega < C$.
+Setting $v=0$ yields the **zero-velocity surface** (ZVS): $2\Omega(x,y,z) = C$. In the planar case it reduces to a **zero-velocity curve** (ZVC). The ZVS partitions configuration space: a spacecraft cannot exist where $2\Omega < C$.
 
 The ZVS topology changes at critical Jacobi values $C_1 > C_2 > C_3 > C_4 = C_5$, each corresponding to a libration point's neck-opening condition (Koon et al. 2011):
 
@@ -118,7 +118,7 @@ The five libration points $L_1$--$L_5$ are equilibrium solutions of the CR3BP ob
 
 ### Planar CR3BP (PCR3BP)
 
-Restricting motion to the orbital plane ($z = \dot{z} = 0$) yields the Planar CR3BP, reducing phase space from six to four dimensions. The PCR3BP preserves all essential CR3BP dynamical features (libration points, invariant manifolds, chaos) while enabling two-dimensional **Poincaré sections** to visualize phase-space structure — something impossible in the full six-dimensional CR3BP. On a PCR3BP Poincaré section, invariant curves correspond to (quasi-)periodic orbits, KAM tori survive near stable regions, and chaotic seas mark hyperbolic zones.
+Restricting motion to the orbital plane ($z = \dot{z} = 0$) yields the Planar CR3BP, reducing phase space from six to four dimensions. The PCR3BP preserves all essential CR3BP dynamical features (libration points, invariant manifolds, chaos) while enabling two-dimensional **Poincaré sections** to visualize phase-space structure, something impossible in the full six-dimensional CR3BP. On a PCR3BP Poincaré section, invariant curves correspond to (quasi-)periodic orbits, KAM tori survive near stable regions, and chaotic seas mark hyperbolic zones.
 
 ### Three-Dimensional CR3BP
 
@@ -132,11 +132,11 @@ The full 3D CR3BP is the standard framework for analyzing cislunar periodic orbi
 
 - **Distant Retrograde Orbits (DRO)**: Large-amplitude retrograde periodic orbits near $P_2$, more stable than Lyapunov/Halo orbits
 
-These families are parameterized through **continuation** — propagating a known solution along a parameter direction and refining each step with shooting/differential correction. See [Continuation](/en/glossary/dynamics/continuation/), [Shooting Method](/en/glossary/dynamics/differential-correction/), and [Differential Correction](/en/glossary/dynamics/differential-correction/).
+These families are parameterized through **continuation**: propagating a known solution along a parameter direction and refining each step with shooting/differential correction. See [Continuation](/en/glossary/dynamics/continuation/), [Shooting Method](/en/glossary/dynamics/differential-correction/), and [Differential Correction](/en/glossary/dynamics/differential-correction/).
 
 ## Frame Translation and Relative Dynamics
 
-When patching together two different CR3BP systems (e.g., Sun--Earth and Earth--Moon), one must transform state vectors between the two synodic frames — this is known as **three-body system translation**. The origin shifts from the Sun--Earth barycenter to the Earth--Moon barycenter while preserving the physical state in an inertial frame, with appropriate angular velocity corrections applied between the rotating frames.
+When patching together two different CR3BP systems (e.g., Sun--Earth and Earth--Moon), one must transform state vectors between the two synodic frames; this is known as **three-body system translation**. The origin shifts from the Sun--Earth barycenter to the Earth--Moon barycenter while preserving the physical state in an inertial frame, with appropriate angular velocity corrections applied between the rotating frames.
 
 Relative CR3BP dynamics examines the motion of two spacecraft within the same primary system and forms the basis for formation flying and rendezvous missions. In the synodic frame, the relative acceleration equations include additional Coriolis coupling and centrifugal-gradient terms, causing long-term relative-orbit evolution fundamentally different from Keplerian relative motion.
 
@@ -176,14 +176,14 @@ The CR3BP has several important extensions that preserve the basic framework whi
 
 ## References
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies* — The classic treatise on the CR3BP, spanning the synodic frame, nondimensionalization, libration points, and periodic orbits.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*. The classic treatise on the CR3BP, spanning the synodic frame, nondimensionalization, libration points, and periodic orbits.
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, 4th ed. — Chapter 2 treats the restricted three-body and N-body equations of motion; Chapter 3 defines the Earth--Moon and Sun--Earth synodic frames.
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, 4th ed. Chapter 2 treats the restricted three-body and N-body equations of motion; Chapter 3 defines the Earth--Moon and Sun--Earth synodic frames.
 
-- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design* — Systematically introduces modern dynamical-systems methods (invariant manifolds, Poincaré sections, heteroclinic connections) to CR3BP trajectory design.
+- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design*. Systematically introduces modern dynamical-systems methods (invariant manifolds, Poincaré sections, heteroclinic connections) to CR3BP trajectory design.
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vols. I--IV — The standard reference for dynamics and mission design near libration points, covering the bicircular problem, homotopy methods, and solar-sail extensions.
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vols. I--IV. The standard reference for dynamics and mission design near libration points, covering the bicircular problem, homotopy methods, and solar-sail extensions.
 
-- Howell, 1984, "Three-Dimensional, Periodic, 'Halo' Orbits" — The first systematic numerical generation and parameterization of Halo orbit families.
+- Howell, 1984, "Three-Dimensional, Periodic, 'Halo' Orbits". The first systematic numerical generation and parameterization of Halo orbit families.
 
-- Zimovan, 2017, *Characteristics and Design Strategies for Near Rectilinear Halo Orbits within the Earth-Moon System*, Purdue Ph.D. — The standard reference for Earth-Moon L1/L2 NRHO solution strategies.
+- Zimovan, 2017, *Characteristics and Design Strategies for Near Rectilinear Halo Orbits within the Earth-Moon System*, Purdue Ph.D. The standard reference for Earth-Moon L1/L2 NRHO solution strategies.

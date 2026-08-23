@@ -22,7 +22,7 @@ twitter:
 permalink: /resources-tools/e2m2e/
 ---
 
-# e2m2e — Earth to Moon, Moon to Earth
+# e2m2e: Earth to Moon, Moon to Earth
 
 [e2m2e](https://github.com/cislunarspace/e2m2e)（Earth to Moon, Moon to Earth）是一个基于圆型限制性三体问题（CR3BP）和历表动力学（N-body + SPICE）的Python库，专注于设计和分析地月空间转移轨道。支持从理论CR3BP模型到高精度星历模型的完整轨道设计工作流。
 
@@ -76,10 +76,10 @@ srp_dynamics = CR3BP_SRP_Dynamics(system=system, area=10.0, mass=100.0, Cr=1.5)
 
 基于 Python Protocol 接口的系统建模框架，包含架构组件、需求管理和数据模型。支持轨道设计的系统工程全流程。
 
-- `mbse/architecture/` — 系统架构组件定义
-- `mbse/requirements/` — 需求管理与追溯
-- `mbse/data/` — Pydantic 数据模型与枚举
-- `mbse/diagrams/` — 架构图生成
+- `mbse/architecture/`：系统架构组件定义
+- `mbse/requirements/`：需求管理与追溯
+- `mbse/data/`：Pydantic 数据模型与枚举
+- `mbse/diagrams/`：架构图生成
 
 ### 多射击法
 

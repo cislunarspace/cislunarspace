@@ -30,11 +30,11 @@ permalink: /en/glossary/dynamics/tof/
 
 ## Definition
 
-**Time of flight** (ToF) is the time a spacecraft takes to travel between two specified states — typically two position vectors, an initial parking orbit and a target orbit, or two points on a manifold. In the Lambert problem, ToF is one of the three boundary conditions (along with the two position vectors) that select a unique conic; in the CR3BP, it is a property of the invariant-manifold trajectory chosen. **Transfer-time equation** and **flight-time equation** refer to the explicit relations that give ToF as a function of orbit parameters in Lambert-style solutions. **Time-to-go** ($t_\text{go}$) is the remaining ToF from the current state to the terminal condition, used as a parameter in explicit guidance laws. **Time of permanence** is the duration a ballistic-capture trajectory stays captured before escaping the lunar sphere of influence.
+**Time of flight** (ToF) is the time a spacecraft takes to travel between two specified states, typically two position vectors, an initial parking orbit and a target orbit, or two points on a manifold. In the Lambert problem, ToF is one of the three boundary conditions (along with the two position vectors) that select a unique conic; in the CR3BP, it is a property of the invariant-manifold trajectory chosen. **Transfer-time equation** and **flight-time equation** refer to the explicit relations that give ToF as a function of orbit parameters in Lambert-style solutions. **Time-to-go** ($t_\text{go}$) is the remaining ToF from the current state to the terminal condition, used as a parameter in explicit guidance laws. **Time of permanence** is the duration a ballistic-capture trajectory stays captured before escaping the lunar sphere of influence.
 
 ## Lambert's problem: ToF as a boundary condition
 
-Given two position vectors $\mathbf r_0$, $\mathbf r$ and the transfer angle $\Delta\nu$ between them, Lambert's theorem states that the ToF depends only on the semi-major axis $a$, the sum $r_0 + r$, and the chord length $c = \|\mathbf r - \mathbf r_0\|$ — not on the individual orbit (Vallado 2022, §7.6). With the semiperimeter $s = (r_0 + r + c)/2$ and the variables
+Given two position vectors $\mathbf r_0$, $\mathbf r$ and the transfer angle $\Delta\nu$ between them, Lambert's theorem states that the ToF depends only on the semi-major axis $a$, the sum $r_0 + r$, and the chord length $c = \|\mathbf r - \mathbf r_0\|$, not on the individual orbit (Vallado 2022, §7.6). With the semiperimeter $s = (r_0 + r + c)/2$ and the variables
 
 $$
 \sin\tfrac{\alpha_e}{2} = \sqrt{\tfrac{s}{2a}}, \qquad \sin\tfrac{\beta_e}{2} = \sqrt{\tfrac{s-c}{2a}},
@@ -66,7 +66,7 @@ In the restricted three-body problem, transfer duration is set by the geometry o
 
 - Integration is started when the spacecraft is 70–90 km from the reference halo orbit; without that cut-off, the manifold definition would give infinite time.
 
-Low-energy cislunar transfers along Sun–Earth manifolds take much longer — typically 70–120 d (Parker & Anderson 2013) — but cost less $\Delta v$.
+Low-energy cislunar transfers along Sun–Earth manifolds take much longer, typically 70–120 d (Parker & Anderson 2013), but cost less $\Delta v$.
 
 ## The minimum-ToF stepped law (cislunar)
 
@@ -76,7 +76,7 @@ For trajectories from a minimum parking orbit (MPO, radius ≈ 0.20 in normalize
 |---|---|---|---|---|---|---|---|---|---|
 | min ToF (d) | 3.13 | 3.37 | 4.25 | 4.31 | 4.80 | 30.8 | 45.9 | 41.8 | 67.4 |
 
-The ToF does not grow smoothly with $C$ but in **steps**: ≈ 3–5 d in the direct-transfer regime ($C \le 2.78$), then a jump to 30–46 d, then to > 60 d. The jumps arise because the stable manifold of the $L_1$ Lyapunov orbit intersects the MPO only at certain periapses — when it does not intersect at the first periapsis, the spacecraft must wait through extra Keplerian twists (~11 d each, half the Keplerian period at half the Earth–Moon distance) before finding an opening (Liang et al. 2016, §4).
+The ToF does not grow smoothly with $C$ but in **steps**: ≈ 3–5 d in the direct-transfer regime ($C \le 2.78$), then a jump to 30–46 d, then to > 60 d. The jumps arise because the stable manifold of the $L_1$ Lyapunov orbit intersects the MPO only at certain periapses, when it does not intersect at the first periapsis, the spacecraft must wait through extra Keplerian twists (~11 d each, half the Keplerian period at half the Earth–Moon distance) before finding an opening (Liang et al. 2016, §4).
 
 ## Time-to-go in guidance
 
@@ -84,7 +84,7 @@ In explicit and optimal-guidance laws, $t_\text{go}$ is the remaining ToF from t
 
 ## Time of permanence in ballistic capture
 
-A **ballistic-capture** trajectory enters a temporary capture around the Moon without a insertion burn. The **time of permanence** — from the first perilune to escape from the lunar sphere of influence — quantifies the capture's quality. In the patched three-body model of Sousa-Silva, Terra & Ceriotti (2018), integrations run up to $t_\text{max} = 180$ d; capture lasting more than 90–120 d is achievable for selected Jacobi constants and perilune altitudes in the 90–400 km band. Longer permanence means more robust capture and more flexible downstream options (descent, orbit insertion, sample return).
+A **ballistic-capture** trajectory enters a temporary capture around the Moon without a insertion burn. The **time of permanence** (from the first perilune to escape from the lunar sphere of influence) quantifies the capture's quality. In the patched three-body model of Sousa-Silva, Terra & Ceriotti (2018), integrations run up to $t_\text{max} = 180$ d; capture lasting more than 90–120 d is achievable for selected Jacobi constants and perilune altitudes in the 90–400 km band. Longer permanence means more robust capture and more flexible downstream options (descent, orbit insertion, sample return).
 
 ## Related entries
 
@@ -104,16 +104,16 @@ A **ballistic-capture** trajectory enters a temporary capture around the Moon wi
 
 ## References
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §7.6 — Lambert problem, transfer-time/flight-time equations, multi-revolution solutions.
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §7.6: Lambert problem, transfer-time/flight-time equations, multi-revolution solutions.
 
-- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics* (rev. ed.) — universal-variable formulation and Battin's Lambert algorithm.
+- Battin, 1999, *An Introduction to the Mathematics and Methods of Astrodynamics* (rev. ed.): universal-variable formulation and Battin's Lambert algorithm.
 
-- Alessi, Cascioli, Colombo & Lizia, 2009, "Leaving the Moon by means of invariant manifolds of libration point orbits" — manifold transfer-time statistics (direct ≈ 10 d, +10 d per loop, 5 d asymptotic phase, 0.25 km/s at 1000 km).
+- Alessi, Cascioli, Colombo & Lizia, 2009, "Leaving the Moon by means of invariant manifolds of libration point orbits": manifold transfer-time statistics (direct ≈ 10 d, +10 d per loop, 5 d asymptotic phase, 0.25 km/s at 1000 km).
 
-- Liang, Xu & Xu, 2016, "The classification of cislunar trajectories and its applications in the Earth–Moon system," *Astrophysics and Space Science* 361:230 — Table 1 of minimum ToF vs. Jacobi energy; stepped-increase mechanism via stable-manifold/MPO intersections.
+- Liang, Xu & Xu, 2016, "The classification of cislunar trajectories and its applications in the Earth–Moon system," *Astrophysics and Space Science* 361:230: Table 1 of minimum ToF vs. Jacobi energy; stepped-increase mechanism via stable-manifold/MPO intersections.
 
-- Parker & Anderson, 2013, *Low-Energy Lunar Trajectory Design* — typical ToF ranges for direct and low-energy transfers.
+- Parker & Anderson, 2013, *Low-Energy Lunar Trajectory Design*: typical ToF ranges for direct and low-energy transfers.
 
-- Sousa Silva, Terra & Ceriotti, 2018, "Fast Earth–Moon transfers with ballistic capture," *Astrophys. Space Sci.* 363:210 — time of permanence up to 90–120 d.
+- Sousa Silva, Terra & Ceriotti, 2018, "Fast Earth–Moon transfers with ballistic capture," *Astrophys. Space Sci.* 363:210: time of permanence up to 90–120 d.
 
-- Zhao Hongqian et al., 2021, 基于动态规划的月面定点着陆快速制导方法 — time-to-go via the terminal Hamiltonian condition.
+- Zhao Hongqian et al., 2021, 基于动态规划的月面定点着陆快速制导方法: time-to-go via the terminal Hamiltonian condition.

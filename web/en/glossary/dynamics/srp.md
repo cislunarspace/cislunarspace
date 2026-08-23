@@ -1,4 +1,4 @@
----
+﻿---
 title: Solar Radiation Pressure Perturbation (SRP)
 description: The non-conservative perturbation from momentum exchange between solar photons and spacecraft surfaces, with acceleration $\mathbf{a}_{srp} = -P_{\odot} (A/m) (1+C_R) \hat{\mathbf{r}}_{\odot}$ (cannonball model)—a key long-term orbital driver in GEO and cislunar space. Covers the photon-pressure constant, cannonball vs panel models, eclipse effects, COLIBRI case history, solar-sail artificial libration-point orbits, and the linear superposition with atmospheric drag.
 keywords: Solar Radiation Pressure, SRP, cannonball model, reflectivity coefficient, eclipse model, solar sail, artificial libration point, COLIBRI, station-keeping
@@ -32,7 +32,7 @@ permalink: /en/glossary/dynamics/srp/
 
 Solar Radiation Pressure (SRP) is a non-conservative perturbation force produced by the momentum exchange between solar photon streams and the spacecraft surface. Like atmospheric drag, it is non-conservative (energy dissipative) and is modelled directly as a disturbing force rather than through a potential function. At altitudes above GEO and in cislunar space, where atmospheric drag has vanished or is very weak, SRP becomes the dominant non-gravitational perturbation (Vallado 2022, Ch. 8.6.4).
 
-The simplified **cannonball model**—treating the satellite as a uniform sphere with isotropic reflectivity—yields the acceleration (Vallado 2022, Eq. 8-44):
+The simplified **cannonball model** (treating the satellite as a uniform sphere with isotropic reflectivity) yields the acceleration (Vallado 2022, Eq. 8-44):
 
 $$
 \mathbf{a}_{srp} = -\frac{P_{\odot} A_{\odot}}{m} (1 + C_R) \hat{\mathbf{r}}_{sat\odot}
@@ -53,11 +53,11 @@ where $P_{\odot}$ is the solar-radiation pressure constant at 1 AU (approximatel
 | Dominant regime | LEO (<800 km) | GEO and above |
 | Eclipse | N/A (independent of eclipse) | Pressure vanishes in shadow |
 
-Vallado (2022) notes that during solar maxima the high-density photon flux from the solar wind can produce perturbation accelerations of the same order as drag at high altitudes—a fact that confounds many intuitions.
+Vallado (2022) notes that during solar maxima the high-density photon flux from the solar wind can produce perturbation accelerations of the same order as drag at high altitudes, a fact that confounds many intuitions.
 
 ## Reflectivity Coefficients and Complex Surface Models
 
-The cannonball model's assumptions—isotropic reflectivity and force direction exclusively along the Sun-satellite line—are inadequate for real spacecraft. **Multi-panel models** (e.g. ROCK4, ROCK42; Fliegel et al., 1992) decompose the satellite surface into multiple flat panels, each contributing to the net SRP force according to its local normal $\hat{n}$:
+The cannonball model's assumptions (isotropic reflectivity and force direction exclusively along the Sun-satellite line) are inadequate for real spacecraft. **Multi-panel models** (e.g. ROCK4, ROCK42; Fliegel et al., 1992) decompose the satellite surface into multiple flat panels, each contributing to the net SRP force according to its local normal $\hat{n}$:
 
 $$
 \hat{\mathbf{a}}_{srp} = -\sum_{i=1}^{N} \frac{P_{\odot} A_i \cos(\phi_i)}{m} \left[ 2\left( \frac{C_{R_d}}{3} + C_{R_s} \cos\phi_i \right) \hat{n}_i + (1 - C_{R_s}) \hat{s} \right]
@@ -69,33 +69,33 @@ where $\phi_i$ is the angle between panel normal $\hat{n}_i$ and the Sun directi
 
 When the spacecraft enters the Earth's shadow, SRP is interrupted, producing a discontinuous jump in the orbital dynamics. Eclipse handling ranges from simple to complex:
 
-- **Cylindrical shadow**: treats the Earth as a uniform opaque disc; entry and exit are handled by a binary on/off switch—simple, but ignores the gradual penumbra transition.
+- **Cylindrical shadow**: treats the Earth as a uniform opaque disc; entry and exit are handled by a binary on/off switch: simple, but ignores the gradual penumbra transition.
 
 - **Conical shadow** (umbra/penumbra model): the Earth is not a point-source occulter; there is a penumbral transition zone where sunlight is partially blocked, providing a smooth fade-in/out. Necessary for high-precision orbit determination (Vallado 2022, Ch. 3.10).
 
-- **Elliptical Earth shadow** and **lunar shadow**: the latter is particularly important for lunar orbits—lunar satellites may pass through the Moon's own shadow or be eclipsed by the Earth's shadow.
+- **Elliptical Earth shadow** and **lunar shadow**: the latter is particularly important for lunar orbits: lunar satellites may pass through the Moon's own shadow or be eclipsed by the Earth's shadow.
 
-During eclipse, the cannonball acceleration is multiplied by a "lit-fraction factor" $\nu$ (0 in full shadow, 1 in full sunlight, and 0–1 in the penumbra zone).
+During eclipse, the cannonball acceleration is multiplied by a lit-fraction factor $\nu$ (0 in full shadow, 1 in full sunlight, and 0–1 in the penumbra zone).
 
 ## SRP Station-Keeping
 
-The cumulative long-term drift caused by SRP on GEO and Earth-Moon libration-point orbits cannot be neglected—with no correction, long-term propagation can drift by several kilometres after a few months. **SRP station-keeping** techniques are divided into "passive" and "active" approaches (Vallado 2022, Ch. 11.3):
+The cumulative long-term drift caused by SRP on GEO and Earth-Moon libration-point orbits cannot be neglected: with no correction, long-term propagation can drift by several kilometres after a few months. **SRP station-keeping** techniques are divided into passive and active approaches (Vallado 2022, Ch. 11.3):
 
-- **Passive**: select an appropriate attitude profile (e.g. "sailboat mode") that allows the SRP force to partially cancel other perturbations. Fuel-free, but applicable only to orbits with favourable symmetry.
+- **Passive**: select an appropriate attitude profile (e.g. sailboat mode) that allows the SRP force to partially cancel other perturbations. Fuel-free, but applicable only to orbits with favourable symmetry.
 
-- **Active**: use small thrusts (typically electric propulsion) for periodic "Sun-face corrections" to eliminate out-of-plane drift caused by SRP. GEO-station-keeping manoeuvres typically integrate SRP effects jointly with East-West/North-South position-error control.
+- **Active**: use small thrusts (typically electric propulsion) for periodic Sun-face corrections to eliminate out-of-plane drift caused by SRP. GEO-station-keeping manoeuvres typically integrate SRP effects jointly with East-West/North-South position-error control.
 
-For high-altitude mission design (GEO, Earth-Moon libration points), the common SRP handling strategy is "on-orbit averaging + long-term correction"—akin to the semi-analytical perturbation method in orbital analysis.
+For high-altitude mission design (GEO, Earth-Moon libration points), the common SRP handling strategy is on-orbit averaging + long-term correction, akin to the semi-analytical perturbation method in orbital analysis.
 
-## Solar Sails — Active Utilisation of SRP
+## Solar Sails: Active Utilisation of SRP
 
-SRP is not merely a "disturbing force" to be cancelled—it can be actively harnessed through **solar sails**. A solar sail uses a large-area thin-film surface to reflect solar photons and produce continuous thrust without expending propellant—it is a propulsion device, not a perturbation source (Vallado 2022, Ch. 8.6.4). By actively adjusting the reflectivity-surface orientation near a libration point, a solar sail can create an **artificial libration point** outside the natural ones, expanding the degrees of freedom for orbit selection (Gómez et al., 2001). Solar-sail propulsion has a natural advantage in the Sun-Earth $L_1$ "pole-sitter" mission concept.
+SRP is not merely a disturbing force to be cancelled: it can be actively harnessed through **solar sails**. A solar sail uses a large-area thin-film surface to reflect solar photons and produce continuous thrust without expending propellant: it is a propulsion device, not a perturbation source (Vallado 2022, Ch. 8.6.4). By actively adjusting the reflectivity-surface orientation near a libration point, a solar sail can create an **artificial libration point** outside the natural ones, expanding the degrees of freedom for orbit selection (Gómez et al., 2001). Solar-sail propulsion has a natural advantage in the Sun-Earth $L_1$ pole-sitter mission concept.
 
 From a terminology standpoint, however, **solar-sail artificial-libration-point orbit** and **solar-sail propulsion** belong to propulsion/trajectory categories, not perturbations, and should not be classified under this family.
 
 ## Actual SRP Magnitudes in Cislunar Space
 
-Drawing on cislunar-debris orbit-determination practice (Framework paper, 2023), a rocket upper stage (e.g. the Chang'e 2 booster) with a cross-sectional area $A = 37.14$ m$^2$, using $C_R = 1.2$ in the cannonball model, yields an SRP acceleration of approximately $2 \times 10^{-7}$ m/s$^2$. Compared with the lunar third-body perturbation near the libration points ($\sim 10^{-4}$ m/s$^2$), SRP is approximately three orders of magnitude smaller—but it accumulates as a **long-term effect** (Casnova et al., 2015), and given that debris objects are typically tumbling (variable orientation and fluctuating $C_R$), SRP becomes a non-negligible error source in multi-month long-term propagation.
+Drawing on cislunar-debris orbit-determination practice (Framework paper, 2023), a rocket upper stage (e.g. the Chang'e 2 booster) with a cross-sectional area $A = 37.14$ m$^2$, using $C_R = 1.2$ in the cannonball model, yields an SRP acceleration of approximately $2 \times 10^{-7}$ m/s$^2$. Compared with the lunar third-body perturbation near the libration points ($\sim 10^{-4}$ m/s$^2$), SRP is approximately three orders of magnitude smaller, but it accumulates as a **long-term effect** (Casnova et al., 2015), and given that debris objects are typically tumbling (variable orientation and fluctuating $C_R$), SRP becomes a non-negligible error source in multi-month long-term propagation.
 
 In OD, $C_R$ is a commonly estimated parameter, but estimation windows shorter than 4 months easily lead to overfitting and unrealistic values (e.g. $C_R \approx 14$ or $-0.9$). Jointly estimating $C_R$ and ground-station bias terms can improve out-of-sample forecast performance (Framework paper, 2023).
 
@@ -113,7 +113,7 @@ In OD, $C_R$ is a commonly estimated parameter, but estimation windows shorter t
 
 ## References
 
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications (Ch. 8.6.4 Solar-Radiation Pressure—pressure constant, cannonball model, panel-model formula; Ch. 8.6.5 Other Perturbations—SRP magnitude comparison with other sources).
+- Vallado, 2022, Fundamentals of Astrodynamics and Applications (Ch. 8.6.4 Solar-Radiation Pressure: pressure constant, cannonball model, panel-model formula; Ch. 8.6.5 Other Perturbations: SRP magnitude comparison with other sources).
 
 - A model framework for high-accuracy orbit determination and propagation of cislunar space debris, 2023 (cislunar-debris $C_r$ estimation: window length and overfitting, SRP magnitude and error).
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Pontryagin's Maximum Principle
 description: The fundamental necessary conditions of optimal control, coupling state, costate, and control through a Hamiltonian. Covers the maximum vs minimum convention, the full set of first-order conditions, transversality, switching function, primer vector link, and the variational foundation (Euler–Lagrange, discrete E–L).
 keywords: Pontryagin's Maximum Principle, Pontryagin Minimum Principle, PMP, Hamiltonian, Calculus of Variations, Transversality Condition, Switching Function, Euler-Lagrange Equations, Primer Vector
@@ -38,15 +38,15 @@ For the Bolza problem $J=\Phi(\mathbf{x}(t_f),t_f)+\int_{t_0}^{t_f}L\,dt$ with t
 
 1. **State equation** $\dot{\mathbf{x}}=\partial H/\partial\boldsymbol{\lambda}=\mathbf{f}(\mathbf{x},\mathbf{u}^*,t)$.
 2. **Costate (adjoint) equation** $\dot{\boldsymbol{\lambda}}=-\partial H/\partial\mathbf{x}$.
-3. **Optimality (stationarity)** — minimize $H$ pointwise over $\mathbf{u}\in U$. For interior controls with no bounds: $\partial H/\partial\mathbf{u}=0$; for bounded controls the optimum lies on the boundary of $U$.
+3. **Optimality (stationarity)**: minimize $H$ pointwise over $\mathbf{u}\in U$. For interior controls with no bounds: $\partial H/\partial\mathbf{u}=0$; for bounded controls the optimum lies on the boundary of $U$.
 4. **Transversality** $\boldsymbol{\lambda}(t_f)=\partial \Phi/\partial\mathbf{x}|_{t_f}+(\partial\boldsymbol{\Psi}/\partial\mathbf{x})^{\!\top}\boldsymbol{\nu}$.
-5. **Parameter condition** — if $t_f$ is free, $H(t_f)+\partial\Phi/\partial t+\boldsymbol{\nu}^{\!\top}\partial\boldsymbol{\Psi}/\partial t=0$; for time-independent data this reduces to $H(t_f)=0$, and if $H$ is autonomous then $H\equiv 0$.
+5. **Parameter condition**: if $t_f$ is free, $H(t_f)+\partial\Phi/\partial t+\boldsymbol{\nu}^{\!\top}\partial\boldsymbol{\Psi}/\partial t=0$; for time-independent data this reduces to $H(t_f)=0$, and if $H$ is autonomous then $H\equiv 0$.
 
 These five items together form the **first-order necessary conditions**; solving them is an indirect method, which yields a TPBVP in $(\mathbf{x},\boldsymbol{\lambda})$.
 
 ## Switching function and bang-bang structure
 
-When the control enters $H$ linearly — typical for thrust magnitude $T\in[0,T_{max}]$ — the Hamiltonian is minimized by an extreme value of $T$. Define a scalar **switching function** $\rho(t)$ multiplying $T$ in $H$; then $T=T_{max}$ when $\rho<0$ and $T=0$ when $\rho>0$, producing the bang-bang / bang-off-bang structure (Lawden 1963; Conway 2010, Ch.1–2). Singular arcs arise when $\rho\equiv 0$ on a finite interval — then $T$ is determined by higher-order conditions.
+When the control enters $H$ linearly (typical for thrust magnitude $T\in[0,T_{max}]$), the Hamiltonian is minimized by an extreme value of $T$. Define a scalar **switching function** $\rho(t)$ multiplying $T$ in $H$; then $T=T_{max}$ when $\rho<0$ and $T=0$ when $\rho>0$, producing the bang-bang / bang-off-bang structure (Lawden 1963; Conway 2010, Ch.1–2). Singular arcs arise when $\rho\equiv 0$ on a finite interval, then $T$ is determined by higher-order conditions.
 
 For the thrust direction, the optimum is $-\boldsymbol{\lambda}_v/\|\boldsymbol{\lambda}_v\|$, defining the **primer vector** $\mathbf{p}=-\boldsymbol{\lambda}_v$ used to evaluate and improve impulsive transfers (Lawden 1963; [Primer Vector](/en/glossary/dynamics/primer-vector/)).
 
@@ -56,7 +56,7 @@ PMP is the modern form of the **calculus of variations** (CoV). For smooth, unco
 
 $$\frac{d}{dt}\frac{\partial L}{\partial\dot{\mathbf{q}}}-\frac{\partial L}{\partial\mathbf{q}}=0$$
 
-is recovered as the stationarity condition of the action $\int L\,dt$; the Legendre transform yields the Hamiltonian form $\dot{\mathbf{q}}=\partial H/\partial\mathbf{p},\;\dot{\mathbf{p}}=-\partial H/\partial\mathbf{q}$. PMP extends CoV to cases with bounded control, inequality constraints, and non-smooth dynamics — the Euler–Lagrange equations are the special case when $\mathbf{u}=\dot{\mathbf{q}}$ is unconstrained.
+is recovered as the stationarity condition of the action $\int L\,dt$; the Legendre transform yields the Hamiltonian form $\dot{\mathbf{q}}=\partial H/\partial\mathbf{p},\;\dot{\mathbf{p}}=-\partial H/\partial\mathbf{q}$. PMP extends CoV to cases with bounded control, inequality constraints, and non-smooth dynamics: the Euler–Lagrange equations are the special case when $\mathbf{u}=\dot{\mathbf{q}}$ is unconstrained.
 
 A **discrete Euler–Lagrange** formulation underlies DMOC (Discrete Mechanics and Optimal Control): replacing the action by a discrete sum and enforcing the discrete Lagrange–d'Alembert principle yields discrete necessary conditions that preserve the symplectic structure of the continuous problem.
 
@@ -64,7 +64,7 @@ A **discrete Euler–Lagrange** formulation underlies DMOC (Discrete Mechanics a
 
 - PMP gives necessary, not sufficient, conditions. Sufficiency requires convexity or additional second-order tests (Legendre–Clebsch, conjugate point).
 - For the Lagrangian $L$ linear in $\mathbf{u}$ (e.g. fuel-optimal), the smooth stationarity condition degenerates and PMP's boundary-of-$U$ rule is what determines the control.
-- The autonomous Hamiltonian is constant along the optimal trajectory — a useful check on the numerical accuracy of TPBVP solutions.
+- The autonomous Hamiltonian is constant along the optimal trajectory, a useful check on the numerical accuracy of TPBVP solutions.
 
 ## Related concepts
 

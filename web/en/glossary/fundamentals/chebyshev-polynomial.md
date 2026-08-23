@@ -30,7 +30,7 @@ A key property: among all monic polynomials of degree $n$ on $[-1, 1]$, the scal
 
 ## Evaluation
 
-The derivative $T_n'(x)$ is obtained via the recurrence for the second kind: $T_n'(x) = n U_{n-1}(x)$. For numerical evaluation the **Clenshaw recurrence** is standard—it evaluates $\sum a_n T_n(x)$ in $O(N)$ with excellent numerical stability, avoiding explicit computation of each $T_n$.
+The derivative $T_n'(x)$ is obtained via the recurrence for the second kind: $T_n'(x) = n U_{n-1}(x)$. For numerical evaluation the **Clenshaw recurrence** is standard: it evaluates $\sum a_n T_n(x)$ in $O(N)$ with excellent numerical stability, avoiding explicit computation of each $T_n$.
 
 ## JPL Ephemeris Storage
 
@@ -50,7 +50,7 @@ The user who wants a planet's position at time $t$ simply locates the correct co
 
 ## Orbit Approximation and Boundary Constraints
 
-In trajectory design, Chebyshev polynomials are used to represent the position and velocity components of a reference orbit (e.g., a parking orbit about Earth or a distant retrograde orbit about the Moon) as smooth, differentiable functions of time. This allows the transfer-arc boundary conditions to be expressed as algebraic constraints on a finite set of Chebyshev coefficients—a much smaller optimization problem than pointwise constraint enforcement (Gomez et al. 2001, Vol. III, Sec. 4.3).
+In trajectory design, Chebyshev polynomials are used to represent the position and velocity components of a reference orbit (e.g., a parking orbit about Earth or a distant retrograde orbit about the Moon) as smooth, differentiable functions of time. This allows the transfer-arc boundary conditions to be expressed as algebraic constraints on a finite set of Chebyshev coefficients, a much smaller optimization problem than pointwise constraint enforcement (Gomez et al. 2001, Vol. III, Sec. 4.3).
 
 The same approach is used to fit quasi-periodic invariant tori: since a torus is a smooth surface parameterized by angles, expanding its embedding functions in Chebyshev series converges exponentially with the number of coefficients, enabling efficient storage and evaluation of high-dimensional dynamical structures.
 
