@@ -101,8 +101,16 @@
 
 每步后跑 `npm run build` + check-links 验证。
 
-## 文档处置
+## 文档处置（已执行）
 
-- 本文件（content-cleanup-decisions.md）在清理完成后扩写为正式内容策略（含扩充 roadmap：what-is-cislunarspace 扩充、space-news 建议转入新闻→知识解读等已随模块删除而作废，以最终定案为准）。
-- 旧 `docs/content-strategy.md` 删除（本决策推倒重来了其供评审结论，受众地基沿用并已在本文件记录）。
-- **Status: 决策完成，待执行。** 2026-08-20 全部模块定案，共识达成。
+- 本文件升格为现行内容策略，替代已删除的旧 `docs/content-strategy.md`（其供评审结论被本决策推倒重来，受众地基沿用并已在本文件记录）。
+- 删除 Space News 的决策另见 [ADR-0005](../adr/0005-remove-space-news-module.md)。
+- glossary 清洗收尾新扫描见 [glossary-rescan-2026-08-20.md](glossary-rescan-2026-08-20.md)：主词条合并质量达标；**另有 595 个浅档词条（deep=0，批量生成短定义）留在库中，是否再删由站长决策**。
+- **Status: 决策完成，已执行（2026-08-20，issue #216，分支 cleanup/issue-216-content-cleanup）。**
+
+## 清理后扩充 roadmap（不在本次清理范围）
+
+1. **首页重构（修）**：清理后格局为知识为主（入门长文 + 轨道教程 + 词典）+ AI 问答辅助。首页待按此格局重构第一屏主次与阅读路径；当前首页仅完成删除新闻卡与仿真卡。
+2. **what-is-cislunarspace 扩充**：2 页撑不起"入门指南"之名，是扩充第一优先级。
+3. **research-frontiers 填实**：`docs/research/` 9 篇轨道族文档为素材，可把保留的方向页填实。
+4. **glossary 词典呈现页**（可选，未定案）与浅档词条去留决策。

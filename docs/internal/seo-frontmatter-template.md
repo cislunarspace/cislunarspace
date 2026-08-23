@@ -67,7 +67,7 @@ twitter:
 5. **date/lastUpdated**: 发布时间和最后更新时间，有利于新鲜度排名
 6. **og/twitter**: Open Graph和Twitter卡片元数据，提升社交媒体分享效果
 7. **wechatShare**: 微信分享专用元数据
-8. **category**: 分类标签，**必须为数组**（即使只有一个分类），便于下游消费侧（archive / filter / sidebar）按统一形态处理。新建文章请直接写 `category: [foo]`；历史标量形式由 `scripts/maintenance/normalize-space-news-category.ts` 一次性脚本批量转换
+8. **category**: 分类标签，**必须为数组**（即使只有一个分类），便于下游消费侧按统一形态处理。新建文章请直接写 `category: [foo]`
 
 ## 页面分类和关键词建议
 

@@ -10,7 +10,7 @@ The static site generator used to build this knowledge base. VuePress 2 + Vue 3 
 
 ### Theme
 
-The custom theme extends `@vuepress/theme-default` at `web/.vuepress/theme/`. It overrides Layout.vue and VPSidebar.vue via alias, and provides custom layouts for Space News, AI Chat, and Dialectic surfaces.
+The custom theme extends `@vuepress/theme-default` at `web/.vuepress/theme/`. It overrides Layout.vue and VPSidebar.vue via alias, and provides the AI Chat layout.
 
 ### Sidebar
 
@@ -28,7 +28,6 @@ The unified taxonomy module at `web/.vuepress/taxonomy/` owns all taxonomy data 
 
 Build-time generators in `web/.vuepress/generators/` produce JSON artifacts:
 
-- `space-news.ts` — Space News sidebar, articles, and sidebar data
 - `ai-chat.ts` — AI Chat context and index
 - `glossary.ts` — Glossary sidebar and translation gaps
 - `bibliography.ts` — Bibliography from `ref.bib`
@@ -47,8 +46,7 @@ The site has four content families:
 
 1. **Knowledge-base sections** — `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, etc.
 2. **Glossary** — `web/glossary/`, `web/en/glossary/`
-3. **Space News** — `web/space-news/YYYY/MM/`, `web/en/space-news/YYYY/MM/`
-4. **Special surfaces** — `web/ai-chat.md`, `web/dialectic.md`, `web/forum.md`
+3. **Special surfaces** — `web/ai-chat.md`
 
 ### Build Pipeline
 
