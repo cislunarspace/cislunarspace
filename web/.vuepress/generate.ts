@@ -3,7 +3,6 @@ import { fileURLToPath } from 'url';
 import { generateAiChatArtifacts } from './generators/ai-chat.ts';
 import { generateBibliographyArtifacts } from './generators/bibliography.ts';
 import { generateGlossaryArtifacts, generateGlossaryDictionary } from './generators/glossary.ts';
-import { generateSpaceNewsArtifacts } from './generators/space-news.ts';
 import { walkSiteMarkdown } from './utils/markdown-walker.ts';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -12,7 +11,6 @@ const webRoot = path.join(__dirname, '..');
 
 export function runGenerationCli(): void {
   const allFiles = walkSiteMarkdown(webRoot);
-  generateSpaceNewsArtifacts(allFiles, __dirname);
   const glossaryScan = generateGlossaryArtifacts(allFiles);
   generateGlossaryDictionary(allFiles, glossaryScan, __dirname);
   generateAiChatArtifacts(allFiles, glossaryScan, __dirname);

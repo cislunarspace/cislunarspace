@@ -1,20 +1,13 @@
 <template>
-  <Layout
-    :class="{
-      'sn-layout-wrapper': isSpaceNews,
-      'orbit-sim-layout': isOrbitSim,
-      'forum-layout': isForum,
-    }"
-  >
+  <Layout>
     <template #page-bottom>
-      <CopyPageButton v-if="!isForum" />
+      <CopyPageButton />
       <Footer />
     </template>
   </Layout>
-  <SpaceNewsSidebar v-if="isSpaceNews" />
-  <PageSidebar v-if="!isOrbitSim && !isForum" />
-  <PageToc v-if="!isSpaceNews && !isOrbitSim && !isForum" />
-  <SidebarToggle v-if="!isOrbitSim && !isForum" />
+  <PageSidebar />
+  <PageToc />
+  <SidebarToggle />
 </template>
 
 <script setup lang="ts">
@@ -23,7 +16,6 @@ import { useRoute } from 'vue-router';
 import { usePage } from 'vuepress/client';
 import Layout from '@vuepress/theme-default/dist/client/layouts/Layout.vue';
 import Footer from '../components/Footer.vue';
-import SpaceNewsSidebar from '../components/SpaceNewsSidebar.vue';
 import PageSidebar from '../components/ExtraSidebar.vue';
 import PageToc from '../components/PageToc.vue';
 import SidebarToggle from '../components/SidebarToggle.vue';
@@ -36,22 +28,12 @@ import {
   startTableEnhanceObserver,
   teardownTableToolbar,
 } from '../composables/useTableEnhance';
-import { useLayoutType, useIsLayout, LayoutTypes } from '../composables/useLayoutType';
 import { useIsEn } from '../composables/useIsEn';
 
 const route = useRoute();
 const page = usePage();
 const isEn = useIsEn();
 setIsEnFn(() => isEn.value);
-
-const pageLayout = useLayoutType();
-const isSpaceNews = useIsLayout([
-  LayoutTypes.SpaceNewsHome,
-  LayoutTypes.SpaceNewsArticle,
-  LayoutTypes.SpaceNewsArchive,
-]);
-const isOrbitSim = useIsLayout(LayoutTypes.OrbitSimLab);
-const isForum = useIsLayout(LayoutTypes.Forum);
 
 function runTableEnhance() {
   const run = () => {
@@ -119,79 +101,6 @@ onBeforeUnmount(() => {
 
 .theme-container {
   transition: padding-left var(--sn-sidebar-sync-duration) var(--ease-out-expo);
-}
-
-/* ---- Space News 页面：桌面端隐藏原生侧边栏 ---- */
-@media (min-width: 960px) {
-  .sn-layout-wrapper ~ .vp-sidebar,
-  .sn-layout-wrapper .vp-sidebar {
-    display: none !important;
-  }
-}
-
-/* ---- 轨道仿真页：隐藏 VuePress 左侧栏（含移动端抽屉占位），内容区全宽 ---- */
-.vp-theme-container.orbit-sim-layout .vp-sidebar {
-  display: none !important;
-}
-
-.vp-theme-container.orbit-sim-layout .vp-sidebar-mask {
-  display: none !important;
-  pointer-events: none !important;
-}
-
-.vp-theme-container.orbit-sim-layout .vp-page {
-  padding-inline-start: 0 !important;
-}
-
-@media (max-width: 959px) {
-  .vp-theme-container.orbit-sim-layout.sidebar-open .vp-page {
-    padding-inline-start: 0 !important;
-  }
-}
-
-/* ---- 论坛页：隐藏 VuePress 左侧栏与移动端抽屉，正文区加宽 ---- */
-.vp-theme-container.forum-layout .vp-sidebar {
-  display: none !important;
-}
-
-.vp-theme-container.forum-layout .vp-sidebar-mask {
-  display: none !important;
-  pointer-events: none !important;
-}
-
-.vp-theme-container.forum-layout .vp-toggle-sidebar-button {
-  display: none !important;
-}
-
-.vp-theme-container.forum-layout .vp-page {
-  padding-inline-start: 0 !important;
-}
-
-.vp-theme-container.forum-layout .vp-page [vp-content] {
-  max-width: min(1120px, 100%);
-  margin-inline: auto;
-  padding-inline: clamp(1rem, 3vw, 2rem);
-  padding-block: 0.5rem 2rem;
-}
-
-/* 与 Forum 组件内标题重复，隐藏 Markdown 生成的页面 H1 */
-.vp-theme-container.forum-layout [vp-content] > h1:first-child {
-  display: none !important;
-}
-
-/* 不展示「完善页面 / 最近更新」等页脚元信息（与 frontmatter 双保险） */
-.vp-theme-container.forum-layout .vp-page-meta {
-  display: none !important;
-}
-
-.vp-theme-container.forum-layout .vp-page-nav {
-  display: none !important;
-}
-
-@media (max-width: 959px) {
-  .vp-theme-container.forum-layout.sidebar-open .vp-page {
-    padding-inline-start: 0 !important;
-  }
 }
 </style>
 

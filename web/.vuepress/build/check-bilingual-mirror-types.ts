@@ -3,7 +3,7 @@
  */
 import type { MarkdownFile } from '../utils/markdown-walker.ts';
 
-export type ContentFamily = 'glossary' | 'knowledge-base' | 'space-news' | 'root';
+export type ContentFamily = 'glossary' | 'knowledge-base' | 'root';
 
 export type Severity = 'error' | 'warning';
 

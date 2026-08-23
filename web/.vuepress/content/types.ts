@@ -2,19 +2,17 @@
  * 内容操作模块（Content Module，ADR-0003）的类型定义。
  *
  * taxonomy 回答「站点结构是什么」；content 回答「内容如何被安全地增删改查」。
- * 三个内容写入者（admin GUI、space-news 自动管线、agent/人工）都通过本模块
- * 操作内容。本批为骨架：路由、list、read、write 与索引刷新；create/delete/
- * 分类操作随 admin 迁移批次加入。
+ * 两个内容写入者（admin GUI、agent/人工）都通过本模块操作内容。
  */
 
-/** 内容族：三类内容的路径约定与 frontmatter 规则各不相同。 */
-export type ContentFamily = 'space-news' | 'glossary' | 'kb-section';
+/** 内容族：每类内容的路径约定与 frontmatter 规则各不相同。 */
+export type ContentFamily = 'glossary' | 'kb-section';
 
 export type ContentLocale = 'zh' | 'en';
 
 /** 一条内容条目的路由信息，由 router 从相对路径推导。 */
 export interface ContentRoute {
-  /** 相对 web/ 的 md 路径，如 'space-news/2026/04/2026-04-01-x.md'。 */
+  /** 相对 web/ 的 md 路径，如 'glossary/fundamentals/nrho.md'。 */
   relPath: string;
   family: ContentFamily;
   locale: ContentLocale;
@@ -60,30 +58,6 @@ export interface DeleteReport {
   skipped: string[];
 }
 
-/** 新建 Space News 文章的输入（本批 create 仅覆盖该族）。 */
-export interface CreateSpaceNewsInput {
-  /** 发表日期 YYYY-MM-DD。 */
-  date: string;
-  /** url 友好 slug（^[a-z0-9-]+$）。 */
-  slug: string;
-  titleZh: string;
-  titleEn: string;
-  descriptionZh?: string;
-  descriptionEn?: string;
-  categoryZh: string | string[];
-  categoryEn?: string | string[];
-  bodyZh: string;
-  bodyEn?: string;
-  sourceUrl?: string;
-  /** 同时创建英文镜像（需要 bodyEn）。 */
-  withEn: boolean;
-}
-
-export interface CreateResult {
-  zhPath: string;
-  enPath: string | null;
-}
-
 export interface ContentModule {
   /** 列出一个内容族的全部条目（含配对状态与 frontmatter 摘要）。 */
   list(family: ContentFamily): ContentEntry[];
@@ -91,8 +65,6 @@ export interface ContentModule {
   read(relPath: string): ContentDoc;
   /** 改一篇（须已存在）：局部合并落盘，写后触发索引刷新。 */
   write(relPath: string, next: ContentUpdate): void;
-  /** 新建一篇 Space News 文章（zh，可选 en 镜像），含月份 README 索引行。 */
-  create(family: 'space-news', input: CreateSpaceNewsInput): CreateResult;
   /** 删一篇：移入回收站、清 README 索引行、刷新索引。 */
   delete(relPath: string, opts: DeleteOptions): DeleteReport;
   /** 批量删除：回收站共用一个时间戳目录，索引只在结束时刷新一次。 */

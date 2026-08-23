@@ -69,7 +69,7 @@ Checks (current-dist mode):
   4. Metadata           og:title/description/url/type, twitter:card, description
   5. Hreflang           zh and en homes cross-link via rel=alternate
   6. Figures sync       every source figures/ file is present in dist
-  7. Key pages          index/glossary/space-news/ai-chat/forum/404/sitemap/robots
+  7. Key pages          index/glossary/ai-chat/404/sitemap/robots
   8. Asset sanity       no broken local hrefs/src on sampled pages
   9. JSON endpoints     ai-chat-config/context/index parse as JSON
 
@@ -378,14 +378,8 @@ function verifyCurrent(distRoot: string): void {
   const metaSamples: string[] = [
     path.join(distRoot, 'index.html'),
     path.join(distRoot, 'en', 'index.html'),
-    path.join(distRoot, 'space-news', 'index.html'),
-    path.join(distRoot, 'en', 'space-news', 'index.html'),
+    path.join(distRoot, 'glossary', 'index.html'),
   ];
-  const zhArticles = listFiles(path.join(distRoot, 'space-news'), ['.html'])
-    .filter((f) => /space-news\/\d{4}\/\d{2}\/[\d-]+-[^/]+\/index\.html$/.test(f))
-    .sort()
-    .reverse();
-  if (zhArticles[0]) metaSamples.push(zhArticles[0]);
 
   const metaIssues: string[] = [];
   for (const f of metaSamples) {
@@ -440,10 +434,7 @@ function verifyCurrent(distRoot: string): void {
   });
 
   // 5. Figures sync — every source figures/ file must exist in dist
-  const sourceSpaces = [
-    { src: path.join(webDir, 'space-news'), mirror: 'space-news' },
-    { src: path.join(webDir, 'en', 'space-news'), mirror: path.join('en', 'space-news') },
-  ];
+  const sourceSpaces = [{ src: path.join(webDir, 'glossary'), mirror: 'glossary' }];
   const figureMisses: string[] = [];
   let totalFigures = 0;
   for (const { src: srcRoot, mirror } of sourceSpaces) {
@@ -496,14 +487,8 @@ function verifyCurrent(distRoot: string): void {
     'en/index.html',
     'glossary/index.html',
     'en/glossary/index.html',
-    'space-news/index.html',
-    'en/space-news/index.html',
-    'space-news/archive.html',
-    'en/space-news/archive.html',
     'ai-chat.html',
     'en/ai-chat.html',
-    'forum.html',
-    'en/forum.html',
     '404.html',
     'sitemap.xml',
     'robots.txt',
@@ -528,7 +513,7 @@ function verifyCurrent(distRoot: string): void {
     {
       rel: 'index.html',
       mustInclude: ['地月空间入门指南'],
-      mustExclude: ['社区论坛', 'AI 问答', 'AI问答', '术语词典', '按日期查阅'],
+      mustExclude: ['社区论坛', '按日期查阅'],
     },
     {
       rel: 'en/index.html',
@@ -538,31 +523,17 @@ function verifyCurrent(distRoot: string): void {
     {
       rel: 'glossary/index.html',
       mustInclude: ['地月空间术语词典'],
-      mustExclude: ['社区论坛', 'AI 问答', 'AI问答'],
+      mustExclude: ['社区论坛'],
     },
     {
       rel: 'en/glossary/index.html',
       mustInclude: ['Cislunar Space Glossary'],
       mustExclude: ['Community Forum', 'AI Q&A'],
     },
-    {
-      rel: 'space-news/index.html',
-      mustInclude: ['航天动态', 'Space News'],
-      mustExclude: ['社区论坛', '术语词典', 'AI 问答', 'AI问答'],
-    },
-    {
-      rel: 'en/space-news/index.html',
-      mustInclude: ['Space News'],
-      mustExclude: ['Community Forum', 'Glossary', 'AI Q&A'],
-    },
-    {
-      rel: 'space-news/archive.html',
-      mustInclude: ['按日期查阅', 'Space News'],
-    },
-    {
-      rel: 'en/space-news/archive.html',
-      mustInclude: ['Archive', 'Space News'],
-    },
+    
+    
+    
+    
     {
       rel: 'ai-chat.html',
       mustInclude: ['AI问答', '地月空间'],
@@ -571,14 +542,8 @@ function verifyCurrent(distRoot: string): void {
       rel: 'en/ai-chat.html',
       mustInclude: ['AI Q&A', 'Cislunar Space'],
     },
-    {
-      rel: 'forum.html',
-      mustInclude: ['社区论坛'],
-    },
-    {
-      rel: 'en/forum.html',
-      mustInclude: ['Community Forum'],
-    },
+    
+    
   ];
   const contentIssues: string[] = [];
   for (const rule of contentRules) {

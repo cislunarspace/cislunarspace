@@ -4,7 +4,7 @@
  * Importing this file runs `validateTaxonomy(nodes)` once at module load.
  * Authoring errors throw `TaxonomyValidationError`.
  *
- * The taxonomy is unified: navbar / wayfinding / glossary / news-category
+ * The taxonomy is unified: navbar / wayfinding / glossary
  * nodes from `data.ts` and section / page / group / index nodes from
  * `sidebar/data.ts` are flattened together by `defineTaxonomy` into a
  * single `TaxonomyModule` instance. Adapters query it by `kind` or

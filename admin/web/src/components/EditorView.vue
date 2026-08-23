@@ -30,7 +30,7 @@ const dialog = useDialog();
 const loading = ref(true);
 const error = ref('');
 const sides = ref([]); // [{ lang, path, body, yamlText, orig, form, changed, rawTouched }]
-const kind = ref('news');
+const kind = ref('glossary');
 const saving = ref(false);
 const validating = ref(false);
 const dirty = ref(false);
@@ -71,7 +71,7 @@ function makeForm(fm) {
 }
 
 function initSides(data) {
-  kind.value = data.kind || 'news';
+  kind.value = data.kind || 'glossary';
   const arr = [];
   const primary = {
     lang: data.lang,
@@ -245,7 +245,7 @@ const showSitePreview = ref(false);
 
 // ---------- AI 选区润色 ----------
 const aiShow = ref(false);
-const aiContext = ref({ fieldLabel: '', selectedText: '', fullText: '', hasSelection: false, kind: 'news', lang: 'zh' });
+const aiContext = ref({ fieldLabel: '', selectedText: '', fullText: '', hasSelection: false, kind: 'glossary', lang: 'zh' });
 let aiTarget = null; // { side, fieldKey, field?, sel? }
 
 /** 在字段 wrapper 的 mouseup/keyup 上捕获原生选区（e.target 是真实 input/textarea） */
@@ -308,7 +308,7 @@ function applyAi(text, mode) {
       <div style="display: flex; align-items: center; gap: 10px">
         <n-button size="small" @click="backToList">← 返回列表</n-button>
         <span style="font-weight: 600; font-size: 15px">
-          编辑 · {{ kind === 'news' ? 'Space News' : kind === 'glossary' ? 'Glossary' : '知识库' }}
+          编辑 · {{ kind === 'glossary' ? 'Glossary' : '知识库' }}
         </span>
         <n-tag v-if="dirty" size="small" type="warning" :bordered="false">未保存</n-tag>
       </div>

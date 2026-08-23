@@ -2,11 +2,9 @@ import { describe, expect, it, vi } from 'vitest';
 import {
   detectGaps,
   detectKnowledgeBaseGaps,
-  detectSpaceNewsGaps,
   detectRootPageGaps,
   matchesException,
   applyExceptions,
-  extractSpaceNewsSlug,
   formatTerminalOutput,
   buildJsonReport,
   computeExitCode,
@@ -151,72 +149,6 @@ describe('detectKnowledgeBaseGaps', () => {
   });
 });
 
-// ── detectSpaceNewsGaps ──────────────────────────────────────────────────────
-
-describe('detectSpaceNewsGaps', () => {
-  it('detects articles only in zh (missing en)', () => {
-    const files = [
-      md('space-news/2026/03/2026-03-01-lunar-mission.md', '---\ntitle: 月球任务\n---\n'),
-      md('space-news/2026/03/2026-03-05-starship-flight.md', '---\ntitle: 星舰飞行\n---\n'),
-      md('en/space-news/2026/03/2026-03-01-lunar-mission.md', '---\ntitle: Lunar Mission\n---\n'),
-    ];
-
-    const gaps = detectSpaceNewsGaps(files);
-
-    expect(gaps).toHaveLength(1);
-    expect(gaps[0]).toEqual(
-      expect.objectContaining({
-        zhPath: 'space-news/2026/03/2026-03-05-starship-flight.md',
-        family: 'space-news',
-        severity: 'warning',
-      }),
-    );
-  });
-
-  it('detects articles only in en (missing zh)', () => {
-    const files = [
-      md('space-news/2026/03/2026-03-01-lunar-mission.md'),
-      md('en/space-news/2026/03/2026-03-01-lunar-mission.md'),
-      md('en/space-news/2026/03/2026-03-10-new-discovery.md', '---\ntitle: New Discovery\n---\n'),
-    ];
-
-    const gaps = detectSpaceNewsGaps(files);
-
-    expect(gaps).toHaveLength(1);
-    expect(gaps[0]).toEqual(
-      expect.objectContaining({
-        zhPath: 'en/space-news/2026/03/2026-03-10-new-discovery.md',
-        expectedEnPath: 'space-news/2026/03/2026-03-10-new-discovery.md',
-        family: 'space-news',
-        severity: 'warning',
-      }),
-    );
-  });
-
-  it('ignores READMEs and draft articles', () => {
-    const files = [
-      md('space-news/2026/03/README.md'),
-      md('en/space-news/2026/03/README.md'),
-      md('space-news/2026/03/2026-03-01-draft.md', '---\ntitle: Draft\ndraft: true\n---\n'),
-    ];
-
-    const gaps = detectSpaceNewsGaps(files);
-
-    expect(gaps).toHaveLength(0);
-  });
-
-  it('returns empty when all articles have mirrors', () => {
-    const files = [
-      md('space-news/2026/03/2026-03-01-lunar-mission.md'),
-      md('en/space-news/2026/03/2026-03-01-lunar-mission.md'),
-    ];
-
-    const gaps = detectSpaceNewsGaps(files);
-
-    expect(gaps).toHaveLength(0);
-  });
-});
-
 // ── detectRootPageGaps ────────────────────────────────────────────────────────
 
 describe('detectRootPageGaps', () => {
@@ -256,31 +188,6 @@ describe('detectRootPageGaps', () => {
     const gaps = detectRootPageGaps(files);
 
     expect(gaps).toHaveLength(0);
-  });
-});
-
-// ── extractSpaceNewsSlug ─────────────────────────────────────────────────────
-
-describe('extractSpaceNewsSlug', () => {
-  it('extracts slug from article path', () => {
-    expect(extractSpaceNewsSlug('space-news/2026/03/2026-03-01-lunar-mission.md')).toBe(
-      '2026-03-01-lunar-mission',
-    );
-  });
-
-  it('extracts slug from en article path', () => {
-    expect(extractSpaceNewsSlug('en/space-news/2026/03/2026-03-01-lunar-mission.md')).toBe(
-      '2026-03-01-lunar-mission',
-    );
-  });
-
-  it('returns null for README', () => {
-    expect(extractSpaceNewsSlug('space-news/2026/03/README.md')).toBeNull();
-  });
-
-  it('returns null for root space-news files', () => {
-    expect(extractSpaceNewsSlug('space-news/README.md')).toBeNull();
-    expect(extractSpaceNewsSlug('space-news/archive.md')).toBeNull();
   });
 });
 
@@ -374,7 +281,7 @@ describe('buildJsonReport', () => {
       {
         zhPath: 'b.md',
         expectedEnPath: 'en/b.md',
-        family: 'space-news',
+        family: 'root',
         severity: 'warning',
         zhTitle: 'B',
       },
@@ -384,7 +291,7 @@ describe('buildJsonReport', () => {
     const report = buildJsonReport(gaps, exceptions);
 
     expect(report.summary.total).toBe(2);
-    expect(report.summary.byFamily).toEqual({ glossary: 1, 'space-news': 1 });
+    expect(report.summary.byFamily).toEqual({ glossary: 1, root: 1 });
     expect(report.summary.bySeverity).toEqual({ error: 1, warning: 1 });
     expect(report.gaps).toHaveLength(2);
     expect(report.exceptions).toHaveLength(1);
@@ -466,7 +373,7 @@ describe('computeExitCode', () => {
       {
         zhPath: 'a.md',
         expectedEnPath: 'en/a.md',
-        family: 'space-news',
+        family: 'root',
         severity: 'warning',
         zhTitle: 'A',
       },

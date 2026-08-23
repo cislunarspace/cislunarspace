@@ -23,9 +23,6 @@ describe('buildSidebarConfigs', () => {
         '/glossary/',
         '/background/',
         '/resources-tools/',
-        '/space-news/',
-        '/en/space-news/',
-        '/satellite-simulation/',
       ].sort(),
     );
 
@@ -39,14 +36,8 @@ describe('buildSidebarConfigs', () => {
         '/en/glossary/',
         '/en/background/',
         '/en/resources-tools/',
-        '/en/space-news/',
-        '/en/satellite-simulation/',
       ].sort(),
     );
-
-    // ── Disabled sidebars ──
-    expect(configs.zh['/satellite-simulation/']).toBe(false);
-    expect(configs.en['/en/satellite-simulation/']).toBe(false);
 
     // ── Wayfinding is always the first item ──
     const zhRoot = configs.zh['/'] as Array<{ text: string }>;

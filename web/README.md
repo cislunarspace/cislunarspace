@@ -42,24 +42,16 @@ wechatShare:
 
 ## 由近及远：正在发生的动态
 
-刚看到某条发射新闻，想知道背后的来龙去脉？航天动态每日更新、按月归档，是进入这片空间的另一条路。读到哪里不懂，随时问 AI 问答——它基于本站全部内容作答。
+读到哪里不懂，随时问 AI 问答——它基于本站全部内容作答。
 
 <div class="module-grid">
   <a href="/glossary/" class="module-card module-card--glossary">
     <h3>术语词典</h3>
     <p>中英对照 · 站内检索</p>
   </a>
-  <a href="/space-news/" class="module-card module-card--space-news">
-    <h3>航天动态</h3>
-    <p>每日新闻归档</p>
-  </a>
   <a href="/ai-chat" class="module-card module-card--ai-chat">
     <h3>AI 问答</h3>
     <p>全站内容随问随答</p>
-  </a>
-  <a href="/satellite-simulation/" class="module-card module-card--simulation">
-    <h3>轨道仿真</h3>
-    <p>在浏览器里调轨道参数</p>
   </a>
   <a href="/resources-tools/" class="module-card module-card--resources">
     <h3>数据与代码</h3>

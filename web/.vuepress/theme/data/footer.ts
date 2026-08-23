@@ -16,7 +16,6 @@ export default {
       links: [
         { label: '首页', labelEn: 'Home', href: '/' },
         { label: '关于本站', labelEn: 'About', href: '/about' },
-        { label: '航天动态', labelEn: 'Space News', href: '/space-news/' },
         { label: '术语表', labelEn: 'Glossary', href: '/glossary/' },
       ],
     },
@@ -35,7 +34,6 @@ export default {
       links: [
         { label: 'Home', href: '/en/' },
         { label: 'About', href: '/en/about' },
-        { label: 'Space News', href: '/en/space-news/' },
         { label: 'Glossary', href: '/en/glossary/' },
       ],
     },

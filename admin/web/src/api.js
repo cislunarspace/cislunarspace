@@ -19,7 +19,7 @@ async function request(url, options = {}) {
 }
 
 export const api = {
-  /** 列出内容：type=news|glossary|kb，q=关键词，cat=分类 */
+  /** 列出内容：type=glossary|kb，q=关键词，cat=分类 */
   listContents(type, opts = {}) {
     const q = typeof opts === 'string' ? opts : (opts.q || '');
     const cat = typeof opts === 'object' ? (opts.cat || '') : '';
@@ -50,11 +50,11 @@ export const api = {
     });
   },
 
-  /** 批量修改分类（news 改标签 / glossary 移目录） */
-  assignCategory(type, paths, target, mode) {
+  /** 批量修改分类（glossary 移目录） */
+  assignCategory(type, paths, target) {
     return request('/api/categories/assign', {
       method: 'POST',
-      body: JSON.stringify({ type, paths, target, mode }),
+      body: JSON.stringify({ type, paths, target }),
     });
   },
 

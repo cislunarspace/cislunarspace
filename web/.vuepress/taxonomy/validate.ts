@@ -59,15 +59,11 @@ export function validateTaxonomy(nodes: readonly TaxonomyNode[]): void {
     // - `glossary-category`: a build-time filter label, not a routable page.
     //   The `meta.slug` selects a category on the glossary index page; the
     //   node itself has no `/glossary/<slug>/` path of its own.
-    // - `news-category`: a metadata-only node, identified by id but
-    //   resolved at runtime via `taxonomy.byKind('news-category')`. It is
-    //   never rendered as a routable page.
     const pathLessKind =
       node.kind === 'navbar-root' ||
       node.kind === 'external-link' ||
       node.kind === 'group' ||
-      node.kind === 'glossary-category' ||
-      node.kind === 'news-category';
+      node.kind === 'glossary-category';
     for (const locale of ['zh', 'en'] as const) {
       const path = node.path[locale];
       if (visibility[locale] && path === null && !pathLessKind) {
@@ -83,11 +79,11 @@ export function validateTaxonomy(nodes: readonly TaxonomyNode[]): void {
       }
     }
 
-    // `news-category` and `glossary-category` are pure metadata identifiers
+    // `glossary-category` nodes are pure metadata identifiers
     // -- they are never rendered as routable pages. If a future author
     // accidentally sets a path on one (thinking it links to a real page),
     // the components will silently render a broken link. Catch it here.
-    if (node.kind === 'news-category' || node.kind === 'glossary-category') {
+    if (node.kind === 'glossary-category') {
       for (const locale of ['zh', 'en'] as const) {
         if (node.path[locale] !== null) {
           issues.push(
@@ -100,18 +96,6 @@ export function validateTaxonomy(nodes: readonly TaxonomyNode[]): void {
 
     if (node.kind === 'external-link' && !isSafeExternalHref(node.meta?.href)) {
       issues.push(`node "${node.id}": external-link meta.href must be a safe http(s) URL`);
-    }
-
-    // news-category nodes must carry a 7-char hex color (`#RRGGBB`).
-    // Without this rule, a typo (`#fff`, `#abc123`, `red`) silently
-    // propagates into the SpaceNews components and renders wrong.
-    if (node.kind === 'news-category') {
-      const color = node.meta?.color;
-      if (typeof color !== 'string' || !/^#[0-9a-fA-F]{6}$/.test(color)) {
-        issues.push(
-          `node "${node.id}": news-category meta.color must be a 7-char hex like "#6366f1" (got ${JSON.stringify(color)})`,
-        );
-      }
     }
   }
 

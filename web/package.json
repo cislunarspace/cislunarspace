@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run gen-sidebar && vuepress dev . --host 0.0.0.0",
-    "build": "npm run gen-sidebar && tsx .vuepress/build/build-cached.ts && tsx .vuepress/build/sync-figures.js",
+    "build": "npm run gen-sidebar && tsx .vuepress/build/build-cached.ts",
     "test": "vitest run",
     "gen-sidebar": "tsx .vuepress/generate.ts",
     "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#dist\" && eslint . && prettier --check .",

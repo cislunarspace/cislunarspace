@@ -25,7 +25,6 @@ export type NodeKind =
   | 'page'
   | 'index'
   | 'glossary-category'
-  | 'news-category'
   | 'navbar-root'
   | 'navbar-link'
   | 'external-link';
@@ -50,7 +49,6 @@ export interface TaxonomyNode {
   /**
    * Adapter-specific metadata:
    *   - `meta.href` for external-link navbar items
-   *   - `meta.color` for news-category nodes
    *   - `meta.collapsible` for sidebar groups
    *   - `meta.indexLink: true` for an index-page sibling within a sidebar group
    */
