@@ -1,4 +1,4 @@
----
+﻿---
 title: Sequential Convex Programming (SCP / Successive Convexification)
 description: "A direct method for nonconvex optimal control: linearize the dynamics at a reference trajectory, add a trust region, and losslessly convexify the control constraints, yielding a sequence of second-order cone programs (SOCP). Polynomial-time interior-point solves each subproblem with a deterministic stopping criterion — well-suited to real-time / on-board guidance. Covers lossless convexification, virtual control, trust-region rules, and applications to powered descent, low-thrust transfer, and entry guidance."
 keywords: Sequential Convex Programming, SCP, Successive Convexification, Convex Optimization, SOCP, Trust Region, Lossless Convexification, Virtual Control, Interior Point, Powered Descent Guidance

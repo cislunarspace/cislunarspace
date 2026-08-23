@@ -1,4 +1,4 @@
----
+﻿---
 title: Spacecraft Local Orbital Frames (RSW / LVLH / Hill / Euler-Hill Frame)
 description: Local rectangular frames centered on a spacecraft and moving with its orbit — RSW (radial-transverse-normal, also RTN/LVLH), NTW, and the Hill/Euler-Hill frame with its relation to the Clohessy-Wiltshire equations, covering degeneracies, formation relative motion, and the contrast with libration-point rotating frames.
 keywords: RSW, RTN, LVLH, NTW, Hill frame, Euler-Hill frame, local orbital frame, relative motion, Clohessy-Wiltshire, formation flying, radial-transverse-normal

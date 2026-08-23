@@ -1,4 +1,4 @@
----
+﻿---
 title: Pontryagin's Maximum Principle
 description: The fundamental necessary conditions of optimal control, coupling state, costate, and control through a Hamiltonian. Covers the maximum vs minimum convention, the full set of first-order conditions, transversality, switching function, primer vector link, and the variational foundation (Euler–Lagrange, discrete E–L).
 keywords: Pontryagin's Maximum Principle, Pontryagin Minimum Principle, PMP, Hamiltonian, Calculus of Variations, Transversality Condition, Switching Function, Euler-Lagrange Equations, Primer Vector

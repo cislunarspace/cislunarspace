@@ -1,4 +1,4 @@
----
+﻿---
 title: Spacecraft Formation Flying
 description: A multi-spacecraft mission concept where satellites maintain a prescribed relative geometry (distance and/or orientation) for a shared objective — interferometry, deep-space imaging, communications relay. Distinct from constellations (coverage-driven) and clusters (no precise relative geometry).
 keywords: spacecraft formation flying, formation keeping, formation reconfiguration, relative motion, libration point formation, DRO formation, inertial-frame-fixed formation, LQR formation control, ultra-close formation, natural formation

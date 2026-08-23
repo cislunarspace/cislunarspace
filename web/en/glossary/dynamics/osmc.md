@@ -1,4 +1,4 @@
----
+﻿---
 title: Sliding Mode Control and Optimal Sliding Mode Control (OSMC)
 description: Sliding Mode Control (SMC) shapes a switching control law that drives the state onto a prescribed sliding surface and then slides along it, achieving invariance to matched uncertainties and disturbances. Optimal Sliding Mode Control (OSMC) embeds the LQR gain in an integral sliding surface so that the sliding motion is optimal for a quadratic cost, while a discontinuous switching term rejects disturbances. This entry covers SMC's mathematical structure (equivalent control, switching term, Lyapunov stability, chattering), integral sliding surface design, the coupling of LQR and SMC in OSMC, and engineering tuning for cislunar libration-point station-keeping.
 keywords: sliding mode control, SMC, optimal sliding mode control, OSMC, integral sliding surface, equivalent control, chattering, Lyapunov stability, libration point station-keeping

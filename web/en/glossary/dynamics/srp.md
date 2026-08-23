@@ -1,4 +1,4 @@
----
+﻿---
 title: Solar Radiation Pressure Perturbation (SRP)
 description: The non-conservative perturbation from momentum exchange between solar photons and spacecraft surfaces, with acceleration $\mathbf{a}_{srp} = -P_{\odot} (A/m) (1+C_R) \hat{\mathbf{r}}_{\odot}$ (cannonball model)—a key long-term orbital driver in GEO and cislunar space. Covers the photon-pressure constant, cannonball vs panel models, eclipse effects, COLIBRI case history, solar-sail artificial libration-point orbits, and the linear superposition with atmospheric drag.
 keywords: Solar Radiation Pressure, SRP, cannonball model, reflectivity coefficient, eclipse model, solar sail, artificial libration point, COLIBRI, station-keeping

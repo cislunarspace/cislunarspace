@@ -1,4 +1,4 @@
----
+﻿---
 title: Relative Motion
 description: The position and velocity of one spacecraft (deputy/interceptor) relative to another (chief/target) as functions of time. The dynamical foundation of formation flying, rendezvous, and proximity operations in two-body and three-body regimes.
 keywords: relative motion, Hill's equations, Clohessy-Wiltshire equations, HCW, Hill frame, CR3BP relative dynamics, CLERM, ELERM, CNERM, relative orbit determination

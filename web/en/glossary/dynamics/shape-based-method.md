@@ -1,4 +1,4 @@
----
+﻿---
 title: Shape-Based Method and Velocity Hodograph
 description: Shape-based methods use predefined analytical shape functions (exponential sinusoids, inverse polynomials, Fourier series, etc.) to approximate the geometry of a low-thrust trajectory, then recover the thrust profile by inverse dynamics, reducing an infinite-dimensional optimal control problem to a finite-dimensional parameter optimization. This entry covers the Petropoulos exponential sinusoid and its multi-revolution Lambert analogue (Izzo 2006), the Wall-Conway inverse polynomial, velocity-hodograph shaping, the CR3BP-modified exponential sinusoid (Vellutini & Avanzini 2014), amplitude-phase shape functions for libration-point periodic orbits, the origin of the feasibility condition |k1·k2²|<1, the cost of the tangential-thrust assumption, and the engineering role in global search and initial-guess generation.
 keywords: shape-based method, shape method, exponential sinusoid, inverse polynomial, velocity hodograph, Petropoulos, Wall-Conway, Vellutini, low-thrust trajectory design, libration point orbit

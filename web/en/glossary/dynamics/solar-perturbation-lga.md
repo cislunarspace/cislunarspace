@@ -1,4 +1,4 @@
----
+﻿---
 title: Solar-Perturbation Lunar Gravity Assist (Forward/Backward LGA)
 description: In the bicircular restricted four-body problem, the Moon's orbit around the Earth–Moon barycenter divides the synodic frame into quadrants in which solar perturbation either increases ("forward", quadrants II/IV) or decreases ("backward", quadrants I/III) the spacecraft's Earth-Moon Jacobi energy and mechanical energy, enabling or suppressing low-energy DRO insertion. Defines the energy coordinate system and the energy trend that must be matched at the WSB-to-DRO handoff.
 keywords: forward lunar gravity assist, backward lunar gravity assist, solar-perturbation lunar gravity assist, Jacobi energy, mechanical energy, BCR4BP, WSB transfer, low-energy DRO, quadrant

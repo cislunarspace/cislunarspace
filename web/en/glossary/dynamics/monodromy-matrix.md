@@ -1,4 +1,4 @@
----
+﻿---
 title: Monodromy Matrix and Floquet Stability Theory（单值矩阵与Floquet稳定性分析）
 description: The monodromy matrix is the state transition matrix integrated over one complete period of a periodic orbit. Its eigenvalues (Floquet multipliers) classify orbital stability — real multipliers $\lambda_1\lambda_2=1$ define the saddle structure, unit-modulus complex-conjugate pairs describe oscillatory modes. Covers Floquet theory, eigen-decomposition of collinear libration point orbits, Lyapunov exponents, error divergence rates, and bifurcation criteria.
 keywords: monodromy matrix, Floquet multipliers, Floquet theory, periodic orbit stability, saddle structure, Lyapunov exponent, state transition matrix, eigenvalue decomposition, libration point, CR3BP, center-saddle

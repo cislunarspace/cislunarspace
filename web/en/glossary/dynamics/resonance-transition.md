@@ -1,4 +1,4 @@
----
+﻿---
 title: Resonance Transition (Resonance Hopping)
 description: The process by which a celestial body or spacecraft transitions from one mean-motion resonance ratio to another through phase-space channels formed by invariant manifold tubes in the restricted three-body problem, covering natural comet dynamics (Oterma, Gehrels 3) and SMART-1-like low-energy lunar transfers.
 keywords: resonance transition, resonance hopping, invariant manifold, phase-space transport, temporary capture, low-energy transfer, SMART-1, weak stability boundary, Oterma, Gehrels 3, cislunar space

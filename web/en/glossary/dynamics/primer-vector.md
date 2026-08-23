@@ -1,4 +1,4 @@
----
+﻿---
 title: Primer Vector
 description: The primer vector p(t)=-λ_v(t) introduced by Lawden (1963), the unifying adjoint quantity for first-order necessary conditions of both continuous-thrust and impulsive optimal transfers. Covers the primer vector equation, the Lawden-Lion-Handelsman impulsive necessary conditions, the adjoint-control transformation, switching-function-based throttle, and cislunar application notes.
 keywords: primer vector, Lawden, costate velocity, switching function, optimal thrust direction, impulsive transfer optimality, Lion-Handelsman, Jezewski-Rozendaal, indirect method

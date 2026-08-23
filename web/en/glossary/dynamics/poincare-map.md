@@ -1,4 +1,4 @@
----
+﻿---
 title: Poincaré Map (Poincaré Return Map)
 description: "The discrete first-return map P: Σ → Σ induced by a Poincaré section, transforming the analysis of periodic, quasi-periodic and chaotic motion of a continuous flow into a discrete dynamical systems problem. Covers dimensionality and stability of fixed points in planar/spatial CR3BP, glyph visualization of higher-dimensional maps, the periapse map for transit classification, the Tisserand–Poincaré graph for gravity-assist sequencing, and applications to heteroclinic/homoclinic connections and transfer design."
 keywords: Poincaré Map, First Return Map, periapse map, Tisserand-Poincaré graph, fixed point, monodromy matrix, heteroclinic, homoclinic, cislunar transfer design

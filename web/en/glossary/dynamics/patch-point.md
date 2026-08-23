@@ -1,4 +1,4 @@
----
+﻿---
 title: Patch Point
 description: Segment junction nodes in multiple shooting — continuity constraints at patch points link adjacent sub-arcs, and their number and placement directly govern convergence speed and accuracy. Covers fixed/variable-time patching, adaptive placement, and their role in connecting trajectories across different three-body systems.
 keywords: patch point, splicing point, connection point, multiple shooting, differential correction, trajectory patching, adaptive selection, cislunar space

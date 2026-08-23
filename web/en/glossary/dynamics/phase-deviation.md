@@ -1,4 +1,4 @@
----
+﻿---
 title: Phase Deviation (相位偏差)
 description: The phenomenon of a spacecraft's phase along a periodic orbit drifting relative to its reference trajectory. Caused by event-driven stationkeeping schemes (e.g. x-axis crossing control) that do not constrain the time/phase component. Uncorrected, phase drift can accumulate to hours over several years, compromising rendezvous and eclipse avoidance. The PC-SCoP approach casts the phase constraint as an explicit optimization constraint instead of an unintuitive tuning weight in differential correction.
 keywords: Phase Deviation, Phase Drift, libration point orbit stationkeeping, x-axis crossing control, PC-SCoP, NRHO, absolute phase bias, DRO formation, SOCP

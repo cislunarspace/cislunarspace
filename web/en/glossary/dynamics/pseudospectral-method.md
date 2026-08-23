@@ -1,4 +1,4 @@
----
+﻿---
 title: Pseudospectral Method (Spectral Collocation)
 description: A family of direct methods that approximate state and control by a single high-order global Lagrange polynomial on Legendre-Gauss / Gauss-Radau / Gauss-Lobatto nodes. Exponential (spectral) convergence for smooth solutions; the KKT multipliers map to the continuous costate (covector mapping theorem). Covers GPM, RPM, LPM, Chebyshev variants, hp-adaptivity, and tools (GPOPS-II, DIDO, SPARTAN).
 keywords: Pseudospectral Method, GPM, Gauss Pseudospectral Method, RPM, Radau Pseudospectral Method, LPM, Lobatto Pseudospectral Method, Chebyshev, Lagrange interpolation, Legendre-Gauss, spectral convergence, hp-adaptive, GPOPS-II, DIDO, covector mapping

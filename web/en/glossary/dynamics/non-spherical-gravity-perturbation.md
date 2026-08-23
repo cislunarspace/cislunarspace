@@ -1,4 +1,4 @@
----
+﻿---
 title: Non-Spherical Gravity Perturbation
 description: The additional gravitational acceleration caused by a celestial body's actual gravity field deviating from a uniform sphere, modelled by the spherical-harmonic series $\Phi = -\frac{\mu}{r}\sum_{\ell=0}^{\infty}\sum_{m=0}^{\ell}\left(\frac{R_e}{r}\right)^\ell P_{\ell m}(\sin\phi)[C_{\ell m}\cos m\lambda + S_{\ell m}\sin m\lambda]$. Covers zonal/tesseral/sectoral classification, the J2 term, Earth vs lunar gravity-field differences (mascons), and model-order selection across different cislunar orbital regimes.
 keywords: non-spherical gravity perturbation, aspherical gravity, spherical harmonics, spherical harmonic expansion, zonal harmonics, tesseral harmonics, sectoral harmonics, J2, Earth oblateness, Earth oblateness perturbation, mascon, lunar gravity, gravity field model

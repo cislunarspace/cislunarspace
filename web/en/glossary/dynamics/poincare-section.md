@@ -1,4 +1,4 @@
----
+﻿---
 title: Poincaré Section (Surface of Section)
 description: A lower-dimensional submanifold Σ in phase space used to reduce a continuous flow to a discrete point sequence; when combined with an energy integral (Jacobi constant in CR3BP) it lowers the effective dimension by two. Covers configuration hyperplanes (y=0, x=1−μ), event-defined sections (periapse ρ̇=0, ρ̈>0), pseudo-arclength hyperplanes, and their use in libration-point orbit family identification and transfer seeding.
 keywords: Poincaré Section, Surface of Section, SOS, phase space reduction, Jacobi constant, periapse section, libration point orbit, invariant manifold, cislunar space
