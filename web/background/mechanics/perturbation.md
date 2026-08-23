@@ -59,7 +59,6 @@ $$\ddot{\mathbf{r}} = \mathbf{F}_0(\mathbf{r}) + \varepsilon \mathbf{F}_p(\mathb
 
 - [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - 星历模型（Ephemeris Model）
-- [希尔三体问题（Hill Three-Body Problem）](./hill-three-body/)
 
 ## 参考文献
 

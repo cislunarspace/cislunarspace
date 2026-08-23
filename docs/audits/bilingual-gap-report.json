@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:46:27.862Z",
+  "generatedAt": "2026-08-23T13:55:10.143Z",
   "summary": {
     "total": 0,
     "byFamily": {},
@@ -7,15 +7,6 @@
   },
   "gaps": [],
   "exceptions": [
-    {
-      "pattern": "research-frontiers/directions/_templates/**",
-      "reason": "non-user-visible template directory",
-      "matchedPaths": [
-        "research-frontiers/directions/_templates/direction-index.md",
-        "research-frontiers/directions/_templates/institution.md",
-        "research-frontiers/directions/_templates/subtopic.md"
-      ]
-    },
     {
       "pattern": "research-frontiers/directions/security-governance/orbital-game/**",
       "reason": "zh-only content",

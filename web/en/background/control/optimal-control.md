@@ -61,9 +61,7 @@ This principle reduces the continuous optimization problem to selecting the opti
 
 ## Related Concepts
 
-- [Pseudospectral Methods](../math/pseudospectral/)
 - [Shooting Method](../math/shooting-method/)
-- [Model Predictive Control (MPC)](./mpc/)
 
 ## References
 

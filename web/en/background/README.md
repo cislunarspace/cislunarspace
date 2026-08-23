@@ -25,18 +25,15 @@ This section provides in-depth reference materials complementing the [Cislunar G
 
 - [Shooting Method](./math/shooting-method/)
 - [Arc-length Continuation](./math/continuation/)
-- [Pseudospectral Methods](./math/pseudospectral/)
 - [Symplectic Integrator](./math/symplectic-integrator/)
 
 ### Celestial Mechanics
 
 - [Perturbation Theory](./mechanics/perturbation/)
-- [Hill Three-Body Problem](./mechanics/hill-three-body/)
 
 ### Control & Optimization
 
 - [Optimal Control](./control/optimal-control/)
-- [Model Predictive Control (MPC)](./control/mpc/)
 
 ## Updates
 

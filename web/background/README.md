@@ -38,18 +38,15 @@ twitter:
 
 - [打靶法（Shooting Method）](./math/shooting-method/)
 - [弧长延续法（Arc-length Continuation）](./math/continuation/)
-- [伪谱法（Pseudospectral Methods）](./math/pseudospectral/)
 - [辛积分器（Symplectic Integrator）](./math/symplectic-integrator/)
 
 ### 天体力学基础
 
 - [摄动理论（Perturbation Theory）](./mechanics/perturbation/)
-- [希尔三体问题（Hill Three-Body Problem）](./mechanics/hill-three-body/)
 
 ### 控制与优化
 
 - [最优控制理论（Optimal Control）](./control/optimal-control/)
-- [模型预测控制（MPC）](./control/mpc/)
 
 ## 与技术词典的关联
 

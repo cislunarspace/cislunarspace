@@ -21,7 +21,6 @@ describe('buildSidebarConfigs', () => {
         '/cislunar-orbits/',
         '/research-frontiers/',
         '/glossary/',
-        '/background/',
         '/resources-tools/',
       ].sort(),
     );
@@ -34,7 +33,6 @@ describe('buildSidebarConfigs', () => {
         '/en/cislunar-orbits/',
         '/en/research-frontiers/',
         '/en/glossary/',
-        '/en/background/',
         '/en/resources-tools/',
       ].sort(),
     );

@@ -133,10 +133,6 @@ export function detectRootPageGaps(files: MarkdownFile[]): BilingualGap[] {
  */
 export const EXCEPTION_RULES: ExceptionRule[] = [
   {
-    pattern: 'research-frontiers/directions/_templates/**',
-    reason: 'non-user-visible template directory',
-  },
-  {
     pattern: 'research-frontiers/directions/security-governance/orbital-game/**',
     reason: 'zh-only content',
   },

@@ -127,32 +127,8 @@ export const sidebarSections: SidebarSection[] = [
             ],
           },
           {
-            slug: 'navigation',
-            label: { zh: '导航与定轨', en: 'Navigation & Orbit Determination' },
-            collapsible: true,
-            children: [],
-          },
-          {
             slug: 'ssa',
             label: { zh: '空间态势感知', en: 'Space Situational Awareness' },
-            collapsible: true,
-            children: [],
-          },
-          {
-            slug: 'communication',
-            label: { zh: '通信与信息网络', en: 'Communication & Information Network' },
-            collapsible: true,
-            children: [],
-          },
-          {
-            slug: 'reference-frame',
-            label: { zh: '时空基准与测量', en: 'Spatiotemporal Reference & Measurement' },
-            collapsible: true,
-            children: [],
-          },
-          {
-            slug: 'transportation',
-            label: { zh: '航天运输体系', en: 'Space Transportation System' },
             collapsible: true,
             children: [],
           },
@@ -183,20 +159,6 @@ export const sidebarSections: SidebarSection[] = [
             ],
           },
           {
-            slug: 'infrastructure',
-            label: { zh: '基础设施与经济', en: 'Infrastructure & Economy' },
-            collapsible: true,
-            children: [],
-          },
-          {
-            slug: 'simulation',
-            label: { zh: '仿真系统', en: 'Simulation Systems' },
-            collapsible: true,
-            children: [
-              { slug: 'simulation-systems', label: { zh: '仿真系统', en: 'Simulation systems' } },
-            ],
-          },
-          {
             slug: 'radiation-environment',
             label: { zh: '空间辐射环境', en: 'Space Radiation Environment' },
             collapsible: true,
@@ -222,46 +184,6 @@ export const sidebarSections: SidebarSection[] = [
     ],
   },
 
-  // ── 背景知识 ──
-  {
-    slug: 'background',
-    label: {
-      zh: '背景知识（基础理论 · 数学工具）',
-      en: 'Background Knowledge (Fundamentals & Math Tools)',
-    },
-    children: [
-      {
-        slug: 'math',
-        label: { zh: '数学工具', en: 'Math Tools' },
-        collapsible: true,
-        children: [
-          { slug: 'shooting-method', label: { zh: '打靶法', en: 'Shooting method' } },
-          { slug: 'continuation', label: { zh: '延拓法', en: 'Continuation' } },
-          { slug: 'pseudospectral', label: { zh: '伪谱法', en: 'Pseudospectral methods' } },
-          { slug: 'symplectic-integrator', label: { zh: '辛积分器', en: 'Symplectic integrator' } },
-        ],
-      },
-      {
-        slug: 'mechanics',
-        label: { zh: '天体力学基础', en: 'Celestial Mechanics' },
-        collapsible: true,
-        children: [
-          { slug: 'perturbation', label: { zh: '摄动理论', en: 'Perturbation' } },
-          { slug: 'hill-three-body', label: { zh: '希尔三体问题', en: 'Hill three-body problem' } },
-        ],
-      },
-      {
-        slug: 'control',
-        label: { zh: '控制与优化', en: 'Control & Optimization' },
-        collapsible: true,
-        children: [
-          { slug: 'optimal-control', label: { zh: '最优控制', en: 'Optimal control' } },
-          { slug: 'mpc', label: { zh: '模型预测控制', en: 'Model predictive control' } },
-        ],
-      },
-    ],
-  },
-
   // ── 资源与工具 ──
   {
     slug: 'resources-tools',
@@ -270,47 +192,8 @@ export const sidebarSections: SidebarSection[] = [
       en: 'Resources & Tools (Data, Code & Datasets)',
     },
     children: [
-      {
-        id: 'resources-tools/simulation-software',
-        label: { zh: '仿真软件', en: 'Simulation Software' },
-        collapsible: true,
-        children: [
-          { slug: 'gmat', label: { zh: 'GMAT', en: 'GMAT' } },
-          { slug: 'stk', label: { zh: 'STK', en: 'STK' } },
-          { slug: 'atk', label: { zh: 'ATK', en: 'ATK' } },
-          { slug: 'cesium', label: { zh: 'Cesium', en: 'Cesium' } },
-        ],
-      },
-      {
-        id: 'resources-tools/core-algorithm-libraries',
-        label: { zh: '核心算法库', en: 'Core Algorithm Libraries' },
-        collapsible: true,
-        children: [
-          { slug: 'e2m2e', label: { zh: 'E2M2E', en: 'E2M2E' } },
-          { slug: 'scipy', label: { zh: 'SciPy', en: 'SciPy' } },
-          { slug: 'r2s2', label: { zh: 'R2S2', en: 'R2S2' } },
-          { slug: 'orekit', label: { zh: 'Orekit', en: 'Orekit' } },
-          { slug: 'poliastro', label: { zh: 'Poliastro', en: 'Poliastro' } },
-          { slug: 'basilisk', label: { zh: 'Basilisk', en: 'Basilisk' } },
-          { slug: 'pykep', label: { zh: 'PyKEP', en: 'PyKEP' } },
-        ],
-      },
-      {
-        id: 'resources-tools/data-resources',
-        label: { zh: '数据资源', en: 'Data Resources' },
-        collapsible: true,
-        children: [{ slug: 'datasets', label: { zh: '数据集', en: 'Datasets' } }],
-      },
-      {
-        id: 'resources-tools/ai-cloud-platforms',
-        label: { zh: 'AI与云平台', en: 'AI & Cloud Platforms' },
-        collapsible: true,
-        children: [
-          { slug: 'digital-lunar', label: { zh: '数字月球', en: 'Digital Lunar' } },
-          { slug: 'llm', label: { zh: '大语言模型', en: 'LLM' } },
-          { slug: 'naoc-data', label: { zh: 'NAOC 数据', en: 'NAOC Data' } },
-        ],
-      },
+      { slug: 'datasets', label: { zh: '数据集资源', en: 'Datasets' } },
+      { slug: 'e2m2e', label: { zh: 'E2M2E 转移轨道设计库', en: 'E2M2E' } },
     ],
   },
 ];

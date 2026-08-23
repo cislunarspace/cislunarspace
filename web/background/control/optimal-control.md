@@ -61,9 +61,7 @@ $$\mathbf{u}^*(t) = \arg\max_{\mathbf{u} \in \mathcal{U}} H(\mathbf{x}^*, \mathb
 
 ## 相关概念
 
-- [伪谱法（Pseudospectral Methods）](../math/pseudospectral/)
 - [打靶法（Shooting Method）](/background/math/shooting-method/)
-- [模型预测控制（MPC）](./mpc/)
 
 ## 参考文献
 
