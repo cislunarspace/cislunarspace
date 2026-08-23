@@ -12,27 +12,35 @@ const WRITE = process.argv.includes('--write');
 
 // ── 收集现存词典词条：slug + 标题 ──
 function walkMd(dir, out) {
-  let e; try { e = readdirSync(dir, { withFileTypes: true }); } catch { return; }
+  let e;
+  try {
+    e = readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return;
+  }
   for (const x of e) {
     const f = path.join(dir, x.name);
     if (x.isDirectory()) walkMd(f, out);
     else if (x.isFile() && x.name.endsWith('.md') && !x.name.startsWith('_')) out.push(f);
   }
 }
-const glossFiles = []; walkMd(path.join(root, 'glossary'), glossFiles); walkMd(path.join(root, 'en/glossary'), glossFiles);
+const glossFiles = [];
+walkMd(path.join(root, 'glossary'), glossFiles);
+walkMd(path.join(root, 'en/glossary'), glossFiles);
 
 // core：去括号内容（全角／半角）、trim
 const coreRe = /[（(][^）)]*[）)]/g;
 const norm = (s) => (s || '').replace(coreRe, '').replace(/\s+/g, '').toLowerCase().trim();
 
-const titleCoreMap = new Map();   // core -> {cat, slug}
-const abbrevMap = new Map();      // abbrev -> {cat, slug}（仅当缩写唯一）
-const abbrevCount = new Map();    // abbrev -> 出现次数（去歧义）
-const entries = [];               // {cat, slug, title, core, abbrevs}
+const titleCoreMap = new Map(); // core -> {cat, slug}
+const abbrevMap = new Map(); // abbrev -> {cat, slug}（仅当缩写唯一）
+const abbrevCount = new Map(); // abbrev -> 出现次数（去歧义）
+const entries = []; // {cat, slug, title, core, abbrevs}
 for (const f of glossFiles) {
   const m = f.match(/glossary\/([^/]+)\/([^/]+)\.md$/);
   if (!m) continue;
-  const cat = m[1], slug = m[2];
+  const cat = m[1],
+    slug = m[2];
   let title = '';
   try {
     const c = readFileSync(f, 'utf8');
@@ -45,7 +53,8 @@ for (const f of glossFiles) {
   }
   // 抽括号里的缩写
   const abbrs = [];
-  let am; const parensRe = /[（(]([^）)]*)[）)]/g;
+  let am;
+  const parensRe = /[（(]([^）)]*)[）)]/g;
   while ((am = parensRe.exec(title || '')) !== null) {
     for (const part of am[1].split(/[,，、]/)) {
       const p = part.trim();
@@ -56,14 +65,23 @@ for (const f of glossFiles) {
   for (const a of abbrs) abbrevCount.set(a, (abbrevCount.get(a) || 0) + 1);
   entries.push({ cat, slug, title, core, abbrs });
 }
-for (const e of entries) for (const a of e.abbrs) {
-  if (abbrevCount.get(a) === 1 && !abbrevMap.has(a)) abbrevMap.set(a, { cat: e.cat, slug: e.slug });
-}
-console.error(`[info] 现存词条 ${entries.length}；title core ${titleCoreMap.size}；唯一缩写 ${abbrevMap.size}；模式 ${WRITE ? 'WRITE' : 'DRY-RUN'}`);
+for (const e of entries)
+  for (const a of e.abbrs) {
+    if (abbrevCount.get(a) === 1 && !abbrevMap.has(a))
+      abbrevMap.set(a, { cat: e.cat, slug: e.slug });
+  }
+console.error(
+  `[info] 现存词条 ${entries.length}；title core ${titleCoreMap.size}；唯一缩写 ${abbrevMap.size}；模式 ${WRITE ? 'WRITE' : 'DRY-RUN'}`,
+);
 
 // ── 扫描源 .md，修断链 ──
 function* allMd(dir) {
-  let e; try { e = readdirSync(dir, { withFileTypes: true }); } catch { return; }
+  let e;
+  try {
+    e = readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return;
+  }
   for (const x of e) {
     if (['node_modules', '.vuepress', 'dist', '.cache', '.temp', '.git'].includes(x.name)) continue;
     const f = path.join(dir, x.name);
@@ -71,14 +89,25 @@ function* allMd(dir) {
     else if (x.isFile() && x.name.endsWith('.md')) yield f;
   }
 }
-const existingKeys = new Set(entries.map(e => `${e.cat}/${e.slug}`));
+const existingKeys = new Set(entries.map((e) => `${e.cat}/${e.slug}`));
 const linkRe = /(!?)\[([^\]]*)\]\(([^)]+)\)/g;
-let recovered = 0, unlinked = 0, filesChanged = 0;
-const recSamples = [], delSamples = [];
+let recovered = 0,
+  unlinked = 0,
+  filesChanged = 0;
+const recSamples = [],
+  delSamples = [];
 
 for (const f of allMd(root)) {
-  let content; try { content = readFileSync(f, 'utf8'); } catch { continue; }
-  let out = '', last = 0, m, changed = false;
+  let content;
+  try {
+    content = readFileSync(f, 'utf8');
+  } catch {
+    continue;
+  }
+  let out = '',
+    last = 0,
+    m,
+    changed = false;
   linkRe.lastIndex = 0;
   while ((m = linkRe.exec(content)) !== null) {
     const [full, bang, text, rawUrl] = m;
@@ -86,7 +115,9 @@ for (const f of allMd(root)) {
     const urlPath = rawUrl.split(/\s+/)[0].replace(/[?#].*$/, '');
     const g = urlPath.match(/^(\/?(?:en\/)?)glossary\/([^/]+)(?:\/([^/?#]+))?\/?$/);
     if (!g) continue;
-    const prefix = g[1], cat = g[2], slug = g[3];
+    const prefix = g[1],
+      cat = g[2],
+      slug = g[3];
     // 有 slug 且现存 → 保留；分类索引页（无 slug，或 slug 不存在）→ 当断链处理
     if (slug && existingKeys.has(`${cat}/${slug}`)) continue;
     // 断链：尝试恢复
@@ -98,11 +129,17 @@ for (const f of allMd(root)) {
     if (target) {
       replacement = `[${text}](${prefix}glossary/${target.cat}/${target.slug}/)`;
       recovered++;
-      if (recSamples.length < 10) recSamples.push(`${path.relative(root, f)}: [${text.slice(0,24)}] → ${target.cat}/${target.slug}`);
+      if (recSamples.length < 10)
+        recSamples.push(
+          `${path.relative(root, f)}: [${text.slice(0, 24)}] → ${target.cat}/${target.slug}`,
+        );
     } else {
       replacement = text;
       unlinked++;
-      if (delSamples.length < 6) delSamples.push(`${path.relative(root, f)}: [${text.slice(0,24)}](${cat}/${slug}) → 纯文本`);
+      if (delSamples.length < 6)
+        delSamples.push(
+          `${path.relative(root, f)}: [${text.slice(0, 24)}](${cat}/${slug}) → 纯文本`,
+        );
     }
     out += content.slice(last, m.index) + replacement;
     last = m.index + full.length;
@@ -114,6 +151,10 @@ for (const f of allMd(root)) {
     if (WRITE) writeFileSync(f, out);
   }
 }
-console.log(`${WRITE ? '已改' : '会改'} ${filesChanged} 个文件。恢复改名 ${recovered} 处，纯删 ${unlinked} 处。`);
-console.log('--- 恢复改名抽样 ---'); for (const s of recSamples) console.log('  ' + s);
-console.log('--- 纯删抽样 ---'); for (const s of delSamples) console.log('  ' + s);
+console.log(
+  `${WRITE ? '已改' : '会改'} ${filesChanged} 个文件。恢复改名 ${recovered} 处，纯删 ${unlinked} 处。`,
+);
+console.log('--- 恢复改名抽样 ---');
+for (const s of recSamples) console.log('  ' + s);
+console.log('--- 纯删抽样 ---');
+for (const s of delSamples) console.log('  ' + s);

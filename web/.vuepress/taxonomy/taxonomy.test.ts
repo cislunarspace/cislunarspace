@@ -157,5 +157,4 @@ describe('validateTaxonomy', () => {
       validateTaxonomy([node({ id: 'a', parentId: 'b' }), node({ id: 'b', parentId: 'a' })]),
     ).toThrow(/cycle detected/);
   });
-
 });

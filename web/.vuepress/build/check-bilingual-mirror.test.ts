@@ -208,7 +208,9 @@ describe('matchesException', () => {
     expect(matchesException('research-frontiers/directions/_templates/sub/bar.md', rules)).toBe(
       true,
     );
-    expect(matchesException('research-frontiers/directions/orbit-design/foo.md', rules)).toBe(false);
+    expect(matchesException('research-frontiers/directions/orbit-design/foo.md', rules)).toBe(
+      false,
+    );
   });
 
   it('returns false when no rules match', () => {

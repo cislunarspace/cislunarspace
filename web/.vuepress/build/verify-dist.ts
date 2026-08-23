@@ -530,10 +530,7 @@ function verifyCurrent(distRoot: string): void {
       mustInclude: ['Cislunar Space Glossary'],
       mustExclude: ['Community Forum', 'AI Q&A'],
     },
-    
-    
-    
-    
+
     {
       rel: 'ai-chat.html',
       mustInclude: ['AI问答', '地月空间'],
@@ -542,8 +539,6 @@ function verifyCurrent(distRoot: string): void {
       rel: 'en/ai-chat.html',
       mustInclude: ['AI Q&A', 'Cislunar Space'],
     },
-    
-    
   ];
   const contentIssues: string[] = [];
   for (const rule of contentRules) {
