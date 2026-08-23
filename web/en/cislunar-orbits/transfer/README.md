@@ -64,7 +64,6 @@ After arriving in cislunar space, the spacecraft must perform rendezvous and doc
 
 ## Simulation
 
-
 ## Related Concepts
 
 - [NRHO (Near-Rectilinear Halo Orbit)](/en/cislunar-orbits/nrho/)

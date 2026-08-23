@@ -54,4 +54,3 @@ A typical L1 NRHO has a period of approximately 6.5-8 Earth days, with a lateral
 2. **Gateway missions**: NASA's selected Gateway NRHO is located near the L1 point with $A_x \approx 3100$ km and a period of approximately 6.5 days, supporting the Artemis lunar surface missions
 
 ## Simulation Experiment
-

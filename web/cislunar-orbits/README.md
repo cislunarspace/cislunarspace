@@ -74,4 +74,3 @@ DRO（Distant Retrograde Orbit，远距离逆行轨道）是一类在旋转坐�
 ## 背景知识（延伸阅读）
 
 轨道教程涉及的数学与力学工具，另见[背景知识](/background/)栏目（不占导航入口，供深入时查阅）：[打靶法](/background/math/shooting-method)、[延拓法](/background/math/continuation)、[辛积分器](/background/math/symplectic-integrator)、[摄动理论](/background/mechanics/perturbation)、[最优控制](/background/control/optimal-control)。
-

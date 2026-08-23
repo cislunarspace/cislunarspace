@@ -86,6 +86,3 @@ NASA 的 **General Mission Analysis Tool**（GMAT）是开源轨道设计工具�
 ### 本地工具
 
 爱好者也可使用开源工具如 **Firefly Aerospace** 的转移分析工具或 Python 库（如 `poliastro`）进行基础的窗口分析。
-
-## 仿真实验
-

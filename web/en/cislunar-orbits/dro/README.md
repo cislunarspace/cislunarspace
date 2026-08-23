@@ -66,7 +66,6 @@ The primary engineering applications of DROs include:
 
 ## Simulation Experiments
 
-
 ## Related Concepts
 
 - [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)

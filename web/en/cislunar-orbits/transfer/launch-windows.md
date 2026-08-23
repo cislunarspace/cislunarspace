@@ -84,6 +84,3 @@ NASA's **General Mission Analysis Tool** (GMAT) is an open-source orbital design
 ### Amateur Tools
 
 Enthusiasts can also use open-source tools such as **Firefly Aerospace's** transfer analysis tools or Python libraries (such as `poliastro`) for basic window analysis.
-
-## Simulation Experiments
-

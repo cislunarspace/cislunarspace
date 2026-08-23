@@ -74,6 +74,3 @@ CAPSTONE 的成功验证了 DRO 作为地月空间任务运行轨道的可行性
 | L2 DRO | ~3.3 km/s | 8-15 m/s |
 | L1 NRHO | ~3.1 km/s | 30-50 m/s |
 | L2 NRHO | ~3.1 km/s | 40-80 m/s |
-
-## 仿真实验
-

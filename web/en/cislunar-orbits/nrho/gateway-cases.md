@@ -68,4 +68,3 @@ During the Gateway planning phase, DRO was also considered as an alternative ope
 NASA ultimately selected NRHO as the Gateway's operational orbit primarily due to its accessibility advantage to the lunar surface, especially the south pole landing zone.
 
 ## Simulation Experiment
-

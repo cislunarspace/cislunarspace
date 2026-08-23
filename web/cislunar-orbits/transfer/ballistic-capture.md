@@ -70,6 +70,3 @@ WSB 理论由意大利数学家 Belbruno 和 Miller 于 1987 年提出，其核�
 
 - [限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)
 - [弱稳定边界（WSB）](/glossary/)
-
-## 仿真实验
-

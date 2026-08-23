@@ -7,7 +7,10 @@
     "build": "npm run gen-sidebar && tsx .vuepress/build/build-cached.ts",
     "test": "vitest run",
     "gen-sidebar": "tsx .vuepress/generate.ts",
-    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#dist\" && eslint . && prettier --check .",
+    "lint": "npm run lint:md && npm run lint:code && npm run format:check",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#dist\"",
+    "lint:code": "eslint .",
+    "format:check": "prettier --check .",
     "check": "tsx .vuepress/build/check-bilingual-mirror.ts && tsx .vuepress/build/check-en-chinese.ts && tsx .vuepress/build/check-links.ts"
   },
   "license": "MIT",

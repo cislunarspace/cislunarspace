@@ -83,6 +83,3 @@ L1 NRHO 的有效周期范围约为 7.88–10 天，L2 NRHO 的对应近月点�
 ## 参考文献
 
 [1] Liu L, Liu Y. A note on the computation of multi-revolution NRHO under the ephemeris model[J]. Advances in Space Research, 2025.
-
-## 仿真实验
-

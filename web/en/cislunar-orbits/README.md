@@ -70,4 +70,3 @@ Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and l
 *Deep-dive articles and worked examples are expanding—contributions via the repository are welcome.*
 
 ## Simulation Lab
-

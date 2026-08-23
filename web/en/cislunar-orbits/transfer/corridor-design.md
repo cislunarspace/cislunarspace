@@ -28,13 +28,13 @@ In the CR3BP model, transfer corridors correspond to invariant manifold tubes th
 
 Transfer corridors can be divided into two categories based on transfer energy:
 
-**High-Energy Corridor** (Direct Transfer Corridor):
+**High-Energy Corridor\** (Direct Transfer Corridor):
 
 - Corresponds to higher $C_3$ values ($C_3 \approx -0.3$ to $-0.5$ km$^2$/s$^2$)
 - Short transfer time (3-5 days)
 - Narrow $\Delta V$ corridor width (approximately $\pm 50$ m/s)
 
-**Low-Energy Corridor**:
+**Low-Energy Corridor\**:
 
 - Corresponds to lower $C_3$ values ($C_3 \approx -0.8$ to $-1.0$ km$^2$/s$^2$)
 - Long transfer time (2-4 weeks)
@@ -75,6 +75,3 @@ NRHO insertion after arriving in cislunar space is the final step of the transfe
 - Insertion timing is determined by the lunar phase and orbital geometry at arrival
 - Optimal insertion window width is typically $\pm 1-2$ hours
 - Insertion $\Delta V$ is approximately 200-400 m/s
-
-## Simulation Experiments
-

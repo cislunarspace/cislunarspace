@@ -84,4 +84,3 @@ Over a 10-year mission lifetime, this cumulative effect may cause several minute
 The sensitivity of NRHO to initial position deviation can be evaluated via singular value decomposition (SVD) of the state transition matrix. Typically, the deviation amplification factor along the unstable manifold direction is approximately $10^2$ to $10^3$ per period.
 
 ## Simulation Experiment
-

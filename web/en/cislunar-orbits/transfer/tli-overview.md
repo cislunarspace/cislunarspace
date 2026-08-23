@@ -66,7 +66,7 @@ A typical TLI launch sequence:
 
 1. **LEO Insertion**: Launch vehicle delivers spacecraft to parking orbit
 2. **Checkout and Wait**: Perform system checks in LEO, await suitable launch window
-3. **TLI Maneuver**: Upper stage or main engine ignition, providing $\Delta V \approx 3.1$ km/s
+3. **TLI Maneuver\**: Upper stage or main engine ignition, providing $\Delta V \approx 3.1$ km/s
 4. **Upper Stage Separation**: Transfer stage separates from spacecraft
 5. **Mid-Course Correction** (optional): 1-2 trajectory correction maneuvers ($\Delta V \sim 1-50$ m/s)
 6. **Lunar Arrival**: Enter Moon's sphere of influence (~64,000 km), prepare for orbit insertion
@@ -77,6 +77,3 @@ Modern mission planning uses tools such as GMAT and STK for TLI launch window op
 
 - **GMAT**: NASA's open-source orbit design tool, supporting TLI optimization and pork-chop plot generation
 - **STK** (Satellite Tool Kit): AGI's professional orbit analysis software, providing high-precision window calculations
-
-## Simulation Experiments
-
