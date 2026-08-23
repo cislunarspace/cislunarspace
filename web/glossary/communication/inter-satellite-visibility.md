@@ -1,48 +1,33 @@
 ---
 title: 星间通视（Inter-Satellite Visibility）
-description: 两颗卫星之间能够进行星间链路通信的几何条件。本文研究表明Halo轨道飞行器对LMO的覆盖性达到甚至超过60%，月球遮挡时段较短且均匀分布。
-keywords: 星间通视, Inter-Satellite Visibility, 中继通信, 星间链路, 星座
+description: 评估两颗空间飞行器之间不受天体遮挡且满足天线指向范围的视线几何连通状态。
+keywords: 星间通视, Inter-Satellite Visibility, 视线几何, 星间链路, 遮挡分析
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 星间通视（Inter-Satellite Visibility）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
-  image: /logo.png
-og:
-  title: 星间通视详解 | 术语定义
-  description: 两颗卫星之间能够进行星间链路通信的几何条件。本文研究表明Halo轨道飞行器对LMO的覆盖性达到甚至超过60%，月球遮挡时段较短且均匀分布。
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: 星间通视详解 | 术语定义
-  description: 两颗卫星之间能够进行星间链路通信的几何条件。本文研究表明Halo轨道飞行器对LMO的覆盖性达到甚至超过60%，月球遮挡时段较短且均匀分布。
+  title: 星间通视几何分析
+  desc: 地月空间多体运动下的卫星视线通视与链路窗口。
   image: /logo.png
 permalink: /glossary/communication/inter-satellite-visibility/
 ---
 
 # 星间通视（Inter-Satellite Visibility）
 
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
-> 本文地址：[https://cislunarspace.cn](https://cislunarspace.cn)
-
 ## 定义
 
-两颗卫星之间能够进行星间链路通信的几何条件。本文研究表明Halo轨道飞行器对LMO的覆盖性达到甚至超过60%，月球遮挡时段较短且均匀分布。
+在给定的空间坐标系与历元时刻，两颗飞行器之间的视线矢量未被地球、月球或其他天体物理截面遮挡，且相对方位满足星载天线视场与转动角速度限制的几何条件。
 
-## 应用价值
+## 物理机制与工程价值
 
-在轨道设计阶段，可利用该轨道类型构建候选轨道池，为星座部署和任务轨道选择提供参考。在轨运行时，该轨道特性可用于轨道维持策略设计，降低推进剂消耗。在轨道转移规划中，其稳定流形结构可指导低能量转移走廊的搜索。
+地月空间中的卫星多处于大尺度非开普勒三体轨道，轨道几何构型动态变化剧烈。星间通视窗口的计算需要联合求解三体动力学数值解与天体截面碰撞方程。通视性分析是构建星间测距网络、自主时间同步与分布式星间测控的基础输入，直接决定中继路由拓扑的更新频率与通信协议设计。
 
 ## 相关概念
 
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 临界轨道（Critical Orbit）
-- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
+- [星间链路](/glossary/communication/relay-communication/)
+- [接入时间](/glossary/observation/access-time/)
+- [混合通信导航星座](/glossary/communication/hybrid-communication-navigation-constellation/)
 
 ## 参考文献
 
-- 测绘学报, 2013, 42(2): 184-190
+- 测绘学报, 2013, 42(2): 184-190, 月球卫星星座星间可见性与测距几何精度分析。

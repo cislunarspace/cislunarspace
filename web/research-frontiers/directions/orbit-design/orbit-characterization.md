@@ -5,7 +5,7 @@ keywords: 地月空间轨道参数表征, 平动点轨道, 目标编目, 动力�
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-04-27
-permalink: /research-frontiers/directions/orbit-characterization/
+permalink: /research-frontiers/directions/orbit-design/orbit-characterization/
 wechatShare:
   title: 地月空间轨道参数表征研究方向
   desc: 快速了解地月空间轨道参数表征方向的代表性成果。

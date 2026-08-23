@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 直接配点法（Direct Collocation）
-  desc: 用分段多项式 + 缺陷约束把 OCP 转录为稀疏 NLP——配点格式、网加密、地月转移应用。
+  desc: 用分段多项式 + 缺陷约束把 OCP 转录为稀疏 NLP：配点格式、网加密、地月转移应用。
   image: /logo.png
 og:
   title: 直接配点法详解 | 轨迹优化
@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/direct-collocation/
 
 ## 定义
 
-直接配点法（direct collocation，又称直接转录 direct transcription、DCNLP）是 [直接法](/glossary/dynamics/direct-methods/) 中最广泛使用的一类。它把时间区间 $[t_0,t_f]$ 划分为 $N$ 段，每段用低阶分段多项式插值状态（控制则在节点上离散），在每段的配点处强制满足动力学方程 $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$。这些配点处的「动力学满足条件」是一组非线性代数约束，称为**缺陷约束**（defect constraint）。把缺陷约束、边界条件、路径约束、性能指标一起交给 NLP 求解器，就完成了从连续 OCP 到有限维 NLP 的转录（Hargraves & Paris 1987；Betts 1998；Conway 2010）。
+直接配点法（direct collocation，又称直接转录 direct transcription、DCNLP）是 [直接法](/glossary/dynamics/direct-methods/) 中最广泛使用的一类。它把时间区间 $[t_0,t_f]$ 划分为 $N$ 段，每段用低阶分段多项式插值状态（控制则在节点上离散），在每段的配点处强制满足动力学方程 $\dot{\mathbf{x}}=\mathbf{f}(\mathbf{x},\mathbf{u},t)$。这些配点处的动力学满足条件是一组非线性代数约束，称为**缺陷约束**（defect constraint）。把缺陷约束、边界条件、路径约束、性能指标一起交给 NLP 求解器，就完成了从连续 OCP 到有限维 NLP 的转录（Hargraves & Paris 1987；Betts 1998；Conway 2010）。
 
 ## 缺陷约束的数学形式
 
@@ -50,17 +50,17 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 
 ## 显式 vs 隐式配点
 
-按「配点是否引入额外状态变量」还分：
+按配点是否引入额外状态变量还分：
 
 - **显式配点（HSS, Hermite-Simpson separated）**：中点状态作为新增 NLP 变量，缺陷约束为等式。规模大但雅可比更稀疏，便于 NLP 求解器利用稀疏性，工程实现多取此型。
 - **隐式配点（HSC, Hermite-Simpson compressed）**：中点状态用两端插值显式消去，缺陷约束直接写成两端变量的函数。变量少但雅可比稍密。
 
 ## 工程实现要点
 
-- **变量缩放**：状态/控制/时间的量纲差异可能跨越几十个数量级（如地月距离 vs 推力加速度），不缩放则条件数恶化。常见做法是按「标称量级」归一化（Betts 2010）。
+- **变量缩放**：状态/控制/时间的量纲差异可能跨越几十个数量级（如地月距离 vs 推力加速度），不缩放则条件数恶化。常见做法是按标称量级归一化（Betts 2010）。
 - **坐标选择**：笛卡尔坐标在 NLP 下表现差，状态快速变号且量级跨度大。改用 [轨道根数](/glossary/dynamics/orbital-coordinate-frames/) 或 equinoctial 变量常显著提升鲁棒性（Conway 2010, Ch.3）。
 - **网加密（mesh refinement）**：先用粗网格（如 $N=20$）求得近似解，再根据每段局部误差估计加密，可在固定段内提升配点阶（trapezoid → H-S → 5 阶 G-L）或插入新节点。Betts 给出经验上每段新增节点上限为 5（Betts 2010）。
-- **knots（结点）**：状态不连续的边界（如球影响圈交界、引力辅助、级间分离）以「零宽度段」插入，配点约束在该段替换为左右状态的非线性等式（Conway 2010）。
+- **knots（结点）**：状态不连续的边界（如球影响圈交界、引力辅助、级间分离）以零宽度段插入，配点约束在该段替换为左右状态的非线性等式（Conway 2010）。
 
 ## 直接配点 vs 伪谱法 vs 打靶法
 

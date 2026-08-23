@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 先驱向量（Primer Vector）
-  desc: Lawden 提出的最优推力判据——速度协态的负值，决定最优推力方向与脉冲时刻。
+  desc: Lawden 提出的最优推力判据：速度协态的负值，决定最优推力方向与脉冲时刻。
   image: /logo.png
 og:
   title: 先驱向量（Primer Vector）详解 | 最优控制与脉冲转移

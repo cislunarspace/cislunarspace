@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 相空间与相空间通道
-  desc: 动力系统几何基础——从六维 CR3BP 相空间到连接能量区域的运输管。
+  desc: 动力系统几何基础：从六维 CR3BP 相空间到连接能量区域的运输管。
   image: /logo.png
 og:
   title: 相空间与相空间通道（Phase Space & Phase Space Conduit）详解 | 术语定义
@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: 相空间与相空间通道详解 | 术语定义
-  description: CR3BP 的相空间几何——从六维空间到低维运输管通道。
+  description: CR3BP 的相空间几何：从六维空间到低维运输管通道。
   image: /logo.png
 permalink: /glossary/dynamics/phase-space/
 ---

@@ -1,6 +1,6 @@
 ---
 title: 轨道维持（Station-Keeping / Orbit Maintenance）
-description: 在三体摄动下将航天器保持在标称轨道附近的控制操作——涵盖地月空间 NRHO/DRO/Halo 三类轨道、脉冲与连续推力两种方式、目标点 / Floquet / DLQR / x 轴控制四种策略，以及 Zhang & Wang 2022 的跨轨道年度成本对比数据。
+description: 在三体摄动下将航天器保持在标称轨道附近的控制操作：涵盖地月空间 NRHO/DRO/Halo 三类轨道、脉冲与连续推力两种方式、目标点 / Floquet / DLQR / x 轴控制四种策略，以及 Zhang & Wang 2022 的跨轨道年度成本对比数据。
 keywords: 轨道维持, Station-Keeping, 驻留维持, 地月空间, NRHO, DRO, Halo轨道, 平动点, 目标点法, Floquet模式, DLQR, 脉冲驻留, 年化驻留成本, 太阳辐射压
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 轨道维持（Station-Keeping）详解 | 术语定义
-  description: 在三体摄动下将航天器保持在标称轨道附近的控制操作——涵盖地月空间 NRHO/DRO/Halo 三类轨道、脉冲与连续推力两种方式、目标点 / Floquet / DLQR / x 轴控制四种策略，以及跨轨道年度成本对比数据。
+  description: 在三体摄动下将航天器保持在标称轨道附近的控制操作：涵盖地月空间 NRHO/DRO/Halo 三类轨道、脉冲与连续推力两种方式、目标点 / Floquet / DLQR / x 轴控制四种策略，以及跨轨道年度成本对比数据。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 轨道维持（Station-Keeping）详解 | 术语定义
-  description: 在三体摄动下将航天器保持在标称轨道附近的控制操作——涵盖地月空间 NRHO/DRO/Halo 三类轨道、脉冲与连续推力两种方式、目标点 / Floquet / DLQR / x 轴控制四种策略，以及跨轨道年度成本对比数据。
+  description: 在三体摄动下将航天器保持在标称轨道附近的控制操作：涵盖地月空间 NRHO/DRO/Halo 三类轨道、脉冲与连续推力两种方式、目标点 / Floquet / DLQR / x 轴控制四种策略，以及跨轨道年度成本对比数据。
   image: /logo.png
 permalink: /glossary/dynamics/station-keeping/
 ---

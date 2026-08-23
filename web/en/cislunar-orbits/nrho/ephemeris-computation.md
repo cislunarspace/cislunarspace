@@ -22,7 +22,7 @@ permalink: /en/cislunar-orbits/nrho/ephemeris-computation/
 
 ## Background
 
-In the CR3BP model, a single-revolution NRHO can be computed directly using continuation or differential correction (see [Design Parameters](./design-parameters/)). However, when computing multi-revolution NRHOs under a real ephemeris model (such as JPL DE430), direct differential correction of the entire arc often fails: linearization errors accumulate over the flight time, and NRHOs with low perilune altitudes exhibit rapid state changes near perilune, causing the correction process to diverge.
+In the CR3BP model, a single-revolution NRHO can be computed directly using continuation or differential correction (see [Design Parameters](/en/cislunar-orbits/nrho/design-parameters/)). However, when computing multi-revolution NRHOs under a real ephemeris model (such as JPL DE430), direct differential correction of the entire arc often fails: linearization errors accumulate over the flight time, and NRHOs with low perilune altitudes exhibit rapid state changes near perilune, causing the correction process to diverge.
 
 Existing methods (such as forward/backward shooting by Williams et al. and two-level correction by Davis et al.) can generate high-fidelity multi-revolution NRHOs, but they rely on specialized optimization software such as SNOPT or NASA Copernicus, limiting reproducibility.
 

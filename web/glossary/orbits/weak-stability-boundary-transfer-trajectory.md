@@ -1,6 +1,6 @@
 ---
 title: 弱稳定边界转移轨道（Weak Stability Boundary Transfer Trajectory）
-description: 利用弱稳定边界（WSB）——稳定绕行的最远距离集合——构造的低能转移轨道；航天器经月球借力飞抵地球 WSB，以近零机动衔接月球 WSB 上的弹道捕获轨道，比 Hohmann 省约 18%，1991 年由 Hiten 任务首次验证。
+description: 利用弱稳定边界（WSB）：稳定绕行的最远距离集合：构造的低能转移轨道；航天器经月球借力飞抵地球 WSB，以近零机动衔接月球 WSB 上的弹道捕获轨道，比 Hohmann 省约 18%，1991 年由 Hiten 任务首次验证。
 keywords: 弱稳定边界, WSB, Weak Stability Boundary, 弹道捕获, 低能转移, Belbruno
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 弱稳定边界转移轨道详解 | 术语定义
-  description: 利用弱稳定边界（WSB）——稳定绕行的最远距离集合——构造的低能转移轨道；航天器经月球借力飞抵地球 WSB，以近零机动衔接月球 WSB 上的弹道捕获轨道，比 Hohmann 省约 18%，1991 年由 Hiten 任务首次验证。
+  description: 利用弱稳定边界（WSB）：稳定绕行的最远距离集合：构造的低能转移轨道；航天器经月球借力飞抵地球 WSB，以近零机动衔接月球 WSB 上的弹道捕获轨道，比 Hohmann 省约 18%，1991 年由 Hiten 任务首次验证。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 弱稳定边界转移轨道详解 | 术语定义
-  description: 利用弱稳定边界（WSB）——稳定绕行的最远距离集合——构造的低能转移轨道；航天器经月球借力飞抵地球 WSB，以近零机动衔接月球 WSB 上的弹道捕获轨道，比 Hohmann 省约 18%，1991 年由 Hiten 任务首次验证。
+  description: 利用弱稳定边界（WSB）：稳定绕行的最远距离集合：构造的低能转移轨道；航天器经月球借力飞抵地球 WSB，以近零机动衔接月球 WSB 上的弹道捕获轨道，比 Hohmann 省约 18%，1991 年由 Hiten 任务首次验证。
   image: /logo.png
 permalink: /glossary/orbits/weak-stability-boundary-transfer-trajectory/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/orbits/weak-stability-boundary-transfer-trajectory/
 
 ## 弱稳定边界的定义
 
-- **启发式定义（Belbruno & Miller 1993）**：绕中心天体的稳定运动在足够远处崩溃：存在临界距离 r\*，r<r\* 时质点循环绕行，r>r\* 时被其他天体摄动拉走；r\* 随方向、速度与相位角变化，其集合即弱稳定边界（WSB）。WSB 可看作「影响球」概念的精确化：既是逃逸可发生的位置，也是捕获可发生的位置。
+- **启发式定义（Belbruno & Miller 1993）**：绕中心天体的稳定运动在足够远处崩溃：存在临界距离 r\*，r<r\* 时质点循环绕行，r>r\* 时被其他天体摄动拉走；r\* 随方向、速度与相位角变化，其集合即弱稳定边界（WSB）。WSB 可看作影响球概念的精确化：既是逃逸可发生的位置，也是捕获可发生的位置。
 - **算法定义（Belbruno 2010）**：平面 CR3BP 中，从次主天体径向线段上以密切椭圆近拱点出发、绕次主天体满 n 圈且不绕主天体、返回时开普勒能量为负的轨迹称 n-稳定；n-稳定与 n-不稳定之间的跃变点构成指标 n 的 WSB。WSB 类似 Cantor 集，不是不变对象、不是流形；它不依赖流形存在，可用于椭圆三体、双圆四体等流形无定义的模型。
 
 **位置**：地球 WSB 约 4 倍地月距离（约 150 万 km；Wang 2025 引文献作 3~5 倍范围，且不严格限于该范围）；月球 WSB 距月 0.08~0.39 倍地月距离，随方向剧烈变化（Belbruno & Miller 1993）。外部转移仅当远地点位于地心系（x 轴反日方向）第二或第四象限时成立（Topputo 2013 汇总）。
@@ -39,7 +39,7 @@ permalink: /glossary/orbits/weak-stability-boundary-transfer-trajectory/
 
 Belbruno 2010 在平面 CR3BP 中证明：一定能量范围内，次主天体 WSB 中的点就是 L1/L2 Lyapunov 轨道稳定流形上径向速度为零、相对次主天体开普勒能量为负的点；WSB 是更宽的概念，流形是它在 CR3BP 一定能量区间内的实现。
 
-完整的 WSB 转移路径：航天器沿日地 L1/L2 Lyapunov 轨道的稳定流形支离开地球，再沿同一轨道的不稳定流形折返地月区域，最后进入地月 L2 Lyapunov **稳定流形管内**的穿越轨道被月球捕获（Fantino 2010、Sousa-Silva 2018、Ross 2022）。注意文献分歧：部分中文文献（徐明 2010 §3.2、Xu 2013）称地月侧为「LL2 不稳定流形」拼接，而 Koon 学派著作与多数文献（Howell & Kakoi 2006、Topputo 2013、Wang 2025）均为「日地侧流形 + 地月 L2 稳定流形管内穿越轨道」的配对，本词条采用后者。
+完整的 WSB 转移路径：航天器沿日地 L1/L2 Lyapunov 轨道的稳定流形支离开地球，再沿同一轨道的不稳定流形折返地月区域，最后进入地月 L2 Lyapunov **稳定流形管内**的穿越轨道被月球捕获（Fantino 2010、Sousa-Silva 2018、Ross 2022）。注意文献分歧：部分中文文献（徐明 2010 §3.2、Xu 2013）称地月侧为LL2 不稳定流形拼接，而 Koon 学派著作与多数文献（Howell & Kakoi 2006、Topputo 2013、Wang 2025）均为日地侧流形 + 地月 L2 稳定流形管内穿越轨道的配对，本词条采用后者。
 
 ## 转移构造与窗口
 

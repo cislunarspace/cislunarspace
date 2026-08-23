@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 椭圆限制性三体问题（ER3BP）详解
-  desc: CR3BP 的椭圆推广——主天体沿椭圆轨道运动时，自治性和守恒量如何丧失。
+  desc: CR3BP 的椭圆推广：主天体沿椭圆轨道运动时，自治性和守恒量如何丧失。
   image: /logo.png
 og:
   title: 椭圆限制性三体问题（ER3BP）详解 | 地月空间动力学

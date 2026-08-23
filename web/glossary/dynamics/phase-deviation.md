@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 相位偏差（Phase Deviation）
-  desc: 平动点轨道保持中相位偏移的成因、后果与控制——从 X 轴穿越到 PC-SCoP。
+  desc: 平动点轨道保持中相位偏移的成因、后果与控制：从 X 轴穿越到 PC-SCoP。
   image: /logo.png
 og:
   title: 相位偏差（Phase Deviation）详解 | 术语定义

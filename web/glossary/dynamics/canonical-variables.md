@@ -1,6 +1,6 @@
 ---
 title: 正则坐标与正则变换（Canonical Coordinates & Canonical Transformation）
-description: 哈密顿力学的相空间变量框架——正则坐标与共轭动量、正则方程、正则变换（辛变换）、作用-角变量，以及天体力学中的正则元素（Delaunay 元素、Poincaré 元素、修正 Delaunay 变量、修正春分点元素 MEEs、Jacobi 坐标）及其应用。
+description: 哈密顿力学的相空间变量框架：正则坐标与共轭动量、正则方程、正则变换（辛变换）、作用-角变量，以及天体力学中的正则元素（Delaunay 元素、Poincaré 元素、修正 Delaunay 变量、修正春分点元素 MEEs、Jacobi 坐标）及其应用。
 keywords: 正则坐标, 正则方程, 正则变换, 辛变换, 泊松括号, 作用角变量, Delaunay, MEEs, 修正春分点, 雅可比坐标, canonical coordinates, canonical transformation, action-angle
 author: 天疆说
 date: 2026-07-31

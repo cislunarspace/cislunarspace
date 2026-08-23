@@ -1,6 +1,6 @@
 ---
 title: 希尔问题（Hill's Problem）
-description: 圆型限制性三体问题在小质量比极限下的简化形式——George Hill 1878 年研究月球运动时引入。原点取在主天体之一（如地球）上，第三体（月球/航天器）的运动方程显式含太阳潮汐项。本文覆盖方程的两种推导（CR3BP 极限与原始三体方程展开）、Hill 变分轨道与零速度曲线、与 Clohessy-Wiltshire 相对运动方程的关系，以及在地月/木卫系等现代应用中的角色。
+description: 圆型限制性三体问题在小质量比极限下的简化形式：George Hill 1878 年研究月球运动时引入。原点取在主天体之一（如地球）上，第三体（月球/航天器）的运动方程显式含太阳潮汐项。本文覆盖方程的两种推导（CR3BP 极限与原始三体方程展开）、Hill 变分轨道与零速度曲线、与 Clohessy-Wiltshire 相对运动方程的关系，以及在地月/木卫系等现代应用中的角色。
 keywords: 希尔问题, Hill's Problem, Hill 方程, Hill 球, Hill 曲面, 变分轨道, Clohessy-Wiltshire, CW 方程, 相对运动方程, 零速度曲线
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 希尔问题详解 | 地月空间动力学
-  description: 圆型限制性三体问题在小质量比极限下的简化形式——George Hill 1878 年为研究月球运动而引入。覆盖方程推导、Hill 变分轨道、零速度曲线、Clohessy-Wiltshire 关系及现代应用。
+  description: 圆型限制性三体问题在小质量比极限下的简化形式：George Hill 1878 年为研究月球运动而引入。覆盖方程推导、Hill 变分轨道、零速度曲线、Clohessy-Wiltshire 关系及现代应用。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 希尔问题详解 | 地月空间动力学
-  description: 圆型限制性三体问题在小质量比极限下的简化形式——George Hill 1878 年为研究月球运动而引入。覆盖方程推导、Hill 变分轨道、零速度曲线、Clohessy-Wiltshire 关系及现代应用。
+  description: 圆型限制性三体问题在小质量比极限下的简化形式：George Hill 1878 年为研究月球运动而引入。覆盖方程推导、Hill 变分轨道、零速度曲线、Clohessy-Wiltshire 关系及现代应用。
   image: /logo.png
 permalink: /glossary/dynamics/hills-problem/
 ---

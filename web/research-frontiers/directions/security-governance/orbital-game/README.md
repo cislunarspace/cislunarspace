@@ -5,7 +5,7 @@ keywords: 地月空间研究方向, 研究前沿, 热点领域, 发展趋势, �
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
-permalink: /research-frontiers/directions/orbital-game/
+permalink: /research-frontiers/directions/security-governance/orbital-game/
 wechatShare:
   title: 地月空间研究方向与前沿热点 | 轨道博弈
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。

@@ -30,7 +30,7 @@ permalink: /glossary/orbits/lyapunov-orbit/
 
 ## 定义
 
-Lyapunov 轨道是圆型限制性三体问题（CR3BP）中环绕共线平动点的平面周期轨道族，L1、L2、L3 各有一族（Gómez 2001、Parker & Anderson 2014）。线性化下，共线点的中心子空间分解为两个简正振荡：面内（频率 ωp）与面外（频率 ωv），仅激发面内中心模的周期解即平面 Lyapunov 轨道（Belló 2010）。族的存在性由李雅普诺夫中心定理保证，族由此得名（Alessi 2009），与「Lyapunov 稳定性理论」无关。
+Lyapunov 轨道是圆型限制性三体问题（CR3BP）中环绕共线平动点的平面周期轨道族，L1、L2、L3 各有一族（Gómez 2001、Parker & Anderson 2014）。线性化下，共线点的中心子空间分解为两个简正振荡：面内（频率 ωp）与面外（频率 ωv），仅激发面内中心模的周期解即平面 Lyapunov 轨道（Belló 2010）。族的存在性由李雅普诺夫中心定理保证，族由此得名（Alessi 2009），与Lyapunov 稳定性理论无关。
 
 通常所说的 Lyapunov 轨道即平面 Lyapunov 轨道；另有垂直（vertical）族与它是同级兄弟族（见[垂直轨道](/glossary/orbits/vertical-orbit/)）。地月 L1/L2 族周期约 2~4 周（越靠近平动点越接近 2 周），L3 族约 4 周（Parker & Anderson 2014）。
 

@@ -1,13 +1,13 @@
 ---
 title: 月球轨道偏心率（Lunar Orbit Eccentricity）
-description: 月球绕地球公转轨道的偏心率（约 0.0549），使地月距离在近地点（约 363,300 km）和远地点（约 405,500 km）之间变化。在高保真星历中，轨道的椭圆特性对转移时间和能量有显著影响——出发时刻的偏心率相位直接决定了可用转移方案的效能。CR3BP 近似在偏心率较小时（如日地系统 $e \approx 0.0167$）精度的定量评估可通过偏心率灵敏度分析完成。
+description: 月球绕地球公转轨道的偏心率（约 0.0549），使地月距离在近地点（约 363,300 km）和远地点（约 405,500 km）之间变化。在高保真星历中，轨道的椭圆特性对转移时间和能量有显著影响：出发时刻的偏心率相位直接决定了可用转移方案的效能。CR3BP 近似在偏心率较小时（如日地系统 $e \approx 0.0167$）精度的定量评估可通过偏心率灵敏度分析完成。
 keywords: 月球轨道偏心率, Lunar Orbit Eccentricity, 椭圆限制性三体问题, ER3BP, 地月距离变化, 偏心率灵敏度分析, 转移轨道设计
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 月球轨道偏心率（Lunar Orbit Eccentricity）
-  desc: $e \approx 0.0549$——椭圆轨道对地月转移设计的定量影响。
+  desc: $e \approx 0.0549$：椭圆轨道对地月转移设计的定量影响。
   image: /logo.png
 og:
   title: 月球轨道偏心率详解 | 术语定义
@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: 月球轨道偏心率详解 | 术语定义
-  description: $e \approx 0.0549$——椭圆轨道对地月转移设计的定量影响。
+  description: $e \approx 0.0549$：椭圆轨道对地月转移设计的定量影响。
   image: /logo.png
 permalink: /glossary/fundamentals/lunar-orbit-eccentricity/
 ---

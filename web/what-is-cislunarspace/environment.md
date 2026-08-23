@@ -71,7 +71,7 @@ twitter:
 
 [6] Simpson J A. Elemental and isotopic composition of the galactic cosmic rays[J]. Annual Review of Nuclear and Particle Science, 1983, 33: 323-382.
 
-[7] Nordheim T A, Jasinski J M, Hand K P. Galactic cosmic-ray bombardment of europa’s surface[J]. Astrophysical Journal, 2019, 881(2): L29.
+[7] Nordheim T A, Jasinski J M, Hand K P. Galactic cosmic-ray bombardment of europas surface[J]. Astrophysical Journal, 2019, 881(2): L29.
 
 [8] Guo J N, Zeitlin C, Wimmer-Schweingruber R F, et al. Radiation environment for future human exploration on the surface of Mars: the current understanding based on MSL/RAD dose measurements[J]. Astronomy and Astrophysics Review, 2021, 29: 8.
 

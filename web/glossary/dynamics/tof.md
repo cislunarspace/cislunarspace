@@ -1,6 +1,6 @@
 ---
 title: 飞行时间（Time of Flight, ToF）与转移时间方程
-description: 航天器在两个指定状态之间飞行的时长，以及把它与轨道根数联系起来的方程——Lambert 问题中的飞行时间方程与 CR3BP 中由不变流形几何决定的转移时间。覆盖显式制导中的剩余飞行时间（time-to-go）、通用变量转移时间方程、地月转移最低飞行时间的阶梯式增长规律、以及弹道捕获的驻留时间。
+description: 航天器在两个指定状态之间飞行的时长，以及把它与轨道根数联系起来的方程：Lambert 问题中的飞行时间方程与 CR3BP 中由不变流形几何决定的转移时间。覆盖显式制导中的剩余飞行时间（time-to-go）、通用变量转移时间方程、地月转移最低飞行时间的阶梯式增长规律、以及弹道捕获的驻留时间。
 keywords: 飞行时间, ToF, 转移时间, 剩余飞行时间, Lambert 问题, 转移时间方程, 飞行时间方程, 最低飞行时间, 弹道捕获, 地月转移, 稳定流形
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 飞行时间（Time of Flight, ToF）详解 | 术语定义
-  description: 航天器在两个指定状态之间飞行的时长，以及把它与轨道根数联系起来的方程——Lambert 问题中的飞行时间方程与 CR3BP 中由不变流形几何决定的转移时间。覆盖显式制导、通用变量形式、最低 ToF 阶梯律与弹道捕获驻留时间。
+  description: 航天器在两个指定状态之间飞行的时长，以及把它与轨道根数联系起来的方程：Lambert 问题中的飞行时间方程与 CR3BP 中由不变流形几何决定的转移时间。覆盖显式制导、通用变量形式、最低 ToF 阶梯律与弹道捕获驻留时间。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 飞行时间（Time of Flight, ToF）详解 | 术语定义
-  description: 航天器在两个指定状态之间飞行的时长，以及把它与轨道根数联系起来的方程——Lambert 问题中的飞行时间方程与 CR3BP 中由不变流形几何决定的转移时间。覆盖显式制导、通用变量形式、最低 ToF 阶梯律与弹道捕获驻留时间。
+  description: 航天器在两个指定状态之间飞行的时长，以及把它与轨道根数联系起来的方程：Lambert 问题中的飞行时间方程与 CR3BP 中由不变流形几何决定的转移时间。覆盖显式制导、通用变量形式、最低 ToF 阶梯律与弹道捕获驻留时间。
   image: /logo.png
 permalink: /glossary/dynamics/tof/
 ---

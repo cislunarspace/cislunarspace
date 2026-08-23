@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 电推进（Electric Propulsion / Low-Thrust Propulsion）
-  desc: 地月空间连续小推力推进技术的系统讲解——比冲、推力幅值、电推进分类与工程参数。
+  desc: 地月空间连续小推力推进技术的系统讲解：比冲、推力幅值、电推进分类与工程参数。
   image: /logo.png
 og:
   title: 电推进（Electric/Low-Thrust Propulsion）详解 | 术语定义

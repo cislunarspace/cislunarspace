@@ -1,7 +1,7 @@
 ---
 permalink: /glossary/fundamentals/rk/
 title: 龙格-库塔法（Runge-Kutta Method）
-description: 求解常微分方程初值问题的单步数值积分方法族——自起步，无需历史状态，是轨道传播的基本工具。覆盖经典RK4公式、嵌入式Runge-Kutta（Fehlberg、Dormand-Prince）变步长控制、高阶RK7/8变体、局部截断误差与阶数分析、以及与多步法的对比。
+description: 求解常微分方程初值问题的单步数值积分方法族：自起步，无需历史状态，是轨道传播的基本工具。覆盖经典RK4公式、嵌入式Runge-Kutta（Fehlberg、Dormand-Prince）变步长控制、高阶RK7/8变体、局部截断误差与阶数分析、以及与多步法的对比。
 keywords: 龙格-库塔法, Runge-Kutta, RK4, RK7/8, Runge-Kutta-Fehlberg, Dormand-Prince, 单步法, 常微分方程数值积分, 嵌入式Runge-Kutta, 局部截断误差, 步长控制, 轨道传播, 航天动力学
 ---
 

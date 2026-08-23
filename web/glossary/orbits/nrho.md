@@ -32,7 +32,7 @@ permalink: /glossary/orbits/nrho/
 
 NRHO 是以稳定性界定的晕轨道族子集：晕轨道族中稳定或近稳定（有界线性和近线性稳定）的区段（Spreen 2021、Gao 2023）。具体地，L2 NRHO 取晕轨道族上第一次与第三次稳定性变化之间的成员，对应近月点半径约 1832~17390 km；L1 NRHO 取第一次与第四次稳定性变化之间，近月点半径约 900~19000 km、周期 8~10 天（Spreen 2021、晋守聪 2025）。
 
-形态上，NRHO 近月点很低、面外振幅很大，轨道细长得接近直线（Singh 2021、Gao 2023）。以 9:2 NRHO 为例，三向振幅 [x, y, z] = [13090, 31925, 73197] km，面外振幅为面内两倍以上（Spreen 2021 附录 C）。词源可追溯到 Howell & Breakwell 1983 年提出的「almost rectilinear halo orbits」近似（Spreen 2021）。
+形态上，NRHO 近月点很低、面外振幅很大，轨道细长得接近直线（Singh 2021、Gao 2023）。以 9:2 NRHO 为例，三向振幅 [x, y, z] = [13090, 31925, 73197] km，面外振幅为面内两倍以上（Spreen 2021 附录 C）。词源可追溯到 Howell & Breakwell 1983 年提出的almost rectilinear halo orbits近似（Spreen 2021）。
 
 ## 9:2 会合共振成员
 
@@ -40,12 +40,12 @@ NRHO 是以稳定性界定的晕轨道族子集：晕轨道族中稳定或近稳
 
 两个表述要点：
 
-- 共振基准是**月球会合周期**，不是回归年。部分文献称「Sun-resonant NRHO」（Gao 2023），其模型中太阳在地月旋转系的视运动周期数值上等于月球会合周期，与「lunar synodic resonant」是同一共振的两种说法。
+- 共振基准是**月球会合周期**，不是回归年。部分文献称Sun-resonant NRHO（Gao 2023），其模型中太阳在地月旋转系的视运动周期数值上等于月球会合周期，与lunar synodic resonant是同一共振的两种说法。
 - 会合共振使地-月-日几何按会合月重复，这是 9:2 NRHO 避食几何的来源，也是它被选为 Gateway 标称轨道的原因之一（Zimovan-Spreen 2022、Spreen 2021）。
 
 ## 稳定性与邻域结构
 
-NRHO 段的稳定指数在 1~1.69 之间，含线性稳定与 mildly unstable 成员（Spreen 2021；晋守聪 2025 给出「稳定性指数均在 ±1 附近」）。NRHO 邻域分岔出一批高周期轨道族（P2HO1 即 butterfly 族、P2HO2、P4HO1/2 等），其流形可用于构造 NRHO 与其他轨道间的转移（Zimovan-Spreen 2022）。
+NRHO 段的稳定指数在 1~1.69 之间，含线性稳定与 mildly unstable 成员（Spreen 2021；晋守聪 2025 给出稳定性指数均在 ±1 附近）。NRHO 邻域分岔出一批高周期轨道族（P2HO1 即 butterfly 族、P2HO2、P4HO1/2 等），其流形可用于构造 NRHO 与其他轨道间的转移（Zimovan-Spreen 2022）。
 
 ## 应用
 
@@ -66,7 +66,7 @@ NRHO 段的稳定指数在 1~1.69 之间，含线性稳定与 mildly unstable �
 | 术语 | 含义 | 出处 |
 |------|------|------|
 | 9:2 NRHO | 9 圈 / 2 个会合月的 L2 南族共振成员，Gateway 标称轨道 | Spreen 2021 |
-| Sun-resonant NRHO | 「与太阳共振」的另一表述，基准实为月球会合周期 | Gao 2023 |
+| Sun-resonant NRHO | 与太阳共振的另一表述，基准实为月球会合周期 | Gao 2023 |
 | NRHOI | 进入 NRHO 的入轨机动（PRM 近月点沿速度向 / IDT 真近点角 160°） | Kikuchi 2024 |
 | NRHO 转移 | 以 NRHO 为起点或终点的转移 | Pozzi 2025 |
 | QPT | NRHO 周围的准周期环面，用于伴飞 | Capannolo 2023 |

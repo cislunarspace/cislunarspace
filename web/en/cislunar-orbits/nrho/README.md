@@ -1,56 +1,64 @@
 ---
 title: NRHO (Near-Rectilinear Halo Orbit)
-description: "Overview of NRHO (Near-Rectilinear Halo Orbit): definition, dynamical characteristics, orbit family classification, and engineering applications."
-keywords: NRHO, Near-Rectilinear Halo Orbit, L1 NRHO, L2 NRHO, halo orbit, CR3BP
+description: Dynamical mechanism, stability characteristics, orbit family evolution, and engineering applications of Near-Rectilinear Halo Orbits (NRHO).
+keywords: NRHO, Near-Rectilinear Halo Orbit, L1 NRHO, L2 NRHO, CR3BP, Halo orbit, Gateway
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-20
 permalink: /en/cislunar-orbits/nrho/
 wechatShare:
-  title: "Cislunar Space Guide | NRHO (Near-Rectilinear Halo Orbit)"
-  desc: "Overview of NRHO (Near-Rectilinear Halo Orbit): definition, dynamical characteristics, orbit family classification, and engineering applications."
-  image: "/logo.png"
+  title: Near-Rectilinear Halo Orbit (NRHO) Overview
+  desc: Near-Rectilinear Halo Orbit characteristics and mission design under three-body dynamics.
+  image: /logo.png
+og:
+  title: Near-Rectilinear Halo Orbit (NRHO) Overview
+  description: Near-Rectilinear Halo Orbit characteristics and mission design under three-body dynamics.
+  image: /logo.png
+  type: article
+twitter:
+  card: summary_large_image
+  title: Near-Rectilinear Halo Orbit (NRHO) Overview
+  description: Near-Rectilinear Halo Orbit characteristics and mission design under three-body dynamics.
+  image: /logo.png
 ---
 
-> Author: [CislunarSpace](https://gitee.com/cislunarspace)
->
-> Source: [https://cislunarspace.cn](https://cislunarspace.cn)
+# Near-Rectilinear Halo Orbit (NRHO)
 
-# NRHO (Near-Rectilinear Halo Orbit)
+A Near-Rectilinear Halo Orbit (NRHO) is a distinct subset of three-dimensional periodic orbits within the Halo orbit family of the Circular Restricted Three-Body Problem (CR3BP). Located in the vicinity of the Earth–Moon $L_1$ and $L_2$ libration points, these orbits exhibit highly elongated geometry perpendicular to the Earth–Moon orbital plane. In the rotating reference frame, their projection resembles a nearly straight line, earning them the name "near-rectilinear."
 
-## Definition and Physical Background
+In deep-space mission design, NRHOs offer exceptional operational advantages: they provide continuous visibility to the lunar polar regions with minimal Earth occultations, and demand low insertion and departure $\Delta V$ budgets. Consequently, NRHO has been selected as the baseline operational orbit for the NASA-led Lunar Gateway space station and crewed lunar landing architectures.
 
-An NRHO (Near-Rectilinear Halo Orbit) is a special type of periodic orbit in the Circular Restricted Three-Body Problem (CR3BP), existing near the L1 and L2 Lagrange points of the Earth-Moon system. The name near-rectilinear derives from the orbit's nearly linear geometric shape in the synodic (rotating) reference frame: a spacecraft near the L1 point moves back and forth along an approximately straight line, with a large amplitude ratio $A_z/A_x$ and an orbital plane nearly perpendicular to the Earth-Moon line.
+## Dynamical Mechanisms & Stability Characteristics
 
-Halo orbits and NRHOs are related but not identical. A halo orbit is the general term for periodic or quasi-periodic orbits near the L1/L2 Lagrange points, emphasizing their halo-like three-dimensional shape. An NRHO places greater emphasis on the near-rectilinear geometric characteristic and typically refers to the class of halo orbits with large amplitudes and high inclinations. In engineering discourse, NRHO has become the proper name for the specific orbit type selected for the Gateway mission.
+NRHOs emerge as a branch of the Halo orbit family when evolving toward the Moon with large vertical amplitudes. Their primary dynamical features include:
 
-## Dynamical Characteristics
+1. **3D High-Eccentricity Geometry**: The out-of-plane amplitude ($A_z$) of an NRHO is significantly larger than its in-plane amplitude. Perilune altitudes range from a few hundred to several thousand kilometers, while apolune extends up to $\approx 70,000\text{ km}$. This geometry avoids frequent lunar eclipses and Earth occultations, ensuring continuous solar array illumination and uninterrupted ground communication links.
+2. **Weak Instability & High Controllability**: Unlike classical libration-point Halo orbits with rapid exponential divergence, NRHOs lie near the three-body stability boundary. Their dominant Floquet multipliers have moduli very close to 1 (typically $1.2\text{ to } 1.5$), demonstrating weak instability or neutral stability. A spacecraft does not rapidly escape and requires only minimal periodic correction maneuvers (less than $1\text{ m/s}$ per revolution, totaling $2\text{ to } 10\text{ m/s}$ per year) for long-duration station-keeping.
+3. **Resonance & Perturbation Synergy**: In high-fidelity ephemeris models incorporating solar gravitational perturbations and lunar non-spherical harmonics ($J_2$, Mascons), orbits with specific Earth–Moon orbital resonances (such as the 9:2 synodic resonance with a period of $\approx 6.5\text{ days}$) are favored to align perturbations with orbital motion and reduce station-keeping costs.
 
-The dynamics of an NRHO are governed by the Jacobi constant $C_J$ in the Earth-Moon CR3BP. Near the critical value $C_J \approx 3$, the orbit exhibits quasi-periodic behavior: the spacecraft oscillates near the L1/L2 point with a period of approximately 6.5 to 8 Earth days.
+## Orbit Classification & Selection
 
-L1 NRHOs and L2 NRHOs differ in their stability directions: an L1 NRHO possesses locally stable manifolds in certain directions, facilitating low-energy transfer from the Earth direction; an L2 NRHO is better suited for communication relay and observation missions on the far side of the Moon.
+Based on the associated Lagrange point and the hemisphere of perilune/apolune, NRHOs are classified into four primary families:
 
-## Orbit Family Classification
+| Family | Perilune Location | Apolune Direction | Typical Period | Key Advantages |
+| :--- | :--- | :--- | :--- | :--- |
+| **$L_1$ Southern NRHO** | Over Lunar South Pole | Northward (Earth side) | $\approx 6.5\text{–}8$ days | Long polar dwell time; low insertion energy from Earth |
+| **$L_1$ Northern NRHO** | Over Lunar North Pole | Southward (Earth side) | $\approx 6.5\text{–}8$ days | Suited for lunar north pole exploration & staging |
+| **$L_2$ Southern NRHO** | Over Lunar South Pole | Lunar Farside (Aft) | $\approx 6.5\text{–}8$ days | Simultaneous lunar south pole and farside communications |
+| **$L_2$ Northern NRHO** | Over Lunar North Pole | Lunar Farside (Aft) | $\approx 6.5\text{–}8$ days | High-latitude lunar farside tracking and relay |
 
-NRHOs can be classified into four families based on the Lagrange point (L1/L2) and amplitude (northern/southern):
+NASA's Artemis Lunar Gateway has baselined an **$L_2$ Southern 9:2 Resonant NRHO**. With a perilune of $\approx 1,500\text{–}3,000\text{ km}$, an apolune of $\approx 70,000\text{ km}$, and a 6.56-day orbital period, the station spends the vast majority of each orbit hovering over the lunar south pole to provide reliable communications and landing staging for Artemis surface missions.
 
-- L1 Northern NRHO and L1 Southern NRHO
-- L2 Northern NRHO and L2 Southern NRHO
+## Engineering Advantages
 
-The amplitude ratio $A_z/A_x$ is a key parameter distinguishing halo orbits from ordinary Lyapunov orbits: when $A_z/A_x > 1$, the orbit is typically classified as a halo orbit or NRHO.
+- **Crewed Staging Hub**: Transferring from an Earth-departure trajectory into NRHO requires an insertion impulse of only $\approx 200\text{–}400\text{ m/s}$. Descending from NRHO to the lunar south pole also demands significantly less $\Delta V$ than direct descent from Low Lunar Orbit (LLO).
+- **Extended Orbit Lifetime**: Benefiting from weak instability and resonance tuning, an NRHO spacecraft can maintain its orbit for over a decade with low-thrust electric propulsion or small RCS pulses, avoiding the severe orbit degradation caused by lunar mascons in low circular orbits.
+- **Continuous Coverage**: High apolune dwell time eliminates line-of-sight blockage by the Moon, making NRHO an ideal relay platform for polar surface landers and rovers.
 
-## Engineering Applications
+## In-Depth Topics
 
-The primary engineering value of NRHOs lies in their geometric position relative to the Moon:
-
-- **Lunar Gateway**: NASA's Artemis program selected an L1 NRHO as the Gateway's orbit, balancing Earth-Moon round trips and lunar surface access
-- **Relay and Observation**: An L2 NRHO can provide continuous communication coverage for the far side of the Moon (e.g., the Chang'e-4 landing region)
-- **Fuel Efficiency**: The ΔV budget for transfer from an NRHO to the lunar surface is approximately 200-400 m/s, superior to direct descent from LEO
-
-## Simulation Experiments
-
-## Related Concepts
-
-- [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/)
-- [Distant Retrograde Orbit (DRO)](/en/glossary/orbits/distant-retrograde-orbit-dro/)
-- [Cislunar Orbit Families Overview](/en/cislunar-orbits/)
+- **$L_1$ NRHO Characteristics**: Read [$L_1$ NRHO Properties](/en/cislunar-orbits/nrho/l1-nrho/) for low-energy insertion mechanics from the Earth direction.
+- **$L_2$ NRHO Characteristics**: Read [$L_2$ NRHO Properties](/en/cislunar-orbits/nrho/l2-nrho/) for lunar farside relay and south pole coverage orbital designs.
+- **Station-Keeping & Control**: Read [NRHO Stability & Station-Keeping](/en/cislunar-orbits/nrho/stability-maintenance/) for differential correction and target point algorithms.
+- **High-Fidelity Ephemeris Modeling**: Read [Full Ephemeris Numerical Computation](/en/cislunar-orbits/nrho/ephemeris-computation/) for multi-revolution continuation techniques from CR3BP to real-world force models.
+- **Mission Cases**: Read [Gateway Mission Case Study](/en/cislunar-orbits/nrho/gateway-cases/) for practical operational design insights.

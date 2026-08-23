@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 振幅条件与有效相位
-  desc: CR3BP Lissajous/Halo 轨道的振幅-相位参数化体系——从 Richardson 约束到 EPP 平面。
+  desc: CR3BP Lissajous/Halo 轨道的振幅-相位参数化体系：从 Richardson 约束到 EPP 平面。
   image: /logo.png
 og:
   title: 振幅条件与有效相位（Amplitude Condition & Effective Phase）详解 | 术语定义
@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: 振幅条件与有效相位详解 | 术语定义
-  description: CR3BP 平动点附近 Lissajous/Halo 轨道的振幅-相位参数化体系——Richardson 约束与 EPP 平面。
+  description: CR3BP 平动点附近 Lissajous/Halo 轨道的振幅-相位参数化体系：Richardson 约束与 EPP 平面。
   image: /logo.png
 permalink: /glossary/dynamics/amplitude-condition/
 ---

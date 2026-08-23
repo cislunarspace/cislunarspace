@@ -1,46 +1,33 @@
 ---
 title: 异构中继星座（Heterogeneous Relay Constellation）
-description: 由普通圆轨道卫星和Halo轨道卫星组成的互补覆盖中继星座，弥补单一Halo卫星对月背的长覆盖空白。
-keywords: 异构中继星座, Heterogeneous Relay Constellation, 通信, 中继, 星座
+description: 由不同动力学轨道类型的卫星组合构成的多层协同月球通信中继网络。
+keywords: 异构中继星座, Heterogeneous Relay Constellation, 通信网络, 空间中继, 混合星座
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 异构中继星座（Heterogeneous Relay Constellation）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
-  image: /logo.png
-og:
-  title: 异构中继星座详解 | 术语定义
-  description: 由普通圆轨道卫星和Halo轨道卫星组成的互补覆盖中继星座，弥补单一Halo卫星对月背的长覆盖空白。
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: 异构中继星座详解 | 术语定义
-  description: 由普通圆轨道卫星和Halo轨道卫星组成的互补覆盖中继星座，弥补单一Halo卫星对月背的长覆盖空白。
+  title: 异构中继星座
+  desc: 多轨道类型协同的月球通信中继星座架构。
   image: /logo.png
 permalink: /glossary/communication/heterogeneous-relay-constellation/
 ---
 
 # 异构中继星座（Heterogeneous Relay Constellation）
 
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
-
 ## 定义
 
-由普通圆轨道卫星和Halo轨道卫星组成的互补覆盖中继星座，弥补单一Halo卫星对月背的长覆盖空白。
+由处于不同引力区域和轨道类型（如近月倾斜冻结轨道、地月L2点Halo轨道、远距离逆行轨道DRO）的多颗卫星协同构建的月球综合通信网络。
 
-## 应用价值
+## 物理机制与工程价值
 
-该概念在地月空间通信系统设计中具有应用价值，可提高信息传输的可靠性与效率。
+单一轨道构型难以兼顾全月面高重访率、高仰角覆盖与低推进剂消耗。异构星座将高轨广域覆盖与低轨高通量传输相结合：平动点Halo轨道卫星负责提供不间断的远距离对地中继主干道；近月低轨卫星负责收集月球极区着陆器与巡视器的高速科学数据；远距离逆行轨道卫星提供大范围导航测角基准。各节点间通过星间激光或微波链路协同，提升深空网络鲁棒性。
 
 ## 相关概念
 
-- 偏转角（Deflection Angle）
-- 双程测距求和组合（Summation Combination of Dual One-Way Ranging）
+- [混合通信导航星座](/glossary/communication/hybrid-communication-navigation-constellation/)
+- [远距离逆行轨道](/glossary/orbits/dro/)
+- [近直线晕轨道](/glossary/orbits/nrho/)
 
 ## 参考文献
 
-- Yuan 等 - 2024
+- Yuan 等, 2024, 月球异构中继星座设计与性能分析。

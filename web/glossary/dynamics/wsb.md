@@ -1,6 +1,6 @@
 ---
 title: 弱稳定性与弱稳定边界（Weak Stability Boundary, WSB）
-description: 弱稳定边界（Weak Stability Boundary, WSB）是由太阳引力摄动导致的地月系统弹道捕获区域——航天器轨道能量处在该边界附近时，太阳的周期性引力扰动足以改变轨道形状而无需消耗燃料。覆盖Belbruno & Miller（1993）的原定义与算法、"稳定运动衰减"的检查流程、Hiten任务飞行实例、弱稳定区（WSR）的三类现象（共线走廊、三角点实用稳定区、弱稳定轨道），以及与不变流形拼接理论的对比。
+description: 弱稳定边界（Weak Stability Boundary, WSB）是由太阳引力摄动导致的地月系统弹道捕获区域：航天器轨道能量处在该边界附近时，太阳的周期性引力扰动足以改变轨道形状而无需消耗燃料。覆盖Belbruno & Miller（1993）的原定义与算法、"稳定运动衰减"的检查流程、Hiten任务飞行实例、弱稳定区（WSR）的三类现象（共线走廊、三角点实用稳定区、弱稳定轨道），以及与不变流形拼接理论的对比。
 keywords: 弱稳定边界, Weak Stability Boundary, WSB, 弹道捕获, ballistic capture, 弱稳定区, WSR, 弱不稳定, 低能转移, Hiten, Belbruno
 author: 天疆说
 date: 2026-07-31

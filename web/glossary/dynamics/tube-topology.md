@@ -1,47 +1,33 @@
 ---
 title: 管道拓扑（Tube Topology）
-description: 小幅值周期轨道的不变流形所呈现的管状几何结构。流形在相空间中形成围绕周期轨道的管道，探测器在管道内运动具有约束性。大幅值Lyapunov轨道的稳定流形不再保持这种管道结构，流形发散后可到达地球附近区域。
-keywords: 管道拓扑, Tube Topology, 动力学, 控制, 优化, 稳定性分析
+description: 限制性三体问题中连接不同天体引力区域的不变流形几何相空间管道结构。
+keywords: 管道拓扑, Tube Topology, 不变流形, 弱稳定边界, 低能转移
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 管道拓扑（Tube Topology）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
-  image: /logo.png
-og:
-  title: 管道拓扑（Tube Topology）详解 | 术语定义
-  description: 小幅值周期轨道的不变流形所呈现的管状几何结构。流形在相空间中形成围绕周期轨道的管道，探测器在管道内运动具有约束性。大幅值Lyapunov轨道的稳定流形不再保持这种管道结构，流形发散后可到达地球附近区域。
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: 管道拓扑（Tube Topology）详解 | 术语定义
-  description: 小幅值周期轨道的不变流形所呈现的管状几何结构。流形在相空间中形成围绕周期轨道的管道，探测器在管道内运动具有约束性。大幅值Lyapunov轨道的稳定流形不再保持这种管道结构，流形发散后可到达地球附近区域。
+  title: 相空间管道拓扑
+  desc: 三体动力学中不变流形管状结构的几何与转移机制。
   image: /logo.png
 permalink: /glossary/dynamics/tube-topology/
 ---
 
 # 管道拓扑（Tube Topology）
 
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
-
 ## 定义
 
-小幅值周期轨道的不变流形所呈现的管状几何结构。流形在相空间中形成围绕周期轨道的管道，探测器在管道内运动具有约束性。大幅值Lyapunov轨道的稳定流形不再保持这种管道结构，流形发散后可到达地球附近区域。
+在圆型限制性三体问题能量曲面上，围绕共线拉格朗日点不稳定周期轨道的二维稳定与不稳定不变流形在三维位置空间投影形成的封闭管状几何结构。
 
-## 应用价值
+## 物理机制与工程价值
 
-该类轨道在任务设计中用于实现航天器在不同轨道状态之间的转移，可充分利用天体引力特性和动力学机制，降低转移所需的速度增量。
+根据动力系统拓扑理论，流形管道内部的轨迹能够自由穿越平动点颈缩区，实现地球引力区与月球引力区之间的低能转移；而管道外部的轨迹则被零速度面阻挡发生弹回。利用流形相交定理，通过求解地球侧不稳定流形管道与月球侧稳定流形管道的横截相交切点，可以设计出推进剂消耗接近零的天然引力转移走廊。
 
 ## 相关概念
 
-- [雅可比积分（Jacobi Integral）](/glossary/dynamics/jacobi-integral/)
-- [科氏定理（Coriolis Theorem）](/glossary/dynamics/coriolis-theorem/)
-- 速度函数（Velocity Function）
+- [不变流形](/glossary/dynamics/invariant-manifold/)
+- [共线拉格朗日点](/glossary/fundamentals/collinear-lagrange-point/)
+- [零速度面](/glossary/fundamentals/zero-velocity-surface/)
 
 ## 参考文献
 
-- 谭明虎 等 - 2014 - 基于大幅值Lyapunov轨道的地月转移轨道设计研究
+- Koon, Lo, Marsden, Ross, 2000, Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics.

@@ -106,7 +106,7 @@ const wayfindingChildren: TaxonomyNode[] = [
   {
     id: 'wayfinding/home',
     kind: 'group',
-    label: { zh: '首页（知识总览）', en: 'Home (overview)' },
+    label: { zh: '首页总览', en: 'Home' },
     path: { zh: '/', en: '/en/' },
     order: 10010,
     parentId: WAYFINDING_ROOT_ID,
@@ -114,7 +114,7 @@ const wayfindingChildren: TaxonomyNode[] = [
   {
     id: 'wayfinding/what-is-cislunarspace',
     kind: 'group',
-    label: { zh: '地月空间是什么', en: 'What is cislunar space' },
+    label: { zh: '什么是地月空间', en: 'What is Cislunar Space' },
     path: { zh: '/what-is-cislunarspace/', en: '/en/what-is-cislunarspace/' },
     order: 10020,
     parentId: WAYFINDING_ROOT_ID,
@@ -122,7 +122,7 @@ const wayfindingChildren: TaxonomyNode[] = [
   {
     id: 'wayfinding/cislunar-orbits',
     kind: 'group',
-    label: { zh: '飞行器运行轨道', en: 'Spacecraft trajectories' },
+    label: { zh: '地月空间轨道', en: 'Cislunar Orbits' },
     path: { zh: '/cislunar-orbits/', en: '/en/cislunar-orbits/' },
     order: 10030,
     parentId: WAYFINDING_ROOT_ID,
@@ -130,7 +130,7 @@ const wayfindingChildren: TaxonomyNode[] = [
   {
     id: 'wayfinding/research-frontiers',
     kind: 'group',
-    label: { zh: '科研方向与机构', en: 'Directions & labs' },
+    label: { zh: '研究前沿', en: 'Research Frontiers' },
     path: { zh: '/research-frontiers/', en: '/en/research-frontiers/' },
     order: 10040,
     parentId: WAYFINDING_ROOT_ID,
@@ -138,7 +138,7 @@ const wayfindingChildren: TaxonomyNode[] = [
   {
     id: 'wayfinding/glossary',
     kind: 'group',
-    label: { zh: '术语 · 定义与概念', en: 'Glossary · terms & definitions' },
+    label: { zh: '术语词典', en: 'Glossary' },
     path: { zh: '/glossary/', en: '/en/glossary/' },
     order: 10050,
     parentId: WAYFINDING_ROOT_ID,
@@ -146,7 +146,7 @@ const wayfindingChildren: TaxonomyNode[] = [
   {
     id: 'wayfinding/resources-tools',
     kind: 'group',
-    label: { zh: '数据与代码', en: 'Data & code' },
+    label: { zh: '数据与工具', en: 'Resources & Tools' },
     path: { zh: '/resources-tools/', en: '/en/resources-tools/' },
     order: 10060,
     parentId: WAYFINDING_ROOT_ID,

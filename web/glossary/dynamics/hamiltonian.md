@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 哈密顿函数（Hamiltonian）
-  desc: 主导相空间动力学的标量函数——正则方程、CR3BP、低推力、近可积近似与约化。
+  desc: 主导相空间动力学的标量函数：正则方程、CR3BP、低推力、近可积近似与约化。
   image: /logo.png
 og:
   title: 哈密顿函数详解 | 分析力学与地月空间动力学

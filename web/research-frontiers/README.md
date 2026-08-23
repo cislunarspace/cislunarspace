@@ -1,38 +1,54 @@
 ---
 permalink: /research-frontiers/
 title: 地月空间科学研究前沿
-description: 研究方向、机构与组织、期刊会议与重大项目索引；栏目导读与阅读建议。
-keywords: 地月空间, 研究前沿, 低能转移, 平动点, 机构, 期刊
-lastUpdated: 2026-04-22
+description: 地月空间前沿研究方向、核心科研机构、学术期刊会议与重大工程项目索引。
+keywords: 地月空间, 研究前沿, 低能转移, 态势感知, 编队飞行, 空间治理, 科研机构, 重大项目
+author: 天疆说
+date: 2026-04-22
+lastUpdated: 2026-08-20
 wechatShare:
-  title: 地月空间研究前沿
-  desc: 方向、机构、期刊与项目一站式索引。
+  title: 地月空间科学研究前沿概览
+  desc: 研究方向、核心机构、期刊会议与重大工程项目一站式导览。
   image: /logo.png
 ---
 
 # 地月空间科学研究前沿
 
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+随着全球探月工程从早期的单一飞掠与采样探测，迈向常态化驻留、地月基础设施建设与空间资源利用的新阶段，地月空间已成为国际深空探测与宇航科学竞争与合作的最前沿阵地。
 
-本栏目汇总**地月空间相关的研究方向、国内主要科研单位、学术发表渠道与代表性重大项目**，便于从「问题域、主体、载体、工程」多条线交叉检索。内容与公开文献、官网发布同步更新，**不替代正式综述或机构主页**。
+本栏目系统梳理地月空间的核心学术前沿、科研阵地、学术交流平台与重大工程计划，为研究人员与工程技术团队提供全面的研究导引与全局视野。
 
-## 栏目结构
+## 栏目知识结构
 
-| 板块 | 内容侧重 |
-| ------ | ----------- |
-| [研究方向](/research-frontiers/directions/) | 低能转移、轨道表征、仿真体系、轨道博弈等专题入口 |
-| [研究机构和组织](/research-frontiers/institutions/) | 高校与科研院所条目（持续扩充） |
-| [期刊与会议](/research-frontiers/journals-conferences) | 投稿与追踪渠道 |
-| [重大项目](/research-frontiers/major-projects) | 工程与计划级线索 |
+```mermaid
+flowchart TD
+    RF[地月空间科学前沿] --> DIR[前沿研究方向]
+    RF --> INST[核心科研机构]
+    RF --> CONF[学术期刊与会议]
+    RF --> PROJ[重大工程项目]
 
-若需核对概念与缩写，请交叉查阅 [术语词典](/glossary/)；若需数据与代码入口，见 [资源与工具](/resources-tools/)。
+    DIR --> D1[复杂轨道设计与低能转移]
+    DIR --> D2[广域空间态势感知与编队]
+    DIR --> D3[地月空间安全与规则治理]
 
-## 阅读建议
+    INST --> I1[国内高校与航天科研院所]
+    INST --> I2[国际宇航科研机构与实验室]
 
-- **入门**：先浏览 [研究方向](/research-frontiers/directions/) 目录，选一两条与任务或动力学相关的主题深入。
-- **找合作与对比**：在 [机构](/research-frontiers/institutions/) 中按单位检索，再回到文献与项目页核对最新进展。
-- **写论文或立项**：结合 [期刊与会议](/research-frontiers/journals-conferences) 与 [重大项目](/research-frontiers/major-projects) 对齐表述与引用习惯。
+    PROJ --> P1[探月四期 / 国际月球科研站 ILRS]
+    PROJ --> P2[阿尔忒弥斯 Artemis / 月球门户 Gateway]
+```
 
-*本部分将持续更新，以反映地月空间科学研究的公开进展。*
+## 板块导引
+
+| 板块 | 核心内容 | 深入链接 |
+| :--- | :--- | :--- |
+| **研究前沿方向** | 涵盖现代多体轨道动力学、广域态势感知、自主导航与星座编队、空间治理等核心热点 | [浏览前沿方向](/research-frontiers/directions/) |
+| **主要科研机构** | 汇集国内主要高校（北航、清华、哈工大、南大等）、航天科技与科工院所及国际顶尖实验室 | [查看科研机构](/research-frontiers/institutions/) |
+| **学术期刊与会议** | 整理宇航学报、AAS/AIAA 会议、Advances in Space Research 等权威投稿与追踪渠道 | [查阅期刊与会议](/research-frontiers/journals-conferences) |
+| **重大工程项目** | 跟踪我国探月工程（嫦娥系列、鹊桥中继）、ILRS 以及 Artemis 等战略级工程进展 | [跟踪重大项目](/research-frontiers/major-projects) |
+
+## 交叉查阅建议
+
+- **理论深化**：在探讨前沿方向的轨道动力学算法时，可同步查阅 [背景知识](/background/) 中的数学工具与最优控制理论。
+- **概念核验**：针对前沿论文中的各类专有名词与缩略语，请交叉检索 [术语词典](/glossary/)。
+- **算法复现**：研究前沿方向涉及的数值工具与开源动力学库，可直接在 [资源与工具](/resources-tools/) 中获取。

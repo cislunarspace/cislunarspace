@@ -1,23 +1,23 @@
 ---
 title: 推力方向与控制（Thrust Direction & Control）
-description: 推力矢量方向的描述与控制策略——切向、反切向推力的简化假设与其在轨道能量改变中的效率分析；推力方向角、方向余弦、转向角的参数化方法比较；小推力轨道保持中的连续推力控制策略与工程约束。
+description: 推力矢量方向的描述与控制策略：切向、反切向推力的简化假设与其在轨道能量改变中的效率分析；推力方向角、方向余弦、转向角的参数化方法比较；小推力轨道保持中的连续推力控制策略与工程约束。
 keywords: 推力方向, Thrust Direction, 切向推力, Tangential Thrust, 反切向推力, Anti-Tangential Thrust, 推力方向角, Thrust Direction Angle, 推力方向余弦, Thrust Direction Cosines, 推力转向角, Thrust Steering Angle, 连续推力轨道保持, Continuous-Thrust Station-Keeping, 小推力控制, Low-Thrust Control, 推力参数化
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 推力方向与控制（Thrust Direction & Control）
-  desc: 推力矢量方向的参数化与控制——切向/反切向推力的效率分析，方向角/方向余弦/转向角的比较，以及小推力轨道保持策略。
+  desc: 推力矢量方向的参数化与控制：切向/反切向推力的效率分析，方向角/方向余弦/转向角的比较，以及小推力轨道保持策略。
   image: /logo.png
 og:
   title: 推力方向与控制（Thrust Direction & Control）详解 | 术语定义
-  description: 推力矢量方向的描述与控制策略——切向、反切向推力的简化假设与其在轨道能量改变中的效率分析；推力方向角、方向余弦、转向角的参数化方法比较；小推力轨道保持中的连续推力控制策略与工程约束。
+  description: 推力矢量方向的描述与控制策略：切向、反切向推力的简化假设与其在轨道能量改变中的效率分析；推力方向角、方向余弦、转向角的参数化方法比较；小推力轨道保持中的连续推力控制策略与工程约束。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 推力方向与控制（Thrust Direction & Control）详解 | 术语定义
-  description: 推力矢量方向的描述与控制策略——切向/反切向推力的效率、方向角/余弦/转向角的参数化比较、小推力轨道保持的工程约束。
+  description: 推力矢量方向的描述与控制策略：切向/反切向推力的效率、方向角/余弦/转向角的参数化比较、小推力轨道保持的工程约束。
   image: /logo.png
 permalink: /glossary/dynamics/tangential-thrust-control/
 ---

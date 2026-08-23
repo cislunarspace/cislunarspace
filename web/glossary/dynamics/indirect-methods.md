@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 间接法（Indirect Methods）
-  desc: 从 PMP 到 TPBVP 再到打靶求解——轨迹优化间接法的完整框架与变体。
+  desc: 从 PMP 到 TPBVP 再到打靶求解：轨迹优化间接法的完整框架与变体。
   image: /logo.png
 og:
   title: 间接法（Indirect Methods）详解 | 轨迹优化

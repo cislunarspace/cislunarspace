@@ -30,7 +30,7 @@ permalink: /glossary/orbits/libration-point-periodic-orbit/
 
 ## 定义
 
-平动点周期轨道是围绕平动点运行的周期轨道统称。狭义定义取「三体问题中**不稳定**周期轨道的子集」（Ren 2012，其研究限于共线点平面情形）；广义统称涵盖共线平动点与三角平动点附近的全部周期轨道族（Qiao 2025、He 2025 的族谱）。文献中「共线平动点轨道」（collinear Lagrangian point orbit）指绕 L1/L2（及 L3）的周期或准周期轨道，如李萨如、晕轨道等（Bucchioni & Innocenti 2021）。
+平动点周期轨道是围绕平动点运行的周期轨道统称。狭义定义取三体问题中**不稳定**周期轨道的子集（Ren 2012，其研究限于共线点平面情形）；广义统称涵盖共线平动点与三角平动点附近的全部周期轨道族（Qiao 2025、He 2025 的族谱）。文献中共线平动点轨道（collinear Lagrangian point orbit）指绕 L1/L2（及 L3）的周期或准周期轨道，如李萨如、晕轨道等（Bucchioni & Innocenti 2021）。
 
 ## 共线点的鞍-周期结构与族谱
 

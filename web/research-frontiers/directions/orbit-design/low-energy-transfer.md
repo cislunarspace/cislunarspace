@@ -5,7 +5,7 @@ keywords: 地月空间低能转移轨道, 低能转移, Halo轨道, Lissajous轨
 author: 天疆说
 date: 2026-03-07
 lastUpdated: '2026-04-28'
-permalink: /research-frontiers/directions/low-energy-transfer/
+permalink: /research-frontiers/directions/orbit-design/low-energy-transfer/
 wechatShare:
   title: 地月空间低能转移轨道研究
   desc: 快速了解地月空间低能转移轨道设计方向的代表性文献。

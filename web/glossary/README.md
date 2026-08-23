@@ -1,36 +1,37 @@
 ---
 permalink: /glossary/
 title: 地月空间术语词典
-description: 地月空间术语释义，覆盖动力学模型、任务轨道、导航制导、观测技术等核心概念。
-keywords: 地月空间术语, 词典, CR3BP, DRO, NRHO, 平动点, 导航, 观测, 军事太空, 通信
+description: 地月空间专业术语体系，涵盖三体动力学、任务轨道族、制导导航与控制、天基测控通信及空间治理等核心概念。
+keywords: 地月空间术语, 词典, CR3BP, DRO, NRHO, 平动点, 导航, 观测, 通信
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-20
 wechatShare:
   title: 地月空间术语词典
-  desc: 地月空间术语释义。
-  image: /logo.png
-og:
-  title: 地月空间术语词典
-  description: 地月空间术语释义
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: 地月空间术语词典
-  description: 地月空间术语释义
+  desc: 地月空间动力学、轨道、导航与工程术语体系。
   image: /logo.png
 ---
 
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
-> 本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
-
 # 地月空间术语词典
 
-地月空间的研究横跨轨道力学、制导导航与控制、任务设计、空间环境建模好几门学科，术语天然跨学科；不少关键概念又出自 Gateway、CAPSTONE 以来近十几年的英文文献，散在论文与报告里。读到 NRHO、不变流形、弱稳定边界这些词，往往要先翻几篇文献才弄清它指什么、怎么用、与相邻概念差在哪。本词典要把这道门槛拆掉：每条术语不止给一句释义，而是讲清定义、补上背后的数学与力学、给出工程上关心的参数与数字、辨析易混的变体，并为每处判断标出文献出处，做到能拿来读论文、做轨道设计。词条按八个主题分类，也可经侧边栏与搜索直达。
+地月空间轨道动力学与工程应用横跨多体天体力学、最优控制、天基测控通信、空间态势感知与空间治理等多个学科。关键技术概念多源自近二十年国际重大深空探测工程（如 Artemis、Gateway、CAPSTONE、嫦娥工程、鹊桥中继等）的最新研究文献。
 
-## 索引
+本词典旨在构建完备严谨的地月空间术语体系：每条术语均明确物理机制、数学原理、典型数值约束与工程应用价值，并严格标注文献出处，为科研人员与工程技术团队提供可靠的概念辨析与设计参考。
+
+## 词典分类架构
+
+| 分类板块 | 英文标识 | 涵盖范围 |
+| :--- | :--- | :--- |
+| **基础概念** | `fundamentals` | 数值方法、配点法、雅可比矩阵、不确定度传播与优化基础 |
+| **轨道动力学** | `dynamics` | 限制性三体问题（CR3BP/ER3BP）、不变流形、平动点动力学、摄动机制 |
+| **任务轨道** | `orbits` | NRHO、DRO、Halo 轨道、地月转移轨道、轨道共振与寿命分析 |
+| **制导与导航** | `navigation` | 自主导航、星间测距、差分修正、交会对接与脉冲控制 |
+| **天基通信** | `communication` | 地月中继架构、星间链路、极区覆盖与可见性分析 |
+| **空间观测** | `observation` | 空间态势感知、重力场模型（GRGM660）、非高斯定轨与监视 |
+| **空间治理** | `governance` | 轨道资源分配、空间交通管理、外空安全与博弈对策 |
+| **工具与软件** | `other` | GMAT、STK、保结构数值算法与任务分析软件生态 |
+
+## 术语全局索引
 
 ### 基础概念（fundamentals，86 条）
 
@@ -127,9 +128,9 @@ twitter:
 - [Lawden 必要条件（Lawden's Necessary Conditions）](/glossary/dynamics/lawdens-necessary-conditions/)
 - [Lawden必要条件（Lawden's Necessary Conditions）](/glossary/dynamics/lnc/)
 - [Richardson方法（Richardson's Method）](/glossary/dynamics/richardsons-method/)
-- [受摄流形（A modified invariant manifold formed by applying a small velocity increment adjustment to the natural invariant manifold. Since the natural manifold's perilune distance usually does not match the target lunar orbit radius, an impulse at the Halo orbit injection point reshapes the manifold to satisfy the selenocentric distance constraint. Perturbed manifolds extend the transfer phase range beyond the two fixed points of natural zero-cost trajectories.)](/glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a-small-velocity-increment-adjustment-to-the-natura/)
+- [受摄流形（Perturbed Invariant Manifold）](/glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a-small-velocity-increment-adjustment-to-the-natura/)
 - [拉格朗日-达朗贝尔原理（Lagrange-d'Alembert Principle)](/glossary/dynamics/lagrange-dalembert-principle/)
-- [航迹角（The angle between the spacecraft velocity vector and the local horizontal plane. A flight path angle of zero indicates the velocity is tangent to the local horizontal, corresponding to the periapsis (or apoapsis) characteristic. The paper uses flight path angle as the differential correction termination condition: integration halts when the angle reaches zero with a negative derivative, identifying the perilune point for constraint evaluation.)](/glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-and-the-local-horizontal-plane-a-flight-path-angle-/)
+- [航迹角（Flight-Path Angle / Invariant Manifold Termination）](/glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-and-the-local-horizontal-plane-a-flight-path-angle-/)
 - [3-1-3 欧拉角序列（3-1-3 Euler Angle Sequence）](/glossary/dynamics/3-1-3-euler-angle-sequence/)
 - [Bang-bang 控制与 Lawden 弧定律（Bang-bang Control & Lawden's Arc Law）](/glossary/dynamics/bang-bang-control/)
 - [Battin-Giorgi 方法（Battin-Giorgi Method）](/glossary/dynamics/battin-giorgi-method/)
@@ -296,7 +297,7 @@ twitter:
 - [形状基法（Shape-Based Method）](/glossary/dynamics/inverse-polynomial-shape-function/)
 - [影响球（Sphere of Influence, SOI）](/glossary/dynamics/soi/)
 - [微分修正与打靶法（Differential Correction & Shooting Method）](/glossary/dynamics/differential-correction/)
-- [微分修正算法（An iterative method that maps terminal constraint residuals back to initial velocity corrections via the state transfer matrix. In libration point Halo orbit transfer design, it uses perilune distance and flight path angle as constraints, computing velocity increment corrections through partial derivatives decomposed by the state transfer matrix. The algorithm converges quickly for strongly nonlinear problems but is sensitive to initial guesses, requiring invariant manifolds to provide starting values.）](/glossary/dynamics/an-iterative-method-that-maps-terminal-constraint-residuals-back-to-initial-velocity-corrections-via/)
+- [微分修正算法（Differential Correction Algorithm）](/glossary/dynamics/an-iterative-method-that-maps-terminal-constraint-residuals-back-to-initial-velocity-corrections-via/)
 - [微重力机动（Microgravity Mobility）](/glossary/dynamics/microgravity-mobility/)
 - [投影泛函（Projection Functional）](/glossary/dynamics/projection-functional/)
 - [抛物区域（Parabolic Region）](/glossary/dynamics/parabolic-region/)
@@ -484,7 +485,7 @@ twitter:
 
 ### 任务轨道（orbits，143 条）
 
-- [近月点月心距（The distance from the Moon's center to the closest point of a transfer trajectory or invariant manifold. This parameter is the central constraint in transfer trajectory design: the target value equals the lunar radius plus the desired orbital altitude (e.g., 1837.4 km for a 100 km lunar orbit). Whether the manifold's minimum selenocentric distance matches the target determines whether a zero-cost transfer is possible or impulses are needed.)](/glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo/)
+- [近月点月心距（Perilune Distance）](/glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo/)
 - [EL1轨道（EL1 Orbit）](/glossary/orbits/el1-orbit/)
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
 - [Lambert 拼接法（Lambert patching method）](/glossary/orbits/lambert-patching-method/)
@@ -508,7 +509,7 @@ twitter:
 - [低能转移（Low-Energy Transfer）](/glossary/orbits/low-energy-transfer/)
 - [借力转移（Gravity Assist / Swingby）](/glossary/orbits/gravity-assist-swingby/)
 - [倾角变化（Inclination Change）](/glossary/orbits/inclination-change/)
-- [入轨点（The location on a Halo orbit where the spacecraft transitions from the transfer trajectory onto the periodic orbit. The phase angle of the injection point determines the required velocity increment. For zero-cost transfers, the injection impulse is zero; for perturbed transfers, small impulses are typically needed (0-8 m/s in this paper). The paper divides the Halo orbit into 360 equally-spaced nodes, each a potential injection point.）](/glossary/orbits/the-location-on-a-halo-orbit-where-the-spacecraft-transitions-from-the-transfer-trajectory-onto-the-/)
+- [入轨点（Injection Point）](/glossary/orbits/the-location-on-a-halo-orbit-where-the-spacecraft-transitions-from-the-transfer-trajectory-onto-the-/)
 - [入轨相位角（Insertion Phase Angle）](/glossary/orbits/insertion-phase-angle/)
 - [共振轨道族（Resonant Orbit Family）](/glossary/orbits/resonant-orbit-family/)
 - [共振轨道（Resonant Orbit, RES）](/glossary/orbits/res/)
@@ -766,7 +767,7 @@ twitter:
 - [卫星工具包（Satellite Tool Kit）](/glossary/other/stk/)
 - [地月空间星座（Cislunar Space Constellation）](/glossary/other/cislunar-space-constellation/)
 - [自适应轨迹设计（Adaptive Trajectory Design）](/glossary/other/atd/)
-- [自适应退步搜索（A search strategy that automatically halves the velocity correction and backtracks when differential correction iteration enters an erroneous region (integration reaches the fixed time limit without satisfying the flight path angle constraint). In the strongly nonlinear phase space around Halo orbits, standard differential correction tends to diverge or converge to large-impulse trajectories. Backstepping search progressively reduces the correction step size until the iteration escapes the erroneous region and finds a solution satisfying the termination condition, improving convergence robustness.）](/glossary/other/a-search-strategy-that-automatically-halves-the-velocity-correction-and-backtracks-when-differential/)
+- [自适应退步搜索（Adaptive Backstepping Search）](/glossary/other/a-search-strategy-that-automatically-halves-the-velocity-correction-and-backtracks-when-differential/)
 - [蒙特卡洛打靶仿真（Monte Carlo Shooting Simulation）](/glossary/other/monte-carlo-shooting-simulation/)
 - [通用任务分析工具（General Mission Analysis Tool）](/glossary/other/gmat/)
 

@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 双圆限制性四体问题（BCR4BP）详解
-  desc: 超越 CR3BP——如何在三体模型中加入太阳摄动，从双圆问题到全历表模型。
+  desc: 超越 CR3BP：如何在三体模型中加入太阳摄动，从双圆问题到全历表模型。
   image: /logo.png
 og:
   title: 双圆限制性四体问题（BCR4BP）详解 | 地月空间动力学

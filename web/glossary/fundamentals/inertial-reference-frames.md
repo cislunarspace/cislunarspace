@@ -1,6 +1,6 @@
 ---
 title: 惯性参考系（Inertial Reference Frames：ECI / EME2000 / GCRF / MCI / LME2000）
-description: 天体力学与轨道动力学中各类惯性参考系的定义与谱系——地心 ECI/EME2000/GCRF、地固 ITRF/ECEF/WGS84、月心 MCI/LME2000 与月固系、地月质心系，覆盖 J2000 历元约定、ICRS/ICRF 背景与工程选系原则。
+description: 天体力学与轨道动力学中各类惯性参考系的定义与谱系：地心 ECI/EME2000/GCRF、地固 ITRF/ECEF/WGS84、月心 MCI/LME2000 与月固系、地月质心系，覆盖 J2000 历元约定、ICRS/ICRF 背景与工程选系原则。
 keywords: 惯性参考系, ECI, EME2000, GCRF, MCI, LME2000, ITRF, ECEF, 地固坐标系, 月心惯性系, 白道面, 质心坐标系, inertial reference frame, geocentric, selenocentric
 author: 天疆说
 date: 2026-07-31
@@ -11,7 +11,7 @@ wechatShare:
   image: /logo.png
 og:
   title: 惯性参考系详解 | 术语定义
-  description: 天体力学与轨道动力学中各类惯性参考系的定义与谱系——地心 ECI/EME2000/GCRF、地固 ITRF/ECEF/WGS84、月心 MCI/LME2000 与月固系、地月质心系。
+  description: 天体力学与轨道动力学中各类惯性参考系的定义与谱系：地心 ECI/EME2000/GCRF、地固 ITRF/ECEF/WGS84、月心 MCI/LME2000 与月固系、地月质心系。
   image: /logo.png
   type: article
 twitter:
@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/inertial-reference-frames/
 
 ## 定义
 
-惯性参考系（inertial reference frame）指原点取在某一天体质心、坐标轴方向相对遥远恒星近似固定不旋转的参考系，是写出牛顿第二定律（进而写出运动方程）的合法框架。严格说宇宙不存在无加速度的理想惯性系，天体力学用的是准惯性系（pseudo-inertial frame）：对绕地卫星，地心赤道系已足够；对行星际飞行器，日心系是常用背景（Vallado 2022）。与惯性系相对的是固联于天体表面、随天体自转的固联系，以及随两主天体连线旋转的会合系（见[会合坐标系](/glossary/fundamentals/synodic-frame/)）。工程上所谓「惯性坐标系」其实是一族约定：原点（地心/月心/日心/质心）与主方向（春分点/赤道面/轨道面）各不相同，读文献前必须先确认是哪一种。
+惯性参考系（inertial reference frame）指原点取在某一天体质心、坐标轴方向相对遥远恒星近似固定不旋转的参考系，是写出牛顿第二定律（进而写出运动方程）的合法框架。严格说宇宙不存在无加速度的理想惯性系，天体力学用的是准惯性系（pseudo-inertial frame）：对绕地卫星，地心赤道系已足够；对行星际飞行器，日心系是常用背景（Vallado 2022）。与惯性系相对的是固联于天体表面、随天体自转的固联系，以及随两主天体连线旋转的会合系（见[会合坐标系](/glossary/fundamentals/synodic-frame/)）。工程上所谓惯性坐标系其实是一族约定：原点（地心/月心/日心/质心）与主方向（春分点/赤道面/轨道面）各不相同，读文献前必须先确认是哪一种。
 
 ## 参考系的三个构成要素
 
@@ -46,11 +46,11 @@ permalink: /glossary/fundamentals/inertial-reference-frames/
 
 ### ECI 与 J2000 约定
 
-ECI（Earth-Centered Inertial）是地心惯性系的统称，非单一具体系。因为赤道面与春分点随时间缓慢移动（岁差、章动），必须把这两个方向冻结在某个历元上，才能获得近似惯性系。历史上长期采用 IAU-76/FK5 系统，其赤道与春分点基于 FK5 星表、以 J2000.0（2000 年 1 月 1 日 12 时 TT）为历元，并用 IAU-1976 岁差模型与 IAU-1980 章动理论把其他时刻的惯性系变换到该系统（Vallado 2022）。因此「J2000 系」常与 ECI 混用。
+ECI（Earth-Centered Inertial）是地心惯性系的统称，非单一具体系。因为赤道面与春分点随时间缓慢移动（岁差、章动），必须把这两个方向冻结在某个历元上，才能获得近似惯性系。历史上长期采用 IAU-76/FK5 系统，其赤道与春分点基于 FK5 星表、以 J2000.0（2000 年 1 月 1 日 12 时 TT）为历元，并用 IAU-1976 岁差模型与 IAU-1980 章动理论把其他时刻的惯性系变换到该系统（Vallado 2022）。因此J2000 系常与 ECI 混用。
 
 ### EME2000
 
-EME2000（Earth Mean Equator and Equinox of J2000）即上述 J2000 历元地心平均赤道-春分点惯性系，是月球任务地心段轨道预报与边界条件设定的常用基准。它把赤道与春分点取为 J2000 历元的「平均」（mean）值，不随岁差章动漂移，故可当作近似惯性系使用（Vallado 2022；Yoon 和 Petukhov 2023）。
+EME2000（Earth Mean Equator and Equinox of J2000）即上述 J2000 历元地心平均赤道-春分点惯性系，是月球任务地心段轨道预报与边界条件设定的常用基准。它把赤道与春分点取为 J2000 历元的平均（mean）值，不随岁差章动漂移，故可当作近似惯性系使用（Vallado 2022；Yoon 和 Petukhov 2023）。
 
 ### GCRF 与 ICRS/ICRF
 
@@ -72,13 +72,13 @@ GCRF（Geocentric Celestial Reference Frame）是地球当前的国际标准惯�
 
 ### 月固系
 
-月固系（Lunar Body-Fixed / selenodetic frame）固联于月球表面、随月球自转旋转：原点在月心，参考平面为月赤道面，一轴沿月赤道面与起始子午面交线，另一轴沿月球自转轴。月面经纬度在该系中直接是坐标值，故软着陆、动力下降、月面测绘的终端约束（着陆点坐标、速度为零）都在此系中建立（周净扬和周荻 2007）。白道面（lunar orbital plane，月球绕地公转轨道面）与月赤道面约有 6.7° 交角、与黄道面约 5.145°。注意不要把「白道面」与「月赤道面」混为一谈；白道面是轨道几何基准而非月固系基准。
+月固系（Lunar Body-Fixed / selenodetic frame）固联于月球表面、随月球自转旋转：原点在月心，参考平面为月赤道面，一轴沿月赤道面与起始子午面交线，另一轴沿月球自转轴。月面经纬度在该系中直接是坐标值，故软着陆、动力下降、月面测绘的终端约束（着陆点坐标、速度为零）都在此系中建立（周净扬和周荻 2007）。白道面（lunar orbital plane，月球绕地公转轨道面）与月赤道面约有 6.7° 交角、与黄道面约 5.145°。注意不要把白道面与月赤道面混为一谈；白道面是轨道几何基准而非月固系基准。
 
 ## 地月质心系与常用平面
 
 - **质心会合系**：原点在地月质心、随地月连线旋转，即[会合坐标系](/glossary/fundamentals/synodic-frame/)的标准形式，CR3BP 的推导框架。
 
-- **质心惯性系**：原点在地月质心、轴方向固定不转的惯性系（barycentric inertial）。它把二体/多体方程写作相对坐标形式，运动方程与惯性系原点无关、只依赖相对位置与二阶导数（Vallado 2022）。注意勿与「质心会合系」混淆：后者多一个随主天体连线旋转的自由度。
+- **质心惯性系**：原点在地月质心、轴方向固定不转的惯性系（barycentric inertial）。它把二体/多体方程写作相对坐标形式，运动方程与惯性系原点无关、只依赖相对位置与二阶导数（Vallado 2022）。注意勿与质心会合系混淆：后者多一个随主天体连线旋转的自由度。
 
 - **月心瞬时地月面系**：原点在月心、轴方向与地月质心会合系平行但不随月自转的系（坐标轴相对惯性空间缓慢旋转）。它使可达域描述具有时间不变性，常用于揭示转移轨迹可达域的几何特征（Lu 等 2021）。
 

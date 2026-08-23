@@ -61,7 +61,7 @@ This principle reduces the continuous optimization problem to selecting the opti
 
 ## Related Concepts
 
-- [Shooting Method](../math/shooting-method/)
+- [Shooting Method](/en/background/math/shooting-method/)
 
 ## References
 

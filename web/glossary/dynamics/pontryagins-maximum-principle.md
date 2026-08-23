@@ -1,13 +1,13 @@
 ---
 title: 庞特里亚金极值原理（Pontryagin's Maximum Principle）
-description: 最优控制的基本必要条件——通过 Hamilton 函数耦合状态、协态与控制。覆盖极大/极小约定的等价性、一阶必要条件全集、横截条件、切换函数、引燃矢量联系，以及变分法（Euler-Lagrange、离散 E-L）这一基础。
+description: 最优控制的基本必要条件：通过 Hamilton 函数耦合状态、协态与控制。覆盖极大/极小约定的等价性、一阶必要条件全集、横截条件、切换函数、引燃矢量联系，以及变分法（Euler-Lagrange、离散 E-L）这一基础。
 keywords: 庞特里亚金极大值原理, 庞特里亚金最小值原理, Pontryagin Maximum Principle, PMP, 哈密顿函数, 变分法, 横截条件, 切换函数, Euler-Lagrange 方程, 引燃矢量
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 庞特里亚金极值原理（Pontryagin's Maximum Principle）
-  desc: 最优控制的核心必要条件——Hamilton 函数、共轭方程、横截条件与切换函数。
+  desc: 最优控制的核心必要条件：Hamilton 函数、共轭方程、横截条件与切换函数。
   image: /logo.png
 og:
   title: 庞特里亚金极值原理详解 | 最优控制理论

@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 大气阻力摄动（Atmospheric Drag Perturbation）
-  desc: 拖曳加速度公式、大气密度模型、弹道系数与 DFAC——大气阻力摄动完整解析。
+  desc: 拖曳加速度公式、大气密度模型、弹道系数与 DFAC：大气阻力摄动完整解析。
   image: /logo.png
 og:
   title: 大气阻力摄动（Atmospheric Drag Perturbation）详解 | 术语定义

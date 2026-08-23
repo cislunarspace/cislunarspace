@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 直接法（Direct Methods for Trajectory Optimization）
-  desc: 把最优控制问题转录为非线性规划求解——分支、数学细节、工程取舍。
+  desc: 把最优控制问题转录为非线性规划求解：分支、数学细节、工程取舍。
   image: /logo.png
 og:
   title: 直接法详解 | 轨迹优化
@@ -50,7 +50,7 @@ $$\mathbf{X}=\{(\mathbf{x}_0,\mathbf{u}_0),(\mathbf{x}_1,\mathbf{u}_1),\dots,(\m
 
 $$\min_{\mathbf{X}} F(\mathbf{X})\quad \text{s.t.}\quad \mathbf{c}_l\leq\mathbf{c}(\mathbf{X})\leq\mathbf{c}_u,\ \ \mathbf{X}_l\leq\mathbf{X}\leq\mathbf{X}_u.$$
 
-直接法分支之间的差别，主要是「用什么样的离散策略构造 $\boldsymbol{\zeta}_j$」。
+直接法分支之间的差别，主要是用什么样的离散策略构造 $\boldsymbol{\zeta}_j$。
 
 ## 主要分支
 
@@ -77,8 +77,8 @@ $$\min_{\mathbf{X}} F(\mathbf{X})\quad \text{s.t.}\quad \mathbf{c}_l\leq\mathbf{
 
 直接法的最大理论魅力在于：当配点网格趋于精细时，NLP 问题的 KKT 乘子 $\boldsymbol{\lambda}$ 在已知线性变换下收敛到连续 OCP 的协态变量（Hager 1976；Benson 2005；Elnagar 等 1995）。这意味着：
 
-- 可以从直接法解里「反推」出协态时间历程，从而计算 Hamiltonian 是否守恒，作为解的精度校核；
-- 可以用直接法解为[间接法](/glossary/dynamics/indirect-methods/)提供初值，做「直接-间接混合」求解。
+- 可以从直接法解里反推出协态时间历程，从而计算 Hamiltonian 是否守恒，作为解的精度校核；
+- 可以用直接法解为[间接法](/glossary/dynamics/indirect-methods/)提供初值，做直接-间接混合求解。
 
 伪谱法因配点正交，这种映射最干净，称为 **covector mapping theorem**（Benson et al. 2006）。这也是 [伪谱法](/glossary/dynamics/pseudospectral-method/) 在工程中受欢迎的关键原因之一。
 

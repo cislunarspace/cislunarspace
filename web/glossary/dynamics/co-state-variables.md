@@ -1,13 +1,13 @@
 ---
 title: 协态变量与共轭方程（Costate Variables and Adjoint Equations）
-description: 最优控制中与状态变量对偶的拉格朗日乘子。覆盖协态/共轭/伴随变量的定义、伴随方程、协态归一化、协态-控制变换、初始协态敏感性——间接法求解地月空间小推力轨迹优化的核心对象。
+description: 最优控制中与状态变量对偶的拉格朗日乘子。覆盖协态/共轭/伴随变量的定义、伴随方程、协态归一化、协态-控制变换、初始协态敏感性：间接法求解地月空间小推力轨迹优化的核心对象。
 keywords: 协态变量, 共轭变量, 伴随变量, Costate Variables, Adjoint Equations, 拉格朗日乘子, 庞特里亚金极值原理, 协态归一化, 协态控制变换, 间接法, 两点边值问题
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 协态变量与共轭方程（Costate Variables and Adjoint Equations）
-  desc: 最优控制中与状态对偶的隐变量——定义、伴随方程、归一化与协态-控制变换。
+  desc: 最优控制中与状态对偶的隐变量：定义、伴随方程、归一化与协态-控制变换。
   image: /logo.png
 og:
   title: 协态变量与共轭方程详解 | 最优控制理论

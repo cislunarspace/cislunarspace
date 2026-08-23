@@ -1,45 +1,33 @@
 ---
-title: 光环轨道插入（Halo Orbit Insertion）
-description: 将航天器从转移轨道引入目标光环轨道的第二次脉冲施加过程。插入位置和速度分量作为设计未知量，通过微分进化优化确定。
-keywords: 光环轨道插入, Halo Orbit Insertion, HOI, dynamics
+title: 光环轨道插入（Halo Orbit Insertion, HOI）
+description: 航天器从地月转移轨道减速并捕获进入目标平动点Halo轨道的关键变轨过程。
+keywords: 光环轨道插入, HOI, 轨道捕获, 变轨机动, Halo轨道
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 光环轨道插入（Halo Orbit Insertion）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
-  image: /logo.png
-og:
-  title: 光环轨道插入详解 | 术语定义
-  description: 将航天器从转移轨道引入目标光环轨道的第二次脉冲施加过程。插入位置和速度分量作为设计未知量，通过微分进化优化确定。
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: 光环轨道插入详解 | 术语定义
-  description: 将航天器从转移轨道引入目标光环轨道的第二次脉冲施加过程。插入位置和速度分量作为设计未知量，通过微分进化优化确定。
+  title: 光环轨道插入机动
+  desc: 地月平动点Halo轨道捕获机动原理与优化设计。
   image: /logo.png
 permalink: /glossary/dynamics/hoi/
 ---
 
-# 光环轨道插入（Halo Orbit Insertion）
-
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+# 光环轨道插入（Halo Orbit Insertion, HOI）
 
 ## 定义
 
-将航天器从转移轨道引入目标光环轨道的第二次脉冲施加过程。插入位置和速度分量作为设计未知量，通过微分进化优化确定。
+航天器经过地月转移段飞行至平动点区域预定注入点时，通过主发动机点火施加精确控制脉冲，消除剩余相对速度偏差，使航天器状态落入目标Halo轨道或其稳定流形上的变轨机动。
 
-## 应用价值
+## 物理机制与工程价值
 
-在光环轨道插入的研究中，该轨道构型为地月空间任务提供了独特的动力 学特性，可用于设计低能量转移路径或作为任务目标轨道，在月球探测任务规划中具有重要应用价值。
+Halo 轨道属于三体引力场中的不稳定周期轨道，其相空间鞍点结构决定了航天器若偏离轨道将迅速沿不稳定流形发散漂离。光环轨道插入的时刻与速度增量矢量必须精密计算，通常选择轨道速度极小点或与不变流形相切点作为点火位置，以最小化插入燃料消耗并确保进入闭合周期。
 
 ## 相关概念
 
-- （暂无相关概念）
+- [晕轨道](/glossary/orbits/halo-orbit/)
+- [不变流形](/glossary/dynamics/invariant-manifold/)
+- [微分修正](/glossary/dynamics/differential-correction/)
 
 ## 参考文献
 
-- Neelakantan和Ramanan - 2022 - Two-impulse transfer to multi-revolution halo orbits in the Earth–moon elliptic restricted three bod。
+- Neelakantan and Ramanan, 2022, Two-impulse transfer to multi-revolution halo orbits in the Earth-Moon elliptic restricted three-body problem.

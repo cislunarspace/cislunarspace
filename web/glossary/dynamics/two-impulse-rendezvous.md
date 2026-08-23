@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 脉冲机动与交会（Impulsive Maneuvers & Rendezvous）
-  desc: 化学推进航天器的轨道机动与交会——从双脉冲到多脉冲、从二体到平动点的全面讲解。
+  desc: 化学推进航天器的轨道机动与交会：从双脉冲到多脉冲、从二体到平动点的全面讲解。
   image: /logo.png
 og:
   title: 脉冲机动与交会（Impulsive Maneuvers & Rendezvous）详解 | 术语定义

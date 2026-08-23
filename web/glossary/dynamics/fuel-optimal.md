@@ -1,23 +1,23 @@
 ---
 title: 燃料最优控制（Fuel-optimal Control）
-description: 航天器最优控制按性能指标划分的三大主流——燃料最优（L¹ 范数）、能量最优（L² 范数）、时间最优——的统一框架。涵盖 Mayer/Lagrange 形式、庞特里亚金极值原理导出的切换函数与 Bang-bang/Bang-off-Bang 结构、奇异弧、与能量-燃耗同伦的衔接，以及动力下降、地月低推力转移、轨道保持等典型应用。
+description: 航天器最优控制按性能指标划分的三大主流：燃料最优（L¹ 范数）、能量最优（L² 范数）、时间最优：的统一框架。涵盖 Mayer/Lagrange 形式、庞特里亚金极值原理导出的切换函数与 Bang-bang/Bang-off-Bang 结构、奇异弧、与能量-燃耗同伦的衔接，以及动力下降、地月低推力转移、轨道保持等典型应用。
 keywords: 燃料最优控制, Fuel-optimal Control, 能量最优, Energy-optimal, 时间最优, Time-optimal, 性能指标, 切换函数, Bang-bang, Bang-off-Bang, 间接法, 同伦法, 动力下降, 低推力转移
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 燃料最优控制（Fuel-optimal Control）
-  desc: 燃料/能量/时间三类性能指标在最优控制中的统一处理——切换函数、Bang-bang 结构与同伦求解。
+  desc: 燃料/能量/时间三类性能指标在最优控制中的统一处理：切换函数、Bang-bang 结构与同伦求解。
   image: /logo.png
 og:
   title: 燃料最优控制（Fuel-optimal Control）详解 | 最优控制性能指标
-  description: 航天器最优控制按性能指标划分的三大主流——燃料最优（L¹）、能量最优（L²）、时间最优——的统一框架。涵盖庞特里亚金极值原理、切换函数、Bang-bang/Bang-off-Bang 结构、奇异弧与能量-燃耗同伦，以及动力下降与地月低推力转移的工程应用。
+  description: 航天器最优控制按性能指标划分的三大主流：燃料最优（L¹）、能量最优（L²）、时间最优：的统一框架。涵盖庞特里亚金极值原理、切换函数、Bang-bang/Bang-off-Bang 结构、奇异弧与能量-燃耗同伦，以及动力下降与地月低推力转移的工程应用。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 燃料最优控制（Fuel-optimal Control）详解 | 最优控制性能指标
-  description: 航天器最优控制按性能指标划分的三大主流——燃料最优（L¹）、能量最优（L²）、时间最优——的统一框架。涵盖庞特里亚金极值原理、切换函数、Bang-bang/Bang-off-Bang 结构、奇异弧与能量-燃耗同伦。
+  description: 航天器最优控制按性能指标划分的三大主流：燃料最优（L¹）、能量最优（L²）、时间最优：的统一框架。涵盖庞特里亚金极值原理、切换函数、Bang-bang/Bang-off-Bang 结构、奇异弧与能量-燃耗同伦。
   image: /logo.png
 permalink: /glossary/dynamics/fuel-optimal/
 ---

@@ -1,72 +1,63 @@
 ---
 title: Cislunar Spacecraft Orbits
-description: Overview of cislunar mission orbit families—transfers, lunar orbits, and libration-point classes—with links to glossary entries and the simulation lab.
-keywords: cislunar orbits, transfer orbit, NRHO, DRO, libration point, CR3BP
+description: Overview of cislunar orbital dynamics, covering the circular restricted three-body problem (CR3BP), libration point orbit families, Near-Rectilinear Halo Orbits (NRHO), Distant Retrograde Orbits (DRO), and transfer corridors.
+keywords: cislunar orbits, CR3BP, libration points, NRHO, DRO, Halo orbits, transfer orbits
 author: CislunarSpace
 date: 2026-03-07
 lastUpdated: 2026-04-26
 permalink: /en/cislunar-orbits/
 wechatShare:
-  title: Cislunar Space Orbits
-  desc: Mission orbits and dynamical intuition for Earth–Moon space.
+  title: Cislunar Orbital Dynamics Architecture
+  desc: Typical orbit families and design principles under multi-body dynamics.
   image: /logo.png
 og:
-  title: Cislunar Space Orbits | Beginner's Guide
-  description: Mission orbit families in cislunar space
+  title: Overview of Cislunar Orbital Dynamics Architecture
+  description: Typical orbit families and design principles under multi-body dynamics.
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
-  title: Cislunar orbit families
-  description: Transfers, lunar orbits, and libration-point orbits
+  title: Overview of Cislunar Orbital Dynamics Architecture
+  description: Typical orbit families and design principles under multi-body dynamics.
   image: /logo.png
 ---
 
-> Author: [CislunarSpace](https://gitee.com/cislunarspace)
->
-> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
+# Cislunar Orbital Dynamics Architecture
 
-# Cislunar spacecraft orbits (hub)
+In near-Earth space, spacecraft motion is predominantly governed by Earth's central gravity, resulting in strictly closed Keplerian ellipses. Upon entering cislunar space, the gravitational forces of Earth and the Moon become closely coupled, rendering the classical two-body model invalid. Spacecraft motion is governed by the Circular Restricted Three-Body Problem (CR3BP), where a diverse array of periodic and quasi-periodic orbit families emerge within the phase space.
 
-Spacecraft in cislunar space are poorly approximated by a single Keplerian center: Earth–Moon (and often solar) gravity couples into **restricted multi-body** dynamics. Orbit families multiply, and operations must respect longer light times, tracking geometry, and often maneuver-heavy maintenance or transfers. This hub establishes shared vocabulary before you dive into papers and tools.
+Understanding the dynamical origins and geometric properties of these orbit families is fundamental to lunar mission design, deep-space station-keeping, and orbital selection for cislunar space stations.
 
-## How it differs from LEO
+## Fundamental Differences from Near-Earth Orbits
 
-- **Gravity model**: From two-body intuition to Earth–Moon (and sometimes Sun-dominated) models; libration points and periodic/quasi-periodic orbits become central.
-- **Tracking & time**: Large ranges make delay and pass scheduling part of the design.
-- **Stability & maneuvering**: Some classes are sensitive to state errors or require station-keeping; trades involve time, fuel, and launch windows.
+Transitioning from two-body Keplerian orbits to a three-body dynamical system introduces three fundamental shifts in orbital design:
 
-## Common mission orbit classes (conceptual)
+1. **Reference Frame: From Inertial to Rotating Pulsating System**: Formulated in a rotating coordinate system aligned with the Earth–Moon line, centrifugal and Coriolis inertial forces are introduced. Spacecraft experience zero net force at specific equilibrium positions known as Lagrange libration points ($L_1$–$L_5$).
+2. **Conservation Law: From Mechanical Energy to the Jacobi Integral**: The sum of kinetic energy and effective potential yields an invariant Jacobi constant $C$, which rigorously defines the zero-velocity curves (ZVC) that delineate accessible and forbidden regions.
+3. **Orbital Geometry: From 2D Planar Ellipses to 3D Spatial Orbit Families**: The phase space hosts three-dimensional Halo orbits crossing the orbital plane, vertical axial orbits, and large-amplitude retrograde orbits enclosing the Moon.
 
-| Class | What it is (intro) | Where to read more |
-| ------- | --------------------- | -------------------- |
-| Earth–Moon transfer | From LEO or staging to lunar sphere of influence | Mission reports on TLI, mid-course correction |
-| Lunar orbits | Circular/elliptical/polar classes for remote sensing, landing prep | Lunar gravity field, frozen orbits |
-| Libration-point & halo families | Periodic/quasi-periodic motion near Earth–Moon libration points | See [glossary](/en/glossary/); NRHO/DRO entries mirror the Chinese section over time |
-| DRO | Distant retrograde class in the Earth–Moon rotating frame | Same as above |
+## Typical Core Mission Orbit Families
 
-Detailed design needs ephemerides, force models, and program constraints. See [resources & tools](/en/resources-tools/) for datasets and libraries.
+| Orbit Family | Dynamical Characteristics | Typical Period & Maintenance Cost | Primary Mission Scenarios |
+| :--- | :--- | :---: | :--- |
+| **Near-Rectilinear Halo Orbit (NRHO)** | Large-amplitude Halo orbits around $L_1$/$L_2$ with extremely low perilune and high apolune | Period: 6.5–8 days; Annual $\Delta V < 10\text{ m/s}$ | Continuous lunar south pole coverage, Lunar Gateway staging, surface landing relay |
+| **Distant Retrograde Orbit (DRO)** | Planar retrograde lunar orbit with long-term balance between Coriolis and gravitational forces | Period: 10–14 days; Practically zero station-keeping in unperturbed models | Long-term staging depots, deep-space logistics hubs, space-based astronomy |
+| **Libration Point Halo Orbits** | 3D periodic orbits around $L_1$/$L_2$/$L_3$ libration points, categorized into northern and southern branches | Period: ~14 days; Requires periodic small station-keeping maneuvers | Lunar farside relay communications (e.g., Queqiao), Sun–Earth deep space exploration |
+| **Low-Energy Transfer Corridors** | Ballistic propagation along invariant manifold tubes in three-body phase space, utilizing Weak Stability Boundary (WSB) capture | Transfer time: weeks to months; Saves $>15\%\ \Delta V$ compared to Hohmann transfer | Cargo logistics, CubeSat lunar exploration, propellant-constrained missions |
 
-## Deep Dives: Three Key Topics
+## Topic Navigation
 
-### NRHO (Near-Rectilinear Halo Orbit)
+This section provides in-depth mathematical derivations and numerical computation cases for the three most critical orbit types in engineering practice:
 
-NRHO (Near-Rectilinear Halo Orbit) is a class of periodic orbits near the Earth-Moon libration points, named for their elongated near-linear appearance in the rotating frame. These orbits offer favorable communication visibility to the lunar south pole and require relatively low delta-v to reach the lunar surface, making them the preferred operational orbit for NASA's Lunar Gateway station in the Artemis program. NRHOs are solutions to the restricted three-body problem; they are not asymptotically stable and require periodic station-keeping, but their dynamical properties have been validated by numerous missions and remain a hot research topic in cislunar operations.
+- **Near-Rectilinear Halo Orbit**: Explore [NRHO (Near-Rectilinear Halo Orbit)](/en/cislunar-orbits/nrho/) to learn about bifurcation branches, design parameters, and high-fidelity ephemeris corrections.
+- **Distant Retrograde Orbit**: Explore [DRO (Distant Retrograde Orbit)](/en/cislunar-orbits/dro/) to master dynamical stability mechanisms, phasing maneuvers, and formation flying design.
+- **Earth–Moon Transfer Orbits**: Explore [Earth–Moon Transfer Orbits](/en/cislunar-orbits/transfer/) to understand Hohmann fast transfers, weak stability boundary low-energy capture, and launch window analysis.
 
-### DRO (Distant Retrograde Orbit)
+## Supporting Foundations & Algorithms
 
-DRO (Distant Retrograde Orbit) refers to quasi-periodic orbits that are retrograde in the rotating frame and located at considerable distances from the Earth-Moon barycenter. Compared to NRHOs, DROs are farther from the Moon, demand less station-keeping, and serve well as long-duration parking orbits or deep-space mission outposts. Their forgiving dynamical structure makes DROs attractive for demonstrating multi-body transfer concepts and for studying chaos and orbital stability in cislunar space.
+To delve deeper into the mathematical and algorithmic toolkits for orbital computation, refer to our background theoretical modules:
 
-### Earth-Moon Transfer Orbits
-
-Earth-Moon transfer orbits bridge the gap between low-Earth parking orbits and lunar orbit or the Moon's sphere of influence. Common transfer strategies include Hohmann transfers, low-energy transfers (Lunar Transfer Orbit, LTO), and the increasingly studied multi-body gravity-assist transfers. Each approach trades off propellant, transfer time, and launch window flexibility: fast transfers consume more fuel, while low-energy transfers can take months but require much less delta-v. Mission planners weigh these factors against schedule, launch vehicle capacity, and tracking coverage to select the best fit.
-
-## Suggested reading order
-
-1. [What is cislunar space](/en/what-is-cislunarspace/) and the [environment](/en/what-is-cislunarspace/environment) page.
-2. [Glossary](/en/glossary/) for abbreviations (e.g. [CR3BP](/en/glossary/dynamics/cr3bp/)).
-3. [Research frontiers](/en/research-frontiers/) for active topics and references.
-
-*Deep-dive articles and worked examples are expanding; contributions via the repository are welcome.*
-
-## Simulation Lab
+- **Differential Correction & Boundary Value Problems**: [Shooting Method](/en/background/math/shooting-method/)
+- **Parametric Continuation & Bifurcation**: [Arc-Length Continuation](/en/background/math/continuation/)
+- **Long-Term Structure-Preserving Integration**: [Symplectic Integrators](/en/background/math/symplectic-integrator/)
+- **Multi-Body Perturbation Theory**: [Perturbation Theory](/en/background/mechanics/perturbation/)

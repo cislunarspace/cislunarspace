@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 月球会合共振（Lunar Synodic Resonance, LSR）
-  desc: 轨道周期与月球会合周期成简单整数比——Gateway NRHO 日食规避的核心机制。
+  desc: 轨道周期与月球会合周期成简单整数比：Gateway NRHO 日食规避的核心机制。
   image: /logo.png
 og:
   title: 月球会合共振（Lunar Synodic Resonance）详解 | 术语定义

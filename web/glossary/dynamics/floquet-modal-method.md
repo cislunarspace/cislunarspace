@@ -1,6 +1,6 @@
 ---
 title: Floquet模态法与平动点轨道保持（Floquet Modal Method and Libration Point Stationkeeping）
-description: Floquet模态法是基于单值矩阵特征分解的平动点轨道保持策略——将状态偏差投影到Floquet模态后，仅消去指数增长的不稳定分量，忽略中心与稳定分量，实现低燃料、长脉冲间隔的控制。覆盖Floquet模态法、不稳定分量消除、轨道平衡法（延续法）三种策略的对比，以及ARTEMIS任务为何选延续法而非Floquet模态法的工程缘由。
+description: Floquet模态法是基于单值矩阵特征分解的平动点轨道保持策略：将状态偏差投影到Floquet模态后，仅消去指数增长的不稳定分量，忽略中心与稳定分量，实现低燃料、长脉冲间隔的控制。覆盖Floquet模态法、不稳定分量消除、轨道平衡法（延续法）三种策略的对比，以及ARTEMIS任务为何选延续法而非Floquet模态法的工程缘由。
 keywords: Floquet模态法, Floquet Modal Method, 平动点轨道保持, 不稳定分量消除, 轨道平衡法, orbit balancing, 脉冲控制, ARTEMIS, 准Floquet变换, stationkeeping
 author: 天疆说
 date: 2026-07-31

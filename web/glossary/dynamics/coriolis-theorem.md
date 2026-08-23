@@ -1,6 +1,6 @@
 ---
 title: 科氏定理（Coriolis Theorem / Transport Theorem）
-description: 同一矢量在惯性系与旋转系中时间导数的关系——$(\mathrm d\vec q/\mathrm dt)_I=(\mathrm d\vec q/\mathrm dt)_R+\vec\omega\times\vec q$。本文覆盖其推导、对位置矢量的两次应用产生科氏加速度 $2\vec\omega\times\vec v_R$ 与离心加速度 $\vec\omega\times(\vec\omega\times\vec r)$ 的过程，以及在 [会合坐标系](/glossary/fundamentals/synodic-frame/) 中推导 CR3BP 运动方程、在月固系等体固系中推导软着陆精确动力学的基本用法。
+description: 同一矢量在惯性系与旋转系中时间导数的关系：$(\mathrm d\vec q/\mathrm dt)_I=(\mathrm d\vec q/\mathrm dt)_R+\vec\omega\times\vec q$。本文覆盖其推导、对位置矢量的两次应用产生科氏加速度 $2\vec\omega\times\vec v_R$ 与离心加速度 $\vec\omega\times(\vec\omega\times\vec r)$ 的过程，以及在 [会合坐标系](/glossary/fundamentals/synodic-frame/) 中推导 CR3BP 运动方程、在月固系等体固系中推导软着陆精确动力学的基本用法。
 keywords: 科氏定理, Coriolis Theorem, 输运定理, Transport Theorem, 科氏加速度, 离心加速度, 旋转坐标系, 会合系, 月固坐标系
 author: 天疆说
 date: 2026-07-31

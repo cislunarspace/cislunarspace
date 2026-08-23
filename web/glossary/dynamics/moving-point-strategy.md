@@ -1,6 +1,6 @@
 ---
 title: 动点策略（Moving Point Strategy）
-description: 在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称「终点同伦」。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
+description: 在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称终点同伦。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
 keywords: 动点策略, Moving Point Strategy, 轨道动力学, 轨道优化, 非线性动力学
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 动点策略详解 | 术语定义
-  description: 在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称「终点同伦」。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
+  description: 在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称终点同伦。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 动点策略详解 | 术语定义
-  description: 在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称「终点同伦」。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
+  description: 在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称终点同伦。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
   image: /logo.png
 permalink: /glossary/dynamics/moving-point-strategy/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/moving-point-strategy/
 
 ## 定义
 
-在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称「终点同伦」。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
+在Halo轨道转移优化中，通过沿出发和到达轨道移动转移端点（即调整轨道参数tau_M和tau_N），将点对点最优解推广为轨道间最优解的方法。也称终点同伦。沿轨道滑动端点可降低所需推力，但会增加飞行时间。
 
 ## 应用价值
 

@@ -1,6 +1,6 @@
 ---
 title: 数值延拓（Numerical Continuation）
-description: 含参数非线性方程组 F(x,λ)=0 解曲线的跟踪方法——从已知解出发逐步改变参数，以前一步解为初值求解相邻解，从而扫出整条解分支。地月空间动力学中是周期轨道族（Halo、Lyapunov、DRO、NRHO 等）系统化计算的标准工具，可在转向点处绕行、捕捉分岔分支。
+description: 含参数非线性方程组 F(x,λ)=0 解曲线的跟踪方法：从已知解出发逐步改变参数，以前一步解为初值求解相邻解，从而扫出整条解分支。地月空间动力学中是周期轨道族（Halo、Lyapunov、DRO、NRHO 等）系统化计算的标准工具，可在转向点处绕行、捕捉分岔分支。
 keywords: 数值延拓, numerical continuation, 弧长延拓, pseudo-arclength, 预测校正, 自然参数延拓, 牛顿延拓, 轨道族, CR3BP, 分岔
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 数值延拓（Numerical Continuation）详解 | 术语定义
-  description: 含参数非线性方程组 F(x,λ)=0 解曲线的跟踪方法——从已知解出发逐步改变参数，以前一步解为初值求解相邻解，从而扫出整条解分支。地月空间动力学中是周期轨道族系统化计算的标准工具。
+  description: 含参数非线性方程组 F(x,λ)=0 解曲线的跟踪方法：从已知解出发逐步改变参数，以前一步解为初值求解相邻解，从而扫出整条解分支。地月空间动力学中是周期轨道族系统化计算的标准工具。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 数值延拓（Numerical Continuation）详解 | 术语定义
-  description: 含参数非线性方程组 F(x,λ)=0 解曲线的跟踪方法——从已知解出发逐步改变参数，以前一步解为初值求解相邻解，从而扫出整条解分支。地月空间动力学中是周期轨道族系统化计算的标准工具。
+  description: 含参数非线性方程组 F(x,λ)=0 解曲线的跟踪方法：从已知解出发逐步改变参数，以前一步解为初值求解相邻解，从而扫出整条解分支。地月空间动力学中是周期轨道族系统化计算的标准工具。
   image: /logo.png
 permalink: /glossary/dynamics/continuation/
 ---

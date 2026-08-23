@@ -1,6 +1,6 @@
 ---
 title: 拼接点（Patch Point）
-description: 多重打靶轨迹分段点——相邻子弧的状态连续性在此处约束，其数量与位置直接决定收敛速度与精度。覆盖固定/变时间拼接、自适应选取策略、异系统（日地/地月）流形拼接的交点角色，以及从 CR3BP 过渡到星历模型时的工程权衡。
+description: 多重打靶轨迹分段点：相邻子弧的状态连续性在此处约束，其数量与位置直接决定收敛速度与精度。覆盖固定/变时间拼接、自适应选取策略、异系统（日地/地月）流形拼接的交点角色，以及从 CR3BP 过渡到星历模型时的工程权衡。
 keywords: 拼接点, Patch Point, 多重打靶, 微分修正, 轨迹拼接, 二级微分修正, 自适应选取, 地月空间
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 拼接点（Patch Point）详解 | 多重打靶关键概念
-  description: 多重打靶轨迹分段点——相邻子弧的状态连续性在此处约束，其数量与位置直接决定收敛速度与精度。覆盖固定/变时间拼接、自适应选取策略、异系统流形拼接的角色。
+  description: 多重打靶轨迹分段点：相邻子弧的状态连续性在此处约束，其数量与位置直接决定收敛速度与精度。覆盖固定/变时间拼接、自适应选取策略、异系统流形拼接的角色。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 拼接点（Patch Point）详解 | 多重打靶关键概念
-  description: 多重打靶轨迹分段点——数量与位置直接决定收敛速度与精度。
+  description: 多重打靶轨迹分段点：数量与位置直接决定收敛速度与精度。
   image: /logo.png
 permalink: /glossary/dynamics/patch-point/
 ---

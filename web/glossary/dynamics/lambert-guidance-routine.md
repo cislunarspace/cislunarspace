@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: Lambert 制导例程（Lambert Guidance Routine）
-  desc: 把 Lambert 问题嵌入实时闭环——助推段制导的经典算法。
+  desc: 把 Lambert 问题嵌入实时闭环：助推段制导的经典算法。
   image: /logo.png
 og:
   title: Lambert 制导例程（Lambert Guidance Routine）详解 | 术语定义

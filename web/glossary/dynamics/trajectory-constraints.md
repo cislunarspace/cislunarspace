@@ -1,6 +1,6 @@
 ---
 title: 轨道优化中的约束（Trajectory Constraints）
-description: 航天器轨道优化问题中约束的统一框架——终端/边界约束、路径约束、状态约束、事件/相位约束——的数学结构、在地月空间任务中的典型形式（日食规避、多圈 Lambert 边界、Howell-Kakoi 系统间转移相位约束），以及约束松弛、平滑化等数值处理技术。状态约束在间接法中触发协态跳跃；直接法中通过缺陷约束与活动集处理。
+description: 航天器轨道优化问题中约束的统一框架：终端/边界约束、路径约束、状态约束、事件/相位约束：的数学结构、在地月空间任务中的典型形式（日食规避、多圈 Lambert 边界、Howell-Kakoi 系统间转移相位约束），以及约束松弛、平滑化等数值处理技术。状态约束在间接法中触发协态跳跃；直接法中通过缺陷约束与活动集处理。
 keywords: 轨道优化约束, trajectory constraints, 终端约束, 边界约束, 路径约束, 状态约束, 事件约束, 日食规避, 约束松弛, 多圈Lambert, 最优控制, 地月转移
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 轨道优化中的约束详解 | 转移轨道设计
-  description: 航天器轨道优化问题中约束的统一框架——终端/边界约束、路径约束、状态约束、事件/相位约束——的数学结构、在地月空间任务中的典型形式（日食规避、多圈 Lambert 边界、Howell-Kakoi 系统间转移相位约束），以及约束松弛、平滑化等数值处理技术。
+  description: 航天器轨道优化问题中约束的统一框架：终端/边界约束、路径约束、状态约束、事件/相位约束：的数学结构、在地月空间任务中的典型形式（日食规避、多圈 Lambert 边界、Howell-Kakoi 系统间转移相位约束），以及约束松弛、平滑化等数值处理技术。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 轨道优化中的约束详解 | 转移轨道设计
-  description: 航天器轨道优化问题中约束的统一框架——终端/边界、路径、状态、事件四类约束的数学结构与地月空间典型实例。
+  description: 航天器轨道优化问题中约束的统一框架：终端/边界、路径、状态、事件四类约束的数学结构与地月空间典型实例。
   image: /logo.png
 permalink: /glossary/dynamics/trajectory-constraints/
 ---

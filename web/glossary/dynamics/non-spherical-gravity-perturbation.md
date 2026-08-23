@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 非球形引力摄动（Non-Spherical Gravity Perturbation）
-  desc: 球谐函数展开、J2 主导项、地球与月球引力场——非球形引力摄动完整解析。
+  desc: 球谐函数展开、J2 主导项、地球与月球引力场：非球形引力摄动完整解析。
   image: /logo.png
 og:
   title: 非球形引力摄动（Non-Spherical Gravity Perturbation）详解 | 术语定义

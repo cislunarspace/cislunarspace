@@ -1,6 +1,6 @@
 ---
 title: Hill 区域与 Hill 问题（Hill's Region & Hill Problem）
-description: 限制性三体问题中由雅可比常数（零速度曲面）界定的允许运动区域及其拓扑构型，以及质量参数趋于零的极限模型 Hill 问题——覆盖五种区域构型、Hill 稳定性判据、周期轨道族与 Hill 模型的 Lambert 求解。
+description: 限制性三体问题中由雅可比常数（零速度曲面）界定的允许运动区域及其拓扑构型，以及质量参数趋于零的极限模型 Hill 问题：覆盖五种区域构型、Hill 稳定性判据、周期轨道族与 Hill 模型的 Lambert 求解。
 keywords: Hill region, Hill's region, Hill stability, Hill problem, Hill model, 零速度曲面, 雅可比常数, 禁区, 允许区域, 周期轨道族
 author: 天疆说
 date: 2026-07-31
@@ -37,7 +37,7 @@ Hill 区域（Hill's region）是圆型限制性三体问题中第三体质点�
 雅可比常数 $C$ 在五个平动点处的取值 $C(L_1), C(L_2), C(L_3), C(L_4)=C(L_5)$ 把问题分成五种几何形态（Sousa-Silva 等 2018；Szebehely 1967）：
 
 1. $C > C(L_1)$：区域由两个互不连通的天体邻域组成，质点在主天体间不能穿越；
-2. $C(L_2) < C < C(L_1)$：两区域在地球与 L1 之间的「颈」处连通，质点可在两主天体间通行；
+2. $C(L_2) < C < C(L_1)$：两区域在地球与 L1 之间的颈处连通，质点可在两主天体间通行；
 3. $C(L_3) < C < C(L_2)$：L1、L2 两通道均开启，允许区域环绕内区并向外伸展；
 4. $C(L_4) < C < C(L_3)$：L3 通道开启，从内区可达更远的外部；
 5. $C < C(L_4)$：除两主天体邻域（奇异）外全空间允许，等边三角形平动点邻域成为可通行区域。
@@ -58,7 +58,7 @@ $\ddot{x} - 2\dot{y} = 3x - \frac{x}{r^3}$，$\ddot{y} + 2\dot{x} = -\frac{y}{r^
 
 ## Hill 模型与三体 Lambert 求解
 
-「Hill 模型」在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解；Sukhanov 和 Prado 基于此提出了收敛性较好的 Lambert 求解算法（Sukhanov 和 Prado 2004）。该用法与「Hill 区域」「Hill 问题」指代不同对象，注意区分。
+Hill 模型在工程文献中有另一种用法：把限制性三体问题在航天器运动范围远小于两主天体间距的条件下近似为 Hill 方程形式，使三体 Lambert 问题可用修正初末位置矢量的两层迭代方法求解；Sukhanov 和 Prado 基于此提出了收敛性较好的 Lambert 求解算法（Sukhanov 和 Prado 2004）。该用法与Hill 区域Hill 问题指代不同对象，注意区分。
 
 ## 相关概念
 

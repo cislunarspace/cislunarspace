@@ -1,45 +1,33 @@
 ---
-title: 自适应轨迹设计目录（Adaptive Trajectory Design Catalog）
-description: 普渡大学与 NASA 戈达德航天飞行中心合作开发的地月系统轨迹设计参考目录。目录收录了地月系统中各类周期轨道和拟周期轨道的数据，包括平动点轨道和共振轨道等，供轨迹设计者快速查询和组合使用。论文从该目录中提取 3:4 和 4:3 共振轨道用于转移设计。
-keywords: 自适应轨迹设计目录, Adaptive Trajectory Design Catalog, ATD, dynamics
+title: 自适应轨迹设计目录（Adaptive Trajectory Design Catalog, ATD）
+description: 收录地月三体系统周期与拟周期轨道族及其流形特征的标准化参数数据库。
+keywords: 自适应轨迹设计目录, ATD, 轨道库, 周期轨道族, 轨迹设计
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-07-31
 wechatShare:
-  title: 自适应轨迹设计目录（Adaptive Trajectory Design Catalog）
-  desc: 地月空间研究前沿、术语定义与工具资源一站式学习。
-  image: /logo.png
-og:
-  title: 自适应轨迹设计目录详解 | 术语定义
-  description: 普渡大学与 NASA 戈达德航天飞行中心合作开发的地月系统轨迹设计参考目录。目录收录了地月系统中各类周期轨道和拟周期轨道的数据，包括平动点轨道和共振轨道等，供轨迹设计者快速查询和组合使用。论文从该目录中提取 3:4 和 4:3 共振轨道用于转移设计。
-  image: /logo.png
-  type: article
-twitter:
-  card: summary_large_image
-  title: 自适应轨迹设计目录详解 | 术语定义
-  description: 普渡大学与 NASA 戈达德航天飞行中心合作开发的地月系统轨迹设计参考目录。目录收录了地月系统中各类周期轨道和拟周期轨道的数据，包括平动点轨道和共振轨道等，供轨迹设计者快速查询和组合使用。论文从该目录中提取 3:4 和 4:3 共振轨道用于转移设计。
+  title: 自适应轨迹设计目录
+  desc: 地月空间标准化轨道族与流形参数检索库。
   image: /logo.png
 permalink: /glossary/dynamics/atd/
 ---
 
-# 自适应轨迹设计目录（Adaptive Trajectory Design Catalog）
-
-> 本文作者：[天疆说](https://blog.csdn.net/qq_33254264)
->
->本站地址：[https://cislunarspace.cn](https://cislunarspace.cn)
+# 自适应轨迹设计目录（Adaptive Trajectory Design Catalog, ATD）
 
 ## 定义
 
-普渡大学与 NASA 戈达德航天飞行中心合作开发的地月系统轨迹设计参考目录。目录收录了地月系统中各类周期轨道和拟周期轨道的数据，包括平动点轨道和共振轨道等，供轨迹设计者快速查询和组合使用。论文从该目录中提取 3:4 和 4:3 共振轨道用于转移设计。
+由学术界与工程机构联合建立的标准化数值数据库，分类收录了圆型限制性三体问题与真实星历模型下的周期轨道、拟周期环面、共振轨道及其稳定与不稳定流形分支数据。
 
-## 应用价值
+## 物理机制与工程价值
 
-自适应轨迹设计目录在地月空间研究中具有应用价值，为月球探测任务提供了技术支撑或理论分析方法。
+地月空间复杂多体动力学是非线性的，难以通过初等解析公式直接获得全局轨道解。自适应轨迹设计目录通过离线精密计算，存储各轨道族的初始状态矢量、雅可比常数、周期及单值矩阵特征值。在实际任务设计中，工程师无需从零遍历相空间，可直接从目录中调取种子轨道与流形节点作为初值，大幅提高多段打靶算法的收敛速度与轨迹搜索效率。
 
 ## 相关概念
 
-- （暂无相关概念）
+- [打靶法](/glossary/dynamics/shooting-method/)
+- [轨道延续法](/glossary/dynamics/continuation-method/)
+- [共振轨道](/glossary/orbits/resonant-orbit/)
 
 ## 参考文献
 
-- Zimovan-Spreen et al. 2022。
+- Zimovan-Spreen et al., 2022, Adaptive Trajectory Design Catalog for Cislunar Space Missions.

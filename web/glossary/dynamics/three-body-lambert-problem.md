@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 三体 Lambert 问题（Three-Body Lambert Problem）
-  desc: CR3BP 框架下的两点边值问题——无解析解、初值难求、多解并存。
+  desc: CR3BP 框架下的两点边值问题：无解析解、初值难求、多解并存。
   image: /logo.png
 og:
   title: 三体 Lambert 问题（Three-Body Lambert Problem）详解 | 术语定义

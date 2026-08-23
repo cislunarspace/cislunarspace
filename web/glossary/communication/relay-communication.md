@@ -42,4 +42,4 @@ permalink: /glossary/communication/relay-communication/
 
 ## 参考文献
 
-- 吴伟仁 等 - 2017 - 「嫦娥4号」月球背面软着陆任务设计
+- 吴伟仁 等 - 2017 - 嫦娥4号月球背面软着陆任务设计

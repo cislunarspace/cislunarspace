@@ -1,6 +1,6 @@
 ---
 title: 单值矩阵与Floquet稳定性分析（Monodromy Matrix and Floquet Stability Theory）
-description: 周期轨道稳定性分析的核心数学工具：单值矩阵是状态转移矩阵沿完整周期的取值，其Floquet乘子（特征值）直接决定轨道线性稳定/不稳定/中性——实数乘子 $\lambda_1\lambda_2=1$ 产生鞍点结构、单元模复共轭乘子指示振荡模态。覆盖Floquet定理、CR3BP共线平动点周期轨道的特征模态分解、Lyapunov指数与轨道预报误差的指数发散率、以及分岔判别（m-分岔、稳定性因子 $\nu$）。
+description: 周期轨道稳定性分析的核心数学工具：单值矩阵是状态转移矩阵沿完整周期的取值，其Floquet乘子（特征值）直接决定轨道线性稳定/不稳定/中性：实数乘子 $\lambda_1\lambda_2=1$ 产生鞍点结构、单元模复共轭乘子指示振荡模态。覆盖Floquet定理、CR3BP共线平动点周期轨道的特征模态分解、Lyapunov指数与轨道预报误差的指数发散率、以及分岔判别（m-分岔、稳定性因子 $\nu$）。
 keywords: 单值矩阵, Monodromy Matrix, Floquet乘子, Floquet理论, Floquet multiplier, 周期轨道稳定性, 鞍点结构, Lyapunov指数, 状态转移矩阵, 特征值分解, 平动点, CR3BP, center-saddle
 author: 天疆说
 date: 2026-07-31

@@ -1,6 +1,6 @@
 ---
 title: 相对运动（Relative Motion）
-description: 一颗航天器（副星/deputy）相对于另一颗参考航天器（主星/chief）的位置和速度随时间演化。编队飞行、交会对接、近程操作的动力学基础——覆盖两体HCW方程、CR3BP相对运动方程（CLERM/ELERM/CNERM）及三角平动点解析解。
+description: 一颗航天器（副星/deputy）相对于另一颗参考航天器（主星/chief）的位置和速度随时间演化。编队飞行、交会对接、近程操作的动力学基础：覆盖两体HCW方程、CR3BP相对运动方程（CLERM/ELERM/CNERM）及三角平动点解析解。
 keywords: 相对运动, relative motion, Hill方程, Clohessy-Wiltshire方程, HCW, Hill坐标系, CR3BP相对动力学, CLERM, ELERM, CNERM, 相对定轨, 交会制导
 sharingurl: 
 author: 天疆说
@@ -8,11 +8,11 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 相对运动（Relative Motion）
-  desc: 一颗航天器相对于另一颗的位置速度演化——HCW、CR3BP及地月动力学。
+  desc: 一颗航天器相对于另一颗的位置速度演化：HCW、CR3BP及地月动力学。
   image: /logo.png
 og:
   title: 相对运动（Relative Motion）详解 | 术语定义
-  description: 一颗航天器相对于另一颗参考航天器的位置速度随时间的演化——覆盖 Hill-Clohessy-Wiltshire 方程、CR3BP 相对运动方程（CLERM/ELERM/CNERM）及三角平动点解析解。编队飞行与交会对接的动力学基础。
+  description: 一颗航天器相对于另一颗参考航天器的位置速度随时间的演化：覆盖 Hill-Clohessy-Wiltshire 方程、CR3BP 相对运动方程（CLERM/ELERM/CNERM）及三角平动点解析解。编队飞行与交会对接的动力学基础。
   image: /logo.png
   type: article
 twitter:

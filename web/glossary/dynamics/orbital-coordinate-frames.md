@@ -1,6 +1,6 @@
 ---
 title: 航天器局部轨道坐标系（RSW / LVLH / Hill / Euler-Hill Frame）
-description: 以航天器为原点、随其轨道运动而运动的局部直角坐标系——RSW（径向-横向-法向，又称 RTN/LVLH）、NTW、Hill/Euler-Hill 系及其与 Clohessy-Wiltshire 方程的关系，覆盖退化情形、编队相对运动与平动点邻域坐标系的辨析。
+description: 以航天器为原点、随其轨道运动而运动的局部直角坐标系：RSW（径向-横向-法向，又称 RTN/LVLH）、NTW、Hill/Euler-Hill 系及其与 Clohessy-Wiltshire 方程的关系，覆盖退化情形、编队相对运动与平动点邻域坐标系的辨析。
 keywords: RSW, RTN, LVLH, NTW, Hill frame, Euler-Hill frame, 局部轨道坐标系, 相对运动, Clohessy-Wiltshire, 编队飞行, radial-transverse-normal
 author: 天疆说
 date: 2026-07-31
@@ -11,7 +11,7 @@ wechatShare:
   image: /logo.png
 og:
   title: 航天器局部轨道坐标系详解 | 术语定义
-  description: 以航天器为原点的局部直角坐标系——RSW（RTN/LVLH）、NTW、Hill/Euler-Hill 系及其与 Clohessy-Wiltshire 方程的关系。
+  description: 以航天器为原点的局部直角坐标系：RSW（RTN/LVLH）、NTW、Hill/Euler-Hill 系及其与 Clohessy-Wiltshire 方程的关系。
   image: /logo.png
   type: article
 twitter:

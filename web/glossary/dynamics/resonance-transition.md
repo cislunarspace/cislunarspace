@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 共振跃迁（Resonance Transition / Resonance Hopping）
-  desc: 从 Oterma 彗星到 SMART-1 转移——流形管驱动下的共振比跃迁与低能捕获。
+  desc: 从 Oterma 彗星到 SMART-1 转移：流形管驱动下的共振比跃迁与低能捕获。
   image: /logo.png
 og:
   title: 共振跃迁（Resonance Transition）详解 | 术语定义

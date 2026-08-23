@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 吻切轨道根数（Osculating Orbital Elements）
-  desc: 瞬时冻结摄动的开普勒根数——包含全部短/长周期变化，代表高精度实时轨迹。
+  desc: 瞬时冻结摄动的开普勒根数：包含全部短/长周期变化，代表高精度实时轨迹。
   image: /logo.png
 og:
   title: 吻切轨道根数（Osculating Orbital Elements）详解 | 术语定义

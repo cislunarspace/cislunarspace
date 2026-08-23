@@ -1,6 +1,6 @@
 ---
 title: 航天器编队飞行（Spacecraft Formation Flying）
-description: 多颗航天器以预设的相对几何构型协同飞行的任务模式——固定或时变的距离与方位，为干涉测量、深空成像、通信中继等统一目标服务。区别于星座（覆盖驱动）和集群（无精确相对构型约束）。
+description: 多颗航天器以预设的相对几何构型协同飞行的任务模式：固定或时变的距离与方位，为干涉测量、深空成像、通信中继等统一目标服务。区别于星座（覆盖驱动）和集群（无精确相对构型约束）。
 keywords: 航天器编队飞行, spacecraft formation flying, 编队保持, 编队重构, 相对运动, 平动点编队, DRO编队, 惯性系固定编队, 自然编队, 极近距离编队, LQR编队控制
 sharingurl: 
 author: 天疆说
@@ -8,17 +8,17 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 航天器编队飞行（Spacecraft Formation Flying）
-  desc: 多颗航天器以预设相对几何构型协同飞行——平动点编队、DRO编队、地月动力学。
+  desc: 多颗航天器以预设相对几何构型协同飞行：平动点编队、DRO编队、地月动力学。
   image: /logo.png
 og:
   title: 航天器编队飞行（Spacecraft Formation Flying）详解 | 术语定义
-  description: 多颗航天器以预设的相对几何构型协同飞行的任务模式——按参考系构型分类（惯性系固定/旋转系固定/距离跟踪）、按尺度分类、自然编队与控制编队、平动点特殊性、地月空间应用。
+  description: 多颗航天器以预设的相对几何构型协同飞行的任务模式：按参考系构型分类（惯性系固定/旋转系固定/距离跟踪）、按尺度分类、自然编队与控制编队、平动点特殊性、地月空间应用。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 航天器编队飞行（Spacecraft Formation Flying）详解 | 术语定义
-  description: 多颗航天器以预设的相对几何构型协同飞行的任务模式——按参考系构型分类、按尺度分类、自然编队与控制编队、平动点特殊性、地月空间应用。
+  description: 多颗航天器以预设的相对几何构型协同飞行的任务模式：按参考系构型分类、按尺度分类、自然编队与控制编队、平动点特殊性、地月空间应用。
   image: /logo.png
 permalink: /glossary/dynamics/spacecraft-formation-flying/
 ---

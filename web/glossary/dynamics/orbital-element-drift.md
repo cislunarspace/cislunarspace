@@ -1,13 +1,13 @@
 ---
 title: 轨道根数漂移（Orbital Element Drift）
-description: 在非球形引力场、第三体引力等摄动力作用下，航天器轨道根数随时间的缓慢持续变化。环月轨道的升交点赤经漂移由月球高阶引力场（$J_2, J_3, \dots$）主导，近地点漂移受地球第三体摄动控制——二者共同决定停泊轨道的长期可用性和交会窗口。
+description: 在非球形引力场、第三体引力等摄动力作用下，航天器轨道根数随时间的缓慢持续变化。环月轨道的升交点赤经漂移由月球高阶引力场（$J_2, J_3, \dots$）主导，近地点漂移受地球第三体摄动控制：二者共同决定停泊轨道的长期可用性和交会窗口。
 keywords: 轨道根数漂移, Orbital Element Drift, 环月轨道, 升交点赤经漂移, 近地点旋转, 月球非球形引力, 第三体摄动, 停泊轨道设计
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 轨道根数漂移（Orbital Element Drift）
-  desc: 摄动力作用下轨道根数的长期变化——环月轨道设计的关键约束。
+  desc: 摄动力作用下轨道根数的长期变化：环月轨道设计的关键约束。
   image: /logo.png
 og:
   title: 轨道根数漂移（Orbital Element Drift）详解 | 术语定义
@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: 轨道根数漂移（Orbital Element Drift）详解 | 术语定义
-  description: 摄动力作用下轨道根数的长期变化——环月轨道设计的核心约束。
+  description: 摄动力作用下轨道根数的长期变化：环月轨道设计的核心约束。
   image: /logo.png
 permalink: /glossary/dynamics/orbital-element-drift/
 ---

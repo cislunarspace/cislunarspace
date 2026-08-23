@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 振幅参数与相位参数（Amplitude & Phase Parameter）详解 | 术语定义
-  description: DRO 在会合坐标系中的两个基本描述参数——振幅参数刻画轨道大小，相位参数标定周期位置，二者配合确定 DRO 上任一点状态，是 DRO 数值求解与转移设计的核心变量。
+  description: DRO 在会合坐标系中的两个基本描述参数：振幅参数刻画轨道大小，相位参数标定周期位置，二者配合确定 DRO 上任一点状态，是 DRO 数值求解与转移设计的核心变量。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 振幅参数与相位参数详解 | 术语定义
-  description: DRO 在会合坐标系中的两个基本描述参数——振幅参数刻画轨道大小，相位参数标定周期位置。
+  description: DRO 在会合坐标系中的两个基本描述参数：振幅参数刻画轨道大小，相位参数标定周期位置。
   image: /logo.png
 permalink: /glossary/fundamentals/amplitude-parameter/
 ---

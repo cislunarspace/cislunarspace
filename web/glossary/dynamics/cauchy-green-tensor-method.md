@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 柯西-格林张量方法（Cauchy-Green Tensor Method）
-  desc: 用 STM 构造柯西-格林张量并取 FTLE，脊线即拉格朗日相干结构——揭示有限时间尺度上的输运屏障。
+  desc: 用 STM 构造柯西-格林张量并取 FTLE，脊线即拉格朗日相干结构：揭示有限时间尺度上的输运屏障。
   image: /logo.png
 og:
   title: 柯西-格林张量方法详解 | FTLE 与拉格朗日相干结构

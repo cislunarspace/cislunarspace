@@ -1,6 +1,6 @@
 ---
 title: 会合坐标系（Synodic Frame / Rotating Frame）
-description: 圆型限制性三体问题的标准参考系——原点在两主天体质心，随主天体连线同步旋转，主天体在此系中固定、运动方程自治。覆盖地月/日地/日地+月等系统实例、质心-地心-月心原点变体、以及 x 轴方向两种约定的辨析。
+description: 圆型限制性三体问题的标准参考系：原点在两主天体质心，随主天体连线同步旋转，主天体在此系中固定、运动方程自治。覆盖地月/日地/日地+月等系统实例、质心-地心-月心原点变体、以及 x 轴方向两种约定的辨析。
 keywords: 会合坐标系, 旋转坐标系, synodic frame, rotating frame, 会合参考系, CR3BP, 地月旋转系, 日地旋转系, 平动点, 质心旋转坐标系
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 会合坐标系（Synodic/Rotating Frame）详解 | 术语定义
-  description: 圆型限制性三体问题的标准参考系——原点在两主天体质心，随主天体连线同步旋转，主天体在此系中固定、运动方程自治。覆盖地月/日地/日地+月等系统实例、质心-地心-月心原点变体、以及 x 轴方向两种约定的辨析。
+  description: 圆型限制性三体问题的标准参考系：原点在两主天体质心，随主天体连线同步旋转，主天体在此系中固定、运动方程自治。覆盖地月/日地/日地+月等系统实例、质心-地心-月心原点变体、以及 x 轴方向两种约定的辨析。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 会合坐标系（Synodic/Rotating Frame）详解 | 术语定义
-  description: 圆型限制性三体问题的标准参考系——原点在两主天体质心，随主天体连线同步旋转，主天体在此系中固定、运动方程自治。覆盖地月/日地/日地+月等系统实例、质心-地心-月心原点变体、以及 x 轴方向两种约定的辨析。
+  description: 圆型限制性三体问题的标准参考系：原点在两主天体质心，随主天体连线同步旋转，主天体在此系中固定、运动方程自治。覆盖地月/日地/日地+月等系统实例、质心-地心-月心原点变体、以及 x 轴方向两种约定的辨析。
   image: /logo.png
 permalink: /glossary/fundamentals/synodic-frame/
 ---

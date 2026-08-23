@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 伪谱法（Pseudospectral Method）
-  desc: 全局 Lagrange 多项式 + Legendre 正交节点——谱收敛与协态映射定理。
+  desc: 全局 Lagrange 多项式 + Legendre 正交节点：谱收敛与协态映射定理。
   image: /logo.png
 og:
   title: 伪谱法详解 | 最优控制
@@ -50,7 +50,7 @@ $$\dot{\mathbf{x}}(\tau_i)\approx\sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k,\quad D_{ik
 
 $$\boldsymbol{\zeta}_i = \sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k - \frac{t_f-t_0}{2}\,\mathbf{f}(\mathbf{x}_i,\mathbf{u}_i,\tau_i) = \mathbf{0},\quad i=0,\dots,N.$$
 
-注意：与 [直接配点法](/glossary/dynamics/direct-collocation/) 不同，伪谱法的雅可比是稠密的：每个节点上的缺陷约束依赖于全部 $N+1$ 个状态变量。这是它「全局多项式」特性的代价。
+注意：与 [直接配点法](/glossary/dynamics/direct-collocation/) 不同，伪谱法的雅可比是稠密的：每个节点上的缺陷约束依赖于全部 $N+1$ 个状态变量。这是它全局多项式特性的代价。
 
 ## 节点选择与变体
 
@@ -85,7 +85,7 @@ GPOPS-II、SPARTAN 等工具内置 hp 自适应。对强 bang-bang 问题，近�
 
 - 用伪谱法可直接得到协态时间历程，无需解析推导庞特里亚金极大值原理；
 - 计算 Hamiltonian $H(\mathbf{x},\mathbf{u},\boldsymbol{\lambda},t)$ 是否沿轨迹恒定，作为解的精度校核；
-- 把伪谱协态作为 [间接法](/glossary/dynamics/indirect-methods/) 或 [同伦法](/glossary/dynamics/homotopy-method/) 的初值，实现「伪谱-间接混合」求解（Cai 等 2016）。
+- 把伪谱协态作为 [间接法](/glossary/dynamics/indirect-methods/) 或 [同伦法](/glossary/dynamics/homotopy-method/) 的初值，实现伪谱-间接混合求解（Cai 等 2016）。
 
 ## 工具与软件
 

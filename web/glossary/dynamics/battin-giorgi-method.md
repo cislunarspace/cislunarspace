@@ -1,6 +1,6 @@
 ---
 title: Battin-Giorgi 方法（Battin-Giorgi Method）
-description: 第三体引力摄动加速度的数值稳定算法——引入辅助变量 q 把"近大数相减"的灾难性相消替换为良态的多项式求值。源自 Giorgi 1964，Battin 1999 在《航天动力学的数学方法》§8.4.1 给出标准现代形式，是 Cowell、Encke 等摄动数值积分与高精度星历计算的基本构件。
+description: 第三体引力摄动加速度的数值稳定算法：引入辅助变量 q 把"近大数相减"的灾难性相消替换为良态的多项式求值。源自 Giorgi 1964，Battin 1999 在《航天动力学的数学方法》§8.4.1 给出标准现代形式，是 Cowell、Encke 等摄动数值积分与高精度星历计算的基本构件。
 keywords: Battin-Giorgi 方法, Battin-Giorgi Method, Giorgi 1964, 第三体摄动, 摄动加速度, 相消误差, q 变量, Cowell 方法, Encke 方法
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: Battin-Giorgi 方法详解 | 第三体摄动加速度的数值稳定算法
-  description: 第三体引力摄动加速度的数值稳定算法——引入辅助变量 q 替换"近大数相减"。源自 Giorgi 1964，Battin 1999 §8.4.1 给出现代标准形式，是 Cowell、Encke 等摄动数值积分的基本构件。
+  description: 第三体引力摄动加速度的数值稳定算法：引入辅助变量 q 替换"近大数相减"。源自 Giorgi 1964，Battin 1999 §8.4.1 给出现代标准形式，是 Cowell、Encke 等摄动数值积分的基本构件。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: Battin-Giorgi 方法详解 | 第三体摄动加速度的数值稳定算法
-  description: 第三体引力摄动加速度的数值稳定算法——引入辅助变量 q 替换"近大数相减"。源自 Giorgi 1964，Battin 1999 §8.4.1 给出现代标准形式，是 Cowell、Encke 等摄动数值积分的基本构件。
+  description: 第三体引力摄动加速度的数值稳定算法：引入辅助变量 q 替换"近大数相减"。源自 Giorgi 1964，Battin 1999 §8.4.1 给出现代标准形式，是 Cowell、Encke 等摄动数值积分的基本构件。
   image: /logo.png
 permalink: /glossary/dynamics/battin-giorgi-method/
 ---

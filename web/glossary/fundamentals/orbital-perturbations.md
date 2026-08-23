@@ -1,23 +1,23 @@
 ---
 title: 轨道摄动（Orbital Perturbations）
-description: 轨道摄动的完整框架——从 Cowell 公式 $\ddot{\mathbf{r}} = -\frac{\mu}{r^3}\mathbf{r} + \sum \mathbf{a}_{p_i}$ 出发，分类讨论保守摄动（非球形引力、第三体）与非保守摄动（大气阻力、太阳光压），覆盖特殊摄动法（Cowell/Encke）与一般摄动法（Gauss/Lagrange 变参数方程），按 LEO/MEO/GEO/地月空间给出摄动量级排序与选模依据。
+description: 轨道摄动的完整框架：从 Cowell 公式 $\ddot{\mathbf{r}} = -\frac{\mu}{r^3}\mathbf{r} + \sum \mathbf{a}_{p_i}$ 出发，分类讨论保守摄动（非球形引力、第三体）与非保守摄动（大气阻力、太阳光压），覆盖特殊摄动法（Cowell/Encke）与一般摄动法（Gauss/Lagrange 变参数方程），按 LEO/MEO/GEO/地月空间给出摄动量级排序与选模依据。
 keywords: 轨道摄动, orbital perturbations, Cowell 公式, 特殊摄动, 一般摄动, Encke 方法, Gauss 摄动方程, 变参数法, 第三体摄动, 月球偏心率摄动, 相对论修正, cislunar 摄动源, 摄动量级
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 轨道摄动（Orbital Perturbations）
-  desc: 从 Cowell 公式到摄动量级排序——轨道摄动的完整框架。
+  desc: 从 Cowell 公式到摄动量级排序：轨道摄动的完整框架。
   image: /logo.png
 og:
   title: 轨道摄动（Orbital Perturbations）详解 | 术语定义
-  description: 轨道摄动的完整框架——从 Cowell 公式出发，分类讨论保守/非保守摄动，覆盖特殊摄动法（Cowell/Encke）与一般摄动法（Gauss/Lagrange），按轨道区给出摄动量级排序与选模依据。
+  description: 轨道摄动的完整框架：从 Cowell 公式出发，分类讨论保守/非保守摄动，覆盖特殊摄动法（Cowell/Encke）与一般摄动法（Gauss/Lagrange），按轨道区给出摄动量级排序与选模依据。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 轨道摄动（Orbital Perturbations）详解 | 术语定义
-  description: 轨道摄动的完整框架——从 Cowell 公式出发，分类讨论保守/非保守摄动，覆盖特殊摄动法（Cowell/Encke）与一般摄动法（Gauss/Lagrange），按轨道区给出摄动量级排序与选模依据。
+  description: 轨道摄动的完整框架：从 Cowell 公式出发，分类讨论保守/非保守摄动，覆盖特殊摄动法（Cowell/Encke）与一般摄动法（Gauss/Lagrange），按轨道区给出摄动量级排序与选模依据。
   image: /logo.png
 permalink: /glossary/fundamentals/orbital-perturbations/
 ---

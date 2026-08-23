@@ -1,6 +1,6 @@
 ---
 title: 投影泛函（Projection Functional）
-description: 泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束「植入」函数表达式，确保在约束点处精确满足边界条件。
+description: 泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束植入函数表达式，确保在约束点处精确满足边界条件。
 keywords: 投影泛函, Projection Functional, 动力学, 轨道, 控制
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 投影泛函详解 | 术语定义
-  description: 泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束「植入」函数表达式，确保在约束点处精确满足边界条件。
+  description: 泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束植入函数表达式，确保在约束点处精确满足边界条件。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 投影泛函详解 | 术语定义
-  description: 泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束「植入」函数表达式，确保在约束点处精确满足边界条件。
+  description: 泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束植入函数表达式，确保在约束点处精确满足边界条件。
   image: /logo.png
 permalink: /glossary/dynamics/projection-functional/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/projection-functional/
 
 ## 定义
 
-泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束「植入」函数表达式，确保在约束点处精确满足边界条件。
+泛函连接理论中将约束条件投影到解空间的分量。通过它与切换函数的配合，在解析意义上将边界约束植入函数表达式，确保在约束点处精确满足边界条件。
 
 ## 应用价值
 

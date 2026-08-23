@@ -40,8 +40,8 @@ export const sidebarSections: SidebarSection[] = [
   {
     slug: 'what-is-cislunarspace',
     label: {
-      zh: '地月空间是什么（环境与概念入门）',
-      en: 'What is cislunar space (environment & concepts)',
+      zh: '什么是地月空间',
+      en: 'What is Cislunar Space',
     },
     children: [],
   },
@@ -50,40 +50,40 @@ export const sidebarSections: SidebarSection[] = [
   {
     slug: 'cislunar-orbits',
     label: {
-      zh: '地月空间飞行器运行轨道（任务轨道基础）',
-      en: 'Cislunar spacecraft orbits (mission trajectories)',
+      zh: '地月空间轨道',
+      en: 'Cislunar Orbits',
     },
     children: [
       {
         slug: 'nrho',
-        label: { zh: 'NRHO（近直线晕轨道）', en: 'NRHO (Near-Rectilinear Halo Orbit)' },
+        label: { zh: 'NRHO 近直线晕轨道', en: 'NRHO (Near-Rectilinear Halo Orbit)' },
         collapsible: true,
         children: [
-          { slug: '', label: { zh: '', en: '' } },
-          { slug: 'l1-nrho', label: { zh: 'L1-NRHO', en: 'L1-NRHO' } },
-          { slug: 'l2-nrho', label: { zh: 'L2-NRHO', en: 'L2-NRHO' } },
+          { slug: '', label: { zh: 'NRHO 概述', en: 'NRHO Overview' } },
+          { slug: 'l1-nrho', label: { zh: 'L1 点 NRHO', en: 'L1 NRHO' } },
+          { slug: 'l2-nrho', label: { zh: 'L2 点 NRHO', en: 'L2 NRHO' } },
           {
             slug: 'ephemeris-computation',
-            label: { zh: '多圈星历计算', en: 'Ephemeris multi-rev computation' },
+            label: { zh: '多圈星历计算', en: 'Ephemeris Multi-rev Computation' },
           },
           {
             slug: 'stability-maintenance',
-            label: { zh: '稳定性保持', en: 'Stability maintenance' },
+            label: { zh: '轨道稳定性与保持', en: 'Stability & Station Keeping' },
           },
-          { slug: 'gateway-cases', label: { zh: 'Gateway 案例', en: 'Gateway cases' } },
-          { slug: 'design-parameters', label: { zh: '设计参数', en: 'Design parameters' } },
+          { slug: 'gateway-cases', label: { zh: 'Gateway 空间站案例', en: 'Gateway Mission Cases' } },
+          { slug: 'design-parameters', label: { zh: '轨道设计参数', en: 'Design Parameters' } },
         ],
       },
       {
         slug: 'dro',
-        label: { zh: 'DRO（远距离逆行轨道）', en: 'DRO (Distant Retrograde Orbit)' },
+        label: { zh: 'DRO 远距离逆行轨道', en: 'DRO (Distant Retrograde Orbit)' },
         collapsible: true,
         children: [
-          { slug: '', label: { zh: '', en: '' } },
-          { slug: 'mechanics', label: { zh: '力学机理', en: 'Mechanics' } },
-          { slug: 'family-classification', label: { zh: '族系分类', en: 'Family classification' } },
-          { slug: 'applications', label: { zh: '应用场景', en: 'Applications' } },
-          { slug: 'design-method', label: { zh: '设计方法', en: 'Design method' } },
+          { slug: '', label: { zh: 'DRO 概述', en: 'DRO Overview' } },
+          { slug: 'mechanics', label: { zh: '动力学机理', en: 'Mechanics' } },
+          { slug: 'family-classification', label: { zh: '轨道族分类', en: 'Family Classification' } },
+          { slug: 'applications', label: { zh: '工程应用场景', en: 'Applications' } },
+          { slug: 'design-method', label: { zh: '轨道设计方法', en: 'Design Methods' } },
         ],
       },
       {
@@ -91,11 +91,11 @@ export const sidebarSections: SidebarSection[] = [
         label: { zh: '地月转移轨道', en: 'Earth-Moon Transfer Orbits' },
         collapsible: true,
         children: [
-          { slug: '', label: { zh: '', en: '' } },
-          { slug: 'tli-overview', label: { zh: 'TLI 概述', en: 'TLI overview' } },
-          { slug: 'ballistic-capture', label: { zh: '弹道捕获', en: 'Ballistic capture' } },
-          { slug: 'corridor-design', label: { zh: '走廊设计', en: 'Corridor design' } },
-          { slug: 'launch-windows', label: { zh: '发射窗口', en: 'Launch windows' } },
+          { slug: '', label: { zh: '转移轨道概述', en: 'Transfer Overview' } },
+          { slug: 'tli-overview', label: { zh: '地月转移注入 TLI', en: 'TLI Overview' } },
+          { slug: 'ballistic-capture', label: { zh: '低能量弹道捕获', en: 'Ballistic Capture' } },
+          { slug: 'corridor-design', label: { zh: '转移走廊设计', en: 'Corridor Design' } },
+          { slug: 'launch-windows', label: { zh: '发射窗口计算', en: 'Launch Windows' } },
         ],
       },
     ],
@@ -105,13 +105,13 @@ export const sidebarSections: SidebarSection[] = [
   {
     slug: 'research-frontiers',
     label: {
-      zh: '地月空间科学研究前沿（方向 · 机构 · 项目）',
-      en: 'Research frontiers (directions · institutions · programs)',
+      zh: '研究前沿',
+      en: 'Research Frontiers',
     },
     children: [
       {
         slug: 'directions',
-        label: { zh: '研究方向', en: 'Research directions' },
+        label: { zh: '研究方向', en: 'Research Directions' },
         collapsible: true,
         children: [
           {
@@ -119,40 +119,40 @@ export const sidebarSections: SidebarSection[] = [
             label: { zh: '轨道设计与优化', en: 'Orbit Design & Optimization' },
             collapsible: true,
             children: [
-              { slug: 'low-energy-transfer', label: { zh: '低能转移', en: 'Low-energy transfer' } },
+              { slug: 'low-energy-transfer', label: { zh: '低能转移轨道设计', en: 'Low-Energy Transfer' } },
               {
                 slug: 'orbit-characterization',
-                label: { zh: '轨道特性分析', en: 'Orbit characterization' },
+                label: { zh: '轨道特性与动力学分析', en: 'Orbit Characterization' },
               },
             ],
           },
           {
             slug: 'ssa',
-            label: { zh: '空间态势感知', en: 'Space Situational Awareness' },
+            label: { zh: '空间态势感知 SSA', en: 'Space Situational Awareness' },
             collapsible: true,
             children: [],
           },
           {
             slug: 'formation-flying',
-            label: { zh: '编队飞行', en: 'Formation Flying' },
+            label: { zh: '编队飞行与分布式系统', en: 'Formation Flying' },
             collapsible: true,
             children: [],
           },
           {
             slug: 'security-governance',
-            label: { zh: '安全与治理', en: 'Security & Governance' },
+            label: { zh: '太空安全与空间治理', en: 'Security & Governance' },
             collapsible: true,
             children: [
-              { slug: 'strategy', label: { zh: '战略', en: 'Strategy' } },
+              { slug: 'strategy', label: { zh: '战略与前沿态势', en: 'Strategy' } },
               {
                 slug: 'orbital-game',
-                label: { zh: '地月空间轨道博弈', en: 'Orbital game' },
+                label: { zh: '地月空间轨道博弈', en: 'Orbital Game' },
                 collapsible: true,
                 locales: ['zh'],
                 children: [
                   {
                     slug: 'orbital-game-inspection',
-                    label: { zh: '轨道博弈审查', en: 'Orbital game inspection' },
+                    label: { zh: '非合作博弈与伴随检查', en: 'Orbital Game Inspection' },
                   },
                 ],
               },
@@ -160,7 +160,7 @@ export const sidebarSections: SidebarSection[] = [
           },
           {
             slug: 'radiation-environment',
-            label: { zh: '空间辐射环境', en: 'Space Radiation Environment' },
+            label: { zh: '地月空间辐射环境', en: 'Space Radiation Environment' },
             collapsible: true,
             children: [],
           },
@@ -168,19 +168,19 @@ export const sidebarSections: SidebarSection[] = [
       },
       {
         slug: 'institutions',
-        label: { zh: '研究机构和组织', en: 'Research institutions' },
+        label: { zh: '核心研究机构', en: 'Research Institutions' },
         collapsible: true,
         children: [
           { slug: 'nudt', label: { zh: '国防科技大学', en: 'NUDT' } },
           { slug: 'npu', label: { zh: '西北工业大学', en: 'NPU' } },
           { slug: 'hit', label: { zh: '哈尔滨工业大学', en: 'HIT' } },
           { slug: 'seu', label: { zh: '东南大学', en: 'SEU' } },
-          { slug: 'dfhscl', label: { zh: '东方航天港', en: 'DFHSCL' } },
+          { slug: 'dfhscl', label: { zh: '东方空间科学与技术实验室', en: 'DFHSCL' } },
           { slug: 'thu', label: { zh: '清华大学', en: 'THU' } },
         ],
       },
-      { slug: 'journals-conferences', label: { zh: '期刊与会议', en: 'Journals & Conferences' } },
-      { slug: 'major-projects', label: { zh: '重大项目', en: 'Major Projects' } },
+      { slug: 'journals-conferences', label: { zh: '主流学术期刊与会议', en: 'Journals & Conferences' } },
+      { slug: 'major-projects', label: { zh: '国内外重大工程项目', en: 'Major Projects' } },
     ],
   },
 
@@ -188,12 +188,12 @@ export const sidebarSections: SidebarSection[] = [
   {
     slug: 'resources-tools',
     label: {
-      zh: '资源与工具（数据、代码与数据集）',
-      en: 'Resources & Tools (Data, Code & Datasets)',
+      zh: '数据与工具',
+      en: 'Resources & Tools',
     },
     children: [
-      { slug: 'datasets', label: { zh: '数据集资源', en: 'Datasets' } },
-      { slug: 'e2m2e', label: { zh: 'E2M2E 转移轨道设计库', en: 'E2M2E' } },
+      { slug: 'datasets', label: { zh: '空间数据集', en: 'Datasets' } },
+      { slug: 'e2m2e', label: { zh: 'E2M2E 轨道设计库', en: 'E2M2E Library' } },
     ],
   },
 ];

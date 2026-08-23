@@ -1,6 +1,6 @@
 ---
 title: 月球轨道空间站（Lunar Orbital Space Station）
-description: 部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的「门户」计划是其典型代表。
+description: 部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的门户计划是其典型代表。
 keywords: 月球轨道空间站, Lunar Orbital Space Station, 任务, 航天器, 系统
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 月球轨道空间站详解 | 术语定义
-  description: 部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的「门户」计划是其典型代表。
+  description: 部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的门户计划是其典型代表。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 月球轨道空间站详解 | 术语定义
-  description: 部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的「门户」计划是其典型代表。
+  description: 部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的门户计划是其典型代表。
   image: /logo.png
 permalink: /glossary/programs/lunar-orbital-space-station/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/programs/lunar-orbital-space-station/
 
 ## 定义
 
-部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的「门户」计划是其典型代表。
+部署在近月空间周期轨道上的载人空间站，作为登月任务的中转枢纽。典型部署位置包括NRHO、L2点Halo和DRO轨道。其功能包括物资中转、航天员换乘、对月测控通信和深空任务拓展。NASA的门户计划是其典型代表。
 
 ## 应用价值
 

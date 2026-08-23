@@ -1,38 +1,54 @@
 ---
 permalink: /en/research-frontiers/
 title: Cislunar Space Research Frontiers
-description: Index of research directions, institutions, journals and conferences, and major programs—with reading guidance.
-keywords: cislunar space, research frontiers, low-energy transfer, libration points, institutions
-lastUpdated: 2026-04-22
+description: Global research directions, leading academic institutions, key journals and conferences, and strategic spaceflight programs in cislunar space.
+keywords: cislunar space, research frontiers, low-energy transfer, space domain awareness, formation flying, space governance, research institutions, flagship missions
+author: CislunarSpace
+date: 2026-04-22
+lastUpdated: 2026-08-20
 wechatShare:
-  title: Cislunar Space Research Frontiers
-  desc: Directions, institutions, venues, and programs in one place.
+  title: Cislunar Space Research Frontiers Overview
+  desc: Comprehensive guide to research directions, core institutions, academic venues, and flagship engineering programs.
   image: /logo.png
 ---
 
-# Cislunar space research frontiers
+# Cislunar Space Research Frontiers
 
-> Author: [CislunarSpace](https://gitee.com/cislunarspace)
->
-> Website: [https://cislunarspace.cn](https://cislunarspace.cn)
+As global lunar exploration transitions from isolated flybys and robotic sample returns to permanent sustained presence, cislunar infrastructure construction, and in-situ resource utilization (ISRU), cislunar space has emerged as the foremost frontier of international deep-space science, technological innovation, and strategic collaboration.
 
-This section indexes **research directions, institutions, publication venues, and major programs** related to cislunar space. It is meant for navigation and awareness building; it **does not replace** formal reviews or official program pages. Content tracks public sources and is updated over time.
+This section systematically reviews core academic frontiers, leading research institutions, academic exchange venues, and strategic spaceflight missions, offering a holistic landscape and navigation guide for researchers, aerospace engineers, and students.
 
-## Section map
+## Knowledge Architecture
 
-| Block | Focus |
-| ------- | -------- |
-| [Directions](/en/research-frontiers/directions/) | Topic hubs (transfers, characterization, simulation, etc.) |
-| [Institutions](/en/research-frontiers/institutions/) | Organization entries (growing) |
-| [Journals & conferences](/en/research-frontiers/journals-conferences) | Where work is published and presented |
-| [Major programs](/en/research-frontiers/major-projects) | Program-level pointers |
+```mermaid
+flowchart TD
+    RF[Cislunar Research Frontiers] --> DIR[Frontier Research Directions]
+    RF --> INST[Leading Research Institutions]
+    RF --> CONF[Journals & Conferences]
+    RF --> PROJ[Flagship Engineering Programs]
 
-For definitions and abbreviations, use the [glossary](/en/glossary/); for data and code entry points, see [resources & tools](/en/resources-tools/).
+    DIR --> D1[Multi-Body Astrodynamics & Low-Energy Transfers]
+    DIR --> D2[Wide-Area Space Domain Awareness & Formations]
+    DIR --> D3[Cislunar Space Safety & Policy Governance]
 
-## How to read
+    INST --> I1[Domestic Universities & Aerospace Institutes]
+    INST --> I2[International Aerospace Agencies & Laboratories]
 
-- **New to the field**: Skim [directions](/en/research-frontiers/directions/), pick one topic aligned with your interest (dynamics, missions, or tools).
-- **Comparing labs**: Open [institutions](/en/research-frontiers/institutions/), then cross-check papers and program sites for the latest results.
-- **Writing or proposals**: Align citations and wording with [journals & conferences](/en/research-frontiers/journals-conferences) and [major programs](/en/research-frontiers/major-projects).
+    PROJ --> P1[CLEP Phase 4 / International Lunar Research Station ILRS]
+    PROJ --> P2[NASA Artemis / Lunar Gateway Program]
+```
 
-*This hub will continue to expand with publicly reported advances in cislunar research.*
+## Section Guide
+
+| Topic Section | Core Scope | Deep-Dive Link |
+| :--- | :--- | :--- |
+| **Frontier Research Directions** | Encompasses modern multi-body orbital dynamics, wide-area space domain awareness (SDA), autonomous navigation, constellation/formation architectures, and space governance | [Explore Research Directions](/en/research-frontiers/directions/) |
+| **Leading Research Institutions** | Compiles key Chinese universities (Beihang, Tsinghua, HIT, NJU, etc.), CAST/CASIC research academies, NASA centers, ESA, and top international astrodynamics labs | [View Research Institutions](/en/research-frontiers/institutions/) |
+| **Journals & Conferences** | Curates top publication and presentation venues, including Acta Astronautica, AIAA/AAS conferences, Advances in Space Research, and Chinese Journal of Aeronautics | [Browse Journals & Conferences](/en/research-frontiers/journals-conferences) |
+| **Flagship Engineering Programs** | Tracks strategic exploration initiatives including Chang'e series, Queqiao relays, ILRS, and the Artemis architecture | [Track Flagship Programs](/en/research-frontiers/major-projects) |
+
+## Cross-Reference Recommendations
+
+- **Theoretical Rigor**: For underlying numerical algorithms and optimal control techniques powering frontier research, consult [Background Knowledge](/en/background/).
+- **Terminology & Definitions**: To clarify specialized acronyms and formal mathematical definitions found in recent literature, search the [Glossary](/en/glossary/).
+- **Algorithms & Code**: Access open-source astrodynamics toolkits, ephemeris datasets, and computational scripts under [Data & Code](/en/resources-tools/).

@@ -30,7 +30,7 @@ Open-source orbit design and celestial mechanics computing libraries.
 
 | Tool | Description |
 | ------ | ------------- |
-| [e2m2e](https://github.com/cislunarspace/e2m2e) | Earth-Moon transfer orbit design library (CR3BP) |
+| [e2m2e](/en/resources-tools/e2m2e/) ([GitHub](https://github.com/cislunarspace/e2m2e)) | Earth-Moon transfer orbit design library (CR3BP / Ephemeris / MBSE) |
 | [scipy](https://github.com/scipy/scipy) | Python scientific computing library |
 | [r2s2](https://github.com/r2s2-astro/r2s2) | Cislunar space-time coordinate transformation library |
 | [Orekit](https://github.com/CS-SI/Orekit) | ESA open-source flight dynamics library (Java) |
@@ -39,11 +39,7 @@ Open-source orbit design and celestial mechanics computing libraries.
 
 ## Data Resources
 
-| Resource | Description |
-|----------|-------------|
-| Datasets | JPL ephemerides, lunar gravity field models, space environment parameters, and more |
-
-> To be expanded...
+Download channels and usage guides for ephemerides, orbital data, environment parameters, and lunar gravity models are available in [Datasets](/en/resources-tools/datasets/).
 
 ## AI & Cloud Platforms
 

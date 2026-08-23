@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 离散力学与最优控制（DMOC）
-  desc: 离散变分原理而非 ODE——保辛、保动量的结构保持型直接法。
+  desc: 离散变分原理而非 ODE：保辛、保动量的结构保持型直接法。
   image: /logo.png
 og:
   title: 离散力学与最优控制详解 | DMOC
@@ -77,7 +77,7 @@ DMOC 解继承变分积分器的关键性质：
 
 ## 应用要点
 
-- **低能地月转移**：DMOC + 不变流形是经典组合，流形提供动力学的「骨架」作为初值，DMOC 在 4-body 模型中精修，把流形拼接所需的中间脉冲优化为零（Moore 2011, Ch.3；Moore et al. 2012）。
+- **低能地月转移**：DMOC + 不变流形是经典组合，流形提供动力学的骨架作为初值，DMOC 在 4-body 模型中精修，把流形拼接所需的中间脉冲优化为零（Moore 2011, Ch.3；Moore et al. 2012）。
 - **编队飞行**：CubeSat 编队的相对位置重置，DMOC 保动量特性使编队几何在长时间仿真中稳定。
 - **不适用场合**：含强耗散（如大气进入）、含非保守约束（如热流上限）、或 Lagrangian 难以写出的系统，DMOC 优势丧失，这些场合更适合 [直接配点法](/glossary/dynamics/direct-collocation/)。
 

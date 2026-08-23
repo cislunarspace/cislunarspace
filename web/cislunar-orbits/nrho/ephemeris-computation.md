@@ -22,7 +22,7 @@ permalink: /cislunar-orbits/nrho/ephemeris-computation/
 
 ## 问题背景
 
-在 CR3BP 模型中，单圈 NRHO 可通过延续法或微分修正直接计算（参见 [设计参数](./design-parameters/)）。但在真实星历模型（如 JPL DE430）下计算多圈 NRHO 时，直接对整条轨道进行微分修正往往会失败：线性化误差随飞行时间累积，尤其是低近月点半径的 NRHO 在近月点附近状态变化剧烈，导致修正过程发散。
+在 CR3BP 模型中，单圈 NRHO 可通过延续法或微分修正直接计算（参见 [设计参数](/cislunar-orbits/nrho/design-parameters/)）。但在真实星历模型（如 JPL DE430）下计算多圈 NRHO 时，直接对整条轨道进行微分修正往往会失败：线性化误差随飞行时间累积，尤其是低近月点半径的 NRHO 在近月点附近状态变化剧烈，导致修正过程发散。
 
 现有方法（如 Williams 等人的前向/后向打靶、Davis 等人的两级修正）虽能生成高保真多圈 NRHO，但依赖 SNOPT 或 NASA Copernicus 等专用优化软件，可复现性受限。
 

@@ -1,6 +1,6 @@
 ---
 title: 地月空间星座（Cislunar Space Constellation）
-description: 部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为「2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO」共22颗卫星，可实现全月面100%四重连续覆盖。
+description: 部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO共22颗卫星，可实现全月面100%四重连续覆盖。
 keywords: 地月空间星座, Cislunar Space Constellation, 应用, 技术, 系统
 author: 天疆说
 date: 2026-07-31
@@ -11,13 +11,13 @@ wechatShare:
   image: /logo.png
 og:
   title: 地月空间星座详解 | 术语定义
-  description: 部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为「2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO」共22颗卫星，可实现全月面100%四重连续覆盖。
+  description: 部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO共22颗卫星，可实现全月面100%四重连续覆盖。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 地月空间星座详解 | 术语定义
-  description: 部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为「2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO」共22颗卫星，可实现全月面100%四重连续覆盖。
+  description: 部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO共22颗卫星，可实现全月面100%四重连续覆盖。
   image: /logo.png
 permalink: /glossary/other/cislunar-space-constellation/
 ---
@@ -30,7 +30,7 @@ permalink: /glossary/other/cislunar-space-constellation/
 
 ## 定义
 
-部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为「2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO」共22颗卫星，可实现全月面100%四重连续覆盖。
+部署在地月空间多种轨道上的卫星组网系统，为月球探测活动提供通信和导航服务。论文设计的最终构型为2颗南半球NRHO+2颗北半球NRHO+8颗ELFO+10颗DRO共22颗卫星，可实现全月面100%四重连续覆盖。
 
 ## 应用价值
 

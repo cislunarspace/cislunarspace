@@ -1,23 +1,23 @@
 ---
 title: 两点边值问题（Two-Point Boundary Value Problem, TPBVP）
-description: 两端各自施加边界条件的常微分方程问题——轨道优化间接法的核心数学结构。覆盖 Hamilton 正则方程形式、协态初值猜测困难、协态归一化与同伦法、在地月空间低能转移与 NRHO 入轨中的应用。
+description: 两端各自施加边界条件的常微分方程问题：轨道优化间接法的核心数学结构。覆盖 Hamilton 正则方程形式、协态初值猜测困难、协态归一化与同伦法、在地月空间低能转移与 NRHO 入轨中的应用。
 keywords: 两点边值问题, TPBVP, 边值问题, 协态变量, 庞特里亚金极值原理, 打靶法, 协态归一化, 同伦法, 轨道优化
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 两点边值问题（TPBVP）详解
-  desc: 轨道优化间接法的核心数学结构——在地月转移、NRHO 入轨与交会中都归结为 TPBVP。
+  desc: 轨道优化间接法的核心数学结构：在地月转移、NRHO 入轨与交会中都归结为 TPBVP。
   image: /logo.png
 og:
   title: 两点边值问题（TPBVP）详解 | 轨道优化的核心数学问题
-  description: 两端各自施加边界条件的常微分方程问题——轨道优化间接法的核心数学结构。覆盖 Hamilton 正则方程形式、协态初值猜测困难、协态归一化与同伦法。
+  description: 两端各自施加边界条件的常微分方程问题：轨道优化间接法的核心数学结构。覆盖 Hamilton 正则方程形式、协态初值猜测困难、协态归一化与同伦法。
   image: /logo.png
   type: article
 twitter:
   card: summary_large_image
   title: 两点边值问题（TPBVP）详解 | 轨道优化的核心数学问题
-  description: 两端各自施加边界条件的常微分方程问题——轨道优化间接法的核心数学结构。
+  description: 两端各自施加边界条件的常微分方程问题：轨道优化间接法的核心数学结构。
   image: /logo.png
 permalink: /glossary/dynamics/tpbvp/
 ---

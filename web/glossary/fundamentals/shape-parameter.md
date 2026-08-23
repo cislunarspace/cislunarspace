@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 形状参数（Shape Parameter）
-  desc: 指数正弦曲线的形状参数——多圈小推力 Lambert 问题的核心决策变量。
+  desc: 指数正弦曲线的形状参数：多圈小推力 Lambert 问题的核心决策变量。
   image: /logo.png
 og:
   title: 形状参数（Shape Parameter）详解 | 术语定义
@@ -17,7 +17,7 @@ og:
 twitter:
   card: summary_large_image
   title: 形状参数详解 | 术语定义
-  description: 指数正弦曲线的形状参数——多圈小推力 Lambert 问题的核心决策变量。
+  description: 指数正弦曲线的形状参数：多圈小推力 Lambert 问题的核心决策变量。
   image: /logo.png
 permalink: /glossary/fundamentals/shape-parameter/
 ---

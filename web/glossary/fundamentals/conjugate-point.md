@@ -7,7 +7,7 @@ date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 共轭点、极值曲线与二阶最优性条件
-  desc: 验证最优轨迹局部最优性的二阶判据——Jacobi 场、共轭点、Legendre-Clebsch、几何最优控制。
+  desc: 验证最优轨迹局部最优性的二阶判据：Jacobi 场、共轭点、Legendre-Clebsch、几何最优控制。
   image: /logo.png
 og:
   title: 共轭点与二阶最优性条件详解 | 最优控制

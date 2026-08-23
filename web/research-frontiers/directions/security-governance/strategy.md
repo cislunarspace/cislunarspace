@@ -5,7 +5,7 @@ keywords: 地月空间战略, 太空安全, 地月空间开发, 研究方向, �
 author: 天疆说
 date: 2026-03-07
 lastUpdated: 2026-03-07
-permalink: /research-frontiers/directions/strategy/
+permalink: /research-frontiers/directions/security-governance/strategy/
 wechatShare:
   title: 地月空间战略研究
   desc: 快速了解地月空间战略方向的代表性文献与研究脉络。

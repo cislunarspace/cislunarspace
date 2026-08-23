@@ -1,13 +1,13 @@
 ---
 title: 兰伯特问题（Lambert's Problem）
-description: 轨道力学两大经典问题之一——给定中心引力场中两个位置矢量与飞行时间，求解连接两点的轨道及两端速度。本词条覆盖 Lambert 定理（飞行时间只依赖半长轴、两端距离之和、弦长）、二体算法族（Gauss、最小能量、Battin、Gooding、Thorne、通用变量）、多圈解（2N+1）、摄动版本、不确定与线性变分版本、鲁棒求解器，以及与两点边值问题、Lambert 制导的边界。
+description: 轨道力学两大经典问题之一：给定中心引力场中两个位置矢量与飞行时间，求解连接两点的轨道及两端速度。本词条覆盖 Lambert 定理（飞行时间只依赖半长轴、两端距离之和、弦长）、二体算法族（Gauss、最小能量、Battin、Gooding、Thorne、通用变量）、多圈解（2N+1）、摄动版本、不确定与线性变分版本、鲁棒求解器，以及与两点边值问题、Lambert 制导的边界。
 keywords: Lambert 问题, Lambert's Problem, 兰伯特定理, Lambert 定理, 飞行时间定理, Lambert 算法, 多圈 Lambert 问题, 摄动 Lambert 问题, 不确定 Lambert 问题, 通用变量, Battin 方法, Gooding 方法
 author: 天疆说
 date: 2026-07-31
 lastUpdated: 2026-08-09
 wechatShare:
   title: 兰伯特问题（Lambert's Problem）
-  desc: 给定两位置与飞行时间求轨道——经典二体边值问题及其多圈、摄动、不确定变体。
+  desc: 给定两位置与飞行时间求轨道：经典二体边值问题及其多圈、摄动、不确定变体。
   image: /logo.png
 og:
   title: 兰伯特问题（Lambert's Problem）详解 | 术语定义
