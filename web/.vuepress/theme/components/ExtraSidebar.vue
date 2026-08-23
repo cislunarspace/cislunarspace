@@ -56,6 +56,7 @@ function hideToc(event: MouseEvent) {
 .toc-container {
   display: none;
   position: absolute;
+  top: 0;
   color: var(--c-text);
   left: unset;
   right: 100%;
@@ -84,7 +85,7 @@ function hideToc(event: MouseEvent) {
 .page-side-toolbar {
   position: fixed;
   right: 10px;
-  top: 70px !important;
+  top: calc(var(--navbar-height, 3.6rem) + 2rem) !important;
   width: 44px;
   div.option-box:last-child {
     border-top: 0px solid var(--c-border);
@@ -129,7 +130,7 @@ function hideToc(event: MouseEvent) {
 @media (max-width: 959px) {
   .page-side-toolbar {
     right: 6px;
-    top: 65px !important;
+    top: calc(var(--navbar-height, 3.6rem) + 2rem) !important;
   }
 }
 @media (max-width: 719px) {
