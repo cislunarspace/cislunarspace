@@ -82,4 +82,3 @@ $$\Delta V_{TLI} = v_{escape} - v_{LEO} \approx 3.1-3.3 \text{ km/s}$$
 
 ## 仿真实验
 
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中设计 TLI 机动，观察不同发射窗口下的转移轨道形态。

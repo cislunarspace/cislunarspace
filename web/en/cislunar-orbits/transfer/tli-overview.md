@@ -80,4 +80,3 @@ Modern mission planning uses tools such as GMAT and STK for TLI launch window op
 
 ## Simulation Experiments
 
-Design TLI maneuvers in the [Satellite Orbit Simulation Lab](/en/satellite-simulation/) to observe transfer trajectory profiles under different launch windows.

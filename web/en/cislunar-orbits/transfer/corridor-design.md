@@ -78,4 +78,3 @@ NRHO insertion after arriving in cislunar space is the final step of the transfe
 
 ## Simulation Experiments
 
-You can generate Pork-Chop plots in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe how transfer energy varies with different launch windows.

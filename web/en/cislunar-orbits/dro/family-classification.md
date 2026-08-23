@@ -72,4 +72,3 @@ The figure above shows the morphology of DRO orbits in the Earth-Moon rotating f
 
 ## Simulation Experiment
 
-You can set up different $C_J$ values for L1/L2 DRO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe how the orbit family evolves with parameters.

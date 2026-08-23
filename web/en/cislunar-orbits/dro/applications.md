@@ -73,4 +73,3 @@ In the Artemis program, DRO was considered as a backup operational orbit option.
 
 ## Simulation Experiments
 
-In the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/), you can set up L1/L2 DRO conditions to observe orbital morphology and design transfer trajectories to Earth and the Moon.

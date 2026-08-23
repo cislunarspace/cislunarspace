@@ -69,4 +69,3 @@ The dynamical foundation of ballistic capture involves the Circular Restricted T
 
 ## Simulation Experiments
 
-Design ballistic capture transfers in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) and observe lunar capture effects under different launch timing conditions.

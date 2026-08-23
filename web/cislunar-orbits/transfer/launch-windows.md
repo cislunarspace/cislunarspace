@@ -89,4 +89,3 @@ NASA 的 **General Mission Analysis Tool**（GMAT）是开源轨道设计工具�
 
 ## 仿真实验
 
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中设置不同的 TLI 发射时机，观察转移轨道和到达点的变化。

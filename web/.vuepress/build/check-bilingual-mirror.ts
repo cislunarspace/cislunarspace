@@ -140,6 +140,10 @@ export const EXCEPTION_RULES: ExceptionRule[] = [
     pattern: 'research-frontiers/directions/security-governance/orbital-game/**',
     reason: 'zh-only content',
   },
+  {
+    pattern: 'CONTEXT.md',
+    reason: 'repo-internal doc, not a site page',
+  },
 ];
 
 /**

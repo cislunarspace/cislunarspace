@@ -69,4 +69,3 @@ NASA ultimately selected NRHO as the Gateway's operational orbit primarily due t
 
 ## Simulation Experiment
 
-In the [Satellite Orbit Simulation Lab](/en/satellite-simulation/), you can set typical Gateway NRHO parameters to observe the orbital profile and design transfer trajectories to the lunar surface.

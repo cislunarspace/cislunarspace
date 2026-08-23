@@ -1,23 +1,11 @@
 {
-  "generatedAt": "2026-08-19T16:56:12.605Z",
+  "generatedAt": "2026-08-23T13:46:27.862Z",
   "summary": {
-    "total": 1,
-    "byFamily": {
-      "root": 1
-    },
-    "bySeverity": {
-      "warning": 1
-    }
+    "total": 0,
+    "byFamily": {},
+    "bySeverity": {}
   },
-  "gaps": [
-    {
-      "zhPath": "CONTEXT.md",
-      "expectedEnPath": "en/CONTEXT.md",
-      "family": "root",
-      "severity": "warning",
-      "zhTitle": "CONTEXT"
-    }
-  ],
+  "gaps": [],
   "exceptions": [
     {
       "pattern": "research-frontiers/directions/_templates/**",
@@ -36,10 +24,10 @@
       ]
     },
     {
-      "pattern": "dialectic.md",
-      "reason": "zh-only special surface",
+      "pattern": "CONTEXT.md",
+      "reason": "repo-internal doc, not a site page",
       "matchedPaths": [
-        "dialectic.md"
+        "CONTEXT.md"
       ]
     }
   ]

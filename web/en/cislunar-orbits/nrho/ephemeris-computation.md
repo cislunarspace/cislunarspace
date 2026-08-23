@@ -86,4 +86,3 @@ The valid period range for L1 NRHOs is approximately 7.88–10 days, and the cor
 
 ## Simulation Experiment
 
-NRHO initial conditions can be set in the [Satellite Orbit Simulation Laboratory](/satellite-simulation/) to observe multi-revolution orbit evolution under the real ephemeris model.

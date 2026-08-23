@@ -66,4 +66,3 @@ The retrograde characteristic implies $v_y < 0$ (assuming the rotation direction
 
 ## Simulation Experiment
 
-You can set DRO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe its retrograde orbital shape in the rotating frame and compare the differences with NRHOs.

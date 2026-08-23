@@ -55,4 +55,3 @@ A typical L1 NRHO has a period of approximately 6.5-8 Earth days, with a lateral
 
 ## Simulation Experiment
 
-You can set L1 NRHO initial conditions in the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/) to observe its orbital morphology in the rotating frame.

@@ -79,4 +79,3 @@ NRHO 的轨道维持（station-keeping）需要周期性的小推力修正。典
 
 ## 仿真实验
 
-可在 [卫星轨道仿真实验室](/satellite-simulation/) 中设置 NRHO 初始条件，加入摄动模型后观察轨道的长期演化与漂移趋势。

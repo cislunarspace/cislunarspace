@@ -77,4 +77,3 @@ For spacecraft with large solar panels or high area-to-mass ratios, Solar Radiat
 
 ## Simulation Experiments
 
-In the [Satellite Orbit Simulation Laboratory](/en/satellite-simulation/), you can set NRHO initial conditions and add perturbation models to observe long-term orbital evolution and drift trends.
