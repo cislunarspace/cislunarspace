@@ -851,14 +851,14 @@ html[data-theme='dark']
   position: absolute;
   inset: 0;
   z-index: 1;
-  /* 无图版：接近不透明的深空渐变即为卡片表面（与 --sn-space-gradient 同色系）；
-     将来接入 --module-card-bg 背景图时，把透明度调低让图片透出 */
+  /* 带图版：半透明深空渐变遮罩，既保证底图透出，又保证文字对比度与可读性 */
   background: linear-gradient(
     155deg,
-    rgba(15, 23, 42, 1) 0%,
-    rgba(23, 32, 58, 0.96) 55%,
-    rgba(30, 58, 138, 0.88) 130%
+    rgba(15, 23, 42, 0.82) 0%,
+    rgba(23, 32, 58, 0.75) 55%,
+    rgba(30, 58, 138, 0.65) 130%
   );
+  transition: background 0.35s ease;
   pointer-events: none;
 }
 
@@ -866,6 +866,15 @@ html[data-theme='dark']
   border-color: var(--vp-c-accent);
   box-shadow: var(--shadow-glow);
   transform: translateY(-4px);
+}
+
+.module-card:hover::after {
+  background: linear-gradient(
+    155deg,
+    rgba(15, 23, 42, 0.68) 0%,
+    rgba(23, 32, 58, 0.60) 55%,
+    rgba(30, 58, 138, 0.50) 130%
+  );
 }
 
 .module-card:hover::before {
