@@ -30,7 +30,7 @@ permalink: /en/glossary/fundamentals/ep/
 
 ## Definition
 
-Electric Propulsion (EP) refers to propulsion technology that uses electric energy—typically from solar arrays or a nuclear power source—to ionize and accelerate propellant, producing thrust. Unlike chemical propulsion, where energy is released through chemical reactions, EP separates the energy source (power supply) from the propellant. The specific impulse is therefore not limited by the chemical bond energy of the propellant and can reach 2000--10000 seconds, far exceeding the 100--400 s of chemical rockets (Vepa 2024, Table 2.2).
+Electric Propulsion (EP) refers to propulsion technology that uses electric energy (typically from solar arrays or a nuclear power source) to ionize and accelerate propellant, producing thrust. Unlike chemical propulsion, where energy is released through chemical reactions, EP separates the energy source (power supply) from the propellant. The specific impulse is therefore not limited by the chemical bond energy of the propellant and can reach 2000--10000 seconds, far exceeding the 100--400 s of chemical rockets (Vepa 2024, Table 2.2).
 
 The trade-off is extremely low thrust. Typical EP engines produce thrust in the milli-Newton range: NASA's Deep Space 1 mission used an ion thruster delivering only 92 mN of thrust but with a specific impulse of 2200 s (Fahey 2024, Table 6.2). Chemical rockets can produce hundreds of thousands of Newtons but only achieve $I_{sp}$ of 300--400 s. This comparison illustrates the fundamental thrust-vs-efficiency trade-off.
 
@@ -62,7 +62,7 @@ $$
 
 For a 500 kg spacecraft with 92 mN thrust (Deep Space 1-class EP), $a_T \approx 1.84 \times 10^{-4}\ \mathrm{m/s^2}$ (Fahey 2024, Table 6.2). This value is 3--4 orders of magnitude smaller than chemical propulsion, meaning orbital transfers require weeks to months.
 
-**Thrust magnitude and thrust bounds**: Real EP engines have a maximum thrust limit $F \leq F_{\max}$; some also have a minimum stable thrust $F_{\min}$. Together these form the thrust bound. In optimal control problems, the thrust magnitude as a control variable is constrained by these bounds—this is exactly why bang-bang control arises: the optimal solution pushes thrust magnitude to the upper or lower bound rather than any intermediate value.
+**Thrust magnitude and thrust bounds**: Real EP engines have a maximum thrust limit $F \leq F_{\max}$; some also have a minimum stable thrust $F_{\min}$. Together these form the thrust bound. In optimal control problems, the thrust magnitude as a control variable is constrained by these bounds, and this is exactly why bang-bang control arises: the optimal solution pushes thrust magnitude to the upper or lower bound rather than any intermediate value.
 
 ## Classification of Electric Propulsion
 
@@ -116,7 +116,7 @@ Typical application modes of EP in cislunar transfers:
 
 ### Full Continuous Thrust
 
-Engine operates continuously throughout the transfer; thrust direction is solved via optimal control. The advantage is simplicity—no need for complex on/off switching logic. The drawback is reduced thrust efficiency compared to impulsive schemes, since the thrust direction on some arcs may not be optimal for changing orbital energy.
+Engine operates continuously throughout the transfer; thrust direction is solved via optimal control. The advantage is simplicity: no need for complex on/off switching logic. The drawback is reduced thrust efficiency compared to impulsive schemes, since the thrust direction on some arcs may not be optimal for changing orbital energy.
 
 ### Thrust-Coast-Thrust (TCT)
 
@@ -148,17 +148,17 @@ Applying constant low thrust alters the equilibrium point positions and orbit fa
 
 ## Related Concepts
 
-- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/) — Optimal thrust-magnitude switching law: an inevitable consequence of fuel-optimal EP problems
+- [Bang-bang Control](/en/glossary/dynamics/bang-bang-control/): Optimal thrust-magnitude switching law: an inevitable consequence of fuel-optimal EP problems
 
-- [Tangential Thrust Control](/en/glossary/dynamics/tangential-thrust-control/) — Simplified thrust-direction strategies and station-keeping
+- [Tangential Thrust Control](/en/glossary/dynamics/tangential-thrust-control/): Simplified thrust-direction strategies and station-keeping
 
-- [Two-Impulse Rendezvous](/en/glossary/dynamics/two-impulse-rendezvous/) — Maneuver methods under the impulsive chemical-propulsion model
+- [Two-Impulse Rendezvous](/en/glossary/dynamics/two-impulse-rendezvous/): Maneuver methods under the impulsive chemical-propulsion model
 
 - [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/)
 
 - [Co-state Variables](/en/glossary/dynamics/co-state-variables/)
 
-- [Primer Vector](/en/glossary/dynamics/primer-vector/) — Optimization tool introduced by Lawden
+- [Primer Vector](/en/glossary/dynamics/primer-vector/): Optimization tool introduced by Lawden
 
 - [CR3BP (Circular Restricted Three-Body Problem)](/en/glossary/dynamics/cr3bp/)
 
@@ -166,7 +166,7 @@ Applying constant low thrust alters the equilibrium point positions and orbit fa
 
 ## References
 
-- Vepa, 2024, Space Vehicle Maneuvering, Propulsion, Dynamics and Control — A Textbook for Engineers. Springer. Ch. 5: Propulsion system classification, rocket equation, engineering definitions of specific impulse and thrust acceleration.
+- Vepa, 2024, Space Vehicle Maneuvering, Propulsion, Dynamics and Control: A Textbook for Engineers. Springer. Ch. 5: Propulsion system classification, rocket equation, engineering definitions of specific impulse and thrust acceleration.
 
 - Vallado, 2022, Fundamentals of Astrodynamics and Applications. Rocket equation and propulsion performance from the perspective of orbital mechanics.
 

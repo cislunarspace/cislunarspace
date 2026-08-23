@@ -43,4 +43,4 @@ This term has significant application value in cislunar space missions。In the 
 
 ## References
 
-- Ding et al., 2025 — Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits
+- Ding et al., 2025, Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits

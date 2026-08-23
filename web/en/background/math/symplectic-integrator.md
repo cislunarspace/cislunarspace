@@ -20,7 +20,7 @@ wechatShare:
 
 ## Definition
 
-A symplectic integrator is a class of numerical integration methods that preserve the symplectic geometric structure — the symplectic form — of Hamiltonian systems in phase space. For conservative systems in celestial mechanics (Hamiltonian systems), symplectic integrators maintain energy and other conserved quantities without systematic drift over long-term integration.
+A symplectic integrator is a class of numerical integration methods that preserve the symplectic geometric structure (the symplectic form) of Hamiltonian systems in phase space. For conservative systems in celestial mechanics (Hamiltonian systems), symplectic integrators maintain energy and other conserved quantities without systematic drift over long-term integration.
 
 ## Principles
 
@@ -53,8 +53,8 @@ $$\mathbf{q} \leftarrow e^{\Delta t \cdot \nabla_{\mathbf{q}} V} \mathbf{q} \qua
 
 ## Applications in Cislunar Space
 
-- **Long-term orbit evolution simulation**: interplanetary trajectory prediction requiring $10^5$–$10^8$ revolution integration — symplectic integrators ensure no energy drift and reliable results
-- **Multi-body problem integration**: long-term integration of the restricted three-body problem — symplectic integrators outperform standard RK methods
+- **Long-term orbit evolution simulation**: interplanetary trajectory prediction requiring $10^5$–$10^8$ revolution integration: symplectic integrators ensure no energy drift and reliable results
+- **Multi-body problem integration**: long-term integration of the restricted three-body problem, where symplectic integrators outperform standard RK methods
 - **Solar system nested three-body problems**: long-term orbital evolution of Jupiter, Saturn, and other giant planets
 - **Periodic orbit computation**: symplectic integrators can be used to search for periodic orbits via phase space analysis
 

@@ -1,6 +1,6 @@
-# CONTEXT — Cislunar Space Beginner's Guide
+# CONTEXT: Cislunar Space Beginner's Guide
 
-A bilingual (zh/en) knowledge base about cislunar space. This file captures domain vocabulary that should be used consistently across issues, ADRs, tests, code, and PRs. If a concept you need isn't here, that's a signal — either reconsider the term or extend this file via `/grill-with-docs`.
+A bilingual (zh/en) knowledge base about cislunar space. This file captures domain vocabulary that should be used consistently across issues, ADRs, tests, code, and PRs. If a concept you need isn't here, that's a signal: either reconsider the term or extend this file via `/grill-with-docs`.
 
 ## Glossary
 
@@ -14,7 +14,7 @@ One entry in the taxonomy. Carries a stable locale-independent `id`, a `kind` (o
 
 ### Identity (NodeId)
 
-A `TaxonomyNode`'s stable, locale-independent string id (e.g. `research-frontiers/directions/orbit-design`). Derived from the canonical zh slug chain. Renames of a slug create a new id plus a redirect — ids are never silently reused. Renames of a **label** do not change the id.
+A `TaxonomyNode`'s stable, locale-independent string id (e.g. `research-frontiers/directions/orbit-design`). Derived from the canonical zh slug chain. Renames of a slug create a new id plus a redirect (ids are never silently reused). Renames of a **label** do not change the id.
 
 ### VuePress locale root/config
 
@@ -30,7 +30,7 @@ The convention that a `TaxonomyNode` declares its locale presence via an optiona
 
 ### Runtime locale detection
 
-The runtime decision of which locale branch should render for the current page. For current-page rendering, the route wins: pages under `/en/` render en UI/data, and other pages render zh UI/data. Runtime locale detection answers "where is the user now?"; it is separate from stored locale preference and from taxonomy locale presence.
+The runtime decision of which locale branch should render for the current page. For current-page rendering, the route wins: pages under `/en/` render en UI/data, and other pages render zh UI/data. Runtime locale detection answers **where is the user now?**; it is separate from stored locale preference and from taxonomy locale presence.
 
 ### Locale preference (`cislunar-lang-chosen`)
 
@@ -42,7 +42,7 @@ The corresponding zh/en content item that shares a stable identity across locale
 
 ### Translation gap
 
-An unintentional missing bilingual counterpart in a locale where the concept should exist. Today this is tracked for glossary pages that exist in zh but not en, surfaced by `TranslationGapIntake` and the AI route index's "(needs translation)" placeholders. Locale gating is intentional absence; a locale-gated page is not a translation gap. The taxonomy module does not conflate them.
+An unintentional missing bilingual counterpart in a locale where the concept should exist. Today this is tracked for glossary pages that exist in zh but not en, surfaced by `TranslationGapIntake` and the AI route index's **(needs translation)** placeholders. Locale gating is intentional absence; a locale-gated page is not a translation gap. The taxonomy module does not conflate them.
 
 ### Locale-partitioned generated artifact
 
@@ -62,16 +62,16 @@ The existing pipeline stage name (under `web/.vuepress/intakes/`) for build-time
 
 ### NodeKind
 
-The discriminator on a `TaxonomyNode`. An **open enum** — new kinds may be added without amending ADR-0001, provided the `TaxonomyNode` interface shape, locale-gating rule, identity rule, and path-convention rule are unchanged. Adapters tolerate unknown kinds by ignoring them.
+The discriminator on a `TaxonomyNode`. An **open enum**: new kinds may be added without amending ADR-0001, provided the `TaxonomyNode` interface shape, locale-gating rule, identity rule, and path-convention rule are unchanged. Adapters tolerate unknown kinds by ignoring them.
 
 ### Section / group / page / index
 
 The four structural kinds inside the sidebar tree.
 
-- **Section** — top-level entry of a sidebar (e.g. `cislunar-orbits`, `research-frontiers`).
-- **Group** — collapsible cluster inside a section (e.g. `nrho`, `dro`).
-- **Page** — leaf content page.
-- **Index** — the README at a section/group root; shares its parent's path (`slug === ''` in the current `sidebar/data.ts`).
+- **Section**: top-level entry of a sidebar (e.g. `cislunar-orbits`, `research-frontiers`).
+- **Group**: collapsible cluster inside a section (e.g. `nrho`, `dro`).
+- **Page**: leaf content page.
+- **Index**: the README at a section/group root; shares its parent's path (`slug === ''` in the current `sidebar/data.ts`).
 
 ### Sidebar source of truth
 
@@ -79,7 +79,7 @@ The four structural kinds inside the sidebar tree.
 
 ### AI route index
 
-The generated AI-chat route-planning artifact served as `/ai-chat-index.json`. Its canonical shape is grouped by locale and by `ChatIndexCategory`: `{ zh: ChatIndexCategory[], en: ChatIndexCategory[] }`. Each `ChatIndexCategory` contains a grouping key plus `IndexRow` entries; each `IndexRow` carries an AI retrieval path and title. The AI route index is for route selection and valid-link constraints only — it is not the full answer corpus and is not the sidebar-tree **Index** kind.
+The generated AI-chat route-planning artifact served as `/ai-chat-index.json`. Its canonical shape is grouped by locale and by `ChatIndexCategory`: `{ zh: ChatIndexCategory[], en: ChatIndexCategory[] }`. Each `ChatIndexCategory` contains a grouping key plus `IndexRow` entries; each `IndexRow` carries an AI retrieval path and title. The AI route index is for route selection and valid-link constraints only (it is not the full answer corpus and is not the sidebar-tree **Index** kind).
 
 ### AI context corpus
 
@@ -131,52 +131,52 @@ A `TaxonomyNode` of kind `glossary-category` (today: entries in `glossaryCategor
 
 ### Content module
 
-The module at `web/.vuepress/content/` (see ADR-0003; skeleton landed 2026-08-19 — list/read/write/refreshIndex, with create/delete/categories to follow) that owns all content operations behind one domain interface. The three content writers (admin GUI, space-news auto-update pipeline, agents/humans) all go through it. The content module is to content operations what the taxonomy module is to structure data; it is not a database, not a server process, and not part of the build pipeline. Its frontmatter round-trip uses the `yaml` package (`parseMarkdownDoc`/`renderMarkdown`) — not `utils/frontmatter-parser.ts`, whose simplified parsing cannot round-trip nested frontmatter.
+The module at `web/.vuepress/content/` (see ADR-0003; skeleton landed 2026-08-19: list/read/write/refreshIndex, with create/delete/categories to follow) that owns all content operations behind one domain interface. The content writers (admin GUI, agents/humans) all go through it. The content module is to content operations what the taxonomy module is to structure data; it is not a database, not a server process, and not part of the build pipeline. Its frontmatter round-trip uses the `yaml` package (`parseMarkdownDoc`/`renderMarkdown`), not `utils/frontmatter-parser.ts`, whose simplified parsing cannot round-trip nested frontmatter.
 
 ### Content family
 
-One of the three content kinds the content module operates on: `space-news`, `glossary`, `kb-section`. Path conventions, frontmatter rules, and bilingual pairing are defined per family in the content router — never re-expressed by callers. A content family is not a `NodeKind` and not a layout.
+One of the two content kinds the content module operates on: `glossary`, `kb-section`. Path conventions, frontmatter rules, and bilingual pairing are defined per family in the content router, never re-expressed by callers. A content family is not a `NodeKind` and not a layout.
 
 ### Content source / Derived artifact / Build output
 
 The three asset layers of the repository (see ADR-0004):
 
-- **Content source** — markdown, `taxonomy/`, `sidebar/data.ts`, figures (single zh-side copy), `ref.bib`, hand-maintained public assets. Tracked in git.
-- **Derived artifact** — everything `generate.ts` produces (`*.auto.json`, articles/AI-chat/bibliography JSON). Written only to `.vuepress/public/`, never tracked in git. "Derived artifact" names the layer; the existing term generated artifact continues to name individual JSON files.
-- **Build output** — `dist/`. Never tracked in git.
+- **Content source**: markdown, `taxonomy/`, `sidebar/data.ts`, figures (single zh-side copy), `ref.bib`, hand-maintained public assets. Tracked in git.
+- **Derived artifact**: everything `generate.ts` produces (`*.auto.json`, articles/AI-chat/bibliography JSON). Written only to `.vuepress/public/`, never tracked in git. **Derived artifact** names the layer; the existing term generated artifact continues to name individual JSON files.
+- **Build output**: `dist/`. Never tracked in git.
 
 Rules: derived artifacts are rebuildable from content source at any time (no consumer may rely on their git presence); sync-figures is the only channel that places figures into build output; en-locale md figure references are URL conventions resolved at build time, not physical file requirements.
 
 ## Terminology to avoid
 
-- "Sidebar config" as a synonym for taxonomy — taxonomy is the **concept**, sidebar configs are one **adapter output**.
-- "Layout" as a catch-all for AI Chat, OrbitSimLab, Forum, Dialectic, or any non-article custom experience — use **Layout** only for the VuePress page shell, and use **special surface** or **interactive surface** for the user-facing experience.
-- "Sidebar" without qualification — say **VuePress sidebar config**, **section sidebar**, or **wayfinding disclosure**.
-- "Wayfinding" called an index or sidebar — wayfinding is a global site-map disclosure, not the sidebar-tree **Index** kind and not the AI route index.
-- "Surface" without qualification when precision matters — say **special surface**, **interactive surface**, content page, or site-surface-specific adapter output.
-- "i18n key" for `NodeId` — ids are not i18n keys; they are stable identities.
-- "Locale root", "VuePress root", "LocalePath", and "route prefix" used interchangeably — **VuePress locale root/config** is framework configuration; **LocalePath** is taxonomy-resolved routing data.
-- `'/en' + zhPath` as a path construction rule — consumers select from `LocalePath`; they do not manually prefix the Chinese path.
-- "Current language" without saying whether it means **runtime locale detection**, **locale preference**, or explicit user switching.
-- `cislunar-lang-chosen` treated as the site locale — it is only a persisted preference/sentinel, not the current route locale.
-- "Same page" for zh/en content unless stable taxonomy identity is the point — say **bilingual counterpart** for paired locale content, and **LocalePath entries** for their routes.
-- "Bilingual" for generated artifacts without naming the partition model — say **locale-partitioned generated artifact** for shapes like `{ zh: ..., en: ... }`.
-- "Category" without a qualifier — say **glossary-category**. (The `news-category` kind was removed with the Space News module — see ADR-0005.)
-- "Image" or "image path" without specifying **hero/card image**, **figure set**, **source figure path**, **built dist asset path**, or **share image**.
-- "Slug" when referring to the full filename — say **article slug** for the identifier after `YYYY-MM-DD-`, and **article filename** for `YYYY-MM-DD-slug.md`.
-- "AI index" or bare "index" for `/ai-chat-index.json` — say **AI route index**. **Index** already means a README at a section/group root in the sidebar tree.
-- "Context index", "AI context index", or "site index" for `/ai-chat-context.json` — say **AI context corpus**.
-- "Path" without qualification when discussing AI retrieval — say **AI retrieval path** when you mean the Router-selected key used to join route rows to context records.
-- "ChatIndexCategory" as a normal category — it is an AI-specific grouping key, not a **glossary-category**, editorial tag, or article attribute.
-- AI generated artifacts described as **Adapters** or **Intakes** — adapters derive site-surface outputs from taxonomy; intakes collect build-time data. `/ai-chat-index.json` and `/ai-chat-context.json` are generated AI-chat artifacts.
-- "Translation missing" used interchangeably with "locale gated" — see Translation gap vs Locale gating.
+- **Sidebar config** as a synonym for taxonomy: taxonomy is the **concept**, sidebar configs are one **adapter output**.
+- **Layout** as a catch-all for AI Chat or any non-article custom experience: use **Layout** only for the VuePress page shell, and use **special surface** or **interactive surface** for the user-facing experience.
+- **Sidebar** without qualification: say **VuePress sidebar config**, **section sidebar**, or **wayfinding disclosure**.
+- **Wayfinding** called an index or sidebar: wayfinding is a global site-map disclosure, not the sidebar-tree **Index** kind and not the AI route index.
+- **Surface** without qualification when precision matters: say **special surface**, **interactive surface**, content page, or site-surface-specific adapter output.
+- **i18n key** for `NodeId`: ids are not i18n keys; they are stable identities.
+- **Locale root**, **VuePress root**, **LocalePath**, and **route prefix** used interchangeably: **VuePress locale root/config** is framework configuration; **LocalePath** is taxonomy-resolved routing data.
+- `'/en' + zhPath` as a path construction rule: consumers select from `LocalePath`; they do not manually prefix the Chinese path.
+- **Current language** without saying whether it means **runtime locale detection**, **locale preference**, or explicit user switching.
+- `cislunar-lang-chosen` treated as the site locale: it is only a persisted preference/sentinel, not the current route locale.
+- **Same page** for zh/en content unless stable taxonomy identity is the point: say **bilingual counterpart** for paired locale content, and **LocalePath entries** for their routes.
+- **Bilingual** for generated artifacts without naming the partition model: say **locale-partitioned generated artifact** for shapes like `{ zh: ..., en: ... }`.
+- **Category** without a qualifier: say **glossary-category**. (The `news-category` kind was removed with the Space News module, see ADR-0005.)
+- **Image** or **image path** without specifying **hero/card image**, **figure set**, **source figure path**, **built dist asset path**, or **share image**.
+- **Slug** when referring to the full filename: say **article slug** for the identifier after `YYYY-MM-DD-`, and **article filename** for `YYYY-MM-DD-slug.md`.
+- **AI index** or bare **index** for `/ai-chat-index.json`: say **AI route index**. **Index** already means a README at a section/group root in the sidebar tree.
+- **Context index**, **AI context index**, or **site index** for `/ai-chat-context.json`: say **AI context corpus**.
+- **Path** without qualification when discussing AI retrieval: say **AI retrieval path** when you mean the Router-selected key used to join route rows to context records.
+- **ChatIndexCategory** as a normal category: it is an AI-specific grouping key, not a **glossary-category**, editorial tag, or article attribute.
+- AI generated artifacts described as **Adapters** or **Intakes**: adapters derive site-surface outputs from taxonomy; intakes collect build-time data. `/ai-chat-index.json` and `/ai-chat-context.json` are generated AI-chat artifacts.
+- **Translation missing** used interchangeably with **locale gated**: see Translation gap vs Locale gating.
 
 ## See also
 
-- [ADR-0001 — Unified Taxonomy Module](docs/adr/0001-unified-taxonomy-module.md)
-- [ADR-0003 — Content Module](docs/adr/0003-content-module.md)
-- [ADR-0004 — Asset Layering](docs/adr/0004-asset-layering.md)
-- [ADR-0005 — Remove Space News Module](docs/adr/0005-remove-space-news-module.md)
-- [docs/agents/domain.md](docs/agents/domain.md) — how agents should consume this file
+- [ADR-0001: Unified Taxonomy Module](docs/adr/0001-unified-taxonomy-module.md)
+- [ADR-0003: Content Module](docs/adr/0003-content-module.md)
+- [ADR-0004: Asset Layering](docs/adr/0004-asset-layering.md)
+- [ADR-0005: Remove Space News Module](docs/adr/0005-remove-space-news-module.md)
+- [docs/agents/domain.md](docs/agents/domain.md): how agents should consume this file
 - [docs/agents/issue-tracker.md](docs/agents/issue-tracker.md)
 - [docs/agents/triage-labels.md](docs/agents/triage-labels.md)

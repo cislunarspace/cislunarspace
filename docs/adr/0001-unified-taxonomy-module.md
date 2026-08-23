@@ -1,4 +1,4 @@
-# ADR 0001 — Unified Taxonomy Module for zh/en Sites
+# ADR 0001: Unified Taxonomy Module for zh/en Sites
 
 - **Status:** Accepted
 - **Date:** 2026-05-15
@@ -8,7 +8,7 @@
 
 ## Context
 
-The site currently expresses its taxonomy — the identity, locale paths, ordering, navigation labels, sidebar structure, glossary categories, news categories, and AI-chat index inputs of every knowledge-base section — across **at least seven separate files**, with overlapping but not identical shapes:
+The site currently expresses its taxonomy (the identity, locale paths, ordering, navigation labels, sidebar structure, glossary categories, news categories, and AI-chat index inputs of every knowledge-base section) across **at least seven separate files**, with overlapping but not identical shapes:
 
 | File | What it owns | Locale handling |
 |---|---|---|
@@ -17,23 +17,23 @@ The site currently expresses its taxonomy — the identity, locale paths, orderi
 | `web/.vuepress/sidebar-data.ts` | Section + entry tree for non-glossary sidebars | bilingual node with `label.{zh,en}` and optional `locales`, plus `childrenByLocale` escape hatch |
 | `web/.vuepress/glossary-meta.ts` | Glossary category identity + order | bilingual `label.{zh,en}` + `order` |
 | `web/.vuepress/category-meta.json` | Space-news category identity + colour | bilingual `label.{zh,en}` + `color` |
-| `web/.vuepress/intakes/wayfinding-intake.ts` | Hard-coded "site map" sidebar tree | duplicated zh/en arrays |
+| `web/.vuepress/intakes/wayfinding-intake.ts` | Hard-coded site map sidebar tree | duplicated zh/en arrays |
 | `web/.vuepress/intakes/chat-index-intake.ts` | AI-chat index inputs | derived from `glossary-meta.ts` + filesystem |
 
-Adding or renaming a section today requires touching **three to five** of these files in lock-step, and the rules for "what happens when zh exists but en doesn't" differ between modules:
+Adding or renaming a section today requires touching **three to five** of these files in lock-step, and the rules for what happens when zh exists but en doesn't differ between modules:
 
 - `sidebar-data.ts` uses explicit `locales: ['zh']` gating.
-- `chat-index-intake.ts` synthesises an English-locale "needs translation" placeholder.
+- `chat-index-intake.ts` synthesises an English-locale placeholder marking entries that need translation.
 - `navbar-en.ts` is a hand-maintained copy with no relationship to its zh sibling.
 - `wayfinding-intake.ts` duplicates everything inline.
 
-This drift is a known source of bugs (orphaned sidebar entries, broken `/en/` links, mismatched ordering between locales). It also blocks AFK agents from confidently adding new sections, because there is no single concept model that says "this is what a taxonomy node is."
+This drift is a known source of bugs (orphaned sidebar entries, broken `/en/` links, mismatched ordering between locales). It also blocks AFK agents from confidently adding new sections, because there is no single concept model that says this is what a taxonomy node is.
 
-This ADR fixes the **architectural shape** of a unified taxonomy module so follow-up issues can implement, migrate, and adapt without re-litigating the interface. It does **not** write the module — that is deferred to follow-up AFK issues.
+This ADR fixes the **architectural shape** of a unified taxonomy module so follow-up issues can implement, migrate, and adapt without re-litigating the interface. It does **not** write the module; that is deferred to follow-up AFK issues.
 
 ## Decision
 
-We will introduce a single **Taxonomy Module** at `web/.vuepress/taxonomy/` that owns one concept — the `TaxonomyNode` — and exposes typed views consumed by every site surface (navbar, sidebar, glossary, news, AI-chat, wayfinding). Every existing output listed above becomes an **adapter** that derives its shape from the taxonomy module rather than carrying its own truth.
+We will introduce a single **Taxonomy Module** at `web/.vuepress/taxonomy/` that owns one concept (the `TaxonomyNode`) and exposes typed views consumed by every site surface (navbar, sidebar, glossary, news, AI-chat, wayfinding). Every existing output listed above becomes an **adapter** that derives its shape from the taxonomy module rather than carrying its own truth.
 
 ### TaxonomyNode interface (shape only)
 
@@ -108,7 +108,7 @@ export interface TaxonomyModule {
 
 #### Identity
 
-- `id` is **stable** and locale-independent. It is derived from the canonical zh path's slug chain but is **not** the path — rename of the slug requires a new id and a redirect entry.
+- `id` is **stable** and locale-independent. It is derived from the canonical zh path's slug chain but is **not** the path: rename of the slug requires a new id and a redirect entry.
 - Renaming the zh **label** does not change the id.
 - Renaming the slug at any level changes the id of every descendant; this is a migration, not an in-place edit.
 
@@ -124,13 +124,13 @@ We adopt **explicit locale gating** (matches the existing `sidebar-data.ts` conv
 
 - Each node carries optional `locales?: ('zh'|'en')[]`. Undefined means present in both.
 - A node gated out of a locale is **invisible** in that locale's navbar, sidebar, and wayfinding adapters.
-- The glossary adapter additionally produces a `TranslationGapIntake` listing zh-only glossary pages, and the AI-chat adapter surfaces them as "(needs translation)" placeholders. This behaviour is **adapter-local** and does not change the node's `locales` field.
-- Rationale: explicit gating keeps maintainer intent visible (`locales: ['zh']` reads as "this is on purpose"), and prevents accidental publication of half-translated content. The current `sidebar-data.ts` already follows this rule, so adoption is a rename, not a behaviour change.
+- The glossary adapter additionally produces a `TranslationGapIntake` listing zh-only glossary pages, and the AI-chat adapter surfaces them as (needs translation) placeholders. This behaviour is **adapter-local** and does not change the node's `locales` field.
+- Rationale: explicit gating keeps maintainer intent visible (`locales: ['zh']` reads as intentional), and prevents accidental publication of half-translated content. The current `sidebar-data.ts` already follows this rule, so adoption is a rename, not a behaviour change.
 
 #### Ordering
 
 - `order` is a number; lower comes first; ties broken by `id` lexicographically.
-- Order is **sibling-scoped** — there is no global ordering.
+- Order is **sibling-scoped**: there is no global ordering.
 - Adapters that need a different presentation order (e.g. news categories sorted alphabetically) sort their own view; they do not mutate `order`.
 
 #### Path conventions
@@ -166,7 +166,7 @@ The flat representation is what adapters consume; the nested literal is what hum
 
 ### Extensibility
 
-`NodeKind` is an **open enum** (TypeScript string-literal union, but adapters tolerate unknown kinds by ignoring them). Adding a new kind — e.g. `'forum-thread'`, `'tool-page'` — does **not** require amending this ADR. It requires:
+`NodeKind` is an **open enum** (TypeScript string-literal union, but adapters tolerate unknown kinds by ignoring them). Adding a new kind (e.g. `'forum-thread'`, `'tool-page'`) does **not** require amending this ADR. It requires:
 
 1. Adding the literal to `NodeKind`.
 2. Writing or extending the adapter that consumes it.
@@ -181,13 +181,13 @@ Amending this ADR is required only for changes to: the `TaxonomyNode` interface 
 - Adding a new section becomes a **single-file change** to `taxonomy/data.ts`. The build pipeline updates navbar, sidebar, wayfinding, and AI-chat together.
 - zh/en drift becomes a validation error, not a runtime 404.
 - AFK agents have one concept (`TaxonomyNode`) and one file to edit, with a typed validator that catches mistakes at build time.
-- Existing outputs (`sidebar.auto.json`, `space-news-articles-zh.json`, `space-news-articles-en.json`, navbar arrays) are unchanged in shape — downstream consumers (VuePress, theme components) are untouched.
+- Existing outputs (`sidebar.auto.json`, `space-news-articles-zh.json`, `space-news-articles-en.json`, navbar arrays) are unchanged in shape, so downstream consumers (VuePress, theme components) are untouched.
 
 ### Negative
 
 - One-time migration cost: re-expressing the seven existing files as taxonomy + adapters. Estimated 4–6 follow-up issues.
 - The flat-with-helper representation adds a small layer of indirection over today's nested literals.
-- `childrenByLocale` (used today only by `blue-team-research`) loses its escape-hatch nature — en-specific subtrees become normal nodes with `locales: ['en']`. This is a deliberate simplification. Where today's `childrenByLocale` encodes **different slugs per locale at the same tree position** (e.g. `blue-team-research/doctrine-strategy/us-doctrine-system` zh-only vs `…/us-strategy-doctrine` en-only), the migration produces **two sibling nodes** with disjoint `locales`, not one node with a locale switch — each gets its own stable `id`.
+- `childrenByLocale` (used today only by `blue-team-research`) loses its escape-hatch nature: en-specific subtrees become normal nodes with `locales: ['en']`. This is a deliberate simplification. Where today's `childrenByLocale` encodes **different slugs per locale at the same tree position** (e.g. `blue-team-research/doctrine-strategy/us-doctrine-system` zh-only vs `…/us-strategy-doctrine` en-only), the migration produces **two sibling nodes** with disjoint `locales`, not one node with a locale switch; each gets its own stable `id`.
 
 ### Neutral
 
@@ -198,18 +198,18 @@ Amending this ADR is required only for changes to: the `TaxonomyNode` interface 
 
 Each can be picked up independently:
 
-1. **`taxonomy/types.ts` + `data.ts` scaffold** — define the interface, seed with current `sidebar-data.ts` content, add the build-time validator. No adapters yet.
-2. **Glossary categories adapter** — migrate `glossary-meta.ts` consumers to read from taxonomy. Delete `glossaryCategories` export.
-3. **Sidebar sections adapter** — migrate `sidebar-data.ts` consumers. Delete `sidebarSections` export.
-4. **Navbar adapter (zh + en)** — replace `navbar.ts` and `navbar-en.ts` with derived arrays.
-5. **News categories adapter** — migrate `category-meta.json` into taxonomy (kind `'news-category'`, `meta.color`).
-6. **Wayfinding adapter** — replace the hard-coded arrays in `wayfinding-intake.ts`.
+1. **`taxonomy/types.ts` + `data.ts` scaffold**: define the interface, seed with current `sidebar-data.ts` content, add the build-time validator. No adapters yet.
+2. **Glossary categories adapter**: migrate `glossary-meta.ts` consumers to read from taxonomy. Delete `glossaryCategories` export.
+3. **Sidebar sections adapter**: migrate `sidebar-data.ts` consumers. Delete `sidebarSections` export.
+4. **Navbar adapter (zh + en)**: replace `navbar.ts` and `navbar-en.ts` with derived arrays.
+5. **News categories adapter**: migrate `category-meta.json` into taxonomy (kind `'news-category'`, `meta.color`).
+6. **Wayfinding adapter**: replace the hard-coded arrays in `wayfinding-intake.ts`.
 
 Each follow-up issue is a TDD-shaped vertical slice (one adapter, one test file, one cut-over). None of them needs to re-decide the interface.
 
 ## Alternatives considered
 
-- **Status quo with stricter conventions** — rejected. Conventions have not prevented drift; a structural fix is needed.
-- **Auto-generate everything from the filesystem** — rejected. Ordering and labels need explicit human curation; the filesystem cannot express bilingual labels or sibling order.
-- **Required-both-locales with a TranslationGap report** — rejected. Forces fake en labels for zh-only content (e.g. NUDT, NPU), which then leak into navbar/sidebar. Explicit gating keeps intent legible.
-- **Closed `NodeKind` enum requiring ADR amendments per new kind** — rejected. Site surfaces evolve (forum, dialectic, tools) faster than ADR cadence; open enum with adapter-local knowledge is the lower-friction equilibrium.
+- **Status quo with stricter conventions**: rejected. Conventions have not prevented drift; a structural fix is needed.
+- **Auto-generate everything from the filesystem**: rejected. Ordering and labels need explicit human curation; the filesystem cannot express bilingual labels or sibling order.
+- **Required-both-locales with a TranslationGap report**: rejected. Forces fake en labels for zh-only content (e.g. NUDT, NPU), which then leak into navbar/sidebar. Explicit gating keeps intent legible.
+- **Closed `NodeKind` enum requiring ADR amendments per new kind**: rejected. Site surfaces evolve (forum, dialectic, tools) faster than ADR cadence; open enum with adapter-local knowledge is the lower-friction equilibrium.

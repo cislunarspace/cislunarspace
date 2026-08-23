@@ -30,13 +30,13 @@ permalink: /en/glossary/orbits/libration-point-periodic-orbit/
 
 ## Definition
 
-A libration point orbit is an umbrella term for periodic orbits around libration points. Narrowly, the term denotes "a subset of **unstable** periodic orbits in the three-body problem" (Ren 2012, whose study is limited to the planar collinear-point case); broadly, it covers all periodic-orbit families around both collinear and triangular libration points (Qiao 2025, He 2025 catalogs). "Collinear Lagrangian point orbit" refers to periodic or quasi-periodic orbits around L1/L2 (and L3), such as Lissajous and halo orbits (Bucchioni & Innocenti 2021).
+A libration point orbit is an umbrella term for periodic orbits around libration points. Narrowly, the term denotes a subset of **unstable** periodic orbits in the three-body problem (Ren 2012, whose study is limited to the planar collinear-point case); broadly, it covers all periodic-orbit families around both collinear and triangular libration points (Qiao 2025, He 2025 catalogs). Collinear Lagrangian point orbit refers to periodic or quasi-periodic orbits around L1/L2 (and L3), such as Lissajous and halo orbits (Bucchioni & Innocenti 2021).
 
 ## Saddle-Center Structure and Family Catalog at Collinear Points
 
-The motion mode at collinear equilibria is saddle × center × center: the periodic component produces periodic motion around the point, and the saddle component produces motion toward and away from these periodic solutions — i.e., the stable and unstable invariant manifolds; orbits of the same energy can be linked via manifolds at zero cost (Ren 2012, citing Koon 2000 et al.; Qiao 2025).
+The motion mode at collinear equilibria is saddle × center × center: the periodic component produces periodic motion around the point, and the saddle component produces motion toward and away from these periodic solutions, i.e., the stable and unstable invariant manifolds; orbits of the same energy can be linked via manifolds at zero cost (Ren 2012, citing Koon 2000 et al.; Qiao 2025).
 
-Family catalog (Qiao 2025, He 2025): each of L1/L2/L3 has Lyapunov, northern/southern halo, and vertical families, plus Lissajous, quasi-halo, and quasi-Lyapunov (quasi-Lyapunov orbits act as the demarcation between Lissajous and quasi-halo); the triangular points L4/L5 each have planar (short-period/long-period) and vertical families — see [Tadpole Orbit](/en/glossary/orbits/tadpole-orbit/).
+Family catalog (Qiao 2025, He 2025): each of L1/L2/L3 has Lyapunov, northern/southern halo, and vertical families, plus Lissajous, quasi-halo, and quasi-Lyapunov (quasi-Lyapunov orbits act as the demarcation between Lissajous and quasi-halo); the triangular points L4/L5 each have planar (short-period/long-period) and vertical families; see [Tadpole Orbit](/en/glossary/orbits/tadpole-orbit/).
 
 ## Substitution in the Four-Body Model
 

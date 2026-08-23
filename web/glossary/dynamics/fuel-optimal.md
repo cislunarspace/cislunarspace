@@ -70,7 +70,7 @@ $$
 u^{*}=\begin{cases}0,&\rho>0\\1,&\rho<0\\\text{不定},&\rho=0\end{cases}
 $$
 
-$\rho=0$ 对应 **奇异弧**（singular arc）：一阶极值条件不足以确定 $u$，需用 Legendre-Clebsch 二阶条件判断。在标准燃料最优问题中奇异弧极少出现，多数解呈现 **Bang-off-Bang** 结构——MT 弧（$u=1$）与 NT 弧（$u=0$）交替，中间无中间推力段（Lawden 1963；详见 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)）。
+$\rho=0$ 对应 **奇异弧**（singular arc）：一阶极值条件不足以确定 $u$，需用 Legendre-Clebsch 二阶条件判断。在标准燃料最优问题中奇异弧极少出现，多数解呈现 **Bang-off-Bang** 结构，MT 弧（$u=1$）与 NT 弧（$u=0$）交替，中间无中间推力段（Lawden 1963；详见 [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)）。
 
 ### 能量最优与同伦起点
 
@@ -80,7 +80,7 @@ $$
 J_\varepsilon=\int_{t_0}^{t_f}\!\bigl[u-\varepsilon\,u(1-u)\bigr]dt,
 $$
 
-构造从 $\varepsilon=1$（能量最优，光滑）到 $\varepsilon\to 0$（燃料最优，Bang-off-Bang）的同伦路径。该路径上的子问题以前一解为初值依次求解，是间接法走向工程可解的关键桥梁——详见 [同伦方法](/glossary/dynamics/homotopy-method/)。
+构造从 $\varepsilon=1$（能量最优，光滑）到 $\varepsilon\to 0$（燃料最优，Bang-off-Bang）的同伦路径。该路径上的子问题以前一解为初值依次求解，是间接法走向工程可解的关键桥梁，详见 [同伦方法](/glossary/dynamics/homotopy-method/)。
 
 ### 时间最优的特殊性
 
@@ -88,13 +88,13 @@ $$
 
 ## 燃料-时间权衡
 
-实际任务通常受转移时长约束。定义时间比 $c_{t_f}=t_f/t_f^{\min}$，则燃料最优剩余质量随 $c_{t_f}$ 增加而增加，但 $c_{t_f}\gtrsim 2$ 后趋于饱和（Caillau et al. 2012, Fig. 4）——多出的飞行时间换取的燃料节省边际递减。设计时常在该 Pareto 前沿上选点：地质任务取 $c_{t_f}\approx 1.5$ 偏向时间，货运任务取 $c_{t_f}\approx 2$--3 偏向燃料。
+实际任务通常受转移时长约束。定义时间比 $c_{t_f}=t_f/t_f^{\min}$，则燃料最优剩余质量随 $c_{t_f}$ 增加而增加，但 $c_{t_f}\gtrsim 2$ 后趋于饱和（Caillau et al. 2012, Fig. 4）：多出的飞行时间换取的燃料节省边际递减。设计时常在该 Pareto 前沿上选点：地质任务取 $c_{t_f}\approx 1.5$ 偏向时间，货运任务取 $c_{t_f}\approx 2$--3 偏向燃料。
 
 ## 应用要点
 
 ### 动力下降（Powered Descent）
 
-月球或行星动力下降是燃料最优控制的典型场景：终端状态约束为 $(\mathbf{r}(t_f),\mathbf{v}(t_f))$ 给定，性能指标取 $J=m(t_f)$。由极值原理导出的最优推力通常呈"始终制动"或 Bang-off-Bang 形态。Åström 与 Di Benedetto 等证明在标准软着陆问题中不存在非平凡奇异弧（You and Dai 2022），因此数值上可放心使用 Bang-off-Bang 假设。
+月球或行星动力下降是燃料最优控制的典型场景：终端状态约束为 $(\mathbf{r}(t_f),\mathbf{v}(t_f))$ 给定，性能指标取 $J=m(t_f)$。由极值原理导出的最优推力通常呈始终制动或 Bang-off-Bang 形态。Åström 与 Di Benedetto 等证明在标准软着陆问题中不存在非平凡奇异弧（You and Dai 2022），因此数值上可放心使用 Bang-off-Bang 假设。
 
 ### 地月低推力转移
 
@@ -120,24 +120,24 @@ NRHO、Halo 等平动点轨道的长期保持是周期性触发的燃料最优�
 
 ## 相关概念
 
-- [先驱向量（Primer Vector）](/glossary/dynamics/primer-vector/) — 决定最优推力方向与脉冲时刻的伴随量
-- [Bang-bang 控制（Bang-bang Control）](/glossary/dynamics/bang-bang-control/) — 燃料最优控制的典型结构
-- [同伦方法（Homotopy Method）](/glossary/dynamics/homotopy-method/) — 求解燃料最优 Bang-off-Bang 的核心数值手段
-- [庞特里亚金最小值原理（PMP）](/glossary/dynamics/pontryagins-maximum-principle/) — 推导最优控制律的基础定理
-- [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/) — 切换函数的来源
-- [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/) — 求解燃料最优问题的方法框架
-- [电推进（Electric Propulsion）](/glossary/fundamentals/ep/) — 燃料最优控制的主要物理载体
+- [先驱向量（Primer Vector）](/glossary/dynamics/primer-vector/)：决定最优推力方向与脉冲时刻的伴随量
+- [Bang-bang 控制（Bang-bang Control）](/glossary/dynamics/bang-bang-control/)：燃料最优控制的典型结构
+- [同伦方法（Homotopy Method）](/glossary/dynamics/homotopy-method/)：求解燃料最优 Bang-off-Bang 的核心数值手段
+- [庞特里亚金最小值原理（PMP）](/glossary/dynamics/pontryagins-maximum-principle/)：推导最优控制律的基础定理
+- [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)：切换函数的来源
+- [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/)：求解燃料最优问题的方法框架
+- [电推进（Electric Propulsion）](/glossary/fundamentals/ep/)：燃料最优控制的主要物理载体
 
 ## 参考文献
 
 - Lawden, D. F. 1963. *Optimal Trajectories for Space Navigation*. Butterworths, London.（三类推力弧与奇异弧分析的经典出处）
 - Bryson, A. E., and Ho, Y.-C. 1975. *Applied Optimal Control*. Hemisphere.（最优控制系统教材，含燃料/能量/时间三类指标对比）
-- Betts, J. T. 1998. "Survey of Numerical Methods for Trajectory Optimization." *JGCD* 21(2): 193–207.（轨迹优化数值方法综述）
+- Betts, J. T. 1998. Survey of Numerical Methods for Trajectory Optimization. *JGCD* 21(2): 193–207.（轨迹优化数值方法综述）
 - Conway, B. A. (ed.) 2010. *Spacecraft Trajectory Optimization*. Cambridge Univ. Press.（间接法、直接法与同伦法的统一教材）
-- Bertrand, R., and Epenoy, R. 2002. "New Smoothing Techniques for Solving Bang–Bang Optimal Control Problems — Numerical Results and Statistical Interpretation." *Optim. Control Appl. Methods* 23(4): 171–197.（$\varepsilon$-平滑化性能指标的开创文献）
-- Caillau, J.-B., Cerf, M., Dujols, A., et al. 2012. "Minimum Fuel Control of the Planar Circular Restricted Three-Body Problem." *CEP*.（CR3BP 平面最小燃料、$L^2$--$L^1$ 同伦与对数障碍对比）
-- Caillau, J.-B., and Daoud, B. 2012. "Minimum Time Control of the Restricted Three-Body Problem." *SIAM J. Control Optim.* 50(6).（时间最优与推力幅值同伦）
-- Taheri, E., Kolmanovsky, I., and Atkins, E. 2016. "Enhanced Smoothing Technique for Indirect Optimization of Minimum-Fuel Low-Thrust Trajectories." *JGCD* 39(11): 2500–2511.（扩展对数平滑 + 协态归一化 + STM 雅可比）
-- Zhang, et al. 2025. "Smoothing Technique for Indirect Low-Thrust Trajectory Optimization in Cislunar Space." *Space Sci. Technol.*（$L_1$--$L_2$ Halo 转移算例，erf 形式 sigmoid 比较）
-- 朱政帆, 高扬. 2017. "空间小推力轨道最优 Bang-Bang 控制的两类延拓解法综述." *深空探测学报* 4(2): 101–110.
-- You, S., and Dai, R. 2022. "Fuel-Optimal Trajectory Generation via Down-To-The-Moon Approach." *JGCD*, doi:10.2514/1.G006815.（动力下降问题无非平凡奇异弧的证明）
+- Bertrand, R., and Epenoy, R. 2002. New Smoothing Techniques for Solving Bang–Bang Optimal Control Problems: Numerical Results and Statistical Interpretation. *Optim. Control Appl. Methods* 23(4): 171–197.（$\varepsilon$-平滑化性能指标的开创文献）
+- Caillau, J.-B., Cerf, M., Dujols, A., et al. 2012. Minimum Fuel Control of the Planar Circular Restricted Three-Body Problem. *CEP*.（CR3BP 平面最小燃料、$L^2$--$L^1$ 同伦与对数障碍对比）
+- Caillau, J.-B., and Daoud, B. 2012. Minimum Time Control of the Restricted Three-Body Problem. *SIAM J. Control Optim.* 50(6).（时间最优与推力幅值同伦）
+- Taheri, E., Kolmanovsky, I., and Atkins, E. 2016. Enhanced Smoothing Technique for Indirect Optimization of Minimum-Fuel Low-Thrust Trajectories. *JGCD* 39(11): 2500–2511.（扩展对数平滑 + 协态归一化 + STM 雅可比）
+- Zhang, et al. 2025. Smoothing Technique for Indirect Low-Thrust Trajectory Optimization in Cislunar Space. *Space Sci. Technol.*（$L_1$--$L_2$ Halo 转移算例，erf 形式 sigmoid 比较）
+- 朱政帆, 高扬. 2017. 空间小推力轨道最优 Bang-Bang 控制的两类延拓解法综述. *深空探测学报* 4(2): 101–110.
+- You, S., and Dai, R. 2022. Fuel-Optimal Trajectory Generation via Down-To-The-Moon Approach. *JGCD*, doi:10.2514/1.G006815.（动力下降问题无非平凡奇异弧的证明）

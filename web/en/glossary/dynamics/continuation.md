@@ -36,7 +36,7 @@ $$\mathbf{F}(\mathbf{x},\lambda)=\mathbf{0},\qquad \mathbf{x}\in\mathbb{R}^n,\ \
 
 starting from a known solution $(\mathbf{x}_0,\lambda_0)$. The parameter is stepped forward incrementally, with each previous solution used as the initial guess for the next, thereby sweeping out an entire solution branch (Seydel 2010; Allgower & Georg 1990).
 
-In the [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/), $\mathbf{F}$ is usually the periodicity condition (the shooting equation for state return) augmented by one constraint, $\mathbf{x}$ collects the free variables (initial state, period, etc.), and $\lambda$ is the family parameter (Jacobi constant $C$, amplitude $A_z$, perilune altitude, etc.). Continuation is the standard tool for systematically computing and analysing [periodic orbit families](/en/glossary/orbits/periodic-orbit-family/) — Halo, Lyapunov, [DRO](/en/glossary/orbits/distant-retrograde-orbit-dro/), [NRHO](/en/glossary/orbits/nrho/), butterfly, and so on. The idea was introduced by Poincaré and matured into a numerical discipline in the 1960s–70s (Gómez et al. 2001; Zhang 2019).
+In the [Circular Restricted Three-Body Problem (CR3BP)](/en/glossary/dynamics/cr3bp/), $\mathbf{F}$ is usually the periodicity condition (the shooting equation for state return) augmented by one constraint, $\mathbf{x}$ collects the free variables (initial state, period, etc.), and $\lambda$ is the family parameter (Jacobi constant $C$, amplitude $A_z$, perilune altitude, etc.). Continuation is the standard tool for systematically computing and analysing [periodic orbit families](/en/glossary/orbits/periodic-orbit-family/): Halo, Lyapunov, [DRO](/en/glossary/orbits/distant-retrograde-orbit-dro/), [NRHO](/en/glossary/orbits/nrho/), butterfly, and so on. The idea was introduced by Poincaré and matured into a numerical discipline in the 1960s–70s (Gómez et al. 2001; Zhang 2019).
 
 ## General Form
 
@@ -64,7 +64,7 @@ The Newton-iteration variant of natural parameter continuation: at each step sol
 
 $$\mathbf{x}_k^{(j+1)}=\mathbf{x}_k^{(j)}-\mathbf{F}_\mathbf{x}^{-1}\mathbf{F}(\mathbf{x}_k^{(j)},\lambda_k).$$
 
-"Newton" here refers to the correction step — the underlying stepping strategy remains natural-parameter. Like it, the method cannot cross turning points. The literature sometimes conflates this with Newton *homotopy* (a particular way of constructing the homotopy function, see [Homotopy Method](/en/glossary/dynamics/homotopy-method/)); the two are distinct.
+Newton here refers to the correction step: the underlying stepping strategy remains natural-parameter. Like it, the method cannot cross turning points. The literature sometimes conflates this with Newton *homotopy* (a particular way of constructing the homotopy function, see [Homotopy Method](/en/glossary/dynamics/homotopy-method/)); the two are distinct.
 
 ### 3. Pseudo-arclength Continuation
 
@@ -82,7 +82,7 @@ remains non-singular at the turning point where the standard Jacobian $\mathbf{F
 
 ### 4. Piecewise-Linear (Simplicial) Continuation
 
-A derivative-free "robust" variant that requires only continuity of $\mathbf{F}$: the $(\mathbf{x},\lambda)$ space is triangulated and completely labelled simplices are tracked to approximate the curve. No Jacobian is needed and the method works on non-smooth problems, but accuracy is low and computational cost high — much slower than predictor-corrector (Allgower & Georg 1990; Haberkorn et al. 2004). Rarely used in orbital mechanics except as a fallback when Jacobians are unavailable or the homotopy curve is highly irregular.
+A derivative-free robust variant that requires only continuity of $\mathbf{F}$: the $(\mathbf{x},\lambda)$ space is triangulated and completely labelled simplices are tracked to approximate the curve. No Jacobian is needed and the method works on non-smooth problems, but accuracy is low and computational cost high, much slower than predictor-corrector (Allgower & Georg 1990; Haberkorn et al. 2004). Rarely used in orbital mechanics except as a fallback when Jacobians are unavailable or the homotopy curve is highly irregular.
 
 ## Turning Points and Bifurcations
 
@@ -111,9 +111,9 @@ A fixed step $\Delta\lambda$ (or $\Delta s$) that is too large causes the predic
 
 ## Application Notes
 
-1. **Systematic family sweep**. Given a seed periodic orbit (typically produced by [differential correction](/en/glossary/dynamics/differential-correction/)), continuation generates thousands of orbits in a single run, bypassing per-orbit initial guessing — this is the industrial-strength way to produce Halo/Lyapunov/DRO/NRHO atlases (Zhang 2019).
+1. **Systematic family sweep**. Given a seed periodic orbit (typically produced by [differential correction](/en/glossary/dynamics/differential-correction/)), continuation generates thousands of orbits in a single run, bypassing per-orbit initial guessing, this is the industrial-strength way to produce Halo/Lyapunov/DRO/NRHO atlases (Zhang 2019).
 2. **Model continuation**. Treat model fidelity as the continuation parameter (e.g. CR3BP → bicircular four-body → ephemeris $N$-body), solving for libration points or periodic orbits at each step. Systematised by Ren et al. (2012) and Dei Tos & Topputo (2017), this is the standard pipeline for transplanting a CR3BP-designed orbit into a real ephemeris environment.
-3. **Continuation of quasi-periodic invariant tori**. A state grid is built near the centre manifold of a reference periodic orbit, corrected under stroboscopic-map anchoring, no-drift-along-torus and period-matching constraints, and then continued along the family tangent — the standard way to generate quasi-periodic Lissajous / quasi-Halo families in the CR3BP (Capannolo et al. 2023; Gómez et al. 2001).
+3. **Continuation of quasi-periodic invariant tori**. A state grid is built near the centre manifold of a reference periodic orbit, corrected under stroboscopic-map anchoring, no-drift-along-torus and period-matching constraints, and then continued along the family tangent, the standard way to generate quasi-periodic Lissajous / quasi-Halo families in the CR3BP (Capannolo et al. 2023; Gómez et al. 2001).
 4. **Launch window and robustness analysis**. Treat engineering parameters such as departure time or surface stay duration as continuation variables and sweep the feasibility region around an optimum to assess window width and backup capability (Ding et al. 2023).
 
 ## Related Concepts
@@ -144,7 +144,7 @@ A fixed step $\Delta\lambda$ (or $\Delta s$) that is too large causes the predic
 
 - Galan-Vioque J, Almendral J A, McGrath M. 2014. Continuation of periodic orbits in symmetric Hamiltonian and conservative systems. *Discrete Contin. Dyn. Syst. Ser. S*. (Theory and AUTO practice for periodic orbit continuation in conservative systems.)
 
-- Gómez G, Mondelo J M. 2001. *Dynamics and Mission Design near Libration Points — vol. II*. World Scientific. (Standard continuation procedures for CR3BP periodic orbit families.)
+- Gómez G, Mondelo J M. 2001. *Dynamics and Mission Design near Libration Points, vol. II*. World Scientific. (Standard continuation procedures for CR3BP periodic orbit families.)
 
 - Zhang C. 2019. Numerical continuation of families of periodic orbits in the circular restricted three-body problem. (Worked examples for Earth-Moon periodic orbit families.)
 

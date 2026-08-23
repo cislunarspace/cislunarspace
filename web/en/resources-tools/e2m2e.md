@@ -22,7 +22,7 @@ twitter:
 permalink: /en/resources-tools/e2m2e/
 ---
 
-# e2m2e — Earth to Moon, Moon to Earth
+# e2m2e: Earth to Moon, Moon to Earth
 
 [e2m2e](https://github.com/cislunarspace/e2m2e) (Earth to Moon, Moon to Earth) is a Python library based on the Circular Restricted Three-Body Problem (CR3BP) and ephemeris-based N-body dynamics (SPICE), focused on designing and analyzing cislunar space transfer trajectories. It supports a complete orbit design workflow from theoretical CR3BP models to high-fidelity ephemeris models.
 
@@ -76,10 +76,10 @@ srp_dynamics = CR3BP_SRP_Dynamics(system=system, area=10.0, mass=100.0, Cr=1.5)
 
 A systems engineering framework based on Python Protocol interfaces, including architecture components, requirements management, and data models. Supports the full systems engineering workflow for orbit design.
 
-- `mbse/architecture/` — System architecture component definitions
-- `mbse/requirements/` — Requirements management and traceability
-- `mbse/data/` — Pydantic data models and enumerations
-- `mbse/diagrams/` — Architecture diagram generation
+- `mbse/architecture/`: System architecture component definitions
+- `mbse/requirements/`: Requirements management and traceability
+- `mbse/data/`: Pydantic data models and enumerations
+- `mbse/diagrams/`: Architecture diagram generation
 
 ### Multiple Shooting
 

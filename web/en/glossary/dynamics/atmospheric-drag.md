@@ -38,13 +38,13 @@ $$
 
 where $\rho$ is the local atmospheric density (kg/m$^3$), $v$ is the magnitude of the spacecraft's velocity relative to the atmosphere, $\hat{\mathbf{v}}$ is the unit vector in the relative-velocity direction, $C_D$ is the drag coefficient, $A$ is the cross-sectional area facing the velocity direction, $m$ is the spacecraft mass, and $B = C_D A / m$ is called the **ballistic coefficient** (m$^2$/kg).
 
-The acceleration is proportional to density and to the square of velocity—hence drag is extremely strong at low altitudes where both speed and density are high. At high altitudes or at the apogee of highly eccentric orbits, drag is negligible.
+The acceleration is proportional to density and to the square of velocity, hence drag is extremely strong at low altitudes where both speed and density are high. At high altitudes or at the apogee of highly eccentric orbits, drag is negligible.
 
 ## The Dominant LEO Perturbation
 
 In low Earth orbit (LEO, <800 km), atmospheric drag is the second most important perturbation source after J2, and may even exceed non-spherical gravity during the final revolutions of a satellite's life prior to re-entry (Vallado 2022, Ch. 8.6.2). At 300 km altitude, a typical drag acceleration is on the order of $10^{-6}\text{--}10^{-5}$ m/s$^2$ for an object with a ballistic coefficient $B \approx 0.02$ m$^2$/kg; this acceleration causes a semi-major-axis decay of metres to tens of metres per day, yielding an orbital lifetime of months to years.
 
-## Atmospheric Density — The Largest Source of Uncertainty
+## Atmospheric Density: The Largest Source of Uncertainty
 
 The accuracy of drag modelling is limited by the estimation of $\rho$, which is itself highly complex and not precisely predictable (Vallado 2022, Ch. 8.6.2; Framework paper, 2023). Density is controlled primarily by the following factors:
 
@@ -56,7 +56,7 @@ The accuracy of drag modelling is limited by the estimation of $\rho$, which is 
 
 - **Geomagnetic storms**: when the indices $K_p$ and $a_p$ rise, the atmosphere heats and expands; density at high latitudes can jump within hours.
 
-- **Diurnal effect**: the sunlit hemisphere has higher density than the night side; the maximum "diurnal bulge" occurs not at local noon but around 14:00 local time.
+- **Diurnal effect**: the sunlit hemisphere has higher density than the night side; the maximum diurnal bulge occurs not at local noon but around 14:00 local time.
 
 - **Semiannual variation**: density peaks near the equinoxes.
 
@@ -90,17 +90,17 @@ Cislunar space (near the Moon) **has no atmosphere**, hence drag is zero. Howeve
 
 In cislunar-debris orbit-determination practice (Framework paper, 2023), the NRLMSISE-00 model is activated only when the perigee dips into the low-orbit regime.
 
-## DFAC — Drag-Free Attitude Control
+## DFAC: Drag-Free Attitude Control
 
-Drag-Free and Attitude Control (DFAC) is an active control technique that uses micro-thrust to cancel atmospheric drag, allowing a freely suspended proof mass inside the spacecraft to remain in a zero-acceleration state—essentially "creating" an inertial environment free of drag within the spacecraft.
+Drag-Free and Attitude Control (DFAC) is an active control technique that uses micro-thrust to cancel atmospheric drag, allowing a freely suspended proof mass inside the spacecraft to remain in a zero-acceleration state, essentially creating an inertial environment free of drag within the spacecraft.
 
 Operating principle:
 
 1. The proof mass floats freely inside the spacecraft, uncoupled from the shell's drag.
 2. Sensors detect the micro-displacement of the proof mass relative to the shell.
-3. The control system drives micro-thrusters (cold gas, electric, etc.) to make the shell "follow" the proof mass motion, compensating for the external drag acceleration.
+3. The control system drives micro-thrusters (cold gas, electric, etc.) to make the shell follow the proof mass motion, compensating for the external drag acceleration.
 
-The engineering purpose of DFAC is not attitude control but the cancellation of drag-induced acceleration—this is the precise meaning of "Drag-Free." The technique was first demonstrated on NASA's TRIAD satellite (1972) for gravity-field mapping; its most precise current application is the drag-free centre-of-mass control on LISA Pathfinder. In high-precision autonomous orbit determination for cislunar navigation satellites, the low-noise acceleration environment provided by DFAC is a prerequisite for sensitive measurements.
+The engineering purpose of DFAC is not attitude control but the cancellation of drag-induced acceleration: this is the precise meaning of Drag-Free. The technique was first demonstrated on NASA's TRIAD satellite (1972) for gravity-field mapping; its most precise current application is the drag-free centre-of-mass control on LISA Pathfinder. In high-precision autonomous orbit determination for cislunar navigation satellites, the low-noise acceleration environment provided by DFAC is a prerequisite for sensitive measurements.
 
 ## Related Concepts
 
@@ -114,7 +114,7 @@ The engineering purpose of DFAC is not attitude control but the cancellation of 
 
 ## References
 
-- Vallado, 2022, Fundamentals of Astrodynamics and Applications (Ch. 8.6.2 Atmospheric Drag—drag acceleration formula, density-variation factors, Jacchia-Roberts model; App. B Modeling the Atmosphere—atmospheric-model implementation details).
+- Vallado, 2022, Fundamentals of Astrodynamics and Applications (Ch. 8.6.2 Atmospheric Drag: drag acceleration formula, density-variation factors, Jacchia-Roberts model; App. B Modeling the Atmosphere: atmospheric-model implementation details).
 
 - Picone et al., 2002, NRLMSISE-00 empirical model of the atmosphere: Statistical comparisons and scientific issues, JGR (construction and statistical validation of NRLMSISE-00).
 

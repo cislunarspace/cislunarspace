@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/kam-theory/
 
 ## 定义
 
-KAM（Kolmogorov-Arnold-Moser）理论是近可积哈密顿系统中关于不变环面保持性的数学定理。其核心结论：当可积哈密顿系统受到足够小的非可积扰动时，满足非共振条件（Diophantine条件）的不变环面不会完全瓦解，而是在变形后依然存在。这些幸存的不变环面嵌入在相空间中，将相邻的混沌区隔离开来，充当扩散的拓扑屏障（Meyer, Hall & Offin 2017）。CR3BP 的平动点邻域动力学是 KAM 理论的典型应用场景——中心-中心鞍点结构使相空间同时容纳稳定性迥异的动力学对象，KAM环面恰在稳定区内提供了无漂流运动存在的数学保证。
+KAM（Kolmogorov-Arnold-Moser）理论是近可积哈密顿系统中关于不变环面保持性的数学定理。其核心结论：当可积哈密顿系统受到足够小的非可积扰动时，满足非共振条件（Diophantine条件）的不变环面不会完全瓦解，而是在变形后依然存在。这些幸存的不变环面嵌入在相空间中，将相邻的混沌区隔离开来，充当扩散的拓扑屏障（Meyer, Hall & Offin 2017）。CR3BP 的平动点邻域动力学是 KAM 理论的典型应用场景，中心-中心鞍点结构使相空间同时容纳稳定性迥异的动力学对象，KAM环面恰在稳定区内提供了无漂流运动存在的数学保证。
 
 Nekhoroshev定理（Nekhoroshev 1977）从另一维度补足KAM定理未覆盖的区域：它在更一般条件下给出作用量的指数型长时间有界估计，即作用量漂移时间尺度正比于 $\exp(c\varepsilon^{-a})$（$\varepsilon$ 为扰动尺度），覆盖了KAM定理的共振间隙内可能发生的Arnold扩散（Gómez et al. 2001, Ch.2）。
 
@@ -66,13 +66,13 @@ KAM环面是KAM定理保证存活的变形不变环面。在相空间中，它�
 
 1. **拓扑屏障**：环绕有理频率共振区的KAM环面将相邻混沌区隔开，阻止Arnold扩散从一个共振区间向另一个共振区蔓延。二维共振区之间若有KAM环面存在，混沌运动就困在各自共振区内的分离岛上（Gómez et al. 2001, Ch.4）。
 
-2. **DRO环面包络稳定性**：在地月CR3BP中，远距离逆行轨道（DRO）的单值矩阵具有两对模等于1的共轭复数特征值加一对模等于1的实数特征值（两个平凡根）——全部特征值都在单位圆上，说明DRO线性稳定（Yang et al. 2023；Scott & Spencer 2010, JGCD, doi:10.2514/1.47791）。在非线性层面，KAM环面为DRO在被自然微扰或小机动偏差偏离后仍保持在原轨道附近提供保证：航天器不会逃逸，而是在接近DRO的KAM环面上绕行，其返回时间与DRO周期相当。KAM环面的存在是DRO具有内在动力学稳定性、无需大冲量维持控制的根本原因。
+2. **DRO环面包络稳定性**：在地月CR3BP中，远距离逆行轨道（DRO）的单值矩阵具有两对模等于1的共轭复数特征值加一对模等于1的实数特征值（两个平凡根）：全部特征值都在单位圆上，说明DRO线性稳定（Yang et al. 2023；Scott & Spencer 2010, JGCD, doi:10.2514/1.47791）。在非线性层面，KAM环面为DRO在被自然微扰或小机动偏差偏离后仍保持在原轨道附近提供保证：航天器不会逃逸，而是在接近DRO的KAM环面上绕行，其返回时间与DRO周期相当。KAM环面的存在是DRO具有内在动力学稳定性、无需大冲量维持控制的根本原因。
 
 ## Nekhoroshev定理与轨道长期稳定性
 
-Nekhoroshev定理对航天天体力学有直接意义。受摄二体问题中，轨道要素（半长轴、偏心率等）的变化是否在任务时间尺度内可忽略，取决于系统是否落入Nekhoroshev覆盖的参数范围。对于地月三角平动点（L4/L5），虽然线性稳定性分析得出的中心型特征值表明平衡点是稳定的，但太阳引力摄动引入了非可积的 $O(\varepsilon)$ 项。Nekhoroshev型估计可以给出在此摄动下航天器停留时间的下界，这与"实用稳定区"（practical stability region）的概念有共同的数学根源。
+Nekhoroshev定理对航天天体力学有直接意义。受摄二体问题中，轨道要素（半长轴、偏心率等）的变化是否在任务时间尺度内可忽略，取决于系统是否落入Nekhoroshev覆盖的参数范围。对于地月三角平动点（L4/L5），虽然线性稳定性分析得出的中心型特征值表明平衡点是稳定的，但太阳引力摄动引入了非可积的 $O(\varepsilon)$ 项。Nekhoroshev型估计可以给出在此摄动下航天器停留时间的下界，这与实用稳定区（practical stability region）的概念有共同的数学根源。
 
-必须指出，KAM定理和Nekhoroshev定理给出的常数一般是定性的且对具体物理系统缺乏工程精度：它们保证"存在"某个阈值和时间尺度，但不直接给出在特定地月系统中的数值。具体的逃逸时间仍然主要靠数值方法（如庞加莱截面、快速Lyapunov指标图、存活时间统计）来确证。
+必须指出，KAM定理和Nekhoroshev定理给出的常数一般是定性的且对具体物理系统缺乏工程精度：它们保证存在某个阈值和时间尺度，但不直接给出在特定地月系统中的数值。具体的逃逸时间仍然主要靠数值方法（如庞加莱截面、快速Lyapunov指标图、存活时间统计）来确证。
 
 ## Maslov指数与稳定性鉴别
 
@@ -94,13 +94,13 @@ Maslov指数（Maslov Index）是辛矩阵路径的拓扑不变量（Meyer, Hall
 
 ## 参考文献
 
-- Kolmogorov, 1954, "On Conservation of Conditionally Periodic Motions for a Small Change in Hamilton's Function", Dokl. Akad. Nauk SSSR（KAM定理的原始表述）
+- Kolmogorov, 1954, On Conservation of Conditionally Periodic Motions for a Small Change in Hamilton's Function, Dokl. Akad. Nauk SSSR（KAM定理的原始表述）
 
-- Arnold, 1963, "Proof of a Theorem of A. N. Kolmogorov on the Invariance of Quasi-Periodic Motions Under Small Perturbations of the Hamiltonian", Russ. Math. Surv.（Arnold扩散的命名渊源）
+- Arnold, 1963, Proof of a Theorem of A. N. Kolmogorov on the Invariance of Quasi-Periodic Motions Under Small Perturbations of the Hamiltonian, Russ. Math. Surv.（Arnold扩散的命名渊源）
 
-- Moser, 1962, "On Invariant Curves of Area-Preserving Mappings of an Annulus", Nachr. Akad. Wiss. Göttingen（Moser 对映射情形的证明）
+- Moser, 1962, On Invariant Curves of Area-Preserving Mappings of an Annulus, Nachr. Akad. Wiss. Göttingen（Moser 对映射情形的证明）
 
-- Nekhoroshev, 1977, "An Exponential Estimate of the Time of Stability of Nearly Integrable Hamiltonian Systems", Russ. Math. Surv.（Nekhoroshev定理的原始出处）
+- Nekhoroshev, 1977, An Exponential Estimate of the Time of Stability of Nearly Integrable Hamiltonian Systems, Russ. Math. Surv.（Nekhoroshev定理的原始出处）
 
 - Meyer, Hall & Offin, 2017, *Introduction to Hamiltonian Dynamical Systems and the N-Body Problem*, 3rd ed., Springer（KAM定理与Maslov指数的现代教材级处理；§6.4-6.6）
 
@@ -108,8 +108,8 @@ Maslov指数（Maslov Index）是辛矩阵路径的拓扑不变量（Meyer, Hall
 
 - Scott & Spencer, 2010, JGCD, doi:10.2514/1.47791（KAM环面用于解释DRO微扰下的动力学稳定性）
 
-- Yang et al., 2023, "Close Relative Motion on Distant Retrograde Orbits", Acta Astronautica（DRO 单值矩阵特征值结构：两对模 1 共轭复数加一对模 1 实数）
+- Yang et al., 2023, Close Relative Motion on Distant Retrograde Orbits, Acta Astronautica（DRO 单值矩阵特征值结构：两对模 1 共轭复数加一对模 1 实数）
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points — Vol. II: Fundamentals: The Case of Triangular Libration Points*（平动点邻域KAM拓扑屏障的详细讨论）
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points, Vol. II: Fundamentals: The Case of Triangular Libration Points*（平动点邻域KAM拓扑屏障的详细讨论）
 
 - Perozzi & Ferraz-Mello (eds.), 2010, *Space Manifold Dynamics*（KAM理论在空间任务动力学中的应用综述）

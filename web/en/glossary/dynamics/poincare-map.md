@@ -39,7 +39,7 @@ Closely related but distinct concepts:
 | **Poincaré section** | Geometry | The hypersurface $\Sigma$ on which crossings are recorded |
 | **Poincaré map** | Dynamics | The discrete map $P$ and the patterns formed by its iterates |
 
-Section versus map is analogous to "the cutting plane" versus "the pattern seen after projecting crossings onto it".
+Section versus map is analogous to the cutting plane versus the pattern seen after projecting crossings onto it.
 
 ## Dimensionality and visualization
 
@@ -63,7 +63,7 @@ Iterates form closed curves on **invariant tori** (quasi-periodic motion) or fil
 
 ### Periapse map
 
-Defined on the [periapse section](/en/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$. In the planar problem its projection into configuration space fully represents the state and reveals escape/capture structure near the smaller primary (Villac & Scheeres 2004; Paskowitz & Scheeres 2006). Variants named by central body — **perigee map**, **perilune map**, **apse map** — are the same construction with a different reference primary; the perilune map is widely used to screen lunar-gravity-assist + WSB capture transfers from the Earth and to analyze the perilune distribution of DRO family members (Scott & Spencer 2010).
+Defined on the [periapse section](/en/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$. In the planar problem its projection into configuration space fully represents the state and reveals escape/capture structure near the smaller primary (Villac & Scheeres 2004; Paskowitz & Scheeres 2006). Variants named by central body (**perigee map**, **perilune map**, **apse map**) are the same construction with a different reference primary; the perilune map is widely used to screen lunar-gravity-assist + WSB capture transfers from the Earth and to analyze the perilune distribution of DRO family members (Scott & Spencer 2010).
 
 ### Tisserand–Poincaré (T-P) graph
 
@@ -75,7 +75,7 @@ An extension of the Tisserand graph (a patched-conic gravity-assist sequencing t
 
 - **Transfer initial-guess generation**: the map compresses a high-dimensional solution space into a 2D image, allowing interactive selection of transfer candidates that are then refined by [differential correction](/en/glossary/dynamics/differential-correction/) or multiple shooting.
 
-- **Long-term-capture orbit search**: periapse maps classify non-transit (long-term-capture) trajectories; periodic orbits are seeded from nearby "mirror configurations" and refined by continuation (Haapala & Howell 2014).
+- **Long-term-capture orbit search**: periapse maps classify non-transit (long-term-capture) trajectories; periodic orbits are seeded from nearby mirror configurations and refined by continuation (Haapala & Howell 2014).
 
 - **DRO family analysis**: a perilune map of DRO members shows the distribution of perilune states versus orbit parameter, identifying windows suitable for lunar-gravity-assist insertion.
 
@@ -103,7 +103,7 @@ A typical Earth–Moon map for ~1000 manifold trajectories integrated over ~1.2 
 
 - Parker T S, Chua L O. *Practical Numerical Algorithms for Chaotic Systems*. Springer, 1989.
 
-- Gómez G, Llibre J, Martínez R, Simó C. *Dynamics and Mission Design near Libration Points — Vol. II*. World Scientific, 2001.
+- Gómez G, Llibre J, Martínez R, Simó C. *Dynamics and Mission Design near Libration Points. Vol. II*. World Scientific, 2001.
 
 - Villac B F, Scheeres D J. On the concept of periapsis in Hill's problem. *Dynamics & Control of Systems*, 2004.
 

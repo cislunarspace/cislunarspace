@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/co-state-variables/
 
 ## 定义
 
-协态变量（costate variables，又称伴随变量 adjoint variables、共轭变量 conjugate variables、与状态变量配对的拉格朗日乘子）是最优控制问题中为施加动力学约束而引入的对偶变量。它们不对应任何可直接测量的物理量；几何意义是性能指标对状态的灵敏度——$\lambda_i(t)=\partial J^*/\partial x_i(t)$（Bryson & Ho 1975；Betts 2010）。庞特里亚金极值原理（PMP）通过 Hamilton 函数把协态与状态耦合为正则方程，使最优控制问题转化为以 $(\mathbf{x},\boldsymbol{\lambda})$ 为变量的两点边值问题（TPBVP）。共轭方程、共轭动量、共轭变量、协态归一化、协态-控制变换等概念，都是这套对偶框架在不同问题结构下的具体化。
+协态变量（costate variables，又称伴随变量 adjoint variables、共轭变量 conjugate variables、与状态变量配对的拉格朗日乘子）是最优控制问题中为施加动力学约束而引入的对偶变量。它们不对应任何可直接测量的物理量；几何意义是性能指标对状态的灵敏度，即 $\lambda_i(t)=\partial J^*/\partial x_i(t)$（Bryson & Ho 1975；Betts 2010）。庞特里亚金极值原理（PMP）通过 Hamilton 函数把协态与状态耦合为正则方程，使最优控制问题转化为以 $(\mathbf{x},\boldsymbol{\lambda})$ 为变量的两点边值问题（TPBVP）。共轭方程、共轭动量、共轭变量、协态归一化、协态-控制变换等概念，都是这套对偶框架在不同问题结构下的具体化。
 
 ## Hamilton 形式与伴随方程
 
@@ -53,15 +53,15 @@ $$H=L+\boldsymbol{\lambda}_r^{\!\top}\mathbf{v}+\boldsymbol{\lambda}_v^{\!\top}(
 
 ## 协态归一化
 
-对**自由末态**问题，$(\boldsymbol{\lambda}(t_0),\lambda_0)$ 可乘以任意正常数而不改变最优轨迹——PMP 的齐次性。利用这一冗余自由度把 $\boldsymbol{\lambda}(t_0)$ 约束在单位球面 $\|\boldsymbol{\lambda}(t_0)\|=1$（或令某一分量为 1）即**协态归一化**（Thorne 1996；Oshima et al. 2017）。归一化把搜索维度从 $n$ 降至 $n-1$，并避免不同分量量纲差异导致的条件数恶化。对**最小时间**问题 $\Phi=t_f$，Hamiltonian 齐次性消失，归一化条件 $H\equiv -1$ 取而代之；对**最小燃料**问题 $L=T/(I_{sp}g_0)$，齐次性保持。
+对**自由末态**问题，$(\boldsymbol{\lambda}(t_0),\lambda_0)$ 可乘以任意正常数而不改变最优轨迹，即 PMP 的齐次性。利用这一冗余自由度把 $\boldsymbol{\lambda}(t_0)$ 约束在单位球面 $\|\boldsymbol{\lambda}(t_0)\|=1$（或令某一分量为 1）即**协态归一化**（Thorne 1996；Oshima et al. 2017）。归一化把搜索维度从 $n$ 降至 $n-1$，并避免不同分量量纲差异导致的条件数恶化。对**最小时间**问题 $\Phi=t_f$，Hamiltonian 齐次性消失，归一化条件 $H\equiv -1$ 取而代之；对**最小燃料**问题 $L=T/(I_{sp}g_0)$，齐次性保持。
 
 ## 协态-控制变换
 
-间接法的初始协态猜测没有物理意义，初值域难以估计。**协态-控制变换**（adjoint-control transformation，Kluever & Pierson 1995；Conway 2010, Ch.4）把设计变量从 $\boldsymbol{\lambda}(t_0)$ 改为推力方向角 $(\alpha,\beta)$ 及其变化率 $(\dot\alpha,\dot\beta)$ 的初值，加上 $\lambda_v$、$\dot\lambda_v$、$\lambda_m$ 等少数标量。这些"伴随控制变量"具有直接物理意义，便于工程师给出合理猜测。**隐式协态变换**（Pozzi et al. 2025）是多弧段问题的对应技术：用闭合形式关系将上一弧段末端协态映射到下一弧段始端，避免独立求解每个弧段的角点条件。
+间接法的初始协态猜测没有物理意义，初值域难以估计。**协态-控制变换**（adjoint-control transformation，Kluever & Pierson 1995；Conway 2010, Ch.4）把设计变量从 $\boldsymbol{\lambda}(t_0)$ 改为推力方向角 $(\alpha,\beta)$ 及其变化率 $(\dot\alpha,\dot\beta)$ 的初值，加上 $\lambda_v$、$\dot\lambda_v$、$\lambda_m$ 等少数标量。这些伴随控制变量具有直接物理意义，便于工程师给出合理猜测。**隐式协态变换**（Pozzi et al. 2025）是多弧段问题的对应技术：用闭合形式关系将上一弧段末端协态映射到下一弧段始端，避免独立求解每个弧段的角点条件。
 
 ## 协态初值敏感性
 
-间接法的核心难点是 $\boldsymbol{\lambda}(t_0)$ 数值上极不稳定——微小扰动会引起轨迹在 $t_f$ 处发散。**初始协态轨迹**（optimal initial costate locus）刻画 $\boldsymbol{\lambda}(t_0)$ 随问题参数（推力加速度、目标半径）变化的曲线族，在抛物、椭圆、螺旋等不同运动区域呈现不同特征（Thorne 1996）。实践中通常以 [同伦方法](/glossary/dynamics/homotopy-method/) 从易解的 energy-optimal 问题出发，逐步过渡到 fuel-optimal 问题。
+间接法的核心难点是 $\boldsymbol{\lambda}(t_0)$ 数值上极不稳定，微小扰动会引起轨迹在 $t_f$ 处发散。**初始协态轨迹**（optimal initial costate locus）刻画 $\boldsymbol{\lambda}(t_0)$ 随问题参数（推力加速度、目标半径）变化的曲线族，在抛物、椭圆、螺旋等不同运动区域呈现不同特征（Thorne 1996）。实践中通常以 [同伦方法](/glossary/dynamics/homotopy-method/) 从易解的 energy-optimal 问题出发，逐步过渡到 fuel-optimal 问题。
 
 ## 应用要点
 

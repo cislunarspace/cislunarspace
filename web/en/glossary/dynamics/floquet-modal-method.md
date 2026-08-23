@@ -30,9 +30,9 @@ permalink: /en/glossary/dynamics/floquet-modal-method/
 
 ## Definition and Core Idea
 
-The Floquet modal method is a class of libration point stationkeeping strategies based on eigen-decomposition of the monodromy matrix. The core idea: decompose the deviation $\Delta X$ from the reference orbit into 6 Floquet modes (2 unstable, 2 center, 2 stable), then cancel only the exponentially growing unstable component while ignoring the oscillatory center modes and the decaying stable modes. Since the unstable mode dominates long-term error divergence, canceling it yields the lowest control cost, and maneuver intervals can be stretched to the time scale required for the error to re-accumulate to the activation threshold — typically days to weeks.
+The Floquet modal method is a class of libration point stationkeeping strategies based on eigen-decomposition of the monodromy matrix. The core idea: decompose the deviation $\Delta X$ from the reference orbit into 6 Floquet modes (2 unstable, 2 center, 2 stable), then cancel only the exponentially growing unstable component while ignoring the oscillatory center modes and the decaying stable modes. Since the unstable mode dominates long-term error divergence, canceling it yields the lowest control cost, and maneuver intervals can be stretched to the time scale required for the error to re-accumulate to the activation threshold, typically days to weeks.
 
-This principle was developed by Gómez et al. (1998) and subsequent work (Hou et al., 2011) into an operational stationkeeping framework for libration point missions. Compared with classical reference-orbit tracking methods (where maneuvers correct back to the reference orbit every few revolutions), the Floquet approach significantly reduces fuel consumption and yields longer maneuver intervals — particularly advantageous for deep-space missions requiring minimal thruster firings (e.g., those sensitive to instrument disturbance).
+This principle was developed by Gómez et al. (1998) and subsequent work (Hou et al., 2011) into an operational stationkeeping framework for libration point missions. Compared with classical reference-orbit tracking methods (where maneuvers correct back to the reference orbit every few revolutions), the Floquet approach significantly reduces fuel consumption and yields longer maneuver intervals, particularly advantageous for deep-space missions requiring minimal thruster firings (e.g., those sensitive to instrument disturbance).
 
 ## Three Stationkeeping Strategies
 
@@ -48,25 +48,25 @@ Earth-Moon libration point stationkeeping strategies fall into three categories,
 2. Compare the spacecraft's measured state with the reference orbit to obtain the deviation $\Delta X$.
 3. Project $\Delta X$ onto the basis: $a = W^{-1} \cdot \Delta X$.
 4. If $|a_u| > $ threshold, solve the impulse equation: $\Delta V$ such that $a_u=0$ at the start of the next cycle.
-5. Maneuvers can be intermittent — the interval is determined by the threshold stringency: tighter thresholds mean more frequent maneuvers.
+5. Maneuvers can be intermittent: the interval is determined by the threshold stringency: tighter thresholds mean more frequent maneuvers.
 
 **Advantages**: Lower fuel consumption than reference-orbit tracking; long maneuver intervals (days to weeks); the option to leave center-mode amplitude variations uncontrolled preserves orbital natural evolution.
-**Disadvantages**: Requires a pre-computed reference orbit and Floquet basis; sensitivity to reference orbit accuracy and perturbations — lunar eccentricity and solar gravity cause the modal computation to deviate from reality.
+**Disadvantages**: Requires a pre-computed reference orbit and Floquet basis; sensitivity to reference orbit accuracy and perturbations: lunar eccentricity and solar gravity cause the modal computation to deviate from reality.
 
 ### Floquet Strategy (Nodal Method)
 
-The Floquet strategy is mathematically in the same family as the Floquet modal method — the key difference lies in computing the Floquet decomposition at specific nodes of the reference orbit (e.g., $x$-axis crossings, or $x$-$z$ plane crossings). Nodal computation simplifies the modal matrix because the dynamical conditions at a node are more regular, yielding greater numerical stability and engineering applicability. Hou et al. (2011) systematized this strategy as the standard stationkeeping framework for Earth-Moon libration point orbits — the modal matrix is computed at each $x$-$z$ plane crossing to decide whether to execute a maneuver.
+The Floquet strategy is mathematically in the same family as the Floquet modal method; the key difference lies in computing the Floquet decomposition at specific nodes of the reference orbit (e.g., $x$-axis crossings, or $x$-$z$ plane crossings). Nodal computation simplifies the modal matrix because the dynamical conditions at a node are more regular, yielding greater numerical stability and engineering applicability. Hou et al. (2011) systematized this strategy as the standard stationkeeping framework for Earth-Moon libration point orbits; the modal matrix is computed at each $x$-$z$ plane crossing to decide whether to execute a maneuver.
 
 ### Orbit Balancing (Orbit Continuation) Method
 
-The orbit balancing method (also called **orbit continuation**) represents a fundamentally different approach to libration point stationkeeping: rather than attempting to return to a prescribed reference orbit, it selects a specific node on the current trajectory (e.g., an $x$-axis crossing) and applies a maneuver designed so that, several revolutions later, an energy or velocity target is met — thereby keeping the orbit from escaping.
+The orbit balancing method (also called **orbit continuation**) represents a fundamentally different approach to libration point stationkeeping: rather than attempting to return to a prescribed reference orbit, it selects a specific node on the current trajectory (e.g., an $x$-axis crossing) and applies a maneuver designed so that, several revolutions later, an energy or velocity target is met, thereby keeping the orbit from escaping.
 
 Folta et al. (2010) describe this method in detail as applied to the **ARTEMIS** mission (quasi-periodic Lissajous orbits at Earth-Moon $L_1$/$L_2$). ARTEMIS chose **not** to use the Floquet modal method for two engineering reasons:
 
-1. The mission had **no pre-generated reference orbit** for computing Floquet modes — the parameter space of quasi-periodic Lissajous orbits is continuous, with no single "correct" nominal orbit.
-2. Under a full ephemeris model, lunar eccentricity and solar gravity make Floquet mode computation sensitive to perturbations, especially for quasi-periodic motion that cannot be precisely matched to a single CR3BP periodic orbit — the modal basis varies strongly over time.
+1. The mission had **no pre-generated reference orbit** for computing Floquet modes: the parameter space of quasi-periodic Lissajous orbits is continuous, with no single correct nominal orbit.
+2. Under a full ephemeris model, lunar eccentricity and solar gravity make Floquet mode computation sensitive to perturbations, especially for quasi-periodic motion that cannot be precisely matched to a single CR3BP periodic orbit; the modal basis varies strongly over time.
 
-Typical operation of the orbit balancing method: at an $x$-axis crossing, require the future $x$-velocity to be slightly negative, ensuring the orbit always wraps inward toward the libration point rather than escaping — this constraint is enforced via differential correction (DC) that solves for the maneuver direction and time. Folta & Vaughn (2004) report ARTEMIS annual stationkeeping costs of approximately 15–70 m/s (Lissajous) to 100–200 m/s (Halo), depending on orbit amplitude and control direction ($x$-axis vs. $y$-axis).
+Typical operation of the orbit balancing method: at an $x$-axis crossing, require the future $x$-velocity to be slightly negative, ensuring the orbit always wraps inward toward the libration point rather than escaping; this constraint is enforced via differential correction (DC) that solves for the maneuver direction and time. Folta & Vaughn (2004) report ARTEMIS annual stationkeeping costs of approximately 15–70 m/s (Lissajous) to 100–200 m/s (Halo), depending on orbit amplitude and control direction ($x$-axis vs. $y$-axis).
 
 ## Strategy Comparison
 
@@ -81,13 +81,13 @@ Typical operation of the orbit balancing method: at an $x$-axis crossing, requir
 
 ## Practical Considerations
 
-- **Mode Selection**: The key tuning parameter of the Floquet modal method is the unstable-component threshold — larger thresholds yield longer maneuver intervals but reduce fuel efficiency. Mission design must balance maneuver frequency against fuel cost.
+- **Mode Selection**: The key tuning parameter of the Floquet modal method is the unstable-component threshold: larger thresholds yield longer maneuver intervals but reduce fuel efficiency. Mission design must balance maneuver frequency against fuel cost.
 
-- **Reference Orbit Dependence**: The Floquet modal method requires the reference orbit to be numerically balanced to high precision (at least $10^{-12}$) for reliable modal matrix computation — for large-amplitude Halo orbits, spin-plane constraints must also be introduced in the correction process.
+- **Reference Orbit Dependence**: The Floquet modal method requires the reference orbit to be numerically balanced to high precision (at least $10^{-12}$) for reliable modal matrix computation; for large-amplitude Halo orbits, spin-plane constraints must also be introduced in the correction process.
 
 - **Robustness Under Perturbations**: Under a full ephemeris model, the reference orbit and modal basis can be periodically re-computed to compensate for accumulated perturbation effects, mitigating modal drift errors.
 
-- **Connection to Invariant Manifold Design**: The stable direction $w_s$ and unstable direction $w_u$ from the Floquet modal method are precisely the asymptotic directions needed for manifold patching — stationkeeping and transfer trajectory design share the same Floquet analysis infrastructure.
+- **Connection to Invariant Manifold Design**: The stable direction $w_s$ and unstable direction $w_u$ from the Floquet modal method are precisely the asymptotic directions needed for manifold patching; stationkeeping and transfer trajectory design share the same Floquet analysis infrastructure.
 
 ## Related Concepts
 

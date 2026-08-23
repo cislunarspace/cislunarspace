@@ -30,7 +30,7 @@ permalink: /en/glossary/orbits/multi-body-constellation/
 
 ## Definition
 
-A constellation is a system of multiple satellites working cooperatively; a cislunar constellation deploys its satellites across circumlunar orbits, libration point orbits, and other orbit types to provide lunar surface coverage, relay communication, and navigation services. "Multi-body constellation" is the customary literature term (e.g. Trabacchin 2025), denoting a multi-satellite / multi-body-orbit constellation without a stricter formal definition. Coverage performance metrics: the coverage time percentage (CTP) of single coverage and the continuous single-coverage area percentage (SCP) (Gao & Hou 2020); navigation requirements use the four-fold coverage percentage (fraction of time with at least 4 satellites simultaneously visible) and the GDOP time percentage (Chen 2024).
+A constellation is a system of multiple satellites working cooperatively; a cislunar constellation deploys its satellites across circumlunar orbits, libration point orbits, and other orbit types to provide lunar surface coverage, relay communication, and navigation services. Multi-body constellation is the customary literature term (e.g. Trabacchin 2025), denoting a multi-satellite / multi-body-orbit constellation without a stricter formal definition. Coverage performance metrics: the coverage time percentage (CTP) of single coverage and the continuous single-coverage area percentage (SCP) (Gao & Hou 2020); navigation requirements use the four-fold coverage percentage (fraction of time with at least 4 satellites simultaneously visible) and the GDOP time percentage (Chen 2024).
 
 ## Lunar South Pole Coverage
 
@@ -42,7 +42,7 @@ Single orbit types approach but never reach 100%: a 4-satellite halo constellati
 
 ## Cislunar Constellation Build-Up Roadmap
 
-Chen 2024 proposes three stages: 100% single coverage of the south polar region (Earth relay communication) → 100% four-fold polar coverage (navigation) plus 100% single whole-Moon coverage (communication) → 100% four-fold whole-Moon coverage (whole-Moon navigation). The final configuration is 12 elliptical frozen orbits (ELFO, 12 h period, 300 km perilune, in north and south groups covering the two poles) + 4 satellites on 9:2 NRHOs + 2 halo orbits (one each at L1 and L2) + 3 satellites on 2:1 DROs spaced 120° apart — 21 satellites in all, with GDOP≤5 at least 72% of the time at any point on the Moon.
+Chen 2024 proposes three stages: 100% single coverage of the south polar region (Earth relay communication) → 100% four-fold polar coverage (navigation) plus 100% single whole-Moon coverage (communication) → 100% four-fold whole-Moon coverage (whole-Moon navigation). The final configuration is 12 elliptical frozen orbits (ELFO, 12 h period, 300 km perilune, in north and south groups covering the two poles) + 4 satellites on 9:2 NRHOs + 2 halo orbits (one each at L1 and L2) + 3 satellites on 2:1 DROs spaced 120° apart, 21 satellites in all, with GDOP≤5 at least 72% of the time at any point on the Moon.
 
 ## Terminology Variants
 

@@ -30,17 +30,17 @@ permalink: /glossary/dynamics/amplitude-condition/
 
 ## 什么是振幅条件？
 
-CR3BP 平动点线性化运动可分解为 xy 面内和 z 面外两个近似独立的简谐振动。面内振动频率为 $\omega$，面外为 $\nu$，二者一般不可公度——此即 Lissajous 轨道的线性近似（Richardson 1980）。
+CR3BP 平动点线性化运动可分解为 xy 面内和 z 面外两个近似独立的简谐振动。面内振动频率为 $\omega$，面外为 $\nu$，二者一般不可公度，此即 Lissajous 轨道的线性近似（Richardson 1980）。
 
-Halo 型周期轨道要求面内与面外频率在经过非线性修正后相等。Richardson (1980) 用 Lindstedt-Poincaré 方法构造三阶解析近似时发现：在三阶 z 方程中出现了无法通过频率展开消除的长期项。为完成不含长期项的三阶展开，必须施加一个面内振幅 $A_x$ 与面外振幅 $A_z$ 的非线性代数约束——即**振幅条件**（amplitude condition）（Richardson 1980）：
+Halo 型周期轨道要求面内与面外频率在经过非线性修正后相等。Richardson (1980) 用 Lindstedt-Poincaré 方法构造三阶解析近似时发现：在三阶 z 方程中出现了无法通过频率展开消除的长期项。为完成不含长期项的三阶展开，必须施加一个面内振幅 $A_x$ 与面外振幅 $A_z$ 的非线性代数约束，即**振幅条件**（amplitude condition）（Richardson 1980）：
 
 $$
 l_1 A_x^2 + l_2 A_z^2 + \Delta = 0 \tag{18}
 $$
 
-其中 $l_1$、$l_2$、$\Delta$ 是由平动点位置和质量参数 $\mu$ 确定的常系数（具体值见 Richardson 1980 附录 I，日地系各平动点数值见该文的表格）。该条件表明：**$A_x$ 与 $A_z$ 不是独立参数**——选定一个后另一个即被约束。当不满足振幅条件时，轨道退化为面内面外频率不可公度的非闭合 Lissajous 轨迹，而非周期性的 Halo 轨道。
+其中 $l_1$、$l_2$、$\Delta$ 是由平动点位置和质量参数 $\mu$ 确定的常系数（具体值见 Richardson 1980 附录 I，日地系各平动点数值见该文的表格）。该条件表明：**$A_x$ 与 $A_z$ 不是独立参数**，选定一个后另一个即被约束。当不满足振幅条件时，轨道退化为面内面外频率不可公度的非闭合 Lissajous 轨迹，而非周期性的 Halo 轨道。
 
-振幅条件亦存在两个分支（n=1 与 n=3），由相位约束关系 $\psi = \phi + n\pi/2$ 中的开关函数 $\delta_n = 2-n$ 区分——这对应于 Halo 轨道的北族（Northern）与南族（Southern）分叉（Richardson 1980）。改变 $A_z$ 的符号即实现由北族到南族的切换。
+振幅条件亦存在两个分支（n=1 与 n=3），由相位约束关系 $\psi = \phi + n\pi/2$ 中的开关函数 $\delta_n = 2-n$ 区分，这对应于 Halo 轨道的北族（Northern）与南族（Southern）分叉（Richardson 1980）。改变 $A_z$ 的符号即实现由北族到南族的切换。
 
 振幅条件规定了 Halo 轨道 $A_x$ 的下限（$A_z=0$ 时对应的 $A_{x,\min}=\sqrt{-\Delta/l_1}$）。以日地系 $L_1$ 为例，$A_{x,\min}$ 约为归一化距离的 14%，相当于约 200,000 km（Richardson 1980）。
 

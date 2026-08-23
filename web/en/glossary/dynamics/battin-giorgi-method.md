@@ -75,19 +75,19 @@ $$
 R_j = G m_j\!\left(\frac{1}{d_j}-\frac{\vec r\cdot\vec\rho_j}{\rho_j^3}\right)
 $$
 
-expands as a power series in $x=r/\rho_j$ with $1/d_j=(1+q)^{-1/2}=\sum_k P_k(\cos\alpha)\,x^k$ — the Legendre polynomials $P_k$ emerge naturally. Thus $q$ is simultaneously the cancellation-avoidance variable and the natural argument of the classical Legendre expansion. Battin leverages this to unify the presentation of [Cowell's](/en/glossary/fundamentals/orbital-perturbations/), Encke's and Hansen's perturbation integration methods.
+expands as a power series in $x=r/\rho_j$ with $1/d_j=(1+q)^{-1/2}=\sum_k P_k(\cos\alpha)\,x^k$, the Legendre polynomials $P_k$ emerge naturally. Thus $q$ is simultaneously the cancellation-avoidance variable and the natural argument of the classical Legendre expansion. Battin leverages this to unify the presentation of [Cowell's](/en/glossary/fundamentals/orbital-perturbations/), Encke's and Hansen's perturbation integration methods.
 
 ## Applications
 
 - **High-precision ephemeris integration**: Earth-Moon transfers, libration-point orbits and low lunar orbits all require long integrations under non-spherical gravity plus third-body perturbations. Cowell's method integrating the total acceleration is forced into small time steps; switching to Battin-Giorgi for the third-body term lets the step size grow without loss of accuracy.
-- **Third-body assessment in cislunar space**: solar and lunar perturbations near Earth; Earth and solar perturbations near the Moon — both satisfy $r\ll\rho_j$ and use Battin-Giorgi by default.
+- **Third-body assessment in cislunar space**: solar and lunar perturbations near Earth; Earth and solar perturbations near the Moon, both satisfy $r\ll\rho_j$ and use Battin-Giorgi by default.
 - **Onboard navigation filters**: avoiding cancellation means equivalent accuracy at shorter word length (e.g. 32-bit floating point), an advantage for spacecraft processors.
-- **Pedagogical reference**: Battin (1999, §8.4.1) gives the full derivation; Sanna et al. (2024) cite the method when formulating optimal impulsive transfers from Gateway to low lunar orbit, listing "stable third-body perturbation evaluation" as a baseline assumption.
+- **Pedagogical reference**: Battin (1999, §8.4.1) gives the full derivation; Sanna et al. (2024) cite the method when formulating optimal impulsive transfers from Gateway to low lunar orbit, listing stable third-body perturbation evaluation as a baseline assumption.
 
 ## Common Confusions
 
 - **Battin-Vaughan algorithm**: a Lambert-problem solver using universal variables; unrelated to Battin-Giorgi. Both bear Battin's name but the former solves a [Lambert problem](/en/glossary/fundamentals/lamberts-problem/) root, while the latter stabilises the perturbation acceleration.
-- **q in Lambert problems**: the universal-variable Lambert algorithm defines its own $q=\sin^2(\Delta E/2)$ — same symbol, different meaning.
+- **q in Lambert problems**: the universal-variable Lambert algorithm defines its own $q=\sin^2(\Delta E/2)$, same symbol, different meaning.
 - **Relation to Encke's method**: Encke's equation for the deviation from the osculating orbit also contains differences of the form $1/d^3-1/\rho^3$ and is cancellation-prone; Battin-Giorgi supplies a single stable evaluation of the perturbing acceleration that can be called inside Encke's method directly.
 
 ## Related Concepts

@@ -30,16 +30,16 @@ permalink: /glossary/dynamics/cr3bp/
 
 ## 定义与分层
 
-圆形限制性三体问题（Circular Restricted Three-Body Problem，CR3BP 或 CRTBP）是地月空间轨道动力学中应用最广泛的数学模型。它属于**限制性三体问题**（Restricted Three-Body Problem, R3BP）族——R3BP 是经典三体问题的一个特殊情形，作两条根本简化（Szebehely 1967；Vallado 2022）：
+圆形限制性三体问题（Circular Restricted Three-Body Problem，CR3BP 或 CRTBP）是地月空间轨道动力学中应用最广泛的数学模型。它属于**限制性三体问题**（Restricted Three-Body Problem, R3BP）族，R3BP 是经典三体问题的一个特殊情形，作两条根本简化（Szebehely 1967；Vallado 2022）：
 
 1. **限制性假设**：第三体（航天器）质量可忽略，受两个主天体引力作用但不反作用于主天体。
 2. **唯引力假设**：仅考虑质点引力，无其他力。
 
-CR3BP 在 R3BP 基础上进一步增加**圆轨道假设**：两主天体绕公共质心作匀速圆运动。若主天体实际在椭圆轨道上运动，则为**椭圆限制性三体问题**（ER3BP）；若圆轨道运动的假设放宽到含第四体，则进入**双圆限制性四体问题**（BCR4BP）。实际工程中，除非明确关注偏心率效应，"限制性三体问题"一词默认即指 CR3BP（Koon et al. 2011）。
+CR3BP 在 R3BP 基础上进一步增加**圆轨道假设**：两主天体绕公共质心作匀速圆运动。若主天体实际在椭圆轨道上运动，则为**椭圆限制性三体问题**（ER3BP）；若圆轨道运动的假设放宽到含第四体，则进入**双圆限制性四体问题**（BCR4BP）。实际工程中，除非明确关注偏心率效应，限制性三体问题一词默认即指 CR3BP（Koon et al. 2011）。
 
 ## 会合坐标系与无量纲化
 
-CR3BP 的标准研究框架是**会合坐标系**（synodic frame / rotating frame）——原点在两主天体质心、随主天体连线同步旋转的参考系。在此系中：两个主天体固定在 x 轴上静止不动，运动方程化为自治系统；代价是引入科里奥利力和离心力项。坐标系细节见 [会合坐标系](/glossary/fundamentals/synodic-frame/)。
+CR3BP 的标准研究框架是**会合坐标系**（synodic frame / rotating frame），原点在两主天体质心、随主天体连线同步旋转的参考系。在此系中：两个主天体固定在 x 轴上静止不动，运动方程化为自治系统；代价是引入科里奥利力和离心力项。坐标系细节见 [会合坐标系](/glossary/fundamentals/synodic-frame/)。
 
 为消除方程中的量级差异、减少独立参数，CR3BP 惯例采用一套无量纲化（Szebehely 1967；Gómez et al. 2001）：
 
@@ -88,17 +88,17 @@ $$
 
 $r_1 = \sqrt{(x+\mu)^2 + y^2 + z^2}$（到 $P_1$ 距离），$r_2 = \sqrt{(x-1+\mu)^2 + y^2 + z^2}$（到 $P_2$ 距离）。
 
-方程中 $-2\dot{y}$ 和 $+2\dot{x}$ 为**科里奥利力项**，$\frac{1}{2}(x^2+y^2)$ 的梯度对应**离心力项**。科氏力与速度线性相关，对系统能量非保守贡献为零——它只改变运动方向，不做功——这正是雅可比常数保持守恒的动力学根源。
+方程中 $-2\dot{y}$ 和 $+2\dot{x}$ 为**科里奥利力项**，$\frac{1}{2}(x^2+y^2)$ 的梯度对应**离心力项**。科氏力与速度线性相关，对系统能量非保守贡献为零（它只改变运动方向，不做功），这正是雅可比常数保持守恒的动力学根源。
 
 ## 雅可比常数与运动允许域
 
-CR3BP 仅存在一个运动积分——**雅可比常数** $C$（Jacobi 1836）：
+CR3BP 仅存在一个运动积分，即**雅可比常数** $C$（Jacobi 1836）：
 
 $$C = 2\Omega - v^2, \quad v^2 = \dot{x}^2 + \dot{y}^2 + \dot{z}^2$$
 
 该守恒量等价于旋转系中的能量：$C$ 越大，航天器动能越小，可达区域越受限。
 
-令 $v=0$ 得**零速度曲面**（Zero-Velocity Surface, ZVS）：$2\Omega(x,y,z) = C$。在平面情况下退化为**零速度曲线**（ZVC）。ZVS 是在位形空间中界定航天器可达域与禁区的曲面——航天器不能在 $2\Omega < C$ 的区域存在。
+令 $v=0$ 得**零速度曲面**（Zero-Velocity Surface, ZVS）：$2\Omega(x,y,z) = C$。在平面情况下退化为**零速度曲线**（ZVC）。ZVS 是在位形空间中界定航天器可达域与禁区的曲面，航天器不能在 $2\Omega < C$ 的区域存在。
 
 ZVS 拓扑随 $C$ 值变化经历若干临界值 $C_1 > C_2 > C_3 > C_4 = C_5$，每个临界值对应一个平动点打开连通颈部的条件（Koon et al. 2011）：
 
@@ -118,7 +118,7 @@ CR3BP 的五个平动点 $L_1$--$L_5$ 是令 $\ddot{x} = \ddot{y} = \ddot{z} = \
 
 ### 平面 CR3BP
 
-若约束航天器运动在主天体轨道平面内（$z=\dot{z}=0$），系统退化为 **平面圆型限制性三体问题**（Planar CR3BP, PCR3BP），相空间从六维降为四维。PCR3BP 保留了 CR3BP 的全部核心动力学特征（平动点、不变流形、混沌），但因其四维相空间，可通过二维**庞加莱截面**直观呈现相空间结构——这是三维 CR3BP 无法直接做到的。在 PCR3BP 的庞加莱截面上，不变曲线对应（准）周期轨道，KAM 环面保持稳定，混沌海指示双曲区域。
+若约束航天器运动在主天体轨道平面内（$z=\dot{z}=0$），系统退化为 **平面圆型限制性三体问题**（Planar CR3BP, PCR3BP），相空间从六维降为四维。PCR3BP 保留了 CR3BP 的全部核心动力学特征（平动点、不变流形、混沌），但因其四维相空间，可通过二维**庞加莱截面**直观呈现相空间结构，这是三维 CR3BP 无法直接做到的。在 PCR3BP 的庞加莱截面上，不变曲线对应（准）周期轨道，KAM 环面保持稳定，混沌海指示双曲区域。
 
 ### 三维 CR3BP
 
@@ -132,11 +132,11 @@ CR3BP 的五个平动点 $L_1$--$L_5$ 是令 $\ddot{x} = \ddot{y} = \ddot{z} = \
 
 - **远距离逆行轨道（DRO）**：$P_2$ 邻域的大振幅逆行周期轨道，稳定性优于 Lyapunov/Halo
 
-这些轨道族通过**延拓法**（continuation）参数化生成——从已知解出发，沿参数方向逐步求解，配以打靶-微分修正迭代。见 [延拓](/glossary/dynamics/continuation/)、[打靶法](/glossary/dynamics/differential-correction/)、[微分修正](/glossary/dynamics/differential-correction/)。
+这些轨道族通过**延拓法**（continuation）参数化生成，从已知解出发，沿参数方向逐步求解，配以打靶-微分修正迭代。见 [延拓](/glossary/dynamics/continuation/)、[打靶法](/glossary/dynamics/differential-correction/)、[微分修正](/glossary/dynamics/differential-correction/)。
 
 ## 系统间平移与相对动力学
 
-当拼接两个不同的 CR3BP 系统（如日地系与地月系）时，需要建立两系统会合坐标系之间的转换关系——这称为**三体系统平移**（three-body system translation）。核心是将一个 CR3BP 中的状态向量（位置、速度）投影到另一个 CR3BP 的会合坐标系中，保持惯性系中绝对值不变。坐标原点从日地质心平移至地月质心，并在会合系间施加适当的角速度修正。
+当拼接两个不同的 CR3BP 系统（如日地系与地月系）时，需要建立两系统会合坐标系之间的转换关系，这称为**三体系统平移**（three-body system translation）。核心是将一个 CR3BP 中的状态向量（位置、速度）投影到另一个 CR3BP 的会合坐标系中，保持惯性系中绝对值不变。坐标原点从日地质心平移至地月质心，并在会合系间施加适当的角速度修正。
 
 相对 CR3BP 动力学考察两航天器在同一主天体系统内的相对运动，是编队飞行和交会任务的基础。在会合系中，相对加速度方程额外包含科氏耦合项和离心力梯度效应，使相对轨道的长期演化与 Kepler 相对运动有本质区别。
 
@@ -176,14 +176,14 @@ CR3BP 的若干重要扩展变体保留基础框架、在特定方向上增加�
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies* — CR3BP 的经典著作，涵盖会合系、无量纲化、平动点、周期轨道的完整理论。
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*：CR3BP 的经典著作，涵盖会合系、无量纲化、平动点、周期轨道的完整理论。
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, 4th ed. — 第 2 章讲述限制性三体问题与 N 体运动方程；第 3 章给出地月/日地会合系的坐标定义与基本平面。
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, 4th ed.：第 2 章讲述限制性三体问题与 N 体运动方程；第 3 章给出地月/日地会合系的坐标定义与基本平面。
 
-- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design* — 将现代动力系统方法（不变流形、庞加莱截面、异宿连接）系统地引入 CR3BP 轨道设计。
+- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design*：将现代动力系统方法（不变流形、庞加莱截面、异宿连接）系统地引入 CR3BP 轨道设计。
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. I–IV — 平动点邻域动力学与任务设计的标准参考文献，覆盖双圆问题、同伦法、太阳帆等扩展。
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. I–IV：平动点邻域动力学与任务设计的标准参考文献，覆盖双圆问题、同伦法、太阳帆等扩展。
 
-- Howell, 1984, "Three-Dimensional, Periodic, 'Halo' Orbits" — Halo 轨道族的首次系统化数值生成与参数化。
+- Howell, 1984, "Three-Dimensional, Periodic, 'Halo' Orbits"：Halo 轨道族的首次系统化数值生成与参数化。
 
-- Zimovan, 2017, *Characteristics and Design Strategies for Near Rectilinear Halo Orbits within the Earth-Moon System*, Purdue Ph.D. — 地月 L1/L2 NRHO 求解策略的标准参考文献。
+- Zimovan, 2017, *Characteristics and Design Strategies for Near Rectilinear Halo Orbits within the Earth-Moon System*, Purdue Ph.D.：地月 L1/L2 NRHO 求解策略的标准参考文献。

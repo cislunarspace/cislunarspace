@@ -30,11 +30,11 @@ permalink: /en/glossary/fundamentals/lindstedt-poincare-method/
 
 ## Definition
 
-The **Lindstedt-Poincaré method** is a perturbation technique for constructing uniformly valid periodic (or quasi-periodic) solutions of weakly nonlinear oscillatory systems. Its defining feature relative to regular perturbation is that *both* the dependent variables *and* the frequencies are expanded as power series in a small parameter $\varepsilon$. Introducing extra degrees of freedom in the frequencies lets them be chosen at each order to cancel the resonant terms that would otherwise grow without bound ("secular terms"), so the truncated series remains uniformly valid over all time (Poincaré 1892; Nayfeh 1973).
+The **Lindstedt-Poincaré method** is a perturbation technique for constructing uniformly valid periodic (or quasi-periodic) solutions of weakly nonlinear oscillatory systems. Its defining feature relative to regular perturbation is that *both* the dependent variables *and* the frequencies are expanded as power series in a small parameter $\varepsilon$. Introducing extra degrees of freedom in the frequencies lets them be chosen at each order to cancel the resonant terms that would otherwise grow without bound (secular terms), so the truncated series remains uniformly valid over all time (Poincaré 1892; Nayfeh 1973).
 
 ## Core idea
 
-For an oscillator of the form $\ddot{x}+\omega_0^2 x = \varepsilon f(x,\dot{x})$, a regular perturbation expansion $x=x_0+\varepsilon x_1+\cdots$ produces correction terms proportional to $t\sin\omega_0 t$ at $O(\varepsilon)$ — secular terms that grow unboundedly and ruin the approximation after a few periods. The Lindstedt-Poincaré remedy is to also expand the frequency:
+For an oscillator of the form $\ddot{x}+\omega_0^2 x = \varepsilon f(x,\dot{x})$, a regular perturbation expansion $x=x_0+\varepsilon x_1+\cdots$ produces correction terms proportional to $t\sin\omega_0 t$ at $O(\varepsilon)$, secular terms that grow unboundedly and ruin the approximation after a few periods. The Lindstedt-Poincaré remedy is to also expand the frequency:
 
 $$\omega = \omega_0 + \varepsilon\omega_1 + \varepsilon^2\omega_2 + \cdots$$
 
@@ -54,7 +54,7 @@ with $\omega$ and $\nu$ themselves expanded in $\alpha$ and $\beta$ (喻圣贤 2
 
 - When $\omega$ and $\nu$ are incommensurable, the trajectory is a **Lissajous (quasi-periodic)** orbit filling a 2-torus.
 
-- When $\omega=\nu$ (1:1 commensurability, reached at sufficiently large amplitude), the series collapse to a single period and yield a **Halo orbit** — a three-dimensional periodic orbit.
+- When $\omega=\nu$ (1:1 commensurability, reached at sufficiently large amplitude), the series collapse to a single period and yield a **Halo orbit**, a three-dimensional periodic orbit.
 
 ## Canonical results
 

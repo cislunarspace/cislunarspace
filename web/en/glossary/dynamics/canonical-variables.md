@@ -70,7 +70,7 @@ with conjugate angles $\lambda = M + \omega + \Omega$, $p = \omega + \Omega$, $q
 
 - **Poincaré elements** are the canonical counterpart of the equinoctial elements, constructed with $\sqrt{\cdot}$ factors to avoid singularities at zero eccentricity and inclination; they suit Hamiltonian perturbation analysis of near-circular/near-equatorial orbits (Brouwer and Clemence 1961; Vallado 2022).
 
-- **Modified equinoctial elements (MEEs)**: a nonsingular orbital element set composed of the semi-latus rectum $p$, eccentricity-vector components $(f,g)$, inclination-vector components $(h,k)$, and true longitude $L$. Unlike the classical Keplerian elements, MEEs have no singularities for circular or equatorial orbits, and their transformation matrix to Cartesian coordinates is continuous and smooth — ideal for deriving costate equations in low-thrust trajectory optimization (Singh et al. 2021; Broucke and Cefola 1972).
+- **Modified equinoctial elements (MEEs)**: a nonsingular orbital element set composed of the semi-latus rectum $p$, eccentricity-vector components $(f,g)$, inclination-vector components $(h,k)$, and true longitude $L$. Unlike the classical Keplerian elements, MEEs have no singularities for circular or equatorial orbits, and their transformation matrix to Cartesian coordinates is continuous and smooth, ideal for deriving costate equations in low-thrust trajectory optimization (Singh et al. 2021; Broucke and Cefola 1972).
 
 ### Jacobi Coordinates
 

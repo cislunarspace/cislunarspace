@@ -22,7 +22,7 @@ The radiation environment in cislunar space directly affects spacecraft design, 
 
 ## Cislunar Galactic Cosmic Ray Cavity
 
-A 2026 study discovered regions of significantly reduced GCR flux ("GCR cavity") in cislunar space, with direct implications for crewed lunar mission planning.
+A 2026 study discovered regions of significantly reduced GCR flux (GCR cavity) in cislunar space, with direct implications for crewed lunar mission planning.
 
 ## Representative Publications
 
@@ -34,4 +34,4 @@ A 2026 study discovered regions of significantly reduced GCR flux ("GCR cavity")
 
 **Related Links**
 
-- ↑ [Research Directions](../README.md) — Return to directions index
+- ↑ [Research Directions](../README.md): Return to directions index

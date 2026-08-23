@@ -42,7 +42,7 @@ The values of the Jacobi constant $C$ at the five libration points, $C(L_1), C(L
 4. $C(L_4) < C < C(L_3)$: the L3 neck opens, giving access from the inner region to the far exterior;
 5. $C < C(L_4)$: all space is allowed except the two singular neighborhoods; the equilateral libration neighborhoods become passable.
 
-Smaller $C$ means a larger allowed region and stronger connectivity. This criterion decides whether a probe can cross freely between the Earth and Moon gravity domains and when it needs gravity assist or maneuvers — the basis of qualitative reachability analysis (the "Hill region configuration" refers precisely to these five configurations).
+Smaller $C$ means a larger allowed region and stronger connectivity. This criterion decides whether a probe can cross freely between the Earth and Moon gravity domains and when it needs gravity assist or maneuvers; the basis of qualitative reachability analysis (the Hill region configuration refers precisely to these five configurations).
 
 ## Hill Stability
 
@@ -58,7 +58,7 @@ $\ddot{x} - 2\dot{y} = 3x - \frac{x}{r^3}$, $\ddot{y} + 2\dot{x} = -\frac{y}{r^3
 
 ## The Hill Model and Three-Body Lambert Solutions
 
-In engineering literature "Hill model" has another use: approximate the restricted three-body problem by Hill-equation form when the spacecraft motion range is far smaller than the primary separation, so that the three-body Lambert problem can be solved by a two-layer iteration correcting initial/final position vectors; Sukhanov and Prado based a Lambert solver with good convergence on this model (Sukhanov and Prado 2004). This usage refers to a different object from "Hill's region" and "Hill problem" — keep them distinct.
+In engineering literature the Hill model has another use: approximate the restricted three-body problem by Hill-equation form when the spacecraft motion range is far smaller than the primary separation, so that the three-body Lambert problem can be solved by a two-layer iteration correcting initial/final position vectors; Sukhanov and Prado based a Lambert solver with good convergence on this model (Sukhanov and Prado 2004). This usage refers to a different object from Hill's region and Hill problem; keep them distinct.
 
 ## Related Concepts
 

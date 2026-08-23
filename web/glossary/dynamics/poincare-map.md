@@ -39,7 +39,7 @@ permalink: /glossary/dynamics/poincare-map/
 | **庞加莱截面** | 几何 | 记录穿越的超曲面 $\Sigma$ |
 | **庞加莱映射** | 动力学 | 离散映射 $P$ 及其迭代点的分布图案 |
 
-简言之，截面是"切面"，映射是"切面上点的回归规则"。
+简言之，截面是切面，映射是切面上点的回归规则。
 
 ## 维度与可视化
 
@@ -63,7 +63,7 @@ permalink: /glossary/dynamics/poincare-map/
 
 ### 近星点图（periapse map）
 
-定义在 [近星点截面](/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$ 上。平面问题中，其投影到构型空间即可完整表示状态，揭示次天体附近的逃逸/捕获结构（Villac & Scheeres 2004；Paskowitz & Scheeres 2006）。按中心天体命名的变体——**近地点图**（perigee map）、**近月点图**（perilune map）、**近星点/近拱点图**（apse map）——构造等价，仅参考主天体不同；近月点图常用于筛选月球借力 + WSB 捕获的转移轨道、分析 DRO 轨道族近月点分布（Scott & Spencer 2010）。
+定义在 [近星点截面](/glossary/dynamics/poincare-section/) $\Sigma=\{\dot\rho=0,\ddot\rho>0\}$ 上。平面问题中，其投影到构型空间即可完整表示状态，揭示次天体附近的逃逸/捕获结构（Villac & Scheeres 2004；Paskowitz & Scheeres 2006）。按中心天体命名的变体：**近地点图**（perigee map）、**近月点图**（perilune map）、**近星点/近拱点图**（apse map），构造等价，仅参考主天体不同；近月点图常用于筛选月球借力 + WSB 捕获的转移轨道、分析 DRO 轨道族近月点分布（Scott & Spencer 2010）。
 
 ### Tisserand-Poincaré 图（T-P graph）
 
@@ -75,7 +75,7 @@ Tisserand 图（基于拼接二体模型的重力辅助序列设计工具）在 
 
 - **转移初值生成**：把高维解空间压缩到二维图上，可交互式挑选转移候选，再由 [微分修正](/glossary/dynamics/differential-correction/) 或多次打靶收敛。
 
-- **长期捕获轨道搜索**：近星点图上 non-transit 点（长期捕获）附近存在周期轨道的种子；由"镜像构型"反推初值并延拓得到（Haapala & Howell 2014）。
+- **长期捕获轨道搜索**：近星点图上 non-transit 点（长期捕获）附近存在周期轨道的种子；由镜像构型反推初值并延拓得到（Haapala & Howell 2014）。
 
 - **DRO 族分析**：DRO 各成员的近月点在映射上呈现规律性曲线结构，反映族内状态随轨道参数的连续变化，用于月球借力入轨窗口识别（Scott & Spencer 2010）。
 
@@ -103,7 +103,7 @@ Tisserand 图（基于拼接二体模型的重力辅助序列设计工具）在 
 
 - Parker T S, Chua L O. Practical Numerical Algorithms for Chaotic Systems[M]. Springer, 1989.
 
-- Gómez G, Llibre J, Martínez R, Simó C. Dynamics and Mission Design near Libration Points — Vol. II[M]. World Scientific, 2001.
+- Gómez G, Llibre J, Martínez R, Simó C. Dynamics and Mission Design near Libration Points: Vol. II[M]. World Scientific, 2001.
 
 - Villac B F, Scheeres D J. On the concept of periapsis in Hill's problem[J]. Dynamics & Control of Systems, 2004.
 

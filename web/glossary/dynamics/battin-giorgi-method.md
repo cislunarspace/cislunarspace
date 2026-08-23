@@ -75,14 +75,14 @@ $$
 R_j = G m_j\!\left(\frac{1}{d_j}-\frac{\vec r\cdot\vec\rho_j}{\rho_j^3}\right)
 $$
 
-可展开为 $x=r/\rho_j$ 的幂级数，其中 $1/d_j=(1+q)^{-1/2}=\sum_k P_k(\cos\alpha)\,x^k$——Legendre 多项式 $P_k$ 自然出现。因此 $q$ 既是相消补救变量，也是经典 Legendre 展开的自变量。Battin 把这一点与 [Cowell 摄动法](/glossary/fundamentals/orbital-perturbations/)、Encke 法、Hansen 法等摄动数值积分的统一表述联系起来。
+可展开为 $x=r/\rho_j$ 的幂级数，其中 $1/d_j=(1+q)^{-1/2}=\sum_k P_k(\cos\alpha)\,x^k$，Legendre 多项式 $P_k$ 自然出现。因此 $q$ 既是相消补救变量，也是经典 Legendre 展开的自变量。Battin 把这一点与 [Cowell 摄动法](/glossary/fundamentals/orbital-perturbations/)、Encke 法、Hansen 法等摄动数值积分的统一表述联系起来。
 
 ## 应用场景
 
 - **高精度星历数值积分**：地月转移、平动点轨道、月球低轨等场景都需在地球椭球、第三体摄动下长时间积分。Cowell 法直接对总加速度积分时步长受迫变小；改用 Battin-Giorgi 计算第三体项后，可在不损失精度的情况下放大步长。
-- **地月空间第三体摄动评估**：地球邻域的太阳、月球摄动；月球邻域的地球、太阳摄动——两类问题都满足 $r\ll\rho_j$，Battin-Giorgi 是默认选择。
+- **地月空间第三体摄动评估**：地球邻域的太阳、月球摄动；月球邻域的地球、太阳摄动，两类问题都满足 $r\ll\rho_j$，Battin-Giorgi 是默认选择。
 - **星载导航滤波**：实时计算需求下，避免相消意味着可用更短字长（如 32 位浮点）获得同等精度，对星载计算机友好。
-- **教学参考**：Battin《航天动力学的数学方法》（1999 / 中译本 2018）§8.4.1 给出完整推导；Sanna et al. (2024) 在 Gateway 到低月轨的最优脉冲转移中援引该方法并把"第三体摄动加速度的稳定计算"列为基础假设之一。
+- **教学参考**：Battin《航天动力学的数学方法》（1999 / 中译本 2018）§8.4.1 给出完整推导；Sanna et al. (2024) 在 Gateway 到低月轨的最优脉冲转移中援引该方法并把第三体摄动加速度的稳定计算列为基础假设之一。
 
 ## 易混点
 

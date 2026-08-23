@@ -30,13 +30,13 @@ permalink: /glossary/dynamics/patch-point/
 
 ## 定义
 
-拼接点（patch point，又称 splicing point、connection point）是在[多重打靶](/glossary/dynamics/differential-correction/)和两级[微分修正](/glossary/dynamics/differential-correction/)中将长弧段轨迹切分为若干子弧的连接节点。在每一点处相邻子弧必须满足位置和速度的连续性约束——这些约束构成微分修正的自由变量/约束方程体系中的等式约束，其雅可比矩阵对应段的[状态转移矩阵](/glossary/fundamentals/stm/)的分量（Muralidharan 2021 §3.4）。
+拼接点（patch point，又称 splicing point、connection point）是在[多重打靶](/glossary/dynamics/differential-correction/)和两级[微分修正](/glossary/dynamics/differential-correction/)中将长弧段轨迹切分为若干子弧的连接节点。在每一点处相邻子弧必须满足位置和速度的连续性约束，这些约束构成微分修正的自由变量/约束方程体系中的等式约束，其雅可比矩阵对应段的[状态转移矩阵](/glossary/fundamentals/stm/)的分量（Muralidharan 2021 §3.4）。
 
-概念上，拼接点是多重打靶"化整为零"的几何体现：本来一条从初态到终态的完整轨迹需要单步打靶一次性求解，STM 在长弧与高敏感区域累积误差，收敛域极窄；引入拼接点后，每个子弧的 STM 只在自己的小段上工作，条件良态、初猜容错扩大——代价是需要联立求解 $6n$ 维的自由变量向量（每点 6 状态 × $n$ 个点）。
+概念上，拼接点是多重打靶化整为零的几何体现：本来一条从初态到终态的完整轨迹需要单步打靶一次性求解，STM 在长弧与高敏感区域累积误差，收敛域极窄；引入拼接点后，每个子弧的 STM 只在自己的小段上工作，条件良态、初猜容错扩大，代价是需要联立求解 $6n$ 维的自由变量向量（每点 6 状态 × $n$ 个点）。
 
 ## 在两级微分修正中的角色
 
-Howell & Pernicka（1987）的两级修正算法因拼接点而得名——"两级"指的就是拼接点处先后处理位置连续性和速度连续性的两层嵌套迭代：
+Howell & Pernicka（1987）的两级修正算法因拼接点而得名，两级指的就是拼接点处先后处理位置连续性和速度连续性的两层嵌套迭代：
 
 - **内层**：固定各拼接点位置，只修正各点速度，消除每段终点与下一拼接点之间的位置不连续；
 
@@ -54,13 +54,13 @@ Howell & Pernicka（1987）的两级修正算法因拼接点而得名——"两�
 
 拼接点的数量不是越多越好。陈昱桔（2024）的 DRO 转移轨道研究表明，拼接点数量取 4 时计算效率和精度之间取得最佳平衡；过少则段内弧长过长、STM 病态；过多则雅可比矩阵维度爆炸，每次迭代的计算成本急剧上升。
 
-传统做法是沿轨迹等间隔（按时间/弧长）撒点。但不同振幅的 DRO/NRHO 在各段的局部敏感度差异巨大——等间隔对多数轨道并不适用。自适应策略通过有限差分灵敏度分析或[差分进化算法](/glossary/dynamics/de/)寻找每条轨道的最优拼接点位置：在高敏感区（近月点、穿越点）加密点、在平稳区减点。Muralidharan（2021 §4.4）在生成约 1 年 Gateway NRHO 虚拟参考轨迹时，用约 40–50 个拼接点（对应 40–50 圈），平均每圈一个点，位置在远月点附近（较平缓）取宽松间距、近月点附近取加密。
+传统做法是沿轨迹等间隔（按时间/弧长）撒点。但不同振幅的 DRO/NRHO 在各段的局部敏感度差异巨大，等间隔对多数轨道并不适用。自适应策略通过有限差分灵敏度分析或[差分进化算法](/glossary/dynamics/de/)寻找每条轨道的最优拼接点位置：在高敏感区（近月点、穿越点）加密点、在平稳区减点。Muralidharan（2021 §4.4）在生成约 1 年 Gateway NRHO 虚拟参考轨迹时，用约 40–50 个拼接点（对应 40–50 圈），平均每圈一个点，位置在远月点附近（较平缓）取宽松间距、近月点附近取加密。
 
 ## 异系统拼接中的连接点角色
 
-两种不同的三体系统（如日地 CR3BP + 地月 CR3BP）因引力圈结构不同而各自独立，无法在同一框架下直接耦合。弱稳定边界（WSB）转移的关键思路是在**共同庞加莱截面**上寻找"连接点"——日地流形和地月流形在截面上投影的交点。该交点处的状态作为两系统之间的"几何拼接点"，两侧在其各自的旋转系中积分，交叠区域的速度跳变再通过微分修正消除，实现两体系统之间的低能连接（Koon et al. 2000）。
+两种不同的三体系统（如日地 CR3BP + 地月 CR3BP）因引力圈结构不同而各自独立，无法在同一框架下直接耦合。弱稳定边界（WSB）转移的关键思路是在**共同庞加莱截面**上寻找连接点：日地流形和地月流形在截面上投影的交点。该交点处的状态作为两系统之间的几何拼接点，两侧在其各自的旋转系中积分，交叠区域的速度跳变再通过微分修正消除，实现两体系统之间的低能连接（Koon et al. 2000）。
 
-在这个语境下，"拼接点"不仅是算法节点，同时具有几何含义——它是切换动力学模型的"界面"位置。地月/日地系统的连接点通常选在地月 $L_2$ 附近、两系统都允许航天器在局部无推力传过该截面的位置。
+在这个语境下，拼接点不仅是算法节点，同时具有几何含义：它是切换动力学模型的界面位置。地月/日地系统的连接点通常选在地月 $L_2$ 附近、两系统都允许航天器在局部无推力传过该截面的位置。
 
 ## 相关概念
 
@@ -82,6 +82,6 @@ Howell & Pernicka（1987）的两级修正算法因拼接点而得名——"两�
 
 - Muralidharan A. Stretching directions in cislunar space: stationkeeping and an application to transfer trajectory design[D]. Purdue University, 2021. §3.4, §4.4.（固定/变时间多重打靶中拼接点的数学处理与自适应播种策略）
 
-- Chen Y J. DRO Orbit Design and Control Research for Cislunar Space Situation Awareness[D]. 2024.（自适应拼接点选取——差分进化优化拼接位置与数量）
+- Chen Y J. DRO Orbit Design and Control Research for Cislunar Space Situation Awareness[D]. 2024.（自适应拼接点选取：差分进化优化拼接位置与数量）
 
-- Koon W S, Lo M W, Marsden J E, Ross S D. Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics[J]. Chaos, 2000, 10(2): 427-469.（日地与地月系统之间的异宿连接——连接点在双系统流形拼接中的几何含义）
+- Koon W S, Lo M W, Marsden J E, Ross S D. Heteroclinic connections between periodic orbits and resonance transitions in celestial mechanics[J]. Chaos, 2000, 10(2): 427-469.（日地与地月系统之间的异宿连接，连接点在双系统流形拼接中的几何含义）

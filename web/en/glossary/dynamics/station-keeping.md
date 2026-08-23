@@ -38,7 +38,7 @@ Station-keeping is not a one-off trajectory correction but a **closed-loop perio
 
 The perturbation sources driving orbit drift in cislunar space, ordered by magnitude, are:
 
-- **Intrinsic instability of the orbit (primary driver):** Orbits near the collinear L1/L2 libration points (halo, Lyapunov, large-amplitude branches of NRHO) possess a pair of real Floquet multipliers, with an unstable eigenvalue $\lambda > 1$ causing any initial deviation to grow exponentially along the unstable manifold direction. For Earth-Moon halo orbits, the divergence time constant is approximately 5-14 days -- the ARTEMIS mission's operational experience is that "a stationkeeping maneuver is required approximately once per week" (Folta and Vaughn, 2004; Pavlak and Howell, 2012).
+- **Intrinsic instability of the orbit (primary driver):** Orbits near the collinear L1/L2 libration points (halo, Lyapunov, large-amplitude branches of NRHO) possess a pair of real Floquet multipliers, with an unstable eigenvalue $\lambda > 1$ causing any initial deviation to grow exponentially along the unstable manifold direction. For Earth-Moon halo orbits, the divergence time constant is approximately 5-14 days -- the ARTEMIS mission's operational experience is that a stationkeeping maneuver is required approximately once per week (Folta and Vaughn, 2004; Pavlak and Howell, 2012).
 
 - **Solar gravity (third-body perturbation):** Near collinear libration points, solar gravitational acceleration is on the order of $5 \times 10^{-6}$ m/s$^2$, comparable to the drift induced by the unstable manifold (Folta et al., 2014).
 
@@ -78,7 +78,7 @@ The target point method performs well for DROs and halo orbits; Zhang et al. (20
 
 ### Floquet Mode Approach
 
-Exploits Floquet theory for periodic orbits: the eigenstructure of the monodromy matrix $\mathbf{M}$ distinguishes unstable, stable, and center modes. A velocity increment applied along the unstable eigenvector at the maneuver time precisely cancels the component of the current deviation along the unstable direction, thereby "excising the divergence" without wasting propellant on stable or center directions (Gomez et al., 2001; Simo et al., 1987). Post-mission analysis of the ARTEMIS mission revealed that the $\Delta V$ direction for approximately 60 actual stationkeeping maneuvers was closely aligned with the local stable eigenvector direction (Pavlak and Howell, 2012) -- implying that optimal maneuvers do not merely cancel the unstable mode, but rather **harness the stable mode to naturally pull the spacecraft back**.
+Exploits Floquet theory for periodic orbits: the eigenstructure of the monodromy matrix $\mathbf{M}$ distinguishes unstable, stable, and center modes. A velocity increment applied along the unstable eigenvector at the maneuver time precisely cancels the component of the current deviation along the unstable direction, thereby excising the divergence without wasting propellant on stable or center directions (Gomez et al., 2001; Simo et al., 1987). Post-mission analysis of the ARTEMIS mission revealed that the $\Delta V$ direction for approximately 60 actual stationkeeping maneuvers was closely aligned with the local stable eigenvector direction (Pavlak and Howell, 2012) -- implying that optimal maneuvers do not merely cancel the unstable mode, but rather **harness the stable mode to naturally pull the spacecraft back**.
 
 Limitations: it relies on Floquet decomposition of periodic orbits and does not directly apply to quasi-periodic orbits (e.g., NRHOs in the ephemeris model). For stable or nearly stable orbits (e.g., low-amplitude NRHO branches), the unstable component is small or absent, rendering the Floquet approach suboptimal (Muralidharan and Howell, 2021).
 
@@ -110,14 +110,14 @@ The annual station-keeping cost is the core metric for assessing orbit maintenan
 
 | Orbit | Period (days) | Stability index $\nu$ | DLQR annual cost (m/s) |
 |-------|---------------|----------------------|-------------------------|
-| DRO (5) — 2:1 resonance | 13.66 | 1.000 (stable) | 0.82 |
-| DRO (1) — small amplitude | 5.46 | 1.000 (stable) | 1.96 |
-| halo (3) — moderate amplitude | 13.35 | 51.6 (strongly unstable) | 1.15 |
-| halo (1) — large amplitude | 14.58 | 349.0 (extremely unstable) | 1.25 |
-| NRHO (4) — 9:2 resonance | 6.56 | 1.32 (nearly stable) | 1.63 |
-| NRHO (5) — lowest perilune | 6.13 | 1.09 (nearly stable) | 2.78 |
+| DRO (5), 2:1 resonance | 13.66 | 1.000 (stable) | 0.82 |
+| DRO (1), small amplitude | 5.46 | 1.000 (stable) | 1.96 |
+| halo (3), moderate amplitude | 13.35 | 51.6 (strongly unstable) | 1.15 |
+| halo (1), large amplitude | 14.58 | 349.0 (extremely unstable) | 1.25 |
+| NRHO (4), 9:2 resonance | 6.56 | 1.32 (nearly stable) | 1.63 |
+| NRHO (5), lowest perilune | 6.13 | 1.09 (nearly stable) | 2.78 |
 
-Key finding (Zhang et al., 2022): **The stability index $\nu$ has no direct monotonic relationship with annual station-keeping cost.** Stable orbits (e.g., DRO, $\nu = 1$) are not necessarily cheaper than unstable ones (halo, $\nu \gg 1$) -- because maintenance cost is a compound outcome of navigation error, maneuver execution error, SRP mismodeling, and impulse interval. Unstable orbits can "hedge" their divergence through higher maneuver frequency to keep total cost manageable. Large-amplitude DROs, farthest from the Moon with the smoothest dynamics, yield the lowest annual cost (~0.82 m/s/yr). NRHOs, despite near-unity $\nu$, in fact incur higher annual costs than halo orbits because of the sensitive perilune region.
+Key finding (Zhang et al., 2022): **The stability index $\nu$ has no direct monotonic relationship with annual station-keeping cost.** Stable orbits (e.g., DRO, $\nu = 1$) are not necessarily cheaper than unstable ones (halo, $\nu \gg 1$) -- because maintenance cost is a compound outcome of navigation error, maneuver execution error, SRP mismodeling, and impulse interval. Unstable orbits can hedge their divergence through higher maneuver frequency to keep total cost manageable. Large-amplitude DROs, farthest from the Moon with the smoothest dynamics, yield the lowest annual cost (~0.82 m/s/yr). NRHOs, despite near-unity $\nu$, in fact incur higher annual costs than halo orbits because of the sensitive perilune region.
 
 ## Engineering Constraints
 
@@ -167,6 +167,6 @@ In actual mission planning, several practical constraints dictate strategy feasi
 
 - Muralidharan, V., & Howell, K. C., 2021, Stationkeeping in Earth-Moon near rectilinear halo orbits, AAS 21-651 (x-axis control parameter coupling analysis, CGT stretching directions for maneuver location)
 
-- Gomez, G., Jorba, A., Masdemont, J., & Simo, C., 2001, *Dynamics and Mission Design Near Libration Points — Vol. II* (classical source for the Floquet mode method)
+- Gomez, G., Jorba, A., Masdemont, J., & Simo, C., 2001, *Dynamics and Mission Design Near Libration Points, Vol. II* (classical source for the Floquet mode method)
 
 - Davis, D. C., et al., 2017, Stationkeeping and transfer trajectory design for spacecraft in cislunar space, AAS 17-826 (early framework for Gateway stationkeeping analysis)

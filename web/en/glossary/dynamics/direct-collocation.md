@@ -38,7 +38,7 @@ Writing the $j$-th sub-interval $[t_j,t_{j+1}]$ with length $h_j=t_{j+1}-t_j$, t
 
 - **Trapezoidal.** Linear state interpolation within the segment; defect
 $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{2}\big[\mathbf{f}(\mathbf{x}_j,\mathbf{u}_j,t_j)+\mathbf{f}(\mathbf{x}_{j+1},\mathbf{u}_{j+1},t_{j+1})\big] = \mathbf{0}.$$
-Second-order accurate. Fewest NLP variables and sparsest Jacobian — useful for initial exploration.
+Second-order accurate. Fewest NLP variables and sparsest Jacobian, useful for initial exploration.
 
 - **Hermite-Simpson (separated form).** A midpoint state $\mathbf{x}_{j+1/2}$ is introduced; a cubic Hermite polynomial interpolates the state on the segment; the Simpson defect is enforced at the midpoint:
 $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\mathbf{f}_j+4\mathbf{f}_{j+1/2}+\mathbf{f}_{j+1}\big] = \mathbf{0},$$
@@ -46,20 +46,20 @@ with $\mathbf{f}_{j+1/2}=\mathbf{f}(\mathbf{x}_{j+1/2},\mathbf{u}_{j+1/2},t_{j+1
 
 - **Fifth-order Gauss-Lobatto (Herman-Conway).** Three collocation points per segment (including the endpoints) and a quintic polynomial. Fifth-order accurate, particularly useful for fast dynamics (e.g. coupled translational-rotational 6DOF), at the cost of more variables per segment (Herman & Conway 1996).
 
-In every scheme, the defect $\boldsymbol{\zeta}_j=\mathbf{0}$ on segment $j$ couples only to the $O(n_x+n_u)$ variables at its two endpoints, so the global Jacobian is block-tridiagonal and sparse — this is what makes direct collocation tractable for tens of thousands of variables.
+In every scheme, the defect $\boldsymbol{\zeta}_j=\mathbf{0}$ on segment $j$ couples only to the $O(n_x+n_u)$ variables at its two endpoints, so the global Jacobian is block-tridiagonal and sparse; this is what makes direct collocation tractable for tens of thousands of variables.
 
 ## Subtypes
 
 By whether midpoint states are NLP variables:
 
-- **Hermite-Simpson separated (HSS).** Midpoint states are added as NLP variables; defects are equality constraints. Larger but sparser — usually preferred because NLP solvers exploit sparsity more than variable count.
+- **Hermite-Simpson separated (HSS).** Midpoint states are added as NLP variables; defects are equality constraints. Larger but sparser, usually preferred because NLP solvers exploit sparsity more than variable count.
 - **Hermite-Simpson compressed (HSC).** Midpoint states are eliminated algebraically; defects are written directly in endpoint variables. Fewer variables, denser Jacobian.
 
 ## Practical implementation
 
 - **Scaling.** State/control/time magnitudes in aerospace problems can span many orders of magnitude (cislunar distance vs. thrust acceleration). Without scaling the conditioning of the KKT system deteriorates badly. Normalization by nominal magnitude is standard (Betts 2010).
-- **Coordinate choice.** Cartesian coordinates perform poorly in NLPs — state variables change sign periodically and span large ranges. Switching to [orbital elements](/en/glossary/dynamics/orbital-coordinate-frames/) or equinoctial variables usually improves robustness significantly (Conway 2010, Ch. 3).
-- **Mesh refinement.** Begin with a coarse mesh (e.g. $N=20$), then refine based on per-segment error estimates — either by raising the order within a fixed segment (trapezoid → H-S → fifth-order G-L) or by inserting new nodes. Betts recommends at most five new nodes per original segment (Betts 2010).
+- **Coordinate choice.** Cartesian coordinates perform poorly in NLPs: state variables change sign periodically and span large ranges. Switching to [orbital elements](/en/glossary/dynamics/orbital-coordinate-frames/) or equinoctial variables usually improves robustness significantly (Conway 2010, Ch. 3).
+- **Mesh refinement.** Begin with a coarse mesh (e.g. $N=20$), then refine based on per-segment error estimates: either by raising the order within a fixed segment (trapezoid → H-S → fifth-order G-L) or by inserting new nodes. Betts recommends at most five new nodes per original segment (Betts 2010).
 - **Knots.** State-discontinuous boundaries (sphere-of-influence transitions, gravity-assist flybys, stage separations) are inserted as zero-width segments; the collocation constraint there is replaced by nonlinear equations relating the left and right states (Conway 2010).
 
 ## Comparison with pseudospectral and shooting

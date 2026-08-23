@@ -30,24 +30,24 @@ permalink: /en/glossary/orbits/lagrangian-point/
 
 ## Definition
 
-The restricted three-body problem has five equilibrium points — locations where a massless third body maintains a fixed position relative to the two primaries. Three **collinear libration points** L1, L2, L3 lie on the line joining the primaries (attributed to Euler); two **triangular libration points** L4, L5 sit at the vertices of equilateral triangles on the primaries' connecting line as base (attributed to Lagrange) (Meyer & Offin 2017, Murray & Dermott 1999). "Libration point" is the dynamics-community term; engineering literature favors "Lagrangian point."
+The restricted three-body problem has five equilibrium points: locations where a massless third body maintains a fixed position relative to the two primaries. Three **collinear libration points** L1, L2, L3 lie on the line joining the primaries (attributed to Euler); two **triangular libration points** L4, L5 sit at the vertices of equilateral triangles on the primaries' connecting line as base (attributed to Lagrange) (Meyer & Offin 2017, Murray & Dermott 1999). Libration point is the dynamics-community term; engineering literature favors Lagrangian point.
 
 Positions in the Earth–Moon system (Qiao 2025 normalized distances, converted at 384,400 km): L1 is about 58,000 km from the Moon / 326,000 km from Earth; L2 about 64,500 km from the Moon / 449,000 km from Earth; L3 on the Earth's far side from the Moon, about 382,000 km from Earth.
 
 ## Stability
 
-- **Collinear points are unstable**: the linearized eigenvalues include a real pair — the motion mode is "saddle × center × center" (Qiao 2025; Meyer & Offin 2017 prove the collinear points are saddle points in the plane). This is exactly why nearby orbits carry hyperbolic invariant manifolds — both the engineering value (low-energy transfer channels) and the cataloging challenge.
+- **Collinear points are unstable**: the linearized eigenvalues include a real pair: the motion mode is saddle × center × center (Qiao 2025; Meyer & Offin 2017 prove the collinear points are saddle points in the plane). This is exactly why nearby orbits carry hyperbolic invariant manifolds, hence both the engineering value (low-energy transfer channels) and the cataloging challenge.
 - **Triangular points are conditionally stable**: linearly stable when the mass ratio μ is below Routh's critical value μ₁ ≈ 0.0385; the Earth–Moon system with μ ≈ 0.0122 satisfies this (Murray & Dermott 1999, Meyer & Offin 2017). Strictly, a few resonant mass ratios are exceptions in the planar case, but Earth–Moon μ does not coincide with any of them.
 
 ## Zero-Velocity Surfaces, Hill's Region, and Neck Passages
 
-The Jacobi integral C constrains the positions accessible to motion; the set ℌ(C) = {x : W(x) ≥ C} is the **Hill's region**, its boundary the zero-velocity curve (Meyer & Offin 2017). The critical Jacobi values are ordered C_L1 > C_L2 > C_L3 > C_L4,5 (Murray & Dermott 1999): as C decreases from high values, the two zero-velocity surfaces enclosing Earth and Moon first meet at L1 (C = C₁); when C drops slightly below C₁ a narrow corridor opens at L1 — a **necessary but not sufficient** condition for a spacecraft to transit toward the Moon; whether a transfer succeeds also depends on the initial state (Peng & Zhang 2016).
+The Jacobi integral C constrains the positions accessible to motion; the set ℌ(C) = {x : W(x) ≥ C} is the **Hill's region**, its boundary the zero-velocity curve (Meyer & Offin 2017). The critical Jacobi values are ordered C_L1 > C_L2 > C_L3 > C_L4,5 (Murray & Dermott 1999): as C decreases from high values, the two zero-velocity surfaces enclosing Earth and Moon first meet at L1 (C = C₁); when C drops slightly below C₁ a narrow corridor opens at L1, a **necessary but not sufficient** condition for a spacecraft to transit toward the Moon; whether a transfer succeeds also depends on the initial state (Peng & Zhang 2016).
 
 **L1/L2 gateway**: a descriptive term for the passage region near L1/L2 through which trajectories travel between the lunar vicinity and the exterior region; used as an itinerary label in natural-trajectory clustering studies (Bosanac 2026).
 
 ## The L1 Transfer Corridor
 
-Transfers through the L1 corridor (Peng & Zhang 2016): the L1 stable manifold at C ≈ C₁ comes no closer to Earth than about 0.1 Earth–Moon distances, so a connecting arc is needed — first burn at the low-Earth parking orbit, second at the manifold insertion point; without a target lunar orbit the spacecraft is often automatically captured by the Moon upon entry (cheaper than Hohmann), while with a target orbit a third burn near perilune is generally applied. An example transfer takes about 363 days from the stable manifold to L1; the survey table lists ">4100 m/s, tens to hundreds of days." For crewed lunar missions the original text judges these "often do not save energy" and "time-consuming and costly, not advisable."
+Transfers through the L1 corridor (Peng & Zhang 2016): the L1 stable manifold at C ≈ C₁ comes no closer to Earth than about 0.1 Earth–Moon distances, so a connecting arc is needed: first burn at the low-Earth parking orbit, second at the manifold insertion point; without a target lunar orbit the spacecraft is often automatically captured by the Moon upon entry (cheaper than Hohmann), while with a target orbit a third burn near perilune is generally applied. An example transfer takes about 363 days from the stable manifold to L1; the survey table lists over 4100 m/s and tens to hundreds of days. For crewed lunar missions the original text judges them often not to save energy, and time-consuming and costly, not advisable.
 
 ## Applications
 

@@ -50,7 +50,7 @@ $$\dot{\mathbf{x}}(\tau_i)\approx\sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k,\quad D_{ik
 
 $$\boldsymbol{\zeta}_i = \sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k - \frac{t_f-t_0}{2}\,\mathbf{f}(\mathbf{x}_i,\mathbf{u}_i,\tau_i) = \mathbf{0},\quad i=0,\dots,N.$$
 
-注意：与 [直接配点法](/glossary/dynamics/direct-collocation/) 不同，伪谱法的雅可比是稠密的——每个节点上的缺陷约束依赖于全部 $N+1$ 个状态变量。这是它「全局多项式」特性的代价。
+注意：与 [直接配点法](/glossary/dynamics/direct-collocation/) 不同，伪谱法的雅可比是稠密的：每个节点上的缺陷约束依赖于全部 $N+1$ 个状态变量。这是它「全局多项式」特性的代价。
 
 ## 节点选择与变体
 
@@ -64,11 +64,11 @@ $$\boldsymbol{\zeta}_i = \sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k - \frac{t_f-t_0}{2}
 
 三者的协态映射定理形式不同：**GPM 与 RPM 的 KKT 乘子可直接对应连续协态**，**LPM 需额外做端点加权**（Benson et al. 2006；Garg et al. 2010）。这是近年 GPOPS-II 等工具转向 RPM/FRPM 的主要原因。
 
-Chebyshev 节点（Chebyshev-Gauss-Lobatto）的另一族——**Chebyshev 伪谱法（CPM）**——在节点与微分矩阵上有闭式表达，计算效率更高；通过共形映射 + 重心插值可显著缓解标准 CPM 微分矩阵的病态（Kosloff & Tal-Ezer 1993；Cai 等 2016）。
+Chebyshev 节点（Chebyshev-Gauss-Lobatto）的另一族：**Chebyshev 伪谱法（CPM）**，在节点与微分矩阵上有闭式表达，计算效率更高；通过共形映射 + 重心插值可显著缓解标准 CPM 微分矩阵的病态（Kosloff & Tal-Ezer 1993；Cai 等 2016）。
 
 ## 谱收敛性与 hp 自适应
 
-谱收敛性指：对解析解，误差随节点数 $N$ 以 $O(\rho^{-N})$（$\rho>1$）下降——比任何多项式阶都快。但对非光滑解（如低推力燃料最优的 bang-bang 控制），全局多项式会出现 Gibbs 振荡，谱收敛性失效。
+谱收敛性指：对解析解，误差随节点数 $N$ 以 $O(\rho^{-N})$（$\rho>1$）下降，比任何多项式阶都快。但对非光滑解（如低推力燃料最优的 bang-bang 控制），全局多项式会出现 Gibbs 振荡，谱收敛性失效。
 
 工程对策是 **hp 自适应**：
 

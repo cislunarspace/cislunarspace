@@ -36,7 +36,7 @@ According to HIT, the school was established in 1987 as China's first school of 
 
 ### The School of Astronautics and the satellite development chain
 
-The School of Astronautics is HIT's main anchor for cislunar-related work. Around the school, the Satellite Technology Institute, and related small-satellite development efforts, HIT has built a chain spanning mission design, subsystem development, payload integration, ground support, and on-orbit verification — the conditions needed to move work from thesis to flight hardware.
+The School of Astronautics is HIT's main anchor for cislunar-related work. Around the school, the Satellite Technology Institute, and related small-satellite development efforts, HIT has built a chain spanning mission design, subsystem development, payload integration, ground support, and on-orbit verification: the conditions needed to move work from thesis to flight hardware.
 
 ### Verified capability in lunar-orbit missions
 
@@ -44,9 +44,9 @@ In 2018, HIT-developed `Longjiang-1` and `Longjiang-2` launched alongside the `Q
 
 In 2024, HIT independently developed `Tiandu-2`, a 15 kg satellite flying in formation with `Tiandu-1` in lunar orbit, focused on communication and navigation technology validation. Where `Longjiang-2` demonstrated the ability to reach and operate in lunar orbit, `Tiandu-2` addresses the next question: how to communicate, range, and navigate reliably there over time.
 
-### The "Ground-based Space Station" and deep-space environment simulation
+### The Ground-based Space Station and deep-space environment simulation
 
-The Space Environment Ground Simulation Facility — informally called the "ground-based space station" — is China's first national major science and technology infrastructure in the aerospace domain. It reproduces vacuum, thermal cycling, particle radiation, electromagnetic radiation, space dust, weak magnetic fields, and plasma conditions on the ground.
+The Space Environment Ground Simulation Facility (informally called the ground-based space station) is China's first national major science and technology infrastructure in the aerospace domain. It reproduces vacuum, thermal cycling, particle radiation, electromagnetic radiation, space dust, weak magnetic fields, and plasma conditions on the ground.
 
 After formal acceptance and operation, the facility logged over 50,000 machine-hours supporting missions including China's space station, lunar exploration, Mars exploration, and `Queqiao`. Material testing in lunar-dust-like conditions, radiation testing of deep-space electronics, and reliability assessment for long-duration missions all depend on this kind of ground simulation.
 

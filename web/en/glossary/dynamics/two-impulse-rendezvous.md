@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/two-impulse-rendezvous/
 
 ## Definition
 
-An impulsive maneuver is a mathematical approximation for chemical-propulsion orbital maneuvers: it assumes thrust $F \to \infty$, burn time $\Delta t \to 0$, such that the impulse $F\Delta t$ is finite and the orbital velocity undergoes an instantaneous jump. This approximation is valid when the burn time is much shorter than the orbital period—which holds well for typical high-thrust chemical rockets (thrust of hundreds of thousands of Newtons, $I_{sp}$ of 300--400 s) in low Earth orbit transfers (Vallado 2022).
+An impulsive maneuver is a mathematical approximation for chemical-propulsion orbital maneuvers: it assumes thrust $F \to \infty$, burn time $\Delta t \to 0$, such that the impulse $F\Delta t$ is finite and the orbital velocity undergoes an instantaneous jump. This approximation is valid when the burn time is much shorter than the orbital period, which holds well for typical high-thrust chemical rockets (thrust of hundreds of thousands of Newtons, $I_{sp}$ of 300--400 s) in low Earth orbit transfers (Vallado 2022).
 
 Impulsive maneuvers reduce orbit design to solving for a velocity increment $\Delta v$ (magnitude and direction), rather than handling continuous-thrust integration. Two core performance metrics:
 
@@ -44,7 +44,7 @@ Impulsive maneuvers reduce orbit design to solving for a velocity increment $\De
 
 Two-impulse rendezvous is the most basic impulsive maneuver mode: a single departure impulse is applied at the initial orbit and a single arrival impulse at the final orbit, with the intervening coasting arc relying solely on gravity. This corresponds to the Lambert problem: given two position vectors $\mathbf{r}_1, \mathbf{r}_2$ and a transfer time $t_f$, find the initial and terminal velocities of the transfer orbit.
 
-The solution to the Lambert problem, obtained via Lagrange coefficients or Gibbs' method, admits long-way/short-way and multi-revolution solution branches. When the two orbits are coplanar and circular, the energy-optimal two-impulse solution reduces to the **Hohmann transfer**: both impulses are applied tangentially—the departure impulse accelerates the spacecraft into an elliptical transfer orbit whose semi-major axis is the average of the two orbital radii, and the arrival impulse decelerates to circularize.
+The solution to the Lambert problem, obtained via Lagrange coefficients or Gibbs' method, admits long-way/short-way and multi-revolution solution branches. When the two orbits are coplanar and circular, the energy-optimal two-impulse solution reduces to the **Hohmann transfer**: both impulses are applied tangentially: the departure impulse accelerates the spacecraft into an elliptical transfer orbit whose semi-major axis is the average of the two orbital radii, and the arrival impulse decelerates to circularize.
 
 In the more general multi-revolution case, two-impulse rendezvous can be extended via multiple-revolution Lambert solutions to include transfers with 0 to N additional full revolutions (Shen and Tsiotras 2003).
 
@@ -54,7 +54,7 @@ When the two-impulse solution does not satisfy constraints (e.g., restricted thr
 
 - **Three-impulse transfer**: In the standard configuration for Earth-Moon DRO insertion, three impulses are applied sequentially at the departure point, periapsis, and insertion point. The departure impulse sends the spacecraft from a parking orbit into an Earth-Moon transfer leg; the periapsis impulse is applied at the Moon flyby periapsis, exploiting the gravity assist to redirect toward the Moon-to-DRO transfer leg; the insertion impulse at the DRO insertion point completes orbit matching. Total impulse equals the sum of periapsis and insertion impulses (Wei et al. 2026).
 
-- **Three-impulse orbit insertion**: A specific formulation of three-impulse transfer for DRO capture—first impulse: low-orbit departure; second impulse: periapsis redirection; third impulse: DRO insertion.
+- **Three-impulse orbit insertion**: A specific formulation of three-impulse transfer for DRO capture: first impulse: low-orbit departure; second impulse: periapsis redirection; third impulse: DRO insertion.
 
 - **Multi-impulse maneuver**: Multiple impulse maneuvers used in orbital transfers, allowing piecewise adjustment of orbital parameters for more flexible transfer trajectory design. In complex missions with long transfer times and many constraints, increasing the number of impulses generally reduces total fuel consumption at the cost of increased operational complexity.
 
@@ -70,7 +70,7 @@ A spacecraft departs from a near-Earth parking orbit and reaches a libration-poi
 2. **Coasting arc**: The spacecraft follows gravity-only natural motion along the patched leg.
 3. **Second impulse** (arrival): At the manifold patching point, matches the state of the target orbit; thereafter the spacecraft drifts unpowered along the stable manifold toward the target periodic orbit.
 
-The reason a libration-point two-impulse transfer requires only two impulses is that it leverages the natural dynamics of manifolds—the coasting arc is not a free Lambert arc but an orbit transition "guided" by the manifold.
+The reason a libration-point two-impulse transfer requires only two impulses is that it leverages the natural dynamics of manifolds: the coasting arc is not a free Lambert arc but an orbit transition guided by the manifold.
 
 ### NRHO Impulsive Rendezvous Phasing
 
@@ -104,7 +104,7 @@ In station-keeping missions, impulses are not applied at arbitrary times but on 
 
 - For unstable orbits (e.g., Halo), excessively long intervals cause exponential orbital divergence, necessitating shorter intervals (hours to half a day).
 
-The impulse application rules prescribe optimal impulse direction and location; the impulse interval embeds them into a temporal scheduling framework—together, the two define the complete impulsive station-keeping strategy.
+The impulse application rules prescribe optimal impulse direction and location; the impulse interval embeds them into a temporal scheduling framework, together, the two define the complete impulsive station-keeping strategy.
 
 ## Comparison with Continuous-Thrust Control
 
@@ -122,19 +122,19 @@ See [Electric Propulsion (EP)](/en/glossary/fundamentals/ep/) and [Bang-bang Con
 
 ## Related Concepts
 
-- [Electric Propulsion (EP)](/en/glossary/fundamentals/ep/) — The physical foundation of continuous-thrust systems; the complementary thrust type to the impulsive model
+- [Electric Propulsion (EP)](/en/glossary/fundamentals/ep/): The physical foundation of continuous-thrust systems; the complementary thrust type to the impulsive model
 
-- [Bang-bang Control and Lawden's Arc Law](/en/glossary/dynamics/bang-bang-control/) — The pulse-like switching logic of fuel-optimal continuous thrust; two-impulse solutions provide continuation initial guesses
+- [Bang-bang Control and Lawden's Arc Law](/en/glossary/dynamics/bang-bang-control/): The pulse-like switching logic of fuel-optimal continuous thrust; two-impulse solutions provide continuation initial guesses
 
-- [Tangential Thrust Control](/en/glossary/dynamics/tangential-thrust-control/) — Thrust-direction strategies under continuous thrust
+- [Tangential Thrust Control](/en/glossary/dynamics/tangential-thrust-control/): Thrust-direction strategies under continuous thrust
 
-- [CR3BP (Circular Restricted Three-Body Problem)](/en/glossary/dynamics/cr3bp/) — The dynamical framework for libration-point impulsive transfers
+- [CR3BP (Circular Restricted Three-Body Problem)](/en/glossary/dynamics/cr3bp/): The dynamical framework for libration-point impulsive transfers
 
-- [Zero-Velocity Surface](/en/glossary/dynamics/zero-velocity-surface/) — The reachable region boundary defined by the Jacobi constant; geometric background for impulse application rules
+- [Zero-Velocity Surface](/en/glossary/dynamics/zero-velocity-surface/): The reachable region boundary defined by the Jacobi constant; geometric background for impulse application rules
 
-- [Libration Point](/en/glossary/fundamentals/libration-point/) — Reference targets for libration-point orbit impulsive transfers
+- [Libration Point](/en/glossary/fundamentals/libration-point/): Reference targets for libration-point orbit impulsive transfers
 
-- [Halo Orbit](/en/glossary/orbits/halo-orbit/) — Typical target orbit families for two- and multi-impulse transfers
+- [Halo Orbit](/en/glossary/orbits/halo-orbit/): Typical target orbit families for two- and multi-impulse transfers
 
 ## References
 

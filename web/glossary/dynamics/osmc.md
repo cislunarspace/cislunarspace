@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/osmc/
 
 ## 定义
 
-**滑模控制**（Sliding Mode Control, SMC）是一类变结构控制方法：在状态空间中设计一个低维流形——**滑模面** $s(\boldsymbol{x},t)=0$，控制律在不同区域取不同结构，强制系统状态在有限时间内到达滑模面并沿之"滑动"。一旦进入滑动段，闭环行为由滑模面方程决定，**对满足匹配条件（matching condition）的模型不确定性与外扰具有不变性**（Utkin 1977；Slotine & Li 1991）。
+**滑模控制**（Sliding Mode Control, SMC）是一类变结构控制方法：在状态空间中设计一个低维流形，即**滑模面** $s(\boldsymbol{x},t)=0$，控制律在不同区域取不同结构，强制系统状态在有限时间内到达滑模面并沿之滑动。一旦进入滑动段，闭环行为由滑模面方程决定，**对满足匹配条件（matching condition）的模型不确定性与外扰具有不变性**（Utkin 1977；Slotine & Li 1991）。
 
 **最优滑模控制**（Optimal Sliding Mode Control, OSMC）把 [LQR](/glossary/dynamics/linear-quadratic-optimal-control/) 的反馈增益嵌入滑模面，使滑动段对预设的二次型指标最优；同时保留一个不连续的切换项以补偿扰动。这样兼得 LQR 的最优性与 SMC 的鲁棒性（Utkin & Shi 1996；Zhang & Wang 2022）。
 

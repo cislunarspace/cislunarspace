@@ -32,15 +32,15 @@ permalink: /glossary/fundamentals/lamberts-problem/
 
 兰伯特问题（Lambert's problem）是轨道力学的两大经典问题之一（另一个是开普勒问题）：在中心引力场中，给定初始位置矢量 $\vec r_1$、末端位置矢量 $\vec r_2$ 和飞行时间 $\Delta t$，求连接两端的轨道及两端的速度矢量 $\vec v_1$、$\vec v_2$。它既是初始轨道确定的基本工具，也是转移轨道（拦截、交会、再入）设计的基本工具（Vallado 2022；Battin 1999）。
 
-文献里常称"高斯问题"是误称。Euler 在 1744 年首次分析了这个问题，Lambert 在 1761–1771 年间将其推广到椭圆与双曲线轨道，Gauss 在 1801 年为重新发现谷神星提出了一种求解方法——他求解的是 Lambert 问题，而非一个独立的新问题（Vallado 2022, §7.6）。
+文献里常称高斯问题是误称。Euler 在 1744 年首次分析了这个问题，Lambert 在 1761–1771 年间将其推广到椭圆与双曲线轨道，Gauss 在 1801 年为重新发现谷神星提出了一种求解方法：他求解的是 Lambert 问题，而非一个独立的新问题（Vallado 2022, §7.6）。
 
-两个位置矢量唯一确定了轨道平面。给定"短程"或"长程"（$t_m=\pm1$，对应转移角 $\Delta\nu$ 小于或大于 $180^\circ$）选择后，二体 Lambert 问题有唯一解；当 $\Delta\nu=180^\circ$ 时平面不确定、解退化。
+两个位置矢量唯一确定了轨道平面。给定短程或长程（$t_m=\pm1$，对应转移角 $\Delta\nu$ 小于或大于 $180^\circ$）选择后，二体 Lambert 问题有唯一解；当 $\Delta\nu=180^\circ$ 时平面不确定、解退化。
 
 ## Lambert 定理（飞行时间定理）
 
 Lambert 在几何研究中得到的核心结论，被 Battin 表述为定理（Battin 1999, p. 276）：
 
-> 两端点之间的轨道转移时间，**只**依赖三个量——半长轴 $a$、两端到力心的距离之和 $r_1+r_2$、连接两端的弦长 $c$，与轨道形状（即偏心率）无关。
+> 两端点之间的轨道转移时间，**只**依赖三个量：半长轴 $a$、两端到力心的距离之和 $r_1+r_2$、连接两端的弦长 $c$，与轨道形状（即偏心率）无关。
 
 等价地：固定 $r_1+r_2$、$c$ 和 $\Delta t$ 后，所有可行的连接轨道都有相同的半长轴；不同的偏心率对应同一族椭圆的不同成员。这是 Lambert 问题之所以能被一个标量方程（关于 $a$ 或等价变量）求解的几何根源。Lagrange 给出了解析形式（Vallado 2022, Eq. 7-36）：
 
@@ -52,7 +52,7 @@ $$
 
 ## 最小能量解与不可解条件
 
-半长轴小于某临界值时连接两端不可能。临界值由"两个虚拟焦点圆刚好相切"的几何条件给出（Vallado 2022, Eq. 7-37）：
+半长轴小于某临界值时连接两端不可能。临界值由两个虚拟焦点圆刚好相切这一几何条件给出（Vallado 2022, Eq. 7-37）：
 
 $$
 a_{\min}=\frac{s}{2}=\frac{r_1+r_2+c}{4}
@@ -88,11 +88,11 @@ $$
 2. 在完整力模型下数值积分到末端，得到位置偏差 $\delta\vec r_2$；
 3. 用 [微分改正](/glossary/dynamics/differential-correction/) 或 [同伦法](/glossary/dynamics/homotopy-method/) 迭代修正 $\vec v_1$，直到末端位置满足精度。
 
-这一流程又称受摄 Lambert 弧段（perturbed Lambert arc）。在地月转移的中途修正、多弧段拼接、双脉冲 cislunar 转移的中间弧计算中是基本工具；理论上的等价问题是更一般的 [两点边值问题](/glossary/dynamics/tpbvp/) 与 Cowell 数值积分（见 [Cowell 摄动法](/glossary/fundamentals/orbital-perturbations/)）。Criscola 等 (2024) 用"函数连接理论"给出受摄 Lambert 的直接解法，可绕过迭代。
+这一流程又称受摄 Lambert 弧段（perturbed Lambert arc）。在地月转移的中途修正、多弧段拼接、双脉冲 cislunar 转移的中间弧计算中是基本工具；理论上的等价问题是更一般的 [两点边值问题](/glossary/dynamics/tpbvp/) 与 Cowell 数值积分（见 [Cowell 摄动法](/glossary/fundamentals/orbital-perturbations/)）。Criscola 等 (2024) 用函数连接理论给出受摄 Lambert 的直接解法，可绕过迭代。
 
 ## 不确定 Lambert 问题与线性变分形式
 
-实际任务里 $\vec r_1$、$\vec r_2$（来自雷达/光学观测）都带误差，所以 $\vec v_1$、$\vec v_2$ 也是随机变量。Schumacher 等 (2015) 把它形式化为"不确定 Lambert 问题"（Uncertain Lambert Problem, ULP）：
+实际任务里 $\vec r_1$、$\vec r_2$（来自雷达/光学观测）都带误差，所以 $\vec v_1$、$\vec v_2$ 也是随机变量。Schumacher 等 (2015) 把它形式化为不确定 Lambert 问题（Uncertain Lambert Problem, ULP）：
 
 - **一般非线性形式**：$\vec v_1=L(\vec r_1,\vec r_2)$ 的映射把位置的概率密度变换为速度的概率密度，结构由 Liouville 方程描述，通常用 Monte Carlo 求解。
 

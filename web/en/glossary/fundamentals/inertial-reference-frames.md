@@ -30,7 +30,7 @@ permalink: /en/glossary/fundamentals/inertial-reference-frames/
 
 ## Definition
 
-An inertial reference frame is a frame whose origin is at a celestial body's center of mass and whose axes are fixed (non-rotating) relative to the distant stars; it is the legitimate setting in which Newton's second law — and hence the equations of motion — may be written. No truly non-accelerating frame exists; astrodynamics uses quasi-inertial frames (pseudo-inertial frames): for Earth satellites the geocentric equatorial system suffices, while the heliocentric system serves as the background for interplanetary probes (Vallado 2022). Opposed to inertial frames are body-fixed frames (attached to a rotating surface) and synodic/rotating frames (attached to the rotating line joining two primaries; see [Synodic Frame](/glossary/fundamentals/synodic-frame/)). In practice the label "inertial frame" denotes a family of conventions: origin (geocentric/selenocentric/heliocentric/barycentric) and principal direction (vernal equinox/equator/orbit plane) differ between members, and one must always confirm which convention a paper uses.
+An inertial reference frame is a frame whose origin is at a celestial body's center of mass and whose axes are fixed (non-rotating) relative to the distant stars; it is the legitimate setting in which Newton's second law (and hence the equations of motion) may be written. No truly non-accelerating frame exists; astrodynamics uses quasi-inertial frames (pseudo-inertial frames): for Earth satellites the geocentric equatorial system suffices, while the heliocentric system serves as the background for interplanetary probes (Vallado 2022). Opposed to inertial frames are body-fixed frames (attached to a rotating surface) and synodic/rotating frames (attached to the rotating line joining two primaries; see [Synodic Frame](/glossary/fundamentals/synodic-frame/)). In practice the label inertial frame denotes a family of conventions: origin (geocentric/selenocentric/heliocentric/barycentric) and principal direction (vernal equinox/equator/orbit plane) differ between members, and one must always confirm which convention a paper uses.
 
 ## Three Constituents of a Frame
 
@@ -40,17 +40,17 @@ Any reference frame is fully specified by three elements (Vallado 2022):
 2. **Fundamental plane**: Earth equator, lunar equator, ecliptic, lunar orbital plane, etc.;
 3. **Principal direction**: usually the vernal equinox, the Greenwich meridian, or a characteristic vector (e.g., the line joining the primaries).
 
-Different choices of these elements yield different frames; names like ECI, EME2000 and GCRF differ only in one or two of these elements — their epoch or realization.
+Different choices of these elements yield different frames; names like ECI, EME2000 and GCRF differ only in one or two of these elements: their epoch or realization.
 
 ## Geocentric Frames
 
 ### ECI and the J2000 Convention
 
-ECI (Earth-Centered Inertial) is a generic label, not a single frame. Because the equator and the vernal equinox drift slowly (precession, nutation), both directions must be frozen at a chosen epoch to obtain a quasi-inertial system. Historically the IAU-76/FK5 system was the standard: its equator and equinox are based on the FK5 star catalog, epoch J2000.0 (2000 Jan 1 12h TT), and the IAU-1976 precession model with the IAU-1980 nutation theory transform frames at other epochs to it (Vallado 2022). Hence "J2000 system" is often used interchangeably with ECI.
+ECI (Earth-Centered Inertial) is a generic label, not a single frame. Because the equator and the vernal equinox drift slowly (precession, nutation), both directions must be frozen at a chosen epoch to obtain a quasi-inertial system. Historically the IAU-76/FK5 system was the standard: its equator and equinox are based on the FK5 star catalog, epoch J2000.0 (2000 Jan 1 12h TT), and the IAU-1976 precession model with the IAU-1980 nutation theory transform frames at other epochs to it (Vallado 2022). Hence J2000 system is often used interchangeably with ECI.
 
 ### EME2000
 
-EME2000 (Earth Mean Equator and Equinox of J2000) is the J2000-epoch geocentric mean-equator-and-equinox inertial frame, a common basis for boundary conditions and orbit propagation in the geocentric phase of lunar missions. The equator and equinox are taken as their "mean" J2000 values, so the frame does not drift under precession/nutation and may be treated as quasi-inertial (Vallado 2022; Yoon and Petukhov 2023).
+EME2000 (Earth Mean Equator and Equinox of J2000) is the J2000-epoch geocentric mean-equator-and-equinox inertial frame, a common basis for boundary conditions and orbit propagation in the geocentric phase of lunar missions. The equator and equinox are taken as their mean J2000 values, so the frame does not drift under precession/nutation and may be treated as quasi-inertial (Vallado 2022; Yoon and Petukhov 2023).
 
 ### GCRF and ICRS/ICRF
 
@@ -66,17 +66,17 @@ Uses: to process ground observations (station latitude/longitude, azimuth/elevat
 
 ### Selenocentric Inertial Frames MCI / LME2000
 
-A Moon-centered inertial frame (MCI) has its origin at the lunar center and fixed axes; it is the customary setting for lunar-spacecraft equations of motion. Two conventions occur: translating the J2000 geocentric equatorial axes to the Moon, or LME2000 — a selenocentric inertial frame whose fundamental plane is the lunar mean equator of J2000 (Yoon and Petukhov 2023), often used for the final conditions of the selenocentric phase. Another convention takes the lunar orbital plane as fundamental and the x-axis along the Earth-Moon line at the initial epoch (Acta Geodaetica et Cartographica Sinica 2013), convenient for describing libration-point orbits in a lunar-centered frame.
+A Moon-centered inertial frame (MCI) has its origin at the lunar center and fixed axes; it is the customary setting for lunar-spacecraft equations of motion. Two conventions occur: translating the J2000 geocentric equatorial axes to the Moon, or LME2000, a selenocentric inertial frame whose fundamental plane is the lunar mean equator of J2000 (Yoon and Petukhov 2023), often used for the final conditions of the selenocentric phase. Another convention takes the lunar orbital plane as fundamental and the x-axis along the Earth-Moon line at the initial epoch (Acta Geodaetica et Cartographica Sinica 2013), convenient for describing libration-point orbits in a lunar-centered frame.
 
 Compared with a Moon-centered rotating frame (which rotates with the Earth-Moon line, a selenocentric variant of the synodic frame), the Earth's position is time-varying in MCI and the equations are explicitly time-dependent; but the two-body and three-body phases can share the same state-vector basis, easing continuous handover between dynamical models (Oue et al. 2025).
 
 ### Lunar Body-Fixed Frame
 
-The lunar body-fixed (selenodetic) frame is attached to the lunar surface and rotates with the Moon: origin at the selenocenter, reference plane the lunar equator, one axis along the intersection of the lunar equator with the prime meridian, another along the lunar rotation axis. Lunar latitude and longitude are coordinates in this frame, so the terminal constraints of soft landing, powered descent and selenodetic mapping (landing-site coordinates, zero velocity) are formulated here (Zhou and Zhou 2007). The lunar orbital plane (the plane of the Moon's orbit about the Earth, the ecliptic inclined to it by about 5.145 deg) is an orbit-geometry reference, distinct from the lunar equatorial plane (inclined to it by about 6.7 deg) — do not conflate the two.
+The lunar body-fixed (selenodetic) frame is attached to the lunar surface and rotates with the Moon: origin at the selenocenter, reference plane the lunar equator, one axis along the intersection of the lunar equator with the prime meridian, another along the lunar rotation axis. Lunar latitude and longitude are coordinates in this frame, so the terminal constraints of soft landing, powered descent and selenodetic mapping (landing-site coordinates, zero velocity) are formulated here (Zhou and Zhou 2007). The lunar orbital plane (the plane of the Moon's orbit about the Earth, the ecliptic inclined to it by about 5.145 deg) is an orbit-geometry reference, distinct from the lunar equatorial plane (inclined to it by about 6.7 deg): do not conflate the two.
 
 ## Barycentric Systems and Common Planes
 
-- **Barycentric synodic frame**: origin at the Earth-Moon barycenter, rotating with the Earth-Moon line — the standard setting of the CR3BP (see [Synodic Frame](/glossary/fundamentals/synodic-frame/)).
+- **Barycentric synodic frame**: origin at the Earth-Moon barycenter, rotating with the Earth-Moon line, the standard setting of the CR3BP (see [Synodic Frame](/glossary/fundamentals/synodic-frame/)).
 
 - **Barycentric inertial frame**: origin at the barycenter, fixed axes (non-rotating). Equations of motion written in relative coordinates are independent of the origin; they depend only on relative positions and second derivatives (Vallado 2022). Do not confuse it with the barycentric synodic frame, which adds one rotational degree of freedom.
 

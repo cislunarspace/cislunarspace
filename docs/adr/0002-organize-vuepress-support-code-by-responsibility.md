@@ -1,4 +1,4 @@
-# ADR 0002 — Organize VuePress support code by responsibility
+# ADR 0002: Organize VuePress support code by responsibility
 
 - **Status:** Accepted
 - **Date:** 2026-06-03
@@ -9,13 +9,13 @@
 
 The `web/.vuepress/` root directory accumulated support files across multiple development phases, reaching ~25 source files with mixed responsibilities:
 
-- **Build tooling** (sync-figures, sharded-build, measure-build, verify-dist) — infrastructure scripts with no content knowledge
-- **Theme display data** (extraSideBar, footer) — consumed only by theme components, but living in the config directory
-- **Sidebar support code** (sidebar-data, sidebar-types, sidebar-transforms) — types and definitions for the knowledge-base sidebar tree
-- **Content generators** (gen-sidebar, gen-ai-chat-context) — build-time JSON artifact producers mixing seven distinct output families in a single 255-line orchestrator
-- **Deprecated compatibility files** (build-sidebar) — re-exports with no runtime importers
+- **Build tooling** (sync-figures, sharded-build, measure-build, verify-dist): infrastructure scripts with no content knowledge
+- **Theme display data** (extraSideBar, footer): consumed only by theme components, but living in the config directory
+- **Sidebar support code** (sidebar-data, sidebar-types, sidebar-transforms): types and definitions for the knowledge-base sidebar tree
+- **Content generators** (gen-sidebar, gen-ai-chat-context): build-time JSON artifact producers mixing seven distinct output families in a single 255-line orchestrator
+- **Deprecated compatibility files** (build-sidebar): re-exports with no runtime importers
 
-This layout made it hard for maintainers and agents to answer "where does X live?" without reading multiple files. Adding or modifying any content family required navigating a flat directory that mixed unrelated concerns.
+This layout made it hard for maintainers and agents to find out where X lives without reading multiple files. Adding or modifying any content family required navigating a flat directory that mixed unrelated concerns.
 
 ## Decision
 
@@ -46,7 +46,7 @@ The build-time orchestrator (`generate.ts`) is a thin CLI entry point that deleg
 
 ### Positive
 
-- Each responsibility area has a single directory; "where does X go?" is answered by the directory name.
+- Each responsibility area has a single directory; where X goes is answered by the directory name.
 - `generate.test.ts` exercises the new generator structure, confirming artifact equivalence.
 - Deprecated `build-sidebar.ts` is removed; no stale re-exports remain.
 - The WeChat signature service example is moved to `scripts/`, correctly identified as a project-level utility rather than VuePress build code.
@@ -68,6 +68,6 @@ The build-time orchestrator (`generate.ts`) is a thin CLI entry point that deleg
 ADR 批准后实际落地时有以下偏差：
 
 1. **`sidebar/types.ts` 合并为单一文件**：ADR 原计划拆为 `intake.ts` + `runtime.ts` + `types.ts`（re-export hub），实际直接合并到 `types.ts` 一个文件，`intake.ts` 和 `runtime.ts` 未创建。re-export 层已在后续清理中移除。
-2. **`page-metadata.ts` 位置**：ADR 写"lives in `.vuepress/utils/page-metadata.ts`"，实际同时有 `.ts`（封装层）和 `.mjs`（核心实现）两个文件，测试后来从 `.vuepress/` 根移入 `utils/`。
+2. **`page-metadata.ts` 位置**：ADR 写 lives in `.vuepress/utils/page-metadata.ts`，实际同时有 `.ts`（封装层）和 `.mjs`（核心实现）两个文件，测试后来从 `.vuepress/` 根移入 `utils/`。
 3. **`gb-t-7714.csl` 已删除**：bibliography generator 重写为自实现 GB/T 7714 格式化，不再依赖 CSL 文件。
 4. **`view-engine.ts` 的 `select`/`build`/`hasSourceChildren` 已移除**：这三个方法仅被测试调用，属于死代码。

@@ -30,13 +30,13 @@ permalink: /en/glossary/dynamics/resonance-transition/
 
 ## Definition
 
-**Resonance transition** (also **resonance hopping**) is the dynamical process by which a celestial body or spacecraft moves from one mean-motion resonance ratio $(p_1:q_1)$ to another $(p_2:q_2)$ under multi-body gravitational influence. The transition is not a smooth drift of orbital elements but a "jump" across the neck regions near collinear libration points $L_1$ and $L_2$, mediated by the stable and unstable invariant manifold tubes of unstable periodic orbits (Koon et al. 2001; Perozzi & Ferraz-Mello 2010).
+**Resonance transition** (also **resonance hopping**) is the dynamical process by which a celestial body or spacecraft moves from one mean-motion resonance ratio $(p_1:q_1)$ to another $(p_2:q_2)$ under multi-body gravitational influence. The transition is not a smooth drift of orbital elements but a jump across the neck regions near collinear libration points $L_1$ and $L_2$, mediated by the stable and unstable invariant manifold tubes of unstable periodic orbits (Koon et al. 2001; Perozzi & Ferraz-Mello 2010).
 
 ## Dynamical Mechanism
 
-In the CR3BP, periodic orbits near $L_1$ and $L_2$ possess center, stable, and unstable subspaces; their stable/unstable manifolds form tube-like structures in phase space. These tubes do not remain local—they extend globally and, at the scale of the solar system, weave into interlocking "dynamical channels." Where the unstable manifolds of different resonance islands intersect transversely, homoclinic/heteroclinic tangles form, producing chaotic transport (Perozzi & Ferraz-Mello 2010).
+In the CR3BP, periodic orbits near $L_1$ and $L_2$ possess center, stable, and unstable subspaces; their stable/unstable manifolds form tube-like structures in phase space. These tubes do not remain local: they extend globally and, at the scale of the solar system, weave into interlocking dynamical channels. Where the unstable manifolds of different resonance islands intersect transversely, homoclinic/heteroclinic tangles form, producing chaotic transport (Perozzi & Ferraz-Mello 2010).
 
-From the orbital-elements perspective: each time the spacecraft crosses an $L_1$ neck and swings by $P_2$ (e.g., the Moon), its heliocentric semi-major axis jumps discontinuously—equivalent to switching to a different mean-motion resonance ratio. Successive neck crossings couple discrete resonance-ratio changes with the continuous decrease of the Jacobi constant, producing the "hopping" phenomenology.
+From the orbital-elements perspective: each time the spacecraft crosses an $L_1$ neck and swings by $P_2$ (e.g., the Moon), its heliocentric semi-major axis jumps discontinuously, equivalent to switching to a different mean-motion resonance ratio. Successive neck crossings couple discrete resonance-ratio changes with the continuous decrease of the Jacobi constant, producing the hopping phenomenology.
 
 ## Natural Examples
 
@@ -48,11 +48,11 @@ From the orbital-elements perspective: each time the spacecraft crosses an $L_1$
 
 - **SMART-1-like low-energy Earth-Moon transfers**: exploiting solar perturbations, the spacecraft repeatedly crosses the Earth-Moon $L_1$ neck, hopping from one near-resonant state to another at lower energy until reaching lunar capture energy. This is a manifestation of the weak stability boundary (WSB) transfer in the invariant-manifold framework (Scott 2010; Perozzi & Ferraz-Mello 2010).
 
-- **Planetary moon tours**: the Jupiter Europa Orbiter (JEO) "endgame" phase uses transitions between two different resonance ratios (e.g. 3:5 and 4:6) to lower orbital energy and achieve capture; the flight path can be built from intersecting resonant-orbit manifolds (Escribano & Howell 2013).
+- **Planetary moon tours**: the Jupiter Europa Orbiter (JEO) endgame phase uses transitions between two different resonance ratios (e.g. 3:5 and 4:6) to lower orbital energy and achieve capture; the flight path can be built from intersecting resonant-orbit manifolds (Escribano & Howell 2013).
 
 ## Application Highlights
 
-1. Resonance transitions rely on the "stickiness" of chaotic regions—a spacecraft can linger near a resonance boundary for long intervals, providing a window for low-thrust or natural drag to achieve permanent capture (Scott 2010).
+1. Resonance transitions rely on the stickiness of chaotic regions: a spacecraft can linger near a resonance boundary for long intervals, providing a window for low-thrust or natural drag to achieve permanent capture (Scott 2010).
 2. Design workflow: identify manifold intersections on Poincare sections between different resonance islands, then patch the arcs together via differential correction.
 3. Compared with pure two-body Hohmann transfers, resonance hopping can drastically reduce $\Delta V$ at the cost of longer flight times.
 

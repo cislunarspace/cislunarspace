@@ -80,7 +80,7 @@ $$\min_{\mathbf{X}} F(\mathbf{X})\quad \text{s.t.}\quad \mathbf{c}_l\leq\mathbf{
 - 可以从直接法解里「反推」出协态时间历程，从而计算 Hamiltonian 是否守恒，作为解的精度校核；
 - 可以用直接法解为[间接法](/glossary/dynamics/indirect-methods/)提供初值，做「直接-间接混合」求解。
 
-伪谱法因配点正交，这种映射最干净——称为 **covector mapping theorem**（Benson et al. 2006）。这也是 [伪谱法](/glossary/dynamics/pseudospectral-method/) 在工程中受欢迎的关键原因之一。
+伪谱法因配点正交，这种映射最干净，称为 **covector mapping theorem**（Benson et al. 2006）。这也是 [伪谱法](/glossary/dynamics/pseudospectral-method/) 在工程中受欢迎的关键原因之一。
 
 ## 应用要点
 

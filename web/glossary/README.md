@@ -28,7 +28,7 @@ twitter:
 
 # 地月空间术语词典
 
-地月空间的研究横跨轨道力学、制导导航与控制、任务设计、空间环境建模好几门学科，术语天然跨学科；不少关键概念又出自 Gateway、CAPSTONE 以来近十几年的英文文献，散在论文与报告里。读到 NRHO、不变流形、弱稳定边界这些词，往往要先翻几篇文献才弄清它指什么、怎么用、与相邻概念差在哪。本词典要把这道门槛拆掉：每条术语不止给一句释义，而是讲清定义、补上背后的数学与力学、给出工程上关心的参数与数字、辨析易混的变体，并为每处判断标出文献出处——做到能拿来读论文、做轨道设计。词条按八个主题分类，也可经侧边栏与搜索直达。
+地月空间的研究横跨轨道力学、制导导航与控制、任务设计、空间环境建模好几门学科，术语天然跨学科；不少关键概念又出自 Gateway、CAPSTONE 以来近十几年的英文文献，散在论文与报告里。读到 NRHO、不变流形、弱稳定边界这些词，往往要先翻几篇文献才弄清它指什么、怎么用、与相邻概念差在哪。本词典要把这道门槛拆掉：每条术语不止给一句释义，而是讲清定义、补上背后的数学与力学、给出工程上关心的参数与数字、辨析易混的变体，并为每处判断标出文献出处，做到能拿来读论文、做轨道设计。词条按八个主题分类，也可经侧边栏与搜索直达。
 
 ## 索引
 
@@ -123,13 +123,13 @@ twitter:
 
 ### 动力学与数学基础（dynamics，358 条）
 
-- ["Edelbaum公式（Edelbaum's Equation）"](/glossary/dynamics/edelbaums-equation/)
-- ["Lawden 必要条件（Lawden's Necessary Conditions）"](/glossary/dynamics/lawdens-necessary-conditions/)
-- ["Lawden必要条件（Lawden's Necessary Conditions）"](/glossary/dynamics/lnc/)
-- ["Richardson方法（Richardson's Method）"](/glossary/dynamics/richardsons-method/)
-- ["受摄流形（A modified invariant manifold formed by applying a small velocity increment adjustment to the natural invariant manifold. Since the natural manifold's perilune distance usually does not match the target lunar orbit radius, an impulse at the Halo orbit injection point reshapes the manifold to satisfy the selenocentric distance constraint. Perturbed manifolds extend the transfer phase range beyond the two fixed points of natural zero-cost trajectories.）"](/glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a-small-velocity-increment-adjustment-to-the-natura/)
-- ["拉格朗日-达朗贝尔原理（Lagrange-d'Alembert Principle）"](/glossary/dynamics/lagrange-dalembert-principle/)
-- ["航迹角（The angle between the spacecraft velocity vector and the local horizontal plane. A flight path angle of zero indicates the velocity is tangent to the local horizontal, corresponding to the periapsis (or apoapsis) characteristic. The paper uses flight path angle as the differential correction termination condition: integration halts when the angle reaches zero with a negative derivative, identifying the perilune point for constraint evaluation.）"](/glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-and-the-local-horizontal-plane-a-flight-path-angle-/)
+- [Edelbaum公式（Edelbaum's Equation）](/glossary/dynamics/edelbaums-equation/)
+- [Lawden 必要条件（Lawden's Necessary Conditions）](/glossary/dynamics/lawdens-necessary-conditions/)
+- [Lawden必要条件（Lawden's Necessary Conditions）](/glossary/dynamics/lnc/)
+- [Richardson方法（Richardson's Method）](/glossary/dynamics/richardsons-method/)
+- [受摄流形（A modified invariant manifold formed by applying a small velocity increment adjustment to the natural invariant manifold. Since the natural manifold's perilune distance usually does not match the target lunar orbit radius, an impulse at the Halo orbit injection point reshapes the manifold to satisfy the selenocentric distance constraint. Perturbed manifolds extend the transfer phase range beyond the two fixed points of natural zero-cost trajectories.)](/glossary/dynamics/a-modified-invariant-manifold-formed-by-applying-a-small-velocity-increment-adjustment-to-the-natura/)
+- [拉格朗日-达朗贝尔原理（Lagrange-d'Alembert Principle)](/glossary/dynamics/lagrange-dalembert-principle/)
+- [航迹角（The angle between the spacecraft velocity vector and the local horizontal plane. A flight path angle of zero indicates the velocity is tangent to the local horizontal, corresponding to the periapsis (or apoapsis) characteristic. The paper uses flight path angle as the differential correction termination condition: integration halts when the angle reaches zero with a negative derivative, identifying the perilune point for constraint evaluation.)](/glossary/dynamics/the-angle-between-the-spacecraft-velocity-vector-and-the-local-horizontal-plane-a-flight-path-angle-/)
 - [3-1-3 欧拉角序列（3-1-3 Euler Angle Sequence）](/glossary/dynamics/3-1-3-euler-angle-sequence/)
 - [Bang-bang 控制与 Lawden 弧定律（Bang-bang Control & Lawden's Arc Law）](/glossary/dynamics/bang-bang-control/)
 - [Battin-Giorgi 方法（Battin-Giorgi Method）](/glossary/dynamics/battin-giorgi-method/)
@@ -484,7 +484,7 @@ twitter:
 
 ### 任务轨道（orbits，143 条）
 
-- ["近月点月心距（The distance from the Moon's center to the closest point of a transfer trajectory or invariant manifold. This parameter is the central constraint in transfer trajectory design: the target value equals the lunar radius plus the desired orbital altitude (e.g., 1837.4 km for a 100 km lunar orbit). Whether the manifold's minimum selenocentric distance matches the target determines whether a zero-cost transfer is possible or impulses are needed.）"](/glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo/)
+- [近月点月心距（The distance from the Moon's center to the closest point of a transfer trajectory or invariant manifold. This parameter is the central constraint in transfer trajectory design: the target value equals the lunar radius plus the desired orbital altitude (e.g., 1837.4 km for a 100 km lunar orbit). Whether the manifold's minimum selenocentric distance matches the target determines whether a zero-cost transfer is possible or impulses are needed.)](/glossary/orbits/the-distance-from-the-moons-center-to-the-closest-point-of-a-transfer-trajectory-or-invariant-manifo/)
 - [EL1轨道（EL1 Orbit）](/glossary/orbits/el1-orbit/)
 - [Halo轨道插入（Halo Orbit Insertion, HOI）](/glossary/orbits/hoi/)
 - [Lambert 拼接法（Lambert patching method）](/glossary/orbits/lambert-patching-method/)
@@ -738,7 +738,7 @@ twitter:
 
 ### 计划与项目（programs，18 条）
 
-- ["嫦娥四号（Chang'e 4）"](/glossary/programs/change-4/)
+- [嫦娥四号（Chang'e 4）](/glossary/programs/change-4/)
 - [L1点空间站（L1 Point Space Station）](/glossary/programs/l1-point-space-station/)
 - [L2点Halo轨道空间站（L2 Halo Orbit Space Station）](/glossary/programs/l2-halo-orbit-space-station/)
 - [地月间空间站（Cislunar Space Station）](/glossary/programs/cislunar-space-station/)
@@ -777,6 +777,6 @@ twitter:
 
 ## 说明
 
-- 词条围绕"把一个术语讲到能用"来组织：先给定义，再补数学与力学细节、工程参数与任务实例，必要时辨析易混变体，最后列相关概念与参考文献；每处判断尽量标到具体文献，可追溯。
+- 词条的目标是把一个术语讲到能用：先给定义：先给定义，再补数学与力学细节、工程参数与任务实例，必要时辨析易混变体，最后列相关概念与参考文献；每处判断尽量标到具体文献，可追溯。
 - 中文版收录全部条目，是英文版的翻译底本；英文版逐步镜像，未译条目随后补齐。
-- 词条末尾的"相关概念"互相链接，可顺链从一个术语扩展到相邻概念。
+- 词条末尾的相关概念互相链接，可顺链从一个术语扩展到相邻概念。

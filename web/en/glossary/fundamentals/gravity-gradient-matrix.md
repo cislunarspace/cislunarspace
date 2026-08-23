@@ -98,12 +98,12 @@ This invariance is commonly used as a self-consistency check for numerical deriv
 
 ## References
 
-- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1, Eq. 8-24~8-27 — Gradient and Hessian computation for spherical harmonic potentials.
+- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1, Eq. 8-24~8-27: Gradient and Hessian computation for spherical harmonic potentials.
 
-- Prussing, J. E. & Conway, B. A., 1993, *Orbital Mechanics*, Oxford University Press. Ch. 2 — Gravity gradient matrix in state transition and primer vector equations.
+- Prussing, J. E. & Conway, B. A., 1993, *Orbital Mechanics*, Oxford University Press. Ch. 2: Gravity gradient matrix in state transition and primer vector equations.
 
-- Prussing, J. E., 2010, Primer vector theory and applications, *Advances in the Astronautical Sciences*, 136: 829–852. — Gravity gradient term in primer vector equation.
+- Prussing, J. E., 2010, Primer vector theory and applications, *Advances in the Astronautical Sciences*, 136: 829–852. Gravity gradient term in primer vector equation.
 
-- Canuto, E., 2018, *Spacecraft Dynamics and Control*, Cambridge University Press. Sec. 4.2.6 — Gravity gradient matrix and gravity gradient torque.
+- Canuto, E., 2018, *Spacecraft Dynamics and Control*, Cambridge University Press. Sec. 4.2.6: Gravity gradient matrix and gravity gradient torque.
 
-- Battin, R. H., 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, AIAA. Ch. 10 — Linearized derivation of the state transition matrix.
+- Battin, R. H., 1999, *An Introduction to the Mathematics and Methods of Astrodynamics*, AIAA. Ch. 10: Linearized derivation of the state transition matrix.

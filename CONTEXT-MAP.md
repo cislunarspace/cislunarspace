@@ -1,4 +1,4 @@
-# CONTEXT-MAP — Cislunar Space Beginner's Guide
+# CONTEXT-MAP: Cislunar Space Beginner's Guide
 
 This file points at one `CONTEXT.md` per context. Read each one relevant to the topic.
 

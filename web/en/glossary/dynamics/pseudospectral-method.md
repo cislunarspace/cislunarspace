@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/pseudospectral-method/
 
 ## Definition
 
-A pseudospectral method (also called spectral collocation) is a family of [direct methods](/en/glossary/dynamics/direct-methods/) in which the whole time interval is mapped to $[-1,1]$ and a single high-order global Lagrange polynomial approximates state $\mathbf{x}(\tau)$ and control $\mathbf{u}(\tau)$. Dynamics are enforced at orthogonal nodes. Nodes are placed at the roots of Legendre polynomials (or roots + endpoints); $N$ is typically 20–100 per phase — far fewer total nodes than [direct collocation](/en/glossary/dynamics/direct-collocation/). Spectral (exponential) convergence holds for any smooth solution (Canuto et al. 1988; Fornberg 1998).
+A pseudospectral method (also called spectral collocation) is a family of [direct methods](/en/glossary/dynamics/direct-methods/) in which the whole time interval is mapped to $[-1,1]$ and a single high-order global Lagrange polynomial approximates state $\mathbf{x}(\tau)$ and control $\mathbf{u}(\tau)$. Dynamics are enforced at orthogonal nodes. Nodes are placed at the roots of Legendre polynomials (or roots + endpoints); $N$ is typically 20–100 per phase, far fewer total nodes than [direct collocation](/en/glossary/dynamics/direct-collocation/). Spectral (exponential) convergence holds for any smooth solution (Canuto et al. 1988; Fornberg 1998).
 
 ## Mathematical form
 
@@ -46,7 +46,7 @@ $$\dot{\mathbf{x}}(\tau_i)\approx\sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k,\quad D_{ik
 The pseudospectral defect constraint is
 $$\boldsymbol{\zeta}_i = \sum_{k=0}^{N} D_{ik}\,\mathbf{x}_k - \frac{t_f-t_0}{2}\,\mathbf{f}(\mathbf{x}_i,\mathbf{u}_i,\tau_i) = \mathbf{0},\quad i=0,\dots,N.$$
 
-Unlike [direct collocation](/en/glossary/dynamics/direct-collocation/), the Jacobian here is dense — every defect couples to all $N+1$ state variables. This is the price of the global polynomial.
+Unlike [direct collocation](/en/glossary/dynamics/direct-collocation/), the Jacobian here is dense: every defect couples to all $N+1$ state variables. This is the price of the global polynomial.
 
 ## Node families
 
@@ -58,11 +58,11 @@ Unlike [direct collocation](/en/glossary/dynamics/direct-collocation/), the Jaco
 
 The covector mapping theorem differs in form across the three: GPM and RPM KKT multipliers map directly to the continuous costate, while LPM requires additional endpoint weighting (Benson et al. 2006; Garg et al. 2010). This is the main reason recent tools (GPOPS-II) moved to RPM/FRPM.
 
-A separate family on Chebyshev nodes — **Chebyshev pseudospectral method (CPM)** — has closed-form nodes and differentiation matrix, hence higher computational efficiency; conformal mapping plus barycentric rational interpolation can significantly mitigate the ill-conditioning of the standard CPM differentiation matrix (Kosloff & Tal-Ezer 1993; Cai et al. 2016).
+A separate family on Chebyshev nodes, the **Chebyshev pseudospectral method (CPM)**, has closed-form nodes and differentiation matrix, hence higher computational efficiency; conformal mapping plus barycentric rational interpolation can significantly mitigate the ill-conditioning of the standard CPM differentiation matrix (Kosloff & Tal-Ezer 1993; Cai et al. 2016).
 
 ## Spectral convergence and hp-adaptivity
 
-Spectral convergence: for analytic solutions, error decays like $O(\rho^{-N})$ with $\rho>1$ — faster than any polynomial order. But for non-smooth solutions (e.g. bang-bang controls in fuel-optimal problems), global polynomials exhibit Gibbs oscillations and spectral convergence is lost.
+Spectral convergence: for analytic solutions, error decays like $O(\rho^{-N})$ with $\rho>1$, faster than any polynomial order. But for non-smooth solutions (e.g. bang-bang controls in fuel-optimal problems), global polynomials exhibit Gibbs oscillations and spectral convergence is lost.
 
 The engineering remedy is **hp-adaptivity**:
 
@@ -79,7 +79,7 @@ Practical consequences:
 
 - Pseudospectral solutions yield a costate time history without analytic derivation of the maximum principle.
 - Hamiltonian conservation $H(\mathbf{x},\mathbf{u},\boldsymbol{\lambda},t)=\text{const}$ becomes a built-in accuracy check.
-- Pseudospectral costates seed [indirect methods](/en/glossary/dynamics/indirect-methods/) or [homotopy methods](/en/glossary/dynamics/homotopy-method/) — pseudospectral-indirect hybrid solves (Cai et al. 2016).
+- Pseudospectral costates seed [indirect methods](/en/glossary/dynamics/indirect-methods/) or [homotopy methods](/en/glossary/dynamics/homotopy-method/): pseudospectral-indirect hybrid solves (Cai et al. 2016).
 
 ## Tools
 
@@ -93,7 +93,7 @@ Practical consequences:
 
 ## Applications
 
-- **Libration-point transfers.** Low-thrust Halo ↔ NRHO and within-family Halo transfers — pseudospectral methods are a top choice thanks to low node counts and accurate costates (Liu et al. 2025; Kayama et al. 2022).
+- **Libration-point transfers.** Low-thrust Halo ↔ NRHO and within-family Halo transfers: pseudospectral methods are a top choice thanks to low node counts and accurate costates (Liu et al. 2025; Kayama et al. 2022).
 - **Multi-phase problems.** Launch / stage separation / orbit insertion / re-entry are handled naturally via phase-event constraints in GPOPS-II.
 - **As the discretization back-end of SCP.** In [sequential convex programming](/en/glossary/dynamics/scp/), FRPM is preferred over GPM for its superior sparsity (Hofmann & Topputo 2021).
 - **When not to use.** Strongly bang-bang fuel-optimal problems without hp-refinement suffer Gibbs oscillations; rapidly changing states (e.g. 6DOF rotational-translational coupling) are better served by direct collocation.

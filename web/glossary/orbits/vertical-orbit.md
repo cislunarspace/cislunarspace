@@ -30,13 +30,13 @@ permalink: /glossary/orbits/vertical-orbit/
 
 ## 定义
 
-垂直轨道是共线平动点附近以面外（z 方向）振荡为主的周期轨道族。线性化下，共线点的中心子空间分解为面内（ωp）、面外（ωv）两个简正振荡，仅激发面外中心模的周期解即垂直轨道（Belló 2010）。文献中又称「垂直 Lyapunov 轨道」（vertical Lyapunov orbits）——它与平面 Lyapunov 族同由李雅普诺夫中心定理保证存在，两族是同级兄弟族（Parker & Anderson 2014、Alessi 2009）。
+垂直轨道是共线平动点附近以面外（z 方向）振荡为主的周期轨道族。线性化下，共线点的中心子空间分解为面内（ωp）、面外（ωv）两个简正振荡，仅激发面外中心模的周期解即垂直轨道（Belló 2010）。文献中又称「垂直 Lyapunov 轨道」（vertical Lyapunov orbits），它与平面 Lyapunov 族同由李雅普诺夫中心定理保证存在，两族是同级兄弟族（Parker & Anderson 2014、Alessi 2009）。
 
 Parker & Anderson 2014 描述其「穿越 xy 平面的位置就在平动点处」（piercing the plane at the Lagrange point itself），指轨道的面外振荡以平动点为中心上下穿越。
 
 ## 几何与对称性
 
-垂直轨道是**双对称**轨道：既关于 xz 平面对称，又在上下半平面走同一路线（Parker & Anderson 2014、Grebow 2008）。y-z 投影呈 8 字形（Grebow 2008）——可见非线性垂直轨道有可观的面内运动，「x-y 平面投影为一点」只在线性化/Hill 极限下成立（Gómez 2001）。随族延续，大幅值垂直轨道可包围两个主天体并弯向月球南北两极（Grebow 2008）。
+垂直轨道是**双对称**轨道：既关于 xz 平面对称，又在上下半平面走同一路线（Parker & Anderson 2014、Grebow 2008）。y-z 投影呈 8 字形（Grebow 2008），可见非线性垂直轨道有可观的面内运动，「x-y 平面投影为一点」只在线性化/Hill 极限下成立（Gómez 2001）。随族延续，大幅值垂直轨道可包围两个主天体并弯向月球南北两极（Grebow 2008）。
 
 ## 与其他族的关系
 

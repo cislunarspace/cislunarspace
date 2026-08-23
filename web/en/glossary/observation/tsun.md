@@ -30,7 +30,7 @@ permalink: /en/glossary/observation/tsun/
 
 ## Definition
 
-In the Earth-Moon rotating frame, the time for the Sun to complete one full cycle relative to the Earth-Moon line. The ratio T_sun/T_m is approximately 1.0809. Constraining the resonant orbit period to an integer multiple of the solar synodic period (T = k·T_sun) keeps the initial solar phase angle constant over long durations, locking the observation geometry at its optimal value — a strategy for enhancing long-term observation performance in cislunar space.
+In the Earth-Moon rotating frame, the time for the Sun to complete one full cycle relative to the Earth-Moon line. The ratio T_sun/T_m is approximately 1.0809. Constraining the resonant orbit period to an integer multiple of the solar synodic period (T = k·T_sun) keeps the initial solar phase angle constant over long durations, locking the observation geometry at its optimal value, a strategy for enhancing long-term observation performance in cislunar space.
 
 ## Application Value
 
@@ -45,4 +45,4 @@ Solar Synodic Period is used to evaluate the observation performance of cislunar
 
 ## References
 
-- Ding et al., 2025 — Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits
+- Ding et al., 2025. Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits

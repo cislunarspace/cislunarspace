@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/phase-space/
 
 ## Phase Space
 
-The **phase space** is the abstract space formed by all possible states of a dynamical system. For a system with $n$ degrees of freedom, the phase space is $2n$-dimensional: $n$ position coordinates plus $n$ momentum (or velocity) coordinates. It is the natural geometric framework for analyzing system evolution — the state of the system at any instant corresponds to a point in phase space, and its evolution over time corresponds to a trajectory in phase space (Szebehely 1967; Wiggins 2003).
+The **phase space** is the abstract space formed by all possible states of a dynamical system. For a system with $n$ degrees of freedom, the phase space is $2n$-dimensional: $n$ position coordinates plus $n$ momentum (or velocity) coordinates. It is the natural geometric framework for analyzing system evolution: the state of the system at any instant corresponds to a point in phase space, and its evolution over time corresponds to a trajectory in phase space (Szebehely 1967; Wiggins 2003).
 
 In the CR3BP, the third body (the spacecraft) in the synodic frame has 3 position coordinates $(x, y, z)$ and 3 velocity coordinates $(\dot{x}, \dot{y}, \dot{z})$, making the phase space **six-dimensional**. However, because the Jacobi constant $C_J$ is conserved (in the CR3BP), the actual dynamics are constrained to a **five-dimensional energy manifold**. The zero-velocity surface partitions this five-dimensional manifold into forbidden regions (where $C_J$ corresponds to a negative squared velocity) and accessible regions, forming the outermost flux barrier of the phase space. After further dimensionality reduction via a Poincaré section, the phase space of the planar CR3BP (PCRTBP) reduces to a discrete map on a two-dimensional section (Koon et al. 2011).
 
@@ -42,17 +42,17 @@ In the CR3BP phase space, the following structures govern the global properties 
 
 - **Periodic orbits**: closed curves (one-dimensional tori) in phase space, including Lyapunov orbits, Halo orbits, DROs, etc. Each periodic orbit has a specific energy level (a specific $C_J$ value).
 
-- **Invariant tori (quasi-periodic orbits)**: two-dimensional torus structures; Lissajous orbits are the representative example — driven by two incommensurable frequencies.
+- **Invariant tori (quasi-periodic orbits)**: two-dimensional torus structures; Lissajous orbits are the representative example, driven by two incommensurable frequencies.
 
-- **Invariant manifolds**: stable/unstable manifolds associated with periodic orbits and tori, comprising low-dimensional "transport highways" in phase space (Koon et al. 2011).
+- **Invariant manifolds**: stable/unstable manifolds associated with periodic orbits and tori, comprising low-dimensional transport highways in phase space (Koon et al. 2011).
 
 - **Zero-velocity surfaces**: the locus of positions where velocity vanishes for a given $C_J$; these are natural boundaries that the spacecraft cannot cross.
 
 ## Phase Space Conduit
 
-A **phase space conduit** (also called a transport tube) is a low-dimensional phase-space structure that connects regions near similar but distinct energy levels. A spacecraft can traverse a "forbidden" region along such a conduit with very low (or even zero) propellant cost (Belló et al. 2010; Koon et al. 2011).
+A **phase space conduit** (also called a transport tube) is a low-dimensional phase-space structure that connects regions near similar but distinct energy levels. A spacecraft can traverse a forbidden region along such a conduit with very low (or even zero) propellant cost (Belló et al. 2010; Koon et al. 2011).
 
-Geometrically, at a certain energy level where the zero-velocity surface has not yet fully sealed the boundary between two regions, the invariant manifolds (especially the stable/unstable manifold tubes of $L_1$ or $L_2$) pierce through what appears to be a closed forbidden zone, forming a narrow phase-space passage. A spacecraft that lies precisely on the manifold of such a conduit (or enters it via a small impulse) can achieve a "natural" low-energy transfer between the two regions. This is the core dynamical principle behind invariant-manifold-based weak-stability-boundary (WSB) transfer methods (Koon et al. 2011).
+Geometrically, at a certain energy level where the zero-velocity surface has not yet fully sealed the boundary between two regions, the invariant manifolds (especially the stable/unstable manifold tubes of $L_1$ or $L_2$) pierce through what appears to be a closed forbidden zone, forming a narrow phase-space passage. A spacecraft that lies precisely on the manifold of such a conduit (or enters it via a small impulse) can achieve a natural low-energy transfer between the two regions. This is the core dynamical principle behind invariant-manifold-based weak-stability-boundary (WSB) transfer methods (Koon et al. 2011).
 
 In cislunar space:
 
@@ -60,7 +60,7 @@ In cislunar space:
 
 - Overlapping regions of Sun-Earth $L_1$/$L_2$ and Earth-Moon $L_1$/$L_2$ manifolds form phase space conduits for cross-system (Sun-Earth to Earth-Moon) transfers (Howell and Kakoi 2006).
 
-- The opening and closing of the lunar $L_1$ and $L_2$ conduits depends on the Jacobi constant — the higher the energy (smaller $C_J$), the wider the conduit; below a critical value the conduit closes entirely.
+- The opening and closing of the lunar $L_1$ and $L_2$ conduits depends on the Jacobi constant: the higher the energy (smaller $C_J$), the wider the conduit; below a critical value the conduit closes entirely.
 
 ## Related Concepts
 

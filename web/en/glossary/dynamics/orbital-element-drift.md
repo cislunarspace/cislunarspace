@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/orbital-element-drift/
 
 ## Definition
 
-**Orbital element drift** refers to the slow, continuous change of spacecraft orbital elements over time caused by non-two-body gravitational perturbations — non-spherical gravity fields, third-body perturbations, atmospheric drag, solar radiation pressure, etc. It is essentially the manifestation of the **secular terms** in the osculating elements (Vallado 2022).
+**Orbital element drift** refers to the slow, continuous change of spacecraft orbital elements over time caused by non-two-body gravitational perturbations: non-spherical gravity fields, third-body perturbations, atmospheric drag, solar radiation pressure, etc. It is essentially the manifestation of the **secular terms** in the osculating elements (Vallado 2022).
 
 It is important to distinguish three types of variation (Vallado 2022):
 
@@ -38,9 +38,9 @@ It is important to distinguish three types of variation (Vallado 2022):
 
 - **Long-periodic changes**: have periods much longer than one orbital period (typically the precession period of the node or perigee); they do not accumulate indefinitely.
 
-- **Short-periodic changes**: oscillate within a single orbital period; these are already absorbed by the "osculating" or "averaged" definitions.
+- **Short-periodic changes**: oscillate within a single orbital period; these are already absorbed by the osculating or averaged definitions.
 
-Orbital element drift is concerned with the first type — the persistent growth of secular terms — as it is the decisive factor for long-term orbit viability.
+Orbital element drift is concerned with the first type (the persistent growth of secular terms), as it is the decisive factor for long-term orbit viability.
 
 ## Drift Patterns in Lunar Orbit
 
@@ -54,17 +54,17 @@ In the spherical-harmonic expansion of the Moon's mass distribution, the low-ord
   For low-inclination lunar orbits, $\dot{\Omega}$ is negative (westward precession); for high-inclination orbits it becomes positive. The drift rate depends on the semi-major axis $a$ and the inclination $i$ (Vallado 2022).
 
 - **Argument of periapsis ($\omega$) drift** is also dominated by $J_2$: $$ \dot{\omega} \propto \frac{n}{(1-e^2)^2} \left(\frac{R_\oplus}{a}\right)^2 J_2 \left(\frac{5}{2}\cos^2 i - \frac{1}{2}\right) $$
-  At the critical inclination $\cos i_c = 1/\sqrt{5}$ (approximately $63.4^\circ$ or $116.6^\circ$), $\dot{\omega} = 0$ — making frozen orbits possible.
+  At the critical inclination $\cos i_c = 1/\sqrt{5}$ (approximately $63.4^\circ$ or $116.6^\circ$), $\dot{\omega} = 0$, making frozen orbits possible.
 
-- The Moon's higher-order harmonics and sectorial/tesseral terms make the drift pattern more complex than for Earth satellites — the asymmetry of the Moon's mass distribution (near-side vs. far-side gravity difference) means that contributions from terms beyond $J_2$ are non-negligible (Chen et al. 2023).
+- The Moon's higher-order harmonics and sectorial/tesseral terms make the drift pattern more complex than for Earth satellites: the asymmetry of the Moon's mass distribution (near-side vs. far-side gravity difference) means that contributions from terms beyond $J_2$ are non-negligible (Chen et al. 2023).
 
 ### Earth Third-Body Perturbation
 
-The ratio of Earth's gravitational acceleration as a third body to the Moon's central gravity at lunar orbit altitude is on the order of $10^{-4}$ — small, but significant in long-term integration (Vallado 2022). Effects on lunar orbits:
+The ratio of Earth's gravitational acceleration as a third body to the Moon's central gravity at lunar orbit altitude is on the order of $10^{-4}$, small, but significant in long-term integration (Vallado 2022). Effects on lunar orbits:
 
 - Primarily influences the periapsis location and eccentricity, driving long-term changes in orbit shape.
 
-- Interaction with lunar non-spherical gravity leads to specific resonance effects — at certain $(a, e, i)$ combinations, orbital element drift is amplified or suppressed.
+- Interaction with lunar non-spherical gravity leads to specific resonance effects: at certain $(a, e, i)$ combinations, orbital element drift is amplified or suppressed.
 
 ## Engineering Significance
 

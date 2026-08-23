@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/nondimensionalization/
 
 ## 定义
 
-**无量纲化**（nondimensionalization）是用同量纲的特征量把运动方程的物理变量加以缩放，使新变量不含单位。在限制性三体问题中，无量纲化把所有量纲常数吸收掉，方程最终只保留一个无量纲参数——**质量比** $\mu = m_2/(m_1 + m_2)$。缩放后的一套变量称为**归一化单位**（normalized/canonical/dimensionless units）。
+**无量纲化**（nondimensionalization）是用同量纲的特征量把运动方程的物理变量加以缩放，使新变量不含单位。在限制性三体问题中，无量纲化把所有量纲常数吸收掉，方程最终只保留一个无量纲参数：**质量比** $\mu = m_2/(m_1 + m_2)$。缩放后的一套变量称为**归一化单位**（normalized/canonical/dimensionless units）。
 
 ## 特征量的取法
 
@@ -74,10 +74,10 @@ CR3BP 的惯例（Szebehely 1967, §1.5）：
 
 ## 参考文献
 
-- Szebehely, 1967, *Theory of Orbits*, §§1.2–1.5——量纲到无量纲方程的推导，以及对“把无量纲单位当成物理单位”的告诫。
+- Szebehely, 1967, *Theory of Orbits*, §§1.2–1.5：量纲到无量纲方程的推导，以及对误把无量纲单位当成物理单位的告诫。
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3——无量纲 CR3BP 方程与质量比。
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, §12.3：无量纲 CR3BP 方程与质量比。
 
-- 李星明 等，2024，地月周期轨道对地月 L1 与 L2 附近 Halo 轨道的可见性分析——地月归一化单位的典型数值设置。
+- 李星明 等，2024，地月周期轨道对地月 L1 与 L2 附近 Halo 轨道的可见性分析：地月归一化单位的典型数值设置。
 
-- 张晨，2024，北京航空航天大学学报——PBCR4BP 中以地月质量之和、平均距离、平均角速度为基准的归一化。
+- 张晨，2024，北京航空航天大学学报：PBCR4BP 中以地月质量之和、平均距离、平均角速度为基准的归一化。

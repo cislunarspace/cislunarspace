@@ -36,7 +36,7 @@ permalink: /en/glossary/dynamics/hills-problem/
 2. Set the solar orbital eccentricity to zero (circular heliocentric orbit).
 3. Set the lunar orbital inclination to zero (coplanar motion).
 
-Under these assumptions the third body's (Moon or spacecraft) equations of motion relative to the smaller primary are autonomous in a frame co-rotating with the primaries' mean motion, and admit a periodic symmetric special solution — the **variation orbit** — that Hill used as the first non-conic intermediate orbit in his lunar theory.
+Under these assumptions the third body's (Moon or spacecraft) equations of motion relative to the smaller primary are autonomous in a frame co-rotating with the primaries' mean motion, and admit a periodic symmetric special solution, the **variation orbit**, that Hill used as the first non-conic intermediate orbit in his lunar theory.
 
 ## Equations of Motion
 
@@ -58,7 +58,7 @@ $$
 \Omega(x,y,z)=\frac{\mu_2}{r}+\frac{3}{2}n^2 x^2,\qquad r=\sqrt{x^2+y^2+z^2},
 $$
 
-with $n$ the primaries' mean motion and $\mu_2=Gm_2$. Only the tidal term in $x$ survives in the potential — this is precisely the "solar tide" in the $\mu\to 0$ limit.
+with $n$ the primaries' mean motion and $\mu_2=Gm_2$. Only the tidal term in $x$ survives in the potential; this is precisely the solar tide in the $\mu\to 0$ limit.
 
 ### Derivation from the full three-body equations
 
@@ -68,7 +68,7 @@ $$
 \ddot{\vec\rho}_M+\frac{G(m_E+m_M)}{|\vec\rho_M|^3}\vec\rho_M=-Gm_S\!\left[\frac{\vec\rho_M-\vec\rho_S}{|\vec\rho_M-\vec\rho_S|^3}+\frac{\vec\rho_S}{|\vec\rho_S|^3}\right],
 $$
 
-where the right-hand side is the difference between the Sun's pull on the Moon and on the Earth. Expanding $1/|\vec\rho_M-\vec\rho_S|$ in multipoles under $|\vec\rho_S|\gg|\vec\rho_M|$ and keeping the leading (tidal, second-order) term recovers the same Hill equations — showing that Hill's problem is essentially Earth-Moon motion under the first-order solar tide.
+where the right-hand side is the difference between the Sun's pull on the Moon and on the Earth. Expanding $1/|\vec\rho_M-\vec\rho_S|$ in multipoles under $|\vec\rho_S|\gg|\vec\rho_M|$ and keeping the leading (tidal, second-order) term recovers the same Hill equations, showing that Hill's problem is essentially Earth-Moon motion under the first-order solar tide.
 
 ## Jacobi Integral and Hill's Curves
 
@@ -78,10 +78,10 @@ $$
 C_H = 2\Omega - v^2,
 $$
 
-formally identical to the [Jacobi constant of the CR3BP](/en/glossary/dynamics/jacobi-integral/), except $\Omega$ now contains only $\mu_2/r+3n^2x^2/2$. Setting $v=0$ gives Hill's curves of zero velocity in the $xy$ plane — the iconic "figure-eight":
+formally identical to the [Jacobi constant of the CR3BP](/en/glossary/dynamics/jacobi-integral/), except $\Omega$ now contains only $\mu_2/r+3n^2x^2/2$. Setting $v=0$ gives Hill's curves of zero velocity in the $xy$ plane, the iconic figure-eight:
 
 - For large $C_H$ the curve closes around the Earth, confining the Moon to a bounded region (Hill's original proof of the boundedness of the Earth-Moon distance).
-- As $C_H$ drops to a critical value, two "necks" open at $L_1$ and $L_2$ along the $x$-axis, through which the Moon may escape or be captured.
+- As $C_H$ drops to a critical value, two necks open at $L_1$ and $L_2$ along the $x$-axis, through which the Moon may escape or be captured.
 - Lowering $C_H$ further opens the curve completely.
 
 The neck locations $x=\pm r_H$ define the **Hill radius**
@@ -90,7 +90,7 @@ $$
 r_H = \left(\frac{\mu_2}{3n^2}\right)^{1/3}.
 $$
 
-It is the geometric ruler of the smaller primary's gravitational sphere of influence: for the Earth-Moon system $r_H\approx 6.16\times 10^4$ km ($\approx 0.16$ Earth-Moon distances); equivalent values characterize the Jupiter-Ganymede, Mars-Phobos, and similar systems. The [instantaneous Hill boundary](/en/glossary/dynamics/hills-problem/) generalises this static picture to time-varying third-body gravity (e.g. the pulsating Sun perturbation), defining an "effective libration point" that oscillates in time.
+It is the geometric ruler of the smaller primary's gravitational sphere of influence: for the Earth-Moon system $r_H\approx 6.16\times 10^4$ km ($\approx 0.16$ Earth-Moon distances); equivalent values characterize the Jupiter-Ganymede, Mars-Phobos, and similar systems. The [instantaneous Hill boundary](/en/glossary/dynamics/hills-problem/) generalises this static picture to time-varying third-body gravity (e.g. the pulsating Sun perturbation), defining an effective libration point that oscillates in time.
 
 ## Variation Orbit and Hill's Equation
 
@@ -102,7 +102,7 @@ $$
 
 where $\theta(t)$ has the same period as the variation orbit. This is the original form of **Hill's equation**. Hill analysed its stability band with the celebrated infinite determinant he invented, establishing the stability of the lunar month. Lyapunov and Poincaré's characteristic-exponent theory grew out of this work.
 
-Note that "**Hill's equation**" in mathematical physics is a broad class of second-order linear equations with periodic coefficients of the form $\ddot\eta+\theta(t)\eta=0$ (the Mathieu equation is a special case). In the cislunar literature the term may refer to (a) Hill's 1878 variational equation, or (b) the Clohessy-Wiltshire relative-motion equations below. Context decides.
+Note that **Hill's equation** in mathematical physics is a broad class of second-order linear equations with periodic coefficients of the form $\ddot\eta+\theta(t)\eta=0$ (the Mathieu equation is a special case). In the cislunar literature the term may refer to (a) Hill's 1878 variational equation, or (b) the Clohessy-Wiltshire relative-motion equations below. Context decides.
 
 ## Connection to the Clohessy-Wiltshire Equations
 
@@ -112,7 +112,7 @@ $$
 \ddot{x}-2n\dot{x}-3n^2 x = f_x,\quad \ddot{y}+2n\dot{x}=f_y,\quad \ddot{z}+n^2 z=f_z,
 $$
 
-with $(x,y,z)$ the chaser's LVLH coordinates, $n$ the target orbit rate, and $\vec f$ a control acceleration. The CW equations are linearisation of the Hill problem about a circular orbit, and share the same Coriolis-plus-centrifugal-plus-tidal structure — only the origin has moved from the larger primary to the in-orbit target. They are the standard tool for LEO [formation flying](/en/glossary/dynamics/spacecraft-formation-flying/) and rendezvous analysis.
+with $(x,y,z)$ the chaser's LVLH coordinates, $n$ the target orbit rate, and $\vec f$ a control acceleration. The CW equations are linearisation of the Hill problem about a circular orbit, and share the same Coriolis-plus-centrifugal-plus-tidal structure; only the origin has moved from the larger primary to the in-orbit target. They are the standard tool for LEO [formation flying](/en/glossary/dynamics/spacecraft-formation-flying/) and rendezvous analysis.
 
 Caveat: when the target eccentricity is large, the altitude is low, or the formation extends to kilometre scale, the CW circular-orbit assumption degrades rapidly (Vallado 2022 §6.8.3).
 
@@ -123,8 +123,8 @@ Hill's problem is the $\mu\to 0$ limit of the CR3BP, accurate for the Earth-Moon
 - **Foundation of lunar theory**: the Hill-Brown-De Sitter precision lunar theories all use the variation orbit as their intermediate orbit.
 - **Satellite stability criterion**: the Hill radius is the basic scale for satellite stability; the topological opening of the Hill curves at $L_1/L_2$ bounds the stable range of distant retrograde orbits (DROs).
 - **Libration-point neighbourhood dynamics**: local behaviour near Earth-Moon $L_1$ and $L_2$ becomes analytically tractable in the Hill limit; the Richardson third-order expansion for Halo/Lyapunov orbit families is built on the linearised Hill problem.
-- **Numerical continuation**: Hill-problem periodic orbit families are common starting points for $\mu$-continuation back to the full CR3BP, then onwards to ephemeris models — a standard workflow for [resonance](/en/glossary/dynamics/orbital-resonance/) and [libration-point orbit](/en/glossary/orbits/halo-orbit/) design.
-- **Four-body extension**: Scheeres (1998) generalised Hill's problem with two tidal terms into the "restricted Hill four-body problem" for Sun-perturbed Earth-Moon spacecraft motion.
+- **Numerical continuation**: Hill-problem periodic orbit families are common starting points for $\mu$-continuation back to the full CR3BP, then onwards to ephemeris models, a standard workflow for [resonance](/en/glossary/dynamics/orbital-resonance/) and [libration-point orbit](/en/glossary/orbits/halo-orbit/) design.
+- **Four-body extension**: Scheeres (1998) generalised Hill's problem with two tidal terms into the restricted Hill four-body problem for Sun-perturbed Earth-Moon spacecraft motion.
 
 ## Application Notes
 

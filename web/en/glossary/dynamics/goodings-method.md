@@ -30,13 +30,13 @@ permalink: /en/glossary/dynamics/goodings-method/
 
 ## Definition
 
-Cislunar missions frequently present "two-end states known, dynamics in between known, solve for control or orbit" two-point boundary value problems (TPBVP): Lambert's problem, initial orbit determination, libration-point station-keeping targeting, and so on. This entry consolidates the numerical solvers most commonly used for these problems: the Gooding family (Lambert algorithm + three-line-of-sight IOD), single-variable root finders (Householder, Powell's hybrid, secant / two-point method), quasilinearization for nonlinear TPBVPs, and the damped bisection correction specific to Halo orbit station-keeping.
+Cislunar missions frequently present two-end states known, dynamics in between known, solve for control or orbit two-point boundary value problems (TPBVP): Lambert's problem, initial orbit determination, libration-point station-keeping targeting, and so on. This entry consolidates the numerical solvers most commonly used for these problems: the Gooding family (Lambert algorithm + three-line-of-sight IOD), single-variable root finders (Householder, Powell's hybrid, secant / two-point method), quasilinearization for nonlinear TPBVPs, and the damped bisection correction specific to Halo orbit station-keeping.
 
 ## Two Different Gooding Methods
 
 **Gooding (1990) Lambert algorithm.** One of the most widely used modern Lambert solvers, providing an efficient and stable algorithm to compute $\boldsymbol{v}_1$ from $\boldsymbol{r}_1, \boldsymbol{r}_2, t_f$. The algorithm uses the Lagrange form of the time-of-flight equation (a function of the semi-major axis or an equivalent variable), combined with hypergeometric functions and an efficient initial guess that covers multi-revolution, short/long-way, and elliptic/parabolic/hyperbolic branches. Its numerical performance and robustness exceed Gauss's original method (Battin 1999; Vallado 2022). Most modern Lambert implementations use Gooding's algorithm as the benchmark.
 
-**Gooding (1996) three-line-of-sight IOD scheme.** Distinct from the Lambert solver — this is a method for determining an orbit from three line-of-sight observations. The minimal case requires three direction observations $\hat{\boldsymbol{\rho}}_1, \hat{\boldsymbol{\rho}}_2, \hat{\boldsymbol{\rho}}_3$, and the scheme reduces IOD to repeatedly solving a Lambert problem (given the two end distances and the time, find the velocities), iterating until a consistent orbit is obtained. The formulation is concise and computationally efficient, and generalizes naturally to more observations.
+**Gooding (1996) three-line-of-sight IOD scheme.** Distinct from the Lambert solver: this is a method for determining an orbit from three line-of-sight observations. The minimal case requires three direction observations $\hat{\boldsymbol{\rho}}_1, \hat{\boldsymbol{\rho}}_2, \hat{\boldsymbol{\rho}}_3$, and the scheme reduces IOD to repeatedly solving a Lambert problem (given the two end distances and the time, find the velocities), iterating until a consistent orbit is obtained. The formulation is concise and computationally efficient, and generalizes naturally to more observations.
 
 When reading Gooding, **first identify which one**: 1990 is the Lambert solver, 1996 is the IOD scheme.
 
@@ -70,7 +70,7 @@ Solve the linear TPBVP for $\delta\boldsymbol{x},\delta\boldsymbol{u}$, update $
 
 ## Damped Bisection Correction
 
-In libration-point station-keeping, the standard differential correction (based on the first-order STM) tends to diverge in the strongly nonlinear phase space around Halo orbits, or converges to solutions with excessive $\Delta V$. The **damped bisection correction** (Folta et al. 2010) is a robust fallback: when the iteration enters a "wrong region" (integration hits the time limit before satisfying the constraint), the velocity correction is halved and the iteration backs up, progressively shrinking the step until it exits the wrong region and finds a valid solution.
+In libration-point station-keeping, the standard differential correction (based on the first-order STM) tends to diverge in the strongly nonlinear phase space around Halo orbits, or converges to solutions with excessive $\Delta V$. The **damped bisection correction** (Folta et al. 2010) is a robust fallback: when the iteration enters a wrong region (integration hits the time limit before satisfying the constraint), the velocity correction is halved and the iteration backs up, progressively shrinking the step until it exits the wrong region and finds a valid solution.
 
 Algorithm:
 

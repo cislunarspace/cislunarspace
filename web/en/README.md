@@ -13,7 +13,7 @@ wechatShare:
 
 # Cislunar Space Beginner's Guide
 
-From the Artemis program to planned lunar space stations, human spaceflight is moving from low Earth orbit into cislunar space. What is this 380,000-kilometre expanse? How do spacecraft fly through it? And how far along are the world's programs? This site answers those questions in plain, accurate language — no background required.
+From the Artemis program to planned lunar space stations, human spaceflight is moving from low Earth orbit into cislunar space. What is this 380,000-kilometre expanse? How do spacecraft fly through it? And how far along are the world's programs? This site answers those questions in plain, accurate language, no background required.
 
 ## Start Here
 
@@ -22,7 +22,7 @@ Build the big picture in three steps, in order:
 <div class="module-grid">
   <a href="/en/what-is-cislunarspace/" class="module-card module-card--what-is">
     <h3>① What Is Cislunar Space</h3>
-    <p>Concepts &amp; territory — start here</p>
+    <p>Concepts &amp; territory: start here</p>
   </a>
   <a href="/en/cislunar-orbits/" class="module-card module-card--orbits">
     <h3>② Cislunar Orbits</h3>

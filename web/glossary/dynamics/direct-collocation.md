@@ -46,7 +46,7 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 
 - **5 阶 Gauss-Lobatto（Herman-Conway）**：每段三个配点（含两端），用 5 次多项式插值。精度 5 阶，对快速变化动力学（如旋转-平移耦合的 6DOF）尤其有用，但每段变量更多（Herman & Conway 1996）。
 
-不论哪种格式，缺陷约束 $\boldsymbol{\zeta}_j=\mathbf{0}$ 在第 $j$ 段只与该段两端的 $O(n_x+n_u)$ 个变量耦合，因此整张雅可比是块三对角的稀疏矩阵——这是直接配点法可以求解上万变量问题的关键。
+不论哪种格式，缺陷约束 $\boldsymbol{\zeta}_j=\mathbf{0}$ 在第 $j$ 段只与该段两端的 $O(n_x+n_u)$ 个变量耦合，因此整张雅可比是块三对角的稀疏矩阵，这是直接配点法可以求解上万变量问题的关键。
 
 ## 显式 vs 隐式配点
 
@@ -58,8 +58,8 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 ## 工程实现要点
 
 - **变量缩放**：状态/控制/时间的量纲差异可能跨越几十个数量级（如地月距离 vs 推力加速度），不缩放则条件数恶化。常见做法是按「标称量级」归一化（Betts 2010）。
-- **坐标选择**：笛卡尔坐标在 NLP 下表现差——状态快速变号且量级跨度大。改用 [轨道根数](/glossary/dynamics/orbital-coordinate-frames/) 或 equinoctial 变量常显著提升鲁棒性（Conway 2010, Ch.3）。
-- **网加密（mesh refinement）**：先用粗网格（如 $N=20$）求得近似解，再根据每段局部误差估计加密——可在固定段内提升配点阶（trapezoid → H-S → 5 阶 G-L）或插入新节点。Betts 给出经验上每段新增节点上限为 5（Betts 2010）。
+- **坐标选择**：笛卡尔坐标在 NLP 下表现差，状态快速变号且量级跨度大。改用 [轨道根数](/glossary/dynamics/orbital-coordinate-frames/) 或 equinoctial 变量常显著提升鲁棒性（Conway 2010, Ch.3）。
+- **网加密（mesh refinement）**：先用粗网格（如 $N=20$）求得近似解，再根据每段局部误差估计加密，可在固定段内提升配点阶（trapezoid → H-S → 5 阶 G-L）或插入新节点。Betts 给出经验上每段新增节点上限为 5（Betts 2010）。
 - **knots（结点）**：状态不连续的边界（如球影响圈交界、引力辅助、级间分离）以「零宽度段」插入，配点约束在该段替换为左右状态的非线性等式（Conway 2010）。
 
 ## 直接配点 vs 伪谱法 vs 打靶法
@@ -69,7 +69,7 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 | 多项式 | 分段低阶 | 全局高阶 | 不显式参数化 |
 | 节点数 | 几十~几百/相 | 几十~百/相 | 仅几个/相 |
 | 雅可比稀疏性 | 强（块三对角） | 弱（稠密） | 中（块结构） |
-| 谱收敛 | 否 | 是 | — |
+| 谱收敛 | 否 | 是 | 无 |
 | 协态精度 | 较粗 | 精确（covector mapping） | 间接法原生精确 |
 | 适合 | 一般转移、6DOF | 光滑解、需要协态 | 已有良好初值的边值问题 |
 
@@ -78,7 +78,7 @@ $$\boldsymbol{\zeta}_j = \mathbf{x}_{j+1}-\mathbf{x}_j - \frac{h_j}{6}\big[\math
 - **低推力转移**：地月低能转移、平动点间转移最常采用直接配点，配合形状法或 [不变流形](/glossary/dynamics/invariant-manifold/) 拼接作为初值（Vellutini & Avanzini 2014）。
 - **多体问题与高精度星历**：笛卡尔 CR3BP 形式可直接配点；切换到星历模型时，用 equinoctial 变量 + knot 拼接引力体影响圈。
 - **NLP 求解器**：CasADi + Ipopt 是当前学术界的默认组合；工业代码多用 SNOPT。
-- **作为强化学习解的精化器**：近年流行的 RL + 直接配点两阶段法——RL 提供初值，直接配点收敛到满足 KKT 条件的局部最优（Ul Haq 等 2026）。
+- **作为强化学习解的精化器**：近年流行的 RL + 直接配点两阶段法，RL 提供初值，直接配点收敛到满足 KKT 条件的局部最优（Ul Haq 等 2026）。
 
 ## 相关概念
 

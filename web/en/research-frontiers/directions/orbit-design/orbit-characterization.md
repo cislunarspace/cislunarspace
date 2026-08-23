@@ -33,7 +33,7 @@ For orbits near collinear libration points (L1, L2, L3), canonical transformatio
 - $(I_2, \theta_2)$ describe in-plane quasi-periodic motion
 - $(I_3, \theta_3)$ describe vertical quasi-periodic motion
 
-These 6 characteristic parameters form an orbit's "fingerprint," uniquely identifying an orbit family. Poincaré section distribution maps provide visual representation of orbit family distributions in parameter space.
+These 6 characteristic parameters form an orbit's fingerprint, uniquely identifying an orbit family. Poincaré section distribution maps provide visual representation of orbit family distributions in parameter space.
 
 ### Dynamical Substitute Models
 
@@ -74,5 +74,5 @@ Based on the parameterization methods above, an orbit cataloging and identificat
 
 **Related Links**
 
-- ↑ [Orbit Design & Optimization](./README.md) — Back to direction homepage
-- ↔ [Low-Energy Transfer Orbits](./low-energy-transfer.md) — Related subtopic
+- ↑ [Orbit Design & Optimization](./README.md): Back to direction homepage
+- ↔ [Low-Energy Transfer Orbits](./low-energy-transfer.md): Related subtopic

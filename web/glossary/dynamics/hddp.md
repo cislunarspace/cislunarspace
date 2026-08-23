@@ -50,7 +50,7 @@ $$
 \delta\boldsymbol{u}_k^* = \arg\min_{\delta\boldsymbol{u}}\big[J_{u,k}^T\delta\boldsymbol{u} + \tfrac{1}{2}\delta\boldsymbol{u}^T J_{uu,k}\delta\boldsymbol{u}\big],
 $$
 
-得到 $\delta\boldsymbol{u}_k = -J_{uu,k}^{-1}J_{u,k} + \boldsymbol{K}_k\,\delta\boldsymbol{x}_k$（前一项是开环修正、后一项是时变反馈增益）。iLQR 与 DDP 的区别在于 $\boldsymbol{K}_k$ 的具体表达——iLQR 不计算 $\boldsymbol{f}_{xx}$ 等二阶动力学导数，工程实现更轻量。
+得到 $\delta\boldsymbol{u}_k = -J_{uu,k}^{-1}J_{u,k} + \boldsymbol{K}_k\,\delta\boldsymbol{x}_k$（前一项是开环修正、后一项是时变反馈增益）。iLQR 与 DDP 的区别在于 $\boldsymbol{K}_k$ 的具体表达，iLQR 不计算 $\boldsymbol{f}_{xx}$ 等二阶动力学导数，工程实现更轻量。
 
 **收敛判据**：可行性（约束残差 $\|\boldsymbol{\psi}\|<\varepsilon_f$）+ 最优性（梯度范数 $<\varepsilon_o$），通常 $\varepsilon_f\sim 10^{-7}$、$\varepsilon_o\sim 10^{-8}$（Aziz 等 2019）。
 
@@ -102,13 +102,13 @@ DDP/iLQR 的后向扫描本质上是在传播目标函数对控制的**灵敏度
 
 ## 参考文献
 
-- Mayne, D. Q., 1966, "A second-order gradient method for determining optimal trajectories of non-linear discrete-time systems"（DDP 奠基）。
+- Mayne, D. Q., 1966, A second-order gradient method for determining optimal trajectories of non-linear discrete-time systems（DDP 奠基）。
 - Jacobson, D. H., Mayne, D. Q., 1970, *Differential Dynamic Programming*（DDP 的系统专著）。
-- Todorov, E., Li, W., 2005, "A generalized iterative LQG method for locally-optimal feedback control of constrained nonlinear stochastic systems"（iLQR 的现代形式）。
-- Lantoine, G., Russell, R. P., 2012, "A hybrid differential dynamic programming algorithm for constrained optimal control problems"（HDDP）。
-- Aziz, J. D., Scheeres, D. J., Lantoine, G., 2019, "Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem," *JGCD*, DOI: 10.2514/1.G003617（CR3BP 中 HDDP 的工程细节，多阶段化、信赖域缩放、球面控制变量）。
+- Todorov, E., Li, W., 2005, A generalized iterative LQG method for locally-optimal feedback control of constrained nonlinear stochastic systems（iLQR 的现代形式）。
+- Lantoine, G., Russell, R. P., 2012, A hybrid differential dynamic programming algorithm for constrained optimal control problems（HDDP）。
+- Aziz, J. D., Scheeres, D. J., Lantoine, G., 2019, Hybrid Differential Dynamic Programming in the Circular Restricted Three-Body Problem, *JGCD*, DOI: 10.2514/1.G003617（CR3BP 中 HDDP 的工程细节，多阶段化、信赖域缩放、球面控制变量）。
 - Pellegrini, E., Russell, R. P., 2017+，MDDP 多重打靶 DDP 系列。
 - Cuevas del Valle, A. A., et al., 2022, AL-iLQR 算法（增广拉格朗日 + iLQR 处理脉冲与连续推力）。
-- Hall, Z., Singla, P., 2020, "Higher-order sensitivity matrix method for probabilistic solution to uncertain Lambert problem and reachability set problem," *Celest. Mech. Dyn. Astron.*（HOSM、CUT、代理 Lambert 求解器）。
-- Duan, J., et al., 2025, "Adaptive polynomial chaos expansion method for uncertain multiple-revolution Lambert problem"（APCE 代理模型）。
+- Hall, Z., Singla, P., 2020, Higher-order sensitivity matrix method for probabilistic solution to uncertain Lambert problem and reachability set problem, *Celest. Mech. Dyn. Astron.*（HOSM、CUT、代理 Lambert 求解器）。
+- Duan, J., et al., 2025, Adaptive polynomial chaos expansion method for uncertain multiple-revolution Lambert problem（APCE 代理模型）。
 - Shimane, D., et al., 2025（最小范数更新在低能耗轨道修正中的应用）。

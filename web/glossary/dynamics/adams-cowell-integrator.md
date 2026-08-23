@@ -15,14 +15,14 @@ keywords: 多步积分器, Adams-Bashforth, Adams-Moulton, Gauss-Jackson, Störm
 
 多步积分器利用当前时刻的状态**加上**此前若干步已算出的函数值历史（回值，back values），将解从 $t_n$ 推进到 $t_{n+1}$。这与仅用 $t_n$ 时刻状态的单步法（如 Runge-Kutta）不同。多步法通常以**预测-校正（predictor-corrector）**对的形式工作：预测公式给出初估 $y_{n+1}^p$，校正公式利用预测态的函数值对解做精化（Vallado 2022, Sec. 8.5–8.6）。
 
-因为重复利用历史估值，多步法每步仅需 **1–2 次力模型调用**——远少于 Runge-Kutta 的 $s$ 级估值。代价是：不能自起步，需存储回值历史与累积差分，变步长控制更为复杂。
+因为重复利用历史估值，多步法每步仅需 **1–2 次力模型调用**，远少于 Runge-Kutta 的 $s$ 级估值。代价是：不能自起步，需存储回值历史与累积差分，变步长控制更为复杂。
 
 在航天动力学中，多步法按求解的方程分为两大路线：
 
 - **单重积分法**（一阶 ODE）：Adams-Bashforth（预测） + Adams-Moulton（校正）。
 
 - **双重积分法**（二阶 ODE，如 $\ddot{\vec{r}} = \vec{a}(\vec{r}, \vec{v}, t)$）：Störmer（预测） + Cowell（校正），及其求和形式 Gauss-Jackson。
-"Cowell 公式"不指某个特定的积分器，而指**直接对二阶运动方程积分、免去速度中间变量**的做法——1909 年 Philip Cowell 以此方法预报哈雷彗星回归（Vallado 2022）。
+Cowell 公式不指某个特定的积分器，而指**直接对二阶运动方程积分、免去速度中间变量**的做法：1909 年 Philip Cowell 以此方法预报哈雷彗星回归（Vallado 2022）。
 
 ## Adams-Bashforth-Moulton（单重积分）
 
@@ -41,7 +41,7 @@ $$
 
 Cowell 公式直接对 $\ddot{\vec{r}} = \vec{a}$ 积分。Störmer 预测器估算位置，Cowell 校正器精化。对无速度依赖、无保守力的近圆轨道问题，完全跳过中间速度计算。
 
-**Gauss-Jackson** 是 Störmer-Cowell 的定步长求和纵标（summed-ordinate）形式——长弧轨道星历生成的主力工具。它用一阶和二阶求和回值差分 $\vec{S}_n^{\text{I}}$、$\vec{S}_n^{\text{II}}$ 抑制舍入误差。Herrick（1972）指出，近圆 LEO 轨道 Gauss-Jackson 比 RK4 快约一个数量级。预测公式（Gauss 求和纵标，$j$ 阶）：
+**Gauss-Jackson** 是 Störmer-Cowell 的定步长求和纵标（summed-ordinate）形式，是长弧轨道星历生成的主力工具。它用一阶和二阶求和回值差分 $\vec{S}_n^{\text{I}}$、$\vec{S}_n^{\text{II}}$ 抑制舍入误差。Herrick（1972）指出，近圆 LEO 轨道 Gauss-Jackson 比 RK4 快约一个数量级。预测公式（Gauss 求和纵标，$j$ 阶）：
 $$
 \dot{\vec{r}}_{n+1}^p = h\left\{\alpha_{So}\vec{S}_n^{\text{II}} + \alpha_{S1}\vec{S}_n^{\text{I}} + \sum_{i=0}^{j}\beta_{Si}\ddot{\vec{r}}_{n-i}\right\}
 $$
@@ -53,7 +53,7 @@ $$
 
 ## Krogh-Shampine-Gordon（KSG）与变步长多步法
 
-**KSG 积分器**（Krogh 1974; Shampine and Gordon 1975）用**均差（divided difference）**替代固定步长回值差分，在多步框架内实现自然变步长控制。它是一种非求和、变步长、可自起步的积分器（Krogh 1974），对大偏心率轨道尤为适用——避免 Gauss-Jackson 在远地点的步长浪费。在地月空间编目定轨中已有应用，采用 60 秒步长对三体动力学模型积分（陈艳玲等 2025）。
+**KSG 积分器**（Krogh 1974; Shampine and Gordon 1975）用**均差（divided difference）**替代固定步长回值差分，在多步框架内实现自然变步长控制。它是一种非求和、变步长、可自起步的积分器（Krogh 1974），对大偏心率轨道尤为适用，可避免 Gauss-Jackson 在远地点的步长浪费。在地月空间编目定轨中已有应用，采用 60 秒步长对三体动力学模型积分（陈艳玲等 2025）。
 
 Vallado（2022）指出，Shampine-Gordon（及 Berry and Healy 2004 的最新实现）作为 Adams-Bashforth-Moulton 的替代方案值得进一步关注。
 

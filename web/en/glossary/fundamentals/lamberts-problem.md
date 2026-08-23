@@ -32,15 +32,15 @@ permalink: /en/glossary/fundamentals/lamberts-problem/
 
 Lambert's problem is one of the two canonical problems of orbital mechanics (the other being Kepler's problem): given an initial position vector $\vec r_1$, a final position vector $\vec r_2$, and a time of flight $\Delta t$ in a central gravity field, find the orbit connecting the endpoints together with the endpoint velocities $\vec v_1$ and $\vec v_2$. It is at once a tool for initial orbit determination and a tool for transfer-orbit design (intercept, rendezvous, entry) (Vallado 2022; Battin 1999).
 
-Calling it "Gauss's problem" is a misnomer. Euler first analysed the problem in 1744; Lambert extended it to elliptic and hyperbolic orbits during 1761–1771; Gauss in 1801 gave one solution method while recovering Ceres — he was solving Lambert's problem, not posing a new one (Vallado 2022, §7.6).
+Calling it Gauss's problem is a misnomer. Euler first analysed the problem in 1744; Lambert extended it to elliptic and hyperbolic orbits during 1761–1771; Gauss in 1801 gave one solution method while recovering Ceres: he was solving Lambert's problem, not posing a new one (Vallado 2022, §7.6).
 
-The two position vectors fix the orbital plane. Once a "short-way" or "long-way" choice is made ($t_m=\pm1$, corresponding to a transfer angle $\Delta\nu$ below or above $180^\circ$), the two-body Lambert problem has a unique solution; at $\Delta\nu=180^\circ$ the plane is undefined and the solution degenerates.
+The two position vectors fix the orbital plane. Once a short-way or long-way choice is made ($t_m=\pm1$, corresponding to a transfer angle $\Delta\nu$ below or above $180^\circ$), the two-body Lambert problem has a unique solution; at $\Delta\nu=180^\circ$ the plane is undefined and the solution degenerates.
 
 ## Lambert's Theorem (Time-of-Flight Theorem)
 
 The central result of Lambert's geometric investigation, stated as a theorem by Battin (1999, p. 276):
 
-> The transfer time between two endpoints depends **only** on three quantities — the semi-major axis $a$, the sum of the endpoint radii $r_1+r_2$, and the chord length $c$ joining them — and not on the shape of the orbit (i.e., not on the eccentricity).
+> The transfer time between two endpoints depends **only** on three quantities (the semi-major axis $a$, the sum of the endpoint radii $r_1+r_2$, and the chord length $c$ joining them) and not on the shape of the orbit (i.e., not on the eccentricity).
 
 Equivalently, with $r_1+r_2$, $c$, and $\Delta t$ fixed, every admissible connecting orbit has the same semi-major axis; different eccentricities correspond to different members of the same ellipse family. This is the geometric reason Lambert's problem reduces to a single scalar equation in $a$ (or an equivalent variable). Lagrange gave the analytic form (Vallado 2022, Eq. 7-36):
 
@@ -52,7 +52,7 @@ where $N$ is the number of complete revolutions, $\sin(\alpha_e/2)=\sqrt{s/(2a)}
 
 ## Minimum-Energy Solution and the Solvability Bound
 
-Below a critical semi-major axis no connecting orbit exists. The critical value follows from the geometry of "two virtual-focus circles just touching" (Vallado 2022, Eq. 7-37):
+Below a critical semi-major axis no connecting orbit exists. The critical value follows from the geometry of two virtual-focus circles just touching (Vallado 2022, Eq. 7-37):
 
 $$
 a_{\min}=\frac{s}{2}=\frac{r_1+r_2+c}{4}
@@ -98,7 +98,7 @@ In practice $\vec r_1$ and $\vec r_2$ (from radar or optical measurements) carry
 
 - **Linear-variational Lambert problem**: linearise about a nominal solution; the initial and final velocity variations are then related to the position variations by partitions of the nominal state transition matrix $\Phi_{rr},\Phi_{rv},\Phi_{vr},\Phi_{vv}$. Given a position covariance, the velocity covariance follows without iteration and is equivalent to a weighted batch least-squares differential correction (Schumacher et al. 2015).
 
-- **Higher-order methods**: Armellin et al. use differential algebra (COSY-Infinity) to expand the solution in a Taylor series; Hall-Singla (2020) build higher-order sensitivity matrices via the conjugate unscented transform — derivative-free approximations of the output distribution.
+- **Higher-order methods**: Armellin et al. use differential algebra (COSY-Infinity) to expand the solution in a Taylor series; Hall-Singla (2020) build higher-order sensitivity matrices via the conjugate unscented transform, derivative-free approximations of the output distribution.
 
 - **Multi-revolution case (UMRLP)**: in the multi-revolution case the distribution is further constrained by orbital-dynamical boundaries; the per-revolution solution fraction $p_N$ decreases with $N$. Duan et al. (2025) handle this constrained distribution with an adaptive polynomial-chaos expansion.
 
@@ -112,7 +112,7 @@ In practice $\vec r_1$ and $\vec r_2$ (from radar or optical measurements) carry
 
 - **Midcourse correction**: use a perturbed Lambert solution as the reference to determine midcourse impulse vectors (see [multi-impulse manoeuvres](/en/glossary/dynamics/two-impulse-rendezvous/) and [two-impulse orbit transfers](/en/glossary/dynamics/cislunar-transfer-design-elements/)).
 
-- **Lambert guidance**: embedding Lambert solutions in a real-time closed-loop guidance law — see [Lambert Guidance Routine](/en/glossary/dynamics/lambert-guidance-routine/).
+- **Lambert guidance**: embedding Lambert solutions in a real-time closed-loop guidance law: see [Lambert Guidance Routine](/en/glossary/dynamics/lambert-guidance-routine/).
 
 ## Related Concepts
 

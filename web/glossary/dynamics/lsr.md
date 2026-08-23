@@ -61,7 +61,7 @@ $$T_{3BP} = \frac{N}{M} \left| \frac{2\pi}{\omega_S} \right|$$
 | 9:2 | ≈6.53 天 | ≈3150 km | ≈71000 km | Gateway 当前基线，9圈=2会合周期（约59天）|
 | 4:1 | ≈7.34 天 | ≈5600 km | ≈75335 km | 4圈=1会合周期；日食裕度更大 |
 | 3:1 | ≈9.79 天 | ≈15000 km | ≈84500 km | 共振比简单，但近月点更高 |
-| 5:1 | ≈5.90 天 | — | — | 近月点更接近月面 |
+| 5:1 | ≈5.90 天 | 无 | 无 | 近月点更接近月面 |
 
 此外，NRHO 附近的高周期轨道族也存在同步共振成员，例如 2:1 P2HO1（周期约 14.76 天）、1:1 P2HO1（周期约 29.5 天）、3:2 P2HO1 等，其瓣/峰结构保持了类似 4:1 或 9:2 的日食规避几何（Zimovan-Spreen et al. 2020）。
 
@@ -87,12 +87,12 @@ $$T_{3BP} = \frac{N}{M} \left| \frac{2\pi}{\omega_S} \right|$$
 
 ## 参考文献
 
-- Zimovan-Spreen, E. M. et al., 2020, "Near rectilinear halo orbits and nearby higher-period dynamical structures: orbital stability and resonance properties", *Acta Astronautica*
+- Zimovan-Spreen, E. M. et al., 2020, Near rectilinear halo orbits and nearby higher-period dynamical structures: orbital stability and resonance properties, *Acta Astronautica*
 
-- Boudad, K. D. et al., 2020, "Dynamics of synodic resonant near rectilinear halo orbits in the bicircular four-body problem", *Celestial Mechanics and Dynamical Astronomy*
+- Boudad, K. D. et al., 2020, Dynamics of synodic resonant near rectilinear halo orbits in the bicircular four-body problem, *Celestial Mechanics and Dynamical Astronomy*
 
-- Williams, K. E. et al., 2017, "Targeting cislunar near rectilinear halo orbits for human space exploration", *AIAA SPACE and Astronautics Forum and Exposition*
+- Williams, K. E. et al., 2017, Targeting cislunar near rectilinear halo orbits for human space exploration, *AIAA SPACE and Astronautics Forum and Exposition*
 
-- Oshima, K., 2022, "Multiple families of synodic resonant periodic orbits in the bicircular restricted four–body problem", *Advances in Space Research*
+- Oshima, K., 2022, Multiple families of synodic resonant periodic orbits in the bicircular restricted four–body problem, *Advances in Space Research*
 
 - Lee, K., 2019 (internal NASA report on Gateway NRHO 9:2 synodic resonant orbit analysis)

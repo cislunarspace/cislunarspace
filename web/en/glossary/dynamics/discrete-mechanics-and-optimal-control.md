@@ -53,7 +53,7 @@ DMOC solutions inherit the key properties of variational integrators:
 
 - **Symplectic.** The symplectic 2-form on phase space is preserved exactly under iteration.
 - **Momentum-preserving.** The Noether momentum map associated with any system symmetry is preserved exactly, independent of step size.
-- **Good energy behavior.** Symplecticity guarantees no long-time energy drift or dissipation — energy oscillates within a small bound.
+- **Good energy behavior.** Symplecticity guarantees no long-time energy drift or dissipation; energy oscillates within a small bound.
 
 These three properties are the core advantages of DMOC over general [direct collocation](/en/glossary/dynamics/direct-collocation/), especially for CR3BP and low-energy Earth-Moon transfers that need long-time integration and are sensitive to energy preservation (Marsden & West 2001; Moore 2011).
 
@@ -75,8 +75,8 @@ These three properties are the core advantages of DMOC over general [direct coll
 ## Applications
 
 - **Low-energy Earth-Moon transfers.** DMOC + invariant manifolds is a classic pairing: manifolds supply the dynamics-based skeleton as initial guess; DMOC refines in the 4-body model and drives the manifold-stitching mid-course $\Delta V$ to zero (Moore 2011, Ch. 3; Moore et al. 2012).
-- **Formation flight.** CubeSat formation reconfiguration benefits from DMOC's momentum preservation — formation geometry remains stable over long simulations.
-- **When not to use.** Systems with strong dissipation (atmospheric entry), non-conservative constraints (heat-flux limits), or no Lagrangian in closed form lose DMOC's advantages — direct collocation is then more appropriate.
+- **Formation flight.** CubeSat formation reconfiguration benefits from DMOC's momentum preservation: formation geometry remains stable over long simulations.
+- **When not to use.** Systems with strong dissipation (atmospheric entry), non-conservative constraints (heat-flux limits), or no Lagrangian in closed form lose DMOC's advantages; direct collocation is then more appropriate.
 
 ## Related concepts
 

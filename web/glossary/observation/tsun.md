@@ -45,4 +45,4 @@ permalink: /glossary/observation/tsun/
 
 ## 参考文献
 
-- Ding et al., 2025 — Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits
+- Ding et al., 2025. Cislunar Space Situational Awareness via Earth-Moon Resonant Orbits

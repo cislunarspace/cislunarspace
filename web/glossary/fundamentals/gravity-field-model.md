@@ -36,7 +36,7 @@ $$U(r,\phi,\lambda) = \frac{\mu}{r} \left[ 1 + \sum_{\ell=2}^{N} \sum_{m=0}^{\el
 
 其中 $N$ 为截断阶数，$\bar{C}_{\ell m}$、$\bar{S}_{\ell m}$ 是模型发布的一组斯托克斯系数（Stokes coefficients），$R$ 为参考半径。系数通常由人造卫星跟踪数据、GNSS、卫星测高、激光测月/测卫或专门的重力卫星任务（GRACE、GOCE、GRAIL）反演得到（尹智等 2024）。模型一旦发布，用户只需读取系数即可在轨道积分器中恢复对应的引力加速度。
 
-引力场模型可视为"引力位"这一数学对象在工程计算中的离散实现。同一个天体有多个版本的模型，它们区别主要在于观测数据、解算策略和截断阶次。
+引力场模型可视为引力位这一数学对象在工程计算中的离散实现。同一个天体有多个版本的模型，它们区别主要在于观测数据、解算策略和截断阶次。
 
 ## 常用地球引力场模型
 
@@ -58,7 +58,7 @@ EGM2008 是当前最常用的静态地球引力场模型之一，完整版包含
 | **LP165P** | Lunar Prospector | 165 阶 | 绕月轨道计算 |
 | **LP100K** | Lunar Prospector | 100 阶 | 低月球轨道段轨道预报 |
 
-月球引力场比地球更不规则：月面存在显著的质量瘤（mascon），导致高阶球谐系数衰减较慢。月球模型的阶次选取比地球更敏感——对低月球轨道（高度 50–100 km），若截断阶次过低会低估轨道面的长期漂移和轨道衰减（Trofimov et al. 2020）。
+月球引力场比地球更不规则：月面存在显著的质量瘤（mascon），导致高阶球谐系数衰减较慢。月球模型的阶次选取比地球更敏感：对低月球轨道（高度 50–100 km），若截断阶次过低会低估轨道面的长期漂移和轨道衰减（Trofimov et al. 2020）。
 
 ## 阶次选取的工程原则
 
@@ -91,14 +91,14 @@ EGM2008 是当前最常用的静态地球引力场模型之一，完整版包含
 
 ## 参考文献
 
-- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1 — 引力场模型化的数学基础与归一化。
+- Vallado, D. A., 2022, *Fundamentals of Astrodynamics and Applications*, 5th ed., Microcosm Press. Ch. 8.6.1：引力场模型化的数学基础与归一化。
 
-- 尹智, 张克非, 段亚博, 刘军生, 穆庆禄, 2024, 地球科学和深空探测的引力场建模理论研究进展, *地球与行星物理论评*, 55(5): 501–512. — 地球与深空天体引力场建模理论与方法分类。
+- 尹智, 张克非, 段亚博, 刘军生, 穆庆禄, 2024, 地球科学和深空探测的引力场建模理论研究进展, *地球与行星物理论评*, 55(5): 501–512. 地球与深空天体引力场建模理论与方法分类。
 
-- Pavlis, N. K. et al., 2012, The development and evaluation of the Earth Gravitational Model 2008 (EGM2008), *Journal of Geophysical Research: Solid Earth*, 117(B4). — EGM2008 来源与精度。
+- Pavlis, N. K. et al., 2012, The development and evaluation of the Earth Gravitational Model 2008 (EGM2008), *Journal of Geophysical Research: Solid Earth*, 117(B4). EGM2008 来源与精度。
 
-- Konopliv, A. S. et al., 2013, The JPL lunar gravity field to spherical harmonic degree 660 from the GRAIL Primary Mission, *Journal of Geophysical Research: Planets*, 118(7): 1415–1434. — GRGM660PRIM 与 GL0660B 的理论基础。
+- Konopliv, A. S. et al., 2013, The JPL lunar gravity field to spherical harmonic degree 660 from the GRAIL Primary Mission, *Journal of Geophysical Research: Planets*, 118(7): 1415–1434. GRGM660PRIM 与 GL0660B 的理论基础。
 
-- Trofimov, S. et al., 2020, Transfers from NRHOs to low-perilune orbits, *Acta Astronautica*, 167: 260–271. — 月球不规则引力场对低近月点轨道的影响。
+- Trofimov, S. et al., 2020, Transfers from NRHOs to low-perilune orbits, *Acta Astronautica*, 167: 260–271. 月球不规则引力场对低近月点轨道的影响。
 
-- Zuber, M. T. et al., 2013, Gravity field of the Moon from the Gravity Recovery and Interior Laboratory (GRAIL) mission, *Science*, 339(6120): 668–671. — GRAIL 任务与月球引力场模型。
+- Zuber, M. T. et al., 2013, Gravity field of the Moon from the Gravity Recovery and Interior Laboratory (GRAIL) mission, *Science*, 339(6120): 668–671. GRAIL 任务与月球引力场模型。

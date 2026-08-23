@@ -50,7 +50,7 @@ $$
 
 通过精心选取初始速度，可分别滤掉两个模态之一（Catlin & McLaughlin 2007, Eqs. 6–7）。仅保留长周期时，相对运动是面内椭圆，轴比 ≈ 16/3，周期 ≈ 92 天，所需初始相对速度在毫米/秒量级。仅保留短周期时，轴比 ≈ 2，周期 ≈ 一个朔望月。这两种单模态解是 $L_4/L_5$ 编队飞行的实用构件：运动可重复、平面、可解析描述。
 
-自然的圆编队（轴比为 1）在纯长周期下不可能——面内频率与面外频率相去甚远（$s_z$ 远不等于 $s_1$）；只有短周期下 $s_2$ 与 $s_z$ 相差不到 0.05 无量纲频率单位，才可做平面近似实现近圆编队。即便如此，平面近似对 CR3BP 真实动力学的描述并不准确，需有源控制才能维持圆形。
+自然的圆编队（轴比为 1）在纯长周期下不可能，面内频率与面外频率相去甚远（$s_z$ 远不等于 $s_1$）；只有短周期下 $s_2$ 与 $s_z$ 相差不到 0.05 无量纲频率单位，才可做平面近似实现近圆编队。即便如此，平面近似对 CR3BP 真实动力学的描述并不准确，需有源控制才能维持圆形。
 
 ## 双周期运动为何少用
 
@@ -78,10 +78,10 @@ $$
 
 ## 参考文献
 
-- Catlin, K. & McLaughlin, C., 2007, "Earth–Moon Triangular Libration Point Spacecraft Formations," *J. Guid. Control Dyn.*——长/短周期频率的推导、轴比、编队设计、敏感性分析与摄动评估（本文全部数值均出自此）。
+- Catlin, K. & McLaughlin, C., 2007, Earth–Moon Triangular Libration Point Spacecraft Formations, *J. Guid. Control Dyn.*：长/短周期频率的推导、轴比、编队设计、敏感性分析与摄动评估（本文全部数值均出自此）。
 
-- Catlin & McLaughlin, 2004, "Relative motion of two spacecraft near the Earth–Moon triangular libration points"——更早的平面分析。
+- Catlin & McLaughlin, 2004, Relative motion of two spacecraft near the Earth–Moon triangular libration points，更早的平面分析。
 
-- Szebehely, 1967, *Theory of Orbits*, §§5.2–5.4——$L_4/L_5$ 线性化、特征根与 Routh 稳定判据。
+- Szebehely, 1967, *Theory of Orbits*, §§5.2–5.4，$L_4/L_5$ 线性化、特征根与 Routh 稳定判据。
 
-- Hou & Liu, 2010, "On quasi-periodic motions around the triangular libration points of the real Earth–Moon system"——历表模型下的扩展。
+- Hou & Liu, 2010, On quasi-periodic motions around the triangular libration points of the real Earth–Moon system，历表模型下的扩展。

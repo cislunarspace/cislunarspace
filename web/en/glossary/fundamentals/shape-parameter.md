@@ -42,7 +42,7 @@ where $r$ is the radial distance and $\theta$ is the polar angle. The roles of t
 
 - $k_0$: controls the overall size of the orbit (distance scale), determining the maximum and minimum radial distance.
 
-- $k_1$: controls the amplitude of the radial oscillation within each revolution — larger $k_1$ produces more pronounced spiral-like radial variation.
+- $k_1$: controls the amplitude of the radial oscillation within each revolution: larger $k_1$ produces more pronounced spiral-like radial variation.
 
 - $k_2$: controls the angular frequency, determining how many loops the trajectory makes per revolution. In Petropoulos's original formulation, $k_2$ is the **shape parameter** in the narrow sense.
 
@@ -60,15 +60,15 @@ Crucially, the trajectory is physically feasible (thrust always positive, no tra
 
 ## The Multi-Revolution Exponential-Sinusoid Lambert Problem
 
-When the departure planet's velocity is known, the four parameters collapse to a single free parameter $k_2$ — the **shape parameter**. Given $r_1$ (departure position), $r_2$ (target position), $\psi$ (transfer polar angle), and $N$ (number of revolutions), all possible exponential sinusoids connecting the two points form a single-parameter family $\mathcal{S}_{k_2}[r_1, r_2, \psi, N]$ parameterized by the departure flight-path angle $\gamma_1$ (Izzo 2006).
+When the departure planet's velocity is known, the four parameters collapse to a single free parameter $k_2$, the **shape parameter**. Given $r_1$ (departure position), $r_2$ (target position), $\psi$ (transfer polar angle), and $N$ (number of revolutions), all possible exponential sinusoids connecting the two points form a single-parameter family $\mathcal{S}_{k_2}[r_1, r_2, \psi, N]$ parameterized by the departure flight-path angle $\gamma_1$ (Izzo 2006).
 
-For those trajectories in the family that are dynamically feasible ($|k_1 k_2^2| < 1$), the time of flight $T$ is a monotonic function of $\gamma_1$ — critical for the well-posedness and uniqueness of the multi-revolution exponential-sinusoid Lambert problem. The Lambert problem is solved via numerical quadrature and the Regula Falsi method: given $k_2$, $N$, and the desired time of flight, the unique corresponding exponential sinusoid can be found (Izzo 2006). In interplanetary global optimization, $k_2$ is one of the core decision variables: for example, in an Earth-to-Mars transfer, the N=0 optimal solution corresponds to $k_2 \approx 0.928$, N=1 to $k_2 \approx 0.523$, and N=2 to $k_2 \approx 0.236$ (Izzo 2006, Table 1).
+For those trajectories in the family that are dynamically feasible ($|k_1 k_2^2| < 1$), the time of flight $T$ is a monotonic function of $\gamma_1$, critical for the well-posedness and uniqueness of the multi-revolution exponential-sinusoid Lambert problem. The Lambert problem is solved via numerical quadrature and the Regula Falsi method: given $k_2$, $N$, and the desired time of flight, the unique corresponding exponential sinusoid can be found (Izzo 2006). In interplanetary global optimization, $k_2$ is one of the core decision variables: for example, in an Earth-to-Mars transfer, the N=0 optimal solution corresponds to $k_2 \approx 0.928$, N=1 to $k_2 \approx 0.523$, and N=2 to $k_2 \approx 0.236$ (Izzo 2006, Table 1).
 
 ## Relevance to Low-Thrust Transfer Design
 
-The appeal of shape-based methods is that they reduce the complex optimal-control problem — normally requiring indirect methods (Pontryagin's Maximum Principle + multi-point boundary value problem) — to a search over a small number of shape parameters. The downside, inevitable when the number of shape parameters is small (at most 4 for the exponential sinusoid), is that the represented trajectories are only a subset of all feasible trajectories ("shape-restricted optimal", not "globally optimal"). Nonetheless, for preliminary design screening, seed generation for global optimization algorithms, and rapid scanning of large numbers of trajectory options, this is among the most practical compromises available (Izzo 2006; Vasile et al. 2007).
+The appeal of shape-based methods is that they reduce the complex optimal-control problem, normally requiring indirect methods (Pontryagin's Maximum Principle + multi-point boundary value problem), to a search over a small number of shape parameters. The downside, inevitable when the number of shape parameters is small (at most 4 for the exponential sinusoid), is that the represented trajectories are only a subset of all feasible trajectories (shape-restricted optimal, not globally optimal). Nonetheless, for preliminary design screening, seed generation for global optimization algorithms, and rapid scanning of large numbers of trajectory options, this is among the most practical compromises available (Izzo 2006; Vasile et al. 2007).
 
-Regarding the **polynomial amplitude-phase assumption**: for low-thrust transfers near libration points, the amplitude and phase may be assumed to vary polynomially in time (linear or higher-order) to capture the spiral-transfer character. However, this is a heuristic model specific to certain orbit families — its generality does not match that of the exponential-sinusoid shape parameters (Petropoulos 2002).
+Regarding the **polynomial amplitude-phase assumption**: for low-thrust transfers near libration points, the amplitude and phase may be assumed to vary polynomially in time (linear or higher-order) to capture the spiral-transfer character. However, this is a heuristic model specific to certain orbit families: its generality does not match that of the exponential-sinusoid shape parameters (Petropoulos 2002).
 
 ## Related Concepts
 

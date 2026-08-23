@@ -41,7 +41,7 @@ where $\mathbf{F}=(\partial H/\partial\boldsymbol{\lambda},-\partial H/\partial\
 A pair $(\mathbf{x}(t),\boldsymbol{\lambda}(t),\mathbf{u}^*(t))$ satisfying PMP is an **extremal**. By the value of the cost multiplier $\lambda_0$:
 
 - **Normal extremal** ($\lambda_0\neq 0$): can normalize $\lambda_0=-1$; the cost contributes to $H$ with non-zero weight. Generic case.
-- **Abnormal extremal** ($\lambda_0=0$): the cost drops out of $H$; the optimal control is determined solely by the dynamics. Caillau et al. (2012) show abnormal extremals are absent from minimum-fuel problems when $t_f$ exceeds the minimum time — only the normal case needs consideration.
+- **Abnormal extremal** ($\lambda_0=0$): the cost drops out of $H$; the optimal control is determined solely by the dynamics. Caillau et al. (2012) show abnormal extremals are absent from minimum-fuel problems when $t_f$ exceeds the minimum time: only the normal case needs consideration.
 
 The family of extremals through a fixed initial point forms the **extremal flow**, classified by the switching function into *bang extremals* (switching function non-zero, control on the boundary) and *singular extremals* (switching function identically zero on a finite arc, control determined by higher-order conditions).
 
@@ -55,7 +55,7 @@ $$\frac{\partial^2 H}{\partial \mathbf{u}^2}\succeq 0$$
 
 ## Geometric optimal control
 
-**Geometric optimal control** treats the optimal-control problem as a geometric object on the state manifold: extremal curves, the extremal flow, conjugate loci, and the cut locus. Tools from differential geometry — distributions, Lie brackets of vector fields, sub-Riemannian structures — provide global structural results that complement the pointwise PMP. For CR3BP-type problems with thrust-direction constraints, the control distribution has rank smaller than the state dimension; together with a Riemannian metric it defines a **sub-Riemannian structure**, and the abnormal vs normal dichotomy becomes a question of Chow's theorem on the reachability of the distribution (Caillau & Daoud 2012).
+**Geometric optimal control** treats the optimal-control problem as a geometric object on the state manifold: extremal curves, the extremal flow, conjugate loci, and the cut locus. Tools from differential geometry (distributions, Lie brackets of vector fields, sub-Riemannian structures) provide global structural results that complement the pointwise PMP. For CR3BP-type problems with thrust-direction constraints, the control distribution has rank smaller than the state dimension; together with a Riemannian metric it defines a **sub-Riemannian structure**, and the abnormal vs normal dichotomy becomes a question of Chow's theorem on the reachability of the distribution (Caillau & Daoud 2012).
 
 ## Conjugate-point mapping and applications
 

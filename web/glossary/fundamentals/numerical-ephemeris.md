@@ -30,7 +30,7 @@ permalink: /glossary/fundamentals/numerical-ephemeris/
 
 ## 定义
 
-**数值历表**（numerical ephemeris）是把太阳系天体（日、月、行星）的运动方程作高精度数值积分、并拟合到观测数据后，得到的位置和速度数据表。事实标准由 NASA/JPL 的 DE 系列（Development Ephemeris）提供：现代任务用 DE430、DE440，老文献常见 DE405。与之相对的**分析历表**（analytical ephemeris）用轨道根数的三角级数或解析公式给出天体位置，计算快、不占存储，但精度有限。**完整历表模型**（full ephemeris model，又称高保真星历模型）则指把航天器运动方程与数值历表给出的真实天体位置联立积分所得到的力学模型——也就是 CR3BP 之外的 n 体工程化环境。
+**数值历表**（numerical ephemeris）是把太阳系天体（日、月、行星）的运动方程作高精度数值积分、并拟合到观测数据后，得到的位置和速度数据表。事实标准由 NASA/JPL 的 DE 系列（Development Ephemeris）提供：现代任务用 DE430、DE440，老文献常见 DE405。与之相对的**分析历表**（analytical ephemeris）用轨道根数的三角级数或解析公式给出天体位置，计算快、不占存储，但精度有限。**完整历表模型**（full ephemeris model，又称高保真星历模型）则指把航天器运动方程与数值历表给出的真实天体位置联立积分所得到的力学模型，也就是 CR3BP 之外的 n 体工程化环境。
 
 ## 数值历表 vs. 分析历表
 
@@ -84,18 +84,18 @@ $$
 
 ## 参考文献
 
-- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, Chaps. 3, 8, 10 —— 时间系统 $T_\text{eph}$/TDB/TT 关系、第三体摄动建模、JPL DE 历表的 Chebyshev 分块与精度指标。
+- Vallado, 2022, *Fundamentals of Astrodynamics and Applications*, Chaps. 3, 8, 10：时间系统 $T_\text{eph}$/TDB/TT 关系、第三体摄动建模、JPL DE 历表的 Chebyshev 分块与精度指标。
 
 - Standish, 1990, "The observational basis for JPL's DE200, the planetary ephemerides of the Astronomical Almanac," *A&A* 233:252–271.
 
-- 邓辉 等，2017，地月系共线平动点探测器的星上轨道预报问题——分析历表在平动点附近引起定性偏差的论述。
+- 邓辉 等，2017，地月系共线平动点探测器的星上轨道预报问题：分析历表在平动点附近引起定性偏差的论述。
 
-- Welch, Barden, Howell, 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit——完整历表模型对 CR3BP DRO 设计的验证。
+- Welch, Barden, Howell, 2015, Mission Considerations for Transfers to a Distant Retrograde Orbit：完整历表模型对 CR3BP DRO 设计的验证。
 
 - Baresi, 2023, Transition of two-dimensional quasi-periodic invariant tori in the real-ephemeris model of the Earth–Moon system.
 
 - Liu & Liu, 2025, A note on the computation of multi-revolution NRHO under the ephemeris model.
 
-- Lu et al., 2025, Lunar time ephemeris LTE440 — definitions, algorithm, and performance.
+- Lu et al., 2025, Lunar time ephemeris LTE440: definitions, algorithm, and performance.
 
 - Lv et al., 2025, Precise orbit determination for cislunar space satellites: planetary ephemeris simplification effect.

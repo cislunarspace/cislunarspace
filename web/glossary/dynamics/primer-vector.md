@@ -36,9 +36,9 @@ $$
 \mathbf{p}(t)\equiv-\boldsymbol{\lambda}_v(t).
 $$
 
-它是 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 在带推力航天器最优控制问题中的核心伴随量：连续推力情形下决定最优推力方向与节流时刻，脉冲推力情形下决定脉冲施加时刻、方向及是否需要追加脉冲。术语本身源自 Lawden 二战服役于炮兵的经历——炮弹药筒的火药由底火（primer charge）引燃，"$p=1$" 即"点火"信号（Lawden 致 Prussing 的私人信件，1990；Prussing 2010）。
+它是 [庞特里亚金最小值原理](/glossary/dynamics/pontryagins-maximum-principle/) 在带推力航天器最优控制问题中的核心伴随量：连续推力情形下决定最优推力方向与节流时刻，脉冲推力情形下决定脉冲施加时刻、方向及是否需要追加脉冲。术语本身源自 Lawden 二战服役于炮兵的经历：炮弹药筒的火药由底火（primer charge）引燃，$p=1$ 即点火信号（Lawden 致 Prussing 的私人信件，1990；Prussing 2010）。
 
-中译并不统一："先驱向量""引燃向量""初始向量"在文献中均出现，本文采用"先驱向量"，因其不含火器隐喻又保留了 $\mathbf{p}(t)$ 在最优控制律中的"先行指示"作用。
+中译并不统一：先驱向量、引燃向量、初始向量在文献中均出现，本文采用先驱向量，因其不含火器隐喻又保留了 $\mathbf{p}(t)$ 在最优控制律中的先行指示作用。
 
 ## 推导：从极小值原理到先驱向量
 
@@ -76,7 +76,7 @@ $$
 \ddot{\mathbf{p}}=G(\mathbf{r})\,\mathbf{p}.
 $$
 
-这是先驱向量沿轨迹演化的二阶线性微分方程（Lawden 1963, Ch. 3；Prussing 2010, Eq. 2.19）。它与状态变分方程同构——其状态转移矩阵即为轨道变分方程的转移矩阵，因此可借助 [状态转移矩阵方法](/glossary/dynamics/co-state-variables/) 一并数值传播。在二体问题中 $G(\mathbf{r})=\mu(3\hat{\mathbf{r}}\hat{\mathbf{r}}^{\mathrm{T}}-I)/r^3$，先驱向量方程存在解析基础（Prussing 1993）。
+这是先驱向量沿轨迹演化的二阶线性微分方程（Lawden 1963, Ch. 3；Prussing 2010, Eq. 2.19）。它与状态变分方程同构：其状态转移矩阵即为轨道变分方程的转移矩阵，因此可借助 [状态转移矩阵方法](/glossary/dynamics/co-state-variables/) 一并数值传播。在二体问题中 $G(\mathbf{r})=\mu(3\hat{\mathbf{r}}\hat{\mathbf{r}}^{\mathrm{T}}-I)/r^3$，先驱向量方程存在解析基础（Prussing 1993）。
 
 ## 连续推力情形的必要条件
 
@@ -102,10 +102,10 @@ Lawden 据此将轨迹分为三类弧：最大推力弧（MT）、无推力弧�
 
 ### Lion-Handelsman 梯度法：从非最优解到最优解
 
-实践中给定一组边界条件与转移时间，常先得到一个非最优的 $N$ 脉冲解（如双脉冲 Lambert 解）。Lion 与 Handelsman（1968）导出性能指标关于三种"修正操作"的梯度：
+实践中给定一组边界条件与转移时间，常先得到一个非最优的 $N$ 脉冲解（如双脉冲 Lambert 解）。Lion 与 Handelsman（1968）导出性能指标关于三种修正操作的梯度：
 
-- **末端滑行**（terminal coast）：推迟或提前首/末脉冲施加时刻——梯度为 $\partial J/\partial t_i=\pm\|\dot{\mathbf{p}}(t_i)\|$；
-- **追加中段脉冲**（midcourse impulse）：在 $\|\mathbf{p}\|>1$ 的子弧上加入新脉冲——梯度为 $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$；
+- **末端滑行**（terminal coast）：推迟或提前首/末脉冲施加时刻，梯度为 $\partial J/\partial t_i=\pm\|\dot{\mathbf{p}}(t_i)\|$；
+- **追加中段脉冲**（midcourse impulse）：在 $\|\mathbf{p}\|>1$ 的子弧上加入新脉冲，梯度为 $\partial J/\partial\Delta\mathbf{v}=(\|\mathbf{p}\|-1)\,\hat{\mathbf{p}}$；
 - **脉冲位置迭代**：通过 $\dot{\mathbf{p}}$ 在脉冲点不为零的量调整脉冲时刻。
 
 Jezewski 与 Rozendaal（1968）将上述梯度嵌入 非线性规划（多重打靶，参见 [间接法](/glossary/dynamics/indirect-methods/)） 框架，得到自动判定何时追加脉冲、何时启用滑行的 $N$ 脉冲迭代算法，至今仍是脉冲转移最优性检验与改进的标准工具。
@@ -123,14 +123,14 @@ Jezewski 与 Rozendaal（1968）将上述梯度嵌入 非线性规划（多重�
 
 ## 相关概念
 
-- [Bang-bang 控制（Bang-bang Control）](/glossary/dynamics/bang-bang-control/) — 先驱向量幅值通过切换函数导出的推力开关结构
-- [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/) — 先驱向量的协态来源
-- [庞特里亚金最小值原理（PMP）](/glossary/dynamics/pontryagins-maximum-principle/) — 推导先驱向量的数学基础
-- [同伦方法（Homotopy Method）](/glossary/dynamics/homotopy-method/) — 求解先驱向量方程边值问题的主流数值手段
-- [燃料最优控制（Fuel-optimal Control）](/glossary/dynamics/fuel-optimal/) — 先驱向量应用的主要性能指标类型
-- [对偶控制变换（Adjoint-Control Transformation）](/glossary/dynamics/adjoint-control-transformation/) — 用 $(\mathbf{p},\lambda_m)$ 替代协态的变量变换
-- [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/) — Lion-Handelsman 梯度的 NLP 实现（多重打靶框架）
-- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/) — 地月空间先驱向量应用的动力学背景
+- [Bang-bang 控制（Bang-bang Control）](/glossary/dynamics/bang-bang-control/)：先驱向量幅值通过切换函数导出的推力开关结构
+- [协态变量（Co-state Variables）](/glossary/dynamics/co-state-variables/)：先驱向量的协态来源
+- [庞特里亚金最小值原理（PMP）](/glossary/dynamics/pontryagins-maximum-principle/)：推导先驱向量的数学基础
+- [同伦方法（Homotopy Method）](/glossary/dynamics/homotopy-method/)：求解先驱向量方程边值问题的主流数值手段
+- [燃料最优控制（Fuel-optimal Control）](/glossary/dynamics/fuel-optimal/)：先驱向量应用的主要性能指标类型
+- [对偶控制变换（Adjoint-Control Transformation）](/glossary/dynamics/adjoint-control-transformation/)：用 $(\mathbf{p},\lambda_m)$ 替代协态的变量变换
+- [间接法（Indirect Methods）](/glossary/dynamics/indirect-methods/)：Lion-Handelsman 梯度的 NLP 实现（多重打靶框架）
+- [圆形限制性三体问题（CR3BP）](/glossary/dynamics/cr3bp/)：地月空间先驱向量应用的动力学背景
 
 ## 参考文献
 

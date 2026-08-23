@@ -40,7 +40,7 @@ $$
 \vec\omega\times\vec q.
 $$
 
-$\vec\omega$ is the instantaneous angular velocity of $\mathcal R$ relative to $\mathcal I$. The vector itself is frame-independent, but its components and the operation "differentiate with respect to time" both depend on the frame — the Coriolis theorem is the transformation rule for the latter. It is the foundation on which equations of motion are derived in every rotating reference frame used in astrodynamics: the [synodic frame](/en/glossary/fundamentals/synodic-frame/), the Moon-fixed frame, the Earth-fixed frame, and so on.
+$\vec\omega$ is the instantaneous angular velocity of $\mathcal R$ relative to $\mathcal I$. The vector itself is frame-independent, but its components and the operation of differentiating with respect to time both depend on the frame; the Coriolis theorem is the transformation rule for the latter. It is the foundation on which equations of motion are derived in every rotating reference frame used in astrodynamics: the [synodic frame](/en/glossary/fundamentals/synodic-frame/), the Moon-fixed frame, the Earth-fixed frame, and so on.
 
 ## Sketch of Derivation
 
@@ -93,7 +93,7 @@ $$
 \Omega = \frac{\mu_1}{r_1}+\frac{\mu_2}{r_2}+\tfrac{1}{2}\omega^2(x^2+y^2).
 $$
 
-Once $\Omega$ is written as a single scalar "two-body gravity + centrifugal" potential, the Coriolis term $-2\vec\omega\times\dot{\vec r}$ is a **gyroscopic force** (does no work, perpendicular to velocity), from which the [Jacobi integral](/en/glossary/dynamics/jacobi-integral/) follows. This is the mechanical origin of the "Coriolis + centrifugal" terms in the synodic-frame equations.
+Once $\Omega$ is written as a single scalar two-body gravity + centrifugal potential, the Coriolis term $-2\vec\omega\times\dot{\vec r}$ is a **gyroscopic force** (does no work, perpendicular to velocity), from which the [Jacobi integral](/en/glossary/dynamics/jacobi-integral/) follows. This is the mechanical origin of the Coriolis + centrifugal terms in the synodic-frame equations.
 
 ## Application to Body-Fixed Frames
 
@@ -107,9 +107,9 @@ with $\vec V_I$ the inertial velocity, $\vec V_L$ the Moon-fixed velocity, $\vec
 
 ## Common Pitfalls
 
-- **"Does the Coriolis force do work?"** No. The term $2\vec\omega\times\vec v_R$ is always perpendicular to $\vec v_R$ and contributes nothing to the energy integral — one of the reasons the Jacobi integral is conserved.
-- **"Is Coriolis acceleration the 'cost' of relative velocity?"** Yes. It is the inertial observer's view of relative motion being "dragged along" by the rotating frame.
-- **Everyday "Coriolis force"**: rivers scouring one bank, Foucault pendulum precession, etc. These are the result of multiplying the acceleration term by mass and treating it as a "pseudo-force"; strictly it is a kinematic effect, not a physical force.
+- **Does the Coriolis force do work?** No. The term $2\vec\omega\times\vec v_R$ is always perpendicular to $\vec v_R$ and contributes nothing to the energy integral, one of the reasons the Jacobi integral is conserved.
+- **Is Coriolis acceleration the cost of relative velocity?** Yes. It is the inertial observer's view of relative motion being dragged along by the rotating frame.
+- **Everyday Coriolis force**: rivers scouring one bank, Foucault pendulum precession, etc. These are the result of multiplying the acceleration term by mass and treating it as a pseudo-force; strictly it is a kinematic effect, not a physical force.
 - **Frame of $\vec\omega$**: in the Coriolis theorem, $\vec\omega$ is the angular velocity of $\mathcal R$ relative to $\mathcal I$, not of the body relative to $\mathcal R$.
 
 ## Related Concepts

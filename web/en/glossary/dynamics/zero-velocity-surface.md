@@ -34,7 +34,7 @@ From the [Jacobi integral](/en/glossary/dynamics/jacobi-integral/) $v^2 = 2\Omeg
 $$\Omega(x,y,z) = C/2,$$
 i.e. a level surface of the [effective potential](/en/glossary/dynamics/jacobi-integral/) $\Omega$. It is called the **zero-velocity surface** (ZVS), or Hill surface. Its $xy$-plane sections are the **zero-velocity curves** (ZVC) or Hill curves (Szebehely 1967, §4.7; Vallado 2022, §12.7.3).
 
-"Zero velocity" means: a spacecraft on this surface has zero speed in the synodic frame — all of its rotating-frame kinetic energy has been traded for potential energy. The surface is, for that $C$, the boundary of where the spacecraft can reach.
+Zero velocity means: a spacecraft on this surface has zero speed in the synodic frame: all of its rotating-frame kinetic energy has been traded for potential energy. The surface is, for that $C$, the boundary of where the spacecraft can reach.
 
 ## Physical meaning: allowed and forbidden regions
 
@@ -46,7 +46,7 @@ From $v^2 = 2\Omega - C$:
 
 - Where $2\Omega = C$, $v = 0$: the ZVS itself.
 
-A spacecraft on pure CR3BP dynamics cannot enter the forbidden region; to cross it one must apply $\Delta v$ to reduce $C$ below the relevant threshold. In other words, fixing $C$ fixes the spacecraft's "playpen" in configuration space — the most direct qualitative conclusion of the restricted problem (Szebehely 1967, §4.7).
+A spacecraft on pure CR3BP dynamics cannot enter the forbidden region; to cross it one must apply $\Delta v$ to reduce $C$ below the relevant threshold. In other words, fixing $C$ fixes the spacecraft's playpen in configuration space: the most direct qualitative conclusion of the restricted problem (Szebehely 1967, §4.7).
 
 ## Topology evolution with $C$
 
@@ -60,7 +60,7 @@ As $C$ decreases from large values, the ZVS opens successively at the five [libr
 | $C_4 < C < C_3$ | open at $L_1$, $L_2$, $L_3$ | only two small forbidden islands remain near $L_4$, $L_5$ |
 | $C \le C_4=C_5$ | ZVS vanishes | entire space accessible |
 
-The "openings" at $C_1$, $C_2$, $C_3$, $C_4$ correspond to the saddle structure of $\Omega$ at the respective libration points — geometrically, the saddles of $\Omega$ are the energy thresholds.
+The openings at $C_1$, $C_2$, $C_3$, $C_4$ correspond to the saddle structure of $\Omega$ at the respective libration points: geometrically, the saddles of $\Omega$ are the energy thresholds.
 
 ## Necks and transfer channels
 
@@ -72,19 +72,19 @@ The openings at $L_1$, $L_2$, $L_3$ are called **necks** or energy channels:
 
 - **$L_3$ neck**: connects the Earth-Moon system to exterior space on the anti-Earth side; rarely used operationally.
 
-Dynamics near a neck is governed by the unstable/stable [invariant manifolds](/en/glossary/dynamics/invariant-manifold/) of the corresponding libration point — whether two periodic orbits at the same $C$ have manifolds that intersect in phase space determines whether a zero-fuel transfer between them exists (Parker & Anderson 2014, §2.6).
+Dynamics near a neck is governed by the unstable/stable [invariant manifolds](/en/glossary/dynamics/invariant-manifold/) of the corresponding libration point: whether two periodic orbits at the same $C$ have manifolds that intersect in phase space determines whether a zero-fuel transfer between them exists (Parker & Anderson 2014, §2.6).
 
 ## Sections and visualization
 
 - **$xy$ section** (most common): the Hill curves give the in-plane accessible outline. For Earth-Moon, $C=3.18$ is the curve just touching at $L_1$; $C=3.0$ leaves only two small islands at $L_{4,5}$ (Parker & Anderson 2014, Fig. 2-3; Vallado 2022, Fig. 12-14).
 
-- **$xz$ section**: reveals that out-of-plane motion is also restricted — the forbidden layer is thin near the primaries and thicker far away (Vallado 2022, Fig. 12-16; Lundberg et al. 1985).
+- **$xz$ section**: reveals that out-of-plane motion is also restricted: the forbidden layer is thin near the primaries and thicker far away (Vallado 2022, Fig. 12-16; Lundberg et al. 1985).
 
-- **Three-dimensional picture**: plotting $\Omega$ as a surface $z=\Omega(x,y)$ shows infinite peaks at the primaries, the lowest basins at $L_{4,5}$, and saddle-shaped passes at $L_{1,2,3}$ — this is the classical Deprit illustration (Szebehely 1967, Fig. 4.30).
+- **Three-dimensional picture**: plotting $\Omega$ as a surface $z=\Omega(x,y)$ shows infinite peaks at the primaries, the lowest basins at $L_{4,5}$, and saddle-shaped passes at $L_{1,2,3}$; this is the classical Deprit illustration (Szebehely 1967, Fig. 4.30).
 
 ## Applications
 
-- **Transfer feasibility**: comparing $C$ at the start and end of a candidate transfer tells whether $\Delta v$ is needed to cross a $C_i$ threshold — a zeroth-order filter at the concept-study stage.
+- **Transfer feasibility**: comparing $C$ at the start and end of a candidate transfer tells whether $\Delta v$ is needed to cross a $C_i$ threshold, a zeroth-order filter at the concept-study stage.
 
 - **Minimum-energy budget**: the lower bound on the $\Delta v$ required to take $C$ from LEO to below $C_1$ follows from $\Delta C = -2\,\mathbf v\cdot\Delta\mathbf v$ (see [Jacobi integral](/en/glossary/dynamics/jacobi-integral/)).
 
@@ -98,7 +98,7 @@ Dynamics near a neck is governed by the unstable/stable [invariant manifolds](/e
 
 - **The ZVS depends on $C$**: each spacecraft has its own $C$ and therefore its own ZVS. When orbit families are overlaid on a Hill-curve plot, they correspond to different values of $C$.
 
-- **No crossing at fixed $C$**: a spacecraft's trajectory in configuration space cannot cross its own ZVS — crossing requires $\Delta v$ and hence a change in $C$.
+- **No crossing at fixed $C$**: a spacecraft's trajectory in configuration space cannot cross its own ZVS: crossing requires $\Delta v$ and hence a change in $C$.
 
 ## Related concepts
 
@@ -122,8 +122,8 @@ Dynamics near a neck is governed by the unstable/stable [invariant manifolds](/e
 
 - Parker J. S., Anderson R. L. *Low-Energy Lunar Trajectory Design.* JPL, 2014, Ch. 2.
 
-- Lundberg J. S., Szebehely V., Whipple C. "Surfaces of zero velocity in the restricted problem of three bodies." *Celestial Mechanics*, 1985.
+- Lundberg J. S., Szebehely V., Whipple C. Surfaces of zero velocity in the restricted problem of three bodies. *Celestial Mechanics*, 1985.
 
 - Koon W. S., Lo M. W., Marsden J. E., Ross S. D. *Dynamical Systems, the Three-Body Problem and Space Mission Design.* 2nd ed., 2011.
 
-- Oshima K. "A hidden barrier surface complementary to the zero velocity surface in the circular restricted three-body problem." 2024.
+- Oshima K. A hidden barrier surface complementary to the zero velocity surface in the circular restricted three-body problem. 2024.

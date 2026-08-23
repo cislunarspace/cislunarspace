@@ -30,13 +30,13 @@ permalink: /en/glossary/orbits/vertical-orbit/
 
 ## Definition
 
-A vertical orbit is a family of periodic orbits near a collinear libration point dominated by out-of-plane (z-direction) oscillation. Under linearization, the center subspace of a collinear point decomposes into two normal oscillations, in-plane (ωp) and out-of-plane (ωv); the periodic solution that excites only the out-of-plane center mode is the vertical orbit (Belló 2010). The literature also calls it the **vertical Lyapunov orbit** — like the planar Lyapunov family, its existence is guaranteed by Lyapunov's center theorem, and the two are sibling families of the same rank (Parker & Anderson 2014, Alessi 2009).
+A vertical orbit is a family of periodic orbits near a collinear libration point dominated by out-of-plane (z-direction) oscillation. Under linearization, the center subspace of a collinear point decomposes into two normal oscillations, in-plane (ωp) and out-of-plane (ωv); the periodic solution that excites only the out-of-plane center mode is the vertical orbit (Belló 2010). The literature also calls it the **vertical Lyapunov orbit**: like the planar Lyapunov family, its existence is guaranteed by Lyapunov's center theorem, and the two are sibling families of the same rank (Parker & Anderson 2014, Alessi 2009).
 
-Parker & Anderson 2014 describe it as "piercing the plane at the Lagrange point itself": the orbit's out-of-plane oscillation crosses up and down through the libration point as its center.
+Parker & Anderson 2014 describe it as piercing the plane at the Lagrange point itself: the orbit's out-of-plane oscillation crosses up and down through the libration point as its center.
 
 ## Geometry and Symmetry
 
-A vertical orbit is **doubly symmetric**: symmetric about the xz-plane, and tracing the same path in the upper and lower half-planes (Parker & Anderson 2014, Grebow 2008). Its yz projection is a figure eight (Grebow 2008) — a nonlinear vertical orbit thus has appreciable in-plane motion, and the "xy projection collapses to a point" holds only in the linearized/Hill limit (Gómez 2001). As the family continues, large-amplitude vertical orbits can enclose both primaries and bend toward the lunar north and south poles (Grebow 2008).
+A vertical orbit is **doubly symmetric**: symmetric about the xz-plane, and tracing the same path in the upper and lower half-planes (Parker & Anderson 2014, Grebow 2008). Its yz projection is a figure eight (Grebow 2008); a nonlinear vertical orbit thus has appreciable in-plane motion, and the claim that the xy projection collapses to a point holds only in the linearized/Hill limit (Gómez 2001). As the family continues, large-amplitude vertical orbits can enclose both primaries and bend toward the lunar north and south poles (Grebow 2008).
 
 ## Relation to Other Families
 

@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/co-state-variables/
 
 ## Definition
 
-Costate variables (also adjoint, conjugate variables, or the Lagrange multipliers paired with the state) are dual variables introduced in an optimal-control problem to enforce the dynamics. They have no directly measurable physical counterpart; geometrically they are the sensitivity of the optimal cost-to-go to the state — $\lambda_i(t)=\partial J^*/\partial x_i(t)$ (Bryson & Ho 1975; Betts 2010). Pontryagin's Maximum Principle couples the costate to the state through a Hamiltonian canonical system, turning the problem into a TPBVP in $(\mathbf{x},\boldsymbol{\lambda})$.
+Costate variables (also adjoint, conjugate variables, or the Lagrange multipliers paired with the state) are dual variables introduced in an optimal-control problem to enforce the dynamics. They have no directly measurable physical counterpart; geometrically they are the sensitivity of the optimal cost-to-go to the state: $\lambda_i(t)=\partial J^*/\partial x_i(t)$ (Bryson & Ho 1975; Betts 2010). Pontryagin's Maximum Principle couples the costate to the state through a Hamiltonian canonical system, turning the problem into a TPBVP in $(\mathbf{x},\boldsymbol{\lambda})$.
 
 ## Hamiltonian form and adjoint equations
 
@@ -57,15 +57,15 @@ For **free-final-state** problems, $(\boldsymbol{\lambda}(t_0),\lambda_0)$ can b
 
 ## Adjoint-control transformation
 
-Initial costates have no physical meaning. The **adjoint-control transformation** (Kluever & Pierson 1995; Conway 2010, Ch.4) replaces $\boldsymbol{\lambda}(t_0)$ by intuitive variables — thrust angles $(\alpha,\beta)$, their rates $(\dot\alpha,\dot\beta)$, plus $\lambda_v$, $\dot{\lambda}_v$, $\lambda_m$. The **implicit costate transformation** (Pozzi et al. 2025) is the multi-arc analogue: a closed-form map carries the final costate of one arc into the initial costate of the next.
+Initial costates have no physical meaning. The **adjoint-control transformation** (Kluever & Pierson 1995; Conway 2010, Ch.4) replaces $\boldsymbol{\lambda}(t_0)$ by intuitive variables: thrust angles $(\alpha,\beta)$, their rates $(\dot\alpha,\dot\beta)$, plus $\lambda_v$, $\dot{\lambda}_v$, $\lambda_m$. The **implicit costate transformation** (Pozzi et al. 2025) is the multi-arc analogue: a closed-form map carries the final costate of one arc into the initial costate of the next.
 
 ## Initial-costate sensitivity
 
-Indirect methods suffer because $\boldsymbol{\lambda}(t_0)$ is numerically unstable — small perturbations diverge by $t_f$. The **optimal initial costate locus** describes $\boldsymbol{\lambda}(t_0)$ as a curve over problem parameters with distinct behaviour in parabolic, elliptic, and spiral regimes (Thorne 1996). In practice, [homotopy methods](/en/glossary/dynamics/homotopy-method/) sweep from an easily solved energy-optimal problem to the fuel-optimal target.
+Indirect methods suffer because $\boldsymbol{\lambda}(t_0)$ is numerically unstable, small perturbations diverge by $t_f$. The **optimal initial costate locus** describes $\boldsymbol{\lambda}(t_0)$ as a curve over problem parameters with distinct behaviour in parabolic, elliptic, and spiral regimes (Thorne 1996). In practice, [homotopy methods](/en/glossary/dynamics/homotopy-method/) sweep from an easily solved energy-optimal problem to the fuel-optimal target.
 
 ## Application notes
 
-- The bottleneck in indirect methods is the initial-costate guess and homotopy design — an order of magnitude harder than guessing states.
+- The bottleneck in indirect methods is the initial-costate guess and homotopy design, an order of magnitude harder than guessing states.
 - $\lambda_m$ spans many decades in large-scale transfers; log-scaling or independent normalization avoids ill-conditioning.
 - In CR3BP-LT, $H_{lt}=H_{nat}-\boldsymbol{\lambda}^{\!\top}\mathbf{a}_{lt}$ becomes a new integral when $\mathbf{a}_{lt}$ is fixed in the rotating frame (Cox et al. 2021).
 

@@ -39,27 +39,27 @@ $$
 
 Because $E + C/2$ equals (up to a constant) the angular momentum $H$ (Wang et al. 2025, Eq. 10), $C$ and $H$ vary together with $E$. We therefore label:
 
-- **Forward lunar gravity assist** — flight through quadrants II and IV, where solar perturbation *raises* $E$, $C$, and $H$ and lifts the perigee;
+- **Forward lunar gravity assist**: flight through quadrants II and IV, where solar perturbation *raises* $E$, $C$, and $H$ and lifts the perigee;
 
-- **Backward lunar gravity assist** — flight through quadrants I and III, where solar perturbation *lowers* $E$, $C$, and $H$ and drops the perigee.
+- **Backward lunar gravity assist**: flight through quadrants I and III, where solar perturbation *lowers* $E$, $C$, and $H$ and drops the perigee.
 
-"Forward" and "backward" here refer to the *direction of the energy trend under solar perturbation*, not to the spacecraft's sense of motion around the Moon (see the separate [prograde/retrograde](/en/glossary/dynamics/lunar-flyby/) classification). "Assist" is used in the sense of an *energy-trend label* rather than a literal flyby event.
+Forward and backward here refer to the *direction of the energy trend under solar perturbation*, not to the spacecraft's sense of motion around the Moon (see the separate [prograde/retrograde](/en/glossary/dynamics/lunar-flyby/) classification). Assist is used in the sense of an *energy-trend label* rather than a literal flyby event.
 
 ## Why the Sun, not the Moon, is the driver
 
-Inside the Earth-Moon sphere of influence the spacecraft's Keplerian energy with respect to either the Earth or the Moon is conserved to two-body accuracy; gravity-assist energy exchange happens *at the encounter*. Solar gravity is different: it acts continuously, and in the BCR4BP it is the term that makes $E$ and $C$ non-constant. The Moon's role is to *route* the spacecraft through a chosen quadrant sequence — a lunar encounter can flip the spacecraft from a backward quadrant into a forward quadrant, switching the sign of $dE/dt$ and thus the energy trend. Low-energy transfer design exploits precisely this routing.
+Inside the Earth-Moon sphere of influence the spacecraft's Keplerian energy with respect to either the Earth or the Moon is conserved to two-body accuracy; gravity-assist energy exchange happens *at the encounter*. Solar gravity is different: it acts continuously, and in the BCR4BP it is the term that makes $E$ and $C$ non-constant. The Moon's role is to *route* the spacecraft through a chosen quadrant sequence: a lunar encounter can flip the spacecraft from a backward quadrant into a forward quadrant, switching the sign of $dE/dt$ and thus the energy trend. Low-energy transfer design exploits precisely this routing.
 
 ## Application notes
 
-- **Low-energy DRO insertion.** For 2:1 DRO insertion via WSB, Wang et al. (2025) identify the *low-energy transfer gateway (LEGT)* — the energy-and-geometry region a WSB return trajectory must satisfy if it is to admit a low-impulse DRO insertion. About 73.6% of candidate trajectories that pass the LEGT filter are feasible, versus under 1% for a naive grid search, which is the practical payoff of quadrant-aware forward/backward analysis.
+- **Low-energy DRO insertion.** For 2:1 DRO insertion via WSB, Wang et al. (2025) identify the *low-energy transfer gateway (LEGT)*, the energy-and-geometry region a WSB return trajectory must satisfy if it is to admit a low-impulse DRO insertion. About 73.6% of candidate trajectories that pass the LEGT filter are feasible, versus under 1% for a naive grid search, which is the practical payoff of quadrant-aware forward/backward analysis.
 
-- **Phase partitioning.** The transfer is split into three phases — Earth-Moon transfer (where LGA *reduces* departure energy), Sun-Earth WSB transfer (where forward quadrants do the work), and DRO low-energy capture — each with its own dominant dynamics and its own energy-trend expectation.
+- **Phase partitioning.** The transfer is split into three phases (Earth-Moon transfer where LGA *reduces* departure energy, Sun-Earth WSB transfer where forward quadrants do the work, and DRO low-energy capture), each with its own dominant dynamics and its own energy-trend expectation.
 
 - **Handoff.** At the WSB-to-DRO handoff the spacecraft must arrive with $E$ in roughly $[-1/3, -1/5]$ (the energy range of the WSB region) and with a compatible angular-momentum sign. A trajectory that returns through backward quadrants is unsuitable for low-energy DRO insertion and can be filtered out before expensive numerical optimization.
 
 ## Common confusions
 
-- "Forward/backward LGA" is sometimes read as "fore/aft of the Moon" or "prograde/retrograde flyby" — both wrong. The axis is the *sign of the solar-perturbation energy trend in the mechanical-energy coordinate system*, which is set by *which synodic quadrant the spacecraft is in*, not by the geometry of the lunar encounter itself.
+- Forward/backward LGA is sometimes read as fore/aft of the Moon or prograde/retrograde flyby: both wrong. The axis is the *sign of the solar-perturbation energy trend in the mechanical-energy coordinate system*, which is set by *which synodic quadrant the spacecraft is in*, not by the geometry of the lunar encounter itself.
 
 - The energy $E$ here is *not* the Keplerian two-body energy about the Earth or the Moon; it is the Earth-Moon synodic-frame energy defined by Wang et al. (2025, Eq. 6), which in two-body limits reduces to the usual Keplerian form but in the BCR4BP carries the integrated effect of solar gravity.
 

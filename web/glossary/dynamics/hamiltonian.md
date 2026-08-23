@@ -42,7 +42,7 @@ $$H(\mathbf{q},\mathbf{p},t)=\mathbf{p}^{\!\top}\dot{\mathbf{q}}-L(\mathbf{q},\d
 
 ## Hamilton 矩阵与辛结构
 
-哈密顿系统在相空间 $\mathbf{z}=(\mathbf{q},\mathbf{p})$ 上的线性化 $\dot{\mathbf{z}}=A\mathbf{z}$，其系数矩阵 $A(t)$ 满足 $A^{\!\top}J+JA=0$，$J=\begin{pmatrix}0&I\\-I&0\end{pmatrix}$，称为 **Hamilton 矩阵**；其谱关于 $\lambda\mapsto -\lambda$ 对称（Meyer & Offin 2017, Prop. 2.3.1）。Hamilton 矩阵的指数是**辛矩阵** $M$，满足 $M^{\!\top}JM=J$，特征值以倒数对 $\lambda,1/\lambda$ 出现。任何 Hamilton 流的状态转移矩阵都是辛矩阵——这是共线平动点处 saddle×center×center 结构的代数根源（详见 [辛结构与哈密顿正规形](/glossary/dynamics/hamiltonian-normal-form/)）。
+哈密顿系统在相空间 $\mathbf{z}=(\mathbf{q},\mathbf{p})$ 上的线性化 $\dot{\mathbf{z}}=A\mathbf{z}$，其系数矩阵 $A(t)$ 满足 $A^{\!\top}J+JA=0$，$J=\begin{pmatrix}0&I\\-I&0\end{pmatrix}$，称为 **Hamilton 矩阵**；其谱关于 $\lambda\mapsto -\lambda$ 对称（Meyer & Offin 2017, Prop. 2.3.1）。Hamilton 矩阵的指数是**辛矩阵** $M$，满足 $M^{\!\top}JM=J$，特征值以倒数对 $\lambda,1/\lambda$ 出现。任何 Hamilton 流的状态转移矩阵都是辛矩阵，这是共线平动点处 saddle×center×center 结构的代数根源（详见 [辛结构与哈密顿正规形](/glossary/dynamics/hamiltonian-normal-form/)）。
 
 ## CR3BP Hamilton 量与雅可比常数
 
@@ -56,7 +56,7 @@ Cox et al.（2021）将 $H$ 拆分为**自然 Hamilton 量**
 
 $$H_{nat}=\tfrac12 v^2-\tfrac12(x^2+y^2)-\frac{1-\mu}{r_1}-\frac{\mu}{r_2}$$
 
-（无摄 CR3BP 中守恒）与**低推力 Hamilton 量** $H_{lt}=H_{nat}-\mathbf{r}^{\!\top}\mathbf{a}_{lt}$——当低推力加速度 $\mathbf{a}_{lt}$ 在旋转系下固定时，$H_{lt}$ 成为新的守恒量。**相对 Hamilton 量**描述追踪航天器在双主天体引力下相对目标的运动。
+（无摄 CR3BP 中守恒）与**低推力 Hamilton 量** $H_{lt}=H_{nat}-\mathbf{r}^{\!\top}\mathbf{a}_{lt}$，当低推力加速度 $\mathbf{a}_{lt}$ 在旋转系下固定时，$H_{lt}$ 成为新的守恒量。**相对 Hamilton 量**描述追踪航天器在双主天体引力下相对目标的运动。
 
 ## 近可积 Hamilton 系统
 
@@ -64,7 +64,7 @@ $$H_{nat}=\tfrac12 v^2-\tfrac12(x^2+y^2)-\frac{1-\mu}{r_1}-\frac{\mu}{r_2}$$
 
 ## Hamilton 约化
 
-$H$ 具有对称性时，Noether 定理给出守恒量（线动量、角动量、Jacobi 积分）。**Hamilton 约化**通过对称群对相空间取商以降低有效自由度——Meyer–Marsden–Weinstein 约化是标准框架（Meyer & Offin 2017, Ch.7）。固定 Jacobi 常数的平面 CR3BP 可约化为 Hill 区域上的二维 Hamilton 流。
+$H$ 具有对称性时，Noether 定理给出守恒量（线动量、角动量、Jacobi 积分）。**Hamilton 约化**通过对称群对相空间取商以降低有效自由度，Meyer–Marsden–Weinstein 约化是标准框架（Meyer & Offin 2017, Ch.7）。固定 Jacobi 常数的平面 CR3BP 可约化为 Hill 区域上的二维 Hamilton 流。
 
 ## 最优控制中的 Hamilton 函数
 
@@ -78,7 +78,7 @@ $$H(\mathbf{x},\boldsymbol{\lambda},\mathbf{u},t)=L(\mathbf{x},\mathbf{u},t)+\bo
 
 - 自治问题中 $H$ 守恒是数值积分精度廉价而严格的检验。
 - CR3BP-LT 在旋转系固定推力下继承守恒 $H_{lt}$，可像 Jacobi 常数一样用于能量门控的轨迹设计。
-- 单值矩阵的辛谱——读自 $H$ 的二阶变分——决定平动点轨道的稳定/不稳定/中心流形。
+- 单值矩阵的辛谱（读自 $H$ 的二阶变分）决定平动点轨道的稳定/不稳定/中心流形。
 
 ## 相关概念
 

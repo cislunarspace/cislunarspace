@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/tangential-thrust-control/
 
 ## Definition
 
-Thrust direction and control concerns the description and optimal selection of thrust-vector direction for low-thrust engines. Unlike chemical propulsion's impulsive, instantaneous orbit changes, a continuous-thrust system must decide at every instant which direction to point the thrust—this direction not only affects the instantaneous rate of orbital change but determines the fuel efficiency of the entire integrated trajectory.
+Thrust direction and control concerns the description and optimal selection of thrust-vector direction for low-thrust engines. Unlike chemical propulsion's impulsive, instantaneous orbit changes, a continuous-thrust system must decide at every instant which direction to point the thrust: this direction not only affects the instantaneous rate of orbital change but determines the fuel efficiency of the entire integrated trajectory.
 
 In the most general setting, the thrust direction is determined by optimal control theory: according to Pontryagin's Minimum Principle, the optimal thrust direction should align with Lawden's primer vector (the negative of the velocity costate). However, in analytical studies, initial-guess generation, and engineering simplifications, specific simplified thrust-direction assumptions are commonly adopted.
 
@@ -48,7 +48,7 @@ $$
 \frac{da}{dt} = \frac{2 a^2 e \sin f}{h} a_r + \frac{2 a^2 (1+e\cos f)}{h} a_t
 $$
 
-where $a_t$ is the transverse (velocity-aligned) thrust component and $a_r$ is the radial component. For near-circular orbits ($e \approx 0$), the semi-major axis rate is dominated by $a_t$—the radial contribution term $2a^2 e\sin f / h$ is nearly zero. Conclusion: **tangential thrust is the most efficient direction for changing the semi-major axis (i.e., orbital energy) in the short term** (Du et al. 2024).
+where $a_t$ is the transverse (velocity-aligned) thrust component and $a_r$ is the radial component. For near-circular orbits ($e \approx 0$), the semi-major axis rate is dominated by $a_t$, the radial contribution term $2a^2 e\sin f / h$ is nearly zero. Conclusion: **tangential thrust is the most efficient direction for changing the semi-major axis (i.e., orbital energy) in the short term** (Du et al. 2024).
 
 This simplifying assumption is widely used in practice:
 
@@ -72,7 +72,7 @@ Two angles mark the thrust vector in a given reference frame:
 
 - **Thrust steering angle**: $u$ is the angle of the thrust vector relative to the local horizontal plane in the local meridional-radial plane; $v$ is the angle of the thrust vector relative to the local vertical plane (Kluever and Pierson 1997).
 
-Angular parameterization is intuitive and uses few variables (two time-varying parameters per arc). The drawback is directional singularity—when thrust approaches the zenith/nadir direction ($\theta_2 \to \pm 90^\circ$), $\theta_1$ loses definition and numerical-optimization gradients become singular.
+Angular parameterization is intuitive and uses few variables (two time-varying parameters per arc). The drawback is directional singularity: when thrust approaches the zenith/nadir direction ($\theta_2 \to \pm 90^\circ$), $\theta_1$ loses definition and numerical-optimization gradients become singular.
 
 ### 2. Direction-Cosine Parameterization
 
@@ -84,7 +84,7 @@ $$
 
 where $r, t, h$ correspond respectively to the radial, transverse (along velocity), and orbit-normal directions (Kluever 1997).
 
-Advantages of direction-cosine parameterization: (1) no singularities—any direction is uniformly represented, (2) smooth gradients, well-suited to nonlinear programming solvers. The cost is one extra variable (3 instead of 2) and the need for an additional equality constraint to enforce unit normalization.
+Advantages of direction-cosine parameterization: (1) no singularities, any direction is uniformly represented, (2) smooth gradients, well-suited to nonlinear programming solvers. The cost is one extra variable (3 instead of 2) and the need for an additional equality constraint to enforce unit normalization.
 
 ### 3. Costate-Driven Parameterization
 
@@ -113,25 +113,25 @@ Comparison with impulsive station-keeping:
 
 Key engineering constraints: (1) **Thrust bounds**: the engine has a minimum stable thrust $F_{\min}$ and a maximum thrust $F_{\max}$; optimal solutions may land in regions where the required thrust falls below $F_{\min}$, requiring either thicker thrust (making control coarser) or introducing bang-bang modulation; (2) **Thrust-direction rotation rate**: the attitude control system limits how fast the thrust-vector direction can rotate.
 
-For the 9:2 NRHO, because the velocity changes dramatically near periapsis, the thrust magnitude required for station-keeping is far larger than for a Halo orbit at a comparable Earth-Moon distance—making thrust bounds a particularly salient special case (Zhang and Wang 2022).
+For the 9:2 NRHO, because the velocity changes dramatically near periapsis, the thrust magnitude required for station-keeping is far larger than for a Halo orbit at a comparable Earth-Moon distance, making thrust bounds a particularly salient special case (Zhang and Wang 2022).
 
 ## Impulse Direction Angle
 
-In the specific case of impulsive thrust, the thrust direction simplifies to the direction of a single application. The **impulse direction angle** is the angle between the impulse thrust direction and the perpendicular to the radial direction. Lawden's (1963) optimal transfer theory indicates that the optimal transfer requires applying the impulse perpendicular to the radial direction at an apsis (i.e., direction angle zero), to maximize the contribution of thrust to velocity—this is physically consistent with the tangential assumption for continuous thrust.
+In the specific case of impulsive thrust, the thrust direction simplifies to the direction of a single application. The **impulse direction angle** is the angle between the impulse thrust direction and the perpendicular to the radial direction. Lawden's (1963) optimal transfer theory indicates that the optimal transfer requires applying the impulse perpendicular to the radial direction at an apsis (i.e., direction angle zero), to maximize the contribution of thrust to velocity, this is physically consistent with the tangential assumption for continuous thrust.
 
 ## Related Concepts
 
-- [Bang-bang Control and Lawden's Arc Law](/en/glossary/dynamics/bang-bang-control/) — Optimal switching logic for thrust magnitude; discretization mode that may appear in station-keeping
+- [Bang-bang Control and Lawden's Arc Law](/en/glossary/dynamics/bang-bang-control/): Optimal switching logic for thrust magnitude; discretization mode that may appear in station-keeping
 
-- [Electric Propulsion (EP)](/en/glossary/fundamentals/ep/) — The physical foundation of continuous-thrust systems
+- [Electric Propulsion (EP)](/en/glossary/fundamentals/ep/): The physical foundation of continuous-thrust systems
 
-- [Impulsive Maneuvers and Rendezvous (Two-Impulse Rendezvous)](/en/glossary/dynamics/two-impulse-rendezvous/) — Thrust-direction application strategies under the impulsive model
+- [Impulsive Maneuvers and Rendezvous (Two-Impulse Rendezvous)](/en/glossary/dynamics/two-impulse-rendezvous/): Thrust-direction application strategies under the impulsive model
 
-- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/) — The mathematical foundation for optimal thrust direction
+- [Pontryagin's Minimum Principle](/en/glossary/dynamics/pontryagins-maximum-principle/): The mathematical foundation for optimal thrust direction
 
-- [Co-state Variables](/en/glossary/dynamics/co-state-variables/) — The physical quantity that determines optimal thrust direction
+- [Co-state Variables](/en/glossary/dynamics/co-state-variables/): The physical quantity that determines optimal thrust direction
 
-- [Primer Vector](/en/glossary/dynamics/primer-vector/) — Lawden's tool for optimal thrust-direction determination
+- [Primer Vector](/en/glossary/dynamics/primer-vector/): Lawden's tool for optimal thrust-direction determination
 
 ## References
 

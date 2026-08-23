@@ -20,9 +20,9 @@ wechatShare:
 
 ## Definition
 
-DRO (Distant Retrograde Orbit) is a special class of periodic orbit in the Circular Restricted Three-Body Problem (CR3BP). In the Earth-Moon rotating frame, DROs exhibit retrograde characteristics — meaning the spacecraft's orbital motion is opposite to the rotation direction of the Earth-Moon line ($\dot{\theta} < 0$). However, the orbital radius of a DRO is much larger than the distance of the L1/L2 Lagrange points, maintaining a significant dynamical distance within the Earth-Moon system.
+DRO (Distant Retrograde Orbit) is a special class of periodic orbit in the Circular Restricted Three-Body Problem (CR3BP). In the Earth-Moon rotating frame, DROs exhibit retrograde characteristics, meaning the spacecraft's orbital motion is opposite to the rotation direction of the Earth-Moon line ($\dot{\theta} < 0$). However, the orbital radius of a DRO is much larger than the distance of the L1/L2 Lagrange points, maintaining a significant dynamical distance within the Earth-Moon system.
 
-The "Distant" in DRO refers to the fact that its orbital radius typically lies in the range of 0.5 to 2 times the Earth-Moon distance, substantially larger than the Near-Rectilinear Halo Orbit (NRHO) which is tightly bound to the L1/L2 regions.
+The Distant in DRO refers to the fact that its orbital radius typically lies in the range of 0.5 to 2 times the Earth-Moon distance, substantially larger than the Near-Rectilinear Halo Orbit (NRHO) which is tightly bound to the L1/L2 regions.
 
 ## Dynamical Background
 

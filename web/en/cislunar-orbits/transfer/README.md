@@ -28,11 +28,11 @@ Uses one or a few high-thrust maneuvers to complete the transfer, typically a Ho
 
 ### Low-Energy Transfer
 
-Exploits the dynamical characteristics of the Earth-Moon system — such as the Weak Stability Boundary (WSB) and stable manifolds of halo orbits — to achieve transfer at a lower energy cost. The trade-off is a significantly longer transfer time, ranging from several weeks to months. The Weak Stability Boundary transfer is a representative example.
+Exploits the dynamical characteristics of the Earth-Moon system (such as the Weak Stability Boundary (WSB) and stable manifolds of halo orbits) to achieve transfer at a lower energy cost. The trade-off is a significantly longer transfer time, ranging from several weeks to months. The Weak Stability Boundary transfer is a representative example.
 
 ### Ballistic Capture Transfer
 
-Uses lunar gravity assist so that the spacecraft is "captured" by the Moon's gravity upon approach without requiring propulsion. A small maneuver is then performed to enter the target orbit. This method can substantially save propellant but demands precise launch timing.
+Uses lunar gravity assist so that the spacecraft is captured by the Moon's gravity upon approach without requiring propulsion. A small maneuver is then performed to enter the target orbit. This method can substantially save propellant but demands precise launch timing.
 
 ## Energy Budget
 

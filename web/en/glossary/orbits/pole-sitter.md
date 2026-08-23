@@ -30,7 +30,7 @@ permalink: /en/glossary/orbits/pole-sitter/
 
 ## Definition
 
-A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. The pole-sitter concept comes from the displaced-orbit literature and requires continuous thrust (or solar sailing) to maintain — cited here only as background. Grebow 2008 instead achieves equivalent persistent polar visibility with natural libration-point-orbit motion using two-satellite combinations.
+A satellite concept that continuously hovers above a planetary or lunar pole, maintaining persistent observation. The pole-sitter concept comes from the displaced-orbit literature and requires continuous thrust (or solar sailing) to maintain, cited here only as background. Grebow 2008 instead achieves equivalent persistent polar visibility with natural libration-point-orbit motion using two-satellite combinations.
 
 ## Related Concepts
 

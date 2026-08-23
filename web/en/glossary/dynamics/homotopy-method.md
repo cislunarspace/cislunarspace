@@ -36,9 +36,9 @@ $$\mathbf{H}(\mathbf{y},0)=\mathbf{G}(\mathbf{y})\ \text{(easy "initial problem"
 
 then tracking the zero curve of $\mathbf{H}(\mathbf{y},\kappa)=\mathbf{0}$ from the known solution at $\kappa=0$ to $\kappa=1$, where a solution of $\mathbf{F}(\mathbf{y})=\mathbf{0}$ is obtained (Watson 1986; Allgower & Georg 1990).
 
-**Relation to [Numerical Continuation](/en/glossary/dynamics/continuation/)**: homotopy is a sub-class of continuation — the "parameter $\lambda$" is specialised to the homotopy parameter $\kappa$, and the "parameterised equation" is specialised to an artificially constructed homotopy. The two share the same path-following machinery (predictor-corrector, pseudo-arclength), but their starting points differ: continuation pushes forward from a single known solution to the family it belongs to; homotopy constructs a family of equations starting from a deliberately chosen easy problem in order to attack a hard problem with no usable initial guess.
+**Relation to [Numerical Continuation](/en/glossary/dynamics/continuation/)**: homotopy is a sub-class of continuation: the parameter $\lambda$ is specialised to the homotopy parameter $\kappa$, and the parameterised equation is specialised to an artificially constructed homotopy. The two share the same path-following machinery (predictor-corrector, pseudo-arclength), but their starting points differ: continuation pushes forward from a single known solution to the family it belongs to; homotopy constructs a family of equations starting from a deliberately chosen easy problem in order to attack a hard problem with no usable initial guess.
 
-In orbital mechanics the "hard problem" is typically the two-point boundary-value problem (TPBVP) arising from [indirect methods](/en/glossary/dynamics/indirect-methods/) — costate initial values have tiny convergence basins and the fuel-optimal control is bang-bang / discontinuous, so direct shooting is essentially hopeless. By morphing a smooth, well-converged "sister problem" (e.g. the energy-optimal problem) into the target problem step by step, the homotopy method replaces one large jump with hundreds of small ones — the bridge that turns indirect methods from "theoretically optimal" into "engineering-solvable" (Bertrand & Epenoy 2002; Haberkorn et al. 2004; Taheri et al. 2016).
+In orbital mechanics the hard problem is typically the two-point boundary-value problem (TPBVP) arising from [indirect methods](/en/glossary/dynamics/indirect-methods/); costate initial values have tiny convergence basins and the fuel-optimal control is bang-bang / discontinuous, so direct shooting is essentially hopeless. By morphing a smooth, well-converged sister problem (e.g. the energy-optimal problem) into the target problem step by step, the homotopy method replaces one large jump with hundreds of small ones; the bridge that turns indirect methods from theoretically optimal into engineering-solvable (Bertrand & Epenoy 2002; Haberkorn et al. 2004; Taheri et al. 2016).
 
 ## Construction of the Homotopy Function
 
@@ -57,7 +57,7 @@ with initial problem $\mathbf{G}$ at $\kappa=0$ and target $\mathbf{F}$ at $\kap
 | **Scale-invariant affine homotopy** | affine combination, insensitive to scaling of $\mathbf{y}$ | — | more robust when variable magnitudes differ widely |
 | **Cost-function homotopy** | convex combination of performance indices | energy-optimal solution | the mainstream choice for low-thrust fuel-optimal problems (see below) |
 
-Newton and fixed-point homotopies are used when "a rough guess is already in hand and the accurate solution is wanted"; cost-function and thrust homotopies (below) are used when "one wants to jump from a physically easy solution to a physically hard one", and are the two most important families in trajectory optimisation.
+Newton and fixed-point homotopies are used when a rough guess is already in hand and the accurate solution is wanted; cost-function and thrust homotopies (below) are used when one wants to jump from a physically easy solution to a physically hard one, and are the two most important families in trajectory optimisation.
 
 ### Energy-optimal → fuel-optimal (cost-function homotopy)
 
@@ -87,7 +87,7 @@ The form of the perturbation $F$ determines the smoothness of the homotopy path 
 
 - **Extended logarithmic smoothing** (Taheri et al. 2016): recasts the logarithmic smoothing in terms of the switching function and couples it with the state-transition-matrix method for accurate Jacobians, allowing $\varepsilon$ to jump in large steps (e.g. 1 → 0.01 → $10^{-5}$) in only 3 subproblems instead of 6.
 
-- **Sigmoid smoothing** (Zhang et al. 2025): approximate $\mathrm{sign}(S)$ (where $S$ is the switching function) by parametric sigmoids — $\tanh$, algebraic, or error-function erf. On an L1-halo → L2-halo transfer benchmark, erf converges twice as fast as $\tanh$ or algebraic alternatives and yields an order-of-magnitude smaller terminal error.
+- **Sigmoid smoothing** (Zhang et al. 2025): approximate $\mathrm{sign}(S)$ (where $S$ is the switching function) by parametric sigmoids: $\tanh$, algebraic, or error-function erf. On an L1-halo → L2-halo transfer benchmark, erf converges twice as fast as $\tanh$ or algebraic alternatives and yields an order-of-magnitude smaller terminal error.
 
 An empirical rule: at $\varepsilon\sim 10^{-5}$ the thrust profile is visually indistinguishable from a true bang-bang solution (Taheri et al. 2016; Zhang et al. 2025).
 
@@ -97,11 +97,11 @@ Another family uses the thrust upper bound $T_{\max}$ as the homotopy parameter:
 
 $$T(\kappa)=T_{\max}+\kappa\,(T_L-T_{\max}),\qquad \kappa\in[0,1],$$
 
-with $\kappa=0$ at the target low thrust (hard) and $\kappa=1$ at high thrust (easy). The same idea underlies the "target-point pull-back" approach to perturbed Lambert problems — the target point is gradually pulled from the two-body Lambert solution to the true multi-body position, the offset adjusted proportionally at each iteration (homotopy iteration method).
+with $\kappa=0$ at the target low thrust (hard) and $\kappa=1$ at high thrust (easy). The same idea underlies the target-point pull-back approach to perturbed Lambert problems: the target point is gradually pulled from the two-body Lambert solution to the true multi-body position, the offset adjusted proportionally at each iteration (homotopy iteration method).
 
 ### LP → $T_{\min}$ → CEV continuation chain
 
-Electric-propulsion missions often employ a three-stage homotopy chain that avoids specifying any "user guess" (Petukhov & Yoon 2023; Yoon & Petukhov 2023):
+Electric-propulsion missions often employ a three-stage homotopy chain that avoids specifying any user guess (Petukhov & Yoon 2023; Yoon & Petukhov 2023):
 
 1. **Limited-power problem (LP)**: assumes constant power and arbitrarily small thrust (no switching); solvable with a zero initial guess.
 2. **Minimum-thrust problem ($T_{\min}$)**: continued from the LP solution to find the minimum thrust feasible at a given angular distance; used to verify existence of solutions to the CEV problem.
@@ -123,13 +123,13 @@ Partition $[0,1]$ into nodes $0=\kappa_1<\kappa_2<\cdots<\kappa_m=1$ and solve e
 
 ### Continuous homotopy
 
-Track the zero curve using pseudo-arclength steps $\Delta s$ (i.e. the pseudo-arclength method of [numerical continuation](/en/glossary/dynamics/continuation/)): at the current node $(\kappa_i,\mathbf{y}_i)$ compute the Jacobian, predict along the tangent, and correct back by Newton iteration. Because stepping is directed by the curve tangent, **$\kappa$ may increase or decrease** during tracking, so turning points can be negotiated. Thrust-amplitude homotopy curves routinely develop turning points near $\kappa\approx 0.85$ and spawn multiple local optima — discrete homotopy cannot handle them, and continuous homotopy is mandatory (Pan & Pan 2019).
+Track the zero curve using pseudo-arclength steps $\Delta s$ (i.e. the pseudo-arclength method of [numerical continuation](/en/glossary/dynamics/continuation/)): at the current node $(\kappa_i,\mathbf{y}_i)$ compute the Jacobian, predict along the tangent, and correct back by Newton iteration. Because stepping is directed by the curve tangent, **$\kappa$ may increase or decrease** during tracking, so turning points can be negotiated. Thrust-amplitude homotopy curves routinely develop turning points near $\kappa\approx 0.85$ and spawn multiple local optima; discrete homotopy cannot handle them, and continuous homotopy is mandatory (Pan & Pan 2019).
 
 Predictor-corrector is the standard implementation of continuous homotopy: a tangent-Euler step predicts, then Newton iteration corrects back to the zero path.
 
 ## Role in Low-Thrust Trajectory Optimisation
 
-When an indirect method is applied to a low-thrust optimal control problem, the shooting function of the state-costate TPBVP is so sensitive to the costate initial values that the convergence radius is practically unusable — especially when thrust is low (many revolutions, many switches) or the control is bang-bang (Haberkorn et al. 2004; Taheri et al. 2016). The homotopy method overcomes this in two layers:
+When an indirect method is applied to a low-thrust optimal control problem, the shooting function of the state-costate TPBVP is so sensitive to the costate initial values that the convergence radius is practically unusable, especially when thrust is low (many revolutions, many switches) or the control is bang-bang (Haberkorn et al. 2004; Taheri et al. 2016). The homotopy method overcomes this in two layers:
 
 1. **Enlarging the convergence basin**: each subproblem differs from the previous one by $\Delta\kappa$, so the previous solution lies naturally inside the Newton basin of the current one; stepped progress effectively magnifies the convergence radius by orders of magnitude.
 2. **Handling discontinuous control**: the cost-function homotopy makes the control continuously differentiable for $\varepsilon>0$, so the state-transition-matrix method works for Jacobian evaluation; once $\varepsilon$ is small enough that the control has converged to near-bang-bang, switching times are refined by discrete-event detection.
@@ -138,16 +138,16 @@ Empirically, Haberkorn et al. (2004) used cost-function homotopy + single shooti
 
 ## Distinction from Numerical Continuation
 
-The terms "continuation", "homotopy", and "homotopy continuation" are often used interchangeably in the literature, but their engineering meaning differs:
+The terms continuation, homotopy, and homotopy continuation are often used interchangeably in the literature, but their engineering meaning differs:
 
 | Aspect | Numerical continuation | Homotopy method |
 | :--- | :--- | :--- |
-| Starting point | a known solution within a family | the solution of an artificially constructed "easy problem" |
+| Starting point | a known solution within a family | the solution of an artificially constructed easy problem |
 | Parameter | physical ($C$, amplitude, model fidelity) | artificially embedded $\kappa$ / $\varepsilon$ |
 | Goal | sweep out the branch for that parameter | morph the easy problem's solution into the target problem's |
 | Typical use | periodic orbit family scan, model transition | fuel-optimal bang-bang control, low-thrust convergence |
 
-The two share path-following algorithms (natural-parameter, pseudo-arclength, predictor-corrector), but **purpose and construction** differ: continuation is descriptive ("what does this curve look like"), while homotopy is a tool for solving ("I construct a curve so as to reach the target solution").
+The two share path-following algorithms (natural-parameter, pseudo-arclength, predictor-corrector), but **purpose and construction** differ: continuation is descriptive, asking what this curve looks like, while homotopy is a tool for solving, constructing a curve so as to reach the target solution.
 
 ## Related Concepts
 
@@ -171,7 +171,7 @@ The two share path-following algorithms (natural-parameter, pseudo-arclength, pr
 
 - Watson L T. 1986. Numerical linear algebra aspects of globally convergent homotopy methods. *SIAM Rev.* 28(4): 575–606. (Numerical linear algebra of homotopy path following.)
 
-- Bertrand R, Epenoy R. 2002. New smoothing techniques for solving bang–bang optimal control problems — numerical results and statistical interpretation. *Optim. Control Appl. Methods* 23(4): 171–197. (Seminal paper on $\varepsilon$-regularised cost.)
+- Bertrand R, Epenoy R. 2002. New smoothing techniques for solving bang–bang optimal control problems: numerical results and statistical interpretation. *Optim. Control Appl. Methods* 23(4): 171–197. (Seminal paper on $\varepsilon$-regularised cost.)
 
 - Haberkorn T, Martinon P, Gergaud J. 2004. Low thrust minimum-fuel orbital transfer: a homotopic approach. *JGCD* 27(6): 1046–1060. (Energy→fuel homotopy + single shooting for LEO–GEO 0.1 N transfers; comparison of PL / PC tracking algorithms.)
 

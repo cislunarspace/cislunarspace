@@ -30,7 +30,7 @@ permalink: /en/glossary/dynamics/orbital-coordinate-frames/
 
 ## Definition
 
-A local orbital frame is a rectangular frame whose origin is on the spacecraft and that moves with its orbit, used to decompose relative motion, thrust directions and measurement errors into intuitive radial/transverse/normal components. The names RSW, RTN, LVLH, Hill and Euler-Hill denote the same family, but axis conventions differ between sources — always check the convention before reading equations (Vallado 2022).
+A local orbital frame is a rectangular frame whose origin is on the spacecraft and that moves with its orbit, used to decompose relative motion, thrust directions and measurement errors into intuitive radial/transverse/normal components. The names RSW, RTN, LVLH, Hill and Euler-Hill denote the same family, but axis conventions differ between sources, so always check the convention before reading equations (Vallado 2022).
 
 ## RSW (RTN / LVLH)
 
@@ -38,11 +38,11 @@ The RSW (radial-transverse-normal) frame has three axes (Vallado 2022):
 
 - **R axis**: along the position vector from the central body to the spacecraft (radial);
 
-- **S axis**: in the orbit plane, perpendicular to R, pointing along the motion (transverse) — S coincides with the velocity vector only on circular orbits (or at the apses of elliptical orbits);
+- **S axis**: in the orbit plane, perpendicular to R, pointing along the motion (transverse): S coincides with the velocity vector only on circular orbits (or at the apses of elliptical orbits);
 
 - **W axis**: along the orbital angular momentum vector (normal).
 
-RSW is also called the Gaussian frame, aliased RTN (radial, transverse, normal) or LVLH (local vertical, local horizontal). Spherical control variables are commonly mapped to Cartesian thrust components in RSW: basis vectors are computed from the spacecraft position and velocity relative to the central body; when position and velocity are collinear, R and S degenerate (radial and transverse become indistinguishable) and one must switch to Cartesian control variables (Aziz et al. 2019). Note that LVLH axis definitions are not standardized across organizations — some place the primary axis perpendicular to the position vector, so read each paper's own definition (Vallado 2022).
+RSW is also called the Gaussian frame, aliased RTN (radial, transverse, normal) or LVLH (local vertical, local horizontal). Spherical control variables are commonly mapped to Cartesian thrust components in RSW: basis vectors are computed from the spacecraft position and velocity relative to the central body; when position and velocity are collinear, R and S degenerate (radial and transverse become indistinguishable) and one must switch to Cartesian control variables (Aziz et al. 2019). Note that LVLH axis definitions are not standardized across organizations: some place the primary axis perpendicular to the position vector, so read each paper's own definition (Vallado 2022).
 
 ## NTW and PQW
 
@@ -54,11 +54,11 @@ RSW is also called the Gaussian frame, aliased RTN (radial, transverse, normal) 
 
 ## The Hill / Euler-Hill Frame and the CW Equations
 
-The Hill frame (Euler-Hill frame) is a local frame centered on a reference spacecraft: x along the radial direction (positive away from the central body), y along-track, z perpendicular to the orbit plane. When the separation is much smaller than the orbital radius and the reference orbit is nearly circular, the relative motion is linearized by the Clohessy-Wiltshire (CW) equations — Hill's equations (Clohessy and Wiltshire 1960; Hill 1878):
+The Hill frame (Euler-Hill frame) is a local frame centered on a reference spacecraft: x along the radial direction (positive away from the central body), y along-track, z perpendicular to the orbit plane. When the separation is much smaller than the orbital radius and the reference orbit is nearly circular, the relative motion is linearized by the Clohessy-Wiltshire (CW) equations, also called Hill's equations (Clohessy and Wiltshire 1960; Hill 1878):
 
 $\ddot{x} - 3n^2 x - 2n \dot{y} = f_x$, $\ddot{y} + 2n \dot{x} = f_y$, $\ddot{z} + n^2 z = f_z$
 
-where $n$ is the mean motion of the reference orbit. The CW equations underlie rendezvous and formation-flying analysis. Two caveats: the linearization (separation much smaller than orbital radius) and the circular-orbit assumption — the S/y axis coincides with velocity only on circular orbits. For non-Keplerian orbits such as Halo orbits the classical Hill frame is inapplicable; a libration-point-based rotating frame is needed instead (see [Synodic Frame](/glossary/fundamentals/synodic-frame/)).
+where $n$ is the mean motion of the reference orbit. The CW equations underlie rendezvous and formation-flying analysis. Two caveats: the linearization (separation much smaller than orbital radius) and the circular-orbit assumption: the S/y axis coincides with velocity only on circular orbits. For non-Keplerian orbits such as Halo orbits the classical Hill frame is inapplicable; a libration-point-based rotating frame is needed instead (see [Synodic Frame](/glossary/fundamentals/synodic-frame/)).
 
 ## Related Variants and Clarifications
 
@@ -66,7 +66,7 @@ where $n$ is the mean motion of the reference orbit. The CW equations underlie r
 
 - **Inertial-frame relative-motion equations**: writing relative motion directly in the inertial frame reflects true multi-body dynamics more directly and avoids centrifugal/Coriolis terms of rotating frames.
 
-- **Orbital coordinate system (thrust direction)**: some papers center a frame on the probe with one axis from the central body and one along the motion, describing thrust by an in-plane and an out-of-plane angle (Zhou and Zhou 2007) — essentially an RSW variant.
+- **Orbital coordinate system (thrust direction)**: some papers center a frame on the probe with one axis from the central body and one along the motion, describing thrust by an in-plane and an out-of-plane angle (Zhou and Zhou 2007), essentially an RSW variant.
 
 - **Principal-axes coordinate frame**: centered on a libration point (or primary) with axes aligned to the principal axes of the nearby elliptic motion, obtained by rotating the synodic frame; it decouples in-plane motion into two independent directions, simplifying the linear equations near libration points (Catlin and McLaughlin 2007).
 

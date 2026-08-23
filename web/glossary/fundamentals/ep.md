@@ -62,7 +62,7 @@ $$
 
 对于 500 kg 航天器、92 mN 推力的 Deep Space 1 级电推进，$a_T \approx 1.84 \times 10^{-4}\ \mathrm{m/s^2}$（Fahey 2024, Table 6.2）。此值比化学推进小 3--4 个量级，意味着轨道转移需要数周至数月。
 
-**推力幅值与推力边界**：实际电推进发动机有最大推力限制 $F \leq F_{\max}$，部分发动机还有最小稳定推力 $F_{\min}$，二者构成推力边界（thrust bound）。在最优控制问题中，推力幅值作为控制变量受此边界约束——这正是 Bang-bang 控制产生的根源：最优解将推力幅值推向允许范围的上下界而非中间值。
+**推力幅值与推力边界**：实际电推进发动机有最大推力限制 $F \leq F_{\max}$，部分发动机还有最小稳定推力 $F_{\min}$，二者构成推力边界（thrust bound）。在最优控制问题中，推力幅值作为控制变量受此边界约束，这正是 Bang-bang 控制产生的根源：最优解将推力幅值推向允许范围的上下界而非中间值。
 
 ## 电推进分类
 
@@ -148,17 +148,17 @@ $$
 
 ## 相关概念
 
-- [Bang-bang 控制](/glossary/dynamics/bang-bang-control/) — 推力幅值最优开关律，电推进燃耗最优问题的必然结果
+- [Bang-bang 控制](/glossary/dynamics/bang-bang-control/)：推力幅值最优开关律，电推进燃耗最优问题的必然结果
 
-- [推力方向与控制（Tangential Thrust）](/glossary/dynamics/tangential-thrust-control/) — 推力方向的简化策略与轨道保持
+- [推力方向与控制（Tangential Thrust）](/glossary/dynamics/tangential-thrust-control/)：推力方向的简化策略与轨道保持
 
-- [脉冲机动（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/) — 化学推进脉冲模型的机动方法
+- [脉冲机动（Two-Impulse Rendezvous）](/glossary/dynamics/two-impulse-rendezvous/)：化学推进脉冲模型的机动方法
 
 - [庞特里亚金极小值原理](/glossary/dynamics/pontryagins-maximum-principle/)
 
 - [协态变量](/glossary/dynamics/co-state-variables/)
 
-- [先驱向量](/glossary/dynamics/primer-vector/) — Lawden 引入的优化理论工具
+- [先驱向量](/glossary/dynamics/primer-vector/)：Lawden 引入的优化理论工具
 
 - [CR3BP（圆形限制性三体问题）](/glossary/dynamics/cr3bp/)
 
@@ -166,7 +166,7 @@ $$
 
 ## 参考文献
 
-- Vepa, 2024, Space Vehicle Maneuvering, Propulsion, Dynamics and Control — A Textbook for Engineers. Springer. Ch. 5: 推进系统的分类、火箭方程、比冲与推力加速度的工程定义。
+- Vepa, 2024, Space Vehicle Maneuvering, Propulsion, Dynamics and Control: A Textbook for Engineers. Springer. Ch. 5: 推进系统的分类、火箭方程、比冲与推力加速度的工程定义。
 
 - Vallado, 2022, Fundamentals of Astrodynamics and Applications. 火箭方程与推进系统性能的轨道力学视角。
 

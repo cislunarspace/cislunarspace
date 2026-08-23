@@ -1,4 +1,4 @@
-# CONTEXT — Web (VuePress)
+# CONTEXT: Web (VuePress)
 
 This file captures the web context domain vocabulary for VuePress configuration, theme, plugins, and build tooling.
 
@@ -28,33 +28,33 @@ The unified taxonomy module at `web/.vuepress/taxonomy/` owns all taxonomy data 
 
 Build-time generators in `web/.vuepress/generators/` produce JSON artifacts:
 
-- `ai-chat.ts` — AI Chat context and index
-- `glossary.ts` — Glossary sidebar and translation gaps
-- `bibliography.ts` — Bibliography from `ref.bib`
+- `ai-chat.ts`: AI Chat context and index
+- `glossary.ts`: Glossary sidebar and translation gaps
+- `bibliography.ts`: Bibliography from `ref.bib`
 
 ### Intakes
 
 Build-time data collection in `web/.vuepress/intakes/`:
 
-- `glossary-intake.ts` — scans glossary markdown files
-- `chat-index-intake.ts` — builds AI chat index from taxonomy
-- `translation-gap-intake.ts` — identifies missing glossary translations
+- `glossary-intake.ts`: scans glossary markdown files
+- `chat-index-intake.ts`: builds AI chat index from taxonomy
+- `translation-gap-intake.ts`: identifies missing glossary translations
 
 ### Content Families
 
 The site has four content families:
 
-1. **Knowledge-base sections** — `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, etc.
-2. **Glossary** — `web/glossary/`, `web/en/glossary/`
-3. **Special surfaces** — `web/ai-chat.md`
+1. **Knowledge-base sections**: `web/what-is-cislunarspace/`, `web/cislunar-orbits/`, etc.
+2. **Glossary**: `web/glossary/`, `web/en/glossary/`
+3. **Special surfaces**: `web/ai-chat.md`
 
 ### Build Pipeline
 
 `npm run docs:build` runs three steps:
 
-1. `generate.ts` (`npm run gen-sidebar`) — generates all JSON artifacts
-2. `vuepress build` — builds static site
-3. `sync-figures.js` (`npm run sync-figures`) — copies `figures/` dirs into `dist/`
+1. `generate.ts` (`npm run gen-sidebar`): generates all JSON artifacts
+2. `vuepress build`: builds static site
+3. `sync-figures.js` (`npm run sync-figures`): copies `figures/` dirs into `dist/`
 
 ### Deployment
 

@@ -22,7 +22,7 @@ wechatShare:
 
 The Earth-Moon L2 libration point is located on the Earth-Moon line, extending outward from the barycenter, at approximately 115% of the Earth-Moon distance from Earth (about 448,800 km). Like L1, L2 is also an equilibrium point where Earth's and the Moon's gravitational forces balance, but it lies on the exterior side of the Moon.
 
-The geometry of the L2 NRHO is similar to that of the L1 NRHO: the spacecraft oscillates back and forth near the L2 point along a near-rectilinear trajectory in the rotating frame. The primary difference from L1 NRHO lies in its gravitational environment — L2 is on the farside of the Moon, farther from Earth and closer to deep space, which directly affects its communication, telemetry, and radiation environment.
+The geometry of the L2 NRHO is similar to that of the L1 NRHO: the spacecraft oscillates back and forth near the L2 point along a near-rectilinear trajectory in the rotating frame. The primary difference from L1 NRHO lies in its gravitational environment: L2 is on the farside of the Moon, farther from Earth and closer to deep space, which directly affects its communication, telemetry, and radiation environment.
 
 ## Comparison with L1 NRHO
 

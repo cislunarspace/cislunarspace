@@ -30,7 +30,7 @@ permalink: /en/glossary/orbits/cycler/
 
 ## Definition
 
-A cycler orbit shuttles periodically between Earth and Moon, **flying by both without stopping**; its essence is a class of periodic orbits traveling between Earth and Moon under the Earth–Moon restricted three-body problem (Peng & Yang 2018). For mission needs, engineering practice **may adopt** the resonant cycler type — the orbital period is in a fixed ratio to the Earth–Moon system period, with low perigee and perilune altitudes (note that resonance is an engineering choice, not an essential property). The same concept has another Chinese-language name, "Earth–Moon periodic revisit orbit" (Yang et al. 2013).
+A cycler orbit shuttles periodically between Earth and Moon, **flying by both without stopping**; its essence is a class of periodic orbits traveling between Earth and Moon under the Earth–Moon restricted three-body problem (Peng & Yang 2018). For mission needs, engineering practice **may adopt** the resonant cycler type: the orbital period is in a fixed ratio to the Earth–Moon system period, with low perigee and perilune altitudes (note that resonance is an engineering choice, not an essential property). The same concept has another Chinese-language name, Earth–Moon periodic revisit orbit (Yang et al. 2013).
 
 ## Typical Parameters and Stability
 
@@ -38,7 +38,7 @@ The CYCLER orbit of Peng & Yang 2018: period about 14 days, rendezvousing with t
 
 ## Resonant Cycler Orbits
 
-Resonant cycler orbits are defined by p:q = lunar revolutions : spacecraft revolutions (Liang 2016, citing Casoliva 2010): 1:2 means the Moon makes one revolution while the spacecraft makes two — a two-body initial guess of about 13.66 days, about 14 days after differential correction. The generation method is a two-body initial guess plus differential correction and continuation, one guess yielding one orbit; the scheme generalizes to 1:2n. By symmetry, the perilune of a 1:2 resonant cycler lies on the y-axis behind the Moon in the rotating frame.
+Resonant cycler orbits are defined by p:q = lunar revolutions : spacecraft revolutions (Liang 2016, citing Casoliva 2010): 1:2 means the Moon makes one revolution while the spacecraft makes two; a two-body initial guess of about 13.66 days, about 14 days after differential correction. The generation method is a two-body initial guess plus differential correction and continuation, one guess yielding one orbit; the scheme generalizes to 1:2n. By symmetry, the perilune of a 1:2 resonant cycler lies on the y-axis behind the Moon in the rotating frame.
 
 ## Geocycler (SSA Observation Orbit)
 

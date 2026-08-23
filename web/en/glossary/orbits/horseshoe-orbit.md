@@ -30,9 +30,9 @@ permalink: /en/glossary/orbits/horseshoe-orbit/
 
 ## Definition
 
-As the amplitude of libration orbits near the triangular points grows toward L3, the orbit eventually encompasses both L4 and L5 — these are horseshoe orbits, more precisely librating about L3, L4, and L5 (Murray & Dermott 1999, §3.9/3.11). Horseshoe orbits are separated from [tadpole orbits](/en/glossary/orbits/tadpole-orbit/) by the Jacobi constant C = C_L3; their zero-velocity curves take the eponymous horseshoe shape in the rotating frame.
+As the amplitude of libration orbits near the triangular points grows toward L3, the orbit eventually encompasses both L4 and L5: these are horseshoe orbits, more precisely librating about L3, L4, and L5 (Murray & Dermott 1999, §3.9/3.11). Horseshoe orbits are separated from [tadpole orbits](/en/glossary/orbits/tadpole-orbit/) by the Jacobi constant C = C_L3; their zero-velocity curves take the eponymous horseshoe shape in the rotating frame.
 
-Note that horseshoe orbits are large-scale co-orbital motions and do not inherit the linear stability of the equilibrium points — the inference "L4/L5 are stable, therefore horseshoe orbits are relatively stable" does not hold.
+Note that horseshoe orbits are large-scale co-orbital motions and do not inherit the linear stability of the equilibrium points: the inference that L4/L5 are stable and therefore horseshoe orbits are relatively stable does not hold.
 
 ## Examples
 

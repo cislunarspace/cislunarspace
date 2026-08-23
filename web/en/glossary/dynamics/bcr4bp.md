@@ -32,7 +32,7 @@ permalink: /en/glossary/dynamics/bcr4bp/
 
 The Bicircular Restricted Four-Body Problem (BCR4BP) is an approximate four-body model that superimposes a fourth-body perturbation atop the [CR3BP](/en/glossary/dynamics/cr3bp/) framework. Take the Earth--Moon--Sun system: the Earth and Moon revolve about their barycenter in circular motion (the Earth--Moon CR3BP), while the Sun acts as a point mass in large-scale circular motion, exerting a time-varying gravitational pull. The spacecraft has negligible mass under the influence of all three bodies.
 
-The BCR4BP is termed "approximate" because the two circular-motion assumptions are not dynamically self-consistent — if Earth, Moon, and Sun obeyed Newtonian gravity and strict circular orbits simultaneously, their equations of motion would be incompatible. Nevertheless, the model performs well in trajectory design practice because it captures the time-varying solar perturbation on the Earth--Moon leg without the high computational cost of full-ephemeris integration.
+The BCR4BP is termed approximate because the two circular-motion assumptions are not dynamically self-consistent, if Earth, Moon, and Sun obeyed Newtonian gravity and strict circular orbits simultaneously, their equations of motion would be incompatible. Nevertheless, the model performs well in trajectory design practice because it captures the time-varying solar perturbation on the Earth--Moon leg without the high computational cost of full-ephemeris integration.
 
 Another common symmetric configuration is the Sun--Earth--Moon model: Sun and Earth revolve in circular motion about the Sun--Earth barycenter (Sun--Earth CR3BP), with the Moon as the perturbing fourth body.
 
@@ -40,11 +40,11 @@ Another common symmetric configuration is the Sun--Earth--Moon model: Sun and Ea
 
 These two abbreviations are often conflated in the literature, but a meaningful conceptual distinction exists (Gómez et al. 2001):
 
-- **BCP** (Bicircular Problem): The original bicircular model introduced by Simó et al., in which the Earth--Moon and barycenter--Sun circular motions are kinematically inconsistent — they violate Newton's third law. The BCP is an **inconsistent simplified model** useful for rapid exploration of the gross geometry of periodic orbits.
+- **BCP** (Bicircular Problem): The original bicircular model introduced by Simó et al., in which the Earth--Moon and barycenter--Sun circular motions are kinematically inconsistent, they violate Newton's third law. The BCP is an **inconsistent simplified model** useful for rapid exploration of the gross geometry of periodic orbits.
 
 - **BCR4BP** (Bicircular Restricted Four-Body Problem): A more recent self-consistent formulation that treats the fourth body's gravity as an explicit periodic forcing term on the CR3BP equations, without requiring the two circular pictures to be dynamically self-consistent. The BCR4BP retains the CR3BP's rotating frame and merely adds time-varying terms involving the solar mass parameter $\mu_s$ and solar phase angle $\theta_s$.
 
-In the spacecraft trajectory-design context, "BCR4BP" generally refers to the self-consistent model, while "bicircular problem" serves as an interchangeable umbrella term.
+In the spacecraft trajectory-design context, BCR4BP generally refers to the self-consistent model, while the bicircular problem serves as an interchangeable umbrella term.
 
 ## Planar and Spatial Variants
 
@@ -71,7 +71,7 @@ where $\Omega$ is the standard CR3BP effective potential. The solar perturbation
 
 $$\mathbf{a}_s = -\mu_s \left(\frac{\mathbf{r} - \mathbf{r}_s}{|\mathbf{r} - \mathbf{r}_s|^3} + \frac{\mathbf{r}_s}{|\mathbf{r}_s|^3}\right)$$
 
-The critical feature is the second term $\mu_s \mathbf{r}_s / |\mathbf{r}_s|^3$ — it originates from the barycentric acceleration term and ensures the complete expression of the Sun's "direct pull minus pull on the Earth--Moon barycenter" difference in the rotating frame. This term is frequently omitted in naive "direct gravitational perturbation" formulas.
+The critical feature is the second term $\mu_s \mathbf{r}_s / |\mathbf{r}_s|^3$: it originates from the barycentric acceleration term and ensures the complete expression of the Sun's direct pull minus pull on the Earth--Moon barycenter difference in the rotating frame. This term is frequently omitted in naive direct gravitational perturbation formulas.
 
 ## Applications
 
@@ -79,7 +79,7 @@ The BCR4BP fills an important gap between the CR3BP and full-ephemeris models in
 
 - **Weak Stability Boundary (WSB) transfers**: Solar perturbation is the key mechanism enabling ballistic lunar capture. The BCR4BP captures the Sun's time-varying influence without the overhead of full-ephemeris integration, serving as the workhorse model for WSB transfer design.
 
-- **Interplanetary Superhighway**: Invariant-manifold patching between Sun--Earth and Earth--Moon systems is most effectively analyzed in the BCR4BP framework — intersecting Sun--Earth outgoing manifolds with Earth--Moon incoming manifolds in the time-varying BCR4BP system.
+- **Interplanetary Superhighway**: Invariant-manifold patching between Sun--Earth and Earth--Moon systems is most effectively analyzed in the BCR4BP framework: intersecting Sun--Earth outgoing manifolds with Earth--Moon incoming manifolds in the time-varying BCR4BP system.
 
 - **Fourth-body perturbation assessment**: For specific orbits (e.g., DRO, NRHO), the BCR4BP can estimate the long-term cumulative effects of solar perturbation, helping determine which orbits require validation under higher-fidelity models.
 
@@ -99,10 +99,10 @@ The BCR4BP fills an important gap between the CR3BP and full-ephemeris models in
 
 ## References
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. I — Chapter 2 systematically treats the BCP and BCR4BP formulations, their self-consistency, and manifold-patching applications.
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. I: Chapter 2 systematically treats the BCP and BCR4BP formulations, their self-consistency, and manifold-patching applications.
 
-- Simó et al., 1995, "The Bicircular Model Near the Triangular Libration Points of the RTBP" — The original systematic formulation of the bicircular problem.
+- Simó et al., 1995, "The Bicircular Model Near the Triangular Libration Points of the RTBP": The original systematic formulation of the bicircular problem.
 
-- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design* — Chapter 6 discusses four-body approximations and interplanetary-superhighway patching.
+- Koon, Lo, Marsden & Ross, 2011, *Dynamical Systems, the Three-Body Problem, and Space Mission Design*: Chapter 6 discusses four-body approximations and interplanetary-superhighway patching.
 
-- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics* — Theoretical foundations of WSB transfers, including ballistic capture mechanisms in the bicircular framework.
+- Belbruno, 2004, *Capture Dynamics and Chaotic Motions in Celestial Mechanics*: Theoretical foundations of WSB transfers, including ballistic capture mechanisms in the bicircular framework.

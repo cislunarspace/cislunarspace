@@ -34,14 +34,14 @@ The Chinese edition ([术语词典](/glossary/)) lists every entry in full and i
 
 ## Categories
 
-- **Fundamentals** (86 entries) — reference frames, time systems, physical constants, foundational concepts.
-- **Dynamics & Mathematical Foundations** (358 entries) — CR3BP, libration-point orbits, invariant manifolds, perturbation methods, numerical integrators.
-- **Mission Orbits** (143 entries) — NRHO, DRO, halo/Lissajous families, transfer trajectories, orbit families grouped by topology.
-- **Navigation Technology & Systems** (65 entries) — GNSS, radiometric tracking, autonomous navigation, orbit determination.
-- **Astronomical Observation** (24 entries) — sensors, radiometry, star trackers, observation geometry.
-- **Communications** (10 entries) — relay architectures, link budgets, lunar far-side communication.
-- **Programs & Projects** (18 entries) — Artemis, Moonlight, Queqiao, Lunar Gateway, and other programs.
-- **Other Technologies** (10 entries) — cross-cutting terms not tied to a single category.
+- **Fundamentals** (86 entries): reference frames, time systems, physical constants, foundational concepts.
+- **Dynamics & Mathematical Foundations** (358 entries): CR3BP, libration-point orbits, invariant manifolds, perturbation methods, numerical integrators.
+- **Mission Orbits** (143 entries): NRHO, DRO, halo/Lissajous families, transfer trajectories, orbit families grouped by topology.
+- **Navigation Technology & Systems** (65 entries): GNSS, radiometric tracking, autonomous navigation, orbit determination.
+- **Astronomical Observation** (24 entries): sensors, radiometry, star trackers, observation geometry.
+- **Communications** (10 entries): relay architectures, link budgets, lunar far-side communication.
+- **Programs & Projects** (18 entries): Artemis, Moonlight, Queqiao, Lunar Gateway, and other programs.
+- **Other Technologies** (10 entries): cross-cutting terms not tied to a single category.
 
 ## How to Browse
 

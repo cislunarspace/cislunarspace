@@ -58,7 +58,7 @@ DMOC 解继承变分积分器的关键性质：
 - **保动量（momentum-preserving）**：与系统对称性对应的 Noether 动量映射精确保持，与步长无关。
 - **能量行为良好**：辛性保证长时间下能量无明显耗散或爆发，仅在小邻域内振荡。
 
-这三点是 DMOC 相对一般 [直接配点法](/glossary/dynamics/direct-collocation/) 的核心优势——尤其在 CR3BP、地月低能转移等需要长时间积分、对能量保持敏感的问题上（Marsden & West 2001；Moore 2011）。
+这三点是 DMOC 相对一般 [直接配点法](/glossary/dynamics/direct-collocation/) 的核心优势，尤其在 CR3BP、地月低能转移等需要长时间积分、对能量保持敏感的问题上（Marsden & West 2001；Moore 2011）。
 
 ## 工程实现要点
 
@@ -77,9 +77,9 @@ DMOC 解继承变分积分器的关键性质：
 
 ## 应用要点
 
-- **低能地月转移**：DMOC + 不变流形是经典组合——流形提供动力学的「骨架」作为初值，DMOC 在 4-body 模型中精修，把流形拼接所需的中间脉冲优化为零（Moore 2011, Ch.3；Moore et al. 2012）。
+- **低能地月转移**：DMOC + 不变流形是经典组合，流形提供动力学的「骨架」作为初值，DMOC 在 4-body 模型中精修，把流形拼接所需的中间脉冲优化为零（Moore 2011, Ch.3；Moore et al. 2012）。
 - **编队飞行**：CubeSat 编队的相对位置重置，DMOC 保动量特性使编队几何在长时间仿真中稳定。
-- **不适用场合**：含强耗散（如大气进入）、含非保守约束（如热流上限）、或 Lagrangian 难以写出的系统，DMOC 优势丧失——这些场合更适合 [直接配点法](/glossary/dynamics/direct-collocation/)。
+- **不适用场合**：含强耗散（如大气进入）、含非保守约束（如热流上限）、或 Lagrangian 难以写出的系统，DMOC 优势丧失，这些场合更适合 [直接配点法](/glossary/dynamics/direct-collocation/)。
 
 ## 相关概念
 

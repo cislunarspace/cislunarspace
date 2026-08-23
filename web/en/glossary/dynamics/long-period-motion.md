@@ -50,7 +50,7 @@ The dual-period period of 458 d is *not* the period of either mode; it is the co
 
 Either mode can be filtered out by judicial choice of the initial velocity (Catlin & McLaughlin 2007, Eqs. 6–7). When only the long-period mode is retained, the relative motion is an in-plane ellipse with axis ratio ≈ 16/3 and period ≈ 92 d; the required initial relative velocity is on the order of millimetres per second. When only the short-period mode is retained, the ellipse has axis ratio ≈ 2 and period ≈ one synodic month. These single-mode solutions are the practical building blocks for formation flight at $L_4/L_5$: the motion is repeatable, planar, and amenable to analytical description.
 
-A natural circular formation (axis ratio 1) is impossible in pure long-period motion — the required in-plane and out-of-plane frequencies do not coincide ($s_z$ is far from $s_1$). It is only approximately realisable in short-period motion, where $s_2$ and $s_z$ differ by less than 0.05 non-dimensional frequency units. Even there, the planar approximation is *not* an accurate representation of CR3BP dynamics and must be supplemented by active control to hold circularity over long durations.
+A natural circular formation (axis ratio 1) is impossible in pure long-period motion: the required in-plane and out-of-plane frequencies do not coincide ($s_z$ is far from $s_1$). It is only approximately realisable in short-period motion, where $s_2$ and $s_z$ differ by less than 0.05 non-dimensional frequency units. Even there, the planar approximation is *not* an accurate representation of CR3BP dynamics and must be supplemented by active control to hold circularity over long durations.
 
 ## Dual-period motion and why it is rarely used
 
@@ -78,10 +78,10 @@ The analysis above is CR3BP-only. In the real Earth–Moon system, solar gravity
 
 ## References
 
-- Catlin, K. & McLaughlin, C., 2007, "Earth–Moon Triangular Libration Point Spacecraft Formations," *J. Guid. Control Dyn.* — derivation of the long/short-period mode frequencies, axis ratios, formation designs, sensitivity analysis, and perturbation assessment (source of all numerical values quoted above).
+- Catlin, K. & McLaughlin, C., 2007, "Earth–Moon Triangular Libration Point Spacecraft Formations," *J. Guid. Control Dyn.*. Derivation of the long/short-period mode frequencies, axis ratios, formation designs, sensitivity analysis, and perturbation assessment (source of all numerical values quoted above).
 
-- Catlin & McLaughlin, 2004, "Relative motion of two spacecraft near the Earth–Moon triangular libration points" — earlier planar analysis.
+- Catlin & McLaughlin, 2004, "Relative motion of two spacecraft near the Earth–Moon triangular libration points". Earlier planar analysis.
 
-- Szebehely, 1967, *Theory of Orbits*, §§5.2–5.4 — linearisation about $L_4/L_5$, characteristic roots, Routh stability criterion.
+- Szebehely, 1967, *Theory of Orbits*, §§5.2–5.4. Linearisation about $L_4/L_5$, characteristic roots, Routh stability criterion.
 
-- Hou & Liu, 2010, "On quasi-periodic motions around the triangular libration points of the real Earth–Moon system" — extensions into the ephemeris model.
+- Hou & Liu, 2010, "On quasi-periodic motions around the triangular libration points of the real Earth–Moon system". Extensions into the ephemeris model.

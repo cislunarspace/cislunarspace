@@ -36,9 +36,9 @@ This seemingly minor change fundamentally alters the mathematical character of t
 
 - The inter-primary distance $r_{12}$ is no longer constant but a $2\pi$-periodic function of true anomaly $f$: $r_{12}(f) = a(1-e^2)/(1+e\cos f)$, where $a$ is the semi-major axis.
 
-- The system is **no longer autonomous** — the equations of motion depend explicitly on time (or equivalently on $f$), with primary positions varying periodically.
+- The system is **no longer autonomous**: the equations of motion depend explicitly on time (or equivalently on $f$), with primary positions varying periodically.
 
-- The **Jacobi integral ceases to exist** — energy is not conserved in the time-varying system; a spacecraft can change its mechanical energy without expending propellant.
+- The **Jacobi integral ceases to exist**: energy is not conserved in the time-varying system; a spacecraft can change its mechanical energy without expending propellant.
 
 When eccentricity is non-negligible (e.g., lunar orbital eccentricity $\approx 0.0549$), the ER3BP is more faithful to real dynamics than the CR3BP, but the analysis is substantially harder due to the loss of autonomy and conservation.
 
@@ -74,7 +74,7 @@ Integrating over one full period yields the **monodromy matrix** $\mathbf{M}$: $
 
 - **Planar vs. spatial ER3BP**: The Planar ER3BP (PER3BP) confines motion to the orbital plane and is analyzed via $f$-section Poincaré maps; the spatial ER3BP retains full 3D degrees of freedom, yielding more complex orbit families.
 
-- **Resonance effects**: At certain eccentricities, ER3BP periodic orbits can deviate significantly or bifurcate from their CR3BP counterparts — an effect that long-duration mission design must account for.
+- **Resonance effects**: At certain eccentricities, ER3BP periodic orbits can deviate significantly or bifurcate from their CR3BP counterparts, an effect that long-duration mission design must account for.
 
 ## Related Concepts
 
@@ -92,10 +92,10 @@ Integrating over one full period yields the **monodromy matrix** $\mathbf{M}$: $
 
 ## References
 
-- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies* — Chapter 10 systematically treats the ER3BP pulsating frame and equations of motion.
+- Szebehely, 1967, *Theory of Orbits: The Restricted Problem of Three Bodies*. Chapter 10 systematically treats the ER3BP pulsating frame and equations of motion.
 
-- Broucke, 1969, "Periodic Orbits in the Elliptic Restricted Three-Body Problem" — An early systematic study of ER3BP periodic orbits.
+- Broucke, 1969, "Periodic Orbits in the Elliptic Restricted Three-Body Problem". An early systematic study of ER3BP periodic orbits.
 
-- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. III — Discusses continuation and Floquet stability of ER3BP libration-point periodic orbits.
+- Gómez et al., 2001, *Dynamics and Mission Design near Libration Points*, Vol. III. Discusses continuation and Floquet stability of ER3BP libration-point periodic orbits.
 
-- Campagnola, 2010, *New Techniques in Astrodynamics for Moon Systems Exploration*, Ph.D. — Contains practical numerical methods for ER3BP trajectory design.
+- Campagnola, 2010, *New Techniques in Astrodynamics for Moon Systems Exploration*, Ph.D. Contains practical numerical methods for ER3BP trajectory design.
