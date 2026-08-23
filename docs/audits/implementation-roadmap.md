@@ -1,4 +1,4 @@
-# Implementation Roadmap — Cislunar Space Content Audit Remediation
+# Implementation Roadmap: Cislunar Space Content Audit Remediation
 
 > Generated from `docs/audits/site-content-audit-2026-06-04.md` and GitHub issues #61–#81.
 >
@@ -17,10 +17,7 @@
 | #67 | Human-review high-risk factual claims | HITL | 0 | Open |
 | #68 | Decide image filename/related-link rules | HITL | 0 | Open |
 | #69 | Fill fundamentals glossary English mirrors | AFK | 2 | Open |
-| #70 | Fix Space News frontmatter + validator | AFK | 1+3 | Open |
 | #71 | Fill non-fundamentals glossary mirrors | AFK | 2 | Open |
-| #72 | Fix Space News monthly index links | AFK | 3 | Open |
-| #73 | Fix 2026-03 Space News figures | AFK | 3 | Open |
 | #74 | Fix background prerequisite relative links | AFK | 4 | Open |
 | #75 | Correct environment image directory spelling | AFK | 4 | Open |
 | #76 | Clean English Chinese remnants + scanner | AFK | 1+4 | Open |
@@ -40,16 +37,13 @@ Phase 0 (HITL, parallel) ──────────────────�
    │  │  │  └─→ #62 link resolver needs image rule config hook (light)
    │  │  └────→ #76 scanner can build tooling now, content cleanup waits for #65 output
    │  └───────→ #69, #71, #78 depend on canonical slug rules
-   └──────────→ #69, #70, #72, #77 depend on mirror policy
+   └──────────→ #69, #77 depend on mirror policy
 
 Phase 1 (AFK, parallel) ────────────────────────────────────────────
-│  #61 mirror checker    #62 link resolver    #70a SN validator    #76 scanner (tool only)
+│  #61 mirror checker    #62 link resolver    #76 scanner (tool only)
 │
 Phase 2 (AFK, parallel by subdirectory) ────────────────────────────
 │  #69 fundamentals      #71 non-fundamentals      #78 broken routes (after #69+#71)
-│
-Phase 3 (AFK, parallel) ────────────────────────────────────────────
-│  #70b SN frontmatter   #72 SN index links    #73 2026-03 figures
 │
 Phase 4 (AFK, parallel) ────────────────────────────────────────────
 │  #66 resources URLs    #74 background links    #75 envrionment    #76 cleanup (after #65)
@@ -66,7 +60,7 @@ Phase 7 (integration verification) ───────────────
 
 ## Execution Plan
 
-### Phase 0 — HITL Decisions (48h SLA, all parallel)
+### Phase 0: HITL Decisions (48h SLA, all parallel)
 
 Assign to maintainers / domain experts. These are **blocking** for all downstream work.
 
@@ -78,22 +72,21 @@ Assign to maintainers / domain experts. These are **blocking** for all downstrea
 | Domain expert | #67 | Per-claim decisions (accepted/rewrite/remove/needs-source) for He-3, lunar data platform, HIT stats. Post as table in #67. |
 | Content standard owner | #68 | Image filename rules, figures directory convention, related-link format rules. Post as rules in #68. |
 
-**Action on completion**: Add `unblocked` comment on downstream issues (#69, #70, #71, #72, #73, #76, #77, #78, #80, #81).
+**Action on completion**: Add `unblocked` comment on downstream issues (#69, #71, #76, #77, #78, #80, #81).
 
-### Phase 1 — Automation Tools (parallel)
+### Phase 1: Automation Tools (parallel)
 
 | Agent type | Issue | Work |
 |---|---|---|
 | Tool builder | #61 | Implement `npm run check-mirrors` in `web/.vuepress/build/`. Config-driven exceptions from #63. |
 | Tool builder | #62 | Implement `npm run check-links` in `web/.vuepress/build/`. Config hook for #68 image rules. |
-| Tool builder | #70 (first half) | Implement Space News frontmatter validator as standalone script. |
 | Tool builder | #76 (first half) | Implement English Chinese-character scanner with allowlist config. Report-only mode. |
 
 **Agent scope constraint**: Only touch `web/.vuepress/build/`, `web/package.json`, and `web/.vuepress/intakes/`. Do not modify any content `.md` files.
 
 **Verification**: `npm test` passes; each tool runs independently and produces JSON output.
 
-### Phase 2 — Glossary Mirror Translation (parallel by subdirectory)
+### Phase 2: Glossary Mirror Translation (parallel by subdirectory)
 
 Each agent owns a distinct subdirectory to avoid file conflicts.
 
@@ -123,19 +116,7 @@ Each agent owns a distinct subdirectory to avoid file conflicts.
 
 **#78 broken routes**: Run after #69 + #71 complete. Each subdirectory agent repairs broken `/glossary/...` links in their directory using `npm run check-links` output.
 
-### Phase 3 — Space News Fixes (parallel, #70b first)
-
-| Agent | Issue | Work |
-|---|---|---|
-| Agent A | #70b | Fix all frontmatter issues found by SN validator: missing layout, untranslated titles, missing description, category mismatch, date mismatch, image leading space. Create missing EN article for 2026-04-17-commercial-space-safety-meeting. |
-| Agent B | #72 | Fix monthly README index links. Decision per missing target: create article (from #70b) or remove index entry. |
-| Agent C | #73 | Fix 2026-03 figures: correct Markdown paths where figures exist; report missing figures to maintainer where figures genuinely don't exist. |
-
-**Constraint**: #70b runs first; #72 and #73 can start 30 min after #70b to avoid slug conflicts.
-
-**Verification**: `npm run gen-sidebar` → `npm run check-links` → `npm run sync-figures`.
-
-### Phase 4 — Knowledge Base Local Fixes (parallel)
+### Phase 4: Knowledge Base Local Fixes (parallel)
 
 | Agent | Issue | Work |
 |---|---|---|
@@ -148,7 +129,7 @@ Each agent owns a distinct subdirectory to avoid file conflicts.
 
 **Verification**: `npm run docs:build` → images render; `npm run check-links` → zero new errors.
 
-### Phase 5 — Specialty Mirrors and Parity (parallel)
+### Phase 5: Specialty Mirrors and Parity (parallel)
 
 | Agent | Subdirectory | Issue |
 |---|---|---|
@@ -160,7 +141,7 @@ Each agent owns a distinct subdirectory to avoid file conflicts.
 
 **Verification**: `npm run check-mirrors` → no new gaps; `npm run check-links` → no new broken links.
 
-### Phase 6 — Factual Decision Landing (single-threaded)
+### Phase 6: Factual Decision Landing (single-threaded)
 
 | Agent | Issue | Work |
 |---|---|---|
@@ -170,7 +151,7 @@ Each agent owns a distinct subdirectory to avoid file conflicts.
 
 **Verification**: Each modified page has source link or explicit `[citation needed]` marker.
 
-### Phase 7 — Integration Verification (single-threaded)
+### Phase 7: Integration Verification (single-threaded)
 
 Run in `web/` directory, in this order:
 
@@ -179,22 +160,20 @@ npm run gen-sidebar          # regenerate all JSON artifacts
 npm run docs:build           # full VuePress build + sync-figures
 npm run check-mirrors        # #61: zero unexplained gaps
 npm run check-links          # #62: zero unexplained broken links
-npm run check-sn-frontmatter # #70a: zero Space News violations
 npm run check-en-chinese     # #76: only allowlisted Chinese text remains
 ```
 
-Then human review: sample 5 entries per glossary subdirectory, 3 articles per Space News month, all orbit pages, all special pages, all resources-tools pages.
+Then human review: sample 5 entries per glossary subdirectory, all orbit pages, all special pages, all resources-tools pages.
 
-**On success**: Close all 21 issues. Document remaining intentional exceptions in allowlist config files.
+**On success**: Close all open issues. Document remaining intentional exceptions in allowlist config files.
 
 ## Agent Assignment Quick Reference
 
 | Phase | # of agents | Concurrent | Estimated effort |
 |---|---|---|---|
 | 0 HITL | 5 (human) | Parallel | 1–2 days each |
-| 1 Tools | 4 | Parallel | 2–3 days each |
+| 1 Tools | 3 | Parallel | 2–3 days each |
 | 2 Glossary | 11 | 5–8 concurrent | 1–2 days each batch |
-| 3 Space News | 3 | 1 + 2 | 1 day each |
 | 4 KB Fixes | 4 | 3–4 | 0.5–1 day each |
 | 5 Specialty | 3 | 3 | 1–2 days each |
 | 6 Facts | 1 | 1 | 1 day |
@@ -202,7 +181,7 @@ Then human review: sample 5 entries per glossary subdirectory, 3 articles per Sp
 
 ## Rules for All Agents
 
-1. **Never edit auto-generated JSON** (`sidebar.auto.json`, `space-news-articles-zh.json`, `space-news-articles-en.json`, `sidebar-glossary.auto.json`, `ai-chat-context.json`, `ai-chat-index.json`).
+1. **Never edit auto-generated JSON** (`sidebar.auto.json`, `sidebar-glossary.auto.json`, `ai-chat-context.json`, `ai-chat-index.json`).
 2. **PR scope = assigned subdirectory only**. Out-of-scope changes require a new PR.
 3. **Deliver artifacts**: (a) absolute paths of all modified files, (b) commands run (`gen-sidebar`, `check-links`, etc.), (c) unresolved issues list, (d) items needing human review.
 4. **After modifying any source `.md` file**: run `npm run gen-sidebar` to regenerate JSON artifacts before committing.
