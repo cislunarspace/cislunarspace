@@ -70,7 +70,10 @@ export const sidebarSections: SidebarSection[] = [
             slug: 'stability-maintenance',
             label: { zh: '轨道稳定性与保持', en: 'Stability & Station Keeping' },
           },
-          { slug: 'gateway-cases', label: { zh: 'Gateway 空间站案例', en: 'Gateway Mission Cases' } },
+          {
+            slug: 'gateway-cases',
+            label: { zh: 'Gateway 空间站案例', en: 'Gateway Mission Cases' },
+          },
           { slug: 'design-parameters', label: { zh: '轨道设计参数', en: 'Design Parameters' } },
         ],
       },
@@ -81,7 +84,10 @@ export const sidebarSections: SidebarSection[] = [
         children: [
           { slug: '', label: { zh: 'DRO 概述', en: 'DRO Overview' } },
           { slug: 'mechanics', label: { zh: '动力学机理', en: 'Mechanics' } },
-          { slug: 'family-classification', label: { zh: '轨道族分类', en: 'Family Classification' } },
+          {
+            slug: 'family-classification',
+            label: { zh: '轨道族分类', en: 'Family Classification' },
+          },
           { slug: 'applications', label: { zh: '工程应用场景', en: 'Applications' } },
           { slug: 'design-method', label: { zh: '轨道设计方法', en: 'Design Methods' } },
         ],
@@ -119,7 +125,10 @@ export const sidebarSections: SidebarSection[] = [
             label: { zh: '轨道设计与优化', en: 'Orbit Design & Optimization' },
             collapsible: true,
             children: [
-              { slug: 'low-energy-transfer', label: { zh: '低能转移轨道设计', en: 'Low-Energy Transfer' } },
+              {
+                slug: 'low-energy-transfer',
+                label: { zh: '低能转移轨道设计', en: 'Low-Energy Transfer' },
+              },
               {
                 slug: 'orbit-characterization',
                 label: { zh: '轨道特性与动力学分析', en: 'Orbit Characterization' },
@@ -179,7 +188,10 @@ export const sidebarSections: SidebarSection[] = [
           { slug: 'thu', label: { zh: '清华大学', en: 'THU' } },
         ],
       },
-      { slug: 'journals-conferences', label: { zh: '主流学术期刊与会议', en: 'Journals & Conferences' } },
+      {
+        slug: 'journals-conferences',
+        label: { zh: '主流学术期刊与会议', en: 'Journals & Conferences' },
+      },
       { slug: 'major-projects', label: { zh: '国内外重大工程项目', en: 'Major Projects' } },
     ],
   },
