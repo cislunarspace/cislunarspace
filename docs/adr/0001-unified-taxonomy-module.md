@@ -1,3 +1,5 @@
+[English](0001-unified-taxonomy-module.md) | [简体中文](0001-unified-taxonomy-module.zh-CN.md)
+
 # ADR 0001: Unified Taxonomy Module for zh/en Sites
 
 - **Status:** Accepted

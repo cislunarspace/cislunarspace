@@ -1,3 +1,5 @@
+[简体中文](triage-labels.md) | [English](triage-labels.en.md)
+
 # Triage Labels
 
 技能以五个标准分诊角色来表述。本文件将这些角色映射到本仓库 issue tracker 中实际使用的标签字符串。

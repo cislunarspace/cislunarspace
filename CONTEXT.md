@@ -1,3 +1,5 @@
+[English](CONTEXT.md) | [简体中文](CONTEXT.zh-CN.md)
+
 # CONTEXT: Cislunar Space Beginner's Guide
 
 A bilingual (zh/en) knowledge base about cislunar space. This file captures domain vocabulary that should be used consistently across issues, ADRs, tests, code, and PRs. If a concept you need isn't here, that's a signal: either reconsider the term or extend this file via `/grill-with-docs`.

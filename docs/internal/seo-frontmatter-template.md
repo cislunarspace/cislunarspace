@@ -1,3 +1,5 @@
+[简体中文](seo-frontmatter-template.md) | [English](seo-frontmatter-template.en.md)
+
 # SEO优化的Front Matter模板
 
 ## 中文页面模板

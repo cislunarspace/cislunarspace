@@ -1,5 +1,77 @@
+English | [简体中文](./README.zh-CN.md)
+
 <div align="center">
 
-# [地月空间入门指南](https://cislunarspace.cn/) / Cislunar Space Beginner's Guide
+# Cislunar Space Beginner's Guide
+
+**A bilingual knowledge base on cislunar space concepts, orbital mechanics, and engineering practice**
+
+[Read Online](https://cislunarspace.cn/en/) · [中文版](https://cislunarspace.cn/) · [Report an Issue](https://github.com/cislunarspace/cislunarspace/issues)
 
 </div>
+
+---
+
+## What is this
+
+Between low Earth orbit and the Moon, 384,000 km away, spacecraft dynamics change fundamentally: Earth's gravity no longer dominates, and lunar and solar gravity interweave to produce the rich orbital structures of multi-body dynamics. Understanding this environment underlies lunar exploration programs, crewed landings, and future deep-space logistics.
+
+The site is organized around three main tracks:
+
+| Module | Contents |
+|---|---|
+| [What is Cislunar Space](https://cislunarspace.cn/en/what-is-cislunarspace/) | Definition of the region, its environment, and its value |
+| [Cislunar Orbits](https://cislunarspace.cn/en/cislunar-orbits/) | NRHO, DRO, libration-point orbits, and transfer corridors |
+| [Research Frontiers & Engineering](https://cislunarspace.cn/en/research-frontiers/) | Research directions, institutions, and major missions |
+
+It also covers orbital mechanics background ([`web/background/`](web/background/)), a glossary spanning dynamics, orbits, navigation, and more ([`web/glossary/`](web/glossary/)), and an AI chat entry backed by the whole knowledge base.
+
+## Repository layout
+
+```text
+/
+├── README.md               ← this file
+├── CONTEXT.md              ← site-wide domain vocabulary & bilingual conventions
+├── CONTEXT-MAP.md          ← index of per-context CONTEXT files
+├── AGENTS.md               ← AI collaboration guidelines
+├── docs/
+│   ├── adr/                ← architecture decision records
+│   ├── agents/             ← how agents use domain docs
+│   ├── audits/             ← content audits & research notes
+│   ├── internal/           ← internal conventions
+│   └── research/           ← pre-merge academic research notes
+├── web/                    ← VuePress 2 site (zh at / , en at /en/)
+│   ├── .vuepress/          ← config, theme customization, generators & plugins
+│   ├── glossary/           ← Chinese glossary entries
+│   └── en/                 ← English mirror content
+└── admin/                  ← local content manager (Express + Vue 3 GUI)
+```
+
+## Local development
+
+```bash
+cd web
+npm install
+npm run dev        # start the dev server
+npm run build      # generate sidebar & build for production
+npm run test       # run Vitest tests
+npm run check      # bilingual-mirror / zh-en / link consistency checks
+```
+
+Content manager (optional):
+
+```bash
+cd admin
+npm install
+npm start          # start the local GUI for glossary & section pages
+```
+
+## Contributing
+
+Issues and pull requests are welcome. Before you start, read [`AGENTS.md`](AGENTS.md) (AI collaboration guidelines), [`CONTEXT.md`](CONTEXT.md) (domain vocabulary), and the [contributor notes](docs/internal/contributors.md).
+
+When adding a Chinese glossary entry, keep the English mirror (`web/en/glossary/`) in mind; bilingual consistency is enforced automatically by `npm run check`.
+
+## License
+
+Released under the [Apache License 2.0](LICENSE).
