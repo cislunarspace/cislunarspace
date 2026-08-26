@@ -176,9 +176,9 @@ kind 为 `glossary-category` 的 `TaxonomyNode`（今日：`glossary-meta.ts` �
 ## 另见
 
 - [ADR-0001：统一分类法模块](docs/adr/0001-unified-taxonomy-module.zh-CN.md)
-- [ADR-0003：内容模块](docs/adr/0003-content-module.zh-CN.md)
-- [ADR-0004：资产分层](docs/adr/0004-asset-layering.zh-CN.md)
-- [ADR-0005：移除太空新闻模块](docs/adr/0005-remove-space-news-module.zh-CN.md)
-- [docs/agents/domain.zh-CN.md](docs/agents/domain.zh-CN.md)：agent 应如何消费本文件
-- [docs/agents/issue-tracker.zh-CN.md](docs/agents/issue-tracker.zh-CN.md)
-- [docs/agents/triage-labels.zh-CN.md](docs/agents/triage-labels.zh-CN.md)
+- [ADR-0003：内容模块](docs/adr/0003-content-module.md)
+- [ADR-0004：资产分层](docs/adr/0004-asset-layering.md)
+- [ADR-0005：移除太空新闻模块](docs/adr/0005-remove-space-news-module.md)
+- [docs/agents/domain.md](docs/agents/domain.md)：agent 应如何消费本文件
+- [docs/agents/issue-tracker.md](docs/agents/issue-tracker.md)
+- [docs/agents/triage-labels.md](docs/agents/triage-labels.md)
