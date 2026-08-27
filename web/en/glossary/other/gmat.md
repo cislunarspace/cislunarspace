@@ -4,7 +4,7 @@ description: An open-source space mission analysis tool developed by NASA. It pr
 keywords: General Mission Analysis Tool, other
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: General Mission Analysis Tool
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An open-source space mission analysis tool developed by NASA. It provides a grap
 
 ## Application Value
 
-The 通用任务分析工具 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The General Mission Analysis Tool concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

@@ -4,7 +4,7 @@ description: "Feasible Earth-Moon transfer regions classified by Jacobi energy: 
 keywords: Energy Range
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Energy Range
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -32,7 +32,7 @@ Feasible Earth-Moon transfer regions classified by Jacobi energy: cases a, b, c,
 
 ## Application Value
 
-根据Jacobi能量划分转移可行区域，可以快速筛选出满足任务约束的地月转移轨道方案，减少轨道优化的搜索空间。
+Classifying feasible transfer regions by Jacobi energy allows rapid screening of Earth-Moon transfer trajectory schemes satisfying mission constraints and reduces the search space of orbit optimization.
 
 ## References
 

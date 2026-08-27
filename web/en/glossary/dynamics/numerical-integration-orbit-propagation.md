@@ -4,7 +4,7 @@ description: Step-by-step numerical solution of the spacecraft equations of moti
 keywords: Numerical integration (orbit propagation), dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Numerical integration (orbit propagation)
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Step-by-step numerical solution of the spacecraft equations of motion to obtain 
 
 ## Application Value
 
-该概念是分析地月空间动力学行为的基础工具。在轨道设计和任务分析中具有重要应用价值。
+It is a foundational tool for analyzing dynamical behavior in cislunar space and has significant application value in orbit design and mission analysis.
 
 ## Related Concepts
 

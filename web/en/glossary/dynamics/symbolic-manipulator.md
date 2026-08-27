@@ -4,7 +4,7 @@ description: A computer algebra system used for analytical derivation of normal 
 keywords: Symbolic Manipulator
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Symbolic Manipulator
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A computer algebra system used for analytical derivation of normal form coeffici
 
 ## Application Value
 
-在轨道计算和任务分析中，正确的坐标参考框架is保证计算结果一致性的基础。不同参考框架之间的转换需要考虑This定义，以确保多源数据的统一处理。
+In orbit computation and mission analysis, a correct coordinate reference frame is the basis for consistent results. Transformations between different reference frames must take this definition into account to ensure unified handling of multi-source data.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
-- [有价值区域（Valuable Region）](/glossary/observation/valuable-region/)
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- [Global Search](/glossary/fundamentals/global-search/)
+- [Valuable Region](/glossary/observation/valuable-region/)
 
 ## References
 

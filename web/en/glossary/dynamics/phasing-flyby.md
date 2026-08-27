@@ -4,7 +4,7 @@ description: A strategy of multiple gravity flybys to adjust orbital phasing. At
 keywords: Phasing Flyby
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Phasing Flyby
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A strategy of multiple gravity flybys to adjust orbital phasing. At high Jacobi 
 
 ## Application Value
 
-该方法在轨道转移设计中被用于分析转移通道和能量最优轨迹，为低能量转移方案提供理论支撑。
+In transfer trajectory design, the method is used to analyze transfer corridors and energy-optimal trajectories, underpinning low-energy transfer schemes.
 
 ## Related Concepts
 

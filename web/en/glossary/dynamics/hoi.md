@@ -4,7 +4,7 @@ description: The process of applying the second impulse to introduce a spacecraf
 keywords: Halo Orbit Insertion, dynamics
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Halo Orbit Insertion
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The process of applying the second impulse to introduce a spacecraft from a tran
 
 ## Application Value
 
-The 光环轨道插入 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The halo orbit insertion concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 
@@ -42,4 +42,4 @@ The 光环轨道插入 concept is applied in cislunar space research, providing 
 
 ## References
 
-- Neelakantan和Ramanan - 2022 - Two-impulse transfer to multi-revolution halo orbits in the Earth–moon elliptic restricted three bod
+- Neelakantan and Ramanan - 2022 - Two-impulse transfer to multi-revolution halo orbits in the Earth–moon elliptic restricted three bod

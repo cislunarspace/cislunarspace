@@ -4,7 +4,7 @@ description: "A low-energy transfer path in the CRTBP constructed by linking mul
 keywords: Orbit Chain
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Orbit Chain
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -40,7 +40,7 @@ The Orbit Chain plays a significant role in cislunar space mission design, analy
 
 - Football Orbit
 - Prograde Polar Orbit
-- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
+- Eccentricity/Inclination Vector Separation
 - Earth-Moon L2 Halo Orbit
 
 ## References

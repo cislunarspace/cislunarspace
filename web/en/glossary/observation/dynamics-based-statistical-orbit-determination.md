@@ -4,7 +4,7 @@ description: An orbit determination method that linearizes nonlinear observation
 keywords: Dynamics-Based Statistical Orbit Determination, observation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Dynamics-Based Statistical Orbit Determination
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An orbit determination method that linearizes nonlinear observation equations at
 
 ## Application Value
 
-在编目系统中，该技术可提高对空间目标的探测、跟踪和编目能力。
+In cataloging systems, the technique improves the detection, tracking, and cataloging of space objects.
 
 ## Related Concepts
 

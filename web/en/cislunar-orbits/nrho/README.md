@@ -4,7 +4,7 @@ description: Dynamical mechanism, stability characteristics, orbit family evolut
 keywords: NRHO, Near-Rectilinear Halo Orbit, L1 NRHO, L2 NRHO, CR3BP, Halo orbit, Gateway
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-08-20
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/nrho/
 wechatShare:
   title: Near-Rectilinear Halo Orbit (NRHO) Overview
@@ -32,22 +32,22 @@ In deep-space mission design, NRHOs offer exceptional operational advantages: th
 
 NRHOs emerge as a branch of the Halo orbit family when evolving toward the Moon with large vertical amplitudes. Their primary dynamical features include:
 
-1. **3D High-Eccentricity Geometry**: The out-of-plane amplitude ($A_z$) of an NRHO is significantly larger than its in-plane amplitude. Perilune altitudes range from a few hundred to several thousand kilometers, while apolune extends up to $\approx 70,000\text{ km}$. This geometry avoids frequent lunar eclipses and Earth occultations, ensuring continuous solar array illumination and uninterrupted ground communication links.
-2. **Weak Instability & High Controllability**: Unlike classical libration-point Halo orbits with rapid exponential divergence, NRHOs lie near the three-body stability boundary. Their dominant Floquet multipliers have moduli very close to 1 (typically $1.2\text{ to } 1.5$), demonstrating weak instability or neutral stability. A spacecraft does not rapidly escape and requires only minimal periodic correction maneuvers (less than $1\text{ m/s}$ per revolution, totaling $2\text{ to } 10\text{ m/s}$ per year) for long-duration station-keeping.
-3. **Resonance & Perturbation Synergy**: In high-fidelity ephemeris models incorporating solar gravitational perturbations and lunar non-spherical harmonics ($J_2$, Mascons), orbits with specific Earth–Moon orbital resonances (such as the 9:2 synodic resonance with a period of $\approx 6.5\text{ days}$) are favored to align perturbations with orbital motion and reduce station-keeping costs.
+1. **3D High-Amplitude Geometry**: The out-of-plane amplitude of an NRHO is significantly larger than its in-plane amplitude. Perilune altitudes range from a few hundred to several thousand kilometers, while apolune extends up to ≈ 70,000 km. Southern-family members pass perilune over the lunar north polar region and hang their distant arc above the south; northern families are their mirror images. This geometry avoids frequent lunar eclipses and Earth occultations, ensuring continuous solar array illumination and uninterrupted ground communication links.
+2. **Weak Hyperbolic Instability**: NRHOs lie near the stability boundary of the Halo family and are weakly hyperbolically unstable. For the operationally favored 9:2 resonant members, the unstable Floquet multiplier has a modulus of about 2–3 (≈ 2.2 at the 9:2 endpoint) — far smaller than the hundreds-fold multipliers of large-amplitude Halo orbits — so state errors grow only modestly per revolution. Periodic corrections at the centimeter-per-second to meter-per-second level suffice (annual budget of a few m/s, reducible to ≤ 2 m/s with modern targeting and predictive-control methods).
+3. **Resonance & Perturbation Synergy**: In high-fidelity ephemeris models incorporating solar gravitational perturbations and lunar non-spherical harmonics ($J_2$, Mascons), orbits with specific Earth–Moon orbital resonances (such as the 9:2 synodic resonance with a period of $\approx 6.56\text{ days}$) are favored to align perturbations with orbital motion and reduce station-keeping costs.
 
 ## Orbit Classification & Selection
 
-Based on the associated Lagrange point and the hemisphere of perilune/apolune, NRHOs are classified into four primary families:
+By the associated Lagrange point and north–south orientation, NRHOs fall into four primary families. Southern and northern members about the same point are mirror images: southern members stretch their apolune arc above the southern hemisphere and pass perilune near the lunar north pole, and vice versa:
 
-| Family | Perilune Location | Apolune Direction | Typical Period | Key Advantages |
+| Family | Perilune passes | Apolune arc extends | Typical Period | Key Advantages |
 | :--- | :--- | :--- | :--- | :--- |
-| **$L_1$ Southern NRHO** | Over Lunar South Pole | Northward (Earth side) | $\approx 6.5\text{–}8$ days | Long polar dwell time; low insertion energy from Earth |
-| **$L_1$ Northern NRHO** | Over Lunar North Pole | Southward (Earth side) | $\approx 6.5\text{–}8$ days | Suited for lunar north pole exploration & staging |
-| **$L_2$ Southern NRHO** | Over Lunar South Pole | Lunar Farside (Aft) | $\approx 6.5\text{–}8$ days | Simultaneous lunar south pole and farside communications |
-| **$L_2$ Northern NRHO** | Over Lunar North Pole | Lunar Farside (Aft) | $\approx 6.5\text{–}8$ days | High-latitude lunar farside tracking and relay |
+| **$L_1$ Southern NRHO** | North polar side | South side (Earth-facing) | $\approx 6.5\text{–}10$ days | Long dwell visibility over the lunar south pole; low insertion energy from Earth |
+| **$L_1$ Northern NRHO** | South polar side | North side (Earth-facing) | $\approx 6.5\text{–}10$ days | Suited for lunar north polar exploration & staging |
+| **$L_2$ Southern NRHO** | North polar side | South side (farside outboard) | $\approx 6.5\text{–}9$ days | Combined lunar south pole and farside communications |
+| **$L_2$ Northern NRHO** | South polar side | North side (farside outboard) | $\approx 6.5\text{–}9$ days | High-latitude lunar farside tracking and relay |
 
-NASA's Artemis Lunar Gateway has baselined an **$L_2$ Southern 9:2 Resonant NRHO**. With a perilune of $\approx 1,500\text{–}3,000\text{ km}$, an apolune of $\approx 70,000\text{ km}$, and a 6.56-day orbital period, the station spends the vast majority of each orbit hovering over the lunar south pole to provide reliable communications and landing staging for Artemis surface missions.
+NASA's Artemis Lunar Gateway has baselined an **$L_2$ Southern 9:2 Synodic-Resonant NRHO**. Its perilune altitude is roughly 1,500–3,000 km depending on the reference solution; each 6.56-day revolution sweeps perilune over the lunar north pole before throwing apolune about 70,000 km beyond the Moon's south pole, so the station spends most of every revolution above the lunar south polar region — providing reliable communications and landing staging for Artemis surface missions.
 
 ## Engineering Advantages
 

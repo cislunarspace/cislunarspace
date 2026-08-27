@@ -4,7 +4,7 @@ description: Classification systems, transfer cost metrics, impulsive transfer m
 keywords: cislunar transfer, transfer classification, transfer cost, two-impulse transfer, multi-pulse transfer, Hohmann-like transfer, direct fly-by transfer, DFBT, apsidal transfer, phasing, transfer leg, Earth-Moon transfer design, trajectory database
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: 地月转移轨道设计要素（Cislunar Transfer Design Elements）
   desc: Classification, cost, impulses, and phasing for cislunar transfers
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/cislunar-transfer-design-elements/
 ---
 
-# Cislunar Transfer Design Elements (地月转移轨道设计要素)
+# Cislunar Transfer Design Elements
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >
@@ -142,19 +142,19 @@ When an extremely long-duration low-thrust transfer is decomposed into multiple 
 
 - Sousa-Silva et al., 2018, Fast earth–moon transfers with ballistic capture, *Celest. Mech. Dyn. Astron.*
 
-- 韦炳威, 李银山 (Wei & Li), 2017, Analysis of low-energy Earth-Moon transfer orbit family characteristics
+- Wei & Li, 2017, Analysis of low-energy Earth-Moon transfer orbit family characteristics
 
 - Zhang et al., 2021, Low-energy transfers from DRO to Earth orbits, *Acta Astronautica*
 
 - Chao et al., 2022, Trajectory database generation for cislunar space domain awareness
 
-- 赵弘骞等 (Zhao et al.), 2021, Fast guidance for pinpoint lunar landing based on dynamic programming
+- Zhao et al., 2021, Fast guidance for pinpoint lunar landing based on dynamic programming
 
 - Acta Aeronautica et Astronautica Sinica, 2023, 44(5): 326563
 
 - Renk, Hechler, & Messerschmid, 2010, Exploration missions in the Sun-Earth-Moon system, *Acta Astronautica*
 
-- 章仁为 (Zhang Renwei), 1998, *Satellite Orbit Attitude Dynamics and Control*
+- Zhang Renwei, 1998, *Satellite Orbit Attitude Dynamics and Control*
 
 - Kluever, 1997, Optimal Earth-Moon Trajectories Using Combined Chemical-Electric Propulsion, *J. Guidance, Control, and Dynamics*
 

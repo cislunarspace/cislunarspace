@@ -4,7 +4,7 @@ description: Classification architecture, energy budgets, invariant manifolds, w
 keywords: Earth-Moon transfer orbit, TLI, ballistic capture, weak stability boundary, invariant manifold, energy budget
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-08-20
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/transfer/
 wechatShare:
   title: Earth–Moon Transfer Orbit Overview
@@ -35,7 +35,7 @@ Based on orbital energy, propulsion modes, and dynamical structures, Earth–Moo
 | Transfer Architecture | Typical Time of Flight | TLI Injection $\Delta V$ | Dynamical Mechanism & Characteristics | Primary Mission Scenarios |
 | :--- | :--- | :--- | :--- | :--- |
 | **Direct Impulsive Transfer** | 3–5 days | 3.1–3.3 km/s | Patched-conic geometry; minimal flight time and rapid radiation belt transit, but large orbit insertion $\Delta V$ | Crewed lunar missions (Apollo, Artemis), time-critical cargo |
-| **Weak Stability Boundary (WSB)** | 2–4 months | 2.9–3.0 km/s | Sun–Earth $L_1$/$L_2$ transit utilizing solar tidal perturbations to raise perilune; ballistic capture at Moon | Scientific orbiters (GRAIL, CAPSTONE), propellant-constrained logistics |
+| **Weak Stability Boundary (WSB)** | About 2–4 months | Comparable launch energy to direct transfer (tens of m/s difference), savings at lunar capture burn | Sun–Earth $L_1$/$L_2$ transit utilizing solar tidal perturbations to raise perilune; ballistic capture at Moon | Scientific orbiters (GRAIL, CAPSTONE), propellant-constrained logistics |
 | **Invariant Manifold Transfer** | Weeks to months | 3.0–3.1 km/s | Spacecraft coasts along stable manifold tubes of libration-point periodic orbits with near-zero insertion $\Delta V$ | Libration point missions, Lunar Gateway assembly & deployment |
 
 ### 1. Direct Impulsive Transfer
@@ -44,7 +44,7 @@ From a low-Earth parking orbit, the upper stage performs a high-thrust Trans-Lun
 
 ### 2. Low-Energy Manifold & Weak Stability Boundary (WSB) Transfer
 
-Low-energy transfers exploit natural energy corridors in the multi-body rotating frame. The spacecraft is injected toward the Sun–Earth libration points ($\approx 1.5\text{ million km}$ from Earth), where solar tidal forces stretch orbital eccentricity and reshape angular momentum. The spacecraft then falls back toward the Moon with very low relative velocity, achieving natural ballistic capture within the lunar sphere of influence. This saves $100\text{–}200+\text{ m/s}$ in insertion $\Delta V$ compared to direct transfers.
+Low-energy transfers exploit natural energy corridors in the multi-body rotating frame. The spacecraft is injected toward the Sun–Earth libration-point direction on a transfer whose apogee exceeds the lunar orbit, where solar tidal forces stretch orbital eccentricity and reshape angular momentum. The spacecraft then falls back toward the Moon with very low relative velocity, achieving natural ballistic capture within the lunar sphere of influence. Launch energy is comparable to a direct transfer (within tens of m/s); the main saving appears in the lunar capture burn.
 
 ### 3. Continuous Low-Thrust Electric Propulsion Transfer
 

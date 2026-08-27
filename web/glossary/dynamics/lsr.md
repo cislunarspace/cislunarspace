@@ -4,7 +4,7 @@ description: 航天器轨道周期与月球会合周期（约29.5天）成简单
 keywords: 月球会合共振, Lunar Synodic Resonance, LSR, 同步共振, synodic resonance, NRHO, 近直线晕轨道, 日食规避, Gateway, BCR4BP, 地月空间, 9:2共振
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: 月球会合共振（Lunar Synodic Resonance, LSR）
   desc: 轨道周期与月球会合周期成简单整数比：Gateway NRHO 日食规避的核心机制。
@@ -30,7 +30,7 @@ permalink: /glossary/dynamics/lsr/
 
 ## 定义
 
-月球会合共振（Lunar Synodic Resonance, LSR）指航天器轨道周期 $T_{\text{orb}}$ 与月球会合周期 $T_{\text{syn}}$（约 29.5 天，远地点至远地点，即太阳-地球-月球几何配置重复一次的时间）满足简单整数比的共振状态：
+月球会合共振（Lunar Synodic Resonance, LSR）指航天器轨道周期 $T_{\text{orb}}$ 与月球会合周期 $T_{\text{syn}}$（约 29.5 天，即太阳-地球-月球几何配置重复一次的时间）满足简单整数比的共振状态：
 
 $$\frac{T_{\text{orb}}}{T_{\text{syn}}} = \frac{P}{Q}$$
 
@@ -58,7 +58,7 @@ $$T_{3BP} = \frac{N}{M} \left| \frac{2\pi}{\omega_S} \right|$$
 
 | 共振比 | 轨道周期 | 近月点半径 | 远月点半径 | 备注 |
 |--------|----------|------------|------------|------|
-| 9:2 | ≈6.53 天 | ≈3150 km | ≈71000 km | Gateway 当前基线，9圈=2会合周期（约59天）|
+| 9:2 | ≈6.56 天 | ≈3150 km | ≈71000 km | Gateway 当前基线，9圈=2会合周期（约59天）|
 | 4:1 | ≈7.34 天 | ≈5600 km | ≈75335 km | 4圈=1会合周期；日食裕度更大 |
 | 3:1 | ≈9.79 天 | ≈15000 km | ≈84500 km | 共振比简单，但近月点更高 |
 | 5:1 | ≈5.90 天 | 无 | 无 | 近月点更接近月面 |

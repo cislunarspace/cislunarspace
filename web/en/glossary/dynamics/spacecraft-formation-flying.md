@@ -1,11 +1,11 @@
-﻿---
+---
 title: Spacecraft Formation Flying
 description: A multi-spacecraft mission concept where satellites maintain a prescribed relative geometry (distance and/or orientation) for a shared objective — interferometry, deep-space imaging, communications relay. Distinct from constellations (coverage-driven) and clusters (no precise relative geometry).
 keywords: spacecraft formation flying, formation keeping, formation reconfiguration, relative motion, libration point formation, DRO formation, inertial-frame-fixed formation, LQR formation control, ultra-close formation, natural formation
 sharingurl: 
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Spacecraft Formation Flying
   desc: Multi-spacecraft flight with prescribed relative geometry — libration point, DRO, and cislunar dynamics.
@@ -60,7 +60,7 @@ Marchand & Howell (2005) classify formation configurations by the reference fram
 
 Barden & Howell (1998) and Barden, Howell & Lo (1996) discovered a six-spacecraft natural formation existing on the center manifold near the Sun–Earth $L_1$/$L_2$ libration points. In such formations, relative distances remain bounded without active control over many orbital periods: the control cost is essentially station-keeping for the reference orbit alone.
 
-A **natural companion formation** is a specific case in DRO vicinity: the deputy is placed at an initial condition satisfying the linearized relative periodicity condition, so that it follows the chief along the DRO with bounded relative motion, at separations from meters to hundreds of kilometers (张如悦 et al. 2025).
+A **natural companion formation** is a specific case in DRO vicinity: the deputy is placed at an initial condition satisfying the linearized relative periodicity condition, so that it follows the chief along the DRO with bounded relative motion, at separations from meters to hundreds of kilometers (Zhang Ruyue et al. 2025).
 
 **Controlled (non-natural) formations** require active force to counter the natural divergence driven by the unstable eigenmode of the reference orbit. Techniques surveyed by Marchand & Howell (2005):
 
@@ -74,7 +74,7 @@ A **natural companion formation** is a specific case in DRO vicinity: the deputy
 
 - **Formation configuration keeping**: Maintaining the prescribed relative geometry after initial deployment. The controller is usually low-thrust but continuous. Performance metrics include baseline relative error, per-axis position error, and propellant consumption.
 
-- **Stationkeeping**: A broader term covering both the maintenance of the absolute reference orbit and the relative configuration constraints. For DRO formations, the sensitivity of relative motion to navigation errors and the frequency of control cycles must be traded (敖海跃 et al. 2024).
+- **Stationkeeping**: A broader term covering both the maintenance of the absolute reference orbit and the relative configuration constraints. For DRO formations, the sensitivity of relative motion to navigation errors and the frequency of control cycles must be traded (Ao Haiyue et al. 2024).
 
 - **Reconfiguration**: Moving the deputy from one formation point to another within the formation. An analytical **safe transfer formation** design guarantees that the inter-vehicle distance exceeds the safety threshold throughout the transfer, with a simpler structure than full optimal control but practical engineering utility.
 
@@ -90,7 +90,7 @@ The Terrestrial Planet Finder (TPF), Darwin, and MAXIM missions spurred extensiv
 
 ## Cislunar Applications
 
-- **DRO close-range formations**: 张如悦 et al. (2025) investigated relative orbit determination for a 2:1 DRO chief–deputy formation using inter-satellite ranging and optical angle data. With a well-determined chief orbit, all three schemes achieve 10 m relative position accuracy and sub-mm/s velocity accuracy. When the chief orbit is poorly determined, the scheme combining ranging and optical angles improves relative position accuracy to 13 m with minute-level convergence.
+- **DRO close-range formations**: Zhang Ruyue et al. (2025) investigated relative orbit determination for a 2:1 DRO chief–deputy formation using inter-satellite ranging and optical angle data. With a well-determined chief orbit, all three schemes achieve 10 m relative position accuracy and sub-mm/s velocity accuracy. When the chief orbit is poorly determined, the scheme combining ranging and optical angles improves relative position accuracy to 13 m with minute-level convergence.
 
 - **Lunar navigation constellation formations**: The Tiandu-1/2 technology demonstration satellites fly in lunar-orbit formation to validate inter-satellite links.
 

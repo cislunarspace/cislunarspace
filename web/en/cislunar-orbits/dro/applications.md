@@ -4,7 +4,7 @@ description: Engineering applications of Distant Retrograde Orbit including cont
 keywords: DRO applications, contingency return, relay communications, formation flying, CAPSTONE, Artemis
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/dro/applications/
 wechatShare:
   title: "Cislunar Space Guide | DRO Engineering Applications"
@@ -40,33 +40,18 @@ Multi-spacecraft coordination is another application direction for DRO. Multiple
 - Enable formation flying missions (such as synthetic aperture radar, gravitational wave detection, etc.)
 - Form "constellation" structures to improve coverage or redundancy
 
-The typical formation maintenance ΔV budget is approximately 5-10 m/s/year, significantly lower than the 20-40 m/s/year for NRHO formations.
+The Chinese Academy of Sciences' DRO-A/B twin satellites follow exactly this approach: launched in March 2024, the two spacecraft separated into formation in August of the same year to validate formation flying and measurement technologies on an Earth–Moon DRO.
 
 ## Representative Mission Case Studies
 
-### CAPSTONE
+### Artemis I
 
-NASA's **CAPSTONE** (Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment) was the first mission specifically designed to validate cislunar DRO, launched in 2022. CAPSTONE operated in L1 DRO to validate:
+NASA's Artemis I (2022) is the most direct example of DRO engineering application: the uncrewed Orion spacecraft spent 25.5 days around the Moon on a distant retrograde-class orbit, setting the record for the farthest deep-space flight of a crew-rated spacecraft. The mission directly exercised this orbit class in a real-ephemeris environment.
 
-- Long-term stability of DRO orbits
-- Autonomous navigation technologies
-- Communications with the Lunar Reconnaissance Orbiter (LRO)
+### CAS DRO-A/B Twins
 
-CAPSTONE's success validated the feasibility of DRO as an operational orbit for cislunar space missions.
+The Chinese Academy of Sciences' DRO-A/B twins were launched in March 2024. After the upper stage malfunctioned during launch, ground teams rescued the spacecraft into their target orbit; the two satellites separated into formation in August 2024 and remain operational — China's first on-orbit validation of Earth–Moon DROs.
 
-### DRO in the Artemis Program
+## Choosing Between DRO and NRHO
 
-In the Artemis program, DRO was considered as a backup operational orbit option. Although NASA ultimately chose NRHO as the Gateway's operational orbit, DRO offers advantages in:
-
-- Lower maintenance ΔV
-- Higher inherent stability
-- Simpler orbital design
-
-## ΔV Budget Comparison Across Application Scenarios
-
-| Application Scenario | ΔV from LEO | Orbit Maintenance ΔV/year |
-| --------------------- | ------------- | --------------------------- |
-| L1 DRO | ~3.2 km/s | 5-10 m/s |
-| L2 DRO | ~3.3 km/s | 8-15 m/s |
-| L1 NRHO | ~3.1 km/s | 30-50 m/s |
-| L2 NRHO | ~3.1 km/s | 40-80 m/s |
+During Gateway planning, DRO and NRHO were compared as candidate operational orbits. DRO wins on inherent stability and lower maintenance cost, while NRHO offers superior polar accessibility — low perilune and most of each revolution above the lunar south pole make it suitable for crewed landing staging. NASA ultimately selected NRHO for Gateway, while Artemis I used a distant retrograde-class orbit for its lunar loop: the two are complementary rather than interchangeable.

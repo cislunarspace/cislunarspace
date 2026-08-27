@@ -4,7 +4,7 @@ description: The subinterval of an optimal trajectory where a state constraint i
 keywords: Interior Interval
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Interior Interval
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,9 +38,9 @@ Based on its definition, the subinterval of an optimal trajectory where a state 
 
 ## Related Concepts
 
-- 三体问题（Three-Body Problem）
-- 最优控制（Optimal Control）
-- 轨迹优化（Trajectory Optimization）
+- Three-Body Problem
+- Optimal Control
+- Trajectory Optimization
 
 ## References
 

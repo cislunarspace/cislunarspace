@@ -4,7 +4,7 @@ description: The gravitational force exerted by the Sun on spacecraft within the
 keywords: Solar Gravity
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Solar Gravity
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ The gravitational force exerted by the Sun on spacecraft within the Earth-Moon s
 
 ## Application Value
 
-用于分析航天器在复杂引力场中的运动特性 用于评估导航系统的精度上限，指导滤波器设计。
+It is used to analyze spacecraft motion characteristics in complex gravitational fields and to assess the upper accuracy bound of navigation systems, guiding filter design.
 
 ## References
 

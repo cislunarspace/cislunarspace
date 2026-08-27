@@ -4,7 +4,7 @@ description: Autonomous orbit determination between a lunar satellite and a prob
 keywords: Combined Autonomous Orbit Determination, CAOD, navigation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Combined Autonomous Orbit Determination, CAOD
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Autonomous orbit determination between a lunar satellite and a probe on a specia
 
 ## Application Value
 
-The 组合自主定轨 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Combined Autonomous Orbit Determination concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

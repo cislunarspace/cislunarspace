@@ -4,7 +4,7 @@ description: The geometric condition enabling inter-satellite link communication
 keywords: Inter-Satellite Visibility
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Inter-Satellite Visibility
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The geometric condition enabling inter-satellite link communication between two 
 
 ## Application Value
 
-在轨道设计阶段，可利用该轨道类型构建候选轨道池，为星座部署和任务轨道选择提供参考。在轨运行时，该轨道特性可用于轨道维持策略设计，降低推进剂消耗。在轨道转移规划中，其稳定流形结构可指导低能量转移走廊的搜索。
+In the orbit design phase, this orbit type can be used to build a pool of candidate orbits as a reference for constellation deployment and mission orbit selection. During on-orbit operations, its characteristics inform station-keeping strategy design and reduce propellant consumption. In transfer trajectory planning, its stable manifold structure guides the search for low-energy transfer corridors.
 
 ## Related Concepts
 

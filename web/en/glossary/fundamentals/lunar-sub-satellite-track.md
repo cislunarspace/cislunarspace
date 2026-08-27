@@ -4,7 +4,7 @@ description: The track formed by the vertical projection of a spacecraft or cele
 keywords: Lunar Sub-Satellite Track
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lunar Sub-Satellite Track
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,9 +38,9 @@ Based on its definition, the track formed by the vertical projection of a spacec
 
 ## Related Concepts
 
-- 轨道力学（Orbital Mechanics）
-- 坐标系（Coordinate Frame）
-- 积分（Integration）
+- Orbital Mechanics
+- Coordinate Frame
+- Integration
 
 ## References
 

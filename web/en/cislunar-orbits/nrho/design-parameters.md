@@ -4,7 +4,7 @@ description: "Typical design parameters for NRHO orbits: period, amplitude, incl
 keywords: NRHO design, design parameters, pseudo-arclength continuation, initial conditions, CRTBP
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/nrho/design-parameters/
 wechatShare:
   title: "Cislunar Space Guide | NRHO Design Parameters"
@@ -24,12 +24,12 @@ Typical design parameters for L1/L2 NRHO are as follows:
 
 | Parameter | L1 NRHO | L2 NRHO |
 | ----------- | --------- | --------- |
-| Period | 6.5-7.5 days | 7.0-8.0 days |
-| Semi-major axis $A_x$ | 2,000-4,000 km | 3,000-5,000 km |
-| Amplitude ratio $A_z/A_x$ | 0.5-2.0 | 0.5-2.0 |
-| Inclination range | 20°-50° (near frozen inclination) | 20°-50° |
-| Jacobi constant $C_J$ | 2.95-3.05 | 2.90-3.00 |
-| Typical station-keeping ΔV | 30-50 m/s/year | 40-80 m/s/year |
+| Period | ≈ 6.5–10 days | ≈ 6.5–9 days |
+| Perilune altitude | A few hundred to several thousand km | A few hundred to several thousand km (Gateway baseline ≈ 1,500–3,000 km) |
+| Apolune altitude | Up to ≈ 70,000 km | Up to ≈ 70,000 km |
+| Amplitude ratio $A_z/A_x$ | Above roughly 0.3 (near-rectilinear character) | Same |
+| Jacobi constant $C_J$ | ≈ 2.95–3.05 | ≈ 2.90–3.00 (9:2 member ≈ 3.047) |
+| Typical station-keeping ΔV | A few m/s/year (≤ 2 m/s/year with modern methods) | A few m/s/year (≤ 2 m/s/year with modern methods) |
 
 Earth-Moon mass ratio parameter: $\mu_{EM} = 0.0121505853$
 
@@ -81,6 +81,6 @@ Over a 10-year mission lifetime, this cumulative effect may cause several minute
 
 ### Effect of Initial Position Deviation
 
-The sensitivity of NRHO to initial position deviation can be evaluated via singular value decomposition (SVD) of the state transition matrix. Typically, the deviation amplification factor along the unstable manifold direction is approximately $10^2$ to $10^3$ per period.
+The sensitivity of NRHO to initial position deviation is best assessed through the unstable Floquet mode of the monodromy matrix. For the 9:2 member, errors along the unstable direction grow by a factor of about 2–3 per revolution; long-duration missions must pair per-revolution monitoring with targeted corrections.
 
 ## Simulation Experiment

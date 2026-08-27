@@ -4,7 +4,7 @@ description: The eigenvector corresponding to the largest singular value of the 
 keywords: principal stretching direction
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: principal stretching direction
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The eigenvector corresponding to the largest singular value of the Cauchy-Green 
 
 ## Application Value
 
-主拉伸方向是最大拉伸特征值对应的特征向量方向，轨道设计师沿该方向机动以最快改变轨道能量，是转移轨道设计的参考方向。
+The principal stretching direction is the eigenvector direction associated with the largest stretching eigenvalue. Orbit designers maneuver along it to change orbital energy fastest, making it a reference direction for transfer trajectory design.
 
 ## Related Concepts
 

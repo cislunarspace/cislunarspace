@@ -4,7 +4,7 @@ description: Time Synchronization Accuracy; the precision of time alignment betw
 keywords: Time Synchronization Accuracy
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Time Synchronization Accuracy
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ Time Synchronization Accuracy; the precision of time alignment between satellite
 
 ## Application Value
 
-在导航系统设计中，This技术可used forachieves航天器自主导航定位，减少对地面测控的依赖。through优化观测几何和算法精度，可提高导航定位的准确性和可靠性。
+In navigation system design, this technology enables autonomous spacecraft navigation and positioning while reducing dependence on ground tracking. By optimizing observation geometry and algorithm accuracy, the accuracy and reliability of navigation and positioning can be improved.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
-- 姿态确定与控制系统（Attitude Determination and Control System）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- [Global Search](/glossary/fundamentals/global-search/)
+- Attitude Determination and Control System
 
 ## References
 

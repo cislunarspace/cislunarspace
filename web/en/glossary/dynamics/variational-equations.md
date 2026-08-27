@@ -4,7 +4,7 @@ description: A system of differential equations governing the evolution of the s
 keywords: Variational Equations, cislunar space, orbital mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Variational Equations
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A system of differential equations governing the evolution of the state transiti
 
 ## Application Value
 
-变分equationdescribe状态transfermatrix of 演化, 其特征值决定orbit of 可观性. In orbitdesign敏感性analysis和可观性analysis中, 变分equation is core工具.
+The variational equations describe the evolution of the state transition matrix along an orbit, whose eigenvalues determine the observability of the orbit. Variational equations are a core tool in sensitivity analysis and observability analysis for orbit design.
 
 ## Related Concepts
 

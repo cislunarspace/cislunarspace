@@ -4,7 +4,7 @@ description: A strategy for systematically searching for optimal solutions acros
 keywords: Global Search
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Global Search
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A strategy for systematically searching for optimal solutions across the entire 
 
 ## Application Value
 
-在航天器控制系统设计中，This方法可used for设计姿态控制律或制导律，achieves对航天器姿态和轨道的精确控制。在实际任务中，基于This方法的控制器能够提高姿态稳定性和轨迹跟踪精度。
+In spacecraft control system design, this method can be used to develop attitude control laws or guidance laws, achieving precise control of spacecraft attitude and orbit. In operational missions, controllers based on this method improve attitude stability and trajectory tracking accuracy.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Lunar free-return trajectory (LFO)
+- Constraint-transformation nonlinear programming
 
 ## References
 

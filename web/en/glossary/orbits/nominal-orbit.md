@@ -4,7 +4,7 @@ description: The designed reference orbit state, such as the nominal Halo orbit,
 keywords: Nominal Orbit, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Nominal Orbit
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The designed reference orbit state, such as the nominal Halo orbit, serving as t
 
 ## Application Value
 
-在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗。该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。利用流形结构可设计低能量转移轨道，减少对推进剂的依赖。
+In the orbit design phase, the method can solve for low-energy transfer trajectories while reducing propellant consumption. This orbit type can serve as a transit node of the Earth–Moon transportation network or as a mission target orbit. Manifold structures enable the design of low-energy transfer trajectories, reducing propellant dependence.
 
 ## Related Concepts
 
@@ -47,4 +47,4 @@ The designed reference orbit state, such as the nominal Halo orbit, serving as t
 
 - 李宸硕 等 - 2024 - 基于弱稳定边界理论的低能地月转移轨道设计
 - Spreen 2021
-- Gómez 等 - 2001
+- Gómez et al. - 2001

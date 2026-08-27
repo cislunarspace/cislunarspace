@@ -4,7 +4,7 @@ description: The time interval between two navigation measurements. In cislunar 
 keywords: Navigation Update Interval
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Navigation Update Interval
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ The time interval between two navigation measurements. In cislunar continuous-th
 
 ## Application Value
 
-This term has significant application value in cislunar space missions。In the orbital design phase, engineers use relevant theories for trajectory optimization；In navigation and orbit determination, it is used to improve measurement accuracy；In attitude control and orbit maintenance tasks, it ensures stable spacecraft operation。In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency。
+This term has significant application value in cislunar space missions. In the orbital design phase, engineers use relevant theories for trajectory optimization; in navigation and orbit determination, it is used to improve measurement accuracy; in attitude control and orbit maintenance tasks, it ensures stable spacecraft operation. In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency.
 
 ## Related Concepts
 

@@ -4,7 +4,7 @@ description: "Targeting parameters in deep space trajectory design. The B-plane 
 keywords: B-Plane Parameters
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: B-Plane Parameters
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ Targeting parameters in deep space trajectory design. The B-plane is a plane pas
 
 ## Application Value
 
-This term has significant application value in cislunar space missions。In the orbital design phase, engineers use relevant theories for trajectory optimization；In navigation and orbit determination, it is used to improve measurement accuracy；In attitude control and orbit maintenance tasks, it ensures stable spacecraft operation。In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency。
+This term has significant application value in cislunar space missions. In the orbital design phase, engineers use relevant theories for trajectory optimization; in navigation and orbit determination, it is used to improve measurement accuracy; in attitude control and orbit maintenance tasks, it ensures stable spacecraft operation. In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency.
 
 ## Related Concepts
 

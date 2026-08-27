@@ -4,7 +4,7 @@ description: A high-order target point approach for station-keeping of periodic 
 keywords: TPhA, dynamics
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: TPhA
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A high-order target point approach for station-keeping of periodic orbits, where
 
 ## Application Value
 
-The 高阶目标相位法 concept provides technical support and analytical methods for cislunar space research and lunar exploration missions.
+The high-order target phase approach provides technical support and analytical methods for cislunar space research and lunar exploration missions.
 
 ## Related Concepts
 

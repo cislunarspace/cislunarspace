@@ -4,7 +4,7 @@ description: A shooting-based station-keeping method for cislunar libration poin
 keywords: x-Axis Crossing Control, XAC, dynamics
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: x-Axis Crossing Control, XAC
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A shooting-based station-keeping method for cislunar libration point orbits. XAC
 
 ## Application Value
 
-The x轴穿越控制 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The x-axis crossing control concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

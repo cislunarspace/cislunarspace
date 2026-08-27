@@ -5,7 +5,7 @@ description: In-depth analysis of cislunar space definition, scope, environmenta
 keywords: cislunar space, cislunar space definition, cislunar environment, strategic value, lunar exploration, Earth-Moon system
 author: Tianjiang Shuo
 date: 2026-03-07
-lastUpdated: 2026-03-07
+lastUpdated: 2026-08-27
 wechatShare:
   title: What Is Cislunar Space
   desc: One-stop learning for cislunar space research frontiers, terminology, and tool resources.
@@ -28,7 +28,7 @@ This section introduces the definition and strategic context of cislunar space, 
 
 ## 1.1 Definition of Cislunar Space
 
-Cislunar space refers to the gravitational interaction zone between the Earth and the Moon beyond geostationary orbit. It extends from approximately 36,000 kilometers above the Earth's surface to about 500,000 kilometers, encompassing the Moon and the Earth-Moon libration point orbits. There are two main differences between cislunar space and near-Earth space: first, the distance scale is more than 10 times larger and the volumetric space is more than 1,000 times greater; second, due to the combined gravitational influence of both the Earth and the Moon, orbital motion evolves from the basic two-body problem to the complex three-body problem, transforming the deterministic classical Keplerian orbits of near-Earth space into the unstable chaotic orbits of cislunar space. This fundamentally changes humanity's traditional understanding of orbital motion and determines the characteristics of aerospace activities in cislunar space [1].
+Cislunar space refers to the gravitational interaction zone between the Earth and the Moon beyond geostationary orbit. In the common research definition, it extends from geostationary orbit (35,786 km altitude) out to the lunar surface, encompassing high-Earth space beyond GEO, cislunar transfer space between Earth and Moon, and lunar space dominated by lunar gravity; some literature extends the outer boundary to Earth's Hill sphere (about 1.5 million km from Earth). There are two main differences between cislunar space and near-Earth space: first, the distance scale is more than 10 times larger and the volumetric space is more than 1,000 times greater; second, due to the combined gravitational influence of both the Earth and the Moon, orbital motion evolves from the basic two-body problem to the complex three-body problem, transforming the deterministic classical Keplerian orbits of near-Earth space into the unstable chaotic orbits of cislunar space. This fundamentally changes humanity's traditional understanding of orbital motion and determines the characteristics of aerospace activities in cislunar space [1].
 
 ![Schematic of Cislunar Space [2]](/地月空间示意图.png)
 

@@ -4,7 +4,7 @@ description: Continuous communication between Earth and the lunar far side using
 keywords: L2 Point Relay Communication
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: L2 Point Relay Communication
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -37,9 +37,9 @@ In lunar far-side landing missions, L2 Halo orbit relay satellites maintain cont
 
 ## Related Concepts
 
-- 月球中继卫星系统（Lunar Relay Satellite System, LRSS）
-- 天基测控站（Space-based Tracking Station）
-- 双向相干多普勒（Two-Way Coherent Doppler）
+- Lunar Relay Satellite System, LRSS
+- Space-based Tracking Station
+- Two-Way Coherent Doppler
 
 ## References
 

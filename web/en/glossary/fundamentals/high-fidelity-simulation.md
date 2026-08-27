@@ -4,7 +4,7 @@ description: "An orbit simulation approach using a complete force model (includi
 keywords: High-Fidelity Simulation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: High-Fidelity Simulation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ An orbit simulation approach using a complete force model (including Earth's non
 
 ## Application Value
 
-在高置信度仿真的设计与分析中，可用于优化转移方案，减少燃料消耗 用于分析航天器在复杂引力场中的运动特性。
+In the design and analysis of high-fidelity simulations, it can be used to optimize transfer schemes and reduce fuel consumption, and to analyze spacecraft motion in complex gravity fields.
 
 ## References
 

@@ -1,10 +1,10 @@
-﻿---
+---
 title: Phase Space & Phase Space Conduit (相空间与相空间通道)
 description: The $2n$-dimensional space spanned by position and velocity (momentum) coordinates — the geometric foundation of dynamical systems theory. In the CR3BP the phase space is six-dimensional, constrained to a five-dimensional energy manifold by the Jacobi constant. A phase space conduit is a low-dimensional transport tube connecting regions of different energy, arising from gaps between invariant manifolds and zero-velocity surfaces — the dynamical root of weak-stability-boundary transfers.
 keywords: Phase Space, Phase Space Conduit, transport tube, dynamical systems, CR3BP, invariant manifolds, zero-velocity surface, weak stability boundary, low-energy transfer
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Phase Space & Phase Space Conduit
   desc: Dynamical systems geometry — from the 6D CR3BP phase space to transport tubes linking energy regions.
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/dynamics/phase-space/
 ---
 
-# Phase Space & Phase Space Conduit (相空间与相空间通道)
+# Phase Space & Phase Space Conduit
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

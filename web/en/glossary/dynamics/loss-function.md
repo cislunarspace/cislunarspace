@@ -4,7 +4,7 @@ description: An optimization objective function defined based on differential eq
 keywords: Loss Function
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Loss Function
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,8 +33,8 @@ An optimization objective function defined based on differential equation residu
 
 ## Application Value
 
-为航天器的精确控制提供理论依据，确保任务执行的可靠性 结合数值优化算法，可实现高性能的轨迹规划 描述系统状态随时间的变化规律，是轨道预报的基础。
+It provides the theoretical basis for precise spacecraft control and helps ensure mission reliability. Combined with numerical optimization algorithms, it enables high-performance trajectory planning. It describes how the system state evolves over time and is the foundation of orbit prediction.
 
 ## References
 
-- Johnston 等 - 2020
+- Johnston et al. - 2020

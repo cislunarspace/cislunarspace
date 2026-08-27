@@ -4,7 +4,7 @@ description: "A classification of trans-lunar trajectories by orbital direction:
 keywords: Prograde in Perigee and Retrograde in Perilune, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Prograde in Perigee and Retrograde in Perilune
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A classification of trans-lunar trajectories by orbital direction: the spacecraf
 
 ## Application Value
 
-在设计地月转移方案时，利用该轨道特性可降低任务总速度增量需求。
+When designing Earth–Moon transfer schemes, exploiting this orbit characteristic reduces the total mission ΔV requirement.
 
 ## Related Concepts
 

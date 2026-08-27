@@ -4,7 +4,7 @@ description: "Periodic orbit near the Sun-Earth L1 point. In the four-body frame
 keywords: EL1 Orbit, orbit design, transfer trajectory, periodic orbit
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: EL1 Orbit
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Periodic orbit near the Sun-Earth L1 point. In the four-body framework, EL1 orbi
 
 ## Application Value
 
-[Translation needed for: 轨道力学是地月空间任务设计的基础，精确的轨道计算和分析能力直接决定任务能否成功实施。...]
+Orbital mechanics is the foundation of cislunar mission design; precise orbit computation and analysis capabilities directly determine whether a mission can be carried out successfully.
 
 ## Related Concepts
 

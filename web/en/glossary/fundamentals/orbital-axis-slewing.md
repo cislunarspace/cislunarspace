@@ -4,7 +4,7 @@ description: A two-impulse maneuver that rotates the major axis of an elliptical
 keywords: Orbital Axis Slewing
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Orbital Axis Slewing
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ A two-impulse maneuver that rotates the major axis of an elliptical orbit withou
 
 ## Application Value
 
-在脉冲转向的设计与分析中，可用于优化转移方案，减少燃料消耗 为航天器的精确控制提供理论依据，确保任务执行的可靠性 在任务规划阶段用于评估不同推进方案的优劣。
+In the design and analysis of impulsive axis slewing, it can be used to optimize transfer schemes and reduce fuel consumption; it also provides the theoretical basis for precise spacecraft control and helps ensure mission reliability. In mission planning, it is used to evaluate competing propulsion options.
 
 ## References
 

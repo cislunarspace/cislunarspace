@@ -4,7 +4,7 @@ description: The core transformation technique of the Unscented Kalman Filter. A
 keywords: Unscented Transformation, UT, navigation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Unscented Transformation, UT
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The core transformation technique of the Unscented Kalman Filter. A set of deter
 
 ## Application Value
 
-The 无迹变换 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Unscented Transformation concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

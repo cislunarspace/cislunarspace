@@ -4,7 +4,7 @@ description: Principles of ballistic capture, comparison with powered capture, i
 keywords: Ballistic Capture, Low-Energy Transfer, WSB, Weak Stability Boundary, Lunar Gravity Assist
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/transfer/ballistic-capture/
 wechatShare:
   title: "Cislunar Space Guide | Ballistic Capture"
@@ -28,7 +28,7 @@ Traditional Earth-Moon transfer (powered capture) requires a deceleration maneuv
 | ---------------- | ------------------- | ----------------- |
 | Propulsion near Moon | None required | Required ($\Delta V \sim 0.8-1.0$ km/s) |
 | Launch timing requirement | Very precise (narrow window) | Relatively flexible |
-| Transfer duration | Longer (1-3 months) | Shorter (3-5 days) |
+| Transfer duration | Longer (about 2–4 months) | Shorter (3-5 days) |
 | Fuel efficiency | High | Moderate |
 | Mission suitability | Small probes, CubeSats | Crewed, cargo, urgent missions |
 
@@ -36,7 +36,7 @@ Traditional Earth-Moon transfer (powered capture) requires a deceleration maneuv
 
 Ballistic capture is the core implementation mechanism of the **Weak Stability Boundary** (WSB) transfer theory.
 
-WSB theory was proposed by Italian mathematicians Belbruno and Miller in 1987. Their key discovery was that there exists a weak stability boundary in the Earth-Moon system, and transfers crossing this boundary can be completed with extremely low energy. The specific process is:
+WSB theory was proposed by Belbruno in the late 1980s; Belbruno and Miller published a systematic design method for Sun-perturbed Earth–Moon ballistic-capture transfers in 1993. The specific process is:
 
 1. Launch with aim at a point ahead of the Moon (not at the Moon itself)
 2. Exploit the interaction between solar gravity perturbations and lunar gravity
@@ -49,13 +49,13 @@ Japan's lunar probe **Hiten** (1991) was the first mission to validate WSB balli
 
 ### Advantages
 
-1. **Fuel savings**: Ballistic capture can reduce the TLI阶段的 $\Delta V$ by approximately 200-300 m/s
+1. **Fuel savings**: The launch energy of a ballistic capture transfer is comparable to a direct transfer (within tens of m/s); the main saving appears in the capture burn at lunar arrival (hundreds of m/s)
 2. **Relaxed launch windows**: Although precise timing is required, optimal windows can be selected through advance planning
 3. **Suitable for small satellites**: For small probes with tight $\Delta V$ budgets, ballistic capture provides a viable transfer solution
 
 ### Limitations
 
-1. **Long transfer time**: Ballistic capture transfer typically takes 1-3 months, far longer than direct transfer
+1. **Long transfer time**: Ballistic capture transfers typically take about 2–4 months, far longer than direct transfer
 2. **Narrow launch window**: High precision is required for launch timing; deviating from the optimal window significantly increases $C_3$
 3. **Communication constraints**: The long transfer time means the spacecraft will experience extended communication blackouts during transit
 4. **Mission scheduling**: Ballistic capture is unsuitable for missions requiring rapid response (e.g., crewed missions)

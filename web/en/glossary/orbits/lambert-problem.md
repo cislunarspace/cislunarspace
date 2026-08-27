@@ -4,7 +4,7 @@ description: Problem of determining orbit parameters given two position vectors 
 keywords: Lambert Problem, orbits
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lambert Problem
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Problem of determining orbit parameters given two position vectors and time of f
 
 ## Application Value
 
-Lambert问题是轨道转移设计的基础，可求解两点边值问题。
+The Lambert problem is the foundation of orbit transfer design and can solve two-point boundary value problems.
 
 ## Related Concepts
 

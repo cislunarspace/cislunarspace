@@ -4,7 +4,7 @@ description: The change in the angle between the orbital plane and a reference p
 keywords: Inclination Change
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Inclination Change
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -32,7 +32,7 @@ The change in the angle between the orbital plane and a reference plane. In cisl
 
 ## Application Value
 
-DRO以其对初始相位角不敏感的优良特性，成为地月空间任务设计中的重要参考轨道。
+Thanks to its insensitivity to the initial phase angle, the DRO serves as an important reference orbit in cislunar space mission design.
 
 ## References
 

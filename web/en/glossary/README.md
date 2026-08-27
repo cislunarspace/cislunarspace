@@ -5,7 +5,7 @@ description: A glossary of cislunar space terms spanning orbital dynamics, navig
 keywords: cislunar glossary, orbital dynamics, CR3BP, DRO, NRHO, libration points, navigation, observation, terminology
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Cislunar Space Glossary
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -30,7 +30,7 @@ twitter:
 
 Cislunar space research spans orbital dynamics, guidance-navigation-control, deep-space mission design, and space-environment modeling, so its terminology is inherently cross-disciplinary. This glossary collects terms ranging from foundational concepts to front-edge topics, grouped by category for easy reference.
 
-The Chinese edition ([术语词典](/glossary/)) lists every entry in full and is the source text for the English edition. This English edition mirrors it; entries that are not yet translated are being added progressively.
+The Chinese edition ([Glossary](/glossary/)) lists every entry in full and is the source text for the English edition. This English edition mirrors it; entries that are not yet translated are being added progressively.
 
 ## Categories
 

@@ -4,7 +4,7 @@ description: In TPhA, the phase angle at a prescribed Poincare section surface w
 keywords: Target Phase, dynamics
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Target Phase
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ In TPhA, the phase angle at a prescribed Poincare section surface where the targ
 
 ## Application Value
 
-The 目标相位 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The target phase concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

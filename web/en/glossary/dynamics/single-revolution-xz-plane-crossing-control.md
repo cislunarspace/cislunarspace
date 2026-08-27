@@ -4,7 +4,7 @@ description: "A station-keeping strategy for libration point orbits: a single im
 keywords: Single-Revolution xz-Plane Crossing Control
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Single-Revolution xz-Plane Crossing Control
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ A station-keeping strategy for libration point orbits: a single impulsive maneuv
 
 ## Application Value
 
-This term has significant application value in cislunar space missions。In the orbital design phase, engineers use relevant theories for trajectory optimization；In navigation and orbit determination, it is used to improve measurement accuracy；In attitude control and orbit maintenance tasks, it ensures stable spacecraft operation。In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency。
+This term has significant application value in cislunar space missions. In the orbital design phase, engineers use relevant theories for trajectory optimization; in navigation and orbit determination, it is used to improve measurement accuracy; in attitude control and orbit maintenance tasks, it ensures stable spacecraft operation. In practical applications, parameter optimization and algorithm adaptation can be combined with mission requirements to improve mission success rate and resource utilization efficiency.
 
 ## Related Concepts
 

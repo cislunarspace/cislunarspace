@@ -4,7 +4,7 @@ description: "A staged LPO constellation optimization method: the first step rap
 keywords: Two-Step Optimization Algorithm
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Two-Step Optimization Algorithm
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A staged LPO constellation optimization method: the first step rapidly screens c
 
 ## Application Value
 
-两步优化算法先进行全局搜索再进行局部优化，是求解复杂轨道优化问题的有效策略。
+The two-step optimization algorithm performs global search first and then local refinement, making it an effective strategy for solving complex orbit optimization problems.
 
 ## Related Concepts
 

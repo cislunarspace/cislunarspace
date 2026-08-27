@@ -4,7 +4,7 @@ description: An identity describing the relationship between the second derivati
 keywords: Lagrange-Jacobi Identity
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lagrange-Jacobi Identity
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ An identity describing the relationship between the second derivative of the mom
 
 ## Application Value
 
-This术语在地月空间任务的设计、分析和控制中具有important应用价值，为相关技术领域的研究和工程实践provides理论支撑。
+This term has important application value in the design, analysis, and control of cislunar missions, providing theoretical support for research and engineering practice in related fields.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
-- 姿态确定与控制系统（Attitude Determination and Control System）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- [Global Search](/glossary/fundamentals/global-search/)
+- Attitude Determination and Control System
 
 ## References
 

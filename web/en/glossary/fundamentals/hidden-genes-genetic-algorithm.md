@@ -4,7 +4,7 @@ description: A multi-objective optimization algorithm developed by Visonneau et 
 keywords: Hidden-Genes Genetic Algorithm, spacecraft dynamics, orbital mechanics, coordinate system
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Hidden-Genes Genetic Algorithm
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A multi-objective optimization algorithm developed by Visonneau et al. for cislu
 
 ## Application Value
 
-[Translation needed for: 算法是实现导航、控制和轨道计算的核心，高效可靠的算法对任务成功至关重要。...]
+Algorithms are central to navigation, control, and orbit computation; efficient and reliable algorithms are critical to mission success.
 
 ## Related Concepts
 

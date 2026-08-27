@@ -4,7 +4,7 @@ description: In halo orbit transfer optimization, a strategy that generalizes po
 keywords: Moving Point Strategy, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Moving Point Strategy
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ In halo orbit transfer optimization, a strategy that generalizes point-to-point 
 
 ## Application Value
 
-在轨道设计阶段，该方法可用于求解低能量转移轨道，减少推进剂消耗。该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。在设计地月转移方案时，利用该轨道特性可降低任务总速度增量需求。对于大质量航天器的长时间转移，该推进方式可大幅降低推进剂消耗。
+In the orbit design phase, the method can solve for low-energy transfer trajectories while reducing propellant consumption. This orbit type can serve as a transit node of the Earth–Moon transportation network or as a mission target orbit. When designing Earth–Moon transfer schemes, exploiting this orbit characteristic reduces the total mission ΔV requirement. For long-duration transfers of high-mass spacecraft, this propulsion approach can substantially reduce propellant consumption.
 
 ## Related Concepts
 

@@ -4,7 +4,7 @@ description: "A lunar gravity field model derived from NASA's GRAIL (Gravity Rec
 keywords: GRAIL Gravity Field Model, observation
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: GRAIL Gravity Field Model
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A lunar gravity field model derived from NASA's GRAIL (Gravity Recovery and Inte
 
 ## Application Value
 
-The GRAIL重力场模型 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The GRAIL lunar gravity field model concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

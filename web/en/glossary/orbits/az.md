@@ -4,7 +4,7 @@ description: The maximum out-of-plane displacement of a halo orbit in the z-dire
 keywords: Out-of-plane Amplitude, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Out-of-plane Amplitude
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The maximum out-of-plane displacement of a halo orbit in the z-direction, charac
 
 ## Application Value
 
-The 面外振幅 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The out-of-plane amplitude concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 
@@ -42,5 +42,5 @@ The 面外振幅 concept is applied in cislunar space research, providing techni
 
 ## References
 
-- Alessi 等 - 2009 - Leaving the moon by means of invariant manifolds of libration point orbits
+- Alessi et al. - 2009 - Leaving the moon by means of invariant manifolds of libration point orbits
 - /home/ouyangjiahong/Downloads/地月空间相关/output/Gordon - 2008 - Transfers to Earth-moon L2 halo orbits using lunar proximity and invariant manifolds/hybrid_auto/Gordon - 2008 - Transfers to Earth-moon L2 halo orbits using lunar proximity and invariant manifolds.md

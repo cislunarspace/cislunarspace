@@ -4,7 +4,7 @@ description: A family of parameters defining the trajectory geometry in shape-ba
 keywords: Shape Parameter, exponential sinusoid, shape-based method, low-thrust trajectory, multi-revolution Lambert problem, Petropoulos, Izzo
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Shape Parameter
   desc: The exponential-sinusoid shape parameter — core decision variable of the multi-revolution low-thrust Lambert problem.
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/fundamentals/shape-parameter/
 ---
 
-# Shape Parameter (形状参数)
+# Shape Parameter
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

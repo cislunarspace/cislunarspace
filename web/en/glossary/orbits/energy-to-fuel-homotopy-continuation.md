@@ -4,7 +4,7 @@ description: A numerical strategy for solving low-thrust fuel-optimal problems. 
 keywords: Energy-to-Fuel Homotopy Continuation
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Energy-to-Fuel Homotopy Continuation
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A numerical strategy for solving low-thrust fuel-optimal problems. It first solv
 
 ## Application Value
 
-在轨道力学分析和任务设计中，This概念为轨道特性评估和方案比选provides理论依据，有助于优化轨道设计参数，提高任务经济性。
+In orbital mechanics analysis and mission design, this concept provides the theoretical basis for evaluating orbit characteristics and comparing schemes, helping optimize orbital design parameters and improve mission cost-effectiveness.
 
 ## Related Concepts
 
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 临界轨道（Critical Orbit）
-- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Lunar Free-Return Orbit (LFO)
+- Critical Orbit
+- Quasi-Periodic Distant Retrograde Orbit (QPDRO)
 
 ## References
 

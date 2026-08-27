@@ -4,7 +4,7 @@ description: A method that randomly samples parameter sets to propagate correspo
 keywords: Monte Carlo Trajectory Shooting
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Monte Carlo Trajectory Shooting
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,11 +38,11 @@ Monte Carlo Trajectory Shooting plays an important role in orbit maneuver design
 
 ## Related Concepts
 
-- J2不变量轨道（J2-Invariant Orbit）
-- 内点法优化（Interior Point Optimization）
-- [n体动力学（N-Body Dynamics）](/en/glossary/dynamics/n-body-dynamics/)
-- 始末状态约束（Start-End State Constraint）
+- J2-Invariant Orbit
+- Interior Point Optimization
+- [N-Body Dynamics](/en/glossary/dynamics/n-body-dynamics/)
+- Start-End State Constraint
 
 ## References
 
-- Chao 等 - 2022
+- Chao et al. - 2022

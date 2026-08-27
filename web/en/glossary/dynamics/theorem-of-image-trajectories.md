@@ -4,7 +4,7 @@ description: If a trajectory is feasible in the CR3BP, then three trajectories g
 keywords: Theorem of Image Trajectories, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Theorem of Image Trajectories
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ If a trajectory is feasible in the CR3BP, then three trajectories generated via 
 
 ## Application Value
 
-该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。利用流形结构可设计低能量转移轨道，减少对推进剂的依赖。该模型是分析地月空间动力学、设计低能量转移轨道的基础工具。
+This orbit type can serve as a transit node of the Earth–Moon transportation network or as a mission target orbit. Manifold structures enable the design of low-energy transfer trajectories, reducing propellant dependence. The model is a fundamental tool for analyzing cislunar dynamics and designing low-energy transfer trajectories.
 
 ## Related Concepts
 

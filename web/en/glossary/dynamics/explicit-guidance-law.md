@@ -4,7 +4,7 @@ description: "A guidance method that computes control commands in real time from
 keywords: Explicit Guidance Law
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Explicit Guidance Law
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,15 +34,15 @@ A guidance method that computes control commands in real time from the spacecraf
 
 ## Application Value
 
-在航天器控制系统设计中，This方法可used for设计姿态控制律或制导律，achieves对航天器姿态和轨道的精确控制。在实际任务中，基于This方法的控制器能够提高姿态稳定性和轨迹跟踪精度。
+In spacecraft control system design, this method can be used to design attitude control laws or guidance laws, achieving precise control of spacecraft attitude and orbit. In practical missions, controllers based on this method improve attitude stability and trajectory tracking accuracy.
 
 ## Related Concepts
 
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 约束转化非线性规划（Constraint Conversion to Nonlinear Programming）
-- [全局搜索（Global Search）](/glossary/fundamentals/global-search/)
-- 姿态确定与控制系统（Attitude Determination and Control System）
+- Lunar Free-Return Orbit (LFO)
+- Constraint Conversion to Nonlinear Programming
+- [Global Search](/glossary/fundamentals/global-search/)
+- Attitude Determination and Control System
 
 ## References
 
-- 赵弘骞等 - 2021 - 基于动态规划的月面定点着陆快速制导方法
+- Zhao Hongqian et al. - 2021 - Fast guidance for pinpoint lunar landing based on dynamic programming

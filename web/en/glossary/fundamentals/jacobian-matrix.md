@@ -4,7 +4,7 @@ description: "The partial derivative matrix of design objectives with respect to
 keywords: Jacobian Matrix
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Jacobian Matrix
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,14 +34,14 @@ A matrix composed of partial derivatives of multivariable functions, describing 
 
 ## Application Value
 
-偏导数阵是地月空间研究的基础理论和方法。在实际应用中，该概念为轨道设计、导航计算和动力学分析提供了理论支撑，是理解更复杂空间任务问题的前提。
+The Jacobian matrix is a fundamental theory and tool in cislunar space research. In practice, it underpins orbit design, navigation computation, and dynamical analysis, and forms the prerequisite for understanding more complex space mission problems.
 
 ## Related Concepts
 
-- 牛顿万有引力定律（Newton's Law of Gravitation）
-- 三角级数（Trigonometric Series）
-- 发射三要素（Three Launch Elements）
-- [伪势（Pseudo-Potential）](/en/glossary/dynamics/jacobi-integral/)
+- Newton's Law of Gravitation
+- Trigonometric Series
+- Three Launch Elements
+- [Pseudo-Potential](/en/glossary/dynamics/jacobi-integral/)
 
 ## References
 

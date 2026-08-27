@@ -4,7 +4,7 @@ description: An index measuring the long-term stability of DRO under multi-body 
 keywords: Orbital Stability Index
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Orbital Stability Index
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An index measuring the long-term stability of DRO under multi-body perturbations
 
 ## Application Value
 
-在周期轨道设计中，该指标用于评估轨道的有界性和长期稳定性，指导轨道维持策略的制定。
+In periodic orbit design, this index evaluates orbital boundedness and long-term stability, guiding the formulation of station-keeping strategies.
 
 ## Related Concepts
 

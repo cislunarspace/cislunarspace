@@ -1,10 +1,10 @@
 ---
-title: DRO Family Classification
-description: L1/L2 classification, period-amplitude characteristics, bifurcation relations, and north-south symmetry of Distant Retrograde Orbits.
-keywords: DRO classification, L1 DRO, L2 DRO, north-south symmetry, bifurcation, Lyapunov orbit
+title: DRO Orbit Family Classification
+description: Single-parameter family structure, period-amplitude characteristics, planar family and vertical self-resonant 3D bridging families of Distant Retrograde Orbits.
+keywords: DRO classification, vertical self-resonance, bridging family, Lyapunov orbit, DRO parameters
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/dro/family-classification/
 wechatShare:
   title: "Cislunar Space Guide | DRO Family Classification"
@@ -18,56 +18,32 @@ wechatShare:
 
 # DRO Family Classification
 
-## L1 DRO vs L2 DRO
+## A Single Retrograde Family Around the Moon
 
-The DRO family can be divided into two categories based on the libration point they orbit:
+A common misconception must be cleared up first: **DROs do not orbit a libration point — they are retrograde periodic orbits around the Moon**. In the Earth–Moon rotating frame, a DRO closes about the Moon at scales far exceeding the lunar sphere of influence. Labels such as "L1 DRO / L2 DRO" have no basis; the coordinates often quoted for them (x ≈ 0.836 / 1.166) belong to the L1/L2 libration points themselves, not to any DRO geometry.
 
-**L1 DRO**: The orbit center is near the L1 point, with an x-coordinate in the rotating frame of approximately $x_{L1} \approx 0.836$ (dimensionless). L1 DROs typically have smaller orbital radii, ranging from about 0.5 to 0.8 times the Earth-Moon distance from the Earth-Moon barycenter.
+In the CR3BP, retrograde periodic solutions about the Moon form a single one-parameter family that extends continuously from small amplitudes (close to the Moon) up to amplitudes approaching the Earth–Moon distance, with period growing monotonically along the family. Mission-relevant mid- to large-amplitude members typically span 40,000–100,000 km in amplitude with periods near two weeks; the Chinese Academy of Sciences' DRO-A/B twins fly a 2:1 synodic-resonant DRO with a period of about 14 days.
 
-**L2 DRO**: The orbit center is near the L2 point, with an x-coordinate of approximately $x_{L2} \approx 1.166$. L2 DROs generally have larger orbital radii, ranging from 0.8 to 2.0 times the Earth-Moon distance.
+| Parameter | Typical range |
+| ------ | -------- |
+| Amplitude | 40,000–100,000 km |
+| Typical period | ≈ 10–16 days (grows with amplitude) |
+| Jacobi constant $C_J$ | Near 3.0 (varies slowly with amplitude) |
 
-| Property | L1 DRO | L2 DRO |
-| ---------- | -------- | -------- |
-| Libration point position (dimensionless x) | $x \approx 0.836$ | $x \approx 1.166$ |
-| Orbital radius range | 0.5-0.8 Earth-Moon distances | 0.8-2.0 Earth-Moon distances |
-| Typical period | 8-15 days | 12-25 days |
-| One-way Earth communication delay | ~1.0 s | ~1.5-2.0 s |
-| Lunar farside coverage | Poor | Poor |
+> Precise values of period and amplitude depend on the dynamical model used (CR3BP/ER3BP/ephemeris); the table gives orders of magnitude common in mission design.
 
-## Period and Amplitude
+## Planar Family and 3D Bridging Families
 
-There is a one-to-one correspondence between DRO period and the Jacobi constant $C_J$. Typical DRO parameters:
+The classical DRO lies entirely within the Earth–Moon rotating plane; it is a purely planar periodic family and has no "southern/northern" split (reflecting a planar orbit through z → −z returns the orbit itself).
 
-| Parameter | L1 DRO | L2 DRO |
-| ---------- | -------- | -------- |
-| Period range | 8-15 days | 12-25 days |
-| Semi-major axis $A_x$ | 20,000-50,000 km | 50,000-100,000 km |
-| Amplitude $A_z$ | 5,000-20,000 km | 10,000-40,000 km |
-| Jacobi constant $C_J$ | 3.03-3.08 | 3.00-3.06 |
+The structurally interesting features come from bifurcations. Along the family continuation, DROs sequentially pass through **period-doubling bifurcations** (giving rise to derived families such as Butterfly) and the **vertical self-resonant bifurcation**. Beyond the vertical self-resonant point, a chain of **bridging families** connects the planar retrograde family to three-dimensional prograde spatial orbits, producing high-inclination / polar-like morphologies known as Dragonfly and Hoverfly families. These bridging families provide a design entry point — starting from the stable planar family — for missions requiring high-inclination coverage.
 
-The relationship between period and $C_J$ can be approximated as $T \propto \sqrt{C_J - C_J^{crit}}$, where $C_J^{crit} \approx 3.0$ is the critical Jacobi constant for the existence of the DRO family in the CR3BP.
+## Relation to Lyapunov Orbits
 
-## Bifurcation Diagram
-
-There exists a rich **bifurcation** relationship between DROs and L1/L2 Lyapunov periodic orbits. Specifically:
-
-- When $C_J$ gradually increases from low values, DRO orbits progressively "shrink" and eventually merge with L1/L2 Lyapunov orbits at the bifurcation point
-- Conversely, when $C_J$ decreases from high values, Lyapunov orbits transform into DROs through bifurcation
-
-This bifurcation relationship can be identified through changes in Floquet multipliers: when Floquet multipliers cross the unit circle ($|\lambda| = 1$) as real numbers, a bifurcation occurs.
-
-On the bifurcation diagram, L1 DRO ↔ L1 Lyapunov ↔ L2 Lyapunov ↔ L2 DRO form a continuous energy evolution chain.
-
-## North-South Symmetry
-
-The rotating frame of the CR3BP possesses reflection symmetry about the $x$-$y$ plane ($z \to -z$ leaves the equations of motion unchanged). This symmetry divides the DRO family into **Northern** and **Southern** families, which are mirror images of each other.
-
-For a given L1/L2 DRO, its northern and southern families share identical dynamical properties (period, $C_J$, Floquet multipliers), but differ in their spatial orientation. Mission design can select the northern or southern family based on lighting conditions (solar angle) and communication geometry.
+Classical literature often traces the origin of DROs through bifurcation chains linking libration-point periodic orbits: as energy varies, certain branches connect the DRO family to the Lyapunov/Halo families through period-doubling and related bifurcations. Geometrically, however, a DRO is always centered on the Moon and should never be described as an orbit "near L1 or L2".
 
 ## Orbit Family Illustration
 
 ![DRO orbit schematic](../../glossary/figures/dro/barycentric-frame-and-dro-schematic.png)
 
 The figure above shows the morphology of DRO orbits in the Earth-Moon rotating frame, clearly demonstrating their retrograde characteristic (motion opposite to the rotating frame).
-
-## Simulation Experiment

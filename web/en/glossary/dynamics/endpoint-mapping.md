@@ -4,7 +4,7 @@ description: A nonlinear mapping from control functions to terminal states. The 
 keywords: Endpoint Mapping, orbital dynamics, trajectory optimization, celestial mechanics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Endpoint Mapping
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A nonlinear mapping from control functions to terminal states. The optimal contr
 
 ## Application Value
 
-[Translation needed for: 平动点附近独特的动力学环境为地月空间任务提供了特殊的轨道选择。...]
+The unique dynamical environment near the libration points offers special orbit options for cislunar missions.
 
 ## Related Concepts
 

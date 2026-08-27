@@ -4,7 +4,7 @@ description: A perturbation technique that expands both the coordinates and the 
 keywords: Lindstedt-Poincaré Method, perturbation method, secular term, halo orbit analytical solution, Richardson 1980, libration point orbit, frequency expansion
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lindstedt-Poincaré Method
   desc: A perturbation technique that expands both coordinates and frequencies to remove secular terms.
@@ -38,7 +38,7 @@ For an oscillator of the form $\ddot{x}+\omega_0^2 x = \varepsilon f(x,\dot{x})$
 
 $$\omega = \omega_0 + \varepsilon\omega_1 + \varepsilon^2\omega_2 + \cdots$$
 
-re-express the equation in the stretched time $\tau=\omega t$, and choose the $\omega_i$ at each order to suppress resonant forcing. The resulting series is uniformly ordered for all $t$ (Nayfeh 1973; 喻圣贤 2013).
+re-express the equation in the stretched time $\tau=\omega t$, and choose the $\omega_i$ at each order to suppress resonant forcing. The resulting series is uniformly ordered for all $t$ (Nayfeh 1973; Yu 2013).
 
 ## Application to CR3BP libration-point orbits
 
@@ -50,7 +50,7 @@ y(t) &= \sum_{i,j\ge 1}\Bigl(\sum_{|k|\le i}y_{ijk}\sin(k\theta)\Bigr)\alpha^i\b
 z(t) &= \sum_{i,j\ge 1}\Bigl(\sum_{|k|\le i}z_{ijk}\cos(k\theta)\Bigr)\alpha^i\beta^j,
 \end{aligned}$$
 
-with $\omega$ and $\nu$ themselves expanded in $\alpha$ and $\beta$ (喻圣贤 2013; Richardson 1980).
+with $\omega$ and $\nu$ themselves expanded in $\alpha$ and $\beta$ (Yu 2013; Richardson 1980).
 
 - When $\omega$ and $\nu$ are incommensurable, the trajectory is a **Lissajous (quasi-periodic)** orbit filling a 2-torus.
 
@@ -112,6 +112,6 @@ The workflow is robust but has known limitations: the Lindstedt-Poincaré constr
 
 - Kolemen E, Kasdin N J, Girimaji P. Quasi-periodic orbits of the restricted three-body problem. *Advances in the Astronautical Sciences*, 2006.
 
-- 喻圣贤. 深空探测中的轨道分析、设计与控制[D]. 南京大学, 2013.
+- Yu Shengxian. Orbit analysis, design, and control in deep space exploration [D]. Nanjing University, 2013.
 
 - Ren Y, Shan J. A novel algorithm for generating libration point orbits about the collinear points. *Celestial Mechanics and Dynamical Astronomy*, 2014.

@@ -4,7 +4,7 @@ description: "The distance from the perigee of a spacecraft orbit to the Earth's
 keywords: Perigee Geocentric Distance
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Perigee Geocentric Distance
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -41,7 +41,7 @@ The Perigee Geocentric Distance plays a significant role in cislunar space missi
 - Football Orbit
 - [Orbit Chain](/en/glossary/orbits/orbit-chain/)
 - Prograde Polar Orbit
-- 偏心倾角矢量分离（Eccentricity/Inclination Vector Separation）
+- Eccentricity/Inclination Vector Separation
 
 ## References
 

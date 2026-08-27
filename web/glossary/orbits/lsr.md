@@ -4,7 +4,7 @@ description: 航天器轨道运行周期与地月会合周期呈现特定有理�
 keywords: 月球同步共振, Lunar Synodic Resonance, LSR, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: 月球同步共振（Lunar Synodic Resonance, LSR）
   desc: 地月空间研究前沿、术语定义与工具资源一站式学习。

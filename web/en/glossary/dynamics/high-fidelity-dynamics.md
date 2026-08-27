@@ -4,7 +4,7 @@ description: High-accuracy orbital dynamics model incorporating non-spherical Ea
 keywords: High-Fidelity Dynamics, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: High-Fidelity Dynamics
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ High-accuracy orbital dynamics model incorporating non-spherical Earth/Moon grav
 
 ## Application Value
 
-该模型是分析地月空间动力学、设计低能量转移轨道的基础工具。
+It serves as a foundational tool for analyzing cislunar space dynamics and designing low-energy transfer trajectories.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ High-accuracy orbital dynamics model incorporating non-spherical Earth/Moon grav
 
 ## References
 
-- Chen 等 - 2026
+- Chen et al. - 2026

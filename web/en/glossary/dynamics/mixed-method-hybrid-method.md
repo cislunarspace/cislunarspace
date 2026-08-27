@@ -4,7 +4,7 @@ description: A class of trajectory optimization methods. Uses the optimal contro
 keywords: Mixed Method / Hybrid Method
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Mixed Method / Hybrid Method
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -33,7 +33,7 @@ A class of trajectory optimization methods. Uses the optimal control law derived
 
 ## Application Value
 
-在混合法的设计与分析中，可用于优化转移方案，减少燃料消耗 为航天器的精确控制提供理论依据，确保任务执行的可靠性 结合数值优化算法，可实现高性能的轨迹规划。
+In the design and analysis of mixed/hybrid methods, it can be used to optimize transfer schemes and reduce fuel consumption. It provides the theoretical basis for precise spacecraft control and helps ensure mission reliability. Combined with numerical optimization algorithms, it enables high-performance trajectory planning.
 
 ## References
 

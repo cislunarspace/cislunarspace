@@ -4,7 +4,7 @@ description: A solution corresponding to the generalized eigenvector of unit eig
 keywords: Divergent Solution, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Divergent Solution
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A solution corresponding to the generalized eigenvector of unit eigenvalues in F
 
 ## Application Value
 
-该轨道类型可作为地月空间运输网络的中转站或任务的目标轨道。该理论可用于分析周期轨道附近运动的稳定性，指导轨道保持策略。
+This orbit type can serve as a transit node of the Earth–Moon transportation network or as a mission target orbit. This theory can be used to analyze the stability of motion near periodic orbits and guide station-keeping strategies.
 
 ## Related Concepts
 
@@ -45,4 +45,4 @@ A solution corresponding to the generalized eigenvector of unit eigenvalues in F
 
 ## References
 
-- 航空学报, 2023, 44(5): 326563
+- Acta Aeronautica et Astronautica Sinica, 2023, 44(5): 326563

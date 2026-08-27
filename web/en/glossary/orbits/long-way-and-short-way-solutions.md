@@ -4,7 +4,7 @@ description: "Two feasible solutions that Lambert's problem admits when no singu
 keywords: Long-Way and Short-Way Solutions, orbit design, transfer trajectory, periodic orbit
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Long-Way and Short-Way Solutions
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Two feasible solutions that Lambert's problem admits when no singularity exists.
 
 ## Application Value
 
-[Translation needed for: 该概念在地月空间轨道设计、导航控制或任务分析中具有重要应用价值，理解其内涵有助于掌握相关领域的核心知...]
+This concept is of significant value in cislunar orbit design, navigation control, and mission analysis; understanding its essence helps master the core knowledge of related fields.
 
 ## Related Concepts
 

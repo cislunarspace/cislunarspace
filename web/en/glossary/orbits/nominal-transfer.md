@@ -4,7 +4,7 @@ description: Reference transfer trajectory computed in the CR3BP model.
 keywords: Nominal Transfer
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Nominal Transfer
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -38,10 +38,10 @@ Based on its definition, reference transfer trajectory computed in the cr3bp mod
 
 ## Related Concepts
 
-- 周期轨道（Periodic Orbit）
-- 平动点轨道（Libration Point Orbit）
-- 轨道转移（Orbit Transfer）
+- Periodic Orbit
+- Libration Point Orbit
+- Orbit Transfer
 
 ## References
 
-- Haapala和Howell, 2016
+- Haapala and Howell, 2016

@@ -4,7 +4,7 @@ description: "Elastic deformation of the Moon's solid surface caused by Earth's 
 keywords: Lunar Solid Tide
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lunar Solid Tide
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,15 +34,15 @@ Elastic deformation of the Moon's solid surface caused by Earth's gravitational 
 
 ## Application Value
 
-在轨道力学分析和任务设计中，This概念为轨道特性评估和方案比选provides理论依据，有助于优化轨道设计参数，提高任务经济性。
+In orbital mechanics analysis and mission design, this concept provides the theoretical basis for evaluating orbit characteristics and comparing design options, helping optimize orbit design parameters and improve mission cost-effectiveness.
 
 ## Related Concepts
 
-- [运行轨道库（Operational Orbit Library）](/glossary/orbits/operational-orbit-library/)
-- 月球自由返回轨道（Lunar Free-Return Orbit, LFO）
-- 临界轨道（Critical Orbit）
-- 准周期远距离逆行轨道（Quasi-Periodic Distant Retrograde Orbit, QPDRO）
+- [Operational Orbit Library](/glossary/orbits/operational-orbit-library/)
+- Lunar Free-Return Orbit, LFO
+- Critical Orbit
+- Quasi-Periodic Distant Retrograde Orbit, QPDRO
 
 ## References
 
-- Chen 等 - 2026
+- Chen et al. - 2026

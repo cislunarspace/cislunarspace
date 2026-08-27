@@ -4,7 +4,7 @@ description: The full dynamical model including gravitational effects of the sun
 keywords: Sun-Earth-Moon System, Sun-Earth-Moon System
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Sun-Earth-Moon System
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ The full dynamical model including gravitational effects of the sun, Earth, and 
 
 ## Application Value
 
-在航天器动力学建模中，需要准确描述引力场、摄动力和坐标系变换。该概念是进行轨道力学分析、姿态控制和任务设计的基础。
+In spacecraft dynamics modeling, the gravity field, perturbing forces, and coordinate-frame transformations must be described accurately. This concept provides the foundation for orbital mechanics analysis, attitude control, and mission design.
 
 ## Related Concepts
 

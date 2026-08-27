@@ -4,7 +4,7 @@ description: Dynamical mechanism, stability analysis, orbit family evolution, an
 keywords: DRO, Distant Retrograde Orbit, three-body dynamics, orbital stability, cislunar space
 author: CislunarSpace
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/dro/
 wechatShare:
   title: Distant Retrograde Orbit (DRO) Overview
@@ -40,10 +40,10 @@ Standard prograde orbits around the Moon suffer strong gravitational perturbatio
 
 | Dimensional Metric | Distant Retrograde Orbit (DRO) | Near-Rectilinear Halo Orbit (NRHO) |
 | :--- | :--- | :--- |
-| **Spatial Geometry** | Planar in Earth–Moon rotating frame, retrograde around Moon, scale 30,000–100,000 km | Out-of-plane 3D orbit, highly eccentric, perilune located over lunar polar regions |
+| **Spatial Geometry** | Planar in Earth–Moon rotating frame, retrograde around Moon, amplitudes of order 40,000–100,000 km | Out-of-plane 3D orbit, highly elongated, perilune located over lunar polar regions |
 | **Natural Stability** | Linearly stable in CR3BP, highly resilient against perturbations | Weakly unstable with local hyperbolic manifold structures; requires active station-keeping |
 | **Annual Station-Keeping $\Delta V$** | $< 5\text{ m/s}$ | $\approx 2\text{ to } 10\text{ m/s}$ |
-| **Lunar Surface Accessibility** | Requires substantial impulse ($\approx 800\text{ m/s}$) to enter Low Lunar Orbit (LLO) | Low perilune altitude; low $\Delta V$ requirement ($\approx 200\text{ to } 400\text{ m/s}$) to descent/landing orbit |
+| **Lunar Surface Accessibility** | Departing DRO for low lunar orbit requires a substantial braking impulse, making surface access costly | Low perilune altitude; the NRHO insertion impulse is only ≈ 200–400 m/s before descent operations begin |
 | **Core Mission Role** | Deep-space logistics hub, heavy cargo long-term storage, space-based astronomy | Crewed lunar landing staging outpost, continuous lunar polar relay |
 
 ## Typical Mission Scenarios
@@ -56,5 +56,5 @@ Capitalizing on their favorable dynamical properties, DROs are primarily utilize
 
 ## In-Depth Topics
 
-- **Design Parameters & Orbit Families**: Read [DRO Design Parameters](/en/cislunar-orbits/dro/numerical-orbit-generation/) to master initial condition selection and numerical continuation procedures.
+- **Design Parameters & Orbit Families**: Read [DRO Design Parameters](/en/cislunar-orbits/dro/design-method/) to master initial condition selection and numerical continuation procedures.
 - **Transfer & Phasing Control**: Read [DRO-to-Lyapunov Transition Phasing](/en/glossary/dynamics/dld/) to explore constellation deployment and low-thrust phasing reconfiguration techniques.

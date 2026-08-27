@@ -4,7 +4,7 @@ description: 从近地轨道出发，经地月L1点Lyapunov轨道的渐近轨道
 keywords: 内部转移, Interior Transfer, 轨道, 轨道设计, 转移轨道
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Interior Transfer
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,16 +34,16 @@ Transfer to a lunar DRO via the asymptotic orbit of the Earth-Moon L1 Lyapunov o
 
 ## Application Value
 
-内部转移是地月空间轨道设计中的重要参考轨型，可用于目标轨道选择和转移方案设计 在实际任务中，基于内部转移的轨道设计能够满足特定的任务约束，如通信仰角、覆盖范围和燃料最优等要求 利用内部转移的特性，可以优化转移轨道设计，实现从地球到月球的高效转移 内部转移为月球探测任务提供了多样化的轨道选择方案，有助于任务的灵活规划
+Interior transfer is an important reference orbit type in cislunar orbit design and can be used for target orbit selection and transfer scheme design. In actual missions, orbit design based on Interior transfer can satisfy specific mission constraints such as communication elevation angle, coverage, and fuel optimality. Exploiting the characteristics of Interior transfer allows transfer trajectory optimization for efficient Earth-to-Moon transfers. Interior transfer offers diverse orbit options for lunar exploration missions and supports flexible mission planning.
 
 ## Related Concepts
 
-- [月心段](/en/glossary/orbits/selenocentric-segment/)
-- 垂直振幅
-- [z方向运动振幅](/en/glossary/orbits/zm/)
+- [Selenocentric Segment](/en/glossary/orbits/selenocentric-segment/)
+- Out-of-plane Amplitude
+- [z-direction Motion Amplitude](/en/glossary/orbits/zm/)
 
 ## References
 
 - Tan Minghu et al., 2014, Transfer to long term distant retrograde orbits around the Moon
-- Kakoi 等 - 2014
+- Kakoi et al. - 2014
 - Topputo 2013

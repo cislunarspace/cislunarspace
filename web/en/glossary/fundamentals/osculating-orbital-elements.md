@@ -4,7 +4,7 @@ description: At any given instant, the six Keplerian orbital elements of the two
 keywords: Osculating Orbital Elements, Keplerian elements, mean elements, Lagrange planetary equations, Gauss planetary equations, condition of osculation, perturbation theory, Poincaré section, orbit determination, VOP
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Osculating Orbital Elements (吻切轨道根数)
   desc: Instantaneous Keplerian elements—containing all short/long-periodic variations—representing the high-precision real-time trajectory.
@@ -22,7 +22,7 @@ twitter:
 permalink: /en/glossary/fundamentals/osculating-orbital-elements/
 ---
 
-# Osculating Orbital Elements (吻切轨道根数)
+# Osculating Orbital Elements
 
 > Author: [Tianjiang Shuo](https://blog.csdn.net/qq_33254264)
 >

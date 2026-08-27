@@ -4,7 +4,7 @@ description: Region of the initial costate locus where S≤1, corresponding to l
 keywords: Parabolic Region, dynamics
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Parabolic Region
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Region of the initial costate locus where S≤1, corresponding to low-thrust tra
 
 ## Application Value
 
-在设计地月转移方案时，利用该轨道特性可降低任务总速度增量需求。对于大质量航天器的长时间转移，该推进方式可大幅降低推进剂消耗。
+When designing Earth–Moon transfer schemes, exploiting this orbit characteristic reduces the total mission ΔV requirement. For long-duration transfers of high-mass spacecraft, this propulsion approach can substantially reduce propellant consumption.
 
 ## Related Concepts
 

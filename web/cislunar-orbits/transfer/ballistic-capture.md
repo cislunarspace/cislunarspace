@@ -8,7 +8,7 @@ wechatShare:
 keywords: 弹道捕获, Ballistic Capture, 低能转移, WSB, 弱稳定边界, 月球引力辅助
 author: 天疆说
 date: 2026-04-26
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /cislunar-orbits/transfer/ballistic-capture/
 ---
 
@@ -32,7 +32,7 @@ permalink: /cislunar-orbits/transfer/ballistic-capture/
 | ------ | ---------- | ---------- |
 | 月球附近推进 | 无需 | 需要（$\Delta V \sim 0.8-1.0$ km/s） |
 | 发射时机要求 | 非常精确（窗口窄） | 相对宽松 |
-| 转移时间 | 较长（1-3 个月） | 较短（3-5 天） |
+| 转移时间 | 较长（约 2 至 4 个月） | 较短（3-5 天） |
 | 燃料效率 | 高 | 中等 |
 | 任务适用性 | 小型探测器、立方星 | 载人、货运、紧急任务 |
 
@@ -40,7 +40,7 @@ permalink: /cislunar-orbits/transfer/ballistic-capture/
 
 弹道捕获是**弱稳定边界**（Weak Stability Boundary，WSB）转移理论的核心实现手段。
 
-WSB 理论由意大利数学家 Belbruno 和 Miller 于 1987 年提出，其核心发现是：在地月系统中存在一条"弱稳定边界"，跨越该边界的转移可以在极低的能量下完成。具体过程：
+WSB 理论由 Belbruno 在 1980 年代后期提出，他与 Miller 于 1993 年系统给出了利用太阳引力摄动实现地月弹道捕获的转移设计方法。具体过程：
 
 1. 发射时瞄准月球前方某点（而非月球本身）
 2. 利用太阳引力摄动和月球引力相互作用
@@ -53,7 +53,7 @@ WSB 理论由意大利数学家 Belbruno 和 Miller 于 1987 年提出，其核�
 
 ### 优势
 
-1. **燃料节省**：弹道捕获可将 TLI 阶段的 $\Delta V$ 降低约 200-300 m/s
+1. **燃料节省**：弹道捕获的发射能量与直接转移相当（差距在数十米每秒内），主要节省出现在到达月球时的捕获制动环节（数百米每秒量级）
 2. **发射窗口放宽**：虽然需要精确时机，但可通过预先规划选择最优窗口
 3. **适合小卫星**：对于 $\Delta V$ 预算紧张的小型探测器，弹道捕获提供了可行的转移方案
 

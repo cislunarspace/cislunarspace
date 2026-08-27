@@ -4,7 +4,7 @@ description: A state in which a spacecraft orbital period is in a simple integer
 keywords: Lunar Synodic Resonance, LSR, synodic resonance, NRHO, near rectilinear halo orbit, eclipse avoidance, Gateway, BCR4BP, cislunar space, synodic resonant orbit
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-08-09
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lunar Synodic Resonance (LSR)
   desc: Commensurate orbital and lunar synodic periods — the key mechanism behind Gateway NRHO eclipse avoidance.
@@ -58,7 +58,7 @@ The following table lists key synodic resonant NRHOs along the $L_2$ halo family
 
 | Resonance | Orbital Period | Perilune Radius | Apolune Radius | Remarks |
 |-----------|----------------|-----------------|----------------|---------|
-| 9:2 | ~6.53 days | ~3150 km | ~71000 km | Gateway baseline; 9 revs = 2 synodic periods (~59 days) |
+| 9:2 | ~6.56 days | ~3150 km | ~71000 km | Gateway baseline; 9 revs = 2 synodic periods (~59 days) |
 | 4:1 | ~7.34 days | ~5600 km | ~75335 km | 4 revs = 1 synodic period; wider eclipse margins |
 | 3:1 | ~9.79 days | ~15000 km | ~84500 km | Simple ratio but higher perilune |
 | 5:1 | ~5.90 days | — | — | Very low perilune |

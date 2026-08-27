@@ -4,7 +4,7 @@ description: "Nonlinear optimization methods that find optimal solutions under g
 keywords: Constrained Nonlinear Optimization
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Constrained Nonlinear Optimization
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ Nonlinear optimization methods that find optimal solutions under given constrain
 
 ## Application Value
 
-在轨道控制律设计中，该方法通过优化推力方向和大小实现燃料消耗最小化，是深空任务的核心技术。
+In orbit control law design, this method minimizes fuel consumption by optimizing thrust direction and magnitude, making it a core technology for deep-space missions.
 
 ## Related Concepts
 

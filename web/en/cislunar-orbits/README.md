@@ -4,7 +4,7 @@ description: Overview of cislunar orbital dynamics, covering the circular restri
 keywords: cislunar orbits, CR3BP, libration points, NRHO, DRO, Halo orbits, transfer orbits
 author: CislunarSpace
 date: 2026-03-07
-lastUpdated: 2026-04-26
+lastUpdated: 2026-08-27
 permalink: /en/cislunar-orbits/
 wechatShare:
   title: Cislunar Orbital Dynamics Architecture
@@ -40,9 +40,9 @@ Transitioning from two-body Keplerian orbits to a three-body dynamical system in
 
 | Orbit Family | Dynamical Characteristics | Typical Period & Maintenance Cost | Primary Mission Scenarios |
 | :--- | :--- | :---: | :--- |
-| **Near-Rectilinear Halo Orbit (NRHO)** | Large-amplitude Halo orbits around $L_1$/$L_2$ with extremely low perilune and high apolune | Period: 6.5–8 days; Annual $\Delta V < 10\text{ m/s}$ | Continuous lunar south pole coverage, Lunar Gateway staging, surface landing relay |
-| **Distant Retrograde Orbit (DRO)** | Planar retrograde lunar orbit with long-term balance between Coriolis and gravitational forces | Period: 10–14 days; Practically zero station-keeping in unperturbed models | Long-term staging depots, deep-space logistics hubs, space-based astronomy |
-| **Libration Point Halo Orbits** | 3D periodic orbits around $L_1$/$L_2$/$L_3$ libration points, categorized into northern and southern branches | Period: ~14 days; Requires periodic small station-keeping maneuvers | Lunar farside relay communications (e.g., Queqiao), Sun–Earth deep space exploration |
+| **Near-Rectilinear Halo Orbit (NRHO)** | Large-amplitude Halo orbits around $L_1$/$L_2$ with extremely low perilune and high apolune | Period on the order of one week (9:2 synodic-resonant members: 6.56 days); annual station-keeping $\Delta V$ of a few m/s | Continuous lunar south pole coverage, Lunar Gateway staging, surface landing relay |
+| **Distant Retrograde Orbit (DRO)** | Planar retrograde lunar orbit; period grows with orbital amplitude (typical mission-relevant members near two weeks) | Period: 10–15 days; linearly stable in the CR3BP, practically no station-keeping needed | Long-term staging depots, deep-space logistics hubs, space-based astronomy |
+| **Libration Point Halo Orbits** | 3D periodic orbits around $L_1$/$L_2$/$L_3$ libration points, categorized into northern and southern branches | Period: 10–16 days; requires periodic small station-keeping maneuvers | Lunar farside relay communications (e.g., Queqiao), science observation platforms |
 | **Low-Energy Transfer Corridors** | Ballistic propagation along invariant manifold tubes in three-body phase space, utilizing Weak Stability Boundary (WSB) capture | Transfer time: weeks to months; Saves $>15\%\ \Delta V$ compared to Hohmann transfer | Cargo logistics, CubeSat lunar exploration, propellant-constrained missions |
 
 ## Topic Navigation

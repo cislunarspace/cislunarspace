@@ -4,7 +4,7 @@ description: "A class of low-energy cislunar transfer trajectories exemplified b
 keywords: SMART-like Transfer
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: SMART-like Transfer
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -32,7 +32,7 @@ A class of low-energy cislunar transfer trajectories exemplified by ESA's SMART-
 
 ## Application Value
 
-根据Jacobi能量划分转移可行区域，可以快速筛选出满足任务约束的地月转移轨道方案，减少轨道优化的搜索空间。
+By partitioning feasible transfer regions according to Jacobi energy, Earth–Moon transfer schemes satisfying mission constraints can be quickly screened out, narrowing the search space for orbit optimization.
 
 ## References
 

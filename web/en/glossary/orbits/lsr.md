@@ -4,7 +4,7 @@ description: "An integer ratio relationship between the spacecraft's orbital per
 keywords: Lunar Synodic Resonance, LSR, orbits
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Lunar Synodic Resonance, LSR
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An integer ratio relationship between the spacecraft's orbital period and the Mo
 
 ## Application Value
 
-The 月球同步共振 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Lunar Synodic Resonance concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

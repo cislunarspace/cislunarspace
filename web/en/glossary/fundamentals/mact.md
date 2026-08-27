@@ -4,7 +4,7 @@ description: A technique to expand the convergence domain of indirect optimal co
 keywords: Mapped Adjoint Control Transformation, MACT, fundamentals
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Mapped Adjoint Control Transformation, MACT
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ A technique to expand the convergence domain of indirect optimal control methods
 
 ## Application Value
 
-The 映射伴随控制变换 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The mapped adjoint control transformation concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 

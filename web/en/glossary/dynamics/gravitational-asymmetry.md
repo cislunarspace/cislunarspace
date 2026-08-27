@@ -4,7 +4,7 @@ description: "The ratio of the third-body perturbation acceleration at a spacecr
 keywords: Gravitational Asymmetry
 author: Tianjiang Shuo
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Gravitational Asymmetry
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,15 +34,15 @@ The ratio of the third-body perturbation acceleration at a spacecraft's position
 
 ## Application Value
 
-在导航系统设计中，This技术可used forachieves航天器自主导航定位，减少对地面测控的依赖。through优化观测几何和算法精度，可提高导航定位的准确性和可靠性。
+In navigation system design, this technique can be used to achieve autonomous spacecraft navigation and positioning, reducing dependence on ground tracking. By optimizing observation geometry and algorithm accuracy, positioning accuracy and reliability can be improved.
 
 ## Related Concepts
 
-- [地心天体参考框架（Geocentric Celestial Reference Frame）](/en/glossary/fundamentals/inertial-reference-frames/)
-- 机动重构（Maneuver Reconstruction）
-- [内部频率（Inner Frequencies）](/glossary/dynamics/inner-frequencies/)
-- 功能连接理论（Theory of Functional Connections）
+- [Geocentric Celestial Reference Frame](/en/glossary/fundamentals/inertial-reference-frames/)
+- Maneuver Reconstruction
+- [Inner Frequencies](/glossary/dynamics/inner-frequencies/)
+- Theory of Functional Connections
 
 ## References
 
-- 黄勇 等 - 2023 - 地月空间探测器星间测距自主定轨
+- Huang Yong et al. - 2023 - Autonomous orbit determination of cislunar probes via inter-satellite ranging

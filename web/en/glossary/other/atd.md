@@ -4,7 +4,7 @@ description: An interactive trajectory design environment developed at Purdue Un
 keywords: Adaptive Trajectory Design, other
 author: 天疆说
 date: 2026-07-31
-lastUpdated: 2026-07-31
+lastUpdated: 2026-08-27
 wechatShare:
   title: Adaptive Trajectory Design
   desc: Cislunar space research frontiers, term definitions, and tools resources.
@@ -34,7 +34,7 @@ An interactive trajectory design environment developed at Purdue University. It 
 
 ## Application Value
 
-The 自适应轨迹设计 concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
+The Adaptive Trajectory Design concept is applied in cislunar space research, providing technical support or analytical methods for lunar exploration missions.
 
 ## Related Concepts
 
